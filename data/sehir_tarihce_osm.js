@@ -18907,24 +18907,58 @@ window.SEHIR_TARIHCE_OSM = [
    "Hürremâbâd / Khurramabad"
   ],
   "ilk": {
-   "t": "1340-01-01",
-   "gun": "740 (1340)",
-   "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
-   "kaynak": "Hamdullah Müstevfî, Nüzhetü'l-kulûb (740/1340), G. Le Strange, The Lands of the Eastern Caliphate (1905) s. 201 aktarımıyla; hicrî 740 ∩ 1340 ilk günü, tablo takvimi, Jülyen",
-   "tanik": "Khurramabad, when Mustawfi wrote in the 8th (14th) century, was a fine town"
-  },
-  "kur": null,
-  "ark": {
    "t": "1123-01-01",
    "gun": "1123",
+   "nicelik": "ilk_anilis",
    "kesinlik": "yil",
-   "kaynak": "Iranica KHORRAMABAD (E. Ehlers), Curzon'dan alıntı: Atabeg şehri kalıntılarında 'a quadrangular brick tower with a Naskh inscription, bearing the date 1123 A.D.'"
+   "kaynak": "G. N. Curzon, Persia and the Persian Question II (1892) s. 276-277 (archive.org dli.pahar.1255, metin okundu); Iranica KHORRAMABAD (E. Ehlers) aynı pasajı aktarır",
+   "tanik": "quadrangular brick tower with a Naskh inscription, bearing the date 1123 A.D."
   },
+  "kur": null,
+  "ark": null,
   "bit": null,
-  "sahip": [],
-  "olay": [],
-  "ic_not": "ZİNCİR YOK — atlas düzeltmesi önerisi (yazılı tanık önceliği). Le Strange: Hürremâbâd adı ortaçağ Arap coğrafyacılarında geçmez; Şâpûrhâst ile eşitlenmesi yanlıştır (Müstevfî ikisini ayrı anar); Müstevfî 8./14. yy'da Hürremâbâd'ı Küçük Lur'un üç şehrinden biri sayar. Müstevfî'nin Târîh-i Güzîde'si (730/1330, tarih doğrulanmadı) daha erken olabilir. TDV LURİSTAN ('Hürremâbâd, Burûcird ve Şâpûr bölgenin en eski şehirleridir') ve TDV LUR-ı KÛÇEK ('Başşehirleri Hürremâbâd') ile Iranica ('capital city ... from 1184 to 1596') hânedan ömrünü anlatır, şehri tarihlemez — çağrışım sayıldı, başlangıç yapılmadı; Le Strange'a göre eski başkent Şâpûrhâst'tı. ARKEOLOJİK: 1123 tarihli kitâbeli tuğla kule (Curzon) yerleşimin 1281'den önce var olduğunu gösterir; atlasın 1281 başlangıcı arkeolojik olarak mümkün ama yazılı tanığı yok. Atlas noktası adı 'Luristan' (tur: bolge) — bu bir şehir noktası olarak Hürremâbâd'dır (TDV LURİSTAN 'merkezi Hürremâbâd'); atlas 1281-1353 ilhanli yazıyor, TDV LUR-ı KÛÇEK'e göre doğrudan sahip Lur-ı Kûçek atabegleri (1184-1597; Abaka Han 677/1278-79'da atabeg tayin etti) — atlas 1353'ten itibaren lur-i-kucek yazıyor, 1281-1353 dilimi de lur-i-kucek (İlhanlı tâbii) olmalı. Koordinat: 0,1 km."
+  "sahip": [
+   {
+    "f": "1123-01-01",
+    "t": "1184-04-14",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV LURİSTAN (R. Kurtuluş); TDV LUR-ı KÛÇEK (R. Kurtuluş); Iranica ATĀBAKĀN-E LORESTĀN (B. Spuler)",
+    "ic_not": "Selçuklu çağı: doğrudan sahip tarihlenemedi. TDV LURİSTAN: 'Selçuklular zamanında Bersekiyân adlı bir Türk aşireti yönetimi ele geçirdi' (başlangıç yılı yok). TDV LUR-ı KÛÇEK: son Selçuklu yıllarında Luristan ve Hûzistan'da Hüsâmeddin Şuhlî hüküm sürdü, Şücâüddin Hurşîd onun Luristan şahnesiydi. 1123'te şehri hangisinin (ya da doğrudan Irak Selçuklu valisinin) tuttuğu kaynakta yok — boşluk beyanlı."
+   },
+   {
+    "f": "1184-04-14",
+    "t": "1281-01-01",
+    "d": "lur-i-kucek",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV LUR-ı KÛÇEK (R. Kurtuluş): Hurşîd 'Luristan'ın kuzey ve batı bölgelerinde tam bir hâkimiyet kurdu (580/1184)', 'Başşehirleri Hürremâbâd'; hicrî 580 ∩ 1184 ilk günü = 1 Muharrem 580, çeviri: tablo takvimi, Jülyen; Iranica ATĀBAKĀN-E LORESTĀN (Spuler): 'ruled from Ḵorramābād'",
+    "ic_not": "Başlangıç: hicrî 580 (1184-04-14 – 1185-04-03) ∩ TDV'nin mîlâdî 1184'ü → kesişimin ilk günü 1184-04-14. Spuler alternatif olarak 570/1174-75 de anar; TDV esas. Öncül dilim __BOSLUK__ olduğundan uç çakışması yok. 1258'den sonra atabegler İlhanlı tâbii (Abaka, Geyhatu, Gâzân atabeg tayin/azlederler — TDV, Spuler); doğrudan sahip atabeglik sürer, metbu İlhanlı. Bitiş = atlasın ilk günü."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1184-04-14",
+    "gun": "580 (1184)",
+    "k": "kurulus",
+    "b": "Hüsâmeddin Şuhlî'nin ölümü üzerine Şücâüddin Hurşîd Luristan'da bağımsız hâkimiyet kurdu (Lur-ı Kûçek atabegliği, merkez Hürremâbâd)",
+    "kaynak": "TDV LUR-ı KÛÇEK (R. Kurtuluş): 580/1184; hicrî 580 ∩ 1184 ilk günü, tablo takvimi, Jülyen; Iranica ATĀBAKĀN-E LORESTĀN (Spuler): 580/1184-85"
+   },
+   {
+    "t": "1278-05-25",
+    "gun": "677 (1278-79)",
+    "k": "vassal",
+    "b": "Abaka Han Tâceddin b. Hüsâmeddin Halîl'i Lur-ı Kûçek atabegi tayin etti (İlhanlı metbuluğu)",
+    "kaynak": "TDV LUR-ı KÛÇEK (R. Kurtuluş): 677/1278-79; hicrî 677 ∩ 1278 ilk günü, tablo takvimi, Jülyen. Iranica (Spuler) Tâceddin'in 677/1278-79'da İlhan emriyle idamını yazar — tayin tarihi orada daha erkendir (Hülâgû adına Abaka)"
+   }
+  ],
+  "dikis_beyan": "Atlas 1281-01-01'de 'Luristan' noktasını ilhanli ile başlatır; kaynaklara göre (TDV LUR-ı KÛÇEK, Iranica Spuler) şehri doğrudan tutan Lur-ı Kûçek atabegleridir, İlhanlı metbudur — 1281'de el değiştirme yok, tarihî olay yazılamaz. Atlas düzeltmesi önerisi: 1281-01-01 – 1353-01-01 dilimi lur-i-kucek (İlhanlı tâbii) olmalı.",
+  "ic_not": "İLK ANILIŞ = YERİNDE KİTABE (Emre kararı 14 Ekim 2026). Curzon II 276-277: Hürremâbâd kalesinin (Bala Hisar, bugünkü Felekü'l-Eflâk) eteğindeki ırmağın karşı yakasında, 'az ötede' Atabeg şehrinin kalıntıları ve bunlardan 1123 tarihli nesih kitâbeli dörtgen tuğla kule. Yer bugünkü Hürremâbâd'dır (aynı ırmak, kaleye 'a little distance'), atlas noktası kaleden 0,1 km — 3 km içinde. Tarih kaynakta açık (mîlâdî yıl; hicrî asıl ve ay Curzon'da yok, kesinlik yil). Curzon Hürremâbâd'ı kendisi görmemiş olabilir; Iranica (Ehlers) pasajı aynen aktarır. Eski ilk (1340, Müstevfî, Le Strange s. 201) yazılı ad tanığı olarak kalır: Le Strange'a göre Hürremâbâd adı ortaçağ Arap coğrafyacılarında geçmez, Müstevfî 8./14. yy'da şehri Küçük Lur'un üç şehrinden sayar. AYRICA ÖNERİ (yapılmadı): (1) Hürremâbâd'da Irak Selçuklu Sultanı Mahmud'un emîri Ebû Saîd Bursuk adına 513 (1119-20) tarihli Kûfî taş kitâbe (Sang-neveşte) bildiriliyor — yalnız Lorestan Üniversitesi tanıtım sayfasında görüldü, akademik yayın bulunamadı; doğrulanırsa ilk 1119-20'ye iner ve 1123 sahibi için Bursukîler/Bersekiyân tanığı olur. (2) Eslami Nasab ve ark., Archaeological Research of Iran 8/18 (2018) Şâpûrhâst'ı bugünkü Hürremâbâd'ın güney-güneydoğusuna (Tuğla Minare çevresi) yerleştirir, en eski anılış İbnü'l-Fakīh (290/903); Le Strange ise Şâpûrhâst ile Hürremâbâd'ı ayırır — eşitleme yeri kesin olmayan ad eşitlemesi sayıldı, başlangıç yapılmadı. Curzon'un dipnotu: 'thought to have been the Samha of the Middle Ages' (doğrulanmadı). Atlas noktası adı 'Luristan' (tur: bolge) — nokta Hürremâbâd'dır (TDV LURİSTAN 'merkezi Hürremâbâd'). Koordinat: 0,1 km."
  },
  {
   "id": "kirklareli",
