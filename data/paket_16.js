@@ -145,7 +145,8 @@ window.HUKUKI_SINIRLAR = [
 
   kapsama: {
     tur: "paralel-esigi",
-    kutu: { lat_min: 20.0, lat_max: 24.0, lon_min: 24.0, lon_max: 37.0 },
+    kutu: { lat_min: 20.0, lat_max: 24.0, lon_min: 25.0, lon_max: 36.887 },
+    kutu_kaynagi: "14 Ekim 2026 (KARARLAR-1014 m.32, 0076/H-0148): kutu kıyıya oturtuldu — doğu ucu 22°K paralelinin Kızıldeniz kıyısını kestiği boylam 36.8865°D (veri-kaynak/ne_10m_land.geojson, Natural Earth 10m, bu oturum ölçtü; eski 37.0 denize taşıyordu). Batı ucu 25°D: Mısır-Libya-Sudan üçlü noktası (veri-kaynak/ne_10m_admin_0_countries.geojson, BUGÜNKÜ sınır) — 1899'da batı ucu antlaşmada TANIMSIZ, 25°D yalnız çizim alanını Libya çölüne taşırmamak için; YAKLAŞIKLIK BEYANI (eski 24.0).",
     yon_kurali: "P.lat >= 22.0 -> taraflar[0] (misir-kavalali, KUZEY) ; P.lat < 22.0 -> taraflar[1] (ingiliz-sudani, GÜNEY)"
   },
 
@@ -318,7 +319,8 @@ window.HUKUKI_SINIRLAR = [
   taraflar: ["osmanli", "habsburg"],
   hassasiyet: "cizgi",
   f: "1699-01-26",
-  t: "1918-11-11", // habsburg'un kendi sonu (devletler.js) — t:null çökmesinden kaçınmak için
+  t: "1718-07-21", // 14 Ekim 2026 (KARARLAR-1014 m.23): Pasarofça (21 Temmuz 1718) Sava'nın güneyinde bir şeridi Habsburg'a verdi — Karlofça'nın Sava hattı o gün geçersiz; eski t 1918-11-11 (habsburg künye sonu) idi
+  lejant: "Karlofça (1699) Bosna-Sava hukukî sınırı — Pasarofça'ya (1718) kadar",
   // 🔴 NOKTA SIRASI ÖNEMLİ — kıyas ölçümü sırasında bulundu ve DÜZELTİLDİ:
   // app.js/_cKayitGeometrisi SABİT bir kural kullanıyor (negatif cross ->
   // taraflar[0], pozitif -> taraflar[1], STRING yon_kurali OKUNMUYOR —
@@ -333,6 +335,54 @@ window.HUKUKI_SINIRLAR = [
     nokta_dizisi: [
       { lon: 17.988, lat: 45.138, ad: "Brod Kalesi (Bosanski Brod)",
         kaynak: "data/yerlesimler_ek29.js 'Bosna Brod'u (Bosanski Brod)' kaydı — aynı yer olduğu o kaydın kendi notunda belirtilmiş", dogrulanmadi: false },
+      // 🆕 14 Ekim 2026 (KARARLAR-1014 m.23, 0076/H-0116 · 0082/H-0004): ara noktalar Sava'nın gerçek akışı —
+      // veri-kaynak/ne_10m_rivers.geojson 'Sava' (Natural Earth 10m), Brod→Bosut sırası korunarak ~2 km inceltildi.
+      // Eski çizim iki uç arasında DÜZ KİRİŞTİ. Uçlar değişmedi.
+      { lon: 18.0186, lat: 45.1497 },
+      { lon: 18.0898, lat: 45.1082 },
+      { lon: 18.1313, lat: 45.0981 },
+      { lon: 18.1745, lat: 45.1010 },
+      { lon: 18.1987, lat: 45.1192 },
+      { lon: 18.2018, lat: 45.1444 },
+      { lon: 18.2373, lat: 45.1577 },
+      { lon: 18.2615, lat: 45.1510 },
+      { lon: 18.3068, lat: 45.1278 },
+      { lon: 18.3923, lat: 45.1188 },
+      { lon: 18.4287, lat: 45.1025 },
+      { lon: 18.4655, lat: 45.0743 },
+      { lon: 18.4902, lat: 45.0631 },
+      { lon: 18.5165, lat: 45.0561 },
+      { lon: 18.5387, lat: 45.0696 },
+      { lon: 18.5344, lat: 45.0907 },
+      { lon: 18.5733, lat: 45.0917 },
+      { lon: 18.6021, lat: 45.0996 },
+      { lon: 18.6276, lat: 45.0803 },
+      { lon: 18.6482, lat: 45.0629 },
+      { lon: 18.6628, lat: 45.0775 },
+      { lon: 18.6886, lat: 45.0805 },
+      { lon: 18.7258, lat: 45.0264 },
+      { lon: 18.7495, lat: 45.0125 },
+      { lon: 18.7775, lat: 45.0106 },
+      { lon: 18.7941, lat: 44.9957 },
+      { lon: 18.8025, lat: 44.9776 },
+      { lon: 18.7793, lat: 44.9525 },
+      { lon: 18.7829, lat: 44.9140 },
+      { lon: 18.8171, lat: 44.8878 },
+      { lon: 18.8582, lat: 44.8688 },
+      { lon: 18.8892, lat: 44.8614 },
+      { lon: 19.0044, lat: 44.8636 },
+      { lon: 19.0473, lat: 44.8729 },
+      { lon: 19.0840, lat: 44.8792 },
+      { lon: 19.1738, lat: 44.9256 },
+      { lon: 19.1965, lat: 44.9134 },
+      { lon: 19.2290, lat: 44.9140 },
+      { lon: 19.2834, lat: 44.9086 },
+      { lon: 19.3097, lat: 44.9126 },
+      { lon: 19.3296, lat: 44.8990 },
+      { lon: 19.3589, lat: 44.9012 },
+      { lon: 19.3249, lat: 44.9223 },
+      { lon: 19.3716, lat: 44.9139 },
+      { lon: 19.3975, lat: 44.9235 },
       { lon: 19.3706, lat: 44.9411, ad: "Bosut'un Sava'ya döküldüğü yer (Bosut köyü, Sırbistan)",
         kaynak: "Wikipedia 'Bosut' (nehir maddesi), 44°56′28″N 19°22′14″E — KITA 30 bu turda doğruladı", dogrulanmadi: false }
     ]
@@ -376,14 +426,23 @@ window.HUKUKI_SINIRLAR = [
   taraflar: ["osmanli", "habsburg"],
   hassasiyet: "yer",
   f: "1699-01-26",
-  t: "1918-11-11", // habsburg'un kendi sonu
+  // 14 Ekim 2026 — KARARLAR-1014 #48 (0072/H-0003 B): belgenin hükmü bir sonraki
+  // belgeyle düşer. Eski t:"1918-11-11" Habsburg'un kendi sonuydu — Karlofça'nın
+  // Bosna kale hükmü 219 yıl "belgeli" görünüyordu. Pasarofça kuzey Bosna'yı
+  // yeniden düzenledi ⇒ bu iki noktanın belge penceresi orada kapanır (iki
+  // nokta aynı belgeye dayandığı için pencere kayıt düzeyinde; nokta başına
+  // `f`/`t` alanı app.js'te artık okunuyor — farklı belgeli nokta kendi
+  // penceresini taşır).
+  t: "1718-07-21",
+  t_kaynak: "TDV pasarofca-antlasmasi (https://islamansiklopedisi.org.tr/pasarofca-antlasmasi): Avusturya ve Venedik antlaşmalarının imzası 22 Şâban 1130 / 21 Temmuz 1718 · 'Kuzey Bosna tamamen Avusturya’ya bırakılmıştır.'",
   hat: {
     tur: "nokta-kumesi",
     nokta_atamalari: [
       { ad: "Kostayniça (Kostajnica)", lat: 45.183, lon: 16.683, taraf: "habsburg",
         kaynak: "Karlofça birincil metni: \"Castanoviz...remain in the Power of the Emperor of the Romans\" — data/yerlesimler_ek29.js'te GERÇEK nokta" },
-      { ad: "Bosna Novi'si (Bosanski Novi)", lat: 45.048, lon: 16.377, taraf: "habsburg",
-        kaynak: "Karlofça birincil metni: \"...Novi...shall be drawn out...left entirely free\" — data/yerlesimler_ek29.js'te GERÇEK nokta" }
+      { ad: "Bosna Novi'si (Bosanski Novi)", lat: 45.048, lon: 16.377, taraf: "osmanli",
+        kaynak: "Karlofça birincil metni: \"...Novi...shall be drawn out...left entirely free\" — data/yerlesimler_ek29.js'te GERÇEK nokta (d: OSMANLI)",
+        taraf_notu: "DÜZELTME 14 Ekim 2026 (KARARLAR-1014 m.48, 0072/H-0003): eski taraf 'habsburg' kendi alıntısıyla çelişiyordu — metin Novi'deki imparatorluk garnizonunun ÇEKİLDİĞİNİ söyler, yer Osmanlı'da kalır" }
     ]
   },
   duzeltme_notu: "TASLAK-hukuki_sinirlar.js'in ilk hâli TDV'nin gevşek listesini (Bihke, Novi, Krupa) kullanıyordu; data/yerlesimler_ek29.js'i üreten oturum birincil metni okuyup Bihaç'ın VE Krupa'nın evakue edilenler arasında OLMADIĞINI bulmuştu (M-3329 kuralı). KITA 30 bu düzeltmeyi burada da uyguladı — Bihaç zaten Osmanlı kalan bir yer, bu C kaydına girmemeli.",
@@ -665,7 +724,7 @@ window.HUKUKI_SINIRLAR = [
       kaynak: "oturumlar/FERHATPASA-SINIR-0913.md — 'Emre'nin kararları (13 Eylül, ikinci tur)' madde 1-5",
       kaldirilan: "guney_1593_varyant (Luristan'ın 1592/93 Safevî'ye dönüşünden sonra köşe 10-13 yerine 'Kirmanşah|Luristan' · 'Kût|Luristan' köşeleri ve 'Nihâvend kalesi' Osmanlı adası). İki köşenin koordinatı zaten null'dı (atlas orta noktası alınmamıştı); bölme günü kaynaksızdı.",
       ayrisma_notu: "Taraf seçilmedi, not olarak durur: (1) Monshi/Savory s.824 (1602-03): 'about every ten days the Ottomans would march through their tribal territory and come and go freely to the fort' — kaynak Nihâvend'i Safevî toprağıyla çevrili tarif ediyor. (2) Kütükoğlu 1962 s.198 dn.190-192 (1591/92 sınır görüşmesi): Safevî'nin 'yalnız kaleye yol' talebi reddedildi, Nihâvend nahiyeleri Osmanlı'da kaldı. (3) Monshi/Savory s.642-645: 1000/1591-92 Şâhverdi'nin Safevî'ye bağlılığı, 1002/1593-94 Hürremâbâd işgali, Kür-kûh 'on the border between Lorestan and Baghdad province'. Kronolojide: data/olaylar_p0048.js.",
-      kurt_beylikleri: "Karar 5: Kürt beylikleri ayrı beylik GÖSTERİLMEZ, Osmanlı tâbisi. Hat tarafı ölçüldü (bu oturum): Bâne · Merîvan · Mahabad · Sakkız · Serdeşt hattın OSMANLI tarafında — değişiklik gerekmedi.",
+      kurt_beylikleri: "Karar 5: Kürt beylikleri ayrı beylik GÖSTERİLMEZ, Osmanlı tâbisi. Hat tarafı ölçüldü (bu oturum): Bâne · Merîvan · Mahabad · Sakkız · Serdeşt hattın OSMANLI tarafında — değişiklik gerekmedi. 🔴 BEYAN (EMRE KARARI 14 Ekim 2026, KARARLAR-1014 m.1): hat HUKUKÎ çizgidir, yerleşim verisi kaynaklı tanığı izler — Bâne v:osmanlı 1585-04-19 (BOA, Özcoşar-Açar 2024) → 1603-10-21 (gün komşudan: Tebriz) yazıldı; Sakkız ve Serdeşt'i 1590-1603 için ADIYLA TANIKLAYAN KAYNAK YOK, Merîvan için yalnız 1582-03-11 tâbiliği (Teymur Han 1585'ten önce döndü) — bu üçü veride Safevî kalır, hat ile renk arasındaki fark bu beyandır.",
       ahar: "Üçüncü tur kararı (koordinatör iletisi, 13 Eylül 2026): Ahar şık B — Osmanlı tâbisi 1588→1603 (TR Kütükoğlu s.195 'Karacadağ' · RU Petrushevsky '1588-1603'); köşe 3 `gecici` KALDIRILDI. IR Eskandar Beg s.615 / 619-620 'Qaraja-dag was allotted to Iran' (1592) ayrışma notu olarak köşe 3'te.",
       kirmansah: "Dördüncü tur kararı: Kirmanşah DOĞRUDAN OSMANLI (köşe 8-9 korunur). KIRMANSAH-DOGRULA: şehir adıyla kaynaksız, Kalhor kuşağı Osmanlı (yüksek güven).",
       sarab_miyane: "Dördüncü tur: Emre teraziyi koordinatöre bıraktı — Sarâb ve Miyâne SAFEVÎ (iki yer için Osmanlı tasarruf kaydı 0). Köşe 4 → Areštanāb (Iranica AZARBAIJAN iv, 1591-92 tahdidinde adıyla sınır köyü) · köşe 5 → Heşrûd ↔ Miyâne (TDV tebriz 1593 taksimi) · köşe 6 ATILDI; `gecici` KALDIRILDI (FERHATPASA-KOSE, taraf sınaması eski hat 2 yanlış → yeni hat 0/10).",

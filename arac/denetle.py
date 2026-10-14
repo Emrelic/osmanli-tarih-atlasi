@@ -207,7 +207,9 @@ BEKLENEN_YERLESIM = 4299   # 968 -> 4299, 6 Ekim 2026 (ÖLÇÜLDÜ, yazmadan hem
 #    ⚠️ Bu sabit bir HEDEF degil bir FOTOGRAF: dunya yerlesim programi
 #    surerken her beyan partisi onu buyutur. Buyume KUSUR DEGIL —
 #    `1c`nin BELGESIZ sayisi buyurse O kusurdur.
-BEKLENEN_SAHIPSIZ = 309   # 13 EYLUL 2026: 314 -> 324, on BELGELI beyan (asagida adiyla)
+# 15 EKIM 2026 (KUTU-TOPLU-1014, Emre onayi): 309 -> 310 — Hamade-i Hamra (yerlesimler_afrika.js),
+#    KARARLAR-1014 m.13 BEYANLI COL BOSLUGU (kasitli_bosluk:true, bos:"col"); 1c BELGESIZ sayisi DEGISMEDI (4).
+BEKLENEN_SAHIPSIZ = 310   # 13 EYLUL 2026: 314 -> 324, on BELGELI beyan (asagida adiyla) · 15 EKIM: +1 Hamade-i Hamra (m.13)
 # 🔴 314 -> 324, 13 EYLUL 2026 (1.MURAT, kosu 10 SURERKEN — denetle.py motor_izi'nde DEGIL)
 #    OLCUM, TAHMIN DEGIL: ayni alet c104b61'de (sabitin 314'e cekildigi commit)
 #    ayri worktree'de kosturuldu -> TAM 314 (saglama tuttu), sonra iki ad
@@ -820,7 +822,10 @@ BEKLENEN_ACIK_ISG = 1   # 1 EKIM 2026: 3 -> 1, olculdu (142 isgal kirilmasi, 1 a
 #     Tunus 1569/1573         gidis-gelisi modellenmemis
 # ⇒ Bunlari etiketten cikarmak `2t`yi dusurur ama GERCEK BOSLUGU GIZLER --
 #   ve o, olcutun onlemek icin var oldugu seydir. VERI isi, etiket isi degil.
-BEKLENEN_EKSKLAV = 1895   # 14 EKIM 2026 — Degismez 7e ILK TAVAN (KARARLAR-1014 #49, 0064/H-0010; Emre onayi bu karar): arac/eksklav_olc.py, 681 Osmanli d/v kirilma gunu, 584 gunde kopuk parca, toplam 1895 · olcum: worktree agent-adb45ab6a14bc39c0, origin/main fc76e9d30 ustu · alet denetim/ARAC-EKSKLAV-0917.py ile 5 gunde parca parca AYNI (1520/1600/1739/1830/1912)
+# 15 EKIM 2026 (KUTU-TOPLU-1014, Emre onayi "tum pushlari bitir"): 1895 -> 1904. Kapinin INDIGI commit'te olculdu:
+#    K2'nin 1895'i kendi tabaninda (fc76e9d30) olculmustu; KUTU A/C/D/F1/F2/K1/G5 birlesimi 1897, ustune main'e
+#    inen "C grubu: eski sehirler ayri nokta" (b99a1469f) 1904 — 587/686 kirilma gunu. Iyilesince iner.
+BEKLENEN_EKSKLAV = 1904   # ONCEKI: 1895, 14 EKIM 2026 — Degismez 7e ILK TAVAN (KARARLAR-1014 #49, 0064/H-0010; Emre onayi bu karar): arac/eksklav_olc.py, 681 Osmanli d/v kirilma gunu, 584 gunde kopuk parca, toplam 1895 · olcum: worktree agent-adb45ab6a14bc39c0, origin/main fc76e9d30 ustu · alet denetim/ARAC-EKSKLAV-0917.py ile 5 gunde parca parca AYNI (1520/1600/1739/1830/1912)
 BEKLENEN_KIRILMASIZ = 13   # 1 EKIM 2026: 42 -> 13, gecenin kampanyasi 29 kalem kapatti
 # ⚠️ Buyuk bir dusus (42 -> 13) ve bilerek SIKI baglaniyor: 29 kalemlik iyilesme
 # kayda gecmezse, yarin biri 40 kirilmasiz madde yazsa denetim "40 <= 42" der ve

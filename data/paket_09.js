@@ -938,6 +938,158 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"İngiliz-İrlanda Antlaşması'nı uygulayan 1922 Anayasası, ilanın en geç 6 Aralık 1922'de yapılmasını şart koştu. Sınır, 1920 İrlanda Hükûmeti Yasası'nın Kuzey İrlanda'ya ayırdığı altı kontluğun sınırıydı. Antlaşmanın 12. maddesi sınırın bir komisyonca düzeltilebileceğini öngörüyordu. 1923'te bu komisyon henüz kurulmamıştı; 1925 anlaşması onun yetkisini kaldırıp hattı olduğu gibi sabitledi. İlanın kesin günü kaynakta geçmiyor.",
   kaynak:"Constitution of the Irish Free State Act 1922, md. 83 ve Antlaşma md. 11-12 (irishstatutebook.ie) · Government of Ireland Act 1920 s.1(2) (legislation.gov.uk) · Treaty (Confirmation of Amending Agreement) Act 1925" },
 
+// ── KUTU-F1-1014 — İtalya / Alpler / Ren / Comtat (Emre kutu 0078 H-0004 · 0082 H-0048/49/52/53/79 · 0083 H-0007 · 0088 H-0003)
+// Her madde bir yerleşim kırılmasına bağlıdır (yer_id). Gün vermeyen kaynakta YYYY-01-01 + kesinlik:"yil".
+{ t:"1311-07-13", devlet:"visconti", devletler:["visconti","milano-dukaligi"], sinir_id:"",
+  b:"Matteo Visconti Milano'nun imparatorluk vikarı oldu — Visconti senyörlüğü", tur:"kurulus", onem:3, dunya:2, kapsam:"dis", yer_id:"Milano",
+  etiket:["konu-siyasi","visconti","milano-dukaligi"],
+  d:"İmparator VII. Henri, 13 Temmuz 1311'de Matteo Visconti'yi Milano'nun imparatorluk vikarı yaptı. Visconti ailesi bundan sonra şehrin fiilî efendisi oldu ve dükalık unvanına kadar (1395) Milano'yu senyörlük olarak yönetti. Haritada Milano bu tarihten itibaren Visconti rengindedir.",
+  kaynak:"Treccani, Dizionario Biografico «Visconti, Matteo»" },
+
+{ t:"1333-09-20", devlet:"visconti", devletler:["visconti"], sinir_id:"",
+  b:"Azzone Visconti Bergamo'yu aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Bergamo",
+  etiket:["konu-siyasi","visconti"],
+  d:"Azzone Visconti'nin birlikleri 20 Eylül 1333'te Bergamo'yu ele geçirdi. Şehir 1428'de Venedik'e geçene dek Visconti senyörlüğünün, 1395'ten sonra Milano Dükalığı'nın parçası kaldı.",
+  kaynak:"Treccani, Dizionario Biografico «Visconti, Azzone»" },
+
+{ t:"1335-01-01", kesinlik:"yil", devlet:"visconti", devletler:["visconti"], sinir_id:"",
+  b:"Azzone Visconti Valtellina, Chiavenna ve Piacenza'yı senyörlüğüne kattı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Sondrio",
+  etiket:["konu-siyasi","visconti"],
+  d:"Milano senyörü Azzone Visconti 1335'te Como piskoposluğunun hâkimiyetini ele geçirerek Valtellina'yı (Sondrio) ve Chiavenna'yı aldı; aynı yıl Piacenza'da da doğrudan Visconti senyörlüğü kuruldu. Bormio ise 15 yıl daha Chur piskoposunda kaldı. Kaynaklar yalnız yılı veriyor.",
+  kaynak:"HLS «Veltlin» (hls-dhs-dss.ch/de/articles/007135) · Treccani «Piacenza»" },
+
+{ t:"1337-10-10", devlet:"visconti", devletler:["visconti","della-scala"], sinir_id:"",
+  b:"Brescia Della Scala'lardan Visconti'ye geçti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Brescia",
+  etiket:["konu-siyasi","visconti","della-scala"],
+  d:"Brescia şehri 10 Ekim 1337'de Della Scala (Scaligeri) idaresinden Azzone Visconti'ye teslim oldu; kale bir ay sonra düştü. Şehir 1426'da Venedik'e geçti.",
+  kaynak:"Treccani, Dizionario Biografico «Visconti, Azzone»" },
+
+{ t:"1346-01-01", kesinlik:"yil", devlet:"visconti", devletler:["visconti","ferrara"], sinir_id:"",
+  b:"Luchino Visconti Parma'yı Este'lerden satın aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Parma",
+  etiket:["konu-siyasi","visconti","ferrara"],
+  d:"Luchino Visconti 1346'da Parma'yı Obizzo d'Este'den 70.000 florine satın aldı. Kaynak günü vermiyor.",
+  kaynak:"Treccani, Dizionario Biografico «Visconti, Luchino»" },
+
+{ t:"1350-01-01", kesinlik:"yil", devlet:"visconti", devletler:["visconti"], sinir_id:"",
+  b:"Bormio Chur piskoposluğundan Visconti'ye geçti", tur:"toprak-kazanc", onem:1, dunya:1, kapsam:"dis", yer_id:"Bormio",
+  etiket:["konu-siyasi","visconti"],
+  d:"Valtellina 1335'te Visconti'ye geçtiğinde Bormio Chur piskoposunda kalmıştı; HLS'ye göre bu durum 15 yıl daha sürdü. Yıl bu hesaptan türetildi, gün bilinmiyor.",
+  kaynak:"HLS «Veltlin» (hls-dhs-dss.ch/de/articles/007135)" },
+
+{ t:"1387-10-18", devlet:"visconti", devletler:["visconti","della-scala"], sinir_id:"",
+  b:"Verona Gian Galeazzo Visconti'ye teslim oldu — Della Scala senyörlüğünün sonu", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Verona",
+  etiket:["konu-siyasi","visconti","della-scala"],
+  d:"Antonio Della Scala 18 Ekim 1387'ye kadar direnebildi ve o gün teslim olmak zorunda kaldı; Verona Gian Galeazzo Visconti'nin eline geçti. Şehir 1405'te Venedik'e bağlandı.",
+  kaynak:"Treccani, Dizionario Biografico «Gian Galeazzo Visconti»" },
+
+{ t:"1395-05-11", devlet:"milano-dukaligi", devletler:["milano-dukaligi","visconti"], sinir_id:"",
+  b:"Gian Galeazzo Visconti Milano dükü oldu — Milano Dükalığı'nın kuruluşu", tur:"kurulus", onem:4, dunya:3, kapsam:"dis", yer_id:"Milano",
+  etiket:["konu-siyasi","milano-dukaligi","visconti"],
+  d:"Kral Wenzel'in beklenen tanıması 11 Mayıs 1395'te geldi; Gian Galeazzo 5 Eylül 1395'te Sant'Ambrogio'da düklük tacını giydi. Milano ile Bergamo, Brescia, Verona, Parma, Piacenza ve Valtellina'yı kapsayan Visconti senyörlüğü böylece Milano Dükalığı oldu.",
+  kaynak:"Treccani, Dizionario Biografico «Gian Galeazzo Visconti»" },
+
+{ t:"1404-01-01", kesinlik:"yil", devlet:"venedik", devletler:["venedik"], sinir_id:"",
+  b:"Belluno ve Feltre Venedik'e geçti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Belluno",
+  etiket:["konu-siyasi","venedik"],
+  d:"Gian Galeazzo Visconti'nin 1402'deki ölümünden sonra dağılan topraklarından Belluno ve Feltre 1404'te Venedik'e bağlandı; iki şehir 1797'ye kadar Venedik'te kaldı. Kaynaklar yalnız yılı veriyor.",
+  kaynak:"Treccani «Belluno» · Treccani «Feltre»" },
+
+{ t:"1500-01-01", kesinlik:"yil", devlet:"avusturya", devletler:["avusturya","almanya"], sinir_id:"",
+  b:"Görz kontları hanedanı söndü — Görz Habsburglara geçti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Görz (Gorizia)",
+  etiket:["konu-siyasi","avusturya"],
+  d:"Görz (Gorizia) kontları hanedanı 1500'de söndü ve kontluk Habsburglara geçti. Şehir 1918'e kadar (1809-1813 İlirya Eyaletleri dışında) Habsburg idaresinde kaldı.",
+  kaynak:"Treccani «Gorizia»" },
+
+{ t:"1512-06-24", devlet:"graubunden", devletler:["graubunden","milano-dukaligi"], sinir_id:"",
+  b:"Üç Lig Valtellina'yı, Chiavenna'yı ve Bormio'yu aldı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Sondrio",
+  etiket:["konu-siyasi","graubunden","milano-dukaligi"],
+  d:"Üç Lig (Graubünden) 24 Haziran 1512'de Valtellina'ya ve Chiavenna ile Bormio kontluklarına girdi; bu topraklar 1797'ye dek Liglerin tâbi toprağı oldu. Aynı günlerde Parma ve Piacenza da Fransızlardan Papalığa geçti. 1620-1639 arasındaki Valtellina karışıklıkları (İspanyol, Papalık ve Fransız birlikleri) haritada ayrıca gösterilmiyor; 1639 Milano Kapitülasyonu bölgeyi Liglere geri verdi.",
+  kaynak:"HLS «Veltlin» (hls-dhs-dss.ch/de/articles/007135) · Treccani «Piacenza»" },
+
+{ t:"1545-08-16", devlet:"parma", devletler:["parma","papalik"], sinir_id:"",
+  b:"Parma ve Piacenza Dükalığı kuruldu — Pier Luigi Farnese", tur:"kurulus", onem:3, dunya:2, kapsam:"dis", yer_id:"Piacenza",
+  etiket:["konu-siyasi","parma","papalik"],
+  d:"Papa III. Paulus, Papalık toprağı olan Parma ve Piacenza'yı birleştirip oğlu Pier Luigi Farnese'ye dükalık olarak verdi. Piacenza'nın tarihi bundan sonra Parma devletininkiyle birleşti; 1547'de Pier Luigi'nin öldürülmesinin ardından gelen imparatorluk işgali haritada gösterilmiyor.",
+  kaynak:"Treccani «Piacenza» · künye parma (1545-08-16)" },
+
+{ t:"1759-01-01", kesinlik:"yil", devlet:"avusturya", devletler:["avusturya","almanya"], sinir_id:"",
+  b:"Maria Theresia Bamberg'in Karintiya'daki topraklarını satın aldı — Villach ve Tarvis Avusturya'ya", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Villach",
+  etiket:["konu-siyasi","avusturya"],
+  d:"1007'den beri Bamberg Piskoposluğu'nun eksklavı olan Villach, Kanal vadisi (Tarvis) ve öteki Karintiya mülkleri 1759'da İmparatoriçe Maria Theresia'ya satıldı ve Habsburg Karintiyası'na katıldı. Kaynak yalnız yılı veriyor.",
+  kaynak:"villach.at «Stadtgeschichte» (Villach belediyesi)" },
+
+{ t:"1791-09-14", devlet:"fransa", devletler:["fransa","papalik"], sinir_id:"",
+  b:"Avignon ve Comtat Venaissin Fransa'ya katıldı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Carpentras",
+  etiket:["konu-siyasi","fransa","papalik"],
+  d:"1274'ten beri Papalık toprağı olan Comtat Venaissin (başkenti 1320'den Carpentras) ile 1348'de satın alınan Avignon, 14 Eylül 1791 kararıyla Fransa'ya katıldı. Komünlerin temsilcileri birleşmeye Ağustos 1791'de karar vermişti.",
+  kaynak:"Encyclopedia.com «Comtat Venaissin» (New Catholic Encyclopedia) · APRA «L'annexion du Comtat et d'Avignon»" },
+
+{ t:"1809-10-14", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","avusturya"], sinir_id:"",
+  b:"Görz, Trieste ve Villach dairesi Fransız İlirya Eyaletleri'ne katıldı", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Görz (Gorizia)",
+  etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","avusturya"],
+  d:"14 Ekim 1809 Schönbrunn Barışı'nın 3. maddesiyle Avusturya, Görz Kontluğu'nu, Trieste'yi, Karniyola'yı ve Karintiya'nın Villach dairesini (Tarvis dahil) Napolyon'a bıraktı; bu topraklar İlirya Eyaletleri olarak 1813'e dek Fransız idaresinde kaldı.",
+  kaynak:"Schönbrunn Antlaşması (14 Ekim 1809) md. 3" },
+
+{ t:"1815-06-09", devlet:"prusya", devletler:["prusya","almanya"], sinir_id:"",
+  b:"Ren Eyaleti ve Vestfalya Prusya'ya, Valtellina Avusturya'ya, Lucca Bourbon-Parma'ya geçti", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Köln",
+  etiket:["sinir","antlasma","konu-siyasi","prusya","avusturya","lucca-dukaligi"],
+  d:"Viyana Kongresi'nin 9 Haziran 1815 Nihai Senedi Ren'in iki yakasındaki toprakları (Köln, Aachen, Trier, Koblenz, Düsseldorf) ve Vestfalya'yı (Münster, Dortmund) Prusya'ya verdi; Prusya Ren topraklarını fiilen 5 Nisan 1815'te devralmış, Vestfalya zilyetlik patentini 21 Haziran'da yayımlamıştı. Erfurt da Prusya'ya döndü. Aynı senetle Valtellina, Chiavenna ve Bormio Avusturya'nın Lombardiya-Venedik Krallığı'na, Lucca ise dükalık olarak Bourbon-Parma hanedanına bırakıldı.",
+  kaynak:"Viyana Kongresi Nihai Senedi (9 Haziran 1815) · dilibri RLB (Ren, 5 Nisan 1815) · Preußische Gesetzsammlung 1815 No. 303 (his-data.de) · HLS «Veltlin» · künye lucca-dukaligi" },
+
+{ t:"1328-01-01", kesinlik:"yil", devlet:"lucca-cumhuriyeti", devletler:["lucca-cumhuriyeti"], sinir_id:"",
+  b:"Castruccio Castracani öldü — Lucca yabancı senyörlerin eline geçti", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Lucca",
+  etiket:["konu-siyasi","lucca-cumhuriyeti"],
+  d:"Lucca'nın senyörü Castruccio Castracani 1328'de Floransa'ya karşı savaşırken öldü. Ardından şehir 1342'ye kadar el değiştiren yabancı senyörlerin (Bavyeralı Ludwig, Gherardino Spinola, Bohemyalı Johann, Rossi, Della Scala, Floransa) eline geçti; bu dönemin sahiplerinin künyesi olmadığından haritada Lucca boş görünür.",
+  kaynak:"Treccani «Lucca»" },
+
+{ t:"1342-01-01", kesinlik:"yil", devlet:"piza", devletler:["piza","lucca-cumhuriyeti"], sinir_id:"",
+  b:"Lucca Pisa hâkimiyetine girdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Lucca",
+  etiket:["konu-siyasi","piza","lucca-cumhuriyeti"],
+  d:"Lucca 1342'de Pisa'nın hâkimiyetine girdi ve 1369'a kadar Pisa'ya bağlı kaldı.",
+  kaynak:"C. Meek, The Commune of Lucca under Pisan Rule, 1342-1369 (Medieval Academy of America, 1980)" },
+
+{ t:"1369-01-01", kesinlik:"yil", devlet:"lucca-cumhuriyeti", devletler:["lucca-cumhuriyeti","piza"], sinir_id:"",
+  b:"İmparator IV. Karl Lucca'yı Pisa'dan kurtardı — cumhuriyet yeniden kuruldu", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Lucca",
+  etiket:["konu-siyasi","lucca-cumhuriyeti","piza"],
+  d:"Lucca 1369'da özerkliğini İmparator IV. Karl'dan satın aldı ve Pisa hâkimiyetinden çıktı. Bağımsızlığı bir imparatorluk imtiyazına dayanan aristokratik cumhuriyet 1799'a kadar sürdü.",
+  kaynak:"Treccani «Lucca»" },
+
+{ t:"1799-01-01", kesinlik:"yil", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","lucca-cumhuriyeti"], sinir_id:"",
+  b:"Fransız işgali — Lucca Cumhuriyeti'nin sonu", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Lucca",
+  etiket:["konu-siyasi","fransa-cumhuriyet","lucca-cumhuriyeti"],
+  d:"Lucca'nın aristokratik cumhuriyeti 1799'daki Fransız işgaliyle sona erdi. Ardından gelen Lucca Demokratik Cumhuriyeti ve 1805'ten itibaren Napolyon'un kız kardeşi Elisa ile kocası Felice Baciocchi'nin Lucca ve Piombino Prensliği Fransız uydusu oldukları ve ayrı künyeleri bulunmadığı için haritada 1815'e kadar Fransa rengiyle gösterilir; 1799-1800 Avusturya işgali de ayrıca gösterilmez.",
+  kaynak:"Treccani «Lucca»" },
+
+{ t:"1847-12-17", devlet:"toskana", devletler:["toskana","lucca-dukaligi"], sinir_id:"",
+  b:"Lucca Dükalığı Toskana Büyük Dükalığı'na katıldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Lucca",
+  etiket:["konu-siyasi","toskana","lucca-dukaligi"],
+  d:"Carlo Ludovico'nun erken devir antlaşmasıyla Lucca'nın devlet olarak özerkliği sona erdi. Düzenlemeler Maria Luisa'nın Aralık 1847'deki ölümüyle yürürlüğe girdi: Carlo Ludovico Parma'ya geçti, Lucca Toskana'ya katıldı.",
+  kaynak:"Treccani «Lucca» · A. J. Reinerman, Encyclopedia of 1848 Revolutions «Parma» (sites.ohio.edu/chastain)" },
+
+{ t:"1859-06-04", devlet:"sardinya-piyemonte", devletler:["sardinya-piyemonte","avusturya"], sinir_id:"",
+  b:"Magenta Muharebesi — Lombardiya Avusturya'dan Sardinya'ya geçti", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Milano",
+  etiket:["savas","konu-siyasi","sardinya-piyemonte","avusturya"],
+  d:"İkinci İtalyan Bağımsızlık Savaşı'nda Fransız-Sardinya ordusu 4 Haziran 1859'da Magenta'da Avusturyalıları yendi; Avusturya Lombardiya'yı boşalttı ve Milano, Bergamo, Brescia ile Valtellina Sardinya Krallığı'na geçti. Atlas Lombardiya'nın el değiştirmesini bu günle gösteriyor; hukukî devir Kasım 1859 Zürih Barışı'yladır.",
+  kaynak:"HLS «Veltlin» (1859 Garibaldi Bormio'ya kadar ilerledi) · Lombardiya kayıtlarının 1859-06-04 günü" },
+
+{ t:"1860-03-22", devlet:"sardinya-piyemonte", devletler:["sardinya-piyemonte","toskana"], sinir_id:"",
+  b:"Toskana ve Emilia halkoylamalarla Sardinya Krallığı'na katıldı", tur:"birlesme", onem:4, dunya:3, kapsam:"dis", yer_id:"Floransa",
+  etiket:["konu-siyasi","sardinya-piyemonte","toskana","parma"],
+  d:"11-12 Mart 1860 halkoylamalarının ardından Emilia'nın (Parma, Piacenza, Modena, Bologna, Ferrara) sonuçları 18 Mart'ta Kral Vittorio Emanuele II'ye sunuldu; Toskana'nın (Floransa, Pisa, Siena, Lucca, Elba) Sardinya Krallığı'na birleşme kararnamesi 22 Mart 1860 tarihlidir. Toskana Büyük Dükalığı ile Parma ve Modena dükalıkları böylece sona erdi.",
+  kaynak:"iris.unito.it — Genta, «Plebisciti» (Torino Üniversitesi) · Treccani «Piacenza»" },
+
+{ t:"1866-10-03", devlet:"italya", devletler:["italya","avusturya"], sinir_id:"",
+  b:"Viyana Barışı — Venedik ve Veneto İtalya'ya geçti", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Belluno",
+  etiket:["sinir","antlasma","konu-siyasi","italya","avusturya"],
+  d:"3 Ekim 1866 Viyana Barışı'yla Avusturya, Venedik, Padova, Verona, Mantova, Udine, Belluno ve Feltre'yi kapsayan Veneto'yu İtalya Krallığı'na bıraktı.",
+  kaynak:"Treccani «Belluno» («unita al Regno d'Italia nel 1866») · Viyana Barışı (3 Ekim 1866)" },
+
+{ t:"1871-01-18", devlet:"almanya", devletler:["almanya","prusya"], sinir_id:"",
+  b:"Alman İmparatorluğu ilan edildi — Prusya eyaletleri imparatorluğun parçası oldu", tur:"kurulus", onem:5, dunya:4, kapsam:"dis", yer_id:"Köln",
+  etiket:["konu-siyasi","almanya","prusya"],
+  d:"18 Ocak 1871'de Versay'da Prusya Kralı I. Wilhelm Alman İmparatoru ilan edildi. Prusya'nın Ren, Vestfalya ve Saksonya eyaletleri (Köln, Aachen, Trier, Koblenz, Düsseldorf, Münster, Dortmund, Erfurt) Alman İmparatorluğu'nun parçası oldu; atlas bu tarihten itibaren onları Almanya rengiyle gösterir.",
+  kaynak:"Alman İmparatorluğu ilanı (18 Ocak 1871, Versay)" },
+
 ];
 
 ;
