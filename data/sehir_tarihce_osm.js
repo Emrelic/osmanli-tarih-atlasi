@@ -83,7 +83,6 @@ window.SEHIR_TARIHCE_OSM = [
      "t": "gun"
     },
     "kaynak": "TDV EBÛZABİ (Benî Yâs, Âl-i Bû Felâh; Şahbût b. Ziyâb 1793-1816; Tahnûn b. Şahbût 1818-1833, 1820 antlaşması)",
-    "kunye_yok": true,
     "ic_not": "Önerilen künye: ebuzabi-seyhligi — Benî Yâs (Âl-i Bû Felâh / Nehyân) Ebûzabî şeyhliği, 1761–1971 (TDV EBÛZABİ). Dikiş: atlas 1820-01-08'de 'ingiltere' ile başlıyor; TDV yalnız '1820' yılını verir (gün atlas kaydından, kaynakta yok). Atlas düzeltmesi önerisi: 1820 Genel Barış Antlaşması bir HİMAYE kurmadı — şeyhlik iç işlerinde bağımsız kaldı; TDV'ye göre İngiltere şeyhlikleri 'kendi himayesi altında' 1892'de ilân etti. 1820 sonrası sahip için 'trucial-states' (künye 1820–1971) ya da şeyhlik künyesi + himaye daha doğru olabilir."
    }
   ],
@@ -254,20 +253,21 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0636-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV AKKÂ (F. Emecen) (636 fethi; Muâviye Suriye valisi iken tersane, 649 Kıbrıs seferi); t künye geçişi"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": {
      "f": "yil",
      "t": "gun"
     },
-    "kaynak": "TDV AKKÂ ('Emevîler devrinde önemli bir liman'); TDV MERVÂN II ('26 Zilhicce 132 / 5 Ağustos 750')"
+    "kaynak": "TDV AKKÂ ('Emevîler devrinde önemli bir liman'); TDV MERVÂN II ('26 Zilhicce 132 / 5 Ağustos 750')",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -320,7 +320,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "1074-01-01",
     "t": "1077-02-07",
     "d": "atsiz-beyligi",
-    "kunye_yok": true,
     "kesinlik": {
      "f": "yil",
      "t": "gun"
@@ -497,11 +496,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV AKKÂ (F. Emecen)"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Râşidîn → Emevî (Muâviye'nin halifeliği)",
-    "kaynak": "TDV AKKÂ; gün emevi künyesinin başlangıcı"
+    "kaynak": "TDV AKKÂ; gün emevi künyesinin başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-08-05",
@@ -964,7 +963,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0632-06-08",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": {
      "f": "gun",
@@ -974,14 +973,15 @@ window.SEHIR_TARIHCE_OSM = [
     "ic_not": "t: künye geçişi Emevî (661), gün künyeden (yıl)."
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": {
      "f": "yil",
      "t": "gun"
     },
-    "kaynak": "TDV ADEN (Ömer b. Abdülazîz Aden'de cami yaptırdı); künye geçişi"
+    "kaynak": "TDV ADEN (Ömer b. Abdülazîz Aden'de cami yaptırdı); künye geçişi",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -1087,11 +1087,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "gün genel kronoloji (ayrıca doğrulanmadı)"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "Emevî hilâfeti (künye geçişi)",
-    "kaynak": "künye emevi"
+    "kaynak": "künye emevi · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-08-05",
@@ -1385,7 +1385,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0636-08-20",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": {
      "f": "gun",
@@ -1395,14 +1395,15 @@ window.SEHIR_TARIHCE_OSM = [
     "ic_not": "f en geç tanıktan: Yermük, Bizans'ın Suriye'deki egemenliğinin sonu; Kerek'in barışla teslim günü yok (Maâb bölgesi daha önce, 634–635'te alınmış olabilir — doğrulanmadı)."
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": {
      "f": "yil",
      "t": "gun"
     },
-    "kaynak": "Pleiades 697648 ('Maʿāb', Emevî dönemi, TAVO II 1009); TDV MERVÂN II (5 Ağustos 750)"
+    "kaynak": "Pleiades 697648 ('Maʿāb', Emevî dönemi, TAVO II 1009); TDV MERVÂN II (5 Ağustos 750)",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -1511,11 +1512,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV YERMÜK SAVAŞI (M. Fayda); TDV KEREK (M. L. Bilge)"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Râşidîn → Emevî",
-    "kaynak": "gün emevi künyesinin başlangıcı"
+    "kaynak": "gün emevi künyesinin başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-08-05",
@@ -1803,20 +1804,21 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0637-02-02",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV HALEP: müslümanlar Antakya Kapısı'ndan şehre girdiler (16/637); hicrî 16 ∩ 637 ilk gün, tablo takvimi, Jülyen"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-01-25",
     "d": "emevi",
     "kesinlik": {
      "f": "yil",
      "t": "belirsiz"
     },
-    "kaynak": "TDV HALEP (Emevîler döneminde Cündikınnesrîn'e bağlı)"
+    "kaynak": "TDV HALEP (Emevîler döneminde Cündikınnesrîn'e bağlı)",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-01-25",
@@ -2190,11 +2192,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV HALEP (Belâzürî, Fütûh)"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Muâviye'nin halifeliği — Hulefâ-yi Râşidîn'den Emevîler'e",
-    "kaynak": "TDV HALEP (Muâviye Suriye valisi); gün künye başlangıcı"
+    "kaynak": "TDV HALEP (Muâviye Suriye valisi); gün künye başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-01-25",
@@ -2522,17 +2524,18 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0646-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV İSKENDERİYE: 'ertesi yıl Amr b. Âs şehri tekrar fethetti'; hicrî 25 ∩ 646 ilk gün"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0683-08-30",
     "d": "emevi",
     "kesinlik": "yil",
-    "kaynak": "TDV MISIR 4. bölüm (Muâviye dönemi); künye geçişi günü: emevi künyesinin başlangıcı (661)"
+    "kaynak": "TDV MISIR 4. bölüm (Muâviye dönemi); künye geçişi günü: emevi künyesinin başlangıcı (661)",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0683-08-30",
@@ -2750,11 +2753,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV İSKENDERİYE; TDV EYYÛBÎLER (Temmuz 1174)"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hz. Ali'nin şehadeti, Muâviye'nin halifeliği — Hulefâ-yi Râşidîn'den Emevîler'e",
-    "kaynak": "TDV MISIR 4. bölüm (C. Tomar); gün künye başlangıcı"
+    "kaynak": "TDV MISIR 4. bölüm (C. Tomar); gün künye başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0683-08-30",
@@ -3662,19 +3665,19 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0909-01-01",
-    "t": "0972-01-01",
+    "t": "0972-10-02",
     "d": "fatimi",
     "kesinlik": "yil",
     "kaynak": "TDV AĞLEBÎLER (A. Özaydın); TDV ZÎRÎLER (C. E. Adıgüzel): Bulukkîn'in Mağrib valiliği (361/972); TDV BÛNE",
     "ic_not": "t: hicrî 361 (24 Ekim 971 – 11 Ekim 972) ∩ 972 → 972-01-01, çeviri tablo takvimi Jülyen."
    },
    {
-    "f": "0972-01-01",
+    "f": "0972-10-02",
     "t": "1015-01-01",
     "d": "ziriler",
     "kesinlik": "yil",
     "kaynak": "TDV ZÎRÎLER (C. E. Adıgüzel); TDV BÛNE: 'Zîrîler döneminde Zâvî b. Zîrî’ye iktâ edilmesinden dolayı Medînetü Zâvî'",
-    "ic_not": "Zîrîler Fâtımî'ye tâbi; doğrudan sahip Zîrî. t alt sınırdır: 405/1015 Hammâdî ayrılığı; Bûne'nin hangi kolda kaldığı bundan sonra belirsiz."
+    "ic_not": "Zîrîler Fâtımî'ye tâbi; doğrudan sahip Zîrî. t alt sınırdır: 405/1015 Hammâdî ayrılığı; Bûne'nin hangi kolda kaldığı bundan sonra belirsiz. · f 0972-01-01 → 0972-10-02: künye geçişi günü 14 Ekim 2026'da TDV bulukkin-b-ziri '20 Zilhicce 361 / 2 Ekim 972' ile düzeldi."
    },
    {
     "f": "1015-01-01",
@@ -3794,11 +3797,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV AĞLEBÎLER (A. Özaydın); hicrî 296 ∩ 909 → 909-01-01 (tablo takvimi, Jülyen)"
    },
    {
-    "t": "0972-01-01",
+    "t": "0972-10-02",
     "gun": "361/972",
     "k": "diger",
     "b": "Fâtımî halifesi Muiz Bulukkîn'i Mağrib valisi yapıp Mısır'a geçti: Zîrî idaresi",
-    "kaynak": "TDV ZÎRÎLER (C. E. Adıgüzel)"
+    "kaynak": "TDV ZÎRÎLER (C. E. Adıgüzel) · gün 0972-10-02: künye geçişi günü 14 Ekim 2026'da TDV bulukkin-b-ziri '20 Zilhicce 361 / 2 Ekim 972' ile düzeldi"
    },
    {
     "t": "1015-01-01",
@@ -4153,17 +4156,18 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0639-01-12",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV ARÎŞ (M. L. Bilge): 'Mısır’ın fethi sırasında Amr b. Âs tarafından alınarak İslâm topraklarına katılmıştır (18/639)'; hicrî 18 ∩ 639 ilk gün, tablo takvimi, Jülyen"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0683-08-30",
     "d": "emevi",
     "kesinlik": "yil",
-    "kaynak": "TDV MISIR 4. bölüm (Muâviye dönemi); künye geçişi günü: emevi künyesinin başlangıcı (661)"
+    "kaynak": "TDV MISIR 4. bölüm (Muâviye dönemi); künye geçişi günü: emevi künyesinin başlangıcı (661)",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0683-08-30",
@@ -4323,11 +4327,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR, 4. bölüm (C. Tomar)"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hz. Ali'nin şehadeti, Muâviye'nin halifeliği — Hulefâ-yi Râşidîn'den Emevîler'e",
-    "kaynak": "TDV MISIR 4. bölüm (C. Tomar); gün künye başlangıcı"
+    "kaynak": "TDV MISIR 4. bölüm (C. Tomar); gün künye başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0683-08-30",
@@ -4560,7 +4564,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0642-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": {
      "f": "belirsiz",
@@ -4569,11 +4573,12 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR, 4. bölüm (C. Tomar): 'Bu sırada İslâm ordusunun diğer kısmı Feyyûm’u ve buradan hareketle Asvan’a kadar Yukarı Mısır’ı (Saîd) ele geçirdi'; TDV ASYÛT (M. L. Bilge): 'Amr b. Âs’ın Mısır’ı fethi sırasında müslümanların idaresine geçen'"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0683-08-30",
     "d": "emevi",
     "kesinlik": "yil",
-    "kaynak": "TDV MISIR 4. bölüm (Muâviye dönemi); künye geçişi günü: emevi künyesinin başlangıcı (661)"
+    "kaynak": "TDV MISIR 4. bölüm (Muâviye dönemi); künye geçişi günü: emevi künyesinin başlangıcı (661)",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0683-08-30",
@@ -4810,11 +4815,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV ASYÛT (M. L. Bilge)"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hz. Ali'nin şehadeti, Muâviye'nin halifeliği — Hulefâ-yi Râşidîn'den Emevîler'e",
-    "kaynak": "TDV MISIR 4. bölüm (C. Tomar); gün künye başlangıcı"
+    "kaynak": "TDV MISIR 4. bölüm (C. Tomar); gün künye başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0683-08-30",
@@ -5469,7 +5474,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0641-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": {
      "f": "belirsiz",
@@ -5478,11 +5483,12 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR, 4. bölüm (C. Tomar): 'Babilon Kalesi’nin fethiyle de (20/641) ... deltanın güneyle ilişkisini kestiler'; hicrî 20 ∩ 641 ilk gün — bölge sahibi + beyan"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0683-08-30",
     "d": "emevi",
     "kesinlik": "yil",
-    "kaynak": "TDV MISIR 4. bölüm (Muâviye dönemi); künye geçişi günü: emevi künyesinin başlangıcı (661)"
+    "kaynak": "TDV MISIR 4. bölüm (Muâviye dönemi); künye geçişi günü: emevi künyesinin başlangıcı (661)",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0683-08-30",
@@ -5684,11 +5690,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV TOLUNOĞULLARI: Ahmed b. Tolun Mısır'a girdi (254/868); Şeybân teslim oldu (Rebîülevvel 292 / Ocak 905)"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hz. Ali'nin şehadeti, Muâviye'nin halifeliği — Hulefâ-yi Râşidîn'den Emevîler'e",
-    "kaynak": "TDV MISIR 4. bölüm (C. Tomar); gün künye başlangıcı"
+    "kaynak": "TDV MISIR 4. bölüm (C. Tomar); gün künye başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0683-08-30",
@@ -6039,20 +6045,21 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0635-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV BEYRUT: 'Ebû Ubeyde b. Cerrâh kumandasındaki bir ordu tarafından fethedilerek (635)'"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": {
      "f": "yil",
      "t": "gun"
     },
-    "kaynak": "TDV BEYRUT (Muâviye'nin iskânı); künye geçişi Râşidîn → Emevî (661)"
+    "kaynak": "TDV BEYRUT (Muâviye'nin iskânı); künye geçişi Râşidîn → Emevî (661)",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -6224,11 +6231,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV BEYRUT"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye)",
-    "kaynak": "künye geçişi (TDV EMEVÎLER)"
+    "kaynak": "künye geçişi (TDV EMEVÎLER) · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-08-05",
@@ -6894,14 +6901,14 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0641-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV BİTLİS (M. Tuncel): 'Halife Ömer zamanında el-Cezîre fâtihi İyâz b. Ganm tarafından fethedildi (641)'",
     "ic_not": "Doğrudan sahip haraç ödeyen yerel 'Bitlis hâkimi' (adı ve künyesi yok); metbu Medine hilâfeti."
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": {
@@ -6909,7 +6916,7 @@ window.SEHIR_TARIHCE_OSM = [
      "t": "gun"
     },
     "kaynak": "TDV BİTLİS (Muhammed b. Mervân'ın el-Cezîre valiliğine katması); künye geçişi 661",
-    "ic_not": "TDV: Bizans ile Araplar arasında 'birkaç defa el değiştiren' — tarihsiz; dönem açılmadı (kısa/tarihsiz el değiştirmeler)."
+    "ic_not": "TDV: Bizans ile Araplar arasında 'birkaç defa el değiştiren' — tarihsiz; dönem açılmadı (kısa/tarihsiz el değiştirmeler). · f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -6970,11 +6977,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV BİTLİS"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî",
-    "kaynak": "künye geçişi (TDV EMEVÎLER)"
+    "kaynak": "künye geçişi (TDV EMEVÎLER) · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-08-05",
@@ -7097,7 +7104,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "-0167-01-01",
     "t": "-0147-01-01",
     "d": "makedon-merisleri",
-    "kunye_yok": true,
     "kesinlik": "yil",
     "kaynak": "genel kronoloji (MÖ 167 dört Makedon bölgesi; MÖ 148 Andriskos'un yenilgisi ve eyalet — ayrıca doğrulanmadı); TDV MANASTIR ('Milâttan önce 148’de Roma istilâsından sonra')",
     "ic_not": "Künye yok: Pydna'dan sonra Roma'nın kurdurduğu dört Makedon 'meris'i (cumhuriyet), MÖ 167–148; Lynkestis bunlardan birinde. Metbu Roma Cumhuriyeti; TDV Roma istilâsını 148 diye tarihlediği için Roma dönemi 148'den başlatıldı."
@@ -8191,7 +8197,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "0827-04-02",
     "t": "0961-03-06",
     "d": "girit-emirligi",
-    "kunye_yok": true,
     "kesinlik": {
      "f": "yil",
      "t": "gun"
@@ -8321,7 +8326,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "-0599-01-01",
     "t": "-0544-01-01",
     "d": "sakiz-polis",
-    "kunye_yok": true,
     "kesinlik": "onyil",
     "kaynak": "Herodotos 1.18; Pleiades 550496 (arkaik dönemden itibaren)",
     "ic_not": "Sakız (Khios) bağımsız polis'i; künye yok, önerilen id 'sakiz-polis' (İyon polis'i, ~MÖ 8. yy – Roma dönemi). Herodotos'un Milet savaşı Lydia kronolojisine bağlıdır (Alyattes'in ilk yılları, ~610-600); güvenli uç ~MÖ 600. Sakızlıların daha önceki Erythrai savaşı tarihsiz."
@@ -8341,7 +8345,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "-0498-01-01",
     "t": "-0492-01-01",
     "d": "sakiz-polis",
-    "kunye_yok": true,
     "kesinlik": "yil",
     "kaynak": "Herodotos 5.35-38 (İyon İsyanı, MÖ 499); 6.8 (Lade'de 100 Sakız gemisi); 6.31",
     "ic_not": "İyon İsyanı dönemi: Sakız isyancı İyon polis'i."
@@ -8358,7 +8361,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "-0478-01-01",
     "t": "-0332-01-01",
     "d": "sakiz-polis",
-    "kunye_yok": true,
     "kesinlik": "yil",
     "kaynak": "Herodotos 9.106 ('admitted to their alliance the Samians, Chians, Lesbians'); TDV SAKIZ ADASI (A. F. Örenç): MÖ 377 Atina birliği",
     "ic_not": "Delos Birliği'nde gemi veren özerk müttefik; MÖ 412 Atina'dan ayrılış (Thukydides 8.14 — bu oturumda okunmadı), MÖ 377 II. Atina Birliği, MÖ 357 Müttefikler Savaşı ve Mausolos/Karia etkisi dönem olarak açılmadı (sahip polis'in kendisi). Doğrulanmadı: Karia garnizonu (~MÖ 350'ler)."
@@ -8386,7 +8388,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "-0322-06-10",
     "t": "-0085-01-01",
     "d": "sakiz-polis",
-    "kunye_yok": true,
     "kesinlik": {
      "f": "gun",
      "t": "yil"
@@ -8406,7 +8407,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "-0084-01-01",
     "t": "0079-01-01",
     "d": "sakiz-polis",
-    "kunye_yok": true,
     "kesinlik": {
      "f": "yil",
      "t": "belirsiz"
@@ -8872,19 +8872,19 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0909-01-01",
-    "t": "0972-01-01",
+    "t": "0972-10-02",
     "d": "fatimi",
     "kesinlik": "yil",
     "kaynak": "TDV KOSTANTİNE (M. Rezûk); TDV ZÎRÎLER (C. E. Adıgüzel): Bulukkîn'in Mağrib valiliği (361/972)",
     "ic_not": "Fâtımî dâvetinin merkezi olan Kütâme yurdu Kostantîne çevresindedir; şehrin Ebû Abdullah eş-Şîî'ye geçiş günü kaynakta yok, 909 (Ağlebîler'in sonu) yazıldı."
    },
    {
-    "f": "0972-01-01",
+    "f": "0972-10-02",
     "t": "1015-01-01",
     "d": "ziriler",
     "kesinlik": "yil",
     "kaynak": "TDV ZÎRÎLER (C. E. Adıgüzel): 'Bulukkîn'i Mağrib valiliğine tayin ederek ... (361/972)'",
-    "ic_not": "Zîrîler Fâtımî tâbii; doğrudan sahip Zîrîler, metbû Fâtımî. Hicrî 361 (22 Ekim 971 – 9 Ekim 972) ∩ 972 → 972-01-01. TDV KOSTANTİNE Ağlebî/Fâtımî dönemini 396 (1006)'da bitirir — Hammâd b. Bulukkîn'in batı valiliği; bağımsız Hammâdî devleti 1015."
+    "ic_not": "Zîrîler Fâtımî tâbii; doğrudan sahip Zîrîler, metbû Fâtımî. Hicrî 361 (22 Ekim 971 – 9 Ekim 972) ∩ 972 → 972-01-01. TDV KOSTANTİNE Ağlebî/Fâtımî dönemini 396 (1006)'da bitirir — Hammâd b. Bulukkîn'in batı valiliği; bağımsız Hammâdî devleti 1015. · f 0972-01-01 → 0972-10-02: künye geçişi günü 14 Ekim 2026'da TDV bulukkin-b-ziri '20 Zilhicce 361 / 2 Ekim 972' ile düzeldi."
    },
    {
     "f": "1015-01-01",
@@ -9000,11 +9000,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV KOSTANTİNE (M. Rezûk); TDV AĞLEBÎLER (A. Özaydın)"
    },
    {
-    "t": "0972-01-01",
+    "t": "0972-10-02",
     "gun": "361/972",
     "k": "vassal",
     "b": "Fâtımîler Mısır'a geçti; Mağrib Zîrî Bulukkîn'e bırakıldı",
-    "kaynak": "TDV ZÎRÎLER (C. E. Adıgüzel)"
+    "kaynak": "TDV ZÎRÎLER (C. E. Adıgüzel) · gün 0972-10-02: künye geçişi günü 14 Ekim 2026'da TDV bulukkin-b-ziri '20 Zilhicce 361 / 2 Ekim 972' ile düzeldi"
    },
    {
     "t": "1015-01-01",
@@ -9154,18 +9154,19 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0642-09-01",
-    "t": "0661-05-07",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "ay",
     "kaynak": "TDV MISIR (tarih bölümleri); TDV ŞAM (C. Tomar) (41/661)",
     "ic_not": "t: hicrî 41 ∩ 661 → 661-05-07 (tablo takvimi, Jülyen). Künye hulefa-yi-rasidin 661-01-01'de bitiyor: denetim uyarısı bu kesişimden; Mısır 38/658'de Muâviye tarafına geçti (TDV MISIR) — Emevî künyesi 661'de başladığı için ayrı dönem açılmadı."
    },
    {
-    "f": "0661-05-07",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": "gun",
-    "kaynak": "TDV ŞAM (C. Tomar); künye geçişi genel kronoloji (ayrıca doğrulanmadı)"
+    "kaynak": "TDV ŞAM (C. Tomar); künye geçişi genel kronoloji (ayrıca doğrulanmadı)",
+    "ic_not": "f 0661-05-07 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -9271,11 +9272,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR (tarih bölümleri)"
    },
    {
-    "t": "0661-05-07",
+    "t": "0661-07-29",
     "gun": "41/661",
     "k": "diger",
     "b": "künye geçişi: Muâviye b. Ebû Süfyân'ın halifeliği — Emevî Devleti (Râşidîn → Emevî)",
-    "kaynak": "TDV ŞAM (C. Tomar): '(41/661)'; hicrî 41 (7 Mayıs 661 – 25 Nisan 662), çeviri: tablo takvimi, Jülyen — kesişimin ilk günü"
+    "kaynak": "TDV ŞAM (C. Tomar): '(41/661)'; hicrî 41 (7 Mayıs 661 – 25 Nisan 662), çeviri: tablo takvimi, Jülyen — kesişimin ilk günü · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-08-05",
@@ -9522,7 +9523,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0635-09-01",
-    "t": "0661-05-07",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": {
      "f": "ay",
@@ -9532,7 +9533,7 @@ window.SEHIR_TARIHCE_OSM = [
     "ic_not": "636'da Yermük öncesi müslümanlar şehri boşalttı, Aralık 636'da ikinci kez fethedildi (TDV) — boşaltma günü yok, Bizans dönüşü kısa: dönem açılmadı, olay yazıldı. t: hicrî 41 ∩ 661 → 661-05-07; künye hulefa 661-01-01'de bitiyor (uyarı bu kesişimden)."
    },
    {
-    "f": "0661-05-07",
+    "f": "0661-07-29",
     "t": "0750-04-01",
     "d": "emevi",
     "kesinlik": {
@@ -9540,7 +9541,7 @@ window.SEHIR_TARIHCE_OSM = [
      "t": "ay"
     },
     "kaynak": "TDV ŞAM (C. Tomar): 'Abbâsîler'in eline geçti (Ramazan 132 / Nisan 750)'",
-    "ic_not": "Dımaşk Emevî başşehri (661-744)."
+    "ic_not": "Dımaşk Emevî başşehri (661-744). · f 0661-05-07 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-04-01",
@@ -9635,7 +9636,6 @@ window.SEHIR_TARIHCE_OSM = [
     "d": "atsiz-beyligi",
     "kesinlik": "yil",
     "kaynak": "TDV ATSIZ b. UVAK (A. Sevim); TDV ŞAM (C. Tomar); TDV TUTUŞ (A. Özaydın): '471'de (1079) Dımaşk'a giren Tutuş'",
-    "kunye_yok": true,
     "ic_not": "Önerilen künye: atsiz-beyligi — Türkmen emîri Atsız b. Uvak'ın Kudüs-Dımaşk beyliği (1071-1079, merkezi 1075/76'dan Dımaşk; Büyük Selçuklu metbû, hutbe Melikşah adına; TDV ATSIZ b. UVAK). t: hicrî 471 ∩ 1079 → 1079-01-01 (İbn Asâkir 472 der)."
    },
    {
@@ -9851,11 +9851,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV ŞAM (C. Tomar)"
    },
    {
-    "t": "0661-05-07",
+    "t": "0661-07-29",
     "gun": "41/661",
     "k": "diger",
     "b": "künye geçişi: Muâviye b. Ebû Süfyân'ın halifeliği — Emevî Devleti (Râşidîn → Emevî)",
-    "kaynak": "TDV ŞAM (C. Tomar): '(41/661)'; hicrî 41 (7 Mayıs 661 – 25 Nisan 662), çeviri: tablo takvimi, Jülyen — kesişimin ilk günü"
+    "kaynak": "TDV ŞAM (C. Tomar): '(41/661)'; hicrî 41 (7 Mayıs 661 – 25 Nisan 662), çeviri: tablo takvimi, Jülyen — kesişimin ilk günü · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-04-01",
@@ -10089,18 +10089,19 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0642-09-01",
-    "t": "0661-05-07",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "ay",
     "kaynak": "TDV MISIR (tarih bölümleri); TDV ŞAM (C. Tomar) (41/661)",
     "ic_not": "t: hicrî 41 ∩ 661 → 661-05-07 (tablo takvimi, Jülyen). Künye hulefa-yi-rasidin 661-01-01'de bitiyor: denetim uyarısı bu kesişimden; Mısır 38/658'de Muâviye tarafına geçti (TDV MISIR) — Emevî künyesi 661'de başladığı için ayrı dönem açılmadı."
    },
    {
-    "f": "0661-05-07",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": "gun",
-    "kaynak": "TDV ŞAM (C. Tomar); künye geçişi genel kronoloji (ayrıca doğrulanmadı)"
+    "kaynak": "TDV ŞAM (C. Tomar); künye geçişi genel kronoloji (ayrıca doğrulanmadı)",
+    "ic_not": "f 0661-05-07 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -10220,11 +10221,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR (tarih bölümleri); TDV DİMYAT (A. Çetin)"
    },
    {
-    "t": "0661-05-07",
+    "t": "0661-07-29",
     "gun": "41/661",
     "k": "diger",
     "b": "künye geçişi: Muâviye b. Ebû Süfyân'ın halifeliği — Emevî Devleti (Râşidîn → Emevî)",
-    "kaynak": "TDV ŞAM (C. Tomar): '(41/661)'; hicrî 41 (7 Mayıs 661 – 25 Nisan 662), çeviri: tablo takvimi, Jülyen — kesişimin ilk günü"
+    "kaynak": "TDV ŞAM (C. Tomar): '(41/661)'; hicrî 41 (7 Mayıs 661 – 25 Nisan 662), çeviri: tablo takvimi, Jülyen — kesişimin ilk günü · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0709-01-01",
@@ -10679,20 +10680,21 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0639-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV DİYARBAKIR (N. Göyünç): '639’da ... İyâz b. Ganm’ın ordusunun sol kanadına kumanda eden Hâlid b. Velîd tarafından zaptedildi'"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": {
      "f": "yil",
      "t": "gun"
     },
-    "kaynak": "TDV DİYARBAKIR (N. Göyünç) (Emevî dönemi); geçiş genel kronoloji (ayrıca doğrulanmadı)"
+    "kaynak": "TDV DİYARBAKIR (N. Göyünç) (Emevî dönemi); geçiş genel kronoloji (ayrıca doğrulanmadı)",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -10920,11 +10922,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV DİYARBAKIR (N. Göyünç)"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "Muâviye'nin halifeliği; Hulefâ-yi Râşidîn'den Emevî hilâfetine geçiş (künye geçişi)",
-    "kaynak": "genel kronoloji (ayrıca doğrulanmadı)"
+    "kaynak": "genel kronoloji (ayrıca doğrulanmadı) · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-08-05",
@@ -11504,7 +11506,6 @@ window.SEHIR_TARIHCE_OSM = [
     "d": "ebuzabi-seyhligi",
     "kesinlik": "yil",
     "kaynak": "TDV DÜBEY (M. L. Bilge): '(1799) ... Ebûzabî'ye bağlı'; 'Dübey Valisi Muhammed b. Hezza‘ b. Za‘l'",
-    "kunye_yok": true,
     "ic_not": "Önerilen künye: ebuzabi-seyhligi — Benî Yâs (Âl Nehyân) Ebûzabî şeyhliği (atlas Abu Dabi kur: 1761; Lorimer). 1820-01-08 Genel Barış Antlaşması'ndan sonra İngiliz himayesi (metbû); atlas bu kıyıyı 1820'den 'ingiltere' ile boyar. 1825 sonrası Şârika (Kavâsim) emîri Sultan b. Sakr'ın nüfuzu (TDV)."
    },
    {
@@ -12545,17 +12546,18 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0653-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV ERZURUM (C. Küçük): 'Hz. Osman zamanında Habîb b. Mesleme kumandasındaki kuvvetlerce 653’te zaptedildi'"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0686-01-01",
     "d": "emevi",
     "kesinlik": "yil",
-    "kaynak": "TDV ERZURUM (C. Küçük); 661 geçişi genel kronoloji (ayrıca doğrulanmadı)"
+    "kaynak": "TDV ERZURUM (C. Küçük); 661 geçişi genel kronoloji (ayrıca doğrulanmadı)",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0686-01-01",
@@ -12660,11 +12662,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV ERZURUM (C. Küçük)"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "Muâviye'nin halifeliği; Hulefâ-yi Râşidîn'den Emevî hilâfetine geçiş (künye geçişi)",
-    "kaynak": "genel kronoloji (ayrıca doğrulanmadı)"
+    "kaynak": "genel kronoloji (ayrıca doğrulanmadı) · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0686-01-01",
@@ -12855,17 +12857,18 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0641-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV MISIR (Babilon fethi 20/641); TDV FEYYÛM (S. M. es-Seyyid): Amr b. Âs bölgeyi barış antlaşmasıyla ele geçirdi; t künye geçişi (emevi künyesinin başlangıcı)"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0683-08-30",
     "d": "emevi",
     "kesinlik": "yil",
-    "kaynak": "TDV MISIR: 'Mısır’daki Hâricîler, 64 (683) yılında ... Abdullah b. Zübeyr’in tarafını tutunca'; hicrî 64 ∩ 683 ilk gün, çeviri: tablo takvimi, Jülyen"
+    "kaynak": "TDV MISIR: 'Mısır’daki Hâricîler, 64 (683) yılında ... Abdullah b. Zübeyr’in tarafını tutunca'; hicrî 64 ∩ 683 ilk gün, çeviri: tablo takvimi, Jülyen",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0683-08-30",
@@ -13026,11 +13029,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR (C. Tomar); TDV FEYYÛM (S. M. es-Seyyid); hicrî 20 ∩ 641 ilk gün"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Râşidîn → Emevî (Muâviye'nin halifeliği)",
-    "kaynak": "TDV MISIR (Muâviye dönemi); gün emevi künyesinin başlangıcı"
+    "kaynak": "TDV MISIR (Muâviye dönemi); gün emevi künyesinin başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0683-08-30",
@@ -14436,20 +14439,21 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0636-02-14",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV HAMA (Cünd-i Hıms'a katıldı)"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": {
      "f": "yil",
      "t": "gun"
     },
-    "kaynak": "künye geçişi; TDV HAMA (Cünd-i Hıms X. yy'a kadar)"
+    "kaynak": "künye geçişi; TDV HAMA (Cünd-i Hıms X. yy'a kadar)",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -14641,11 +14645,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV HAMA; hicrî 15 ∩ 636 kesişimin ilk günü, çeviri: tablo takvimi, Jülyen"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Muâviye'nin halifeliği — Hulefâ-yi Râşidîn'den Emevîlere",
-    "kaynak": "künye geçişi; gün emevi künye başlangıcı"
+    "kaynak": "künye geçişi; gün emevi künye başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-08-05",
@@ -14931,7 +14935,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "0827-04-02",
     "t": "0961-03-06",
     "d": "girit-emirligi",
-    "kunye_yok": true,
     "kesinlik": {
      "f": "yil",
      "t": "gun"
@@ -15053,7 +15056,8 @@ window.SEHIR_TARIHCE_OSM = [
     "t": "0680-01-01",
     "d": "emevi",
     "kesinlik": "yil",
-    "kaynak": "TDV HERAT (R. Uslu); hicrî 41 ∩ 661, 60 ∩ 680, çeviri: tablo takvimi, Jülyen"
+    "kaynak": "TDV HERAT (R. Uslu); hicrî 41 ∩ 661, 60 ∩ 680, çeviri: tablo takvimi, Jülyen",
+    "ic_not": "f 0661-05-07 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati). · 14 Ekim 2026: sınır künye günüyle (0661-07-29) EŞLENMEDİ — burada geçiş bir künye geçişi değil, GERÇEK yerel olaydır (TDV HERAT: iç savaşta elden çıkan Herat yeniden fethedildi, hicrî 41 ∩ 661 = 0661-05-07). emevi künyesinden 83 gün önce: hayalet uyarısı beyanlı."
    },
    {
     "f": "0680-01-01",
@@ -15882,7 +15886,6 @@ window.SEHIR_TARIHCE_OSM = [
     "d": "byzantion-polis",
     "kesinlik": "yil",
     "kaynak": "Herodot 5.103 ('made Byzantium ... subject to themselves'); 6.33 (Fenike donanması öncesi Byzantionlular Mesambria'ya kaçtı, şehir yakıldı)",
-    "kunye_yok": true,
     "ic_not": "Önerilen künye: byzantion-polis — Megara kolonisi Byzantion şehir devleti (MÖ VII. yy – MS 73; Herodot, Thukydides, Ksenophon; TDV İSTANBUL). Bu dilim İyon isyanı ittifakı içinde. t: MÖ 493 — yıl genel kronoloji (ayrıca doğrulanmadı)."
    },
    {
@@ -15907,7 +15910,6 @@ window.SEHIR_TARIHCE_OSM = [
     "d": "byzantion-polis",
     "kesinlik": "yil",
     "kaynak": "TDV İSTANBUL (Delos Birliği; MÖ 440 Atina'ya isyan, kısa sürede yeniden tâbi); Thukydides 8.80 (MÖ 411 isyan)",
-    "kunye_yok": true,
     "ic_not": "Delos Birliği üyesi, metbu Atina (vergi). 440 isyanı kısa — olay. t: MÖ 411 — yıl genel kronoloji (ayrıca doğrulanmadı)."
    },
    {
@@ -15924,7 +15926,6 @@ window.SEHIR_TARIHCE_OSM = [
     "d": "byzantion-polis",
     "kesinlik": "yil",
     "kaynak": "Ksenophon, Hellenika 1.3.20-22; 2.2.1-2",
-    "kunye_yok": true,
     "ic_not": "Atina müttefiki. t: Aigospotamoi sonrası Lysandros'a teslim, MÖ 405 — yıl genel kronoloji (ayrıca doğrulanmadı)."
    },
    {
@@ -15941,7 +15942,6 @@ window.SEHIR_TARIHCE_OSM = [
     "d": "byzantion-polis",
     "kesinlik": "yil",
     "kaynak": "Ksenophon, Hellenika 4.8.27; TDV İSTANBUL (MÖ 340 II. Filip kuşatması püskürtüldü; Roma'nın 'serbest şehir (civitas libera)' statüsü; 'milâttan sonra 73 yılında İmparator Vespasianus tarafından Roma topraklarına katıldı')",
-    "kunye_yok": true,
     "ic_not": "Bağımsız şehir devleti; IV. yy'da Atina ittifakları, Helenistik çağda Galat (Tylis) haracı ve Roma müttefikliği/serbest şehir statüsü — doğrudan sahip şehrin kendisi. Roma'ya bağlanışın ayrıntısı (Claudius dönemi vergi muafiyeti vb.) ölçülmedi; TDV'nin 73 tarihi esas."
    },
    {
@@ -16895,11 +16895,10 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "1071-01-01",
     "t": "1079-01-01",
-    "d": "atsiz-filistin",
-    "kunye_yok": true,
+    "d": "atsiz-beyligi",
     "kesinlik": "yil",
     "kaynak": "TDV KUDÜS 2. bölüm (C. Avcı): Atsız b. Uvak; Tutuş 471 (1079) yılında Atsız'ı ortadan kaldırdı; hicrî 471 ∩ 1079",
-    "ic_not": "Atsız b. Uvak'ın Filistin-Dımaşk emirliği (1071–1079) — hutbe Abbâsî halifesi ve Büyük Selçuklu Sultanı adına (metbu buyuk-selcuklu). Künye yok; önerilen id 'atsiz-filistin'. 469/1077 Fâtımî yanlısı isyan, Atsız bir günlük kuşatmayla geri aldı (kısa — olay)."
+    "ic_not": "Atsız b. Uvak'ın Filistin-Dımaşk emirliği (1071–1079) — hutbe Abbâsî halifesi ve Büyük Selçuklu Sultanı adına (metbu buyuk-selcuklu). Künye yok; önerilen id 'atsiz-filistin'. 469/1077 Fâtımî yanlısı isyan, Atsız bir günlük kuşatmayla geri aldı (kısa — olay). · 14 Ekim 2026: önerilen id 'atsiz-filistin' açılan künye 'atsiz-beyligi' ile birleştirildi (aynı yapı)."
    },
    {
     "f": "1079-01-01",
@@ -20064,7 +20063,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "-0305-01-01",
     "t": "-0293-01-01",
     "d": "antigonos-krallik",
-    "kunye_yok": true,
     "kesinlik": "yil",
     "kaynak": "Plutarkhos, Demetrios 16-18 ('we have conquered Ptolemy in a sea-fight, and now hold Cyprus') ve 35 ('Ptolemy had taken Cyprus, with the exception of the single city of Salamis'); yıllar MÖ 306 / MÖ 294 genel kronoloji (ayrıca doğrulanmadı)",
     "ic_not": "Künye yok: Antigonos I Monophthalmos ve Demetrios Poliorketes'in krallığı (MÖ 306-294 Kıbrıs hâkimiyeti); antigonid-makedonya künyesi MÖ 275'te başlıyor ve Makedonya merkezli. Önerilen id 'antigonos-krallik'. Kaynak: Plutarkhos, Demetrios (LacusCurtius)."
@@ -20123,7 +20121,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "1185-01-01",
     "t": "1191-05-01",
     "d": "kibris-isaakios",
-    "kunye_yok": true,
     "kesinlik": {
      "f": "yil",
      "t": "ay"
@@ -20739,11 +20736,10 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "-0305-01-01",
     "t": "-0293-01-01",
-    "d": "antigonos-demetrios",
+    "d": "antigonos-krallik",
     "kesinlik": "yil",
     "kaynak": "Plutarkhos, Demetrios 16–17 (Salamis deniz zaferi, Kıbrıs'ın alınması) ve 35 ('Ptolemy had taken Cyprus, with the exception of ... Salamis') (LacusCurtius); yıllar MÖ 306 ve MÖ 294 genel kronoloji (ayrıca doğrulanmadı)",
-    "kunye_yok": true,
-    "ic_not": "Künye yok: önerilen id 'antigonos-demetrios' — I. Antigonos Monophthalmos ve Demetrios Poliorketes krallığı (MÖ 306 – 285); devletler.js'teki 'antigonid-makedonya' MÖ 276'da başlıyor, bu dönemi kapsamıyor."
+    "ic_not": "Künye yok: önerilen id 'antigonos-demetrios' — I. Antigonos Monophthalmos ve Demetrios Poliorketes krallığı (MÖ 306 – 285); devletler.js'teki 'antigonid-makedonya' MÖ 276'da başlıyor, bu dönemi kapsamıyor. · 14 Ekim 2026: önerilen id 'antigonos-demetrios' açılan künye 'antigonos-krallik' ile birleştirildi (aynı yapı)."
    },
    {
     "f": "-0293-01-01",
@@ -20804,7 +20800,6 @@ window.SEHIR_TARIHCE_OSM = [
      "t": "ay"
     },
     "kaynak": "TDV KIBRIS (tarih bölümü): 'Vali İsaakios Dukas Komnenos’un ... bağımsızlığını ilân etmesiyle Kıbrıs 1185’te Bizans hâkimiyetinden çıktı'; 'zaptına kadar sürdü (Mayıs 1191)'",
-    "kunye_yok": true,
     "ic_not": "Künye yok: önerilen id 'kibris-isaakios' — İsaakios Komnenos'un Kıbrıs 'imparatorluğu' (1185 – Mayıs 1191), TDV KIBRIS. (Genel kronolojide isyan 1184 de geçer; TDV 1185 esas.)"
    },
    {
@@ -21028,7 +21023,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0638-01-23",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": {
      "f": "gun",
@@ -21037,7 +21032,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV UBÂDE b. SÂMİT; TDV LAZKİYE ('Şehrin ilk camisini de Ubâde yaptırdı'); t: künye geçişi (hulefa-yi-rasidin t)"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": {
@@ -21045,7 +21040,7 @@ window.SEHIR_TARIHCE_OSM = [
      "t": "gun"
     },
     "kaynak": "TDV LAZKİYE (Ömer b. Abdülazîz ve II. Yezîd dönemi imarı; Belâzürî s. 189-190); künye geçişleri",
-    "ic_not": "720 civarı Bizans'ın denizden baskını ve tahribi: KISA ELE GEÇİRME/baskın, dönem açılmadı, olay yazıldı."
+    "ic_not": "720 civarı Bizans'ın denizden baskını ve tahribi: KISA ELE GEÇİRME/baskın, dönem açılmadı, olay yazıldı. · f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -21235,11 +21230,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV UBÂDE b. SÂMİT; TDV LAZKİYE; hicrî 17 ∩ 638 ilk gün, çeviri: tablo takvimi, Jülyen"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî Hilâfeti",
-    "kaynak": "devletler.js künye geçişi (hulefa-yi-rasidin t)"
+    "kaynak": "devletler.js künye geçişi (hulefa-yi-rasidin t) · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0720-01-01",
@@ -21442,7 +21437,6 @@ window.SEHIR_TARIHCE_OSM = [
      "t": "ay"
     },
     "kaynak": "TDV KIBRIS (tarih bölümü): 'Vali İsaakios Dukas Komnenos’un ... bağımsızlığını ilân etmesiyle Kıbrıs 1185’te Bizans hâkimiyetinden çıktı'; 'zaptına kadar sürdü (Mayıs 1191)'",
-    "kunye_yok": true,
     "ic_not": "Künye yok: önerilen id 'kibris-isaakios' — İsaakios Komnenos'un Kıbrıs 'imparatorluğu' (1185 – Mayıs 1191), TDV KIBRIS. (Genel kronolojide isyan 1184 de geçer; TDV 1185 esas.)"
    },
    {
@@ -22233,7 +22227,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0640-01-02",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": {
      "f": "gun",
@@ -22242,14 +22236,15 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MARDİN (İyâz b. Ganm, Habîb b. Mesleme, Umeyr b. Sa'd, Muâviye valilikleri); t: künye geçişi"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": {
      "f": "yil",
      "t": "gun"
     },
-    "kaynak": "TDV MARDİN ('Bölgenin son Emevî valisi Ebân b. Yezîd'); künye geçişleri"
+    "kaynak": "TDV MARDİN ('Bölgenin son Emevî valisi Ebân b. Yezîd'); künye geçişleri",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -22299,11 +22294,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MARDİN (Belâzürî, Fütûh s. 252); hicrî 19 ∩ 640 ilk gün, çeviri: tablo takvimi, Jülyen"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî; Nu'mân b. Beşîr el-Cezîre valisi",
-    "kaynak": "devletler.js künye geçişi; TDV MARDİN"
+    "kaynak": "devletler.js künye geçişi; TDV MARDİN · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-01-01",
@@ -24150,17 +24145,18 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0642-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV MISIR, 4. bölüm (C. Tomar) (Yukarı Mısır'ın fethi; 'Bu sırada' = İskenderiye'nin teslimi Eylül 642 dönemi)"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0683-08-30",
     "d": "emevi",
     "kesinlik": "yil",
-    "kaynak": "TDV MISIR, 4. bölüm (C. Tomar) (Muâviye dönemi); künye geçişi günü emevi künyesinin başlangıcı (661)"
+    "kaynak": "TDV MISIR, 4. bölüm (C. Tomar) (Muâviye dönemi); künye geçişi günü emevi künyesinin başlangıcı (661)",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0683-08-30",
@@ -24258,11 +24254,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR, 4. bölüm (C. Tomar)"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hz. Ali'nin şehadeti, Muâviye'nin halifeliği — Râşidîn'den Emevîler'e",
-    "kaynak": "TDV MISIR, 4. bölüm (C. Tomar); gün künye başlangıcı"
+    "kaynak": "TDV MISIR, 4. bölüm (C. Tomar); gün künye başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0683-08-30",
@@ -24573,14 +24569,14 @@ window.SEHIR_TARIHCE_OSM = [
   "sahip": [
    {
     "f": "0641-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV MUSUL (S. es-Sakkâr) (Hz. Ömer'in garnizon-şehri; Hz. Osman'ın iskânı)",
     "ic_not": "t: künye geçişi, gün künye başlangıcı (emevi 661-01-01)."
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-01-25",
     "d": "emevi",
     "kesinlik": {
@@ -24588,7 +24584,7 @@ window.SEHIR_TARIHCE_OSM = [
      "t": "gun"
     },
     "kaynak": "TDV MUSUL (S. es-Sakkâr); t: TDV ZAP SUYU SAVAŞI (11 Cemâziyelâhir 132 / 25 Ocak 750)",
-    "ic_not": "Zübeyrî ara dönemi (TDV MUSUL: Abdullah b. Zübeyr Musul'a Muhammed b. Eş'as'ı vali yaptı) yılsız — dönem açılmadı. t: Zap zaferiyle bölge Abbâsîlere geçti; Musul'a giriş günü kaynakta yok (beyanlı yaklaşıklık)."
+    "ic_not": "Zübeyrî ara dönemi (TDV MUSUL: Abdullah b. Zübeyr Musul'a Muhammed b. Eş'as'ı vali yaptı) yılsız — dönem açılmadı. t: Zap zaferiyle bölge Abbâsîlere geçti; Musul'a giriş günü kaynakta yok (beyanlı yaklaşıklık). · f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-01-25",
@@ -24737,11 +24733,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MUSUL (S. es-Sakkâr); Belâzürî"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Muâviye'nin halifeliği — Hulefâ-yi Râşidîn'den Emevîlere",
-    "kaynak": "TDV MUSUL (S. es-Sakkâr) (Emevî valileri); gün künye başlangıcı"
+    "kaynak": "TDV MUSUL (S. es-Sakkâr) (Emevî valileri); gün künye başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-01-25",
@@ -26075,7 +26071,6 @@ window.SEHIR_TARIHCE_OSM = [
      "t": "yil"
     },
     "kaynak": "Herodotos 5.94-95 (Sigeion savaşı, Alkaios, Periandros'un hakemliği); TDV MİDİLLİ (Pittakos dönemi, MÖ 650-570)",
-    "kunye_yok": true,
     "ic_not": "Künye yok: önerilen id 'midilli-polis' — Mytilene (Midilli) bağımsız Aiol polis'i, arkaik dönemden Helenistik döneme; TDV MİDİLLİ, Pleiades 550763. Periandros'un saltanatı geleneksel olarak MÖ 627–587 (genel kronoloji, ayrıca doğrulanmadı) ⇒ güvenli uç 587."
    },
    {
@@ -26092,7 +26087,6 @@ window.SEHIR_TARIHCE_OSM = [
     "d": "midilli-polis",
     "kesinlik": "yil",
     "kaynak": "Herodotos 5.37-38 (İyon İsyanı: Koes yakalandı, MÖ 499)",
-    "kunye_yok": true,
     "ic_not": "İsyancı İyon-Aiol polis'i dönemi."
    },
    {
@@ -26109,7 +26103,6 @@ window.SEHIR_TARIHCE_OSM = [
     "d": "midilli-polis",
     "kesinlik": "yil",
     "kaynak": "Herodotos 9.106 ('admitted to their alliance the Samians, Chians, Lesbians'); Thukydides 3.28 (MÖ 427 teslim)",
-    "kunye_yok": true,
     "ic_not": "Delos Birliği'nde gemi veren özerk müttefik. 428 isyanı ve 427 teslimi: Thukydides 3.2–3.50."
    },
    {
@@ -26140,7 +26133,6 @@ window.SEHIR_TARIHCE_OSM = [
      "t": "yil"
     },
     "kaynak": "Ksenophon, Hellenika 4.8.28; Arrianos, Anabasis 2.1 (Memnon'un kuşatması, MÖ 333) (Chinnock çev., Gutenberg 46976)",
-    "kunye_yok": true,
     "ic_not": "Atina ile müttefik özerk polis (II. Atina Birliği; Arrianos'ta İskender'le antlaşma dikilitaşı)."
    },
    {
@@ -26170,7 +26162,6 @@ window.SEHIR_TARIHCE_OSM = [
      "t": "yil"
     },
     "kaynak": "Pleiades 550763 (Helenistik polis); TDV MİDİLLİ (MÖ 168 Roma işgalinde Antissa yıkıldı, Mytilene varlığını korudu); t: Suetonius, Divus Iulius 2 ('when Mitylene was taken by storm', M. Thermus) (Gutenberg 6400)",
-    "kunye_yok": true,
     "ic_not": "Helenistik özgür polis; Antigonos, Ptolemaios, Lysimakhos etkileri ve MÖ 88–79 Mithridates yanlısı direniş ayrı dönem olarak açılmadı (şehre özgü el değiştirme tanığı aranmadı, borç). t: Thermus'un Midilli'yi alışı geleneksel olarak MÖ 79 (genel kronoloji, ayrıca doğrulanmadı)."
    },
    {
@@ -26614,11 +26605,10 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "1071-01-01",
     "t": "1079-01-01",
-    "d": "atsiz-filistin",
-    "kunye_yok": true,
+    "d": "atsiz-beyligi",
     "kesinlik": "yil",
     "kaynak": "TDV KUDÜS 2. bölüm: Atsız b. Uvak 463 (1071) Kudüs'e girdi; 'Tâcüddevle Tutuş 471 (1079) yılında Atsız'ı ortadan kaldırdı'; TDV NABLUS: 'V. (XI.) yüzyılın son çeyreğinde Selçuklular'la Fâtımîler arasında mücadeleye sahne olan şehir, kısa bir süre Selçuklu hâkimiyetinde' — bölge düzeyi",
-    "ic_not": "Künye yok: Atsız b. Uvak'ın Filistin-Dımaşk emirliği (1071-1079, Büyük Selçuklu'ya tâbi), parti 05/06 'atsiz-filistin/atsiz-beyligi' önerisiyle aynı yapı. Nablus'un bu dilimdeki sahipliği Filistin genelinden çıkarım (TDV NABLUS yalnız 'kısa bir süre Selçuklu' der)."
+    "ic_not": "Künye yok: Atsız b. Uvak'ın Filistin-Dımaşk emirliği (1071-1079, Büyük Selçuklu'ya tâbi), parti 05/06 'atsiz-filistin/atsiz-beyligi' önerisiyle aynı yapı. Nablus'un bu dilimdeki sahipliği Filistin genelinden çıkarım (TDV NABLUS yalnız 'kısa bir süre Selçuklu' der). · 14 Ekim 2026: önerilen id 'atsiz-filistin' açılan künye 'atsiz-beyligi' ile birleştirildi (aynı yapı)."
    },
    {
     "f": "1079-01-01",
@@ -27046,8 +27036,7 @@ window.SEHIR_TARIHCE_OSM = [
      "t": "gun"
     },
     "kaynak": "TDV GİRİT (827-961 Ebû Hafs Ömer'in ailesi)",
-    "ic_not": "Künye önerisi: girit-emirligi — 'Girit (Kandiye) Emirliği', 827-961 (TDV GİRİT; önceki partilerde de önerildi).",
-    "kunye_yok": true
+    "ic_not": "Künye önerisi: girit-emirligi — 'Girit (Kandiye) Emirliği', 827-961 (TDV GİRİT; önceki partilerde de önerildi)."
    },
    {
     "f": "0961-03-06",
@@ -27273,14 +27262,13 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "1185-01-01",
     "t": "1191-05-01",
-    "d": "kibris-isaakios-komnenos",
+    "d": "kibris-isaakios",
     "kesinlik": {
      "f": "yil",
      "t": "ay"
     },
     "kaynak": "TDV KIBRIS (Tarih bölümü)",
-    "ic_not": "Künye önerisi: kibris-isaakios-komnenos — 'İsaakios Dukas Komnenos'un Kıbrıs hâkimiyeti', 1185 – Mayıs 1191 (TDV KIBRIS).",
-    "kunye_yok": true
+    "ic_not": "Künye önerisi: kibris-isaakios-komnenos — 'İsaakios Dukas Komnenos'un Kıbrıs hâkimiyeti', 1185 – Mayıs 1191 (TDV KIBRIS). · 14 Ekim 2026: önerilen id 'kibris-isaakios-komnenos' açılan künye 'kibris-isaakios' ile birleştirildi (aynı yapı)."
    },
    {
     "f": "1191-05-01",
@@ -27714,14 +27702,13 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "1185-01-01",
     "t": "1191-05-01",
-    "d": "kibris-isaakios-komnenos",
+    "d": "kibris-isaakios",
     "kesinlik": {
      "f": "yil",
      "t": "ay"
     },
     "kaynak": "TDV KIBRIS (Tarih bölümü)",
-    "ic_not": "Künye önerisi: kibris-isaakios-komnenos — 'İsaakios Dukas Komnenos'un Kıbrıs hâkimiyeti', 1185 – Mayıs 1191 (TDV KIBRIS).",
-    "kunye_yok": true
+    "ic_not": "Künye önerisi: kibris-isaakios-komnenos — 'İsaakios Dukas Komnenos'un Kıbrıs hâkimiyeti', 1185 – Mayıs 1191 (TDV KIBRIS). · 14 Ekim 2026: önerilen id 'kibris-isaakios-komnenos' açılan künye 'kibris-isaakios' ile birleştirildi (aynı yapı)."
    },
    {
     "f": "1191-05-01",
@@ -28811,7 +28798,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0642-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": {
      "f": "belirsiz",
@@ -28820,11 +28807,12 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR, 4. bölüm (C. Tomar): 'Bu sırada İslâm ordusunun diğer kısmı Feyyûm’u ve buradan hareketle Asvan’a kadar Yukarı Mısır’ı (Saîd) ele geçirdi'; TDV ASYÛT (M. L. Bilge): 'Amr b. Âs’ın Mısır’ı fethi sırasında müslümanların idaresine geçen'"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0683-08-30",
     "d": "emevi",
     "kesinlik": "yil",
-    "kaynak": "TDV MISIR 4. bölüm (Muâviye dönemi); künye geçişi günü: emevi künyesinin başlangıcı (661)"
+    "kaynak": "TDV MISIR 4. bölüm (Muâviye dönemi); künye geçişi günü: emevi künyesinin başlangıcı (661)",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0683-08-30",
@@ -28942,11 +28930,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV TOLUNOĞULLARI: Ahmed b. Tolun Mısır'a girdi (254/868); Şeybân teslim oldu (Rebîülevvel 292 / Ocak 905)"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hz. Ali'nin şehadeti, Muâviye'nin halifeliği — Hulefâ-yi Râşidîn'den Emevîler'e",
-    "kaynak": "TDV MISIR 4. bölüm (C. Tomar); gün künye başlangıcı"
+    "kaynak": "TDV MISIR 4. bölüm (C. Tomar); gün künye başlangıcı · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0683-08-30",
@@ -29280,7 +29268,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "0827-04-02",
     "t": "0961-03-06",
     "d": "girit-emirligi",
-    "kunye_yok": true,
     "kesinlik": {
      "f": "yil",
      "t": "gun"
@@ -29471,7 +29458,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "-0406-01-01",
     "t": "-0331-01-01",
     "d": "rodos-polis",
-    "kunye_yok": true,
     "kesinlik": {
      "f": "yil",
      "t": "yil"
@@ -29494,7 +29480,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "-0322-06-10",
     "t": "0044-01-01",
     "d": "rodos-polis",
-    "kunye_yok": true,
     "kesinlik": {
      "f": "gun",
      "t": "yil"
@@ -29514,7 +29499,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "0053-01-01",
     "t": "0079-06-23",
     "d": "rodos-polis",
-    "kunye_yok": true,
     "kesinlik": {
      "f": "yil",
      "t": "belirsiz"
@@ -30306,26 +30290,27 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0628-01-01",
-    "t": "0632-01-01",
+    "t": "0632-06-08",
     "d": "medine-devleti",
     "kesinlik": "yil",
     "kaynak": "TDV SAN‘A (Bâzân Yemen'in ilk müslüman valisi oldu); TDV EMEVÎLER (Hulefâ-yi Râşidîn 632-661)",
     "ic_not": "t künye geçişidir (Hz. Peygamber'in vefatı, 632; gün yazılmadı). Esved el-Ansî'nin San‘a'yı ele geçirmesi (11/632) süresi kısa — olay olarak yazıldı."
    },
    {
-    "f": "0632-01-01",
-    "t": "0661-01-01",
+    "f": "0632-06-08",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
-    "kaynak": "TDV SAN‘A (Hz. Ebû Bekir'in San‘a valisi Fîrûz ed-Deylemî); TDV EMEVÎLER (Râşidîn 632-661, Emevîler 661-750)"
+    "kaynak": "TDV SAN‘A (Hz. Ebû Bekir'in San‘a valisi Fîrûz ed-Deylemî); TDV EMEVÎLER (Râşidîn 632-661, Emevîler 661-750)",
+    "ic_not": "f 0632-01-01 → 0632-06-08: künye geçişi günü 14 Ekim 2026'da TDV muhammed '13 Rebîülevvel 11 / 8 Haziran 632' ile düzeldi."
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-01-01",
     "d": "emevi",
     "kesinlik": "yil",
     "kaynak": "TDV EMEVÎLER (661-750); TDV ABBÂSÎLER (Seffâh 132/750)",
-    "ic_not": "San‘a'ya özgü el değiştirme tanığı yok; uçlar hilâfet künye geçişleridir."
+    "ic_not": "San‘a'ya özgü el değiştirme tanığı yok; uçlar hilâfet künye geçişleridir. · f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-01-01",
@@ -30405,11 +30390,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV SAN‘A"
    },
    {
-    "t": "0632-01-01",
+    "t": "0632-06-08",
     "gun": "632",
     "k": "diger",
     "b": "künye geçişi: Hz. Peygamber'in vefatı — Medine devleti → Hulefâ-yi Râşidîn",
-    "kaynak": "TDV EMEVÎLER (Râşidîn 632-661); TDV SAN‘A"
+    "kaynak": "TDV EMEVÎLER (Râşidîn 632-661); TDV SAN‘A · gün 0632-06-08: künye geçişi günü 14 Ekim 2026'da TDV muhammed '13 Rebîülevvel 11 / 8 Haziran 632' ile düzeldi"
    },
    {
     "t": "0632-03-29",
@@ -30419,11 +30404,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV SAN‘A; hicrî 11 ∩ 632, çeviri: tablo takvimi, Jülyen"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî hilâfeti",
-    "kaynak": "TDV EMEVÎLER"
+    "kaynak": "TDV EMEVÎLER · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-01-01",
@@ -30658,7 +30643,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0639-01-12",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": {
      "f": "gun",
@@ -30668,7 +30653,7 @@ window.SEHIR_TARIHCE_OSM = [
     "ic_not": "f hicrî kural (bkz. önceki dönem). t künye geçişidir."
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-09",
     "d": "emevi",
     "kesinlik": {
@@ -30676,7 +30661,7 @@ window.SEHIR_TARIHCE_OSM = [
      "t": "gun"
     },
     "kaynak": "TDV ŞANLIURFA: 'Emevîler devrinde Harran ve Samsat'la beraber bir vilâyet haline getirildi (67/686-87)'; '133'te (750-51) ... II. Mervân'ın ölümünün ardından Abbâsîler'e teslim edildi' — hicrî 133 ∩ 750 = 750-08-09 (tablo takvimi, Jülyen)",
-    "ic_not": "t: hicrî 133 (Jülyen 9 Ağustos 750 – 29 Temmuz 751) ∩ kaynağın 750'si ⇒ 750-08-09; II. Mervân 5 Ağustos 750'de öldü (emevi künye t) — dönem künye sonunu 4 gün aşar, bu hicrî kesişim kuralının sonucudur (teslim Mervân'ın ölümünden SONRA)."
+    "ic_not": "t: hicrî 133 (Jülyen 9 Ağustos 750 – 29 Temmuz 751) ∩ kaynağın 750'si ⇒ 750-08-09; II. Mervân 5 Ağustos 750'de öldü (emevi künye t) — dönem künye sonunu 4 gün aşar, bu hicrî kesişim kuralının sonucudur (teslim Mervân'ın ölümünden SONRA). · f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-09",
@@ -30937,11 +30922,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV ŞANLIURFA (A. N. Turan); Lieu, Iranica 'Edessa' — hicrî 18 ∩ 639, tablo takvimi, Jülyen"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî Hilâfeti",
-    "kaynak": "devletler.js künye geçişi (hulefa-yi-rasidin t / emevi f)"
+    "kaynak": "devletler.js künye geçişi (hulefa-yi-rasidin t / emevi f) · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-08-09",
@@ -31697,7 +31682,6 @@ window.SEHIR_TARIHCE_OSM = [
     "d": "makedon-merisleri",
     "kesinlik": "yil",
     "kaynak": "Livius 45.4 (Perseus): Aemilius Paullus 'still in camp at Sirae, in the Odomantic country'; Livius 45.29.6 (Perseus): birinci bölge 'the district between the Strymon and the Nessus'",
-    "kunye_yok": true,
     "ic_not": "Künye yok: Pydna'dan sonra Aemilius Paullus'un kurduğu dört Makedon bölgesi (meris), MÖ 167-148; Strymon–Nestos arasındaki Siris birinci bölgede (merkez Amphipolis). Metbû Roma. Selanik ve Manastır kayıtlarıyla aynı önerilen id. Andriskos (MÖ 149-148) dönemi tarihlenemedi."
    },
    {
@@ -32419,7 +32403,7 @@ window.SEHIR_TARIHCE_OSM = [
   "sahip": [
    {
     "f": "0644-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": {
      "f": "onyil",
@@ -32428,11 +32412,12 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV ŞÎRAZ (Ebû Mûsâ el-Eş‘arî ve Osman b. Ebü’l-Âs fethetti); TDV EMEVÎLER (Râşidîn 632-661)"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-01-01",
     "d": "emevi",
     "kesinlik": "yil",
-    "kaynak": "TDV EMEVÎLER (661-750); TDV ABBÂSÎLER (Seffâh 132/750); Iranica: iki yüzyıl Fars'ın Arap valilerinin oturduğu yer"
+    "kaynak": "TDV EMEVÎLER (661-750); TDV ABBÂSÎLER (Seffâh 132/750); Iranica: iki yüzyıl Fars'ın Arap valilerinin oturduğu yer",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-01-01",
@@ -32541,11 +32526,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV ŞÎRAZ (Belâzürî); Iranica SHIRAZ i"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî hilâfeti",
-    "kaynak": "TDV EMEVÎLER"
+    "kaynak": "TDV EMEVÎLER · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0693-05-13",
@@ -32893,7 +32878,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0638-01-23",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": {
      "f": "yil",
@@ -32903,12 +32888,12 @@ window.SEHIR_TARIHCE_OSM = [
     "ic_not": "TDV ŞÜŞTER fethin 19, 20 ve 21 (642) yıllarında olduğuna dair rivayetleri de anar; TDV HÛZİSTAN bölge fethini 19/640 diye tarihler. Şehre özgü madde (ŞÜŞTER) esas alındı."
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": "gun",
     "kaynak": "TDV ŞÜŞTER (Emevîler döneminde Hâricî sığınağı, Haccâc sonrası tekrar Emevî yönetimi); künye geçişi",
-    "ic_not": "Hâricîlerin şehri kale olarak kullandığı ara dönem (Şebîb b. Yezîd) tarihsiz — dönem açılmadı."
+    "ic_not": "Hâricîlerin şehri kale olarak kullandığı ara dönem (Şebîb b. Yezîd) tarihsiz — dönem açılmadı. · f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -32970,11 +32955,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV ŞÜŞTER (R. Kurtuluş); hicrî 17 ∩ 638 ilk gün, tablo takvimi, Jülyen"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Muâviye'nin halifeliği — Hulefâ-yi Râşidîn'den Emevîler'e",
-    "kaynak": "künye hulefa-yi-rasidin/emevi; gün künye başlangıcı (genel kronoloji, ayrıca doğrulanmadı)"
+    "kaynak": "künye hulefa-yi-rasidin/emevi; gün künye başlangıcı (genel kronoloji, ayrıca doğrulanmadı) · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-08-05",
@@ -33088,20 +33073,21 @@ window.SEHIR_TARIHCE_OSM = [
   "sahip": [
    {
     "f": "0639-01-12",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV SİİRT (İyâz b. Ganm fethi, 18/639)"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": {
      "f": "yil",
      "t": "gun"
     },
-    "kaynak": "künye geçişi (genel kronoloji); TDV SİİRT (el-Cezîre'nin Diyarbekir âmilliği)"
+    "kaynak": "künye geçişi (genel kronoloji); TDV SİİRT (el-Cezîre'nin Diyarbekir âmilliği)",
+    "ic_not": "f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -33163,11 +33149,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV SİİRT"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî",
-    "kaynak": "künye geçişi (genel kronoloji)"
+    "kaynak": "künye geçişi (genel kronoloji) · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0750-08-05",
@@ -34725,18 +34711,18 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0642-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV TEBRİZ: 'Tebriz ve çevresi Halife Ömer döneminde 21 (642) yılında Mugīre b. Şu‘be tarafından İslâm topraklarına katıldı'; hicrî 21 ∩ 642 ilk gün"
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": "gun",
     "kaynak": "TDV TEBRİZ (112/730 Emevî kumandanı Cerrâh'ın Hazarlara yenilmesi, Saîd el-Haraşî'nin geri alışı); künye geçişi",
-    "ic_not": "Hazarların 112 (730) ele geçirişi süresi bilinmeyen kısa ele geçirmedir — dönem açılmadı, olay yazıldı."
+    "ic_not": "Hazarların 112 (730) ele geçirişi süresi bilinmeyen kısa ele geçirmedir — dönem açılmadı, olay yazıldı. · f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -34844,11 +34830,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV TEBRİZ; hicrî 21 ∩ 642 ilk gün, tablo takvimi, Jülyen"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Muâviye'nin halifeliği — Hulefâ-yi Râşidîn'den Emevîler'e",
-    "kaynak": "künye hulefa-yi-rasidin/emevi; gün künye başlangıcı (genel kronoloji, ayrıca doğrulanmadı)"
+    "kaynak": "künye hulefa-yi-rasidin/emevi; gün künye başlangıcı (genel kronoloji, ayrıca doğrulanmadı) · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0730-03-26",
@@ -35635,7 +35621,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "-0167-01-01",
     "t": "-0147-01-01",
     "d": "makedon-merisleri",
-    "kunye_yok": true,
     "kesinlik": "yil",
     "kaynak": "Livius 45.29.9 (Perseus): 'Amphipolis was fixed for the first, Thessalonica for the second'; TDV SELÂNİK",
     "ic_not": "Künye yok: Pydna'dan sonra Aemilius Paullus'un kurduğu dört Makedon bölgesi (meris), MÖ 167-148; Selanik ikinci bölgenin merkezi. Metbu Roma Cumhuriyeti — TDV bu dilimi doğrudan Roma sayar. Parti 04 (Manastır) ile aynı önerilen id. MÖ 149-148 Andriskos (sahte Philippos) Makedonya'yı ele geçirdi; Selanik'e etkisi ve süresi tarihlenemedi, dönem açılmadı."
@@ -36522,14 +36507,14 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0643-01-01",
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "d": "hulefa-yi-rasidin",
     "kesinlik": "yil",
     "kaynak": "TDV TRABLUSGARP: Amr b. Âs '22 (643) yılında bir aylık kuşatmanın ardından' fethetti; hicrî 22 ∩ 643, çeviri: tablo takvimi, Jülyen",
     "ic_not": "TDV: 'müslümanlarla Bizanslılar’ın şehir üzerindeki hâkimiyet mücadelesi devam etti' — Amr'ın fethinin kalıcılığı ve Bizans dönüşleri tarihlenemedi (beyanlı). Kesin İslâm hâkimiyetinin en geç tanığı: Hassân b. Nu‘mân 74/693'te Trablus'u tahkim etti (TDV HASSÂN b. NU‘MÂN)."
    },
    {
-    "f": "0661-01-01",
+    "f": "0661-07-29",
     "t": "0750-08-05",
     "d": "emevi",
     "kesinlik": {
@@ -36537,7 +36522,7 @@ window.SEHIR_TARIHCE_OSM = [
      "t": "gun"
     },
     "kaynak": "künye geçişi (emevi); TDV TRABLUSGARP ('Emevîler ve Abbâsîler döneminde ... İbâzıyye koluna mensup Berberîler’in isyanlarına')",
-    "ic_not": "656-661 Hz. Ali-Muâviye mücadelesi sırasında İfrîkıye'de İslâm hâkimiyeti sarsıldı (TDV TUNUS); Trablus'a özgü tanık yok."
+    "ic_not": "656-661 Hz. Ali-Muâviye mücadelesi sırasında İfrîkıye'de İslâm hâkimiyeti sarsıldı (TDV TUNUS); Trablus'a özgü tanık yok. · f 0661-01-01 → 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)."
    },
    {
     "f": "0750-08-05",
@@ -36560,18 +36545,18 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0909-01-01",
-    "t": "0972-01-01",
+    "t": "0972-10-02",
     "d": "fatimi",
     "kesinlik": "yil",
     "kaynak": "TDV AĞLEBÎLER ('Fâtımîler, Ağlebî devletine son verdiler'); TDV TRABLUSGARP ('Ağlebîler’in ardından Trablusgarp, Fâtımîler’in ve Zîrîler’in hâkimiyetine girdi')"
    },
    {
-    "f": "0972-01-01",
+    "f": "0972-10-02",
     "t": "1037-10-14",
     "d": "ziriler",
     "kesinlik": "yil",
     "kaynak": "TDV ZÎRÎLER (C. E. Adıgüzel): 'Bulukkîn b. Zîrî’nin Trablus, Surt (Sirte) ve Ecdâbiye’nin kendisine verilmesi isteği de kabul edildi' (361/972); hicrî 361 ∩ 972, çeviri: tablo takvimi, Jülyen",
-    "ic_not": "Fâtımî metbuluğu 1049/1051'e kadar. Aynı TDV maddesi 367/978'de 'Trablus ve Sicilya dışındaki' valiliklerin Bulukkîn'e bırakıldığını da yazar — iç çelişki; Trablus 972-978 arası Fâtımî valisinde kalmış olabilir. BEYANLI YAKLAŞIKLIK: 1001'den sonra Zenâte'den Benî Hazrûn (Fülfül b. Saîd) Trablus'u fiilen Zîrîlerden ayırdı (künye trablus-benihazrun 1001-1146 bunu taşır), ama dayanak yalnız Vikipedi/Abun-Nasr ipucu — TDV tarih vermez, yalnız 'şehrin valisi Zenâteli Saîd b. Hazrûn' der. Dönem açılmadı; 972-1037 Zîrî yazıldı, fiilî idare büyük ölçüde Benî Hazrûn valilerinde/emirlerindeydi."
+    "ic_not": "Fâtımî metbuluğu 1049/1051'e kadar. Aynı TDV maddesi 367/978'de 'Trablus ve Sicilya dışındaki' valiliklerin Bulukkîn'e bırakıldığını da yazar — iç çelişki; Trablus 972-978 arası Fâtımî valisinde kalmış olabilir. BEYANLI YAKLAŞIKLIK: 1001'den sonra Zenâte'den Benî Hazrûn (Fülfül b. Saîd) Trablus'u fiilen Zîrîlerden ayırdı (künye trablus-benihazrun 1001-1146 bunu taşır), ama dayanak yalnız Vikipedi/Abun-Nasr ipucu — TDV tarih vermez, yalnız 'şehrin valisi Zenâteli Saîd b. Hazrûn' der. Dönem açılmadı; 972-1037 Zîrî yazıldı, fiilî idare büyük ölçüde Benî Hazrûn valilerinde/emirlerindeydi. · f 0972-01-01 → 0972-10-02: künye geçişi günü 14 Ekim 2026'da TDV bulukkin-b-ziri '20 Zilhicce 361 / 2 Ekim 972' ile düzeldi."
    },
    {
     "f": "1037-10-14",
@@ -36664,11 +36649,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV TRABLUSGARP (A. Kavas)"
    },
    {
-    "t": "0661-01-01",
+    "t": "0661-07-29",
     "gun": "661",
     "k": "diger",
     "b": "künye geçişi: Hz. Ali'nin şehadeti, Emevî hilâfeti",
-    "kaynak": "hulefa-yi-rasidin/emevi künyeleri (genel kronoloji)"
+    "kaynak": "hulefa-yi-rasidin/emevi künyeleri (genel kronoloji) · gün 0661-07-29: künye geçişi günü 14 Ekim 2026'da TDV hulefa-yi-rasidin '25 Rebîülevvel 41/29 Temmuz 661' ile düzeldi (Hz. Hasan'ın feragati)"
    },
    {
     "t": "0693-05-13",
@@ -36713,11 +36698,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV AĞLEBÎLER (A. Özaydın)"
    },
    {
-    "t": "0972-01-01",
+    "t": "0972-10-02",
     "gun": "361 (972)",
     "k": "diger",
     "b": "Fâtımî Muiz Mısır'a geçti; Trablus da Bulukkîn b. Zîrî'ye verildi",
-    "kaynak": "TDV ZÎRÎLER (C. E. Adıgüzel)"
+    "kaynak": "TDV ZÎRÎLER (C. E. Adıgüzel) · gün 0972-10-02: künye geçişi günü 14 Ekim 2026'da TDV bulukkin-b-ziri '20 Zilhicce 361 / 2 Ekim 972' ile düzeldi"
    },
    {
     "t": "1037-10-14",
@@ -37018,19 +37003,19 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0909-01-01",
-    "t": "0972-01-01",
+    "t": "0972-10-02",
     "d": "fatimi",
     "kesinlik": "yil",
     "kaynak": "TDV TUNUS ('Fâtımîler Devleti’ni kurdu (909)'); TDV ZÎRÎLER (361/972)",
     "ic_not": "334/945 Hâricî Ebû Yezîd Tunus'u işgal ve tahrip etti — süresi bilinmeyen ele geçirme, dönem açılmadı (olay)."
    },
    {
-    "f": "0972-01-01",
+    "f": "0972-10-02",
     "t": "1058-02-28",
     "d": "ziriler",
     "kesinlik": "yil",
     "kaynak": "TDV TUNUS ('Böylece Tunus’ta Zîrîler dönemi başladı (972)'); TDV HORASÂNÎLER (A. Kavas)",
-    "ic_not": "Fâtımî metbuluğu 1049/1051'e kadar. TDV HORASÂNÎLER: Zîrîler Hilâlî akınlarına dayanamayınca Tunus Benî Hilâl'in Riyâh kolundan Abîd b. Ebü'l-Gays'ın eline geçti — TARİH VERİLMEZ (1052 Haydarân / 1057 Kayrevan'ın terki ile 1058 arası). Başlangıcı ve süresi bilinmeyen ele geçirme: dönem açılmadı; t = 450/1058 Hammâdî valiliği (beyanlı yaklaşıklık: 1058'den önceki birkaç yıl fiilen Riyâh emîrinin elinde olabilir)."
+    "ic_not": "Fâtımî metbuluğu 1049/1051'e kadar. TDV HORASÂNÎLER: Zîrîler Hilâlî akınlarına dayanamayınca Tunus Benî Hilâl'in Riyâh kolundan Abîd b. Ebü'l-Gays'ın eline geçti — TARİH VERİLMEZ (1052 Haydarân / 1057 Kayrevan'ın terki ile 1058 arası). Başlangıcı ve süresi bilinmeyen ele geçirme: dönem açılmadı; t = 450/1058 Hammâdî valiliği (beyanlı yaklaşıklık: 1058'den önceki birkaç yıl fiilen Riyâh emîrinin elinde olabilir). · f 0972-01-01 → 0972-10-02: künye geçişi günü 14 Ekim 2026'da TDV bulukkin-b-ziri '20 Zilhicce 361 / 2 Ekim 972' ile düzeldi."
    },
    {
     "f": "1058-02-28",
@@ -37252,11 +37237,11 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV TUNUS (İ. Yiğit)"
    },
    {
-    "t": "0972-01-01",
+    "t": "0972-10-02",
     "gun": "361 (972)",
     "k": "diger",
     "b": "Fâtımîler Mısır'a geçti; İfrîkıye Zîrî Bulukkîn'e bırakıldı",
-    "kaynak": "TDV TUNUS; TDV ZÎRÎLER"
+    "kaynak": "TDV TUNUS; TDV ZÎRÎLER · gün 0972-10-02: künye geçişi günü 14 Ekim 2026'da TDV bulukkin-b-ziri '20 Zilhicce 361 / 2 Ekim 972' ile düzeldi"
    },
    {
     "t": "1058-02-28",
@@ -37662,7 +37647,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "-0549-01-01",
     "t": "-0312-01-01",
     "d": "odessos-polis",
-    "kunye_yok": true,
     "kesinlik": {
      "f": "onyil",
      "t": "yil"
@@ -37682,7 +37666,6 @@ window.SEHIR_TARIHCE_OSM = [
     "f": "-0280-01-01",
     "t": "-0070-01-01",
     "d": "odessos-polis",
-    "kunye_yok": true,
     "kesinlik": "yil",
     "kaynak": "DNP 'Odessos': Lysimakhos'un ölümünden (MÖ 281) sonra yeniden özerk",
     "ic_not": "Helenistik özerk polis (Batı Karadeniz Pentapolis'i — ipucu)."
