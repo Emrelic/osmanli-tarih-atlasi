@@ -57,7 +57,7 @@ window.YERLESIMLER_EK11 = [
 //    haritada 40 km'lik bir noktada görünmeyecek bir ayrıntı için iki
 //    fazladan geçiş yazmadım — ama atlandığı burada YAZILI.
 { ad:"Narva", tur:"kale", lat:59.3770, lon:28.1900, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1940-08-06",d:"estonya"},{f:"1940-08-06",t:"1991-12-26",d:"sovyet-rusya",kaynak:"Petseri ilçesinin çoğu 1944'te Estonya SSC'den RSFSC'ye devredildi (Setomaa hariç); egemenlik SSCB'de"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"tsv: rusya-federasyonu f=1991-12-26; Estonya 1995-11'de Tartu sınır talebini bıraktı"}] },
+  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1940-08-06",d:"estonya"},{f:"1940-08-06",t:"1991-08-20",d:"sovyet-rusya"},{f:"1991-08-20",t:"2000-12-31",d:"estonya-cumhuriyeti-yeniden",kaynak:"KUTU-B-1014: Narva Estonya'dadır (Narva nehrinin batı yakası; doğu yakadaki İvangorod Rusya) — Tallinn/Tartu ile aynı gün · ÖNCEKİ yazım Petseri kaydından kopyalanmış görünüyor (rusya-federasyonu)"}] },
 
 // ── GÜNEY ESTONYA — Livonya Dukalığı, Lehistan safhası VAR ──────────
 { ad:"Tartu (Dorpat)", tur:"sehir", lat:58.3780, lon:26.7290, g:0, k:3, d:[],

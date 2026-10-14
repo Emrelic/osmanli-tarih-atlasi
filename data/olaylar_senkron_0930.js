@@ -156,6 +156,22 @@ window.OLAYLAR_SENKRON_0930 = [
   gun:"Şubat-Mart 1644",
   yer:"Szatmár (Satu Mare)", yer_id:"Szatmár (Satu Mare)", kisiler:"I. Rákóczi György",
   d:"Erdel prensi I. Rákóczi György'nün 1644 seferinde Szatmár'ın Alman garnizonu Rákóczi'nin hizmetine geçti ve kale Erdel'in eline girdi. 16 Aralık 1645 Linz barışı kaleyi, Erdel tahtında bir Rákóczi bulundukça Rákóczi varislerine bıraktı.",
-  kaynak:"Bánlaky (MEK 09477) 0015/1291: 'a szatmári német őrség szintén Rákóczyék zsoldjába szegődött' · 0015/1292: 'a diplomát Linzben írta alá 1645 december 16-án' · MTA History of Transylvania (195.html)" }
+  kaynak:"Bánlaky (MEK 09477) 0015/1291: 'a szatmári német őrség szintén Rákóczyék zsoldjába szegődött' · 0015/1292: 'a diplomát Linzben írta alá 1645 december 16-án' · MTA History of Transylvania (195.html)" },
+
+// ── KUTU-B-1014 (2) — Bizans haraçgüzarlığı · Çehrin 1676 ──
+{ t:"1372-01-01", kesinlik:"yil", k:"vassal", etiket:["siyaset","diplomasi","konu-diplomasi","konu-siyasi"],
+  b:"Bizans İmparatorluğu Osmanlı'nın haraçgüzârı oldu",
+  gun:"1372 kışı",
+  yer:"İstanbul, Selanik, Gelibolu, Silivri", yer_id:"İstanbul", kisiler:"V. Ioannes Palaiologos, I. Murad",
+  d:"Çirmen zaferinden (1371) sonra Bizans imparatoru V. Ioannes, 1372 kışında I. Murad'ın haraçgüzârı olmayı kabul etti: yıllık haraç ödeyecek ve sultanın seferlerine asker verecekti. Bizans bu tarihten 1403'e dek Osmanlı'ya bağlı bir vasal devlet olarak kaldı; Yıldırım Bayezid'in 1391 ablukası haracı artırdı. Ankara bozgunundan sonra Süleyman Çelebi ile yapılan Gelibolu antlaşması (1403) Bizans'ı haraçtan kurtardı; 1424'te II. Murad ile yapılan antlaşmayla haraç yeniden başladı.",
+  kaynak:"murad-i",
+  ic_not_d:"KUTU-B-1014 (0042/H-0022, Emre kararı: Bizans'ın Osmanlı vasallığı açık tonla): TDV murad-i 'I. Murad'ın haraçgüzârı olmayı kabul etti (1372 kışı)' — YIL; TDV bizans (1403 haraçtan kurtulma); TDV murad-ii (22 Şubat 1424, 300.000 akçe). Haritada v: pencereleri 1372-1403-02 ve 1424-02-22→1453-05-29 İstanbul çekirdeğinde (İstanbul, Boğaziçi, Silivri, Çatalca, Marmara Adası) ve 1372'de Bizans'ta olan Selanik, Kavala, Gelibolu yarımadası, Beykoz noktalarında. Mora/Epir/Ege adaları (ayrı despotluk ya da Ceneviz/Latin elinde) KAPSAM DIŞI bırakıldı." },
+{ t:"1676-09-19", k:"kayip", etiket:["toprak-kayip","siyaset","konu-askeri","konu-siyasi"],
+  b:"Doroşenko Çehrin'i Samoyloviç'e teslim etti",
+  gun:"19 Eylül 1676",
+  yer:"Çehrin (Çigirin)", yer_id:"Çehrin (Çigirin)", kisiler:"Petro Doroşenko, İvan Samoyloviç, Grigoriy Romodanovski",
+  d:"Osmanlı himayesindeki Sağ Yaka hatmanı Petro Doroşenko, başkenti Çehrin'i 19 Eylül 1676'da Sol Yaka hatmanı Samoyloviç ve Rus kuvvetlerine teslim etti. Osmanlılar Doroşenko'yu görevden alıp yerine Yuri Hmelnitski'yi getirdi; Çehrin'deki Rus garnizonunu çıkarmak için 1677'de kuşatma başarısız kaldı, kale ancak 21 Ağustos 1678'de alındı.",
+  kaynak:"Encyclopedia of Ukraine (CIUS) «Doroshenko, Petro»: 'surrendered to Samoilovych on 19 September 1676' · TDV cehrin-seferi (1677, 1678)",
+  ic_not_d:"KUTU-B-1014 (0052/H-0123): haritada Çehrin isg:rusya 1676-09-19 → 1678-08-21. Doroşenko'nun Osmanlı himayesi (1669-1676) Emre kararıyla (13 Ekim, Hetmanlık künyesi açılmadı) ayrı kimlik olarak çizilmez. EoU takvimi belirtmiyor." }
 
 ];
