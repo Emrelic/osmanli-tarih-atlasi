@@ -6011,7 +6011,7 @@ window.YERLESIMLER_EK28 = [
   d:[{f:"1534-06-01",t:"1878-07-13"},{f:"1918-04-25",t:"1919-04-30",y:"antlasma",kaynak:"gün komşudan: Kars · Sarı-ES · bitiş: Kars idaresinin İngilizlerce Ermenilere devri, M. Sarı, Millî Mücadele Döneminde Elviye-i Selâse (Kars, Ardahan ve Batum), Millî Mücadele'nin Yerel Tarihi 1918-1923 c.9, TÜBA 2022 (doi 10.53478/TUBA.978-625-8352-71-9.ch04) · 1919-01-13→04-30 arası Cenûb-ı Garbî Kafkas Hükûmeti/İngiliz dönemi KÜNYESİZ: Osmanlı d: ile temsil (Emre kararı 13 Ekim 2026, NOKTA-KAFKAS-0077 §6-B)"}], v:[] },
 
 // ───────── ⑧ DOĞU SINIRI · Ahılkelek (Gürcistan tarafı — Ahıska'nın komşusu) ─────────
-{ ad:"Ahılkelek (Akhalkalaki)", kd:[{f:"1281-01-01",t:"1551-01-01",k:0,m:null},{f:"1829-09-14",t:"1923-10-29",k:0,m:null}], tur:"kale", lat:41.403, lon:43.484, g:0, k:3, m:"Erzurum",
+{ ad:"Ahılkelek (Akhalkalaki)", kd:[{f:"1281-01-01",t:"1578-08-09",k:0,m:null},{f:"1829-09-14",t:"1923-10-29",k:0,m:null}], tur:"kale", lat:41.403, lon:43.484, g:0, k:3, m:"Erzurum",
   // GEREKÇE k:3: KALE + SANCAK MERKEZİ — Çıldır Eyaleti'nin sekiz
   // sancağından biri (Ahılkelek Sancağı).
   // kaynak: TDV cildir-eyaleti (doğrulandı, HTTP 200, içerik okundu):
@@ -6021,14 +6021,23 @@ window.YERLESIMLER_EK28 = [
   //   (1578 zafer / 1639 Kasr-ı Şirin ile resmîleşme) FARKLI VE ERKEN.
   //   Wikipedia "Ahılkelek Sancağı" bu ayrımı bulanıklaştırıyordu (TEK
   //   DAYANAK OLARAK KULLANILMADI, yalnız TDV'yle çapraz okundu).
+  // 🔴 KUTU-A-1014 (0088/H-0050) DÜZELTME: yukarıdaki "fethi 1551" okuması
+  //   YANLIŞTI. Aynı TDV cildir-eyaleti maddesi 1551'den sonra "Çıldır,
+  //   Ahılkelek ve Tümük Osmanlılar'dan yüz çevirip" (Keyhusrev'in elinde)
+  //   der ve Çıldır Savaşı'nın ardından Osmanlı kuvvetlerinin "Hırtıs ve
+  //   Ahılkelek'i zaptetmiş" olduğunu yazar. 1551 = ilerleme, fetih değil.
+  //   ⇒ 1551-1578 gurcistan (Samtshe atabegliği, Ahıska ile aynı kimlik);
+  //   Osmanlı başlangıcı 1578-08-09 — gün komşudan: Çıldır Savaşı
+  //   (TDV lala-mustafa-pasa / cildir-eyaleti), madde olaylar_p0049.js
+  //   Ahılkelek'i adıyla sayıyor.
   // 1829-09-14: Edirne Antlaşması — Ahıska+Ahılkelek birlikte Rusya'ya
   //   bırakıldı (mevcut Ahıska kaydıyla, data/yerlesimler.js:757, AYNI).
   // 1921 Kars Antlaşması'yla Türkiye'ye DÖNMEDİ — Gürcistan'a kaldı, bu
   //   yüzden Ahıska'nın (yerlesimler.js:757) ORİJİNAL kaydı gibi 1829'dan
   //   1923'e kadar KESİNTİSİZ rusya; ek26'daki 1921 kırılmalı ikinci
   //   Ahıska kaydını (muhtemel mükerrer/tutarsızlık) TEKRARLAMADIM.
-  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1829-09-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-04-09",d:"sovyet-rusya"},{f:"1991-04-09",t:"2000-12-31",d:"gurcistan-cumhuriyeti",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
-  d:[{f:"1551-01-01",t:"1829-09-14"}], v:[] },
+  s:[{f:"1281-01-01",t:"1578-08-09",d:"gurcistan"},{f:"1829-09-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-04-09",d:"sovyet-rusya"},{f:"1991-04-09",t:"2000-12-31",d:"gurcistan-cumhuriyeti",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+  d:[{f:"1578-08-09",t:"1829-09-14",kaynak:"TDV cildir-eyaleti: Çıldır Savaşı ardından Osmanlı kuvvetleri 'Hırtıs ve Ahılkelek'i zaptetmişti' · gün komşudan: Çıldır Savaşı 1578-08-09 · KUTU-A-1014"}], v:[] },
 
 ];
 
