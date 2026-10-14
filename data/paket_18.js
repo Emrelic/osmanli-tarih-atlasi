@@ -144,7 +144,7 @@ window.YERLESIMLER_EK_ADALAR = [
   m:"Mora (Tripoliçe)",
   kaynak:"mora — Elafonisos'un müstakil TDV maddesi YOK (slug 302); ada Mora'nın 400 m açığında ve Pasarofça'nın Venedik mülk listesinde geçmiyor. HÜKÜM ÇIKARIMDIR, ölçüm değildir; üç ayağı dosya başında açıkça yazılıdır.",
   s:[{f:"1281-01-01",t:"1460-05-29",d:"bizans"},
-     {f:"1687-08-01",t:"1715-07-01",d:"venedik"},
+     {f:"1687-08-01",t:"1715-07-01",d:"venedik",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Venedik'in Mora krallığı — İtalya'daki gövdeden denizle ayrı denizaşırı mülk, kopukluğu tarihîdir · TDV mora: '1095 (1684) ile 1097 (1686) yılları arasındaki savaşlar sırasında Francesco Morosini kumandasındaki büyük bir donanma Mora’ya çıkarma yaparak bütün yarımadayı ele geçirdi' · 'Osmanlılar, Damad Ali Paşa’nın askerî harekâtı sonucu (1127/1715 yazı) Mora’ya geri geldiklerinde' (şehir şehir giriş-çıkış günleri bu beyanla doğrulanmadı)"},
      {f:"1821-03-25",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1460-05-29",t:"1687-08-01"},
      {f:"1715-07-01",t:"1821-03-25"}] },

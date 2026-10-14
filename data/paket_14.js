@@ -4323,14 +4323,14 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // seferiyle girdi (Lalla Fatma N'Sûmer'in esir alınışı, Temmuz 1857).
   { ad:"Tîzî Vezzû (Kabiliye)", tur:"sehir", lat:36.712, lon:4.047, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1857-07-11",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+       {f:"1857-07-11",t:"1962-07-05",d:"fransa-cumhuriyet",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Fransa'nın Akdeniz aşırı Cezayir sömürgesi, gövdeden kopukluğu tarihîdir · TDV cezayir: 'Fransızlar Cezayir’e çıktılar ve 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler' · '1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı' (şehrin kendi giriş günü bu beyanla doğrulanmadı)"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1857-07-11",k:"Kabiliye'nin fiilî özerkliği",statu:"vassal"}] },
 
   // Kal'a-i Benî Abbâs'ın (Ait Abbas) bölgesi.
   { ad:"Akbû (Benî Abbâs)", tur:"kale", lat:36.457, lon:4.531, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1857-07-11",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+       {f:"1857-07-11",t:"1962-07-05",d:"fransa-cumhuriyet",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Fransa'nın Akdeniz aşırı Cezayir sömürgesi, gövdeden kopukluğu tarihîdir · TDV cezayir: 'Fransızlar Cezayir’e çıktılar ve 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler' · '1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı' (şehrin kendi giriş günü bu beyanla doğrulanmadı)"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1857-07-11",k:"Kabiliye'nin fiilî özerkliği",statu:"vassal"}] },
 
@@ -4340,7 +4340,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   { ad:"Tâhert (Tiaret)", tur:"sehir", lat:35.371, lon:1.322, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
        {f:"1832-11-22",t:"1841-01-01",d:"abdulkadir"},
-       {f:"1841-01-01",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+       {f:"1841-01-01",t:"1962-07-05",d:"fransa-cumhuriyet",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Fransa'nın Akdeniz aşırı Cezayir sömürgesi, gövdeden kopukluğu tarihîdir · TDV cezayir: 'Fransızlar Cezayir’e çıktılar ve 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler' · '1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı' (şehrin kendi giriş günü bu beyanla doğrulanmadı)"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
@@ -4349,7 +4349,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // güzergâhındadır; o yüzden Ağvât/Gardâye'nin tarihini paylaşır.
   { ad:"Cilfe (Djelfa)", tur:"sehir", lat:34.673, lon:3.263, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1852-12-04",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+       {f:"1852-12-04",t:"1962-07-05",d:"fransa-cumhuriyet",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Fransa'nın Akdeniz aşırı Cezayir sömürgesi, gövdeden kopukluğu tarihîdir · TDV cezayir: 'Fransızlar Cezayir’e çıktılar ve 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler' · '1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı' (şehrin kendi giriş günü bu beyanla doğrulanmadı)"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1852-12-04",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
@@ -4359,7 +4359,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    Tuggurt'un kayıtlı 1854-12-02 tarihi de aynı seferdendir.
   { ad:"Vargla (Ouargla)", tur:"sehir", lat:31.949, lon:5.325, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
-       {f:"1854-11-23",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+       {f:"1854-11-23",t:"1962-07-05",d:"fransa-cumhuriyet",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Fransa'nın Akdeniz aşırı Cezayir sömürgesi, gövdeden kopukluğu tarihîdir · TDV cezayir: 'Fransızlar Cezayir’e çıktılar ve 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler' · '1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı' (şehrin kendi giriş günü bu beyanla doğrulanmadı)"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1854-11-23",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
@@ -4367,20 +4367,20 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // eğdi, o yüzden Tuggurt'un kayıtlı tarihini paylaşır: YENİ TARİH YOK.
   { ad:"el-Vâdî (Sûf)", tur:"sehir", lat:33.368, lon:6.867, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
-       {f:"1854-12-02",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+       {f:"1854-12-02",t:"1962-07-05",d:"fransa-cumhuriyet",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Fransa'nın Akdeniz aşırı Cezayir sömürgesi, gövdeden kopukluğu tarihîdir · TDV cezayir: 'Fransızlar Cezayir’e çıktılar ve 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler' · '1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı' (şehrin kendi giriş günü bu beyanla doğrulanmadı)"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1854-12-02",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
   // Evrâs (Aurès) dağları — Batna ile Tebesse'nin 1844-03-04 kümesinde.
   { ad:"Hanşele (Khenchela)", tur:"sehir", lat:35.436, lon:7.144, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1844-03-04",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+       {f:"1844-03-04",t:"1962-07-05",d:"fransa-cumhuriyet",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Fransa'nın Akdeniz aşırı Cezayir sömürgesi, gövdeden kopukluğu tarihîdir · TDV cezayir: 'Fransızlar Cezayir’e çıktılar ve 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler' · '1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı' (şehrin kendi giriş günü bu beyanla doğrulanmadı)"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
   { ad:"Aynı Beydâ", tur:"sehir", lat:35.796, lon:7.393, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1844-03-04",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+       {f:"1844-03-04",t:"1962-07-05",d:"fransa-cumhuriyet",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Fransa'nın Akdeniz aşırı Cezayir sömürgesi, gövdeden kopukluğu tarihîdir · TDV cezayir: 'Fransızlar Cezayir’e çıktılar ve 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler' · '1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı' (şehrin kendi giriş günü bu beyanla doğrulanmadı)"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",kid:"konstantin-beyligi",statu:"vassal"}] },
 
@@ -4489,43 +4489,43 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
 
   { ad:"Terhûne", tur:"sehir", lat:32.435, lon:13.633, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): İtalya'nın Akdeniz aşırı Libya sömürgesi, gövdeden kopukluğu tarihîdir · TDV trablusgarp: '1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti' · 'Osmanlı askerleri yerli ahaliyle birlikte İtalya’ya karşı mücadeleyi sürdürdü' (fiilî İtalyan denetiminin şehir şehir sınırı bu beyanla doğrulanmadı)"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Cebelinefûse'nin batı ucu — TDV `nefuse`.
   { ad:"Kabâv (Nefûse)", tur:"sehir", lat:31.941, lon:12.036, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): İtalya'nın Akdeniz aşırı Libya sömürgesi, gövdeden kopukluğu tarihîdir · TDV trablusgarp: '1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti' · 'Osmanlı askerleri yerli ahaliyle birlikte İtalya’ya karşı mücadeleyi sürdürdü' (fiilî İtalyan denetiminin şehir şehir sınırı bu beyanla doğrulanmadı)"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Sinâvin", tur:"sehir", lat:31.007, lon:10.616, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): İtalya'nın Akdeniz aşırı Libya sömürgesi, gövdeden kopukluğu tarihîdir · TDV trablusgarp: '1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti' · 'Osmanlı askerleri yerli ahaliyle birlikte İtalya’ya karşı mücadeleyi sürdürdü' (fiilî İtalyan denetiminin şehir şehir sınırı bu beyanla doğrulanmadı)"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Derc (Derj)", tur:"sehir", lat:30.155, lon:10.442, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): İtalya'nın Akdeniz aşırı Libya sömürgesi, gövdeden kopukluğu tarihîdir · TDV trablusgarp: '1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti' · 'Osmanlı askerleri yerli ahaliyle birlikte İtalya’ya karşı mücadeleyi sürdürdü' (fiilî İtalyan denetiminin şehir şehir sınırı bu beyanla doğrulanmadı)"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Tâverğa", tur:"sehir", lat:32.005, lon:15.055, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): İtalya'nın Akdeniz aşırı Libya sömürgesi, gövdeden kopukluğu tarihîdir · TDV trablusgarp: '1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti' · 'Osmanlı askerleri yerli ahaliyle birlikte İtalya’ya karşı mücadeleyi sürdürdü' (fiilî İtalyan denetiminin şehir şehir sınırı bu beyanla doğrulanmadı)"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Cufre vahaları — Sokna'nın (29,070/15,792) doğu komşusu.
   { ad:"Vaddân (Cufre)", kd:[{f:"1281-01-01",t:"1577-01-01",k:0,m:null},{f:"1577-01-01",t:"1923-10-29",k:4,m:"Trablus"}],kaynak:"fizan", tur:"sehir", lat:29.161, lon:16.139, g:0, k:4, m:"Trablus",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): İtalya'nın Akdeniz aşırı Libya sömürgesi, gövdeden kopukluğu tarihîdir · TDV trablusgarp: '1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti' · 'Osmanlı askerleri yerli ahaliyle birlikte İtalya’ya karşı mücadeleyi sürdürdü' (fiilî İtalyan denetiminin şehir şehir sınırı bu beyanla doğrulanmadı)"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Zilla (Zella)", kd:[{f:"1281-01-01",t:"1577-01-01",k:0,m:null},{f:"1577-01-01",t:"1923-10-29",k:4,m:"Trablus"}],kaynak:"fizan", tur:"bolge", lat:28.556, lon:17.532, g:0, k:4, m:"Trablus",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): İtalya'nın Akdeniz aşırı Libya sömürgesi, gövdeden kopukluğu tarihîdir · TDV trablusgarp: '1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti' · 'Osmanlı askerleri yerli ahaliyle birlikte İtalya’ya karşı mücadeleyi sürdürdü' (fiilî İtalyan denetiminin şehir şehir sınırı bu beyanla doğrulanmadı)"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
@@ -4533,12 +4533,12 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // arasında 350 km nokta yoktu.
   { ad:"Nûfiliye", tur:"sehir", lat:30.784, lon:17.983, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
+       {f:"1912-10-18",t:"1943-01-23",d:"italya",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): İtalya'nın Akdeniz aşırı Libya sömürgesi, gövdeden kopukluğu tarihîdir · TDV trablusgarp: '1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti' · 'Osmanlı askerleri yerli ahaliyle birlikte İtalya’ya karşı mücadeleyi sürdürdü' (fiilî İtalyan denetiminin şehir şehir sınırı bu beyanla doğrulanmadı)"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Merâde",kaynak:"fizan", tur:"bolge", lat:29.230, lon:19.213, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1943-01-23",d:"italya",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): İtalya'nın Akdeniz aşırı Libya sömürgesi, gövdeden kopukluğu tarihîdir · TDV trablusgarp: '1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti' · 'Osmanlı askerleri yerli ahaliyle birlikte İtalya’ya karşı mücadeleyi sürdürdü' (fiilî İtalyan denetiminin şehir şehir sınırı bu beyanla doğrulanmadı)"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1577-01-01",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
@@ -4550,7 +4550,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //   kalmış ikizi. Osmanlı günü kardeş noktalarla (Bingazi · Merc · Beyzâ ·
   //   Ecdâbiye) aynı: 1551-08-15.
   { ad:"Tulmeyse", tur:"liman", lat:32.712, lon:20.951, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
+    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1943-01-23",d:"italya",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): İtalya'nın Akdeniz aşırı Libya sömürgesi, gövdeden kopukluğu tarihîdir · TDV trablusgarp: '1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti' · 'Osmanlı askerleri yerli ahaliyle birlikte İtalya’ya karşı mücadeleyi sürdürdü' (fiilî İtalyan denetiminin şehir şehir sınırı bu beyanla doğrulanmadı)"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
@@ -4562,7 +4562,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // 🔴 BERKA-0087 — Tulmeyse ile aynı (yukarı bak): memluk 1281→1517-05-19 + d 1517
   //   kaynaksızdı. Osmanlı günü Derne ile aynı: 1551-08-15 (Tobruk 1556'da kalıyor).
   { ad:"Ayn el-Ğazâle (Bomba)", tur:"liman", lat:32.495, lon:23.120, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1943-01-23",d:"italya"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
+    s:[{f:"1281-01-01",t:"1551-08-15",d:"__BOSLUK__",kaynak:"BEYAN (BERKA-0087, koordinatör hükmü B): 1281-1551 arası şehir düzeyinde egemen tanıklığı YOK. TDV `berka` 'Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı' bir BÖLGE cümlesidir (D208), şehre taşınmaz; TDV `bingazi` 1551 şehir düzeyinde. En yakın kimliğe İTİLMEDİ (§3.5.1)."},{f:"1912-10-18",t:"1943-01-23",d:"italya",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): İtalya'nın Akdeniz aşırı Libya sömürgesi, gövdeden kopukluğu tarihîdir · TDV trablusgarp: '1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti' · 'Osmanlı askerleri yerli ahaliyle birlikte İtalya’ya karşı mücadeleyi sürdürdü' (fiilî İtalyan denetiminin şehir şehir sınırı bu beyanla doğrulanmadı)"},{f:"1943-01-23",t:"1951-12-24",d:"libya-ingiliz-askeri-idaresi",kaynak:"Britannica: Libya; BM GA 289 (1949)"},{f:"1951-12-24",t:"1969-09-01",d:"libya-krallik",kaynak:"Britannica: Libya, bagimsizlik 24 Aralik 1951"},{f:"1969-09-01",t:"2000-12-31",d:"libya-cumhuriyet-cemahiriye",kaynak:"Britannica: Libya, 1 Eylul 1969 darbe"}],
     d:[{f:"1551-08-15",t:"1711-07-29"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-07-29",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 

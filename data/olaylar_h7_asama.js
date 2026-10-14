@@ -135,6 +135,18 @@ window.OLAYLAR_H7_ASAMA = [
   yer:"Kağaverd mevkii", yer_id:"Kars", ic_not_yer:"TDV mevkiin yerini tarif etmiyor; yer_id kampanyanın merkezi Kars'tır (kuşatma 1744), savaş alanı değildir.", kisiler:"Yeğen Mehmed Paşa, Nâdir Şah",
   d:"Kars kuşatmasının ertesi yılı Nâdir Şah, Kağaverd mevkiinde Yeğen Mehmed Paşa idaresindeki Osmanlı kuvvetlerini bozguna uğrattı. Ardından İsfahan'a döndü. Caferîliğin tanınması konusundaki ısrarından vazgeçmesi ertesi yıl Kerden Antlaşması'nın yolunu açtı.",
   ic_not_kaynak:"TDV nadir-sah--iran: 'Ancak 23 Receb 1158’de (21 Ağustos 1745) Kağaverd mevkiinde Yeğen Mehmed Paşa idaresindeki Osmanlı kuvvetlerini bozguna uğrattı. Ardından İsfahan’a dönerek...' · 'Caferî mezhebinin Osmanlılar’ca tanınması hususundaki ısrarından vazgeçerek 17 Şâban 1159 (4 Eylül 1746) tarihinde Osmanlılar’la bir antlaşma yaptı (Kerden Antlaşması).'",
-  kaynak:"nadir-sah--iran (TDV)", duygu:["😔"] }
+  kaynak:"nadir-sah--iran (TDV)", duygu:["😔"] },
+// ── ENKLAV TARAMASI (0080/H-0019) VERİ DÜZELTMESİNİN MADDESİ ─────────────────
+// İnebahtı'nın Venedik dönemi 1715'e uzatılmıştı; TDV inebahti Venediklilerin
+// kaleyi 'Karlofça Antlaşması’ndan (1699) bir yıl sonrasına kadar' tuttuğunu
+// yazar. Kırılma 1715-07-01'den 1700-01-01'e (yıl) çekildi; bu madde onu taşır.
+{ t:"1700-01-01", kesinlik:"yil", k:"fetih", etiket:["toprak-kazanc","antlasma","konu-askeri","konu-diplomasi"],
+  b:"İnebahtı Karlofça gereği Osmanlı'ya geri verildi",
+  gun:"1700 — TDV 'Karlofça Antlaşması’ndan (1699) bir yıl sonrasına kadar' der; ay ve gün kaynakta yok",
+  ic_not_gun:"KUTU-H7-1015: yıl temsilî (YYYY-01-01) yazıldı; teslimin günü TDV'de yok. Önceki kayıt Venedik dönemini 1715-07-01'e (Mora'nın geri alınışı) kadar uzatıyordu — İnebahtı Mora'da değil, körfezin kuzey kıyısındadır.",
+  yer:"İnebahtı (Lepanto / Naupaktos)", yer_id:"İnebahtı", fethedilen:["İnebahtı"], kisiler:"II. Mustafa",
+  d:"1683-1699 savaşları sırasında uzun süre direndikten sonra Temmuz 1687'de yanındaki kalelerle birlikte Venedik'e düşen İnebahtı, Karlofça Antlaşması'ndan bir yıl sonrasına kadar Venediklilerin elinde kaldı ve ardından Osmanlı'ya geri döndü. Korint körfezinin ağzındaki kale böylece Mora'dan on beş yıl önce Osmanlı idaresine kavuştu.",
+  ic_not_kaynak:"TDV inebahti: '1683-1699 savaşları sırasında İnebahtı, uzun süre saldırılara direndiyse de sonunda yanındaki diğer kalelerle birlikte 1687 Temmuzunda düştü ... Buraya hâkim olan Venedikliler, Karlofça Antlaşması’ndan (1699) bir yıl sonrasına kadar kaleyi ellerinde tuttular.'",
+  kaynak:"inebahti (TDV)", duygu:["🤝"] }
 
 ];

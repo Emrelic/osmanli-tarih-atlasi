@@ -61,7 +61,7 @@ window.YERLESIMLER_EK3 = [
 //    (Oran) ve Mersalkebîr'in İspanyollardan alınışı"` maddesi VAR ama
 //    haritada karşılığı olan bir yer YOKTU. Madde artık bir yere basıyor.
 { ad:"Mersa'l-Kebîr", tur:"liman", lat:35.728, lon:-0.709, g:0, k:4, m:"Oran",
-  s:[{"f":"1281-01-01","t":"1509-05-17","d":"zeyyani"},{"f":"1509-05-17","t":"1708-04-04","d":"ispanya","enklav":true},{"f":"1732-07-01","t":"1792-09-12","d":"ispanya","enklav":true},{"f":"1831-01-04","t":"1962-07-05","d":"fransa-cumhuriyet"},{"f":"1962-07-05","t":"2000-12-31","d":"cezayir","kaynak":"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{"f":"1281-01-01","t":"1509-05-17","d":"zeyyani"},{"f":"1509-05-17","t":"1708-04-04","d":"ispanya","enklav":true},{"f":"1732-07-01","t":"1792-09-12","d":"ispanya","enklav":true},{"f":"1831-01-04","t":"1962-07-05","d":"fransa-cumhuriyet","enklav":true,"kaynak":"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Fransa'nın Akdeniz aşırı Cezayir sömürgesi, gövdeden kopukluğu tarihîdir · TDV cezayir: 'Fransızlar Cezayir’e çıktılar ve 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler' · '1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı' (şehrin kendi giriş günü bu beyanla doğrulanmadı)"},{"f":"1962-07-05","t":"2000-12-31","d":"cezayir","kaynak":"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[{"f":"1708-04-04","t":"1732-07-01","y":"kusatma"},{"f":"1792-09-12","t":"1831-01-04","y":"antlasma"}] },
 
 // ── ② SEYREKLİK LİSTESİ 6-15 — ÜÇ SINIF UYGULANDI ───────────────────
