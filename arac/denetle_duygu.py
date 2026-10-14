@@ -1,56 +1,40 @@
 # -*- coding: utf-8 -*-
 """TON DENETIMI — DUYGU-VE-SEKME-SARTNAME.md §A⑤③.
-Kiyim maddesinde senlikli emoji var mi, ve emojisiz madde kaldi mi."""
-import io, re, sys, glob
+Kiyim maddesinde senlikli emoji var mi, ve emojisiz madde kaldi mi.
+
+Cikis: 0 temiz · 1 kalan var · 2 olculemedi."""
+import io, os, re, sys, glob
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import olay_kayit
 
 KIYIM = re.compile(r"kılıçtan geçir|katliam|kıyım|soykırım|tehcir|kıtlık|"
                    r"vebâ|veba|tâun|salgın|yağma|talan", re.I)
 YASAK = set(["🎉", "😀", "😂", "🤣", "🤮", "👏", "🏆", "💍"])
 
-
-def kayitlar(t):
-    out = []
-    # Anahtar tırnaksız (`t:`, JS) ya da tırnaklı (`"t":`, JSON) — 14 Ekim 2026:
-    # yalnız JS biçimi aranıyordu, JSON olay dosyaları (olaylar_ek8 · kamerika)
-    # denetimde hiç görünmüyordu (SAYAC-BICIM-1014 ile aynı kör nokta).
-    for m in re.finditer(r'\{\s*(?:t|"t")\s*:\s*"\d{4}(?:-\d{2}){0,2}"', t):
-        d, q, esc, son = 0, None, False, None
-        for j in range(m.start(), len(t)):
-            c = t[j]
-            if esc:
-                esc = False; continue
-            if c == "\\":
-                esc = True; continue
-            if q:
-                if c == q: q = None
-                continue
-            if c in "\"'": q = c
-            elif c in "[{(": d += 1
-            elif c in "]})":
-                d -= 1
-                if d == 0: son = j; break
-        if son is not None:
-            out.append(t[m.start():son + 1])
-    return out
-
+# Kayitlar TARAYICI GIBI yuklenir (olay_kayit.yukle) — 14 Ekim 2026: regex
+# tarayici JSON anahtarini gormuyor, yorumdaki 3 kaydi ve olaylar.js'in 29
+# alt_kronoloji adimini madde sayiyordu (emojisiz 407; gercek 377).
+try:
+    Y = olay_kayit.yukle(sorted(glob.glob("data/olaylar*.js")))
+except Exception as e:
+    print("🔴 ÖLÇÜLEMEDİ — olay dosyaları yüklenemedi: %s" % e)
+    sys.exit(2)
+if not Y:
+    print("🔴 ÖLÇÜLEMEDİ — data/olaylar*.js bulunamadı (kök dizinde mi koşuyor?)")
+    sys.exit(2)
 
 n = i1 = i2 = bos = 0
-for f in sorted(glob.glob("data/olaylar*.js")):
-    for g in kayitlar(io.open(f, encoding="utf-8", newline="").read()):
-        dm = re.search(r'(?:\bduygu|"duygu")\s*:\s*\[([^\]]*)\]', g)
-        if not dm:
-            bos += 1
-            continue
-        em = set(re.findall(r'"([^"]*)"', dm.group(1)))
+for f in sorted(Y):
+    for g in Y[f]:
+        dy = g.get("duygu")
+        em = set(e for e in dy if isinstance(e, str)) if isinstance(dy, list) else set()
         if not em:
             bos += 1
             continue
         n += 1
-        b = re.search(r'(?:\bb|"b")\s*:\s*"([^"]*)"', g)
-        d = re.search(r'(?:\bd|"d")\s*:\s*"((?:[^"\\]|\\.)*)"', g)
-        baslik = b.group(1) if b else ""
-        metin = d.group(1) if d else ""
+        baslik = g.get("b") if isinstance(g.get("b"), str) else ""
+        metin = g.get("d") if isinstance(g.get("d"), str) else ""
         if KIYIM.search(baslik) and (em & YASAK):
             i1 += 1
             if i1 < 4:
@@ -61,7 +45,9 @@ for f in sorted(glob.glob("data/olaylar*.js")):
                 print("  🔴 metinde kıyım + SAF şenlikli:", baslik[:50], em)
 
 print()
-print("duygu: taşıyan madde %d · emojisiz %d" % (n, bos))
+print("duygu: taşıyan madde %d · emojisiz %d · dosya %d" % (n, bos, len(Y)))
 print("ihlal 1  kıyım başlığında şenlikli emoji : %d" % i1)
 print("ihlal 2  kıyım metni, saf şenlikli       : %d" % i2)
-print("🟢 TON KURALI TEMİZ" if not (i1 or i2 or bos) else "🔴 kalan var")
+temiz = not (i1 or i2 or bos)
+print("🟢 TON KURALI TEMİZ" if temiz else "🔴 kalan var")
+sys.exit(0 if temiz else 1)

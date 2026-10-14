@@ -46,52 +46,52 @@ ACI = re.compile(
 YASAK_KIYIM = set(["🎉", "😀", "😂", "🤣", "🤮", "👏", "🏆", "💍"])
 
 
-def kayitlar(t):
-    out = []
-    # Anahtar tirnaksiz (`t:`, JS) ya da tirnakli (`"t":`, JSON) — 14 Ekim 2026:
-    # yalniz JS bicimi araniyordu, JSON olay dosyalari (olaylar_ek8 · kamerika)
-    # hic gorulmuyordu (denetle_duygu 478741065 ile ayni kor nokta).
-    for m in re.finditer(r'\{\s*(?:t|"t")\s*:\s*"\d{4}(?:-\d{2}){0,2}"', t):
-        d, q, esc, son = 0, None, False, None
-        for j in range(m.start(), len(t)):
-            c = t[j]
-            if esc:
-                esc = False; continue
-            if c == "\\":
-                esc = True; continue
-            if q:
-                if c == q: q = None
-                continue
-            if c in "\"'": q = c
-            elif c in "[{(": d += 1
-            elif c in "]})":
-                d -= 1
-                if d == 0: son = j; break
-        if son is not None:
-            out.append((m.start(), son, t[m.start():son + 1]))
-    return out
+def _s(v):
+    return v if isinstance(v, str) else ""
 
+
+# Kayitlar biçimden bagimsiz okunur (olay_kayit) — 14 Ekim 2026: regex
+# tarayici JSON anahtarini gormuyordu; yorumdaki 3 kaydi ve olaylar.js'in 29
+# `alt_kronoloji` adimini madde sayiyordu (adimlara duygu YAZACAKTI).
+# Konum metin tarayicidan, alan degerleri tarayici gibi yuklemeden gelir;
+# ikisi dosyada ayni kayit dizisini vermezse o dosyaya YAZILMAZ.
+sys.path.insert(0, os.path.join(KOK, "arac"))
+import olay_kayit
+DOSYALAR = sorted(glob.glob("data/olaylar*.js"))
+try:
+    YUK = olay_kayit.yukle(DOSYALAR)
+except Exception as e:
+    print("🔴 ÖLÇÜLEMEDİ — olay dosyaları yüklenemedi: %s" % e)
+    sys.exit(2)
 
 sayac = collections.Counter()
 agir_n = yazilan = atlanan = 0
 ornek = []
+olculemedi = []
+yorumlu = []
 
-for f in sorted(glob.glob("data/olaylar*.js")):
+for f in DOSYALAR:
     t = io.open(f, encoding="utf-8", newline="").read()
+    ara = olay_kayit.araliklar(t)
+    if [re.search(r'"(\d{4}[^"]*)"', g).group(1) for _, _, g in ara] != \
+            [_s(r.get("t")) for r in YUK[f]]:
+        olculemedi.append(f)
+        continue
     yama = []
-    for bas, son, g in kayitlar(t):
-        # 🔴 JSON kayitta `"duygu":` — eski `"duygu:" in g` onu gormez ve
-        # duygulu kayda IKINCI alan yazardi.
-        if re.search(r'(?:\bduygu|"duygu")\s*:', g):
+    for (bas, son, g), r in zip(ara, YUK[f]):
+        # ELLE yazilmis (bos bile olsa) duygu alanina dokunulmaz.
+        if "duygu" in r:
             atlanan += 1
             continue
+        p = olay_kayit.son_kod(t, bas, son)
+        if t[p:son].strip():
+            # `}` onunde yorum var: alan yorumun icine duserdi — elle.
+            yorumlu.append((f, r.get("t")))
+            continue
         jsn = bool(re.match(r'\{\s*"t"', g))
-        k = re.search(r'(?:\bk|"k")\s*:\s*"([^"]*)"', g)
-        b = re.search(r'(?:\bb|"b")\s*:\s*"([^"]*)"', g)
-        d = re.search(r'(?:\bd|"d")\s*:\s*"((?:[^"\\]|\\.)*)"', g)
-        kat = k.group(1) if k else "diger"
-        baslik = b.group(1) if b else ""
-        metin = (d.group(1) if d else "")
+        kat = _s(r.get("k")) or "diger"
+        baslik = _s(r.get("b"))
+        metin = _s(r.get("d"))
 
         # 🔴 BASLIK olayin NE OLDUGUNU soyler, METIN NE ICERDIGINI.
         # Ilk surumde ikisini ayni saydim ve denetim 16 ihlal buldu:
@@ -152,3 +152,8 @@ print()
 print("--- kategori dagilimi ---")
 for a, c in sayac.most_common(12):
     print("   %-12s %4d  %s" % (a, c, "".join(K_DUYGU.get(a, ["📌"]))))
+for f in olculemedi:
+    print("🔴 ÖLÇÜLEMEDİ — %s: metin tarayıcı ile yükleme farklı kayıt dizisi verdi, YAZILMADI" % f)
+for f, tt in yorumlu:
+    print("⚠️  %s %s: kapanıştan önce yorum — duygu elle yazılmalı" % (f, tt))
+sys.exit(2 if olculemedi else 0)
