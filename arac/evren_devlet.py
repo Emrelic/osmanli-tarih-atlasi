@@ -439,6 +439,146 @@ def ad_benzer(A, B):
 
 
 # ════════════════════════════════════════════════════════════════════════
+# İKİNCİ GEÇİŞ — kök + dönem eki ad eşleşmesi (yalnız mekânsal eşleşmesi olmayan polity)
+# ════════════════════════════════════════════════════════════════════════
+AD2_TOLERANS = 25          # yıl: Cliopatria satırları kaba adımlı (Tibetans 850 ↔ künye 842)
+# Dönem/yön ekleri — EN → TR (künye adında/id'sinde Türkçe yazılır)
+NITELEYICI = {"old": "eski", "middle": "orta", "neo": "yeni", "new": "yeni",
+              "northern": "kuzey", "north": "kuzey", "southern": "guney", "south": "guney",
+              "western": "bati", "west": "bati", "eastern": "dogu", "east": "dogu",
+              "early": "erken", "late": "gec", "later": "gec", "upper": "yukari",
+              "lower": "asagi", "great": "buyuk", "greater": "buyuk"}
+TR_NITELEYICI = set(NITELEYICI.values())
+# ELLE exonym sözlüğü (İngilizce kök → atlasın Türkçe kökü). Yaygın Türkçe adlandırma
+# (TDV madde başlıkları biçimi). 'yuezhi → kusan' ÖZDEŞLİK değil, halk → ardıl devlet
+# ilişkisidir; koordinatörün ölçtüğü çift olarak yazıldı ve neden sütununda görünür.
+EXONYM = {"assyria": "asur", "assyrian": "asur", "babylonia": "babil", "babylonian": "babil",
+          "babylon": "babil", "egypt": "misir", "egyptian": "misir", "carthage": "kartaca",
+          "carthaginian": "kartaca", "scythia": "skit", "scythian": "skit", "scythians": "skit",
+          "hun": "hun", "huns": "hun", "hunnic": "hun", "tibet": "tibet", "tibetan": "tibet",
+          "tibetans": "tibet", "yuezhi": "kusan", "kushan": "kusan", "turgesh": "turges",
+          "phrygia": "frig", "phrygian": "frig", "lydia": "lidya", "persia": "pers",
+          "persian": "pers", "armenia": "ermeni", "georgia": "gurcu", "greece": "yunan",
+          "macedonia": "makedon", "macedonian": "makedon", "hittites": "hitit", "hittite": "hitit",
+          "israel": "israil", "judah": "yahuda", "media": "med", "median": "med",
+          "parthia": "part", "parthian": "part", "sasanian": "sasani", "sassanid": "sasani",
+          "seljuk": "selcuk", "ottoman": "osmanli", "mongol": "mogol", "mongols": "mogol",
+          "khazar": "hazar", "khazaria": "hazar", "ghaznavid": "gazne", "khwarazm": "harezm",
+          "khwarezmian": "harezm", "timurid": "timur", "safavid": "safevi", "abbasid": "abbasi",
+          "umayyad": "emevi", "fatimid": "fatimi", "ayyubid": "eyyubi", "mamluk": "memluk",
+          "byzantine": "bizans", "venice": "venedik", "venetian": "venedik", "genoa": "ceneviz",
+          "hungary": "macar", "serbia": "sirp", "bosnia": "bosna", "crimea": "kirim",
+          "crimean": "kirim", "ethiopia": "habes", "nubia": "nubye", "kush": "kus",
+          "axum": "aksum", "sabaeans": "sebe", "nabataeans": "nebati", "palmyra": "tedmur",
+          "urartu": "urartu", "elamite": "elam", "sumerian": "sumer", "akkadian": "akad",
+          "bulgaria": "bulgar", "bulgarian": "bulgar", "russia": "rus", "russian": "rus",
+          "poland": "leh", "wallachia": "eflak", "moldavia": "bogdan", "kievan": "kiev"}
+EN_DURAK2 = EN_DURAK - set(NITELEYICI)
+EXONYM_KOK = set(EXONYM.values())
+# Tek başına ayırt edici olmayan kökler: yalnız niteleyici ya da ikinci kökle birlikte sayılır
+ZAYIF_KOK = {"turk", "arap", "arab", "misir", "islam", "sehir", "city", "kral", "han",
+             "china", "cin", "india", "hint", "rus", "iran", "pers"}
+
+
+def _en_kok(t):
+    t = sade(t)
+    if t in EXONYM:
+        return EXONYM[t]
+    for ek in ("ians", "ans", "ian", "ean", "ese", "ish", "ic", "s"):
+        if len(t) > len(ek) + 2 and t.endswith(ek):
+            e = t[: -len(ek)]
+            if e in EXONYM:
+                return EXONYM[e]
+            t = e
+            break
+    return _katla(t)
+
+
+# Sömürgeci/milliyet sıfatı: polity adında varsa künye köklerinde AYNI milliyet olmalı
+# (French Guiana ≠ Hollanda Guyanası; Danish Gold Coast ≠ İngiliz Altın Kıyısı)
+MILLIYET = {"french": "fransiz", "dutch": "hollanda", "british": "ingiliz", "english": "ingiliz",
+            "spanish": "ispanyol", "portuguese": "portekiz", "danish": "danimarka",
+            "german": "alman", "italian": "italyan", "swedish": "isvec", "belgian": "belcika",
+            "russian": "rus", "japanese": "japon", "american": "amerika"}
+# Tek başına ad sayılmayan genel kelimeler (ölçülmüş yanlış eşleşmelerden: Communists→
+# Arnavutluk HC, Saint Kitts→Saint Lucia, Nieuwe Republiek→Transvaal, Kannauj-Varman→Kamarupa)
+AD2_GENEL = {"communists", "communist", "comunist", "saint", "st", "san", "gold", "coast",
+             "republiek", "nieuwe", "district", "free", "colony", "varman", "nationalists",
+             "rebels", "people", "peoples", "islands", "island", "republic", "minor",
+             "brittany"}
+
+
+def ad2_polity(ad):
+    """→ (kökler {(katlanmış, ham)}, niteleyiciler, milliyetler)"""
+    kok, nit, mil = set(), set(), set()
+    for t in re.split(r"[\s\-–—'’,/()]+", ad):
+        s = sade(t)
+        if not s or s.isdigit():
+            continue
+        if s in NITELEYICI:
+            nit.add(NITELEYICI[s])
+            continue
+        if s in MILLIYET:
+            mil.add(MILLIYET[s])
+            continue
+        if s in EN_DURAK2 or s in AD2_GENEL:
+            continue
+        r = _en_kok(t)
+        # exonym'den gelen kök ham yazım sayılır (Huns/Hunnic → hun)
+        kok.add((r, r if r in EXONYM_KOK else s))
+    return {k for k in kok if len(k[0]) >= 2}, nit, mil
+
+
+def ad2_kunye(d):
+    kok, nit = set(), set()
+    metin = [d.get("ad") or ""] + [d["id"].replace("-", " ")]
+    for m in metin:
+        for t in re.split(r"[\s\-–—'’,/().:;]+", m):
+            s = sade(t)
+            if not s or s.isdigit() or any(c.isdigit() for c in s):
+                continue
+            if s in TR_NITELEYICI:
+                nit.add(s)
+                continue
+            if s in TR_DURAK:
+                continue
+            kok.add((_katla(s), s))
+            if s in EXONYM.values():
+                kok.add((s, s))
+    return {k for k in kok if len(k[0]) >= 2}, nit
+
+
+def _kok_ayni(a, b):
+    (ak, ah), (bk, bh) = a, b
+    if ah == bh and len(ah) >= 2:
+        return True              # ham yazım birebir (kitts = kitts)
+    if ak == bk:
+        return len(ak) > 3       # ≤3 harfli katlanmış kök ham yazımı da tutmalı (Yin ≠ Ma-in)
+    if min(len(ak), len(bk)) <= 4:
+        return False             # kısa kök (wei, xia, song, qi) yalnız birebir
+    return difflib.SequenceMatcher(None, ak, bk).ratio() >= 0.85
+
+
+def ad2_eslesir(pr, pq, kr, kq, pm=frozenset()):
+    """Kök eşleşmesi + niteleyici + milliyet tutarlılığı. → (bool, neden)"""
+    ortak = sorted({a[0] for a in pr for b in kr if _kok_ayni(a, b)})
+    if not ortak:
+        return False, ""
+    if pq and kq and not (pq & kq):
+        return False, "niteleyici-celiski"
+    k_kokler = {b[0] for b in kr} | {b[1] for b in kr}
+    if pm and not (pm & k_kokler):
+        return False, "milliyet-celiski"
+    guclu = [k for k in ortak if k not in ZAYIF_KOK]
+    if not guclu and not (pq and (pq & kq)) and len(ortak) < 2:
+        return False, "yalniz-zayif-kok"
+    n = "kok=%s" % ",".join(ortak)
+    if pq & kq:
+        n += " niteleyici=%s" % ",".join(sorted(pq & kq))
+    return True, n
+
+
+# ════════════════════════════════════════════════════════════════════════
 # ANA ÖLÇÜM
 # ════════════════════════════════════════════════════════════════════════
 def aralik_birlesim(ar):
@@ -631,8 +771,6 @@ def olc(zip_yol):
             "bilesik": pad.startswith("("), "lon": lon, "lat": lat, "ulke": ulke,
             "kita": kita, "ad_an": ad_anahtarlari(pad, False)}
         PZ[pad] = bir
-    for r in R:
-        r.pop("_g", None)
 
     K_an = {d["id"]: ad_anahtarlari(d.get("ad") or d["id"], True) for d in D}
 
@@ -774,7 +912,48 @@ def olc(zip_yol):
             en.append("ad~%s(%.2f)" % (best[1], best[0]))
         ipucu[p] = " | ".join(en)
 
+    # ── İKİNCİ GEÇİŞ: mekânsal eşleşmesi olmayan polity için ad + zaman
+    # (künye var ama noktasız/ölçülemedi ⇒ "atlasta-yok" sayılmasın)
+    ilk_atlasta_yok = {p for p in P if p_sinif[p] == "atlasta-yok"}
+    K_ad2 = {d["id"]: ad2_kunye(d) for d in D}
+    ikinci = {}
+    for p in sorted(ilk_atlasta_yok):
+        oz = ozet[p]
+        pr, pq, pm = ad2_polity(p)
+        if not pr:
+            continue
+        # polity'nin bütün satırlarının (en çok 12 örnek) temsil noktası kıtaları — tek temsil
+        # noktası yanıltır (Carthage'ın en büyük satırı İspanya'ya düşer)
+        orn = P[p] if len(P[p]) <= 12 else [P[p][i * len(P[p]) // 12] for i in range(12)]
+        p_kitalar = {ulk.bul(*temsil_noktasi(r["_g"]))[1] for r in orn} - {"?"}
+        if {"Avrupa", "Asya"} & p_kitalar:
+            p_kitalar |= {"Avrupa", "Asya"}
+        bul = []
+        for d in D:
+            K = d["id"]
+            kz = KZ.get(K)
+            if not kz:
+                continue
+            if kz[1] <= oz["a0"] - AD2_TOLERANS or kz[0] >= oz["a1"] + AD2_TOLERANS:
+                continue
+            kk = k_kita.get(K, "?")
+            if p_kitalar and kk != "?" and kk not in p_kitalar:
+                continue         # kıta çelişkisi (Namayan/Filipinler ≠ Nama/Afrika)
+            kr, kq = K_ad2[K]
+            ok, neden = ad2_eslesir(pr, pq, kr, kq, pm)
+            if ok:
+                ov = ortusme(kz[0], kz[1], PZ[p])
+                durum = "kunye-noktasiz" if K in noktasiz else "kunye-noktali-mekan-tutmadi"
+                bul.append((K, "%s; %s; ortusme %.0f yil (tolerans ±%d)" % (
+                    durum, neden, ov, AD2_TOLERANS)))
+        if bul:
+            ikinci[p] = bul
+            p_sinif[p] = "kunye-var-noktasiz"
+    for r in R:
+        r.pop("_g", None)
+
     return dict(R=R, P=P, ozet=ozet, ciftler=ciftler, p_sinif=p_sinif, k_sinif=k_sinif,
+                ikinci=ikinci, ilk_atlasta_yok=ilk_atlasta_yok,
                 p_es=p_es, k_es=k_es, p_ad=p_ad, k_ad=k_ad, D=D, kunye=kunye, KZ=KZ,
                 BK=BK, bk_durum=bk_durum, sahipli=sahipli, noktasiz=noktasiz, iliski=iliski,
                 yil_say=yil_say, ic_ad=ic_ad, Y=Y, en_erken=en_erken, acik_uc=acik_uc,
@@ -789,6 +968,14 @@ def olc(zip_yol):
 SINAV_POZITIF = [("Ottoman Empire", "osmanli"), ("Byzantine Empire", "bizans"),
                  ("Safavid Dynasty", "safevi"), ("Mamluk Sultanate", "memluk"),
                  ("Akkadian Empire", "akad")]
+SINAV_IKINCI = [("Assyria", ["eski-asur", "orta-asur", "yeni-asur"]),
+                ("Elam", ["elam-simaski", "elam-sukkalmah", "elam-orta", "elam-yeni", "awan"]),
+                ("Southern Song", ["song"]), ("Northern Wei", ["kuzey-wei"]),
+                ("Western Xia", ["bati-xia"]), ("Hunnic Empire", ["hun-avrupa"]),
+                ("Huns", ["hun-avrupa"]), ("Tibetans", ["tibet-imparatorlugu"]),
+                ("Scythia", ["skit-krallik"]), ("Yuezhi", ["kusan"]), ("Türgesh", ["turges"]),
+                ("Carthage", ["kartaca"])]
+SINAV_GERCEK_EKSIK = ["Phrygia", "Vakataka Kingdom", "Anurādhapura"]
 SINAV_NEGATIF = [("Byzantine Empire", "safevi"), ("Ottoman Empire", "akad"),
                  ("Akkadian Empire", "bizans")]
 
@@ -828,6 +1015,34 @@ def sinav(O):
         sonuc.append(("POZ", "(Cliopatria'da Ur III yok)", "ur-3",
                       "Sumerian City-States ile: %s %s — Cliopatria Ur III'ü ayrı polity olarak "
                       "TAŞIMIYOR (bilgi, sınav maddesi değil)" % (c and c["sinif"], c and c["neden"])))
+    # ikinci geçiş: koordinatörün sitede ölçtüğü künye-var çiftleri (11) ve gerçek eksikler
+    for pad, beklenen in SINAV_IKINCI:
+        if pad not in O["P"]:
+            sonuc.append(("AD2", pad, "/".join(beklenen), "ÖLÇÜLEMEDİ: Cliopatria'da yok"))
+            olculemedi = True
+            continue
+        s = O["p_sinif"][pad]
+        bulunan = {K for K, _n in O["ikinci"].get(pad, [])}
+        eksik = [K for K in beklenen if K not in bulunan]
+        if s == "kunye-var-noktasiz" and not eksik:
+            sonuc.append(("AD2", pad, "/".join(beklenen), "GEÇTİ kunye-var-noktasiz → %s"
+                          % ",".join(sorted(bulunan))))
+        else:
+            sonuc.append(("AD2", pad, "/".join(beklenen), "KALDI sınıf=%s bulunan=%s eksik=%s"
+                          % (s, sorted(bulunan), eksik)))
+            kaldi = True
+    for pad in SINAV_GERCEK_EKSIK:
+        if pad not in O["P"]:
+            sonuc.append(("NEG2", pad, "-", "ÖLÇÜLEMEDİ: Cliopatria'da yok"))
+            olculemedi = True
+            continue
+        s = O["p_sinif"][pad]
+        if s == "atlasta-yok":
+            sonuc.append(("NEG2", pad, "-", "GEÇTİ atlasta-yok"))
+        else:
+            sonuc.append(("NEG2", pad, "-", "KALDI sınıf=%s %s" % (
+                s, [K for K, _n in O["ikinci"].get(pad, [])])))
+            kaldi = True
     # negatif: Frigya atlasta-yok çıkmalı
     if "Phrygia" in O["P"]:
         s = O["p_sinif"]["Phrygia"]
@@ -913,6 +1128,14 @@ def yaz(O, zip_yol, sinav_s, sinav_kod):
           int(oz[p]["bilesik"]), oz[p]["wd"], oz[p]["sid"], oz[p]["wp"], O["ipucu"].get(p, "")]
          for i, p in enumerate(yok)])
 
+    kv = sorted(O["ikinci"], key=lambda p: -oz[p]["alan"] * oz[p]["sure"])
+    tsv("kunye_var_noktasiz.tsv",
+        ["ad", "bas_astro", "son_astro", "donem", "kita", "modern_ulke", "en_buyuk_alan_km2",
+         "sure_yil", "bilesik", "Wikidata", "kunye_id", "kunye_ad", "neden"],
+        [[p, oz[p]["a0"], oz[p]["a1"] - 1, donem(oz[p]["a0"]), oz[p]["kita"], oz[p]["ulke"],
+          oz[p]["alan"], oz[p]["sure"], int(oz[p]["bilesik"]), oz[p]["wd"], K,
+          kunye[K].get("ad"), n] for p in kv for K, n in O["ikinci"][p]])
+
     ozg = [d for d in O["D"] if ks[d["id"]] in ("atlasa-ozgu",) or ks[d["id"]].startswith("noktasiz")]
     ozg.sort(key=lambda d: (ks[d["id"]], KZ[d["id"]][0] if KZ[d["id"]] else 9e9))
     tsv("atlasa_ozgu.tsv",
@@ -952,7 +1175,15 @@ def rapor(O, zip_yol, sinav_s, sinav_kod, yok):
     w("- **Cliopatria:** %d polity adı (%d POLITY satırı); bunların %d'i bileşik (parantezli ad), "
       "%d'i %d sonrası başladığı için kapsam dışı." % (len(oz), len(O["R"]), bil, len(O["kapsam_disi"]), UST_YIL))
     w("- **Polity sınıfları:** " + " · ".join("%s %d" % (k, pc[k]) for k in
-                                                ("eslesen", "aday", "atlasta-yok", "kapsam-disi")))
+                                                ("eslesen", "aday", "kunye-var-noktasiz",
+                                                 "atlasta-yok", "kapsam-disi")))
+    tekil0 = [p for p in oz if not oz[p]["bilesik"] and p not in O["kapsam_disi"]]
+    w("- **İkinci geçiş (ad + zaman, yalnız mekânsal eşleşmesi olmayanlar):** atlasta-yok "
+      "ÖNCE %d (tekil %d) → SONRA %d (tekil %d); %d polity `kunye-var-noktasiz`e geçti "
+      "(`kunye_var_noktasiz.tsv`)." % (
+          len(O["ilk_atlasta_yok"]), sum(1 for p in O["ilk_atlasta_yok"] if p in tekil0),
+          pc["atlasta-yok"], sum(1 for p in tekil0 if ps[p] == "atlasta-yok"),
+          len(O["ikinci"])))
     w("- **Künye sınıfları (%d künye%s):** " % (len(O["D"]), ", 1'i sentetik osmanli" if O["kunye_sentetik"] else "")
       + " · ".join("%s %d" % (k, v) for k, v in sorted(kc.items())))
     w("- **İki yönlü sınav:** çıkış %d (%s)." % (sinav_kod, {0: "geçti", 1: "KALDI", 2: "ölçülemedi var"}[sinav_kod]))
@@ -1048,7 +1279,7 @@ def rapor(O, zip_yol, sinav_s, sinav_kod, yok):
       "çözüldüyse NE ülkesi, yoksa `bolge` eşlemesi. **Bileşik polity'ler ve %d sonrası başlayanlar hariç.**" % UST_YIL)
     w("")
     tekil = [p for p in oz if not oz[p]["bilesik"] and p not in O["kapsam_disi"]]
-    for sinif in ("eslesen", "aday", "atlasta-yok"):
+    for sinif in ("eslesen", "aday", "kunye-var-noktasiz", "atlasta-yok"):
         tablo("Cliopatria polity — %s" % sinif,
               lambda k, dn, s=sinif: sum(1 for p in tekil if ps[p] == s and oz[p]["kita"] == k
                                          and donem(oz[p]["a0"]) == dn), KITALAR, "kıta")
@@ -1077,6 +1308,23 @@ def rapor(O, zip_yol, sinav_s, sinav_kod, yok):
             break
     w("")
 
+    w("## İkinci geçiş — `kunye-var-noktasiz`")
+    w("Mekânsal eşleşmesi çıkmayan her polity için, zamanı (±%d yıl tolerans) örtüşen bütün "
+      "künyelerle ad karşılaştırması: İngilizce kök (elle exonym sözlüğü + transliterasyon "
+      "katlaması, -ian/-ic/-s ekleri) ↔ künye adı ve id kökleri; dönem/yön ekleri "
+      "(Old/Middle/Neo/New ↔ eski/orta/yeni, Northern/Southern/Western/Eastern ↔ "
+      "kuzey/güney/batı/doğu) ikisinde de varsa KESİŞMELİ; 'Kingdom/Empire/Dynasty of' atılır; "
+      "≤4 harfli kök (wei, xia, song) yalnız birebir; zayıf kök (Mısır, Türk, Arap…) tek başına "
+      "yetmez; milliyet sıfatı (French/Dutch/Danish…) künyede de olmalı; genel kelimeler "
+      "(Communists, Saint, Gold Coast, Republiek…) kök sayılmaz; kıtalar çelişmemeli "
+      "(Avrupa↔Asya hariç). Ad burada mekânın ölçülemediği yerde KÜNYENİN VARLIĞINI gösterir; mekânsal "
+      "eşleşme DEĞİLDİR." % AD2_TOLERANS)
+    w("")
+    w("| Cliopatria | astro | künye(ler) |\n|---|---|---|")
+    for p in sorted(O["ikinci"], key=lambda p: -oz[p]["alan"] * oz[p]["sure"]):
+        w("| %s | %d…%d | %s |" % (p, oz[p]["a0"], oz[p]["a1"] - 1,
+                                   "; ".join("%s (%s)" % kn for kn in O["ikinci"][p])))
+    w("")
     w("## Kırılma ayrımı")
     bire_cok = {p: v for p, v in O["p_es"].items() if len({c["K"] for c in v}) >= 2}
     coka_bir = {k: v for k, v in O["k_es"].items() if len({c["P"] for c in v}) >= 2}

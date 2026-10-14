@@ -1,19 +1,19 @@
 # Kaynak: Cliopatria v0.2.1, Seshat Global History Databank (Bennett ve diğ., Scientific Data 2025, doi:10.1038/s41597-025-04516-9), CC-BY 4.0; değiştirildi: özetlendi.
 ad	FromYear_ham	ToYear_ham	bas_astro	son_astro	sure_yil	en_buyuk_alan_km2	satir	bilesik	kita	modern_ulke	temsil_lon	temsil_lat	Wikidata	SeshatID	MemberOf	sinif
-Sumerian City-States	-3400	-1761	-3399	-1760	1490	106576.071	9	0	Asya	Irak	45.645	32.410	Q2345840			atlasta-yok
-Elam	-3200	-601	-3199	-600	2085	215099.677	17	0	Asya	İran	47.865	31.385	Q128904	ir_elam_2;ir_elam_3;ir_elam_4;ir_elam_5;ir_elam_6;ir_elam_7;ir_elam_8;ir_neo_elam_1;ir_neo_elam_2		atlasta-yok
-Early Dynastic Period of Egypt	-3000	-2501	-2999	-2500	500	93286.063	2	0	Afrika	Mısır	30.688	29.203	Q187979	eg_dynasty_1;eg_dynasty_2		atlasta-yok
+Sumerian City-States	-3400	-1761	-3399	-1760	1490	106576.071	9	0	Asya	Irak	45.645	32.410	Q2345840			kunye-var-noktasiz
+Elam	-3200	-601	-3199	-600	2085	215099.677	17	0	Asya	İran	47.865	31.385	Q128904	ir_elam_2;ir_elam_3;ir_elam_4;ir_elam_5;ir_elam_6;ir_elam_7;ir_elam_8;ir_neo_elam_1;ir_neo_elam_2		kunye-var-noktasiz
+Early Dynastic Period of Egypt	-3000	-2501	-2999	-2500	500	93286.063	2	0	Afrika	Mısır	30.688	29.203	Q187979	eg_dynasty_1;eg_dynasty_2		kunye-var-noktasiz
 Indus Valley Civilization	-3000	-1701	-2999	-1700	1300	755121.292	8	0	Asya	Pakistan	70.752	28.299	Q42534	pk_kachi_pre_urban;pk_kachi_urban_1;pk_kachi_urban_2		aday
-Old Kingdom of Egypt	-2500	-2201	-2499	-2200	300	93286.063	3	0	Afrika	Mısır	30.688	29.203	Q177819	eg_old_k_1;eg_old_k_2		atlasta-yok
+Old Kingdom of Egypt	-2500	-2201	-2499	-2200	300	93286.063	3	0	Afrika	Mısır	30.688	29.203	Q177819	eg_old_k_1;eg_old_k_2		kunye-var-noktasiz
 Akkadian Empire	-2300	-2101	-2299	-2100	200	526585.111	3	0	Asya	Irak	42.964	34.187	Q4461035	iq_akkad_emp		aday
 Lower Egypt	-2200	-2001	-2199	-2000	200	74523.892	2	0	Afrika	Mısır	31.130	30.059	Q463871	eg_old_k_2;eg_regions		atlasta-yok
 Upper Egypt	-2200	-2001	-2199	-2000	200	19656.839	2	0	Afrika	Mısır	32.671	25.810	Q203751	eg_old_k_2;eg_regions		atlasta-yok
 Gutian Dynasty	-2100	-2001	-2099	-2000	100	131488.491	1	0	Asya	Irak	47.714	31.921	Q1064034			atlasta-yok
-Middle Kingdom of Egypt	-2000	-1601	-1999	-1600	400	433182.306	3	0	Afrika	Mısır	31.261	27.075	Q191324	eg_middle_k		atlasta-yok
-Assyria	-1800	-901	-1799	-900	900	599270.317	12	0	Asya	Irak	42.774	35.554	Q41137	iq_middle_assyrian_emp		atlasta-yok
+Middle Kingdom of Egypt	-2000	-1601	-1999	-1600	400	433182.306	3	0	Afrika	Mısır	31.261	27.075	Q191324	eg_middle_k		kunye-var-noktasiz
+Assyria	-1800	-901	-1799	-900	900	599270.317	12	0	Asya	Irak	42.774	35.554	Q41137	iq_middle_assyrian_emp		kunye-var-noktasiz
 Hyksos	-1800	-1401	-1799	-1400	400	134154.935	4	0	Asya	İsrail	34.511	31.133	Q192319			aday
-Babylonia	-1800	-601	-1799	-600	965	226483.560	15	0	Asya	Irak	45.218	32.653	Q47690	iq_babylonia_1;iq_babylonia_2;iq_bazi_dyn;iq_dynasty_e;iq_isin_dynasty2		atlasta-yok
-First Sealand Dynasty	-1700	-1401	-1699	-1400	300	15392.041	3	0	Asya	Irak	47.428	30.294	Q7440601			atlasta-yok
+Babylonia	-1800	-601	-1799	-600	965	226483.560	15	0	Asya	Irak	45.218	32.653	Q47690	iq_babylonia_1;iq_babylonia_2;iq_bazi_dyn;iq_dynasty_e;iq_isin_dynasty2		kunye-var-noktasiz
+First Sealand Dynasty	-1700	-1401	-1699	-1400	300	15392.041	3	0	Asya	Irak	47.428	30.294	Q7440601			kunye-var-noktasiz
 Fifteenth Dynasty of Egypt	-1600	-1501	-1599	-1500	100	34495.903	1	0	Afrika	Mısır	30.499	29.944	Q728479	eg_thebes_hyksos		atlasta-yok
 Seventeenth Dynasty of Egypt	-1600	-1501	-1599	-1500	100	34736.889	1	0	Afrika	Mısır	32.453	26.108	Q642301	eg_thebes_hyksos		atlasta-yok
 Sixteenth Dynasty of Egypt	-1600	-1501	-1599	-1500	100	24559.119	1	0	Afrika	Mısır	32.074	29.921	Q737695	eg_thebes_hyksos		atlasta-yok
@@ -22,7 +22,7 @@ Hittites	-1600	-1151	-1599	-1150	450	321568.320	7	0	Asya	Türkiye	34.403	38.125	
 Shang Dynasty	-1600	-1001	-1599	-1000	600	154175.181	3	0	Asya	Çin Halk Cumhuriyeti	115.197	36.388	Q128938	cn_erligang;cn_late_shang_dyn		eslesen
 Mitanni	-1500	-1241	-1499	-1240	260	189149.062	3	0	Asya	Suriye	39.636	36.128	Q178665	sy_mitanni_k		aday
 Mycenaean Greece	-1500	-1101	-1499	-1100	400	71057.159	7	0	?	(deniz/bulunamadı)	22.404	38.283	Q181264			atlasta-yok
-New Kingdom of Egypt	-1500	-801	-1499	-800	700	708814.364	7	0	Afrika	Mısır	31.800	26.690	Q180568	eg_new_k_1;eg_new_k_2		atlasta-yok
+New Kingdom of Egypt	-1500	-801	-1499	-800	700	708814.364	7	0	Afrika	Mısır	31.800	26.690	Q180568	eg_new_k_1;eg_new_k_2		kunye-var-noktasiz
 Neo-Hittite states	-1150	-801	-1149	-800	350	25034.004	3	0	Asya	Türkiye	37.201	36.907	Q770281	tr_neo_hittite_k		aday
 Phoenicia	-1150	-501	-1149	-500	650	35130.064	9	0	Asya	Lübnan	35.888	34.191	Q41642	lb_phoenician_emp	(Phoenician Empire)	eslesen
 (Phoenician Empire)	-1150	-501	-1149	-500	650	35130.064	10	1	Asya	Lübnan	35.888	34.191	Q41642			eslesen
@@ -31,11 +31,11 @@ Greek Dark Ages	-1100	-801	-1099	-800	300	60722.013	3	0	Avrupa	Yunanistan	22.584
 Zhou Dynasty	-1000	-751	-999	-750	250	699623.287	2	0	Asya	Çin Halk Cumhuriyeti	115.866	35.342	Q35216	cn_western_zhou_dyn		aday
 Kingdom of Israel	-1000	-701	-999	-700	300	20071.780	4	0	Asya	Ürdün	35.708	32.162	Q3185305	il_yisrael		aday
 Kingdom of Kush	-1000	346	-999	346	1346	563236.572	7	0	Afrika	Mısır	31.900	22.631	Q241790	eg_kushite		aday
-Kingdom of Judah	-900	-701	-899	-700	200	4303.388	3	0	Asya	Filistin	35.163	31.610	Q48685			atlasta-yok
+Kingdom of Judah	-900	-701	-899	-700	200	4303.388	3	0	Asya	Filistin	35.163	31.610	Q48685			kunye-var-noktasiz
 Tabal Kingdom	-900	-701	-899	-700	200	38587.131	2	0	Asya	Türkiye	36.301	37.651	Q727710	tr_tabal_k		aday
 Neo-Assyrian Empire	-900	-601	-899	-600	300	1400725.518	6	0	Asya	Irak	45.126	33.110	Q10914393	iq_neo_assyrian_emp		eslesen
 Phrygia	-900	-676	-899	-675	225	188102.332	3	0	Asya	Türkiye	31.176	39.532	Q32579	tr_phrygian_k		atlasta-yok
-Kingdom of Urartu	-800	-551	-799	-550	165	161552.144	4	0	Asya	Türkiye	41.940	39.536	Q185068	tr_urartu_k		atlasta-yok
+Kingdom of Urartu	-800	-551	-799	-550	165	161552.144	4	0	Asya	Türkiye	41.940	39.536	Q185068	tr_urartu_k		kunye-var-noktasiz
 Sabaeans	-800	282	-799	282	880	63947.671	15	0	Asya	Yemen	43.989	16.137	Q940785	ye_sabaean_commonwealth		atlasta-yok
 Greek City-States	-800	83	-799	83	837	206488.052	52	0	Avrupa	Yunanistan	22.177	40.327	Q148837			aday
 Twenty-third Dynasty of Egypt	-800	-701	-799	-700	100	61633.322	2	0	Afrika	Mısır	31.026	30.410	Q748170	eg_thebes_libyan		atlasta-yok
@@ -46,7 +46,7 @@ Qin	-750	-219	-749	-218	532	1523239.764	12	0	Asya	Çin Halk Cumhuriyeti	112.210	
 Etruscans	-750	-265	-749	-264	486	65835.271	14	0	Avrupa	İtalya	11.249	44.070	Q17161			eslesen
 (Spring and Autumn States)	-750	-481	-749	-480	270	1008534.396	3	1	Asya	Çin Halk Cumhuriyeti	115.549	34.254	Q185047			atlasta-yok
 Roman Kingdom	-750	-481	-749	-480	270	858.811	3	0	Avrupa	İtalya	12.279	41.984	Q201038	it_roman_k		eslesen
-Qi	-750	-204	-749	-203	535	129744.194	11	0	Asya	Çin Halk Cumhuriyeti	118.329	36.713	Q1143524	cn_qi_spring_autumn;cn_qi_warring_states	(Eighteen Kingdoms);(Spring and Autumn States);(Warring States China)	atlasta-yok
+Qi	-750	-204	-749	-203	535	129744.194	11	0	Asya	Çin Halk Cumhuriyeti	118.329	36.713	Q1143524	cn_qi_spring_autumn;cn_qi_warring_states	(Eighteen Kingdoms);(Spring and Autumn States);(Warring States China)	kunye-var-noktasiz
 Song	-750	-285	-749	-284	466	34727.528	8	0	Asya	Çin Halk Cumhuriyeti	116.066	34.934	Q7462		(Spring and Autumn States);(Warring States China)	atlasta-yok
 Teng	-750	-451	-749	-450	300	4323.470	2	0	Asya	Çin Halk Cumhuriyeti	116.639	35.078	Q1356151		(Spring and Autumn States);(Warring States China)	atlasta-yok
 Chen	-750	-451	-749	-450	300	5047.040	2	0	Asya	Çin Halk Cumhuriyeti	114.470	34.549	Q1069690		(Spring and Autumn States);(Warring States China)	atlasta-yok
@@ -66,8 +66,8 @@ Lydia	-700	-541	-699	-540	160	255952.269	7	0	Asya	Türkiye	30.736	39.263	Q620765
 (Macedonian Empire)	-675	-292	-674	-291	384	4940237.595	17	1	Asya	İran	53.516	32.859	Q83958	gr_macedonian_emp		aday
 Macedonian Empire	-675	-292	-674	-291	384	4802067.585	17	0	Asya	İran	53.500	32.953	Q83958	gr_macedonian_emp	(Macedonian Empire)	aday
 Olmec Civilization	-650	-351	-649	-350	300	17602.638	2	0	K.Amerika	Meksika	-94.236	18.159	Q135364			aday
-Scythia	-650	-224	-649	-223	427	1687837.107	6	0	Avrupa	Rusya	41.417	47.899	Q131802	ua_skythian_k_3		atlasta-yok
-Carthage	-650	-145	-649	-144	506	454097.437	29	0	Avrupa	İspanya	-2.841	39.352	Q2429397	tn_carthage_emp		atlasta-yok
+Scythia	-650	-224	-649	-223	427	1687837.107	6	0	Avrupa	Rusya	41.417	47.899	Q131802	ua_skythian_k_3		kunye-var-noktasiz
+Carthage	-650	-145	-649	-144	506	454097.437	29	0	Avrupa	İspanya	-2.841	39.352	Q2429397	tn_carthage_emp		kunye-var-noktasiz
 Assyrian Egypt	-650	-616	-649	-615	35	1435217.589	2	0	Asya	Irak	45.163	33.061	Q97357417			aday
 Twenty-sixth Dynasty of Egypt	-615	-501	-614	-500	115	464286.932	3	0	Afrika	Mısır	31.446	27.211	Q662410			atlasta-yok
 Median Kingdom	-615	-551	-614	-550	65	2243378.208	2	0	Asya	İran	57.876	33.334	Q1183338	ir_median_emp		eslesen
@@ -75,7 +75,7 @@ Janapada of Avanti	-600	-405	-599	-404	196	5103.958	2	0	Asya	Hindistan	75.780	23
 Janapada of Anga	-600	-501	-599	-500	100	5577.981	2	0	Asya	Hindistan	87.289	24.593	Q1155818	in_mahajanapada	(Mahajanapadas)	atlasta-yok
 (Mahajanapadas)	-600	-351	-599	-350	250	802716.095	7	1	Asya	Hindistan	83.755	24.189	Q846025	in_mahajanapada		atlasta-yok
 Neo-Babylonian Empire	-600	-531	-599	-530	70	703405.474	3	0	Asya	Suriye	40.624	34.398	Q624887	iq_neo_babylonian_emp		aday
-Janapada of Magadha	-600	-501	-599	-500	100	5039.950	2	0	Asya	Hindistan	84.994	25.486	Q234009	in_mahajanapada	(Mahajanapadas)	atlasta-yok
+Janapada of Magadha	-600	-501	-599	-500	100	5039.950	2	0	Asya	Hindistan	84.994	25.486	Q234009	in_mahajanapada	(Mahajanapadas)	kunye-var-noktasiz
 Janapada of Malla	-600	-451	-599	-450	150	5485.716	2	0	Asya	Hindistan	84.147	26.628	Q1376303	in_mahajanapada	(Mahajanapadas)	atlasta-yok
 Janapada of Aśmaka	-600	-351	-599	-350	250	5466.955	3	0	Asya	Hindistan	78.279	19.829	Q1194906	in_mahajanapada	(Mahajanapadas)	atlasta-yok
 Janapada of Vajji	-600	-481	-599	-480	120	5163.498	2	0	Asya	Nepal	85.868	26.710	Q605199	in_mahajanapada	(Mahajanapadas)	atlasta-yok
@@ -98,7 +98,7 @@ Magadha - Haryanka dynasty	-500	-405	-499	-404	96	335215.399	3	0	Asya	Hindistan	
 (Warring States China)	-480	-219	-479	-218	262	1633841.829	19	1	Asya	Çin Halk Cumhuriyeti	112.665	33.947	Q185063			aday
 Mahajanapadas	-480	-451	-479	-450	30	5163.498	1	0	Asya	Nepal	85.868	26.710	Q846025	in_mahajanapada	(Mahajanapadas)	atlasta-yok
 Odrysian Kingdom	-450	-338	-449	-337	113	105796.456	4	0	Avrupa	Bulgaristan	25.826	42.639	Q870517			aday
-Yuezhi	-404	42	-403	42	446	916154.147	14	0	Asya	Çin Halk Cumhuriyeti	81.646	40.957	Q467985	af_tocharian		atlasta-yok
+Yuezhi	-404	42	-403	42	446	916154.147	14	0	Asya	Çin Halk Cumhuriyeti	81.646	40.957	Q467985	af_tocharian		kunye-var-noktasiz
 Zhao	-404	-226	-403	-225	179	66731.175	7	0	Asya	Çin Halk Cumhuriyeti	113.535	36.379	Q1574107		(Warring States China)	aday
 Magadha - Shaishunaga dynasty	-404	-334	-403	-333	71	797304.570	3	0	Asya	Hindistan	83.755	24.189	Q972165	in_mahajanapada	(Mahajanapadas)	aday
 Cimmerian Bosporus	-404	372	-403	372	738	40185.218	7	0	Avrupa	Rusya	38.431	46.134	Q321371			aday
@@ -151,7 +151,7 @@ Kingdom of Cappadocia	-239	22	-238	22	251	91738.426	12	0	Asya	Türkiye	35.835	38
 Satavahana Dynasty	-225	223	-224	223	442	890253.654	15	0	Asya	Hindistan	77.509	19.731	Q5257	in_satavahana_emp		aday
 Qin Dynasty	-218	-209	-217	-208	10	2132723.861	3	0	Asya	Çin Halk Cumhuriyeti	113.031	32.782	Q7183	cn_qin_emp		aday
 Mauretania	-212	42	-211	42	254	215291.634	8	0	Afrika	Cezayir	-0.394	35.082	Q309272	ma_mauretania		aday
-Western Chu	-208	-203	-207	-202	6	354295.682	3	0	Asya	Çin Halk Cumhuriyeti	116.790	32.258	Q1151705		(Eighteen Kingdoms)	atlasta-yok
+Western Chu	-208	-203	-207	-202	6	354295.682	3	0	Asya	Çin Halk Cumhuriyeti	116.790	32.258	Q1151705		(Eighteen Kingdoms)	kunye-var-noktasiz
 (Eighteen Kingdoms)	-208	-204	-207	-203	5	2128078.672	2	1	Asya	Çin Halk Cumhuriyeti	113.028	32.781	Q5349053			aday
 Xiongnu	-208	153	-207	153	361	5619495.983	24	0	Asya	Moğolistan	100.358	45.661	Q188836	mn_hunnu_emp;mn_hunnu_late		aday
 Zhai	-208	-204	-207	-203	5	1628170.781	2	0	Asya	Çin Halk Cumhuriyeti	111.220	31.680	Q7183		(Eighteen Kingdoms)	atlasta-yok
@@ -213,19 +213,19 @@ Funan	51	640	51	640	590	245197.618	4	0	Asya	Kamboçya	105.271	11.740	Q867782	kh_
 Southern Xiongnu	51	105	51	105	55	187257.032	3	0	Asya	Çin Halk Cumhuriyeti	107.850	40.700	Q188836			aday
 Xianbei	60	237	60	237	178	5220509.862	10	0	Asya	Moğolistan	103.795	47.817	Q861054	mn_xianbei		aday
 Pyu City-States	84	1045	84	1045	962	116186.978	5	0	Asya	Myanmar	95.716	21.254	Q1627675			atlasta-yok
-Huns	106	425	106	425	320	1462847.885	11	0	Avrupa	Rusya	42.619	45.636	Q45813			atlasta-yok
+Huns	106	425	106	425	320	1462847.885	11	0	Avrupa	Rusya	42.619	45.636	Q45813			kunye-var-noktasiz
 Protectorate of the Western Regions	117	601	117	601	403	695193.223	12	0	Asya	Çin Halk Cumhuriyeti	83.353	40.011	Q911440			atlasta-yok
 Burgundians	154	409	154	409	196	100278.866	3	0	Avrupa	Polonya	17.675	52.060	Q13590051			atlasta-yok
 Norse	161	499	161	499	339	71171.216	6	0	Avrupa	Norveç	9.829	59.733	Q909583			atlasta-yok
 Cao Cao	197	223	197	223	27	1377125.942	3	0	Asya	Çin Halk Cumhuriyeti	112.610	36.932	Q204077			aday
 Chámpa	207	1652	207	1652	1432	130299.994	17	0	Asya	Vietnam	108.037	13.705	Q216786			eslesen
 Gothia	207	382	207	382	176	634926.477	12	0	Avrupa	Moldova	28.241	47.891	Q422253			atlasta-yok
-Eastern Wu	207	282	207	282	76	1399751.455	4	0	Asya	Çin Halk Cumhuriyeti	113.819	26.788	Q274488			atlasta-yok
+Eastern Wu	207	282	207	282	76	1399751.455	4	0	Asya	Çin Halk Cumhuriyeti	113.819	26.788	Q274488			kunye-var-noktasiz
 Sasanian Empire	215	643	215	643	429	4998457.147	47	0	Asya	İran	48.712	33.005	Q1661685	ir_sassanid_emp_1;ir_sassanid_emp_2		aday
 Shu Han	224	262	224	262	39	880368.587	3	0	Asya	Çin Halk Cumhuriyeti	105.288	28.763	Q320925			eslesen
 Cao Wei	224	264	224	264	41	2972911.123	3	0	Asya	Çin Halk Cumhuriyeti	111.657	35.471	Q320930	cn_wei_k		eslesen
 Eastern Kushans	238	346	238	346	109	1240514.481	5	0	Asya	Hindistan	74.152	28.771	Q25979			aday
-Ripuarian Franks	238	509	238	509	272	44275.672	19	0	Avrupa	Almanya	7.181	51.372	Q316860			atlasta-yok
+Ripuarian Franks	238	509	238	509	272	44275.672	19	0	Avrupa	Almanya	7.181	51.372	Q316860			kunye-var-noktasiz
 Western Kushans	238	259	238	259	22	684685.793	2	0	Asya	Afganistan	68.485	36.834	Q25979			aday
 Vakataka Kingdom	260	554	260	554	295	671269.619	9	0	Asya	Hindistan	77.833	20.342	Q1501306	in_vakataka_k		atlasta-yok
 Indo-Sasanian Empire	260	357	260	357	98	750667.546	4	0	Asya	Afganistan	68.748	36.610	Q1661685			eslesen
@@ -258,7 +258,7 @@ Salian Franks	358	509	358	509	152	277829.531	6	0	Avrupa	Fransa	4.151	48.976	Q939
 Tarumanagara	367	673	367	673	307	62498.713	4	0	Asya	Endonezya	107.578	-6.934	Q2247225			atlasta-yok
 Silla	378	681	378	681	304	86615.500	7	0	Asya	Güney Kore	128.082	37.234	Q28456			eslesen
 Western Qin	387	438	387	438	44	229139.341	7	0	Asya	Çin Halk Cumhuriyeti	104.137	36.343	Q1668970			atlasta-yok
-Northern Wei	387	533	387	533	147	1166641.660	14	0	Asya	Çin Halk Cumhuriyeti	110.557	36.832	Q875305	cn_northern_wei_dyn		atlasta-yok
+Northern Wei	387	533	387	533	147	1166641.660	14	0	Asya	Çin Halk Cumhuriyeti	110.557	36.832	Q875305	cn_northern_wei_dyn		kunye-var-noktasiz
 Western Yan	387	393	387	393	7	116089.939	3	0	Asya	Çin Halk Cumhuriyeti	112.602	37.511	Q1149230			atlasta-yok
 Angles	387	479	387	479	93	1292.845	2	0	Avrupa	Almanya	9.601	54.709	Q234218			atlasta-yok
 Later Liang	387	406	387	406	20	237230.585	3	0	Asya	Çin Halk Cumhuriyeti	100.145	38.694	Q2314869			atlasta-yok
@@ -267,7 +267,7 @@ Later Qin	387	416	387	416	30	573288.280	8	0	Asya	Çin Halk Cumhuriyeti	108.538	3
 Xionites	387	401	387	401	15	488435.960	2	0	Asya	Tacikistan	70.489	40.786	Q26264			atlasta-yok
 Eastern Roman Empire	395	632	395	632	238	2602790.931	36	0	Asya	Suriye	38.815	36.481	Q12544	tr_east_roman_emp		eslesen
 Western Roman Empire	395	475	395	475	81	2133724.715	18	0	Avrupa	Fransa	4.206	44.352	Q42834	it_western_roman_emp		eslesen
-Visigoths	396	425	396	425	30	44637.083	7	0	Avrupa	Yunanistan	21.788	38.588	Q23693			atlasta-yok
+Visigoths	396	425	396	425	30	44637.083	7	0	Avrupa	Yunanistan	21.788	38.588	Q23693			kunye-var-noktasiz
 Northern Liang	397	440	397	440	44	119670.190	4	0	Asya	Çin Halk Cumhuriyeti	97.314	39.821	Q1539360			atlasta-yok
 Southern Liang	397	413	397	413	17	31085.388	2	0	Asya	Çin Halk Cumhuriyeti	103.045	35.463	Q1069868			atlasta-yok
 Southern Yan	402	409	402	409	8	152855.331	2	0	Asya	Çin Halk Cumhuriyeti	118.337	36.589	Q1329439			atlasta-yok
@@ -279,7 +279,7 @@ White Huns	410	560	410	560	151	3300429.751	7	0	Asya	Afganistan	67.728	35.142	Q41
 Burgundian Kingdom	414	660	414	660	148	583652.829	17	0	Avrupa	Fransa	3.372	47.253	Q13590051	fr_burgundian_k;fr_merovingian_emp_2	(Kingdom of the Franks);(Merovingian Empire)	eslesen
 Kingdom of the Suebi	414	586	414	586	173	248613.461	8	0	Avrupa	İspanya	-6.933	39.790	Q1048918	pt_suebi_k		eslesen
 Alans	414	438	414	438	25	225365.971	3	0	Avrupa	İspanya	-4.842	39.100	Q178054			aday
-Hunnic Empire	426	673	426	673	245	1913269.473	10	0	Avrupa	Ukrayna	26.000	48.490	Q45813	hu_hun_k		atlasta-yok
+Hunnic Empire	426	673	426	673	245	1913269.473	10	0	Avrupa	Ukrayna	26.000	48.490	Q45813	hu_hun_k		kunye-var-noktasiz
 Liu Song Dynasty	426	479	426	479	54	2738288.151	4	0	Asya	Çin Halk Cumhuriyeti	111.650	28.933	Q49697			aday
 Visigothic Kingdom	426	723	426	723	298	689711.709	26	0	Avrupa	İspanya	-1.798	41.597	Q126936	es_visigothic_k		eslesen
 (Brythonic Kingdoms)	439	1284	439	1284	846	207599.694	66	1	Avrupa	Birleşik Krallık	-2.103	52.924	Q849967	gb_brythonic_k		eslesen
@@ -297,8 +297,8 @@ Thuringian states	469	475	469	475	7	40556.905	1	0	Avrupa	Almanya	10.618	50.566	Q
 Maitraka Dynasty	476	731	476	731	256	303530.902	7	0	Asya	Hindistan	73.627	23.605	Q6737189	in_maitraka_dyn		atlasta-yok
 Kingdom of Thuringia	476	533	476	533	58	40556.905	2	0	Avrupa	Almanya	10.618	50.566	Q268562			atlasta-yok
 Kingdom of Soissons	476	489	476	489	14	159048.140	2	0	Avrupa	Fransa	1.212	48.668	Q1247508			aday
-Lombards	480	586	480	586	107	203484.669	10	0	Avrupa	Macaristan	17.351	46.094	Q130900			atlasta-yok
-Southern Qi	480	509	480	509	30	2361556.299	2	0	Asya	Çin Halk Cumhuriyeti	110.865	27.751	Q62456	cn_southern_qi_dyn		atlasta-yok
+Lombards	480	586	480	586	107	203484.669	10	0	Avrupa	Macaristan	17.351	46.094	Q130900			kunye-var-noktasiz
+Southern Qi	480	509	480	509	30	2361556.299	2	0	Asya	Çin Halk Cumhuriyeti	110.865	27.751	Q62456	cn_southern_qi_dyn		kunye-var-noktasiz
 Kingdom of Kent	490	762	490	762	260	4348.776	7	0	Avrupa	Birleşik Krallık	0.657	51.238	Q328818	gb_anglo_saxon_1	(Anglo-Saxon England)	aday
 Kingdom of Sussex	490	771	490	771	256	5700.883	4	0	Avrupa	Birleşik Krallık	-0.443	50.975	Q676184	gb_anglo_saxon_1	(Anglo-Saxon England)	aday
 Ostrogothic Kingdom	500	560	500	560	61	576942.839	7	0	Avrupa	İtalya	9.063	44.730	Q583038	it_ostrogoth_k		eslesen
@@ -307,9 +307,9 @@ Liang Dynasty	510	560	510	560	51	2361656.484	5	0	Asya	Çin Halk Cumhuriyeti	110.
 Ghassanids	510	633	510	633	112	265044.585	6	0	Asya	Suudi Arabistan	38.195	31.251	Q733668	jo_ghassanid_k		aday
 Kingdom of the Gepids	510	566	510	566	57	151897.953	4	0	Avrupa	Romanya	21.697	45.967	Q201706	rs_gepid_k		aday
 Wihtgar	523	691	523	691	164	507.792	3	0	Avrupa	Birleşik Krallık	-1.309	50.669	Q3568009			atlasta-yok
-Eastern Wei	534	554	534	554	21	623759.799	2	0	Asya	Çin Halk Cumhuriyeti	115.748	36.873	Q307069			atlasta-yok
+Eastern Wei	534	554	534	554	21	623759.799	2	0	Asya	Çin Halk Cumhuriyeti	115.748	36.873	Q307069			kunye-var-noktasiz
 Western Wei	534	560	534	560	27	865986.686	3	0	Asya	Çin Halk Cumhuriyeti	104.555	34.723	Q1143164			eslesen
-Kingdom of East Anglia	534	869	534	869	296	12501.633	4	0	Avrupa	Birleşik Krallık	0.885	52.432	Q837998	gb_anglo_saxon_1	(Anglo-Saxon England)	atlasta-yok
+Kingdom of East Anglia	534	869	534	869	296	12501.633	4	0	Avrupa	Birleşik Krallık	0.885	52.432	Q837998	gb_anglo_saxon_1	(Anglo-Saxon England)	kunye-var-noktasiz
 Kingdom of Deira	534	633	534	633	79	18451.089	5	0	Avrupa	Birleşik Krallık	-1.019	53.899	Q506008	gb_anglo_saxon_1	(Anglo-Saxon England)	aday
 Kingdom of Wessex	534	935	534	935	370	96898.925	29	0	Avrupa	Birleşik Krallık	-1.208	52.002	Q105313	gb_anglo_saxon_1	(Anglo-Saxon England)	aday
 Kingdom of Mercia	534	925	534	925	376	96898.925	29	0	Avrupa	Birleşik Krallık	-1.208	52.002	Q105092	gb_anglo_saxon_1	(Anglo-Saxon England)	aday
@@ -323,10 +323,10 @@ Kingdom of Powys	540	1168	540	1168	537	5916.975	13	0	Avrupa	Birleşik Krallık	-
 Kingdom of Morgannwg	540	1055	540	1055	516	2887.717	4	0	Avrupa	Birleşik Krallık	-3.266	51.611	Q13131807	gb_brythonic_k	(Brythonic Kingdoms)	atlasta-yok
 Dál Riata	540	899	540	899	360	59663.319	8	0	Avrupa	Birleşik Krallık	-4.249	57.167	Q111471	gb_dal_riata		aday
 Bavarians	540	787	540	787	248	122313.404	19	0	Avrupa	Almanya	12.971	47.498	Q13048507			atlasta-yok
-Early Lý Dynasty	546	601	546	601	56	92426.625	3	0	Asya	Vietnam	105.895	20.857	Q2441129			atlasta-yok
+Early Lý Dynasty	546	601	546	601	56	92426.625	3	0	Asya	Vietnam	105.895	20.857	Q2441129			kunye-var-noktasiz
 Classic Veracruz Culture	555	1235	555	1235	681	18503.863	4	0	K.Amerika	Meksika	-96.598	19.389	Q2379418			atlasta-yok
 Yenisei Kyrgyz	555	1219	555	1219	635	424096.473	9	0	Avrupa	Rusya	97.227	54.842	Q83142			aday
-Northern Qi	555	576	555	576	22	840989.547	3	0	Asya	Çin Halk Cumhuriyeti	115.912	35.694	Q1143524			atlasta-yok
+Northern Qi	555	576	555	576	22	840989.547	3	0	Asya	Çin Halk Cumhuriyeti	115.912	35.694	Q1143524			kunye-var-noktasiz
 Chalukya Dynasty	555	756	555	756	202	927787.079	12	0	Asya	Hindistan	77.901	18.349	Q1395011	in_badami_chalukya_emp		aday
 Chenla	555	717	555	717	163	427020.891	5	0	Asya	Kamboçya	105.317	13.060	Q1057118	kh_chenla	(Chenla)	aday
 Maukhari Dynasty	555	611	555	611	57	533392.729	2	0	Asya	Hindistan	84.165	25.422	Q12448145	in_maukhari_dyn		atlasta-yok
@@ -386,7 +386,7 @@ Galuh Kingdom	674	1481	674	1481	273	36212.315	5	0	Asya	Endonezya	108.347	-7.105	
 Unified Silla	682	935	682	935	254	149880.108	4	0	Asya	Güney Kore	127.467	37.151	Q715257			eslesen
 Principality of Iberia	682	740	682	740	59	34712.083	3	0	Asya	Gürcistan	43.930	42.125	Q199389			aday
 First Bulgarian Empire	682	1017	682	1017	336	428320.318	31	0	Avrupa	Romanya	24.217	44.478	Q203817	bg_bulgaria_early;bg_bulgaria_medieval		eslesen
-Türgesh	692	749	692	749	58	4040712.571	4	0	Asya	Moğolistan	96.288	45.549	Q1277895			atlasta-yok
+Türgesh	692	749	692	749	58	4040712.571	4	0	Asya	Moğolistan	96.288	45.549	Q1277895			kunye-var-noktasiz
 Cyprus Condominium	692	959	692	959	259	11437.483	3	0	Asya	Kıbrıs Cumhuriyeti	33.275	35.084	Q229			atlasta-yok
 Balhae	705	925	705	925	221	487475.061	6	0	Asya	Çin Halk Cumhuriyeti	128.992	42.948	Q28322	kr_balhae_k		aday
 Republic of Venice	705	1796	705	1796	1092	65311.951	69	0	Avrupa	İtalya	11.620	45.800	Q4948	it_venetian_rep_3;it_venetian_rep_4		eslesen
@@ -401,7 +401,7 @@ Kingdom of Asturias	724	925	724	925	202	128718.058	8	0	Avrupa	İspanya	-6.184	42
 Kingdom of Neustria	724	731	724	731	8	131302.502	1	0	Avrupa	Fransa	1.181	48.602	Q106577			aday
 Kannauj-Varman Dynasty	732	771	732	771	40	573391.176	4	0	Asya	Hindistan	79.326	28.171	Q614890	in_kannauj_varman_dyn		atlasta-yok
 Gurjara-Pratihara Dynasty	732	1039	732	1039	308	919186.723	22	0	Asya	Hindistan	76.969	24.782	Q5324	in_gurjara_pratihara_dyn		aday
-Mataram Kingdom	741	1009	741	1009	269	59609.690	2	0	Asya	Endonezya	111.304	-7.517	Q402580	id_medang_k		atlasta-yok
+Mataram Kingdom	741	1009	741	1009	269	59609.690	2	0	Asya	Endonezya	111.304	-7.517	Q402580	id_medang_k		kunye-var-noktasiz
 Nanzhao	741	910	741	910	170	792615.462	9	0	Asya	Çin Halk Cumhuriyeti	103.562	25.744	Q1045322	cn_nanzhao_k		eslesen
 Duchy of Croatia	741	925	741	925	141	21529.966	13	0	Avrupa	Hırvatistan	15.792	44.560	Q2576305	hr_croatia_k		atlasta-yok
 Oghuz Turks	750	1055	750	1055	306	466506.323	9	0	Asya	Özbekistan	57.461	44.981	Q2118293	kz_oghuz_state		atlasta-yok
@@ -439,7 +439,7 @@ Shirvan	825	1539	825	1539	510	113084.436	16	0	Asya	Azerbaycan	46.827	40.299	Q638
 Kingdom of Sobrarbe	825	829	825	829	5	3489.767	1	0	Avrupa	İspanya	-0.590	42.581	Q3572492			atlasta-yok
 Emirate of Crete	830	960	830	960	131	5498.973	2	0	Avrupa	Yunanistan	24.841	35.234	Q603771	gr_crete_emirate		atlasta-yok
 County of Aragon	830	921	830	921	92	3584.731	3	0	Avrupa	İspanya	-0.587	42.588	Q1235737			atlasta-yok
-Magyars	840	910	840	910	71	418271.988	10	0	Avrupa	Romanya	26.522	47.979	Q133032			atlasta-yok
+Magyars	840	910	840	910	71	418271.988	10	0	Avrupa	Romanya	26.522	47.979	Q133032			kunye-var-noktasiz
 Principality of Salerno	840	1084	840	1084	235	17791.023	8	0	Avrupa	İtalya	15.805	40.449	Q1065299			eslesen
 Principality of Capua	840	1065	840	1065	106	1154.105	7	0	Avrupa	İtalya	14.462	40.855	Q1280122			aday
 Kara-Khanids	850	1045	850	1045	196	1310698.375	10	0	Asya	Kırgızistan	74.824	41.235	Q494354	kg_kara_khanid_dyn		eslesen
@@ -450,13 +450,13 @@ Chola Empire	850	1259	850	1259	410	522021.376	27	0	Asya	Hindistan	78.364	13.259	
 Puebloans - Chaco Regional System	850	1151	850	1151	302	64974.318	3	0	K.Amerika	Amerika Birleşik Devletleri	-108.639	36.011	Q478805	us_chaco_1;us_chaco_2		aday
 East Franks	850	910	850	910	56	730939.262	13	0	Avrupa	Almanya	10.572	48.367	Q153080	de_east_francia	(Carolingian Empire)	eslesen
 Later Mayan City-States	850	1546	850	1546	697	187745.225	12	0	K.Amerika	Meksika	-89.269	18.910	Q28567	gt_tikal_early_postclassic;gt_tikal_terminal_classic		eslesen
-Tibetans	850	1259	850	1259	410	1865227.353	11	0	Asya	Çin Halk Cumhuriyeti	89.796	32.940	Q187985			atlasta-yok
+Tibetans	850	1259	850	1259	410	1865227.353	11	0	Asya	Çin Halk Cumhuriyeti	89.796	32.940	Q187985			kunye-var-noktasiz
 Emirate of Sicily	850	1093	850	1093	195	22527.576	9	0	Avrupa	İtalya	14.157	37.607	Q118780154			eslesen
 Lower Burgundy	860	925	860	925	45	209031.933	10	0	Avrupa	Fransa	5.907	47.981	Q33242			atlasta-yok
 Ganzhou Kingdom	860	1039	860	1039	180	233037.256	7	0	Asya	Çin Halk Cumhuriyeti	101.684	39.711	Q1000124	cn_ganzhou_k		atlasta-yok
 Saffarid Dynasty	860	899	860	899	40	2436281.399	11	0	Asya	Afganistan	62.519	32.469	Q45310	ir_saffarid_emp		eslesen
 Qocho Kingdom	860	1138	860	1138	279	653223.432	5	0	Asya	Çin Halk Cumhuriyeti	88.117	41.420	Q2662180	cn_qocho_k		eslesen
-Sind-Habbari Dynasty	860	1201	860	1201	342	229897.873	11	0	Asya	Pakistan	69.302	27.190	Q5636647	pk_sind_abbasid_fatimid		atlasta-yok
+Sind-Habbari Dynasty	860	1201	860	1201	342	229897.873	11	0	Asya	Pakistan	69.302	27.190	Q5636647	pk_sind_abbasid_fatimid		kunye-var-noktasiz
 Giudicato of Cagliari	866	1187	866	1187	322	10263.197	5	0	Avrupa	İtalya	9.098	39.483	Q2297073			atlasta-yok
 Ziyadid dynasty	866	1138	866	1138	267	215446.697	6	0	Asya	Yemen	44.953	15.060	Q207017	ye_ziyad_dyn		eslesen
 Giudicato of Gallura	866	1209	866	1209	344	4598.012	4	0	Avrupa	İtalya	9.462	40.765	Q2723760			atlasta-yok
@@ -485,29 +485,29 @@ County of Besalú	898	989	898	989	78	6360.507	6	0	Avrupa	İspanya	2.131	42.139	Q
 County of Berga	898	1235	898	1235	253	9010.246	17	0	Avrupa	İspanya	2.273	42.375	Q15487			atlasta-yok
 Nitra	898	910	898	910	13	26575.741	2	0	Avrupa	Slovakya	18.424	48.483	Q26397			aday
 County of Barcelona	898	1168	898	1168	259	19406.813	13	0	Avrupa	İspanya	1.727	41.728	Q7038			eslesen
-Qarmatians	899	1071	899	1071	173	64922.815	4	0	Asya	Birleşik Arap Emirlikleri	55.695	25.564	Q138803			atlasta-yok
+Qarmatians	899	1071	899	1071	173	64922.815	4	0	Asya	Birleşik Arap Emirlikleri	55.695	25.564	Q138803			kunye-var-noktasiz
 Kingdom of Alba	900	1293	900	1293	394	85304.368	9	0	Avrupa	Birleşik Krallık	-4.230	56.699	Q1991742	gb_alba_k		eslesen
-Principality of Hungary	900	999	900	999	100	280987.862	8	0	Avrupa	Macaristan	19.268	47.129	Q2899771	hu_hungary_principality		atlasta-yok
+Principality of Hungary	900	999	900	999	100	280987.862	8	0	Avrupa	Macaristan	19.268	47.129	Q2899771	hu_hungary_principality		kunye-var-noktasiz
 Chandra Dynasty	900	1055	900	1055	156	77249.534	3	0	Asya	Myanmar	92.891	21.408	Q5032034	bd_chandra_dyn		atlasta-yok
 Kingdom of Lower Burgundy	900	935	900	935	21	243469.917	2	0	Avrupa	İtalya	9.255	44.718	Q33242	fr_carolingian_emp_2	(Carolingian Empire)	atlasta-yok
 Yan Kingdom	911	921	911	921	11	63231.553	1	0	Asya	Çin Halk Cumhuriyeti	117.340	40.170	Q1291919	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	aday
 Min	911	946	911	946	36	121944.138	2	0	Asya	Çin Halk Cumhuriyeti	118.216	26.076	Q224634	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	aday
 Later Jin	911	946	911	946	22	790319.181	2	0	Asya	Çin Halk Cumhuriyeti	113.189	35.710	Q1154540	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	eslesen
-Southern Han	911	979	911	979	69	322736.846	4	0	Asya	Çin Halk Cumhuriyeti	111.138	22.436	Q1198071	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	atlasta-yok
+Southern Han	911	979	911	979	69	322736.846	4	0	Asya	Çin Halk Cumhuriyeti	111.138	22.436	Q1198071	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	kunye-var-noktasiz
 Fatimid Caliphate	911	1176	911	1176	266	1946635.574	19	0	Afrika	Mısır	29.036	29.322	Q160307	tn_fatimid_cal		eslesen
 (Five Dynasties and Ten Kingdoms)	911	979	911	979	69	2988519.085	7	1	Asya	Çin Halk Cumhuriyeti	112.220	31.157	Q242115	cn_five_dyn		aday
 Kingdom of León	911	1235	911	1235	215	192463.747	16	0	Avrupa	İspanya	-6.125	41.457	Q175276	es_leon_k		eslesen
 Liao Dynasty	911	1125	911	1125	215	1924515.846	9	0	Asya	Çin Halk Cumhuriyeti	116.479	43.577	Q4958	mn_khitan_1		aday
 Kingdom of Galicia	911	1125	911	1125	38	90285.929	4	0	Avrupa	Portekiz	-7.672	41.797	Q303421	es_galicia_k		aday
-Former Shu	911	925	911	925	15	605240.835	2	0	Asya	Çin Halk Cumhuriyeti	105.558	30.924	Q571453	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	atlasta-yok
+Former Shu	911	925	911	925	15	605240.835	2	0	Asya	Çin Halk Cumhuriyeti	105.558	30.924	Q571453	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	kunye-var-noktasiz
 Later Liang Dynasty	911	925	911	925	15	793831.938	2	0	Asya	Çin Halk Cumhuriyeti	114.012	35.428	Q783489	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	eslesen
 Kingdom of Germany	911	961	911	961	51	736896.547	7	0	Avrupa	Almanya	10.274	49.122	Q175211	de_east_francia;de_empire_1	(Holy Roman Empire)	eslesen
 Taebong	911	921	911	921	11	81790.010	1	0	Asya	Güney Kore	127.054	38.001	Q699871			aday
 Wuyue	911	979	911	979	69	124985.783	4	0	Asya	Çin Halk Cumhuriyeti	120.166	29.702	Q1193822	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	aday
 Kingdom of Vaspurakan	911	1027	911	1027	117	41809.724	6	0	Asya	Türkiye	43.656	38.630	Q5228183			eslesen
 Chimor	911	1187	911	1187	277	2660.600	2	0	G.Amerika	Peru	-79.137	-8.058	Q581741			aday
-Southern Chu	911	959	911	959	49	416708.560	3	0	Asya	Çin Halk Cumhuriyeti	111.099	26.840	Q1192347	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	atlasta-yok
-Southern Wu	911	959	911	959	49	495453.087	2	0	Asya	Çin Halk Cumhuriyeti	117.269	29.023	Q107994370	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	atlasta-yok
+Southern Chu	911	959	911	959	49	416708.560	3	0	Asya	Çin Halk Cumhuriyeti	111.099	26.840	Q1192347	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	kunye-var-noktasiz
+Southern Wu	911	959	911	959	49	495453.087	2	0	Asya	Çin Halk Cumhuriyeti	117.269	29.023	Q107994370	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	kunye-var-noktasiz
 Qi Kingdom	911	925	911	925	15	94436.278	2	0	Asya	Çin Halk Cumhuriyeti	106.449	36.411	Q1319681	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	atlasta-yok
 Early Balinese Kingdoms	922	1343	922	1343	337	7748.110	4	0	Asya	Endonezya	115.001	-8.361	Q12491027			aday
 Duchy of Normandy	922	1071	922	1071	150	39282.626	5	0	Avrupa	Fransa	0.101	49.104	Q842091	fr_capetian_k_1;gb_england_norman	(Kingdom of England);(Kingdom of France)	eslesen
@@ -527,7 +527,7 @@ Kingdom of Arles	936	1384	936	1384	449	117221.299	16	0	Avrupa	Fransa	6.126	45.60
 Hamdanid Emirates	936	1259	936	1259	324	1101466.219	23	0	Asya	Pakistan	64.968	29.057	Q837187			eslesen
 Kingdom of Denmark	936	1406	936	1406	433	164307.463	27	0	Avrupa	Almanya	9.323	54.696	Q756617	dk_danish_k	(Kingdom of Denmark)	eslesen
 Ziyarid dynasty	936	979	936	979	44	41017.481	2	0	Asya	İran	51.796	36.427	Q207044			atlasta-yok
-Later Shu	936	969	936	969	34	606098.935	3	0	Asya	Çin Halk Cumhuriyeti	105.561	30.930	Q526507	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	atlasta-yok
+Later Shu	936	969	936	969	34	606098.935	3	0	Asya	Çin Halk Cumhuriyeti	105.561	30.930	Q526507	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	kunye-var-noktasiz
 Buyid Dynasty	936	1055	936	1055	97	1309682.425	9	0	Asya	İran	49.446	32.596	Q12536	ir_buyid_confederation		eslesen
 Ngô Dynasty	947	1406	947	1406	460	152278.032	17	0	Asya	Vietnam	105.594	20.544	Q703919			eslesen
 Zagwe dynasty	947	1271	947	1271	325	14454.281	3	0	Afrika	Etiyopya	38.873	12.277	Q140446	et_zagwe		eslesen
@@ -538,8 +538,8 @@ Duchy of Brittany	947	1491	947	1491	516	37409.072	18	0	Avrupa	Fransa	-2.721	48.0
 Later Han	947	959	947	959	13	790319.181	1	0	Asya	Çin Halk Cumhuriyeti	113.189	35.710	Q957429	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	eslesen
 Chaulukya Dynasty	947	1249	947	1249	303	234888.750	7	0	Asya	Hindistan	71.286	23.646	Q18211496	in_chaulukya_dyn		eslesen
 Southern Tang	960	979	960	979	20	773925.500	2	0	Asya	Çin Halk Cumhuriyeti	113.831	27.226	Q1326742	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	aday
-Northern Han	960	979	960	979	20	26505.763	2	0	Asya	Çin Halk Cumhuriyeti	112.309	38.435	Q1141471	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	atlasta-yok
-Republic of Amalfi	960	1033	960	1033	74	96.361	2	0	Avrupa	İtalya	14.577	40.712	Q686312			atlasta-yok
+Northern Han	960	979	960	979	20	26505.763	2	0	Asya	Çin Halk Cumhuriyeti	112.309	38.435	Q1141471	cn_five_dyn	(Five Dynasties and Ten Kingdoms)	kunye-var-noktasiz
+Republic of Amalfi	960	1033	960	1033	74	96.361	2	0	Avrupa	İtalya	14.577	40.712	Q686312			kunye-var-noktasiz
 Chandela Kingdom	960	1313	960	1313	354	80562.877	9	0	Asya	Hindistan	80.666	24.645	Q2039087	in_chandela_k		aday
 Utpala Dynasty	960	1002	960	1002	43	174992.748	3	0	Asya	Pakistan	74.449	35.981	Q1617123	in_utpala_dyn		aday
 Kingdom of Castile	961	1235	961	1235	250	257217.725	18	0	Avrupa	İspanya	-5.464	41.611	Q179293	es_castile_k		eslesen
@@ -556,8 +556,8 @@ County of Toulouse	990	1249	990	1249	247	52886.979	12	0	Avrupa	Fransa	2.487	43.8
 County of Blôis	990	1401	990	1401	412	38821.416	20	0	Avrupa	Fransa	4.277	48.615	Q19336869	fr_capetian_k_1;fr_capetian_k_2;fr_valois_k_1	(Kingdom of France)	atlasta-yok
 County of Vexin	990	1084	990	1084	95	4129.590	2	0	Avrupa	Fransa	1.795	48.868	Q1476089	fr_capetian_k_1	(Kingdom of France)	atlasta-yok
 County of Flanders	990	1384	990	1384	395	36834.333	13	0	Avrupa	Fransa	2.797	50.154	Q157070	fr_capetian_k_1;fr_capetian_k_2;fr_valois_k_1	(Kingdom of France)	eslesen
-Western Xia	990	1226	990	1226	237	474373.544	8	0	Asya	Çin Halk Cumhuriyeti	103.448	39.942	Q7427	cn_xixia		atlasta-yok
-Seljuk Dynasty	990	1039	990	1039	50	822985.915	3	0	Asya	Türkmenistan	60.711	40.577	Q3708255			atlasta-yok
+Western Xia	990	1226	990	1226	237	474373.544	8	0	Asya	Çin Halk Cumhuriyeti	103.448	39.942	Q7427	cn_xixia		kunye-var-noktasiz
+Seljuk Dynasty	990	1039	990	1039	50	822985.915	3	0	Asya	Türkmenistan	60.711	40.577	Q3708255			kunye-var-noktasiz
 County of Maine	990	1481	990	1481	143	13552.731	5	0	Avrupa	Fransa	-0.005	47.890	Q732738	fr_capetian_k_1;fr_valois_k_1;fr_valois_k_2;gb_england_norman	(Kingdom of England);(Kingdom of France)	aday
 County of Vermandois	990	1215	990	1215	207	19509.560	5	0	Avrupa	Fransa	2.802	49.650	Q26385	fr_capetian_k_1;fr_capetian_k_2	(Kingdom of France)	atlasta-yok
 County of Rouergue	990	1065	990	1065	76	27862.094	2	0	Avrupa	Fransa	3.075	43.836	Q590016	fr_capetian_k_1	(Kingdom of France)	atlasta-yok
@@ -590,7 +590,7 @@ Taifa of Morón	1015	1065	1015	1065	51	1288.091	2	0	Avrupa	İspanya	-5.543	37.04
 Taifa of Saltés and Huelva	1015	1151	1015	1151	46	4444.934	4	0	Avrupa	İspanya	-7.215	37.468	Q2081763	es_taifas	(Taifas of Iberia)	atlasta-yok
 Taifa of Niebla	1015	1249	1015	1249	50	1553.706	5	0	Avrupa	İspanya	-6.681	37.647	Q2668600	es_taifas	(Taifas of Iberia)	atlasta-yok
 Taifa of Murcia	1015	1249	1015	1249	82	77868.832	7	0	Avrupa	İspanya	-1.354	39.126	Q921067	es_taifas	(Taifas of Iberia)	eslesen
-Kingdom of Aragon	1015	1168	1015	1168	142	100638.029	9	0	Avrupa	İspanya	-2.046	42.070	Q199442	es_aragon_k		atlasta-yok
+Kingdom of Aragon	1015	1168	1015	1168	142	100638.029	9	0	Avrupa	İspanya	-2.046	42.070	Q199442	es_aragon_k		kunye-var-noktasiz
 Taifa of Carmona	1015	1151	1015	1151	62	11286.040	4	0	Avrupa	İspanya	-5.166	37.483	Q2668584	es_taifas	(Taifas of Iberia)	aday
 Taifa of Granada	1015	1093	1015	1093	79	24628.551	4	0	Avrupa	İspanya	-3.668	37.564	Q205708	es_taifas	(Taifas of Iberia)	eslesen
 Taifa of Santa Maria do Algarve	1018	1055	1018	1055	38	2251.564	2	0	Avrupa	Portekiz	-7.809	37.212	Q2077765	es_taifas	(Taifas of Iberia)	atlasta-yok
@@ -634,7 +634,7 @@ Sena Dynasty	1072	1235	1072	1235	164	257822.455	8	0	Asya	Bangladeş	89.106	23.91
 Uyunid Emirate	1072	1235	1072	1235	164	73691.590	3	0	Asya	Katar	51.287	25.652	Q1448688			aday
 Norman England	1072	1168	1072	1168	97	199096.497	6	0	Avrupa	Birleşik Krallık	-1.867	52.553	Q200485	gb_england_norman;gb_england_plantagenet	(Kingdom of England)	eslesen
 Kingdom of Polonnaruwa	1072	1259	1072	1259	188	73513.679	2	0	Asya	Sri Lanka	80.663	7.613	Q3167772	sl_polonnaruva		eslesen
-Empire of Kanem	1072	1384	1072	1384	313	20167.437	2	0	Afrika	Çad	15.925	11.980	Q1139762	td_kanem		atlasta-yok
+Empire of Kanem	1072	1384	1072	1384	313	20167.437	2	0	Afrika	Çad	15.925	11.980	Q1139762	td_kanem		kunye-var-noktasiz
 Kingdom of Duklja	1072	1138	1072	1138	67	49994.266	4	0	Avrupa	Bosna-Hersek	18.901	43.560	Q1252942			aday
 Norse Greenland	1072	1384	1072	1384	222	26128.271	3	0	K.Amerika	Grönland	-50.691	64.362	Q582948			aday
 Gahadavala Dynasty	1085	1201	1085	1201	117	217539.122	3	0	Asya	Hindistan	81.765	27.006	Q1147823	in_gahadavala_dyn		aday
@@ -663,7 +663,7 @@ Great Jin	1126	1235	1126	1235	110	2118395.688	5	0	Asya	Çin Halk Cumhuriyeti	121
 Angevins	1126	1146	1126	1146	21	26690.183	2	0	Avrupa	Fransa	-0.035	47.561	Q81133615	fr_capetian_k_1	(Kingdom of France)	eslesen
 (Duchies of Poland)	1139	1304	1139	1304	166	224807.112	20	1	Avrupa	Polonya	19.019	51.824	Q2984183	pl_piast_dyn_2		eslesen
 Duchy of Silesia	1139	1304	1139	1304	144	121796.313	14	0	Avrupa	Polonya	18.290	51.625	Q568638	pl_piast_dyn_2	(Duchies of Poland)	eslesen
-Southern Song	1139	1278	1139	1278	140	2057331.508	5	0	Asya	Çin Halk Cumhuriyeti	111.790	28.602	Q7462	cn_southern_song_dyn		atlasta-yok
+Southern Song	1139	1278	1139	1278	140	2057331.508	5	0	Asya	Çin Halk Cumhuriyeti	111.790	28.602	Q7462	cn_southern_song_dyn		kunye-var-noktasiz
 County of Portugal	1139	1146	1139	1146	8	46122.939	1	0	Avrupa	Portekiz	-7.811	40.830	Q1139807			atlasta-yok
 Zengid dynasty	1139	1259	1139	1259	111	1162883.079	9	0	Afrika	Libya	23.776	31.290	Q189545			eslesen
 Kingdom of Navarre	1139	1428	1139	1428	242	22184.668	6	0	Avrupa	İspanya	-2.064	42.772	Q200262			eslesen
@@ -715,7 +715,7 @@ Khwarezmid Empire	1202	1235	1202	1235	34	4017837.314	6	0	Asya	İran	60.810	35.28
 Namayan	1202	1571	1202	1571	370	1127.720	4	0	Asya	Filipinler	121.108	14.476	Q4401026			atlasta-yok
 Despotate of Epirus	1206	1481	1206	1481	235	108524.552	21	0	Avrupa	Yunanistan	21.952	40.485	Q187684	gr_epirus_despot		aday
 Latin Empire	1206	1278	1206	1278	73	92635.082	7	0	Asya	Türkiye	26.522	41.163	Q178897	tr_latin_emp		eslesen
-Negroponte	1206	1209	1206	1209	4	2178.278	1	0	Avrupa	Yunanistan	23.881	38.542	Q247067			atlasta-yok
+Negroponte	1206	1209	1206	1209	4	2178.278	1	0	Avrupa	Yunanistan	23.881	38.542	Q247067			kunye-var-noktasiz
 Mongol Empire	1206	1293	1206	1293	88	27426422.439	12	0	Asya	Çin Halk Cumhuriyeti	83.441	44.549	Q12557	mn_mongol_emp		eslesen
 County of Armagnac	1206	1496	1206	1496	279	23633.052	11	0	Avrupa	Fransa	1.548	44.105	Q676745	fr_capetian_k_2;fr_valois_k_1;fr_valois_k_2	(Kingdom of France)	aday
 County of Périgord	1206	1481	1206	1481	216	18222.958	7	0	Avrupa	Fransa	1.156	45.090	Q1947408	fr_capetian_k_2;fr_valois_k_1;fr_valois_k_2	(Kingdom of France)	aday
@@ -820,7 +820,7 @@ Michoacán	1305	1533	1305	1533	229	74593.152	12	0	K.Amerika	Meksika	-101.986	19.
 Kastamonu	1305	1343	1305	1343	39	33574.606	3	0	Asya	Türkiye	34.566	41.273	Q155915			aday
 Beylik of Menteshe	1305	1414	1305	1414	110	5885.788	2	0	Asya	Türkiye	28.103	37.262	Q1400572			eslesen
 Beylik of Isfendiyar	1305	1462	1305	1462	158	49106.432	9	0	Asya	Türkiye	34.098	41.189	Q2096678	tr_candar_bey		eslesen
-Ahi Republic	1305	1362	1305	1362	58	4421.306	2	0	Asya	Türkiye	32.320	39.645	Q400290			atlasta-yok
+Ahi Republic	1305	1362	1305	1362	58	4421.306	2	0	Asya	Türkiye	32.320	39.645	Q400290			kunye-var-noktasiz
 Ottoman Empire	1305	1923	1305	1923	619	4255187.419	132	0	Asya	Irak	45.174	33.900	Q12560	tr_ottoman_emirate;tr_ottoman_emp_1;tr_ottoman_emp_2;tr_ottoman_emp_3;tr_ottoman_emp_4		eslesen
 Beylik of Karaman	1305	1467	1305	1467	163	100290.699	12	0	Asya	Türkiye	33.179	38.136	Q1469100	tr_karaman_bey		eslesen
 Principality of Wallachia	1314	1858	1314	1858	520	74679.744	22	0	Avrupa	Romanya	25.197	44.660	Q171393	ro_wallachia_principality_1;ro_wallachia_principality_2;ro_wallachia_principality_3		eslesen
@@ -963,7 +963,7 @@ Funj Sultanate	1507	1821	1507	1821	315	630270.690	7	0	Afrika	Sudan	32.096	14.223
 Portuguese Africa	1507	1581	1507	1581	75	35684.771	5	0	Afrika	Angola	13.244	-8.970	Q16879646	pt_portuguese_emp_1	(Portuguese Empire)	aday
 Sultanate of Gowa	1512	1669	1512	1669	158	2613.027	2	0	Asya	Endonezya	119.428	-5.245	Q1408641			eslesen
 Khanate of Khiva	1512	1919	1512	1919	363	848278.547	17	0	Asya	Türkmenistan	60.185	40.957	Q491106			eslesen
-Sultanate of Bone	1512	1858	1512	1858	347	2155.129	3	0	Asya	Endonezya	120.101	-4.966	Q43292			atlasta-yok
+Sultanate of Bone	1512	1858	1512	1858	347	2155.129	3	0	Asya	Endonezya	120.101	-4.966	Q43292			kunye-var-noktasiz
 Spanish Empire	1516	1879	1516	1879	358	11353698.705	76	0	G.Amerika	Peru	-75.349	-4.208	Q80702	es_spanish_emp_1;es_spanish_emp_2;es_spanish_emp_3	(Spanish Empire)	eslesen
 Sultanate of Aceh	1516	1959	1516	1959	409	127447.066	16	0	Asya	Endonezya	99.326	2.955	Q1061057			eslesen
 Kingdom of Spain	1516	2024	1516	2024	403	1294162.239	63	0	Avrupa	İspanya	-3.596	40.426	Q29	es_spanish_emp_1;es_spanish_emp_2;es_spanish_emp_3	(Spanish Empire)	eslesen
@@ -1111,7 +1111,7 @@ Kelantan	1762	1904	1762	1904	143	8555.389	3	0	Asya	Malezya	102.042	5.468	Q185944
 Kingdom of Naples (Napoleonic)	1762	1814	1762	1814	53	92353.875	7	0	Avrupa	İtalya	16.018	40.074	Q48779892			eslesen
 Sikh Confederacy	1762	1806	1762	1806	39	63121.798	7	0	Asya	Pakistan	73.987	31.984	Q2578028			aday
 Thonburi Kingdom	1769	1782	1769	1782	14	360015.411	3	0	Asya	Tayland	100.446	13.952	Q1115291			eslesen
-Pontianak Kadriyah Sultanate	1772	1827	1772	1827	56	4060.684	2	0	Asya	Endonezya	109.248	-0.372	Q3048747			atlasta-yok
+Pontianak Kadriyah Sultanate	1772	1827	1772	1827	56	4060.684	2	0	Asya	Endonezya	109.248	-0.372	Q3048747			kunye-var-noktasiz
 Tây Sơn dynasty	1775	1802	1775	1802	28	213886.976	10	0	Asya	Vietnam	105.898	18.169	Q1034173			eslesen
 Negeri Sembilan	1775	1894	1775	1894	120	5899.955	4	0	Asya	Malezya	102.210	2.623	Q213893			aday
 Chiangmai	1775	1884	1775	1884	110	65305.701	4	0	Asya	Tayland	99.525	19.501	Q52028			aday
@@ -1139,7 +1139,7 @@ French Directory	1796	1799	1796	1799	4	752852.857	3	0	Avrupa	Fransa	2.978	46.994
 Ligurian Republic	1797	1814	1797	1814	6	3461.332	4	0	Avrupa	İtalya	9.290	44.417	Q659312			eslesen
 Grand Duchy of Tuscany	1797	1848	1797	1848	50	24632.452	6	0	Avrupa	İtalya	11.298	43.472	Q154849			aday
 Cisalpine Republic	1797	1799	1797	1799	3	42058.934	2	0	Avrupa	İtalya	10.623	45.178	Q213353			eslesen
-Republic of San Marino	1797	1799	1797	1799	3	47.017	2	0	Avrupa	İtalya	12.591	43.766	Q238			atlasta-yok
+Republic of San Marino	1797	1799	1797	1799	3	47.017	2	0	Avrupa	İtalya	12.591	43.766	Q238			kunye-var-noktasiz
 Helvetic Republic	1799	1814	1799	1814	16	40154.010	6	0	Avrupa	İsviçre	8.223	46.808	Q206696			eslesen
 Revolutionary Roman Republic	1799	1799	1799	1799	1	30083.917	1	0	Avrupa	İtalya	12.826	42.538	Q175881			eslesen
 Sikh Empire	1799	1848	1799	1848	50	397813.256	15	0	Asya	Pakistan	73.954	32.609	Q83572			eslesen
@@ -1153,7 +1153,7 @@ Napoleonic Batavia Republic	1803	1805	1803	1805	3	278664.776	2	0	Afrika	Güney A
 Electorate of Württemberg	1803	1805	1803	1805	3	10032.319	2	0	Avrupa	Almanya	9.049	48.725	Q2172530			eslesen
 Kingdom of Hanover	1803	1865	1803	1865	28	38487.504	5	0	Avrupa	Almanya	9.016	52.904	Q164079			eslesen
 Electorate of Hesse	1803	1867	1803	1867	57	13814.745	7	0	Avrupa	Almanya	9.154	50.867	Q529605			eslesen
-Electorate of Salzburg	1803	1805	1803	1805	3	8668.807	2	0	Avrupa	Avusturya	12.982	47.406	Q646390			atlasta-yok
+Electorate of Salzburg	1803	1805	1803	1805	3	8668.807	2	0	Avrupa	Avusturya	12.982	47.406	Q646390			kunye-var-noktasiz
 Kingdom of Etruria	1803	1806	1803	1806	4	23127.455	2	0	Avrupa	İtalya	11.316	43.444	Q223793			eslesen
 Electorate of Baden	1803	1805	1803	1805	3	7390.921	2	0	Avrupa	Almanya	8.077	48.464	Q637238			eslesen
 Italian Republic	1803	1813	1803	1813	11	84880.916	6	0	Avrupa	İtalya	11.173	45.400	Q38			eslesen
@@ -1168,7 +1168,7 @@ Duchy of Nassau	1806	1865	1806	1865	60	16877.334	8	0	Avrupa	Almanya	7.386	51.300
 Saxe-Altenburg	1806	1870	1806	1870	65	3191.500	11	0	Avrupa	Almanya	11.938	51.025	Q158151			aday
 Grand Duchy of Baden	1806	1870	1806	1870	61	14354.059	7	0	Avrupa	Almanya	7.953	48.494	Q186320			eslesen
 Austrian Empire	1806	1867	1806	1867	62	810554.335	22	0	Avrupa	Macaristan	19.457	47.248	Q131964	at_habsburg_2		eslesen
-Free City of Bremen	1806	1870	1806	1870	58	516.942	5	0	Avrupa	Almanya	8.588	53.017	Q474779			atlasta-yok
+Free City of Bremen	1806	1870	1806	1870	58	516.942	5	0	Avrupa	Almanya	8.588	53.017	Q474779			kunye-var-noktasiz
 Duchy of Oldenburg	1806	1870	1806	1870	62	4895.268	8	0	Avrupa	Almanya	8.043	53.209	Q697084			atlasta-yok
 Free City of Lübeck	1806	1870	1806	1870	65	2754.297	5	0	Avrupa	Almanya	13.118	53.542	Q950240			eslesen
 Principality of Regensberg	1806	1813	1806	1813	8	6178.646	4	0	Avrupa	Almanya	9.851	49.926	Q701969			aday
@@ -1182,7 +1182,7 @@ Duchy of Mecklenburg	1806	1870	1806	1870	65	11340.566	11	0	Avrupa	Almanya	11.928
 Grand Duchy of Hesse	1806	1870	1806	1870	63	20167.283	11	0	Avrupa	Almanya	8.629	50.937	Q20135			eslesen
 Grand Duchy of Saxe-Weimar-Eisenach	1806	1870	1806	1870	65	4139.675	10	0	Avrupa	Almanya	11.397	50.963	Q155570			aday
 Principality of Hohenzollern-Sigmaringen	1806	1852	1806	1852	47	1309.567	3	0	Avrupa	Almanya	9.110	48.244	Q157013			atlasta-yok
-Duchy of Anhalt	1806	1870	1806	1870	65	1989.715	8	0	Avrupa	Almanya	12.014	51.659	Q16550783			atlasta-yok
+Duchy of Anhalt	1806	1870	1806	1870	65	1989.715	8	0	Avrupa	Almanya	12.014	51.659	Q16550783			kunye-var-noktasiz
 Kingdom of Saxony	1806	1870	1806	1870	58	34052.724	8	0	Avrupa	Almanya	13.267	51.319	Q153015			aday
 Grand Duchy of Berg	1806	1827	1806	1827	22	102879.432	8	0	Avrupa	Almanya	7.189	49.540	Q249428			eslesen
 Duchy of Warsaw	1809	1813	1809	1813	5	147013.950	3	0	Avrupa	Polonya	20.206	52.030	Q152115			eslesen
@@ -1266,7 +1266,7 @@ Republic of Nicaragua	1840	2024	1840	2024	184	132579.558	10	0	K.Amerika	Nikaragu
 Republic of El Salvador	1840	2024	1840	2024	172	21707.778	3	0	K.Amerika	El Salvador	-88.846	13.714	Q792			eslesen
 Los Altos	1840	1841	1840	1841	2	35592.797	1	0	K.Amerika	Guatemala	-91.556	15.292	Q738264			atlasta-yok
 Kingdom of Sarawak	1842	1946	1842	1946	54	128405.699	7	0	Asya	Malezya	113.186	2.578	Q1658411			eslesen
-Kedah-Perlis District	1842	1910	1842	1910	69	2093.578	2	0	Asya	Malezya	100.218	6.433	Q213467			atlasta-yok
+Kedah-Perlis District	1842	1910	1842	1910	69	2093.578	2	0	Asya	Malezya	100.218	6.433	Q213467			kunye-var-noktasiz
 Kashmir and Jammu	1846	1947	1846	1947	40	182006.452	7	0	Asya	Pakistan	75.673	34.555	Q2571484			eslesen
 Dominican Republic	1846	2024	1846	2024	167	52641.012	4	0	K.Amerika	Dominik Cumhuriyeti	-70.418	18.906	Q786			eslesen
 California Republic	1846	1847	1846	1847	2	15546.475	1	0	K.Amerika	Amerika Birleşik Devletleri	-122.255	37.618	Q17557			aday
@@ -1483,7 +1483,7 @@ People's Democratic Republic of Algeria	1963	2024	1963	2024	62	2323774.777	3	0	A
 Ba'athist Syria	1963	1966	1963	1966	4	187923.453	1	0	Asya	Suriye	38.548	35.022	Q858	sy_syria_modern		eslesen
 Malaysia	1963	2024	1963	2024	62	347799.289	4	0	Asya	Malezya	114.670	3.640	Q833			eslesen
 Republic of Uganda	1963	2024	1963	2024	62	210011.572	2	0	Afrika	Uganda	32.213	1.527	Q1036			eslesen
-Republic of Burundi	1963	2024	1963	2024	62	24739.696	2	0	Afrika	Burundi	29.832	-3.307	Q967			atlasta-yok
+Republic of Burundi	1963	2024	1963	2024	62	24739.696	2	0	Afrika	Burundi	29.832	-3.307	Q967			kunye-var-noktasiz
 Sultanate of Zanzibar	1963	1966	1963	1966	4	4244.908	1	0	Afrika	Tanzanya	39.262	-6.124	Q157904			atlasta-yok
 Malawi	1967	2024	1967	2024	58	93030.958	3	0	Afrika	Malavi	34.171	-13.654	Q1020			eslesen
 Federated Republic of Brazil	1967	1986	1967	1986	20	8530587.425	2	0	G.Amerika	Brezilya	-53.133	-10.819	Q155			eslesen
@@ -1497,8 +1497,8 @@ Rhodesia	1967	1978	1967	1978	12	392764.790	2	0	Afrika	Zimbabve	29.768	-19.014	Q2
 Malta	1967	2024	1967	2024	58	474.701	2	0	Avrupa	Malta	14.453	35.908	Q233			eslesen
 Greek junta	1967	1975	1967	1975	9	123711.200	2	0	Avrupa	Yunanistan	22.581	39.489	Q504081			eslesen
 Republic of Singapore	1967	2024	1967	2024	58	691.004	2	0	Asya	Singapur	103.757	1.352	Q334			eslesen
-Saint Kitts	1967	2024	1967	2024	58	501.292	2	0	K.Amerika	ABD Virjin Adaları	-64.757	17.750	Q204989			atlasta-yok
-Antigua and Barbuda	1967	2024	1967	2024	58	586.276	2	0	K.Amerika	Antigua ve Barbuda	-61.729	17.074	Q781			atlasta-yok
+Saint Kitts	1967	2024	1967	2024	58	501.292	2	0	K.Amerika	ABD Virjin Adaları	-64.757	17.750	Q204989			kunye-var-noktasiz
+Antigua and Barbuda	1967	2024	1967	2024	58	586.276	2	0	K.Amerika	Antigua ve Barbuda	-61.729	17.074	Q781			kunye-var-noktasiz
 Republic of Botswana	1967	2024	1967	2024	58	577461.067	3	0	Afrika	Botsvana	23.714	-22.216	Q963			eslesen
 Libyan Arab Republic	1969	2013	1969	2013	45	1614069.742	4	0	Afrika	Libya	18.058	27.021	Q17435890			eslesen
 Mauritius	1969	2024	1969	2024	56	2480.254	2	0	?	Mauritius	57.450	-20.286	Q1027			eslesen
