@@ -2,7 +2,7 @@
 
 > Bu dosyayı `arac/kaynak_guven.py` ÜRETİR — elle düzenleme. Yeniden: `py arac/kaynak_guven.py`.
 
-- **Ölçüldüğü taban commit:** `212fdfb822d90582daef6232a9a392b6f25eebb3` + çalışma ağacındaki değişiklikler (M arac/kaynak_guven.py, M data/kaynak_guven.js)
+- **Ölçüldüğü taban commit:** `8cef8be5c98de2d11537a640bf3d19268e540df2` + çalışma ağacındaki değişiklikler (M data/kronoloji_sinir_halef_1923_2000.js, M data/kronoloji_sinir_nokta2.js, M data/kronoloji_sinir_nokta3.js, M data/olaylar_ek12.js)
 - **Tablo:** `data/kaynak_guven.js` · 138 girdi · sha256[:12] `5cb233561704`
 - **Evren:** index.html → `arac/paket_coz.py` → 187 `olaylar*/kronoloji*` dosyası (10542 madde) + `data/devletler.js` (1800 künye, 12253 künye-kronoloji maddesi); yükleme `arac/silsile_yukle.js` (node vm).
 - **Parçalama = site:** `js/app.js` `kaynakcaParcala` node'da koşturuldu, 15682 farklı kaynak dizgesinde Python bölmesiyle kıyaslandı → **0 fark**.
@@ -11,14 +11,14 @@
 
 | damga | dosya kronolojileri | künye kronolojileri | künye `kaynak` alanı |
 |---|---:|---:|---:|
-| `guvenli` | 7277 | 2918 | 753 |
-| `ikincil` | 964 | 3417 | 540 |
+| `guvenli` | 7288 | 2918 | 753 |
+| `ikincil` | 970 | 3417 | 540 |
 | `taninmayan` | 952 | 1678 | 211 |
-| `guvensiz` | 597 | 2088 | 26 |
+| `guvensiz` | 580 | 2088 | 26 |
 | `bulunamadi` | 739 | 177 | 270 |
 | `bos` | 13 | 1975 | 0 |
 | **toplam** | 10542 | 12253 | 1800 |
-| ↳ `guvensiz` alt neden C | 41 | 2081 | 24 |
+| ↳ `guvensiz` alt neden C | 24 | 2081 | 24 |
 | ↳ `guvensiz` alt neden `adsiz` | 556 | 7 | 2 |
 
 - `guvenli` — En az bir A parçası.
@@ -32,11 +32,11 @@
 
 ## 2. Parça düzeyi
 
-Parça kademeleri: A 13276 · B 6398 · C 4910 · K 214 · N 1335 · TANINMAYAN 6645 · Y 720
+Parça kademeleri: A 13288 · B 6405 · C 4910 · K 217 · N 1335 · TANINMAYAN 6645 · Y 720
 
 KARIŞIK parça (aynı parçada C ve A/B → C sayıldı): **173** — `karisik_parca.tsv`.
 
-En sık eşleşen tablo kodları: TDV 9634 · VIKIPEDI 3187 · BRITANNICA 2630 · NOT 2316 · AKADEMIK-ESER 1222 · POPULER-TARIH 609 · COUNTRYSTUDIES 511 · HISTORY-STATE 509 · IRANICA 475 · EL-KITABI 407 · CAMBRIDGE 400 · UNIV-YAYIN-KISALTMA 363 · UNIV-YAYIN 346 · WORLDHISTORY 344 · RESMI-SITE 341 · UN 337 · UNIV-SITE 334 · ADSIZ 316 · PDF-KAYNAK 307 · ENCYCLOPEDIA-COM 283 · SECKIN-KURUM 275 · MUZE 266 · HABER 264 · EBSCO-RS 229 · WW1-ONLINE 165 · GLOBALSECURITY 163 · LIVIUS 162 · TRECCANI 142 · WORLDSTATESMEN 116 · GEC 108 · ENC-REGIONAL 105 · HAKEMLI-DERGI 103 · MEVZUAT 98 · KUREANS 97 · SAHO 96 · UN-BELGE 82 · ARCHONTOLOGY 77 · NDB 72 · OXFORD 70 · AVALON 70
+En sık eşleşen tablo kodları: TDV 9635 · VIKIPEDI 3187 · BRITANNICA 2635 · NOT 2316 · AKADEMIK-ESER 1222 · POPULER-TARIH 609 · HISTORY-STATE 511 · COUNTRYSTUDIES 511 · IRANICA 475 · EL-KITABI 407 · CAMBRIDGE 400 · UNIV-YAYIN-KISALTMA 363 · UNIV-YAYIN 346 · WORLDHISTORY 344 · RESMI-SITE 341 · UN 338 · UNIV-SITE 334 · ADSIZ 316 · PDF-KAYNAK 308 · ENCYCLOPEDIA-COM 283 · SECKIN-KURUM 275 · MUZE 266 · HABER 264 · EBSCO-RS 229 · WW1-ONLINE 165 · GLOBALSECURITY 163 · LIVIUS 162 · TRECCANI 142 · WORLDSTATESMEN 116 · GEC 108 · HAKEMLI-DERGI 106 · ENC-REGIONAL 105 · MEVZUAT 98 · SAHO 97 · KUREANS 97 · UN-BELGE 83 · ARCHONTOLOGY 77 · NDB 75 · OXFORD 70 · AVALON 70
 
 ### En sık 30 tanınmayan parça (5525 ayrı parça; tamamı ilk 300 `taninmayan_parca.tsv`)
 
@@ -81,15 +81,15 @@ blackpast.org 14 · east.library.utoronto.ca 8 · al-bab.com 7 · talvisota.fi 6
 
 Yöntem: `arac/denetle.py` içe aktarıldı; `degismez2`, `kapsam_disi`, `yil_temsili_ayir` denetle'nin ana akışındaki gibi çağrıldı (çekirdek yerleşimler = `KUYRUK_DOSYALARI` hariç). Madde evreni = `denetle.olaylari_yukle()` (disk glob: `olaylar*.js` + `kronoloji_sinir*.js`), 2697 madde / 89 dosya; birebir aynı kurulduğu doğrulandı. Süzülmüş evrende AÇIK olup tam evrende AÇIK olmayan kırılma = ±30 gün tanıkları YALNIZ süzülen maddeler olan kırılma.
 
-D2 evreninde damga: bos 13 · bulunamadi 70 · guvenli 2032 · guvensiz 39 · ikincil 273 · taninmayan 270
+D2 evreninde damga: bos 13 · bulunamadi 70 · guvenli 2043 · guvensiz 22 · ikincil 279 · taninmayan 270
 
 Taban (tam evren): 2 → 642 kırılma / 0 açık · 2s → 2208 kırılma / 1264 ham açık / 189 AÇIK · 2i → 213 kırılma / 1 açık
 
 | senaryo (gizlenen damgalar) | gizlenen madde | 2 yeni açık | 2s yeni ham açık | 2s yeni AÇIK (kapsam içi, gün hassas) | 2i yeni açık |
 |---|---:|---:|---:|---:|---:|
-| S1-guvensiz | 39 | 0 | 22 | 12 | 0 |
-| S2-guvensiz+bos+bulunamadi | 122 | 3 | 68 | 52 | 1 |
-| S3-yalniz-AB-kalir | 392 | 13 | 170 | 123 | 2 |
+| S1-guvensiz | 22 | 0 | 5 | 3 | 0 |
+| S2-guvensiz+bos+bulunamadi | 105 | 3 | 51 | 43 | 1 |
+| S3-yalniz-AB-kalir | 375 | 13 | 153 | 114 | 2 |
 
 Liste: `d2_yalniz_suzulen_tanikli.tsv` (senaryo, değişmez, tarih, yerleşimler, devlet eski→yeni, tanık maddeler, tanık kaynakları). Teyit kampanyasında İLK sıra S1 satırlarıdır.
 

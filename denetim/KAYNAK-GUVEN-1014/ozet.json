@@ -1,10 +1,12 @@
 {
  "surum": "KAYNAK-GUVEN-1014",
- "taban_commit": "212fdfb822d90582daef6232a9a392b6f25eebb3",
+ "taban_commit": "8cef8be5c98de2d11537a640bf3d19268e540df2",
  "calisma_agaci_kirli": true,
  "kirli_dosyalar": [
-  "M arac/kaynak_guven.py",
-  " M data/kaynak_guven.js"
+  "M data/kronoloji_sinir_halef_1923_2000.js",
+  " M data/kronoloji_sinir_nokta2.js",
+  " M data/kronoloji_sinir_nokta3.js",
+  " M data/olaylar_ek12.js"
  ],
  "tablo_sha256_12": "5cb233561704",
  "tablo_girdi": 138,
@@ -16,10 +18,10 @@
  },
  "damga": {
   "dosya": {
-   "guvenli": 7277,
-   "ikincil": 964,
+   "guvenli": 7288,
+   "ikincil": 970,
    "taninmayan": 952,
-   "guvensiz": 597,
+   "guvensiz": 580,
    "bulunamadi": 739,
    "bos": 13
   },
@@ -46,7 +48,7 @@
  },
  "guvensiz_alt": {
   "dosya": {
-   "C": 41,
+   "C": 24,
    "adsiz": 556
   },
   "kunye_kronoloji": {
@@ -71,24 +73,24 @@
   }
  },
  "parca_kademe": {
-  "A": 13276,
+  "A": 13288,
   "TANINMAYAN": 6645,
   "N": 1335,
-  "B": 6398,
+  "B": 6405,
   "C": 4910,
-  "K": 214,
+  "K": 217,
   "Y": 720
  },
  "parca_karisik": 173,
  "kod_say": {
-  "TDV": 9634,
+  "TDV": 9635,
   "VIKIPEDI": 3187,
-  "BRITANNICA": 2630,
+  "BRITANNICA": 2635,
   "NOT": 2316,
   "AKADEMIK-ESER": 1222,
   "POPULER-TARIH": 609,
+  "HISTORY-STATE": 511,
   "COUNTRYSTUDIES": 511,
-  "HISTORY-STATE": 509,
   "IRANICA": 475,
   "EL-KITABI": 407,
   "CAMBRIDGE": 400,
@@ -96,10 +98,10 @@
   "UNIV-YAYIN": 346,
   "WORLDHISTORY": 344,
   "RESMI-SITE": 341,
-  "UN": 337,
+  "UN": 338,
   "UNIV-SITE": 334,
   "ADSIZ": 316,
-  "PDF-KAYNAK": 307,
+  "PDF-KAYNAK": 308,
   "ENCYCLOPEDIA-COM": 283,
   "SECKIN-KURUM": 275,
   "MUZE": 266,
@@ -111,19 +113,19 @@
   "TRECCANI": 142,
   "WORLDSTATESMEN": 116,
   "GEC": 108,
+  "HAKEMLI-DERGI": 106,
   "ENC-REGIONAL": 105,
-  "HAKEMLI-DERGI": 103,
   "MEVZUAT": 98,
+  "SAHO": 97,
   "KUREANS": 97,
-  "SAHO": 96,
-  "UN-BELGE": 82,
+  "UN-BELGE": 83,
   "ARCHONTOLOGY": 77,
-  "NDB": 72,
+  "NDB": 75,
   "OXFORD": 70,
   "AVALON": 70,
   "RULERS": 70,
   "ENC-UKRAINE": 69,
-  "ULUSAL-ARSIV": 65,
+  "ULUSAL-ARSIV": 67,
   "HLS": 65,
   "TTK": 57,
   "CANADIAN-ENC": 57,
@@ -150,7 +152,7 @@
   "DBE": 26,
   "AFRICANHISTORYEXTRA": 26,
   "UNESCO-WHC": 25,
-  "BANGLAPEDIA": 24,
+  "BANGLAPEDIA": 25,
   "ROYALARK": 23,
   "LAROUSSE": 22,
   "GUTENBERG": 21,
@@ -173,13 +175,13 @@
   "PSRL": 11,
   "JEWISH-ENC": 11,
   "BOSWORTH": 11,
+  "ARCHIVE-ORG": 10,
   "OXFORD-ODB": 10,
   "ATATURK-ANS": 9,
   "PERSEE": 8,
   "DERGIPARK": 8,
   "DIB": 8,
   "CDLI": 8,
-  "ARCHIVE-ORG": 7,
   "JSTOR": 7,
   "DCB": 7,
   "TOUMANOFF": 7,
@@ -204,10 +206,10 @@
   "evren_madde": 2697,
   "evren_dosya": 89,
   "damga_d2_evreni": {
-   "guvenli": 2032,
+   "guvenli": 2043,
    "taninmayan": 270,
-   "guvensiz": 39,
-   "ikincil": 273,
+   "guvensiz": 22,
+   "ikincil": 279,
    "bulunamadi": 70,
    "bos": 13
   },
@@ -230,7 +232,7 @@
   },
   "senaryo": {
    "S1-guvensiz": {
-    "silinen_madde": 39,
+    "silinen_madde": 22,
     "2": {
      "yeni_acik_ham": 0,
      "yeni_acik": 0,
@@ -238,10 +240,10 @@
      "acik": 0
     },
     "2s": {
-     "yeni_acik_ham": 22,
-     "yeni_acik": 12,
-     "acik_ham": 1286,
-     "acik": 201
+     "yeni_acik_ham": 5,
+     "yeni_acik": 3,
+     "acik_ham": 1269,
+     "acik": 192
     },
     "2i": {
      "yeni_acik_ham": 0,
@@ -251,7 +253,7 @@
     }
    },
    "S2-guvensiz+bos+bulunamadi": {
-    "silinen_madde": 122,
+    "silinen_madde": 105,
     "2": {
      "yeni_acik_ham": 3,
      "yeni_acik": 3,
@@ -259,10 +261,10 @@
      "acik": 3
     },
     "2s": {
-     "yeni_acik_ham": 68,
-     "yeni_acik": 52,
-     "acik_ham": 1332,
-     "acik": 241
+     "yeni_acik_ham": 51,
+     "yeni_acik": 43,
+     "acik_ham": 1315,
+     "acik": 232
     },
     "2i": {
      "yeni_acik_ham": 1,
@@ -272,7 +274,7 @@
     }
    },
    "S3-yalniz-AB-kalir": {
-    "silinen_madde": 392,
+    "silinen_madde": 375,
     "2": {
      "yeni_acik_ham": 13,
      "yeni_acik": 13,
@@ -280,10 +282,10 @@
      "acik": 13
     },
     "2s": {
-     "yeni_acik_ham": 170,
-     "yeni_acik": 123,
-     "acik_ham": 1434,
-     "acik": 312
+     "yeni_acik_ham": 153,
+     "yeni_acik": 114,
+     "acik_ham": 1417,
+     "acik": 303
     },
     "2i": {
      "yeni_acik_ham": 2,

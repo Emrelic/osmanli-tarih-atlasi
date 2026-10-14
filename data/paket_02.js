@@ -1738,7 +1738,7 @@ window.OLAYLAR_EK12 = [
   gun:"3 Mayıs 1815", ic_not_gun:"Gün Encyclopædia Britannica 1911'de YOK; künye krakow-serbest-sehri'nin kaynağından (Hertslet, The Map of Europe by Treaty, No. 14, '21st April / 3rd May 1815') — bu turda yeniden okunmadı.",
   yer:"Krakov", yer_id:"Krakov",
   d:"Viyana Kongresi'nde Rusya, Avusturya ve Prusya, Krakov şehrini çevresiyle birlikte üç devletin koruması altında serbest bir devlet yaptı; Viyana Nihai Senedi bu düzeni tescil etti.",
-  kaynak:"Encyclopædia Britannica 1911, 'Cracow' (Wikisource) AYNEN: 'by the Final Act of the congress signed at Vienna in 1815, \"the town of Cracow, with its territory, is declared to be for ever a free, independent and strictly neutral city, under the protection of Russia, Austria and Prussia.\"' · gün: Hertslet No. 14 (künyeden)" },
+  kaynak:"P. Cichoń, 'The Free City of Kraków in the Regional Security Policies of its Neighbouring States', Krakowskie Studia z Historii Państwa i Prawa 12/4 (2019), s. 523-535, doi:10.4467/20844131KS.19.025.11643: Avusturya, Prusya ve Rusya'nın 'additional treaty signed on 3 May 1815' ile Krakov serbest, bağımsız ve tarafsız şehir oldu ; Encyclopædia Britannica 1911, 'Cracow' (Wikisource) AYNEN: 'by the Final Act of the congress signed at Vienna in 1815, \"the town of Cracow, with its territory, is declared to be for ever a free, independent and strictly neutral city, under the protection of Russia, Austria and Prussia.\"' · gün: Hertslet No. 14 (künyeden)" },
 
 { t:"1846-11-11", k:"siyaset", kapsam:"dis", etiket:["siyaset","diplomasi","konu-diplomasi"],
   b:"Krakov Serbest Şehri kaldırıldı, Avusturya'ya katıldı",
