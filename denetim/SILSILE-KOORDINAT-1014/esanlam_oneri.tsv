@@ -1,0 +1,87 @@
+# Koordinat kaynakları: GeoNames cities1000 (geonames.org, CC BY 4.0) · Pleiades (pleiades.stoa.org, NYU ISAW, CC BY 3.0). Gazeteer TARİH DAYANAĞI DEĞİLDİR — yalnız koordinat ve ad birleştirme içindir.
+atlas_ad	gazeteer_eslesen_ad	kronoloji_gosterim	anahtar	kaynak	kaynak_id	uri	gazeteer_lat	gazeteer_lon	atlas_km	diger_atlas_3km_icinde	madde_sayisi	baskent_kunye_sayisi	baskent_kunyeleri	baglam_katmani	kaynaklar_arasi_km	adas_coklu	ornek_madde
+Addis	Addis Ababa	Addis Ababa	addisababa	geonames	344979	https://www.geonames.org/344979	9.02497	38.74689	0.94		9	5	etiyopya-derg,etiyopya-federal,etiyopya-gecis-hukumeti,habesistan,italyan-dogu-afrikasi	yer_kon<=50km			1928-08-02 Habeşistan ile İtalya dostluk, uzlaşma ve tahkim antlaşması imzaladı
+Budin	Budapeste	Budapeşte	budapeste	geonames	3054643	https://www.geonames.org/3054643	47.49835	19.04045	0.05	Peşte	5	3	macaristan-cumhuriyeti,macaristan-halk,macaristan-naiplik	yer_kon<=50km			1941-04-03 Başbakan Pál Teleki intihar etti
+Kannauc	Kannauj	Kannauj	kannauj	geonames	1268011	https://www.geonames.org/1268011	27.05524	79.91880	0.28		2	3	gahadavala,gurjara-pratihara,harsha	bolge:guney-asya,orta-asya			1018-01-01 Gazneli Mahmud son önemli Pratihara kralı Racyapala'yı Kannauj'dan çıkardı
+Urfa	Şanlıurfa	Şanlıurfa	sanliurfa	pleiades	658457	https://pleiades.stoa.org/places/658457	37.14863	38.78670	1.42		5	0		ayni-madde-yerleri	2.1		1027-01-01 Nasrüddevle Urfa'yı ele geçirdi
+Valensiya	Belensiye	Belensiye (Valencia)	belensiye	pleiades	266090	https://pleiades.stoa.org/places/266090	39.47037	-0.37681	0.04		4	1	endulus-tavaif	ayni-madde-yerleri	0.5		1094-01-01 Cid (Rodrigo Díaz de Vivar) Belensiye'yi (Valencia) ele geçirdi
+Malta	Valletta	Valletta	valletta	geonames	2562305	https://www.geonames.org/2562305	35.89968	14.51480	0.1		0	4	malta,malta-fransiz,malta-ingiliz,malta-kolonisi	bolge:italya			
+Stokholm	Stockholm	Stockholm	stockholm	geonames	2673730	https://www.geonames.org/2673730	59.32938	18.06871	0.29		2	2	isvec,isvec-birlik-oncesi	taraf:isvec-birlik-oncesi			1252-01-01 Stockholm ilk kez yazılı kaynakta anıldı
+Urga (Ulan Batur)	Ulan Bator	Ulanbator	ulanbator	geonames	2028462	https://www.geonames.org/2028462	47.90771	106.88324	2.95		4	0		yer_kon<=50km			1928-12-10 MHDP 7. Kurultayı: sol kanat kazandı, Moğolistan'da kollektifleştirme dönemi başladı
+Bordo	Bordeaux	Bordeaux	bordeaux	geonames	3031582	https://www.geonames.org/3031582	44.84124	-0.58046	0.38		2	1	akitanya-dukaligi	yer_kon<=50km	0.5		1940-06-16 Reynaud istifa etti, Mareşal Pétain başbakan oldu ve ateşkes istedi
+Ciudad de Guatemala (Nueva Guatemala de la Asunción)	Guatemala City	Guatemala City	guatemalacity	geonames	3598132	https://www.geonames.org/3598132	14.64072	-90.51327	0.04		3	0		yer_kon<=50km			1944-07-01 Ubico istifa etti, yönetimi General Ponce Vaides başkanlığında cuntaya bıraktı
+Kirman	Berdeşīr	Berdesîr	berdesir	pleiades	29802	https://pleiades.stoa.org/places/29802	30.27302	57.06858	1.34		3	0		bolge:iran			1079-01-01 Melikşah'ın Kirman seferi; Sultan Şah itaat etti
+Ninh Binh	Hoa Lư	Hoa Lư	hoalu	geonames	1571968	https://www.geonames.org/1571968	20.25809	105.97965	1.35		1	2	dinh,tien-le-hanedani	bolge:guneydogu-asya			1005-01-01 Lê Hoàn öldü — veraset kavgasından Lê Long Đĩnh galip çıktı
+Transvaal (Bur cumhuriyeti)	Pretoria	Pretoria	pretoria	geonames	964137	https://www.geonames.org/964137	-25.74486	28.18783	0.13		0	3	guney-afrika-birligi,guney-afrika-cumhuriyeti,transvaal	taraf:transvaal			
+Yaunde	Yaoundé	Yaoundé	yaounde	geonames	2220957	https://www.geonames.org/2220957	3.86667	11.51667	0.52		0	3	alman-kamerun,fransiz-kamerun-mandasi,kamerun	bolge:orta-afrika			
+Benin Şehri (Edo)	Benin City	Benin City	benincity	geonames	2347283	https://www.geonames.org/2347283	6.33815	5.62575	2.43		2	0		taraf:benin-kralligi			1481-01-01 Ozolua Benin obası oldu — Portekizlilerle ilk ilişkiyi kuran Batı Afrika hükümdarlarından 
+Bucumbura	Bujumbura	Bujumbura	bujumbura	geonames	425378	https://www.geonames.org/425378	-3.38193	29.36142	0.27		0	2	burundi-cumhuriyeti,burundi-krallik	taraf:burundi-krallik			
+Delhi	Yeni Delhi	Yeni Delhi	yenidelhi	geonames	1261481	https://www.geonames.org/1261481	28.62137	77.21480	2.52		0	2	hindistan-cumhuriyeti,ingiliz-hindistani	taraf:ingiliz-hindistani			
+Dârülbeyzâ (Anfa)	Kazablanka	Kazablanka	kazablanka	geonames	2553604	https://www.geonames.org/2553604	33.58831	-7.61138	2.61		2	0		yer_kon<=50km			1942-11-08 Meşale Harekâtı: Müttefikler Fas ve Cezayir kıyılarına çıktı
+Gdansk	Danzig	Danzig	danzig	geonames	3099434	https://www.geonames.org/3099434	54.35227	18.64912	0.2		0	2	danzig-serbest-sehri,danzig-serbest-sehri-1807	taraf:danzig-serbest-sehri			
+Karahisâr-ı Sâhib (Afyon)	Afyonkarahisar	Afyonkarahisar	afyonkarahisar	geonames	325303	https://www.geonames.org/325303	38.75667	30.54333	0.46		1	1	sahibata	taraf:inancogullari,selcuklu			1277-01-01 İnançoğlu Ali Bey'in bağımsızlık girişimi yakalanıp sürgünle bitti
+Lahsa	Hufuf	Hüfûf	hufuf	geonames	109571	https://www.geonames.org/109571	25.36467	49.58764	2.04		1	1	benihalid	ayni-madde-yerleri	9.9		1913-07-08 İbn Suud Lahsa'yı aldı — Osmanlı'nın Körfez kıyısındaki hâkimiyetinin sonu
+Lvov	Lviv	Lviv (1272)	lviv	geonames	702550	https://www.geonames.org/702550	49.83826	24.02324	0.52		0	2	bati-ukrayna-halk-cumhuriyeti,galicya-volhinya	bolge:dogu-avrupa			
+Manama (Bahreyn)	Mename	Menâme	mename	geonames	290340	https://www.geonames.org/290340	26.22787	50.58565	0.04		2	0		yer_kon<=50km			1932-01-01 Bahreyn'de Şeyh Îsâ b. Ali öldü, Hamed b. Îsâ emir oldu
+Merakeş	Marakes	Marakeş	marakes	geonames	2542997	https://www.geonames.org/2542997	31.63416	-7.99994	1.85		0	2	fas,sadi	taraf:sadi			
+Merevî	Napata	Napata	napata	pleiades	805634	https://pleiades.stoa.org/places/805634	18.56595	31.85374	1.82		0	2	kush-25-hanedan,kush-krallik	bolge:misir-sudan			
+Oranj (Bur cumhuriyeti)	Bloemfontein	Bloemfontein	bloemfontein	geonames	1018725	https://www.geonames.org/1018725	-29.12107	26.21400	0.12		0	2	oranj,oranj-nehri-kolonisi	taraf:oranj			
+Revan	Erivan	Erivan	erivan	geonames	616052	https://www.geonames.org/616052	40.17765	44.51260	0.63		0	2	ermenistan-cumhuriyeti,ermenistan-demokratik-cumhuriyeti	taraf:ermenistan-demokratik-cumhuriyeti			
+Svalbard	Longyearbyen	Longyearbyen	longyearbyen	geonames	2729907	https://www.geonames.org/2729907	78.22334	15.64689	2.13		1	1	svalbard	yer_kon<=50km			1925-08-14 Svalbard Yasası yürürlüğe girdi: Svalbard Norveç Krallığı'na katıldı
+Zigetvar	Szigetvár	Szigetvár	szigetvar	geonames	3044469	https://www.geonames.org/3044469	46.04865	17.80554	0.13		2	0		ayni-madde-yerleri			1918-11-19 Sırp birlikleri Szigetvár'a girdi — Güney Somogy'un işgali
+İstolni Belgrad	Székesfehérvár	Székesfehérvár	szekesfehervar	geonames	3044774	https://www.geonames.org/3044774	47.18995	18.41034	0.05		2	0		taraf:macaristan			1038-01-01 I. István öldü — Árpád hanedanında taht kavgaları başladı
+Akçahisar (Kruja)	Krujë	Krujë	kruje	geonames	3185082	https://www.geonames.org/3185082	41.50917	19.79278	0.03		0	1	arnavutluk-iskenderbey	taraf:arnavutluk-iskenderbey			
+Atina	Akropolis	Akropolis	akropolis	pleiades	638356144	https://pleiades.stoa.org/places/638356144	37.97165	23.72644	0.82		1	0		ayni-madde-yerleri			1687-09-26 Atina'nın kaybı ve Parthenon patlaması
+Ava (İnwa)	Sagaing	Sagaing	sagaing	geonames	1298482	https://www.geonames.org/1298482	21.87870	95.97965	2.64		0	1	ava	taraf:ava			
+Aşkabad	Askabat	Aşkabat	askabat	geonames	162183	https://www.geonames.org/162183	37.95000	58.38333	0.29		0	1	turkmenistan	taraf:turkmenistan			
+Bancarmasin	Banjarmasin	Banjarmasin	banjarmasin	geonames	1650213	https://www.geonames.org/1650213	-3.31987	114.59075	0.03		1	0		taraf:banjar-sultanligi,hollanda-dogu-hint			1787-01-01 Banjar Sultanı VOC ile antlaşma yaptı — sultanlık Hollanda'ya vasal oldu
+Banda Açe	Banda Aceh	Banda Aceh	bandaaceh	geonames	1215502	https://www.geonames.org/1215502	5.54167	95.33333	1.25		0	1	ace-sultanligi	taraf:ace-sultanligi			
+Belh	Baktra	Baktra	baktra	pleiades	961886	https://pleiades.stoa.org/places/961886	36.76794	66.90110	1.16		0	1	greko-baktria	bolge:orta-asya			
+Belh	Balḫ	Balh	balh	pleiades	961886	https://pleiades.stoa.org/places/961886	36.76794	66.90110	1.16		0	1	kusan-sasani	bolge:orta-asya			
+Bodrum	Halikarnassos	Halikarnassos	halikarnassos	pleiades	599636	https://pleiades.stoa.org/places/599636	37.04040	27.42215	1.0		0	1	karya-hekatomnid	bolge:anadolu			
+Bosna Dubiçası (Bosanska Dubica)	Dubica	Dubica (Una kıyısı, Bosna)	dubica	geonames	3203657	https://www.geonames.org/3203657	45.17667	16.80944	0.3		1	0		ayni-madde-yerleri			1788-08-26 Dubica'nın Avusturya'ya düşüşü
+Brunei	Bandar Seri Begawan	Bandar Seri Begawan	bandarseribegawan	geonames	1820906	https://www.geonames.org/1820906	4.89035	114.94006	1.41		0	1	brunei-sultanligi	taraf:brunei-sultanligi			
+Bucumbura	Usumbura	Usumbura	usumbura	geonames	425378	https://www.geonames.org/425378	-3.38193	29.36142	0.27		0	1	ruanda-urundi-mandasi	taraf:ruanda-urundi-mandasi			
+Cerablus	Karkamiš	Karkamis	karkamis	pleiades	658465	https://pleiades.stoa.org/places/658465	36.82942	38.01492	0.5		0	1	yeni-hitit	bolge:anadolu	1.6		
+Cûnâgadh	Jūnāgadh	Junagadh	junagadh	geonames	1268773	https://www.geonames.org/1268773	21.51966	70.45981	0.39		0	1	cunagadh	taraf:cunagadh			
+Diyarbakır	Amid	Âmid	amid	pleiades	874298	https://pleiades.stoa.org/places/874298	37.91225	40.23344	0.34		1	0		ayni-madde-yerleri			1507-01-01 Şah İsmail'in Diyarbekir seferi: Akkoyunlu'nun son merkezleri düştü
+Doğubayazıt	Bayazit	Bayazıt	bayazit	geonames	316411	https://www.geonames.org/316411	39.54694	44.08417	0.12		1	0		ayni-madde-yerleri			1821-01-01 Osmanlı-İran savaşı başladı — Kars ve Bayazıt'ın kaybı, Erzurum'un kuşatılması
+Draç	Durrës	Durrës	durres	geonames	3185728	https://www.geonames.org/3185728	41.32355	19.45469	0.07		1	0		taraf:antakya-prinkipsligi,bizans			1108-01-01 Bohemund, Antakya için Bizans imparatoruna vasallık yemini etmek zorunda kaldı
+Erdel (Kaloşvar)	Cluj	Kolojvar (Cluj)	kolojvar	geonames	681290	https://www.geonames.org/681290	46.76667	23.60000	0.78		1	0		yer_kon<=50km			1945-03-09 Kuzey Erdel'de Romen egemenliği yeniden kuruldu
+Estergon	Parkan	Parkan	parkan	geonames	3057379	https://www.geonames.org/3057379	47.79495	18.71750	1.68		1	0		ayni-madde-yerleri			1683-10-09 Parkan bozgunu ve Estergon'un kaybı
+Fas (Fez)	Fes	Fes	fes	geonames	2548885	https://www.geonames.org/2548885	34.03313	-5.00028	0.1		0	1	magrave-fas	bolge:kuzey-afrika			
+Feyzâbâd (Ayodhya)	Faizabad	Faizâbâd	faizabad	geonames	1271976	https://www.geonames.org/1271976	26.77549	82.15018	0.52		1	0		ayni-madde-yerleri			1754-01-01 Şücâüddevle, babası Safder Cenk'in ölümüyle Avad nevabı oldu
+Hanoi (Thăng Long)	Đống Đa	Đống Đa	onga	geonames	8616121	https://www.geonames.org/8616121	21.01300	105.82500	1.91		1	0		ayni-madde-yerleri			1789-01-01 Đống Đa Zaferi — Nguyễn Huệ (Quang Trung) Qing ordusunu Hanoi yakınında bozguna uğrattı
+Hemedan	Ekbatana	Ekbatana (Hegmatana)	ekbatana	pleiades	903021	https://pleiades.stoa.org/places/903021	34.80556	48.51641	0.74		0	1	medya	bolge:iran			
+Karadeniz Ereğli	Karadenizereglisi	Karadeniz Ereğlisi	karadenizereglisi	geonames	747471	https://www.geonames.org/747471	41.28261	31.41806	0.22		1	0		ayni-madde-yerleri			1404-03-01 Emîr Süleyman Anadolu'ya geçti: Bursa onun eline geçti
+Kerene	Keren	Keren	keren	geonames	333287	https://www.geonames.org/333287	15.77792	38.45107	0.01		1	0		yer_kon<=50km			1941-03-26 Keren muharebesi İngilizlerin zaferiyle bitti
+Kerç	Pantikapaion	Pantikapaion	pantikapaion	pleiades	854719	https://pleiades.stoa.org/places/854719	45.35098	36.46858	0.57		0	1	bosporos-krallik	bolge:dogu-avrupa			
+Konstantin	Cirta	Cirta	cirta	pleiades	305064	https://pleiades.stoa.org/places/305064	36.36811	6.61330	0.38		0	1	numidia	bolge:kuzey-afrika			
+Kût el-Amâre	Kut	Kût	kut	geonames	99131	https://www.geonames.org/99131	32.51280	45.81817	0.08		1	0		ayni-madde-yerleri			1916-04-29 Kûtülamâre Zaferi
+Londra	Londinium	Londinium	londinium	pleiades	79574	https://pleiades.stoa.org/places/79574	51.51333	-0.08895	2.79		0	1	britanya-imp	bolge:bati-avrupa			
+Lourenço Marques	Maputo	Maputo	maputo	geonames	1040652	https://www.geonames.org/1040652	-25.96553	32.58322	0.53		0	1	mozambik	taraf:mozambik			
+Mafikeng	Mmabatho	Mmabatho	mmabatho	geonames	975436	https://www.geonames.org/975436	-25.85000	25.63333	1.3		0	1	bophuthatswana	taraf:bophuthatswana			
+Mersa'l-Kebîr	Mers el Kebir	Mers-el-Kébir	merselkebir	geonames	2487852	https://www.geonames.org/2487852	35.72790	-0.70810	0.08		1	0		yer_kon<=50km			1940-07-03 Mers-el-Kébir: İngiliz filosu Oran'daki Fransız savaş gemilerine ateş açtı
+Mersin	İçel	İçel	icel	pleiades	648810	https://pleiades.stoa.org/places/648810	36.80864	34.63807	1.06		1	0		ayni-madde-yerleri	0.4		1473-01-01 Silifke'nin kesin fethi — Karamanoğulları'nın son direnişinin kırılması
+Milas	Mylasa	Mylasa	mylasa	pleiades	599809	https://pleiades.stoa.org/places/599809	37.30275	27.79024	1.61		0	1	karya-hekatomnid	bolge:anadolu			
+Mungîr (Monghyr)	Munger	Mudgagiri (Munger)	mudgagiri	geonames	1262482	https://www.geonames.org/1262482	25.37459	86.47455	0.07		0	1	pala	bolge:guney-asya			
+Munkács (Mukacheve)	Mukacevo	Mukaçevo (Karpat-ötesi)	mukacevo	geonames	700646	https://www.geonames.org/700646	48.44248	22.71800	0.06		1	0		taraf:macaristan			1280-01-01 Lev Daniloviç Macarlardan Mukaçevo dahil Karpat-ötesinin bir kısmını aldı
+Murşidâbâd	Murshidābād	Murshidabad	murshidabad	geonames	1262412	https://www.geonames.org/1262412	24.18390	88.27171	0.47		0	1	bengal-nevabligi	taraf:bengal-nevabligi			
+Nesâ	Nisa	Nisa	nisa	pleiades	952093	https://pleiades.stoa.org/places/952093	37.95906	58.20504	2.09		0	1	part	bolge:iran			
+Obbiya	Obbia	Obbia (Hobyo)	obbia	geonames	57000	https://www.geonames.org/57000	5.35050	48.52680	0.06		1	0		yer_kon<=50km			1927-01-01 İtalya Mâcerteyn ve Obbia (Hobyo) sultanlıklarının topraklarını işgal etti
+Porkhov	Porhov	Porhov	porhov	geonames	506278	https://www.geonames.org/506278	57.76502	29.55612	0.23		1	0		ayni-madde-yerleri			1428-01-01 Litvanya Büyük Dükü Vytautas Porhov'a yürüdü; Novgorod ağır fidye ödedi
+Saygon (Gia Định)	Sai Gon	Saigon	saigon	geonames	1566083	https://www.geonames.org/1566083	10.82302	106.62965	0.04		1	0		taraf:fransiz-cinhindi,nguyen-hanedani			1862-06-05 Saigon Antlaşması — Fransa Cochinchina'nın üç eyaletini aldı
+Strazburg	Strasbourg	Strasbourg	strasbourg	geonames	2973783	https://www.geonames.org/2973783	48.58392	7.74553	1.3		0	1	elsass-lothringen	bolge:bati-avrupa	0.2		
+Tancûr (Thanjavur)	Tancavur	Tancavur	tancavur	geonames	1254649	https://www.geonames.org/1254649	10.78523	79.13909	0.23		1	0		ayni-madde-yerleri			1014-01-01 I. Racendra Çola tahtına çıktı
+Tenochtitlan (Mexico City)	Meksiko	Meksiko	meksiko	geonames	3530597	https://www.geonames.org/3530597	19.42847	-99.12766	0.74		1	0		ayni-madde-yerleri			1535-04-17 Yeni İspanya Genel Valiliği kuruldu
+Tsaritsyn	Stalingrad	Stalingrad	stalingrad	geonames	472757	https://www.geonames.org/472757	48.71378	44.49760	1.36		1	0		yer_kon<=50km			1943-02-02 Stalingrad'da Alman 6. Ordusu teslim oldu
+Tuzla (Bosna)	Soli	Soli	soli	geonames	3188582	https://www.geonames.org/3188582	44.53842	18.66709	0.71		1	0		taraf:bosna-kralligi,macaristan			1253-01-01 IV. Béla Bosna'yı boyun eğdirip böldü; Usora ve Soli ayrı banlık oldu
+Urasoe Gusuku (Chuzan merkezi)	Urasoe	Urasoe/Shuri	urasoeshuri	geonames	6822152	https://www.geonames.org/6822152	26.25902	127.73012	1.24		0	1	sanzan	taraf:sanzan			
+Varadin (Petrovaradin)	Ujvidek	Újvidék (Novi Sad)	ujvidek	geonames	3194360	https://www.geonames.org/3194360	45.25167	19.83694	2.0		1	0		yer_kon<=50km			1941-01-01 Macaristan Bačka ve Baranja'yı ilhak etti
+Yeni Ürgenç	Ürgenç	Ürgenç	urgenc	geonames	1512473	https://www.geonames.org/1512473	41.55177	60.63143	0.25		0	1	hive	taraf:hive			
+Zaragoza	Saraḳusṭa	Sarakusta	sarakusta	pleiades	246344	https://pleiades.stoa.org/places/246344	41.65419	-0.87727	1.06		0	1	endulus-tavaif	bolge:iberya			
+Ümmü Dermân	Omdurman	Ümmüdurman (Omdurman)	ummudurman	geonames	365137	https://www.geonames.org/365137	15.64453	32.47773	0.09		1	0		ayni-madde-yerleri			1898-09-02 Ümmüdurman Muharebesi — Mehdî devletinin yıkılışı
+Ümmü Dermân	Omdurman	Ömdürman	omdurman	geonames	365137	https://www.geonames.org/365137	15.64453	32.47773	0.09		0	1	mehdi	taraf:mehdi			
+İzmit	Nikomedia	Nikomedia	nikomedia	pleiades	511337	https://pleiades.stoa.org/places/511337	40.76519	29.91989	0.26		0	1	bitinya	bolge:anadolu			
+İşkodra	Skadar	Skadar	skadar	geonames	3184081	https://www.geonames.org/3184081	42.06828	19.51258	0.09		0	1	zeta	taraf:zeta			
+Şehrizor	Süleymaniye	Süleymaniye	suleymaniye	geonames	98463	https://www.geonames.org/98463	35.56496	45.43290	0.61		1	0		ayni-madde-yerleri			1821-01-01 Süleymaniye ve Bağdat'ın İran işgali — Kerkük muhasarası

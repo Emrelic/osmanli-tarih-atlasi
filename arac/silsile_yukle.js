@@ -7,7 +7,7 @@
 // Girdi : argv[2] = dosya listesi (satır başına bir yol, KÖKE göre)
 // Çıktı : stdout'a tek JSON
 //   { dosyalar: [{dosya, diziler:[{ad, n}], hata}],
-//     maddeler: [{dosya, dizi, i, t, b, d, yer, yer_id, yer_kon}] }
+//     maddeler: [{dosya, dizi, i, t, b, d, yer, yer_id, yer_kon, kisiler, ad, taraflar}] }
 // Yalnız `window.*` altındaki ÜST DÜZEY dizilerin nesneleri madde sayılır;
 // `alt_kronoloji` adımları madde DEĞİLDİR (ekranın ayrı madde gösterdiği kadar).
 "use strict";
@@ -52,6 +52,7 @@ for (const rel of liste) {
         yer: metin(m.yer), yer_id: metin(m.yer_id),
         yer_kon: Array.isArray(m.yer_kon) ? m.yer_kon : null,
         kisiler: metin(m.kisiler), ad: metin(m.ad),
+        taraflar: Array.isArray(m.taraflar) ? m.taraflar.map(String) : null,
       });
     });
     kayit.diziler.push({ ad: k, n });

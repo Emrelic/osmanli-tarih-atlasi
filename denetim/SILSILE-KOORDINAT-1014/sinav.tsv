@@ -1,0 +1,15 @@
+# Koordinat kaynakları: GeoNames cities1000 (geonames.org, CC BY 4.0) · Pleiades (pleiades.stoa.org, NYU ISAW, CC BY 3.0). Gazeteer TARİH DAYANAĞI DEĞİLDİR — yalnız koordinat ve ad birleştirme içindir.
+tur	girdi	baglam	yil	sinif	sebep	katman	secilen	lat,lon	en_yakin_atlas	atlas_km	atlas_3km_icinde	kaynaklar_arasi_km	hukum
+VAR (farklı adla)	Şanlıurfa	artuklu	1100	atlasta-farkli-adla		taraf:artuklu	pleiades:658457 Şanlıurfa	37.1486,38.7867	Urfa	1.42	Urfa	2.1	geçti
+VAR (farklı adla)	Budapeşte	macaristan	1900	atlasta-farkli-adla		taraf:macaristan	geonames:3054643 Budapeste	47.4984,19.0404	Budin	0.05	Budin | Peşte		geçti
+VAR (farklı adla)	Addis Ababa	habesistan	1930	atlasta-farkli-adla		taraf:habesistan	geonames:344979 Addis Ababa	9.0250,38.7469	Addis	0.94	Addis		geçti
+ADAŞ (iki Ani)	Ani	ani-bagratli-kralligi,bizans	1045	belirsiz	baglamda-2-ayri-yer	bolge:balkanlar,kafkasya	adaylar: pleiades:863739 Ani (40.506,43.571) | pleiades:874322 Ani (39.603,39.036)						geçti
+YOK (koordinatlı)	Ani	 + aynı madde: Kars	1045	yakin-incele		ayni-madde-yerleri	pleiades:863739 Ani	40.5063,43.5706	Kliçatak (Suser)	14.55			geçti (yakin-incele: Kliçatak (Suser) 14.6 km'de, başka yer)
+YOK (koordinatlı)	Harran	selcuklu	1100	atlasta-yok		taraf:selcuklu	pleiades:658427 Harran	36.8636,39.0307	Akçakale	18.64		0.4	geçti
+YOK (gazeteerde yok)	Alamut	alamut-nizari	1100	belirsiz	baglam-disi	bolge:iran	adaylar: geonames:324221 Alamut (37.809,28.292)						geçti
+YOK (koordinatlı)	Mistra	bizans	1400	atlasta-yok		taraf:bizans	geonames:256886 Mistra	37.0685,22.3722	Koron	47.89			geçti
+ADAŞ	Kuba	kuba-hanligi	1750	atlasta-farkli-adla		bolge:kafkasya	geonames:585221 Quba	41.3611,48.5134	Kuba	0.22	Kuba		geçti
+ADAŞ	Küba	kuba-cumhuriyeti	1950	belirsiz	baglam-disi	taraf:kuba-cumhuriyeti > bolge:orta-amerika-karayip	adaylar: geonames:585221 Quba (41.361,48.513) | geonames:3465059 Kuba (-23.895,-46.425) | geonames:4383070 Kuba (38.063,-91.403) …+4						geçti
+ADAŞ	Saint-Pierre	(bağlam yok)	1700	belirsiz	baglam-yok		adaylar: geonames:2787352 Saint-Pierre (49.904,5.388) | geonames:2484835 Saint Pierre (36.684,3.367) | geonames:2977411 Saint-Pierre (49.017,-0.033) …+31						geçti
+ADAŞ	Saint-Pierre	martinik	1700	atlasta-farkli-adla		taraf:martinik	geonames:3569907 Saint-Pierre	14.7431,-61.1754	Saint-Pierre (Martinik)	0.05	Saint-Pierre (Martinik)		geçti
+ADAŞ	Kediri	kediri	1100	belirsiz	baglamda-2-ayri-yer	bolge:guneydogu-asya	adaylar: geonames:1640658 Kediri (-8.634,116.151) | geonames:1640660 Kediri (-7.817,112.017)						geçti

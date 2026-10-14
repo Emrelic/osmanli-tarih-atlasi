@@ -28,6 +28,10 @@ EVRENLER
 KULLANIM
   py arac/silsile_olc.py            # ölç, denetim/SILSILE-OLCUM-1014/ altına yaz
   py arac/silsile_olc.py --sinav    # yalnız iki yönlü sınav
+  py arac/silsile_olc.py --gazeteer-geonames <cities1000.zip> --gazeteer-pleiades <dizin> [--sinav]
+        # KOORDİNAT KATMANI (arac/gazeteer.py): adla çözülmeyen şehir/başkenti
+        # gazeteerle eşler → denetim/SILSILE-KOORDINAT-1014/ (halka ④ koşmaz;
+        # SILSILE-OLCUM-1014 çıktısına dokunmaz). Argümansız çalışma DEĞİŞMEDİ.
 ÇIKIŞ  0 ölçüldü + sınav geçti · 1 sınav kaldı · 2 ölçülemedi
 """
 import collections
@@ -300,9 +304,9 @@ class Dizin:
 # ════════════════════════════════════════════════════════════════════════
 # YER PARÇASI ÇÖZÜMÜ
 # ════════════════════════════════════════════════════════════════════════
-def parca_coz(dz, ham, kum):
-    """Tek yer parçası ('Ordu (Bayramlı)', 'Belgrad kalesi', 'Sis (Kozan)').
-    → dict(durum, idx, yol, kova, anahtar, gosterim)"""
+def parca_denemeleri(ham, kum):
+    """parca_coz'un denediği ad biçimleri (gazeteer katmanı da aynılarını sorar).
+    → (s, denemeler, cekirdek, kel)"""
     s = ham.strip().strip(".")
     denemeler = [s]
     cekirdek = re.sub(r"\s*\(.*?\)\s*", " ", s).strip()
@@ -318,6 +322,13 @@ def parca_coz(dz, ham, kum):
             denemeler.append(v)
     if "/" in cekirdek:
         denemeler += [x.strip() for x in cekirdek.split("/") if x.strip()]
+    return s, denemeler, cekirdek, kel
+
+
+def parca_coz(dz, ham, kum):
+    """Tek yer parçası ('Ordu (Bayramlı)', 'Belgrad kalesi', 'Sis (Kozan)').
+    → dict(durum, idx, yol, kova, anahtar, gosterim)"""
+    s, denemeler, cekirdek, kel = parca_denemeleri(ham, kum)
     gor = set()
     belirsiz = None
     for d in denemeler:
@@ -561,7 +572,8 @@ def halka3(Y, D, soz, kum, dz, J, kron_dosyalar):
     yol_say = collections.Counter()
     kon_say = collections.Counter()
     eksik = collections.defaultdict(lambda: {"madde": set(), "gosterim": collections.Counter(),
-                                             "dosya": collections.Counter(), "ornek": None})
+                                             "dosya": collections.Counter(), "ornek": None,
+                                             "gecis": []})   # gecis: koordinat katmanının bağlamı
     kova_ad = collections.defaultdict(lambda: collections.defaultdict(set))
     belirsiz_ad = collections.defaultdict(set)
     kon_cozulmeyen = []
@@ -593,11 +605,15 @@ def halka3(Y, D, soz, kum, dz, J, kron_dosyalar):
             continue
         sayac[(kt, "yer-alanli")] += 1
         sehir_ok = sehir_yok = 0
+        bulunan_idx = set()
+        bu_gecis = []
         for alan in ("yer_id", "yer"):
             for p in yer_parcalari(m.get(alan)):
                 r = parca_coz(dz, p, kum)
                 parca_say[(alan, r["durum"], r["kova"])] += 1
                 if r["durum"] != "yok":
+                    if r["durum"] == "bulundu":
+                        bulunan_idx |= r["idx"]
                     yol_say[(alan, r["yol"])] += 1
                     sehir_ok += 1
                     if r["durum"] == "belirsiz":
@@ -611,6 +627,11 @@ def halka3(Y, D, soz, kum, dz, J, kron_dosyalar):
                         e["dosya"][m["dosya"]] += 1
                         if e["ornek"] is None:
                             e["ornek"] = "%s %s" % (m.get("t"), (m.get("b") or "")[:90])
+                        g_ = {"mid": mid, "t": m.get("t"), "dosya": m["dosya"],
+                              "gosterim": r["gosterim"], "taraflar": m.get("taraflar") or [],
+                              "yer_kon": m.get("yer_kon"), "ayni": None}
+                        e["gecis"].append(g_)
+                        bu_gecis.append(g_)
                     else:
                         kova_ad[r["kova"]][r["gosterim"]].add(mid)
         if m.get("yer_kon"):
@@ -628,6 +649,8 @@ def halka3(Y, D, soz, kum, dz, J, kron_dosyalar):
                     sehir_ok += 1
             except (TypeError, ValueError, IndexError):
                 kon_say["okunamadi"] += 1
+        for g_ in bu_gecis:
+            g_["ayni"] = sorted(bulunan_idx)
         if sehir_yok == 0 and sehir_ok > 0:
             sayac[(kt, "yer-tam-cozuldu")] += 1
         elif sehir_ok > 0:
@@ -642,6 +665,7 @@ def halka3(Y, D, soz, kum, dz, J, kron_dosyalar):
     baskent = []
     bas_say = collections.Counter()
     bas_eksik = collections.defaultdict(list)
+    bas_gecis = []
     for d in D:
         b = d.get("baskent")
         bk = [x.get("ad") for x in (d.get("bk") or []) if isinstance(x, dict) and x.get("ad")]
@@ -670,6 +694,7 @@ def halka3(Y, D, soz, kum, dz, J, kron_dosyalar):
             elif r["kova"] == "sehir":
                 yok.append(p)
                 bas_eksik[r["anahtar"]].append(d["id"])
+                bas_gecis.append({"kunye": d["id"], "anahtar": r["anahtar"], "gosterim": r["gosterim"]})
             else:
                 diger.append("%s[%s]" % (p, r["kova"]))
         if yok and not ok:
@@ -688,7 +713,7 @@ def halka3(Y, D, soz, kum, dz, J, kron_dosyalar):
         "yol_say": yol_say, "kon_say": kon_say, "kon_cozulmeyen": kon_cozulmeyen,
         "eksik": eksik, "kova_ad": kova_ad, "belirsiz_ad": belirsiz_ad,
         "metin_bulunan_ad": metin_bulunan_ad, "metin_aday": metin_aday,
-        "baskent": baskent, "bas_say": bas_say, "bas_eksik": bas_eksik,
+        "baskent": baskent, "bas_say": bas_say, "bas_eksik": bas_eksik, "bas_gecis": bas_gecis,
         "kisi_tok_n": len(kisi_tok), "madde_durum": madde_durum,
     }
 
@@ -949,6 +974,482 @@ def git(*a):
         return "?"
 
 
+# ════════════════════════════════════════════════════════════════════════
+# KOORDİNAT KATMANI (SILSILE-KOORDINAT-1014) — arac/gazeteer.py
+# ════════════════════════════════════════════════════════════════════════
+KOORD_CIKTI = os.path.join(KOK, "denetim", "SILSILE-KOORDINAT-1014")
+
+
+def _arg(ad):
+    if ad in sys.argv:
+        i = sys.argv.index(ad)
+        if i + 1 < len(sys.argv):
+            return sys.argv[i + 1]
+    return None
+
+
+def _yil(s):
+    g = gun(s)
+    return g[0] if g else None
+
+
+class KoordCozucu:
+    def __init__(self, Y, D, kum, soz, gz_yol, pl_yol):
+        import gazeteer
+        import numpy as np
+        from scipy.spatial import cKDTree
+        self.G = gazeteer
+        self.Y, self.D, self.kum = Y, D, kum
+        self.kurallar = soz["kurallar"]
+        self.bg = gazeteer.Baglam(Y, D)
+        self.gz = gazeteer.Gazeteer(gz_yol, pl_yol, sade, lambda k: kural_uygula(k, self.kurallar))
+        self.np = np
+        la, lo = np.radians([y["lat"] for y in Y]), np.radians([y["lon"] for y in Y])
+        self.agac = cKDTree(np.c_[np.cos(la) * np.cos(lo), np.cos(la) * np.sin(lo), np.sin(la)])
+
+    def anahtarlar(self, gosterim):
+        s, den, cek, kel = parca_denemeleri(gosterim, self.kum)
+        out = []
+        for d in den + [" ".join(kel)]:
+            k = sade(d)
+            if len(k) >= 3:
+                k = kural_uygula(k, self.kurallar)
+                if k not in out:
+                    out.append(k)
+        return out
+
+    def yukle(self, gosterimler):
+        Q = set()
+        for g in gosterimler:
+            Q.update(self.anahtarlar(g))
+        self.gz.yukle(Q)
+
+    def atlas_yakin(self, lat, lon, n=6):
+        np = self.np
+        la, lo = math.radians(lat), math.radians(lon)
+        d, i = self.agac.query([math.cos(la) * math.cos(lo), math.cos(la) * math.sin(lo), math.sin(la)], k=n)
+        return [(6371.0 * 2 * math.asin(min(1.0, float(x) / 2)), int(j)) for x, j in zip(d, i)]
+
+    def coz(self, gosterim, yil, taraflar=(), yer_kon=None, ayni=(), varsayilan=()):
+        bolgeler = [self.bg.kunye[t]["bolge"] for t in taraflar
+                    if t in self.bg.kunye and self.bg.kunye[t].get("bolge")]
+        yk = None
+        if yer_kon:
+            try:
+                yk = (float(yer_kon[0]), float(yer_kon[1]))
+            except (TypeError, ValueError, IndexError):
+                yk = None
+        kat = self.bg.katmanlar(taraflar=taraflar, yer_kon=yk, ayni_madde=ayni,
+                                bolgeler=bolgeler, varsayilan=varsayilan)
+        return self.G.coz(self.gz, self.bg, self.anahtarlar(gosterim), yil, kat, self.atlas_yakin)
+
+
+KSINAV = [
+    # (tür, girdi, bağlam taraflar, aynı maddede geçen atlas yerleşimleri, yıl, beklenti)
+    ("VAR (farklı adla)", "Şanlıurfa", ["artuklu"], [], 1100, ("farkli", ["Urfa"])),
+    ("VAR (farklı adla)", "Budapeşte", ["macaristan"], [], 1900, ("farkli", ["Budin", "Peşte"])),
+    ("VAR (farklı adla)", "Addis Ababa", ["habesistan"], [], 1930, ("farkli", ["Addis"])),
+    # Pleiades'te İKİ Ani var (Kars 40.51,43.57 · Kemah 39.60,39.04): künye bağlamı ikisini
+    # de kapsar ⇒ seçmemeli; aynı maddede Kars geçince Kars'ın Ani'si seçilmeli
+    ("ADAŞ (iki Ani)", "Ani", ["ani-bagratli-kralligi", "bizans"], [], 1045,
+     ("kutu-ya-belirsiz", (40.506, 43.571, 5))),
+    ("YOK (koordinatlı)", "Ani", [], ["Kars"], 1045, ("yok-kutu", (40.506, 43.571, 5))),
+    ("YOK (koordinatlı)", "Harran", ["selcuklu"], [], 1100, ("yok", None)),
+    # GeoNames'teki tek 'Alamut' Aydın'da bir köydür (37.81,28.29) — Rûdbâr'daki kale iki
+    # gazeteerde de YOK: seçilmemeli, 'bulunamadı' yazılmalı
+    ("YOK (gazeteerde yok)", "Alamut", ["alamut-nizari"], [], 1100, ("secilmemeli", None)),
+    ("YOK (koordinatlı)", "Mistra", ["bizans"], [], 1400, ("yok", None)),
+    ("ADAŞ", "Kuba", ["kuba-hanligi"], [], 1750, ("yakin-atlas", ["Kuba"])),
+    ("ADAŞ", "Küba", ["kuba-cumhuriyeti"], [], 1950, ("secilmemeli", None)),
+    ("ADAŞ", "Saint-Pierre", [], [], 1700, ("belirsiz", None)),
+    ("ADAŞ", "Saint-Pierre", ["martinik"], [], 1700, ("kutu", (14.74, -61.17, 30))),
+    ("ADAŞ", "Kediri", ["kediri"], [], 1100, ("kutu-ya-belirsiz", (-7.82, 112.01, 40))),
+]
+
+
+def koord_sinav(KC):
+    satir, kaldi = [], 0
+    for tur, ad, taraf, ayni_ad, yil, (bek, arg) in KSINAV:
+        taraf = [t for t in taraf if t in KC.bg.kunye]    # künyede olmayan taraf bağlam vermez
+        ayni = [i for i, y in enumerate(KC.Y) if y["ad"] in ayni_ad]
+        r = KC.coz(ad, yil, taraflar=taraf, ayni=ayni)
+        s = r.get("secilen")
+        atlas = KC.Y[r["atlas_idx"]]["ad"] if s else ""
+        a3 = [KC.Y[i]["ad"] for i in r.get("atlas_3km", [])]
+        if bek == "farkli":
+            ok = r["sinif"] == "atlasta-farkli-adla" and atlas in arg
+        elif bek == "yok":
+            ok = r["sinif"] == "atlasta-yok"
+        elif bek == "yakin-atlas":
+            ok = bool(s) and r["sinif"] in ("atlasta-farkli-adla", "yakin-incele") and atlas in arg
+        elif bek == "secilmemeli":
+            ok = r["sinif"] in ("belirsiz", "gazeteerde-yok")
+        elif bek == "yok-kutu":
+            # 'yakin-incele' de kabul: eşik kuralı gereği 3–15 km'de BAŞKA bir atlas noktası
+            # varsa sınıf yakin-incele olur; hüküm sütunu bunu ayrıca yazar
+            ok = (r["sinif"] in ("atlasta-yok", "yakin-incele") and bool(s)
+                  and KC.G.km(arg[0], arg[1], s["lat"], s["lon"]) <= arg[2])
+        elif bek == "belirsiz":
+            ok = r["sinif"] in ("belirsiz", "gazeteerde-yok")
+        elif bek == "kutu":
+            ok = bool(s) and KC.G.km(arg[0], arg[1], s["lat"], s["lon"]) <= arg[2]
+        else:   # kutu-ya-belirsiz
+            ok = (r["sinif"] in ("belirsiz", "gazeteerde-yok")
+                  or (bool(s) and KC.G.km(arg[0], arg[1], s["lat"], s["lon"]) <= arg[2]))
+        kaldi += not ok
+        bg_ = ",".join(taraf) + ((" + aynı madde: " + ",".join(ayni_ad)) if ayni_ad else "")
+        satir.append((tur, ad, bg_ or "(bağlam yok)", yil, r["sinif"],
+                      r.get("sebep", ""), r.get("katman", ""),
+                      ("%s:%s %s" % (s["kaynak"], s["id"], s["eslesen"])) if s
+                      else ("adaylar: " + _aday_ozet(r.get("adaylar", []), 3) if r.get("adaylar") else ""),
+                      ("%.4f,%.4f" % (s["lat"], s["lon"])) if s else "",
+                      atlas, r.get("atlas_km", ""), " | ".join(a3),
+                      r.get("kaynaklar_arasi_km", ""),
+                      ("geçti" + (" (yakin-incele: %s %.1f km'de, başka yer)" % (atlas, r["atlas_km"])
+                                  if bek in ("yok", "yok-kutu") and r["sinif"] == "yakin-incele" else ""))
+                      if ok else "KALDI"))
+    return satir, kaldi
+
+
+def _ktsv(ad, bas, satirlar, G):
+    with io.open(os.path.join(KOORD_CIKTI, ad), "w", encoding="utf-8", newline="\n") as f:
+        f.write("# " + G.ATIF + "\n")
+        f.write("\t".join(bas) + "\n")
+        for s in satirlar:
+            f.write("\t".join("" if x is None else str(x).replace("\t", " ").replace("\n", " ")
+                              for x in s) + "\n")
+
+
+def _aday_ozet(ads, n=6):
+    return " | ".join("%s:%s %s (%.3f,%.3f)" % (c["kaynak"], c["id"], c["eslesen"], c["lat"], c["lon"])
+                      for c in ads[:n]) + (" …+%d" % (len(ads) - n) if len(ads) > n else "")
+
+
+def koordinat(Y, D, soz, kum, dz, R3, t0):
+    gz_yol, pl_yol = _arg("--gazeteer-geonames"), _arg("--gazeteer-pleiades")
+    KC = KoordCozucu(Y, D, kum, soz, gz_yol, pl_yol)
+    G = KC.G
+    gost = set(g for e in R3["eksik"].values() for g in e["gosterim"])
+    gost |= {b["gosterim"] for b in R3["bas_gecis"]}
+    gost |= {x[1] for x in KSINAV}
+    log("gazeteer yükleniyor (%d sorgu adı)…" % len(gost))
+    KC.yukle(gost)
+    log("  %s · ölçülemedi: %s" % (dict(KC.gz.say), KC.gz.olculemedi or "-"))
+    ksinav, kkaldi = koord_sinav(KC)
+    for s in ksinav:
+        log("  KSINAV", " · ".join(str(x) for x in s))
+
+    # ── kronoloji geçişleri
+    sonuc = []          # (anahtar, gecis, r)
+    for anahtar, e in R3["eksik"].items():
+        for g in e["gecis"]:
+            # 'dosya varsayımı' (taraflarsız olaylar*.js = osmanli) KULLANILMAZ: Osmanlı alanı üç
+            # kıtadır; ilk koşuda Ayastefanos→Adana'daki Yeşilköy, Kozluca→Burdur, Uşi→Gürün
+            # yanlış eşleşmeleri verdi (adaş tuzağı). Bağlamsız madde 'belirsiz' kalır.
+            vars_ = []
+            r = KC.coz(g["gosterim"], _yil(g["t"]), taraflar=g["taraflar"], yer_kon=g["yer_kon"],
+                       ayni=g["ayni"] or (), varsayilan=vars_)
+            sonuc.append((anahtar, g, r))
+    # ── başkent geçişleri
+    bsonuc = []
+    for b in R3["bas_gecis"]:
+        d = KC.bg.kunye[b["kunye"]]
+        r = KC.coz(b["gosterim"], _yil(d.get("f")), taraflar=[b["kunye"]])
+        bsonuc.append((b["anahtar"], b, r))
+
+    # ── anahtar düzeyinde birleştirme (kronoloji + başkent birlikte)
+    grup = collections.defaultdict(list)     # anahtar → [(tür, gecis, r)]
+    for a, g, r in sonuc:
+        grup[a].append(("kron", g, r))
+    for a, b, r in bsonuc:
+        grup[a].append(("bas", b, r))
+
+    SINIFLAR = ["atlasta-farkli-adla", "yakin-incele", "atlasta-yok", "belirsiz", "gazeteerde-yok"]
+    parca_dag = collections.Counter(r["sinif"] for _, _, r in sonuc)
+    bas_dag = collections.Counter(r["sinif"] for _, _, r in bsonuc)
+    belirsiz_sebep = collections.Counter(re.sub(r"\d+", "N", r.get("sebep", ""))
+                                         for _, _, r in sonuc + bsonuc if r["sinif"] == "belirsiz")
+    satirlar = {k: [] for k in ("farkli", "yakin", "yok", "belirsiz", "gyok")}
+    anahtar_sinif = {}
+    for a, ls in grup.items():
+        kron_n = sum(1 for t, _, _ in ls if t == "kron")
+        kron_madde = len({g["mid"] for t, g, _ in ls if t == "kron"})
+        bas_k = sorted({g["kunye"] for t, g, _ in ls if t == "bas"})
+        gos = collections.Counter(g["gosterim"] for _, g, _ in ls).most_common(1)[0][0]
+        ornek = R3["eksik"][a]["ornek"] if a in R3["eksik"] else ""
+        # belirlenen yerler: seçilen koordinata göre KUME_KM ile gruplanır
+        yerler = []
+        for t, g, r in ls:
+            s = r.get("secilen")
+            if not s:
+                continue
+            for y in yerler:
+                if G.km(y["s"]["lat"], y["s"]["lon"], s["lat"], s["lon"]) <= G.KUME_KM:
+                    y["ls"].append((t, g, r))
+                    break
+            else:
+                yerler.append({"s": s, "r": r, "ls": [(t, g, r)]})
+        bel = [(t, g, r) for t, g, r in ls if r["sinif"] == "belirsiz"]
+        gy = [(t, g, r) for t, g, r in ls if r["sinif"] == "gazeteerde-yok"]
+        adas = len(yerler) > 1
+        siniflar = set()
+        for y in yerler:
+            r = y["r"]
+            siniflar.add(r["sinif"])
+            yk = len({g["mid"] for t, g, _ in y["ls"] if t == "kron"})
+            yb = sorted({g["kunye"] for t, g, _ in y["ls"] if t == "bas"})
+            baglam = sorted({x for t, g, _ in y["ls"] for x in ((g.get("taraflar") or []) if t == "kron"
+                                                                  else [g["kunye"]])})
+            s = r["secilen"]
+            ik = r.get("ikinci_kaynak")
+            ortak = (a, gos, "%.5f" % s["lat"], "%.5f" % s["lon"], s["kaynak"], s["id"], s["uri"],
+                     s["ad"], s["eslesen"], "asil" if s["asil"] else "alternatif", s["tur"],
+                     s.get("zaman", ""),
+                     ("%s:%s" % (ik["kaynak"], ik["id"])) if ik else "", r.get("kaynaklar_arasi_km") or "",
+                     KC.Y[r["atlas_idx"]]["ad"], r["atlas_km"], yk, len(yb), ",".join(yb),
+                     ",".join(baglam[:8]), r["katman"], "EVET" if adas else "", ornek)
+            if r["sinif"] == "atlasta-farkli-adla":
+                a3 = [KC.Y[i]["ad"] for i in r["atlas_3km"]]
+                satirlar["farkli"].append((KC.Y[r["atlas_idx"]]["ad"], s["eslesen"], gos, a, s["kaynak"],
+                                           s["id"], s["uri"], "%.5f" % s["lat"], "%.5f" % s["lon"],
+                                           r["atlas_km"], " | ".join(a3[1:]), yk, len(yb), ",".join(yb),
+                                           r["katman"], r.get("kaynaklar_arasi_km") or "",
+                                           "EVET" if adas else "", ornek))
+            elif r["sinif"] == "yakin-incele":
+                satirlar["yakin"].append(ortak)
+            else:
+                satirlar["yok"].append(ortak)
+        for t, g, r in bel:
+            satirlar["belirsiz"].append((a, gos, t, g["mid"] if t == "kron" else "kunye:" + g["kunye"],
+                                         g.get("t", ""), ",".join(g.get("taraflar") or []) if t == "kron"
+                                         else g["kunye"], r.get("sebep", ""), r.get("katman", ""),
+                                         r["aday_n"], r.get("kume_n", ""), _aday_ozet(r.get("adaylar", []))))
+        for t, g, r in gy:
+            satirlar["gyok"].append((a, gos, t, g["mid"] if t == "kron" else "kunye:" + g["kunye"]))
+        # anahtar sınıfı: bütün geçişler farklı-adla ise 'çözüldü'
+        if ls and all(r["sinif"] == "atlasta-farkli-adla" for _, _, r in ls) and not adas:
+            anahtar_sinif[a] = "atlasta-farkli-adla"
+        elif adas:
+            anahtar_sinif[a] = "adas-coklu-yer"
+        elif yerler:
+            anahtar_sinif[a] = (yerler[0]["r"]["sinif"] + ("+belirsiz" if bel else "")
+                                + ("+gazeteerde-yok" if gy else ""))
+        elif bel:
+            anahtar_sinif[a] = "belirsiz"
+        else:
+            anahtar_sinif[a] = "gazeteerde-yok"
+
+    # ── başkent önce/sonra
+    cozulen_bas = collections.defaultdict(set)     # künye → koordinatla çözülen parça
+    for a, b, r in bsonuc:
+        if r["sinif"] == "atlasta-farkli-adla":
+            cozulen_bas[b["kunye"]].add(b["gosterim"])
+    kalan_bas = collections.defaultdict(list)
+    for a, b, r in bsonuc:
+        if r["sinif"] != "atlasta-farkli-adla":
+            kalan_bas[b["kunye"]].append(b["gosterim"])
+    bas_once = collections.Counter(x[3] for x in R3["baskent"])
+    bas_sonra = collections.Counter()
+    for x in R3["baskent"]:
+        did, durum = x[0], x[3]
+        if durum in ("hic-cozulmedi", "kismi"):
+            ok_var = bool(x[4]) or bool(cozulen_bas.get(did))
+            if not kalan_bas.get(did):
+                durum = "tam"
+            elif ok_var:
+                durum = "kismi"
+            else:
+                durum = "hic-cozulmedi"
+        bas_sonra[durum] += 1
+
+    os.makedirs(KOORD_CIKTI, exist_ok=True)
+    ORTAK_BAS = ["anahtar", "gosterim", "lat", "lon", "kaynak", "kaynak_id", "uri", "gazeteer_ad",
+                 "eslesen_ad", "ad_turu", "gazeteer_tur", "pleiades_zaman", "ikinci_kaynak",
+                 "kaynaklar_arasi_km", "en_yakin_atlas", "atlas_km", "madde_sayisi",
+                 "baskent_kunye_sayisi", "baskent_kunyeleri", "baglam_kunyeleri", "baglam_katmani",
+                 "adas_coklu", "ornek_madde"]
+    yok_s = sorted(satirlar["yok"], key=lambda x: (-(x[16] + x[17]), x[0]))
+    yakin_s = sorted(satirlar["yakin"], key=lambda x: (-(x[16] + x[17]), x[0]))
+    _ktsv("yeni_nokta_aday.tsv", ORTAK_BAS, yok_s, G)
+    _ktsv("yakin_incele.tsv", ORTAK_BAS, yakin_s, G)
+    _ktsv("esanlam_oneri.tsv",
+          ["atlas_ad", "gazeteer_eslesen_ad", "kronoloji_gosterim", "anahtar", "kaynak", "kaynak_id", "uri",
+           "gazeteer_lat", "gazeteer_lon", "atlas_km", "diger_atlas_3km_icinde", "madde_sayisi",
+           "baskent_kunye_sayisi", "baskent_kunyeleri", "baglam_katmani", "kaynaklar_arasi_km",
+           "adas_coklu", "ornek_madde"],
+          sorted(satirlar["farkli"], key=lambda x: (-(x[11] + x[12]), x[0])), G)
+    _ktsv("belirsiz.tsv", ["anahtar", "gosterim", "tur", "madde_ya_da_kunye", "t", "baglam", "sebep",
+                           "denenen_katman", "aday_n", "kume_n", "adaylar(ilk 6)"],
+          sorted(satirlar["belirsiz"], key=lambda x: (x[0], x[3])), G)
+    _ktsv("gazeteerde_yok.tsv", ["anahtar", "gosterim", "tur", "madde_ya_da_kunye"],
+          sorted(satirlar["gyok"]), G)
+    _ktsv("sinav.tsv", ["tur", "girdi", "baglam", "yil", "sinif", "sebep", "katman", "secilen",
+                        "lat,lon", "en_yakin_atlas", "atlas_km", "atlas_3km_icinde",
+                        "kaynaklar_arasi_km", "hukum"], ksinav, G)
+    oz = {
+        "kimlik": {"commit": git("rev-parse", "HEAD"), "dal": git("rev-parse", "--abbrev-ref", "HEAD"),
+                   "agac": KOK, "kirli": git("status", "--porcelain", "--", "data", "arac/girdi.py"),
+                   "tarih": time.strftime("%Y-%m-%d %H:%M"), "makine": os.environ.get("COMPUTERNAME", "?"),
+                   "geonames": gz_yol, "pleiades": pl_yol},
+        "gazeteer_say": dict(KC.gz.say), "olculemedi": KC.gz.olculemedi,
+        "once": {"sehir_ad": len(R3["eksik"]), "sehir_parca": len(sonuc),
+                 "baskent": dict(bas_once),
+                 "baskent_eksik_kunye": bas_once.get("hic-cozulmedi", 0) + bas_once.get("kismi", 0),
+                 "baskent_eksik_parca": len(bsonuc)},
+        "sonra": {"sehir_ad_hala_cozulmeyen": sum(1 for a in R3["eksik"]
+                                                 if anahtar_sinif.get(a) != "atlasta-farkli-adla"),
+                  "sehir_parca_hala_cozulmeyen": sum(1 for _, _, r in sonuc
+                                                     if r["sinif"] != "atlasta-farkli-adla"),
+                  "baskent": dict(bas_sonra),
+                  "baskent_eksik_kunye": bas_sonra.get("hic-cozulmedi", 0) + bas_sonra.get("kismi", 0)},
+        "parca_sinif": dict(parca_dag), "baskent_parca_sinif": dict(bas_dag),
+        "anahtar_sinif": dict(collections.Counter(anahtar_sinif[a] for a in R3["eksik"] if a in anahtar_sinif)),
+        "anahtar_sinif_baskent_dahil": dict(collections.Counter(anahtar_sinif.values())),
+        "belirsiz_sebep": dict(belirsiz_sebep),
+        "satir": {k: len(v) for k, v in satirlar.items()},
+        "adas_coklu_anahtar": sorted(a for a, s in anahtar_sinif.items() if s == "adas-coklu-yer"),
+        "ksinav": {"kaldi": kkaldi, "satir": ksinav},
+        "sure_sn": round(time.time() - t0),
+    }
+    with io.open(os.path.join(KOORD_CIKTI, "ozet.json"), "w", encoding="utf-8") as f:
+        json.dump(oz, f, ensure_ascii=False, indent=1)
+    koord_rapor(oz, yok_s, satirlar, G)
+    log("tamam: %s (%d sn)" % (KOORD_CIKTI, time.time() - t0))
+    return oz
+
+
+def koord_rapor(oz, yok_s, satirlar, G):
+    k = oz["kimlik"]
+    L = []
+    w = L.append
+    w("# SİLSİLE KOORDİNAT KATMANI — halka ③ adla çözülmeyen yerlerin gazeteerle eşlenmesi")
+    w("")
+    w("*Bu dosya `py arac/silsile_olc.py --gazeteer-geonames <zip> --gazeteer-pleiades <dizin>` "
+      "tarafından ÜRETİLDİ; elle düzenleme — yeniden koştur.*")
+    w("")
+    w("> " + G.ATIF)
+    w("")
+    w("| | |\n|---|---|")
+    w("| ağaç | `%s` |" % k["agac"])
+    w("| dal · commit | `%s` · `%s` |" % (k["dal"], k["commit"]))
+    w("| data/ + girdi kirli mi | %s |" % ("HAYIR (temiz)" if not k["kirli"] else "EVET: " + k["kirli"]))
+    w("| makine · zaman · süre | %s · %s · %s sn |" % (k["makine"], k["tarih"], oz["sure_sn"]))
+    gs = oz["gazeteer_say"]
+    w("| GeoNames | %s kayıt okundu · sorgu adına uyan %s kayıt |" % (gs.get("geonames_kayit", "?"),
+                                                                   gs.get("geonames_eslesme", "?")))
+    w("| Pleiades | %s yer (%s koordinatsız atlandı) · sorgu adına uyan %s kayıt |"
+      % (gs.get("pleiades_yer", "?"), gs.get("pleiades_koordinatsiz", 0), gs.get("pleiades_eslesme", "?")))
+    if oz["olculemedi"]:
+        w("| **ÖLÇÜLEMEDİ** | %s |" % "; ".join(oz["olculemedi"]))
+    w("")
+    w("## Yöntem")
+    w("- **Sorgu:** adla çözülmeyen her ŞEHİR parçası (`denetim/SILSILE-OLCUM-1014` ile aynı evren, aynı "
+      "`parca_coz` denemeleri: asıl, parantez/eğik çizgi alternatifleri, betimleyicisiz çekirdek) "
+      "`sadelestir` + açık transliterasyon kurallarıyla anahtara çevrilir. GeoNames'te `name`, "
+      "`asciiname`, `alternatenames` (kod/sayı/URL elenir); Pleiades'te yer `title` + names tablosunun "
+      "`nameTransliterated`/`nameAttested` alanları aranır.")
+    w("- **Bağlam merdiveni (en dardan):** ① maddenin kendi `yer_kon`u ≤%d km · ② aynı maddede adla "
+      "BULUNAN atlas yerleşimleri (dışbükey zarf + %d km) · ③ `taraflar` künyelerinin sahip olduğu atlas "
+      "noktaları (`s:d`; `d:`/`v:` = osmanli) zarfı + %d km · ④ taraf künyelerinin `bolge`si: EV BÖLGESİ "
+      "o bolge olan noktalar (ev bölgesi = noktanın en uzun süreli osmanli-dışı sahibinin `bolge`si; "
+      "osmanli ağırlıklı noktalar en yakın 7 noktanın oyuyla — künyenin fetih noktaları bölgeyi "
+      "şişirmesin diye: İlhanlı `iran` künyesi Anadolu'yu da tuttuğundan birleşim alanı Aydın'daki "
+      "`Alamut` köyünü içine alıyordu). Zarf ancak ≤%g derece² ise kullanılır (kıtalar arası "
+      "künyede — ABD+Japonya, sömürgeli Almanya — zarf Asya'yı yutuyordu: `Hawaii`→Assam'daki `Hawai`, "
+      "`Lidice`→Panama), değilse yalnız tampon. *Dosya varsayımı (taraflarsız `olaylar*.js` = osmanli) "
+      "denendi ve ATILDI*: Osmanlı alanı üç kıta olduğundan Ayastefanos→Adana'daki Yeşilköy, Kozluca→"
+      "Burdur, Uşi (Ouchy)→Gürün yanlışlarını verdi. Başkentte bağlam = künyenin kendisi (③) ve `bolge`si (④). İlk aday veren katmanda "
+      "adaylar %g km'lik tek bağlantıyla kümelenir: **tek küme → seçilir; >1 küme → `belirsiz`, "
+      "SEÇİLMEZ**. Geniş katmanlarda (④ ⑤) yalnız GeoNames `alternatenames` eşleşmesi yetmez (asıl ad "
+      "ya da Pleiades adı gerekir; yoksa `belirsiz`). Hiçbir katmanda aday yoksa `belirsiz (bağlam dışı)`; bağlam hiç yoksa `belirsiz "
+      "(bağlam yok)`." % (G.YER_KON_KM, G.TAMPON_KM, G.TAMPON_KM, G.ZARF_AZAMI_DERECE2, G.KUME_KM))
+    w("- **Kaynak önceliği:** madde (ya da künye `f`) yılı < %d → Pleiades kaydı temsilci, aksi hâlde "
+      "GeoNames; aynı kümede öteki gazeteerin kaydı varsa iki kaynak arası km yazılır." % G.ANTIK_SINIR)
+    w("- **Sınıf (temsilcinin en yakın atlas yerleşimine uzaklığı, `girdi.yukle()` evreni):** ≤%g km "
+      "`atlasta-farkli-adla` (eşanlam ADAYI) · %g–%g km `yakin-incele` · >%g km `atlasta-yok` (yeni "
+      "nokta ADAYI)." % (G.ESIK_AYNI_KM, G.ESIK_AYNI_KM, G.ESIK_YAKIN_KM, G.ESIK_YAKIN_KM))
+    w("- Bu araç `arac/yer_esanlam.json`a ve `data/`ya **YAZMAZ**. `esanlam_oneri.tsv` onay bekleyen "
+      "listedir: kaynaklı bulunursa elle `elle` bölümüne geçer. Gazeteer tarih dayanağı değildir.")
+    w("")
+    o, s = oz["once"], oz["sonra"]
+    w("## Önce / sonra (halka ③)")
+    w("| ölçü | önce (yalnız ad) | sonra (ad + koordinat) |\n|---|---|---|")
+    w("| çözülmeyen ŞEHİR adı (ayrı anahtar) | %d | **%d** |" % (o["sehir_ad"], s["sehir_ad_hala_cozulmeyen"]))
+    w("| çözülmeyen ŞEHİR parçası | %d | **%d** |" % (o["sehir_parca"], s["sehir_parca_hala_cozulmeyen"]))
+    w("| başkenti indekste OLMAYAN künye (hiç + kısmi) | %d | **%d** |"
+      % (o["baskent_eksik_kunye"], s["baskent_eksik_kunye"]))
+    w("| — hiçbir başkent parçası yok | %d | %d |" % (o["baskent"].get("hic-cozulmedi", 0),
+                                                    s["baskent"].get("hic-cozulmedi", 0)))
+    w("| — kısmi | %d | %d |" % (o["baskent"].get("kismi", 0), s["baskent"].get("kismi", 0)))
+    w("")
+    w("*\"Sonra\"da yalnız `atlasta-farkli-adla` çözülmüş sayılır — o da eşanlam ADAYIdır; onaylanmadan "
+      "atlas sözlüğüne girmez. `yakin-incele`, `atlasta-yok`, `belirsiz` çözülmemiş kalır (koordinatı "
+      "bilinir, atlasta karşılığı yok ya da kesin değil).*")
+    w("")
+    w("## Sınıf dağılımı")
+    w("| sınıf | kronoloji parçası | başkent parçası |\n|---|---|---|")
+    for c in ("atlasta-farkli-adla", "yakin-incele", "atlasta-yok", "belirsiz", "gazeteerde-yok"):
+        w("| %s | %d | %d |" % (c, oz["parca_sinif"].get(c, 0), oz["baskent_parca_sinif"].get(c, 0)))
+    w("")
+    w("Anahtar (ayrı ad) düzeyi — kronolojide çözülmeyen %d ad: %s" % (
+        o["sehir_ad"], " · ".join("%s %d" % kv for kv in sorted(oz["anahtar_sinif"].items(),
+                                                                key=lambda kv: -kv[1]))))
+    w("")
+    w("Belirsiz sebepleri (parça): %s" % " · ".join("%s %d" % kv for kv in sorted(
+        oz["belirsiz_sebep"].items(), key=lambda kv: -kv[1])))
+    w("")
+    w("Adaş (aynı ad, maddeler arasında >%g km ayrı İKİ yere çözüldü): %d anahtar — %s"
+      % (G.KUME_KM, len(oz["adas_coklu_anahtar"]), ", ".join(oz["adas_coklu_anahtar"]) or "yok"))
+    w("")
+    w("Dosyalar: `esanlam_oneri.tsv` (%d) · `yakin_incele.tsv` (%d) · `yeni_nokta_aday.tsv` (%d) · "
+      "`belirsiz.tsv` (%d) · `gazeteerde_yok.tsv` (%d) · `sinav.tsv` · `ozet.json`"
+      % tuple(oz["satir"][x] for x in ("farkli", "yakin", "yok", "belirsiz", "gyok")))
+    w("")
+    w("## Sınav — iki yön + adaş (`sinav.tsv`)")
+    w("| tür | girdi | bağlam | yıl | sınıf | sebep | katman | seçilen | lat,lon | en yakın atlas | km | ≤3 km atlas | kaynaklar arası km | hüküm |")
+    w("|---|---|---|---|---|---|---|---|---|---|---|---|---|---|")
+    for r in oz["ksinav"]["satir"]:
+        w("| " + " | ".join(str(x).replace("|", "/") for x in r) + " |")
+    w("")
+    w("## En sık geçen 50 `atlasta-yok` şehir (yeni nokta ADAYI)")
+    w("| # | ad | madde | künye başkenti | lat | lon | kaynak id | gazeteer adı | en yakın atlas (km) | bağlam katmanı |")
+    w("|---|---|---|---|---|---|---|---|---|---|")
+    for i, x in enumerate(yok_s[:50], 1):
+        w("| %d | %s | %d | %d | %s | %s | [%s:%s](%s) | %s | %s (%s) | %s |"
+          % (i, x[1], x[16], x[17], x[2], x[3], x[4], x[5], x[6], x[7], x[14], x[15], x[20]))
+    w("")
+    w("## Belirsizler (`belirsiz.tsv`, tam liste)")
+    bel = collections.defaultdict(list)
+    for r in satirlar["belirsiz"]:
+        bel[(r[0], r[1])].append(r)
+    w("%d parça · %d ayrı ad. Seçim YAPILMADI; insan bağlama bakıp seçer." % (len(satirlar["belirsiz"]), len(bel)))
+    w("")
+    w("| ad | geçiş | sebep(ler) | ilk adaylar |\n|---|---|---|---|")
+    for (a, g), ls in sorted(bel.items(), key=lambda kv: (-len(kv[1]), kv[0])):
+        w("| %s | %d | %s | %s |" % (g, len(ls), ", ".join(sorted({x[6] for x in ls})),
+                                    ls[0][10][:220].replace("|", "/")))
+    w("")
+    w("## Ölçüm uyarıları (ölçülemedi ≠ yok ≠ temiz)")
+    w("- **GeoNames cities1000 yalnız nüfusu ≥1000 yerleşim yeridir** (P sınıfı): ören yeri, kale, "
+      "terk edilmiş şehir (Ani, Alamut, Harran'ın antik höyüğü) burada YOKTUR — onlar için tek kaynak "
+      "Pleiades'tir; Pleiades Greko-Romen merkezlidir, İran/Orta Asya/Doğu Asya/Amerika'yı seyrek kapsar. "
+      "`gazeteerde-yok` = bu İKİ dosyada yok demektir, dünyada yok değil (GeoNames allCountries "
+      "indirilmedi — ölçülmedi).")
+    w("- Ad eşleşmesi Türkçe-güvenli katlama + transliterasyon kurallarıdır; Türkçe/Osmanlıca adlar "
+      "(`Belensiye`, `Meyyâfârikîn`) gazeteerde ancak alternatenames'te Türkçe biçim varsa ya da "
+      "kronolojide parantezli modern ad varsa bulunur.")
+    w("- Bağlam alanı lon/lat düzleminde dışbükey zarftır; antimeridyeni geçen künyelerde (Pasifik) zarf "
+      "yanlış olabilir, tampon katmanı yine çalışır. Geniş künyeler (imparatorluklar, sömürge sahipleri) "
+      "zarfı kıtalar boyu açar ⇒ o maddelerde adaş `belirsiz`e düşer (seçmemek bilinçli).")
+    w("- `atlasta-farkli-adla` eşiği (≤%g km) iki ayrı yeri de yakalayabilir (ikiz şehir, antik/yeni "
+      "yer, semt): `diger_atlas_3km_icinde` sütunu doluysa birden çok atlas noktası var — örn. "
+      "Budapeşte hem Budin hem Peşte'ye 3 km içinde." % G.ESIK_AYNI_KM)
+    w("- Gazeteer koordinatı temsilî noktadır (GeoNames: şehir merkezi; Pleiades: `reprLat/reprLong`); "
+      "yeni nokta yazılacaksa koordinat ve TARİH akademik kaynaktan ayrıca doğrulanır.")
+    with io.open(os.path.join(KOORD_CIKTI, "RAPOR.md"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(L) + "\n")
+
+
 def main():
     t0 = time.time()
     soz = sozluk_oku()
@@ -962,8 +1463,29 @@ def main():
     sinav_s, kaldi = sinav(Y, dz, kum)
     for s in sinav_s:
         log("  SINAV", " · ".join(str(x) for x in s))
-    if "--sinav" in sys.argv:
+    koord_mod = bool(_arg("--gazeteer-geonames") or _arg("--gazeteer-pleiades"))
+    if "--sinav" in sys.argv and not koord_mod:
         return 1 if kaldi else 0
+    if koord_mod:
+        # KOORDİNAT KATMANI: yalnız halka ③ + gazeteer; çıktı SILSILE-KOORDINAT-1014'e,
+        # SILSILE-OLCUM-1014 dosyalarına DOKUNULMAZ, halka ④ koşturulmaz.
+        if "--sinav" in sys.argv:
+            KC = KoordCozucu(Y, D, kum, soz, _arg("--gazeteer-geonames"), _arg("--gazeteer-pleiades"))
+            KC.yukle({x[1] for x in KSINAV})
+            ks, kk = koord_sinav(KC)
+            for s in ks:
+                log("  KSINAV", " · ".join(str(x) for x in s))
+            return 1 if (kaldi or kk) else 0
+        log("kronoloji yükleniyor (index.html → paket_coz → node vm)…")
+        kron_dosyalar, J, hatali, bos = kronoloji_yukle()
+        if hatali:
+            log("  UYARI yüklenemeyen dosya: %s" % [d["dosya"] for d in hatali])
+        log("halka ③…")
+        R3 = halka3(Y, D, soz, kum, dz, J, kron_dosyalar)
+        oz = koordinat(Y, D, soz, kum, dz, R3, t0)
+        if oz["olculemedi"]:
+            return 2
+        return 1 if (kaldi or oz["ksinav"]["kaldi"]) else 0
 
     log("kronoloji yükleniyor (index.html → paket_coz → node vm)…")
     kron_dosyalar, J, hatali, bos = kronoloji_yukle()
