@@ -235,7 +235,7 @@ window.MERAK = [
     { tez:"Zincir fikrinin kendi sicili zayıf — ve Osmanlı'nın cevabı zincir değil TOP oldu",
       dayanak:"Zincir ancak İKİ UCU DA tutuluyorsa engeldir: Haliç zincirinin bir ucu Sirkeci'de Kentenarios burcuna, öteki ucu Karaköy'de Kastellion hisarına bağlıydı — ve 1203'te Batılı şövalyeler Kastellion'u ele geçirerek zinciri açmışlardı. 1453'te de zincir kırılmadı, 21 Nisan gecesi gemilerin Galata sırtlarından indirilmesiyle \"fonksiyonunu kaybetti\". Osmanlı aynı işi kalelere yerleştirdiği toplarla çözdü. Osmanlı'nın boğazlara zincir germeyi düşünüp düşünmediğine dair bir kayıt bilinmiyor; bu görüş bir belgeye değil, zincirin geçmişteki sicilinden çıkan bir yoruma dayanır.", ic_not_dayanak:"eski: ⚠️ … bir kayıt taranan TDV maddelerinde BULUNAMADI; bu görüş bir kayıt değil, zincirin ölçülmüş siciline dayanan bir çıkarımdır." }
   ],
-  baglanti:["1354-03-02","1366-08-01","1376-09-01","1395-08-01","1452-01-01|Kilitbahir","1452-08-31","1453-04-06","1453-04-22","1453-05-29"],
+  baglanti:["1354-03-02","1366-08-01","1376-09-01","1395-08-01","1463-01-01|Kilitbahir","1452-08-31","1453-04-06","1453-04-22","1453-05-29"],
   kesinlik:"tartismali",
   kaynak:"TDV: ÇANAKKALE · KİLİTBAHİR KALESİ · GELİBOLU · ANADOLUHİSARI · RUMELİHİSARI · HALİÇ · İSTANBUL" },
 

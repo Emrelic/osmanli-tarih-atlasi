@@ -421,7 +421,7 @@ window.KRONOLOJI_IRAN = [
   etiket:["diplomasi","konu-diplomasi"],
   d:"[Safevî] İngiliz maceracı kardeşler Anthony ve Robert Sherley, Şah Abbas'ın sarayına gelip Safevî ordusunun Avrupa tarzı topçu ve tüfekli birliklerle modernleştirilmesine danışmanlık etti; bu, İran'ın Avrupa devletleriyle doğrudan askerî-diplomatik temasının erken örneklerinden biridir.",
   kaynak:"Encyclopaedia Iranica, madde: SHERLEY BROTHERS", yer_id:"Isfahan" },
-{ t:"1618-09-26", b:"Osmanlı-Safevî Savaşı (Nasuh Paşa sonrası) yeniden alevlendi", tur:"savas", onem:3, dunya:2, kapsam:"dis",
+{ t:"1615-04-23", ic_not_t:"KUTU-H7-1015 (0068/H-0006): eski t 1618-09-26 — Serav ANTLAŞMASININ günüydü, savaşın yeniden alevlenişi değil. Başlangıç TDV mehmed-pasa-damad: Şark seferine memur sadrazam '23 Rebîülevvel 1024’te (23 Nisan 1615) Üsküdar’a geçti'.", b:"Osmanlı-Safevî Savaşı (Nasuh Paşa sonrası) yeniden alevlendi", tur:"savas", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","savas","konu-askeri"],
   d:"[Safevî] 1612 Nasuh Paşa Antlaşması'nın kısa ömürlü barışının ardından savaş yeniden başladı; Şah Abbas'ın orduları Van ve Kars bölgesinde yeni kazanımlar elde etti, 1618 Serav Antlaşması'yla sınır büyük ölçüde korunarak barış yeniden tesis edildi.",
   kaynak:"Encyclopaedia Iranica, madde: OTTOMAN-PERSIAN RELATIONS", kapsam_genis:true },

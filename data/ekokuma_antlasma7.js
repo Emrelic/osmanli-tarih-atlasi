@@ -33,7 +33,8 @@ window.EKOKUMA_ANTLASMA7 = [
   id: "antlasma7-edirne-1568",
   baslik: "Edirne Antlaşması (1568) — Habsburglarla savaşa son veren barış",
   tur: "antlasma",
-  olay: ["1568-01-01|Edirne Antlaşması"],
+  olay: ["1568-02-17|Edirne Antlaşması"],
+  ic_not_olay: "KUTU-H7-1015 (0068/H-0006): kronoloji_habsburg maddesi 1568-01-01'den TDV selim-ii gününe (17 Şubat 1568) çekildi ve çekirdeğe aynı günlü madde yazıldı (olaylar_h7_asama.js); bağ taşındı.",
   metin: "TDV'ye göre II. Selim kışı Edirne'de geçirirken Habsburg elçisini kabul etti ve Habsburglar'la aradaki savaş durumuna son veren antlaşma 17 Şubat 1568'de imzalandı. TDV 'Macaristan' maddesi şunu ekler: Kanûnî'nin son seferi Sigetvar'ın alınmasıyla bitince Osmanlı yönetimi bütün Macaristan'ı kontrol edemeyeceğini anladı ve Edirne Antlaşması yirmi üç yıllık göreli bir barış dönemini başlattı. Antlaşmanın dondurduğu tablo üçe bölünmüş bir Macaristan'dı: Habsburglar'ın elindeki kesim (tahminen 120.000 km²), Osmanlı hâkimiyetindeki kesim (yaklaşık 120.000 km²) ve yarı bağımsız Erdel Prensliği. Barış süresi, haraç miktarı ve sınır kalelerine dair madde madde hükümler kullanılan TDV maddelerinde verilmiyor.",
   kesinlik: "kesin",
   kaynak: "TDV: selim-ii (Edirne'de Habsburg elçisi, 17 Şubat 1568 antlaşması) · TDV: macaristan ('1568 Edirne Antlaşması'; yirmi üç yıllık nisbî barış; ülkenin üç parçası)"

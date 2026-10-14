@@ -156,7 +156,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"I. Ferdinand Viyana'da öldü ve mirası üç oğlu arasında paylaştırıldı: Maximilian'a Enns'in altı ve üstü Avusturya (başkent Viyana), Ferdinand'a Tirol ve Vorlande, Karl'a İç Avusturya (Steiermark, Kärnten, Krain). Bu bölünme hanedanın gücünü dağıttı ve 1665'e kadar tam olarak giderilemedi.",
   kaynak:"Die Welt der Habsburger, 'Dreiteilung des österreichischen Erbes' / Wien Geschichte Wiki 'Maximilian II.': 1564 miras taksimi · gün: Wien Geschichte Wiki, 'Ferdinand I. (Heiliges Römisches Reich)' (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"† 25. Juli 1564 Wien\" — önceki yıl damgası (1564-01-01) değiştirildi" },
 
-{ t:"1568-01-01", b:"Edirne Antlaşması — serhaddin dondurulması", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Edirne",
+{ t:"1568-02-17", ic_not_t:"KUTU-H7-1015 (0068/H-0006): eski t 1568-01-01 (yıl); gün TDV selim-ii: 'Habsburglar’la aradaki savaş durumuna son veren antlaşma imzalandı (17 Şubat 1568)'.", b:"Edirne Antlaşması — serhaddin dondurulması", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Edirne",
   etiket:["diplomasi","konu-diplomasi"],
   d:"Habsburg ile Osmanlı arasında sınırın mevcut hâliyle tanındığı ve Habsburg'un yıllık ödemeyi sürdürdüğü bir barış yapıldı. Yirmi beş yıllık görece sükûnet dönemi başladı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası kullanıldı)" },

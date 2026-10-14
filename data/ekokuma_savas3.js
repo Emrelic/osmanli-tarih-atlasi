@@ -341,9 +341,9 @@ window.EKOKUMA_SAVAS3 = [
   sonuc:"Zafer Mûsâ'ya yaramadı: savaşın ardından Paşa Yiğit ve Mihaloğlu dahil bazı beyleri Stefan Lazareviç'in yanına kaçıp onun yerlerini yağmaladı. Aynı yılın sonbaharında Mehmed yeniden Boğaz'ı geçtiyse de kötü hava ve taşan nehirler yüzünden döndü. Mûsâ Sırbistan ve Arnavutluk'ta seferler yaparken Sırp despotu Mehmed'le ittifak kurdu. 1413 yazında Rumeli'ye geçen Mehmed'e Paşa Yiğit, Evrenos, Barak ve Sinan beyler katıldı; Mûsâ 5 Temmuz 1413'te Çamurlu'da yenilip öldürüldü ve Osmanlı toprakları yeniden tek elde birleşti.",
   tartisma:"İnceğiz'in tarihi TDV'nin iki maddesinde farklıdır: Mûsâ Çelebi maddesi 815 (1412) baharı, Fetret Devri maddesi Ekim 1412 der. Kuşatmanın başlangıcı da Mûsâ Çelebi maddesinde 1411 sonbaharıdır.",
   kesinlik:"kesin",
-  olay:["1411-06-01|İstanbul","1412-10-01|İnceğiz"],
+  olay:["1411-01-01|İstanbul","1412-10-01|İnceğiz"],
   kaynak:"TDV: musa-celebi (İstanbul kuşatması ve başarısızlık sebepleri, İnceğiz, sonrası, Çamurlu) · TDV: fetret-devri (Fazlullah'ın aracılığı, Ekim 1412, 7000 yeniçeri)",
-  ic_not:"Madde 1411-06-01 'Musa Çelebi'nin İstanbul kuşatması' — TDV musa-celebi '1411 sonbaharı' der; gün düzeltmesi madde sahibine önerilmeli.",
+  ic_not:"Madde 1411-06-01 'Musa Çelebi'nin İstanbul kuşatması' — TDV musa-celebi '1411 sonbaharı' der; gün düzeltmesi madde sahibine önerilmeli. · KUTU-H7-1015 (0073/H-0017): madde sonradan 1411-01-01 (yıl) yazıldı; bağ oraya taşındı (öksüzdü).",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
 // ── 17 · 1416 Gelibolu ───────────────────────────────────────────────────

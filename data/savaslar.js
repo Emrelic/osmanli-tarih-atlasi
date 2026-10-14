@@ -556,7 +556,7 @@ window.ANTLASMALAR = [
 window.ANTLASMALAR.push(
   { t:"1746-09-04", ad:"Kerden", savas_basi:"1743-10-23", taraf_metin:"Afşar (Nadir Şah)", ozet:"1639 Kasr-ı Şirin sınırına dönüş",
     taraf:["osmanli","afsar"], topraklar:"Toprak el değiştirmedi; 1730'lardan beri tartışmalı Bağdat-Kirkük hattı 1639 Kasr-ı Şirin sınırına göre teyit edildi." },
-  { t:"1830-08-30", ad:"Sırbistan özerklik fermanı", savas_basi:"1804-02-14", taraf_metin:"Sırbistan Prensliği", ozet:"Sırbistan'a geniş iç özerklik tanındı",
+  { t:"1830-10-17", ic_not_t:"KUTU-H7-1015 (0073/H-0017): eski t 1830-08-30 (devletler.js künyesinden); TDV sirbistan: 'Nihayet 17 Ekim 1830'da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti' — kronoloji maddesi (olaylar_ek.js) Emre'nin 30 Eyl 2026 kararıyla bu güne alınmıştı; kart öksüz kalıyordu.", ad:"Sırbistan özerklik fermanı", savas_basi:"1804-02-14", taraf_metin:"Sırbistan Prensliği", ozet:"Sırbistan'a geniş iç özerklik tanındı",
     taraf:["osmanli","sirbistan-prensligi"], topraklar:"Toprak el değiştirmedi; Sırbistan Prensliği'ne (1804-1815 isyanlarının sonucu) geniş iç özerklik ve kendi ordusunu kurma hakkı tanındı, yıllık haraca bağlı vasal statüsü resmileşti." }
 );
 // Devam görevi (cross-session mesajı, entegrasyon oturumu) — "Öncelik 3: 33 →

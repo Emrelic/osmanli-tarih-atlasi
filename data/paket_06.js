@@ -161,7 +161,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"I. Ferdinand Viyana'da öldü ve mirası üç oğlu arasında paylaştırıldı: Maximilian'a Enns'in altı ve üstü Avusturya (başkent Viyana), Ferdinand'a Tirol ve Vorlande, Karl'a İç Avusturya (Steiermark, Kärnten, Krain). Bu bölünme hanedanın gücünü dağıttı ve 1665'e kadar tam olarak giderilemedi.",
   kaynak:"Die Welt der Habsburger, 'Dreiteilung des österreichischen Erbes' / Wien Geschichte Wiki 'Maximilian II.': 1564 miras taksimi · gün: Wien Geschichte Wiki, 'Ferdinand I. (Heiliges Römisches Reich)' (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"† 25. Juli 1564 Wien\" — önceki yıl damgası (1564-01-01) değiştirildi" },
 
-{ t:"1568-01-01", b:"Edirne Antlaşması — serhaddin dondurulması", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Edirne",
+{ t:"1568-02-17", ic_not_t:"KUTU-H7-1015 (0068/H-0006): eski t 1568-01-01 (yıl); gün TDV selim-ii: 'Habsburglar’la aradaki savaş durumuna son veren antlaşma imzalandı (17 Şubat 1568)'.", b:"Edirne Antlaşması — serhaddin dondurulması", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Edirne",
   etiket:["diplomasi","konu-diplomasi"],
   d:"Habsburg ile Osmanlı arasında sınırın mevcut hâliyle tanındığı ve Habsburg'un yıllık ödemeyi sürdürdüğü bir barış yapıldı. Yirmi beş yıllık görece sükûnet dönemi başladı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası kullanıldı)" },
@@ -3247,7 +3247,7 @@ window.KRONOLOJI_IRAN = [
   etiket:["diplomasi","konu-diplomasi"],
   d:"[Safevî] İngiliz maceracı kardeşler Anthony ve Robert Sherley, Şah Abbas'ın sarayına gelip Safevî ordusunun Avrupa tarzı topçu ve tüfekli birliklerle modernleştirilmesine danışmanlık etti; bu, İran'ın Avrupa devletleriyle doğrudan askerî-diplomatik temasının erken örneklerinden biridir.",
   kaynak:"Encyclopaedia Iranica, madde: SHERLEY BROTHERS", yer_id:"Isfahan" },
-{ t:"1618-09-26", b:"Osmanlı-Safevî Savaşı (Nasuh Paşa sonrası) yeniden alevlendi", tur:"savas", onem:3, dunya:2, kapsam:"dis",
+{ t:"1615-04-23", ic_not_t:"KUTU-H7-1015 (0068/H-0006): eski t 1618-09-26 — Serav ANTLAŞMASININ günüydü, savaşın yeniden alevlenişi değil. Başlangıç TDV mehmed-pasa-damad: Şark seferine memur sadrazam '23 Rebîülevvel 1024’te (23 Nisan 1615) Üsküdar’a geçti'.", b:"Osmanlı-Safevî Savaşı (Nasuh Paşa sonrası) yeniden alevlendi", tur:"savas", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","savas","konu-askeri"],
   d:"[Safevî] 1612 Nasuh Paşa Antlaşması'nın kısa ömürlü barışının ardından savaş yeniden başladı; Şah Abbas'ın orduları Van ve Kars bölgesinde yeni kazanımlar elde etti, 1618 Serav Antlaşması'yla sınır büyük ölçüde korunarak barış yeniden tesis edildi.",
   kaynak:"Encyclopaedia Iranica, madde: OTTOMAN-PERSIAN RELATIONS", kapsam_genis:true },

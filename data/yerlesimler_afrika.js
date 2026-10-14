@@ -672,7 +672,7 @@ window.YERLESIMLER_AFRIKA = [
 // noktası (Bahrinegus'un merkezi).
 { ad:"Arkîko", tur:"liman", lat:15.548, lon:39.449, g:0, k:4, m:"Sevâkin",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1936-06-01",d:"italya"},{f:"1936-06-01",t:"1941-04-01",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa"},{f:"1941-04-01",t:"1952-09-15",d:"eritre-ingiliz-askeri-idaresi",kaynak:"Britannica: Eritrea; Asmara 1 Nisan 1941"},{f:"1952-09-15",t:"1962-11-14",d:"eritre-federasyon",kaynak:"BM GA 390 (V) 1950"},{f:"1962-11-14",t:"1974-09-12",d:"habesistan",kaynak:"Britannica: Eritrea; federasyonun feshi 14 Kasim 1962"},{f:"1974-09-12",t:"1991-05-24",d:"etiyopya-derg",kaynak:"Britannica: Ethiopia/Eritrea"},{f:"1991-05-24",t:"2000-12-31",d:"eritre",kaynak:"Britannica: Eritrea; Asmara 24 Mayis 1991 fiili"}],
-  d:[{f:"1557-01-01",t:"1885-02-05"}] },
+  d:[{f:"1557-01-01",t:"1885-02-05",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Masavva'nın karşı kıyısındaki Habeş eyaleti limanı; Osmanlı'ya bağlantı deniz yoluyladır · TDV masavva: Masavva 1557'de Habeş eyaletine bağlı sancak merkezi, 'beylerbeyi Sevâkin’de oturmaktaydı' (dönem uçları bu beyanla doğrulanmadı)"}] },
 
 // Mısır ile Sevâkin arasındaki kıyı; 1899 Anglo-Mısır sınırında Sudan'da
 // kaldı.

@@ -220,7 +220,7 @@ window.KRONOLOJI_SAFEVI = [
   etiket:["askeri","goc","konu-askeri","konu-demografi"],
   d:"Teimuraz'ın yeniden isyanı üzerine Şah Abbas'ın ikinci seferi çok daha kanlı geçti; Gürcü kaynakları on binlerce kişinin öldürüldüğünü, çok sayıda Gürcünün de İran'ın iç bölgelerine sürgün edildiğini kaydeder. Bu olay Gürcü tarihyazımında \"büyük felaket\" (didi ghmerto) olarak anılan en ağır travmalardan biridir.",
   kaynak:"Encyclopaedia Iranica, madde: GEORGIA xi. Georgia-Iran Relations", yer_id:"", odak_yer:"Zagem" },
-{ t:"1618-09-10", b:"Serav Antlaşması — savaşın 1555 sınırına dönerek bitmesi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis",
+{ t:"1618-09-26", ic_not_t:"KUTU-H7-1015 (0068/H-0006): eski t 1618-09-10 — TDV dilaver-pasa'ya göre 10 Eylül 1618 Pulişikeste (Serav) SAVAŞININ, 26 Eylül 1618 ANTLAŞMANIN günüdür.", b:"Serav Antlaşması — savaşın 1555 sınırına dönerek bitmesi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis",
   etiket:["antlasma","konu-diplomasi"],
   d:"1618'de yeniden alevlenen savaş, Serav (Selmas yakını) Antlaşması'yla sona erdi; sınır esas olarak Nasuh Paşa çizgisinde kaldı, ama Osmanlı savaş tazminatı ile ipek ihracı üzerinde ayrıcalıklar talep etti — bu madde bir sonraki on yılın gerginliğinin tohumunu attı.",
   kaynak:"Cambridge History of Iran, c.6", yer_id:"", odak_yer:"Selmâs" },
