@@ -775,6 +775,184 @@ window.EKOKUMA_SAVAS3 = [
   kesinlik:"kesin",
   olay:["1695-09-22|Lugoş","1696-08-27|Ulaş"],
   kaynak:"TDV: mustafa-ii (iki seferin hazırlığı, Lippa, Buldur/Lugoş savaşı, Ulaş, Azak, Zenta, Karlofça)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ════════════════════════════════════════════════════════════════════════════
+// DALGA 5 / 3. parti — KUTU-G1-1014 · 1281-1699 dilimi, Osmanlı dışı cepheler.
+// Okunan TDV gövdeleri: halil-b-kalavun · memlukler · akka · bizans · gelibolu ·
+// timur · muzafferiler · ahmed-celayir · celayirliler · bagdat · izmir · isa-celebi ·
+// mehmed-i · karakoyunlular · dulkadirogullari · seybani-han · sah-ismail · safeviler.
+// ════════════════════════════════════════════════════════════════════════════
+
+// ── 39 · 1291 Akkâ ───────────────────────────────────────────────────────
+{ id:"savas-akka-1291", tur:"savas-hikayesi",
+  baslik:"Akkâ'nın fethi ve Haçlıların Suriye kıyısından çekilişi (5 Nisan – 28 Mayıs 1291)",
+  kisa:"Babası ölüm döşeğinde yarım bıraktığı seferi oğluna emanet etti; Akkâ'nın düşüşüyle iki yüz yıllık Haçlı varlığı bir yaz içinde kıyıdan silindi.",
+  tarih_metin:"6 Mart 1291 (Memlük ordusu Kahire'den çıkar) · 5 Nisan (Akkâ önüne varış) · 17 Cemâziyelevvel 690 · 18 Mayıs 1291 (şehir alınır) · 28 Mayıs (Templier binası düşer)",
+  yer:"Akkâ (Acre), Hayfa koyunun kuzeyi — ardından Sûr, Sayda, Tartûs, Beyrut, Hayfa ve Cübeyl",
+  taraflar:[
+    { ad:"Memlük Sultanlığı", komutan:"Sultan el-Melikü'l-Eşref Halîl b. Kalavun", kuvvet:"kaynakta sayı verilmiyor; TDV 'her bakımdan üstün' der" },
+    { ad:"Akkâ'daki Haçlılar: Templier ve Hospitalier şövalyeleri, Kıbrıs kuvvetleri", komutan:"Kıbrıs Kralı Henry (4 Mayıs'tan itibaren başkomutan)", kuvvet:"Kral Henry'nin kırk gemilik donanması; asker sayısı verilmiyor" }
+  ],
+  oncesi:"Akkâ 1104'ten beri Haçlıların elindeydi; Selâhaddîn 1187'de almış, III. Haçlı Seferi 1191'de geri almıştı. Şehir uzun süre Kudüs Haçlı Krallığı'nın merkezi oldu, 1229'dan sonra özellikle Saint Jean şövalyelerinin karargâhıydı. Memlük Sultanı Kalavun, İlhanlılarla iş birliği yapan bölgedeki Haçlı varlığına son vermek istiyordu, ama Akkâ seferine çıkarken hastalanıp öldü (Kasım 1290). Ölüm döşeğinde oğlu Halîl'e seferi tamamlayacağına söz verdirdi. Halîl kuşatma malzemesi ve orduyu hazırladı; Akkâ'dan gelen ve Philippe Mainboeuf'un başkanlık ettiği elçileri kabul etmeyip zindana attırdı.",
+  akis:"Memlük ordusu 6 Mart 1291'de Kahire'den çıktı ve 5 Nisan'da Akkâ önüne vardı; ünlü tarihçi Ebü'l-Fidâ Hama birlikleri arasındaydı. Templier ve Hospitalier şövalyeleri şehirde toplandı, Kıbrıs Kralı Henry kardeşi Amaury ile kuvvet gönderdi. Kuşatmanın başında gemiler dolusu yaşlı ve çocuk Kıbrıs'a kaçırıldı. Henry 4 Mayıs'ta kırk gemiyle gelip başkomutanlığı üstlendi, ama getirdiği kuvvet sonucu değiştirecek düzeyde değildi. 18 Mayıs akşamı Templier tarikat binası dışında bütün şehir Müslümanların eline geçti; 28 Mayıs'ta orası da alındı.",
+  sonuc:"Sultan, Haçlıların Suriye'ye yeni bir saldırıda üs olarak kullanmaması için şehri yıktırdı. Memlük kuvvetleri ardından Sûr, Sayda, Tartûs, Beyrut, Aslîs, Hayfa ve Cübeyl'i aldı ve Suriye kıyılarını Haçlılardan temizledi. TDV Memlükler maddesine göre Akkâ'nın alınmasıyla bölgede iki yüz yıl süren Haçlı varlığı sona erdi. Fetih İslâm ve Hıristiyan dünyasında büyük yankı uyandırdı. Akkâ ancak XVIII. yüzyılda yeniden bölgenin merkezi olacaktı.",
+  tartisma:"Okunan TDV maddeleri iki tarafın asker sayısını vermez; kuşatmanın hücum safhaları anlatılmaz.",
+  kesinlik:"kesin",
+  olay:["1291-05-18|Akkâ"],
+  kaynak:"TDV: halil-b-kalavun (sefer hazırlığı, tarihler, Kral Henry, 18 ve 28 Mayıs, kıyı şehirleri) · TDV: memlukler (Kalavun'un ölümü, iki yüz yıllık Haçlı varlığı) · TDV: akka (şehrin geçmişi)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 40 · 1303-1305 Katalan Bölüğü ────────────────────────────────────────
+{ id:"savas-katalan-bolugu-1303-1305", tur:"savas-hikayesi",
+  baslik:"Katalan Bölüğü'nün Anadolu seferi (1303-1305)",
+  kisa:"Bizans Türk beyliklerini durdurmak için paralı asker kiraladı; Alaşehir kurtuldu, ama kiralık ordu kısa sürede efendisini yağmalamaya başladı.",
+  tarih_metin:"1303 (Bizans hizmetine giriş) · 1304 (Alaşehir) · 1305 (Roger de Flor öldürülür) · 1311 (Atina'da Katalan devleti)",
+  yer:"Batı Anadolu (Alaşehir) · Gelibolu ve Trakya",
+  taraflar:[
+    { ad:"Katalan Bölüğü (Bizans'ın paralı askeri)", komutan:"Roger de Flor", kuvvet:"6500 kişi" },
+    { ad:"Batı Anadolu Türk beylikleri", komutan:"Germiyanoğulları (Alaşehir kuşatması)", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"Batı Anadolu'da kurulan Türk beylikleri topraklarını Bizans aleyhine genişletiyor, üzerlerine gönderilen Bizans ordularını yeniyordu. 1302 Koyunhisar yenilgisinden sonra Osman'ın akıncıları İstanbul Boğazı'na kadar görünmeye başlamıştı. Bu sıkışık anda Roger de Flor yönetimindeki 6500 kişilik Katalan birliği ücretli asker olarak Türklere karşı savaşmak üzere Bizans'ın yardımına geldi (1303).",
+  akis:"Katalanlar 1304'te Germiyanoğullarının kuşattığı Alaşehir'i kurtardı. Ama kısa sürede girdikleri her yeri yağmalayıp tahrip etmeye başladılar. Anadolu'daki harekâttan sonra Gelibolu'ya yerleştiler.",
+  sonuc:"Bizans onlardan kurtulmak için birlikleri Trakya'ya geçirdi ve Roger de Flor'u öldürttü (1305). Katalanlar komutanlarının öcünü almak için Trakya'yı yağmaladı; bu yıllarda Ece Halil idaresindeki 500 Karesili Türkmen de onlarla birlikte hareket edip kılavuzluk yaptı. Sonunda Yunanistan'a çekilip orada bir devlet kurdular (1311-1379). Kiralık ordunun Anadolu'daki başarısı geçici kaldı.",
+  tartisma:"Okunan TDV maddeleri seferin Osmanlı Beyliği ile doğrudan bir çarpışmasını anlatmaz; muhatap Germiyanoğullarıdır.",
+  kesinlik:"kesin",
+  olay:["1305-06-01|Katalan"],
+  kaynak:"TDV: bizans (6500 kişi, 1303, Alaşehir 1304, Roger de Flor'un öldürülmesi 1305, Atina devleti) · TDV: gelibolu (Gelibolu'ya yerleşme, Karesili Türkmenler) · TDV: osman-i (1304'te İstanbul Boğazı'na kadar akınlar)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 41 · 1386-1388 Timur'un 'üç yıllık seferi' ve İran ──────────────────
+{ id:"savas-timur-iran-1386-1388", tur:"savas-hikayesi",
+  baslik:"Timur'un 'üç yıllık seferi' ve İran'ın boyun eğişi (1386-1388)",
+  kisa:"İlhanlılardan kalan parça parça İran'ı Timur tek tek topladı; İsfahan'da memurlarının öldürülmesinin bedelini şehir korkunç bir katliamla ödedi.",
+  tarih_metin:"788 (1386) – 1388 ('üç yıllık sefer') · 1393 (Muzafferîlere son)",
+  yer:"Mâzenderan, Luristan, Azerbaycan (Tebriz, Karabağ), Irâk-ı Acem (İsfahan), Fars (Şîraz)",
+  taraflar:[
+    { ad:"Timur", komutan:"Timur · oğlu Mîrân Şah", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"İran'ın yerel hânedanları: Celâyirliler, Muzafferîler", komutan:"Celâyirli Sultan Ahmed · Muzafferî Zeynelâbidîn ve akrabaları", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"Timur iktidarı ele geçirdiğinde İran parçalanmıştı: Horasan'da Kertler ve Serbedârîler, Esterâbâd yöresinde Toga Timurlular, Fars ve Kirman'da merkezi Şîraz olan Muzafferîler, Bağdat merkezli Celâyirliler hüküm sürüyordu. Timur 1380'lerin başında Kertlerin, Toga Timurluların ve Serbedârîlerin varlığına son verdi; Horasan seferlerinde İran'ın durumunu yakından gördü. Muzafferî Şah Şücâ' ona itaat etmişti; 1385'te Kirman'daki İmâdüddin Ahmed onun elçisini saygıyla karşıladı.",
+  akis:"Timur 1386'da İran'a yürüdü. 'Üç yıllık sefer' denen bu harekâtta Mâzenderan, Luristan ve Gürcistan üzerinden Azerbaycan'a gidip Karabağ'a ulaştı; Tebriz bir yıl önce Toktamış'ın, şimdi de Timur'un eline geçip yağmalandı ve Celâyirli Sultan Ahmed merkezini Bağdat'a taşıdı. Timur Irak'a girince İsfahan valisi Muzaffer Kâşî şehri ve kaleleri ona teslim etti, Muzafferî hükümdarı Zeynelâbidîn Şîraz'dan Bağdat'a kaçtı. Timur'un para toplamaya gelen memurları İsfahan'da halk tarafından öldürülünce, TDV'ye göre Timur intikam için şehirde yaklaşık 200.000 kişiyi kılıçtan geçirdi. Ardından Semerkant'ta çıkan bir isyanı bastırmak için bölgeden ayrıldı.",
+  sonuc:"Timur'un Kuzey İran ve Azerbaycan'ı alması, Altın Orda ile eski İlhanlı toprakları arasındaki çatışmayı yeniden başlattı: 1387 baharında Toktamış'ın askerleri Derbend'i geçti. Timur'un yokluğunda Muzafferîler yeniden toparlandı, ama 1392'de başlayan 'beş yıllık sefer'de Timur Şîraz'a girip hânedana son verdi (1393) ve Bağdat kapılarına dayandı. TDV, Bağdat'tan Delhi'ye uzanan bu seferlerde ele geçirilen birçok şehirde büyük tahribat ve katliam yapıldığına dair çağdaş kaynaklara yansıyan pek çok rivayet bulunduğunu yazar.",
+  tartisma:"İsfahan katliamındaki 200.000 rakamı TDV Muzafferîler maddesinin verdiği sayıdır ve çağdaş kronik rivayetlerine dayanır; aynı madde İsfahan olaylarına yıl vermez, burada üç yıllık seferin içinde anlatıldı. Atlas maddesi olayı tek bir güne (Kasım 1387) bağlar; TDV seferi 1386-1388 diye verir.",
+  kesinlik:"rivayet",
+  olay:["1387-11-01|İran"],
+  kaynak:"TDV: timur (İran'ın parçalanmışlığı, üç yıllık sefer, Toktamış, beş yıllık sefer) · TDV: muzafferiler (İsfahan'ın teslimi ve katliam, Muzafferîlerin sonu) · TDV: ahmed-celayir (Tebriz'in yağması, Bağdat'a taşınma)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 42 · 1393 ve 1401 Timur'un Bağdat işgalleri ─────────────────────────
+{ id:"savas-timur-bagdat-1393-1401", tur:"savas-hikayesi",
+  baslik:"Timur'un Bağdat işgalleri (1393 ve 1401)",
+  kisa:"Bağdat'ın sultanı iki kez kaçtı, iki kez döndü; birinci işgalde şehir korundu, ikincisinde Abbâsî mahalleleri yerle bir oldu.",
+  tarih_metin:"20 Şevval 795 · 29 Ağustos 1393 (birinci işgal) · 803 / 1401 (ikinci işgal)",
+  yer:"Bağdat",
+  taraflar:[
+    { ad:"Timur", komutan:"Timur", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Celâyirliler (ve 1400'de müttefik Karakoyunlular)", komutan:"Celâyirli Sultan Ahmed · Karakoyunlu Kara Yûsuf", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"Celâyirli Sultan Ahmed, Tebriz'in Timur tarafından yağmalanmasından sonra 1386'da merkezini Bağdat'a taşımıştı. 1392'de başlayan 'beş yıllık sefer'de Timur Şîraz'ı alıp Muzafferîlere son verdi ve Bağdat kapılarına dayandı. TDV, Timur'un Ağustos 1393'te Bağdat'a inmesinin Osmanlı, Memlük, Altın Orda ve Kadı Burhâneddin devletlerinde önlem aldırdığını, Anadolu beyliklerinde ise sevinç uyandırdığını yazar.",
+  akis:"Birinci işgal: Şehri savunamayan Sultan Ahmed Memlük Sultanı Berkuk'a sığındı; Timur 29 Ağustos 1393'te Bağdat'ı aldı. TDV Bağdat maddesine göre şehir bu ilk işgalde fazla zarar görmedi. Timur kuzeye yönelip Tikrît, Musul, Mardin ve Diyarbekir'i aldı, Anadolu beylerine ve Memlük sultanına itaat çağrısı gönderdi. Timur Semerkant'a dönünce Ahmed Berkuk'un yardımıyla Bağdat'a döndü. İkinci işgal: Timur'un torunu Rüstem'i üzerine yolladığını öğrenen Ahmed, Karakoyunlu Kara Yûsuf'tan yardım istedi; ama Timur'un Bingöl'de olduğu haber alınınca ikisi yeniden Memlüklere sığındı (1400). Timur 1401'de Bağdat'ı ikinci kez aldı.",
+  sonuc:"İkinci işgalde halk suçsuz yere öldürüldü, Abbâsîlerden kalma mahalle ve binaların çoğu tahrip edildi; TDV bunu Bağdat'ın kültür hayatına indirilen ikinci ağır darbe sayar. Memlüklerin kabul etmediği Ahmed ile Kara Yûsuf Yıldırım Bayezid'e sığındı; Ahmed'e Kütahya, Kara Yûsuf'a Aksaray dirlik verildi. Timur'un onları istemesi ve Bayezid'in reddetmesi, 1402 Ankara Savaşı'na giden olaylardan biri oldu. Ahmed 1405'te Bağdat'a dönüp yıkılan surları ve çarşıları onarmaya çalıştı, ama 1410'da Kara Yûsuf'a yenilip öldürüldü; Bağdat 1410'dan 1467'ye kadar Karakoyunluların elinde kaldı.",
+  tartisma:"Okunan TDV maddeleri ikinci işgalin ayını ve kayıp sayısını vermez. Ahmed'in Ankara'dan sonraki dönüşleri sırasıyla TDV Ahmed Celâyir maddesinden aktarılmıştır; Celâyirliler maddesi bunları daha kısa anlatır.",
+  kesinlik:"kesin",
+  olay:["1393-08-29|Bağdat","1401-01-01|Bağdat"],
+  kaynak:"TDV: timur (1393 işgali ve sonrası) · TDV: bagdat (iki işgalin sonuçları) · TDV: ahmed-celayir (kaçışlar, Osmanlı'ya iltica, 1405, 1410) · TDV: celayirliler (Ankara'ya giden süreç)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 43 · 1402 Timur'un İzmir kuşatması ──────────────────────────────────
+{ id:"savas-timur-izmir-1402", tur:"savas-hikayesi",
+  baslik:"Timur'un İzmir kuşatması (Aralık 1402)",
+  kisa:"Yıldırım Bayezid'in yıllarca alamadığı kıyı kalesini Ankara'nın galibi birkaç haftada aldı; ardından Aydın ilini eski beylerine bırakıp doğuya döndü.",
+  tarih_metin:"6 Cemâziyelevvel – 10 Cemâziyelâhir 805 · 2 Aralık 1402 – 5 Ocak 1403 (kuşatma dönemi, TDV I. Mehmed) · 20 Cemâziyelevvel 805 · 16 Aralık 1402 (alınış, TDV Îsâ Çelebi)",
+  yer:"Sahil İzmir (kıyıdaki kale)",
+  taraflar:[
+    { ad:"Timur", komutan:"Timur", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Rodos (Saint Jean) Şövalyeleri ve İzmir'deki Latinler", komutan:"okunan TDV maddelerinde adı geçmiyor", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"Sahil İzmir XIV. yüzyılın ortasından beri Hıristiyanların elindeydi; Aydınoğlu Umur Bey onu geri almak için savaşmıştı. Osmanlılar Aydın ilini ve İzmir'i 1390'da almış, ama sahil İzmir'i Hıristiyanların elinde kalmıştı. 28 Temmuz 1402'de Ankara'da Bayezid'i yenen Timur, ardından Bursa başta olmak üzere Anadolu'nun çeşitli yerlerine asker yolladı; kendisi Kütahya, Denizli, Aydın, Ayasuluk ve Tire üzerinden İzmir'e indi.",
+  akis:"Timur İzmir'i ve çevresindeki bazı kaleleri aldı. TDV I. Mehmed maddesi kuşatmanın 2 Aralık 1402 – 5 Ocak 1403 arasında sürdüğünü, Îsâ Çelebi maddesi şehrin 16 Aralık 1402'de alındığını yazar. Kuşatma sırasında Timur, Süleyman Çelebi'ye Boğaz'ın öte yakasındaki topraklar üzerinde hâkimiyetini tanıyan bir yarlık verdi; İzmir'in düşüşünün hemen ardından Foça Cenevizlileri Timur'un hâkimiyetini tanıdı, Îsâ Çelebi de ona elçi ve armağanlar yolladı.",
+  sonuc:"TDV Timur maddesine göre buradan Rumeli'ye geçmek niyetinde olduğu anlaşılan Timur, Bizans imparatorunun elçi ve armağanlarla bağlılık bildirmesinden sonra bundan vazgeçti ve İzmir'den yeniden doğuya döndü. Aydın ilini eski sahiplerine bıraktı; İzmir, Umur Bey'in yeğeni Cüneyd Bey'in idaresine girdi. Fetret yıllarında taraf değiştiren Cüneyd'den şehri Çelebi Mehmed 1415'te on günlük bir kuşatmayla aldı; II. Murad 1424'te kesin olarak zaptetti.",
+  tartisma:"Alınış günü kaynaklarda ayrışır: Îsâ Çelebi maddesi 16 Aralık 1402, I. Mehmed maddesi kuşatma için 2 Aralık 1402 – 5 Ocak 1403 aralığını verir; atlas maddesi 14 Aralık 1402'ye koyar. Şövalyelerin savunmasının ayrıntısı okunan maddelerde yoktur.",
+  kesinlik:"kesin",
+  olay:["1402-12-14|İzmir"],
+  kaynak:"TDV: timur (Ankara sonrası güzergâh, İzmir, Rumeli niyeti) · TDV: izmir (Latin hâkimiyeti, 1390, Cüneyd, 1415 ve 1424) · TDV: isa-celebi (16 Aralık 1402, Foça) · TDV: mehmed-i (kuşatma aralığı, Süleyman'a yarlık)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 44 · 1406-1408 Aras ve Serdrûd ───────────────────────────────────────
+{ id:"savas-aras-serdrud-1406-1408", tur:"savas-hikayesi",
+  baslik:"Kara Yûsuf'un Aras ve Serdrûd zaferleri (1406, 1408)",
+  kisa:"Timur ölünce Mısır zindanından çıkan Karakoyunlu beyi, Timur'un torununu iki savaşta yenip Azerbaycan'ı Türkmenlere kazandırdı.",
+  tarih_metin:"2 Cemâziyelevvel 809 · 15 Ekim 1406 (Aras) · 16 Zilkade 810 · 13 Nisan 1408 (Serdrûd)",
+  yer:"Aras nehri kıyısı · Serdrûd, Tebriz yakını",
+  taraflar:[
+    { ad:"Karakoyunlular", komutan:"Kara Yûsuf", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Timurlular (Azerbaycan ve iki Irak)", komutan:"Timur'un torunu Ebû Bekir Mirza", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"Kara Yûsuf, Celâyirli Sultan Ahmed ile birlikte Timur'a karşı savaşıp yenilmiş, önce Osmanlılara, sonra Memlüklere sığınmıştı. Şam nâibi Kahire'den gelen emirle ikisini hapsettirdi; ancak 1405'te Timur'un ölümünden sonra serbest kaldılar. Kara Yûsuf Avnik'i alıp Doğu Anadolu'daki topraklarına yeniden sahip oldu. Azerbaycan ile iki Irak'ın sahibi ve çevredeki yerel hânedanların metbûu sayılan Timur'un torunu Ebû Bekir Mirza Bağdat'ı da almıştı.",
+  akis:"Kara Yûsuf Ebû Bekir Mirza'nın üzerine yürüdü ve 15 Ekim 1406'da Aras nehri kenarındaki savaşta onu yendi. İkinci karşılaşma 13 Nisan 1408'de Tebriz yakınındaki Serdrûd'da oldu; bu savaşı da Kara Yûsuf kazandı. Okunan TDV maddesi iki savaşın safhalarını anlatmaz.",
+  sonuc:"Serdrûd zaferi Azerbaycan'ı Karakoyunlulara kazandırdı; Kara Yûsuf ardından komutanı Bistam Bey'i Irâk-ı Acem'in fethiyle görevlendirdi. Eski müttefiki Sultan Ahmed Celâyir 1410'da Tebriz'e saldırınca Esed köyü yakınındaki savaşta yenilip öldürüldü; Bağdat ve Irak'ın geniş kısmı Karakoyunlulara geçti. TDV'ye göre Karakoyunlular İran ve Irak'taki iki yüzyıllık Moğol hâkimiyetine fiilen son verip özellikle Azerbaycan'ın Türkleşmesinde önemli rol oynadı.",
+  tartisma:"Aras zaferi tek başına Tebriz'i Karakoyunlulara vermedi; Azerbaycan'ı kazandıran savaş Serdrûd'dur (TDV Karakoyunlular).",
+  kesinlik:"kesin",
+  olay:["1406-10-15|Aras","1408-04-13|Serdrûd"],
+  kaynak:"TDV: karakoyunlular (Aras ve Serdrûd tarihleri, Azerbaycan, Bistam Bey) · TDV: ahmed-celayir (hapis ve serbest kalış, 1410 savaşı)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 45 · 1414-1418 Dulkadırlı-Memlük çekişmesi ──────────────────────────
+{ id:"savas-dulkadir-memluk-1414-1418", tur:"savas-hikayesi",
+  baslik:"Antep, Darende ve Besni: Dulkadırlılar ile Memlükler (1414-1418)",
+  kisa:"Kızını Çelebi Mehmed'e veren Dulkadır beyi Kahire'yi kuşkulandırdı; Memlük sultanı verdiği şehirleri geri aldı, dört yıl sonra Dulkadırlılar fazlasıyla geri kazandı.",
+  tarih_metin:"1414 (Memlük seferi) · 1418 (Dulkadırlıların karşı hamlesi) — günleri kaynakta yok",
+  yer:"Antep, Darende, Besni — Memlük-Dulkadır sınır bölgesi",
+  taraflar:[
+    { ad:"Dulkadırlı Beyliği", komutan:"Nâsırüddin Mehmed Bey", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Memlük Sultanlığı", komutan:"Sultan Şeyh", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"Timur'dan sonra Memlükler Mehmed Bey'in kardeşi Alâeddin Ali Bey'i 1402'de Antep valisi yapmıştı. Mehmed Bey bir süre sonra Halep valisi Şeyh'in teklifiyle Antep'i aldı ve Şeyh'in Mısır'da iktidarı ele geçirmesinde rol oynadı. Ama aynı yıllarda Osmanlılarla yakınlaştı: kızlarından birini Osmanlı şehzadesi Çelebi Mehmed'e verdi, oğlu Süleyman'ı da onun tek başına tahtı ele geçirmesine yardım için yolladı. TDV'ye göre bu dostluk Memlükleri endişelendirdi.",
+  akis:"Sultan Şeyh 1414'te sefere çıktı ve daha önce kendi rızasıyla Dulkadırlılara verdiği Antep ile Darende'yi geri aldı. Mehmed Bey 1418'de Darende'yi yeniden aldı, Besni'yi de topraklarına kattı. Okunan TDV maddesi bu harekâtların ayrıntısını vermez.",
+  sonuc:"Karamanoğullarıyla bozuşmuş olan Memlük sultanı bu kez Mehmed Bey'i Karaman seferine katılmaya çağırdı; Memlük kuvvetleri çekildikten sonra Karamanoğlu Mehmed Bey, Dulkadırlılara kaptırdığı Kayseri'yi geri almak isterken yenilip esir düştü ve Kahire'ye gönderildi. Dulkadırlılar Osmanlı ile Memlük arasında iki tarafı dengeleyerek varlığını sürdürdü; bu sınır bölgesi 1485-1491 Osmanlı-Memlük savaşının da sahnesi olacaktı.",
+  tartisma:"Okunan TDV maddesi iki yılın yalnız sonucunu verir; savaş mı, el değiştirme mi olduğu ve günler belirsizdir.",
+  kesinlik:"kesin",
+  olay:["1414-01-01|Antep","1418-01-01|Darende"],
+  kaynak:"TDV: dulkadirogullari (Antep valiliği, Osmanlı dostluğu, 1414 ve 1418, Karaman seferi, Kayseri)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 46 · 1467-1469 Karakoyunlu Devleti'nin sonu ─────────────────────────
+{ id:"savas-karakoyunlu-sonu-1467-1469", tur:"savas-hikayesi",
+  baslik:"Karakoyunlu Devleti'nin sonu: Cihan Şah'tan Hasan Ali'ye (1467-1469)",
+  kisa:"En parlak devrini yaşatan hükümdar kış dönüşü bir baskında öldü; oğlunun daha kalabalık ordusu da dağıldı ve Akkoyunlular iki yılda bütün ülkeyi aldı.",
+  tarih_metin:"12 Rebîülâhir 872 · 10 Kasım 1467 (Cihan Şah öldürülür) · Zilhicce 872 · Temmuz 1468 (Hasan Ali'nin yenilgisi) · Şevval 873 · Nisan 1469 (Hasan Ali'nin sonu)",
+  yer:"Sancak mevkii, Bingöl ile Kiğı arası · Azerbaycan · Hemedan yöresi",
+  taraflar:[
+    { ad:"Akkoyunlular", komutan:"Uzun Hasan · oğlu Uğurlu Mehmed", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Karakoyunlular", komutan:"Cihan Şah · oğlu Hasan Ali", kuvvet:"1468'de Karakoyunlu ordusu TDV'ye göre sayıca daha kalabalık ve daha iyi donanımlıydı" }
+  ],
+  oncesi:"Cihan Şah (1438-1467) zamanında Karakoyunlu Devleti bir imparatorluk niteliği kazanıp en parlak devrini yaşadı: Bağdat 1446'da, Sultâniye ve Kazvin 1447'de, Rey, İsfahan, Fars ve Kirman 1452-1453'te alındı. Akkoyunlu taht kavgasında Cihangir'i destekleyip Uzun Hasan'ın üzerine gönderdiği ordu Haziran 1457'de Âmid önünde ağır bir yenilgiye uğradı. Oğulları Hasan Ali ile Pîr Budak'ın isyanları da devleti yıprattı.",
+  akis:"Cihan Şah 1457 yenilgisinin intikamını almak için Uzun Hasan'ın üzerine yürüdü. Kış bastırınca geri dönülürken Bingöl ile Kiğı arasındaki Sancak mevkiinde Uzun Hasan'ın baskınına uğradı ve kaçarken öldürüldü (10 Kasım 1467). Bazı beyler Mâkû kalesindeki oğlu Hasan Ali'yi çıkarıp tahta getirdi; Hasan Ali kendisine tahtı teslim eden üvey annesi Can Begüm'ü ve kardeşlerini öldürttü. Uzun Hasan'a karşı hazırlanan Karakoyunlu ordusu, sayıca kalabalık ve donanımı daha iyi olduğu hâlde Temmuz 1468'de Akkoyunlular karşısında dağıldı.",
+  sonuc:"Hasan Ali Gence yöresindeki Karamanlı kabilesine, oradan yardım istediği Timurlu Ebû Said Mirza'nın yanına gitti; Ebû Said Uzun Hasan'a yenilip esir düşünce Hemedan'a yöneldi. Uzun Hasan'ın oğlu Uğurlu Mehmed onu yenip esir aldı ve öldürttü (Nisan 1469); çağdaş tarihçi Gıyâsî ise Hasan Ali'nin yakalanacağını anlayınca intihar ettiğini yazar. Fars'ta hükümdar ilan edilen Yûsuf Mirza da Uğurlu Mehmed'e yenilip öldürüldü. Böylece Karakoyunlu Devleti eski düşmanları Akkoyunlularca ortadan kaldırıldı; Bağdat kolu da Aralık 1469'da sona erdi.",
+  tartisma:"Hasan Ali'nin ölümü iki türlü anlatılır: TDV'nin esas aldığı rivayette Uğurlu Mehmed onu öldürtmüştür, Gıyâsî intihar ettiğini yazar.",
+  kesinlik:"kesin",
+  olay:["1467-11-10|Cihan Şah","1469-04-01|Karakoyunlu"],
+  kaynak:"TDV: karakoyunlular (Cihan Şah devri, 1457, Sancak baskını, Hasan Ali, Uğurlu Mehmed, Bağdat kolu)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 47 · 1510 Merv ───────────────────────────────────────────────────────
+{ id:"savas-merv-1510", tur:"savas-hikayesi",
+  baslik:"Merv Savaşı: Şah İsmâil'e karşı Şeybânî Han (Aralık 1510)",
+  kisa:"Kaleye kapanan Özbek hanı bir meydan okuma mektubuyla dışarı çıktı; Murgāb kıyısındaki yenilgiden sonra kafatası Kahire'ye, saman doldurulmuş derisi İstanbul'a gönderildi.",
+  tarih_metin:"916 (1510) · Şeybânî Han'ın ölümü 29 Şâban 916 · 1 Aralık 1510",
+  yer:"Merv yakını, Murgāb nehri kıyısı (bugün Türkmenistan)",
+  taraflar:[
+    { ad:"Safevî Devleti", komutan:"Şah İsmâil", kuvvet:"çoğu süvari 70.000 kişi (TDV Şeybânî Han)" },
+    { ad:"Özbekler (Şeybânîler)", komutan:"Muhammed Şeybânî Han", kuvvet:"25-30.000 kişi (TDV Şeybânî Han)" }
+  ],
+  oncesi:"Şah İsmâil batıdaki topraklarla uğraşırken Özbekler Horasan'ı ele geçirmiş, Kirman'a doğru yayılmaya çalışıyordu. Şeybânî Han'ın Herat'ın batı ve güneyindeki dağlık ve çöllük topraklara yaptığı sefer de kayıplarla sonuçlandı. O Herat'a dönerken Şah İsmâil büyük bir orduyla gelip Meşhed'i aldı, Özbek askerlerini püskürterek Herat'a yaklaştı. Şeybânî Han ordusunun büyük kısmını gönderip Merv kalesine çekildi.",
+  akis:"Merv'i kuşatan Şah İsmâil kaleyi zorla alamayacağını anlayınca Şeybânî Han'a onu savaş meydanında beklediğini bildiren mektuplar yolladı. Şeybânî Han 25-30.000 kişilik ordusuyla kaleden çıktı ve Merv yakınındaki Murgāb kıyısında Şah İsmâil'in çoğu süvari 70.000 kişilik ordusuyla savaştı; ağır bir yenilgiye uğradı. Yaralı olarak sığındığı bir çiftlikte 1 Aralık 1510'da öldü.",
+  sonuc:"Merv ve Herat Safevî hâkimiyetine girdi. Şah İsmâil Şeybânî Han'ın başını kestirdi; kafatasını Memlük Sultanı Kansu Gavri'ye, yüzülen derisine saman doldurtup Osmanlı Sultanı II. Bayezid'e yolladı. Özbeklerin başına geçen Ubeydullah Han 1512'de Horasan'a girip Herat'a kadar olan yerleri aldı, ama Şah İsmâil kısa sürede Herat, Belh ve Meşhed'i geri aldı. Doğu cephesini rahatlatan Şah İsmâil yüzünü batıya çevirecek; dört yıl sonra Çaldıran'da Yavuz Sultan Selim'le karşılaşacaktı.",
+  tartisma:"Kuvvet rakamları TDV Şeybânî Han maddesinde verilir. Şeybânî Han'ın ölüm yeri ayrışır: Şeybânî Han maddesi yaralı sığındığı bir çiftlikte öldüğünü, Şah İsmâil maddesi savaş meydanında öldürüldüğünü yazar.",
+  kesinlik:"kesin",
+  olay:["1510-12-02|Merv"],
+  kaynak:"TDV: seybani-han (Merv kuşatması, mektuplar, kuvvetler, ölüm, kafatası ve deri) · TDV: sah-ismail (1512 Ubeydullah Han) · TDV: safeviler (Horasan'ın durumu, Merv ve Herat)",
   gorsel:null, gorsel_kaynak:"aranmadı" }
 
 ];
