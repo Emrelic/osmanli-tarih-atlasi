@@ -175,7 +175,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:3, dunya:1, kapsam:"ic", etiket:["din","sosyal","ingiltere","konu-din","konu-sosyal"],
   yer_id:"Londra",
   d:"I. Edward, borç ilişkileri ve artan dinî düşmanlık baskısı altında bütün Yahudi nüfusu krallıktan sürdü; İngiltere Avrupa'da Yahudileri resmen sınır dışı eden ilk krallık oldu. Yasak resmen 1656'ya kadar (Cromwell döneminde fiilen kaldırılana dek) yürürlükte kaldı.",
-  kaynak:"el-kitabi" },
+  kaynak:"Encyclopedia of the Middle Ages (James Clarke/Oxford Reference), «Expulsion of Jews» https://www.oxfordreference.com/display/10.1093/acref/9780227679319.001.0001/acref-9780227679319-e-999 — «they were condemned to exile (18 July 1290) with a respite of three months» ; el-kitabi" },
 
 { t:"1295-11-13", b:"Model Parlamento toplandı", tur:"idari",
   onem:4, dunya:1, kapsam:"ic", etiket:["anayasa","idari","ingiltere","konu-idari","konu-islahat","konu-hukuk"],
@@ -193,13 +193,13 @@ window.KRONOLOJI_INGILTERE = [
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","savas","iskocya","ingiltere","konu-askeri","konu-imar","konu-ulastirma"],
   yer_id:"",
   d:"William Wallace ve Andrew Moray komutasındaki İskoç kuvvetleri, dar Stirling köprüsünde geçişi bekleyen İngiliz ordusunu ağır bir yenilgiye uğrattı. Zafer, İskoç direnişini bölgesel bir ayaklanmadan ulusal bir harekete dönüştürdü.",
-  kaynak:"el-kitabi", yer_kon:[56.1289,-3.933] },
+  kaynak:"A Dictionary of British History (OUP), «Stirling Bridge, battle of» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-3282 — «On 11 September 1297 a large English army ... was caught by William Wallace» ; el-kitabi", yer_kon:[56.1289,-3.933] },
 
 { t:"1298-07-22", b:"Falkirk Savaşı — I. Edward Wallace'ı yendi", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","savas","iskocya","ingiltere","konu-askeri"],
   yer_id:"",
   d:"I. Edward şahsen sevk ettiği orduyla Wallace'ın piyade birliklerini (schiltron) Galler okçularının desteğiyle bozguna uğrattı. Wallace naiplik görevinden çekildi, ama İskoç direnişi kırılmadı.",
-  kaynak:"el-kitabi", yer_kon:[55.9997,-3.783] },
+  kaynak:"A Dictionary of British History (OUP), «Falkirk, battle of» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-1306 — «on 22 July 1298 defeated William Wallace's men» ; el-kitabi", yer_kon:[55.9997,-3.783] },
 
 { t:"1305-08-23", b:"William Wallace idam edildi", tur:"son",
   onem:5, dunya:1, kapsam:"dis", etiket:["askeri","iskocya","ingiltere","konu-askeri","konu-siyasi","konu-kisiler"],
@@ -211,13 +211,13 @@ window.KRONOLOJI_INGILTERE = [
   onem:5, dunya:2, kapsam:"dis", etiket:["siyaset","iskocya","konu-siyasi","konu-hanedan"],
   yer_id:"",
   d:"Bir rakibini öldürttükten sonra tahtı ele geçiren Robert Bruce, Scone'da İskoç kralı ilan edildi ve I. Edward'a karşı yeni bir direniş dönemi başlattı. İngiliz kuvvetleri kısa süre sonra Bruce'un ailesini ve destekçilerini ağır bir baskıyla cezalandırdı.",
-  kaynak:"el-kitabi", yer_kon:[56.4127,-3.4082] },
+  kaynak:"The Kings and Queens of Britain (OUP), «Robert I (the Bruce)» https://www.oxfordreference.com/display/10.1093/acref/9780199559220.001.0001/acref-9780199559220-e-48 — «acc. 25 Mar. 1306» ; el-kitabi", yer_kon:[56.4127,-3.4082] },
 
 { t:"1314-06-24", b:"Bannockburn Savaşı — İskoç zaferi", tur:"savas",
   onem:5, dunya:2, kapsam:"dis", etiket:["askeri","savas","toprak-kayip","iskocya","ingiltere","konu-askeri"],
   yer_id:"",
   d:"II. Edward'ın büyük ordusu, Robert Bruce'un çok daha küçük İskoç kuvveti karşısında ağır bir bozguna uğradı; savaş, İskoç bağımsızlığının fiilen güvence altına alındığı dönüm noktası sayılır. Yenilgi II. Edward'ın iktidarını da derinden sarstı.",
-  kaynak:"el-kitabi", yer_kon:[56.09,-3.91] },
+  kaynak:"A Dictionary of World History (OUP), «Bannockburn, Battle of (24 June 1314)» https://www.oxfordreference.com/display/10.1093/acref/9780199685691.001.0001/acref-9780199685691-e-348 — «Bannockburn, Battle of (24 June 1314)» ; el-kitabi", yer_kon:[56.09,-3.91] },
 
 { t:"1328-05-01", b:"Edinburgh-Northampton Antlaşması — İskoç bağımsızlığı tanındı", tur:"antlasma",
   onem:5, dunya:2, kapsam:"dis", etiket:["antlasma","toprak-kayip","iskocya","ingiltere","konu-askeri","konu-diplomasi"],
@@ -230,7 +230,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","darbe-siyasi","konu-siyasi","konu-darbe","konu-hanedan"],
   yer_id:"Londra",
   d:"Kraliçe Isabella ve sevgilisi Roger Mortimer'ın öncülüğündeki bir darbeyle II. Edward tahttan indirildi ve birkaç ay sonra Berkeley Kalesi'nde öldürüldü; on dört yaşındaki oğlu III. Edward kral ilan edildi. III. Edward 1330'da Mortimer'ı devirip fiilî iktidarı ele alacaktı.",
-  kaynak:"el-kitabi" },
+  kaynak:"Encyclopedia of World Biography (Gale), «Edward III», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/edward-iii — «he succeeded to the throne on Jan. 25, 1327» ; el-kitabi" },
 
 { t:"1337-10-01", b:"III. Edward Fransız tahtı üzerinde hak iddia etti — Yüzyıl Savaşları başladı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","savas","toprak-kazanc","ingiltere","konu-askeri"],
@@ -243,13 +243,13 @@ window.KRONOLOJI_INGILTERE = [
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
   d:"III. Edward'ın donanması, Flandre kıyısındaki Sluys açıklarında Fransız filosunu neredeyse tümüyle imha etti. Zafer, İngiltere'ye Manş Denizi'nde uzun süreli bir üstünlük sağladı ve kıtaya asker sevkini güvence altına aldı.",
-  kaynak:"el-kitabi", yer_kon:[51.3103,3.3835] },
+  kaynak:"A Dictionary of British History (OUP), «Sluys, battle of» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-3184 — «Edward attacked it on 24 June 1340» ; el-kitabi", yer_kon:[51.3103,3.3835] },
 
 { t:"1346-08-26", b:"Crécy Savaşı — İngiliz uzun yayının zaferi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
   d:"III. Edward'ın sayıca çok daha küçük ordusu, Galli uzun yay okçularının yoğun ateşiyle Fransız şövalye süvarisini imha etti; savaş, Avrupa'da ağır süvari üstünlüğü inancını sarsan bir dönüm noktası sayılır. Zafer, İngiltere'nin Calais kuşatmasının önünü açtı.",
-  kaynak:"el-kitabi", yer_kon:[50.2591,1.8859] },
+  kaynak:"The Oxford Dictionary of the Middle Ages (OUP), «Crécy, battle of (26 August 1346)» https://www.oxfordreference.com/display/10.1093/acref/9780198662624.001.0001/acref-9780198662624-e-1611 — «Crécy, battle of (26 August 1346)» ; el-kitabi", yer_kon:[50.2591,1.8859] },
 
 { t:"1348-06-01", b:"Kara Ölüm İngiltere'ye ulaştı", tur:"sosyal",
   onem:5, dunya:3, kapsam:"ic", etiket:["sosyal","salgin","ingiltere","konu-sosyal","afet","afet-salgin"],
@@ -261,7 +261,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"Poitiers",
   d:"Kara Prens Edward komutasındaki İngiliz kuvvetleri Fransız ordusunu bozguna uğratıp Kral II. Jean'ı esir aldı. Fransa'nın kralsız kalması ülkeyi derin bir siyasî krize sürükledi ve İngiltere'ye ağır bir fidye kazandırdı.",
-  kaynak:"el-kitabi" },
+  kaynak:"A Dictionary of World History (OUP), «Poitiers, Battle of (19 September 1356)» https://www.oxfordreference.com/display/10.1093/acref/9780199685691.001.0001/acref-9780199685691-e-2929 — «Poitiers, Battle of (19 September 1356)» ; el-kitabi" },
 
 { t:"1360-05-08", b:"Brétigny Antlaşması", tur:"antlasma",
   onem:3, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc","ingiltere","konu-askeri","konu-diplomasi"],
@@ -294,7 +294,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:5, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","darbe-siyasi","konu-siyasi","konu-darbe","konu-hanedan"],
   yer_id:"Londra",
   d:"Sürgündeki kuzeni Henry Bolingbroke'un topraklarına el koyan II. Richard, dönüşte Bolingbroke'un başlattığı isyanla tahttan indirildi ve kısa süre sonra hapiste öldü. Bolingbroke IV. Henry olarak taç giyip Lancaster hanedanını kurdu — yarım yüzyıl sonra Güller Savaşları'nın tohumu bu el koymayla atıldı.",
-  kaynak:"el-kitabi" },
+  kaynak:"The Oxford Companion to British History (OUP), «Richard II», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/richard-ii — «on 30 September, a broken man, agreed to abdicate, and was deposed» ; el-kitabi" },
 
 // ═════════════ D) LANCASTER VE YÜZYIL SAVAŞLARI'NIN SON PERDESİ (1400-1453) ═════════════
 
@@ -302,24 +302,24 @@ window.KRONOLOJI_INGILTERE = [
   onem:5, dunya:1, kapsam:"dis", etiket:["isyan","galler","konu-isyan"],
   yer_id:"",
   d:"Kendini Galler Prensi ilan eden Owain Glyndŵr, on yılı aşkın sürecek bir ulusal ayaklanma başlattı; hareket bir ara Galler'in büyük bölümünü kontrol altına aldı ve kendi parlamentosunu topladı. İsyan 1415'e dek aralıklarla sürdü, Glyndŵr hiç yakalanmadı.",
-  kaynak:"el-kitabi", yer_kon:[52.9411,-3.301] },
+  kaynak:"Dictionary of Welsh Biography, «OWAIN GLYNDWR (c. 1354 - 1416)» https://biography.wales/article/s-OWAI-GLY-1354 — «On 16 September 1400, in association with a group of kinsmen» ; el-kitabi", yer_kon:[52.9411,-3.301] },
 
 { t:"1403-07-21", b:"Shrewsbury Savaşı", tur:"savas",
   onem:3, dunya:1, kapsam:"ic", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"Shrewsbury",
   d:"IV. Henry, kendisini tahta taşıyan ama sonra ona karşı ayaklanan Percy ailesinin kuvvetlerini Shrewsbury'de yendi; Harry Hotspur savaş meydanında öldü. Zafer, Lancaster hanedanının ilk büyük iç meydan okumasını bastırdı.",
-  kaynak:"el-kitabi" },
+  kaynak:"The Oxford Dictionary of the Middle Ages (OUP), «Shrewsbury, battle of» https://www.oxfordreference.com/display/10.1093/acref/9780198662624.001.0001/acref-9780198662624-e-5341 — «Royalist victory of 21 July 1403 by *Henry IV» ; el-kitabi" },
 
 { t:"1415-10-25", b:"Agincourt Savaşı — V. Henry'nin zaferi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
   d:"Sayıca çok daha kalabalık bir Fransız ordusuna karşı V. Henry'nin yorgun ve hastalıklı ordusu, çamurlu arazide uzun yay okçularının etkisiyle ezici bir zafer kazandı. Zafer, İngiltere'nin Yüzyıl Savaşları'ndaki son büyük yükselişini başlattı.",
-  kaynak:"el-kitabi", yer_kon:[50.4667,2.1428] },
+  kaynak:"The Oxford Dictionary of the Middle Ages (OUP), «Agincourt» https://www.oxfordreference.com/display/10.1093/acref/9780198662624.001.0001/acref-9780198662624-e-0137 — «which on 25 October 1415 was the site of the greatest English victory» ; el-kitabi", yer_kon:[50.4667,2.1428] },
 
 { t:"1420-05-21", b:"Troyes Antlaşması — V. Henry Fransız tahtının vârisi ilan edildi", tur:"antlasma",
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kazanc","ingiltere","konu-askeri","konu-diplomasi"],
   d:"Deli VI. Charles, kendi oğlunu mirastan dışlayarak V. Henry'yi Fransa tahtının vârisi ve naibi ilan etti; Henry ayrıca Charles'ın kızı Catherine ile evlendi. Antlaşma, İngiliz ve Fransız taçlarını fiilen tek bir hanedan altında birleştirmeyi öngörüyordu.",
-  kaynak:"el-kitabi", yer_id:"Troyes" },
+  kaynak:"A Dictionary of British History (OUP), «Troyes, treaty of» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-3477 — «By this Anglo-French treaty, ratified on 21 May, Henry V became heir» ; el-kitabi", yer_id:"Troyes" },
 
 { t:"1422-08-31", b:"VI. Henry bebek yaşta kral oldu", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","konu-siyasi","konu-hanedan"],
@@ -330,13 +330,13 @@ window.KRONOLOJI_INGILTERE = [
 { t:"1431-05-30", b:"Jeanne d'Arc İngiliz nüfuzundaki mahkemede yakılarak idam edildi", tur:"savas",
   onem:3, dunya:3, kapsam:"dis", etiket:["askeri","din","ingiltere","konu-askeri","konu-kisiler","konu-din","konu-hukuk"],
   d:"Fransız direnişinin sembolü hâline gelen Jeanne d'Arc, Burgonyalılarca yakalanıp İngilizlere teslim edildi ve İngiliz denetimindeki bir kilise mahkemesince büyücülük ve sapkınlıkla suçlanarak Rouen'de yakıldı. İdam, Fransız millî direnişini söndürmek yerine güçlendirdi.",
-  kaynak:"el-kitabi", yer_id:"Rouen" },
+  kaynak:"The Oxford Encyclopedia of Medieval Warfare and Military Technology (OUP), «Joan of Arc (1412–1431)» https://www.oxfordreference.com/display/10.1093/acref/9780195334036.001.0001/acref-9780195334036-e-0488 — «Joan first abjured, then recanted her abjuration, and was finally executed on 30 May» ; el-kitabi", yer_id:"Rouen" },
 
 { t:"1453-07-17", b:"Castillon Savaşı — Yüzyıl Savaşları sona erdi, Gaskonya kaybedildi", tur:"toprak-kayip",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kayip","ingiltere","konu-askeri"],
   yer_id:"",
   d:"Fransız topçusunun etkili kullanımıyla kazanılan Castillon zaferi, İngiltere'nin üç yüzyıllık Akitanya/Gaskonya hâkimiyetine son verdi; İngiltere kıtada yalnızca Calais'yi elinde tuttu. Yenilgi, Yüzyıl Savaşları'nı fiilen bitirdi ve İngiltere'de siyasî istikrarsızlığı derinleştirerek Güller Savaşları'nın önünü açtı.",
-  kaynak:"el-kitabi", yer_kon:[44.8492,-0.0392] },
+  kaynak:"Oxford Reference overview, «battle of Castillon» https://www.oxfordreference.com/display/10.1093/oi/authority.20110803095554550 — «On 17 July 1453, the English lost Gascony» ; el-kitabi", yer_kon:[44.8492,-0.0392] },
 
 // ═════════════ E) GÜLLER SAVAŞLARI (1455-1487) ═════════════
 
@@ -344,19 +344,19 @@ window.KRONOLOJI_INGILTERE = [
   onem:5, dunya:2, kapsam:"ic", etiket:["askeri","savas","hanedan","ingiltere","konu-askeri","konu-hanedan"],
   yer_id:"",
   d:"York Dükü Richard'ın kuvvetleri, VI. Henry'nin danışmanlarına karşı silaha sarılarak Lancaster ve York hanedanları arasında otuz yıl sürecek iç savaşı başlattı. Bu ilk çatışma küçük çaplıydı, ama taht üzerindeki hanedan rekabetinin artık savaş alanına taştığını gösterdi.",
-  kaynak:"el-kitabi", yer_kon:[51.752,-0.336] },
+  kaynak:"The Oxford Dictionary of the Middle Ages (OUP), «St Albans, battles of» https://www.oxfordreference.com/display/10.1093/acref/9780198662624.001.0001/acref-9780198662624-e-5142 — «In the first battle (22 May 1455) *Richard duke of York ambushed the royal forces» ; el-kitabi", yer_kon:[51.752,-0.336] },
 
 { t:"1461-03-29", b:"Towton Savaşı — İngiliz topraklarındaki en kanlı meydan savaşı", tur:"savas",
   onem:5, dunya:2, kapsam:"ic", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
   d:"Kar fırtınası altında yapılan Towton Savaşı'nda York kuvvetleri Lancaster ordusunu ezici bir yenilgiye uğrattı; on binlerce ölüyle İngiliz topraklarında görülmüş en kanlı çarpışma sayılır. Zafer, IV. Edward'ı tahta taşıdı.",
-  kaynak:"el-kitabi", yer_kon:[53.83,-1.16] },
+  kaynak:"The Oxford Dictionary of the Middle Ages (OUP), «Towton, battle of» https://www.oxfordreference.com/display/10.1093/acref/9780198662624.001.0001/acref-9780198662624-e-5726 — «Palm Sunday (29 March) 1461 victory of *Yorkist forces» ; el-kitabi", yer_kon:[53.83,-1.16] },
 
 { t:"1471-05-04", b:"Tewkesbury Savaşı — Lancaster davası ezildi", tur:"savas",
   onem:4, dunya:2, kapsam:"ic", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
   d:"IV. Edward'ın kuvvetleri, VI. Henry'nin veliahtı Prens Edward'ın da öldüğü savaşta Lancaster ordusunu dağıttı. VI. Henry kısa süre sonra Tower'da öldürüldü, Lancaster hattı fiilen sona erdi.",
-  kaynak:"el-kitabi", yer_kon:[51.993,-2.158] },
+  kaynak:"The Oxford Companion to British History (OUP), «Tewkesbury, battle of», encyclopedia.com https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/tewkesbury-battle — «forced to give battle on 4 May 1471, facing south» ; el-kitabi", yer_kon:[51.993,-2.158] },
 
 { t:"1476-01-01", b:"Caxton Westminster'da İngiltere'nin ilk matbaasını kurdu", tur:"bilim",
   onem:5, dunya:3, kapsam:"ic", etiket:["teknoloji","kultur","ingiltere","imar","islahat","konu-bilim","konu-kultur","konu-imar","konu-islahat"],
@@ -368,19 +368,19 @@ window.KRONOLOJI_INGILTERE = [
   onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","konu-siyasi","konu-hanedan"],
   yer_id:"Londra",
   d:"IV. Edward'ın ölümüyle naip ilan edilen kardeşi Gloucester Dükü Richard, yeğeni V. Edward'ı ve kardeşini gayrimeşru ilan ederek tahtı ele geçirdi; iki çocuk kısa süre sonra Tower'da gözden kayboldu. Olay, İngiliz tarihinin en tartışmalı gizemlerinden biri olarak kaldı.",
-  kaynak:"el-kitabi" },
+  kaynak:"Encyclopedia of World Biography (Gale), «Richard III», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/richard-iii — «Richard was persuaded to occupy the throne on June 26» ; el-kitabi" },
 
 { t:"1485-08-22", b:"Bosworth Meydan Savaşı — Tudor hanedanı kuruldu", tur:"savas",
   onem:5, dunya:3, kapsam:"ic", etiket:["askeri","savas","hanedan","ingiltere","konu-askeri","konu-hanedan"],
   yer_id:"",
   d:"Henry Tudor'un sürgünden dönen kuvvetleri, savaş meydanında III. Richard'ı yenip öldürdü; Richard, savaş alanında ölen son İngiliz kralı oldu. Henry, VII. Henry olarak taç giyip Tudor hanedanını kurdu ve iki yıl sonra York'lu Elizabeth ile evlenerek iki haneyi birleştirdi.",
-  kaynak:"el-kitabi", yer_kon:[52.583,-1.407] },
+  kaynak:"The Oxford Dictionary of the Middle Ages (OUP), «Bosworth Field, battle of» https://www.oxfordreference.com/display/10.1093/acref/9780198662624.001.0001/acref-9780198662624-e-0960 — «Fought on 22 August 1485, between the *Yorkist king *Richard III» ; el-kitabi", yer_kon:[52.583,-1.407] },
 
 { t:"1487-06-16", b:"Stoke Field Savaşı — Güller Savaşları'nın son çarpışması", tur:"savas",
   onem:3, dunya:1, kapsam:"ic", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
   d:"Sahte veliaht Lambert Simnel'i öne süren York yanlısı bir isyan, VII. Henry'nin ordusunca ezildi. Bu, geleneksel olarak Güller Savaşları'nın son büyük meydan savaşı sayılır.",
-  kaynak:"el-kitabi", yer_kon:[53.08,-0.87] },
+  kaynak:"The Oxford Dictionary of the Middle Ages (OUP), «Stoke, battle of (1487)» https://www.oxfordreference.com/display/10.1093/acref/9780198662624.001.0001/acref-9780198662624-e-5502 — «On 16 June 1487 *Henry VII destroyed the German-Irish army» ; el-kitabi", yer_kon:[53.08,-0.87] },
 
 // ═════════════ F) ERKEN TUDOR DÖNEMİ (1497-1547) ═════════════
 
@@ -388,7 +388,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:4, dunya:3, kapsam:"dis", etiket:["kesif","ingiltere","konu-kesif"],
   yer_id:"Bristol",
   d:"VII. Henry'nin fermanıyla Bristol'dan yola çıkan Cenevizli denizci Giovanni Caboto (John Cabot), muhtemelen bugünkü Newfoundland kıyılarına ulaşarak İngiltere'nin Kuzey Amerika'daki ilk resmî toprak iddiasını başlattı. Sefer, sonraki yüzyıllarda İngiliz kolonizasyonunun ilk dayanağı sayılır.",
-  kaynak:"el-kitabi" },
+  kaynak:"Dictionary of Canadian Biography, R. A. Skelton, «CABOT, JOHN» https://www.biographi.ca/en/bio/cabot_john_1E.html — «The landfall was made on 24 June, St. John the Baptist's Day» ; el-kitabi" },
 
 { t:"1509-04-22", b:"VIII. Henry kral oldu", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","konu-siyasi","konu-hanedan"],
@@ -413,7 +413,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:3, dunya:1, kapsam:"ic", etiket:["din","siyaset","ingiltere","konu-siyasi","konu-kisiler","konu-din"],
   yer_id:"Londra",
   d:"Üstünlük Yasası'na sadakat yemini etmeyi reddeden eski Lord Şansölye Thomas More, vatana ihanetten yargılanıp kafası kesilerek idam edildi. İdamı, Henry'nin dinî reformlarına muhalefetin bedelini gösteren en yankı uyandıran örnek oldu.",
-  kaynak:"el-kitabi" },
+  kaynak:"Catholic Encyclopedia (1913), «St. Thomas More» https://www.newadvent.org/cathen/14689c.htm — «The execution took place on Tower Hill \"before nine of the clock\" on 6 July» ; el-kitabi" },
 
 { t:"1536-01-01", b:"Manastırların kapatılması başladı", tur:"reform",
   onem:5, dunya:2, kapsam:"ic", etiket:["din","ekonomi","reform","ingiltere","konu-ekonomi","konu-din","konu-islahat"],
@@ -429,7 +429,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:2, dunya:1, kapsam:"ic", etiket:["askeri","ingiltere","konu-askeri"],
   yer_id:"",
   d:"VIII. Henry'nin gözde savaş gemisi Mary Rose, Fransız donanmasına karşı savunma sırasında Portsmouth Limanı açıklarında battı, mürettebatının büyük bölümü boğuldu. Enkazı 1982'de çıkarılarak Tudor donanma teknolojisi hakkında eşsiz bilgi sağladı.",
-  kaynak:"el-kitabi", yer_kon:[50.75,-1.05] },
+  kaynak:"A Dictionary of British History (OUP), «Mary Rose» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-2277 — «On 19 July 1545, watched by the king, she sailed from Portsmouth» ; el-kitabi", yer_kon:[50.75,-1.05] },
 
 // ═════════════ G) VI. EDWARD VE I. MARY (1547-1558) ═════════════
 
@@ -437,7 +437,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"Londra",
   d:"VIII. Henry'nin ölümüyle dokuz yaşındaki oğlu VI. Edward tahta geçti; naipler yönetimindeki dönem, Protestan reformların hızlandığı bir çağ oldu. Edward on beş yaşında öldüğünde reform henüz tam yerleşmemişti.",
-  kaynak:"el-kitabi" },
+  kaynak:"Catholic Encyclopedia (1913), «Henry VIII» https://www.newadvent.org/cathen/07222a.htm — «King of England, born 28 June, 1491; died 28 January, 1547» ; el-kitabi" },
 
 { t:"1549-01-21", b:"İlk Ortak Dua Kitabı dayatıldı, Dua Kitabı İsyanı çıktı", tur:"din",
   onem:3, dunya:1, kapsam:"ic", etiket:["din","isyan","ingiltere","konu-isyan","konu-din"],
@@ -448,13 +448,13 @@ window.KRONOLOJI_INGILTERE = [
   onem:4, dunya:1, kapsam:"ic", etiket:["din","hanedan","ingiltere","konu-hanedan","konu-din"],
   yer_id:"Londra",
   d:"VI. Edward'ın ölümü sonrası dokuz günlük kraliçe Jane Grey'i devirerek tahta çıkan I. Mary, İngiltere'yi Roma Katolik Kilisesi'ne yeniden bağladı ve Protestanları ağır biçimde cezalandırdı — bu yüzden 'Kanlı Mary' lakabıyla anıldı.",
-  kaynak:"el-kitabi" },
+  kaynak:"Catholic Encyclopedia (1913), «Mary Tudor» https://www.newadvent.org/cathen/09766a.htm — «By 19 July Mary had been proclaimed in London» ; el-kitabi" },
 
 { t:"1558-01-07", b:"Calais Fransa'ya kaybedildi", tur:"toprak-kayip",
   onem:5, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kayip","ingiltere","konu-askeri"],
   yer_id:"Calais",
   d:"Fransız Guise Dükü'nün ani seferi karşısında iki asırdır elde tutulan Calais teslim oldu; şehir, İngiltere'nin kıta Avrupası'ndaki son kalıntı toprağıydı. Kayıp, I. Mary'nin saltanatının en ağır darbesi sayılır ve İngiltere'nin kıtadaki varlığını fiilen sona erdirdi.",
-  kaynak:"el-kitabi" },
+  kaynak:"World Eras (Gale), «Politics, Law, and the Military: Chronology», encyclopedia.com https://www.encyclopedia.com/history/news-wires-white-papers-and-books/politics-law-and-military-chronology-8 — «7 Jan. The French take Calais, the last English foothold on the Continent» ; el-kitabi" },
 
 // ═════════════ H) I. ELİZABETH DÖNEMİ (1558-1603) ═════════════
 
@@ -468,7 +468,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","konu-siyasi","konu-hanedan"],
   yer_id:"Londra",
   d:"I. Mary'nin ölümüyle tahta çıkan I. Elizabeth, kırk beş yıl sürecek saltanatında dinî çatışmaları büyük ölçüde dizginleyip İngiltere'yi Avrupa'nın önemli güçlerinden biri hâline getirecekti. Saltanatı, edebiyat, denizcilik ve millî kimlik açısından bir altın çağ sayılır.",
-  kaynak:"el-kitabi" },
+  kaynak:"A Dictionary of English Folklore (OUP), «Queen Elizabeth I anniversary» https://www.oxfordreference.com/display/10.1093/acref/9780198607663.001.0001/acref-9780198607663-e-836 — «(17 November). The anniversary of Queen Elizabeth I's accession to the throne in 1558» ; el-kitabi" },
 
 { t:"1559-01-01", b:"Elizabeth Dinî Uzlaşısı kabul edildi", tur:"din",
   onem:4, dunya:1, kapsam:"ic", etiket:["din","reform","ingiltere","konu-din","konu-islahat"],
@@ -480,7 +480,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","iskocya","ingiltere","konu-siyasi"],
   yer_id:"",
   d:"İskoçya'da tahttan indirilen Katolik kraliçe Mary Stuart, kuzeni Elizabeth'ten sığınma istedi, ama on dokuz yıl boyunca fiilen gözaltında tutuldu. Mary'nin varlığı, İngiliz Katoliklerinin olası bir alternatif hükümdar arayışının odağı hâline geldi.",
-  kaynak:"el-kitabi", yer_kon:[54.643,-3.546] },
+  kaynak:"Encyclopedia of World Biography (Gale), «Mary Queen of Scots», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/mary-queen-scots — «Mary crossed the border into England on May 16, 1568» ; el-kitabi", yer_kon:[54.643,-3.546] },
 
 { t:"1578-01-01", b:"William Harborne İstanbul'a gönderildi", tur:"diplomasi",
   onem:2, dunya:1, kapsam:"dis", etiket:["diplomasi","ingiltere","konu-diplomasi"],
@@ -521,21 +521,21 @@ window.KRONOLOJI_INGILTERE = [
   yer_id:"",
   gun:"8 Şubat 1587 JÜLYEN (İngiliz eski takvimi; Gregoryen 18 Şubat 1587) (eski İngiliz yılbaşı 25 Mart: çağdaş kayıtta 1586/87)",
   d:"Elizabeth'e karşı kurulan bir suikast planına karıştığı belgelerle kanıtlanan Mary Stuart, uzun bir tereddüdün ardından Elizabeth'in imzaladığı bir infaz emriyle idam edildi. İdam, İspanya'nın İngiltere'ye karşı harekete geçmesinde önemli bir gerekçe oldu.",
-  kaynak:"el-kitabi", yer_kon:[52.542,-0.419] },
+  kaynak:"The Oxford Companion to British History (OUP), «Mary», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/mary-queen-scots — «her execution at Fotheringhay on 8 February 1587» ; el-kitabi", yer_kon:[52.542,-0.419] },
 
 { t:"1588-08-08", b:"İspanyol Armadası yenilgiye uğratıldı", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
   gun:"8 Ağustos 1588 GREGORYEN (Gravelines; İngiliz takviminde 29 Temmuz) — Dikkat: dosyanın öteki 1582-1752 günleri Jülyen",
   d:"II. Felipe'nin İngiltere'yi istila etmek üzere gönderdiği 130 gemilik büyük donanma, İngiliz filosunun taktikleri ve ardından gelen fırtınalarla ağır kayıplar vererek dağıldı; Gravelines açıklarındaki çarpışma dönüm noktası oldu. Zafer, İngiltere'nin bağımsızlığını pekiştirdi ve deniz gücü olarak yükselişinin sembolü hâline geldi.",
-  kaynak:"el-kitabi", yer_kon:[51.009,2.098] },
+  kaynak:"The Oxford Companion to British History (OUP), «Armada, Spanish» https://www.oxfordreference.com/display/10.1093/acref/9780199677832.001.0001/acref-9780199677832-e-208 — «fireship attack on the night of 7 August, and on the following day» ; el-kitabi", yer_kon:[51.009,2.098] },
 
 { t:"1600-12-31", b:"Doğu Hindistan Şirketi'ne kraliyet fermanı verildi", tur:"kurulus",
   onem:5, dunya:3, kapsam:"dis", etiket:["ekonomi","kurulus","ingiltere","konu-siyasi","konu-ekonomi"],
   yer_id:"Londra",
   gun:"31 Aralık 1600 JÜLYEN (İngiliz eski takvimi; Gregoryen 10 Ocak 1601)",
   d:"Elizabeth, Asya ile ticareti tekelinde toplayan Doğu Hindistan Şirketi'ne on beş yıllık bir ferman verdi. Şirket, sonraki iki buçuk yüzyılda salt bir ticaret kuruluşundan Hindistan'ın fiilî hükümdarına dönüşecek bir yapının temelini attı.",
-  kaynak:"el-kitabi" },
+  kaynak:"A Dictionary of Economics (OUP), «East India Company» https://www.oxfordreference.com/display/10.1093/acref/9780198759430.001.0001/acref-9780198759430-e-4309 — «granted a Royal Charter on 31 December 1600» ; el-kitabi" },
 
 // ═════════════ I) ERKEN STUART DÖNEMİ VE İÇ SAVAŞ (1603-1660) ═════════════
 
@@ -544,14 +544,14 @@ window.KRONOLOJI_INGILTERE = [
   yer_id:"Londra",
   gun:"24 Mart 1603 JÜLYEN (İngiliz eski takvimi; Gregoryen 3 Nisan 1603) (eski İngiliz yılbaşı 25 Mart: çağdaş kayıtta 1602/03)",
   d:"Çocuksuz ölen I. Elizabeth'in yerine İskoç kralı VI. James, I. James unvanıyla İngiltere tahtına da geçti; İngiltere ve İskoçya böylece aynı hükümdar altında (ama ayrı krallıklar olarak) birleşti. Tam siyasî birlik ancak 1707'de gerçekleşecekti.",
-  kaynak:"el-kitabi" },
+  kaynak:"The Kings and Queens of Britain (OUP), «James I» https://www.oxfordreference.com/display/10.1093/acref/9780199559220.001.0001/acref-9780199559220-e-427 — «acc. Scotland 24 July 1567; England 24 Mar. 1603» ; el-kitabi" },
 
 { t:"1605-11-05", b:"Barut Komplosu ortaya çıkarıldı", tur:"siyaset",
   onem:3, dunya:1, kapsam:"ic", etiket:["din","siyaset","ingiltere","konu-siyasi","konu-din"],
   yer_id:"Londra",
   gun:"5 Kasım 1605 JÜLYEN (İngiliz eski takvimi; Gregoryen 15 Kasım 1605)",
   d:"Guy Fawkes ve bir grup Katolik komplocu, Parlamento binasının altına yerleştirdikleri barutla kral ve meclisi havaya uçurmayı planladı; plan son anda ihbarla açığa çıktı. Olay, İngiliz Katoliklerine yönelik baskıyı artırdı ve her yıl 5 Kasım'da anılan bir millî geleneğe dönüştü.",
-  kaynak:"el-kitabi" },
+  kaynak:"World Encyclopedia (OUP), «Gunpowder Plot (November 1605)» https://www.oxfordreference.com/display/10.1093/acref/9780199546091.001.0001/acref-9780199546091-e-4974 — «The plotters were arrested on November 5» ; el-kitabi" },
 
 { t:"1607-05-14", b:"Jamestown kuruldu — ilk kalıcı İngiliz kolonisi", tur:"kesif",
   onem:4, dunya:2, kapsam:"dis", etiket:["kesif","kurulus","ingiltere","konu-siyasi","konu-kesif"],
@@ -570,7 +570,7 @@ window.KRONOLOJI_INGILTERE = [
   yer_id:"Plymouth (Massachusetts)",
   gun:"11 Kasım 1620 JÜLYEN (İngiliz eski takvimi; Gregoryen 21 Kasım 1620)",
   d:"Dinî baskıdan kaçan Puritan ayrılıkçı bir grup (Pilgrim'ler), Mayflower gemisiyle Atlantik'i geçip bugünkü Massachusetts kıyısında Plymouth Kolonisi'ni kurdu. Gemide imzalanan Mayflower Sözleşmesi, kendi kendini yöneten bir topluluk kurma iradesinin erken bir örneği sayılır.",
-  kaynak:"el-kitabi" },
+  kaynak:"Oxford Reference overview, «Mayflower» https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100142371 — «It arrived at Cape Cod on 21 November 1620 after a voyage of sixty-six days» ; el-kitabi" },
 
 { t:"1628-06-07", b:"Hak Dilekçesi kabul edildi", tur:"anayasa",
   onem:4, dunya:1, kapsam:"ic", etiket:["anayasa","hukuk","ingiltere","konu-islahat","konu-hukuk"],
@@ -591,21 +591,21 @@ window.KRONOLOJI_INGILTERE = [
   yer_id:"Nottingham",
   gun:"22 Ağustos 1642 JÜLYEN (İngiliz eski takvimi; Gregoryen 1 Eylül 1642)",
   d:"Parlamento ile aylardır süren güç mücadelesi silahlı çatışmaya dönüşünce I. Charles, Nottingham'da kraliyet sancağını dikerek resmen savaş ilan etti. İngiliz İç Savaşı, kral yanlıları (Cavalier) ile Parlamento yanlıları (Roundhead) arasında yıllarca sürecekti.",
-  kaynak:"el-kitabi" },
+  kaynak:"Europe, 1450 to 1789: Encyclopedia of the Early Modern World (Scribner/Gale), C. Carlton, «Charles I (England)», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/charles-i-england — «declaring war against his rebellious subjects on 22 August 1642» ; el-kitabi" },
 
 { t:"1645-06-14", b:"Naseby Savaşı — Parlamento ordusunun belirleyici zaferi", tur:"savas",
   onem:5, dunya:2, kapsam:"ic", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
   gun:"14 Haziran 1645 JÜLYEN (İngiliz eski takvimi; Gregoryen 24 Haziran 1645)",
   d:"Oliver Cromwell'in de yer aldığı yeni kurulmuş New Model Army, I. Charles'ın ana ordusunu Naseby'de ağır bir yenilgiye uğrattı. Zafer, savaşın gidişatını kalıcı olarak Parlamento lehine çevirdi.",
-  kaynak:"el-kitabi", yer_kon:[52.389,-0.982] },
+  kaynak:"A Dictionary of World History (OUP), «Naseby, Battle of (14 June 1645)» https://www.oxfordreference.com/display/10.1093/acref/9780199685691.001.0001/acref-9780199685691-e-2542 — «Naseby, Battle of (14 June 1645)» ; el-kitabi", yer_kon:[52.389,-0.982] },
 
 { t:"1649-01-30", b:"I. Charles idam edildi, Cumhuriyet ilan edildi", tur:"son",
   onem:5, dunya:4, kapsam:"ic", etiket:["siyaset","kriz","anayasa","ingiltere","konu-siyasi","konu-kisiler","konu-islahat","konu-hukuk"],
   yer_id:"Londra",
   gun:"30 Ocak 1649 JÜLYEN (İngiliz eski takvimi; Gregoryen 9 Şubat 1649) (eski İngiliz yılbaşı 25 Mart: çağdaş kayıtta 1648/49)",
   d:"Özel bir yüksek mahkeme tarafından vatana ihanetle suçlanan I. Charles, Whitehall'da halkın önünde idam edildi — bir İngiliz kralının yargılanıp infaz edildiği ilk ve tek örnek. İnfazın hemen ardından monarşi kaldırılıp Commonwealth (Cumhuriyet) ilan edildi.",
-  kaynak:"el-kitabi" },
+  kaynak:"The Oxford Companion to British History (OUP), «Charles I», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/charles-i-england — «beheaded, in front of the Banqueting House in Whitehall, on 30 January 1649» ; el-kitabi" },
 
 { t:"1653-12-16", b:"Cromwell Lord Protektör oldu", tur:"hukumdar",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","ingiltere","konu-siyasi","konu-hanedan"],
@@ -619,21 +619,21 @@ window.KRONOLOJI_INGILTERE = [
   yer_id:"Londra",
   gun:"3 Eylül 1658 JÜLYEN (İngiliz eski takvimi; Gregoryen 13 Eylül 1658)",
   d:"Oliver Cromwell'in ölümüyle yerine geçen oğlu Richard, ne orduyu ne siyasî kesimleri bir arada tutabildi; Protektörlük hızla çöktü. Çöküş, 1660'taki monarşinin restorasyonunun yolunu açtı.",
-  kaynak:"el-kitabi" },
+  kaynak:"Europe, 1450 to 1789: Encyclopedia of the Early Modern World (Scribner/Gale), I. Gentles, «Cromwell, Oliver», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/oliver-cromwell — «By the time he died (3 September 1658)» ; el-kitabi" },
 
 { t:"1660-05-29", b:"Restorasyon — II. Charles Londra'ya döndü", tur:"hukumdar",
   onem:5, dunya:3, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","konu-siyasi","konu-hanedan"],
   yer_id:"Londra",
   gun:"29 Mayıs 1660 JÜLYEN (İngiliz eski takvimi; Gregoryen 8 Haziran 1660)",
   d:"On bir yıllık cumhuriyet deneyiminin ardından General Monck'un öncülüğüyle Parlamento, sürgündeki II. Charles'ı geri çağırdı; kral, otuzuncu doğum gününde büyük bir coşkuyla Londra'ya girdi. Restorasyon, monarşiyi ve Anglikan Kilisesi'ni yeniden kurumsal düzenin merkezine oturttu.",
-  kaynak:"el-kitabi" },
+  kaynak:"Europe, 1450 to 1789: Encyclopedia of the Early Modern World (Scribner/Gale), R. Hutton, «Charles II (England)», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/charles-ii-england — «on his thirtieth birthday, 29 May 1660, when he entered London» ; el-kitabi" },
 
 { t:"1660-11-28", b:"Kraliyet Cemiyeti kuruldu", tur:"bilim",
   onem:5, dunya:3, kapsam:"ic", etiket:["bilim","ingiltere","konu-bilim"],
   yer_id:"Londra",
   gun:"28 Kasım 1660 JÜLYEN (İngiliz eski takvimi; Gregoryen 8 Aralık 1660)",
   d:"Gresham College'da toplanan bir grup doğa filozofu, deneysel bilimi teşvik etmek amacıyla Kraliyet Cemiyeti'ni kurdu; 1662'de II. Charles'tan resmî kraliyet fermanı aldı. Cemiyet, modern bilimsel yöntemin kurumsallaşmasında ve Newton gibi bilim insanlarının çalışmalarının yayılmasında merkezî rol oynadı.",
-  kaynak:"el-kitabi" },
+  kaynak:"The Royal Society, «History of the Royal Society» https://royalsociety.org/about-us/who-we-are/history/ — «From its first meeting, on 28 November 1660»; ayrıca «John Wilkins» (Gale), encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/john-wilkins ; el-kitabi" },
 
 // ═════════════ J) RESTORASYON'DAN ŞANLI DEVRİM'E (1665-1699) ═════════════
 
@@ -649,35 +649,35 @@ window.KRONOLOJI_INGILTERE = [
   yer_id:"Londra",
   gun:"2 Eylül 1666 JÜLYEN (İngiliz eski takvimi; Gregoryen 12 Eylül 1666)",
   d:"Pudding Lane'deki bir fırından başlayan yangın dört gün içinde şehrin büyük bölümünü, on binlerce evi ve St Paul Katedrali'ni kül etti. Yeniden inşa süreci, Christopher Wren'in mimarî katkısıyla Londra'nın kentsel dokusunu kalıcı olarak değiştirdi.",
-  kaynak:"el-kitabi" },
+  kaynak:"The Oxford Companion to British History (OUP), «London, fire of», encyclopedia.com https://www.encyclopedia.com/history/modern-europe/british-and-irish-history/fire-london — «in the early hours of Sunday, 2 September» ; el-kitabi" },
 
 { t:"1675-06-22", b:"Greenwich Kraliyet Rasathanesi kuruldu", tur:"bilim",
   onem:4, dunya:2, kapsam:"ic", etiket:["bilim","ingiltere","imar","konu-bilim","konu-imar"],
   yer_id:"",
   gun:"22 Haziran 1675 JÜLYEN (İngiliz eski takvimi; Gregoryen 2 Temmuz 1675)",
   d:"II. Charles, denizcilik için hayatî önemdeki boylam hesaplamalarını geliştirmek amacıyla Greenwich'te bir kraliyet rasathanesi kurdurdu. Rasathane, iki yüzyıl sonra dünyanın başlangıç meridyeninin kabul edildiği referans noktası olacaktı.",
-  kaynak:"el-kitabi", yer_kon:[51.4769,-0.0005] },
+  kaynak:"Royal Museums Greenwich, «Royal Observatory Greenwich Celebrates 350th Anniversary» https://www.rmg.co.uk/press-release/royal-observatory-greenwich-celebrates-350th-anniversary — «22 June 1675 – Charles II establishes Royal Observatory» ; el-kitabi", yer_kon:[51.4769,-0.0005] },
 
 { t:"1685-02-06", b:"II. James kral oldu, Monmouth İsyanı bastırıldı", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","isyan","ingiltere","konu-siyasi","konu-isyan","konu-hanedan"],
   yer_id:"Londra",
   gun:"6 Şubat 1685 JÜLYEN (İngiliz eski takvimi; Gregoryen 16 Şubat 1685) (eski İngiliz yılbaşı 25 Mart: çağdaş kayıtta 1684/85)",
   d:"Katolik II. James'in tahta çıkışı, gayrimeşru yeğeni Monmouth Dükü'nün önderliğindeki bir isyan girişimini tetikledi; isyan hızla bastırıldı. James'in açıkça Katolik yanlısı politikaları kısa sürede Protestan seçkinlerin tepkisini büyütecekti.",
-  kaynak:"el-kitabi" },
+  kaynak:"New Catholic Encyclopedia (Gale), E. F. Wall, «James II, King of England», encyclopedia.com https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/james-ii-king-england — «assured James's peaceful accession at Charles's death (Feb. 6, 1685)» ; el-kitabi" },
 
 { t:"1687-07-05", b:"Newton'ın Principia Mathematica'sı yayımlandı", tur:"bilim",
   onem:5, dunya:4, kapsam:"ic", etiket:["bilim","ingiltere","konu-bilim"],
   yer_id:"Cambridge",
   gun:"5 Temmuz 1687 JÜLYEN (İngiliz eski takvimi; Gregoryen 15 Temmuz 1687)",
   d:"Isaac Newton, Kraliyet Cemiyeti'nin desteğiyle hareket yasalarını ve evrensel kütle çekim kanununu ortaya koyan Philosophiæ Naturalis Principia Mathematica'yı yayımladı. Eser, modern fiziğin temel taşı sayılır ve Bilimsel Devrim'in doruk noktalarından biridir.",
-  kaynak:"el-kitabi" },
+  kaynak:"Cambridge University Library, «Footprints of the Lion: Isaac Newton at work» https://wwwe.lib.cam.ac.uk/CUL/exhibitions/Footprints_of_the_Lion/gravity_glory.html — «On 5 July 1687, Halley wrote to Newton: 'I have at length brought your Book ; el-kitabi" },
 
 { t:"1688-11-05", b:"Şanlı Devrim — Orange'lı William karaya çıktı", tur:"siyaset",
   onem:5, dunya:4, kapsam:"ic", etiket:["siyaset","anayasa","kriz","ingiltere","konu-siyasi","konu-islahat","konu-hukuk"],
   yer_id:"",
   gun:"5 Kasım 1688 JÜLYEN (İngiliz eski takvimi; Gregoryen 15 Kasım 1688)",
   d:"II. James'in Katolik yanlısı politikalarından rahatsız olan Protestan seçkinlerin daveti üzerine, James'in Protestan damadı Orange'lı William, Devon kıyısına asker çıkardı; James neredeyse hiç direnmeden Fransa'ya kaçtı. Kansız gerçekleşen bu iktidar değişimi 'Şanlı Devrim' olarak anıldı.",
-  kaynak:"el-kitabi", yer_kon:[50.396,-3.512] },
+  kaynak:"Europe, 1450 to 1789: Encyclopedia of the Early Modern World (Scribner/Gale), T. Harris, «Glorious Revolution (Britain)», encyclopedia.com https://www.encyclopedia.com/history/modern-europe/british-and-irish-history/glorious-revolution — «Following William's landing at Torbay on 5 November 1688» ; el-kitabi", yer_kon:[50.396,-3.512] },
 
 { t:"1689-01-01", b:"Locke'un İki İnceleme'si yayımlandı", tur:"kultur",
   onem:4, dunya:3, kapsam:"ic", etiket:["felsefe","ingiltere","konu-din","konu-kultur"],
@@ -690,14 +690,14 @@ window.KRONOLOJI_INGILTERE = [
   yer_id:"Londra",
   gun:"16 Aralık 1689 JÜLYEN (İngiliz eski takvimi; Gregoryen 26 Aralık 1689)",
   d:"William ve Mary'nin ortak hükümdarlığı kabul etmesi karşılığında Parlamento, kraliyet yetkilerini sınırlayan ve Parlamentonun rızası olmadan vergi konulamayacağını, sürekli ordu bulundurulamayacağını güvence altına alan Haklar Bildirgesi'ni yürürlüğe koydu. Belge, İngiliz anayasal monarşisinin temel metinlerinden biri sayılır.",
-  kaynak:"el-kitabi" },
+  kaynak:"legislation.gov.uk, «Bill of Rights [1688]» https://www.legislation.gov.uk/aep/WillandMarSess2/1/2/introduction — «the Act received Royal Assent on 16th December 1689» ; el-kitabi" },
 
 { t:"1694-07-27", b:"İngiltere Bankası kuruldu", tur:"ekonomi",
   onem:5, dunya:2, kapsam:"ic", etiket:["ekonomi","ingiltere","konu-ekonomi"],
   yer_id:"Londra",
   gun:"27 Temmuz 1694 JÜLYEN (İngiliz eski takvimi; Gregoryen 6 Ağustos 1694)",
   d:"Fransa'ya karşı savaş masraflarını finanse etmek amacıyla özel bir konsorsiyum tarafından kurulan İngiltere Bankası, devlete borç verme karşılığında banknot çıkarma imtiyazı aldı. Kurum, modern merkez bankacılığının ve İngiliz kamu borçlanma sisteminin temelini attı.",
-  kaynak:"el-kitabi" },
+  kaynak:"Bank of England, «Our history» https://www.bankofengland.co.uk/about/history — «27 July 1694 Bank of England founded» ; el-kitabi" },
 
 { t:"1699-01-26", b:"Karlofça Antlaşması — Lord Paget ara buluculuk yaptı", tur:"diplomasi",
   onem:3, dunya:4, kapsam:"dis", etiket:["diplomasi","antlasma","ingiltere","konu-diplomasi"],
@@ -720,21 +720,21 @@ window.KRONOLOJI_INGILTERE = [
   yer_id:"Londra",
   gun:"8 Mart 1702 (Jülyen; Gregoryen 19 Mart 1702)",
   d:"II. William'ın ölümüyle Kraliçe Anne tahta çıktı; aynı yıl İngiltere, Fransa'nın Avrupa'da aşırı güçlenmesini engellemek amacıyla İspanya Veraset Savaşı'na girdi. Savaş, Marlborough Dükü'nün komutasında bir dizi büyük zaferle sürecekti.",
-  kaynak:"el-kitabi" },
+  kaynak:"Women in World History (Gale), P. E. Koerper, «Anne (1665–1714)», encyclopedia.com https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/anne-1665-1714 — «William III died of complications from the riding accident on March 8, 1702» ; el-kitabi" },
 
 { t:"1704-08-13", b:"Blenheim Savaşı — Marlborough'nun zaferi", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
   gun:"13 Ağustos 1704 GREGORYEN (İngiliz takviminde 2 Ağustos) — Dikkat: dosyanın öteki 1582-1752 günleri Jülyen",
   d:"Marlborough Dükü John Churchill komutasındaki İngiliz-müttefik ordusu, Fransız-Bavyera kuvvetlerini Blenheim'da ağır bir yenilgiye uğrattı; zafer, Fransa'nın Avrupa'yı domine etme ihtimalini fiilen sona erdirdi. Zafer İngiltere'de büyük bir ulusal gurur kaynağı oldu, Marlborough'ya Blenheim Sarayı hediye edildi.",
-  kaynak:"el-kitabi", yer_kon:[48.6167,10.6167] },
+  kaynak:"The Oxford Companion to British History (OUP), «Blenheim, battle of», encyclopedia.com https://www.encyclopedia.com/history/modern-europe/wars-and-battles/battle-blenheim — «On 13 August 1704 Marlborough attacked the 60,000-strong Franco-Bavarian forces» ; el-kitabi", yer_kon:[48.6167,10.6167] },
 
 { t:"1707-05-01", b:"Birlik Yasaları — Büyük Britanya Krallığı kuruldu", tur:"birlesme",
   onem:5, dunya:2, kapsam:"ic", etiket:["birlesme","anayasa","buyuk-britanya","ingiltere","iskocya","konu-siyasi","konu-islahat","konu-hukuk"],
   yer_id:"Londra",
   gun:"1 Mayıs 1707 JÜLYEN (İngiliz eski takvimi; Gregoryen 12 Mayıs 1707)",
   d:"İngiltere ve İskoçya parlamentoları, iki krallığı tek bir Büyük Britanya Krallığı ve ortak bir Parlamento altında birleştiren yasaları onayladı. Birlik, 1603'ten beri süren yalnızca kişisel taç birliğini tam siyasî birliğe dönüştürdü.",
-  kaynak:"el-kitabi" },
+  kaynak:"legislation.gov.uk, «Union with Scotland Act 1706», Article I https://www.legislation.gov.uk/aep/Ann/6/11/part/1 — «shall upon the First day of May ... One thousand seven hundred and seven» ; el-kitabi" },
 
 { t:"1714-08-01", b:"I. George kral oldu — Hanover hanedanı başladı", tur:"hukumdar",
   onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","buyuk-britanya","konu-siyasi","konu-hanedan"],
