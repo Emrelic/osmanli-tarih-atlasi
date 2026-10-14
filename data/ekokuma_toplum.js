@@ -89,9 +89,9 @@ window.EKOKUMA_TOPLUM = [
   ad:"Osmanlı mahallesinde polis değil, KOMŞU sorumluydu",
   kisa:"Bir olayın zararını bütün mahalle öderdi — devlet gözetimi değil, komşuluk dayanışması işi yürütüyordu.",
   metin:"Osmanlı şehir idaresi merkezî bir polis/belediye teşkilatına dayanmıyordu; günlük düzen mahalle ölçeğinde, sultan fermanıyla atanan İMAMIN sorumluluğundaydı — imam doğum/ölüm/evlilik kaydı tutar, vergiyi dağıtıp toplar, ikamet izni verirdi. Sistemin en çarpıcı yanı KOLLEKTİF KEFALETTİ: TDV'nin ifadesiyle mahalle halkı birbirine 'müteselsilen kefil'di, bir olayın zararı bütün mahalleye paylaştırılırdı — bu, devlet gözetimi yerine mahalle içi dayanışmayı güçlendiren bir mekanizmaydı. Bu yapı 1820'lere kadar sürdü; nüfus sayımı ve askere alma kontrolünün sıkılaştığı 1827 sonrasında ikili muhtarlık (biri Müslüman, biri gayrimüslim mahalleler için) uygulaması başladı, muhtarlar zamanla güvenlik/belediye konularında imamın önüne geçti ve 1864 Vilâyet Nizamnâmesi mahalleleri en az elli haneli resmî birimler olarak tanımladı.",
-  not:"Bu kurumun KESİN kuruluş tarihi TDV'de verilmiyor — İslam/Osmanlı şehirlerinde uzun süredir yerleşik bir gelenek olarak anlatılıyor, tek bir kuruluş ânı yok. `olay:` bu yüzden yalnız DÖNÜŞÜM tarihine (1827, muhtarlık reformları) bağlandı; 1864 Vilâyet Nizamnâmesi'nin kendi günü kronolojide yer almıyor.",
+  not:"Bu kurumun KESİN kuruluş tarihi TDV'de verilmiyor — İslam/Osmanlı şehirlerinde uzun süredir yerleşik bir gelenek olarak anlatılıyor, tek bir kuruluş ânı yok. `olay:` bu yüzden yalnız DÖNÜŞÜM maddesine bağlandı: 1864 Vilâyet Nizamnâmesi ile muhtarlık ve ihtiyar meclisi düzeni (kronolojide 1864 maddesi). Önceki bağ (1827-02-01) o gündeki 'Tımar sisteminin tasfiyesi' maddesine düşüyordu; mahalleyle ilgisi yoktu.",
   kesinlik:"kesin",
-  olay:["1827-02-01"],
+  olay:["1864-06-01|muhtarlık"],
   kaynak:"TDV: mahalle" },
 
 // ═══ H-0053 — mehter ════════════════════════════════════════════════════════

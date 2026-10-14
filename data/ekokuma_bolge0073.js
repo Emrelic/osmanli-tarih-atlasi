@@ -126,7 +126,7 @@ window.EKOKUMA_BOLGE0073 = [
   bag:"Önemi: Basra körfezinin tek çıkışı olan bu boğaz, atlasta beş ayrı devlet renginin sırayla göründüğü en dar geçittir. Osmanlı Devleti körfeze Basra'dan girdi ama boğazı hiç tutamadı; bugünün Hürmüz tartışmalarının coğrafî mantığı da budur.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1515-04-01|Hürmüz","1552-08-01|Hürmüz","1622-04-23|Hürmüz","1622-05-01|Hürmüz","1650-01-26|Maskat","1798-01-18|Maskat"],
+  olay:["1515-04-01|Hürmüz","1552-01-01|Hürmüz","1622-04-23|Hürmüz","1622-05-01|Hürmüz","1650-01-26|Maskat","1798-01-18|Maskat"],
   kaynak:"TDV: hurmuz--iran · uman · resulhayme · basra-korfezi · abbas-i · portekiz",
   ic_not:"H-0015. Şartname 'hızlı bir şekilde anlatan' dedi: kart on bir kısa kesitle kuruldu, her kesit tek bir el değiştirme. GÖRSEL AÇILMADI (H-0015-1.png) — şartname 'gerekirse' diyordu; metin görselsiz tam olduğu için otuz kat maliyet ödenmedi (DALGA-0073 ortak kuralı). KAYNAK AYRIŞMASI, taraf seçilmedi: Portekiz'in Hürmüz'ü ele geçirme yılı TDV `hurmuz--iran`da 1514, atlasın kendi maddesinde 1515-04-01'dir; kart TDV'nin yılını yazdı, atlas günü yalnız BAĞ olarak kullanıldı (D207 — atlas dayanak değildir). Aynı şekilde Ya‘rubî'nin Maskat'ı alışı TDV `uman`da 1029/1620, atlasta 1650-01-26 (kronoloji_arabistan) — kart TDV'nin tarihini yazdı, bağ atlasın gününe kuruldu. TDV `hurmuz` slug'ı ÖLÜ (302); yaşayan adres `hurmuz--iran`. `kavasim` slug'ı da ölü — Kavâsim bilgisi `resulhayme` maddesinden alındı (D217: TDV olay değil YER maddesi tutar). Bûsaîdî'nin Zengibar'la bölünmesi (1856/1862) bu karta ALINMADI: boğazla ilgisi yok, `ekokuma_dogu_afrika` alanına girer."
 },

@@ -436,7 +436,7 @@ window.YERLESIMLER_OK106 = [
   { ad:"Yenikale", isg:[{f:"1771-07-12",t:"1774-07-21",d:"rusya",kaynak:"RBS «Щербатов, Федор Федорович» — 'В июле того же года он, после некоторого сопротивления, занял Керчь, Еникале и Тамань' · ЭСБЕ «Керчь» ('Русские вновь овладели К. в 1771 г.') · VE «Керчь». İŞGAL, ilhak değil: Küçük Kaynarca ile Rusya'ya bırakıldı. ⚠️ GÜN KAYNAKTA YOK — kaynak yalnız 'Temmuz' (Jülyen) diyor ⇒ Gregoryen 12 Temmuz–11 Ağustos; 1771-07-12 bu aralığın İLK günüdür, bir ALT SINIRDIR, olay günü DEĞİLDİR. YAMA-SEFER1768-0917 Y-2 · 1.MURAT M-4500 · UYGULA-4 18 Eyl 2026."}], tur:"kale", lat:45.3521, lon:36.6004, g:0, k:4, m:"Kefe",
     kur:"1703-01-01",
     d:[{f:"1703-01-01",t:"1774-07-21"}],
-    s:[{f:"1774-07-21",t:"1917-03-15",d:"rusya"},
+    s:[{f:"1774-07-21",t:"1783-04-19",d:"rusya",enklav:true,kaynak:"KUTU-G5-1014 (0080/H-0019) enklav beyanı · TDV kirim: Küçük Kaynarca ile Rusya'ya 'Yenikale ve Kerç, Dinyeper ağzında Kılburun Kalesi' bırakıldı; Kırım hanlığı 'serbest ve tam mânasıyla müstakil' — Rus gövdesinden müstakil Kırım toprağıyla ayrılmış eksklav, ilhaka dek (TDV kirim: 'Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)'; 1783-04-19 = komşu Kefe/Sudak kayıtlarındaki ilhak günü)"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"kerc" },

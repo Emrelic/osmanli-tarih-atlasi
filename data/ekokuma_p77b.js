@@ -212,7 +212,7 @@ window.EKOKUMA_P77B = [
     +"Büyük Romanya yirmi iki yıl sürdü. 1940'ta Hitler-Stalin anlaşmasının sonucu olarak Besarabya ve Kuzey Bukovina Sovyetler Birliği'ne geçti; bugünkü Romanya sınırları bu kayıpla belirlendi. Besarabya'nın yerinde bugünkü Moldova'nın öncülü olan sovyet cumhuriyeti kuruldu.",
   not:"Küçük bir tarih ayrışması: TDV Transilvanya'nın Avusturya'ya geçişini 1699 Karlofça ile, Bukovina'nınkini 1775 ile verir; akademik kaynak Transilvanya için 1690/91'den itibaren Habsburg idaresini, Bukovina için 1774/76'yı yazar. Fark, fiilî idare ile antlaşmayla tescil arasındaki mesafeden doğuyor olabilir; kaynaklar bunu açıklamıyor.",
   kesinlik:"kesin",
-  olay:["1918-12-01"],
+  olay:["1918-12-01|Romanya"],
   kaynak:"TDV: romanya (Memleketeyn, 1877 bağımsızlık ve Plevne, Berlin'de tanınma, Dobruca, 1881 krallık, Transilvanya-Bukovina-Besarabya'nın 1 Aralık 1918 birleşmesi, 1940 kayıpları) · Harald Heppner, Romania; 1914-1918-online. International Encyclopedia of the First World War, Freie Universität Berlin (Üçlü İttifak, savaşa giriş sebebi, 1916 yenilgisi, iki katına büyüme, dış Romenler) · Feroze Yasamee, War Aims and War Aims Discussions (Ottoman Empire); 1914-1918-online (Osmanlı'nın Romanya'yı denge unsuru görmesi)" },
 
 // ── Sırp-Hırvat-Sloven Krallığı ─────────────────────────────────────────────
@@ -396,7 +396,7 @@ window.EKOKUMA_P77B = [
     +"Dağılış Viyana-Budapeşte-Prag üçlüsüyle bitmedi: toprağın bir kısmı mevcut devletlere (Romanya, Sırbistan) katıldı, bir kısmı yeni devletler (Çekoslovakya, Yugoslavya) doğurdu. Haritada bu ilanlar 11 Kasım 1918'de tek güne toplanır; ilanların kendisi 18 Ekim ile 1 Aralık arasına yayılır.",
   not:"İki boşluk açıkça bildirilir: ① İtalya'ya bırakılan topraklar (Güney Tirol, Trieste, İstria) ve ② Galiçya'nın Polonya'ya geçişi — okunan TDV maddelerinde (avusturya · macaristan · birinci-dunya-savasi) bu devirleri tarihleyen cümle BULUNAMADI; kart bu yüzden onları anlatmaz. Çekoslovakya'nın bağımsızlık ilanı için TDV avusturya 18 Ekim (Paris'teki geçici hükümet) ile 29 Ekim (Prag) günlerini ayrı ayrı verir; kronolojideki 28 Ekim maddesi TDV cekoslovakya'dandır — üç gün üç ayrı olayı tarihliyor.",
   kesinlik:"kesin",
-  olay:["1918-10-30|Avusturya Cumhuriyeti","1918-11-11|ardıl devletlere"],
+  olay:["1918-10-30|Avusturya Cumhuriyeti","1918-11-11|monarşinin sonu"],
   kaynak:"TDV: avusturya (1804-1867 / 1867-1918 adları, 1867 ikili devletin sebebi, 'Tuna'daki hasta adam', Çekler ve Sırp-Hırvat-Slovenlerin 1918 hareketleri ve ekonomik zorluklar, 18 Ekim Paris, 24 Ekim Macarlar, 29 Ekim Prag ve Zagreb, 30 Ekim Avusturya Cumhuriyeti, 3 Kasım Villa Giusti, 10 Eylül 1919 Saint-Germain hükümleri) · macaristan (4 Haziran 1920 Trianon: 283.000 km², üçte iki, %60, 35.000) · romanya ve yugoslavya (1 Aralık 1918 birleşmeleri — bu dosyadaki p77b-buyuk-romanya-1918 ve p77b-sirp-hirvat-sloven-kralligi-yugoslavya-1918 kartlarının kaynağı)" },
 
 ];

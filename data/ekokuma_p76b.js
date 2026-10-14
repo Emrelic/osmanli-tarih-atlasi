@@ -592,7 +592,7 @@ window.EKOKUMA_P76B = [
     +"■ NİÇİN BU KADAR TUTTU\n"
     +"Tabirin gücü, bir devletin çöküşünü kaçınılmaz ve tabii bir süreç gibi göstermesindedir. Hasta bir insan için yapılacak şey bellidir: beklemek ve mirası düzenlemek. Böyle bir çerçevede müdahale etmek saldırganlık değil, tedbir sayılır. Bu yüzden ifade, bir gözlem olmaktan çok bir SİYASET ARACIDIR — ve tam olarak paylaşımın hızlandırılması amacına hizmet etmiştir.",
   kesinlik:"tartismali",
-  olay:["1856-03-30"],
+  olay:["1856-03-30|Paris Antlaşması"],
   kaynak:"TDV: sark-meselesi (Kemal Beydilli) · Tekin Önal, “İşgalden İhtilale Millî Mücadele Hareketinin Diplomatik Boyutu”, Türkiyat Mecmuası 29 (2019), s. 89-125, DOI 10.26650/iuturkiyat.652128. Dikkat: Görüşmenin tarafları ve tam cümlesi TDV'de `bulunamadı`; ay bilgisi (Ocak 1853) akademik makaleden alınmış, gün verilmemiştir — gün UYDURULMADI" },
 
 // ══════════════════════════════════════════════════════════════════════════

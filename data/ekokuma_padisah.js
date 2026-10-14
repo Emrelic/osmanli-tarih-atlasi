@@ -68,7 +68,7 @@ window.EKOKUMA_PADISAH = [
   kisa:"Atlasın mevcut kaydı bu ölüme 'TDV gün vermiyor' diyordu — bağımsız bir TDV taraması bir gün buldu: 27 Zilhicce 1011 / 7 Haziran 1603.",
   metin:"III. Mehmed'in kendi öz oğlu Şehzade Mahmud'u, büyük oğlunun tahtına göz koyduğu ve askerî çevrelerin onu desteklediği şüphesiyle boğdurtması — annesi ve otuz kadar hizmetçisinin de denize atılması — ayrı bir kartta zaten anlatılıyor.\n\nBu olayın günü kaynaklarda net değil: TDV'nin 'mehmed-iii' maddesinin bir bölümü '27 Zilhicce 1011 / 7 Haziran 1603' tarihini verirken, atlasın ilgili kaydı bu olayı 22 Aralık 1603'e bağlıyor. İki tarih arasındaki fark henüz çözülmedi.",
   kesinlik:"tartismali",
-  olay:["1603-06-07","1603-12-22"],
+  olay:["1603-06-07","1603-12-22|vefatı"],
   kaynak:"TDV: mehmed-iii",
   ic_not:"🔴 KOORDİNATÖRE RAPORLANACAK ÇAPRAZLIK: iki bağımsız TDV taraması (bu oturum ve önceki bir oturum) Şehzade Mahmud'un ölüm tarihi konusunda FARKLI sonuca vardı. Taraf tutulmadı, ikisi de kayıtlı.",
   gorsel:null, gorsel_kaynak:"aranmadı" },

@@ -203,7 +203,7 @@ window.MERAK = [
     { tez:"Sınırlı hedefe göre BAŞARILIYDI",
       dayanak:"Portekiz Kızıldeniz'e yerleşemedi: 1513 Aden ve 1517 Cidde teşebbüsleri püskürtüldü. Ölçüt 'Hindistan'a hâkim olmak' ise rekabet kaybedilmiş, 'Kızıldeniz'i kapatmak' ise kazanılmıştır." }
   ],
-  baglanti:["1516-08-02","1517-04-18","1538-06-13","1546-01-01","1559-01-01|Bahreyn"],
+  baglanti:["1516-08-02","1517-04-18","1538-06-13","1545-12-26|Basra","1559-01-01|Bahreyn"],
   kesinlik:"tartismali",
   kaynak:"TDV: HİNT DENİZİ SEFERLERİ · Ertuğrul Önalp (OTAM) · Diogo do Couto, Da Ásia" },
 
