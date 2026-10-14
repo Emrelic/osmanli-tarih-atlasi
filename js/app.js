@@ -3907,7 +3907,18 @@ harita.on("load", function () {
     el.classList.toggle("cok-uzak", z < 4.0);
     el.classList.toggle("uzak", z >= 4.0 && z < 5.2);
     var e = zoomEsigi();
-    if (e !== sonEsik) { sonEsik = e; sehirGuncelle(suanki); }
+    // 🔴 KUTU-D-1014 (0088/H-0006, Emre: "uçuş … takılmadan oynasın, yağ gibi
+    // kaysın"). ÖLÇÜLDÜ (yerel önizleme, kare sayacının "UÇUŞ SIRASINDA" satırı):
+    // `sehirGuncelle` 94-399 ms'lik uzun görev olarak uçuşun ORTASINDA koşuyordu.
+    // Kaynağı bu satır: eğik atış zoom'u 5.2 ve 4.0 eşiklerini önce aşağı sonra
+    // yukarı geçiyor ⇒ uçuş başına 2-4 kez EŞZAMANLI `sehirGuncelle`. Aşağıdaki
+    // `etiketTazele` uçuşta zaten askıya alınıyordu (23 Ağustos), bu dal
+    // ALINMAMIŞTI. İşaretler uçuşta `harita-ucusta` ile gizli ⇒ iş borç yazılır,
+    // varışta `__etiketBorcuOde` → `etiketTazele` → `sehirGuncelle` BİR KEZ öder.
+    if (e !== sonEsik) {
+      sonEsik = e;
+      if (KAMERA.olayBekliyor) etiketBorcu = true; else sehirGuncelle(suanki);
+    }
     etiketTazele();
   }
   // ⚠️ Etiket yerleşimi bugüne kadar YALNIZ dönem değişince hesaplanıyordu
@@ -10651,6 +10662,9 @@ function guncelle() {
   if (window.yerAraGunDegisti) window.yerAraGunDegisti();
   // KUTU-D-1014 (0052/H-0114): boşluk halkası/beneği yalnız kendi zaman penceresinde.
   if (window.boslukGunDegisti) { try { window.boslukGunDegisti(suanki); } catch (eB) { } }
+  // KUTU-D-1014 (0088/H-0051): kardeş maskesi yalnız kendi gününde durur (kırpma
+  // sırasındaki geçici gün değişimi onu kaldırmaz).
+  if (_kardesMaskeGun != null && suanki !== _kardesMaskeGun && !_kirpmaKilitli) kardesMaskesiKaldir();
   if (!_kirpmaKilitli) {
     agirOlc("sehirGuncelle", function () { sehirGuncelle(suanki); });
     agirOlc("savasGuncelle", function () { savasGuncelle(suanki); });
@@ -14002,7 +14016,67 @@ function ittifakCiz(itt, o) {
   _ittifakZaman.push(setTimeout(ittifakTemizle, toplam + 700));
 }
 
+// ═══════════════════════════════════════════════════════════════════════════
+// 🆕 KUTU-D-1014 — AYNI GÜN KARDEŞ MASKESİ (paket 0088 H-0051 · 0085 H-0023)
+// Emre: *"aynı tarih görünen kronoloji maddelerinin birincisine gelindiği zaman
+// üç kronoloji maddesi toptan bir şekilde haritaya yansımamalı"* · 1460 İzvornik /
+// Amasra "çapraz" şikâyeti. ÖLÇÜLDÜ (yerel önizleme): yanıp sönme zaten maddeye
+// özeldi (Amasra 1, İzvornik 2 petek — `maddeDegisimleri`), ama HARİTANIN DURUMU
+// günün tamamıydı: ilk maddede ikinci maddenin toprağı da çoktan el değiştirmiş
+// görünüyordu. Çare: aynı günün SONRAKİ kardeşlerine (liste sırası, `_agSira`)
+// DOĞRUDAN bağlı değişimler, o maddeye gelinene kadar ESKİ SAHİBİN rengiyle
+// örtülür. Kimseye bağlanamayan değişim örtülmez (bilgi saklanmaz). Örtü yalnız
+// o GÜNDE durur; gün değişince kalkar. Sahiplik verisi DEĞİŞMEZ — yalnız çizim.
+var _kardesMaskeGun = null;
+function kardesMaskesiKaldir() {
+  _kardesMaskeGun = null;
+  try { if (harita.getSource("kardes-maske")) harita.getSource("kardes-maske").setData(bosVeri()); } catch (e) { }
+}
+function kardesMaskesiKur(o) {
+  kardesMaskesiKaldir();
+  var SG = window.SUZGEC, Y = window.YERLESIMLER || [];
+  if (!o || !o._agGrup || o._agGrup.length < 2 || !SG || !SG.maddeDegisimleri) return;
+  if (!(o.gi > VERI_BASI && o.gi < VERI_SONU)) return;
+  _farkIndeksiKur();
+  var gs = _khGunStr(o.gi), kardes = o._agGrup, sira = o._agSira || 1;
+  var kendi = {}, ortu = {};
+  SG.maddeDegisimleri(o, gs, Y, ANT_FARK.ix, kardes).secilen.forEach(function (x) { kendi[x.i] = 1; });
+  kardes.forEach(function (k) {
+    if ((k._agSira || 0) <= sira || antlasmaMaddesiMi(k)) return;     // önceki/aynı madde zaten oynadı
+    SG.maddeDegisimleri(k, gs, Y, ANT_FARK.ix, kardes).secilen.forEach(function (x) {
+      if (x.yol === "komsu" || kendi[x.i]) return;                     // bu maddenin kendi toprağı örtülmez
+      ortu[x.i] = x;
+    });
+  });
+  var ixler = Object.keys(ortu);
+  if (!ixler.length) return;
+  function ciz() {
+    var G = window.PETEK_GOVDE, P = window.PETEK_GOVDE_PARCA;
+    if (!G || !P || !haritaHazir) return;
+    if (suanki !== o.gi) return;                                        // bu arada gün değişti
+    var fs = [];
+    ixler.forEach(function (i) {
+      var y = Y[i], pi = y ? ANT_FARK.petAd[y.ad] : undefined, ix = (pi === undefined) ? null : G[pi];
+      if (!ix || !ix.length) return;
+      fs.push({ type: "Feature", properties: { once: _sahipRengi(ortu[i].once) },
+                geometry: { type: "MultiPolygon", coordinates: ix.map(function (j) { return P[j]; }) } });
+    });
+    if (!fs.length) return;
+    if (!harita.getSource("kardes-maske")) {
+      harita.addSource("kardes-maske", { type: "geojson", data: bosVeri() });
+      harita.addLayer({ id: "kardes-maske-dolgu", type: "fill", source: "kardes-maske",
+        paint: { "fill-color": ["get", "once"], "fill-opacity": 0.92 } },
+        harita.getLayer("antlasma-fark-dolgu") ? "antlasma-fark-dolgu" : undefined);
+    }
+    harita.getSource("kardes-maske").setData({ type: "FeatureCollection", features: fs });
+    _kardesMaskeGun = o.gi;
+    console.debug("[kardeş maskesi] " + gs + " · " + fs.length + " petek sonraki kardeş maddeye kadar eski sahibinde gösteriliyor.");
+  }
+  if (window.PETEK_GOVDE) ciz(); else _petekGovdeYukle(ciz);
+}
+
 function haritayiOlayaGotur(o, zorla) {
+  try { kardesMaskesiKur(o); } catch (eKm) { console.error("[kardeş maskesi]", eKm); }
   // 🔴 `pasif` kip HER YOLU kapatır — `zorla` DÂHİL. Gerekçesi Emre'nin
   // tanımı: *"harita o şekilde kalacaktır."* (Ayrıntı: index.html.)
   // ⚠️ `zorla` bayrağı artık yalnız belge değeri taşıyor; kaldırılmadı

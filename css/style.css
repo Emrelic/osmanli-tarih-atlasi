@@ -2791,6 +2791,14 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 @media (prefers-reduced-motion: reduce) {
   .ittifak-rozet { animation: none; }
 }
+/* KUTU-D-1014 — D yaslaması sürerken (ölçüldü: 1923-09-01'de 47 sn) ham gövdenin
+   geçici olduğunu söyleyen köşe göstergesi (js/d_katman.js _dYaslaGosterge). */
+.d-yasla-gosterge {
+  position: absolute; left: 10px; bottom: 64px; z-index: 5;
+  padding: 3px 9px; border-radius: 12px;
+  background: rgba(40, 20, 10, 0.78); color: #ffe9b0;
+  font-size: 12px; pointer-events: auto;
+}
 
 /* 🔴 21 Ağustos — Emre: "devletsiz şehirlerin isimlerini de … yazalım."
    `.bosluk-kutu`, `.sehir`in flex desenini BİREBİR izliyor (nokta solda,

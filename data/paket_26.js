@@ -2143,7 +2143,7 @@ window.SEFERLER_P0077 = [
 // KUTU-D-1014 (Emre: "Mustafa Kemal'in Samsun yolculuğunu bir sefer oku ile gösterelim,
 // denizden geçen ve Samsun'a inen"). Ek okuma yüzü zaten var (ekokuma_p77b.js
 // p77b-mustafa-kemal-samsun-yolculugu-1919). f: TDV "İzmir'in işgal edildiğinin ertesi
-// günü" — İzmir'in işgali 15 Mayıs 1919 (olaylar_ek.js) ⇒ 16 Mayıs. t: "19 Mayıs 1919
+// günü" — İzmir'in işgali 15 Mayıs 1919 (TDV izmir) ⇒ 16 Mayıs. t: "19 Mayıs 1919
 // sabahı Samsun'a ulaştı" (kronoloji: olaylar.js 1919-05-19 "Mustafa Kemal Samsun'da").
 // Vapurun ara uğrakları kaynakta YOK ⇒ yol yalnız İstanbul · Boğaz ağzı (coğrafî
 // zorunluluk) · Samsun. `rota` ARAC-SEFER-OK-DENIZ-ROTA-0075.py çıktısı (ne_10m_land,
@@ -2152,7 +2152,7 @@ window.SEFERLER_P0077 = [
   ad:"Mustafa Kemal'in Bandırma vapuruyla Samsun'a yolculuğu (1919)",
   tur:"deniz", sonuc:"zafer", taraf:"osmanli", devlet:"osmanli",
   f:"1919-05-16", t:"1919-05-19",
-  tarih_hassasiyet:"f: GÜN — TDV 'İzmir'in işgal edildiğinin ertesi günü' (İzmir 15 Mayıs 1919) · t: GÜN — '19 Mayıs 1919 sabahı Samsun'a ulaştı'",
+  tarih_hassasiyet:"f: GÜN — TDV mustafa-kemal-ataturk 'İzmir'in işgal edildiğinin ertesi günü' + TDV izmir '15 Mayıs 1919'da başlayıp 9 Eylül 1922'ye kadar süren Yunan işgali' ⇒ 16 Mayıs · t: GÜN — '19 Mayıs 1919 sabahı Samsun'a ulaştı'",
   kaynak:"mustafa-kemal-ataturk (TDV): \"İzmir'in işgal edildiğinin ertesi günü maiyetindeki on yedi subayla birlikte Bandırma vapuruyla İstanbul'dan hareket eden Mustafa Kemal 19 Mayıs 1919 sabahı Samsun'a ulaştı.\" · samsun (TDV): \"Mustafa Kemal Paşa'nın maiyetiyle 19 Mayıs 1919'da Millî Mücadele'yi başlatmak üzere Samsun'a çıkışı\"",
   kesinlik:"İSTASYON yalnız iki uç (İstanbul, Samsun) + Boğaz ağzı (coğrafî zorunluluk). Ara uğraklar kaynakta yok; rota şematik kıyı açığı hattı.",
   yol:[[28.980,41.008],[29.15,41.25],[36.331,41.286]],

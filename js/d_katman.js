@@ -917,6 +917,7 @@ function _dVassalKaynaginiYaz(geo) {
 // (SINIR-D-*-0077-olc.js). Davranışı 24 Eylül öncesiyle aynıdır.
 function _dYaslaGuncelle(gun) {
   _dYaslaIsi = null;                       // sürmekte olan dilimli iş varsa bırakılır
+  _dYaslaGosterge(false);
   var is = _dYaslaHazirla(gun);
   if (is) _dSur(is);
 }
@@ -946,11 +947,34 @@ function _dYaslaSonraki(fn) {
   _dYaslaKanal.bekleyen = fn;
   _dYaslaKanal.port2.postMessage(0);
 }
+// 🆕 KUTU-D-1014 (0077 H-0015 · H-0065 · H-0084, Emre: "Türkiye-İran sınırında iki
+// çizgi", "Bulgaristan D sınırına renkler tam oturmuyor"). ÖLÇÜLDÜ (yerel önizleme,
+// 1923-09-01): yaslama 47,4 sn sürüyor (1017 dilim, en uzun tek adım 2,37 sn) ve bu
+// sürede ekranda HAM gövde duruyor — Emre'nin gördüğü kenar bu. Kalıcı çare (önceden
+// hesaplanmış gövde ya da Worker) Emre'nin kararına sunuldu; bu arada kullanıcı ham
+// görüntünün GEÇİCİ olduğunu bilsin diye haritanın köşesinde bir gösterge yanar.
+function _dYaslaGosterge(acik) {
+  try {
+    var el = document.getElementById("d-yasla-gosterge");
+    if (!acik) { if (el) el.style.display = "none"; return; }
+    if (!el) {
+      var kap = harita.getContainer();
+      el = document.createElement("div");
+      el.id = "d-yasla-gosterge";
+      el.className = "d-yasla-gosterge";
+      el.textContent = "◐ Renkler belgeli (D) sınır hatlarına yaslanıyor…";
+      el.title = "Bu sürede sınır renkleri hatta henüz oturmamış (ham) görünür; hesap bitince kendiliğinden düzelir.";
+      kap.appendChild(el);
+    }
+    el.style.display = "";
+  } catch (e) { }
+}
 function _dYaslaPlanla(gun) {
   var is = _dYaslaHazirla(gun);
   if (!is) return;
   _dYaslaIsi = is;
   _dYaslaOlcu = { dilim: 0, dilimMax: 0, adimMax: 0, basla: performance.now(), sure: 0 };
+  _dYaslaGosterge(true);
   _dYaslaSur(is);
 }
 function _dYaslaSur(is) {
@@ -963,14 +987,14 @@ function _dYaslaSur(is) {
       if (r.done) { bitti = true; break; }
     }
   } catch (e) {
-    if (_dYaslaIsi === is) _dYaslaIsi = null;
+    if (_dYaslaIsi === is) { _dYaslaIsi = null; _dYaslaGosterge(false); }
     console.warn("D YASLAMA: dilimli hesap düştü:", e);
     return;
   }
   var d = performance.now() - t0;
   o.dilim++; if (d > o.dilimMax) o.dilimMax = d;
   if (bitti) {
-    if (_dYaslaIsi === is) _dYaslaIsi = null;
+    if (_dYaslaIsi === is) { _dYaslaIsi = null; _dYaslaGosterge(false); }
     o.sure = performance.now() - o.basla;
     return;
   }
