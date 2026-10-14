@@ -556,6 +556,25 @@ window.YERLESIMLER_ASYA = [
      {f:"1839-07-23", t:"1842-09-06", d:"ingiltere"},
      {f:"1842-09-06", t:"2000-12-31", d:"afganistan"}] },
 
+// Bâmiyan — KUTU-A-1014 (0082/H-0056 · 0086/H-0004): Hazârecât kutusunda
+// (33.2-36.2K / 62.5-68D) HİÇ nokta yoktu; toprak Kâbil/Kandehar/Herat
+// peteklerine emilip Bâbürlü/Safevî/Dürrânî boyanıyordu. Kaynak bunun TERSİNİ
+// söylüyor: Iranica HAZĀRA i 'Until the late 19th century, the Hazārajāt
+// remained independent and only the authority of local leaders, ḵāns or mirs,
+// was obeyed' · HAZĀRA ii 'For most of the period since the 16th century, the
+// Hazāras have evaded the control of the powerful regional empires (Safavids
+// in Iran, Uzbeks in Central Asia, Mughals in India)'. Timur'un seferleri
+// yalnız 'expeditions'. ⇒ 1893'e dek __BOSLUK__ (kimsenin değil), en yakın
+// kimliğe İTİLMEDİ. 🟡 Dost Muhammed'in ikinci saltanatında (1259-79/1842-63)
+// 'collected taxes in Bāmiān and certain peripheral areas' — vergi tahsili,
+// idare değil; dönem olarak YAZILMADI (beyan). Fetih: 'only in the summer of
+// 1893 … Hazāra forces suffered a resounding defeat' ⇒ afganistan 1893 (YIL;
+// YYYY-01-01 kuralı ucu yazdan önceye düşürür, beyanlı). Koordinat OSM
+// (Bâmiyan çarşısı). Mükerrer: en yakın nokta Kâbil ~130 km.
+{ ad:"Bâmiyan", tur:"sehir", lat:34.8215, lon:67.8300, g:0, k:0, d:[], kaynak:"Encyclopaedia Iranica HAZĀRA i-ii · koordinat OSM",
+  s:[{f:"1281-01-01", t:"1893-01-01", d:"__BOSLUK__", kaynak:"Iranica HAZĀRA i-ii (yukarıdaki yorum): Hazârecât 19. yy sonuna dek bağımsız, yerel han/mir idaresi; künyesi olan bir yapı yok"},
+     {f:"1893-01-01", t:"2000-12-31", d:"afganistan", kesinlik:{f:"yil",t:"gun"}, kaynak:"Iranica HAZĀRA ii: Abdurrahman Han'ın Hazâra seferi, 'summer of 1893 … resounding defeat' (YIL)"}] },
+
 // Kandehar — Bâbürlü ile Safevî arasında altı kez el değiştirdi: 1522 Bâbür,
 // 1537 Safevî, 1595 Bâbürlü, 1622 Safevî, 1638 Bâbürlü, 1649 Safevî.
 // 1709'da Mîr Veys ile Hotakî Afgan idaresi başladı; bu dosya Oturum 4'ün
@@ -563,7 +582,8 @@ window.YERLESIMLER_ASYA = [
 // 1747'de Ahmed Şah Dürrânî burada taç giydi ve ilk başkenti oldu.
 { ad:"Kandehar", tur:"sehir", lat:31.6100, lon:65.7100, g:1, k:2, d:[],
   s:[{f:"1281-01-01", t:"1370-01-01", d:"cagatay"},
-     {f:"1370-01-01", t:"1522-09-06", d:"timurlu"},
+     {f:"1370-01-01", t:"1507-05-01", d:"timurlu"},
+     {f:"1507-05-01", t:"1522-09-06", d:"__BOSLUK__", kaynak:"KUTU-A-1014 (0086/H-0013, 0033/H-0010): ARGUN İDARESİ — künye YOK, boyanamaz. Eski d:'timurlu' 1522'ye uzanıyordu; timurlu künyesi 1507-05-01'de biter ⇒ 15 yıllık hayalet (künye aşımı: devlet öldü → dönem KISALTILDI; 1507-05-01 künye günüdür, kaynaksız). TDV zunnun-argun: Hüseyin Baykara 'Kandehar, Ferah, Gūr, Sahar ve Tulek'i de onun idaresine verdi' (yılsız), Zünnûn 'Özbekler tarafından Kararibat'ta öldürüldü (7 Muharrem 913/19 Mayıs 1507)' · TDV argun--sind: oğlu Şah Şücâ' 'Kandehar'da tutunabilmek için Şeybânîler'in hâkimiyetini tanımak zorunda kaldı', 'Bâbürlüler 1522'de Kandehar'ı zaptedince' Bakkar'a geçti. Argun künyesi + BOYALAR rengi gelince (TUZ) bu dilim d:'argun' olur. En yakın kimliğe İTİLMEDİ"},
      {f:"1522-09-06", t:"1537-01-01", d:"babur-imparatorlugu"},
      {f:"1537-01-01", t:"1595-01-01", d:"safevi"},
      {f:"1595-01-01", t:"1622-06-22", d:"babur-imparatorlugu"},
