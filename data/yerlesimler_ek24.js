@@ -64,9 +64,10 @@ window.YERLESIMLER_EK24 = [
   s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1920-05-14",d:"bulgaristan-kralligi"},{f:"1920-05-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1361-01-01",t:"1402-07-28",kaynak:"gün komşudan: Dimetoka · TDV dimetoka — Orta Meriç bölgesinin tamamı"},{f:"1413-07-05",t:"1913-05-30"}], v:[] },
 
-{ ad:"Dedeağaç (Alexandroupoli)", tur:"liman", lat:40.8490, lon:25.8740, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1371-09-26",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1920-05-14",d:"bulgaristan-kralligi"},{f:"1920-05-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
-  d:[{f:"1371-09-26",t:"1402-07-28"},{f:"1413-07-05",t:"1913-05-30"}], v:[] },
+{ ad:"Dedeağaç (Alexandroupoli)", tur:"liman", lat:40.8490, lon:25.8740, g:0, k:3, m:"Edirne", kur:"1869-01-01", kesinlik:"onyil",
+  neden:"SEHIR-TARIHCE-OSM-1014 (Emre 14 Ekim): kuruluş tanıklı — TDV FERECİK (M. Kiel): şehir 1860'larda kuruldu (güvenli uç 1869). 1281–1869 dönemleri (bizans, Fetret şehzadeleri, d: 1413–1869) kuruluştan ÖNCE olduğu için kırpıldı. Tarihçe: data/sehir_tarihce_osm.js 'alexandroupoli'.",
+  s:[{f:"1913-05-30",t:"1920-05-14",d:"bulgaristan-kralligi"},{f:"1920-05-14",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
+  d:[{f:"1869-01-01",t:"1913-05-30"}], v:[] },
 
 // ───────── MUTLUDERE HATTI · TÜRKİYE YAKASI (güney) ─────────
 { ad:"Lalapaşa", tur:"kasaba", lat:41.836, lon:26.741, g:0, k:3, m:"Edirne",

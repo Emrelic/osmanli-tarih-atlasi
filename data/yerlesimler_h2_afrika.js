@@ -151,9 +151,10 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 // Mavi Nil boyunda Sennâr ile Vad Medenî arasındaki eyer.
-{ ad:"Sincâ", tur:"sehir", lat:13.145, lon:33.932, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
+{ ad:"Sincâ", tur:"sehir", lat:13.145, lon:33.932, g:0, k:4, m:"Hartum", kur:"1886-01-01", kesinlik:"onyil",
+  neden:"SEHIR-TARIHCE-OSM-1014 (Emre 14 Ekim): kuruluş tanıklı — Gleichen (ed.), The Anglo-Egyptian Sudan: a compendium, I, London 1905, Senga maddesi: kasabayı Abdalla Wad El Hassan 'about 19 years ago' kurdu ⇒ ~1886 (on yıl). 1281–1886 dönemleri (nube, funj, v: Mısır 1821–1885, Mehdî 1885–1886) kırpıldı. Tarihçe: 'singa'.",
+  s:[{f:"1886-01-01",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"TDV `sudan` (gövde okundu): \"Lord Cromer ... 19 Ocak 1899'da 'condominium' (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.\" Künye ingiliz-sudani f:1899-01-19 aynı gün. NOKTA-ORTADOGU-0077 · YAMA B1 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
+  v:[], d:[] },
 
 // TDV `muhammed-ahmed-el-mehdi` maddesinde adı geçen Müsellemiyye.
 { ad:"Müsellemiyye", tur:"sehir", lat:14.400, lon:33.325, g:0, k:4, m:"Hartum",
