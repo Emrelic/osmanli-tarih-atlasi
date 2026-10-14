@@ -289,8 +289,8 @@ window.YERLESIMLER_SEYREK = [
 // "Tuzla (Bosna)" adını taşıyor).
 // Zincir İzvornik'in birebir aynısı: aynı Drina havzası, aynı sancak,
 // 1460-01-01 mevcut kırılma günü.
-{ ad:"Tuzla (Bosna)", tur:"sehir", lat:44.538, lon:18.676, g:0, k:3, m:"Saraybosna",
-  s:[{f:"1281-01-01",t:"1460-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-03-03",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-03-03",t:"2000-12-31",d:"bosna-hersek",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
+{ ad:"Tuzla (Bosna)", kur:"1460-01-01", kesinlik:"yil", neden:"SEHIR-TARIHCE-OSM-1014 · Emre kararı 14 Ekim 2026 (Şırnak kalıbı): kur: KURULUŞ DEĞİL, İLK YAZILI TANIK — haritada görünme için ALT SINIR; yerleşim daha önce var olmuş olabilir, kaynak bunu dışlamıyor. İlk tanık: 1460 — Hrvatska enciklopedija (LZMK), 'Tuzla'; TDV TUZLA (M. Kiel) Donja Soli/Ağaçhisar için 1463. Kesinlik yil. Öncesindeki dönemler (atlasın 1281 başlangıcı) kırpıldı. Tarihçe: data/sehir_tarihce_osm.js 'tuzla'.",  tur:"sehir", lat:44.538, lon:18.676, g:0, k:3, m:"Saraybosna",
+  s:[{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"},{f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-03-03",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-03-03",t:"2000-12-31",d:"bosna-hersek",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1460-01-01",t:"1908-10-05"}],
   isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 

@@ -41,3 +41,20 @@ kitabe kararıyla çıktı). Ölçüm: `girdi.yukle()` + tarihçe, bu oturum.
 B (13) hemen → A (4) kapanış notu → C (7) eski-yer noktaları ayrı iş → D (32) karara göre.
 Her değişiklik: Değişmez 1/5a ve 2s (yabancı senkron) ölçülür; `kur:` ile kırpılan dönemlerin kronoloji
 maddeleri (`olaylar*`) gerekiyorsa tarihçedeki kaynaklı olaylardan aktarılır.
+
+## UYGULAMA — 14 Ekim 2026 (Emre: seçenek 1, Şırnak kalıbı)
+- **B grubu:** Dedeağaç 1869 · Sincâ 1886 · El-Fâşir 1792 · Sîdî Bel Abbès 1843 yazıldı. Batna (kaynak yalnız arama
+  özeti) ve Mürzük (bölge noktası) UYGULANMADI. El-Obeyd/Hartum/Saraybosna: yerlesimler.js kilitliydi → sonraki parti.
+  Çanakkale/Feyzâbâd/Nâsıriye/Senendec: atlasta kaynaklı kur: zaten var, dokunulmadı.
+- **D grubu:** 28 şehir (kur: = ilk tanık + kesinlik + neden beyanı; öncesi s/d/v kırpıldı). Betik: her kayıt yeniden
+  okunup beklenen nesneyle BİREBİR karşılaştırıldı (28/28, plan dışı değişen 0). Gümülcine'nin mevcut 
+eden:i
+  KORUNDU (sonuna eklendi). UYGULANMAYAN 4: Kesela (atlasın kaynaklı 1840 kur'u) · Şibînülkûm (ölçülemedi ≠ yok) ·
+  Sisam (nokta adayı temsil ediyor) · Tîzî Vezzû/Kabiliye (nokta bölgeyi temsil ediyor).
+- **Ölçülen yan etki ve çaresi:** GÜNÜ olan kur: bir "kazanç" kırılmasıdır (YYYY-01-01 yıl-temsilî kovaya düşer).
+  7 şehir (Bilecik, Burdur, Çorum, Mostar, Tatarpazarcığı, Banaluka, Vâdî Halfâ) Değişmez 2'de 2, 2s'de 5 açık
+  üretti ⇒ ölçüt gevşetilmedi; her biri için ŞEHRİN İLK ANILIŞI maddesi yazıldı (data/olaylar_sehir_ilk.js,
+  paket_15) — Emre'nin istediği şehir kronolojisinin "ilk bahsediliş" maddesi. TDV slug'ları ham metin başlığıyla
+  doğrulandı (osman-i, hamidogullari, eretnaogullari, mostar, tatarpazarcigi, banaluka GERÇEK; osman-gazi, vadi-halfa ÖLÜ).
+- **denetle (çıkış 0):** D1 309 (tavan) · D1b 0 · D2 0 açık · **D2s 189 (tavan 191 — İYİLEŞTİ, tavanın 189'a
+  indirilmesi önerilir, Emre onayı)** · D2i 1 (tavan) · D2t 11 (tavan 13) · D5 0 · D5a 2 (tavan).

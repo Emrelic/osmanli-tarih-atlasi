@@ -435,6 +435,19 @@ uydurmak** cazip görünür. **Yasak.** Ayrımı bir örnek çifti veriyor:
      ilk anılışları `kur:`a çeviren bir yazım binlerce yanlış kuruluş
      tarihi üretir — ve hepsi birbiriyle TUTARLI olacağı için hiçbir
      kapı yakalamaz.
+   🟢 İSTİSNA — ATLAS YERLEŞİMİNDE GÖRÜNME ALT SINIRI *(Emre kararı, 14 Ekim 2026)*
+     Motor bir yerleşimin VAR OLDUĞU dönemi YALNIZ `kur:`dan okur (`petek_epok`;
+     Değişmez 1 `kur:` öncesini atlar, 5a `kur:` öncesi dönemi affetmez). Yani `f:`yi
+     ileri alıp `kur:` yazmamak sahipsiz delik üretir. Bu yüzden `yerlesimler*.js`te
+     yalnız ilk anılış varsa **ŞIRNAK KALIBI** uygulanır:
+       `kur:` = ilk yazılı tanık · `kesinlik:` tanığın hassasiyeti ·
+       `neden:` "kur: KURULUŞ DEĞİL, İLK YAZILI TANIK — görünme için ALT SINIR" + kaynak.
+     Kalıp, beyanı ZORUNLU kılarak 10 Ekim kuralının korktuğu sessiz yanlışı önler:
+     `kur:` alanı iki anlam taşır, hangisi olduğu `neden:`de yazar.
+     ⛔ Kalıp UYGULANMAZ: (a) "tanık yok" değil "ölçülemedi" ise (kaynak okunamadı —
+     Şibînülkûm) · (b) atlas noktası bir BÖLGEYİ ya da ADAYI temsil ediyorsa (Sisam,
+     Kabiliye, Fizan) · (c) atlasta zaten kaynaklı bir `kur:` varsa ve yeni tanık onu
+     çürütmüyorsa (Kesela). İlk uygulama: 28 şehir, `denetim/SEHIR-TARIHCE-OSM-1014/ATLAS-BASLANGIC.md`.
    📌 Aynı ailenin veri yüzü aynı gün ölçüldü: *"by the reign of
      Adad-nīrārī III (810–783)"* tanığından **-810** alınmıştı; güvenli
      sınır **-783**'tü. Orada aralığın yanlış UCU, burada sınırın yanlış

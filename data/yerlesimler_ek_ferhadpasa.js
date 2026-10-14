@@ -66,10 +66,10 @@
 window.YERLESIMLER_EK_FERHADPASA = [
 
 // ───────── Van'ın GÜNEYDOĞUSU · Hakkâri ocaklığının merkezi ─────────
-{ ad:"Çölemerik (Hakkâri)", tur:"sehir", lat:37.5744, lon:43.7408, g:0, k:3, m:"Van",
+{ ad:"Çölemerik (Hakkâri)", kur:"1349-01-01", kesinlik:"onyil", neden:"SEHIR-TARIHCE-OSM-1014 · Emre kararı 14 Ekim 2026 (Şırnak kalıbı): kur: KURULUŞ DEĞİL, İLK YAZILI TANIK — haritada görünme için ALT SINIR; yerleşim daha önce var olmuş olabilir, kaynak bunu dışlamıyor. İlk tanık: 1349'dan önce (el-Ömerî, ö. 749/1349) — TDV HAKKÂRİ (M. Tuncel): İbn Fazlullah el-Ömerî, et-Taʿrîf s. 38; ölüm yılı TDV İBN FAZLULLAH el-ÖMERÎ (A. el-Alevî). Kesinlik onyil. Öncesindeki dönemler (atlasın 1281 başlangıcı) kırpıldı. Tarihçe: data/sehir_tarihce_osm.js 'hakkari'.",  tur:"sehir", lat:37.5744, lon:43.7408, g:0, k:3, m:"Van",
   // kaynak: hakkari — Van eyaletine bağlı OCAKLIK sancak; zincir Van
   // kaydıyla birebir aynı (aynı fetih, aynı eyalet).
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
+  s:[{f:"1349-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1548-08-24",t:"1920-04-23"}], v:[] },
 
 // ───────── Van'ın DOĞUSU · Mahmudi sancağının kale merkezi ─────────

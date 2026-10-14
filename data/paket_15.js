@@ -1,5 +1,5 @@
 /* PAKET 15 — arac/paketle.py ile ÜRETİLDİ, ELLE DÜZENLENMEZ.
-   17 kaynak dosya, sırası index.html'deki sıradır.
+   18 kaynak dosya, sırası index.html'deki sıradır.
    Kaynağı değiştirdiysen: py arac/paketle.py yenile
    Tazelik kapıda sınanır: py arac/paketle.py sina */
 /* ==== data/olaylar_p0043a.js ==== */
@@ -1665,6 +1665,26 @@ window.OLAYLAR_P0059 = [
   d:"1594 ortasında Tuna'nın kuzeyindeki üç voyvodalık — Eflak, Boğdan ve Erdel — Osmanlı'ya karşı ortak hareket etmeyi kararlaştırdı. Boğdan voyvodası Aron Tiran, Avusturya İmparatoru ile Papa VIII. Clemens'in kurduğu Kutsal İttifak'a katılıp kendini Erdel Prensliği'ne tâbi kıldı; Eflak voyvodası Mihai Viteazul ağır vergi yükünden duyduğu hoşnutsuzlukla harekete katıldı. 13 Kasım 1594'te Eflak ve Boğdan'da Osmanlı yönetimine karşı eş zamanlı ayaklanmalar başladı ve Erdel'in desteğiyle hareket Tuna'nın güneyine, Osmanlı topraklarına doğru taştı. TDV İslâm Ansiklopedisi'ne göre bu üçlü ittifak, aynı yıllarda süren Osmanlı-Habsburg Uzun Harbi'nin (1593-1606) kuzey cephesini açtı.",
   kaynak:"eflak", duygu:["⚔","🏛"] }
 
+];
+
+;
+/* ==== data/olaylar_sehir_ilk.js ==== */
+// ============================================================================
+// ŞEHİRLERİN İLK ANILIŞI — SEHIR-TARIHCE-OSM-1014 (14 Ekim 2026, Emre kararı: Şırnak kalıbı)
+// Atlas yerleşimlerine `kur:` = ilk yazılı tanık yazıldı (görünme alt sınırı, KURULUŞ DEĞİL).
+// Günü belli olan `kur:` motorda bir "kazanç" kırılmasıdır ve Değişmez 2/2s onu anan bir madde
+// ister. Bu dosya o maddeleri taşır — her biri şehrin İLK ANILIŞIDIR (Emre'nin istediği şehir
+// kronolojisinin "ilk bahsediliş olayı"), sahiplik değişimi DEĞİL. Kaynaklar: şehir tarihçesi
+// `data/sehir_tarihce_osm.js` (her şehrin `ilk` alanı) — TDV slug'ları ham metin başlığıyla doğrulandı.
+// ============================================================================
+window.OLAYLAR_SEHIR_ILK = [
+{ t:"1284-03-20", k:"diger", etiket:["toprak-kazanc","konu-siyasi"], b:"Bilecik ilk kez anılır — Bizans ile sınır Bilecik'te başlıyordu", gun:"683 (1284)", yer:"Bilecik", yer_id:"Bilecik", d:"Neşrî'nin aktardığı 683 yılı olaylarında Bilecik, Osman Bey'in uç beyliği ile Bizans arasındaki sınırın başladığı yer olarak geçer. Bu, yerleşimin tarihte bilinen ilk anılışıdır; kuruluşu değildir.", kaynak:"osman-i", ic_not_d:"TDV OSMAN I (H. İnalcık), Neşrî I, 64 atfıyla. hicrî 683 ∩ 1284 → 1284-03-20 (tablo takvimi, Jülyen; kesinlik yıl). Atlas kur: aynı gün (Şırnak kalıbı). Slug ölçüldü 14 Ekim: osman-i GERÇEK, osman-gazi ölü." },
+{ t:"1299-09-28", k:"diger", etiket:["toprak-kazanc","konu-siyasi"], b:"Burdur'da Gāzân Han adına sikke — şehrin bilinen ilk tanığı", gun:"699 (1299-1300)", yer:"Burdur", yer_id:"Burdur", d:"Hamîdoğulları, İlhanlı baskısı altında 699 yılında Burdur'da Gāzân Han adına sikke kestirmek zorunda kaldı. Bu sikke, Burdur'un yazılı/tarihli ilk tanığıdır.", kaynak:"hamidogullari", ic_not_d:"hicrî 699 ∩ 1299-1300 → ilk gün 1299-09-28 (tablo takvimi, Jülyen). Atlas kur: aynı gün." },
+{ t:"1352-03-01", k:"diger", etiket:["toprak-kazanc","konu-siyasi"], b:"Çorum Eretna'nın ülkesinde anılır — şehrin bilinen ilk tanığı", gun:"Muharrem 753 (Mart 1352)", yer:"Çorum", yer_id:"Çorum", d:"Eretna Bey'in Muharrem 753'te ölümünde hâkimiyeti altındaki şehirler arasında Çorum da sayılır. Şehrin kuruluşu bilinmiyor; bu anış bulunabilen en erken tarihli tanıktır.", kaynak:"eretnaogullari", ic_not_d:"Ay hassasiyeti (Muharrem 753 = Mart 1352). Atlas kur: 1352-03-01." },
+{ t:"1452-04-03", k:"diger", etiket:["toprak-kazanc","konu-siyasi"], b:"Mostar'ın adı ilk kez bir Dubrovnik belgesinde geçer", gun:"3 Nisan 1452", yer:"Mostar", yer_id:"Mostar", d:"Mostar'ın adı ilk defa 3 Nisan 1452 tarihli bir Dubrovnik belgesinde geçer; yerleşim Hersek Dükalığı topraklarındaydı. Osmanlı fethi 1466-68'dir.", kaynak:"mostar" },
+{ t:"1472-06-08", k:"diger", etiket:["toprak-kazanc","konu-siyasi"], b:"Tatarpazarcığı ilk kez akıncı defterinde kayıtlıdır", gun:"877 (1472)", yer:"Tatarpazarcığı", yer_id:"Tatarpazarcığı", d:"Şehir hakkındaki en eski kayıtlar 877 (1472) yılına kadar iner: Sofya Millî Kütüphanesi'ndeki bir akıncı defteri yerleşimi kaydeder.", kaynak:"tatarpazarcigi", ic_not_d:"Sofya Millî Kütüphanesi OAK nr. 94/73, s. 32-33 (TDV aktarımı). hicrî 877 ∩ 1472 → 1472-06-08 (tablo takvimi, Jülyen; kesinlik yıl). Atlas kur: aynı gün." },
+{ t:"1494-02-06", k:"diger", etiket:["toprak-kazanc","konu-siyasi"], b:"Banaluka ilk kez Kral II. Vladislav'ın bir talimatında anılır", gun:"6 Şubat 1494", yer:"Banaluka", yer_id:"Banaluka", d:"Banja Luka adı ilk kez Macar-Hırvat kralı II. Vladislav'ın 6 Şubat 1494 tarihli bir talimatında geçer; yöre Yayçe banlığı üzerinden Macar tâcına bağlıydı. Osmanlı fethi 1527-28 kışıdır.", kaynak:"Hrvatska enciklopedija (LZMK), 'Banja Luka'; TDV banaluka", ic_not_d:"Tarih Hrvatska enciklopedija'dan: 'prvi put spominje u uputi … Vladislava II. od 6. II. 1494.' TDV BANALUKA tarihsiz ~1463/64 anışı verir." },
+{ t:"1813-03-06", k:"diger", etiket:["toprak-kazanc","konu-siyasi"], b:"Vâdî Halfâ Burckhardt'ın Nubia yolculuğunda kaydedilir", gun:"6 Mart 1813", yer:"Vâdî Halfâ", yer_id:"Vâdî Halfâ", d:"İsviçreli seyyah J. L. Burckhardt 6 Mart 1813 günlüğünde Vâdî Halfâ'dan geçtiğini ve orada bir miktar ticaret yapıldığını yazar. Bulunabilen ilk tarihli tanıktır.", kaynak:"J. L. Burckhardt, Travels in Nubia (London 1819), 6 Mart 1813 kaydı", ic_not_d:"TDV'de VÂDÎ HALFÂ maddesi YOK (vadi-halfa slug'ı arama sayfasına düşer — ölü slug, ölçüldü 14 Ekim). Atlas kur: aynı gün." },
 ];
 
 ;
