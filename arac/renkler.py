@@ -3649,6 +3649,15 @@ BOYALAR = {
     "vatikan": ("Vatikan Şehir Devleti (Kutsal Makam)", "#2ade2a"),
     "vichy-fransasi": ("Fransız Devleti (Vichy)", "#7224c6"),
     "zahir-el-omer-seyhligi": ("Zâhir el-Ömer Akka-Celile Şeyhliği", "#242ac6"),
+    # 14 Ekim 2026 — KUTU-A/C partilerinin bekleyen kimlikleri (veri koşudan SONRA iner) — komşusuz öneri, renk_olc --oner
+    # (denetim/oneri-20261014-042510.txt). Koşu öncesi koordinasyon kararı (Emre yetkisi).
+    "kartli-kralligi": ("Kartli Krallığı (1762'den Kartli-Kaheti)", "#b4cc24"),
+    "cizre-botan": ("Cizre-Botan Emirliği", "#cc249c"),
+    "musasa": ("Müşa'şa'îler (Hüveyze, Arabistan/Huzistan)", "#2436c6"),
+    "lucca-dukaligi": ("Lucca Dükalığı", "#cc24ae"),
+    "lucca-cumhuriyeti": ("Lucca Cumhuriyeti (Komünü)", "#cc24b4"),
+    "visconti": ("Visconti Senyörlüğü (Milano)", "#ccb424"),
+    "samos-prensligi": ("Samos Prensliği", "#cc24ba"),
 }
 
 
