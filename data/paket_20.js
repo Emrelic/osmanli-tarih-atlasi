@@ -197,7 +197,7 @@ window.YERLESIMLER_SERHAT = [
 { ad:"Çatalca", tur:"kasaba", lat:41.1436, lon:28.4611, g:0, k:4, m:"İstanbul",
   s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1453-05-29",t:"1920-04-23"}],
-  v:[],
+  v:[{f:"1372-01-01",t:"1403-02-01",k:"Bizans İmparatorluğu (haraçgüzâr)",statu:"vassal",kid:"bizans",kesinlik:{f:"yil",t:"ay"},kaynak:"TDV murad-i: V. Ioannes Çirmen'den sonra 'I. Murad'ın haraçgüzârı olmayı kabul etti (1372 kışı)' — YIL · TDV bizans: 1371'den sonra vasal devlet; 1391 Bayezid ablukasıyla daha fazla vergi · KUTU-B-1014 (Emre kararı: Bizans'ın Osmanlı vasallığı açık tonla) · t: TDV bizans — Süleyman Çelebi antlaşmasıyla (Gelibolu, Şubat 1403) 'Türkler'e ödemekte olduğu yıllık haraçtan da kurtuldu' — AY"},{f:"1424-02-22",t:"1453-05-29",k:"Bizans İmparatorluğu (haraçgüzâr)",statu:"vassal",kid:"bizans",kaynak:"TDV murad-ii: 21 Rebîülevvel 827 / 22 Şubat 1424 antlaşmasıyla Bizans yıllık 300.000 akçe haraç ödemeyi kabul etti · t: İstanbul'un fethi · KUTU-B-1014"}],
   kaynak:"bulunamadı — TDV'de `catalca` · `catalca--istanbul` · `metrai` üçü de ÖLÜ (HTTP 302, 2026-08-29 ölçüldü). Gün 19,1 km'deki Silivri'den alındı (aynı bizans→1453-05-29→Osmanlı deseni İstanbul ve Boğaziçi kayıtlarında da var); TUTARLILIK seçimi, kaynak günü değil." },
 
 ];

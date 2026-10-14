@@ -172,6 +172,14 @@ window.OLAYLAR_SENKRON_0930 = [
   yer:"Çehrin (Çigirin)", yer_id:"Çehrin (Çigirin)", kisiler:"Petro Doroşenko, İvan Samoyloviç, Grigoriy Romodanovski",
   d:"Osmanlı himayesindeki Sağ Yaka hatmanı Petro Doroşenko, başkenti Çehrin'i 19 Eylül 1676'da Sol Yaka hatmanı Samoyloviç ve Rus kuvvetlerine teslim etti. Osmanlılar Doroşenko'yu görevden alıp yerine Yuri Hmelnitski'yi getirdi; Çehrin'deki Rus garnizonunu çıkarmak için 1677'de kuşatma başarısız kaldı, kale ancak 21 Ağustos 1678'de alındı.",
   kaynak:"Encyclopedia of Ukraine (CIUS) «Doroshenko, Petro»: 'surrendered to Samoilovych on 19 September 1676' · TDV cehrin-seferi (1677, 1678)",
-  ic_not_d:"KUTU-B-1014 (0052/H-0123): haritada Çehrin isg:rusya 1676-09-19 → 1678-08-21. Doroşenko'nun Osmanlı himayesi (1669-1676) Emre kararıyla (13 Ekim, Hetmanlık künyesi açılmadı) ayrı kimlik olarak çizilmez. EoU takvimi belirtmiyor." }
+  ic_not_d:"KUTU-B-1014 (0052/H-0123): haritada Çehrin isg:rusya 1676-09-19 → 1678-08-21. Doroşenko'nun Osmanlı himayesi (1669-1676) Emre kararıyla (13 Ekim, Hetmanlık künyesi açılmadı) ayrı kimlik olarak çizilmez. EoU takvimi belirtmiyor." },
+
+{ t:"1557-01-01", kesinlik:"yil", k:"siyaset", etiket:["siyaset","konu-askeri","erdel","habsburg"],
+  b:"Várad, Huszt ve Tokaj Szapolyai tarafına geçti",
+  gun:"1557",
+  yer:"Varad (Oradea)", yer_id:"Varad (Oradea)", kisiler:"Varkocs Tamás, Patócsy Ferenc, İzabella, János Zsigmond",
+  d:"İzabella ve János Zsigmond'un 1556'da Erdel'e dönüşünün ardından Szapolyai yanlıları 1556'da Nagyvárad'ı kuşattı. 1557'de Yukarı Tisza aristokratları en önemli kral kalelerini — Várad, Huszt ve Tokaj — ele geçirdi; Ferdinand'ın elinde yalnız Gyula ve Világos kaldı. Várad bundan sonra Erdel prensliğinin kalesi oldu ve 1660'ta Osmanlılar alana dek öyle kaldı.",
+  kaynak:"MTA History of Transylvania (mek.oszk.hu/03400/03407/html/103.html): 'gained control of the most important royal fortresses, those at Várad, Huszt, and Tokaj' · 'Only Gyula and Világos managed to hold out' · Bánlaky (MEK 09477) 0013/1029 (1556 kuşatması)",
+  ic_not_d:"KUTU-B-1014 (0088/H-0043): Varad 1551-07-26 → 1557 macaristan-habsburg penceresinin kapanışı. Teslim günü akademik kaynakta okunamadı (ikincil: 13 Haziran 1557) — YIL." }
 
 ];
