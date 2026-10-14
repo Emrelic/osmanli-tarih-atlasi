@@ -274,6 +274,33 @@ Her biri hem veri hem arayüz katmanı gerektirir; her biri kendi başına bir p
 
 ---
 
+## Harita katmanları — sekiz katman ilkesi 🆕 (Emre kararı, 14 Ekim 2026)
+
+Kutu 0035/H-0087 (Emre): *"yerleşimler arası yol ağlarını araştırarak … yol haritasına
+ekleyelim … önce istişare edelim, araştıralım, teyit edelim, ondan sonra prensip olarak
+yazalım."* Karar (KARARLAR-1014 #50): **ilke olarak yol haritasına yazılır, yol ağının
+genişletilmesi SONRA** — bu bölüm bir iş emri değil, katmanların sırasını ve bugünkü
+durumunu kayda geçirir. Her katman bir alttakinin üstüne oturur; üstteki alttakini
+DEĞİŞTİRMEZ, ona yaslanır.
+
+| # | Katman | Bugün | Not |
+|---|---|---|---|
+| 1 | Deniz · göl · kara | ✅ var | kara maskesi (Natural Earth), denetle "konum" kapısı |
+| 2 | Topoğrafya (dağ, rakım) + nehir/akarsu | ⚠️ kısmen | motor sırt/nehir yaslaması; altlık katmanı `PLAN-KATMANLAR.md` |
+| 3 | Ova · bozkır · orman · bataklık · çöl · vadi | ⚠️ kısmen | `bos_alanlar` (çöl, insansız) beyanları; sürtünme `MESAFE-VE-SURTUNME.md` |
+| 4 | Yerleşim yerleri (önem kademesi 1-4) | ✅ var | `data/yerlesimler*.js`, `k:` kademesi |
+| 5 | Yerleşimler arası koridor ve yollar | ⚠️ başlangıç | `data/koridor*.js`, index.html "③ Yollar ve koridorlar"; **genişletme sonra** |
+| 6 | Yerleşim bölgeleri (petek) | ✅ var | petek motoru (`MIMARI.md`) |
+| 7 | Siyasî · idarî · askerî bağ (kime bağlı, vali, garnizon, vergi/haraç) | ⚠️ kısmen | `d/v/s/isg`, `kd:` idarî kademe, tâbi (`v:`) |
+| 8 | Hukukî katman (antlaşmaya göre aidiyet; hukukî ↔ işgal ayrımı) | ⚠️ kısmen | `data/hukuki_sinirlar.js` (C), `d_sinirlar*.js` (D/E/F), fiilî/hukukî görünüm |
+
+**Yol ağı (katman 5) genişletme şartı:** her yol parçası kaynaklı olur (menzil
+defterleri, akademik yol çalışmaları); kaynaksız "en kısa yol" çizilmez — sefer
+oklarının "temsili ara nokta yazılmaz" kuralıyla aynı ilke (bkz. `VERI-YAPISI.md`
+`SEFERLER`). Kapsam ve öncelik açılırken Emre'yle ayrıca konuşulur.
+
+---
+
 ## Devlet merkezli görünüm — bütün boyutları kesen tasarım
 
 Harita bir **odak devleti** üzerinden açılır ve yalnız o devletin ilgi alanının

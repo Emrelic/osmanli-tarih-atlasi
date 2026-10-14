@@ -421,7 +421,15 @@ window.HUKUKI_SINIRLAR = [
   taraflar: ["osmanli", "habsburg"],
   hassasiyet: "yer",
   f: "1699-01-26",
-  t: "1918-11-11", // habsburg'un kendi sonu
+  // 14 Ekim 2026 — KARARLAR-1014 #48 (0072/H-0003 B): belgenin hükmü bir sonraki
+  // belgeyle düşer. Eski t:"1918-11-11" Habsburg'un kendi sonuydu — Karlofça'nın
+  // Bosna kale hükmü 219 yıl "belgeli" görünüyordu. Pasarofça kuzey Bosna'yı
+  // yeniden düzenledi ⇒ bu iki noktanın belge penceresi orada kapanır (iki
+  // nokta aynı belgeye dayandığı için pencere kayıt düzeyinde; nokta başına
+  // `f`/`t` alanı app.js'te artık okunuyor — farklı belgeli nokta kendi
+  // penceresini taşır).
+  t: "1718-07-21",
+  t_kaynak: "TDV pasarofca-antlasmasi (https://islamansiklopedisi.org.tr/pasarofca-antlasmasi): Avusturya ve Venedik antlaşmalarının imzası 22 Şâban 1130 / 21 Temmuz 1718 · 'Kuzey Bosna tamamen Avusturya’ya bırakılmıştır.'",
   hat: {
     tur: "nokta-kumesi",
     nokta_atamalari: [

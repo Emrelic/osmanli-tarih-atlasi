@@ -2679,8 +2679,13 @@ harita.on("load", function () {
     paint: { "fill-color": "#8e0b22", "fill-opacity": 1 } });
   // Petek modunda iç çizgiler görünmesin diye çizgi katmanı yok; dolgu kendi
   // dış hattını fill-outline ile verir (aynı renk komşu petekte kaybolur).
+  // 🆕 14 Ekim 2026 — Emre kararı (KARARLAR-1014 #37, 0082/H-0091 şık a):
+  // doğrudan idare hattı ZOOMLA KALINLAŞIR, renk AYNI kalır (#4d0713). Dünya
+  // kadrajında (zoom ≤3) eski 1,8 px — küçük ölçekte kalın hat kıyıyı boğar;
+  // bölge ölçeğinde (zoom 6) 2,6 px, şehir ölçeğinde (zoom ≥9) 3,6 px.
   harita.addLayer({ id: "osmanli-cizgi", type: "line", source: "osmanli",
-    paint: { "line-color": "#4d0713", "line-width": 1.8 } });
+    paint: { "line-color": "#4d0713",
+             "line-width": ["interpolate", ["linear"], ["zoom"], 3, 1.8, 6, 2.6, 9, 3.6] } });
   // Himaye iç şeridi — ③, SIRA ŞARTI ③ yukarıda: `osmanli-cizgi`nin ÜSTÜNDE.
   harita.addLayer({ id: "himaye-serit-ic", type: "line", source: "himaye",
     layout: { "line-join": "round" },
@@ -5151,6 +5156,24 @@ function savasGuncelle(t) {
   // zaten `tutulan`da) ve çarpışırsa küçük simgeye iner — "hepsini koru"
   // değil "konunun BİR temsilcisini koru".
   var _odakIlkBulundu = false;
+  // 🆕 14 Ekim 2026 — Emre kararı (KARARLAR-1014 #33, 0064/H-0015 şık b):
+  // "simgeler birbiri üzerine girmiş … üstüste binme olmaması lazım." DOM
+  // elemesi olay simgelerinin ÜÇ eksik kenarına genişletildi:
+  //   ① ODAKTAKİ olay simgesi (korunan) şehir etiketinin altında kalıyordu —
+  //      Musul 1743: "Musul" adı + ediniliş simgesi, "Nâdir Şah'ın Musul
+  //      Kuşatması" etiketinin tam üstüne biniyordu. Artık korunan simgeyle
+  //      kesişen şehrin ADI ve ediniliş simgesi o kare için gizlenir (nokta
+  //      kalır; olay etiketi zaten yerin adını taşır). Şehir elenmez, yalnız
+  //      konuya yer açar — bir sonraki karede sınıf yeniden hesaplanır.
+  //   ② İSYAN ATEŞİ (🔥, isyanAtesGuncelle) hiçbir elemeye girmiyordu; artık
+  //      kutusu `tutulan`a girer, üstüne binen olay simgesi küçük simgeye iner.
+  //   ③ Alt etiket (simge üstte, ad altta) `.savas-isaret` sütun düzeninde
+  //      zaten vardı (css/style.css) — korunur.
+  // Yaz–oku–yaz sırası: önce bütün gizleme sınıfları kalkar (yazma), sonra
+  // kutular okunur, en sonda kararlar basılır (yazma).
+  for (var sg0 = 0; sg0 < sehirler.length; sg0++) {
+    if (sehirler[sg0]._olayaYer) { sehirler[sg0].ic.classList.remove("ad-olaya-yer"); sehirler[sg0]._olayaYer = false; }
+  }
   for (var mk0 = 0; mk0 < savasIsaretleri.length; mk0++) {
     var mp = savasIsaretleri[mk0];
     mp._odakKorundu = false;
@@ -5162,10 +5185,31 @@ function savasGuncelle(t) {
       if (!_odakIlkBulundu) { mp._odakKorundu = true; _odakIlkBulundu = true; }
     }
   }
+  var _sehirKutu = [];
   for (var si = 0; si < sehirler.length; si++) {
     if (!sehirler[si].ekli) continue;
     var sr = sehirler[si].ic.getBoundingClientRect();
-    if (sr && sr.width) tutulan.push(sr);
+    if (sr && sr.width) { tutulan.push(sr); _sehirKutu.push({ m: sehirler[si], r: sr }); }
+  }
+  // ② isyan ateşi kutuları
+  var _atesler = (typeof ISYAN_ATES !== "undefined" && ISYAN_ATES.markerler) || [];
+  for (var ai = 0; ai < _atesler.length; ai++) {
+    var aEl = _atesler[ai].getElement && _atesler[ai].getElement();
+    var ar = aEl ? aEl.getBoundingClientRect() : null;
+    if (ar && ar.width) tutulan.push(ar);
+  }
+  // ① korunan (odak) simgeyle kesişen şehir etiketleri konuya yer açar
+  if (korunan.length) {
+    var _yerAcan = [];
+    for (var sk = 0; sk < _sehirKutu.length; sk++) {
+      for (var kk = 0; kk < korunan.length; kk++) {
+        var kr = korunan[kk], sr2 = _sehirKutu[sk].r;
+        if (sr2.left < kr.right && sr2.right > kr.left && sr2.top < kr.bottom && sr2.bottom > kr.top) {
+          _yerAcan.push(_sehirKutu[sk].m); break;
+        }
+      }
+    }
+    for (var ya = 0; ya < _yerAcan.length; ya++) { _yerAcan[ya].ic.classList.add("ad-olaya-yer"); _yerAcan[ya]._olayaYer = true; }
   }
   // 🔴 13 Eylül 2026 — 0042/H-0023·24·26 (PAKET-A1). Emre: *"en azından ufak
   // bir çift kılıç simgesi ile … zoom hangi aşamada olursa olsun
@@ -5552,6 +5596,33 @@ function isyanAtesGuncelle(t) {
       .setLngLat(ISYAN_ATES_BASKENT[kimlik]).addTo(harita);
   });
 }
+// 🆕 14 Ekim 2026 — Emre kararı (KARARLAR-1014 #36, 0083/H-0003 şık b): "burası
+// neden boş" — Kafkas ana sırtı. Cevap veride yazılı (data/yerlesimler_ek29.js
+// "KAFKAS ANA SIRTI" bloğu, 13 Ekim kararı): şeritlerin 50 km içinde yerleşim
+// noktası yok, boşluk BİLEREK bırakıldı. Beyan haritada görünmüyordu; bu MOTORU
+// ETKİLEMEYEN bir not katmanıdır: sırtın üstünde soluk, italik bir etiket.
+// Peteğe, bölgeye, boyaya DOKUNMAZ (bos_alanlar 'insansiz' kaydı yazılmadı — o
+// motor girdisidir, koşu ister). Koordinatlar beyan bloğundaki şerit uçlarının
+// ortasıdır; nokta değil ETİKET yeridir (yerleşim uydurulmadı).
+// Yalnız yakın zoomda (#harita.uzak/.cok-uzak dışında, z ≥ 5,2) görünür — CSS.
+var SIRT_NOTLARI = [
+  { ad: "Kafkas ana sırtı · yerleşim noktası yok", lonlat: [42.05, 43.45],
+    aciklama: "Sohum kuzeydoğusu (Abhazya ↔ Kabartay): şeridin 50 km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek29.js beyanı, 13 Ekim 2026)." },
+  { ad: "Kafkas ana sırtı · yerleşim noktası yok", lonlat: [46.4, 42.3],
+    aciklama: "Kaheti ↔ Dağıstan: şeridin 50 km içinde yerleşim noktası yok — boşluk veri eksiği değil, sırttır (yerlesimler_ek29.js beyanı, 13 Ekim 2026)." }
+];
+var _sirtNotEl = [];
+function sirtNotlariKur() {
+  if (_sirtNotEl.length || typeof maplibregl === "undefined" || !harita) return;
+  SIRT_NOTLARI.forEach(function (n) {
+    var el = document.createElement("div");
+    el.className = "sirt-not";
+    el.textContent = n.ad;
+    el.title = n.aciklama;
+    _sirtNotEl.push(new maplibregl.Marker({ element: el, anchor: "center" }).setLngLat(n.lonlat).addTo(harita));
+  });
+}
+try { sirtNotlariKur(); } catch (eSn) { console.error("[sırt notu]", eSn); }
 function isyanLejanti(fs) {
   var el = document.getElementById("isyan-lejant");
   if (!el) {
@@ -9124,11 +9195,27 @@ function _cBolgeGeometrisi(kayit) {
 // kendi içinde bunu zaten söylüyor, uydurma yapılmıyor). `hat.tur:
 // "bolge"` kayıtlarında da referans noktaları olabilir (çizgi çizmez,
 // yalnız kaynakta adıyla geçen yerleri işaretler).
-function _cNoktaKumesiOzellikleri(kayit) {
+// 🆕 14 Ekim 2026 — Emre kararı (KARARLAR-1014 #48, 0072/H-0003 şık B): NOKTA
+// BAŞINA GEÇERLİLİK PENCERESİ. Emre: "belge ile doğrulanmış sahiplik ancak
+// şehirlerin bazı zaman bölümlerinde … her zaman için geçerli olmamalıdır."
+// Atamada `f`/`t` varsa nokta YALNIZ o pencerede çizilir; yoksa kaydın kendi
+// penceresi geçer (eski davranış birebir). Belgenin hükmü bir sonraki
+// belgeyle düşer — pencere oradan, kaynağıyla yazılır (uydurma uç yok).
+function _cNoktaAktif(kayit, n, gun) {
+  if (gun == null) return true;
+  var f = n.f || kayit.f, t = (n.t !== undefined) ? n.t : kayit.t;
+  return gunIdx(f) <= gun && (t == null || gun < gunIdx(t));
+}
+function _cNoktaImza(kayit, gun) {
+  var h = kayit.hat;
+  if (!h || !h.nokta_atamalari) return "";
+  return h.nokta_atamalari.map(function (n) { return _cNoktaAktif(kayit, n, gun) ? 1 : 0; }).join("");
+}
+function _cNoktaKumesiOzellikleri(kayit, gun) {
   var h = kayit.hat;
   if (!h || (h.tur !== "nokta-kumesi" && h.tur !== "bolge") || !h.nokta_atamalari) return [];
   return h.nokta_atamalari
-    .filter(function (n) { return n.lat != null && n.lon != null; })
+    .filter(function (n) { return n.lat != null && n.lon != null && _cNoktaAktif(kayit, n, gun); })
     .map(function (n) {
       return { type: "Feature",
         properties: { renk: _cTarafRengi(n.taraf), ad: n.ad, kaynak: n.kaynak || "", kayit_id: kayit.id },
@@ -9150,7 +9237,9 @@ function _hukukiSinirGuncelle(gun) {
     // 1923-10-29 devralınmasına gerek kalmaz.
     return gunIdx(k.f) <= gun && (k.t == null || gun < gunIdx(k.t));
   });
-  var id = aktif.map(function (k) { return k.id; }).join("+") || null;
+  // nokta pencereleri (KARARLAR-1014 #48) imzaya girer: kayıt aynı kalırken
+  // tek bir noktanın penceresi kapanabilir.
+  var id = aktif.map(function (k) { return k.id + ":" + _cNoktaImza(k, gun); }).join("+") || null;
   if (id === _cAktifId) return;               // hiçbir şey değişmedi — dokunma
   _cAktifId = id;
   if (!aktif.length) {
@@ -9174,9 +9263,9 @@ function _hukukiSinirGuncelle(gun) {
       g = _cParalelGeometrisi(kayit);
     } else if (tur === "bolge") {
       g = _cBolgeGeometrisi(kayit);
-      noktaFeat = noktaFeat.concat(_cNoktaKumesiOzellikleri(kayit)); // referans noktaları
+      noktaFeat = noktaFeat.concat(_cNoktaKumesiOzellikleri(kayit, gun)); // referans noktaları
     } else if (tur === "nokta-kumesi") {
-      noktaFeat = noktaFeat.concat(_cNoktaKumesiOzellikleri(kayit));
+      noktaFeat = noktaFeat.concat(_cNoktaKumesiOzellikleri(kayit, gun));
     } else {
       g = _cKayitGeometrisi(kayit);   // cetvel / doğal-tanımsız (eski davranış)
     }
@@ -14133,7 +14222,13 @@ function haritayiOlayaGotur(o, zorla) {
     //   yerinde kalır ama not YAZILIR, yani kullanıcı niçin bir şey
     //   olmadığını okur.
     var _odakKG = maddeOdakKutusu(o);      // PAKET-UI2 · 0048/H-0002
-    if (!o.kapsam_genis && !_odakKG) {
+    // 🆕 14 Ekim 2026 — Emre kararı (KARARLAR-1014 #40, 0075/H-0021 ②): yeri
+    // ADIYLA yazılmış ama atlasta noktası OLMAYAN madde (`yer_id` var, çözülmüyor)
+    // "veri eksiği" değildir — yer bellidir, atlas onu taşımıyor. Kamera ÜLKE
+    // KUTUSUNA gider (Osmanlı listesinde o günün imparatorluk kutusu); koordinat
+    // uydurulmaz, not yerin adını söyler.
+    var _atlasDisiYer = (!_odakKG && o.yer_id) ? String(o.yer_id) : null;
+    if (!o.kapsam_genis && !_odakKG && !_atlasDisiYer) {
       if (obYerYokEl) {
         obYerYokEl.textContent = "📍 Bu olayın haritada nokta yeri işaretlenmemiş — harita yerinde kaldı.";
       }
@@ -14249,7 +14344,9 @@ function haritayiOlayaGotur(o, zorla) {
         ? "📍 Bu olay tek bir yerde geçmedi — kamera olayın odak yerine getirildi."
         : _odakKG
           ? "📍 Bu olayın tek bir nokta yeri yok — ilgili bölgeye odaklanıldı."
-          : "📍 Bu olayın haritada nokta yeri yok — imparatorluk görünümüne geçildi.";
+          : (_atlasDisiYer && !o.kapsam_genis)
+            ? "📍 “" + _atlasDisiYer + "” atlasta nokta olarak yok — ülke görünümüne geçildi."
+            : "📍 Bu olayın haritada nokta yeri yok — imparatorluk görünümüne geçildi.";
       if (!_kirptiIG) panelSinyali();
     } else if (obYerYokEl) {
       obYerYokEl.textContent = "📍 Bu olayın haritada yeri işaretlenmemiş.";
@@ -16697,7 +16794,34 @@ function kronoTemsilEdiliyor(k, derin) {
       // 📌 Ve sekme AÇILIRKEN gövde zaten çerçeveleniyor (`render()` →
       //   `devletiYay`), yani kullanıcı devletin bütününü BİR KEZ görüyor.
       //   Her maddede oraya geri sıçramak bilgi eklemiyor, yalnız yoruyor.
-      if (obYerYokEl) {
+      // 🆕 14 Ekim 2026 — Emre kararı (KARARLAR-1014 #40, 0075/H-0021): ODAK
+      // KURALI DEVLET KRONOLOJİLERİNE. Bu dal `maddeOdakKutusu`yu hiç
+      // çağırmıyordu ⇒ devlet maddesine `odak_yer`/`odak_kimlik`/
+      // `odak_kutu_kaynak` yazmak ETKİSİZDİ (kapsam_genis dalı 5 Ekim'de
+      // bağlanmıştı, bu dal kalmıştı). Sıra Osmanlı listesiyle AYNI:
+      //   ① odak kutusu varsa ona uç · ② `yer_id` adı var ama atlasta nokta
+      //   yoksa (atlas-dışı yer) DEVLETİN ÜLKE KUTUSU · ③ ikisi de yoksa
+      //   kamera yerinde kalır (22 Ağustos "bir yakın bir uzak" kuralı).
+      var _dsOdak2 = null;
+      try { _dsOdak2 = ucusAcik() ? maddeOdakKutusu(m) : null; } catch (eDs2) { _dsOdak2 = null; }
+      if (_dsOdak2 && _dsOdak2.kutu) {
+        var _k2 = _dsOdak2.kutu, _kam2 = null;
+        try { _kam2 = harita.cameraForBounds([[_k2[0], _k2[1]], [_k2[2], _k2[3]]], { padding: 40 }); } catch (eK2) { _kam2 = null; }
+        if (_kam2 && _kam2.center) {
+          harita.flyTo({ center: _kam2.center, zoom: _kam2.zoom, duration: 1200, curve: 1.42, essential: ucusAcik() });
+        } else {
+          harita.fitBounds([[_k2[0], _k2[1]], [_k2[2], _k2[3]]], { padding: 40, duration: 1200, essential: ucusAcik() });
+        }
+        if (obYerYokEl) obYerYokEl.textContent = _dsOdak2.yer
+          ? "📍 Bu olay tek bir yerde geçmedi — kamera olayın odak yerine getirildi."
+          : "📍 Bu olayın tek bir nokta yeri yok — ilgili bölgeye odaklanıldı.";
+      } else if (m.yer_id && ucusAcik()) {
+        var _ulke = false;
+        try { _ulke = devletiYay(d.harita || d.id); } catch (eU) { _ulke = false; }
+        if (obYerYokEl) obYerYokEl.textContent = _ulke
+          ? "📍 “" + m.yer_id + "” atlasta nokta olarak yok — " + (d.ad || d.id) + " ülke görünümüne geçildi."
+          : "📍 “" + m.yer_id + "” atlasta nokta olarak yok ve bu tarihte " + (d.ad || d.id) + " haritada çizili değil — harita yerinde kaldı.";
+      } else if (obYerYokEl) {
         obYerYokEl.textContent = "📍 Bu maddenin haritada nokta yeri işaretlenmemiş — harita yerinde kaldı.";
       }
     } else {
@@ -16814,6 +16938,8 @@ function kronoTemsilEdiliyor(k, derin) {
     } else {
       osmanliListesineDon();
     }
+    // 🌍 Dünyada satırı yalnız Osmanlı görünümünde (KARARLAR-1014 #43)
+    try { if (dunyaSatirEl) dunyadaGuncelle(suanki); } catch (eDs) { console.error("[dünyada satırı]", eDs); }
   }
 
   // ---- sarmalayıcılar ---------------------------------------------------
@@ -16844,6 +16970,93 @@ function kronoTemsilEdiliyor(k, derin) {
       odakDom[yeni].scrollIntoView({ block: "nearest" });
     }
     sonVurgulananO = yeni;
+  };
+
+  // ---- 🌍 DÜNYADA SATIRI ------------------------------------------------
+  // 🆕 14 Ekim 2026 — Emre kararı (KARARLAR-1014 #43, 0081/H-0044 şık B ·
+  // #42, 0088/H-0024). Soru: "Osmanlı kronolojisi boyunca dünyanın en önemli
+  // olayları anılıyor mu?" Ölçüm (DUNYA-KRONO-0081 §6): 50 olayın 48'i VERİDE
+  // VAR ama devlet kronolojilerinde (kuyruk) duruyor. Karar B — BAĞLA, KOPYALAMA:
+  // veri taşınmaz (kopya bayatlar ve Değişmez 2 evrenine girer); Osmanlı
+  // görünümünde listenin üstünde tek bir "🌍 Dünyada" satırı, o güne kadarki
+  // son 365 günün DÜNYA PUANI 5 olan maddelerini (en yeni 3) gösterir.
+  // 📌 ÖLÇÜT (#42, "ölçütü sen belirle"): Osmanlı LİSTESİNE dış madde
+  //   Osmanlı'yla ilgisiyle (bolge, yoksa onem — mevcut eşik) girer; DÜNYA
+  //   puanı tek başına listeye sokmaz (`disOnemGizliMi` zaten dunya:0 ile
+  //   süzer). Dünya çapındaki olayın yeri bu satırdır: eşik dunya ≥ 5 ("çağ
+  //   açan"), çünkü 1281-1923'te dunya:4 542 madde — satır gürültüye döner.
+  //   Osmanlı listesinde olup dış eşiğe takılan dunya:5 maddeler (ör. Vestfalya
+  //   1648: onem 2, dunya 5) de bu satıra gelir.
+  // Aynı olay birden çok künyede: tam günlü maddede GÜN, yıl hassasiyetli
+  // (YYYY-01-01) maddede gün + başlık öneki birleştirir; devlet adları yan yana.
+  var DUNYA_SATIR_ESIK = 5, DUNYA_SATIR_GUN = 365, DUNYA_SATIR_EN_COK = 3;
+  var _dunyaHavuz = null, _dunyaImza = null;
+  function _dunyaNorm(s) {
+    return String(s || "").toLocaleLowerCase("tr").replace(/[^a-zçğıöşüâîû0-9]+/g, "");
+  }
+  function _dunyaHavuzKur() {
+    var gor = {}, h = [];
+    function ekle(d, m, osm) {
+      if (!m || !m.t || !m.b || m.dunya == null || m.dunya < DUNYA_SATIR_ESIK) return;
+      var gi = gunIdx(m.t);
+      if (!(gi >= BASLANGIC && gi <= BITIS)) return;
+      var a = /-01-01$/.test(m.t) ? m.t + "|" + _dunyaNorm(m.b).slice(0, 14) : m.t;
+      if (gor[a]) { if (gor[a].adlar.indexOf(d.ad) < 0) gor[a].adlar.push(d.ad); return; }
+      gor[a] = { gi: gi, d: d, m: m, osm: !!osm, adlar: [d.ad] };
+      h.push(gor[a]);
+    }
+    (typeof olaylar !== "undefined" ? olaylar : []).forEach(function (m) {
+      if (m.kapsam === "dis" && !(m.onem != null && m.onem >= 4)) ekle(OSMANLI_SYNTH, m, true);
+    });
+    kunye.forEach(function (d) {
+      if (d.id === "osmanli") return;
+      (d.kronoloji || []).forEach(function (m) { ekle(d, m, false); });
+    });
+    h.sort(function (a, b) { return a.gi - b.gi; });
+    return h;
+  }
+  var dunyaSatirEl = document.createElement("div");
+  dunyaSatirEl.id = "dunyada-satir";
+  dunyaSatirEl.className = "dunyada-satir gizli";
+  if (liste.parentNode) liste.parentNode.insertBefore(dunyaSatirEl, liste);
+  function dunyadaGuncelle(t) {
+    if (ODAK || EK_SECILI.length) { dunyaSatirEl.classList.add("gizli"); _dunyaImza = null; return; }
+    if (!_dunyaHavuz) _dunyaHavuz = _dunyaHavuzKur();
+    var sec = [];
+    for (var i = _dunyaHavuz.length - 1; i >= 0 && sec.length < DUNYA_SATIR_EN_COK; i--) {
+      var o = _dunyaHavuz[i];
+      if (o.gi > t) continue;
+      if (o.gi <= t - DUNYA_SATIR_GUN) break;
+      sec.push(o);
+    }
+    var imza = sec.map(function (o) { return o.m.t + o.m.b; }).join("|");
+    if (imza === _dunyaImza) return;
+    _dunyaImza = imza;
+    dunyaSatirEl.innerHTML = "";
+    if (!sec.length) { dunyaSatirEl.classList.add("gizli"); return; }
+    dunyaSatirEl.classList.remove("gizli");
+    var bas = document.createElement("b");
+    bas.textContent = "🌍 Dünyada";
+    bas.title = "Dünya puanı " + DUNYA_SATIR_ESIK + " olan olaylar (son " + DUNYA_SATIR_GUN +
+      " gün) — öteki devletlerin kronolojilerinden; Osmanlı listesine kopyalanmadı.";
+    dunyaSatirEl.appendChild(bas);
+    sec.forEach(function (o) {
+      var s = document.createElement("span");
+      s.className = "dunyada-madde";
+      s.textContent = kisaTarihYazi(o.m) + " · " + o.m.b;
+      s.title = (o.osm ? "Osmanlı kronolojisi (dış madde)" : o.adlar.join(", ")) + " — tıkla: maddeyi aç";
+      s.addEventListener("click", function () {
+        if (o.osm) olayaGit(o.m, true, true);
+        else maddeAc(o.d, o.m);
+      });
+      dunyaSatirEl.appendChild(s);
+    });
+  }
+  window.dunyadaGuncelle = dunyadaGuncelle;   // ölçüm (konsol)
+  var _olaylarDunyaOnce = olaylarGuncelle;
+  olaylarGuncelle = function (t) {
+    try { dunyadaGuncelle(t); } catch (eDu) { console.error("[dünyada satırı]", eDu); }
+    return _olaylarDunyaOnce(t);
   };
 
   panelDoldur();   // sayfa açılışında liste hazır, Osmanlı ODAK işaretli

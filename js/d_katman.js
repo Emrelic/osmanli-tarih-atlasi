@@ -328,6 +328,8 @@ var _D_YASLA_AILELER = [
 ];
 // Kaba belge (C) hatla gövde KESİLMEZ — C'ye koordinat kesinliği atfetmek
 // olur (D-RENK-0073-YURURLUK §5.3). Fiilî hat yalnız fiilî görünümde keser.
+// (14 Ekim 2026: hukukî görünümde D, o çiftin E/F hattı yoksa ayrıca yaslanır —
+// bkz. _dHukukiDEkle; bu küme yine F/E'dir, D'yi ayrı kural ekler.)
 var _D_YASLA_SINIF_HUKUKI = { F: 1, E: 1 };
 var _D_YASLA_SINIF_FIILI = { D: 1, F: 1, E: 1 };
 // Şerit genişliği: hattın her iki yanında bu kadar km içindeki "yanlış taraf"
@@ -535,7 +537,49 @@ function _dYaslaAdaylari(gun) {
       if (!eski || ONC[s] > ONC[eski.sinif]) grup[anahtar] = { kayit: k, sinif: s };
     });
   });
-  return Object.keys(grup).map(function (a) { return grup[a]; });
+  var liste = Object.keys(grup).map(function (a) { return grup[a]; });
+  // 🆕 14 Ekim 2026 — Emre kararı (KARARLAR-1014 #34, 0073/H-0007 · 0075/H-0003 ·
+  // 0077/H-0003): D-RENK (c) "karışık" — çizgi varsa çizgi, yoksa petek — ve
+  // D'ye istemci yaslaması. Hukukî görünümde D hattı ÇİZİLMEZ ama, aynı taraf
+  // çifti için o gün hiçbir E/F hattı yoksa, rengi D hattına yaslanır (fiilî hat
+  // o çiftin elimizdeki TEK milimetrik hattıdır; boya petekte kalırsa 24 km'lik
+  // taşma görünür — 1922 Meriç: Dimetoka TR'de, Havsa GR'de). E/F hattı varsa
+  // D yaslanmaz: hukukî görünümde hukukî hat kazanır, iki hat aynı şeridi zıt
+  // boyamaz. Kalıcı çare motor tarafıdır (#35, gövdeleri önceden hesapla — TUZ).
+  if (_dGorunum !== "fiili") liste = _dHukukiDEkle(liste, gun);
+  return liste;
+}
+var _dHukukiDSon = [];
+function _dTarafCiftAnahtari(k) {
+  var t = Array.isArray(k.taraflar) ? k.taraflar.slice().sort() : [];
+  return t.length === 2 ? t.join("|") : null;
+}
+function _dHukukiDEkle(liste, gun) {
+  var dolu = {}, hatlar = {};
+  liste.forEach(function (a) {
+    var c = _dTarafCiftAnahtari(a.kayit);
+    if (c) dolu[c] = 1;
+    hatlar[JSON.stringify(a.kayit.hat)] = 1;
+  });
+  var ek = [];
+  _D_YASLA_AILELER.forEach(function (ad) {
+    var dizi = window[ad];
+    if (!Array.isArray(dizi)) return;
+    dizi.forEach(function (k) {
+      if (!k || !Array.isArray(k.hat) || k.hat.length < 2 || k.f == null) return;
+      if (_dEtkinSinif(k) !== "D") return;
+      if (gun < gunIdx(k.f)) return;
+      if (k.t != null && gun >= gunIdx(k.t)) return;
+      var c = _dTarafCiftAnahtari(k);
+      if (!c || dolu[c]) return;              // o çiftin E/F hattı var ⇒ D yaslanmaz
+      var h = JSON.stringify(k.hat);
+      if (hatlar[h]) return;                  // aynı hat zaten aday
+      hatlar[h] = 1;
+      ek.push({ kayit: k, sinif: "D" });
+    });
+  });
+  _dHukukiDSon = ek.map(function (a) { return a.kayit.id; });   // ölçüm (konsol)
+  return liste.concat(ek);
 }
 
 // Taraf kimliği → o gün haritada boyanan gövde {renk, poli, anahtar}.

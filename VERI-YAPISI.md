@@ -698,6 +698,21 @@ farklı okunur; *geri çekilme* ile *taarruz* ise **glif düzeyinde** ayrılır.
 ⚠️ **Geriye dönük uyumlu:** `tur`/`sonuc` yoksa eski davranış (dolu ok, kesikli
 çizgi, rozetsiz) aynen sürer — mevcut 50 kaydın hiçbiri bozulmaz.
 
+#### 🔴 Ara noktalar (`yol` içindeki istasyonlar) — YALNIZ KAYNAKLI (Emre kararı, 14 Ekim 2026)
+
+Kutu 0073/H-0001 (Emre: *"şehirlerin üzerinden geçen bir hat ile çizilebilir … literatürde
+bilgi bulursak bu bilgileri kullanmalıyız, bulamaz isek kabataslak çizebiliriz"*); karar
+KARARLAR-1014 #39: **ara istasyon yalnız kaynağı olan seferlere yazılır.**
+
+- `yol` dizisindeki uç noktalar (kaynak · hedef) dışındaki her nokta, kaynağın ADIYLA andığı
+  bir konak/şehir/geçittir; kaynak alanı (`kaynak` ya da istasyon yanındaki yorum) onu söyler.
+- Kaynaksız uzun oka "yerleşimlerden geçen şematik ara nokta" (`guzergah_kesinlik:"temsili"`)
+  **YAZILMAZ.** Gerekçe: temsili istasyon okura gerçek bir güzergâh iddiası olarak okunur —
+  beyansız yaklaşıklık beyanlı boşluktan kötüdür. Kaynaksız uzun ok bugünkü gibi iki uçlu,
+  hafif kavisli (`js/sefer_ok.js` `seferKavisliYol`) kalır; kavis güzergâh iddiası değildir.
+- Ölçüm (OK-0073 §5): 147 uzun parçanın 125'inde ±50 km'de ≥2 yerleşim var — bu sayı
+  istasyon yazmanın gerekçesi DEĞİLDİR; yalnız literatür taramasının iş kuyruğudur.
+
 ⚠️ **`tur` başına AYRI KATMAN gerekiyor** ve sebebi teknik: MapLibre'de
 `line-dasharray` veriyle sürülemeyen bir boya özelliği, yani tek katmanda
 özellik başına farklı kesik deseni verilemez. `js/app.js` dokuz katmanı

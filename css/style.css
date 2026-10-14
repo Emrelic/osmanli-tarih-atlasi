@@ -951,6 +951,17 @@ body {
    (`overflow: visible`). Sayı bir taban değil, ikinci bir tavan hâline
    gelirdi. `min-height: 0` ⇒ bölüşmeyi yalnız %50 belirliyor. */
 #olay-listesi { flex: 1 1 auto; overflow-y: auto; padding: 5px; min-height: 0; }
+/* 🆕 14 Ekim 2026 — KARARLAR-1014 #43 (0081/H-0044 B): "🌍 Dünyada" satırı —
+   Osmanlı görünümünde listenin üstünde, son 365 günün dünya puanı 5 olayları
+   (app.js odakKur → dunyadaGuncelle). Veri kopyalanmaz, devlet maddesine bağlanır. */
+.dunyada-satir {
+  flex: 0 0 auto; padding: 4px 8px; margin: 3px 5px 0; font-size: 11.5px; line-height: 1.35;
+  background: #eef4f8; border-left: 4px solid #2f6f8f; color: #1f3f52;
+}
+.dunyada-satir.gizli { display: none; }
+.dunyada-satir b { margin-right: 6px; white-space: nowrap; }
+.dunyada-satir .dunyada-madde { display: block; cursor: pointer; }
+.dunyada-satir .dunyada-madde:hover { text-decoration: underline; }
 
 .olay {
   padding: 4px 7px;
@@ -3011,6 +3022,20 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
    SİLİNMİYOR, küçük simgeye iniyor (app.js savasGuncelle `sv-sade`). */
 .savas-isaret.sv-sade .sv-ad { display: none; }
 .savas-isaret.sv-sade .sv-ikon { transform: scale(0.72); opacity: 0.9; }
+/* 🆕 14 Ekim 2026 — KARARLAR-1014 #33 (0064/H-0015): odaktaki olay simgesiyle
+   kesişen şehrin adı ve ediniliş simgesi o kare için gizlenir; nokta kalır
+   (app.js savasGuncelle `ad-olaya-yer`). */
+.sehir.ad-olaya-yer .s-ad,
+.sehir.ad-olaya-yer .s-yontem,
+.sehir.ad-olaya-yer .s-fetih { display: none !important; }
+/* 🆕 14 Ekim 2026 — KARARLAR-1014 #36 (0083/H-0003 b): Kafkas ana sırtı not
+   katmanı (app.js SIRT_NOTLARI). Motoru etkilemez; yalnız yakın zoomda görünür. */
+.sirt-not {
+  font: italic 11px Georgia, serif; color: rgba(60, 50, 40, 0.62);
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.9); white-space: nowrap;
+  pointer-events: auto; cursor: help; letter-spacing: 0.2px;
+}
+#harita.uzak .sirt-not, #harita.cok-uzak .sirt-not { display: none; }
 
 /* 🆕 13 Eylül 2026 — paket 0046 H-0006. Ayrı bir keyframe İCAT EDİLMEDİ:
    `odakParla` (yukarıda, .odak-parlama ile paylaşılan) aynı büyüyüp-sönme

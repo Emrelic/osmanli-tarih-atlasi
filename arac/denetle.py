@@ -820,6 +820,7 @@ BEKLENEN_ACIK_ISG = 1   # 1 EKIM 2026: 3 -> 1, olculdu (142 isgal kirilmasi, 1 a
 #     Tunus 1569/1573         gidis-gelisi modellenmemis
 # ⇒ Bunlari etiketten cikarmak `2t`yi dusurur ama GERCEK BOSLUGU GIZLER --
 #   ve o, olcutun onlemek icin var oldugu seydir. VERI isi, etiket isi degil.
+BEKLENEN_EKSKLAV = 1895   # 14 EKIM 2026 — Degismez 7e ILK TAVAN (KARARLAR-1014 #49, 0064/H-0010; Emre onayi bu karar): arac/eksklav_olc.py, 681 Osmanli d/v kirilma gunu, 584 gunde kopuk parca, toplam 1895 · olcum: worktree agent-adb45ab6a14bc39c0, origin/main fc76e9d30 ustu · alet denetim/ARAC-EKSKLAV-0917.py ile 5 gunde parca parca AYNI (1520/1600/1739/1830/1912)
 BEKLENEN_KIRILMASIZ = 13   # 1 EKIM 2026: 42 -> 13, gecenin kampanyasi 29 kalem kapatti
 # ⚠️ Buyuk bir dusus (42 -> 13) ve bilerek SIKI baglaniyor: 29 kalemlik iyilesme
 # kayda gecmezse, yarin biri 40 kirilmasiz madde yazsa denetim "40 <= 42" der ve
@@ -7589,6 +7590,41 @@ def main():
                       "yuvarlanınca dışarı düşmüş — yukarıdaki öneri payı içerir.")
             print("    → yukarıdaki koordinatı OLDUĞU GİBİ yaz; kara maskesinde"
                   " sınandı. Maske dışındaki nokta HİÇ toprak sahibi olamaz.")
+
+    # ── Değişmez 7e — EKSKLAV ÖLÇÜMÜ (arac/eksklav_olc.py) ────────────
+    # 14 Ekim 2026 — Emre kararı (KARARLAR-1014 #49, kutu 0064/H-0010): eksklav
+    # aleti (denetim/ARAC-EKSKLAV-0917.py) denetle'ye bağlandı, BUGÜNKÜ ÖLÇÜM
+    # TAVAN. Yalnız GERİLEME bloke eder; iyileşince tavan iner. Kural:
+    # dersler/D287-eksklav-karar-agaci.md (A gerçek eksklav · B1-B4 hata).
+    try:
+        import eksklav_olc
+        import girdi as _girdi_e
+        _Ye = _girdi_e.yukle(sessiz=True)
+        _Ge = eksklav_olc.osmanli_kirilma_gunleri(_Ye)
+        _Re = eksklav_olc.olc(_Ye, _Ge)
+        n7e = sum(len(v) for v in _Re.values())
+        durum7e = "✓" if n7e <= BEKLENEN_EKSKLAV else "✗"
+        if n7e > BEKLENEN_EKSKLAV:
+            ihlal = True
+        print(f"\nDeğişmez 7e {durum7e}  {n7e} kopuk Osmanlı parçası · {len(_Re)}/{len(_Ge)} "
+              f"kırılma gününde (tavan {BEKLENEN_EKSKLAV}) — Delaunay ≤400 km")
+        if n7e < BEKLENEN_EKSKLAV:
+            print(f"            🟢 İYİLEŞME: tavan {BEKLENEN_EKSKLAV} -> {n7e} yapılabilir "
+                  f"({BEKLENEN_EKSKLAV - n7e} parça) — aynı commit'te, Emre onayıyla.")
+        if n7e > BEKLENEN_EKSKLAV or args.ayrinti:
+            print( "            i kopuk parça ile ana gövde arasında kimin noktası var? "
+                   "(D287 karar ağacı;")
+            print( "              ayrıntı: py denetim/ARAC-EKSKLAV-0917.py --gun G)")
+            _say = 0
+            for _g in sorted(_Re):
+                for _p in _Re[_g]:
+                    if _say < (10**9 if args.ayrinti else 8):
+                        print(f"    {_g}  {', '.join(_p)[:90]}")
+                    _say += 1
+    except ImportError as e:
+        olculemedi("Değişmez 7e eksklav", "%s (scipy/numpy gerekir)" % e)
+    except Exception as e:
+        olculemedi("Değişmez 7e eksklav", "%s: %s" % (type(e).__name__, e))
 
     print()
     if ZK.get("ozet"):
