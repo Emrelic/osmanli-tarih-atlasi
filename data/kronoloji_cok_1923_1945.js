@@ -7295,7 +7295,7 @@ window.KRONOLOJI_COK_1923_1945 = [
   yer_kon:[55.75, 37.62],
   d:"Tarafsızlık Paktı'nı Nisan'da feshetmiş olan SSCB, 8 Ağustos'ta yaptığı ilanla ertesi günden itibaren Japonya ile savaş hâlinde olduğunu bildirdi. Sovyet kuvvetleri Yalta kararı uyarınca Mançurya'ya girdi.",
   kaynak:"Avalon Project 'Soviet Declaration of War on Japan' (8 Ağustos 1945) https://avalon.law.yale.edu/wwii/s4.asp : Sovyet hükûmeti yarından, yani 9 Ağustos'tan itibaren Japonya ile savaş hâlinde sayılacak (özet); Avalon 'Soviet Denunciation of Pact with Japan' 5 Nisan 1945 (başlık); LoC Country Studies China http://countrystudies.us/china/22.htm : Yalta'da Sovyet birliklerini Mançurya'ya getiren anlaşma (özet)",
-  ic_not_d:"Mançukuo'nun işgali ve Puyi'nin esareti künyede 1945-08-31 maddesi olarak MEVCUT; mancukuo taraflara bilerek konmadı (çift görünmesin)." },
+  ic_not_d:"Mançukuo'nun işgali ve Puyi'nin esareti künyede 1945-08-19 maddesi olarak MEVCUT (MANCURYA-ISG-1014: eski 1945-08-31 ay üst sınırıydı, Yamakawa / Jilin kronolojisine göre düzeltildi); şehir şehir Sovyet işgali data/kronoloji_sinir_nokta2.js'te; mancukuo taraflara bilerek konmadı (çift görünmesin)." },
 
 { t:"1945-08-10",
   b:"Moğolistan Japonya'ya savaş ilan etti",
