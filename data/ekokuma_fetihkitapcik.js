@@ -6,7 +6,7 @@
 // AD ALANI: app.js _ekHavuz() regex'i /^EKOKUMA(_[A-Z0-9]+)?$/ yalnız TEK alt çizgili adları toplar;
 // bu yüzden ad EKOKUMA_FETIHKITAPCIK'tır (iki alt çizgili ad havuza SESSİZCE girmezdi).
 window.EKOKUMA_FETIHKITAPCIK = [
-{ id:"kitapcik-istanbul-fethi-1453", tur:"kitapcik", olay:["1453-05-29"],
+{ id:"kitapcik-istanbul-fethi-1453", tur:"kitapcik", olay:["1453-05-29","1453-04-06|İstanbul kuşatması"],
   baslik:"İstanbul'un Fethi — kuşatmanın kitapçığı: surlar, toplar, zincir, gemiler",
   kisa:"54 günlük kuşatmayı iki tarafın planı, silâhı ve mevzisiyle bir arada okuyun: 22 km'ye yaklaşan sur, Haliç'teki zincir, dört yönden yüklenen ordu, karadan indirilen gemiler ve son hücumun düzeni.",
   bolumler:[
