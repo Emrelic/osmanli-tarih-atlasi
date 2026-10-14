@@ -93,7 +93,7 @@ window.KRONOLOJI_HOLLANDA = [
   kaynak:"UvA-DARE, L. Petram, 'The world's first stock exchange: how the Amsterdam market for Dutch East India Company shares became a modern securities market, 1602-1700': \"When subscriptions in the VOC opened in 1602 they proved immensely popular, with thousands of investors placing their capital in the company's chambers\" · Rijksmuseum: \"the world's largest trading and shipping company from 1602 to 1800\" · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1602-01-01", b:"Amsterdam Borsası — hisse senedinin doğuşu", tur:"ekonomi", onem:4, dunya:5, kapsam:"ic", etiket:["ekonomi","konu-ekonomi"], yer_id:"Amsterdam",
-  gun:"1602 (kaynak yıl verir; önceki 21 Mart günü kaynaksızdı)",
+  gun:"1602", ic_not_gun:"1602 (kaynak yıl verir; önceki 21 Mart günü kaynaksızdı)",
   d:"VOC hisseleri dünya tarihinde ilk kez büyük ölçekte alınıp satılmaya başlandı. Amsterdam piyasası 1630-1650 arasında vadeli işlem, açığa satış ve türev sözleşmeleriyle modern bir menkul kıymet piyasasına dönüştü; bugünkü borsanın atası budur.",
   kaynak:"UvA-DARE, Petram: \"In seventeenth-century Amsterdam, shares were traded on a large scale for the first time in world history\" · \"The Amsterdam stock market developed into a modern securities market during the period 1630-1650\" · Dikkat: GÜN DOĞRULANMADI (VOC ile aynı yıl; ayrı madde, çünkü şirket ile piyasa ayrı kurumlardır)" },
 
@@ -112,7 +112,7 @@ window.KRONOLOJI_HOLLANDA = [
   kaynak:"TDV `hollanda` (gövdesi okundu): \"İspanya'nın Hollandalı isyancılarla mütareke imzalamasından (1609) sonra Osmanlılar Felemenk Cumhuriyeti ile ittifak yapmanın gerekliliğini anladılar\" · `dunya:3` ateşkesin SONU ile aynı (`ispanya.js:414`) · Dikkat: GÜN DOĞRULANMADI" },
 
 { t:"1609-01-01", b:"Grotius'un Mare Liberum'u — denizlerin serbestliği", tur:"kultur", onem:4, dunya:5, kapsam:"ic", etiket:["bilim","kultur","ekonomi","konu-bilim","konu-ekonomi","konu-kultur"], yer_id:"", odak_yer:["Rotterdam","Amsterdam"],
-  gun:"1609 (Leiden, Elzevier; kaynak ay/gün vermez — önceki 1 Kasım kaynaksızdı)",
+  gun:"1609 (Leiden, Elzevier)", ic_not_gun:"1609 (Leiden, Elzevier; kaynak ay/gün vermez — önceki 1 Kasım kaynaksızdı)",
   d:"Leiden'in yayıncısı Elzevier, VOC'nin ısmarladığı Mare Liberum'u bastı; Hugo Grotius denizlerin bütün milletlere açık olduğunu, kimsenin okyanusu mülk edinemeyeceğini savundu. Metin, De jure praedae adlı büyük eserin bir parçasıydı ve bugün hâlâ deniz hukukunun kurucu ilkesidir — modern devletler hukuku bu risaleyle başlar.",
   kaynak:"Leiden Üniversitesi, 'Hugo Grotius: from Leiden student to founding father of international law' ve Grotius web sergisi: \"In 1609, the university's publisher Elzevier published Mare Liberum (The Freedom of the Seas), commissioned by the Dutch East India Company\"; De jure praedae'nin parçası olduğu; ilkenin bugün de deniz hukukunun temeli sayıldığı · Dikkat: GÜN DOĞRULANMADI · Dikkat: yer_id BOŞ: Leiden yok" },
 
@@ -197,7 +197,7 @@ window.KRONOLOJI_HOLLANDA = [
 // III. DENİZ HÂKİMİYETİ, FELAKET YILI VE İNGİLTERE TACI (1650-1700)
 
 { t:"1652-07-10", b:"Birinci İngiliz-Hollanda Savaşı", tur:"savas", onem:4, dunya:3, kapsam:"dis", etiket:["askeri","ekonomi","konu-askeri","konu-ekonomi"], yer_id:"",
-  gun:"10 Temmuz 1652 — takvimi ÖLÇÜLEMEDİ (İngiliz ilânı Jülyen olabilir; kaynak bulunamadı)",
+  gun:"10 Temmuz 1652", ic_not_gun:"10 Temmuz 1652 — takvimi ÖLÇÜLEMEDİ (İngiliz ilânı Jülyen olabilir; kaynak bulunamadı)",
   d:"İngiltere'nin Seyrüsefer Kanunu'yla Hollanda taşımacılığını dışlaması savaşa yol açtı. İki deniz cumhuriyeti, ticaret yollarının denetimi için üç savaştan ilkine girdi.",
   kaynak:"bulunamadı — GÜN DOĞRULANMADI" },
 

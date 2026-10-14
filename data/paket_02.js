@@ -1119,7 +1119,7 @@ window.OLAYLAR_EK10 = [
 // ---------------------------------------------------------------------------
 
 { t:"1594-11-01", kesinlik:"ay", k:"savas", etiket:["isyan","savas","konu-askeri","konu-isyan"],
-  b:"Bükreş ayaklanması ve Tuna kalelerine saldırı — isyanın haritaya vurduğu an",
+  b:"Bükreş ayaklanması ve Tuna kalelerine saldırı",
   gun:"Kasım 1594", yer:"Bükreş, Yergöğü, İbrail, Hırsova, Silistre ve Bender", yer_id:"Bükreş",
   ic_not_gun:"PAKET-KRON3 13 Eylül 2026 (1.MURAT M-3870 hükmü): eski t 1594-11-13 ve gun '13 Kasım 1594' akademik kaynakta BULUNAMADI. History of Transylvania I (HoT) s.118 yalnız 'November' (PAKET-ISYAN okudu); TDV bogdan '1594 yılı sonlarında Yaş ve Bükreş'te … bütün Türk ve Rumlar öldürüldü'; Crăciun, Crisia LIII (2023) Eflak'ın Liga'ya sonbaharda katıldığını yazar, gün vermez. 13 Kasım yalnız Vikipedi ve popüler tarih sitelerinde (historia.ro vb.) geçiyor — KAYNAKSIZ, SİLİNDİ (§4). ⇒ t:1594-11-01 + kesinlik:'ay' (p0037 emsali). §4 pencere şartı: YYYY-01-01 maddeyi isyan taramasının Eflak/Boğdan penceresinden (isy-eflak-1594 · isy-bogdan-1594 f:1594-11-01, kesinlik ay) önceye atardı. data/savaslar.js'in iki ayaklanma kaydı da aynı güne çekildi.",
   kisiler:"Eflak Voyvodası Cesur Mihail, Boğdan Voyvodası Aron Vodâ",

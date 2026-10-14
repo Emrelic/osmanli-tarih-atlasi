@@ -500,7 +500,7 @@ window.KRONOLOJI_INGILTERE = [
 { t:"1581-09-11", b:"Levant Company kuruldu", tur:"ekonomi",
   onem:4, dunya:2, kapsam:"dis", etiket:["ekonomi","diplomasi","ingiltere","konu-diplomasi","konu-ekonomi"],
   yer_id:"Londra",
-  gun:"11 Eylül 1581 (Jülyen) — Dikkat: TDV yalnız \"1581’de\" der; günün kaynağı bulunamadı",
+  gun:"11 Eylül 1581 (Jülyen)", ic_not_gun:"11 Eylül 1581 (Jülyen) — Dikkat: TDV yalnız \"1581’de\" der; günün kaynağı bulunamadı",
   d:"Elizabeth'in fermanıyla kurulan Levant Company, Osmanlı topraklarıyla ticareti tekelinde toplayan bir kraliyet şirketiydi; şirket 1825'e kadar bölgedeki İngiliz ticaretini bu çerçevede yürütecekti. Kuruluşu, İngiliz-Osmanlı ilişkilerinin kurumsal bir ticaret ve diplomasi ağına dönüşmesini sağladı.",
   kaynak:"ingiltere (TDV)" },
 

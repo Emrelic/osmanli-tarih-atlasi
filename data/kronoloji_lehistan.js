@@ -290,7 +290,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Hmelnitski ve Kazak meclisi Moskova çarına bağlılık yemini etti. Polonya için bu, Ukrayna'nın kaybının ve Rusya'nın Avrupa siyasetine kalıcı biçimde girişinin başlangıcıdır; sonraki üç yüzyılın kuzeydoğu meselesi buradan doğar.",
   kaynak:"ukrayna", yer_kon:[50.0667,31.45] },
 
-{ t:"1655-07-21", b:"POTOP — İsveç Tufanı başladı", gun:"21 Temmuz 1655 — İsveç ordusunun sınırı geçişi (MHP) · eski t 1655-07-25 kaynaksızdı (Ujście kapitülasyonunun günü olabilir; bu turda onu yalnız Vikipedi veriyor, dayanak değil)", tur:"isgal",
+{ t:"1655-07-21", b:"POTOP — İsveç Tufanı başladı", gun:"21 Temmuz 1655", ic_not_gun:"21 Temmuz 1655 — İsveç ordusunun sınırı geçişi (MHP) · eski t 1655-07-25 kaynaksızdı (Ujście kapitülasyonunun günü olabilir; bu turda onu yalnız Vikipedi veriyor, dayanak değil)", tur:"isgal",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"İsveç orduları kuzeyden girdi, Ujście'de Büyük Polonya soyluları teslim oldu ve birkaç ay içinde Varşova ile Krakov dâhil ülkenin neredeyse tamamı işgal edildi. \"Tufan\" (Potop) adı Polonya hafızasında bir felaketin değil, bir milletin yok olma eşiğinden dönüşünün adıdır; Sienkiewicz'in romanıyla ulusal anlatının merkezine yerleşmiştir.",

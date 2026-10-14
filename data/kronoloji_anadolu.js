@@ -151,7 +151,7 @@ window.KRONOLOJI_ANADOLU = [
 { taraflar:["karaman"], t:"1277-11-01", b:"Mehmed Bey, Moğollara karşı İç İl'de savaşırken öldü", tur:"son",
   onem:4, dunya:1, kapsam:"dis", etiket:["savas","hukumdar","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"",
-  d:"Konya'daki kısa hâkimiyetinin ardından İlhanlı Moğol kuvvetleriyle İç İl bölgesinde giriştiği çarpışmada öldürüldü. İç İl'in atlas verisinde tek bir yerleşim karşılığı yoktur, bölge adıyla anılır.",
+  d:"Konya'daki kısa hâkimiyetinin ardından İlhanlı Moğol kuvvetleriyle İç İl bölgesinde giriştiği çarpışmada öldürüldü.", ic_not_d:"Konya'daki kısa hâkimiyetinin ardından İlhanlı Moğol kuvvetleriyle İç İl bölgesinde giriştiği çarpışmada öldürüldü. İç İl'in atlas verisinde tek bir yerleşim karşılığı yoktur, bölge adıyla anılır.",
   kaynak:"karamanogullari", kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1281-01-01", b:"Güneri Bey beyliğin başına geçti", tur:"hukumdar",
@@ -427,7 +427,7 @@ window.KRONOLOJI_ANADOLU = [
 { taraflar:["karaman"], t:"1441-01-01", b:"Mut'ta Lâl Ağa Camii yaptırıldı", tur:"mimari",
   onem:1, dunya:1, kapsam:"ic", etiket:["mimari","imar","konu-din","konu-imar"],
   yer_id:"",
-  d:"1441 civarında Mut'ta Lâl Ağa Camii inşa edildi; Mut'un atlas verisinde ayrı bir yerleşim kaydı bulunmuyor.",
+  d:"1441 civarında Mut'ta Lâl Ağa Camii inşa edildi.", ic_not_d:"1441 civarında Mut'ta Lâl Ağa Camii inşa edildi; Mut'un atlas verisinde ayrı bir yerleşim kaydı bulunmuyor.",
   kaynak:"karamanogullari", yer_kon:[36.6469,33.4386] },
 
 // ═══════════════════ ANADOLU (TÜRKİYE) SELÇUKLU DEVLETİ (1075-1308) ═══════════════════

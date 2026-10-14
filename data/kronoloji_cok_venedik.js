@@ -55,7 +55,7 @@ window.KRONOLOJI_COK_VENEDIK = [
 
 { t:"1687-07-01", b:"İnebahtı, komşu kalelerle birlikte Venedik'e teslim oldu", tur:"toprak-kayip",
   onem:3, dunya:1, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri"],
-  yer_id:"İnebahtı", devlet:"venedik", gun:"Temmuz 1687 (TDV `inebahti` ay verir, gün vermez) — atlasın 1687-08-06 kırılması TDV ile çelişir",
+  yer_id:"İnebahtı", devlet:"venedik", gun:"Temmuz 1687", ic_not_gun:"Temmuz 1687 (TDV `inebahti` ay verir, gün vermez) — atlasın 1687-08-06 kırılması TDV ile çelişir",
   d:"Uzun süre direnen İnebahtı, 1683-1699 savaşları sırasında yanındaki diğer kalelerle birlikte 1687 Temmuzunda düştü. Kasaba, Venedik'in elinde Karlofça Antlaşması'ndan (1699) bir yıl sonrasına kadar kaldı.",
   kaynak:"TDV `inebahti`: \"1683-1699 savaşları sırasında İnebahtı, uzun süre saldırılara direndiyse de sonunda yanındaki diğer kalelerle birlikte 1687 Temmuzunda düştü.\"" }
 

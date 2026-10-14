@@ -48,7 +48,7 @@ window.KRONOLOJI_SINIR_KOMSU = [
 { t:"1923-03-07", devlet:"filistin-mandasi", devletler:["filistin-mandasi","suriye-lubnan-mandasi"], sinir_id:"d1923-fi-lb",
   b:"Paulet–Newcombe sınır raporu imzalandı — Filistin ile Suriye-Lübnan arasındaki hat", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","filistin-mandasi","suriye-lubnan-mandasi"],
-  d:"23 Aralık 1920 Fransız-İngiliz Sözleşmesi'ne dayanan karma komisyonun 3 Şubat 1922 tarihli nihai raporu Akdeniz'den el-Hamme'ye uzanan hattı üç paftayla çizdi ve 7 Mart 1923'te Paris'te imzalandı. Lübnan kesiminde 38 kalıcı direk 1922'de dikilmişti. Yürürlük ve toprak devri günü bulunamadı. Hattın yerleşim kaydı yok: sınır boyunda (Nakura–Hasbani) atlasta nokta bulunamadı.",
+  d:"23 Aralık 1920 Fransız-İngiliz Sözleşmesi'ne dayanan karma komisyonun 3 Şubat 1922 tarihli nihai raporu Akdeniz'den el-Hamme'ye uzanan hattı üç paftayla çizdi ve 7 Mart 1923'te Paris'te imzalandı. Lübnan kesiminde 38 kalıcı direk 1922'de dikilmişti. Yürürlük ve toprak devri günü bulunamadı.", ic_not_d:"23 Aralık 1920 Fransız-İngiliz Sözleşmesi'ne dayanan karma komisyonun 3 Şubat 1922 tarihli nihai raporu Akdeniz'den el-Hamme'ye uzanan hattı üç paftayla çizdi ve 7 Mart 1923'te Paris'te imzalandı. Lübnan kesiminde 38 kalıcı direk 1922'de dikilmişti. Yürürlük ve toprak devri günü bulunamadı. Hattın yerleşim kaydı yok: sınır boyunda (Nakura–Hasbani) atlasta nokta bulunamadı.",
   kaynak:"IBS No. 75 Israel–Lebanon (Cmd. 1910; 22 LNTS 364; 'erected in 1922 by a mixed Anglo-French commission') · PalQuest 'Palestine-Lebanon border'" },
 
 // ── GERİYE SARMA G3 (1878-07-13 → 1914-07-28) ─────────────────────────

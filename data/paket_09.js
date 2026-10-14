@@ -151,7 +151,7 @@ window.KRONOLOJI_SINIR_KOMSU = [
 { t:"1923-03-07", devlet:"filistin-mandasi", devletler:["filistin-mandasi","suriye-lubnan-mandasi"], sinir_id:"d1923-fi-lb",
   b:"Paulet–Newcombe sınır raporu imzalandı — Filistin ile Suriye-Lübnan arasındaki hat", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","filistin-mandasi","suriye-lubnan-mandasi"],
-  d:"23 Aralık 1920 Fransız-İngiliz Sözleşmesi'ne dayanan karma komisyonun 3 Şubat 1922 tarihli nihai raporu Akdeniz'den el-Hamme'ye uzanan hattı üç paftayla çizdi ve 7 Mart 1923'te Paris'te imzalandı. Lübnan kesiminde 38 kalıcı direk 1922'de dikilmişti. Yürürlük ve toprak devri günü bulunamadı. Hattın yerleşim kaydı yok: sınır boyunda (Nakura–Hasbani) atlasta nokta bulunamadı.",
+  d:"23 Aralık 1920 Fransız-İngiliz Sözleşmesi'ne dayanan karma komisyonun 3 Şubat 1922 tarihli nihai raporu Akdeniz'den el-Hamme'ye uzanan hattı üç paftayla çizdi ve 7 Mart 1923'te Paris'te imzalandı. Lübnan kesiminde 38 kalıcı direk 1922'de dikilmişti. Yürürlük ve toprak devri günü bulunamadı.", ic_not_d:"23 Aralık 1920 Fransız-İngiliz Sözleşmesi'ne dayanan karma komisyonun 3 Şubat 1922 tarihli nihai raporu Akdeniz'den el-Hamme'ye uzanan hattı üç paftayla çizdi ve 7 Mart 1923'te Paris'te imzalandı. Lübnan kesiminde 38 kalıcı direk 1922'de dikilmişti. Yürürlük ve toprak devri günü bulunamadı. Hattın yerleşim kaydı yok: sınır boyunda (Nakura–Hasbani) atlasta nokta bulunamadı.",
   kaynak:"IBS No. 75 Israel–Lebanon (Cmd. 1910; 22 LNTS 364; 'erected in 1922 by a mixed Anglo-French commission') · PalQuest 'Palestine-Lebanon border'" },
 
 // ── GERİYE SARMA G3 (1878-07-13 → 1914-07-28) ─────────────────────────
@@ -570,7 +570,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1291-08-01", devlet:"isvicre", devletler:["isvicre","almanya"], sinir_id:"",
   b:"Federal Belge — Uri, Schwyz ve Nidwalden'in birliği", tur:"kurulus", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["konu-siyasi","isvicre","almanya"],
-  d:"Uri, Schwyz ve Nidwalden birbirlerine yardım etmeyi ve anlaşmazlıklarını hakem yoluyla çözmeyi belgeyle taahhüt etti; İsviçre Konfederasyonu'nun başlangıcı sayılan bu birlik bir toprak değişikliği içermiyordu. Kaynak yalnız ayı veriyor (Ağustos 1291); gün isvicre künyesinden devralındı.",
+  d:"Uri, Schwyz ve Nidwalden birbirlerine yardım etmeyi ve anlaşmazlıklarını hakem yoluyla çözmeyi belgeyle taahhüt etti; İsviçre Konfederasyonu'nun başlangıcı sayılan bu birlik bir toprak değişikliği içermiyordu. Kaynak yalnız ayı veriyor (Ağustos 1291).", ic_not_d:"Uri, Schwyz ve Nidwalden birbirlerine yardım etmeyi ve anlaşmazlıklarını hakem yoluyla çözmeyi belgeyle taahhüt etti; İsviçre Konfederasyonu'nun başlangıcı sayılan bu birlik bir toprak değişikliği içermiyordu. Kaynak yalnız ayı veriyor (Ağustos 1291); gün isvicre künyesinden devralındı.",
   kaynak:"Historisches Lexikon der Schweiz 'Eidgenossenschaft'" },
 
 { t:"1297-09-12", devlet:"portekiz", devletler:["portekiz","kastilya"], sinir_id:"",
@@ -760,7 +760,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1815-11-20", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","almanya"], sinir_id:"dg4-fr-de-1815",
   b:"İkinci Paris Antlaşması — Fransa'nın doğu sınırı 1790 hattına yakın biçimde daraltıldı", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","almanya","sardinya-piyemonte"],
-  d:"Waterloo'dan sonra imzalanan İkinci Paris Antlaşması, 1814 Birinci Paris Antlaşması'nın çizdiği Fransa sınırını yeniden düzenledi; 1814'te Fransa'ya bırakılan Savoy kısmı da bu düzenlemenin konusuydu. Bu hattın 1870'e kadar aynen sürüp sürmediğini açıkça söyleyen bir kaynak bulunamadı; haritada 1815-1871 Fransa–Almanya hattı bu yüzden çizilmiyor.",
+  d:"Waterloo'dan sonra imzalanan İkinci Paris Antlaşması, 1814 Birinci Paris Antlaşması'nın çizdiği Fransa sınırını yeniden düzenledi; 1814'te Fransa'ya bırakılan Savoy kısmı da bu düzenlemenin konusuydu. Bu hattın 1870'e kadar aynen sürüp sürmediğini açıkça söyleyen bir kaynak bulunamadı.", ic_not_d:"Waterloo'dan sonra imzalanan İkinci Paris Antlaşması, 1814 Birinci Paris Antlaşması'nın çizdiği Fransa sınırını yeniden düzenledi; 1814'te Fransa'ya bırakılan Savoy kısmı da bu düzenlemenin konusuydu. Bu hattın 1870'e kadar aynen sürüp sürmediğini açıkça söyleyen bir kaynak bulunamadı; haritada 1815-1871 Fransa–Almanya hattı bu yüzden çizilmiyor.",
   kaynak:"HLS 'Pariser Frieden' (30 Mayıs 1814 ve 20 Kasım 1815) · IBS No. 12 (1814'te Savoy'un bir kısmı Fransa'ya)" },
 
 { t:"1816-03-16", devlet:"isvicre", devletler:["isvicre","sardinya-piyemonte"], sinir_id:"dg4-sa-ch-cenevre",
@@ -875,7 +875,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1917-12-06", devlet:"finlandiya", devletler:["finlandiya","isvec"], sinir_id:"d1923-fi-se",
   b:"Finlandiya bağımsızlığını ilan etti — İsveç ve Norveç ile sınırlar Finlandiya'nın oldu", tur:"kurulus", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","konu-siyasi","finlandiya","isvec","norvec","sovyet-rusya"],
-  d:"Rusya'ya bağlı Finlandiya Büyük Dükalığı bağımsızlığını ilan etti. 1809 Fredrikshamn Barışı ve 1810 sınır sözleşmesiyle Torne–Muonio ırmakları boyunca çizilen İsveç sınırı ile 1751 Strömstad hattına dayanan Norveç sınırının batı kesimi değişmeden yeni devletin sınırı oldu; Finlandiya resmî kayıtları 1809-1917 ve 1918 sonrası dönemleri aynı belgelerle anlatır. Petsamo kesimi ise 1920'ye kadar Rusya'da kaldı. Bağımsızlık ilanının günü okunabilir bir kaynakta doğrulanamadı; gün finlandiya künyesinden devralındı.",
+  d:"Rusya'ya bağlı Finlandiya Büyük Dükalığı bağımsızlığını ilan etti. 1809 Fredrikshamn Barışı ve 1810 sınır sözleşmesiyle Torne–Muonio ırmakları boyunca çizilen İsveç sınırı ile 1751 Strömstad hattına dayanan Norveç sınırının batı kesimi değişmeden yeni devletin sınırı oldu; Finlandiya resmî kayıtları 1809-1917 ve 1918 sonrası dönemleri aynı belgelerle anlatır. Petsamo kesimi ise 1920'ye kadar Rusya'da kaldı.", ic_not_d:"Rusya'ya bağlı Finlandiya Büyük Dükalığı bağımsızlığını ilan etti. 1809 Fredrikshamn Barışı ve 1810 sınır sözleşmesiyle Torne–Muonio ırmakları boyunca çizilen İsveç sınırı ile 1751 Strömstad hattına dayanan Norveç sınırının batı kesimi değişmeden yeni devletin sınırı oldu; Finlandiya resmî kayıtları 1809-1917 ve 1918 sonrası dönemleri aynı belgelerle anlatır. Petsamo kesimi ise 1920'ye kadar Rusya'da kaldı. Bağımsızlık ilanının günü okunabilir bir kaynakta doğrulanamadı; gün finlandiya künyesinden devralındı.",
   kaynak:"MML, Suomen–Ruotsin rajankäynti 2006, §2.1-2.2 (1809-1917 / 1918 sonrası) · Store norske leksikon 'riksgrensen' · Tartu Barışı md. 4 (LNTS c.3)" },
 
 { t:"1918-11-03", devlet:"italya", devletler:["italya","habsburg"], sinir_id:"d1918-it-ch-isgal",
@@ -4042,7 +4042,7 @@ window.KRONOLOJI_PORTEKIZ = [
   d:"Portekiz, müttefiklere olan bağlılığını somutlaştırmak için elli bin kişilik bir seferi kolorduyu Fransa'daki Batı Cephesi'ne gönderdi; birlik ertesi yıl Lys Muharebesi'nde ağır kayıplar verecekti. Bu, Portekiz ordusunun kıta Avrupası'nda büyük ölçekli bir savaşa doğrudan katıldığı ilk ve tek modern deneyimdi.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Portuguese Expeditionary Corps, Şubat 1917 sevkiyatı)" },
 
-{ t:"1923-01-01", gun:"yıl özeti — olay değil; 29 Ekim 1923 atlas penceresinin sınır işaretidir, Portekiz'de o gün bir olay yoktur", b:"1923'te Portekiz — istikrarsız Birinci Cumhuriyet", ic_not_b:"eski b: Atlas penceresinin kapanışında Portekiz — istikrarsız Birinci Cumhuriyet", tur:"diger", onem:2, dunya:1, kapsam:"ic", yer_id:"Lizbon",
+{ t:"1923-01-01", gun:"yıl özeti", ic_not_gun:"yıl özeti — olay değil; 29 Ekim 1923 atlas penceresinin sınır işaretidir, Portekiz'de o gün bir olay yoktur", b:"1923'te Portekiz — istikrarsız Birinci Cumhuriyet", ic_not_b:"eski b: Atlas penceresinin kapanışında Portekiz — istikrarsız Birinci Cumhuriyet", tur:"diger", onem:2, dunya:1, kapsam:"ic", yer_id:"Lizbon",
   etiket:["anayasa","konu-islahat","konu-hukuk"],
   d:"Atlas penceresi kapandığında Portekiz, on üç yılda kırktan fazla hükümet değişikliği yaşamış istikrarsız bir cumhuriyettir; ekonomik kriz ve siyasî kutuplaşma üç yıl sonra (1926) bir askerî darbeyle sonuçlanacak, bu da nihayetinde Salazar'ın otuz altı yıllık Estado Novo rejimine yol açacaktır.",
   kaynak:"TDV `portekiz`: \"Devam eden siyasî istikrarsızlık ve toplumsal kargaşa nihayet İspanya’da olduğu gibi askerî bir darbeyle son buldu ve General Gomes da Costa idareyi ele geçirdi (Mayıs 1926).\" — bu madde atlas penceresinin kapanışında durumu özetler, olayın kendisi pencere dışındadır" }

@@ -39,7 +39,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1291-08-01", devlet:"isvicre", devletler:["isvicre","almanya"], sinir_id:"",
   b:"Federal Belge — Uri, Schwyz ve Nidwalden'in birliği", tur:"kurulus", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["konu-siyasi","isvicre","almanya"],
-  d:"Uri, Schwyz ve Nidwalden birbirlerine yardım etmeyi ve anlaşmazlıklarını hakem yoluyla çözmeyi belgeyle taahhüt etti; İsviçre Konfederasyonu'nun başlangıcı sayılan bu birlik bir toprak değişikliği içermiyordu. Kaynak yalnız ayı veriyor (Ağustos 1291); gün isvicre künyesinden devralındı.",
+  d:"Uri, Schwyz ve Nidwalden birbirlerine yardım etmeyi ve anlaşmazlıklarını hakem yoluyla çözmeyi belgeyle taahhüt etti; İsviçre Konfederasyonu'nun başlangıcı sayılan bu birlik bir toprak değişikliği içermiyordu. Kaynak yalnız ayı veriyor (Ağustos 1291).", ic_not_d:"Uri, Schwyz ve Nidwalden birbirlerine yardım etmeyi ve anlaşmazlıklarını hakem yoluyla çözmeyi belgeyle taahhüt etti; İsviçre Konfederasyonu'nun başlangıcı sayılan bu birlik bir toprak değişikliği içermiyordu. Kaynak yalnız ayı veriyor (Ağustos 1291); gün isvicre künyesinden devralındı.",
   kaynak:"Historisches Lexikon der Schweiz 'Eidgenossenschaft'" },
 
 { t:"1297-09-12", devlet:"portekiz", devletler:["portekiz","kastilya"], sinir_id:"",
@@ -229,7 +229,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1815-11-20", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","almanya"], sinir_id:"dg4-fr-de-1815",
   b:"İkinci Paris Antlaşması — Fransa'nın doğu sınırı 1790 hattına yakın biçimde daraltıldı", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","almanya","sardinya-piyemonte"],
-  d:"Waterloo'dan sonra imzalanan İkinci Paris Antlaşması, 1814 Birinci Paris Antlaşması'nın çizdiği Fransa sınırını yeniden düzenledi; 1814'te Fransa'ya bırakılan Savoy kısmı da bu düzenlemenin konusuydu. Bu hattın 1870'e kadar aynen sürüp sürmediğini açıkça söyleyen bir kaynak bulunamadı; haritada 1815-1871 Fransa–Almanya hattı bu yüzden çizilmiyor.",
+  d:"Waterloo'dan sonra imzalanan İkinci Paris Antlaşması, 1814 Birinci Paris Antlaşması'nın çizdiği Fransa sınırını yeniden düzenledi; 1814'te Fransa'ya bırakılan Savoy kısmı da bu düzenlemenin konusuydu. Bu hattın 1870'e kadar aynen sürüp sürmediğini açıkça söyleyen bir kaynak bulunamadı.", ic_not_d:"Waterloo'dan sonra imzalanan İkinci Paris Antlaşması, 1814 Birinci Paris Antlaşması'nın çizdiği Fransa sınırını yeniden düzenledi; 1814'te Fransa'ya bırakılan Savoy kısmı da bu düzenlemenin konusuydu. Bu hattın 1870'e kadar aynen sürüp sürmediğini açıkça söyleyen bir kaynak bulunamadı; haritada 1815-1871 Fransa–Almanya hattı bu yüzden çizilmiyor.",
   kaynak:"HLS 'Pariser Frieden' (30 Mayıs 1814 ve 20 Kasım 1815) · IBS No. 12 (1814'te Savoy'un bir kısmı Fransa'ya)" },
 
 { t:"1816-03-16", devlet:"isvicre", devletler:["isvicre","sardinya-piyemonte"], sinir_id:"dg4-sa-ch-cenevre",
@@ -344,7 +344,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1917-12-06", devlet:"finlandiya", devletler:["finlandiya","isvec"], sinir_id:"d1923-fi-se",
   b:"Finlandiya bağımsızlığını ilan etti — İsveç ve Norveç ile sınırlar Finlandiya'nın oldu", tur:"kurulus", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","konu-siyasi","finlandiya","isvec","norvec","sovyet-rusya"],
-  d:"Rusya'ya bağlı Finlandiya Büyük Dükalığı bağımsızlığını ilan etti. 1809 Fredrikshamn Barışı ve 1810 sınır sözleşmesiyle Torne–Muonio ırmakları boyunca çizilen İsveç sınırı ile 1751 Strömstad hattına dayanan Norveç sınırının batı kesimi değişmeden yeni devletin sınırı oldu; Finlandiya resmî kayıtları 1809-1917 ve 1918 sonrası dönemleri aynı belgelerle anlatır. Petsamo kesimi ise 1920'ye kadar Rusya'da kaldı. Bağımsızlık ilanının günü okunabilir bir kaynakta doğrulanamadı; gün finlandiya künyesinden devralındı.",
+  d:"Rusya'ya bağlı Finlandiya Büyük Dükalığı bağımsızlığını ilan etti. 1809 Fredrikshamn Barışı ve 1810 sınır sözleşmesiyle Torne–Muonio ırmakları boyunca çizilen İsveç sınırı ile 1751 Strömstad hattına dayanan Norveç sınırının batı kesimi değişmeden yeni devletin sınırı oldu; Finlandiya resmî kayıtları 1809-1917 ve 1918 sonrası dönemleri aynı belgelerle anlatır. Petsamo kesimi ise 1920'ye kadar Rusya'da kaldı.", ic_not_d:"Rusya'ya bağlı Finlandiya Büyük Dükalığı bağımsızlığını ilan etti. 1809 Fredrikshamn Barışı ve 1810 sınır sözleşmesiyle Torne–Muonio ırmakları boyunca çizilen İsveç sınırı ile 1751 Strömstad hattına dayanan Norveç sınırının batı kesimi değişmeden yeni devletin sınırı oldu; Finlandiya resmî kayıtları 1809-1917 ve 1918 sonrası dönemleri aynı belgelerle anlatır. Petsamo kesimi ise 1920'ye kadar Rusya'da kaldı. Bağımsızlık ilanının günü okunabilir bir kaynakta doğrulanamadı; gün finlandiya künyesinden devralındı.",
   kaynak:"MML, Suomen–Ruotsin rajankäynti 2006, §2.1-2.2 (1809-1917 / 1918 sonrası) · Store norske leksikon 'riksgrensen' · Tartu Barışı md. 4 (LNTS c.3)" },
 
 { t:"1918-11-03", devlet:"italya", devletler:["italya","habsburg"], sinir_id:"d1918-it-ch-isgal",

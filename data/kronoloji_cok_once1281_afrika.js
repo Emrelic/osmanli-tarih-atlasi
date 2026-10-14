@@ -431,7 +431,7 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
   yer_kon:[-22.19,29.24],
   d:"Kuzey-güney ve doğu-batı ticaret yollarının kesiştiği Limpopo ile Shashe nehirlerinin birleşiminde, Güney Afrika'nın ilk yerli krallığı yükselmeye başladı. Mapungubwe dağılana kadar alt kıtanın en önemli iç yerleşimi oldu.",
   kaynak:"UNESCO Dünya Mirası, Mapungubwe Cultural Landscape (whc.unesco.org/en/list/1099) — 'the rise and fall of the first indigenous kingdom in Southern Africa between 900 and 1,300 AD'",
-  gun:"900 — kaynağın ARALIK UCU; olay yılı değil",
+  gun:"900 dolayı", ic_not_gun:"900 — kaynağın ARALIK UCU; olay yılı değil",
   ic_not_t:"Kuşak (1000) öncesi ama künye penceresi içinde; kuruluş iskeleti künyede yok, bu madde onu karşılar." },
 
 { t:"1100-01-01", b:"Büyük Zimbabve'de taş yapıların inşası başladı", tur:"kurulus", onem:3, dunya:2, kapsam:"ic",
@@ -439,7 +439,7 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
   yer_id:"Büyük Zimbabve",
   d:"Demir Çağı Bantu halkı Shona, daha önce seyrek yerleşilmiş bir alanda Büyük Zimbabve'yi kurdu. Tepe Harabeleri XI-XV. yüzyıllar boyunca kesintisiz iskân edildi; yerleşim XIV. yüzyılda altınca zengin platoya yayılan büyük bir devletin merkezi hâline gelecekti.",
   kaynak:"UNESCO Dünya Mirası, Great Zimbabwe National Monument (whc.unesco.org/en/list/364) — 'The property, built between 1100 and 1450 AD' · 'Great Zimbabwe was founded in the 11th century'",
-  gun:"1100 — kaynağın ARALIK UCU ('built between 1100 and 1450 AD'); aynı sayfa 'founded in the 11th century' da der",
+  gun:"1100 dolayı", ic_not_gun:"1100 — kaynağın ARALIK UCU ('built between 1100 and 1450 AD'); aynı sayfa 'founded in the 11th century' da der",
   ic_not_t:"zimbabve-kralligi f 1281→1100 GENİŞLETME önerisine bağlı (KUNYE.json). Genişletme kabul edilmezse bu madde künye penceresi dışına düşer." }
 
 ];

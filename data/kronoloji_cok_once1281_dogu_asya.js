@@ -190,7 +190,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   etiket:["fetih","toprak-kazanc","konu-askeri"], yer_id:"Dali", yer:"Dali", taraflar:["mogol-imparatorlugu"],
   d:"Möngke Kağan'ın emriyle Kubilay, Song'u güneybatıdan kuşatmak için Tibet sınırı boyunca yürüyüp Dali'ye indi. Şehir teslim oldu, fiilî iktidarı elinde tutan Gao ailesinin ileri gelenleri öldürüldü; Duan hükümdarı Duan Xingzhi ise Moğol hizmetinde yerel yönetici olarak bırakıldı.",
   kaynak:"TDV: kubilay-kagan (KUBİLAY KAĞAN) — '1253’te Nan-çan Devleti’ne son verdi.'", ic_not_kaynak:"① TDV'de VAR — alıntılar gövdeden birebir doğrulandı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). TDV adı 'Nan-çan Devleti' — Dali Krallığı ile eşleme bizim yorumumuz. Açılmayan eski akademik atıf (dayanak DEĞİL): Bin Yang, Between Winds and Clouds (Columbia UP, 2009) · Morris Rossabi, Khubilai Khan: His Life and Times (California UP, 1988).",
-  gun:"1253 sonu (sefer 1253 sonbaharı-kışı; şehrin alınışı bazı eserlerde Ocak 1254 — ölçülemedi)",
+  gun:"1253 sonu", ic_not_gun:"1253 sonu (sefer 1253 sonbaharı-kışı; şehrin alınışı bazı eserlerde Ocak 1254 — ölçülemedi)",
   ic_not_t:"Olay dali-kralligi künye iskeletinde (öneri) 'son' olarak var → burada yalnız mogol-imparatorlugu'na bağlandı." },
 
 { t:"1094-01-01", b:"Gao Shengtai Dali tahtını ele geçirdi — Duan hanedanı kısa süre kesintiye uğradı", tur:"hanedan", onem:2, dunya:1, kapsam:"ic",

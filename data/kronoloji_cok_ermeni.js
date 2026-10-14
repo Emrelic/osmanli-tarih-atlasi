@@ -108,7 +108,7 @@ window.KRONOLOJI_COK_ERMENI = [
 { t:"1918-05-28", devlet:"ermenistan-demokratik-cumhuriyeti", devletler:["ermenistan-demokratik-cumhuriyeti"],
   b:"Ermenistan Cumhuriyeti kuruldu — başşehir Erivan", tur:"kurulus", onem:5, dunya:2, kapsam:"ic",
   etiket:["siyaset","kurulus","konu-siyasi"],
-  yer_id:"Revan", gun:"Mayıs 1918 (TDV sevr-antlasmasi) — GÜN KAYNAKTA YOK; kaba tarih künye penceresinin dışına düştüğü için künyenin günü (28 Mayıs) devralındı. Künye günü bir kaynak DEĞİLDİR",
+  yer_id:"Revan", gun:"Mayıs 1918", ic_not_gun:"Mayıs 1918 (TDV sevr-antlasmasi) — GÜN KAYNAKTA YOK; kaba tarih künye penceresinin dışına düştüğü için künyenin günü (28 Mayıs) devralındı. Künye günü bir kaynak DEĞİLDİR",
   d:"Transkafkasya federasyonunun Mayıs 1918'de dağılmasıyla Gürcistan ve Azerbaycan gibi Ermenistan da bağımsız bir cumhuriyet olarak ortaya çıktı ve Erivan başşehir oldu. Osmanlı Devleti Haziran 1918'de başşehri Revan olan Ermenistan'ı tanıdı.",
   ic_not_d:"Bağımsızlığın günü TDV'de yok (sevr: 'Mayıs 1918'de Erivan'da kurulan Ermenistan Cumhuriyeti' [TDV: sevr-antlasmasi]); künyede de kaynak 'bulunamadı'. Osmanlı tanıması Batum Antlaşması'dır (data/kronoloji_cok_1dunya_B.js 1918-06-04) — tekrar yazılmadı.",
   kaynak:"TDV sevr-antlasmasi ('Mayıs 1918'de Erivan'da kurulan Ermenistan Cumhuriyeti') + TDV revan ('1918 Haziranında başşehri Revan olan Ermenistan'ı tanıdı')" },

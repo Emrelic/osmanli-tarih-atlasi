@@ -134,6 +134,22 @@ window.OLAYLAR_P0049 = [
   d:"TDV'nin Kars maddesine göre Kâzım Karabekir Paşa 30 Ekim 1920'de Kars'a girdi ve şehir, İngilizlerin 1919'da denetimini bıraktığı Ermeni idaresinden kurtarıldı. Karabekir maddesi bunun Kars'ın ikinci kurtuluşu olduğunu vurgular: şehir ilk kez Nisan 1918'de Ermenilerden alınmıştı. Doğu Cephesi ilerleyerek 7 Kasım'da Gümrü'yü aldı; savaş 3 Aralık 1920'deki Gümrü Antlaşması ile sona erdi.",
   kaynak:"kars · kazim-karabekir" },
 
+{ t:"1920-11-07", k:"savas", etiket:["savas","konu-askeri"],
+  b:"Gümrü'nün alınışı — Doğu Cephesi Ermenistan içlerine ilerledi",
+  gun:"7 Kasım 1920",
+  yer:"Gümrü (Aleksandropol)", yer_id:"Gümrü (Aleksandropol)", kisiler:"Kâzım Karabekir Paşa",
+  d:"Kars'ın kurtarılmasından sonra harekâta devam eden Kâzım Karabekir Paşa'nın birlikleri 7 Kasım 1920'de Gümrü'yü aldı. Ateşkese razı olan Ermenilerle görüşmeler Gümrü'de yürütüldü ve savaş 3 Aralık 1920'de imzalanan Gümrü Antlaşması ile sona erdi.",
+  kaynak:"kazim-karabekir · kars",
+  ic_not_d:"KUTU-E-1014 (Emre 0039/H-0004 ikinci parti). TDV kazim-karabekir birebir: 'Harekâta devam ederek 7 Kasım'da Gümrü'yü ve 12 Kasım'da Iğdır'ı aldı.' ⚠️ Haritada Gümrü (Aleksandropol) 1917-11-07→1991 kesintisiz sovyet-rusya; 1918-1920 Ermenistan ve Kasım 1920 Türk işgali VERİDE YOK (ayrı VERI işi)." },
+
+{ t:"1920-11-12", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"],
+  b:"Iğdır'ın alınışı",
+  gun:"12 Kasım 1920",
+  yer:"Iğdır", yer_id:"Iğdır", kisiler:"Kâzım Karabekir Paşa",
+  d:"Doğu Cephesi Gümrü'yü aldıktan beş gün sonra, 12 Kasım 1920'de Iğdır'ı da aldı. Iğdır, 3 Aralık 1920 Gümrü Antlaşması ile Türkiye'ye bırakıldı.",
+  kaynak:"kazim-karabekir",
+  ic_not_d:"KUTU-E-1014. TDV kazim-karabekir birebir: '… 12 Kasım'da Iğdır'ı aldı.' ⚠️ Haritada Iğdır 1920-12-03'te (Gümrü Antlaşması) tbmm-turkiye'ye geçiyor; fiilî alınış 12 Kasım — s: sınırının 1920-11-12'ye çekilmesi ayrı VERI işi (yerlesimler_ek26.js)." },
+
 { t:"1921-02-09", k:"kayip", etiket:["savas","konu-askeri"],
   b:"Antep savunmasının sonu — şehir on ay direndikten sonra Fransızlara bırakıldı",
   gun:"7-9 Şubat 1921",
