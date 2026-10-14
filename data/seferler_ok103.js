@@ -180,26 +180,17 @@ window.SEFERLER_OK103 = [
       "Adaları civarında Ruslarla yeniden karşılaşıldı. ⚠️ Başlangıç günü " +
       "TDV'de yok; Rusların Mora'daki kuvvetlerini Haziran başında tahliye " +
       "ettiği akademik kayda dayanılarak ayın 1'i yazıldı (The Mariner's " +
-      "Mirror 103/3, 2017, Çeşme muharebesi çözümlemesi)." },
+      "Mirror 103/3, 2017, Çeşme muharebesi çözümlemesi)." }
 
-  { ad: "Rus donanmasının takibi ve Çeşme baskını (1770)", tur: "deniz",
-    sonuc: "zafer", taraf: "dusman", renk: "#1f5fa8",
-    f: "1770-06-01", t: "1770-07-07",
-    // 🔴 `rota` — SEFER-OK-0075/H-0033 (bkz. üstteki "Mora'dan Çeşme'ye çekilişi"
-    // kaydındaki aynı not — iki ok aynı denizde, aynı bacakta); kara üstü 46→0 km.
-    rota: [[22.8, 37.57], [23.145, 37.185], [23.47, 37.35], [24.42, 37.39], [24.94, 37.44],
-           [25.15, 37.08], [26.365, 37.845], [27.085, 37.845], [27.02, 37.75], [26.225, 38.095],
-           [25.865, 38.155], [25.775, 38.605], [26.165, 38.635], [26.42, 38.42], [26.3, 38.32]],
-    yol: [[22.80, 37.57], [23.47, 37.35], [24.42, 37.39], [24.94, 37.44],
-          [25.15, 37.08], [27.02, 37.75], [26.42, 38.42], [26.30, 38.32]],
-    kaynak: "TDV \"ÇEŞME VAK'ASI\" — \"1770 yılı başlarında Mora Rumları'nı " +
-      "ayaklandırmak için Rus Amirali Spiridov ve İngiliz Amirali Elphinston " +
-      "kumandasındaki Rus donanması İngilizler'in de desteğiyle Akdeniz'e " +
-      "açılmış\"; muharebe \"11 Rebîülevfel 1184 (5 Temmuz 1770) tarihinde " +
-      "Çeşme Limanı'nın kuzeyi ile Toprak adasının güneydoğusunda\" başladı; " +
-      "6 Temmuz'da Ruslar liman ağzını kapatıp ateş gemileri gönderdi ve " +
-      "yaklaşık otuz Osmanlı gemisi tutuştu; 7 Temmuz sabahı iş bitmişti. " +
-      "⚠️ BALTIK AYAĞI (Kronştad → Cebelitarık → Akdeniz) TDV'de YOK ve " +
-      "akademik taramada da bulunamadı — YAZILMADI, uydurulmadı." }
+  // 🔴 KUTU-D-1014 (paket 0082 H-0023, Emre: "Çeşme'ye gelen Rus donanmasının bu
+  // zikzak gezdiği yerler gerçek veriye mi dayanıyor?"). HAYIR — SİLİNDİ:
+  // "Rus donanmasının takibi ve Çeşme baskını (1770)" kaydının `rota`/`yol`u,
+  // yukarıdaki OSMANLI çekilişinin (TDV: "Terme, Şira ve Paros adaları yoluyla
+  // Sisam Boğazı'ndan") BİREBİR kopyası + Çeşme ucuydu. TDV `cesme-vakasi` Rus
+  // filosunun yalnız iki konumunu verir: Anabolu ağzı/Suluca (Hydra) önü ve
+  // Koyun adaları önü ("tekrar … karşılaştı") — adaları dolaştığına dair kaynak
+  // YOK. Rus filosunun Çeşme'ye gelişini zaten `savaslar.js` a4-rus-filosu-
+  // cesme-1770 (Baltık→Anabolu→Hydra→Koyun adaları→Çeşme, aynı t:1770-07-07)
+  // gösteriyor; aynı günlerde ikinci, kaynaksız güzergâhlı bir Rus oku kaldırıldı.
 
 ];

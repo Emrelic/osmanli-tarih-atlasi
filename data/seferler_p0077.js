@@ -159,6 +159,25 @@ window.SEFERLER_P0077 = [
   tarih_hassasiyet:"f / kademe 1 (Göyçay): GÜN — Göyçay muharebeleri 17-30 Haziran 1918 (Türkmen s. 32) · Ağsu: gün YOK (muharebe adıyla geçiyor) ⇒ kademe verilmedi, ok Şamahı'ya atlarken üzerinden geçer · kademe 3 (Şamahı): GÜN — 21 Temmuz 1918 (Türkmen s. 33) · kademe 4 / t (Bakü): GÜN — 15 Eylül 1918 (TDV azerbaycan; Türkmen)",
   kaynak:"azerbaycan (TDV): \"Nûri Paşa kumandasındaki Kafkasya İslâm Ordusu Ruslar'ın elindeki Bakü'yü ele geçirdi (15 Eylül 1918)\" · Türkmen 2018 (TDA 235), s. 32: \"Gence'den Bakü'ye uzanan yol üzerindeki Gökçay yakınlarında 17 Haziran tarihinden 30 Haziran 1918'e kadar süren muharebelerde\" · s. 33: \"önce ilk istikamet olarak Gökçay-Şamahı-Bakü karayolu, ikinci istikamet olarak Gence-Bakü demiryolu boyunca ilerlemeye devam etmiştir. Aksu'da cereyan eden muharebelerde\" · \"21 Temmuz 1918 tarihinde ordu birlikleri Şamahı'nın denetimini ele almış\"",
   kesinlik:"İSTASYON: Gence → Göyçay → Ağsu → Şamahı → Bakü — kaynağın 'ilk istikamet' dediği KARAYOLU ekseni. İkinci eksen (Gence-Bakü demiryolu, Kürdemir) ve Salyan kolu AYRI OK OLARAK YAZILMADI: istasyon günleri bu makalede verilmiyor. 23 Temmuz'da 'Bakü'nün 70 kilometre kadar yakınına' varış noktası adıyla verilmediği için kademe olmadı.",
-  yol:[[46.360,40.683],[47.741,40.649],[48.394,40.568],[48.641,40.632],[49.867,40.372]] }
+  yol:[[46.360,40.683],[47.741,40.649],[48.394,40.568],[48.641,40.632],[49.867,40.372]] },
+
+// ───────── H-0054 · MUSTAFA KEMAL'İN SAMSUN YOLCULUĞU (16-19 Mayıs 1919) ─────────
+// KUTU-D-1014 (Emre: "Mustafa Kemal'in Samsun yolculuğunu bir sefer oku ile gösterelim,
+// denizden geçen ve Samsun'a inen"). Ek okuma yüzü zaten var (ekokuma_p77b.js
+// p77b-mustafa-kemal-samsun-yolculugu-1919). f: TDV "İzmir'in işgal edildiğinin ertesi
+// günü" — İzmir'in işgali 15 Mayıs 1919 (olaylar_ek.js) ⇒ 16 Mayıs. t: "19 Mayıs 1919
+// sabahı Samsun'a ulaştı" (kronoloji: olaylar.js 1919-05-19 "Mustafa Kemal Samsun'da").
+// Vapurun ara uğrakları kaynakta YOK ⇒ yol yalnız İstanbul · Boğaz ağzı (coğrafî
+// zorunluluk) · Samsun. `rota` ARAC-SEFER-OK-DENIZ-ROTA-0075.py çıktısı (ne_10m_land,
+// kara 394 → 0 km): kıyı açığından çizim hattıdır, seyir iddiası DEĞİL.
+{ id:"p0077-mustafa-kemal-samsun-1919",
+  ad:"Mustafa Kemal'in Bandırma vapuruyla Samsun'a yolculuğu (1919)",
+  tur:"deniz", sonuc:"zafer", taraf:"osmanli", devlet:"osmanli",
+  f:"1919-05-16", t:"1919-05-19",
+  tarih_hassasiyet:"f: GÜN — TDV 'İzmir'in işgal edildiğinin ertesi günü' (İzmir 15 Mayıs 1919) · t: GÜN — '19 Mayıs 1919 sabahı Samsun'a ulaştı'",
+  kaynak:"mustafa-kemal-ataturk (TDV): \"İzmir'in işgal edildiğinin ertesi günü maiyetindeki on yedi subayla birlikte Bandırma vapuruyla İstanbul'dan hareket eden Mustafa Kemal 19 Mayıs 1919 sabahı Samsun'a ulaştı.\" · samsun (TDV): \"Mustafa Kemal Paşa'nın maiyetiyle 19 Mayıs 1919'da Millî Mücadele'yi başlatmak üzere Samsun'a çıkışı\"",
+  kesinlik:"İSTASYON yalnız iki uç (İstanbul, Samsun) + Boğaz ağzı (coğrafî zorunluluk). Ara uğraklar kaynakta yok; rota şematik kıyı açığı hattı.",
+  yol:[[28.980,41.008],[29.15,41.25],[36.331,41.286]],
+  rota:[[28.98,41.008],[29.15,41.25],[33.515,42.075],[35.075,42.135],[36.155,41.685],[36.331,41.286]] }
 
 ];

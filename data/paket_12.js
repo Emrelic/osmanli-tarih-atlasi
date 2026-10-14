@@ -15168,6 +15168,23 @@ window.SEFERLER = [
 { ad:"Irakeyn (Tebriz-Bağdat) seferi (1534-35)", tur:"sefer", sonuc:"zafer",    f:"1534-06-11", t:"1535-01-01",
   yol:[[28.98,41.01],[32.49,37.87],[35.48,38.73],[37.02,39.75],[41.27,39.90],[46.29,38.08],
        [48.52,34.80],[44.36,33.34]] },
+// KUTU-D-1014 (paket 0088 H-0007, Emre: "27 Temmuz 1548 — İkinci İran Seferi ve Tebriz'in
+// yeniden alınması · osmanlı sefer oku ile gösterim yapabiliriz"). İstasyonlar TDV
+// `suleyman-i` (Feridun Emecen): İstanbul (29 Mart 1548) · Konya · Sivas · Adilcevaz · Hoy ·
+// Tebriz (27 Temmuz) · Van (24 Ağustos). Konya ve Sivas günü kaynakta YOK (yalnız sıra) ⇒
+// kademeye girmedi. Üsküdar coğrafî zorunluluk (Mısır seferi kaydıyla aynı desen).
+// Adilcevaz atlas noktası DEĞİL — koordinat şematik (genel coğrafya, ilçe merkezi).
+// Kış (Diyarbekir 29 Eylül → Halep) ve 1549 dönüşü oka KONMADI: ok Van'da biter (t),
+// çünkü o bacakların kronoloji maddesi yok.
+// Kademe günleri kronoloji maddelerinin günüdür: olaylar_ek5.js 1548-07-27 (Tebriz) ·
+// 1548-08-24 (Van'ın fethi).
+{ id:"ikinci-iran-seferi-1548", ad:"İkinci İran (Elkas Mirza) seferi (1548)", tur:"sefer", sonuc:"zafer",
+  f:"1548-03-29", t:"1548-08-24",
+  kaynak:"suleyman-i (TDV): \"döndüğü İstanbul'dan 18 Safer 955'te (29 Mart 1548) hareket etti\" · \"Padişah Konya'ya vardığında oğlu Karaman beyi Şehzade Bayezid, Sivas'a ulaştığında da … Şehzade Mustafa onu karşıladı. Adilcevaz ve Hoy üzerinden Tebriz'e ulaştı (20 Cemâziyelâhir 955 / 27 Temmuz 1548)\" · \"Padişah 1 Ağustos'ta Tebriz'den ayrıldı. Van önlerine geldiğinde … Burası 24 Ağustos'ta ele geçirilip bir beylerbeyilik merkezi yapıldı.\"",
+  kesinlik:"istasyonlar ve sıra TDV; Konya/Sivas günü kaynakta yok; Üsküdar coğrafî zorunluluk; Adilcevaz koordinatı şematik",
+  yol:[[28.980,41.008],[29.015,41.023],[32.492,37.872],[37.015,39.750],[42.730,38.800],[44.952,38.550],
+       [46.292,38.080],[43.393,38.502]],
+  kademe:[["1548-03-29",1],["1548-07-27",6],["1548-08-24",7]] },
 // Donanma Ege'de ada ada ilerledi, Mora'yı dolanıp İyon'a girdi — kara üstünden geçmez.
 // Güzergâh düzeltmesi (Koordinatör, OTURUM-10 turu — ARAYÜZ ölçümü %18,9 kara):
 // eski nokta zinciri Girit/Kithira açığından değil doğrudan Mora'nın üstünden
@@ -15187,12 +15204,23 @@ window.SEFERLER = [
 // çıkarma noktasına yönlendirildi (deniz bacağı ~%3-6). Larnaka'dan sonraki
 // Lefkoşa/Mağusa bacağı KASTEN kara: çıkarma sonrası adanın içindeki kara
 // harekâtı, Otranto/Preveze'nin varış noktalarında olduğu gibi.
-{ ad:"Kıbrıs harekâtı (1570)", tur:"deniz", sonuc:"zafer",      f:"1570-05-01", t:"1571-09-01",
+// 🔴 KUTU-D-1014 (paket 0088 H-0023, Emre: "sefer oku Rodos'tan hareket ederek Kıbrıs'a
+// ulaşıyor, donanma Rodos'tan mı hareket etmiş teyit edelim"). HAYIR: TDV `piyale-pasa`
+// (İdris Bostan): filo "20 Zilkade 977'de (26 Nisan 1570) İstanbul'dan hareket etti".
+// ⇒ ok İSTANBUL'dan başlar, f 1570-05-01 (kaynaksız ay başı) → 1570-04-26.
+// İstanbul→Rodos bacağı, Rodos seferi (1522) — donanma kaydının ZATEN ölçülmüş deniz
+// `rota`sının birebir kopyasıdır (Çanakkale Boğazı orta hattı, kara üstü 2,1 km);
+// Rodos açığı bir GEÇİŞ noktasıdır, durak iddiası değil (TDV ara durak vermiyor).
+// Çıkarma TDV `kibris`: Limasol 2 Temmuz 1570, ardından Tuzla (Larnaka) üs.
+{ ad:"Kıbrıs harekâtı (1570)", tur:"deniz", sonuc:"zafer",      f:"1570-04-26", t:"1571-09-01",
+  kaynak:"piyale-pasa (TDV): \"Emrindeki doksan beş savaş ve nakliye gemisinden oluşan filo 20 Zilkade 977'de (26 Nisan 1570) İstanbul'dan hareket etti.\" · \"Donanma Kıbrıs'a ulaştığı sırada Piyâle Paşa askeriyle Tuzla'dan karaya çıkarak\" · kibris (TDV): \"28 Muharrem 978 (2 Temmuz 1570) tarihinde Limasol'u ele geçirdi ve ertesi gün Larnaka'ya yöneldi\"",
+  kesinlik:"çıkış İstanbul ve günü TDV; Ege-Rodos ara durakları kaynakta YOK (rota çizim hattıdır, iddia değil)",
   // 🔴 `rota` — SEFER-OK-0075/H-0033. Larnaka→Lefkoşa/Mağusa bacağı (33.63,34.92)→
   // (33.94,35.12) yukarıdaki nottaki gibi KASTEN KARA sayıldı, rotaya dokunulmadı;
   // kalan deniz bacağı yönlendirildi. Kara üstü 68→0 km.
-  rota:[[28.23,36.45],[28.3,35.9],[28.1,35.55],[29.5,35.2],[31,34.85],[32.5,34.75],[32.815,34.495],[33.145,34.585],[33.685,34.825],[33.63,34.92],[33.36,35.17],[33.94,35.12]],
-  yol:[[28.23,36.45],[28.3,35.9],[28.1,35.55],[29.5,35.2],[31.0,34.85],[32.5,34.75],[33.63,34.92],[33.36,35.17],[33.94,35.12]] },
+  rota:[[28.98,41.01],[28.749,40.911],[27.309,40.641],[26.664,40.416],[26.643,40.363],[26.609,40.324],[26.567,40.294],[26.521,40.27],[26.483,40.237],[26.436,40.214],[26.385,40.194],[26.377,40.126],[26.341,40.089],[26.299,40.061],[26.253,40.036],[26.193,40.028],[26.159,39.988],[26.059,39.518],[26.069,39.458],[26.369,39.388],[26.619,39.078],[26.619,38.948],[26.339,38.648],[26.219,38.268],[26.629,37.618],[27.319,36.898],[27.369,36.868],[27.349,36.678],[27.849,36.518],[28.226,36.443],
+        [28.3,35.9],[28.1,35.55],[29.5,35.2],[31,34.85],[32.5,34.75],[32.815,34.495],[33.145,34.585],[33.685,34.825],[33.63,34.92],[33.36,35.17],[33.94,35.12]],
+  yol:[[28.98,41.01],[26.664,40.416],[28.226,36.443],[28.3,35.9],[28.1,35.55],[29.5,35.2],[31.0,34.85],[32.5,34.75],[33.63,34.92],[33.36,35.17],[33.94,35.12]] },
 // hatalar 4.docx madde 3'ün ok ayağı — iki ok, biri her tarafın hamlesi
 // (Memlûk seferindeki kalıbın aynısı). Portekiz kolu "dusman" rengiyle çizilir.
 // Sebastian'ın donanması 24 Haziran 1578'de Lizbon'dan kalktı, Cebelitarık'ı
@@ -15579,8 +15607,25 @@ window.SEFERLER = [
 // Uçlar kronolojiden: Edirne Mütarekesi (1878-01-31, Edirne) → Ayastefanos
 // Antlaşması (1878-03-03, Ayastefanos/Yeşilköy). Aradaki yürüyüş güzergâhı
 // ayrıca belgelenmediği için iki nokta arası düz hat kullanıldı.
-{ ad:"Rus ordusunun Yeşilköy'e gelişi (1878)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
-  f:"1878-01-31", t:"1878-03-03", yol:[[26.56,41.68],[28.82,40.96]] },
+// 🔴 KUTU-D-1014 (paket 0076 H-0054, Emre: "Ayastefanos'a ilerleyen Rus ordusunun okunu
+// harekâta ilk başladığı noktadan itibaren gösterelim, Edirne'den kalkmış gibi görünüyor").
+// Ok TUNA GEÇİŞİNDEN başlar (Kişinev→Zimniça bacağı ayrı kayıt: rus-kisinev-zimnitsa-1877,
+// t:1877-06-27 — bu kayıt onun ucundan devam eder). İstasyonlar ESBE «Турецкие войны
+// России» (XXXIV, 122—159): Zimniça geçişi 15 Haziran J (=27 Haziran G) · Plevne ·
+// Gurko'nun batı kolu Plevne önünden Orhaniye üzerinden Sofya'ya · Filibe (3-5 Ocak J
+// 1878 = 15-17 Ocak G) · Edirne'ye giriş 8 Ocak J (=20 Ocak G) · başkomutan 12 Şubat J
+// (=24 Şubat G) San Stefano'ya geçti. KADEME günleri kronoloji maddelerinin günüdür:
+// 1877-06-27 (olaylar_ek10 Tuna'yı geçme) · 1877-12-10 (Plevne'nin düşüşü) · 1878-01-04
+// (Sofya'nın işgali) · 1878-01-31 (Edirne Mütarekesi) · 1878-03-03 (Ayastefanos).
+// Filibe ve Edirne girişinin (20 Ocak) kronoloji maddesi YOK ⇒ ok Filibe+Edirne'ye
+// 31 Ocak'ta birlikte uzanır. Orhaniye bacağı çizilmedi (Plevne→Sofya düz bacak).
+{ id:"rus-tuna-ayastefanos-1877-78", ad:"Rus ordusunun Tuna'dan Yeşilköy'e ilerleyişi (1877-78)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya", renk:"#276727",
+  f:"1877-06-27", t:"1878-03-03",
+  tarih_hassasiyet:"f: GÜN (Zimniça'da Tuna geçişi, 15 Haziran J) · t: GÜN (Ayastefanos Antlaşması, 19 Şubat J = 3 Mart G)",
+  kaynak:"ЭСБЕ, «Турецкие войны России» (XXXIV, 122—159): \"В ночь на 15 июня совершилась переправа части главных сил у Зимницы\" · \"Гурко, выступил по направлению к Орханиэ\" · \"Серьезное сопротивление оказали они войскам ген. Гурко лишь около Филиппополя, в окрестностях коего в течение 3, 4 и 5 января происходили упорные бои\" · \"Наконец 8 января 1878 г. передовые части нашего авангарда вступили в Адрианополь без всякого сопротивления\" · \"12 февраля великий князь с главной квартирой и 10000 войска перешел в Сан-Стефано, и здесь 19 февраля был подписан сан-стефанский прелиминарный мирный договор\"",
+  kesinlik:"istasyonlar ESBE; koordinatlar atlas noktaları (Ziştovi, Plevne, Sofya, Filibe, Edirne) + Zimniça ve Yeşilköy önceki kayıtların noktası; Orhaniye geçidi çizilmedi",
+  yol:[[25.366,43.654],[25.350,43.619],[24.617,43.417],[23.322,42.698],[24.750,42.144],[26.556,41.677],[28.82,40.96]],
+  kademe:[["1877-06-27",1],["1877-12-10",2],["1878-01-04",3],["1878-01-31",5],["1878-03-03",6]] },
 { ad:"Arnavutluk İsyanı (1910)", tur:"isyan", sonuc:"zafer", renk:"#6b2d8a",
   f:"1910-04-01", t:"1910-04-01", yol:[[21.12,42.63],[19.51,42.07]] },
 // Kronoloji (olaylar_ek5.js, t:"1373-05-15"): yer alanı "Bursa – İstanbul" —

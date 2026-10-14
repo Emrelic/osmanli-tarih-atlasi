@@ -53,7 +53,7 @@ window.EKOKUMA_PADISAH = [
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
 // ── H-0004 · Nurbânû-Safiye rekabeti ve 1595 kardeş katli — ÖZET+ZİNCİR ────
-{ id:"magazin-nurbanu-safiye-murad-iii", tur:"magazin",
+{ id:"magazin-nurbanu-safiye-murad-iii", tur:"aile-kunyesi",   // KUTU-D-1014 (0052/H-0048): anne · eş · çocuklar
   kisa:"Kayınvalide, gelinin nüfuzunu kırmak için oğluna sürekli cariye sundu; oğlunun tahta çıkan torunu ise sonunda on dokuz amcasını tek gecede boğdurttu.",
   metin:"III. Murad'ın annesi Nurbânû Sultan'ın, oğlunun ilk ve tek aşkı Safiye Sultan'ın nüfuzunu kırmak için ona sürekli cariye sunduğu, III. Murad'ın buna rağmen kırk dokuz çocuğa (TDV'nin verdiği belgeli, ölümündeki sağ çocuk sayısı — 'yüz civarı' gibi rivayetleri TDV açıkça MÜBALAĞALI bulur) sahip olduğu, ve bu kalabalık haremin 1595'te oğlu III. Mehmed'in on dokuz kardeşini tek gecede boğdurtmasına zemin hazırladığı — bu zincirin tamamı ayrı kartlarda zaten ayrıntılı işlenmiş durumda: kadın biyografileri için Nurbânû Sultan ve Safiye Sultan kartları, sebep-sonuç zinciri için on dokuz şehzadenin öldürülmesi kartı — ikincisi III. Mehmed'in 1603'te öz oğlu Şehzade Mahmud'u da öldürttüğünü bile içeriyor.",
   kesinlik:"kesin",

@@ -28,6 +28,11 @@ window.OLAYLAR_P0056 = [
   gun:"28 Ağustos 1739 (Jülyen 17 Ağustos)",
   yer:"Stavuçani, Hotin yakını — Boğdan",
   yer_id:"Hotin",
+  // KUTU-D-1014 (0064/H-0006, Emre: "Stavuçani nerede haritada görünmüyor"): odak ve
+  // işaret muharebe köyüne. Nokta savaslar.js rus-munih-hotin-yas-1739 yolunun ilk
+  // noktasıyla AYNI (Ставчани, Çernivtsi bölgesi 48.38861K 26.40639D — köy maddesi;
+  // Hotin'in ~14 km GB'si). yer_id Hotin kalır (teslim edilen kale). [enlem, boylam]
+  yer_kon:[48.389, 26.406],
   kisiler:"Mareşal Münnich (Minih), Serasker Veli Paşa",
   d:"1739 seferinde Rus ana ordusu Mareşal Münnich komutasında Lehistan toprağından geçerek Boğdan'a girdi ve Hotin yakınındaki Stavuçani'de Serasker Veli Paşa'nın ordusunu ağır bir yenilgiye uğrattı. Bu savaşın hemen ardından Hotin kalesi Ruslara teslim oldu ve Rus kuvvetleri Eylül başında Yaş'a girdi. Ancak Avusturya'nın ayrı barış yapması üzerine savaş, aynı ay imzalanan Belgrad Antlaşması ile sona erdi.",
   ic_not_gun:"ESBE-TV kendi içinde çelişik: bir bölümde '17 августа', başka bölümde '27' (Ağustos) diyor. 17 Ağustos Jülyen = 28 Ağustos Gregoryen alındı (PAKET-RUS SEFERLER rus-munih-hotin-yas-1739 f:1739-08-28 ile aynı gün, onun kaynağı ESBE «Ставчаны» — o madde bu oturumca OKUNMADI). Hotin'in teslim günü ve Yaş'a giriş (ESBE-TV '1 сентября' J = 12 Eylül G) ayrı madde yapılmadı.",

@@ -13,6 +13,8 @@
 // ── ŞEMA (ekokuma_magazin.js ile aynı; app.js ekKartHtml magazin dalı) ───────
 //   { id, tur:"magazin", kisi:[padişah id], t, olay:[...], soru, baslik,
 //     metin, not, kesinlik, kaynak, ic_not }
+//   KUTU-D-1014 (0052/H-0048): evlilik/haseki/çocuk kartları tur:"aile-kunyesi"
+//   (👪 Aile künyesi) — şema aynı, app.js ekKartHtml aynı daldan çizer.
 //   `t` bağlanan kronoloji maddesinin `t:`si ile birebir; `olay` listesi aynı
 //   günü taşıyorsa `t` listeye devreder (app.js ekKartBagliMi). Çok maddeli
 //   günlerde "gün|başlık parçası" ayırt edicisi kullanıldı.
@@ -97,7 +99,7 @@ window.EKOKUMA_IBRAHIM = [
   ic_not:"Falcı hikâyesi: Çeribaş 2022, dipnot 91 (Naîmâ, İpşirli neşri). Vecîhî ferman ve elbise hediyesi: TDV ibrahim--padisah (Vecîhî s. 79-80). Karşı görüş: Gündoğdu 2026 (BOA TS.MA.d. 7998, 10457, 551; sonuç: 'neither fully corroborates nor simply invalidates'). Bağ: 1647-01-01 üç madde taşır ⇒ '|Samur' ayırt edicisi. Bağlı kronoloji maddesi (olaylar_ek17) tur:'sebep-sonuc' ama kronoloji dosyasında; kart onu tekrar etmez, hikâyenin kişisel yüzünü anlatır." },
 
 // ---------- 1647 · Telli Haseki ----------
-{ id:"ibrahim-telli-haseki-nikahi", tur:"magazin", kisi:["ibrahim"],
+{ id:"ibrahim-telli-haseki-nikahi", tur:"aile-kunyesi", kisi:["ibrahim"],
   t:"1647-01-01", olay:["1647-01-01|Samur"],
   soru:"Telli Haseki için İstanbul'da gece neler oldu?",
   baslik:"Sekizinci haseki: nikâh, düğün ve gece açtırılan dükkânlar",
@@ -108,7 +110,7 @@ window.EKOKUMA_IBRAHIM = [
   ic_not:"Nikâh ve düğün: TDV ibrahim--padisah ('sekizinci hasekisini (Telli Haseki, Hümâşah Sultan) nikâhına almış'); ad 'Şah Sultan (Telli Haseki)': TDV haseki. Gece açtırılan hanlar: TDV ibrahim--padisah. Halıcızâde'nin hapsi: Çeribaş 2022 (#619). NİKÂH GÜNÜ okunan akademik kaynaklarda YOK; Vikipedi 'Aralık 1647' diyor, İstanbul Ansiklopedisi (R. E. Koçu) maddesi kaynak göstermiyor ⇒ ikisi de dayanak sayılmadı, gün yazılmadı. Kendi kronoloji maddesi yok; samur maddesine bağlandı (döşeme samur kürkle)." },
 
 // ---------- hasekiler ve paşmaklık ----------
-{ id:"ibrahim-hasekiler-pasmaklik-eyaletler", tur:"magazin", kisi:["ibrahim"],
+{ id:"ibrahim-hasekiler-pasmaklik-eyaletler", tur:"aile-kunyesi", kisi:["ibrahim"],
   t:"1648-05-01", olay:["1648-05-01|Varvar"],
   soru:"Padişah eyaletleri hasekilerine mi dağıttı?",
   baslik:"Yedi haseki, yüz bin kuruşluk haslar ve 'paşmaklık' eyaletler",
@@ -141,7 +143,7 @@ window.EKOKUMA_IBRAHIM = [
   ic_not:"YIL SORUNU: TDV ibrahim--padisah gövdesi baskını '1641 Temmuzunda' diye yazar, ama cümle Czernin heyetinin 1644 sonbaharı raporları bağlamında geçer ve Girit hazırlığını tetikleyen olay olarak anlatılır ⇒ gövde kendi içinde tutarsız görünüyor (CLAUDE.md §4 tuzak ⑥); başka akademik kaynakla sınanmadı ⇒ baskının yılı okura YAZILMADI. Donanmanın çıkışı 4 Rebîülevvel 1055 = 30 Nisan 1645; Navarin'den hareket 21 Haziran (TDV). Bağlı madde 1645-04-01 AY hassasiyetli ('Nisan 1645')." },
 
 // ---------- 1646 · çocuk gelinler ve damat vezirler ----------
-{ id:"ibrahim-cocuk-yastaki-kizlar-damat-vezirler", tur:"magazin", kisi:["ibrahim"],
+{ id:"ibrahim-cocuk-yastaki-kizlar-damat-vezirler", tur:"aile-kunyesi", kisi:["ibrahim"],
   t:"1645-08-22", olay:["1645-08-22|Hanya'nın fethi"],
   soru:"İbrahim küçük kızlarını kimlerle evlendirdi?",
   baslik:"Dört yaşında gelin, iki yaşında eş: padişahın damat vezirleri",

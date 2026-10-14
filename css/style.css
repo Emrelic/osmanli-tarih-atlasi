@@ -2757,6 +2757,41 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
   .odak-parlama { animation: none; opacity: 0.95; }
 }
 
+/* 🆕 KUTU-D-1014 — İTTİFAK ROZETİ (0023/H-0003). Emre: "fosforlu yeşil, parlak
+   turuncu gibi vurgulu bir renk … bir seferlik". Kalkan biçimli rozet + ✠,
+   `ittifakParla` ile N kez parlar (süre/adet app.js ITTIFAK_SAHNE'den CSS
+   değişkeniyle gelir — sayı tek yerde), sonra `.sonuyor` ile söner. */
+.ittifak-rozet {
+  display: flex; flex-direction: column; align-items: center;
+  pointer-events: auto; cursor: default;
+  animation: ittifakParla var(--ittifak-sure, 900ms) ease-in-out var(--ittifak-adet, 3);
+  transition: opacity 0.6s ease;
+}
+.ittifak-rozet-glif {
+  display: flex; align-items: center; justify-content: center;
+  width: 30px; height: 34px;
+  clip-path: polygon(50% 100%, 0 68%, 0 0, 100% 0, 100% 68%);
+  background: #ff7a00; color: #fffbe6;
+  font-size: 19px; font-weight: 700; line-height: 1;
+  box-shadow: 0 0 0 2px #ffd400 inset;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.55);
+}
+.ittifak-rozet.hami .ittifak-rozet-glif { background: #c9a227; }
+.ittifak-rozet-ad {
+  margin-top: 2px; padding: 0 4px; border-radius: 3px;
+  background: rgba(255, 122, 0, 0.92); color: #fff;
+  font-size: 11px; font-weight: 600; white-space: nowrap;
+}
+.ittifak-rozet.sonuyor { opacity: 0; }
+@keyframes ittifakParla {
+  0%   { transform: scale(0.85); filter: drop-shadow(0 0 0 rgba(255, 122, 0, 0)); }
+  45%  { transform: scale(1.25); filter: drop-shadow(0 0 10px rgba(255, 140, 0, 0.95)); }
+  100% { transform: scale(1);    filter: drop-shadow(0 0 2px rgba(255, 122, 0, 0.5)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ittifak-rozet { animation: none; }
+}
+
 /* 🔴 21 Ağustos — Emre: "devletsiz şehirlerin isimlerini de … yazalım."
    `.bosluk-kutu`, `.sehir`in flex desenini BİREBİR izliyor (nokta solda,
    ad sağında) — haritadaki her yerleşim etiketi tek bir görsel dilde

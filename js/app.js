@@ -3256,6 +3256,26 @@ harita.on("load", function () {
     if (!kayitlar.length) return;
     var boslukPopup = new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: "300px", className: "bosluk-popup" });
     var kacBenek = 0, kacSoru = 0, kacHalka = 0;
+    // 🔴 KUTU-D-1014 (0052/H-0114) — ZAMAN BOYUTU EKLENDİ. Emre 1672'de
+    // Pavlodar/Barnaul/Semipalatinsk'e tıkladı: "devletsiz şehir idaresi" —
+    // oysa nokta 1635'ten beri `cungar`ın (yeşil), beyan "1635 öncesi" içindi.
+    // `p` (arac/uret_bosluk.py): kaydın hiçbir sahiplik dönemiyle örtülmediği
+    // [f, t) aralıkları. `p` yoksa kayıt eskisi gibi her tarihte çizilir.
+    var _zamanli = [];   // { el, araliklar:[[fi, ti]] }
+    function _pencereKaydet(el, k) {
+      if (!k.p || !k.p.length || typeof gunIdx !== "function") return;
+      _zamanli.push({ el: el, araliklar: k.p.map(function (a) {
+        return [a[0] ? gunIdx(a[0]) : -Infinity, a[1] ? gunIdx(a[1]) : Infinity];
+      }) });
+    }
+    window.boslukGunDegisti = function (gun) {
+      for (var i = 0; i < _zamanli.length; i++) {
+        var z = _zamanli[i], ac = false;
+        for (var j = 0; j < z.araliklar.length; j++)
+          if (gun >= z.araliklar[j][0] && gun < z.araliklar[j][1]) { ac = true; break; }
+        z.el.style.display = ac ? "" : "none";
+      }
+    };
     kayitlar.forEach(function (k) {
       var c = cinsler[k.cins];
       var gosterim = c && c.gosterim;
@@ -3293,6 +3313,7 @@ harita.on("load", function () {
         // haritadaki bütün yerleşim etiketleri tek bir hizalama dilinde.
         new maplibregl.Marker({ element: kutu, anchor: "left", offset: [-5, 0] })
           .setLngLat([k.lon, k.lat]).addTo(harita);
+        _pencereKaydet(kutu, k);
         // 🔴 ETIKET-0073 — HALKA ADI ÇAKIŞMA ELEMESİNE GİRSİN DİYE KAYDEDİLİYOR.
         // Emre'nin H-0010 görselinde Riyad'ın üstüne binen yazı bir BAŞKA ŞEHİR
         // değil, AYNI ŞEHRİN İKİNCİ ETİKETİYDİ: düz "Dir'iye (Necid)" (`.sehir`)
@@ -3324,6 +3345,7 @@ harita.on("load", function () {
         boslukPopup.setLngLat([k.lon, k.lat]).setHTML(govde).addTo(harita);
       });
       new maplibregl.Marker({ element: el, anchor: "center" }).setLngLat([k.lon, k.lat]).addTo(harita);
+      _pencereKaydet(el, k);
       // 🔴 SAYAÇ DÜZELTİLDİ — eskiden `else kacSoru++` hem "soru" hem
       // "halka"yı TEK kovaya topluyordu (halka o zaman ayrı bir dala
       // düşmüyordu), günlük "N soru (veri-yok)" derken aslında iki ayrı
@@ -3331,7 +3353,9 @@ harita.on("load", function () {
       if (gosterim === "benek") kacBenek++; else kacSoru++;
     });
     console.log("Atlas: boşluğun cinsi — " + kacBenek + " benek (kabile) · "
-                + kacSoru + " soru (veri-yok) · " + kacHalka + " halka (devletsiz yerleşim, adlı) çizildi.");
+                + kacSoru + " soru (veri-yok) · " + kacHalka + " halka (devletsiz yerleşim, adlı) çizildi · "
+                + _zamanli.length + " zaman pencereli.");
+    try { if (typeof suanki === "number") window.boslukGunDegisti(suanki); } catch (e) { }
   })();
 
   koridorKur();
@@ -10625,6 +10649,8 @@ function guncelle() {
   // YER-ARAMA-KUTUSU-1006: açık "yer ara" listesi yeni güne göre tazelenir
   // (önbellek gün anahtarlı — kapalıyken maliyet bir `if`).
   if (window.yerAraGunDegisti) window.yerAraGunDegisti();
+  // KUTU-D-1014 (0052/H-0114): boşluk halkası/beneği yalnız kendi zaman penceresinde.
+  if (window.boslukGunDegisti) { try { window.boslukGunDegisti(suanki); } catch (eB) { } }
   if (!_kirpmaKilitli) {
     agirOlc("sehirGuncelle", function () { sehirGuncelle(suanki); });
     agirOlc("savasGuncelle", function () { savasGuncelle(suanki); });
@@ -11123,7 +11149,12 @@ var KARTVIZIT_ROZET = { padisah: "☾", sadrazam: "🕌", "vezir-pasa": "🕌",
 var AKORDEON_EK_TUR = {
   "kv-kunye":   { etiket: "👤 Künye" },
   "kv-nasil":   { etiket: "🗣️ Nasıl bilirdiniz" },   // övgü · yergi · tartışma · tarihçiler
-  "kv-magazin": { etiket: "🎭 Magazin" },            // kartvizit: eşleri · çocukları · skandal
+  // KUTU-D-1014 (0052/H-0048, Emre: "annesi babası ailesi çocukları evlilikleri …
+  // magazinden ziyade künyesi veya ailesi … aile künyesi ismi altında verebiliriz").
+  // Kartvizitin eşleri · çocukları satırı "Aile künyesi"ne taşındı; "Magazin"de
+  // yalnız skandal kalır.
+  "kv-aile":    { etiket: "👪 Aile künyesi" },       // kartvizit: eşleri · çocukları
+  "kv-magazin": { etiket: "🎭 Magazin" },            // kartvizit: skandal
   "kisi":       { etiket: "👤 Kişi" }                // madde kişileri (o.kisiler → KISILER)
 };
 var KV_SEKME_TANIM = [
@@ -11185,11 +11216,16 @@ function kartvizitSatirlari(o) {
   if (KV_SEKME_TANIM[1].doluMu(k)) {
     var mSatir = [];
     if (k.esler && k.esler.length) mSatir.push("Eşleri: " + k.esler.join(", "));
-    if (k.cocuk) mSatir.push("Çocukları: " + [k.cocuk.oglan ? k.cocuk.oglan + " oğlan" : "",
-      k.cocuk.kiz ? k.cocuk.kiz + " kız" : ""].filter(Boolean).join(", "));
-    var mh = '<div class="kv-magazin"><h4>' + ekEsc(ad) + "</h4>" + ekEsc(mSatir.join("  ·  "));
-    if (k.skandal) mh += '<div class="kv-skandal">' + ekEsc(k.skandal) + "</div>";
-    sat.push(_kvSatir("kv-magazin", ad, mh + "</div>"));
+    if (k.cocuk && (k.cocuk.oglan || k.cocuk.kiz))
+      mSatir.push("Çocukları: " + [k.cocuk.oglan ? k.cocuk.oglan + " oğlan" : "",
+        k.cocuk.kiz ? k.cocuk.kiz + " kız" : ""].filter(Boolean).join(", "));
+    // KUTU-D-1014: aile (eş · çocuk) ayrı satır "👪 Aile künyesi"; skandal "🎭 Magazin".
+    if (mSatir.length)
+      sat.push(_kvSatir("kv-aile", ad, '<div class="kv-magazin kv-aile"><h4>' + ekEsc(ad) + "</h4>" +
+        ekEsc(mSatir.join("  ·  ")) + "</div>"));
+    if (k.skandal)
+      sat.push(_kvSatir("kv-magazin", ad, '<div class="kv-magazin"><h4>' + ekEsc(ad) + "</h4>" +
+        '<div class="kv-skandal">' + ekEsc(k.skandal) + "</div></div>"));
   }
   return sat;
 }
@@ -12500,7 +12536,7 @@ function ekKartBagliMi(kart, o) {
   var liste = (window.EKOBAG_ONERI || {})[kart.id] || kart.olay || kart.baglanti || [];
   for (var i = 0; i < liste.length; i++) if (_ekBagEslesir(liste[i], o)) return true;
   // `tur` alanı olmayan kaynaklar (ANTLASMALAR) da güne bağlanır.
-  if (kart.tur === "magazin" || !kart.tur) {
+  if (kart.tur === "magazin" || kart.tur === "aile-kunyesi" || !kart.tur) {
     if (!_ekBagEslesir(kart.t, o)) return false;
     for (var j = 0; j < liste.length; j++) if (_ekBagGun(liste[j]) === o.t) return false;
     return true;
@@ -12509,6 +12545,11 @@ function ekKartBagliMi(kart, o) {
 }
 var EKOKUMA_TUR = {
   "sebep-sonuc": { etiket: "🔗 Sebep-Sonuç", kaynak: function () { return _ekHavuz(); } },
+  // KUTU-D-1014 (0052/H-0048): padişahın anne/baba/eş/çocuk/evlilik kartları magazin
+  // değil "Aile künyesi". Şema magazinle AYNI (baslik · metin · not · t/olay); çizim
+  // ekKartHtml'in magazin dalından geçer. 🔴 Bu satır, kart `tur`u değişmeden önce ya da
+  // aynı commit'te inmeli (D099 — tanımsız tür sessizce kaybolur).
+  "aile-kunyesi": { etiket: "👪 Aile künyesi", kaynak: function () { return _ekHavuz(); } },
   "magazin":     { etiket: "🎭 Magazin",     kaynak: function () { return _ekHavuz(); } },
   "merak":       { etiket: "❓ Merak",        kaynak: function () { return _merakHavuz(); } },
   // 🔴🔴 24 Ağustos 2026 — 0034/H-0010: *"TÜM ANLAŞMA içeren maddelerin
@@ -12668,9 +12709,11 @@ function ekOkumaButonlariGuncelle(o) {
 function _akordeonTurSirasi() {
   var sira = ["kv-kunye", "kv-nasil", "kisi"];
   Object.keys(EKOKUMA_TUR).forEach(function (tur) {
+    if (tur === "aile-kunyesi") sira.push("kv-aile");
     if (tur === "magazin") sira.push("kv-magazin");
     sira.push(tur);
   });
+  if (sira.indexOf("kv-aile") < 0) sira.push("kv-aile");
   if (sira.indexOf("kv-magazin") < 0) sira.push("kv-magazin");
   return sira;
 }
@@ -12961,8 +13004,8 @@ function ekKartHtml(k) {
         return '<span class="ek-zincir-link" data-id="' + ekEsc(id) + '">' + ekEsc(id) + "</span>";
       }).join(" ") + "</p>";
     }
-  } else if (k.tur === "magazin") {
-    h += "<h4>" + ekEsc(k.baslik) + "</h4>";
+  } else if (k.tur === "magazin" || k.tur === "aile-kunyesi") {
+    h += "<h4>" + ekEsc(k.baslik || k.kisa) + "</h4>";
     if (k.metin) h += _maddeliMetniHtmle(k.metin);
     if (k.not) h += '<p class="ek-alt">' + ekEsc(k.not) + "</p>";
   } else if (k.tur === "merak") {
@@ -13856,12 +13899,116 @@ function maddeOdakKutusu(o) {
   }
   return null;
 }
+// ═══════════════════════════════════════════════════════════════════════════
+// 🆕 KUTU-D-1014 — İTTİFAK ROZETİ + İP (paket 0023 H-0003 · 0027 H-0006)
+// Emre: *"kutsal ittifaka katılan devletlere bir rozet dağıtarak bunu haritada
+// göster … fosforlu yeşil, parlak turuncu gibi vurgulu bir renk … bir seferlik
+// gösterirsin sonra harita normale döner … ittifak maddelerinde bu animasyonu üye
+// devletler açısından tekrarlarsın."*
+// VERİ: data/ittifaklar.js (window.ITTIFAKLAR — kaynaklı üyelik, paket_15'te
+// yükleniyordu, tüketicisi YOKTU). Tetik: ittifakın `madde` alanı (t + başlık
+// öneki) — tarih tek başına tetiklemez (yıl düzeyli maddeler çakışırdı).
+// O maddenin GÜNÜNDE üye olan (f ≤ gün ≤ t) devletlere rozet konur; rozetler
+// parlak turuncu bir iple bağlanır, 3 kez parlar, ~5 sn sonra söner ve harita
+// normale döner. Konum: devletin o günkü EN BÜYÜK gövdesinin etiket noktası
+// (`etiketAdaylari` — haritanın kendi etiket hesabı; başkent dizgisi
+// AYRIŞTIRILMAZ, VERI-YAPISI `bk:` kuralı ③). Gövdesi o gün haritada olmayan üye
+// rozet almaz (konsola yazılır — konum uydurulmaz). Pasif kipte oynamaz
+// (çağrı `ucusAcik` kapısının ARKASINDA). Sıra: uçuş biter → el değiştirme
+// sahnesi biter → rozet (M-4714 §3: faz sırasında başka şey yanıp sönmez).
+var ITTIFAK_SAHNE = { parlamaMs: 900, parlamaAdet: 3, bekleMs: 2200, renk: "#ff7a00" };
+var _ittifakEl = [], _ittifakZaman = [];
+function ittifakTemizle() {
+  _ittifakZaman.forEach(clearTimeout); _ittifakZaman = [];
+  _ittifakEl.forEach(function (m) { try { m.remove(); } catch (e) { } }); _ittifakEl = [];
+  try { if (harita.getLayer("ittifak-ip")) harita.removeLayer("ittifak-ip"); } catch (e) { }
+  try { if (harita.getSource("ittifak-ip")) harita.removeSource("ittifak-ip"); } catch (e) { }
+}
+function _ittifakBul(o) {
+  var L = window.ITTIFAKLAR || [];
+  for (var i = 0; i < L.length; i++) {
+    var m = L[i].madde;
+    if (m && m.t === o.t && o.b && m.b && o.b.indexOf(m.b.slice(0, 15)) === 0) return L[i];
+  }
+  return null;
+}
+function _ittifakNoktasi(kunyeId) {
+  // KÜNYE kimliği ≠ HARİTA kimliği (`habsburg` → `harita:"avusturya"`) — `d.harita || d.id`.
+  var id = kunyeId, D = window.DEVLETLER || [];
+  for (var k = 0; k < D.length; k++) if (D[k].id === kunyeId) { id = D[k].harita || D[k].id; break; }
+  for (var i = 0; i < etiketAdaylari.length; i++)        // alan sırasıyla dizili: ilk = en büyük
+    if (etiketAdaylari[i].id === id && etiketAdaylari[i].c) return etiketAdaylari[i].c;
+  return null;
+}
+var _ittifakSonMadde = null;                         // geç gelen geri çağrı yeni maddeyi bozmasın
+function ittifakSahnesiPlanla(o) {
+  ittifakTemizle();
+  _ittifakSonMadde = o;
+  var itt = _ittifakBul(o);
+  if (!itt) return;
+  // Kamera çağrısı bu fonksiyondan SONRA (aynı çağrı zincirinde) atılıyor; kısa
+  // gecikme `isMoving()`in uçuşu görmesi için.
+  _ittifakZaman.push(setTimeout(function () {
+    if (_ittifakSonMadde !== o) return;
+    _ucusBitince(function () { _sahneBitince(function () { if (_ittifakSonMadde === o) ittifakCiz(itt, o); }); });
+  }, 60));
+}
+function ittifakCiz(itt, o) {
+  ittifakTemizle();
+  var noktalar = [], eksik = [];
+  (itt.uyeler || []).forEach(function (u) {
+    if (u.f && u.f > o.t) return;                       // henüz katılmadı
+    if (u.t && u.t < o.t) return;                       // ayrıldı
+    var c = _ittifakNoktasi(u.devlet);
+    if (!c) { eksik.push(u.devlet); return; }
+    noktalar.push({ c: c, u: u });
+  });
+  if (eksik.length) console.debug("[ittifak] " + itt.id + " · o gün haritada gövdesi olmayan üye rozet almadı: " + eksik.join(", "));
+  if (!noktalar.length) return;
+  noktalar.forEach(function (n) {
+    // Kap (Marker'ın transform'u) ile animasyonlu iç eleman AYRI: MapLibre konumu
+    // kabın `transform`una yazar, animasyon onu ezmesin.
+    var kap = document.createElement("div");
+    kap.className = "ittifak-rozet-kap";
+    var el = document.createElement("div");
+    el.className = "ittifak-rozet" + (n.u.rol === "hami" ? " hami" : "");
+    el.innerHTML = '<span class="ittifak-rozet-glif">✠</span><span class="ittifak-rozet-ad"></span>';
+    el.querySelector(".ittifak-rozet-ad").textContent = devletAdi(n.u.devlet);
+    el.title = itt.ad + " — " + devletAdi(n.u.devlet) + (n.u.rol === "hami" ? " (hami)" : "");
+    el.style.setProperty("--ittifak-sure", ITTIFAK_SAHNE.parlamaMs + "ms");
+    el.style.setProperty("--ittifak-adet", ITTIFAK_SAHNE.parlamaAdet);
+    kap.appendChild(el);
+    _ittifakEl.push(new maplibregl.Marker({ element: kap, anchor: "center" }).setLngLat(n.c).addTo(harita));
+  });
+  if (noktalar.length > 1) {
+    // İp: üyeleri boylam sırasıyla bağlayan tek kesikli hat (kesişen ağ değil).
+    var sirali = noktalar.map(function (n) { return n.c; }).sort(function (a, b) { return a[0] - b[0]; });
+    try {
+      harita.addSource("ittifak-ip", { type: "geojson", data: { type: "Feature", properties: {},
+        geometry: { type: "LineString", coordinates: sirali } } });
+      harita.addLayer({ id: "ittifak-ip", type: "line", source: "ittifak-ip",
+        paint: { "line-color": ITTIFAK_SAHNE.renk, "line-width": 3, "line-dasharray": [2, 1.5],
+                 "line-opacity": 0.95, "line-opacity-transition": { duration: 600 } } });
+    } catch (e) { console.warn("[ittifak] ip çizilemedi", e); }
+  }
+  var toplam = ITTIFAK_SAHNE.parlamaMs * ITTIFAK_SAHNE.parlamaAdet + ITTIFAK_SAHNE.bekleMs;
+  _ittifakZaman.push(setTimeout(function () {
+    _ittifakEl.forEach(function (m) {
+      var r = m.getElement().querySelector(".ittifak-rozet");
+      if (r) r.classList.add("sonuyor");
+    });
+    try { harita.setPaintProperty("ittifak-ip", "line-opacity", 0); } catch (e) { }
+  }, toplam));
+  _ittifakZaman.push(setTimeout(ittifakTemizle, toplam + 700));
+}
+
 function haritayiOlayaGotur(o, zorla) {
   // 🔴 `pasif` kip HER YOLU kapatır — `zorla` DÂHİL. Gerekçesi Emre'nin
   // tanımı: *"harita o şekilde kalacaktır."* (Ayrıntı: index.html.)
   // ⚠️ `zorla` bayrağı artık yalnız belge değeri taşıyor; kaldırılmadı
   // çünkü çağıranların niyetini ("bu bir ELLE tıklama") anlatıyor ve
   // ileride pasif dışında bir ayrım gerekirse yeri hazır.
+  try { if (ucusAcik()) ittifakSahnesiPlanla(o); else ittifakTemizle(); } catch (eIt) { console.error("[ittifak]", eIt); }
   if (!ucusAcik()) {
     // 🔴 KALDIRILDI (DALGA-0066 H-0013, ISGAL-TARAMA, 18 Eylül 2026): bu
     // hatirlatma HER TEK maddede tekrar basiliyordu — kullanici Pasif kipi
@@ -14004,8 +14151,17 @@ function haritayiOlayaGotur(o, zorla) {
       // 🔴 24 Ağustos — Emre'nin hükmü uygulandı (0031 SESSİZ ADIM → "panel").
       // Kırpma ATEŞLERSE harita zaten konuşuyor; ATEŞLEMEZSE bu adım
       // tamamen sessiz kalırdı ve Emre onu "pas geçildi" diye okuyordu.
-      var _kirptiIG = false;
-      try { _kirptiIG = maddeKirp(o); } catch (eKirp) { }
+      // 🔴 KUTU-D-1014 (0088/H-0049, Emre: "önce harita odağı oraya getirilmeli ondan
+      // sonra … toprak yanıp sönmeli"). Bu dal yukarıda `flyTo` başlatıp kırpmayı AYNI
+      // ANDA ateşliyordu: kırpma (`kameraKilitle` + dört `tarihAyarla`) uçuşun
+      // ORTASINDA oynuyordu. Kırpma artık uçuş bitince (`_ucusBitince`) koşar; panel
+      // sinyali kırpma ateşlemezse yine verilir.
+      var _kirptiIG = true;
+      _ucusBitince(function () {
+        var _k = false;
+        try { _k = maddeKirp(o); } catch (eKirp) { }
+        if (!_k) panelSinyali();
+      });
       // 🆕 KRONO-YER-0072 · DALGA-0074 — `odak_yer` dalının notu AYRI yazılır.
       // Sebebi ayrımın kendisi: "bölgeye odaklanıldı" (odak_kimlik) o günün
       // SAHİPLİK verisinden türer; `odak_yer` ise bizim GÖSTERİM tercihimizdir
@@ -14059,7 +14215,8 @@ function haritayiOlayaGotur(o, zorla) {
                            { padding: 40, duration: 1200, essential: ucusAcik() });
         }
       }
-      _varista();
+      // KUTU-D-1014 (0088/H-0049): varış = uçuşun BİTİŞİ, çağrı anı değil.
+      _ucusBitince(_varista);
       return;
     }
   }
@@ -14891,6 +15048,25 @@ function maddeyeDarKirp(o) {
   return "dar";
 }
 // Üç çağrı yerinin ortak kapısı: dar mümkünse dar, değilse eski tam gün kırpması.
+// KUTU-D-1014 (0088/H-0049) — "önce odak, sonra yanıp sönme" kapısı. Harita o an
+// uçuyorsa fn `moveend`te (TEK KEZ) koşar, uçmuyorsa hemen. Emniyet: olay hiç
+// gelmezse (gizli sekme, rAF donmuş) 4 sn sonra yine koşar — ana uçuş dalındaki
+// `_varisBirKez` deseninin aynısı.
+function _ucusBitince(fn) {
+  var oldu = false, zt = null;
+  function bir() {
+    if (oldu) return;
+    oldu = true;
+    if (zt) clearTimeout(zt);
+    try { harita.off("moveend", bir); } catch (e) { }
+    fn();
+  }
+  var uc = false;
+  try { uc = harita.isMoving(); } catch (e) { uc = false; }
+  if (!uc) { bir(); return; }
+  harita.once("moveend", bir);
+  zt = setTimeout(bir, 4000);
+}
 function maddeKirp(o) {
   var k = maddeyeDarKirp(o);
   if (k === "dar") return true;
