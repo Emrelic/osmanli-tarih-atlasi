@@ -18,268 +18,260 @@ sira	ad	FromYear_ham	ToYear_ham	bas_astro	son_astro	donem	kita	modern_ulke	en_bu
 16	Minaeans	-383	-26	-382	-25	MÖ	Asya	Suudi Arabistan	214510.021	328	70359286.825	0	Q1177379		Minaeans	
 17	Lohara Dynasty	1003	1259	1003	1259	1000–1280	Asya	Afganistan	226659.357	257	58251454.820	0	Q1315339	in_lohara_dyn	Lohara dynasty	
 18	Wu	-750	-451	-749	-450	MÖ	Asya	Çin Halk Cumhuriyeti	193279.702	300	57983910.516	0	Q274488	cn_wu_confederacy	Wu (state)	
-19	Turks	666	756	666	756	1–999	Asya	Kırgızistan	967663.074	59	57092121.367	0	Q2118293		Turk	ad~turges(0.73)
-20	Sabaeans	-800	282	-799	282	MÖ	Asya	Yemen	63947.671	880	56273950.820	0	Q940785	ye_sabaean_commonwealth	Sabaeans	
-21	Twenty-sixth Dynasty of Egypt	-615	-501	-614	-500	MÖ	Afrika	Mısır	464286.932	115	53392997.164	0	Q662410		Twenty-sixth Dynasty of Egypt	ad~sait-26-hanedan(0.75)
-22	Jin	-750	-405	-749	-404	MÖ	Asya	Çin Halk Cumhuriyeti	152647.267	346	52815954.377	0	Q6201794	cn_jin_spring_and_autumn	Jin (Chinese state)	ad~qi-devleti(0.75)
-23	Nobatia	347	655	347	655	1–999	Afrika	Sudan	147534.114	309	45588041.132	0	Q568523		Nobatia	ad~bati-roma(0.73)
-24	Vandals	337	438	337	438	1–999	Avrupa	İspanya	420481.898	102	42889153.603	0	Q42211		Vandals	ad~vandal(0.92)
-25	Saxons	283	799	283	799	1–999	Avrupa	Almanya	82798.012	512	42392581.964	0	Q101985		Saxons	
-26	Phrygia	-900	-676	-899	-675	MÖ	Asya	Türkiye	188102.332	225	42323024.594	0	Q32579	tr_phrygian_k	Phrygia	
-27	Ganzhou Kingdom	860	1039	860	1039	1–999	Asya	Çin Halk Cumhuriyeti	233037.256	180	41946706.123	0	Q1000124	cn_ganzhou_k	Ganzhou Uyghur Kingdom	
-28	Kadamba Empire	353	554	353	554	1–999	Asya	Hindistan	202263.450	202	40857216.822	0	Q1479952	in_kadamba_emp	Kadamba Empire	
-29	Kalabhra Dynasty	353	601	353	601	1–999	Asya	Hindistan	137945.453	249	34348417.834	0	Q2572901	in_kalabhra_dyn	Kalabhra dynasty	
-30	Nabataeans	-164	105	-163	105	MÖ	Asya	Ürdün	126170.785	263	33182916.530	0	Q220594	jo_nabataean_k	Nabataeans	ad~nabatiye(0.71)
-31	Thirtieth Dynasty of Egypt	-383	-338	-382	-337	MÖ	Afrika	Mısır	687438.398	46	31622166.298	0	Q386303		Thirtieth Dynasty of Egypt	
-32	Yue	-500	-334	-499	-333	MÖ	Asya	Çin Halk Cumhuriyeti	188596.926	167	31495686.614	0	Q1936158	cn_yue_dyn	Yue (state)	
-33	Maukhari Dynasty	555	611	555	611	1–999	Asya	Hindistan	533392.729	57	30403385.549	0	Q12448145	in_maukhari_dyn	Maukhari dynasty	ad~nube(0.71)
-34	Bavarians	540	787	540	787	1–999	Avrupa	Almanya	122313.404	248	30333724.230	0	Q13048507		Bavarians	
-35	Mycenaean Greece	-1500	-1101	-1499	-1100	MÖ	?	(deniz/bulunamadı)	71057.159	400	28422863.514	0	Q181264		Mycenaean Greece	ad~miken(0.73)
-36	Former Yan	337	370	337	370	1–999	Asya	Çin Halk Cumhuriyeti	772045.284	34	26249539.651	0	Q1472004		Former Yan	
-37	Norse	161	499	161	499	1–999	Avrupa	Norveç	71171.216	339	24127042.301	0	Q909583		Norse	
-38	Kingdom of Cappadocia	-239	22	-238	22	MÖ	Asya	Türkiye	91738.426	251	23026344.958	0	Q29654286	tr_cappadocia_2	Kingdom of Cappadocia	ad~kapadokya-krallik(0.78)
-39	Kannauj-Varman Dynasty	732	771	732	771	1–999	Asya	Hindistan	573391.176	40	22935647.023	0	Q614890	in_kannauj_varman_dyn	Kannauj	ad~kamarupa(1.00)
-40	Lu	-750	-248	-749	-247	MÖ	Asya	Çin Halk Cumhuriyeti	43570.735	503	21916079.485	0	Q555994		Lu (state)	
-41	Mahan	-91	346	-90	346	MÖ	Asya	Güney Kore	49731.378	437	21732612.280	0	Q421372		Mahan	
-42	Goths	30	206	30	206	1–999	Avrupa	İsveç	117739.391	177	20839872.159	0	Q42193		Goths	
-43	Caucasian Iberia	-63	533	-62	533	MÖ	Asya	Gürcistan	35867.973	569	20408876.690	0	Q19083		Kingdom of Iberia	ad~eftalit(0.73)
-44	Burgundians	154	409	154	409	1–999	Avrupa	Polonya	100278.866	196	19654657.694	0	Q13590051		Burgundians	
-45	Early Pandyas	-291	305	-290	305	MÖ	Asya	Hindistan	32556.366	596	19403593.921	0	Q3532152	in_pandya_emp_1	Early Pandyas	
-46	Tarumanagara	367	673	367	673	1–999	Asya	Endonezya	62498.713	307	19187104.976	0	Q2247225		Tarumanagara	
-47	Cheng Han	306	346	306	346	1–999	Asya	Çin Halk Cumhuriyeti	451934.554	41	18529316.724	0	Q1069905		Cheng-Han	
-48	Greek Dark Ages	-1100	-801	-1099	-800	MÖ	Avrupa	Yunanistan	60722.013	300	18216603.909	0	Q210443		Greek Dark Ages	
-49	Lazica	-63	545	-62	545	MÖ	Asya	Gürcistan	28524.879	608	17343126.599	0	Q136884		Lazica	ad~nazca(0.73)
-50	Later Qin	387	416	387	416	1–999	Asya	Çin Halk Cumhuriyeti	573288.280	30	17198648.394	0	Q1730130	cn_later_qin_dyn	Later Qin	
-51	Early Cholas	-291	305	-290	305	MÖ	Asya	Hindistan	28856.215	596	17198303.910	0	Q3532146	in_cholas_1	Early Cholas	
-52	Twenty-second Dynasty of Egypt	-800	-701	-799	-700	MÖ	Afrika	Mısır	166127.902	100	16612790.156	0	Q737629	eg_thebes_libyan	Twenty-second Dynasty of Egypt	ad~olmek(0.73)
-53	Former Liang	324	377	324	377	1–999	Asya	Çin Halk Cumhuriyeti	305896.219	54	16518395.852	0	Q943392	cn_eastern_jin_dyn	Former Liang	
-54	Song	-750	-285	-749	-284	MÖ	Asya	Çin Halk Cumhuriyeti	34727.528	466	16183028.012	0	Q7462		Song (state)	
-55	Kingdom of Croatia	926	1098	926	1098	1–999	Avrupa	Bosna-Hersek	92789.233	173	16052537.303	0	Q858841	hr_croatia_k	Kingdom of Croatia (925–1102)	
-56	County of Blôis	990	1401	990	1401	1–999	Avrupa	Fransa	38821.416	412	15994423.572	0	Q19336869	fr_capetian_k_1;fr_capetian_k_2;fr_valois_k_1	County of Blois	ad~burgonya(0.73)
-57	Yaudheya Republic	306	377	306	377	1–999	Asya	Hindistan	220728.665	72	15892463.911	0	Q8050331	in_yaudheya_rep	Yaudheya	
-58	Kalinga	-318	-171	-317	-170	MÖ	Asya	Hindistan	129276.489	117	15125349.217	0	Q356524		Kalinga	
-59	Early Cheras	-291	305	-290	305	MÖ	Asya	Hindistan	25180.577	596	15007623.886	0	Q877155	in_cheras_1	Chera dynasty	
-60	Lower Egypt	-2200	-2001	-2199	-2000	MÖ	Afrika	Mısır	74523.892	200	14904778.417	0	Q463871	eg_old_k_2;eg_regions	First Intermediate Period of Egypt;Old Kingdom of Egypt	
-61	Dongye	-91	391	-90	391	MÖ	Asya	Güney Kore	29067.912	482	14010733.386	0	Q105946539		Dongye	
-62	Gutian Dynasty	-2100	-2001	-2099	-2000	MÖ	Asya	Irak	131488.491	100	13148849.054	0	Q1064034		Gutian rule in Mesopotamia	
-63	Kingdom of Osroene	-63	214	-62	214	MÖ	Asya	Türkiye	50344.345	260	13089529.785	0	Q237234		Osroene	
-64	Classic Veracruz Culture	555	1235	555	1235	1–999	K.Amerika	Meksika	18503.863	681	12601130.459	0	Q2379418		Classic Veracruz culture	ad~cola(0.75)
-65	Thracian Kingdom	-87	50	-86	50	MÖ	Avrupa	Bulgaristan	90345.113	137	12377280.444	0	Q104815700		Thracian kingdom	
-66	Chandra Dynasty	900	1055	900	1055	1–999	Asya	Myanmar	77249.534	156	12050927.363	0	Q5032034	bd_chandra_dyn	Chandra dynasty	ad~candela(0.71)
-67	Korean Jin	-197	-92	-196	-91	MÖ	Asya	Güney Kore	112813.627	106	11958244.427	0	Q1155101		Jin (Korean state)	
-68	Later Yan	387	409	387	409	1–999	Asya	Çin Halk Cumhuriyeti	502851.209	23	11565577.801	0	Q1534482	cn_later_yan_dyn	Later Yan	
-69	Principality of Serbia	768	961	768	961	1–999	Avrupa	Bosna-Hersek	61327.916	184	11284336.556	0	Q1311990		Principality of Serbia	
-70	Later Zhao	337	352	337	352	1–999	Asya	Çin Halk Cumhuriyeti	662078.489	16	10593255.825	0	Q2314907		Later Zhao	
-71	Western Qin	387	438	387	438	1–999	Asya	Çin Halk Cumhuriyeti	229139.341	44	10082130.990	0	Q1668970		Western Qin	
-72	Mahameghavahana Dynasty	-170	-165	-169	-164	MÖ	Asya	Hindistan	1655395.317	6	9932371.899	0	Q6733051		Mahameghavahana dynasty	
-73	Cyrenaica	-331	-92	-330	-91	MÖ	Afrika	Libya	116347.920	84	9773225.310	0	Q165198		Cyrenaica	
-74	Lower Burgundy	860	925	860	925	1–999	Avrupa	Fransa	209031.933	45	9406437.006	0	Q33242		Lower Burgundy	
-75	Palmyrene Empire	261	269	261	269	1–999	Asya	Ürdün	1043311.778	9	9389806.002	0	Q877875		Palmyrene Empire	ad~palmira(0.75)
-76	Byeonhan	-91	566	-90	566	MÖ	Asya	Güney Kore	13603.437	657	8937458.140	0	Q1378584		Byeonhan confederacy	
-77	Great Yuan	-110	50	-109	50	MÖ	Asya	Tacikistan	51348.213	160	8215714.136	0	Q7313		Yuan dynasty	ad~dian(0.89)
-78	Zhai	-208	-204	-207	-203	MÖ	Asya	Çin Halk Cumhuriyeti	1628170.781	5	8140853.906	0	Q7183		Qin dynasty	ad~nanyue(0.75)
-79	Duchy of Gascony	768	1065	768	1065	1–999	Avrupa	Fransa	56472.251	133	7510809.351	0	Q2295939	fr_capetian_k_1	Duchy of Gascony	
-80	Xionites	387	401	387	401	1–999	Asya	Tacikistan	488435.960	15	7326539.399	0	Q26264		Xionites	
-81	Dabuyid Dynasty	644	756	644	756	1–999	Asya	İran	64825.012	113	7325226.361	0	Q2816439		Dabuyid dynasty	
-82	Anglo-Saxon England	441	533	441	533	1–999	Avrupa	Birleşik Krallık	77091.009	93	7169463.868	0	Q784963	gb_anglo_saxon_1	History of Anglo-Saxon England	ad~sussex-kralligi(0.73)
-83	Âu Lạc	-256	-207	-255	-206	MÖ	Asya	Vietnam	140775.963	50	7038798.157	0	Q867227		Âu Lạc	
-84	Xia	410	438	410	438	1–999	Asya	Çin Halk Cumhuriyeti	229893.548	29	6666912.891	0	Q7427		Xia	
-85	Jaemtland	947	1187	947	1187	1–999	Avrupa	İsveç	25918.528	241	6246365.292	0	Q211661		Jämtland	
-86	Twenty-third Dynasty of Egypt	-800	-701	-799	-700	MÖ	Afrika	Mısır	61633.322	100	6163332.250	0	Q748170	eg_thebes_libyan	Twenty-third Dynasty of Egypt	ad~olmek(0.73)
-87	County of Nevers	1010	1520	1010	1520	1000–1280	Avrupa	Fransa	14776.234	417	6161689.690	0	Q2070440	fr_capetian_k_1;fr_capetian_k_2;fr_valois_k_1;fr_valois_k_2	County of Nevers	
-88	Dong-okjeo	-36	153	-35	153	MÖ	Asya	Kuzey Kore	32148.771	189	6076117.731	0	Q713393		Okjeo	ad~dogu-han(0.75)
-89	Duchy of Thuringia	567	723	567	723	1–999	Avrupa	Almanya	40556.905	149	6042978.912	0	Q5311389		Duchy of Thuringia	ad~turges(0.71)
-90	Breton Kingdoms	587	824	587	824	1–999	Avrupa	Fransa	24439.585	238	5816621.189	0	Q309197		Bretons	
-91	Principality of Peremyshl	1056	1146	1056	1146	1000–1280	Avrupa	Ukrayna	62423.922	91	5680576.939	0	Q4350658		Principality of Peremyshl	ad~pereyaslavl-knezligi(0.70)
-92	Kingdom of Adiabene	-63	370	-62	370	MÖ	Asya	Suriye	13757.915	396	5448134.171	0	Q149747		Adiabene	
-93	Principality of Halych	1147	1201	1147	1201	1000–1280	Avrupa	Ukrayna	106341.649	51	5423424.076	0	Q3403551		Principality of Halych	ad~kudus-kralligi(0.73)
-94	Northern Liang	397	440	397	440	1–999	Asya	Çin Halk Cumhuriyeti	119670.190	44	5265488.355	0	Q1539360		Northern Liang	
-95	Kingdom of Lower Burgundy	900	935	900	935	1–999	Avrupa	İtalya	243469.917	21	5112868.255	0	Q33242	fr_carolingian_emp_2	Lower Burgundy	ad~arles-kralligi(0.75)
-96	Frisia Kingdom	612	717	612	717	1–999	Avrupa	Almanya	63720.453	79	5033915.766	0	Q4492881		Frisia	
-97	Duchy of Spoleto	577	898	577	898	1–999	Avrupa	İtalya	119644.567	42	5025071.810	0	Q2829270		Duchy of Spoleto	
-98	Judea	-144	5	-143	5	MÖ	Asya	Filistin	32758.388	149	4880999.884	0	Q104028	il_judea	Judea	
-99	Ankhwennefer	-197	-171	-196	-170	MÖ	Afrika	Mısır	176123.511	27	4755334.797	0	Q489289		Ankhwennefer (pharaoh)	
-100	Later Liang	387	406	387	406	1–999	Asya	Çin Halk Cumhuriyeti	237230.585	20	4744611.701	0	Q2314869		Later Liang (Sixteen Kingdoms)	
-101	Kingdom of Brittany	825	921	825	921	1–999	Avrupa	Fransa	47424.965	97	4600221.560	0	Q771193		Kingdom of Brittany	ad~birinci-bulgar(0.71)
-102	Kingdom of the Iberians	814	999	814	999	1–999	Asya	Türkiye	24614.739	186	4578341.471	0	Q154816		Kingdom of the Iberians	ad~kuzey-han-10krallik(0.71)
-103	Khadga Dynasty	656	704	656	704	1–999	Asya	Bangladeş	90426.598	49	4430903.317	0	Q6398879	bd_khadga_dyn	Khadga Dynasty	
-104	Kingdom of Gordyene	-63	259	-62	259	MÖ	Asya	Türkiye	14297.219	309	4417840.608	0	Q29237		Corduene	
-105	Duchy of Styria	1260	1501	1260	1501	1000–1280	Avrupa	Avusturya	16888.363	242	4086983.935	0	Q580447	de_empire_3	Duchy of Styria	ad~ispanya(0.71)
-106	Carantania	661	749	661	749	1–999	Avrupa	Avusturya	45562.153	89	4055031.594	0	Q501754		Carantania	
-107	County of Vermandois	990	1215	990	1215	1–999	Avrupa	Fransa	19509.560	207	4038478.872	0	Q26385	fr_capetian_k_1;fr_capetian_k_2	Vermandois	ad~dauphine-viennois(0.71)
-108	Zheng	-750	-367	-749	-366	MÖ	Asya	Çin Halk Cumhuriyeti	10403.001	384	3994752.326	0	Q197598		Zheng (state)	
-109	Upper Egypt	-2200	-2001	-2199	-2000	MÖ	Afrika	Mısır	19656.839	200	3931367.847	0	Q203751	eg_old_k_2;eg_regions	First Intermediate Period of Egypt;Old Kingdom of Egypt	ad~caral-norte-chico(0.75)
-110	Magna Frisia	602	771	602	771	1–999	Avrupa	Hollanda	21798.544	170	3705752.419	0	Q87791		Frisian Kingdom	
-111	Principality of Turov and Pinsk	1188	1240	1188	1240	1000–1280	Avrupa	Beyaz Rusya	69423.047	53	3679421.470	0	Q671362		Principality of Turov	
-112	Principality of Terebovlia	1085	1146	1085	1146	1000–1280	Avrupa	Ukrayna	57392.131	62	3558312.105	0	Q680530		Principality of Terebovlia	
-113	Paphlagonia	-279	-127	-278	-126	MÖ	Asya	Türkiye	22923.154	153	3507242.496	0	Q622032		Paphlagonia	
-114	Seventeenth Dynasty of Egypt	-1600	-1501	-1599	-1500	MÖ	Afrika	Mısır	34736.889	100	3473688.862	0	Q642301	eg_thebes_hyksos	Seventeenth Dynasty of Egypt	
-115	Fifteenth Dynasty of Egypt	-1600	-1501	-1599	-1500	MÖ	Afrika	Mısır	34495.903	100	3449590.275	0	Q728479	eg_thebes_hyksos	Fifteenth Dynasty of Egypt	
-116	Giudicato of Cagliari	866	1187	866	1187	1–999	Avrupa	İtalya	10263.197	322	3304749.401	0	Q2297073		Judicate of Cagliari	ad~filipin-racaliklari(0.74)
-117	Kingdom of Lazica	638	777	638	777	1–999	Asya	Gürcistan	23545.322	140	3296345.029	0	Q136884		Lazica	
-118	Kingdom of Janggala	1046	1138	1046	1138	1000–1280	Asya	Endonezya	34429.057	93	3201902.332	0	Q13093931		Janggala	ad~candela(0.71)
-119	Giudicato of Logudoro	866	1259	866	1259	1–999	Avrupa	İtalya	8246.993	388	3199833.435	0	Q1761381		Judicate of Logudoro	
-120	Upper Burgundy	887	959	887	959	1–999	Avrupa	İsviçre	45841.610	69	3163071.084	0	Q33235	fr_carolingian_emp_2	Upper Burgundy	ad~arles-kralligi(0.75)
-121	Colchis	-301	-231	-300	-230	MÖ	Asya	Gürcistan	44264.960	71	3142812.141	0	Q183150		Colchis	
-122	Duchy of Croatia	741	925	741	925	1–999	Avrupa	Hırvatistan	21529.966	141	3035725.235	0	Q2576305	hr_croatia_k	Duchy of Croatia	ad~maya-klasik(0.73)
-123	Cyprus Condominium	692	959	692	959	1–999	Asya	Kıbrıs Cumhuriyeti	11437.483	259	2962308.090	0	Q229		Cyprus	
-124	Riograndense Republic	1836	1845	1836	1845	1281–1923	G.Amerika	Brezilya	287824.850	10	2878248.499	0	Q162192		Riograndense Republic	
-125	Principality of Drutsk	1111	1249	1111	1249	1000–1280	Avrupa	Beyaz Rusya	19977.595	139	2776885.689	0	Q2596884		Principality of Drutsk	
-126	Kingdom of Brycheiniog	540	1084	540	1084	1–999	Avrupa	Birleşik Krallık	4957.778	535	2652411.371	0	Q954585	gb_brythonic_k	Brycheiniog	
-127	Principality of Jersika	1111	1215	1111	1215	1000–1280	Avrupa	Letonya	23422.422	105	2459354.312	0	Q1687929		Principality of Jersika	ad~kanal-adalari(0.77)
-128	Sixteenth Dynasty of Egypt	-1600	-1501	-1599	-1500	MÖ	Afrika	Mısır	24559.119	100	2455911.895	0	Q737695	eg_thebes_hyksos	Sixteenth Dynasty of Egypt	
-129	Obotrites	793	946	793	946	1–999	Avrupa	Almanya	15438.490	154	2377527.486	0	Q156108		Obotrites	
-130	Kingdom of Thuringia	476	533	476	533	1–999	Avrupa	Almanya	40556.905	58	2352300.516	0	Q268562		Basina of Thuringia	
-131	County of Berga	898	1235	898	1235	1–999	Avrupa	İspanya	9010.246	253	2279592.226	0	Q15487		Berga	ad~karolenj-italya(0.77)
-132	Grand Principality of Serbia	1094	1168	1094	1168	1000–1280	Avrupa	Karadağ	28937.602	75	2170320.153	0	Q1311990	rs_serbia_k	Grand Principality of Serbia	ad~begteginli(0.73)
-133	Xu	-750	-285	-749	-284	MÖ	Asya	Çin Halk Cumhuriyeti	4636.941	466	2160814.642	0	Q2650109		Xu (state)	
-134	County of Rouergue	990	1065	990	1065	1–999	Avrupa	Fransa	27862.094	76	2117519.137	0	Q590016	fr_capetian_k_1	Rouergue	
-135	Emirate of Nekor	750	1027	750	1027	1–999	Afrika	Fas	7367.804	278	2048249.474	0	Q1709337		Emirate of Nekor	ad~angkor-kmer(0.73)
-136	Northern Yan	410	438	410	438	1–999	Asya	Çin Halk Cumhuriyeti	64015.781	29	1856457.637	0	Q2006864		Northern Yan	
-137	Later Western Liang	561	586	561	586	1–999	Asya	Çin Halk Cumhuriyeti	70044.626	26	1821160.267	0	Q4186404		Western Liang (555–587)	
-138	Ziyarid dynasty	936	979	936	979	1–999	Asya	İran	41017.481	44	1804769.183	0	Q207044		Ziyarid dynasty	ad~ziyari(0.89)
-139	Fihrids	750	756	750	756	1–999	Afrika	Tunus	251323.126	7	1759261.882	0	Q5448100		Fihrids	
-140	Achaean League	-279	-145	-278	-144	MÖ	Avrupa	Yunanistan	11818.938	135	1595556.665	0	Q244796		Achaean League	
-141	Giudicato of Gallura	866	1209	866	1209	1–999	Avrupa	İtalya	4598.012	344	1581716.242	0	Q2723760		Judicate of Gallura	ad~gwynedd(0.73)
-142	New Hebrides	1890	1982	1890	1982	1281–1923	Okyanusya	Vanuatu	16885.240	93	1570327.311	0	Q752431		New Hebrides	
-143	Dumnonia	602	709	602	709	1–999	Avrupa	Birleşik Krallık	14348.731	108	1549662.967	0	Q313136	gb_brythonic_k	Dumnonia	
-144	Illyrian Kingdom	-256	-226	-255	-225	MÖ	Avrupa	Arnavutluk	49700.708	31	1540721.947	0	Q16084290		Illyrian kingdom	
-145	Chen	-750	-451	-749	-450	MÖ	Asya	Çin Halk Cumhuriyeti	5047.040	300	1514112.117	0	Q1069690		Chen (state)	
-146	Kingdom of Seisyllwg	878	959	878	959	1–999	Avrupa	Birleşik Krallık	18353.176	82	1504960.455	0	Q2456191	gb_brythonic_k	Seisyllwg	
-147	Tamna	263	1278	263	1278	1–999	Asya	Güney Kore	1959.320	762	1493001.586	0	Q28057		Tamna	
-148	Kingdom of Morgannwg	540	1055	540	1055	1–999	Avrupa	Birleşik Krallık	2887.717	516	1490061.909	0	Q13131807	gb_brythonic_k	Kingdom of Morgannwg	
-149	Qi Kingdom	911	925	911	925	1–999	Asya	Çin Halk Cumhuriyeti	94436.278	15	1416544.167	0	Q1319681	cn_five_dyn	Qi (Li Maozhen's state)	
-150	Janapada of Aśmaka	-600	-351	-599	-350	MÖ	Asya	Hindistan	5466.955	250	1366738.733	0	Q1194906	in_mahajanapada	Asmaka	ad~kush-krallik(0.71)
-151	County of Rosellón	896	1176	896	1176	1–999	Avrupa	Fransa	4675.785	281	1313895.519	0	Q13522657		Roussillon	ad~barselona-kontlugu(0.75)
-152	Teng	-750	-451	-749	-450	MÖ	Asya	Çin Halk Cumhuriyeti	4323.470	300	1297040.889	0	Q1356151		Teng (state)	
-153	Cuzco	1294	1439	1294	1439	1281–1923	G.Amerika	Peru	8783.282	146	1282359.141	0	Q5582862	pe_cuzco_6	Cusco	
-154	Phoenician Colonies	-700	-616	-699	-615	MÖ	Avrupa	İtalya	14877.857	85	1264617.824	0	Q1094394	lb_phoenician_emp	Colonies in antiquity	
-155	Southern Yan	402	409	402	409	1–999	Asya	Çin Halk Cumhuriyeti	152855.331	8	1222842.645	0	Q1329439		Southern Yan	
-156	Cao	-750	-451	-749	-450	MÖ	Asya	Çin Halk Cumhuriyeti	4012.052	300	1203615.551	0	Q204077		Cao (state)	
-157	County of Tripoli	1111	1293	1111	1293	1000–1280	Asya	Lübnan	6236.099	183	1141206.098	0	Q272033		County of Tripoli	ad~kalacuri-tripuri(0.71)
-158	Aetolian League	-284	-189	-283	-188	MÖ	Avrupa	Yunanistan	11781.437	96	1131017.915	0	Q245273		Aetolian League	
-159	Cai	-750	-451	-749	-450	MÖ	Asya	Çin Halk Cumhuriyeti	3682.794	300	1104838.061	0	Q1025803		Cai (state)	
-160	Minoan civilization	-1600	-1401	-1599	-1400	MÖ	Avrupa	Yunanistan	5498.973	200	1099794.631	0	Q134178	gr_crete_new_palace	Minoan civilization	ad~minos(0.73)
-161	Cornwall	710	946	710	946	1–999	Avrupa	Birleşik Krallık	4538.457	237	1075614.216	0	Q23148	gb_brythonic_k	Cornwall	
-162	County of Poitou	1206	1249	1206	1249	1000–1280	Avrupa	Fransa	23634.219	44	1039905.646	0	Q2991374	fr_capetian_k_2	County of Poitou	
-163	Janapada of Kuru	-600	-405	-599	-404	MÖ	Asya	Hindistan	5231.696	196	1025412.508	0	Q1068408	in_mahajanapada	Kuru Kingdom	ad~kush-krallik(0.71)
-164	Janapada of Matsya	-600	-405	-599	-404	MÖ	Asya	Hindistan	5219.660	196	1023053.289	0	Q2665398	in_mahajanapada	Matsya (tribe)	ad~massalia(0.77)
-165	Janapada of Surasena	-600	-405	-599	-404	MÖ	Asya	Hindistan	5198.609	196	1018927.379	0	Q1330149	in_mahajanapada	Surasena	ad~kush-krallik(0.71)
-166	Duchy of Głogów	1250	1313	1250	1313	1000–1280	Avrupa	Polonya	15752.273	64	1008145.503	0	Q684501	pl_piast_dyn_2	Duchy of Głogów	
-167	Janapada of Avanti	-600	-405	-599	-404	MÖ	Asya	Hindistan	5103.958	196	1000375.794	0	Q4827705	in_mahajanapada	Avanti (region)	ad~kush-krallik(0.71)
-168	Kingdom of Syrmia	1285	1325	1285	1325	1281–1923	Avrupa	Sırbistan	24036.051	41	985478.073	0	Q1309492		Syrmia	sirbistan(oy 63) | macaristan(oy 9) | ad~ava(0.71)
-169	Janapada of Pañcāla	-600	-405	-599	-404	MÖ	Asya	Hindistan	4959.468	196	972055.795	0	Q558603	in_mahajanapada	Pañcāla	ad~kush-krallik(0.71)
-170	Rus'	880	881	880	881	1–999	Avrupa	Rusya	485847.474	2	971694.949	0	Q1108445		Rus	
-171	Principality of Turov	1294	1325	1294	1325	1281–1923	Avrupa	Beyaz Rusya	29466.991	32	942943.703	0	Q671362		Principality of Turov	
-172	Gauda Kingdom	602	611	602	611	1–999	Asya	Bangladeş	90553.520	10	905535.202	0	Q17076645	in_gauda_k	Gauda Kingdom	
-173	Janapada of Malla	-600	-451	-599	-450	MÖ	Asya	Hindistan	5485.716	150	822857.353	0	Q1376303	in_mahajanapada	Malla (tribe)	ad~massalia(0.73)
-174	Western Yan	387	393	387	393	1–999	Asya	Çin Halk Cumhuriyeti	116089.939	7	812629.570	0	Q1149230		Western Yan	
-175	Zhongshan	-366	-292	-365	-291	MÖ	Asya	Çin Halk Cumhuriyeti	10739.333	75	805449.997	0	Q59223		Zhongshan	
-176	Trưng sisters	43	50	43	50	1–999	Asya	Vietnam	99740.548	8	797924.381	0	Q1207428		Trưng sisters	
-177	Janapada of Kāśī	-600	-451	-599	-450	MÖ	Asya	Hindistan	5039.935	150	755990.232	0	Q12660335	in_mahajanapada	Kāśī (kingdom)	ad~kush-krallik(0.71)
-178	Sulayhid Dynasty	1056	1065	1056	1065	1000–1280	Asya	Yemen	75389.699	10	753896.995	0	Q2364248		Sulayhid dynasty	ad~suleyhi(0.77)
-179	Janapada of Kosala	-600	-451	-599	-450	MÖ	Asya	Hindistan	4989.650	150	748447.534	0	Q756854	in_mahajanapada	Kosala	ad~kush-krallik(0.71)
-180	Jibei	-208	-204	-207	-203	MÖ	Asya	Çin Halk Cumhuriyeti	145994.905	5	729974.524	0	Q5349053		Eighteen Kingdoms	
-181	Kingdom of Gwent	540	1055	540	1055	1–999	Avrupa	Birleşik Krallık	1442.704	503	725680.260	0	Q2594661	gb_brythonic_k	Kingdom of Gwent	
-182	Emirate of Crete	830	960	830	960	1–999	Avrupa	Yunanistan	5498.973	131	720365.483	0	Q603771	gr_crete_emirate	Emirate of Crete	
-183	Vanuatu	1983	2024	1983	2024	1924+	Okyanusya	Vanuatu	16885.240	42	709180.076	0	Q686		Vanuatu	
-184	Balasagan	638	646	638	646	1–999	Asya	Azerbaycan	74448.795	9	670039.152	0	Q3633213		Balasagan	
-185	Janapada of Cedī	-600	-451	-599	-450	MÖ	Asya	Hindistan	4395.842	150	659376.318	0	Q124207979	in_mahajanapada	Cedī (tribe)	ad~kush-krallik(0.71)
-186	Kingdom of Rheged	592	646	592	646	1–999	Avrupa	Birleşik Krallık	11953.243	55	657428.343	0	Q633573	gb_brythonic_k	Rheged	
-187	Linjiang	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	216392.866	3	649178.597	0	Q5349053		Eighteen Kingdoms	
-188	Janapada of Vajji	-600	-481	-599	-480	MÖ	Asya	Nepal	5163.498	120	619619.762	0	Q605199	in_mahajanapada	Vajjika League	ad~kush-krallik(0.71)
-189	Rhodes	-188	-165	-187	-164	MÖ	Asya	Türkiye	25801.441	24	619234.576	0	Q43048		Rhodes	
-190	Sultanate of Mempawah	1619	1827	1619	1827	1281–1923	Asya	Endonezya	2936.870	209	613805.792	0	Q19746028		Mempawah Kingdom	
-191	Laomedon	-323	-319	-322	-318	MÖ	Asya	Suriye	122342.579	5	611712.893	0	Q977461	gr_macedonian_emp	Laomedon of Mytilene	
-192	Kingdom of Bernicia	555	633	555	633	1–999	Avrupa	Birleşik Krallık	10528.814	58	610671.208	0	Q623751	gb_anglo_saxon_1	Bernicia	ad~mercia(0.71)
-193	Janapada of Vatsa	-600	-451	-599	-450	MÖ	Asya	Hindistan	4014.804	150	602220.615	0	Q1331184	in_mahajanapada	Vatsa	ad~kush-krallik(0.71)
-194	Perdiccas	-323	-319	-322	-318	MÖ	Asya	Irak	117037.078	5	585185.392	0	Q202113	gr_macedonian_emp	Perdiccas	
-195	Janapada of Anga	-600	-501	-599	-500	MÖ	Asya	Hindistan	5577.981	100	557798.083	0	Q1155818	in_mahajanapada	Anga	ad~chu-devleti(0.75)
-196	Former Jin	922	925	922	925	1–999	Asya	Çin Halk Cumhuriyeti	135052.876	4	540211.505	0	Q6201794	cn_five_dyn	Jin (Later Tang precursor)	
-197	Southern Liang	397	413	397	413	1–999	Asya	Çin Halk Cumhuriyeti	31085.388	17	528451.594	0	Q1069868		Liang dynasty	
-198	Janapada of Kamboja	-600	-501	-599	-500	MÖ	Asya	Pakistan	5086.774	100	508677.352	0	Q2586782	in_mahajanapada	Kambojas	ad~kush-krallik(0.71)
-199	Rugiland	455	489	455	489	1–999	Avrupa	Avusturya	14525.997	35	508409.886	0	Q872644		Rugiland	
-200	County of Pallars Sobirà	1040	1201	1040	1201	1000–1280	Avrupa	İspanya	3110.534	162	503906.489	0	Q12719		Pallars Sobirà	ad~pala(0.80)
-201	Janapada of Gandhāra	-600	-501	-599	-500	MÖ	Asya	Hindistan	4987.758	100	498775.770	0	Q112980583	in_mahajanapada	Gandhāra (kingdom)	ad~kush-krallik(0.71)
-202	County of Besalú	898	989	898	989	1–999	Avrupa	İspanya	6360.507	78	496119.511	0	Q1541642		County of Besalú	
-203	Namayan	1202	1571	1202	1571	1000–1280	Asya	Filipinler	1127.720	370	417256.521	0	Q4401026		Namayan	ad~nama-orlam(1.00)
-204	Duchy of Wrocław	1169	1201	1169	1201	1000–1280	Avrupa	Polonya	12554.534	33	414299.626	0	Q568638	pl_piast_dyn_2	Duchy of Wrocław	
-205	County of Vexin	990	1084	990	1084	1–999	Avrupa	Fransa	4129.590	95	392311.084	0	Q1476089	fr_capetian_k_1	Vexin	
-206	County of Ampuria	1000	1414	1000	1414	1000–1280	Avrupa	İspanya	928.130	408	378677.220	0	Q1541699		County of Empúries	ad~apulya-dukaligi(0.77)
-207	County of Portugal	1139	1146	1139	1146	1000–1280	Avrupa	Portekiz	46122.939	8	368983.513	0	Q1139807		County of Portugal	
-208	Kingdom of Lindsey	534	625	534	625	1–999	Avrupa	Birleşik Krallık	3976.157	92	365806.437	0	Q886986		Kingdom of Lindsey	ad~linyi-champa(0.73)
-209	County of Aragon	830	921	830	921	1–999	Avrupa	İspanya	3584.731	92	329795.218	0	Q1235737		County of Aragon	
-210	Duchy of Oldenburg	1806	1870	1806	1870	1281–1923	Avrupa	Almanya	4895.268	62	303506.604	0	Q697084		Duchy of Oldenburg	ad~mecklenburg-schwerin(0.70)
-211	Kingdom of Dambadeniya	1236	1293	1236	1293	1000–1280	Asya	Sri Lanka	5219.250	58	302716.478	0	Q3136869	sl_dambadeniya	Kingdom of Dambadeniya	ad~almanya(0.71)
-212	Athenian Coalition	-323	-257	-322	-256	MÖ	Avrupa	Yunanistan	23256.883	13	302339.476	0	Q33745		Peloponnesian War	
-213	Republic of Uryankhay	1912	1913	1912	1913	1281–1923	Avrupa	Rusya	148695.247	2	297390.495	0	Q56282578		Uryankhay Republic	ad~ingiliz-guyanasi(0.75)
-214	Taifa of Córdoba	1147	1249	1147	1249	1000–1280	Avrupa	İspanya	15319.617	19	291072.717	0	Q2285679	es_taifas	Taifa of Córdoba	ad~altinorda(0.73)
-215	Dai	-208	-204	-207	-203	MÖ	Asya	Çin Halk Cumhuriyeti	57015.651	5	285078.255	0	Q5349053		Eighteen Kingdoms	
-216	Thuringian states	469	475	469	475	1–999	Avrupa	Almanya	40556.905	7	283898.338	0	Q315010		Thuringian states	
-217	Kampili Kingdom	1285	1332	1285	1332	1281–1923	Asya	Hindistan	5836.010	48	280128.491	0	Q1446192	in_kampili_k	Kampili Kingdom	
-218	Duchy of Brunswick	1814	1870	1814	1870	1281–1923	Avrupa	Almanya	4878.429	57	278070.438	0	Q326029		Duchy of Brunswick	
-219	Shunten Dynasty	1188	1313	1188	1313	1000–1280	Asya	Japonya	2186.103	126	275448.944	0	Q6151113		Shunten dynasty	ryukyu(oy 4)
-220	Western Liang	407	409	407	409	1–999	Asya	Çin Halk Cumhuriyeti	88384.905	3	265154.715	0	Q4186404		Western Liang (Sixteen Kingdoms)	
-221	Danish Gold Coast	1659	1852	1659	1852	1281–1923	Afrika	Gana	1348.936	194	261693.543	0	Q770833		Danish Gold Coast	ingiltere(oy 2) | hollanda(oy 1) | ad~gond-kralliklari(0.75)
-222	Phayao Kingdom	1294	1343	1294	1343	1281–1923	Asya	Tayland	5231.350	50	261567.513	0	Q4202088		Phayao Kingdom	
-223	Jiujiang	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	86995.156	3	260985.467	0	Q5349053		Eighteen Kingdoms	
-224	Hán	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	86683.955	3	260051.865	0	Q5349053		Eighteen Kingdoms	
-225	County of Béarn	1385	1452	1385	1452	1281–1923	Avrupa	Fransa	3806.065	68	258812.447	0	Q213763	fr_valois_k_1	Béarn	ad~bern-cumhuriyeti(0.89)
-226	Merovingian Empire	710	717	710	717	1–999	Avrupa	Fransa	32241.361	8	257930.889	0	Q146246	fr_merovingian_emp_3	Francia	ad~frank(0.75)
-227	Hwicce	577	627	577	627	1–999	Avrupa	Birleşik Krallık	4839.470	51	246812.974	0	Q733799	gb_anglo_saxon_1	Hwicce	
-228	Gao Kaidao	623	625	623	625	1–999	Asya	Çin Halk Cumhuriyeti	81782.553	3	245347.660	0	Q712564		Gao Kaidao	
-229	Principality of Koknese	1111	1209	1111	1209	1000–1280	Avrupa	Letonya	2287.825	99	226494.649	0	Q2502248		Principality of Koknese	
-230	Vermont Republic	1783	1790	1783	1790	1281–1923	K.Amerika	Amerika Birleşik Devletleri	28159.339	8	225274.714	0	Q1649602		Vermont Republic	
-231	Liaodong	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	70288.224	3	210864.673	0	Q5349053		Eighteen Kingdoms	
-232	Polyperchon	-318	-316	-317	-315	MÖ	Avrupa	Kuzey Makedonya	69899.547	3	209698.641	0	Q312008		Polyperchon	
-233	Principality of Reuss-Gera	1806	1870	1806	1870	1281–1923	Avrupa	Almanya	3179.600	65	206674.023	0	Q639100		Principality of Reuss-Gera	ad~gran-kolombiya(0.75)
-234	Taifa of Saltés and Huelva	1015	1151	1015	1151	1000–1280	Avrupa	İspanya	4444.934	46	204466.981	0	Q2081763	es_taifas	Taifa of Saltés and Huelva	ad~toledo-zunnunler(0.83)
-235	Carolingian Empire	718	723	718	723	1–999	Avrupa	Fransa	32241.361	6	193448.167	0	Q146246		Francia	
-236	Mosquito Kingdom	1853	1859	1853	1859	1281–1923	K.Amerika	Nikaragua	26801.146	7	187608.023	0	Q1165546		Mosquito Coast	
-237	Duchy of Tuscia	577	586	577	586	1–999	Avrupa	İtalya	17118.783	10	171187.827	0	Q1054580		Duchy of Tuscia	
-238	Chinese Communists	1928	1931	1928	1931	1924+	Asya	Çin Halk Cumhuriyeti	38942.132	4	155768.529	0	Q17427		Chinese Communist Party	ad~cin-cumhuriyeti(0.86)
-239	Mahajanapadas	-480	-451	-479	-450	MÖ	Asya	Nepal	5163.498	30	154904.941	0	Q846025	in_mahajanapada	Mahajanapadas	
-240	Jiaodong	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	51054.510	3	153163.531	0	Q5349053		Eighteen Kingdoms	
-241	Italian City-States	-91	-88	-90	-87	MÖ	Avrupa	İtalya	36108.737	4	144434.949	0	Q4115680		Italian city-states	
-242	Corsican Republic	1757	1768	1757	1768	1281–1923	Avrupa	Fransa	11217.368	12	134608.414	0	Q71234		Corsican Republic	ceneviz(oy 10) | fransa(oy 2)
-243	Duchy of Kuyavia	1188	1205	1188	1205	1000–1280	Avrupa	Polonya	6843.821	18	123188.784	0	Q11750543	pl_piast_dyn_2	Duchy of Kuyavia	
-244	Henan	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	40946.260	3	122838.780	0	Q5349053		Eighteen Kingdoms	
-245	Angles	387	479	387	479	1–999	Avrupa	Almanya	1292.845	93	120234.573	0	Q234218		Angles	
-246	Chang-shan	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	34631.558	3	103894.674	0	Q5349053		Eighteen Kingdoms	ad~chavin(0.73)
-247	Domain of Rhodes	1206	1249	1206	1249	1000–1280	Avrupa	Yunanistan	2169.180	44	95443.922	0	Q43048		Rhodes	
-248	Taifa of Santa Maria do Algarve	1018	1055	1018	1055	1000–1280	Avrupa	Portekiz	2251.564	38	85559.418	0	Q2077765	es_taifas	Taifa of Santa Maria do Algarve	ad~maya-sehir-devletleri(0.89)
-249	Wihtgar	523	691	523	691	1–999	Avrupa	Birleşik Krallık	507.792	164	83277.875	0	Q3568009		Wihtwara	
-250	Taifa of Niebla	1015	1249	1015	1249	1000–1280	Avrupa	İspanya	1553.706	50	77685.301	0	Q2668600	es_taifas	Taifa of Niebla	ad~toledo-zunnunler(0.83)
-251	São Tomé and Príncipe	1976	2024	1976	2024	1924+	Afrika	São Tomé ve Príncipe	1485.404	49	72784.812	0	Q1039		São Tomé and Príncipe	ad~gronland-dan(0.75)
-252	Los Altos	1840	1841	1840	1841	1281–1923	K.Amerika	Guatemala	35592.797	2	71185.595	0	Q738264		Los Altos (state)	guatemala(oy 2)
-253	Duchy of Łęczyca	1139	1146	1139	1146	1000–1280	Avrupa	Polonya	8825.828	8	70606.627	0	Q970940	pl_piast_dyn_2	Łęczyca Voivodeship	
-254	Duchy of Racibórz	1285	1304	1285	1304	1281–1923	Avrupa	Polonya	3383.578	20	67671.562	0	Q700117	pl_piast_dyn_2	Duchy of Racibórz	
-255	Kingdom of Singapura	1305	1401	1305	1401	1281–1923	Asya	Singapur	691.004	97	67027.421	0	Q27842		Kingdom of Singapura	
-256	Frisia	783	787	783	787	1–999	Avrupa	Hollanda	12911.018	5	64555.090	0	Q4492881		Frisia	
-257	Principality of Waldeck and Pyrmont	1806	1870	1806	1870	1281–1923	Avrupa	Almanya	964.550	65	62695.725	0	Q165763		Principality of Waldeck and Pyrmont	ad~sardinya-piyemonte(0.80)
-258	Principality of Schwarzburg-Sonderhausen	1820	1870	1820	1870	1281–1923	Avrupa	Almanya	1210.441	51	61732.488	0	Q708821		House of Schwarzburg	
-259	Principality of Hohenzollern-Sigmaringen	1806	1852	1806	1852	1281–1923	Avrupa	Almanya	1309.567	47	61549.632	0	Q157013		Hohenzollern-Sigmaringen	
-260	Frisians	793	799	793	799	1–999	Avrupa	Almanya	8792.546	7	61547.820	0	Q106416		Frisians	
-261	Principality of Lippe	1806	1870	1806	1870	1281–1923	Avrupa	Almanya	850.567	65	55286.847	0	Q14551680		Principality of Lippe	
-262	New Sweden	1640	1658	1640	1658	1281–1923	K.Amerika	Amerika Birleşik Devletleri	2841.389	19	53986.392	0	Q322187		New Sweden	
-263	Kingdom of Dunoting	592	625	592	625	1–999	Avrupa	Birleşik Krallık	1515.337	34	51521.471	0	Q2264840	gb_brythonic_k	Dunoding	
-264	Nieuwe Republiek	1885	1889	1885	1889	1281–1923	Afrika	Güney Afrika Cumhuriyeti	10205.352	5	51026.762	0	Q552157		Nieuwe Republiek	ad~transvaal(1.00)
-265	Polish Armed Forces	1918	1918	1918	1918	1281–1923	Avrupa	Beyaz Rusya	50816.570	1	50816.570	0	Q248989		Polish Land Forces	sovyet-rusya(oy 1)
-266	Sai	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	16521.053	3	49563.159	0	Q5349053		Eighteen Kingdoms	
-267	County of Boulogne	1188	1259	1188	1259	1000–1280	Avrupa	Fransa	683.948	67	45824.538	0	Q1431527	fr_capetian_k_2	County of Boulogne	
-268	Yin	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	14021.623	3	42064.868	0	Q5349053		Eighteen Kingdoms	
-269	Principality of Monaco	1642	2024	1642	2024	1281–1923	Avrupa	Fransa	164.428	233	38311.708	0	Q235		Monaco	sardinya(oy 7) | fransa-cumhuriyet(oy 2) | ad~monako(0.83)
-270	Maderistas	1911	1911	1911	1911	1281–1923	K.Amerika	Meksika	34588.905	1	34588.905	0	Q5428692		List of factions in the Mexican Revolution	meksika(oy 1) | ad~macaristan-habsburg(0.70)
-271	Freetown Colony	1788	1796	1788	1796	1281–1923	Afrika	Sierra Leone	3430.066	9	30870.598	0	Q3780	gb_british_emp_1	Freetown	ingiltere(oy 2)
-272	Molossians	-170	-165	-169	-164	MÖ	Avrupa	Yunanistan	4707.853	6	28247.116	0	Q827399		Molossians	
-273	Duchy of Kalisz	1210	1219	1210	1219	1000–1280	Avrupa	Polonya	2818.843	10	28188.430	0	Q16570037	pl_piast_dyn_2	Duchy of Kalisz	
-274	Italian Nationalists	1848	1848	1848	1848	1281–1923	Avrupa	İtalya	21787.737	1	21787.737	0	Q6093359		Italian nationalism	napoli(oy 2)
-275	French Colony of Guiana	1791	1791	1791	1791	1281–1923	Avrupa	Fransa	19564.716	1	19564.716	0	Q3769	fr_bourbon_k_2	French Guiana	fransa(oy 1) | ad~hollanda-guyanasi(0.86)
-276	Kingdom of Sobrarbe	825	829	825	829	1–999	Avrupa	İspanya	3489.767	5	17448.837	0	Q3572492		Kingdom of Sobrarbe	
-277	Sultanate of Zanzibar	1963	1966	1963	1966	1924+	Afrika	Tanzanya	4244.908	4	16979.632	0	Q157904		Sultanate of Zanzibar	tanzanya(oy 2) | tanganika(oy 1) | ad~umman-zengibar(0.75)
-278	Mamertines	-271	-257	-270	-256	MÖ	Avrupa	İtalya	933.810	15	14007.155	0	Q1164281		Mamertines	
-279	Seychelles	1976	2024	1976	2024	1924+	?	(deniz/bulunamadı)	258.602	49	12671.492	0	Q1042		Seychelles	
-280	Taifa of Tejada	1147	1151	1147	1151	1000–1280	Avrupa	Portekiz	2251.564	5	11257.818	0	Q2522604	es_taifas	Taifa of Tejada	
-281	Cuban Communists	1958	1959	1958	1959	1924+	K.Amerika	Küba	3144.436	2	6288.872	0	Q371402		Communist Party of Cuba	ad~arnavutluk-halk-cumhuriyeti(0.82)
-282	First French colonial empire	1805	1814	1805	1814	1281–1923	K.Amerika	Saint Pierre ve Miquelon	438.575	10	4385.746	0	Q71084		French colonial empire 	ad~ingiliz-siyera-leon(0.71)
-283	Principality of Lichtenberg	1820	1827	1820	1827	1281–1923	Avrupa	Almanya	178.553	8	1428.426	0	Q547629		Principality of Lichtenberg	
+19	Sabaeans	-800	282	-799	282	MÖ	Asya	Yemen	63947.671	880	56273950.820	0	Q940785	ye_sabaean_commonwealth	Sabaeans	
+20	Jin	-750	-405	-749	-404	MÖ	Asya	Çin Halk Cumhuriyeti	152647.267	346	52815954.377	0	Q6201794	cn_jin_spring_and_autumn	Jin (Chinese state)	ad~qi-devleti(0.75)
+21	Nobatia	347	655	347	655	1–999	Afrika	Sudan	147534.114	309	45588041.132	0	Q568523		Nobatia	ad~bati-roma(0.73)
+22	Saxons	283	799	283	799	1–999	Avrupa	Almanya	82798.012	512	42392581.964	0	Q101985		Saxons	
+23	Phrygia	-900	-676	-899	-675	MÖ	Asya	Türkiye	188102.332	225	42323024.594	0	Q32579	tr_phrygian_k	Phrygia	
+24	Ganzhou Kingdom	860	1039	860	1039	1–999	Asya	Çin Halk Cumhuriyeti	233037.256	180	41946706.123	0	Q1000124	cn_ganzhou_k	Ganzhou Uyghur Kingdom	
+25	Kadamba Empire	353	554	353	554	1–999	Asya	Hindistan	202263.450	202	40857216.822	0	Q1479952	in_kadamba_emp	Kadamba Empire	
+26	Kalabhra Dynasty	353	601	353	601	1–999	Asya	Hindistan	137945.453	249	34348417.834	0	Q2572901	in_kalabhra_dyn	Kalabhra dynasty	
+27	Nabataeans	-164	105	-163	105	MÖ	Asya	Ürdün	126170.785	263	33182916.530	0	Q220594	jo_nabataean_k	Nabataeans	ad~nabatiye(0.71)
+28	Yue	-500	-334	-499	-333	MÖ	Asya	Çin Halk Cumhuriyeti	188596.926	167	31495686.614	0	Q1936158	cn_yue_dyn	Yue (state)	
+29	Maukhari Dynasty	555	611	555	611	1–999	Asya	Hindistan	533392.729	57	30403385.549	0	Q12448145	in_maukhari_dyn	Maukhari dynasty	ad~nube(0.71)
+30	Bavarians	540	787	540	787	1–999	Avrupa	Almanya	122313.404	248	30333724.230	0	Q13048507		Bavarians	
+31	Mycenaean Greece	-1500	-1101	-1499	-1100	MÖ	?	(deniz/bulunamadı)	71057.159	400	28422863.514	0	Q181264		Mycenaean Greece	ad~miken(0.73)
+32	Former Yan	337	370	337	370	1–999	Asya	Çin Halk Cumhuriyeti	772045.284	34	26249539.651	0	Q1472004		Former Yan	
+33	Norse	161	499	161	499	1–999	Avrupa	Norveç	71171.216	339	24127042.301	0	Q909583		Norse	
+34	Kingdom of Cappadocia	-239	22	-238	22	MÖ	Asya	Türkiye	91738.426	251	23026344.958	0	Q29654286	tr_cappadocia_2	Kingdom of Cappadocia	ad~kapadokya-krallik(0.78)
+35	Kannauj-Varman Dynasty	732	771	732	771	1–999	Asya	Hindistan	573391.176	40	22935647.023	0	Q614890	in_kannauj_varman_dyn	Kannauj	ad~kamarupa(1.00)
+36	Lu	-750	-248	-749	-247	MÖ	Asya	Çin Halk Cumhuriyeti	43570.735	503	21916079.485	0	Q555994		Lu (state)	
+37	Mahan	-91	346	-90	346	MÖ	Asya	Güney Kore	49731.378	437	21732612.280	0	Q421372		Mahan	
+38	Goths	30	206	30	206	1–999	Avrupa	İsveç	117739.391	177	20839872.159	0	Q42193		Goths	
+39	Caucasian Iberia	-63	533	-62	533	MÖ	Asya	Gürcistan	35867.973	569	20408876.690	0	Q19083		Kingdom of Iberia	ad~eftalit(0.73)
+40	Burgundians	154	409	154	409	1–999	Avrupa	Polonya	100278.866	196	19654657.694	0	Q13590051		Burgundians	
+41	Early Pandyas	-291	305	-290	305	MÖ	Asya	Hindistan	32556.366	596	19403593.921	0	Q3532152	in_pandya_emp_1	Early Pandyas	
+42	Tarumanagara	367	673	367	673	1–999	Asya	Endonezya	62498.713	307	19187104.976	0	Q2247225		Tarumanagara	
+43	Cheng Han	306	346	306	346	1–999	Asya	Çin Halk Cumhuriyeti	451934.554	41	18529316.724	0	Q1069905		Cheng-Han	
+44	Greek Dark Ages	-1100	-801	-1099	-800	MÖ	Avrupa	Yunanistan	60722.013	300	18216603.909	0	Q210443		Greek Dark Ages	
+45	Lazica	-63	545	-62	545	MÖ	Asya	Gürcistan	28524.879	608	17343126.599	0	Q136884		Lazica	ad~nazca(0.73)
+46	Later Qin	387	416	387	416	1–999	Asya	Çin Halk Cumhuriyeti	573288.280	30	17198648.394	0	Q1730130	cn_later_qin_dyn	Later Qin	
+47	Early Cholas	-291	305	-290	305	MÖ	Asya	Hindistan	28856.215	596	17198303.910	0	Q3532146	in_cholas_1	Early Cholas	
+48	Former Liang	324	377	324	377	1–999	Asya	Çin Halk Cumhuriyeti	305896.219	54	16518395.852	0	Q943392	cn_eastern_jin_dyn	Former Liang	
+49	Song	-750	-285	-749	-284	MÖ	Asya	Çin Halk Cumhuriyeti	34727.528	466	16183028.012	0	Q7462		Song (state)	
+50	Kingdom of Croatia	926	1098	926	1098	1–999	Avrupa	Bosna-Hersek	92789.233	173	16052537.303	0	Q858841	hr_croatia_k	Kingdom of Croatia (925–1102)	
+51	County of Blôis	990	1401	990	1401	1–999	Avrupa	Fransa	38821.416	412	15994423.572	0	Q19336869	fr_capetian_k_1;fr_capetian_k_2;fr_valois_k_1	County of Blois	ad~burgonya(0.73)
+52	Yaudheya Republic	306	377	306	377	1–999	Asya	Hindistan	220728.665	72	15892463.911	0	Q8050331	in_yaudheya_rep	Yaudheya	
+53	Kalinga	-318	-171	-317	-170	MÖ	Asya	Hindistan	129276.489	117	15125349.217	0	Q356524		Kalinga	
+54	Early Cheras	-291	305	-290	305	MÖ	Asya	Hindistan	25180.577	596	15007623.886	0	Q877155	in_cheras_1	Chera dynasty	
+55	Lower Egypt	-2200	-2001	-2199	-2000	MÖ	Afrika	Mısır	74523.892	200	14904778.417	0	Q463871	eg_old_k_2;eg_regions	First Intermediate Period of Egypt;Old Kingdom of Egypt	
+56	Dongye	-91	391	-90	391	MÖ	Asya	Güney Kore	29067.912	482	14010733.386	0	Q105946539		Dongye	
+57	Gutian Dynasty	-2100	-2001	-2099	-2000	MÖ	Asya	Irak	131488.491	100	13148849.054	0	Q1064034		Gutian rule in Mesopotamia	
+58	Kingdom of Osroene	-63	214	-62	214	MÖ	Asya	Türkiye	50344.345	260	13089529.785	0	Q237234		Osroene	
+59	Classic Veracruz Culture	555	1235	555	1235	1–999	K.Amerika	Meksika	18503.863	681	12601130.459	0	Q2379418		Classic Veracruz culture	ad~cola(0.75)
+60	Thracian Kingdom	-87	50	-86	50	MÖ	Avrupa	Bulgaristan	90345.113	137	12377280.444	0	Q104815700		Thracian kingdom	
+61	Chandra Dynasty	900	1055	900	1055	1–999	Asya	Myanmar	77249.534	156	12050927.363	0	Q5032034	bd_chandra_dyn	Chandra dynasty	ad~candela(0.71)
+62	Korean Jin	-197	-92	-196	-91	MÖ	Asya	Güney Kore	112813.627	106	11958244.427	0	Q1155101		Jin (Korean state)	
+63	Later Yan	387	409	387	409	1–999	Asya	Çin Halk Cumhuriyeti	502851.209	23	11565577.801	0	Q1534482	cn_later_yan_dyn	Later Yan	
+64	Principality of Serbia	768	961	768	961	1–999	Avrupa	Bosna-Hersek	61327.916	184	11284336.556	0	Q1311990		Principality of Serbia	
+65	Later Zhao	337	352	337	352	1–999	Asya	Çin Halk Cumhuriyeti	662078.489	16	10593255.825	0	Q2314907		Later Zhao	
+66	Western Qin	387	438	387	438	1–999	Asya	Çin Halk Cumhuriyeti	229139.341	44	10082130.990	0	Q1668970		Western Qin	
+67	Mahameghavahana Dynasty	-170	-165	-169	-164	MÖ	Asya	Hindistan	1655395.317	6	9932371.899	0	Q6733051		Mahameghavahana dynasty	
+68	Cyrenaica	-331	-92	-330	-91	MÖ	Afrika	Libya	116347.920	84	9773225.310	0	Q165198		Cyrenaica	
+69	Lower Burgundy	860	925	860	925	1–999	Avrupa	Fransa	209031.933	45	9406437.006	0	Q33242		Lower Burgundy	
+70	Palmyrene Empire	261	269	261	269	1–999	Asya	Ürdün	1043311.778	9	9389806.002	0	Q877875		Palmyrene Empire	ad~palmira(0.75)
+71	Byeonhan	-91	566	-90	566	MÖ	Asya	Güney Kore	13603.437	657	8937458.140	0	Q1378584		Byeonhan confederacy	
+72	Great Yuan	-110	50	-109	50	MÖ	Asya	Tacikistan	51348.213	160	8215714.136	0	Q7313		Yuan dynasty	ad~dian(0.89)
+73	Zhai	-208	-204	-207	-203	MÖ	Asya	Çin Halk Cumhuriyeti	1628170.781	5	8140853.906	0	Q7183		Qin dynasty	ad~nanyue(0.75)
+74	Duchy of Gascony	768	1065	768	1065	1–999	Avrupa	Fransa	56472.251	133	7510809.351	0	Q2295939	fr_capetian_k_1	Duchy of Gascony	
+75	Xionites	387	401	387	401	1–999	Asya	Tacikistan	488435.960	15	7326539.399	0	Q26264		Xionites	
+76	Dabuyid Dynasty	644	756	644	756	1–999	Asya	İran	64825.012	113	7325226.361	0	Q2816439		Dabuyid dynasty	
+77	Anglo-Saxon England	441	533	441	533	1–999	Avrupa	Birleşik Krallık	77091.009	93	7169463.868	0	Q784963	gb_anglo_saxon_1	History of Anglo-Saxon England	ad~sussex-kralligi(0.73)
+78	Âu Lạc	-256	-207	-255	-206	MÖ	Asya	Vietnam	140775.963	50	7038798.157	0	Q867227		Âu Lạc	
+79	Xia	410	438	410	438	1–999	Asya	Çin Halk Cumhuriyeti	229893.548	29	6666912.891	0	Q7427		Xia	
+80	Jaemtland	947	1187	947	1187	1–999	Avrupa	İsveç	25918.528	241	6246365.292	0	Q211661		Jämtland	
+81	County of Nevers	1010	1520	1010	1520	1000–1280	Avrupa	Fransa	14776.234	417	6161689.690	0	Q2070440	fr_capetian_k_1;fr_capetian_k_2;fr_valois_k_1;fr_valois_k_2	County of Nevers	
+82	Dong-okjeo	-36	153	-35	153	MÖ	Asya	Kuzey Kore	32148.771	189	6076117.731	0	Q713393		Okjeo	ad~dogu-han(0.75)
+83	Duchy of Thuringia	567	723	567	723	1–999	Avrupa	Almanya	40556.905	149	6042978.912	0	Q5311389		Duchy of Thuringia	ad~turges(0.71)
+84	Breton Kingdoms	587	824	587	824	1–999	Avrupa	Fransa	24439.585	238	5816621.189	0	Q309197		Bretons	
+85	Principality of Peremyshl	1056	1146	1056	1146	1000–1280	Avrupa	Ukrayna	62423.922	91	5680576.939	0	Q4350658		Principality of Peremyshl	ad~pereyaslavl-knezligi(0.70)
+86	Kingdom of Adiabene	-63	370	-62	370	MÖ	Asya	Suriye	13757.915	396	5448134.171	0	Q149747		Adiabene	
+87	Principality of Halych	1147	1201	1147	1201	1000–1280	Avrupa	Ukrayna	106341.649	51	5423424.076	0	Q3403551		Principality of Halych	ad~kudus-kralligi(0.73)
+88	Northern Liang	397	440	397	440	1–999	Asya	Çin Halk Cumhuriyeti	119670.190	44	5265488.355	0	Q1539360		Northern Liang	
+89	Kingdom of Lower Burgundy	900	935	900	935	1–999	Avrupa	İtalya	243469.917	21	5112868.255	0	Q33242	fr_carolingian_emp_2	Lower Burgundy	ad~arles-kralligi(0.75)
+90	Frisia Kingdom	612	717	612	717	1–999	Avrupa	Almanya	63720.453	79	5033915.766	0	Q4492881		Frisia	
+91	Duchy of Spoleto	577	898	577	898	1–999	Avrupa	İtalya	119644.567	42	5025071.810	0	Q2829270		Duchy of Spoleto	
+92	Judea	-144	5	-143	5	MÖ	Asya	Filistin	32758.388	149	4880999.884	0	Q104028	il_judea	Judea	
+93	Ankhwennefer	-197	-171	-196	-170	MÖ	Afrika	Mısır	176123.511	27	4755334.797	0	Q489289		Ankhwennefer (pharaoh)	
+94	Later Liang	387	406	387	406	1–999	Asya	Çin Halk Cumhuriyeti	237230.585	20	4744611.701	0	Q2314869		Later Liang (Sixteen Kingdoms)	
+95	Kingdom of Brittany	825	921	825	921	1–999	Avrupa	Fransa	47424.965	97	4600221.560	0	Q771193		Kingdom of Brittany	ad~birinci-bulgar(0.71)
+96	Kingdom of the Iberians	814	999	814	999	1–999	Asya	Türkiye	24614.739	186	4578341.471	0	Q154816		Kingdom of the Iberians	ad~kuzey-han-10krallik(0.71)
+97	Khadga Dynasty	656	704	656	704	1–999	Asya	Bangladeş	90426.598	49	4430903.317	0	Q6398879	bd_khadga_dyn	Khadga Dynasty	
+98	Kingdom of Gordyene	-63	259	-62	259	MÖ	Asya	Türkiye	14297.219	309	4417840.608	0	Q29237		Corduene	
+99	Duchy of Styria	1260	1501	1260	1501	1000–1280	Avrupa	Avusturya	16888.363	242	4086983.935	0	Q580447	de_empire_3	Duchy of Styria	ad~ispanya(0.71)
+100	Carantania	661	749	661	749	1–999	Avrupa	Avusturya	45562.153	89	4055031.594	0	Q501754		Carantania	
+101	County of Vermandois	990	1215	990	1215	1–999	Avrupa	Fransa	19509.560	207	4038478.872	0	Q26385	fr_capetian_k_1;fr_capetian_k_2	Vermandois	ad~dauphine-viennois(0.71)
+102	Zheng	-750	-367	-749	-366	MÖ	Asya	Çin Halk Cumhuriyeti	10403.001	384	3994752.326	0	Q197598		Zheng (state)	
+103	Upper Egypt	-2200	-2001	-2199	-2000	MÖ	Afrika	Mısır	19656.839	200	3931367.847	0	Q203751	eg_old_k_2;eg_regions	First Intermediate Period of Egypt;Old Kingdom of Egypt	ad~caral-norte-chico(0.75)
+104	Magna Frisia	602	771	602	771	1–999	Avrupa	Hollanda	21798.544	170	3705752.419	0	Q87791		Frisian Kingdom	
+105	Principality of Turov and Pinsk	1188	1240	1188	1240	1000–1280	Avrupa	Beyaz Rusya	69423.047	53	3679421.470	0	Q671362		Principality of Turov	
+106	Principality of Terebovlia	1085	1146	1085	1146	1000–1280	Avrupa	Ukrayna	57392.131	62	3558312.105	0	Q680530		Principality of Terebovlia	
+107	Paphlagonia	-279	-127	-278	-126	MÖ	Asya	Türkiye	22923.154	153	3507242.496	0	Q622032		Paphlagonia	
+108	Giudicato of Cagliari	866	1187	866	1187	1–999	Avrupa	İtalya	10263.197	322	3304749.401	0	Q2297073		Judicate of Cagliari	ad~filipin-racaliklari(0.74)
+109	Kingdom of Lazica	638	777	638	777	1–999	Asya	Gürcistan	23545.322	140	3296345.029	0	Q136884		Lazica	
+110	Kingdom of Janggala	1046	1138	1046	1138	1000–1280	Asya	Endonezya	34429.057	93	3201902.332	0	Q13093931		Janggala	ad~candela(0.71)
+111	Giudicato of Logudoro	866	1259	866	1259	1–999	Avrupa	İtalya	8246.993	388	3199833.435	0	Q1761381		Judicate of Logudoro	
+112	Upper Burgundy	887	959	887	959	1–999	Avrupa	İsviçre	45841.610	69	3163071.084	0	Q33235	fr_carolingian_emp_2	Upper Burgundy	ad~arles-kralligi(0.75)
+113	Colchis	-301	-231	-300	-230	MÖ	Asya	Gürcistan	44264.960	71	3142812.141	0	Q183150		Colchis	
+114	Duchy of Croatia	741	925	741	925	1–999	Avrupa	Hırvatistan	21529.966	141	3035725.235	0	Q2576305	hr_croatia_k	Duchy of Croatia	ad~maya-klasik(0.73)
+115	Cyprus Condominium	692	959	692	959	1–999	Asya	Kıbrıs Cumhuriyeti	11437.483	259	2962308.090	0	Q229		Cyprus	
+116	Riograndense Republic	1836	1845	1836	1845	1281–1923	G.Amerika	Brezilya	287824.850	10	2878248.499	0	Q162192		Riograndense Republic	
+117	Principality of Drutsk	1111	1249	1111	1249	1000–1280	Avrupa	Beyaz Rusya	19977.595	139	2776885.689	0	Q2596884		Principality of Drutsk	
+118	Kingdom of Brycheiniog	540	1084	540	1084	1–999	Avrupa	Birleşik Krallık	4957.778	535	2652411.371	0	Q954585	gb_brythonic_k	Brycheiniog	
+119	Principality of Jersika	1111	1215	1111	1215	1000–1280	Avrupa	Letonya	23422.422	105	2459354.312	0	Q1687929		Principality of Jersika	ad~kanal-adalari(0.77)
+120	Sixteenth Dynasty of Egypt	-1600	-1501	-1599	-1500	MÖ	Afrika	Mısır	24559.119	100	2455911.895	0	Q737695	eg_thebes_hyksos	Sixteenth Dynasty of Egypt	
+121	Obotrites	793	946	793	946	1–999	Avrupa	Almanya	15438.490	154	2377527.486	0	Q156108		Obotrites	
+122	Kingdom of Thuringia	476	533	476	533	1–999	Avrupa	Almanya	40556.905	58	2352300.516	0	Q268562		Basina of Thuringia	
+123	County of Berga	898	1235	898	1235	1–999	Avrupa	İspanya	9010.246	253	2279592.226	0	Q15487		Berga	ad~karolenj-italya(0.77)
+124	Grand Principality of Serbia	1094	1168	1094	1168	1000–1280	Avrupa	Karadağ	28937.602	75	2170320.153	0	Q1311990	rs_serbia_k	Grand Principality of Serbia	ad~begteginli(0.73)
+125	Xu	-750	-285	-749	-284	MÖ	Asya	Çin Halk Cumhuriyeti	4636.941	466	2160814.642	0	Q2650109		Xu (state)	
+126	County of Rouergue	990	1065	990	1065	1–999	Avrupa	Fransa	27862.094	76	2117519.137	0	Q590016	fr_capetian_k_1	Rouergue	
+127	Emirate of Nekor	750	1027	750	1027	1–999	Afrika	Fas	7367.804	278	2048249.474	0	Q1709337		Emirate of Nekor	ad~angkor-kmer(0.73)
+128	Northern Yan	410	438	410	438	1–999	Asya	Çin Halk Cumhuriyeti	64015.781	29	1856457.637	0	Q2006864		Northern Yan	
+129	Later Western Liang	561	586	561	586	1–999	Asya	Çin Halk Cumhuriyeti	70044.626	26	1821160.267	0	Q4186404		Western Liang (555–587)	
+130	Ziyarid dynasty	936	979	936	979	1–999	Asya	İran	41017.481	44	1804769.183	0	Q207044		Ziyarid dynasty	ad~ziyari(0.89)
+131	Fihrids	750	756	750	756	1–999	Afrika	Tunus	251323.126	7	1759261.882	0	Q5448100		Fihrids	
+132	Achaean League	-279	-145	-278	-144	MÖ	Avrupa	Yunanistan	11818.938	135	1595556.665	0	Q244796		Achaean League	
+133	Giudicato of Gallura	866	1209	866	1209	1–999	Avrupa	İtalya	4598.012	344	1581716.242	0	Q2723760		Judicate of Gallura	ad~gwynedd(0.73)
+134	New Hebrides	1890	1982	1890	1982	1281–1923	Okyanusya	Vanuatu	16885.240	93	1570327.311	0	Q752431		New Hebrides	
+135	Dumnonia	602	709	602	709	1–999	Avrupa	Birleşik Krallık	14348.731	108	1549662.967	0	Q313136	gb_brythonic_k	Dumnonia	
+136	Illyrian Kingdom	-256	-226	-255	-225	MÖ	Avrupa	Arnavutluk	49700.708	31	1540721.947	0	Q16084290		Illyrian kingdom	
+137	Chen	-750	-451	-749	-450	MÖ	Asya	Çin Halk Cumhuriyeti	5047.040	300	1514112.117	0	Q1069690		Chen (state)	
+138	Kingdom of Seisyllwg	878	959	878	959	1–999	Avrupa	Birleşik Krallık	18353.176	82	1504960.455	0	Q2456191	gb_brythonic_k	Seisyllwg	
+139	Tamna	263	1278	263	1278	1–999	Asya	Güney Kore	1959.320	762	1493001.586	0	Q28057		Tamna	
+140	Kingdom of Morgannwg	540	1055	540	1055	1–999	Avrupa	Birleşik Krallık	2887.717	516	1490061.909	0	Q13131807	gb_brythonic_k	Kingdom of Morgannwg	
+141	Qi Kingdom	911	925	911	925	1–999	Asya	Çin Halk Cumhuriyeti	94436.278	15	1416544.167	0	Q1319681	cn_five_dyn	Qi (Li Maozhen's state)	
+142	Janapada of Aśmaka	-600	-351	-599	-350	MÖ	Asya	Hindistan	5466.955	250	1366738.733	0	Q1194906	in_mahajanapada	Asmaka	ad~kush-krallik(0.71)
+143	County of Rosellón	896	1176	896	1176	1–999	Avrupa	Fransa	4675.785	281	1313895.519	0	Q13522657		Roussillon	ad~barselona-kontlugu(0.75)
+144	Teng	-750	-451	-749	-450	MÖ	Asya	Çin Halk Cumhuriyeti	4323.470	300	1297040.889	0	Q1356151		Teng (state)	
+145	Cuzco	1294	1439	1294	1439	1281–1923	G.Amerika	Peru	8783.282	146	1282359.141	0	Q5582862	pe_cuzco_6	Cusco	
+146	Phoenician Colonies	-700	-616	-699	-615	MÖ	Avrupa	İtalya	14877.857	85	1264617.824	0	Q1094394	lb_phoenician_emp	Colonies in antiquity	
+147	Southern Yan	402	409	402	409	1–999	Asya	Çin Halk Cumhuriyeti	152855.331	8	1222842.645	0	Q1329439		Southern Yan	
+148	Cao	-750	-451	-749	-450	MÖ	Asya	Çin Halk Cumhuriyeti	4012.052	300	1203615.551	0	Q204077		Cao (state)	
+149	County of Tripoli	1111	1293	1111	1293	1000–1280	Asya	Lübnan	6236.099	183	1141206.098	0	Q272033		County of Tripoli	ad~kalacuri-tripuri(0.71)
+150	Aetolian League	-284	-189	-283	-188	MÖ	Avrupa	Yunanistan	11781.437	96	1131017.915	0	Q245273		Aetolian League	
+151	Cai	-750	-451	-749	-450	MÖ	Asya	Çin Halk Cumhuriyeti	3682.794	300	1104838.061	0	Q1025803		Cai (state)	
+152	Minoan civilization	-1600	-1401	-1599	-1400	MÖ	Avrupa	Yunanistan	5498.973	200	1099794.631	0	Q134178	gr_crete_new_palace	Minoan civilization	ad~minos(0.73)
+153	Cornwall	710	946	710	946	1–999	Avrupa	Birleşik Krallık	4538.457	237	1075614.216	0	Q23148	gb_brythonic_k	Cornwall	
+154	County of Poitou	1206	1249	1206	1249	1000–1280	Avrupa	Fransa	23634.219	44	1039905.646	0	Q2991374	fr_capetian_k_2	County of Poitou	
+155	Janapada of Kuru	-600	-405	-599	-404	MÖ	Asya	Hindistan	5231.696	196	1025412.508	0	Q1068408	in_mahajanapada	Kuru Kingdom	ad~kush-krallik(0.71)
+156	Janapada of Matsya	-600	-405	-599	-404	MÖ	Asya	Hindistan	5219.660	196	1023053.289	0	Q2665398	in_mahajanapada	Matsya (tribe)	ad~massalia(0.77)
+157	Janapada of Surasena	-600	-405	-599	-404	MÖ	Asya	Hindistan	5198.609	196	1018927.379	0	Q1330149	in_mahajanapada	Surasena	ad~kush-krallik(0.71)
+158	Duchy of Głogów	1250	1313	1250	1313	1000–1280	Avrupa	Polonya	15752.273	64	1008145.503	0	Q684501	pl_piast_dyn_2	Duchy of Głogów	
+159	Janapada of Avanti	-600	-405	-599	-404	MÖ	Asya	Hindistan	5103.958	196	1000375.794	0	Q4827705	in_mahajanapada	Avanti (region)	ad~kush-krallik(0.71)
+160	Kingdom of Syrmia	1285	1325	1285	1325	1281–1923	Avrupa	Sırbistan	24036.051	41	985478.073	0	Q1309492		Syrmia	sirbistan(oy 63) | macaristan(oy 9) | ad~ava(0.71)
+161	Janapada of Pañcāla	-600	-405	-599	-404	MÖ	Asya	Hindistan	4959.468	196	972055.795	0	Q558603	in_mahajanapada	Pañcāla	ad~kush-krallik(0.71)
+162	Rus'	880	881	880	881	1–999	Avrupa	Rusya	485847.474	2	971694.949	0	Q1108445		Rus	
+163	Principality of Turov	1294	1325	1294	1325	1281–1923	Avrupa	Beyaz Rusya	29466.991	32	942943.703	0	Q671362		Principality of Turov	
+164	Gauda Kingdom	602	611	602	611	1–999	Asya	Bangladeş	90553.520	10	905535.202	0	Q17076645	in_gauda_k	Gauda Kingdom	
+165	Janapada of Malla	-600	-451	-599	-450	MÖ	Asya	Hindistan	5485.716	150	822857.353	0	Q1376303	in_mahajanapada	Malla (tribe)	ad~massalia(0.73)
+166	Western Yan	387	393	387	393	1–999	Asya	Çin Halk Cumhuriyeti	116089.939	7	812629.570	0	Q1149230		Western Yan	
+167	Zhongshan	-366	-292	-365	-291	MÖ	Asya	Çin Halk Cumhuriyeti	10739.333	75	805449.997	0	Q59223		Zhongshan	
+168	Trưng sisters	43	50	43	50	1–999	Asya	Vietnam	99740.548	8	797924.381	0	Q1207428		Trưng sisters	
+169	Janapada of Kāśī	-600	-451	-599	-450	MÖ	Asya	Hindistan	5039.935	150	755990.232	0	Q12660335	in_mahajanapada	Kāśī (kingdom)	ad~kush-krallik(0.71)
+170	Sulayhid Dynasty	1056	1065	1056	1065	1000–1280	Asya	Yemen	75389.699	10	753896.995	0	Q2364248		Sulayhid dynasty	ad~suleyhi(0.77)
+171	Janapada of Kosala	-600	-451	-599	-450	MÖ	Asya	Hindistan	4989.650	150	748447.534	0	Q756854	in_mahajanapada	Kosala	ad~kush-krallik(0.71)
+172	Jibei	-208	-204	-207	-203	MÖ	Asya	Çin Halk Cumhuriyeti	145994.905	5	729974.524	0	Q5349053		Eighteen Kingdoms	
+173	Kingdom of Gwent	540	1055	540	1055	1–999	Avrupa	Birleşik Krallık	1442.704	503	725680.260	0	Q2594661	gb_brythonic_k	Kingdom of Gwent	
+174	Emirate of Crete	830	960	830	960	1–999	Avrupa	Yunanistan	5498.973	131	720365.483	0	Q603771	gr_crete_emirate	Emirate of Crete	
+175	Vanuatu	1983	2024	1983	2024	1924+	Okyanusya	Vanuatu	16885.240	42	709180.076	0	Q686		Vanuatu	
+176	Balasagan	638	646	638	646	1–999	Asya	Azerbaycan	74448.795	9	670039.152	0	Q3633213		Balasagan	
+177	Janapada of Cedī	-600	-451	-599	-450	MÖ	Asya	Hindistan	4395.842	150	659376.318	0	Q124207979	in_mahajanapada	Cedī (tribe)	ad~kush-krallik(0.71)
+178	Kingdom of Rheged	592	646	592	646	1–999	Avrupa	Birleşik Krallık	11953.243	55	657428.343	0	Q633573	gb_brythonic_k	Rheged	
+179	Linjiang	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	216392.866	3	649178.597	0	Q5349053		Eighteen Kingdoms	
+180	Janapada of Vajji	-600	-481	-599	-480	MÖ	Asya	Nepal	5163.498	120	619619.762	0	Q605199	in_mahajanapada	Vajjika League	ad~kush-krallik(0.71)
+181	Rhodes	-188	-165	-187	-164	MÖ	Asya	Türkiye	25801.441	24	619234.576	0	Q43048		Rhodes	
+182	Sultanate of Mempawah	1619	1827	1619	1827	1281–1923	Asya	Endonezya	2936.870	209	613805.792	0	Q19746028		Mempawah Kingdom	
+183	Laomedon	-323	-319	-322	-318	MÖ	Asya	Suriye	122342.579	5	611712.893	0	Q977461	gr_macedonian_emp	Laomedon of Mytilene	
+184	Kingdom of Bernicia	555	633	555	633	1–999	Avrupa	Birleşik Krallık	10528.814	58	610671.208	0	Q623751	gb_anglo_saxon_1	Bernicia	ad~mercia(0.71)
+185	Janapada of Vatsa	-600	-451	-599	-450	MÖ	Asya	Hindistan	4014.804	150	602220.615	0	Q1331184	in_mahajanapada	Vatsa	ad~kush-krallik(0.71)
+186	Perdiccas	-323	-319	-322	-318	MÖ	Asya	Irak	117037.078	5	585185.392	0	Q202113	gr_macedonian_emp	Perdiccas	
+187	Janapada of Anga	-600	-501	-599	-500	MÖ	Asya	Hindistan	5577.981	100	557798.083	0	Q1155818	in_mahajanapada	Anga	ad~chu-devleti(0.75)
+188	Former Jin	922	925	922	925	1–999	Asya	Çin Halk Cumhuriyeti	135052.876	4	540211.505	0	Q6201794	cn_five_dyn	Jin (Later Tang precursor)	
+189	Southern Liang	397	413	397	413	1–999	Asya	Çin Halk Cumhuriyeti	31085.388	17	528451.594	0	Q1069868		Liang dynasty	
+190	Janapada of Kamboja	-600	-501	-599	-500	MÖ	Asya	Pakistan	5086.774	100	508677.352	0	Q2586782	in_mahajanapada	Kambojas	ad~kush-krallik(0.71)
+191	Rugiland	455	489	455	489	1–999	Avrupa	Avusturya	14525.997	35	508409.886	0	Q872644		Rugiland	
+192	County of Pallars Sobirà	1040	1201	1040	1201	1000–1280	Avrupa	İspanya	3110.534	162	503906.489	0	Q12719		Pallars Sobirà	ad~pala(0.80)
+193	Janapada of Gandhāra	-600	-501	-599	-500	MÖ	Asya	Hindistan	4987.758	100	498775.770	0	Q112980583	in_mahajanapada	Gandhāra (kingdom)	ad~kush-krallik(0.71)
+194	County of Besalú	898	989	898	989	1–999	Avrupa	İspanya	6360.507	78	496119.511	0	Q1541642		County of Besalú	
+195	Namayan	1202	1571	1202	1571	1000–1280	Asya	Filipinler	1127.720	370	417256.521	0	Q4401026		Namayan	ad~nama-orlam(1.00)
+196	Duchy of Wrocław	1169	1201	1169	1201	1000–1280	Avrupa	Polonya	12554.534	33	414299.626	0	Q568638	pl_piast_dyn_2	Duchy of Wrocław	
+197	County of Vexin	990	1084	990	1084	1–999	Avrupa	Fransa	4129.590	95	392311.084	0	Q1476089	fr_capetian_k_1	Vexin	
+198	County of Ampuria	1000	1414	1000	1414	1000–1280	Avrupa	İspanya	928.130	408	378677.220	0	Q1541699		County of Empúries	ad~apulya-dukaligi(0.77)
+199	County of Portugal	1139	1146	1139	1146	1000–1280	Avrupa	Portekiz	46122.939	8	368983.513	0	Q1139807		County of Portugal	
+200	Kingdom of Lindsey	534	625	534	625	1–999	Avrupa	Birleşik Krallık	3976.157	92	365806.437	0	Q886986		Kingdom of Lindsey	ad~linyi-champa(0.73)
+201	County of Aragon	830	921	830	921	1–999	Avrupa	İspanya	3584.731	92	329795.218	0	Q1235737		County of Aragon	
+202	Duchy of Oldenburg	1806	1870	1806	1870	1281–1923	Avrupa	Almanya	4895.268	62	303506.604	0	Q697084		Duchy of Oldenburg	ad~mecklenburg-schwerin(0.70)
+203	Kingdom of Dambadeniya	1236	1293	1236	1293	1000–1280	Asya	Sri Lanka	5219.250	58	302716.478	0	Q3136869	sl_dambadeniya	Kingdom of Dambadeniya	ad~almanya(0.71)
+204	Athenian Coalition	-323	-257	-322	-256	MÖ	Avrupa	Yunanistan	23256.883	13	302339.476	0	Q33745		Peloponnesian War	
+205	Republic of Uryankhay	1912	1913	1912	1913	1281–1923	Avrupa	Rusya	148695.247	2	297390.495	0	Q56282578		Uryankhay Republic	ad~ingiliz-guyanasi(0.75)
+206	Taifa of Córdoba	1147	1249	1147	1249	1000–1280	Avrupa	İspanya	15319.617	19	291072.717	0	Q2285679	es_taifas	Taifa of Córdoba	ad~altinorda(0.73)
+207	Dai	-208	-204	-207	-203	MÖ	Asya	Çin Halk Cumhuriyeti	57015.651	5	285078.255	0	Q5349053		Eighteen Kingdoms	
+208	Thuringian states	469	475	469	475	1–999	Avrupa	Almanya	40556.905	7	283898.338	0	Q315010		Thuringian states	
+209	Kampili Kingdom	1285	1332	1285	1332	1281–1923	Asya	Hindistan	5836.010	48	280128.491	0	Q1446192	in_kampili_k	Kampili Kingdom	
+210	Duchy of Brunswick	1814	1870	1814	1870	1281–1923	Avrupa	Almanya	4878.429	57	278070.438	0	Q326029		Duchy of Brunswick	
+211	Shunten Dynasty	1188	1313	1188	1313	1000–1280	Asya	Japonya	2186.103	126	275448.944	0	Q6151113		Shunten dynasty	ryukyu(oy 4)
+212	Western Liang	407	409	407	409	1–999	Asya	Çin Halk Cumhuriyeti	88384.905	3	265154.715	0	Q4186404		Western Liang (Sixteen Kingdoms)	
+213	Danish Gold Coast	1659	1852	1659	1852	1281–1923	Afrika	Gana	1348.936	194	261693.543	0	Q770833		Danish Gold Coast	ingiltere(oy 2) | hollanda(oy 1) | ad~gond-kralliklari(0.75)
+214	Phayao Kingdom	1294	1343	1294	1343	1281–1923	Asya	Tayland	5231.350	50	261567.513	0	Q4202088		Phayao Kingdom	
+215	Jiujiang	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	86995.156	3	260985.467	0	Q5349053		Eighteen Kingdoms	
+216	Hán	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	86683.955	3	260051.865	0	Q5349053		Eighteen Kingdoms	
+217	County of Béarn	1385	1452	1385	1452	1281–1923	Avrupa	Fransa	3806.065	68	258812.447	0	Q213763	fr_valois_k_1	Béarn	ad~bern-cumhuriyeti(0.89)
+218	Merovingian Empire	710	717	710	717	1–999	Avrupa	Fransa	32241.361	8	257930.889	0	Q146246	fr_merovingian_emp_3	Francia	ad~frank(0.75)
+219	Hwicce	577	627	577	627	1–999	Avrupa	Birleşik Krallık	4839.470	51	246812.974	0	Q733799	gb_anglo_saxon_1	Hwicce	
+220	Gao Kaidao	623	625	623	625	1–999	Asya	Çin Halk Cumhuriyeti	81782.553	3	245347.660	0	Q712564		Gao Kaidao	
+221	Principality of Koknese	1111	1209	1111	1209	1000–1280	Avrupa	Letonya	2287.825	99	226494.649	0	Q2502248		Principality of Koknese	
+222	Vermont Republic	1783	1790	1783	1790	1281–1923	K.Amerika	Amerika Birleşik Devletleri	28159.339	8	225274.714	0	Q1649602		Vermont Republic	
+223	Liaodong	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	70288.224	3	210864.673	0	Q5349053		Eighteen Kingdoms	
+224	Polyperchon	-318	-316	-317	-315	MÖ	Avrupa	Kuzey Makedonya	69899.547	3	209698.641	0	Q312008		Polyperchon	
+225	Principality of Reuss-Gera	1806	1870	1806	1870	1281–1923	Avrupa	Almanya	3179.600	65	206674.023	0	Q639100		Principality of Reuss-Gera	ad~gran-kolombiya(0.75)
+226	Taifa of Saltés and Huelva	1015	1151	1015	1151	1000–1280	Avrupa	İspanya	4444.934	46	204466.981	0	Q2081763	es_taifas	Taifa of Saltés and Huelva	ad~toledo-zunnunler(0.83)
+227	Carolingian Empire	718	723	718	723	1–999	Avrupa	Fransa	32241.361	6	193448.167	0	Q146246		Francia	
+228	Mosquito Kingdom	1853	1859	1853	1859	1281–1923	K.Amerika	Nikaragua	26801.146	7	187608.023	0	Q1165546		Mosquito Coast	
+229	Duchy of Tuscia	577	586	577	586	1–999	Avrupa	İtalya	17118.783	10	171187.827	0	Q1054580		Duchy of Tuscia	
+230	Chinese Communists	1928	1931	1928	1931	1924+	Asya	Çin Halk Cumhuriyeti	38942.132	4	155768.529	0	Q17427		Chinese Communist Party	ad~cin-cumhuriyeti(0.86)
+231	Mahajanapadas	-480	-451	-479	-450	MÖ	Asya	Nepal	5163.498	30	154904.941	0	Q846025	in_mahajanapada	Mahajanapadas	
+232	Jiaodong	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	51054.510	3	153163.531	0	Q5349053		Eighteen Kingdoms	
+233	Italian City-States	-91	-88	-90	-87	MÖ	Avrupa	İtalya	36108.737	4	144434.949	0	Q4115680		Italian city-states	
+234	Corsican Republic	1757	1768	1757	1768	1281–1923	Avrupa	Fransa	11217.368	12	134608.414	0	Q71234		Corsican Republic	ceneviz(oy 10) | fransa(oy 2)
+235	Duchy of Kuyavia	1188	1205	1188	1205	1000–1280	Avrupa	Polonya	6843.821	18	123188.784	0	Q11750543	pl_piast_dyn_2	Duchy of Kuyavia	
+236	Henan	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	40946.260	3	122838.780	0	Q5349053		Eighteen Kingdoms	
+237	Angles	387	479	387	479	1–999	Avrupa	Almanya	1292.845	93	120234.573	0	Q234218		Angles	
+238	Chang-shan	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	34631.558	3	103894.674	0	Q5349053		Eighteen Kingdoms	ad~chavin(0.73)
+239	Domain of Rhodes	1206	1249	1206	1249	1000–1280	Avrupa	Yunanistan	2169.180	44	95443.922	0	Q43048		Rhodes	
+240	Taifa of Santa Maria do Algarve	1018	1055	1018	1055	1000–1280	Avrupa	Portekiz	2251.564	38	85559.418	0	Q2077765	es_taifas	Taifa of Santa Maria do Algarve	ad~maya-sehir-devletleri(0.89)
+241	Wihtgar	523	691	523	691	1–999	Avrupa	Birleşik Krallık	507.792	164	83277.875	0	Q3568009		Wihtwara	
+242	Taifa of Niebla	1015	1249	1015	1249	1000–1280	Avrupa	İspanya	1553.706	50	77685.301	0	Q2668600	es_taifas	Taifa of Niebla	ad~toledo-zunnunler(0.83)
+243	São Tomé and Príncipe	1976	2024	1976	2024	1924+	Afrika	São Tomé ve Príncipe	1485.404	49	72784.812	0	Q1039		São Tomé and Príncipe	ad~gronland-dan(0.75)
+244	Los Altos	1840	1841	1840	1841	1281–1923	K.Amerika	Guatemala	35592.797	2	71185.595	0	Q738264		Los Altos (state)	guatemala(oy 2)
+245	Duchy of Łęczyca	1139	1146	1139	1146	1000–1280	Avrupa	Polonya	8825.828	8	70606.627	0	Q970940	pl_piast_dyn_2	Łęczyca Voivodeship	
+246	Duchy of Racibórz	1285	1304	1285	1304	1281–1923	Avrupa	Polonya	3383.578	20	67671.562	0	Q700117	pl_piast_dyn_2	Duchy of Racibórz	
+247	Kingdom of Singapura	1305	1401	1305	1401	1281–1923	Asya	Singapur	691.004	97	67027.421	0	Q27842		Kingdom of Singapura	
+248	Frisia	783	787	783	787	1–999	Avrupa	Hollanda	12911.018	5	64555.090	0	Q4492881		Frisia	
+249	Principality of Waldeck and Pyrmont	1806	1870	1806	1870	1281–1923	Avrupa	Almanya	964.550	65	62695.725	0	Q165763		Principality of Waldeck and Pyrmont	ad~sardinya-piyemonte(0.80)
+250	Principality of Schwarzburg-Sonderhausen	1820	1870	1820	1870	1281–1923	Avrupa	Almanya	1210.441	51	61732.488	0	Q708821		House of Schwarzburg	
+251	Principality of Hohenzollern-Sigmaringen	1806	1852	1806	1852	1281–1923	Avrupa	Almanya	1309.567	47	61549.632	0	Q157013		Hohenzollern-Sigmaringen	
+252	Frisians	793	799	793	799	1–999	Avrupa	Almanya	8792.546	7	61547.820	0	Q106416		Frisians	
+253	Principality of Lippe	1806	1870	1806	1870	1281–1923	Avrupa	Almanya	850.567	65	55286.847	0	Q14551680		Principality of Lippe	
+254	New Sweden	1640	1658	1640	1658	1281–1923	K.Amerika	Amerika Birleşik Devletleri	2841.389	19	53986.392	0	Q322187		New Sweden	
+255	Kingdom of Dunoting	592	625	592	625	1–999	Avrupa	Birleşik Krallık	1515.337	34	51521.471	0	Q2264840	gb_brythonic_k	Dunoding	
+256	Nieuwe Republiek	1885	1889	1885	1889	1281–1923	Afrika	Güney Afrika Cumhuriyeti	10205.352	5	51026.762	0	Q552157		Nieuwe Republiek	ad~transvaal(1.00)
+257	Polish Armed Forces	1918	1918	1918	1918	1281–1923	Avrupa	Beyaz Rusya	50816.570	1	50816.570	0	Q248989		Polish Land Forces	sovyet-rusya(oy 1)
+258	Sai	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	16521.053	3	49563.159	0	Q5349053		Eighteen Kingdoms	
+259	County of Boulogne	1188	1259	1188	1259	1000–1280	Avrupa	Fransa	683.948	67	45824.538	0	Q1431527	fr_capetian_k_2	County of Boulogne	
+260	Yin	-206	-204	-205	-203	MÖ	Asya	Çin Halk Cumhuriyeti	14021.623	3	42064.868	0	Q5349053		Eighteen Kingdoms	
+261	Principality of Monaco	1642	2024	1642	2024	1281–1923	Avrupa	Fransa	164.428	233	38311.708	0	Q235		Monaco	sardinya(oy 7) | fransa-cumhuriyet(oy 2) | ad~monako(0.83)
+262	Maderistas	1911	1911	1911	1911	1281–1923	K.Amerika	Meksika	34588.905	1	34588.905	0	Q5428692		List of factions in the Mexican Revolution	meksika(oy 1) | ad~macaristan-habsburg(0.70)
+263	Freetown Colony	1788	1796	1788	1796	1281–1923	Afrika	Sierra Leone	3430.066	9	30870.598	0	Q3780	gb_british_emp_1	Freetown	ingiltere(oy 2)
+264	Molossians	-170	-165	-169	-164	MÖ	Avrupa	Yunanistan	4707.853	6	28247.116	0	Q827399		Molossians	
+265	Duchy of Kalisz	1210	1219	1210	1219	1000–1280	Avrupa	Polonya	2818.843	10	28188.430	0	Q16570037	pl_piast_dyn_2	Duchy of Kalisz	
+266	Italian Nationalists	1848	1848	1848	1848	1281–1923	Avrupa	İtalya	21787.737	1	21787.737	0	Q6093359		Italian nationalism	napoli(oy 2)
+267	French Colony of Guiana	1791	1791	1791	1791	1281–1923	Avrupa	Fransa	19564.716	1	19564.716	0	Q3769	fr_bourbon_k_2	French Guiana	fransa(oy 1) | ad~hollanda-guyanasi(0.86)
+268	Kingdom of Sobrarbe	825	829	825	829	1–999	Avrupa	İspanya	3489.767	5	17448.837	0	Q3572492		Kingdom of Sobrarbe	
+269	Sultanate of Zanzibar	1963	1966	1963	1966	1924+	Afrika	Tanzanya	4244.908	4	16979.632	0	Q157904		Sultanate of Zanzibar	tanzanya(oy 2) | tanganika(oy 1) | ad~umman-zengibar(0.75)
+270	Mamertines	-271	-257	-270	-256	MÖ	Avrupa	İtalya	933.810	15	14007.155	0	Q1164281		Mamertines	
+271	Seychelles	1976	2024	1976	2024	1924+	?	(deniz/bulunamadı)	258.602	49	12671.492	0	Q1042		Seychelles	
+272	Taifa of Tejada	1147	1151	1147	1151	1000–1280	Avrupa	Portekiz	2251.564	5	11257.818	0	Q2522604	es_taifas	Taifa of Tejada	
+273	Cuban Communists	1958	1959	1958	1959	1924+	K.Amerika	Küba	3144.436	2	6288.872	0	Q371402		Communist Party of Cuba	ad~arnavutluk-halk-cumhuriyeti(0.82)
+274	First French colonial empire	1805	1814	1805	1814	1281–1923	K.Amerika	Saint Pierre ve Miquelon	438.575	10	4385.746	0	Q71084		French colonial empire 	ad~ingiliz-siyera-leon(0.71)
+275	Principality of Lichtenberg	1820	1827	1820	1827	1281–1923	Avrupa	Almanya	178.553	8	1428.426	0	Q547629		Principality of Lichtenberg	
