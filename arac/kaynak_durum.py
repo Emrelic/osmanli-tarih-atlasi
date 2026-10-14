@@ -103,7 +103,7 @@ KAPI_SURE_SN = 300
 #   İz yazılamazsa ilan REDDEDİLİR (çıkış 6): izsiz atlama, şartın kendisini çiğner.
 KOSU_DAMGA_AD = os.path.join("oturumlar", "KOSU-KAPI.json")
 DEFTER = os.path.join(KOK, "oturumlar", "KOSU-KAPI-DEFTERI.jsonl")
-MOTOR_IZ_DOSYALARI = ("uret_petek.py", "renkler.py", "girdi.py")   # girdi.motor_izi() ile AYNI
+MOTOR_IZ_DOSYALARI = ("uret_petek.py", "renkler.py", "girdi.py", "gun.py")   # girdi.motor_izi() ile AYNI
 
 
 def kosu_damga_yolu(kok):

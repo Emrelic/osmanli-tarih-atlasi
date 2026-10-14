@@ -194,3 +194,113 @@ def negatif_yil_kapisi(tarihler, motor_sayacli):
     if neg and not motor_sayacli:
         satir += ["negatif yıl, motor SAYAÇSIZ (uret_petek.py `GUN_SAYACI = True` yok): " + x for x in neg]
     return ("OLCULEMEDI" if satir else "TAMAM"), satir
+
+
+# ---------------------------------------------------------------------------
+# TARİH DİZGİSİ — SIRA SAYIYLA (NEGATIF-YIL-1010-B, engel ③④)
+# Atlas tarihleri dizgi olarak `<`/`sorted`/`min`/`max` ile kıyaslıyor: motorda 77,
+# araçlarda 152 site (AST taraması). Negatif yılda dizgi sırası TERS ("-2999" <
+# "-0001" → False) ve hata VERMEZ — sessizce yanlış dönem seçer. Siteleri teker
+# teker int'e çevirmek tuz dosyalarında yüzlerce satır demek; bunun yerine tarih
+# OKUNDUĞU SINIRDA (`girdi.yukle` · `oku_devletler` · `oku_goller` · `UFUK`) bir
+# kez `Tarih`e sarılır ve bütün sıra işlemleri GÜN SAYISIYLA yapılır.
+#   · `Tarih` bir `str`DİR: yazım, `==`, `hash`, dilim, JSON, f-dizgi AYNEN kalır
+#     (dizgi alanı değişmez, `GUN-SAYACI-TASARIM-1009 §②`).
+#   · `<` `<=` `>` `>=`: önce gün sayısı, eşitse DİZGİ (bugünkü sözlük sırasıyla
+#     birebir aynı kırılım: "1526-08" < "1526-08-01"; `==` ile tutarlı tam sıra).
+#   · Düz `str` ile kıyas: Python alt sınıfın yansıtılmış işlecini ÖNCE dener ⇒
+#     `"1281-01-01" <= t` de sayıyla. Öteki taraf tarih DEĞİLSE ("" · "~")
+#     NotImplemented → bugünkü sözlük kıyası (sınır bekçileri değişmez).
+#   · Geçersiz tarih SARILAMAZ: `Tarih("1453/05/29")` FIRLATIR (sessiz yanlış yok).
+#   ⚠️ Kör nokta: iki DÜZ `str` arasındaki kıyas hâlâ sözlük sırasıdır. Sarılmamış
+#     bir kaynaktan gelen negatif tarihi ancak AST envanteri gösterir.
+# ---------------------------------------------------------------------------
+_DUZ_ONBELLEK = {}
+
+
+def _duz_gun(s):
+    """Düz dizgi → gün sayısı; tarih değilse None (önbellekli — sınır sabitleri sıcak döngüde)."""
+    try:
+        return _DUZ_ONBELLEK[s]
+    except KeyError:
+        pass
+    try:
+        n = gun(str(s))
+    except (TypeError, ValueError):
+        n = None
+    _DUZ_ONBELLEK[s] = n
+    return n
+
+
+class Tarih(str):
+    """Gün sayısıyla sıralanan tarih dizgisi. `t.n` = gun(t)."""
+    __slots__ = ()
+
+    def __new__(cls, s):
+        if isinstance(s, Tarih):
+            return s
+        n = gun(s)                       # geçersizse FIRLATIR
+        o = str.__new__(cls, s)
+        _DUZ_ONBELLEK.setdefault(s, n)
+        return o
+
+    @property
+    def n(self):
+        return _duz_gun(self)
+
+    def __reduce__(self):
+        return (Tarih, (str(self),))
+
+    # Sıcak yol: iki sözlük bakışı (str hash'i nesnede önbellekli). Bulunamayan
+    # düz dizgi bir kez `_duz_gun` ile çözülür; tarih değilse (None) sözlük kıyası.
+    def __lt__(self, o):
+        try:
+            a, b = _DUZ_ONBELLEK[self], _DUZ_ONBELLEK[o]
+        except (KeyError, TypeError):
+            a, b = _duz_gun(self), (_duz_gun(o) if isinstance(o, str) else None)
+        if b is None or a == b:
+            return str.__lt__(self, o)
+        return a < b
+
+    def __le__(self, o):
+        try:
+            a, b = _DUZ_ONBELLEK[self], _DUZ_ONBELLEK[o]
+        except (KeyError, TypeError):
+            a, b = _duz_gun(self), (_duz_gun(o) if isinstance(o, str) else None)
+        if b is None or a == b:
+            return str.__le__(self, o)
+        return a < b
+
+    def __gt__(self, o):
+        try:
+            a, b = _DUZ_ONBELLEK[self], _DUZ_ONBELLEK[o]
+        except (KeyError, TypeError):
+            a, b = _duz_gun(self), (_duz_gun(o) if isinstance(o, str) else None)
+        if b is None or a == b:
+            return str.__gt__(self, o)
+        return a > b
+
+    def __ge__(self, o):
+        try:
+            a, b = _DUZ_ONBELLEK[self], _DUZ_ONBELLEK[o]
+        except (KeyError, TypeError):
+            a, b = _duz_gun(self), (_duz_gun(o) if isinstance(o, str) else None)
+        if b is None or a == b:
+            return str.__ge__(self, o)
+        return a > b
+
+    __eq__ = str.__eq__
+    __ne__ = str.__ne__
+    __hash__ = str.__hash__
+
+
+def tarihle(d, alanlar):
+    """Sözlükteki tarih alanlarını YERİNDE `Tarih`e sarar (yoksa/boşsa dokunmaz). Geçersizse FIRLATIR."""
+    for a in alanlar:
+        v = d.get(a)
+        if isinstance(v, str) and v and not isinstance(v, Tarih):
+            try:
+                d[a] = Tarih(v)
+            except ValueError as e:
+                raise ValueError("%s=%r: %s" % (a, v, e)) from None
+    return d

@@ -44,6 +44,8 @@ import math
 import os
 import re
 
+import gun as _gun     # NEGATIF-YIL-1010-B: tarih SIRASI gün sayısıyla (`gun.Tarih`)
+
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
 
@@ -594,6 +596,12 @@ def oku_devletler():
         raise SystemExit(f"!! {DEVLET_DOSYASI}: 0 kayıt döndü — dosya boş "
                          f"olamaz, ayrıştırma çürümüş demektir (sessiz sıfır "
                          f"yasak)")
+    for d in kayitlar:                  # NEGATIF-YIL-1010-B: künye f/t + kronoloji t SAYIYLA sıralanır
+        if isinstance(d, dict):
+            _gun.tarihle(d, ("f", "t"))
+            for k in d.get("kronoloji") or []:
+                if isinstance(k, dict):
+                    _gun.tarihle(k, ("t",))
     return kayitlar
 
 
@@ -641,6 +649,17 @@ def yukle(sessiz=False):
             # yeni partinin kırılmaları çekirdek tavanına KATILMAZ, kaynağa
             # göre ayrı sayaçta raporlanır.
             y["_kaynak"] = ad
+            # NEGATIF-YIL-1010-B — tarih alanları `Tarih`e sarılır (dizgi AYNEN,
+            # sıra GÜN SAYISIYLA). Alan doğrulamasından SONRA: yükleyici kendi
+            # eklediğini reddetmesin. Geçersiz tarih yükü DURDURUR (sessiz yanlış yok).
+            try:
+                _gun.tarihle(y, ("kur", "bit", "go"))
+                for kat in ("s", "d", "v", "isg", "kd"):
+                    for p in y.get(kat) or []:
+                        if isinstance(p, dict):
+                            _gun.tarihle(p, ("f", "t"))
+            except ValueError as e:
+                raise ValueError(f"{ad}:{y['ad']}: tarih okunamadı — {e}") from None
         hepsi.extend(kayitlar)
         if not sessiz:
             print(f"  {ad}: {len(kayitlar)} nokta")
@@ -734,10 +753,13 @@ GECIT_DOSYASI = "gecitler.js"
 #              sorar. Z5/Z6 veriyi uzattıkça GENİŞLER; UFUK'tan ayrı oynar.
 # ⚠️ İkisini birleştirmek: ya (dar) yeni pencere hiç örneklenmez, ya (geniş)
 #   4.094 sınır işareti birden "sessiz toprak kaybı" olur (Değişmez 2s).
-# ⚠️ Tarihler DİZGİ karşılaştırılır: yıl 4 hane olmalı (1000 güvenli; <1000
-#   için sıfır doldurma, MÖ için motor yaması — ONCE1281-MOTOR-UFUK-1004 §1.2).
+# NEGATIF-YIL-1010-B: tarihler `gun.Tarih` — dizgi aynen, SIRA gün sayısıyla
+#   (MÖ ve üç haneli yıl güvenli). Yükleyiciden geçmeyen düz dizgi hâlâ sözlük sırasıdır.
 UFUK = ("1000-01-01", "2000-12-31")
 VERI_UFKU = ("1281-01-01", "2000-12-31")
+# NEGATIF-YIL-1010-B — uçlar `Tarih`: `EPOK <= t <= KESIT_SON` MÖ'de de sayıyla kıyaslar.
+UFUK = tuple(_gun.Tarih(x) for x in UFUK)
+VERI_UFKU = tuple(_gun.Tarih(x) for x in VERI_UFKU)
 # 🔴 UFUK DAMGASI (ZAMAN-GENİŞ-1008, koordinatör hükmü) — TEK TANIM, buradan okunur.
 #   UFUK ve VERI_UFKU'nun uç günleri (bugün 1000-01-01 · 1281-01-01 ·
 #   1923-10-29 · 1945-09-02): bu günlere yazılmış tarih bir el değiştirme
@@ -778,6 +800,7 @@ def oku_goller(sessiz=False):
     for g in _cevir(js, m.group(1)):
         gec = g.get("gecerli") or {}
         gf, gt = gec.get("f", UFUK[0]), gec.get("t", UFUK[1])
+        gf, gt = _gun.Tarih(gf), _gun.Tarih(gt)     # NEGATIF-YIL-1010-B: sıra sayıyla
         if gf >= UFUK[1] or gt <= UFUK[0]:          # ÖRTÜŞME YOK ⇒ alınmaz
             print(f"  UYARI göl: '{g.get('ad')}' {gf}→{gt} UFUK {UFUK[0]}→{UFUK[1]} "
                   f"ile HİÇ örtüşmüyor — ATLANDI")
@@ -835,7 +858,8 @@ def motor_izi():
     """
     import hashlib
     iz = {}
-    for ad in ("uret_petek.py", "renkler.py", "girdi.py"):
+    # NEGATIF-YIL-1010-B-v3: gun.py motorun tarih SIRASINI verir (girdi.Tarih) ⇒ izde.
+    for ad in ("uret_petek.py", "renkler.py", "girdi.py", "gun.py"):
         yol = os.path.join(os.path.dirname(os.path.abspath(__file__)), ad)
         if os.path.exists(yol):
             iz[ad] = hashlib.sha256(io.open(yol, "rb").read()).hexdigest()

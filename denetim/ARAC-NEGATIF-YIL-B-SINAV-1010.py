@@ -176,16 +176,26 @@ for d in D:
     tumu.update(k.get("t") for k in d.get("kronoloji") or [] if k.get("t"))
 sarili = sum(isinstance(x, Tarih) for x in tumu)
 sor("yükleyici bütün tarihleri SARDI", sarili == len(tumu), "%d/%d" % (sarili, len(tumu)))
-duz = sorted(str(x) for x in tumu)
-sor("sorted(Tarih) == sorted(düz dizgi) — %d ayrık tarih" % len(tumu),
-    [str(x) for x in sorted(tumu)] == duz)
-L = sorted(tumu, key=str)
+# v3 (14 Ekim 2026): main'de artık MÖ künye tarihi VAR (ölçüldü: 532 ayrık negatif, künye
+# f/t + kronoloji). Geriye uyumluluk yalnız MS (yıl ≥ 1) alt kümesinde sorulur; negatifte
+# sözlük sırası ZATEN yanlıştı ⇒ orada gün sırası istenir ve eski yolun öttüğü gösterilir.
+ms = {x for x in tumu if not str(x).startswith("-")}
+neg = tumu - ms
+duz = sorted(str(x) for x in ms)
+sor("sorted(Tarih) == sorted(düz dizgi) — MS %d ayrık tarih" % len(ms),
+    [str(x) for x in sorted(ms)] == duz)
+L = sorted(ms, key=str)
 random.seed(42)
 fark = sum((a < b) != (str(a) < str(b)) or (a <= b) != (str(a) <= str(b))
            for a, b in ((random.choice(L), random.choice(L)) for _ in range(200000)))
-sor("200.000 rastgele çift: Tarih kıyası == sözlük kıyası (bugünkü veri)", fark == 0, "%d fark" % fark)
+sor("200.000 rastgele MS çift: Tarih kıyası == sözlük kıyası (bugünkü veri)", fark == 0, "%d fark" % fark)
+sira = sorted(tumu)
+sor("BÜTÜN tarihler (MÖ %d dahil) Tarih sırası == gün sırası" % len(neg),
+    [gun.gun(x) for x in sira] == sorted(gun.gun(x) for x in tumu))
+sor("MÖ tarihlerde ESKİ sözlük sırası gün sırasından AYRILIR — öter",
+    len(neg) < 2 or sorted(str(x) for x in neg) != [str(x) for x in sorted(neg)], "%d negatif" % len(neg))
 sor("UFUK/VERI_UFKU Tarih, değeri AYNI", isinstance(girdi.UFUK[0], Tarih)
-    and tuple(girdi.UFUK) == ("1000-01-01", "1945-09-02") and tuple(girdi.VERI_UFKU) == ("1281-01-01", "1923-10-29"))
+    and tuple(girdi.UFUK) == ("1000-01-01", "2000-12-31") and tuple(girdi.VERI_UFKU) == ("1281-01-01", "2000-12-31"))
 
 print("\nⓂ MOTOR — kaynaktan çıkarılan GERÇEK satırlar (motor koşturulmaz)")
 UP = kaynak("arac/uret_petek.py")

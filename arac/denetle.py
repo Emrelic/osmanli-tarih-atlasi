@@ -1198,7 +1198,21 @@ def olaylari_yukle():
         if not m:
             continue
         olaylar.extend(oku_pencere(yol, m.group(1)))
+    # NEGATIF-YIL-1010-B — madde `t` `Tarih`e sarılır: `sorted(key=o["t"])` ve
+    # dönem kıyasları SAYIYLA. Okunamayan `t` sarılmaz, ADIYLA sayılır (sessiz değil).
+    for o in olaylar:
+        if isinstance(o, dict) and isinstance(o.get("t"), str) and o["t"]:
+            try:
+                o["t"] = _gun.Tarih(o["t"])
+            except ValueError:
+                OKUNAMAYAN_MADDE_T.append(o["t"])
+    if OKUNAMAYAN_MADDE_T:
+        print(f"  ✗ madde `t` OKUNAMADI ({len(OKUNAMAYAN_MADDE_T)}) — sözlük sırasıyla kıyaslanır, "
+              f"negatif yılda YANLIŞ olabilir: {', '.join(sorted(set(OKUNAMAYAN_MADDE_T))[:10])}")
     return olaylar
+
+
+OKUNAMAYAN_MADDE_T = []
 
 
 def tam(s):
@@ -1296,7 +1310,9 @@ def degismez1_kapsam(Y):
         return any(p["f"] <= g < p["t"] for p in (ps or []))
     kapsam, delik = [], []
     for dad, df, dt in ufuk_devirleri():
-        gunler = ["%04d-06-15" % yil for yil in range(int(df[:4]), int(dt[:4]) + 1, 10)]
+        # NEGATIF-YIL-1010-B: `int(df[:4])` "-2999"ü "-299" okur; "%04d" -5'i "-005" yazar → gün sayacı
+        gunler = [_gun.Tarih(_gun.dizgi(_gun.gun_sayisi(yil, 6, 15)))
+                  for yil in range(_gun.yil(_gun.gun(df)), _gun.yil(_gun.gun(dt)) + 1, 10)]
         gunler = [g for g in gunler if df <= g < dt]
         for y in Y:
             if not any(y.get(k) for k in ("s", "d", "v")):
@@ -2335,17 +2351,16 @@ def kapsam_disi(Y, acik):
         # geçer — yoksa `(d+"-01-01")[:10]` "330-05-11-" verir ve FETRET dalının
         # `int(g[:4])`ü ValueError ile ÇÖKER. Dolgulu ve dört haneli girdi aynı kalır.
         g = pad(d)
-        g = g if len(g) == 10 else (g + "-01-01")[:10]
+        # NEGATIF-YIL-1010-B: "-2999-01-01" 11 karakter — `[:10]` onu KESERDİ.
+        g = _gun.Tarih(_gun.dizgi(_gun.gun(g))) if g.startswith("-") else (
+            g if len(g) == 10 else (g + "-01-01")[:10])
         kure = _osmanli_kure(Y, g)
         if not kure:
             # FETRET yedegi: en yakin govdeli gune kaydir
             for kaydir in (365, 730, 1460, 2920, 4380):
-                import datetime
-                yy, mm, dd = int(g[:4]), int(g[5:7]), int(g[8:10])
                 for yon in (-1, 1):
-                    try:
-                        alt = (datetime.date(yy, mm, dd)
-                               + datetime.timedelta(days=yon * kaydir)).isoformat()
+                    try:        # NEGATIF-YIL-1010-B: date() yerine gün sayacı
+                        alt = _gun.Tarih(_gun.dizgi(_gun.gun(g) + yon * kaydir))
                     except Exception:
                         continue
                     kure = _osmanli_kure(Y, alt)
@@ -2668,6 +2683,12 @@ def _devletler_yukle():
     ham = json.loads(c.stdout)
     global _DEVLETLER_HAM
     _DEVLETLER_HAM = ham
+    for d in ham:       # NEGATIF-YIL-1010-B: künye f/t + kronoloji t SAYIYLA sıralanır
+        if isinstance(d, dict):
+            _gun.tarihle(d, ("f", "t"))
+            for k in d.get("kronoloji") or []:
+                if isinstance(k, dict):
+                    _gun.tarihle(k, ("t",))
     return {d["id"]: (d.get("f"), d.get("t")) for d in ham if d.get("id")}
 
 
@@ -2728,6 +2749,12 @@ def _harita_tarih_sec(adaylar, pf, pt):
 
 def _gun_farki(a, b):
     from datetime import date as _d
+    # NEGATIF-YIL-1010-B: önce gün sayacı (negatif yıl dahil); okuyamazsa eski
+    # yol (bugünkü gevşek biçimler AYNEN — None sözleşmesi C1'in kararı, değişmedi).
+    try:
+        return _gun.gun(a) - _gun.gun(b)
+    except (TypeError, ValueError):
+        pass
 
     def ay(s):
         p = (s or "").split("-")
@@ -3203,13 +3230,14 @@ def degismez5(Y):
                                     g / 365.25))
         else:
             # 5b — kur: yok ve ilk dönem çok geç ⇒ kuruluş yazılmamış olabilir
-            if ilk > "%04d-01-01" % (int(VERI_UFKU[0][:4]) + SUPHE_ESIK_YIL):
+            if ilk > _gun.dizgi(_gun.gun_sayisi(            # NEGATIF-YIL-1010-B: [:4] negatifte "-299"
+                    _gun.yil(_gun.gun(VERI_UFKU[0])) + SUPHE_ESIK_YIL, 1, 1)):
                 suphe.append((y["ad"], ilk, donemler[0][2],
                               round(y.get("lat", 0), 2),
                               round(y.get("lon", 0), 2)))
             elif (y.get("tur") != "bolge"
                   and not y.get("kasitli_bosluk")
-                  and ilk <= VERI_UFKU[0][:4] + "-12-31"):
+                  and ilk <= _gun.dizgi(_gun.gun_sayisi(_gun.yil(_gun.gun(VERI_UFKU[0])), 12, 31))):
                 # 5c — `kur:` HİÇ YOK ve 1281'de zaten SAHİPLİ.
                 # Ne 5a (kur: yok) ne 5b (ilk dönem erken) görüyor.
                 kursuz.append((y["ad"], ilk, donemler[0][2],
@@ -3711,6 +3739,11 @@ def degismez7(Y, isg_kova=None):
         return gor
 
     def artir(g, gun):
+        if g.startswith("-"):   # NEGATIF-YIL-1010-B: split("-") negatifte "" verir → gün sayacı
+            try:
+                return _gun.Tarih(_gun.dizgi(_gun.gun(g) + gun))
+            except Exception:
+                return g
         p = g.split("-")
         try:
             return (date(int(p[0]), int(p[1]), int(p[2]))
@@ -4399,8 +4432,8 @@ def _kelimeler(b):
 
 
 def _gun_no(t):
-    p = (t + "-01-01").split("-")
-    return date(int(p[0]), int(p[1]), int(p[2])).toordinal()
+    # NEGATIF-YIL-1010-B: `(t+"-01-01").split("-")` negatifte "" verir → gün sayacı
+    return _gun.gun(t) + 719163
 
 
 # ⚠️ ÜÇÜNCÜ TUR — BAŞLIK BENZERLİĞİNİN KÖR NOKTASI (hatalar 7.docx madde 5)
@@ -5298,7 +5331,8 @@ def _d8_gun_once(g):
     try:
         # DENETLE-TARIH-KALAN-1008: `fromisoformat` dört haneli yıl ister;
         # "330-05-11" pad()'siz SESSİZCE None dönüyordu (gün düşüyordu).
-        return (date.fromisoformat(pad(g)) - timedelta(days=1)).isoformat()
+        # NEGATIF-YIL-1010-B: fromisoformat MÖ'de ValueError → gün sayacı (aynı biçim)
+        return _gun.Tarih(_gun.dizgi(_gun.gun(pad(g)) - 1))
     except ValueError:
         return None
 
@@ -6408,7 +6442,7 @@ def zincir_kaynagi_rapor(R, ayrinti=False):
     for ad, sebep in R["bozuk"]:
         print(f"    ✗ BOZUK BEYAN  {ad}: {sebep}")
     for ad, yer, f, t, tur, farklar in R["bayat"]:
-        gun = sum((date.fromisoformat(pad(s)) - date.fromisoformat(pad(b))).days
+        gun = sum(_gun.gun(pad(s)) - _gun.gun(pad(b))   # NEGATIF-YIL-1010-B (fromisoformat MÖ'de çöker)
                   for b, s, _, _ in farklar)     # pad: DENETLE-TARIH-KALAN-1008
         yalniz_isg = all(a[0] == k[0] for _, _, a, k in farklar)
         print(f"    BAYAT KOPYA  {ad} ← {yer}  [{f}, {t}) {tur} · {len(farklar)} dilim, {gun} gün ayrı"

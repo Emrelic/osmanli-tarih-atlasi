@@ -302,7 +302,8 @@ SENARYO_KANCA = r'''
 # ════ MOTOR-SINAV SENARYOSU (bellekte; girdi dosyası değişmez) ════
 import json as _js_s, copy as _cp_s, datetime as _dt_s
 def _s_kaydir(_g, _n):
-    return (_dt_s.date.fromisoformat(_g) + _dt_s.timedelta(days=_n)).isoformat()
+    # NEGATIF-YIL-1010-B: fromisoformat MÖ'de ValueError → gün sayacı (motor ad alanında `_gun`)
+    return _gun.Tarih(_gun.dizgi(_gun.gun(_g) + _n))
 for _op in _js_s.load(open(SENARYO_YOL, encoding="utf-8")):
     _hit = [y for y in YERLER if y["ad"] == _op.get("kopya", _op.get("sahip", _op.get("kaydir")))]
     if len(_hit) != 1:

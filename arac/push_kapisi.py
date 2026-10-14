@@ -49,7 +49,8 @@ sys.stdout.reconfigure(encoding="utf-8")
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PY = sys.executable
 KILIT_AD = "__MAIN_PUSH__"
-TUZ = {"arac/uret_petek.py", "arac/renkler.py", "arac/girdi.py", "arac/motor_onbellek.py"}
+TUZ = {"arac/uret_petek.py", "arac/renkler.py", "arac/girdi.py", "arac/motor_onbellek.py",
+       "arac/gun.py"}   # NEGATIF-YIL-1010-B-v3: motor tarih sırasını gun.Tarih ile kıyaslar
 # MOTOR çıktısı (uret_petek → kodla) — yalnız koşucu iter. Ham .js'ler gitignore'da,
 # burada TAKİPLİ türevler sayılır. `paket_*.js` BURADA DEĞİL: `paketle.py yenile`
 # kaynak veriden türer ve veri yazan oturum onu kendisi tazeler (yoksa site eski veriyi okur).

@@ -269,6 +269,10 @@ BOLGE = box(-180, -60, 180, 85)
 from renkler import BOYALAR
 # Yerleşim girdisinin tek okuma noktası — dosya listesi girdi.py'de.
 import girdi
+import gun as _gun     # NEGATIF-YIL-1010-B: KESIT_SON negatif-güvenli (fromisoformat MÖ'de ValueError)
+# NEGATIF-YIL-1010-B-v3 — motor SAYAÇLI beyanı (`gun.motor_sayacli_mi` bunu okur): tarih
+# sırası yükleyicinin `gun.Tarih`iyle; AST taraması (14 Ekim) 76 sitenin hepsini ölçtü.
+GUN_SAYACI = True
 R_DUNYA = 6371.0088
 
 # ⚠️ ANLIK GÖRÜNTÜ — HER ŞEYDEN ÖNCE, parmak izinden de önce.
@@ -2905,8 +2909,9 @@ _YASLAMA_IPTAL = []                 # koruma yüzünden iptal edilen yaslamalar
 #   `KESIT_SON` = ufuk sonu + 3 gün: eski nöbetçiyi BİREBİR üretir
 #   (1923-10-29 + 3 = 1923-11-01) — son kesite sıfırdan uzun bir aralık verir.
 EPOK = girdi.UFUK[0]
-KESIT_SON = (_dt.date.fromisoformat(girdi.UFUK[1])
-             + _dt.timedelta(days=3)).isoformat()
+# 🔴 NEGATIF-YIL-1010-B: `date.fromisoformat` MÖ yılında ValueError verir (MINYEAR 1)
+#   ⇒ gün sayacıyla: ufuk sonu + 3 gün, `Tarih` (sıra sayıyla). 1945-09-02 → 1945-09-05 AYNI.
+KESIT_SON = _gun.Tarih(_gun.dizgi(_gun.gun(girdi.UFUK[1]) + 3))
 
 # Örtü sadeleştirme toleransı (derece). coverage_simplify ile örtünün TAMAMINA
 # bir kez uygulanır; ortak kenarların iki yanı birebir aynı kalır. Gövde başına
@@ -8490,7 +8495,9 @@ else:
         # ⚠️ Etiket "1300-06-15 (yabancı)" olabilir; kıyas TARİH kısmıyla
         # yapılmalı, yoksa dize karşılaştırması kendi kesitini de "önceki"
         # sayar ve "ondan önceki N kesitte fark YOK" satırı yanlış çıkar.
-        _once = [g for g in OLCU_KESIT if g < _oyn[0][0][:10]]
+        # NEGATIF-YIL-1010-B-v3: `[:10]` MÖ'de 11 haneli tarihi keserdi ⇒ boşluğa kadar + gün sayısı.
+        _once = [g for g in OLCU_KESIT
+                 if _gun.gun(g) < _gun.gun(_oyn[0][0].split(" ")[0])]
         print(f"  → ilk oynayan kesit {_oyn[0][0]}"
               + (f"; ondan önceki {len(_once)} kesitte fark YOK" if _once else "")
               + (f" · ilk sapan dönem başlangıcı {_ilk[0]} ({_ilk[1]:+,} km²)"
