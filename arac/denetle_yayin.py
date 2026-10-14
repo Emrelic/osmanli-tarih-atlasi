@@ -1254,6 +1254,11 @@ def main():
         "data/sehir_tarihce_osm.js":     "241 sehir arastirma birikimi (OSM bolgesi); "
                                          "onkosul AKTARIM (MO motor destegi C4 + "
                                          "Emre kararlari, denetim/SEHIR-TARIHCE-OSM-1014)",
+        # ── 14 EKIM 2026 — YERLESIM KADEMESI (Emre karari) ─────────────────────
+        # KASITLI OLARAK yuklenmez: kat 1-4 tanik birikimi (silsile halka 4).
+        # Sema VERI-YAPISI.md 'yer_kat.js' · ilk doldurma denetim/YER-KAT-1014.
+        "data/yer_kat.js":               "kademe tanik birikimi (silsile halka 4); "
+                                         "onkosul OLCUM (silsile_olc.py) + arayuz karari",
         # ── 16 AGUSTOS GECE PARTISI — SEKIZ DOSYA, HEPSI AYNI ONKOSULDA ──
         # Sekiz oturum es zamanli calisti ve her biri KENDI dosyasina yazdi
         # (adlandirma: scratchpad UUID'inin ilk 6 hanesi — cakisma YAPISAL

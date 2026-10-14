@@ -926,4 +926,38 @@ Denetim ve JS üretimi: `py arac/sehir_tarihce.py denetle <dosya.js>` · `yaz <j
 - `kaynak` her `ilk`/`kur`/`ark`/`sahip`/`olay` öğesinde ZORUNLU; TDV birincil, Vikipedi tek dayanak olamaz,
   bulunamadıysa `"bulunamadı"` yazılır. `tanik` ≤ 15 kelime alıntı.
 
+## 🆕 `data/yer_kat.js` — YERLEŞİM KADEMESİ TANIKLARI *(14 Ekim 2026, Emre kararı)*
+
+Silsilenin 4. halkası: her devletin bölgesinde idarî/siyasî/askerî/ekonomik merkez olan yerleşim
+indekste olmalı. **Sayısal yoğunluk eşiği YOK** (Emre: Anadolu/Almanya ile Sahra/Sibirya aynı karakterde
+değil); ölçüt **idarî kademedir**:
+
+| kat | Osmanlı | bugün | örnek |
+|---|---|---|---|
+| 1 | devlet başkenti | başkent | Ankara (1923 sonrası) |
+| 2 | eyalet / vilayet merkezi | — | Trabzon (1900) |
+| 3 | sancak / liva merkezi | il merkezi | Rize |
+| 4 | kaza merkezi | ilçe merkezi | Pazar |
+
+Kapsam (Emre onayı, 14 Ekim): **kat 1–3 zorunlu**; kat 4 yalnız kronolojide adı geçiyorsa ya da
+askerî/ekonomik/coğrafî merkezse (geçit kalesi, liman, maden, ticaret durağı) indekse girer.
+
+**Kademe döneme göre değişir** (Rize kaza → sancak → il) ⇒ yerleşime sabit sayı yazılmaz, **tanık** yazılır:
+```js
+window.YER_KAT = [
+  { ad:"Rize", lat:41.0208, lon:40.5219,        // ad = atlas yerleşim adı; konum ≤3 km eşleşme için (ad tekil değil)
+    tanik:[ { t:"1900-01-01", k:3, birim:"sancak Lazistan", ad_kaynakta:"Rize",
+              kaynak:"Cuinet TdA c.1 (1892)", kesinlik:"liste-1900",
+              dayanak:"denetim/SEHIR-1900-LISTE-1013/LISTE.tsv" } ] },
+];
+```
+- Tanık bir **an**dır: "şu tarihte, şu kaynağa göre şu kademe". İki tanık arası DOLDURULMAZ; aralık
+  (`f`/`t`) yalnız tek kaynak iki ucu birden veriyorsa yazılır (kaynaklı halka kuralıyla aynı).
+- `kesinlik:"liste-1900"` — `SEHIR-1900-LISTE` "1 Ocak 1900 durumu"nu 1891–1903 kaynaklarından derledi;
+  `t` kaynağın yılı değil listenin hedef günüdür. Kaynağın yılı `kaynak` alanında okunur.
+- `kaynak` zorunlu; güvensiz kaynak (Vikipedi, kişisel/hobi sitesi — Statoids dahil) dayanak olamaz.
+- Motor ve site bu dosyayı henüz OKUMAZ; `arac/silsile_olc.py` halka 4 ölçümü okuyacak.
+- İlk doldurma: `denetim/YER-KAT-1014/aktar.py` (1900 listesinden yalnız `kaynakli` + atlasla ≤3 km
+  eşleşen + güvenli kaynaklı satırlar; her satırın hükmü `denetim/YER-KAT-1014/aktarim.tsv`).
+
 
