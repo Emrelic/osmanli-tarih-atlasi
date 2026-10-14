@@ -58,3 +58,29 @@ eden:i
   doğrulandı (osman-i, hamidogullari, eretnaogullari, mostar, tatarpazarcigi, banaluka GERÇEK; osman-gazi, vadi-halfa ÖLÜ).
 - **denetle (çıkış 0):** D1 309 (tavan) · D1b 0 · D2 0 açık · **D2s 189 (tavan 191 — İYİLEŞTİ, tavanın 189'a
   indirilmesi önerilir, Emre onayı)** · D2i 1 (tavan) · D2t 11 (tavan 13) · D5 0 · D5a 2 (tavan).
+
+## C grubu — UYGULANDI 14 Ekim 2026 akşamı (Emre: "önerilerine katılıyorum, devam et")
+
+Eski yer AYRI nokta oldu, dönem zinciri modern kayıttan ham metinle TAŞINDI (kaynakları içinde);
+modern kayda Şırnak kalıbıyla `kur:` yazıldı, öncesi kırpıldı. Betik doğrulaması: 5/5 modern + 4/4 eski
+kayıt beklenenle birebir, plan dışı değişen kayıt 0 (girdi.yukle yeniden okuması, 4587 → 4591 kayıt).
+
+| modern nokta | kur: (ilk tanık) | eski nokta (yeni) | koordinat | bit: |
+|---|---|---|---|---|
+| Van | 1918-04-02 (onyıl; kurtuluş = terminus post quem) | Eski Van (Tuşpa) | Pleiades 874771 | 1918-04-02 |
+| Malatya | 1838-01-01 (yıl; 1838 yazı, Aspuzu) | Eski Malatya (Battalgazi) | GeoNames 7457829 | YOK — yaşıyor (1883: 4542 nüfus, TDV) |
+| Basra | 1494-10-02 (yıl; hicrî 900 kesişimin ilk günü) | Eski Basra (Zübeyr) | GeoNames 98245 — YAKLAŞIK, beyanlı | 1494-10-02 |
+| Kandehar | 1773-01-01 (belirsiz; Ahmedşâhî 1747-73) | Eski Kandehar (Şehr-i Köhne) | Pleiades 59669 | 1738-03-24 (gün: EIr, kronoloji_iran maddesi) |
+| Hums (Lebde) | 1893-01-01 (onyıl; en geç) | — Lebde AÇILMADI: 1000 sonrası yerleşim tanığı yok | — | — |
+
+TDV metinleri bu iş için ham çekimle yeniden okundu (van, basra, kandehar, malatya). Kronoloji: 4 madde
+data/olaylar_sehir_ilk.js'e (Basra 1494-10-02, Eski Kandehar 1738-03-24, Malatya 1838, Van 1918-04-02).
+
+**Kalan 2 (ayrı araştırma ister):**
+- **Şehrizor:** ortaçağ Şehrizor'un yeri TDV'de "kesin olarak bilinemeyen" (Yasintepe / Kızkale / Gülanber) ⇒
+  yeri kesin olmayan eşitleme kuralı: nokta açılamaz. Ayrıca atlasın 1630-1918 dönemi Gülanber Kalesi'ne
+  dayanıyor — Gülanber'in koordinatı bulunursa eski nokta odur. Modern Süleymaniye'ye kur: 1784 yazmak
+  bölgenin 1233-1784 tarihini haritadan siler; eski nokta olmadan yapılmadı.
+- **Kuseyr:** Kuseyr el-Kadîm (Myos Hormos) 8 km kuzeyde; terk tarihi yalnız "XV. yüzyıl" (ARCE) —
+  bit: için yıl yok, uydurulmadı. Kaynak (Le Quesne 2007 / ARCE kazı raporları) okunmalı.
+- **Kandehar sahip düzeltmesi** (TDV 1281 Kert, atlas cagatay) yapılmadı — ayrı karar.
