@@ -683,6 +683,18 @@ window.YERLESIMLER_OK106 = [
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"ESBE «Новочеркасск» (ru.wikisource.org/wiki/ЭСБЕ/Новочеркасск)" },
+  { ad:"Akyar (Sivastopol)", tur:"liman", lat:44.6138, lon:33.5254, g:0, k:3,
+    kur:"1784-01-01", kesinlik:"yil", neden:"KUTU-H6-1015 (0082/H-0070): kur LİMAN-ŞEHRİN KURULUŞU — ESBE «Севастополь»: 'деревенька Ахтиар, местность которой была избрана в 1783 г. русскими для устройства военного порта. Последний был основан в следующем году и назван Севастополем' ⇒ 1784 (yıl). Kırım Tatar köyü Ahtiar daha önce vardı (ESBE 'Во время владычества татар'); köyün tarihli tanığı bulunamadı — kur görünme ALT SINIRIDIR, öncesinde toprak İnkirman (6,5 km) peteğindedir. TDV kirim 'eski Kırım Tatar köyü Akyar’ın üzerine kurulan deniz üssü' (arama özeti). 1900 kat. 2 (şehir valiliği).",
+    s:[{f:"1784-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Севастополь» (1784 liman-şehir; 1804 Karadeniz donanmasının ana limanı) — Kırım 1783'ten Rus"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri · zincir komşu Kefe/Kerç kayıtlarıyla aynı"}],
+    kaynak:"ESBE «Севастополь» (ru.wikisource.org/wiki/ЭСБЕ/Севастополь)" },
+  { ad:"Berdyansk", tur:"liman", lat:46.7558, lon:36.7885, g:0, k:3,
+    kur:"1827-01-01", kesinlik:"yil", neden:"KUTU-H6-1015 (0082/H-0070): kur GERÇEK KURULUŞ — ESBE «Бердянск»: 'Б. возник в 1827 г. стараниями кн. М. С. Воронцова; … в 1835 г. сделан городом, а в 1842 г. назначен уездным'. 1900 kat. 3 (uyezd merkezi). Gün yok.",
+    s:[{f:"1827-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Бердянск» (1827)"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Бердянск» (ru.wikisource.org/wiki/ЭСБЕ/Бердянск)" },
   // ── OSTROGOJSK — Slobodskaya Ukrayna dalgasının ikinci kasabası ─────
   //  IEU "Ostrohozke": "It was founded by Ukrainian Cossacks and fortified
   //  in 1652." · "In 1662 it became the center of Ostrohozke regiment in
