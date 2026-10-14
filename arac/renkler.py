@@ -3629,6 +3629,26 @@ BOYALAR = {
     "yesilburun": ("Yeşilburun Cumhuriyeti", "#c65424"),
     "yunanistan-gecici-demokratik-hukumet": ("Yunanistan Geçici Demokratik Hükûmeti (Markos, iç savaş)", "#cc8a24"),
     "zengibar-bagimsiz-sultanlik": ("Zengibar Sultanlığı (bağımsız)", "#24c636"),
+    # 14 Ekim 2026 — nokta3 turu (19 nokta) 18 HARİTA DELİĞİ getirdi; renk_olc --oner tek partide
+    # (denetim/oneri-20261014-030355.txt). Emre: "18 rengi sen ekle".
+    "avusturya-dukaligi": ("Avusturya Dükalığı (Babenberg ve II. Ottokar dönemi)", "#c6901e"),
+    "carnaro-naiplik": ("Carnaro İtalyan Naipliği (D'Annunzio)", "#24c62a"),
+    "chamorro": ("Chamorro (Mariana) Toplulukları", "#ba24cc"),
+    "finlandiya-demokratik-cumhuriyeti": ("Finlandiya Demokratik Cumhuriyeti (Terijoki)", "#c024cc"),
+    "fiume-serbest-devleti": ("Fiume Serbest Devleti", "#c65a24"),
+    "fransiz-komorlari": ("Fransız Komorları (himaye → sömürge → TOM)", "#24c690"),
+    "hollanda-seylani": ("Hollanda Seylanı (VOC)", "#cc4824"),
+    "ingiliz-seylan": ("İngiliz Seylanı", "#cc4e24"),
+    "kotte-krallik": ("Kotte Krallığı", "#c624cc"),
+    "liechtenstein": ("Lihtenştayn Prensliği", "#6cf612"),
+    "misir-suriye-idaresi": ("Mısır Kavalalı Suriye İdaresi (İbrahim Paşa, 1832-1840)", "#cc24c0"),
+    "monako": ("Monako Prensliği", "#0cf60c"),
+    "portekiz-seylani": ("Portekiz Seylanı", "#cc2496"),
+    "sitavaka-krallik": ("Sitavaka Krallığı", "#cc5424"),
+    "trucial-states": ("Muahede (Trucial) Sahili Şeyhlikleri", "#24c64e"),
+    "vatikan": ("Vatikan Şehir Devleti (Kutsal Makam)", "#2ade2a"),
+    "vichy-fransasi": ("Fransız Devleti (Vichy)", "#7224c6"),
+    "zahir-el-omer-seyhligi": ("Zâhir el-Ömer Akka-Celile Şeyhliği", "#242ac6"),
 }
 
 
