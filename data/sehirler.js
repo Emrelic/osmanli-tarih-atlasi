@@ -386,7 +386,7 @@ window.SEHIRLER = [
   yapilar:"1438-1454 arası inşa edilmiş, yirmi altı kuleli, dört kapılı, yaklaşık 2 km surlu — Ukrayna'nın en büyük kalesi.",
   kaynak:"akkirman" },
 { ad:"Özi",        tur:"kale",  lat:46.619, lon:31.539,
-  k:[{f:"1538-01-01",t:"1788-12-17",d:1}],
+  k:[{f:"1538-01-01",t:"1788-12-06",d:1}],
   koken:"'Özü'/'Özi', Oçakof (Ochakiv) için Kanûnî Sultan Süleyman zamanından beri kullanılan Türkçe karşılıktır; nehir adından türer.",
   onem:"Kazakların Karadeniz'e çıkışını denetleyen, hem Karadeniz hem Tuna kıyılarını koruyan bir kilit nokta.",
   tarihce:"1490'larda Kırım Hanlığı tarafından kuruldu, 1538'de kesin olarak Osmanlı'ya katıldı; 1737'de Rusya tarafından alındı, 1739'da antlaşmayla Osmanlı'ya döndü, 1789'da Mareşal Suvorov tarafından kesin olarak ele geçirildi, 1792'de resmen Rusya'ya bırakıldı.",

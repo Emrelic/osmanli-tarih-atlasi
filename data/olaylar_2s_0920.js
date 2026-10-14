@@ -66,13 +66,13 @@ window.OLAYLAR_2S0920 = [
    ═══════════════════════════════════════════════════════════════════ */
 
 // ── 1912 · Priştine ──────────────────────────────────────────────────
-{ t:"1912-10-02", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Priştine",
+{ t:"1912-10-22", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Priştine",
   b:"Priştine'nin Sırp ordusunun eline geçmesi",
-  gun:"2 Ekim 1912", yer:"Priştine, Kosova", kisiler:"Sırp ordusu",
+  gun:"22 Ekim 1912", yer:"Priştine, Kosova", kisiler:"Sırp ordusu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
   d:"Birinci Balkan Savaşı'nda Kosova'ya giren Sırp ordusu Priştine'yi aldı ve şehirde yeniden Sırplaştırma siyaseti başladı. Priştine'nin düşüşü, Kosova vilâyetindeki Osmanlı direnişinin çözülmesinin ilk halkalarındandır.",
-  kaynak:"TDV `pristine` — AYNEN: \"2 Ekim 1912 tarihinde Sırp ordusu Priştine'yi alarak Priştine ve çevresini yeniden Sırplaştırma sürecini başlattı.\" · hassasiyet: GÜN",
-  ic_not_d:"ÇELİŞKİ BİLDİRİMİ: atlas verisinde kırılma 1912-10-22'de duruyor, TDV 2 Ekim 1912 diyor (20 gün fark). Madde TDV'nin gününe yazıldı (atlas referans değildir); pencere içinde kaldığı için kırılmayı yine kapatır. Veri düzeltmesi önerisi teslim mesajında." },
+  kaynak:"Yakup Ahbab, 'Kuzey Makedonya 1912', İÜ Tarih Dergisi (dergipark 353908) s.8: 'Sırbistan I. Ordusu 19 Ekim günü sınırı geçerek … 20 ve 22 Ekim’de Priştine Sırp kuvvetleri tarafından ele geçirilmiştir' · Ayşe Özkan, Tarihin Peşinde 15, s.12: '21 Ekim’de Priştine' · TDV `pristine` '2 Ekim 1912' der (aşağıda) · hassasiyet: GÜN",
+  ic_not_d:"KUTU-H6-1015 (0076/H-0151): madde 2 Ekim'den 22 Ekim'e alındı. TDV `pristine` AYNEN \"2 Ekim 1912 tarihinde Sırp ordusu Priştine'yi alarak…\" der; ama Sırbistan savaşı 18 Ekim'de ilân etti ve ordusu 19 Ekim'de sınırı geçti (Ahbab, Özkan) — 2 Ekim Jülyen okunsa da (15 Ekim G) savaş öncesine düşer ⇒ TDV rakamı hatalı sayıldı, iki akademik kaynağın günü alındı. Atlas verisi zaten 1912-10-22. Eski not: 'Madde TDV'nin gününe yazıldı (atlas referans değildir)'." },
 
 // ── 1912 · Manastır ──────────────────────────────────────────────────
 { t:"1912-11-18", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Manastır",

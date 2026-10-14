@@ -68,8 +68,8 @@ window.YERLESIMLER_OK106 = [
   // `k:4` — kale kademesi; komşu kaleler Or Kapı · Balaklava · İnkirman
   //   da k:4. Kerç k:3 (şehir), Yenikale ondan küçük bir istihkâm.
   { ad:"Yenikale", isg:[{f:"1771-07-01",t:"1774-07-21",d:"rusya",kaynak:"TAKVİM (EMRE KARARI 14 Ekim 2026, KARARLAR-1014 m.28, kutu 0065): VERI-YAPISI TAKVİM kuralına dönüldü, Jülyen gün ÇEVRİLMEDEN yazıldı — kaynak 'Temmuz' (Jülyen) — ay başı, AY hassasiyeti; eski Gregoryen çevirisi 1771-07-12 geri alındı, aşağıdaki çeviri açıklaması ESKİDİR. ESKİ NOT: RBS «Щербатов, Федор Федорович» — 'В июле того же года он, после некоторого сопротивления, занял Керчь, Еникале и Тамань' · ЭСБЕ «Керчь» ('Русские вновь овладели К. в 1771 г.') · VE «Керчь». İŞGAL, ilhak değil: Küçük Kaynarca ile Rusya'ya bırakıldı. ⚠️ GÜN KAYNAKTA YOK — kaynak yalnız 'Temmuz' (Jülyen) diyor ⇒ Gregoryen 12 Temmuz–11 Ağustos; 1771-07-12 bu aralığın İLK günüdür, bir ALT SINIRDIR, olay günü DEĞİLDİR. YAMA-SEFER1768-0917 Y-2 · 1.MURAT M-4500 · UYGULA-4 18 Eyl 2026."}], tur:"kale", lat:45.3521, lon:36.6004, g:0, k:4, m:"Kefe",
-    kur:"1703-01-01",
-    d:[{f:"1703-01-01",t:"1774-07-21"}],
+    kur:"1703-05-17", kesinlik:"yil", neden:"KUTU-H6-1015 (0082/H-0070, K1R4 bulgusu) — HİCRÎ YIL KURALI (CLAUDE.md): TDV kerc '1115’te (1703) Kerç şehrinin 10 km. kuzeydoğusunda Akıntı Burnu mevkiinde Yenikale yapıldı'. Hicrî 1115 = 17 Mayıs 1703 – 5 Mayıs 1704 (tablo takvimi, Gregoryen; 1582 sonrası TDV mîlâdî karşılıkları Gregoryen) ∩ mîlâdî 1703 ⇒ kesişimin ilk günü 1703-05-17. Eski 1703-01-01 hicrî yılın başlamadığı bir güne düşüyordu. Kesinlik YIL (gün kaynakta yok). kur gerçek kuruluştur (TDV 'yapıldı'); öncül/ardıl: Kerç 1475 Osmanlı, çakışma yok.",
+    d:[{f:"1703-05-17",t:"1774-07-21",kesinlik:{f:"yil",t:"gun"}}],
     s:[{f:"1774-07-21",t:"1783-04-19",d:"rusya",enklav:true,kaynak:"KUTU-G5-1014 (0080/H-0019) enklav beyanı · TDV kirim: Küçük Kaynarca ile Rusya'ya 'Yenikale ve Kerç, Dinyeper ağzında Kılburun Kalesi' bırakıldı; Kırım hanlığı 'serbest ve tam mânasıyla müstakil' — Rus gövdesinden müstakil Kırım toprağıyla ayrılmış eksklav, ilhaka dek (TDV kirim: 'Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)'; 1783-04-19 = komşu Kefe/Sudak kayıtlarındaki ilhak günü)"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
@@ -286,6 +286,37 @@ window.YERLESIMLER_OK106 = [
        {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kropyvnytskyi\" (`Yelysavethrad` maddesi ona yönlendiriyor)" },
 
+  // ── KUTU-H6-1015 · 0082/H-0070 (Karadeniz kuzeyi derin paketi, K1R4 bulgusu) ─────
+  //  NOVOROSSİYA ŞEHİRLERİ: 1775 sonrası Rus kuruluşları atlasta hiç yoktu; 1783 sonrası
+  //  Rus toprağı yalnız bozkır sözde-noktalarının uçlarıyla boyanıyordu. 1900 kategorisi:
+  //  Herson ve Yekaterinoslav gubernia merkezi (kat. 2), Mariupol uyezd merkezi (kat. 3),
+  //  Novoçerkask Don Ordusu Oblastı merkezi (kat. 2). kur: GERÇEK KURULUŞ (kaynak 'основан' /
+  //  'устроена') — yıl hassasiyeti, gün yok ⇒ YYYY-01-01. Mükerrer taraması: 3 km içinde nokta YOK.
+  //  Sonrası (1917 → 2000) komşu Yelisavetgrad / Azak zincirinin devlet geçişleriyle aynı.
+  { ad:"Herson", tur:"liman", lat:46.6383, lon:32.6158, g:0, k:3,
+    kur:"1778-01-01", kesinlik:"yil", neden:"KUTU-H6-1015: kur GERÇEK KURULUŞ — ESBE «Херсон»: 'В 1737 г. … было заложено укрепление Александр-шанц, вскоре разрушенное; в 1778 г. устроена верфь, наименованная Х.' 1737 tahkimatı kısa ömürlü ve yıkık ⇒ şehir 1778'den. Gün kaynakta yok.",
+    s:[{f:"1778-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Херсон» (1778 tersane-şehir; 1784 Yekaterinoslav valiliği kazası, 1803 gubernia merkezi) — Dinyeper sağ kıyısı Küçük Kaynarca'dan (1774) beri Rus"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Херсон» (ru.wikisource.org/wiki/ЭСБЕ/Херсон) — TDV'de madde yok (arama 'herson': yalnız künye anışları)" },
+  { ad:"Mariupol", tur:"liman", lat:47.0971, lon:37.5434, g:0, k:3,
+    kur:"1779-01-01", kesinlik:"yil", neden:"KUTU-H6-1015: kur GERÇEK KURULUŞ — ESBE «Мариуполь»: 'Настоящий г. основан в 1779 г. греками-выходцами из Крыма' (aynı maddede antik Adamakha varsayımı 'некоторые археологи полагают' — tanık değil). Gün kaynakta yok.",
+    s:[{f:"1779-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Мариуполь» (1779 kuruluş; 1784 Yekaterinoslav valiliği kazası)"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Мариуполь» (ru.wikisource.org/wiki/ЭСБЕ/Мариуполь)" },
+  { ad:"Yekaterinoslav (Dnipro)", tur:"sehir", lat:48.4647, lon:35.0462, g:0, k:2,
+    kur:"1783-01-01", kesinlik:"yil", neden:"KUTU-H6-1015: kur bu KONUMDAKİ şehrin kuruluşu — ESBE «Екатеринослав»: 'В 1778 г. Потемкиным был основан уездный город Е., при впадении реки Кильчени в реку Самару … но уже в 1783 г. … Е. был перенесен на настоящее свое место'. 1778 şehri ~25 km kuzeydoğuda, ayrı yer (>3 km kuralı) ⇒ nokta 1783'ten. Aynı yerdeki eski Kodak/Kaydak (1635 Leh kalesi) ve Kazak kışlakları ESBE'de 'разрушение' sonrası — sürekli yerleşim tanığı değil, kur onlardan türetilmedi.",
+    s:[{f:"1783-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Екатеринослав» (1783 bugünkü yerine nakil)"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Екатеринослав» (ru.wikisource.org/wiki/ЭСБЕ/Екатеринослав)" },
+  { ad:"Novoçerkask", tur:"sehir", lat:47.4114, lon:40.1042, g:0, k:2,
+    kur:"1805-01-01", kesinlik:"yil", neden:"KUTU-H6-1015: kur GERÇEK KURULUŞ — ESBE «Новочеркасск»: 'Н. основан в 1805 г. на урочище Бирючий Кут. До того времени административным центром донского войска служил' (eski Çerkask, ayrı yer). Gün kaynakta yok.",
+    s:[{f:"1805-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Новочеркасск» (1805; Don Ordusu Oblastı merkezi)"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Новочеркасск» (ru.wikisource.org/wiki/ЭСБЕ/Новочеркасск)" },
   // ── OSTROGOJSK — Slobodskaya Ukrayna dalgasının ikinci kasabası ─────
   //  IEU "Ostrohozke": "It was founded by Ukrainian Cossacks and fortified
   //  in 1652." · "In 1662 it became the center of Ostrohozke regiment in

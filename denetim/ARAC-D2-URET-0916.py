@@ -483,7 +483,7 @@ ucq = "bas" if iql.coords[0][1] < iql.coords[-1][1] else "son"    # Şattülarap
 SATT_KM = 105 * uzunluk(iql) / 1458                                # IBS 164 oranı NE çizgisine
 satt, iqkara = uc_kes(iql, SATT_KM, ucq)
 PROT = {"ad": "İstanbul Protokolü (Türk-İran tahdidi)", "tarih": "1913-11-17", "tur": "protokol",
-        "not": "IBS 164 metni 17 Kas 1913, antlaşma listesi 4 Kas 1913 — ÇELİŞKİ çözülmedi (LN OJ 1935 Ek 1528 okunmadı)"}
+        "not": "IBS 164 metni 17 Kas 1913, antlaşma listesi 4 Kas 1913 — ÇELİŞKİ YOK, aynı gün: protokolün kendi başlığı 'November 4th (17th), 1913' (Pars Times tam metni, Selections from the Iraqi-Iranian Dispute s.138-145'ten; asıl yayın LN OJ 1935 Ek 1528 App. IIA) — 4 Teşrînisânî 1329 Rûmî / 4 Kasım Jülyen = 17 Kasım 1913 Mîlâdî (KUTU-H6-1015, 0039/H-0002; K1R3)"}
 ekle("d1923-iq-ir", IQ, IR, "1921-08-23", "D", [iqkara],
      [PROT, {"ad": "IBS No. 164 Iran–Iraq", "tur": "resmî sınır çalışması",
              "kaynak": "parstimes.com/history/iran_iraq_boundary.pdf (üçüncü taraf aynası); FSU ibs164.pdf",
@@ -508,7 +508,7 @@ ekle("g1-osm-ir", "osmanli", IR, "1913-11-17", "D", [iqkara],
      "GERİYE SARMA G1+G2: hukukî taraf 1921'e kadar Osmanlı'ydı. İngiliz işgali (Basra 1914'ten, Bağdat 1917'den, "
      "Mondros sonrası tümü) ve savaş yıllarındaki Rus/Osmanlı birliklerinin İran'daki hareketi hukukî hattı DEĞİŞTİRMEDİ; "
      "işgal hattı (D) künye ve koordinat olmadığı için YAZILMADI. G3: f=İstanbul Protokolü (17 Kas 1913; IBS 164 "
-     "listesi 4 Kas diyor — çelişki, D1 ile aynı gün kullanıldı); yerinde işaretleme Eki 1914'te bitti. Öncesi "
+     "listesi 4 Kas diyor — Rûmî/Jülyen 4 Kasım = Mîlâdî 17 Kasım, aynı gün; protokol başlığı 'November 4th (17th), 1913'); yerinde işaretleme Eki 1914'te bitti. Öncesi "
      "Erzurum 1847 (işaretsiz, koordinatsız ⇒ YAZILMADI). t=Irak Krallığı",
      t="1921-08-23")
 # 🆕 14 Ekim 2026 — EMRE KARARI (KARARLAR-1014 m.8, 0077/H-0070, seçenek a): aynı 1913/14 hattı Mondros'tan
