@@ -3534,3 +3534,86 @@ html.atlas-hazir #acilis { opacity: 0; transition: opacity .3s; }
 }
 #arama-onizleme.bos { color: #a33; font-weight: 600; }
 #arama-dugmeler { display: flex; justify-content: flex-end; }
+
+/* ==========================================================================
+   GELİŞTİRİCİ NOTLARI (js/gelistirici.js) — kip yalnız deponun sahibinin
+   token'ıyla açılır; `body.gelistirici` yoksa bu bölümün hiçbir parçası görünmez.
+   ========================================================================== */
+body:not(.gelistirici) .yalniz-gelistirici { display: none !important; }
+#zaman-sarmal { position: relative; }
+#gn-arac {
+  position: absolute; left: 10px; bottom: 34px; z-index: 30;
+  display: flex; gap: 3px; align-items: center; padding: 4px 6px;
+  background: rgba(20, 24, 20, .88); border: 1px solid #39ff14; border-radius: 6px;
+  box-shadow: 0 0 8px rgba(57, 255, 20, .35);
+}
+#gn-arac .gn-arac-bas { color: #39ff14; font-size: 14px; padding: 0 3px; }
+#gn-arac button {
+  min-width: 28px; height: 26px; padding: 0 6px; cursor: pointer; font-size: 14px;
+  background: #222; color: #e8ffe0; border: 1px solid #3c5a35; border-radius: 4px;
+}
+#gn-arac button:hover { border-color: #39ff14; }
+#gn-arac button.etkin { background: #39ff14; color: #111; border-color: #39ff14; }
+#gn-sayi { margin-left: 3px; font-size: 11px; color: #39ff14; }
+#gn-arac button.etkin #gn-sayi { color: #111; }
+.gn-postit {
+  width: 14px; height: 14px; border-radius: 2px; cursor: pointer;
+  background: #39ff14; border: 1px solid #0b3d02;
+  box-shadow: 0 0 6px 2px rgba(57, 255, 20, .75);
+}
+.gn-postit:hover { transform: scale(1.35); }
+#gn-oge-katman { position: fixed; left: 0; top: 0; width: 0; height: 0; z-index: 3990; }
+.gn-oge-postit { position: fixed; width: 12px; height: 12px; }
+.gn-madde-postit {
+  display: inline-block; margin-left: 5px; padding: 0 3px; border-radius: 2px;
+  font-size: 11px; line-height: 15px; cursor: pointer; vertical-align: middle;
+  box-shadow: 0 0 4px rgba(57, 255, 20, .8);
+}
+#gn-zaman { position: absolute; left: 0; right: 0; top: -7px; height: 6px; pointer-events: none; }
+.gn-zaman-nokta {
+  position: absolute; top: 0; width: 6px; height: 6px; margin-left: -3px; border-radius: 50%;
+  pointer-events: auto; cursor: pointer; box-shadow: 0 0 3px rgba(57, 255, 20, .9);
+}
+.gn-zaman-nokta:hover { transform: scale(1.8); }
+body.gn-oge-kipi * { cursor: crosshair !important; }
+.gn-oge-vurgu { outline: 2px dashed #39ff14 !important; outline-offset: 1px; }
+#gn-form, #gn-panel, #gn-liste {
+  position: fixed; z-index: 4000; background: #fdfbf4; color: #222;
+  border: 2px solid #39ff14; border-radius: 8px; box-shadow: 0 6px 24px rgba(0, 0, 0, .35);
+  font-size: 13px; padding: 12px 14px; box-sizing: border-box;
+}
+#gn-form { left: 50%; top: 18%; transform: translateX(-50%); width: min(460px, calc(100vw - 32px)); }
+#gn-panel { right: 16px; top: 70px; width: min(380px, calc(100vw - 32px)); max-height: calc(100vh - 100px); overflow-y: auto; }
+#gn-liste { left: 16px; top: 70px; width: min(420px, calc(100vw - 32px)); max-height: calc(100vh - 100px); overflow-y: auto; }
+#gn-form textarea, #gn-form input, #gn-panel textarea {
+  width: 100%; box-sizing: border-box; margin: 6px 0; font: inherit; padding: 6px;
+  border: 1px solid #b9b39c; border-radius: 4px;
+}
+.gn-form-bas, .gn-panel-bas { font-weight: 700; margin-bottom: 4px; }
+.gn-form-hedef { color: #555; margin-bottom: 4px; }
+.gn-form-satir { display: block; margin: 4px 0; }
+.gn-form-dugmeler { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; margin-top: 6px; }
+.gn-form-dugmeler button, .gn-madde-dugme {
+  padding: 4px 10px; border-radius: 4px; border: 1px solid #888; background: #fff; cursor: pointer;
+}
+.gn-form-dugmeler button.gn-ana { background: #1d7a0c; color: #fff; border-color: #1d7a0c; }
+.gn-form-dugmeler button.gn-tehlike { border-color: #a33; color: #a33; }
+.gn-madde-dugme { border-color: #2bd10f; margin-top: 4px; }
+.gn-kapat { float: right; border: 0; background: none; font-size: 16px; cursor: pointer; }
+.gn-durum { display: inline-block; padding: 0 6px; border-radius: 3px; font-size: 11px; color: #111; }
+.gn-panel-tarih { color: #666; font-size: 12px; margin-bottom: 6px; }
+.gn-metin { white-space: pre-wrap; padding: 6px 8px; border-radius: 4px; margin: 6px 0; }
+.gn-emre { background: #fffbd1; border-left: 3px solid #e1c600; }
+.gn-claude { background: #e9f3ff; border-left: 3px solid #3a7bd5; }
+.gn-yazan { font-size: 11px; color: #666; margin-bottom: 2px; }
+.gn-baglam { white-space: pre-wrap; font-size: 12px; color: #444; }
+.gn-liste-satir { display: flex; gap: 6px; align-items: baseline; padding: 5px 2px; border-bottom: 1px solid #eee; cursor: pointer; }
+.gn-liste-satir:hover { background: #f1fbe9; }
+.gn-liste-tarih { color: #666; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.gn-bos { color: #777; font-style: italic; }
+#gn-bildirim {
+  position: fixed; left: 50%; bottom: 70px; transform: translateX(-50%); z-index: 4100;
+  background: #142014; color: #c9ffbd; border: 1px solid #39ff14; border-radius: 5px;
+  padding: 6px 12px; font-size: 13px; display: none; max-width: calc(100vw - 32px);
+}
+#gn-bildirim.hata { background: #3a1010; color: #ffd0d0; border-color: #ff5050; }

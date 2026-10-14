@@ -22,6 +22,11 @@ yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 4.7.1.
   yeni dal). Yalnız okuyan/soru cevaplayan oturum geçmez. Ayrıntı: "Worktree" bölümü.
 - Kullanıcı (Emre) işi doğrudan oturuma verir. Koordinatör, işçi oturum, hazır kıta, tahta,
   bekçi **kullanılmaz.** Paket maddelerinin tek kaydı **kutu** uygulamasıdır.
+- **Site üstü notlar:** Emre sitede geliştirici kipinde (`?gelistirici=1` · Ctrl+Alt+G,
+  `js/gelistirici.js`) haritaya / maddeye / düğmeye not düşer; notlar GitHub Issues'tadır
+  (etiket `harita-notu`). Okuma ve cevap: `py arac/not.py liste|oku N|yanit N --dosya <yol>
+  --durum <d>|durum N <d>`. Notun bağlamı (gün, madde, alandaki yerleşimler ve sahipleri)
+  gövdededir — yeniden kurma. Arşivlemeyi (`arsivle`) yalnız Emre ister.
 - Paralel iş gerekirse **alt ajan** (Agent aracı) kullan; aynı dosyaya yazacak paralel ajanları
   ayrı worktree'de çalıştır. Ayrı oturum yalnız başka makinede, saatler süren ya da Emre'yle
   konuşması gereken iş için gerekir — o zaman Emre'den iste.
