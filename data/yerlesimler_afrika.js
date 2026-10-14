@@ -687,7 +687,7 @@ window.YERLESIMLER_AFRIKA = [
 // Sevâkin'in iç ardalanı (Bece ülkesi). 1883-1891 arası fiilen Mehdî
 // kuvvetlerinin elindeydi; bu ara dönem yazılmadı, Sevâkin zinciri korundu.
 { ad:"Tokar", tur:"sehir", lat:18.427, lon:37.729, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1884-01-01",t:"1891-02-06",d:"mehdi",enklav:true},{f:"1891-02-06",t:"1899-01-19",d:"ingiltere"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1884-01-01",t:"1891-02-19",d:"mehdi",enklav:true},{f:"1891-02-19",t:"1899-01-19",d:"ingiltere",kaynak:"gün: BL War Office krokisi 'Action of Afafit. 19.2.91'; yıl TDV bece (Tûker karargâhının zaptı 1891) — KUTU-H1-1015"},{f:"1899-01-19",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Gün TDV `sudan`dan DOĞRUDAN (kapsayıcı madde, Sudan geneli: 19 Ocak 1899 condominium) — KOMŞUDAN DEĞİL. Kıyıya özel katılış günü okunan kaynakta BULUNAMADI. NOKTA-ORTADOGU-0077 · YAMA B2 · M-5238"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01"}],
   d:[{f:"1557-01-01",t:"1884-01-01"}] },
 
 { ad:"Sinkat", tur:"sehir", lat:18.833, lon:36.833, g:0, k:4, m:"Sevâkin",

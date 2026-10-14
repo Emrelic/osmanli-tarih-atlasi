@@ -61,7 +61,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"İstanbul yenilgiyi 23 Ekim'de öğrendi; savaşta verilen terfiler geçersiz sayıldı, Uluç Ali'nin adı Kılıç'a çevrilip kaptanıderyâlık ona verildi. Kış boyunca tersanelerde yoğun bir gemi yapımı yürütüldü ve yeni donanma 13 Haziran 1572'de denize açıldı. Zaferin kalıcı bir karşılığı olmadı: Kıbrıs geri alınamadı, Venedik 1573'te yeni bir ahidnâmeyle tazminat ödemeyi kabul etti, Tunus 1574'te fethedildi. Buna karşın savaş, Avrupa'da Türklerin yenilmez olduğu inancını kırdı.",
   tartisma:"İki donanmanın gemi ve asker sayıları kaynaklarda birbirinden oldukça farklı verilir; buradaki rakamlar TDV maddesinin benimsediği yaklaşık değerlerdir.",
   kesinlik:"kesin",
-  olay:["1570-07-23","1571-10-07","1572-06-01","1572-06-13","1573-03-07","1574-08-25"],
+  olay:["1570-07-02","1571-10-07","1572-06-01","1572-06-13","1573-03-07","1574-08-25"],
   kaynak:"TDV: inebahti-deniz-savasi (DİA 22, 2000, s. 287-289)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 

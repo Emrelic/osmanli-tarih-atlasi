@@ -7562,13 +7562,13 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Halk ayaklanması Fransız garnizonunu şehirden attı ve cumhuriyet yeniden ilan edildi. Fransa'nın İtalya'daki ilk büyük ayağı böyle kaybedildi. Aynı yıl Cenova, Karadeniz'deki son büyük kalelerinden Amasra'yı Osmanlı'ya kaptıracaktı.",
   kaynak:"Epstein, Genoa and the Genoese" },
 
-{ t:"1461-08-15",
+{ t:"1459-06-20",
   b:"Amasra kolonisinin Osmanlı'ya düşmesi",
   tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
   etiket:["osmanli","koloni","toprak-kayip","konu-askeri","konu-siyasi"],
   yer_id:"Amasra",
-  d:"Fâtih'in Trabzon seferi sırasında donanma Amasra'yı teslim aldı; şehir savaşmadan verildi. Karadeniz'in güney kıyısındaki Ceneviz varlığı böylece bitti. Kefe artık ana karadan tamamen kopmuş, yalnız denizden beslenen bir adaya dönüşmüştü.",
-  kaynak:"TDV 'ceneviz'; TDV 'karadeniz'" },
+  d:"Fâtih'in Semendire seferinden sonra aynı yıl Karadeniz'e yönelen kuvvetleri Amasra'yı teslim aldı; şehir savaşmadan verildi. Karadeniz'in güney kıyısındaki Ceneviz varlığı böylece bitti. Kefe artık ana karadan tamamen kopmuş, yalnız denizden beslenen bir adaya dönüşmüştü.",
+  kaynak:"TDV 'mehmed-ii' (863/1459); TDV 'osmanlilar'; TDV 'ceneviz' ve 'karadeniz'", ic_not_t:"KUTU-H1-1015: eski t 1461-08-15 (TDV ceneviz 'Amasra ve Trabzon 1461’de' + Trabzon günü) idi; TDV mehmed-ii ve osmanlilar 1459 der — atlas haritası ve çekirdek madde 1459'a alındı, bu madde onlarla eşlendi. TDV iç çelişkisi beyanlı." },
 
 { taraflar:["cenova"], t:"1462-09-15",
   b:"Midilli'nin kaybedilmesi — Gattilusio beyliğinin sonu",
@@ -10396,15 +10396,15 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `azerbaycan` — AYNEN: \"27 Nisan 1920'de Azerbaycan'ı işgal eden Kızıl Ordu parlamento ve hükümeti feshederek Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" · hassasiyet: GÜN" },
 
 // ── 1920 · Meyselûn ──────────────────────────────────────────────────
-{ t:"1920-07-01", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
+{ t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
   b:"Han Meyselûn — Faysal dönemi bitti, Suriye Fransız mandasına geçti",
-  gun:"Temmuz 1920",
+  gun:"24 Temmuz 1920",
   yer:"Şam, Halep, Beyrut, Humus, Hama, Antakya, İskenderun, Deyrizor, Rakka, Münbiç, Cerablus, Azez (A'zâz), Ayn el-Arab (Kobani), Malikiye (Derik), Tedmür (Palmyra), Trablusşam, Sayda, Sûr (Tyre), Ba'lebek (Baalbek), Deyrülkamer (Dayr al-Kamer)",
   kisiler:"Faysal b. Hüseyin, General Gouraud, Yûsuf el-Azme",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
   d:"Beyrut-Şam yolundaki Han Meyselûn'da Fransızlar Suriye kuvvetlerini ağır bir yenilgiye uğrattı ve Faysal'ın Şam'daki Arap Krallığı sona erdi. Fransa, San Remo'da kendisine verilen manda yetkisini fiilen kurdu; Halep'ten Şam'a, İskenderun'dan Deyrizor'a uzanan bölge Fransız manda yönetimine bağlandı.",
-  kaynak:"TDV `suriye` — AYNEN: \"Temmuz 1920'de Beyrut-Şam arasında Han Meyselûn'da Fransızlar'ın Suriyeliler'i ağır bir yenilgiye uğratmasının ardından Suriye'de Faysal dönemi sona erdi\" · hassasiyet: AY (Temmuz 1920)",
-  ic_not_d:"HASSASİYET AY: TDV gün vermez, 'Temmuz 1920' der — tarih ayın hassasiyetinde yazıldı, atlas kırılmasının gününe (1920-07-24) ÇEKİLMEDİ (23 gün fark, pencere içinde). `yer` alanındaki kasaba adları atlasın kırılma kümesinden; TDV bunları tek tek saymaz." },
+  kaynak:"TDV `suriye` — AYNEN: \"Temmuz 1920'de Beyrut-Şam arasında Han Meyselûn'da Fransızlar'ın Suriyeliler'i ağır bir yenilgiye uğratmasının ardından Suriye'de Faysal dönemi sona erdi\" · TDV `hasimiler--hasan` — AYNEN: \"İki taraf arasında 24 Temmuz’da cereyan eden Meyselûn Savaşı’nın ardından Fransızlar Şam’ı işgal edip Suriye’deki Hâşimî krallığına son verdiler.\" · hassasiyet: GÜN",
+  ic_not_d:"KUTU-H1-1015: GÜN TDV hasimiler--hasan'dan (24 Temmuz); eski t 1920-07-01 TDV suriye'nin ay hassasiyetiydi. Atlas kırılması zaten 1920-07-24 — artık madde ile aynı gün. `yer` alanındaki kasaba adları atlasın kırılma kümesinden; TDV bunları tek tek saymaz." },
 
 // ── 1921 · Şarkî Ürdün ───────────────────────────────────────────────
 { t:"1921-02-01", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Amman",
@@ -14467,7 +14467,7 @@ window.SAVASLAR = [
 // Valea Albă – Războieni
 { t:"1476-07-26", tur:"meydan", ad:"Akdere (Valea Albă) zaferi", taraf_metin:"Boğdan (Stefan cel Mare)", sonuc:"zafer", lat:47.15, lon:26.3, taraf:["osmanli","bogdan"] },
 // koordinat yerlesimler.js'ten: Yenişehir
-{ t:"1481-06-20", tur:"meydan", ad:"Yenişehir Muharebesi (1481)", taraf_metin:"Cem Sultan", sonuc:"zafer", seri:"ic", lat:40.267, lon:29.633, taraf:["osmanli"] },
+{ t:"1481-06-22", tur:"meydan", ad:"Yenişehir Muharebesi (1481)", taraf_metin:"Cem Sultan", sonuc:"zafer", seri:"ic", lat:40.267, lon:29.633, taraf:["osmanli"] },
 // koordinat yerlesimler.js'ten: Yenişehir
 { t:"1513-04-01", tur:"meydan", ad:"Yenişehir Muharebesi (1513)", taraf_metin:"Şehzade Ahmed", sonuc:"zafer", seri:"ic", lat:40.267, lon:29.633, taraf:["osmanli"] },
 // Koçhisar (Kızıltepe), Mardin batısı
@@ -14522,7 +14522,7 @@ window.SAVASLAR = [
 // koordinat yerlesimler.js'ten: Kerbelâ
 { t:"1801-04-01", tur:"meydan", ad:"Vehhâbîlerin Kerbelâ baskını", taraf_metin:"Suûdî (Vehhâbî)", sonuc:"yenilgi", seri:"vehhabi", lat:32.616, lon:44.025, taraf:["osmanli","suud-birinci"] },
 // Safra geçidi, Yenbu-Medine yolu
-{ t:"1811-12-01", tur:"meydan", ad:"Safra-Cedîde bozgunu", taraf_metin:"Suûdî (Vehhâbî)", sonuc:"yenilgi", seri:"vehhabi", lat:24.08, lon:38.35, taraf:["osmanli","suud-birinci"] },
+{ t:"1812-01-01", tur:"meydan", ad:"Safra-Cedîde bozgunu", taraf_metin:"Suûdî (Vehhâbî)", sonuc:"yenilgi", seri:"vehhabi", lat:24.08, lon:38.35, taraf:["osmanli","suud-birinci"] },
 // Cebel-i Lübnan
 { t:"1860-05-30", tur:"isyan", ad:"Cebel-i Lübnan iç savaşı", taraf_metin:"Dürzî – Mârûnî", sonuc:"belirsiz", seri:"ic", lat:33.83, lon:35.65, taraf:["osmanli"] },
 // Galata, İstanbul
@@ -14547,7 +14547,7 @@ window.SAVASLAR = [
 { t:"1396-09-25", tur:"meydan", ad:"Niğbolu",                   taraf_metin:"Haçlı ordusu",      sonuc:"zafer",   seri:"hacli",   lat:43.70, lon:24.90, taraf:["osmanli","macaristan","fransa","eflak"], galip:"osmanli" },
 { t:"1402-07-28", tur:"meydan", ad:"Ankara",                    taraf_metin:"Timur",             sonuc:"yenilgi", seri:"",        lat:40.10, lon:32.95, taraf:["osmanli","timurlu"], galip:"timurlu" },
 { t:"1416-05-29", tur:"deniz", ad:"Gelibolu (deniz)",          taraf_metin:"Venedik",           sonuc:"yenilgi", seri:"venedik", lat:40.35, lon:26.60, taraf:["osmanli","venedik"], galip:"venedik" },
-{ t:"1443-11-01", tur:"meydan", ad:"İzladi",                    taraf_metin:"Macar-Haçlı ordusu",sonuc:"yenilgi", seri:"hacli",   lat:42.75, lon:23.90, taraf:["osmanli","macaristan"], galip:"macaristan" },
+{ t:"1443-11-24", tur:"meydan", ad:"İzladi",                    taraf_metin:"Macar-Haçlı ordusu",sonuc:"yenilgi", seri:"hacli",   lat:42.75, lon:23.90, taraf:["osmanli","macaristan"], galip:"macaristan" },
 { t:"1444-11-10", tur:"meydan", ad:"Varna",                     taraf_metin:"Haçlı ordusu",      sonuc:"zafer",   seri:"hacli",   lat:43.22, lon:27.90, taraf:["osmanli","macaristan"], galip:"osmanli" },
 { t:"1448-10-17", tur:"meydan", ad:"II. Kosova",                taraf_metin:"Macar-Haçlı ordusu",sonuc:"zafer",   seri:"hacli",   lat:42.63, lon:21.12, taraf:["osmanli","macaristan"], galip:"osmanli" },
 { t:"1473-08-11", tur:"meydan", ad:"Otlukbeli",                 taraf_metin:"Akkoyunlu",         sonuc:"zafer",   seri:"",        lat:39.97, lon:40.00, taraf:["osmanli","akkoyunlu"], galip:"osmanli" },
@@ -14646,7 +14646,7 @@ window.SAVASLAR = [
 { t:"1774-06-25", tur:"meydan", ad:"Kozluca",                   taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:43.35, lon:26.75, taraf:["osmanli","rusya"], galip:"rusya" },
 { t:"1788-12-06", tur:"kusatma", ad:"Özi savunması",             taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:46.62, lon:31.54, taraf:["osmanli","rusya"], galip:"rusya" },
 { t:"1807-04-21", tur:"meydan", ad:"Reşid (Rosetta)",           taraf_metin:"İngiltere",         sonuc:"zafer",   seri:"misir",   lat:31.40, lon:30.42, taraf:["osmanli","ingiltere","misir-kavalali"], galip:"osmanli" },
-{ t:"1811-10-25", tur:"meydan", ad:"Slobozia",                  taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:44.56, lon:27.36, taraf:["osmanli","rusya"], galip:"rusya" },
+{ t:"1811-10-14", tur:"meydan", ad:"Slobozia",                  taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:44.56, lon:27.36, taraf:["osmanli","rusya"], galip:"rusya" },
 { t:"1815-01-20", tur:"meydan", ad:"Bisel",                     taraf_metin:"Suûdî emirliği",    sonuc:"zafer",   seri:"vehhabi", lat:21.60, lon:41.10, taraf:["osmanli","misir-kavalali","suud-birinci"], galip:"osmanli" },
 { t:"1818-09-09", tur:"kusatma", ad:"Dir'iye kuşatması",         taraf_metin:"Suûdî emirliği",    sonuc:"zafer",   seri:"vehhabi", lat:24.73, lon:46.57, taraf:["osmanli","misir-kavalali","suud-birinci"], galip:"osmanli" },
 { t:"1825-06-22", tur:"kusatma", ad:"Tripoliçe'nin geri alınışı",taraf_metin:"Yunan isyancıları", sonuc:"zafer",   seri:"yunan",   lat:37.51, lon:22.38, taraf:["osmanli","misir-kavalali","yunanistan"], galip:"misir-kavalali" },
@@ -14855,7 +14855,7 @@ window.ANTLASMALAR = [
   taraf:["osmanli","rusya"], topraklar:"Tuna deltasındaki adalar ve Ahıska-Ahılkelek Rusya'ya bırakıldı; Eflak ve Boğdan'da Rus işgali sona erdi ama özerklik genişledi; Yunanistan'ın bağımsızlığının önü açıldı." },
 { t:"1830-02-03", ad:"Londra Protokolü", savas_basi:"1821-03-25",     taraf_metin:"İng-Fra-Rus",      ozet:"Bağımsız Yunanistan tanındı",
   taraf:["osmanli","ingiltere","rusya","yunanistan"], topraklar:"Mora ve orta Yunanistan Osmanlı'dan ayrılıp bağımsız Yunanistan Krallığı'na verildi." },
-{ t:"1833-05-14", ad:"Kütahya Sözleşmesi", savas_basi:"1831-10-31",   taraf_metin:"Mısır (Kavalalı)", ozet:"Suriye ve Adana Mehmed Ali ile İbrâhim Paşa'ya bırakıldı",
+{ t:"1833-05-06", ad:"Kütahya Sözleşmesi", savas_basi:"1831-10-31",   taraf_metin:"Mısır (Kavalalı)", ozet:"Suriye ve Adana Mehmed Ali ile İbrâhim Paşa'ya bırakıldı",
   taraf:["osmanli","misir-kavalali"], topraklar:"Suriye, Filistin, Adana ve Girit valilikleri Osmanlı merkezinden Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın idaresine bırakıldı." },
 { t:"1833-07-08", ad:"Hünkâr İskelesi",      taraf_metin:"Rusya",            ozet:"Sekiz yıllık savunma ittifakı; boğazların Rusya lehine kapatılması",
   taraf:["osmanli","rusya"], topraklar:"Toprak el değiştirmedi; karşılıklı savunma ittifakı kuruldu, gizli maddeyle Boğazlar üçüncü devletlerin savaş gemilerine Rusya lehine kapatıldı." },
@@ -15533,7 +15533,7 @@ window.SEFERLER = [
   // 06-15 Şam teslim · 06-25 Halep (Humus Muharebesi 07-08 ARADA ama güzergâhta
   // Halep'ten ÖNCE geliyor — sefer_ok.js MAX kuralı ok'u geri kısaltmaz, Halep'te
   // kalır) · 07-29 Belen bozgunu.
-  kademe:[["1831-10-31",1],["1831-11-27",2],["1832-06-15",3],["1832-06-25",5],["1832-07-29",6]],
+  kademe:[["1831-10-31",1],["1831-11-26",2],["1832-06-15",3],["1832-06-25",5],["1832-07-29",6]],
   yol:[[31.24,30.05],[34.47,31.50],[35.08,32.93],[36.29,33.51],[36.71,34.73],[37.16,36.20],[36.20,36.52]] },
 { ad:"Anadolu ilerleyişi (1832-33)", tur:"sefer", sonuc:"yenilgi",
   // 🔴 f DÜZELTİLDİ 1832-08-01 → 1832-07-29 (SEFER-OK-0075/H-0012): kademenin ilk
@@ -15549,7 +15549,7 @@ window.SEFERLER = [
 // Açık deniz üzerinden Levant kıyısına, oradan Akkâ ve İskenderiye'ye
 // indirildi (kara-maskesi ölçümüyle ~%7,5 — kalanı Akkâ/İskenderiye
 // varışlarındaki liman kıyısı, beklenen).
-{ ad:"Müttefik donanma harekâtı (1840)", tur:"deniz", sonuc:"zafer", f:"1840-09-11", t:"1840-11-27",
+{ ad:"Müttefik donanma harekâtı (1840)", tur:"deniz", sonuc:"zafer", f:"1840-09-10", t:"1840-11-27",
   // 🔴 `rota` — SEFER-OK-0075/H-0033. Kavis bu bacağı 119→145 km'ye çıkarıyordu
   // (kara bilmiyordu); kara üstü 71→0 km.
   rota:[[26.4,38.5],[26.225,38.295],[26.465,37.285],[26.6,37],[27.5,36],[28.1,35.4],[29.5,35],[31,34.7],[32.5,34.5],[34,34.4],[35.35,33.95],[35.15,33.4],[35.005,32.945],[35.08,32.93],[32,31.9],[30.265,31.515],[29.905,31.275],[29.92,31.2]],

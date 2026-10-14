@@ -140,9 +140,9 @@ window.OLAYLAR_EK12 = [
   d:"Bagirmi ve Vedây'ı sarsan Sudanlı savaş beyi Râbih b. Zübeyr Bornu'yu ele geçirdi; 1896'ya kadar ülkenin tamamını alıp Dikeo'yu merkez edindi.",
   kaynak:"TDV bornu AYNEN: '… Bornu, Bagirmi Sultanı Râbih b. Zübeyir'in hâkimiyetine girdi (1893).' · '1896'ya kadar ülkenin tamamını ele geçiren ve Dikeo'yu merkez edinen Râbih 1900'de Fransız sömürge ordusu tarafından mağlûp edilerek öldürülünce yerine oğlu hâkimiyetini devam ettirmek istedi, fakat Fransızlar karşısında tutunamadı.'" },
 
-{ t:"1900-01-01", k:"savas", kapsam:"dis", etiket:["savas","konu-askeri"],
+{ t:"1900-04-22", k:"savas", kapsam:"dis", etiket:["savas","konu-askeri"],
   b:"Râbih b. Zübeyr Fransızlara yenilip öldürüldü — Bornu'daki hâkimiyeti çözüldü",
-  gun:"1900", ic_not_gun:"TDV yalnız YIL veriyor; ay-gün yazılmadı (§4). TDV bornu 'Fransız sömürge ordusu', TDV cad 'Dikoa'daki (Dikwa) savaşta esir düştü' diyor.",
+  gun:"22 Nisan 1900 (Kusseri muharebesi)", ic_not_gun:"TDV yalnız YIL veriyor (bornu, cad). GÜN akademik: Marc Michel, Revue historique des Armées 218 (2000) 'la bataille de Kousséri, le 22 avril 1900' · A. Bangui, Journal des africanistes 74 (2004) 'à Kousseri, le 22 avril 1900'. 🔴 YER ÇELİŞKİSİ: TDV cad 'Dikoa’daki (Dikwa) savaşta esir düştü' der; akademik kaynaklar Kusseri — taraf seçilmedi, başlık yeri anmaz. Eski t 1900-01-01 yıl koduydu. KUTU-H1-1015",
   yer:"Bornu", yer_id:"Dikva (Dikeo)", kisiler:"Râbih b. Zübeyr",
   d:"Fransız sömürge ordusuna yenilen Râbih öldürüldü; oğlu hâkimiyeti sürdürmek istediyse de tutunamadı ve Bornu 1902'de Fransa, İngiltere ve Almanya arasında paylaşıldı.",
   kaynak:"TDV bornu AYNEN: '… Râbih 1900'de Fransız sömürge ordusu tarafından mağlûp edilerek öldürülünce yerine oğlu hâkimiyetini devam ettirmek istedi, fakat Fransızlar karşısında tutunamadı.' · TDV cad AYNEN: '… Dikoa'daki (Dikwa) savaşta esir düştü ve öldürüldü (1900).'" },

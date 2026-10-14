@@ -182,7 +182,7 @@ window.EKOKUMA_SAVAS1700 = [
  "tartisma": "Yılan Adası (Fidonisi) Muharebesi'nin hem günü hem sonucu tartışmalıdır. TDV'nin Cezayirli Gazi Hasan Paşa maddesi muharebeyi Ağustos 1788'e koyar ve Osmanlı zaferi sayar. Rus ve Batı literatürü ise Fidonisi'yi Temmuz 1788'e (Gregoryen 14 Temmuz, eski takvimle 3 Temmuz) tarihler ve Rus zaferi olarak anar. Bu ikinci görüş bu oturumda akademik bir kaynakta doğrulanamadı; yalnız ansiklopedik özetlerde görüldü. Atlas maddesi gün bilinmediği için 1788-01-01'de durur.",
  "kesinlik": "tartismali",
  "olay": [
-  "1788-01-01|Fidonisi",
+  "1788-08-01|Fidonisi",
   "1788-05-10|Karadeniz"
  ],
  "kaynak": "TDV: cezayirli-gazi-hasan-pasa (Mahir Aydın) · TDV: yusuf-pasa-koca (Kemal Beydilli) · ESBE «Турецкие войны России» (Brockhaus-Efron, ru.wikisource), 1787-1791 kısmı",
@@ -521,7 +521,7 @@ window.EKOKUMA_SAVAS1700 = [
  "tartisma": "Tarihler: Rus ansiklopedisi Jülyen takvimiyle 1 Ekim (Markov'un geçişi), 2 Ekim (baskın) ve 3 Ekim (filonun bağı kesmesi) der; bunlar miladî 13-15 Ekim'e denk gelir ve Fehmi İsmail'in verdiği 13 ve 14 Ekim geceleriyle uyuşur. Kuşatılan ordunun teslim gününü okunan kaynaklar ayrıca vermiyor; Fehmi İsmail resmî sözleşmeyi 8 Aralık'a koyar.",
  "kesinlik": "tartismali",
  "olay": [
-  "1811-10-25|Slobozia"
+  "1811-10-14|Slobozia"
  ],
  "kaynak": "Fehmi İsmail, “Bükreş Andlaşmasının Müzakeresi 1811-1812”, Belleten 46/181 (Ocak 1982), TTK (https://belleten.gov.tr/tam-metin/1705/tur) · Энциклопедический словарь Брокгауза и Ефрона, «Турецкие войны России» (ru.wikisource.org/wiki/ЭСБЕ/Турецкие_войны_России) · TDV: mahmud-ii--osmanli (Kemal Beydilli; Bükreş Antlaşması günü) · TDV: galib-pasa-mehmed-said (Orhan F. Köprülü; barış görüşmeleri)",
  "gorsel": null,
@@ -554,7 +554,7 @@ window.EKOKUMA_SAVAS1700 = [
  "tartisma": "① Safra'nın tarihi: Lutsky Ocak 1812, Değirmenci '1812 yılı başları' der; TDV bu çarpışmayı hiç anmaz. ② Bisel: okunan kaynaklardan yalnız Lutsky muharebeyi adıyla anar ve 20 Ocak gününü verir; yıl anlatının sırasından (1815) çıkar. 30.000 kişilik Vehhâbî ordusu rakamı da yalnız onundur. ③ Sefer kuvveti: Değirmenci 3.500, Lutsky Safra'daki ordu için 8.000 der.",
  "kesinlik": "tartismali",
  "olay": [
-  "1811-12-01|Safra",
+  "1812-01-01|Safra",
   "1815-01-20|Bisel"
  ],
  "kaynak": "TDV: vehhabilik (Mehmet Ali Büyükkara) · TDV: kavalali-mehmed-ali-pasa (Muhammed Hanefi Kutluoğlu) · TDV: ibrahim-pasa-kavalali (Muhammed Hanefi Kutluoğlu) · Kevser Değirmenci, “Vehhâbî İsyanının Bastırılmasında ve Sonrasında Mekke Muhafızı Hasan Paşa'nın Faaliyetleri”, Sosyal Bilimler Dergisi, sayı 49 (Temmuz 2016), s. 144 vd. (https://dergipark.org.tr/tr/download/article-file/264311) · Vladimir B. Lutsky, Modern History of the Arab Countries (1969), Bölüm VI 'The Egyptian Conquest of Arabia' (https://www.marxists.org/subject/arab-world/lutsky/ch06.htm)",
@@ -654,7 +654,7 @@ window.EKOKUMA_SAVAS1700 = [
  "tartisma": "① Akkâ kuşatmasının başlangıcı TDV'de 26 Kasım 1831'dir. ② Mustafa Reşid Bey'in Kütahya'ya gönderilişi TDV'nin İbrahim Paşa maddesinde 29 Mart, Mehmed Ali Paşa maddesinde 30 Mart 1833 olarak geçer. ③ Gülek Boğazı'nın geçilişi okunan TDV maddelerinde günüyle yer almıyor.",
  "kesinlik": "tartismali",
  "olay": [
-  "1831-11-27|Akkâ",
+  "1831-11-26|Akkâ",
   "1832-07-08|Humus",
   "1832-07-29|Belen",
   "1832-09-13|Gülek",
@@ -691,7 +691,7 @@ window.EKOKUMA_SAVAS1700 = [
  "tartisma": "① Beyrut: TDV (ibrahim-pasa-kavalali) müttefik çıkarmasını 10 Eylül'e koyar. ② Akkâ: bombardıman 3 Kasım (Kahanov ve diğerleri), şehrin düşüşü 4 Kasım (TDV kavalali-mehmed-ali-pasa) — iki gün iki ayrı aşamayı tarihliyor. Cephaneliğin infilakı okunan kaynaklarda geçmiyor.",
  "kesinlik": "tartismali",
  "olay": [
-  "1840-09-11|Beyrut",
+  "1840-09-10|Beyrut",
   "1840-11-03|Akkâ"
  ],
  "kaynak": "TDV: ibrahim-pasa-kavalali (Muhammed Hanefi Kutluoğlu) · TDV: kavalali-mehmed-ali-pasa (Muhammed Hanefi Kutluoğlu) · TDV: beyrut (Davut Dursun) · TDV: akka (Feridun Emecen) · TDV: misir (6. bölüm, Hilal Görgün; 1841 fermanı) · Yaacov Kahanov, Eliezer Stern, Deborah Cvikel, Yoav Me-Bar, “Between Shoal and Wall: The Naval Bombardment of Akko, 1840”, The Mariner's Mirror 100/2 (2014), s. 147-167, DOI 10.1080/00253359.2014.901699",
@@ -791,7 +791,7 @@ window.EKOKUMA_SAVAS1700 = [
  "tartisma": "Kesin gün kaynaklarda ayrışıyor: TDV yalnız yılı (1891), Nour Ali ve Varoğlu ayı (Şubat 1891) verir; çağdaş askerî kroki Afafit çarpışmasını 19 Şubat 1891'e tarihler. Tokar kasabasının kendisinin hangi gün teslim alındığı okunan kaynaklarda ayrıca yazılmıyor.",
  "kesinlik": "tartismali",
  "olay": [
-  "1891-02-06|Tokar"
+  "1891-02-19|Tokar"
  ],
  "kaynak": "TDV: bece (Abdülkerim Özaydın, c. 5, 1992) · TDV: mehdiler--sudan (Eymen Fuâd Seyyid, c. 28, 2003) · Tarig Mohamed Nour Ali – Galip Varoğlu, \"From Bandit to Self Sacrificer Bearded Osman Digna of Sudan\", Türk Kültürü İncelemeleri Dergisi, sy. 55 (2026), s. 107-138, https://doi.org/10.24058/tkidergi.1862239 · British Library (War Office arşivi), \"Sketch Shewing Route Traversed by the Eastern Soudan Expeditionary Force under the Command of El Lewa Holled Smith Pacha\", Intelligence Department, Kahire 25 Mart 1891 (inset: 'Action of Afafit. 19.2.91'), https://searcharchives.bl.uk/catalog/040-003409333",
  "gorsel": null,
@@ -857,7 +857,7 @@ window.EKOKUMA_SAVAS1700 = [
  "tartisma": "Yer ve gün ayrışır: TDV Çad maddesi Râbih'in 'Dikoa'daki (Dikwa) savaşta' esir düşüp öldürüldüğünü yazar ve yalnız yıl verir; Fransız askerî tarihçiliği (Marc Michel; Journal des africanistes) son çarpışmayı 22 Nisan 1900'de Kusseri'ye koyar. TDV Bornu maddesi Râbih'e 'Bagirmi sultanı' der; Adı da ayrışır: Benî Şeyh'in makalesi 'Râbih b. Fazlullah' der, TDV 'Râbih b. Zübeyr' (TDV'de Fazlullah oğlunun adıdır).",
  "kesinlik": "tartismali",
  "olay": [
-  "1900-01-01|Râbih"
+  "1900-04-22|Râbih"
  ],
  "kaynak": "TDV: bornu (Davut Dursun, c. 6, 1992) · TDV: cad (Davut Dursun) · TDV: bagirmi (Rıza Kurtuluş) · Marc Michel, \"Panorama politique de l'Afrique noire française, vers 1900\", Revue historique des Armées, sy. 218 (2000), s. 3-9, https://www.persee.fr/doc/rharm_0035-3299_2000_num_218_1_4899 · Antoine Bangui, \"Largeau, V.-E., À la naissance du Tchad, 1903-1913\" (tanıtım), Journal des africanistes, 74-1/2 (2004), s. 513-516, https://journals.openedition.org/africanistes/369 · Ali Kyari Benî Şeyh (çev. M. Tandoğan – M. Umar), \"19. Yüzyılda Osmanlı-Bornu Münasebetleri\", Journal of Medeniyet Politics / Siyasal Bilgiler Fakültesi Dergisi, I/2 (2016), s. 35-66, https://dergipark.org.tr/en/pub/ismus/article/312404",
  "gorsel": null,
@@ -923,7 +923,7 @@ window.EKOKUMA_SAVAS1700 = [
  "tartisma": "Süre ve kayıplar ayrışır: Alp savunmayı '160 gün' sayar (muharebeler 18 Ekim'de başladığı için), aynı makale beyaz bayrağı '5 buçuk ay'lık direnişin sonu diye anar. Bulgar kayıpları Batı kaynaklarına göre 18.222'dir (Hall). Sivil kayıplarda TDV 'Balkan Savaşı' maddesi Edirne'de 225.000'den fazla Müslümanın Bulgar esareti altında açlıktan öldüğünü yazar; bu sayı Alp'in Sarayiçi kampı için verdiği yaklaşık 20.000 esir ölümünden çok yüksektir ve kapsamı (şehir mi, vilâyet mi) belirsizdir. Teslimin tek başına Bulgarlara mı, Bulgar-Sırp kuvvetlerine mi yapıldığı da anlatılara göre değişir.",
  "kesinlik": "kesin",
  "olay": [
-  "1912-11-03|Edirne"
+  "1912-10-26|Edirne"
  ],
  "kaynak": "TDV: edirne · TDV: balkan-savasi (Cevdet Küçük, c. 5, 1992) · İlker Alp, \"1912-1913 Balkan Savaşları'nda Edirne'nin Sükûtu ve Yaşanan Faciâlar\", Karadeniz Araştırmaları, XV/60 (2018), s. 1-33, https://dergipark.org.tr/en/download/article-file/2249067",
  "gorsel": null,
@@ -1100,7 +1100,7 @@ window.EKOKUMA_SAVAS1700 = [
  "tartisma": "TDV’nin Faysal I maddesi Fransızların Şam’ı 14 Temmuz 1920’de işgal ettiğini yazar; bu gün Aslan’a göre ültimatom günüdür, TDV’nin Hâşimîler maddesi de muharebeyi 24 Temmuz’a koyup Şam’ın işgalini ondan sonraya yerleştirir. TDV Suriye maddesi yalnız “Temmuz 1920” der.",
  "kesinlik": "kesin",
  "olay": [
-  "1920-07-01|Meyselûn"
+  "1920-07-24|Meyselûn"
  ],
  "kaynak": "TDV: hasimiler--hasan · TDV: suriye · TDV: faysal-i · TDV: sati-el-husri · Mustafa Aslan, “Osmanlı Subaylığından Modern Suriye Devleti Savunma Bakanlığına: Yusuf Azma, Hayatı ve Siyasi Faaliyetleri”, Gaziantep University Journal of Social Sciences 22/4 (2023), 1276-1295, https://dergipark.org.tr/en/download/article-file/3396011",
  "gorsel": null,

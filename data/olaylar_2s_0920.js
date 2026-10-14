@@ -173,15 +173,15 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `azerbaycan` — AYNEN: \"27 Nisan 1920'de Azerbaycan'ı işgal eden Kızıl Ordu parlamento ve hükümeti feshederek Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" · hassasiyet: GÜN" },
 
 // ── 1920 · Meyselûn ──────────────────────────────────────────────────
-{ t:"1920-07-01", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
+{ t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
   b:"Han Meyselûn — Faysal dönemi bitti, Suriye Fransız mandasına geçti",
-  gun:"Temmuz 1920",
+  gun:"24 Temmuz 1920",
   yer:"Şam, Halep, Beyrut, Humus, Hama, Antakya, İskenderun, Deyrizor, Rakka, Münbiç, Cerablus, Azez (A'zâz), Ayn el-Arab (Kobani), Malikiye (Derik), Tedmür (Palmyra), Trablusşam, Sayda, Sûr (Tyre), Ba'lebek (Baalbek), Deyrülkamer (Dayr al-Kamer)",
   kisiler:"Faysal b. Hüseyin, General Gouraud, Yûsuf el-Azme",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
   d:"Beyrut-Şam yolundaki Han Meyselûn'da Fransızlar Suriye kuvvetlerini ağır bir yenilgiye uğrattı ve Faysal'ın Şam'daki Arap Krallığı sona erdi. Fransa, San Remo'da kendisine verilen manda yetkisini fiilen kurdu; Halep'ten Şam'a, İskenderun'dan Deyrizor'a uzanan bölge Fransız manda yönetimine bağlandı.",
-  kaynak:"TDV `suriye` — AYNEN: \"Temmuz 1920'de Beyrut-Şam arasında Han Meyselûn'da Fransızlar'ın Suriyeliler'i ağır bir yenilgiye uğratmasının ardından Suriye'de Faysal dönemi sona erdi\" · hassasiyet: AY (Temmuz 1920)",
-  ic_not_d:"HASSASİYET AY: TDV gün vermez, 'Temmuz 1920' der — tarih ayın hassasiyetinde yazıldı, atlas kırılmasının gününe (1920-07-24) ÇEKİLMEDİ (23 gün fark, pencere içinde). `yer` alanındaki kasaba adları atlasın kırılma kümesinden; TDV bunları tek tek saymaz." },
+  kaynak:"TDV `suriye` — AYNEN: \"Temmuz 1920'de Beyrut-Şam arasında Han Meyselûn'da Fransızlar'ın Suriyeliler'i ağır bir yenilgiye uğratmasının ardından Suriye'de Faysal dönemi sona erdi\" · TDV `hasimiler--hasan` — AYNEN: \"İki taraf arasında 24 Temmuz’da cereyan eden Meyselûn Savaşı’nın ardından Fransızlar Şam’ı işgal edip Suriye’deki Hâşimî krallığına son verdiler.\" · hassasiyet: GÜN",
+  ic_not_d:"KUTU-H1-1015: GÜN TDV hasimiler--hasan'dan (24 Temmuz); eski t 1920-07-01 TDV suriye'nin ay hassasiyetiydi. Atlas kırılması zaten 1920-07-24 — artık madde ile aynı gün. `yer` alanındaki kasaba adları atlasın kırılma kümesinden; TDV bunları tek tek saymaz." },
 
 // ── 1921 · Şarkî Ürdün ───────────────────────────────────────────────
 { t:"1921-02-01", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Amman",

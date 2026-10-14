@@ -348,7 +348,7 @@ window.SEHIRLER = [
   yapilar:"Arslan Paşa Külliyesi (1618, cami-medrese-hamam), Fethiye Camii.",
   kaynak:"yanya" },
 { ad:"Kandiye",    tur:"liman", lat:35.339, lon:25.133,
-  k:[{f:"1669-09-27",t:"1898-12-01",d:1,y:"kusatma"}],
+  k:[{f:"1669-09-27",t:"1898-12-22",d:1,y:"kusatma"}],
   koken:"Arapların kaleye verdiği 'Rabazulhendek'/'Hendek' adından; Rumca/İtalyanca 'Kandaka'/'Kandika' üzerinden Avrupa kaynaklarında 'Candia' oldu.",
   onem:"Girit'in en büyük şehri; Venedik idaresinde Avrupa-Asya-Uzak Doğu ticaretini birleştiren bir liman, şarap-zeytinyağı-peynir-bal ihracatının merkeziydi.",
   tarihce:"Arap hâkimiyeti (827-961), Bizans ve Venedik'ten sonra, yaklaşık yirmi üç yıl süren bir abluka ve kuşatmayla 6 Eylül 1669'da Osmanlı'ya teslim oldu.",

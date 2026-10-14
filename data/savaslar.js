@@ -107,7 +107,7 @@ window.SAVASLAR = [
 // Valea Albă – Războieni
 { t:"1476-07-26", tur:"meydan", ad:"Akdere (Valea Albă) zaferi", taraf_metin:"Boğdan (Stefan cel Mare)", sonuc:"zafer", lat:47.15, lon:26.3, taraf:["osmanli","bogdan"] },
 // koordinat yerlesimler.js'ten: Yenişehir
-{ t:"1481-06-20", tur:"meydan", ad:"Yenişehir Muharebesi (1481)", taraf_metin:"Cem Sultan", sonuc:"zafer", seri:"ic", lat:40.267, lon:29.633, taraf:["osmanli"] },
+{ t:"1481-06-22", tur:"meydan", ad:"Yenişehir Muharebesi (1481)", taraf_metin:"Cem Sultan", sonuc:"zafer", seri:"ic", lat:40.267, lon:29.633, taraf:["osmanli"] },
 // koordinat yerlesimler.js'ten: Yenişehir
 { t:"1513-04-01", tur:"meydan", ad:"Yenişehir Muharebesi (1513)", taraf_metin:"Şehzade Ahmed", sonuc:"zafer", seri:"ic", lat:40.267, lon:29.633, taraf:["osmanli"] },
 // Koçhisar (Kızıltepe), Mardin batısı
@@ -162,7 +162,7 @@ window.SAVASLAR = [
 // koordinat yerlesimler.js'ten: Kerbelâ
 { t:"1801-04-01", tur:"meydan", ad:"Vehhâbîlerin Kerbelâ baskını", taraf_metin:"Suûdî (Vehhâbî)", sonuc:"yenilgi", seri:"vehhabi", lat:32.616, lon:44.025, taraf:["osmanli","suud-birinci"] },
 // Safra geçidi, Yenbu-Medine yolu
-{ t:"1811-12-01", tur:"meydan", ad:"Safra-Cedîde bozgunu", taraf_metin:"Suûdî (Vehhâbî)", sonuc:"yenilgi", seri:"vehhabi", lat:24.08, lon:38.35, taraf:["osmanli","suud-birinci"] },
+{ t:"1812-01-01", tur:"meydan", ad:"Safra-Cedîde bozgunu", taraf_metin:"Suûdî (Vehhâbî)", sonuc:"yenilgi", seri:"vehhabi", lat:24.08, lon:38.35, taraf:["osmanli","suud-birinci"] },
 // Cebel-i Lübnan
 { t:"1860-05-30", tur:"isyan", ad:"Cebel-i Lübnan iç savaşı", taraf_metin:"Dürzî – Mârûnî", sonuc:"belirsiz", seri:"ic", lat:33.83, lon:35.65, taraf:["osmanli"] },
 // Galata, İstanbul
@@ -187,7 +187,7 @@ window.SAVASLAR = [
 { t:"1396-09-25", tur:"meydan", ad:"Niğbolu",                   taraf_metin:"Haçlı ordusu",      sonuc:"zafer",   seri:"hacli",   lat:43.70, lon:24.90, taraf:["osmanli","macaristan","fransa","eflak"], galip:"osmanli" },
 { t:"1402-07-28", tur:"meydan", ad:"Ankara",                    taraf_metin:"Timur",             sonuc:"yenilgi", seri:"",        lat:40.10, lon:32.95, taraf:["osmanli","timurlu"], galip:"timurlu" },
 { t:"1416-05-29", tur:"deniz", ad:"Gelibolu (deniz)",          taraf_metin:"Venedik",           sonuc:"yenilgi", seri:"venedik", lat:40.35, lon:26.60, taraf:["osmanli","venedik"], galip:"venedik" },
-{ t:"1443-11-01", tur:"meydan", ad:"İzladi",                    taraf_metin:"Macar-Haçlı ordusu",sonuc:"yenilgi", seri:"hacli",   lat:42.75, lon:23.90, taraf:["osmanli","macaristan"], galip:"macaristan" },
+{ t:"1443-11-24", tur:"meydan", ad:"İzladi",                    taraf_metin:"Macar-Haçlı ordusu",sonuc:"yenilgi", seri:"hacli",   lat:42.75, lon:23.90, taraf:["osmanli","macaristan"], galip:"macaristan" },
 { t:"1444-11-10", tur:"meydan", ad:"Varna",                     taraf_metin:"Haçlı ordusu",      sonuc:"zafer",   seri:"hacli",   lat:43.22, lon:27.90, taraf:["osmanli","macaristan"], galip:"osmanli" },
 { t:"1448-10-17", tur:"meydan", ad:"II. Kosova",                taraf_metin:"Macar-Haçlı ordusu",sonuc:"zafer",   seri:"hacli",   lat:42.63, lon:21.12, taraf:["osmanli","macaristan"], galip:"osmanli" },
 { t:"1473-08-11", tur:"meydan", ad:"Otlukbeli",                 taraf_metin:"Akkoyunlu",         sonuc:"zafer",   seri:"",        lat:39.97, lon:40.00, taraf:["osmanli","akkoyunlu"], galip:"osmanli" },
@@ -286,7 +286,7 @@ window.SAVASLAR = [
 { t:"1774-06-25", tur:"meydan", ad:"Kozluca",                   taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:43.35, lon:26.75, taraf:["osmanli","rusya"], galip:"rusya" },
 { t:"1788-12-06", tur:"kusatma", ad:"Özi savunması",             taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:46.62, lon:31.54, taraf:["osmanli","rusya"], galip:"rusya" },
 { t:"1807-04-21", tur:"meydan", ad:"Reşid (Rosetta)",           taraf_metin:"İngiltere",         sonuc:"zafer",   seri:"misir",   lat:31.40, lon:30.42, taraf:["osmanli","ingiltere","misir-kavalali"], galip:"osmanli" },
-{ t:"1811-10-25", tur:"meydan", ad:"Slobozia",                  taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:44.56, lon:27.36, taraf:["osmanli","rusya"], galip:"rusya" },
+{ t:"1811-10-14", tur:"meydan", ad:"Slobozia",                  taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:44.56, lon:27.36, taraf:["osmanli","rusya"], galip:"rusya" },
 { t:"1815-01-20", tur:"meydan", ad:"Bisel",                     taraf_metin:"Suûdî emirliği",    sonuc:"zafer",   seri:"vehhabi", lat:21.60, lon:41.10, taraf:["osmanli","misir-kavalali","suud-birinci"], galip:"osmanli" },
 { t:"1818-09-09", tur:"kusatma", ad:"Dir'iye kuşatması",         taraf_metin:"Suûdî emirliği",    sonuc:"zafer",   seri:"vehhabi", lat:24.73, lon:46.57, taraf:["osmanli","misir-kavalali","suud-birinci"], galip:"osmanli" },
 { t:"1825-06-22", tur:"kusatma", ad:"Tripoliçe'nin geri alınışı",taraf_metin:"Yunan isyancıları", sonuc:"zafer",   seri:"yunan",   lat:37.51, lon:22.38, taraf:["osmanli","misir-kavalali","yunanistan"], galip:"misir-kavalali" },
@@ -495,7 +495,7 @@ window.ANTLASMALAR = [
   taraf:["osmanli","rusya"], topraklar:"Tuna deltasındaki adalar ve Ahıska-Ahılkelek Rusya'ya bırakıldı; Eflak ve Boğdan'da Rus işgali sona erdi ama özerklik genişledi; Yunanistan'ın bağımsızlığının önü açıldı." },
 { t:"1830-02-03", ad:"Londra Protokolü", savas_basi:"1821-03-25",     taraf_metin:"İng-Fra-Rus",      ozet:"Bağımsız Yunanistan tanındı",
   taraf:["osmanli","ingiltere","rusya","yunanistan"], topraklar:"Mora ve orta Yunanistan Osmanlı'dan ayrılıp bağımsız Yunanistan Krallığı'na verildi." },
-{ t:"1833-05-14", ad:"Kütahya Sözleşmesi", savas_basi:"1831-10-31",   taraf_metin:"Mısır (Kavalalı)", ozet:"Suriye ve Adana Mehmed Ali ile İbrâhim Paşa'ya bırakıldı",
+{ t:"1833-05-06", ad:"Kütahya Sözleşmesi", savas_basi:"1831-10-31",   taraf_metin:"Mısır (Kavalalı)", ozet:"Suriye ve Adana Mehmed Ali ile İbrâhim Paşa'ya bırakıldı",
   taraf:["osmanli","misir-kavalali"], topraklar:"Suriye, Filistin, Adana ve Girit valilikleri Osmanlı merkezinden Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın idaresine bırakıldı." },
 { t:"1833-07-08", ad:"Hünkâr İskelesi",      taraf_metin:"Rusya",            ozet:"Sekiz yıllık savunma ittifakı; boğazların Rusya lehine kapatılması",
   taraf:["osmanli","rusya"], topraklar:"Toprak el değiştirmedi; karşılıklı savunma ittifakı kuruldu, gizli maddeyle Boğazlar üçüncü devletlerin savaş gemilerine Rusya lehine kapatıldı." },
@@ -1173,7 +1173,7 @@ window.SEFERLER = [
   // 06-15 Şam teslim · 06-25 Halep (Humus Muharebesi 07-08 ARADA ama güzergâhta
   // Halep'ten ÖNCE geliyor — sefer_ok.js MAX kuralı ok'u geri kısaltmaz, Halep'te
   // kalır) · 07-29 Belen bozgunu.
-  kademe:[["1831-10-31",1],["1831-11-27",2],["1832-06-15",3],["1832-06-25",5],["1832-07-29",6]],
+  kademe:[["1831-10-31",1],["1831-11-26",2],["1832-06-15",3],["1832-06-25",5],["1832-07-29",6]],
   yol:[[31.24,30.05],[34.47,31.50],[35.08,32.93],[36.29,33.51],[36.71,34.73],[37.16,36.20],[36.20,36.52]] },
 { ad:"Anadolu ilerleyişi (1832-33)", tur:"sefer", sonuc:"yenilgi",
   // 🔴 f DÜZELTİLDİ 1832-08-01 → 1832-07-29 (SEFER-OK-0075/H-0012): kademenin ilk
@@ -1189,7 +1189,7 @@ window.SEFERLER = [
 // Açık deniz üzerinden Levant kıyısına, oradan Akkâ ve İskenderiye'ye
 // indirildi (kara-maskesi ölçümüyle ~%7,5 — kalanı Akkâ/İskenderiye
 // varışlarındaki liman kıyısı, beklenen).
-{ ad:"Müttefik donanma harekâtı (1840)", tur:"deniz", sonuc:"zafer", f:"1840-09-11", t:"1840-11-27",
+{ ad:"Müttefik donanma harekâtı (1840)", tur:"deniz", sonuc:"zafer", f:"1840-09-10", t:"1840-11-27",
   // 🔴 `rota` — SEFER-OK-0075/H-0033. Kavis bu bacağı 119→145 km'ye çıkarıyordu
   // (kara bilmiyordu); kara üstü 71→0 km.
   rota:[[26.4,38.5],[26.225,38.295],[26.465,37.285],[26.6,37],[27.5,36],[28.1,35.4],[29.5,35],[31,34.7],[32.5,34.5],[34,34.4],[35.35,33.95],[35.15,33.4],[35.005,32.945],[35.08,32.93],[32,31.9],[30.265,31.515],[29.905,31.275],[29.92,31.2]],

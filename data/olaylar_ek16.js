@@ -493,12 +493,12 @@ window.OLAYLAR_EK16 = [
   d:"Karintiya Dükü ve Tirol Kontu VI. Heinrich'in 2 Nisan 1335'te Tirol Kalesi'nde vârissiz ölmesiyle, 23 Kasım 1330'da Bavyeralı Ludwig ile gizlice yapılan bir anlaşma uyarınca Habsburg kardeşler II. Albrecht ve IV. Otto, Karintiya Dukalığı'nı ve ona bağlı Karniyola (bugünkü Ljubljana'nın da içinde olduğu bölge) imparatorluk beratıyla aldılar; Tirol ise Heinrich'in kızı vasıtasıyla ayrı kaldı. Bu, Habsburgların Alp bölgesindeki genişlemesinin ilk büyük adımlarından biriydi ve Karniyola 1918'e kadar (kesintili) Habsburg/Avusturya elinde kalacaktı.",
   kaynak:"NDB 'Ludwig der Bayer' (Neue Deutsche Biographie, deutsche-biographie.de/gnd118574957.html): 'bereits Anfang Mai 1335' … 'die österr. Herzöge mit Kärnten belehnt' — AY · AEIOU/Austria-Forum '1335 Erwerbung Kärntens': '1335 belehnte der Kaiser die Habsburger mit Kärnten, das seither mit Österreich verbunden blieb.' · TDV bu olayı kapsamıyor · eski t:1335-05-02 ve '2 Nisan' günü kaynaksızdı (LUGOS-KLAGENFURT-1006)", duygu:["😔"] },
 
-{ t:"1891-02-06", k:"savas", etiket:["toprak-kayip","konu-askeri"],
+{ t:"1891-02-19", k:"savas", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", onem:3, b:"Tokar'ın İngiliz-Mısır kuvvetlerince geri alınışı — Osman Digna'nın çekilişi",
-  gun:"Şubat 1891 (basında 28 Şubat'ta haber verildi, alınış ayın ilk haftasında)",
+  gun:"19 Şubat 1891 (Afafit/Tokar çarpışması)", ic_not_t:"eski t 1891-02-06 ('ayın ilk haftası') hiçbir okunan kaynakta yok. Gün: British Library, War Office krokisi 'Action of Afafit. 19.2.91' (Kahire, 25 Mart 1891, https://searcharchives.bl.uk/catalog/040-003409333); ay: Nour Ali – Varoğlu, TKİD 55 (2026) 'February 1891'; yıl: TDV bece. KUTU-H1-1015",
   yer:"Tokar",
   yer_id:"Tokar", kisiler:"Osman Digna",
   d:"1884'ten beri Mehdî hareketinin yerel komutanı Osman Digna'nın elinde bulunan Kızıldeniz kıyısındaki Tokar, Şubat 1891'de İngiliz-Mısır kuvvetlerinin harekâtıyla geri alındı; Osman Digna dağlara çekilmek zorunda kaldı. Bu, Mehdî Devleti'nin Kızıldeniz kıyısındaki varlığına büyük bir darbe oldu ve bölge İngiliz-Mısır ortak yönetimi altına girdi.",
-  kaynak:"bulunamadı — TDV bu olayı kapsamıyor, dayanak: standart akademik kaynak (Mahdist War / Battle of Tokar 1891 tarihyazımı)", duygu:["⚔️"] },
+  kaynak:"bece (TDV): '1891’de aynı kuvvetler Osman Dikne’nin Tûker’deki karargâhını zaptedip bu harekete ağır bir darbe indirdiler.' · BL War Office krokisi (19.2.91) · Tarig Mohamed Nour Ali – Galip Varoğlu, Türk Kültürü İncelemeleri Dergisi 55 (2026), s. 107-138, doi 10.24058/tkidergi.1862239", duygu:["⚔️"] },
 
 ];

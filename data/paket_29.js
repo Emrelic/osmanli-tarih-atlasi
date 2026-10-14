@@ -937,7 +937,7 @@ window.ANTLASMA_HARITALARI = [
 {
   "id": "kutahya-1833",
   "antlasma_ad": "Kütahya Sözleşmesi",
-  "tarih": "1833-05-14",
+  "tarih": "1833-05-06",
   "bolgeler": [
     {
       "taraf": "misir-kavalali",

@@ -251,8 +251,8 @@ window.YERLESIMLER_OK107 = [
   //   yazıldı (TDV bornu, YIL düzeyi). Birni N'gazargamu 1808'den beri
   //   harabe ve TDV 1893'te adını anmıyor — ona yazılmadı.
   s:[{f:"1814-01-01",t:"1893-01-01",d:"kanem-bornu"},
-     {f:"1893-01-01",t:"1900-01-01",d:"rabih",kaynak:"TDV bornu: 'Bornu, Bagirmi Sultanı Râbih b. Zübeyir'in hâkimiyetine girdi (1893).' · 'Râbih 1900'de Fransız sömürge ordusu tarafından mağlûp edilerek öldürülünce' — YIL düzeyi (GEMINI-DOGRULA 0919)"},
-     {f:"1900-01-01",t:"1902-01-01",d:"kanem-bornu"},
+     {f:"1893-01-01",t:"1900-04-22",d:"rabih",kaynak:"TDV bornu: 'Bornu, Bagirmi Sultanı Râbih b. Zübeyir'in hâkimiyetine girdi (1893).' · 'Râbih 1900'de Fransız sömürge ordusu tarafından mağlûp edilerek öldürülünce' — YIL düzeyi (GEMINI-DOGRULA 0919)"},
+     {f:"1900-04-22",t:"1902-01-01",d:"kanem-bornu",kaynak:"Râbih'in sonu: 22 Nisan 1900 Kusseri (Michel 2000; Bangui 2004) — TDV bornu/cad yalnız 1900 · KUTU-H1-1015"},
      {f:"1902-01-01",t:"1960-10-01",d:"ingiltere"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[], kaynak:"bornu"
 },
@@ -266,8 +266,8 @@ window.YERLESIMLER_OK107 = [
   // 1919-06-28 (Versailles) seçildi: Almanya'nın sömürge haklarının hukuken
   // sona erdiği gün ve külliyatta zaten kullanılan bir gün. TDV gün vermiyor.
   s:[{f:"1281-01-01",t:"1893-01-01",d:"kanem-bornu"},
-     {f:"1893-01-01",t:"1900-01-01",d:"rabih",kaynak:"TDV bornu: 'Bornu, Bagirmi Sultanı Râbih b. Zübeyir'in hâkimiyetine girdi (1893).' · 'Dikeo'yu merkez edinen Râbih 1900'de … öldürülünce' — iki uç da YIL düzeyi (GEMINI-DOGRULA 0919)"},
-     {f:"1900-01-01",t:"1902-01-01",d:"kanem-bornu"},
+     {f:"1893-01-01",t:"1900-04-22",d:"rabih",kaynak:"TDV bornu: 'Bornu, Bagirmi Sultanı Râbih b. Zübeyir'in hâkimiyetine girdi (1893).' · 'Dikeo'yu merkez edinen Râbih 1900'de … öldürülünce' — iki uç da YIL düzeyi (GEMINI-DOGRULA 0919)"},
+     {f:"1900-04-22",t:"1902-01-01",d:"kanem-bornu",kaynak:"Râbih'in sonu: 22 Nisan 1900 Kusseri (Michel 2000; Bangui 2004) — TDV bornu/cad yalnız 1900 · KUTU-H1-1015"},
      {f:"1902-01-01",t:"1919-06-28",d:"almanya"},
      {f:"1919-06-28",t:"1960-10-01",d:"ingiltere"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[], kaynak:"bornu"
