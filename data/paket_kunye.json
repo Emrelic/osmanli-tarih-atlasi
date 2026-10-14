@@ -124,8 +124,8 @@
    "kaynak": [
     {
      "yol": "data/olaylar_ek17.js",
-     "sha": "729156ce13581e5d",
-     "bayt": 38427
+     "sha": "fa283edfef3ff308",
+     "bayt": 38431
     },
     {
      "yol": "data/olaylar_ek18.js",
@@ -158,7 +158,7 @@
      "bayt": 25588
     }
    ],
-   "bayt": 109002
+   "bayt": 109006
   },
   {
    "paket": "data/paket_05.js",

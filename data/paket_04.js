@@ -237,8 +237,8 @@ window.OLAYLAR_EK17 = [
   gun:"5 Kasım 1815",
   yer:"Ayamavra (Lefkada)", yer_id:"Ayamavra (Lefkada)",
   kisiler:"Robert Stewart (Castlereagh), Klemens von Metternich",
-  d:"1797'de Fransa'ya geçen Ayamavra ve öteki İyon adaları, Napolyon'un kesin yenilgisinin ardından 5 Kasım 1815'te Paris'te İngiltere, Rusya, Avusturya ve Prusya arasında imzalanan özel antlaşmayla 'Yedi Ada Birleşik Devletleri' adı altında İngiliz himayesine bırakıldı — bu, 20 Kasım 1815'teki genel Paris Antlaşması'ndan AYRI bir belgedir. Himaye 1864'e kadar sürecek, sonra adalar Yunanistan'a devredilecekti.", ic_not_d:"⚠️ TDV bu maddeyi kapsamıyor — Napolyon sonrası İyon Adaları meselesi Osmanlı'nın artık taraf olmadığı bir Avrupa iç düzenlemesidir; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Paris').",
-  kaynak:"bulunamadı — TDV bu dönemi/bölgeyi kapsamıyor, dayanak: Encyclopaedia Britannica 'Treaty of Paris (1815)'", duygu:["🏴"] },
+  d:"1797'de Fransa'ya geçen Ayamavra ve öteki İyon adaları, Napolyon'un kesin yenilgisinin ardından 5 Kasım 1815'te Paris'te İngiltere, Rusya, Avusturya ve Prusya arasında imzalanan özel antlaşmayla 'Yedi Ada Birleşik Devletleri' adı altında İngiliz himayesine bırakıldı — bu, 20 Kasım 1815'teki genel Paris Antlaşması'ndan AYRI bir belgedir. Himaye 1864'e kadar sürecek, sonra adalar Yunanistan'a devredilecekti.", ic_not_d:"KUTU-H4-1015: önceki not 'TDV kapsamıyor' diyordu — YANLIŞ. TDV 'Yedi Ada Cumhuriyeti' maddesi 5 Kasım'da Paris'te İngiltere, Avusturya, Prusya ve Rusya arasında imzalanan mukavelenâmeyle adaların İngiltere'ye bırakıldığını ve Osmanlı'nın kongreye katılmadığını yazar (15 Ekim 2026'da GET ile okundu).",
+  kaynak:"yedi-ada-cumhuriyeti", duygu:["🏴"] },
 
 { t:"1688-01-17", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Munkács (Mukacheve) kalesinin üç yıllık kuşatma sonrası Avusturya'ya teslimi",
