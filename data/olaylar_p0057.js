@@ -244,4 +244,36 @@ window.OLAYLAR_P0057 = [
   d:"Mudanya Mütarekesi Doğu Trakya'nın Yunan ordusunca boşaltılıp Türkiye'ye teslimini öngörüyordu; Trakya'yı teslim almakla görevli Refet Paşa 19 Ekim'de İstanbul'a geldi. TDV'ye göre 26 Temmuz 1920'den beri işgal altındaki Kırklareli 10 Kasım 1922'de geri alındı, Tekirdağ da mütareke uyarınca 13 Kasım'da Türklere iade edildi. Böylece Doğu Trakya savaşılmadan Türk topraklarına katıldı.",
   kaynak:"kirklareli · tekirdag · milli-mucadele" },
 
+{ t:"1919-10-15", k:"isgal", etiket:["isgal","konu-askeri"],
+  b:"Garbî Trakya'da Fransız askerî idaresinin başlaması",
+  gun:"15 Ekim 1919",
+  ic_not_gun:"Gün TDV bati-trakya ('Fransız kuvvetlerinin Batı Trakya'yı işgali (15 Ekim 1919)'). Yunan devri TDV'de 22 Mayıs 1920; atlasta Dedeağaç/Sofulu 14 Mayıs, Gümülcine/İskeçe/Ferecik 27 Mayıs — yerleşim uçları değiştirilmedi, kaynakları ayrı ölçülecek. KUTU-C-1014.",
+  yer:"Gümülcine, İskeçe, Dedeağaç (Alexandroupoli), Sofulu (Soufli), Ferecik (Feres), Távri", yer_id:"Gümülcine", kisiler:"",
+  d:"Birinci Dünya Savaşı'nı kaybeden Bulgaristan'ın elindeki Batı Trakya, barış görüşmeleri sürerken İtilaf devletlerinin denetimine alındı. TDV'nin Batı Trakya maddesine göre bölge 15 Ekim 1919'da Fransız kuvvetlerince işgal edildi; Batı Trakya Müdâfaa-i Hukuk Cemiyeti bu dönemde merkezini Gümülcine'ye taşıdı. Fransız idaresi, San Remo kararıyla bölgenin Mayıs 1920'de Yunanistan'a bırakılmasına kadar sürdü.",
+  kaynak:"bati-trakya" },
+
+{ t:"1921-01-01", kesinlik:"yil", k:"kazanc", etiket:["kurtulus","isgal","konu-askeri"],
+  b:"Burdur'un İtalyan işgalinin sona ermesi (yıl)",
+  gun:"1921 (gün bilinmiyor)",
+  ic_not_gun:"TDV burdur işgali yalnız '1919-1921' diye yıl aralığıyla veriyor; tahliye günü kaynakta yok ⇒ 1921-01-01 YIL temsilidir (CLAUDE.md: kaynak yıl der ⇒ yıl yazılır). İtalyan çekilmesinin genel akışı 1921 yazıdır (Antalya 1 Haziran, Muğla 5 Temmuz). KUTU-C-1014.",
+  yer:"Burdur", yer_id:"Burdur", kisiler:"",
+  d:"28 Haziran 1919'da İtalyanlarca işgal edilen Burdur, TDV'nin Burdur maddesine göre 1919-1921 yılları arasında kısa süreli bir İtalyan işgali yaşadı. Kaynak tahliyenin gününü vermiyor; haritada işgal 1921 yılının başında biter. İtalya Anadolu'daki işgal bölgesinden 1921 yazında tümüyle çekildi.",
+  kaynak:"burdur · isparta" },
+
+{ t:"1557-04-02", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+  b:"Özdemir Paşa'nın Masavva' limanını alması",
+  gun:"2 Cemâziyelâhir 964 (2 Nisan 1557)",
+  ic_not_gun:"Gün TDV masavva (hicrî karşılığıyla) ve TDV habes-eyaleti ('2 Nisan 1557'de Masavva' şehri alındıktan sonra'). TDV harar '12 Nisan' der; hicrî karşılığı veren ihtisas maddesi esas (kronoloji_dogu_afrika.js:82). Dehlek'in alınış günü TDV dehlek'te YOK — Dahlak 1557-01-01 (yıl) kaldı. KUTU-C-1014.",
+  yer:"Masavva, Arkîko", yer_id:"Masavva", kisiler:"Özdemir Paşa",
+  d:"Habeş Eyaleti'nin beylerbeyi Özdemir Paşa, Dehlek adalarını ele geçirdikten sonra karşı kıyıdaki Masavva' şehrini 2 Nisan 1557'de aldı; ardından Arkîko da Osmanlı idaresine girdi. Böylece Habeşistan'ın Kızıldeniz'e açılan başlıca limanı Osmanlı'nın eline geçti.",
+  kaynak:"masavva · habes-eyaleti" },
+
+{ t:"1793-01-31", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-diplomasi"],
+  b:"Nice Kontluğu'nun Fransa'ya katılması",
+  gun:"31 Ocak 1793",
+  ic_not_gun:"Gün Digithèque MJP d1793nice (Archives parlementaires): Konvansiyon katılmayı 31 Ocak 1793'te onayladı; Alpes-Maritimes departmanı 4 Şubat 1793 kararnamesiyle kuruldu. Dönüş: I. Paris Antlaşması 30 Mayıs 1814 (MJP traites/1814paris). TDV bu coğrafyayı kapsamıyor. KUTU-C-1014.",
+  yer:"Nice", yer_id:"Nice", kisiler:"",
+  d:"Savoy'un Kasım 1792'de katılmasından sonra Fransız Ulusal Konvansiyonu, Sardinya Krallığı'na ait Nice Kontluğu'nun Fransa'ya katılmasını 31 Ocak 1793'te onayladı; bölge Alpes-Maritimes departmanı oldu. Nice, Napolyon'un yenilgisinden sonra 30 Mayıs 1814 tarihli I. Paris Antlaşması'yla Sardinya'ya geri döndü.",
+  kaynak:"Digithèque MJP (d1793nice, traites/1814paris)" },
+
 ];
