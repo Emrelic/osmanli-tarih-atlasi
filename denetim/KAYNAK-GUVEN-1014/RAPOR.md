@@ -2,24 +2,24 @@
 
 > Bu dosyayı `arac/kaynak_guven.py` ÜRETİR — elle düzenleme. Yeniden: `py arac/kaynak_guven.py`.
 
-- **Ölçüldüğü taban commit:** `9bf3366e6fffd9166f17f6dbfa27675f9c21e5c1` + çalışma ağacındaki değişiklikler (M data/devletler.js, M data/ekokuma_bakis.js, M data/ekokuma_karadeniz.js, M data/etiket_yama.js, M data/kronoloji_balkan.js, M data/kronoloji_bizans.js, M data/kronoloji_ingiltere.js, M data/olaylar_ek.js, M data/olaylar_ek3.js, M data/padisahlar.js, M data/savas_kunye_1.js, M data/savaslar.js, M data/yer_yama_1923_1945.js, M data/yer_yama_ing.js, M data/yerlesimler.js, M data/yerlesimler_amerika.js)
-- **Tablo:** `data/kaynak_guven.js` · 146 girdi · sha256[:12] `3649a2578d2a`
+- **Ölçüldüğü taban commit:** `d51bfe243d4029a1c9aa165dea71a2efe13abce4` + çalışma ağacındaki değişiklikler (MM data/devletler.js, MM data/etiket_yama.js, MM data/kaynak_guven.js, MM data/kronoloji_cok_lehistan.js, MM data/kronoloji_fransa.js, MM data/kronoloji_ingiltere.js, MM data/kronoloji_ispanya.js, MM data/kronoloji_lehistan.js, MM data/kronoloji_sinir_afrika.js, MM data/kronoloji_sinir_nokta2.js, MM data/olaylar_ek12.js, MM data/olaylar_ek8.js, MM data/olaylar_p0056.js, MM data/olaylar_p0065.js, MM data/yer_yama.js, MM data/yer_yama_fransa.js, MM data/yer_yama_ing.js, MM data/yer_yama_ispanya.js)
+- **Tablo:** `data/kaynak_guven.js` · 159 girdi · sha256[:12] `ab7627019507`
 - **Evren:** index.html → `arac/paket_coz.py` → 188 `olaylar*/kronoloji*` dosyası (10587 madde) + `data/devletler.js` (1811 künye, 12298 künye-kronoloji maddesi); yükleme `arac/silsile_yukle.js` (node vm).
-- **Parçalama = site:** `js/app.js` `kaynakcaParcala` node'da koşturuldu, 15949 farklı kaynak dizgesinde Python bölmesiyle kıyaslandı → **0 fark**.
+- **Parçalama = site:** `js/app.js` `kaynakcaParcala` node'da koşturuldu, 16526 farklı kaynak dizgesinde Python bölmesiyle kıyaslandı → **0 fark**.
 
 ## 1. Damga dağılımı (madde sayısı)
 
 | damga | dosya kronolojileri | künye kronolojileri | künye `kaynak` alanı |
 |---|---:|---:|---:|
-| `guvenli` | 7423 | 2975 | 762 |
-| `ikincil` | 1011 | 3508 | 542 |
-| `taninmayan` | 964 | 1688 | 211 |
-| `guvensiz` | 437 | 1982 | 26 |
+| `guvenli` | 7563 | 3290 | 762 |
+| `ikincil` | 1266 | 3695 | 542 |
+| `taninmayan` | 960 | 1683 | 211 |
+| `guvensiz` | 46 | 1485 | 26 |
 | `bulunamadi` | 739 | 177 | 270 |
 | `bos` | 13 | 1968 | 0 |
 | **toplam** | 10587 | 12298 | 1811 |
-| ↳ `guvensiz` alt neden C | 21 | 1976 | 24 |
-| ↳ `guvensiz` alt neden `adsiz` | 416 | 6 | 2 |
+| ↳ `guvensiz` alt neden C | 10 | 1480 | 24 |
+| ↳ `guvensiz` alt neden `adsiz` | 36 | 5 | 2 |
 
 - `guvenli` — En az bir A parçası.
 - `ikincil` — A yok, en az bir B parçası.
@@ -32,13 +32,13 @@
 
 ## 2. Parça düzeyi
 
-Parça kademeleri: A 13504 · B 6552 · C 4911 · K 230 · N 1343 · TANINMAYAN 6704 · Y 720
+Parça kademeleri: A 13963 · B 7026 · C 4912 · K 230 · N 1366 · TANINMAYAN 6687 · Y 720
 
-KARIŞIK parça (aynı parçada C ve A/B → C sayıldı): **173** — `karisik_parca.tsv`.
+KARIŞIK parça (aynı parçada C ve A/B → C sayıldı): **185** — `karisik_parca.tsv`.
 
-En sık eşleşen tablo kodları: TDV 9750 · VIKIPEDI 3186 · BRITANNICA 2652 · NOT 2327 · AKADEMIK-ESER 1223 · POPULER-TARIH 611 · HISTORY-STATE 516 · COUNTRYSTUDIES 511 · IRANICA 475 · UNIV-YAYIN-KISALTMA 414 · EL-KITABI 407 · CAMBRIDGE 400 · UNIV-YAYIN 351 · WORLDHISTORY 344 · RESMI-SITE 343 · UN 338 · UNIV-SITE 336 · ADSIZ 316 · PDF-KAYNAK 315 · ENCYCLOPEDIA-COM 307 · SECKIN-KURUM 280 · MUZE 267 · HABER 265 · EBSCO-RS 231 · LIVIUS 174 · WW1-ONLINE 165 · GLOBALSECURITY 163 · TRECCANI 142 · GEC 123 · WORLDSTATESMEN 116 · OXFORD 115 · HAKEMLI-DERGI 107 · ENC-REGIONAL 105 · MEVZUAT 101 · SAHO 97 · KUREANS 97 · UN-BELGE 83 · ARCHONTOLOGY 77 · NDB 75 · CHINAKNOWLEDGE 75
+En sık eşleşen tablo kodları: TDV 9905 · VIKIPEDI 3187 · BRITANNICA 2653 · NOT 2350 · AKADEMIK-ESER 1244 · POPULER-TARIH 611 · HISTORY-STATE 526 · COUNTRYSTUDIES 512 · IRANICA 504 · UNIV-YAYIN-KISALTMA 500 · EL-KITABI 407 · CAMBRIDGE 400 · UNIV-YAYIN 367 · ENCYCLOPEDIA-COM 365 · RESMI-SITE 348 · WORLDHISTORY 344 · UN 341 · UNIV-SITE 340 · PDF-KAYNAK 326 · ADSIZ 316 · SECKIN-KURUM 286 · MUZE 283 · HABER 270 · OXFORD 236 · EBSCO-RS 232 · LIVIUS 211 · TRECCANI 191 · LAROUSSE 179 · WW1-ONLINE 165 · GLOBALSECURITY 163 · GEC 135 · MEVZUAT 122 · WORLDSTATESMEN 116 · HAKEMLI-DERGI 115 · ENC-REGIONAL 105 · SAHO 98 · KUREANS 97 · NDB 94 · UN-BELGE 85 · CHINAKNOWLEDGE 78
 
-### En sık 30 tanınmayan parça (5576 ayrı parça; tamamı ilk 300 `taninmayan_parca.tsv`)
+### En sık 30 tanınmayan parça (5566 ayrı parça; tamamı ilk 300 `taninmayan_parca.tsv`)
 
 | # | adet | parça |
 |---:|---:|---|
@@ -81,15 +81,15 @@ blackpast.org 14 · east.library.utoronto.ca 8 · al-bab.com 7 · talvisota.fi 6
 
 Yöntem: `arac/denetle.py` içe aktarıldı; `degismez2`, `kapsam_disi`, `yil_temsili_ayir` denetle'nin ana akışındaki gibi çağrıldı (çekirdek yerleşimler = `KUYRUK_DOSYALARI` hariç). Madde evreni = `denetle.olaylari_yukle()` (disk glob: `olaylar*.js` + `kronoloji_sinir*.js`), 2742 madde / 90 dosya; birebir aynı kurulduğu doğrulandı. Süzülmüş evrende AÇIK olup tam evrende AÇIK olmayan kırılma = ±30 gün tanıkları YALNIZ süzülen maddeler olan kırılma.
 
-D2 evreninde damga: bos 13 · bulunamadi 70 · guvenli 2073 · guvensiz 19 · ikincil 282 · taninmayan 285
+D2 evreninde damga: bos 13 · bulunamadi 70 · guvenli 2081 · guvensiz 7 · ikincil 290 · taninmayan 281
 
-Taban (tam evren): 2 → 679 kırılma / 0 açık · 2s → 2246 kırılma / 1278 ham açık / 190 AÇIK · 2i → 237 kırılma / 1 açık
+Taban (tam evren): 2 → 679 kırılma / 0 açık · 2s → 2246 kırılma / 1277 ham açık / 190 AÇIK · 2i → 237 kırılma / 1 açık
 
 | senaryo (gizlenen damgalar) | gizlenen madde | 2 yeni açık | 2s yeni ham açık | 2s yeni AÇIK (kapsam içi, gün hassas) | 2i yeni açık |
 |---|---:|---:|---:|---:|---:|
-| S1-guvensiz | 19 | 0 | 2 | 0 | 0 |
-| S2-guvensiz+bos+bulunamadi | 102 | 3 | 52 | 44 | 1 |
-| S3-yalniz-AB-kalir | 387 | 17 | 160 | 121 | 2 |
+| S1-guvensiz | 7 | 0 | 2 | 0 | 0 |
+| S2-guvensiz+bos+bulunamadi | 90 | 3 | 52 | 44 | 1 |
+| S3-yalniz-AB-kalir | 371 | 17 | 159 | 120 | 2 |
 
 Liste: `d2_yalniz_suzulen_tanikli.tsv` (senaryo, değişmez, tarih, yerleşimler, devlet eski→yeni, tanık maddeler, tanık kaynakları). Teyit kampanyasında İLK sıra S1 satırlarıdır.
 

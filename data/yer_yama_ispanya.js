@@ -445,7 +445,7 @@ window.YER_YAMA_ISPANYA = [
  },
  {
   "dosya": "kronoloji_ispanya.js",
-  "t": "1793-03-23",
+  "t": "1793-01-01",
   "b": "Devrimci Fransa'ya savaş ilanı — Pireneler Savaşı başladı",
   "yer_id": "Madrid",
   "not": "Savaş ilanı İspanyol tacı adına hükümet merkezi Madrid'den yapıldı; savaşın kendisi sınır bölgesinde (Pireneler) yürütüldü ama İLAN eylemi Madrid'e bağlanabilir",
@@ -471,7 +471,7 @@ window.YER_YAMA_ISPANYA = [
  },
  {
   "dosya": "kronoloji_ispanya.js",
-  "t": "1797-02-14",
+  "t": "1797-01-01",
   "b": "Aziz Vincent Burnu Savaşı — İspanyol donanmasının yenilgisi",
   "eksik_nokta": {
    "ad": "Aziz Vincent Burnu açıkları (Portekiz)",
@@ -482,7 +482,7 @@ window.YER_YAMA_ISPANYA = [
  },
  {
   "dosya": "kronoloji_ispanya.js",
-  "t": "1800-10-01",
+  "t": "1800-01-01",
   "b": "Üçüncü San Ildefonso Antlaşması — Louisiana Fransa'ya geri verildi",
   "eksik_nokta": {
    "ad": "San Ildefonso (La Granja de San Ildefonso, Segovia)",
@@ -699,7 +699,7 @@ window.YER_YAMA_ISPANYA = [
  },
  {
   "dosya": "kronoloji_ispanya.js",
-  "t": "1622-03-12",
+  "t": "1622-01-01",
   "b": "Dörtlü kanonizasyon — Ávilalı Teresa ve üç İspanyol azizin törenle azizleştirilmesi",
   "yer_id": "Roma",
   "not": "Tören Vatikan/Roma'da Papa tarafından yapıldı",

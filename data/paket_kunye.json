@@ -67,8 +67,8 @@
     },
     {
      "yol": "data/olaylar_ek8.js",
-     "sha": "6926d5593b39ec2b",
-     "bayt": 36041
+     "sha": "065a76298b1717de",
+     "bayt": 36391
     },
     {
      "yol": "data/olaylar_ek9.js",
@@ -87,8 +87,8 @@
     },
     {
      "yol": "data/olaylar_ek12.js",
-     "sha": "309dd5498c94205b",
-     "bayt": 16915
+     "sha": "47b130ef5b0585ed",
+     "bayt": 17151
     },
     {
      "yol": "data/olaylar_ek13.js",
@@ -96,7 +96,7 @@
      "bayt": 40685
     }
    ],
-   "bayt": 232028
+   "bayt": 232614
   },
   {
    "paket": "data/paket_03.js",
@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "bee02abad33afa90",
-     "bayt": 4184085
+     "sha": "0ac3ce834d9f99a9",
+     "bayt": 4305100
     }
    ],
-   "bayt": 4336401
+   "bayt": 4457416
   },
   {
    "paket": "data/paket_06.js",
@@ -191,8 +191,8 @@
     },
     {
      "yol": "data/kronoloji_lehistan.js",
-     "sha": "84c9902d8e19ea30",
-     "bayt": 48765
+     "sha": "0a4565ad4ab81508",
+     "bayt": 57395
     },
     {
      "yol": "data/kronoloji_venedik.js",
@@ -210,7 +210,7 @@
      "bayt": 72351
     }
    ],
-   "bayt": 444832
+   "bayt": 453462
   },
   {
    "paket": "data/paket_07.js",
@@ -238,13 +238,13 @@
    "kaynak": [
     {
      "yol": "data/kronoloji_ingiltere.js",
-     "sha": "b90218ab09f39c01",
-     "bayt": 197779
+     "sha": "68d5ee455e3b4556",
+     "bayt": 238091
     },
     {
      "yol": "data/kronoloji_fransa.js",
-     "sha": "f51592fedf4c5e97",
-     "bayt": 120638
+     "sha": "66325751fd571e38",
+     "bayt": 149665
     },
     {
      "yol": "data/kronoloji_almanya.js",
@@ -252,7 +252,7 @@
      "bayt": 100762
     }
    ],
-   "bayt": 419552
+   "bayt": 488891
   },
   {
    "paket": "data/paket_09.js",
@@ -289,8 +289,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_afrika.js",
-     "sha": "be87436fa9f76832",
-     "bayt": 16605
+     "sha": "e7a9005d8c92f342",
+     "bayt": 17437
     },
     {
      "yol": "data/kronoloji_sinir_asya.js",
@@ -324,8 +324,8 @@
     },
     {
      "yol": "data/kronoloji_ispanya.js",
-     "sha": "29ad24c355ccedbd",
-     "bayt": 107174
+     "sha": "fb05f44fc8d4cb7a",
+     "bayt": 110306
     },
     {
      "yol": "data/kronoloji_portekiz.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1022520
+   "bayt": 1026484
   },
   {
    "paket": "data/paket_10.js",
@@ -845,8 +845,8 @@
     },
     {
      "yol": "data/olaylar_p0056.js",
-     "sha": "05ba0dae64842a54",
-     "bayt": 19938
+     "sha": "9e8e82032d28a70c",
+     "bayt": 21279
     },
     {
      "yol": "data/ittifaklar.js",
@@ -874,7 +874,7 @@
      "bayt": 6292
     }
    ],
-   "bayt": 190167
+   "bayt": 191508
   },
   {
    "paket": "data/paket_16.js",
@@ -1271,8 +1271,8 @@
     },
     {
      "yol": "data/olaylar_p0065.js",
-     "sha": "07e486ba811ed0e6",
-     "bayt": 4819
+     "sha": "adff972045bdcb3f",
+     "bayt": 5237
     },
     {
      "yol": "data/olaylar_kronoeksik_0921.js",
@@ -1340,7 +1340,7 @@
      "bayt": 19724
     }
    ],
-   "bayt": 271260
+   "bayt": 271678
   },
   {
    "paket": "data/paket_27.js",
@@ -1520,8 +1520,8 @@
     },
     {
      "yol": "data/kronoloji_cok_lehistan.js",
-     "sha": "ed99f2261a3f08a1",
-     "bayt": 41128
+     "sha": "db6977fe827a4768",
+     "bayt": 53820
     },
     {
      "yol": "data/kronoloji_cok_libya.js",
@@ -1629,7 +1629,7 @@
      "bayt": 13934
     }
    ],
-   "bayt": 948278
+   "bayt": 960970
   }
  ]
 }

@@ -986,9 +986,9 @@ window.KRONOLOJI_SINIR_AFRIKA = [
 {"t":"1899-01-19","devlet":"ingiliz-sudani","taraflar":["misir-kavalali","ingiliz-sudani"],"b":"Anglo-Mısır Kondominyum Antlaşması — İngiliz Sudanı kuruldu","tur":"antlasma","onem":4,"dunya":2,"kapsam":"dis","yer_id":"","etiket":["antlasma","sinir","misir-kavalali","ingiliz-sudani","konu-siyasi","konu-diplomasi"],"d":"Mehdî Devleti'nin İngiliz-Mısır ordularınca yıkılmasından sonra 19 Ocak 1899'da imzalanan antlaşmayla Sudan'ın kontrolü nominal Osmanlı/Mısır ortaklığına rağmen fiilen İngiltere'nin eline geçti. Bu antlaşma Mısır (o sırada hâlâ Osmanlı'ya tâbi Kavalalı Hanedanı, Britanya himayesinde) ile Sudan arasında bir kondominyum hattı yarattı — bu hat 1902'de idarî olarak düzeltildi ve 1923'e kadar (ve bugüne, ihtilaflı biçimde) sürdü.","kaynak":"TDV sudan ('19 Ocak 1899'da Sudan'da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla Sudan'ın kontrolü fiilen İngiltere'nin eline geçmiş oldu')","sinir_id":["d1899-sudan-misir-kavalali"],"sinif":"C"},
 {"t":"1914-12-18","devlet":"misir-sultanligi","taraflar":["misir-sultanligi","ingiliz-sudani"],"b":"İngiliz himayesi ilan edildi — Mısır Sultanlığı kuruldu","tur":"siyaset","onem":3,"dunya":2,"kapsam":"dis","yer_id":"","etiket":["siyaset","sinir","misir-sultanligi","ingiliz-sudani","konu-siyasi"],"d":"İngiltere 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı ve Hüseyin Kâmil'i sultan ilan etti. Sudan kondominyumu ile sınır (1899/1902) DEĞİŞMEDİ; değişen yalnız Mısır tarafının Osmanlı'ya tâbiiyetinin resmen bitmesiydi.","kaynak":"TDV misir ('İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı')","sinir_id":["d1914-sudan-misir-sultanligi"],"sinif":"C"},
 {"t":"1913-03-11","devlet":"almanya","taraflar":["almanya","ingiliz-nijerya"],"b":"Anglo-Alman Nijerya-Kamerun Sınır Antlaşması imzalandı (Yola'dan denize)","tur":"antlasma","onem":3,"dunya":2,"kapsam":"dis","yer_id":"","etiket":["antlasma","sinir","almanya","ingiliz-nijerya","konu-siyasi","konu-diplomasi"],"d":"Londra'da imzalanan antlaşma, Nijerya ile Alman Kamerunu arasındaki sınırı Yola'dan denize kadar 30 maddeyle tarif etti (Bakassi Yarımadası dahil); 12 Nisan 1913'te Obokum'da sekiz haritayla arazide demarke edildi. Bu hat, I. Dünya Savaşı'nda Almanya'nın yenilgisine kadar geçerliydi.","kaynak":"BAILII UK Treaty Series 1913/8087 ('Settlement of the Frontier between Nigeria and the Cameroons, from Yola to the Sea')","sinir_id":["d1913-nijerya-kamerun-almanya"],"sinif":"E"},
-{"t":"1916-02-18","devlet":"fransa-cumhuriyet","taraflar":["fransa-cumhuriyet","ingiliz-nijerya"],"b":"Kamerun Seferi sona erdi (Mora'nın teslimi) — Fransız-İngiliz geçici paylaşımı başladı","tur":"askeri","onem":3,"dunya":2,"kapsam":"dis","yer_id":"","etiket":["askeri","sinir","fransa-cumhuriyet","ingiliz-nijerya","konu-siyasi","konu-askeri"],"d":"Alman Kamerunu'ndaki son direniş noktası Mora kalesi 18 Şubat 1916'da teslim oldu; Fransız ve İngiliz kuvvetleri eski Alman kolonisini aralarında geçici olarak paylaştı. Bu geçici hat, 1913 Anglo-Alman antlaşma hattının yerini aldı ve 1919 Milner-Simon Deklarasyonu'na kadar resmî bir andlaşmaya dayanmadı.","kaynak":"Wikipedia 'Kamerun campaign' (Mora'nın 18 Şubat 1916'da teslimi, seferin sonu)","sinir_id":["d1916-nijerya-kamerun-isgal"],"sinif":"D"},
-{"t":"1919-07-10","devlet":"fransa-cumhuriyet","taraflar":["fransa-cumhuriyet","ingiliz-nijerya"],"b":"Milner-Simon Deklarasyonu — Kamerun'un Fransız/İngiliz paylaşımı andlaşmaya bağlandı","tur":"antlasma","onem":4,"dunya":2,"kapsam":"dis","yer_id":"","etiket":["antlasma","sinir","fransa-cumhuriyet","ingiliz-nijerya","konu-siyasi","konu-diplomasi"],"d":"Paris'te Viscount Milner ve M. Simon'un imzaladığı deklarasyon, 1916'dan beri geçici olan Fransız-İngiliz Kamerun paylaşım hattını resmî bir andlaşmaya bağladı: Sanaga nehri ağzından kuzeye çizilen hat, toprağın dörtte üçünü Fransa'ya, batı şeridini Britanya'ya bıraktı.","kaynak":"Wikipedia 'Neukamerun' (Milner-Simon Deklarasyonu, 10 Temmuz 1919, Paris)","sinir_id":["d1919-nijerya-kamerun-milner-oncesi"],"sinif":"E"},
-{"t":"1915-07-09","devlet":"guney-afrika-birligi","taraflar":["guney-afrika-birligi","ingiliz-becuanaland"],"b":"Alman Güneybatı Afrikası Güney Afrika kuvvetlerine teslim oldu","tur":"askeri","onem":4,"dunya":2,"kapsam":"dis","yer_id":"","etiket":["askeri","sinir","guney-afrika-birligi","ingiliz-becuanaland","konu-siyasi","konu-askeri"],"d":"Güney Afrika Birliği kuvvetleri 9 Temmuz 1915'te Alman Güneybatı Afrikası'nın (Caprivi Şeridi dahil) tesliminı aldı. Bechuanaland, Angola ve Kuzey Rodezya ile sınırlar (1890/1886 Anglo-Alman ve Alman-Portekiz antlaşmaları) DEĞİŞMEDİ — yalnız egemen taraf Almanya'dan Güney Afrika Birliği'nin askerî işgaline geçti; nihai mandate statüsü ancak 1920'de geldi.","kaynak":"Wikipedia 'Caprivi Strip' (Alman Güneybatı Afrikası'nın 9 Temmuz 1915'te teslimi)","sinir_id":["d1915-becuanaland-guneyafrika-isgal","d1915-angola-guneyafrika-isgal","d1915-namrod-guneyafrika-isgal"],"sinif":"D"},
+{"t":"1916-02-18","devlet":"fransa-cumhuriyet","taraflar":["fransa-cumhuriyet","ingiliz-nijerya"],"b":"Kamerun Seferi sona erdi (Mora'nın teslimi) — Fransız-İngiliz geçici paylaşımı başladı","tur":"askeri","onem":3,"dunya":2,"kapsam":"dis","yer_id":"","etiket":["askeri","sinir","fransa-cumhuriyet","ingiliz-nijerya","konu-siyasi","konu-askeri"],"d":"Alman Kamerunu'ndaki son direniş noktası Mora kalesi 18 Şubat 1916'da teslim oldu; Fransız ve İngiliz kuvvetleri eski Alman kolonisini aralarında geçici olarak paylaştı. Bu geçici hat, 1913 Anglo-Alman antlaşma hattının yerini aldı ve 1919 Milner-Simon Deklarasyonu'na kadar resmî bir andlaşmaya dayanmadı.","kaynak":"Larousse, Encyclopédie, «Cameroun» https://www.larousse.fr/encyclopedie/pays/Cameroun/110992 — «Les Allemands doivent se retirer en 1916, et la France et le Royaume-Uni se partagent» [yalnız yıl teyitli; gün teyitsiz] ; Wikipedia 'Kamerun campaign' (Mora'nın 18 Şubat 1916'da teslimi, seferin sonu)","sinir_id":["d1916-nijerya-kamerun-isgal"],"sinif":"D"},
+{"t":"1919-07-10","devlet":"fransa-cumhuriyet","taraflar":["fransa-cumhuriyet","ingiliz-nijerya"],"b":"Milner-Simon Deklarasyonu — Kamerun'un Fransız/İngiliz paylaşımı andlaşmaya bağlandı","tur":"antlasma","onem":4,"dunya":2,"kapsam":"dis","yer_id":"","etiket":["antlasma","sinir","fransa-cumhuriyet","ingiliz-nijerya","konu-siyasi","konu-diplomasi"],"d":"Paris'te Viscount Milner ve M. Simon'un imzaladığı deklarasyon, 1916'dan beri geçici olan Fransız-İngiliz Kamerun paylaşım hattını resmî bir andlaşmaya bağladı: Sanaga nehri ağzından kuzeye çizilen hat, toprağın dörtte üçünü Fransa'ya, batı şeridini Britanya'ya bıraktı.","kaynak":"UK Treaty Series No. 23 (1926), Convention between the United Kingdom and the United States respecting rights in part of the former German Protectorate of the Cameroons (London, 10 Feb 1925), British Mandate Art. 1, treaties.fcdo.gov.uk — «the line laid down in the Declaration signed on the 10th July, 1919» ; Wikipedia 'Neukamerun' (Milner-Simon Deklarasyonu, 10 Temmuz 1919, Paris)","sinir_id":["d1919-nijerya-kamerun-milner-oncesi"],"sinif":"E"},
+{"t":"1915-07-09","devlet":"guney-afrika-birligi","taraflar":["guney-afrika-birligi","ingiliz-becuanaland"],"b":"Alman Güneybatı Afrikası Güney Afrika kuvvetlerine teslim oldu","tur":"askeri","onem":4,"dunya":2,"kapsam":"dis","yer_id":"","etiket":["askeri","sinir","guney-afrika-birligi","ingiliz-becuanaland","konu-siyasi","konu-askeri"],"d":"Güney Afrika Birliği kuvvetleri 9 Temmuz 1915'te Alman Güneybatı Afrikası'nın (Caprivi Şeridi dahil) tesliminı aldı. Bechuanaland, Angola ve Kuzey Rodezya ile sınırlar (1890/1886 Anglo-Alman ve Alman-Portekiz antlaşmaları) DEĞİŞMEDİ — yalnız egemen taraf Almanya'dan Güney Afrika Birliği'nin askerî işgaline geçti; nihai mandate statüsü ancak 1920'de geldi.","kaynak":"South African History Online (sahistory.org.za), «Imperial German Forces forced to unconditional surrender by Union of South Africa Forces» https://sahistory.org.za/node/65543 — «On 9 July 1915 the Imperial German Forces officially surrendered to General Louis Botha’s troops» ; Wikipedia 'Caprivi Strip' (Alman Güneybatı Afrikası'nın 9 Temmuz 1915'te teslimi)","sinir_id":["d1915-becuanaland-guneyafrika-isgal","d1915-angola-guneyafrika-isgal","d1915-namrod-guneyafrika-isgal"],"sinif":"D"},
 {"t":"1916-05-01","devlet":"belcika","taraflar":["belcika","ingiltere"],"b":"Belçika kuvvetleri Ruanda-Urundi'yi işgal etti (Tabora Seferi)","tur":"askeri","onem":3,"dunya":2,"kapsam":"dis","yer_id":"","etiket":["askeri","sinir","belcika","ingiltere","konu-siyasi","konu-askeri"],"d":"Belçika Kongosu kuvvetleri, Alman Doğu Afrikası'na yönelik Tabora Seferi sırasında 1916'da Ruanda ve Urundi bölgesini işgal ederek Alman kolonisinden koparıp kendi kontrolüne aldı; İngiliz kuvvetleri geri kalan Tanganyika'yı işgal ediyordu. Bu, savaştan önce AYNI Alman kolonisinin parçası olan iki bölge arasında İLK KEZ fiilî bir sınır yarattı — tam tarih (ay/gün) bu turda kesin doğrulanamadığı için 1916-05-01 YAKLAŞIK bir temsilî tarihtir (Tabora'nın düşüşü 19 Eylül 1916; Ruanda-Urundi bölgesinin işgali muhtemelen daha erken, 1916 baharı — İKİNCİ TURDA doğrulanmalı).","kaynak":"encyclopedia.1914-1918-online.net 'Ruanda and Urundi' — 🟡 tam tarih YAKLAŞIK, ikinci turda doğrulanacak","sinir_id":["d1916-ruanda-tanganyika-isgal","d1916-burundi-tanganyika-isgal"],"sinif":"D"},
 
 {"t":"1885-04-01","devlet":"almanya","taraflar":["almanya","ingiliz-nijerya"],"b":"Anglo-Alman genel nüfuz alanları sözleşmesi (Rio del Rey hattı) — Berlin Konferansı hemen sonrası","tur":"antlasma","onem":3,"dunya":2,"kapsam":"dis","yer_id":"","etiket":["antlasma","sinir","almanya","ingiliz-nijerya","konu-siyasi","konu-diplomasi"],"d":"Berlin Konferansı'nın (Kasım 1884-Şubat 1885) hemen ardından, Almanya ve Britanya Gine Körfezi'nin iç kesimindeki nüfuz alanlarını Rio del Rey'den başlayan bir hatla ayırdı. Bu, Alman Kamerunu ile İngiliz Nijerya'sı arasındaki sınırın İLK yazılı temeliydi; 1890'da provizyonel bir çizgiye, 1893'te Çad Gölü'ne kadar uzatılan bir hatta dönüştü, nihaî demarkasyon ancak 1913'te (Yola-deniz) geldi. Öncesinde (1878-1885) bu sınır YOKTU — Almanya henüz Kamerun'da koloni ilan etmemişti (ilan 14 Temmuz 1884).","kaynak":"NTU 'The Conference of Berlin and British New Imperialism' (Nisan-Haziran 1885 sözleşmesi, Rio del Rey hattı) — genel tarihyazımı, birincil antlaşma metni bu turda okunmadı","sinir_id":["d1885-nijerya-kamerun-genel"],"sinif":"E"},
@@ -3164,7 +3164,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1761-08-15", b:"Üçüncü Aile Sözleşmesi — Bourbon ittifakı", tur:"ittifak", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ittifak","diplomasi","konu-diplomasi"],
   d:"İspanya ve Fransa Bourbon hanedanları, İngiltere'ye karşı karşılıklı askerî destek taahhüt eden bir ittifak imzaladı; bu antlaşma İspanya'yı Yedi Yıl Savaşları'na (1762) sürükleyecekti.",
-  kaynak:"standart akademik kaynak", yer_id:"Paris" },
+  kaynak:"Gran Enciclopèdia Catalana, «pactes de Família» https://www.enciclopedia.cat/gran-enciclopedia-catalana/pactes-de-familia — «tercer pacte, 15 d’agost de 1761» ; standart akademik kaynak", yer_id:"Paris" },
 
 { t:"1762-08-13", b:"Havana'nın İngilizler tarafından ele geçirilmesi", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Havana (La Habana)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -3191,10 +3191,10 @@ window.KRONOLOJI_ISPANYA = [
   d:"Bourbon reformlarının en önemli iktisadi adımlarından biriyle, Amerika ile ticaret artık yalnız Cádiz üzerinden değil, İspanya'nın on üç limanından yapılabilir hâle geldi; karar, sömürge ekonomisinde canlanma yarattı ama yerel üreticilerin İspanya mallarıyla rekabetini de zorlaştırdı.",
   kaynak:"standart akademik kaynak (Kamen)" },
 
-{ t:"1782-06-02", b:"Banco de San Carlos'un kuruluşu — ilk İspanyol millî bankası", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", yer_id:"Madrid",
+{ t:"1782-01-01", b:"Banco de San Carlos'un kuruluşu — ilk İspanyol millî bankası", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["ekonomi","reform","konu-ekonomi","konu-islahat"],
   d:"Devlet borcunu düzenlemek amacıyla kurulan banka, 1785'te faaliyete geçti ve 19. yüzyılda Banco de España'nın öncülü oldu; kuruluşu, Bourbon reformlarının malî modernleşme çabasının simgesiydi.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"Gran Enciclopèdia Catalana, «Banco de España» https://www.enciclopedia.cat/gran-enciclopedia-catalana/banco-de-espana — «Fins el 1782 hom no aconseguí la fundació … el Banco de San Carlos» ; standart akademik kaynak", ic_not_t:"gün yalnız güvensiz kaynakta: 1782-06-02; güvenilir kaynağın tarihi: 1782; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1782-02-05", b:"Menorca'nın İngilizlerden geri alınması", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Menorka (Mahon)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -3216,30 +3216,30 @@ window.KRONOLOJI_ISPANYA = [
   d:"Aydınlanma çağı reformlarının en etkili İspanyol hükümdarı sayılan III. Carlos'un ölümü, yerine geçen zayıf ve kararsız IV. Carlos döneminde reform sürecinin yavaşlamasına ve devrimci Fransa karşısında savrulan bir dış politikaya yol açtı.",
   kaynak:"standart akademik kaynak (Kamen)" },
 
-{ t:"1793-03-23", b:"Devrimci Fransa'ya savaş ilanı — Pireneler Savaşı başladı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+{ t:"1793-01-01", b:"Devrimci Fransa'ya savaş ilanı — Pireneler Savaşı başladı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"İspanya, XVI. Louis'nin idamına tepki olarak Birinci Koalisyon'a katılıp devrimci Fransa'ya savaş açtı; savaş İspanya için beklenenin aksine kötü geçti ve Katalonya ile Bask bölgesinden Fransız işgaline uğradı.",
-  kaynak:"standart akademik kaynak", yer_id:"Madrid" },
+  kaynak:"Gran Enciclopèdia Catalana, «Carles IV d’Espanya» https://www.enciclopedia.cat/gran-enciclopedia-catalana/carles-iv-despanya — «executat Lluís XVI (gener del 1793), Carles IV declarà la guerra a la República» ; standart akademik kaynak", yer_id:"Madrid", ic_not_t:"gün yalnız güvensiz kaynakta: 1793-03-23; güvenilir kaynağın tarihi: 1793; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1795-07-22", b:"Basel Barışı — Fransa ile savaş sona erdi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Savaşın kötü gitmesi üzerine İspanya, Fransa ile ayrı bir barış yaparak Santo Domingo'nun (bugünkü Dominik Cumhuriyeti) İspanyol yarısını Fransa'ya bıraktı; barışı müzakere eden Manuel Godoy, \"Barış Prensi\" unvanını bu antlaşmadan aldı.",
-  kaynak:"standart akademik kaynak", yer_id:"Basel" },
+  kaynak:"Gran Enciclopèdia Catalana, «pau de Basilea» https://www.enciclopedia.cat/gran-enciclopedia-catalana/pau-de-basilea — «Pel segon (22 de juliol de 1795), França es retirava de la zona fronterera» ; standart akademik kaynak", yer_id:"Basel" },
 
 { t:"1796-08-19", b:"San Ildefonso Antlaşması — Fransa ile ittifak", tur:"ittifak", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["ittifak","diplomasi","konu-diplomasi"],
   d:"İspanya, eski düşmanı Fransa ile İngiltere'ye karşı bir askerî ittifak imzaladı; bu, İspanya'yı fiilen Napolyon'un uydusu hâline getirecek uzun bir sürecin başlangıcıydı ve İngiltere ile deniz savaşına yol açtı.",
   kaynak:"standart akademik kaynak", yer_kon:[40.8975,-4.0075] },
 
-{ t:"1797-02-14", b:"Aziz Vincent Burnu Savaşı — İspanyol donanmasının yenilgisi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ t:"1797-01-01", b:"Aziz Vincent Burnu Savaşı — İspanyol donanmasının yenilgisi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Amiral John Jervis ve komodor Horatio Nelson komutasındaki İngiliz filosu, sayıca üstün İspanyol donanmasını Aziz Vincent Burnu açıklarında yendi; yenilgi, San Ildefonso ittifakının İspanya'ya deniz gücü açısından bedelini gösterdi.",
-  kaynak:"standart akademik kaynak", yer_kon:[37.02,-9] },
+  kaynak:"Gran Enciclopèdia Catalana, «Carles IV d’Espanya» https://www.enciclopedia.cat/gran-enciclopedia-catalana/carles-iv-despanya — «els anglesos, que l’atacaven repetidament (batalla del cap San Vicente, 1797)» ; standart akademik kaynak", yer_kon:[37.02,-9], ic_not_t:"gün yalnız güvensiz kaynakta: 1797-02-14; güvenilir kaynağın tarihi: 1797; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ t:"1800-10-01", b:"Üçüncü San Ildefonso Antlaşması — Louisiana Fransa'ya geri verildi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
+{ t:"1800-01-01", b:"Üçüncü San Ildefonso Antlaşması — Louisiana Fransa'ya geri verildi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Napolyon'un baskısıyla İspanya, 1763'te devraldığı Louisiana'yı gizli bir antlaşmayla Fransa'ya iade etti; toprak üç yıl sonra Fransa tarafından ABD'ye satılacaktı (Louisiana Satın Alımı).",
-  kaynak:"standart akademik kaynak", yer_kon:[40.8975,-4.0075] },
+  kaynak:"Gran Enciclopèdia Catalana, «Louisiana» https://www.enciclopedia.cat/gran-enciclopedia-catalana/louisiana-0 — «França la recuperà el 1800, i el 1803 la vengué als EUA» ; standart akademik kaynak", yer_kon:[40.8975,-4.0075], ic_not_t:"gün yalnız güvensiz kaynakta: 1800-10-01; güvenilir kaynağın tarihi: 1800; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1803-11-30", b:"Balmis Aşı Seferi'nin yola çıkışı", tur:"bilim", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["bilim","teknoloji","sosyal","konu-bilim","konu-sosyal","afet","afet-salgin"],
@@ -3258,7 +3258,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1808-03-19", b:"Aranjuez Ayaklanması — IV. Carlos tahttan çekildi", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","hanedan","kriz","konu-siyasi","konu-isyan","konu-hanedan"],
   d:"Godoy'un Fransız birliklerini ülkeye sokmasına ve saray yolsuzluğuna öfkelenen halk, Aranjuez'de ayaklandı; IV. Carlos tahtı oğlu VII. Fernando'ya bırakmak zorunda kaldı. Kriz, Napolyon'un İspanya işlerine doğrudan müdahalesine kapı açtı.",
-  kaynak:"standart akademik kaynak", yer_kon:[40.0322,-3.6039] },
+  kaynak:"Gran Enciclopèdia Catalana, «motí d’Aranjuez» https://www.enciclopedia.cat/gran-enciclopedia-catalana/moti-daranjuez — «Godoy fou empresonat i destituït, i Carles IV abdicà (19 de març)» ; standart akademik kaynak", yer_kon:[40.0322,-3.6039] },
 
 { t:"1808-05-02", b:"Dos de Mayo Ayaklanması — Madrid'in Fransız işgaline direnişi", tur:"isyan", onem:5, dunya:4, kapsam:"ic", yer_id:"Madrid",
   etiket:["isyan","askeri","milliyetcilik","konu-askeri","konu-siyasi","konu-isyan"],
@@ -3293,7 +3293,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1813-06-21", b:"Vitoria Savaşı — Fransızlar İspanya'dan sürüldü", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Wellington Dükü komutasındaki İngiliz-Portekiz-İspanyol ordusu, Joseph Bonaparte'ın ordusunu Vitoria'da kesin biçimde yendi; zafer, Fransız kuvvetlerinin İspanya'dan pratik olarak çekilmesini başlattı ve Yarımada Savaşı'nın sonunu getirdi.",
-  kaynak:"standart akademik kaynak", yer_kon:[42.8467,-2.6716] },
+  kaynak:"Gran Enciclopèdia Catalana, «batalla de Vitòria» https://www.enciclopedia.cat/gran-enciclopedia-catalana/batalla-de-vitoria — «Combat que tingué lloc prop de Vitòria, el 21 de juny de 1813» ; standart akademik kaynak", yer_kon:[42.8467,-2.6716] },
 
 { t:"1814-05-04", b:"VII. Fernando'nun mutlakiyeti geri getirmesi", tur:"reform", onem:5, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["reform","anayasa","kriz","konu-siyasi","konu-islahat","konu-hukuk"],
@@ -3308,7 +3308,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1820-01-01", b:"Riego Ayaklanması — Liberal Üçyıl'ın başlaması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","reform","konu-isyan","konu-islahat"],
   d:"Amerika'ya sevk edilmek üzere toplanan bir ordu birliğinin komutanı Rafael del Riego, birliğini Cádiz yakınında ayaklandırıp 1812 Anayasası'nın yeniden yürürlüğe girmesini talep etti; VII. Fernando kısa süre sonra anayasayı kabul etmek zorunda kaldı. Üç yıl sürecek liberal dönem (Trienio Liberal) böyle başladı.",
-  kaynak:"standart akademik kaynak", yer_kon:[36.98,-5.935] },
+  kaynak:"Gran Enciclopèdia Catalana, «Rafael del Riego» https://www.enciclopedia.cat/gran-enciclopedia-catalana/rafael-del-riego — «L’1 de gener de 1820 … es rebel·là a Cabezas de San Juan» ; standart akademik kaynak", yer_kon:[36.98,-5.935] },
 
 { t:"1823-04-07", b:"\"Aziz Louis'nin Yüz Bin Oğlu\" Fransız ordusu İspanya'yı işgal etti", tur:"isgal", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["isgal","askeri","konu-askeri"],
@@ -3440,10 +3440,10 @@ window.KRONOLOJI_ISPANYA = [
   d:"Beş yıl önce bir deniz baskınında esir düşüp Cezayir'de tutulan yazar Miguel de Cervantes, Trinitarian tarikatının topladığı fidyeyle serbest bırakıldı; esaret yılları sonraki eserlerinde (Don Kişot içindeki \"Esir'in Hikâyesi\" dahil) doğrudan iz bıraktı.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)", yer_id:"Cezayir" },
 
-{ t:"1622-03-12", b:"Dörtlü kanonizasyon — Ávilalı Teresa ve üç İspanyol azizin törenle azizleştirilmesi", tur:"din", onem:2, dunya:1, kapsam:"ic", yer_id:"",
+{ t:"1622-01-01", b:"Dörtlü kanonizasyon — Ávilalı Teresa ve üç İspanyol azizin törenle azizleştirilmesi", tur:"din", onem:2, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["din","kultur","konu-din","konu-kultur"],
   d:"Papa XV. Gregorius, aynı törende İspanyol Karşı-Reform'unun dört büyük ismini (Ávilalı Teresa, Loyolalı Ignatius, Xavierli Francis, Madridli Isidore) azizleştirdi; tören, İspanyol Katolikliğinin döneme damga vuran dinî özgüveninin bir göstergesiydi.",
-  kaynak:"standart akademik kaynak", yer_id:"Roma" },
+  kaynak:"Gran Enciclopèdia Catalana, «Teresa de Jesús» https://www.enciclopedia.cat/gran-enciclopedia-catalana/teresa-de-jesus — «El 1622 fou canonitzada» ; standart akademik kaynak", yer_id:"Roma", ic_not_t:"gün yalnız güvensiz kaynakta: 1622-03-12; güvenilir kaynağın tarihi: 1622; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1627-01-01", b:"Kraliyet hazinesinin iflası (dördüncü büyük iflas)", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["ekonomi","kriz","konu-siyasi","konu-ekonomi"],
@@ -3468,12 +3468,12 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1781-01-01", b:"Real Jardín Botánico'nun (Kraliyet Botanik Bahçesi) bugünkü yerine taşınması", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["bilim","konu-bilim"],
   d:"III. Carlos'un emriyle Prado bulvarına taşınan botanik bahçesi, Amerika ve Filipinler'deki bilimsel seferlerden (Mutis, Malaspina) toplanan binlerce bitki örneğinin sınıflandırıldığı merkez hâline geldi; Bourbon aydınlanma reformlarının bilim kurumsallaşmasının somut örneğidir.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"Real Jardín Botánico (CSIC), «Historia del RJB» https://rjb.csic.es/el-rjb/historia/ — «su traslado al actual emplazamiento del paseo del Prado, donde se inaugura en 1781» ; standart akademik kaynak" },
 
 { t:"1786-01-01", b:"Goya birinci saray ressamı oldu", tur:"kultur", onem:2, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["kultur","kultur","konu-sanat","konu-kultur","konu-imar"],
   d:"Francisco de Goya, kraliyet gobelin fabrikası için yaptığı kartonlarla dikkat çektikten sonra saray ressamlığına atandı; bu görev, onu hem III. Carlos hem IV. Carlos döneminin resmî portrelerini yapan, hem de Napolyon işgalinin dehşetini kaydeden bir sanatçıya dönüştürecek kariyerin başlangıcıydı.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"Gran Enciclopèdia Catalana, «Francisco Goya y Lucientes» https://www.enciclopedia.cat/gran-enciclopedia-catalana/francisco-goya-y-lucientes — «l’any següent ja era pintor fix del rei Carles III» ; standart akademik kaynak" },
 
 { t:"1789-07-30", b:"Malaspina Seferi'nin yola çıkışı — bilimsel dünya turu", tur:"bilim", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["bilim","kesif","konu-bilim","konu-kesif"],
