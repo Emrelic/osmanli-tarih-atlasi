@@ -13787,15 +13787,21 @@ function olayKonumu(o) {
 //     Batı Anadolu ~521 km · Anadolu ~1.499 km · imparatorluk ~3.306 km
 //   ⇒ Ters yön (`kmDanZoom`) YAŞIYOR ve uçuşun kalbi; bu bilgi orada duruyor.
 
-// §A② — varsayılan AÇIK (şartnamenin kendi önerisi: "kapalıyken kimse
-// varlığını bilmez"). `localStorage`ta hiç kayıt yoksa açık kalır; kullanıcı
-// bir kez kapatırsa "0" yazılır ve o tercih kalıcı olur.
+// §A② — varsayılan KAPALI. Eskiden açıktı (şartnamenin önerisi: "kapalıyken
+// kimse varlığını bilmez"); Emre 14 Eki 2026: *"emojilerin kronoloji
+// maddesinde görülmesi ya da görülmemesi konusunda ayar olmalı … varsayılan
+// olarak bu ayar pasif olmalı."* `localStorage`ta "1" yoksa kapalı; kullanıcı
+// bir kez açarsa "1" yazılır ve tercih kalıcı olur. Eski kayıt "0" zaten kapalı.
+// Başlıklarda (`b:`) emoji YOK (ölçüldü: 0) — kronolojideki emojilerin tamamı
+// `duygu:` alanından geliyor, yani bu tek ayar hepsini kapsıyor.
 var duyguAcEl = document.getElementById("duygu-ac");
 (function () {
-  duyguAcEl.checked = localStorage.getItem("duyguAc") !== "0";
+  var kayit = null;
+  try { kayit = localStorage.getItem("duyguAc"); } catch (e) { /* özel pencere */ }
+  duyguAcEl.checked = kayit === "1";
   document.documentElement.classList.toggle("duygu-kapali", !duyguAcEl.checked);
   duyguAcEl.addEventListener("change", function () {
-    localStorage.setItem("duyguAc", duyguAcEl.checked ? "1" : "0");
+    try { localStorage.setItem("duyguAc", duyguAcEl.checked ? "1" : "0"); } catch (e) { /* özel pencere */ }
     document.documentElement.classList.toggle("duygu-kapali", !duyguAcEl.checked);
   });
 })();
