@@ -81,7 +81,7 @@
 // gerekçe ve çakışma listesi denetim/EKOKUMA-DAGITIM-0913.md. Kart METİNLERİNE dokunulmadı.
 window.EKOKUMA_TARTISMA = [
 
-{ id:"istanbul-rasathanesi-yiktirilmasi-tartisma", tur:"tartisma",
+{ id:"istanbul-rasathanesi-yiktirilmasi-tartisma", baslik:"İstanbul Rasathanesi neden yıktırıldı? (1580)", tur:"tartisma",
   kisa:"Osmanlı'nın tek gözlemevi sekiz yıl sonra neden yıkıldı — dinî bir hüküm mü, saray içi bir hesaplaşma mı?",
   sebep:{ b:"Takıyyüddin er-Râsıd'ın, Tophane sırtlarında dönemin en donanımlı gözlemevlerinden birini kurması", t:"1577-01-01" },
   sonuc:{ b:"4 Zilhicce 987 (22 Ocak 1580) tarihli bir hatt-ı hümâyunla rasathanenin, içindeki bütün aletleriyle birlikte yıktırılması", t:"1580-01-22" },
@@ -92,7 +92,7 @@ window.EKOKUMA_TARTISMA = [
   olay:["1577-01-01|Rasathane","1580-01-22"],
   kaynak:"TDV: takiyyuddin-er-rasid" },
 
-{ id:"ingiltere-kapitulasyon-1580-tartisma", tur:"tartisma",
+{ id:"ingiltere-kapitulasyon-1580-tartisma", baslik:"İngiltere'ye verilen kapitülasyon (1580) — jest mi, hesap mı?", tur:"tartisma",
   kisa:"İngiltere'ye verilen bu imtiyaz bir hoşgörü jesti miydi, yoksa hesaplı bir dış politika hamlesi mi?",
   sebep:{ b:"Elizabeth'in İstanbul'a gönderdiği William Harborne'un, Sokullu Mehmed Paşa ve Hoca Sâdeddin Efendi'nin desteğiyle, İngiliz tüccarlara Fransız ve Venedikliler'e tanınanla eşit ticarî imtiyaz için yürüttüğü müzakereler", t:"1578-01-01" },
   sonuc:{ b:"İngiliz tüccarlara ahidnâmeyle kapitülasyon tanınması ve ertesi yıl bu imtiyazı işletecek tekelci Levant Company'nin kurulması", t:"1581-09-11" },

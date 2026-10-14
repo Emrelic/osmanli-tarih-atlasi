@@ -35,7 +35,7 @@
 window.EKOKUMA_P76D = [
 
 // ── H-0001 · Islahat Fermanı ───────────────────────────────────────────────
-{ id:"sebep-sonuc-islahat-fermani-1856", tur:"sebep-sonuc",
+{ id:"sebep-sonuc-islahat-fermani-1856", baslik:"Islahat Fermanı (1856) — eşitlik vaadi kimi kızdırdı?", tur:"sebep-sonuc",
   kisa:"Bir ferman iki tarafı da kızdırabilir mi? 1856'da tam olarak bu oldu: eşitlik vaadi, eşitlenenleri de eşitliği kaybedenleri de rahatsız etti.",
   metin:"■ FERMAN NE GETİRDİ\n"
     +"18 Şubat 1856'da Bâbıâli'de merasimle okunan ferman, Tanzimat'ın 1839'da verdiğinden çok daha ileri giden bir eşitlik programıydı. Getirdikleri sıralanınca ölçüsü görünür: gayri müslim cemaatlere dinî serbestlik ve cemaat yönetimine ruhban dışından üyelerin katılması; patriklerin kaydıhayat şartıyla tayini ve devlete sadakat yemini; müslümanla gayri müslim arasındaki davalar için karma mahkemeler ve bu mahkemelerde gayri müslim şahitliğinin kabulü; gayri müslimlerin askerlik yükümlülüğü (bedel-i askerî ödeyerek muaf olma seçeneğiyle); cizyenin kaldırılması; yabancılara gayri menkul edinme hakkı; devlet okullarına girişte din farkı gözetilmemesi.\n\n"
@@ -53,7 +53,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: islahat-fermani (Ufuk Gülsoy)" },
 
 // ── H-0005 · Arazi Kanunnâmesi ─────────────────────────────────────────────
-{ id:"teknik-arazi-kanunnamesi-1858", tur:"teknik-bilimsel",
+{ id:"teknik-arazi-kanunnamesi-1858", baslik:"Arazi Kanunnâmesi (1858) — beş türlü toprak", tur:"teknik-bilimsel",
   kisa:"Toprağın kime ait olduğu sorusuna Osmanlı beş ayrı cevap veriyordu — 1858'de bu cevaplar ilk defa tek metinde toplandı.",
   metin:"■ BEŞ TÜRLÜ TOPRAK\n"
     +"6 Haziran 1858 tarihli kanunnâme, Osmanlı toprağını beş sınıfa ayırır: mülk (şahsın tam mülkiyetindeki toprak), mîrî (çıplak mülkiyeti devlette kalan, tasarrufu kişiye verilen toprak), vakıf (gelirini bir vakfa bağlanmış toprak), metrûk (köy mer'ası, yol gibi ortak kullanıma bırakılmış yerler) ve mevât (işlenmemiş, sahipsiz ölü arazi). Bu tasnif kanunnâmenin icadı değildir; asırlardır uygulanan esasları derleyip tek metin hâline getirmesidir — kanunnâmenin kendi gerekçesi de Tanzimat döneminde toprak hukukunun esaslarını bir araya getirmektir.\n\n"
@@ -68,7 +68,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: arazi-kanunnamesi (Mehmet Âkif Aydın)" },
 
 // ── H-0010 · Dârülfünun (① kuruluş denemeleri) ─────────────────────────────
-{ id:"teknik-darulfunun-dort-deneme", tur:"teknik-bilimsel",
+{ id:"teknik-darulfunun-dort-deneme", baslik:"Dârülfünun — dört kez kurulan üniversite", tur:"teknik-bilimsel",
   kisa:"Bir üniversite kurmak için karar vermek yetmedi: aynı kurum otuz yıl içinde dört kez kuruldu, üç kez kapandı.",
   metin:"■ KARARDAN İLK DERSE: ON YEDİ YIL\n"
     +"Dârülfünun kurulması kararı 1846'da alındı. İlk ders ancak 13 Ocak 1863'te verilebildi: Kimyager Derviş Paşa, İbrâhim Edhem Paşa'nın gözetiminde fizik ve kimya üzerine ders okuttu. Aradaki on yedi yıl bina, hoca ve hazırlıklı öğrenci eksikliğiyle geçti.\n\n"
@@ -84,7 +84,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: darulfunun (Ekmeleddin İhsanoğlu)" },
 
 // ── H-0010 · Dârülfünun (② 1453 tartışması) ───────────────────────────────
-{ id:"tartisma-universite-kurulus-yili-1453-mi-1863-mu", tur:"tartisma",
+{ id:"tartisma-universite-kurulus-yili-1453-mi-1863-mu", baslik:"Üniversitenin kuruluş yılı: 1453 mü, 1863 mü?", tur:"tartisma",
   kisa:"Bir üniversitenin kuruluş yılı 1453 olabilir mi? Tartışma aslında tarih tartışması değil, “üniversite neye denir” tartışmasıdır.",
   metin:"■ İDDİA NE DİYOR\n"
     +"İstanbul'daki yüksek öğretimin kesintisiz bir zincir hâlinde fetihten itibaren sürdüğü, dolayısıyla kuruluşun 1453'e kadar götürülebileceği ileri sürülür. Dayanak, fetihten hemen sonra kurulan medreseler ve bunların İstanbul'un yüksek öğretim hayatındaki sürekliliğidir.\n\n"
@@ -102,7 +102,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: darulfunun (Ekmeleddin İhsanoğlu) — 1453 iddiasının gerekçesi taranan maddede bulunamadı" },
 
 // ── H-0013 · Vilâyet Nizamnâmesi ──────────────────────────────────────────
-{ id:"teknik-eyaletten-vilayete-1864", tur:"teknik-bilimsel",
+{ id:"teknik-eyaletten-vilayete-1864", baslik:"Eyaletten vilâyete — 1864 Vilâyet Nizamnâmesi", tur:"teknik-bilimsel",
   kisa:"Eyalet gitti, vilâyet geldi — ve valinin masasındaki yetkilerin bir kısmı bir meclise dağıldı.",
   metin:"■ ESKİ DÜZEN: EYALET\n"
     +"Klasik düzende en büyük taşra birimi beylerbeyinin idaresindeki eyaletti. Eyalet sancaklara ayrılır, sancaklar sancak beylerince yönetilir, askerî güç büyük ölçüde tımar sistemiyle karşılanırdı. Tımar dağıtılmayan dokuz eyalette (salyâneli eyaletler) vergi doğrudan hazine için toplanırdı. Beylerbeyi hem askerî hem idarî başkandı; yetki tek elde toplanmıştı.\n\n"
@@ -120,7 +120,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: eyalet (Halil İnalcık) · vilayet maddesi gövdesizdir (bk. EYALET, VALİ)" },
 
 // ── H-0016 · Yeni Osmanlılar ──────────────────────────────────────────────
-{ id:"kimdir-yeni-osmanlilar-cemiyeti", tur:"kimdir",
+{ id:"kimdir-yeni-osmanlilar-cemiyeti", baslik:"Yeni Osmanlılar kimdir?", tur:"kimdir",
   kisa:"Bir muhalefet hareketi düşünün: üyelerinin kim olduğu, hatta ortak bir fikirlerinin bulunup bulunmadığı bile tartışmalı — ama on yıl sonra anayasa onların diliyle yazıldı.",
   metin:"■ KİMLER\n"
     +"Yeni Osmanlılar, 1865-1876 arasında Osmanlı aydınlarının idareye karşı oluşturduğu muhalif topluluktur. En çok anılan adlar Nâmık Kemal, Ziyâ Bey (Paşa) ve Ali Suâvi'dir. Kaynağın kendi ihtiyat kaydı önemlidir: üyelikleri ileri sürülenler arasında birleşmiş tek bir fikir ve gaye yoktu — yani hareket bir parti değil, gevşek bir çevredir.\n\n"
@@ -137,7 +137,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: yeni-osmanlilar-cemiyeti (Kaya Bilgegil'in Baden-Baden tesbiti madde içinde aktarılmaktadır) · ali-suavi (Abdullah Uçman)" },
 
 // ── H-0018 · Şûrâ-yı Devlet ───────────────────────────────────────────────
-{ id:"teknik-sura-yi-devlet-1868-idari-yargi", tur:"teknik-bilimsel",
+{ id:"teknik-sura-yi-devlet-1868-idari-yargi", baslik:"Şûrâ-yı Devlet (1868) — idarî yargının doğuşu", tur:"teknik-bilimsel",
   kisa:"1868'de tek bir meclis ikiye bölündü — ve Osmanlı idaresi ilk defa “idarî iş” ile “yargı işi”ni iki ayrı kapıya gönderdi.",
   metin:"■ BÖLÜNME\n"
     +"5 Mart 1868 tarihli irade ile Meclis-i Ahkâm-ı Adliyye ikiye ayrıldı: idarî tarafı Şûrâ-yı Devlet, yargı tarafı Dîvân-ı Ahkâm-ı Adliyye oldu. Şûrâ-yı Devlet'in başına Midhat Paşa, Dîvân'ın başına Ahmed Cevdet Paşa getirildi. Şûrâ-yı Devlet 10 Mayıs 1868'de açıldı; dahilî nizamnâmesi 1 Nisan 1868'de yürürlüğe girmişti.\n\n"
@@ -152,7 +152,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: sura-yi-devlet (Ali Akyıldız) · divan-i-muhasebat müstakil madde olarak bulunamadı" },
 
 // ── H-0019 · Galatasaray Mekteb-i Sultânîsi ───────────────────────────────
-{ id:"teknik-galatasaray-mekteb-i-sultanisi-1868", tur:"teknik-bilimsel",
+{ id:"teknik-galatasaray-mekteb-i-sultanisi-1868", baslik:"Galatasaray Mekteb-i Sultânîsi (1868)", tur:"teknik-bilimsel",
   kisa:"Fransızca öğretim yapan bir devlet lisesine en sert itiraz ulemâdan değil, Papa'dan ve Rum cemaatinden geldi.",
   metin:"■ AÇILIŞ\n"
     +"Mekteb-i Sultânî 1 Eylül 1868'de törenle öğretime başladı; Beyoğlu'ndaki Galata Sarayı binasına yerleşti. Öğretim büyük ölçüde Fransızca yapılacak, bazı dersler Osmanlı tarafının ısrarıyla Türkçe okutulacaktı.\n\n"
@@ -172,7 +172,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: galatasaray-mekteb-i-sultanisi (Adnan Şişman)" },
 
 // ── H-0021 · Bulgar Eksarhlığı ────────────────────────────────────────────
-{ id:"teknik-bulgar-eksarhligi-1870-kilise-ve-kimlik", tur:"teknik-bilimsel",
+{ id:"teknik-bulgar-eksarhligi-1870-kilise-ve-kimlik", baslik:"Bulgar Eksarhlığı (1870) — kilise ve millet", tur:"teknik-bilimsel",
   kisa:"Bir kilisenin ayrılması niçin bir devlet meselesi sayıldı? Çünkü Osmanlı düzeninde cemaat, kilisenin çizdiği sınırdı.",
   metin:"■ NE OLDU\n"
     +"11 Mart 1870 tarihinde müstakil Bulgar kilisesi kuruldu. Bu, Bulgarları dinî bakımdan Fener Rum Ortodoks Patrikhânesi'nin idaresinden çıkaran bir düzenlemeydi.\n\n"
@@ -189,7 +189,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: bulgaristan (Nazif Kuyucuklu) · makedonya maddesi aynı olayı 28 Şubat 1870 diye verir (çelişki kartta bırakıldı)" },
 
 // ── H-0030 · Kanûn-ı Esâsî ────────────────────────────────────────────────
-{ id:"teknik-kanun-i-esasi-1876-sistem", tur:"teknik-bilimsel",
+{ id:"teknik-kanun-i-esasi-1876-sistem", baslik:"Kānûn-ı Esâsî (1876) — ilk anayasa ne öngörüyordu?", tur:"teknik-bilimsel",
   kisa:"Osmanlı'nın ilk anayasası meclisi kurdu, ama padişahın istediğini sürgüne gönderme yetkisini de aynı metne yazdı.",
   metin:"■ NASIL HAZIRLANDI\n"
     +"Metin, Midhat Paşa'nın başkanlığındaki bir mahsus komisyonda — ulemâ, asker ve bürokratlardan kurulu bir heyette — kademe kademe hazırlandı; Batı anayasalarından yararlanıldı. 23 Aralık 1876'da ilân edildi. On iki başlık altında 119 madde taşır.\n\n"
@@ -209,7 +209,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: kanun-i-esasi" },
 
 // ── H-0039 · Ali Suâvi ve Çırağan Baskını ─────────────────────────────────
-{ id:"kimdir-ali-suavi-ve-ciragan-baskini", tur:"kimdir",
+{ id:"kimdir-ali-suavi-ve-ciragan-baskini", baslik:"Ali Suâvi kimdir? Çırağan baskını (1878)", tur:"kimdir",
   kisa:"Gazeteci, hoca, sürgün, mektep müdürü — ve bir sabah iki yüz elli kişiyle saray basan adam. Ali Suâvi'nin sonu, başladığı yerden çok uzaktı.",
   metin:"■ KİMDİ\n"
     +"Ali Suâvi (1839-1878) gazeteci, fikir adamı ve Yeni Osmanlılar Cemiyeti üyesiydi; ilk Türkçülerden sayılır. İstibdat yerine meşveret ve meclis fikrini savundu, İslâm birliğine bağlıydı, Türkçenin sadeleşmesini istedi. Muhbir'de yazdı, Ulûm gazetesini çıkardı. Kendi ifadesiyle dili bozmuş ve memlekete matbuat hürriyetini sokmuştu.\n\n"
@@ -224,7 +224,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: ali-suavi (Abdullah Uçman) · yeni-osmanlilar-cemiyeti · “Yedi Sekiz Hasan Paşa” müstakil maddesi bulunamadı" },
 
 // ── H-0006 · Kuleli Vak'ası ───────────────────────────────────────────────
-{ id:"sebep-sonuc-kuleli-vakasi-1859", tur:"sebep-sonuc",
+{ id:"sebep-sonuc-kuleli-vakasi-1859", baslik:"Kuleli Vakası (1859) — padişaha karşı ilk gizli cemiyet", tur:"sebep-sonuc",
   kisa:"Osmanlı tarihinde bir padişaha karşı kurulan ilk gizli cemiyet, camide bir baskınla dağıtıldı — ve idam kararları infaz edilmedi.",
   metin:"■ NE OLDU\n"
     +"Abdülmecid'in padişahlığına son vermeyi amaçlayan gizli bir cemiyet, 14 Eylül 1859'da Kılıç Ali Paşa Camii'ndeki toplantısı basılarak yakalandı. İhbarı Mirlivâ Hasan Paşa yapmıştı. Cemiyetin başında Bâb-ı Seraskerî Dâr-ı Şûrâ Reisi Hüseyin Dâim Paşa ve Arnavut Câferdem Paşa gibi askerî ve mülkî görevliler bulunuyordu; şair Şinâsi'nin de üye olduğu belirtilir. Sanıklar Kuleli Kışlası'nda yargılandığı için olay bu adla anılır.\n\n"
@@ -243,7 +243,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: kuleli-vakasi (Zekeriya Türkmen) · islahat-fermani (Ufuk Gülsoy)" },
 
 // ── H-0055 · Kıbrıs'ın İngiliz idaresine bırakılması ──────────────────────
-{ id:"tartisma-kibris-1878-beklenen-ingiliz-destegi", tur:"tartisma",
+{ id:"tartisma-kibris-1878-beklenen-ingiliz-destegi", baslik:"Kıbrıs karşılığı vaat edilen İngiliz desteği geldi mi?", tur:"tartisma",
   kisa:"Bir ada, bir ittifak vaadi karşılığında verildi. Vaat tutuldu mu? Cevabı aramak için dört yıl beklemek yeterli.",
   metin:"■ ANLAŞMA NE DİYORDU\n"
     +"4 Haziran 1878 tarihli Kıbrıs Antlaşması'nda İngiltere, Anadolu'ya yönelik muhtemel bir Rus istilâsına karşı Osmanlı Devleti ile savunma ittifakı yapacağı teminatını verdi. Buna karşılık ada İngiliz idaresine bırakıldı. Düzenleme adayı devretmek değil, idaresini vermek biçiminde kuruldu: idarî masraflar çıktıktan sonra gelir fazlası Osmanlı'ya ödenecek, şer'î mahkemeler çalışmaya devam edecek, dinî vakıflar ortak yönetilecekti.\n\n"
@@ -259,7 +259,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: kibris (İngiliz İşgali ve İdaresi bölümü, Halil Fikret Alasya) · lozan-antlasmasi (Şerafettin Turan)" },
 
 // ── H-0061 · İskenderiye'nin bombardımanı ve İngiliz çıkarması ────────────
-{ id:"sebep-sonuc-iskenderiye-1882-ingiliz-cikarmasi", tur:"sebep-sonuc",
+{ id:"sebep-sonuc-iskenderiye-1882-ingiliz-cikarmasi", baslik:"İskenderiye bombardımanı ve Mısır'ın işgali (1882)", tur:"sebep-sonuc",
   kisa:"Bir donanmanın limanda tehlikede olduğu gerekçesi, yetmiş yıl sürecek bir işgalin başlangıcı oldu.",
   metin:"■ ARKA PLAN: URÂBÎ HAREKETİ\n"
     +"Mısır'da yerli subaylar, Çerkez-Türk kökenli subayların kendilerine komplo kurduğu inancıyla huzursuzdu; maaş kesintileri ve görevden uzaklaştırmalar bu huzursuzluğu büyüttü. Hareketin başında Ahmed Urâbî (1841-1911) vardı. Mısır'ın yabancı malî denetim altına girdiği bir dönemde, ordu kaynaklı bu hareket ülke yönetiminde ağırlık kazandı.\n\n"
@@ -276,7 +276,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: urabi-pasa (Hilal Görgün) · lozan-antlasmasi (Şerafettin Turan)" },
 
 // ── H-0062 · İngiltere dost muydu düşman mıydı ────────────────────────────
-{ id:"tartisma-ingiltere-dost-mu-dusman-mi-1856-1882", tur:"tartisma",
+{ id:"tartisma-ingiltere-dost-mu-dusman-mi-1856-1882", baslik:"İngiltere dost mu, düşman mı? (1856-1882)", tur:"tartisma",
   kisa:"Yirmi altı yılda aynı devlet önce Osmanlı'nın yanında savaştı, sonra bir adasını aldı, sonra bir eyaletine asker çıkardı. Bu üçü çelişki mi, tek bir siyaset mi?",
   metin:"■ ÜÇ TARİH, TEK DEVLET\n"
     +"• 1853-56: Kırım Savaşı'nda İngiltere ve Fransa, Rusya'ya karşı Osmanlı'nın yanında savaşır; savaşın sonunda Osmanlı Paris'te Avrupa devletler sistemine kabul edilir.\n"
@@ -295,7 +295,7 @@ window.EKOKUMA_P76D = [
   kaynak:"TDV: urabi-pasa (Hilal Görgün) · kibris (Halil Fikret Alasya) · islahat-fermani (Ufuk Gülsoy) — Cezayir ve Tunus ekseni ÖLÇÜLMEDİ" },
 
 // ── H-0056 · Ayastefanos ile Berlin arasındaki fark ───────────────────────
-{ id:"antlasma-ayastefanos-berlin-farki-1878", tur:"antlasma",
+{ id:"antlasma-ayastefanos-berlin-farki-1878", baslik:"Ayastefanos ile Berlin arasındaki fark (1878)", tur:"antlasma",
   kisa:"Aynı savaşın iki antlaşması var: biri dört ay yaşadı, öteki kırk yıl sürdü. Aradaki fark, Osmanlı'nın kazandığı bir şey değil, Avrupa'nın kabul etmediği bir şeydi.",
   metin:"■ İKİ METİN, DÖRT AY ARA\n"
     +"93 Harbi'ni bitiren ilk metin 3 Mart 1878 tarihli Ayastefanos Antlaşması'dır. Antlaşma yürürlükte kalmadı: büyük devletlerin itirazı üzerine masa yeniden kuruldu ve 13 Temmuz 1878'de Berlin Antlaşması imzalandı. Yürürlükte olan metin Berlin'dir; Ayastefanos, Rusya'nın tek başına dayattığı ve Avrupa'nın kabul etmediği tasarı olarak kalmıştır.\n\n"

@@ -89,7 +89,7 @@ window.EKOKUMA_P77A = [
   kaynak:"TDV: orhan (Halil İnalcık; gövde okundu — Theodora'nın 1346 evliliği, 758/1357 kaçırılış ve 11 yaş, Leo Kalothetos, Bizans tertibi yorumu, 1358 Foça seferleri ve Saruhanlı İlyas, 1359 Üsküdar-Kızkulesi görüşmesi, 30.000 Venedik altını, İrene ile nişan, veliahtlık vaadinin unutulması) · TDV: murad-i (teslim Eylül-Ekim 1359, 1362'de Halil'in 16 yaşında oluşu ve adamlarının taht girişimi) · Halil'in 1362 sonrası akıbeti BULUNAMADI" },
 
 // ── P0080 H-0006 · Halil'in kaçırılışı: sebepler, etkiler, sonuçlar ─────────
-{ id:"p80-sehzade-halil-sebep-etki-sonuc", tur:"sebep-sonuc",
+{ id:"p80-sehzade-halil-sebep-etki-sonuc", baslik:"Şehzade Halil'in kaçırılışı (1357) — sebep ve sonuç", tur:"sebep-sonuc",
   kisa:"On bir yaşında bir şehzadenin kaçırılışı, Osmanlı'nın Rumeli'deki ilerleyişini niçin iki yıl durdurdu?",
   metin:"1357'de Orhan Gazi'nin küçük oğlu Halil'in kaçırılması, ilk bakışta bir korsan baskını gibi görünür. TDV'deki Orhan maddesi ise onu Bizans'ın elindeki en güçlü diplomatik kozlardan biri olarak okur.\n\n"
     +"■ SEBEPLER\n"
@@ -105,7 +105,7 @@ window.EKOKUMA_P77A = [
   kaynak:"TDV: orhan (Halil İnalcık; gövde okundu — Karesililerin Rumeli'ye yerleşmesi, Kantakuzenos iş birliği, 1355 Haçlı başvurusu ve Pierre Thomas, Bizans tertibi yorumu, antlaşmanın dört şartı, yayılmanın durması, Süleyman'ın ölümü ve Murad'ın beklemesi, Mattheos'un 1358'de teslimi, 30.000 Venedik altını, veliahtlık vaadi, Murad'ın gazâ politikası, 1359 sonrası Trakya harekâtı) · TDV: suleyman-pasa (Gelibolu'yu boşaltma tekliflerine direniş) · TDV: murad-i (Eylül-Ekim 1359 teslim, 1359 Haçlı çıkarmasının Lapseki-Saros'ta önlenmesi, 1362 taht girişimi) · 'Değerlendirme' bölümünün son cümlesi kartın kendi yorumudur" },
 
 // ── P0080 H-0026 · Saray ovasının ilhakı ────────────────────────────────────
-{ id:"p80-saray-ovasi-ilhak-1448", tur:"sebep-sonuc",
+{ id:"p80-saray-ovasi-ilhak-1448", baslik:"Saray ovasının ilhakı (1448) — krallık yıkılmadan bir ova", tur:"sebep-sonuc",
   kisa:"Osmanlı, sınırından yüzlerce kilometre içerideki Saray ovasını nasıl ilhak etti? Aradaki topraklar kimindi?",
   metin:"Bugünkü Saraybosna'nın bulunduğu ova, 1448'de Osmanlı idaresine girdi. Bosna Krallığı ise ancak on beş yıl sonra, 1463'te fethedildi. Bir krallığın tam ortasındaki bir ova, krallık yıkılmadan nasıl Osmanlı'nın olabildi?\n\n"
     +"■ ARADAKİ TOPRAKLAR: DÜŞMAN DEĞİL, TÂBİ\n"
@@ -123,7 +123,7 @@ window.EKOKUMA_P77A = [
   kaynak:"TDV: saraybosna (Muhammed Aruçi; gövde okundu — 1428-1429 haraç, Hodidjed 1428-1435, 852/1448 ilhak, Vrhbosna uç sahası, Îsâ Bey'in idaresi, çift taraflı kontrol, 1455 tahriri, Hünkâr Camii 862/1458, ad kökeni, 1463 sonrası vilâyet) · TDV: bosna-hersek (1428-1429 haraç, Stjepan Tomaš'ın haraç ödemeyi sürdürmesi, vasal Bosna beyleri) · TDV: sirbistan (Sırp despotlarının Osmanlı vasallığı, Curac Brankoviç 1427-1456) · TDV: isa-bey (Enes Pelidija, Feridun Emecen — İshak Bey ve Paşa Yiğit, Îsâ Bey'in faaliyet sahası, Kosača/Pavloviç akrabalığı, 1463-1469 Bosna sancak beyliği)" },
 
 // ── H-0010 · 18 Mart, Nusret ve Seyid Onbaşı ────────────────────────────────
-{ id:"p77a-18-mart-nusret-seyid", tur:"sebep-sonuc",
+{ id:"p77a-18-mart-nusret-seyid", baslik:"18 Mart 1915 — Nusret mayın gemisi ve Seyid Onbaşı", tur:"sebep-sonuc",
   kisa:"18 Mart 1915'te on altı savaş gemisini geri çeviren ne oldu: toplar mı, mayınlar mı? Nusret ve Seyid Onbaşı bu hikâyenin neresinde?",
   metin:"18 Mart 1915 sabahı İngiliz ve Fransız zırhlıları Çanakkale Boğazı'na girdi. Hedef, tabyaları susturup mayın hatlarını temizlemek ve donanmayı Marmara'ya, oradan İstanbul'a çıkarmaktı. Akşam olduğunda üç zırhlı batmış, birçoğu savaş dışı kalmıştı ve filo geri çekildi. Bu sonucu doğuran üç unsur vardı: tabyalar, sahra bataryaları ve mayınlar.\n\n"
     +"■ BOĞAZ NASIL SAVUNULUYORDU\n"
@@ -141,7 +141,7 @@ window.EKOKUMA_P77A = [
   kaynak:"TDV: canakkale-muharebeleri (Zekeriya Kurşun; gövde okundu — Nusret'in Karanlık Liman'ı mayınlaması, 18 Mart kayıpları %35, batan gemiler, Cevad Paşa) · TDV: canakkale (şehir; 18 Mart bombardımanı) · Cemalettin Taşkıran, \"18 Mart Çanakkale Deniz Savaşı\" (DergiPark article-file/994127; 7-8 Mart gecesi 26 mayın, Erenköy koyu, paralel dizi, Seyid Onbaşı ve Ocean, tahta maket) · Yaşar Semiz, \"18 Mart 1915 Çanakkale Deniz Savaşı: Sebepleri, Gelişimi ve Sonuçları\" (DergiPark article-file/258192; mayın hatları, 17/18 Mart gecesi, Bouvet'in mayına çarpması, Ocean'ın mayınla batışı) · Seyid Onbaşı için TDV'de dayanak BULUNAMADI" },
 
 // ── H-0011 · Çanakkale: amaç, bedel, önem ───────────────────────────────────
-{ id:"p77a-canakkale-amac-bedel-onem", tur:"sebep-sonuc",
+{ id:"p77a-canakkale-amac-bedel-onem", baslik:"Çanakkale — amaç, bedel ve önem", tur:"sebep-sonuc",
   kisa:"İtilaf devletleri Çanakkale'de ne kazanmayı umuyordu, iki tarafa neye mal oldu ve savaşın gidişini nasıl değiştirdi?",
   metin:"Çanakkale, Birinci Dünya Savaşı'nın en çok tartışılan harekâtlarından biridir; çünkü kazanılsaydı savaşın haritasını değiştirecek bir hamleydi.\n\n"
     +"■ AMAÇ\n"
@@ -159,7 +159,7 @@ window.EKOKUMA_P77A = [
   kaynak:"TDV: canakkale-muharebeleri (Zekeriya Kurşun, gövde okundu — amaçlar, safhalar, tahliye tarihleri, asker ve kayıp rakamları, savaşın seyrine ve Rusya'ya etkisi; Mustafa İsmet Uzun, edebiyat bölümü) · TDV: birinci-dunya-savasi (Çanakkale'nin Rus ihtilaline payı, Bulgaristan'ın savaşa girişi)" },
 
 // ── H-0022 · 26 Eylül 1915: Kût'un İngilizlerce alınışı ─────────────────────
-{ id:"p77a-kut-1915-isgal-ve-1916-zafer", tur:"tartisma",
+{ id:"p77a-kut-1915-isgal-ve-1916-zafer", baslik:"Kûtülamâre — 1915 işgali ve 1916 zaferi", tur:"tartisma",
   kisa:"Kûtülamâre bir zafer miydi? Evet — ama Eylül 1915'te değil, yedi ay sonra, Nisan 1916'da.",
   metin:"Kûtülamâre adı Türk hafızasında bir zaferle birlikte anılır. Bu yüzden 26 Eylül 1915'in bir işgal tarihi olması şaşırtabilir. Oysa iki ayrı olay var ve ikisi de doğrudur: önce şehir İngilizlerin eline geçti, sonra İngiliz ordusu o şehirde kuşatılıp teslim alındı.\n\n"
     +"■ 26 EYLÜL 1915: İNGİLİZLER KÛT'U ALIYOR\n"
@@ -177,7 +177,7 @@ window.EKOKUMA_P77A = [
   kaynak:"TDV: kutulamare (gövde okundu — 26 Eylül 1915 işgali, Yusuf Nureddin Bey, Selmânıpâk 22-26 Kasım 1915, kuşatmanın başlaması 5 Aralık 1915, 29 Nisan 1916 teslim ve 13.309 kişi, Şubat 1917'de şehrin yeniden kaybı) · TDV: birinci-dunya-savasi (Basra'nın işgali, 11 Mart 1917 Bağdat; bu madde teslimi 28 Nisan 1916 diye verir — müstakil madde 29 Nisan der, kart müstakil maddeyi esas aldı)" },
 
 // ── H-0026 · Kût zaferi nasıl kazanıldı ─────────────────────────────────────
-{ id:"p77a-kut-zaferi-nasil", tur:"sebep-sonuc",
+{ id:"p77a-kut-zaferi-nasil", baslik:"Kûtülamâre zaferi nasıl kazanıldı? (1916)", tur:"sebep-sonuc",
   kisa:"Bir ordu, kendi aldığı şehirde nasıl teslim alınır? Kût kuşatmasında doğru yapılanlar ve İngilizlerin açmazı.",
   metin:"29 Nisan 1916'da Kûtülamâre'de 13.309 kişilik bir İngiliz ordusu teslim oldu. Bu sonuç tek bir büyük muharebenin değil, beş ay süren bir kuşatmanın ürünüdür.\n\n"
     +"■ İNGİLİZLERİN AÇMAZI 1: FAZLA UZANMAK\n"
@@ -195,7 +195,7 @@ window.EKOKUMA_P77A = [
   kaynak:"TDV: kutulamare (gövde okundu — Selmânıpâk, 5 Aralık 1915 kuşatma, Percy Lake, Felâhiye 5 Nisan ve 21-22 Nisan 1916, uçakla atılan yiyeceklerin nehre düşmesi, 1 ve 2 milyon sterlin teklifleri, kayıtsız şartsız teslim, 29 Nisan 1916 ve 13.309 kişi, Şubat-Mart 1917'de kayıp) · Kût teslim günü TDV birinci-dunya-savasi maddesinde 28 Nisan 1916 geçer; müstakil maddenin 29 Nisan'ı esas alındı" },
 
 // ── H-0023 · 16 Şubat 1916: Erzurum niçin tutulamadı ────────────────────────
-{ id:"p77a-erzurum-1916-nicin-dustu", tur:"sebep-sonuc",
+{ id:"p77a-erzurum-1916-nicin-dustu", baslik:"Erzurum 1916'da niçin düştü?", tur:"sebep-sonuc",
   kisa:"Erzurum 1877'de savaşla alınamamıştı. 1916'da niçin bir ayda düştü?",
   metin:"Erzurum Doğu Anadolu'nun kilidiydi. 1877-78 savaşında Ruslar şehri savaşla alamamış, ancak mütarekeyle teslim almıştı. 16 Şubat 1916'da ise Rus Kafkas Ordusu şehre girdi. Bu farkın arkasında 1914'ten 1916'ya uzanan bir zincir vardır.\n\n"
     +"■ 1: SARIKAMIŞ'IN BIRAKTIĞI BOŞLUK\n"
@@ -213,7 +213,7 @@ window.EKOKUMA_P77A = [
   kaynak:"TDV: erzurum (gövde okundu — 1829 ve 1877-78 istilaları, 16 Şubat 1916 Rus girişi ve Ermenilerin yardımı, halkın göçü) · TDV: sarikamis-harekati (gövde okundu — Hasan İzzet Paşa'nın itirazı, 600 km demiryolu farkı, kayıp tahminleri) · Sayim Türkman, \"Birinci Dünya Savaşı Doğu (Kafkas) Cephesi, Rus İleri Harekâtı (1916-1917)\", TESAM Akademi Dergisi 8/1 (2021), DergiPark article-file/1304546 (18. Kolordu'nun Irak'a gidişi ve Mahmud Kâmil Paşa'nın sözü, Grandük Nikola ve Yudeniç, İkinci Ordu'nun 1.000 km intikali, Höyükler hattı, Çobandede, kayıp rakamları)" },
 
 // ── H-0024 · Doğudaki toprak kaybının başat faktörü ─────────────────────────
-{ id:"p77a-dogu-cephesi-basat-faktor", tur:"tartisma",
+{ id:"p77a-dogu-cephesi-basat-faktor", baslik:"1916 doğu cephesi kayıplarının başat sebebi", tur:"tartisma",
   kisa:"1916'da Erzurum, Muş, Bitlis, Trabzon, Erzincan birbiri ardına düştü. Başat faktör ne idi?",
   metin:"1916 yılı Kafkas cephesinde kayıp yılıdır. Rus Kafkas Ordusu Şubat'ta Erzurum'u, Muş'u ve Bitlis'i, Mart'ta Rize'yi, Nisan'da Trabzon'u, Temmuz'da Bayburt'u ve Erzincan'ı aldı. Kaynaklar birden çok sebep sayar; soru hangisinin ötekileri belirlediğidir.\n\n"
     +"■ ADAYLAR\n"
@@ -229,7 +229,7 @@ window.EKOKUMA_P77A = [
   kaynak:"TDV: sarikamis-harekati (gövde okundu — kayıplar, 600 km demiryolu farkı, sonuç cümlesi) · TDV: erzurum (Ermenilerin yardımıyla işgal) · TDV: bitlis (Rus işgali 1 Mart-8 Ağustos 1916) · TDV: rize (8 Mart 1916) · TDV: trabzon (18 Nisan 1916) · TDV: erzincan (24 Temmuz 1916) · Sayim Türkman, TESAM Akademi Dergisi 8/1 (2021), DergiPark article-file/1304546 (18. Kolordu'nun Irak'a gidişi, İkinci Ordu'nun 1.000 km intikali, Bitlis-Muş taarruzunda iaşe engeli, Bayburt 16 Temmuz 1916) · Başat faktör hükmü kartın kendi yorumudur, kaynakların verdiği olgulara dayanır" },
 
 // ── H-0025 · Trabzon 1916: hangi sırayla ────────────────────────────────────
-{ id:"p77a-trabzon-1916-sahil-sirasi", tur:"sebep-sonuc",
+{ id:"p77a-trabzon-1916-sahil-sirasi", baslik:"Trabzon'un işgali (1916) — sahil boyunca Rus ilerleyişi", tur:"sebep-sonuc",
   kisa:"Trabzon, Rize ve Bayburt'tan önce mi düştü? Hayır: Ruslar sahil boyunca doğudan geldi; Rize önce, Trabzon sonra, Bayburt ise üç ay sonra.",
   metin:"Trabzon 18 Nisan 1916'da Rus işgaline girdi. Şehir denizden bir baskınla değil, kıyı boyunca doğudan ilerleyen bir kara harekâtıyla alındı; Rus donanması bu harekâtı sahilden destekledi.\n\n"
     +"■ SAHİL YOLU: DOĞUDAN BATIYA\n"
@@ -245,7 +245,7 @@ window.EKOKUMA_P77A = [
   kaynak:"TDV: trabzon (gövde okundu — 14 Nisan 1916 Karadere hattının yarılması, 16 Nisan Yomra, 18 Nisan giriş, 24 Şubat 1918 çekiliş) · TDV: rize (donanma bombardımanı, 8 Mart 1916 işgal) · TDV: bayburt (1916 işgali, gün vermiyor) · Sayim Türkman, TESAM Akademi Dergisi 8/1 (2021), DergiPark article-file/1304546 (Hopa Ocak 1916 ortası, donanma desteğinin kıyıyla sınırlı kalması, Trabzon'un Rus hedefleri arasında ikmal üssü olarak anılması, Fevzi Paşa'nın Bayburt karargâhı, Bayburt 16 Temmuz 1916) · Arhavi'nin işgal günü BULUNAMADI (TDV slug'ı arhavi ölü)" },
 
 // ── H-0028 · Erzincan 1916: öncesinde neresi düşmüştü ───────────────────────
-{ id:"p77a-erzincan-1916-oncesi", tur:"sebep-sonuc",
+{ id:"p77a-erzincan-1916-oncesi", baslik:"Erzincan'ın düşüşü (1916) — öncesinde düşen yerler", tur:"sebep-sonuc",
   kisa:"Erzincan düştüğünde Bayburt, Kelkit, Aşkale ve Gümüşhane nerede idi? Hepsi daha önce düşmüştü.",
   metin:"Erzincan Üçüncü Ordu'nun arka üssüydü. TDV'ye göre şehir 24 Temmuz 1916'da Rus kuvvetlerince işgal edildi ve 26 Şubat 1918'de kurtarıldı. Erzincan'ın düşüşü ani bir baskın değil, çevresindeki bütün savunma hatlarının birer birer çözülmesinin son halkasıdır.\n\n"
     +"■ ŞUBAT-MART 1916: ERZURUM'UN ARKASI\n"
@@ -279,7 +279,7 @@ window.EKOKUMA_P77A = [
   kaynak:"TDV: serif-huseyin (gövde okundu — soyu, İstanbul'daki hayatı, 1908 tayini, Vehib Paşa ile çatışma, Kitchener teması, McMahon yazışmaları 14 Temmuz 1915-30 Ocak 1916, cihada ve demiryoluna tavrı, Cemal Paşa'nın idamları, 27 Haziran bildirisi, 4-5.000 kişilik güç, 1924 hilafet iddiası ve sürgün) · TDV: fahreddin-pasa (3 ve 9 Haziran 1916, Cidde 16 Haziran, Medine savunması) · TDV: birinci-dunya-savasi (Sykes-Picot, İbn Suûd anlaşması) · Osmanlı dönemi Mekke emirliği düzeni için ayrıca bk. aynı günün 'statu-hicaz-mekke-serifligi' kartı (TDV: mekke, hicaz)" },
 
 // ── H-0035 · Üçüncü Gazze ve cephenin yarılması ─────────────────────────────
-{ id:"p77a-ucuncu-gazze-cephe-yarilmasi", tur:"sebep-sonuc",
+{ id:"p77a-ucuncu-gazze-cephe-yarilmasi", baslik:"Üçüncü Gazze Muharebesi (1917) — cephe nasıl yarıldı?", tur:"sebep-sonuc",
   kisa:"Gazze iki kez savunuldu, üçüncüde kaybedildi. Allenby cepheyi nereden ve nasıl yardı?",
   metin:"1917 baharında Gazze iki büyük İngiliz saldırısını geri püskürttü. Kasım 1917'de ise üçüncü saldırı Filistin cephesini yardı ve kırk gün sonra Kudüs düştü. Aradaki fark, İngilizlerin iki yenilgiden çıkardığı derstir.\n\n"
     +"■ İKİ SAVUNMA ZAFERİ\n"
@@ -297,7 +297,7 @@ window.EKOKUMA_P77A = [
   kaynak:"İsmet Üzen, \"Osmanlı Devleti'nin Kudüs'ü Terketmek Zorunda Kalış Süreci (1914-1917)\", Çankırı Karatekin Üniv. Türkiyat Araştırmaları Dergisi 6/1 (2026), DergiPark article-file/5420181 (Birinci ve İkinci Gazze kuvvet oranları, Allenby'nin gelişi, Erkilet'in oranları, Yıldırım'ın Bağdat-Filistin tereddüdü, Birüssebi 31 Ekim, Gazze'nin 4-7 Kasım boşaltılması, Yafa 16 Kasım, kayıplar) · TDV: gazze (üç çarpışmanın ilk ikisini Türklerin kazanması) · TDV: filistin (31 Ekim 1917 Birüssebi) · TDV: birinci-dunya-savasi (Falkenhayn'ın Yıldırım Ordular Grubu, 31 Ekim taarruzu)" },
 
 // ── H-0036 · Kudüs'ün teslimi ───────────────────────────────────────────────
-{ id:"p77a-kudus-teslimi-1917", tur:"sebep-sonuc",
+{ id:"p77a-kudus-teslimi-1917", baslik:"Kudüs'ün teslimi (1917)", tur:"sebep-sonuc",
   kisa:"Kudüs niçin sokak sokak savunulmadı? Anahtarları kim teslim etti, Allenby şehre nasıl girdi?",
   metin:"Kudüs 400 yıl Osmanlı idaresinde kaldı. 9 Aralık 1917 sabahı bu idare, bir belediye başkanının elindeki bir mektup ve bir anahtarla sona erdi.\n\n"
     +"■ NİÇİN SAVAŞILMADI\n"
@@ -315,7 +315,7 @@ window.EKOKUMA_P77A = [
   kaynak:"İsmet Üzen, \"Osmanlı Devleti'nin Kudüs'ü Terketmek Zorunda Kalış Süreci (1914-1917)\", Çankırı Karatekin Üniv. Türkiyat Araştırmaları Dergisi 6/1 (2026), DergiPark article-file/5420181 (8 Aralık tahliye emri ve gerekçesi, Yıldırım raporu, İzzet Bey'in 8/9 Aralık mektubunun metni, 9 Aralık 08.30 teslim, 11 Aralık yaya giriş ve beyanname, Haçlı sözlerinin kanıtlanamadığı) · TDV: kudus (Aralık 1917'de biten Osmanlı yönetimi, 1200 yıllık Müslüman yönetiminin sonu, askerî yönetim) · TDV: filistin (Allenby'nin 11 Aralık girişi ve Haçlı sözü — Üzen'le çelişir, kartta ikisi de verildi) · TDV: birinci-dunya-savasi (giriş 9 Aralık)" },
 
 // ── H-0038 · Doğu Anadolu: hangi şehir ne zaman düştü, ne zaman kurtuldu ────
-{ id:"p77a-dogu-anadolu-isgal-kurtulus", tur:"sebep-sonuc",
+{ id:"p77a-dogu-anadolu-isgal-kurtulus", baslik:"Doğu Anadolu'nun işgali ve kurtuluşu (1918)", tur:"sebep-sonuc",
   kisa:"Trabzon'dan Ruslar niçin çekildi? Doğu Anadolu'da hangi şehirler işgal edildi ve nasıl kurtuldu?",
   metin:"24 Şubat 1918'de Ruslar Trabzon'dan çekildi. Bu çekiliş bir askerî yenilginin değil, Rus ordusunun kendi içinden çözülmesinin sonucuydu.\n\n"
     +"■ RUSLAR NİÇİN ÇEKİLDİ\n"
@@ -340,7 +340,7 @@ window.EKOKUMA_P77A = [
   kaynak:"Nurcan Yavuz, \"Erzincan Mütarekesi'nin Türk Tarihindeki Yeri ve Önemi\", DergiPark article-file/782670 (Rus ordusunun çözülüşü, 18 Aralık 1917 mütarekesi, çekilirken silahların Ermeni birliklerine bırakılması) · TDV: erzurum (ihtilal kurtuluşun başlangıcı, Antranik çetesi, 12 Mart 1918) · TDV: trabzon (18 Nisan 1916-24 Şubat 1918, Pontusçuluk) · TDV: mus (18 Şubat 1916, 26 Temmuz 1916, 1 Mayıs 1917) · TDV: bitlis · TDV: rize · TDV: bayburt · TDV: gumushane · TDV: erzincan · TDV: van (2 Nisan 1918) · TDV: kars (Brest-Litovsk) · TDV: kazim-karabekir (Kars 25 Nisan 1918) · Sayim Türkman, TESAM Akademi Dergisi 8/1 (2021) (Bayburt 16 Temmuz 1916, Muş 6 Ağustos 1916) · Rize ve Bayburt'un kurtuluş GÜNÜ BULUNAMADI" },
 
 // ── H-0040 · Doğu Anadolu'nun kurtuluşunu sağlayan sebep ────────────────────
-{ id:"p77a-dogu-anadolu-kurtulus-sebebi", tur:"tartisma",
+{ id:"p77a-dogu-anadolu-kurtulus-sebebi", baslik:"Doğu Anadolu'yu 1918'de ne kurtardı?", tur:"tartisma",
   kisa:"Doğu Anadolu şehirlerini Rus işgalinden kurtaran ne oldu: Rus ihtilali mi, mütareke mi, Türk ordusu mu?",
   metin:"Şubat-Mart 1918'de Trabzon, Erzincan, Gümüşhane ve Erzurum birkaç hafta içinde kurtuldu; Nisan'da Van ve Kars izledi. Bu hız, 1916'da aynı cephede yaşanan çöküşle karşılaştırılınca şaşırtıcıdır. Açıklama üç halkalı bir zincirdir ve halkalardan hiçbiri tek başına yetmez.\n\n"
     +"■ 1: RUS ORDUSUNUN ÇÖZÜLMESİ\n"
@@ -356,7 +356,7 @@ window.EKOKUMA_P77A = [
   kaynak:"Nurcan Yavuz, \"Erzincan Mütarekesi'nin Türk Tarihindeki Yeri ve Önemi\", DergiPark article-file/782670 (1917 Şubat'ında Türk ordusunun durumu, ihtilalin Kafkas cephesine etkisi, 18 Aralık 1917 mütarekesi, mütarekenin yalnız geri çekilmeye yaradığı ve vilayetlerin sıcak savaşla kurtarıldığı sonucu) · TDV: birinci-dunya-savasi (Rus ordusunun savaşı bırakması, 1918 başında Üçüncü Ordu'nun başarısı) · TDV: kazim-karabekir (31 Aralık 1917 tayin, Erzincan-Erzurum-Hasankale, Kars 25 Nisan 1918) · TDV: kars (Brest-Litovsk) · TDV: erzurum · TDV: erzincan · Hüküm bölümü kartın kendi yorumudur" },
 
 // ── H-0045 · Filistin bozgunu ve Şam'dan çekiliş ────────────────────────────
-{ id:"p77a-filistin-bozgunu-1918-nablus-sam", tur:"sebep-sonuc",
+{ id:"p77a-filistin-bozgunu-1918-nablus-sam", baslik:"Filistin cephesinin çöküşü (1918) — Nablus'tan Halep'e", tur:"sebep-sonuc",
   kisa:"Eylül 1918'de Filistin cephesi niçin birkaç günde çöktü ve ordu Nablus'tan Halep'e nasıl çekildi?",
   metin:"Kudüs Aralık 1917'de kaybedildikten sonra Filistin cephesi Nablus'un güneyinde, kıyıdan Şeria (Ürdün) vadisine uzanan bir hatta tutundu. 19 Eylül 1918'de başlayan son İngiliz taarruzu bu cepheyi birkaç günde çökertti; Şam 1 Ekim'de, Halep Ekim sonunda kaybedildi ve bir ay sonra Mondros Mütarekesi imzalandı.\n\n"
     +"■ CEPHENİN DÜZENİ\n"

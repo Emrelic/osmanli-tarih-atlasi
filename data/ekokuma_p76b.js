@@ -64,7 +64,7 @@ window.EKOKUMA_P76B = [
 // Gerisi `senin-kararin` olarak rapora çıkarıldı.
 // ══════════════════════════════════════════════════════════════════════════
 
-{ id:"bunv-romanya-1859", tur:"bu-ulke-neden-var",
+{ id:"bunv-romanya-1859", baslik:"Romanya neden var? Eflak ve Boğdan'ın birleşmesi", tur:"bu-ulke-neden-var",
   kisa:"Romanya, bir savaşla değil bir seçim hilesiyle doğdu: iki ayrı prensliğin meclisleri aynı adamı seçti ve Avrupa bu oldubittiyi geri alamadı.",
   metin:"■ ÖNCE İKİ AYRI ÜLKE VARDI\n"
     +"Bugünkü Romanya'nın çekirdeği, yüzyıllarca Osmanlı'ya bağlı iki ayrı voyvodalıktı: Eflak (güneyde, Tuna boyunda) ve Boğdan (kuzeydoğuda). İkisi de Osmanlı toprağı sayılıyordu ama doğrudan yönetilmiyordu; kendi voyvodaları, kendi kiliseleri, kendi vergileri vardı ve İstanbul'a yıllık vergi ödüyorlardı. Yani devlet olma alışkanlığı zaten mevcuttu — eksik olan, ikisinin TEK devlet olmasıydı.\n\n"
@@ -80,7 +80,7 @@ window.EKOKUMA_P76B = [
   olay:["1859-01-24","1862-02-21","1881-03-26"],
   kaynak:"TDV: abdulaziz (Cevdet Küçük) · berlin-antlasmasi (Ali İhsan Gencer) · doksanuc-harbi (Mahir Aydın) · sark-meselesi (Kemal Beydilli)" },
 
-{ id:"bunv-lubnan-1861", tur:"bu-ulke-neden-var",
+{ id:"bunv-lubnan-1861", baslik:"Lübnan neden Suriye'den ayrı? 1861 özel statüsü", tur:"bu-ulke-neden-var",
   kisa:"Lübnan'ın sınırını çizen şey dağ değil bir katliamdı: 1860'ın iç savaşından sonra Avrupa'nın dayattığı özel statü, Suriye'den ayrı bir idarî varlık yarattı.",
   metin:"■ SORUYU DOĞRU SORMAK\n"
     +"\"Lübnan neden Suriye'nin parçası değil?\" sorusunun cevabı 20. yüzyılda, Fransız mandasında aranır. Oysa ayrılığın idarî temeli bir yüzyıl önce, Osmanlı döneminde atıldı ve sebebi mezhep coğrafyasıydı.\n\n"
@@ -96,7 +96,7 @@ window.EKOKUMA_P76B = [
   olay:["1861-06-09","1860-05-30"],
   kaynak:"TDV: abdulaziz (Cevdet Küçük) · islahat-fermani (Ufuk Gülsoy) · sark-meselesi (Kemal Beydilli). Dikkat: Mutasarrıflığın iç işleyişi (kota, meclis) TDV'nin bu maddelerinde ayrıntısız; nizamnâmenin madde metni okunamadı — o ayrıntı `bulunamadı` sayılmalı" },
 
-{ id:"bunv-bulgaristan-1878", tur:"bu-ulke-neden-var",
+{ id:"bunv-bulgaristan-1878", baslik:"Bulgaristan neden var? Önce kilise, sonra devlet", tur:"bu-ulke-neden-var",
   kisa:"Bulgaristan'ın kuruluşu iki adımlıdır ve ilk adım kiliseydi: ayrı bir kilise ayrı bir millet tanımı üretti, devlet sekiz yıl sonra geldi.",
   metin:"■ ÖNCE KİLİSE, SONRA DEVLET\n"
     +"19. yüzyılda Osmanlı'daki Ortodoks halklar tek bir çatı altında, İstanbul'daki Rum Patrikhânesi'ne bağlıydı. Bu, kilise dili ve üst din adamları Rum demekti. Bulgar aydınlarının ilk talebi bağımsızlık değil KENDİ KİLİSESİydi: kendi dilinde ibadet, kendi piskoposları. 11 Mart 1870'te Bulgar Eksarhlığı kuruldu ve Bulgar kilisesi Fener'den ayrıldı.\n\n"
@@ -112,7 +112,7 @@ window.EKOKUMA_P76B = [
   olay:["1878-07-13","1885-09-18","1870-03-11"],
   kaynak:"TDV: bulgaristan (Mehmet İpşirli, Nazif Kuyucuklu, Yusuf Halaçoğlu, Semavi Eyice) · berlin-antlasmasi (Ali İhsan Gencer) · ayastefanos-antlasmasi (Ali İhsan Gencer) · abdulaziz (Cevdet Küçük) · doksanuc-harbi (Mahir Aydın)" },
 
-{ id:"bunv-sirbistan-karadag-1878", tur:"bu-ulke-neden-var",
+{ id:"bunv-sirbistan-karadag-1878", baslik:"Sırbistan ve Karadağ neden iki ayrı devlet?", tur:"bu-ulke-neden-var",
   kisa:"Sırbistan ile Karadağ'ı ayıran şey dil ya da din değil coğrafyadır: biri ovada Osmanlı'nın altında özerkleşti, öteki dağda hiç tam boyun eğmedi — ve ikisi aynı gün bağımsız oldu.",
   metin:"■ İKİ SIRP DEVLETİ NİÇİN İKİ TANE\n"
     +"Sırbistan ve Karadağ aynı dili konuşan, aynı Ortodoks kiliseye bağlı iki topluluktur. Buna rağmen 19. yüzyıla iki ayrı siyasî yapı olarak girdiler. Sebep coğrafyadır: Sırbistan Tuna-Morava ovasında, imparatorluğun ana yolu üzerinde; Karadağ ise ulaşılması zor, tarıma elverişsiz bir karst dağ bloğunda.\n\n"
@@ -132,7 +132,7 @@ window.EKOKUMA_P76B = [
 // H-0011 · Osmanlı'da bankacılık — klasik dönemdeki işlev ve ilk bankalar
 // ══════════════════════════════════════════════════════════════════════════
 
-{ id:"banka-klasik-donem-banka-islevi", tur:"teknik-bilimsel",
+{ id:"banka-klasik-donem-banka-islevi", baslik:"Banka yokken bankanın işini kim yapıyordu?", tur:"teknik-bilimsel",
   kisa:"Banka yokken bankanın işini kim yapıyordu? Cevap tek bir kurum değil, üç ayrı yapı: sarraflar, para vakıfları ve iltizam düzeninin kendisi.",
   metin:"■ SORU\n"
     +"Klasik Osmanlı düzeninde \"banka\" diye bir kurum yoktu. Ama bankanın yaptığı işler — para saklamak, para transfer etmek, kredi vermek, devleti finanse etmek — yapılmak zorundaydı. Bunları kimin yaptığına bakınca üç ayrı yapı çıkar.\n\n"
@@ -150,7 +150,7 @@ window.EKOKUMA_P76B = [
   olay:["1863-06-01"],
   kaynak:"TDV: sarraflik (Ali Akyıldız, Nebi Bozkurt) · galata (Semavi Eyice, İlber Ortaylı) · kaime (Ali Akyıldız) · esham (Mehmet Genç)" },
 
-{ id:"banka-ilk-osmanli-bankalari", tur:"teknik-bilimsel",
+{ id:"banka-ilk-osmanli-bankalari", baslik:"İlk Osmanlı bankaları — kâime krizinden Osmanlı Bankası'na", tur:"teknik-bilimsel",
   kisa:"İlk Osmanlı bankası bir tasarruf kurumu değil, kâğıt paranın değerini tutmak için kurulmuş bir kurtarma aracıydı — ve kurtaramadı.",
   metin:"■ BAŞLANGIÇ: KĀİME KRİZİ\n"
     +"1840'larda devlet kâğıt para (kāime) çıkarmaya başlamıştı. Kāime hızla değer kaybediyor, her düşüş yeni bir mali kriz üretiyordu. İlk banka girişimleri bu yüzden mevduat toplamak için değil, kāimenin kurunu tutmak için doğdu.\n\n"
@@ -176,7 +176,7 @@ window.EKOKUMA_P76B = [
 //    çizimi sefer/ok katmanı işidir, kart katmanı değil. Rapora çıkarıldı.
 // ══════════════════════════════════════════════════════════════════════════
 
-{ id:"seyahat-abdulaziz-1867-guzergah", tur:"sebep-sonuc",
+{ id:"seyahat-abdulaziz-1867-guzergah", baslik:"Abdülaziz'in Avrupa seyahati (1867) — neden ve nereye?", tur:"sebep-sonuc",
   kisa:"Bir padişah ilk defa savaş için değil ziyaret için ülke dışına çıktı: 21 Haziran 1867'de Sultaniye vapuruyla İstanbul'dan ayrıldı, kırk yedi gün sonra döndü.",
   metin:"■ NİÇİN GİDİLDİ\n"
     +"Davet ikiliydi. Fransa İmparatoru III. Napolyon, Milletlerarası Paris Sanayi Sergisi'nin açılışı vesilesiyle padişahı Fransa'ya çağırdı ve İstanbul'daki elçisi aracılığıyla bu vesileyle genel barışı kuvvetlendirecek fikir alışverişinde bulunulabileceğini de bildirdi. Aynı sırada İngiliz Kraliçesi Victoria da Londra'ya davet edince Abdülaziz iki daveti birden kabul etti. Arka planda Girit, Sırbistan ve Romanya'daki olaylar, yani Fransa ile Rusya'nın desteklediği huzursuzluklar vardı; seyahat bir nezaket ziyareti değil, diplomatik bir hamleydi.\n\n"
@@ -192,7 +192,7 @@ window.EKOKUMA_P76B = [
   olay:["1867-06-21","1867-07-01|Abdülaziz"],
   kaynak:"TDV: abdulaziz (Cevdet Küçük) · Aziz Tekdemir, “1867 Paris Sergisi ve Sultan Abdülaziz'in Sergiyi Ziyareti”, Trakya Üniversitesi Edebiyat Fakültesi Dergisi 3/6 (Temmuz 2013), s. 1-19 (Ruznamçe-i Cerîde-i Havâdis ve Ahmed Lütfî Efendi Vak'anüvis tarihine dayanarak). Ayrıntılı güzergâh için işaret edilen monografi: Nihat Karaer, Paris, Londra, Viyana: Abdülaziz'in Avrupa Seyahati, Ankara 2007" },
 
-{ id:"seyahat-abdulaziz-1867-ingiltere", tur:"sebep-sonuc",
+{ id:"seyahat-abdulaziz-1867-ingiltere", baslik:"Abdülaziz Londra'da (1867) — dokuz günlük İngiltere ziyareti", tur:"sebep-sonuc",
   kisa:"Londra ayağı dokuz gün sürdü: Dover'a çıktı, Buckingham Sarayı'nda kaldı, Spithead'de kendisi için donanma geçit töreni yapıldı ve Dizbağı nişanı verildi.",
   metin:"■ GİRİŞ: DOVER\n"
     +"Padişah 12 Temmuz 1867 sabahı Dover Limanı'na çıktı. İskelede bekleyen arabalar ve tren, heyeti önce Lord Warden Oteli'ne götürdü; aynı gün Londra'ya geçildi. İngiltere ayağı 12-21 Temmuz arasında sürdü.\n\n"
@@ -208,7 +208,7 @@ window.EKOKUMA_P76B = [
   olay:["1867-07-01|Abdülaziz","1867-06-21"],
   kaynak:"Emel Demir Görür, “Reception, Accommodation, and Farewell of the Sultan Abdülaziz in Britain”, Tarih Dergisi / Turkish Journal of History 83 (2024/2), s. 111-144, DOI 10.26650/iutd.1446043 (dönemin İngiliz gazetelerine — Illustrated London News, Essex Standard, Punch, Christian Times, Levant Herald — dayanarak) · TDV: abdulaziz (Cevdet Küçük)" },
 
-{ id:"seyahat-abdulaziz-1867-avrupa-basini", tur:"dis-yankilar",
+{ id:"seyahat-abdulaziz-1867-avrupa-basini", baslik:"Avrupa basınının gözünden Abdülaziz (1867)", tur:"dis-yankilar",
   kisa:"İngiliz basını padişahı beklediğinden farklı buldu — ve bu şaşkınlığın kendisi, Avrupa'nın Türk imgesinin ne kadar çarpık olduğunu gösterir.",
   metin:"■ BEKLENEN GÖRÜNTÜ\n"
     +"Ziyaret üzerine İngiliz gazeteleri okurlarına Osmanlı Devleti'nin durumunu ve padişahın kim olduğunu anlatmaya çalıştı. Bu yazılar incelendiğinde asıl ilginç olan, anlatılan şey değil anlatanın şaşkınlığıdır: Haçlı seferlerinden beri Avrupa zihninde oluşmuş Müslüman imgesi, karşılarına çıkan sakin ve zararsız hükümdarla hiç örtüşmüyordu.\n\n"
@@ -226,7 +226,7 @@ window.EKOKUMA_P76B = [
   olay:["1867-06-21","1867-07-01|Abdülaziz"],
   kaynak:"Emel Demir Görür, “Reception, Accommodation, and Farewell of the Sultan Abdülaziz in Britain”, Tarih Dergisi 83 (2024/2), s. 111-144 (Punch, Christian Times, Illustrated London News, Essex Standard, Huddersfield Chronicle, Glasgow Daily Herald, Pall Mall Gazette künyeleriyle)" },
 
-{ id:"seyahat-abdulaziz-1867-onemi", tur:"tartisma",
+{ id:"seyahat-abdulaziz-1867-onemi", baslik:"Abdülaziz'in seyahati — başarı mı, pahalı bir gösteri mi?", tur:"tartisma",
   kisa:"Seyahat bir başarı mıydı yoksa pahalı bir gösteri mi? İki değerlendirme de aynı yılın içinden çıkarılabilir — ve ikisi de eksiktir.",
   metin:"■ OLUMLU OKUMA\n"
     +"Ziyaretin doğrudan sonuçları vardır. Başvurulan ansiklopedi maddesi, gezinin genel barışın sağlanmasında önemli rol oynadığını ve Avrupa ile ilişkilerin iyi bir duruma girdiğini yazar. Aynı yıl içinde Romanya'da Karol'un prensliği tanındı, Sırbistan kalelerinden Türk ordusunun çekilmesi kabul edildi, Girit'in Yunanistan'a ilhakı reddedildi ve adaya özel bir yönetim getiren nizamnâme çıkarıldı. Yani Balkanlar'daki kriz, toprak kaybı olmadan bir düzenlemeyle kapatıldı.\n\n"
@@ -246,7 +246,7 @@ window.EKOKUMA_P76B = [
 // H-0020 · Midhat Paşa ve Cevdet Paşa — şahsiyet kartları
 // ══════════════════════════════════════════════════════════════════════════
 
-{ id:"kimdir-midhat-pasa-sahsiyet", tur:"kimdir",
+{ id:"kimdir-midhat-pasa-sahsiyet", baslik:"Midhat Paşa kimdir? Taşrada reformcu, merkezde kısa ömürlü sadrazam", tur:"kimdir",
   kisa:"Taşrada dâhi, merkezde felâket: aynı huy — \"olmaz\" dememek — onu hem büyük bir valilik reformcusu hem de kırk dokuz günlük bir sadrazam yaptı.",
   metin:"■ ŞAHSİYETİN TEK CÜMLESİ\n"
     +"Dönemin bir kaynağı Midhat Paşa'yı şöyle anlatır: fikrince olmaz yoktu, her şey olurdu; giriştiği bütün işlerde ileriyi geriyi düşünmez, özellikle zamanın hükmünü ve çevrenin gereğini hesaba katmaz, her istediğini yapmak ve yaptırmak isterdi. Bu tek cümle hem başarısını hem çöküşünü açıklar.\n\n"
@@ -262,7 +262,7 @@ window.EKOKUMA_P76B = [
   olay:["1876-12-23","1877-03-19"],
   kaynak:"TDV: midhat-pasa (Tufan Buzpınar, Gökhan Çetinsaya) · kanun-i-esasi (Mehmet Âkif Aydın) · mesrutiyet (Şükrü Hanioğlu) · istanbul-konferansi (Mithat Aydın)" },
 
-{ id:"kimdir-cevdet-pasa-sahsiyet", tur:"kimdir",
+{ id:"kimdir-cevdet-pasa-sahsiyet", baslik:"Ahmed Cevdet Paşa kimdir? Mecelle'nin mimarı", tur:"kimdir",
   kisa:"Batı'nın bilimini alıp hukukunu almayan adam: Avrupa kanunlarının tercüme edilerek alınmasına karşı çıktı ve alternatifini kendisi yazdı.",
   metin:"■ ZİHNİN ŞEKLİ\n"
     +"Cevdet Paşa, geleneksel Türk-İslâm Doğu kültürü ile yenilikçi Batı arasında bir senteze varmaya çalışmış bir şahsiyettir. Daha genç bir medrese talebesiyken olağanüstü zekâsı, çalışkanlığı ve isabetli tahlilleriyle hocalarının dikkatini çekmiş, zaman zaman onlarla ilmî meselelerde tartışmaya girmiştir. Tanzimat'ın ilân edildiği yıl İstanbul'a gelmiş, ilim çevrelerinde kısa sürede tanınmıştır.\n\n"
@@ -285,7 +285,7 @@ window.EKOKUMA_P76B = [
 // H-0028 · Abdülaziz: övgü, yergi, nasıl bilirdiniz
 // ══════════════════════════════════════════════════════════════════════════
 
-{ id:"abdulaziz-neye-direndi-hal-1876", tur:"sebep-sonuc",
+{ id:"abdulaziz-neye-direndi-hal-1876", baslik:"Abdülaziz neden tahttan indirildi? (1876)", tur:"sebep-sonuc",
   kisa:"Hal' fetvası \"mülkü ve milleti tahrip, beytülmâli israf\" dedi; ama padişahı deviren asıl mesele, hükümeti hükümete bırakmayı reddetmesiydi.",
   metin:"■ ÖNCE NEYE DİRENDİĞİNİ AYIRALIM\n"
     +"Abdülaziz'in direnci bir program karşıtlığı değil, bir yetki meselesiydi. Zeki bir insandı ve memleketin tam bir dikta rejimiyle yönetilemeyeceğini biliyordu; kanun hâkimiyetinin esas kılınması ve hükümet işlerinin hükümet adamlarına bırakılması gerektiğine inanıyordu. Ama aynı anda, hükümdarın düşünce ve kararlarında serbest ve bağımsız olmasının saltanatın gereği olduğu fikrinden de kendini alamıyordu. Yani kurumsallaşmayı kabul ediyor, kendi yetkisinin o kurumlarca sınırlanmasını kabul etmiyordu.\n\n"
@@ -303,7 +303,7 @@ window.EKOKUMA_P76B = [
   olay:["1876-05-30"],
   kaynak:"TDV: abdulaziz (Cevdet Küçük) · midhat-pasa (Tufan Buzpınar, Gökhan Çetinsaya) · duyun-i-umumiyye (Cevdet Küçük, Tevfik Ertüzün)" },
 
-{ id:"abdulaziz-nasil-bilirdiniz", tur:"tartisma",
+{ id:"abdulaziz-nasil-bilirdiniz", baslik:"Abdülaziz'i nasıl bilirdiniz? Hâmi mi, müsrif mi?", tur:"tartisma",
   kisa:"Millî kültürün hâmisi mi, imparatorluğu batıran müsrif mi? İki yargı da aynı sayfadan çıkar — çünkü ikisi de doğrudur, farklı yıllara bakarlar.",
   metin:"■ ÖVGÜ TARAFI\n"
     +"Tahta çıkışı, kardeşinin son yıllardaki sefahat ve israfından memnun olmayan yenilik taraftarlarınca bile memnuniyetle karşılandı. İlk yıllarında tasarruf tedbirleri başlattı. Türk mûsikisini çok iyi bilir, mükemmel ney ve lavta çalardı; Osmanlı padişahları arasında bestekâr olarak da yerini almıştır. Hicazkâr ve şehnaz makamlarını sevdiği için döneminin birçok şarkı ve marşı bu makamlarda bestelendi; kendisinden bir hicaz sirto ile iki şarkı günümüze ulaştı. Saraydaki Batı tarzı orkestra ve bandoları kaldırıp yerine Türk mûsikisi saz takımı koyması, pek çok bestekâr ve hânendeyi koruması, opera ve tiyatro yerine orta oyunu seyretmesi, millî kültürü ihya edeceği ümitlerini kuvvetlendirmişti. Ayrıca celî sülüste iyi bir hattattı ve boş vakitlerinde resim yapardı.\n\n"
@@ -325,7 +325,7 @@ window.EKOKUMA_P76B = [
 // H-0031 · Tersane (İstanbul) Konferansı — dayatma ve dağılmanın sonucu
 // ══════════════════════════════════════════════════════════════════════════
 
-{ id:"tersane-konferansi-dayatma", tur:"sebep-sonuc",
+{ id:"tersane-konferansi-dayatma", baslik:"Tersane Konferansı (1876) — büyük devletlerin dayattığı program", tur:"sebep-sonuc",
   kisa:"Büyük devletler masaya hazır bir program getirdi: Bulgaristan ikiye bölünecek, valileri onlar onaylayacak, reformları denetlemek için 5000 Belçikalı asker gelecekti.",
   metin:"■ KONFERANS NİÇİN TOPLANDI\n"
     +"1875'te Hersek ayaklanmasıyla başlayan, bir yıl sonra Bulgar ayaklanması ve Osmanlı-Sırp, Karadağ savaşlarıyla süren Balkan krizini görüşmek için toplandı. Krizin en önemli safhası Bulgar ayaklanmasıydı ve bu mesele konferanstaki dengeleri belirledi: ayaklanmanın bastırılmasına dair haberler İngiltere'de \"Bulgar vahşeti\" propagandasıyla liberaller tarafından siyasî malzeme yapıldı ve Türk karşıtı kampanyalara dönüştü. Bu, Osmanlı'nın toprak bütünlüğünden yana olan İngiliz hükümetini etkisiz bırakırken Rusya'yı harekete geçirdi.\n\n"
@@ -341,7 +341,7 @@ window.EKOKUMA_P76B = [
   olay:["1876-12-23"],
   kaynak:"TDV: istanbul-konferansi (Mithat Aydın; madde \"Tersane Konferansı\" adıyla da aranır) · kanun-i-esasi (Mehmet Âkif Aydın) · doksanuc-harbi (Mahir Aydın)" },
 
-{ id:"tersane-konferansi-sonuc", tur:"sebep-sonuc",
+{ id:"tersane-konferansi-sonuc", baslik:"Tersane Konferansı'nın sonu — meclis savaşı seçti", tur:"sebep-sonuc",
   kisa:"180 kişilik bir meclis, teklifleri kabul edip onursuz kalmaktansa savaşı seçti — ve daha ağır şartlarla karşılaşma ihtimalini bile bile seçti.",
   metin:"■ SON TEKLİF\n"
     +"Bâbıâli'nin direnmesi ve konferansın çıkmaza girmesi üzerine yabancı temsilciler tekliflerini hafifletmeyi tartışmaya başladı. Özellikle Midhat Paşa'nın gayriresmî temasları ve iki İngiliz devlet adamının etkisiyle, asgari düzeyde tutulan reformlar daha da hafifletilip 15 Ocak'ta sunuldu: Avrupa jandarması teklifi kaldırılıyor, valilerin tayininde devletlerin onayı yalnız ilk beş yıl için geçerli oluyordu. Ama milletlerarası komisyon duruyordu. Teklife ültimatom gibi bir şart bağlandı: reddedilirse 18 Ocak oturumunda konferans bitecek ve temsilciler ülkelerine dönecekti.\n\n"
@@ -362,7 +362,7 @@ window.EKOKUMA_P76B = [
 //          dönemin yenilikleri (dört kart)
 // ══════════════════════════════════════════════════════════════════════════
 
-{ id:"kimdir-abdulhamid-ii-sahsiyet", tur:"kimdir",
+{ id:"kimdir-abdulhamid-ii-sahsiyet", baslik:"II. Abdülhamid'in şahsiyeti — çok dinleyen, az konuşan padişah", tur:"kimdir",
   kisa:"Çok dinleyen, az konuşan, bir kere gördüğü yüzü unutmayan bir adam — ve aynı adam, tahttan indirilme korkusunu sabit fikir hâline getirmiş bir vehim sahibi.",
   metin:"■ DIŞ GÖRÜNÜŞ VE TAVIR\n"
     +"İri burunlu, parlak ve iri gözlüydü; yürürken ve otururken biraz öne meylederdi. Titrek fakat kalın bir sesi vardı; çok dinler, az konuşurdu. Kendisiyle konuşanlara saygı telkin eder, herkese nazik davranır, hoşlanmadığı kimselere bile güler yüz gösterip sevmediğini belli etmezdi. Karşısındakinin duygu ve düşüncelerini sezmekte mahirdi.\n\n"
@@ -382,7 +382,7 @@ window.EKOKUMA_P76B = [
   olay:["1876-08-31"],
   kaynak:"TDV: abdulhamid-ii (Cevdet Küçük)" },
 
-{ id:"abdulhamid-istibdat-tartismasi", tur:"tartisma",
+{ id:"abdulhamid-istibdat-tartismasi", baslik:"II. Abdülhamid müstebit miydi?", tur:"tartisma",
   kisa:"\"Müstebit miydi?\" sorusunun cevabı kaynağa göre değişmez — hafiye, sansür ve kapatılan meclis herkesin kabul ettiği olgudur; tartışma sebebi ve karşılığı üzerinedir.",
   metin:"■ TARTIŞILMAYAN OLGULAR\n"
     +"Üç şey üzerinde kaynaklar birleşir. ① 23 Aralık 1876'da ilân edilen anayasa yürürlükteyken, padişah 13 Şubat 1878'de Meclis-i Meb'ûsan'ı süresiz olarak tatil etti; meclis otuz yıl toplanmadı. ② Devlette olup biteni öğrenmek için kuvvetli bir hafiye (jurnal) teşkilâtı kuruldu. ③ Avrupa'da yapılan bölücü yayın faaliyetlerine karşı sıkı bir sansür uygulandı. Bunlar taraf tutmadan kaydedilen olgulardır.\n\n"
@@ -400,7 +400,7 @@ window.EKOKUMA_P76B = [
   olay:["1876-08-31","1878-02-13"],
   kaynak:"TDV: abdulhamid-ii (Cevdet Küçük) · meclis-i-mebusan (Ali Akyıldız) · mesrutiyet (Şükrü Hanioğlu) · doksanuc-harbi (Mahir Aydın). Dikkat: \"Donanmanın Haliç'te çürütülmesi\" iddiası okunan maddelerde `bulunamadı`" },
 
-{ id:"abdulhamid-donemi-toprak-kayiplari", tur:"tartisma",
+{ id:"abdulhamid-donemi-toprak-kayiplari", baslik:"II. Abdülhamid döneminde kaybedilen topraklar", tur:"tartisma",
   kisa:"Otuz üç yılda kaybedilen toprağın tek bir km² rakamı yok — ama kaybın nasıl olduğu bellidir: dördü savaşla değil, oldubittiyle gitti.",
   metin:"■ ÖNCE DÜRÜST BİR UYARI\n"
     +"Bu dönemde kaybedilen toprağın TOPLAM yüzölçümü için güvenilir bir rakam bulunamadı: başvurulan ansiklopedi maddeleri böyle bir toplam vermiyor, tarandığı kadarıyla akademik kaynaklarda da tek bir kabul görmüş sayı yok. Bu kart o yüzden bir rakam UYDURMAZ; kaybı kalem kalem sayar ve toplamı `bulunamadı` olarak bırakır.\n\n"
@@ -418,7 +418,7 @@ window.EKOKUMA_P76B = [
   olay:["1878-07-13","1878-06-04","1885-09-18","1882-09-13","1881-05-12"],
   kaynak:"TDV: abdulhamid-ii (Cevdet Küçük) · berlin-antlasmasi (Ali İhsan Gencer) · doksanuc-harbi (Mahir Aydın) · kibris (Kemal Çiçek vd.). Dikkat: Toplam km² kaybı hiçbir kaynakta `bulunamadı`; atlasın kendi yüzölçümü dayanak yapılmadı" },
 
-{ id:"abdulhamid-donemi-yenilikler", tur:"teknik-bilimsel",
+{ id:"abdulhamid-donemi-yenilikler", baslik:"II. Abdülhamid dönemi yenilikleri — okul, demiryolu, telgraf", tur:"teknik-bilimsel",
   kisa:"Aynı otuz üç yıl, Osmanlı'nın en yoğun okul, demiryolu ve telgraf yapımı dönemidir — bugün adı bilinen yüksek okulların çoğu bu dönemde açıldı.",
   metin:"■ MALİYEYİ TOPARLAMA\n"
     +"Tahta çıktığında 1854-1874 arasında alınmış dış borçların vadesi dolan yıllık anapara ve faiz ödemeleri devletin normal gelirlerinin yarısını geçiyordu. Dış baskı aracı olan bu yükten kurtulmak öncelikti. 1881 tarihli Muharrem Kararnâmesi ile alacaklı ülkelere belli devlet gelirlerini toplamak üzere Düyûn-ı Umûmiyye'yi kurma imtiyazı tanındı. Sonuç ikili oldu: devlet gelirlerinin yüzde otuzu borç ve faize ayrıldığı hâlde eski borçlar temizlenemedi, ama alınan borçlardan çok daha fazlası ödendi ve borç yükü büyük ölçüde hafifledi. Bedeli ağırdı: yeraltı ve yerüstü kaynaklarının işletme hakları İngiliz, Fransız ve Alman şirket ve bankalarına bırakıldı.\n\n"
@@ -438,7 +438,7 @@ window.EKOKUMA_P76B = [
 // H-0033 · İlk Meclis-i Meb'ûsan — seçim, yapı, yetki, âkıbet
 // ══════════════════════════════════════════════════════════════════════════
 
-{ id:"ilk-meclis-mebusan-secim-ve-yapi", tur:"teknik-bilimsel",
+{ id:"ilk-meclis-mebusan-secim-ve-yapi", baslik:"İlk Meclis-i Meb'ûsan nasıl seçildi? (1877)", tur:"teknik-bilimsel",
   kisa:"İlk Osmanlı meclisinde mebusları halk seçmedi: daha önce halkın seçtiği il ve ilçe meclislerinin üyeleri seçti — ve kontenjan baştan belirlenmişti.",
   metin:"■ İKİ KANATLI PARLAMENTO\n"
     +"23 Aralık 1876'da yürürlüğe giren anayasa, Meclis-i Umûmî adlı bir parlamento öngörüyordu ve bu parlamento iki meclisten oluşuyordu: halkın seçtiği mebuslardan kurulu Meclis-i Meb'ûsan ve padişahın tayin ettiği üyelerden kurulu Meclis-i A'yân. Anayasaya göre meclislerden biri kapalıyken öteki toplanamazdı — yani iki kanat birbirine bağlıydı.\n\n"
@@ -456,7 +456,7 @@ window.EKOKUMA_P76B = [
   olay:["1877-03-19","1876-12-23"],
   kaynak:"TDV: meclis-i-mebusan (Ali Akyıldız) · kanun-i-esasi (Mehmet Âkif Aydın) · mesrutiyet (Şükrü Hanioğlu)" },
 
-{ id:"ilk-meclis-mebusan-yetki-ve-akibet", tur:"sebep-sonuc",
+{ id:"ilk-meclis-mebusan-yetki-ve-akibet", baslik:"İlk Meclis-i Meb'ûsan'ın yetkisi ve kapatılması", tur:"sebep-sonuc",
   kisa:"Meclis kanun yapardı ama kanun TEKLİF edemezdi; hükümet ona değil padişaha karşı sorumluydu — ve bir yıl sonra süresiz tatile gönderildi.",
   metin:"■ MECLİSİN ASIL İŞİ\n"
     +"Meclisin esas görevi kanun yapmak ve yıllık bütçe kanununu inceleyip kabul etmekti. Ama kritik bir sınır vardı: yeni kanun teklif etme veya eskilerini değiştirme hakkı HÜKÜMETE aitti; mebusların bu hakkı kullanabilmesi PADİŞAHIN İZNİNE bağlıydı. Yani meclis yasa yapıcı değil, yasa onaylayıcıydı.\n\n"
@@ -479,7 +479,7 @@ window.EKOKUMA_P76B = [
 //          Paşa ve doğu cephesi · Ayastefanos · göç dalgası · Kıbrıs
 // ══════════════════════════════════════════════════════════════════════════
 
-{ id:"harp93-plevne-savunmasi", tur:"savas-hikayesi",
+{ id:"harp93-plevne-savunmasi", baslik:"Plevne savunması (1877) — beş ay süren direniş", tur:"savas-hikayesi",
   kisa:"Plevne'de bir kolordu, beş ay boyunca bir imparatorluk ordusunu durdurdu — ve kuşatma kırılınca savaşın tamamı beş haftada çöktü.",
   metin:"■ ÖNCESİ — ŞEHİR NİÇİN ÖNEMLİYDİ\n"
     +"Plevne, Sofya'dan Rusçuk üzerinden Bükreş'e ve Karadeniz limanı Varna'ya giden büyük kara ve demiryolunun üstündedir. Tuna'yı geçen bir ordunun Balkan geçitlerine yönelmesi için bu kavşağı kontrol etmesi gerekir. 1877'de burası boş kalırsa Rus ordusunun yan ve gerisi güvende olacaktı.\n\n"
@@ -495,7 +495,7 @@ window.EKOKUMA_P76B = [
   olay:["1877-07-19","1877-12-10"],
   kaynak:"TDV: gazi-osman-pasa (Metin Hülagü) · plevne (Machiel Kiel) · doksanuc-harbi (Mahir Aydın)" },
 
-{ id:"kimdir-gazi-osman-pasa", tur:"kimdir",
+{ id:"kimdir-gazi-osman-pasa", baslik:"Gazi Osman Paşa kimdir? Plevne'nin kahramanı", tur:"kimdir",
   kisa:"Teslim olan bir kumandana düşman çarı nişan verdi — ve kendi devleti ona, o güne kadar yalnız üç kişiye verilen unvanı verdi.",
   metin:"■ SAVAŞTAN ÖNCE\n"
     +"Osman Paşa'nın adı 1877'den önce de biliniyordu: Sırp Prensi Milan'ın 2 Temmuz 1876'da savaş ilân etmesi üzerine, Rus generallerinin kumanda ettiği Sırp ordusunu bozguna uğratan kumandan oydu. 1877 Nisanında Rusya savaş ilân ettiğinde Vidin'de Garp Ordusu kuvvetleri kumandanlığında bulunuyordu.\n\n"
@@ -511,7 +511,7 @@ window.EKOKUMA_P76B = [
   olay:["1877-07-19|Plevne","1877-12-10"],
   kaynak:"TDV: gazi-osman-pasa (Metin Hülagü) · abdulhamid-ii (Cevdet Küçük) · doksanuc-harbi (Mahir Aydın)" },
 
-{ id:"kimdir-gazi-ahmed-muhtar-pasa", tur:"kimdir",
+{ id:"kimdir-gazi-ahmed-muhtar-pasa", baslik:"Gazi Ahmed Muhtar Paşa kimdir? 93 Harbi'nin doğu cephesi", tur:"kimdir",
   kisa:"Doğu cephesinde üst üste dört zafer kazandı, sonra iki yenilgiyle geri çekildi ve Erzurum'un önünde halkla birlikte son bir zafer daha kazandı.",
   metin:"■ SAVAŞTAN ÖNCE\n"
     +"Otuz iki yaşında müşir olmuş, Yemen'de vali ve kumandanlık yapmış, Girit valiliğinde ve Erzurum valiliğinde bulunmuş tecrübeli bir askerdi. 8 Şubat 1877'de Dördüncü Ordu müşirliğiyle Anadolu Harp Ordusu başkumandanlığına tayin edildi ve 7 Nisan 1877'de Erzurum'a ulaşarak orduyu düzene koymaya çalıştı.\n\n"
@@ -529,7 +529,7 @@ window.EKOKUMA_P76B = [
   olay:["1877-11-18","1878-01-31"],
   kaynak:"TDV: gazi-ahmed-muhtar-pasa (Rifat Uçarol) · kars (Tufan Gündüz) · doksanuc-harbi (Mahir Aydın)" },
 
-{ id:"harp93-ayastefanos-ne-getirdi", tur:"sebep-sonuc",
+{ id:"harp93-ayastefanos-ne-getirdi", baslik:"Ayastefanos Antlaşması ne getirdi? (1878)", tur:"sebep-sonuc",
   kisa:"Ayastefanos, Rus ordusunun İstanbul'un hemen dışına taşıdığı karargâhta imzalandı ve Ege'ye uzanan bir Bulgaristan kurdu — dört ay yaşadı.",
   metin:"■ NASIL GELİNDİ\n"
     +"Plevne'nin düşmesi ve doğuda Kars'ın kaybıyla cepheler çöktü. 31 Ocak 1878'de imzalanan Edirne Mütarekesi'ne göre Erzurum Ruslara teslim edilecek, İstanbul Konferansı'nda belirtilen sınırlardan küçük olmamak şartıyla özerk bir Bulgaristan Emâreti kurulacak, Sırbistan, Karadağ ve Romanya'nın istiklâlleri tanınacak, savaş tazminatı ödenecek ve Boğazlarda Ruslara bazı imtiyazlar verilecekti. Barış görüşmeleri, Ruslar karargâhlarını Yeşilköy'e (Ayastefanos) taşıdıktan sonra orada sürdü ve 3 Mart 1878'de antlaşma imzalandı.\n\n"
@@ -543,7 +543,7 @@ window.EKOKUMA_P76B = [
   olay:["1878-03-03","1878-01-31"],
   kaynak:"TDV: ayastefanos-antlasmasi (Ali İhsan Gencer) · berlin-antlasmasi (Ali İhsan Gencer) · doksanuc-harbi (Mahir Aydın)" },
 
-{ id:"harp93-balkan-goc-dalgasi", tur:"sebep-sonuc",
+{ id:"harp93-balkan-goc-dalgasi", baslik:"93 Harbi'nin Balkan göç dalgası", tur:"sebep-sonuc",
   kisa:"Savaşın en kalıcı sonucu sınır değil nüfustu: Balkanlar'dan gelen muhacirlerin sayısı İstanbul'da yüz binlerle anılır oldu ve Anadolu'nun yerleşim haritası değişti.",
   metin:"■ NE OLDU\n"
     +"Savaşın sonunda özellikle Bulgaristan'daki Türk ahali, gerek öldürülmek gerekse göçe zorlanmak suretiyle yüzyıllarca vatan bildikleri topraklardan uzaklaştırıldı. Başvurulan kaynak bu hareketi \"tam bir Türk imhası\" diye niteler ve İstanbul'daki muhacirlerin sayısının yüz binlerle ifade edilir hâle geldiğini yazar.\n\n"
@@ -559,7 +559,7 @@ window.EKOKUMA_P76B = [
   olay:["1878-08-01","1878-03-03"],
   kaynak:"TDV: doksanuc-harbi (Mahir Aydın) · kars (Tufan Gündüz) · abdulhamid-ii (Cevdet Küçük) · bulgaristan (Mehmet İpşirli vd.). Dikkat: Toplam muhacir sayısı için rakam verilmemiş; \"yüz binlerle ifade edilir\" ifadesi aynen aktarıldı, sayı UYDURULMADI" },
 
-{ id:"harp93-kibris-ve-ingiltereye-yaslanma", tur:"sebep-sonuc",
+{ id:"harp93-kibris-ve-ingiltereye-yaslanma", baslik:"Kıbrıs'ın İngiltere'ye bırakılması (1878) — Berlin'in bedeli", tur:"sebep-sonuc",
   kisa:"Ayastefanos'tan kurtulmanın bedeli bir ada oldu: Kıbrıs'ın idaresi, Berlin'de alınacak destek karşılığında kongreden bir ay önce İngiltere'ye devredildi.",
   metin:"■ HESAP\n"
     +"Ayastefanos Antlaşması Osmanlı için kabul edilemez ağırlıktaydı ve tek kurtuluş yolu, antlaşmayı Avrupa'nın ortak masasına taşıyıp değiştirmekti. Bunu yapabilecek tek devlet, Rusya'nın Akdeniz'e inmesinden en çok rahatsız olan İngiltere'ydi. Ama İngiltere desteğini karşılıksız vermedi.\n\n"
@@ -579,7 +579,7 @@ window.EKOKUMA_P76B = [
 // H-0063 · "Hasta adam" tabiri — nasıl doğdu, ne işe yaradı
 // ══════════════════════════════════════════════════════════════════════════
 
-{ id:"hasta-adam-tabiri", tur:"tartisma",
+{ id:"hasta-adam-tabiri", baslik:"\"Hasta adam\" tabiri — kim, neden söyledi?", tur:"tartisma",
   kisa:"Tabiri bir düşman değil, mirası paylaşmak isteyen bir ortak kullandı: hasta ilân etmek, mirasın vaktinden önce konuşulmasını meşrulaştırıyordu.",
   metin:"■ OLAY NASIL VUKU BULDU\n"
     +"İfade, Rus Çarı I. Nikola'nın Ocak 1853'te Osmanlı Devleti için kullandığı bir benzetmedir. Söylendiği yer bir savaş meydanı ya da resmî bir nota değil, Rusya'daki İngiliz elçisiyle yapılan özel görüşmelerdir. Benzetmenin amacı bir teşhis koymak değil, bir TEKLİF açmaktı: hasta ölmeden önce mirasın nasıl paylaşılacağının konuşulması.\n\n"
@@ -602,7 +602,7 @@ window.EKOKUMA_P76B = [
 //    açmak yerine hüküm `once-cozuldu` olarak rapora yazıldı.
 // ══════════════════════════════════════════════════════════════════════════
 
-{ id:"mehdi-hareketi-sudan-1881", tur:"sebep-sonuc",
+{ id:"mehdi-hareketi-sudan-1881", baslik:"Sudan'da Mehdî hareketi (1881)", tur:"sebep-sonuc",
   kisa:"Sudan'da bir şeyh mehdîliğini ilân etti ve üzerine gönderilen her orduyu yendi — her zafer, taraftarlarının gözünde iddiasının yeni bir delili oldu.",
   metin:"■ MEHDÎ FİKRİ NEDİR\n"
     +"Mehdî inancı İslâm tarihinde yeni değildir ve pek çok siyasî hareket ondan güç almıştır: Kuzey Afrika'da Muvahhidler Devleti'nin kurucusu 1121'de Mağrib'de çıkması beklenen mehdî olduğunu söyleyerek davetini başlatmış, Hindistan'da 16. yüzyıldan sömürge dönemine kadar birçok mehdîlik iddiası ortaya çıkmıştı. Yani hareketin biçimi tanıdıktı; yeni olan, 19. yüzyıl sonunda Afrika'da bu fikrin SÖMÜRGECİLİĞE KARŞI kullanılmasıdır.\n\n"
@@ -620,7 +620,7 @@ window.EKOKUMA_P76B = [
   olay:["1883-01-19","1885-01-26"],
   kaynak:"TDV: sudan (Ahmet Kavas, Meral Avcı) · mehdilik (Mustafa Öz) · mehdi (Yusuf Şevki Yavuz, Ekrem Sarıkçıoğlu)" },
 
-{ id:"mehdi-devleti-1885-1899", tur:"sebep-sonuc",
+{ id:"mehdi-devleti-1885-1899", baslik:"Sudan Mehdî Devleti (1885-1899)", tur:"sebep-sonuc",
   kisa:"Kurucusunun ölümünden sonra da on dört yıl ayakta kaldı: Mehdî devleti, İngiliz-Mısır ordularının büyük harekâtına rağmen 1899'a kadar dayandı.",
   metin:"■ DEVLET NEREDEN NEREYE UZANIYORDU\n"
     +"Hartum'un alınmasıyla kurulan yapı, Kızıldeniz'den Dârfûr'a, Dongola'dan Bahrülgazâl'e kadar Mısır Sudanı'nın başlıca vilâyetlerini kapsıyordu. Bu, Nil'in yukarı havzasının tamamına yakınının Kahire ve İstanbul'un elinden çıkması demekti.\n\n"
@@ -644,7 +644,7 @@ window.EKOKUMA_P76B = [
 //    karşı anlatıyı da mevcut bir başka karta havale eder.
 // ══════════════════════════════════════════════════════════════════════════
 
-{ id:"ermeni-orgutleri-kurulus-sirasi", tur:"tartisma",
+{ id:"ermeni-orgutleri-kurulus-sirasi", baslik:"Ermeni örgütleri — Armenakan, Hınçak, Taşnak nasıl kuruldu?", tur:"tartisma",
   kisa:"Üç örgüt, üç ayrı şehirde, beş yıl içinde kuruldu: Van, Cenevre, Tiflis — ve üçü de Osmanlı toprağının dışında ya da kenarında doğdu.",
   metin:"■ SIRAYI DOĞRU KURMAK\n"
     +"Bu örgütler çoğu zaman tek bir yapı gibi anılır; oysa üç ayrı kuruluş, üç ayrı yer ve üç ayrı fikir dünyası söz konusudur.\n\n"
@@ -666,7 +666,7 @@ window.EKOKUMA_P76B = [
   olay:["1896-08-26"],
   kaynak:"Orhan Doğan, “Ermeni Komiteleri Hınçak ve Taşnaksütun (Rus Adalet Bakanı Y. Muravyev'in Ermeni Komitelerine İlişkin Raporu)”, Selçuk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi (Uras, Gürün, Süslü, Koçar ve Oganesyan'a atıflarla). Dikkat: TDV'de bu konuda madde `bulunamadı`: ermeniler · ermeni-mes-elesi · tasnaksutyun · hincak sluglarının hepsi ölü" },
 
-{ id:"ermeni-orgutleri-ne-yaptilar", tur:"tartisma",
+{ id:"ermeni-orgutleri-ne-yaptilar", baslik:"Ermeni örgütlerinin yöntemi ve hedefi", tur:"tartisma",
   kisa:"Örgütlerin yöntemi, kalabalık bir ayaklanma değil dikkat çeken eylemdi — hedef Osmanlı yönetimini devirmek değil, Avrupa'yı müdahaleye çağırmaktı.",
   metin:"■ YÖNTEMİN MANTIĞI\n"
     +"Bu örgütlerin eylem çizgisi, sayıca çok az oldukları için klasik bir ayaklanma mantığı üzerine kurulamazdı. Programlarını inceleyen literatür, amaçlarına ulaşmak için ihtilal, isyan ve tedhiş yöntemlerini ilke edindiklerini ve bir yandan eylem yaparken bir yandan da Osmanlı ülkesinde yaşayan Ermeni toplumunu toplu ayaklanmalara teşvik etmeye çalıştıklarını belirtir.\n\n"

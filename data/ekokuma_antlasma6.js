@@ -114,7 +114,7 @@ window.EKOKUMA_ANTLASMA6 = [
   metin:"Mübadele merasimi 16 Cemâziyelâhir 1206 (10 Şubat 1792) tarihinde yapılan on yedinci toplantıda icra edildi; böylece barış devletler hukuku açısından da kesinlik kazandı. Sonuç Osmanlı Devleti için ağırdı: Turla'dan sınır kesildi, toprak kaybedildi ve Kırım'ın geri alınması hayali sona erdi. Turla'dan sınır kesilmesinin 'Tuna'yı sınır kabul etmekle aynı' olduğunu söyleyen III. Selim'e, son bir zafer beklentisine rağmen barış kararı almaktan başka seçenek kalmamıştı.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1792-02-10|Yaş"],
+  olay:["1792-02-10|Yaş", "1792-01-27|Yaş"],
   kaynak:"TDV İslâm Ansiklopedisi, 'YAŞ ANTLAŞMASI' (19 Ağustos 1791 tâlimatı, 31 Ağustos 1791 Ziştovi tasdiknâme mübadelesi ve 7 Eylül'de Silistre; 10 Kasım 1791'de başlayan on beş oturum; Turla meselesi ve III. Selim'in değerlendirmesi; mukaddime-i sulhiyyenin beş maddesi; antlaşmanın mukaddime + on üç madde + hâtime yapısı; 11. ve 12. maddelerin mübadele hükmü; '16 Cemâziyelâhir 1206 (10 Şubat 1792) tarihinde yapılan on yedinci toplantıda gönderilen tasdiknâmelerin mübadele merasimi icra edildi, böylece barış devletler hukuku açısından da kesinlik kazandı'; 'Yaş Antlaşması ile Turla'dan sınır kesildi ve yine toprak kaybedilerek Kırım'ın geri alınması hayali sona erdi')",
   ic_not:"İmza günü (10 Ocak 1792) ile mübadele günü (10 Şubat 1792) AYRI maddelerdir; bu kart mübadele maddesine bağlıdır ve imza gününü yalnız bağlam olarak anar." },
 

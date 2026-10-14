@@ -676,7 +676,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"Antlaşma 4 Zilhicce 1205 / 4 Ağustos 1791'de imzalandı, 12 Ağustos'ta onaylandı ve 23 Ağustos'ta Ziştovi'de törenle değiş tokuş edildi. TDV'ye göre bütün savaş esirlerinin serbest bırakılması o güne kadar pek görülmemiş bir uygulamaydı. Barışın faturası ağırdı: görüşmelerin masrafı 600.000 kuruşa ulaştı ve aracı elçilere verilecek ikramiye nakit ödenemediğinden hazine tezkiresiyle karşılandı. Osmanlı-Rus savaşı ise Yaş Antlaşması'na (10 Ocak 1792) kadar sürdü. TDV, barışın Prusya'nın askerî baskısının eseri olduğunu, ama Avusturya'yı barışa yanaştıran en önemli etkenin Fransa'daki gelişmeler olduğunu da vurgular.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1791-08-04|Ziştovi","1790-12-30|Ziştovi","1791-07-18|Ziştovi","1791-08-12|Ziştovi"],
+  olay:["1791-08-04|Ziştovi","1790-12-30|Ziştovi","1791-07-18|Ziştovi","1791-08-12|Ziştovi", "1791-08-31|Ziştovi"],
   kaynak:"TDV: zistovi-antlasmasi (Kemal Beydilli — savaşın seyri, Reichenbach, Yergöğü mütarekesi, yer seçimi, heyetler, status quo tartışması, Herbert'in çekilmesi, 4 Ağustos 1791, esas metin ve ayrı senet, onay ve teati, masraf, önem) · TDV: prusya (Reichenbach, Ziştovi)",
   ic_not:"TDV 'Eski Hırsova' yazıyor; bu Tuna'daki Orsova'dır (Hırsova Dobruca'daki ayrı yer). Kartta kaynak ifadesi korunup parantez içinde 'Orsova' eklendi — bu parantez bir yorumdur." },
 
@@ -777,7 +777,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"Karar 1829-1832 arasındaki görüşme ve protokollerle uygulamaya kondu. Yeni devletin merkezi 1833'e kadar Anabolu'ydu, sonra Atina'ya taşındı ve eski Yunanistan'a atıfla Hellas adını aldı. TDV'ye göre bağımsız Yunan devleti, Osmanlı idaresindeki yaklaşık 2 milyonluk Rum nüfusun yarısından azını içeriyordu. Mora'daki Müslümanlar isyanın başında büyük kayıplar vermiş (Tripoliçe), İbrâhim Paşa'nın çekilmesinden sonra geride kalanlar da yok edilmişti.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1827-07-06|Londra Antlaşması","1830-02-03|Londra Protokolü"],
+  olay:["1827-07-06|Londra Antlaşması","1830-02-03|Londra Protokolü", "1829-05-01|İnebahtı", "1833-03-31|Atina"],
   kaynak:"TDV: yunanistan (Sakız yankısı, 4 Nisan 1826 Petersburg, 6 Temmuz 1827 Londra, Müslümanların çıkarılması maddesi ve değerlendirmesi, Navarin, 1828-1830, Anabolu-Atina, nüfus, Tripoliçe) · TDV: navarin (20 Ekim 1827 baskını, kayıplar) · TDV: mahmud-ii--osmanli (Navarin, Rus savaşı)",
   ic_not:"OKUR METNİNDEN TAŞINDI: protokolün öteki maddeleri TDV'de okunmadı. Osmanlı iki metnin de TARAFI DEĞİL (D111 yazılı madde için geçerli; burada var olan iki çekirdek maddeye kart bağlandı, yeni madde yazılmadı). TDV yunanistan 1827 metnine de 'Londra Protokolü' diyor; çekirdek 1827 maddesi 'Londra Antlaşması', 1830 maddesi 'Londra Protokolü'. 1830 protokolünün gününü (3 Şubat) TDV vermiyor; yalnız 'Osmanlı 1830'da tanımak zorunda kaldı'. Kartın `sonuc.t`i maddenin gününü taşıyor — kaynağı madde dosyası." },
 

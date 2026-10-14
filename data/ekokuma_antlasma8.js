@@ -102,7 +102,7 @@ window.EKOKUMA_ANTLASMA8 = [
   id: "antlasma8-bardo-1881",
   baslik: "Bardo Antlaşması (1881) — Tunus'un Fransız himayesine girişi",
   tur: "antlasma",
-  olay: ["1881-05-12|Bardo"],
+  olay: ["1881-05-12|Bardo", "1883-06-08|Mersâ"],
   metin: "TDV 'Tunus' maddesine göre Fransızlar, İtalyanlar'dan önce harekete geçip Tunus sınırındaki düzmece bir kavgayı bahane ederek 1881 Mart'ında Tunus'a asker sevkettiler ve 12 Mayıs 1881'de Tunus beyiyle Bardo Antlaşması'nı imzalayarak eyaleti kendi himayelerine aldıklarını duyurdular. Tunus resmen Fransa'nın idaresine ise 8 Haziran 1883 tarihli Mersâ Antlaşması'yla girdi. TDV ayrıca Tunus'un bundan sonra Osmanlı salnâmelerinde 'eyâlet-i mümtâze' diye yer aldığını kaydeder.",
   kesinlik: "kesin",
   kaynak: "TDV: tunus (1881 Mart askerî sevki; 12 Mayıs 1881 Bardo Antlaşması; 8 Haziran 1883 Mersâ Antlaşması; salnâmelerde 'eyâlet-i mümtâze')",

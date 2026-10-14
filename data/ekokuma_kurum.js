@@ -43,7 +43,7 @@
 window.EKOKUMA_KURUM = [
 
 // ── H-0031 · Osmanlı devlet kademeleri ──────────────────────────────────────
-{ id:"teknik-osmanli-devlet-kademeleri", tur:"teknik-bilimsel",
+{ id:"teknik-osmanli-devlet-kademeleri", baslik:"Osmanlı devlet kademeleri — vezirlikten şeyhülislâmlığa", tur:"teknik-bilimsel",
   kisa:"Vezirlikten şeyhülislamlığa: bir memurun kaç basamak tırmanması gerekirdi ve her basamağın adı neydi?",
   metin:"Osmanlı merkez teşkilatı iki koldan yürürdü — seyfiye/mülkiye (kılıç ve kalem eliyle idare) ile ilmiye (şer'î bilgiyle idare) — ve her kolun kendi kademe merdiveni vardı.\n\n"
     +"■ VEZİR VE SADRAZAM\n"
@@ -63,7 +63,7 @@ window.EKOKUMA_KURUM = [
   kaynak:"TDV: vezir · kazasker · defterdar · seyhulislam · kethuda" },
 
 // ── H-0032 · Osmanlı idari yapısı ve değişimi ───────────────────────────────
-{ id:"teknik-osmanli-idari-yapi-degisimi", tur:"teknik-bilimsel",
+{ id:"teknik-osmanli-idari-yapi-degisimi", baslik:"Osmanlı idarî yapısı nasıl değişti? Divandan Bâbıâli'ye", tur:"teknik-bilimsel",
   kisa:"Bir devlet üç asır boyunca aynı çatı altında toplandı, sonra o çatı sessizce boşaldı — karar mekanizması aynı sarayın içinde bir avludan ötekine taşındı.",
   metin:"■ DİVAN-I HÜMAYUN — DEVLETİN TEK MASASI\n"
     +"15. yüzyıl ortasından 17. yüzyıl başına kadar Osmanlı idaresinin en üst karar organı Divan-ı Hümayun'du: sadrazam, üç-yedi kubbealtı veziri, kazaskerler, nişancı ve defterdarlar aynı toplantıda otururdu — şeyhülislamın divanda resmî bir koltuğu yoktu. Divan hem yürütme organı hem de en yüksek mahkemeydi; statüsü ne olursa olsun herkes doğrudan dilekçeyle başvurabilir, görevliler her şikâyeti dinlemek zorundaydı — bu açıklık Batılı gözlemcileri hayrete düşürürdü. Kararlar kesinleşmeden önce padişaha 'arza çıkar', yani bizzat sunulurdu; toplantılar sarayın ikinci avlusunda katı bir törenle yürütülürdü.\n\n"
@@ -81,7 +81,7 @@ window.EKOKUMA_KURUM = [
   kaynak:"TDV: divan-i-humayun" },
 
 // ── H-0051 · Narh defterleri ─────────────────────────────────────────────────
-{ id:"teknik-narh-defterleri", tur:"teknik-bilimsel",
+{ id:"teknik-narh-defterleri", baslik:"Narh defterleri — fiyatı kim belirlerdi?", tur:"teknik-bilimsel",
   kisa:"Bir loncanın ustası ile kadı aynı masada oturup ekmeğin fiyatına karar verirdi — ve kışın süt fiyatı yazın verdiğinden başka olurdu.",
   metin:"■ NE İÇİN VARDI\n"
     +"Narh, temel mal ve hizmetlere üst fiyat sınırı koyan bir devlet uygulamasıydı; amacı halkın (özellikle gıda maddelerinde) makul fiyattan alışverişini güvenceye almaktı.\n\n"
@@ -98,7 +98,7 @@ window.EKOKUMA_KURUM = [
   kaynak:"TDV: narh" },
 
 // ── H-0052 · Tahrir defterleri ───────────────────────────────────────────────
-{ id:"teknik-tahrir-defterleri", tur:"teknik-bilimsel",
+{ id:"teknik-tahrir-defterleri", baslik:"Tahrir defterleri — imparatorluk kendini nasıl sayardı?", tur:"teknik-bilimsel",
   kisa:"Bir imparatorluk otuz yılda bir kendini yeniden sayardı — kim öldü, kim büyüdü, hangi tarla kimin elinde: bugün elimizdeki en eski kayıt 1431'den.",
   metin:"■ AMAÇ\n"
     +"Tahrir, vergi mükelleflerini ve yükümlülüklerini kaydetmek için yapılan sayımdı; devletin reâyânın nerede yaşadığını, ne işle uğraştığını, mal ve ürün kaynaklarını bilmesini sağlardı.\n\n"
@@ -115,7 +115,7 @@ window.EKOKUMA_KURUM = [
   kaynak:"TDV: tahrir" },
 
 // ── H-0055 · Osmanlı eğitim sistemi ─────────────────────────────────────────
-{ id:"teknik-osmanli-egitim-sistemi", tur:"teknik-bilimsel",
+{ id:"teknik-osmanli-egitim-sistemi", baslik:"Osmanlı eğitim sistemi — medrese ve basamakları", tur:"teknik-bilimsel",
   kisa:"Bir öğrencinin kaç akçelik hocadan ders aldığı, hangi kitabı okuduğu kadar önemliydi — ve bu merdiven onu ya kadılığa ya müderrisliğe çıkarırdı.",
   metin:"■ ÜÇ ÖLÇÜT, TEK HİYERARŞİ\n"
     +"Osmanlı medreseleri üç eksende sıralanırdı: okutulan esas kitaba göre (Tecrîd, Miftâh, Telvîh medreseleri…), müderrisin günlük yevmiyesine göre (yirmi ile altmış akçe arası) ve kurumsal statüye göre. 1470'te kurulan Sahn-ı Semân (Sekiz Avlu) ve Tetimme medreseleri zirveyi oluşturuyordu; 18. yüzyıla gelindiğinde basamaklar iyice karmaşıklaşmış, ibtidâ-i hâric'ten dârülhadise uzanan uzun bir merdiven doğmuştu.\n\n"
@@ -130,7 +130,7 @@ window.EKOKUMA_KURUM = [
   kaynak:"TDV: medrese" },
 
 // ── H-0056 · Osmanlı hukuk sistemi ──────────────────────────────────────────
-{ id:"teknik-osmanli-hukuk-sistemi", tur:"teknik-bilimsel",
+{ id:"teknik-osmanli-hukuk-sistemi", baslik:"Osmanlı hukuk sistemi — kadı, şeriat ve kanun", tur:"teknik-bilimsel",
   kisa:"Bir kadı aynı anda hem şeriatın hem padişahın kanununun adamıydı — ve mahkemesi çarşıyı, yetimin malını, kale bakımını da kapsardı.",
   metin:"■ İKİ KAYNAK, TEK UYGULAYICI\n"
     +"Osmanlı hukuku iki katmanlıydı: değişmez kabul edilen şer'î hukuk (şeriat) ve padişahın ihtiyaca göre çıkardığı kanun/kanunnâme (örfî hukuk). Bu ikisini aynı anda uygulayan görevli kadıydı — kaynağın kendi tabiriyle 'şer'î hukuk adamı ama aynı zamanda mülkî erkândan biri'.\n\n"
@@ -145,7 +145,7 @@ window.EKOKUMA_KURUM = [
   kaynak:"TDV: kadi · seyhulislam" },
 
 // ── H-0075 · İltizam sistemi ─────────────────────────────────────────────────
-{ id:"teknik-iltizam-sistemi", tur:"teknik-bilimsel",
+{ id:"teknik-iltizam-sistemi", baslik:"İltizam sistemi — vergiyi satışa çıkaran devlet", tur:"teknik-bilimsel",
   kisa:"Devlet vergiyi kendi toplamadı, satışa çıkardı — ve bu satış modeli bir asır sonra kendi krizini üretince, devlet aynı işi 'ömür boyu' satmaya başladı.",
   metin:"■ İLTİZAMIN İŞLEYİŞİ\n"
     +"Klasik iltizamda bir bölgenin vergi toplama hakkı açık artırmayla (müzayede) satılırdı; süre kısaydı, genelde bir-üç yıllık bir 'tahvil' dönemi (mukātaa) kapsardı. Mültezim (yüklenici) devlete peşin ya da taksitli bir bedel taahhüt eder, karşılığında o bölgenin vergisini toplayıp elinde tutardı.\n\n"
@@ -160,7 +160,7 @@ window.EKOKUMA_KURUM = [
   kaynak:"TDV: malikane" },
 
 // ── H-0085 · Osmanlı'da doğrudan-olmayan yönetim statüleri ──────────────────
-{ id:"teknik-osmanli-tabi-statu-listesi", tur:"teknik-bilimsel",
+{ id:"teknik-osmanli-tabi-statu-listesi", baslik:"Osmanlı'ya tâbi topraklar ve statüleri", tur:"teknik-bilimsel",
   kisa:"Osmanlı toprakları tek renkte boyanmazdı — Eflak'tan Kırım'a, her birinin kendi sözleşmesi, kendi vergisi, kendi hükümdar seçme usulü vardı.",
   metin:"Aşağıdaki beş bölge, klasik dönemde doğrudan sancak/eyalet idaresi ALTINDA DEĞİL, kendine özgü bir bağ şekliyle Osmanlı'ya bağlıydı — beşi de kaynağa göre, beşi de ayrı ayrı:\n\n"
     +"■ EFLAK (1373'ten) — TÂBİ VOYVODALIK\n"
@@ -180,7 +180,7 @@ window.EKOKUMA_KURUM = [
   kaynak:"TDV: eflak · bogdan · erdel · kirim · hicaz" },
 
 // ── H-0086 · Eflak-Boğdan-Erdel'in iç/dış hakları ───────────────────────────
-{ id:"teknik-eflak-bogdan-erdel-haklari", tur:"teknik-bilimsel",
+{ id:"teknik-eflak-bogdan-erdel-haklari", baslik:"Eflak, Boğdan ve Erdel'in hakları ve yükümlülükleri", tur:"teknik-bilimsel",
   kisa:"Bu üç voyvodalık ne tam bağımsızdı ne bir Osmanlı sancağı — aradaki çizgi vergide, orduda ve prensin kimin onayıyla tahta çıktığında duruyordu.",
   metin:"Genel listeye ek olarak, üç Balkan/Karpat voyvodalığının somut yetki paylaşımı:\n\n"
     +"■ İÇ İŞLER\n"
@@ -198,7 +198,7 @@ window.EKOKUMA_KURUM = [
   kaynak:"TDV: eflak · bogdan · erdel" },
 
 // ── H-0091a · Osmanlı tarihçiliğinin kaynakları (genel) ─────────────────────
-{ id:"teknik-osmanli-tarihciligi-kaynaklari", tur:"teknik-bilimsel",
+{ id:"teknik-osmanli-tarihciligi-kaynaklari", baslik:"Osmanlı tarihçiliği ve kaynakları", tur:"teknik-bilimsel",
   kisa:"Bu atlasın kronolojisi boşluktan gelmiyor — arkasında adı bilinen, yöntemi tartışılan, kimi zaman birbirini çürüten bir vakanüvisler zinciri var.",
   metin:"Osmanlı tarihinin yazılı hafızası, sarayın resmî görevlendirdiği vakanüvislerden bağımsız kalemlere kadar geniş bir yelpazeye dayanır. Bu ek okumada okunan üç isim, üç farklı çağı ve üç farklı yöntemi temsil eder — her birinin kendi kartı ayrıca var:\n\n"
     +"■ NEŞRÎ (ö. 1520) — İLK ELEŞTİREL BAKIŞ\n"
@@ -248,7 +248,7 @@ window.EKOKUMA_KURUM = [
   kaynak:"TDV: cevdet-pasa" },
 
 // ── H-0093 · Cezayir'de dayı idaresi ────────────────────────────────────────
-{ id:"teknik-cezayir-dayilik", tur:"teknik-bilimsel",
+{ id:"teknik-cezayir-dayilik", baslik:"Cezayir'de dayılık — İstanbul'un atadığı paşadan ocağın seçtiği daya", tur:"teknik-bilimsel",
   kisa:"İstanbul'un atadığı bir yönetici sonunda göreve hiç gelemez oldu — Cezayir'de asıl gücü kendi seçtikleri dayılar toplamıştı.",
   metin:"■ OSMANLI HÂKİMİYETİNİN BAŞLANGICI (1516'dan)\n"
     +"Cezayir halkı İspanyol işgaline karşı yardım istedi; kardeşler Oruç ve Hızır (Barbaros) Reis 1516'da Cezayir'i aldı. Hayreddin Barbaros, Osmanlı padişahının desteğini alıp şehirde onun adına hutbe okutarak bölgeyi resmen Osmanlı idaresine bağladı.\n\n"
@@ -269,7 +269,7 @@ window.EKOKUMA_KURUM = [
   kaynak:"TDV: cezayir" },
 
 // ── H-0094 · Osmanlı-Fas ilişkileri ─────────────────────────────────────────
-{ id:"teknik-osmanli-fas-iliskileri", tur:"teknik-bilimsel",
+{ id:"teknik-osmanli-fas-iliskileri", baslik:"Osmanlı-Fas ilişkileri", tur:"teknik-bilimsel",
   kisa:"Osmanlı bir Fas şehrini dokuz ay elinde tuttu, sonra hiç geri dönmedi — geri kalan üç asır elçi ve hediye alışverişiyle geçti.",
   metin:"■ TEK KISA İŞGAL — FAS ŞEHRİ, 1554\n"
     +"Osmanlılar Fas'ı (Fez'i) hiçbir zaman kalıcı biçimde ele geçirmedi. Tek somut askerî varlık, komutan Sâlih Paşa yönetimindeki kuvvetlerin 1554'te Fas şehrini alıp yalnız dokuz ay elde tutmasıdır.\n\n"

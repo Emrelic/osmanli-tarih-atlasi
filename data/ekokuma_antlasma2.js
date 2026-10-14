@@ -34,7 +34,7 @@ window.EKOKUMA_ANTLASMA2 = [
 
 // ── 1555 AMASYA ─────────────────────────────────────────────────────────────
 {
-  id: "antlasma-amasya-1555",
+  id: "antlasma-amasya-1555", baslik:"Amasya Antlaşması (1555) — hükümler",
   tur: "antlasma",
   olay: ["1555-05-29","1554-09-26|Osmanlı–Safevî mütarekesi"],
   metin: "TDV'ye göre Amasya barışı madde madde imzalanmış bir metinden çok, Kanûnî'nin Şah Tahmasb'a gönderdiği cevap mektubuna dayanır; antlaşmanın esaslarını belirleyen bu mektup Safevî elçisine divanda 1 Haziran 1555'te verildi. Üç temel hüküm: ① Safevî elçisi, İran'da ilk üç halifeye, sahabeye ve Hz. Âişe'ye lanet okuma törenlerinin (teberrâîlik) yasaklanacağına dair teminat verdi. ② Karşı taraftan bir saldırı gelmedikçe Osmanlı sınır beyleri İran'a karşı harekete geçmeyecekti. ③ Kutsal yerleri ziyarete gidecek İranlı hacıların Osmanlı topraklarından geçmesine izin verildi. Metin sınırları tek tek saymasa da antlaşma; Basra, Bağdat, Şehrizor, Van, Bitlis, Erzurum, Kars ve Atabegler yurdu üzerindeki Osmanlı hâkimiyetinin Safevîlerce tanınması anlamına geliyordu. Barış, Tahmasb'ın ölümünden sonra II. İsmâil tahta çıkana kadar yaklaşık yirmi beş yıl yürürlükte kaldı.",
@@ -63,7 +63,7 @@ window.EKOKUMA_ANTLASMA2 = [
 
 // ── 1606 ZİTVATOROK ─────────────────────────────────────────────────────────
 {
-  id: "antlasma-zitvatorok-1606",
+  id: "antlasma-zitvatorok-1606", baslik:"Zitvatorok Antlaşması (1606) — hükümler",
   tur: "antlasma",
   olay: ["1606-11-11"],
   metin: "Görüşmeler Zsitva'nın Tuna'ya karıştığı yerde 29 Ekim 1606'da başladı ve antlaşma 11 Kasım 1606'da imzalandı; Osmanlı tarafını Budin Beylerbeyi Kadızâde Ali Paşa temsil etti. TDV'nin saydığı başlıca hükümler: ① Habsburg imparatoru ile padişah arasında baba-oğul ilişkisi kuruldu; Osmanlılar bundan sonra Habsburg hükümdarı için 'Beç kralı' yerine imparator (çasar/kayzer) unvanını kullanacaktı. ② Savaş sırasında hangi taraf nereyi aldıysa orası onda kaldı; Eğri, Kanije ve Estergon Osmanlı'da kaldı, ancak imparatorun elçileri onay aşamasında Kanije'yi isteyebilecekti. ③ Habsburglar yıllık vergi ödemeyecek, bir defaya mahsus 200.000 kuruş değerinde hediye gönderecekti. ④ Kale işgal etmek ve esir almak yasaklandı, eldeki esirler iade edilecekti. ⑤ Osmanlı'ya bağlı köylerin vergisini Osmanlı memurları değil köy muhtarları toplayacak, krala vergi vermeyen soylular Osmanlı'ya da vermeyecekti. ⑥ Habsburg imparatoru ile Macarlar arasındaki Viyana barışının kararları tanındı. ⑦ Barış yirmi yıl için yapıldı. Tarafların elindeki metinler birbirini tutmuyordu (Vác Kalesi, köylünün vergi ödeme biçimi, geri alınan yerlerdeki vergiler); İstanbul'da sunulan metin, Habsburgların üç yıl sonra yeniden vergi ödeyeceğini ve Erdel'in Osmanlı hâkimiyetinde olduğunu da yazıyordu. Habsburgların istediği metin ancak padişahın barışı 1615'te yeniden onaylamasıyla tanındı.", ic_not_metin:"eski önek: ⚠️",
@@ -92,7 +92,7 @@ window.EKOKUMA_ANTLASMA2 = [
 
 // ── 1639 KASR-I ŞİRİN ───────────────────────────────────────────────────────
 {
-  id: "antlasma-kasr-i-sirin-1639",
+  id: "antlasma-kasr-i-sirin-1639", baslik:"Kasr-ı Şirin Antlaşması (1639) — hükümler",
   tur: "antlasma",
   olay: ["1639-05-17"],
   metin: "Müzakereler Kasr-ı Şirin yakınında, dağ eteğindeki Zühâb'da 14 Mayıs 1639'da başladı, üç gün sürdü ve antlaşma 17 Mayıs'ta imzalandı; bu yüzden bazı kaynaklar onu Zühâb Antlaşması diye anar. Başlıca hükümler (TDV): ① Irâk-ı Arab denilen Bağdat, Basra ve Şehrizor bölgesi Osmanlı'da kaldı. ② Revan Safevîlere bırakıldı. ③ Safevîlerin Irak'a ve Kars, Ahıska, Van yönüne saldırıları önlenecekti. ④ Safevîler Osmanlı'nın Basra körfezindeki hâkimiyetini kabul etti. Görüşmelerden önce Sadrazam Kemankeş Kara Mustafa Paşa, Kars'ın İran'a verilmesi karşılığında önerilen barışı reddetmişti. IV. Murad İstanbul'a dönmüş olduğu için metin Safevî elçisi Muhammed Kulı Han tarafından İstanbul'a götürüldü ve antlaşma 1639 Kasımı sonunda kesin olarak onaylandı. TDV, iki devlet arasındaki 2185 km'lik sınırın yalnız Ağrı Dağı ile Şattülarap arasındaki 1296 km'lik kısmının tartışmalı olduğunu kaydeder.",
@@ -121,7 +121,7 @@ window.EKOKUMA_ANTLASMA2 = [
 
 // ── 1739 BELGRAD ────────────────────────────────────────────────────────────
 {
-  id: "antlasma-belgrad-1739",
+  id: "antlasma-belgrad-1739", baslik:"Belgrad Antlaşması (1739) — hükümler",
   tur: "antlasma",
   olay: ["1739-09-18", "1739-10-03"],
   metin: "Hükümler, TDV İslâm Ansiklopedisi'nin Avusturya, Rusya, Sırbistan ve Belgrad maddelerinden derlenmiştir. AVUSTURYA ile: ① Avusturya, 1718 Pasarofça'da kazandığı yerleri — Banat hariç — geri verdi. ② Belgrad Osmanlı'ya teslim edildi; Avusturya'ya geçmiş olan Kuzey Sırbistan'ın bir kısmı yeniden Osmanlı yönetimine girdi. RUSYA ile: ③ Rusya, savaşın sonlarında ele geçirdiği Özi'yi ve Hotin'i, işgal ettiği Boğdan'la birlikte terk etti. ④ Azak Kalesi yıkılacak ve bulunduğu bölge iki tarafın da uzak duracağı 'boş arazi' sayılacaktı; TDV bunu Osmanlı için önemli bir kazanım olarak değerlendirir.", ic_not_metin:"eski: TDV'de bu antlaşmanın müstakil maddesi bulunamadı (belgrad-antlasmasi adresi ölü); hükümler … maddelerinden toplandı.",
@@ -150,7 +150,7 @@ window.EKOKUMA_ANTLASMA2 = [
 
 // ── 1792 YAŞ ────────────────────────────────────────────────────────────────
 {
-  id: "antlasma-yas-1792",
+  id: "antlasma-yas-1792", baslik:"Yaş Antlaşması (1792) — hükümler",
   tur: "antlasma",
   olay: ["1792-01-10","1792-01-09|Yaş","1792-01-18|Yaş"],
   metin: "On üç madde, bir giriş ve bir kapanıştan oluşan antlaşma 10 Ocak 1792'de Yaş'ta Rusça ve Türkçe metinler hâlinde mühürlenip değiştirildi. Temeli, Kalas'ta kabul edilen beş maddelik ön barıştı (mukaddime-i sulhiyye). Başlıca hükümler (TDV): ① 1774 Küçük Kaynarca Antlaşması geçerli sayıldı. ② Turla (Dinyester) nehri sınır oldu: sol kıyısı Rusya'ya, sağ kıyısı Osmanlı'ya ait olacaktı. ③ Rusya'nın işgal ettiği Eflak ve Boğdan, önceki antlaşmalarla tanınan imtiyazları teyit edilerek iade edildi; halk savaşın yıkımı yüzünden iki yıl vergiden muaf tutulacak, göç eden aileler dönebilecek, Bucak dâhil bölgedeki kaleler Osmanlı'ya bırakılacaktı. ④ Öteki bölgelerde sınırlar savaş öncesine döndü. ⑤ Kuban bölgesinden Rus topraklarına saldırı olursa gasp edilen mallar ve esirler bulunup iade edilecek, sorumlular cezalandırılacak, zarar ödenecekti; Rusya bölge için istediği 'serbestî' ve askerî müdahale hakkından vazgeçti. ⑥ Tiflis hanının topraklarına saldırılmayacaktı. ⑦ Garp Ocakları korsanlarının Rus gemilerine verdiği zarar, başvurudan sonra en geç iki ay içinde ödenecekti. ⑧ Esirler serbest bırakıldı; işgal altındaki yerler 15 Mayıs'a kadar boşaltılacak ve karşılıklı büyükelçilik heyetleri gönderilecekti. Bir talep ise düştü: Rusya 12 milyon kuruşluk (24.000 kese) savaş tazminatı istiyordu; İstanbul'daki meclis taksitle ödemeyi kabul etmeye karar vermişti, fakat Kuban maddesinde uzlaşılınca Bezborodko çariçenin tazminattan tamamen vazgeçtiğini ilan etti.", ic_not_metin:"eski: 🔴 Ve bir talep düştü:",
@@ -182,9 +182,9 @@ window.EKOKUMA_ANTLASMA2 = [
 
 // ── 1812 BÜKREŞ ─────────────────────────────────────────────────────────────
 {
-  id: "antlasma-bukres-1812",
+  id: "antlasma-bukres-1812", baslik:"Bükreş Antlaşması (1812) — hükümler",
   tur: "antlasma",
-  olay: ["1812-05-28"],
+  olay: ["1812-05-28", "1812-12-19|Faş"],
   metin: "Hükümler, TDV İslâm Ansiklopedisi'nin Boğdan, Rusya ve Sırbistan maddelerinden derlenmiştir. ① Prut nehri Osmanlı-Rus sınırı oldu. ② Boğdan'ın doğu kısmı, en önemli yerleri olan Akkirman, Kili ve Bender ile birlikte Rusya'ya bırakıldı; Rusların Besarabya adını verdiği bu bölge 1918'e kadar 106 yıl Rus yönetiminde kaldı. ③ 1804'ten beri ayaklanma hâlindeki Sırplara kısmî özerklik verilmesi kabul edildi. TDV'nin Rusya maddesi, Napolyon'un Moskova seferine çıkması yüzünden savaşın pek ağır olmayan şartlarla sona erdiğini yazar.", ic_not_metin:"eski: TDV'de bu antlaşmanın müstakil maddesi bulunamadı (bukres-antlasmasi adresi ölü); hükümler … maddelerinden toplandı.",
   kesinlik: "kesin",
   kaynak: "TDV: bogdan · rusya · sirbistan", ic_not_kaynak:"eski kaynak: TDV: bogdan · rusya · sirbistan (gövde okundu; müstakil madde bulunamadı)"
@@ -211,7 +211,7 @@ window.EKOKUMA_ANTLASMA2 = [
 
 // ── 1829 EDİRNE ─────────────────────────────────────────────────────────────
 {
-  id: "antlasma-edirne-1829",
+  id: "antlasma-edirne-1829", baslik:"Edirne Antlaşması (1829) — hükümler",
   tur: "antlasma",
   olay: ["1829-09-14"],
   metin: "Antlaşma asıl metin, ona ekli bir sözleşme ve bir senetten oluşuyordu; on altı maddelik metin 'ebedî barış'tan söz ediyordu. Başlıca hükümler (TDV): ① Rumeli'de sınır Prut ve Tuna boyunca uzanıp Hızırilyas ağzında Karadeniz'e ulaştı; Tuna kolları arasındaki Yılan adaları Rusya'da kaldı, ama orada karantina dışında istihkâm yapılmayacak, nehrin Osmanlı'ya ait sağ kıyısı da iskân edilmeyecekti. ② Osmanlı, Rusya'nın Erivan ve Nahcıvan hanlıklarını ilhakını tanıdı; Ahıska ve Ahılkelek Rusya'ya bırakıldı (md. 2-4). ③ Eflak ve Boğdan kendi ayrı idarelerine kavuştu, Rusya iki prensliğin refahına kefil oldu; ek senede göre voyvodalar yerli boyarlarca ömür boyu seçilecek, halk Rusların çekilmesinden sonra iki yıl vergiden muaf olacaktı (md. 5). ④ Akkerman Antlaşması'nın Sırbistan hükümleri uygulanacak, Sırbistan'dan ayrılmış altı nahiye geri verilecekti (md. 6). ⑤ Boğazlar, Rus ticaret gemilerine ve Osmanlı ile savaşta olmayan devletlerin Rus limanlarına giden ticaret gemilerine açık olacaktı (md. 7). ⑥ Rus tüccarlarının 1806 savaşındaki zararı için on sekiz ayda dört taksitle 1,5 milyon Macar altını; savaş tazminatı olarak da Ahıska, Ahılkelek, Anapa ve Poti gibi kalelerle birlikte 10 milyon Macar altını ödenecekti (md. 9). ⑦ Osmanlı, üç devletin Yunanistan hakkındaki anlaşmalarını, yani Yunanistan'ın bağımsızlığını kabul etti (md. 10). ⑧ Eflak, Boğdan ve Silistre savaş tazminatı bitene kadar rehin olarak Rus işgalinde kalacaktı (md. 11 ve ek sözleşme).",
@@ -240,7 +240,7 @@ window.EKOKUMA_ANTLASMA2 = [
 
 // ── 1856 PARİS ──────────────────────────────────────────────────────────────
 {
-  id: "antlasma-paris-1856",
+  id: "antlasma-paris-1856", baslik:"Paris Antlaşması (1856) — hükümler",
   tur: "antlasma",
   olay: ["1856-03-30"],
   metin: "Otuz dört maddelik antlaşma 30 Mart 1856'da imzalandı, onaylar 27 Nisan'da değiştirildi; Osmanlı'yı Sadrazam Âlî Paşa ve Paris sefiri Mehmed Cemil Bey temsil etti. Başlıca hükümler (TDV): ① İmzacı devletler Osmanlı'nın bağımsızlığını ve toprak bütünlüğünü ortak çıkarlarının ayrılmaz parçası saydıklarını ilan etti; Osmanlı Avrupa devletler sisteminin eşit üyesi kabul edildi ve Avrupa hukukundan yararlanacaktı. ② Karadeniz tarafsız ve silahsız hâle getirildi; orada bulundurulacak gemilerin sayısı ve niteliği Rusya ile Osmanlı arasında sonra belirlenecekti. ③ Tuna uluslararası statüye kondu; nehirde serbest gemi işletmeciliği, kıyı devletlerinin temsilcilerinden oluşan daimî bir komisyona bırakıldı. ④ Eflak ve Boğdan'ı tek devlet yapma önerisi Osmanlı ve Avusturya'nın itirazıyla reddedildi; iki prenslik Bâbıâli'nin verdiği imtiyazlarla eski hâliyle kaldı. ⑤ Rusya işgal ettiği Kars'ı iade etti; bu iade, Rusya'nın Besarabya'dan toprak bırakması meselesiyle birlikte pazarlık edildi. ⑥ 18 Şubat 1856 Islahat Fermanı antlaşmanın 9. maddesinde anıldı; Bâbıâli fermanın antlaşmaya bir 'senet' olarak girmesine karşı çıktı ve ifadeyi yalnız fermanın 'yüksek değerinin takdir edildiği' biçimine çevirebildi. ⑦ Antlaşma 1774 Küçük Kaynarca Antlaşması'nı yürürlükten kaldırdı. Âlî Paşa'nın gündeme getirdiği kapitülasyonların kaldırılması ise sağlanamadı; yalnız destek vaadi alındı.", ic_not_metin:"eski önek: ⚠️",
@@ -270,7 +270,7 @@ window.EKOKUMA_ANTLASMA2 = [
 // ══ PAKET-A2 (13 Eylül 2026) · paket 0045 H-0009 — ANTLAŞMA KARTLARI, DALGA 3 ═════════
 // Rapor: denetim/PAKET-A2-EKOKUMA-0913.md. Telif: denetim/ARAC-A2-KOPYA-0913.js.
 {
-  "id": "antlasma-istanbul-1700",
+  "id": "antlasma-istanbul-1700", "baslik": "İstanbul Antlaşması (1700) — Rusya ile kalıcı barış",
   "tur": "antlasma",
   "olay": [
     "1700-07-03|İstanbul Antlaşması",
@@ -282,7 +282,7 @@ window.EKOKUMA_ANTLASMA2 = [
 },
 
 {
-  "id": "antlasma-ferhad-pasa-istanbul-1590",
+  "id": "antlasma-ferhad-pasa-istanbul-1590", "baslik": "Ferhad Paşa Antlaşması (1590) — hükümler",
   "tur": "antlasma",
   "olay": [
     "1590-03-21",
@@ -294,7 +294,7 @@ window.EKOKUMA_ANTLASMA2 = [
 },
 
 {
-  "id": "antlasma-prut-1711",
+  "id": "antlasma-prut-1711", "baslik": "Prut Antlaşması (1711) — hükümler",
   "tur": "antlasma",
   "olay": [
     "1711-07-21|Azak ve Taygan"
@@ -305,7 +305,7 @@ window.EKOKUMA_ANTLASMA2 = [
 },
 
 {
-  "id": "antlasma-hunkar-iskelesi-1833",
+  "id": "antlasma-hunkar-iskelesi-1833", "baslik": "Hünkâr İskelesi Antlaşması (1833) — hükümler",
   "tur": "antlasma",
   "olay": [
     "1833-07-08"
@@ -316,7 +316,7 @@ window.EKOKUMA_ANTLASMA2 = [
 },
 
 {
-  "id": "antlasma-ayastefanos-1878",
+  "id": "antlasma-ayastefanos-1878", "baslik": "Ayastefanos Antlaşması (1878) — hükümler",
   "tur": "antlasma",
   "olay": [
     "1878-03-03",
@@ -328,7 +328,7 @@ window.EKOKUMA_ANTLASMA2 = [
 },
 
 {
-  "id": "antlasma-mondros-1918",
+  "id": "antlasma-mondros-1918", "baslik": "Mondros Mütarekesi (1918) — hükümler",
   "tur": "antlasma",
   "olay": [
     "1918-10-30|Mondros Mütarekesi"
@@ -395,7 +395,7 @@ window.EKOKUMA_ANTLASMA2 = [
 // Mevcut hüküm kartları (data/ekokuma.js) TEKRARLANMADI; yalnız onlarda olmayan hükümler eklendi.
 
 // ── 1664 VASVAR ─────────────────────────────────────────────────────────────
-{ id:"antlasma-vasvar-1664", tur:"antlasma",
+{ id:"antlasma-vasvar-1664", baslik:"Vasvar Antlaşması (1664) — hükümler", tur:"antlasma",
   olay:["1664-08-09","1664-08-09|Vasvár"],
   metin:"On madde, Türkçe ve Latince iki nüsha. ① Osmanlı ve Habsburg birlikleri Erdel'den aynı anda çekilecek, Erdel'deki imparatorluk garnizonları ülkeyi terk edecek, Erdel prensi serbest seçimle belirlenecekti. ② Szatmár ve Szabolcs bölgeleri Habsburg yönetimine bağlandı. ③ Székelyhíd Kalesi bir daha kullanılmamak üzere yıkılacaktı. ④-⑤ Rákóczi ve Kemény aileleri başta olmak üzere kimse Erdel'e dışarıdan karışmayacak; iki devlet birbirinin düşmanına yardım etmeyecekti. ⑥ Zrínyi'nin Kanije karşısında yaptırdığı ve 1664 yazında Osmanlılarca alınıp yakılan Yenikale yeniden yapılmayacaktı. ⑦ Karışıklıkta iki tarafa sığınan Erdel soyluları memleketlerine dönüp aile mülklerine sahip çıkabilecekti. ⑧ I. Leopold'e, topraklarını korumak için Vág nehrinin öte yakasında yeni bir kale yapma izni verildi. ⑨ Sınırlarda çete faaliyetleri önlenecekti. ⑩ Antlaşma yirmi yıl yürürlükte kalacak, dört ay içinde büyükelçiler karşılıklı gönderilecekti. Metne yazılmayan ama sonucu belirleyen iki nokta: 'alâ hâlihî' ilkesiyle antlaşmadan önce alınan Uyvar ve Novigrad Osmanlı'da kaldı; Fâzıl Ahmed Paşa nakit para isteğinden vazgeçti, Habsburglar 200.000 kara kuruş değerinde hediye göndermeyi kabul etti.",
   kesinlik:"kesin",
@@ -412,7 +412,7 @@ window.EKOKUMA_ANTLASMA2 = [
   kaynak:"TDV: vasvar-antlasmasi" },
 
 // ── 1672 BUCAŞ ──────────────────────────────────────────────────────────────
-{ id:"antlasma-bucas-1672", tur:"antlasma",
+{ id:"antlasma-bucas-1672", baslik:"Bucaş Antlaşması (1672) — hükümler", tur:"antlasma",
   olay:["1672-10-18|Bucaş"],
   metin:"Dört gün süren görüşmelerden sonra dört madde. ① Lehistan'dan ayrılıp Osmanlı ordusuna katılan Lipka Tatarlarına ve mallarına dokunulmayacak, Osmanlı ülkesine göçmek isteyenlere engel olunmayacaktı. ② Leh kralı Osmanlı hazinesine her yıl 22.000 altın pîşkeş ödeyecekti; Leh topraklarına Tatar ya da Kazak saldırısı olursa kral durumu önce Kamaniçe beyine, sonuç alınamazsa İstanbul'a bildirecekti. ③ Podolya bütünüyle Osmanlı'ya bırakıldı: teslim edilmemiş kalelerdeki Leh askerleri malları ve silahlarıyla çıkabilecek ama top ve cephane bırakacaktı; Podolya dışında alınan Rus kale ve palankaları iade edilecek, sınır anlaşmazlıkları hakemlerle çözülecekti. Palanka sahibi Leh soyluları vergilerini vermek şartıyla yerlerinde kalabilecek, onlardan devşirme alınmayacak, camiye çevrilenler dışındaki kiliselere dokunulmayacaktı. ④ Ukrayna Kazaklara bırakıldı: oradaki kalelerden Leh askeri iki ay içinde çıkacaktı. Padişahın 23 Ekim tarihli ahidnâmesi ayrıntıları ekledi: karşılıklı saldırmazlık, Lehistan'ın Kırım'a verdiği yıllık vergiyi sürdürmesi ve Kırım hanının Leh ülkesine akınları önlemesi, Lehistan'ın Osmanlı düşmanlarına asker ya da para yardımı yapmaması, Lviv (İlbav) için 80.000 kuruş pîşkeş ve Kamaniçe dışında kırk sekiz palankanın Osmanlıya teslimi.",
   kesinlik:"kesin",

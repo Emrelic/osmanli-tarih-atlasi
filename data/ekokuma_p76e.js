@@ -44,7 +44,7 @@
 window.EKOKUMA_P76E = [
 
 // ── Şeykan ──────────────────────────────────────────────────────────────────
-{ id:"sebep-sonuc-seykan-1883", tur:"sebep-sonuc",
+{ id:"sebep-sonuc-seykan-1883", baslik:"Şeykan bozgunu (1883) — Hicks Paşa ordusunun yok oluşu", tur:"sebep-sonuc",
   kisa:"Bir çöl vaizinin adamları, tüfekli bir orduyu nasıl yok etti?",
   metin:"Kasım 1883'te Kordofan'ın Şeykan denen kesiminde on bin kişilik bir ordu ortadan kalktı. Kumandanı emekli bir İngiliz subayıydı, askeri Mısırlıydı, karşısındakiler ise birkaç yıl önce kimsenin adını duymadığı bir vaizin müridleriydi. Bu nasıl oldu?\n\n"
     +"■ KARŞIDAKİ KİMDİ\n"
@@ -75,7 +75,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: osman-dikne (gövde okundu — doğum rivayetleri, Bece kabilelerine emîr tayini, 1883-1884 çarpışma takvimi, ölümü) · TDV: sudan (Hartum'a giriş 26 Ocak 1885)" },
 
 // ── Habeş Eyaleti ───────────────────────────────────────────────────────────
-{ id:"teknik-habes-eyaleti", tur:"teknik-bilimsel",
+{ id:"teknik-habes-eyaleti", baslik:"Habeş eyaleti Habeşistan mıydı?", tur:"teknik-bilimsel",
   kisa:"Habeş eyaleti Habeşistan mıydı? Bir eyalet adı, bir ülkeyi kapsamak zorunda değildir.",
   metin:"Osmanlı taşra teşkilâtında \"Habeş eyaleti\" diye bir birim vardır ve adı yanıltıcıdır: Habeş krallığını, yani bugün Etiyopya dediğimiz yayla ülkesini kapsamaz. Kapsadığı şey Kızıldeniz'in Afrika kıyısı ve o kıyının limanlarıdır.\n\n"
     +"■ KURULUŞ\n"
@@ -91,7 +91,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: habes-eyaleti (gövde okundu — 5 Temmuz 1555 kuruluşu, Özdemir Paşa, merkezler, bağlı liman ve sancakların listesi, 1573 İbrim, Cidde ile birleştirilmesi, 1865'te Mısır'a devir). NOT: `habesistan` slugu yalnız \"bk. ETİYOPYA\" yönlendirmesi döndürdüğü için asıl madde bu slugda arandı ve bulundu." },
 
 // ── Osmanlı demiryolları ────────────────────────────────────────────────────
-{ id:"teknik-osmanli-demiryollari", tur:"teknik-bilimsel",
+{ id:"teknik-osmanli-demiryollari", baslik:"Osmanlı demiryolları ve kilometre garantisi", tur:"teknik-bilimsel",
   kisa:"Devletin parası yoktu, demiryolu ise pahalıydı: hat nasıl yapıldı, bedeli kim ödedi?",
   metin:"Osmanlı demiryolu tarihinin anahtarı teknik değil malîdir. Devlet hattı kendi yapamıyordu; yabancı şirkete imtiyaz veriyor, karşılığında şirketin zararını üstleniyordu. Bu usulün adı kilometre garantisiydi ve bütün hikâye oradan çıkar.\n\n"
     +"■ KİLOMETRE GARANTİSİ NASIL İŞLERDİ\n"
@@ -108,7 +108,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: rumeli-demiryolu (gövde okundu — 17 Nisan 1869 mukavelesi, güzergâh, 28 milyon frank/yıl taahhüdü, 4 Ocak 1871 · 17 Haziran 1873 · 1875 · 12 Ağustos 1888 tarihleri, toplam yük ve Hirsch'in kazancı, 1909'da 42 milyon franklık tazminat) · TDV: bagdat-demiryolu (24 Eylül 1888 imtiyazı, 4 Ekim 1888 sözleşmesi, 15.000 frank/km garantisi, 4 Mart 1889 şirket kuruluşu). NOT: müstakil bir `demiryolu` maddesi bulunamadı; bilgi iki hattın kendi maddelerinden derlendi." },
 
 // ── Alman imtiyazının anlamı ────────────────────────────────────────────────
-{ id:"sebep-sonuc-alman-imtiyazi-1888", tur:"sebep-sonuc",
+{ id:"sebep-sonuc-alman-imtiyazi-1888", baslik:"Haydarpaşa-Ankara imtiyazı (1888) — Alman ittifakına giden yol", tur:"sebep-sonuc",
   kisa:"1888'de verilen bir demiryolu imtiyazı, otuz yıl sonra bir ittifakın adı oldu. Nasıl?",
   metin:"24 Eylül 1888'de imzalanan şey görünüşte sıradandı: Haydarpaşa ile Ankara arasında hat yapma ve işletme hakkı. Ama bu imtiyaz, Osmanlı Devleti'nin dış siyasetinin ekseninin kaydığı noktadır.\n\n"
     +"■ BELGENİN KENDİSİ\n"
@@ -129,7 +129,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: bagdat-demiryolu (gövde okundu — 24 Eylül 1888 imtiyazı ve Alfred von Kaulla, 4 Ekim 1888 sözleşmesi, 15.000 frank/km, 4 Mart 1889 şirket, 1899-1903 uzatma takvimi, 275.000 franklık tahviller, 99 yıllık imtiyaz, Ekim 1918 bağlantı, 10 Ocak 1928 devletleştirme) · TDV: almanya (Osmanlı'nın Almanya'yı tercih sebebi, Moltke 1835-1839, von der Goltz ve Krupp-Mauser alımları, Deutsche Bank'ın 1888 imtiyazı) · TDV: hicaz-demiryolu (bağış finansmanı ve üçte bir/üçte iki oranı)" },
 
 // ── İttihâd-ı Osmânî ────────────────────────────────────────────────────────
-{ id:"sebep-sonuc-ittihadi-osmani-1889", tur:"sebep-sonuc",
+{ id:"sebep-sonuc-ittihadi-osmani-1889", baslik:"İttihâd-ı Osmânî Cemiyeti (1889) — tıbbiyeli dört öğrenci", tur:"sebep-sonuc",
   kisa:"Dört tıbbiye öğrencisi bir cemiyet kurdu; on dokuz yıl sonra o cemiyet padişahı anayasaya döndürdü.",
   metin:"2 Haziran 1889'da Mekteb-i Tıbbiyye-i Şâhâne'de dört öğrenci bir gizli cemiyet kurdu ve adını İttihâd-ı Osmânî koydu. Kurucular İbrâhim Temo, Abdullah Cevdet, İshak Sükûtî ve Mehmed Reşid'dir.\n\n"
     +"■ NİÇİN TIBBİYE\n"
@@ -164,7 +164,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: residiler (gövde okundu — 1835'te Abdullah b. Reşîd'in Hâil'i alması, Şemmer kabilesinin Abde kolu, Cebelişemmer, Osmanlı hâkimiyetinin kabulü, 1902'den itibaren Suûdî mücadelesi, 1921'deki son) · TDV: suudiler (Müleydâ'nın tarafları Abdurrahman b. Faysal ve Muhammed b. Reşîd, 1891'de Suûd ailesinin Riyad'dan çıkarılması, 1902'de Abdülazîz'in Riyad'a dönüşü). BULUNAMADI: savaşın GÜNÜ — iki maddenin hiçbiri gün vermiyor, kart yıl hassasiyetinde bırakıldı." },
 
 // ── İstanbul depremleri ─────────────────────────────────────────────────────
-{ id:"teknik-istanbul-depremleri", tur:"teknik-bilimsel",
+{ id:"teknik-istanbul-depremleri", baslik:"İstanbul depremleri — 1509'dan 1894'e", tur:"teknik-bilimsel",
   kisa:"Bir şehir, dört yüz yılda kaç kez yıkılıp yeniden kurulur?",
   metin:"İstanbul'un tarihi, fetihler ve saltanat değişimleri kadar sarsıntılarla da bölünür. Büyük İstanbul ve Marmara depremleri arasında 1509, 1719, 1766 ve 1894 tarihleri ayrıca anılır.\n\n"
     +"■ 1509 — \"KÜÇÜK KIYAMET\"\n"
@@ -182,7 +182,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: zelzele (gövde okundu — 1509 \"küçük kıyamet\", 1719, 1766 ve 10 Temmuz 1894 depremlerinin büyük Marmara depremleri arasında sayılması; depremin ahlâkî yorumu, şarap ve eğlence yasakları, kıyamet alâmeti telakkisi; kaynak türleri) · TDV: istanbul (1509 için) · TDV: fatih-camii-ve-kulliyesi (1766'da kubbenin çökmesi, 1767-1771 yeniden inşası, mimarları). BULUNAMADI: 1894 depreminin can kaybı — çekilen rakamların hangi depremi tarihlediği ayırt edilemediği için karta YAZILMADI." },
 
 // ── Dârülaceze ve hayır kurumları ───────────────────────────────────────────
-{ id:"teknik-darulaceze-ve-hayir-kurumlari", tur:"teknik-bilimsel",
+{ id:"teknik-darulaceze-ve-hayir-kurumlari", baslik:"Dârülaceze (1896) ve hayır kurumları", tur:"teknik-bilimsel",
   kisa:"Dilenciliği yasaklamak kolaydır; dilenene yer bulmak zordur. Bir devlet bunu nasıl denedi?",
   metin:"2 Şubat 1896'da Okmeydanı sırtlarında açılan Dârülaceze, Osmanlı'nın sosyal politika alanındaki en görünür denemesidir — ve çıkış noktası bir hayır duygusundan çok bir şehir meselesidir.\n\n"
     +"■ FİKİR NEREDEN ÇIKTI\n"
@@ -200,7 +200,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: darulaceze (gövde okundu — 30 Mart 1890 fermanı, 1890-1892 planlama, 10 Kasım 1892 temel atma ve Halil Rifat Paşa, mimar Vasilaki Efendi, 100.000 → 70.000 lira bütçe, 17.000 liralık padişah hediyesi ve öteki gelir kalemleri, din-milliyet farkı gözetilmemesi, cami-kilise-havra, 2 Şubat 1896 açılışı ve ilk 150 kadın, 200 yataklı hastahane, süthane, 1896-1907 diploma ve 1907 öğrenci sayıları)" },
 
 // ── İngiltere niçin Sudan'a indi ────────────────────────────────────────────
-{ id:"sebep-sonuc-ingiltere-sudan-1896", tur:"sebep-sonuc",
+{ id:"sebep-sonuc-ingiltere-sudan-1896", baslik:"İngiltere Sudan'a neden döndü? (1896)", tur:"sebep-sonuc",
   kisa:"Hartum'u on bir yıl boyunca geri almadılar, sonra birden aldılar. Ne değişti?",
   metin:"İngiltere 1885'te Hartum'u kaybetti ve Sudan'dan çekildi. On bir yıl boyunca oraya dönmedi. 1896'da ise Nil boyunca güneye doğru düzenli, yavaş ve pahalı bir ilerleme başlattı. Arada geçen sürede Sudan değişmemişti; Sudan'ın etrafı değişmişti.\n\n"
     +"■ ÖNCE NİL, SONRA SUDAN\n"
@@ -218,7 +218,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: sudan (gövde okundu — Kitchener'in Abdullah et-Teâyişî üzerine sevki, 2 Eylül 1898 Kerkeri savaşı ve Mehdî Devleti'nin yıkılışı, Gordon'un ölümünün İngiliz işgaline zemin hazırlaması) · TDV: osman-dikne (Doğu Sudan cephesi)" },
 
 // ── Dömeke ──────────────────────────────────────────────────────────────────
-{ id:"savas-hikayesi-domeke-1897", tur:"savas-hikayesi",
+{ id:"savas-hikayesi-domeke-1897", baslik:"Dömeke Meydan Muharebesi (1897) — kazanılan savaş, kaybedilen masa", tur:"savas-hikayesi",
   kisa:"Otuz günde Atina yolu açıldı; sonra ordu geri çağrıldı. Meydanda kazanılan bir savaş masada nasıl kaybedilir?",
   metin:"1897 Osmanlı-Yunan Savaşı, XIX. yüzyılın son çeyreğinde Osmanlı ordusunun kazandığı tek büyük meydan savaşıdır. Ve aynı zamanda, kazanmanın niçin yetmediğinin en açık dersidir.\n\n"
     +"■ CEPHE\n"
@@ -235,7 +235,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: gazi-edhem-pasa (gövde okundu — 18 Nisan 1897 savaş ilânı, Alasonya'dan başkumandanlığa geçiş, 18 Nisan Milona, 25 Nisan Yenişehir, 12 Mayıs Tırhala, 17 Mayıs 1897 Dömeke, Termopil geçidinin 24 saatte aşılması, \"gazi\" unvanı ve murassa' İmtiyaz nişanı). NOT: `domeke-muharebesi` slugu 0 sonuç verdi; TDV'nin arama sayfası \"dömeke\"yi gazi-edhem-pasa · izzet-pasa-ahmed · tesalya maddelerinin GÖVDESİNDE buldu — olay maddesi değil kişi maddesi okundu." },
 
 // ── Alman yakınlaşması ──────────────────────────────────────────────────────
-{ id:"sebep-sonuc-alman-osmanli-yakinlasmasi-1898", tur:"sebep-sonuc",
+{ id:"sebep-sonuc-alman-osmanli-yakinlasmasi-1898", baslik:"II. Wilhelm'in ziyareti (1898) ve Alman-Osmanlı yakınlaşması", tur:"sebep-sonuc",
   kisa:"Bir imparator Kudüs'te \"üç yüz milyon müslümanın dostuyum\" dedi. Bu cümle kime söylenmişti?",
   metin:"II. Wilhelm 18 Ekim 1898'de İstanbul'a geldi, 25 Ekim'de Hayfa'da, 29 Ekim'de Kudüs'teydi. Kudüs'te kendini üç yüz milyon müslümanın dostu ilân etti ve Zeytindağı'nda bir Alman kilisesi açtı. Bu yolculuk, iki devletin birbirinde aradığı şeyin en açık sergisidir.\n\n"
     +"■ ALMANYA NE ARIYORDU\n"
@@ -254,7 +254,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: almanya (gövde okundu — 1790 ittifakı, 1798'de ilk elçi, Moltke 1835-1839, von der Goltz ve Krupp-Mauser alımları, 1889 ve 1898 ziyaretleri, 18 Ekim İstanbul · 25 Ekim Hayfa · 29 Ekim Kudüs takvimi, \"üç yüz milyon müslümanın dostu\" ilânı ve Zeytindağı kilisesi, Almanya'nın ve Osmanlı'nın yaklaşma sebepleri, 5 Mart 1903 Bağdat Demiryolu anlaşması ve İngiliz tepkisi)" },
 
 // ── Mürzsteg ────────────────────────────────────────────────────────────────
-{ id:"sebep-sonuc-murzsteg-1903", tur:"sebep-sonuc",
+{ id:"sebep-sonuc-murzsteg-1903", baslik:"Mürzsteg reform programı (1903) — Makedonya meselesi", tur:"sebep-sonuc",
   kisa:"Bir reform programı, egemenliğin nerede bittiğini gösterir. Makedonya'da ne oldu?",
   metin:"Ekim 1903'te Rusya ve Avusturya-Macaristan imparatorları, Makedonya için bir reform programı hazırladılar. Osmanlı hükûmeti bu programı başta istemedi, sonra kabul etmek zorunda kaldı. Bu iki cümle arasındaki mesafe, II. Meşrutiyet'e giden yolun kendisidir.\n\n"
     +"■ MESELE NASIL DOĞDU\n"
@@ -271,7 +271,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: makedonya (gövde okundu — Ayastefanos'un Büyük Bulgaristan'ı ve Berlin Antlaşması'nın düzeltmesi, Bulgar-Sırp-Yunan kültür ve istatistik mücadelesi, 1893'te IMRO'nun kuruluşu ve 1903 İlinden isyanı, Ekim 1903 Mürzsteg programının Rusya-Avusturya imparatorlarınca hazırlanışı, Avrupalı temsilcilerin umumi müfettişle işbirliği ve Osmanlı'nın isteksiz kabulü, 1908 Reval söylentileri ve 24 Temmuz 1908 ilânı)" },
 
 // ── Yemen vizyonu ───────────────────────────────────────────────────────────
-{ id:"sebep-sonuc-yemen-israri", tur:"sebep-sonuc",
+{ id:"sebep-sonuc-yemen-israri", baslik:"Osmanlı Yemen'i neden bırakmadı?", tur:"sebep-sonuc",
   kisa:"Kırk yıl kan ve para: Osmanlı Yemen'i niçin bırakmadı?",
   metin:"Yemen, Osmanlı Devleti'nin en uzak, en pahalı ve en az kazançlı vilâyetlerinden biriydi. Buna rağmen devlet orayı kırk yıl boyunca bırakmadı ve Birinci Dünya Savaşı'nda bile elinde tuttu. Bunun sebebi Yemen'in kendisi değil, Yemen'in nerede olduğudur.\n\n"
     +"■ BEŞ SEBEP\n"
@@ -291,7 +291,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: yemen (gövde okundu — Kızıldeniz/Süveyş/Hicaz/hilâfet prestiji/Aden dengesi sebepleri, Ahmed Muhtar Paşa'nın 1871 valiliği ve vilâyet teşkilâtı, 1889 ve 1902 isyanları, 1905'te San'a kuşatması ve açlık, Ahmed Feyzi Paşa'nın kayıpları ve şehrin teslimi, Ahmed İzzet Paşa'nın 50.000 kişilik ordusu, 13 Ekim 1911 Daan Antlaşması'nın 22 alenî + 5 gizli maddesi ve 20.000 altın lira, savaş dönemi işbirliği ve 7. Kolordu, 5 Mart 1919'da 3883 kişinin Hudeyde'de teslimi)" },
 
 // ── Yıldız Suikastı ─────────────────────────────────────────────────────────
-{ id:"tartisma-yildiz-suikasti-1905", tur:"tartisma",
+{ id:"tartisma-yildiz-suikasti-1905", baslik:"Yıldız Suikastı (1905) ve Tevfik Fikret'in şiiri", tur:"tartisma",
   kisa:"Bir bomba bir buçuk dakika geç patladı. Bir şair bu gecikmeye ağıt yaktı — ve o şiir bugün hâlâ tartışılıyor.",
   metin:"21 Temmuz 1905'te cuma selâmlığından çıkan II. Abdülhamid'i hedef alan bombalı saldırı başarısız oldu. Padişah, bir kısa gecikme yüzünden patlama anında arabasının yanında değildi. Olayın kendisinden çok, bıraktığı iz tartışma konusudur.\n\n"
     +"■ ŞİİR\n"
@@ -306,7 +306,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: tevfik-fikret (gövde okundu — şiirin adı \"Bir Lahza-i Teahhur\", 1906'da yayımlanışı ve elden ele dolaşması, adın anlamı, 1902 tarihli \"Sis\" ve istibdada bakışı, 1912'de \"Doksan Beşe Doğru\" ile \"Hân-ı Yağmâ\", ve maddenin şiire yönelttiği ağır eleştiri). BULUNAMADI: `abdulhamid-ii` maddesinin çekilen gövdesi 1905 suikastını, failini ve arka planını KAPSAMIYOR — bu sebeple fail ve saik konusunda hüküm verilmedi." },
 
 // ── II. Meşrutiyet'in ilanı ─────────────────────────────────────────────────
-{ id:"sebep-sonuc-ikinci-mesrutiyet-1908", tur:"sebep-sonuc",
+{ id:"sebep-sonuc-ikinci-mesrutiyet-1908", baslik:"II. Meşrutiyet'in ilânı (1908) — telgrafla gelen anayasa", tur:"sebep-sonuc",
   kisa:"Otuz yıl rafta duran bir anayasa, bir telgrafla geri geldi. O günü yaşayanlar ne gördü?",
   metin:"23-24 Temmuz 1908'de otuz yıldır askıda olan Kānûn-ı Esâsî yeniden yürürlüğe kondu. Kararın alınış biçimi kadar, duyuluş biçimi de bu olayın karakterini belirler.\n\n"
     +"■ TELGRAFLA YAPILAN İHTİLÂL\n"
@@ -324,7 +324,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: ittihat-ve-terakki-cemiyeti (gövde okundu — 2 Haziran 1889 kuruluşu ve dört kurucu, 1895'te ad değişikliği ve Ahmed Rızâ, Paris-Cenevre şubeleri, hücre ve yemin usulü, Resneli Niyazi ve Enver Bey'in dağa çıkışı, önde gelen isimler) · TDV: mesrutiyet (23-24 Temmuz 1908 ilânı ve 1908 İhtilâli, cemiyetin propaganda faaliyeti) · TDV: makedonya (1908 Reval söylentileri ve 24 Temmuz 1908 ilânı arasındaki bağ)" },
 
 // ── Hicaz Demiryolu ─────────────────────────────────────────────────────────
-{ id:"teknik-hicaz-demiryolu", tur:"teknik-bilimsel",
+{ id:"teknik-hicaz-demiryolu", baslik:"Hicaz Demiryolu — yapılışı ve yıkılışı", tur:"teknik-bilimsel",
   kisa:"Kırk günlük hac yolunu dört güne indiren hat, sekiz yıl sonra çölde parça parça söküldü.",
   metin:"1 Eylül 1908'de Hicaz Demiryolu Medine'ye ulaştı. Şam'dan Medine'ye 1464 kilometre. Bu hattın hem yapılışı hem yıkılışı, Osmanlı'nın son otuz yılının özeti gibidir.\n\n"
     +"■ ÜÇ AMAÇ\n"
@@ -342,7 +342,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: hicaz-demiryolu (gövde okundu — askerî/siyasî/dinî amaçlar ve hac yolunun 40-50 günden 4-5 güne inmesi, bağış finansmanı ve üçte bir/üçte iki oranı, 2 Mayıs 1900 emri, 1 Eylül 1900 resmî açılış, 1903 Amman · 1904 Maan · 1905 Hayfa şubesi, 1908'de Medine ve 1464 km, 1,05 m dar hat, 43 mühendis ve milliyet dağılımı, I. Dünya Savaşı'nda askerî rolü, 1916 Şerîf Hüseyin isyanı, 10 Ocak 1919'da Medine'nin teslimi)" },
 
 // ── Meclis-i Meb'ûsan ve seçim ──────────────────────────────────────────────
-{ id:"teknik-1908-secimleri-ve-meclis", tur:"teknik-bilimsel",
+{ id:"teknik-1908-secimleri-ve-meclis", baslik:"1908 seçimleri — kim oy kullandı, kim kullanamadı?", tur:"teknik-bilimsel",
   kisa:"1908'de oy kullanan kimdi — ve daha önemlisi, kim kullanamadı?",
   metin:"17 Aralık 1908'de Meclis-i Meb'ûsan otuz yıllık bir aradan sonra yeniden toplandı. Meclisin kimlerden oluştuğunu anlamak için önce onu seçen usulü bilmek gerekir.\n\n"
     +"■ İKİ DERECELİ SEÇİM\n"
@@ -365,7 +365,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: meclis-i-mebusan (gövde okundu — iki dereceli seçim usulü, sancak başına mebus ve 25.000-75.000 erkek nüfus ölçüsü, seçmen için 25 / mebus için 30 yaş, erkek seçmen esası, nüfus cüzdanı ve mükerrer oyun önlenmesi, İttihatçıların ezici çoğunluğu, meclisin yetkileri ve 1909'da Kıbrıslı Kâmil Paşa hükûmetinin düşürülmesi, 1909 değişikliğinde hükûmetin meclise karşı sorumluluğu ve fesih yetkisinin sınırlanması) · TDV: mesrutiyet (17 Aralık 1908 açılışı, 1909 tâdilâtının yasama lehine dengeyi değiştirmesi, 53. madde ile 10. ve 118. maddeler). BULUNAMADI: toplam mebus sayısı ve etnik/dinî dağılım — iki maddenin de çekilen gövdesi rakam vermiyor, karta YAZILMADI." },
 
 // ── 31 Mart ─────────────────────────────────────────────────────────────────
-{ id:"tartisma-otuzbir-mart-1909", tur:"tartisma",
+{ id:"tartisma-otuzbir-mart-1909", baslik:"31 Mart Vakası (1909) — meşrutiyete kimler karşıydı?", tur:"tartisma",
   kisa:"Meşrutiyete kimler karşıydı? Cevap \"gericiler\" demekten daha karışık.",
   metin:"Rûmî 31 Mart 1325 / Milâdî 13 Nisan 1909'da İstanbul'da çıkan ayaklanma, meşrutiyetin ilânından yalnızca dokuz ay sonra gerçekleşti. \"Kim niçin karşıydı\" sorusunun cevabı tek bir grup değildir; birbirinden çok farklı sebeplerle aynı anda rahatsız olmuş birkaç kümedir.\n\n"
     +"■ BİRİNCİ KÜME — TASFİYE EDİLEN SUBAYLAR\n"
@@ -387,7 +387,7 @@ window.EKOKUMA_P76E = [
   kaynak:"TDV: otuzbir-mart-vakasi (gövde okundu — Rûmî 31 Mart 1325 / 13 Nisan 1909, İttihat ve Terakkî'nin müdahaleci tutumu, alaylı-mektepli çatışması ve alaylıların tasfiyesi, eski kadroların imtiyaz kaybı, Ahrar Fırkası ve muhafazakâr muhalefet, 7 Nisan 1909 Hasan Fehmi cinayeti, 12-13 Nisan gecesi 4. Avcı Taburu, bayraklar ve 3-4000 isyancı, Ayasofya meydanı ve meclisin işgali, Kâmil Paşa ve cemiyetin ilgası talepleri, Hareket Ordusu'nun 19 Nisan'dan itibaren gelişi ve 24 Nisan'da kontrolü alması, 27 Nisan 1909 hal'i ve Mehmed Reşad, Derviş Vahdetî'nin idamı)" },
 
 // ── Bulgaristan sınırı ──────────────────────────────────────────────────────
-{ id:"teknik-bulgaristan-sinirinin-cizilisi", tur:"teknik-bilimsel",
+{ id:"teknik-bulgaristan-sinirinin-cizilisi", baslik:"Bulgaristan sınırı nasıl çizildi? (1878-1909)", tur:"teknik-bilimsel",
   kisa:"Bulgaristan'ın sınırı üç kez çizildi: bir antlaşmada, bir darbede, bir protokolde.",
   metin:"19 Nisan 1909'da İstanbul'da imzalanan protokolle Osmanlı Devleti, altı ay önce tek taraflı ilân edilmiş Bulgaristan bağımsızlığını resmen tanıdı. Ama o sınırın nasıl oluştuğu bundan otuz bir yıl önce başlayan bir hikâyedir ve üç ayrı aşaması vardır.\n\n"
     +"■ BİRİNCİ ÇİZGİ — 1878, MASA\n"

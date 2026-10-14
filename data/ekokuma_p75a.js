@@ -49,7 +49,7 @@
 window.EKOKUMA_P75A = [
 
 // ── H-0006 · İlk düzenli nüfus sayımı (1830-31) ────────────────────────────
-{ id:"teknik-ilk-nufus-sayimi-1830-31", tur:"teknik-bilimsel",
+{ id:"teknik-ilk-nufus-sayimi-1830-31", baslik:"İlk nüfus sayımı (1830-31) — neden yalnız erkekler?", tur:"teknik-bilimsel",
   kisa:"Yeniçeri Ocağı kalkınca devletin elinde yeni ordusunu kuracak insan listesi yoktu — ilk düzenli sayım önce askerlik ve vergi için, yalnız erkekleri sayarak yapıldı.",
   metin:"■ SAYIM DAHA ÖNCE YOK MUYDU?\n"
     +"Kayıt tutmak yeni değildi; yeni olan, bütün halkı tek düzende yazan bir sayımdı. Osmanlı Devleti 15. yüzyıldan itibaren fethettiği bölgelerin sosyal ve iktisadî unsurlarını tespit etmek, bu yolla asker ve vergi almak için “tahrir” yapıyordu; klasik tahrir defterleri her sancağın hâne hesabıyla vergiye tâbi nüfusunu, mahalle-köy-cemaat dağılımını ve gelirleri yazardı. Bu usul 16. yüzyıl sonlarında bırakıldı; yerine cizye, tımar yoklama ve avarız için ayrı ayrı defterler tutuldu (Başaran'ın makalesi Öztürk'e dayanarak aktarıyor). 1830-31 sayımı ise bir akademik çalışmanın ifadesiyle Müslim ve gayrimüslim erkek nüfusu BİRLİKTE içeren ilk sayımdı.\n\n"
@@ -70,7 +70,7 @@ window.EKOKUMA_P75A = [
   kaynak:"TDV: nufus (Nebi Bozkurt; Osmanlı Dönemi bölümü Yunus Koç) · ceride-nezareti (Cevdet Küçük) · Mehmet Başaran, “1830–1842 Yılları Arasında Nüfus Defterleri Kapsamında Ödemiş ve Köyleri”, Adnan Menderes Üniversitesi Sosyal Bilimler Enstitüsü Dergisi 4/3, s. 307-321 (Karal 1943 ve Aydın 1990'a atıfla; dergipark.org.tr makale 392896)" },
 
 // ── H-0008 · Takvîm-i Vekāyi — resmî gazete ─────────────────────────────────
-{ id:"teknik-takvim-i-vekayi-resmi-gazete", tur:"teknik-bilimsel",
+{ id:"teknik-takvim-i-vekayi-resmi-gazete", baslik:"Takvîm-i Vekāyi — ilk resmî gazete (1831)", tur:"teknik-bilimsel",
   kisa:"Devlet kendi sesini kendisi basmaya karar verdi — onu harekete geçiren, Mısır Valisi Mehmed Ali'nin gazetesiyle İzmir'de yabancıların çıkardığı gazetelerdi.",
   metin:"■ RESMÎ GAZETE NEDİR\n"
     +"Bir devletin kendi adına, kendi organı olarak yayımladığı gazete: kanun, atama, karar ve duyuruları kamuya ilk ağızdan duyurur. TDV, Takvîm-i Vekāyi'yi “devletin sesi olabilecek” resmî gazete olarak tanımlar. İlk sayısı 25 Cemâziyelevvel 1247'de (1 Kasım 1831) Türkçe çıktı; hedef, Avrupa'daki örneklere uygun biçimde iç ve dış kamuoyunu daha düzenli ve hızlı bilgilendirmekti.\n\n"
@@ -89,7 +89,7 @@ window.EKOKUMA_P75A = [
   kaynak:"TDV: takvim-i-vekayi (Nesimi Yazıcı) · vakanuvis (Bekir Kütükoğlu) · dellal (Yusuf Halaçoğlu) · ulak (Yusuf Halaçoğlu) · kahvehane (Ahmet Yaşar)" },
 
 // ── H-0009 · Gazetecilik ve ilk Osmanlı gazeteleri ─────────────────────────
-{ id:"teknik-gazetecilik-dogusu-ilk-osmanli-gazeteleri", tur:"teknik-bilimsel",
+{ id:"teknik-gazetecilik-dogusu-ilk-osmanli-gazeteleri", baslik:"Gazetecilik nasıl doğdu? İlk Osmanlı gazeteleri", tur:"teknik-bilimsel",
   kisa:"İlk gazeteleri bir Mısır valisi, bir İngiliz ve devletin kendisi çıkardı; “Türk basınının başlangıcı” ise devletten yardım almadan çıkan Tercümân-ı Ahvâl'e verilir.",
   metin:"■ GAZETECİLİK NASIL DOĞDU\n"
     +"TDV yalnız şunu söyler: Avrupa'da gazetenin ve gazeteciliğin 17. yüzyıl başlarından itibaren takip edilebilen uzun bir geçmişi vardır; Osmanlı ülkesinde ilk gazeteleri 18. yüzyıl sonlarında yabancılar kendi dillerinde İstanbul ve İzmir gibi merkezlerde çıkardı. Avrupa'daki ilk basılı gazetelerin adı, yeri ve doğuş nedenleri okunan maddelerde `bulunamadı`; bu kart o konuda tahmin yürütmüyor.\n\n"
@@ -113,7 +113,7 @@ window.EKOKUMA_P75A = [
   kaynak:"TDV: takvim-i-vekayi (Nesimi Yazıcı) · ceride-i-havadis (Ziyad Ebüzziya) · tercuman-i-ahval (Hamza Çakır) · tasvir-i-efkar (Nesimi Yazıcı) · vakanuvis (Bekir Kütükoğlu) · dellal · ulak (Yusuf Halaçoğlu) · kahvehane (Ahmet Yaşar)" },
 
 // ── H-0016 · Osmanlı'da ilk fabrikalar ve atölyeler ─────────────────────────
-{ id:"teknik-osmanli-ilk-fabrikalar-atolyeler", tur:"teknik-bilimsel",
+{ id:"teknik-osmanli-ilk-fabrikalar-atolyeler", baslik:"İlk Osmanlı fabrikaları — devlet imalathanelerinden Feshâne'ye", tur:"teknik-bilimsel",
   kisa:"“Fabrika” sözcüğü yeni, devlet imalathanesi eskiydi — 19. yüzyıl başında farklı olan, ordunun ihtiyacını dışarıdan almak yerine yerinde üretme fikriydi.",
   metin:"■ FABRİKADAN ÖNCE: DEVLETİN İMALATHANELERİ\n"
     +"Osmanlı'da büyük ölçekli devlet üretim tesisleri 19. yüzyıldan çok önce vardı: TDV baruthâneleri “devrin barut yapılan fabrikaları” olarak görmek gerektiğini yazar; tersane, tophâne ve darphâne de benzer devlet imalât yerleriydi (bk. TDV: baruthane, tophane, tersane, darphane). Kâğıtta ise TDV şu tabloyu verir: İbrâhim Müteferrika 1741'de Yalova'da bir kâğıt imalâthanesi kurmaya girişti; Darphâne sermayesiyle İngiliz-Hollanda kâğıdı ayarında üretim hedefleyen bir fabrika 1805'te Beykoz'da açıldı ve devlet dairelerine, Üsküdar Matbaası'na, orduya kâğıt sağlayacaktı. 19. yüzyıl ortasında bir Avrupalı gözlemci Beykoz gibi Türk fabrikalarının yeterli teşvik görmediğini, kâğıdın Avrupa'dan getirilmesinin daha ucuza geldiğini yazmıştır (Charles White'tan TDV aktarır).\n\n"
@@ -130,7 +130,7 @@ window.EKOKUMA_P75A = [
   kaynak:"TDV: feshane (Tevfik Güran) · islimye (Machiel Kiel) · izmit (Metin Tuncel, İdris Bostan) · kagit (Osman Ersoy) · baruthane (Semavi Eyice)" },
 
 // ── H-0027a · Klasik yüksek bürokrasi — nişancılık ve kalem ayağı ───────────
-{ id:"teknik-klasik-burokrasi-nisanci-kalem-defterhane", tur:"teknik-bilimsel",
+{ id:"teknik-klasik-burokrasi-nisanci-kalem-defterhane", baslik:"Nişancı, kalem ve defterhane — klasik bürokrasi", tur:"teknik-bilimsel",
   kisa:"Padişahın imzası olan tuğrayı çekmek bir memuriyetti — nişancı, klasik devletin “kalem” ayağıydı ve 1836'da yerini bir bakanlığa bıraktı.",
   metin:"■ KLASİK YAPININ ÜÇ AYAĞI\n"
     +"Sadrazamdan kazaskere, defterdardan şeyhülislâma klasik devlet kademelerinin ana hatları ayrı bir kartta anlatılıyor (bk. kart: Osmanlı devlet kademeleri). Bu kart, orada olmayan parçayı — nişancılık ve onunla birlikte çalışan “kalem” düzenini — ekliyor. TDV'nin nişancı maddesine göre 15. yüzyıl başında mâlî işlemleri yürütmek üzere ayrı bir kurum olarak defterdarlık ortaya çıktı; Fâtih döneminde (1451-1481) bürokrasinin üçüncü ayağı Defterhâne-i Âmire kuruldu. Nişancı ise bürokratik işlemlere nezaret eden, padişahın tuğrasını çeken Dîvân-ı Hümâyun üyesiydi.\n\n"
@@ -147,7 +147,7 @@ window.EKOKUMA_P75A = [
   kaynak:"TDV: nisanci (Erhan Afyoncu) · defterdar (Mübahat S. Kütükoğlu) · sadrazam (Mehmet İpşirli)" },
 
 // ── H-0027b · Divandan nezâretlere: 1836-1841 ───────────────────────────────
-{ id:"teknik-divandan-nezaretlere-maliye-nezareti", tur:"teknik-bilimsel",
+{ id:"teknik-divandan-nezaretlere-maliye-nezareti", baslik:"Divandan nezaretlere — Maliye Nezâreti'nin kuruluşu", tur:"teknik-bilimsel",
   kisa:"Defterdarlık 28 Şubat 1838'de Maliye Nezâreti'ne dönüştü, ama bir yıl sonra geri geldi — kalıcı geçiş 1841'dir.",
   metin:"■ MERKEZ BÂBIÂLİ'YE KAYMIŞTI\n"
     +"17. yüzyıldan itibaren fiilî yetki Dîvân-ı Hümâyun'dan sadrazam kapısına (Bâbıâli) geçmiş, reîsülküttâb ve Divan kâtipleri sarayı bırakıp oraya yerleşmişti (bk. kart: Osmanlı idari yapısı ve değişimi). TDV Bâbıâli'yi 18. yüzyıl sonlarından itibaren Paşa Kapısı ve Sadâret Dairesi, nezâretlerin kurulmasından sonra da Osmanlı hükümeti anlamında kullanılan bir tabir olarak tanımlar. Tanzimat öncesi bu yapı II. Mahmud'un elinde bakanlıklara (nezâret) dönüştü.\n\n"
@@ -166,7 +166,7 @@ window.EKOKUMA_P75A = [
   kaynak:"TDV: defterdar (Mübahat S. Kütükoğlu) · ceride-nezareti (Cevdet Küçük) · dahiliye-nezareti (Mehmet İpşirli) · hariciye-nezareti (Carter Vaughn Findley) · meclis-i-vukela (Ali Akyıldız) · sadrazam (Mehmet İpşirli)" },
 
 // ── H-0028 · Meclis-i Vâlâ-yı Ahkâm-ı Adliyye ───────────────────────────────
-{ id:"teknik-meclis-i-vala-yi-ahkam-i-adliyye", tur:"teknik-bilimsel",
+{ id:"teknik-meclis-i-vala-yi-ahkam-i-adliyye", baslik:"Meclis-i Vâlâ — hem kanun yapan hem yargılayan meclis", tur:"teknik-bilimsel",
   kisa:"Tanzimat'ın kanunlarını hazırlayan meclis, aynı zamanda Tanzimat'a aykırı davranan paşaları yargılayan mahkemeydi — otuz yıl sonra ikiye bölündü, iki parçası Danıştay ve Yargıtay'ın temeli oldu.",
   metin:"■ KURULUŞ\n"
     +"Meclis-i Vâlâ 24 Mart 1838'de kuruldu; başkanlığına eski seraskerlerden Koca Hüsrev Paşa getirildi, beş üyesi vardı. Padişah ve şeyhülislâmın huzurunda yapılan törenden sonra 31 Mart 1838'de çalışmaya başladı; çalışma yeri Gülhane Kasrı'ydı. Görevi, “tanzîmât-ı hayriyye, tanzîmât-ı mülkiyye” adı verilen reformları gerçekleştirmek için kanun ve nizamları hazırlamak, Dâr-ı Şûrâ-yı Bâbıâlî ve Dâr-ı Şûrâ-yı Askerî'nin düzenlediği mazbatalara son şeklini vermek ve çıkardığı kanunların uygulanıp uygulanmadığını denetlemekti. İç tüzüğü üyelerin görüşlerini serbestçe söylemesini ve kararların oy çokluğuyla alınmasını öngörüyordu.\n\n"
@@ -183,7 +183,7 @@ window.EKOKUMA_P75A = [
   kaynak:"TDV: meclis-i-vala-yi-ahkam-i-adliyye (Ali Akyıldız) · sura-yi-devlet (Ali Akyıldız) · meclis-i-vukela (Ali Akyıldız) · ceride-nezareti (Cevdet Küçük)" },
 
 // ── H-0036 · Kâime — Osmanlı'nın ilk kâğıt parası ────────────────────────────
-{ id:"teknik-kaime-kagit-para", tur:"teknik-bilimsel",
+{ id:"teknik-kaime-kagit-para", baslik:"Kâime — ilk Osmanlı kâğıt parası", tur:"teknik-bilimsel",
   kisa:"İlk Osmanlı banknotu el yazısıyla basıldı, faiz getirdi, halk sevmedi ve kalpazanların ilk hedefi oldu — dünyada ise kâğıt paranın öyküsü bin yıl öncesine gider.",
   metin:"■ KÂİME NEDİR\n"
     +"Kāime sözlükte “ayakta duran, bir şeyin yerine geçen” demektir; sikkeyi temsilen dolaştığı için bu adı almıştır. Osmanlı maliyesinde daha önce uygulanan esham sisteminin geliştirilmiş biçimi olup eshamdan farkı beratsız kullanılmasıdır (esham için bk. kart: iltizam-mâlikâne-esham zinciri).\n\n"
@@ -206,7 +206,7 @@ window.EKOKUMA_P75A = [
   kaynak:"TDV: kaime (Ali Akyıldız) · esham (Mehmet Genç) · Richard von Glahn, “The Rise and Demise of Paper Money in Imperial China”, Hoover Institution (hoover.org/research/rise-and-demise-paper-money-imperial-china) · NBB Museum (Belçika Ulusal Bankası): “The first notes from a European bank, a Swedish product” (museum.nbb.be) · Bank of England: About > History (bankofengland.co.uk/about/history) · New York Fed Liberty Street Economics, “Crisis Chronicles: The Collapse of the French Assignat…” (2014)" },
 
 // ── H-0043a · Şirket-i Hayriyye öncesi Boğaz ve Haliç ulaşımı ────────────────
-{ id:"teknik-bogaz-ulasimi-sirket-i-hayriyye-oncesi", tur:"teknik-bilimsel",
+{ id:"teknik-bogaz-ulasimi-sirket-i-hayriyye-oncesi", baslik:"Boğaz'da ulaşım ve Şirket-i Hayriyye", tur:"teknik-bilimsel",
   kisa:"Boğaz'ın iki yakası arasında vapur yokken altı kürekli peremeler ve pazar kayıkları vardı; Şirket-i Hayriyye ise devletin “anonim şirket nedir?” sorusuna verdiği ders niteliğinde bir girişimdi.",
   metin:"■ BOĞAZ'DA VAPURDAN ÖNCE\n"
     +"TDV Boğaziçi maddesi şöyle anlatır: eskiden Boğaziçi'nde ulaşım altı kürekle çekilen peremeler ve geliri bir hayır eserine vakfedilen pazar kayıklarıyla sağlanırdı; Yuşa tepesi, Kanlıca, Çubuklu, Beykoz gibi mesirelere halk pazar kayıklarıyla giderdi. Padişahlar süslü saltanat kayıklarıyla Boğaz'da gezintiye çıkardı; bu sırada kayığı bostancıbaşı yönetir, kıyıdaki yalı, bahçe ve kasırlar hakkında padişaha bilgi verirdi. Yani TDV'nin cümlesi Boğaz'da vapurdan önce kürekle yürüyen taşıtların (perem, pazar kayığı) kullanıldığını gösteriyor; hat, ücret ve sefer sayısı gibi ayrıntılar okunan maddelerde `bulunamadı`.\n\n"
@@ -221,7 +221,7 @@ window.EKOKUMA_P75A = [
   kaynak:"TDV: sirket-i-hayriyye (Ali Akyıldız) · bogazici (M. Tayyib Gökbilgin; Boğaziçi'nde Nakil Vasıtaları ve Mesireler bölümü) · halic (Semavi Eyice)" },
 
 // ── H-0043b · Galata Köprüsü ─────────────────────────────────────────────────
-{ id:"teknik-galata-koprusu-ne-zaman-acildi", tur:"mimari",
+{ id:"teknik-galata-koprusu-ne-zaman-acildi", baslik:"Galata Köprüsü ne zaman açıldı? 1844 mü, 1845 mi?", tur:"mimari",
   kisa:"“Galata Köprüsü ne zaman açıldı?” sorusuna TDV'nin iki maddesi iki yıl veriyor — 1844 ve 1845 — açılış gününü ise hiçbiri yazmıyor.",
   metin:"■ AKLA GELEN SORU: NE ZAMAN AÇILDI\n"
     +"TDV'nin iki maddesi farklı yıl verir: Bezmiâlem Vâlide Sultan maddesi “Galata Köprüsü (Cisr-i Cedîd veya Vâlide Köprüsü)” başlığı altında köprünün 1844'te ahşap dubalar üzerinde yüzer olarak yaptırıldığını ve on sekiz yıl hizmet verdiğini yazar; Haliç maddesi ise “1845'te Karaköy ile Eminönü arasında yine dubalı ve ahşap olarak Tersâne-i Âmire'de yapılan ilk Karaköy Köprüsü kurulmuştur” der (aynı köprü). İkisini uzlaştıran bir cümle yok. Sayfanın yorumlaması: “yaptırıldı” 1844'te verilen emri, “kurulmuştur” 1845'teki hizmete girişi anlatıyor olabilir, ama TDV bunu yazmaz. Açılış gününün bulunduğu bir kayıt okunan iki maddede yok: `bulunamadı`. TDV'nin kendi başlığı (galata-koprusu) ayrı madde değil, HALİÇ maddesine yönlendirme (“bk.”).\n\n"
@@ -239,7 +239,7 @@ window.EKOKUMA_P75A = [
   kaynak:"TDV: halic (Semavi Eyice, bölüm: Haliç Köprüleri) · bezmialem-valide-sultan (M. Hüdai Şentürk; Galata Köprüsü başlığı) · galata-koprusu (bk. HALİÇ yönlendirmesi)" },
 
 // ── H-0043c · Tünel ──────────────────────────────────────────────────────────
-{ id:"teknik-tunel-karakoy-beyoglu-1875", tur:"mimari",
+{ id:"teknik-tunel-karakoy-beyoglu-1875", baslik:"Tünel (1875) — Karaköy-Beyoğlu yeraltı demiryolu", tur:"mimari",
   kisa:"Bir Fransız turist 1867'de Galata yokuşunda yürüyen kalabalığı görüp yeraltı demiryolu tasarladı — Tünel 17 Ocak 1875'te açıldı.",
   metin:"■ NEDEN YAPILDI\n"
     +"Karaköy (Galata) bankacılık ve ticaret merkeziydi, Beyoğlu (Pera) eğlence ve sosyal hayatın; ikisini Yüksekkaldırım Yolu bağlıyordu. İTÜ Makine Fakültesi'nden bir makale Fransız mühendis Eugène-Henri Gavand'ın 1867'de İstanbul'a turist olarak geldiğini ve bu yolda çok sayıda insanın yürüdüğünü gördüğünü anlatır. Aynı makale, Gavand'a dayanarak günde yaklaşık 40.000 kişinin yürüdüğünü, yolun eğiminin %24, genişliğinin altı metre (yer yer dört metre) olduğunu aktarır. Gavand yer altı bir asansör biçiminde demiryolu önerdi.\n\n"
@@ -256,7 +256,7 @@ window.EKOKUMA_P75A = [
   kaynak:"TDV: beyoglu-mezarligi (Necdet İşli) · galata (Semavi Eyice, İlber Ortaylı) · Eren Kayaoğlu, Adem Candaş, Y. Ziya Kocabal, C. Erdem İmrak (İTÜ Makine Mühendisliği Fakültesi), “Early Application of Underground Funicular ‘Tunnel’ in Istanbul” (transport.itu.edu.tr, 2014) · TDV'de TÜNEL maddesi: bulunamadı" },
 
 // ── H-0047 · Dış borç: klasik dönemde var mıydı ───────────────────────────────
-{ id:"teknik-klasik-donemde-dis-borc-var-miydi", tur:"teknik-bilimsel",
+{ id:"teknik-klasik-donemde-dis-borc-var-miydi", baslik:"Klasik dönemde dış borç var mıydı? İlk borç 1854", tur:"teknik-bilimsel",
   kisa:"Osmanlı yöneticileri dışarıdan borç almaktan şiddetle kaçındı; 1850-51'de imzalanan ilk anlaşma bile onaylanmadı — ilk borç sözleşmesi 24 Ağustos 1854'te yapıldı.",
   metin:"■ SORUNUN CEVABI\n"
     +"TDV'nin Düyûn-ı Umûmiyye maddesi soruya doğrudan yanıt verir: Osmanlı devlet adamları sık sık ortaya çıkan para darlığına ve bütçe açıklarına rağmen dışarıdan borç para almaktan şiddetle kaçınmışlardır; Tanzimat'tan önce bu konudaki birkaç teşebbüs de başarısız kalmıştır. Yani dış borç modern zamanın, Tanzimat sonrasının meselesidir. “Klasik dönem” için (yaklaşık 15-17. yüzyıl) yabancı bir devlet ya da bankadan alınan bir borca ait kayıt okunan maddelerde `bulunamadı`; bu, ‘hiç olmadı’ demek değildir, yalnız bu okumanın bulgusudur.\n\n"
