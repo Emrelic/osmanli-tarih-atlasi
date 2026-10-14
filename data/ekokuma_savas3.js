@@ -440,6 +440,341 @@ window.EKOKUMA_SAVAS3 = [
   olay:["1443-11-01|İzladi"],
   kaynak:"TDV: murad-ii (Hunyadi'nin Tuna geçişi, Niş ve Sofya, 24 Kasım 1443, Turahan Bey'in cezası) · TDV: izladi (derbent savaşı, Filibe ovası, kış)",
   ic_not:"Madde günü 1443-11-01; TDV murad-ii geçit çarpışmasını 1 Şâban 847 / 24 Kasım 1443'e koyar — gün düzeltmesi madde sahibine önerilmeli (yazılmadı).",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ════════════════════════════════════════════════════════════════════════════
+// DALGA 5 / 2. parti — KUTU-G1-1014 · 1454-1699 dilimi. Okunan TDV gövdeleri:
+// haci-giray-i · kefe · mehmed-ii · iskender-bey · arnavutluk · rodos · mesih-pasa ·
+// cem-sultan · bayezid-ii · gedik-ahmed-pasa · hersekzade-ahmed-pasa · mardin ·
+// biyikli-mehmed-pasa · selman-reis · suleyman-i · ibrahim-pasa-makbul · korfu ·
+// bayezid-sehzade · malta · turgut-reis · piyale-pasa · osman-pasa-ozdemiroglu ·
+// sirvan · eflak · bogdan · ibrail · silistre · yergogu · koca-sinan-pasa ·
+// mehmed-iii · ibrahim-pasa-melek · ibrahim-pasa-kara · mehmed-iv · egriboz · mustafa-ii.
+// ════════════════════════════════════════════════════════════════════════════
+
+// ── 22 · 1454 Kefe ───────────────────────────────────────────────────────
+{ id:"savas-kefe-1454", tur:"savas-hikayesi",
+  baslik:"Kefe'nin ilk Osmanlı-Kırım kuşatması (Temmuz 1454)",
+  kisa:"İstanbul'u alan Fâtih'in donanması denizden, Hacı Giray'ın atlıları karadan geldi; Ceneviz Kefe'si bu kez haraçla kurtuldu, yirmi bir yıl sonra kurtulamayacaktı.",
+  tarih_metin:"14 Temmuz 1454 (Hacı Giray'ın kara kuşatması)",
+  yer:"Kefe (Caffa, bugün Feodosiya), Kırım'ın güneydoğu kıyısı",
+  taraflar:[
+    { ad:"Osmanlı Devleti ve Kırım Hanlığı", komutan:"Kırım Hanı I. Hacı Giray (karada) · Osmanlı donanması (komutanı okunan maddelerde geçmiyor)", kuvvet:"Hacı Giray'ın 7000 atlısı · elli altmış kadar Osmanlı kadırgası" },
+    { ad:"Ceneviz Kefe'si", komutan:"okunan TDV maddelerinde adı geçmiyor", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"Cenevizliler XIII. yüzyılda Altın Orda'dan izin alarak Kefe'ye yerleşmiş, Orda zayıflayınca şehre hâkim olmuşlardı; Kefe Asya'dan gelen büyük ticaret yolunun Karadeniz'deki merkeziydi ve 1420'lerde yaklaşık 40.000 kişinin yaşadığı tahmin edilir. Kırım Hanlığı'nın kurucusu Hacı Giray, 1434'te Ceneviz ordusunu bozguna uğrattıktan sonra Kefe'yi kuşatmış, ama top ve cephanesi olmadığından çekilmişti. Fâtih'in İstanbul'u alması, Cenevizlilerin Karadeniz kolonileriyle bağlantısını kesti. Haziran 1454'te Hacı Giray ile Fâtih, Kefe'yi almak için anlaştı.",
+  akis:"Elli altmış kadırgalık Osmanlı donanması Kefe önünde demir attı; Hacı Giray da 14 Temmuz 1454'te 7000 atlısıyla şehri karadan kuşattı. Kefe bir süre dayandı.",
+  sonuc:"Cenevizliler Osmanlılara 3000, Hacı Giray'a 1200 altın vergi ödemeyi teklif etti; teklif kabul edildi ve kuşatma kaldırıldı. Ardından Cenevizliler, yerli Kırım aristokrasisinin de yardımıyla Hacı Giray'ı tahttan indirip oğlu Haydar'ı han yaptılar; Haydar birkaç ay dayanabildi, Hacı Giray yeniden han oldu ve bundan sonra Cenevizlilerle hep iyi geçindi. Kefe'nin kesin fethi Haziran 1475'te geldi: Gedik Ahmed Paşa'nın yüz parçalık donanması Kefe'yle birlikte bütün kıyı şeridini aldı.",
+  tartisma:"Okunan TDV maddeleri Osmanlı donanmasının komutanını ve kuşatmanın süresini vermez; ödenen vergi teklifin rakamıdır.",
+  kesinlik:"kesin",
+  olay:["1454-07-14|Kefe"],
+  kaynak:"TDV: haci-giray-i (1434, 1454 anlaşması ve kuşatma, vergi, Haydar) · TDV: kefe (Ceneviz Kefe'si, nüfus, 1475 fethi)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 23 · 1463 Osmanlı-Venedik savaşının başlaması ───────────────────────
+{ id:"savas-osmanli-venedik-1463", tur:"savas-hikayesi",
+  baslik:"On altı yıllık Osmanlı-Venedik Savaşı başlıyor (Temmuz 1463)",
+  kisa:"Bir Rum papazının açtığı kapıdan alınan Argos, Venedik'i on yıllardır kaçındığı savaşa soktu; papa Osmanlı topraklarının paylaşım planını bile hazırladı.",
+  tarih_metin:"11 Zilkade 867 · 28 Temmuz 1463 (Venedik'in savaş kararı) — savaş 1479'a kadar sürdü",
+  yer:"Mora (Argos, Heksamilion) · Ege · Arnavutluk · Bosna",
+  taraflar:[
+    { ad:"Osmanlı Devleti", komutan:"Fâtih Sultan Mehmed", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Venedik Cumhuriyeti ve müttefikleri (Macaristan, papalık; Arnavutluk'ta İskender Bey)", komutan:"okunan TDV maddelerinde Venedik komutanı adı geçmiyor", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"İstanbul'un fethinden sonra Venedik, 18 Nisan 1454 antlaşmasıyla doğudaki kolonilerini güvenceye almış ve Haçlı toplantılarından uzak durmuştu. Ama dengeler bozuluyordu: Fâtih 1460'ta Mora'yı, Venedik'in kıyıdaki kaleleri dışında, tümüyle aldı; Eylül 1462'de Midilli'yi ilhak etti; 1463'te Bosna'yı fethetti. TDV'ye göre Mora'ya gerçekten sahip olmak, Venedik'i Koron, Modon, Anabolu ve Argos'tan atmayı gerektiriyordu. Papanın çabasıyla Macaristan ve Venedik Osmanlılara karşı ittifak yaptı.",
+  akis:"1463'te Argos, yerli bir Rum papazın yardımıyla Osmanlılarca alındı; bu, Venedik'i 28 Temmuz 1463'te savaş kararı almaya götürdü. Papa Venedik ve Burgonya ile ittifak imzalayıp Mayıs 1464'ü Haçlı seferinin hareket tarihi olarak belirledi; Osmanlı topraklarının paylaşım planı bile çizildi. 1463 sonbaharında müttefikler saldırıya geçti: Venedikliler Argos'u geri aldı ve Heksamilion duvarını aceleyle yeniden yükseltti, Mora'da pek çok kale ve şehir onlara katıldı; Macar kralı 16 Aralık 1463'te Bosna'nın merkezi Yayça'yı aldı; Venedik donanması Çanakkale Boğazı'nın dışında dolaşıyordu. Arnavutluk'ta İskender Bey 20 Ağustos 1463'te Venedik'le anlaştı.",
+  sonuc:"Fâtih köklü önlemler aldı: donanmayı güçlendirmek için Kadırga Limanı tersanesini kurdurdu, İstanbul'u korumak için Boğaz'ın iki yakasına Sultâniye ve Kilitbahir kalelerini yaptırdı (1463-1464 kışı). Mora'da Venedikliler yenilip yarımadayı yeniden Osmanlılara bıraktı. Savaş on altı yıl sürdü; Fâtih 1465'ten itibaren barış görüşmeleri açtı ama haraç meselesi yüzünden uzlaşılamadı. Savaş 25 Ocak 1479'da İstanbul'da imzalanan antlaşmayla bitti: Venedik İşkodra'yı boşaltıp teslim etti, Akçahisar, Limni, Eğriboz ve Mayna'yı bıraktı ve yıllık bir vergi ödemeye razı oldu.",
+  tartisma:"Atlas maddesi savaşın başlangıcını 1463 Temmuz başına koyar; TDV II. Mehmed maddesi Venedik'in savaş kararını 28 Temmuz 1463 olarak verir. Venedik'i savaşa iten olay TDV'de Argos'un alınmasıdır.",
+  kesinlik:"kesin",
+  olay:["1463-07-01|Venedik"],
+  kaynak:"TDV: mehmed-ii (1454 antlaşması, Mora, Argos, 28 Temmuz 1463, Haçlı planı, Sultâniye ve Kilitbahir) · TDV: iskender-bey (20 Ağustos 1463) · TDV: venedik",
+  ic_not:"Madde günü 1463-07-01; TDV mehmed-ii savaş kararını 11 Zilkade 867 / 28 Temmuz 1463'e koyar — gün düzeltmesi madde sahibine önerilmeli (yazılmadı).",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 24 · 1466-1467 Fâtih'in Arnavutluk seferleri ────────────────────────
+{ id:"savas-arnavutluk-seferleri-1466", tur:"savas-hikayesi",
+  baslik:"Fâtih'in İskender Bey üzerine Arnavutluk seferleri (1466-1467)",
+  kisa:"Akçahisar'ın sarp kayası iki kez padişahı geri çevirdi; Fâtih alamadığı kalenin karşısına yirmi beş günde yeni bir şehir kurdurdu: İlbasan.",
+  tarih_metin:"1466 baharı (birinci sefer) · Haziran 1467 (ikinci sefer)",
+  yer:"Orta Arnavutluk — Akçahisar (Kruja) ve İlbasan (Elbasan)",
+  taraflar:[
+    { ad:"Osmanlı Devleti", komutan:"Fâtih Sultan Mehmed · Ohri sancak beyi Balaban Paşa", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"İskender Bey (Skanderbeg) ve Arnavut kuvvetleri, Venedik desteğiyle", komutan:"İskender Bey", kuvvet:"TDV'ye göre İskender Bey'in kuvvetleri hiçbir zaman 3000'i aşmadı" }
+  ],
+  oncesi:"Çocukken rehine olarak Osmanlı sarayına gönderilen İskender Bey, 1443 İzladi savaşında Rumeli beylerbeyinin ordugâhından kaçıp babasının topraklarını ve Akçahisar'ı ele geçirmiş, 1444'te Leş'te Arnavut beyleriyle birleşmişti. II. Murad 1450'de Akçahisar'ı kuşattı ama alamadı; İskender Bey 1451'de Napoli kralına tâbi oldu. Fâtih bir süre onunla ateşkes yaptı, ama 1463 yazında Osmanlı-Venedik savaşı başlayınca İskender Bey Venedik'le anlaştı ve Akçahisar'a Venedik askeri yerleşti. Balaban Paşa'nın 1464-1465 saldırıları sonuç vermedi.",
+  akis:"1466 baharında Fâtih büyük bir orduyla Arnavutluk'a geldi; ağır akınlarla isyancıları yıldırmaya, ani baskınlar yapan İskender Bey'i dağlarda takip ettirmeye çalıştı. Akçahisar'ın önüne gelince, çok sarp bir yerdeki kalenin alınmasının güçlüğünü görüp kuşatmayı Balaban Paşa'ya bıraktı. Orta Arnavutluk'ta isyancıları baskı altında tutmak için İlbasan kalesini yirmi beş günde inşa ettirdi. İskender Bey yardım için Roma'ya ve Napoli'ye gitti; papa 12 Aralık 1466'da ona 5000 duka verdi. Nisan 1467'de dönüp Akçahisar'ı kuşatan Osmanlı kuvvetlerine akınlar yaptı, İlbasan'ı kuşattı. Fâtih Haziran 1467'de yeniden Arnavutluk'a girdi, Buzurşek Boğazı'nı tuttu, akıncılar kıyıya kadar ilerledi; ardından Akçahisar'ı kuşattı, ama sarp kale bu kez de alınamadı ve kuşatmayı sürdürecek bir kuvvet bırakıldı.",
+  sonuc:"İlbasan çevresi yeni bir sancak oldu; Fâtih'in 1466'da kurduğu İlbasan kısa sürede bir Müslüman merkezine dönüştü. İskender Bey 1468'de öldü. TDV'ye göre Arnavutluk'un tamamen fethi ancak onun ölümünden sonra, 1463 anlaşmasına dayanarak mirasçısı olduklarını ileri süren Venediklilerle yapılan savaşlar sonunda gerçekleşti: Akçahisar 1478'de, İşkodra 1479'da, Draç 1501'de alındı.",
+  tartisma:"Okunan TDV maddeleri iki seferin günlerini ve kayıplarını vermez. İskender Bey'in kuvvetinin 3000'i aşmadığı bilgisi TDV İskender Bey maddesindedir.",
+  kesinlik:"kesin",
+  olay:["1466-06-01|Arnavutluk"],
+  kaynak:"TDV: iskender-bey (öncesi, 1466 ve 1467 seferleri, İlbasan, Roma yolculuğu) · TDV: arnavutluk (İlbasan sancağı, fethin tamamlanması)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 25 · 1480 Rodos ──────────────────────────────────────────────────────
+{ id:"savas-rodos-1480", tur:"savas-hikayesi",
+  baslik:"Birinci Rodos kuşatması (23 Mayıs – 28 Temmuz 1480)",
+  kisa:"Fâtih aynı bahar hem Rodos'a hem İtalya'ya ordu yolladı; Rodos doksan günlük kuşatmaya dayandı ve Avrupa'nın en sağlam kalesine dönüştü.",
+  tarih_metin:"13 Rebîülevvel 885 · 23 Mayıs 1480 (başlangıç) · 20 Cemâziyelevvel 885 · 28 Temmuz 1480 (son büyük hücum) · donanma 3 Ağustos'ta ayrıldı",
+  yer:"Rodos adası ve kalesi",
+  taraflar:[
+    { ad:"Osmanlı Devleti", komutan:"Vezir Mesih Paşa", kuvvet:"160 gemilik filo" },
+    { ad:"Saint Jean (Rodos) Şövalyeleri", komutan:"Büyük Üstat Pierre d'Aubusson", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"Rodos şövalyeleri papaya bağlı oldukları için padişaha haraç ödemeyi reddetmiş ve savaş hâlini sürdürmüştü; 1454'teki Osmanlı Ege seferi sonuç vermemiş, Fâtih 1461'de Trabzon seferine çıkarken şövalyelerle ateşkes yapmıştı. Şövalyeler Türk gemilerine ve kıyılarına korsan saldırılarını artırdı. 1479'da Venedik'le barışı imzalayan Fâtih yüzünü Rodos'a, İtalya'ya ve papaya çevirdi. 1480 baharında bir yandan Vezir Mesih Paşa'yı Rodos'a, öbür yandan Gedik Ahmed Paşa'yı Güney İtalya'ya gönderdi.",
+  akis:"Mesih Paşa'nın 160 gemilik filosu adayı yaklaşık üç ay kuşattı. Pierre d'Aubusson komutasındaki şövalyeler ağır kayıplara rağmen şiddetle direndi. 28 Temmuz 1480'de yapılan son büyük hücum da sonuç vermeyince Osmanlılar kuşatmayı kaldırdı; donanma 3 Ağustos'ta adadan ayrıldı.",
+  sonuc:"TDV II. Mehmed maddesi ordunun doksan günlük çetin bir kuşatmadan sonra büyük kayıplarla çekildiğini yazar. Başarısızlık yüzünden Mesih Paşa vezirlikten azledildi. Şövalyeler şehir surlarını baştan sona yeniledi ve güçlendirdi; Rodos Avrupa'nın en sağlam istihkâmı hâline geldi. Gedik Ahmed Paşa ise aynı yaz 132 gemi ve 18.000 kişiyle İtalya'ya geçip 11 Ağustos 1480'de Otranto'yu aldı. Rodos ancak 20 Aralık 1522'de Kanûnî Sultan Süleyman'a teslim oldu.",
+  tartisma:"Mesih Paşa'nın azlinden sonra Gelibolu sancak beyliğine gönderildiği rivayeti, aynı dönemde Gedik Ahmed Paşa'nın da Gelibolu sancak beyi olarak gösterilmesi yüzünden şüphelidir (TDV Mesih Paşa).",
+  kesinlik:"kesin",
+  olay:["1480-07-28|Rodos"],
+  kaynak:"TDV: rodos (filo, süre, d'Aubusson, 28 Temmuz ve 3 Ağustos, surların yenilenmesi) · TDV: mehmed-ii (şövalyelerle ilişkiler, iki yönlü sefer, 23 Mayıs başlangıcı) · TDV: mesih-pasa (azil) · TDV: mehmed-ii (Otranto)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 26 · 1481 Yenişehir: Bayezid ve Cem ─────────────────────────────────
+{ id:"savas-yenisehir-cem-1481", tur:"savas-hikayesi",
+  baslik:"Yenişehir Savaşı: II. Bayezid'e karşı Cem Sultan (Haziran 1481)",
+  kisa:"Fâtih ölünce iki şehzade tahta koştu; Bursa'da padişahlığını ilan eden Cem ülkeyi paylaşmayı önerdi, Yenişehir'de yenilip on dört yıl sürecek bir sürgüne çıktı.",
+  tarih_metin:"22 Haziran 1481 (TDV II. Bayezid maddesi) — TDV Cem Sultan maddesi 'Haziran 1481' der",
+  yer:"Yenişehir ovası, Bursa'nın doğusu",
+  taraflar:[
+    { ad:"II. Bayezid", komutan:"II. Bayezid · son anda yetişen Gedik Ahmed Paşa", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Cem Sultan", komutan:"Cem Sultan (Karaman sancak beyi)", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"Fâtih Sultan Mehmed 3 Mayıs 1481'de öldü. Vezîriâzam Karamânî Mehmed Paşa Cem'den yanaydı; İstanbul muhafızı İshak Paşa, Anadolu beylerbeyi Sinan ve yeniçeri ağası Kasım ise Bayezid'i istiyordu. Cem'e giden ulağın yolu kesildi, İstanbul'daki karışıklıkta Karamânî öldürüldü, yeniçeriler Bayezid lehine gösteri yaptı. Tahta çıkan Bayezid kapıkullarına cülus bahşişi dağıttı. Konya'daki Cem ise babasının kendisini seçtiğini ileri sürüp ordu topladı, Bursa'ya girdi; on sekiz gün kadar kalıp adına hutbe okuttu, para bastırdı ve padişahlığını ilan etti. Ardından imparatorluğu paylaşmayı teklif etti; Bayezid saltanatın bölünemeyeceğini söyleyip reddetti ve üzerine yürüdü.",
+  akis:"İki ordu Yenişehir'de karşılaştı ve Cem ağır bir yenilgiye uğradı. Hanivaldanus'a göre savaşa son anda yetişen Gedik Ahmed Paşa Bayezid'in kazanmasında büyük katkıda bulundu; ancak Cem'i Ereğli'ye kadar kovaladığı hâlde yakalayamadı ve bu yüzden onun Cem taraftarı olduğu söylentisi çıktı.",
+  sonuc:"Cem Konya'da destek bulamayınca Tarsus'a, Memlük sultanının davetiyle Kahire'ye gitti ve oradan hacca gitti. 1482'de Karamanoğlu Kasım'la anlaşıp Konya'yı almaya çalıştı, püskürtüldü; otuz kadar adamıyla Rodos'a sığındı (29 Temmuz 1482). Bayezid, Cem'i gözetim altında tutmaları için şövalyelere her yıl 40.000 duka ödemeyi kabul etti. Cem Fransa'da ve Roma'da tutuldu; 25 Şubat 1495'te büyük ihtimalle zehirlenerek öldü. TDV'ye göre Cem meselesi ve Avrupa'da uyandırdığı umutlar Bayezid'i çok dikkatli ve barışçı bir siyasete itti; ilk sonucu da Otranto'nun elden çıkması oldu. Gedik Ahmed Paşa 18 Kasım 1482'de, Cem'e yakınlığından şüphelenilerek öldürüldü.",
+  tartisma:"Fâtih'in Cem'in doğumuna sevinmeyip beşiğini tekmelediği ya da Bayezid'i vasiyet ettiği kayıtlarını TDV gerçeği yansıtmaktan uzak bulur. Savaşın günü yalnız TDV II. Bayezid maddesinde (22 Haziran) verilir.",
+  kesinlik:"kesin",
+  olay:["1481-06-20|Yenişehir"],
+  kaynak:"TDV: bayezid-ii (taht kavgası, paylaşım teklifi, 22 Haziran, Rodos anlaşması) · TDV: cem-sultan (Bursa'daki 18 gün, sürgün) · TDV: gedik-ahmed-pasa (savaşa katılımı ve sonu)",
+  ic_not:"Madde günü 1481-06-20; TDV bayezid-ii 22 Haziran der — gün düzeltmesi madde sahibine önerilmeli (yazılmadı).",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 27 · 1485-1491 Osmanlı-Memlük savaşı ────────────────────────────────
+{ id:"savas-osmanli-memluk-1485", tur:"savas-hikayesi",
+  baslik:"Osmanlı-Memlük Savaşı (1485-1491)",
+  kisa:"Çukurova ve Dulkadır toprağı üzerindeki nüfuz yarışı altı yıllık bir savaşa döndü; iki sadrazam adayı esir düştü, kimse kesin zafer kazanamadı.",
+  tarih_metin:"1485 (başlangıç) · 1486 (Hersekzâde'nin esareti) · 1488 (Ayas ve Adana) · 896 / 1491 (barış)",
+  yer:"Çukurova (Adana, Tarsus, Gülek), Ayas ve İskenderun kıyıları",
+  taraflar:[
+    { ad:"Osmanlı Devleti", komutan:"II. Bayezid · serdarlar Hersekzâde Ahmed Paşa (1486), Hadım Ali Paşa (1488)", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Memlük Sultanlığı", komutan:"Sultan Kayıtbay", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"TDV II. Bayezid maddesine göre bu, Bayezid devrinin en önemli olayıdır. Çukurova'da ve Dulkadıroğulları Beyliği üzerinde üstünlük kurma yarışı ve Memlüklerin Cem Sultan'ı desteklemesi iki devleti karşı karşıya getirdi. Cem yenildikten sonra Memlük sultanının davetiyle Kahire'ye gitmiş, orada büyük ilgi görmüştü.",
+  akis:"Savaş 1485'te başladı. Memlük kuvvetleri Osmanlılara bağlı Dulkadıroğlu Alâüddevle'yi yenip Kilikya'daki bazı kaleleri ve Gülek'i aldı. Anadolu beylerbeyi Hersekzâde Ahmed Paşa serdar yapılıp gönderildi (1486); ama emrine verilen Karagöz Paşa ile Hızır Beyzâde kıskançlıkla ona yardım etmeyince yaralanıp esir düştü ve Kahire'de Kayıtbay'ın huzuruna çıkarıldı; bir yıl sonra serbest bırakıldı. 1488'de Vezir Hadım Ali Paşa serdar oldu; kaptan-ı deryâ olan Hersekzâde'nin donanması Ayas'ı aldı, Trablusşam kıyılarına saldırdı, ama İskenderun'a yönelirken şiddetli bir fırtınaya tutulup gemilerinin çoğunu kaybetti. Başta üstün gelen Osmanlı kara ordusu da yenildi ve Adana yeniden Memlüklerin eline geçti.",
+  sonuc:"Taraflar kesin bir zafer kazanamadı. Tunus hükümdarı Osman Hafsî'nin aracılığıyla 1491'de barış yapıldı; Adana ve Tarsus kaleleri Haremeyn vakıflarına bağlı oldukları gerekçesiyle Memlüklere bırakıldı. TDV, Mısır'la savaşın Osmanlıların Karaman ve Dulkadıroğulları ile ilişkilerini de olumsuz etkilediğini yazar; Dulkadır ilişkileri barıştan ve Alâüddevle'nin af dilemesinden sonra düzeldi. Memlüklerle hesap 1516-1517'de Yavuz Sultan Selim döneminde kapanacaktı.",
+  tartisma:"Hersekzâde'nin sonraki bir seferde Kayseri yakınında ikinci kez esir düştüğü ve 1491 barışıyla serbest kaldığı rivayetini TDV, devrin kaynaklarınca doğrulanmadığı için kuşkulu sayar.",
+  kesinlik:"kesin",
+  olay:["1485-01-01|Memlük"],
+  kaynak:"TDV: bayezid-ii (sebepler, 1491 barışı, Adana ve Tarsus) · TDV: hersekzade-ahmed-pasa (1486 esareti, 1488 deniz harekâtı, Adana'nın kaybı)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 28 · 1516 Koçhisar ───────────────────────────────────────────────────
+{ id:"savas-kochisar-1516", tur:"savas-hikayesi",
+  baslik:"Koçhisar (Dede Garkın) Savaşı (Mayıs 1516)",
+  kisa:"Çaldıran'dan sonra Diyarbekir'i geri almaya gelen Safevî Kara Han, bütün gün süren bir savaşta başını kaybetti; Doğu Anadolu'nun fethi hemen hemen tamamlandı.",
+  tarih_metin:"Mayıs 1516",
+  yer:"Koçhisar (bugün Kızıltepe) yakını, Dede Garkın sahrası, Koruk mevkii",
+  taraflar:[
+    { ad:"Osmanlı Devleti", komutan:"Diyarbekir Beylerbeyi Bıyıklı Mehmed Paşa", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Safevî Devleti", komutan:"Kara Han (Ustacalu)", kuvvet:"Şah İsmâil'in gönderdiği ordu 5000 kişi (TDV Bıyıklı Mehmed Paşa)" }
+  ],
+  oncesi:"23 Ağustos 1514 Çaldıran zaferi bölgenin kaderini değiştirdi. Savaşta ölen Ustacalu'nun yerine kardeşi Kara Han geçti ve karargâhını Mardin'e kurdu. Şah İsmâil onu 5000 kişiyle bölgeye yolladı; Kara Han Diyarbekir'i (Âmid) uzun süre kuşattı, Bıyıklı Mehmed Paşa yetişince Mardin'e çekildi. İdrîs-i Bitlisî'nin aracılığıyla Mardin halkı şehri teslim etti (1515), ama Bıyıklı ile Şâdî Paşa arasındaki anlaşmazlık yüzünden Osmanlı kuvvetleri şehirden çekilince Kara Han Mardin'i geri aldı ve Diyarbekir'i yeniden kuşattı. Yavuz Sultan Selim, Karaman beylerbeyi Hüsrev Paşa'yı Anadolu sipahileriyle bölgeye gönderdi; Kara Han kuşatmayı kaldırıp Mardin'e doğru çekildi.",
+  akis:"Bıyıklı Mehmed Paşa Kara Han'ı takibe koyuldu ve Karaköprü mevkiinde ona pusu kurmayı planladı; ama pusudaki Osmanlı birlikleri tuzağa düşürülüp kırıldı. Yanlış bilgi yüzünden Diyarbekir'e dönmüş olan paşa takviyeleri bekledikten sonra yeniden yola çıktı. Koçhisar yakınında Dede Garkın sahrasında bütün gün süren savaşta Kara Han'ın başı kesildi ve ordusu dağıldı.",
+  sonuc:"Bıyıklı Mehmed Paşa Mardin kalesine yürüdü, çevredeki kaleleri aldı; Mardin kuşatılıp toplarla dövüldü. Böylece Diyarbekir bölgesinin fethi hemen hemen tamamlandı. Mardin kalesi ise ancak paşa Mercidâbık'tan ve Halep'in fethinden döndükten sonra, Aralık 1516 ya da Ocak 1517'de alınabildi.",
+  tartisma:"Mardin kalesinin alınış tarihi ayrışır: TDV Mardin maddesi '1516 sonları (veya Mayıs 1517)', TDV Bıyıklı Mehmed Paşa maddesi 'Aralık 1516 veya Ocak 1517' der. Mardin maddesi Osmanlıların savaşta önce yenildiğini, sonunda kazandığını yazar; Bıyıklı maddesi bu ilk yenilgiyi Karaköprü pususu olarak anlatır.",
+  kesinlik:"kesin",
+  olay:["1516-05-01|Koçhisar"],
+  kaynak:"TDV: biyikli-mehmed-pasa (Kara Han'ın ordusu, Karaköprü, Dede Garkın, Mardin kalesi) · TDV: mardin (Çaldıran sonrası, Koruk mevkii, Mardin'in alınışı)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 29 · 1516 Aden ───────────────────────────────────────────────────────
+{ id:"savas-aden-1516", tur:"savas-hikayesi",
+  baslik:"Aden kuşatması (2-10 Ağustos 1516)",
+  kisa:"Portekiz'i Hint sularından atmak için Kızıldeniz'e gelen filo Yemen'i ele geçirmeye girişti; Aden'in kalesi dayandı ve Selman Reis üç yerinden yaralandı.",
+  tarih_metin:"3 Receb 922 · 2 Ağustos 1516 (Aden'e varış) · 11 Receb 922 · 10 Ağustos 1516 (çekiliş)",
+  yer:"Aden ve Sîre kalesi, Yemen'in güney kıyısı",
+  taraflar:[
+    { ad:"Memlük hizmetindeki Kızıldeniz donanması", komutan:"Selman Reis · Hüseyin Bey (Hüseyin Kürdî)", kuvvet:"yirmi iki kadırga ve iki barça" },
+    { ad:"Yemen Tâhirî Sultanlığı (Aden kalesi)", komutan:"Aden hâkimi Mürcan el-Âmirî · yardıma gelen Abdülmelik b. Abdülvehhâb", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"Portekiz tehdidi karşısında Gucerât sultanı ile Yemen sultanı II. Âmir, Mısır Sultanı Kansu Gavri'den yardım istedi. TDV'ye göre Osmanlı Devleti adına Mısır'a giden Selman Reis, 1511'de Süveyş'te hazırlanan elli kadırgalık donanmanın kaptanı oldu; serdar Hüseyin Bey'di. 1515 yazında filo Hindistan'a gitti, Diu'da Gucerât sultanıyla ittifak yaptı, ama Portekiz'in tahkim ettiği Goa alınamadı. Yemen'e dönen donanma Kemeran adasına bir kale kurdu. Kendilerini çağıran Sultan Âmir erzak yardımı yapmayınca kıyıları yağmaladılar; Hüseyin Bey Zeydîlerin yardımıyla 20 Haziran 1516'da Zebîd'i aldı. Bir ay sonra filo Aden'i fethetmek için denize açıldı.",
+  akis:"Donanma 2 Ağustos 1516'da Aden'e ulaştı. Selman Reis karaya çıkıp kale yakınında çadır kurdu; limandan çıkan kalyonlardan Sultan Âmir'e ait olanın mallarına el koydu ve bu gemileri Gucerât'a, Yemen'i fethettiğini bildiren bir mektupla gönderdi. Hüseyin Bey ile Selman Reis Aden'e bağlı Sîre kalesinin altına yerleşip Aden kalesini topa tuttular, ama çok sayıda asker ve cephanesi olan kale Mürcan el-Âmirî'nin şiddetli savunmasıyla teslim olmadı. Kaleden yapılan ilk çıkışta Selman Reis üç yerinden yaralandı. Âmir'in kardeşi Abdülmelik Taiz'den bir orduyla yardıma gelince kuşatma kaldırıldı.",
+  sonuc:"Filo 10 Ağustos 1516'da Aden'den ayrıldı; Zeyla, Moha ve Kemeran üzerinden Cidde'ye döndü. Hüseyin Bey, Mekke şerifinin şikâyetiyle görevden alındı ve Mısır'a giderken denize atılarak öldürüldü. Selman Reis ise Osmanlıların Mısır'ı fethinden sonra Yavuz Sultan Selim tarafından çağrıldı ve Nisan 1517'de Cidde'yi bir Portekiz donanmasına karşı başarıyla savundu. Aden ancak 3 Ağustos 1538'de Hadım Süleyman Paşa komutasındaki yetmiş altı gemilik Osmanlı donanmasınca alınacaktı.",
+  tartisma:"Okunan TDV maddeleri kuşatmadaki kayıpları vermez. Filonun statüsü: donanma Memlük sultanının emriyle hazırlanmıştı; TDV, Selman Reis'in Mısır'a Osmanlı Devleti adına gittiğini belirtir.",
+  kesinlik:"kesin",
+  olay:["1516-08-02|Aden"],
+  kaynak:"TDV: selman-reis (Süveyş donanması, Hindistan seferi, Zebîd, Aden kuşatması, Cidde savunması) · TDV: aden (1538 fethi)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 30 · 1532 Alman Seferi ve Güns ──────────────────────────────────────
+{ id:"savas-alman-seferi-guns-1532", tur:"savas-hikayesi",
+  baslik:"Alman Seferi ve Güns (Kőszeg) kuşatması (1532)",
+  kisa:"Kanûnî bu kez Viyana'yı değil imparatorun kendisini aradı: Güns önünde V. Karl'ın gelmesini bekledi, gelen olmadı.",
+  tarih_metin:"25 Nisan 1532 (İstanbul'dan çıkış) · Ağustos 1532 (Güns) · Eylül 1532 (Gratz'a yöneliş) · 22 Kasım 1532 (İstanbul'a dönüş şenlikleri)",
+  yer:"Güns (Kőszeg), Viyana'ya 60 mil uzaklıkta, Batı Macaristan · ardından Gratz (Steiermark) yönü",
+  taraflar:[
+    { ad:"Osmanlı Devleti", komutan:"Kanûnî Sultan Süleyman · Vezîriâzam İbrâhim Paşa", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Habsburglar (Güns kalesi; Viyana önündeki imparatorluk ordusu)", komutan:"V. Karl · Ferdinand", kuvvet:"kaynakta sayı verilmiyor; TDV imparatorluk ordusunu 'hayli kalabalık' diye niteler" }
+  ],
+  oncesi:"1529 Viyana kuşatması on yedi gün sonra kaldırılmıştı. Ferdinand Budin üzerindeki baskısını sürdürdü ve 1531'de şehri kuşattı; bu yeni bir yardım seferini zorunlu kıldı. Kanûnî bu kez hedefini doğrudan Habsburg İmparatoru V. Karl olarak belirledi; sefer kaynaklarda 'İspanya kralı kastına' diye anılır. Padişah 25 Nisan 1532'de İstanbul'dan çıktı; Niş'te Ferdinand'ın elçileri, 5 Temmuz'da Fransız elçisi Rinçon ordugâha geldi.",
+  akis:"Osmanlı ordusu Macaristan'a girip Ferdinand'ın topraklarında ilerledi, ama imparatorluk ordusundan hiçbir iz görülmedi. Padişah Viyana'ya 60 mil mesafedeki Güns'ü kuşatıp V. Karl'ın üzerine gelmesini bekledi. Hayli kalabalık imparatorluk ordusu Viyana yakınındaki Brigittenau'da duruyordu ve kıpırdamadı. Güns'ü alan Osmanlı ordusu Eylül 1532'de Gratz'a yöneldi, mevsim ilerlediği için oradan geri döndü.",
+  sonuc:"İmparatorluk orduları kendi topraklarına giren Osmanlı ordusuna karşı bir karşı harekâta girişemedi. Kanûnî İstanbul'a dönünce beş gün beş gece süren şenlikler yaptırdı (22 Kasım 1532). Ardından Habsburg elçileriyle 1533'te İstanbul'da barış görüşmeleri yapıldı; TDV'ye göre bu görüşmeleri tümüyle İbrâhim Paşa yürüttü ve Osmanlı vezîriâzamı protokolde Ferdinand'a eşit sayıldı.",
+  tartisma:"Okunan TDV maddeleri Güns kuşatmasının süresini ve savunmanın ayrıntılarını vermez; kalenin 'alındığını' söyler. Seferin asıl amacı bir kale değil, imparatorla meydan savaşıydı.",
+  kesinlik:"kesin",
+  olay:["1532-08-05|Güns"],
+  kaynak:"TDV: suleyman-i (seferin sebebi ve hedefi, güzergâh, Güns, Gratz, dönüş) · TDV: ibrahim-pasa-makbul (Alman seferi ve 1533 barışı)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 31 · 1537 Korfu ──────────────────────────────────────────────────────
+{ id:"savas-korfu-1537", tur:"savas-hikayesi",
+  baslik:"Korfu kuşatması (25 Ağustos – 6 Eylül 1537)",
+  kisa:"İtalya'nın istilasına hazırlık olarak tasarlanan sefer, Venedik'in 'sağ gözü' Korfu'nun kalesinde tıkandı; Kanûnî ani bir kararla geri döndü.",
+  tarih_metin:"17 Mayıs 1537 (donanma ve ordu İstanbul'dan çıkar) · 18 Rebîülevvel 944 · 25 Ağustos 1537 (çıkarma) · 30 Rebîülevvel 944 · 6 Eylül 1537 (kuşatma kalkar)",
+  yer:"Korfu adası, Epir kıyıları açığı",
+  taraflar:[
+    { ad:"Osmanlı Devleti", komutan:"Kanûnî Sultan Süleyman · Kaptanıderyâ Barbaros Hayreddin Paşa · serdar Lutfi Paşa · Sadrazam Ayas Paşa", kuvvet:"kuşatmaya katılan ordu 50.000 dolayında, ayrıca elli civarında top" },
+    { ad:"Venedik Cumhuriyeti (Korfu kalesi)", komutan:"okunan TDV maddelerinde adı geçmiyor", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"1386'dan beri Venedik'in elindeki Korfu, Adriyatik'in girişini denetliyordu; Kemal Reis onu 'Venedik'in sağ gözü' diye tarif etmişti ve II. Bayezid de bir sefer düşünmüş, mevsim geçince vazgeçmişti. Kanûnî öteden beri İtalya'nın fethini tasarlıyordu; TDV bu seferi onun İtalya'ya yönelik niyetlerinin başlangıcı olarak tasarlandığını, ilk kez denizde Fransız ve Osmanlı askerlerinin ortak harekât yaptığını yazar. Kaynaklarda sefer 'sefer-i Pulya ve gazâ-yı Körfös' diye anılır.",
+  akis:"Barbaros'un donanması ve padişahın kara ordusu 17 Mayıs 1537'de İstanbul'dan çıktı ve Avlonya'da buluştu; bir kısım kuvvet Otranto yöresine çıktı. Donanma 25 Ağustos'ta Korfu'ya asker ve top çıkardı. Kanûnî karşı kıyıda karargâh kurdu; Sadrazam Ayas Paşa komutasında ikinci bir çıkarma yapıldı, muhtemelen kıyıya en yakın noktada gemiler birbirine bağlanarak köprü kuruldu. Adanın tamamı alındı, kale kuşatıldı ve surlarda gedikler açıldı, ama sonuç alınamadı. Hava şartları ve TDV'ye göre belki daha önemlisi siyasi sebeplerle kuşatma 6 Eylül'de kaldırıldı; adadan çekilme dokuz gün sürdü.",
+  sonuc:"Padişah 15 Eylül'de İstanbul'a doğru yola çıktı. Korfu kalesi yeniden tahkim edildi; 1538'de Preveze'de Osmanlı donanmasının karşısına çıkan Haçlı donanması Korfu'yu üs olarak kullandı. Venedik'le savaş antlaşmayla bitti ve Barbaros'un aldığı Ege adalarının durumu belirlendi. Adanın nüfusu kuşatmadan önce 40.000 civarındayken 1588'de 19.000'e düşmüştü.",
+  tartisma:"Kuşatmanın kaldırılış sebebi kaynaklarda kesin değildir: TDV Korfu maddesi hava şartlarını ve 'belki daha önemlisi' siyasi sebepleri, Kanûnî maddesi padişahın ani bir kararını anar.",
+  kesinlik:"kesin",
+  olay:["1537-08-25|Korfu"],
+  kaynak:"TDV: korfu (seferin adı, tarihler, ordu ve top sayısı, kuşatmanın kalkışı, nüfus) · TDV: suleyman-i (İtalya tasarısı, Fransız ortaklığı, dönüş)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 32 · 1559 Konya ──────────────────────────────────────────────────────
+{ id:"savas-konya-sehzadeler-1559", tur:"savas-hikayesi",
+  baslik:"Konya Savaşı: Şehzade Bayezid'e karşı Şehzade Selim (30-31 Mayıs 1559)",
+  kisa:"Kanûnî'nin iki oğlu tahtı babaları sağken paylaşamadı; Konya önündeki iki günlük savaş, Bayezid'i İran'a ve sonunda bir kemente götürdü.",
+  tarih_metin:"29 Mayıs 1559 (Bayezid Konya önünde) · 30-31 Mayıs 1559 (iki gün süren savaş)",
+  yer:"Konya önleri",
+  taraflar:[
+    { ad:"Şehzade Selim ve padişahın gönderdiği kuvvetler", komutan:"Şehzade Selim · Vezir Sokullu Mehmed Paşa ve bazı beylerbeyileri", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Şehzade Bayezid", komutan:"Şehzade Bayezid", kuvvet:"30.000'i bulan, eğitimi yetersiz 'yevmlü' askerler" }
+  ],
+  oncesi:"Şehzade Mustafa'nın 1553'te öldürülmesinden sonra Bayezid kendini tahtın tabii vârisi saymaya başladı ve ağabeyi Selim'le aralarında saltanat mücadelesi doğdu. TDV bu kavgayı yalnız hırsların değil, Mustafa'nın ölümünden sonra yaygınlaşan hoşnutsuzluğun ve kardeş katli kanununa dair korkunun da sonucu sayar. Annesi Hürrem Sultan 15 Nisan 1558'de ölünce Bayezid taraftar toplamaya başladı. Kanûnî oğullarını birbirinden uzaklaştırmak için Selim'i Konya'ya, Bayezid'i Amasya'ya nakletti; Bayezid bunu hakaret saydı. Asker toplamayı sürdürdü; padişah Selim'in de asker toplamasını istedi ve ona beylerbeyileriyle Sokullu'yu yolladı. Şeyhülislâm Ebüssuûd Efendi ve başka âlimler Bayezid'i 'bâgī' (isyancı) ilan eden fetvalar verdi.",
+  akis:"Amasya'dan Ankara'ya gelen Bayezid 30.000'i bulan kuvvetleriyle yola çıkıp 29 Mayıs 1559'da Konya önlerine vardı. Adamları Selim'i destekleyen düzenli kuvvetlere göre eğitimce çok yetersizdi. 30 Mayıs'ta başlayan ve iki gün süren savaş Bayezid'in yenilgisiyle bitti.",
+  sonuc:"Bayezid hızla Amasya'ya döndü ve affını dilemek için müftüyü babasına gönderdi; Kanûnî affetmedi, yakalanmasını emretti. Bayezid dört oğluyla 7 Temmuz'da Amasya'dan çıktı, doğu sınırında kendisine yetişen beyleri yendi ve Ağustos 1559 ortasında İran'a sığındı. Şah Tahmasb onu önce törenle karşıladı, sonra hapsetti. Uzun pazarlıklardan sonra Bayezid 23 Temmuz 1562'de Kazvin'de Selim'in adamına teslim edilip boğduruldu, dört oğlu da öldürüldü. Taht yolu Selim'e (II. Selim) açıldı.",
+  tartisma:"Okunan TDV maddesi Selim tarafının kuvvet sayısını vermez. Şah'a teslim karşılığında vaat edilen 1.200.000 altın yerine 500.000 filori ve hediyeler gönderildiği belgeyle bilinir.",
+  kesinlik:"kesin",
+  olay:["1559-05-30|Konya"],
+  kaynak:"TDV: bayezid-sehzade (taht kavgasının sebepleri, nakiller, fetvalar, Konya savaşı, İran'a iltica ve sonu)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 33 · 1565 Malta ──────────────────────────────────────────────────────
+{ id:"savas-malta-1565", tur:"savas-hikayesi",
+  baslik:"Malta Kuşatması (18 Mayıs – 12 Eylül 1565)",
+  kisa:"Akdeniz'in ortasındaki şövalye adası dört ay dayandı; Turgut Reis Saint Elmo önünde öldü, Osmanlı'nın imajı Batı'da derin bir yara aldı.",
+  tarih_metin:"29 Mart 1565 (donanma İstanbul'dan çıkar) · 19 Mayıs (Malta önüne varış) · 21 Mayıs (karaya çıkış) · 23 Haziran (Saint Elmo alınır) · 8 Eylül (kuşatma kalkar) · 12 Eylül 1565 (adadan ayrılış)",
+  yer:"Malta adası — Saint Elmo (Santarma), Birgu, Senglea ve Mersamuscet limanı",
+  taraflar:[
+    { ad:"Osmanlı Devleti", komutan:"Serdar Vezir Mustafa Paşa · Kaptanıderyâ Piyâle Paşa · Trablusgarp Beylerbeyi Turgut Paşa · Cezayir Beylerbeyi Hasan Paşa", kuvvet:"240 gemilik donanma (TDV Piyâle Paşa); ordu sayısı verilmiyor" },
+    { ad:"Saint Jean (Malta) Şövalyeleri", komutan:"Büyük Üstat La Valette · Eylül'de Sicilya Valisi Don Garcia'nın yardım kuvveti", kuvvet:"yardım kuvveti 8000 asker; garnizon sayısı verilmiyor" }
+  ],
+  oncesi:"Kanûnî'nin 1522'de Rodos'tan çıkardığı Saint Jean şövalyelerini V. Carlos 1530'da Malta'ya yerleştirmişti. Şövalyeler Birgu'yu merkez yapıp Saint Angelo'yu tahkim etmiş, Senglea'da Saint Michel'i ve 1552'de Saint Elmo kalesini kurdular. Turgut Reis'in 1540'tan itibaren akınları, 1551'de Gozo'nun yağmalanması ve 1560 Cerbe seferi adayla ilk karşılaşmalardı. TDV'ye göre Osmanlılar, şövalyelerin Akdeniz'de Müslüman hacılara, tüccara ve yolculara verdiği zarar yüzünden adanın alınmasını kararlaştırdı; bu gerekçe 23 Mart 1565 tarihli serdarlık beratında da yazılıdır.",
+  akis:"Mustafa Paşa'nın donanması 29 Mart'ta İstanbul'dan çıktı, 19 Mayıs'ta Malta önüne geldi ve 21 Mayıs'ta Mersaşolok'ta karaya çıktı. La Valette savaşsız teslim teklifini reddetti; ordu Saint Elmo yakınında siper kazdı. 2 Haziran'da gelen Turgut Paşa kuşatmanın Saint Elmo'dan başlatılmasını doğru bulmadı ama harekâta katıldı; 18 Haziran'da başından bir gülle parçasıyla ağır yaralandı ve Saint Elmo'nun alındığı 23 Haziran'da öldü. Saint Elmo'nun zaptıyla donanma adanın en korunaklı limanı Mersamuscet'e girdi; kuşatma Birgu ve Senglea'ya çevrildi. 12 Temmuz'da Hasan Paşa yirmi beş kadırgayla katıldı. 7 ve 20 Ağustos'taki iki şiddetli hücum da sonuç vermedi. 6 Eylül'de Sicilya Valisi Don Garcia 8000 askerle adanın batısına çıktı.",
+  sonuc:"Mevsim dönüyor, şolok rüzgârları başlıyordu: Mustafa Paşa 8 Eylül'de kuşatmayı kaldırdı; yardım kuvvetiyle son bir çatışmadan sonra ordu 12 Eylül 1565'te adayı terk etti. TDV'ye göre seferde yaklaşık 20.000 asker öldü; resmî kayıtlarda denizde boğulan ve kuşatmada ölen tımar sahibi sayısı 540'tır. Mustafa Paşa vezirlikten azledildi. Sonuç İstanbul'da üzüntüyle, Avrupa'da sevinçle karşılandı; TDV Kanûnî maddesi bu bozgunun Osmanlı imajını Batı'da çok sarstığını ve padişahın son seferine çıkma kararında etkili olduğunu yazar. Yerle bir olan Birgu'nun yerine şövalyeler 1566'da bugünkü Valletta'yı kurdu.",
+  tartisma:"Okunan TDV maddeleri Osmanlı ordusunun ve şövalye garnizonunun sayısını vermez; ölü sayısı (yaklaşık 20.000) TDV Malta maddesinin kaynaklarına dayanır. Atlas maddesi 18 Mayıs'ı başlangıç alır; TDV'ye göre donanma 19 Mayıs'ta adaya varmış, 21 Mayıs'ta karaya çıkmıştır.",
+  kesinlik:"kesin",
+  olay:["1565-05-18|Malta"],
+  kaynak:"TDV: malta (Osmanlı dönemi bölümü — sebepler, sefer günlüğü, Saint Elmo, yardım kuvveti, kayıplar) · TDV: turgut-reis (katılımı ve ölümü) · TDV: piyale-pasa (240 gemi) · TDV: suleyman-i (bozgunun etkisi)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 34 · 1583 Meşale Savaşı ──────────────────────────────────────────────
+{ id:"savas-mesale-1583", tur:"savas-hikayesi",
+  baslik:"Meşale Savaşı (7-11 Mayıs 1583)",
+  kisa:"Dört gün dört gece süren, geceleri meşale ışığında sürdüğü anlatılan savaşla Özdemiroğlu Osman Paşa Safevîleri Şirvan'dan söküp attı.",
+  tarih_metin:"14-18 Rebîülâhir 991 · 7-11 Mayıs 1583",
+  yer:"Şirvan, Derbend-Şamahı arası (Kafkasya)",
+  taraflar:[
+    { ad:"Osmanlı Devleti", komutan:"Şirvan ve Dağıstan Beylerbeyi Özdemiroğlu Osman Paşa", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Safevî Devleti", komutan:"okunan TDV maddelerinde adı geçmiyor", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"1578'de başlayan Osmanlı-Safevî savaşında Çıldır ve Koyungeçidi zaferleri Gürcistan, Dağıstan ve Şirvan yolunu açmış; Lala Mustafa Paşa, Osman Paşa'yı vezir yapıp Şirvan ve Dağıstan beylerbeyi olarak cephede bırakmıştı. Osman Paşa Kırım hanının yardımıyla Safevîleri Şamahı ve Şirvan'dan çıkardı, Hazar'da donanma kurulması için Kulzüm kaptanlığını ihdas ettirdi; ama Selman Han'ın ordusu Şirvan'a yeniden girdi. Lala Mustafa Paşa'nın yerine 1580'de Koca Sinan Paşa'nın gelmesi Osman Paşa'yı zor durumda bıraktı. Onun İstanbul'a yazdığı raporlar üzerine Silistre sancak beyi Yâkub Bey komutasında bir Rumeli ordusu Kırım üzerinden Derbend'e geldi; ama cepheyi tanımayan Yâkub Bey kendi başına yaptığı bir akında öldü (Nisan 1583).",
+  akis:"Bunun üzerine Osman Paşa Safevî ordusunun üzerine yürüdü. 'Meşale savaşı' adıyla anılan ve dört gün dört gece sürdüğü rivayet edilen savaşta, TDV'nin deyişiyle en büyük zaferlerinden birini kazandı.",
+  sonuc:"İleri harekâtla daha önce boşalttığı Şamahı'ya girdi ve kalesini onarttı. TDV'ye göre böylece Safevîlerin Kafkasya'daki varlığına onun şahsî gayretleriyle son verilmiş oldu; dönemin tarihçileri Kafkasya'nın fethinde Osman Paşa'nın belirleyici rolü konusunda birleşir. Osman Paşa Ekim 1583'te III. Murad'ın emriyle, Kırım hanını değiştirmek üzere Kefe'ye gitmek için Kafkasya'dan ayrıldı. TDV Şirvan maddesine göre 1590 antlaşması bu durumu kesinleştirdi ve Safevîler bölgedeki Osmanlı hâkimiyetini tanıdı.",
+  tartisma:"Savaşın adı ve 'dört gün dört gece' süresi rivayete dayanır; okunan TDV maddeleri kuvvetleri ve Safevî komutanını vermez.",
+  kesinlik:"kesin",
+  olay:["1583-05-09|Meşale"],
+  kaynak:"TDV: osman-pasa-ozdemiroglu (Çıldır ve Koyungeçidi, Yâkub Bey, Meşale savaşı, Şamahı) · TDV: sirvan (Şirvan'da Osmanlı idaresi, 1590 antlaşması)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 35 · 1594-1595 Cesur Mihai ve Eflak seferi ──────────────────────────
+{ id:"savas-eflak-mihai-1594-1595", tur:"savas-hikayesi",
+  baslik:"Cesur Mihai'nin isyanı ve Koca Sinan Paşa'nın Eflak seferi (1594-1595)",
+  kisa:"Eflak voyvodası vergiyi reddedip Tuna kalelerini yaktı; üstüne yürüyen sadrazam Kalugeran'da baskına uğradı ve sefer başarısızlıkla bitti.",
+  tarih_metin:"1594 sonu (isyan) · Mart 1595 (İbrâil) · 1595 ilkbaharı (Silistre) · 23 Ağustos 1595 (Kalugeran) · Ekim 1595 (Yergöğü baskını)",
+  yer:"Eflak ve Tuna boyu — Bükreş, İbrâil, Silistre, Kalugeran, Yergöğü",
+  taraflar:[
+    { ad:"Osmanlı Devleti", komutan:"Vezîriâzam Koca Sinan Paşa", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Eflak Voyvodalığı (Erdel desteğiyle)", komutan:"Voyvoda Mihai Viteazul (Cesur Mihai) · Erdel Prensi Zsigmond Báthory", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"1593'ten beri Avusturya ile 'Uzun Savaş' sürüyordu. 1594'te Papa VIII. Clément'in himayesinde Osmanlılara karşı bir ittifak kuruldu ve Boğdan da buna bağlandı. 1593'te voyvoda olan Mihai, TDV'ye göre vergi yüzünden isyan etti. 1594 yılının sonunda Bükreş ve Yaş'ta prenslere alacaklı olan Türkler ve Rumlar öldürüldü.",
+  akis:"Mihai'nin ordusu Tuna'yı geçti: İbrâil'i Mart 1595'te aldı; 1595 ilkbaharında Silistre'yi yağmalayıp yaktı, kalesini kullanılamaz hâle getirdi. İstanbul'da III. Murad Ocak 1595'te ölmüş, Sinan Paşa azledilip Temmuz'da yeniden sadrazam olmuştu. Sinan Paşa Eflak üzerine yürüdü; Mihai Kalugeran'da Osmanlı ordusuna baskın yapıp geri çekildi, ardından Erdel Prensi Báthory'nin yardımıyla Eflak'ı yeniden ele geçirdi. Ekim 1595'te Eflak'tan dönen orduyu takip eden akıncılar Yergöğü'nde Mihai'nin baskınına uğradı.",
+  sonuc:"Sefer başarısız oldu; aynı aylarda Estergon da elden çıkmıştı (2 Eylül 1595). Bu başarısızlıklar yüzünden Sinan Paşa 19 Kasım 1595'te azledildi. İbrâil 1601'e kadar Mihai'nin elinde kaldı; Silistre 1595 yıkımından sonra uzun süre aynı seviyede kaldı. Osmanlılar Báthory ve Lehistan'la dostluk kurarak Mihai'yi yalnız bıraktı; Mihai 1599'da Erdel'i, 1600'de Boğdan'ı alıp üç ülkeyi kısa bir süre birleştirdi ve Romen tarihinde sembolik bir mevki kazandı. 1601'de eski müttefiki Avusturya generali Basta'ya yenilip öldürüldü.",
+  tartisma:"Okunan TDV maddeleri Kalugeran baskınının ayrıntısını ve kayıpları vermez; baskından sonra Mihai'nin geri çekildiğini söyler. 1594 sonundaki öldürmeler TDV Boğdan maddesinde ittifakın uygulaması olarak anlatılır.",
+  kesinlik:"kesin",
+  olay:["1594-11-01|Bükreş","1595-01-01|Mihail","1595-08-23|Kalûgerân"],
+  kaynak:"TDV: eflak (Mihai'nin isyanı, Kalugeran, sonrası) · TDV: bogdan (1594 ittifakı, Bükreş ve Yaş) · TDV: ibrail (Mart 1595) · TDV: silistre (1595 yağması) · TDV: yergogu (Ekim 1595) · TDV: koca-sinan-pasa · TDV: mehmed-iii",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 36 · 1684 Budin savunması ────────────────────────────────────────────
+{ id:"savas-budin-savunmasi-1684", tur:"savas-hikayesi",
+  baslik:"Budin'in birinci savunması (Temmuz – 29 Ekim 1684)",
+  kisa:"Viyana bozgunundan bir yıl sonra Avusturya Budin'e yüklendi; az askerle üç aya yakın dayanan valinin lakabı 'Şeytan'dan 'Melek'e çevrildi.",
+  tarih_metin:"1684 yazı (kuşatma) · 20 Zilkade 1095 · 29 Ekim 1684 (Avusturyalılar çekilmeye başlar)",
+  yer:"Budin (Buda), Tuna kıyısı",
+  taraflar:[
+    { ad:"Osmanlı Devleti (Budin garnizonu)", komutan:"Budin Valisi (Şeytan, sonra Melek) İbrâhim Paşa", kuvvet:"TDV 'az sayıda asker ve mühimmat' der; sayı yok" },
+    { ad:"Habsburg (Avusturya) ordusu", komutan:"okunan TDV maddelerinde adı geçmiyor", kuvvet:"TDV 'çok kalabalık' der; sayı yok" }
+  ],
+  oncesi:"1683 Viyana bozgunundan sonra Merzifonlu Kara Mustafa Paşa 25 Aralık 1683'te idam edildi; yerine geçen Kara İbrâhim Paşa savaşı yönetecek çapta değildi, cepheye Bekrî Mustafa Paşa'yı yollayıp kendisi Belgrad'da kaldı. Vaç yenilgisinden sonra Peşte, Budin ve Tımışvar dışında Macaristan elden çıktı. Daha önce Çehrin kuşatmasını kaldırdığı için hapsedilen İbrâhim Paşa, Budin muhafızlığına, sonra eyalet valiliğine getirilmişti ve şehri kısa sürede tahkim etti.",
+  akis:"Kalabalık Avusturya orduları Budin'i aylarca kuşattı. İbrâhim Paşa az asker ve mühimmatla direndi; zaman zaman yaptırdığı çıkışlarla Avusturya ordugâhından barut ve malzeme alarak kaleyi üç aya yakın savundu. Teslim çağrısı getiren elçiye kalede beş yıl yetecek yiyecek ve 100.000 asker bulunduğunu söyleyerek düşmanın moralini bozmaya çalıştı. Birkaç hücum daha yapan Avusturyalılar sonuç alamayıp büyük kayıplar verdi.",
+  sonuc:"Son çıkış hareketinde yağan yağmurun da etkisiyle Avusturyalılar 29 Ekim 1684'ten itibaren kuşatmayı kaldırıp çekildi; 40.000 kadar Kırım askerinin gelmekte olduğu haberinin de bunda büyük rolü oldu. IV. Mehmed İbrâhim Paşa'yı ve komutanlarını ödüllendirdi, 'Şeytan' lakabını 'Melek'e çevirdi. Şöhreti öyle arttı ki ordu onun sadrazam olmasını istedi; kıskanan Kara İbrâhim Paşa ona karşı entrikalar düzenledi. Budin'in kurtuluşu kısa sürdü: 2 Eylül 1686'daki ikinci kuşatmada şehir düştü.",
+  tartisma:"Okunan TDV maddeleri kuşatmanın başlangıç gününü, iki tarafın kuvvetlerini ve Avusturya komutanını vermez; atlas maddesinin 14 Temmuz başlangıcı okunan gövdelerde geçmiyor.",
+  kesinlik:"kesin",
+  olay:["1684-07-14|Budin"],
+  kaynak:"TDV: ibrahim-pasa-melek (Budin savunması, 29 Ekim 1684, Kırım haberi, lakap) · TDV: mehmed-iv (Vaç sonrası, 1686) · TDV: ibrahim-pasa-kara (Kara Mustafa'nın idamı, kıskançlık)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 37 · 1688 Eğriboz ────────────────────────────────────────────────────
+{ id:"savas-egriboz-1688", tur:"savas-hikayesi",
+  baslik:"Venedik'in Eğriboz kuşatması ve püskürtülmesi (1688)",
+  kisa:"Mora'yı ve Atina'yı alan Venedik sırayı Eğriboz'a getirdi; aceleyle kurulan toprak surlar ve Karababa tabyası üç ay dayandı.",
+  tarih_metin:"1688 yazı-sonbaharı — kuşatma üç aydan fazla sürdü; atlas maddesi püskürtülüşü 20 Ekim 1688'e koyar",
+  yer:"Eğriboz (Khalkis/Chalkida), Eğriboz adası ile anakara arasındaki boğaz",
+  taraflar:[
+    { ad:"Osmanlı Devleti (Eğriboz garnizonu)", komutan:"okunan TDV maddesinde adı geçmiyor", kuvvet:"6000 asker · Karababa tabyasında kırk top" },
+    { ad:"Venedik Cumhuriyeti", komutan:"okunan TDV maddesinde adı geçmiyor", kuvvet:"15.000 kişilik ordu" }
+  ],
+  oncesi:"Eğriboz 1470'te Fâtih'in uzun bir kuşatma ve sokak çarpışmalarından sonra Venedik'ten aldığı bir şehirdi. Kutsal İttifak savaşlarında Venedik Mora'yı ele geçirdi ve Atina'yı kuşattı. Mora'nın kaybından sonra, 1687-1688 kışında Eğriboz'da şehrin üçüncü büyük tahkimatı yapıldı: varoşun çevresine kısa sürede toprak ve ağaçtan duvarlar çekildi, şehrin karşısında anakaradaki Karababa tepesine iki çokgen tabyalı bir istihkâm kurulup kırk top ve güçlü bir muhafız birliği yerleştirildi. Bütün bunlar Venedik ordusu gelmeden kısa süre önce bitti.",
+  akis:"15.000 kişilik Venedik ordusu şehri kuşattı; Osmanlıların savunmada 6000 askeri vardı. Kuşatma üç aydan fazla sürdü. Okunan TDV maddesi hücumların ayrıntısını vermez.",
+  sonuc:"Venedikliler ağır kayıplar vererek çekildi. Kuşatmadan sonra surların önemli bir kısmı yeniden yapıldı.",
+  tartisma:"Okunan TDV maddesi kuşatmanın başlangıç ve bitiş günlerini, iki tarafın komutanlarını vermez.",
+  kesinlik:"kesin",
+  olay:["1688-10-20|Eğriboz"],
+  kaynak:"TDV: egriboz (1470 fethi, 1687-1688 tahkimatı, Karababa, kuvvetler, kuşatmanın sonucu)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 38 · 1695-1696 II. Mustafa'nın seferleri: Lugoş ve Ulaş ─────────────
+{ id:"savas-lugos-ulas-1695-1696", tur:"savas-hikayesi",
+  baslik:"II. Mustafa'nın Macaristan seferleri: Lugoş (1695) ve Ulaş (1696)",
+  kisa:"Kanûnî'yi örnek alan genç padişah iki yaz üst üste orduyu bizzat yönetip Avusturya ordularını yendi; ama savaşın gidişi değişmedi.",
+  tarih_metin:"30 Haziran 1695 (birinci sefer başlar) · Eylül 1695 (Lugoş yakınındaki savaş, gün kaynakta yok) · 28 Muharrem 1108 · 27 Ağustos 1696 (Ulaş)",
+  yer:"Banat — Lippa, Lugoş, Temeş suyu kıyısındaki Buldur ormanı · Bega suyu kıyısında Ulaş (Olaşin), Tımışvar yakını",
+  taraflar:[
+    { ad:"Osmanlı Devleti (Kırım kuvvetleriyle)", komutan:"II. Mustafa · Sadrazam Elmas Mehmed Paşa", kuvvet:"kaynakta sayı verilmiyor" },
+    { ad:"Avusturya (Habsburg) orduları", komutan:"General Veterani (1695) · Saksonya Kralı Friedrich August, General Heisler, Caprara (1696)", kuvvet:"kaynakta sayı verilmiyor" }
+  ],
+  oncesi:"1683'ten beri süren savaşlarda Macaristan'ın büyük kısmı kaybedilmişti. 6 Şubat 1695'te tahta çıkan II. Mustafa, Kanûnî'yi örnek alıp Avrupa'da başarı kazanmak istiyordu; tahta çıkışından beş ay sonra, 30 Haziran 1695'te zırh giyip birinci Avusturya seferine çıktı. Belgrad ve Tımışvar'daki savaş meclisinde Lippa, Lugoş, Yanova ve Şebeş kaleleriyle çevresindeki palankaların alınmasına karar verildi.",
+  akis:"1695: Önce Lippa alındı, çok sayıda savaş malzemesi ve esir ele geçirildi; korunması zor olduğu için kale yıktırıldı. Temeş suyu kenarında Buldur denen ormanlık ve bataklık bir alanda General Veterani'nin ordusuyla savaşıldı; bizzat katılan padişah hatt-ı şerifleriyle askeri coşturdu, Kırım kuvvetlerinin desteğiyle Osmanlılar kazandı. Veterani savaşta öldü; Osmanlı tarafında Diyarbekir ve Rumeli beylerbeyileri şehit düştü. Zaferin ardından Lugoş alındı. 1696: Padişah Nisan'da ikinci seferine çıktı. Saksonya Kralı ile General Heisler'in Tımışvar'ı kuşattığı öğrenilince sefer oraya yöneldi; Avusturyalılar kuşatmayı kaldırdı ama 27 Ağustos 1696'da Bega suyu kenarındaki Ulaş'ta yenilgiden kurtulamadı. Savaşta padişahın da bulunduğu hırka-i şerif arabasının dibine bir top mermisi düştü.",
+  sonuc:"Ulaş'ta Heisler ve Caprara gibi komutanlar da öldü; Osmanlı ordusu Tımışvar'a girip kaleyi güçlendirdi ve mühimmat yığdı. Ama aynı yaz Ruslar Azak'ı aldı (6 Ağustos 1696). Bir yıl sonra, 11 Eylül 1697'de Zenta'da Tisa'yı geçerken baskına uğrayan ordu ağır bir bozguna uğradı; savaş 1699 Karlofça Antlaşması'yla bitti ve Osmanlı Tımışvar dışında bütün Macaristan'ı kaybetti.",
+  tartisma:"Okunan TDV maddesi 1695 savaşının gününü vermez; atlas maddesi onu 22 Eylül 1695'e koyar. TDV Lippa'nın 1695'te alınıp yıktırıldığını yazar; Lippa'yı 1596'da bırakılan bir kuşatmayla karıştırmamak gerekir.",
+  kesinlik:"kesin",
+  olay:["1695-09-22|Lugoş","1696-08-27|Ulaş"],
+  kaynak:"TDV: mustafa-ii (iki seferin hazırlığı, Lippa, Buldur/Lugoş savaşı, Ulaş, Azak, Zenta, Karlofça)",
   gorsel:null, gorsel_kaynak:"aranmadı" }
 
 ];
