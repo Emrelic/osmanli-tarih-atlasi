@@ -191,10 +191,44 @@ function _ahTemizle() {
   });
   _ahAktifId = null;
 }
+// 🆕 KUTU-G3-1014 (0054/H-0020, Emre: "alınan verilen bölgelerin boyanması
+// TARANMASI ve üstlerine etiketler") — TARAMA. Her taraf rengi için çalışma
+// anında 12×12'lik bir karo üretilir: köşegen şerit taraf renginde, arası
+// SAYDAM; böylece altta zayıf düz dolgu + üstte taralı desen okunur ("burası
+// bu antlaşmayla el değiştirdi") ve alttaki harita kaybolmaz. app.js'in
+// devirDesenleriKur() karosuyla aynı teknik (dış dosya yok, fill-pattern).
+// Desen adı renge bağlıdır: aynı renk iki kayıtta bir kez üretilir.
+function _ahDesenAdi(renk) {
+  return "ah-tarama-" + String(renk || "#8e0b22").replace(/[^0-9a-zA-Z]/g, "");
+}
+function _ahDesenKur(renk) {
+  var ad = _ahDesenAdi(renk);
+  if (harita.hasImage && harita.hasImage(ad)) return ad;
+  var h = String(renk || "#8e0b22").replace("#", "");
+  if (h.length === 3) h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2];
+  var n = parseInt(h, 16);
+  if (isNaN(n)) n = 0x8e0b22;
+  var c = [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+  var K = 12, veri = new Uint8Array(K * K * 4);
+  for (var y = 0; y < K; y++) {
+    for (var x = 0; x < K; x++) {
+      var i = (y * K + x) * 4;
+      if (((x + y) % K) < 4) {           // şerit: karonun 1/3'ü
+        veri[i] = c[0]; veri[i + 1] = c[1]; veri[i + 2] = c[2]; veri[i + 3] = 235;
+      }                                   // değilse 0,0,0,0 — saydam
+    }
+  }
+  harita.addImage(ad, { width: K, height: K, data: veri });
+  return ad;
+}
 function _ahGoster(kayit) {
   if (!_ahHazirMi() || !harita.getSource("antlasma-harita-dolgu")) return;
   if (_ahAktifId === kayit.id) return;
   var f = _ahBolgeleriUret(kayit);
+  f.dolgu.forEach(function (ft) {
+    try { ft.properties.desen = _ahDesenKur(ft.properties.renk); }
+    catch (e) { console.warn("ANTLAŞMA HARİTASI: tarama deseni kurulamadı", e); }
+  });
   harita.getSource("antlasma-harita-dolgu").setData({ type: "FeatureCollection", features: f.dolgu });
   harita.getSource("antlasma-harita-nokta").setData({ type: "FeatureCollection", features: f.nokta });
   harita.getSource("antlasma-harita-etiket").setData({ type: "FeatureCollection", features: f.etiket });
@@ -208,7 +242,18 @@ function _ahKatmaniKur() {
     harita.addSource("antlasma-harita-dolgu", { type: "geojson", data: bosVeri() });
     harita.addLayer({
       id: "antlasma-harita-dolgu", type: "fill", source: "antlasma-harita-dolgu",
-      paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.55, "fill-outline-color": "#1a1a1a" }
+      paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.22 }
+    });
+    // KUTU-G3-1014 (0054/H-0020): düz dolgunun ÜSTÜNDE taralı desen + taraf renginde kontur.
+    // Aynı kaynağı okur; temizleme/gösterme ayrıca bir şey gerektirmez.
+    harita.addLayer({
+      id: "antlasma-harita-tarama", type: "fill", source: "antlasma-harita-dolgu",
+      filter: ["has", "desen"],
+      paint: { "fill-pattern": ["get", "desen"], "fill-opacity": 0.9 }
+    });
+    harita.addLayer({
+      id: "antlasma-harita-kontur", type: "line", source: "antlasma-harita-dolgu",
+      paint: { "line-color": ["get", "renk"], "line-width": 2.2, "line-opacity": 0.95 }
     });
     harita.addSource("antlasma-harita-nokta", { type: "geojson", data: bosVeri() });
     harita.addLayer({

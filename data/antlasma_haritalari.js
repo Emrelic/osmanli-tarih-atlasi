@@ -1182,4 +1182,104 @@ window.ANTLASMA_HARITALARI = [
   "not": "Ege adalarının statüsü çözümsüz bırakıldı (madde) — noktalanmadı. Güney Makedonya'nın diğer şehirleri kaynakta adlandırılmıyor; zarf Selanik-Yanya-Girit arası KABA bir görsel ipucudur."
 }
 // <<< ANT-HARITA-1013 BITTI
+,
+// >>> KUTU-G3-1014 (0054/H-0020, ikinci parti) — yedi antlaşma haritası daha. Her nokta
+// atlastaki yerleşimin kendi koordinatıdır; her noktanın `kaynak`ı, yeri ADIYLA anan
+// kronoloji maddesinin kaynağıdır (TDV). Madde yeri adlandırmıyorsa nokta KONMADI.
+{
+  id: "istanbul-1700",
+  antlasma_ad: "Azak'ın Rusya'ya",
+  tarih: "1700-07-14",
+  bolgeler: [
+    { taraf: "rusya", etiket: "Rusya'ya bırakılan (Azak)", noktalar: [
+        { ad: "Azak", lat: 47.113, lon: 39.423,
+          kaynak: "İstanbul Antlaşması maddesi, 14 Temmuz 1700 (TDV karlofca, rusya): Azak Kalesi ve çevresindeki topraklar resmen Rusya'ya terk edildi" }
+    ] }
+  ],
+  not: "Kırım hanının Moskova'dan aldığı verginin kaldırılması toprak hükmü olmadığından haritada yok."
+},
+{
+  id: "hemedan-1727",
+  antlasma_ad: "Hemedan Antlaşması",
+  tarih: "1727-10-04",
+  bolgeler: [
+    { taraf: "osmanli", etiket: "Osmanlı'da kaldığı tanınan (Kafkasya, Azerbaycan, Batı İran)", zarf: true, noktalar: [
+        { ad: "Tiflis", lat: 41.716, lon: 44.783, kaynak: "Tiflis'in alınışı maddesi, 15 Haziran 1723 (TDV ahmed-iii)" },
+        { ad: "Kirmanşah", lat: 34.314, lon: 47.065, kaynak: "Kirmanşah'ın alınışı maddesi, 1 Ekim 1723 (TDV bagdat)" },
+        { ad: "Hemedan", lat: 34.799, lon: 48.515, kaynak: "Hemedan'ın fethi maddesi, 31 Ağustos 1724 (TDV bagdat)" },
+        { ad: "Revan", lat: 40.183, lon: 44.515, kaynak: "Revan'ın yeniden fethi maddesi, 3 Ekim 1724 (TDV revan)" },
+        { ad: "Tebriz", lat: 38.08, lon: 46.292, kaynak: "Tebriz'in zaptı maddesi, 28 Temmuz 1725 (TDV ahmed-iii, tebriz)" },
+        { ad: "Gence", lat: 40.683, lon: 46.36, kaynak: "Gence'nin fethi maddesi, 12 Eylül 1725 (TDV nahcivan)" }
+    ] }
+  ],
+  not: "Antlaşma 1723-1725 fetihlerini hukuken tanıdı; toprak antlaşma gününde değil fetih günlerinde el değiştirdi. Zarf, adıyla anılan altı merkezin kapladığı kaba alandır; Hazar kıyısı (Rusya'nın 1723 kazançları) Osmanlı payı değildir."
+},
+{
+  id: "istanbul-1736",
+  antlasma_ad: "Güney Kafkasya'nın İran'a terki",
+  tarih: "1736-09-01",
+  bolgeler: [
+    { taraf: "afsar", etiket: "Nâdir Şah'a (İran'a) bırakılan", zarf: true, noktalar: [
+        { ad: "Tiflis", lat: 41.716, lon: 44.783, kaynak: "İstanbul Antlaşması maddesi, 1736 (TDV osmanlilar): Gence ve Tiflis'in kaybından sonra Güney Kafkasya'dan çekilme" },
+        { ad: "Gence", lat: 40.683, lon: 46.36, kaynak: "İstanbul Antlaşması maddesi, 1736 (TDV osmanlilar): Gence ve Tiflis'in kaybından sonra Güney Kafkasya'dan çekilme" },
+        { ad: "Revan", lat: 40.183, lon: 44.515, kaynak: "Revan'ın Nâdir Han'a teslimi maddesi, 3 Ekim 1735 (TDV nadir-sah)" }
+    ] }
+  ],
+  not: "Madde sınırın 1639 Kasr-ı Şirin çizgisine döndüğünü söyler; Batı İran'daki öteki merkezler (Tebriz, Hemedan, Kirmanşah) 1730'da zaten kaybedilmişti, bu antlaşmanın devri değildir — noktalanmadı."
+},
+{
+  id: "usi-1912",
+  antlasma_ad: "Uşi Antlaşması",
+  tarih: "1912-10-18",
+  bolgeler: [
+    { taraf: "italya", etiket: "İtalya'ya bırakılan (Trablusgarp ve Bingazi)", noktalar: [
+        { ad: "Trablus", lat: 32.897, lon: 13.191, kaynak: "Uşi Antlaşması maddesi, 18 Ekim 1912 (TDV trablusgarp, trablusgarp-savasi)" },
+        { ad: "Bingazi", lat: 32.117, lon: 20.068, kaynak: "Uşi Antlaşması maddesi, 18 Ekim 1912 (TDV trablusgarp, trablusgarp-savasi)" }
+    ] },
+    { taraf: "italya", etiket: "İtalya işgalinde kalan (iadesi vaat edildi, yapılmadı)", noktalar: [
+        { ad: "Rodos (On İki Ada)", lat: 36.443, lon: 28.226, kaynak: "Uşi Antlaşması maddesi, 18 Ekim 1912: Rodos ve On İki Ada'nın iadesi vaat edildi, yerine getirilmedi" }
+    ] }
+  ],
+  not: "Libya'nın iç kesimleri ve sınırları kaynakta şehir adıyla verilmez; iki merkez nokta ile gösterildi."
+},
+{
+  id: "gumru-1920",
+  antlasma_ad: "Gümrü Antlaşması",
+  tarih: "1920-12-03",
+  bolgeler: [
+    { taraf: "tbmm-turkiye", etiket: "TBMM'de kaldığı kabul edilen (Ermenistan talepten vazgeçti)", noktalar: [
+        { ad: "Kars", lat: 40.602, lon: 43.095, kaynak: "Gümrü Antlaşması maddesi, 3 Aralık 1920 (TDV milli-mucadele): Kars ve Sarıkamış'ın geri alınması üzerine Ermenistan doğudaki taleplerinden vazgeçti" },
+        { ad: "Sarıkamış", lat: 40.328, lon: 42.578, kaynak: "Gümrü Antlaşması maddesi, 3 Aralık 1920 (TDV milli-mucadele)" }
+    ] }
+  ],
+  not: "Gümrü antlaşması Moskova (16 Mart 1921) ve Kars (13 Ekim 1921) antlaşmalarıyla yerini kalıcı sınıra bıraktı."
+},
+{
+  id: "moskova-1921",
+  antlasma_ad: "Moskova Antlaşması",
+  tarih: "1921-03-16",
+  bolgeler: [
+    { taraf: "tbmm-turkiye", etiket: "Türkiye'de kalan (Kars)", noktalar: [
+        { ad: "Kars", lat: 40.602, lon: 43.095, kaynak: "Moskova Antlaşması maddesi, 16 Mart 1921 (TDV kars): Kars yeni Türk devletinin sınırları içinde kaldı" }
+    ] },
+    { taraf: "sovyet-rusya", etiket: "Sovyet Gürcistan'a bırakılan (Ahıska)", noktalar: [
+        { ad: "Ahıska", lat: 41.643, lon: 42.986, kaynak: "Moskova Antlaşması maddesi, 16 Mart 1921 (TDV ahiska): Ahıska Gürcistan SSC'nin Tiflis vilâyetine bağlandı" }
+    ] }
+  ],
+  not: "Batum'un Gürcistan'a bırakılması kronoloji maddesinde adıyla geçmediği için noktalanmadı (ayrı madde: 28 Mart 1921 Batum'un boşaltılması). Gürcistan SSC'nin kendi künyesi olmadığından Sovyet rengiyle gösterildi."
+},
+{
+  id: "mudanya-1922",
+  antlasma_ad: "Mudanya Mütarekesi",
+  tarih: "1922-10-11",
+  bolgeler: [
+    { taraf: "tbmm-turkiye", etiket: "TBMM'ye devredilecek Doğu Trakya (Meriç'e kadar)", zarf: true, noktalar: [
+        { ad: "Edirne", lat: 41.677, lon: 26.556, kaynak: "Mudanya Mütarekesi maddesi, 11 Ekim 1922 (TDV mudanya-mutarekesi): Doğu Trakya Meriç'e kadar 15 gün içinde boşaltılıp Türk idaresine devredilecek" },
+        { ad: "Kırklareli", lat: 41.735, lon: 27.225, kaynak: "Doğu Trakya'nın teslim alınması maddesi, 10 Kasım 1922 (TDV kirklareli)" },
+        { ad: "Tekirdağ", lat: 40.9838, lon: 27.5084, kaynak: "Doğu Trakya'nın teslim alınması maddesi, 13 Kasım 1922 (TDV tekirdag)" }
+    ] }
+  ],
+  not: "İstanbul ve Boğazlar barış antlaşmasıyla teslim edilecekti; mütareke metni bunu toprak devri olarak değil sonraki barışa bırakılan bir hüküm olarak verir — noktalanmadı."
+}
+// <<< KUTU-G3-1014 BITTI
 ];
