@@ -50,7 +50,7 @@ from paket_coz import index_kaynaklari          # noqa: E402
 TABLO_YOLU = os.path.join(KOK, "data", "kaynak_guven.js")
 CIKTI = os.path.join(KOK, "denetim", "KAYNAK-GUVEN-1014")
 KADEME_SIRA = {"A": 0, "B": 1, "K": 2, "C": 3, "Y": 4, "N": 5}
-DAMGALAR = ("guvenli", "ikincil", "taninmayan", "guvensiz", "adsiz", "bulunamadi", "bos")
+DAMGALAR = ("guvenli", "ikincil", "taninmayan", "guvensiz", "bulunamadi", "bos")
 
 
 class Olculemedi(Exception):
@@ -78,7 +78,8 @@ class Siniflayici:
         for e in T["kaynaklar"]:
             rx = [re.compile(p, re.I) for p in e.get("desen", [])]
             rx += [re.compile(p) for p in e.get("desen_duyarli", [])]
-            self.girdiler.append((e["kod"], e["kademe"], bool(e.get("genel")), rx))
+            self.girdiler.append((e["kod"], e["kademe"], bool(e.get("genel")), rx,
+                                  e.get("yalniz_sonra"), e.get("once_kademe")))
         self.tdv_kademe = next(e["kademe"] for e in T["kaynaklar"] if e["kod"] == "TDV")
 
     @staticmethod
@@ -93,23 +94,35 @@ class Siniflayici:
     def parcala(self, k):
         return [p.strip() for p in self.ayirici.split(self.metin(k)) if p.strip()]
 
-    def _eslesen(self, metin):
+    @staticmethod
+    def tarih_iso(t):
+        """Madde tarihini ISO dizgeye çevirir (yıl 4 haneye); okunamazsa/negatifse None."""
+        m = re.match(r"^(\d{1,4})(?:-(\d{1,2}))?(?:-(\d{1,2}))?", str(t or "").strip())
+        if not m:
+            return None
+        return "%04d-%02d-%02d" % (int(m.group(1)), int(m.group(2) or 1), int(m.group(3) or 1))
+
+    def _eslesen(self, metin, tarih=None):
+        """tarih: ISO dizge ya da None. `yalniz_sonra` girdisi tarih ondan önceyse
+        ya da tarih yoksa `once_kademe` ile sayılır (tablo başındaki TARİH KOŞULU)."""
         ozel, genel = [], []
-        for kod, kad, gen, rx in self.girdiler:
+        for kod, kad, gen, rx, sonra, once in self.girdiler:
             if any(r.search(metin) for r in rx):
+                if sonra and (tarih is None or tarih < sonra):
+                    kad = once
                 (genel if gen else ozel).append((kod, kad))
         return ozel or genel
 
-    def parca_sinifla(self, p):
+    def parca_sinifla(self, p, tarih=None):
         """→ (kademe | None, [kod…], karisik:bool). None = TANINMAYAN."""
         es = []
         m = self.slug.match(p)
         if m and m.group(1) not in self.slug_haric:
             es.append(("TDV", self.tdv_kademe))
             if m.group(2):
-                es += self._eslesen(m.group(2))
+                es += self._eslesen(m.group(2), tarih)
         else:
-            es = self._eslesen(p)
+            es = self._eslesen(p, tarih)
         if not es:
             return None, [], False
         kadeler = {k for _, k in es}
@@ -119,22 +132,25 @@ class Siniflayici:
         en = min(kadeler, key=lambda x: KADEME_SIRA[x])
         return en, kodlar, False
 
-    def damgala(self, kaynak):
-        """→ dict(damga, parcalar=[(parca, kademe, kodlar, karisik)], ic=…)."""
+    def damgala(self, kaynak, t=None):
+        """→ dict(damga, alt, parcalar=[(parca, kademe, kodlar, karisik)], ic=…).
+        t: maddenin tarihi (`yalniz_sonra` koşulu için)."""
         k = self.metin(kaynak)
         if k is None or not k.strip():
-            return {"damga": "bos", "parcalar": []}
+            return {"damga": "bos", "alt": None, "parcalar": []}
         k = k.strip()
-        parcalar = [(p,) + self.parca_sinifla(p) for p in self.parcala(k)]
+        tarih = self.tarih_iso(t)
+        parcalar = [(p,) + self.parca_sinifla(p, tarih) for p in self.parcala(k)]
         kad = {x[1] for x in parcalar}
         if self.bulunamadi.match(k):
             # "bulunamadı — dayanak: X" — iç dayanağın en iyi kademesi AYRICA sayılır
             ic = [x[1] for x in parcalar[1:] if x[1] in ("A", "B")]
             ic += [x[1] for x in [(None,) + self.parca_sinifla(
-                re.sub(r"^bulunamad[ıi]\.?\s*[—–:-]*\s*", "", parcalar[0][0], flags=re.I))]
+                re.sub(r"^bulunamad[ıi]\.?\s*[—–:-]*\s*", "", parcalar[0][0], flags=re.I), tarih)]
                 if x[1] in ("A", "B")] if parcalar else []
-            return {"damga": "bulunamadi", "parcalar": parcalar,
+            return {"damga": "bulunamadi", "alt": None, "parcalar": parcalar,
                     "ic": min(ic, key=lambda x: KADEME_SIRA[x]) if ic else None}
+        alt = None
         if "A" in kad:
             d = "guvenli"
         elif "B" in kad:
@@ -142,10 +158,11 @@ class Siniflayici:
         elif None in kad or "K" in kad:
             d = "taninmayan"
         elif "C" in kad:
-            d = "guvensiz"
+            d, alt = "guvensiz", "C"
         else:
-            d = "adsiz"
-        return {"damga": d, "parcalar": parcalar}
+            # Emre onayı 14 Ekim 2026: adsız beyan (yalnız Y/N) GÜVENSİZ'e katılır
+            d, alt = "guvensiz", "adsiz"
+        return {"damga": d, "alt": alt, "parcalar": parcalar}
 
 
 # ════════════════════════════════════════════════════════════════════════
@@ -253,7 +270,7 @@ def d2_olc(S, log):
         raise Olculemedi("D2 evreni denetle.olaylari_yukle() ile birebir aynı kurulamadı "
                          "(%d ≠ %d)" % (len(O), len(O_ref)))
     for o in O:
-        o["_damga"] = S.damgala(o.get("kaynak"))["damga"]
+        o["_damga"] = S.damgala(o.get("kaynak"), o.get("t"))["damga"]
     Yc = [y for y in Y if y.get("_kaynak") not in D.KUYRUK_DOSYALARI]
     log("  D2 evreni: %d madde (%d dosya) · %d yerleşim (%d çekirdek)"
         % (len(O), len(yollar), len(Y), len(Yc)))
@@ -275,7 +292,7 @@ def d2_olc(S, log):
     senaryolar = [
         ("S1-guvensiz", {"guvensiz"}),
         ("S2-guvensiz+bos+bulunamadi", {"guvensiz", "bos", "bulunamadi"}),
-        ("S3-yalniz-AB-kalir", {"guvensiz", "bos", "bulunamadi", "adsiz", "taninmayan"}),
+        ("S3-yalniz-AB-kalir", {"guvensiz", "bos", "bulunamadi", "taninmayan"}),
     ]
     sonuc = {"evren_madde": len(O), "evren_dosya": len(yollar),
              "damga_d2_evreni": dict(collections.Counter(o["_damga"] for o in O)),
@@ -340,13 +357,30 @@ SINAV = [
     ("Britannica · en.wikipedia.org/wiki/Korean_War", "ikincil"),
     ("Encyclopaedia Iranica, «Kia»", "guvenli"),
     ("Cambridge History of Iran, c.6", "guvenli"),
-    ("standart akademik kaynak", "adsiz"),
-    ("el-kitabi", "adsiz"),
+    ("standart akademik kaynak", "guvensiz"),
+    ("el-kitabi", "guvensiz"),
     ("Taylor, CUP 2013 (Wikipedia 'Timeline' üzerinden)", "guvensiz"),
     ("https://www.worldhistory.org/Syracuse/", "guvensiz"),
     ("Qwzx Plorb, Bilinmeyen Eser", "taninmayan"),
     ("https://archive.org/details/x", "taninmayan"),
     ("Un traité de paix", "taninmayan"),
+]
+
+
+# Tarihli vakalar: (kaynak, madde tarihi, beklenen damga, beklenen alt neden)
+SINAV_TARIHLI = [
+    ("https://www.aljazeera.com/news/x", "1950-03-01", "ikincil", None),
+    ("https://www.aljazeera.com/news/x", "1850-03-01", "guvensiz", "C"),
+    ("https://www.aljazeera.com/news/x", "1946-01-01", "ikincil", None),
+    ("https://www.aljazeera.com/news/x", "1945-12-31", "guvensiz", "C"),
+    ("https://www.aljazeera.com/news/x", None, "guvensiz", "C"),
+    ("https://www.aljazeera.com/news/x", "-500-01-01", "guvensiz", "C"),
+    ("BBC (bbc.co.uk) + https://islamansiklopedisi.org.tr/x", "1850-01-01", "guvenli", None),
+    ("https://www.britannica.com/x", "1850-01-01", "ikincil", None),
+    ("standart akademik kaynak", "1700-01-01", "guvensiz", "adsiz"),
+    ("standart akademik kaynak (Kamen)", "1700-01-01", "guvenli", None),
+    ("en.wikipedia.org/wiki/X", "1700-01-01", "guvensiz", "C"),
+    ("hassasiyet: YIL", "1700-01-01", "guvensiz", "adsiz"),
 ]
 
 
@@ -357,7 +391,12 @@ def sinav(S):
         ok = d == bek
         hata += not ok
         print("  %s %-62r → %-11s (beklenen %s)" % ("✓" if ok else "✗", k, d, bek))
-    # İki yön: tabloda her kademe en az bir kez gerçekten tutuyor mu (ölü tablo değil)
+    for k, t, bek, bek_alt in SINAV_TARIHLI:
+        r = S.damgala(k, t)
+        ok = r["damga"] == bek and r["alt"] == bek_alt
+        hata += not ok
+        print("  %s %-50r t=%-11s → %s/%s (beklenen %s/%s)"
+              % ("✓" if ok else "✗", k, t, r["damga"], r["alt"], bek, bek_alt))
     return hata
 
 
@@ -397,7 +436,7 @@ def main():
         print("ÖLÇÜLEMEDİ: tablo okunamadı: %s" % e)
         return 2
     if a.sinav:
-        print("SINAV — %d vaka" % len(SINAV))
+        print("SINAV — %d vaka" % (len(SINAV) + len(SINAV_TARIHLI)))
         h = sinav(S)
         print("SINAV %s (%d hata)" % ("GEÇTİ" if not h else "KALDI", h))
         return 1 if h else 0
@@ -433,7 +472,8 @@ def main():
 
     # Damgala
     for x in F + KK + KU:
-        r = S.damgala(x["kaynak"])
+        r = S.damgala(x["kaynak"], x["t"])
+        x["alt"] = r.get("alt")
         x["damga"] = r["damga"]
         x["parcalar"] = r["parcalar"]
         x["ic"] = r.get("ic")
@@ -449,6 +489,8 @@ def main():
                     "kunye": len(KU), "kunye_kronoloji_madde": len(KK)},
           "damga": {"dosya": say(F), "kunye_kronoloji": say(KK), "kunye_kaynak": say(KU)},
           "app_parcala": {"karsilastirilan_dizge": n_kars, "fark": len(farklar)}}
+    oz["guvensiz_alt"] = {ad: dict(collections.Counter(x["alt"] for x in L if x["damga"] == "guvensiz"))
+                          for ad, L in (("dosya", F), ("kunye_kronoloji", KK), ("kunye_kaynak", KU))}
     # bulunamadı içinde dayanak
     for ad, L in (("dosya", F), ("kunye_kronoloji", KK)):
         c = collections.Counter(x["ic"] for x in L if x["damga"] == "bulunamadi")
@@ -510,10 +552,14 @@ def main():
     tsv("taninmayan_alanadi.tsv", ["adet", "alan_adi"], [[n, d] for d, n in alan.most_common()])
     tsv("karisik_parca.tsv", ["adet", "parca"], [[n, p] for p, n in karisik.most_common()])
     guvs = [x for x in F + KK + KU if x["damga"] == "guvensiz"]
-    tsv("guvensiz_maddeler.tsv", ["evren", "dosya", "anahtar", "t", "b", "kaynak", "kodlar"],
-        [[x["evren"], x["dosya"], x["anahtar"], x["t"] or "", x["b"] or "",
+    tsv("guvensiz_maddeler.tsv", ["evren", "dosya", "anahtar", "alt_neden", "t", "b", "kaynak", "kodlar"],
+        [[x["evren"], x["dosya"], x["anahtar"], x["alt"], x["t"] or "", x["b"] or "",
           S.metin(x["kaynak"]), ",".join(sorted({c for _, _, ks, _ in x["parcalar"] for c in ks}))]
          for x in guvs])
+    bdy = [x for x in F + KK if x["damga"] == "bulunamadi" and x["ic"]]
+    tsv("bulunamadi_dayanakli.tsv", ["evren", "dosya", "anahtar", "dayanak_kademe", "t", "b", "kaynak"],
+        [[x["evren"], x["dosya"], x["anahtar"], x["ic"], x["t"] or "", x["b"] or "",
+          S.metin(x["kaynak"])] for x in bdy])
     if farklar:
         tsv("app_parcala_fark.tsv", ["kaynak", "app_js", "python"],
             [[t, json.dumps(a, ensure_ascii=False), json.dumps(b, ensure_ascii=False)]
@@ -553,28 +599,24 @@ def main():
     return 0
 
 
-EMRE_SORULARI = [
-    "**KUREANS** (kureansiklopedi.com) — şimdi `C` (görevde C örneği olarak verildi). Veride 30+ parça onu "
-    "\"TDV Vakfı\" yayını diye anıyor; yayıncısı TDV ise B'ye çıkabilir.",
-    "**Wikisource üzerinden Britannica 1911** (\"Britannica 1911 'Cracow' (Wikisource)\") — şimdi `C` "
-    "(VIKIPEDI deseni wikisource'u kapsıyor, parça KARIŞIK → C). Metin 1911 basılı ansiklopedinin "
-    "aktarımıdır; B mi C mi?",
-    "**erenow.org** — Bosworth, *New Islamic Dynasties* gibi akademik kitapların izinsiz kopyalarını "
-    "barındırıyor; şimdi `C` (POPULER-TARIH). İçerik A, barındırıcı C: parça kitaba göre mi sınıflansın?",
-    "**KARIŞIK kuralı** — aynı parçada C ve A/B geçerse parça C sayılıyor (\"X, CUP … (Wikipedia "
-    "üzerinden)\", \"Wikipedia … atıf dökümü (Majumdar …)\"). Bilgi Vikipedi'den devşirildiği için "
-    "muhafazakâr seçim; Emre onayı.",
-    "**`adsiz` damgası** (\"standart akademik kaynak\", \"el-kitabi\" — eser adı yok) — `guvensiz` gibi "
-    "gizlensin mi, yoksa ayrı damga olarak gösterilsin mi? Şimdi ayrı damga, gizleme kararı YOK.",
+EMRE_KARARLARI = [
+    "Britannica → B kalır.",
+    "livius.org, chinaknowledge.de → B kalır.",
+    "Haber kuruluşları (HABER) → B, AMA yalnız olay tarihi ≥ 1946-01-01 olan maddede; daha eski "
+    "(ya da tarihi okunamayan) maddede C. Tabloda `yalniz_sonra`/`once_kademe` alanı.",
+    "archontology, FMG/MedLands, kureansiklopedi, erenow, Wikisource üzerinden Britannica 1911 → C kalır.",
+    "KARIŞIK kuralı (aynı parçada C ile A/B → C) onaylandı.",
+    "`adsiz` (eser adı vermeyen beyan: \"standart akademik kaynak\", \"el-kitabi\") → `guvensiz` damgasına "
+    "katıldı (gizlenir, teyide gider); alt neden `adsiz` ayrı sayılır.",
+    ".gov/.edu genel sınıfı (RESMI-SITE, UNIV-SITE) → B onaylandı.",
+    "\"bulunamadı — dayanak: A eser\" → damga `bulunamadi` kalır; \"dayanak adı geçen\" alt sayısı ayrı "
+    "listelenir (`bulunamadi_dayanakli.tsv`).",
+]
+ACIK_NOTLAR = [
     "**`el-kitabi`** sitede TDV bağına çevriliyor (js/app.js `_KC_SLUG` → islamansiklopedisi.org.tr/el-kitabi): "
     "arayüz işinde `tdv_slug.haric` okunmalı.",
-    "**`bulunamadi` + adı geçen dayanak** (\"bulunamadı — TDV'de yok, dayanak: P. Jackson, The Delhi "
-    "Sultanate\") — damga `bulunamadi` kalıyor; A dayanaklı olanlar `guvenli` sayılsın mı?",
-    "**ENCYCLOPEDIA-COM** (B, derleme platform) ve **EBSCO-RS** (B; 92 bağın 92'si /research-starters/) — öneri B.",
-    "**Genel sınıf kuralları** RESMI-SITE (.gov/.gob/meclis… → B) ve UNIV-SITE (.edu/.ac.xx → B) — "
-    "kurum sitesi tek tek sınıflanmadan B sayılıyor; onay.",
-    "**AKADEMIK-ESER** — yazar adıyla tanınan monografiler A sayılıyor (Riasanovsky, Setton, Coedès, "
-    "Kamen, Payne…); yayınevi yazılmamış olsa bile. Liste yalnız veride sık geçen standart eserlerden.",
+    "**ENCYCLOPEDIA-COM** (B) ve **EBSCO-RS** (B; 92 bağın 92'si /research-starters/) ile **AKADEMIK-ESER** "
+    "(yazar adıyla A) için ayrı karar alınmadı; tablo bugünkü hâliyle uygulandı.",
 ]
 
 
@@ -608,6 +650,9 @@ def rapor(oz, T, taninmayan, alan, karisik):
                                        oz["damga"]["kunye_kaynak"][d]))
     w("| **toplam** | %d | %d | %d |" % tuple(sum(oz["damga"][k].values())
                                           for k in ("dosya", "kunye_kronoloji", "kunye_kaynak")))
+    ga = oz["guvensiz_alt"]
+    w("| ↳ `guvensiz` alt neden C | %d | %d | %d |" % tuple(ga[k].get("C", 0) for k in ("dosya", "kunye_kronoloji", "kunye_kaynak")))
+    w("| ↳ `guvensiz` alt neden `adsiz` | %d | %d | %d |" % tuple(ga[k].get("adsiz", 0) for k in ("dosya", "kunye_kronoloji", "kunye_kaynak")))
     w("")
     for k, v in T["damgalar"].items():
         w("- `%s` — %s" % (k, v))
@@ -615,7 +660,7 @@ def rapor(oz, T, taninmayan, alan, karisik):
     b = oz["bulunamadi_ic_dayanak"]
     w("**`bulunamadi` içinde adı geçen dayanak** (\"bulunamadı — … dayanak: X\"): dosya A %d · B %d · yok %d; "
       "künye-kronoloji A %d · B %d · yok %d. Bunlar damgada `bulunamadi` kalır (verinin kendi beyanı) ama "
-      "teyit kampanyasında ucuz kazançtır." % (b["dosya"]["A"], b["dosya"]["B"], b["dosya"]["yok"],
+      "teyit kampanyasında ucuz kazançtır — tam liste `bulunamadi_dayanakli.tsv`." % (b["dosya"]["A"], b["dosya"]["B"], b["dosya"]["yok"],
                                               b["kunye_kronoloji"]["A"], b["kunye_kronoloji"]["B"],
                                               b["kunye_kronoloji"]["yok"]))
     w("")
@@ -675,15 +720,14 @@ def rapor(oz, T, taninmayan, alan, karisik):
     w("")
     for f in ("ozet.json", "damga_dosya.tsv", "damga_kunye_bolge.tsv", "damga_yuzyil.tsv",
               "taninmayan_parca.tsv", "taninmayan_alanadi.tsv", "karisik_parca.tsv",
-              "guvensiz_maddeler.tsv", "d2_yalniz_suzulen_tanikli.tsv"):
+              "guvensiz_maddeler.tsv", "bulunamadi_dayanakli.tsv", "d2_yalniz_suzulen_tanikli.tsv"):
         w("- `%s`" % f)
     w("")
-    w("## 5. Emre kararı bekleyen sınıflandırmalar")
+    w("## 5. Emre kararları (14 Ekim 2026) ve açık notlar")
     w("")
-    for e in T["kaynaklar"]:
-        if "EMRE KARARI" in (e.get("not") or ""):
-            w("- **%s** (%s) — şimdi `%s`. %s" % (e["kod"], e["ad"], e["kademe"], e["not"]))
-    for s in EMRE_SORULARI:
+    for s in EMRE_KARARLARI:
+        w("- ✅ " + s)
+    for s in ACIK_NOTLAR:
         w("- " + s)
     open(os.path.join(CIKTI, "RAPOR.md"), "w", encoding="utf-8", newline="\n").write("\n".join(L) + "\n")
 

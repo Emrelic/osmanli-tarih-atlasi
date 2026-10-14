@@ -1,188 +1,188 @@
-dosya	madde	guvenli	ikincil	taninmayan	guvensiz	adsiz	bulunamadi	bos
-data/olaylar.js	81	81	0	0	0	0	0	0
-data/olaylar_ek.js	113	112	0	0	0	0	1	0
-data/olaylar_ek2.js	65	64	0	0	0	0	1	0
-data/olaylar_ek3.js	36	36	0	0	0	0	0	0
-data/olaylar_ek4.js	67	67	0	0	0	0	0	0
-data/olaylar_ek5.js	442	437	0	4	0	0	1	0
-data/olaylar_ek6.js	58	57	0	1	0	0	0	0
-data/olaylar_ilirya_0072.js	4	2	0	2	0	0	0	0
-data/olaylar_ek7.js	131	131	0	0	0	0	0	0
-data/olaylar_7a4170.js	4	4	0	0	0	0	0	0
-data/olaylar_ek8.js	35	23	2	4	1	0	5	0
-data/olaylar_ek9.js	31	31	0	0	0	0	0	0
-data/olaylar_ek10.js	33	33	0	0	0	0	0	0
-data/olaylar_ek11.js	15	9	0	0	0	0	0	6
-data/olaylar_ek12.js	11	7	0	2	2	0	0	0
-data/olaylar_ek13.js	21	14	0	0	0	0	0	7
-data/olaylar_ek14.js	94	94	0	0	0	0	0	0
-data/olaylar_ek15.js	16	16	0	0	0	0	0	0
-data/olaylar_ek16.js	61	20	0	0	0	0	41	0
-data/olaylar_ek17.js	30	27	0	1	0	0	2	0
-data/olaylar_ek18.js	1	1	0	0	0	0	0	0
-data/olaylar_ek20.js	17	16	0	0	0	0	1	0
-data/olaylar_ek21.js	4	4	0	0	0	0	0	0
-data/olaylar_ek22.js	1	1	0	0	0	0	0	0
-data/olaylar_ek19.js	1	0	0	0	0	0	1	0
-data/olaylar_senkron_0930.js	7	7	0	0	0	0	0	0
-data/kronoloji_habsburg.js	117	30	45	10	0	0	32	0
-data/kronoloji_rusya.js	158	158	0	0	0	0	0	0
-data/kronoloji_lehistan.js	78	31	0	1	0	46	0	0
-data/kronoloji_venedik.js	87	30	16	5	0	0	36	0
-data/kronoloji_iran.js	107	107	0	0	0	0	0	0
-data/kronoloji_bizans.js	97	27	0	0	0	70	0	0
-data/kronoloji_memluk.js	155	102	0	47	0	0	6	0
-data/kronoloji_kirim.js	91	89	0	2	0	0	0	0
-data/kronoloji_macaristan.js	127	23	0	104	0	0	0	0
-data/kronoloji_ingiltere.js	270	25	5	4	0	236	0	0
-data/kronoloji_fransa.js	184	25	2	14	0	143	0	0
-data/kronoloji_almanya.js	132	16	0	93	0	0	23	0
-data/kronoloji_sinir_turkiye.js	13	13	0	0	0	0	0	0
-data/kronoloji_sinir_komsu.js	23	23	0	0	0	0	0	0
-data/kronoloji_sinir_guney_g8.js	81	44	5	32	0	0	0	0
-data/kronoloji_sinir_avrupa_orta.js	80	19	13	48	0	0	0	0
-data/kronoloji_sinir_avrupa_bati.js	60	32	10	18	0	0	0	0
-data/kronoloji_sinir_ortadogu.js	12	8	0	4	0	0	0	0
-data/kronoloji_sinir_afrika.js	16	5	1	5	5	0	0	0
-data/kronoloji_sinir_asya.js	95	75	12	8	0	0	0	0
-data/kronoloji_sinir_amerika.js	21	16	1	4	0	0	0	0
-data/kronoloji_sinir_okyanusya.js	6	5	0	1	0	0	0	0
-data/kronoloji_cok_1dunya_A.js	96	96	0	0	0	0	0	0
-data/kronoloji_cok_1dunya_B.js	90	90	0	0	0	0	0	0
-data/kronoloji_italya.js	192	10	19	37	0	0	126	0
-data/kronoloji_ispanya.js	158	125	1	16	0	16	0	0
-data/kronoloji_portekiz.js	86	26	7	51	0	0	2	0
-data/kronoloji_cin.js	136	135	0	0	0	0	1	0
-data/kronoloji_hindistan.js	131	58	0	1	0	0	72	0
-data/kronoloji_sinir_polonya_1915.js	15	10	3	2	0	0	0	0
-data/kronoloji_sinir_nokta3.js	28	3	12	10	3	0	0	0
-data/kronoloji_sinir_nokta2.js	82	15	24	30	13	0	0	0
-data/kronoloji_sinir_halef_1923_2000.js	329	120	169	36	4	0	0	0
-data/kronoloji_cok_afrika.js	9	9	0	0	0	0	0	0
-data/kronoloji_cok_anadolu2.js	8	8	0	0	0	0	0	0
-data/kronoloji_cok_arabistan2.js	3	3	0	0	0	0	0	0
-data/kronoloji_cok_ceneviz.js	10	10	0	0	0	0	0	0
-data/kronoloji_cok_cezayir.js	47	47	0	0	0	0	0	0
-data/kronoloji_cok_dogu_asya.js	9	8	1	0	0	0	0	0
-data/kronoloji_cok_fas.js	53	53	0	0	0	0	0	0
-data/kronoloji_cok_fransa.js	27	17	1	9	0	0	0	0
-data/kronoloji_cok_habsburg.js	9	0	3	6	0	0	0	0
-data/kronoloji_cok_ingiltere.js	7	7	0	0	0	0	0	0
-data/kronoloji_cok_iran.js	2	2	0	0	0	0	0	0
-data/kronoloji_cok_isvec.js	6	6	0	0	0	0	0	0
-data/kronoloji_cok_karadag.js	8	7	0	1	0	0	0	0
-data/kronoloji_cok_kuzey_amerika.js	33	14	15	4	0	0	0	0
-data/kronoloji_cok_lehistan.js	64	19	1	1	1	42	0	0
-data/kronoloji_cok_libya.js	58	58	0	0	0	0	0	0
-data/kronoloji_cok_okyanusya.js	6	2	2	2	0	0	0	0
-data/kronoloji_cok_orta_asya2.js	16	14	1	1	0	0	0	0
-data/kronoloji_cok_portekiz.js	21	17	0	4	0	0	0	0
-data/kronoloji_cok_romanya.js	69	66	0	3	0	0	0	0
-data/kronoloji_cok_rusya.js	92	21	39	28	3	1	0	0
-data/kronoloji_cok_sirbistan.js	36	36	0	0	0	0	0	0
-data/kronoloji_cok_tunus.js	73	73	0	0	0	0	0	0
-data/kronoloji_cok_venedik.js	7	7	0	0	0	0	0	0
-data/kronoloji_cok_arnavut.js	31	31	0	0	0	0	0	0
-data/kronoloji_cok_bosna.js	28	28	0	0	0	0	0	0
-data/kronoloji_cok_bulgaristan.js	6	6	0	0	0	0	0	0
-data/kronoloji_cok_ermeni.js	13	13	0	0	0	0	0	0
-data/kronoloji_cok_guney_amerika.js	98	92	0	6	0	0	0	0
-data/kronoloji_cok_gurcistan.js	35	35	0	0	0	0	0	0
-data/kronoloji_cok_hollanda.js	22	16	3	3	0	0	0	0
-data/kronoloji_cok_ispanya.js	115	42	28	45	0	0	0	0
-data/kronoloji_cok_memluk.js	2	2	0	0	0	0	0	0
-data/kronoloji_cok_orta_amerika.js	18	5	11	2	0	0	0	0
-data/kronoloji_cok_ukrayna.js	35	26	0	9	0	0	0	0
-data/kronoloji_cok_yunanistan.js	16	16	0	0	0	0	0	0
-data/kronoloji_cok_once1281_anadolu.js	175	167	8	0	0	0	0	0
-data/kronoloji_cok_once1281_avrupa.js	272	102	170	0	0	0	0	0
-data/kronoloji_cok_once1281_ortadogu.js	171	171	0	0	0	0	0	0
-data/kronoloji_cok_once1281_iran.js	170	170	0	0	0	0	0	0
-data/kronoloji_cok_once1281_dogu_asya.js	73	12	23	0	0	0	38	0
-data/kronoloji_cok_once1281_hint_amerika.js	51	7	44	0	0	0	0	0
-data/kronoloji_cok_once1281_afrika.js	52	50	2	0	0	0	0	0
-data/kronoloji_cok_1923_1945.js	503	278	213	12	0	0	0	0
-data/kronoloji_cok_500_1000.js	16	16	0	0	0	0	0	0
-data/kronoloji_cok_ince_anadolu_iran.js	20	20	0	0	0	0	0	0
-data/kronoloji_cok_ince_avrupa_amerika.js	48	8	15	25	0	0	0	0
-data/kronoloji_cok_ince_bati_afrika.js	14	9	4	0	0	0	1	0
-data/kronoloji_cok_ince_dg_afrika.js	28	19	9	0	0	0	0	0
-data/kronoloji_cok_ince_gd_asya.js	44	38	0	6	0	0	0	0
-data/kronoloji_cok_ince_guney_asya.js	56	38	0	18	0	0	0	0
-data/kronoloji_cok_ince_kuzey_amerika.js	12	3	3	6	0	0	0	0
-data/kronoloji_cok_ince_misir_orta_asya.js	35	35	0	0	0	0	0	0
-data/kronoloji_cok_senkron_0930.js	68	42	0	26	0	0	0	0
-data/kronoloji_akkoyunlu.js	77	74	0	3	0	0	0	0
-data/kronoloji_karakoyunlu.js	70	67	0	3	0	0	0	0
-data/kronoloji_altinorda.js	44	42	0	0	0	0	2	0
-data/kronoloji_hollanda.js	42	20	0	13	0	0	9	0
-data/kronoloji_isvec.js	95	95	0	0	0	0	0	0
-data/kronoloji_japonya.js	71	16	0	0	0	0	55	0
-data/kronoloji_misir.js	120	109	0	1	0	0	10	0
-data/kronoloji_ozbek.js	73	64	0	9	0	0	0	0
-data/kronoloji_timurlu.js	24	23	0	0	0	0	1	0
-data/kronoloji_anadolu.js	282	269	0	9	0	0	4	0
-data/kronoloji_arabistan.js	60	56	0	4	0	0	0	0
-data/kronoloji_atina_dukaligi.js	25	25	0	0	0	0	0	0
-data/kronoloji_balkan.js	177	118	0	12	0	0	47	0
-data/kronoloji_dogu_afrika.js	218	215	0	2	0	0	1	0
-data/kronoloji_guney_asya.js	153	52	0	0	0	0	101	0
-data/kronoloji_gurcistan.js	45	39	0	1	0	0	5	0
-data/kronoloji_iran_ardillari.js	155	154	0	0	0	0	1	0
-data/kronoloji_italya_sehir.js	186	90	0	2	0	0	94	0
-data/kronoloji_katalan.js	9	9	0	0	0	0	0	0
-data/kronoloji_kuzeyafrika.js	83	83	0	0	0	0	0	0
-data/olaylar_2s_0918.js	20	17	0	2	1	0	0	0
-data/olaylar_ortadogu_0919.js	3	2	0	1	0	0	0	0
-data/olaylar_2s_0919.js	71	41	22	8	0	0	0	0
-data/olaylar_amerika_0920.js	24	18	0	6	0	0	0	0
-data/olaylar_2s_0920.js	16	16	0	0	0	0	0	0
-data/olaylar_misir1801.js	2	2	0	0	0	0	0	0
-data/olaylar_senusi_0919.js	5	2	0	3	0	0	0	0
-data/olaylar_sessiz_borc_0919.js	5	5	0	0	0	0	0	0
-data/olaylar_p0069.js	9	2	0	7	0	0	0	0
-data/olaylar_ebukir_0919.js	2	2	0	0	0	0	0	0
-data/kronoloji_naksa_dukaligi.js	25	25	0	0	0	0	0	0
-data/kronoloji_orta_asya.js	205	204	0	0	0	0	1	0
-data/kronoloji_rodos_sovalyeleri.js	96	76	0	20	0	0	0	0
-data/kronoloji_safevi.js	83	83	0	0	0	0	0	0
-data/kronoloji_sirbistan.js	35	33	0	1	0	0	1	0
-data/olaylar_serhat.js	3	3	0	0	0	0	0	0
-data/olaylar_p0043a.js	1	1	0	0	0	0	0	0
-data/olaylar_p0043b.js	1	1	0	0	0	0	0	0
-data/olaylar_p0043kirim.js	3	2	0	0	0	0	1	0
-data/olaylar_p0044.js	5	4	0	0	0	0	1	0
-data/olaylar_p0047.js	1	1	0	0	0	0	0	0
-data/olaylar_p0048.js	2	2	0	0	0	0	0	0
-data/olaylar_p0049.js	17	17	0	0	0	0	0	0
-data/olaylar_p0050.js	6	6	0	0	0	0	0	0
-data/olaylar_p0051.js	4	1	0	3	0	0	0	0
-data/olaylar_p0052.js	1	1	0	0	0	0	0	0
-data/olaylar_p0053.js	3	3	0	0	0	0	0	0
-data/olaylar_p0055.js	8	7	1	0	0	0	0	0
-data/olaylar_p0056.js	11	5	0	0	6	0	0	0
-data/olaylar_p0057.js	28	28	0	0	0	0	0	0
-data/olaylar_p0058.js	6	6	0	0	0	0	0	0
-data/olaylar_p0059.js	1	1	0	0	0	0	0	0
-data/olaylar_ok107.js	2	2	0	0	0	0	0	0
-data/olaylar_ok109.js	27	16	0	11	0	0	0	0
-data/olaylar_ok106.js	7	2	0	0	0	0	5	0
-data/olaylar_ok104.js	1	1	0	0	0	0	0	0
-data/olaylar_p0036.js	5	5	0	0	0	0	0	0
-data/olaylar_sk105.js	0	0	0	0	0	0	0	0
-data/olaylar_sh110.js	0	0	0	0	0	0	0	0
-data/olaylar_cukurova_0907.js	6	6	0	0	0	0	0	0
-data/olaylar_p0037.js	1	1	0	0	0	0	0	0
-data/olaylar_p0057b.js	7	7	0	0	0	0	0	0
-data/olaylar_p0060.js	5	5	0	0	0	0	0	0
-data/olaylar_p0063.js	13	7	1	5	0	0	0	0
-data/olaylar_p0917taraf.js	7	3	0	4	0	0	0	0
-data/olaylar_p0917kosu13.js	29	24	1	4	0	0	0	0
-data/olaylar_p0917dunya.js	22	20	0	2	0	0	0	0
-data/olaylar_p0068.js	6	6	0	0	0	0	0	0
-data/olaylar_p0067.js	1	1	0	0	0	0	0	0
-data/olaylar_p0068b.js	37	37	0	0	0	0	0	0
-data/olaylar_p0065.js	3	1	0	0	0	2	0	0
-data/olaylar_kronoeksik_0921.js	4	4	0	0	0	0	0	0
-data/olaylar_0073_iran_yanya.js	5	5	0	0	0	0	0	0
-data/olaylar_kamerika.js	11	1	0	0	0	0	10	0
+dosya	madde	guvenli	ikincil	taninmayan	guvensiz	bulunamadi	bos
+data/olaylar.js	81	81	0	0	0	0	0
+data/olaylar_ek.js	113	112	0	0	0	1	0
+data/olaylar_ek2.js	65	64	0	0	0	1	0
+data/olaylar_ek3.js	36	36	0	0	0	0	0
+data/olaylar_ek4.js	67	67	0	0	0	0	0
+data/olaylar_ek5.js	442	437	0	4	0	1	0
+data/olaylar_ek6.js	58	57	0	1	0	0	0
+data/olaylar_ilirya_0072.js	4	2	0	2	0	0	0
+data/olaylar_ek7.js	131	131	0	0	0	0	0
+data/olaylar_7a4170.js	4	4	0	0	0	0	0
+data/olaylar_ek8.js	35	23	2	4	1	5	0
+data/olaylar_ek9.js	31	31	0	0	0	0	0
+data/olaylar_ek10.js	33	33	0	0	0	0	0
+data/olaylar_ek11.js	15	9	0	0	0	0	6
+data/olaylar_ek12.js	11	7	0	2	2	0	0
+data/olaylar_ek13.js	21	14	0	0	0	0	7
+data/olaylar_ek14.js	94	94	0	0	0	0	0
+data/olaylar_ek15.js	16	16	0	0	0	0	0
+data/olaylar_ek16.js	61	20	0	0	0	41	0
+data/olaylar_ek17.js	30	27	0	1	0	2	0
+data/olaylar_ek18.js	1	1	0	0	0	0	0
+data/olaylar_ek20.js	17	16	0	0	0	1	0
+data/olaylar_ek21.js	4	4	0	0	0	0	0
+data/olaylar_ek22.js	1	1	0	0	0	0	0
+data/olaylar_ek19.js	1	0	0	0	0	1	0
+data/olaylar_senkron_0930.js	7	7	0	0	0	0	0
+data/kronoloji_habsburg.js	117	30	45	10	0	32	0
+data/kronoloji_rusya.js	158	158	0	0	0	0	0
+data/kronoloji_lehistan.js	78	31	0	1	46	0	0
+data/kronoloji_venedik.js	87	30	16	5	0	36	0
+data/kronoloji_iran.js	107	107	0	0	0	0	0
+data/kronoloji_bizans.js	97	27	0	0	70	0	0
+data/kronoloji_memluk.js	155	102	0	47	0	6	0
+data/kronoloji_kirim.js	91	89	0	2	0	0	0
+data/kronoloji_macaristan.js	127	23	0	104	0	0	0
+data/kronoloji_ingiltere.js	270	25	5	4	236	0	0
+data/kronoloji_fransa.js	184	25	2	14	143	0	0
+data/kronoloji_almanya.js	132	16	0	93	0	23	0
+data/kronoloji_sinir_turkiye.js	13	13	0	0	0	0	0
+data/kronoloji_sinir_komsu.js	23	23	0	0	0	0	0
+data/kronoloji_sinir_guney_g8.js	81	44	5	32	0	0	0
+data/kronoloji_sinir_avrupa_orta.js	80	19	13	48	0	0	0
+data/kronoloji_sinir_avrupa_bati.js	60	32	10	18	0	0	0
+data/kronoloji_sinir_ortadogu.js	12	8	0	4	0	0	0
+data/kronoloji_sinir_afrika.js	16	5	1	5	5	0	0
+data/kronoloji_sinir_asya.js	95	75	12	8	0	0	0
+data/kronoloji_sinir_amerika.js	21	16	1	4	0	0	0
+data/kronoloji_sinir_okyanusya.js	6	5	0	1	0	0	0
+data/kronoloji_cok_1dunya_A.js	96	96	0	0	0	0	0
+data/kronoloji_cok_1dunya_B.js	90	90	0	0	0	0	0
+data/kronoloji_italya.js	192	10	19	37	0	126	0
+data/kronoloji_ispanya.js	158	125	1	16	16	0	0
+data/kronoloji_portekiz.js	86	26	7	51	0	2	0
+data/kronoloji_cin.js	136	135	0	0	0	1	0
+data/kronoloji_hindistan.js	131	58	0	1	0	72	0
+data/kronoloji_sinir_polonya_1915.js	15	10	3	2	0	0	0
+data/kronoloji_sinir_nokta3.js	28	3	11	10	4	0	0
+data/kronoloji_sinir_nokta2.js	82	15	22	31	14	0	0
+data/kronoloji_sinir_halef_1923_2000.js	329	120	168	37	4	0	0
+data/kronoloji_cok_afrika.js	9	9	0	0	0	0	0
+data/kronoloji_cok_anadolu2.js	8	8	0	0	0	0	0
+data/kronoloji_cok_arabistan2.js	3	3	0	0	0	0	0
+data/kronoloji_cok_ceneviz.js	10	10	0	0	0	0	0
+data/kronoloji_cok_cezayir.js	47	47	0	0	0	0	0
+data/kronoloji_cok_dogu_asya.js	9	8	1	0	0	0	0
+data/kronoloji_cok_fas.js	53	53	0	0	0	0	0
+data/kronoloji_cok_fransa.js	27	17	1	9	0	0	0
+data/kronoloji_cok_habsburg.js	9	0	3	6	0	0	0
+data/kronoloji_cok_ingiltere.js	7	7	0	0	0	0	0
+data/kronoloji_cok_iran.js	2	2	0	0	0	0	0
+data/kronoloji_cok_isvec.js	6	6	0	0	0	0	0
+data/kronoloji_cok_karadag.js	8	7	0	1	0	0	0
+data/kronoloji_cok_kuzey_amerika.js	33	14	15	4	0	0	0
+data/kronoloji_cok_lehistan.js	64	19	1	1	43	0	0
+data/kronoloji_cok_libya.js	58	58	0	0	0	0	0
+data/kronoloji_cok_okyanusya.js	6	2	2	2	0	0	0
+data/kronoloji_cok_orta_asya2.js	16	14	1	1	0	0	0
+data/kronoloji_cok_portekiz.js	21	17	0	4	0	0	0
+data/kronoloji_cok_romanya.js	69	66	0	3	0	0	0
+data/kronoloji_cok_rusya.js	92	21	39	28	4	0	0
+data/kronoloji_cok_sirbistan.js	36	36	0	0	0	0	0
+data/kronoloji_cok_tunus.js	73	73	0	0	0	0	0
+data/kronoloji_cok_venedik.js	7	7	0	0	0	0	0
+data/kronoloji_cok_arnavut.js	31	31	0	0	0	0	0
+data/kronoloji_cok_bosna.js	28	28	0	0	0	0	0
+data/kronoloji_cok_bulgaristan.js	6	6	0	0	0	0	0
+data/kronoloji_cok_ermeni.js	13	13	0	0	0	0	0
+data/kronoloji_cok_guney_amerika.js	98	92	0	6	0	0	0
+data/kronoloji_cok_gurcistan.js	35	35	0	0	0	0	0
+data/kronoloji_cok_hollanda.js	22	16	3	3	0	0	0
+data/kronoloji_cok_ispanya.js	115	42	28	45	0	0	0
+data/kronoloji_cok_memluk.js	2	2	0	0	0	0	0
+data/kronoloji_cok_orta_amerika.js	18	5	11	2	0	0	0
+data/kronoloji_cok_ukrayna.js	35	26	0	9	0	0	0
+data/kronoloji_cok_yunanistan.js	16	16	0	0	0	0	0
+data/kronoloji_cok_once1281_anadolu.js	175	167	8	0	0	0	0
+data/kronoloji_cok_once1281_avrupa.js	272	102	170	0	0	0	0
+data/kronoloji_cok_once1281_ortadogu.js	171	171	0	0	0	0	0
+data/kronoloji_cok_once1281_iran.js	170	170	0	0	0	0	0
+data/kronoloji_cok_once1281_dogu_asya.js	73	12	23	0	0	38	0
+data/kronoloji_cok_once1281_hint_amerika.js	51	7	44	0	0	0	0
+data/kronoloji_cok_once1281_afrika.js	52	50	2	0	0	0	0
+data/kronoloji_cok_1923_1945.js	503	278	213	12	0	0	0
+data/kronoloji_cok_500_1000.js	16	16	0	0	0	0	0
+data/kronoloji_cok_ince_anadolu_iran.js	20	20	0	0	0	0	0
+data/kronoloji_cok_ince_avrupa_amerika.js	48	8	15	25	0	0	0
+data/kronoloji_cok_ince_bati_afrika.js	14	9	4	0	0	1	0
+data/kronoloji_cok_ince_dg_afrika.js	28	19	9	0	0	0	0
+data/kronoloji_cok_ince_gd_asya.js	44	38	0	6	0	0	0
+data/kronoloji_cok_ince_guney_asya.js	56	38	0	18	0	0	0
+data/kronoloji_cok_ince_kuzey_amerika.js	12	3	3	6	0	0	0
+data/kronoloji_cok_ince_misir_orta_asya.js	35	35	0	0	0	0	0
+data/kronoloji_cok_senkron_0930.js	68	42	0	26	0	0	0
+data/kronoloji_akkoyunlu.js	77	74	0	3	0	0	0
+data/kronoloji_karakoyunlu.js	70	67	0	3	0	0	0
+data/kronoloji_altinorda.js	44	42	0	0	0	2	0
+data/kronoloji_hollanda.js	42	20	0	13	0	9	0
+data/kronoloji_isvec.js	95	95	0	0	0	0	0
+data/kronoloji_japonya.js	71	16	0	0	0	55	0
+data/kronoloji_misir.js	120	109	0	1	0	10	0
+data/kronoloji_ozbek.js	73	64	0	9	0	0	0
+data/kronoloji_timurlu.js	24	23	0	0	0	1	0
+data/kronoloji_anadolu.js	282	269	0	9	0	4	0
+data/kronoloji_arabistan.js	60	56	0	4	0	0	0
+data/kronoloji_atina_dukaligi.js	25	25	0	0	0	0	0
+data/kronoloji_balkan.js	177	118	0	12	0	47	0
+data/kronoloji_dogu_afrika.js	218	215	0	2	0	1	0
+data/kronoloji_guney_asya.js	153	52	0	0	0	101	0
+data/kronoloji_gurcistan.js	45	39	0	1	0	5	0
+data/kronoloji_iran_ardillari.js	155	154	0	0	0	1	0
+data/kronoloji_italya_sehir.js	186	90	0	2	0	94	0
+data/kronoloji_katalan.js	9	9	0	0	0	0	0
+data/kronoloji_kuzeyafrika.js	83	83	0	0	0	0	0
+data/olaylar_2s_0918.js	20	17	0	2	1	0	0
+data/olaylar_ortadogu_0919.js	3	2	0	1	0	0	0
+data/olaylar_2s_0919.js	71	41	22	8	0	0	0
+data/olaylar_amerika_0920.js	24	18	0	6	0	0	0
+data/olaylar_2s_0920.js	16	16	0	0	0	0	0
+data/olaylar_misir1801.js	2	2	0	0	0	0	0
+data/olaylar_senusi_0919.js	5	2	0	3	0	0	0
+data/olaylar_sessiz_borc_0919.js	5	5	0	0	0	0	0
+data/olaylar_p0069.js	9	2	0	7	0	0	0
+data/olaylar_ebukir_0919.js	2	2	0	0	0	0	0
+data/kronoloji_naksa_dukaligi.js	25	25	0	0	0	0	0
+data/kronoloji_orta_asya.js	205	204	0	0	0	1	0
+data/kronoloji_rodos_sovalyeleri.js	96	76	0	20	0	0	0
+data/kronoloji_safevi.js	83	83	0	0	0	0	0
+data/kronoloji_sirbistan.js	35	33	0	1	0	1	0
+data/olaylar_serhat.js	3	3	0	0	0	0	0
+data/olaylar_p0043a.js	1	1	0	0	0	0	0
+data/olaylar_p0043b.js	1	1	0	0	0	0	0
+data/olaylar_p0043kirim.js	3	2	0	0	0	1	0
+data/olaylar_p0044.js	5	4	0	0	0	1	0
+data/olaylar_p0047.js	1	1	0	0	0	0	0
+data/olaylar_p0048.js	2	2	0	0	0	0	0
+data/olaylar_p0049.js	17	17	0	0	0	0	0
+data/olaylar_p0050.js	6	6	0	0	0	0	0
+data/olaylar_p0051.js	4	1	0	3	0	0	0
+data/olaylar_p0052.js	1	1	0	0	0	0	0
+data/olaylar_p0053.js	3	3	0	0	0	0	0
+data/olaylar_p0055.js	8	7	1	0	0	0	0
+data/olaylar_p0056.js	11	5	0	0	6	0	0
+data/olaylar_p0057.js	28	28	0	0	0	0	0
+data/olaylar_p0058.js	6	6	0	0	0	0	0
+data/olaylar_p0059.js	1	1	0	0	0	0	0
+data/olaylar_ok107.js	2	2	0	0	0	0	0
+data/olaylar_ok109.js	27	16	0	11	0	0	0
+data/olaylar_ok106.js	7	2	0	0	0	5	0
+data/olaylar_ok104.js	1	1	0	0	0	0	0
+data/olaylar_p0036.js	5	5	0	0	0	0	0
+data/olaylar_sk105.js	0	0	0	0	0	0	0
+data/olaylar_sh110.js	0	0	0	0	0	0	0
+data/olaylar_cukurova_0907.js	6	6	0	0	0	0	0
+data/olaylar_p0037.js	1	1	0	0	0	0	0
+data/olaylar_p0057b.js	7	7	0	0	0	0	0
+data/olaylar_p0060.js	5	5	0	0	0	0	0
+data/olaylar_p0063.js	13	7	1	5	0	0	0
+data/olaylar_p0917taraf.js	7	3	0	4	0	0	0
+data/olaylar_p0917kosu13.js	29	24	1	4	0	0	0
+data/olaylar_p0917dunya.js	22	20	0	2	0	0	0
+data/olaylar_p0068.js	6	6	0	0	0	0	0
+data/olaylar_p0067.js	1	1	0	0	0	0	0
+data/olaylar_p0068b.js	37	37	0	0	0	0	0
+data/olaylar_p0065.js	3	1	0	0	2	0	0
+data/olaylar_kronoeksik_0921.js	4	4	0	0	0	0	0
+data/olaylar_0073_iran_yanya.js	5	5	0	0	0	0	0
+data/olaylar_kamerika.js	11	1	0	0	0	10	0

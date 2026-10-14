@@ -1,13 +1,12 @@
 {
  "surum": "KAYNAK-GUVEN-1014",
- "taban_commit": "183c324e30aa531f9e677e460745bcc4754d2147",
+ "taban_commit": "212fdfb822d90582daef6232a9a392b6f25eebb3",
  "calisma_agaci_kirli": true,
  "kirli_dosyalar": [
-  "M arac/silsile_yukle.js",
-  "?? arac/kaynak_guven.py",
-  "?? data/kaynak_guven.js"
+  "M arac/kaynak_guven.py",
+  " M data/kaynak_guven.js"
  ],
- "tablo_sha256_12": "68f961734761",
+ "tablo_sha256_12": "5cb233561704",
  "tablo_girdi": 138,
  "evren": {
   "kronoloji_dosyasi": 187,
@@ -18,28 +17,25 @@
  "damga": {
   "dosya": {
    "guvenli": 7277,
-   "ikincil": 968,
-   "taninmayan": 950,
-   "guvensiz": 39,
-   "adsiz": 556,
+   "ikincil": 964,
+   "taninmayan": 952,
+   "guvensiz": 597,
    "bulunamadi": 739,
    "bos": 13
   },
   "kunye_kronoloji": {
    "guvenli": 2918,
-   "ikincil": 3474,
-   "taninmayan": 1668,
-   "guvensiz": 2034,
-   "adsiz": 7,
+   "ikincil": 3417,
+   "taninmayan": 1678,
+   "guvensiz": 2088,
    "bulunamadi": 177,
    "bos": 1975
   },
   "kunye_kaynak": {
    "guvenli": 753,
-   "ikincil": 541,
+   "ikincil": 540,
    "taninmayan": 211,
-   "guvensiz": 23,
-   "adsiz": 2,
+   "guvensiz": 26,
    "bulunamadi": 270,
    "bos": 0
   }
@@ -47,6 +43,20 @@
  "app_parcala": {
   "karsilastirilan_dizge": 15682,
   "fark": 0
+ },
+ "guvensiz_alt": {
+  "dosya": {
+   "C": 41,
+   "adsiz": 556
+  },
+  "kunye_kronoloji": {
+   "C": 2081,
+   "adsiz": 7
+  },
+  "kunye_kaynak": {
+   "C": 24,
+   "adsiz": 2
+  }
  },
  "bulunamadi_ic_dayanak": {
   "dosya": {
@@ -64,12 +74,12 @@
   "A": 13276,
   "TANINMAYAN": 6645,
   "N": 1335,
-  "B": 6478,
-  "C": 4830,
+  "B": 6398,
+  "C": 4910,
   "K": 214,
   "Y": 720
  },
- "parca_karisik": 174,
+ "parca_karisik": 173,
  "kod_say": {
   "TDV": 9634,
   "VIKIPEDI": 3187,
@@ -195,12 +205,11 @@
   "evren_dosya": 89,
   "damga_d2_evreni": {
    "guvenli": 2032,
-   "taninmayan": 268,
-   "guvensiz": 35,
-   "ikincil": 277,
+   "taninmayan": 270,
+   "guvensiz": 39,
+   "ikincil": 273,
    "bulunamadi": 70,
-   "bos": 13,
-   "adsiz": 2
+   "bos": 13
   },
   "taban": {
    "2": {
@@ -221,7 +230,7 @@
   },
   "senaryo": {
    "S1-guvensiz": {
-    "silinen_madde": 35,
+    "silinen_madde": 39,
     "2": {
      "yeni_acik_ham": 0,
      "yeni_acik": 0,
@@ -229,9 +238,9 @@
      "acik": 0
     },
     "2s": {
-     "yeni_acik_ham": 20,
+     "yeni_acik_ham": 22,
      "yeni_acik": 12,
-     "acik_ham": 1284,
+     "acik_ham": 1286,
      "acik": 201
     },
     "2i": {
@@ -242,7 +251,7 @@
     }
    },
    "S2-guvensiz+bos+bulunamadi": {
-    "silinen_madde": 118,
+    "silinen_madde": 122,
     "2": {
      "yeni_acik_ham": 3,
      "yeni_acik": 3,
@@ -250,9 +259,9 @@
      "acik": 3
     },
     "2s": {
-     "yeni_acik_ham": 66,
+     "yeni_acik_ham": 68,
      "yeni_acik": 52,
-     "acik_ham": 1330,
+     "acik_ham": 1332,
      "acik": 241
     },
     "2i": {
@@ -263,7 +272,7 @@
     }
    },
    "S3-yalniz-AB-kalir": {
-    "silinen_madde": 388,
+    "silinen_madde": 392,
     "2": {
      "yeni_acik_ham": 13,
      "yeni_acik": 13,
@@ -271,10 +280,10 @@
      "acik": 13
     },
     "2s": {
-     "yeni_acik_ham": 166,
-     "yeni_acik": 122,
-     "acik_ham": 1430,
-     "acik": 311
+     "yeni_acik_ham": 170,
+     "yeni_acik": 123,
+     "acik_ham": 1434,
+     "acik": 312
     },
     "2i": {
      "yeni_acik_ham": 2,
