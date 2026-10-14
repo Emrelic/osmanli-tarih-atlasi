@@ -3871,6 +3871,16 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ⭐ KUTU-TOPLU-1014 (KOŞU 25 öncesi birleşim) — 14 Ekim 2026. Üç çift AYRI YER, aynı gün/aynı komutan:
+    # İçil (Gülek) ↔ Konya Ereğlisi, Maraş ↔ Afyon (1832-33 Mısır işgali, KUTU-K2 koridor noktaları);
+    # Erzurum ↔ Hasankale/Pasinler (1918-03-12, KUTU-F2 Pasinler noktası). Değişmez 2 her yere ayrı madde
+    # ister ⇒ birleştirilemez. Başlık DEĞİŞTİRİLMEDİ (ölçütü atlatmak sayacı kör eder).
+    ('Gülek Boğazı düştü — İçil sahili (Mersin, Silifke) Mısır denetimine girdi',
+     'Konya Ereğlisi Mısır işgalinde — Konya–Adana yolunun Toros ağzı'),
+    ('Maraş Mısır işgaline uğradı',
+     'Karahisâr-ı Sâhib (Afyon) Mısır işgaline uğradı — Konya–Kütahya yolu'),
+    ("Kâzım Karabekir'in kış harekâtı: Erzurum ile birlikte Hasankale (Pasinler) geri alındı",
+     "Erzurum'un kurtuluşu"),
     # ⭐ SUMER-2000 / KURULUŞ-BİTİŞ-DEVİR MADDELERİ (dalga 2) — 13 Ekim 2026.
     # data/kronoloji_sinir_halef_1923_2000.js 257 madde getirdi, tavan 95 → 145 oldu. Her çift TEK TEK okundu:
     # ortak olan yalnız şablon fiil ("…bağımsız oldu", "…Yüksek Sovyeti…ilan etti") ve bazen gün; ülkeler/bölgeler/
