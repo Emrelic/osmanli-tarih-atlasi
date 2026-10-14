@@ -1412,4 +1412,97 @@ window.ANTLASMA_HARITALARI = [
   not: "TDV (ahmed-iii, prut-antlasmasi, edirne-antlasmasi) 1713 antlaşmasının ayrı bir toprak/sınır hükmünü vermiyor; harita yalnız teyit edilen Prut hükmünü (Azak) gösterir. Rusya'nın Kazak topraklarından çekilmesi yer adı taşımadığından noktalanmadı."
 }
 // <<< KUTU-H4-1015 BITTI
+
+,
+// >>> KUTU-H4-1015 ikinci parti (0054/H-0020) — Osmanlı'nın taraf olduğu ve toprak hükmü yeri ADIYLA
+// anan altı antlaşma maddesi: Gelibolu 1403 · Ahmed Paşa 1732 · Faş 1812 · II. Erzurum 1847 ·
+// Bükreş 1913 · Brest-Litovsk 1918. Nokta = atlastaki yerleşim koordinatı; kaynak = maddenin TDV
+// kaynağı (madde metni yeri adıyla anar). Madde yer adlandırmıyorsa nokta konmadı.
+{
+  id: "gelibolu-1403",
+  antlasma_ad: "Gelibolu Antlaşması",
+  tarih: "1403-02-01",
+  bolgeler: [
+    { taraf: "bizans", etiket: "Bizans'a bırakılan (Misivri'ye kadar Karadeniz kıyısı, Selanik, Marmara kıyısı)", noktalar: [
+        { ad: "Ahtapolu (Ahtopol)", lat: 42.099, lon: 27.937, kaynak: "Gelibolu Antlaşması maddesi (olaylar_ek3.js, TDV fetret-devri): Misivri'ye kadar sahil şeridi Bizans'a; Ahtapolu, İğneada ve Rezve yirmi bir yıl Bizans idaresinde kaldı" },
+        { ad: "İğneada", lat: 41.8890, lon: 28.0258, kaynak: "aynı madde (TDV fetret-devri), adıyla" },
+        { ad: "Rezve (Rezovo)", lat: 41.9935, lon: 28.0192, kaynak: "aynı madde (TDV fetret-devri), adıyla" },
+        { ad: "Selanik", lat: 40.640, lon: 22.944, kaynak: "Gelibolu Antlaşması maddeleri (TDV fetret-devri; suleyman-celebi-emir): Selanik Bizans'a iade edildi" },
+        { ad: "Gebze", lat: 40.803, lon: 29.431, kaynak: "Gelibolu Antlaşması maddesi (TDV fetret-devri): Kartal, Pendik ve Gebze Bizans'a bırakıldı" }
+    ] }
+  ],
+  not: "Tesalya ve adalar bölge adıdır, tek şehir anılmadığından noktalanmadı; Kartal ve Pendik atlasta yerleşim değil. Misivri atlasta yerleşim olarak bulunamadı."
+},
+{
+  id: "ahmed-pasa-1732",
+  antlasma_ad: "Ahmed Paşa Antlaşması",
+  tarih: "1732-01-08",
+  bolgeler: [
+    { taraf: "safevi", etiket: "İran'a geri verilen (Batı İran, Aras sınırı)", zarf: true, noktalar: [
+        { ad: "Hemedan", lat: 34.799, lon: 48.515, kaynak: "Ahmed Paşa Antlaşması maddesi (olaylar_ek5.js, TDV osmanlilar): Hemedan, Kirmanşah, Erdelan, Erdebil ve Tebriz İran'a geri verildi" },
+        { ad: "Kirmanşah", lat: 34.314, lon: 47.065, kaynak: "aynı madde, adıyla" },
+        { ad: "Senendec (Sine) — Erdelan", lat: 35.3111, lon: 46.9961, kaynak: "aynı madde 'Erdelan' der — Senendec Erdelan'ın merkezi olarak TEMSİLÎ nokta" },
+        { ad: "Erdebil", lat: 38.249, lon: 48.294, kaynak: "aynı madde, adıyla" },
+        { ad: "Tebriz", lat: 38.080, lon: 46.292, kaynak: "aynı madde, adıyla" }
+    ] },
+    { taraf: "osmanli", etiket: "Osmanlı'da kalan (Gence, Tiflis)", noktalar: [
+        { ad: "Gence", lat: 40.683, lon: 46.360, kaynak: "aynı madde: Gence ve Tiflis Osmanlı'da kaldı" },
+        { ad: "Tiflis", lat: 41.716, lon: 44.783, kaynak: "aynı madde, adıyla" }
+    ] }
+  ],
+  not: "Antlaşma İstanbul'da ve Nâdir tarafından tanınmadı; 1732 dolmadan savaş yeniden başladı."
+},
+{
+  id: "fas-poti-1812",
+  antlasma_ad: "Faş (Poti) Kalesi Osmanlı'ya",
+  tarih: "1812-12-19",
+  bolgeler: [
+    { taraf: "osmanli", etiket: "Osmanlı'ya iade edilen (Faş/Poti)", noktalar: [
+        { ad: "Poti (Faş Kalesi)", lat: 42.146, lon: 41.672, kaynak: "madde (olaylar_p0049.js, TDV fas--gurcistan): 1812 Bükreş Antlaşması gereğince Faş Kalesi 19 Aralık 1812'de Osmanlı'ya teslim edildi" }
+    ] }
+  ],
+  not: "Bükreş 1812'nin Besarabya hükmü ayrı kayıtta (bukres-1812)."
+},
+{
+  id: "erzurum-1847",
+  antlasma_ad: "II. Erzurum Antlaşması",
+  tarih: "1847-05-31",
+  bolgeler: [
+    { taraf: "kacar", etiket: "Kaçarlar'a bırakılan (Şattülarap doğu yakası)", noktalar: [
+        { ad: "Muhammere", lat: 30.4392, lon: 48.1664, kaynak: "II. Erzurum Antlaşması maddesi (olaylar_ok106.js, TDV sattularap): nehrin doğu yakasındaki yerleşimler, Muhammere limanı ve Abadan adası dahil, Kaçarlar'a bırakıldı" },
+        { ad: "Abâdân", lat: 30.3392, lon: 48.3042, kaynak: "aynı madde, adıyla" }
+    ] },
+    { taraf: "osmanli", etiket: "Osmanlı'da kalan (Şattülarap suyolu, Basra)", noktalar: [
+        { ad: "Basra", lat: 30.508, lon: 47.783, kaynak: "aynı madde: Şattülarap suyolunun tamamı Osmanlı'da kaldı — Basra suyolunun Osmanlı yakasının TEMSİLÎ noktası" }
+    ] }
+  ],
+  not: "data/hukuki_sinirlar.js'teki ii-erzurum-sattularap-1847 hattının dolgusu kapalı olduğundan sinir_id yerine noktalar kullanıldı."
+},
+{
+  id: "bukres-1913",
+  antlasma_ad: "Bükreş Antlaşması — Batı Trakya",
+  tarih: "1913-08-10",
+  bolgeler: [
+    { taraf: "yunanistan", etiket: "Bulgaristan'dan Yunanistan'a (Kavala, Drama, Serez)", zarf: true, noktalar: [
+        { ad: "Kavala", lat: 40.9451, lon: 24.4101, kaynak: "Bükreş Antlaşması maddesi (olaylar_2s_0920.js, TDV balkan-savasi): Kavala, Drama ve Serez havzası Yunanistan'a bırakıldı" },
+        { ad: "Drama", lat: 41.152, lon: 24.147, kaynak: "aynı madde, adıyla" },
+        { ad: "Serez", lat: 41.089, lon: 23.545, kaynak: "aynı madde, adıyla" }
+    ] }
+  ],
+  not: "Osmanlı Bükreş'e taraf değildir; Edirne'nin durumu İstanbul 1913 kaydında (istanbul-bulgaristan-1913)."
+},
+{
+  id: "brest-litovsk-1918",
+  antlasma_ad: "Brest-Litovsk Antlaşması",
+  tarih: "1918-03-03",
+  bolgeler: [
+    { taraf: "osmanli", etiket: "Osmanlı'ya dönen Elviye-i Selâse (Kars, Ardahan, Batum)", zarf: true, noktalar: [
+        { ad: "Kars", lat: 40.602, lon: 43.095, kaynak: "Brest-Litovsk maddesi (olaylar_ek5.js, TDV birinci-dunya-savasi) · TDV kars: 3 Mart 1918 Brest-Litovsk ile Kars, Ardahan ve Batum Osmanlı'ya verildi" },
+        { ad: "Ardahan", lat: 41.111, lon: 42.702, kaynak: "aynı madde ve TDV kars, adıyla" },
+        { ad: "Batum", lat: 41.6439, lon: 41.6420, kaynak: "aynı madde ve TDV kars, adıyla" }
+    ] }
+  ],
+  not: "Mondros'tan sonra bölge yeniden elden çıktı; kesin çözüm Moskova ve Kars 1921 kayıtlarında."
+}
+// <<< KUTU-H4-1015 ikinci parti BITTI
 ];
