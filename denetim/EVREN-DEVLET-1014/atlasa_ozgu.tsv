@@ -1,0 +1,597 @@
+# Kaynak: Cliopatria v0.2.1, Seshat Global History Databank (Bennett ve diğ., Scientific Data 2025, doi:10.1038/s41597-025-04516-9), CC-BY 4.0; değiştirildi: özetlendi.
+sinif	kunye_id	ad	tur	bolge	f	t	baskent	baskent_cozuldu	yerlesim_donem_sayisi	donem	kita
+atlasa-ozgu	kis-egemenlik	Kiş Şehir Devleti ve Egemenliği (Erken Hanedan III)	devlet	mezopotamya	-2599-01-01	-2333-01-01	Kiş	evet	0	MÖ	Asya
+atlasa-ozgu	mari-erken	Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad)	krallik	suriye-filistin	-2549-01-01	-2219-01-01	Mari	evet	0	MÖ	Asya
+atlasa-ozgu	mari-sakkanakku	Mari Şakkanakku Hanedanı	hanedanlik	suriye-filistin	-2219-01-01	-1809-01-01	Mari	evet	0	MÖ	Asya
+atlasa-ozgu	elam-simaski	Elam — Simaski Hanedani	krallik	iran	-2099-01-01	-1899-01-01	Susa	evet	0	MÖ	Asya
+atlasa-ozgu	elam-sukkalmah	Elam — Sukkalmah (Eparti) Hanedani	krallik	iran	-1899-01-01	-1499-01-01	Susa	evet	0	MÖ	Asya
+atlasa-ozgu	babil-eski	Eski Babil (Amorit) Krallığı	krallik	mezopotamya	-1893-01-01	-1594-01-01	Babil	evet	0	MÖ	Asya
+atlasa-ozgu	mari-lim	Mari Lim Hanedani (Yahdun-Lim–Zimri-Lim)	krallik	suriye-filistin	-1809-01-01	-1760-01-01	Mari (Tell Hariri)	evet	0	MÖ	Asya
+atlasa-ozgu	yamhad	Yamhad (Halep) Krallığı	krallik	suriye-filistin	-1799-01-01	-1599-01-01	Halep (Halab)	evet	0	MÖ	Asya
+atlasa-ozgu	kerma	Kerma Krallığı (Klasik Kerma)	krallik	misir-sudan	-1749-01-01	-1499-01-01	Kerma	evet	0	MÖ	Afrika
+atlasa-ozgu	kassit-babil	Kassit Babil Krallığı	krallik	mezopotamya	-1594-01-01	-1154-01-01	Babil / Dur-Kurigalzu	evet	0	MÖ	Asya
+atlasa-ozgu	elam-orta	Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid)	krallik	iran	-1499-01-01	-1099-01-01	Susa / Cogha Zanbil	evet	0	MÖ	Asya
+atlasa-ozgu	isin-2	Isin II. Hanedan (Babil, Nabukudurusur I)	krallik	mezopotamya	-1154-01-01	-1029-01-01	Babil	evet	0	MÖ	Asya
+atlasa-ozgu	elam-yeni	Yeni Elam Krallığı	krallik	iran	-1099-01-01	-0538-01-01	Susa	evet	0	MÖ	Asya
+atlasa-ozgu	yahuda	Yahuda Krallığı	krallik	suriye-filistin	-0929-01-01	-0585-01-01	Kudus	evet	0	MÖ	Asya
+atlasa-ozgu	sirakuza	Sirakuza (Syrakousai)	devlet	italya	-0733-01-01	-0210-01-01	Sirakuza	evet	0	MÖ	Avrupa
+atlasa-ozgu	ahamenis	Ahamenis (Pers) Imparatorlugu	imparatorluk	iran	-0549-01-01	-0329-01-01	Pasargad / Persepolis / Susa	evet	0	MÖ	Asya
+atlasa-ozgu	delos-birligi	Delos (Atina Deniz) Birliği	ittifak	balkanlar	-0477-01-01	-0403-01-01	Delos -> Atina	evet	0	MÖ	Avrupa
+atlasa-ozgu	dian	Dian Krallığı (Yunnan)	krallik	dogu-asya	-0278-01-01	-0108-01-01	Dian golu cevresi (Shizhaishan / Kunming)	evet	0	MÖ	Asya
+atlasa-ozgu	hasmoni	Hasmoni Devleti (Yahudiye)	krallik	suriye-filistin	-0140-01-01	-0036-01-01	Kudus	evet	0	MÖ	Asya
+atlasa-ozgu	herodes-krallik	Herodes Hanedani Krallığı (Roma vasali)	vasal-krallik	suriye-filistin	-0036-01-01	0092-01-01	Kudus	evet	0	MÖ	Asya
+atlasa-ozgu	linyi-champa	Linyi (Champa'nin Ilk Donemi)	krallik	guneydogu-asya	0192-01-01	0999-12-31	Indrapura	evet	0	1–999	Asya
+atlasa-ozgu	odoakar	Odoakar'ın İtalya Krallığı	krallik	italya	0476-01-01	0493-03-05	Ravenna	evet	0	1–999	Avrupa
+atlasa-ozgu	medine-devleti	Medine Islam Devleti (Hz. Muhammed donemi)	devlet	arabistan	0622-01-01	0632-01-01	Medine	evet	0	1–999	Asya
+atlasa-ozgu	zubeyri	Abdullah b. Zubeyr Hilafeti (Mekke)	hilafet	arabistan	0683-01-01	0692-10-01	Mekke	evet	0	1–999	Asya
+atlasa-ozgu	medang	Medang (Mataram) Krallığı (Cava)	krallik	guneydogu-asya	0732-01-01	1016-01-01	Orta Cava (Mataram) → Doğu Cava (Watugaluh, 929 sonrası)	evet	0	1–999	Asya
+atlasa-ozgu	sican	Sicán (Lambayeque) Devleti	devlet	guney-amerika	0750-01-01	1375-01-01	Batán Grande → Túcume	evet	0	1–999	G.Amerika
+atlasa-ozgu	midrari	Midrârîler (Sicilmâse)	hanedanlik	kuzey-afrika	0772-01-01	0976-01-01	Sicilmâse	evet	0	1–999	Afrika
+atlasa-ozgu	chamorro	Chamorro (Mariana) Toplulukları	topluluklar	okyanusya	0800-01-01	1695-01-01	—	hayir	1	1–999	Okyanusya
+atlasa-ozgu	derbent-hasimi-emirligi	Derbend (Bâbülebvâb) Hâşimî Emirliği	emirlik	kafkasya	0869-01-01	1065-01-01	Derbend (Bâbülebvâb)	evet	0	1–999	Avrupa
+atlasa-ozgu	karmati	Bahreyn Karmatî Devleti	devlet	arabistan	0899-01-01	1076-01-01	Lahsâ (Ahsâ)	evet	0	1–999	Asya
+atlasa-ozgu	mapungubwe	Mapungubwe Krallığı	krallik	guney-afrika	0900-01-01	1300-01-01	Mapungubwe (Limpopo-Shashe birleşimi)	evet	0	1–999	Afrika
+atlasa-ozgu	magrave-sicilmase	Mağrâve Emirliği (Sicilmâse)	beylik	kuzey-afrika	0976-01-01	1053-01-01	Sicilmâse	evet	0	1–999	Afrika
+atlasa-ozgu	inuit	İnuit	devlet	kuzey-amerika	1000-01-01	1880-09-01	Iglulik	evet	41	1000–1280	K.Amerika
+atlasa-ozgu	svahili-sehirleri	Svahili Şehir Devletleri (Kıyı)	devlet	dogu-afrika	1000-01-01	1698-12-13	Kilwa, Mombasa, Zengibar (çeşitli merkezler)	evet	13	1000–1280	Afrika
+atlasa-ozgu	tui-tonga-imparatorlugu	Tuʻi Tonga İmparatorluğu	imparatorluk	okyanusya	1000-01-01	1845-12-04	Muʻa (Lapaha)	evet	1	1000–1280	Okyanusya
+atlasa-ozgu	kilva-sultanligi	Kilve (Kilwa Kisiwani) Sultanlığı	sultanlik	dogu-afrika	1000-01-01	1505-01-01	Kilwa Kisiwani	evet	0	1000–1280	Afrika
+atlasa-ozgu	tahiti	Tahiti ve Cemiyet Adaları Şeflikleri (→ Pomare Krallığı)	devlet	okyanusya	1025-01-01	1842-09-09	Papeete (Pomare dönemi)	evet	0	1000–1280	Okyanusya
+atlasa-ozgu	cahokia	Cahokia (Mississippi Kültürü)	devlet	kuzey-amerika	1050-01-01	1350-01-01	Cahokia	evet	1	1000–1280	K.Amerika
+atlasa-ozgu	beni-ammar-trablussam	Ammâroğulları (Trablusşam Benî Ammâr Kadıları)	emirlik	suriye-filistin	1070-01-01	1109-07-23	Trablusşam	evet	0	1000–1280	Asya
+atlasa-ozgu	uyuni	Uyûnîler	emirlik	arabistan	1076-01-01	1236-01-01	Lahsâ (Ahsâ); son dönemde Katîf ve Uvâl (Bahreyn adası)	evet	0	1000–1280	Asya
+atlasa-ozgu	taranto-prensligi	Taranto Prensliği	prenslik	italya	1088-01-01	1465-03-30	Taranto	evet	0	1000–1280	Avrupa
+atlasa-ozgu	zimbabve-kralligi	Büyük Zimbabve Krallığı	krallik	guney-afrika	1100-01-01	1450-01-01	Büyük Zimbabve	evet	1	1000–1280	Afrika
+atlasa-ozgu	trablus-kontlugu	Trablus Haçlı Kontluğu	kontluk	suriye-filistin	1109-07-12	1289-04-26	Trablusşam	evet	1	1000–1280	Asya
+atlasa-ozgu	dacu	Dâcû (Daju) Hanedanlığı	hanedanlik	misir-sudan	1200-01-01	1400-01-01	— (TDV'de belirtilmemiş)	hayir	14	1000–1280	Afrika
+atlasa-ozgu	kanal-adalari	Kanal Adaları (Jersey ve Guernsey Bailiwick'leri)	bagimlilik	bati-avrupa	1204-01-01		Saint Helier / Saint Peter Port	evet	2	1000–1280	Avrupa
+atlasa-ozgu	epir-despotlugu	Epir (Yanya) Despotluğu — Tocco dönemi dâhil	prenslik	balkanlar	1204-04-13	1430-10-01		hayir	1	1000–1280	Avrupa
+atlasa-ozgu	rarotonga	Rarotonga ve Cook Adaları Şeflikleri/Krallığı	seflikler	okyanusya	1250-01-01	1888-01-01	Avarua	evet	0	1000–1280	Okyanusya
+atlasa-ozgu	makdisu-sultanligi	Makdişu (Mogadişu) Sultanlığı (Ebû Bekir b. Fahreddin Hanedanı)	sultanlik	dogu-afrika	1281-01-01	1500-01-01	Makdişu (Mogadişu)	evet	5	1281–1923	Afrika
+atlasa-ozgu	ranquel	Ranquel Konfederasyonu	devlet	guney-amerika	1281-01-01	1883-01-01	—	hayir	1	1281–1923	G.Amerika
+atlasa-ozgu	mossi-vagadugu	Mossi Krallığı (Vagadugu)	krallik	bati-afrika	1281-01-01	1896-09-01	Vagadugu	evet	3	1281–1923	Afrika
+atlasa-ozgu	gurma	Gurma Krallığı	krallik	bati-afrika	1281-01-01	1897-01-01	Fada Ngurma	evet	1	1281–1923	Afrika
+atlasa-ozgu	borgu	Borgu Bariba Krallıkları (Nikki · Busa)	krallik	bati-afrika	1281-01-01	1898-01-01	Nikki	evet	2	1281–1923	Afrika
+atlasa-ozgu	nijer-deltasi	Nijer Deltası Şehir Devletleri (Kalabar · Bonny)	devlet	bati-afrika	1281-01-01	1884-09-10	Eski Kalabar	evet	2	1281–1923	Afrika
+atlasa-ozgu	tuareg-adag	Kel Adag Tuareg Konfederasyonu (Adrar des Ifoghas)	devlet	bati-afrika	1281-01-01	1899-01-01	Kidal	evet	1	1281–1923	Afrika
+atlasa-ozgu	tuareg-ivellemmedan	İvellemmedan Tuareg Konfederasyonu	devlet	bati-afrika	1281-01-01	1899-01-01	Menaka	evet	1	1281–1923	Afrika
+atlasa-ozgu	dan-guro	Dan · Guro · Bete Halkları (Fildişi orman kuşağı)	devlet	bati-afrika	1281-01-01	1898-01-01	—	hayir	5	1281–1923	Afrika
+atlasa-ozgu	kru-grebo	Kru ve Grebo Halkları	devlet	bati-afrika	1281-01-01	1822-04-25	—	hayir	1	1281–1923	Afrika
+atlasa-ozgu	tio	Tio (Teke) Krallığı	krallik	orta-afrika	1281-01-01	1880-10-03	Mbe	hayir	2	1281–1923	Afrika
+atlasa-ozgu	matamba	Matamba Krallığı	krallik	orta-afrika	1281-01-01	1744-01-01	Matamba	evet	1	1281–1923	Afrika
+atlasa-ozgu	nyamvezi	Nyamvezi Şeflikleri (Unyanyembe · Mirambo)	devlet	dogu-afrika	1281-01-01	1890-11-04	Tabora	evet	3	1281–1923	Afrika
+atlasa-ozgu	fipa-nyakyusa	Fipa ve Nyakyusa Halkları	devlet	dogu-afrika	1281-01-01	1890-11-04	—	hayir	2	1281–1923	Afrika
+atlasa-ozgu	kenya-kuzey-halklari	Kuzey Kenya Halkları (Borana · Rendille · Turkana · Somali klanları)	devlet	dogu-afrika	1281-01-01	1895-07-01	—	hayir	4	1281–1923	Afrika
+atlasa-ozgu	kamba	Kamba Halkı	devlet	dogu-afrika	1281-01-01	1895-07-01	Kitui	evet	1	1281–1923	Afrika
+atlasa-ozgu	manica	Manica Krallığı	krallik	guney-afrika	1281-01-01	1891-01-01	—	hayir	1	1281–1923	Afrika
+atlasa-ozgu	antandroy	Antandroy ve Bara Halkları	devlet	dogu-afrika	1281-01-01	1900-01-01	—	hayir	2	1281–1923	Afrika
+atlasa-ozgu	tuareg-ahaggar	Kel Ahaggar Tuareg Konfederasyonu	devlet	kuzey-afrika	1281-01-01	1902-05-07	Tamanrasset	evet	2	1281–1923	Afrika
+atlasa-ozgu	tuareg-accer	Kel Accer Tuareg Konfederasyonu	devlet	kuzey-afrika	1281-01-01	1911-01-01	Cânet	evet	2	1281–1923	Afrika
+atlasa-ozgu	tubu-tibesti	Tibesti Teda (Tubu) Konfederasyonu	devlet	orta-afrika	1281-01-01	1914-01-01	Bardaî	evet	3	1281–1923	Afrika
+atlasa-ozgu	dene	Dene (Atabask Halkları)	devlet	kuzey-amerika	1281-01-01	1899-06-21	Fort Simpson (Łı́ı́dlı̨ı̨ Kų́ę́)	evet	17	1281–1923	K.Amerika
+atlasa-ozgu	kri	Kri (Nehiyaw)	devlet	kuzey-amerika	1281-01-01	1876-08-23	Cumberland House	evet	4	1281–1923	K.Amerika
+atlasa-ozgu	ojibwe	Ojibwe (Anişinabe)	devlet	kuzey-amerika	1281-01-01	1850-09-07	Chequamegon (La Pointe)	evet	2	1281–1923	K.Amerika
+atlasa-ozgu	lakota	Lakota (Teton Sioux)	devlet	kuzey-amerika	1281-01-01	1890-12-29	Kara Tepeler (Ĥe Sápa)	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	navaho	Navaho (Diné)	devlet	kuzey-amerika	1281-01-01	1868-06-01	Tsegi (Canyon de Chelly)	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	nez-perce	Nez Perce (Nimíipuu)	devlet	kuzey-amerika	1281-01-01	1877-10-05	Lapwai	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	hayda	Hayda	devlet	kuzey-amerika	1281-01-01	1858-08-02	Skidegate	evet	2	1281–1923	K.Amerika
+atlasa-ozgu	vendat	Vendat (Huron) Konfederasyonu	devlet	kuzey-amerika	1281-01-01	1649-03-16	Ossossané	evet	2	1281–1923	K.Amerika
+atlasa-ozgu	savni	Şavni (Shawnee)	devlet	kuzey-amerika	1281-01-01	1795-08-03	Chillicothe	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	sauk	Sauk (Asakiwaki)	devlet	kuzey-amerika	1281-01-01	1832-09-21	Saukenuk	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	abenaki	Abenaki (Wabanaki)	devlet	kuzey-amerika	1281-01-01	1725-12-15	Norridgewock	evet	2	1281–1923	K.Amerika
+atlasa-ozgu	mikmak	Mikmak (Mi'kmaq)	devlet	kuzey-amerika	1281-01-01	1761-01-01	Listuguj	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	maliseet	Maliseet (Wolastoqiyik)	devlet	kuzey-amerika	1281-01-01	1761-01-01	Madawaska	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	cikasav	Çikasav (Chickasaw)	devlet	kuzey-amerika	1281-01-01	1832-10-20	Çikasav Yarları	hayir	1	1281–1923	K.Amerika
+atlasa-ozgu	sosoni	Şoşoni	devlet	kuzey-amerika	1281-01-01	1868-07-03	Fort Washakie (Wind River)	evet	4	1281–1923	K.Amerika
+atlasa-ozgu	mandan	Mandan	devlet	kuzey-amerika	1281-01-01	1851-09-17	On-A-Slant	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	hidatsa	Hidatsa	devlet	kuzey-amerika	1281-01-01	1851-09-17	Knife River	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	karga	Karga (Apsáalooke)	devlet	kuzey-amerika	1281-01-01	1851-09-17	Crow Agency	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	pavni	Pavni (Pawnee)	devlet	kuzey-amerika	1281-01-01	1857-09-24	Pavni köyleri (Loup Irmağı)	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	aleut	Aleut (Unangax̂)	devlet	kuzey-amerika	1281-01-01	1784-08-14	Unalaska (Iliuliuk)	evet	0	1281–1923	K.Amerika
+atlasa-ozgu	alutiiq	Alutiiq (Sugpiaq)	devlet	kuzey-amerika	1281-01-01	1784-08-14	Kodiak (Pavlovskaya Gavan)	evet	2	1281–1923	K.Amerika
+atlasa-ozgu	yupik	Yupik	devlet	kuzey-amerika	1281-01-01	1867-10-18	Hooper Bay (Naparyarmiut)	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	zuni	Zuni (A:shiwi)	devlet	kuzey-amerika	1281-01-01	1848-02-02	Halona:wa	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	nuxalk	Nuxalk (Bella Coola)	devlet	kuzey-amerika	1281-01-01	1858-08-02	Bella Coola (Nuxalk)	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	secwepemc	Secwépemc (Shuswap)	devlet	kuzey-amerika	1281-01-01	1858-08-02	Secwépemc (Adams Gölü)	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	nuu-cah-nulth	Nuu-chah-nulth (Mowachaht)	devlet	kuzey-amerika	1281-01-01	1858-08-02	Yuquot (Nootka Sound)	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	kalusa	Kalusa (Calusa)	devlet	kuzey-amerika	1281-01-01	1763-01-01	Mound Key (Kalusa başkenti)	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	mohave	Mohave (Aha Macav)	devlet	kuzey-amerika	1281-01-01	1865-01-01	Fort Mohave (Kolorado geçidi)	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	klamath	Klamath (Maklaks)	devlet	kuzey-amerika	1281-01-01	1864-01-01	Fort Klamath / Klamath Bataklığı	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	sahaptin	Sahaptin (Orta Columbia halkları)	devlet	kuzey-amerika	1281-01-01	1855-01-01	Wayám (Celilo Şelâleleri)	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	ponka	Ponka (Ponca)	devlet	kuzey-amerika	1281-01-01	1858-01-01	Ponca köyleri (Salt Fork)	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	occaneechi	Occaneechi	devlet	kuzey-amerika	1281-01-01	1676-01-01	Occaneechi (Hillsborough)	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	etowah	Etowah	devlet	kuzey-amerika	1281-01-01	1550-01-01	Etowah	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	moundville	Moundville	devlet	kuzey-amerika	1281-01-01	1450-01-01	Moundville	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	spiro	Spiro	devlet	kuzey-amerika	1281-01-01	1450-01-01	Spiro	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	payut	Payut (Paiute)	devlet	kuzey-amerika	1281-01-01	1872-01-01	Bishop (Owens Vadisi Payutları)	evet	2	1281–1923	K.Amerika
+atlasa-ozgu	yavapai	Yavapai	devlet	kuzey-amerika	1281-01-01	1873-01-01	Prescott / Yavapai	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	ahom	Ahom Krallığı (Assam)	krallik	guney-asya	1281-01-01	1826-01-01	Çaraideo → Rangpûr	evet	2	1281–1923	Asya
+atlasa-ozgu	ternate-sultanligi	Ternate Sultanlığı (Moluk)	sultanlik	guneydogu-asya	1281-01-01	1663-01-01	Ternate	evet	6	1281–1923	Asya
+atlasa-ozgu	banda-adalari	Banda Adaları (Orang Kaya Meclisleri)	devlet	guneydogu-asya	1281-01-01	1621-03-08	Banda Neira	evet	1	1281–1923	Asya
+atlasa-ozgu	choctaw	Choctaw Konfederasyonu	devlet	kuzey-amerika	1281-01-01	1830-09-27	—	hayir	2	1281–1923	K.Amerika
+atlasa-ozgu	natchez	Natchez (Grand Village)	devlet	kuzey-amerika	1281-01-01	1731-01-01	—	hayir	1	1281–1923	K.Amerika
+atlasa-ozgu	colla-krallik	Colla (Qulla) Krallığı	krallik	guney-amerika	1281-01-01	1450-01-01	—	hayir	1	1281–1923	G.Amerika
+atlasa-ozgu	lupaqa-krallik	Lupaqa Krallığı	krallik	guney-amerika	1281-01-01	1450-01-01	—	hayir	1	1281–1923	G.Amerika
+atlasa-ozgu	muisca-konfederasyonu	Muisca Konfederasyonu	devlet	guney-amerika	1281-01-01	1537-08-01	—	hayir	2	1281–1923	G.Amerika
+atlasa-ozgu	tututepec-krallik	Tututepec Krallığı (Yucu Dzaa)	krallik	orta-amerika-karayip	1281-01-01	1522-01-01	—	hayir	1	1281–1923	K.Amerika
+atlasa-ozgu	zapotek-krallik	Zapotek Krallığı	krallik	orta-amerika-karayip	1281-01-01	1523-01-01	—	hayir	3	1281–1923	K.Amerika
+atlasa-ozgu	apaci-ovalar	Ovalar Apaçileri (Plains Apache)	devlet	kuzey-amerika	1281-01-01	1750-01-01	—	hayir	1	1281–1923	K.Amerika
+atlasa-ozgu	kabartay	Kabartay (Kabardey) Beylikleri	beylik	kafkasya	1281-01-01	1774-07-21	(beylikler hâlinde, sabit başkent yok)	hayir	1	1281–1923	Asya
+atlasa-ozgu	alaiye	Alâiye Beyliği (Alanya)	beylik	anadolu	1293-01-01	1471-01-01	Alâiye (Alanya)	evet	1	1281–1923	Asya
+atlasa-ozgu	bugis-kralliklari	Bugis Krallıkları (Bone, Wajo, Soppeng — Tellumpoccoe)	devlet	guneydogu-asya	1330-01-01	1905-08-06	—	hayir	2	1281–1923	Asya
+atlasa-ozgu	dukagin	Dukagin (Dukagjini) Prensliği	prenslik	balkanlar	1387-01-01	1479-01-25		hayir	1	1281–1923	Avrupa
+atlasa-ozgu	kaffa-kralligi	Kaffa Krallığı	krallik	dogu-afrika	1390-01-01	1897-09-10	Bonga	evet	0	1281–1923	Afrika
+atlasa-ozgu	malva-sultanligi	Mâlvâ Sultanlığı	sultanlik	guney-asya	1392-01-01	1562-01-01	Dhâr → Mândû	evet	3	1281–1923	Asya
+atlasa-ozgu	dagbon	Dagbon Krallığı (Dagomba)	krallik	bati-afrika	1401-01-01	1899-01-01	Yendi	evet	1	1281–1923	Afrika
+atlasa-ozgu	merina-oncesi	İmerina Krallıkları (Merina birleşmesi öncesi)	krallik	dogu-afrika	1401-01-01	1787-01-01	Ambohimanga	evet	2	1281–1923	Afrika
+atlasa-ozgu	tuareg-air	Aïr Tuareg Sultanlığı (Kel Ayr)	sultanlik	bati-afrika	1405-01-01	1900-01-01	Agadez	evet	3	1281–1923	Afrika
+atlasa-ozgu	gucerat-sultanligi	Gucerât Sultanlığı	sultanlik	guney-asya	1407-01-01	1573-01-01	Ahmedâbâd	evet	12	1281–1923	Asya
+atlasa-ozgu	touggourt	Tuggurt Sultanlığı (Benî Celleb)	sultanlik	kuzey-afrika	1414-01-01	1854-12-01	Tuggurt	evet	0	1281–1923	Afrika
+atlasa-ozgu	bono-manso	Bono (Bono-Manso / Takyiman) Krallığı	krallik	bati-afrika	1420-01-01	1723-01-01	Bono-Manso (sonra Takyiman)	evet	1	1281–1923	Afrika
+atlasa-ozgu	karagve	Karagve Krallığı	krallik	dogu-afrika	1450-01-01	1890-07-01	Bveranyange	evet	1	1281–1923	Afrika
+atlasa-ozgu	torva	Torva Krallığı (Khami)	krallik	guney-afrika	1450-01-01	1683-01-01	Khami	evet	1	1281–1923	Afrika
+atlasa-ozgu	mutapa	Mwene Mutapa (Monomotapa)	imparatorluk	guney-afrika	1450-01-01	1695-01-01	—	hayir	1	1281–1923	Afrika
+atlasa-ozgu	multan-langah	Multan Langah Sultanlığı	sultanlik	guney-asya	1451-01-01	1527-01-01	Multan	evet	2	1281–1923	Asya
+atlasa-ozgu	kaqchikel-kralligi	Kaqchikel (Cakchiquel) Krallığı	krallik	orta-amerika	1470-01-01	1524-01-01	Iximche	evet	0	1281–1923	K.Amerika
+atlasa-ozgu	maravi	Maravi Konfederasyonu	devlet	dogu-afrika	1480-01-01	1800-01-01	Mankhamba	evet	1	1281–1923	Afrika
+atlasa-ozgu	ndongo	Ndongo Krallığı (Angola)	krallik	orta-afrika	1500-01-01	1671-01-01	Kabasa	evet	1	1281–1923	Afrika
+atlasa-ozgu	yatenga	Yatenga Krallığı	krallik	bati-afrika	1540-01-01	1895-01-01	Vahiguya	evet	1	1281–1923	Afrika
+atlasa-ozgu	loango	Loango Krallığı	krallik	orta-afrika	1550-01-01	1883-01-01	Buali (Loango)	evet	1	1281–1923	Afrika
+atlasa-ozgu	fezzan	Fezzan Sultanlığı (Evlâd Muhammed)	sultanlik	kuzey-afrika	1550-01-01	1812-01-01	Murzuk	evet	0	1281–1923	Afrika
+atlasa-ozgu	kumuk-samhalligi	Kumuk Şamhallığı (Tarki)		kafkasya	1578-11-01	1726-01-01		hayir	1	1281–1923	Asya
+atlasa-ozgu	luba	Luba İmparatorluğu	imparatorluk	orta-afrika	1585-01-01	1889-01-01	Mwibele	hayir	1	1281–1923	Afrika
+atlasa-ozgu	berabis	Berâbîş Kabile Konfederasyonu	devlet	bati-afrika	1600-01-01	1894-01-01	Aravan	evet	1	1281–1923	Afrika
+atlasa-ozgu	ngonde	Ngonde Krallığı	krallik	dogu-afrika	1600-01-01	1895-01-01	Karonga	evet	1	1281–1923	Afrika
+atlasa-ozgu	lozi	Lozi (Barotse) Krallığı	krallik	dogu-afrika	1600-01-01	1890-06-27	Lealui	evet	7	1281–1923	Afrika
+atlasa-ozgu	sakalava-menabe	Menabe Sakalava Krallığı	krallik	dogu-afrika	1600-01-01	1897-02-28	Mahabo	evet	3	1281–1923	Afrika
+atlasa-ozgu	moritanya-emirlikleri	Moritanya Emirlikleri (Trarza · Brakna · Tagant · Adrar)	devlet	bati-afrika	1640-01-01	1909-01-01	Şinkît	evet	5	1281–1923	Afrika
+atlasa-ozgu	kenedugu	Kenedugu Krallığı (Sikasso)	krallik	bati-afrika	1650-01-01	1898-05-01	Sikasso	evet	1	1281–1923	Afrika
+atlasa-ozgu	bate	Baté Mandinka Devleti (Kankan)	devlet	bati-afrika	1650-01-01	1879-01-01	Kankan	evet	1	1281–1923	Afrika
+atlasa-ozgu	lunda-imparatorlugu	Lunda İmparatorluğu	imparatorluk	orta-afrika	1665-01-01	1887-01-01	Musumba	evet	6	1281–1923	Afrika
+atlasa-ozgu	pueblo-bagimsizligi	Pueblo Bağımsızlığı	devlet	kuzey-amerika	1680-08-10	1692-08-01	—	hayir	3	1281–1923	K.Amerika
+atlasa-ozgu	rozvi	Rozvi İmparatorluğu (Changamire)	imparatorluk	guney-afrika	1684-01-01	1834-01-01	Danangombe	evet	1	1281–1923	Afrika
+atlasa-ozgu	bundu	Bundu Emirliği	emirlik	bati-afrika	1690-01-01	1858-01-01	Bulebane	evet	1	1281–1923	Afrika
+atlasa-ozgu	buna	Buna Krallığı (Kulango)	krallik	bati-afrika	1690-01-01	1897-01-01	Buna	evet	1	1281–1923	Afrika
+atlasa-ozgu	sakalava-boina	Boina Sakalava Krallığı	krallik	dogu-afrika	1690-01-01	1897-02-28	Mahacanga	evet	3	1281–1923	Afrika
+atlasa-ozgu	ovimbundu	Ovimbundu Krallıkları (Bailundu · Viye · Vambu)	krallik	orta-afrika	1700-01-01	1902-01-01	Bailundo	evet	12	1281–1923	Afrika
+atlasa-ozgu	kong-vattara	Kong Devleti (Vattara)	devlet	bati-afrika	1710-01-01	1897-05-01	Kong	evet	1	1281–1923	Afrika
+atlasa-ozgu	betsimisaraka	Betsimisaraka Konfederasyonu	devlet	dogu-afrika	1712-01-01	1817-01-01	Toamasina	evet	3	1281–1923	Afrika
+atlasa-ozgu	bahama-ingiliz	Bahama Adaları Kolonisi	somurge	orta-amerika-karayip	1718-01-01	1973-07-10	Nassau	evet	1	1281–1923	K.Amerika
+atlasa-ozgu	damagaram	Damagaram Sultanlığı (Zinder)	sultanlik	bati-afrika	1731-01-01	1899-01-01	Zinder	evet	1	1281–1923	Afrika
+atlasa-ozgu	talis-hanligi	Talış Hanlığı	han-devleti	kafkasya	1747-01-01	1813-10-24	Lenkeran	evet	0	1281–1923	Asya
+atlasa-ozgu	pontianak	Pontianak Sultanlığı (Borneo)	devlet	guneydogu-asya	1772-01-01	1855-01-01	Pontianak	evet	1	1281–1923	Asya
+atlasa-ozgu	yao	Yao Sultanlıkları	sultanlik	dogu-afrika	1800-01-01	1899-01-01	Mvembe	evet	3	1281–1923	Afrika
+atlasa-ozgu	shewa	Şewa Krallığı (Menelik öncesi)	krallik	dogu-afrika	1813-01-01	1889-03-10	Ankober, sonra Entoto	evet	0	1281–1923	Afrika
+atlasa-ozgu	basuto	Basuto (Basotho) Krallığı	krallik	guney-afrika	1822-01-01	1868-03-12	Thaba Bosiu	evet	2	1281–1923	Afrika
+atlasa-ozgu	ngoni	Ngoni Devletleri	devlet	dogu-afrika	1835-01-01	1898-01-01	—	hayir	2	1281–1923	Afrika
+atlasa-ozgu	tonga-kralligi	Tonga Krallığı	krallik	okyanusya	1845-12-04		Nuku'alofa	hayir	1	1281–1923	Okyanusya
+atlasa-ozgu	venedik-1848	San Marco (Venedik) Cumhuriyeti 1848	devrim-cumhuriyeti	italya	1848-03-22	1849-08-22	Venedik	evet	0	1281–1923	Avrupa
+atlasa-ozgu	yeke	Yeke Krallığı (Msiri)	devlet	orta-afrika	1856-01-01	1891-12-20	Bunkeya	evet	1	1281–1923	Afrika
+atlasa-ozgu	kuca-hocalari	Kuça Hocaları (Döngen-Uygur Birleşik Hükûmeti)	devlet	orta-asya	1864-01-01	1867-12-31	Kuça	evet	0	1281–1923	Asya
+atlasa-ozgu	yakub-beg	Doğu Türkistan (Yâkub Bey Kâşgar Emirliği)	devlet	orta-asya	1865-01-01	1878-03-16	Kaşgar	evet	13	1281–1923	Asya
+atlasa-ozgu	fiji-cakobau	Fiji Krallığı (Cakobau)	krallik	okyanusya	1871-01-01	1874-10-10	Levuka	evet	0	1281–1923	Okyanusya
+atlasa-ozgu	ispanyol-sahra	İspanyol Sahrası (Río de Oro + Sakiyet el-Hamra)	somurge	kuzey-afrika	1884-12-26	1976-02-26	El-Ayûn	hayir	1	1281–1923	Afrika
+atlasa-ozgu	gilbert-ellice-kolonisi	Gilbert ve Ellice Adaları (Koruma Bölgesi -> Koloni 1916-01-12)	somurge	okyanusya	1892-05-27	1976-01-01	Tarawa	evet	0	1281–1923	Okyanusya
+atlasa-ozgu	amerikan-samoasi	Amerikan Samoası	somurge	okyanusya	1900-04-17		Pago Pago	evet	1	1281–1923	Okyanusya
+atlasa-ozgu	fransiz-fas	Fransız Fas Protektorası	himaye	kuzey-afrika	1912-03-30	1956-03-02	Rabat	evet	0	1281–1923	Afrika
+atlasa-ozgu	rif-cumhuriyeti	Rif Cumhuriyeti (Abdülkerim el-Hattâbî)		kuzey-afrika	1921-09-19	1926-05-27		hayir	1	1281–1923	Afrika
+atlasa-ozgu	pasifik-adalari-vesayet-toprak	Pasifik Adaları Vesayet Toprakları (TTPI; ABD)	vesayet	okyanusya	1947-07-18	1994-11-10	Saipan	evet	4	1924+	Okyanusya
+atlasa-ozgu	nauru-vesayeti	Nauru (BM Vesayeti: Avustralya-Yeni Zelanda-İngiltere)	vesayet	okyanusya	1947-11-01	1968-01-31	Yaren	evet	1	1924+	Okyanusya
+atlasa-ozgu	bagimsiz-samoa	Bağımsız Samoa Devleti (Batı Samoa)	cumhuriyet	okyanusya	1962-01-01		Apia	evet	1	1924+	Okyanusya
+atlasa-ozgu	burundi-krallik	Burundi Krallığı (bağımsız)	krallik	dogu-afrika	1962-07-01	1966-11-28	Bujumbura	hayir	2	1924+	Afrika
+atlasa-ozgu	zengibar-bagimsiz-sultanlik	Zengibar Sultanlığı (bağımsız)	krallik	dogu-afrika	1963-12-10	1964-01-12	Zengibar	hayir	1	1924+	Afrika
+atlasa-ozgu	burundi-cumhuriyeti	Burundi Cumhuriyeti	cumhuriyet	dogu-afrika	1966-11-28		Bujumbura	hayir	2	1924+	Afrika
+atlasa-ozgu	nauru-cumhuriyeti	Nauru Cumhuriyeti	cumhuriyet	okyanusya	1968-01-31		Yaren	evet	1	1924+	Okyanusya
+atlasa-ozgu	sahra-arap-demokratik-cumhuriyeti	Sahra Arap Demokratik Cumhuriyeti (Polisario)	fiili-devlet	kuzey-afrika	1976-02-27		Bir Lahlu / Tindûf	evet	2	1924+	Afrika
+atlasa-ozgu	tiris-el-garbiyye	Moritanya Tiris el-Garbiyye İli	ilhak	kuzey-afrika	1976-04-14	1979-08-05	Dahla	evet	2	1924+	Afrika
+atlasa-ozgu	tuvalu	Tuvalu	devlet	okyanusya	1978-10-01		Funafuti	evet	1	1924+	Okyanusya
+atlasa-ozgu	kiribati	Kiribati Cumhuriyeti	cumhuriyet	okyanusya	1979-07-12		Tarawa	evet	2	1924+	Okyanusya
+atlasa-ozgu	antigua-barbuda	Antigua ve Barbuda	devlet	orta-amerika-karayip	1981-11-01		St. John's	hayir	1	1924+	K.Amerika
+atlasa-ozgu	saint-kitts-nevis	Saint Kitts ve Nevis Federasyonu	devlet	orta-amerika-karayip	1983-09-19		Basseterre	evet	1	1924+	K.Amerika
+atlasa-ozgu	aruba-ozerk	Aruba (ayrı ülke statüsü)	ozerk-ulke	orta-amerika-karayip	1986-01-01		Oranjestad	hayir	1	1924+	K.Amerika
+atlasa-ozgu	marshall-adalari	Marshall Adalari Cumhuriyeti	cumhuriyet	okyanusya	1986-10-21		Majuro	hayir	1	1924+	Okyanusya
+atlasa-ozgu	etiyopya-federal	Etiyopya Federal Demokratik Cumhuriyeti	cumhuriyet	dogu-afrika	1995-08-22		Addis Ababa	hayir	66	1924+	Afrika
+noktasiz-kunye	misir-erken-hanedan	Misir Erken Hanedan Donemi (1.-2. Hanedan)	krallik	misir-sudan	-3099-01-01	-2685-01-01	Thinis → Memfis	hayir	0	MÖ	Afrika
+noktasiz-kunye	caral-norte-chico	Norte Chico (Caral-Supe) Uygarligi	uygarlik	guney-amerika	-2999-01-01	-1999-01-01	Caral	hayir	0	MÖ	G.Amerika
+noktasiz-kunye	misir-eski-krallik	Misir Eski Krallik (3.-6. Hanedan)	krallik	misir-sudan	-2685-01-01	-2180-01-01	Memfis	hayir	0	MÖ	Afrika
+noktasiz-kunye	uruk-erken-hanedan	Uruk Şehir Devleti (Erken Hanedan; Gılgameş'ten Lugalzagesi'ye)	devlet	mezopotamya	-2599-01-01	-2333-01-01	Uruk	hayir	0	MÖ	Asya
+noktasiz-kunye	ur-1-hanedan	Ur I. Hanedanı (Kraliyet Mezarlığı dönemi)	hanedanlik	mezopotamya	-2599-01-01	-2333-01-01	Ur	hayir	0	MÖ	Asya
+noktasiz-kunye	umma-erken-hanedan	Umma Şehir Devleti (Erken Hanedan; Lugalzagesi)	devlet	mezopotamya	-2549-01-01	-2333-01-01	Umma	hayir	0	MÖ	Asya
+noktasiz-kunye	sumer-lagas-1	Lagas I. Hanedan (sehir devleti)	devlet	mezopotamya	-2499-01-01	-2349-01-01	Lagas (Girsu)	hayir	0	MÖ	Asya
+noktasiz-kunye	awan	Awan Krallığı (Elam, Erken Elam)	krallik	iran	-2499-01-01	-2099-01-01	Awan (yeri bilinmiyor)	hayir	0	MÖ	Asya
+noktasiz-kunye	ebla-1	Ebla Birinci Krallığı	krallik	suriye-filistin	-2399-01-01	-2299-01-01	Ebla (Tell Mardikh)	hayir	0	MÖ	Asya
+noktasiz-kunye	ebla-orta-tunc	Ebla (II.-III. Krallık, Orta Tunç)	krallik	suriye-filistin	-2299-01-01	-1599-01-01	Ebla	hayir	0	MÖ	Asya
+noktasiz-kunye	herakleopolis	Herakleopolis Krallığı (9.-10. Hanedan, 1. Ara Donem)	krallik	misir-sudan	-2159-01-01	-2054-01-01	Herakleopolis (Ehnasya)	hayir	0	MÖ	Afrika
+noktasiz-kunye	gutium	Gutium (Gutiler) Hakimiyeti	kabile-hakimiyeti	mezopotamya	-2153-01-01	-2111-01-01	belirsiz (Adab olasi)	hayir	0	MÖ	Asya
+noktasiz-kunye	lagas-2	Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)	devlet	mezopotamya	-2143-01-01	-2111-01-01	Girsu/Lagaş	hayir	0	MÖ	Asya
+noktasiz-kunye	tebai-11-hanedan	Tebai 11. Hanedan (birlesme oncesi)	krallik	misir-sudan	-2124-01-01	-2054-01-01	Tebai (Teb)	hayir	0	MÖ	Afrika
+noktasiz-kunye	ur-3	Ur III (Ucuncu Ur Hanedani)	imparatorluk	mezopotamya	-2111-01-01	-2003-01-01	Ur	hayir	0	MÖ	Asya
+noktasiz-kunye	misir-orta-krallik	Misir Orta Krallik (11.-13. Hanedan)	krallik	misir-sudan	-2054-01-01	-1649-01-01	Itj-tawy / Tebai	hayir	0	MÖ	Afrika
+noktasiz-kunye	larsa	Larsa Krallığı	devlet	mezopotamya	-2024-01-01	-1762-01-01	Larsa	hayir	0	MÖ	Asya
+noktasiz-kunye	eski-asur	Eski Asur Devleti (Assur sehir devleti)	sehir-devleti-krallik	mezopotamya	-2024-01-01	-1749-01-01	Assur	hayir	0	MÖ	Asya
+noktasiz-kunye	isin	Isin Krallığı (I. Hanedan)	devlet	mezopotamya	-2016-01-01	-1793-01-01	Isin	hayir	0	MÖ	Asya
+noktasiz-kunye	dilmun	Dilmun	krallik-ticaret-devleti	arabistan	-1999-01-01		Kala'at al-Bahrain	hayir	0	MÖ	Asya
+noktasiz-kunye	esnunna	Esnunna Krallığı	krallik	mezopotamya	-1999-01-01	-1761-01-01	Esnunna (Tell Asmar)	hayir	0	MÖ	Asya
+noktasiz-kunye	minos	Minos (Minos Saray) Uygarlığı	uygarlik-saray-devletleri-siyasi-birlik-tartismali	balkanlar	-1899-01-01	-1449-01-01	Knossos	hayir	0	MÖ	Avrupa
+noktasiz-kunye	samsi-adad	Ust Mezopotamya Krallığı (Samsi-Adad I)	krallik	mezopotamya	-1807-01-01	-1775-01-01	Subat-Enlil	hayir	0	MÖ	Asya
+noktasiz-kunye	sealand-1	Birinci Deniz Ulkesi Hanedani	krallik	mezopotamya	-1731-01-01	-1474-01-01	belirsiz (guney bataklik)	hayir	0	MÖ	Asya
+noktasiz-kunye	tebai-17-hanedan	Tebai 17. Hanedan	krallik	misir-sudan	-1649-01-01	-1549-01-01	Tebai	hayir	0	MÖ	Afrika
+noktasiz-kunye	misir-yeni-krallik	Misir Yeni Krallik (18.-20. Hanedan)	imparatorluk	misir-sudan	-1549-01-01	-1068-01-01	Tebai / Pi-Ramesses	hayir	0	MÖ	Afrika
+noktasiz-kunye	kizzuwatna	Kizzuwatna Krallığı	krallik	anadolu	-1499-01-01	-1399-01-01	Kummanni / Adaniya	hayir	0	MÖ	Asya
+noktasiz-kunye	hayasa-azzi	Hayaşa-Azzi Konfederasyonu	kabile-konfederasyonu	anadolu	-1499-01-01	-1199-01-01		hayir	0	MÖ	Asya
+noktasiz-kunye	miken	Miken (Mykene) Saray Devletleri	saray-devletleri	balkanlar	-1399-01-01	-1099-01-01	Miken / Pylos / Tiryns / Teb	hayir	0	MÖ	Avrupa
+noktasiz-kunye	orta-asur	Orta Asur Imparatorlugu	imparatorluk	mezopotamya	-1362-01-01	-0910-01-01	Assur	hayir	0	MÖ	Asya
+noktasiz-kunye	ugarit	Ugarit Krallığı	krallik	suriye-filistin	-1349-01-01	-1189-01-01	Ugarit (Ras Şamra)	hayir	0	MÖ	Asya
+noktasiz-kunye	misir-3-ara	Misir 3. Ara Donem (21.-25. Hanedan: Tanis, Libya, Kus)	krallik-lar	misir-sudan	-1068-01-01	-0663-01-01	Tanis / Bubastis	hayir	0	MÖ	Afrika
+noktasiz-kunye	aram-sam	Aram-Sam (Dimask) Krallığı	krallik	suriye-filistin	-0939-01-01	-0731-01-01	Dimask	hayir	0	MÖ	Asya
+noktasiz-kunye	yeni-asur	Yeni Asur Imparatorlugu	imparatorluk	mezopotamya	-0910-01-01	-0608-01-01	Assur, Kalhu (Nimrud), Ninova	hayir	0	MÖ	Asya
+noktasiz-kunye	chavin	Chavin Kulturu	kultur	guney-amerika	-0899-01-01	-0199-01-01	Chavin de Huantar	hayir	0	MÖ	G.Amerika
+noktasiz-kunye	manna	Manna (Mannea) Krallığı	krallik	iran	-0828-01-01	-0599-01-01	Izirtu (Zirta)	hayir	0	MÖ	Asya
+noktasiz-kunye	kartaca	Kartaca (Pön) Devleti	sehir-devleti-imparatorluk	kuzey-afrika	-0813-01-01	-0145-01-01	Kartaca	hayir	0	MÖ	Afrika
+noktasiz-kunye	saba	Saba Krallığı	krallik	arabistan	-0799-01-01	0275-01-01	Marib	hayir	0	MÖ	Asya
+noktasiz-kunye	sparta	Sparta (Lakedaimon)	devlet	balkanlar	-0799-01-01	-0191-01-01	Sparta	hayir	0	MÖ	Avrupa
+noktasiz-kunye	korint	Korint	devlet	balkanlar	-0799-01-01	-0145-01-01	Korint	hayir	0	MÖ	Avrupa
+noktasiz-kunye	kush-25-hanedan	Kusi 25. Hanedan (Misir)	krallik	misir-sudan	-0724-01-01	-0652-01-01	Napata / Memfis	hayir	0	MÖ	Afrika
+noktasiz-kunye	skit-krallik	İskit (Pontus Bozkırı) Devletleri	gocebe-konfederasyon	dogu-avrupa	-0699-01-01	-0199-01-01	belirsiz / İskit Neapolis	hayir	0	MÖ	Avrupa
+noktasiz-kunye	sait-26-hanedan	Sait (26.) Hanedan	krallik	misir-sudan	-0663-01-01	-0524-01-01	Sais	hayir	0	MÖ	Afrika
+noktasiz-kunye	kyrene	Kyrene (Kirene) Devleti	devlet	kuzey-afrika	-0630-01-01	-0095-01-01	Kyrene	hayir	0	MÖ	Afrika
+noktasiz-kunye	massalia	Massalia (Marsilya)	devlet	bati-avrupa	-0599-01-01	-0048-01-01	Massalia	hayir	0	MÖ	Avrupa
+noktasiz-kunye	ermenistan-yervantuni	Yervandit (Orontid) Ermenistan	krallik	kafkasya	-0599-01-01	-0199-01-01	Armavir -> Yervandaşat	hayir	0	MÖ	Asya
+noktasiz-kunye	etrusk-sehir-devletleri	Etrüsk Şehir Devletleri (Oniki Şehir Birliği)	devlet	italya	-0574-01-01	-0088-01-01	Tarquinia / Fanum Voltumnae (birlik toplantı yeri)	hayir	0	MÖ	Avrupa
+noktasiz-kunye	ahamenis-misir	Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi)	eyalet	misir-sudan	-0524-01-01	-0403-01-01	Memfis	hayir	0	MÖ	Afrika
+noktasiz-kunye	garamant	Garamantes Krallığı	krallik	kuzey-afrika	-0499-01-01	0699-01-01	Garama (Germa)	hayir	0	MÖ	Afrika
+noktasiz-kunye	misir-28-30-hanedan	Misir 28.-30. Hanedan (son yerli firavunlar)	krallik	misir-sudan	-0403-01-01	-0342-01-01	Sais / Mendes / Sebennytos	hayir	0	MÖ	Afrika
+noktasiz-kunye	ma-in	Ma'in Krallığı (Minai)	krallik	arabistan	-0399-01-01	-0099-01-01	Karna	hayir	0	MÖ	Asya
+noktasiz-kunye	karya-hekatomnid	Karya Hekatomnid Satrap-Hanedanlığı	hanedanlik	anadolu	-0390-01-01	-0333-01-01	Mylasa, sonra Halikarnassos	hayir	0	MÖ	Asya
+noktasiz-kunye	epir	Epir (Molossia) Krallığı	krallik	balkanlar	-0369-01-01	-0231-01-01	Dodona -> Ambrakia	hayir	0	MÖ	Avrupa
+noktasiz-kunye	aitolia-birligi	Aitolia Birliği	konfederasyon	balkanlar	-0366-01-01	-0188-01-01	Thermon	hayir	0	MÖ	Avrupa
+noktasiz-kunye	ahamenis-misir-2	Ahamenis Misir'i (31. Hanedan, 2. Pers egemenligi)	eyalet	misir-sudan	-0342-01-01	-0331-01-01	Memfis	hayir	0	MÖ	Afrika
+noktasiz-kunye	korint-birligi	Korint (Hellen) Birliği	ittifak	balkanlar	-0336-01-01	-0321-01-01	Korint	hayir	0	MÖ	Avrupa
+noktasiz-kunye	lizimakhos	Lizimakhos (Trakya) Krallığı	krallik	balkanlar	-0305-01-01	-0280-01-01	Lysimacheia	hayir	0	MÖ	Avrupa
+noktasiz-kunye	antigonos	Antigonos Monophthalmos Krallığı (Asya)	krallik	anadolu	-0305-01-01	-0300-01-01	Antigoneia	hayir	0	MÖ	Asya
+noktasiz-kunye	akhaia-birligi	Akhaia Birliği	konfederasyon	balkanlar	-0279-01-01	-0145-01-01	Aigion	hayir	0	MÖ	Avrupa
+noktasiz-kunye	kapadokya-krallik	Kapadokya Krallığı	krallik	anadolu	-0254-01-01	0017-01-01	Mazaka	hayir	0	MÖ	Asya
+noktasiz-kunye	nazca	Nazca Kulturu	kultur	guney-amerika	-0199-01-01	0599-01-01	Cahuachi	hayir	0	MÖ	G.Amerika
+noktasiz-kunye	artaksiad	Artaksiad Ermenistan	krallik	kafkasya	-0188-01-01	0012-01-01	Artaksata	hayir	0	MÖ	Asya
+noktasiz-kunye	nabatiye	Nabatiye Krallığı	krallik	suriye-filistin	-0167-01-01	0106-01-01	Petra	hayir	0	MÖ	Asya
+noktasiz-kunye	karakene	Karakene (Mesene) Krallığı	vasal-krallik	mezopotamya	-0140-01-01	0222-01-01	Charax Spasinou	hayir	0	MÖ	Asya
+noktasiz-kunye	tigran-imp	Büyük Tigran'ın İmparatorluğu	imparatorluk	anadolu	-0094-01-01	-0065-01-01	Tigranokerta	hayir	0	MÖ	Asya
+noktasiz-kunye	dakya	Dakya (Burebista-Decebalus) Krallığı	krallik	balkanlar	-0081-01-01	0106-01-01	Sarmizegetusa	hayir	0	MÖ	Avrupa
+noktasiz-kunye	moche	Moche (Mochica) Devletleri	devlet	guney-amerika	0001-01-01	0799-12-31	Huacas de Moche	hayir	0	1–999	G.Amerika
+noktasiz-kunye	catuvellauni-krallik	Catuvellauni-Trinovantes Krallığı (Cunobelinus)	krallik	bati-avrupa	0005-01-01	0043-01-01	Verulamium, sonra Camulodunum (Colchester)	hayir	0	1–999	Avrupa
+noktasiz-kunye	arsakuni-ermenistan	Arşakuni Ermenistan (Part dalı)	krallik	kafkasya	0063-01-01	0428-01-01	Artaksata -> Vagarşapat	hayir	0	1–999	Asya
+noktasiz-kunye	tikal-mutal	Tikal (Mutal) Krallığı	devlet	orta-amerika	0090-01-01	0869-01-01	Tikal	hayir	0	1–999	K.Amerika
+noktasiz-kunye	tikal-mutul	Mutul (Tikal) Krallığı	krallik	orta-amerika	0090-01-01	0869-08-13	Tikal (Yax Mutal)	hayir	0	1–999	K.Amerika
+noktasiz-kunye	yamato	Yamato Devleti (Kofun)	devlet	dogu-asya	0250-01-01	0710-01-01	Yamato (Asuka'ya kadar)	hayir	0	1–999	Asya
+noktasiz-kunye	palmira	Palmira (Odaenathus-Zenobia) Imparatorlugu	imparatorluk	suriye-filistin	0260-01-01	0273-01-01	Palmira	hayir	0	1–999	Asya
+noktasiz-kunye	britanya-imp	Britanya İmparatorluğu (Carausius-Allectus)	ayrilikci-imparatorluk	bati-avrupa	0286-01-01	0296-01-01	Londinium	hayir	0	1–999	Avrupa
+noktasiz-kunye	piktler	Pikt (Fortriu) Krallığı	krallik	bati-avrupa	0297-01-01	0843-01-01	Fortriu / Forteviot	hayir	0	1–999	Avrupa
+noktasiz-kunye	hohokam	Hohokam Kültürü (son evre)	kultur	kuzey-amerika	0300-01-01	1450-01-01	Snaketown / Casa Grande	hayir	0	1–999	K.Amerika
+noktasiz-kunye	dai-tuoba	Dai Prensligi (Tuoba/Tabgac)	prenslik	dogu-asya	0315-01-01	0376-01-01	Shengle	hayir	0	1–999	Asya
+noktasiz-kunye	dogu-jin	Dogu Jin Hanedani	imparatorluk	dogu-asya	0317-01-01	0420-01-01	Jiankang	hayir	0	1–999	Asya
+noktasiz-kunye	caracol-maya	Caracol Krallığı	devlet	orta-amerika	0331-01-01	0859-01-01	Caracol	hayir	0	1–999	K.Amerika
+noktasiz-kunye	hun-avrupa	Avrupa Hun İmparatorluğu (Attila)	konfederasyon	dogu-avrupa	0370-01-01	0455-01-01	belirsiz (Pannonia)	hayir	0	1–999	Avrupa
+noktasiz-kunye	palenque-baak	Palenque (Bakʼ) Krallığı	devlet	orta-amerika	0431-01-01	0799-01-01	Palenque	hayir	0	1–999	K.Amerika
+noktasiz-kunye	eftalit	Eftalit (Beyaz Hun) Krallığı	krallik	orta-asya	0457-01-01	0560-01-01	belirsiz (Tohâristân; Prokopios'un 'Gorgo'su)	hayir	0	1–999	Asya
+noktasiz-kunye	guney-qi	Guney Qi	imparatorluk	dogu-asya	0479-01-01	0502-01-01	Jiankang	hayir	0	1–999	Asya
+noktasiz-kunye	kinde	Kinde Krallığı	kabile-kralligi	arabistan	0480-01-01	0528-01-01	Kariyat el-Fav	hayir	0	1–999	Asya
+noktasiz-kunye	tiwanaku-devleti	Tiwanaku Devleti	imparatorluk	guney-amerika	0500-01-01	1010-01-01	Tiwanaku	hayir	0	1–999	G.Amerika
+noktasiz-kunye	tiwanaku	Tiwanaku Devleti	krallik	guney-amerika	0500-01-01	1150-01-01	Tiwanaku	hayir	0	1–999	G.Amerika
+noktasiz-kunye	gaochang	Gaochang (Turfan) Krallığı - Qu hanedanı	krallik	orta-asya	0501-01-01	0640-01-01	Gaochang	hayir	0	1–999	Asya
+noktasiz-kunye	dogu-wei	Doğu Wei Hanedanı	hanedanlik	dogu-asya	0534-01-01	0550-01-01	Ye	hayir	0	1–999	Asya
+noktasiz-kunye	van-xuan	Van Xuan (Erken Ly)	krallik	guneydogu-asya	0544-01-01	0603-01-01	Long Bien	hayir	0	1–999	Asya
+noktasiz-kunye	kuzey-qi	Kuzey Qi Hanedanı	hanedanlik	dogu-asya	0550-01-01	0577-01-01	Ye	hayir	0	1–999	Asya
+noktasiz-kunye	dvaravati	Dvaravati Mon Krallıkları	krallik	guneydogu-asya	0551-01-01	1100-01-01	Nakhon Pathom	hayir	0	1–999	Asya
+noktasiz-kunye	langobard	Lombard (Langobard) Krallığı	krallik	italya	0568-01-01	0774-01-01	Pavia	hayir	0	1–999	Avrupa
+noktasiz-kunye	xueyantuo-kaganligi	Xueyantuo (Sir-Tardus) Kaganligi	kaganlik	orta-asya	0628-01-01	0646-01-01	Tola vadisi (Kuzey Mogolistan)	hayir	0	1–999	Asya
+noktasiz-kunye	emevi	Emevî Hilâfeti (Benî Ümeyye)	devlet	suriye-filistin	0661-01-01	0750-08-05	Dımaşk	hayir	0	1–999	Asya
+noktasiz-kunye	bavendi	Bâvendîler	hanedanlik	iran	0665-01-01	1349-04-17	Firîm / Şehriyârkûh (Keyûsiyye) · Sârî (İspehbediyye) · Âmül (Kinhâriyye)	hayir	0	1–999	Asya
+noktasiz-kunye	dogu-gokturk-2	Doğu Göktürk Kağanlığı (II, İkinci Göktürk)	kaganlik	orta-asya	0682-01-01	0745-01-01	Ötüken	hayir	0	1–999	Asya
+noktasiz-kunye	xochicalco	Xochicalco	devlet	orta-amerika	0700-01-01	0900-01-01	Xochicalco	hayir	0	1–999	K.Amerika
+noktasiz-kunye	turges	Türgiş Kağanlığı	kaganlik	orta-asya	0717-01-01	0766-01-01	Suyab	hayir	0	1–999	Asya
+noktasiz-kunye	badusbani	Bâdüsbânîler (Rûyân üstândârları)	hanedanlik	iran	0723-01-01	1598-01-01	Rûyân · (sonra) Kucur ve Nur	hayir	0	1–999	Asya
+noktasiz-kunye	karluk	Karluk Devleti (Yabgu -> Kara-ordu)	yabgu-devleti	orta-asya	0766-01-01	0840-01-01	Kara-ordu (Balasagun yakını)	hayir	0	1–999	Asya
+noktasiz-kunye	kulasekhara-cera	Kulasekhara (İkinci Çera / Çera Perumallar) Krallığı	krallik	guney-asya	0800-01-01	1102-01-01	Mahodayapuram (Kodungallur)	hayir	0	1–999	Asya
+noktasiz-kunye	danimarka-erken	Danimarka Krallari (Godfred donemi, Erken Dani Krallik)	krallik	kuzey-avrupa	0804-01-01	0950-01-01	Hedeby/Sliesthorp (Guney Jutland)	hayir	0	1–999	Avrupa
+noktasiz-kunye	dulefi	Dülefîler (Delefîler / Dulafidler)	emirlik	iran	0825-01-01	0897-01-01	Kerec	hayir	0	1–999	Asya
+noktasiz-kunye	alania-krallik	Alan (Alania) Krallığı (Kuzey Kafkasya)	krallik	kafkasya	0850-01-01	1090-01-01	bilinmiyor	hayir	0	1–999	Asya
+noktasiz-kunye	ukaydir	Ukaydirîler (Yemâme)	hanedan	arabistan	0866-01-01		Hadarim / Ukhaydir (Yemâme)	hayir	0	1–999	Asya
+noktasiz-kunye	tolunogullari	Tolunoğulları	hanedanlik	misir-sudan	0868-01-01	0905-01-01	Fustat → Katâi	hayir	0	1–999	Afrika
+noktasiz-kunye	pecenek-konfederasyonu	Peçenek Konfederasyonu	bozkir-konfederasyonu	dogu-avrupa	0889-01-01	1122-01-01		hayir	0	1–999	Avrupa
+noktasiz-kunye	macar-prensligi	Macar (Magyar) Prensliği	konfederasyon	orta-avrupa	0895-01-01	1000-01-01	belirsiz	hayir	0	1–999	Avrupa
+noktasiz-kunye	suve-emirligi	Şüve (Shoa) Mahzûmî Emirliği	beylik	dogu-afrika	0896-01-01	1285-01-01	Doğu Şüve (kaynakta şehir adı yok)	hayir	0	1–999	Afrika
+noktasiz-kunye	guney-han-10krallik	Güney Han (Nan Han) Krallığı	krallik	dogu-asya	0917-01-01	0971-01-01		hayir	0	1–999	Asya
+noktasiz-kunye	deheubarth	Deheubarth Krallığı (Güney Galler)	krallik	bati-avrupa	0920-01-01	1197-04-28	Dinefwr	hayir	0	1–999	Avrupa
+noktasiz-kunye	hirvatistan-kralligi	Hırvatistan Krallığı	krallik	balkanlar	0925-01-01	1102-01-01	Knin · Biograd (kaynak sabit başkent vermez; HE 'Petar': 'Prijestolnica mu je bila u Kninu')	hayir	0	1–999	Avrupa
+noktasiz-kunye	chu-ma	Chu (Ma Chu) Krallığı	krallik	dogu-asya	0927-01-01	0951-01-01		hayir	0	1–999	Asya
+noktasiz-kunye	sonraki-shu	Sonraki Shu (Hou Shu) Krallığı	krallik	dogu-asya	0934-01-01	0965-01-01		hayir	0	1–999	Asya
+noktasiz-kunye	ihsidi	İhşîdîler	hanedanlik	misir-sudan	0935-01-01	0969-07-06	Fustat	hayir	0	1–999	Afrika
+noktasiz-kunye	musafiri	Müsâfirîler (Sellârîler, Kengerîler)	hanedanlik	iran	0942-01-01	1062-01-01	Şemîrân Kalesi (Târum) · Erdebil (Azerbaycan kolu, 979/980'e dek)	hayir	0	1–999	Asya
+noktasiz-kunye	kuzey-han-10krallik	Kuzey Han (Bei Han) Krallığı	krallik	dogu-asya	0951-01-01	0979-01-01		hayir	0	1–999	Asya
+noktasiz-kunye	magrave-fas	Mağrâve Emirliği (Fes)	emirlik	kuzey-afrika	0955-05-02	1070-01-01	Fes	hayir	0	1–999	Afrika
+noktasiz-kunye	dinh	Dinh Hanedani (Dai Co Viet)	krallik	guneydogu-asya	0968-01-01	0979-01-01	Hoa Lu	hayir	0	1–999	Asya
+noktasiz-kunye	mekke-serifligi	Mekke Şerifliği		arabistan	0969-01-01	1919-05-08		hayir	0	1–999	Asya
+noktasiz-kunye	poni	Po-ni (Poni) Krallığı	krallik	guneydogu-asya	0977-01-01	1405-01-01	— (Brunei bölgesi, kesin merkez standart kaynakta belirtilmemiş)	hayir	0	1–999	Asya
+noktasiz-kunye	tien-le-hanedani	Erken Lê Hanedanı (Đại Cồ Việt)	hanedanlik	guneydogu-asya	0980-01-01	1009-01-01	Hoa Lư	hayir	0	1–999	Asya
+noktasiz-kunye	lori-kralligi	Taşir-Dzoraget (Lori) Ermeni Krallığı	krallik	kafkasya	0982-01-01	1101-01-01	Lori	hayir	0	1–999	Asya
+noktasiz-kunye	mervani	Mervânîler (Mervanoğulları)	emirlik	anadolu	0983-01-01	1085-08-30	Meyyâfârikīn (Silvan)	hayir	0	1–999	Asya
+noktasiz-kunye	annazi	Annâzîler	hanedanlik	iran	0991-01-01	1117-01-01	Hulvân · Sîrvân Kalesi	hayir	0	1–999	Asya
+noktasiz-kunye	numeyri	Nümeyrîler (Nümeyroğulları)	emirlik	mezopotamya	0991-01-01	1083-01-01	Harran	hayir	0	1–999	Asya
+noktasiz-kunye	cahamana	Çavhan (Çâhamâna) Hanedanı — Şakambhari/Ecmîr	hanedanlik	guney-asya	1000-01-01	1192-01-01	Şakambhari → Ecmîr (Ajayameru) · Delhi	hayir	0	1000–1280	Asya
+noktasiz-kunye	amalfi-cumhuriyeti	Amalfi Cumhuriyeti/Dükalığı	denizci-cumhuriyet	italya	1000-01-01	1131-01-01	Amalfi	hayir	0	1000–1280	Avrupa
+noktasiz-kunye	montferrat-markizligi	Montferrat Markizliği	markizlik	italya	1000-01-01	1708-01-01	Casale	hayir	0	1000–1280	Avrupa
+noktasiz-kunye	kakuyi	Kâkûyîler (Kâkeveyhîler)	hanedanlik	iran	1007-01-01	1141-01-01	İsfahan (1051'e dek) · Yezd (1051-1141)	hayir	0	1000–1280	Asya
+noktasiz-kunye	bati-xia	Batı Xia (Tangut) Devleti	imparatorluk	dogu-asya	1038-01-01	1227-01-01	Xingqing (Zhongxing; bugün Yinchuan)	hayir	0	1000–1280	Asya
+noktasiz-kunye	seddadiler-ani	Şeddâdîler (Ani kolu)	emirlik	kafkasya	1064-01-01	1175-01-01	Ani	hayir	0	1000–1280	Asya
+noktasiz-kunye	filaretos-devleti	Filaretos Brakamios Devleti	devlet	anadolu	1077-01-01	1085-01-12	bulunamadı (kaynak merkez vermiyor)	hayir	0	1000–1280	Asya
+noktasiz-kunye	suriye-selcuklu	Suriye Selçukluları	sultanlik	suriye-filistin	1079-01-01	1117-01-01	Dımaşk → Halep (1095 sonrası iki melik: Halep ve Dımaşk)	hayir	0	1000–1280	Asya
+noktasiz-kunye	munkizogullari	Şeyzer Münkızoğulları Emirliği	emirlik	suriye-filistin	1081-01-01	1157-01-01	Şeyzer	hayir	0	1000–1280	Asya
+noktasiz-kunye	alamut-nizari	Nizârî İsmâilî Devleti (Alamut)	devlet	iran	1090-09-04	1256-11-19	Alamut Kalesi (Rûdbâr)	hayir	0	1000–1280	Asya
+noktasiz-kunye	raska-buyuk-prensligi	Raşka Büyük Prensliği (Vukanoviç)	prenslik	balkanlar	1091-01-01	1166-01-01	Ras	hayir	0	1000–1280	Avrupa
+noktasiz-kunye	rupeniler	Rupenî (Ermeni) Prensliği	prenslik	anadolu	1092-01-01	1199-01-01	Vahga / Sis	hayir	0	1000–1280	Asya
+noktasiz-kunye	dahlak-sultanligi	Dahlak Sultanlığı (Dehlek)	sultanlik	dogu-afrika	1093-01-01	1557-01-01	Dahlak Kebir	hayir	0	1000–1280	Afrika
+noktasiz-kunye	saudeleur	Saudeleur Hanedanı (Nan Madol)	hanedanlik	okyanusya	1100-01-01	1628-01-01	Nan Madol	hayir	0	1000–1280	Okyanusya
+noktasiz-kunye	boriler	Dımaşk Atabegliği (Tuğteginliler / Börîler)	atabeglik	suriye-filistin	1104-06-06	1154-04-25	Dımaşk	hayir	0	1000–1280	Asya
+noktasiz-kunye	ahmedili	Ahmedîlîler (Merâga Atabegleri)	atabeglik	iran	1116-01-01	1227-01-01	Merâga · (sonra) Revândiz Kalesi	hayir	0	1000–1280	Asya
+noktasiz-kunye	ganiyeler	Gâniyeoğulları (Benî Gâniye)	hanedan	kuzey-afrika	1126-01-01	1233-01-01	Mayorka, sonra İfrîkıye	hayir	0	1000–1280	Afrika
+noktasiz-kunye	thuringia-landgrafligi	Thüringen Landgraflığı (Ludowinger dönemi)	landgraflik	orta-avrupa	1131-01-01	1247-01-01	Wartburg	hayir	0	1000–1280	Avrupa
+noktasiz-kunye	saluzzo-markizligi	Saluzzo Markizliği	markizlik	italya	1142-01-01	1548-02-23	Saluzzo	hayir	0	1000–1280	Avrupa
+noktasiz-kunye	ildenizli	İldenizliler (Azerbaycan Atabegleri)	atabeglik	iran	1148-01-01	1225-01-01	Nahcıvan · Tebriz · Hemedan	hayir	0	1000–1280	Asya
+noktasiz-kunye	lucca-cumhuriyeti	Lucca Cumhuriyeti (Komünü)	cumhuriyet	italya	1162-01-01	1799-01-01	Lucca	hayir	0	1000–1280	Avrupa
+noktasiz-kunye	eyyubi-meyyafarikin	Meyyâfârikîn Eyyûbîleri (Cebel ve Sincar kolu)	hanedanlik	anadolu	1185-01-01	1260-01-01	Meyyâfârikîn (Silvan)	hayir	0	1000–1280	Asya
+noktasiz-kunye	hawaii-seflikleri	Hawaii Şeflikleri (Birleşme Öncesi)	devlet	okyanusya	1190-01-01	1795-01-01	—	hayir	0	1000–1280	Okyanusya
+noktasiz-kunye	kerayit	Kerâyitler (Ong Han ülkesi)	hanlik	orta-asya	1199-01-01	1203-01-01	bulunamadı	hayir	0	1000–1280	Asya
+noktasiz-kunye	nayman	Naymanlar	hanlik	orta-asya	1199-01-01	1204-01-01	bulunamadı	hayir	0	1000–1280	Asya
+noktasiz-kunye	kabace	Nâsırüddin Kabâce Devleti (Mültan-Uç-Sind)	devlet	guney-asya	1206-01-01	1228-01-01	Mültan · Uç	hayir	0	1000–1280	Asya
+noktasiz-kunye	euboea-negroponte	Negroponte (Eğriboz) — Venedik Krallığı	venedik-koloni-kralligi	balkanlar	1209-01-01	1470-07-12	Halkis	hayir	0	1000–1280	Avrupa
+noktasiz-kunye	dongxia	Doğu Xia (Dongxia / Dazhen) Devleti	devlet	dogu-asya	1215-01-01	1233-01-01	Nanjing (Mançurya doğusu; bugün Yanji yöresi — kesin yer tartışmalı)	hayir	0	1000–1280	Asya
+noktasiz-kunye	galata-pera	Galata (Pera) Ceneviz Kolonisi	ceneviz-kolonisi	balkanlar	1267-01-01	1453-05-29	Galata	hayir	0	1000–1280	Avrupa
+noktasiz-kunye	ogedey-ulusu	Ögedey Ulusu (Ögedeyîler)	hanlik	orta-asya	1267-01-01	1309-01-01	Tarbagatay-Kara Irtış çevresi (şehir adı bulunamadı)	hayir	0	1000–1280	Asya
+noktasiz-kunye	samtshe-atabegligi	Samçhe (Meskheti, Ahıska/Çıldır) Atabekliği	devlet	kafkasya	1268-01-01	1578-08-09		hayir	0	1000–1280	Asya
+noktasiz-kunye	ogedey-ulusu-kaydu	Ögedey Ulusu (Kaydu Devleti, Orta Asya)	hanlik	orta-asya	1271-01-01	1309-01-01	Talas/Isık Göl çevresi (kaynakta teyit edilmedi)	hayir	0	1000–1280	Asya
+noktasiz-kunye	mayorka	Mayorka Krallığı	krallik	iberya	1276-07-27	1349-10-25		hayir	0	1000–1280	Avrupa
+noktasiz-kunye	salzburg-prens-basepiskoposlugu	Salzburg Prens-Başpiskoposluğu	piskoposluk	orta-avrupa	1278-01-01	1803-02-25	Salzburg	hayir	0	1000–1280	Avrupa
+noktasiz-kunye	sidamo-kralliklari	Sidamo Krallıkları	devlet	dogu-afrika	1281-01-01	1897-01-01	çeşitli merkezler	hayir	0	1281–1923	Afrika
+noktasiz-kunye	vollayta-kralligi	Vollayta (Wolaita) Krallığı	krallik	dogu-afrika	1281-01-01	1894-01-17	Dalgaç (Damot Sore)	hayir	0	1281–1923	Afrika
+noktasiz-kunye	arua	Aruã (Marajó)	devlet	guney-amerika	1281-01-01	1836-01-01	—	hayir	0	1281–1923	G.Amerika
+noktasiz-kunye	guney-saray-nanbokucho	Güney Saray (Yoshino, Nanboku-chō)	hanedanlik	dogu-asya	1336-01-01	1392-01-01	Yoshino	hayir	0	1281–1923	Asya
+noktasiz-kunye	gelre-dukaligi	Gelre (Guelders) Dükalığı	dukalik	bati-avrupa	1339-01-01	1543-01-01	Arnhem	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	topia	Topia (Thopia) Beyliği	beylik	balkanlar	1363-01-01	1415-01-01		hayir	0	1281–1923	Avrupa
+noktasiz-kunye	prilep-mrnjavcevic	Prilep Krallığı (Mrnjavčević / Kral Marko)	beylik	balkanlar	1371-01-01	1395-05-17	Prilep	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	dejanovic-prensligi	Dejanović Prensliği (Kostadin-ili)		balkanlar	1371-09-26	1395-05-17		hayir	0	1281–1923	Avrupa
+noktasiz-kunye	moriori	Moriori (Chatham Adaları)	topluluk	okyanusya	1400-01-01	1835-01-01	—	hayir	0	1281–1923	Okyanusya
+noktasiz-kunye	arvanid-sancagi	Arvanid Sancağı (Arnavut-ili)		balkanlar	1415-01-01	1537-08-25		hayir	0	1281–1923	Avrupa
+noktasiz-kunye	ebulhayr-ozbek-ulusu	Ebü'l-Hayr Hanlığı (Özbek Ulusu, Ebü'l-Hayrîler)	hanlik	sibirya-bozkir	1428-01-01	1468-01-01	Tura (Çimgi-Tura, 1446'ya dek)	hayir	0	1281–1923	Asya
+noktasiz-kunye	arnavutluk-iskenderbey	Arnavutluk (Kastriota Direnişi)	prenslik	balkanlar	1443-01-01	1479-01-25	Krujë	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	urbino-dukaligi	Urbino Dükalığı	dukalik	italya	1443-01-01	1631-04-28	Urbino	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	crnojevic-zetasi	Crnojević Zetası		balkanlar	1482-01-01	1499-01-01		hayir	0	1281–1923	Avrupa
+noktasiz-kunye	denyanke	Denyanke (Denianke) Krallığı — Futa Toro	krallik	bati-afrika	1512-01-01	1776-01-01	Anyam Godo / Tumbere-Jiinde	hayir	0	1281–1923	Afrika
+noktasiz-kunye	kebbi	Kebbi Krallığı	krallik	bati-afrika	1516-01-01	1805-04-13	Surame (Birnin Kebbi)	hayir	0	1281–1923	Afrika
+noktasiz-kunye	misir-eyaleti	Osmanlı Mısır Eyaleti	eyalet	misir-sudan	1517-04-13	1805-07-03		hayir	0	1281–1923	Afrika
+noktasiz-kunye	harfusogullari	Harfûşoğulları (Baalbek Emirliği)	emirlik	arabistan	1521-01-01	1850-01-01		hayir	0	1281–1923	Asya
+noktasiz-kunye	yeni-ispanya-ilk-donem	Yeni İspanya — Genel Valilik Öncesi (Cortés ve Audiencia, 1521-1535)	gecici-isgal	orta-amerika	1521-08-13	1535-04-17		hayir	0	1281–1923	K.Amerika
+noktasiz-kunye	kaabu	Kaabu (Gabu) İmparatorluğu	imparatorluk	bati-afrika	1537-01-01	1867-05-24	Kansala	hayir	0	1281–1923	Afrika
+noktasiz-kunye	dendi	Dendi Krallığı	krallik	bati-afrika	1591-01-01	1901-01-01	Kandi (önce Lulami)	hayir	0	1281–1923	Afrika
+noktasiz-kunye	akwamu	Akwamu Devleti	devlet	bati-afrika	1600-01-01	1730-01-01	Nyanoase	hayir	0	1281–1923	Afrika
+noktasiz-kunye	on-uc-koloni	On Üç İngiliz Kolonisi	koloniler	kuzey-amerika	1607-01-01	1776-07-04	—	hayir	0	1281–1923	K.Amerika
+noktasiz-kunye	guarani-misyonlari	Guaraní Cizvit Misyonları (Otuz Pueblo)	devlet	guney-amerika	1609-01-01	1767-01-01	—	hayir	0	1281–1923	G.Amerika
+noktasiz-kunye	yeni-hollanda	Yeni Hollanda	somurge	kuzey-amerika	1614-01-01	1664-09-08	New Amsterdam	hayir	0	1281–1923	K.Amerika
+noktasiz-kunye	hollanda-brezilyasi	Hollanda Brezilyası (Nieuw Holland)	gecici-isgal	guney-amerika	1630-02-16	1654-01-26		hayir	0	1281–1923	G.Amerika
+noktasiz-kunye	yeni-isvec	Yeni İsveç	somurge	kuzey-amerika	1638-03-29	1655-09-15	Fort Christina	hayir	0	1281–1923	K.Amerika
+noktasiz-kunye	fransiz-hindistani	Fransız Hindistanı	somurge	guney-asya	1674-01-01	1954-11-01	Pondicherry	hayir	0	1281–1923	Asya
+noktasiz-kunye	orta-macar-kralligi	Orta Macar Krallığı (Tököli İmre)		orta-avrupa	1682-09-16	1688-01-17		hayir	0	1281–1923	Avrupa
+noktasiz-kunye	yeni-granada-valiligi	Yeni Granada Genel Valiliği	gecici-isgal	guney-amerika	1717-05-27	1810-07-20		hayir	0	1281–1923	G.Amerika
+noktasiz-kunye	revan-hanligi	Revan (Erivan) Hanlığı	hanlik	kafkasya	1747-01-01	1828-04-02		hayir	0	1281–1923	Asya
+noktasiz-kunye	derbent-hanligi	Derbent Hanlığı	han-devleti	kafkasya	1747-01-01	1806-01-01	Derbent	hayir	0	1281–1923	Asya
+noktasiz-kunye	arma	Arma Paşalığı (Tinbüktü)	beylik	bati-afrika	1750-01-01	1760-01-01		hayir	0	1281–1923	Afrika
+noktasiz-kunye	korsika-cumhuriyeti	Korsika (Paoli) Cumhuriyeti	cumhuriyet	italya	1755-01-01	1769-01-01	Corte	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	iskodra-pasaligi	İşkodra Paşalığı (Buşatlılar)	eyalet	balkanlar	1756-01-01	1831-04-21		hayir	0	1281–1923	Avrupa
+noktasiz-kunye	seminole	Seminole	konfederasyon	kuzey-amerika	1775-01-01	1858-01-01	—	hayir	0	1281–1923	K.Amerika
+noktasiz-kunye	rio-de-la-plata-valiligi	Río de la Plata Genel Valiliği	gecici-isgal	guney-amerika	1776-01-01	1810-05-25		hayir	0	1281–1923	G.Amerika
+noktasiz-kunye	venezuela-genel-kaptanligi	Venezuela Genel Kaptanlığı	gecici-isgal	guney-amerika	1777-09-08	1810-04-19		hayir	0	1281–1923	G.Amerika
+noktasiz-kunye	malta-fransiz	Malta Fransız İşgali	gecici-isgal	italya	1798-06-12	1800-09-04	Valletta	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	malta-kolonisi	Malta (İngiliz Koruması / Taç Kolonisi)	somurge	italya	1800-01-01	1964-09-21	Valletta	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	malta-ingiliz	Malta (İngiliz himayesi 1800 → Taç Kolonisi 1813)	somurge	italya	1800-09-08	1964-09-21	Valletta	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	norvec-1814	Norveç Krallığı (Eidsvoll)	kisa-omurlu-krallik	kuzey-avrupa	1814-05-17	1814-11-04	Christiania	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	norvec-isvec-birligi	Norveç Krallığı (İsveç ile Birlik)	krallik	kuzey-avrupa	1814-11-04	1905-06-07	Christiania	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	lucca-dukaligi	Lucca Dükalığı	dukalik	italya	1815-06-09	1847-12-17	Lucca	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	kafkas-imamligi	Kafkas (Dağıstan-Çeçenistan) İmamlığı	imamlik	kafkasya	1828-01-01	1859-09-06	Gimry → Dargo → Veden	hayir	0	1281–1923	Asya
+noktasiz-kunye	konstantin-beyligi	Konstantin Beyliği (Ahmed Bey)		kuzey-afrika	1830-07-05	1844-03-04		hayir	0	1281–1923	Afrika
+noktasiz-kunye	samos-prensligi	Samos Prensliği	ozerk-osmanli-prensligi	balkanlar	1834-01-01	1912-11-11	Vathy	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	hong-kong-ingiliz	Hong Kong (İngiliz Kolonisi)	somurge	dogu-asya	1842-08-29	1997-07-01	Victoria	hayir	0	1281–1923	Asya
+noktasiz-kunye	cebel-i-lubnan-mutasarrifligi	Cebel-i Lübnan Mutasarrıflığı	mutasarriflik	arabistan	1861-06-09	1915-07-11	Beyteddin	hayir	0	1281–1923	Asya
+noktasiz-kunye	anhalt-dukaligi	Anhalt Dükalığı	dukalik	orta-avrupa	1863-01-01	1918-11-12	Dessau	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	ikinci-meksika-imparatorlugu	İkinci Meksika İmparatorluğu (Maximilian)	imparatorluk	orta-amerika	1864-04-10	1867-06-19	Meksiko	hayir	0	1281–1923	K.Amerika
+noktasiz-kunye	fante	Fante Konfederasyonu	konfederasyon	bati-afrika	1868-01-01	1873-01-01	Mankessim	hayir	0	1281–1923	Afrika
+noktasiz-kunye	elsass-lothringen	Alsas-Loren İmparatorluk Bölgesi (Reichsland)	imparatorluk-topragi	bati-avrupa	1871-05-10	1918-11-11	Strasbourg	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	tunus-beyligi-fransiz	Tunus Beyliği (Fransız Himayesi Dönemi)	beylik	kuzey-afrika	1881-05-12	1956-03-20		hayir	0	1281–1923	Afrika
+noktasiz-kunye	alman-togo	Alman Togolandı	somurge	bati-afrika	1884-07-05	1914-08-26	Lome (Klein-Popo/Zébé'den)	hayir	0	1281–1923	Afrika
+noktasiz-kunye	alman-dogu-afrikasi	Alman Doğu Afrikası	somurge	dogu-afrika	1885-02-27	1919-06-28	Dar es Salaam	hayir	0	1281–1923	Afrika
+noktasiz-kunye	ingiliz-becuanaland	Becuanaland Protektorası		guney-afrika	1885-09-30	1966-09-30	Mafeking (protektora toprakları dışında)	hayir	0	1281–1923	Afrika
+noktasiz-kunye	uganda-protektorasi	Uganda Protektorası	himaye	dogu-afrika	1894-06-18	1962-10-09	Entebbe	hayir	0	1281–1923	Afrika
+noktasiz-kunye	oranj-nehri-kolonisi	Orange Nehri Kolonisi	somurge	guney-afrika	1902-05-31	1910-05-31	Bloemfontein	hayir	0	1281–1923	Afrika
+noktasiz-kunye	transkaspi-hukumeti	Sosyal Devrimci Transhazar (Transkaspiya) Geçici Hükûmeti	hukumet	orta-asya	1918-01-01		Aşkabat	hayir	0	1281–1923	Asya
+noktasiz-kunye	ukrayna-devleti-1918	Ukrayna Devleti (Skoropadski Hetmanlığı)	devlet	dogu-avrupa	1918-04-29	1918-12-14		hayir	0	1281–1923	Avrupa
+noktasiz-kunye	cenub-i-garbi-kafkas	Cenûb-ı Garbî Kafkas Hükûmet-i Muvakkate-i Milliyesi (Kars)	gecici-hukumet	kafkasya	1918-11-05	1919-04-12		hayir	0	1281–1923	Asya
+noktasiz-kunye	macaristan-halk-cumhuriyeti	Macaristan Halk Cumhuriyeti (Károlyi)	cumhuriyet	orta-avrupa	1918-11-16	1919-03-21	Budapeşte	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	memel-bolgesi	Memel (Klaipėda) Bölgesi	mandater-bolge	dogu-avrupa	1920-02-10	1939-03-23	Memel	hayir	0	1281–1923	Avrupa
+noktasiz-kunye	fransiz-kamerun-mandasi	Fransız Kamerunu (Fransız Mandası)		orta-afrika	1922-07-20	1960-01-01	Yaoundé	hayir	0	1281–1923	Afrika
+noktasiz-kunye	svalbard	Svalbard (Norveç egemenliği)	bagimlilik	kuzey-avrupa	1925-08-14		Longyearbyen	hayir	0	1924+	Avrupa
+noktasiz-kunye	doguhebei-ozerk	Doğu Hebei Komünizm Karşıtı Özerk Hükûmeti	vasal	dogu-asya	1935-11-25	1938-02-01	Tongzhou (Ağustos 1937'den Tangshan)	hayir	0	1924+	Asya
+noktasiz-kunye	karpat-ukrayna	Karpat Ukraynası	kisa-omurlu-devlet	orta-avrupa	1939-03-15	1939-03-18	Hust	hayir	0	1924+	Avrupa
+noktasiz-kunye	alman-isgali-karadag	Alman İşgali Altındaki Karadağ	isgal-idaresi	balkanlar	1943-09-12	1944-12-15	bulunamadı	hayir	0	1924+	Avrupa
+noktasiz-kunye	fransiz-birligi	Fransız Birliği (Union française)	birlik	bati-afrika	1946-10-27	1958-10-04	Paris	hayir	0	1924+	Afrika
+noktasiz-kunye	zengibar-halk-cumhuriyeti	Zengibar ve Pemba Halk Cumhuriyeti	cumhuriyet	dogu-afrika	1964-01-12	1964-04-26	Zengibar	hayir	0	1924+	Afrika
+noktasiz-kunye	falkland-arjantin-isgali	Falkland/Malvinas — Arjantin yönetimi	gecici-isgal	guney-amerika	1982-04-02	1982-06-14	Puerto Argentino	hayir	0	1924+	G.Amerika
+noktasiz-kunye(ad-adayi)	harappa	Harappa (Indus) Uygarlığı (Olgun evre)	uygarlik-devlet-duzeyi-tartismali	guney-asya	-2599-01-01	-1899-01-01		hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	akad	Akad Imparatorlugu	imparatorluk	mezopotamya	-2333-01-01	-2153-01-01	Agade (konum bilinmiyor)	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	hiksos-15	Hiksos (15. Hanedan)	krallik	misir-sudan	-1649-01-01	-1549-01-01	Avaris	hayir	0	MÖ	Afrika
+noktasiz-kunye(ad-adayi)	hitit-eski	Eski Hitit Krallığı (Hattusa)	krallik	anadolu	-1649-01-01	-1499-01-01	Hattusa	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	hitit	Hitit Krallığı ve İmparatorluğu (Hatti)	imparatorluk	anadolu	-1649-01-01	-1179-01-01	Hattuşa	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	mitanni	Mitanni (Hanigalbat) Krallığı	krallik	mezopotamya	-1499-01-01	-1259-01-01	Vassukanni (konum belirsiz)	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	hitit-imp	Hitit Imparatorlugu (Yeni Krallik)	imparatorluk	anadolu	-1399-01-01	-1179-01-01	Hattusa	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	olmek	Olmek Kulturu (San Lorenzo-La Venta)	kultur	orta-amerika	-1199-01-01	-0399-01-01	San Lorenzo → La Venta	hayir	0	MÖ	K.Amerika
+noktasiz-kunye(ad-adayi)	yeni-hitit	Yeni Hitit (Luvi-Arami) Sehir Devletleri (Karkamis, Melid, Hamat, Gurgum, Kummuh, Tabal vb.)	devlet	anadolu	-1179-01-01	-0707-01-01	Karkamis	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	bati-zhou	Batı Zhou	krallik	dogu-asya	-1045-01-01	-0770-01-01	Haojing	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	qi-devleti	Qi Devleti (Jiang Qi ve Tian Qi)	krallik	dogu-asya	-1045-01-01	-0220-01-01	Yingqiu → Linzi (Shandong)	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	israil-krallik	Israil Krallığı (Samiriye)	krallik	suriye-filistin	-0929-01-01	-0721-01-01	Sekem → Tirsa → Samiriye	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	dogu-zhou	Doğu Zhou (Bahar-Güz ve Savaşan Devletler dönemi hanedanı)	krallik	dogu-asya	-0769-01-01	-0255-01-01	Luoyi	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	qin-devleti	Qin Devleti	devlet	dogu-asya	-0769-01-01	-0220-01-01	Yong -> Xianyang	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	kush-krallik	Kus (Napata–Meroe) Krallığı	krallik	misir-sudan	-0749-01-01	0349-01-01	Napata → Meroe	hayir	0	MÖ	Afrika
+noktasiz-kunye(ad-adayi)	chu-devleti	Chu Devleti (Zhou donemi; wang unvanli krallik)	krallik	dogu-asya	-0703-01-01	-0222-01-01	Danyang → Ying (Jingzhou/Hubei) → Shouchun	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	makedonya-krallik	Makedonya Krallığı (Argead-Antigonid)	krallik	balkanlar	-0699-01-01	-0167-01-01	Aigai / Pella	hayir	0	MÖ	Avrupa
+noktasiz-kunye(ad-adayi)	lidya	Lidya Krallığı	krallik	anadolu	-0679-01-01	-0545-01-01	Sardes	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	medya	Medya (Med) Krallığı	krallik	iran	-0677-01-01	-0549-01-01	Ekbatana (Hegmatana)	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	peloponnes-birligi	Peloponnes Birliği	ittifak	balkanlar	-0549-01-01	-0365-01-01	Sparta	hayir	0	MÖ	Avrupa
+noktasiz-kunye(ad-adayi)	magadha	Magadha (Haryanka-Sisunaga-Nanda)	krallik	guney-asya	-0542-01-01	-0320-01-01	Rajagriha → Pataliputra	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	monte-alban-zapotek	Monte Albán Zapotek Devleti	devlet	orta-amerika	-0499-01-01	0700-01-01	Monte Albán	hayir	0	MÖ	K.Amerika
+noktasiz-kunye(ad-adayi)	zapotek-monte-alban	Zapotek Devleti (Monte Alban)	devlet	orta-amerika	-0499-01-01	0700-01-01	Monte Alban	hayir	0	MÖ	K.Amerika
+noktasiz-kunye(ad-adayi)	odris	Odris (Trakya) Krallığı	krallik	balkanlar	-0479-01-01	0046-01-01	Seuthopolis / Kabyle	hayir	0	MÖ	Avrupa
+noktasiz-kunye(ad-adayi)	hadramavt	Hadramavt Krallığı	krallik	arabistan	-0449-01-01	0300-01-01	Sabva	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	bosporos-krallik	Bosporos (Kırım) Krallığı	krallik	dogu-avrupa	-0437-01-01	0370-01-01	Pantikapaion	hayir	0	MÖ	Avrupa
+noktasiz-kunye(ad-adayi)	han-devleti-zhou	Han Devleti (Savasan Devletler; Han hanedanindan ayri)	devlet	dogu-asya	-0402-01-01	-0229-01-01	Xinzheng	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	zhao-devleti	Zhao Devleti (Savasan Devletler)	devlet	dogu-asya	-0402-01-01	-0221-01-01	Handan	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	wei-devleti-zhou	Wei Devleti (Savasan Devletler; Cao Wei'den ayri)	devlet	dogu-asya	-0402-01-01	-0224-01-01	Anyi → Daliang	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	kataban	Kataban Krallığı	krallik	arabistan	-0399-01-01	0199-01-01	Timna	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	atropatene	Atropatene (Med Atropatene) Krallığı	krallik	kafkasya	-0320-01-01	0224-01-01	Gazaka (Ganzak)	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	maurya	Maurya Imparatorlugu	imparatorluk	guney-asya	-0320-01-01	-0184-01-01	Pataliputra	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	bitinya	Bitinya Krallığı	krallik	anadolu	-0296-01-01	-0073-01-01	Nikomedia	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	pontus	Pontus (Mithridates) Krallığı	krallik	anadolu	-0280-01-01	-0062-01-01	Amaseia -> Sinope	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	galatya-keltleri	Galatia (Kelt) Tetrarşileri	kabile-devletleri	anadolu	-0277-01-01	-0024-01-01	Ankyra / Tavium / Pessinus	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	antigonid-makedonya	Antigonid Makedonya Krallığı	krallik	balkanlar	-0275-01-01	-0167-01-01	Pella	hayir	0	MÖ	Avrupa
+noktasiz-kunye(ad-adayi)	greko-baktria	Greko-Baktriya Krallığı	krallik	orta-asya	-0249-01-01	-0129-01-01	Baktra / Ay Hanum	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	part	Part (Arsakid) Imparatorlugu	imparatorluk	iran	-0246-01-01	0224-01-01	Nisa → Ktesiphon	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	qin-hanedani	Qin Hanedanı (birleşik İmparatorluk)	imparatorluk	dogu-asya	-0220-01-01	-0206-01-01	Xianyang	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	hunnu-xiongnu	Xiongnu (Hunnu) Konfederasyonu	konfederasyon	orta-asya	-0208-01-01	0155-01-01	Longcheng / Ötüken	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	numidia	Numidya Krallığı (Massyli-Masaesyli birlesik)	krallik	kuzey-afrika	-0201-01-01	-0045-01-01	Cirta	hayir	0	MÖ	Afrika
+noktasiz-kunye(ad-adayi)	wiman-joseon	Wiman Joseon	krallik	dogu-asya	-0193-01-01	-0107-01-01	Wanggeom	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	sofene	Sofene (Tsopk) Krallığı	krallik	anadolu	-0188-01-01	-0092-01-01	belirsiz	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	sunga	Sunga Hanedani	hanedan	guney-asya	-0184-01-01	-0072-01-01	Pataliputra → Vidisha	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	indo-grek	Hint-Grek (Indo-Greek) Krallıkları	krallik	guney-asya	-0179-01-01	0010-01-01	Taksila → Sagala (Sialkot)	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	likya-birligi	Likya Birligi (Roma himayesinde)	birlik	anadolu	-0166-01-01	0043-01-01	Patara	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	kommagene	Kommagene Krallığı	krallik	anadolu	-0162-01-01	0072-01-01	Samosata	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	mauretania-krallik	Mauretania Krallığı (Mauri)	krallik	kuzey-afrika	-0109-01-01	0044-01-01	Volubilis / Iol	hayir	0	MÖ	Afrika
+noktasiz-kunye(ad-adayi)	himyar	Himyar Krallığı	krallik	arabistan	-0109-01-01	0525-01-01	Zafar	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	teotihuacan	Teotihuacan Şehir Devleti	devlet	orta-amerika	-0099-01-01	0550-01-01	Teotihuacan	hayir	0	MÖ	K.Amerika
+noktasiz-kunye(ad-adayi)	kanva	Kanva Hanedani	hanedan	guney-asya	-0071-01-01	-0027-01-01	Pataliputra	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	goguryeo	Goguryeo Krallığı	krallik	dogu-asya	-0036-01-01	0668-01-01	Jolbon → Gungnae → Pyeongyang	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	satavahana	Satavahana Hanedanı (Andhra)	hanedanlik	guney-asya	-0029-01-01	0220-01-01	Pratishthana (Paithan) / Amaravati	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	baekje	Baekje Krallığı	krallik	dogu-asya	-0017-01-01	0660-01-01	Wiryeseong → Ungjin → Sabi	hayir	0	MÖ	Asya
+noktasiz-kunye(ad-adayi)	funan	Funan Krallığı	krallik	guneydogu-asya	0001-01-01	0550-01-01	Vyadhapura	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	xianbei	Xianbei Konfederasyonu (Tanşihuai)	konfederasyon	orta-asya	0155-01-01	0235-01-01	belirsiz	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	gassani	Gassaniler	krallik-filarkhlik	suriye-filistin	0200-01-01	0636-01-01	belirsiz (Cabiye)	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	alamanlar	Alamanlar (Alemanni) Konfederasyonu	kabile-devleti	orta-avrupa	0213-01-01	0496-01-01	belirsiz	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	sun-wu	Wu (Sun Wu)	krallik	dogu-asya	0222-01-01	0280-01-01	Jianye	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	sasani	Sâsânî İmparatorluğu	imparatorluk	iran	0226-01-01	0651-01-01	Medâin (Ktesifon)	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	kusan-sasani	Kuşano-Sasani Krallığı (Kuşanşahlar)	vasal-krallik	orta-asya	0230-01-01	0360-01-01	Balh	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	maya-klasik	Klasik Maya Sehir Devletleri (genel cati)	devlet	orta-amerika	0250-01-01	0900-01-01	cok merkezli	hayir	0	1–999	K.Amerika
+noktasiz-kunye(ad-adayi)	lahmi	Lahmiler (Hire)	krallik	mezopotamya	0268-01-01	0602-01-01	Hire	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	tuyuhun	Tuyuhun (Tuguhun) Hanlığı	hanlik	dogu-asya	0313-01-01	0663-01-01	Fuqi / Qinghai Gölü çevresi	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	gupta	Gupta Imparatorlugu	imparatorluk	guney-asya	0320-01-01	0540-01-01	Pataliputra	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	bati-ganga	Batı Ganga (Talakad Gangaları) Hanedanı	hanedanlik	guney-asya	0350-01-01	1004-01-01	Talakad	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	pallava	Pallava Hanedanı (Kançipuram)	hanedanlik	guney-asya	0350-01-01	0897-01-01	Kançipuram	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	rouran	Rouran Kağanlığı	kaganlik	orta-asya	0402-01-01	0552-01-01	Mumo	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	liu-song	Liu Song	imparatorluk	dogu-asya	0420-01-01	0479-01-01	Jiankang	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	copan	Copan (Oxwitik)	devlet	orta-amerika	0426-01-01	0820-01-01	Copan	hayir	0	1–999	K.Amerika
+noktasiz-kunye(ad-adayi)	vandal	Vandal Krallığı	krallik	kuzey-afrika	0435-01-01	0534-01-01	Hippo Regius -> Kartaca	hayir	0	1–999	Afrika
+noktasiz-kunye(ad-adayi)	strathclyde	Strathclyde (Alt Clut) Krallığı	krallik	bati-avrupa	0450-01-01	1018-01-01	Dumbarton (Alclut)	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	gepid	Gepid Krallığı	krallik	balkanlar	0455-01-01	0567-01-01	Sirmium	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	kent-kralligi	Kent Krallığı (Anglosakson)	krallik	bati-avrupa	0455-01-01	0825-01-01	Canterbury	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	sussex-kralligi	Sussex (Güney Sakson) Krallığı	krallik	bati-avrupa	0477-01-01	0825-01-01	Selsey / Chichester	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	dal-riata	Dál Riata Krallığı	krallik	bati-avrupa	0500-01-01	0843-01-01	Dunadd	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	liang-guney	Liang (Guney Hanedani)	imparatorluk	dogu-asya	0502-01-01	0557-01-01	Jiankang	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	wessex	Wessex Krallığı	krallik	bati-avrupa	0519-01-01	0927-01-01	Winchester	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	mercia	Mercia Krallığı	krallik	bati-avrupa	0527-01-01	0918-01-01	Tamworth	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	badami-calukya	Badami (Erken) Calukya	imparatorluk	guney-asya	0543-01-01	0753-01-01	Badami (Vatapi)	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	chenla	Chenla (Zhenla) Krallığı	krallik	guneydogu-asya	0550-01-01	0802-01-01	Ishanapura	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	gokturk-1	Birinci Göktürk Kağanlığı	kaganlik	orta-asya	0552-01-01	0582-01-01	Ötüken	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	chen	Chen Hanedani	imparatorluk	dogu-asya	0557-01-01	0589-01-01	Jiankang	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	avar	Avar Kağanlığı	kaganlik	orta-avrupa	0567-01-01	0822-01-01	Pannonia (Ring)	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	dogu-gokturk	Doğu Göktürk Kağanlığı (I)	kaganlik	orta-asya	0582-01-01	0630-01-01	Ötüken	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	wari	Wari (Huari) Imparatorlugu	imparatorluk	guney-amerika	0600-01-01	0800-01-01	Huari	hayir	0	1–999	G.Amerika
+noktasiz-kunye(ad-adayi)	harsha	Harsa'nin Imparatorlugu (Pushyabhuti)	imparatorluk	guney-asya	0606-01-01	0647-01-01	Kannauj / Thanesar	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	samo-devleti	Samo'nun Slav Krallığı	krallik	orta-avrupa	0623-01-01	0658-01-01	bilinmiyor	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	dogu-calukya	Doğu Çalukya (Vengi Çalukyaları)	hanedanlik	guney-asya	0624-01-01	1070-01-01	Vengi	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	karkota	Karkota Hanedanı (Keşmir)	hanedanlik	guney-asya	0626-01-01	0855-01-01		hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	hazar-kaganligi	Hazar Kağanlığı	hanlik	sibirya-bozkir	0630-01-01	0965-01-01	Belencer → İtil	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	buyuk-bulgaristan	Büyük Bulgaristan (Kubrat)	kabile-devleti	dogu-avrupa	0635-01-01	0680-01-01	Phanagoria	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	balhae	Balhae (Bohai/Parhae) Krallığı	krallik	dogu-asya	0698-01-01	0926-01-01	Dongmozu / Sanggyeong	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	nara-japonya	Japonya - Nara Donemi Imparatorluk Sarayi	devlet	dogu-asya	0710-01-01	0793-12-31	Heijo-kyo	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	berqavata	Bergavata Devleti	devlet	kuzey-afrika	0744-01-01	1149-01-01	Tamesna	hayir	0	1–999	Afrika
+noktasiz-kunye(ad-adayi)	uygur-kaganligi	Uygur Kağanlığı (Ötüken)	hanlik	sibirya-bozkir	0745-01-01	0840-01-01	Ordu-Balık (Ötüken)	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	pala	Pâla Hanedanı (Bengal-Bihar)	hanedanlik	guney-asya	0750-01-01	1120-01-01	Mudgagiri (Munger)	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	uman-ibadi	Uman Ibadi Imamligi (I. imamlik)	imamlik	arabistan	0750-01-01		Nezva	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	rastrakuta	Rastrakuta Hanedani	imparatorluk	guney-asya	0753-01-01	0975-01-01	Manyakheta	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	karolenj-italya	İtalya Krallığı (Karolenj-Berengar dönemi)	krallik	italya	0774-01-01	0962-02-02	Pavia	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	tairona	Tairona Şeflikleri	seflikler	guney-amerika	0800-01-01	1600-01-01	Ciudad Perdida (Teyuna)	hayir	0	1–999	G.Amerika
+noktasiz-kunye(ad-adayi)	yenisey-kirgiz	Yenisey Kırgızları (Kırgız Kağanlığı)	kaganlik	sibirya-bozkir	0840-01-01	1207-01-01	—	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	kirgiz-yenisey	Yenisey Kırgız Kağanlığı	kaganlik	orta-asya	0840-01-01	0920-01-01	Ötüken	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	ata-pueblo	Ata Pueblo Kültürü (Anasazi) — Chaco ve Mesa Verde	devlet	kuzey-amerika	0850-01-01	1300-01-01	Chaco Kanyonu (Pueblo Bonito)	hayir	0	1–999	K.Amerika
+noktasiz-kunye(ad-adayi)	powys	Powys Krallığı	krallik	bati-avrupa	0850-01-01	1283-01-01	Mathrafal	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	utpala-kesmir	Utpala Hanedanı (Keşmir)	hanedanlik	guney-asya	0855-01-01	1003-01-01	Keşmir vadisi (başkent adı kaynakta teyit edilmedi)	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	danelaw	Danelaw (Guthrum'un Doğu Anglia'sı ve Danimarkalı Bölge)	krallik	bati-avrupa	0878-01-01	0918-01-01	Doğu Anglia (belirli başkent yok)	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	orta-gurcistan-bagrati	Orta Gürcistan (Kartli) Bagratlı Krallığı (Kuropalat Bagratlıları)	krallik	kafkasya	0888-01-01	1008-01-01	bilinmiyor	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	toltek	Toltek Devleti (Tollan/Tula)	devlet	orta-amerika	0900-01-01	1150-01-01	Tollan (Tula, Hidalgo)	hayir	0	1–999	K.Amerika
+noktasiz-kunye(ad-adayi)	taebong	Sonraki Goguryeo (Majin / Taebong)	krallik	dogu-asya	0901-01-01	0918-01-01		hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	yang-wu	Wu (Yang Wu) Krallığı	krallik	dogu-asya	0902-01-01	0937-01-01		hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	onceki-shu	Önceki Shu (Qian Shu) Krallığı	krallik	dogu-asya	0907-01-01	0925-01-01		hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	wuyue	Wuyue Krallığı	krallik	dogu-asya	0907-01-01	0978-01-01		hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	min-krallik	Min Krallığı	krallik	dogu-asya	0909-01-01	0945-01-01		hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	koco-uygur	Koço (Turfan) Uygur Devleti — İdikutlar	devlet	orta-asya	0911-01-01	1209-01-01	Koço (yazlık) · Beşbalık (kışlık)	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	bali-warmadewa	Bali Krallığı (Warmadewa Hanedanı)	krallik	guneydogu-asya	0914-01-01	1284-01-01	Bedulu–Pejeng yöresi	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	liao-hanedani	Liao Hanedanı (Kitan / Hıtay)	hanedanlik	dogu-asya	0916-01-01	1125-01-01	Shangjing (Linhuang) · beş başkent sistemi (Nanjing = Pekin dahil)	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	nan-ping-jingnan	Nan Ping (Jingnan) Krallığı	krallik	dogu-asya	0924-01-01	0963-01-01		hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	arles-kralligi	Burgonya (Arles) Krallığı	krallik	bati-avrupa	0933-01-01	1032-09-06	Arles / Vienne	hayir	0	1–999	Avrupa
+noktasiz-kunye(ad-adayi)	guney-tang	Güney Tang (Nan Tang) Krallığı	krallik	dogu-asya	0937-01-01	0975-01-01		hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	bati-calukya	Batı Çalukya (Kalyani Çalukyaları)	hanedanlik	guney-asya	0973-01-01	1189-01-01	Manyakheta → Kalyani	hayir	0	1–999	Asya
+noktasiz-kunye(ad-adayi)	norse-gronland	Norse Grönland (Vestribygð–Eystribygð)	devlet	kuzey-amerika	0985-01-01	1450-01-01		hayir	0	1–999	K.Amerika
+noktasiz-kunye(ad-adayi)	gane	Gāne (Gana) Devleti	devlet	bati-afrika	1000-01-01	1076-01-01	Gāne (Kumbîsâlih harabeleri sanılıyor)	hayir	0	1000–1280	Afrika
+noktasiz-kunye(ad-adayi)	tekrur-kralligi	Tekrûr Krallığı (Senegal vadisi)	krallik	bati-afrika	1000-01-01	1281-01-01	Tekrûr	hayir	0	1000–1280	Afrika
+noktasiz-kunye(ad-adayi)	guge	Guge Krallığı (Batı Tibet)	krallik	dogu-asya	1000-01-01	1630-01-01	Tsaparang · Tholing	hayir	0	1000–1280	Asya
+noktasiz-kunye(ad-adayi)	paramara	Paramâra Hanedanı (Mâlva)	hanedanlik	guney-asya	1000-01-01	1305-01-01	Dhâr · Ujjain	hayir	0	1000–1280	Asya
+noktasiz-kunye(ad-adayi)	candela	Çandela (Candella) Hanedanı — Bundelkhand	hanedanlik	guney-asya	1000-01-01	1203-01-01	Khajuraho → Mahoba · Kâlincar	hayir	0	1000–1280	Asya
+noktasiz-kunye(ad-adayi)	gurjara-pratihara	Gürcara-Pratihâra Hanedanı (Kannauj)	hanedanlik	guney-asya	1000-01-01	1027-01-01	Kannauj	hayir	0	1000–1280	Asya
+noktasiz-kunye(ad-adayi)	tsongkha	Tsongkha (Qingtang, Gusiluo) Krallığı	krallik	dogu-asya	1008-01-01	1104-01-01	Qingtang (1032'den; önce Kuozhou)	hayir	0	1000–1280	Asya
+noktasiz-kunye(ad-adayi)	kahuripan	Kahuripan Krallığı (Airlangga, Doğu Cava)	krallik	guneydogu-asya	1019-01-01	1042-01-01	Kahuripan	hayir	0	1000–1280	Asya
+noktasiz-kunye(ad-adayi)	duklja	Duklja (Zeta) Prensliği/Krallığı	krallik	balkanlar	1036-01-01	1186-01-01	bulunamadı (kaynak başkent adı vermez; HE: merkez Skadar gölü çevresi kıyı bölgesi, 1089'dan metropolitlik Bar'da)	hayir	0	1000–1280	Avrupa
+noktasiz-kunye(ad-adayi)	zaragoza-hudiler	Hûdîler (Saragosa Taifası)	taifa-emirligi	iberya	1039-01-01	1110-01-01	Saragosa	hayir	0	1000–1280	Avrupa
+noktasiz-kunye(ad-adayi)	kediri	Kediri (Panjalu) Krallığı (Doğu Cava)	krallik	guneydogu-asya	1042-01-01	1222-01-01	Daha (Kediri)	hayir	0	1000–1280	Asya
+noktasiz-kunye(ad-adayi)	kipcak	Kıpçaklar (Kumanlar) — Deşt-i Kıpçak	boylar-birligi	sibirya-bozkir	1054-01-01	1239-01-01	yok (başbuğ yurtları: Orta Asya, İtil-Yayık, Don-Donets, Aşağı Dinyeper, Tuna)	hayir	0	1000–1280	Asya
+noktasiz-kunye(ad-adayi)	pereyaslavl-knezligi	Pereyaslavl (Güney) Knezliği	knezlik	dogu-avrupa	1054-01-01	1239-03-03	Pereyaslavl	hayir	0	1000–1280	Avrupa
+noktasiz-kunye(ad-adayi)	arborea	Arborea Yargıçlığı (Sardinya)	krallik	italya	1070-01-01	1410-01-01		hayir	0	1000–1280	Avrupa
+noktasiz-kunye(ad-adayi)	susu-kralligi	Susu (Sosso) Krallığı	krallik	bati-afrika	1076-01-01	1235-01-01	Susu (yeri kaynakta yok)	hayir	0	1000–1280	Afrika
+noktasiz-kunye(ad-adayi)	gahadavala	Gâhadavâla Hanedanı (Kannauj-Varanasi)	hanedanlik	guney-asya	1089-01-01	1197-01-01	Kannauj · Varanasi	hayir	0	1000–1280	Asya
+noktasiz-kunye(ad-adayi)	ahlatsahlar	Ahlatşahlar (Sökmenliler, Şâh-i Ermenler)	beylik	anadolu	1100-01-01	1208-01-01	Ahlat	hayir	0	1000–1280	Asya
+noktasiz-kunye(ad-adayi)	zengi-halep	Zengîler (Halep kolu – Nûreddin Mahmud)	atabeglik	suriye-filistin	1146-01-01	1183-06-12	Halep (1154'ten sonra Dımaşk da)	hayir	0	1000–1280	Asya
+noktasiz-kunye(ad-adayi)	maldivler-sultanligi	Maldiv Sultanlığı (İngiliz himayesi 1887-1965)	sultanlik	guney-asya	1153-01-01	1968-11-11	Malé	hayir	0	1000–1280	Asya
+noktasiz-kunye(ad-adayi)	rapa-nui	Rapa Nui (Paskalya Adası) Soyları	devlet	okyanusya	1200-01-01	1888-09-09	Anakena	hayir	0	1000–1280	Okyanusya
+noktasiz-kunye(ad-adayi)	braunschweig-luneburg-dukaligi	Braunschweig-Lüneburg Dükalığı (Welf)	dukalik	orta-avrupa	1235-01-01	1692-03-22	Braunschweig	hayir	0	1000–1280	Avrupa
+noktasiz-kunye(ad-adayi)	beloozero-knezligi	Beloozero Knezliği	knezlik	dogu-avrupa	1238-01-01	1389-01-01	Beloozero	hayir	0	1000–1280	Avrupa
+noktasiz-kunye(ad-adayi)	evfat	Evfât (İfat) Emirliği	devlet	dogu-afrika	1285-01-01	1415-01-01	— (TDV'de şehir adı belirtilmemiş)	hayir	0	1281–1923	Afrika
+noktasiz-kunye(ad-adayi)	bali-kralliklari-pejeng	Bali Pejeng Krallığı	krallik	guneydogu-asya	1292-01-01	1343-01-01		hayir	0	1281–1923	Asya
+noktasiz-kunye(ad-adayi)	nijni-novgorod-suzdal	Suzdal-Nijni Novgorod Büyük Knezliği	knezlik	dogu-avrupa	1341-01-01	1392-01-01	Nijni Novgorod	hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	vidin-carligi	Vidin Çarlığı (İvan Sracimir)	prenslik	balkanlar	1360-01-01	1396-09-25		hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	brandenburg-prusya	Brandenburg Elektörlüğü (Hohenzollern)	prenslik	orta-avrupa	1415-01-01	1701-01-18	Berlin-Cölln	hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	musasa	Müşa'şa'îler (Hüveyze, Arabistan/Huzistan)	emirlik	iran	1441-02-01		Hüveyze	hayir	0	1281–1923	Asya
+noktasiz-kunye(ad-adayi)	sirbistan-eyaleti	Osmanlı Sırbistan'ı (Doğrudan İdare Dönemi)	eyalet	balkanlar	1459-06-20	1804-02-14		hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	abhazya-prensligi	Abhazya (Şervaşidze / Çaçba) Prensliği	prenslik	kafkasya	1463-01-01	1864-01-01		hayir	0	1281–1923	Asya
+noktasiz-kunye(ad-adayi)	svaneti	Svaneti Prensliği	prenslik	kafkasya	1463-01-01	1858-01-01	Mestia	hayir	0	1281–1923	Asya
+noktasiz-kunye(ad-adayi)	bosna-eyaleti	Osmanlı Bosna'sı (sancak → 1580 eyalet → 1866 vilâyet)	eyalet	balkanlar	1463-06-01	1878-07-29		hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	kartli-kralligi	Kartli Krallığı (1762'den Kartli-Kaheti)	krallik	kafkasya	1484-01-01	1801-09-12		hayir	0	1281–1923	Asya
+noktasiz-kunye(ad-adayi)	guria-prensligi	Guria (Güryel) Prensliği	prenslik	kafkasya	1508-01-01	1829-01-01		hayir	0	1281–1923	Asya
+noktasiz-kunye(ad-adayi)	arnavutluk-osmanli	Osmanlı Arnavutluğu (İşkodra/Yanya/Manastır/Kosova sancak ve vilâyetleri)	eyalet	balkanlar	1537-08-25	1912-11-28		hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	kurland-dukaligi	Kurland ve Semigallia Dükalığı	dukalik-polonya-litvanya-vasali	dogu-avrupa	1561-11-28	1795-03-28	Mitau (Jelgava)	hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	sabah-emirligi	Sabah Emirliği (Kuveyt)		arabistan	1795-04-01	1914-11-22		hayir	0	1281–1923	Asya
+noktasiz-kunye(ad-adayi)	berg-buyuk-dukaligi	Berg Büyük Dükalığı	vasal-buyuk-dukalik	orta-avrupa	1806-03-15	1813-11-01	Düsseldorf	hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	nassau	Nassau Dükalığı	dukalik	orta-avrupa	1806-08-30	1866-10-03	Wiesbaden	hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	mecklenburg-strelitz	Mecklenburg-Strelitz (Büyük Dükalık)	buyuk-dukalik	orta-avrupa	1815-01-01	1934-01-01	Neustrelitz	hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	saksonya-weimar	Saxe-Weimar-Eisenach (Büyük Dükalık)	buyuk-dukalik	orta-avrupa	1815-01-01	1920-05-01	Weimar	hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	ingiliz-hondurasi	İngiliz Hondurası (Belize)		orta-amerika-karayip	1862-01-01	1981-09-21	Belize	hayir	0	1281–1923	K.Amerika
+noktasiz-kunye(ad-adayi)	sani-emirligi	Âl-i Sânî Emirliği (Katar)		arabistan	1871-09-20	1913-07-29		hayir	0	1281–1923	Asya
+noktasiz-kunye(ad-adayi)	ukrayna-halk-cumhuriyeti	Ukrayna Halk Cumhuriyeti	cumhuriyet	dogu-avrupa	1917-11-20	1920-11-21		hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	bati-ukrayna-halk-cumhuriyeti	Batı Ukrayna Halk Cumhuriyeti	cumhuriyet	dogu-avrupa	1918-11-01	1919-07-17	Lviv → Stanislaviv	hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	guney-rusya-beyaz	Güney Rusya Silahlı Kuvvetleri ve Hükûmeti (Denikin → Wrangel)	beyaz-hareket-devleti	dogu-avrupa	1919-01-08	1920-11-14	Ekaterinodar → Sivastopol	hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	macar-sovyet-cumhuriyeti	Macar Sovyet Cumhuriyeti	devrim-devleti	orta-avrupa	1919-03-21	1919-08-01	Budapeşte	hayir	0	1281–1923	Avrupa
+noktasiz-kunye(ad-adayi)	harezm-halk-cumhuriyeti	Harezm Halk Sovyet Cumhuriyeti		orta-asya	1920-04-26	1924-01-01		hayir	0	1281–1923	Asya
+noktasiz-kunye(ad-adayi)	birlesik-arap-devletleri	Birleşik Arap Devletleri (BAC + Yemen Mütevekkilî Krallığı)	devlet	arabistan	1958-03-08	1961-12-26	Kahire	hayir	0	1924+	Asya
+noktasiz-kunye(ad-adayi)	untea	UNTEA (BM Geçici İdaresi, Batı Yeni Gine)	vesayet	okyanusya	1962-10-01	1963-05-01	Hollandia	hayir	0	1924+	Okyanusya
