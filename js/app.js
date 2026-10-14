@@ -12507,6 +12507,7 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_antlasma7",   // window.EKOKUMA_ANTLASMA7 — hüküm kartı olmayan Osmanlı-taraflı antlaşmalar (ANT-KART)
   "ekokuma_antlasma8",   // window.EKOKUMA_ANTLASMA8 — TDV gövdesinden Yemen-Zeydî, Dagno/Gaeta, Bardo, Gence vb. (ANT-2)
   "ekokuma_tabi",        // window.EKOKUMA_TABI — tâbi devletler tutumu (0054/H-0006) + Küçük Kaynarca skandal mı (0066/H-0009)
+  "ekokuma_savas1700",   // window.EKOKUMA_SAVAS1700 — 1700-1923 kartsız savaş maddeleri (KUTU-G2-1014, 0045/H-0007)
   "ekokuma_fetihkitapcik", // window.EKOKUMA_FETIHKITAPCIK — İstanbul fethi kitapçığı (0080/H-0027); tek alt çizgi, _ekHavuz regex'i için
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız

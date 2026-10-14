@@ -262,7 +262,7 @@ window.EKOKUMA_DUNYA = [
   sonuc:"Silahlar 31 Ocak 1878 Edirne Mütarekesi'yle sustu, 3 Mart 1878'de Ayastefanos (San Stefano) Antlaşması imzalandı: geniş sınırlı bir \"Büyük Bulgaristan Emâreti\" kuruldu, Sırbistan-Karadağ-Romanya'nın bağımsızlığı ilk kez resmen tanındı, Erzurum dahil geniş bir Doğu Anadolu toprağı Rusya'ya bırakıldı ve Osmanlı Rusya'ya 802.500.000 frank savaş tazminatı ödemeyi kabul etti. Savaşın insani bedeli ağırdı: Bulgaristan'dan ve Kafkasya'dan kaçan yüz binlerce Müslüman muhacir İstanbul'a ve Anadolu'ya sığındı. İngiltere, Rusya'nın bu kadar genişlemesinden rahatsız olup ağır hükümleri hafifletmek için diplomatik baskı yaptı — karşılığında Kıbrıs'ın yönetimini kendisine aldı; ağır hükümlerin bir kısmı birkaç ay sonra Berlin Kongresi'nde (1878) yeniden düzenlendi.",
   tartisma:"Bu kartta yalnız Ayastefanos'un ilk hükümleri anlatıldı; Berlin Antlaşması'nın Ayastefanos'u ne ölçüde değiştirdiği (Büyük Bulgaristan'ın küçültülmesi gibi) ayrıca doğrulanmadı, TDV'nin okunan gövdesi bu ayrıntıyı vermiyor.",
   kesinlik:"kesin",
-  olay:["1878-01-31","1878-03-03|Ayastefanos"],
+  olay:["1877-04|93 Harbi","1878-01-31","1878-03-03|Ayastefanos"],
   kaynak:"TDV: doksanuc-harbi (gövde okundu)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 

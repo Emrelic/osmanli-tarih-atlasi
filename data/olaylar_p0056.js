@@ -174,4 +174,17 @@ window.OLAYLAR_P0056 = [
   kaynak:"TDV silistre: 'Ruslar 1836'ya kadar Silistre'yi ellerinde tuttular' · 'Rus askerlerinin şehri boşaltmasının ardından Vali Selim Paşa'",
   duygu:["📌"] },
 
+// ── 1853 · Prut geçişi ───────────────────────────────────────────────
+// KUTU-G2-1014 (0035/H-0090): savaş ilanından (1853-10-04) üç ay önce, ilansız işgal.
+{ t:"1853-07-03", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+  b:"Rus ordusunun Prut'u geçip Memleketeyn'i (Eflak-Boğdan) işgale başlaması — Kırım Savaşı'na giden yol",
+  gun:"3 Temmuz 1853 (Jülyen 21 Haziran)",
+  yer:"Prut — Besarabya ile Boğdan arasındaki sınır",
+  yer_id:"Yaş",
+  kisiler:"Prens Mihail Gorçakov, General Anrep-Elmpt, I. Nikola",
+  d:"Kudüs'teki kutsal yerler anlaşmazlığında Menşikov'un istekleri Bâbıâli'ce reddedilince Çar I. Nikola, Osmanlı'ya bağlı Tuna beyliklerinin 'Türkiye haklı taleplerimizi karşılayana dek rehin olarak' işgalini emretti. Prens Gorçakov komutasındaki ordunun öncüsü Prut'u geçti ve on iki gün sonra Bükreş'e girdi; arkasından ana kuvvet üç kol hâlinde beyliklere yayıldı. Savaş ilan edilmeden yapılan bu işgal Avrupa'da diplomatik krize, Ekim 1853'te de Osmanlı'nın savaş ilanına yol açtı; Ruslar beylikleri ancak 1854 yazında Avusturya'nın baskısıyla boşalttı.",
+  ic_not_gun:"Военная энциклопедия (Sytin, 1911-1915) «Восточная война 1853—56 гг.» (ru.wikisource ВЭ/ВТ): '21 июня авангард армии … под нач. г.-ад. гр. Анрепа-Эльмпта, переправился через Прут и 3 июля вступил в Бухарест' — Jülyen, +12 ⇒ 3 Temmuz 1853 G (Bükreş: 15 Temmuz G). ESBE «Восточная война» işgal emrini ('в залог') verir, gün vermez. TDV (abdulmecid · memleketeyn · paris-antlasmasi) gün vermez (KUTU-COZUM-1014 ölçümü). Candan Badem, The Ottomans and the Crimean War (1853-1856), doktora tezi, Sabancı Üniv. 2007, s. 78: 'On 2 July the Russian armies … crossed the river Pruth' (takvim belirtilmez; haber Bâbıâli'ye 7 Temmuz'da ulaştı) — bir günlük fark, çözülmedi; öncünün geçişi için Sytin'in Jülyen günü esas alındı. Haritada Memleketeyn için 1853 isg modellenmedi — madde haritada kırılma taşımaz.",
+  kaynak:"Военная энциклопедия (Sytin, 1911-1915), «Восточная война 1853—56 гг.» (ru.wikisource): '21 июня авангард армии … переправился через Прут и 3 июля вступил в Бухарест' · ESBE «Восточная война»: 'приказал русским войскам (80 тыс.) занять … дунайские княжества … «в залог»'",
+  duygu:["⚔️"] },
+
 ];
