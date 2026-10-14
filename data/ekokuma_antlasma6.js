@@ -136,7 +136,7 @@ window.EKOKUMA_ANTLASMA6 = [
   metin:"Nihaî Senet, ayrı ayrı yapılmış bütün antlaşmaları tek bir belgede toplayarak 9 Haziran 1815'te, Waterloo Muharebesi'nden birkaç gün önce imzalandı. Kongrenin kurduğu düzen Avrupa'da 1848'e kadar sürdü; o yılın mart, mayıs ve özellikle ekim aylarında patlayan ayaklanmalar Viyana Kongresi'yle başlayan baskıcı restorasyon dönemini sona erdirdi ve Viyana bu gelişmelerden birinci derecede etkilendi.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1815-06-09|Viyana"],
+  olay:["1815-06-09|Viyana", "1815-06-09|Ren Eyaleti"],
   kaynak:"BU KARTIN BİRİNCİL KAYNAĞI TDV DEĞİLDİR — TDV İslâm Ansiklopedisi'nde Viyana Kongresi'nin müstakil maddesi yoktur (`viyana-kongresi` slug'ı 302 döner) ve 'VİYANA' maddesi kongreyi yalnız yıl düzeyinde anar. Kullanılanlar: ① TDV İslâm Ansiklopedisi, 'VİYANA' ('Napolyon'un hükümranlığının çökmesinin ardından Viyana'da Avrupa'yı yeniden düzene sokacak büyük kongre toplandı (1814-1815) ve şehir yeni muhafazakâr dönemin (restorasyon) siyasî merkezi haline geldi'; 1848 ayaklanmalarının restorasyon dönemini sona erdirmesi) — yıl ve dönem çerçevesi buradan. ② 1911 Encyclopædia Britannica, 'Vienna, Congress of' (Wikisource neşri, KAMU MALI): 'The Final Act, embodying all the separate treaties, was signed on the 9th of June 1815, a few days before the battle of Waterloo'; kongrenin 1814 sonbaharına ertelenmesi; Polonya, Saksonya, Hollanda, İtalya, İsviçre ve Prusya'nın Ren kazanımlarına dair hükümler — GÜN ve hükümler buradan.",
   ic_not:"Kaynak ② 1911 tarihlidir, güncel literatürle bu turda karşılaştırılmamıştır; emsali `data/ekokuma_antlasma5.js`teki aynı yöntemdir. Osmanlı Devleti kongreye taraf değildi; kartın son cümlesindeki 'Avrupa ahengi' çerçevelemesi bir tarih iddiası değil, okura verilen bağlamdır." },
 
@@ -234,7 +234,7 @@ window.EKOKUMA_ANTLASMA6 = [
   metin:"Antlaşmanın Bulgaristan'daki müslüman azınlık bakımından bir devamı vardır: ülkedeki dinî hayat ve vakıflar üç belgeyle tesbit edilmiştir — 1909 tarihli İstanbul protokolü, onu tâdil edip yenilikler getiren 1913 tarihli protokol ve 1919'da kabul edilen Bulgaristan Müslümanları Müessesât-ı Dîniyye İdare ve Teşkilâtı Nizamnâmesi. Yani savaşın kapanış yılı, sınırların yanında cemaat hukukunun da yeniden yazıldığı yıldır.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1919-11-27|Neuilly"],
+  olay:["1919-11-27|Neuilly", "1920-01-01|Neuilly"],
   kaynak:"TDV İslâm Ansiklopedisi, 'BULGARİSTAN' ('Savaşı sona erdiren Neully Antlaşması'yla (27 Kasım 1919) Bulgaristan Sırplar lehine belirli bir stratejik toprak kaybına uğramış, Batı Trakya'nın tamamını kaybetmiş, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kalmış ve Güney Dobruca'yı Romanya'ya veren Bükreş Barış Antlaşması hükümlerini de onaylamıştır'; 5 Ekim 1908 bağımsızlık ilânı ve Ferdinand'ın Balkan ittifakındaki rolü; 1909 İstanbul protokolü, 1913 protokolü ve 1919 nizamnâmesi) · TDV İslâm Ansiklopedisi, 'BİRİNCİ DÜNYA SAVAŞI' (Bulgaristan'ın mütareke imzalayarak çekilmesi ve bunun Osmanlı hükümetini mütarekeye zorlaması; 30 Ekim 1918 Mondros)",
   ic_not:"🔴 TDV ARAMA TUZAĞI (D211): TDV 'BULGARİSTAN' maddesi antlaşmanın adını 'Neully' diye yazıyor; sitede 'Neuilly' araması bu maddede SONUÇ VERMEZ ve `neuilly` slug'ı 302'dir (ölü). Kart okura doğru imlâ ile gelir, alıntı kaynak alanında TDV'nin yazdığı gibi durur. Mütarekenin günü (29 Eylül 1918) TDV'nin bu iki maddesinde geçmez; `sebep.t` alanına yazılan gün genel kabul gören tarihtir ve TDV ile DOĞRULANMADI — kartın metninde gün olarak iddia edilmedi." },
 

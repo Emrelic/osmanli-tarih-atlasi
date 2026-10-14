@@ -91,7 +91,7 @@ window.EKOKUMA_ANTLASMA5 = [
   metin:"Fransa ile İmparatorluk savaşı bir süre daha sürdü: Prens Eugène ile Mareşal Villars 7 Mart 1714'te Rastatt'ta, İmparatorluk prensleri 7 Eylül 1714'te Baden'de barış yaptı; Baden, Utrecht barış düzeninin son antlaşmasıdır ve Fransa Landau'yu kazandı. İspanya-Hollanda barışı 26 Haziran 1714'te imzalandı. Hollanda'ya karşı Fransa'dan korunma sağlayan 'bariyer' kaleleri 1715 Anvers antlaşmasıyla kesinleşti. İngiltere'de Whig'ler antlaşmayı ağır biçimde eleştirdi; I. George'un tahta çıkmasından sonra Bolingbroke, Oxford, Ormonde ve Strafford bu barışı yaptıkları için suçlandı. İspanya için Avusturya'nın Charles'ını destekleyen Katalanların İngiltere'nin koruma vaadine rağmen V. Philippe'in intikamına bırakılması da unutulmadı.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1713-04-11|Utrecht","1713-07-13|Utrecht"],
+  olay:["1713-04-11|Utrecht","1713-07-13|Utrecht", "1714-03-07|Rastatt"],
   kaynak:"1911 Encyclopædia Britannica, 'Utrecht, Treaty of' (barış teklifleri, 1710-1711 değişimi, Londra ön şartları, kongre ve temsilciler, 10 Temmuz 1712 feragati, antlaşmaların hükümleri, Rastatt, Baden, bariyer antlaşmaları, önem değerlendirmesi; kaynakçası: Actes, mémoires… de la paix d'Utrecht 1714-1715; O. Weber, Der Friede von Utrecht) — Wikisource neşri, kamu malı",
   ic_not:"Kaynak 1911 tarihli. TDV'de müstakil madde yok (utrecht 302). Çekirdekte iki madde var: kronoloji_fransa 1713-04-11 (İngiltere-Fransa) ve kronoloji_ispanya 1713-07-13 (İngiltere-İspanya); ikisi de aynı kaynakla uyumlu, kart ikisine bağlandı." },
 
@@ -113,7 +113,7 @@ window.EKOKUMA_ANTLASMA5 = [
   metin:"Britanya'nın Karayiplerdeki tavizleri kısmen, Avusturya ile Prusya arasındaki Hubertusburg barışı (15 Şubat 1763) yapılana kadar Fransa'nın işgal ettiği Batı Almanya'daki Prusya topraklarını boşaltmasını sağlamak içindi. İngiliz kamuoyunun gürültülü bir kesimi ise kârlı Karayip adalarını elde tutmayı ya da onların yerine Kanada'yı geri vermeyi tercih ederdi.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1763-02-10|Paris"],
+  olay:["1763-02-10|Paris", "1762-11-03|Fontainebleau"],
   kaynak:"Encyclopaedia Britannica, 'Treaty of Paris (1763)' (taraflar, 10 Şubat 1763, hükümler, Hubertusburg bağlantısı, İngiliz kamuoyu) · TDV: ingiltere (İngiliz-Fransız rekabeti, Yedi Yıl Savaşı'ndaki kesin üstünlük, Bengal 1757, Pondichéry 1760, Kuzey Amerika kaleleri) · antlaşma metni: The Avalon Project, 'Treaty of Paris 1763' (çekildi; kart Britannica özetine dayanıyor)",
   ic_not:"Britannica'nın bu sayfası curl ile 200 döndü ve okundu. Avalon metni 43.000 karakter; madde madde karşılaştırma bu turda YAPILMADI." },
 

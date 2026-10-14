@@ -41,8 +41,30 @@ window.ANTLASMA_HARITALARI = [
   antlasma_ad: "Karlofça",
   tarih: "1699-01-26",
   bolgeler: [
+    // KUTU-H4-1015 (0054/H-0020): "Karlofça'da poligon yok" — sinir_id kayıtlarının dolgusu
+    // 23 Eylül'de kapatıldığı için (hukuki_sinirlar.js) bu antlaşma haritada yalnız noktaydı.
+    // Macaristan-Erdel çekirdeği, TDV karlofca'nın "Temeşvar hariç Erdel dahil bütün Macaristan
+    // Avusturya'da kaldı" hükmünden, atlastaki yerleşim koordinatlarıyla zarf olarak çizilir.
+    { taraf: "habsburg", etiket: "Avusturya'da kalan (Temeşvar hariç Erdel dahil Macaristan)", zarf: true, noktalar: [
+        { ad: "Budin", lat: 47.498, lon: 19.040,
+          kaynak: "TDV karlofca: Temeşvar dışında Erdel dahil bütün Macaristan Avusturya'da kaldı — Budin Macaristan'ın merkezi olarak TEMSİLÎ nokta (metin şehir saymaz); koordinat data/yerlesimler.js" },
+        { ad: "Eğri", lat: 47.902, lon: 20.377,
+          kaynak: "TDV karlofca (aynı hüküm) — kuzey Macaristan'ın TEMSİLÎ noktası; koordinat data/yerlesimler.js" },
+        { ad: "Varad (Oradea)", lat: 47.053, lon: 21.941,
+          kaynak: "TDV karlofca (aynı hüküm) — Tisa doğusu Macaristan'ın TEMSİLÎ noktası; koordinat data/yerlesimler.js" },
+        { ad: "Erdel (Kaloşvar)", lat: 46.770, lon: 23.591,
+          kaynak: "TDV karlofca: \"Erdel dahil\" — Erdel'in TEMSİLÎ noktası; koordinat data/yerlesimler.js" },
+        { ad: "Erdel Belgradı (Gyulafehérvár)", lat: 46.0678, lon: 23.5800,
+          kaynak: "TDV karlofca: \"Erdel dahil\" — Erdel prensliğinin merkezi, TEMSİLÎ nokta; koordinat data/yerlesimler_ek29.js" },
+        { ad: "Segedin (Szeged)", lat: 46.253, lon: 20.148,
+          kaynak: "TDV karlofca (aynı hüküm) — Tisa kıyısındaki güney Macaristan noktası, TEMSİLÎ; Temeşvar (Osmanlı'da kalan) bunun doğusunda kalır; koordinat data/yerlesimler.js" }
+    ] },
     { taraf: "habsburg", etiket: "Avusturya'ya bırakılan",
       sinir_id: ["karlofca-bosna-sava-1699", "karlofca-bosna-kaleler-1699"] },
+    { taraf: "osmanli", etiket: "Osmanlı'da kalan (Temeşvar/Banat)", noktalar: [
+        { ad: "Temeşvar", lat: 45.760, lon: 21.230,
+          kaynak: "TDV karlofca: Temeşvar (Tımışvar) Osmanlı'da kaldı; koordinat data/yerlesimler.js" }
+    ] },
     { taraf: "lehistan", etiket: "Lehistan'a bırakılan",
       sinir_id: ["karlofca-lehistan-1699"] },
     { taraf: "venedik", etiket: "Venedik'e bırakılan",
@@ -1282,4 +1304,112 @@ window.ANTLASMA_HARITALARI = [
   not: "İstanbul ve Boğazlar barış antlaşmasıyla teslim edilecekti; mütareke metni bunu toprak devri olarak değil sonraki barışa bırakılan bir hüküm olarak verir — noktalanmadı."
 }
 // <<< KUTU-G3-1014 BITTI
+
+,
+// >>> KUTU-H4-1015 (0054/H-0020, üçüncü parti) — Londra 1913 · Sevr 1920 · Kars 1921 · Lozan 1923 ·
+// Edirne 1713. Yöntem G3 partisiyle aynı: nokta = atlastaki yerleşimin kendi koordinatı; `kaynak` =
+// yeri ADIYLA anan TDV maddesi (15 Ekim 2026'da GET ile okundu). Metin bir BÖLGE diyor da şehir
+// saymıyorsa seçilen şehir "TEMSİLÎ" diye yazılır (Pasarofça emsali). Atlasta yerleşimi olmayan
+// yer (Kırkağaç, Akhisar, Ödemiş, Karaağaç) çizilmedi.
+{
+  id: "londra-1913",
+  antlasma_ad: "Londra Antlaşması",
+  tarih: "1913-05-30",
+  bolgeler: [
+    { taraf: "bulgaristan-kralligi", etiket: "Midye-Enez batısı — Bulgaristan'a", noktalar: [
+        { ad: "Edirne", lat: 41.677, lon: 26.556,
+          kaynak: "TDV balkan-savasi: Edirne 26 Mart 1913'te Bulgarlar'a düştü; Londra Antlaşması'yla Midye-Enez hattı Osmanlı-Bulgar sınırı oldu (Edirne 21 Temmuz 1913'te geri alındı)" },
+        { ad: "Kırklareli", lat: 41.735, lon: 27.225,
+          kaynak: "TDV balkan-savasi: Midye-Enez hattı Osmanlı-Bulgar sınırı — Kırklareli hattın batısındaki Trakya'nın TEMSİLÎ noktası (metin şehri adlandırmaz)" }
+    ] },
+    { taraf: "yunanistan", etiket: "Yunanistan'a (Selanik, Güney Makedonya, Girit)", noktalar: [
+        { ad: "Selanik", lat: 40.640, lon: 22.944, kaynak: "TDV balkan-savasi: Londra Antlaşması'yla Selanik, Güney Makedonya ve Girit Yunanistan'a" },
+        { ad: "Hanya", lat: 35.512, lon: 24.019, kaynak: "TDV balkan-savasi: Girit Yunanistan'a — Hanya adanın TEMSİLÎ noktası" },
+        { ad: "Kandiye (Girit)", lat: 35.339, lon: 25.133, kaynak: "TDV balkan-savasi: Girit Yunanistan'a — Kandiye adanın TEMSİLÎ noktası" }
+    ] },
+    { taraf: "sirbistan-kralligi", etiket: "Sırbistan'a (Kuzey ve Orta Makedonya)", noktalar: [
+        { ad: "Üsküp", lat: 41.997, lon: 21.428, kaynak: "TDV balkan-savasi: Kuzey ve Orta Makedonya Sırbistan'a — Üsküp TEMSİLÎ nokta" },
+        { ad: "Manastır", lat: 41.031, lon: 21.335, kaynak: "TDV balkan-savasi: Kuzey ve Orta Makedonya Sırbistan'a; Manastır'ın Sırp işgali kronolojide 18 Kasım 1912 (data/olaylar_2s_0920.js)" }
+    ] }
+  ],
+  not: "Arnavutluk'un sınırları ve Ege adalarının akıbeti antlaşmada büyük devletlere bırakıldı — noktalanmadı (İşkodra Karadağ işgalindeydi ama Arnavutluk'a kaldı). Müttefikler arası paylaşım Londra'da değil sonraki Bükreş (10 Ağustos 1913) ile kesinleşti; renkler TDV'nin Londra özetindeki paya göredir."
+},
+{
+  id: "sevr-1920",
+  antlasma_ad: "Sevr Antlaşması",
+  tarih: "1920-08-10",
+  bolgeler: [
+    { taraf: "yunanistan", etiket: "Yunan yönetimine (İzmir bölgesi, egemenlik Osmanlı'da)", zarf: true, noktalar: [
+        { ad: "İzmir", lat: 38.419, lon: 27.129, kaynak: "TDV sevr-antlasmasi md. 65-83: İzmir ili ve Kırkağaç, Akhisar, Tire, Ödemiş, Söke ilçelerinde resmî egemenlik Osmanlı'da, yönetim Yunanistan'da; beş yıl sonra katılma hakkı" },
+        { ad: "Tire", lat: 38.089, lon: 27.735, kaynak: "TDV sevr-antlasmasi md. 65-83 (aynı hüküm, Tire adıyla)" },
+        { ad: "Söke", lat: 37.751, lon: 27.408, kaynak: "TDV sevr-antlasmasi md. 65-83 (aynı hüküm, Söke adıyla)" }
+    ] },
+    { taraf: "yunanistan", etiket: "Yunanistan'a (Çatalca hattının batısı)", noktalar: [
+        { ad: "Edirne", lat: 41.677, lon: 26.556, kaynak: "TDV sevr-antlasmasi md. 84-87: Türkiye Istıranca-Çatalca hattının batısındaki haklarından vazgeçti — Edirne TEMSİLÎ nokta (metin şehir saymaz)" },
+        { ad: "Kırklareli", lat: 41.735, lon: 27.225, kaynak: "TDV sevr-antlasmasi md. 84-87 (aynı hüküm) — TEMSİLÎ nokta" }
+    ] },
+    { taraf: "osmanli", etiket: "Boğazlar Komisyonu yönetimine (egemenlik Osmanlı'da)", zarf: true, noktalar: [
+        { ad: "Gelibolu", lat: 40.4156, lon: 26.6636, kaynak: "TDV sevr-antlasmasi md. 37-61: Gelibolu, Tekirdağ, İzmit, Bursa, Biga ve Edremit dahil Marmara kıyıları Osmanlı toprağı, yönetimi uluslararası Boğazlar Komisyonu'nda" },
+        { ad: "Tekirdağ", lat: 40.9838, lon: 27.5084, kaynak: "TDV sevr-antlasmasi md. 37-61 (aynı hüküm, adıyla)" },
+        { ad: "İzmit", lat: 40.766, lon: 29.917, kaynak: "TDV sevr-antlasmasi md. 37-61 (aynı hüküm, adıyla)" },
+        { ad: "Bursa", lat: 40.188, lon: 29.061, kaynak: "TDV sevr-antlasmasi md. 37-61 (aynı hüküm, adıyla)" },
+        { ad: "Biga", lat: 40.228, lon: 27.243, kaynak: "TDV sevr-antlasmasi md. 37-61 (aynı hüküm, adıyla)" },
+        { ad: "Edremit", lat: 39.596, lon: 27.024, kaynak: "TDV sevr-antlasmasi md. 37-61 (aynı hüküm, adıyla)" }
+    ] }
+  ],
+  not: "Kırkağaç, Akhisar ve Ödemiş atlasta yerleşim olarak yok — zarf İzmir-Tire-Söke çekirdeğidir, gerçek bölge daha geniş. Ermenistan (Wilson hakemliği, md. 88-93) ve Kürdistan özerkliği (md. 62-64) için kaynak yer saymadığından noktalanmadı; güney sınırı (Osmaniye-Antep-Urfa-Siverek-Mardin kuzeyi, md. 27) bir HAT tarifidir, bölge olarak çizilmedi. Sevr hiç yürürlüğe girmedi."
+},
+{
+  id: "kars-1921",
+  antlasma_ad: "Kars Antlaşması",
+  tarih: "1921-10-13",
+  bolgeler: [
+    { taraf: "tbmm-turkiye", etiket: "Türkiye'de kalan (Kars)", noktalar: [
+        { ad: "Kars", lat: 40.602, lon: 43.095, kaynak: "TDV kars: Moskova (16 Mart 1921) ve Kars (13 Ekim 1921) antlaşmalarıyla yapılan son sınır düzenlemesiyle Kars yeni Türk devletinin sınırları içinde kaldı" }
+    ] },
+    { taraf: "sovyet-rusya", etiket: "Azerbaycan SSC'ye özerk bölge (Nahçıvan)", noktalar: [
+        { ad: "Nahçıvan", lat: 39.209, lon: 45.412, kaynak: "TDV nahcivan: 1921'de Kars'ta Türkiye ile Kafkas cumhuriyetleri arasında imzalanan antlaşmayla Nahçıvan Azerbaycan SSC'nin özerk kısmı olarak tanındı" }
+    ] }
+  ],
+  not: "Kars, Moskova Antlaşması'nın doğu sınırını Kafkas cumhuriyetleriyle teyit eder; Artvin ve Ardahan'ın durumu TDV'de Moskova'ya bağlanır (bkz. moskova-1921 kaydı). Azerbaycan SSC'nin kendi künyesi olmadığından Sovyet rengiyle gösterildi."
+},
+{
+  id: "lozan-1923",
+  antlasma_ad: "Lozan Antlaşması",
+  tarih: "1923-07-24",
+  bolgeler: [
+    { taraf: "tbmm-turkiye", etiket: "Türkiye'de kalan adalar (İmroz, Bozcaada)", noktalar: [
+        { ad: "İmroz", lat: 40.163, lon: 25.905, kaynak: "TDV lozan-antlasmasi: Ege adalarından İmroz (Gökçeada), Bozcaada ve Tavşan adaları Türkiye'de kaldı" },
+        { ad: "Bozcaada", lat: 39.833, lon: 26.045, kaynak: "TDV lozan-antlasmasi (aynı hüküm, adıyla)" }
+    ] },
+    { taraf: "tbmm-turkiye", etiket: "Türkiye'de kalan Doğu Trakya (Meriç sınırı)", noktalar: [
+        { ad: "Edirne", lat: 41.677, lon: 26.556, kaynak: "TDV lozan-antlasmasi: Türk-Yunan sınırı Karaağaç Türkiye'de kalacak şekilde Meriç'in talveki — Edirne TEMSİLÎ nokta (Karaağaç atlasta yerleşim değil)" }
+    ] },
+    { taraf: "yunanistan", etiket: "Yunanistan'a bırakılan Ege adaları", noktalar: [
+        { ad: "Midilli", lat: 39.106, lon: 26.554, kaynak: "TDV lozan-antlasmasi: adı sayılan öteki Ege adaları Yunanistan'a; Midilli, Sakız, Sisam ve Nikarya'da üs ve istihkâm kurulamayacak" },
+        { ad: "Sakız", lat: 38.368, lon: 26.135, kaynak: "TDV lozan-antlasmasi (aynı hüküm, adıyla)" },
+        { ad: "Sisam", lat: 37.755, lon: 26.977, kaynak: "TDV lozan-antlasmasi (aynı hüküm, adıyla)" },
+        { ad: "Nikarya (İkarya)", lat: 37.600, lon: 26.150, kaynak: "TDV lozan-antlasmasi (aynı hüküm, adıyla)" }
+    ] },
+    { taraf: "italya", etiket: "İtalya'da kalan (Rodos ve Onikiada)", noktalar: [
+        { ad: "Rodos", lat: 36.443, lon: 28.226, kaynak: "TDV lozan-antlasmasi: Rodos ve Onikiada İtalyanlar'da kaldı" }
+    ] },
+    { taraf: "ingiltere", etiket: "İngiltere'de kalan (Kıbrıs)", noktalar: [
+        { ad: "Lefkoşa", lat: 35.170, lon: 33.360, kaynak: "TDV lozan-antlasmasi: Kıbrıs İngiltere'de kaldı — Lefkoşa adanın TEMSİLÎ noktası" }
+    ] }
+  ],
+  not: "Musul antlaşmada çözülmedi (md. 3: Türk-Irak sınırı dokuz ay içinde İngiltere ile belirlenecek) — noktalanmadı. Türk-Suriye sınırı 1921 Ankara İtilâfnâmesi'ne bırakıldı (bkz. ankara-itilafnamesi-1921). Boğazlar'ın silahtan arındırılması egemenlik devri olmadığından bölge çizilmedi."
+},
+{
+  id: "edirne-1713",
+  antlasma_ad: "Rusya ile Edirne Antlaşması",
+  tarih: "1713-06-24",
+  bolgeler: [
+    { taraf: "osmanli", etiket: "Osmanlı'da kalan (Prut şartlarının teyidi: Azak)", noktalar: [
+        { ad: "Azak", lat: 47.113, lon: 39.423, kaynak: "TDV prut-antlasmasi: Azak Kalesi topraklarıyla iade edilecekti; 24 Haziran 1713 Edirne Antlaşması Rusya'nın yeniden sıkıştırılmasıyla yapıldı · madde (olaylar_ek5.js, TDV ahmed-iii): antlaşma Prut şartlarını teyit etti" }
+    ] }
+  ],
+  not: "TDV (ahmed-iii, prut-antlasmasi, edirne-antlasmasi) 1713 antlaşmasının ayrı bir toprak/sınır hükmünü vermiyor; harita yalnız teyit edilen Prut hükmünü (Azak) gösterir. Rusya'nın Kazak topraklarından çekilmesi yer adı taşımadığından noktalanmadı."
+}
+// <<< KUTU-H4-1015 BITTI
 ];
