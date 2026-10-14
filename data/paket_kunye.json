@@ -558,18 +558,18 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "da3dfff57f6577e6",
-     "bayt": 997840
+     "sha": "b8055f8e225d319a",
+     "bayt": 1002667
     },
     {
      "yol": "data/yerlesimler_afrika.js",
-     "sha": "8f8a26b38c4169c6",
-     "bayt": 203490
+     "sha": "798111bdb2af3393",
+     "bayt": 204098
     },
     {
      "yol": "data/yerlesimler_avrupa.js",
-     "sha": "8d02f6bcfd3bf513",
-     "bayt": 107264
+     "sha": "c1cddff069ae67a0",
+     "bayt": 108030
     },
     {
      "yol": "data/yerlesimler_asya.js",
@@ -593,8 +593,8 @@
     },
     {
      "yol": "data/yerlesimler_seyrek.js",
-     "sha": "f63573c711568c21",
-     "bayt": 30401
+     "sha": "ad738780ddd4ed27",
+     "bayt": 30620
     },
     {
      "yol": "data/yerlesimler_ek2.js",
@@ -622,7 +622,7 @@
      "bayt": 9947
     }
    ],
-   "bayt": 1787537
+   "bayt": 1793957
   },
   {
    "paket": "data/paket_14.js",
@@ -749,8 +749,8 @@
     },
     {
      "yol": "data/yerlesimler_ek24.js",
-     "sha": "82a4d31869c8c27f",
-     "bayt": 24183
+     "sha": "882aa9e4dd1f6bf0",
+     "bayt": 24623
     },
     {
      "yol": "data/yerlesimler_ek25.js",
@@ -778,7 +778,7 @@
      "bayt": 190988
     }
    ],
-   "bayt": 922481
+   "bayt": 922921
   },
   {
    "paket": "data/paket_15.js",
@@ -855,8 +855,8 @@
     },
     {
      "yol": "data/olaylar_p0057.js",
-     "sha": "7b1f7914205f2ae2",
-     "bayt": 21976
+     "sha": "503c19f41ec60c60",
+     "bayt": 26705
     },
     {
      "yol": "data/olaylar_p0058.js",
@@ -874,7 +874,7 @@
      "bayt": 6292
     }
    ],
-   "bayt": 185438
+   "bayt": 190167
   },
   {
    "paket": "data/paket_16.js",
@@ -990,8 +990,8 @@
     },
     {
      "yol": "data/yerlesimler_sinir_kuzey.js",
-     "sha": "374da6aaab50f54d",
-     "bayt": 36475
+     "sha": "418c3670a6acbee9",
+     "bayt": 36704
     },
     {
      "yol": "data/yerlesimler_8beb2b.js",
@@ -1014,7 +1014,7 @@
      "bayt": 7098
     }
    ],
-   "bayt": 134587
+   "bayt": 134816
   },
   {
    "paket": "data/paket_21.js",
