@@ -1437,13 +1437,13 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "0935-08-04",
     "t": "1143-01-01",
-    "d": "__BOSLUK__",
+    "d": "__BILINMIYOR__",
     "kesinlik": {
      "f": "ay",
      "t": "yil"
     },
     "kaynak": "TDV İHŞÎDÎLER; TDV KEREK (M. L. Bilge); TDV ATSIZ b. UVAK",
-    "ic_not": "İhşîdîler (Remle'nin güneyi, 935'ten), Fâtımîler (969'dan), bedevî emirlikleri, Atsız Türkmenleri (1070'ler), Haçlı Oultrejourdain'i (Şevbek 1115) — Kerek'e özgü tarihli sahip tanığı yok; yerleşimin bu dönemdeki durumu da tanıksız."
+    "ic_not": "Emre kararı 14 Ekim 2026: kaynak bu dilimde yerleşimin VARLIĞINI da göstermiyor → __BILINMIYOR__ (önceden __BOSLUK__). İhşîdîler (Remle'nin güneyi, 935'ten), Fâtımîler (969'dan), bedevî emirlikleri, Atsız Türkmenleri (1070'ler), Haçlı Oultrejourdain'i (Şevbek 1115) — Kerek'e özgü tarihli sahip tanığı yok; yerleşimin bu dönemdeki durumu da tanıksız."
    },
    {
     "f": "1143-01-01",
@@ -2928,10 +2928,10 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "0429-01-01",
     "t": "0960-01-01",
-    "d": "__BOSLUK__",
+    "d": "__BILINMIYOR__",
     "kesinlik": "belirsiz",
     "kaynak": "bulunamadı",
-    "ic_not": "Vandal (429/435–533), Bizans (533 sonrası; Icosium'un Bizans'ta kalıp kalmadığı bilinmiyor), Berberî beylikleri, İslâm fethi, Rüstemî/İdrîsî/Ağlebî ve Fâtımî dönemleri: şehre özgü tarihli tanık yok. TDV BULUKKÎN 960'ta 'yeni kurulan Cezayir' der — şehir arada terk edilmiş olabilir (bit yazılmadı, tanık yok)."
+    "ic_not": "Emre kararı 14 Ekim 2026: kaynak bu dilimde yerleşimin VARLIĞINI da göstermiyor → __BILINMIYOR__ (önceden __BOSLUK__). Vandal (429/435–533), Bizans (533 sonrası; Icosium'un Bizans'ta kalıp kalmadığı bilinmiyor), Berberî beylikleri, İslâm fethi, Rüstemî/İdrîsî/Ağlebî ve Fâtımî dönemleri: şehre özgü tarihli tanık yok. TDV BULUKKÎN 960'ta 'yeni kurulan Cezayir' der — şehir arada terk edilmiş olabilir (bit yazılmadı, tanık yok)."
    },
    {
     "f": "0960-01-01",
@@ -6561,13 +6561,13 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "0643-01-01",
     "t": "1551-08-15",
-    "d": "__BOSLUK__",
+    "d": "__BILINMIYOR__",
     "kesinlik": {
      "f": "yil",
      "t": "gun"
     },
     "kaynak": "TDV BİNGAZİ ('Şehrin tekrar bir yerleşim merkezi olarak ortaya çıkmasının 1470 yıllarına rastladığı tahmin edilmektedir')",
-    "ic_not": "Şehir terk edilmiş ya da tanıksız: TDV'ye göre İslâm kaynaklarında anılmaz; Ortaçağ'da bir ara Ceneviz ticaretiyle 'Bernik' adıyla canlandı (tarihsiz); ~1470 yeniden iskân TAHMİNİ; Pîrî Reis'te Birniki/Bin Kādî. Bu aralıkta sahip tanığı bulunamadı (Berka bölgesi Hilâlî istilâsıyla harap, TDV BERKA). Beyanlı boşluk."
+    "ic_not": "Emre kararı 14 Ekim 2026: kaynak bu dilimde yerleşimin VARLIĞINI da göstermiyor → __BILINMIYOR__ (önceden __BOSLUK__). Şehir terk edilmiş ya da tanıksız: TDV'ye göre İslâm kaynaklarında anılmaz; Ortaçağ'da bir ara Ceneviz ticaretiyle 'Bernik' adıyla canlandı (tarihsiz); ~1470 yeniden iskân TAHMİNİ; Pîrî Reis'te Birniki/Bin Kādî. Bu aralıkta sahip tanığı bulunamadı (Berka bölgesi Hilâlî istilâsıyla harap, TDV BERKA). Beyanlı boşluk."
    }
   ],
   "olay": [
@@ -8714,10 +8714,10 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "0429-01-01",
     "t": "1281-01-01",
-    "d": "__BOSLUK__",
+    "d": "__BILINMIYOR__",
     "kesinlik": "belirsiz",
     "kaynak": "bulunamadı",
-    "ic_not": "Vandal, Mûr beylikleri, Bizans, İslâm fethi, Rüstemî/Fâtımî/Zîrî/Hammâdî/Murâbıt/Muvahhid ve Zeyyânî–Mağrâve dönemleri için yere özgü tarihli tanık yok. TDV'de Şelif/Esnâm maddesi yok. Arapça 'el-Esnâm' (putlar/heykeller) adı yerin ortaçağda yalnız harabe olduğunu düşündürür; Fransız yerel tarihleri 1843'e kadar 'yer adı' olduğunu yazar — akademik kaynakla doğrulanmadığı için __YOK__ YAZILMADI. Doğrulanırsa bu dilim __YOK__ olmalı ve atlas noktası 1843'te başlamalı."
+    "ic_not": "Emre kararı 14 Ekim 2026: kaynak bu dilimde yerleşimin VARLIĞINI da göstermiyor → __BILINMIYOR__ (önceden __BOSLUK__). Vandal, Mûr beylikleri, Bizans, İslâm fethi, Rüstemî/Fâtımî/Zîrî/Hammâdî/Murâbıt/Muvahhid ve Zeyyânî–Mağrâve dönemleri için yere özgü tarihli tanık yok. TDV'de Şelif/Esnâm maddesi yok. Arapça 'el-Esnâm' (putlar/heykeller) adı yerin ortaçağda yalnız harabe olduğunu düşündürür; Fransız yerel tarihleri 1843'e kadar 'yer adı' olduğunu yazar — akademik kaynakla doğrulanmadığı için __YOK__ YAZILMADI. Doğrulanırsa bu dilim __YOK__ olmalı ve atlas noktası 1843'te başlamalı."
    }
   ],
   "olay": [
@@ -12429,7 +12429,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV İLBASAN (M. Kiel): Kritovulos, Tursun Bey (Târîh-i Ebü'l-Feth s. 141-145), Sırp yıllıkları"
    }
   ],
-  "ic_not": "Koordinat doğru (GeoNames Elbasan; atlas noktası 0,2 km; Pleiades 'Scampis' reprPoint 0,9 km). Atlas başlangıcı (1466-06-01 osmanli, kur 1466-06-01) TDV ile uyumlu: şehir 1466'da boş antik yerin üzerinde yeniden kuruldu; atlasın '06-01' günü kaynakta yok (TDV yalnız 1466; Ohri halkının sürgünü Ekim 1466) — zincir __YOK__ ile bittiği için olay zorlanmadı. 333 ilk anılışı ikincil tablodan alındı; Itinerarium Burdigalense ve Tabula Peutingeriana'nın birincil metni açılmadı — doğrulanmalı. Daha erken bir tanık (Itinerarium Antonini?) bakılmadı."
+  "ic_not": "Koordinat doğru (GeoNames Elbasan; atlas noktası 0,2 km; Pleiades 'Scampis' reprPoint 0,9 km). Atlas başlangıcı (1466-06-01 osmanli, kur 1466-06-01) TDV ile uyumlu: şehir 1466'da boş antik yerin üzerinde yeniden kuruldu; atlasın '06-01' günü kaynakta yok (TDV yalnız 1466; Ohri halkının sürgünü Ekim 1466) — zincir __YOK__ ile bittiği için olay zorlanmadı. 333 ilk anılışı ikincil tablodan alındı; Itinerarium Burdigalense ve Tabula Peutingeriana'nın birincil metni açılmadı — doğrulanmalı. Daha erken bir tanık (Itinerarium Antonini?) bakılmadı.",
+  "dikis_beyan": "Atlas noktası 1466-06-01'de 'osmanli' ile başlıyor; kaynakta yalnız kuruluş YILI var (TDV İLBASAN: II. Mehmed 1466'da Scampa kalıntıları üzerinde kaleyi kurdurdu → olay 1466-01-01, kesinlik yıl). Atlasın 1466-06-01 GÜNÜNÜN kaynağı bulunamadı; ±30 gün ölçütü gevşetilmedi, borç beyan edildi (14 Ekim 2026)."
  },
  {
   "id": "erzincan",
@@ -14076,13 +14077,13 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "0698-03-20",
     "t": "1281-01-01",
-    "d": "__BOSLUK__",
+    "d": "__BILINMIYOR__",
     "kesinlik": {
      "f": "onyil",
      "t": "gun"
     },
     "kaynak": "bulunamadı",
-    "ic_not": "İslâm fethinden 1281'e kadar Calama/Kalama'ya özgü tarihli tanık bulunamadı: bölge sırasıyla Emevî/Abbâsî İfrîkıye valileri, Ağlebî, Fâtımî, Zîrî, Hammâdî, Muvahhid ve (Kostantîne yöresi) 1230'dan sonra Hafsî idaresinde — şehrin bu dönemde YAŞAYIP YAŞAMADIĞI da belgesiz (Vikipedi 'formal yerleşim olarak terk' der; ipucu, dayanak değil; 1836'da Fransızlar yalnız harabe buldu). __YOK__ yazılmadı çünkü terk için kaynak yok; bölge sahibi yazılmadı çünkü şehrin varlığı tanıksız. el-Bekrî/İdrîsî kontrol edilemedi: ölçülemedi."
+    "ic_not": "Emre kararı 14 Ekim 2026: kaynak bu dilimde yerleşimin VARLIĞINI da göstermiyor → __BILINMIYOR__ (önceden __BOSLUK__). İslâm fethinden 1281'e kadar Calama/Kalama'ya özgü tarihli tanık bulunamadı: bölge sırasıyla Emevî/Abbâsî İfrîkıye valileri, Ağlebî, Fâtımî, Zîrî, Hammâdî, Muvahhid ve (Kostantîne yöresi) 1230'dan sonra Hafsî idaresinde — şehrin bu dönemde YAŞAYIP YAŞAMADIĞI da belgesiz (Vikipedi 'formal yerleşim olarak terk' der; ipucu, dayanak değil; 1836'da Fransızlar yalnız harabe buldu). __YOK__ yazılmadı çünkü terk için kaynak yok; bölge sahibi yazılmadı çünkü şehrin varlığı tanıksız. el-Bekrî/İdrîsî kontrol edilemedi: ölçülemedi."
    }
   ],
   "olay": [
@@ -19688,13 +19689,13 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "-0672-01-01",
     "t": "1266-08-24",
-    "d": "__BOSLUK__",
+    "d": "__BILINMIYOR__",
     "kesinlik": {
      "f": "yil",
      "t": "gun"
     },
     "kaynak": "RINAP 4, Esarhaddon 1 iii 20-36 (Oracc); TDV MİSİS (1266 tanığı)",
-    "ic_not": "MÖ 673 prizması Sanduarri'nin (Kundu ve Sissû kralı) yakalanıp başının kesildiğini söyler; ardından Sissû'nun Asur'a doğrudan bağlanıp bağlanmadığı metinde yok (Pleiades Que eyaletine bağlılığı 'less certain' sayar) — yeni-asur yazılmadı. Sonraki ~1900 yıl için Sîs'e özgü tarihli TDV/akademik tanık bulunamadı. Vikipedi ipuçları (DOĞRULANMADI, dayanak değil): Roma döneminde Flavias/Flaviopolis adı (EDH Flaviopolis'i Kadirli'ye koyar — çelişkili), 704 Arap kuşatması, el-Mütevekkil'in tahkimi, 962/965 Nikephoros Phokas, 1113 Rupenî I. Thoros, 1137 II. Ioannes Komnenos, 1173 Mleh'in başkent yapması. TDV'de SÎS/KOZAN şehir maddesi yok (arama: yalnız KOZANOĞULLARI, FIRKA-i ISLÂHİYYE). > 1 kuşak ⇒ beyanlı boşluk."
+    "ic_not": "Emre kararı 14 Ekim 2026: kaynak bu dilimde yerleşimin VARLIĞINI da göstermiyor → __BILINMIYOR__ (önceden __BOSLUK__). MÖ 673 prizması Sanduarri'nin (Kundu ve Sissû kralı) yakalanıp başının kesildiğini söyler; ardından Sissû'nun Asur'a doğrudan bağlanıp bağlanmadığı metinde yok (Pleiades Que eyaletine bağlılığı 'less certain' sayar) — yeni-asur yazılmadı. Sonraki ~1900 yıl için Sîs'e özgü tarihli TDV/akademik tanık bulunamadı. Vikipedi ipuçları (DOĞRULANMADI, dayanak değil): Roma döneminde Flavias/Flaviopolis adı (EDH Flaviopolis'i Kadirli'ye koyar — çelişkili), 704 Arap kuşatması, el-Mütevekkil'in tahkimi, 962/965 Nikephoros Phokas, 1113 Rupenî I. Thoros, 1137 II. Ioannes Komnenos, 1173 Mleh'in başkent yapması. TDV'de SÎS/KOZAN şehir maddesi yok (arama: yalnız KOZANOĞULLARI, FIRKA-i ISLÂHİYYE). > 1 kuşak ⇒ beyanlı boşluk."
    },
    {
     "f": "1266-08-24",
@@ -23883,10 +23884,10 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "0429-01-01",
     "t": "0960-01-01",
-    "d": "__BOSLUK__",
+    "d": "__BILINMIYOR__",
     "kesinlik": "belirsiz",
     "kaynak": "TDV CEZAYİR (şehir): Bulukkîn'e 'yeni kurulmuş olan Cezâirü Benî Mezgennâ, Milyâne (Miliana) ve Medye' şehirlerinin idaresi verildi (960)",
-    "ic_not": "Vandal, Bizans, İslâm fethi, Rüstemî/Fâtımî dönemleri Zucchabar için tarihli tanıksız. TDV Milyâne'yi 960'ta 'yeni kurulmuş' sayar ⇒ arada terk olabilir; terk tanığı olmadığından __YOK__ yazılmadı, beyanlı boşluk."
+    "ic_not": "Emre kararı 14 Ekim 2026: kaynak bu dilimde yerleşimin VARLIĞINI da göstermiyor → __BILINMIYOR__ (önceden __BOSLUK__). Vandal, Bizans, İslâm fethi, Rüstemî/Fâtımî dönemleri Zucchabar için tarihli tanıksız. TDV Milyâne'yi 960'ta 'yeni kurulmuş' sayar ⇒ arada terk olabilir; terk tanığı olmadığından __YOK__ yazılmadı, beyanlı boşluk."
    },
    {
     "f": "0960-01-01",
@@ -29961,7 +29962,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV RUSÇUK (M. Kiel)"
    }
   ],
-  "ic_not": "İlk anılış: Ptolemaios (Priste polis; yazım ~150-170, güvenli uç 170). TDV, Vespasianus döneminde (69-79) güçlendirildiğini söyler — daha erken epigrafik tanık olabilir (Pleiades: Roma dönemi -30/640), okunmadı. Pleiades noktası atlas noktasına 2,31 km. TDV (Kiel): yerleşim VII. yüzyılda ortadan kalktı; ortaçağ Rusçuk'una ait en eski buluntu Mihail Asen (1360-1371) sikkesi, adın en eski yazılışı 'Rosi' (1380-1388) → 601-1281 __YOK__. ATLAS DÜZELTMESİ ÖNERİSİ: atlas Rusçuk'u 1281-01-01 'bulgaristan' (bulgar-carligi) ile yaşayan şehir olarak başlatıyor; 1281'de yerleşim tanığı yok — nokta en erken ~1360 (Mihail Asen sikkesi, güvenli uç 1371) başlamalı. Zincir __YOK__ ile 1281'de biter; dikiş için olay aranmaz (__YOK__ kuralı)."
+  "ic_not": "İlk anılış: Ptolemaios (Priste polis; yazım ~150-170, güvenli uç 170). TDV, Vespasianus döneminde (69-79) güçlendirildiğini söyler — daha erken epigrafik tanık olabilir (Pleiades: Roma dönemi -30/640), okunmadı. Pleiades noktası atlas noktasına 2,31 km. TDV (Kiel): yerleşim VII. yüzyılda ortadan kalktı; ortaçağ Rusçuk'una ait en eski buluntu Mihail Asen (1360-1371) sikkesi, adın en eski yazılışı 'Rosi' (1380-1388) → 601-1281 __YOK__. ATLAS DÜZELTMESİ ÖNERİSİ: atlas Rusçuk'u 1281-01-01 'bulgaristan' (bulgar-carligi) ile yaşayan şehir olarak başlatıyor; 1281'de yerleşim tanığı yok — nokta en erken ~1360 (Mihail Asen sikkesi, güvenli uç 1371) başlamalı. Zincir __YOK__ ile 1281'de biter; dikiş için olay aranmaz (__YOK__ kuralı).",
+  "dikis_beyan": "Atlas noktası 1281-01-01'de 'bulgaristan' ile başlıyor, ama TDV RUSÇUK (M. Kiel) sahayı VII–XIV. yy TERK edilmiş sayar; yeniden iskânın en erken tanığı Mihail Asen sikkesi (1360–1371, güvenli uç 1371), ad ilk kez 'Rosi' (1380–88). 1281'de yerleşim tanığı YOK → atlas başlangıcı en erken ~1371 olmalı (atlas düzeltme önerisi, 14 Ekim 2026)."
  },
  {
   "id": "samos-vathy",
@@ -34068,13 +34070,13 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "0700-01-01",
     "t": "1281-01-01",
-    "d": "__BOSLUK__",
+    "d": "__BILINMIYOR__",
     "kesinlik": {
      "f": "yuzyil",
      "t": "yil"
     },
     "kaynak": "EB1911 'Philippeville' (Wikisource): 'In the middle ages the town ceased to be inhabited'",
-    "ic_not": "Beyanlı boşluk — iskân kesintisi tarihsiz olduğu için __YOK__ başlangıcı yazılamadı; 1281'de yerleşimin büyük olasılıkla bulunmadığı beyan edilir. 1838'de Mareşal Valée sahayı Araplardan satın aldı. Bölge sırasıyla İfrîkıye valileri, Ağlebî, Fâtımî, Zîrî, Hammâdî, Muvahhid ve 1230'dan Hafsî idaresinde (TDV KOSTANTİNE/HAFSÎLER, parti 05) — Rusicade/Skikda'ya özgü tanık yok. Stora limanı (~3 km batı) ayrı yer."
+    "ic_not": "Emre kararı 14 Ekim 2026: kaynak bu dilimde yerleşimin VARLIĞINI da göstermiyor → __BILINMIYOR__ (önceden __BOSLUK__). Beyanlı boşluk — iskân kesintisi tarihsiz olduğu için __YOK__ başlangıcı yazılamadı; 1281'de yerleşimin büyük olasılıkla bulunmadığı beyan edilir. 1838'de Mareşal Valée sahayı Araplardan satın aldı. Bölge sırasıyla İfrîkıye valileri, Ağlebî, Fâtımî, Zîrî, Hammâdî, Muvahhid ve 1230'dan Hafsî idaresinde (TDV KOSTANTİNE/HAFSÎLER, parti 05) — Rusicade/Skikda'ya özgü tanık yok. Stora limanı (~3 km batı) ayrı yer."
    }
   ],
   "olay": [
@@ -38578,13 +38580,13 @@ window.SEHIR_TARIHCE_OSM = [
    {
     "f": "0641-01-01",
     "t": "1800-01-01",
-    "d": "__BOSLUK__",
+    "d": "__BILINMIYOR__",
     "kesinlik": {
      "f": "yil",
      "t": "yil"
     },
     "kaynak": "E. Naville, Bubastis (EES 8, 1891) s. 4: 'We do not know when it was abandoned'; Makrîzî (Naville aktarımı): Basta kûresi fethe katılan Arap kabilelerine ikta edildi",
-    "ic_not": "BEYAN — bu dilimde yerleşimin VARLIĞI DA SAHİBİ DE kaynakla gösterilemiyor: Naville Bubastis'in ne zaman terk edildiğinin bilinmediğini açıkça yazar; Makrîzî'nin 'Basta' anışları kûreyi (39 köylü idarî bölge) tarihler, şehrin oturulduğunu değil. Süreklilik kuralı gereği bölge sahipleri (Râşidîn → Emevî → Abbâsî → Tolunoğulları → İhşîdî → Fâtımî → Eyyûbî → Memlük → Osmanlı → Fransız) YAZILMADI (parti 14 bunları yazmıştı), terk günü bilinmediği için __YOK__ da yazılmadı. __BOSLUK__ burada 'sahibi bilinmiyor' değil 'yerleşimin durumu bilinmiyor' anlamında kullanıldı — şema bu durum için ayrı kimlik sunmuyor; Emre kararı gerekir (öneri: ayrılmış kimlik ya da kaydın Bubastis/Zekâzîk diye ikiye bölünmesi)."
+    "ic_not": "Emre kararı 14 Ekim 2026: kaynak bu dilimde yerleşimin VARLIĞINI da göstermiyor → __BILINMIYOR__ (önceden __BOSLUK__). BEYAN — bu dilimde yerleşimin VARLIĞI DA SAHİBİ DE kaynakla gösterilemiyor: Naville Bubastis'in ne zaman terk edildiğinin bilinmediğini açıkça yazar; Makrîzî'nin 'Basta' anışları kûreyi (39 köylü idarî bölge) tarihler, şehrin oturulduğunu değil. Süreklilik kuralı gereği bölge sahipleri (Râşidîn → Emevî → Abbâsî → Tolunoğulları → İhşîdî → Fâtımî → Eyyûbî → Memlük → Osmanlı → Fransız) YAZILMADI (parti 14 bunları yazmıştı), terk günü bilinmediği için __YOK__ da yazılmadı. __BOSLUK__ burada 'sahibi bilinmiyor' değil 'yerleşimin durumu bilinmiyor' anlamında kullanıldı — şema bu durum için ayrı kimlik sunmuyor; Emre kararı gerekir (öneri: ayrılmış kimlik ya da kaydın Bubastis/Zekâzîk diye ikiye bölünmesi)."
    },
    {
     "f": "1800-01-01",

@@ -154,10 +154,11 @@ def denetle_kayitlar(K, sessiz=False):
             if j + 1 < len(S) and p["t"] != S[j + 1].get("f"):
                 ihlal.append(f"{yer}: kopukluk {p['t']} → {S[j + 1].get('f')}")
             d = p.get("d")
-            if d == "__YOK__":
-                # yerleşim bu dönemde YOK (terk/yıkım → yeniden iskân); __BOSLUK__ ("sahibi bilinmiyor") DEĞİL
+            if d in ("__YOK__", "__BILINMIYOR__"):
+                # __YOK__: yerleşim bu dönemde YOK · __BILINMIYOR__: VARLIĞI da bilinmiyor (Emre, 14 Ekim 2026)
+                # ikisi de __BOSLUK__ ("şehir var, sahibi bilinmiyor") DEĞİL
                 if not (p.get("ic_not") or "").strip():
-                    ihlal.append(f"{yer}: __YOK__ beyansız (ic_not yok)")
+                    ihlal.append(f"{yer}: {d} beyansız (ic_not yok)")
             elif d == "osmanli":
                 # atlas Osmanlı'yı künyeyle değil `d:` alanıyla taşır — devletler.js'te kaydı YOK, kasıtlı.
                 # Bu dosyada `osmanli` = atlasın `d:` dönemi (aktarımda `d:`ye dönüşür).
@@ -202,8 +203,11 @@ def denetle_kayitlar(K, sessiz=False):
         if S and son and atlas_ad and S[-1].get("t") == son and not ayni_sahip:
             gecisler.append((son, S[-1].get("d"), f"{atlas_sahip} (atlas)"))
         for t, a, b in gecisler:
-            if "__YOK__" in (a, b):
-                continue   # terk/yeniden iskân çoğu zaman günü olmayan süreçtir: olay ZORLANMAZ (uydurma olur)
+            if {"__YOK__", "__BILINMIYOR__"} & {a, b} and not b.endswith("(atlas)"):
+                # terk/yeniden iskân ve "varlığı bilinmiyor" günü olmayan süreçtir: olay ZORLANMAZ (uydurma olur).
+                # ⚠️ ATLAS DİKİŞİ MUAF DEĞİL: atlasın "1281'de X" iddiası kaynaksızsa borç görünür kalmalı
+                # (14 Ekim: muafiyet ilk yazıldığında Şelif/Kalama/Sükeyke'nin dikiş borcunu sessizce siliyordu).
+                continue
             g = gun_no(t)
             if g is not None and not any(abs(g - x) <= OLAY_PENCERE_GUN for x in og):
                 if b.endswith("(atlas)") and (k.get("dikis_beyan") or "").strip():

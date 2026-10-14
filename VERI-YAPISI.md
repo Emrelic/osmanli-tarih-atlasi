@@ -917,6 +917,17 @@ Denetim ve JS üretimi: `py arac/sehir_tarihce.py denetle <dosya.js>` · `yaz <j
   *(Parti 10, Rusçuk: saha VII–XIV. yy terk edilmişti, zincir bölgenin sahibini taşıyordu.)*
   Aynı yerde (≤ 3 km) antik şehir terk edilip modern şehir sonra doğduysa ve kesinti KAYNAKLA gösteriliyorsa
   (Zekâzîk–Bubastis) ara dönem `__YOK__`tur: süreklilik varsayılmaz. Kaynak susuyorsa süreklilik de kesinti de yazılmaz — beyan edilir.
+- **`d:"__BILINMIYOR__"`** — yerleşimin o dönemde VAR OLUP OLMADIĞI da bilinmiyor (kaynak ne varlığı ne
+  sahibi söylüyor). `__BOSLUK__` "şehir VAR, sahibi bilinmiyor" der; bu ise varlığı da açık bırakır.
+  `kaynak` + `ic_not` (ne arandı) zorunlu; giriş/çıkış geçişinde `olay` ARANMAZ. Aktarımda nokta bu dilimde
+  ÇİZİLMEZ (görünür tanık yokken var saymak yaklaşıklıktır). *(Emre, 14 Ekim 2026 — Zekâzîk 641–1800.)*
+- **Yerinde kitabe yazılı tanıktır** (arkeolojik tarihleme değil): yerleşimin içinde/üstünde bulunan tarihli
+  kitabe `ilk_anilis` olabilir — kitabenin yeri ile tarihlenen yerleşimin aynı olduğu kaynakta açıksa.
+  *(Emre, 14 Ekim 2026 — Hürremâbâd: ad 1340, yerinde kitabe 1123.)*
+- **TDV kendi içinde çelişirse** (aynı madde iki uyumsuz tarih/olgu verir, ya da iki TDV maddesi çelişir ve
+  biri olgu hatası taşır) akademik kaynak esas alınabilir — çelişki ve seçim `ic_not`ta BEYAN edilir.
+  TDV ile dış kaynak çelişkisinde TDV esas kuralı DEĞİŞMEZ; bu istisna yalnız TDV'nin kendi çelişkisi içindir.
+  *(Emre, 14 Ekim 2026 — Berat, Annaba.)*
 - **`d:"osmanli"`** ayrılmış kimliktir: atlas Osmanlı'yı künyeyle değil `d:` alanıyla taşır
   (`devletler.js`te ve `BOYALAR`da `osmanli` YOK — ölçüldü, kasıtlı). Burada yazılan `osmanli` dönemi
   aktarımda `d:` dönemine dönüşür; `kunye_yok` İŞARETLENMEZ. *(Parti 04 buldu.)*
