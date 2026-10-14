@@ -736,10 +736,20 @@
   }
 
   // --------------------------------------------------------- ARAÇ ÇUBUĞU
+  // Not kutularındaki tuşlar sitenin kısayollarına (boşluk = oynat/durdur,
+  // oklar = gün) ULAŞMAZ — app.js'in kısayolu TEXTAREA'yı da dışlar ama bu
+  // kutular kendi yalıtımını taşır (Emre 14 Ekim: boşluk yazılamıyordu).
+  function kutuKur(id) {
+    var d = $(id);
+    if (d) return d;
+    d = el("div"); d.id = id; d.style.display = "none";
+    d.addEventListener("keydown", function (e) { e.stopPropagation(); });
+    document.body.appendChild(d);
+    return d;
+  }
+
   function aracKur() {
-    ["gn-form", "gn-panel", "gn-liste"].forEach(function (id) {
-      if (!$(id)) { var d = el("div"); d.id = id; d.style.display = "none"; document.body.appendChild(d); }
-    });
+    ["gn-form", "gn-panel", "gn-liste"].forEach(kutuKur);
     var a = $("gn-arac");
     if (a) { a.style.display = ""; return; }
     a = el("div"); a.id = "gn-arac";
@@ -797,8 +807,7 @@
 
   // Token bir kez girilir (her tarayıcıda), localStorage'da durur.
   function tokenSor() {
-    var f = $("gn-form");
-    if (!f) { f = el("div"); f.id = "gn-form"; document.body.appendChild(f); }
+    var f = kutuKur("gn-form");
     f.innerHTML = "";
     f.appendChild(el("div", "gn-form-bas", "🛠 Geliştirici kipi"));
     var y = el("div", "gn-form-hedef");

@@ -15711,8 +15711,11 @@ function enYakinOlayBul(gi) {
 })();
 
 // Klavye: ←→ gün (Shift: yıl), boşluk oynat/durdur
+// Yazı alanında kısayol YOK: TEXTAREA da sayılır (Emre 14 Ekim — geliştirici
+// notu kutusunda boşluk tuşu oynat/durdur'a basıyordu, oklar tarihi kaydırıyordu).
 document.addEventListener("keydown", function (e) {
-  if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;
+  var t = e.target;
+  if (t.tagName === "INPUT" || t.tagName === "SELECT" || t.tagName === "TEXTAREA" || t.isContentEditable) return;
   if (e.key === "ArrowRight") { tarihAyarla(suanki + (e.shiftKey ? 365 : 1)); e.preventDefault(); }
   else if (e.key === "ArrowLeft") { tarihAyarla(suanki - (e.shiftKey ? 365 : 1)); e.preventDefault(); }
   else if (e.key === " ") { oynatDurdur(); e.preventDefault(); }
