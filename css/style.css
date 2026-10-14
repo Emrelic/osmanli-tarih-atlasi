@@ -106,6 +106,19 @@
 #ob-kaynakca ul { margin: 4px 0 2px; padding-left: 18px; }
 #ob-kaynakca li { margin: 2px 0; overflow-wrap: anywhere; }
 #ob-kaynakca .kc-yok { font-style: italic; opacity: .8; }
+/* KAYNAK-ARAYUZ-1014 — damga rozeti (madde) ve kademe etiketi (kaynak parçası) */
+#ob-kaynakca .kc-damga { font-weight: 600; }
+#ob-kaynakca .kc-damga-guvenli { color: #2e7d32; }
+#ob-kaynakca .kc-damga-ikincil { color: #1565c0; }
+#ob-kaynakca .kc-damga-taninmayan, #ob-kaynakca .kc-damga-bos { color: #6d6d6d; }
+#ob-kaynakca .kc-damga-bulunamadi { color: #424242; }
+#ob-kaynakca .kc-damga-guvensiz { color: #c62828; }
+#ob-kaynakca .kc-kademe { display: inline-block; font-size: 10px; line-height: 1.4; padding: 0 4px;
+  border-radius: 3px; border: 1px solid currentColor; vertical-align: 1px; white-space: nowrap; }
+#ob-kaynakca .kc-a { color: #2e7d32; }
+#ob-kaynakca .kc-b { color: #1565c0; }
+#ob-kaynakca .kc-k, #ob-kaynakca .kc-n, #ob-kaynakca .kc-yok-sinif { color: #6d6d6d; }
+#ob-kaynakca .kc-c { color: #c62828; }
 /* ARAYUZ-0077-B · H-79:16 — devlet seçicide "↺ Yalnız Osmanlı" sıfırlama satırı */
 .devlet-secici-satir.dss-sifirla { font-style: italic; border-bottom: 1px solid var(--altin); }
 /* Emre 27 Eyl: "ek devlet ilan edemiyorum" — rol artık görünür düğmeden */

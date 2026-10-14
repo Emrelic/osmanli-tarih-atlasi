@@ -7698,6 +7698,10 @@ var olaylar = Object.keys(window)
   })
   .reduce(function (acc, k) { return acc.concat(window[k] || []); }, [])
   .filter(function (o) { return dunyaAcik || o.kapsam !== "konu"; })
+  // KAYNAK-ARAYUZ-1014 (Emre, 14 Ekim 2026): yalnız güvensiz kaynağa (Vikipedi vb.) dayanan
+  // madde KULLANILMAZ. Damga js/kaynak_damga.js'ten (arac/kaynak_guven.py ile birebir;
+  // denetim/KAYNAK-ARAYUZ-1014/esit_sina.py). Tablo yüklenmediyse hiçbir madde gizlenmez.
+  .filter(function (o) { return !(window.KaynakDamga && window.KaynakDamga.gizli(o)); })
   .map(function (o) {
   var kaba = gunIdx(o.t);
   // NEGATIF-YIL-1010-A: gün hassasiyeti DESENLE (eski `split("-").length > 2` "-2999-05"i
@@ -15929,6 +15933,33 @@ function kronoTemsilEdiliyor(k, derin) {
                  ts.map(function (k) { return k + " (" + tarafsiz[k] + ")"; }).join(", "));
 })();
 
+// KAYNAK-ARAYUZ-1014 — GÜVENSİZ MADDE GİZLEME, künye kronolojileri (Emre, 14 Ekim 2026).
+// Künye kronolojisi üç yoldan kurulur (künyenin kendi `kronoloji`si · dosya bindirme ·
+// çok taraflı yol); üçü de YUKARIDA bitti, okuyanlar (odak, panel, derin pencere) AŞAĞIDA.
+// ⇒ Tek geçiş burada. `window.KRONOLOJI_*` dizileri DEĞİŞTİRİLMEZ (başka yerde de okunur;
+// künye onlara referansla bağlı olabilir) — künyeye YENİ dizi atanır.
+(function guvensizKronolojiGizle() {
+  var KD = window.KaynakDamga;
+  if (!KD) return;                       // tablo yok → kaynak_damga.js zaten BAĞIRDI
+  var gizlenen = 0, kunye = 0;
+  (window.DEVLETLER || []).forEach(function (d) {
+    if (!Array.isArray(d.kronoloji)) return;
+    var kalan = d.kronoloji.filter(function (m) { return !KD.gizli(m); });
+    if (kalan.length !== d.kronoloji.length) {
+      gizlenen += d.kronoloji.length - kalan.length; kunye++;
+      d.kronoloji = kalan;
+    }
+  });
+  var olayGizli = 0;
+  Object.keys(window).forEach(function (k) {
+    if (!/^OLAYLAR(_[A-Za-z0-9_]+)?$/.test(k) || !Array.isArray(window[k])) return;
+    window[k].forEach(function (o) { if (KD.gizli(o)) olayGizli++; });
+  });
+  console.log("Atlas: kaynak damgası (" + KD.surum + ") — güvensiz kaynaklı " + gizlenen +
+              " künye kronolojisi maddesi (" + kunye + " künye) ve " + olayGizli +
+              " olay maddesi GÖSTERİLMİYOR (teyit bekliyor: denetim/KAYNAK-GUVEN-1014)");
+})();
+
 (function odakKur() {
   var kunye = window.DEVLETLER || [];
   if (!kunye.length) return;
@@ -17231,7 +17262,80 @@ function _kcMetinEkle(el, metin) {
   }
   if (son < metin.length) el.appendChild(document.createTextNode(metin.slice(son)));
 }
+// ═══════════════════════════════════════════════════════════════════════
+// KAYNAK-ARAYUZ-1014 — DAMGALI "KAYNAKLAR" (Emre, 14 Ekim 2026): her kronoloji
+// maddesinde kaynaklar bağlantısı; tıklanınca her kaynak KADEMESİYLE listelenir.
+// Damga js/kaynak_damga.js'ten (tablo data/kaynak_guven.js). Değişenler:
+//   · BOŞ kaynak artık bölümü GİZLEMEZ: "⚪ kaynak bekleniyor" yazar — Emre her
+//     maddede kaynak bağlantısı istedi; ölçülmemiş olduğu da böylece GÖRÜNÜR.
+//   · TDV bağı tablonun `tdv_slug` kuralından: `haric` (el-kitabi) artık TDV'ye
+//     ÇEVRİLMEZ (eski _KC_SLUG 407 parçada islamansiklopedisi.org.tr/el-kitabi
+//     gibi ölü bağ üretiyordu — denetim/KAYNAK-GUVEN-1014 RAPOR §5).
+//   · Tablo yoksa (KaynakDamga null) eski çizim aynen çalışır.
+var _KC_DAMGA = {
+  guvenli:    ["✅", "Güvenilir kaynak", "Dayanak niteliğinde akademik kaynağa dayanıyor."],
+  ikincil:    ["🔵", "İkincil kaynak", "Saygın genel başvuru eserine dayanıyor; akademik dayanakla teyit edilebilir."],
+  taninmayan: ["❓", "Kaynak sınıflanmadı", "Kaynak henüz güven tablosunda sınıflanmadı."],
+  bulunamadi: ["⚫", "Kaynak bulunamadı", "Kaynak arandı, güvenilir kaynak bulunamadı."],
+  bos:        ["⚪", "Kaynak bekleniyor", "Bu maddenin kaynağı henüz yazılmadı; teyit bekliyor."],
+  guvensiz:   ["🔴", "Güvensiz kaynak", "Yalnız güvensiz kaynağa dayanıyor; teyit edilene kadar kullanılmaz."]
+};
+var _KC_KADEME = { A: ["kc-a", "Dayanak"], B: ["kc-b", "İkincil"], K: ["kc-k", "Belgeye bağlı"],
+                   C: ["kc-c", "Güvensiz"], Y: ["kc-n", "Adsız beyan"], N: ["kc-n", "Not"] };
 function kaynakcaGuncelle(o) {
+  var KD = window.KaynakDamga;
+  if (!KD) return _kaynakcaEski(o);
+  var ob = document.getElementById("olay-bilgi");
+  if (!ob) return;
+  var kap = document.getElementById("ob-kaynakca");
+  if (!kap) { kap = document.createElement("details"); kap.id = "ob-kaynakca"; }
+  ob.appendChild(kap);                    // her seferinde EN ALTA (sonradan eklenenlerin altına)
+  kap.innerHTML = "";
+  kap.open = false;
+  kap.hidden = !o;
+  if (!o) return;
+  var r = KD.maddeDamga(o);
+  var dg = _KC_DAMGA[r.damga] || _KC_DAMGA.taninmayan;
+  var ozet = document.createElement("summary");
+  ozet.setAttribute("data-ipucu", "Bu maddenin dayandığı kaynakları gösterir (tıklayınca açılır). " + dg[2]);
+  ozet.textContent = "📚 Kaynaklar" + (r.parcalar.length ? " (" + r.parcalar.length + ")" : "") + " · ";
+  var rozet = document.createElement("span");
+  rozet.className = "kc-damga kc-damga-" + r.damga;
+  rozet.textContent = dg[0] + " " + dg[1];
+  ozet.appendChild(rozet);
+  var ol = document.createElement("ul");
+  if (!r.parcalar.length) {
+    var li0 = document.createElement("li");
+    li0.className = "kc-yok";
+    li0.textContent = dg[2];
+    ol.appendChild(li0);
+  }
+  r.parcalar.forEach(function (x) {
+    var li = document.createElement("li");
+    var kd = _KC_KADEME[x.kademe];
+    var et = document.createElement("span");
+    et.className = "kc-kademe " + (kd ? kd[0] : "kc-yok-sinif");
+    et.textContent = kd ? kd[1] : "Sınıflanmadı";
+    var adlar = x.kodlar.map(function (c) { return KD.kodAd[c] ? KD.kodAd[c].ad : c; });
+    if (adlar.length) et.setAttribute("data-ipucu", adlar.join(" · "));
+    li.appendChild(et);
+    li.appendChild(document.createTextNode(" "));
+    var m = x.url ? x.p.match(_KC_SLUG) : null;
+    if (m) {
+      var a = document.createElement("a");
+      a.href = x.url; a.target = "_blank"; a.rel = "noopener";
+      a.textContent = "TDV İslâm Ansiklopedisi, «" + m[1] + "»";
+      li.appendChild(a);
+      if (m[2]) { li.appendChild(document.createTextNode(" — ")); _kcMetinEkle(li, m[2]); }
+    } else {
+      _kcMetinEkle(li, x.p);
+    }
+    ol.appendChild(li);
+  });
+  kap.appendChild(ozet);
+  kap.appendChild(ol);
+}
+function _kaynakcaEski(o) {
   var ob = document.getElementById("olay-bilgi");
   if (!ob) return;
   var kap = document.getElementById("ob-kaynakca");
