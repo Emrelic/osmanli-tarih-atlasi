@@ -508,12 +508,66 @@ AD2_GENEL = {"communists", "communist", "comunist", "saint", "st", "san", "gold"
              "brittany"}
 
 
+_BIR = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth"]
+_ON = {"tenth": 10, "eleventh": 11, "twelfth": 12, "thirteenth": 13, "fourteenth": 14,
+       "fifteenth": 15, "sixteenth": 16, "seventeenth": 17, "eighteenth": 18,
+       "nineteenth": 19, "twentieth": 20, "thirtieth": 30}
+ORDINAL = {w: i + 1 for i, w in enumerate(_BIR)}
+ORDINAL.update(_ON)
+for _onlar, _deger in (("twenty", 20), ("thirty", 30)):
+    for _i, _w in enumerate(_BIR):
+        ORDINAL["%s-%s" % (_onlar, _w)] = _deger + _i + 1
+        ORDINAL["%s %s" % (_onlar, _w)] = _deger + _i + 1
+ORDINAL_KELIME = {w for k in ORDINAL for w in k.replace("-", " ").split()} | {"twenty", "thirty"}
+TR_SIRA = {"birinci": 1, "ikinci": 2, "ucuncu": 3, "dorduncu": 4, "besinci": 5, "altinci": 6,
+           "yedinci": 7, "sekizinci": 8, "dokuzuncu": 9, "onuncu": 10}
+ROMA = {"i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6, "vii": 7, "viii": 8, "ix": 9, "x": 10}
+# Tüm-ad exonym: tek kelimelik genel adlar yalnız AD TAMAMEN buysa çevrilir
+# ("Turks" 666–756 = İkinci Göktürk; "Oghuz Turks" ETKİLENMEZ)
+TAM_AD = {"turks": "gokturk", "turkickhaganate": "gokturk", "gokturks": "gokturk"}
+
+
+def ordinal_sayilar(ad):
+    """İngilizce sıra sayısı (First..Thirty-first, 1st..31st) → {int}."""
+    s = ad.lower()
+    out = set()
+    for k in sorted(ORDINAL, key=len, reverse=True):
+        if re.search(r"\b%s\b" % re.escape(k), s):
+            out.add(ORDINAL[k])
+            s = re.sub(r"\b%s\b" % re.escape(k), " ", s)
+    for m in re.finditer(r"\b(\d{1,2})(st|nd|rd|th)\b", s):
+        out.add(int(m.group(1)))
+    return {x for x in out if 1 <= x <= 31}
+
+
+def kunye_sira(d):
+    """Künye adı + id'sindeki hanedan numaraları; '28.-30.' / '28-30' aralığı açılır."""
+    out = set()
+    for m in (d.get("ad") or "", d["id"]):
+        for a, b in re.findall(r"(\d{1,2})\.?\s*[-–]\s*(\d{1,2})\b", m):
+            a, b = int(a), int(b)
+            if a < b <= a + 15:
+                out.update(range(a, b + 1))
+        for x in re.findall(r"(?<![\d])(\d{1,2})(?![\d])", m):
+            out.add(int(x))
+        for t in re.split(r"[\s\-–—'’,/().:;]+", m):
+            s = sade(t)
+            if s in TR_SIRA:
+                out.add(TR_SIRA[s])
+            elif t in ("I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"):
+                out.add(ROMA[t.lower()])
+    return {x for x in out if 1 <= x <= 31}
+
+
 def ad2_polity(ad):
     """→ (kökler {(katlanmış, ham)}, niteleyiciler, milliyetler)"""
     kok, nit, mil = set(), set(), set()
+    if sade(ad) in TAM_AD:
+        r = TAM_AD[sade(ad)]
+        return {(r, r)}, nit, mil
     for t in re.split(r"[\s\-–—'’,/()]+", ad):
         s = sade(t)
-        if not s or s.isdigit():
+        if not s or s.isdigit() or s in ORDINAL_KELIME or re.fullmatch(r"\d+(st|nd|rd|th)", s):
             continue
         if s in NITELEYICI:
             nit.add(NITELEYICI[s])
@@ -916,19 +970,41 @@ def olc(zip_yol):
     # (künye var ama noktasız/ölçülemedi ⇒ "atlasta-yok" sayılmasın)
     ilk_atlasta_yok = {p for p in P if p_sinif[p] == "atlasta-yok"}
     K_ad2 = {d["id"]: ad2_kunye(d) for d in D}
-    ikinci = {}
+    K_sira = {d["id"]: kunye_sira(d) for d in D}
+    # Künyenin kıta KÜMESİ: başkent noktaları + sahip olduğu yerleşimler (en çok 30 örnek).
+    # Kıta süzgeci künyenin bütün ömrü boyunca TEK kıtada durduğunu varsayar; bu varsayım
+    # (a) künyenin hiç noktası yoksa (kıtası yalnız `bolge`den tahmin) ölçülemez,
+    # (b) künye birden çok kıtaya yayılıyorsa (Vandallar: İspanya → Afrika) yanlıştır.
+    # İki durumda da süzgeç UYGULANMAZ.
+    k_yer = collections.defaultdict(list)
+    for i, L in enumerate(SL):
+        for _f, _t, s, _k in L:
+            if len(k_yer[s]) < 30:
+                k_yer[s].append(i)
+    K_kitalar, yer_kita = {}, {}
+    for d in D:
+        K = d["id"]
+        ks_ = {ulk.bul(x, y)[1] for x, y, _a in BK.get(K, [])}
+        for i in set(k_yer.get(K, [])):
+            if i not in yer_kita:
+                yer_kita[i] = ulk.bul(Y[i]["lon"], Y[i]["lat"])[1]
+            ks_.add(yer_kita[i])
+        K_kitalar[K] = ks_ - {"?"}
+    ikinci, ikinci_aday = {}, {}
     for p in sorted(ilk_atlasta_yok):
         oz = ozet[p]
         pr, pq, pm = ad2_polity(p)
-        if not pr:
+        ps_ = ordinal_sayilar(p)
+        if not pr and not ps_:
             continue
-        # polity'nin bütün satırlarının (en çok 12 örnek) temsil noktası kıtaları — tek temsil
-        # noktası yanıltır (Carthage'ın en büyük satırı İspanya'ya düşer)
-        orn = P[p] if len(P[p]) <= 12 else [P[p][i * len(P[p]) // 12] for i in range(12)]
+        # polity'nin satırlarının (en çok 12 örnek + SON satır) temsil noktası kıtaları — tek
+        # temsil noktası yanıltır (Carthage'ın en büyük satırı İspanya'ya düşer)
+        orn = P[p] if len(P[p]) <= 12 else [P[p][i * len(P[p]) // 12] for i in range(12)] + [P[p][-1]]
         p_kitalar = {ulk.bul(*temsil_noktasi(r["_g"]))[1] for r in orn} - {"?"}
         if {"Avrupa", "Asya"} & p_kitalar:
             p_kitalar |= {"Avrupa", "Asya"}
-        bul = []
+        hanedan_p = bool(re.search(r"\bdynast", p, re.I))
+        bul, zayif = [], []
         for d in D:
             K = d["id"]
             kz = KZ.get(K)
@@ -936,24 +1012,36 @@ def olc(zip_yol):
                 continue
             if kz[1] <= oz["a0"] - AD2_TOLERANS or kz[0] >= oz["a1"] + AD2_TOLERANS:
                 continue
-            kk = k_kita.get(K, "?")
-            if p_kitalar and kk != "?" and kk not in p_kitalar:
+            kks = K_kitalar[K]
+            if len(kks) == 1 and p_kitalar and not (kks & p_kitalar):
                 continue         # kıta çelişkisi (Namayan/Filipinler ≠ Nama/Afrika)
             kr, kq = K_ad2[K]
-            ok, neden = ad2_eslesir(pr, pq, kr, kq, pm)
+            ok, neden = ad2_eslesir(pr, pq, kr, kq, pm) if pr else (False, "")
+            if not ok and ps_ and hanedan_p and (ps_ & K_sira[K]) and re.search(
+                    r"hanedan", (d.get("ad") or "") + " " + K, re.I):
+                ok, neden = True, "sira=%s (hanedan numarası)" % ",".join(
+                    str(x) for x in sorted(ps_ & K_sira[K]))
+            elif ok and ps_ and K_sira[K] and not (ps_ & K_sira[K]):
+                ok = False       # kök tuttu ama sıra numarası çelişiyor
             if ok:
                 ov = ortusme(kz[0], kz[1], PZ[p])
                 durum = "kunye-noktasiz" if K in noktasiz else "kunye-noktali-mekan-tutmadi"
-                bul.append((K, "%s; %s; ortusme %.0f yil (tolerans ±%d)" % (
-                    durum, neden, ov, AD2_TOLERANS)))
+                kayit = (K, "%s; %s; ortusme %.0f yil (tolerans ±%d)" % (
+                    durum, neden, ov, AD2_TOLERANS))
+                # zaman örtüşmesi 0, yalnız tolerans içinde ⇒ künye-var DEĞİL, aday
+                (bul if ov > 0 else zayif).append(kayit)
         if bul:
             ikinci[p] = bul
             p_sinif[p] = "kunye-var-noktasiz"
+        if zayif:
+            ikinci_aday[p] = zayif
+            if not bul:
+                p_sinif[p] = "aday"
     for r in R:
         r.pop("_g", None)
 
     return dict(R=R, P=P, ozet=ozet, ciftler=ciftler, p_sinif=p_sinif, k_sinif=k_sinif,
-                ikinci=ikinci, ilk_atlasta_yok=ilk_atlasta_yok,
+                ikinci=ikinci, ikinci_aday=ikinci_aday, ilk_atlasta_yok=ilk_atlasta_yok,
                 p_es=p_es, k_es=k_es, p_ad=p_ad, k_ad=k_ad, D=D, kunye=kunye, KZ=KZ,
                 BK=BK, bk_durum=bk_durum, sahipli=sahipli, noktasiz=noktasiz, iliski=iliski,
                 yil_say=yil_say, ic_ad=ic_ad, Y=Y, en_erken=en_erken, acik_uc=acik_uc,
@@ -974,7 +1062,9 @@ SINAV_IKINCI = [("Assyria", ["eski-asur", "orta-asur", "yeni-asur"]),
                 ("Western Xia", ["bati-xia"]), ("Hunnic Empire", ["hun-avrupa"]),
                 ("Huns", ["hun-avrupa"]), ("Tibetans", ["tibet-imparatorlugu"]),
                 ("Scythia", ["skit-krallik"]), ("Yuezhi", ["kusan"]), ("Türgesh", ["turges"]),
-                ("Carthage", ["kartaca"])]
+                ("Carthage", ["kartaca"]),
+                ("Twenty-sixth Dynasty of Egypt", ["sait-26-hanedan"]),
+                ("Vandals", ["vandal"]), ("Turks", ["dogu-gokturk-2"])]
 SINAV_GERCEK_EKSIK = ["Phrygia", "Vakataka Kingdom", "Anurādhapura"]
 SINAV_NEGATIF = [("Byzantine Empire", "safevi"), ("Ottoman Empire", "akad"),
                  ("Akkadian Empire", "bizans")]
@@ -1022,11 +1112,16 @@ def sinav(O):
             olculemedi = True
             continue
         s = O["p_sinif"][pad]
-        bulunan = {K for K, _n in O["ikinci"].get(pad, [])}
+        guclu = {K for K, _n in O["ikinci"].get(pad, [])}
+        zayif = {K for K, _n in O["ikinci_aday"].get(pad, [])}
+        bulunan = guclu | zayif
         eksik = [K for K in beklenen if K not in bulunan]
-        if s == "kunye-var-noktasiz" and not eksik:
-            sonuc.append(("AD2", pad, "/".join(beklenen), "GEÇTİ kunye-var-noktasiz → %s"
-                          % ",".join(sorted(bulunan))))
+        # Kural (4): örtüşmesi 0 olup yalnız ±tolerans ile tutan çift `aday`a gider. O
+        # yüzden beklenen künye zayıf listede olabilir; sınıf ya kunye-var-noktasiz (en az bir
+        # örtüşen çift) ya da aday (hepsi tolerans) olmalı — atlasta-yok OLMAMALI.
+        if s in ("kunye-var-noktasiz", "aday") and not eksik:
+            sonuc.append(("AD2", pad, "/".join(beklenen), "GEÇTİ %s → örtüşen: %s · yalnız-tolerans(aday): %s"
+                          % (s, ",".join(sorted(guclu)) or "-", ",".join(sorted(zayif)) or "-")))
         else:
             sonuc.append(("AD2", pad, "/".join(beklenen), "KALDI sınıf=%s bulunan=%s eksik=%s"
                           % (s, sorted(bulunan), eksik)))
@@ -1128,13 +1223,17 @@ def yaz(O, zip_yol, sinav_s, sinav_kod):
           int(oz[p]["bilesik"]), oz[p]["wd"], oz[p]["sid"], oz[p]["wp"], O["ipucu"].get(p, "")]
          for i, p in enumerate(yok)])
 
-    kv = sorted(O["ikinci"], key=lambda p: -oz[p]["alan"] * oz[p]["sure"])
+    kv = sorted(set(O["ikinci"]) | set(O["ikinci_aday"]), key=lambda p: -oz[p]["alan"] * oz[p]["sure"])
     tsv("kunye_var_noktasiz.tsv",
-        ["ad", "bas_astro", "son_astro", "donem", "kita", "modern_ulke", "en_buyuk_alan_km2",
-         "sure_yil", "bilesik", "Wikidata", "kunye_id", "kunye_ad", "neden"],
-        [[p, oz[p]["a0"], oz[p]["a1"] - 1, donem(oz[p]["a0"]), oz[p]["kita"], oz[p]["ulke"],
-          oz[p]["alan"], oz[p]["sure"], int(oz[p]["bilesik"]), oz[p]["wd"], K,
-          kunye[K].get("ad"), n] for p in kv for K, n in O["ikinci"][p]])
+        ["cift_sinifi", "polity_sinifi", "ad", "bas_astro", "son_astro", "donem", "kita",
+         "modern_ulke", "en_buyuk_alan_km2", "sure_yil", "bilesik", "Wikidata", "kunye_id",
+         "kunye_ad", "neden"],
+        [[cs, ps[p], p, oz[p]["a0"], oz[p]["a1"] - 1, donem(oz[p]["a0"]), oz[p]["kita"],
+          oz[p]["ulke"], oz[p]["alan"], oz[p]["sure"], int(oz[p]["bilesik"]), oz[p]["wd"], K,
+          kunye[K].get("ad"), n]
+         for p in kv for cs, src in (("kunye-var-noktasiz", O["ikinci"]),
+                                     ("aday(yalniz-tolerans)", O["ikinci_aday"]))
+         for K, n in src.get(p, [])])
 
     ozg = [d for d in O["D"] if ks[d["id"]] in ("atlasa-ozgu",) or ks[d["id"]].startswith("noktasiz")]
     ozg.sort(key=lambda d: (ks[d["id"]], KZ[d["id"]][0] if KZ[d["id"]] else 9e9))
@@ -1180,10 +1279,10 @@ def rapor(O, zip_yol, sinav_s, sinav_kod, yok):
     tekil0 = [p for p in oz if not oz[p]["bilesik"] and p not in O["kapsam_disi"]]
     w("- **İkinci geçiş (ad + zaman, yalnız mekânsal eşleşmesi olmayanlar):** atlasta-yok "
       "ÖNCE %d (tekil %d) → SONRA %d (tekil %d); %d polity `kunye-var-noktasiz`e geçti "
-      "(`kunye_var_noktasiz.tsv`)." % (
+      "ve %d polity yalnız tolerans çiftiyle `aday`a geçti (`kunye_var_noktasiz.tsv`)." % (
           len(O["ilk_atlasta_yok"]), sum(1 for p in O["ilk_atlasta_yok"] if p in tekil0),
           pc["atlasta-yok"], sum(1 for p in tekil0 if ps[p] == "atlasta-yok"),
-          len(O["ikinci"])))
+          len(O["ikinci"]), sum(1 for p in O["ikinci_aday"] if p not in O["ikinci"])))
     w("- **Künye sınıfları (%d künye%s):** " % (len(O["D"]), ", 1'i sentetik osmanli" if O["kunye_sentetik"] else "")
       + " · ".join("%s %d" % (k, v) for k, v in sorted(kc.items())))
     w("- **İki yönlü sınav:** çıkış %d (%s)." % (sinav_kod, {0: "geçti", 1: "KALDI", 2: "ölçülemedi var"}[sinav_kod]))
@@ -1320,10 +1419,22 @@ def rapor(O, zip_yol, sinav_s, sinav_kod, yok):
       "(Avrupa↔Asya hariç). Ad burada mekânın ölçülemediği yerde KÜNYENİN VARLIĞINI gösterir; mekânsal "
       "eşleşme DEĞİLDİR." % AD2_TOLERANS)
     w("")
-    w("| Cliopatria | astro | künye(ler) |\n|---|---|---|")
-    for p in sorted(O["ikinci"], key=lambda p: -oz[p]["alan"] * oz[p]["sure"]):
-        w("| %s | %d…%d | %s |" % (p, oz[p]["a0"], oz[p]["a1"] - 1,
-                                   "; ".join("%s (%s)" % kn for kn in O["ikinci"][p])))
+    w("")
+    w("Ek kurallar: İngilizce sıra sayısı (First…Thirty-first, 1st…31st) rakama çevrilir; adında "
+      "'Dynasty' geçen polity, aynı numarayı (aralık dahil: `misir-28-30-hanedan` → 28,29,30) "
+      "taşıyan 'hanedan' künyesiyle kök tutmasa da eşleşir; kök tutup numara çelişirse eşleşmez. "
+      "Kıta süzgeci künyenin kıta KÜMESİyle çalışır (başkent + sahip olduğu yerleşimler); künyenin "
+      "noktası yoksa ya da künye birden çok kıtaya yayılıyorsa uygulanmaz. Tüm-ad exonym: yalnız "
+      "adı tamamen 'Turks' olan polity → göktürk kökü ('Oghuz Turks' etkilenmez). **Zaman örtüşmesi "
+      "0 olup yalnız ±%d yıl toleransıyla tutan çift `kunye-var-noktasiz` SAYILMAZ, `aday`dır**; "
+      "polity'nin bütün çiftleri böyleyse polity sınıfı `aday` olur." % AD2_TOLERANS)
+    w("")
+    w("| Cliopatria | astro | sınıf | künye (örtüşen) | yalnız tolerans (aday) |\n|---|---|---|---|---|")
+    for p in sorted(set(O["ikinci"]) | set(O["ikinci_aday"]), key=lambda p: -oz[p]["alan"] * oz[p]["sure"]):
+        w("| %s | %d…%d | %s | %s | %s |" % (
+            p, oz[p]["a0"], oz[p]["a1"] - 1, ps[p],
+            "; ".join("%s (%s)" % kn for kn in O["ikinci"].get(p, [])) or "-",
+            "; ".join("%s (%s)" % kn for kn in O["ikinci_aday"].get(p, [])) or "-"))
     w("")
     w("## Kırılma ayrımı")
     bire_cok = {p: v for p, v in O["p_es"].items() if len({c["K"] for c in v}) >= 2}
