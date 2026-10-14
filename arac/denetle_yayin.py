@@ -1259,6 +1259,12 @@ def main():
         # Sema VERI-YAPISI.md 'yer_kat.js' · ilk doldurma denetim/YER-KAT-1014.
         "data/yer_kat.js":               "kademe tanik birikimi (silsile halka 4); "
                                          "onkosul OLCUM (silsile_olc.py) + arayuz karari",
+        # ── 14 EKIM 2026 — KAYNAK GUVEN TABLOSU (Emre karari) ─────────────────
+        # Kaynak damgasinin TEK tablosu; bugun yalniz arac/kaynak_guven.py okur.
+        # Arayuz isi (Kaynaklar baglantisi + guvensiz maddeyi gizleme) index.html'e
+        # ekleyince bu satir CIKAR. Olcum: denetim/KAYNAK-GUVEN-1014.
+        "data/kaynak_guven.js":          "kaynak damga tablosu (A/B/C kademe); "
+                                         "onkosul ARAYUZ (Kaynaklar baglantisi + gizleme)",
         # ── 16 AGUSTOS GECE PARTISI — SEKIZ DOSYA, HEPSI AYNI ONKOSULDA ──
         # Sekiz oturum es zamanli calisti ve her biri KENDI dosyasina yazdi
         # (adlandirma: scratchpad UUID'inin ilk 6 hanesi — cakisma YAPISAL
