@@ -867,6 +867,11 @@
      "yol": "data/olaylar_p0059.js",
      "sha": "dc2e0b82d3668a5e",
      "bayt": 3705
+    },
+    {
+     "yol": "data/olaylar_sehir_ilk.js",
+     "sha": "32d508fee1c8fb3e",
+     "bayt": 6292
     }
    ],
    "bayt": 178710
