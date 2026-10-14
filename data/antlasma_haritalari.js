@@ -1505,4 +1505,76 @@ window.ANTLASMA_HARITALARI = [
   not: "Mondros'tan sonra bölge yeniden elden çıktı; kesin çözüm Moskova ve Kars 1921 kayıtlarında."
 }
 // <<< KUTU-H4-1015 ikinci parti BITTI
+
+,
+// >>> KUTU-H4-1015 üçüncü parti (0054/H-0020) — Osmanlı'nın taraf olduğu beş antlaşma: Konya 1415 ·
+// Venedik 1502 · İskenderiye 1828 · Londra Protokolü 1830 · Hewett 1884. Aynı yöntem: nokta = atlastaki
+// yerleşim koordinatı; kaynak = yeri ADIYLA anan kronoloji maddesinin TDV kaynağı.
+{
+  id: "konya-1415",
+  antlasma_ad: "Karamanoğulları ile antlaşma",
+  tarih: "1415-03-01",
+  bolgeler: [
+    { taraf: "osmanli", etiket: "Osmanlı'ya geri verilen (Hamîd-ili, Beyşehir, Seydişehir, Akşehir)", zarf: true, noktalar: [
+        { ad: "Beyşehir", lat: 37.677, lon: 31.724, kaynak: "Konya kuşatması maddesi (olaylar, TDV karamanogullari): Mehmed Bey Beyşehir, Seydişehir ve Akşehir'i Osmanlılar'a geri vermek zorunda kaldı" },
+        { ad: "Seydişehir", lat: 37.421, lon: 31.849, kaynak: "aynı madde (TDV karamanogullari), adıyla" },
+        { ad: "Akşehir", lat: 38.357, lon: 31.416, kaynak: "aynı madde (TDV karamanogullari), adıyla" },
+        { ad: "Isparta (Hamîd-ili)", lat: 37.765, lon: 30.554, kaynak: "aynı madde (TDV mehmed-i): Hamîd-ili (Isparta yöresi) Osmanlı ülkesine katıldı — Isparta Hamîd-ili'nin TEMSİLÎ noktası" }
+    ] }
+  ],
+  not: "Said-ili bölge adıdır, tek şehir anılmadığından noktalanmadı. Madde TDV mehmed-i (Mart 1415) ile karamanogullari (817/1414) arasındaki yıl çelişkisini kendi kaynağında beyan eder."
+},
+{
+  id: "venedik-1502",
+  antlasma_ad: "Osmanlı-Venedik Savaşı'nın sona ermesi",
+  tarih: "1502-12-14",
+  bolgeler: [
+    { taraf: "osmanli", etiket: "Osmanlı'da kalan (İnebahtı, Modon, Koron)", noktalar: [
+        { ad: "İnebahtı", lat: 38.399, lon: 21.827, kaynak: "Osmanlı-Venedik barışı maddesi (olaylar, TDV venedik): Sapienza, İnebahtı, Modon ve Koron'un kaybıyla sarsılan Venedik Mora'daki en önemli üslerini kaybetti" },
+        { ad: "Modon", lat: 36.8207, lon: 21.7075, kaynak: "aynı madde (TDV venedik), adıyla" },
+        { ad: "Koron", lat: 36.796, lon: 21.955, kaynak: "aynı madde (TDV venedik), adıyla" }
+    ] }
+  ],
+  not: "Sapienza bir ada/deniz savaşı adı olarak geçer, atlasta yerleşim değil. Venedik'in ticarî imtiyazları toprak hükmü olmadığından çizilmedi."
+},
+{
+  id: "iskenderiye-1828",
+  antlasma_ad: "İskenderiye Sözleşmesi",
+  tarih: "1828-08-06",
+  bolgeler: [
+    { taraf: "yunanistan", etiket: "Mısır kuvvetlerinin boşaltacağı Mora (fiilen Yunanistan'a)", zarf: true, noktalar: [
+        { ad: "Mora (Tripoliçe)", lat: 37.510, lon: 22.379, kaynak: "İskenderiye Sözleşmesi maddesi (olaylar, TDV navarin): Mehmed Ali kuvvetlerini Mora'dan çekmeyi kabul etti · 'Mısır kuvvetleri Mora'yı boşalttı' maddesi (TDV mora): yarımada fiilen elden çıktı" },
+        { ad: "Modon", lat: 36.8207, lon: 21.7075, kaynak: "'Mısır kuvvetleri Mora'yı boşalttı' maddesi (TDV mora): Modon aynı tarihte elden çıktı" },
+        { ad: "Koron", lat: 36.796, lon: 21.955, kaynak: "aynı madde (TDV mora), adıyla" }
+    ] }
+  ],
+  not: "Sözleşme bir Mısır valisinin İngiliz amiraliyle doğrudan yaptığı tahliye anlaşmasıdır; Mora'nın hukukî devri 1830 Londra Protokolü'yle (bkz. londra-1830)."
+},
+{
+  id: "londra-1830",
+  antlasma_ad: "Londra Protokolü — Yunanistan",
+  tarih: "1830-02-03",
+  bolgeler: [
+    { taraf: "yunanistan", etiket: "Bağımsız Yunanistan'a (Mora, Attika, Eğriboz, Kiklad)", zarf: true, noktalar: [
+        { ad: "Mora (Tripoliçe)", lat: 37.510, lon: 22.379, kaynak: "Londra Protokolü maddesi (olaylar_ek8.js, TDV yunanistan): Mora yarımadası, Attika ve Eğriboz ile Kiklad adaları yeni devlete bırakıldı — Tripoliçe Mora'nın TEMSİLÎ noktası" },
+        { ad: "Atina", lat: 37.976, lon: 23.734, kaynak: "aynı madde — Attika'nın TEMSİLÎ noktası" },
+        { ad: "Eğriboz", lat: 38.4631, lon: 23.6023, kaynak: "aynı madde, adıyla" },
+        { ad: "Andros", lat: 37.833, lon: 24.933, kaynak: "aynı madde — Kiklad adalarının TEMSİLÎ noktası" },
+        { ad: "Nakşa", lat: 37.0970, lon: 25.3825, kaynak: "aynı madde — Kiklad adalarının TEMSİLÎ noktası" }
+    ] }
+  ],
+  not: "Sınır Arta-Volos hattıdır (madde); Arta ve Golos hat uçlarıdır, Osmanlı'da kaldıkları için Yunan bölgesine konmadı. Zarf denizi de kapsar — kara ve ada çekirdeğinin kaba dış sınırıdır."
+},
+{
+  id: "hewett-1884",
+  antlasma_ad: "Hewett (Adua) Antlaşması",
+  tarih: "1884-06-03",
+  bolgeler: [
+    { taraf: "habesistan", etiket: "Habeşistan'a geri verilen (Bogos)", noktalar: [
+        { ad: "Kerene", lat: 15.778, lon: 38.451, kaynak: "Hewett Antlaşması maddesi (olaylar_ek9.js, TDV habesistan): ikinci madde Bogos'u Habeşistan'a geri veriyordu; Kerene on iki yıllık Mısır idaresinden çıktı" }
+    ] }
+  ],
+  not: "Masavva üzerinden serbest transit hükmü toprak devri olmadığından çizilmedi (bkz. antlasma9-hewett kartı)."
+}
+// <<< KUTU-H4-1015 üçüncü parti BITTI
 ];

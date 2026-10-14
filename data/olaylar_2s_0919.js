@@ -302,10 +302,11 @@ window.OLAYLAR_2S_0919 = [
   kaynak:"R. Pourtier, 'De Franceville à Masuku, ontogenèse d'une ville centenaire', Bulletin de l'Association de géographes français 57/473 (1980), https://www.persee.fr/doc/bagf_0004-5322_1980_num_57_473_5203 — AYNEN: \"C'était le 13 juin 1880, sur un éperon rocheux dominant la rivière Mpassa.\" · hassasiyet: GÜN · veri kırılması 19 Eyl'de 06-01'den 06-13'e çekildi" },
 
 // ── 1888 ─────────────────────────────────────────────────────────────
-{ t:"1888-01-01", b:"Hadramut sahili (Mükellâ) İngiliz himayesine girdi", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Mukalla",
+{ t:"1888-05-01", b:"Hadramut sahili (Mükellâ) İngiliz himayesine girdi", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Mukalla",
+  ic_not_gun:"KUTU-H4-1015: yıl yer tutucusu 1888-01-01'di; gün Aitchison, A Collection of Treaties c. XI No. LXXI (himaye antlaşması metni): 1 Mayıs 1888'de Şihr'de imzalandı. TDV hadramut yalnız yılı verir. Mukalla yerleşiminin ingiltere dönemi başlangıcı da aynı güne çekildi.",
   etiket:["antlasma","toprak-kazanc","konu-siyasi"],
   d:"Şihr ve Mükellâ dahil Hadramut sahiline hâkim olan Yâfiîler (Kuaytîler) ile İngiltere arasında himaye antlaşması imzalandı; İngilizler sahildeki Yâfiî yönetiminin dış ilişkilerini tamamen üstlendi.",
-  kaynak:"TDV `hadramut` — AYNEN: \"İngilizler, 1888’de imzaladıkları himaye antlaşmasıyla da sahilde hâkim olan Yâfiîler’in dış ilişkilerini tamamen üzerlerine aldılar.\" · hassasiyet: YIL · NOT: himaye (tâbi) ilişkisi; veride doğrudan `ingiltere`" },
+  kaynak:"TDV `hadramut` — AYNEN: \"İngilizler, 1888’de imzaladıkları himaye antlaşmasıyla da sahilde hâkim olan Yâfiîler’in dış ilişkilerini tamamen üzerlerine aldılar.\" · Aitchison c. XI No. LXXI (gün: 1 Mayıs 1888) · hassasiyet: GÜN · NOT: himaye (tâbi) ilişkisi; veride doğrudan `ingiltere`" },
 
 // ── 1890 ─────────────────────────────────────────────────────────────
 { t:"1890-01-01", b:"Fransızlar Colof'un tamamına hâkim oldu", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Linguère (Colof)",
