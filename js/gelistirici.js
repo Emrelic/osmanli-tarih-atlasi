@@ -121,16 +121,27 @@
   function yuvarla(p) { return [Math.round(p[0] * 1e4) / 1e4, Math.round(p[1] * 1e4) / 1e4]; }
 
   // ------------------------------------------------------------ GitHub API
+  // 🔴 ZAMAN AŞIMI (Emre 15 Ekim: "kaydediliyor… yazıp duruyor, kaydetmiyor").
+  //    Asılı kalan bir istek düğmeyi sonsuza dek "kaydediliyor…"da bırakıyor ve
+  //    hiçbir hata göstermiyordu. 30 sn sonra kesilir, sebep ekrana yazılır.
+  var GH_SURE = 30000;
   function gh(yol, yontem, govde) {
     var h = { "Accept": "application/vnd.github+json" };
     if (G.token) h["Authorization"] = "Bearer " + G.token;
     if (govde) h["Content-Type"] = "application/json";
+    var ac = typeof AbortController === "function" ? new AbortController() : null;
+    var z = ac ? setTimeout(function () { ac.abort(); }, GH_SURE) : null;
     return fetch(yol.indexOf("http") === 0 ? yol : API + yol,
-                 { method: yontem || "GET", headers: h, body: govde ? JSON.stringify(govde) : undefined })
+                 { method: yontem || "GET", headers: h, body: govde ? JSON.stringify(govde) : undefined,
+                   signal: ac ? ac.signal : undefined })
       .then(function (r) {
         if (!r.ok) return r.text().then(function (t) { throw new Error("GitHub " + r.status + ": " + t.slice(0, 160)); });
         return r.status === 204 ? null : r.json();
-      });
+      }, function (e) {
+        if (e && e.name === "AbortError") throw new Error("GitHub " + (GH_SURE / 1000) + " sn içinde cevap vermedi (ağ/GitHub erişimi?)");
+        throw new Error("GitHub'a ulaşılamadı: " + (e && e.message || e));
+      })
+      .finally(function () { if (z) clearTimeout(z); });
   }
 
   function dogrula(token) {
@@ -504,25 +515,35 @@
       var metin = ta.value.trim();
       if (!metin) { ta.focus(); return; }
       kaydet.disabled = true; kaydet.textContent = "kaydediliyor…";
-      var v = baglamTopla(hedef);
-      if (gs) {
-        var g = GORUNURLUK[+gs.value].gun;
-        v.gorunur = { f: gunYazi(gunHedef - g), t: gunYazi(gunHedef + g) };
+      function geriAl(e) {
+        console.error("[geliştirici] not kaydedilemedi:", e);
+        kaydet.disabled = false; kaydet.textContent = "💾 Kaydet";
+        bildir("Kaydedilemedi: " + (e && e.message || e), true);
       }
-      var ilk = metin.split("\n")[0];
-      var baslik = "[" + v.gun + "] " + (ilk.length > 70 ? ilk.slice(0, 68) + "…" : ilk);
-      gh("/issues", "POST", { title: baslik, body: govdeYaz(metin, v), labels: [ETIKET, "not:acik"] })
+      // Bağlam toplama `catch`in DIŞINDAYDI: burada fırlayan bir istisna düğmeyi
+      // "kaydediliyor…"da bırakıp hiçbir şey göstermiyordu.
+      var istek;
+      try {
+        var v = baglamTopla(hedef);
+        if (gs) {
+          var g = GORUNURLUK[+gs.value].gun;
+          v.gorunur = { f: gunYazi(gunHedef - g), t: gunYazi(gunHedef + g) };
+        }
+        var ilk = metin.split("\n")[0];
+        var baslik = "[" + v.gun + "] " + (ilk.length > 70 ? ilk.slice(0, 68) + "…" : ilk);
+        istek = gh("/issues", "POST", { title: baslik, body: govdeYaz(metin, v), labels: [ETIKET, "not:acik"] });
+      } catch (e) { geriAl(e); return; }
+      istek
         .then(function (is) {
           kapat();
-          var x = notCoz(is);
-          if (x) { G.notlar.push(x); G.notlar.sort(function (a, b) { return a.gi - b.gi || a.no - b.no; }); }
-          G.gorunen = null; hepsiniCiz();
           bildir("✅ Not #" + is.number + " kaydedildi");
-        })
-        .catch(function (e) {
-          kaydet.disabled = false; kaydet.textContent = "💾 Kaydet";
-          bildir("Kaydedilemedi: " + e.message, true);
-        });
+          // Not GitHub'a düştü; çizimdeki bir kusur onu "kaydedilemedi" diye göstermesin.
+          try {
+            var x = notCoz(is);
+            if (x) { G.notlar.push(x); G.notlar.sort(function (a, b) { return a.gi - b.gi || a.no - b.no; }); }
+            G.gorunen = null; hepsiniCiz();
+          } catch (e) { console.warn("[geliştirici] not kaydedildi ama çizilemedi:", e); }
+        }, geriAl);
     };
   }
 
