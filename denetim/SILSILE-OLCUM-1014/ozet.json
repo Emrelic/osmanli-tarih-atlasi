@@ -1,0 +1,283 @@
+{
+ "kimlik": {
+  "commit": "f39458eb077243bb248a5dd53f8cc553cbcaec4f",
+  "dal": "worktree-agent-ae1a5d8fb426218b5",
+  "agac": "C:\\atlas\\.claude\\worktrees\\agent-ae1a5d8fb426218b5",
+  "kirli": "",
+  "tarih": "2026-10-14 11:12",
+  "makine": "EMRELIC"
+ },
+ "evren": {
+  "yerlesim": 4563,
+  "kunye": 1800,
+  "kron_dosya": 187,
+  "yuklenemeyen": [],
+  "dizisiz": [],
+  "madde_toplam": 22795
+ },
+ "h3": {
+  "sayac": {
+   "kronoloji-dosyasi|madde": 10542,
+   "kronoloji-dosyasi|yer-alanli": 9210,
+   "kronoloji-dosyasi|yer-tam-cozuldu": 8033,
+   "kronoloji-dosyasi|yer-kismi": 340,
+   "kronoloji-dosyasi|yer-yalniz-bolge-cografi": 493,
+   "kronoloji-dosyasi|yer-hic-cozulmedi": 344,
+   "kronoloji-dosyasi|yer-alansiz": 1332,
+   "kronoloji-dosyasi|yer-alansiz-metinde-yerlesim": 445,
+   "kunye-kronolojisi|madde": 12253,
+   "kunye-kronolojisi|yer-alansiz": 12253,
+   "kunye-kronolojisi|yer-alansiz-metinde-yerlesim": 2939
+  },
+  "parca": {
+   "yer_id|bulundu|sehir": 7807,
+   "yer|bulundu|sehir": 3577,
+   "yer|yok|cografi": 174,
+   "yer|yok|sehir": 706,
+   "yer|yok|bolge-ulke": 376,
+   "yer|yok|serbest-metin": 295,
+   "yer|yok|devlet-adi": 48,
+   "yer|belirsiz|sehir": 10
+  },
+  "yol": {
+   "yer_id|birebir": 7795,
+   "yer|birebir": 3094,
+   "yer|parantez": 101,
+   "yer|normal": 384,
+   "yer|kural": 3,
+   "yer|esanlam": 5,
+   "yer_id|normal": 11,
+   "yer_id|parantez": 1
+  },
+  "yer_kon": {
+   "<=10": 607,
+   "<=25": 758,
+   "<=50": 947,
+   "toplam": 1155
+  },
+  "cozulmeyen_sehir_ad": 547,
+  "baskent": {
+   "hic-cozulmedi": 321,
+   "tam": 1115,
+   "kismi": 112,
+   "yalniz-bolge-serbest": 123,
+   "baskent-bos-tire": 44,
+   "baskent-alani-yok": 85
+  },
+  "metin_bulunan_yerlesim_ad": 1191,
+  "metin_aday_ad": 9164,
+  "alias_reddedilen": 137,
+  "metin_elenen_eslesme": {
+   "bolge-ulke-devlet-adi": 1455,
+   "kisi-adi-kelimesi": 1121,
+   "bilesik-ozel-ad-parcasi": 427
+  },
+  "elle_reddedilen": [],
+  "esanlam_yuklu": 25
+ },
+ "h4": {
+  "hucre": 38411,
+  "kara_hucre": 11519,
+  "kara_esik": 0.25,
+  "kara_hucre_50": 10887,
+  "kara_hucre_pos": 12689,
+  "izgara_disi_yerlesim": 0,
+  "tarih": {
+   "1000": {
+    "boyayan": 21,
+    "sahnede": 2869
+   },
+   "1100": {
+    "boyayan": 38,
+    "sahnede": 2877
+   },
+   "1200": {
+    "boyayan": 54,
+    "sahnede": 2880
+   },
+   "1300": {
+    "boyayan": 2545,
+    "sahnede": 2896
+   },
+   "1400": {
+    "boyayan": 2603,
+    "sahnede": 2935
+   },
+   "1500": {
+    "boyayan": 2666,
+    "sahnede": 2988
+   },
+   "1600": {
+    "boyayan": 2857,
+    "sahnede": 3159
+   },
+   "1700": {
+    "boyayan": 3165,
+    "sahnede": 3451
+   },
+   "1800": {
+    "boyayan": 3440,
+    "sahnede": 3704
+   },
+   "1900": {
+    "boyayan": 4161,
+    "sahnede": 4320
+   },
+   "2000": {
+    "boyayan": 4264,
+    "sahnede": 4542
+   }
+  },
+  "sehir1900": {
+   "toplam": 1702,
+   "koordli": 1702,
+   "say": {
+    "n<2": 1392,
+    "n<3": 1545,
+    "n<1": 914,
+    "kara-disi-hucre": 65,
+    ">200km": 36
+   },
+   "hucre": {
+    "n<2": 923,
+    "n<3": 1011,
+    "n<1": 611,
+    ">200km": 24
+   }
+  }
+ },
+ "sinav": {
+  "kaldi": 0,
+  "satir": [
+   [
+    "VAR bekleniyor",
+    "Stokholm",
+    "bulundu",
+    "birebir",
+    "Stokholm",
+    "geçti"
+   ],
+   [
+    "VAR bekleniyor",
+    "Budin",
+    "bulundu",
+    "birebir",
+    "Budin",
+    "geçti"
+   ],
+   [
+    "VAR bekleniyor",
+    "Revan",
+    "bulundu",
+    "birebir",
+    "Revan",
+    "geçti"
+   ],
+   [
+    "VAR bekleniyor",
+    "İstanbul",
+    "bulundu",
+    "birebir",
+    "İstanbul",
+    "geçti"
+   ],
+   [
+    "VAR bekleniyor",
+    "Buda",
+    "bulundu",
+    "esanlam",
+    "Budin",
+    "geçti"
+   ],
+   [
+    "VAR bekleniyor",
+    "Suceava",
+    "bulundu",
+    "parantez",
+    "Suçava (Suceava)",
+    "geçti"
+   ],
+   [
+    "VAR bekleniyor",
+    "Kruja",
+    "bulundu",
+    "parantez",
+    "Akçahisar (Kruja)",
+    "geçti"
+   ],
+   [
+    "YOK bekleniyor",
+    "Ani",
+    "yok",
+    "-",
+    "",
+    "geçti"
+   ],
+   [
+    "YOK bekleniyor",
+    "Mistra",
+    "yok",
+    "-",
+    "",
+    "geçti"
+   ],
+   [
+    "YOK bekleniyor",
+    "Sis (Kozan)",
+    "yok",
+    "-",
+    "",
+    "geçti"
+   ],
+   [
+    "YOK bekleniyor",
+    "Harran",
+    "yok",
+    "-",
+    "",
+    "geçti"
+   ],
+   [
+    "YOK bekleniyor",
+    "Alamut",
+    "yok",
+    "-",
+    "",
+    "geçti"
+   ],
+   [
+    "YOK bekleniyor",
+    "Rey",
+    "yok",
+    "-",
+    "",
+    "geçti"
+   ],
+   [
+    "YOK bekleniyor",
+    "Yayçe/Jajce",
+    "bulundu",
+    "parantez",
+    "Yayça (Jajce)",
+    "BULDU — açıklama gerekir"
+   ],
+   [
+    "katlama",
+    "İstanbul = istanbul",
+    "istanbul",
+    "-",
+    "istanbul",
+    "geçti"
+   ],
+   [
+    "katlama",
+    "IĞDIR = Iğdır",
+    "igdir",
+    "-",
+    "igdir",
+    "geçti"
+   ]
+  ]
+ },
+ "sure_sn": 105
+}
