@@ -511,6 +511,21 @@ ekle("g1-osm-ir", "osmanli", IR, "1913-11-17", "D", [iqkara],
      "listesi 4 Kas diyor — çelişki, D1 ile aynı gün kullanıldı); yerinde işaretleme Eki 1914'te bitti. Öncesi "
      "Erzurum 1847 (işaretsiz, koordinatsız ⇒ YAZILMADI). t=Irak Krallığı",
      t="1921-08-23")
+# 🆕 14 Ekim 2026 — EMRE KARARI (KARARLAR-1014 m.8, 0077/H-0070, seçenek a): aynı 1913/14 hattı Mondros'tan
+# (30 Ekim 1918) Irak Krallığı'na kadar FİİLÎ görünümde İngiliz yakasıyla yazılır — atlas Bağdat/Basra'yı
+# 1914/1917 → 1921-08-23 `ingiltere` boyuyor, D yaslaması 'osmanli' gövdesini şeritte bulamıyordu.
+# Hukukî görünüm DEĞİŞMEZ (g1-osm-ir E, Osmanlı hukuken 1923'e dek taraf). kategori "fiili" → sinif D
+# (yalnız fiilî görünümde çizilir). ⚠️ Bu satır yazıldığında ÜRETİLMEDİ: GeoNames dökümü bu makinede yok.
+ekle("g1-ing-ir-fiili", "ingiltere", IR, "1918-10-30", "fiili", [iqkara],
+     [PROT, {"ad": "Mondros Mütarekesi", "tarih": "1918-10-30", "tur": "mütareke", "kaynak": "TDV mondros-mutarekesi"},
+      {"ad": "IBS No. 164 Iran–Iraq", "tur": "resmî sınır çalışması",
+       "alinti": "The boundary is demarcated throughout by pillars or rivers"}],
+     {"deger": False, "kaynak": "IBS 164"},
+     {"t": "1914-10", "not": "1913-14 komisyonu"},
+     2.0, KES_NE + " · Şattülarap ayrımı IBS oranıyla (yaklaşık)",
+     "FİİLÎ: Mondros sonrası İngiliz işgal idaresi (atlasta `ingiltere`); hat 1913/14 protokol hattıdır, işgal hattı değil. "
+     "f = Mondros (30 Ekim 1918), t = Faysal'ın tahta çıkışı (23 Ağustos 1921, TDV irak--ulke). KARARLAR-1014 m.8",
+     t="1921-08-23")
 yok("g1-osm-ir-DEGISTI-sattularap", "osmanli", IR, "1913-11-17", bbox([satt], 0.06),
     {"deger": True, "kaynak": "IBS 164", "not": "1913 sol kıyı sınırı; 1937 ve 1975'te değişti"},
     [PROT], "GERİYE SARMA G1", t="1921-08-23")

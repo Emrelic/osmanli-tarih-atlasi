@@ -152,10 +152,10 @@ window.YERLESIMLER_SERHAT = [
 //    karşı veriye konmuş bir sınır taşıdır (`§3.5.1` iki uç kuralı).
 { ad:"Alacahisar (Kruševac)", tur:"sehir", lat:43.5800, lon:21.3270, g:0, k:3, m:"Belgrad",
   s:[{f:"1281-01-01",t:"1428-01-01",d:"sirbistan"},
-     {f:"1444-08-01",t:"1454-01-01",d:"sirp-despotlugu"},
+     {f:"1444-08-01",t:"1458-01-01",d:"sirp-despotlugu",kaynak:"TDV alacahisar: 'Alacahisar yöresinde kesin olarak Osmanlı hâkimiyeti sağlandı' (1458, YIL) · 1453 sonu/1454 başı timar kayıtları (Atatürk Kitaplığı M.C. O.117/5) yalnız köy tanıklığıdır, 1454'te Osmanlı kuvvetleri Alacahisar civarında bozuldu, 1455'te Alacahisar sınır olarak Brankoviç'e bırakıldı — 1454 başlangıcı EMRE KARARIYLA (14 Ekim 2026, KARARLAR-1014 m.5, 0085/H-0018) 1458'e çekildi"},
      {f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"}, {f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1945-11-29",d:"yugoslavya"},{f:"1945-11-29",t:"1992-04-27",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-04-27",t:"2000-12-31",d:"yugoslavya-federal-cumhuriyeti",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
   d:[{f:"1428-01-01",t:"1444-08-01"},
-     {f:"1454-01-01",t:"1878-07-13"}],
+     {f:"1458-01-01",t:"1878-07-13"}],
   v:[] },
 
 // ─────────────────────────────────────────────────────────────────────

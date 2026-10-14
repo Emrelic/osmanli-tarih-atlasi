@@ -1758,7 +1758,7 @@ window.DEVLETLER = [
     { t:"1999-12-20", tur:"toprak-kayip", b:"Makao Çin Halk Cumhuriyeti'ne devredildi.", kaynak:"1987 Çin-Portekiz Ortak Bildirisi (cvce.eu slayt notu ile 1999 teyit); gün kaynakla doğrulanmadı" }
   ]
 },
-{ id:"almanya", ad:"Kutsal Roma / Almanya", tur:"imparatorluk", bolge:"orta-avrupa",
+{ id:"almanya", ad:"Almanya (Kutsal Roma 962-1806)", ad_not:"EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.7, 0039/H-0007): yalnız ad düzeltildi, künye bölünmedi — eski ad 'Kutsal Roma / Almanya' 1923'te de Kutsal Roma okutuyordu; Kutsal Roma 6 Ağustos 1806'da dağıldı", tur:"imparatorluk", bolge:"orta-avrupa",
   f:"0962-02-02", t:"1945-06-05", ic_not_t:"AVALON wwii/ger01 (Berlin Deklarasyonu): Müttefikler 'hereby assume supreme authority with respect to Germany' — 'BERLIN, GERMANY, June 5, 1945' · koşulsuz teslimin yürürlüğü 8 Mayıs 1945 (AVALON wwii/gs11). 'Nazi Almanyası' AYRI KÜNYE AÇILMADI: aynı polity (Reich) — §3.5 ② sınıfı, kronolojiyle işaretlendi", baskent:"— (seçimli) → Berlin", harita:"almanya",
   ozet:"Alman dünyasının çatı yapısı: 1806'ya dek Kutsal Roma İmparatorluğu, 1871'den sonra Prusya önderliğinde Alman İmparatorluğu; I. Dünya Savaşı'nda Osmanlı'nın müttefiki. (8 Mayıs 1945 koşulsuz teslim; 5 Haziran 1945'te Müttefikler yüce otoriteyi üstlendi — ardılı [[almanya-muttefik-isgali]]. 1933-1945 Nasyonal Sosyalist rejim bu künyenin içindedir.)",
   kaynak:"almanya",

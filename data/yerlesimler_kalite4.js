@@ -45,7 +45,8 @@ window.YERLESIMLER_KALITE4 = [
   // kaynak: standart akademik — Erdelan/Baban/Mükriyân Kürt beyliklerinden
   // birinin toprağı, yerel Ehtiyârüddin ailesi Safevî döneminde "sultan"
   // unvanıyla anılıyor. TDV müstakil maddesi yok.
-  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1925-10-31",d:"kacar"},{f:"1925-10-31",t:"2000-12-31",d:"iran",kaynak:"Encyclopaedia Iranica 'Ahmad Shah Qajar'; Library of Congress Country Studies: Iran"}] },
+  s:[{f:"1501-07-01",t:"1585-04-19",d:"safevi"},{f:"1603-10-21",t:"1736-03-08",d:"safevi",kaynak:"gün komşudan: Tebriz (1603-10-21) — Bâne'nin Safevî'ye dönüş günü kaynakta YOK · KARARLAR-1014 m.1"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1925-10-31",d:"kacar"},{f:"1925-10-31",t:"2000-12-31",d:"iran",kaynak:"Encyclopaedia Iranica 'Ahmad Shah Qajar'; Library of Congress Country Studies: Iran"}],
+  v:[{f:"1585-04-19",t:"1603-10-21",k:"Bâne beyliği (Osmanlı'ya tâbi)",statu:"vassal",kaynak:"BOA hükmü 18 Rebîülâhir 993 (19 Nisan 1585): Soran, Kızılcakale, Erbil ve Bâne beylerinden Teymur Han'a karşı birleşmeleri isteniyor — Özcoşar-Açar 2024 (https://dergipark.org.tr/en/download/article-file/4081642) · bitiş: gün komşudan: Tebriz (1603-10-21, Şah Abbas'ın Tebriz'i alışı) — Bâne'nin kendi dönüş günü kaynakta YOK · EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.1; 0047/H-0001 · 0081/H-0046 · 0088/H-0027 · 0062/H-0001)"}], },
 
 { ad:"Serdeşt (Sardasht)", tur:"sehir", lat:36.16, lon:45.48, g:0, k:3,
   kur:"1501-07-01",

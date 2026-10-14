@@ -1161,6 +1161,8 @@ window.YERLESIMLER_AFRIKA = [
 
 { ad:"Tâzirbû", tur:"bolge", lat:25.712, lon:21.061, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Tâzirbû vaha grubu çevresindeki geniş çöl, Kufra-Fizan güzergahı üzerinde olsa da fiilen devlet denetimi dışındaydı." },
 
+{ ad:"Hamâde-i Hamrâ (Hamada al-Hamra)", tur:"bolge", lat:30.000, lon:12.000, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"col", kaynak:"KONUM: GeoNames id 2216976 'Al Ḩamādah al Ḩamrā’' (rock desert) 30°00′K 12°00′D", neden:"BEYANLI ÇÖL BOŞLUĞU (EMRE KARARI 14 Ekim 2026, KARARLAR-1014 m.13, 0045/H-0012): Trablusgarp'ın iç kesimindeki Hamâde taşlık platosu noktasız, yerleşimsiz çöl; Osmanlı idaresi kıyı ve vaha düzenindeydi (Gadamis · Sokna · Vaddân · Fizan), çölde yerleşim yok. Fizan alındıktan sonra Osmanlı toprakları arasında görünen delik kasıtlıdır — boyanmaz." },
+
 { ad:"Rebyâne", tur:"bolge", lat:24.200, lon:21.500, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Rebyâne kum deryası, Libya'nın en izole kesimlerinden biri; tarih boyunca yerleşimsiz ve devlet denetimi dışında." },
 
 { ad:"Vâv el-Kebîr", tur:"bolge", lat:25.363, lon:17.221, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Vâv el-Kebîr, Fizan'ın derin güneyinde ıssız bir çöl kesimi; Osmanlı Trablusgarp idaresinin ulaşamadığı bir alan." },
