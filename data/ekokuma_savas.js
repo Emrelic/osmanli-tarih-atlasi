@@ -169,7 +169,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"Kansu Gavri'nin kaçarken aniden rahatsızlanıp atından düşerek öldüğü anlaşıldı. Tutsakların arasından boyun eğmeyi reddeden emirler de dâhil olmak üzere yaklaşık 2000 Memlük askeri öldürüldü, bir kısmı ise salıverildi. Selim Halep'e girip Abbâsî halifesini iyi karşıladı; Hama, Humus ve Şam birer birer teslim oldu. Savaş Suriye, Lübnan ve Filistin'i Osmanlılara bıraktı, Mısır yolunu açtı ve Memlük Sultanlığı'nın tarihten silinişinin ilk büyük adımı oldu.",
   tartisma:"Bazı araştırmalar yenilgiyi Hayır Bey ile Canbirdi Gazâlî'nin ihanetine bağlar; TDV çağdaş kaynaklara dayanarak bunun doğru olmadığını, ikisinin padişahla temasının savaş bittikten sonra olduğunu yazar. Ordu mevcudu için kaynaklar 120.000'e varan rakamlar verse de 80.000 civarı daha olası kabul edilir.",
   kesinlik:"kesin",
-  olay:["1516-07-30","1516-08","1516-08-28","1516-08-29","1516-09-27"],
+  olay:["1516-07-30","1516-08-24","1516-08-28","1516-08-29","1516-09-27"],
   kaynak:"TDV: mercidabik-muharebesi (DİA 29, 2004, s. 174-176)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 

@@ -789,7 +789,8 @@ window.SEFERLER = [
 // olaylar.js), ok o gün o maddenin anlattığı yere kadar uzanır. 1516-07-30 maddesinde
 // TDV'nin verdiği en ileri yer Konya ovasıdır (30 Temmuz'daki konum TDV'de yok).
 // 1516-08-24 basamağı Mercidâbık maddesine dayanır — o madde `t:"1516-08"` (ay
-// hassasiyeti) taşıyor, ayrıca düzeltilmeli (denetim/SEFER-OKU-0087.md §H-0006).
+// hassasiyeti) taşıyordu (denetim/SEFER-OKU-0087.md §H-0006) — ✅ KUTU-H3-1015: TDV
+// `mercidabik-muharebesi` "25 Receb 922 (24 Ağustos 1516)" ile t:"1516-08-24"e çekildi.
 { ad:"Mısır seferi (1516-17)", tur:"sefer", sonuc:"zafer",      f:"1516-06-05", t:"1517-02-22",
   kaynak:"selim-i (TDV): \"Sinan Paşa'nın hareketinden beş hafta sonra Memlük sultanının Kahire'den ayrıldığı haberini alarak 5 Haziran 1516'da İstanbul'dan hareket etti. 26 Haziran'da Akşehir'e vardığında\" · \"1 Temmuz'da Konya ovasında iken\" · \"6 Ağustos'ta Malatya ovasından ayrılarak Halep'e yöneldi.\" · \"20 Ağustos'ta Antep dışında konakladı\" · \"Oradan Halep'e geldi (28 Ağustos)\" · \"27 Eylül'de Şam'a ulaştı\" · \"15 Aralık'ta Şam'dan hareket etti. 26 Aralık'ta Celcûliye Konağı'na geldiğinde\" · \"Padişah 8 Zilhicce 922'de (2 Ocak 1517) Gazze'ye girdi\" · \"9 Ocak'ta Gazze'den ayrılan Yavuz Sultan Selim 11 Ocak'ta Arîş mevkiine ulaştı … 16 Ocak'ta Sâlihiye'ye gelindiğinde\" · ridaniye-savasi (TDV): \"Kahire önlerinde Matariye ile Cebelülahmer arasında Ridâniye/Reydâniye denilen mevkide\" · \"Savaşın ertesi günü Osmanlı ordularının Kahire'ye girişine izin verildi.\"",
   kesinlik:"istasyonlar TDV; Üsküdar coğrafî zorunluluk (kaynakta yok); Celcûliye/Arîş/Sâlihiye koordinatı şematik; Konya→Malatya bacağı düz (ara yol kaynakta yok)",

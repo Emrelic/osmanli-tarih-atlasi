@@ -347,7 +347,9 @@ window.SAVAS_KUNYE_1 = [
   ],
   kaynak:"TDV: zenta", bag_ekokuma:null },
 
-{ id:"kunye-prut-1711", savas_ad:"Prut", savas_t:"1711-07-21", tur:"meydan",
+{ id:"kunye-prut-1711", savas_ad:"Prut", savas_t:"1711-07-21", savas_t_ek:["1711-07-19"], tur:"meydan",
+  // KUTU-H3-1015: kronolojideki "Prut Zaferi" savaş maddesi t:1711-07-19 (gun metni "21 Temmuz 1711") —
+  // künye yalnız 21 Temmuz'daki antlaşma/rivayet maddelerine bağlıydı, savaş maddesinde görünmüyordu.
   baslik:"Prut Seferi ve Muharebesi (1711)",
   tarih_metin:"21 Temmuz 1711",
   taraflar:[

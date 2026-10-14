@@ -12764,7 +12764,8 @@ var EKOKUMA_TUR = {
   // olduğundan burada sarmalanıp tur:"savas-kunye" verilir. `uyari`/`bag_ekokuma` iç alandır, basılmaz.
   "savas-kunye":       { etiket: "⚔️ Savaş künyesi", kaynak: function () {
                            // 13 Ekim 2026 — SAVAS-2: 2. parti (data/savas_kunye_2.js, SAVAS_KUNYE_2) birlikte okunur.
-                           return (window.SAVAS_KUNYE_1 || []).concat(window.SAVAS_KUNYE_2 || []).map(function (k) {
+                           // 15 Ekim 2026 — KUTU-H3-1015: 3. parti (data/savas_kunye_3.js, SAVAS_KUNYE_3) de okunur.
+                           return (window.SAVAS_KUNYE_1 || []).concat(window.SAVAS_KUNYE_2 || [], window.SAVAS_KUNYE_3 || []).map(function (k) {
                              return Object.assign({}, k, { tur: "savas-kunye", olay: [k.savas_t].concat(k.savas_t_ek || []), kesinlik: "kesin" });
                            });
                          } }
