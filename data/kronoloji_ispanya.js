@@ -119,10 +119,11 @@ window.KRONOLOJI_ISPANYA = [
   d:"Papa IV. Sixtus'un fermanıyla, Kastilya tacına bağlı ama doğrudan krallık denetiminde çalışan Engizisyon kuruldu; ilk mahkeme 1480'de Sevilla'da göreve başladı. Kurum, sonraki üç asır boyunca dinî birlik ve siyasî denetimin başlıca aracı oldu ve 1834'e dek (ara kesintilerle) yürürlükte kaldı.",
   kaynak:"standart akademik kaynak (Kamen, The Spanish Inquisition: A Historical Revision)" },
 
-{ t:"1479-01-20", b:"Kastilya ile Aragon tacları fiilen birleşti", tur:"birlesme", onem:5, dunya:4, kapsam:"ic", yer_id:"",
+{ t:"1479-01-19", b:"Kastilya ile Aragon tacları fiilen birleşti", tur:"birlesme", onem:5, dunya:4, kapsam:"ic", yer_id:"",
   etiket:["hanedan","antlasma","konu-siyasi","konu-diplomasi","konu-hanedan"],
   d:"Fernando'nun babası II. Juan'ın ölümüyle Aragon tahtına çıkması, İsabel'in zaten hüküm sürdüğü Kastilya ile tacı aynı çiftin elinde birleştirdi. İki krallık ayrı kurumlarını (Cortes, para birimi, hukuk) korudu; birlik kişisel/hanedan temelliydi, tam idari birleşme 18. yüzyıl Nueva Planta kararnamelerini bekleyecekti.",
-  kaynak:"`data/devletler.js` `kastilya`/`aragon`/`ispanya` künyeleri (tarih korunuyor) · standart akademik kaynak (Elliott)", kapsam_genis:true },
+  kaynak:"gün: DBE (Real Academia de la Historia), 'Juan II de Aragón y de Navarra': «Barcelona, 19.I.1479» (https://dbe.rah.es/biografias/10845/juan-ii-de-aragon-y-de-navarra); Gran Enciclopèdia Catalana aynı · standart akademik kaynak (Elliott)",
+  ic_not_t:"gün 14 Ekim 2026 Emre kararıyla DBE'ye göre düzeltildi (eski: 1479-01-20, künyelerden devralınmıştı; o gün yalnız Vikipedi'de)", kapsam_genis:true },
 
 { t:"1492-01-02", b:"Gırnata'nın düşüşü — Endülüs'te sekiz asırlık İslâm hâkimiyeti sona erdi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Granada",
   etiket:["askeri","toprak-kazanc","din","konu-askeri","konu-din"],

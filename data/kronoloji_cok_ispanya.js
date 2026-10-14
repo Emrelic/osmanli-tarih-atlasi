@@ -5,7 +5,7 @@
 // devlet:/devletler: künyesine EKLER (ezmez; t+b mükerrerini atar). ORTAK §4.1.
 // KAPSAM: data/kronoloji_ispanya.js'in ve künye kronolojilerinin YAZMADIĞI olaylar;
 // her madde olay günü VAR OLAN yapının künyesinde (M-5416).
-// KÜNYELER (devletler.js'ten okundu): kastilya 1230-09-23→1479-01-20 · aragon 1164→1479-01-20 · navarra 824→1620-10-19 · granada 1238-05-12→1492-01-02 · ispanya 1479-01-20→
+// KÜNYELER (devletler.js'ten okundu): kastilya 1230-09-23→1479-01-19 · aragon 1164→1479-01-19 · navarra 824→1620-10-19 · granada 1238-05-12→1492-01-02 · ispanya 1479-01-19→
 // KAYNAK: TDV birincil (İslâm dünyası/Osmanlı teması); ötesinde adıyla akademik/kurumsal
 // kaynak. Her maddenin kaynak: alanı açık. Üretici: denetim/ARAC-KRONO-ATLANTIK-A-0929-DERLE.js
 // (taslaklar denetim/KRONO-ATLANTIK-A-0929-taslak/ altında, doğrulama notlarıyla).

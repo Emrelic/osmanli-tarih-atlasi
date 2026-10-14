@@ -26,8 +26,9 @@
 //   1809-09-17  Fredrikshamn (Hamina) Antlaşması — İsveç Finlandiya'yı R
 //      §②b 🟡 GÜNÜN dayanağı ama İKİ ÇEKİNCEYLE (aşağıda).
 //      zayıflık: 🔴 EN ZAYIFI. prlib.ru (Rusya Cumhurbaşkanlığı Kütüphanesi) GÜVENLİK KONTROLÜNE takıldı 
-//   1479-01-20  II. Juan'ın ölümü — Ferdinand Aragon kralı oldu; Kastily
-//      §②b 🟢 GÜNÜN dayanağı — ölüm günü ve yeri açıkça veriliyor.
+//   1479-01-19  II. Juan'ın ölümü — Ferdinand Aragon kralı oldu; Kastily
+//      §②b 🟢 GÜNÜN dayanağı — 14 Ekim 2026 Emre kararıyla DBE (RAH)
+//      «Barcelona, 19.I.1479»a göre düzeltildi (eski: 1479-01-20, Vikipedi).
 //      zayıflık: 🟡 DEVRALDIM — beş akademik künyenin ikisi seçildi, hiçbiri OKUNMADI; gövde Wikipedia'da
 //
 // 🔴 ÇAKIŞMA KORUMASI: kendi yamalarımın (Elba · Dublin · İspanya ·
@@ -52,156 +53,156 @@ window.YER_YAMA_AVRUPA_DAYANAK_1923 = [
     ] },
 
   { ad:"Toledo",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Valladolid",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Burgos",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Salamanca",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"León",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Oviedo",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Santander",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Bilbao",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"San Sebastián",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Cuenca",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Badajoz",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Kurtuba (Córdoba)",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Jaén",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Murcia",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Cartagena",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Cádiz",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"A Coruña",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Santiago de Compostela",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Vigo",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Cebelitarık (Gibraltar)",
     s:[{f:"1281-01-01",t:"1462-08-20",d:"granada"},
-       {f:"1462-08-20",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"1704-08-04",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."},
+       {f:"1462-08-20",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"1704-08-04",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."},
        {f:"1704-08-04",t:"2000-12-31",enklav:true,d:"ingiltere"}
     ] },
 
   { ad:"Zaragoza",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"aragon"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Teruel",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"aragon"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Tarragona",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"aragon"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Lleida",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"aragon"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Girona",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"aragon"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Alicante",
     s:[{f:"1281-01-01",t:"1304-08-08",d:"kastilya"},
-       {f:"1304-08-08",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+       {f:"1304-08-08",t:"1479-01-19",d:"aragon"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Dénia",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"aragon"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Castellón",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"aragon"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Tortosa",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"aragon"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Huelva",
-    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
+    s:[{f:"1281-01-01",t:"1479-01-19",d:"kastilya"},
+       {f:"1479-01-19",t:"2000-12-31",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gün 14 Ekim 2026 Emre kararıyla düzeltildi: DBE (Real Academia de la Historia) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479»; Gran Enciclopèdia Catalana aynı. Eski gün (20 Ocak 1479) yalnız Vikipedi gövdesindeydi."}
     ] },
 
   { ad:"Bergen",

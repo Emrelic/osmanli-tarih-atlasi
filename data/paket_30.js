@@ -5248,7 +5248,7 @@ window.KRONOLOJI_COK_GURCISTAN = [
 // ── KÜNYE (M-5416: olayın GÜNÜNDE var olan yapı; ardıla geriye bağlama YOK) ──
 //   hollanda              1581-07-26 → 1923-10-29  (devletler.js)
 //   ingiltere             1066-01-01 → 1923-10-29  (devletler.js)
-//   ispanya               1479-01-20 → 1923-10-29  (devletler.js)
+//   ispanya               1479-01-19 → 1923-10-29  (devletler.js)
 //   prusya                1701-01-18 → 1871-01-18  (devletler.js)
 //   fransa-cumhuriyet     1792-09-22 → 1923-10-29  (devletler.js)
 //   🟡 habsburg-hollandasi  KÜNYE YOK — ÖNERİ (1581 öncesi Habsburg Felemengi);
@@ -5469,7 +5469,7 @@ window.KRONOLOJI_COK_HOLLANDA = [
 // devlet:/devletler: künyesine EKLER (ezmez; t+b mükerrerini atar). ORTAK §4.1.
 // KAPSAM: data/kronoloji_ispanya.js'in ve künye kronolojilerinin YAZMADIĞI olaylar;
 // her madde olay günü VAR OLAN yapının künyesinde (M-5416).
-// KÜNYELER (devletler.js'ten okundu): kastilya 1230-09-23→1479-01-20 · aragon 1164→1479-01-20 · navarra 824→1620-10-19 · granada 1238-05-12→1492-01-02 · ispanya 1479-01-20→
+// KÜNYELER (devletler.js'ten okundu): kastilya 1230-09-23→1479-01-19 · aragon 1164→1479-01-19 · navarra 824→1620-10-19 · granada 1238-05-12→1492-01-02 · ispanya 1479-01-19→
 // KAYNAK: TDV birincil (İslâm dünyası/Osmanlı teması); ötesinde adıyla akademik/kurumsal
 // kaynak. Her maddenin kaynak: alanı açık. Üretici: denetim/ARAC-KRONO-ATLANTIK-A-0929-DERLE.js
 // (taslaklar denetim/KRONO-ATLANTIK-A-0929-taslak/ altında, doğrulama notlarıyla).

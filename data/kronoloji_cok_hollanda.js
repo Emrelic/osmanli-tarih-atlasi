@@ -14,7 +14,7 @@
 // ── KÜNYE (M-5416: olayın GÜNÜNDE var olan yapı; ardıla geriye bağlama YOK) ──
 //   hollanda              1581-07-26 → 1923-10-29  (devletler.js)
 //   ingiltere             1066-01-01 → 1923-10-29  (devletler.js)
-//   ispanya               1479-01-20 → 1923-10-29  (devletler.js)
+//   ispanya               1479-01-19 → 1923-10-29  (devletler.js)
 //   prusya                1701-01-18 → 1871-01-18  (devletler.js)
 //   fransa-cumhuriyet     1792-09-22 → 1923-10-29  (devletler.js)
 //   🟡 habsburg-hollandasi  KÜNYE YOK — ÖNERİ (1581 öncesi Habsburg Felemengi);

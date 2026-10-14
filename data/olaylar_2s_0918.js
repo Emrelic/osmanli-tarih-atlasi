@@ -106,10 +106,11 @@ window.OLAYLAR_2S_0918 = [
   kaynak:"standart akademik/ansiklopedik (Battle of Geok Tepe, 24 Ocak 1881 — Britannica 'Battle of Gökdepe', Edgar, Tribal Nation) — TDV kapsam dışı; veri 1881-01-30 taşıyor, kaynak 24 Ocak diyor — 6 GÜNLÜK FARK bildiriliyor, veri kaydı gözden geçirilmeli" },
 
 // ── 9. DÂRÜ'L-KÛTÎ'NİN FRANSIZLARA DÜŞÜŞÜ ─────────────────────────────
-{ t:"1911-04-12", b:"Sultan Mohammed es-Senûsî'nin Dâru'l-Kûtî Sultanlığı Fransız kuvvetlerince ortadan kaldırıldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Ndele (Dâru'l-Kûtî)",
+{ t:"1911-01-12", b:"Sultan Mohammed es-Senûsî'nin Dâru'l-Kûtî Sultanlığı Fransız kuvvetlerince ortadan kaldırıldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Ndele (Dâru'l-Kûtî)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"1897'de Fransız himayesine giren, başşehri Ndele olan köle ticareti temelli Dâru'l-Kûtî Sultanlığı, Sultan Mohammed es-Senûsî'nin Fransız otoritesine direnmeyi sürdürmesi üzerine 1911'de düzenlenen bir seferle fiilen ortadan kaldırıldı; Senûsî savaşta öldürüldü, sultanlık 1912'de resmen kaldırıldı.",
-  kaynak:"standart akademik/ansiklopedik (Dar al-Kuti, Fransız protektorası 1897, es-Senûsî'nin 1911'de öldürülmesi — Wikipedia 'Dar al Kuti', Cordell, Dar al-Kuti and the Last Years of the Trans-Saharan Slave Trade) — TDV kapsam dışı, GÜN KABA" },
+  kaynak:"standart akademik/ansiklopedik (Dar al-Kuti, Fransız protektorası 1897, es-Senûsî'nin 1911'de öldürülmesi — Wikipedia 'Dar al Kuti', Cordell, Dar al-Kuti and the Last Years of the Trans-Saharan Slave Trade) — TDV kapsam dışı · gün: IRD (Institut de recherche pour le développement), 'Jean Julien Vincent Modat' biyografi notu: Senoussi «fut tué le 12 janvier 1911» (https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers16-10/010056752.pdf)",
+  ic_not_t:"gün 14 Ekim 2026 Emre kararıyla IRD Modat notuna göre düzeltildi (eski: 1911-04-12, dayanaksız — eski kaynak 'GÜN KABA' diyordu); bağlı yerleşim kırılmaları (darul-kuti→fransa-cumhuriyet: Birao, Uanda-Calle, Ndele) birlikte kaydırıldı. Cordell 1985 okunamadı" },
 
 // ── 10. ERİTRE'NİN İTALYANLARA DÜŞÜŞÜ ─────────────────────────────────
 { t:"1889-01-01", b:"İtalya, Asmara ve Keren dahil Eritre yaylasını ilhak etti", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Asmara",

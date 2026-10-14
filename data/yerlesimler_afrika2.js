@@ -493,8 +493,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Birao", tur:"sehir", lat:10.2800, lon:22.7900, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1911-04-12",d:"darul-kuti"},
-     {f:"1911-04-12",t:"1960-08-13",d:"fransa-cumhuriyet"},{f:"1960-08-13",t:"2000-12-31",d:"orta-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1890-01-01",t:"1911-01-12",d:"darul-kuti"},
+     {f:"1911-01-12",t:"1960-08-13",d:"fransa-cumhuriyet"},{f:"1960-08-13",t:"2000-12-31",d:"orta-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Busa (Borgu)", tur:"sehir", lat:10.2000, lon:4.5000, g:0, k:0,
@@ -587,8 +587,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Uanda-Calle", tur:"sehir", lat:8.9000, lon:22.7800, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1911-04-12",d:"darul-kuti"},
-     {f:"1911-04-12",t:"1960-08-13",d:"fransa-cumhuriyet"},{f:"1960-08-13",t:"2000-12-31",d:"orta-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1890-01-01",t:"1911-01-12",d:"darul-kuti"},
+     {f:"1911-01-12",t:"1960-08-13",d:"fransa-cumhuriyet"},{f:"1960-08-13",t:"2000-12-31",d:"orta-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Beyla", tur:"sehir", lat:8.6900, lon:-8.6400, g:0, k:0,
@@ -628,8 +628,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Ndele (Dâru'l-Kûtî)", tur:"sehir", lat:8.4100, lon:20.6500, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1911-04-12",d:"darul-kuti"},
-     {f:"1911-04-12",t:"1960-08-13",d:"fransa-cumhuriyet"},{f:"1960-08-13",t:"2000-12-31",d:"orta-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1890-01-01",t:"1911-01-12",d:"darul-kuti"},
+     {f:"1911-01-12",t:"1960-08-13",d:"fransa-cumhuriyet"},{f:"1960-08-13",t:"2000-12-31",d:"orta-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Bondugu (Gyaaman)", tur:"sehir", lat:8.0400, lon:-2.8000, g:0, k:0,

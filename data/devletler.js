@@ -1705,11 +1705,11 @@ window.DEVLETLER = [
 // (data/devletler_harita.js'te boyanan, dizinde henüz olmayan devletler)
 
 { id:"ispanya", ad:"İspanya (Kastilya-Aragon)", tur:"krallik", bolge:"iberya",
-  f:"1479-01-20", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Madrid", harita:"ispanya",
+  f:"1479-01-19", ic_not_f:"gün 14 Ekim 2026 Emre kararıyla DBE (RAH) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479» ve Gran Enciclopèdia Catalana'ya göre düzeltildi (eski: 1479-01-20, yalnız Vikipedi)", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Madrid", harita:"ispanya",
   ozet:"Kastilya-Aragon birliğiyle doğan krallık; Akdeniz'de Osmanlı'nın 16. yüzyıldaki ana deniz rakibi. (1945 ufkundan sonra da sürdü — t: pencere ucu. 1936-1939 iç savaşında milliyetçi bölge ayrı künyede: [[ispanya-milliyetci]].)",
   kaynak:"ispanya",
   kronoloji:[
-    { t:"1479-01-20", tur:"birlesme", b:"Kastilya ile Aragon tacları birleşti" },
+    { t:"1479-01-19", tur:"birlesme", b:"Kastilya ile Aragon tacları birleşti", kaynak:"DBE (Real Academia de la Historia), 'Juan II de Aragón y de Navarra': «Barcelona, 19.I.1479» (https://dbe.rah.es/biografias/10845/juan-ii-de-aragon-y-de-navarra); Gran Enciclopèdia Catalana aynı — gün 14 Ekim 2026 Emre kararıyla düzeltildi (eski: 1479-01-20)" },
     { t:"1492-01-02", tur:"toprak-kazanc", b:"Gırnata'nın düşüşüyle Reconquista tamamlandı" },
     { t:"1535-07-21", tur:"savas", b:"Şarlken Tunus'u aldı (1574'te kesin olarak Osmanlı'ya geçti)" },
     { t:"1571-10-07", tur:"savas", b:"İnebahtı'da Kutsal İttifak donanmasının belkemiğini oluşturdu" },
@@ -3590,7 +3590,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"darul-kuti", ad:"Dârü'l-Kûtî Sultanlığı (Senûsî)", tur:"sultanlik", bolge:"orta-afrika",
-  f:"1890-01-01", t:"1911-04-12", baskent:"Ndele",
+  f:"1890-01-01", t:"1911-01-12", ic_not_t:"gün 14 Ekim 2026 Emre kararıyla IRD Modat biyografi notuna göre düzeltildi: Senoussi «fut tué le 12 janvier 1911» (eski: 1911-04-12, dayanaksız)", baskent:"Ndele",
   ozet:"Muhammed es-Senûsî'nin Ubangi kuzeyinde kurduğu, köle ticaretine dayanan sultanlık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Ndele merkezli köle ticaret sultanlığı; Muhammed es-Senûsî 1911'de öldürüldü.",
   kronoloji:[
@@ -3599,7 +3599,7 @@ window.DEVLETLER = [
     { t:"1897-01-01", tur:"antlasma", b:"Muhammed es-Senûsî Fransız şartlarını kabul eder; devlet bağımsızlığını korur.", kaynak:"https://en.wikipedia.org/wiki/Dar_al_Kuti (Dennis D. Cordell, Dar al-Kuti and the Last Years of the Trans-Saharan Slave Trade, Univ. of Wisconsin Press, 1985'e dayalı)" },
     { t:"1903-02-18", tur:"antlasma", b:"Dârü'l-Kûtî ile Fransa arasındaki himaye antlaşması gözden geçirilir.", kaynak:"https://en.wikipedia.org/wiki/Dar_al_Kuti ; Cordell 1985" },
     { t:"1908-01-26", tur:"antlasma", b:"Fransa-Dârü'l-Kûtî antlaşması ikinci kez revize edilir; sultanlık bağımsızlığını 1911'e dek korur.", kaynak:"https://en.wikipedia.org/wiki/Dar_al_Kuti ; Cordell 1985" },
-    { t:"1911-04-12", tur:"son", b:"Fransızlar Senûsî'yi öldürdü" }
+    { t:"1911-01-12", tur:"son", b:"Fransızlar Senûsî'yi öldürdü", kaynak:"IRD (Institut de recherche pour le développement), 'Jean Julien Vincent Modat' biyografi notu: Senoussi «fut tué le 12 janvier 1911» (https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers16-10/010056752.pdf) — gün 14 Ekim 2026 Emre kararıyla düzeltildi (eski: 1911-04-12)" }
   ]
 },
 { id:"zende", ad:"Zende (Azande) Sultanlıkları", tur:"sultanlik", bolge:"orta-afrika",
@@ -6481,25 +6481,25 @@ window.DEVLETLER = [
   ]
 },
 { id:"kastilya", ad:"Kastilya Tacı", tur:"krallik", bolge:"iberya",
-  f:"1035-01-01", t:"1479-01-20", ic_not_t:"t alanı YAZILMADI — var olan t aynen kalmalı; bu grup t'yi araştırmadı.", ic_not_f:"GEC kendi içinde iki yıl verir: 'Ferran I de Castella' maddesi 'Mort el seu pare, prengué el títol de rei de Castella' (babası III. Sancho 1035'te öldü) ve 'Portugal' maddesi saltanatı (1035-1065) verir; 'regne de Castella' maddesi ise 'Regne constituït sobre la base del comtat de Castella després de l’entronització de Ferran I (1037-65)' der. 1035 = kral unvanı, 1037 = León'un ilhakıyla fiilî krallık/taç giyme. Öneri 1035 (unvan); gün kaynakta yok → 01-01. 1035 öncesi Kastilya KONTLUĞU (León'a, 1029-35 Navarra'ya bağlı) bu künyeye dahil değildir.", baskent:"Toledo → Valladolid", harita:"kastilya",
+  f:"1035-01-01", t:"1479-01-19", ic_not_t:"t: gün 14 Ekim 2026 Emre kararıyla DBE (RAH) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479» ve Gran Enciclopèdia Catalana'ya göre düzeltildi (eski: 1479-01-20, yalnız Vikipedi).", ic_not_f:"GEC kendi içinde iki yıl verir: 'Ferran I de Castella' maddesi 'Mort el seu pare, prengué el títol de rei de Castella' (babası III. Sancho 1035'te öldü) ve 'Portugal' maddesi saltanatı (1035-1065) verir; 'regne de Castella' maddesi ise 'Regne constituït sobre la base del comtat de Castella després de l’entronització de Ferran I (1037-65)' der. 1035 = kral unvanı, 1037 = León'un ilhakıyla fiilî krallık/taç giyme. Öneri 1035 (unvan); gün kaynakta yok → 01-01. 1035 öncesi Kastilya KONTLUĞU (León'a, 1029-35 Navarra'ya bağlı) bu künyeye dahil değildir.", baskent:"Toledo → Valladolid", harita:"kastilya",
   ozet:"III. Fernando'nun León ile birleştirdiği, Reconquista'nın öncüsü olan İber krallığı; Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu (bkz. [[ispanya]]).",
   kaynak:"kastilya--ispanya",
   kronoloji:[
     { t:"1230-09-23", tur:"birlesme", b:"III. Fernando, Kastilya ve León taçlarını kalıcı olarak birleştirdi" },
     { t:"1340-10-30", tur:"savas", b:"Río Salado Savaşı'nda Merînî-Gırnata ittifakını yendi" },
     { t:"1469-10-19", tur:"birlesme", b:"İsabel, Aragon veliaht prensi Fernando ile evlendi" },
-    { t:"1479-01-20", tur:"son", b:"Fernando Aragon tahtına çıkınca iki taç fiilen birleşti (bkz. [[aragon]], [[ispanya]])" },
+    { t:"1479-01-19", tur:"son", b:"Fernando Aragon tahtına çıkınca iki taç fiilen birleşti (bkz. [[aragon]], [[ispanya]])", kaynak:"DBE (RAH), 'Juan II de Aragón y de Navarra': «Barcelona, 19.I.1479» — gün 14 Ekim 2026 Emre kararıyla düzeltildi (eski: 1479-01-20)" },
     { t:"1035-01-01", tur:"kurulus", b:"III. Sancho'nun ölümüyle I. Fernando Kastilya kralı unvanını aldı" }
   ]
 },
 { id:"aragon", ad:"Aragon Tacı", tur:"krallik", bolge:"iberya",
-  f:"1035-01-01", t:"1479-01-20", ic_not_t:"t alanı YAZILMADI — var olan t aynen kalmalı; bu grup t'yi araştırmadı.", ic_not_f:"Kaynak yalnız yıl verir; gün bilinmiyor → 1035-01-01. 1035-1045 arası Sobrarbe ve Ribagorza ayrı (kardeşi Gonzalo) idi, 1045'te Aragon'a katıldı (aynı GEC maddesi).", baskent:"Zaragoza → Barselona", harita:"aragon",
+  f:"1035-01-01", t:"1479-01-19", ic_not_t:"t: gün 14 Ekim 2026 Emre kararıyla DBE (RAH) 'Juan II de Aragón y de Navarra' «Barcelona, 19.I.1479» ve Gran Enciclopèdia Catalana'ya göre düzeltildi (eski: 1479-01-20, yalnız Vikipedi).", ic_not_f:"Kaynak yalnız yıl verir; gün bilinmiyor → 1035-01-01. 1035-1045 arası Sobrarbe ve Ribagorza ayrı (kardeşi Gonzalo) idi, 1045'te Aragon'a katıldı (aynı GEC maddesi).", baskent:"Zaragoza → Barselona", harita:"aragon",
   ozet:"Aragon Krallığı ile Barselona Kontluğu'nun birleşmesinden doğan, Akdeniz'de (Sicilya, Napoli, Sardinya) geniş bir deniz imparatorluğu kuran taç; Katolik Kralların evliliğiyle Kastilya ile birleşti (bkz. [[ispanya]]).",
   kaynak:"aragon",
   kronoloji:[
     { t:"1164-01-01", tur:"birlesme", b:"II. Alfonso, Aragon Krallığı ile Barselona Kontluğu'nu birleştirdi" },
     { t:"1282-01-01", tur:"toprak-kazanc", b:"Sicilya Akşamı sonrası Sicilya'yı ele geçirdi" },
-    { t:"1479-01-20", tur:"son", b:"II. Fernando'nun Kastilya ile evliliği tacı fiilen birleştirdi" },
+    { t:"1479-01-19", tur:"son", b:"II. Fernando'nun Kastilya ile evliliği tacı fiilen birleştirdi", kaynak:"DBE (RAH), 'Juan II de Aragón y de Navarra': «Barcelona, 19.I.1479» — gün 14 Ekim 2026 Emre kararıyla düzeltildi (eski: 1479-01-20)" },
     { t:"1035-01-01", tur:"kurulus", b:"III. Sancho'nun ölümüyle Aragon krallık olarak I. Ramiro'ya kaldı" }
   ]
 },
@@ -10543,15 +10543,15 @@ window.DEVLETLER = [
   ]
 },
 { id:"mancukuo", ad:"Mançukuo", tur:"devlet", bolge:"dogu-asya",
-  f:"1932-03-09", t:"1945-08-18", baskent:"Hsinking (Changchun)",
-  ic_not_t:"ÜST SINIR, gün değil: BRIT Puyi 'taken prisoner by the Russians (August 1945)' — yalnız AY",
+  f:"1932-03-09", t:"1945-08-17", baskent:"Hsinking (Changchun)",
+  ic_not_t:"gün 14 Ekim 2026 Emre kararıyla Nihon Daihyakka Zensho 「満州国」 (Kimijima Kazuhiko) «8月17日に「解体」が宣言された» ve Yamakawa Nihonshi Shō-jiten'e göre düzeltildi (eski: 1945-08-18, Vikipedi/royalark). BRIT Puyi yalnız AY verir ('August 1945').",
   ozet:"Japonya'nın Mançurya'nın üç eyaletinden kurduğu kukla devlet; son Qing imparatoru Puyi önce devlet başkanı, 1934'ten imparator. f: Puyi'nin başkanlığa getirildiği gün (devletin ilan günü ayrıca ölçülemedi). Ülke künyesi [[cin-cumhuriyeti]].",
   kaynak:"BRIT Manchukuo — 'puppet state created in 1932 by Japan' · BRIT Puyi — 'On March 9, 1932, he was installed as president, and from 1934 to 1945 he was emperor'",
   kronoloji:[
     { t:"1932-03-09", tur:"kurulus", b:"Puyi Mançukuo devlet başkanı yapıldı", kaynak:"BRIT Puyi" },
     { t:"1934-01-01", tur:"hukumdar", b:"Puyi imparator ilan edildi (Kangde)", kaynak:"BRIT Puyi — YIL verir" },
     { t:"1945-08-31", tur:"son", b:"Sovyet işgali, Puyi esir alındı (Ağustos 1945)", kaynak:"BRIT Puyi — AY verir, gün üst sınır" },
-    { t:"1945-08-18", tur:"son", b:"Puyi'nin tahttan çekilmesi Danışma Meclisi'nce 17 Ağustos'ta ilan edildi, 18 Ağustos'ta yürürlüğe girdi; Mançukuo fiilen sona erdi.", kaynak:"https://en.wikipedia.org/wiki/Zang_Shiyi ; https://royalark.net/China/manchu17.htm" }
+    { t:"1945-08-17", tur:"son", b:"Mançukuo'nun dağılması (解体) 17 Ağustos'ta ilan edildi; Mançukuo fiilen sona erdi.", kaynak:"Nihon Daihyakka Zensho (Shōgakukan) 「満州国」, Kimijima Kazuhiko: «8月17日に「解体」が宣言された»; Yamakawa Nihonshi Shō-jiten aynı (https://kotobank.jp/word/満州国-137955) — gün 14 Ekim 2026 Emre kararıyla düzeltildi (eski: 1945-08-18; eski dayanak: https://en.wikipedia.org/wiki/Zang_Shiyi ; https://royalark.net/China/manchu17.htm)" }
   ]
 },
 { id:"nanjing-wang-jingwei", ad:"Çin Cumhuriyeti Yeniden Düzenlenmiş Millî Hükûmeti (Wang Jingwei, Nanjing)", tur:"devlet", bolge:"dogu-asya",
