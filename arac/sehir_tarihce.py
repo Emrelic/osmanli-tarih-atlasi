@@ -2,6 +2,7 @@
 
     py arac/sehir_tarihce.py yaz <girdi.json> <data/sehir_tarihce_x.js> <BOLGE>
     py arac/sehir_tarihce.py denetle <data/sehir_tarihce_x.js>
+    py arac/sehir_tarihce.py devletler <çıktı.tsv>          (araştırmacı için künye dökümü)
 
 `yaz` önce denetler; ihlal varsa dosyayı YAZMAZ. Çıkış: 0 temiz · 1 ihlal · 2 ölçülemedi.
 Motor, denetle.py ve site bu dosyaları OKUMAZ — araştırma birikimidir, aktarım ayrı iştir.
@@ -243,6 +244,15 @@ def main():
         return 2
     if sys.argv[1] == "denetle":
         return denetle_kayitlar(oku_js(sys.argv[2]))
+    if sys.argv[1] == "devletler":
+        # araştırmacılar için künye dökümü (d: alanına yazılabilecek id'ler)
+        omur = devlet_omurleri()
+        with open(sys.argv[2], "w", encoding="utf-8") as f:
+            f.write("id\tf\tt\tharita\n")
+            for i, (df, dt, h) in sorted(omur.items(), key=lambda x: gun_no(x[1][0]) or 0):
+                f.write(f"{i}\t{df}\t{dt}\t{h}\n")
+        print(len(omur), "künye →", sys.argv[2], "(+ ayrılmış: osmanli · __BOSLUK__ · __YOK__ · __BILINMIYOR__)")
+        return 0
     if sys.argv[1] == "yaz" and len(sys.argv) == 5:
         K = json.load(open(sys.argv[2], encoding="utf-8"))
         K.sort(key=lambda k: k["id"])
