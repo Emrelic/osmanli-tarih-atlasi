@@ -329,6 +329,444 @@ window.EKOKUMA_SAVAS1700 = [
 },
 
 {
+ "id": "savas-malta-1798",
+ "tur": "savas-hikayesi",
+ "baslik": "Malta'nın Fransızlarca Alınışı (10-12 Haziran 1798)",
+ "kisa": "Osmanlı'nın 1565'te alamadığı ada, Mısır yolundaki Bonaparte'a üç günde teslim oldu; şövalyeleri kılıçtan çok içerideki ihanet yendi.",
+ "tarih_metin": "Filo 9 Haziran 1798'de adanın önüne geldi; saldırı 10 Haziran sabahı; teslim antlaşması 12 Haziran 1798",
+ "yer": "Malta ve Gozo adaları, Valletta limanı",
+ "taraflar": [
+  {
+   "ad": "Fransız Cumhuriyeti'nin Mısır seferi kuvvetleri",
+   "komutan": "General Napolyon Bonaparte · filo komutanı Amiral Brueys",
+   "kuvvet": "nakliye gemileriyle birlikte toplam 50.000-54.000 asker (kaynaklar ayrışıyor; bu sayı Mısır'a giden bütün ordunundur)"
+  },
+  {
+   "ad": "St. Jean (Malta) Şövalyeleri tarikatı",
+   "komutan": "Büyük Üstat Ferdinand von Hompesch",
+   "kuvvet": "332 şövalye, limanda yaklaşık 3.600 asker, taşradan yaklaşık 13.000 milis"
+  }
+ ],
+ "oncesi": "St. Jean şövalyeleri 1522'de Rodos'tan çıkarılınca V. Carlos onları 1530'da Malta'ya yerleştirmişti; 1565'teki büyük Osmanlı kuşatması bu adada başarısız olmuştu. 1798'de Mısır'a giden Fransız donanmasının yolu Malta'dan geçiyordu ve ada, sefer için bir ikmal üssü olarak ele geçirilecekti. 9 Haziran'da filo adanın önüne geldi; Büyük Üstat Hompesch, ufukta onlarca bin askerlik bir orduyla karşı karşıyaydı.",
+ "akis": "10 Haziran sabahı Fransızlar adanın dört ayrı noktasına birden saldırdı. Savunma kâğıt üzerinde küçük değildi, ama içeriden çözüldü: Bonaparte'ın adadaki casusları, Fransız asıllı şövalyelerin önemli bir kısmının -bazıları Büyük Üstat'ın en yakın danışmanlarıydı- işgalcilerle yıllardır gizlice iş birliği yapması ve halk arasındaki Fransız taraftarları savunucular arasında kargaşa yarattı. 12 Haziran 1798'de 'sözleşme' adı verilen teslim belgesi Fransız amiral gemisi L'Orient'te imzalandı; belgenin 7. maddesi halkın Katolik dinini serbestçe yaşayacağını ve mülkünün korunacağını vaat ediyordu.",
+ "sonuc": "Şövalye teşkilatı dağıtıldı, adada yeni bir düzen kuruldu; Bonaparte kısa süre sonra Mısır'a yöneldi. Fransızlar 7. maddeye uymadı, kiliselerin kıymetli eşyalarını satmaları halkı öfkelendirdi: 2 Eylül 1798'de ayaklanma başladı ve Fransız garnizonu liman surlarının gerisine kapandı. İngilizlerin desteklediği iki yıllık ablukanın sonunda General Vaubois 5 Eylül 1800'de teslim oldu; Malta İngiltere'nin eline geçti ve 1964'e kadar orada kaldı.",
+ "tartisma": "① Hompesch'in sorumluluğu: geleneksel yorum teslimin suçunu Büyük Üstat'a yükler; Vella Gera ise onun 'günah işleyenden çok günahın kurbanı' olduğunu, savunmanın ihanetle çözüldüğünü savunur. ② Vella Gera'ya göre Büyük Üstat kendisine sunulan teslim sözleşmesini imzalamamış, belgeyi Bonaparte ile tarikatın eski haznedarı Bosredon Ransijat ve bazı Maltalı ileri gelenler imzalamıştır. ③ Fransız ordusunun büyüklüğü kaynakta 54.000, Fondation Napoléon yazısında yaklaşık 50.000 olarak geçer. TDV olayı yalnız yılla verir (1798); gün akademik/kurumsal kaynaklardan alınmıştır.",
+ "kesinlik": "kesin",
+ "olay": [
+  "1798-06-12|Malta"
+ ],
+ "kaynak": "TDV: malta (II. Tarih bölümü: İdris Bostan) · Anthony Vella Gera, “An Eventful Two Years in the History of Malta as Recorded in the British Press”, Storja '98 (Malta Üniversitesi Tarih Topluluğu yayını), s. 66 vd. (https://um.edu.mt/library/oar/bitstream/123456789/25192/1/AN%20EVENTFUL%20TWO%20YEARS%20IN%20THE%20HISTORY%20OF%20MALTA.pdf) · Fondation Napoléon, “The Taking and the Siege of Malta”, Revue du Souvenir Napoléonien (https://www.napoleon.org/en/history-of-the-two-empires/articles/the-taking-and-the-siege-of-malta)",
+ "gorsel": null,
+ "gorsel_kaynak": "aranmadı",
+ "ic_not": "TDV malta 200 (gövde okundu; olay yalnız '1798'de Napolyon ... adayı ele geçirdi', şövalye teşkilatı dağıtıldı, 1800 İngiliz işgali). Gün TDV'de yok. um.edu.mt PDF 200 (pypdf ile metin çıkarıldı; yazar bankacı-koleksiyoncu, Storja '98 hakemli dergi değil, Malta Üniv. öğrenci-tarih topluluğu yayını — beyan). napoleon.org 200 (yazar adı sayfada yok; Fondation Napoléon dergisi). Hakemli bir makale bulunamadı; Carmelo Testa, The French in Malta (Midsea 1997) temel eser olarak anılıyor, erişilemedi. Vikipedi kullanılmadı."
+},
+
+{
+ "id": "savas-duckworth-istanbul-1807",
+ "tur": "savas-hikayesi",
+ "baslik": "Duckworth Harekâtı: İngiliz Donanması İstanbul Önünde (19 Şubat - 3 Mart 1807)",
+ "kisa": "Bir İngiliz filosu Çanakkale'yi kayıpsız geçip Kınalıada'ya demirledi; beş günde 361 tabya kuran İstanbul tek top atmadan onu geri çevirdi.",
+ "tarih_metin": "19 Şubat 1807 Çanakkale geçişi · 20 Şubat 1807 Kınalıada önüne demirleme · 25 Şubat savunmanın tamamlanması · 1 Mart 1807 filonun ayrılışı · 3 Mart dönüşte Çanakkale'den ağır hasarla çıkış",
+ "yer": "Çanakkale Boğazı, Marmara, Kınalıada önleri ve İstanbul Boğazı",
+ "taraflar": [
+  {
+   "ad": "İngiltere Akdeniz filosu",
+   "komutan": "Amiral John Thomas Duckworth · İstanbul elçisi Charles Arbuthnot",
+   "kuvvet": "Boğazı on bir gemi geçti; biri Çanakkale'de bırakıldı, İstanbul önüne on gemi geldi; piyade birliği yoktu"
+  },
+  {
+   "ad": "Osmanlı Devleti",
+   "komutan": "III. Selim · Kaptanıderya Salih Paşa · müzakereci Safiyesultanzade İshak Bey; savunma planında Fransız elçisi General Sébastiani",
+   "kuvvet": "on iki parçalık donanma, yirmiden fazla topçu filikası, 100'ü aşkın kayık; Boğaz ve sahile kurulan 361 tabyada 540 top ve 110 havan"
+  }
+ ],
+ "oncesi": "1806'da Rusya ile savaşa giren Bâbıâli Fransa'ya yaklaşmış, Sébastiani'nin İstanbul'a gelişiyle Fransız nüfuzu artmıştı. İngiliz elçisi Arbuthnot Rus gemilerine Boğazları açtıramayınca 3 Eylül 1806'da bir filo çağırdı; elçi ve İngiliz tüccarlar 29 Ocak 1807'de İstanbul'dan ayrıldı. 14 Şubat'ta filonun bir gemisi bilinmeyen bir sebeple yanıp havaya uçtu. Amaç İstanbul'u almak değil, Bâbıâli'yi korkutup Fransa karşıtı koalisyona geri döndürmekti.",
+ "akis": "18 Şubat'ta beklenen rüzgâr esince Duckworth harekât emrini verdi; ertesi gün filo küçük bir direnişle Çanakkale'yi kayıpsız geçti ve 20 Şubat'ta Kınalıada önüne demirledi. Bâbıâli zaman kazanmak için İshak Bey'i görüşmeye yolladı, bir yandan da Sébastiani'nin planıyla Sarayburnu'ndan Yedikule'ye, Kadıköy'den Fenerbahçe'ye tabyalar kurdu. Halk, gayrimüslim cemaatler dahil, inşaatlara akın etti; Fransa'dan gelen top ve mühendisler 22 Şubat'ta ulaştı. 25 Şubat'ta savunma tamamlanınca görüşmeler sert bir notayla kesildi; Kınalıada'ya çıkan İngiliz deniz piyadeleri manastır çevresinde püskürtüldü.",
+ "sonuc": "Ters rüzgâr ve akıntı yüzünden şehri topa tutamayan filo, 1 Mart 1807'de İstanbul'dan ayrıldı; iki gün sonra Çanakkale tahkimatından ağır yara alarak geçti ve toplam 46 ölü, 235 yaralı verdi. Duckworth, Rus Amiral Seniavin'in ortak saldırı teklifini reddetti. İngiltere ile savaş 1809 Kal'a-i Sultaniye Antlaşması'yla bitti. Ama zafer iç barışı getirmedi: dağıtılan silahlar geri toplanamadı, filonun yeniçeriliği kaldırmak için Nizâm-ı Cedîd ekibince çağrıldığı söylentisi yayıldı ve III. Selim'i deviren Kabakçı Mustafa isyanı üç ay sonra Boğaz kalelerinde başladı.",
+ "tartisma": "TDV (selim-iii) filonun 'Şubat sonunda' çekildiğini söyler; Yeşil ayrılışı 1 Mart sabahına koyar. Kabakçı isyanıyla bağlantıyı Yeşil kurar; TDV de yeniçeriliği kaldırmak için çağrıldığı söylentisini 'asılsız' diye anar.",
+ "kesinlik": "kesin",
+ "olay": [
+  "1807-02-20|Duckworth"
+ ],
+ "kaynak": "TDV: selim-iii (Kemal Beydilli) · Fatih Yeşil, “İngiltere'nin İstanbul Harekâtı: 1807”, Büyük İstanbul Tarihi, Siyasi Olaylar, İstanbul Büyükşehir Belediyesi-İSAM, s. 81-87 (https://istanbultarihi.ist/assets/uploads/pdf/ingilterenin-istanbul-harekati-1807-41.pdf); geniş hâli: F. Yeşil, “İstanbul Önlerinde Bir İngiliz Filosu”, ed. S. Kenan, Nizâm-ı Kadîm'den Nizâm-ı Cedîd'e III. Selim ve Dönemi, İstanbul 2010, s. 391-493",
+ "gorsel": null,
+ "gorsel_kaynak": "aranmadı",
+ "ic_not": "TDV selim-iii 200 (gövde okundu: Şubat 1807 filo İstanbul önünde, Şubat sonu çekilme, söylenti 'asılsız'; Duckworth adı ve sayı yok). istanbultarihi.ist HTML sayfası PHP hatası verdi; PDF 200, pypdf ile tam metin okundu (Fatih Yeşil, Hacettepe Üniv.). Tarihler Yeşil'den. Madde t=1807-02-20 Kınalıada demirlemesiyle birebir uyuşuyor."
+},
+
+{
+ "id": "savas-iskenderiye-resid-1807",
+ "tur": "savas-hikayesi",
+ "baslik": "İngilizlerin İskenderiye Seferi ve Reşid Bozgunu (Mart-Eylül 1807)",
+ "kisa": "İstanbul'dan eli boş dönen İngiltere Mısır'a çıktı; Reşid sokaklarında iki kez geri püskürtülünce Mehmed Ali'nin Mısır'daki yıldızı parladı.",
+ "tarih_metin": "17 Mart 1807 İngiliz filosu İskenderiye önünde · Mart ve Nisan 1807 Reşid'e iki başarısız saldırı (ikincisi Nisan'ın ortası; 21 Nisan 1807 tarihli Fraser mektubu 'felaketler'den söz ediyor) · 14 Eylül 1807 İngilizlerin Mısır'dan çekilmesi",
+ "yer": "İskenderiye, Ebûkīr ve Nil'in Reşid (Rosetta) ağzı, Hamed (El Hamet) köyü",
+ "taraflar": [
+  {
+   "ad": "İngiliz sefer kuvveti",
+   "komutan": "General Alexander Mackenzie Fraser · Tuğgeneral Stewart · Yarbay Macleod · filoda Amiral Lewis",
+   "kuvvet": "kaynakta toplam sayı verilmiyor; Hamed'de Macleod'un kolu yaklaşık 1.000 ölü, yaralı ve kayıp verdi"
+  },
+  {
+   "ad": "Mısır valisi Mehmed Ali Paşa'nın kuvvetleri",
+   "komutan": "Kavalalı Mehmed Ali Paşa",
+   "kuvvet": "kaynakta sayı verilmiyor"
+  }
+ ],
+ "oncesi": "Duckworth filosu İstanbul'dan eli boş dönünce İngiltere aynı yılın Mart'ında Mısır'a yöneldi: Akdeniz filosunun bir kısmı 17 Mart 1807'de İskenderiye önüne geldi ve İskenderiye ile Ebûkīr ele geçirildi. Vali Mehmed Ali Paşa o sırada Yukarı Mısır'da (Said) Kölemenlerle savaşıyordu. Kölemenlerin hamisi İngilizlerdi; Mehmed Ali ise Fransız uzmanlarla çalışıyordu.",
+ "akis": "İngilizler İskenderiye'den Nil ağzındaki Reşid kasabasına yürüdü ve Mart'ta ilk saldırıda geri püskürtüldü. Mehmed Ali haberi alır almaz Kölemenlerle anlaşarak Said'i vergi karşılığında onlara bıraktı, sırtını güvenceye alıp kuzeye döndü; Fransız başkonsolosu Drovetti'nin desteğini de aldı. Nisan'daki ikinci Reşid saldırısı düşmana yetişen takviyeler yüzünden yine başarısız oldu. Bu arada Hamed'de mevzilenen Yarbay Macleod'un kolu bozguna uğradı: Fraser'in raporuna göre Macleod dahil yaklaşık 1.000 kişi öldü, yaralandı ya da kayboldu ve Stewart İskenderiye'ye çekilmek zorunda kaldı. 21 Nisan tarihli mektubunda Fraser, bu 'felaketler'in yanlış istihbarattan doğduğundan yakınıyordu.",
+ "sonuc": "Erzak ve para sıkıntısı içindeki İngilizler İskenderiye'ye kapandı; Mehmed Ali ordusunun başında oraya yürürken İstanbul'da III. Selim tahttan indirildi. Sonunda İngilizler Mehmed Ali ile anlaşarak 14 Eylül 1807'de Mısır'ı terk etti ve 1882'ye kadar geri dönmedi. Zafer Mehmed Ali'nin hareket alanını genişletti; Kölemenler de bu olayda İngiltere yerine onunla iş birliği yaparak kaderlerini ona bağladı.",
+ "tartisma": "Hamed (El Hamet) bozgununun günü okunan akademik kaynaklarda verilmiyor; Aberdeen Üniversitesi arşivindeki Fraser mektuplarından biri 21 Nisan 1807 tarihli ve felaketlerden söz ediyor, Hamed raporunu içeren mektup ise yalnız '[Nisan] 1807' diye kataloglanmış. Hamed'deki kayıp sayısı Fraser'in kendi raporundandır (ölü-yaralı-kayıp toplamı).",
+ "kesinlik": "tartismali",
+ "olay": [
+  "1807-03-17|Fraser",
+  "1807-04-21|Reşid"
+ ],
+ "kaynak": "TDV: ebukir (Atilla Çetin) · Selda Güner, “Abdurrahman El-Caberti ve Giovanni Reggio'nun Anlatılarında 'Kahire Kale Katliamı' (Mart 1811) ve Memlüklerin Mısır'dan Tasfiyesi”, Akademik İncelemeler Dergisi 11/2 (2016), s. 47-68, s. 60-61 (https://dergipark.org.tr/tr/download/article-file/252524) · Aberdeen Üniversitesi Özel Koleksiyonlar, MS 3470/6/1/1678 (Fraser'den Binbaşı Missett'e, 21 Nisan 1807) ve MS 3470/6/1/1721 (Fraser'den General H. E. Fox'a, [Nisan] 1807) katalog kayıtları (https://calm.abdn.ac.uk/archives/rdf/catalog/MS%203470/6/1/1721)",
+ "gorsel": null,
+ "gorsel_kaynak": "aranmadı",
+ "ic_not": "TDV kavalali-mehmed-ali-pasa 200 (1807 seferi YOK); mehmed-ali-pasa-kavalali yalnız yönlendirme; misir 0-200k okundu, 1807 yok; resid = arama sayfası (ölü slug); arama 'Fraser' sonuçsuz; arama 'Reşid 1807 İngiliz' → ebukir 200: 'Mart 1807'de İskenderiye ve Ebûkīr'i istilâ etti'. Güner PDF 200 (pypdf). Mevhibe Savaş metni (turkoloji.cu.edu.tr) yerel gazete yayını olduğu için KULLANILMADI. Aberdeen katalog kayıtları 200 (birincil belge özeti). Madde t=1807-04-21 için kaynak günü kesinleştirilemedi; çelişki yok ama gün teyitsiz."
+},
+
+{
+ "id": "savas-ibrail-1809",
+ "tur": "savas-hikayesi",
+ "baslik": "İbrâil'in Düşüşü (2 Aralık 1809)",
+ "kisa": "Bahardaki Rus hücumlarını savuşturan Tuna kalesi, kışa girerken toptan değil açlıktan teslim oldu.",
+ "tarih_metin": "1809 kampanyası; teslim 2 Aralık 1809 (TDV) — Rus kaynağında 21 Kasım (eski takvim) = 3 Aralık 1809",
+ "yer": "İbrâil (Brăila) Kalesi, Tuna'nın kuzey kıyısı, Eflak",
+ "taraflar": [
+  {
+   "ad": "Rus Tuna ordusu",
+   "komutan": "TDV'ye göre Kaminski; teslimi alan General Essen",
+   "kuvvet": "kaynakta sayı verilmiyor"
+  },
+  {
+   "ad": "Osmanlı garnizonu",
+   "komutan": "kaynakta adı verilmiyor",
+   "kuvvet": "teslim anında 4.100 piyade, 1.100 atlı ve 260 top"
+  }
+ ],
+ "oncesi": "1806'da başlayan Osmanlı-Rus savaşında Ruslar Eflak ve Boğdan'ı işgal etmiş, Tuna'nın sol yakasındaki Osmanlı kalelerini tek tek almaya çalışıyordu. 1809 baharında başkomutan Prozorovski kampanyaya Yergöğü ve İbrâil'le başladı, ama iki kaleye yapılan hücumlar da başarısız oldu. Yaz boyunca savaş Tuna'nın aşağı kesimine ve Silistre önüne kaydı; İsmail Kalesi teslim oldu.",
+ "akis": "Yılın son harekâtı İbrâil'e yöneldi. TDV'nin anlatımına göre Rus kuvvetleri kaleyi sardı ve topa tuttu; asıl kırılmayı ise top değil açlık getirdi. Çevresiyle bağı kesilen garnizonun erzakı tükenince kale General Essen'e teslim edildi. Teslim anında içeride 4.100 piyade, 1.100 atlı ve 260 top bulunuyordu — yani kale ordusu dağılmadan, kuşatmanın uzunluğuyla düştü.",
+ "sonuc": "İbrâil'in kaybıyla Tuna'nın kuzey kıyısındaki savunma hattının en güçlü halkalarından biri koptu; Rus ordusu ertesi yıl nehri geçip Silistre, Rusçuk ve Niğbolu'ya yürüdü. Savaş ancak 28 Mayıs 1812 Bükreş Antlaşması'yla bitti. Kale bir sonraki savaşta da aynı kaderi yaşayacaktı: 1828'de 4.000 muhafız ve 278 topla yeniden kuşatıldı, 23 Haziran 1828'de Rus işgaline geçti ve ancak Edirne Antlaşması'yla Osmanlı'ya dönüp Eflak Prensliği'ne bırakıldı.",
+ "tartisma": "① Gün: TDV teslimi 2 Aralık'a koyar; Brockhaus-Efron ansiklopedisi 'ген. Эссеном Браилова, который сдался 21 ноября' der — eski (Jülyen) takvimle 21 Kasım, yeni takvimle 3 Aralık 1809; bir günlük fark vardır. ② Komuta: TDV kuşatmayı Kaminski'ye bağlar, Rus ansiklopedisi bu son harekâtı General Essen'in kuşatması olarak anar.",
+ "kesinlik": "tartismali",
+ "olay": [
+  "1809-12-02|İbrâil"
+ ],
+ "kaynak": "TDV: ibrail (Mihai Maxim) · TDV: mahmud-ii--osmanli (Kemal Beydilli; Bükreş Antlaşması günü) · Энциклопедический словарь Брокгауза и Ефрона, «Турецкие войны России» (ru.wikisource.org/wiki/ЭСБЕ/Турецкие_войны_России)",
+ "gorsel": null,
+ "gorsel_kaynak": "aranmadı",
+ "ic_not": "TDV ibrail 200 (Kaminski, Essen, 2 Aralık, 4100/1100/260 okundu; hicrî gün yok). ESBE ham vikimetin (action=raw) 200, Rusça paragraf okundu. TDV mahmud-ii (yanlış slug arama sayfası; doğru slug mahmud-ii--osmanli 200). Madde t=1809-12-02 TDV ile uyumlu."
+},
+
+{
+ "id": "savas-ruscuk-1811",
+ "tur": "savas-hikayesi",
+ "baslik": "1811 Tuna Seferi: Niğbolu, Silistre ve Rusçuk (Nisan-Temmuz 1811)",
+ "kisa": "Kutuzov kaleleri havaya uçurarak geri çekildi, Rusçuk'ta kazandığı muharebeden sonra bile şehri yakıp yıkıp karşı yakaya geçti — bu bir tuzağın ilk hamlesiydi.",
+ "tarih_metin": "Nisan 1811 Niğbolu kalesinin havaya uçurulup boşaltılması · Mayıs 1811 Silistre surlarının yıkılması · 4 Temmuz 1811 (eski takvimle 22 Haziran) Rusçuk Muharebesi ve ardından Rusçuk'un yıkılıp boşaltılması",
+ "yer": "Tuna'nın güney yakası: Niğbolu, Silistre, Rusçuk ve Rusçuk'un güneyindeki Kadıköy mevzii",
+ "taraflar": [
+  {
+   "ad": "Osmanlı ordusu",
+   "komutan": "Sadrazam Lâz Ahmed Paşa",
+   "kuvvet": "kaynakta sayı verilmiyor"
+  },
+  {
+   "ad": "Rus Tuna ordusu",
+   "komutan": "Mihail Kutuzov",
+   "kuvvet": "kaynakta sayı verilmiyor"
+  }
+ ],
+ "oncesi": "1810'da Ruslar Tuna'yı geçip güney yakadaki kaleleri almıştı: Silistre bombardıman altında düştü, Rusçuk uzun ve kanlı bir kuşatmadan sonra 26 Eylül 1810'da teslim oldu, Niğbolu Ekim 1810'da Rus eline geçti. 1811'de Tuna ordusunun başına geçen Kutuzov ise elindeki kuvvetle bütün bu kaleleri tutmayı gerçekçi bulmadı.",
+ "akis": "Kutuzov kaleleri tutmak yerine yok etmeyi seçti: Niğbolu kalesinin büyük kısmı Nisan 1811'de havaya uçuruldu, Silistre surlarının yıkıldığı Mayıs 1811'de çara bildirildi. Ana kuvvetlerini Rusçuk ve Yergöğü'nde topladı. Haziran başında Şumnu'dan çıkan Sadrazam Lâz Ahmed Paşa 4 Temmuz'da (eski takvimle 22 Haziran) Rusçuk önünde Rusları vurdu, ama yenilerek güneydeki tahkimli Kadıköy mevziine çekildi. Kutuzov ise kazandığı muharebenin ardından Rusçuk'ta kalmayı tehlikeli buldu; şehrin surlarını ve Orta Çağ kalesini yıktırıp bütün ordusunu Tuna'nın sol yakasına geçirdi. Yıkım sırasında çıkan yangın şehri de harap etti; 1810'daki 38 camiden 12'si tamamen yok oldu.",
+ "sonuc": "Kutuzov çekilince sadrazam Rusçuk'u yeniden ele geçirdi; Niğbolu ve Silistre de yıkık hâlde Osmanlı'ya kaldı. Osmanlı tarafı bunu bir zafer gibi gördü ve ordunun büyük kısmıyla Tuna'yı geçmeye hazırlandı — ama bu geri çekiliş, sonbaharda Slobozia'da kurulacak kuşatmanın zeminini hazırlıyordu.",
+ "tartisma": "① Rusçuk muharebesini Rus kaynağı Kutuzov'un zaferi olarak anlatır; TDV (ruscuk) ise 1811 Haziranında 'ağır yenilgiler ve terslikler' sonrasında Rusların geri çekilmeye zorlandığını söyler. İki anlatım çekilişin sebebini farklı koyar. ② Niğbolu'nun 1810'da alınışını TDV Kutuzov'a bağlar; Rus ansiklopedisi Niğbolu'nun 1810 sonbaharında Kamenski II'nin Tuna boyunca ilerleyişinde direnmeden teslim olduğunu yazar (Kutuzov başkomutanlığa 1811'de geldi). ③ Niğbolu ve Silistre için kaynak yalnız ay verir (Nisan / Mayıs 1811).",
+ "kesinlik": "tartismali",
+ "olay": [
+  "1811-04-01|Niğbolu",
+  "1811-05-01|Silistre",
+  "1811-07-04|Rusçuk"
+ ],
+ "kaynak": "TDV: nigbolu (Machiel Kiel) · TDV: silistre (Machiel Kiel) · TDV: ruscuk (Machiel Kiel) · Энциклопедический словарь Брокгауза и Ефрона, «Турецкие войны России» (ru.wikisource.org/wiki/ЭСБЕ/Турецкие_войны_России) · Fehmi İsmail, “Bükreş Andlaşmasının Müzakeresi 1811-1812”, Belleten 46/181 (Ocak 1982) (https://belleten.gov.tr/tam-metin/1705/tur; sadrazamın adı)",
+ "gorsel": null,
+ "gorsel_kaynak": "aranmadı",
+ "ic_not": "TDV nigbolu 200, silistre 200, ruscuk 200 (gövdeler okundu). TDV'de Lâz Ahmed Paşa maddesi yok (arama 0 başlık). ESBE ham vikimetin 200: 'В начале июня визирь выступил из Шумлы, а 22 атаковал русских у Рущука' (Jülyen; +12 = 4 Temmuz). Gün 1811-07-04 eski takvim dönüşümüyle uyumlu. Vikipedi yalnız aday bulmak için görüldü, dayanak değil."
+},
+
+{
+ "id": "savas-slobozia-1811",
+ "tur": "savas-hikayesi",
+ "baslik": "Slobozia Kuşatması (Eylül-Aralık 1811)",
+ "kisa": "Sadrazam ordusunu Tuna'nın öbür yakasına geçirdi; bir gece arkasına çıkan Rus kolu nehri kapattı ve ordu açlıkla baş başa kaldı.",
+ "tarih_metin": "Tuna'yı geçiş 5 Eylül 1811 gecesi başladı (eski takvimle 24 Ağustos) · 13-14 Ekim 1811 Rus Markov kolunun arkadan baskını · 14 Ekim gecesi sadrazamın Rusçuk'a kaçışı · 15 Ekim'den itibaren fiilî mütareke · 8 Aralık 1811 resmî mütareke sözleşmesi",
+ "yer": "Rusçuk'un karşısı, Tuna'nın sol (Eflak) yakasında Slobozia, ve Rusçuk önündeki sağ yaka",
+ "taraflar": [
+  {
+   "ad": "Osmanlı ordusu",
+   "komutan": "Sadrazam Lâz Ahmed Paşa · sonra Çapanoğlu (Rus kaynağında 'Чапан-паша')",
+   "kuvvet": "Rus kaynağına göre sol yakaya geçen yaklaşık 36.000, sağ yakada bırakılan yaklaşık 30.000"
+  },
+  {
+   "ad": "Rus Tuna ordusu",
+   "komutan": "Mihail Kutuzov · arkadan çıkan kolun komutanı General Markov",
+   "kuvvet": "Markov kolu 5.000 piyade, 2.500 süvari, 38 top; ana ordu için kaynakta sayı yok"
+  }
+ ],
+ "oncesi": "Temmuz'da Kutuzov Rusçuk'u yıkıp Tuna'nın sol yakasına çekilmişti. Sadrazam Lâz Ahmed Paşa bunu Rus zaafı sayıp nehri geçmeye karar verdi; amaç Kutuzov'u yenmek ve Vidin'den gelecek İsmail Bey ordusuyla birleşip Bükreş'i almaktı. Eylül'de Slobozia adasını ani bir baskınla aldı ve büyük bir kuvvetle sol yakaya geçti; askerler hemen siper kazdı.",
+ "akis": "İsmail Bey'in Kalafat'tan Yergöğü'ne yol açma girişimleri iki kez püskürtüldü. Kutuzov ise cüretkâr bir plan uyguladı: Ekim başında General Markov'un kolu sallarla gizlice sağ yakaya geçti, şafakta Rusçuk önünde kalan Osmanlı birliklerine baskın yaptı; paniğe kapılan askerler Rusçuk'a ve Razgrad'a dağıldı. Markov'un sağ yakanın yüksek sırtlarına kurduğu toplar sol yakadaki sadrazam ordugâhını dövmeye başladı. Sadrazam mütareke istedi ve cevap beklemeden 14 Ekim gecesi bir kayıkla Rusçuk'a geçti; Rus Tuna filosu ertesi gün iki yaka arasındaki bağı kesti. Sol yakada kalan ordu, erzakı tükenmiş hâlde kuşatma içinde kaldı.",
+ "sonuc": "15 Ekim'den beri fiilen yürürlükte olan mütarekenin resmî metni ancak 8 Aralık'ta imzalandı; kuşatılan Osmanlı askerlerine savaş esiri muamelesi yapılmayacaktı. Ana ordunun erimesi Bâbıâli'yi barışa razı etti; barış görüşmeleri uzun süre sonuç vermedi, ama Napolyon'un Rusya'ya karşı yeni savaş hazırlıkları Rusya'yı acele ettirdi ve savaş 28 Mayıs 1812 Bükreş Antlaşması'yla sona erdi.",
+ "tartisma": "Tarihler: Rus ansiklopedisi Jülyen takvimiyle 1 Ekim (Markov'un geçişi), 2 Ekim (baskın) ve 3 Ekim (filonun bağı kesmesi) der; bunlar miladî 13-15 Ekim'e denk gelir ve Fehmi İsmail'in verdiği 13 ve 14 Ekim geceleriyle uyuşur. Kuşatılan ordunun teslim gününü okunan kaynaklar ayrıca vermiyor; Fehmi İsmail resmî sözleşmeyi 8 Aralık'a koyar.",
+ "kesinlik": "tartismali",
+ "olay": [
+  "1811-10-25|Slobozia"
+ ],
+ "kaynak": "Fehmi İsmail, “Bükreş Andlaşmasının Müzakeresi 1811-1812”, Belleten 46/181 (Ocak 1982), TTK (https://belleten.gov.tr/tam-metin/1705/tur) · Энциклопедический словарь Брокгауза и Ефрона, «Турецкие войны России» (ru.wikisource.org/wiki/ЭСБЕ/Турецкие_войны_России) · TDV: mahmud-ii--osmanli (Kemal Beydilli; Bükreş Antlaşması günü) · TDV: galib-pasa-mehmed-said (Orhan F. Köprülü; barış görüşmeleri)",
+ "gorsel": null,
+ "gorsel_kaynak": "aranmadı",
+ "ic_not": "TDV arama 'Slobozia' 0 sonuç; 'Yergöğü 1811' → ruscuk, galib-pasa, yusuf-ziya-pasa (Slobozia yok); bukres-antlasmasi = arama sayfası (ölü slug); TDV'de Lâz Ahmed Paşa maddesi yok. Belleten tam metin 200 (ilk 100k karakter okundu). ESBE ham vikimetin 200. TARIH-CELISKI: madde t=1811-10-25, kaynak kuşatmanın kapanışını 13-15 Ekim 1811'e (miladî) koyuyor; 25 Ekim'i destekleyen kaynak bulunamadı. Napolyon'un savaş hazırlıklarının Rusya'yı Bükreş'i imzalamaya zorladığı bilgisi TDV galib-pasa-mehmed-said'den."
+},
+
+{
+ "id": "savas-hicaz-vehhabi-1811-1815",
+ "tur": "savas-hikayesi",
+ "baslik": "Mehmed Ali'nin Vehhâbî Seferi: Safra Bozgunu ve Bisel Zaferi (1811-1815)",
+ "kisa": "Mısır ordusu Hicaz'daki ilk büyük çarpışmada dar bir vadide neredeyse yok oldu; dört yıl sonra Taif'in doğusunda tabloyu tersine çevirdi.",
+ "tarih_metin": "Eylül 1811 sefere çıkış · Ekim 1811 Yenbu · Safra bozgunu: kaynaklara göre 1811 sonu - 1812 başı · Kasım 1812 Medine, Ocak 1813 Mekke · Bisel (Basal) Muharebesi 20 Ocak [1815] · Haziran 1815 Tosun Paşa ile Abdullah b. Suûd arasında antlaşma",
+ "yer": "Hicaz: Yenbu-Medine yolu üzerindeki Safra vadisi; Taif'in doğusunda Bisel (Basal)",
+ "taraflar": [
+  {
+   "ad": "Mısır (Osmanlı) kuvvetleri",
+   "komutan": "Tosun Paşa · 1813'ten sonra bizzat Kavalalı Mehmed Ali Paşa",
+   "kuvvet": "ilk sefer kuvveti 3.500 (Değirmenci) / Safra'ya giren ordu 8.000 (Lutsky) — kaynaklar ayrışıyor"
+  },
+  {
+   "ad": "Birinci Suûdî-Vehhâbî Devleti",
+   "komutan": "Suûd b. Abdülazîz; 1814'ten sonra oğlu Abdullah; Bisel'de Abdullah'ın kardeşi Faysal",
+   "kuvvet": "Bisel'de 30.000 (yalnız Lutsky)"
+  }
+ ],
+ "oncesi": "Vehhâbîler Mekke ve Medine'yi alıp hutbede padişahın adını okutmaz olmuş, hac yollarını tehdit ediyordu. Bağdat ve Şam valileri bir şey yapamayınca II. Mahmud işi Mısır valisi Mehmed Ali Paşa'ya havale etti. Mehmed Ali önce iç cepheyi temizledi: oğlu Tosun'un Cidde valiliği ve sefer kumandanlığı şerefine 1 Mart 1811'de Kahire Kalesi'nde verdiği davette Kölemen beylerini öldürttü. Eylül 1811'de ordu yola çıktı; piyade denizden, süvari karadan gitti ve Ekim'de Yenbu limanı alındı.",
+ "akis": "Medine'ye yürüyen ordu Safra vadisinde Vehhâbîlerin ani baskınına uğradı ve ağır bir bozguna düştü; Lutsky'ye göre 8.000 kişiden 5.000'i öldü. Değirmenci yenilgide, genç Tosun'u ciddiye almayan kumandanların emre uymamasının payını vurgular. Mehmed Ali yeni bir ordu kurdu: Medine Kasım 1812'de, Mekke, Taif ve Cidde Ocak 1813'te geri alındı. Eylül 1813'te Mehmed Ali bizzat Hicaz'a geçti; Tosun Türebe'de yenildi, ama takviyelerle toparlandı. 20 Ocak'ta Taif'in doğusundaki Bisel'de (Basal) Mısır ordusu, Abdullah'ın kardeşi Faysal'ın kumandasındaki güney ordusunu ezdi ve Vehhâbîlerin güneydeki gücünü kırdı.",
+ "sonuc": "1815 baharında Tosun Paşa üst üste kazandığı başarılarla Abdullah b. Suûd'u barışa zorladı; Haziran 1815 antlaşması Kasım bölgesini Vehhâbîlere bırakıyordu, ama Mehmed Ali şartları reddetti ve antlaşma geçersiz kaldı. Mehmed Ali Haziran 1815'te Mısır'a döndü. Tosun'un ölümünden sonra sefer İbrahim Paşa'ya geçti; Dir'iye Nisan 1818'de kuşatıldı ve beş ay sonra düştü.",
+ "tartisma": "① Safra'nın tarihi: Lutsky Ocak 1812, Değirmenci '1812 yılı başları' der; TDV bu çarpışmayı hiç anmaz. ② Bisel: okunan kaynaklardan yalnız Lutsky muharebeyi adıyla anar ve 20 Ocak gününü verir; yıl anlatının sırasından (1815) çıkar. 30.000 kişilik Vehhâbî ordusu rakamı da yalnız onundur. ③ Sefer kuvveti: Değirmenci 3.500, Lutsky Safra'daki ordu için 8.000 der.",
+ "kesinlik": "tartismali",
+ "olay": [
+  "1811-12-01|Safra",
+  "1815-01-20|Bisel"
+ ],
+ "kaynak": "TDV: vehhabilik (Mehmet Ali Büyükkara) · TDV: kavalali-mehmed-ali-pasa (Muhammed Hanefi Kutluoğlu) · TDV: ibrahim-pasa-kavalali (Muhammed Hanefi Kutluoğlu) · Kevser Değirmenci, “Vehhâbî İsyanının Bastırılmasında ve Sonrasında Mekke Muhafızı Hasan Paşa'nın Faaliyetleri”, Sosyal Bilimler Dergisi, sayı 49 (Temmuz 2016), s. 144 vd. (https://dergipark.org.tr/tr/download/article-file/264311) · Vladimir B. Lutsky, Modern History of the Arab Countries (1969), Bölüm VI 'The Egyptian Conquest of Arabia' (https://www.marxists.org/subject/arab-world/lutsky/ch06.htm)",
+ "gorsel": null,
+ "gorsel_kaynak": "aranmadı",
+ "ic_not": "TDV vehhabilik 200 (yalnız 1811 başlangıç, 1813 Mekke-Medine, 1818 Dir'iye; Safra/Bisel YOK). TDV tosun-pasa = arama sayfası (madde yok). TDV arama 'Bisel' ve 'Safra Tosun' sonuçsuz. Değirmenci PDF 200 (pypdf); dergi künyesinde üniversite adı PDF'te okunamadı. Lutsky marxists.org 200 (Sovyet akademik eseri, İngilizce çevirisi; yayınevi sayfada yazmıyor). Arıkan, Eskiyeni 49 (2023) 'Kavalalı Haziran 1815'te Mısır'a dönmüştür' ile teyit. TARIH-CELISKI: madde t=1811-12-01 (Safra), kaynaklar Ocak 1812 / 1812 başı."
+},
+
+{
+ "id": "savas-osmanli-iran-1820-1823",
+ "tur": "savas-hikayesi",
+ "baslik": "Osmanlı-İran Savaşı (1820/1821-1823)",
+ "kisa": "Yunan isyanıyla uğraşan imparatorluğa doğudan Kaçar veliahdı yüklendi: Kars ve Bayezid düştü, Erzurum kuşatıldı — ama savaşı bitiren antlaşmada tek karış toprak verilmedi.",
+ "tarih_metin": "Başlangıç kaynaklara göre Eylül 1820 (Azap) ya da 1821 sonbaharı (TDV) · I. Erzurum Antlaşması 28 Temmuz 1823 (temessüklerin imzası; onay 1824'e sarktı)",
+ "yer": "Doğu Anadolu (Bayezid, Kars, Erzurum) ve Irak (Süleymaniye, Kerkük, Bağdat eyaleti)",
+ "taraflar": [
+  {
+   "ad": "Osmanlı Devleti",
+   "komutan": "Erzurum valisi ve Şark seraskeri Mehmed Emin Rauf Paşa (barışın da murahhası); Irak cephesinde Bağdat valisi Davud Paşa",
+   "kuvvet": "kaynakta sayı verilmiyor"
+  },
+  {
+   "ad": "Kaçar İranı",
+   "komutan": "Veliaht Abbas Mirza",
+   "kuvvet": "kaynakta 'büyük bir askerî kuvvet'; sayı verilmiyor"
+  }
+ ],
+ "oncesi": "İran Rusya'ya kaptırdığı toprakların acısını Osmanlı sınırından çıkarmak istiyordu; Rusya da İran'ı Osmanlı'ya karşı kışkırtıyordu. Sınırda konar-göçer Sepki ve Haydaranlı aşiretlerinin çıkardığı karışıklıklar, İranlı hacı ve tüccarlara Osmanlı yerel yöneticilerinin baskısı ilişkileri gerdi. Bahane hazırdı: Şah'ın hacca giden hanımının kervanı Osmanlı görevlilerince aranmıştı. Osmanlı o sırada Rum isyanının yarattığı siyasî ve askerî bunalımın içindeydi.",
+ "akis": "Abbas Mirza büyük bir orduyla sınırı geçti, Bayezid ve Kars'ı aldı ve Erzurum'u kuşattı. Savaş iki ana cepheye yayıldı: merkezi Erzurum olan Şark cephesi ve merkezi Bağdat olan Irak cephesi. TDV'nin anlatımına göre İran askerleri Kuzey Irak'a ve Bağdat eyaletine geniş bir saldırı yaptı, Süleymaniye'yi ele geçirdi, Kerkük'ü kuşattı. Osmanlı'nın direnişi ve Azerbaycan'ı saran salgın hastalık İran ordusunu sonunda geri çekilmeye zorladı.",
+ "sonuc": "Sahada üstün olan İran'dı, ama masada kazanan Osmanlı oldu: Rusya'nın güçlenmesini istemeyen İngiltere'nin baskısı ve Rauf Paşa'nın diplomasisiyle toprak verilmeyen bir barış yapıldı. Erzurum'da imzalanan antlaşmaya göre İran kuvvetleri işgal ettikleri yerlerden altmış gün içinde çekilecekti. Ancak iki tarafın elinde farklı nüshalar kaldı; aşiret ve sınır meseleleri çözülmedi ve 1847'deki ikinci Erzurum antlaşmasına kadar uzandı.",
+ "tartisma": "① Başlangıç: TDV (iran) Abbas Mirza'nın sınırı '1821 sonbaharında' geçtiğini söyler; Azap ise Osmanlı arşiv belgelerine dayanarak İran saldırılarını Eylül 1820'den itibaren Bayezid ve Kars üzerinden başlatır ve savaşı '1820-1823' diye adlandırır. ② Bağdat: TDV 'Süleymaniye ve Bağdat işgal edildi' der; okunan Azap makalesi Bağdat merkezli bir cepheden söz eder ama şehrin işgalini anmaz. ③ Antlaşma günü: 28 Temmuz 1823 literatürde kabul gören gündür (murahhasların temessük imzası); padişah ve şah onayları 1824'e sarktı.",
+ "kesinlik": "tartismali",
+ "olay": [
+  "1821-01-01|İran"
+ ],
+ "kaynak": "TDV: iran (Osmanlı-İran münasebetleri bölümü) · Aziz Tekdemir, “XIX. Yüzyılın İlk Çeyreğinde Osmanlı-İran İhtilafları ve 1821-1823 Savaşı”, Karadeniz Uluslararası Bilimsel Dergi 4 (2009) (yalnız özeti okundu) · Eralp Yaşar Azap, “I. Erzurum Antlaşması Metninde Yapılan Tahrifat ve Antlaşmanın Uygulanmasında Yarattığı Sorunlar”, Tarih Dergisi 77 (2022/2), s. 213-257, DOI 10.26650/iutd.1086380 (https://dergipark.org.tr/tr/download/article-file/2303983)",
+ "gorsel": null,
+ "gorsel_kaynak": "aranmadı",
+ "ic_not": "TDV iran 200, 100k-200k karakter aralığında pasaj okundu (bölüm yazarı WebFetch özetinde görünmedi). TDV abbas-mirza 200 (savaş yok). TDV erzurum-antlasmalari = arama sayfası (ölü slug). Azap PDF 200 (pypdf), s. 217 giriş + dipnot 5-6 okundu. Tekdemir 2009 (Karadeniz dergisi) PDF metin vermedi (taranmış). TARIH-CELISKI: madde t=1821-01-01; TDV 1821 sonbaharı, Azap Eylül 1820 — 1 Ocak 1821 iki kaynağa da uymuyor."
+},
+
+{
+ "id": "savas-prut-1828",
+ "tur": "savas-hikayesi",
+ "baslik": "1828-1829 Osmanlı-Rus Savaşı'nın Başlaması: Rusların Prut'u Geçişi (7 Mayıs 1828)",
+ "kisa": "Elinde Boğaz'da yalnız on gemisi kalmış, nizamî askeri seksen bini geçmeyen bir imparatorluğa Rus ordusu Prut'tan girdi; yolun sonu Edirne oldu.",
+ "tarih_metin": "26 Nisan 1828 Rusya'nın savaş ilanı · 7 Mayıs 1828 (eski takvimle 25 Nisan) 6. Piyade Kolordusunun Memleketeyn'e girişi · 19 Haziran 1828 (eski 7 Haziran) İbrâil'in teslimi · 22 Ağustos 1829 Edirne · 14 Eylül 1829 Edirne Antlaşması",
+ "yer": "Prut nehri, Eflak ve Boğdan (Memleketeyn), Aşağı Tuna",
+ "taraflar": [
+  {
+   "ad": "Rus ordusu",
+   "komutan": "Mareşal Wittgenstein; Kafkas cephesinde Paskeviç; öncüde General Geismar",
+   "kuvvet": "Avrupa cephesine üç piyade ve bir süvari kolordusu, toplam 100.000'e kadar; Asya cephesine yaklaşık 30.000"
+  },
+  {
+   "ad": "Osmanlı Devleti",
+   "komutan": "II. Mahmud",
+   "kuvvet": "1828 baharında bütün imparatorlukta en çok 190.000, bunun yalnız yaklaşık 80.000'i nizamî; donanmadan Boğaz'da yalnız 10 gemi kalmıştı"
+  }
+ ],
+ "oncesi": "1828 baharında Osmanlı silahlı kuvvetleri bütün imparatorluğa dağılmış en çok 190.000 kişiydi ve bunun ancak 80.000 kadarı nizamî askerdi; donanmadan geriye Boğaz'da yalnızca on gemi kalmıştı. Rusya, Bâbıâli'nin yayımladığı bir bildiriyi bahane ederek 26 Nisan 1828'de savaş açtı. Rus planına göre üs Besarabya olacak, Memleketeyn yalnız düzeni sağlamak ve Avusturya'ya karşı sağ kanadı korumak için tutulacak, asıl ordu Aşağı Tuna'yı geçip Varna ve Şumnu üzerinden Balkanları aşacaktı.",
+ "akis": "7 Mayıs'ta (Rus takvimiyle 25 Nisan) 6. Piyade Kolordusu Prut'u geçerek Eflak ve Boğdan'a girdi; öncüsü General Geismar kumandasında Küçük Eflak'a yöneldi. 7. Kolordu birkaç gün sonra İbrâil'i kuşattı. 3. Kolordunun Tuna'yı geçişi, sular altındaki ovada yol yapmak gerektiği için bir ay gecikti; geçiş çarın gözü önünde gerçekleşti ve İsakçı teslim oldu. İbrâil'e yapılan hücum püskürtüldü, ama Maçin düşüp kale yalnız kalınca İbrâil de teslim oldu.",
+ "sonuc": "Savaş iki yıl sürdü: Ruslar Tuna'yı aşıp İbrâil'i, Anadolu'da Kars ve Ahıska'yı aldı; Silistre'yi alan Diebitsch Balkanları geçti ve 22 Ağustos 1829'da direnişle karşılaşmadan Edirne'ye girdi. Antlaşma 14 Eylül 1829'da Edirne'de imzalandı. Memleketeyn, savaş tazminatı ödenene kadar -Eflak için 1834'e kadar- Rus işgalinde kaldı.",
+ "tartisma": "İbrâil'in teslim günü: Rus ansiklopedisi 7 Haziran (eski takvim) = 19 Haziran 1828 verir; TDV (ibrail) şehrin 23 Haziran 1828'de Rus işgaline geçtiğini söyler. Prut geçiş günü yalnız Rus ansiklopedisinde var ('25 апр. 6-й пех. корпус вступил в княжества'); TDV maddeleri olaya gün vermez.",
+ "kesinlik": "kesin",
+ "olay": [
+  "1828-05-07|Prut"
+ ],
+ "kaynak": "TDV: edirne-antlasmasi (Şerafettin Turan) · TDV: ibrail (Mihai Maxim) · TDV: bogdan (Abdülkadir Özcan) · TDV: eflak (Kemal Karpat) · Энциклопедический словарь Брокгауза и Ефрона, «Турецкие войны России», bölüm 5 «Первая Т. война Николая I (1828—29)» (ru.wikisource.org/wiki/ЭСБЕ/Турецкие_войны_России)",
+ "gorsel": null,
+ "gorsel_kaynak": "aranmadı",
+ "ic_not": "TDV edirne-antlasmasi 200 (26 Nisan 1828 savaş ilanı, 22 Ağustos 1829 Edirne, 15 Rebîülevvel 1245 / 14 Eylül 1829). TDV mahmud-ii--osmanli 200 (Prut yok; WebFetch özeti Edirne barışını '14 Ağustos 1829' verdi — muhtemelen özet hatası, edirne-antlasmasi maddesi 14 Eylül diyor; kartta 14 Eylül kullanıldı). TDV memleketeyn 200 (yalnız tanım). ESBE ham vikimetin 200: 25 Nisan Jülyen +12 = 7 Mayıs; madde t ile uyumlu."
+},
+
+{
+ "id": "savas-ibrahim-pasa-suriye-anadolu-1831-1833",
+ "tur": "savas-hikayesi",
+ "baslik": "Kavalalı İbrahim Paşa'nın Suriye-Anadolu Seferi (Kasım 1831 - Mayıs 1833)",
+ "kisa": "Altı ay Akkâ surlarında bekleyen Mısır ordusu, sonra bir yazda Suriye'yi geçti, Konya'da sadrazamı esir aldı ve Kütahya'ya kadar ilerledi.",
+ "tarih_metin": "2 Kasım 1831 sefer emri · 8 Kasım Yafa'ya çıkış · 26 Kasım 1831 Akkâ kuşatması · 14 Nisan 1832 Zerrâa · 27 Mayıs 1832 Akkâ'nın teslimi · 8 Temmuz 1832 Humus · 29 Temmuz 1832 Belen · 21 Aralık 1832 Konya · 2 Şubat 1833 Kütahya · 3-6 Mayıs 1833 Kütahya uzlaşması",
+ "yer": "Filistin (Yafa, Akkâ), Suriye (Humus), Amanos dağlarında Belen geçidi, Toroslar, Konya, Kütahya",
+ "taraflar": [
+  {
+   "ad": "Mısır ordusu",
+   "komutan": "Kavalalı İbrahim Paşa (babası Mehmed Ali Paşa adına)",
+   "kuvvet": "kaynakta sayı verilmiyor"
+  },
+  {
+   "ad": "Osmanlı ordusu",
+   "komutan": "Akkâ'da Osmanlı muhafızları (komutan adı okunan kaynaklarda yok) · Humus'ta Halep valisi Mehmed Paşa · Belen'de Ağa Hüseyin Paşa · Konya'da Sadrazam Reşid Mehmed Paşa",
+   "kuvvet": "kaynakta sayı verilmiyor"
+  }
+ ],
+ "oncesi": "Mısır'da güçlü bir iktidar kuran vali Mehmed Ali Paşa'nın genişleme emelleri 1830'ların başında merkezî hükümetle açık bir çatışmaya dönüştü. 2 Kasım 1831'de sefer emri verildi; oğlu İbrahim Paşa 8 Kasım'da Yafa'ya çıktı ve 26 Kasım'da Napolyon'u 1799'da durduran Akkâ'yı karadan ve denizden kuşattı.",
+ "akis": "Akkâ altı ay direndi; Mısır birlikleri 14 Nisan 1832'de Zerrâa'da Osmanlı kuvvetleriyle ilk kez karşılaşıp onları yendi ve kale 27 Mayıs 1832'de harap hâlde teslim alındı. İbrahim Paşa 8 Temmuz'da Humus'ta Halep valisi Mehmed Paşa'nın öncü ordusunu, 29 Temmuz'da Belen geçidinde Ağa Hüseyin Paşa'nın ordusunu yendi; Antakya'dan Adana'ya Çukurova Mısır'a açıldı. Toroslar'ı aşan Mısır ordusu Konya'ya yürürken hiçbir direnişle karşılaşmadı ve 21 Aralık 1832'de Konya önünde büyük bir zafer kazanıp Sadrazam Reşid Mehmed Paşa'yı esir aldı.",
+ "sonuc": "Sadrazamın esir düşmesinden sonra İbrahim Paşa 2 Şubat 1833'te Kütahya'ya ulaştı. Sadrazamı ve ordusu kaybedilmiş olan İstanbul pazarlığa oturmak zorunda kaldı. Mustafa Reşid Bey Kütahya'ya gönderildi; İngiltere ve Fransa'nın baskısıyla Bâbıâli Mısır'ın şartlarını 3 Mayıs 1833'te kabul etti ve karar 6 Mayıs fermanıyla duyuruldu. 'Kütahya Antlaşması' denir, ama ortada karşılıklı imzalanmış bir antlaşma metni yoktur.",
+ "tartisma": "① Akkâ kuşatmasının başlangıcı TDV'de 26 Kasım 1831'dir. ② Mustafa Reşid Bey'in Kütahya'ya gönderilişi TDV'nin İbrahim Paşa maddesinde 29 Mart, Mehmed Ali Paşa maddesinde 30 Mart 1833 olarak geçer. ③ Gülek Boğazı'nın geçilişi okunan TDV maddelerinde günüyle yer almıyor.",
+ "kesinlik": "tartismali",
+ "olay": [
+  "1831-11-27|Akkâ",
+  "1832-07-08|Humus",
+  "1832-07-29|Belen",
+  "1832-09-13|Gülek",
+  "1833-02-02|Kütahya"
+ ],
+ "kaynak": "TDV: ibrahim-pasa-kavalali (Muhammed Hanefi Kutluoğlu) · TDV: kavalali-mehmed-ali-pasa (Muhammed Hanefi Kutluoğlu) · TDV: akka (Feridun Emecen) · TDV: mahmud-ii--osmanli (Kemal Beydilli)",
+ "gorsel": null,
+ "gorsel_kaynak": "aranmadı",
+ "ic_not": "TDV ibrahim-pasa-kavalali 200 (2 Kasım, 8 Kasım, 26 Kasım, 27 Mayıs, 8 Temmuz, 29 Temmuz 1832, 21 Aralık 1832, 29 Mart, 3 ve 6 Mayıs 1833). TDV kavalali-mehmed-ali-pasa 200 (Zerrâa 14 Nisan 1832, Akkâ 27 Mayıs, Konya'ya dirençsiz yürüyüş, 21 Aralık, 30 Mart 1833). TDV mahmud-ii--osmanli 200 (Kütahya 2 Şubat 1833). TDV akka 200 (altı ay, harap hâlde teslim). TDV icel 200: 1832-33 Mısır işgali ve Gülek HİÇ YOK — maddenin 'icel (TDV)' dayanağı bu olay için boş; Gencer 2016 makalesi bulunamadı. Abdullah Paşa adı TDV'de geçmiyor (WebFetch 'not mentioned'); komutan alanında bırakıldı ama okunan kaynakta yok — istenirse silinsin. Mevhibe Savaş metni (yerel gazete) kullanılmadı. TARIH-CELISKI: madde t=1831-11-27, TDV 26 Kasım 1831."
+},
+
+{
+ "id": "savas-dogu-akdeniz-1840",
+ "tur": "savas-hikayesi",
+ "baslik": "1840 Doğu Akdeniz Harekâtı: Beyrut ve Akkâ (Eylül-Kasım 1840)",
+ "kisa": "Sekiz yıl önce İbrahim Paşa'nın altı ayda alabildiği Akkâ, İngiliz-Avusturya-Osmanlı filosunun tek günlük bombardımanına dayanamadı.",
+ "tarih_metin": "15 Temmuz 1840 Londra Antlaşması · 10 Eylül 1840 müttefiklerin Beyrut'a asker çıkarması · 3 Kasım 1840 Akkâ bombardımanı · 4 Kasım 1840 Akkâ'nın düşüşü · 27 Kasım 1840 Mehmed Ali'nin çekilme emri",
+ "yer": "Suriye-Lübnan kıyısı: Beyrut, Sayda, Sur, Hayfa, Akkâ",
+ "taraflar": [
+  {
+   "ad": "Osmanlı-İngiliz-Avusturya müttefik donanması",
+   "komutan": "okunan kaynaklarda müttefik komutanın adı verilmiyor",
+   "kuvvet": "kaynakta sayı verilmiyor; Akkâ'da gemiler surdan yaklaşık 400 m mesafeden ateş etti"
+  },
+  {
+   "ad": "Mısır kuvvetleri",
+   "komutan": "Kavalalı İbrahim Paşa (babası Mehmed Ali Paşa adına)",
+   "kuvvet": "kaynakta sayı verilmiyor"
+  }
+ ],
+ "oncesi": "1831'den beri Suriye, Beyrut dahil, Mehmed Ali Paşa'nın elindeydi; 1839'da Osmanlı ile yeniden savaşa tutuşması Avrupa'yı, özellikle İngiltere'yi harekete geçirdi. 15 Temmuz 1840'ta Bâbıâli, İngiltere, Rusya, Avusturya ve Prusya Londra Antlaşması'nı imzaladı; Mehmed Ali şartları kabul etmeyince Suriye kıyıları İngiliz ve Avusturya desteğiyle ablukaya alındı.",
+ "akis": "Müttefik kuvvetler 10 Eylül 1840'ta Beyrut'a asker çıkardı; Osmanlı, İngiliz ve Avusturya gemilerinin bombardımanı şehri harabeye çevirdi. Sayda ve Sur da kısa sürede düştü. Sıra Akkâ'ya geldi: 3 Kasım'da müttefik filo kaleyi dövdü. İngiliz gemilerinin keşfi ve ustaca manevraları savunucuları yanılttı; gemiler sur dibine, yaklaşık 400 metreye kadar sokulup ateş açtı. Bombardımandan üç gülle bugün hâlâ El-Şazeliye Camii'nin denize bakan duvarında gömülüdür. Ertesi gün, 4 Kasım'da Akkâ düştü ve yeniden Osmanlı hâkimiyetine girdi.",
+ "sonuc": "Kıyı kalelerini birer birer kaybeden İbrahim Paşa'nın Suriye'de tutunma imkânı kalmadı; Mehmed Ali 27 Kasım 1840'ta oğluna kuvvetlerini geri çekme emri verdi. Uzun bir pazarlığın ardından 24 Mayıs 1841 tarihli fermanla Mısır valiliği ona ve ailesine bırakıldı; genişleme emelleri ise İngiltere'nin karşı çıkmasıyla sonuçsuz kaldı.",
+ "tartisma": "① Beyrut: TDV (ibrahim-pasa-kavalali) müttefik çıkarmasını 10 Eylül'e koyar. ② Akkâ: bombardıman 3 Kasım (Kahanov ve diğerleri), şehrin düşüşü 4 Kasım (TDV kavalali-mehmed-ali-pasa) — iki gün iki ayrı aşamayı tarihliyor. Cephaneliğin infilakı okunan kaynaklarda geçmiyor.",
+ "kesinlik": "tartismali",
+ "olay": [
+  "1840-09-11|Beyrut",
+  "1840-11-03|Akkâ"
+ ],
+ "kaynak": "TDV: ibrahim-pasa-kavalali (Muhammed Hanefi Kutluoğlu) · TDV: kavalali-mehmed-ali-pasa (Muhammed Hanefi Kutluoğlu) · TDV: beyrut (Davut Dursun) · TDV: akka (Feridun Emecen) · TDV: misir (6. bölüm, Hilal Görgün; 1841 fermanı) · Yaacov Kahanov, Eliezer Stern, Deborah Cvikel, Yoav Me-Bar, “Between Shoal and Wall: The Naval Bombardment of Akko, 1840”, The Mariner's Mirror 100/2 (2014), s. 147-167, DOI 10.1080/00253359.2014.901699",
+ "gorsel": null,
+ "gorsel_kaynak": "aranmadı",
+ "ic_not": "TDV ibrahim-pasa-kavalali 200 (10 Eylül Beyrut çıkarması, 27 Kasım çekilme emri). TDV kavalali-mehmed-ali-pasa 200 ('4 Kasım'da Akkâ düştü'). TDV beyrut 200 (bombardıman günü yok). TDV akka 200 (gün yok). Kahanov et al. yalnız özet (cris.iucc.ac.il 200) okundu, tam metin değil. London Gazette PDF taranmış görüntü, okunamadı. TARIH-CELISKI: madde t=1840-09-11 (Beyrut bombardımanı ve çıkarma), TDV çıkarma 10 Eylül 1840 — bombardımanın 11 Eylül olduğunu gösteren okunmuş kaynak yok. Madde t=1840-11-03 bombardıman günü olarak Kahanov ile uyumlu; 'iki saatte düştü' ve 'cephanelik infilakı' ifadeleri okunan kaynaklarla teyit edilemedi."
+},
+
+{
+ "id": "savas-ilirya-dalmacya-1813",
+ "tur": "savas-hikayesi",
+ "baslik": "Avusturya'nın İlirya Eyaletleri'ni ve Dalmaçya'yı Geri Alması (1813)",
+ "kisa": "Napolyon'un Adriyatik'teki 'İlirya'sı 1813 sonunda Avusturya ordusunun önünde dağıldı; Osmanlı Bosna'sının komşusu yeniden Habsburglar oldu.",
+ "tarih_metin": "1813 sonu (kaynak yıl ve 'yıl sonu' düzeyinde veriyor); kesin devir: 30 Mayıs 1814 Paris Barışı ve 9 Haziran 1815 Viyana Kongresi hükümleri",
+ "yer": "Doğu Adriyatik: İstirya, Hırvatistan'ın Sava güneyi, Dalmaçya (Zadar, Knin), Dubrovnik ve Kotor; Ljubljana ve Trieste",
+ "taraflar": [
+  {
+   "ad": "Avusturya İmparatorluğu",
+   "komutan": "Dalmaçya'da General Franjo Ksaver Tomašić",
+   "kuvvet": "kaynakta sayı verilmiyor"
+  },
+  {
+   "ad": "Napolyon Fransası'nın İlirya Eyaletleri yönetimi",
+   "komutan": "kaynakta adı verilmiyor",
+   "kuvvet": "kaynakta sayı verilmiyor"
+  }
+ ],
+ "oncesi": "Napolyon Fransası'nın doğu Adriyatik'teki toprakları -Dubrovnik, eski Venedik Dalmaçyası ve Venedik İstiryası dahil- genel valilik merkezi Ljubljana olan İlirya Eyaletleri'nde toplanmıştı. Böylece Osmanlı Bosna'sının batı ve güney komşusu birkaç yıllığına Fransa oldu; Bosna sınırının öte yakasında Habsburg yerine Fransız idaresi vardı. 1811'de yönetim yeniden düzenlendi; Dubrovnik ve İstirya ayrı sivil eyaletler hâline getirildi.",
+ "akis": "1813 yılının sonlarına doğru Avusturya ordusu İlirya Eyaletleri'ni işgal etti. Dalmaçya'da General Tomašić kumandasındaki Avusturya birlikleri Knin'i ve Zadar'ı aldı. Fransız döneminde Ljubljana'da bulunan genel valilik merkezi, Avusturya idaresinde Trieste'ye taşındı. Böylece Napolyon'un Adriyatik'te birkaç yıl süren varlığı, Avrupa'daki büyük savaşın kaderiyle birlikte sona ermiş oldu.",
+ "sonuc": "Fiilî işgal, 30 Mayıs 1814 Paris Barışı ve 9 Haziran 1815 Viyana Kongresi kararlarıyla hukukileşti: Avusturya doğu Adriyatik'teki bütün eski topraklarını geri aldı. Dalmaçya Zadar, Split, Dubrovnik ve Kotor olmak üzere dört okruge ayrıldı. Bundan böyle Osmanlı Bosna-Hersek'i karadan ve kıyıdan tek bir komşuyla, Habsburglarla çevrili kalacaktı; Fransız arası, haritada yalnızca birkaç yıllık bir parantez olarak kaldı.",
+ "tartisma": "Kaynak olayları ay ve gün düzeyinde vermiyor ('potkraj 1813' = 1813 sonları); haritadaki geçişin günü yaklaşıktır.",
+ "kesinlik": "kesin",
+ "olay": [
+  "1813-01-01|İlirya"
+ ],
+ "kaynak": "Hrvatska enciklopedija (Leksikografski zavod Miroslav Krleža): «Ilirske pokrajine» (https://www.enciklopedija.hr/clanak/ilirske-pokrajine) ve «Dalmacija» (https://www.enciklopedija.hr/clanak/dalmacija) — TDV olayı kapsamıyor (Osmanlı dışı)",
+ "gorsel": null,
+ "gorsel_kaynak": "aranmadı",
+ "ic_not": "enciklopedija.hr ilirske-pokrajine 200 ('Potkraj 1813. austrijska je vojska zaposjela Ilirske pokrajine'; Paris 30 Mayıs 1814; Viyana 9.VI.1815; Ljubljana → Trst; 1811 Dubrovnik ve İstirya ayrı eyalet). dalmacija 200 ('austrijske postrojbe generala Franje Ksavera Tomašića zauzele su Knin i Zadar'; dört okruga). TDV aranmadı (Osmanlı dışı). Madde t=1813-01-01 yıl hassasiyeti; kaynak '1813 sonu' diyor — haritada geçiş en erken bu günle gösteriliyorsa yıl-başı genişlemesi kaynakla çelişir, Emre'ye bildirilecek (TARIH-CELISKI listesinde). Kart kısa tutuldu; '1809 Schönbrunn' gibi günler okunan kaynakta olmadığı için yazılmadı."
+},
+
+{
+ "id": "savas-memleketeyn-isgali-1853",
+ "tur": "savas-hikayesi",
+ "baslik": "1853 Memleketeyn İşgali: Menşikov Krizi ve Prut Geçişi (Şubat-Ekim 1853)",
+ "kisa": "Kutsal yerler için gelen bir elçinin kapıyı çarpıp gitmesinden altı hafta sonra Rus ordusu Prut'u geçti — savaş ilan etmeden.",
+ "tarih_metin": "28 Şubat 1853 Menşikov İstanbul'da · 21 Mayıs 1853 Menşikov'un ayrılışı · 3 Temmuz 1853 (eski takvimle 21 Haziran) Rus öncüsünün Prut'u geçişi · 15 Temmuz 1853 Bükreş'e giriş (eski 3 Temmuz) ve aynı gün Bâbıâli'nin protesto notası · 4 Ekim 1853 Osmanlı savaş ilanı",
+ "yer": "Prut nehri, Boğdan (Yaş) ve Eflak (Bükreş); diplomatik cephe İstanbul",
+ "taraflar": [
+  {
+   "ad": "Rus İmparatorluğu",
+   "komutan": "Çar I. Nikola · elçi Prens Aleksandr Menşikov · ordu komutanı General Gorçakov · öncüde General Anrep-Elmpt",
+   "kuvvet": "Memleketeyn'e ayrılan kuvvet 81.841 kişi (IV. Kolordu 57.794, V. Kolordunun bir kısmı 21.803, 3 Don kazak alayı); öncü 32 süvari bölüğü, 6 kazak bölüğü ve 16 top"
+  },
+  {
+   "ad": "Osmanlı Devleti",
+   "komutan": "Abdülmecid · Hariciye Nazırı Mustafa Reşid Paşa",
+   "kuvvet": "kaynakta sayı verilmiyor; işgale silahla karşılık verilmedi"
+  }
+ ],
+ "oncesi": "Kudüs'teki kutsal yerler üzerindeki Fransız-Rus çekişmesi büyüyünce Çar Nikola, Bahriye Nazırı Prens Menşikov'u olağanüstü elçi olarak İstanbul'a yolladı. Menşikov yolda Kişinev'deki 5. Kolordu ile Sivastopol'daki Karadeniz Filosu'nu teftiş etti ve 28 Şubat 1853'te kalabalık bir askerî heyetle geldi; heyet Boğazların savunmasını da gözlüyordu. Çar ona gerekirse Memleketeyn'in bağımsızlığını tanımakla tehdit etme yetkisi vermişti. Ortodoks tebaa üzerinde resmî güvence isteyen ültimatom reddedilince Menşikov 15 Mayıs'ta ilişkileri kesti ve 21 Mayıs'ta Büyükdere'den Odesa'ya döndü.",
+ "akis": "Gorçakov Haziran'da Kişinev'de ordunun komutasını aldı. Rus takvimiyle 21 Haziran'da (miladî 3 Temmuz) Anrep-Elmpt'in süvari öncüsü Prut'u geçti ve Boğdan'a girdi; ordu Yaş'ı tuttu ve öncü 15 Temmuz'da Bükreş'e vardı. Haber Bâbıâli'ye 7 Temmuz'da ulaştı. Bu açık bir savaş sebebiydi, ama ne sultan ne çar savaş ilan etti: Nikola işgalin yalnız Ortodoksların haklarını korumak için bir baskı aracı olduğunu söylüyordu. Bükreş'teki Rus konsolosluğu beylere Bâbıâli ile ilişkiyi kesmelerini ve vergiyi göndermemelerini bildirdi.",
+ "sonuc": "Bâbıâli 15 Temmuz'da işgali resmî bir notayla protesto etti, 1841 antlaşmasını imzalayan devletlere yükümlülüklerini hatırlattı; savaşa hazır olduğunu ama savaşı başlatmak istemediğini bildirdi. Viyana'da arabuluculuk notaları gidip geldi, sonuç çıkmadı. Osmanlı 4 Ekim 1853'te savaş ilan etti; Memleketeyn'deki Rus işgali Kırım Savaşı'nın ilk cephesine dönüştü ve ancak 1856 Paris Antlaşması'yla sona erdi.",
+ "tartisma": "Prut geçiş günü: Sytin'in Askerî Ansiklopedisi öncünün geçişini Jülyen takvimiyle 21 Haziran'a koyar (= 3 Temmuz 1853). Candan Badem ise 'On 2 July' der; o cümlede takvim belirtmez, ama başka yerlerde Ortodoks takvim karışıklığına dikkat çektiği için miladî kastettiği düşünülebilir — bir günlük fark çözülmüş değildir. Bükreş'e giriş günü Sytin'de Jülyen 3 Temmuz'dur (= 15 Temmuz); bu Badem'in 15 Temmuz protesto notasıyla aynı güne düşer.",
+ "kesinlik": "tartismali",
+ "olay": [
+  "1853-07-03|Prut"
+ ],
+ "kaynak": "TDV: abdulmecid (Cevdet Küçük) · TDV: eflak (Kemal Karpat) · Candan Badem, The Ottomans and the Crimean War (1853-1856), doktora tezi, Sabancı Üniversitesi, Haziran 2007, s. 69-78 (https://research.sabanciuniv.edu/id/eprint/8400/); gözden geçirilmiş kitap: The Ottoman Crimean War (1853-1856), Brill 2010 · Военная энциклопедия (Sytin, 1911-1915), «Восточная война 1853—56 гг.» (ru.wikisource.org/wiki/ВЭ/ВТ/Восточная_война_1853—56_гг.)",
+ "gorsel": null,
+ "gorsel_kaynak": "aranmadı",
+ "ic_not": "G2 koordinatörünün ek görevi (B12). TDV abdulmecid 200 ('Eflak-Boğdan'ı işgal etti', gün yok; '4 Ekim 1853' savaş ilanı). TDV memleketeyn 200 (yalnız tanım), eflak 200 (gün yok), bogdan 200 (1853 yok), kirim-savasi = arama sayfası (ölü slug). Badem tezi PDF 200 (552 s.; pypdf): s. 69-70 Menşikov 28 Şubat, s. 76 15 ve 21 Mayıs, s. 78 'On 2 July the Russian armies commanded by General Gorchakov crossed the river Pruth', haber 7 Temmuz, 15 Temmuz nota. Brill kitabının kendisi okunmadı (sayfa no. teze göredir). Sytin VE ru.wikisource 200: '21 июня ав-рд ... под нач. г.-ад. гр. Анрепа-Эльмпта, переправился через Прут и 3 июля вступил в Бухарест'; 81.841 kişi; Rus savaş ilanı Jülyen 21 Ekim. Genel Kırım kartı (savas-kirim-savasi-1853-1856) tekrarlanmadı."
+},
+
+{
  "id": "savas-tokar-1891",
  "tur": "savas-hikayesi",
  "baslik": "Tokar'ın Geri Alınışı (Şubat 1891)",
