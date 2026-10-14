@@ -118,7 +118,7 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1704-08-13", b:"Blenheim Savaşı — Marlborough'nun zaferi",
   eksik_nokta:{ ad:"Blenheim (Blindheim)", enlem:48.6167, boylam:10.6167, kaynak:"standart akademik kaynak — Blenheim Savaşı meydanı, Bavyera, Almanya" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1715-09-06", b:"1715 Jakobit Ayaklanması",
+{ dosya:"kronoloji_ingiltere.js", t:"1715-01-01", b:"1715 Jakobit Ayaklanması",
   eksik_nokta:{ ad:"Braemar", enlem:57.008, boylam:-3.397, kaynak:"standart akademik kaynak — 1715 Jakobit Ayaklanması, Mar Kontu'nun Braemar'da bayrak açmasıyla başladı" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1739-01-01", b:"John Wesley açık hava vaazlarına başladı — Metodist uyanış",
@@ -151,7 +151,7 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1785-01-01", b:"Cartwright güçlü dokuma tezgâhını patentledi",
   yer_id:"Londra", kaynak:"standart akademik kaynak — Edmund Cartwright'ın güçlü dokuma tezgâhı patenti Londra'daki Patent Ofisi'nce tescillendi" },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1787-05-12", b:"Sierra Leone'de özgür köleler için koloni kuruldu",
+{ dosya:"kronoloji_ingiltere.js", t:"1787-01-01", b:"Sierra Leone'de özgür köleler için koloni kuruldu",
   eksik_nokta:{ ad:"Freetown", enlem:8.484, boylam:-13.2299, kaynak:"standart akademik kaynak — Sierra Leone'de özgür köleler için Province of Freedom kolonisi, bugünkü Freetown'da kuruldu" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1788-01-26", b:"İlk Filo Botany Bay'e ulaştı — Avustralya'nın kolonizasyonu başladı",
@@ -184,10 +184,10 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1855-09-08", b:"Sivastopol düştü",
   eksik_nokta:{ ad:"Sivastopol (Akyar)", enlem:44.6166, boylam:33.5254, kaynak:"standart akademik kaynak — Sivastopol Kuşatması'nın sona ermesi, Kırım Savaşı" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1866-07-27", b:"Kalıcı Atlantik telgraf kablosu tamamlandı",
+{ dosya:"kronoloji_ingiltere.js", t:"1866-01-01", b:"Kalıcı Atlantik telgraf kablosu tamamlandı",
   eksik_nokta:{ ad:"Heart's Content, Newfoundland", enlem:47.861, boylam:-53.272, kaynak:"standart akademik kaynak — kalıcı transatlantik telgraf kablosu, Great Eastern gemisince Heart's Content'e (Newfoundland) bağlandı, 27 Temmuz 1866" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1884-10-22", b:"Uluslararası Meridyen Konferansı Greenwich'i başlangıç meridyeni kabul etti",
+{ dosya:"kronoloji_ingiltere.js", t:"1884-01-01", b:"Uluslararası Meridyen Konferansı Greenwich'i başlangıç meridyeni kabul etti",
   eksik_nokta:{ ad:"Washington D.C.", enlem:38.9072, boylam:-77.0369, kaynak:"standart akademik kaynak — ⚠️ İKİNCİL YER TUZAĞI: madde metninde \"Greenwich\" geçiyor ama olayın kendisi (Uluslararası Meridyen Konferansı) Washington D.C.'de toplandı, Ekim 1884; Greenwich yalnız KONUSUDUR, toplantı yeri değil" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1893-01-01", b:"Bağımsız İşçi Partisi kuruldu",
@@ -268,7 +268,7 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1346-10-17", b:"Neville's Cross Savaşı — David II esir alındı",
   eksik_nokta:{ ad:"Neville's Cross (Durham yakını)", enlem:54.77, boylam:-1.6, kaynak:"standart akademik kaynak — Neville's Cross Savaşı, Durham yakını" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1371-02-22", b:"II. Robert tahta çıktı — Stewart hanedanı başladı",
+{ dosya:"kronoloji_ingiltere.js", t:"1371-01-01", b:"II. Robert tahta çıktı — Stewart hanedanı başladı",
   eksik_nokta:{ ad:"Scone", enlem:56.4127, boylam:-3.4082, kaynak:"standart akademik kaynak — II. Robert, Scone'da taç giyerek Stewart hanedanını başlattı" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1406-04-01", b:"Veliaht James denizde İngilizlerce esir alındı",
@@ -277,7 +277,7 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1437-02-20", b:"I. James suikastle öldürüldü",
   yer_id:"Perth (İskoçya)", kaynak:"standart akademik kaynak — I. James, Perth'teki Blackfriars Manastırı'nda suikastle öldürüldü" },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1460-08-03", b:"II. James top infilakında öldü",
+{ dosya:"kronoloji_ingiltere.js", t:"1460-01-01", b:"II. James top infilakında öldü",
   eksik_nokta:{ ad:"Roxburgh", enlem:55.573, boylam:-2.503, kaynak:"standart akademik kaynak — II. James, Roxburgh Kalesi kuşatmasında bir topun infilakında öldü" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1488-06-11", b:"Sauchieburn Savaşı — III. James öldürüldü",
@@ -316,7 +316,7 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1692-02-13", b:"Glencoe Katliamı",
   eksik_nokta:{ ad:"Glen Coe", enlem:56.67, boylam:-5.1, kaynak:"standart akademik kaynak — Glencoe Katliamı, Glen Coe, İskoçya" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1698-11-01", b:"Darien Seferi — İskoçya'nın kendi sömürgesini kurma girişimi",
+{ dosya:"kronoloji_ingiltere.js", t:"1698-01-01", b:"Darien Seferi — İskoçya'nın kendi sömürgesini kurma girişimi",
   eksik_nokta:{ ad:"Yeni Kaledonya (Darién)", enlem:8.63, boylam:-77.42, kaynak:"standart akademik kaynak — Darien Seferi, İskoçya'nın Panama'daki (Darién) koloni girişimi, \"Yeni Kaledonya\"" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1394-10-02", b:"II. Richard büyük bir orduyla İrlanda'ya çıktı",
@@ -355,7 +355,7 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1798-05-23", b:"1798 İrlanda Ayaklanması başladı",
   kapsam_genis:true, not:"1798 İrlanda Ayaklanması, Leinster'de (Dublin, Kildare, Meath, Wicklow) eşzamanlı çok sayıda ayaklanmayla başladı — tek nokta yok" },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1845-09-13", b:"Patates mildiyösü ilk kez bildirildi — Büyük Kıtlık başladı",
+{ dosya:"kronoloji_ingiltere.js", t:"1845-01-01", b:"Patates mildiyösü ilk kez bildirildi — Büyük Kıtlık başladı",
   kapsam_genis:true, not:"Patates mildiyösü, İrlanda'da bölgeler genelinde dağınık olarak ilk kez bildirildi — tek noktaya sığmaz, Büyük Kıtlık ülke çapında bir süreçtir" },
 
 { dosya:"kronoloji_ingiltere.js", t:"1848-07-29", b:"Genç İrlanda Ayaklanması",

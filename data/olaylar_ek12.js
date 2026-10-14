@@ -131,7 +131,7 @@ window.OLAYLAR_EK12 = [
   gun:"11 Kasım 1846", ic_not_gun:"EB1911 yalnız 'November 1846' veriyor; gün künye krakow-serbest-sehri'nin kaynağından (Hertslet No. 202, Avusturya imparatorunun ilhak beyannamesi) — bu turda yeniden okunmadı.",
   yer:"Krakov", yer_id:"Krakov",
   d:"Şubat 1846 Krakov ayaklanmasını bahane eden Rusya, Avusturya ve Prusya, Viyana'daki konferansta serbest şehri kaldırıp Avusturya topraklarına katmaya karar verdi; İngiltere ve Fransa'nın itirazları sonuç vermedi.",
-  kaynak:"Encyclopædia Britannica 1911, 'Cracow' (Wikisource) AYNEN: 'as the outcome of a conference at Vienna (November 1846) the three courts … decided to extinguish the state of Cracow and to incorporate it with the dominions of Austria.' · gün: Hertslet No. 202 (künyeden)" },
+  kaynak:"Encyclopædia Britannica 1911, «Cracow» https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Cracow — «as the outcome of a conference at Vienna (November 1846) the three courts» [yalnız yıl teyitli; gün teyitsiz] ; Encyclopædia Britannica 1911, 'Cracow' (Wikisource) AYNEN: 'as the outcome of a conference at Vienna (November 1846) the three courts … decided to extinguish the state of Cracow and to incorporate it with the dominions of Austria.' · gün: Hertslet No. 202 (künyeden)" },
 
 { t:"1893-01-01", k:"fetih", kapsam:"dis", etiket:["askeri","konu-askeri"],
   b:"Bornu, Râbih b. Zübeyr'in hâkimiyetine girdi",

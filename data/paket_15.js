@@ -1069,33 +1069,33 @@ window.OLAYLAR_P0056 = [
   kisiler:"Mareşal Münnich (Minih), Serasker Veli Paşa",
   d:"1739 seferinde Rus ana ordusu Mareşal Münnich komutasında Lehistan toprağından geçerek Boğdan'a girdi ve Hotin yakınındaki Stavuçani'de Serasker Veli Paşa'nın ordusunu ağır bir yenilgiye uğrattı. Bu savaşın hemen ardından Hotin kalesi Ruslara teslim oldu ve Rus kuvvetleri Eylül başında Yaş'a girdi. Ancak Avusturya'nın ayrı barış yapması üzerine savaş, aynı ay imzalanan Belgrad Antlaşması ile sona erdi.",
   ic_not_gun:"ESBE-TV kendi içinde çelişik: bir bölümde '17 августа', başka bölümde '27' (Ağustos) diyor. 17 Ağustos Jülyen = 28 Ağustos Gregoryen alındı (PAKET-RUS SEFERLER rus-munih-hotin-yas-1739 f:1739-08-28 ile aynı gün, onun kaynağı ESBE «Ставчаны» — o madde bu oturumca OKUNMADI). Hotin'in teslim günü ve Yaş'a giriş (ESBE-TV '1 сентября' J = 12 Eylül G) ayrı madde yapılmadı.",
-  kaynak:"ESBE «Турецкие войны России» (ru.wikisource): '17 августа русское войско встретилось с Т.' · 'Вслед за ставучанской битвой пал и Хотин'",
+  kaynak:"TDV İslâm Ansiklopedisi, «HOTİN» https://islamansiklopedisi.org.tr/hotin — «kale 1739’da Mareşal Münnich idaresindeki Rus ordusunun eline geçti» [yalnız yıl teyitli; gün teyitsiz] ; ESBE «Турецкие войны России» (ru.wikisource): '17 августа русское войско встретилось с Т.' · 'Вслед за ставучанской битвой пал и Хотин'",
   duygu:["⚔️"] },
 
 // ── 1769 · Golitsin Dinyester'i geçiyor ──────────────────────────────
-{ t:"1769-04-26", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ t:"1769-01-01", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Rus ordusunun Dinyester'i geçerek Boğdan'a girmesi (1768-1774 Osmanlı-Rus Savaşı)",
-  gun:"26 Nisan 1769 (Jülyen 15 Nisan)",
+  gun:"1769",
   yer:"Dinyester, Hotin önleri — Boğdan",
   yer_id:"Hotin",
   kisiler:"Prens A. M. Golitsin",
   d:"Savaş ilanından yaklaşık altı ay sonra Rus ana ordusu Prens Golitsin komutasında Podolya'da toplandı. Boğdan metropoliti Dositey'in Moldova'yı Rus himayesine alma çağrısı üzerine Golitsin Dinyester'i geçti ve Yaş'a yürümeden önce Hotin'i almayı denedi. Bu ilk deneme başarısız oldu, ordu erzak sıkıntısı yüzünden Podolya'ya geri döndü; Hotin ancak Eylül 1769'da düştü.",
   ic_not_gun:"ESBE-TV '15 апреля он перешел Днестр' — Jülyen, +11 gün ⇒ 26 Nisan 1769 G. PAKET-RUS SEFERLER rus-golitsyn-hotin-1769 f:1769-04-25 yazıyor (kaynağı bu oturumca okunmadı) — 1 günlük fark bildirildi, bu madde ESBE-TV çevirisini taşır.",
-  kaynak:"ESBE «Турецкие войны России» (ru.wikisource): '15 апреля он перешел Днестр, но перед движением в Яссы попытался овладеть Хотиным'",
-  duygu:["⚔️"] },
+  kaynak:"TDV İslâm Ansiklopedisi, «HOTİN» https://islamansiklopedisi.org.tr/hotin — «1769’da Osmanlı-Rus savaşları sırasında Prens Aleksandr Mihayloviç Golitsın tarafından zaptedildi» ; ESBE «Турецкие войны России» (ru.wikisource): '15 апреля он перешел Днестр, но перед движением в Яссы попытался овладеть Хотиным'",
+  duygu:["⚔️"], ic_not_t:"gün yalnız güvensiz kaynakta: 1769-04-26 (gun: «26 Nisan 1769 (Jülyen 15 Nisan)»); güvenilir kaynağın tarihi: 1769; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 // ── 1788 · Rumyantsev Mogilev'de Dinyester'i geçiyor ─────────────────
-{ t:"1788-07-01", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ t:"1788-01-01", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Rus Ukrayna ordusunun Mogilev'de Dinyester'i geçip Boğdan'a girmesi (1787-1792 Osmanlı-Rus Savaşı)",
-  gun:"1 Temmuz 1788 (Jülyen 20 Haziran)",
+  gun:"1788",
   yer:"Mogilev (Mohyliv-Podilskyi), Dinyester — Boğdan'ın kuzeyi",
   yer_kon:[48.446, 27.798],
   kisiler:"Mareşal Rumyantsev",
   d:"1787'de Osmanlı'nın savaş ilanıyla başlayan savaşta Rusya iki ordu kurdu: Potemkin'in ordusu Özi'yi kuşatırken Rumyantsev'in Ukrayna ordusu Dinyester ile Bug arasında Bender'i tehdit edecek ve Avusturya ile bağlantıyı tutacaktı. Rumyantsev bir kolu Hotin'i kuşatan Avusturyalılara destek için ayırdı, ana kuvvetleriyle Mogilev'de Dinyester'i geçerek Boğdan'a girdi. İsmail'e ve Tuna'ya uzanacak Rus harekâtının Boğdan ayağı böylece başladı.",
   ic_not_gun:"ESBE-TV '20 июня перешли через Днестр у Могилева' — Jülyen, +11 gün ⇒ 1 Temmuz 1788 G. Mogilev noktası atlasta yok, yer_kon kullanıldı (şehir merkezi, gazetteer koordinatı — Nominatim'le bu oturumda SINANMADI, yaklaşık).",
   ic_not_d:"Emre 0035/H-0090: 'Ruslar İsmail'e Boğdan üzerinden mi geldi?' — bu madde o sorunun 1788 ayağını cevaplar. Hotin 1788'de Avusturya garnizonuna kaldı (ESBE-TV 'где оставлен австрийский гарнизон'); işgalci Avusturya olduğu için isg:rusya önerilmedi (PAKET-RUS hükmü).",
-  kaynak:"ESBE «Турецкие войны России» (ru.wikisource): 'главные же силы Украинской армии 20 июня перешли через Днестр у Могилева'",
-  duygu:["⚔️"] },
+  kaynak:"TDV İslâm Ansiklopedisi, «HOTİN» https://islamansiklopedisi.org.tr/hotin — «1788-1791 savaşı sırasında Avusturya ve Rusya ortak kuvvetleri tarafından kuşatıldı» ; ESBE «Турецкие войны России» (ru.wikisource): 'главные же силы Украинской армии 20 июня перешли через Днестр у Могилева'",
+  duygu:["⚔️"], ic_not_t:"gün yalnız güvensiz kaynakta: 1788-07-01 (gun: «1 Temmuz 1788 (Jülyen 20 Haziran)»); güvenilir kaynağın tarihi: 1788; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 // ── 1806 · ilansız işgal ─────────────────────────────────────────────
 { t:"1806-11-23", k:"savas", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
@@ -1107,7 +1107,7 @@ window.OLAYLAR_P0056 = [
   d:"Ekim 1806'da General Michelson'a Boğdan ve Eflak'ı işgal etme emri verildi; savaş henüz resmen ilan edilmemişti. Rus kuvvetleri Dinyester'i geçmeye başladı ve Hotin, Bender, Akkirman ile Kili kalelerinin komutanları kalelerini çarpışmadan teslim etti. Yalnız İsmail muhafızı Rus telkinlerine boyun eğmedi. Bâbıâli'nin savaş ilanı bu işgalden sonra geldi.",
   ic_not_gun:"ESBE-TV '11 ноября русские войска начали переходить Днестр' — Jülyen, +12 gün ⇒ 23 Kasım 1806 G. Dört kalenin teslim GÜNLERİ ayrı ayrı bu kaynakta yok (PAKET-RUS YAMA-RUS-0913 RUS-1806-KIL/HOT/BEN önerileri kendi günlerini taşıyor).",
   ic_not_d:"Emre 0035/H-0090: savaş başlangıcında 'Eflak-Boğdan'a giriş' maddesi istendi. Mevcut 1806-12-22 savaş ilanı maddesi (olaylar_ek5.js) bu girişten SONRADIR.",
-  kaynak:"ESBE «Турецкие войны России» (ru.wikisource): 'хотя война формально и не была еще объявлена' · 'коменданты крепостей Хотин, Бендеры, Акерман и Килия уступили их без боя'",
+  kaynak:"TDV İslâm Ansiklopedisi, «HOTİN» https://islamansiklopedisi.org.tr/hotin — «Hotin son olarak 1806’da Ruslar’ın işgaline uğradı» [yalnız yıl teyitli; gün teyitsiz] ; ESBE «Турецкие войны России» (ru.wikisource): 'хотя война формально и не была еще объявлена' · 'коменданты крепостей Хотин, Бендеры, Акерман и Килия уступили их без боя'",
   ic_not_ozet:"EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.21, 0082/H-0063): 1806 işgallerinde AYRI MADDELER + ÖZET MADDE — bu madde ÖZETtir; günü kaynaklı kaleler ayrı maddededir (Akkirman 30 Kasım · Bükreş 25 Aralık). Hotin, Bender, Kili'nin kendi teslim günleri bulunamadı (ESBE-TV ve TDV akkirman/hotin gün vermiyor) — ayrı madde yazılmadı.",
   duygu:["⚔️"] },
 
@@ -1180,7 +1180,7 @@ window.OLAYLAR_P0056 = [
   kisiler:"Mareşal Wittgenstein, General Geismar",
   d:"Rusya'nın savaş ilanının ardından Mareşal Wittgenstein'ın ordusu harekâta geçti. 6. Piyade Kolordusu Prut'u geçerek Boğdan ve Eflak'a girdi, öncüsü General Geismar komutasında Küçük Eflak'a yöneldi. Birkaç gün sonra 7. Kolordu İbrail'i kuşattı; 3. Kolordu ise İsmail ile Reni arasında Tuna'yı geçmeye hazırlandı. Memleketeyn 1834'e kadar Rus işgalinde kalacaktı.",
   ic_not_gun:"ESBE-TV '25 апр. 6-й пех. корпус вступил в княжества' — Jülyen, +12 ⇒ 7 Mayıs 1828 G. Mevcut 1828-04-26 savaş başlangıcı maddesi (olaylar_ek5.js) ilanı, bu madde girişi tarihler. PAKET-RUS isg önerisi (Yaş·Bükreş 1828 f:05-07) bu kırılmayı taşır.",
-  kaynak:"ESBE «Турецкие войны России» (ru.wikisource): '25 апр. 6-й пех. корпус вступил в княжества' · '1 мая 7-й пех. корпус обложил крепость Браилов'",
+  kaynak:"TDV İslâm Ansiklopedisi, «EDİRNE ANTLAŞMASI» https://islamansiklopedisi.org.tr/edirne-antlasmasi — «Rusya ise … savaş açmıştı (26 Nisan 1828). … Ruslar Boğdan’a girdikleri» [yalnız yıl teyitli; gün teyitsiz] ; ESBE «Турецкие войны России» (ru.wikisource): '25 апр. 6-й пех. корпус вступил в княжества' · '1 мая 7-й пех. корпус обложил крепость Браилов'",
   duygu:["⚔️"] },
 
 // ── 1829 · Silistre ikinci kez ───────────────────────────────────────
