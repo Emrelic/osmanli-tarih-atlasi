@@ -53,6 +53,16 @@ for (const rel of liste) {
         yer_kon: Array.isArray(m.yer_kon) ? m.yer_kon : null,
         kisiler: metin(m.kisiler), ad: metin(m.ad),
         taraflar: Array.isArray(m.taraflar) ? m.taraflar.map(String) : null,
+        // 🆕 KAYNAK-GUVEN-1014 (arac/kaynak_guven.py): kaynak alanı + künye
+        //   kronolojisi. Alan YOKSA `kaynak` null kalır (ölçülmemiş ≠ boş dizge);
+        //   `kronoloji` yalnız künyede (devletler.js) dizi olarak taşınır.
+        kaynak: m.kaynak === undefined ? null : metin(m.kaynak),
+        id: metin(m.id), bolge: metin(m.bolge), f: metin(m.f),
+        tur: metin(m.tur),
+        kronoloji: Array.isArray(m.kronoloji) ? m.kronoloji.map(k => (k && typeof k === "object") ? {
+          t: metin(k.t), b: metin(k.b), tur: metin(k.tur),
+          kaynak: k.kaynak === undefined ? null : metin(k.kaynak),
+        } : null) : undefined,
       });
     });
     kayit.diziler.push({ ad: k, n });

@@ -1,0 +1,290 @@
+{
+ "surum": "KAYNAK-GUVEN-1014",
+ "taban_commit": "183c324e30aa531f9e677e460745bcc4754d2147",
+ "calisma_agaci_kirli": true,
+ "kirli_dosyalar": [
+  "M arac/silsile_yukle.js",
+  "?? arac/kaynak_guven.py",
+  "?? data/kaynak_guven.js"
+ ],
+ "tablo_sha256_12": "68f961734761",
+ "tablo_girdi": 138,
+ "evren": {
+  "kronoloji_dosyasi": 187,
+  "dosya_madde": 10542,
+  "kunye": 1800,
+  "kunye_kronoloji_madde": 12253
+ },
+ "damga": {
+  "dosya": {
+   "guvenli": 7277,
+   "ikincil": 968,
+   "taninmayan": 950,
+   "guvensiz": 39,
+   "adsiz": 556,
+   "bulunamadi": 739,
+   "bos": 13
+  },
+  "kunye_kronoloji": {
+   "guvenli": 2918,
+   "ikincil": 3474,
+   "taninmayan": 1668,
+   "guvensiz": 2034,
+   "adsiz": 7,
+   "bulunamadi": 177,
+   "bos": 1975
+  },
+  "kunye_kaynak": {
+   "guvenli": 753,
+   "ikincil": 541,
+   "taninmayan": 211,
+   "guvensiz": 23,
+   "adsiz": 2,
+   "bulunamadi": 270,
+   "bos": 0
+  }
+ },
+ "app_parcala": {
+  "karsilastirilan_dizge": 15682,
+  "fark": 0
+ },
+ "bulunamadi_ic_dayanak": {
+  "dosya": {
+   "A": 421,
+   "B": 8,
+   "yok": 310
+  },
+  "kunye_kronoloji": {
+   "A": 136,
+   "B": 1,
+   "yok": 40
+  }
+ },
+ "parca_kademe": {
+  "A": 13276,
+  "TANINMAYAN": 6645,
+  "N": 1335,
+  "B": 6478,
+  "C": 4830,
+  "K": 214,
+  "Y": 720
+ },
+ "parca_karisik": 174,
+ "kod_say": {
+  "TDV": 9634,
+  "VIKIPEDI": 3187,
+  "BRITANNICA": 2630,
+  "NOT": 2316,
+  "AKADEMIK-ESER": 1222,
+  "POPULER-TARIH": 609,
+  "COUNTRYSTUDIES": 511,
+  "HISTORY-STATE": 509,
+  "IRANICA": 475,
+  "EL-KITABI": 407,
+  "CAMBRIDGE": 400,
+  "UNIV-YAYIN-KISALTMA": 363,
+  "UNIV-YAYIN": 346,
+  "WORLDHISTORY": 344,
+  "RESMI-SITE": 341,
+  "UN": 337,
+  "UNIV-SITE": 334,
+  "ADSIZ": 316,
+  "PDF-KAYNAK": 307,
+  "ENCYCLOPEDIA-COM": 283,
+  "SECKIN-KURUM": 275,
+  "MUZE": 266,
+  "HABER": 264,
+  "EBSCO-RS": 229,
+  "WW1-ONLINE": 165,
+  "GLOBALSECURITY": 163,
+  "LIVIUS": 162,
+  "TRECCANI": 142,
+  "WORLDSTATESMEN": 116,
+  "GEC": 108,
+  "ENC-REGIONAL": 105,
+  "HAKEMLI-DERGI": 103,
+  "MEVZUAT": 98,
+  "KUREANS": 97,
+  "SAHO": 96,
+  "UN-BELGE": 82,
+  "ARCHONTOLOGY": 77,
+  "NDB": 72,
+  "OXFORD": 70,
+  "AVALON": 70,
+  "RULERS": 70,
+  "ENC-UKRAINE": 69,
+  "ULUSAL-ARSIV": 65,
+  "HLS": 65,
+  "TTK": 57,
+  "CANADIAN-ENC": 57,
+  "NPS": 54,
+  "TURIZM": 51,
+  "HRV-ENC": 49,
+  "HNAI": 47,
+  "MET": 47,
+  "SNL": 46,
+  "DBI": 45,
+  "CHINAKNOWLEDGE": 45,
+  "REFWORLD": 45,
+  "BRE": 41,
+  "CVCE": 40,
+  "NAPOLEON": 39,
+  "NEWADVENT": 38,
+  "MAHKEME-BELGE": 36,
+  "NEWWORLDENC": 33,
+  "WIEN-GW": 30,
+  "DWB": 28,
+  "UCDP": 28,
+  "CRS": 27,
+  "TE-ARA": 26,
+  "DBE": 26,
+  "AFRICANHISTORYEXTRA": 26,
+  "UNESCO-WHC": 25,
+  "BANGLAPEDIA": 24,
+  "ROYALARK": 23,
+  "LAROUSSE": 22,
+  "GUTENBERG": 21,
+  "OMNIATLAS": 21,
+  "PA-X": 21,
+  "LEX-DK": 20,
+  "SESHAT": 20,
+  "CHINAHIGHLIGHTS": 20,
+  "QDL": 19,
+  "EI": 19,
+  "BRILL": 17,
+  "OPENEDITION": 14,
+  "DCSTAMPS": 14,
+  "UNIVERSALIS": 13,
+  "FMG": 13,
+  "PERSEUS": 13,
+  "HSAI": 12,
+  "VLE": 12,
+  "UNESCO-GHA": 12,
+  "PSRL": 11,
+  "JEWISH-ENC": 11,
+  "BOSWORTH": 11,
+  "OXFORD-ODB": 10,
+  "ATATURK-ANS": 9,
+  "PERSEE": 8,
+  "DERGIPARK": 8,
+  "DIB": 8,
+  "CDLI": 8,
+  "ARCHIVE-ORG": 7,
+  "JSTOR": 7,
+  "DCB": 7,
+  "TOUMANOFF": 7,
+  "CAMPUSGROUPS": 7,
+  "DEVLET-ARSIVLERI": 6,
+  "HUYGENS": 6,
+  "RESEARCHGATE": 5,
+  "INFOPEDIA": 4,
+  "ADB-AU": 3,
+  "YOKTEZ": 2,
+  "ISAM-OA": 2,
+  "YZ-METNI": 1,
+  "CAIRN": 1,
+  "RLA": 1,
+  "ORACC": 1,
+  "DEGRUYTER": 1,
+  "PLEIADES": 1,
+  "OXFORD-ODNB": 1
+ },
+ "taninmayan_ayri_parca": 5525,
+ "d2": {
+  "evren_madde": 2697,
+  "evren_dosya": 89,
+  "damga_d2_evreni": {
+   "guvenli": 2032,
+   "taninmayan": 268,
+   "guvensiz": 35,
+   "ikincil": 277,
+   "bulunamadi": 70,
+   "bos": 13,
+   "adsiz": 2
+  },
+  "taban": {
+   "2": {
+    "kirilma": 642,
+    "acik_ham": 0,
+    "acik": 0
+   },
+   "2s": {
+    "kirilma": 2208,
+    "acik_ham": 1264,
+    "acik": 189
+   },
+   "2i": {
+    "kirilma": 213,
+    "acik_ham": 1,
+    "acik": 1
+   }
+  },
+  "senaryo": {
+   "S1-guvensiz": {
+    "silinen_madde": 35,
+    "2": {
+     "yeni_acik_ham": 0,
+     "yeni_acik": 0,
+     "acik_ham": 0,
+     "acik": 0
+    },
+    "2s": {
+     "yeni_acik_ham": 20,
+     "yeni_acik": 12,
+     "acik_ham": 1284,
+     "acik": 201
+    },
+    "2i": {
+     "yeni_acik_ham": 0,
+     "yeni_acik": 0,
+     "acik_ham": 1,
+     "acik": 1
+    }
+   },
+   "S2-guvensiz+bos+bulunamadi": {
+    "silinen_madde": 118,
+    "2": {
+     "yeni_acik_ham": 3,
+     "yeni_acik": 3,
+     "acik_ham": 3,
+     "acik": 3
+    },
+    "2s": {
+     "yeni_acik_ham": 66,
+     "yeni_acik": 52,
+     "acik_ham": 1330,
+     "acik": 241
+    },
+    "2i": {
+     "yeni_acik_ham": 1,
+     "yeni_acik": 1,
+     "acik_ham": 2,
+     "acik": 2
+    }
+   },
+   "S3-yalniz-AB-kalir": {
+    "silinen_madde": 388,
+    "2": {
+     "yeni_acik_ham": 13,
+     "yeni_acik": 13,
+     "acik_ham": 13,
+     "acik": 13
+    },
+    "2s": {
+     "yeni_acik_ham": 166,
+     "yeni_acik": 122,
+     "acik_ham": 1430,
+     "acik": 311
+    },
+    "2i": {
+     "yeni_acik_ham": 2,
+     "yeni_acik": 2,
+     "acik_ham": 3,
+     "acik": 3
+    }
+   }
+  },
+  "index_disi_d2_dosyasi": []
+ },
+ "olculemedi": []
+}
