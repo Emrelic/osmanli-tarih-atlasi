@@ -534,7 +534,8 @@ BOYALAR = {
     "surakarta":               ("Surakarta Sunanlığı",                "#183ccc"),
     "sarawak-brooke":          ("Sarawak (Brooke) Racalığı",          "#78e090"),
     # karakoyunlu  #305d30 → #75bdf6  (toplu tur)
-    "karakoyunlu": ("Karakoyunlular", "#e018e0"),
+    # TAM-INSA-PAKETI-1013: gürcistan #e020b0 ile dE76 25,7 / dE94 6,3 (Emre: "neredeyse aynı"); #e018e0 → #a000e0 (mor yönü).
+    "karakoyunlu": ("Karakoyunlular", "#a000e0"),
     "akkoyunlu":  ("Akkoyunlular",           "#48ae48"),
     # Irak'ın 1335-1411 penceresi `iran` battaniyesinin altındaydı: İlhanlı
     # ile Karakoyunlu arasındaki 76 yılın sahibi yazılı değildi. Duvarlar
@@ -3658,6 +3659,16 @@ BOYALAR = {
     "lucca-cumhuriyeti": ("Lucca Cumhuriyeti (Komünü)", "#cc24b4"),
     "visconti": ("Visconti Senyörlüğü (Milano)", "#ccb424"),
     "samos-prensligi": ("Samos Prensliği", "#cc24ba"),
+    # TAM-INSA-PAKETI-1013 · D4 (MOTOR-RENK-PAKETI-1013.diff) — künyesi olan, rengi olmayan 4 kimlik (kartli-kralligi main'de zaten var).
+    "kalmuk-hanligi":       ("Kalmuk Hanlığı (Volga)", "#a4eb3b"),
+    "kazak-hetmanligi":     ("Kazak Hetmanlığı (Hetmanat)", "#c73beb"),
+    # teuton/livonya: diff hex'i (#6c24d8/#6cd824) cezayir/kongo-kinsasa ile beyansız paylaşım verdi ⇒ renk_olc --oner (14 Ekim 16:10).
+    "teuton-devleti":       ("Töton Şövalyeleri Devleti (Prusya)", "#cc24cc"),
+    "livonya-tarikati":     ("Kılıç Kardeşleri / Livonya Tarikatı", "#cccc24"),
+    # KUTU-M renk_olc --oner (denetim/oneri-20261014-155939.txt) — künyeleri devletler.js'te var.
+    "della-scala":          ("Della Scala (Scaligeri) Senyörlüğü (Verona)", "#2430c6"),
+    "carrara":              ("Carrara Senyörlüğü (Padova)", "#2460c6"),
+    "provence-kontlugu":    ("Provence Kontluğu", "#cc24c6"),
 }
 
 

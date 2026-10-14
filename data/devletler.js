@@ -17019,7 +17019,9 @@ window.DEVLETLER = [
     { t:"1570-09-09", tur:"toprak-kayip", b:"Lefkoşa Osmanlılara düştü; Girne birkaç gün içinde teslim oldu.", kaynak:"Ottoman Cyprus / historynet.com; TDV 'Kıbrıs'" },
     { t:"1571-08-01", tur:"son", b:"Magosa teslim oldu; Venedik'in adadaki son tutunumu sona erdi.", kaynak:"TDV 'Magosa' (künye); Marco Antonio Bragadin ve historynet" }
   ] },
-{ id:"samos-prensligi", ad:"Samos Prensliği", tur:"ozerk-osmanli-prensligi", bolge:"balkanlar", f:"1834-01-01", t:"1912-11-11", baskent:"Vathy", ozet:"1832 fermanıyla özerklik, 1834'ten Ortodoks prens (Vogoridis); 11 Kasım 1912'de Yunanistan'a birleşti (TDV), Britannica 1912.", kaynak:"TDV 'Sisam'; Britannica 'Sámos'", kronoloji:[
+{ id:"samos-prensligi", ad:"Samos Prensliği", tur:"ozerk-osmanli-prensligi", bolge:"balkanlar", f:"1832-12-10", t:"1912-11-11", baskent:"Vathy", harita:"samos-prensligi",
+  tabi:[{f:"1832-12-10", t:"1912-11-11", ust:"osmanli", kaynak:"TDV sisam: «10 Aralık 1832 tarihinde Batılı büyük devletlerin baskısı altında kalan Osmanlı hükümeti Sisam adasının özerkliğini kabul etti ve burası vasal bir prenslik haline getirildi.» · «Sisam adası Yunanistan ile birleşti (11 Kasım 1912)»"}],
+  ozet:"1832 fermanıyla özerklik, 1834'ten Ortodoks prens (Vogoridis); 11 Kasım 1912'de Yunanistan'a birleşti (TDV), Britannica 1912.", kaynak:"TDV 'Sisam'; Britannica 'Sámos'", kronoloji:[
     { t:"1832-12-10", tur:"siyaset", b:"Osmanlı hükûmeti Batılı baskısıyla Sisam'ın özerkliğini kabul eder; ada haraçgüzar prenslik olur.", kaynak:"TDV İslâm Ansiklopedisi 'Sisam' (https://islamansiklopedisi.org.tr/sisam)" },
     { t:"1834-01-01", tur:"hukumdar", b:"Stephanos Vogoridis Sisam'ın ilk prensi olur (1850'ye kadar).", kaynak:"TDV İslâm Ansiklopedisi 'Sisam'" },
     { t:"1850-01-01", tur:"hukumdar", b:"Vogoridis'in prenslik dönemi sona erer; ada 1913'e kadar Ortodoks valiyle yönetilir.", kaynak:"TDV İslâm Ansiklopedisi 'Sisam'" },
