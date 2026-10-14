@@ -587,9 +587,10 @@ window.YERLESIMLER_AFRIKA = [
   s:[{"f":"1281-01-01","t":"1552-01-01","d":"zeyyani"},{"f":"1832-11-22","t":"1841-05-30","d":"abdulkadir"},{"f":"1841-05-30","t":"1962-07-05","d":"fransa-cumhuriyet"},{"f":"1962-07-05","t":"2000-12-31","d":"cezayir","kaynak":"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[{"f":"1552-01-01","t":"1671-01-01"}], v:[{"f":"1671-01-01","t":"1830-07-05","k":"Cezayir Ocaklığı (dayı idaresi)","statu":"vassal","kid":"cezayir-ocagi"},{"f":"1830-07-05","t":"1832-11-22","k":"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)","statu":"vassal"}] },
 
-{ ad:"Sîdî Bel Abbès", tur:"sehir", lat:35.194, lon:-0.641, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1843-06-12",d:"abdulkadir"},{f:"1843-06-12",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
+{ ad:"Sîdî Bel Abbès", tur:"sehir", lat:35.194, lon:-0.641, g:0, k:4, m:"Cezayir", kur:"1843-01-01", kesinlik:"yil",
+  neden:"SEHIR-TARIHCE-OSM-1014 (Emre 14 Ekim): kuruluş tanıklı — EB1911 'Sidi-Bel-Abbes' (Wikisource): Fransız askerî tabyası 1843 (yıl). 1281–1843 dönemleri (zeyyani, d: 1552–1671, v: Cezayir Ocaklığı, Abdülkadir 1832–1843) tabyadan ÖNCE — kırpıldı; 1843 içindeki Abdülkadir dilimi yıl hassasiyeti yüzünden kaldı. Tarihçe: 'sidi-bel-abbes'.",
+  s:[{f:"1843-01-01",t:"1843-06-12",d:"abdulkadir"},{f:"1843-06-12",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  d:[], v:[] },
 
 { ad:"Ayn Temûşent", tur:"sehir", lat:35.298, lon:-1.140, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1962-07-05",d:"fransa-cumhuriyet"},{f:"1962-07-05",t:"2000-12-31",d:"cezayir",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
@@ -985,8 +986,9 @@ window.YERLESIMLER_AFRIKA = [
 // çelişkisini altı kesitte birden artırırdı (ölçüldü).
 // ===========================================================================
 
-{ ad:"El-Fâşir", tur:"sehir", lat:13.630, lon:25.349, g:1, k:1,
-  s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+{ ad:"El-Fâşir", tur:"sehir", lat:13.630, lon:25.349, g:1, k:1, kur:"1792-01-01", kesinlik:"yil",
+  neden:"SEHIR-TARIHCE-OSM-1014 (Emre 14 Ekim): kuruluş tanıklı — Darfur sultanı Abdurrahman er-Reşîd'in yeni başkenti 1791-92 (O'Fahey, The Darfur Sultanate 2008, Anderson v.dğr. Sudan & Nubia 20 2016 atfıyla; Britannica 'Al-Fāshir'). 1281–1792 dönemleri (dacu, tunciler, darfur 1695–1792) kuruluştan ÖNCE olduğu için kırpıldı. Tarihçe: 'el-fasher'.",
+  s:[{f:"1792-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1956-01-01",d:"ingiliz-sudani",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1956-01-01",t:"2000-12-31",d:"sudan-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Nyala",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — \"Merkezi Fâşir şehridir\"; kasaba taneciğinde TDV susuyor (TANECİKLİK boşluğu), s:/v: dizisi El-Fâşir'le birebir",m:"El-Fâşir", tur:"sehir", lat:12.048, lon:24.882, g:0, k:4,
