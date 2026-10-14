@@ -809,11 +809,34 @@ yok("dg3-ch-de-1879-oncesi", CH, DE, PENCERE_BASI, (min(xs) - .03, min(ys) - .03
      {"ad": "Baden–İsviçre antlaşması", "tarih": "1878-04-28", "tur": "antlaşma"},
      {"ad": "İsviçre–Almanya sınır antlaşması (Untersee/Konstanz)", "tarih": "1879-06-24", "tur": "antlaşma"}],
     "E (kara ve Untersee) · Obersee C", "G3 · " + PB_NOT, t="1879-06-24")
-g = cizgi("AUT-CHE") + CHIT_YENI
+# KUTU-H5-1015 (Emre 0075/H-0003 "İsviçre 1830 sınırı"): bugünkü AT–CH kesimi 1815-1893 için YOK → E.
+# Dayanak: Avusturya hükümetinin 1970 sınır antlaşması gerekçesi — Saint-Germain md. 27(1) "gegenwärtige Grenze"
+# yani monarşinin son hattını aldı; bütün hattı belirleyen resmî antlaşma hiç yapılmadı, yalnız 1868 Finstermünz
+# antlaşması dört dağ kesimini kesinleştirdi; 1892 ve 1924 Ren antlaşmaları md. 15: sınır Diepoldsau/Fussach
+# yarmalarından sonra da "bisherige" Eski Ren ortasında kalır. Cima Garibaldi–Piz Lad (Vinschgau) kesimi bu belgede
+# YOK (bugün İtalya–İsviçre) ⇒ o kesim YOK kutusu olarak kaldı.
+AT1972 = {"ad": "Avusturya Federal Hükümeti — Regierungsvorlage 147 d.B. XIII. GP (17.1.1972), Erläuterungen I",
+          "tarih": "1972-01-17", "tur": "resmî", "url": "https://www.parlament.gv.at/dokument/XIII/I/147/imfname_317913.pdf",
+          "alinti": "verbleibt auch nach Vollendung der beiden Durchstiche unverändert"}
+FINSTER = {"ad": "Tirol–İsviçre sınır düzenlemesi (Finstermünz) antlaşması", "tarih": "1868-07-14", "tur": "antlaşma",
+           "not": "RGBl. 2/1869 — Piz Lad, Altfinstermünz-Martinsbruck, Schalklhof-Altfinstermünz, Schalklbach kesimleri"}
+HAB_ONCE_DEG = {"deger": True, "kaynak": "147 d.B. XIII. GP (1972)",
+                "not": "Ren kesimi 1892 antlaşmasıyla DEĞİŞMEDİ (Eski Ren ortası); dağ kesiminde 1868 Finstermünz "
+                       "antlaşması dört küçük kesimi kesinleştirdi (öncesi ihtilaflı, farkı ölçülmedi); sonrası: "
+                       + CHAT_DEG["not"]}
+ekle("dg3-hab-ch-1893-oncesi-kara", "habsburg", CH, PENCERE_BASI, "D", parcala(chat, lambda c: c[1] < 47.49),
+     HABCH + [AT1972, FINSTER], HAB_ONCE_DEG, {"t": "1868 (dağ kesimi)", "not": "yalnız Finstermünz kesimleri"}, 1.5,
+     KES_NE, "G3 · KUTU-H5-1015: YOK → E (0075/H-0003). " + PB_NOT, t="1893-07-21", iso=ISO_HAB)
+ekle("dg3-hab-ch-1893-oncesi-bodensee", "habsburg", CH, PENCERE_BASI, "C", parcala(chat, lambda c: c[1] >= 47.49),
+     HABCH + [AT1972], {"deger": False, "kaynak": "Kramsch 2015", "not": "göl kesimi bugün de çizilmemiş"},
+     {"t": "yok", "not": ""}, None, "NE göl/ağız çizgisi kartografik uzlaşı",
+     "G3 · KUTU-H5-1015. Bodensee statüsü ihtilaflı ⇒ C. " + PB_NOT, t="1893-07-21", iso=ISO_HAB)
+g = CHIT_YENI
 xs = [x for l in g for x, _ in l.coords]; ys = [y for l in g for _, y in l.coords]
 yok("dg3-hab-ch-1893-oncesi", "habsburg", CH, PENCERE_BASI, (min(xs) - .03, min(ys) - .03, max(xs) + .03, max(ys) + .03),
-    {"deger": None, "kaynak": "bulunamadı", "not": "1892 Ren antlaşması sınırı Eski Ren'in ortasına bağladı; öncesiyle farkı ölçülmedi"},
-    HABCH, "E", "G3 · Ren ve dağ kesimleri + Cima Garibaldi–Piz Lad. " + PB_NOT, t="1893-07-21")
+    {"deger": None, "kaynak": "bulunamadı", "not": "Cima Garibaldi–Piz Lad kesiminin 1893 öncesi hattına dair kaynak bulunamadı"},
+    HABCH, "E", "G3 · yalnız Cima Garibaldi–Piz Lad (Vinschgau) kesimi; Ren ve dağ kesimleri KUTU-H5-1015'te E oldu. "
+    + PB_NOT, t="1893-07-21")
 g = cizgi("ESP-MAR", 2)
 xs = [x for l in g for x, _ in l.coords]; ys = [y for l in g for _, y in l.coords]
 yok("dg3-es-ma-melilla-1894-oncesi", ES, MA, "1862-06-21", (min(xs) - .02, min(ys) - .02, max(xs) + .02, max(ys) + .02),

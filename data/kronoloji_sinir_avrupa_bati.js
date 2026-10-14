@@ -559,4 +559,232 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"18 Ocak 1871'de Versay'da Prusya Kralı I. Wilhelm Alman İmparatoru ilan edildi. Prusya'nın Ren, Vestfalya ve Saksonya eyaletleri (Köln, Aachen, Trier, Koblenz, Düsseldorf, Münster, Dortmund, Erfurt) Alman İmparatorluğu'nun parçası oldu; atlas bu tarihten itibaren onları Almanya rengiyle gösterir.",
   kaynak:"Alman İmparatorluğu ilanı (18 Ocak 1871, Versay)" },
 
+// ── KUTU-H5-1015 — Alçak Ülkeler, Çek Silezyası, Pula, Subotica, Ticino, Toskana kıyısı, Guastalla, Cortina/Gradisca
+// (Emre kutu 0077 H-0049/H-0077/H-0088 · 0082 H-0048/H-0049/H-0052/H-0053). Her madde bir yerleşim kırılmasına bağlıdır.
+{ t:"1583-11-06", devlet:"hollanda", devletler:["hollanda","ispanya"], sinir_id:"",
+  b:"Hohenlohe Terneuzen'i aldı — kasaba Birleşik Eyaletler'e geçti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Terneuzen",
+  etiket:["konu-siyasi","hollanda","ispanya"],
+  d:"Philips van Hohenlohe'nin birlikleri 6 Kasım 1583'te Terneuzen'e çıkarma yaptı; kasaba İspanyol Flandre'ından koparak Birleşik Eyaletler'in eline geçti ve 1596-1598'de tahkim edildi. Zeeuws-Vlaanderen'in Hollanda'ya ait kıyı şeridi (Staats-Vlaanderen) bu fetihlerle oluştu.",
+  kaynak:"Encyclopedie van Zeeland «Terneuzen» (encyclopedievanzeeland.nl/Terneuzen)" },
+
+{ t:"1591-01-01", kesinlik:"yil", devlet:"hollanda", devletler:["hollanda","ispanya"], sinir_id:"",
+  b:"Maurits Hulst'u İspanyollardan aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Hulst",
+  etiket:["konu-siyasi","hollanda","ispanya"],
+  d:"Nassau'lu Maurits 1591 seferinde Flandre'ın kuzey ucundaki Hulst kalesini aldı. Kaynak yalnız yılı veriyor; şehir beş yıl sonra yeniden İspanyolların eline geçti.",
+  kaynak:"Encyclopedie van Zeeland «Hulst»" },
+
+{ t:"1596-08-18", devlet:"ispanya", devletler:["ispanya","hollanda"], sinir_id:"",
+  b:"Arşidük Albert Hulst'u geri aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Hulst",
+  etiket:["konu-siyasi","ispanya","hollanda"],
+  d:"İspanyol Hollandası valisi Arşidük Albert'in ordusu 18 Ağustos 1596'da Hulst'u teslim aldı. Şehir 1645'e dek İspanyol Flandre'ının kuzey kalesi olarak kaldı.",
+  kaynak:"Rijksmuseum «Inname van Hulst door de Spanjaarden, 1596» · Encyclopedie van Zeeland «Hulst»" },
+
+{ t:"1645-11-05", devlet:"hollanda", devletler:["hollanda","ispanya"], sinir_id:"",
+  b:"Frederik Hendrik Hulst'u aldı — Dört Ambacht Hollanda'ya geçti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Hulst",
+  etiket:["konu-siyasi","hollanda","ispanya"],
+  d:"Stadhouder Frederik Hendrik 5 Kasım 1645'te Hulst'u kuşatmayla aldı. Hulst ve çevresi 1648 Münster Barışı'yla Birleşik Eyaletler'de kaldı; bugünkü Hollanda-Belçika sınırının bu kesimi buradan gelir.",
+  kaynak:"Rijksmuseum SK-A-251 «The Siege and Capture of the City of Hulst from the Spaniards, November 5, 1645»" },
+
+{ t:"1747-05-16", devlet:"fransa", devletler:["fransa","hollanda"], sinir_id:"",
+  b:"Fransızlar Hulst'u ve Axel adasını (Terneuzen) işgal etti", tur:"isgal", onem:2, dunya:1, kapsam:"dis", yer_id:"Terneuzen",
+  etiket:["konu-siyasi","fransa","hollanda"],
+  d:"Avusturya Veraset Savaşı'nda Fransız ordusu Zeeuws-Vlaanderen'e girdi: Hulst 11 Mayıs 1747'de teslim oldu, Terneuzen'in bağlı olduğu Axel adası 16 Mayıs'ta işgal edildi. İşgal Aachen Barışı'ndan sonra 28 Ocak 1749'da sona erdi.",
+  kaynak:"Encyclopedie van Zeeland «Terneuzen» · DBNL Van der Aa, Biographisch Woordenboek «De la Roque»" },
+
+{ t:"1749-01-28", devlet:"hollanda", devletler:["hollanda","fransa"], sinir_id:"",
+  b:"Fransızlar Zeeuws-Vlaanderen'i boşalttı", tur:"diplomasi", onem:1, dunya:1, kapsam:"dis", yer_id:"Terneuzen",
+  etiket:["konu-siyasi","hollanda","fransa"],
+  d:"Aachen Barışı'nın (1748) ardından Terneuzen ve Hulst'taki Fransız işgali 28 Ocak 1749'da bitti; bölge yeniden Birleşik Eyaletler'in idaresine döndü.",
+  kaynak:"Encyclopedie van Zeeland «Terneuzen»" },
+
+{ t:"1794-10-23", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","hollanda"], sinir_id:"",
+  b:"Fransız Cumhuriyeti ordusu Terneuzen ve Hulst'u işgal etti", tur:"isgal", onem:2, dunya:1, kapsam:"dis", yer_id:"Terneuzen",
+  etiket:["konu-siyasi","fransa-cumhuriyet","hollanda"],
+  d:"Devrim savaşlarında Fransız birlikleri 23 Ekim 1794'te Terneuzen ve Hulst'a girdi. 1795 Lahey Antlaşması Staats-Vlaanderen'i Fransa'ya bıraktı; işgal 2 Şubat 1814'e kadar sürdü.",
+  kaynak:"Encyclopedie van Zeeland «Terneuzen» ve «Hulst»" },
+
+{ t:"1814-02-02", devlet:"hollanda", devletler:["hollanda","fransa-cumhuriyet"], sinir_id:"",
+  b:"Terneuzen'de Fransız idaresi sona erdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Terneuzen",
+  etiket:["konu-siyasi","hollanda","fransa-cumhuriyet"],
+  d:"1794'ten beri süren Fransız işgali ve ilhakı 2 Şubat 1814'te bitti; Terneuzen yeniden kurulan Hollanda devletine katıldı. Komşu Hulst'un Hollanda'ya dönüşü atlasta 30 Mayıs 1814 Paris Barışı ile gösterilir.",
+  kaynak:"Encyclopedie van Zeeland «Terneuzen»" },
+
+{ t:"1543-09-12", devlet:"ispanya", devletler:["ispanya","almanya"], sinir_id:"",
+  b:"Venlo Antlaşması — Gelre Dükalığı ve Roermond V. Karl'a geçti", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Roermond",
+  etiket:["konu-siyasi","ispanya","almanya"],
+  d:"Kleve Dükü Wilhelm 12 Eylül 1543'te Venlo'da imzalanan antlaşmayla Gelre Dükalığı'nı İmparator V. Karl'a bıraktı. Yukarı Gelre'nin merkezi Roermond böylece Habsburg Hollandası'nın (Habsburg İspanyası'nın) parçası oldu.",
+  kaynak:"Maastricht Üniversitesi «Tractaat van Venlo» (bazı kaynaklar 7 Eylül der)" },
+
+{ t:"1702-10-06", devlet:"hollanda", devletler:["hollanda","ispanya"], sinir_id:"",
+  b:"Müttefik ordusu Roermond'u aldı", tur:"isgal", onem:2, dunya:1, kapsam:"dis", yer_id:"Roermond",
+  etiket:["konu-siyasi","hollanda","ispanya"],
+  d:"İspanyol Veraset Savaşı'nda Marlborough'nun Müttefik ordusu 6 Ekim 1702'de Roermond'u kuşatmayla aldı. Şehir 1716'ya kadar Hollanda (Staats) işgalinde kaldı, ardından Avusturya Gelre'si olarak Avusturya'ya bırakıldı.",
+  kaynak:"Royal Collection Trust, Roermond kuşatma haritası · Van der Bruggen 2021, Leiden doktora tezi (hdl.handle.net/1887/3225483)" },
+
+{ t:"1839-04-19", devlet:"hollanda", devletler:["hollanda","belcika"], sinir_id:"",
+  b:"Londra Antlaşması — Maas'ın doğusundaki Limburg ve Roermond Hollanda'ya", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Roermond",
+  etiket:["konu-siyasi","hollanda","belcika"],
+  d:"19 Nisan 1839 Londra Antlaşması Belçika'nın bağımsızlığını kesinleştirirken 1830'dan beri Belçika idaresindeki Limburg'u böldü: Maas'ın doğu yakası (Roermond, Venlo) Hollanda'ya, batısı Belçika'ya kaldı. Lüksemburg'un batı yarısı da aynı antlaşmayla Belçika'ya geçti.",
+  kaynak:"Londra Antlaşması 19 Nisan 1839" },
+
+{ t:"1528-01-01", kesinlik:"yil", devlet:"ispanya", devletler:["ispanya","almanya"], sinir_id:"",
+  b:"Utrecht piskoposu Overijssel'i (Twente, Enschede) V. Karl'a devretti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Enschede",
+  etiket:["konu-siyasi","ispanya","almanya"],
+  d:"Utrecht Prens-Piskoposu Bavyeralı Heinrich, 1528'de Overijssel (Oversticht) üzerindeki dünyevî yetkisini V. Karl'a devretti; Twente ve Enschede Habsburg Hollandası'na katıldı. Devrin günü kaynaklarda çelişkili olduğundan yalnız yıl yazıldı.",
+  kaynak:"DBNL Van der Aa «Johan van Breda» (25 Şubat; başka kaynaklar 20 Ekim)" },
+
+{ t:"1597-01-01", kesinlik:"yil", devlet:"hollanda", devletler:["hollanda","ispanya"], sinir_id:"",
+  b:"Maurits'in seferi Twente'yi (Enschede) Birleşik Eyaletler'e kattı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Enschede",
+  etiket:["konu-siyasi","hollanda","ispanya"],
+  d:"Nassau'lu Maurits 1597 sonbahar seferinde Twente'deki İspanyol kalelerini birer birer aldı; Enschede ve çevresi Birleşik Eyaletler'e geçti. Kaynak yılı veriyor.",
+  kaynak:"Rijksmuseum «Bevrijding van Twente, 1597»" },
+
+{ t:"1938-10-08", devlet:"almanya", devletler:["almanya","cekoslovakya","polonya"], sinir_id:"",
+  b:"Alman birlikleri Opava'ya, Polonya birlikleri Karviná (Fryštát) kesimine girdi", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"Opava (Troppau)",
+  etiket:["konu-siyasi","almanya","cekoslovakya","polonya"],
+  d:"Münih Antlaşması uyarınca Alman birlikleri 8 Ekim 1938'de Opava bölgesine girdi; Opava Südetenland Reichsgau'nun merkezi oldu. Aynı gün Polonya'nın Zaolzie (Tešín Silezyası) işgalinin dördüncü kesimi Fryštát (Karviná) çevresini kapsadı, Karviná madenleri 10 Ekim'de devralındı.",
+  kaynak:"O. Kolář, Historica Olomucensia 50 (2016), DOI 10.5507/ho.2016.039 · M. Borák, «Zábor Těšínska v říjnu 1938», Časopis Slezského zemského muzea B 46 (1997)" },
+
+{ t:"1939-03-14", devlet:"almanya", devletler:["almanya","cekoslovakya","bohemya-moravya-protektorasi"], sinir_id:"",
+  b:"Alman birlikleri Berlin görüşmesinden önce Ostrava'yı işgal etti", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"Ostrava (Mährisch Ostrau)",
+  etiket:["konu-siyasi","almanya","cekoslovakya","bohemya-moravya-protektorasi"],
+  d:"Alman birlikleri 14 Mart 1939 akşamı, Hácha'nın Berlin'deki görüşmesinden önce Ostrava'ya girdi; böylece Polonya'nın sanayi havzasına uzanması önlendi. Ertesi gün Çek toprakları işgal edildi ve 16 Mart'ta Bohemya ve Moravya Protektorası ilan edildi.",
+  kaynak:"M. Borák, «České Slezsko v letech 1938-1945», Dějiny Českého Slezska 1740-2000 II (Slezská univerzita, Opava 2003) s. 369-404" },
+
+{ t:"1945-04-30", devlet:"cekoslovakya", devletler:["cekoslovakya","almanya","bohemya-moravya-protektorasi"], sinir_id:"",
+  b:"Kızıl Ordu Ostrava'yı aldı — Çek Silezyası'nın kurtuluşu", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Ostrava (Mährisch Ostrau)",
+  etiket:["konu-siyasi","cekoslovakya","almanya"],
+  d:"Moravya-Ostrava harekâtında Kızıl Ordu 22 Nisan 1945'te ağır hasarlı Opava'yı, 30 Nisan'da Ostrava'yı, 3 Mayıs'ta Karviná'yı aldı. Çek Silezyası yeniden Çekoslovakya'ya bağlandı; Zaolzie 1920 sınırına döndü.",
+  kaynak:"opava-city.cz «Town history» (22 Nisan) · ČT24 «Ostrava si připomíná 73. výročí osvobození» (30 Nisan) · Karviná belediyesi 2017 (3 Mayıs)" },
+
+
+
+{ t:"1331-01-01", kesinlik:"yil", devlet:"venedik", devletler:["venedik"], sinir_id:"",
+  b:"Pula Venedik idaresine girdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Pula (Pola)",
+  etiket:["konu-siyasi","venedik"],
+  d:"1331'de Pula'yı fiilen yöneten Castropola ailesi devrilip İstria'dan sürüldü ve şehir yönetimi Venedik'e bırakıldı. Pula 1797 Campo Formio'ya dek Venedik İstriası'nın parçası kaldı. Kaynak yılı veriyor.",
+  kaynak:"Hrvatska enciklopedija «Pula» (enciklopedija.hr/clanak/pula)" },
+
+{ t:"1918-11-05", devlet:"italya", devletler:["italya","avusturya"], sinir_id:"",
+  b:"Pula İtalyan işgaline geçti — Avusturya-Macaristan donanma üssünün sonu", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"Pula (Pola)",
+  etiket:["konu-siyasi","italya","avusturya"],
+  d:"Avusturya-Macaristan donanmasının devrinden sonra İtalyan birlikleri 5 Kasım 1918'de Pula'ya girdi. Şehir Rapallo Antlaşması'yla (12 Kasım 1920) hukuken İtalya Krallığı'na geçti.",
+  kaynak:"Istrapedia «Pula» · Hrvatska enciklopedija «Pula» (dört gün sonra der)" },
+
+{ t:"1947-09-15", devlet:"yugoslavya-federal", devletler:["yugoslavya-federal","italya-cumhuriyeti"], sinir_id:"",
+  b:"Pula Yugoslavya'ya devredildi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Pula (Pola)",
+  etiket:["konu-siyasi","yugoslavya-federal","italya-cumhuriyeti"],
+  d:"10 Şubat 1947 Paris Barışı İstria'yı Yugoslavya'ya bıraktı; 1945'ten beri Müttefik askerî idaresindeki Pula'yı 15 Eylül 1947'de Yugoslav (Hırvat) makamları devraldı. Şehrin İtalyan nüfusunun büyük kısmı devirden önce göç etti.",
+  kaynak:"Istrapedia «Pula» · Hrvatska enciklopedija «Pula»" },
+
+{ t:"1918-11-13", devlet:"sirbistan-kralligi", devletler:["sirbistan-kralligi","macaristan-naiplik","yugoslavya"], sinir_id:"",
+  b:"Sırp birlikleri Subotica'ya (Szabadka) girdi", tur:"isgal", onem:2, dunya:1, kapsam:"dis", yer_id:"Subotica (Szabadka)",
+  etiket:["konu-siyasi","sirbistan-kralligi","macaristan-naiplik"],
+  d:"Belgrad mütarekesinden sonra Sırp birlikleri 13 Kasım 1918 akşamı Szabadka'ya girdi; şehir 1 Aralık'tan itibaren Sırp-Hırvat-Sloven Krallığı'nın askerî idaresinde kaldı ve Trianon Antlaşması (4 Haziran 1920) ile hukuken bu devlete geçti.",
+  kaynak:"Domonkos L., Trianoni Szemle 2018/3-4 · Hrvatska enciklopedija «Subotica»" },
+
+{ t:"1941-04-11", devlet:"macaristan-naiplik", devletler:["macaristan-naiplik","yugoslavya"], sinir_id:"",
+  b:"Macar birlikleri Subotica'ya girdi — Bačka işgali", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"Subotica (Szabadka)",
+  etiket:["konu-siyasi","macaristan-naiplik","yugoslavya"],
+  d:"Yugoslavya'nın işgalinde Macar ordusu 11 Nisan 1941'de Subotica'ya girdi; Bačka 1944'e dek Macar işgalinde kaldı. Şehir 10 Ekim 1944'te Kızıl Ordu ve partizanlarca alındı.",
+  kaynak:"Encyclopaedia Judaica «Subotica» (encyclopedia.com) · Hrvatska enciklopedija «Subotica» · Sırbistan Savunma Bakanlığı (mod.gov.rs/eng/3280)" },
+
+{ t:"1340-01-01", kesinlik:"yil", devlet:"visconti", devletler:["visconti"], sinir_id:"",
+  b:"Milano (Visconti) Bellinzona'yı Rusca'lardan aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Bellinzona",
+  etiket:["konu-siyasi","visconti"],
+  d:"1335'te Como'dan sürülüp Bellinzona'ya çekilen Rusca ailesine karşı Milano 1340'ta şehri uzun bir kuşatmayla geri aldı. Bellinzona bundan sonra Alpler'e açılan yolun Milano kalesi oldu. Kaynak yılı veriyor.",
+  kaynak:"HLS «Bellinzona» (Gemeinde, hls-dhs-dss.ch/de/articles/002031)" },
+
+{ t:"1342-01-01", kesinlik:"yil", devlet:"visconti", devletler:["visconti"], sinir_id:"",
+  b:"Luchino ve Giovanni Visconti Locarno'yu aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Locarno",
+  etiket:["konu-siyasi","visconti"],
+  d:"Luchino ve Giovanni Visconti 1342'de Locarno ve çevresini (Locarnese) ele geçirdi; bölge bir podestà eliyle Milano'ya bağlandı, 1439'dan itibaren Rusca kontlarına fief verildi. Kaynak yılı veriyor.",
+  kaynak:"HLS «Locarno» (Gemeinde, hls-dhs-dss.ch/de/articles/002108)" },
+
+{ t:"1500-04-14", devlet:"isvicre", devletler:["isvicre","milano-dukaligi"], sinir_id:"",
+  b:"Bellinzona İsviçre Konfederasyonu'na teslim oldu", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Bellinzona",
+  etiket:["konu-siyasi","isvicre","milano-dukaligi"],
+  d:"Fransa'nın Milano'yu ikinci kez almasının ardından Bellinzona 14 Nisan 1500'de Konfederasyona teslim oldu. Fransa Kralı XII. Louis 1503 Arona Antlaşması'yla şehri ve kontluğu Uri, Schwyz ve Nidwalden kantonlarına bıraktı; Bellinzona 1798'e kadar bu kantonların ortak vogtluğu olarak yönetildi.",
+  kaynak:"HLS «Bellinzona» (Gemeinde, 002031; Vogtei, 008540)" },
+
+{ t:"1503-01-01", kesinlik:"yil", devlet:"isvicre", devletler:["isvicre","milano-dukaligi"], sinir_id:"",
+  b:"İsviçreliler Locarnese'yi işgal etti — Rusca senyörlüğü bitti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Locarno",
+  etiket:["konu-siyasi","isvicre","milano-dukaligi"],
+  d:"Konfederasyon birlikleri 1503'te Locarno çevresini işgal etti ve Rusca kontlarının yönetimi sona erdi; Visconti kalesi ise Fransız elinde kaldı, ancak 1513 Novara Savaşı'ndan sonra XII. Louis'nin emriyle teslim edildi. 1516 Fribourg Barışı Locarno'yu on iki kantonun ortak vogtluğu olarak tanıdı.",
+  kaynak:"HLS «Locarno» (Gemeinde, 002108; Pieve/Vogtei, 008544)" },
+
+{ t:"1512-01-01", kesinlik:"yil", devlet:"isvicre", devletler:["isvicre","milano-dukaligi"], sinir_id:"",
+  b:"İsviçreliler Lugano'yu kalıcı olarak işgal etti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Lugano",
+  etiket:["konu-siyasi","isvicre","milano-dukaligi"],
+  d:"İsviçreliler Fransızları Lombardiya'dan sürdükleri 1512 seferinde Lugano'yu kalıcı olarak işgal etti; son Fransız birlikleri 1513 başında ayrıldı. Lugano 1798'e kadar on iki kantonun ortak vogtluğu olarak yönetildi. Kaynak yılı veriyor.",
+  kaynak:"HLS «Lugano» (hls-dhs-dss.ch/de/articles/002177)" },
+
+{ t:"1798-04-12", devlet:"helvetik-cumhuriyeti", devletler:["helvetik-cumhuriyeti","isvicre"], sinir_id:"",
+  b:"Helvetik anayasası yürürlüğe girdi — Lugano ve Bellinzona kantonları kuruldu", tur:"kurulus", onem:3, dunya:2, kapsam:"dis", yer_id:"Lugano",
+  etiket:["konu-siyasi","helvetik-cumhuriyeti","isvicre"],
+  d:"Fransız işgalinin ardından 12 Nisan 1798'de Helvetik Cumhuriyeti'nin anayasası yürürlüğe girdi. Eski ortak vogtluklar tâbi toprak olmaktan çıktı: Lugano ve Locarno Lugano kantonunu, Bellinzona ve Leventina Bellinzona kantonunu oluşturdu. 1803 Arabuluculuk Senedi ikisini Tessin kantonunda birleştirdi.",
+  kaynak:"HLS «Lugano» · HLS «Bellinzona» (Gemeinde) · HLS «Locarno»" },
+
+
+
+{ t:"1804-01-01", kesinlik:"yil", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","piombino"], sinir_id:"",
+  b:"Piombino Napolyon İmparatorluğu'na ilhak edildi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Piombino",
+  etiket:["konu-siyasi","fransa-cumhuriyet","piombino"],
+  d:"1796'dan beri sırasıyla İngiliz, Fransız ve Napoli birliklerince işgal edilen Piombino 1804'te Napolyon'un imparatorluğuna ilhak edildi. 1815 Viyana Kongresi Piombino'yu ve topraklarını Toskana Büyük Dükalığı'na kattı. Kaynak yılı veriyor.",
+  kaynak:"Treccani «Piombino»" },
+
+{ t:"1555-01-01", kesinlik:"yil", devlet:"ispanya", devletler:["ispanya","siena"], sinir_id:"",
+  b:"İspanyollar Orbetello'yu aldı — Presidi Devleti'nin başkenti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Orbetello",
+  etiket:["konu-siyasi","ispanya","siena"],
+  d:"Siena Savaşı'nda İspanyollar 1555'te Orbetello'yu fethetti. II. Felipe 1557'de Siena'yı Floransa Dükü I. Cosimo'ya verirken Orbetello, Porto Ercole, Porto Santo Stefano, Talamone ve Elba'daki Porto Longone'yi İspanyol donanmasının üssü olarak kendine ayırdı: Presidi Devleti. Kaynak yılı veriyor.",
+  kaynak:"Treccani «Orbetello» · Treccani «Stato dei Presidi»" },
+
+{ t:"1707-01-01", kesinlik:"yil", devlet:"avusturya", devletler:["avusturya","ispanya"], sinir_id:"",
+  b:"Presidi Devleti Napoli genel valiliğiyle Avusturya'ya geçti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Orbetello",
+  etiket:["konu-siyasi","avusturya","ispanya"],
+  d:"İspanyol Veraset Savaşı'nda Avusturya 1707'de Napoli Krallığı'nı ele geçirdi; ona bağlı Presidi Devleti (Orbetello) de Avusturya mülkü oldu. Kaynak yılı veriyor.",
+  kaynak:"Treccani «Stato dei Presidi»" },
+
+{ t:"1736-01-01", kesinlik:"yil", devlet:"napoli", devletler:["napoli","avusturya"], sinir_id:"",
+  b:"Presidi Devleti Napoli Bourbonlarına geçti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Orbetello",
+  etiket:["konu-siyasi","napoli","avusturya"],
+  d:"Lehistan Veraset Savaşı'nın sonunda Orbetello ve öteki Presidi limanları 1736'da Bourbon Carlo'ya geçti ve 1800'e kadar Napoli Krallığı'na bağlı kaldı. Kaynak yılı veriyor.",
+  kaynak:"Treccani «Orbetello» · Treccani «Stato dei Presidi»" },
+
+{ t:"1801-01-01", kesinlik:"yil", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","napoli","toskana"], sinir_id:"",
+  b:"Floransa Barışı — Presidi Devleti Etrurya Krallığı'na katıldı", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"Orbetello",
+  etiket:["konu-siyasi","fransa-cumhuriyet","napoli"],
+  d:"1800'de Fransızlarca işgal edilen Presidi Devleti, Fransa ile Napoli arasındaki Floransa Barışı (1801) ile Fransa'nın kurduğu Etrurya Krallığı'na katıldı. Etrurya'nın atlasta ayrı künyesi olmadığından bu dönem Fransız rengiyle gösterilir; 1815'te bölge Toskana Büyük Dükalığı'na verildi.",
+  kaynak:"Treccani «Stato dei Presidi» · Treccani «Orbetello»" },
+
+{ t:"1746-01-01", kesinlik:"yil", devlet:"avusturya", devletler:["avusturya","mantua"], sinir_id:"",
+  b:"Gonzaga'ların sönmesiyle Guastalla Dükalığı Avusturya'ya geçti", tur:"toprak-kazanc", onem:1, dunya:1, kapsam:"dis", yer_id:"Guastalla",
+  etiket:["konu-siyasi","avusturya"],
+  d:"1406'da Torelli'lere verilen, 1539'dan beri Gonzaga'ların bir kolunun elindeki Guastalla, 1746'da hanedanın sönmesiyle dükalığıyla birlikte Avusturyalılara geçti. 1748 Aachen Antlaşması onu Parma ve Piacenza Dükalığı'na kattı. Kaynak yılları veriyor.",
+  kaynak:"Treccani «Guastalla»" },
+
+{ t:"1748-01-01", kesinlik:"yil", devlet:"parma", devletler:["parma","avusturya"], sinir_id:"",
+  b:"Aachen Antlaşması — Guastalla Parma ve Piacenza Dükalığı'na katıldı", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"Guastalla",
+  etiket:["konu-siyasi","parma","avusturya"],
+  d:"Avusturya Veraset Savaşı'nı bitiren 1748 Aachen Antlaşması Guastalla'yı Bourbon Felipe'ye verilen Parma ve Piacenza Dükalığı'na kattı. Guastalla 8 Ocak 1848'de Modena Dükü'ne devredilene kadar Parma'da kaldı. Kaynak yılı veriyor.",
+  kaynak:"Treccani «Guastalla»" },
+
+{ t:"1848-01-08", devlet:"ferrara", devletler:["ferrara","parma"], sinir_id:"",
+  b:"Guastalla Modena Dükalığı'na devredildi", tur:"toprak-kazanc", onem:1, dunya:1, kapsam:"dis", yer_id:"Guastalla",
+  etiket:["konu-siyasi","ferrara","parma"],
+  d:"Parma Dükalığı'na bağlı Guastalla 8 Ocak 1848'de Modena Dükü'ne (Este) devredildi ve 1859'a kadar Modena Dükalığı'nda kaldı.",
+  kaynak:"Treccani «Guastalla»" },
+
+{ t:"1473-01-01", kesinlik:"yil", devlet:"venedik", devletler:["venedik"], sinir_id:"",
+  b:"Venedik Gradisca'yı Osmanlı akınlarına karşı kale yaptı", tur:"siyaset", onem:1, dunya:1, kapsam:"dis", yer_id:"Gradisca d'Isonzo",
+  etiket:["konu-siyasi","venedik"],
+  d:"Osmanlı akıncılarının Friuli'ye inmesi üzerine Venedikliler 1473'te Isonzo üzerindeki Gradisca'yı tahkimli bir üsse çevirdi. Kale 1511'de I. Maximilian'ın eline geçti. Kaynak yılı veriyor.",
+  kaynak:"Treccani «Gradisca d'Isonzo»" },
+
+{ t:"1511-01-01", kesinlik:"yil", devlet:"avusturya", devletler:["avusturya","venedik"], sinir_id:"",
+  b:"I. Maximilian Gradisca'yı ve Ampezzo vadisini (Cortina) Venedik'ten aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Gradisca d'Isonzo",
+  etiket:["konu-siyasi","avusturya","venedik"],
+  d:"Cambrai Birliği Savaşı'nda İmparator I. Maximilian 1511'de Venedik'ten Gradisca'yı fethetti; Gradisca o tarihten itibaren Habsburg mülkü kaldı. Aynı yıl Ampezzo vadisi (Cortina d'Ampezzo) de Avusturya idaresine girdi; vadi Tirol hukukuyla değil Kadore Statüsü'yle kendini yönetmeye devam etti. İki yer de 1918'e kadar Avusturya'da kaldı. Kaynaklar yılı veriyor.",
+  kaynak:"Treccani «Gradisca d'Isonzo» · P. Giacomel, Ladinia XXXIX (2015) s. 63" },
+
 ];
