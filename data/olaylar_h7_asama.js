@@ -147,6 +147,38 @@ window.OLAYLAR_H7_ASAMA = [
   yer:"İnebahtı (Lepanto / Naupaktos)", yer_id:"İnebahtı", fethedilen:["İnebahtı"], kisiler:"II. Mustafa",
   d:"1683-1699 savaşları sırasında uzun süre direndikten sonra Temmuz 1687'de yanındaki kalelerle birlikte Venedik'e düşen İnebahtı, Karlofça Antlaşması'ndan bir yıl sonrasına kadar Venediklilerin elinde kaldı ve ardından Osmanlı'ya geri döndü. Korint körfezinin ağzındaki kale böylece Mora'dan on beş yıl önce Osmanlı idaresine kavuştu.",
   ic_not_kaynak:"TDV inebahti: '1683-1699 savaşları sırasında İnebahtı, uzun süre saldırılara direndiyse de sonunda yanındaki diğer kalelerle birlikte 1687 Temmuzunda düştü ... Buraya hâkim olan Venedikliler, Karlofça Antlaşması’ndan (1699) bir yıl sonrasına kadar kaleyi ellerinde tuttular.'",
-  kaynak:"inebahti (TDV)", duygu:["🤝"] }
+  kaynak:"inebahti (TDV)", duygu:["🤝"] },
+// ── ② TUR 3 DEVAMI (KUTU-H7-1015): EKSİK DÖRT AŞAMA HALKASI ──────────────────
+{ t:"1529-05-10", k:"sefer", etiket:["savas","konu-askeri"],
+  b:"Kanunî'nin Viyana seferine çıkışı — Habsburg savaşı yeniden başladı",
+  gun:"2 Ramazan 935 (10 Mayıs 1529)",
+  yer:"İstanbul", yer_id:"İstanbul", kisiler:"Kanunî Sultan Süleyman, Pargalı İbrâhim Paşa, János Szapolyai, I. Ferdinand",
+  d:"Mohaç'tan sonra Macar tahtı ikiye bölünmüş, Ferdinand 1527'de Budin'i alıp Szapolyai'yi başşehirden çıkarmıştı. Padişah, Szapolyai'yi destekleyip Habsburg ilerleyişini durdurmak için dördüncü defa sefere çıktı; seferden önce vezîriâzam İbrâhim Paşa'ya serasker unvanı ve Rumeli beylerbeyiliği verilerek bütün planlama onunla yapıldı. Yol boyunca şiddetli yağmurlar ordunun ilerleyişini geciktirdi; sefer Budin'in alınıp Szapolyai'ye verilmesi ve Viyana kuşatmasıyla sürdü.",
+  ic_not_kaynak:"TDV suleyman-i: 'Padişah, 2 Ramazan 935’te (10 Mayıs 1529) dördüncü defa sefere çıkmadan biraz önce çok güvendiği vezîriâzamı İbrâhim Paşa’ya büyük yetkiler verdi (seraskerlik unvanı: 28 Mart 1529, ayrıca Rumeli beylerbeyiliği: 27 Nisan)' · 'Onun doğrudan Viyana’yı hedeflediği ... fikirler tam olarak doğru olmamalıdır' · 'sürekli yağan şiddetli yağmurlar yüzünden çok zaman kaybedildi'",
+  kaynak:"suleyman-i (TDV)", duygu:["⚔️"] },
+
+{ t:"1578-01-02", k:"siyaset", etiket:["savas","siyaset","konu-askeri","konu-siyasi"],
+  b:"İran seferine karar — Tahmasb'ın ölümüyle sarsılan Safevîlere karşı iki serdar tayin edildi",
+  gun:"22 Şevval 985 (2 Ocak 1578)",
+  yer:"İstanbul", yer_id:"İstanbul", kisiler:"III. Murad, Lala Mustafa Paşa, Koca Sinan Paşa, Sokullu Mehmed Paşa",
+  d:"Şah I. Tahmasb'ın 1576'da hânedan ve devlet ricâli arasındaki çekişmeler sonunda zehirlenmesiyle Safevîler büyük bir karışıklığa sürüklenmişti; bu durum açılacak seferin yönünü belirledi. Lala Mustafa Paşa Erzurum, Koca Sinan Paşa Bağdat tarafından İran'a girmekle görevlendirildi. İki vezir arasındaki çekişme artınca Sokullu devreye girdi: Sinan Paşa görevden alındı, Lala Mustafa Paşa Gürcistan üzerinden Şirvan'ın fethiyle görevlendirildi. Bu karar 1578-1590 Osmanlı-Safevî savaşının açılışıdır.",
+  ic_not_kaynak:"TDV murad-iii: 'Şah I. Tahmasb ... zehirlenmiş (984/1576) ve Safevîler büyük bir karışıklık içine sürüklenmişti. Bu durum açılması düşünülen seferin yönünü de belirledi.' · TDV lala-mustafa-pasa: 'Mustafa Paşa Erzurum, Sinan Paşa Bağdat taraflarından İran’a girecekti (22 Şevval 985 / 2 Ocak 1578) ... Sokullu Mehmed Paşa devreye girip Koca Sinan Paşa’yı görevden aldı ve Lala Mustafa Paşa’yı Gürcistan üzerinden Şirvan’ın fethiyle t[evcih etti]'",
+  kaynak:"murad-iii (TDV) · lala-mustafa-pasa (TDV)", duygu:["⚔️"] },
+
+{ t:"1625-11-13", k:"kusatma", etiket:["savas","konu-askeri"],
+  b:"Hâfız Ahmed Paşa'nın Bağdat kuşatması — yedi ay yirmi gün sürdü, sonuçsuz kaldı",
+  gun:"12 Safer 1035 (13 Kasım 1625) — kaldırılış 8 Şevval 1035 (3 Temmuz 1626)",
+  yer:"Bağdat", yer_id:"Bağdat", kisiler:"Hâfız Ahmed Paşa, Hüsrev Ağa, Şah I. Abbas",
+  d:"1623'te Bağdat'ı kaybeden Osmanlı, sadrazam ve serdar Hâfız Ahmed Paşa komutasında şehri geri almak için yürüdü. Kerkük'te toplanan mecliste önce boğazları tutma önerisi kabul görmeyince ordu doğrudan Bağdat'ı kuşattı. Paşa siperlere bizzat giriyordu; yetmiş ikinci gün patlatılan bir lağımdan şehre girilse de askerler püskürtüldü. Mart 1626'da Şah Abbas 30.000 kişiyle yardıma gelince ordu iki ateş arasında kaldı; şahın 7 Haziran'daki hücumunda ağır kayıplar verildi. Erzak tükenip sıcak ve humma askeri kırınca kuşatma kaldırıldı ve ordu Diyarbekir'e çekildi.",
+  ic_not_kaynak:"TDV hafiz-ahmed-pasa: 'Bunun üzerine 13 Kasım 1625’te Bağdat’ı kuşattı ... Kuşatmanın yetmiş ikinci günü patlatılan bir lağımın açtığı gedikten askerler Bağdat’a girdilerse de ... püskürtüldüler ... şahın ordusunun 7 Haziran’da yaptığı hücumda Osmanlı kuvvetleri büyük kayıplara uğradı' · TDV husrev-pasa: 'Osmanlı ordusu 12 Safer 1035’te (13 Kasım 1625) Bağdat’ı kuşattı. Ertesi yılın mart ayında İran Şahı I. Abbas 30.000 kişilik bir ordu ile ... kuşatma 8 Şevval 1035’te (3 Temmuz 1626) kaldırıldı ... Yedi ay yirmi gün süren Bağdat kuşatması'",
+  kaynak:"hafiz-ahmed-pasa (TDV) · husrev-pasa (TDV)", duygu:["🏰"] },
+
+{ t:"1630-10-06", k:"kusatma", etiket:["savas","konu-askeri"],
+  b:"Hüsrev Paşa'nın Bağdat kuşatması — otuz dokuz gün sonra kaldırıldı",
+  gun:"6 Ekim 1630 — kaldırılış 8 Rebîülâhir 1040 (14 Kasım 1630)",
+  yer:"Bağdat", yer_id:"Bağdat", kisiler:"Hüsrev Paşa",
+  d:"Mihriban zaferinden (5 Mayıs 1630) sonra Hemedan'a giren ve şehri yakıp yıkan sadrazam Hüsrev Paşa, Kazvin üzerine yürümek yerine Dergezîn'de toplanan harp meclisinin kararıyla asıl hedef Bağdat'a döndü. Ağustos başında Bağdat civarına ulaşan ordu 6 Ekim'de şehri kuşattı. İran garnizonunun 26 Ekim'deki çıkış harekâtında ve 9 Kasım'daki genel saldırıda büyük kayıplar verildi; Bağdat'ın kaybından sonraki bu ikinci kuşatma da sonuç alınamadan kaldırıldı. Ordu Musul'a çekildi.",
+  ic_not_kaynak:"TDV husrev-pasa: 'Ağustos ayı başlarında Bağdat civarına ulaşarak 6 Ekim’de şehir kuşatma altına alındı. Bağdat’ı savunan İran ordusunun huruç harekâtı sırasında (26 Ekim) ve 9 Kasım’da girişilen genel saldırılarda büyük kayıplar verildi. Bunun üzerine ... bu ikinci kuşatma da otuz dokuz gün sonra hiçbir sonuç alınamadan kaldırıldı (8 Rebîülâhir 1040 / 14 Kasım 1630).'",
+  kaynak:"husrev-pasa (TDV)", duygu:["🏰"] }
 
 ];

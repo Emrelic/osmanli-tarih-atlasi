@@ -106,7 +106,7 @@ window.YERLESIMLER_EK_ADALAR = [
 //   tutmazsa kapsayıcı maddeyi dene").
 { ad:"Paksos (Paxos)", kd:[{f:"1281-01-01",t:"1923-10-29",k:0,m:null}], tur:"kale", lat:39.1975, lon:20.1867, g:0, k:4, m:"Yanya",
   kaynak:"korfu",
-  s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},
+  s:[{f:"1281-01-01",t:"1282-03-30",d:"sicilya-kralligi",kaynak:"KUTU-H7-1015 (0080/H-0019 enklav taramasından veri düzeltmesi): eski kayıt 1281-1797 kesintisiz Venedik idi · Korfu kaydıyla eşlendi (Paksos Korfu'nun bağlısıdır — ÇIKARIM) · TDV korfu: 'Bazan Epir, bazan Sicilya (1259), Napoli (1267) hâkimiyetine giren Korfu daha sonra Venedik’e bağlandı (1386)'"},{f:"1282-03-30",t:"1386-01-01",d:"napoli",kaynak:"KUTU-H7-1015 (0080/H-0019 enklav taramasından veri düzeltmesi): Korfu kaydıyla eşlendi (ÇIKARIM) · TDV korfu: 'Napoli (1267) ... Venedik’e bağlandı (1386)'"},{f:"1386-01-01",t:"1797-10-17",d:"venedik",enklav:true,kaynak:"KUTU-H7-1015 (0080/H-0019 enklav taramasından veri düzeltmesi): Korfu kaydıyla eşlendi (ÇIKARIM) · TDV korfu: 'Venedik (1386-1797) hâkimiyetinde kaldı' · ENKLAV BEYANI: Venedik'in denizaşırı İyon adası"},
      {f:"1797-10-17",t:"1815-11-05",d:"fransa-cumhuriyet"},
      {f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},
      {f:"1864-05-21",t:"1973-06-01",d:"yunanistan"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
