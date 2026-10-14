@@ -344,4 +344,296 @@ window.SAVAS_KUNYE_3 = [
     { ad:"Rodos (Saint-Jean) şövalyeleri", komutan:"Büyük Üstat Pierre d'Aubusson", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", kayip:"ağır kayıplar (sayı yok; rodos)" }
   ],
   kaynak:"TDV: rodos (DİA 35, 2008, s. 155-158) · TDV: mehmed-ii (DİA 28, 2003, s. 395-407) · TDV: mesih-pasa (DİA 29, 2004, s. 309-310)" },
+
+{ id:"kunye-kartal-1770", savas_ad:"Kartal (Kagul) Ovası", savas_t:"1770-08-01", tur:"meydan",
+  baslik:"Kartal (Kagul) Savaşı (1 Ağustos 1770)",
+  tarih_metin:"Kartal (Larga) Muharebesi (2 Ağustos 1770); hezimet ordugâhtan 20 Rebîülâhir 1184 (13 Ağustos 1770) tarihli mahzarla İstanbul'a bildirildi",
+  celiski:"TDV ivazzade-halil-pasa: 2 Ağustos 1770 (ve muharebeyi 'Kartal (Larga)' diye adlandırıyor); atlas kronolojisi: 1770-08-01.",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Serdâr-ı ekrem Sadrazam İvazzâde Halil Paşa", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"bilinmiyor (TDV zayiattan söz eder, rakam vermez; ordugâh terk edildi)", notlar:"TDV: taşkın Tuna'da köprü kurulamadan karşıya geçilmesi taktik hata sayılır; çağdaş tarihçiler 'Halil Paşa inhizamı' der. Sadrazam padişaha bu askerle iş görülemeyeceğini yazıp barış istedi." },
+    { ad:"Rus ordusu", devlet_id:"rusya", komutan:"bulunamadı (TDV ivazzade-halil-pasa anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: ivazzade-halil-pasa (DİA 23, 2001, s. 494-496)" },
+
+{ id:"kunye-kozluca-1774", savas_ad:"Kozluca", savas_t:"1774-06-25", tur:"meydan",
+  baslik:"Kozluca Savaşı (25 Haziran 1774)",
+  tarih_metin:"Kozluca'da Osmanlı kuvvetleri ağır bir yenilgiye uğratıldı (25 Haziran 1774)",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"bulunamadı (TDV kucuk-kaynarca-antlasmasi, abdulhamid-i, muhsinzade-mehmed-pasa Kozluca'daki komutanı anmıyor; serdâr-ı ekrem Sadrazam Muhsinzâde Mehmed Paşa Şumnu ordugâhındaydı)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"bilinmiyor", notlar:"TDV: bozgunun ardından ordu dağıldı, tercümanlar bile Karînâbâd ve Edirne'ye kaçtı; Ruslar 1 Temmuz'da Şumnu karargâhını kuşattı; sonuç Küçük Kaynarca Antlaşması." },
+    { ad:"Rus ordusu", devlet_id:"rusya", komutan:"bulunamadı (TDV yalnız Mareşal Rumyantsov'un bozgun sonrası barış mektubunu anıyor, muharebedeki komutanı yazmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: kucuk-kaynarca-antlasmasi (DİA 26, 2002, s. 524-527) · TDV: abdulhamid-i (DİA 1, 1988, s. 213-216) · TDV: muhsinzade-mehmed-pasa (DİA 31, 2020, s. 48-50)" },
+
+{ id:"kunye-rimnik-1789", savas_ad:null, savas_t:"1789-09-22", tur:"meydan",
+  baslik:"Rimnik (Boza) Savaşı (22 Eylül 1789)",
+  tarih_metin:"22 Eylül'de Remnik nehrini geçerken ve ardından Boza suyu kıyısında uğranılan ağır bozgun (1789)",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Sadrazam Kethüdâ (Cenaze) Hasan Paşa", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"bilinmiyor (TDV: Boza suyunu geçerken büyük zayiat; rakam yok)", notlar:"TDV hasan-pasa-kethuda: Fokşan yenilgisinin intikamı ve Bender-Akkirman'ı kurtarmak için girişilen harekâtta Rimnik nehri yakınında Martineşti'de bozguna uğradı; çekilen kuvvetlerin Boza suyunda kayıp vermesi yüzünden 'Boza bozgunu' denildi. Hasan Paşa hastalığı ve yetersizliği yüzünden başarısız sayılır." },
+    { ad:"Rus ordusu", devlet_id:"rusya", komutan:"bulunamadı (TDV yusuf-pasa-koca ve hasan-pasa-kethuda anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"TDV maddeleri Avusturya kuvvetlerinin muharebeye katılımını anmıyor; müttefik yazılmadı." }
+  ],
+  kaynak:"TDV: yusuf-pasa-koca (DİA 44, 2013, s. 23-25) · TDV: hasan-pasa-kethuda (DİA 16, 1997, s. 337-338)" },
+
+{ id:"kunye-macin-1791", savas_ad:null, savas_t:"1791-07-09", tur:"meydan",
+  baslik:"Maçin Savaşı (9 Temmuz 1791)",
+  tarih_metin:"Maçin'de yaşanan genel bozgun ve büyük perişanlık (8 Zilkade 1205 / 9 Temmuz 1791)",
+  celiski:"TDV yas-antlasmasi: 8 Zilkade 1205 / 9 Temmuz 1791 (atlasla aynı); TDV yusuf-pasa-koca: Maçin'de Ruslar karşısındaki son bozgun 6 Ağustos 1791. Atlas kronolojisi: 1791-07-09.",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Sadrazam ve serdâr-ı ekrem Koca Yûsuf Paşa", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"bilinmiyor", notlar:"TDV: ordu ancak Hırsova'da toparlanabildi; ordu ricâli galebenin artık mümkün olmadığına karar verip barış mahzarı yolladı, ardından Kalas'ta mütareke ve Yaş Antlaşması. Yûsuf Paşa'nın muharebede bizzat bulunduğu açıkça yazılmamış, ordunun başındaki sadrazam olarak verildi." },
+    { ad:"Rus ordusu", devlet_id:"rusya", komutan:"Prens Repnin (TDV: Kalas'taki Boğdan ordusu kumandanı; muharebedeki rolü açıkça yazılmamış)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: yas-antlasmasi (DİA 43, 2013, s. 343-347) · TDV: yusuf-pasa-koca (DİA 44, 2013, s. 23-25)" },
+
+{ id:"kunye-akka-1799", savas_ad:"Akkâ Savunması", savas_t:"1799-05-20", tur:"kusatma",
+  baslik:"Akkâ Kuşatması (18 Mart - 20 Mayıs 1799)",
+  tarih_metin:"Napolyon Bonapart Akkâ'yı kuşattı (18 Mart 1799) [akka]; 19 ve 20 Mart 1799 hücumlarıyla başlayan muhasara, 20 Mayıs'ta kuşatmanın kaldırılmasıyla bitti [cezzar-ahmed-pasa]",
+  taraflar:[
+    { ad:"Osmanlı (Akkâ müdafileri)", devlet_id:"osmanli", komutan:"Cezzâr Ahmed Paşa (Sayda ve Şam valisi, Mısır seraskeri)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", kayip:"bilinmiyor", notlar:"TDV: İngiliz donanmasından yardım gördü; şehirde Nizâm-ı Cedîd'e mensup bir kuvvet vardı, İstanbul'dan donanma ile ek kuvvet gönderildi. Müttefik: İngiltere (donanma). Atlas günü kuşatmanın kaldırıldığı gündür." },
+    { ad:"Fransız ordusu", devlet_id:"fransa", komutan:"Napolyon Bonapart", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"TDV: birbiri ardınca saldırılardan sonuç alamayınca 20 Mayıs'ta kuşatmayı kaldırıp çekildi." }
+  ],
+  kaynak:"TDV: cezzar-ahmed-pasa (DİA 7, 1993, s. 516-518) · TDV: akka (DİA 2, 1989, s. 265-267)" },
+
+{ id:"kunye-konya-1832", savas_ad:"Konya Meydan Muharebesi", savas_t:"1832-12-21", tur:"meydan",
+  baslik:"Konya Savaşı (21 Aralık 1832)",
+  tarih_metin:"21 Aralık 1832'de yapılan meydan savaşında Osmanlı ordusu dağıldı; sadrazam yaralı olarak esir düştü",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Sadrazam ve serdar Reşid Mehmed Paşa", mevcut_toplam:80000, piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"bilinmiyor (ordu dağıldı; sadrazam yaralı esir)", notlar:"80.000: TDV resid-mehmed-pasa'ya göre sadrazamın 20 Kasım 1832'de Konya'ya ulaştığındaki toplam asker (Rumeli'den 30.000 kişiyle gelmiş, eğitimli topçu birlikleriyle takviye edilmişti). Savaş öncesinde 5-600 kişilik düzensiz Arnavut kuvveti İbrâhim Paşa tarafına geçti. Reşid Paşa meydan savaşı istemiyordu; Serasker Hüsrev Paşa'nın etkisiyle saldırı emri verildi." },
+    { ad:"Mısır ordusu", devlet_id:"misir-kavalali", komutan:"Kavalalı İbrâhim Paşa", mevcut_toplam:"bilinmiyor (TDV: Osmanlı kuvvetlerinden daha az)", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"TDV: disiplin ve eğitimde üstün. Zaferle İstanbul yolu açıldı; İbrâhim Paşa Kütahya'ya kadar ilerledi." }
+  ],
+  kaynak:"TDV: resid-mehmed-pasa (DİA 35, 2008, s. 12-14) · TDV: ibrahim-pasa-kavalali (DİA 21, 2000, s. 330-333) · TDV: kavalali-mehmed-ali-pasa (DİA 25, s. 62-65) · TDV: konya (DİA 26, 2002, s. 182-187)" },
+
+{ id:"kunye-nizip-1839", savas_ad:"Nizip", savas_t:"1839-06-24", tur:"meydan",
+  baslik:"Nizip Savaşı (24 Haziran 1839)",
+  tarih_metin:"Hâfız Paşa kumandasındaki Osmanlı ordusu ile Mısır kuvvetleri arasında Nizip'te meydana gelen muharebe Osmanlı yenilgisiyle sonuçlandı (24 Haziran 1839)",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Hâfız Paşa", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"bilinmiyor", notlar:"TDV ibrahim-pasa-kavalali: kurmay heyetinde Helmuth von Moltke gibi Prusyalı subaylar vardı. Yenilgi haberi İstanbul'a varmadan II. Mahmud öldü; donanma Kaptanıderyâ Ahmed Fevzi Paşa'nın ihanetiyle Mısır'a teslim edildi." },
+    { ad:"Mısır ordusu", devlet_id:"misir-kavalali", komutan:"Kavalalı İbrâhim Paşa", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: ibrahim-pasa-kavalali (DİA 21, 2000, s. 330-333) · TDV: kavalali-mehmed-ali-pasa (DİA 25, s. 62-65)" },
+
+{ id:"kunye-plevne-savunmasi-1877", savas_ad:null, savas_t:"1877-07-19", tur:"kusatma",
+  baslik:"Plevne Savunması (8 Temmuz - 10 Aralık 1877)",
+  tarih_metin:"Osman Paşa 7 Temmuz 1877'de Plevne'ye ulaştı; I. Plevne Muharebesi 8 Temmuz; savunma savaşları 8 Temmuz-10 Aralık 1877 [plevne-muharebeleri]; 'Osman Paşa 18 Temmuz'da Plevne'ye gelerek bu müstahkem mevkii geri aldı' [doksanuc-harbi]",
+  celiski:"TDV plevne-muharebeleri ve gazi-osman-pasa: Plevne'ye varış 7 Temmuz, I. Plevne Muharebesi 8 Temmuz 1877; TDV doksanuc-harbi: Plevne'ye geliş 18 Temmuz; atlas kronolojisi: 1877-07-19. (TDV günleri Rumî/Jülyen takvimde olabilir — 7 Temmuz Jülyen = 19 Temmuz Gregoryen — ama maddeler takvimi belirtmiyor; bu bir çıkarımdır.)",
+  taraflar:[
+    { ad:"Osmanlı Plevne kolordusu", devlet_id:"osmanli", komutan:"Osman Paşa (sonra Gazi) · üst komuta: Tuna cephesi başkumandanı Serdâr-ı ekrem Abdülkerim Nâdir Paşa", mevcut_toplam:25000, piyade:"25 tabur", suvari:"6 bölük", top:"bilinmiyor", tufek:"bilinmiyor (TDV: Martini-Henri tüfekleri)", gemi:"yok", kayip:"bilinmiyor (I. muharebe için)", notlar:"25.000: Osman Paşa'nın Vidin'den 1 Temmuz'da yola çıktığı kuvvet; 25 tabur piyade ve 6 süvari bölüğü Plevne'ye varıştaki emrindeki güçler (TDV plevne-muharebeleri). Sonraki evreler için TDV rakamları bu künyeye değil kendi muharebelerine aittir: II. Plevne öncesi 33.000 muharip ve 58 top; huruç günü (10 Aralık) 40.000 nefer." },
+    { ad:"Rus ordusu", devlet_id:"rusya", komutan:"Grandük Nikola (başkumandan) · General Krüdener (Batı Ordusu) · General Schilder (8 Temmuz saldırısı)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"I. Plevne'de yaklaşık 3000 ölü, bunların 74'ü subay (TDV: muharebeye katılan kuvvetlerinin yarısını kaybetti)", notlar:"Sonraki evreler: II. Plevne öncesi Rus mevcudu yaklaşık 60.000 ve 40-50 top; III. Plevne'de Rumen katılımıyla 100.000'i aşan mevcut ve 432 top; kuşatma sonunda 125.000 (doksanuc-harbi). Rumenler Eylül'den itibaren katıldı." }
+  ],
+  kaynak:"TDV: plevne-muharebeleri (DİA 34, 2007, s. 304-305) · TDV: gazi-osman-pasa (DİA 13, 1996, s. 464-465) · TDV: doksanuc-harbi (DİA 9, 1994, s. 498-499)" },
+
+{ id:"kunye-domeke-1897", savas_ad:"Dömeke", savas_t:"1897-05-17", tur:"meydan",
+  baslik:"Dömeke Savaşı (17 Mayıs 1897)",
+  tarih_metin:"17 Mayıs'ta Dömeke Meydan Muharebesi'nde Yunanlılar'ı büyük bir bozguna uğrattı (1897)",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Başkumandan Müşir Edhem Paşa (sonra Gazi)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"bilinmiyor", notlar:"TDV gazi-edhem-pasa: Edhem Paşa Alasonya ordu kumandanlığından başkumandanlığa getirildi; 18 Nisan Milona, 25 Nisan Yenişehir, 12 Mayıs Tırhala, 17 Mayıs Dömeke. TDV tesalya ise savaşta Osmanlı ordusunu 'Hâfız Abdülezel Paşa kumandasında' gösterir ve savaşı 7 Nisan-18 Mayıs 1897 diye tarihler — komutan adında maddeler arası çelişki." },
+    { ad:"Yunan ordusu", devlet_id:"yunanistan", komutan:"bulunamadı (TDV gazi-edhem-pasa, tesalya, yunanistan anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: gazi-edhem-pasa (DİA 13, 1996, s. 449) · TDV: tesalya (DİA 40, 2011, s. 522-526) · TDV: yunanistan (DİA 43, 2013, s. 583-586)" },
+
+{ id:"kunye-birinci-inonu-1921", savas_ad:"Birinci İnönü", savas_t:"1921-01-10", tur:"meydan",
+  baslik:"Birinci İnönü Savaşı (10 Ocak 1921)",
+  tarih_metin:"İsmet Bey kumandasındaki düzenli ordu birlikleri ... Yunan kuvvetlerini 10 Ocak'ta İnönü'de mağlûp etti [TDV milli-mucadele]; Birinci İnönü Muharebesi 6-11 Ocak 1921 [Atatürk Ansiklopedisi]",
+  taraflar:[
+    { ad:"TBMM Batı Cephesi kuvvetleri", komutan:"Batı Cephesi Komutanı Albay İsmet Bey (İnönü) · Genelkurmay Başkanı Vekili Fevzi Paşa", mevcut_toplam:8500, piyade:"bilinmiyor", suvari:"bilinmiyor", top:28, tufek:5500, gemi:"yok", kayip:"bilinmiyor", notlar:"10 Ocak günündeki mevcut (Atatürk Ansiklopedisi, Özlü): 24., 4., 11. Tümen ve Depo Alayları toplam 8500 asker, 5500 tüfek, 47 makineli tüfek, 28 top. TDV'de rakam yok." },
+    { ad:"Yunan ordusu (Bursa grubu)", devlet_id:"yunanistan", komutan:"bulunamadı (TDV ve Atatürk Ansiklopedisi bu muharebe için anmıyor)", mevcut_toplam:"15.816 er + 427 subay", piyade:"yaklaşık iki piyade tümeni", suvari:"bir süvari tugayı", top:72, tufek:12500, gemi:"yok", kayip:"bilinmiyor (İsmet Bey'in 11 Ocak raporu: önemli kayıp)", notlar:"Atatürk Ansiklopedisi (Özlü): 427 subay, 15.816 er, 12.500 tüfek, 270 makineli tüfek, 120 ağır makineli tüfek, 72 top. Yunan taarruzu 10-11 Ocak gecesi durdu ve kuvvetler çekildi." }
+  ],
+  kaynak:"TDV: milli-mucadele (DİA 30, 2020, s. 76-83) · TDV: mustafa-kemal-ataturk (DİA 31, 2020, s. 310-331) · TDV: inonu-mustafa-ismet (DİA 22, 2000, s. 316-319) · Hüsnü Özlü, \"İnönü Muharebeleri\", Atatürk Ansiklopedisi, Atatürk Araştırma Merkezi (ATAM), çevrimiçi madde nr. 748 (https://apiko.ayk.gov.tr/v1/1/itemPublic/byId/748) (yayın 2021), sayfa numarası yok — dayandığı eserler: Türk İstiklal Harbi Batı Cephesi, Genelkurmay Harp Tarihi Dairesi, C.2 Kısım 3, Ankara 1966; Selışık, Türk İstiklal Savaşı'nda Birinci İnönü Muharebesi, ATASE 2006" },
+
+{ id:"kunye-ikinci-inonu-1921", savas_ad:"İkinci İnönü", savas_t:"1921-04-01", tur:"meydan",
+  baslik:"İkinci İnönü Savaşı (1 Nisan 1921)",
+  tarih_metin:"Düşman 1 Nisan'da yine İnönü sırtlarında durduruldu [TDV milli-mucadele]; Yunanlılar İnönü'de ikinci defa yenilgiye uğratıldı (1 Nisan 1921) [TDV mustafa-kemal-ataturk]; İkinci İnönü Muharebesi 26-31 Mart 1921 [Atatürk Ansiklopedisi]",
+  celiski:"TDV milli-mucadele ve mustafa-kemal-ataturk: 1 Nisan 1921 (atlasla aynı); Atatürk Ansiklopedisi (Özlü): 26-31 Mart 1921, en şiddetli çarpışmalar 28-30 Mart. Atlas kronolojisi: 1921-04-01.",
+  taraflar:[
+    { ad:"TBMM Batı Cephesi kuvvetleri", komutan:"Batı Cephesi Komutanı İsmet Bey (İnönü) · sağ cenah İzzettin Bey · sol cenah Arif Bey tümeni", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"3500 kılıç", top:104, tufek:34175, gemi:"yok", kayip:"bilinmiyor", notlar:"Muharebe öncesi silah mevcudu (Atatürk Ansiklopedisi, Özlü): 34.175 tüfek, 235 ağır makineli tüfek, 55 hafif makineli tüfek, 3500 kılıç, 104 top. 29 Mart'ta TBMM Muhafız Taburu cepheye katıldı (TDV de anar)." },
+    { ad:"Yunan ordusu", devlet_id:"yunanistan", komutan:"General Papulas", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"3100 kılıç", top:220, tufek:41550, gemi:"yok", kayip:"bilinmiyor", notlar:"Muharebe öncesi silah mevcudu (Atatürk Ansiklopedisi, Özlü): 41.550 tüfek, 720 ağır makineli tüfek, 3134 hafif makineli tüfek, 3100 kılıç, 220 top. Uşak grubu aynı harekâtta Dumlupınar'ı ve Afyon'u aldı." }
+  ],
+  kaynak:"TDV: milli-mucadele (DİA 30, 2020, s. 76-83) · TDV: mustafa-kemal-ataturk (DİA 31, 2020, s. 310-331) · TDV: inonu-mustafa-ismet (DİA 22, 2000, s. 316-319) · TDV: cakmak-fevzi (DİA 8, 1993, s. 190-192) · Hüsnü Özlü, \"İnönü Muharebeleri\", Atatürk Ansiklopedisi, ATAM, çevrimiçi madde nr. 748 (https://apiko.ayk.gov.tr/v1/1/itemPublic/byId/748), sayfa yok" },
+
+{ id:"kunye-sakarya-meydan-1921", savas_ad:"Sakarya", savas_t:"1921-09-13", tur:"meydan",
+  baslik:"Sakarya Meydan Savaşı (23 Ağustos - 13 Eylül 1921)",
+  tarih_metin:"Yunanlılar 23 Ağustos'ta saldırıya geçti; yirmi bir gün yirmi bir gece süren savaş; Yunanlılar Sakarya'nın batısına püskürtüldü (12 Eylül) [TDV mustafa-kemal-ataturk]; 'Sakarya Muharebesi'nin sonuçlanması 12-13 Eylül 1921' [TDV atatürk kronolojisi]; aralıksız 22 gün, 13 Eylül'de sona erdi [Atatürk Ansiklopedisi]",
+  celiski:"TDV milli-mucadele ve mustafa-kemal-ataturk: 12 Eylül (aynı maddenin kronoloji bölümü: 12-13 Eylül 1921); Atatürk Ansiklopedisi (Yöney): 13 Eylül. Atlas kronolojisi: 1921-09-13.",
+  taraflar:[
+    { ad:"TBMM ordusu", komutan:"Başkomutan Mustafa Kemal Paşa · Genelkurmay Başkanı Fevzi Paşa (Çakmak) · Batı Cephesi Komutanı İsmet Paşa (İnönü)", mevcut_toplam:"96.326 er + 5.401 subay", piyade:"bilinmiyor", suvari:"1.309 kılıç", top:196, tufek:54572, gemi:"yok", kayip:"5.713 şehit, 18.480 yaralı, 828 esir, 14.268 kayıp", notlar:"Savaşın hemen öncesindeki mevcut (Atatürk Ansiklopedisi, Yöney): ayrıca 825 makineli tüfek, 32.137 hayvan, 1.284 araba, 2 uçak. Kayıplar aynı maddeden. TDV'de rakam yok." },
+    { ad:"Yunan ordusu", devlet_id:"yunanistan", komutan:"bulunamadı (TDV milli-mucadele yalnız Kral Konstantin'in Haziran 1921'de ordunun başına geçmek üzere İzmir'e geldiğini yazar; muharebedeki komutayı yazmaz)", mevcut_toplam:"120.000 er + 3.780 subay", piyade:"bilinmiyor", suvari:"1.350 kılıç", top:386, tufek:57000, gemi:"yok", kayip:"3.758 can kaybı, 18.955 yaralı, 354 kayıp", notlar:"Atatürk Ansiklopedisi (Yöney): ayrıca 2.768 makineli tüfek, 3.800 hayvan, 600 adet 3 tonluk ve 240 adet 1 tonluk kamyon, 18 uçak." }
+  ],
+  kaynak:"TDV: milli-mucadele (DİA 30, 2020, s. 76-83) · TDV: mustafa-kemal-ataturk (DİA 31, 2020, s. 310-331; kronoloji DİA 31, s. 340-341) · TDV: cakmak-fevzi (DİA 8, 1993, s. 190-192) · Orhan Yöney, \"Sakarya Meydan Muharebesi (23 Ağustos-13 Eylül 1921)\", Atatürk Ansiklopedisi, ATAM, çevrimiçi madde nr. 216 (https://apiko.ayk.gov.tr/v1/1/itemPublic/byId/216) (yayın 2021), sayfa yok — dayandığı eserler: Türk İstiklal Harbi Batı Cephesi Sakarya Meydan Muharebesi ve Sonraki Harekât, C.II Kısım 5 Kitap 2, Genelkurmay, Ankara 1995; Sakarya Meydan Muharebesi Harp Tarihi Broşürü, Genelkurmay 1997" },
+
+{ id:"kunye-baskumandanlik-meydan-1922", savas_ad:"Büyük Taarruz (Dumlupınar)", savas_t:"1922-08-30", tur:"meydan",
+  baslik:"Başkumandanlık Meydan Savaşı (30 Ağustos 1922)",
+  tarih_metin:"Büyük Taarruz 26 Ağustos 1922 günü başladı; kuşatma harekâtı 30 Ağustos'ta Başkumandan Mustafa Kemal Paşa'nın yönettiği Başkumandanlık Muharebesi ile tamamlandı [TDV milli-mucadele]; 30 Ağustos günü bir süvari tümeni Kütahya'yı kurtardı [TDV kutahya]",
+  taraflar:[
+    { ad:"TBMM ordusu (Batı Cephesi)", komutan:"Başkomutan Mustafa Kemal Paşa · Genelkurmay Başkanı Fevzi Paşa (savaş planlarını hazırladı) · Batı Cephesi Komutanı İsmet Paşa · 1. Ordu Nûreddin Paşa · 2. Ordu Yakup Şevki Paşa", mevcut_toplam:"199.283 er + 8.658 subay", piyade:"bilinmiyor", suvari:"5.282 kılıç", top:323, tufek:100352, gemi:"yok", kayip:"bilinmiyor", notlar:"Rakamlar Büyük Taarruz başlangıcındaki (26 Ağustos öncesi) bütün Batı Cephesi mevcududur, yalnız 30 Ağustos muharebesine katılanlar değil (Atatürk Ansiklopedisi, Koylu): ayrıca 2.025 hafif ve 839 ağır makineli tüfek, 10 uçak, 198 kamyon, 33 otomobil/ambulans. Kütahya'yı kurtaran süvari tümeni TDV kutahya'da adsız geçer." },
+    { ad:"Yunan ordusu", devlet_id:"yunanistan", komutan:"General Trikopis (cephede; esir alındı) · Başkomutan Hacı Anesti (karargâhı İzmir'de) · General Digenis (esir)", mevcut_toplam:"218.205 er + 6.418 subay", piyade:"bilinmiyor", suvari:"1.280 kılıç", top:450, tufek:90000, gemi:"yok", kayip:"bilinmiyor (TDV: iki günde kuvvetlerinin yarısı savaş dışı kaldı; Trikopis başta olmak üzere çok sayıda subay ve er esir)", notlar:"Büyük Taarruz başlangıcındaki mevcut (Atatürk Ansiklopedisi, Koylu): ayrıca 3.139 hafif ve 128 ağır makineli tüfek, 50 uçak, 4.036 kamyon, 1.776 otomobil/ambulans. 30 Ağustos'ta 5 Yunan tümeni Aslıhanlar'da çevrildi. Trikopis TDV milli-mucadele'de 'Yunan başkumandan vekili' olarak geçer; Hacı Anesti ve Digenis yalnız Atatürk Ansiklopedisi'nde." }
+  ],
+  kaynak:"TDV: milli-mucadele (DİA 30, 2020, s. 76-83) · TDV: mustafa-kemal-ataturk (DİA 31, 2020, s. 310-331) · TDV: cakmak-fevzi (DİA 8, 1993, s. 190-192) · TDV: kutahya (DİA 26, 2002, s. 580-584) · TDV: afyonkarahisar (DİA 1, 1988, s. 443-446) · Zafer Koylu, \"Büyük Taarruz\", Atatürk Ansiklopedisi, ATAM, çevrimiçi madde nr. 4929 (https://apiko.ayk.gov.tr/v1/1/itemPublic/byId/4929) (yayın 2025), sayfa yok — dayandığı kaynaklar: Genkur ATASE Arşivi (Kutu 1786 Gömlek 154; Kutu 1784 Gömlek 118 vb.)" },
+
+{ id:"kunye-kahire-sokak-savaslari-1517", savas_ad:"Tomanbay'ın Kahire baskını", savas_t:"1517-01-27", tur:"meydan",
+  baslik:"Kahire Sokak Savaşları (27-30 Ocak 1517)",
+  tarih_metin:"4-5 Muharrem 923 (27-28 Ocak 1517) gecesi Tomanbay Kahire'ye girdi; üç gün sokak çarpışması (ridaniye-savasi). selim-i: 27-28 Ocak gecesi; tomanbay: 28 Ocak gecesi",
+  celiski:"TDV tomanbay baskını '28 Ocak gecesi' diye verir; ridaniye-savasi ve selim-i 27-28 Ocak gecesi der; atlas kronolojisi: 1517-01-27 (gece başlangıcıyla uyumlu)",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Yavuz Sultan Selim · Yûnus Paşa (ilk gün şehre gönderildi)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"Selim ilk gün kontrolü sağlayamayınca ikinci gün ikindi vakti bizzat şehre girdi, üçüncü gün direnişi kırdı (selim-i). Ridaniye öncesi Birketülhac yoklamasında ordu 20.000 idi (ridaniye-savasi) — bu sokak savaşına ait sayı değildir." },
+    { ad:"Memlük kuvvetleri (Tomanbay) ve Kahire halkı", devlet_id:"memluk", komutan:"Tomanbay", mevcut_toplam:"7000 (tomanbay maddesi: 10.000 veya 7000)", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"ridaniye-savasi: Tomanbay 7000 kişiyle şehre girdi; tomanbay maddesi 10.000 (veya 7000) der. Halk Tomanbay'a destek verdi. Tomanbay üç gün sonra Nil'i geçip Saîd'e çekildi." }
+  ],
+  kaynak:"TDV: ridaniye-savasi (DİA 35, 2008, s. 87-88) · TDV: tomanbay (DİA 41, 2012, s. 236-237) · TDV: selim-i (DİA 36, 2009, s. 407-414)" },
+
+{ id:"kunye-cidde-savunmasi-1517", savas_ad:"Cidde savunması", savas_t:"1517-04-18", tur:"deniz",
+  baslik:"Cidde Savunması (18 Nisan 1517)",
+  tarih_metin:"26 Rebîülevvel 923 (18 Nisan 1517) tarihli raporda Portekiz donanmasının Cidde'yi kuşattığı bildirildi (selman-reis)",
+  taraflar:[
+    { ad:"Cidde müdafileri (Selman Reis)", devlet_id:"osmanli", komutan:"Selman Reis", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"birkaç kadırga (sayı yok)", kayip:"ilk anda Selman Reis'e ait 4 gemi yandı", notlar:"Selman Reis birkaç kadırga ile hücum edip top ateşiyle 2-3 Portekiz gemisini batırdı (Bâ Mahreme'ye dayanarak selman-reis). Portekizlilerin karaya çıkmasına izin verilmedi. Selman Reis bu sırada Yavuz Selim tarafından Mısır'a çağrılmıştı; halkın isteğiyle Cidde'de kaldı." },
+    { ad:"Portekiz donanması", devlet_id:"portekiz", komutan:"bulunamadı (TDV selman-reis ve cidde anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"yok", top:"bilinmiyor", tufek:"bilinmiyor", gemi:30, kayip:"2-3 gemi batırıldı (Bâ Mahreme, TDV selman-reis aktarımı)", notlar:"Otuz barça ve kadırga (Selman Reis'in raporu, TSMA E. 8337 / E. 5902)." }
+  ],
+  kaynak:"TDV: selman-reis (DİA 36, 2009, s. 444-446) · TDV: cidde (bakıldı; 1517 saldırısını anmıyor, 1541 hücumunu anar)" },
+
+{ id:"kunye-yergogu-baskini-1595", savas_ad:null, savas_t:"1595-10-01", tur:"meydan",
+  baslik:"Yergöğü Baskını (Ekim 1595)",
+  tarih_metin:"1595 Ekiminde Eflak'tan dönen orduyu takip eden akıncılar Yergöğü'nde Eflak Voyvodası Mihal'in baskınına uğradı (yergogu)",
+  taraflar:[
+    { ad:"Osmanlı ordusu (çekilen ordu ve akıncılar)", devlet_id:"osmanli", komutan:"Koca Sinan Paşa (seferin serdarı/sadrazam; baskındaki birliğin komutanı TDV'de adıyla yok)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"koca-sinan-pasa: Eflak üzerine yürüdüyse de başarılı olamadı; bu başarısızlıklar yüzünden 19 Kasım 1595'te azledildi." },
+    { ad:"Eflak kuvvetleri", devlet_id:"eflak", komutan:"Eflak Voyvodası Mihal", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: yergogu (DİA 43, 2013, s. 483-484) · TDV: koca-sinan-pasa (DİA 26, 2002, s. 137-139)" },
+
+{ id:"kunye-birinci-budin-savunmasi-1684", savas_ad:null, savas_t:"1684-07-14", tur:"kusatma",
+  baslik:"Birinci Budin Savunması (Temmuz-Ekim 1684)",
+  tarih_metin:"Avusturyalılar 20 Zilkade 1095 (29 Ekim 1684) gününden itibaren Budin muhasarasını kaldırıp çekildi; kale üç aya yakın savunuldu (ibrahim-pasa-melek)",
+  taraflar:[
+    { ad:"Budin garnizonu", devlet_id:"osmanli", komutan:"Kara Mehmed Paşa (Budin valisi; kuşatmada öldü) · Şeytan/Melek İbrâhim Paşa (muhafız, sonra vali)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"TDV: az sayıda asker ve mühimmatla savunuldu; huruç hareketleriyle Avusturya ordugâhından barut alındı. İbrâhim Paşa'nın elçiye söylediği 'kalede 100.000 asker, beş yıllık yiyecek' sözü bir savaş hilesidir, gerçek mevcut DEĞİLDİR. Kurtarmaya 40.000 kadar Kırım askerinin geldiği haberi çekilmede rol oynadı. Başarı üzerine IV. Mehmed 'Şeytan' lakabını 'Melek'e çevirdi." },
+    { ad:"Avusturya (Kutsal İttifak) ordusu", devlet_id:"habsburg", komutan:"bulunamadı (TDV ibrahim-pasa-melek 1684 için adını vermiyor)", mevcut_toplam:"bilinmiyor ('çok kalabalık' denir)", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"büyük kayıplar (sayı yok)", notlar:"Çekilirken cephane ve top bıraktılar; bunlar kaleye alındı." }
+  ],
+  kaynak:"TDV: ibrahim-pasa-melek (DİA 21, 2000, s. 335-337) · TDV: budin (bakıldı; 1684'ü anmıyor)" },
+
+{ id:"kunye-egriboz-1688", savas_ad:"Eğriboz savunması", savas_t:"1688-10-20", tur:"kusatma",
+  baslik:"Eğriboz Kuşatması (1688)",
+  tarih_metin:"1687-1688 kışında tahkim; Venedik kuşatması üç aydan fazla sürdü (egriboz). Gün verilmiyor",
+  taraflar:[
+    { ad:"Eğriboz garnizonu", devlet_id:"osmanli", komutan:"bulunamadı (TDV egriboz anmıyor)", mevcut_toplam:6000, piyade:"bilinmiyor", suvari:"bilinmiyor", top:"en az 40 (yalnız Karababa tepesindeki yeni istihkâm)", tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"6000 savunma askeri ve Karababa tabyasındaki 40 top TDV egriboz'da kuşatma öncesi hazırlık olarak verilir; kale toplarının toplamı bilinmiyor." },
+    { ad:"Venedik ordusu", devlet_id:"venedik", komutan:"bulunamadı (TDV egriboz anmıyor)", mevcut_toplam:15000, piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", kayip:"ağır kayıplar (sayı yok)", notlar:"15.000 kişilik Venedik ordusu (egriboz)." }
+  ],
+  kaynak:"TDV: egriboz (DİA 10, 1994, s. 491-493)" },
+
+{ id:"kunye-korfu-1716", savas_ad:"Korfu kuşatması", savas_t:"1716-08-20", tur:"kusatma",
+  baslik:"Korfu Kuşatması (1716)",
+  tarih_metin:"1128 (1716), Mora seferinin sonlarında (korfu)",
+  taraflar:[
+    { ad:"Osmanlı ordusu ve donanması", devlet_id:"osmanli", komutan:"Mora Seraskeri Kara Mustafa Paşa (karadan) · Kaptanıderyâ Canım Hoca Mehmed Paşa (denizden)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"Kuşatma gücü yetersiz kaldı; Venedik donanmasının takviyesi ve Petervaradin yenilgisi (Damad Ali Paşa'nın şehadeti) haberi üzerine kuşatma kaldırıldı (korfu, ahmed-iii)." },
+    { ad:"Korfu Venedik garnizonu", devlet_id:"venedik", komutan:"bulunamadı (TDV korfu anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"Evliya Çelebi'nin kalede 700 balyemez top bildirdiği bilgi 17. yüzyıla aittir, 1716 kuşatmasının sayısı değildir." }
+  ],
+  kaynak:"TDV: korfu (DİA 26, 2002, s. 201-202) · TDV: ahmed-iii (DİA 2, 1989, s. 34-38)" },
+
+{ id:"kunye-musul-savunmasi-1743", savas_ad:"Musul savunması", savas_t:"1743-10-23", tur:"kusatma",
+  baslik:"Musul Savunması (Eylül-Ekim 1743)",
+  tarih_metin:"nadir-sah--iran: 8 Şâban 1156 (27 Eylül 1743) başlayan kuşatma bir hafta sonra kaldırıldı. musul--irak: Şâban 1156 (Ekim 1743); en şiddetli hücum 15 Şâban (4 Ekim 1743), ertesi gün kuşatma kaldırıldı",
+  celiski:"TDV nadir-sah--iran ve musul--irak kuşatmanın 5 Ekim 1743 dolayında kaldırıldığını verir; atlas kronolojisi: 1743-10-23",
+  taraflar:[
+    { ad:"Musul müdafileri", devlet_id:"osmanli", komutan:"Musul Valisi Hüseyin Celil Paşa (Baştabya Kalesi'ni karargâh yaptı)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
+    { ad:"Nâdir Şah ordusu (Afşar İran)", komutan:"Nâdir Şah", mevcut_toplam:"400.000 (rivayet)", piyade:"bilinmiyor", suvari:"bilinmiyor", top:390, tufek:"bilinmiyor", gemi:"yok", notlar:"400.000 TDV nadir-sah--iran'da 'olduğu rivayet edilen' ordu, sefere çıkan bütün ordu için; abartılı olabilir. 390 top on dört bataryada (musul--irak). On iki tabya kuruldu, on iki hücum yapıldı. devlet_id listesinde Afşar İran yok." }
+  ],
+  kaynak:"TDV: musul--irak (DİA 31, s. 361-363) · TDV: nadir-sah--iran (DİA 32, 2006, s. 276-277)" },
+
+{ id:"kunye-yilan-adasi-deniz-1788", savas_ad:null, savas_t:"1788-01-01", tur:"deniz",
+  baslik:"Yılan Adası Deniz Muharebesi (Ağustos 1788)",
+  tarih_metin:"Ağustos 1788'de yapılan Yılan Adası Muharebesi (cezayirli-gazi-hasan-pasa)",
+  celiski:"TDV cezayirli-gazi-hasan-pasa: Ağustos 1788; atlas kronolojisi: 1788-01-01 (yıl başı). Ayrıca TDV muharebeyi Hasan Paşa'nın Rus donanmasını mağlûp ettiği bir savaş olarak anar",
+  taraflar:[
+    { ad:"Osmanlı donanması", devlet_id:"osmanli", komutan:"Kaptanıderyâ Cezayirli Gazi Hasan Paşa", mevcut_toplam:"bilinmiyor", piyade:"yok", suvari:"yok", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"TDV'ye göre Hasan Paşa Rus donanmasını mağlûp etti ama Özü'nün düşmesine engel olamadı." },
+    { ad:"Rus donanması", devlet_id:"rusya", komutan:"bulunamadı (TDV cezayirli-gazi-hasan-pasa anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"yok", suvari:"yok", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" }
+  ],
+  kaynak:"TDV: cezayirli-gazi-hasan-pasa (DİA 7, 1993, s. 501-503)" },
+
+{ id:"kunye-foksan-bozgunu-1789", savas_ad:null, savas_t:"1789-08-01", tur:"meydan",
+  baslik:"Fokşan Bozgunu (1 Ağustos 1789)",
+  tarih_metin:"1 Ağustos 1789'da Fokşan'da (yusuf-pasa-koca; cezayirli-gazi-hasan-pasa); 'ağustos başında' (hasan-pasa-kethuda)",
+  taraflar:[
+    { ad:"Osmanlı kuvvetleri", devlet_id:"osmanli", komutan:"Kemankeş Mustafa Paşa (Sadrazam Kethüdâ Hasan Paşa'nın ileri sürdüğü kuvvetler)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" },
+    { ad:"Karşı taraf (TDV adını vermiyor)", komutan:"bulunamadı (TDV hasan-pasa-kethuda, yusuf-pasa-koca anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: hasan-pasa-kethuda (DİA 16, 1997, s. 337-338) · TDV: yusuf-pasa-koca (DİA 44, 2013, s. 23-25) · TDV: cezayirli-gazi-hasan-pasa (DİA 7, 1993, s. 501-503)" },
+
+{ id:"kunye-kalafat-cikarmasi-1790", savas_ad:null, savas_t:"1790-01-01", tur:"meydan",
+  baslik:"Kalafat Çıkarması (Nisan 1790)",
+  tarih_metin:"Nisan sonlarında Vidin'den hareketle Tuna üzerinden Kalafat'a çıkan Osmanlı kuvvetleri hızla geri püskürtüldü (zistovi-antlasmasi, 1790 olayları)",
+  celiski:"TDV zistovi-antlasmasi: Nisan 1790 sonları; atlas kronolojisi: 1790-01-01 (yıl başı)",
+  taraflar:[
+    { ad:"Osmanlı kuvvetleri (Vidin'den)", devlet_id:"osmanli", komutan:"bulunamadı (TDV zistovi-antlasmasi anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" },
+    { ad:"Avusturya kuvvetleri", devlet_id:"habsburg", komutan:"bulunamadı (TDV zistovi-antlasmasi anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"Karşı tarafın Avusturya olduğu paragraf bağlamından (Avusturya cephesi 1790 harekâtı) çıkar." }
+  ],
+  kaynak:"TDV: zistovi-antlasmasi (DİA 44, 2013, s. 467-472)" },
+
+{ id:"kunye-yergogu-savunmasi-1790", savas_ad:null, savas_t:"1790-06-08", tur:"kusatma",
+  baslik:"Yergöğü Savunması (8 Haziran 1790)",
+  tarih_metin:"Avusturya kuvvetleri 8 Haziran 1790'da Yergöğü'ne kadar indilerse de geri püskürtüldü (yergogu)",
+  taraflar:[
+    { ad:"Yergöğü müdafileri", devlet_id:"osmanli", komutan:"bulunamadı (TDV yergogu, zistovi-antlasmasi anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"zistovi-antlasmasi: Yergöğü iyi bir savunma ortaya koydu. Kale 1789-1790'da esaslı tamir görmüştü." },
+    { ad:"Avusturya kuvvetleri", devlet_id:"habsburg", komutan:"Prens Coburg", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", kayip:"ağır kayıplar (sayı yok)", notlar:"Coburg Yergöğü'nü boşuna sıkıştırıp ağır kayıplarla Bükreş'e döndü (zistovi-antlasmasi)." }
+  ],
+  kaynak:"TDV: yergogu (DİA 43, 2013, s. 483-484) · TDV: zistovi-antlasmasi (DİA 44, 2013, s. 467-472)" },
+
+{ id:"kunye-ibrail-1791", savas_ad:null, savas_t:"1791-01-01", tur:"kusatma",
+  baslik:"İbrâil Kuşatması (Haziran 1791)",
+  tarih_metin:"Kalesi ertesi yılın (1791) haziranında Ruslar tarafından kuşatıldıysa da alınamadı (ibrail)",
+  celiski:"TDV ibrail: Haziran 1791; atlas kronolojisi: 1791-01-01 (yıl başı)",
+  taraflar:[
+    { ad:"İbrâil garnizonu", devlet_id:"osmanli", komutan:"bulunamadı (TDV ibrail anmıyor)", mevcut_toplam:"2000 (1790 garnizonu)", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"2000 kişi TDV'de 1790 yılı muhafız mevcudu olarak verilir; 1791 kuşatması anındaki sayı değildir." },
+    { ad:"Rus kuvvetleri", devlet_id:"rusya", komutan:"bulunamadı (TDV ibrail anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" }
+  ],
+  kaynak:"TDV: ibrail (DİA 21, 2000, s. 363-366)" },
+
+{ id:"kunye-ebukir-1798", savas_ad:null, savas_t:"1798-08-01", tur:"deniz",
+  baslik:"Ebûkīr (Nil) Deniz Muharebesi (1 Ağustos 1798)",
+  tarih_metin:"1 Ağustos 1798 (ebukir)",
+  taraflar:[
+    { ad:"İngiliz donanması", devlet_id:"ingiltere", komutan:"Amiral Nelson", mevcut_toplam:"bilinmiyor", piyade:"yok", suvari:"yok", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" },
+    { ad:"Fransız donanması", devlet_id:"fransa", komutan:"bulunamadı (TDV ebukir anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"yok", suvari:"yok", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", kayip:"donanma imha edildi (sayı yok)", notlar:"Fransız kara ordusu deniz desteğinden mahrum kaldı." }
+  ],
+  kaynak:"TDV: ebukir (DİA 10, 1994, s. 279-280)" },
+
+{ id:"kunye-ebukir-kara-1799", savas_ad:null, savas_t:"1799-07-25", tur:"meydan",
+  baslik:"Ebûkīr Kara Muharebesi (25 Temmuz 1799)",
+  tarih_metin:"25 Temmuz 1799 (ebukir)",
+  taraflar:[
+    { ad:"Osmanlı kuvvetleri", devlet_id:"osmanli", komutan:"Köse Mustafa Paşa", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"Yenildi; Ebûkīr Kalesi Fransızlar'ın eline geçti." },
+    { ad:"Fransız ordusu", devlet_id:"fransa", komutan:"Napolyon Bonapart", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"Akkâ'dan mağlup dönen ordu (ebukir)." }
+  ],
+  kaynak:"TDV: ebukir (DİA 10, 1994, s. 279-280)" },
+
+{ id:"kunye-ingiliz-donanmasinin-istanbul-onlerine-g-1807", savas_ad:null, savas_t:"1807-02-20", tur:"deniz",
+  baslik:"İngiliz Donanmasının İstanbul Önlerine Gelişi (Şubat 1807)",
+  tarih_metin:"1807 yılının 19 Şubatında İngiliz donanması Çanakkale Boğazı'ndan geçti (canakkale-bogazi); İstanbul önlerine geldi (Şubat 1807), şubat sonunda çekildi (selim-iii)",
+  celiski:"TDV canakkale-bogazi Boğaz geçişini 19 Şubat 1807 verir; İstanbul önlerine varış günü TDV'de yok; atlas kronolojisi: 1807-02-20",
+  taraflar:[
+    { ad:"Osmanlı (Boğaz kaleleri ve İstanbul)", devlet_id:"osmanli", komutan:"Sultan III. Selim (TDV sahadaki komutanı anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"Filo Boğaz'dan fazla zorlukla karşılaşmadan geçti; blokaj şehirde kıtlık ve pahalılığa yol açtı." },
+    { ad:"İngiliz filosu", devlet_id:"ingiltere", komutan:"bulunamadı (TDV selim-iii ve canakkale-bogazi Duckworth'u anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"yok", suvari:"yok", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" }
+  ],
+  kaynak:"TDV: selim-iii (DİA 36, 2009, s. 420-425) · TDV: canakkale-bogazi (DİA 8, 1993, s. 199-203)" },
+
+{ id:"kunye-ibrail-in-dususu-1809", savas_ad:null, savas_t:"1809-12-02", tur:"kusatma",
+  baslik:"İbrâil'in Düşüşü (2 Aralık 1809)",
+  tarih_metin:"1809'da Kaminski kumandasındaki Rus kuvvetlerince kuşatılıp topa tutuldu; yiyecek sıkıntısı yüzünden 2 Aralık'ta General Essen'e teslim edildi (ibrail)",
+  taraflar:[
+    { ad:"İbrâil garnizonu", devlet_id:"osmanli", komutan:"bulunamadı (TDV ibrail anmıyor)", mevcut_toplam:5200, piyade:4100, suvari:1100, top:260, tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"4100 piyade + 1100 atlı ve 260 top teslim anında kalede bulunan mevcuttur (ibrail); toplam 5200 bu ikisinin toplamıdır. Teslim sebebi yiyecek sıkıntısı." },
+    { ad:"Rus kuvvetleri", devlet_id:"rusya", komutan:"Kaminski · General Essen (teslimi alan)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" }
+  ],
+  kaynak:"TDV: ibrail (DİA 21, 2000, s. 363-366)" },
+
+{ id:"kunye-ruscuk-un-teslimi-1810", savas_ad:null, savas_t:"1810-09-26", tur:"kusatma",
+  baslik:"Rusçuk'un Teslimi (26 Eylül 1810)",
+  tarih_metin:"26 Eylül 1810'da garnizonun ve sivillerin güvenle çıkması karşılığında teslim oldu (ruscuk); üç ay muhasaradan sonra 25 Eylül 1810'da ele geçirildi (yusuf-ziya-pasa)",
+  celiski:"TDV yusuf-ziya-pasa: 25 Eylül 1810; TDV ruscuk: 26 Eylül 1810; atlas kronolojisi: 1810-09-26",
+  taraflar:[
+    { ad:"Rusçuk garnizonu", devlet_id:"osmanli", komutan:"bulunamadı (TDV ruscuk, yusuf-ziya-pasa anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"Uzun ve kanlı kuşatmaya direndi; garnizon ve siviller güvenle çıkma şartıyla teslim oldu. Sadrazam Yûsuf Ziyâ Paşa dönemi." },
+    { ad:"Rus ordusu", devlet_id:"rusya", komutan:"Kont Kaminski", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" }
+  ],
+  kaynak:"TDV: ruscuk (DİA 35, 2008, s. 246-250) · TDV: yusuf-ziya-pasa (DİA 44, 2013, s. 34-37)" },
+
+{ id:"kunye-ruscuk-1811", savas_ad:null, savas_t:"1811-07-04", tur:"meydan",
+  baslik:"Rusçuk Muharebesi (1811)",
+  tarih_metin:"1811 Haziranında alınan ağır yenilgiler ve tersliklerden sonra Ruslar geri çekilmeye zorlandı (ruscuk)",
+  celiski:"TDV ruscuk: Haziran 1811 (takvim belirtilmemiş; Jülyen olabilir); atlas kronolojisi: 1811-07-04",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"bulunamadı (TDV ruscuk anmıyor; ahmed-pasa-laz slug'ı ölü)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" },
+    { ad:"Rus ordusu", devlet_id:"rusya", komutan:"Başkumandan Kutuzov", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"Çekilmeden önce Kutuzov şehrin istihkâmını ve kaleyi havaya uçurttu; şehir yangından büyük zarar gördü (ruscuk). TDV 'ağır yenilgiler' der ama muharebenin adını ve sonucunu ayrıca anlatmaz." }
+  ],
+  kaynak:"TDV: ruscuk (DİA 35, 2008, s. 246-250)" },
 ];
