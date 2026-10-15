@@ -472,4 +472,20 @@ window.OLAYLAR_2S_0919 = [
   etiket:["siyasi","toprak-kazanc","konu-siyasi"], taraflar:["timurlu","kert"],
   d:"1281'den beri İlhanlıların vasalı Herat Kertlerinin elinde bulunan Kandehar, Timur'un Horasan seferleri sırasında zaptedildi ve torunu Pîr Muhammed'e verildi; şehir bundan sonra Timurlu valilerince yönetildi.",
   kaynak:"TDV `kandehar` (A. Özcan) — AYNEN: \"680’de (1281) İlhanlılar’ın vasalı Herat hâkimi Şemseddin Kert’in eline geçti\" · \"785’te (1383) Timur tarafından zaptedilerek torunu Pîr Muhammed’e verilen şehir\" · hassasiyet: YIL" },
+// KARAR-UYG-1015 (G4) — Songhay: Dia (Zâgha) 1494 · Agadez 1515 tâbiliği · Bilma 1759
+{ t:"1494-01-01", kesinlik:"yil", b:"Askiya Muhammed Zâgha'yı (Dia) aldı", tur:"fetih", onem:2, dunya:1, kapsam:"dis", yer_id:"Dia (Zâgha)",
+  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["songhay-imparatorlugu"],
+  d:"Songhay tahtına çıkan Askiya Muhammed, H. 899 yılının sonunda kardeşi Kurmina-Fâri Amar Komzâgho aracılığıyla Nijer iç deltasının batısındaki Zâgha (Dia) şehrini ele geçirdi.",
+  kaynak:"es-Sa'dî, Tarikh es-Soudan, trc. O. Houdas (Paris 1900) s.118-119 — AYNEN: \"A la fin de l'année 899 (1494), Askia-Mohammed s'empara de Zâgha par l'intermédiaire de son frère le Kourmina-Fâri Amar-Komzâgho\" · hassasiyet: YIL" },
+
+{ t:"1515-01-01", kesinlik:"yil", b:"Agadez Songhay'a bağlandı", tur:"vassal", onem:2, dunya:1, kapsam:"dis", yer_id:"Agadez",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"], taraflar:["songhay-imparatorlugu","agadez-sultanligi"],
+  d:"Âir bölgesinin merkezi Agadez, Songhay Sultanı Askiya Muhammed tarafından Gao'ya bağlandı; şehir Songhay'ın 1591'de Tondibi'de yıkılışına kadar bu tâbiliği taşıdı.",
+  kaynak:"TDV `nijer` (A. Kavas) — AYNEN: \"1515 yılında Songay Sultanı Askiya Muhammed tarafından Gao’ya bağlanan şehir\" · hassasiyet: YIL" },
+
+{ t:"1759-01-01", kesinlik:"yil", b:"Agadez Tuaregleri Bilma tuzluğunu Kanem-Bornu'dan aldı", tur:"fetih", onem:2, dunya:1, kapsam:"dis", yer_id:"Bilma",
+  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["agadez-sultanligi","kanem-bornu"],
+  d:"XVIII. yüzyılda çöküş yaşayan Kanem-Bornu, 1759'da Agadez Tuaregleri Bilma tuzluğunu elinden alınca Sahra'daki birçok yerleşim yerini kaybetti.",
+  kaynak:"TDV `kanim` (A. Kavas) — AYNEN: \"1759’da Agâdes Tevârikleri, Bîlmâ tuzluğunu Kânim-Bornu’nun elinden alınca Sahrâ’daki birçok yerleşim mahallini kaybettiler\" · hassasiyet: YIL" },
+
 ];

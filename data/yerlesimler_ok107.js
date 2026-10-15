@@ -273,7 +273,8 @@ window.YERLESIMLER_OK107 = [
   //   kervan yolu…" — Kavâr vahalarının tuz merkezi, Bornu'nun kuzey ucu.
   //   "Kânim ile Damergu FRANSIZ … idaresine bağlandı" (1902).
   // Bilma bu kuzey kolunda; günler Mao (Kanem) kaydıyla BİREBİR aynı.
-  s:[{f:"1281-01-01",t:"1902-01-01",d:"kanem-bornu"},
+  s:[{f:"1281-01-01",t:"1759-01-01",d:"kanem-bornu",kaynak:"bitiş KARAR-UYG-1015 (G4): TDV kanim (A. Kavas): '1759’da Agâdes Tevârikleri, Bîlmâ tuzluğunu Kânim-Bornu’nun elinden alınca' — YIL · XVI. yy tanığı: Ibn Fartuwa, trc. H. R. Palmer (Lagos 1926) 'the town of Bulma, where he camped'"},
+     {f:"1759-01-01",t:"1902-01-01",d:"agadez-sultanligi",kesinlik:"yil",kaynak:"KARAR-UYG-1015 (G4): başlangıç TDV kanim 1759 (Agades Tuaregleri) · bitiş eski kaydın 1902 ucu (TDV bornu: 'Kânim ile Damergu Fransız idaresine bağlandı', bölge cümlesi) DEĞİŞTİRİLMEDİ · ⚠️ ARA ZİNCİR ÖLÇÜLMEDİ: TDV nijer/tevarik Kavar sultanının 1835 sonrası Fizan sancağına tâbi olduğunu söyler (yıl/gün yok) — Osmanlı tâbiliği YAZILMADI, beyan borcu"},
      {f:"1902-01-01",t:"1960-08-03",d:"fransa-cumhuriyet"},{f:"1960-08-03",t:"2000-12-31",d:"nijer",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[], kaynak:"bornu"
 },
