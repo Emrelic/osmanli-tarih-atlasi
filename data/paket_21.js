@@ -707,6 +707,12 @@ window.YERLESIMLER_OK106 = [
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"IEU «Melitopol» (encyclopediaofukraine.com) · ESBE «Мелитополь» (ru.wikisource.org/wiki/ЭСБЕ/Мелитополь)" },
+  { ad:"Stavropol (Kafkas)", tur:"sehir", lat:45.0448, lon:41.9691, g:0, k:2,
+    kur:"1777-01-01", kesinlik:"yil", neden:"KUTU-P2-1015 (0082/H-0070): kur GERÇEK KURULUŞ (kale) — ESBE «Ставропольская губерния» (Исторический обзор): 'В 1777 г. сооружено было 10 крепостей, в том числе Ставропольская' (Azak-Mozdok hattı). ESBE «Ставрополь Кавказский» ve МЭСБЕ kuruluş yılı vermiyor. Gün kaynakta yok. 1900 kat. 2 (gubernia merkezi). Konum: bilinen şehir merkezi (Kale tepesi ~0,5 km). Mükerrer taraması: 3 km içinde nokta YOK (Stavropol–Kuma bozkırı bölge noktası ~54 km GD).",
+    s:[{f:"1777-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Ставропольская губерния» (1777 Azak-Mozdok hattı kalesi)"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Ставропольская губерния» (ru.wikisource.org/wiki/ЭСБЕ/Ставропольская_губерния) — TDV'de madde yok" },
   // ── OSTROGOJSK — Slobodskaya Ukrayna dalgasının ikinci kasabası ─────
   //  IEU "Ostrohozke": "It was founded by Ukrainian Cossacks and fortified
   //  in 1652." · "In 1662 it became the center of Ostrohozke regiment in
