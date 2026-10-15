@@ -494,4 +494,10 @@ window.OLAYLAR_2S_0919 = [
   d:"1909 tarihli South Africa Act uyarınca Kap, Natal, Transvaal ve Oranj Nehri kolonileri 31 Mayıs 1910'da Britanya İmparatorluğu'na bağlı Güney Afrika Birliği adıyla birleşti; yürütme merkezi Pretoria, yasama merkezi Cape Town oldu.",
   kaynak:"Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909) — AYNEN: \"the thirty-first day of May, one thousand nine hundred and ten\" · South Africa Act 1909 md. 18, 23 · TDV `guney-afrika-cumhuriyeti`: \"1910 yılında … Güney Afrika Birliği Devleti'ni kurdular\" · hassasiyet: GÜN" },
 
+// KARAR-UYG-1015 — Soyo (Kongo ağzının güney yakası) Portekiz 1885-02-14
+{ t:"1885-02-14", b:"Kongo Hür Devleti ile Portekiz sınır sözleşmesi — Kongo ağzının güney yakası Portekiz'e", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Soyo",
+  etiket:["antlasma","diplomasi","konu-diplomasi"], taraflar:["portekiz-angola","kongo-serbest-devleti"],
+  d:"Berlin Konferansı sürerken imzalanan sözleşmeyle Kongo Hür Devleti ile Portekiz arasındaki sınır, Kongo (Zaire) ırmağının ağzından Uango-Uango çayına kadar ırmağın kendisi olarak çizildi; Soyo'nun bulunduğu güney yaka Portekiz'de, Kabinda ise ırmağın kuzeyinde Portekiz'e kaldı.",
+  kaynak:"Hertslet, The Map of Africa by Treaty, 2. bs. c.1 No.58 (14 Şubat 1885) s.232 — AYNEN: \"The course of the Congo (Zaire) from its mouth to its junction with the little River Uango-Uango\" · hassasiyet: GÜN" },
+
 ];
