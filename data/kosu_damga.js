@@ -31,7 +31,7 @@
 
 window.KOSU_DAMGA = {
   // KOŞU 25 ELLE yazıldı (HAVVA, 15 Ekim 2026). KOŞU 22-24 çıktıları da yayına indi ama bu dosya
-  // GÜNCELLENMEDİ (Emre sitede "KOŞU 21" gördü, 15 Ekim). Değerler C:tlas-kosu25\kosu25-20261015-002715
+  // GÜNCELLENMEDİ (Emre sitede "KOŞU 21" gördü, 15 Ekim). Değerler atlas-kosu25/kosu25-20261015-002715
   // -bayraklar.log ve aynı koşunun logundan birebir okundu. Çıktı commit'i: e2ca9be62 (yayın r12414).
   no: 25,                          // koşu numarası — arayüzde "KOŞU 25" diye görünür
   tarih: "2026-10-15",             // çıktının main'e alındığı gün
