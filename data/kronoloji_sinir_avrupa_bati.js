@@ -312,7 +312,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 
 // ── G3 (1878-07-13 → 1914-07-28) ────────────────────────────────────
 { t:"1879-06-24", devlet:"isvicre", devletler:["isvicre","almanya"], sinir_id:"d1923-ch-de",
-  b:"İsviçre–Almanya sınır antlaşması — Untersee ve Konstanz kesimi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
+  b:"İsviçre–Almanya sınır antlaşması — Konstanz kesimi", ic_not_b:"KUTU-H4-1015: başlıkta 'Untersee ve' vardı; 1879 anlaşması (fedlex SR 0.132.136.51) ve onayladığı 1878 İsviçre–Baden düzenlemesi (SR 0.132.136.5) yalnız Konstanz çevresini düzenler, Untersee'yi anmaz.", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","isvicre","almanya"],
   d:"İsviçre ile Alman İmparatorluğu, Baden ile daha önce 1854 ve 1878'de yapılan düzenlemeleri izleyerek Untersee ve Konstanz çevresindeki sınırı antlaşmayla belirledi. Bodensee'nin büyük gölü (Obersee) üzerinde ise hiçbir antlaşma sınır çizmedi; bu durum bugün de sürüyor. Antlaşmanın öncesiyle hat farkı ölçülmedi.",
   kaynak:"fedlex SR 0.132.136.3 (1964 antlaşmasının önceki antlaşmalara atfı) · Kramsch 2015 (Obersee) — tarih listesi envanter denetim/D3-AVRUPA-BATI-0916.md §1.11'de" },

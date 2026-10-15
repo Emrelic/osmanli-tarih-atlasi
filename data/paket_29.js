@@ -1904,6 +1904,56 @@ window.ANTLASMA_HARITALARI = [
   not: "Resmî himaye bildirimi 20 Temmuz 1887."
 }
 // <<< KUTU-H4-1015 beşinci parti BITTI
+
+,
+// >>> KUTU-H4-1015 altıncı parti (0054/H-0020) — Campo Formio 1797, Viyana 1815, Banat 1920 (Trianon md. 27/45).
+{
+  id: "campo-formio-1797",
+  antlasma_ad: "Campo Formio Antlaşması",
+  tarih: "1797-10-17",
+  bolgeler: [
+    { taraf: "habsburg", etiket: "Avusturya'ya (Venedik ve ana topraklar, İstria, Dalmaçya)", noktalar: [
+        { ad: "Venedik", lat: 45.4409, lon: 12.3188, kaynak: "kart ihtilal-venedik-paylasimi (Treccani 'Manìn, Ludovico' ve 'Venezia'): Campo Formio'yla Venedik Avusturya'ya bırakıldı; ana topraklar, İstria ve Dalmaçya da" },
+        { ad: "Split (Spalato)", lat: 43.511, lon: 16.439, kaynak: "Campo Formio maddesi (olaylar_ek16.js): Dalmaçya kıyısı (Split, Zadar, Şibenik, Kotor dahil) Avusturya'ya — ve aynı kart" },
+        { ad: "Zadar (Zara)", lat: 44.124, lon: 15.232, kaynak: "aynı madde ve kart, adıyla" }
+    ] },
+    { taraf: "fransa-cumhuriyet", etiket: "Fransa'ya (İyon Adaları)", noktalar: [
+        { ad: "Korfu", lat: 39.624, lon: 19.922, kaynak: "kart ihtilal-venedik-paylasimi · TDV yedi-ada-cumhuriyeti: Campo-Formio'nun 5. maddesi Venedik'e ait İyonya adalarının Fransa'ya bırakılmasını öngörüyordu" },
+        { ad: "Kefalonya", lat: 38.227, lon: 20.575, kaynak: "aynı (TDV yedi-ada-cumhuriyeti), adıyla" }
+    ] }
+  ],
+  not: "Avusturya Hollandası'nın (Belçika) Fransa'ya terki ayrıca noktalanmadı."
+},
+{
+  id: "viyana-1815",
+  antlasma_ad: "Viyana Kongresi Nihai Senedi",
+  tarih: "1815-06-09",
+  bolgeler: [
+    { taraf: "prusya", etiket: "Prusya'ya (Ren boyları)", noktalar: [
+        { ad: "Köln", lat: 50.938, lon: 6.960, kaynak: "kart antlasma6-viyana-1815: Prusya Saksonya'nın beşte ikisini, Ren boylarında geniş topraklar aldı — Köln TEMSİLÎ nokta" }
+    ] },
+    { taraf: "sardinya-piyemonte", etiket: "Sardinya Krallığı'na (Cenova)", noktalar: [
+        { ad: "Cenova", lat: 44.4087, lon: 8.9347, kaynak: "aynı kart: Cenova Sardinya Krallığı'na verildi" }
+    ] },
+    { taraf: "habsburg", etiket: "Avusturya'da kalan (Lombardiya-Venedik)", noktalar: [
+        { ad: "Milano", lat: 45.464, lon: 9.190, kaynak: "aynı kart: Avusturya Lombardiya ve Venedik'i elinde tuttu — Milano TEMSİLÎ nokta" },
+        { ad: "Venedik", lat: 45.4409, lon: 12.3188, kaynak: "aynı kart, adıyla" }
+    ] }
+  ],
+  not: "Polonya (Kongre Krallığı), Hollanda-Belçika birliği ve İsviçre hükümleri bu kayıtta noktalanmadı."
+},
+{
+  id: "trianon-banat-1920",
+  antlasma_ad: "Banat bölüşüldü",
+  tarih: "1920-06-04",
+  bolgeler: [
+    { taraf: "romanya-kralligi", etiket: "Romanya'ya (Banat'ın doğusu, Temeşvar)", noktalar: [
+        { ad: "Temeşvar", lat: 45.760, lon: 21.230, kaynak: "Banat maddesi (olaylar_ok109.js; Trianon md. 27/3 ve 45, MNIR; TDV timisvar): Tımışvar şehri Romanya Krallığı'na katıldı" }
+    ] }
+  ],
+  not: "Banat'ın batısı SHS Krallığı'na kaldı; aynı günün genel Trianon kaydı trianon-1920."
+}
+// <<< KUTU-H4-1015 altıncı parti BITTI
 ];
 
 ;

@@ -11,7 +11,7 @@
 //   enciklopedija, NDB, VLE, Encyclopedia of Ukraine, lex.dk, Store norske leksikon, Danmarkshistorien,
 //   Muzeum Historii Polski, Zapiski Historyczne; ikinci parti: Historisches Lexikon der Schweiz, Digithèque MJP
 //   antlaşma metinleri, Avalon Project, ABD Office of the Historian, LNTS, IBS 58/74/81, Bermejo García vd. (2020). Her kartın kaynak/ic_not alanı neyin nereden okunduğunu söyler.
-// 94 kart; metin özetlendi, kopyalanmadı.
+// 95 kart; metin özetlendi, kopyalanmadı.
 // ============================================================================
 window.EKOKUMA_ANTLASMA10 = [
 {
@@ -349,6 +349,18 @@ window.EKOKUMA_ANTLASMA10 = [
   "kesinlik": "kesin",
   "kaynak": "Nijmegen Antlaşması (Fransa–İspanya) metni (Digithèque MJP, mjp.univ-perp.fr/traites/1678nimegue.htm; 17 Eylül 1678; İngiltere Kralı arabuluculuğu; md. V iadeler, md. VI Charleroi-Binche-Ath-Oudenaarde-Kortrijk, md. XI Fransa'da kalan yerler, md. XIII Charlemont/Dinant, md. XIV-XV yerleşke değişimi ve sınır komiserleri; giriş notu: 6 Nisan 1672, 1676 kongresi, Hollanda antlaşması) · Britannica 'Treaties of Nijmegen' (1676 görüşmeleri, Hollanda antlaşması 10 Ağustos 1678 ve Maastricht, İspanya'nın 1648'den beri gerileyişi, daha düzenli kuzeydoğu sınırı ve Paris'in güvenliği, Milano–Hollanda koridorunun kaybı, 5 Şubat 1679 İmparatorluk antlaşması) · Britannica 'Franche-Comté' (1674 fethi, Nijmegen'de tanınma, Fransız eyaleti)",
   "ic_not": "Madde günü 1678-09-17 antlaşma metni ve Britannica ile uyuşuyor. Hollanda antlaşmasının günü kaynaklarda farklı: MJP giriş notu 11 Ağustos, Britannica 10 Ağustos 1678 der — metinde '10/11 Ağustos' yazıldı. Britannica İspanya'nın 'Franş-Konte, Artois ve Flandre'de 16 müstahkem şehri' bıraktığını söyler; metin md. XI'deki adlı listeye dayandırıldı (Artois'dan yalnız Aire ve Saint-Omer adıyla geçer; Artois'nın büyük kısmı 1659'da zaten Fransız'dı — Britannica 'Artois'). Md. V'te 'la Ville et Place de Leuve dans le Brabant' geçer; büyük olasılıkla Léau (Zoutleeuw), ama kimlik kaynakta doğrulanmadığından metinde adı verilmedi ('Brabant'ta bir şehir'). 'Rodenhus kalesi' metne alınmadı. MJP giriş notundaki '5 février 1879' bir yazım hatasıdır (1679)."
+},
+{
+  "id": "antlasma10-inebahti-iade-1700",
+  "baslik": "İnebahtı'nın Karlofça gereği Osmanlı'ya iadesi (1700) — yıkılarak teslim edilen kale",
+  "tur": "antlasma",
+  "olay": [
+    "1700-01-01|İnebahtı Karlofça gereği"
+  ],
+  "metin": "HÜKÜMLER. TDV 'İnebahtı' maddesine göre 1683-1699 savaşlarında uzun süre direnen İnebahtı, yanındaki öteki kalelerle birlikte Temmuz 1687'de Venedik'e düştü. Karlofça Antlaşması (26 Ocak 1699) kalenin Osmanlılar'a geri verilmesini öngördü; Venedikliler kaleyi antlaşmadan bir yıl sonrasına kadar ellerinde tuttular. Teslimden önce, yine antlaşma gereği, Rumeli Kulesi'ni, şehirdeki bütün İslâmî binaları ve yaptıkları tahkimatı yerle bir ettiler; Osmanlı'ya geri dönen, surları ve yapıları yıkılmış bir şehirdi.\n\nÖNEMİ. İnebahtı Korint Körfezi'nin ağzını tutan kaledir; iadesi, Karlofça'da Mora'yı kaybeden Osmanlı'nın körfezin kuzey kıyısındaki tutunma noktasını korumasıydı. TDV, 1701'den sonra II. Mustafa'nın büyük bir imar işine giriştiğini, II. Bayezid'in camisini yeniden yaptırdığını, Sadrazam Amcazâde Hüseyin Paşa'nın 1701-1702'de Ortakale'de on dokuz köyün geliriyle cami, mektep ve hamam yaptırdığını yazar.\n\nSEBEP-SONUÇ. Kayıp, 1683 Viyana bozgunuyla başlayan uzun savaşın Venedik cephesindeki sonucuydu; iade ise Karlofça'nın Venedik maddelerinin parçasıydı. 1702-1703 tarihli bir hazine kaydına göre vali İsmail Paşa zamanında surlar, camiler, hamamlar, su yolları ve muhafız odaları için yaklaşık 7.000 altın harcandı. Şehir 1829 Nisanında Yunan idaresine geçinceye kadar Osmanlı'da kaldı.",
+  "kesinlik": "kısmen",
+  "kaynak": "TDV: inebahti (Temmuz 1687 düşüş; Venediklilerin kaleyi Karlofça'dan bir yıl sonrasına kadar tutması; antlaşma gereği Rumeli Kulesi, İslâmî binalar ve tahkimatın yıkılması; 1701 sonrası II. Mustafa ve Amcazâde Hüseyin Paşa imarı; 1702-1703 hazine kaydı; Nisan 1829 Yunan idaresi) — 15 Ekim 2026'da GET ile okundu",
+  "ic_not": "Teslimin günü TDV'de yok ('antlaşmadan bir yıl sonrasına kadar'); madde 1700-01-01 yıl yer tutucusudur. Karlofça'nın Venedik maddelerinin İnebahtı'ya ilişkin metni okunmadı; yıkım şartının 'antlaşma gereği' olduğu TDV'nin ifadesidir. Kesinlik bu yüzden 'kısmen'."
 },
 {
   "id": "antlasma10-nystad-1721",
