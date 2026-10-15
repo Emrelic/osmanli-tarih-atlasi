@@ -49,6 +49,7 @@ window.YERLESIMLER_KALITE4 = [
   v:[{f:"1585-04-19",t:"1603-10-21",k:"Bâne beyliği (Osmanlı'ya tâbi)",statu:"vassal",kaynak:"BOA hükmü 18 Rebîülâhir 993 (19 Nisan 1585): Soran, Kızılcakale, Erbil ve Bâne beylerinden Teymur Han'a karşı birleşmeleri isteniyor — Özcoşar-Açar 2024 (https://dergipark.org.tr/en/download/article-file/4081642) · bitiş: gün komşudan: Tebriz (1603-10-21, Şah Abbas'ın Tebriz'i alışı) — Bâne'nin kendi dönüş günü kaynakta YOK · EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.1; 0047/H-0001 · 0081/H-0046 · 0088/H-0027 · 0062/H-0001)"}], },
 
 { ad:"Serdeşt (Sardasht)", tur:"sehir", lat:36.16, lon:45.48, g:0, k:3,
+  neden:"BEYAN — KARAR3-1016 (Emre #17, 16 Ekim 2026): 1585-1603 ve 1724-1730 Osmanlı penceresi AÇILMADI. Serdeşt'i bu yıllar için ADIYLA anan kaynak BULUNAMADI. Bölge tanıklığı var ama köye/kasabaya taşınmadı (D208): 1728 tahririnde Soğuk Bulak (Mehabad) livası 'Alan' ve 'Lâcân' nahiyeleri (BOA TD 909) ve Erdelan'ın 'Bane' livası (TD 1066) — Özgüdenli, AÜ DTCF Tarih Araştırmaları Dergisi 34 (2013); 'Alan' nahiyesinin Serdeşt'in güneyindeki Alan geçidi olduğu YALNIZ ad eşleşmesi (Salimi & Sorkhabi 2019, Pajūhešhā-ye Bāstānšenāsī-ye Irān 9) — ölçülmedi. Bakılan: TDV arama 'serdeşt' (5 biyografi), Açar 2023 tezi (0), Iranica sardasht (404) · KAYNAK-1015/G2 · KUTU-1016 0082/H-0009, H-0010",
   kur:"1501-07-01",
   // kaynak: standart akademik — Bâne ile aynı Kürt beylik kuşağı
   // (Mükriyân), Safevî-Osmanlı sınır bölgesi. TDV müstakil maddesi yok.
