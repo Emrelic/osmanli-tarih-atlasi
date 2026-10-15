@@ -31,6 +31,15 @@
 
 window.OLAYLAR_MISIR1801 = [
 
+{ t:"1801-05-14", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:3,
+  etiket:["savas","toprak-kazanc","konu-askeri"],
+  b:"Dimyat'ın Fransızlardan alınması — Lesbe kalesinin boşaltılması",
+  gun:"14 Mayıs 1801",
+  yer:"Dimyat", yer_id:"Dimyat",
+  d:"Sadrazamın ordusundan İbrâhim Paşa kumandasındaki bir kuvvet Dimyat'a gönderildi. 14 Mayıs sabahı Dimyat'ı koruyan Lesbe kalesine yapılacak hücum hazırlanmışken kalenin Fransızlarca boşaltıldığı, garnizonun çekildiği görüldü; ona bağlı iki küçük kale de alındı. Dimyat, Nisan'da düşen Reşîd'in ardından Fransız denetiminden çıkan ikinci Nil ağzı şehri oldu.",
+  kaynak:"London Gazette sayı 15388 (21 Temmuz 1801) s. 889-890 — Grand Vezir ordugâhından 20 Mayıs 1801 tarihli İngiliz raporu: 'the Capture of Fort Lesbie at Damietta, and two smaller Forts depending on it, by a Detachment from the Vizier's Army' · İbrahim Paşa'nın raporuna göre hücum 'on the Morning of the 14th Instant' hazırlanmışken kale boşaltılmış bulundu · üst sınır teyidi: London Gazette 15385 (15 Temmuz 1801), Lord Keith'in 22 Mayıs mektubu 'After the surrendering of Damietta' · TDV'DE KARŞILIĞI YOK (misir/kahire maddeleri gün vermiyor) — §4 gereği birincil belge künyesiyle yazıldı · KUTU-HATALI-1015 (0082/H-0061)",
+  duygu:["🎉"] },
+
 { t:"1801-06-27", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:4,
   etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"Kahire'nin Fransızlardan teslim alınması — Belliard'ın kapitülasyonu",
