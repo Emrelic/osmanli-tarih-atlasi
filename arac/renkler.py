@@ -3702,6 +3702,28 @@ BOYALAR = {
     #   (denetim/oneri-20261015-222539.txt) en yakın engel ΔE 12,1.
     #   riga-baspiskoposlugu (#d82a78) GERÇEK dönemle (1281-1330) yeniden sınandı — bkz. rapor.
     "riga-hur-sehri":       ("Riga Hür Şehri", "#2a24c6"),
+    # RENK-PAKET-1016 — renk_olc.oner() GERÇEK konum + dönem engel kümesiyle (T5-1000-A-1016 bekleyen
+    # zincirleri + t5a verisi bellekte; RENK-PAKET-1015 hex'leri dolu sayıldı). En yakın engel ΔE ≥ 12.
+    # Zengî kolları (musul 1127-1233 · halep 1146-1183 · cizre 1180-1251) eşzamanlı ⇒ AYRI renk, PAYLAŞIM YOK.
+    "zengi-musul":              ("Zengîler (Musul Atabegliği)", "#5424ae"),
+    "zengi-halep":              ("Zengîler (Halep kolu – Nûreddin Mahmud)", "#24ccde"),
+    "zengi-cizre":              ("Zengîler (Cezîre-i İbn Ömer / Cizre kolu)", "#d8961e"),
+    "lului":                    ("Lü'lü' Hânedanı (Musul)", "#2442c0"),
+    "begteginli":               ("Begteginliler (Erbil Atabegliği)", "#1ea82a"),
+    "urfa-kontlugu":            ("Urfa (Edessa) Haçlı Kontluğu", "#c62472"),
+    "urfa-toros-beyligi":       ("Urfa Ermeni Beyliği (Kuropalat Toros)", "#24c6a8"),
+    "numeyri":                  ("Nümeyrîler (Nümeyroğulları)", "#24c6b4"),
+    "ukayli":                   ("Ukaylîler", "#7824c6"),
+    "mezyedi":                  ("Mezyedîler", "#d82a30"),
+    "filaretos-devleti":        ("Filaretos Brakamios Devleti", "#c62478"),
+    "malatya-ermeni-beyligi":   ("Malatya Ermeni Beyliği (Philaretos ve valileri)", "#c64824"),
+    "rupeniler":                ("Rupenî (Ermeni) Prensliği", "#e418e4"),
+    "vaspurakan-kralligi":      ("Vaspurakan Ermeni Krallığı (Artsruni)", "#c6247e"),
+    "kars-vanand-kralligi":     ("Kars (Vanand) Ermeni Krallığı", "#c64e24"),
+    "tiflis-emirligi":          ("Tiflis Emirliği", "#ba7e24"),
+    "seddadiler-gence":         ("Şeddâdîler (Gence/Arrân kolu)", "#2a4ed8"),
+    "salzburg-baspiskoposlugu": ("Salzburg Prens-Başpiskoposluğu", "#f6360c"),
+    "ebulhayr-ozbek-ulusu":     ("Ebü'l-Hayr Hanlığı (Özbek Ulusu)", "#24c68a"),
 }
 
 
