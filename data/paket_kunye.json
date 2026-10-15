@@ -442,8 +442,8 @@
     },
     {
      "yol": "data/kronoloji_gurcistan.js",
-     "sha": "099a20c384799847",
-     "bayt": 32339
+     "sha": "4811e9419cafc385",
+     "bayt": 32782
     },
     {
      "yol": "data/kronoloji_iran_ardillari.js",
@@ -551,7 +551,7 @@
      "bayt": 167050
     }
    ],
-   "bayt": 2086240
+   "bayt": 2086683
   },
   {
    "paket": "data/paket_13.js",

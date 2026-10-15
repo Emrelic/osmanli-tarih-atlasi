@@ -5862,7 +5862,8 @@ window.KRONOLOJI_GURCISTAN = [
 
 { t:"1736-09-01", b:"İstanbul Antlaşması — Osmanlı'nın on üç yıllık işgalin ardından Gürcistan'dan çekilmesi", tur:"siyaset", onem:4, dunya:3, kapsam:"dis",
   etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", kapsam_genis:true, odak_yer:["Tiflis"],
+  ic_not:"odak_yer YALNIZ kamera içindir (1724-06-24 maddesiyle aynı gerekçe): antlaşma İstanbul'da imzalandı, konusu Osmanlı'nın Gürcistan'dan çekilmesidir; Tiflis Gürcü başkentidir. KOŞU 25 yayın kapısı 'SEKME SESSİZ GERİLEDİ' dedi (1736-09-01 × sekme gurcistan): kapsam_genis + odaksız madde kamerayı o günün Osmanlı sınırına uçuruyor, künye sekmesinde kıpırdamıyordu. 15 Ekim 2026.",
   d:"Nadir Şah'ın zaferleriyle sonuçlanan ikinci İran savaşını bitiren antlaşmayla Osmanlı, 1723'ten beri elinde tuttuğu bütün Güney Kafkasya topraklarından, dolayısıyla Gürcistan'dan da çekildi; ülke yeniden İran nüfuz alanına girdi.",
   kaynak:"osmanlilar (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js)" },
 
