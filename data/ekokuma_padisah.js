@@ -57,7 +57,7 @@ window.EKOKUMA_PADISAH = [
   kisa:"Kayınvalide, gelinin nüfuzunu kırmak için oğluna sürekli cariye sundu; oğlunun tahta çıkan torunu ise sonunda on dokuz amcasını tek gecede boğdurttu.",
   metin:"III. Murad'ın annesi Nurbânû Sultan'ın, oğlunun ilk ve tek aşkı Safiye Sultan'ın nüfuzunu kırmak için ona sürekli cariye sunduğu, III. Murad'ın buna rağmen kırk dokuz çocuğa (TDV'nin verdiği belgeli, ölümündeki sağ çocuk sayısı — 'yüz civarı' gibi rivayetleri TDV açıkça MÜBALAĞALI bulur) sahip olduğu, ve bu kalabalık haremin 1595'te oğlu III. Mehmed'in on dokuz kardeşini tek gecede boğdurtmasına zemin hazırladığı — bu zincirin tamamı ayrı kartlarda zaten ayrıntılı işlenmiş durumda: kadın biyografileri için Nurbânû Sultan ve Safiye Sultan kartları, sebep-sonuç zinciri için on dokuz şehzadenin öldürülmesi kartı — ikincisi III. Mehmed'in 1603'te öz oğlu Şehzade Mahmud'u da öldürttüğünü bile içeriyor.",
   kesinlik:"kesin",
-  olay:["1574-12-22","1595-01-16"],
+  olay:["1574-12-22","1595-01-17"],
   zincir:["kimdir-nurbanu-sultan","kimdir-safiye-sultan","sebep-sonuc-1595-on-dokuz-sehzade"],
   kaynak:"TDV: murad-iii · TDV: safiye-sultan · TDV: nurbanu-sultan",
   ic_not:"🔴 MÜKERRER İŞ ÖNLENDİ (D097): H-0004'ün istediği içerik (Nurbânû'nun cariye sunması, 'yüz çocuk' rivayetinin mübalağa olduğu) data/ekokuma_kadin.js ve data/ekokuma_hanedan.js'te ZATEN VAR, ikisi de bu oturumun bağımsız TDV taramasıyla BİREBİR AYNI sonuca ulaşmıştı (49 çocuk, 'mübalağalı rivayet' ifadesi). Tekrar yazmak yerine kısa özet+zincir tercih edildi.",

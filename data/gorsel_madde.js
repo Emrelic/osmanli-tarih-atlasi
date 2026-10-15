@@ -273,7 +273,7 @@ window.GORSEL_MADDE = [
     id:      "1451-02-18-mehmed2-albumu",
     tur:     "albüm",
     kisi_id: "mehmed2",
-    olay:    ["1451-02-18", "1481-05"],
+    olay:    ["1451-02-18", "1481-05-03"],
     baslik:  "II. Mehmed (Fâtih) albümü — portre, minyatür, tuğra, cami",
     gorseller: [
       {

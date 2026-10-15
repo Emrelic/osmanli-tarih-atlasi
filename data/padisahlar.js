@@ -130,7 +130,7 @@ window.PADISAHLAR = [
     + "yeniden birleştirdi (1413); Bizans ve Balkan vasallarıyla barışı "
     + "sağladı, tımar-tahrir sistemini yeniden kurumsallaştırdı; Bursa'da "
     + "Yeşil Cami külliyesini, Edirne'de Eski Cami'yi tamamlattı.",
-    yergi:"Tahtı ele geçirme sürecinde kardeşi Îsâ Çelebi'yi yakalatıp öldürttü; yeğeni Orhan'ı kör ettirdi; eski kazasker ve önemli bir tasavvuf hareketinin öncüsü olan Şeyh Bedreddin'i idam ettirdi.", ic_not_yergi:"çıkarılan: — TDV bunu doğrudan kaydeder.",
+    yergi:"Tahtı ele geçirme sürecinde Neşrî'ye göre kardeşi Îsâ Çelebi'yi yakalayıp Eskişehir'de öldürdü (Zachariadou ise Îsâ'yı Süleyman Çelebi'nin öldürdüğünü yazar); yeğeni Orhan kör edilip zindanda tutuldu; eski kazasker ve önemli bir tasavvuf hareketinin öncüsü olan Şeyh Bedreddin'i idam ettirdi.", ic_not_yergi:"KUTU-P1-1015: TDV mehmed-i Îsâ'nın katlini Neşrî'ye dayandırır ve Zachariadou'nun itirazını da verir; Orhan'ın körlüğünü edilgen anlatır, failini söylemez. Eski metin 'öldürttü / kör ettirdi … TDV bunu doğrudan kaydeder' diyordu — yumuşatıldı. ‖ çıkarılan: — TDV bunu doğrudan kaydeder.",
     tartisma:"Şeyh Bedreddin isyanının niteliği tartışmalıdır: dinî-"
     + "toplumsal bir ihtilâl hareketi mi, yoksa taht rakipliği mi olduğu "
     + "tarihçiler arasında tartışılır. Ayrıca kardeşi Mustafa'nın gerçek "
@@ -416,7 +416,7 @@ window.PADISAHLAR = [
   { id: "murad3",      ad: "III. Murad",                   from: "1574-12", to: "1595-01",
     dogum:"1546-07-04",
     dogum_yer:"Bozdağ yaylağı (Manisa yakını)",
-    olum:"1595-01-16",
+    olum:"1595-01-17", ic_not_olum:"KUTU-P1-1015: eski 1595-01-16. TDV murad-iii (Bekir Kütükoğlu): '6 Cemâziyelevvel 1003 / 17 Ocak 1595'.",
     olum_yer:"İstanbul",
     olum_sebep:"soğuk algınlığı sonrası hastalık",
     baba:"II. Selim",
@@ -450,7 +450,7 @@ window.PADISAHLAR = [
     olum_sebep:"mide rahatsızlığı / kalp krizi (kaynaklar netleşmiyor)",
     baba:"III. Murad",
     anne:"Safiye Sultan (Arnavut asıllı)",
-    tahta:"1595-01-16",
+    tahta:"1595-01-27", ic_not_tahta:"KUTU-P1-1015: eski 1595-01-16 (babasının vefat günü sanılmıştı). TDV mehmed-iii: İstanbul'a ulaşıp 16 Cemâziyelevvel 1003 / 27 Ocak 1595 Cuma günü tahta çıktı (kronoloji olaylar_ek7 1595-01-27 maddesiyle aynı).",
     saltanat_yil:9,
     lakap:[], ic_not_lakap:"eski lakap: bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
     esler:["Handan Sultan (I. Ahmed'in annesi)","Halime Sultan (Şehzade "
@@ -941,9 +941,10 @@ window.PADISAHLAR = [
     + "Emine (dördüncü kadınefendi)"],
     cocuk:{oglan:"yok — TDV: 'çocuğu olmamış, böylece yaklaşık otuz yıl sarayda "
     + "doğum şenliği yapılamamıştı'"},
-    skandal:"Tahta çıkmadan önce kafeste geçirdiği 53 yıl, Osmanlı "
-    + "tarihinde bir şehzadenin tahta çıkmadan beklediği EN UZUN süre — "
-    + "58 yaşında tahta çıktı.",
+    skandal:"Tahta çıkmadan önce yaklaşık elli yıl Şimşirlik Dairesi'nde "
+    + "kaldı; TDV'ye göre Osmanlı tarihinde en uzun süre Şimşirlik'te kalan "
+    + "şehzadedir — elli beş yaşında tahta çıktı.",
+    ic_not_skandal:"KUTU-P1-1015: eski '53 yıl … 58 yaşında' TDV osman-iii'nin kendi sayılarıydı ama aynı maddenin verdiği doğum (3 Ocak 1699) ve cülûs (13 Aralık 1754) günleriyle hesap 55 yaş eder; Şimşirlik süresi 1703'ten sayılınca ~51 yıldır. TDV'nin iç çelişkisi yüzünden sayı yerine yaklaşık ifade yazıldı, yaş tarihlerden hesaplandı.",
     ovgu:"Nuruosmaniye Camii külliyesini tamamlatıp açtırdı (1755), "
     + "Üsküdar'da İhsaniye mahallesini kurdurdu, ilk Osmanlı-Danimarka "
     + "antlaşmasını imzaladı (1756).",
@@ -1091,9 +1092,9 @@ window.PADISAHLAR = [
     kaynak:"TDV: mustafa-iv" },
   { id: "mahmud2",     ad: "II. Mahmud",                   from: "1808-07", to: "1839-07",
     dogum:"1785-07-20",
-    olum:"1839-07-01",
+    olum:"1839-06-28", ic_not_olum:"KUTU-P1-1015: eski 1839-07-01 = cenazenin Topkapı'ya getirildiği ve Abdülmecid'in cülûs günü. TDV mahmud-ii--osmanli (Kemal Beydilli, Münch'e dayanarak): 28 Haziran'da vefat etti, ölüm 30 Haziran'a kadar gizlendi, 1 Temmuz'da cenaze Topkapı'ya getirildi.",
     olum_yer:"İstanbul",
-    olum_sebep:"kaynaklarda belirtilmez (yaygın anlatıya göre verem)", ic_not_olum_sebep:"eski: bulunamadı — TDV özeti sebep belirtmiyor (yaygın anlatı verem der, doğrulanmamış)",
+    olum_sebep:"teşhisi konulamamış hastalık; TDV son yıllarda aşırı içki kullanımının onu ölümcül sağlık sorunlarıyla karşı karşıya bıraktığını yazar", ic_not_olum_sebep:"KUTU-P1-1015: eski 'kaynaklarda belirtilmez (yaygın anlatıya göre verem)' — TDV'de verem geçmez; TDV hastalığa isabetli teşhis konulamadığını ve Avrupa'dan getirilen doktorların geç kaldığını yazar (Akyıldız'a atıfla). ‖ eski: bulunamadı — TDV özeti sebep belirtmiyor (yaygın anlatı verem der, doğrulanmamış)",
     baba:"I. Abdülhamid",
     anne:"Nakşidil Sultan",
     tahta:"1808-07-28",
@@ -1236,11 +1237,12 @@ window.PADISAHLAR = [
     + "verilip verilmediği tarihçiler arasında tartışmalıdır; 28 yıllık "
     + "sıkı göz hapsinin tıbbi bir zorunluluk mu yoksa II. Abdülhamid'in "
     + "siyasi güvenlik kaygısı mı olduğu da net değildir.",
-    tarihciler:"Klasik anlatı onu trajik 'deli sultan' olarak anar; modern "
-    + "değerlendirmeler bugünkü tıp diliyle akut stres bozukluğu ya da "
-    + "bipolar bir krize benzeyebilecek durumunun hiç tedavi şansı "
-    + "bulamadan kalıcı 'cünun' teşhisiyle mühürlendiğini ve bunun II. "
-    + "Abdülhamid'in iktidarını sağlamlaştırmasına yaradığını vurgular.",
+    tarihciler:"TDV'ye göre eskiden beri rahatsızlığı bilinen V. Murad'ın "
+    + "sinirleri art arda gelen olaylarla iyice bozulmuştu; bir doktorlar "
+    + "heyeti iyileşme ihtimalini çok az buldu, İngiliz elçisinin tavsiyesiyle "
+    + "muayene eden Viyanalı doktor Leidesdorf da olumsuz rapor verince hal'i "
+    + "gündeme geldi. Ardından yirmi sekiz yıl Çırağan'da mahpus yaşadı.",
+    ic_not_tarihciler:"KUTU-P1-1015: eski metin 'modern değerlendirmeler bugünkü tıp diliyle akut stres bozukluğu ya da bipolar krize benzeyebilecek durum … II. Abdülhamid'in iktidarını sağlamlaştırmasına yaradı' diyordu; TDV murad-v (Cevdet Küçük) böyle bir tıbbî yorum ve hüküm içermez, kaynağı gösterilmemişti — TDV'nin kendi anlatımıyla değiştirildi.",
     kaynak:"TDV: murad-v" },
   { id: "abdulhamid2", ad: "II. Abdülhamid",               from: "1876-08", to: "1909-04",
     dogum:"1842-09-21",

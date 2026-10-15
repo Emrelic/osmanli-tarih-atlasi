@@ -87,9 +87,9 @@ window.EKOKUMA_MAGAZIN = [
   "kisi": [
     "mehmed2"
   ],
-  "t": "1481-05",
+  "t": "1481-05-03",
   "olay": [
-    "1481-05"
+    "1481-05-03"
   ],
   "soru": "Fatih zehirlenerek mi öldü?",
   "baslik": "Fâtih'in ölümü: nikris mi, zehir mi?",
