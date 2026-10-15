@@ -180,6 +180,14 @@ window.OLAYLAR_SENKRON_0930 = [
   yer:"Varad (Oradea)", yer_id:"Varad (Oradea)", kisiler:"Varkocs Tamás, Patócsy Ferenc, İzabella, János Zsigmond",
   d:"İzabella ve János Zsigmond'un 1556'da Erdel'e dönüşünün ardından Szapolyai yanlıları 1556'da Nagyvárad'ı kuşattı. 1557'de Yukarı Tisza aristokratları en önemli kral kalelerini — Várad, Huszt ve Tokaj — ele geçirdi; Ferdinand'ın elinde yalnız Gyula ve Világos kaldı. Várad bundan sonra Erdel prensliğinin kalesi oldu ve 1660'ta Osmanlılar alana dek öyle kaldı.",
   kaynak:"MTA History of Transylvania (mek.oszk.hu/03400/03407/html/103.html): 'gained control of the most important royal fortresses, those at Várad, Huszt, and Tokaj' · 'Only Gyula and Világos managed to hold out' · Bánlaky (MEK 09477) 0013/1029 (1556 kuşatması)",
-  ic_not_d:"KUTU-B-1014 (0088/H-0043): Varad 1551-07-26 → 1557 macaristan-habsburg penceresinin kapanışı. Teslim günü akademik kaynakta okunamadı (ikincil: 13 Haziran 1557) — YIL." }
+  ic_not_d:"KUTU-B-1014 (0088/H-0043): Varad 1551-07-26 → 1557 macaristan-habsburg penceresinin kapanışı. Teslim günü akademik kaynakta okunamadı (ikincil: 13 Haziran 1557) — YIL." },
+
+{ t:"1298-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", taraflar:["memluk","kilikya-ermeni"], etiket:["savas","konu-askeri"],
+  b:"Maraş Memlüklere geçti — Halep nâibi Bilbân et-Tabahî Ermenilerden geri aldı",
+  gun:"697 (1298) — TDV yalnız yılı veriyor",
+  yer:"Maraş", yer_id:"Maraş", kisiler:"Bilbân et-Tabahî",
+  d:"1258'den beri Kilikya Ermeni Krallığı'nın elinde bulunan Maraş, 1293'te Sultan Halil'in Ermenilerle yaptığı antlaşmayla kısa bir süre Memlüklere geçmiş, onların çekilmesinden sonra yeniden Ermenilerin eline düşmüştü. 697'de (1298) Memlüklerin Halep nâibi Bilbân et-Tabahî şehri geri aldı. Maraş bundan sonra Dulkadırlıların yükselişine kadar Memlük toprağı olarak kaldı.",
+  kaynak:"kahramanmaras",
+  ic_not_d:"GECE-1016 (KARAR3-1016 Ek m.1, Emre kararı 16 Ekim 2026): haritada Maraş kilikya-ermeni 1281-01-01 → 1298-01-01, memluk 1298-01-01 → 1337-01-01. TDV kahramanmaras: '697’de (1298) Memlükler’in Halep nâibi Bilbân et-Tabahî tarafından geri alındı' — gün/ay YOK, 1298-01-01 yıl yer tutucusu. 1293 Memlük ara dilimi haritada AÇILMADI: çekilmenin yılı kaynakta yok. Aynı güne düşen kronoloji_memluk.js 'Lâçin tahriri' maddesi başka olaydır." },
 
 ];
