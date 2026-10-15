@@ -1,0 +1,7731 @@
+{
+ "meta": {
+  "ad": "ENKLAV-SINIF-1015",
+  "kaynak_tarama": "denetim/ENKLAV-TARAMA-1013.json (c kovası, 302 aday)",
+  "yazan": "KUTU-H7-1015",
+  "tarih": "2026-10-15",
+  "siniflar": {
+   "a": "gerçek tarihî enklav / denizaşırı parça",
+   "b": "veri hatası (kesin ya da şüphe — kaynakla elenmeli)",
+   "c": "nokta seyrekliği / motor / tarama sonrası kapanmış"
+  },
+  "yontem": "elle (kaynak okunarak) > beyanlı (enklav:true) > veri değişmiş > kural: dmin≤300 → c · sömürge sahibi ve gövde başka kıtada → a · koridorda ≤2 yabancı nokta → c · kalan → b (şüphe)",
+  "sayilar": {
+   "a": 73,
+   "b": 69,
+   "c": 160,
+   "Afrika/a": 11,
+   "Afrika/b": 11,
+   "Afrika/c": 14,
+   "Amerika/a": 14,
+   "Amerika/b": 13,
+   "Amerika/c": 39,
+   "Asya/a": 19,
+   "Asya/b": 40,
+   "Asya/c": 94,
+   "Avrupa/a": 28,
+   "Avrupa/b": 5,
+   "Avrupa/c": 13,
+   "Okyanusya/a": 1
+  }
+ },
+ "adaylar": [
+  {
+   "no": 0,
+   "kita": "Afrika",
+   "sahip": "antandroy",
+   "noktalar": [
+    "Ambovombe (Antandroy)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "İhosy (Bara)",
+   "dmin_km": 308,
+   "koridor": {
+    "fransa": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (fransa), ana gövdeye 308 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 1,
+   "kita": "Afrika",
+   "sahip": "bambara",
+   "noktalar": [
+    "Mopti"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15"
+   ],
+   "ana": "Nioro (Kaarta)",
+   "dmin_km": 586,
+   "koridor": {
+    "fas": 1,
+    "moritanya-emirlikleri": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (fas, moritanya-emirlikleri), ana gövdeye 586 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 2,
+   "kita": "Afrika",
+   "sahip": "fransa-cumhuriyet",
+   "noktalar": [
+    "Akbû (Benî Abbâs)",
+    "Annaba",
+    "Ayn Temûşent",
+    "Aynı Beydâ",
+    "Ağvât",
+    "Batna",
+    "Berc Bû Areric",
+    "Bicâye",
+    "Biskra",
+    "Blida",
+    "Bû Sa'âde",
+    "Cezayir",
+    "Cicel",
+    "Cilfe (Djelfa)",
+    "Dellîs",
+    "Gardâye",
+    "Hanşele (Khenchela)",
+    "Kalme (Guelma)",
+    "Kolo",
+    "Konstantin",
+    "Medea (Titteri)",
+    "Mersa'l-Kebîr",
+    "Mesîle",
+    "Miliana",
+    "Muaskar",
+    "Mustagānim",
+    "Mîle",
+    "Nedrûme",
+    "Oran",
+    "Setif",
+    "Sikikde",
+    "Sîdî Bel Abbès",
+    "Sûk Ahrâs",
+    "Tebesse",
+    "Tenes",
+    "Tilimsan",
+    "Tuggurt",
+    "Tâhert (Tiaret)",
+    "Tîzî Vezzû (Kabiliye)",
+    "Vargla (Ouargla)",
+    "el-Vâdî (Sûf)",
+    "Şelif",
+    "Şerşel (Cherchell)"
+   ],
+   "gunler": [
+    "1878-07-13"
+   ],
+   "ana": "Ayacyo (Ajaccio)",
+   "dmin_km": 566,
+   "koridor": {
+    "italya": 3,
+    "ispanya": 1,
+    "OSMANLI": 4
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 3,
+   "kita": "Afrika",
+   "sahip": "fransa-cumhuriyet",
+   "noktalar": [
+    "Fachi"
+   ],
+   "gunler": [
+    "1900-06-15"
+   ],
+   "ana": "Madaoua",
+   "dmin_km": 747,
+   "koridor": {
+    "agadez-sultanligi": 1,
+    "sokoto": 1,
+    "kanem-bornu": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: fransa-cumhuriyet gövdesi başka kıtada/kıyıda; ana gövdeye 747 km, arada agadez-sultanligi, kanem-bornu, sokoto",
+   "yol": "kural"
+  },
+  {
+   "no": 4,
+   "kita": "Afrika",
+   "sahip": "fransa-cumhuriyet",
+   "noktalar": [
+    "Goure"
+   ],
+   "gunler": [
+    "1900-06-15"
+   ],
+   "ana": "Madaoua",
+   "dmin_km": 465,
+   "koridor": {
+    "agadez-sultanligi": 1,
+    "sokoto": 3,
+    "kanem-bornu": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: fransa-cumhuriyet gövdesi başka kıtada/kıyıda; ana gövdeye 465 km, arada agadez-sultanligi, kanem-bornu, sokoto",
+   "yol": "kural"
+  },
+  {
+   "no": 5,
+   "kita": "Afrika",
+   "sahip": "fransa-cumhuriyet",
+   "noktalar": [
+    "Mao (Kanem)",
+    "Massenya",
+    "Ndjamena",
+    "Nguigmi"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Madaoua",
+   "dmin_km": 771,
+   "koridor": {
+    "agadez-sultanligi": 1,
+    "ingiltere": 6
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: fransa-cumhuriyet gövdesi başka kıtada/kıyıda; ana gövdeye 771 km, arada agadez-sultanligi, ingiltere",
+   "yol": "kural"
+  },
+  {
+   "no": 6,
+   "kita": "Afrika",
+   "sahip": "fransa-cumhuriyet",
+   "noktalar": [
+    "Bilma",
+    "Fachi"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Madaoua",
+   "dmin_km": 747,
+   "koridor": {
+    "agadez-sultanligi": 1,
+    "ingiltere": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: fransa-cumhuriyet gövdesi başka kıtada/kıyıda; ana gövdeye 747 km, arada agadez-sultanligi, ingiltere",
+   "yol": "kural"
+  },
+  {
+   "no": 7,
+   "kita": "Afrika",
+   "sahip": "fransa-cumhuriyet",
+   "noktalar": [
+    "Goure",
+    "Zinder"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Madaoua",
+   "dmin_km": 328,
+   "koridor": {
+    "ingiltere": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: fransa-cumhuriyet gövdesi başka kıtada/kıyıda; ana gövdeye 328 km, arada ingiltere",
+   "yol": "kural"
+  },
+  {
+   "no": 8,
+   "kita": "Afrika",
+   "sahip": "fransa-cumhuriyet",
+   "noktalar": [
+    "Abomey",
+    "Notse"
+   ],
+   "gunler": [
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Buna (Bouna)",
+   "dmin_km": 527,
+   "koridor": {
+    "ingiltere": 9
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: fransa-cumhuriyet gövdesi başka kıtada/kıyıda; ana gövdeye 527 km, arada ingiltere",
+   "yol": "kural"
+  },
+  {
+   "no": 9,
+   "kita": "Afrika",
+   "sahip": "ingiliz-sudani",
+   "noktalar": [
+    "Darfur"
+   ],
+   "gunler": [
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Ğubeyş",
+   "dmin_km": 396,
+   "koridor": {
+    "ingiltere": 10
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-sudani gövdesi başka kıtada/kıyıda; ana gövdeye 396 km, arada ingiltere",
+   "yol": "kural"
+  },
+  {
+   "no": 10,
+   "kita": "Afrika",
+   "sahip": "ingiltere",
+   "noktalar": [
+    "Binga",
+    "Hvange",
+    "Kabompo",
+    "Kalabo",
+    "Kaoma (Mankoya)",
+    "Kasempa",
+    "Lealui (Lozi)",
+    "Livingstone",
+    "Mumbva",
+    "Senanga",
+    "Seşeke (Sesheke)",
+    "Solwezi",
+    "Zambezi (Balovale)"
+   ],
+   "gunler": [
+    "1914-07-28"
+   ],
+   "ana": "Maun (Tavana)",
+   "dmin_km": 294,
+   "koridor": {
+    "almanya": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 294 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 11,
+   "kita": "Afrika",
+   "sahip": "ingiltere",
+   "noktalar": [
+    "Rundu"
+   ],
+   "gunler": [
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Grutfontein",
+   "dmin_km": 253,
+   "koridor": {
+    "portekiz": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 253 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 12,
+   "kita": "Afrika",
+   "sahip": "italya",
+   "noktalar": [
+    "Ayn el-Ğazâle (Bomba)",
+    "Benî Velîd",
+    "Beyzâ (Kirene)",
+    "Bingazi",
+    "Câlû",
+    "Derc (Derj)",
+    "Derne",
+    "Ecdâbiye",
+    "Garyân",
+    "Hums (Lebde)",
+    "Kabâv (Nefûse)",
+    "Merc",
+    "Merâde",
+    "Misrata",
+    "Mızde",
+    "Nâlût",
+    "Nûfiliye",
+    "Sinâvin",
+    "Sirte",
+    "Sokna",
+    "Terhûne",
+    "Tobruk",
+    "Trablus",
+    "Tulmeyse",
+    "Tâverğa",
+    "Vaddân (Cufre)",
+    "Yefren",
+    "Zilla (Zella)",
+    "Zilten",
+    "Zuvâre",
+    "Zâviye",
+    "Ğadâmis"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Pantelerya",
+   "dmin_km": 429,
+   "koridor": {
+    "OSMANLI": 19,
+    "ingiltere": 1
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 13,
+   "kita": "Afrika",
+   "sahip": "jukun-kvararafa",
+   "noktalar": [
+    "Lokoca (Lokoja)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "Vukari (Wukari)",
+   "dmin_km": 335,
+   "koridor": {
+    "birom-plato": 1,
+    "tiv": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (birom-plato, tiv), ana gövdeye 335 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 14,
+   "kita": "Afrika",
+   "sahip": "kanem-bornu",
+   "noktalar": [
+    "Bilma"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15"
+   ],
+   "ana": "Zinder",
+   "dmin_km": 686,
+   "koridor": {
+    "agadez-sultanligi": 1,
+    "tuareg-air": 3,
+    "kanem-tubu": 1,
+    "damagaram": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 686 km, koridorda 6 başka sahipli nokta (tuareg-air:3, agadez-sultanligi:1, kanem-tubu:1, damagaram:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 15,
+   "kita": "Afrika",
+   "sahip": "kanem-tubu",
+   "noktalar": [
+    "Nguigmi"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15"
+   ],
+   "ana": "Faya-Largeau",
+   "dmin_km": 759,
+   "koridor": {
+    "kanem-bornu": 2,
+    "bagirmi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 759 km, koridorda 3 başka sahipli nokta (kanem-bornu:2, bagirmi:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 16,
+   "kita": "Afrika",
+   "sahip": "kanem-tubu",
+   "noktalar": [
+    "Ati"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15"
+   ],
+   "ana": "Faya-Largeau",
+   "dmin_km": 529,
+   "koridor": {
+    "vaday": 4
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 529 km, koridorda 4 başka sahipli nokta (vaday:4); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 17,
+   "kita": "Afrika",
+   "sahip": "merina",
+   "noktalar": [
+    "Fianarantsoa"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Antananarivo",
+   "dmin_km": 283,
+   "koridor": {
+    "fransa-cumhuriyet": 1,
+    "antemoro": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 283 km (≤300); arada kendi noktası yok, koridordaki 2 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 18,
+   "kita": "Afrika",
+   "sahip": "nama-orlam",
+   "noktalar": [
+    "Bethanie"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15"
+   ],
+   "ana": "Rehoboth",
+   "dmin_km": 353,
+   "koridor": {
+    "almanya": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (almanya), ana gövdeye 353 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 19,
+   "kita": "Afrika",
+   "sahip": "nama-orlam",
+   "noktalar": [
+    "Varmbad (Warmbad)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15"
+   ],
+   "ana": "Rehoboth",
+   "dmin_km": 594,
+   "koridor": {
+    "ingiltere": 1,
+    "almanya": 4
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 594 km, koridorda 5 başka sahipli nokta (almanya:4, ingiltere:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 20,
+   "kita": "Afrika",
+   "sahip": "ovimbundu",
+   "noktalar": [
+    "Malanje"
+   ],
+   "gunler": [
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15"
+   ],
+   "ana": "Luena (Moxico)",
+   "dmin_km": 464,
+   "koridor": {
+    "kasance": 1,
+    "lunda-imparatorlugu": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (kasance, lunda-imparatorlugu), ana gövdeye 464 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 21,
+   "kita": "Afrika",
+   "sahip": "ovimbundu",
+   "noktalar": [
+    "Lubango"
+   ],
+   "gunler": [
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15"
+   ],
+   "ana": "Menongue",
+   "dmin_km": 452,
+   "koridor": {
+    "portekiz": 1,
+    "ovambo": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 452 km, koridorda 3 başka sahipli nokta (ovambo:2, portekiz:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 22,
+   "kita": "Afrika",
+   "sahip": "ovimbundu",
+   "noktalar": [
+    "Kuangar"
+   ],
+   "gunler": [
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15"
+   ],
+   "ana": "Mavinga",
+   "dmin_km": 269,
+   "koridor": {
+    "almanya": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 269 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 23,
+   "kita": "Afrika",
+   "sahip": "portekiz",
+   "noktalar": [
+    "Kuangar"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Mavinga",
+   "dmin_km": 269,
+   "koridor": {
+    "almanya": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 269 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 24,
+   "kita": "Afrika",
+   "sahip": "sakalava-menabe",
+   "noktalar": [
+    "Mahabo (Menabe)"
+   ],
+   "gunler": [
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "Maintirano",
+   "dmin_km": 267,
+   "koridor": {
+    "merina-oncesi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 267 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 25,
+   "kita": "Afrika",
+   "sahip": "sakalava-menabe",
+   "noktalar": [
+    "Toliara (Tuléar)"
+   ],
+   "gunler": [
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "Maintirano",
+   "dmin_km": 589,
+   "koridor": {
+    "merina": 3,
+    "fransa-cumhuriyet": 1,
+    "antemoro": 1,
+    "antandroy": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 589 km, koridorda 6 başka sahipli nokta (merina:3, fransa-cumhuriyet:1, antemoro:1, antandroy:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 26,
+   "kita": "Afrika",
+   "sahip": "sokoto",
+   "noktalar": [
+    "İlorin"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Zaria (Zazzau)",
+   "dmin_km": 451,
+   "koridor": {
+    "borgu": 1,
+    "jukun-kvararafa": 1,
+    "tiv": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 451 km, koridorda 3 başka sahipli nokta (borgu:1, jukun-kvararafa:1, tiv:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 27,
+   "kita": "Afrika",
+   "sahip": "somali",
+   "noktalar": [
+    "Kısmâyû"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Ceel Dheere",
+   "dmin_km": 694,
+   "koridor": {
+    "italya": 16,
+    "habesistan": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 694 km, koridorda 18 başka sahipli nokta (italya:16, habesistan:2); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 28,
+   "kita": "Afrika",
+   "sahip": "somali",
+   "noktalar": [
+    "Ceel Vaak"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Ceel Buur",
+   "dmin_km": 642,
+   "koridor": {
+    "italya": 16,
+    "habesistan": 5
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 642 km, koridorda 21 başka sahipli nokta (italya:16, habesistan:5); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 29,
+   "kita": "Afrika",
+   "sahip": "svahili-sehirleri",
+   "noktalar": [
+    "Lindi",
+    "Mikindani"
+   ],
+   "gunler": [
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12"
+   ],
+   "ana": "Bagamoyo",
+   "dmin_km": 406,
+   "koridor": {
+    "portekiz": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (portekiz), ana gövdeye 406 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 30,
+   "kita": "Afrika",
+   "sahip": "tekrur",
+   "noktalar": [
+    "Dingiray (Dinguiraye)"
+   ],
+   "gunler": [
+    "1878-07-13"
+   ],
+   "ana": "Cenne (Djenné)",
+   "dmin_km": 729,
+   "koridor": {
+    "moritanya-emirlikleri": 1,
+    "fransa-cumhuriyet": 3,
+    "kenedugu": 1,
+    "mossi-vagadugu": 1,
+    "bate": 1,
+    "vasulu": 3,
+    "kong-vattara": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 729 km, koridorda 11 başka sahipli nokta (fransa-cumhuriyet:3, vasulu:3, moritanya-emirlikleri:1, kenedugu:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 31,
+   "kita": "Afrika",
+   "sahip": "tuareg-air",
+   "noktalar": [
+    "Fachi"
+   ],
+   "gunler": [
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "Arlit",
+   "dmin_km": 445,
+   "koridor": {
+    "agadez-sultanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (agadez-sultanligi), ana gövdeye 445 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 32,
+   "kita": "Afrika",
+   "sahip": "umman-zengibar",
+   "noktalar": [
+    "Tabora (Kazeh)"
+   ],
+   "gunler": [
+    "1878-07-13"
+   ],
+   "ana": "Pangani",
+   "dmin_km": 686,
+   "koridor": {
+    "nyamvezi": 3,
+    "hehe": 1,
+    "ngoni": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 686 km, koridorda 5 başka sahipli nokta (nyamvezi:3, hehe:1, ngoni:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 33,
+   "kita": "Afrika",
+   "sahip": "umman-zengibar",
+   "noktalar": [
+    "Kilwa Kisiwani (Kilve)"
+   ],
+   "gunler": [
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Bagamoyo",
+   "dmin_km": 289,
+   "koridor": {
+    "almanya": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 289 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 34,
+   "kita": "Afrika",
+   "sahip": "venedik",
+   "noktalar": [
+    "Baf (Paphos)",
+    "Girne (Kyrenia)",
+    "Lefkoşa",
+    "Limasol",
+    "Magosa",
+    "Tuzla (Larnaka)"
+   ],
+   "gunler": [
+    "1500-06-15",
+    "1526-09-01"
+   ],
+   "ana": "Karpatos",
+   "dmin_km": 481,
+   "koridor": {
+    "OSMANLI": 18,
+    "sovalye": 4
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 35,
+   "kita": "Afrika",
+   "sahip": "venedik",
+   "noktalar": [
+    "Girit (Resmo)",
+    "Hanya",
+    "Kandiye (Girit)",
+    "Sitiye (Sitia)",
+    "Çuha Adası (Kythira)",
+    "İsfakiye (Sfakia)",
+    "İstendil (Tinos)"
+   ],
+   "gunler": [
+    "1600-06-15"
+   ],
+   "ana": "Kotor (Cattaro)",
+   "dmin_km": 767,
+   "koridor": {
+    "napoli": 4,
+    "OSMANLI": 171
+   },
+   "durum_1015": "kismen-beyanli",
+   "sinif": "a",
+   "gerekce": "Venedik Girit 1600 — G5 beyanları (TDV girit); İstendil (Tinos) kaynak bekliyor",
+   "yol": "elle"
+  },
+  {
+   "no": 36,
+   "kita": "Amerika",
+   "sahip": "abd",
+   "noktalar": [
+    "Natchez (Grand Village)"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "French Lick (Nashville)",
+   "dmin_km": 667,
+   "koridor": {
+    "creek-konfederasyonu": 1,
+    "choctaw": 1,
+    "ispanya": 1,
+    "cikasav": 1,
+    "yeni-ispanya": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 667 km, koridorda 5 başka sahipli nokta (creek-konfederasyonu:1, choctaw:1, ispanya:1, cikasav:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 37,
+   "kita": "Amerika",
+   "sahip": "abd",
+   "noktalar": [
+    "Chequamegon (La Pointe)",
+    "Duluth (Fond du Lac)",
+    "Grand Portage"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Kekionga (Miami)",
+   "dmin_km": 778,
+   "koridor": {
+    "ingiliz-kuzey-amerika": 2,
+    "ojibwe": 2,
+    "sauk": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 778 km, koridorda 5 başka sahipli nokta (ingiliz-kuzey-amerika:2, ojibwe:2, sauk:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 38,
+   "kita": "Amerika",
+   "sahip": "abd",
+   "noktalar": [
+    "Michilimackinac"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Detroit (Fort Pontchartrain du Détroit)",
+   "dmin_km": 414,
+   "koridor": {
+    "ingiliz-kuzey-amerika": 2,
+    "ojibwe": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "Michilimackinac 1800: ABD'nin Büyük Göller'deki kale-karakolu (1796 Jay Antlaşması teslimi), gövdeden kopuk ileri karakol; kaynak beyanı yazılmadı",
+   "yol": "elle"
+  },
+  {
+   "no": 39,
+   "kita": "Amerika",
+   "sahip": "abd",
+   "noktalar": [
+    "La Baye (Green Bay)"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Kekionga (Miami)",
+   "dmin_km": 448,
+   "koridor": {
+    "ojibwe": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (ojibwe), ana gövdeye 448 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 40,
+   "kita": "Amerika",
+   "sahip": "abd",
+   "noktalar": [
+    "Prairie du Chien"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Kekionga (Miami)",
+   "dmin_km": 542,
+   "koridor": {
+    "sauk": 1,
+    "yeni-ispanya": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (sauk, yeni-ispanya), ana gövdeye 542 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 41,
+   "kita": "Amerika",
+   "sahip": "abd",
+   "noktalar": [
+    "Moundville"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Etowah",
+   "dmin_km": 290,
+   "koridor": {
+    "creek-konfederasyonu": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 290 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 42,
+   "kita": "Amerika",
+   "sahip": "abd",
+   "noktalar": [
+    "Mound Key (Kalusa başkenti)"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Savannah",
+   "dmin_km": 633,
+   "koridor": {
+    "ispanya": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (ispanya), ana gövdeye 633 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 43,
+   "kita": "Amerika",
+   "sahip": "abd",
+   "noktalar": [
+    "Fort Pierre (Arikara/Lakota)"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Prairie du Chien",
+   "dmin_km": 756,
+   "koridor": {
+    "ingiliz-kuzey-amerika": 1,
+    "pavni": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (ingiliz-kuzey-amerika, pavni), ana gövdeye 756 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 44,
+   "kita": "Amerika",
+   "sahip": "abd",
+   "noktalar": [
+    "Bent's Fort"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Westport (Kansas City)",
+   "dmin_km": 778,
+   "koridor": {
+    "pavni": 1,
+    "wicita": 2,
+    "ponka": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 778 km, koridorda 4 başka sahipli nokta (wicita:2, pavni:1, ponka:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 45,
+   "kita": "Amerika",
+   "sahip": "abd",
+   "noktalar": [
+    "Fort Worth (Üç Boynuz Kavşağı)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Spiro",
+   "dmin_km": 381,
+   "koridor": {
+    "wicita": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (wicita), ana gövdeye 381 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 46,
+   "kita": "Amerika",
+   "sahip": "abd",
+   "noktalar": [
+    "Crow Agency (Apsáalooke)",
+    "Fort Union Trading Post",
+    "Knife River (Hidatsa köyleri)",
+    "Miles City (Tongue Irmağı)",
+    "On-A-Slant (Mandan köyü)"
+   ],
+   "gunler": [
+    "1878-07-13"
+   ],
+   "ana": "Fort Snelling (Bdote)",
+   "dmin_km": 630,
+   "koridor": {
+    "kanada": 1,
+    "lakota": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (kanada, lakota), ana gövdeye 630 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 47,
+   "kita": "Amerika",
+   "sahip": "abd",
+   "noktalar": [
+    "Camagüey bölgesi (Taino)"
+   ],
+   "gunler": [
+    "1900-06-15"
+   ],
+   "ana": "Mound Key (Kalusa başkenti)",
+   "dmin_km": 689,
+   "koridor": {
+    "meksika": 2,
+    "ingiltere": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: Camagüey bölgesi 1900 'abd' — Küba'daki ABD askerî yönetimi (1899-1902) Havana'yı kapsamıyorsa tutarsız",
+   "yol": "elle"
+  },
+  {
+   "no": 48,
+   "kita": "Amerika",
+   "sahip": "abenaki",
+   "noktalar": [
+    "Norridgewock (Abenaki)"
+   ],
+   "gunler": [
+    "1700-06-15"
+   ],
+   "ana": "Odanak (Abenaki)",
+   "dmin_km": 281,
+   "koridor": {
+    "fransa": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 281 km (≤300); arada kendi noktası yok, koridordaki 2 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 49,
+   "kita": "Amerika",
+   "sahip": "arjantin-cumhuriyeti",
+   "noktalar": [
+    "Corrientes",
+    "Esquina",
+    "Lacangayé",
+    "San Fernando (Resistencia)",
+    "San Jerónimo (Reconquista)",
+    "Santa Fe (Arjantin)",
+    "Villaguay"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Buenos Aires",
+   "dmin_km": 310,
+   "koridor": {
+    "uruguay-cumhuriyeti": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (uruguay-cumhuriyeti), ana gövdeye 310 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 50,
+   "kita": "Amerika",
+   "sahip": "arjantin-cumhuriyeti",
+   "noktalar": [
+    "Buenos Aires",
+    "Junín (Fuerte Federación)",
+    "Nuestra Señora del Pilar (Mar del Plata)",
+    "Reducción de la Concepción (Salado)",
+    "Tandil"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "La Rioja (Arjantin)",
+   "dmin_km": 800,
+   "koridor": {
+    "mapuche-araukanya": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (mapuche-araukanya), ana gövdeye 800 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 51,
+   "kita": "Amerika",
+   "sahip": "arjantin-cumhuriyeti",
+   "noktalar": [
+    "Beyan G54.5 B67.5",
+    "Ushuaia"
+   ],
+   "gunler": [
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Puerto Deseado",
+   "dmin_km": 760,
+   "koridor": {
+    "sili-cumhuriyeti": 5,
+    "ingiltere": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "Ushuaia — Tierra del Fuego'nun Arjantin kısmı, Macellan boğazının güneyinde; Şili Patagonyası ile ayrılmış gerçek parça (1881 sınır antlaşması); kaynak beyanı yazılmadı",
+   "yol": "elle"
+  },
+  {
+   "no": 52,
+   "kita": "Amerika",
+   "sahip": "bolivya-cumhuriyeti",
+   "noktalar": [
+    "San Pedro de Atacama"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Cotagaita (Santiago de Cotagaita)",
+   "dmin_km": 351,
+   "koridor": {
+    "arjantin-cumhuriyeti": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (arjantin-cumhuriyeti), ana gövdeye 351 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 53,
+   "kita": "Amerika",
+   "sahip": "bolivya-cumhuriyeti",
+   "noktalar": [
+    "San Pedro de Atacama",
+    "Tocopilla"
+   ],
+   "gunler": [
+    "1878-07-13"
+   ],
+   "ana": "Cotagaita (Santiago de Cotagaita)",
+   "dmin_km": 351,
+   "koridor": {
+    "arjantin-cumhuriyeti": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (arjantin-cumhuriyeti), ana gövdeye 351 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 54,
+   "kita": "Amerika",
+   "sahip": "bolivya-cumhuriyeti",
+   "noktalar": [
+    "Riberalta"
+   ],
+   "gunler": [
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Santa Ana del Yacuma",
+   "dmin_km": 311,
+   "koridor": {
+    "brezilya-cumhuriyeti": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (brezilya-cumhuriyeti), ana gövdeye 311 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 55,
+   "kita": "Amerika",
+   "sahip": "bolivya-cumhuriyeti",
+   "noktalar": [
+    "Fortín Muñoz (General Díaz)"
+   ],
+   "gunler": [
+    "1923-10-28"
+   ],
+   "ana": "San Ignacio de Zamucos",
+   "dmin_km": 457,
+   "koridor": {
+    "paraguay-cumhuriyeti": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (paraguay-cumhuriyeti), ana gövdeye 457 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 56,
+   "kita": "Amerika",
+   "sahip": "dene",
+   "noktalar": [
+    "Old Crow (Vuntut Gwitchin)",
+    "Vashrąįį K'ǫǫ (Arctic Village)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15"
+   ],
+   "ana": "Alatna / Allakaket",
+   "dmin_km": 351,
+   "koridor": {
+    "inuit": 1,
+    "ingiliz-kuzey-amerika": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (ingiliz-kuzey-amerika, inuit), ana gövdeye 351 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 57,
+   "kita": "Amerika",
+   "sahip": "dene",
+   "noktalar": [
+    "Tetlit Gwich'in (Peel havzası)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "Nuchalawoya (Tanana)",
+   "dmin_km": 791,
+   "koridor": {
+    "inuit": 2,
+    "ingiliz-kuzey-amerika": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 791 km, koridorda 4 başka sahipli nokta (inuit:2, ingiliz-kuzey-amerika:2); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 58,
+   "kita": "Amerika",
+   "sahip": "dene",
+   "noktalar": [
+    "Batzulnetas (Ahtna)",
+    "Nabesna / Northway (Yukarı Tanana)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15"
+   ],
+   "ana": "Telida / Denali eteği (Atabask)",
+   "dmin_km": 484,
+   "koridor": {
+    "rusya": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (rusya), ana gövdeye 484 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 59,
+   "kita": "Amerika",
+   "sahip": "dene",
+   "noktalar": [
+    "Iliamna / Nondalton (Dena'ina)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15"
+   ],
+   "ana": "Nikolai (Yukarı Kuskokwim)",
+   "dmin_km": 339,
+   "koridor": {
+    "rusya": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (rusya), ana gövdeye 339 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 60,
+   "kita": "Amerika",
+   "sahip": "ekvador-cumhuriyeti",
+   "noktalar": [
+    "San José de los Nuevos Icaguates",
+    "San Miguel (Aushiri)"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Canelos (Bobonaza)",
+   "dmin_km": 286,
+   "koridor": {
+    "peru-cumhuriyeti": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 286 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 61,
+   "kita": "Amerika",
+   "sahip": "haudenosaunee",
+   "noktalar": [
+    "Kahnawake"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21"
+   ],
+   "ana": "Mohawk (Kayenlaha'ke)",
+   "dmin_km": 278,
+   "koridor": {
+    "fransa": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 278 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 62,
+   "kita": "Amerika",
+   "sahip": "ingiliz-kuzey-amerika",
+   "noktalar": [
+    "Fort Albany",
+    "Mistassini (Lac Mistassini)",
+    "Moose Factory",
+    "Nemiscau",
+    "Waskaganish (Rupert House)"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Chicoutimi",
+   "dmin_km": 300,
+   "koridor": {
+    "kri": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 300 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 63,
+   "kita": "Amerika",
+   "sahip": "ingiliz-kuzey-amerika",
+   "noktalar": [
+    "Abitibi House",
+    "Fort Témiscamingue"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Montreal (Ville-Marie)",
+   "dmin_km": 492,
+   "koridor": {
+    "kri": 1,
+    "haudenosaunee": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-kuzey-amerika gövdesi başka kıtada/kıyıda; ana gövdeye 492 km, arada haudenosaunee, kri",
+   "yol": "kural"
+  },
+  {
+   "no": 64,
+   "kita": "Amerika",
+   "sahip": "ingiliz-kuzey-amerika",
+   "noktalar": [
+    "Fort Frontenac (Kingston)",
+    "Ossossané",
+    "Sainte-Marie-au-pays-des-Hurons",
+    "York (Toronto)"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15"
+   ],
+   "ana": "Montreal (Ville-Marie)",
+   "dmin_km": 269,
+   "koridor": {
+    "haudenosaunee": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 269 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 65,
+   "kita": "Amerika",
+   "sahip": "ingiliz-kuzey-amerika",
+   "noktalar": [
+    "Abitibi House",
+    "Fort Albany",
+    "Fort Témiscamingue",
+    "Mattagami House",
+    "Mistassini (Lac Mistassini)",
+    "Moose Factory",
+    "Nemiscau",
+    "Waskaganish (Rupert House)",
+    "Waswanipi"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Chicoutimi",
+   "dmin_km": 300,
+   "koridor": {
+    "kri": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 300 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 66,
+   "kita": "Amerika",
+   "sahip": "ingiliz-kuzey-amerika",
+   "noktalar": [
+    "Dease Lake"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Fort Dunvegan",
+   "dmin_km": 741,
+   "koridor": {
+    "dene": 1,
+    "nuxalk": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-kuzey-amerika gövdesi başka kıtada/kıyıda; ana gövdeye 741 km, arada dene, nuxalk",
+   "yol": "kural"
+  },
+  {
+   "no": 67,
+   "kita": "Amerika",
+   "sahip": "ingiliz-kuzey-amerika",
+   "noktalar": [
+    "Lax Kw'alaams (Fort Simpson BC)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Fort Dunvegan",
+   "dmin_km": 764,
+   "koridor": {
+    "dene": 2,
+    "nuxalk": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-kuzey-amerika gövdesi başka kıtada/kıyıda; ana gövdeye 764 km, arada dene, nuxalk",
+   "yol": "kural"
+  },
+  {
+   "no": 68,
+   "kita": "Amerika",
+   "sahip": "ingiliz-kuzey-amerika",
+   "noktalar": [
+    "Big Trout Lake (Kitchenuhmaykoosib)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Oxford House",
+   "dmin_km": 371,
+   "koridor": {
+    "kri": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-kuzey-amerika gövdesi başka kıtada/kıyıda; ana gövdeye 371 km, arada kri",
+   "yol": "kural"
+  },
+  {
+   "no": 69,
+   "kita": "Amerika",
+   "sahip": "ingiliz-kuzey-amerika",
+   "noktalar": [
+    "Bella Bella (Fort McLoughlin)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Jasper House",
+   "dmin_km": 697,
+   "koridor": {
+    "dene": 2,
+    "nuxalk": 1,
+    "secwepemc": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-kuzey-amerika gövdesi başka kıtada/kıyıda; ana gövdeye 697 km, arada dene, nuxalk, secwepemc",
+   "yol": "kural"
+  },
+  {
+   "no": 70,
+   "kita": "Amerika",
+   "sahip": "ingiliz-kuzey-amerika",
+   "noktalar": [
+    "Fort Kamloops",
+    "Fort Langley",
+    "Victoria (Fort Victoria)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Jasper House",
+   "dmin_km": 323,
+   "koridor": {
+    "secwepemc": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-kuzey-amerika gövdesi başka kıtada/kıyıda; ana gövdeye 323 km, arada secwepemc",
+   "yol": "kural"
+  },
+  {
+   "no": 71,
+   "kita": "Amerika",
+   "sahip": "ingiliz-kuzey-amerika",
+   "noktalar": [
+    "Fort Nipigon",
+    "Fort William (Thunder Bay)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Fort Alexander (Bas-de-la-Rivière)",
+   "dmin_km": 565,
+   "koridor": {
+    "abd": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-kuzey-amerika gövdesi başka kıtada/kıyıda; ana gövdeye 565 km, arada abd",
+   "yol": "kural"
+  },
+  {
+   "no": 72,
+   "kita": "Amerika",
+   "sahip": "inuit",
+   "noktalar": [
+    "Kangiva (Nain iç bölgesi)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "Kangirsuk (Payne Irmağı)",
+   "dmin_km": 468,
+   "koridor": {
+    "ingiliz-kuzey-amerika": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (ingiliz-kuzey-amerika), ana gövdeye 468 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 73,
+   "kita": "Amerika",
+   "sahip": "ispanyol-peru",
+   "noktalar": [
+    "San Carlos de Río Negro"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15"
+   ],
+   "ana": "San Martín (Meta)",
+   "dmin_km": 763,
+   "koridor": {
+    "portekiz-brezilyasi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ispanyol-peru gövdesi başka kıtada/kıyıda; ana gövdeye 763 km, arada portekiz-brezilyasi",
+   "yol": "kural"
+  },
+  {
+   "no": 74,
+   "kita": "Amerika",
+   "sahip": "kanada",
+   "noktalar": [
+    "Michipicoten",
+    "Sault Ste. Marie"
+   ],
+   "gunler": [
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Big Trout Lake (Kitchenuhmaykoosib)",
+   "dmin_km": 741,
+   "koridor": {
+    "abd": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (abd), ana gövdeye 741 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 75,
+   "kita": "Amerika",
+   "sahip": "kolombiya-cumhuriyeti",
+   "noktalar": [
+    "Arauca"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Hunza (Tunja)",
+   "dmin_km": 336,
+   "koridor": {
+    "venezuela-cumhuriyeti": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (venezuela-cumhuriyeti), ana gövdeye 336 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 76,
+   "kita": "Amerika",
+   "sahip": "kolombiya-cumhuriyeti",
+   "noktalar": [
+    "Puerto Carreño"
+   ],
+   "gunler": [
+    "1923-10-28"
+   ],
+   "ana": "Orocué",
+   "dmin_km": 454,
+   "koridor": {
+    "venezuela-cumhuriyeti": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (venezuela-cumhuriyeti), ana gövdeye 454 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 77,
+   "kita": "Amerika",
+   "sahip": "kri",
+   "noktalar": [
+    "Sandy Lake (Kuzeybatı Ontario)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15"
+   ],
+   "ana": "Pukatawagan",
+   "dmin_km": 596,
+   "koridor": {
+    "ingiliz-kuzey-amerika": 7
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 596 km, koridorda 7 başka sahipli nokta (ingiliz-kuzey-amerika:7); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 78,
+   "kita": "Amerika",
+   "sahip": "kuba-cumhuriyeti",
+   "noktalar": [
+    "Havana (La Habana)"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Santiago de Cuba",
+   "dmin_km": 759,
+   "koridor": {
+    "meksika": 2,
+    "ingiltere": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: Havana 1914 Küba Cumhuriyeti gövdesinden kopuk görünüyor — Küba adasının öteki noktalarının sahibi kontrol edilmeli",
+   "yol": "elle"
+  },
+  {
+   "no": 79,
+   "kita": "Amerika",
+   "sahip": "mapuche-araukanya",
+   "noktalar": [
+    "Arauco (Mapuche/Araukanya — kuzey sınır bölgesi)",
+    "Purén (Mapuche/Araukanya — güney direniş bölgesi)"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "Beyan G35.5 B69.5",
+   "dmin_km": 393,
+   "koridor": {
+    "ispanyol-peru": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (ispanyol-peru), ana gövdeye 393 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 80,
+   "kita": "Amerika",
+   "sahip": "meksika",
+   "noktalar": [
+    "Omoa (San Fernando de Omoa)",
+    "Río Tinto (Black River, Moskito kıyısı)",
+    "Trujillo (Honduras)"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Acalán (Itzamkanac)",
+   "dmin_km": 412,
+   "koridor": {
+    "guatemala": 2,
+    "ingiltere": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 412 km, koridorda 3 başka sahipli nokta (guatemala:2, ingiltere:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 81,
+   "kita": "Amerika",
+   "sahip": "meksika",
+   "noktalar": [
+    "Sonoyta (Sonoita)"
+   ],
+   "gunler": [
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "El Paso del Norte",
+   "dmin_km": 601,
+   "koridor": {
+    "abd": 6
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 601 km, koridorda 6 başka sahipli nokta (abd:6); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 82,
+   "kita": "Amerika",
+   "sahip": "metis",
+   "noktalar": [
+    "Buffalo Lake / Battle River (Métis)"
+   ],
+   "gunler": [
+    "1878-07-13"
+   ],
+   "ana": "Batoche",
+   "dmin_km": 458,
+   "koridor": {
+    "kanada": 5
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 458 km, koridorda 5 başka sahipli nokta (kanada:5); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 83,
+   "kita": "Amerika",
+   "sahip": "ojibwe",
+   "noktalar": [
+    "Saginaw (Ojibwe)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15"
+   ],
+   "ana": "Keweenaw (Ojibwe bakır yatakları)",
+   "dmin_km": 440,
+   "koridor": {
+    "fransa": 3
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 440 km, koridorda 3 başka sahipli nokta (fransa:3); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 84,
+   "kita": "Amerika",
+   "sahip": "payut",
+   "noktalar": [
+    "Bishop (Owens Vadisi Payutları)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15"
+   ],
+   "ana": "Kuzey Payut (Kara Kaya Çölü)",
+   "dmin_km": 430,
+   "koridor": {
+    "sosoni": 1,
+    "abd": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (abd, sosoni), ana gövdeye 430 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 85,
+   "kita": "Amerika",
+   "sahip": "peru-cumhuriyeti",
+   "noktalar": [
+    "Tumbes"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Jaén de los Bracamoros",
+   "dmin_km": 300,
+   "koridor": {
+    "ekvador-cumhuriyeti": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 300 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 86,
+   "kita": "Amerika",
+   "sahip": "peru-cumhuriyeti",
+   "noktalar": [
+    "Putre"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "Chucuito",
+   "dmin_km": 258,
+   "koridor": {
+    "bolivya-cumhuriyeti": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 258 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 87,
+   "kita": "Amerika",
+   "sahip": "sili-cumhuriyeti",
+   "noktalar": [
+    "Concepción (Şili)"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "Rancagua",
+   "dmin_km": 362,
+   "koridor": {
+    "mapuche-araukanya": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (mapuche-araukanya), ana gövdeye 362 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 88,
+   "kita": "Amerika",
+   "sahip": "sili-cumhuriyeti",
+   "noktalar": [
+    "Valdivia"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Rancagua",
+   "dmin_km": 666,
+   "koridor": {
+    "mapuche-araukanya": 5
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "Valdivia 1850: Şili'nin Araukanya (bağımsız Mapuche toprağı) güneyindeki parçası — gerçek tarihî kopukluk (Araukanya işgali 1861-1883'e dek); kaynak beyanı yazılmadı",
+   "yol": "elle"
+  },
+  {
+   "no": 89,
+   "kita": "Amerika",
+   "sahip": "sili-cumhuriyeti",
+   "noktalar": [
+    "Copiapó"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "San Felipe (Aconcagua)",
+   "dmin_km": 600,
+   "koridor": {
+    "arjantin-cumhuriyeti": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (arjantin-cumhuriyeti), ana gövdeye 600 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 90,
+   "kita": "Amerika",
+   "sahip": "sili-cumhuriyeti",
+   "noktalar": [
+    "Castro (Chiloé)",
+    "Puerto Montt",
+    "Valdivia"
+   ],
+   "gunler": [
+    "1878-07-13"
+   ],
+   "ana": "Rancagua",
+   "dmin_km": 666,
+   "koridor": {
+    "mapuche-araukanya": 5
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "Valdivia, Puerto Montt, Chiloé 1878: Mapuche Araukanyası'nın güneyindeki Şili toprakları — gerçek tarihî kopukluk; kaynak beyanı yazılmadı",
+   "yol": "elle"
+  },
+  {
+   "no": 91,
+   "kita": "Amerika",
+   "sahip": "sili-cumhuriyeti",
+   "noktalar": [
+    "Copiapó",
+    "Taltal"
+   ],
+   "gunler": [
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "San Felipe (Aconcagua)",
+   "dmin_km": 600,
+   "koridor": {
+    "arjantin-cumhuriyeti": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (arjantin-cumhuriyeti), ana gövdeye 600 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 92,
+   "kita": "Amerika",
+   "sahip": "sili-cumhuriyeti",
+   "noktalar": [
+    "Beyan G46.5 B74.5",
+    "Beyan G48.5 B75.5",
+    "Beyan G49.5 B72.5"
+   ],
+   "gunler": [
+    "1900-06-15"
+   ],
+   "ana": "Beyan G44.5 B72.5",
+   "dmin_km": 272,
+   "koridor": {
+    "arjantin-cumhuriyeti": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 272 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 93,
+   "kita": "Amerika",
+   "sahip": "sili-cumhuriyeti",
+   "noktalar": [
+    "Beyan G46.5 B74.5",
+    "Beyan G48.5 B75.5",
+    "Beyan G49.5 B72.5",
+    "Beyan G52.5 B74.5",
+    "Fuerte Bulnes",
+    "Porvenir",
+    "Puerto Natales",
+    "Punta Arenas"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Beyan G44.5 B72.5",
+   "dmin_km": 272,
+   "koridor": {
+    "arjantin-cumhuriyeti": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 272 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 94,
+   "kita": "Amerika",
+   "sahip": "sosoni",
+   "noktalar": [
+    "Camas Ovası (Kuzey Şoşoni)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15"
+   ],
+   "ana": "Tukudeka (Koyun Yiyen Şoşoniler, Yellowstone)",
+   "dmin_km": 408,
+   "koridor": {
+    "abd": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (abd), ana gövdeye 408 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 95,
+   "kita": "Amerika",
+   "sahip": "sosoni",
+   "noktalar": [
+    "Ruby Vadisi (Batı Şoşoni)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15"
+   ],
+   "ana": "Tukudeka (Koyun Yiyen Şoşoniler, Yellowstone)",
+   "dmin_km": 647,
+   "koridor": {
+    "abd": 6
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 647 km, koridorda 6 başka sahipli nokta (abd:6); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 96,
+   "kita": "Amerika",
+   "sahip": "uruguay-cumhuriyeti",
+   "noktalar": [
+    "Beyan G31.5 B56.5"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Treinta y Tres",
+   "dmin_km": 277,
+   "koridor": {
+    "brezilya-imparatorlugu": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 277 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 97,
+   "kita": "Amerika",
+   "sahip": "venezuela-cumhuriyeti",
+   "noktalar": [
+    "Maroa",
+    "San Carlos de Río Negro"
+   ],
+   "gunler": [
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Elorza",
+   "dmin_km": 526,
+   "koridor": {
+    "kolombiya-cumhuriyeti": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (kolombiya-cumhuriyeti), ana gövdeye 526 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 98,
+   "kita": "Amerika",
+   "sahip": "wicita",
+   "noktalar": [
+    "Spiro"
+   ],
+   "gunler": [
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15"
+   ],
+   "ana": "Quivira (Wiçita, Büyük Bükülme)",
+   "dmin_km": 464,
+   "koridor": {
+    "ponka": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (ponka), ana gövdeye 464 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 99,
+   "kita": "Amerika",
+   "sahip": "wicita",
+   "noktalar": [
+    "Taovaya (İspanyol Kalesi, Kızıl Irmak)"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15"
+   ],
+   "ana": "Quivira (Wiçita, Büyük Bükülme)",
+   "dmin_km": 494,
+   "koridor": {
+    "komanci": 1,
+    "ponka": 1,
+    "abd": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 494 km, koridorda 4 başka sahipli nokta (abd:2, komanci:1, ponka:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 100,
+   "kita": "Amerika",
+   "sahip": "yeni-ispanya",
+   "noktalar": [
+    "Spiro"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15"
+   ],
+   "ana": "San Antonio (Misyon San Antonio de Valero)",
+   "dmin_km": 750,
+   "koridor": {
+    "ingiltere": 1,
+    "komanci": 1,
+    "wicita": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: yeni-ispanya gövdesi başka kıtada/kıyıda; ana gövdeye 750 km, arada ingiltere, komanci, wicita",
+   "yol": "kural"
+  },
+  {
+   "no": 101,
+   "kita": "Amerika",
+   "sahip": "yeni-ispanya",
+   "noktalar": [
+    "Los Adaes",
+    "Natchitoches"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "San Antonio (Misyon San Antonio de Valero)",
+   "dmin_km": 551,
+   "koridor": {
+    "wicita": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: yeni-ispanya gövdesi başka kıtada/kıyıda; ana gövdeye 551 km, arada wicita",
+   "yol": "kural"
+  },
+  {
+   "no": 102,
+   "kita": "Asya",
+   "sahip": "OSMANLI",
+   "noktalar": [
+    "Cübeyl",
+    "Katar Yarımadası (iç, dolgu)",
+    "Katîf",
+    "Lahsa",
+    "Ukayr (Uceyr)"
+   ],
+   "gunler": [
+    "1600-06-15"
+   ],
+   "ana": "Fâv",
+   "dmin_km": 350,
+   "koridor": {
+    "safevi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Lahsa eyaleti 1600: koridordaki tek yabancı nokta Körfez'in karşı kıyısındaki Bender Rîg (İran); Fâv-Kuveyt-Lahsa kıyısında Osmanlı noktası yok — nokta seyrekliği (KUTU-H7 koridor ölçümü)",
+   "yol": "elle"
+  },
+  {
+   "no": 103,
+   "kita": "Asya",
+   "sahip": "OSMANLI",
+   "noktalar": [
+    "Aden",
+    "Arkîko",
+    "Dahlak",
+    "Ferasan (Farasan)",
+    "Kemeran (Kamaran)",
+    "Masavva",
+    "Moha",
+    "Sana",
+    "Taiz",
+    "Zebîd",
+    "Zeyla"
+   ],
+   "gunler": [
+    "1600-06-15"
+   ],
+   "ana": "Akīk",
+   "dmin_km": 321,
+   "koridor": {
+    "habesistan": 4
+   },
+   "durum_1015": "kismen-beyanli",
+   "sinif": "a",
+   "gerekce": "Osmanlı Kızıldeniz eyaletleri 1600: Habeş eyaleti (Masavva, Arkîko, Dahlak — enklav:true, TDV masavva) ve Yemen kıyısı, Hicaz gövdesine deniz yoluyla bağlı; Yemen noktaları beyan bekliyor (TDV yemen)",
+   "yol": "elle"
+  },
+  {
+   "no": 104,
+   "kita": "Asya",
+   "sahip": "OSMANLI",
+   "noktalar": [
+    "Arkîko",
+    "Dahlak",
+    "Masavva"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15"
+   ],
+   "ana": "Akīk",
+   "dmin_km": 321,
+   "koridor": {
+    "habesistan": 4
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 105,
+   "kita": "Asya",
+   "sahip": "OSMANLI",
+   "noktalar": [
+    "Arkîko",
+    "Dahlak",
+    "Ferasan (Farasan)",
+    "Hudeyde",
+    "Kemeran (Kamaran)",
+    "Masavva",
+    "Moha",
+    "Zebîd",
+    "Zeyla"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Akīk",
+   "dmin_km": 321,
+   "koridor": {
+    "habesistan": 4
+   },
+   "durum_1015": "kismen-beyanli",
+   "sinif": "a",
+   "gerekce": "Osmanlı Kızıldeniz eyaletleri 1850: Habeş eyaleti beyanlı (TDV masavva); Yemen kıyısı (Hudeyde, Moha, Zebîd) beyan bekliyor",
+   "yol": "elle"
+  },
+  {
+   "no": 106,
+   "kita": "Asya",
+   "sahip": "OSMANLI",
+   "noktalar": [
+    "Cübeyl",
+    "Doha (Katar)",
+    "Katar Yarımadası (iç, dolgu)",
+    "Katîf",
+    "Lahsa",
+    "Ukayr (Uceyr)"
+   ],
+   "gunler": [
+    "1878-07-13",
+    "1900-06-15"
+   ],
+   "ana": "Kuveyt",
+   "dmin_km": 311,
+   "koridor": {
+    "kacar": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Lahsa/Katar 1878-1900: koridorda yalnız Buşehr ve Bender Rîg (Körfez'in İran kıyısı); Kuveyt-Cübeyl arası kıyıda nokta yok — nokta seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 107,
+   "kita": "Asya",
+   "sahip": "OSMANLI",
+   "noktalar": [
+    "Ebû Ramâd (Şalâtîn)"
+   ],
+   "gunler": [
+    "1900-06-15",
+    "1914-07-28"
+   ],
+   "ana": "Yenbu",
+   "dmin_km": 273,
+   "koridor": {
+    "ingiltere": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 273 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 108,
+   "kita": "Asya",
+   "sahip": "ace-sultanligi",
+   "noktalar": [
+    "Barus",
+    "Sibolga"
+   ],
+   "gunler": [
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15"
+   ],
+   "ana": "Kuala Simpang",
+   "dmin_km": 254,
+   "koridor": {
+    "malaka-sultanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 254 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 109,
+   "kita": "Asya",
+   "sahip": "afgan-durrani",
+   "noktalar": [
+    "Herat"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15"
+   ],
+   "ana": "Gazne",
+   "dmin_km": 580,
+   "koridor": {
+    "buhara": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (buhara), ana gövdeye 580 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 110,
+   "kita": "Asya",
+   "sahip": "afganistan",
+   "noktalar": [
+    "Kandehar"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Feyzâbâd (Bedahşan)",
+   "dmin_km": 758,
+   "koridor": {
+    "ingiliz-hindistani": 5,
+    "buhara": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 758 km, koridorda 6 başka sahipli nokta (ingiliz-hindistani:5, buhara:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 111,
+   "kita": "Asya",
+   "sahip": "afganistan",
+   "noktalar": [
+    "Belh"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Feyzâbâd (Bedahşan)",
+   "dmin_km": 330,
+   "koridor": {
+    "buhara": 3
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 330 km, koridorda 3 başka sahipli nokta (buhara:3); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 112,
+   "kita": "Asya",
+   "sahip": "afsar",
+   "noktalar": [
+    "Kızılarvat"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Merv (Mari)",
+   "dmin_km": 508,
+   "koridor": {
+    "zend": 12,
+    "hive": 3
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 508 km, koridorda 15 başka sahipli nokta (zend:12, hive:3); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 113,
+   "kita": "Asya",
+   "sahip": "ahom",
+   "noktalar": [
+    "Sibsâgar (Rangpûr)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15"
+   ],
+   "ana": "Gauhâtî (Guwahati)",
+   "dmin_km": 303,
+   "koridor": {
+    "manipur": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (manipur), ana gövdeye 303 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 114,
+   "kita": "Asya",
+   "sahip": "altinorda",
+   "noktalar": [
+    "Ağraham burnu",
+    "Mangışlak",
+    "Tarki (Tarku)",
+    "Terek deltası (Kızlar)"
+   ],
+   "gunler": [
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15"
+   ],
+   "ana": "Stavropol–Kuma bozkırı",
+   "dmin_km": 346,
+   "koridor": {
+    "kabartay": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (kabartay), ana gövdeye 346 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 115,
+   "kita": "Asya",
+   "sahip": "altinorda",
+   "noktalar": [
+    "Ural eteği"
+   ],
+   "gunler": [
+    "1453-05-29",
+    "1500-06-15"
+   ],
+   "ana": "Bozkır (Deşt-i Kıpçak)",
+   "dmin_km": 770,
+   "koridor": {
+    "nogay": 3,
+    "moskova": 1,
+    "astarhan": 4
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 770 km, koridorda 8 başka sahipli nokta (astarhan:4, nogay:3, moskova:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 116,
+   "kita": "Asya",
+   "sahip": "arakan",
+   "noktalar": [
+    "Sandoway (Thandwe)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21"
+   ],
+   "ana": "Mrauk U (Arakan)",
+   "dmin_km": 264,
+   "koridor": {
+    "pagan": 3
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 264 km (≤300); arada kendi noktası yok, koridordaki 3 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 117,
+   "kita": "Asya",
+   "sahip": "ayutthaya",
+   "noktalar": [
+    "Ayutthaya",
+    "Lopburi"
+   ],
+   "gunler": [
+    "1400-06-15"
+   ],
+   "ana": "Tavoy (Dawei)",
+   "dmin_km": 258,
+   "koridor": {
+    "sukhothai": 4
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 258 km (≤300); arada kendi noktası yok, koridordaki 4 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 118,
+   "kita": "Asya",
+   "sahip": "azerbaycan-demokratik-cumhuriyeti",
+   "noktalar": [
+    "Bakü"
+   ],
+   "gunler": [
+    "1918-11-11"
+   ],
+   "ana": "Gence",
+   "dmin_km": 298,
+   "koridor": {
+    "sovyet-rusya": 11,
+    "kacar": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 298 km (≤300); arada kendi noktası yok, koridordaki 12 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 119,
+   "kita": "Asya",
+   "sahip": "babur-imparatorlugu",
+   "noktalar": [
+    "Ahmedâbâd",
+    "Baroda (Vadodara)",
+    "Broaç (Bharuch)",
+    "Cûnâgadh",
+    "Ecmîr (Ajmer)",
+    "Elicpûr (Achalpur)",
+    "Kanbâyet (Khambhat)",
+    "Mandu (Mândû)",
+    "Patan (Anhilvâda)",
+    "Sûrat",
+    "Uccayn (Ujjain)",
+    "Çampâner",
+    "Çitor (Chittorgarh)"
+   ],
+   "gunler": [
+    "1600-06-15"
+   ],
+   "ana": "Hisâr-ı Fîrûze",
+   "dmin_km": 319,
+   "koridor": {
+    "racput": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (racput), ana gövdeye 319 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 120,
+   "kita": "Asya",
+   "sahip": "babur-imparatorlugu",
+   "noktalar": [
+    "Dakka (Dhaka)",
+    "Sonârgâon"
+   ],
+   "gunler": [
+    "1600-06-15"
+   ],
+   "ana": "Pandua (Hazret Pandua)",
+   "dmin_km": 272,
+   "koridor": {
+    "portekiz": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 272 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 121,
+   "kita": "Asya",
+   "sahip": "babur-imparatorlugu",
+   "noktalar": [
+    "Bâlâsor (Balasore)",
+    "Kattak (Cuttack)",
+    "Puri"
+   ],
+   "gunler": [
+    "1600-06-15"
+   ],
+   "ana": "Râcmahal",
+   "dmin_km": 406,
+   "koridor": {
+    "portekiz": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (portekiz), ana gövdeye 406 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 122,
+   "kita": "Asya",
+   "sahip": "babur-imparatorlugu",
+   "noktalar": [
+    "Şikârpûr"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Gazne",
+   "dmin_km": 623,
+   "koridor": {
+    "safevi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (safevi), ana gövdeye 623 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 123,
+   "kita": "Asya",
+   "sahip": "babur-imparatorlugu",
+   "noktalar": [
+    "Codhpûr (Jodhpur)",
+    "Ecmîr (Ajmer)"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Hisâr-ı Fîrûze",
+   "dmin_km": 319,
+   "koridor": {
+    "racput": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (racput), ana gövdeye 319 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 124,
+   "kita": "Asya",
+   "sahip": "babur-imparatorlugu",
+   "noktalar": [
+    "Ahmednagar",
+    "Ahmedâbâd",
+    "Asîrgarh",
+    "Baroda (Vadodara)",
+    "Broaç (Bharuch)",
+    "Burhânpûr",
+    "Cûnâgadh",
+    "Devagiri (Devletâbâd)",
+    "Elicpûr (Achalpur)",
+    "Evrengâbâd",
+    "Kanbâyet (Khambhat)",
+    "Mandu (Mândû)",
+    "Nâsik",
+    "Patan (Anhilvâda)",
+    "Sûrat",
+    "Uccayn (Ujjain)",
+    "Çampâner"
+   ],
+   "gunler": [
+    "1683-09-12"
+   ],
+   "ana": "Gvalyar (Gwalior)",
+   "dmin_km": 416,
+   "koridor": {
+    "racput": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (racput), ana gövdeye 416 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 125,
+   "kita": "Asya",
+   "sahip": "babur-imparatorlugu",
+   "noktalar": [
+    "Ahmednagar",
+    "Ahmedâbâd",
+    "Asîrgarh",
+    "Baroda (Vadodara)",
+    "Broaç (Bharuch)",
+    "Burhânpûr",
+    "Cûnâgadh",
+    "Devagiri (Devletâbâd)",
+    "Elicpûr (Achalpur)",
+    "Evrengâbâd",
+    "Kanbâyet (Khambhat)",
+    "Mandu (Mândû)",
+    "Nâsik",
+    "Patan (Anhilvâda)",
+    "Raygad",
+    "Sûrat",
+    "Uccayn (Ujjain)",
+    "Çampâner"
+   ],
+   "gunler": [
+    "1700-06-15"
+   ],
+   "ana": "Gvalyar (Gwalior)",
+   "dmin_km": 416,
+   "koridor": {
+    "racput": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (racput), ana gövdeye 416 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 126,
+   "kita": "Asya",
+   "sahip": "babur-imparatorlugu",
+   "noktalar": [
+    "Asîrgarh",
+    "Burhânpûr"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Gvalyar (Gwalior)",
+   "dmin_km": 567,
+   "koridor": {
+    "racput": 2,
+    "maratha": 2,
+    "indor": 1,
+    "bhopal": 1,
+    "gond-kralliklari": 1,
+    "haydarabad-nizam": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 567 km, koridorda 8 başka sahipli nokta (racput:2, maratha:2, indor:1, bhopal:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 127,
+   "kita": "Asya",
+   "sahip": "behmeni",
+   "noktalar": [
+    "Elicpûr (Achalpur)"
+   ],
+   "gunler": [
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29"
+   ],
+   "ana": "Devagiri (Devletâbâd)",
+   "dmin_km": 280,
+   "koridor": {
+    "malva-sultanligi": 1,
+    "farukiler": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 280 km (≤300); arada kendi noktası yok, koridordaki 3 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 128,
+   "kita": "Asya",
+   "sahip": "behmeni",
+   "noktalar": [
+    "Masulipatnam",
+    "Râcahmundry",
+    "Vişâkapatnam"
+   ],
+   "gunler": [
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29"
+   ],
+   "ana": "Golkonda",
+   "dmin_km": 319,
+   "koridor": {
+    "nayak-devletleri": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (nayak-devletleri), ana gövdeye 319 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 129,
+   "kita": "Asya",
+   "sahip": "benihalid",
+   "noktalar": [
+    "Kuveyt"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Cübeyl",
+   "dmin_km": 311,
+   "koridor": {
+    "zend": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (zend), ana gövdeye 311 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 130,
+   "kita": "Asya",
+   "sahip": "brunei-sultanligi",
+   "noktalar": [
+    "Sukadana"
+   ],
+   "gunler": [
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21"
+   ],
+   "ana": "Bintulu",
+   "dmin_km": 600,
+   "koridor": {
+    "pontianak": 1,
+    "banjar-sultanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (banjar-sultanligi, pontianak), ana gövdeye 600 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 131,
+   "kita": "Asya",
+   "sahip": "buhara",
+   "noktalar": [
+    "Sayram (İsficâb)",
+    "Taraz (Evliya-Ata)",
+    "Türkistan (Yesi)",
+    "Çimkent"
+   ],
+   "gunler": [
+    "1500-06-15"
+   ],
+   "ana": "Cizzah",
+   "dmin_km": 285,
+   "koridor": {
+    "mogulistan": 1,
+    "timurlu": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 285 km (≤300); arada kendi noktası yok, koridordaki 3 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 132,
+   "kita": "Asya",
+   "sahip": "cagatay",
+   "noktalar": [
+    "Kandehar"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15"
+   ],
+   "ana": "Belh",
+   "dmin_km": 583,
+   "koridor": {
+    "ilhanli": 1
+   },
+   "durum_1015": "veri-degisti",
+   "sinif": "c",
+   "gerekce": "tarama sonrası veri değişti; aday bugünkü veride aynı sahipte değil (yeniden ölçülmeli değil, kapanmış sayılır)",
+   "yol": "olcum"
+  },
+  {
+   "no": 133,
+   "kita": "Asya",
+   "sahip": "ceneviz",
+   "noktalar": [
+    "Amasra"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29"
+   ],
+   "ana": "Midilli",
+   "dmin_km": 574,
+   "koridor": {
+    "OSMANLI": 59,
+    "bizans": 45,
+    "ahiler": 1,
+    "germiyan": 8,
+    "hamid": 9,
+    "saruhan": 1,
+    "inancogullari": 1,
+    "teke": 1,
+    "ilhanli": 2,
+    "candar": 5,
+    "bulgaristan": 10,
+    "aydin": 2
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 134,
+   "kita": "Asya",
+   "sahip": "cin-cumhuriyeti",
+   "noktalar": [
+    "Yantai (Chefoo)"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11"
+   ],
+   "ana": "Yangzhou",
+   "dmin_km": 593,
+   "koridor": {
+    "almanya": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (almanya), ana gövdeye 593 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 135,
+   "kita": "Asya",
+   "sahip": "cin-cumhuriyeti",
+   "noktalar": [
+    "Chiang Hung (Jinghong)",
+    "Chuxiong",
+    "Dali",
+    "Jingdong",
+    "Kaihua (Wenshan)",
+    "Kunming",
+    "Lijiang",
+    "Lin'an (Jianshui)",
+    "Mengzi",
+    "Mianning (Lincang)",
+    "Ning'er (Pu'er)",
+    "Shunning (Fengqing)",
+    "Tengyue (Tengchong)",
+    "Tonghai",
+    "Yongchang (Baoshan)",
+    "Yuanjiang"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Guilin",
+   "dmin_km": 648,
+   "koridor": {
+    "fransiz-cinhindi": 4
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Yunnan noktaları (Dali, Chuxiong, Jingdong, Kaihua) Çin gövdesinden ~650 km kopuk; koridordaki 4 nokta kuzey Vietnam'dadır (geometrik koridor), Yunnan-Guizhou-Sichuan arasında Çin noktası yok — nokta seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 136,
+   "kita": "Asya",
+   "sahip": "cohor-sultanligi",
+   "noktalar": [
+    "Jambi"
+   ],
+   "gunler": [
+    "1600-06-15"
+   ],
+   "ana": "Bintan (Riau)",
+   "dmin_km": 296,
+   "koridor": {
+    "dogu-sumatra-sultanliklari": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 296 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 137,
+   "kita": "Asya",
+   "sahip": "cohor-sultanligi",
+   "noktalar": [
+    "Medan (Deli)"
+   ],
+   "gunler": [
+    "1600-06-15"
+   ],
+   "ana": "Muar",
+   "dmin_km": 466,
+   "koridor": {
+    "portekiz": 1,
+    "malay-sultanliklari": 3,
+    "ace-sultanligi": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 466 km, koridorda 6 başka sahipli nokta (malay-sultanliklari:3, ace-sultanligi:2, portekiz:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 138,
+   "kita": "Asya",
+   "sahip": "cungar",
+   "noktalar": [
+    "Turfan"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Manas (Cungarya)",
+   "dmin_km": 283,
+   "koridor": {
+    "yarkent-hanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 283 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 139,
+   "kita": "Asya",
+   "sahip": "cungar",
+   "noktalar": [
+    "Hâmi (Kumul)"
+   ],
+   "gunler": [
+    "1683-09-12"
+   ],
+   "ana": "Manas (Cungarya)",
+   "dmin_km": 611,
+   "koridor": {
+    "yarkent-hanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (yarkent-hanligi), ana gövdeye 611 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 140,
+   "kita": "Asya",
+   "sahip": "cungar",
+   "noktalar": [
+    "Almatı (Vernıy)",
+    "Balasagun (Ak-Beşim)",
+    "Issık Göl havzası",
+    "Narın (Naryn)"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Çöçek (Tarbagatay)",
+   "dmin_km": 618,
+   "koridor": {
+    "yarkent-hanligi": 1,
+    "kazak-hanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (kazak-hanligi, yarkent-hanligi), ana gövdeye 618 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 141,
+   "kita": "Asya",
+   "sahip": "cungar",
+   "noktalar": [
+    "Pavlodar (Koryakov)"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Çöçek (Tarbagatay)",
+   "dmin_km": 753,
+   "koridor": {
+    "kazak-hanligi": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (kazak-hanligi), ana gövdeye 753 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 142,
+   "kita": "Asya",
+   "sahip": "delhi-sultanligi",
+   "noktalar": [
+    "Asîrgarh"
+   ],
+   "gunler": [
+    "1281-01-02"
+   ],
+   "ana": "Gvalyar (Gwalior)",
+   "dmin_km": 567,
+   "koridor": {
+    "racput": 3,
+    "yadava": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 567 km, koridorda 4 başka sahipli nokta (racput:3, yadava:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 143,
+   "kita": "Asya",
+   "sahip": "delhi-sultanligi",
+   "noktalar": [
+    "Asîrgarh",
+    "Baroda (Vadodara)",
+    "Bombay",
+    "Broaç (Bharuch)",
+    "Diu",
+    "Kanbâyet (Khambhat)",
+    "Mandu (Mândû)",
+    "Patan (Anhilvâda)",
+    "Sûrat",
+    "Uccayn (Ujjain)",
+    "Çampâner"
+   ],
+   "gunler": [
+    "1350-06-15"
+   ],
+   "ana": "Gvalyar (Gwalior)",
+   "dmin_km": 416,
+   "koridor": {
+    "racput": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (racput), ana gövdeye 416 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 144,
+   "kita": "Asya",
+   "sahip": "delhi-sultanligi",
+   "noktalar": [
+    "Baroda (Vadodara)",
+    "Bombay",
+    "Broaç (Bharuch)",
+    "Diu",
+    "Kanbâyet (Khambhat)",
+    "Patan (Anhilvâda)",
+    "Sûrat",
+    "Çampâner"
+   ],
+   "gunler": [
+    "1400-06-15"
+   ],
+   "ana": "Mathura",
+   "dmin_km": 688,
+   "koridor": {
+    "racput": 4,
+    "malva-sultanligi": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 688 km, koridorda 6 başka sahipli nokta (racput:4, malva-sultanligi:2); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 145,
+   "kita": "Asya",
+   "sahip": "delhi-sultanligi",
+   "noktalar": [
+    "Gayâ",
+    "Patna (Azîmâbâd)"
+   ],
+   "gunler": [
+    "1400-06-15",
+    "1453-05-29"
+   ],
+   "ana": "Etâve (Etawah)",
+   "dmin_km": 625,
+   "koridor": {
+    "cavnpur-sultanligi": 8,
+    "gond-kralliklari": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 625 km, koridorda 9 başka sahipli nokta (cavnpur-sultanligi:8, gond-kralliklari:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 146,
+   "kita": "Asya",
+   "sahip": "delhi-sultanligi",
+   "noktalar": [
+    "Çampâner"
+   ],
+   "gunler": [
+    "1453-05-29"
+   ],
+   "ana": "Mathura",
+   "dmin_km": 695,
+   "koridor": {
+    "racput": 4,
+    "gucerat-sultanligi": 1,
+    "malva-sultanligi": 2,
+    "gond-kralliklari": 1,
+    "behmeni": 1,
+    "farukiler": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 695 km, koridorda 10 başka sahipli nokta (racput:4, malva-sultanligi:2, gucerat-sultanligi:1, gond-kralliklari:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 147,
+   "kita": "Asya",
+   "sahip": "dogu-sumatra-sultanliklari",
+   "noktalar": [
+    "Medan (Deli)"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15"
+   ],
+   "ana": "Rengat (Indragiri)",
+   "dmin_km": 615,
+   "koridor": {
+    "hollanda-dogu-hint": 3,
+    "cohor-sultanligi": 3,
+    "malay-sultanliklari": 4,
+    "ace-sultanligi": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 615 km, koridorda 12 başka sahipli nokta (malay-sultanliklari:4, hollanda-dogu-hint:3, cohor-sultanligi:3, ace-sultanligi:2); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 148,
+   "kita": "Asya",
+   "sahip": "filipin-racaliklari",
+   "noktalar": [
+    "Puerto Princesa (Palawan)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15"
+   ],
+   "ana": "Zamboanga",
+   "dmin_km": 484,
+   "koridor": {
+    "sulu-sultanligi": 1,
+    "ispanya": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (ispanya, sulu-sultanligi), ana gövdeye 484 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 149,
+   "kita": "Asya",
+   "sahip": "filipin-racaliklari",
+   "noktalar": [
+    "Zamboanga"
+   ],
+   "gunler": [
+    "1526-09-01"
+   ],
+   "ana": "Legazpi",
+   "dmin_km": 716,
+   "koridor": {
+    "magindanao-sultanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (magindanao-sultanligi), ana gövdeye 716 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 150,
+   "kita": "Asya",
+   "sahip": "filipin-racaliklari",
+   "noktalar": [
+    "Butuan"
+   ],
+   "gunler": [
+    "1600-06-15"
+   ],
+   "ana": "Zamboanga",
+   "dmin_km": 443,
+   "koridor": {
+    "ispanya": 2,
+    "magindanao-sultanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 443 km, koridorda 3 başka sahipli nokta (ispanya:2, magindanao-sultanligi:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 151,
+   "kita": "Asya",
+   "sahip": "fransiz-cinhindi",
+   "noktalar": [
+    "Luang Prabang",
+    "Muang Sing",
+    "Vientiane",
+    "Xieng Khouang"
+   ],
+   "gunler": [
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Savannakhet",
+   "dmin_km": 275,
+   "koridor": {
+    "siyam-chakri": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 275 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 152,
+   "kita": "Asya",
+   "sahip": "gvalyar",
+   "noktalar": [
+    "Gvalyar (Gwalior)"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Uccayn (Ujjain)",
+   "dmin_km": 416,
+   "koridor": {
+    "ingiliz-hindistani": 1,
+    "racput": 2,
+    "bhopal": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 416 km, koridorda 4 başka sahipli nokta (racput:2, ingiliz-hindistani:1, bhopal:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 153,
+   "kita": "Asya",
+   "sahip": "hicaz",
+   "noktalar": [
+    "Maan",
+    "Medâin-i Sâlih (el-Hicr)",
+    "Tebük",
+    "el-Ulâ",
+    "el-Vech"
+   ],
+   "gunler": [
+    "1918-11-11"
+   ],
+   "ana": "Yenbu",
+   "dmin_km": 281,
+   "koridor": {
+    "OSMANLI": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "Hicaz 1918-11-11: kuzey Hicaz (Maan, Tebük, el-Ulâ, el-Vech) ile Mekke-Yenbu gövdesi arasında Medine Fahreddin Paşa'nın Osmanlı garnizonundadır — gerçek ama geçici (Ocak 1919'a dek) kopukluk",
+   "yol": "elle"
+  },
+  {
+   "no": 154,
+   "kita": "Asya",
+   "sahip": "hive",
+   "noktalar": [
+    "Garabogaz (Bekdaş)",
+    "Çeleken"
+   ],
+   "gunler": [
+    "1526-09-01"
+   ],
+   "ana": "Küngrat",
+   "dmin_km": 539,
+   "koridor": {
+    "safevi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (safevi), ana gövdeye 539 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 155,
+   "kita": "Asya",
+   "sahip": "hive",
+   "noktalar": [
+    "Mangışlak"
+   ],
+   "gunler": [
+    "1526-09-01"
+   ],
+   "ana": "Küngrat",
+   "dmin_km": 705,
+   "koridor": {
+    "nogay": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (nogay), ana gövdeye 705 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 156,
+   "kita": "Asya",
+   "sahip": "ho-hanedani",
+   "noktalar": [
+    "Huế (Phú Xuân)",
+    "Quang Tri"
+   ],
+   "gunler": [
+    "1400-06-15"
+   ],
+   "ana": "Vinh",
+   "dmin_km": 266,
+   "koridor": {
+    "lan-xang": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 266 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 157,
+   "kita": "Asya",
+   "sahip": "hokand",
+   "noktalar": [
+    "Ak-Meçit (Perovsk)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Türkistan (Yesi)",
+   "dmin_km": 279,
+   "koridor": {
+    "rusya": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 279 km (≤300); arada kendi noktası yok, koridordaki 2 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 158,
+   "kita": "Asya",
+   "sahip": "hollanda-dogu-hint",
+   "noktalar": [
+    "Batavia (Cakarta)"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Indrapura",
+   "dmin_km": 773,
+   "koridor": {
+    "palembang-sultanligi": 1,
+    "pagaruyung": 1,
+    "banten-sultanligi": 2,
+    "dogu-sumatra-sultanliklari": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: hollanda-dogu-hint gövdesi başka kıtada/kıyıda; ana gövdeye 773 km, arada banten-sultanligi, dogu-sumatra-sultanliklari, pagaruyung, palembang-sultanligi",
+   "yol": "kural"
+  },
+  {
+   "no": 159,
+   "kita": "Asya",
+   "sahip": "hollanda-dogu-hint",
+   "noktalar": [
+    "Indrapura",
+    "Padang",
+    "Painan"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Batavia (Cakarta)",
+   "dmin_km": 773,
+   "koridor": {
+    "palembang-sultanligi": 1,
+    "ingiltere": 1,
+    "banten-sultanligi": 2,
+    "dogu-sumatra-sultanliklari": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: hollanda-dogu-hint gövdesi başka kıtada/kıyıda; ana gövdeye 773 km, arada banten-sultanligi, dogu-sumatra-sultanliklari, ingiltere, palembang-sultanligi",
+   "yol": "kural"
+  },
+  {
+   "no": 160,
+   "kita": "Asya",
+   "sahip": "hollanda-dogu-hint",
+   "noktalar": [
+    "Indrapura",
+    "Painan"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Batavia (Cakarta)",
+   "dmin_km": 773,
+   "koridor": {
+    "palembang-sultanligi": 1,
+    "ingiltere": 1,
+    "banten-sultanligi": 2,
+    "dogu-sumatra-sultanliklari": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: hollanda-dogu-hint gövdesi başka kıtada/kıyıda; ana gövdeye 773 km, arada banten-sultanligi, dogu-sumatra-sultanliklari, ingiltere, palembang-sultanligi",
+   "yol": "kural"
+  },
+  {
+   "no": 161,
+   "kita": "Asya",
+   "sahip": "hollanda-dogu-hint",
+   "noktalar": [
+    "Sukadana"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Jepara",
+   "dmin_km": 599,
+   "koridor": {
+    "banjar-sultanligi": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: hollanda-dogu-hint gövdesi başka kıtada/kıyıda; ana gövdeye 599 km, arada banjar-sultanligi",
+   "yol": "kural"
+  },
+  {
+   "no": 162,
+   "kita": "Asya",
+   "sahip": "hollanda-dogu-hint",
+   "noktalar": [
+    "Sintang",
+    "Sukadana"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Jepara",
+   "dmin_km": 599,
+   "koridor": {
+    "banjar-sultanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: hollanda-dogu-hint gövdesi başka kıtada/kıyıda; ana gövdeye 599 km, arada banjar-sultanligi",
+   "yol": "kural"
+  },
+  {
+   "no": 163,
+   "kita": "Asya",
+   "sahip": "ilhanli",
+   "noktalar": [
+    "Ilgın",
+    "Konya",
+    "Ulukışla"
+   ],
+   "gunler": [
+    "1350-06-15"
+   ],
+   "ana": "Harput (Elazığ)",
+   "dmin_km": 436,
+   "koridor": {
+    "eretna": 11,
+    "memluk": 26,
+    "dulkadir": 5,
+    "kilikya-ermeni": 2,
+    "cemisgezek-beyligi": 1,
+    "haciemir": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 436 km, koridorda 47 başka sahipli nokta (memluk:26, eretna:11, dulkadir:5, kilikya-ermeni:2); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 164,
+   "kita": "Asya",
+   "sahip": "ilhanli",
+   "noktalar": [
+    "Burûcird",
+    "Luristan",
+    "Nihâvend"
+   ],
+   "gunler": [
+    "1350-06-15"
+   ],
+   "ana": "Gōrabī",
+   "dmin_km": 462,
+   "koridor": {
+    "celayirli": 25
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 462 km, koridorda 25 başka sahipli nokta (celayirli:25); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 165,
+   "kita": "Asya",
+   "sahip": "ilhanli",
+   "noktalar": [
+    "Bender Enzeli",
+    "Bârfurûş (Bâbil)",
+    "Eşref (Behşehr)",
+    "Lâhîcan",
+    "Reşt",
+    "Sârî",
+    "Âmül"
+   ],
+   "gunler": [
+    "1350-06-15"
+   ],
+   "ana": "Gōrabī",
+   "dmin_km": 424,
+   "koridor": {
+    "celayirli": 27
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 424 km, koridorda 27 başka sahipli nokta (celayirli:27); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 166,
+   "kita": "Asya",
+   "sahip": "ingiliz-hindistani",
+   "noktalar": [
+    "Masulipatnam",
+    "Râcahmundry",
+    "Vişâkapatnam"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Kalküta",
+   "dmin_km": 764,
+   "koridor": {
+    "maratha": 6
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-hindistani gövdesi başka kıtada/kıyıda; ana gövdeye 764 km, arada maratha",
+   "yol": "kural"
+  },
+  {
+   "no": 167,
+   "kita": "Asya",
+   "sahip": "ingiliz-hindistani",
+   "noktalar": [
+    "Haydarâbâd (Sind)",
+    "Karaçi",
+    "Tatta (Thatta)"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Dera Gazi Han",
+   "dmin_km": 563,
+   "koridor": {
+    "bahavelpur": 1,
+    "racput": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-hindistani gövdesi başka kıtada/kıyıda; ana gövdeye 563 km, arada bahavelpur, racput",
+   "yol": "kural"
+  },
+  {
+   "no": 168,
+   "kita": "Asya",
+   "sahip": "ingiliz-hindistani",
+   "noktalar": [
+    "Ecmîr (Ajmer)"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Hisâr-ı Fîrûze",
+   "dmin_km": 319,
+   "koridor": {
+    "racput": 2,
+    "bharatpur-cat": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-hindistani gövdesi başka kıtada/kıyıda; ana gövdeye 319 km, arada bharatpur-cat, racput",
+   "yol": "kural"
+  },
+  {
+   "no": 169,
+   "kita": "Asya",
+   "sahip": "ingiliz-hindistani",
+   "noktalar": [
+    "Sibsâgar (Rangpûr)"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Sonârgâon",
+   "dmin_km": 550,
+   "koridor": {
+    "manipur": 1,
+    "konbaung": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-hindistani gövdesi başka kıtada/kıyıda; ana gövdeye 550 km, arada konbaung, manipur",
+   "yol": "kural"
+  },
+  {
+   "no": 170,
+   "kita": "Asya",
+   "sahip": "ingiliz-hindistani",
+   "noktalar": [
+    "Moulmein (Mawlamyine)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Mrauk U (Arakan)",
+   "dmin_km": 655,
+   "koridor": {
+    "konbaung": 16,
+    "siyam-chakri": 1,
+    "san-devletleri": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-hindistani gövdesi başka kıtada/kıyıda; ana gövdeye 655 km, arada konbaung, san-devletleri, siyam-chakri",
+   "yol": "kural"
+  },
+  {
+   "no": 171,
+   "kita": "Asya",
+   "sahip": "ingiliz-hindistani",
+   "noktalar": [
+    "Sandoway (Thandwe)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Mrauk U (Arakan)",
+   "dmin_km": 264,
+   "koridor": {
+    "konbaung": 3
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 264 km (≤300); arada kendi noktası yok, koridordaki 3 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 172,
+   "kita": "Asya",
+   "sahip": "ingiliz-malaya",
+   "noktalar": [
+    "Penang (George Town)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Malaka",
+   "dmin_km": 416,
+   "koridor": {
+    "malay-sultanliklari": 5
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: ingiliz-malaya gövdesi başka kıtada/kıyıda; ana gövdeye 416 km, arada malay-sultanliklari",
+   "yol": "kural"
+  },
+  {
+   "no": 173,
+   "kita": "Asya",
+   "sahip": "italya",
+   "noktalar": [
+    "Batnoz (Patmos)",
+    "Herke (Halki)",
+    "Karpatos",
+    "Kaşot (Kasos)",
+    "Kelemez (Kalimnos)",
+    "Lindos",
+    "Rodos",
+    "Sömbeki (Simi)",
+    "İleryoz (Leros)",
+    "İlyaki (Tilos)",
+    "İncirli (Nisiros)",
+    "İstanbulya (Astipalya)",
+    "İstanköy"
+   ],
+   "gunler": [
+    "1923-10-28"
+   ],
+   "ana": "Otranto",
+   "dmin_km": 766,
+   "koridor": {
+    "tbmm-turkiye": 32,
+    "yunanistan": 98,
+    "bulgaristan-kralligi": 17,
+    "yugoslavya": 12,
+    "arnavutluk-bagimsiz": 13,
+    "romanya-kralligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: italya gövdesi başka kıtada/kıyıda; ana gövdeye 766 km, arada arnavutluk-bagimsiz, bulgaristan-kralligi, romanya-kralligi, tbmm-turkiye, yugoslavya, yunanistan",
+   "yol": "kural"
+  },
+  {
+   "no": 174,
+   "kita": "Asya",
+   "sahip": "kazak-hanligi",
+   "noktalar": [
+    "Kazak bozkırı (Sarısu)"
+   ],
+   "gunler": [
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15"
+   ],
+   "ana": "Emba (Cem)",
+   "dmin_km": 719,
+   "koridor": {
+    "rusya": 2,
+    "hokand": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 719 km, koridorda 3 başka sahipli nokta (rusya:2, hokand:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 175,
+   "kita": "Asya",
+   "sahip": "kazak-hanligi",
+   "noktalar": [
+    "Karkaralinsk (Karkaralı)"
+   ],
+   "gunler": [
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15"
+   ],
+   "ana": "Taraz (Evliya-Ata)",
+   "dmin_km": 790,
+   "koridor": {
+    "mogulistan": 4
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 790 km, koridorda 4 başka sahipli nokta (mogulistan:4); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 176,
+   "kita": "Asya",
+   "sahip": "kazak-hanligi",
+   "noktalar": [
+    "Emba (Cem)",
+    "Üstyurt kuzeyi"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15"
+   ],
+   "ana": "Ak-Meçit (Perovsk)",
+   "dmin_km": 683,
+   "koridor": {
+    "hive": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (hive), ana gövdeye 683 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 177,
+   "kita": "Asya",
+   "sahip": "kazak-hanligi",
+   "noktalar": [
+    "Kopal (Kapal)"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15"
+   ],
+   "ana": "Taraz (Evliya-Ata)",
+   "dmin_km": 662,
+   "koridor": {
+    "qing-hanedani": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (qing-hanedani), ana gövdeye 662 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 178,
+   "kita": "Asya",
+   "sahip": "kazak-hanligi",
+   "noktalar": [
+    "Kazak bozkırı (Turgay)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Emba (Cem)",
+   "dmin_km": 499,
+   "koridor": {
+    "rusya": 3
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 499 km, koridorda 3 başka sahipli nokta (rusya:3); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 179,
+   "kita": "Asya",
+   "sahip": "kuzey-yuan",
+   "noktalar": [
+    "Hâmi (Kumul)"
+   ],
+   "gunler": [
+    "1400-06-15"
+   ],
+   "ana": "Ejin (Hara-Hoto)",
+   "dmin_km": 628,
+   "koridor": {
+    "ming-hanedani": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (ming-hanedani), ana gövdeye 628 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 180,
+   "kita": "Asya",
+   "sahip": "kuzey-yuan",
+   "noktalar": [
+    "Gobi-Altay (Yösönbulag)"
+   ],
+   "gunler": [
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12"
+   ],
+   "ana": "Dunhuang",
+   "dmin_km": 704,
+   "koridor": {
+    "cungar": 2,
+    "qing-hanedani": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 704 km, koridorda 3 başka sahipli nokta (cungar:2, qing-hanedani:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 181,
+   "kita": "Asya",
+   "sahip": "kuzey-yuan",
+   "noktalar": [
+    "Dunhuang"
+   ],
+   "gunler": [
+    "1526-09-01",
+    "1600-06-15"
+   ],
+   "ana": "Ejin (Hara-Hoto)",
+   "dmin_km": 574,
+   "koridor": {
+    "ming-hanedani": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (ming-hanedani), ana gövdeye 574 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 182,
+   "kita": "Asya",
+   "sahip": "kuzey-yuan",
+   "noktalar": [
+    "Hohhot (Kuku-hoto)"
+   ],
+   "gunler": [
+    "1600-06-15"
+   ],
+   "ana": "Alaşa kuzeyi",
+   "dmin_km": 547,
+   "koridor": {
+    "ming-hanedani": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (ming-hanedani), ana gövdeye 547 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 183,
+   "kita": "Asya",
+   "sahip": "lan-xang",
+   "noktalar": [
+    "Savannakhet"
+   ],
+   "gunler": [
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Vientiane",
+   "dmin_km": 275,
+   "koridor": {
+    "sukhothai": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 275 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 184,
+   "kita": "Asya",
+   "sahip": "laos-kralliklari",
+   "noktalar": [
+    "Attapeu",
+    "Champasak",
+    "Savannakhet"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Vientiane",
+   "dmin_km": 275,
+   "koridor": {
+    "tonburi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 275 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 185,
+   "kita": "Asya",
+   "sahip": "laos-kralliklari",
+   "noktalar": [
+    "Savannakhet"
+   ],
+   "gunler": [
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "Xieng Khouang",
+   "dmin_km": 363,
+   "koridor": {
+    "siyam-chakri": 2,
+    "nguyen-hanedani": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 363 km, koridorda 3 başka sahipli nokta (siyam-chakri:2, nguyen-hanedani:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 186,
+   "kita": "Asya",
+   "sahip": "le-hanedani",
+   "noktalar": [
+    "Huế (Phú Xuân)",
+    "Quang Tri"
+   ],
+   "gunler": [
+    "1453-05-29"
+   ],
+   "ana": "Vinh",
+   "dmin_km": 266,
+   "koridor": {
+    "lan-xang": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 266 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 187,
+   "kita": "Asya",
+   "sahip": "le-hanedani",
+   "noktalar": [
+    "Huế (Phú Xuân)",
+    "Hội An (Faifo)",
+    "Quang Ngai",
+    "Quang Tri",
+    "Vijaya (Quy Nhơn)",
+    "Đà Nẵng (Tourane)"
+   ],
+   "gunler": [
+    "1500-06-15",
+    "1526-09-01"
+   ],
+   "ana": "Vinh",
+   "dmin_km": 266,
+   "koridor": {
+    "lan-xang": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 266 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 188,
+   "kita": "Asya",
+   "sahip": "malaka-sultanligi",
+   "noktalar": [
+    "Medan (Deli)"
+   ],
+   "gunler": [
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01"
+   ],
+   "ana": "Muar",
+   "dmin_km": 466,
+   "koridor": {
+    "portekiz": 1,
+    "malay-sultanliklari": 3,
+    "ace-sultanligi": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 466 km, koridorda 6 başka sahipli nokta (malay-sultanliklari:3, ace-sultanligi:2, portekiz:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 189,
+   "kita": "Asya",
+   "sahip": "maratha",
+   "noktalar": [
+    "Cinci (Gingee)",
+    "Tancûr (Thanjavur)"
+   ],
+   "gunler": [
+    "1683-09-12"
+   ],
+   "ana": "Kolhapûr",
+   "dmin_km": 744,
+   "koridor": {
+    "babur-imparatorlugu": 1,
+    "bicapur": 7,
+    "golkonda": 4,
+    "portekiz": 1,
+    "nayak-devletleri": 1,
+    "meysur": 2,
+    "kalikut": 1,
+    "hollanda": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 744 km, koridorda 18 başka sahipli nokta (bicapur:7, golkonda:4, meysur:2, babur-imparatorlugu:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 190,
+   "kita": "Asya",
+   "sahip": "maratha",
+   "noktalar": [
+    "Ecmîr (Ajmer)"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15"
+   ],
+   "ana": "Nâsik",
+   "dmin_km": 723,
+   "koridor": {
+    "racput": 4,
+    "ingiliz-hindistani": 2,
+    "cunagadh": 1,
+    "indor": 1,
+    "bhopal": 1,
+    "haydarabad-nizam": 1,
+    "babur-imparatorlugu": 2,
+    "baroda": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 723 km, koridorda 13 başka sahipli nokta (racput:4, ingiliz-hindistani:2, babur-imparatorlugu:2, cunagadh:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 191,
+   "kita": "Asya",
+   "sahip": "maratha",
+   "noktalar": [
+    "Ahmedâbâd",
+    "Kanbâyet (Khambhat)",
+    "Mandu (Mândû)",
+    "Patan (Anhilvâda)",
+    "Uccayn (Ujjain)",
+    "Çampâner"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15"
+   ],
+   "ana": "Nagpûr",
+   "dmin_km": 403,
+   "koridor": {
+    "indor": 1,
+    "bhopal": 1,
+    "haydarabad-nizam": 1,
+    "babur-imparatorlugu": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 403 km, koridorda 5 başka sahipli nokta (babur-imparatorlugu:2, indor:1, bhopal:1, haydarabad-nizam:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 192,
+   "kita": "Asya",
+   "sahip": "maratha",
+   "noktalar": [
+    "Nagpûr"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1850-06-15"
+   ],
+   "ana": "Ahmednagar",
+   "dmin_km": 507,
+   "koridor": {
+    "indor": 1,
+    "haydarabad-nizam": 7,
+    "babur-imparatorlugu": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 507 km, koridorda 10 başka sahipli nokta (haydarabad-nizam:7, babur-imparatorlugu:2, indor:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 193,
+   "kita": "Asya",
+   "sahip": "maratha",
+   "noktalar": [
+    "Raipur",
+    "Ratanpur"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Ahmednagar",
+   "dmin_km": 757,
+   "koridor": {
+    "indor": 1,
+    "bhopal": 1,
+    "gond-kralliklari": 1,
+    "haydarabad-nizam": 10,
+    "ingiliz-hindistani": 1,
+    "babur-imparatorlugu": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 757 km, koridorda 16 başka sahipli nokta (haydarabad-nizam:10, babur-imparatorlugu:2, indor:1, bhopal:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 194,
+   "kita": "Asya",
+   "sahip": "maratha",
+   "noktalar": [
+    "Agra",
+    "Delhi",
+    "Koil (Aligarh)",
+    "Mathura",
+    "Mîrat (Meerut)",
+    "Pânipat"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Cabalpûr (Jabalpur)",
+   "dmin_km": 487,
+   "koridor": {
+    "avad": 6,
+    "gvalyar": 1,
+    "bhopal": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 487 km, koridorda 8 başka sahipli nokta (avad:6, gvalyar:1, bhopal:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 195,
+   "kita": "Asya",
+   "sahip": "maratha",
+   "noktalar": [
+    "Ahmednagar",
+    "Bîcâpur (Bijapur)",
+    "Nâsik",
+    "Pûne (Poona)",
+    "Raygad",
+    "Satâra",
+    "Çaul (Chaul)"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Nagpûr",
+   "dmin_km": 507,
+   "koridor": {
+    "indor": 1,
+    "haydarabad-nizam": 7,
+    "babur-imparatorlugu": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 507 km, koridorda 10 başka sahipli nokta (haydarabad-nizam:7, babur-imparatorlugu:2, indor:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 196,
+   "kita": "Asya",
+   "sahip": "meiji-japonya",
+   "noktalar": [
+    "Lüşun (Port Arthur)"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Ûicu (Uiju)",
+   "dmin_km": 320,
+   "koridor": {
+    "cin-cumhuriyeti": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: meiji-japonya gövdesi başka kıtada/kıyıda; ana gövdeye 320 km, arada cin-cumhuriyeti",
+   "yol": "kural"
+  },
+  {
+   "no": 197,
+   "kita": "Asya",
+   "sahip": "meiji-japonya",
+   "noktalar": [
+    "Qingdao (Tsingtau)"
+   ],
+   "gunler": [
+    "1918-11-11"
+   ],
+   "ana": "Ganghwa",
+   "dmin_km": 574,
+   "koridor": {
+    "cin-cumhuriyeti": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: meiji-japonya gövdesi başka kıtada/kıyıda; ana gövdeye 574 km, arada cin-cumhuriyeti",
+   "yol": "kural"
+  },
+  {
+   "no": 198,
+   "kita": "Asya",
+   "sahip": "memluk",
+   "noktalar": [
+    "Arkîko",
+    "Dahlak",
+    "Masavva"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15"
+   ],
+   "ana": "Akīk",
+   "dmin_km": 321,
+   "koridor": {
+    "habesistan": 4
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "KESİN VERİ HATASI (düzeltilmedi, Emre kararı): Masavva, Dahlak, Arkîko 1281-1517 'memluk' yazılı; TDV masavva: 'XII-XIV. yüzyıllarda ... Dehlek emîrlerinin hâkimiyetinde', 'XIV. yüzyılın sonunda yine Habeş topraklarına katıldığı, XVI. yüzyılda ise tekrar Dehlek’in himaye ve kontrolüne girdiği' — Memlük değil; yüzyıl hassasiyeti yüzünden gün yazılamıyor",
+   "yol": "elle"
+  },
+  {
+   "no": 199,
+   "kita": "Asya",
+   "sahip": "ming-hanedani",
+   "noktalar": [
+    "Chuxiong",
+    "Dali",
+    "Jingdong",
+    "Kaihua (Wenshan)",
+    "Kunming",
+    "Lijiang",
+    "Lin'an (Jianshui)",
+    "Mengzi",
+    "Mianning (Lincang)",
+    "Shunning (Fengqing)",
+    "Tengyue (Tengchong)",
+    "Tonghai",
+    "Yongchang (Baoshan)",
+    "Yuanjiang"
+   ],
+   "gunler": [
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15"
+   ],
+   "ana": "Guilin",
+   "dmin_km": 648,
+   "koridor": {
+    "ho-hanedani": 4
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Yunnan noktaları (Dali, Chuxiong, Jingdong, Kaihua) Çin gövdesinden ~650 km kopuk; koridordaki 4 nokta kuzey Vietnam'dadır (geometrik koridor), Yunnan-Guizhou-Sichuan arasında Çin noktası yok — nokta seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 200,
+   "kita": "Asya",
+   "sahip": "mogolistan",
+   "noktalar": [
+    "Urga (Ulan Batur)"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Uliastay",
+   "dmin_km": 751,
+   "koridor": {
+    "rusya": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (rusya), ana gövdeye 751 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 201,
+   "kita": "Asya",
+   "sahip": "mogolistan",
+   "noktalar": [
+    "Ömnögovi (Dalanzadgad)"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Gobi-Altay (Yösönbulag)",
+   "dmin_km": 713,
+   "koridor": {
+    "cin-cumhuriyeti": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (cin-cumhuriyeti), ana gövdeye 713 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 202,
+   "kita": "Asya",
+   "sahip": "mogulistan",
+   "noktalar": [
+    "Turfan"
+   ],
+   "gunler": [
+    "1526-09-01",
+    "1600-06-15"
+   ],
+   "ana": "Manas (Cungarya)",
+   "dmin_km": 283,
+   "koridor": {
+    "yarkent-hanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 283 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 203,
+   "kita": "Asya",
+   "sahip": "mogulistan",
+   "noktalar": [
+    "Hâmi (Kumul)"
+   ],
+   "gunler": [
+    "1526-09-01",
+    "1600-06-15"
+   ],
+   "ana": "Manas (Cungarya)",
+   "dmin_km": 611,
+   "koridor": {
+    "kuzey-yuan": 1,
+    "yarkent-hanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (kuzey-yuan, yarkent-hanligi), ana gövdeye 611 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 204,
+   "kita": "Asya",
+   "sahip": "mogulistan",
+   "noktalar": [
+    "Almatı (Vernıy)",
+    "Balasagun (Ak-Beşim)",
+    "Issık Göl havzası",
+    "Narın (Naryn)"
+   ],
+   "gunler": [
+    "1526-09-01",
+    "1600-06-15"
+   ],
+   "ana": "Çöçek (Tarbagatay)",
+   "dmin_km": 618,
+   "koridor": {
+    "yarkent-hanligi": 1,
+    "kazak-hanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (kazak-hanligi, yarkent-hanligi), ana gövdeye 618 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 205,
+   "kita": "Asya",
+   "sahip": "nayak-devletleri",
+   "noktalar": [
+    "Mangalor"
+   ],
+   "gunler": [
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Trichinopoly (Tiruchirappalli)",
+   "dmin_km": 481,
+   "koridor": {
+    "bicapur": 1,
+    "meysur": 2,
+    "vijayanagara": 1,
+    "kalikut": 1,
+    "portekiz": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 481 km, koridorda 7 başka sahipli nokta (meysur:2, portekiz:2, bicapur:1, vijayanagara:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 206,
+   "kita": "Asya",
+   "sahip": "nguyen-beyligi",
+   "noktalar": [
+    "Ben Tre",
+    "Can Tho",
+    "Rach Gia",
+    "Saygon (Gia Định)",
+    "Tay Ninh",
+    "Tra Vinh",
+    "Vinh Long"
+   ],
+   "gunler": [
+    "1700-06-15"
+   ],
+   "ana": "Nha Trang (Kauthara)",
+   "dmin_km": 320,
+   "koridor": {
+    "campa": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (campa), ana gövdeye 320 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 207,
+   "kita": "Asya",
+   "sahip": "nguyen-beyligi",
+   "noktalar": [
+    "Huế (Phú Xuân)",
+    "Hội An (Faifo)",
+    "Quang Ngai",
+    "Quang Tri",
+    "Đà Nẵng (Tourane)"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Tay Ninh",
+   "dmin_km": 515,
+   "koridor": {
+    "laos-kralliklari": 2,
+    "tay-son": 1,
+    "campa": 1,
+    "kamboc-kralligi": 5
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 515 km, koridorda 9 başka sahipli nokta (kamboc-kralligi:5, laos-kralliklari:2, tay-son:1, campa:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 208,
+   "kita": "Asya",
+   "sahip": "nguyen-beyligi",
+   "noktalar": [
+    "Nha Trang (Kauthara)"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Saygon (Gia Định)",
+   "dmin_km": 320,
+   "koridor": {
+    "campa": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (campa), ana gövdeye 320 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 209,
+   "kita": "Asya",
+   "sahip": "nguyen-hanedani",
+   "noktalar": [
+    "Huế (Phú Xuân)",
+    "Hội An (Faifo)",
+    "Nha Trang (Kauthara)",
+    "Phan Rang (Panduranga)",
+    "Quang Ngai",
+    "Quang Tri",
+    "Vijaya (Quy Nhơn)",
+    "Đà Nẵng (Tourane)"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "Vinh",
+   "dmin_km": 266,
+   "koridor": {
+    "laos-kralliklari": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 266 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 210,
+   "kita": "Asya",
+   "sahip": "nogay",
+   "noktalar": [
+    "Uralsk (Yayık)"
+   ],
+   "gunler": [
+    "1453-05-29",
+    "1500-06-15",
+    "1600-06-15"
+   ],
+   "ana": "Penza",
+   "dmin_km": 487,
+   "koridor": {
+    "kazan": 4,
+    "altinorda": 5
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 487 km, koridorda 9 başka sahipli nokta (altinorda:5, kazan:4); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 211,
+   "kita": "Asya",
+   "sahip": "nogay",
+   "noktalar": [
+    "Başkurt toprakları (İdil-Ural)"
+   ],
+   "gunler": [
+    "1526-09-01"
+   ],
+   "ana": "Samara",
+   "dmin_km": 621,
+   "koridor": {
+    "kazan": 5,
+    "moskova": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 621 km, koridorda 7 başka sahipli nokta (kazan:5, moskova:2); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 212,
+   "kita": "Asya",
+   "sahip": "qing-hanedani",
+   "noktalar": [
+    "Chuxiong",
+    "Dali",
+    "Jingdong",
+    "Kaihua (Wenshan)",
+    "Kunming",
+    "Lijiang",
+    "Lin'an (Jianshui)",
+    "Mengzi",
+    "Mianning (Lincang)",
+    "Shunning (Fengqing)",
+    "Tengyue (Tengchong)",
+    "Tonghai",
+    "Yongchang (Baoshan)",
+    "Yuanjiang"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Guilin",
+   "dmin_km": 648,
+   "koridor": {
+    "le-hanedani": 4
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Yunnan noktaları (Dali, Chuxiong, Jingdong, Kaihua) Çin gövdesinden ~650 km kopuk; koridordaki 4 nokta kuzey Vietnam'dadır (geometrik koridor), Yunnan-Guizhou-Sichuan arasında Çin noktası yok — nokta seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 213,
+   "kita": "Asya",
+   "sahip": "qing-hanedani",
+   "noktalar": [
+    "Chuxiong",
+    "Dali",
+    "Jingdong",
+    "Kaihua (Wenshan)",
+    "Kunming",
+    "Lijiang",
+    "Lin'an (Jianshui)",
+    "Mengzi",
+    "Mianning (Lincang)",
+    "Ning'er (Pu'er)",
+    "Shunning (Fengqing)",
+    "Tengyue (Tengchong)",
+    "Tonghai",
+    "Yongchang (Baoshan)",
+    "Yuanjiang"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15"
+   ],
+   "ana": "Guilin",
+   "dmin_km": 648,
+   "koridor": {
+    "le-hanedani": 4
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Yunnan noktaları (Dali, Chuxiong, Jingdong, Kaihua) Çin gövdesinden ~650 km kopuk; koridordaki 4 nokta kuzey Vietnam'dadır (geometrik koridor), Yunnan-Guizhou-Sichuan arasında Çin noktası yok — nokta seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 214,
+   "kita": "Asya",
+   "sahip": "qing-hanedani",
+   "noktalar": [
+    "Yantai (Chefoo)"
+   ],
+   "gunler": [
+    "1900-06-15"
+   ],
+   "ana": "Yangzhou",
+   "dmin_km": 593,
+   "koridor": {
+    "almanya": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (almanya), ana gövdeye 593 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 215,
+   "kita": "Asya",
+   "sahip": "racput",
+   "noktalar": [
+    "Caysalmer"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Udeypûr (Udaipur)",
+   "dmin_km": 382,
+   "koridor": {
+    "babur-imparatorlugu": 3
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 382 km, koridorda 3 başka sahipli nokta (babur-imparatorlugu:3); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 216,
+   "kita": "Asya",
+   "sahip": "racput",
+   "noktalar": [
+    "Cûnâgadh"
+   ],
+   "gunler": [
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29"
+   ],
+   "ana": "Çitor (Chittorgarh)",
+   "dmin_km": 567,
+   "koridor": {
+    "gucerat-sultanligi": 6,
+    "delhi-sultanligi": 1,
+    "malva-sultanligi": 1,
+    "behmeni": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 567 km, koridorda 10 başka sahipli nokta (gucerat-sultanligi:6, behmeni:2, delhi-sultanligi:1, malva-sultanligi:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 217,
+   "kita": "Asya",
+   "sahip": "racput",
+   "noktalar": [
+    "Gvalyar (Gwalior)"
+   ],
+   "gunler": [
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15"
+   ],
+   "ana": "Ecmîr (Ajmer)",
+   "dmin_km": 354,
+   "koridor": {
+    "delhi-sultanligi": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (delhi-sultanligi), ana gövdeye 354 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 218,
+   "kita": "Asya",
+   "sahip": "racput",
+   "noktalar": [
+    "Bhuc (Kutch)"
+   ],
+   "gunler": [
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Udeypûr (Udaipur)",
+   "dmin_km": 437,
+   "koridor": {
+    "babur-imparatorlugu": 7
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 437 km, koridorda 7 başka sahipli nokta (babur-imparatorlugu:7); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 219,
+   "kita": "Asya",
+   "sahip": "racput",
+   "noktalar": [
+    "Bikaner"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Çitor (Chittorgarh)",
+   "dmin_km": 373,
+   "koridor": {
+    "babur-imparatorlugu": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (babur-imparatorlugu), ana gövdeye 373 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 220,
+   "kita": "Asya",
+   "sahip": "racput",
+   "noktalar": [
+    "Caypûr (Jaipur)"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Çitor (Chittorgarh)",
+   "dmin_km": 254,
+   "koridor": {
+    "maratha": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 254 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 221,
+   "kita": "Asya",
+   "sahip": "rusya",
+   "noktalar": [
+    "Terek deltası (Kızlar)"
+   ],
+   "gunler": [
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21"
+   ],
+   "ana": "Astrahan",
+   "dmin_km": 296,
+   "koridor": {
+    "safevi": 1,
+    "turkmen": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 296 km (≤300); arada kendi noktası yok, koridordaki 2 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 222,
+   "kita": "Asya",
+   "sahip": "rusya",
+   "noktalar": [
+    "Ural eteği"
+   ],
+   "gunler": [
+    "1600-06-15"
+   ],
+   "ana": "Samara",
+   "dmin_km": 275,
+   "koridor": {
+    "nogay": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 275 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 223,
+   "kita": "Asya",
+   "sahip": "rusya",
+   "noktalar": [
+    "Kabartay (Nalçik)"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Kalmuk bozkırı",
+   "dmin_km": 365,
+   "koridor": {
+    "zend": 1,
+    "kirim": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (kirim, zend), ana gövdeye 365 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 224,
+   "kita": "Asya",
+   "sahip": "rusya",
+   "noktalar": [
+    "Semipalatinsk",
+    "Ust-Kamenogorsk",
+    "Zmeinogorsk"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28"
+   ],
+   "ana": "Omsk",
+   "dmin_km": 689,
+   "koridor": {
+    "kazak-hanligi": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (kazak-hanligi), ana gövdeye 689 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 225,
+   "kita": "Asya",
+   "sahip": "rusya",
+   "noktalar": [
+    "Akmola (Akmolinsk)"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28"
+   ],
+   "ana": "Omsk",
+   "dmin_km": 447,
+   "koridor": {
+    "kazak-hanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (kazak-hanligi), ana gövdeye 447 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 226,
+   "kita": "Asya",
+   "sahip": "rusya",
+   "noktalar": [
+    "Karkaralinsk (Karkaralı)"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28"
+   ],
+   "ana": "Omsk",
+   "dmin_km": 637,
+   "koridor": {
+    "kazak-hanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (kazak-hanligi), ana gövdeye 637 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 227,
+   "kita": "Asya",
+   "sahip": "rusya",
+   "noktalar": [
+    "Kazalinsk (Kazalı)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Orsk",
+   "dmin_km": 662,
+   "koridor": {
+    "kazak-hanligi": 4
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 662 km, koridorda 4 başka sahipli nokta (kazak-hanligi:4); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 228,
+   "kita": "Asya",
+   "sahip": "sammar",
+   "noktalar": [
+    "Teymâ"
+   ],
+   "gunler": [
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11"
+   ],
+   "ana": "Buraydâ (Kasîm)",
+   "dmin_km": 557,
+   "koridor": {
+    "OSMANLI": 2
+   },
+   "durum_1015": "veri-degisti",
+   "sinif": "c",
+   "gerekce": "tarama sonrası veri değişti; aday bugünkü veride aynı sahipte değil (yeniden ölçülmeli değil, kapanmış sayılır)",
+   "yol": "olcum"
+  },
+  {
+   "no": 229,
+   "kita": "Asya",
+   "sahip": "san-devletleri",
+   "noktalar": [
+    "Kalaw",
+    "Loikaw"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15"
+   ],
+   "ana": "Kengtung",
+   "dmin_km": 308,
+   "koridor": {
+    "lan-na": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (lan-na), ana gövdeye 308 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 230,
+   "kita": "Asya",
+   "sahip": "san-devletleri",
+   "noktalar": [
+    "Kengtung"
+   ],
+   "gunler": [
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Loikaw",
+   "dmin_km": 308,
+   "koridor": {
+    "siyam-chakri": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (siyam-chakri), ana gövdeye 308 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 231,
+   "kita": "Asya",
+   "sahip": "siyam-chakri",
+   "noktalar": [
+    "Chumphon",
+    "Nakhon Si Thammarat",
+    "Patani",
+    "Phuket (Thalang)",
+    "Songkhla",
+    "Surat Thani",
+    "Trang"
+   ],
+   "gunler": [
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Phetchaburi",
+   "dmin_km": 303,
+   "koridor": {
+    "konbaung": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (konbaung), ana gövdeye 303 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 232,
+   "kita": "Asya",
+   "sahip": "siyam-chakri",
+   "noktalar": [
+    "Attapeu",
+    "Champasak"
+   ],
+   "gunler": [
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "Roi Et",
+   "dmin_km": 271,
+   "koridor": {
+    "laos-kralliklari": 1,
+    "kamboc-kralligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 271 km (≤300); arada kendi noktası yok, koridordaki 2 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 233,
+   "kita": "Asya",
+   "sahip": "sovyet-rusya",
+   "noktalar": [
+    "Aşkabad",
+    "Dihistan ovası (Meşhed-i Misriyân)",
+    "Ebîverd",
+    "Garabogaz (Bekdaş)",
+    "Krasnovodsk (Türkmenbaşı)",
+    "Kızılarvat",
+    "Merv (Mari)",
+    "Nesâ",
+    "Çeleken"
+   ],
+   "gunler": [
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Şâbüran",
+   "dmin_km": 305,
+   "koridor": {
+    "azerbaycan-demokratik-cumhuriyeti": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (azerbaycan-demokratik-cumhuriyeti), ana gövdeye 305 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 234,
+   "kita": "Asya",
+   "sahip": "sukhothai",
+   "noktalar": [
+    "Chumphon",
+    "Nakhon Si Thammarat",
+    "Phuket (Thalang)",
+    "Songkhla",
+    "Surat Thani",
+    "Trang"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15"
+   ],
+   "ana": "Phetchaburi",
+   "dmin_km": 303,
+   "koridor": {
+    "pagan": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (pagan), ana gövdeye 303 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 235,
+   "kita": "Asya",
+   "sahip": "suud",
+   "noktalar": [
+    "Cübeyl",
+    "Katîf",
+    "Lahsa",
+    "Ukayr (Uceyr)"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Riyad",
+   "dmin_km": 303,
+   "koridor": {
+    "suud-birinci": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (suud-birinci), ana gövdeye 303 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 236,
+   "kita": "Asya",
+   "sahip": "suud-ucuncu",
+   "noktalar": [
+    "Teymâ"
+   ],
+   "gunler": [
+    "1923-10-28"
+   ],
+   "ana": "Buraydâ (Kasîm)",
+   "dmin_km": 557,
+   "koridor": {
+    "hicaz": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (hicaz), ana gövdeye 557 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 237,
+   "kita": "Asya",
+   "sahip": "tay-son",
+   "noktalar": [
+    "Huế (Phú Xuân)",
+    "Hội An (Faifo)",
+    "Nha Trang (Kauthara)",
+    "Quang Ngai",
+    "Quang Tri",
+    "Vijaya (Quy Nhơn)",
+    "Đà Nẵng (Tourane)"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Vinh",
+   "dmin_km": 266,
+   "koridor": {
+    "laos-kralliklari": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 266 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 238,
+   "kita": "Asya",
+   "sahip": "ternate-sultanligi",
+   "noktalar": [
+    "Ambon",
+    "Seram (Ceram)"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15"
+   ],
+   "ana": "Manado",
+   "dmin_km": 684,
+   "koridor": {
+    "tidore-sultanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (tidore-sultanligi), ana gövdeye 684 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 239,
+   "kita": "Asya",
+   "sahip": "ternate-sultanligi",
+   "noktalar": [
+    "Seram (Ceram)"
+   ],
+   "gunler": [
+    "1526-09-01",
+    "1600-06-15"
+   ],
+   "ana": "Manado",
+   "dmin_km": 726,
+   "koridor": {
+    "portekiz": 2,
+    "tidore-sultanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 726 km, koridorda 3 başka sahipli nokta (portekiz:2, tidore-sultanligi:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 240,
+   "kita": "Asya",
+   "sahip": "tibet",
+   "noktalar": [
+    "Çamdo (Chamdo)"
+   ],
+   "gunler": [
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15"
+   ],
+   "ana": "Lhasa",
+   "dmin_km": 599,
+   "koridor": {
+    "ahom": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (ahom), ana gövdeye 599 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 241,
+   "kita": "Asya",
+   "sahip": "tibet-ganden-phodrang",
+   "noktalar": [
+    "Çamdo (Chamdo)"
+   ],
+   "gunler": [
+    "1683-09-12",
+    "1700-06-15",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Lhasa",
+   "dmin_km": 599,
+   "koridor": {
+    "ahom": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (ahom), ana gövdeye 599 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 242,
+   "kita": "Asya",
+   "sahip": "timurlu",
+   "noktalar": [
+    "Gazne",
+    "Kâbil"
+   ],
+   "gunler": [
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15"
+   ],
+   "ana": "Herat",
+   "dmin_km": 580,
+   "koridor": {
+    "buhara": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (buhara), ana gövdeye 580 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 243,
+   "kita": "Asya",
+   "sahip": "timurlu",
+   "noktalar": [
+    "Belh"
+   ],
+   "gunler": [
+    "1500-06-15"
+   ],
+   "ana": "Merv (Mari)",
+   "dmin_km": 458,
+   "koridor": {
+    "buhara": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (buhara), ana gövdeye 458 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 244,
+   "kita": "Asya",
+   "sahip": "tonburi",
+   "noktalar": [
+    "Chumphon",
+    "Nakhon Si Thammarat",
+    "Phuket (Thalang)",
+    "Songkhla",
+    "Surat Thani",
+    "Trang"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Phetchaburi",
+   "dmin_km": 303,
+   "koridor": {
+    "konbaung": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (konbaung), ana gövdeye 303 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 245,
+   "kita": "Asya",
+   "sahip": "toungoo",
+   "noktalar": [
+    "Chiang Mai",
+    "Chiang Rai",
+    "Nan"
+   ],
+   "gunler": [
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Toungoo",
+   "dmin_km": 269,
+   "koridor": {
+    "san-devletleri": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 269 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 246,
+   "kita": "Asya",
+   "sahip": "turkmen",
+   "noktalar": [
+    "Mangışlak"
+   ],
+   "gunler": [
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15",
+    "1878-07-13"
+   ],
+   "ana": "Kızılarvat",
+   "dmin_km": 791,
+   "koridor": {
+    "rusya": 15,
+    "kacar": 5,
+    "hive": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 791 km, koridorda 21 başka sahipli nokta (rusya:15, kacar:5, hive:1); kaynak beyanı yok — kaynakla elenmeli",
+   "yol": "kural"
+  },
+  {
+   "no": 247,
+   "kita": "Asya",
+   "sahip": "turkmen",
+   "noktalar": [
+    "Kızılarvat"
+   ],
+   "gunler": [
+    "1800-06-15",
+    "1850-06-15"
+   ],
+   "ana": "Çeleken",
+   "dmin_km": 276,
+   "koridor": {
+    "kacar": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 276 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 248,
+   "kita": "Asya",
+   "sahip": "umman",
+   "noktalar": [
+    "Buraymî",
+    "Nizva"
+   ],
+   "gunler": [
+    "1526-09-01",
+    "1600-06-15"
+   ],
+   "ana": "Muhût",
+   "dmin_km": 255,
+   "koridor": {
+    "portekiz": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 255 km (≤300); arada kendi noktası yok, koridordaki 1 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 249,
+   "kita": "Asya",
+   "sahip": "vijayanagara",
+   "noktalar": [
+    "Vijayanagara (Hampi)"
+   ],
+   "gunler": [
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29"
+   ],
+   "ana": "Mangalor",
+   "dmin_km": 320,
+   "koridor": {
+    "behmeni": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 1 yabancı nokta (behmeni), ana gövdeye 320 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 250,
+   "kita": "Asya",
+   "sahip": "yadava",
+   "noktalar": [
+    "Elicpûr (Achalpur)"
+   ],
+   "gunler": [
+    "1281-01-02"
+   ],
+   "ana": "Devagiri (Devletâbâd)",
+   "dmin_km": 280,
+   "koridor": {
+    "racput": 1,
+    "delhi-sultanligi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "A-koridor: ana gövdeye 280 km (≤300); arada kendi noktası yok, koridordaki 2 yabancı nokta bölge sınırını değil nokta yoğunluğunu gösteriyor",
+   "yol": "kural"
+  },
+  {
+   "no": 251,
+   "kita": "Asya",
+   "sahip": "yarkent-hanligi",
+   "noktalar": [
+    "Kaşgar",
+    "Yarkent (Şaçe)"
+   ],
+   "gunler": [
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Uçturfan (Uç Turfan)",
+   "dmin_km": 324,
+   "koridor": {
+    "mogulistan": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (mogulistan), ana gövdeye 324 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 252,
+   "kita": "Asya",
+   "sahip": "yuan-hanedani",
+   "noktalar": [
+    "Chuxiong",
+    "Dali",
+    "Jingdong",
+    "Kaihua (Wenshan)",
+    "Kunming",
+    "Lijiang",
+    "Lin'an (Jianshui)",
+    "Mengzi",
+    "Mianning (Lincang)",
+    "Tengyue (Tengchong)",
+    "Tonghai",
+    "Yongchang (Baoshan)",
+    "Yuanjiang"
+   ],
+   "gunler": [
+    "1281-01-02"
+   ],
+   "ana": "Guilin",
+   "dmin_km": 648,
+   "koridor": {
+    "tran-hanedani": 4
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Yunnan noktaları (Dali, Chuxiong, Jingdong, Kaihua) Çin gövdesinden ~650 km kopuk; koridordaki 4 nokta kuzey Vietnam'dadır (geometrik koridor), Yunnan-Guizhou-Sichuan arasında Çin noktası yok — nokta seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 253,
+   "kita": "Asya",
+   "sahip": "yuan-hanedani",
+   "noktalar": [
+    "Chuxiong",
+    "Dali",
+    "Jingdong",
+    "Kaihua (Wenshan)",
+    "Kunming",
+    "Lijiang",
+    "Lin'an (Jianshui)",
+    "Mengzi",
+    "Mianning (Lincang)",
+    "Shunning (Fengqing)",
+    "Tengyue (Tengchong)",
+    "Tonghai",
+    "Yongchang (Baoshan)",
+    "Yuanjiang"
+   ],
+   "gunler": [
+    "1350-06-15"
+   ],
+   "ana": "Guilin",
+   "dmin_km": 648,
+   "koridor": {
+    "tran-hanedani": 4
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Yunnan noktaları (Dali, Chuxiong, Jingdong, Kaihua) Çin gövdesinden ~650 km kopuk; koridordaki 4 nokta kuzey Vietnam'dadır (geometrik koridor), Yunnan-Guizhou-Sichuan arasında Çin noktası yok — nokta seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 254,
+   "kita": "Asya",
+   "sahip": "zend",
+   "noktalar": [
+    "Manama (Bahreyn)"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Buşehr",
+   "dmin_km": 306,
+   "koridor": {
+    "benihalid": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "koridorda yalnız 2 yabancı nokta (benihalid), ana gövdeye 306 km — iç bölge nokta seyrekliği",
+   "yol": "kural"
+  },
+  {
+   "no": 255,
+   "kita": "Avrupa",
+   "sahip": "HABSBURG",
+   "noktalar": [
+    "Anvers (Antwerpen)",
+    "Arlon",
+    "Bastogne",
+    "Brüj (Brugge)",
+    "Brüksel",
+    "Gent",
+    "Lüksemburg",
+    "Mons",
+    "Namur",
+    "Neufchâteau (Belçika)",
+    "St. Vith (Sankt Vith)",
+    "Tournai",
+    "Virton",
+    "Wiltz",
+    "Ypres"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Bregenz",
+   "dmin_km": 355,
+   "koridor": {
+    "almanya": 9,
+    "fransa": 5,
+    "isvicre": 6
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 256,
+   "kita": "Avrupa",
+   "sahip": "HABSBURG",
+   "noktalar": [
+    "Lvov",
+    "Suçava (Suceava)",
+    "Yazlofça (Yazlovets)",
+    "Çernovitz (Çernivtsi)"
+   ],
+   "gunler": [
+    "1918-11-11"
+   ],
+   "ana": "Viyana",
+   "dmin_km": 587,
+   "koridor": {
+    "macaristan-naiplik": 34,
+    "polonya": 8,
+    "cekoslovakya": 5,
+    "almanya": 8
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "HABSBURG 1918-11-11: monarşinin çöküş günü; Galiçya/Bukovina kalıntısı ile Viyana arasındaki kopukluk tek günlük çözülme anıdır (geçici cephe)",
+   "yol": "elle"
+  },
+  {
+   "no": 257,
+   "kita": "Avrupa",
+   "sahip": "OSMANLI",
+   "noktalar": [
+    "Saraybosna",
+    "Visoko"
+   ],
+   "gunler": [
+    "1453-05-29"
+   ],
+   "ana": "Debre (Dibra)",
+   "dmin_km": 312,
+   "koridor": {
+    "sirp-despotlugu": 5,
+    "venedik": 4,
+    "arnavutluk": 2,
+    "sirbistan": 4,
+    "hersek": 3,
+    "macaristan": 2,
+    "bosna": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "Osmanlı Hodidjed uç vilâyeti 1453: TDV saraybosna 'Hodidjed vilâyeti Saray ovası ile beraber 852’de (1448) tamamen Osmanlı idaresi altına girdi ... güçlü bir uç sahası' — Bosna ve Sırp despotluğu arasında gerçek uç; beyan yazılmadı (Visoko kaydının kendi kaynağı yok)",
+   "yol": "elle"
+  },
+  {
+   "no": 258,
+   "kita": "Avrupa",
+   "sahip": "OSMANLI",
+   "noktalar": [
+    "Azak"
+   ],
+   "gunler": [
+    "1500-06-15"
+   ],
+   "ana": "Maykop (Çerkezya)",
+   "dmin_km": 283,
+   "koridor": {
+    "altinorda": 3
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "Azak 1475-1637 Osmanlı kale-şehri, enklav:true beyanlı (TDV azak)",
+   "yol": "elle"
+  },
+  {
+   "no": 259,
+   "kita": "Avrupa",
+   "sahip": "almanya",
+   "noktalar": [
+    "Cēsis (Wenden)",
+    "Daugavpils (Dünaburg)",
+    "Klaipėda (Memel)",
+    "Königsberg",
+    "Narva",
+    "Pärnu",
+    "Riga",
+    "Rēzekne (Rositten)",
+    "Tallinn (Reval)",
+    "Tartu (Dorpat)"
+   ],
+   "gunler": [
+    "1500-06-15"
+   ],
+   "ana": "Stettin (Szczecin)",
+   "dmin_km": 414,
+   "koridor": {
+    "polonya-erken": 5,
+    "danimarka": 2,
+    "isvec-birlik-oncesi": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: Livonya şehirleri (Riga, Tallinn, Narva, Cēsis...) 1500'de 'almanya' sahibiyle — Livonya Konfederasyonu/Kılıç Kardeşleri ayrı kimlik ister; model seçimi Emre'nin",
+   "yol": "elle"
+  },
+  {
+   "no": 260,
+   "kita": "Avrupa",
+   "sahip": "almanya",
+   "noktalar": [
+    "Cēsis (Wenden)",
+    "Daugavpils (Dünaburg)",
+    "Klaipėda (Memel)",
+    "Narva",
+    "Pärnu",
+    "Riga",
+    "Rēzekne (Rositten)",
+    "Tallinn (Reval)",
+    "Tartu (Dorpat)"
+   ],
+   "gunler": [
+    "1526-09-01"
+   ],
+   "ana": "Stettin (Szczecin)",
+   "dmin_km": 494,
+   "koridor": {
+    "polonya-erken": 6,
+    "prusya-dukaligi": 1,
+    "danimarka": 3,
+    "isvec": 3
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: Livonya 1526 'almanya' — bkz. no 259",
+   "yol": "elle"
+  },
+  {
+   "no": 261,
+   "kita": "Avrupa",
+   "sahip": "almanya",
+   "noktalar": [
+    "Ptuj (Pettau)"
+   ],
+   "gunler": [
+    "1526-09-01"
+   ],
+   "ana": "Třeboň (Wittingau)",
+   "dmin_km": 299,
+   "koridor": {
+    "macaristan": 9,
+    "HABSBURG": 8
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Ptuj (Pettau) 1526: Salzburg başpiskoposluğu mülkü 'almanya' altında; Habsburg Steiermark noktaları arasında — model/nokta meselesi, kaynakla tek nokta",
+   "yol": "elle"
+  },
+  {
+   "no": 262,
+   "kita": "Avrupa",
+   "sahip": "almanya",
+   "noktalar": [
+    "Klaipėda (Memel)"
+   ],
+   "gunler": [
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Rostock",
+   "dmin_km": 603,
+   "koridor": {
+    "lehistan": 6,
+    "HABSBURG": 3,
+    "danimarka": 3,
+    "prusya-dukaligi": 1,
+    "isvec": 16
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Klaipėda (Memel) 1600-1700: Prusya Dükalığı kıyısı; Königsberg'le arası nokta seyrekliği (Memel-Königsberg kıyısı Prusya'dır)",
+   "yol": "elle"
+  },
+  {
+   "no": 263,
+   "kita": "Avrupa",
+   "sahip": "almanya",
+   "noktalar": [
+    "Elbing (Elbląg)",
+    "Königsberg"
+   ],
+   "gunler": [
+    "1923-10-28"
+   ],
+   "ana": "Stettin (Szczecin)",
+   "dmin_km": 329,
+   "koridor": {
+    "danzig-serbest-sehri": 1,
+    "polonya": 2,
+    "danimarka": 1
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 264,
+   "kita": "Avrupa",
+   "sahip": "altinorda",
+   "noktalar": [
+    "Yedisan bozkırı"
+   ],
+   "gunler": [
+    "1453-05-29",
+    "1500-06-15"
+   ],
+   "ana": "Yediçkul bozkırı",
+   "dmin_km": 290,
+   "koridor": {
+    "kirim": 3,
+    "litvanya-buyuk-dukalik": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Yedisan bozkırı tek bozkır noktası — nokta seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 265,
+   "kita": "Avrupa",
+   "sahip": "altinorda",
+   "noktalar": [
+    "Kamışin",
+    "Petrovsk (Saratov)",
+    "Rın kumulları (Volga-Yayık arası)",
+    "Samara",
+    "Syzran"
+   ],
+   "gunler": [
+    "1500-06-15"
+   ],
+   "ana": "Bozkır (Deşt-i Kıpçak)",
+   "dmin_km": 303,
+   "koridor": {
+    "astarhan": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Volga orta çığırı bozkır noktaları — nokta seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 266,
+   "kita": "Avrupa",
+   "sahip": "astarhan",
+   "noktalar": [
+    "Ukek (Uvek)"
+   ],
+   "gunler": [
+    "1500-06-15"
+   ],
+   "ana": "Beldjamen",
+   "dmin_km": 285,
+   "koridor": {
+    "altinorda": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Ukek tek nokta — bozkır seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 267,
+   "kita": "Avrupa",
+   "sahip": "astarhan",
+   "noktalar": [
+    "Petrovsk (Saratov)",
+    "Ukek (Uvek)"
+   ],
+   "gunler": [
+    "1526-09-01"
+   ],
+   "ana": "Beldjamen",
+   "dmin_km": 285,
+   "koridor": {
+    "nogay": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Saratov/Ukek — bozkır seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 268,
+   "kita": "Avrupa",
+   "sahip": "bizans",
+   "noktalar": [
+    "Mankup",
+    "İnkirman (Kalamita)"
+   ],
+   "gunler": [
+    "1281-01-02"
+   ],
+   "ana": "Devrek",
+   "dmin_km": 400,
+   "koridor": {
+    "cobanogullari": 1,
+    "pervane": 1,
+    "ceneviz": 2,
+    "selcuklu": 3
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: Mankup ve İnkirman 1281-1349 'bizans' — Gotya/Teodoro bölgesi; Bizans'a bağlılık kaynaksız",
+   "yol": "elle"
+  },
+  {
+   "no": 269,
+   "kita": "Avrupa",
+   "sahip": "bizans",
+   "noktalar": [
+    "Bozbaba (Ay Strati)",
+    "Bozcaada",
+    "Limni",
+    "İmroz"
+   ],
+   "gunler": [
+    "1453-05-29"
+   ],
+   "ana": "Methana",
+   "dmin_km": 257,
+   "koridor": {
+    "OSMANLI": 2,
+    "atinadukaligi": 4,
+    "venedik": 14,
+    "ceneviz": 3
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ ŞÜPHESİ: Limni, Bozbaba 1479'a, İmroz ve Bozcaada 1455'e kadar 'bizans' — Bizans 29 Mayıs 1453'te sona erdi; aradaki sahip (Gattilusio / Venedik) kaynakla yazılmalı",
+   "yol": "elle"
+  },
+  {
+   "no": 270,
+   "kita": "Avrupa",
+   "sahip": "burgonya",
+   "noktalar": [
+    "Dijon"
+   ],
+   "gunler": [
+    "1400-06-15",
+    "1453-05-29"
+   ],
+   "ana": "Arras",
+   "dmin_km": 369,
+   "koridor": {
+    "fransa": 7,
+    "almanya": 13
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "Dijon — Burgonya Dükalığı'nın iki parçalı yapısı, enklav:true beyanlı (TDV belcika)",
+   "yol": "elle"
+  },
+  {
+   "no": 271,
+   "kita": "Avrupa",
+   "sahip": "ceneviz",
+   "noktalar": [
+    "Aluşta",
+    "Balaklava (Cembalo)",
+    "Kefe",
+    "Kerç",
+    "Sudak (Suğdak)",
+    "Taman",
+    "Yalta"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29"
+   ],
+   "ana": "Semadirek",
+   "dmin_km": 799,
+   "koridor": {
+    "OSMANLI": 56,
+    "bizans": 46,
+    "ahiler": 1,
+    "germiyan": 7,
+    "hamid": 7,
+    "ilhanli": 2,
+    "candar": 9,
+    "bulgaristan": 17,
+    "eflak": 11,
+    "altinorda": 10,
+    "eretna": 4,
+    "macaristan": 2,
+    "karaman": 1
+   },
+   "durum_1015": "kismen-beyanli",
+   "sinif": "a",
+   "gerekce": "Ceneviz Kırım kolonileri — Kefe, Sudak, Balaklava beyanlı (TDV ceneviz, kefe)",
+   "yol": "elle"
+  },
+  {
+   "no": 272,
+   "kita": "Avrupa",
+   "sahip": "ceneviz",
+   "noktalar": [
+    "Tabarka"
+   ],
+   "gunler": [
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Ayacyo (Ajaccio)",
+   "dmin_km": 554,
+   "koridor": {
+    "ispanya": 3,
+    "napoli": 1,
+    "OSMANLI": 3
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "Tabarka — Ceneviz'in (Lomellini) Kuzey Afrika kıyısındaki ada imtiyazı; gerçek denizaşırı parça, TDV kaynağı bulunamadı, beyan yazılmadı",
+   "yol": "elle"
+  },
+  {
+   "no": 273,
+   "kita": "Avrupa",
+   "sahip": "danimarka",
+   "noktalar": [
+    "Oslo"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01"
+   ],
+   "ana": "Aalborg",
+   "dmin_km": 322,
+   "koridor": {
+    "isvec-birlik-oncesi": 3,
+    "norvec-kralligi": 3
+   },
+   "durum_1015": "acik",
+   "sinif": "b",
+   "gerekce": "VERİ HATASI — DÜZELTİLDİ (KUTU-H7-1015): Oslo 1281-1537 'danimarka' yazılıydı, Bergen/Trondheim gibi norvec-kralligi yapıldı; danimarka 1537'den. Kaynak: Store norske leksikon 'Kalmarunionen' ('Norge ble et dansk lydrike i 1537')",
+   "yol": "elle"
+  },
+  {
+   "no": 274,
+   "kita": "Avrupa",
+   "sahip": "danimarka",
+   "noktalar": [
+    "Alta",
+    "Tromsø"
+   ],
+   "gunler": [
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21",
+    "1800-06-15"
+   ],
+   "ana": "Trondheim",
+   "dmin_km": 788,
+   "koridor": {
+    "isvec": 10
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Alta/Tromsø 1600-1800 Danimarka-Norveç: Trondheim-Tromsø kıyısı kesintisiz Norveç; koridordaki İsveç noktaları iç bölgede — nokta seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 275,
+   "kita": "Avrupa",
+   "sahip": "fransa",
+   "noktalar": [
+    "Ayacyo (Ajaccio)",
+    "Bastia (Korsika)"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Toulon",
+   "dmin_km": 265,
+   "koridor": {
+    "sardinya": 1
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 276,
+   "kita": "Avrupa",
+   "sahip": "fransa-cumhuriyet",
+   "noktalar": [
+    "Ayacyo (Ajaccio)",
+    "Bastia (Korsika)",
+    "Cenova"
+   ],
+   "gunler": [
+    "1800-06-15"
+   ],
+   "ana": "Toulon",
+   "dmin_km": 265,
+   "koridor": {
+    "sardinya": 1
+   },
+   "durum_1015": "kismen-beyanli",
+   "sinif": "a",
+   "gerekce": "Fransız Korsikası 1800 — beyanlı (TDV korsika); Cenova Ligurya Cumhuriyeti dönemi",
+   "yol": "elle"
+  },
+  {
+   "no": 277,
+   "kita": "Avrupa",
+   "sahip": "fransa-cumhuriyet",
+   "noktalar": [
+    "Annaba",
+    "Ayn Temûşent",
+    "Aynı Beydâ",
+    "Batna",
+    "Berc Bû Areric",
+    "Bicâye",
+    "Biskra",
+    "Blida",
+    "Bû Sa'âde",
+    "Cezayir",
+    "Cicel",
+    "Dellîs",
+    "Hanşele (Khenchela)",
+    "Kalme (Guelma)",
+    "Kolo",
+    "Konstantin",
+    "Medea (Titteri)",
+    "Mersa'l-Kebîr",
+    "Mesîle",
+    "Miliana",
+    "Muaskar",
+    "Mustagānim",
+    "Mîle",
+    "Nedrûme",
+    "Oran",
+    "Setif",
+    "Sikikde",
+    "Sîdî Bel Abbès",
+    "Sûk Ahrâs",
+    "Tebesse",
+    "Tenes",
+    "Tilimsan",
+    "Tâhert (Tiaret)",
+    "Şelif",
+    "Şerşel (Cherchell)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Perpignan",
+   "dmin_km": 650,
+   "koridor": {
+    "ispanya": 15,
+    "sardinya": 1
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 278,
+   "kita": "Avrupa",
+   "sahip": "fransa-cumhuriyet",
+   "noktalar": [
+    "Ayacyo (Ajaccio)",
+    "Bastia (Korsika)"
+   ],
+   "gunler": [
+    "1850-06-15"
+   ],
+   "ana": "Toulon",
+   "dmin_km": 265,
+   "koridor": {
+    "sardinya": 1
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 279,
+   "kita": "Avrupa",
+   "sahip": "ingiltere",
+   "noktalar": [
+    "Bayonne",
+    "Bordo"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15"
+   ],
+   "ana": "Plymouth",
+   "dmin_km": 671,
+   "koridor": {
+    "fransa": 16,
+    "bretanya": 6
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 280,
+   "kita": "Avrupa",
+   "sahip": "ingiltere",
+   "noktalar": [
+    "Bordo"
+   ],
+   "gunler": [
+    "1453-05-29"
+   ],
+   "ana": "Plymouth",
+   "dmin_km": 671,
+   "koridor": {
+    "fransa": 14,
+    "bretanya": 6,
+    "burgonya": 2
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 281,
+   "kita": "Avrupa",
+   "sahip": "ispanya",
+   "noktalar": [
+    "Amsterdam",
+    "Anvers (Antwerpen)",
+    "Arlon",
+    "Arras",
+    "Bastogne",
+    "Brüj (Brugge)",
+    "Brüksel",
+    "Gent",
+    "Groningen",
+    "Leeuwarden",
+    "Lille",
+    "Lüksemburg",
+    "Maastricht",
+    "Middelburg",
+    "Mons",
+    "Namur",
+    "Neufchâteau (Belçika)",
+    "Nijmegen",
+    "Rotterdam",
+    "St. Vith (Sankt Vith)",
+    "Tournai",
+    "Utrecht",
+    "Virton",
+    "Wiltz",
+    "Ypres"
+   ],
+   "gunler": [
+    "1526-09-01"
+   ],
+   "ana": "Perpignan",
+   "dmin_km": 790,
+   "koridor": {
+    "fransa": 27,
+    "milanoduka": 1,
+    "floransa": 2,
+    "sardinya": 3,
+    "ceneviz": 1,
+    "bretanya": 4,
+    "almanya": 8,
+    "isvicre": 7,
+    "papalik": 4,
+    "savoya": 5,
+    "venedik": 4,
+    "mantua": 1,
+    "ferrara": 2,
+    "HABSBURG": 3
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 282,
+   "kita": "Avrupa",
+   "sahip": "ispanya",
+   "noktalar": [
+    "Besançon"
+   ],
+   "gunler": [
+    "1526-09-01",
+    "1600-06-15"
+   ],
+   "ana": "Perpignan",
+   "dmin_km": 561,
+   "koridor": {
+    "fransa": 17,
+    "sardinya": 3,
+    "ceneviz": 1,
+    "papalik": 1,
+    "almanya": 1,
+    "savoya": 5,
+    "isvicre": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "Besançon — Franche-Comté, İspanya tacının Fransa ötesi mülkü (1678 Nijmegen'e dek); gerçek, TDV kaynağı bulunamadı, beyan yazılmadı",
+   "yol": "elle"
+  },
+  {
+   "no": 283,
+   "kita": "Avrupa",
+   "sahip": "ispanya",
+   "noktalar": [
+    "Milano"
+   ],
+   "gunler": [
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15"
+   ],
+   "ana": "Girona",
+   "dmin_km": 641,
+   "koridor": {
+    "fransa": 14,
+    "sardinya": 3,
+    "ceneviz": 3,
+    "toskana": 1,
+    "papalik": 1,
+    "isvicre": 4,
+    "savoya": 4
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 284,
+   "kita": "Avrupa",
+   "sahip": "ispanya",
+   "noktalar": [
+    "Anvers (Antwerpen)",
+    "Arlon",
+    "Arras",
+    "Bastogne",
+    "Brüj (Brugge)",
+    "Brüksel",
+    "Gent",
+    "Lille",
+    "Lüksemburg",
+    "Maastricht",
+    "Mons",
+    "Namur",
+    "Neufchâteau (Belçika)",
+    "St. Vith (Sankt Vith)",
+    "Tournai",
+    "Virton",
+    "Wiltz",
+    "Ypres"
+   ],
+   "gunler": [
+    "1600-06-15"
+   ],
+   "ana": "Perpignan",
+   "dmin_km": 790,
+   "koridor": {
+    "fransa": 32,
+    "toskana": 2,
+    "sardinya": 3,
+    "ceneviz": 1,
+    "almanya": 6,
+    "isvicre": 9,
+    "papalik": 4,
+    "venedik": 4,
+    "mantua": 1,
+    "parma": 1,
+    "ferrara": 1,
+    "HABSBURG": 3,
+    "savoya": 4
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 285,
+   "kita": "Avrupa",
+   "sahip": "italya",
+   "noktalar": [
+    "Kalyari (Cagliari)",
+    "Sasari (Sassari)"
+   ],
+   "gunler": [
+    "1878-07-13",
+    "1900-06-15",
+    "1914-07-28",
+    "1918-11-11",
+    "1923-10-28"
+   ],
+   "ana": "Elba",
+   "dmin_km": 269,
+   "koridor": {
+    "fransa-cumhuriyet": 2
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 286,
+   "kita": "Avrupa",
+   "sahip": "kirim",
+   "noktalar": [
+    "Yedisan bozkırı"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Or Kapı (Ferahkirman)",
+   "dmin_km": 266,
+   "koridor": {
+    "OSMANLI": 3,
+    "rusya": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Yedisan bozkırı 1774 — tek bozkır noktası, seyreklik",
+   "yol": "elle"
+  },
+  {
+   "no": 287,
+   "kita": "Avrupa",
+   "sahip": "nogay",
+   "noktalar": [
+    "Kalmuk bozkırı"
+   ],
+   "gunler": [
+    "1526-09-01"
+   ],
+   "ana": "Uralsk (Yayık)",
+   "dmin_km": 679,
+   "koridor": {
+    "astarhan": 6
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Kalmuk bozkırı — tek bozkır noktası, seyreklik",
+   "yol": "elle"
+  },
+  {
+   "no": 288,
+   "kita": "Avrupa",
+   "sahip": "nogay",
+   "noktalar": [
+    "Kamışin",
+    "Rın kumulları (Volga-Yayık arası)"
+   ],
+   "gunler": [
+    "1526-09-01"
+   ],
+   "ana": "Penza",
+   "dmin_km": 348,
+   "koridor": {
+    "astarhan": 2
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Volga-Yayık bozkırı — seyreklik",
+   "yol": "elle"
+  },
+  {
+   "no": 289,
+   "kita": "Avrupa",
+   "sahip": "norvec-kralligi",
+   "noktalar": [
+    "Alta",
+    "Tromsø"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01"
+   ],
+   "ana": "Östersund (Jämtland)",
+   "dmin_km": 735,
+   "koridor": {
+    "isvec-birlik-oncesi": 9
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Alta/Tromsø 1281-1526 Norveç: kıyı kesintisiz, nokta seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 290,
+   "kita": "Avrupa",
+   "sahip": "papalik",
+   "noktalar": [
+    "Avignon"
+   ],
+   "gunler": [
+    "1350-06-15",
+    "1400-06-15",
+    "1453-05-29",
+    "1500-06-15",
+    "1526-09-01",
+    "1600-06-15",
+    "1683-09-12",
+    "1700-06-15",
+    "1774-07-21"
+   ],
+   "ana": "Bolonya",
+   "dmin_km": 524,
+   "koridor": {
+    "fransa": 4,
+    "milanoduka": 5,
+    "floransa": 1,
+    "sardinya": 3,
+    "ceneviz": 3,
+    "aragon": 1,
+    "piombino": 1,
+    "almanya": 8,
+    "isvicre": 3,
+    "savoya": 6,
+    "mantua": 1,
+    "ferrara": 1,
+    "piza": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "Avignon — Papalık'ın Fransa içindeki mülkü (1791'e dek); gerçek enklav, TDV papalik yalnız 'Avignon Papalığı' der, mülkiyeti tarihlemiyor — beyan yazılmadı",
+   "yol": "elle"
+  },
+  {
+   "no": 291,
+   "kita": "Avrupa",
+   "sahip": "prusya",
+   "noktalar": [
+    "Elbing (Elbląg)",
+    "Klaipėda (Memel)",
+    "Königsberg"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Stettin (Szczecin)",
+   "dmin_km": 329,
+   "koridor": {
+    "lehistan": 3,
+    "danimarka": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "c",
+   "gerekce": "Prusya 1774: Doğu Prusya 1772'den sonra Batı Prusya ile bitişik; koridordaki Danzig/Thorn (Lehistan) şehir enklavlarıdır — nokta seyrekliği",
+   "yol": "elle"
+  },
+  {
+   "no": 292,
+   "kita": "Avrupa",
+   "sahip": "rusya",
+   "noktalar": [
+    "Kerç",
+    "Taman",
+    "Yenikale"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Taganrog",
+   "dmin_km": 274,
+   "koridor": {
+    "kirim": 3
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 293,
+   "kita": "Avrupa",
+   "sahip": "sardinya",
+   "noktalar": [
+    "Kalyari (Cagliari)",
+    "Sasari (Sassari)"
+   ],
+   "gunler": [
+    "1774-07-21",
+    "1800-06-15",
+    "1850-06-15"
+   ],
+   "ana": "Nice",
+   "dmin_km": 348,
+   "koridor": {
+    "fransa": 3,
+    "toskana": 1
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 294,
+   "kita": "Avrupa",
+   "sahip": "venedik",
+   "noktalar": [
+    "Brakya (Brač)",
+    "Cres (Cherso)",
+    "Dubrovnik",
+    "Hvar (Lesina)",
+    "Korçula (Kurzola)",
+    "Krk (Veglia)",
+    "Mliyet (Mljet)",
+    "Nadin",
+    "Pag (Pago)",
+    "Rab (Arbe)",
+    "Uzunada (Dugi Otok)",
+    "Venedik",
+    "Vis (Lissa)",
+    "Vrana (Urana)",
+    "Zadar (Zara)",
+    "İşkodra"
+   ],
+   "gunler": [
+    "1281-01-02",
+    "1350-06-15"
+   ],
+   "ana": "Paksos (Paxos)",
+   "dmin_km": 324,
+   "koridor": {
+    "napoli": 7,
+    "sirbistan": 4,
+    "bizans": 18,
+    "arnavutluk": 2,
+    "sicilya-kralligi": 2,
+    "sirbistan-nemanjic": 1
+   },
+   "durum_1015": "kismen-beyanli",
+   "sinif": "a",
+   "gerekce": "Venedik Dalmaçyası 1281-1350 — Stato da Mar, Dalmaçya noktaları enklav:true beyanlı (TDV dalmacya, LZMK); grupta Venedik şehri de var: Venedik'in deniz mülkü kara gövdesinden büyük",
+   "yol": "elle"
+  },
+  {
+   "no": 295,
+   "kita": "Avrupa",
+   "sahip": "venedik",
+   "noktalar": [
+    "Bergamo",
+    "Brakya (Brač)",
+    "Brescia",
+    "Cres (Cherso)",
+    "Hvar (Lesina)",
+    "Korçula (Kurzola)",
+    "Kotor (Cattaro)",
+    "Krk (Veglia)",
+    "Nadin",
+    "Padova",
+    "Pag (Pago)",
+    "Rab (Arbe)",
+    "Split (Spalato)",
+    "Udine",
+    "Uzunada (Dugi Otok)",
+    "Venedik",
+    "Verona",
+    "Vis (Lissa)",
+    "Vrana (Urana)",
+    "Zadar (Zara)",
+    "Şibenik (Sebenico)"
+   ],
+   "gunler": [
+    "1526-09-01"
+   ],
+   "ana": "Butrint (Butrinto)",
+   "dmin_km": 315,
+   "koridor": {
+    "napoli": 5,
+    "OSMANLI": 25
+   },
+   "durum_1015": "kismen-beyanli",
+   "sinif": "a",
+   "gerekce": "Venedik 1526: Terraferma (Bergamo, Brescia) + Dalmaçya — Stato da Mar; Dalmaçya beyanlı",
+   "yol": "elle"
+  },
+  {
+   "no": 296,
+   "kita": "Avrupa",
+   "sahip": "venedik",
+   "noktalar": [
+    "Butrint (Butrinto)",
+    "Kefalonya",
+    "Korfu",
+    "Paksos (Paxos)",
+    "Parga",
+    "Zaklise (Zakynthos)",
+    "İthaki"
+   ],
+   "gunler": [
+    "1600-06-15",
+    "1683-09-12"
+   ],
+   "ana": "Kotor (Cattaro)",
+   "dmin_km": 315,
+   "koridor": {
+    "napoli": 5,
+    "OSMANLI": 25
+   },
+   "durum_1015": "kismen-beyanli",
+   "sinif": "a",
+   "gerekce": "Venedik İyon adaları — Korfu, Kefalonya, Zaklise, Paksos beyanlı; Butrint, Parga, İthaki kaynak bekliyor",
+   "yol": "elle"
+  },
+  {
+   "no": 297,
+   "kita": "Avrupa",
+   "sahip": "venedik",
+   "noktalar": [
+    "Çuha Adası (Kythira)",
+    "İstendil (Tinos)"
+   ],
+   "gunler": [
+    "1683-09-12"
+   ],
+   "ana": "Kotor (Cattaro)",
+   "dmin_km": 767,
+   "koridor": {
+    "napoli": 4,
+    "OSMANLI": 171
+   },
+   "durum_1015": "kismen-beyanli",
+   "sinif": "a",
+   "gerekce": "Çuha beyanlı; İstendil (Tinos) Venedik adası, kaynak bekliyor",
+   "yol": "elle"
+  },
+  {
+   "no": 298,
+   "kita": "Avrupa",
+   "sahip": "venedik",
+   "noktalar": [
+    "Anabolu (Nauplion)",
+    "Ayamavra (Lefkada)",
+    "Balyabadra (Patras)",
+    "Butrint (Butrinto)",
+    "Damala (Troizen)",
+    "Elafonisos (Cervi)",
+    "Ermiyoni (Hermione)",
+    "Kefalonya",
+    "Korfu",
+    "Koron",
+    "Kranidi",
+    "Methana",
+    "Modon",
+    "Mora (Tripoliçe)",
+    "Paksos (Paxos)",
+    "Parga",
+    "Preveze",
+    "Vonitsa",
+    "Zaklise (Zakynthos)",
+    "Çuha Adası (Kythira)",
+    "İnebahtı",
+    "İstendil (Tinos)",
+    "İthaki"
+   ],
+   "gunler": [
+    "1700-06-15"
+   ],
+   "ana": "Kotor (Cattaro)",
+   "dmin_km": 315,
+   "koridor": {
+    "napoli": 5,
+    "OSMANLI": 24,
+    "karadag": 1
+   },
+   "durum_1015": "kismen-beyanli",
+   "sinif": "a",
+   "gerekce": "Venedik Mora'sı 1700 — 10 nokta beyanlı (TDV mora); İyon kısmı beyanlı",
+   "yol": "elle"
+  },
+  {
+   "no": 299,
+   "kita": "Avrupa",
+   "sahip": "venedik",
+   "noktalar": [
+    "Çuha Adası (Kythira)"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Kotor (Cattaro)",
+   "dmin_km": 777,
+   "koridor": {
+    "napoli": 10,
+    "OSMANLI": 151,
+    "karadag": 1
+   },
+   "durum_1015": "beyanli",
+   "sinif": "a",
+   "gerekce": "enklav:true beyanı kaynakla yazılı (KUTU-G5-1014 / KUTU-H7-1015)",
+   "yol": "beyan"
+  },
+  {
+   "no": 300,
+   "kita": "Avrupa",
+   "sahip": "venedik",
+   "noktalar": [
+    "Ayamavra (Lefkada)",
+    "Butrint (Butrinto)",
+    "Kefalonya",
+    "Korfu",
+    "Paksos (Paxos)",
+    "Parga",
+    "Preveze",
+    "Vonitsa",
+    "Zaklise (Zakynthos)",
+    "İthaki"
+   ],
+   "gunler": [
+    "1774-07-21"
+   ],
+   "ana": "Kotor (Cattaro)",
+   "dmin_km": 315,
+   "koridor": {
+    "napoli": 5,
+    "OSMANLI": 24,
+    "karadag": 1
+   },
+   "durum_1015": "kismen-beyanli",
+   "sinif": "a",
+   "gerekce": "Venedik İyon/Epir kıyısı 1774 — çoğu beyanlı",
+   "yol": "elle"
+  },
+  {
+   "no": 301,
+   "kita": "Okyanusya",
+   "sahip": "hollanda-dogu-hint",
+   "noktalar": [
+    "Mataram (Lombok)"
+   ],
+   "gunler": [
+    "1900-06-15"
+   ],
+   "ana": "Sumenep (Madura)",
+   "dmin_km": 302,
+   "koridor": {
+    "bali-kralliklari": 1
+   },
+   "durum_1015": "acik",
+   "sinif": "a",
+   "gerekce": "sömürge/denizaşırı parça: hollanda-dogu-hint gövdesi başka kıtada/kıyıda; ana gövdeye 302 km, arada bali-kralliklari",
+   "yol": "kural"
+  }
+ ]
+}
