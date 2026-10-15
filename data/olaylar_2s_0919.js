@@ -443,4 +443,9 @@ window.OLAYLAR_2S_0919 = [
   d:"Doğuya ilerlemesini sürdüren Fransızlar Vedây'ın başşehri Abeşe'yi (Ebîşe) ele geçirerek Vedây Sultanlığı'na son verdi; son sultan başşehrini kurtaramadan çekildi.",
   kaynak:"TDV `veday` (başlık: 1635-1909) — AYNEN: \"Doğuya ilerlemeyi sürdüren Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler.\" · hassasiyet: GÜN" },
 
+// KUTU-VERI-1015 — Kandehar 1383 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #7): Eski Kandehar s: kert → timurlu kırılması
+{ t:"1383-01-01", b:"Timur Kandehar'ı Kertler'den aldı ve torunu Pîr Muhammed'e verdi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Eski Kandehar (Şehr-i Köhne)",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"], taraflar:["timurlu","kert"],
+  d:"1281'den beri İlhanlıların vasalı Herat Kertlerinin elinde bulunan Kandehar, Timur'un Horasan seferleri sırasında zaptedildi ve torunu Pîr Muhammed'e verildi; şehir bundan sonra Timurlu valilerince yönetildi.",
+  kaynak:"TDV `kandehar` (A. Özcan) — AYNEN: \"680’de (1281) İlhanlılar’ın vasalı Herat hâkimi Şemseddin Kert’in eline geçti\" · \"785’te (1383) Timur tarafından zaptedilerek torunu Pîr Muhammed’e verilen şehir\" · hassasiyet: YIL" },
 ];
