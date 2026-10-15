@@ -894,10 +894,20 @@ window.YERLESIMLER_KAMERIKA = [
   { ad:"Keweenaw (Ojibwe bakır yatakları)", tur:"sehir", lat:46.54, lon:-87.4, g:0,
     s:[{f:"1281-01-01",t:"1842-10-04",d:"ojibwe",kaynak:"La Pointe Antlaşması 4.10.1842 (7 Stat. 591, ilan 23.03.1843) — Ojibwe arazi devri; atlas yerli toprağı emsali (Wayám 1855 · Klamath 1864): yerli siyaset devir antlaşmasına dek · ESKİ uç 1850-09-07 = `ojibwe` künye sonu, ÖDÜNÇ UÇTU (KASA-ABD-1010)"},{f:"1842-10-04",t:"2000-12-31",d:"abd",kaynak:"La Pointe 4.10.1842 devri · ABD egemenliği 1783 Paris sınırıyla (hat Isle Royale'in kuzeyinden) — İngiliz Mackinac garnizonu 1.09.1796 ayrıldı · ESKİ 'ingiliz-kuzey-amerika 1850 → kanada 1867' TAMAMEN YANLIŞTI (KASA-ABD-1010)"}],
     kaynak:"bulunamadı", not:"Yerli bakır madenciliği ve ticareti · dayanak: HNAI c.15 Northeast (Smithsonian)" },
-  { ad:"Sault Ste. Marie", tur:"sehir", lat:46.5, lon:-84.35, g:0,
+  // KUTU-VERI-1015 C: Sault Ste. Marie İKİ şehirdir — St. Marys nehri ayırır (D8A-SINIF-1015 §2, K_karsi 15 birim).
+  //   Bu kayıt 1668 misyonunun (Michigan) şehridir; nokta GeoNames ABD şehir merkezine çekildi (46.5/-84.35 → 46.4953/-84.3453).
+  //   ESKİ dönemler (1867 kanada · 1923 abd "Alaska siniri") YANLIŞTI: güney yaka 1783 Paris Antl. md. II ile ABD'ye kaldı.
+  { ad:"Sault Ste. Marie", ikiz:"Sault Ste. Marie (Ontario)", tur:"sehir", lat:46.4953, lon:-84.3453, g:0,
     kur:"1668-01-01",
-    s:[{f:"1668-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"},{f:"1923-10-29",t:"2000-12-31",d:"abd",kaynak:"Britannica: United States; Alaska siniri 1903/1908"}],
-    kaynak:"bulunamadı", not:"dayanak: Dictionary of Canadian Biography" },
+    s:[{f:"1668-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1783-09-03",d:"ingiliz-kuzey-amerika"},{f:"1783-09-03",t:"2000-12-31",d:"abd",kaynak:"1783 Paris Antlaşması md. II (Avalon, https://avalon.law.yale.edu/18th_century/paris.asp): 'thence through the middle of said lake to the water communication between that lake and Lake Superior' — hat St. Marys nehrinin ortasından ⇒ güney yaka de jure ABD · atlas emsali Michilimackinac/Chequamegon 1783-09-03 (İngiliz fiilî kalışı isg yazılmadı, Duluth/Keweenaw emsali) · ESKİ 1867 kanada / 1923 abd dönemleri yanlıştı (KUTU-VERI-1015 C)"}],
+    kaynak:"Britannica 'Sault Sainte Marie (Michigan)' https://www.britannica.com/place/Sault-Sainte-Marie-Michigan — 'Jacques Marquette founded a mission there in 1668' (olaylar_2s_0919.js 1668 maddesinde aynen) · koordinat GeoNames (Sault Ste. Marie, Michigan, 46.4953/-84.3453) · ikiz: karşı yakadaki Ontario şehri AYRI yerleşimdir (Parks Canada: NWC kuzey yaka karakolu 1797)",
+    not:"dayanak: Dictionary of Canadian Biography" },
+  { ad:"Sault Ste. Marie (Ontario)", ikiz:"Sault Ste. Marie", tur:"sehir", lat:46.5168, lon:-84.3333, g:0,
+    kur:"1797-01-01",
+    s:[{f:"1797-01-01",t:"1867-07-01",d:"ingiliz-kuzey-amerika",kaynak:"Parks Canada, Sault Ste. Marie Canal NHS — History (https://parks.canada.ca/lhn-nhs/on/ssmarie/culture/histoire-history): 'In 1797, the North West Company established a trading post on the north side of the rapids and in 1798 built a small lock.' · kuzey yaka 1783 Paris md. II ile İngiliz (Avalon paris.asp)"},{f:"1867-07-01",t:"2000-12-31",d:"kanada",kaynak:"Ontario 1867 Konfederasyonu (atlas Michipicoten/Fort Témiscamingue emsali 1867-07-01)"}],
+    kaynak:"Parks Canada Sault Ste. Marie Canal NHS History · koordinat GeoNames (Sault Ste. Marie, Ontario, 46.5168/-84.3333) · ikiz: Michigan yakasındaki 1668 misyon şehri AYRI yerleşimdir, nehir (1783 Paris md. II hattı) ayırır",
+    kesinlik:"yil",
+    neden:"kur: KURULUŞ DEĞİL, İLK YAZILI TANIK — görünme için ALT SINIR (Şırnak kalıbı, VERI-YAPISI): Parks Canada kuzey yakadaki NWC karakolunu 1797'ye tarihler; kuzey yakada daha eski iskân kaynakta DIŞLANMIYOR. Gün yok ⇒ 1797-01-01 (YIL). KUTU-VERI-1015 C — D8A-SINIF-1015 §2 Sault Ste. Marie ikiz-nokta işi" },
   { ad:"Fort Abercrombie (Kızıl Irmak vadisi)", tur:"kale", lat:46.45, lon:-96.72, g:0,
     kur:"1858-01-01",
     s:[{f:"1858-01-01",t:"2000-12-31",d:"abd"}],
