@@ -862,9 +862,14 @@ window.YERLESIMLER_KAMERIKA = [
     //   DOĞRUSU 1855-01-01→ `newfoundland-dominyonu` — künyede «Renk YOK» ⇒ boya inene dek ingiliz-kuzey-amerika.
     s:[{f:"1583-08-05",t:"1763-02-10",d:"ingiltere"},{f:"1763-02-10",t:"1923-10-29",d:"ingiliz-kuzey-amerika"},{f:"1923-10-29",t:"1934-02-16",d:"newfoundland-dominyonu",kaynak:"Britannica Newfoundland and Labrador; Labrador Boundary 1927 Privy Council"},{f:"1934-02-16",t:"1949-03-31",d:"newfoundland-komisyon-hukumeti",kaynak:"Britannica Newfoundland"},{f:"1949-03-31",t:"2000-12-31",d:"kanada",kaynak:"Britannica Canada: Newfoundland katilimi 31 Mart 1949"}],
     kaynak:"bulunamadı", not:"Gilbert'ın 1583 ilânı; balıkçı iskânı daha eski · dayanak: Dictionary of Canadian Biography" },
-  { ad:"Madawaska (Maliseet)", tur:"sehir", lat:47.35, lon:-68.32, g:0,
-    s:[{f:"1281-01-01",t:"1761-01-01",d:"maliseet"},{f:"1761-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"},{f:"1923-10-29",t:"2000-12-31",d:"abd",kaynak:"Britannica: United States; Alaska siniri 1903/1908"}],
-    kaynak:"bulunamadı", not:"dayanak: HNAI c.15 Northeast (Smithsonian)" },
+  // KUTU-VERI-1015 C: nokta St. John nehrinin GÜNEY (Maine) kıyısındaydı (47.35/-68.32 = Madawaska, Maine); kayıt
+  //   Maliseet köyünü temsil ediyor ve köy Madawaska ırmağının St. John'a döküldüğü yerde, KUZEY yakada (Edmundston).
+  //   Nokta GeoNames Edmundston'a çekildi (~2,6 km). ESKİ 1923-10-29 abd dönemi ("Alaska siniri") kaynaksızdı: kuzey yaka
+  //   1842 Webster-Ashburton'la İngiliz kaldı ⇒ kanada 2000'e dek. D8A-SINIF-1015 §2 (K_karsi 4 birim).
+  { ad:"Madawaska (Maliseet)", tur:"sehir", lat:47.3737, lon:-68.3251, g:0,
+    s:[{f:"1281-01-01",t:"1761-01-01",d:"maliseet"},{f:"1761-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"2000-12-31",d:"kanada",kaynak:"The Canadian Encyclopedia 'Madawaska' (https://thecanadianencyclopedia.ca/en/article/madawaska): 'The dispute was finally resolved in 1842 with the Webster-Ashburton Treaty. Accordingly, the disputed area was divided at the Saint John with the river acting as the boundary' · 'Madawaskans living north of the river remained British' · New Brunswick 1867-07-01 Konfederasyonu · ESKİ 1923-10-29 abd dönemi kaynaksızdı, silindi (KUTU-VERI-1015 C)"}],
+    kaynak:"The Canadian Encyclopedia 'Madawaska': 'It was the name of a river the flowed into the Saint John where the first residents of the valley (Aboriginal and European) settled' · TCE 'Edmundston': 'nestled on the eastern bank of the Saint John River, opposite Madawaska, Maine'; 'Initially called Petit-Sault' · koordinat GeoNames Edmundston (47.3737/-68.3251)",
+    not:"dayanak: HNAI c.15 Northeast (Smithsonian) · KUTU-VERI-1015 C: 1761-1763 fransa dönemi bu işte SINANMADI (künye maliseet t:1761 ile hizalı) · güney yaka (Maine) için ABD noktası YOK — kuzey Aroostook bu peteğe kalıyor, 8a taşması 'nokta eksik' sınıfına geçer, ikiz-nokta ayrı karar" },
   { ad:"Knife River (Hidatsa köyleri)", tur:"sehir", lat:47.333, lon:-101.383, g:0,
     s:[{f:"1281-01-01",t:"1851-09-17",d:"hidatsa"},{f:"1851-09-17",t:"2000-12-31",d:"abd"}],
     kaynak:"bulunamadı", not:"dayanak: HNAI c.13 Plains (Smithsonian)" },
