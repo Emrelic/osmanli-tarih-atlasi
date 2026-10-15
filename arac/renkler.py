@@ -3688,6 +3688,11 @@ BOYALAR = {
     #   gün Kard. Aldobrandini girdi). Aynı hex — ardıllık paylaşımı (PAYLASIM, meysur emsali)
     #   ve aynı açıklık istisnası (_ACIKLIK_ISTISNA_HUE) ⇒ ekranda ikisi de #7a005c.
     "modena":               ("Modena ve Reggio Dükalığı (Este)", "#300c93"),
+    # RENK-PAKET-1015 (AYRI COMMIT) — Riga için yazılacak künye (KARARLAR-EMRE-1015 #13). Künye
+    #   15 Ekim'de HENÜZ YOK; id ADAYDIR — künyeyi yazan ajan başka id seçerse bu satırın anahtarı
+    #   değişir (hex aynı kalabilir). Engel kümesi Riga noktası + 1281-1561-11-28 enjekte edilerek
+    #   kuruldu (livonya-tarikati · teuton · litvanya · novgorod komşuları): en yakın engel ΔE 12,9.
+    "riga-baspiskoposlugu": ("Riga Başpiskoposluğu", "#d82a78"),
 }
 
 
