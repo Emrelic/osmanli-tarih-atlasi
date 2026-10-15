@@ -1,0 +1,1908 @@
+{
+ "aciklama": "T5-1000-A-1016 — RENKSİZ ya da YENİ künyeli dilimleri olan 1000-1281 zincirleri. VERİYE YAZILMADI (renksiz kimlik veri dönemine yazılırsa harita deliği). Renk verilince bu zincirler t5a_uygula.py mantığıyla (bitişik, son t = mevcut ilk f) uygulanabilir; uygulanmış kuyruklar data/yerlesimler*.js'te, bu dosya yalnız BEKLEYEN kısmı taşır. Her alıntı TDV önbellek gövdesine karşı programla sınandı (alinti_dogrulandi).",
+ "sehirler": [
+  {
+   "ad": "Adana",
+   "grup": "A",
+   "bekleyen_kimlik": [
+    "rupeniler"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1083-01-01",
+     "d": "bizans",
+     "kesinlik": {
+      "f": "ufuk",
+      "t": "yil"
+     },
+     "slug": "misis",
+     "alinti": "Basileios, tahta çıktıktan sonra yaptığı Doğu Anadolu seferinde yaklaşık altı ay Misis ve Tarsus bölgesinde ikamet etti.",
+     "not": "Adana 963'ten beri Bizans ('Nikephoros Phokas 352’de (963) Çukurova’ya sefer yaparak Adana’yı zaptetti.' — misis). 1080'ler Philaretos (Bizans kuropalatı) hâkimiyeti Bizans sayıldı.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1083-01-01",
+     "t": "1097-10-08",
+     "d": "selcuklu",
+     "kesinlik": {
+      "f": "yil",
+      "t": "gun"
+     },
+     "slug": "misis",
+     "alinti": "Süleyman Şah 1082’de Tarsus’u, 1083’te Adana, Aynizerbâ ve Misis’i fethetti",
+     "not": null,
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1097-10-08",
+     "t": "1184-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — 1097-10-08 Tankred Türklerden aldı ('Tarsus, Adana ve Misis’i 8 Ekim 1097 tarihinde Türkler’in elinden alan Haçlı liderlerinden Bohemund’un yeğeni Tankred'), Baudouin'e devretti (Haçlı, kurumsal künye yok); 1103 Antakya (Bohemund); 1104 Bizans (Monastras); 1131 I. Leon; 1136/1137 Antakya↔Leon↔Bizans; 1151-59 Toros/Manuel; 1172-73 Mleh Bizans'tan aldı; 'Mleh’ten sonra Misis, Adana ve Tel Hamdûn bir süre Haçlılar’ın eline geçtiyse de' — bu Haçlı döneminin başlangıç yılı YOK ⇒ 1184 öncesi bitişik kuyruk kurulamadı.",
+     "alinti_dogrulandi": null
+    },
+    {
+     "f": "1184-01-01",
+     "t": "1199-01-06",
+     "d": "rupeniler",
+     "kesinlik": {
+      "f": "yil",
+      "t": "kunye"
+     },
+     "slug": "misis",
+     "alinti": "Mleh’ten sonra Misis, Adana ve Tel Hamdûn bir süre Haçlılar’ın eline geçtiyse de III. Rupen 1184’te bu kaleleri geri almayı başardı.",
+     "not": "⚠️ `rupeniler` RENKSİZ (renk=-) — veriye yazılmaz; işaretlendi.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1199-01-06",
+     "t": "1281-01-01",
+     "d": "kilikya-ermeni",
+     "kesinlik": {
+      "f": "kunye",
+      "t": "yil"
+     },
+     "slug": "misis",
+     "alinti": "Rupen hânedanı Misis’te bir asır boyunca hemen hemen tam bir sükûn içinde hüküm sürdü.",
+     "not": "⚠️ 1199-01-06 Rupenî prensliğinin krallığa dönüşümü (aynı hanedan, toprak değişimi değil) — günü TDV'de BULUNAMADI, künye sınırından alındı (künye günü kaynak değildir). Ermeni krallığının varlığı: selcuklular 'Çukurova’daki Ermeni Krallığı devlete bağlandı.' (I. Keyhusrev, 1205-11). 1266 Kalavun'un alışı geçici baskın (misis).",
+     "alinti_dogrulandi": true
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1083-01-01",
+     "kesinlik": "yil",
+     "b": "Süleyman Şah Adana'yı fethetti",
+     "d": "Anadolu Selçuklu kurucusu I. Süleyman Şah 1083'te Adana, Aynizerbâ ve Misis'i aldı.",
+     "slug": "misis",
+     "alinti": "Süleyman Şah 1082’de Tarsus’u, 1083’te Adana, Aynizerbâ ve Misis’i fethetti"
+    },
+    {
+     "t": "1097-10-08",
+     "kesinlik": "gun",
+     "b": "Tankred Adana'yı Türklerden aldı",
+     "d": "I. Haçlı Seferi'nde Tankred Tarsus, Adana ve Misis'i Türklerden aldı.",
+     "slug": "misis",
+     "alinti": "Çukurova’ya önce gelip Tarsus, Adana ve Misis’i 8 Ekim 1097 tarihinde Türkler’in elinden alan Haçlı liderlerinden Bohemund’un yeğeni Tankred"
+    },
+    {
+     "t": "1184-01-01",
+     "kesinlik": "yil",
+     "b": "III. Rupen Adana'yı Haçlılardan geri aldı",
+     "d": "Mleh'ten sonra bir süre Haçlılara geçen Misis, Adana ve Tel Hamdûn'u Rupenî III. Rupen 1184'te geri aldı.",
+     "slug": "misis",
+     "alinti": "Mleh’ten sonra Misis, Adana ve Tel Hamdûn bir süre Haçlılar’ın eline geçtiyse de III. Rupen 1184’te bu kaleleri geri almayı başardı."
+    }
+   ]
+  },
+  {
+   "ad": "Tarsus",
+   "grup": "A",
+   "bekleyen_kimlik": [
+    "rupeniler"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1082-01-01",
+     "d": "bizans",
+     "kesinlik": {
+      "f": "ufuk",
+      "t": "yil"
+     },
+     "slug": "tarsus",
+     "alinti": "Nikephoros Phokas’ın, kardeşi Leon ve Domestikos Ioannis Tzimiskes ile birlikte düzenlediği Çukurova seferinin ardından Tarsus Bizans’ın eline geçti (354/965).",
+     "not": "1000 civarı: misis 'Basileios, tahta çıktıktan sonra yaptığı Doğu Anadolu seferinde yaklaşık altı ay Misis ve Tarsus bölgesinde ikamet etti.'",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1082-01-01",
+     "t": "1097-10-08",
+     "d": "selcuklu",
+     "kesinlik": {
+      "f": "yil",
+      "t": "gun"
+     },
+     "slug": "tarsus",
+     "alinti": "Süleyman Şah 475’te (1082) Tarsus’u fethettiyse de şehir 490’da (1097) Haçlılar tarafından alındı.",
+     "not": "Gün misis maddesinden (8 Ekim 1097, Tankred).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1097-10-08",
+     "t": "1172-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — 'Daha sonra Tarsus Haçlılar, Bizans ve bölgede hüküm süren Ermeniler arasında el değiştirdi.' (tarsus). misis'ten: 1103 Antakya, 1104 Bizans, 1131 I. Leon, 1137 Bizans, 1151 sonrası Toros 'Kilikya’nın hemen hemen tamamına hâkim oldu', 1159 Manuel — Tarsus için ayrı ayrı kesin değil; aralık bitişik kurulamadı.",
+     "alinti_dogrulandi": null
+    },
+    {
+     "f": "1172-01-01",
+     "t": "1199-01-06",
+     "d": "rupeniler",
+     "kesinlik": {
+      "f": "yil",
+      "t": "kunye"
+     },
+     "slug": "misis",
+     "alinti": "Toros’un ölümüyle yerine geçen kardeşi Mleh 568 (1172-73) yılında müttefiki Nûreddin Zengî’nin yardımıyla Adana, Misis ve Tarsus şehirlerini Bizanslılar’dan geri aldı.",
+     "not": "568 = 1172-73 → ilk yıl 1172. ⚠️ 1172-1199 arası Tarsus için ayrı el değiştirme kaydı yok (Mleh sonrası Haçlı arası yalnız Misis/Adana/Tel Hamdûn için anılıyor) — süreklilik TDV'nin susmasına dayanıyor. `rupeniler` RENKSİZ.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1199-01-06",
+     "t": "1281-01-01",
+     "d": "kilikya-ermeni",
+     "kesinlik": {
+      "f": "kunye",
+      "t": "yil"
+     },
+     "slug": "misis",
+     "alinti": "Rupen hânedanı Misis’te bir asır boyunca hemen hemen tam bir sükûn içinde hüküm sürdü.",
+     "not": "1199-01-06 künye sınırı (taç giyme günü TDV'de bulunamadı). 1266 Kalavun'un Tarsus'u alışı geçici; Memlük kesin fethi 761/1360 (tarsus).",
+     "alinti_dogrulandi": true
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1082-01-01",
+     "kesinlik": "yil",
+     "b": "Süleyman Şah Tarsus'u fethetti",
+     "d": "Anadolu Selçuklu kurucusu I. Süleyman Şah Tarsus'u Bizans'tan aldı.",
+     "slug": "tarsus",
+     "alinti": "Süleyman Şah 475’te (1082) Tarsus’u fethettiyse de şehir 490’da (1097) Haçlılar tarafından alındı."
+    },
+    {
+     "t": "1097-10-08",
+     "kesinlik": "gun",
+     "b": "Tankred Tarsus'u Türklerden aldı",
+     "d": "I. Haçlı Seferi'nde Tankred Tarsus, Adana ve Misis'i Türklerden aldı.",
+     "slug": "misis",
+     "alinti": "Çukurova’ya önce gelip Tarsus, Adana ve Misis’i 8 Ekim 1097 tarihinde Türkler’in elinden alan Haçlı liderlerinden Bohemund’un yeğeni Tankred"
+    },
+    {
+     "t": "1172-01-01",
+     "kesinlik": "yil",
+     "b": "Rupenî Mleh Tarsus'u Bizans'tan aldı",
+     "d": "Rupenî Mleh, Nûreddin Zengî'nin yardımıyla Adana, Misis ve Tarsus'u Bizanslılardan geri aldı.",
+     "slug": "misis",
+     "alinti": "Toros’un ölümüyle yerine geçen kardeşi Mleh 568 (1172-73) yılında müttefiki Nûreddin Zengî’nin yardımıyla Adana, Misis ve Tarsus şehirlerini Bizanslılar’dan geri aldı."
+    }
+   ]
+  },
+  {
+   "ad": "Eski Malatya (Battalgazi)",
+   "grup": "B",
+   "bekleyen_kimlik": [
+    "YENI:malatya-ermeni-beyligi"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1074-01-01",
+     "d": "bizans",
+     "kesinlik": {
+      "f": "ufuk",
+      "t": "yil"
+     },
+     "slug": "bizans",
+     "alinti": "Doğu domestikosu Ioannes Kurkuas kumandasındaki Bizans ordusu Fırat’a kadar ilerledi; 934’te Malatya’yı, 943’te Meyyâfârikīn, Âmid, Dârâ ve Nusaybin’i zaptetti.",
+     "not": "934'ten beri Bizans. 1057-58 Emîr Dînar'ın alışı ve Malazgirt sonrası fetih geçici: malatya maddesi 'şehir daha sonra tekrar Bizanslılar’ın eline geçti' der; X. Konstantinos Dukas şehri imar ettirdi.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1074-01-01",
+     "t": "1102-09-18",
+     "d": "YENI:malatya-ermeni-beyligi",
+     "kesinlik": "yil",
+     "slug": "malatya",
+     "alinti": "Kilikya’da bir Ermeni prensliği kurmuş olan Philaretos kendisine Bizans’ın temsilcisi süsü vererek 1074’te Malatya’yı zaptetti ve burayı Thoros, Hareb ve Gabriel adlı valiler aracılığıyla yönetti.",
+     "not": "Mevcut 'filaretos-devleti' künyesi (f 1077, t 1085-01-12) pencereyi tutmuyor; Gabriel 1102'ye dek şehri tuttu. Seçenek: yeni künye ya da filaretos-devleti'ni 1074-1102 genişletmek (Malatya kolu).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1102-09-18",
+     "t": "1106-09-02",
+     "d": "danismendli",
+     "kesinlik": "gun",
+     "slug": "malatya",
+     "alinti": "Gümüştegin Gazi şehri kuşatarak 3 Zilhicce 495 (18 Eylül 1102) tarihinde ele geçirdi.",
+     "not": "danismendliler maddesi aynı günü verir (18 Eylül 1102).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1106-09-02",
+     "t": "1124-01-01",
+     "d": "selcuklu",
+     "kesinlik": "gun",
+     "slug": "malatya",
+     "alinti": "Kılıcarslan Malatya’yı zaptetmek üzere tekrar harekete geçti ve iki ayı aşkın bir süre şehri kuşatıp teslim almaya muvaffak oldu (1 Muharrem 500 / 2 Eylül 1106).",
+     "not": "danismendliler maddesi '2 Eylül 1105 veya 1106' der — kaynak içi tereddüt; şehir maddesi 1106. Tuğrul Arslan'ın atabegi Artuklu Belek'in 'Malatya ve Elbistan’ı da beyliğine ilhak' ettiği yılsız — Selçuklu melikliği sürüyor sayıldı.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1124-01-01",
+     "t": "1178-10-25",
+     "d": "danismendli",
+     "kesinlik": "yil",
+     "slug": "malatya",
+     "alinti": "Belek’in 518’de (1124) öldürülmesinin ardından Dânişmendli Hükümdarı Emîr Gazi, Malatya Meliki Tuğrul Arslan ile Harput Artuklu Emîri Süleyman arasındaki ihtilâflardan faydalanarak şehre hücum etti ve uzun süren bir kuşatmadan sonra Malatya’yı teslim aldı (518/1124).",
+     "not": "danismendliler: hücum 13 Haziran 1124 — bu HÜCUM günü, teslim günü değil; teslim yalnız yıl. 1152 Mesud'a tâbiyet sahiplik değişimi değil (Zülkarneyn hâkimiyeti sürdü).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1178-10-25",
+     "t": "1281-01-01",
+     "d": "selcuklu",
+     "kesinlik": "gun",
+     "slug": "malatya",
+     "alinti": "Kılıcarslan Malatya üzerine yürüdü; dört aylık bir kuşatmadan sonra şehri ele geçirdi (11 Cemâziyelevvel 574 / 25 Ekim 1178) ve Dânişmendliler’in bu koluna son verdi.",
+     "not": "1244 Yasavur Noyan 'kısa süre için' — geçici. 'Elli yıl kadar İlhanlı valilerince yönetilen' yılsız.",
+     "alinti_dogrulandi": true
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1074-01-01",
+     "kesinlik": "yil",
+     "b": "Philaretos Malatya'yı zaptetti",
+     "d": "Kilikya'da Ermeni prensliği kuran Philaretos, Bizans temsilcisi görünerek Malatya'yı aldı ve valiler (Gabriel vd.) eliyle yönetti.",
+     "slug": "malatya",
+     "alinti": "Kilikya’da bir Ermeni prensliği kurmuş olan Philaretos kendisine Bizans’ın temsilcisi süsü vererek 1074’te Malatya’yı zaptetti ve burayı Thoros, Hareb ve Gabriel adlı valiler aracılığıyla yönetti."
+    },
+    {
+     "t": "1102-09-18",
+     "kesinlik": "gun",
+     "b": "Dânişmendli Gümüştegin Gazi Malatya'yı aldı",
+     "d": "Gümüştegin Gazi kuşatma sonunda Malatya'yı ele geçirdi.",
+     "slug": "malatya",
+     "alinti": "Gümüştegin Gazi şehri kuşatarak 3 Zilhicce 495 (18 Eylül 1102) tarihinde ele geçirdi."
+    },
+    {
+     "t": "1106-09-02",
+     "kesinlik": "gun",
+     "b": "I. Kılıcarslan Malatya'yı teslim aldı",
+     "d": "Gümüştegin'in ölümünden sonra I. Kılıcarslan iki ayı aşkın kuşatmayla Malatya'yı Selçuklu topraklarına kattı.",
+     "slug": "malatya",
+     "alinti": "Kılıcarslan Malatya’yı zaptetmek üzere tekrar harekete geçti ve iki ayı aşkın bir süre şehri kuşatıp teslim almaya muvaffak oldu (1 Muharrem 500 / 2 Eylül 1106)."
+    },
+    {
+     "t": "1124-01-01",
+     "kesinlik": "yil",
+     "b": "Dânişmendli Emîr Gazi Malatya'yı teslim aldı",
+     "d": "Belek'in ölümünden sonra Emîr Gazi uzun bir kuşatmayla Malatya'yı Selçuklu meliki Tuğrul Arslan'dan aldı.",
+     "slug": "malatya",
+     "alinti": "Belek’in 518’de (1124) öldürülmesinin ardından Dânişmendli Hükümdarı Emîr Gazi, Malatya Meliki Tuğrul Arslan ile Harput Artuklu Emîri Süleyman arasındaki ihtilâflardan faydalanarak şehre hücum etti ve uzun süren bir kuşatmadan sonra Malatya’yı teslim aldı (518/1124)."
+    },
+    {
+     "t": "1178-10-25",
+     "kesinlik": "gun",
+     "b": "II. Kılıcarslan Malatya'yı aldı, Dânişmendli kolu bitti",
+     "d": "Dört aylık kuşatmayla Malatya Selçuklulara geçti ve Dânişmendlilerin Malatya kolu sona erdi.",
+     "slug": "malatya",
+     "alinti": "Kılıcarslan Malatya üzerine yürüdü; dört aylık bir kuşatmadan sonra şehri ele geçirdi (11 Cemâziyelevvel 574 / 25 Ekim 1178) ve Dânişmendliler’in bu koluna son verdi."
+    }
+   ]
+  },
+  {
+   "ad": "Maraş",
+   "grup": "B",
+   "bekleyen_kimlik": [
+    "filaretos-devleti"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1079-01-01",
+     "d": "bizans",
+     "kesinlik": {
+      "f": "ufuk",
+      "t": "yil"
+     },
+     "slug": "kahramanmaras",
+     "alinti": "Maraş 341’de (952) Hamdânîler’in eline geçtiyse de 351 Rebîülevvelinde (Nisan 962) yeniden Bizans topraklarına katıldı.",
+     "not": null,
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1079-01-01",
+     "t": "1085-01-01",
+     "d": "filaretos-devleti",
+     "kesinlik": "yil",
+     "slug": "kahramanmaras",
+     "alinti": "Bizans tarafından Türkler’e karşı Malatya-Antakya hattının savunmasına memur edilen Ermeni asıllı Philaretos, Maraş’ı da içine alan büyük bir prenslik kurdu (1079).",
+     "not": "filaretos-devleti RENKSİZ künye (f 1077, t 1085-01-12).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1085-01-01",
+     "t": "1087-01-01",
+     "d": "selcuklu",
+     "kesinlik": "yil",
+     "slug": "kahramanmaras",
+     "alinti": "Süleyman Şah’ın ve Emîr Buldacı’nın 1085’te Anadolu’nun güneyine yönelik fetihleri sırasında Maraş Buldacı tarafından ele geçirilince Philaretos Urfa’ya gitti.",
+     "not": "t=1087 son kanıt: Maraş müslüman olan Philaretos'a verildi (1087).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1087-01-01",
+     "t": "1149-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — 1087 Philaretos (Melikşah'tan), 1090 Barsama, Emîr Bozan (yılsız), 1097 Haçlı/Thathul, Butumites (yılsız), 1104 Antakya prinkepsleri, 1114 Porsukī'ye teslim, Godefroi (yılsız) — zincir kesintisiz kurulamıyor.",
+     "alinti_dogrulandi": null
+    },
+    {
+     "f": "1149-01-01",
+     "t": "1151-01-01",
+     "d": "selcuklu",
+     "kesinlik": "yil",
+     "slug": "kahramanmaras",
+     "alinti": "Mesud, oğlu Kılıcarslan ile birlikte Maraş’ı kuşatarak Franklar’ın elinden aldı (544/1149).",
+     "not": "t=1151 son kanıt: 'yapılan taksimde Maraş Sultan Mesud’da kaldı (546/1151)'.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1151-01-01",
+     "t": "1165-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — kilicarslan-ii: Maraş'ı 'Nûreddin Mahmud Zengî’nin istilâ ettiği' yerler arasında sayar — istilâ yılı yok.",
+     "alinti_dogrulandi": null
+    },
+    {
+     "f": "1165-01-01",
+     "t": "1173-07-03",
+     "d": "selcuklu",
+     "kesinlik": "yil",
+     "slug": "kilicarslan-ii",
+     "alinti": "Dânişmendliler arasındaki anlaşmazlıklardan yararlanan Kılıcarslan 560’ta (1165) Elbistan, Dârende ve Gedük (Şarkışla) yöresini, Nûreddin Mahmud Zengî’nin istilâ ettiği Ra‘bân, Göksun, Maraş ve Behisni’yi ele geçirdi.",
+     "not": null,
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1173-07-03",
+     "t": "1208-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — Nûreddin 3 Temmuz 1173'te aldı (kahramanmaras + kilicarslan-ii); sonrası rivayet: 'Maraş’ı Ermeni Hâkimi Mleh’e bıraktığı ... ya da II. Kılıcarslan’a iade ettiği ... rivayet edilir'.",
+     "alinti_dogrulandi": null
+    },
+    {
+     "f": "1208-01-01",
+     "t": "1258-01-01",
+     "d": "selcuklu",
+     "kesinlik": "yil",
+     "slug": "kahramanmaras",
+     "alinti": "Gıyâseddin Keyhusrev 605’te (1208) Ermeniler’i cezalandırmak amacıyla Maraş üzerine bir sefer düzenledi ve Maraş’ı tekrar Selçuklu topraklarına kattı.",
+     "not": "Hüsâmeddin Hasan ailesi Selçuklu'ya bağlı beylik.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1258-01-01",
+     "t": "1281-01-01",
+     "d": "kilikya-ermeni",
+     "kesinlik": "yil",
+     "slug": "kahramanmaras",
+     "alinti": "Emîr Hüsâmeddin’in ailesinden İmâdüddin, 656’da (1258) Anadolu Selçuklu Sultanı II. İzzeddin Keykâvus ve Memlük Sultanı el-Melikü’s-Sâlih’ten istediği desteği sağlayamayınca şehri Ermeniler’e terketmek zorunda kaldı.",
+     "not": null,
+     "alinti_dogrulandi": true
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1079-01-01",
+     "kesinlik": "yil",
+     "b": "Philaretos Maraş'ı içine alan prenslik kurdu",
+     "d": "Bizans'ın Malatya-Antakya savunma hattına memur ettiği Ermeni Philaretos, Maraş'ı da içine alan bir prenslik kurdu.",
+     "slug": "kahramanmaras",
+     "alinti": "Bizans tarafından Türkler’e karşı Malatya-Antakya hattının savunmasına memur edilen Ermeni asıllı Philaretos, Maraş’ı da içine alan büyük bir prenslik kurdu (1079)."
+    },
+    {
+     "t": "1085-01-01",
+     "kesinlik": "yil",
+     "b": "Emîr Buldacı Maraş'ı aldı",
+     "d": "Süleyman Şah'ın emîri Buldacı Maraş'ı ele geçirince Philaretos Urfa'ya çekildi.",
+     "slug": "kahramanmaras",
+     "alinti": "Süleyman Şah’ın ve Emîr Buldacı’nın 1085’te Anadolu’nun güneyine yönelik fetihleri sırasında Maraş Buldacı tarafından ele geçirilince Philaretos Urfa’ya gitti."
+    },
+    {
+     "t": "1149-01-01",
+     "kesinlik": "yil",
+     "b": "Sultan Mesud Maraş'ı Franklardan aldı",
+     "d": "I. Mesud oğlu Kılıcarslan ile Maraş'ı kuşatıp Haçlılardan aldı.",
+     "slug": "kahramanmaras",
+     "alinti": "Mesud, oğlu Kılıcarslan ile birlikte Maraş’ı kuşatarak Franklar’ın elinden aldı (544/1149)."
+    },
+    {
+     "t": "1165-01-01",
+     "kesinlik": "yil",
+     "b": "II. Kılıcarslan Maraş'ı geri aldı",
+     "d": "II. Kılıcarslan Nûreddin'in istilâ ettiği Maraş, Göksun, Ra'bân ve Behisni'yi ele geçirdi.",
+     "slug": "kilicarslan-ii",
+     "alinti": "Dânişmendliler arasındaki anlaşmazlıklardan yararlanan Kılıcarslan 560’ta (1165) Elbistan, Dârende ve Gedük (Şarkışla) yöresini, Nûreddin Mahmud Zengî’nin istilâ ettiği Ra‘bân, Göksun, Maraş ve Behisni’yi ele geçirdi."
+    },
+    {
+     "t": "1173-07-03",
+     "kesinlik": "gun",
+     "b": "Nûreddin Zengî Maraş'ı aldı",
+     "d": "II. Kılıcarslan ile arası bozulan Nûreddin Mahmud Zengî Maraş'ı ele geçirdi.",
+     "slug": "kahramanmaras",
+     "alinti": "Kılıcarslan arasındaki ilişkilerin bozulmasından sonra Maraş Nûreddin Zengî tarafından ele geçirildi (20 Zilkade 568 / 3 Temmuz 1173)."
+    },
+    {
+     "t": "1208-01-01",
+     "kesinlik": "yil",
+     "b": "I. Gıyâseddin Keyhusrev Maraş'ı tekrar Selçuklu'ya kattı",
+     "d": "Keyhusrev Ermenilere karşı sefer düzenleyip Maraş'ı Selçuklu topraklarına kattı.",
+     "slug": "kahramanmaras",
+     "alinti": "Gıyâseddin Keyhusrev 605’te (1208) Ermeniler’i cezalandırmak amacıyla Maraş üzerine bir sefer düzenledi ve Maraş’ı tekrar Selçuklu topraklarına kattı."
+    },
+    {
+     "t": "1258-01-01",
+     "kesinlik": "yil",
+     "b": "Maraş Ermenilere bırakıldı",
+     "d": "Hüsâmeddin ailesinden İmâdüddin destek bulamayınca Maraş'ı Kilikya Ermenilerine terketti.",
+     "slug": "kahramanmaras",
+     "alinti": "Emîr Hüsâmeddin’in ailesinden İmâdüddin, 656’da (1258) Anadolu Selçuklu Sultanı II. İzzeddin Keykâvus ve Memlük Sultanı el-Melikü’s-Sâlih’ten istediği desteği sağlayamayınca şehri Ermeniler’e terketmek zorunda kaldı."
+    }
+   ]
+  },
+  {
+   "ad": "Cizre",
+   "grup": "B",
+   "bekleyen_kimlik": [
+    "YENI:zengi-cizre",
+    "zengi-musul"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1085-01-01",
+     "d": "mervani",
+     "kesinlik": {
+      "f": "ufuk",
+      "t": "yil"
+     },
+     "slug": "cizre",
+     "alinti": "Bir yıl sonra cereyan eden savaşta mağlûp oldularsa da taraflar arasında yapılan antlaşma ile Cizre Mervânîler’e bırakıldı.",
+     "not": "380 (990) Diyarbekir ve Cizre'de Mervânî Emirliği. 1030 Ukaylî kuşatması fidyeyle kalktı; 1057 Selçuklu tâbiyeti. Bazı rivayetler Mervânî hâkimiyetini 1087/1094'e uzatır (aynı madde).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1085-01-01",
+     "t": "1108-01-01",
+     "d": "buyuk-selcuklu",
+     "kesinlik": "yil",
+     "slug": "cizre",
+     "alinti": "Cehîr’in Diyarbekir’in zaptı ile görevlendirilmesinden sonra Âmid ve Meyyâfârikīn’ın (Silvan) yanı sıra Cizre de ele geçirilerek buradaki Mervânî hâkimiyetine son verildi (1085).",
+     "not": "t=1108 son kanıt: 'Sultan Muhammed Tapar 1108’de ... Cizre dahil onun idaresindeki diğer yerleri ele geçirdi'.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1108-01-01",
+     "t": "1158-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — Porsukī idaresi ve 'Daha sonra İmâdüddin Zengî’nin hâkimiyeti altına girdi' — yılsız.",
+     "alinti_dogrulandi": null
+    },
+    {
+     "f": "1158-01-01",
+     "t": "1180-01-01",
+     "d": "zengi-musul",
+     "kesinlik": "yil",
+     "slug": "cizre",
+     "alinti": "Ardından Musul Atabegi Kutbüddin Mevdûd üç aylık bir kuşatmadan sonra şehri ele geçirdi (1158).",
+     "not": "zengi-musul RENKSİZ künye.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1180-01-01",
+     "t": "1251-01-01",
+     "d": "YENI:zengi-cizre",
+     "kesinlik": "yil",
+     "slug": "zengiler",
+     "alinti": "Hânedanın Cizre kolu II. Seyfeddin Gazi’nin oğlu Sencer Şah tarafından kuruldu (576/1180).",
+     "not": "zengi-musul künyesi t 1233 — 1251'i karşılamıyor. zengiler: 'Cezîre-i İbn Ömer (1180-1251)'.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1251-01-01",
+     "t": "1261-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — 1251'de Halep Eyyûbîsi el-Melikü'n-Nâsır ile Bedreddin Lü'lü' birlikte aldı ('nüfuzu altına giren') — ortak nüfuz, tek sahip seçilemedi; lului künyesi 1259-07-26'da biter.",
+     "alinti_dogrulandi": null
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1085-01-01",
+     "kesinlik": "yil",
+     "b": "Selçuklular Cizre'yi Mervânîlerden aldı",
+     "d": "Fahrüddevle İbn Cehîr'in seferinde Cizre de alınarak Mervânî hâkimiyetine son verildi.",
+     "slug": "cizre",
+     "alinti": "Cehîr’in Diyarbekir’in zaptı ile görevlendirilmesinden sonra Âmid ve Meyyâfârikīn’ın (Silvan) yanı sıra Cizre de ele geçirilerek buradaki Mervânî hâkimiyetine son verildi (1085)."
+    },
+    {
+     "t": "1158-01-01",
+     "kesinlik": "yil",
+     "b": "Musul Atabegi Kutbüddin Mevdûd Cizre'yi aldı",
+     "d": "Kutbüddin Mevdûd üç aylık kuşatmayla Cizre'yi ele geçirdi.",
+     "slug": "cizre",
+     "alinti": "Ardından Musul Atabegi Kutbüddin Mevdûd üç aylık bir kuşatmadan sonra şehri ele geçirdi (1158)."
+    },
+    {
+     "t": "1180-01-01",
+     "kesinlik": "yil",
+     "b": "Zengîlerin Cizre kolu kuruldu",
+     "d": "II. Seyfeddin Gazi'nin oğlu Sencer Şah Cizre'de hanedanın ayrı kolunu kurdu.",
+     "slug": "zengiler",
+     "alinti": "Hânedanın Cizre kolu II. Seyfeddin Gazi’nin oğlu Sencer Şah tarafından kuruldu (576/1180)."
+    },
+    {
+     "t": "1251-01-01",
+     "kesinlik": "yil",
+     "b": "Eyyûbîler ve Lü'lü' Cizre'yi istilâ etti",
+     "d": "el-Melikü'n-Nâsır ile Bedreddin Lü'lü' Cizre'yi alıp Musul atabeglerinin buradaki hâkimiyetine son verdi.",
+     "slug": "cizre",
+     "alinti": "Ancak 1251’de halkın şikâyetleri üzerine Eyyûbîler’den el-Melikü’n-Nâsır Atabeg, Nûreddin Arslanşah’ın ölümünden sonra Musul’a hâkim olan Emîr Bedreddin Lü’lü’ ile birlikte Cizre’yi istilâ ederek Musul atabeglerinin buradaki hâkimiyetine son verdi."
+    }
+   ]
+  },
+  {
+   "ad": "Urfa",
+   "grup": "B",
+   "bekleyen_kimlik": [
+    "YENI:urfa-toros-beyligi",
+    "numeyri",
+    "urfa-kontlugu",
+    "zengi-halep",
+    "zengi-musul"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1025-01-01",
+     "d": "numeyri",
+     "kesinlik": {
+      "f": "ufuk",
+      "t": "yil"
+     },
+     "slug": "sanliurfa",
+     "alinti": "Şehir 416 (1025) yılına kadar Benî Nümeyr kabilesinin reisi Utayr’ın nâibi Ahmed b. Muhammed’in kontrolünde kaldı.",
+     "not": "numeyri RENKSİZ künye.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1025-01-01",
+     "t": "1030-01-01",
+     "d": "mervani",
+     "kesinlik": "yil",
+     "slug": "mervaniler--diyarbakir",
+     "alinti": "Nasrüddevle 415’te (1024) Âmid’i, ertesi yıl Urfa’yı emirliğin topraklarına kattı.",
+     "not": "sanliurfa: halk idareyi Nasrüddevle'ye verdi, Zengî b. Evân işgal etti.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1030-01-01",
+     "t": "1077-01-01",
+     "d": "bizans",
+     "kesinlik": "yil",
+     "slug": "sanliurfa",
+     "alinti": "Fakat Zengî’nin ölümünün (418/1027) ardından gelişen olaylar neticesinde şehir Bizans kumandanlarından Georgios Maniakes’e bırakıldı, böylece Maniakes 1030-1031 kışında Urfa’ya hâkim oldu.",
+     "not": "'1030-1031 kışı' → ilki. 1036 Nümeyrî yağması geçici ('kale Bizans garnizonunun hâkimiyetindeydi'); 1037 imparatora teslim. t=1077 son kanıt (Urfa civarında Bizans ordusu yenildi); Philaretos'un alışı yılsız.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1077-01-01",
+     "t": "1087-03-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — Philaretos'un kumandanı Vasil şehri Bizanslılardan aldı — yıl yok.",
+     "alinti_dogrulandi": null
+    },
+    {
+     "f": "1087-03-01",
+     "t": "1094-01-01",
+     "d": "buyuk-selcuklu",
+     "kesinlik": "ay",
+     "slug": "sanliurfa",
+     "alinti": "Bunun üzerine Sultan Melikşah Emîr Bozan’ı Urfa’nın fethiyle görevlendirdi ve şehir üç ay süren şiddetli bir kuşatmanın ardından fethedildi (Zilhicce 479 / Mart 1087).",
+     "not": null,
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1094-01-01",
+     "t": "1095-01-01",
+     "d": "suriye-selcuklu",
+     "kesinlik": "yil",
+     "slug": "sanliurfa",
+     "alinti": "Emîr Bozan’ın 487’de (1094) Tutuş tarafından öldürülmesiyle Urfa, Suriye Selçukluları’nın hâkimiyetine geçti.",
+     "not": null,
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1095-01-01",
+     "t": "1098-03-10",
+     "d": "YENI:urfa-toros-beyligi",
+     "kesinlik": "yil",
+     "slug": "sanliurfa",
+     "alinti": "Tutuş’un Urfa’yı Toros’tan alma teşebbüslerinin sonuçları kesin olarak bilinmemekle beraber şehrin 488’den (1095) itibaren Toros’un hâkimiyetinde bulunduğu anlaşılmaktadır.",
+     "not": null,
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1098-03-10",
+     "t": "1144-12-24",
+     "d": "urfa-kontlugu",
+     "kesinlik": "gun",
+     "slug": "sanliurfa",
+     "alinti": "Baudouin’in Urfa’ya gelişinden kısa bir süre sonra Toros öldürüldü ve 10 Mart 1098’de Baudouin şehre hâkim olup Urfa Haçlı Kontluğu’nu kurdu.",
+     "not": "🔴 urfa-kontlugu RENKSİZ künye — veriye yazılamaz, işaretlendi.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1144-12-24",
+     "t": "1146-10-01",
+     "d": "zengi-musul",
+     "kesinlik": "gun",
+     "slug": "sanliurfa",
+     "alinti": "Surların önünde yaptığı teslim olma teklifi Süryânî ve Ermeni ruhanî liderleri tarafından reddedilince surlar mancınıklarla dövüldü ve dört hafta kadar süren kuşatmanın ardından Türkler şehre girdi (26 Cemâziyelâhir 539 / 24 Aralık 1144).",
+     "not": "zengi-musul RENKSİZ. t=1146-10 (ay): Josselin'in Ekim 1146 girişimini Nûreddin bastırdı ve 'Urfa, Nûreddin Mahmud’un idaresine geçmiş oldu' (zengiler).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1146-10-01",
+     "t": "1174-01-01",
+     "d": "zengi-halep",
+     "kesinlik": "ay",
+     "slug": "zengiler",
+     "alinti": "Musul kuvvetleri zengin ganimetlerle geri dönerken Urfa, Nûreddin Mahmud’un idaresine geçmiş oldu.",
+     "not": "zengi-halep RENKSİZ. Ay sanliurfa'dan: 'Josselin 1146 Ekiminde şehri geri almaya çalıştı'.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1174-01-01",
+     "t": "1182-01-01",
+     "d": "zengi-musul",
+     "kesinlik": "yil",
+     "slug": "sanliurfa",
+     "alinti": "Seyfeddin Gazi burayı ele geçirdi (569/1174).",
+     "not": null,
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1182-01-01",
+     "t": "1235-01-01",
+     "d": "eyyubi",
+     "kesinlik": "yil",
+     "slug": "sanliurfa",
+     "alinti": "Ardından Selâhaddîn-i Eyyûbî’nin idaresine giren şehir ve çevresi (578/1182) bir müddet Eyyûbîler’le Musul Atabegleri ve Artuklular arasındaki mücadelelere sahne oldu.",
+     "not": "t=1235: I. Alâeddin Keykubad aldı (632/1235), 'dört ay sonra Eyyûbîler şehri yeniden ele geçirdiler' — geçici; ardından Hârizmliler (yılsız).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1235-01-01",
+     "t": "1281-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — Hârizmliler yılsız; '638’de (1241) tekrar Eyyûbîler’in eline geçti' (kol belirsiz); '658’de (1260) bölge Hülâgû’ya teslim oldu' ve Aynicâlût'a kadar Moğol elinde; 1260-1281 sahibi yok.",
+     "alinti_dogrulandi": null
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1025-01-01",
+     "kesinlik": "yil",
+     "b": "Urfa Mervânîlere geçti",
+     "d": "Nümeyrî nâibine kızan halk idareyi Mervânî Nasrüddevle'ye verdi.",
+     "slug": "mervaniler--diyarbakir",
+     "alinti": "Nasrüddevle 415’te (1024) Âmid’i, ertesi yıl Urfa’yı emirliğin topraklarına kattı."
+    },
+    {
+     "t": "1030-01-01",
+     "kesinlik": "yil",
+     "b": "Georgios Maniakes Urfa'ya hâkim oldu",
+     "d": "Zengî b. Evân'ın ölümünden sonra şehir Bizans kumandanı Maniakes'e bırakıldı.",
+     "slug": "sanliurfa",
+     "alinti": "Fakat Zengî’nin ölümünün (418/1027) ardından gelişen olaylar neticesinde şehir Bizans kumandanlarından Georgios Maniakes’e bırakıldı, böylece Maniakes 1030-1031 kışında Urfa’ya hâkim oldu."
+    },
+    {
+     "t": "1087-03-01",
+     "kesinlik": "ay",
+     "b": "Emîr Bozan Urfa'yı fethetti",
+     "d": "Melikşah'ın görevlendirdiği Emîr Bozan üç aylık kuşatmayla Urfa'yı aldı.",
+     "slug": "sanliurfa",
+     "alinti": "Bunun üzerine Sultan Melikşah Emîr Bozan’ı Urfa’nın fethiyle görevlendirdi ve şehir üç ay süren şiddetli bir kuşatmanın ardından fethedildi (Zilhicce 479 / Mart 1087)."
+    },
+    {
+     "t": "1094-01-01",
+     "kesinlik": "yil",
+     "b": "Urfa Suriye Selçuklularına geçti",
+     "d": "Emîr Bozan'ın Tutuş tarafından öldürülmesiyle Urfa Suriye Selçuklularına bağlandı.",
+     "slug": "sanliurfa",
+     "alinti": "Emîr Bozan’ın 487’de (1094) Tutuş tarafından öldürülmesiyle Urfa, Suriye Selçukluları’nın hâkimiyetine geçti."
+    },
+    {
+     "t": "1095-01-01",
+     "kesinlik": "yil",
+     "b": "Urfa Ermeni Toros'un elinde",
+     "d": "1095'ten itibaren şehir Ermeni Toros'un hâkimiyetindeydi.",
+     "slug": "sanliurfa",
+     "alinti": "Tutuş’un Urfa’yı Toros’tan alma teşebbüslerinin sonuçları kesin olarak bilinmemekle beraber şehrin 488’den (1095) itibaren Toros’un hâkimiyetinde bulunduğu anlaşılmaktadır."
+    },
+    {
+     "t": "1098-03-10",
+     "kesinlik": "gun",
+     "b": "Urfa Haçlı Kontluğu kuruldu",
+     "d": "Toros öldürüldü; Baudouin şehre hâkim olup Urfa Haçlı Kontluğu'nu kurdu.",
+     "slug": "sanliurfa",
+     "alinti": "Baudouin’in Urfa’ya gelişinden kısa bir süre sonra Toros öldürüldü ve 10 Mart 1098’de Baudouin şehre hâkim olup Urfa Haçlı Kontluğu’nu kurdu."
+    },
+    {
+     "t": "1144-12-24",
+     "kesinlik": "gun",
+     "b": "İmâdüddin Zengî Urfa'yı fethetti",
+     "d": "Dört haftalık kuşatmadan sonra Türkler şehre girdi; Urfa Haçlı Kontluğu'nun merkezi düştü.",
+     "slug": "sanliurfa",
+     "alinti": "Surların önünde yaptığı teslim olma teklifi Süryânî ve Ermeni ruhanî liderleri tarafından reddedilince surlar mancınıklarla dövüldü ve dört hafta kadar süren kuşatmanın ardından Türkler şehre girdi (26 Cemâziyelâhir 539 / 24 Aralık 1144)."
+    },
+    {
+     "t": "1146-10-01",
+     "kesinlik": "ay",
+     "b": "Urfa Nûreddin Mahmud Zengî'nin idaresine geçti",
+     "d": "II. Josselin'in geri alma girişimini bastıran Nûreddin Urfa'yı kendi idaresine aldı.",
+     "slug": "zengiler",
+     "alinti": "Musul kuvvetleri zengin ganimetlerle geri dönerken Urfa, Nûreddin Mahmud’un idaresine geçmiş oldu."
+    },
+    {
+     "t": "1174-01-01",
+     "kesinlik": "yil",
+     "b": "II. Seyfeddin Gazi Urfa'yı aldı",
+     "d": "Nûreddin'in ölümünden sonra Musul atabegi II. Seyfeddin Gazi Urfa'yı ele geçirdi.",
+     "slug": "sanliurfa",
+     "alinti": "Seyfeddin Gazi burayı ele geçirdi (569/1174)."
+    },
+    {
+     "t": "1182-01-01",
+     "kesinlik": "yil",
+     "b": "Urfa Selâhaddîn-i Eyyûbî'nin idaresine girdi",
+     "d": "Şehir ve çevresi Selâhaddin'in idaresine girdi.",
+     "slug": "sanliurfa",
+     "alinti": "Ardından Selâhaddîn-i Eyyûbî’nin idaresine giren şehir ve çevresi (578/1182) bir müddet Eyyûbîler’le Musul Atabegleri ve Artuklular arasındaki mücadelelere sahne oldu."
+    }
+   ]
+  },
+  {
+   "ad": "Eski Van (Tuşpa)",
+   "grup": "B",
+   "bekleyen_kimlik": [
+    "vaspurakan-kralligi"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1021-01-01",
+     "d": "vaspurakan-kralligi",
+     "kesinlik": {
+      "f": "ufuk",
+      "t": "yil"
+     },
+     "slug": "van",
+     "alinti": "X. yüzyılda Van ve çevresi Sâcid hânedanı, Vaspurakan Ermeni Prensliği, Mervânîler ve Bizanslılar’ın hâkimiyetinde kaldı. 1021’de Bizanslılar’ın Van ve yöresini ele geçirmesinden sonra 40.000 Ermeni ailesi prenslerinin arkasından Sivas ve Kayseri’ye gitti.",
+     "not": "vaspurakan-kralligi RENKSİZ. bizans maddesi: '1021 yılında II. Basileios ... Vaspurakan bölgesini imparatorluğa ilhak etmişti'.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1021-01-01",
+     "t": "1064-01-01",
+     "d": "bizans",
+     "kesinlik": "yil",
+     "slug": "van",
+     "alinti": "1021’de Bizanslılar’ın Van ve yöresini ele geçirmesinden sonra 40.000 Ermeni ailesi prenslerinin arkasından Sivas ve Kayseri’ye gitti.",
+     "not": "1018 Çağrı Bey akını 'havzanın büyük bir kısmı' — kale Bizans'ta kaldı.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1064-01-01",
+     "t": "1207-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — 1064 Melikşah fethi → 'Nahcıvan Emîri Sakaroğlu Ebû Dülef’in yönetimine geçti' → Ahlatşahlar (Van'ı içine alan hâkimiyet; 1100 yılı Ahlat'ın Sökmen'e verilişidir, Van'ınki değil) — Van için kırılma yılları yok.",
+     "alinti_dogrulandi": null
+    },
+    {
+     "f": "1207-01-01",
+     "t": "1230-01-01",
+     "d": "eyyubi",
+     "kesinlik": "yil",
+     "slug": "ahlatsahlar",
+     "alinti": "Bunlar barış yolu ile Van’ı aldılar.",
+     "not": "Ahlatşahlar'ın sonu 604/1207-08 (ilki). eyyubiler: 'Eyyûbîler Âdil’in zamanında Ahlat, Erciş ve Van’ı da alarak Ahlatşahlar’a son verdiler'.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1230-01-01",
+     "t": "1231-01-01",
+     "d": "harizmsah",
+     "kesinlik": "yil",
+     "slug": "van",
+     "alinti": "Eyyûbîler’in bölgedeki hâkimiyeti uzun sürmedi. 627 (1230) yılında Celâleddin Hârizmşah, Ahlat ile Van’ı ele geçirdi.",
+     "not": "t=1231-01-01 KÜNYE sınırı (harizmsah t 1231-01-01).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1231-01-01",
+     "t": "1232-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — Hârizmşah künyesi 1231'de biter; Van'ın 1231-32 sahibi kaynakta yok (Selçuklu 1232).",
+     "alinti_dogrulandi": null
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1021-01-01",
+     "kesinlik": "yil",
+     "b": "Bizans Van ve yöresini ele geçirdi",
+     "d": "II. Basileios Vaspurakan'ı imparatorluğa ilhak etti; Ermeni prensleri Sivas ve Kayseri'ye göçtü.",
+     "slug": "van",
+     "alinti": "1021’de Bizanslılar’ın Van ve yöresini ele geçirmesinden sonra 40.000 Ermeni ailesi prenslerinin arkasından Sivas ve Kayseri’ye gitti."
+    },
+    {
+     "t": "1207-01-01",
+     "kesinlik": "yil",
+     "b": "Eyyûbîler Van'ı aldı",
+     "d": "Ahlat'ı alan Eyyûbîler barış yoluyla Van'ı da aldı; Ahlatşahlar sona erdi.",
+     "slug": "ahlatsahlar",
+     "alinti": "Bunlar barış yolu ile Van’ı aldılar."
+    },
+    {
+     "t": "1230-01-01",
+     "kesinlik": "yil",
+     "b": "Celâleddin Hârizmşah Van'ı aldı",
+     "d": "Celâleddin Hârizmşah Ahlat ile Van'ı Eyyûbîlerden aldı.",
+     "slug": "van",
+     "alinti": "Eyyûbîler’in bölgedeki hâkimiyeti uzun sürmedi. 627 (1230) yılında Celâleddin Hârizmşah, Ahlat ile Van’ı ele geçirdi."
+    }
+   ]
+  },
+  {
+   "ad": "Kars",
+   "grup": "B",
+   "bekleyen_kimlik": [
+    "kars-vanand-kralligi"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1064-01-01",
+     "d": "kars-vanand-kralligi",
+     "kesinlik": {
+      "f": "ufuk",
+      "t": "yil"
+     },
+     "slug": "kars",
+     "alinti": "Aşot, 962’de beyliğinin merkezini Ani’ye taşıdıktan sonra kardeşi Muşeg’e merkezi Kars olmak üzere Vanand bölgesini verdi.",
+     "not": "kars-vanand-kralligi RENKSİZ. 1049/1053 Kutalmış alamadı; 1058 kenar mahalle yağması.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1064-01-01",
+     "t": "1239-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — 1064 Gagik itaati ('Selçuklu topraklarına katıldı'), ardından Bizans'a devir (yılsız); '1074’te Gürcü Krallığı’na bağlı'; 472/1080 Selçuklu; Saltuklu (1153 kitâbesi, başlangıç yok); Şeddâdî (XII. yy ortası); Gürcü istilâsı (yılsız; gurcistan: 1162 'istilâ'). ⚠️ 623/1226 Celâleddin fethi kars maddesinde var ama celaleddin-harizmsah ve gurcistan maddeleri 1227'de Kars kuşatmasının SONUÇSUZ kaldığını söyler — kaynak çelişkisi.",
+     "alinti_dogrulandi": null
+    }
+   ],
+   "maddeler": []
+  },
+  {
+   "ad": "Tiflis",
+   "grup": "C",
+   "bekleyen_kimlik": [
+    "tiflis-emirligi"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1046-01-01",
+     "d": "tiflis-emirligi",
+     "kesinlik": {
+      "f": "ufuk",
+      "t": "yil"
+     },
+     "slug": "tiflis",
+     "alinti": "III-IV. (IX-X.) yüzyıllarda Gürcistan’da hüküm süren ailelerden Benî Ca‘fer, adını Tiflis Valisi Ca‘fer b. Ali’den almaktadır.",
+     "not": "RENKSİZ künye (tiflis-emirligi, renk=-). Emîr Ca‘fer 1032'de hâlâ Tiflis emîri (aynı paragraf).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1046-01-01",
+     "t": "1068-01-01",
+     "d": "gurcistan",
+     "kesinlik": "yil",
+     "slug": "tiflis",
+     "alinti": "1046’da Tiflis Emîri Ca‘fer’in ölümü üzerine Tiflisliler IV. Bagrat’ı çağırarak şehri ona teslim ettiler.",
+     "not": null,
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1068-01-01",
+     "t": "1121-01-01",
+     "d": "tiflis-emirligi",
+     "kesinlik": "yil",
+     "slug": "tiflis",
+     "alinti": "Bagrat, Alparslan’ın çekilmesinden sonra Emîr Fazlûn ve ordusunu yenip Tiflis’e girdi ve burayı belli miktarda vergi ödemek şartıyla emîrin mirasçılarına bıraktı.",
+     "not": "RENKSİZ künye. 1068'de Alparslan Tiflis'i Şeddâdî Fazlûn'a verdi; Bagrat, Alparslan'ın çekilmesinin ardından (yılsız, aynı sefer bağlamı) Fazlûn'u yenip şehri emîrin mirasçılarına (Benî Ca‘fer) haraç karşılığı bıraktı. Fazlûn dönemi kısa olduğu ve sonu yılsız olduğu için ayrı dönem YAZILMADI. II. Giorgi zamanında Kartli Selçuklu hâkimiyetine girdi (yılsız) — tâbiyet, kural 4: fiilî yönetici Benî Ca‘fer (1121'de 'sürüldü').",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1121-01-01",
+     "t": "1227-04-01",
+     "d": "gurcistan",
+     "kesinlik": {
+      "f": "yil",
+      "t": "ay"
+     },
+     "slug": "tiflis",
+     "alinti": "II. David, Kuzey Kafkasya ve Güney Rus steplerinden 45.000 Kıpçak ailesiyle anlaşarak bunları 1118’den itibaren Gürcistan’a getirdi ve onların yardımıyla 1121’de Tiflis’teki Selçuklu hâkimiyetine son verdi; Benî Ca‘fer ailesi de buradan sürüldü.",
+     "not": "gurcistan maddesi Didgori'yi 12 Ağustos 1121 verir, Tiflis'in işgalini günsüz 'bu savaştan sonra' der ⇒ yıl hassasiyeti. Künye tiflis-emirligi t=1122; TDV 1121 der — künye t'si 1121'e çekilebilir (bildirim). 1162/1166'daki Gence baskınları vb. Tiflis'i etkilemez.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1227-04-01",
+     "t": "1231-01-01",
+     "d": "harizmsah",
+     "kesinlik": {
+      "f": "ay",
+      "t": "yil"
+     },
+     "slug": "gurcistan",
+     "alinti": "Ertesi yıl tekrar Gürcistan seferine çıkan Celâleddin Hârizmşah Tiflis’i fethetti (Rebîülâhir 624 / Nisan 1227).",
+     "not": "⚠️ KAYNAK İÇ ÇELİŞKİSİ: 'tiflis' maddesi 'hâkimiyeti kısa sürdü; ancak 627’de (1230) tekrar şehri zaptetti' der; 'gurcistan' maddesi ise vezir Şerefülmülk'ün Gürcistan'da kaldığını, Gürcülerin Tiflis'i ELE GEÇİRME HAZIRLIĞINDA olduğunu ve Celâleddin'in 627/1229'da Tiflis'e girdiğini yazar. Aradaki Gürcü dönemi (varsa) yılsız ⇒ tek Hârizmşah dönemi yazıldı. t=1231-01-01 künye harizmsah t'siyle aynı; TDV 'tiflis' '1231’de şehirde Moğol idaresi kuruldu' der.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1231-01-01",
+     "t": "1256-01-01",
+     "d": "mogol-imparatorlugu",
+     "kesinlik": {
+      "f": "yil",
+      "t": "kural5"
+     },
+     "slug": "tiflis",
+     "alinti": "1231’de şehirde Moğol idaresi kuruldu.",
+     "not": "gurcistan maddesi: Kraliçe Rusudan Tiflis'i terk etti; 1243'te Büyük Han'ı metbû tanıdı.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1256-01-01",
+     "t": "1281-01-01",
+     "d": "gurcistan",
+     "kesinlik": {
+      "f": "kural5-yilsiz",
+      "t": "mevcut"
+     },
+     "slug": "tiflis",
+     "alinti": "İlhanlılar döneminde buranın hâkimiyeti Gürcüler’e bırakıldı.",
+     "not": "TDV devri yılsız verir ('İlhanlılar döneminde'); 1256 = kural 5'in İlhanlı başlangıcı, kaynak günü DEĞİL. İlhanlı'ya tâbi Gürcü kralı fiilî yönetici (kural 4). İstenirse 1231-1281 tek mogol/ilhanlı dönemi de savunulabilir; kaynak cümlesi Gürcüleri gösteriyor.",
+     "alinti_dogrulandi": true
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1046-01-01",
+     "kesinlik": "yil",
+     "b": "Tiflisliler şehri Gürcü Kralı IV. Bagrat'a teslim etti",
+     "d": "Tiflis Emîri Ca‘fer'in ölümü üzerine Tiflis halkı IV. Bagrat'ı çağırıp şehri ona teslim etti.",
+     "slug": "tiflis",
+     "alinti": "1046’da Tiflis Emîri Ca‘fer’in ölümü üzerine Tiflisliler IV. Bagrat’ı çağırarak şehri ona teslim ettiler."
+    },
+    {
+     "t": "1068-01-01",
+     "kesinlik": "yil",
+     "b": "Alparslan Tiflis'i yıktı; şehir yeniden emîrin mirasçılarına geçti",
+     "d": "Alparslan ve müttefikleri 1068'de Tiflis ve Kartli'yi tahrip etti, Tiflis'i Gence Sultanı Fazlûn'a verdi; Bagrat Fazlûn'u yenip şehri vergi karşılığı emîrin mirasçılarına bıraktı.",
+     "slug": "tiflis",
+     "alinti": "1068’de Alparslan ve müttefikleri Tiflis ve Kartli’yi yerle bir ettiler. Ağır kış şartları Alparslan’ı Gürcistan’ı terketmeye zorlarken Tiflis ve Rustavi’yi Gence Sultanı Fazlûn’a verdi."
+    },
+    {
+     "t": "1121-01-01",
+     "kesinlik": "yil",
+     "b": "II. David Tiflis'i aldı, Benî Ca‘fer sürüldü",
+     "d": "Gürcü Kralı II. David Kıpçak yardımıyla Tiflis'teki Selçuklu hâkimiyetine son verdi; Benî Ca‘fer ailesi şehirden sürüldü, Tiflis Gürcistan'ın başşehri oldu.",
+     "slug": "tiflis",
+     "alinti": "II. David, Kuzey Kafkasya ve Güney Rus steplerinden 45.000 Kıpçak ailesiyle anlaşarak bunları 1118’den itibaren Gürcistan’a getirdi ve onların yardımıyla 1121’de Tiflis’teki Selçuklu hâkimiyetine son verdi; Benî Ca‘fer ailesi de buradan sürüldü."
+    },
+    {
+     "t": "1227-04-01",
+     "kesinlik": "ay",
+     "b": "Celâleddin Hârizmşah Tiflis'i fethetti",
+     "d": "Celâleddin Hârizmşah Rebîülâhir 624'te (Nisan 1227) Tiflis'i ele geçirdi.",
+     "slug": "gurcistan",
+     "alinti": "Ertesi yıl tekrar Gürcistan seferine çıkan Celâleddin Hârizmşah Tiflis’i fethetti (Rebîülâhir 624 / Nisan 1227)."
+    },
+    {
+     "t": "1231-01-01",
+     "kesinlik": "yil",
+     "b": "Tiflis'te Moğol idaresi kuruldu",
+     "d": "Moğollar 1231'de Gürcistan'a girdi, Kraliçe Rusudan Tiflis'i terk etti; şehirde Moğol idaresi kuruldu.",
+     "slug": "tiflis",
+     "alinti": "1231’de şehirde Moğol idaresi kuruldu."
+    },
+    {
+     "t": "1256-01-01",
+     "kesinlik": "kural5-yilsiz",
+     "b": "İlhanlı döneminde Tiflis'in idaresi Gürcülere bırakıldı",
+     "d": "İlhanlılar döneminde Tiflis'in hâkimiyeti İlhanlı'ya tâbi Gürcü krallarına bırakıldı (TDV yıl vermez).",
+     "slug": "tiflis",
+     "alinti": "İlhanlılar döneminde buranın hâkimiyeti Gürcüler’e bırakıldı."
+    }
+   ]
+  },
+  {
+   "ad": "Gence",
+   "grup": "C",
+   "bekleyen_kimlik": [
+    "seddadiler-gence"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1075-01-01",
+     "d": "seddadiler-gence",
+     "kesinlik": {
+      "f": "ufuk",
+      "t": "yil"
+     },
+     "slug": "gence",
+     "alinti": "360’ta (970-71) Şeddâdîler’in hâkimiyeti altına girdi.",
+     "not": "RENKSİZ künye. 1054'te Tuğrul Bey'e tâbi oldular (kural 4: yine Şeddâdî).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1075-01-01",
+     "t": "1118-05-06",
+     "d": "buyuk-selcuklu",
+     "kesinlik": {
+      "f": "yil",
+      "t": "kunye"
+     },
+     "slug": "seddadiler",
+     "alinti": "Onun halefi ve oğlu III. Fazl zamanında Sultan Melikşah’ın emîrlerinden Savtegin’in Arrân’ı zaptetmesi üzerine (468/1075-76) bölge Selçuklu idaresine girdi, böylece Şeddâdîler’in Gence kolu sona erdi.",
+     "not": "Hicrî çift yıl 1075-76 → ilki. 'gence' maddesi 1076'da Melikşah'ın Gence'yi Fazlûn'dan 'muvakkaten' aldığını, Fazlûn'un 1086'da direndiğini, teslim olup yeniden hâkim olduğunu, 1088'de kesin Selçuklu hâkimiyeti kurulduğunu yazar — Fazlûn'un ara hâkimiyetlerinin uçları yılsız/kısa ⇒ ayrı dönem yazılmadı. 1093 Muhammed Tapar'a iktâ (Büyük Selçuklu içi).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1118-05-06",
+     "t": "1148-01-01",
+     "d": "irak-selcuklu",
+     "kesinlik": {
+      "f": "kunye-devralindi",
+      "t": "yil"
+     },
+     "slug": "arran",
+     "alinti": "Sultan Muhammed Tapar’ın ölümü üzerine Sultan Sencer Arrân’ı Irak Selçukluları’na bıraktı.",
+     "not": "TDV gün vermez; kaynak yıl 1118 künye irak-selcuklu f'sinin (1118-05-06) önüne düşüyor ⇒ künyenin günü devralındı, KAYNAKSIZDIR (D213). 1121'de 'Gence Meliki Tuğrul' (gurcistan) ve 1127'de Selçuklu valileri (gence) Irak Selçuklu yönetimini doğrular.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1148-01-01",
+     "t": "1225-01-01",
+     "d": "ildenizli",
+     "kesinlik": "yil",
+     "slug": "arran",
+     "alinti": "Gürcü saldırılarına başarıyla karşı koyan İldeniz daha sonra bağımsızlığını ilân ederek Azerbaycan Atabegleri (İldenizliler) adıyla bir hânedan kurdu (1148-1225).",
+     "not": "Gence, Arrân'ın merkezi; 'gence' maddesi 'önce Selçuk sultanlarının, daha sonra da İldenizliler’in merkezlerinden biri' der (yılsız) ⇒ hânedanın 1148 başlangıcı kullanıldı. Gürcülerin 1162/1166 'zaptederek yağmalamış' olması ve Tamara'nın baskını geçici baskındır, sahiplik değildir (kural 4).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1225-01-01",
+     "t": "1231-01-01",
+     "d": "harizmsah",
+     "kesinlik": "yil",
+     "slug": "gence",
+     "alinti": "Ardından Celâleddin Hârizmşah Azerbaycan’a yürüyerek (1225) Gence Hâkimi Cemâleddin’den şehri teslim aldı.",
+     "not": "t = künye harizmsah t (1231-01-01).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1231-01-01",
+     "t": "1235-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — 1231'de Gence ahalisi Hârizm garnizonunu bastı, Celâleddin isyanı bastırdı ve aynı yıl öldü; Moğollar şehri ancak 1235'te aldı. 1231-1235 arasında şehri kimin yönettiği TDV'de yok (gence, ogedey-han, celaleddin-harizmsah, arran denendi). ⚠️ Bu boşluk mevcut veriye bitişik olduğu için kurala göre bütün zincir uygulanamaz; koordinatör kararı: (a) harizmsah künyesinin t'si Celâleddin'in ölümüne (Şevval 628 / Ağustos 1231) uzatılsa bile 1231-08→1235 boş kalır; (b) bölge cümlesi (azerbaycan: 1231 Moğol) Gence için şehre özgü 1235 tarihiyle ÇELİŞİR, kullanılmadı.",
+     "alinti_dogrulandi": null
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1075-01-01",
+     "kesinlik": "yil",
+     "b": "Savtegin Arrân'ı aldı; Şeddâdîlerin Gence kolu sona erdi",
+     "d": "Melikşah'ın emîri Savtegin Arrân'ı zaptetti, bölge Selçuklu idaresine girdi ve Şeddâdîlerin Gence kolu sona erdi.",
+     "slug": "seddadiler",
+     "alinti": "Onun halefi ve oğlu III. Fazl zamanında Sultan Melikşah’ın emîrlerinden Savtegin’in Arrân’ı zaptetmesi üzerine (468/1075-76) bölge Selçuklu idaresine girdi, böylece Şeddâdîler’in Gence kolu sona erdi."
+    },
+    {
+     "t": "1118-05-06",
+     "kesinlik": "kunye-devralindi",
+     "b": "Arrân Irak Selçuklularına bırakıldı",
+     "d": "Muhammed Tapar'ın ölümü üzerine Sultan Sencer Arrân'ı Irak Selçuklularına bıraktı (gün künyeden, kaynaksız).",
+     "slug": "arran",
+     "alinti": "Sultan Muhammed Tapar’ın ölümü üzerine Sultan Sencer Arrân’ı Irak Selçukluları’na bıraktı."
+    },
+    {
+     "t": "1148-01-01",
+     "kesinlik": "yil",
+     "b": "İldeniz Azerbaycan Atabegliğini kurdu; Gence İldenizlilere geçti",
+     "d": "Sultan Mesud'un Arrân valisi tayin ettiği İldeniz bağımsızlığını ilân ederek İldenizliler hânedanını kurdu.",
+     "slug": "arran",
+     "alinti": "Gürcü saldırılarına başarıyla karşı koyan İldeniz daha sonra bağımsızlığını ilân ederek Azerbaycan Atabegleri (İldenizliler) adıyla bir hânedan kurdu (1148-1225)."
+    },
+    {
+     "t": "1225-01-01",
+     "kesinlik": "yil",
+     "b": "Celâleddin Hârizmşah Gence'yi teslim aldı",
+     "d": "Celâleddin Hârizmşah Azerbaycan'a yürüyerek Gence hâkimi Cemâleddin'den şehri teslim aldı.",
+     "slug": "gence",
+     "alinti": "Ardından Celâleddin Hârizmşah Azerbaycan’a yürüyerek (1225) Gence Hâkimi Cemâleddin’den şehri teslim aldı."
+    }
+   ]
+  },
+  {
+   "ad": "Nahçıvan",
+   "grup": "C",
+   "bekleyen_kimlik": [
+    "YENI:nahcivan-sahligi"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1064-01-01",
+     "d": "YENI:nahcivan-sahligi",
+     "kesinlik": {
+      "f": "ufuk",
+      "t": "yil"
+     },
+     "slug": "nahcivan",
+     "alinti": "Nahcıvan şahlığı denilen bu devlet Arap asıllı Dülefîler tarafından kurulmuştu.",
+     "not": "Önceki cümleler: 940'lardan itibaren kırk yıl Müsâfirî; 'Ardından burada müstakil bir idare tesis edildi.' ⇒ 1000'de şahlık.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1064-01-01",
+     "t": "1118-05-06",
+     "d": "buyuk-selcuklu",
+     "kesinlik": {
+      "f": "yil",
+      "t": "kunye"
+     },
+     "slug": "nahcivan",
+     "alinti": "456’da (1064) Revvâdîler’i mağlûp eden Selçuklu Hükümdarı Alparslan Nahcıvan şahlığına son verdi.",
+     "not": null,
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1118-05-06",
+     "t": "1148-01-01",
+     "d": "irak-selcuklu",
+     "kesinlik": {
+      "f": "kunye-devralindi",
+      "t": "yil"
+     },
+     "slug": "azerbaycan",
+     "alinti": "Büyük Selçuklular’dan sonra Azerbaycan Irak Selçukluları’nın (1118-1194) ve İldenizliler hânedanının (1148-1225) idaresine girdi.",
+     "not": "BÖLGE CÜMLESİ (Azerbaycan). Şehir maddesi yalnız 'bir süre daha Selçuklu Devleti’ne bağlı kaldıysa da' der (Irak kolunu ayırmaz). Gün künyeden, kaynaksız. İstenirse 1064-1148 tek buyuk-selcuklu dönemi de olabilir (künye t 1157).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1148-01-01",
+     "t": "1225-01-01",
+     "d": "ildenizli",
+     "kesinlik": "yil",
+     "slug": "nahcivan",
+     "alinti": "485’te (1092) Melikşah’ın ölümünün ardından bir süre daha Selçuklu Devleti’ne bağlı kaldıysa da Selçuklular’ın dağılmasıyla onların arazileri üzerinde ortaya çıkan İldenizliler Devleti’ne katıldı ve 570 (1174) yılına kadar İldenizliler’in merkezi oldu.",
+     "not": "Katılış yılsız; 1148 = hânedanın TDV başlangıcı ('ildenizliler': 'Şemseddin İldeniz’in 543’te (1148) Azerbaycan valiliğine tayiniyle'). ⚠️ ÇELİŞKİ: 'nahcivan' 'Moğollar’ın 618’de (1221) burayı ele geçirmesinden sonra' der; 'ildenizliler' ise 1220-1221 Moğol tahribatından sonra Özbek'in NAHCIVAN'A KAÇTIĞINI yazar ⇒ 1221 geçici Moğol baskını sayıldı (kural 4), dönem yazılmadı.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1225-01-01",
+     "t": "1231-01-01",
+     "d": "harizmsah",
+     "kesinlik": "yil",
+     "slug": "celaleddin-harizmsah",
+     "alinti": "Celâleddin Azerbaycan ve Arrân’ı topraklarına katıp Tebriz’i başşehir yaptıktan sonra Gürcistan Krallığı’na karşı harekete geçti.",
+     "not": "BÖLGE CÜMLESİ (Azerbaycan); Tebriz Temmuz 1225 (aynı madde). Gün yazılmadı çünkü ildenizli künye t 1225-01-01.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1231-01-01",
+     "t": "1256-01-01",
+     "d": "mogol-imparatorlugu",
+     "kesinlik": {
+      "f": "yil",
+      "t": "kural5"
+     },
+     "slug": "azerbaycan",
+     "alinti": "Hülâgû Han’ın kurmuş olduğu İlhanlılar Devleti’nin sınırları 1231’de Güney ve Kuzey Azerbaycan’ın topraklarını da içine alacak kadar genişledi.",
+     "not": "BÖLGE CÜMLESİ (şehre özgü değil): TDV 'azerbaycan' maddesi Kuzey Azerbaycan'ı (Şeki, Bakü, Derbend, Nahcıvan, Gence…) kapsar; cümle anakronik ('İlhanlılar … 1231') — Moğol (Curmagun) hâkimiyeti olarak okundu, 1256'ya kadar mogol-imparatorlugu (kural 5). Reddedilirse bu dönemden geriye zincir düşer.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1256-01-01",
+     "t": "1281-01-01",
+     "d": "ilhanli",
+     "kesinlik": {
+      "f": "kural5",
+      "t": "mevcut"
+     },
+     "slug": "nahcivan",
+     "alinti": "İlhanlı Hükümdarı Gāzân Han devrinde biraz toparlandı.",
+     "not": "İlhanlı yönetimi şehir maddesinden; 1256 = kural 5 sınırı, kaynak günü değil.",
+     "alinti_dogrulandi": true
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1064-01-01",
+     "kesinlik": "yil",
+     "b": "Alparslan Nahcıvan şahlığına son verdi",
+     "d": "Revvâdîleri yenen Alparslan, Dülefîlerin kurduğu Nahcıvan şahlığını ortadan kaldırdı.",
+     "slug": "nahcivan",
+     "alinti": "456’da (1064) Revvâdîler’i mağlûp eden Selçuklu Hükümdarı Alparslan Nahcıvan şahlığına son verdi."
+    },
+    {
+     "t": "1118-05-06",
+     "kesinlik": "kunye-devralindi",
+     "b": "Azerbaycan Irak Selçuklularına geçti",
+     "d": "Büyük Selçuklulardan sonra Azerbaycan Irak Selçuklularının idaresine girdi (bölge cümlesi; gün künyeden).",
+     "slug": "azerbaycan",
+     "alinti": "Büyük Selçuklular’dan sonra Azerbaycan Irak Selçukluları’nın (1118-1194) ve İldenizliler hânedanının (1148-1225) idaresine girdi."
+    },
+    {
+     "t": "1148-01-01",
+     "kesinlik": "yil",
+     "b": "Nahcıvan İldenizlilere katıldı",
+     "d": "Selçukluların dağılmasıyla Nahcıvan İldenizliler Devleti'ne katıldı ve 1174'e kadar onların merkezi oldu (katılış yılı yılsız; hânedan başlangıcı).",
+     "slug": "nahcivan",
+     "alinti": "485’te (1092) Melikşah’ın ölümünün ardından bir süre daha Selçuklu Devleti’ne bağlı kaldıysa da Selçuklular’ın dağılmasıyla onların arazileri üzerinde ortaya çıkan İldenizliler Devleti’ne katıldı ve 570 (1174) yılına kadar İldenizliler’in merkezi oldu."
+    },
+    {
+     "t": "1225-01-01",
+     "kesinlik": "yil",
+     "b": "Celâleddin Hârizmşah Azerbaycan'ı ilhak etti",
+     "d": "Celâleddin Hârizmşah Azerbaycan ve Arrân'ı topraklarına kattı (bölge cümlesi).",
+     "slug": "celaleddin-harizmsah",
+     "alinti": "Celâleddin Azerbaycan ve Arrân’ı topraklarına katıp Tebriz’i başşehir yaptıktan sonra Gürcistan Krallığı’na karşı harekete geçti."
+    },
+    {
+     "t": "1231-01-01",
+     "kesinlik": "yil",
+     "b": "Azerbaycan Moğol hâkimiyetine girdi",
+     "d": "Moğol hâkimiyeti 1231'de Kuzey ve Güney Azerbaycan'ı kapsadı (bölge cümlesi).",
+     "slug": "azerbaycan",
+     "alinti": "Hülâgû Han’ın kurmuş olduğu İlhanlılar Devleti’nin sınırları 1231’de Güney ve Kuzey Azerbaycan’ın topraklarını da içine alacak kadar genişledi."
+    },
+    {
+     "t": "1256-01-01",
+     "kesinlik": "kural5",
+     "b": "Nahcıvan İlhanlı yönetiminde",
+     "d": "Hülâgû'nun kurduğu İlhanlı Devleti'nin yönetimine geçti (kural 5 sınırı; şehir maddesi Gāzân Han devrini anar).",
+     "slug": "nahcivan",
+     "alinti": "İlhanlı Hükümdarı Gāzân Han devrinde biraz toparlandı."
+    }
+   ]
+  },
+  {
+   "ad": "Musul",
+   "grup": "D",
+   "bekleyen_kimlik": [
+    "lului",
+    "ukayli",
+    "zengi-musul"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1056-01-01",
+     "d": "ukayli",
+     "kesinlik": {
+      "f": "ufuk",
+      "t": "yil"
+     },
+     "slug": "musul--irak",
+     "alinti": "Ukaylîler daha sonra kendi hânedanlarını kurup Musul’da hüküm sürdüler.",
+     "not": "990'da Ukaylîler Musul'u aldı ('Hamdânî hâkimiyeti 380’de (990) sona erdi.'). ukayli renksiz künye.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1056-01-01",
+     "t": "1061-01-01",
+     "d": "buyuk-selcuklu",
+     "kesinlik": "yil",
+     "slug": "musul--irak",
+     "alinti": "448’de (1056) Musul Irak’la beraber Selçuklular’ın eline geçtiyse de bir yıl sonra Büveyhî kumandanı Besâsîrî şehri zaptetti; ancak Selçuklular şehri aynı yıl geri aldılar ve dört yıl daha ellerinde tuttular.",
+     "not": "Besâsîrî'nin aynı yıl içinde biten işgali dönem açmadı.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1061-01-01",
+     "t": "1096-11-01",
+     "d": "ukayli",
+     "kesinlik": {
+      "f": "yil",
+      "t": "ay"
+     },
+     "slug": "musul--irak",
+     "alinti": "Musul, Selçuklu Emîri Kürboğa’nın zaptına kadar (Zilkade 489 / Kasım 1096) Ukaylîler’in elinde kaldı.",
+     "not": "Başlangıç: '453’te (1061) tekrar Ukaylîler’in hâkimiyetine giren Musul 477’de (1084) Selçuklu ordusu tarafından ele geçirildi, fakat Sultan Melikşah şehri tekrar Ukaylî Emîri Müslim b.' — 1084 zaptı aynı yıl Ukaylî'ye iade (dönem açılmadı). ⚠️ KÜNYE AŞIMI: ukayli t=1096-01-01, dönem 1096-11'e uzanıyor → sınıf ② (aynı polity sürüyor) — künye t'yi 1096-11'e GENİŞLET.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1096-11-01",
+     "t": "1118-05-06",
+     "d": "buyuk-selcuklu",
+     "kesinlik": {
+      "f": "ay",
+      "t": "gun"
+     },
+     "slug": "musul--irak",
+     "alinti": "Musul, Selçuklu Emîri Kürboğa’nın zaptına kadar (Zilkade 489 / Kasım 1096) Ukaylîler’in elinde kaldı.",
+     "not": "Kürboğa, Çökürmüş, Çavlı, Mevdûd vb. Selçuklu valileri. I. Kılıcarslan'ın 1107 girişi birkaç aylık (dönem açılmadı).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1118-05-06",
+     "t": "1127-01-01",
+     "d": "irak-selcuklu",
+     "kesinlik": {
+      "f": "gun",
+      "t": "yil"
+     },
+     "slug": "musul--irak",
+     "alinti": "521 (1127) yılında Irak Selçuklu Sultanı Mahmûd b. Muhammed Tapar’ın, oğluna atabeg tayin ettiği İmâdüddin Zengî’ye Musul’u iktâ etmesiyle burada Musul Atabegliği (Zengîler) denilen devletin temelleri atıldı.",
+     "not": "Irak Selçuklu başlangıcı şehre özgü değil, Mahmud'un sultan ilânı günüdür (6 Mayıs 1118; selcuklular maddesi). Musul'un 1127'de Irak Selçuklu sultanınca iktâ edilmesi Irak Selçuklu hâkimiyetini tanıklar.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1127-01-01",
+     "t": "1233-12-01",
+     "d": "zengi-musul",
+     "kesinlik": {
+      "f": "yil",
+      "t": "ay"
+     },
+     "slug": "musul--irak",
+     "alinti": "521 (1127) yılında Irak Selçuklu Sultanı Mahmûd b. Muhammed Tapar’ın, oğluna atabeg tayin ettiği İmâdüddin Zengî’ye Musul’u iktâ etmesiyle burada Musul Atabegliği (Zengîler) denilen devletin temelleri atıldı.",
+     "not": "zengi-musul renksiz künye. 1186'dan itibaren Eyyûbî'ye tâbi (hutbe), fiilî yönetici Zengî (kural 4). ⚠️ KÜNYE AŞIMI: zengi-musul t=1233-01-01, dönem Aralık 1233'e (Rebîülevvel 631) uzanıyor — künye günü kaynak değil, sınıf ②.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1233-12-01",
+     "t": "1262-01-01",
+     "d": "lului",
+     "kesinlik": {
+      "f": "ay",
+      "t": "yil"
+     },
+     "slug": "musul--irak",
+     "alinti": "Nûreddin Zengî Arslanşah’ın âzatlısı iken Musul’un en yetkili kişisi durumuna gelen Bedreddin Lü’lü’, son Zengî atabeginin ölümüyle halife tarafından sultan ilân edildi (Rebîülevvel 631 / Aralık 1233).",
+     "not": "lului renksiz. Lü'lü' 1258'de Hülâgû'ya bağlılık arzetti (tâbi, fiilî yönetici Lü'lü'). ⚠️ KÜNYE AŞIMI: lului t=1259-07-26 (Lü'lü'nün ölümü) — oğlu el-Melikü's-Sâlih İsmâil 1262'ye kadar sürdü → sınıf ② künye t'yi 1262'ye GENİŞLET.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1262-01-01",
+     "t": "1281-01-01",
+     "d": "ilhanli",
+     "kesinlik": "yil",
+     "slug": "musul--irak",
+     "alinti": "Ancak ölümünden sonra yerine geçen oğlu el-Melikü’s-Sâlih İsmâil, Hülâgû’ya karşı Memlük Sultanı Baybars’ın yanında yer alınca Musul Moğol tahribatına mâruz kaldı (660/1262).",
+     "not": "Ardından: 'Kendisi de Hülâgû’nun huzuruna götürülerek öldürüldü.' 660 = 1261-62; TDV 1262 yazıyor.",
+     "alinti_dogrulandi": true
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1056-01-01",
+     "kesinlik": "yil",
+     "b": "Musul Selçuklular'ın eline geçti",
+     "d": "Musul Irak ile birlikte Selçuklular'a geçti; Besâsîrî'nin kısa işgaline rağmen dört yıl Selçuklu elinde kaldı.",
+     "slug": "musul--irak",
+     "alinti": "448’de (1056) Musul Irak’la beraber Selçuklular’ın eline geçtiyse de bir yıl sonra Büveyhî kumandanı Besâsîrî şehri zaptetti; ancak Selçuklular şehri aynı yıl geri aldılar ve dört yıl daha ellerinde tuttular."
+    },
+    {
+     "t": "1061-01-01",
+     "kesinlik": "yil",
+     "b": "Musul yeniden Ukaylîler'de",
+     "d": "Musul 1061'de tekrar Ukaylî hâkimiyetine girdi; 1084 Selçuklu zaptından sonra da Melikşah şehri Ukaylî emîrine iade etti.",
+     "slug": "musul--irak",
+     "alinti": "453’te (1061) tekrar Ukaylîler’in hâkimiyetine giren Musul 477’de (1084) Selçuklu ordusu tarafından ele geçirildi, fakat Sultan Melikşah şehri tekrar Ukaylî Emîri Müslim b."
+    },
+    {
+     "t": "1096-11-01",
+     "kesinlik": "ay",
+     "b": "Kürboğa Musul'u zaptetti",
+     "d": "Selçuklu emîri Kürboğa Musul'u Ukaylîler'den aldı.",
+     "slug": "musul--irak",
+     "alinti": "Musul, Selçuklu Emîri Kürboğa’nın zaptına kadar (Zilkade 489 / Kasım 1096) Ukaylîler’in elinde kaldı."
+    },
+    {
+     "t": "1118-05-06",
+     "kesinlik": "gun",
+     "b": "Irak Selçuklu Devleti kuruldu (Musul Irak Selçuklu'ya)",
+     "d": "Muhammed Tapar'ın ölümüyle oğlu Mahmud sultan ilân edildi; Musul Irak Selçuklu sultanlığına bağlı kaldı.",
+     "slug": "selcuklular",
+     "alinti": "Muhammed Tapar’ın ölümü üzerine yerine geçen oğlu Mahmud, 13 Muharrem 512’de (6 Mayıs 1118) Abbâsî Halifesi Müstazhir-Billâh tarafından sultan ilân edildi ve adına hutbe okundu."
+    },
+    {
+     "t": "1127-01-01",
+     "kesinlik": "yil",
+     "b": "İmâdüddin Zengî Musul'a atabeg (Zengîler)",
+     "d": "Irak Selçuklu Sultanı Mahmud Musul'u İmâdüddin Zengî'ye iktâ etti; Musul Atabegliği kuruldu.",
+     "slug": "musul--irak",
+     "alinti": "521 (1127) yılında Irak Selçuklu Sultanı Mahmûd b. Muhammed Tapar’ın, oğluna atabeg tayin ettiği İmâdüddin Zengî’ye Musul’u iktâ etmesiyle burada Musul Atabegliği (Zengîler) denilen devletin temelleri atıldı."
+    },
+    {
+     "t": "1233-12-01",
+     "kesinlik": "ay",
+     "b": "Bedreddin Lü'lü' Musul sultanı",
+     "d": "Son Zengî atabeginin ölümüyle Bedreddin Lü'lü' halife tarafından sultan ilân edildi.",
+     "slug": "musul--irak",
+     "alinti": "Nûreddin Zengî Arslanşah’ın âzatlısı iken Musul’un en yetkili kişisi durumuna gelen Bedreddin Lü’lü’, son Zengî atabeginin ölümüyle halife tarafından sultan ilân edildi (Rebîülevvel 631 / Aralık 1233)."
+    },
+    {
+     "t": "1262-01-01",
+     "kesinlik": "yil",
+     "b": "Moğollar Musul'u aldı, Lü'lü' hânedanı sona erdi",
+     "d": "Baybars'ın yanında yer alan el-Melikü's-Sâlih İsmâil'in Musul'u Moğol tahribatına uğradı, kendisi Hülâgû'nun huzurunda öldürüldü.",
+     "slug": "musul--irak",
+     "alinti": "Ancak ölümünden sonra yerine geçen oğlu el-Melikü’s-Sâlih İsmâil, Hülâgû’ya karşı Memlük Sultanı Baybars’ın yanında yer alınca Musul Moğol tahribatına mâruz kaldı (660/1262)."
+    }
+   ]
+  },
+  {
+   "ad": "Erbil",
+   "grup": "D",
+   "bekleyen_kimlik": [
+    "begteginli",
+    "zengi-musul"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1132-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — 1132 öncesi Erbil'de yerel Kürt emîrleri ('XII. yüzyılın başlarında Erbil’de Emîr Bûbekr b. Mûkıl ile Ebü’l-Heycâ ve ahfadı hüküm sürdü') — künye yok, tarih yok. Denenen: erbil, begteginliler, zengiler, musul--irak.",
+     "alinti_dogrulandi": null
+    },
+    {
+     "f": "1132-01-01",
+     "t": "1144-01-01",
+     "d": "zengi-musul",
+     "kesinlik": "yil",
+     "slug": "erbil",
+     "alinti": "Musul Atabeği İmâdüddin Zengî 1132 yılında Erbil’i ele geçirince burayı kumandanlarından Zeynüddin Ali Küçük b. Begtegin’e iktâ etti.",
+     "not": "zengi-musul renksiz. Ali Küçük 1132'den iktâ sahibi; hânedan TDV'de 1144'ten sayılıyor.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1144-01-01",
+     "t": "1232-06-29",
+     "d": "begteginli",
+     "kesinlik": {
+      "f": "yil",
+      "t": "gun"
+     },
+     "slug": "begteginliler",
+     "alinti": "BEGTEGİNLİLER (Erbil Atabegleri) Hükümdarlar Hükümdarlık Tarihleri Zeynüddin Ali Küçük 539 (1144)",
+     "not": "begteginli renksiz. 1144 kırılması iktâ sahibinin hânedanlaşmasıdır (aynı aile, Zengî tâbiliği altında); Kaymaz zamanında Erbil Musul'dan bağımsızlaştı. İstersen 1132-1144 Zengî dönemi begteginli'ye birleştirilebilir (künye f 1144 bunu engeller).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1232-06-29",
+     "t": "1258-02-10",
+     "d": "abbasi",
+     "kesinlik": {
+      "f": "gun",
+      "t": "alt-sinir"
+     },
+     "slug": "erbil",
+     "alinti": "Oğlu olmayan Kökböri’nin ölümü üzerine Erbil bölgesi vasiyet yoluyla Abbâsî Halifesi Müstansır-Billâh’ın eline geçti (1232).",
+     "not": "Gün: begteginliler 'Kökböri 29 Haziran 1232’de Erbil’de öldü' — halk bir süre direndi, teslim birkaç gün/ay sonra olabilir. 1236 Moğol saldırısı geri çekildi (dönem açılmadı).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1258-02-10",
+     "t": "1281-01-01",
+     "d": "ilhanli",
+     "kesinlik": {
+      "f": "alt-sinir",
+      "t": "yil"
+     },
+     "slug": "erbil",
+     "alinti": "1236 yılında Erbil’e saldıran Moğollar aşağı şehri işgal ederek binaları yıkıp kaleyi kuşattılarsa da sonuçta geri çekilmek zorunda kaldılar; ancak Bağdat’ın 1258’de Hülâgû’nun eline geçmesinden sonra burası da zaptedildi.",
+     "not": "Zapt günü kaynakta yok; 'Bağdat'ın düşüşünden sonra' → 1258-02-10 ALT SINIR (sahte kesinlik değil, beyan). Gün bulunursa ileri alınmalı.",
+     "alinti_dogrulandi": true
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1132-01-01",
+     "kesinlik": "yil",
+     "b": "İmâdüddin Zengî Erbil'i aldı",
+     "d": "Musul Atabegi İmâdüddin Zengî Erbil'i ele geçirip kumandanı Ali Küçük'e iktâ etti.",
+     "slug": "erbil",
+     "alinti": "Musul Atabeği İmâdüddin Zengî 1132 yılında Erbil’i ele geçirince burayı kumandanlarından Zeynüddin Ali Küçük b. Begtegin’e iktâ etti."
+    },
+    {
+     "t": "1144-01-01",
+     "kesinlik": "yil",
+     "b": "Begteginli (Erbil Atabegliği) hükümdarlığı başladı",
+     "d": "Zeynüddin Ali Küçük'ün hükümdarlığı TDV'de 1144'ten sayılır.",
+     "slug": "begteginliler",
+     "alinti": "BEGTEGİNLİLER (Erbil Atabegleri) Hükümdarlar Hükümdarlık Tarihleri Zeynüddin Ali Küçük 539 (1144)"
+    },
+    {
+     "t": "1232-06-29",
+     "kesinlik": "gun",
+     "b": "Kökböri öldü, Erbil halifeye geçti",
+     "d": "Erkek evladı olmayan Kökböri'nin ölümüyle Erbil vasiyetle Abbâsî Halifesi Müstansır-Billâh'a geçti.",
+     "slug": "erbil",
+     "alinti": "Oğlu olmayan Kökböri’nin ölümü üzerine Erbil bölgesi vasiyet yoluyla Abbâsî Halifesi Müstansır-Billâh’ın eline geçti (1232)."
+    },
+    {
+     "t": "1258-02-10",
+     "kesinlik": "alt-sinir",
+     "b": "Moğollar Erbil'i zaptetti",
+     "d": "Bağdat'ın Hülâgû'nun eline geçmesinden sonra Erbil de zaptedildi.",
+     "slug": "erbil",
+     "alinti": "1236 yılında Erbil’e saldıran Moğollar aşağı şehri işgal ederek binaları yıkıp kaleyi kuşattılarsa da sonuçta geri çekilmek zorunda kaldılar; ancak Bağdat’ın 1258’de Hülâgû’nun eline geçmesinden sonra burası da zaptedildi."
+    }
+   ]
+  },
+  {
+   "ad": "Tikrit",
+   "grup": "D",
+   "bekleyen_kimlik": [
+    "begteginli",
+    "ukayli"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1036-01-01",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — 'Tikrît daha sonra Ukaylîler’den Benî Makn ailesinin hâkimiyetine geçti (İbnü’l-Esîr, X, 419).' — Hamdânî'den sonra, yılsız; 1000'deki sahip ölçülemedi.",
+     "alinti_dogrulandi": null
+    },
+    {
+     "f": "1036-01-01",
+     "t": "1056-01-01",
+     "d": "ukayli",
+     "kesinlik": "yil",
+     "slug": "tikrit",
+     "alinti": "427 (1036) yılı sonlarında şehir Râfi‘ b. Hüseyin b. Makn’ın idaresine girdi.",
+     "not": "ukayli renksiz. Benî Makn = Ukaylî kolu. 1056-57 Tuğrul kuşatmasında Nasr itaat edip haraçla yerinde kaldı (tâbi).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1056-01-01",
+     "t": "1106-10-01",
+     "d": "buyuk-selcuklu",
+     "kesinlik": {
+      "f": "yil",
+      "t": "ay"
+     },
+     "slug": "tikrit",
+     "alinti": "Ebü’l-Ganâim, halifenin veziri Reîsürrüesâ İbn Müslime ile görüştükten sonra şehri Tuğrul Bey’e teslim etti",
+     "not": "Teslim, Tuğrul'un 448 (1056-57) kuşatmasından ve Nasr'ın ölümünden SONRA; yıl kaba (1056 çift yılın ilki, gerçek teslim 1057 olabilir). Sonra Selçuklu iktâ sahipleri; Bâtınî Keykubad (Mecdülmülk'ün adamı) dönemi Selçuklu içi.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1106-10-01",
+     "t": "1118-05-06",
+     "d": null,
+     "kesinlik": null,
+     "slug": null,
+     "alinti": null,
+     "not": "bulunamadı — Mezyedî Sadaka şehri teslim aldı ('Sadaka hemen harekete geçip Safer 500 (Ekim 1106) tarihinde şehri teslim aldı; Aksungur el-Porsukī ise geri dönmek zorunda kaldı.') ama Mezyedî hâkimiyetinin süresi (Sadaka 1108'de öldü) ve Selçuklu'ya dönüş tarihi kaynakta yok.",
+     "alinti_dogrulandi": null
+    },
+    {
+     "f": "1118-05-06",
+     "t": "1149-01-01",
+     "d": "irak-selcuklu",
+     "kesinlik": {
+      "f": "tanik",
+      "t": "yil"
+     },
+     "slug": "tikrit",
+     "alinti": "Şehir, 512’de (1118) Sultan Muhammed Tapar’ın kumandanlarından Bağdat şahnesi Mücâhidüddin Bihrûz el-Hâdim’in iktâı idi.",
+     "not": "512 (Nisan 1118 sonrası) Mahmud dönemine düşer; f = Irak Selçuklu kuruluş günü (tanık). 542 (1147) Mesud şehri Bilâlî'ye iktâ etti.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1149-01-01",
+     "t": "1190-01-01",
+     "d": "begteginli",
+     "kesinlik": "yil",
+     "slug": "tikrit",
+     "alinti": "Tikrît 544-586 (1149-1190) yılları arasında Begteginliler’in hâkimiyetindeydi ( EI 2 [İng.] , X, 141).",
+     "not": "⚠️ KAYNAK KENDİYLE ÇELİŞİYOR: aynı madde 1147'de Mesud'un Tikrît'i Bağdat şahnesi Mesud Bilâlî'ye iktâ ettiğini, 1152'de Bilâlî'nin Tikrît'e kaçtığını, 1154'te halifenin iç kaleyi alamadığını yazıyor; 1149-1190 Begteginli hükmü EI2'den aktarılmış. begteginli renksiz. Ölçüt: TDV'nin açık yıl cümlesi esas alındı — teyit edilmeli.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1190-01-01",
+     "t": "1257-01-01",
+     "d": "abbasi",
+     "kesinlik": "yil",
+     "slug": "tikrit",
+     "alinti": "Tikrît 544-586 (1149-1190) yılları arasında Begteginliler’in hâkimiyetindeydi ( EI 2 [İng.] , X, 141). Daha sonra Abbâsîler’in idaresine geçti.",
+     "not": "'Daha sonra' = 1190 sonrası; kırılma yılı Begteginli bitişinden alındı. Bitiş mevcut kırılma: 'Moğollar’ın İslâm dünyasını istilâları sırasında 655 (1257) yılında Tikrît’i işgal edip katliam ve yağmada bulundular.'",
+     "alinti_dogrulandi": true
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1036-01-01",
+     "kesinlik": "yil",
+     "b": "Tikrît Benî Makn'dan Râfi' b. Hüseyin'e",
+     "d": "Ukaylî Benî Makn ailesinden Râfi' b. Hüseyin Tikrît'in idaresini aldı.",
+     "slug": "tikrit",
+     "alinti": "427 (1036) yılı sonlarında şehir Râfi‘ b. Hüseyin b. Makn’ın idaresine girdi."
+    },
+    {
+     "t": "1056-01-01",
+     "kesinlik": "yil",
+     "b": "Tikrît Tuğrul Bey'e teslim edildi",
+     "d": "Nasr'ın ölümünden sonra nâib Ebü'l-Ganâim şehri Tuğrul Bey'e teslim etti.",
+     "slug": "tikrit",
+     "alinti": "Ebü’l-Ganâim, halifenin veziri Reîsürrüesâ İbn Müslime ile görüştükten sonra şehri Tuğrul Bey’e teslim etti"
+    },
+    {
+     "t": "1106-10-01",
+     "kesinlik": "ay",
+     "b": "Mezyedî Sadaka Tikrît'i teslim aldı",
+     "d": "Bâtınî Keykubad şehri Hille Mezyedî emîri Sadaka'ya teslim etti.",
+     "slug": "tikrit",
+     "alinti": "Sadaka hemen harekete geçip Safer 500 (Ekim 1106) tarihinde şehri teslim aldı; Aksungur el-Porsukī ise geri dönmek zorunda kaldı."
+    },
+    {
+     "t": "1149-01-01",
+     "kesinlik": "yil",
+     "b": "Tikrît Begteginliler'e geçti (EI2)",
+     "d": "TDV'nin EI2'den aktardığına göre Tikrît 1149-1190 arasında Begteginliler'in hâkimiyetindeydi.",
+     "slug": "tikrit",
+     "alinti": "Tikrît 544-586 (1149-1190) yılları arasında Begteginliler’in hâkimiyetindeydi ( EI 2 [İng.] , X, 141)."
+    },
+    {
+     "t": "1190-01-01",
+     "kesinlik": "yil",
+     "b": "Tikrît Abbâsîler'e geçti",
+     "d": "Begteginli hâkimiyetinden sonra şehir Abbâsî halifeliğinin idaresine geçti.",
+     "slug": "tikrit",
+     "alinti": "Tikrît 544-586 (1149-1190) yılları arasında Begteginliler’in hâkimiyetindeydi ( EI 2 [İng.] , X, 141). Daha sonra Abbâsîler’in idaresine geçti."
+    },
+    {
+     "t": "1257-01-01",
+     "kesinlik": "yil",
+     "b": "Moğollar Tikrit'i işgal etti",
+     "d": "Moğol istilası sırasında Tikrit işgal edilip yağmalandı; şehir Abbâsî idaresinden çıktı.",
+     "slug": "tikrit",
+     "alinti": "Moğollar’ın İslâm dünyasını istilâları sırasında 655 (1257) yılında Tikrît’i işgal edip katliam ve yağmada bulundular."
+    }
+   ]
+  },
+  {
+   "ad": "Hille",
+   "grup": "D",
+   "bekleyen_kimlik": [
+    "mezyedi"
+   ],
+   "zincir": [
+    {
+     "f": "1000-01-01",
+     "t": "1108-03-04",
+     "d": "mezyedi",
+     "kesinlik": {
+      "f": "ufuk",
+      "t": "gun"
+     },
+     "slug": "mezyediler",
+     "alinti": "Mezyed, Bahâüddevle tarafından 387’de (997) muhtemelen Nîl, Fellûce ve Câmiayn’ı içine alan toprakların emîri olarak tanındı.",
+     "not": "mezyedi renksiz. Hille, Câmiayn'ın yerinde 495 (1102) kuruldu ('495’te (1102) Câmiayn şehrinin yerinde yaptırdığı Mezyedîler’in merkezi Hille’de'); nokta 1102 öncesi Câmiayn'ı temsil eder. ⚠️ 997 kaydında 'muhtemelen' var. Bitiş: Sadaka'nın Nu'maniye'de ölümü 'Sadaka da esir düştü (19 Receb 501 / 4 Mart 1108).' (aynı madde; cümle Dübeys'in esareti hakkında, gün savaş günüdür).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1108-03-04",
+     "t": "1117-01-01",
+     "d": "buyuk-selcuklu",
+     "kesinlik": {
+      "f": "gun",
+      "t": "yil"
+     },
+     "slug": "mezyediler",
+     "alinti": "Sultan Muhammed Tapar Dübeys’i Bağdat’a götürdü ve kendisine bağlı kalacağına dair yemin ettirdikten sonra serbest bırakmakla birlikte Mezyedîler’in merkezi Hille’ye dönmesine izin vermedi.",
+     "not": "Tapar Mezyedîler'in Hille'ye dönüşüne izin vermedi → Selçuklu.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1117-01-01",
+     "t": "1150-01-01",
+     "d": "mezyedi",
+     "kesinlik": "yil",
+     "slug": "mezyediler",
+     "alinti": "Dübeys, ancak Muhammed Tapar’ın ölümünden sonra oğlu Irak Selçuklu Sultanı Mahmud zamanında Hille’ye gidebildi (511/1117).",
+     "not": "⚠️ TARİH ÇELİŞKİSİ: cümle 'Tapar'ın ölümünden sonra … Mahmud zamanında' diyor (Tapar 18 Nisan 1118'de öldü = 24 Zilhicce 511) ama miladî karşılığı 1117 yazıyor; olay 511'in son günlerine/1118'e düşmeli. TDV'nin tek miladî yılı (1117) yazıldı — 1118-05-06 (Mahmud'un sultan ilânı) daha tutarlı olabilir. Mezyedîler Irak Selçuklu'ya tâbi; 1145-49 aile içi çekişmeler dönem açmadı.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1150-01-01",
+     "t": "1152-01-01",
+     "d": "irak-selcuklu",
+     "kesinlik": "yil",
+     "slug": "mezyediler",
+     "alinti": "Ali ertesi yıl ölünce Sultan Mesud Hille’yi kumandanlarından Sâlârkerd’e verdi (545/1150)",
+     "not": "Sâlârkerd (Sâlârgird) Selçuklu kumandanı.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1152-01-01",
+     "t": "1156-01-01",
+     "d": "abbasi",
+     "kesinlik": "yil",
+     "slug": "muktefi-liemrillah",
+     "alinti": "Muktefî-Liemrillâh, Sultan Mesud’un ölümünün ardından (547/1152) daha rahat hareket edebileceği bir ortam buldu. Sultan Mesud’un yerine geçen Melikşah b. Mahmûd Sâlârgird kumandasındaki bir orduyu Hille’ye sevketti. Ancak Sultan Mesud’un ölümünden sonra halifeden korkup Tikrît’e kaçan Bağdat şahnesi Mesud Bilâlî (Bilâl), Sâlârgird’i hileyle öldürtüp şehre hâkim oldu. Bunun üzerine halife vezirini göndererek Hille’yi ele geçirdi; Kûfe ve Vâsıt da zaptedildi.",
+     "not": "547/1152 → 1152-01-01.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1156-01-01",
+     "t": "1163-01-01",
+     "d": "mezyedi",
+     "kesinlik": "yil",
+     "slug": "mezyediler",
+     "alinti": "Hille 551’de (1156) Sultan Muhammed b. Arslanşah’ın kumandanları tarafından ele geçirildi. Mezyedîler, bu tarihten itibaren Sultan Muhammed’in bir nâibine tâbi olarak hüküm sürmeye başladılar.",
+     "not": "Fiilî yönetici Mezyedî (Irak Selçuklu nâibine tâbi; kural 4).",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1163-01-01",
+     "t": "1258-01-01",
+     "d": "abbasi",
+     "kesinlik": "yil",
+     "slug": "mezyediler",
+     "alinti": "Selçuklular’ın Irak’ta giderek güç kaybettikleri bir dönemde Hille, Halife Müstencid-Billâh ile müttefiki Benî Müntefiḳ tarafından görevlendirilen birliklerce işgal edildi. Bu sırada Mezyedîler’den 4000 kişi öldürüldü (558/1163); sağ kalanlar çeşitli yerlere dağıldılar.",
+     "not": "Topraklar halifenin müttefiki Benî Müntefik'e teslim edildi; Hille halife idaresinde. ⚠️ Bitiş 1258: Hille için şehre özgü Moğol tanıklığı BULUNAMADI — basra maddesinin bölgesel hükmü ('Bu olayla birlikte Abbâsî Devleti yıkıldı ve Irak Moğollar’ın eline geçti.') ve hulagu'nun Kûfe-Vâsıt-Basra zaptı. Bölgeden şehre taşınan hüküm: kaynaklı halka OLAMAZ.",
+     "alinti_dogrulandi": true
+    },
+    {
+     "f": "1258-01-01",
+     "t": "1281-01-01",
+     "d": "ilhanli",
+     "kesinlik": "yil",
+     "slug": "basra",
+     "alinti": "Bu olayla birlikte Abbâsî Devleti yıkıldı ve Irak Moğollar’ın eline geçti.",
+     "not": "BÖLGESEL HÜKÜM (yukarıya bak). İstemezsen bu dönem null sayılmalı; o zaman uygulanabilir kuyruk kalmaz.",
+     "alinti_dogrulandi": true
+    }
+   ],
+   "maddeler": [
+    {
+     "t": "1108-03-04",
+     "kesinlik": "gun",
+     "b": "Mezyedî Sadaka Nu'maniye'de öldü, Hille Selçuklu'ya",
+     "d": "Muhammed Tapar Sadaka'yı yendi; oğlu Dübeys esir düştü ve Hille'ye dönmesine izin verilmedi.",
+     "slug": "mezyediler",
+     "alinti": "Sultan Muhammed Tapar Dübeys’i Bağdat’a götürdü ve kendisine bağlı kalacağına dair yemin ettirdikten sonra serbest bırakmakla birlikte Mezyedîler’in merkezi Hille’ye dönmesine izin vermedi."
+    },
+    {
+     "t": "1117-01-01",
+     "kesinlik": "yil",
+     "b": "Dübeys Hille'ye döndü",
+     "d": "Muhammed Tapar'ın ölümünden sonra Dübeys Irak Selçuklu Sultanı Mahmud zamanında Hille'ye gidebildi.",
+     "slug": "mezyediler",
+     "alinti": "Dübeys, ancak Muhammed Tapar’ın ölümünden sonra oğlu Irak Selçuklu Sultanı Mahmud zamanında Hille’ye gidebildi (511/1117)."
+    },
+    {
+     "t": "1150-01-01",
+     "kesinlik": "yil",
+     "b": "Sultan Mesud Hille'yi Sâlârkerd'e verdi",
+     "d": "Mezyedî Ali'nin ölümünden sonra Sultan Mesud Hille'yi kumandanı Sâlârkerd'e verdi.",
+     "slug": "mezyediler",
+     "alinti": "Ali ertesi yıl ölünce Sultan Mesud Hille’yi kumandanlarından Sâlârkerd’e verdi (545/1150)"
+    },
+    {
+     "t": "1152-01-01",
+     "kesinlik": "yil",
+     "b": "Halife Muktefî Hille'yi aldı",
+     "d": "Sultan Mesud'un ölümünden sonra halifenin veziri Hille'yi ele geçirdi.",
+     "slug": "muktefi-liemrillah",
+     "alinti": "Muktefî-Liemrillâh, Sultan Mesud’un ölümünün ardından (547/1152) daha rahat hareket edebileceği bir ortam buldu. Sultan Mesud’un yerine geçen Melikşah b. Mahmûd Sâlârgird kumandasındaki bir orduyu Hille’ye sevketti. Ancak Sultan Mesud’un ölümünden sonra halifeden korkup Tikrît’e kaçan Bağdat şahnesi Mesud Bilâlî (Bilâl), Sâlârgird’i hileyle öldürtüp şehre hâkim oldu. Bunun üzerine halife vezirini göndererek Hille’yi ele geçirdi; Kûfe ve Vâsıt da zaptedildi."
+    },
+    {
+     "t": "1156-01-01",
+     "kesinlik": "yil",
+     "b": "Selçuklu kumandanları Hille'yi aldı, Mezyedîler nâibe tâbi",
+     "d": "Hille Sultan Muhammed b. Mahmûd'un kumandanlarınca alındı; Mezyedîler sultanın nâibine tâbi olarak hüküm sürdü.",
+     "slug": "mezyediler",
+     "alinti": "Hille 551’de (1156) Sultan Muhammed b. Arslanşah’ın kumandanları tarafından ele geçirildi. Mezyedîler, bu tarihten itibaren Sultan Muhammed’in bir nâibine tâbi olarak hüküm sürmeye başladılar."
+    },
+    {
+     "t": "1163-01-01",
+     "kesinlik": "yil",
+     "b": "Halife Müstencid Hille'yi aldı, Mezyedîler sona erdi",
+     "d": "Halife Müstencid ve Benî Müntefik birlikleri Hille'yi işgal etti, Mezyedîler dağıtıldı.",
+     "slug": "mezyediler",
+     "alinti": "Selçuklular’ın Irak’ta giderek güç kaybettikleri bir dönemde Hille, Halife Müstencid-Billâh ile müttefiki Benî Müntefiḳ tarafından görevlendirilen birliklerce işgal edildi. Bu sırada Mezyedîler’den 4000 kişi öldürüldü (558/1163); sağ kalanlar çeşitli yerlere dağıldılar."
+    },
+    {
+     "t": "1258-01-01",
+     "kesinlik": "yil",
+     "b": "Irak Moğollar'ın eline geçti (bölgesel)",
+     "d": "1258'de Bağdat'ın Hülâgû tarafından işgaliyle Abbâsî Devleti yıkıldı ve Irak Moğollar'ın eline geçti.",
+     "slug": "basra",
+     "alinti": "Bu olayla birlikte Abbâsî Devleti yıkıldı ve Irak Moğollar’ın eline geçti."
+    }
+   ]
+  }
+ ]
+}
