@@ -1003,6 +1003,27 @@ window.GORSEL_MADDE = [
       "not": "🟡 GÖZLE DOĞRULANMADI — bkz. 'parade' kaydındaki uyarı, aynı şart geçerli."
     }
   ]
+},
+
+// ══ KARAR3-1016 (16 Ekim 2026) · 0032/H-0010 · Emre #18 — II. Mehmed sultanîsi (ANS, Public Domain Mark) ══
+{
+  "id": "1478-06-01-mehmed2-sultani-883h-ans",
+  "tur": "madde",
+  "olay": [
+    "1478-06-01|sultanî"
+  ],
+  "url": "assets/gorseller/1478-06-01-mehmed2-sultani-883h-ans.jpg",
+  "baslik": "II. Mehmed'in sultanî altını — aynı tipin 883 H (1478-79) örneği, Kostantiniyye darbı",
+  "gorsel_alt": "Bir altın sikkenin iki yüzü yan yana: solda dairesel çizgili kenar içinde, yuvarlak ve noktalarla bezenmiş Arapça harflerle sultanın adının ve darp yerinin yazılı olduğu yüz, altta tarih rakamları; sağda noktalı kenar içinde birkaç satır Arapça yazı taşıyan öbür yüz",
+  "eser": "Gold Sultani of Muhammad II 2nd reign, Qustantiniyya, 883 H — American Numismatic Society, 1997.65.4097 (altın, 3,525 g, 20 mm; atıflar: JS.0487-01 · Pere.80 · Album.1306)",
+  "sanatci": "",
+  "ic_not_sanatci": "darphane ustası adı kaynakta yok",
+  "yil": "883 H (= 1478-79; ANS kaydının yazdığı tarih)",
+  "lisans": "Public Domain Mark",
+  "gorsel_kaynak": "https://numismatics.org/collection/1997.65.4097",
+  "kesinlik": "cagdas",
+  "lisans_olcum": "KABUL (KARAR3-1016, 16 Ekim 2026) — ANS sayfası canlı okundu: 'License: Public Domain Mark (images)' (rel=nmo:hasLicense) · rightsstatements.org NoC-US/1.0 · altbilgi: 'All images of objects produced on or before 1925 are in the Public Domain'. Görsel: ön (…4097.obv.noscale.jpg, 1798×1813) + arka (…4097.rev.noscale.jpg, 1803×1818) yüz 600 px yüksekliğe indirilip yan yana tek JPEG'de birleştirildi (1210×600, 248 KB). ARAC-GORSEL-LISANS-0913b Commons içindir, bu kaynağa UYGULANMADI.",
+  "not": "Emre kararı #18 (KARARLAR-EMRE-1015 üçüncü tur; indirme onayı). Madde 1478'deki İLK basımı anlatıyor; bu sikke 883 H tarihlidir ve 'ilk basım' örneği DEĞİLDİR, aynı tipin bir yıl sonraki örneğidir — 882 H tarihli kamu malı/CC0 görsel bulunamadı (KAYNAK-1015/G5: Smithsonian NU.68.159.6040 CC0 ama görselsiz; Commons adayları CC BY-SA/PD-Art 3B kapsamaz; British Museum/Fitzwilliam CC BY-NC). ⚠️ ANS kaydının tarih aralığı alanı '1444–1445' yazıyor — 883 H ile ve '2nd reign' başlığıyla ÇELİŞİYOR (ANS'in kendi veri kusuru; 883 H = 1478-79). Sikke yazısı bu oturumda OKUNMADI, ANS başlığına dayanıldı. 0032/H-0010."
 }
 
 ];
