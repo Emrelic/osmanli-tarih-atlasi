@@ -16,6 +16,12 @@
 //    Depo açık olduğu için ISSUE'LAR GitHub'da herkese açıktır — sitede değil.
 //    Açılış: adres çubuğunda `?gelistirici=1` ya da Ctrl+Alt+G.
 //
+// ÇOK BÖLGE (Emre 16 Ekim 2026): bir not = TEK post-it + 1..N bölge. Çizimi
+//   Shift basılıyken bırakınca bölge taslağa eklenir, kip açık kalır; Shift'siz
+//   son çizim (ya da Enter) forma geçer. Formda bölgeler numaralı listelenir,
+//   ✕ ile tek tek silinir, "➕ Bölge ekle" metni koruyarak çizime döner. Biçim:
+//   bolgeler() üstündeki yorum (v1 tek bölge AYNEN yazılır, v2 = liste).
+//
 // BAĞLAM: not kaydedilirken site kendisi yazar — gün, o anki kronoloji maddesi,
 //   kamera, sürüm (?v=rNN), açık katmanlar, çizilen alandaki sahipler (örnek
 //   noktalarla) ve yerleşimler (içindekiler + en yakınlar, o günkü sahipleriyle).
@@ -55,9 +61,18 @@
     kip: null,                 // "kare" | "daire" | "kalem" | "oge" | null
     cizim: null,               // {bas:[x,y], noktalar:[[x,y]...]}
     sonGeo: null,              // çizilen halka [lon,lat]
-    markerlar: {},             // no → maplibregl.Marker
+    markerlar: {},             // no → maplibregl.Marker (post-it)
+    noMarkerlar: {},           // no → [Marker] bölge numaraları (çok bölgeli not)
     gorunen: null,             // görünür not kümesinin imzası (null = yeniden çiz)
-    panelNo: null
+    panelNo: null,
+    // ÇOK BÖLGE (Emre 16 Ekim 2026: "bir post-it notu ve birden çok işaretlenmiş
+    // çerçevelenmiş bölge olabilsin"). Yazılmakta olan notun bölgeleri burada
+    // birikir; form kapanınca/kaydedilince boşalır.
+    taslak: [],                // [{sekil, geo, merkez?, yaricap_km?}]
+    taslakNo: [],              // taslak bölge numarası Marker'ları
+    taslakMetin: "",           // "bölge ekle" sırasında formdaki metin korunur
+    taslakGor: null,           // ... ve görünürlük seçimi
+    ekleniyor: false           // formdan "➕ Bölge ekle" ile çizime çıkıldı
   };
 
   // ---------------------------------------------------------------- yardımcı
@@ -119,6 +134,50 @@
     return [(b[0] + b[2]) / 2, (b[1] + b[3]) / 2];
   }
   function yuvarla(p) { return [Math.round(p[0] * 1e4) / 1e4, Math.round(p[1] * 1e4) / 1e4]; }
+
+  // --------------------------------------------- BÖLGELER — İKİ BİÇİM
+  // v1 (tek bölge, #1-#20 ve bugün tek bölgeyle yazılan her not):
+  //     hedef: {tur:"harita", sekil, geo, merkez?, yaricap_km?} · veri.bolge: {...}
+  // v2 (çok bölge, veri.surum = 2):
+  //     hedef: {tur:"harita", sekil:"coklu", bolgeler:[{no, sekil, geo, ...}]}
+  //     veri.bolgeler: [{no, orneklenen_nokta, sahipler, ...}]  (no ile eşleşir)
+  // OKUYAN HER YER bu işlevden geçer — biçimi ikinci kez ayrıştıran kod yok.
+  // Tek bölgeli not v1 olarak YAZILMAYA devam eder: eski okuyucular kırılmaz.
+  function bolgeler(v) {
+    var h = (v && v.hedef) || {};
+    if (h.tur !== "harita") return [];
+    function gecerli(g) { return Array.isArray(g) && g.length > 2; }
+    if (Array.isArray(h.bolgeler)) {
+      var bg = Array.isArray(v.bolgeler) ? v.bolgeler : [];
+      return h.bolgeler.filter(function (b) { return b && gecerli(b.geo); }).map(function (b, i) {
+        var no = b.no || i + 1;
+        var bag = bg.filter(function (x) { return x && x.no === no; })[0] || bg[i] || null;
+        return { no: no, sekil: b.sekil, geo: b.geo, merkez: b.merkez, yaricap_km: b.yaricap_km, baglam: bag };
+      });
+    }
+    if (gecerli(h.geo))
+      return [{ no: 1, sekil: h.sekil, geo: h.geo, merkez: h.merkez, yaricap_km: h.yaricap_km, baglam: v.bolge || null }];
+    return [];
+  }
+  // Taslak bölge listesinden not hedefi: 1 bölge → v1 biçimi (aynen eskisi), 2+ → v2.
+  function hedefKur(l) {
+    if (l.length === 1) return Object.assign({ tur: "harita" }, l[0]);
+    return { tur: "harita", sekil: "coklu",
+             bolgeler: l.map(function (b, i) { return Object.assign({ no: i + 1 }, b); }) };
+  }
+  function tumKutu(rs) {
+    var hepsi = [];
+    rs.forEach(function (r) { hepsi = hepsi.concat(r.geo); });
+    return kutu(hepsi);
+  }
+  // Post-it tek: tek bölgede bölgenin merkezi (eskisi gibi), çokta merkezlerin ortası.
+  function postitYeri(rs) {
+    if (rs.length === 1) return merkez(rs[0].geo);
+    var x = 0, y = 0;
+    rs.forEach(function (r) { var m = merkez(r.geo); x += m[0]; y += m[1]; });
+    return yuvarla([x / rs.length, y / rs.length]);
+  }
+  var SEKIL_IKON = { kare: "▢", daire: "◯", kalem: "✎" };
 
   // ------------------------------------------------------------ GitHub API
   function gh(yol, yontem, govde) {
@@ -272,8 +331,32 @@
       ekran: window.innerWidth + "x" + window.innerHeight + " @" + (window.devicePixelRatio || 1),
       yazan: G.kim, olusturuldu: new Date().toISOString()
     };
-    if (hedef.tur === "harita") v.bolge = bolgeBaglami(hedef.geo);
+    if (hedef.tur === "harita") {
+      if (Array.isArray(hedef.bolgeler)) {          // v2: her bölgenin bağlamı AYRI
+        v.surum = 2;
+        v.bolgeler = hedef.bolgeler.map(function (b) { return Object.assign({ no: b.no }, bolgeBaglami(b.geo)); });
+      } else v.bolge = bolgeBaglami(hedef.geo);
+    }
     return v;
+  }
+
+  // Bir bölgenin insan okur satırları — v1'de "Hedef: harita bölgesi" başlığıyla
+  // ve girintisiz (eski metnin AYNISI), v2'de "Bölge N" başlığı + girintili.
+  function bolgeSatirlari(s, sekil, geo, bg, bas, ic) {
+    var m = merkez(geo), b = kutu(geo);
+    s.push(bas + " (" + sekil + ") · merkez " + m[1].toFixed(3) + "K " + m[0].toFixed(3) + "D · ≈ " +
+           Math.round(km([b[0], m[1]], [b[2], m[1]])) + " × " + Math.round(km([m[0], b[1]], [m[0], b[3]])) + " km");
+    if (!bg) { s.push(ic + "- **Bağlam:** yok"); return; }
+    s.push(ic + "- **Alandaki sahipler** (" + bg.orneklenen_nokta + " örnek nokta): " +
+           bg.sahipler.map(function (x) { return x.ad + (x.nokta ? " " + x.nokta : ""); }).join(" · "));
+    s.push(ic + "- **İçindeki yerleşimler** (" + bg.icindeki_yerlesim_sayisi + "): " +
+           (bg.icindeki_yerlesimler.length
+             ? bg.icindeki_yerlesimler.map(function (x) {
+                 return x.ad + " [" + x.sahip_ad + (x.donem ? " " + x.donem : "") + "]";
+               }).join(", ")
+             : "**YOK — bölge en yakın peteğe emilmiş olabilir**"));
+    s.push(ic + "- **En yakın yerleşimler:** " +
+           bg.en_yakin_yerlesimler.map(function (x) { return x.ad + " " + x.km + " km [" + x.sahip_ad + "]"; }).join(", "));
   }
 
   function govdeYaz(metin, v) {
@@ -285,20 +368,12 @@
     if (v.madde) s.push("- **O anki kronoloji maddesi:** " + (v.madde.gun || v.madde.t) + " · " + v.madde.b);
     var h = v.hedef;
     if (h.tur === "harita") {
-      var m = merkez(h.geo), b = kutu(h.geo);
-      s.push("- **Hedef:** harita bölgesi (" + h.sekil + ") · merkez " + m[1].toFixed(3) + "K " + m[0].toFixed(3) + "D · ≈ " +
-             Math.round(km([b[0], m[1]], [b[2], m[1]])) + " × " + Math.round(km([m[0], b[1]], [m[0], b[3]])) + " km");
-      var bg = v.bolge;
-      s.push("- **Alandaki sahipler** (" + bg.orneklenen_nokta + " örnek nokta): " +
-             bg.sahipler.map(function (x) { return x.ad + (x.nokta ? " " + x.nokta : ""); }).join(" · "));
-      s.push("- **İçindeki yerleşimler** (" + bg.icindeki_yerlesim_sayisi + "): " +
-             (bg.icindeki_yerlesimler.length
-               ? bg.icindeki_yerlesimler.map(function (x) {
-                   return x.ad + " [" + x.sahip_ad + (x.donem ? " " + x.donem : "") + "]";
-                 }).join(", ")
-               : "**YOK — bölge en yakın peteğe emilmiş olabilir**"));
-      s.push("- **En yakın yerleşimler:** " +
-             bg.en_yakin_yerlesimler.map(function (x) { return x.ad + " " + x.km + " km [" + x.sahip_ad + "]"; }).join(", "));
+      var rs = bolgeler(v);
+      if (Array.isArray(h.bolgeler)) {
+        s.push("- **Hedef:** harita · " + rs.length + " bölge (" +
+               rs.map(function (r) { return r.no + " " + r.sekil; }).join(", ") + ")");
+        rs.forEach(function (r) { bolgeSatirlari(s, r.sekil, r.geo, r.baglam, "- **Bölge " + r.no + "**", "  "); });
+      } else bolgeSatirlari(s, h.sekil, h.geo, v.bolge, "- **Hedef:** harita bölgesi", "");
     } else if (h.tur === "madde") {
       s.push("- **Hedef:** kronoloji maddesi · " + (h.gun || h.t) + " · " + h.b);
     } else if (h.tur === "oge") {
@@ -324,18 +399,66 @@
       harita.addLayer({ id: "gn-notlar-alan", type: "fill", source: "gn-notlar",
         paint: { "fill-color": "#39ff14", "fill-opacity": 0.08 } });
       harita.addLayer({ id: "gn-notlar-hat", type: "line", source: "gn-notlar",
+        filter: ["==", ["geometry-type"], "Polygon"],
         paint: { "line-color": "#2bd10f", "line-width": 2, "line-dasharray": [2, 1.5] } });
+      // Çok bölgeli notta post-it'ten her bölgenin merkezine İNCE bağ çizgisi.
+      harita.addLayer({ id: "gn-notlar-bag", type: "line", source: "gn-notlar",
+        filter: ["==", ["geometry-type"], "LineString"],
+        paint: { "line-color": "#2bd10f", "line-width": 1, "line-opacity": 0.8, "line-dasharray": [1, 2] } });
     }
   }
   function kaynakHazir(f) {
     try { if (harita.isStyleLoaded()) { kaynakKur(); f(); return; } } catch (e) {}
     harita.once("idle", function () { try { kaynakKur(); f(); } catch (e) { console.warn("[geliştirici]", e); } });
   }
-  function cizimYaz(halka) {
+  // Taslak: biriken bölgeler (numaralı) + o an çizilmekte olan halka.
+  function noIsaret(metin, ll, ipucu, tikla) {
+    var d = el("div", "gn-bolge-no", String(metin));
+    if (ipucu) d.title = ipucu;
+    if (tikla) d.addEventListener("click", function (e) { e.stopPropagation(); tikla(); });
+    return new maplibregl.Marker({ element: d, anchor: "center" }).setLngLat(ll).addTo(harita);
+  }
+  function cizimYaz(gecici) {
+    // Numara işaretleri yalnız taslak DEĞİŞİNCE yeniden kurulur (sürükleme
+    // sırasında her pointermove'da değil).
+    var imza = G.taslak.map(function (b) { return merkez(b.geo).join(","); }).join("|");
+    if (imza !== G.taslakImza) {
+      G.taslakNo.forEach(function (m) { m.remove(); });
+      G.taslakNo = G.taslak.map(function (b, i) { return noIsaret(i + 1, merkez(b.geo), "bölge " + (i + 1)); });
+      G.taslakImza = imza;
+    }
     var src = harita.getSource("gn-cizim");
     if (!src) return;
-    src.setData({ type: "FeatureCollection", features: halka && halka.length > 2
-      ? [{ type: "Feature", properties: {}, geometry: { type: "Polygon", coordinates: [halka] } }] : [] });
+    var fs = [];
+    G.taslak.forEach(function (b, i) {
+      fs.push({ type: "Feature", properties: { bno: i + 1 }, geometry: { type: "Polygon", coordinates: [b.geo] } });
+    });
+    if (gecici && gecici.length > 2)
+      fs.push({ type: "Feature", properties: {}, geometry: { type: "Polygon", coordinates: [gecici] } });
+    src.setData({ type: "FeatureCollection", features: fs });
+  }
+  function taslakTemizle() {
+    G.taslak = []; G.taslakMetin = ""; G.taslakGor = null; G.ekleniyor = false;
+    cizimYaz(null);
+  }
+  function formAcik() { var f = $("gn-form"); return !!f && f.style.display === "block"; }
+
+  // Çizilen bölgeyi taslağa ekler. `devam` (Shift basılı bırakıldı) → kip açık
+  // kalır, sıradaki bölge çizilir; değilse forma geçilir.
+  function bolgeEkle(bolge, devam) {
+    G.taslak.push(bolge);
+    if (devam) {
+      cizimYaz(null);
+      bildir("✏️ bölge " + G.taslak.length + " eklendi · Shift'le çizmeyi sürdür · Shift'siz çiz ya da Enter: nota geç");
+      return;
+    }
+    kipKur(null);
+    formAc({ tur: "harita" });
+  }
+  function taslakSil(i) {
+    if (i < 0 || i >= G.taslak.length) return;
+    G.taslak.splice(i, 1);
+    cizimYaz(null);
   }
 
   // ------------------------------------------------------------ ÇİZİM
@@ -358,8 +481,15 @@
     return pts;
   }
 
+  // Araç çubuğu düğmesi: aynı düğme ikinci kez basılınca kip kapanır; o an
+  // taslakta bölge birikmişse (Shift'le) not formuna geçilir.
   function kipAyarla(k) {
-    G.kip = (G.kip === k) ? null : k;
+    var yeni = (G.kip === k) ? null : k;
+    kipKur(yeni);
+    if (!yeni && G.taslak.length && !formAcik()) formAc({ tur: "harita" });
+  }
+  function kipKur(k) {
+    G.kip = k;
     document.querySelectorAll("#gn-arac button[data-kip]").forEach(function (b) {
       b.classList.toggle("etkin", b.getAttribute("data-kip") === G.kip);
     });
@@ -373,7 +503,9 @@
     if (!G.kip) { G.cizim = null; cizimYaz(null); ogeVurgu(null); }
     var ip = { kare: "sürükle: kare çiz", daire: "merkezden sürükle: daire çiz",
                kalem: "basılı tutup çiz, bırakınca kapanır", oge: "not düşülecek düğmeye/menüye tıkla" };
-    if (G.kip) bildir("✏️ " + ip[G.kip] + " · Esc: vazgeç");
+    if (G.kip) bildir("✏️ " + ip[G.kip] + (G.kip !== "oge" ? " · Shift: bir bölge daha" : "") +
+                      (G.taslak.length && G.kip !== "oge" ? " · " + G.taslak.length + " bölge hazır, Enter: nota geç" : "") +
+                      " · Esc: vazgeç");
   }
 
   function cizimDinle() {
@@ -407,16 +539,13 @@
         for (var i = 0; i < halka.length - 1; i += adim) s.push(halka[i]);
         s.push(s[0].slice()); halka = s;
       }
-      cizimYaz(halka);
       var sekil = G.kip;
-      var hedef = { tur: "harita", sekil: sekil, geo: halka };
+      var bolge = { sekil: sekil, geo: halka };
       if (sekil === "daire") {
         var m = merkez(halka);
-        hedef.merkez = m; hedef.yaricap_km = Math.round(km(m, halka[0]));
+        bolge.merkez = m; bolge.yaricap_km = Math.round(km(m, halka[0]));
       }
-      kipAyarla(null);
-      cizimYaz(halka);
-      formAc(hedef);
+      bolgeEkle(bolge, !!e.shiftKey);
     }
     kap.addEventListener("pointerup", bitir, true);
     kap.addEventListener("pointercancel", function () { G.cizim = null; cizimYaz(null); }, true);
@@ -426,8 +555,18 @@
       if (G.acik && G.kip && G.kip !== "oge") { e.stopPropagation(); e.preventDefault(); }
     }, true);
     window.addEventListener("keydown", function (e) {
-      if (e.key === "Escape" && G.acik && (G.kip || G.cizim)) {
-        e.stopPropagation(); G.cizim = null; kipAyarla(null);
+      if (!G.acik) return;
+      var harKip = G.kip && G.kip !== "oge";
+      if (e.key === "Escape" && (G.kip || G.cizim)) {
+        e.stopPropagation(); G.cizim = null;
+        var formaDon = G.ekleniyor && G.taslak.length;
+        kipKur(null);
+        if (formaDon) formAc({ tur: "harita" });      // "bölge ekle"den vazgeç: forma dön
+        else taslakTemizle();                         // notun tamamından vazgeç
+      } else if (e.key === "Enter" && harKip && !G.cizim && G.taslak.length) {
+        e.stopPropagation(); e.preventDefault();
+        kipKur(null);
+        formAc({ tur: "harita" });
       }
     }, true);
   }
@@ -461,40 +600,78 @@
       var t = e.target;
       var hedef = { tur: "oge", secici: secici(t),
                     metin: (t.textContent || t.title || t.value || "").replace(/\s+/g, " ").trim().slice(0, 80) };
-      kipAyarla(null);
+      kipKur(null);
       formAc(hedef);
     }, true);
   }
 
   // --------------------------------------------------------------- FORM
+  // Harita notunda `hedef` yalnız {tur:"harita"}dır: bölgeler G.taslak'tan okunur
+  // (form yeniden çizilse de — bölge silme / ekleme — metin ve seçim korunur).
   function formAc(hedef) {
     var f = $("gn-form");
+    var harNot = hedef.tur === "harita";
+    G.ekleniyor = false;
+    if (!harNot && G.taslak.length) taslakTemizle();
     f.innerHTML = "";
-    var ozet = hedef.tur === "harita" ? "🗺️ Harita bölgesi (" + hedef.sekil + ")"
+    var ozet = harNot ? "🗺️ Harita · " + G.taslak.length + " bölge"
              : hedef.tur === "madde" ? "📜 Kronoloji maddesi: " + hedef.b
              : "🔘 Arayüz öğesi: " + (hedef.metin || hedef.secici);
     f.appendChild(el("div", "gn-form-bas", "Yeni not · " + gunYazi(suanki) + " (" + idxYazi(suanki) + ")"));
     f.appendChild(el("div", "gn-form-hedef", ozet));
     var ta = el("textarea"); ta.rows = 6;
     ta.placeholder = "Ne gördün? Ne araştırılsın / düzeltilsin / teyit edilsin?";
+    if (harNot) ta.value = G.taslakMetin || "";
+    var gs = null, ekle = null;
+    function sakla() { G.taslakMetin = ta.value; if (gs) G.taslakGor = gs.value; }
+    if (harNot) {
+      // Bölge listesi: numara (haritadaki işaretle aynı) · şekil · ✕ sil
+      var bl = el("div", "gn-bolge-liste");
+      if (!G.taslak.length) bl.appendChild(el("div", "gn-bos", "bölge yok — ➕ ile ekle"));
+      G.taslak.forEach(function (b, i) {
+        var s = el("div", "gn-bolge-satir");
+        s.appendChild(el("span", "gn-bolge-no gn-bolge-no-satir", String(i + 1)));
+        s.appendChild(el("span", null, (SEKIL_IKON[b.sekil] || "") + " " + b.sekil +
+                         (b.yaricap_km ? " · r ≈ " + b.yaricap_km + " km" : "")));
+        var sil = el("button", "gn-bolge-sil", "✕"); sil.type = "button"; sil.title = "bölge " + (i + 1) + "'i sil";
+        sil.onclick = function () { sakla(); taslakSil(i); formAc({ tur: "harita" }); };
+        s.appendChild(sil);
+        bl.appendChild(s);
+      });
+      ekle = el("button", "gn-bolge-ekle", "➕ Bölge ekle"); ekle.type = "button";
+      ekle.title = "Formu kapatmadan bir bölge daha çiz (metin korunur)";
+      ekle.onclick = function () {
+        sakla();
+        f.style.display = "none";
+        G.ekleniyor = true;
+        var son = G.taslak.length ? G.taslak[G.taslak.length - 1].sekil : "kare";
+        kipKur(son);
+        bildir("➕ bölge " + (G.taslak.length + 1) + ": çiz (araç çubuğundan şekil değiştirebilirsin) · Esc: forma dön");
+      };
+      bl.appendChild(ekle);
+      f.appendChild(bl);
+    }
     f.appendChild(ta);
-    var gs = null;
-    if (hedef.tur === "harita") {
+    if (harNot) {
       var sat = el("label", "gn-form-satir", "Haritada görünsün: ");
       gs = el("select");
       GORUNURLUK.forEach(function (g, i) {
-        var o = el("option", null, g.ad); o.value = i; if (g.varsayilan) o.selected = true; gs.appendChild(o);
+        var o = el("option", null, g.ad); o.value = i;
+        if (G.taslakGor != null ? String(i) === String(G.taslakGor) : g.varsayilan) o.selected = true;
+        gs.appendChild(o);
       });
+      if (G.taslakGor != null) gs.value = G.taslakGor;
       sat.appendChild(gs); f.appendChild(sat);
     }
     var dg = el("div", "gn-form-dugmeler");
     var iptal = el("button", null, "Vazgeç"), kaydet = el("button", "gn-ana", "💾 Kaydet");
     iptal.type = kaydet.type = "button";
+    if (harNot && !G.taslak.length) kaydet.disabled = true;
     dg.appendChild(iptal); dg.appendChild(kaydet); f.appendChild(dg);
     f.style.display = "block";
     setTimeout(function () { ta.focus(); }, 30);
     var gunHedef = suanki;
-    function kapat() { f.style.display = "none"; cizimYaz(null); }
+    function kapat() { f.style.display = "none"; taslakTemizle(); }
     iptal.onclick = kapat;
     ta.addEventListener("keydown", function (e) {
       if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) kaydet.click();
@@ -503,6 +680,10 @@
     kaydet.onclick = function () {
       var metin = ta.value.trim();
       if (!metin) { ta.focus(); return; }
+      if (harNot) {
+        if (!G.taslak.length) { bildir("en az bir bölge çiz", true); return; }
+        hedef = hedefKur(G.taslak);
+      }
       kaydet.disabled = true; kaydet.textContent = "kaydediliyor…";
       var v = baglamTopla(hedef);
       if (gs) {
@@ -549,10 +730,14 @@
     var det = el("details"); det.appendChild(el("summary", null, "bağlam"));
     var bl = [];
     if (n.veri.madde) bl.push("Madde: " + (n.veri.madde.gun || n.veri.madde.t) + " · " + n.veri.madde.b);
-    if (n.veri.bolge) {
-      bl.push("Sahipler: " + n.veri.bolge.sahipler.map(function (x) { return x.ad + " " + x.nokta; }).join(" · "));
-      bl.push("İçindeki yerleşimler: " + (n.veri.bolge.icindeki_yerlesimler.map(function (x) { return x.ad; }).join(", ") || "YOK"));
-    }
+    var rs = bolgeler(n.veri);
+    rs.forEach(function (r) {
+      var bg = r.baglam, ic = rs.length > 1 ? "  " : "";
+      if (rs.length > 1) bl.push("Bölge " + r.no + " (" + r.sekil + "):");
+      if (!bg) { bl.push(ic + "bağlam yok"); return; }
+      bl.push(ic + "Sahipler: " + bg.sahipler.map(function (x) { return x.ad + " " + x.nokta; }).join(" · "));
+      bl.push(ic + "İçindeki yerleşimler: " + (bg.icindeki_yerlesimler.map(function (x) { return x.ad; }).join(", ") || "YOK"));
+    });
     if (n.veri.hedef.tur === "oge") bl.push("Öğe: " + n.veri.hedef.secici);
     bl.push("Sürüm " + n.veri.site_surumu + " · z" + n.veri.kamera.zoom);
     det.appendChild(el("div", "gn-baglam", bl.join("\n")));
@@ -611,8 +796,8 @@
       else tarihAyarla(n.gi);
     } else {
       tarihAyarla(n.gi);
-      if (h.tur === "harita") {
-        var b = kutu(h.geo);
+      if (h.tur === "harita" && bolgeler(n.veri).length) {
+        var b = tumKutu(bolgeler(n.veri));
         harita.fitBounds([[b[0], b[1]], [b[2], b[3]]], { padding: 120, maxZoom: Math.max(n.veri.kamera.zoom, 5), duration: 800 });
       } else if (h.tur === "oge") {
         var e = document.querySelector(h.secici);
@@ -626,30 +811,49 @@
   function haritaNotlariGuncelle() {
     if (!G.acik) return;
     var vis = G.notlar.filter(function (n) {
-      return n.veri.hedef.tur === "harita" && n.fi <= suanki && suanki <= n.ti;
+      return n.veri.hedef.tur === "harita" && bolgeler(n.veri).length && n.fi <= suanki && suanki <= n.ti;
     });
     var imza = vis.map(function (n) { return n.no + n.durum; }).join(",");
     if (imza === G.gorunen) return;
     G.gorunen = imza;
-    var src = harita.getSource("gn-notlar");
-    if (src) src.setData({ type: "FeatureCollection", features: vis.map(function (n) {
-      return { type: "Feature", properties: { no: n.no }, geometry: { type: "Polygon", coordinates: [n.veri.hedef.geo] } };
-    }) });
-    var yeni = {};
+    // Not başına: her bölge bir poligon; çok bölgede post-it'ten her bölgeye bağ
+    // çizgisi + bölge numarası. Görünürlük aralığı not başınadır (fi/ti) —
+    // bölgeler birlikte görünür, birlikte kaybolur.
+    var fs = [];
     vis.forEach(function (n) {
-      var m = G.markerlar[n.no];
+      var rs = bolgeler(n.veri), pt = postitYeri(rs);
+      rs.forEach(function (r) {
+        fs.push({ type: "Feature", properties: { no: n.no, bno: r.no }, geometry: { type: "Polygon", coordinates: [r.geo] } });
+        if (rs.length > 1)
+          fs.push({ type: "Feature", properties: { no: n.no, bno: r.no },
+                    geometry: { type: "LineString", coordinates: [pt, merkez(r.geo)] } });
+      });
+    });
+    var src = harita.getSource("gn-notlar");
+    if (src) src.setData({ type: "FeatureCollection", features: fs });
+    var yeni = {}, yeniNo = {};
+    vis.forEach(function (n) {
+      var rs = bolgeler(n.veri), m = G.markerlar[n.no];
       if (!m) {
-        var d = el("div", "gn-postit");
-        d.title = "#" + n.no + " · " + n.baslik;
+        var d = el("div", "gn-postit" + (rs.length > 1 ? " gn-postit-cok" : ""));
+        if (rs.length > 1) d.textContent = rs.length;
+        d.title = "#" + n.no + " · " + n.baslik + (rs.length > 1 ? " · " + rs.length + " bölge" : "");
         d.addEventListener("click", function (e) { e.stopPropagation(); panelAc(n); });
         m = new maplibregl.Marker({ element: d, anchor: "center" })
-          .setLngLat(merkez(n.veri.hedef.geo)).addTo(harita);
+          .setLngLat(postitYeri(rs)).addTo(harita);
       }
       m.getElement().style.background = (DURUM[n.durum] || DURUM.acik).renk;
       yeni[n.no] = m;
+      if (rs.length > 1)
+        yeniNo[n.no] = G.noMarkerlar[n.no] || rs.map(function (r) {
+          return noIsaret(r.no, merkez(r.geo), "#" + n.no + " · bölge " + r.no, function () { panelAc(n); });
+        });
     });
     Object.keys(G.markerlar).forEach(function (k) { if (!yeni[k]) G.markerlar[k].remove(); });
-    G.markerlar = yeni;
+    Object.keys(G.noMarkerlar).forEach(function (k) {
+      if (!yeniNo[k]) G.noMarkerlar[k].forEach(function (m) { m.remove(); });
+    });
+    G.markerlar = yeni; G.noMarkerlar = yeniNo;
   }
 
   function zamanNoktalari() {
@@ -720,6 +924,8 @@
       s.appendChild(durumCip(n.durum));
       s.appendChild(el("span", "gn-liste-tarih", n.veri.gun));
       var ik = { harita: "🗺️", madde: "📜", oge: "🔘" }[n.veri.hedef.tur] || "";
+      var bs = bolgeler(n.veri).length;
+      if (bs > 1) ik += "×" + bs;
       s.appendChild(el("span", null, ik + " #" + n.no + " " + (n.veri.metin || n.baslik).slice(0, 90)));
       s.onclick = function () { notaGit(n); };
       l.appendChild(s);
@@ -760,9 +966,9 @@
       b.addEventListener("click", function (e) { e.stopPropagation(); f(); });
       a.appendChild(b); return b;
     }
-    d("▢", "Kare çiz ve not düş", function () { kipAyarla("kare"); }, "kare");
-    d("◯", "Daire çiz ve not düş", function () { kipAyarla("daire"); }, "daire");
-    d("✎", "Kalemle çiz ve not düş", function () { kipAyarla("kalem"); }, "kalem");
+    d("▢", "Kare çiz ve not düş · Shift basılı bırak: bir bölge daha", function () { kipAyarla("kare"); }, "kare");
+    d("◯", "Daire çiz ve not düş · Shift basılı bırak: bir bölge daha", function () { kipAyarla("daire"); }, "daire");
+    d("✎", "Kalemle çiz ve not düş · Shift basılı bırak: bir bölge daha", function () { kipAyarla("kalem"); }, "kalem");
     d("🔘", "Bir düğmeye / menüye not düş", function () { kipAyarla("oge"); }, "oge");
     var lb = d("📋", "Açık notlar", function () {
       var l = $("gn-liste"); l.style.display = l.style.display === "block" ? "none" : "block"; listeCiz();
@@ -795,11 +1001,12 @@
 
   function kapat() {
     G.acik = false; G.token = null; G.notlar = [];
-    kipAyarla(null);
+    kipKur(null); taslakTemizle();
     document.body.classList.remove("gelistirici");
     ["gn-arac", "gn-form", "gn-panel", "gn-liste"].forEach(function (id) { if ($(id)) $(id).style.display = "none"; });
     Object.keys(G.markerlar).forEach(function (k) { G.markerlar[k].remove(); });
-    G.markerlar = {}; G.gorunen = null;
+    Object.keys(G.noMarkerlar).forEach(function (k) { G.noMarkerlar[k].forEach(function (m) { m.remove(); }); });
+    G.markerlar = {}; G.noMarkerlar = {}; G.gorunen = null;
     var src = harita.getSource("gn-notlar");
     if (src) src.setData({ type: "FeatureCollection", features: [] });
     hepsiniCiz();
@@ -892,7 +1099,11 @@
     }
   }
 
-  window.GELISTIRICI = { G: G, yukle: notlariYukle, DURUM: DURUM };
+  window.GELISTIRICI = { G: G, yukle: notlariYukle, DURUM: DURUM,
+    // sınav kancası (denetim/ARAC-GELISTIRICI-COKBOLGE-SINAV-1016.js) — davranış değiştirmez
+    _ic: { notCoz: notCoz, bolgeler: bolgeler, hedefKur: hedefKur, govdeYaz: govdeYaz, baglamTopla: baglamTopla,
+           bolgeEkle: bolgeEkle, taslakSil: taslakSil, formAc: formAc, kipAyarla: kipAyarla,
+           haritaNotlariGuncelle: haritaNotlariGuncelle, postitYeri: postitYeri, notaGit: notaGit } };
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", baslat);
   else baslat();
 })();

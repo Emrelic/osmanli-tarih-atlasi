@@ -5,6 +5,7 @@ notlar GitHub Issues'tadır (etiket `harita-notu`, durum `not:<anahtar>`).
 
     py arac/not.py liste [--durum acik] [--hepsi]     açık notlar (--hepsi: arşiv dahil)
     py arac/not.py oku 123                           not + bağlam + yorumlar
+                                                     (çok bölgeli notta her bölge numarasıyla)
     py arac/not.py yanit 123 --dosya <yol> [--durum arastiriliyor]
     py arac/not.py durum 123 cozuldu
     py arac/not.py arsivle 123                       yalnız Emre isterse
@@ -108,9 +109,43 @@ def notlar(hepsi=False):
         sayfa += 1
 
 
+def bolgeler(v):
+    """Notun harita bölgeleri — İKİ BİÇİM (js/gelistirici.js `bolgeler()` ile AYNI):
+    v1 tek bölge: hedef.geo + bolge · v2 çok bölge (surum 2): hedef.bolgeler[] +
+    bolgeler[] (bağlam `no` ile eşleşir). Döner: [{no, sekil, geo, baglam, ...}]."""
+    v = v or {}
+    h = v.get("hedef") or {}
+    if h.get("tur") != "harita":
+        return []
+
+    def gecerli(g):
+        return isinstance(g, list) and len(g) > 2
+
+    if isinstance(h.get("bolgeler"), list):
+        bg = v.get("bolgeler") if isinstance(v.get("bolgeler"), list) else []
+        cik = []
+        for i, b in enumerate(x for x in h["bolgeler"] if isinstance(x, dict) and gecerli(x.get("geo"))):
+            no = b.get("no") or i + 1
+            bag = next((x for x in bg if isinstance(x, dict) and x.get("no") == no), None)
+            if bag is None and i < len(bg):
+                bag = bg[i]
+            cik.append(dict(b, no=no, baglam=bag))
+        return cik
+    if gecerli(h.get("geo")):
+        return [dict(h, no=1, baglam=v.get("bolge"))]
+    return []
+
+
+def cok_bolgeli(v):
+    return isinstance(((v or {}).get("hedef") or {}).get("bolgeler"), list)
+
+
 def hedef_yazi(v):
     h = (v or {}).get("hedef") or {}
     if h.get("tur") == "harita":
+        if cok_bolgeli(v):
+            rs = bolgeler(v)
+            return "harita (%d bölge: %s)" % (len(rs), ", ".join(str(r.get("sekil")) for r in rs))
         return "harita (%s)" % h.get("sekil")
     if h.get("tur") == "madde":
         return "madde: %s" % h.get("b")
@@ -135,6 +170,30 @@ def k_liste(a):
     print("— %d not" % len(satir))
 
 
+def baglam_bas(v):
+    """Makine okur bağlam. v1 (tek bölge): eski çıktının AYNISI. v2: her bölge
+    numarasıyla — şekli, bağlam JSON'u, geo halkası."""
+    if cok_bolgeli(v):
+        rs = bolgeler(v)
+        print("\n[%d bölge — tek not, tek post-it]" % len(rs))
+        for r in rs:
+            ek = (" · r ≈ %s km" % r["yaricap_km"]) if r.get("yaricap_km") else ""
+            print("\n[bölge %s · %s%s]" % (r["no"], r.get("sekil"), ek))
+            if r.get("baglam"):
+                bag = {k: x for k, x in r["baglam"].items() if k != "no"}
+                print("[bağlam JSON — bölge %s]" % r["no"])
+                print(json.dumps(bag, ensure_ascii=False, indent=1))
+            else:
+                print("[bağlam JSON — bölge %s] YOK" % r["no"])
+            print("[geo halkası — bölge %s]" % r["no"], json.dumps(r["geo"]))
+        return
+    if v and v.get("bolge"):
+        print("\n[bağlam JSON — bolge]")
+        print(json.dumps(v["bolge"], ensure_ascii=False, indent=1))
+    if v and v.get("hedef", {}).get("tur") == "harita":
+        print("\n[geo halkası]", json.dumps(v["hedef"]["geo"]))
+
+
 def k_oku(a):
     i = gh("/issues/%d" % a.no)
     v, d = coz(i)
@@ -143,11 +202,7 @@ def k_oku(a):
     print("sitede: %s?gelistirici=1&not=%d" % (SITE, i["number"]))
     print()
     print((i.get("body") or "").split("<!--")[0].rstrip())
-    if v and v.get("bolge"):
-        print("\n[bağlam JSON — bolge]")
-        print(json.dumps(v["bolge"], ensure_ascii=False, indent=1))
-    if v and v.get("hedef", {}).get("tur") == "harita":
-        print("\n[geo halkası]", json.dumps(v["hedef"]["geo"]))
+    baglam_bas(v)
     for c in gh("/issues/%d/comments?per_page=100" % a.no):
         print("\n--- %s · %s" % (c["user"]["login"], c["created_at"]))
         print(c["body"])
