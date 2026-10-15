@@ -482,7 +482,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Anayasaya karşı çıkan büyük toprak sahipleri Rus desteğiyle konfederasyon ilan etti ve Rus ordusu ülkeye girdi. \"Targowica\" kelimesi Polonya dilinde ihanetin eş anlamlısı hâline geldi.",
   kaynak:"el-kitabi", yer_kon:[48.35,30.53] },
 
-{ t:"1793-01-23", b:"İKİNCİ TAKSİM — Rusya ve Prusya yeniden böldü", tur:"toprak-kayip",
+{ t:"1793-01-12", ic_not_takvim:"II. Paylaşım (Rus-Prusya sözleşmesi, St. Petersburg): 12 Ocak 1793 (Jülyen — ÇEVİRİ: 23 Ocak 1793 Gregoryen − 11 gün; Jülyen günü veren birincil kaynak okunamadı, Korniloviç notunda '13 Ocak' varyantı) = 23 Ocak 1793 (Gregoryen) · KUTU-VERI-1015 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #4a: Gregoryen gün Jülyen'e döndü, iki takvim kayda)", b:"İKİNCİ TAKSİM — Rusya ve Prusya yeniden böldü", tur:"toprak-kayip",
   onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","antlasma","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"3 Mayıs Anayasası iptal edildi ve ülkenin büyük bölümü Rusya ile Prusya arasında paylaşıldı; geriye küçük ve savunmasız bir kalıntı kaldı. Grodno'da toplanan sejm paylaşımı süngü altında onayladı.",

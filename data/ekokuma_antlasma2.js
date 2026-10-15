@@ -152,7 +152,7 @@ window.EKOKUMA_ANTLASMA2 = [
 {
   id: "antlasma-yas-1792", baslik:"Yaş Antlaşması (1792) — hükümler",
   tur: "antlasma",
-  olay: ["1792-01-10","1792-01-09|Yaş","1792-01-18|Yaş"],
+  olay: ["1792-01-10","1791-12-29|Yaş","1792-01-18|Yaş"],
   metin: "On üç madde, bir giriş ve bir kapanıştan oluşan antlaşma 10 Ocak 1792'de Yaş'ta Rusça ve Türkçe metinler hâlinde mühürlenip değiştirildi. Temeli, Kalas'ta kabul edilen beş maddelik ön barıştı (mukaddime-i sulhiyye). Başlıca hükümler (TDV): ① 1774 Küçük Kaynarca Antlaşması geçerli sayıldı. ② Turla (Dinyester) nehri sınır oldu: sol kıyısı Rusya'ya, sağ kıyısı Osmanlı'ya ait olacaktı. ③ Rusya'nın işgal ettiği Eflak ve Boğdan, önceki antlaşmalarla tanınan imtiyazları teyit edilerek iade edildi; halk savaşın yıkımı yüzünden iki yıl vergiden muaf tutulacak, göç eden aileler dönebilecek, Bucak dâhil bölgedeki kaleler Osmanlı'ya bırakılacaktı. ④ Öteki bölgelerde sınırlar savaş öncesine döndü. ⑤ Kuban bölgesinden Rus topraklarına saldırı olursa gasp edilen mallar ve esirler bulunup iade edilecek, sorumlular cezalandırılacak, zarar ödenecekti; Rusya bölge için istediği 'serbestî' ve askerî müdahale hakkından vazgeçti. ⑥ Tiflis hanının topraklarına saldırılmayacaktı. ⑦ Garp Ocakları korsanlarının Rus gemilerine verdiği zarar, başvurudan sonra en geç iki ay içinde ödenecekti. ⑧ Esirler serbest bırakıldı; işgal altındaki yerler 15 Mayıs'a kadar boşaltılacak ve karşılıklı büyükelçilik heyetleri gönderilecekti. Bir talep ise düştü: Rusya 12 milyon kuruşluk (24.000 kese) savaş tazminatı istiyordu; İstanbul'daki meclis taksitle ödemeyi kabul etmeye karar vermişti, fakat Kuban maddesinde uzlaşılınca Bezborodko çariçenin tazminattan tamamen vazgeçtiğini ilan etti.", ic_not_metin:"eski: 🔴 Ve bir talep düştü:",
   kesinlik: "kesin",
   kaynak: "TDV: yas-antlasmasi", ic_not_kaynak:"eski kaynak: TDV: yas-antlasmasi (gövde okundu)"
@@ -176,7 +176,7 @@ window.EKOKUMA_ANTLASMA2 = [
   // PAKET-A2 13 Eyl (D181): "1787-08-17" → "1787-08-16". PAKET-A3 aynı gün olaylar_ek5.js'teki savaş
   // ilanı maddesini TDV yas-antlasmasi'na göre 16 Ağustos'a çekti (0035/H-0090); bu bağ SESSİZCE koptu
   // ve yalnız ARAC-A2-BAG-0913.js --hepsi yakaladı ("o gün evrende madde YOK"). sebep.t zaten 16'ydı.
-  olay: ["1783-04-19", "1787-08-16", "1792-01-10", "1792-06-01"],
+  olay: ["1783-04-08", "1787-08-16", "1792-01-10", "1792-06-01"],
   kaynak: "TDV: yas-antlasmasi"
 },
 
@@ -184,7 +184,7 @@ window.EKOKUMA_ANTLASMA2 = [
 {
   id: "antlasma-bukres-1812", baslik:"Bükreş Antlaşması (1812) — hükümler",
   tur: "antlasma",
-  olay: ["1812-05-28", "1812-12-19|Faş"],
+  olay: ["1812-05-16", "1812-12-19|Faş"],
   metin: "Hükümler, TDV İslâm Ansiklopedisi'nin Boğdan, Rusya ve Sırbistan maddelerinden derlenmiştir. ① Prut nehri Osmanlı-Rus sınırı oldu. ② Boğdan'ın doğu kısmı, en önemli yerleri olan Akkirman, Kili ve Bender ile birlikte Rusya'ya bırakıldı; Rusların Besarabya adını verdiği bu bölge 1918'e kadar 106 yıl Rus yönetiminde kaldı. ③ 1804'ten beri ayaklanma hâlindeki Sırplara kısmî özerklik verilmesi kabul edildi. TDV'nin Rusya maddesi, Napolyon'un Moskova seferine çıkması yüzünden savaşın pek ağır olmayan şartlarla sona erdiğini yazar.", ic_not_metin:"eski: TDV'de bu antlaşmanın müstakil maddesi bulunamadı (bukres-antlasmasi adresi ölü); hükümler … maddelerinden toplandı.",
   kesinlik: "kesin",
   kaynak: "TDV: bogdan · rusya · sirbistan", ic_not_kaynak:"eski kaynak: TDV: bogdan · rusya · sirbistan (gövde okundu; müstakil madde bulunamadı)"
@@ -199,13 +199,13 @@ window.EKOKUMA_ANTLASMA2 = [
   },
   sonuc: {
     b: "Bükreş Antlaşması: Besarabya Rusya'ya geçti, Sırplara kısmî özerklik tanındı",
-    t: "1812-05-28"
+    t: "1812-05-16"
   },
   bag: "Önemi: Prut sınırıyla Besarabya 106 yıl sürecek bir Rus yönetimine girdi. TDV'ye göre Sırplara tanınan özerklikle birlikte, Ortodoks ve Slav halkların Osmanlı idaresine karşı açıkça kışkırtılıp desteklendiği bir döneme girildi.",
   metin: "Özerklik hükmü hemen yerine getirilmedi: daha geniş haklar isteyen Sırpların isyanı 1813'te bastırıldı, Belgrad geri alındı ve isyanın lideri Karadjordje Avusturya'ya kaçtı. Ama 1815'te Miloş Obrenoviç'in önderliğinde ikinci Sırp isyanı çıktı; o da aynı yıl bastırılmasına rağmen bu tarihten sonra Sırplara tanınan imtiyazlar genişletilmeye başlandı ve mesele 1826 Akkerman Antlaşması'yla yeniden masaya geldi.",
   kesinlik: "kesin",
   zincir: [],
-  olay: ["1804-02-14", "1806-12-22", "1812-05-28", "1813-10-05", "1815-04-23"],
+  olay: ["1804-02-14", "1806-12-22", "1812-05-16", "1813-10-05", "1815-04-23"],
   kaynak: "TDV: rusya · sirbistan · bogdan"
 },
 

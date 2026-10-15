@@ -379,7 +379,7 @@ window.SEHIRLER = [
   yapilar:"On büyük cami, İçkale, Dışkale ve Toprakkale'den oluşan üçlü tahkimat.",
   kaynak:"kefe" },
 { ad:"Akkirman",   tur:"kale",  lat:46.199, lon:30.346,
-  k:[{f:"1484-08-03",t:"1812-05-28",d:1,y:"kusatma"}],
+  k:[{f:"1484-08-03",t:"1812-05-16",d:1,y:"kusatma"}],
   koken:"Türkçe 'Ak Kirman' (beyaz kale); antik adı Tyras (MÖ 6. yy kuruluş), Ortaçağ'da 'Aspron Castron' ve 'Cetatea Alba' da denildi.",
   onem:"Dinyester Nehri'nin Karadeniz'e döküldüğü noktada, Avrupa'yı Asya'ya bağlayan önemli ticaret merkezlerinden biri; İstanbul, Edirne, Bursa, Trabzon, Kefe ve Suriye ile ticari bağları vardı.",
   tarihce:"1420'de ve II. Mehmed döneminde başarısız denemelerden sonra II. Bayezid 4 Ağustos 1484'te fethetti; bununla bütün Karadeniz kıyıları Osmanlı hâkimiyetine girdi.",
@@ -485,7 +485,7 @@ window.SEHIRLER = [
   yapilar:"Yaklaşık 250×125 m dikdörtgen plan, üç büyük kule (Sadrazam, Halil Paşa, Zağanos Paşa kuleleri) ve on üç küçük kule.",
   kaynak:"rumelihisari" },
 { ad:"Hotin",         tur:"kale", lat:48.507, lon:26.494,
-  k:[{f:"1538-01-01",t:"1739-08-19",d:1,y:"antlasma"},{f:"1739-09-18",t:"1769-09-10",d:1,y:"antlasma"},{f:"1774-07-21",t:"1788-01-01",d:1,y:"antlasma"},{f:"1792-01-09",t:"1812-05-28",d:1,y:"antlasma"}],
+  k:[{f:"1538-01-01",t:"1739-08-19",d:1,y:"antlasma"},{f:"1739-09-18",t:"1769-09-10",d:1,y:"antlasma"},{f:"1774-07-21",t:"1788-01-01",d:1,y:"antlasma"},{f:"1791-12-29",t:"1812-05-16",d:1,y:"antlasma"}],
   // ⚠️ Ara dönüş tarihleri (1739 Belgrad, 1774 Küçük Kaynarca, 1792 Yaş
   // antlaşmaları) TDV'nin bu madde metninden değil, standart Osmanlı-Rus
   // savaşları kronolojisinden alındı — TDV yalnız kaybediliş tarihlerini
@@ -583,7 +583,7 @@ window.SEHIRLER = [
   yapilar:"(Madde seferi anlatır, şehrin yapılarından ayrıntılı bahsetmez.)",
   kaynak:"otranto-seferi" },
 { ad:"İsmail",    tur:"kale", lat:45.350, lon:28.830,
-  k:[{f:"1484-01-01",t:"1770-01-01",d:1},{f:"1792-01-09",t:"1812-05-28",d:1,y:"antlasma"}],
+  k:[{f:"1484-01-01",t:"1770-01-01",d:1},{f:"1791-12-29",t:"1812-05-16",d:1,y:"antlasma"}],
   koken:"Adının bir Tatar yerleşiminden ya da 'kumluk yer' anlamındaki bozulmuş bir Slavca kelimeden geldiği düşünülür; Osmanlı komutanı İsmâil Bey'e atfeden görüşler başka kaynaklarca desteklenmez.",
   onem:"Tuna deltasında, Karadeniz'i İstanbul'a bağlayan yollar üzerinde tahıl ticaretinin geçiş ve pazarlama noktasıydı.",
   tarihce:"1770'te Osmanlı-Rus savaşında Ruslar tarafından işgal edildi; 1790'da ağır bir kuşatma sonucu Ruslar tekrar ele geçirdi (22.700 ceset sayıldığı, toplam kaybın ~30.000'e ulaştığı kaydedilir); 1792'de Yaş Antlaşması'yla Osmanlı'ya geri döndü; 1812'de Bükreş Antlaşması'yla kalıcı olarak kaybedildi.",

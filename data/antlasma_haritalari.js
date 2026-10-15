@@ -780,7 +780,7 @@ window.ANTLASMA_HARITALARI = [
 {
   "id": "bukres-1812",
   "antlasma_ad": "Bükreş Antlaşması — Besarabya",
-  "tarih": "1812-05-28",
+  "tarih": "1812-05-16",
   "bolgeler": [
     {
       "taraf": "rusya",

@@ -202,7 +202,7 @@ window.DEVLETLER = [
 },
 
 { id:"kirim", ad:"Kırım Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
-  f:"1441-01-01", t:"1783-04-19", baskent:"Bahçesaray", harita:"kirim",
+  f:"1441-01-01", t:"1783-04-08", ic_not_t:"8 Nisan 1783 Jülyen (TDV kirim) = 19 Nisan 1783 Gregoryen; eski değer 1783-04-19 · KUTU-VERI-1015 (KARARLAR-EMRE-1015 #4a)", baskent:"Bahçesaray", harita:"kirim",
   tabi:[{f:"1475-06-06", t:"1774-07-21", ust:"osmanli"}],
   ozet:"Osmanlı'nın en uzun süreli ve en yakın vasalı; 1475'ten itibaren Osmanlı himayesinde, 1783'te Rusya tarafından ilhak edildi.",
   kaynak:"kirim",
@@ -215,7 +215,7 @@ window.DEVLETLER = [
     { t:"1711-07-08", tur:"ittifak", b:"Devlet II Giray, Prut Seferi'nde Osmanlı ordusuna katıldı" },
     { t:"1736-01-01", tur:"isgal", b:"Rus orduları Bahçesaray'ı yaktı" },
     { t:"1774-07-21", tur:"antlasma", b:"Küçük Kaynarca — Kırım siyaseten bağımsız ilan edildi, dinî bağ Osmanlı'da kaldı" },
-    { t:"1783-04-19", tur:"son", b:"Rusya, Kırım'ı ilhak etti (II. Katerina'nın ilhak manifestosu; kaynaklarda eski takvimle 8 Nisan 1783 olarak da geçer)", ic_not_b:"eski b: Rusya, Kırım'ı ilhak etti (II. Katerina'nın ilhak manifestosu; kaynaklarda 8 Nisan 1783 olarak da geçer — o ESKİ TAKVİM/Julian karşılığıdır, XVIII. yy'da fark 11 gün. Bu dizin YENİ TAKVİM/Gregoryen kullanır; aynı konvansiyon Küçük Kaynarca'da da geçerli: 1774-07-21 Yeni, Eski'de 10 Temmuz)" }
+    { t:"1783-04-08", ic_not_takvim:"Kırım'ın ilhakı: 8 Nisan 1783 (Jülyen, TDV kirim '8 Nisan 1783') = 19 Nisan 1783 (Gregoryen) · KUTU-VERI-1015 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #4a: Gregoryen gün Jülyen'e döndü, iki takvim kayda)", tur:"son", b:"Rusya, Kırım'ı ilhak etti (II. Katerina'nın ilhak manifestosu; kaynaklarda eski takvimle 8 Nisan 1783 olarak da geçer)", ic_not_b:"eski b: Rusya, Kırım'ı ilhak etti (II. Katerina'nın ilhak manifestosu; kaynaklarda 8 Nisan 1783 olarak da geçer — o ESKİ TAKVİM/Julian karşılığıdır, XVIII. yy'da fark 11 gün. Bu dizin YENİ TAKVİM/Gregoryen kullanır; aynı konvansiyon Küçük Kaynarca'da da geçerli: 1774-07-21 Yeni, Eski'de 10 Temmuz)" }
   ]
 },
 
@@ -335,8 +335,8 @@ window.DEVLETLER = [
     { t:"1711-07-21", tur:"toprak-kayip", b:"Prut'ta Osmanlı'ya yenildi, Azak geri verildi" },
     { t:"1721-10-22", tur:"kurulus", b:"Rusya İmparatorluğu ilan edildi" },
     { t:"1774-07-21", tur:"toprak-kazanc", b:"Küçük Kaynarca — Kırım bağımsız, Karadeniz'de donanma hakkı kazanıldı" },
-    { t:"1783-04-19", tur:"toprak-kazanc", b:"Kırım'ı ilhak etti" },
-    { t:"1812-05-28", tur:"toprak-kazanc", b:"Bükreş Antlaşması ile Besarabya alındı" },
+    { t:"1783-04-08", ic_not_takvim:"Kırım'ın ilhakı: 8 Nisan 1783 (Jülyen, TDV kirim '8 Nisan 1783') = 19 Nisan 1783 (Gregoryen) · KUTU-VERI-1015 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #4a: Gregoryen gün Jülyen'e döndü, iki takvim kayda)", tur:"toprak-kazanc", b:"Kırım'ı ilhak etti" },
+    { t:"1812-05-16", ic_not_takvim:"Bükreş Antlaşması: 16 Mayıs 1812 (Jülyen, ESBE «Бухарестский мир» 'подписан 16 мая 1812 г.') = 28 Mayıs 1812 (Gregoryen, TDV bukres-antlasmasi) · KUTU-VERI-1015 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #4a: Gregoryen gün Jülyen'e döndü, iki takvim kayda)", tur:"toprak-kazanc", b:"Bükreş Antlaşması ile Besarabya alındı" },
     { t:"1829-09-14", tur:"antlasma", b:"Edirne Antlaşması — Osmanlı-Rus savaşı sonu" },
     { t:"1853-10-04", tur:"savas", b:"Kırım Savaşı'nda yenildi (1856'ya dek)" },
     { t:"1877-04-24", tur:"savas", b:"93 Harbi — Ayastefanos ve Berlin antlaşmalarına giden savaş" },
@@ -823,7 +823,7 @@ window.DEVLETLER = [
     { t:"1764-09-07", tur:"hukumdar", b:"Stanisław August Poniatowski son kral seçildi" },
     { t:"1772-08-05", tur:"toprak-kayip", b:"Birinci Paylaşım — Rusya, Prusya ve Avusturya toprak aldı" },
     { t:"1791-05-03", tur:"antlasma", b:"3 Mayıs Anayasası ilan edildi — Avrupa'nın ilk yazılı anayasası" },
-    { t:"1793-01-23", tur:"toprak-kayip", b:"İkinci Paylaşım ile ülke küçüldü" },
+    { t:"1793-01-12", ic_not_takvim:"II. Paylaşım (Rus-Prusya sözleşmesi, St. Petersburg): 12 Ocak 1793 (Jülyen — ÇEVİRİ: 23 Ocak 1793 Gregoryen − 11 gün; Jülyen günü veren birincil kaynak okunamadı, Korniloviç notunda '13 Ocak' varyantı) = 23 Ocak 1793 (Gregoryen) · KUTU-VERI-1015 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #4a: Gregoryen gün Jülyen'e döndü, iki takvim kayda)", tur:"toprak-kayip", b:"İkinci Paylaşım ile ülke küçüldü" },
     { t:"1795-10-24", tur:"son", b:"Üçüncü Paylaşım ile devlet ortadan kalktı" }
   ]
 },
@@ -4917,7 +4917,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1701-01-18", tur:"kurulus", b:"I. Friedrich Königsberg'de taç giydi — Brandenburg-Prusya krallık oldu" },
     { t:"1772-08-05", tur:"toprak-kazanc", b:"Lehistan'ın Birinci Paylaşımı — Batı Prusya alındı, Doğu Prusya ile Brandenburg arasındaki toprak köprüsü kuruldu" },
-    { t:"1793-01-23", tur:"toprak-kazanc", b:"İkinci Paylaşım — Gdansk (Danzig), Toruń ve Büyük Polonya (Poznan) alındı, Güney Prusya eyaleti kuruldu" },
+    { t:"1793-01-12", ic_not_takvim:"II. Paylaşım (Rus-Prusya sözleşmesi, St. Petersburg): 12 Ocak 1793 (Jülyen — ÇEVİRİ: 23 Ocak 1793 Gregoryen − 11 gün; Jülyen günü veren birincil kaynak okunamadı, Korniloviç notunda '13 Ocak' varyantı) = 23 Ocak 1793 (Gregoryen) · KUTU-VERI-1015 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #4a: Gregoryen gün Jülyen'e döndü, iki takvim kayda)", tur:"toprak-kazanc", b:"İkinci Paylaşım — Gdansk (Danzig), Toruń ve Büyük Polonya (Poznan) alındı, Güney Prusya eyaleti kuruldu" },
     { t:"1795-10-24", tur:"toprak-kazanc", b:"Üçüncü Paylaşım — Varşova ve Białystok alındı; üç paylaşımdan toplam 112.000 km² kazanıldı" },
     { t:"1807-07-09", tur:"toprak-kayip", b:"Tilsit Antlaşması — Polonya toprakları kaybedildi, Varşova Dukalığı kuruldu" },
     { t:"1871-01-18", tur:"birlesme", b:"I. Wilhelm Versailles'da Alman imparatoru ilan edildi — Prusya, Alman İmparatorluğu'nun çekirdeği oldu" }
@@ -17521,7 +17521,7 @@ window.DEVLETLER = [
     { t:"1768-01-01", tur:"isgal", b:"Rusya Akkirman, Bender, Kili ve İsmail kalelerini işgal etti; Küçük Kaynarca (1774) ile iade", kaynak:"TDV İslâm Ansiklopedisi 'Bucak' (1768-1774)" },
     { t:"1787-01-01", tur:"savas", b:"Osmanlı-Rus savaşı: Suvorov İsmail'de Müslüman halkı katletti; Yaş Antlaşması (1792) Turla doğusunu Rusya'ya verdi", kaynak:"TDV İslâm Ansiklopedisi 'Bucak' (1787-1792)" },
     { t:"1806-01-01", tur:"isgal", b:"Rusya Eflak-Boğdan voyvodaları bahanesiyle Bucak'ı işgal etti; altı yıllık savaş başladı", kaynak:"TDV İslâm Ansiklopedisi 'Bucak'" },
-    { t:"1812-05-28", tur:"son", b:"Bükreş Antlaşması: Prut doğusu ve Bucak Rusya'ya bırakıldı; Müslümanlar göç etti, Bucak Tatarları Dobruca'ya yerleşti", kaynak:"TDV İslâm Ansiklopedisi 'Bucak' (https://islamansiklopedisi.org.tr/bucak). not: t künyede 1812-01-01, antlaşma günü 28 Mayıs 1812 (pencere dışı, rapora). f=1697 için TDV'de dayanak yok; Vikipedi 'Budjak Horde' tek" }
+    { t:"1812-05-16", ic_not_takvim:"Bükreş Antlaşması: 16 Mayıs 1812 (Jülyen, ESBE «Бухарестский мир» 'подписан 16 мая 1812 г.') = 28 Mayıs 1812 (Gregoryen, TDV bukres-antlasmasi) · KUTU-VERI-1015 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #4a: Gregoryen gün Jülyen'e döndü, iki takvim kayda)", tur:"son", b:"Bükreş Antlaşması: Prut doğusu ve Bucak Rusya'ya bırakıldı; Müslümanlar göç etti, Bucak Tatarları Dobruca'ya yerleşti", kaynak:"TDV İslâm Ansiklopedisi 'Bucak' (https://islamansiklopedisi.org.tr/bucak). not: t künyede 1812-01-01, antlaşma günü 28 Mayıs 1812 (pencere dışı, rapora). f=1697 için TDV'de dayanak yok; Vikipedi 'Budjak Horde' tek" }
   ] },
 { id:"finlandiya-demokratik-cumhuriyeti", ad:"Finlandiya Demokratik Cumhuriyeti (Terijoki)", tur:"kukla-huk-met", bolge:"kuzey-avrupa", f:"1939-12-01", t:"1940-03-12", baskent:"Terijoki", ozet:"Kış Savaşı'nda SSCB'nin Terijoki'de kurdurduğu, O. W. Kuusinen başkanlığında kukla hükûmet; Moskova Barışı ile feshedilip Karelya-Fin SSC'ye katıldı.", kaynak:"Wikipedia 'Finnish Democratic Republic'/'Otto Kuusinen'; talvisota.fi, museomilitaria.fi (Winter War). ic_not: kuruluş 30 Kasım / 1 Aralık 1939 ayrışması; t Moskova Barışı 12 Mart 1940; id olarak aday 'kuzey-fin-halk-cum' yerine tsv ile çakışmayan ad önerilir; 'finlandiya' (1917-1945) ile aynı ülkede paralel/çelişen idare.", kronoloji:[
     { t:"1939-12-01", tur:"kurulus", b:"SSCB, Terijoki'de Otto Kuusinen başkanlığında Finlandiya Demokratik Cumhuriyeti halk hükûmetini ilan etti.", kaynak:"https://en.wikipedia.org/wiki/Finnish_Democratic_Republic ; https://talvisota.fi/en/the-winter-war/ ; https://infotaulu.museomilitaria.fi/en/winter-war/the-start-of-the-war" },

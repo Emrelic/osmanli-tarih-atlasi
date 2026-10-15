@@ -194,9 +194,9 @@ window.OLAYLAR_EK16 = [
   d:"Rusya, Prusya ve Avusturya arasında 5 Ağustos 1772'de imzalanan antlaşmayla Polonya-Litvanya Devletler Birliği topraklarının yaklaşık üçte biri paylaşıldı: Rusya bugünkü Belarus ve Letonya'nın bir kısmını (Dünaburg, Polotsk, Vitebsk dahil) aldı, Avusturya ise Galiçya'yı (Lvov ve batı Podolya, Yazlovets dahil) ilhak etti; Prusya kıyı bölgesi Kraliyet Prusyası'nı devraldı. Polonya Seymi antlaşmayı ancak 30 Eylül 1773'te, baskı altında onayladı. Bu, 1795'e kadar sürecek üç paylaşımın ilkiydi.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
   kaynak:"bulunamadı", duygu:["😔"] },
 
-{ t:"1793-01-23", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
+{ t:"1793-01-12", ic_not_takvim:"II. Paylaşım (Rus-Prusya sözleşmesi, St. Petersburg): 12 Ocak 1793 (Jülyen — ÇEVİRİ: 23 Ocak 1793 Gregoryen − 11 gün; Jülyen günü veren birincil kaynak okunamadı, Korniloviç notunda '13 Ocak' varyantı) = 23 Ocak 1793 (Gregoryen) · KUTU-VERI-1015 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #4a: Gregoryen gün Jülyen'e döndü, iki takvim kayda)", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", onem:4, b:"Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı",
-  gun:"23 Ocak 1793",
+  gun:"12 Ocak 1793 (Jülyen, çeviri) = 23 Ocak 1793 (Gregoryen)",
   yer:"Bar (Podolya), Kamaniçe, Meciboj (Mejibuji), Minsk, Çehrin (Çigirin), Gdansk, Poznan",
   yer_id:"Minsk", kisiler:"II. Katerina, II. Friedrich Wilhelm",
   d:"1791 anayasa reformlarının Rusya ve Prusya'yı tedirgin etmesi üzerine, iki devlet 23 Ocak 1793'te St. Petersburg'da imzaladıkları antlaşmayla Polonya'yı yeniden paylaştı: Rusya Litvanya-Belarus'un büyük bölümünü ve batı Ukrayna'yı (Kamaniçe, Bar, Minsk dahil) aldı, Prusya ise Gdansk ve Poznan'ı içeren Büyük Polonya'yı ilhak etti — toplam 307.000 km². Baskı altındaki Polonya Seymi antlaşmayı aynı yıl onaylamak zorunda kaldı; bu, Polonya'nın tam ilhakını iki yıl erteleyen kısa ömürlü bir paylaşımdı.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
@@ -356,7 +356,7 @@ window.OLAYLAR_EK16 = [
   d:"1654'te başlayan Lehistan-Rus Savaşı sırasında Rus ordusu Temmuz'dan beri kuşattığı Smolensk'i 3 Ekim 1654'te Lehistan garnizonunun teslim olmasıyla geri aldı; 1611'de Lehistan'a kaybedilen şehir 43 yıl sonra Rusya'ya döndü. Bu, Rusya'nın Kargaşalar Dönemi kayıplarını tersine çevirme sürecinin en önemli adımlarından biriydi ve 1667 Andrusovo Mütarekesi'yle kalıcı hâle geldi.",
   kaynak:"bulunamadı — TDV bu kuşatmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Siege of Smolensk 1654 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1667-02-09", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
+{ t:"1667-01-30", ic_not_takvim:"Andrusovo Mütarekesi: 30 Ocak 1667 (Jülyen, Sytin Askerî Ansiklopedisi «Андрусовское перемирие» '30 янв. 1667 г.') = 9 Şubat 1667 (Gregoryen) · KUTU-VERI-1015 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #4a: Gregoryen gün Jülyen'e döndü, iki takvim kayda)", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
   gun:"30 Ocak 1667 (Jülyen) / 9 Şubat 1667 (Gregoryen)",
   yer:"Kiev",

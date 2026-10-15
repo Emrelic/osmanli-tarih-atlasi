@@ -488,7 +488,7 @@ window.ANTLASMALAR = [
   // çıkılmadı) — yani bu bir "bulunamadı" değil, "bakılmadı"dır.
   savas_basi_kaynak:"⚠️ DOĞRULANMADI. TDV kucuk-kaynarca-antlasmasi “(Cemâziyelevvel 1182 / Eylül 1768)” diyor, GÜN VERMİYOR ve milâdî karşılığı Eylül. Atlastaki 8 Ekim 1768 literatürdeki savaş ilânı günüdür ve ikinci bir akademik kaynakla doğrulanmadı.",
   taraf:["osmanli","rusya","kirim"], topraklar:"Kırım Hanlığı Osmanlı egemenliğinden çıkıp siyaseten bağımsız ilan edildi (dinî bağ hilafette kaldı); Rusya Karadeniz kıyısında Kerç, Yenikale ve Azak'ı aldı." },
-{ t:"1812-05-28", ad:"Bükreş", savas_basi:"1806-12-22",               taraf_metin:"Rusya",            ozet:"Besarabya kaybedildi",
+{ t:"1812-05-16", ic_not_takvim:"Bükreş Antlaşması: 16 Mayıs 1812 (Jülyen, ESBE «Бухарестский мир» 'подписан 16 мая 1812 г.') = 28 Mayıs 1812 (Gregoryen, TDV bukres-antlasmasi) · KUTU-VERI-1015 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #4a: Gregoryen gün Jülyen'e döndü, iki takvim kayda)", ad:"Bükreş", savas_basi:"1806-12-22",               taraf_metin:"Rusya",            ozet:"Besarabya kaybedildi",
   taraf:["osmanli","rusya"], topraklar:"Besarabya (Prut-Dinyester arası) Osmanlı'ya bağlı Boğdan'dan koparılıp Rusya'ya bırakıldı." },
 { t:"1829-09-14", ad:"Edirne", savas_basi:"1828-04-26",               taraf_metin:"Rusya",            ozet:"Tuna deltası kaybı; Yunanistan yolu",
   savas_basi_kaynak:"TDV edirne-antlasmasi — “Rusya … savaş açmıştı (26 Nisan 1828)”.",
