@@ -5178,7 +5178,7 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   ⚠️ Gövde hâlâ 2026-10-04 19:17 koşusunun çıktısı; Dobriç henüz gövdede YOK.
 #     Tam inşadan sonra bu üye yeniden ölçülecek — düşebilir de, kalabilir de.
 # ═══════════════════════════════════════════════════════════════════════════
-BEKLENEN_D8A = 1505   # 13 Ekim: 1508 → 1505 (denetle.py ölçümü, origin/main 122ae588d; Emre tavan onayı) · 1568 → 1508, 6 Ekim 2026 (§3.4③ iyileşme; koordinatör kararı, UMIT ölçtü+yazdı).
+BEKLENEN_D8A = 1508   # 15 Ekim 2026: 1505 → 1508, Emre onayı (KOŞU 25 gövdesi, taban b0b48774 + KUTU-H5-1015 308429b12 rebase). Taşma GEOMETRİSİ değişmedi: H5 aynı şeritlere yeni noktalar ekledi (Cortina, Locarno, Enschede, Subotica), birim = (hat, gün, yan, EN YAKIN yer) olduğundan aynı taşma daha çok ada bölündü. Sayım kusuru ayrıca düzeltilecek · ÖNCEKİ 13 Ekim: 1508 → 1505 (denetle.py ölçümü, origin/main 122ae588d; Emre tavan onayı) · 1568 → 1508, 6 Ekim 2026 (§3.4③ iyileşme; koordinatör kararı, UMIT ölçtü+yazdı).
 #   🔴 ŞERH: bu sayı MAIN'İN gövdesine aittir (gövde 2026-10-04 11:37 · uret_petek 8b6aaea5,
 #   makine/umit 47290f11'de ölçüldü). KOŞU 20 geometrisi yayınlanırsa (SABAH ⑳, Emre)
 #   YENİDEN ölçülür — HAVVA aynı soruyu koşu gövdesinde başka sayıyla ölçtü. Aynı araç,
