@@ -56,52 +56,67 @@ gibi bir **yazım hatasını** *"kasıtlı"* diye etiketler ve görünmez kılar
 
 ---
 
-## 🔴 TAKVİM — bütün tarih alanlarını bağlar, ve BUGÜNE KADAR YAZILI DEĞİLDİ
+## 🔴 TAKVİM — bütün tarih alanlarını bağlar (Emre, 15 Ekim 2026, KARARLAR-EMRE-1015 #10)
 
-> **Bu atlasın tarihleri JÜLYEN'dir. ÇEVİRME YAPILMAZ.**
+> **Bu atlasın günleri GREGORYEN'dir. Jülyen gün veren kaynak Gregoryen'e ÇEVRİLİR;
+> iki takvim de kayda yazılır. 1582 öncesi günler Jülyen KALIR.**
 
-Bu kural 2 Eylül 2026'da **ölçülerek** kondu. Ondan önce hiçbir belgede
-yoktu — ve yokluğu iki oturumu *"veri ile TDV çelişiyor"* sanmaya
-götürdü. Çelişki yoktu; **ölçüt yazılı değildi.**
-
-### Nasıl ölçüldü — tek cümlelik kanıt
-TDV `tiflis` maddesi olayı *"**29 Ağustos Cuma** günü"* diye veriyor.
-```
-29 Ağustos 1578  Jülyen'de   CUMA    ✓ TDV'nin dediği gün
-29 Ağustos 1578  Gregoryen'de SALI    ✗
-```
-⇒ **TDV bu dönem için JÜLYEN veriyor.** Kaynağın kendi haftagünü, hangi
-takvimi kullandığını ele veriyor — tarihin kendisi vermiyor.
-
-### Ve atlasın kendi geleneği de Jülyen
-```
-İstanbul'un fethi   29 Mayıs 1453   ← Jülyen. Veride böyle yazılı.
-```
-İki taraf uyuşuyor, yani **dönüştürme gereksiz ve ZARARLI**: bir kaydı
-Gregoryen'e çevirmek onu komşularından 10-13 gün ayırır ve `Değişmez 2`
-senkronunu bozar.
+📌 Tarihçe (bir cümle): 2 Eylül 2026'da konan eski kural *"tarihler Jülyen'dir,
+ÇEVİRME YAPILMAZ"* diyordu ve KARARLAR-1014 m.28 Rus kaynaklı günleri Jülyen'e
+döndürmüştü; #10 bunu kaldırdı, m.28 dönüşleri TAKVİM-1015 ile Gregoryen'e geri
+alındı (iptal edilen 1e8b2db53'ün "Gregoryen → Jülyen" uygulaması da UYGULANMAZ).
 
 ### 🔴 KURAL
 ```
-TDV'den gelen tarih          OLDUĞU GİBİ yazılır
-Batı kaynağından gelen tarih kaynağın hangi takvimde olduğu ÖLÇÜLÜR
-                             (haftagünü · kaynağın kendi beyanı)
-Hicrî tarih                  karşılığı verilmişse o alınır, kendin ÇEVİRME
-çevirme                      YAPILMAZ — ve yapıldıysa `kaynak:`ta YAZILIR
+1582-10-15'ten SONRAKİ gün   GREGORYEN yazılır
+   kaynak Jülyen veriyorsa  ÇEVRİLİR (Gregoryen = Jülyen + fark):
+      1582-10-15 .. 1700-02-28   +10 gün
+      1700-03-01 .. 1800-02-28   +11 gün
+      1800-03-01 .. 1900-02-28   +12 gün
+      1900-03-01 .. 1918-02-13   +13 gün
+   (aralıklar Gregoryen gündür; Jülyen 1700-02-29 gibi Gregoryen'de olmayan
+    günler bir sonraki aralığın farkıyla çevrilir)
+1582-10-15'ten ÖNCEKİ gün    JÜLYEN kalır — proleptik Gregoryen KULLANILMAZ
+                             (İstanbul'un fethi 1453-05-29, Tiflis 1578-08-29
+                             TDV haftagünüyle ölçülmüş Jülyen — dokunulmaz)
+TDV'den gelen gün            1582 sonrası TDV çoğunlukla Gregoryen verir; ama bazen
+                             Jülyen/Rûmî gün yazar (ör. 1912 Balkan: Karaferye
+                             '16 Ekim' = Gregoryen 29 Ekim) — haftagünü ve
+                             bağlamla ÖLÇÜLÜR, ölçülemezse dokunulmaz, bildirilir
+Rus/Balkan kaynağı           ESBE, Sytin ВЭ, RBS, Lukyanoviç, Petrov, Dubrovin
+(1918-02-14 öncesi)          vb. aksini yazmadıkça ESKİ TAKVİMDİR (Jülyen) —
+                             ama yalnız kaynak/not takvimi KESİN söylüyorsa
+                             çevrilir; belirsizse çevrilmez ve listelenir
+Hicrî tarih                  karşılığı verilmişse o alınır; vermiyorsa CLAUDE.md
+                             hicrî kuralı — 1582 sonrası Gregoryen tabloyla
+AY hassasiyetli Jülyen       Jülyen ayın 1'i çevrilir (ör. "Temmuz 1771" J →
+                             1771-07-12), hassasiyet `kesinlik`/`gun`da durur
 ```
 
-### ⚠️ VE BİR VARYANT ÇATIŞMASI ÇEVİRİYLE ÇÖZÜLMEZ, NOTLA ÇÖZÜLÜR
-Ölçülmüş vaka — Özi: veri `1737-07-13`, TDV `11 Temmuz`. İki gün fark
-takvim varyantından geliyor (Rus eski takvimi ↔ Hicrî kayıt). **Doğrusu
-tarihi değiştirmek değil**, `kaynak:` alanına varyantı **not düşmek** —
-çünkü hangisinin doğru olduğu değil, **hangi kaydın hangi takvimde
-tutulduğu** bilinmiyor.
+### `ic_not_takvim` — çevirinin izi ZORUNLUDUR
+Çevrilen her kayıtta not, kullanıcıya gösterilmeyen alana yazılır:
+```
+ic_not_takvim:"Jülyen <gün> (<kaynak>) = Gregoryen <gün>"
+```
+- **Kronoloji / savaş / sefer / künye kaydı:** `ic_not_takvim` alanı.
+- **Yerleşim dönemi (`s:`/`d:`/`v:`/`isg:` nesnesi):** dönem nesnesine yeni alan
+  AÇILMAZ (`girdi.py` `BILINEN_DONEM_ALANLARI`) — aynı cümle dönemin `kaynak:`
+  metninin BAŞINA yazılır.
+- Kullanıcıya görünen `gun:` metni Gregoryen günü önce verir, Jülyen'i ayraçta
+  anar: `"27 Eylül 1770 (Jülyen 16 Eylül)"`.
+- Gün zaten Gregoryen ise ve kaynak Jülyen'i de veriyorsa: gün DEĞİŞMEZ, yalnız
+  `ic_not_takvim` eklenir.
 
-📌 Ve bunun tersi de ölçüldü, karıştırılmasın: **Tiflis'te sorun takvim
-DEĞİLDİ.** `1578-08-09` Tiflis'in fethi değil **Çıldır Savaşı'nın günü**;
-o gün beş yerleşime ve dokuz dönem ucuna toptan yazılmış. ⇒ *"İki tarih
-çelişiyor"* gördüğünde **önce takvimi, sonra OLAYIN KENDİSİNİ** ölç —
-ikisi farklı kusur sınıfıdır ve çareleri terstir.
+### ⚠️ Çevirmeden önce: OLAYIN KENDİSİ ve VARYANT
+- Bir varyant çatışması (ör. Özi 1737: veri `1737-07-11` TDV, ESBE 2 Temmuz eski
+  takvim = 13 Temmuz) çeviriyle ZORLA çözülmez: TDV'nin günü hangi takvimde
+  ölçülemiyorsa gün kalır, varyant `kaynak:`a not düşülür.
+- Tiflis vakası: `1578-08-09` Tiflis'in fethi değil **Çıldır Savaşı'nın günüydü**.
+  ⇒ *"İki tarih çelişiyor"* gördüğünde **önce takvimi, sonra OLAYIN KENDİSİNİ**
+  ölç — ikisi farklı kusur sınıfıdır ve çareleri terstir.
+- Bir yerleşim kırılması çevrilirse aynı olayın kronoloji maddesi ve bütün
+  kopyaları (savaslar, seferler, sehirler, ekokuma bağları `"<gün>|<kelime>"`,
+  kaynaklı halka, `yer_yama.js` anahtarları) AYNI güne çekilir (Değişmez 2, ±30 gün).
 
 ---
 
@@ -293,8 +308,9 @@ demez. İzin `C4` ile açılır. Bugünkü evrende negatif yıl: **0**.
 **4.747.787 günün her birinde** Python ve JS ikizleri birebir; bugünkü verinin
 **7.404 tarih dizgisinde** eski `gunIdx`/`gun_no` ile fark **0**.
 ⚠️ Jülyen/Gregoryen farkı bu sözleşmenin DIŞINDADIR (1281'de 7, MÖ 3000'de
-**24 gün**). Kaynağın hangi takvimi kullandığı ayrı bir sorudur ve kaynak
-araştırmasında sorulur.
+**24 gün**): 1582 öncesi günler Jülyen yazılır, proleptik Gregoryen kullanılmaz
+(TAKVİM kuralı, Emre #10). Kaynağın hangi takvimi kullandığı ayrı bir sorudur
+ve kaynak araştırmasında sorulur.
 
 ---
 
@@ -932,7 +948,7 @@ Denetim ve JS üretimi: `py arac/sehir_tarihce.py denetle <dosya.js>` · `yaz <j
   edilir. Önceki sahibin son tanığı ile X arası uzunsa (> 1 kuşak) `__BOSLUK__` tercih edilir.
 - **Künye geçişi** (toprak el değiştirmez, künye değişir: Roma Cumhuriyeti → İmparatorluk, Roma → Bizans,
   Emevî → Abbâsî): yine dönem sınırıdır ve `olay` ister — `k:"diger"`, `b:"künye geçişi: …"`.
-- **Takvim:** yukarıdaki TAKVİM kuralı aynen — Jülyen, ÇEVİRME YAPILMAZ. Hicrî tarihin mîlâdî karşılığını
+- **Takvim:** yukarıdaki TAKVİM kuralı aynen — 1582 öncesi Jülyen (çevrilmez), sonrası Gregoryen (Jülyen kaynak çevrilir, `ic_not_takvim`). Hicrî tarihin mîlâdî karşılığını
   kaynak veriyorsa o; vermiyorsa CLAUDE.md hicrî kuralı (kesişimin ilk günü) ve çevirinin kendisi `kaynak`ta
   YAZILIR ("hicrî 488, çeviri: tablo takvimi, Jülyen").
 - `d` = `devletler.js` gerçek `id`. Sahibi bilinmiyorsa `__BOSLUK__` + `ic_not` (beyansız yaklaşıklık yok).
