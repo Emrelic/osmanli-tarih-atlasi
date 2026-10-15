@@ -684,7 +684,11 @@ BOYALAR = {
     "moskova":    ("Moskova Knezliği",       "#0f0f9c"),
     "novgorod":   ("Novgorod Cumhuriyeti",   "#1e333e"),
     "pskov":      ("Pskov Cumhuriyeti",      "#840f75"),
-    "tver":       ("Tver Knezliği",          "#9f6ced"),
+    # 🟢 RENK-PAKET-1015: #9f6ced -> #244ec6. KARAR-UYG-1015 Tallinn/Narva'yı 1281-1346
+    #   `danimarka` yaptı ⇒ danimarka ↔ tver ΔE 7,97 · 475 km · 1281-1485 (yakın-ama-değmeyen).
+    #   danimarka köklü kimlik, dokunulmadı; tver --oner (denetim/oneri-20261015-222739.txt,
+    #   gerçek veri engel kümesi: Voronoi 4 → evren 27) en yakın engel ΔE 12,2.
+    "tver":       ("Tver Knezliği",          "#244ec6"),
     # `rusya` 1917-03-15'te bitiyor, `sovyet-rusya` 1917-11-07'de başlıyor —
     # arada SEKİZ AY boşluk vardı. Koordinatör `sovyet-rusya`nın `f:`ini
     # geriye çekmeyi REDDETTİ ve ayrı künye yazdırdı; doğru karar, yoksa
