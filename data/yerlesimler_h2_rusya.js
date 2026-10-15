@@ -400,8 +400,8 @@ window.YERLESIMLER_H2_RUSYA = [
   s:[{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Volsk", tur:"sehir", lat:52.045, lon:47.387, g:2, k:3, kur:"1690-01-01",
   s:[{f:"1690-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
-{ ad:"Stavropol (Volga)", tur:"kale", lat:53.507, lon:49.420, g:2, k:4, kur:"1737-01-01",
-  s:[{f:"1737-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+{ ad:"Stavropol (Volga)", tur:"kale", lat:53.507, lon:49.420, g:2, k:4, kur:"1738-01-01", kesinlik:"yil", neden:"KUTU-P2-1015 (0082/H-0070): ESBE «Ставрополь»: 'Основан в 1738 г.' — eski 1737 kaynaksızdı.",
+  s:[{f:"1738-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"}},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ─── E · YAYIK-URAL BOZKIRI — Nogay Ordası ve Başkurt yurdu ────────────────
 // Model çekirdeğin Penza/Borisoglebsk kaydıyla aynı (altinorda→nogay 1500 ya da

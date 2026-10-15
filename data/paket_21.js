@@ -555,8 +555,8 @@ window.YERLESIMLER_OK106 = [
   //    `2s` AÇIK +1 bekleniyor.
   { ad:"Kremençuk", tur:"sehir", lat:49.0700, lon:33.4200, g:0, k:3,
     kur:"1571-01-01",
-    s:[{f:"1571-01-01",t:"1654-01-18",d:"lehistan"},
-       {f:"1654-01-18",t:"1917-03-15",d:"rusya"},
+    s:[{f:"1571-01-01",t:"1654-01-08",d:"lehistan"},
+       {f:"1654-01-08",t:"1917-03-15",d:"rusya",kaynak:"KUTU-P2-1015 (0082/H-0070): Pereyaslav günü 1654-01-18 (Gregoryen karşılık) → 1654-01-08, kaynağın eski takvim günü (ESBE «Переяславская рада»: '8 января 1654 г.'; KARARLAR-1014 m.28); çekirdek madde olaylar_ek16.js 1654-01-08"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kremenchuk\"" },
@@ -573,7 +573,7 @@ window.YERLESIMLER_OK106 = [
   //    55 km kuzeybatısında, aynı alayda ve aynı siyasî çemberde.
   // 🟢 Yeni gün doğurmaz: iki gün de Poltava'da ZATEN kullanılıyor.
   { ad:"Lubnı", tur:"sehir", lat:50.0200, lon:33.0000, g:0, k:3,
-    s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-18",d:"lehistan"},{f:"1654-01-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1917-03-15",d:"rusya",kaynak:"KUTU-P2-1015 (0082/H-0070): Pereyaslav günü 1654-01-18 (Gregoryen karşılık) → 1654-01-08, kaynağın eski takvim günü (ESBE «Переяславская рада»: '8 января 1654 г.'; KARARLAR-1014 m.28); çekirdek madde olaylar_ek16.js 1654-01-08"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Lubny\"; 1281-1654 zinciri komşu Poltava kaydının kalıbıdır (tutarlılık seçimi, kaynak günü değil)" },
 
   // ── SUMI ───────────────────────────────────────────────────────────
@@ -695,6 +695,18 @@ window.YERLESIMLER_OK106 = [
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
     kaynak:"ESBE «Бердянск» (ru.wikisource.org/wiki/ЭСБЕ/Бердянск)" },
+  { ad:"Nikolayev (Mikolayiv)", tur:"liman", lat:46.9750, lon:31.9946, g:0, k:2,
+    kur:"1784-01-01", kesinlik:"yil", neden:"KUTU-P2-1015 (0082/H-0070): kur GERÇEK KURULUŞ (tahkimat) — ESBE «Николаев, город Херсонской губернии»: 'Основан, в виде укрепления, кн. Потемкиным в 1784 г.'; IEU «Mykolaiv»: 'uninhabited until a fort (1784) and a shipbuilding wharf (1788)'. Gün kaynakta yok. Konum: bilinen şehir merkezi (İngul-Güney Bug kavşağı). Mükerrer taraması: 3 km içinde nokta YOK.",
+    s:[{f:"1784-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"ESBE «Николаев, город Херсонской губернии» (1784 tahkimat; 1788 tersane) — Bug'un doğu yakası Küçük Kaynarca'dan (1774) beri Rus"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"ESBE «Николаев, город Херсонской губернии» (ru.wikisource.org/wiki/ЭСБЕ/Николаев,_город_Херсонской_губернии) · IEU «Mykolaiv» (encyclopediaofukraine.com) — TDV'de madde yok" },
+  { ad:"Melitopol", tur:"sehir", lat:46.8489, lon:35.3675, g:0, k:3,
+    kur:"1784-01-01", kesinlik:"yil", neden:"KUTU-P2-1015 (0082/H-0070): kur İLK YERLEŞİM — IEU «Melitopol»: 'A frontier settlement was established at the site in 1784'; 1816'da Novooleksandrivka adını aldı, ESBE «Мелитополь»: 'В 1841 г. … слобода Ново-Александровская была переименована в город М.' (şehir statüsü 1841). Gün kaynakta yok. Konum: bilinen şehir merkezi (Molochna ırmağı). Mükerrer taraması: 3 km içinde nokta YOK.",
+    s:[{f:"1784-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil",t:"gun"},kaynak:"IEU «Melitopol» (1784 sınır yerleşimi) · ESBE «Мелитополь» (1841 şehir) — Kırım ilhakından (1783) sonra Rus"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}],
+    kaynak:"IEU «Melitopol» (encyclopediaofukraine.com) · ESBE «Мелитополь» (ru.wikisource.org/wiki/ЭСБЕ/Мелитополь)" },
   // ── OSTROGOJSK — Slobodskaya Ukrayna dalgasının ikinci kasabası ─────
   //  IEU "Ostrohozke": "It was founded by Ukrainian Cossacks and fortified
   //  in 1652." · "In 1662 it became the center of Ostrohozke regiment in
