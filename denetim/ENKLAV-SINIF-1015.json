@@ -11,18 +11,18 @@
   },
   "yontem": "elle (kaynak okunarak) > beyanlı (enklav:true) > veri değişmiş > kural: dmin≤300 → c · sömürge sahibi ve gövde başka kıtada → a · koridorda ≤2 yabancı nokta → c · kalan → b (şüphe)",
   "sayilar": {
-   "a": 73,
-   "b": 69,
-   "c": 160,
-   "Afrika/a": 11,
-   "Afrika/b": 11,
-   "Afrika/c": 14,
-   "Amerika/a": 14,
-   "Amerika/b": 13,
-   "Amerika/c": 39,
-   "Asya/a": 19,
-   "Asya/b": 40,
-   "Asya/c": 94,
+   "a": 82,
+   "b": 20,
+   "c": 200,
+   "Afrika/a": 14,
+   "Afrika/b": 2,
+   "Afrika/c": 20,
+   "Amerika/a": 15,
+   "Amerika/b": 3,
+   "Amerika/c": 48,
+   "Asya/a": 24,
+   "Asya/b": 10,
+   "Asya/c": 119,
    "Avrupa/a": 28,
    "Avrupa/b": 5,
    "Avrupa/c": 13,
@@ -483,9 +483,9 @@
     "damagaram": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 686 km, koridorda 6 başka sahipli nokta (tuareg-air:3, agadez-sultanligi:1, kanem-tubu:1, damagaram:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Bilma (Kavar vahası) Kanem-Bornu'nun Sahra ticaret yolu karakolu; aradaki çöl noktasız — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 15,
@@ -517,9 +517,9 @@
     "bagirmi": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 759 km, koridorda 3 başka sahipli nokta (kanem-bornu:2, bagirmi:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Sahel noktası — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 16,
@@ -550,9 +550,9 @@
     "vaday": 4
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 529 km, koridorda 4 başka sahipli nokta (vaday:4); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Vaday sınırı Sahel noktası — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 17,
@@ -638,9 +638,9 @@
     "almanya": 4
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 594 km, koridorda 5 başka sahipli nokta (almanya:4, ingiltere:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Nama bölgesi — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 20,
@@ -690,9 +690,9 @@
     "ovambo": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 452 km, koridorda 3 başka sahipli nokta (ovambo:2, portekiz:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Ovimbundu yaylası — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 22,
@@ -792,9 +792,9 @@
     "antandroy": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 589 km, koridorda 6 başka sahipli nokta (merina:3, fransa-cumhuriyet:1, antemoro:1, antandroy:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Sakalava kıyısı — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 26,
@@ -814,9 +814,9 @@
     "tiv": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 451 km, koridorda 3 başka sahipli nokta (borgu:1, jukun-kvararafa:1, tiv:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "a",
+   "gerekce": "İlorin emirliği Sokoto halifeliğine (Gwandu kolu) bağlıydı, araya Nupe/Borgu girer — gerçek ama kaynak beyanı yazılmadı",
+   "yol": "elle"
   },
   {
    "no": 27,
@@ -838,8 +838,8 @@
    },
    "durum_1015": "acik",
    "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 694 km, koridorda 18 başka sahipli nokta (italya:16, habesistan:2); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "gerekce": "VERİ ŞÜPHESİ (kesine yakın): Kısmâyû 1914-1923 'somali' — 1914'te İngiliz Doğu Afrikası'nın Jubaland'ı (1925'te İtalya'ya geçti); kaynakla düzeltilmeli",
+   "yol": "elle"
   },
   {
    "no": 28,
@@ -861,8 +861,8 @@
    },
    "durum_1015": "acik",
    "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 642 km, koridorda 21 başka sahipli nokta (italya:16, habesistan:5); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "gerekce": "VERİ ŞÜPHESİ: Ceel Vaak 1914-1923 'somali' — İngiliz Jubaland/Kenya sınırı; kaynakla düzeltilmeli",
+   "yol": "elle"
   },
   {
    "no": 29,
@@ -909,9 +909,9 @@
     "kong-vattara": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 729 km, koridorda 11 başka sahipli nokta (fransa-cumhuriyet:3, vasulu:3, moritanya-emirlikleri:1, kenedugu:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "a",
+   "gerekce": "Dinguiraye — el-Hac Ömer Tal'ın Tukulör devletinin ilk üssü, Segu çekirdeğinden ayrı (Fransız Sudanı arada) — gerçek; beyan yazılmadı",
+   "yol": "elle"
   },
   {
    "no": 31,
@@ -960,9 +960,9 @@
     "ngoni": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 686 km, koridorda 5 başka sahipli nokta (nyamvezi:3, hehe:1, ngoni:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "a",
+   "gerekce": "Tabora — Zengibar sultanlığına bağlı Arap kervan karakolu, kıyıdan iç bölgede (Nyamvezi toprağı arada) — gerçek karakol; beyan yazılmadı",
+   "yol": "elle"
   },
   {
    "no": 33,
@@ -1061,9 +1061,9 @@
     "yeni-ispanya": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 667 km, koridorda 5 başka sahipli nokta (creek-konfederasyonu:1, choctaw:1, ispanya:1, cikasav:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "a",
+   "gerekce": "Natchez 1800 — ABD'nin Mississippi Territory'si (1798), Gürcistan batısındaki Kızılderili toprağıyla ayrık — gerçek; beyan yazılmadı",
+   "yol": "elle"
   },
   {
    "no": 37,
@@ -1085,9 +1085,9 @@
     "sauk": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 778 km, koridorda 5 başka sahipli nokta (ingiliz-kuzey-amerika:2, ojibwe:2, sauk:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Büyük Göller batısı kürk karakolları — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 38,
@@ -1235,9 +1235,9 @@
     "ponka": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 778 km, koridorda 4 başka sahipli nokta (wicita:2, pavni:1, ponka:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Bent's Fort 1850 — Meksika'dan alınan topraklarda (1848) ABD gövdesine bitişik — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 45,
@@ -1552,9 +1552,9 @@
     "ingiliz-kuzey-amerika": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 791 km, koridorda 4 başka sahipli nokta (inuit:2, ingiliz-kuzey-amerika:2); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Peel havzası — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 58,
@@ -2042,9 +2042,9 @@
     "ingiliz-kuzey-amerika": 7
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 596 km, koridorda 7 başka sahipli nokta (ingiliz-kuzey-amerika:7); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Kuzeybatı Ontario — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 78,
@@ -2118,8 +2118,8 @@
    },
    "durum_1015": "acik",
    "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 412 km, koridorda 3 başka sahipli nokta (guatemala:2, ingiltere:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "gerekce": "VERİ HATASI (kesine yakın): Omoa, Trujillo, Río Tinto 1850 'meksika' — bu kıyı Honduras'tır (Orta Amerika Federasyonu 1823, Honduras 1838 bağımsız); kaynakla düzeltilmeli",
+   "yol": "elle"
   },
   {
    "no": 81,
@@ -2141,9 +2141,9 @@
     "abd": 6
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 601 km, koridorda 6 başka sahipli nokta (abd:6); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Sonoyta 1878 — Sonora kuzeyi, nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 82,
@@ -2161,9 +2161,9 @@
     "kanada": 5
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 458 km, koridorda 5 başka sahipli nokta (kanada:5); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Métis bölgesi — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 83,
@@ -2191,9 +2191,9 @@
     "fransa": 3
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 440 km, koridorda 3 başka sahipli nokta (fransa:3); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Saginaw — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 84,
@@ -2490,9 +2490,9 @@
     "abd": 6
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 647 km, koridorda 6 başka sahipli nokta (abd:6); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Batı Şoşoni — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 96,
@@ -2587,9 +2587,9 @@
     "abd": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 494 km, koridorda 4 başka sahipli nokta (abd:2, komanci:1, ponka:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Taovaya — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 100,
@@ -2862,9 +2862,9 @@
     "buhara": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 758 km, koridorda 6 başka sahipli nokta (ingiliz-hindistani:5, buhara:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Kandehar 1850 — Hazaracat noktasız; nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 111,
@@ -2887,9 +2887,9 @@
     "buhara": 3
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 330 km, koridorda 3 başka sahipli nokta (buhara:3); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Belh 1850 — Hindukuş noktasız; nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 112,
@@ -2909,8 +2909,8 @@
    },
    "durum_1015": "acik",
    "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 508 km, koridorda 15 başka sahipli nokta (zend:12, hive:3); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "gerekce": "VERİ ŞÜPHESİ: Kızılarvat 1774 'afsar' — 1774'te Afşar devleti Meşhed çevresine çekilmişti, Kızılarvat Türkmen bölgesidir; kaynakla elenmeli",
+   "yol": "elle"
   },
   {
    "no": 113,
@@ -2986,9 +2986,9 @@
     "astarhan": 4
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 770 km, koridorda 8 başka sahipli nokta (astarhan:4, nogay:3, moskova:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Ural eteği bozkırı — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 116,
@@ -3275,8 +3275,8 @@
    },
    "durum_1015": "acik",
    "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 567 km, koridorda 8 başka sahipli nokta (racput:2, maratha:2, indor:1, bhopal:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "gerekce": "VERİ ŞÜPHESİ: Asîrgarh ve Burhânpûr 1774 'babur' — 1760'tan sonra Maratha/Nizam idaresinde; kaynakla elenmeli",
+   "yol": "elle"
   },
   {
    "no": 127,
@@ -3548,9 +3548,9 @@
     "ace-sultanligi": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 466 km, koridorda 6 başka sahipli nokta (malay-sultanliklari:3, ace-sultanligi:2, portekiz:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Deli (Medan) — Sumatra kıyısı, nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 138,
@@ -3657,8 +3657,8 @@
    },
    "durum_1015": "acik",
    "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 567 km, koridorda 4 başka sahipli nokta (racput:3, yadava:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "gerekce": "VERİ ŞÜPHESİ: Asîrgarh 1281 'delhi-sultanligi' — 1281'de Dekken Yadava'larındaydı (Delhi'nin Dekken seferleri 1296 sonrası); kaynakla elenmeli",
+   "yol": "elle"
   },
   {
    "no": 143,
@@ -3714,9 +3714,9 @@
     "malva-sultanligi": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 688 km, koridorda 6 başka sahipli nokta (racput:4, malva-sultanligi:2); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Gucerat 1400 — Delhi'nin Gucerat valiliği (Zafer Han, 1407'de bağımsız); Malva/Racput noktaları arada — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 145,
@@ -3738,8 +3738,8 @@
    },
    "durum_1015": "acik",
    "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 625 km, koridorda 9 başka sahipli nokta (cavnpur-sultanligi:8, gond-kralliklari:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "gerekce": "VERİ ŞÜPHESİ: Gayâ ve Patna 1400 'delhi-sultanligi' — Bihar 1394'ten sonra Cavnpur (Şarkî) sultanlığındaydı; kaynakla elenmeli",
+   "yol": "elle"
   },
   {
    "no": 146,
@@ -3763,8 +3763,8 @@
    },
    "durum_1015": "acik",
    "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 695 km, koridorda 10 başka sahipli nokta (racput:4, malva-sultanligi:2, gucerat-sultanligi:1, gond-kralliklari:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "gerekce": "VERİ ŞÜPHESİ: Çampâner 1453 'delhi-sultanligi' — Çampâner Racput (Khichi) kalesiydi, Gucerat 1484'te aldı; kaynakla elenmeli",
+   "yol": "elle"
   },
   {
    "no": 147,
@@ -3789,9 +3789,9 @@
     "ace-sultanligi": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 615 km, koridorda 12 başka sahipli nokta (malay-sultanliklari:4, hollanda-dogu-hint:3, cohor-sultanligi:3, ace-sultanligi:2); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Deli (Medan) — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 148,
@@ -3857,9 +3857,9 @@
     "magindanao-sultanligi": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 443 km, koridorda 3 başka sahipli nokta (ispanya:2, magindanao-sultanligi:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Butuan — Mindanao kıyısı, nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 151,
@@ -3910,9 +3910,9 @@
     "bhopal": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 416 km, koridorda 4 başka sahipli nokta (racput:2, ingiliz-hindistani:1, bhopal:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Gvalyar 1850 — Sindhia devleti, nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 153,
@@ -4158,8 +4158,8 @@
    },
    "durum_1015": "acik",
    "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 436 km, koridorda 47 başka sahipli nokta (memluk:26, eretna:11, dulkadir:5, kilikya-ermeni:2); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "gerekce": "VERİ HATASI — DÜZELTİLDİ (KUTU-H7-1015): Konya ve Ilgın 1308-1366 kesintisiz 'ilhanli' idi → ilhanli 1308-1328, karaman 1328-1350 (TDV karamanogullari: 729/1328-29), eretna 1350-1366 (TDV eretnaogullari: 1350). Ulukışla Niğde ile eşlendi: ilhanli 1308-1335, eretna 1335-1366 (TDV nigde, çıkarım beyanlı). 1314/1318 kısa Karaman dönemleri günsüz, beyanlı",
+   "yol": "elle"
   },
   {
    "no": 164,
@@ -4180,8 +4180,8 @@
    },
    "durum_1015": "acik",
    "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 462 km, koridorda 25 başka sahipli nokta (celayirli:25); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "gerekce": "VERİ ŞÜPHESİ: Burûcird, Luristan, Nihâvend 1350 'ilhanli' — 1350'de İlhanlı hanları Çobanoğulları'nın kuklasıydı, Luristan Hazâraspî atabeyliğindeydi; kaynakla elenmeli",
+   "yol": "elle"
   },
   {
    "no": 165,
@@ -4206,8 +4206,8 @@
    },
    "durum_1015": "acik",
    "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 424 km, koridorda 27 başka sahipli nokta (celayirli:27); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "gerekce": "VERİ ŞÜPHESİ: Gîlân ve Mâzenderân 1350 'ilhanli' — yerel hanedanlar (Bâvendî vb.); kaynakla elenmeli",
+   "yol": "elle"
   },
   {
    "no": 166,
@@ -4441,9 +4441,9 @@
     "hokand": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 719 km, koridorda 3 başka sahipli nokta (rusya:2, hokand:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Kazak bozkırı — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 175,
@@ -4467,9 +4467,9 @@
     "mogulistan": 4
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 790 km, koridorda 4 başka sahipli nokta (mogulistan:4); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Kazak bozkırı — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 176,
@@ -4532,9 +4532,9 @@
     "rusya": 3
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 499 km, koridorda 3 başka sahipli nokta (rusya:3); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Turgay bozkırı — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 179,
@@ -4578,9 +4578,9 @@
     "qing-hanedani": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 704 km, koridorda 3 başka sahipli nokta (cungar:2, qing-hanedani:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Gobi-Altay — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 181,
@@ -4690,9 +4690,9 @@
     "nguyen-hanedani": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 363 km, koridorda 3 başka sahipli nokta (siyam-chakri:2, nguyen-hanedani:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Savannakhet — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 186,
@@ -4762,9 +4762,9 @@
     "ace-sultanligi": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 466 km, koridorda 6 başka sahipli nokta (malay-sultanliklari:3, ace-sultanligi:2, portekiz:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Deli (Medan) — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 189,
@@ -4790,9 +4790,9 @@
     "hollanda": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 744 km, koridorda 18 başka sahipli nokta (bicapur:7, golkonda:4, meysur:2, babur-imparatorlugu:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "a",
+   "gerekce": "Cinci ve Tancûr 1683 — Şivaji'nin 1677 Karnatik seferiyle ve Ekoji'nin Tancûr krallığıyla Maratha'nın güneydeki gerçek kopuk toprakları (Bicapur/Golkonda arada); beyan yazılmadı",
+   "yol": "elle"
   },
   {
    "no": 190,
@@ -4818,9 +4818,9 @@
     "baroda": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 723 km, koridorda 13 başka sahipli nokta (racput:4, ingiliz-hindistani:2, babur-imparatorlugu:2, cunagadh:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "a",
+   "gerekce": "Ecmîr 1774 — Sindhia (Maratha) idaresinde, Racput devletleri arasında gerçek kopuk parça; beyan yazılmadı",
+   "yol": "elle"
   },
   {
    "no": 191,
@@ -4847,9 +4847,9 @@
     "babur-imparatorlugu": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 403 km, koridorda 5 başka sahipli nokta (babur-imparatorlugu:2, indor:1, bhopal:1, haydarabad-nizam:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Maratha Gucerat'ı 1774 — Hândes üzerinden bitişik, nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 192,
@@ -4870,9 +4870,9 @@
     "babur-imparatorlugu": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 507 km, koridorda 10 başka sahipli nokta (haydarabad-nizam:7, babur-imparatorlugu:2, indor:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Nagpur (Bhonsle) 1774 — Berar üzerinden bitişik, nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 193,
@@ -4896,9 +4896,9 @@
     "babur-imparatorlugu": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 757 km, koridorda 16 başka sahipli nokta (haydarabad-nizam:10, babur-imparatorlugu:2, indor:1, bhopal:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Raipur/Ratanpur (Bhonsle) — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 194,
@@ -4923,9 +4923,9 @@
     "bhopal": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 487 km, koridorda 8 başka sahipli nokta (avad:6, gvalyar:1, bhopal:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "a",
+   "gerekce": "Agra ve Delhi 1800 — Sindhia'nın Doab'daki hâkimiyeti (1784-1803), Avad ve Racput toprakları arasında; beyan yazılmadı",
+   "yol": "elle"
   },
   {
    "no": 195,
@@ -4951,9 +4951,9 @@
     "babur-imparatorlugu": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 507 km, koridorda 10 başka sahipli nokta (haydarabad-nizam:7, babur-imparatorlugu:2, indor:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Pune ve Ahmednagar 1800 — Maratha çekirdeği; ana gövde seçimi gruplama eseri — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 196,
@@ -5194,9 +5194,9 @@
     "portekiz": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 481 km, koridorda 7 başka sahipli nokta (meysur:2, portekiz:2, bicapur:1, vijayanagara:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Mangalor — Keladi Nayak kıyısı, nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 206,
@@ -5247,9 +5247,9 @@
     "kamboc-kralligi": 5
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 515 km, koridorda 9 başka sahipli nokta (kamboc-kralligi:5, laos-kralliklari:2, tay-son:1, campa:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Nguyen beyliği orta Vietnam — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 208,
@@ -5318,9 +5318,9 @@
     "altinorda": 5
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 487 km, koridorda 9 başka sahipli nokta (altinorda:5, kazan:4); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Nogay bozkırı — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 211,
@@ -5339,9 +5339,9 @@
     "moskova": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 621 km, koridorda 7 başka sahipli nokta (kazan:5, moskova:2); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Başkurt toprakları — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 212,
@@ -5456,9 +5456,9 @@
     "babur-imparatorlugu": 3
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 382 km, koridorda 3 başka sahipli nokta (babur-imparatorlugu:3); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Caysalmer — Thar çölü, nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 216,
@@ -5481,9 +5481,9 @@
     "behmeni": 2
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 567 km, koridorda 10 başka sahipli nokta (gucerat-sultanligi:6, behmeni:2, delhi-sultanligi:1, malva-sultanligi:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "a",
+   "gerekce": "Cûnâgadh 1350 — Çudasama Racputları, Delhi'nin Gucerat'ıyla çevrili gerçek ayrı bölge; beyan yazılmadı",
+   "yol": "elle"
   },
   {
    "no": 217,
@@ -5535,8 +5535,8 @@
    },
    "durum_1015": "acik",
    "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 437 km, koridorda 7 başka sahipli nokta (babur-imparatorlugu:7); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "gerekce": "VERİ ŞÜPHESİ: Bhuc (Kutch) 1526 adayının koridorunda 7 'babur-imparatorlugu' noktası var — Babür 1526'da Gucerat'a hâkim değildi (Gucerat 1573'te alındı); asıl hata koridordaki Gucerat noktalarında olabilir; kaynakla elenmeli",
+   "yol": "elle"
   },
   {
    "no": 219,
@@ -5740,9 +5740,9 @@
     "kazak-hanligi": 4
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 662 km, koridorda 4 başka sahipli nokta (kazak-hanligi:4); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "a",
+   "gerekce": "Kazalinsk (Fort No. 1, Raim) 1850 — Rusya'nın Siriderya ağzındaki ileri kale-karakolu, Kazak bozkırıyla ayrık; beyan yazılmadı",
+   "yol": "elle"
   },
   {
    "no": 228,
@@ -6048,9 +6048,9 @@
     "tidore-sultanligi": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 726 km, koridorda 3 başka sahipli nokta (portekiz:2, tidore-sultanligi:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Seram — Maluku, nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 240,
@@ -6215,9 +6215,9 @@
     "hive": 1
    },
    "durum_1015": "acik",
-   "sinif": "b",
-   "gerekce": "VERİ ŞÜPHESİ: ana gövdeye 791 km, koridorda 21 başka sahipli nokta (rusya:15, kacar:5, hive:1); kaynak beyanı yok — kaynakla elenmeli",
-   "yol": "kural"
+   "sinif": "c",
+   "gerekce": "Mangışlak — nokta seyrekliği: sahibin bu bölgede kesintisiz toprağı vardı, aradaki kendi noktası yok; koridordaki yabancı noktalar geometrik (KUTU-H7 değerlendirmesi, kaynakla tek tek okunmadı)",
+   "yol": "elle"
   },
   {
    "no": 247,
