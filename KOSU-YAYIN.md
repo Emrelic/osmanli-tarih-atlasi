@@ -39,7 +39,8 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
 ```
 - 🔴 **KOŞU BAYRAKLARI ZORUNLU** (yoksa koşu çıkış 0 ile "biter" ama EKSİKTİR): `MOTOR_YURUYUS=1
   MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=0 MOTOR_SUREC_ISCI=2
-  MOTOR_DEVAM=1`
+  MOTOR_DEVAM=1 MOTOR_SINIR_KISIT=1 MOTOR_COL_GIRINTI_KAPALI=1`
+  🆕 KOŞU 26 (15 Ekim 2026, Emre): `MOTOR_SINIR_KISIT=1` — D/E/F egemenlik hattı gövdenin kesin kısıtı (işgal/fiilî hat HARİÇ, Osmanlı taraflı hatlar bu sürümde HARİÇ); `MOTOR_COL_GIRINTI_KAPALI=1` — M-BC C (çöl girintisi) kapalı, Libya binmesi arttığı için.
   🔴 **`MOTOR_DEVAM=1` 11 Ekim 2026'da EKLENDİ ve niçin eksik olduğu bir derstir:**
   `uret_petek.py:511`de duruyor ve gerekçesi Emre'nin kendi cümlesi — *"hiçbir koşu
   bir daha çöpe gitmeyecek"* (M-4535, 18 Eylül). Gövde aşamasının devlet başına FAZ 1
