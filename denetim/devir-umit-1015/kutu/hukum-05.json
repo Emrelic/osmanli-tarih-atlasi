@@ -1,0 +1,1441 @@
+[
+ {
+  "anahtar": "parti-emrelic-0075/H-0012",
+  "sinif": "BAYAT",
+  "ozet": "Ibrahim Pasa seferi okunun kademe kademe ilerlemesi",
+  "kanit": "data/savaslar.js:1147 ve :1154 kademe:[...] (1831-10-31…1833-02-02); js/sefer_ok.js seferHat/kademe; commits 2027e0b2, b82744b6",
+  "dosyalar": [
+   "data/savaslar.js",
+   "js/sefer_ok.js"
+  ],
+  "oneri": "Tarayicida bir kez izlenmeli (izlenmedi).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0013",
+  "sinif": "KOSU",
+  "ozet": "Maras/Antep/Kilis/Adana/Tarsus/Erzin/Iskenderun/Azez Misir'a gecti mi teyidi",
+  "kanit": "Maras v:misir-kavalali 1833-01-01→1834-08-01 (TDV '1833, on dokuz aya yakin'), commit 39476a00a 2026-10-13 — KOSU 23 (df0a2b282, 2026-10-11) sonrasi main'e indi. Antep/Kilis v 1832-07-29→1841-02-25 (iki akademik kaynak). Erzin/Iskenderun/Azez'de Misir penceresi YOK (kaynak bulunamadi). Adana-Tarsus alindi (onceki TDV okumasi).",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/olaylar_ek4.js"
+  ],
+  "oneri": "Sonraki tam insa koşusunda gorunur; Antep TDV(1839)↔akademik(1832) celiskisi kaynak alaninda beyanli kalmali.",
+  "cevap": "Adana, Tarsus alindi (Belen sonrasi Agu 1832); Maras 1833'te ~19 ay; Antep/Kilis 1832-1841 Misir; Erzin/Iskenderun/Azez icin dogrudan taniklik bulunamadi.",
+  "kaynak": "https://islamansiklopedisi.org.tr/kahramanmaras",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0014",
+  "sinif": "KOSU",
+  "ozet": "Urfa Misir'a gecmis gorunuyor, Konya-Urfa eksklav",
+  "kanit": "Urfa v:misir-kavalali kaldirildi (yerlesimler.js Urfa: yalniz d 1517→1920 + 1919 isg), commit 39476a00a — KOSU 23 (df0a2b282, 2026-10-11) sonrasi main'e indi.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Koşu sonrasi Urfa eksklavi kalkar; tarayicida 1833 gununde bakilmali.",
+  "cevap": "Urfa alinmadi (TDV sanliurfa: yalniz 1839'da kisa sure; Kutluoglu: Kutahya kapsami disi).",
+  "kaynak": "https://islamansiklopedisi.org.tr/sanliurfa",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0015",
+  "sinif": "KOSU",
+  "ozet": "Konya'ya ilerleyiste Mersin/Silifke/Ulukisla vb. ve koridor kopuklugu",
+  "kanit": "Mersin (yerlesimler_ek27.js) ve Silifke (yerlesimler.js) v:misir-kavalali 1832-09-13→1833-06-15 eklendi (39476a00a, Gencer 2016 dolayli taniklik) — KOSU 23 (df0a2b282, 2026-10-11) sonrasi main'e indi. Ulukisla/Karapinar/Erzin/Yumurtalik/Azez/Birecik/Suruc/Cerablus penceresiz (kaynak yok).",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/yerlesimler_ek27.js",
+   "data/olaylar_ek4.js"
+  ],
+  "oneri": "Koşu sonrasi Adana-Konya koridoru tekrar olculsun; hala kopuksa Ulukisla/Eregli icin kaynak aransin (uydurulmasin).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0016",
+  "sinif": "BAYAT",
+  "ozet": "Feshane / ilk fabrikalar ek okumasi",
+  "kanit": "data/ekokuma_p75a.js:116 teknik-osmanli-ilk-fabrikalar-atolyeler; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75a.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0017",
+  "sinif": "BAYAT",
+  "ozet": "Yergogu/Ibrail dogusu yesil bosluk + Silistre isgali",
+  "kanit": "Ibrail ve Yergogu v:eflak 1829-09-14→1859-01-24 → v:romanya →1877-05-09 (yerlesimler.js, 14 Eki olculdu); koşu 18 ile yayinda. Silistre isg:rusya 1836'da bitiyor (tarihi dogru).",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0018",
+  "sinif": "BAYAT",
+  "ozet": "Lubnan Emirligi ek okumasi ve 1830'larda statusu",
+  "kanit": "devletler.js lubnan-emirligi tabi: osmanli→misir-kavalali (1832-01-01→1840-09-01)→osmanli (39476a00a, TDV lubnan); ek okuma karti yazildi (SIRADA-B-1012).",
+  "dosyalar": [
+   "data/devletler.js"
+  ],
+  "oneri": "tabi: alani haritada okunmuyor; v: kid lubnan-emirligi degismedi — gorsel ayrim istenirse ayri karar.",
+  "cevap": "1832-1840 Lubnan Misir idaresinde; Emir Besir Ibrahim Pasa'ya bagli (TDV lubnan).",
+  "kaynak": "https://islamansiklopedisi.org.tr/lubnan",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0019",
+  "sinif": "KOSU",
+  "ozet": "Han Yunus Misir istilasinda atlanmis",
+  "kanit": "Han Yunus v:misir-kavalali 1831-10-31→1841-02-25 ('gun komsudan: Gazze'), commit 39476a00a — KOSU 23 (df0a2b282, 2026-10-11) sonrasi main'e indi.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0020",
+  "sinif": "BAYAT",
+  "ozet": "Redif maddesinin haritada noktasi yok",
+  "kanit": "data/olaylar_ek7.js:156 odak_yer:[\"Istanbul\"]",
+  "dosyalar": [
+   "data/olaylar_ek7.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0021",
+  "sinif": "EMRE",
+  "ozet": "Noktasiz kronoloji maddelerinin tespiti ve odaklanmasi",
+  "kanit": "py arac/odak_olc.py (14 Eki, bu agac): olaylar cekirdeginde ODAKSIZ 18 (olaylar_p0057b 1, p0063 2, p0068b 12, p0917taraf 3); kronoloji_sinir_* dosyalarinda 112 (ortadogu 11, avrupa_bati 51, amerika 19, afrika 16…); devlet kronolojileri (devletler.js 12080) app.js dalinda odak yok. Kalanlarin cogu atlasta olmayan yer (Zistovi artik VAR).",
+  "dosyalar": [
+   "js/app.js",
+   "data/olaylar_p0068b.js",
+   "data/kronoloji_sinir_ortadogu.js"
+  ],
+  "oneri": "Karar: (1) odak kurali devlet kronolojilerine (app.js) genisletilsin mi, (2) atlas-disi yerler yeni nokta mi yoksa Istanbul/ulke kutusu mu.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0022",
+  "sinif": "VERI",
+  "ozet": "Iki topragin bos gorunmesi (Sirbistan/tabi ayri govde)",
+  "kanit": "AVRUPA-YER-1013 Belgrad/Semendire 1830 penceresini yazdi; ama sirbistan (s:) ↔ sirbistan-prensligi (s:+v:) cift kimlik sorunu olculmedi (KUTU-HUKUM-AVRUPA-YER-1013 H-0022 notu). Gorselin gunu bilinmiyor.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/devletler.js"
+  ],
+  "oneri": "Koşu sonrasi gorselin bolgesinde sahipsiz/cift govde olculsun; sirbistan s: pencerelerinin tabi donemle (v:) tutarliligi denetlensin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0023",
+  "sinif": "BAYAT",
+  "ozet": "Silistre bosaltmasina tahliye oku",
+  "kanit": "data/seferler_sefer_ok_0075.js:41-48 p0075-rus-silistre-tahliye-1836, kesinlik alani sematik oldugunu soyluyor; karar 'tut' (KUTU-HUKUM-MISIR-KUCUK-1013).",
+  "dosyalar": [
+   "data/seferler_sefer_ok_0075.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0024",
+  "sinif": "MOTOR",
+  "ozet": "Katmanlarin ust uste binmesini onleyen kod",
+  "kanit": "GOVDE-CAKISMA-0079 yamasi motorda (uret_petek.py), ama 1837 penceresinde 20 hucre cakisik, 14'u 'kapama-disi' sinifi (SIRADA-B-1012 olcumu, koşu 23 govdesi).",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "Kapama-disi cakisma icin baskasinin_petegini_cikar yamasi denetim diff'i olarak yazilip sonraki tam insaya katilsin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0025",
+  "sinif": "ARASTIRMA",
+  "ozet": "Kutahya'da verilen valiliklere Urfa/Maras/Antep/Kilis/Yumurtalik/Erzin/Payas/Dortyol dahil mi",
+  "kanit": "Halep gunu 1832-07-15'e cekildi (kronoloji_misir.js, 39476a00a); Urfa v: kaldirildi.",
+  "dosyalar": [
+   "data/kronoloji_misir.js",
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "Kutahya (Mayis 1833): Sam + Halep eyaletleri Mehmed Ali'ye, Adana muhassilligi Ibrahim Pasa'ya. Halep eyaleti icindeki Kilis, Antep, Payas, Iskenderun, Erzin, Dortyol, Yumurtalik kapsam ICINDE (dolayli); Urfa valiligi kapsam DISI; Maras 1833'te ~19 ay isgal.",
+  "kaynak": "https://islamansiklopedisi.org.tr/kutahya-antlasmasi",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0026",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75b.js:183,196 sebep-sonuc-p75b-soci-tuapse-1838 · tartisma-p75b-cerkes-surgunu-1864; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75b.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0027",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75a.js:133,150 teknik-klasik-burokrasi-nisanci-kalem-defterhane · teknik-divandan-nezaretlere-maliye-nezareti; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75a.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0028",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75a.js:169 teknik-meclis-i-vala-yi-ahkam-i-adliyye; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75a.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0029",
+  "sinif": "MOTOR",
+  "ozet": "Misir idaresi acik kirmizisini bir ton acmak",
+  "kanit": "Misir tabisi genel tabi/gevsek tonu kullaniyor (uret_petek.py:7366-7407 statu tonu; renkler.py'de misir-kavalali BOYALAR girisi yok). Motor tuzu; H-0010 'asi' diff'i (denetim/MISIR-ASI-MOTOR-1013.diff) ile ayni yerde.",
+  "dosyalar": [
+   "arac/uret_petek.py",
+   "arac/renkler.py"
+  ],
+  "oneri": "H-0010 asi tonu ile birlikte tek ton karari + sonraki tam insa.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0030",
+  "sinif": "BAYAT",
+  "ozet": "Balta Limani ek okumasi",
+  "kanit": "data/ekokuma_p75c.js:40 balta-limani-getirdikleri-goturdukleri-1838; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75c.js"
+  ],
+  "oneri": "Yan kalem: eski balta-limani kartindaki 'ithalatta %5 (arti %2)' ifadesi TDV (%3+%2=%5) ile cifte sayim gibi — kart metni duzeltilsin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0031",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75b.js:54 savas-p75b-nizip-1839; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75b.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0032",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75b.js:74,171 sebep-sonuc-p75b-donanma-iskenderiye-1839 · tartisma-p75b-donanma-yakilmaya-musait-mi; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75b.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0033",
+  "sinif": "BAYAT",
+  "ozet": "Deniz seferi oklari karayi kesmesin",
+  "kanit": "data/savaslar.js rota: alani (19 kayit), data/seferler_sefer_ok_0075.js:39 Mora→Girit rotasi; js/sefer_ok.js:21; A* deniz rotasi (546→3 km kara kesisi).",
+  "dosyalar": [
+   "data/savaslar.js",
+   "js/sefer_ok.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0034",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75b.js:87,97 kimdir-p75b-ahmed-fevzi-pasa · tartisma-p75b-husrev-donanma-rusya-vehmi; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75b.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0035",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75c.js:52 tanzimat-fermani-maddeleri-ve-etkileri-1839; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75c.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0036",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75a.js:186 teknik-kaime-kagit-para; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75a.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0037",
+  "sinif": "BAYAT",
+  "ozet": "1841 Misir tahliyesine tahliye oku",
+  "kanit": "data/seferler_sefer_ok_0075.js:23/50 p0075-misir-suriye-cukurova-tahliye-1841; madde data/olaylar_ek4.js:276 odak_yer Halep·Gazze·Adana.",
+  "dosyalar": [
+   "data/seferler_sefer_ok_0075.js",
+   "data/olaylar_ek4.js"
+  ],
+  "oneri": "Tarayicida bir kez izlenmeli.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0038",
+  "sinif": "BAYAT",
+  "ozet": "Bogazlar Sozlesmesi ek okumasi",
+  "kanit": "data/ekokuma_p75c.js:64 bogazlar-kapali-mi-acik-mi-1841; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75c.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0039",
+  "sinif": "BAYAT",
+  "ozet": "Erzurum-Sattularap kutusunda gosterim bozuklugu",
+  "kanit": "data/hukuki_sinirlar.js:163 ii-erzurum-sattularap-1847, :215 dolgu:false (commit c43bc80a).",
+  "dosyalar": [
+   "data/hukuki_sinirlar.js"
+  ],
+  "oneri": "Alttaki Osmanli×Kacar govde cakismasi ayri (H-0024 sinifi, MOTOR).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0040",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75c.js:76 yemen-elden-cikis-geri-donus-ve-birinci-dunya-savasi; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75c.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0041",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75c.js:88 avrupa-1848-ihtilalleri-osmanli-nerede-durdu; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75c.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0042",
+  "sinif": "BAYAT",
+  "ozet": "Harfus ailesi ek okumasi",
+  "kanit": "data/ekokuma_p75c.js:100 harfus-ailesi-balebek-yerel-hakimiyet; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75c.js",
+   "data/olaylar_ek2.js"
+  ],
+  "oneri": "Yan kalem (KRONO): olaylar_ek2 1850 maddesi 'yerel hakimiyetin sonu' diyor; TDV 1850'yi Ba'lebek'in kaza yapildigi yil olarak verir — madde metni duzeltilsin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0043",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75a.js:209,224,242 Bogaz ulasimi · Galata Koprusu · Tunel; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75a.js"
+  ],
+  "oneri": "Galata Koprusu/Tunel icin kronoloji maddesi acilmasi ayri karar (tarihler tartismali).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0044",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75b.js:129,141 tartisma-p75b-kirim-ittifak-kultur-borc · kimdir-p75b-florence-nightingale; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75b.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0045",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75b.js:151 savas-p75b-kirim-cepheleri; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75b.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0046",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75b.js:109,171 savas-p75b-sinop-1853 · tartisma-p75b-donanma-yakilmaya-musait-mi; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75b.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0047",
+  "sinif": "BAYAT",
+  "ozet": "Ek okuma istegi",
+  "kanit": "data/ekokuma_p75a.js:259 teknik-klasik-donemde-dis-borc-var-miydi; ek okuma karti canli (KUTU-HUKUM-YENI-B-1012 / SIRADA-B-1012 delili, commit 874c8a31)",
+  "dosyalar": [
+   "data/ekokuma_p75a.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0048",
+  "sinif": "VERI",
+  "ozet": "Sisam'in yonetimi (ozerk/vasal) ve gosterim bozuklugu",
+  "kanit": "yerlesimler.js Sisam: v 1832-12-10→1912-11-11 kid BOS (14 Eki olculdu) ⇒ genel tabi rengi. Hazir yama denetim/SISAM-KUNYE-1013.diff (samos-prensligi kunyesi f 1832-12-10, harita:, renkler.py BOYALAR girisi, v:kid) main'e GIRMEDI (renkler.py tuz). Ikinci gorseldeki capraz cizginin kaynagi bulunamadi.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/devletler.js",
+   "arac/renkler.py"
+  ],
+  "oneri": "SISAM-KUNYE-1013.diff sonraki tam insa ile uygulansin; capraz cizgi icin gorunur tarayicida katman sorgusu.",
+  "cevap": "Sisam 1832-12-10'dan 1912'ye ozerk, vasal prenslik (TDV sisam) — renk dogru.",
+  "kaynak": "https://islamansiklopedisi.org.tr/sisam",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0009",
+  "sinif": "EMRE",
+  "ozet": "Her padisahin olum maddesine 'nasil bilirdiniz' ovgu/yergi karti",
+  "kanit": "ekokuma*.js'de 'nasil-bilirdiniz' 1 kart (ornek abdulaziz); 27 kimlik ≈82 kart kapsam karari bekliyor.",
+  "dosyalar": [
+   "data/ekokuma_p76b.js"
+  ],
+  "oneri": "Soru: 27 padisahin hepsine mi, yalniz son donem padisahlarina mi yazilsin?",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0022",
+  "sinif": "VERI",
+  "ozet": "Hicaz-Asir'da igne gibi sivri harita cikintisi",
+  "kanit": "Pencere 40.46–45.05E · 18.27–21.14N'de 0 yerlesim noktasi (SIRADA-B-1012 m10); sivri petek koselerinin sebebi noktasizlik.",
+  "dosyalar": [
+   "data/yerlesimler_seyrek.js"
+  ],
+  "oneri": "Kaynakli Asir/ic Hicaz noktasi (TDV asir, bise, tarabe) ya da beyanli __BOSLUK__; uydurma koordinat yok.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0036",
+  "sinif": "VERI",
+  "ozet": "Kars'in dusmesinde Rus ilerleyisi oku ve Kars eksklavi",
+  "kanit": "Kars s:rusya 1877-11-18 (d 1534→1877-11-18), Ardahan s:rusya 1877-05-17; Kagizman/Sarikamis/Digor icin 1877 isg: yok; sefer oku yok (yerlesimler.js, 14 Eki).",
+  "dosyalar": [
+   "data/yerlesimler*.js",
+   "data/savaslar.js"
+  ],
+  "oneri": "93 Harbi Kafkas cephesi icin kaynakli isg: gunleri (TDV doksanuc-harbi / kars) + kademe'li Rus sefer oku; kaynak bulunana dek yazilmasin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0037",
+  "sinif": "KOSU",
+  "ozet": "93 Harbinde Eflak-Bogdan Rus tarafinda; Osmanli rengi anlamsiz",
+  "kanit": "Bukres/Ibrail/Yergogu/Turnu Severin: v:romanya →1877-05-09, s:romanya 1877-05-09'dan, isg:rusya 1877-04-24→1878-01-31 (yerlesimler.js, 14 Eki). Romanya 1877 taramasi AVRUPA-YER-1013 (271027bc1, 2026-10-13) — KOSU 23 (df0a2b282, 2026-10-11) sonrasi main'e indi.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Koşu sonrasi 1877-06 gununde bakilmali; Ismail/Kahul/Bolgrad uc penceresi ayrica olculsun.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0038",
+  "sinif": "KOSU",
+  "ozet": "1878 Tuna haritasinda dort tutarsizlik",
+  "kanit": "Sofya isg:rusya 1878-01-04→07-13 + v:prenslik; Plevne/Nigbolu s:rusya 1877-07-16→1878-07-13; Romen noktalar s:romanya + isg:rusya (271027bc1 sonrasi). Romanya taramasi koşu 23 sonrasi.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Koşu sonrasi 1878-01-04 gununde dort sik gorsel olarak teyit edilsin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0043",
+  "sinif": "BAYAT",
+  "ozet": "Bosna-Hersek isgali: Bosna Brod, Bihac vb. ve Yenipazar",
+  "kanit": "Bosna Brod'u isg:avusturya 1878-07-29→1908-10-05 (yerlesimler_ek29.js); Dubicasi/Novi/Krupa ayni (BERLIN diff 5 Eki, koşu 23'e girdi). Udbina/Cetin/Jasenovac zaten Habsburg toprak (1699+). Yenipazar Sancagi 1908'e dek Osmanli idaresinde (yalniz Avusturya garnizonu) — Osmanli rengi dogru.",
+  "dosyalar": [
+   "data/yerlesimler_ek29.js"
+  ],
+  "oneri": "Yenipazar icin istenirse 'garnizon' beyani ek okumaya; veri degismesin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0044",
+  "sinif": "KOSU",
+  "ozet": "Berlin sonrasi Bulgaristan sinirlari",
+  "kanit": "Lofca, Islimye (v:sarki-rumeli), Zistovi noktalari AVRUPA-YER-1013 (271027bc1) ile yazildi — KOSU 23 (df0a2b282, 2026-10-11) sonrasi main'e indi. Burgaz ve Haskoy hala YOK (kaynak/koordinat).",
+  "dosyalar": [
+   "data/yerlesimler_ek29.js"
+  ],
+  "oneri": "Koşu sonrasi teyit; Burgaz/Haskoy kaynakli koordinatla eklensin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0045",
+  "sinif": "VERI",
+  "ozet": "Berlin sonrasi Yunanistan haritasi",
+  "kanit": "Izdin d:→1832 s:yunanistan uygulandi; Volos (Golos), Alasonya, Kalabaka, Kardice noktalari YOK (yq ad taramasi 0; BERLIN-BITIR C sinifi).",
+  "dosyalar": [
+   "data/yerlesimler_ek29.js"
+  ],
+  "oneri": "Tesalya 1881 devri (aslinda Berlin degil 1881 Istanbul Sozlesmesi) icin dort nokta kaynakli eklensin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0046",
+  "sinif": "KOSU",
+  "ozet": "Berlin sonrasi Sirbistan",
+  "kanit": "Ivranye, Leskofca, Kursunlu, Urkup noktalari yerlesimler_ek29.js'e yazildi (271027bc1, 2026-10-13; s:sirbistan-prensligi 1878-07-13) — KOSU 23 (df0a2b282, 2026-10-11) sonrasi main'e indi.",
+  "dosyalar": [
+   "data/yerlesimler_ek29.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0047",
+  "sinif": "ARASTIRMA",
+  "ozet": "Berlin sonrasi Romanya (Dobruca sehirleri)",
+  "kanit": "Tulca, Hirsova, Mangalya noktalari YOK; 1281-1419 sahibi kaynakta bulunamadi (Dobruca Despotlugu kunyesi yok); Kostence/Babadag s:romanya 1878 var.",
+  "dosyalar": [
+   "data/yerlesimler_ek29.js"
+  ],
+  "oneri": "Dobruca Despotlugu (Dobrotic) kunyesi ve 1281-1419 sahipligi icin kaynak; sonra uc nokta.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0048",
+  "sinif": "VERI",
+  "ozet": "Berlin sonrasi Karadag",
+  "kanit": "Bar (Antivari) yazildi (yerlesimler_ek29.js, s:karadag 1878-07-13; koşu bekliyor). Niksic, Ulgun, Kolasin YOK (sahip/yil kaynaksiz).",
+  "dosyalar": [
+   "data/yerlesimler_ek29.js"
+  ],
+  "oneri": "Niksic/Ulgun/Kolasin icin kaynakli zincir (TDV ulgun, niksic) arastirilip eklensin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0049",
+  "sinif": "BAYAT",
+  "ozet": "Nigbolu karsisindaki sinir",
+  "kanit": "Nigbolu v:bulgaristan-prensligi 1878-07-13→1908-10-05 (yerlesimler.js); Plevne/Ihtiman ayni (BERLIN A5, 5 Eki, koşu 23'e girdi).",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0050",
+  "sinif": "VERI",
+  "ozet": "Silistre-Kostence-Varna Romanya-Bulgaristan siniri",
+  "kanit": "Silistre devri 1913-08-10 (A8); Haciogluparzarcigi (Dobric) var. Balcik, Tutrakan, Mangalya YOK.",
+  "dosyalar": [
+   "data/yerlesimler_ek29.js"
+  ],
+  "oneri": "Uc nokta kaynakli eklensin (Balcik/Tutrakan 1913-1940 Romanya).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0052",
+  "sinif": "VERI",
+  "ozet": "Balkan ulkelerinin Osmanli anlatisi ek okumalari",
+  "kanit": "data/ekokuma_bakis.js: bakis-sirp, bakis-bulgar, bakis-yunan, bakis-arnavut, bakis-romen, bakis-hirvat, bakis-bosnak VAR (9 ulkenin 6'si + Yunan); Karadag, Kosova, Makedonya YOK.",
+  "dosyalar": [
+   "data/ekokuma_bakis.js"
+  ],
+  "oneri": "Uc kart (bakis-karadag, bakis-kosova, bakis-makedon) akademik kaynakla yazilsin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0053",
+  "sinif": "BAYAT",
+  "ozet": "Nis ve Sofya renkleri",
+  "kanit": "Sofya isg:rusya 1878-01-04→1878-07-13, v:bulgaristan-prensligi 1878-07-13'ten (yerlesimler.js; BERLIN A4, koşu 23'e girdi). Nis zaten dogru.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0054",
+  "sinif": "VERI",
+  "ozet": "Ayastefanos'a ilerleyen Rus okunun baslangici",
+  "kanit": "data/savaslar.js:1247 'Rus ordusunun Yesilkoy'e gelisi (1878)' hala iki noktali Edirne→Yesilkoy, f 1878-01-31; degismedi.",
+  "dosyalar": [
+   "data/savaslar.js"
+  ],
+  "oneri": "Tuna gecisi (Zimnica) → Plevne (1877-12-10) → Sofya (1878-01-04) → Edirne (1878-01-20) → Yesilkoy kademe'li tek ok; istasyon gunleri mevcut kronoloji maddelerinden.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0057",
+  "sinif": "TEKRAR",
+  "ozet": "Berlin sonrasi Romanya/Bulgaristan/Sirbistan/Bosna haritasi",
+  "kanit": "Bosna kismi H-0043 (A3) ile, Sirbistan H-0046, Bulgaristan H-0044.",
+  "dosyalar": [],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": "parti-emrelic-0076/H-0043"
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0060",
+  "sinif": "TEKRAR",
+  "ozet": "Sirbistan Kralligi topraklari",
+  "kanit": "H-0046 ile ayni (dort nokta 271027bc1'de yazildi).",
+  "dosyalar": [],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": "parti-emrelic-0076/H-0046"
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0064",
+  "sinif": "ARASTIRMA",
+  "ozet": "Misir'da Osmanli renginde ufak yerler",
+  "kanit": "Siva v:misir-kavalali + isg ingiltere duzeldi (yerlesimler_p0043libya.js). Kalan: Cagbub (yerlesimler_afrika.js) d: Osmanli 1856-01-01→1912-10-18 tek basina, petegi Bati Colu'ne uzaniyor.",
+  "dosyalar": [
+   "data/yerlesimler_afrika.js"
+  ],
+  "oneri": "Cagbub 1856-1912 Osmanli mi Senusi zaviyesi mi TDV (cagbub/senusiyye) ile teyit; Senusi ise v:/beyan.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0065",
+  "sinif": "VERI",
+  "ozet": "Darfur Sultanligi merkezindeki mavi enklav",
+  "kanit": "Darfur noktasi (yerlesimler.js, 13.5N 24.0E) s:darfur 1695→1916-11-06 kesintisiz; komsulari Kebkabiye/Cebel Merre/Zalinci/Tine v:misir 1874-11-02→1883-12-23, mehdi →1898-09-02, darfur →1916 (yerlesimler_h2_afrika.js).",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Darfur noktasina komsu zinciri yazilsin; once komsu gunlerinin kaynagi (TDV darfur yalniz yil veriyor) — kaynak yoksa yil hassasiyetine (1874/1883/1898-01-01) inilsin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0066",
+  "sinif": "EMRE",
+  "ozet": "1800'den itibaren topraklarin 'kapanin elinde' kalmasi tartisma ek okumasi",
+  "kanit": "ekokuma*.js'de bu konuda kart yok (grep kapan/cozulme: yalniz yeniceri-ilga-cozulme-tartismasi).",
+  "dosyalar": [],
+  "oneri": "Soru: 7 bolge (Cezayir, Tunus, Misir, Balkanlar, Kafkaslar, Kibris, Girit) icin tek tartisma karti mi, bolge bolge ayri kart mi?",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0068",
+  "sinif": "TEKRAR",
+  "ozet": "Darfur mavi, Nuhud kirmizi",
+  "kanit": "Darfur kismi H-0065 ile ayni kok; Nuhud v:misir →1885-01-26 sonra mehdi (yerlesimler_afrika.js) — Hartum'un dusus gunu, Nuhud'un kendi gunu kaynakta yok.",
+  "dosyalar": [
+   "data/yerlesimler_afrika.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": "parti-emrelic-0076/H-0065"
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0069",
+  "sinif": "MOTOR",
+  "ozet": "Renklerin ust uste binmesi / bosluk",
+  "kanit": "1884 Bulgaristan penceresinde cakisik %4,98 → %1,31 (sirbistan×vassal 348 hucre), hepsi kapama-disi (SIRADA-B-1012, koşu 23 govdesi).",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "Kapama-disi cakisma yamasi + govde×govde cakisma degismezi (denetle.py) onerisi.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0071",
+  "sinif": "TEKRAR",
+  "ozet": "Garip bozuk harita yapisi (Hicaz-Asir igne)",
+  "kanit": "Ayni bolge/sinif H-0022: pencere 41.68–46.90E · 18.72–21.27N'de 0 nokta.",
+  "dosyalar": [],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": "parti-emrelic-0076/H-0022"
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0072",
+  "sinif": "MOTOR",
+  "ozet": "Hadramut kiyisi silik, deniz renginde",
+  "kanit": "kesiri-sultanligi×kuayti-sultanligi cakismasi 295 hucre (%2,76), 249'u kapama-disi; GOVDE-CAKISMA-0079 kapatmadi (SIRADA-B-1012, koşu 23).",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "Kapama-disi yama; ya da iki kunyenin s:/v: pencereleri ve noktalarinin cakisip cakismadigi veride kontrol.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0073",
+  "sinif": "TEKRAR",
+  "ozet": "Deniz tarafindan yutulmus gibi",
+  "kanit": "H-0072 ile ayni gun, ayni cift.",
+  "dosyalar": [],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": "parti-emrelic-0076/H-0072"
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0075",
+  "sinif": "VERI",
+  "ozet": "Sivri harita bolumleri — motor mu yuruyus mu",
+  "kanit": "Sivrilik Voronoi kenari (nokta seyrekligi), motor degil. Dogubayazit noktasi 8584cfce ile eklendi ve koşu 23'e girdi; pencere 3 nokta; ic aci yeniden OLCULMEDI.",
+  "dosyalar": [
+   "data/yerlesimler*.js"
+  ],
+  "oneri": "Koşu 23 govdesinde ic aci olculsun; hala sivriyse Agri/Diyadin cevresine kaynakli nokta.",
+  "cevap": "Sivrilik Voronoi petek kenaridir; surtunmeli yuruyus hesabi degildir.",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0080",
+  "sinif": "ARASTIRMA",
+  "ozet": "Masavva isgalinde Sevakin/Sinkat/Hayya/Derudeb/Muhammed Kol Britanya'ya gecmis, madde yok",
+  "kanit": "Sinkat, Derudeb vb. d: Osmanli →1885-02-05, s:ingiltere 1885-02-05→1899 (yerlesimler_afrika.js, _h2_afrika.js). 1885-02-05 maddesi (olaylar_ek6.js:127) yalniz Italyan isgalini anlatiyor; Ingiliz devri yok.",
+  "dosyalar": [
+   "data/yerlesimler_afrika.js",
+   "data/yerlesimler_h2_afrika.js",
+   "data/olaylar_ek6.js"
+  ],
+  "oneri": "Ic Kizildeniz noktalarinin 1884-1891'de Mehdici (Osman Digna) elinde olup olmadigi kaynakla arastirilsin; teyit olursa s:mehdi penceresi + madde; Ingiliz devri yalniz Sevakin icin.",
+  "cevap": "Genel bilgi (dogrulanmadi): Sinkat ve Tokar 1884 basinda Osman Digna'ya dustu; Ingilizler yalniz Sevakin'i tuttu, ic bolge 1891'e dek Mehdici.",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0081",
+  "sinif": "VERI",
+  "ozet": "Dogu Rumeli topraklari dogru mu",
+  "kanit": "Islimye v:sarki-rumeli 1878-07-13→1885-09-18 yazildi (271027bc1); Burgaz ve Haskoy noktalari hala YOK (Filibe, Eski Zagra, Tatarpazarcigi var).",
+  "dosyalar": [
+   "data/yerlesimler_ek29.js"
+  ],
+  "oneri": "Burgaz ve Haskoy dis kaynakli koordinatla, v:sarki-rumeli penceresiyle eklensin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0082",
+  "sinif": "VERI",
+  "ozet": "1886 Tunus-Trablusgarp duzenlemesine nokta",
+  "kanit": "Ras Ecdir noktasi YOK; kronoloji_sinir_ortadogu.js:11 (1886-01-01) yer_id bos; 1886 hat kaydi yok. odak_olc: kronoloji_sinir_ortadogu 11/12 odaksiz.",
+  "dosyalar": [
+   "data/kronoloji_sinir_ortadogu.js",
+   "data/yerlesimler_afrika.js"
+  ],
+  "oneri": "Ras Ecdir dis kaynakli koordinatla eklensin ve maddeye yer_id verilsin; H-0087 ile tek is.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0087",
+  "sinif": "VERI",
+  "ozet": "1892 duzenlemesinin D sinir karsiligi",
+  "kanit": "1886/1892 icin d_sinirlar* kaydi yok; en eski hat d1910-libya-tunus-osmanli. kronoloji_sinir_ortadogu.js:12 yer_id bos.",
+  "dosyalar": [
+   "data/d_sinirlar_ortadogu.js",
+   "data/kronoloji_sinir_ortadogu.js"
+  ],
+  "oneri": "1910 geometrisini kopyalamadan 'kategori:D-YOK, hat:null, kutu' kalibiyla beyanli kayit (d_sinirlar_amerika.js emsali).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0093",
+  "sinif": "VERI",
+  "ozet": "Ince kirmizi serit (Volos korfezi)",
+  "kanit": "1897-05-17 penceresinde 1 nokta (Iskiathos); Volos noktasi YOK.",
+  "dosyalar": [
+   "data/yerlesimler_ek29.js"
+  ],
+  "oneri": "Volos (Golos) kaynakli eklensin (H-0045 ile ortak).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0095",
+  "sinif": "BAYAT",
+  "ozet": "Bosna'da Osmanli kirmizisi yerler",
+  "kanit": "Banaluka, Bihac, Bosna Dubicasi, Novi, Brod, Krupa isg:avusturya 1878→1908 (yerlesimler_ek29.js:272,279,295,606; koşu 23'e girdi).",
+  "dosyalar": [
+   "data/yerlesimler_ek29.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0103",
+  "sinif": "VERI",
+  "ozet": "Refah-Taba hatti",
+  "kanit": "d_sinirlar_ortadogu.js d1906-filistin-misir-hidivlik cizili; Taba ve Refah noktasi YOK (ad taramasi 0).",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Taba ve Refah dis kaynakli koordinatla eklensin (atlas hattindan alinmaz).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0106",
+  "sinif": "TEKRAR",
+  "ozet": "Bagimsiz Bulgaristan topraklari + Osmanli tepkisi",
+  "kanit": "Toprak yuzu H-0044; tepki yuzu p76g-bagimsizlik-1908-osmanli-tepkisi karti mevcut.",
+  "dosyalar": [],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": "parti-emrelic-0076/H-0044"
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0108",
+  "sinif": "TEKRAR",
+  "ozet": "Bosna-Hersek, Bulgaristan, Sirbistan topraklari bu devirde",
+  "kanit": "A1+A3+A5 uygulandi; Sirbistan noktalari H-0046 (271027bc1).",
+  "dosyalar": [],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": "parti-emrelic-0076/H-0046"
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0116",
+  "sinif": "EMRE",
+  "ozet": "Bu cizgi nedir, neden gitmiyor",
+  "kanit": "data/hukuki_sinirlar.js:312 karlofca-bosna-sava-1699 iki noktali duz kiris (Brod→Bosut), f 1699 t 1918-11-11; dolgu:false (:352) ama hat duruyor.",
+  "dosyalar": [
+   "data/hukuki_sinirlar.js"
+  ],
+  "oneri": "Secenek: (1) hatti kaldir · (2) Sava geometrisine oturt · (3) t'yi 1718/1739'a kisalt + lejant. Oneri: (3)+(2).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0127",
+  "sinif": "ARASTIRMA",
+  "ozet": "Nikarya ek okumasi",
+  "kanit": "Nikarya (yerlesimler.js) isg:yunanistan 1912-07-17→1923; kronoloji olaylar_ek6 'bagimsizlik ilani' (5 aylik serbest devlet) — celiski; TDV'de madde yok.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/olaylar_ek6.js"
+  ],
+  "oneri": "Akademik kaynak (Ikaria Serbest Devleti 1912) bulununca kart + veri katmani hizalansin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0134",
+  "sinif": "ARASTIRMA",
+  "ozet": "Arnavutluk kurulurken Iskodra haric mi",
+  "kanit": "Iskodra d: Osmanli →1913-04-23, s:arnavutluk-bagimsiz 1913-04-23'ten (yerlesimler.js).",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Karadag'in 1913-04-23→05-14 gecici idaresi icin kaynakli gun bulunursa s:karadag penceresi.",
+  "cevap": "Haric degil: Iskodra 1913'te Arnavutluk'a dahil edildi (TDV iskodra); yalniz Karadag'in ~3 haftalik isgali veride yok.",
+  "kaynak": "https://islamansiklopedisi.org.tr/iskodra",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0136",
+  "sinif": "KOSU",
+  "ozet": "Kirklareli iki katman, Tekirdag Edirne'den once Bulgar",
+  "kanit": "Tekirdag s:→isg:bulgaristan-kralligi 1912-11-01→1913-07-21, d: Osmanli kesintisiz (yerlesimler.js); B1 commit 31d686121 (2026-10-13) — KOSU 23 (df0a2b282, 2026-10-11) sonrasi main'e indi. TDV tekirdag isgali teyit ediyor ('sekiz ay').",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Koşu sonrasi 1913-03-06 gununde teyit; 'adim adim' istegi H-0151.",
+  "cevap": "",
+  "kaynak": "https://islamansiklopedisi.org.tr/tekirdag",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0138",
+  "sinif": "KOSU",
+  "ozet": "Edirne cevresi isgal/ilhak tutarsizligi",
+  "kanit": "B1: 14 nokta s:bulgaristan → isg:bulgaristan-kralligi (31d686121, 2026-10-13) — KOSU 23 (df0a2b282, 2026-10-11) sonrasi main'e indi.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/yerlesimler_ek24.js",
+   "data/yerlesimler_ek29.js"
+  ],
+  "oneri": "Kalan Dimetoka/Cirmen/Kumciftligi H-0146'da.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0143",
+  "sinif": "TEKRAR",
+  "ozet": "Midye-Enez hatti dogusu",
+  "kanit": "B1 ile cozuldu (koşu bekliyor).",
+  "dosyalar": [],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": "parti-emrelic-0076/H-0138"
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0145",
+  "sinif": "KOSU",
+  "ozet": "I. Balkan Savasi'nda Sirbistan'in aldiklari isgal olarak",
+  "kanit": "B2: Uskup vb. 12 nokta isg:sirbistan-kralligi →1913-05-30, s: 1913-05-30'dan (Uskup: isg 1912-10-26→1913-05-30, yerlesimler.js); AVRUPA-YER-1013 271027bc1 — KOSU 23 (df0a2b282, 2026-10-11) sonrasi main'e indi.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0146",
+  "sinif": "ARASTIRMA",
+  "ozet": "Edirne ile birlikte alinan sehirler (Cirmen, Dimetoka, Kumciftligi)",
+  "kanit": "Dimetoka/Cirmen/Kumciftligi s:bulgaristan-kralligi 1913-05-30→1920-05 (yerlesimler.js, _ek24.js; 14 Eki). Edirne geri alis TDV 20 Temmuz ↔ atlas 21 Temmuz 1913.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/yerlesimler_ek24.js"
+  ],
+  "oneri": "1913 Istanbul Antlasmasi (29 Eyl 1913) ile Dimetoka'nin Osmanli'ya kalip kalmadigi kaynakla teyit edilsin; teyitte Dimetoka s:→isg:+d: ve 1913-07 geri alis penceresi.",
+  "cevap": "TDV dimetoka yalniz 'Bulgar isgalinden sonra' ve '1922'de Yunanistan'a baglandi' diyor (atlas 1920-05-27) — gun vermiyor.",
+  "kaynak": "https://islamansiklopedisi.org.tr/dimetoka",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0148",
+  "sinif": "EMRE",
+  "ozet": "Karesel bozukluk (Misir-Sudan 22. paralel kutusu)",
+  "kanit": "data/hukuki_sinirlar.js:127 misir-sudan-22-paralel-1899 kutusunda dolgu acik (dolgu alani yok); opak dikdortgen kosegenden bolunuyor.",
+  "dosyalar": [
+   "data/hukuki_sinirlar.js"
+  ],
+  "oneri": "Secenek: (a) dolgu:false · (b) kutuyu 25E/kiyiya oturt (kaynak ister) · (c) poligon. Oneri: (b).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0151",
+  "sinif": "EMRE",
+  "ozet": "Balkan Savaslarinda sehirlerin adim adim kaybi",
+  "kanit": "B1 ve B2 veride (koşu bekliyor); adim tanecigi tanimli degil.",
+  "dosyalar": [],
+  "oneri": "Soru: hangi sehirler/kac adim (oneri: ilk 12 haftalik harekat icin 20-25 sehir, kaynakli gun tablosu).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0002",
+  "sinif": "EMRE",
+  "ozet": "Acilis yukleme animasyonu (donen dunya + silüetler)",
+  "kanit": "Acilis perdesi canli (css/style.css atlas-hazir, js/app.js); data/acilis_siluet.js index.html'e bagli.",
+  "dosyalar": [
+   "js/app.js",
+   "css/style.css",
+   "data/acilis_siluet.js"
+  ],
+  "oneri": "Karar: (1) 'hareketi azalt' tercihine saygi mi, yok sayma mi · (2) Roma/Cengiz/Iskender/Islam silüetleri icin dis kaynak.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0003",
+  "sinif": "EMRE",
+  "ozet": "Yunanistan-Turkiye siniri bozuk",
+  "kanit": "1922 hatti d1922-mudanya-meric D sinifi; hukuki gorunumde yalniz E/F yaslaniyor (js/d_katman.js _D_YASLA_SINIF_HUKUKI).",
+  "dosyalar": [
+   "js/d_katman.js"
+  ],
+  "oneri": "Soru: o gun E hatti yoksa D de hukuki gorunumde yaslansin mi?",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0004",
+  "sinif": "ARASTIRMA",
+  "ozet": "Basra cephesi: Kurne/Basra dogusunda kirmizi serit, bolge birden mi dustu",
+  "kanit": "Kirmizi serit koşu 15'te gitti. Kurne artik 1914-12-09 (yerlesimler.js + olaylar_ek5.js:484), Fav 1914-11-06; Nasiriye ve Semave hala Basra gunu 1914-11-22 (toptan).",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Nasiriye (genel bilgi: Temmuz 1915) ve Semave icin kaynakli gun bulunup s: kaydirilsin + madde.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0005",
+  "sinif": "MOTOR",
+  "ozet": "Misir ortasindaki bosluk / Sina kismen Ingiliz",
+  "kanit": "Kiyi Britanya gorunumu duzeldi (YAMA A 2e656b0d) ve Sina guneyi isg eklendi; ortadaki bosluk isgal taramasinin isg noktalarinin peteginden kurulmasindan (arac/uret_devirler.py isgalleri_uret, M1 tavani) — yama inmedi.",
+  "dosyalar": [
+   "arac/uret_devirler.py"
+  ],
+  "oneri": "M1 tarama tavani yamasi.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0013",
+  "sinif": "VERI",
+  "ozet": "Nigbolu 1915 gosterim bozuklugu",
+  "kanit": "Cakisma 14→3 km² (koşu 23); Romen kiyisinda (24.2-25.8E) nokta yok — Turnu Magurele/Zimnicea YOK.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Turnu Magurele ve Zimnicea kaynakli nokta (Eflak/Romanya zinciri) eklensin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0014",
+  "sinif": "EMRE",
+  "ozet": "Iran-Rusya kesikli cizgiye renk oturmuyor",
+  "kanit": "Hat d1923-sscb-ir-DEGISTI-aras-talis C sinifi; hicbir gorunumde yaslanmiyor (js/d_katman.js).",
+  "dosyalar": [
+   "js/d_katman.js",
+   "data/d_sinirlar_komsu.js"
+  ],
+  "oneri": "Secenek: (a) kaynakla C→E (1921 Sovyet-Iran antlasmasi) · (b) C sinifina yaslama.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0015",
+  "sinif": "ARAYUZ",
+  "ozet": "Turkiye-Iran sinirinda iki cizgi",
+  "kanit": "Ayni yerde iki D kaydi yok; ikinci cizgi buyuk olasilikla yaslama oncesi ham govde kenari (yaslama 40-65 sn). Gorunur tarayicida dogrulanmadi.",
+  "dosyalar": [
+   "js/d_katman.js"
+  ],
+  "oneri": "1923-09-01'de gorunur tarayicida bekleyerek olc; dogrulanirsa yaslamayi govde cizilmeden once uygula / ham kenari gizle.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0017",
+  "sinif": "TEKRAR",
+  "ozet": "Misir'da bosluk/Britanya/tarali standardizasyonu",
+  "kanit": "Kiyi duzeldi; bosluk = M1 tarama tavani (H-0005).",
+  "dosyalar": [],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": "parti-emrelic-0077/H-0005"
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0025",
+  "sinif": "BAYAT",
+  "ozet": "Trabzon Rize/Bayburt'tan once mi alindi",
+  "kanit": "Rize s:rusya 1916-03-08, Trabzon 1916-04-18, Bayburt 1916-07-16 (yerlesimler.js, _anadolu_0914.js; M-5529, koşu 23'e girdi); Arhavi hic Rus olmadi; ek okuma p77a-trabzon-1916-sahil-sirasi.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Cayeli/Gumushane noktalari hala yok (yerlesimler_p77_kafkas.js GIRDI'ye bagli degil) — istenirse baglansin.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0028",
+  "sinif": "BAYAT",
+  "ozet": "Erzincan Bayburt/Kelkit/Askale'den once mi; otomatik oncul kontrolu",
+  "kanit": "Bayburt 1916-07-16, Erzincan 1916-07-24 s:rusya (yerlesimler, koşu 23'e girdi); ek okuma p77a-erzincan-1916-oncesi.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "arac/denetle.py"
+  ],
+  "oneri": "Kalan: 'isgal kirilmasi komsu tutarliligi' aleti yazilmadi (kabul edilmis kalem).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0031",
+  "sinif": "VERI",
+  "ozet": "Bagdat'in kaybi: dar kirmizi bolge, ton farki, D cizgisi, Kasr-i Sirin",
+  "kanit": "Halepce, Hanekin, Kifri, Tikrit hala s:ingiltere 1917-03-11 (Bagdat gunu, toptan); Erbil/Kerkuk/Tuz duzeldi. Kirmizi D cizgisi g1-osm-ir (d_sinirlar_komsu.js:52) sol_taraf:'osmanli' sabit.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "js/d_katman.js"
+  ],
+  "oneri": "Dort noktaya kaynakli gun (Hanekin ~1917-12, Kifri/Tuz 1918...); D cizgisi yari rengini sahip izlemeli (d_katman).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0032",
+  "sinif": "MOTOR",
+  "ozet": "Katmanlarin ust uste binmesi ve bosluklar",
+  "kanit": "Yama sonrasi dunya cakisma %0-2 (koşu 23, SIRADA-B-1012); kalan kapama-disi sinif. Bosluk tarafi olculmedi.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "Kapama-disi yama + kara maskeli bosluk olcumu.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0033",
+  "sinif": "KRONO",
+  "ozet": "Erbil enklavi, bolgelerin tek tek dusus tarihleri kronolojiye",
+  "kanit": "Erbil artik 1918-10-30 (enklav kalkti); Kerkuk 1918-05-07/05-27 maddeleri var (olaylar_p0917dunya.js:50-51). Tuz Hurmatu 1918-04-01 icin madde bulunamadi (grep); Halepce/Hanekin/Kifri/Tikrit toptan.",
+  "dosyalar": [
+   "data/olaylar_p0917dunya.js"
+  ],
+  "oneri": "Tuz Hurmatu (Nisan 1918) maddesi; Erbil 1918-10-30 kirilmasinin maddesi Mondros ile mi karsilaniyor kontrol.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0039",
+  "sinif": "ARASTIRMA",
+  "ozet": "Rusya'yi temsil eden uc renk",
+  "kanit": "renkler.py:723 rusya #4f7d4f (carlik), :692 rusya-gecici-hukumet #12397e, :722 sovyet-rusya #00d9ff.",
+  "dosyalar": [
+   "arac/renkler.py"
+  ],
+  "oneri": "Istenirse uc yapiyi bir renk ailesinde toplamak motor tuzu (sonraki tam insa).",
+  "cevap": "Uc renk uc ayri devlettir: Carlik Rusyasi (yesil, 1917-03-15'e dek), Gecici Hukumet (lacivert, 1917-03→11), Sovyet Rusya (turkuaz, 1917-11'den).",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0041",
+  "sinif": "KOSU",
+  "ozet": "Kars-Ardahan-Batum geri alinisi; ilce merkezleri Rus gorunuyor",
+  "kanit": "Elviye-i Selase zinciri DOGU-YER-1013 (2e9bbfb00, 2026-10-13): Kars/Sarikamis/Digor d 1918-04-25, Ardahan/Posof 1918-04-03, Artvin/Savsat/Borcka 1918-03-28, Batum/Sarp 1918-04-14, Igdir 1918-05-20 (14 Eki olculdu); madde 1918-05-25→1918-04-25 + 10 madde — KOSU 23 (df0a2b282, 2026-10-11) sonrasi main'e indi.",
+  "dosyalar": [
+   "data/yerlesimler*.js",
+   "data/olaylar_ek5.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "https://islamansiklopedisi.org.tr/kars",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0046",
+  "sinif": "VERI",
+  "ozet": "Ceylanpinar koridoru",
+  "kanit": "Ceylanpinar sinir sehri degil; koridoru Qattinah (yerlesimler_sinir_guney.js) cizer: s:fransa-cumhuriyet 1918-10-26 (Halep gunu). Ceylanpinar d →1920-04-23 + isg fransa →1921-10-20 (yerlesimler_ek25.js).",
+  "dosyalar": [
+   "data/yerlesimler_sinir_guney.js",
+   "data/yerlesimler_ek25.js"
+  ],
+  "oneri": "YAMA D: Qattinah 1920-04-23'e dek Osmanli → TBMM → 1921-10-20 manda (Ras'ulayn kaynagi bulunursa).",
+  "cevap": "Ceylanpinar sinir sehri olarak siniflanmamis; gorulen koridor komsu Qattinah peteginin erken Fransiz kaydindan.",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0047",
+  "sinif": "ARASTIRMA",
+  "ozet": "Mondros sinirlari ve Itilaf ilerleyisi",
+  "kanit": "Isgaller isg: taramasiyla gorunuyor; oklarin cikis yeri kaynakta yok (SEFER-OK-0077 §3).",
+  "dosyalar": [
+   "data/savaslar.js"
+  ],
+  "oneri": "ATASE/Mondros sonrasi isgal kaynagindan cikis noktali oklar.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0049",
+  "sinif": "VERI",
+  "ozet": "Avusturya-Macaristan'in bolunmesi + madde ici asama butonu",
+  "kanit": "Zadar duzeldi (Rapallo); Pola, Opava, Subotica noktalari YOK (14 Eki ad taramasi 0); Rijeka kunyesiz. Buton yuzu FAZ 2 (ARAYUZ).",
+  "dosyalar": [
+   "data/yerlesimler_ek.js",
+   "js/app.js"
+  ],
+  "oneri": "Uc nokta kaynakli; sonra alt_kronoloji/asama butonu (arayuz).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0053",
+  "sinif": "ARASTIRMA",
+  "ozet": "Italyanlarin isgal ettigi Marmaris/Bodrum/Kusadasi haritada yok",
+  "kanit": "Uc yerde isg yok (yerlesimler.js, 14 Eki); baslangiclar TDV'de var, bosaltma gunu yok.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Bosaltma gunu (Celebi 2008 vb.) dogrulaninca isg: + kronoloji.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ }
+]

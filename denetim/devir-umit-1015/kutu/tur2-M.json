@@ -1,0 +1,338 @@
+[
+ {
+  "anahtar": "parti-emrelic-0012/H-0001",
+  "hukum": "sirada",
+  "not": "A (H0016) main'de (95a9ccad9). B (MOTOR-EKLENTI-BOLUSTUR-1013.diff, kapama-dışı gövde çakışması bölüştürme) origin/main'e temiz uygulandı (git apply --check 0, py_compile 0) ama gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sınanmamış motor yaması, sonraki HAVVA ölçümüne. Hazır diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff (try-sarmalı eklendi). C (MOTOR-COL-GIRINTI-1013.diff, çöl dolgusu girinti yumuşatma, B'den sonra uygulanır) temiz uygulandı, py_compile 0, gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sonraki HAVVA ölçümüne. Diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0014/H-0004",
+  "hukum": "sirada",
+  "not": "Göl toleransı inceltme yaması yok. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0019/H-0007",
+  "hukum": "sirada",
+  "not": "D (MOTOR-RENK-PAKETI-1013.diff) bugünkü origin/main'e uygulanmıyor (ileri ve ters --check 1); kalmuk/kazak/teuton/livonya/karakoyunlu renkleri koordinatör kararıyla ÖBÜR tuz oturumunun işi — bu pakette yok.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0020/H-0005",
+  "hukum": "sirada",
+  "not": "SADE_TOL çekirdek inceltme (Z-0015) yaması yok. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0029/H-0007",
+  "hukum": "sirada",
+  "not": "Kıyı inceltme (Z-0015) yaması yok. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0030/H-0002",
+  "hukum": "sirada",
+  "not": "A (H0016) main'de (95a9ccad9). B (MOTOR-EKLENTI-BOLUSTUR-1013.diff, kapama-dışı gövde çakışması bölüştürme) origin/main'e temiz uygulandı (git apply --check 0, py_compile 0) ama gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sınanmamış motor yaması, sonraki HAVVA ölçümüne. Hazır diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff (try-sarmalı eklendi).",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0031/H-0019",
+  "hukum": "sirada",
+  "not": "A (H0016) main'de (95a9ccad9). B (MOTOR-EKLENTI-BOLUSTUR-1013.diff, kapama-dışı gövde çakışması bölüştürme) origin/main'e temiz uygulandı (git apply --check 0, py_compile 0) ama gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sınanmamış motor yaması, sonraki HAVVA ölçümüne. Hazır diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff (try-sarmalı eklendi).",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0033/H-0017",
+  "hukum": "sirada",
+  "not": "Sırt sürtünme kolu yaması yok. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0034/H-0028",
+  "hukum": "sirada",
+  "not": "C (MOTOR-COL-GIRINTI-1013.diff, çöl dolgusu girinti yumuşatma, B'den sonra uygulanır) temiz uygulandı, py_compile 0, gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sonraki HAVVA ölçümüne. Diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0035/H-0047",
+  "hukum": "sirada",
+  "not": "C (MOTOR-COL-GIRINTI-1013.diff, çöl dolgusu girinti yumuşatma, B'den sonra uygulanır) temiz uygulandı, py_compile 0, gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sonraki HAVVA ölçümüne. Diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0040/H-0007",
+  "hukum": "sirada",
+  "not": "Altlık göl ↔ motor göl maskesi bağlama yaması yok. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0002",
+  "hukum": "sirada",
+  "not": "Motor kodu değil, HAVVA'da koşu çıktısı ölçümü isteniyor; bu pakette yapılacak yama yok — HAVVA ölçümüne.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0008",
+  "hukum": "sirada",
+  "not": "Motor kodu değil, HAVVA'da koşu çıktısı ölçümü isteniyor; bu pakette yapılacak yama yok — HAVVA ölçümüne. (B yaması da bu sınıfı hedefler; sınanmadı.)",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0014",
+  "hukum": "sirada",
+  "not": "renk_olc kırmızı ailesi kapısı yazılmadı; Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0016",
+  "hukum": "sirada",
+  "not": "Motor kodu değil, HAVVA'da koşu çıktısı ölçümü isteniyor; bu pakette yapılacak yama yok — HAVVA ölçümüne.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0038",
+  "hukum": "sirada",
+  "not": "D (MOTOR-RENK-PAKETI-1013.diff) bugünkü origin/main'e uygulanmıyor (ileri ve ters --check 1); kalmuk/kazak/teuton/livonya/karakoyunlu renkleri koordinatör kararıyla ÖBÜR tuz oturumunun işi — bu pakette yok.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0044/H-0011",
+  "hukum": "sirada",
+  "not": "Motor kodu değil, HAVVA'da koşu çıktısı ölçümü isteniyor; bu pakette yapılacak yama yok — HAVVA ölçümüne.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0048/H-0010",
+  "hukum": "sirada",
+  "not": "Motor kodu değil, HAVVA'da koşu çıktısı ölçümü isteniyor; bu pakette yapılacak yama yok — HAVVA ölçümüne.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0112",
+  "hukum": "sirada",
+  "not": "B2 zincirleme birleştirme yaması yok. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0012",
+  "hukum": "sirada",
+  "not": "Motor kodu değil, HAVVA'da koşu çıktısı ölçümü isteniyor; bu pakette yapılacak yama yok — HAVVA ölçümüne.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0074/H-0008",
+  "hukum": "sirada",
+  "not": "B (MOTOR-EKLENTI-BOLUSTUR-1013.diff, kapama-dışı gövde çakışması bölüştürme) origin/main'e temiz uygulandı (git apply --check 0, py_compile 0) ama gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sınanmamış motor yaması, sonraki HAVVA ölçümüne. Hazır diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff (try-sarmalı eklendi).",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0010",
+  "hukum": "sirada",
+  "not": "MISIR-ASI-MOTOR-1013.diff (girdi.py+uret_petek.py+app.js, statu 'asi') origin/main'e temiz uygulanıyor ama Emre kararı açık (TAM-INSA-PAKETI-1013 §4: seçenek a önerildi, Kahire de boyansın mı?); alınmadı.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0024",
+  "hukum": "sirada",
+  "not": "B (MOTOR-EKLENTI-BOLUSTUR-1013.diff, kapama-dışı gövde çakışması bölüştürme) origin/main'e temiz uygulandı (git apply --check 0, py_compile 0) ama gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sınanmamış motor yaması, sonraki HAVVA ölçümüne. Hazır diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff (try-sarmalı eklendi).",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0075/H-0029",
+  "hukum": "sirada",
+  "not": "H-0010 ile aynı: MISIR-ASI diff'i hazır, tek ton kararı Emre'de; alınmadı.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0072",
+  "hukum": "sirada",
+  "not": "B (MOTOR-EKLENTI-BOLUSTUR-1013.diff, kapama-dışı gövde çakışması bölüştürme) origin/main'e temiz uygulandı (git apply --check 0, py_compile 0) ama gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sınanmamış motor yaması, sonraki HAVVA ölçümüne. Hazır diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff (try-sarmalı eklendi).",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0076/H-0069",
+  "hukum": "sirada",
+  "not": "B (MOTOR-EKLENTI-BOLUSTUR-1013.diff, kapama-dışı gövde çakışması bölüştürme) origin/main'e temiz uygulandı (git apply --check 0, py_compile 0) ama gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sınanmamış motor yaması, sonraki HAVVA ölçümüne. Hazır diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff (try-sarmalı eklendi). Gövde×gövde değişmezi (denetle.py) yazılmadı.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0005",
+  "hukum": "sirada",
+  "not": "M1 tarama tavanı yaması yok. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0032",
+  "hukum": "sirada",
+  "not": "B (MOTOR-EKLENTI-BOLUSTUR-1013.diff, kapama-dışı gövde çakışması bölüştürme) origin/main'e temiz uygulandı (git apply --check 0, py_compile 0) ama gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sınanmamış motor yaması, sonraki HAVVA ölçümüne. Hazır diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff (try-sarmalı eklendi).",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0077/H-0087",
+  "hukum": "sirada",
+  "not": "İşgal taraması (uret_devirler.py) yaması yok; tuz listesinde değil. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0081/H-0008",
+  "hukum": "sirada",
+  "not": "Motor kodu değil, HAVVA'da koşu çıktısı ölçümü isteniyor; bu pakette yapılacak yama yok — HAVVA ölçümüne.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0082/H-0028",
+  "hukum": "sirada",
+  "not": "Gövde sınırı ızgara basamağı yumuşatma yaması yok. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0082/H-0069",
+  "hukum": "sirada",
+  "not": "isgalleri_uret yaması yok. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0082/H-0095",
+  "hukum": "sirada",
+  "not": "Motor kodu değil, HAVVA'da koşu çıktısı ölçümü isteniyor; bu pakette yapılacak yama yok — HAVVA ölçümüne.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0084/H-0016",
+  "hukum": "kosu-bekliyor",
+  "not": "H0016-BINME-MOTOR-1006.diff zaten main'de (ters --check temiz); KOŞU 25 tam inşasıyla haritaya yansır.",
+  "commit": "95a9ccad9 H0016-BINME-MOTOR UYGULANDI",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0084/H-0020",
+  "hukum": "sirada",
+  "not": "Motor kodu değil, HAVVA'da koşu çıktısı ölçümü isteniyor; bu pakette yapılacak yama yok — HAVVA ölçümüne. Bant boru hattına gövde aşaması yaması yok.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0085/H-0003",
+  "hukum": "sirada",
+  "not": "C3 ızgara yaması denetim/'de bulunamadı; Timurlu rengi değişikliği yok. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0085/H-0008",
+  "hukum": "sirada",
+  "not": "Motor kodu değil, HAVVA'da koşu çıktısı ölçümü isteniyor; bu pakette yapılacak yama yok — HAVVA ölçümüne.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0085/H-0011",
+  "hukum": "sirada",
+  "not": "C3 ızgara yaması denetim/'de bulunamadı. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0087/H-0014",
+  "hukum": "sirada",
+  "not": "B (MOTOR-EKLENTI-BOLUSTUR-1013.diff, kapama-dışı gövde çakışması bölüştürme) origin/main'e temiz uygulandı (git apply --check 0, py_compile 0) ama gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sınanmamış motor yaması, sonraki HAVVA ölçümüne. Hazır diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff (try-sarmalı eklendi).",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0087/H-0022",
+  "hukum": "sirada",
+  "not": "B (MOTOR-EKLENTI-BOLUSTUR-1013.diff, kapama-dışı gövde çakışması bölüştürme) origin/main'e temiz uygulandı (git apply --check 0, py_compile 0) ama gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sınanmamış motor yaması, sonraki HAVVA ölçümüne. Hazır diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff (try-sarmalı eklendi). BOSLUK kenarında hâle çizmeme yaması yok.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0088/H-0010",
+  "hukum": "sirada",
+  "not": "D8 düzeltmesi yaması yok. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0088/H-0018",
+  "hukum": "sirada",
+  "not": "Aynı devlet iç kenar bastırma yaması yok. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0088/H-0019",
+  "hukum": "sirada",
+  "not": "BOSLUK kenarı hâle kapatma yaması yok. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0088/H-0022",
+  "hukum": "sirada",
+  "not": "C3 ızgara yaması denetim/'de bulunamadı. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0088/H-0025",
+  "hukum": "sirada",
+  "not": "C3 ızgara yaması denetim/'de bulunamadı. Bu madde için denetim/'de motor diff'i YOK (aranan: *.diff içinde uret_petek/renkler/girdi/motor_onbellek); yama yazılmadan koşuya binemez.",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0088/H-0055",
+  "hukum": "sirada",
+  "not": "B (MOTOR-EKLENTI-BOLUSTUR-1013.diff, kapama-dışı gövde çakışması bölüştürme) origin/main'e temiz uygulandı (git apply --check 0, py_compile 0) ama gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sınanmamış motor yaması, sonraki HAVVA ölçümüne. Hazır diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff (try-sarmalı eklendi).",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0088/H-0056",
+  "hukum": "sirada",
+  "not": "B (MOTOR-EKLENTI-BOLUSTUR-1013.diff, kapama-dışı gövde çakışması bölüştürme) origin/main'e temiz uygulandı (git apply --check 0, py_compile 0) ama gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sınanmamış motor yaması, sonraki HAVVA ölçümüne. Hazır diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff (try-sarmalı eklendi).",
+  "commit": "",
+  "kaynak": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0088/H-0057",
+  "hukum": "sirada",
+  "not": "B (MOTOR-EKLENTI-BOLUSTUR-1013.diff, kapama-dışı gövde çakışması bölüştürme) origin/main'e temiz uygulandı (git apply --check 0, py_compile 0) ama gerçek koşuda sınanmadı; koordinatör kararıyla KOŞU 25'e ALINMADI — sınanmamış motor yaması, sonraki HAVVA ölçümüne. Hazır diff: SCRATCH/tasnif/M-BC-SINANMAMIS-1014.diff (try-sarmalı eklendi).",
+  "commit": "",
+  "kaynak": ""
+ }
+]

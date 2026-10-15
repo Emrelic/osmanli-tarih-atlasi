@@ -1,0 +1,23 @@
+[
+ {
+  "anahtar": "parti-emrelic-0082/H-0070",
+  "hukum": "sirada",
+  "not": "Karadeniz kuzeyi 4. parti: denetlenmemiş 39 nokta ESBE/IEU/TDV ile tek tek denetlendi; Nikolayev (kur 1784, ESBE), Melitopol (kur 1784, IEU) ve Stavropol (Kafkas, kur 1777, ESBE) noktaları kuruluş maddeleriyle eklendi (7e/8a yükselmedi, kapı 0). Düzeltilenler: Pereyaslav günü 18 Ocak → 8 Ocak 1654 eski takvim (Poltava, Kremençuk, Lubnı, Sloboda); Harkov kur 1654, Kişinev kur 1420 (ilk anılış), Volga Stavropol'ü 1737 → 1738; Tuapse 1854-1864 Çerkez dönemi (Ruslar kaleyi boşaltıp 1864 Şubat'ta geri aldı); Yaş 1769-1774 ve Kalas 1789-1792 Rus işgalleri; Uman'ın Osmanlı'ya geçişi 1 Ocak'tan 3 Ağustos 1674'e (TDV 'Cemâziyelevvel 1085', hicrî kesişim). Novorossiysk/Soğucak 1722 Osmanlı kalesi eklenmedi (kopuk parça, 7e tavanını yükseltir — onayın gerekir). KALAN (kaynaklı öneri hazır, yazılmadı): Dobruca'da Köstence, Babadağı, Tulça, İshakçı'nın 1771-1877 Rus işgalleri (bitiş günleri kaynakta yok), Boğdan iç noktalarının 1769-74/1789-92 işgalleri (Kişinev, Orhei, Soroka, Kahul — nokta günü yok), Soroka 1692-1699 Leh işgali (bitiş günü kaynakta yok), Zaporojye 1711-1734 Kırım himayesi + 1775 son gününün eski takvime dönmesi (devletler.js çekirdeği), Kamışin 1668 (kaynak 'sanılıyor' diyor). Senin kararın: Maykop (ESBE 1858 Rus kalesi) ve Kuban/Yekaterinodar (ESBE 1794) noktaları şehir mi bölge temsilcisi mi; Kırım ilhakı 1783-04-19, Yaş 1792-01-09, Bükreş 1812-05-28, II. Paylaşım 1793-01-23, Andrusovo 1667-02-09 Gregoryen günleri bütün atlasta eski takvime dönsün mü (m.28). Derin denetlenmeyen: 11 bozkır sözde-noktası + 4 Transdinyester halef noktası.",
+  "commit": "91757830b KUTU-P2-1015: Karadeniz kuzeyi 4. parti — Nikolayev, Melitopol, Pereyaslav eski takvim günü, Harkov/Kişinev kur · 4353af7e9 KUTU-P2-1015: Tuapse 1854-1864 Çerkez dönemi · 511567062 KUTU-P2-1015: Stavropol (Kafkas) noktası, kur 1777 · 22fb39b22 KUTU-P2-1015: Yaş 1769-1774 ve Kalas 1789-1792 Rus işgalleri · 08fa67256 KUTU-P2-1015: Uman fethi 1674-01-01 → 1674-08-03 (hicrî kural)",
+  "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Николаев,_город_Херсонской_губернии"
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0006",
+  "hukum": "cozuldu",
+  "not": "Osmanlı-Venedik ve Osmanlı-Habsburg savaşlarının başlangıç maddeleri tarandı. Eksik olan beşi TDV günüyle yazıldı: 1532 Alman seferine çıkış (25 Nisan), 1551 Sokullu'nun Tuna'yı geçmesi ve Erdel savaşı (7 Eylül), 1593 Koca Sinan Paşa'nın Avusturya seferine çıkışı (19 Temmuz), 1716 Avusturya-Venedik ittifakı (13 Nisan) ve Ali Paşa'nın Avusturya seferine çıkışı (24 Nisan). 1529 ve 1566 seferlerinin başlangıç maddesi zaten varmış (ilk taramam görmedi, kapı mükerrer saydı, geri aldım). 1463, 1537, 1570 (Limasol çıkarması), 1645, 1684, 1714, 1663, 1683, 1737, 1788 zaten vardı. Yazılamayan: 1499 Venedik savaşı (TDV yalnız '1498'de ilan' der, gün yok) ve 1716 Osmanlı savaş ilânının günü (TDV'de yok).",
+  "commit": "f2944019b KUTU-P2-1015: Osmanlı-Habsburg/Venedik savaşlarına yedi başlangıç maddesi · ff65bebf7 KUTU-P2-1015: 1529 ve 1566 sefer başlangıçları mükerrerdi — geri alındı",
+  "kaynak": "https://islamansiklopedisi.org.tr/suleyman-i"
+ },
+ {
+  "anahtar": "YAN/tsaritsyn-rostov-kur",
+  "hukum": "zaten-dogru",
+  "not": "Denetimde 'kaynaksız' görünen Tsaritsyn 2 Temmuz 1589 ve Rostov 15 Aralık 1749 kuruluş günleri kaynaklı çıktı: maddeleri olaylar_2s_0919.js'te Volgograd ve Rostov bölge müzelerinin ferman alıntılarıyla duruyor. ESBE yalnız yıl veriyor (Rostov için 1761 kalesi), çelişki değil; dokunulmadı.",
+  "commit": "",
+  "kaynak": "https://www.rostovmuseum.ru/calendar/detail/?ID=4709"
+ }
+]

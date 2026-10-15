@@ -1,0 +1,1465 @@
+[
+ {
+  "anahtar": "parti-emrelic-0041/H-0001",
+  "sinif": "EMRE",
+  "ozet": "B görünümü: enklav birleştirme, koridor sığlaştırma, devletler arası boşluğu Dijkstra ile paylaştırma, engin boşlukta tavan.",
+  "kanit": "Kısmen var: koşu 23 MOTOR_YURUYUS=1 (kara-kara sınır 40 saat yürüyüş bütçesi, uret_petek.py:1133-1175) + Ⓑ ufuk bantları 5/7/10 gün (MOTOR_UFUK_BANT=40,56,80; data/ufuk_bant_parcalar.js). data/dolgu.js YOK (arac/dolgu.py var); enklav birleştirme/koridor sığlaştırma/paylaştırma üretilmiyor. denetim/KUTU-HUKUM-ESKI-1012.json aynı sonuç.",
+  "dosyalar": [
+   "arac/dolgu.py",
+   "arac/uret_petek.py",
+   "js/app.js"
+  ],
+  "oneri": "Ufuk bantları B görünümü sayılsın mı, yoksa dolgu.py (enklav+koridor+paylaştırma) üretim hattına bağlanıp tam inşa mı istenir — karar sonrası motor işi.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0002",
+  "sinif": "MOTOR",
+  "ozet": "Devlet sınırları arasında boşluk ve üst üste binme (10 görsel); boşluk tavandan mı hatadan mı.",
+  "kanit": "Koşu 18 gövdesinde (KAPAT-0035-42-68-0930) 1323 bizans∩OSMANLI 1996 km² binme vardı; sonra binme yamaları 413867a5/32c5f22e/18efae1e girdi ve koşu 23 koştu. Koşu 23 gövdesinde 10 görsel ölçülmedi (üretilmiş gövde worktree’de yok). Son koşu 23 (df0a2b28, 11 Eki; girdi tabanı 672acbc1, 10 Eki 21:48; MOTOR_YURUYUS=1).",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "HAVVA’da koşu 23 gövdesinde 10 görselin günü/kutusu için binme km² ve boşluk km² (boşluk: tavan dışı mı, sahipli petek mi) ölçülsün; aleti denetim/ARAC-MTR-KUTU-0914.py.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0004",
+  "sinif": "BAYAT",
+  "ozet": "Katalan Kumpanyası Anadolu seferinin haritada güzergâh oku.",
+  "kanit": "Sefer kaydı data/savaslar.js:699 f 1303-09-01; başlangıç maddesi data/olaylar_p0049.js:30 t:\"1303-09-01\" (aynı gün). js/app.js:6361-6362: madde günü == sefer f ise kırpma yok, ok kendi gününde belirir. Tarayıcıda sınanmadı.",
+  "dosyalar": [
+   "data/olaylar_p0049.js",
+   "data/savaslar.js",
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0005",
+  "sinif": "ARASTIRMA",
+  "ozet": "Tuna bölümünde sınır sürtünmeli mi kuş uçuşu mu; Bulgaristan/Eflak sınırları akademik haritalarda nasıl.",
+  "kanit": "Koşu 21 ve 23 MOTOR_YURUYUS=1 ile koştu (data/kosu_damga.js, commit df0a2b28 mesajı): kara-kara sınır artık sürtünmeli yürüyüş Dijkstra’sıyla çiziliyor (uret_petek.py:1133-1175). Şikâyet (10 Eyl) bundan önceki düz Voronoi dönemine ait. Akademik harita karşılaştırması kaydı bulunamadı.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "Bulgaristan (Tırnovo/Vidin) ve Eflak 14. yy sınırı için akademik kaynak (TDV bulgaristan, eflak) taraması; Tuna’nın sınır sayılması gereken dönemler kaynakla belirlenip gerekirse yerleşim noktası eklensin.",
+  "cevap": "Birinci soru: Şikâyet günü sınır düz mesafeyle (Voronoi) çiziliyordu; koşu 21’den beri (MOTOR_YURUYUS=1, 40 saat bütçe) kara-kara sınır sürtünmeli yürüyüş süresiyle çiziliyor. İkinci soru (akademik haritalarda Bulgaristan/Eflak sınırı) araştırılmadı.",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0006",
+  "sinif": "BAYAT",
+  "ozet": "1308’de Çehrin Litvanya’ya mı aitti.",
+  "kanit": "Çehrin s: altinorda 1281→1362, litvanya-buyuk-dukalik 1362→1569 (girdi.yukle sorgusu; kayıt kaynağı YAMA-A6B-0913 P-CEH-1). 1308-06-01 → altinorda.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "1362 günü kaynaksız (BULUNAMADI beyanlı) — yalnız beyan borcu.",
+  "cevap": "Hayır; 1308’de Kiev-Dinyeper yöresi Altın Orda nüfuzundaydı, Litvanya’ya 1362 dolayında geçti (veri artık böyle).",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0007",
+  "sinif": "BAYAT",
+  "ozet": "Lehistan ile Litvanya Büyük Dükalığı ayrı devletler miydi.",
+  "kanit": "Varşova s: polonya-erken 1281→1569-07-01, lehistan 1569→1795 (girdi.yukle); Litvanya ayrı künye. Lublin 1569 öncesi iki devlet modeli veride.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "arac/renkler.py"
+  ],
+  "oneri": "",
+  "cevap": "1385-1569 şahsi birlikle bağlı iki ayrı devlet; 1 Temmuz 1569 Lublin Birliği ile tek devlet (Lehistan-Litvanya).",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0008",
+  "sinif": "MOTOR",
+  "ozet": "Haritalarda birbiri üzerine binme — sebebini bul, gider.",
+  "kanit": "Koşu 18 gövdesinde 1323-01-01 bizans∩OSMANLI 1996 km² binme ölçülmüştü (KAPAT-0035-42-68-0930). Binme yamaları (413867a5 KATMAN-BINME, 32c5f22e, 18efae1e) koşu 23’e girdi; koşu 23 gövdesinde yeniden ölçülmedi.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "HAVVA’da koşu 23 gövdesinde 1323-01-01 Bursa-İznik kutusu bizans∩OSMANLI km² ölçülsün (hedef ≈0); sürüyorsa gövde kırpma sırası düzeltmesi.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0009",
+  "sinif": "BAYAT",
+  "ozet": "Pelekanon sonrası Osmanlı toprağı Boğaz’ı geçiyor görünüyor.",
+  "kanit": "Koşu 18 gövdesinde 1329-1330 penceresinde Osmanlı Boğaz’ı geçmiyor (Bebek/Sarıyer/Beşiktaş/İstanbul → bizans; KAPAT-0035-42-68-0930). BOGAZ-OLCUM-0081 motor yaması (55dfa2b5, uret_petek.py _KVSU sudan geçen adım yasak) koşu 18’den beri. Koşu 23’te ayrıca ölçülmedi.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0011",
+  "sinif": "BAYAT",
+  "ozet": "1340 civarı Kemah’ın Akkoyunlu görünmesinin dayanağı.",
+  "kanit": "Kemah zinciri TDV kemah sırasıyla: ilhanli→1335, eretna 1335-1378, mutahharten 1378-1401, d 1401-1402, mutahharten 1402-1410, karakoyunlu 1410-1422, akkoyunlu 1422-1450 … (girdi.yukle). olaylar_ek16.js:66 ic_not_d: \"erken Akkoyunlu cümlesi silindi\".",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/olaylar_ek16.js"
+  ],
+  "oneri": "",
+  "cevap": "Temeli yoktu; TDV kemah’a göre 1340’ta Eretnaoğulları idaresindeydi. Veri düzeltildi.",
+  "kaynak": "https://islamansiklopedisi.org.tr/kemah",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0012",
+  "sinif": "KOSU",
+  "ozet": "Kafkaslarda sürtünme uygulanıyor mu; Vladikafkas kuzeyindeki bölge doğru mu.",
+  "kanit": "Sürtünme: koşu 21/23 MOTOR_YURUYUS=1 (kara-kara yürüyüş Dijkstra’sı). Vladikavkaz kaydı 13 Eki’de değişti (kur 1784, kasitli_bosluk bos:\"hata\"→\"kabile\", TDV vladikafkas/osetler; git diff 672acbc1..HEAD) — koşu 23 girdisinden sonra.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "HAVVA tam koşusu sonrası Vladikavkaz kuzeyi/Nalçik doğusu yeniden görüntülensin.",
+  "cevap": "Şikâyet günü kara-kara sınırda sürtünme yoktu; koşu 21’den beri yürüyüş süresiyle çiziliyor. Vladikavkaz 1784’te kuruldu; öncesi kaynakta devlet idaresi belirtilmeyen kabile toprağı olarak beyanlı boşluk.",
+  "kaynak": "https://islamansiklopedisi.org.tr/vladikafkas",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0013",
+  "sinif": "BAYAT",
+  "ozet": "Üst üste binme/örtüşmeme örnekleri (Gümrü-Gürcistan).",
+  "kanit": "Koşu 18 gövdesinde 1346-06-01 celayirli∩gurcistan 0 km², yalnız ~69 km² dar boşluk (KAPAT-0035-42-68-0930). Koşu 23’te ayrıca ölçülmedi.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0014",
+  "sinif": "MOTOR",
+  "ozet": "Mersin Osmanlı kırmızısı; kırmızı yalnız odaktaki devlete ayrılsın.",
+  "kanit": "Mersin kısmı düzeldi: kur 1671-01-01, d 1671-1918 (girdi.yukle) — 1671 öncesi nokta yok. Kırmızı rezervi: renkler.py yalnız yorumda; renk_olc.py’de zorlayan kapı yok (KUTU-HUKUM-ESKI-1012 arac/renk_olc.py:82).",
+  "dosyalar": [
+   "arac/renkler.py",
+   "arac/renk_olc.py"
+  ],
+  "oneri": "renk_olc.py’ye “kırmızı ailesi (ton ~350-15°) yalnız osmanli/tabi” kapısı + ihlal listesi; ihlal eden BOYALAR girdileri değiştirilip tam inşa (tuz).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0015",
+  "sinif": "BAYAT",
+  "ozet": "Çimpe’nin etki alanı Saros’u aşıyor.",
+  "kanit": "Koşu 18 gövdesinde 1352-1354 penceresinde Osmanlı Saros kuzeyine geçmiyor; Enez ve Keşan → bizans (KAPAT-0035-42-68-0930). BOGAZ-OLCUM-0081 su geçiş yasağı motorda. Koşu 23’te ayrıca ölçülmedi.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0016",
+  "sinif": "MOTOR",
+  "ozet": "Ege adaları gövdelerinin kıyıya oturma kalitesi.",
+  "kanit": "Gövde ∖ kara km² hiç ölçülmedi; KATMAN-BINME/BOZUK-KIYI yamaları (413867a5) koşu 23’e girdi.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "HAVVA’da koşu 23 gövdesini veri-kaynak/motor_kara.geojson ile Ege adalarında kesiştir (örn. 1450-06-01); aleti denetim/ARAC-MTR-ADA-0914.py.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0018",
+  "sinif": "BAYAT",
+  "ozet": "Pençik maddesinde Trakya kıyı şehirleri fethedilmeden önce Osmanlı görünüyor; fetih sırası.",
+  "kanit": "girdi.yukle: 1361-01-01 Ahtapolu/Rezve/İğneada/Kırklareli → bizans; bu dördü d 1369-01-01 (TDV murad-i, “gün komşudan: Kırklareli”); Edirne ve Mustafapaşa d 1361-05-05 (TDV murad-i / cisr-i-mustafa-pasa). Sıra Edirne→Kırklareli→kıyı.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/yerlesimler_ek24.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0019",
+  "sinif": "ARASTIRMA",
+  "ozet": "Gümülcine, Uzunköprü/Meriç/Dedeağaç/Enez/Çirmen’den önce mi fethedildi.",
+  "kanit": "Gümülcine d 1363-01-01 kaynak alanı BOŞ; Dedeağaç/Uzunköprü/Çirmen d 1371-09-26 (girdi.yukle). TDV gümülcine önbelleği (denetim/KORIDOR-0081-tdv-onbellek/gumulcine.txt): Evrenos Bey’in 762 (1361) civarı akınları, bazı kaynaklarda 1363; Evrenos 1371-1383 burayı uç merkezi yaptı. TDV ferecik: 1357/58 veya 1359-63.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Gümülcine d kaydına kaynak alanı yaz: \"TDV gumulcine: 762 (1361) civarı, bazı kaynaklarda 1363 — YIL\". Uzunköprü (kur 1443) ve Dedeağaç modern kuruluş; 1371 d’leri yalnız petek için — kuruluş/var olma penceresi kontrol edilsin.",
+  "cevap": "Evet, atlama tarihen gerçek: TDV’ye göre Gümülcine 1361 civarı (bazı kaynaklarda 1363) Evrenos Bey akınlarıyla alındı, Çirmen (1371) zaferinden önce. Veri doğru yıl ama kaynaksız.",
+  "kaynak": "https://islamansiklopedisi.org.tr/gumulcine",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0021",
+  "sinif": "BAYAT",
+  "ozet": "Çirmen savaşı sonrası kırmızıya dönen topraklar kronolojide yok.",
+  "kanit": "“Dejanoviç Prensliği (Kostadin-ili) Osmanlı vasalı oldu” maddesi data/olaylar_p0055.js:32 t 1371-09-26; Köstendil v: dejanovic-prensligi 1371-09-26 (girdi.yukle: 1387 tabi:dejanovic-prensligi).",
+  "dosyalar": [
+   "data/olaylar_p0055.js",
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0022",
+  "sinif": "VERI",
+  "ozet": "Bizans’ın Osmanlı vasallığı açık tonla (yarı-tâbi) gösterilsin (Emre kararı).",
+  "kanit": "Hiçbir yerleşimde kid:\"bizans\" v: kaydı yok (grep data/yerlesimler*.js = 0). Arayüz statü etiketi haraçgüzâr’ı tanıyor (js/app.js:1678); ek okuma kartı var (data/ekokuma_statu.js statu-bizans-haracguzar).",
+  "dosyalar": [
+   "data/yerlesimler*.js",
+   "arac/renkler.py"
+  ],
+  "oneri": "TDV’den Bizans haraçgüzârlık pencereleri (≈1371/73, 1391-94, 1403, 1424-1453) ile İstanbul ve Bizans kalıntı noktalarına v:{statu:\"haraçgüzâr\", kid:\"bizans\"}; açık ton gövde rengi motor tarafında (tam inşa).",
+  "cevap": "",
+  "kaynak": "https://islamansiklopedisi.org.tr/bizans",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0025",
+  "sinif": "BAYAT",
+  "ozet": "Selanik teslimi/Ceneviz ahidnamesi sırasında Sırp enklavı doğru mu.",
+  "kanit": "Vodina d 1387-01-01 (TDV vodina 1386-87 kışı); 1387-06-08 Vodina OSMANLI (girdi.yukle) — Sırp cebi yok. Fetih maddesi data/olaylar_p0917kosu13.js:28.",
+  "dosyalar": [
+   "data/yerlesimler_ok107.js",
+   "data/olaylar_p0917kosu13.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0027",
+  "sinif": "BAYAT",
+  "ozet": "Vodina Üsküp’le mi önce mi alındı.",
+  "kanit": "Vodina d 1387-01-01, Üsküp ayrı (1392); ayrı fetih maddesi data/olaylar_p0917kosu13.js:28.",
+  "dosyalar": [
+   "data/yerlesimler_ok107.js"
+  ],
+  "oneri": "",
+  "cevap": "Üsküp’ten yaklaşık 5 yıl önce, 1386-87 kışı (TDV vodina).",
+  "kaynak": "https://islamansiklopedisi.org.tr/vodina",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0028",
+  "sinif": "BAYAT",
+  "ozet": "Dejanoviç Prensliği Osmanlı vasalı mıydı.",
+  "kanit": "Köstendil v: dejanovic-prensligi 1371-09-26→1395 (girdi.yukle 1387 → tabi:dejanovic-prensligi); künye devletler.js (dejanovic-prensligi).",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/devletler.js"
+  ],
+  "oneri": "",
+  "cevap": "Evet; Konstantin Dejanoviç 1371’de I. Murad’ın tâbiliğini tanıdı, 1395 Rovine’de öldü (TDV köstendil, ustrumca, köprülü).",
+  "kaynak": "https://islamansiklopedisi.org.tr/kostendil",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0029",
+  "sinif": "BAYAT",
+  "ozet": "Zencan, Bağdat, Râmhürmüz enklavları gerçek miydi.",
+  "kanit": "Zencan celayirli→timurlu 1383; Bağdat timurlu başlangıcı 1393-08-29 (TDV timur, “Timur Bağdat’ı zaptetti” maddesiyle aynı gün) — madde öncesi cep yok (girdi.yukle 1393-06-01 → celayirli).",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0030",
+  "sinif": "BAYAT",
+  "ozet": "“Timur Bağdat’ı zaptetti” maddesinden önce Bağdat Timurlu enklavı görünüyor.",
+  "kanit": "Bağdat s: celayirli 1335→1393-08-29, timurlu 1393-08-29→1394 (kaynak TDV timur 20 Şevval 795); 1393-06-01 → celayirli.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "https://islamansiklopedisi.org.tr/timur",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0032",
+  "sinif": "BAYAT",
+  "ozet": "Timur Bağdat’ı iki kez aldı ama sürekli enklav görünüyor.",
+  "kanit": "Bağdat zinciri bölünmüş: timurlu 1393-08-29→1394, celayirli 1394→1401, timurlu 1401→1405, celayirli 1405→1411 (girdi.yukle).",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Kalan: 1394/1401/1405 uçları YIL (01-01) — gün kaynakla iyileştirilebilir.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0034",
+  "sinif": "BAYAT",
+  "ozet": "Fetret sonrası Pirot/Şehirköy anlamsız Osmanlı kırmızısı.",
+  "kanit": "Şehirköy 1403-06-01 → suleyman-celebi, 1413-07-06 → sirp-despotlugu (girdi.yukle; yerlesimler_serhat.js, 8a128bcb).",
+  "dosyalar": [
+   "data/yerlesimler_serhat.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0037",
+  "sinif": "BAYAT",
+  "ozet": "Ankara Emir Süleyman/şehzadelerce ne zaman alındı.",
+  "kanit": "Ankara: timurlu 1402-07-28→1404-03-01, mehmed-celebi 1404-03-01→1406, suleyman-celebi 1406→1410-05-06, mehmed-celebi 1410-05-06→1413 (girdi.yukle; TDV ankara/suleyman-celebi-emir beyanlı). “Timurlu valiliği” ayrı kimlik değil, timurlu künyesinin etiketi.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "TDV ankara: Timur sonrası Çelebi Mehmed (1404), 1406’da Emir Süleyman; Süleyman Rumeli’ye geçince Mehmed yeniden aldı (hicrî 813). Günler YIL/AY hassasiyetinde, beyanlı.",
+  "kaynak": "https://islamansiklopedisi.org.tr/ankara",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0038",
+  "sinif": "MOTOR",
+  "ozet": "Karakoyunlu ile Gürcistan aynı renkte; Gürcistan Karakoyunlu’ya mı bağlı; Kars-Ardahan ayrı bölge gibi.",
+  "kanit": "arac/renkler.py:537 karakoyunlu #e018e0 · :570 gurcistan #e020b0 (ikisi de macenta, değişmemiş). Veri ayrı: 1415-06-01 Tiflis → gurcistan, Kars/Ardahan → karakoyunlu (1408-04-13’ten, TDV karakoyunlular) — “ayrı bölge” görüntüsü iki ayrı devletin benzer renginden.",
+  "dosyalar": [
+   "arac/renkler.py"
+  ],
+  "oneri": "BOYALAR’da karakoyunlu ya da gurcistan rengini ayrıştır (renk_olc ΔE ölçümü), tam inşa koşusu.",
+  "cevap": "Veride Gürcistan Karakoyunlu’ya bağlı değil; Kars-Ardahan Karakoyunlu, Tiflis Gürcistan. Sorun renk benzerliği.",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0039",
+  "sinif": "BAYAT",
+  "ozet": "Artukoğulları sonu/Mardin maddesinde kıvrılmış çaprazlanmış renkler.",
+  "kanit": "Koşu 18 gövdesinde 1408-06-01 ve 1409-01-01 pencerelerinde binme ≤3 km², geçersiz halka yok (KAPAT-0035-42-68-0930). Koşu 23’te ayrıca ölçülmedi. Yan bulgu: artuklu künyesi t 1409 iken Harput/Çemişgezek/Palu s: artuklu →1465 (künye aşımı).",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "Yan bulgu ayrı VERI işi: Harput·Çemişgezek·Palu artuklu dönemi künyeyle uzlaştırılsın.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0042",
+  "sinif": "BAYAT",
+  "ozet": "Çamurlu savaşı maddesinde Pirot etrafı enklav.",
+  "kanit": "1413-07-06 Şehirköy ve Niş sirp-despotlugu (girdi.yukle); koşu 18 gövdesinde Sırbistan ana gövdesiyle bitişik (KAPAT-0035-42-68-0930).",
+  "dosyalar": [
+   "data/yerlesimler_serhat.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0042/H-0043",
+  "sinif": "BAYAT",
+  "ozet": "1415’te Saruhanoğulları var mıydı.",
+  "kanit": "Manisa s: saruhan →1415-01-01, d 1415-01-01 (girdi.yukle 1415-06-01 → OSMANLI); madde data/olaylar_p0917kosu13.js:30.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "Manisa kolu 1411-1415 arasında Çelebi Mehmed idaresine girdi; 1415’te yoktu (Demirci kolu 1426’ya dek).",
+  "kaynak": "https://islamansiklopedisi.org.tr/saruhanogullari",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0043/H-0003",
+  "sinif": "BAYAT",
+  "ozet": "Kırım Hanlığı kuruluşunda Azak kuzeyi ve “Kırım bozkırı” statüsü.",
+  "kanit": "Voronej 1441-1585 __BOSLUK__ (girdi.yukle 1548 → s:__BOSLUK__); bozkır kayıtlarına gevşek himaye dönemi; himaye gövdesi koşu çıktısında (#e8a2aa).",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/yerlesimler_ek_bozkir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0043/H-0009",
+  "sinif": "KOSU",
+  "ozet": "Kırım’ın Osmanlı’ya bağlanışında haritanın doğruluğu (Kefe, Azak kuzeyi, Taman/Kerç/Anapa).",
+  "kanit": "Karar D (üç ton) uygulanmış; Anapa 13 Eki DUZELTME-1 ile doğrudan Osmanlı (TDV çerkezler; 1700-01-01 → OSMANLI, 1791-92 isg:rusya) — koşu 23 girdisinden sonra.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Yalnız HAVVA tam koşusu.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0043/H-0010",
+  "sinif": "VERI",
+  "ozet": "Gürcistan üçe bölündü ama haritada iki parça.",
+  "kanit": "Tiflis s: gurcistan 1281→1801 (girdi.yukle 1500 → gurcistan); Zagem kaheti-kralligi 1492→1762; Kutaisi imereti 1490→. kartli-kralligi künyesi var ama hiçbir yerleşimde yok ve renkler.py’de 0 isabet.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "arac/renkler.py"
+  ],
+  "oneri": "Tiflis (ve Kartli noktaları) 1490/1491-1762 s: kartli-kralligi (TDV gürcistan); BOYALAR’a kartli-kralligi rengi; tam koşu.",
+  "cevap": "",
+  "kaynak": "https://islamansiklopedisi.org.tr/gurcistan",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0043/H-0015",
+  "sinif": "VERI",
+  "ozet": "Mardin/Cizre arasında Osmanlı’ya geçmemiş boşluk.",
+  "kanit": "Cizre: akkoyunlu →1508-01-01, d 1515-09-19 → arada dönem yok (1510-01-01 → sahipsiz, yerlesimler_ok107.js “BİLEREK BOŞ”, bos:veri-yok). Cizre/Bohtan künyesi devletler.js’te yok.",
+  "dosyalar": [
+   "data/devletler.js",
+   "data/yerlesimler_ok107.js",
+   "arac/renkler.py"
+  ],
+  "oneri": "TDV cizre’ye dayanarak Bohtan/Cizre emirliği künyesi + 1508-01-01→1515-09-19 s: dönemi (ya da Safevî tâbiliği kaynakta varsa o).",
+  "cevap": "",
+  "kaynak": "https://islamansiklopedisi.org.tr/cizre",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0043/H-0017",
+  "sinif": "ARAYUZ",
+  "ozet": "1517 Mısır/Berka ışınsal çıkıntıların sebebi.",
+  "kanit": "Serbest hat dişleri sınıfı (SINIR-DIS-0070); çaresi js/app.js dpSadelestir (:244 civarı) indi. Koşu 23 yayınında bu kare yeniden görüntülenmedi — ölçülemedi.",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "Yayında 1517-09-10, 20.8-26.9K/24.4-31.1D kutusu görüntülensin; sürüyorsa serbest havuzdaki uç sayısı ölçülsün.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0044/H-0002",
+  "sinif": "KOSU",
+  "ozet": "Mohaç maddesinde yerleşimsiz parça Osmanlı rengine geçiyor.",
+  "kanit": "Parça Debrecen peteği. Budin/Varad/Debrecen tâbilik başlangıcı 1526-09-01 → 1526-11-10 (Szapolyai seçimi, TDV süleyman-i) yapıldı; git diff 672acbc1..HEAD bu değişikliği gösteriyor ⇒ koşu 23 girdisinden sonra. Mohaç (1526-08-29) günü Debrecen → macaristan.",
+  "dosyalar": [
+   "data/yerlesimler_kdmacar.js",
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Yalnız HAVVA tam koşusu.",
+  "cevap": "",
+  "kaynak": "https://islamansiklopedisi.org.tr/suleyman-i",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0044/H-0004",
+  "sinif": "BAYAT",
+  "ozet": "Macaristan himayesi gösterimi (kenar şeridi); Budin kırmızı normal mi.",
+  "kanit": "js/app.js himaye-serit-dis / himaye-serit-ic katmanları mevcut; Budin v 1526-11-10→1527, macaristan-habsburg 1527-1529, v 1529-1541, d 1541-08-29 (girdi.yukle).",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0044/H-0011",
+  "sinif": "MOTOR",
+  "ozet": "1546 Basra kıyısında ışınsal bozulmalar.",
+  "kanit": "Kutuda 6 nokta (Basra/Kürne/Fâv/Abâdân OSMANLI, Kuveyt/Muhammere sahipsiz); delta/bataklık dolgu noktası yok. Bozulma petek+kıyı kesimi çıktısında; koşu 23 gövdesinde ölçülmedi.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "Koşu 23 yayınında 1546 Basra kıyısı görüntülensin; sürüyorsa SERBEST ∖ kıyı tamponu (P13B) ya da delta dolgu noktası.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0044/H-0012",
+  "sinif": "BAYAT",
+  "ozet": "Van fethinde Çaldıran, Başkale ve çevre şehirlerin durumu.",
+  "kanit": "girdi.yukle 1548-08-26: Çaldıran ve Başkale OSMANLI (d 1548-08-24, yerlesimler_ek26.js:130/138).",
+  "dosyalar": [
+   "data/yerlesimler_ek26.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0045/H-0007",
+  "sinif": "VERI",
+  "ozet": "Bütün savaşların hikâyeleri ek okuma olarak.",
+  "kanit": "Emre’nin saydığı savaşlar kartlı (ekokuma_savas.js, savas3, p75b, rivayet; KUTU-HUKUM-ESKI-1012). “Tüm savaşlar” kapsaması (kartsız savaş maddeleri) sayılmadı.",
+  "dosyalar": [
+   "data/ekokuma_savas*.js"
+  ],
+  "oneri": "Kartsız çekirdek savaş maddelerini say, sıradaki dalgayı TDV’den yaz.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0045/H-0009",
+  "sinif": "VERI",
+  "ozet": "Bütün antlaşmalara hüküm + önem/sebep-sonuç ek okuması.",
+  "kanit": "ekokuma_antlasma2-8 mevcut (13 Eki ANT-KART 44 antlaşma + ANT-2 12 kart). Kronolojideki her antlaşma maddesi × kart eşleşmesi ölçülmedi.",
+  "dosyalar": [
+   "data/ekokuma_antlasma*.js"
+  ],
+  "oneri": "Antlaşma maddeleri × kart bağı taraması; kartsızlara dalga.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0045/H-0010",
+  "sinif": "VERI",
+  "ozet": "Padişahlar için magazin/komplo/ilginç hikâye ek okumaları.",
+  "kanit": "ekokuma_padisah.js, ekokuma_rivayet.js, ekokuma_ibrahim.js, ekokuma_magazin.js mevcut; 36 padişahın kapsaması ölçülmedi.",
+  "dosyalar": [
+   "data/ekokuma_padisah.js",
+   "data/ekokuma_magazin.js"
+  ],
+  "oneri": "Padişah × kart sayımı; kartsız padişahlara dalga.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0045/H-0011",
+  "sinif": "BAYAT",
+  "ozet": "Mimari yapılara üslup/teknik ek okumaları.",
+  "kanit": "ekokuma_mimari.js ve mimari2.js; Sâdâbâd kartı ekokuma_mimari2.js:41-43.",
+  "dosyalar": [
+   "data/ekokuma_mimari2.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0045/H-0012",
+  "sinif": "VERI",
+  "ozet": "Fizan sonrası Trablus ile Fizan arasında Osmanlı ortasında boşluk.",
+  "kanit": "1600-01-01 27.3-29.7K/10.5-16.5D kutusunda yalnız 2 nokta (Sokna, Vaddân); Hamade platosunda nokta veya kasıtlı boşluk beyanı yok (KAPAT-KUYRUK-0930). Boşluk yürüyüş bütçesi (40 sa) dışı noktasız çöl.",
+  "dosyalar": [
+   "data/yerlesimler_afrika.js"
+  ],
+  "oneri": "Boşluk doğru sayılıyorsa kasitli_bosluk+bos:\"col\" beyanı yazılsın; doldurulması isteniyorsa B görünümü (0041/H-0001) konusu.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0046/H-0007",
+  "sinif": "BAYAT",
+  "ozet": "Revan alınırken Gümrü ve Ecmiyadzin.",
+  "kanit": "Revan, Gümrü, Ecmiyadzin aynı pencere d 1583-09-13→1604-06-08 (yerlesimler.js:661; ek26.js:87/91); 1590-03-21 hepsi OSMANLI (girdi.yukle).",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/yerlesimler_ek26.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0046/H-0012",
+  "sinif": "BAYAT",
+  "ozet": "Ferhat Paşa ile 8 şehir kimde kaldı.",
+  "kanit": "girdi.yukle 1590-03-21: Çaldıran, Başkale, Gümrü, Ecmiyadzin, Maku, Şerur, Merend, Selmas hepsi OSMANLI.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/yerlesimler_ek26.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0047/H-0001",
+  "sinif": "VERI",
+  "ozet": "Ferhat Paşa sonrası Kasr-ı Şirin, Zencan, Sultaniye, Bicar, Merivan, Sakkız, Bane, Serdeşt, Mahabad kimde.",
+  "kanit": "girdi.yukle 1595-01-01: Kasr-ı Şîrîn OSMANLI; Zencan safevi; Bîcâr kur 1801; Merîvan, Sakkız, Serdeşt, Bâne → safevi (1501-1736 tek blok). YAMA-FERHATPASA-BIRLESIK-0913 / EMRE5 bunları 1585/1590-1603 Osmanlı tâbisi sayıyor, uygulanmamış.",
+  "dosyalar": [
+   "data/yerlesimler.js",
+   "data/yerlesimler_kalite4.js"
+  ],
+  "oneri": "Merîvan, Bâne v: tâbi (BOA 1582/1585 kaydı), Sakkız, Serdeşt v: 1590-03-21→1603-10-21 — yama dosyasındaki kaynakla; Değişmez 2 için kronoloji bağı.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0048/H-0001",
+  "sinif": "ARASTIRMA",
+  "ozet": "Üstyurt-Karakum beyaz bölgede hiç devlet/yerleşim yok mu.",
+  "kanit": "Üstyurt doğu/batı kasitli_bosluk bos:\"kabile\" (yerlesimler.js:2179-2185); Guryev 1640, Krasnovodsk 1869 kuruluşlu; 1590’da Hîve/Ürgenç hive.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "İsteğe bağlı: boy adı etiketleri (Salur/Teke/Yomut) ve Harizm 1593-98 Buhara işgali kaydı.",
+  "cevap": "Bölge bilerek boş: göçer Türkmen boylarının yurdu, fiilî devlet idaresi kaynakta yok; şehirler sonradan kuruldu.",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0048/H-0009",
+  "sinif": "BAYAT",
+  "ozet": "1602 Katar doğusunda tuhaf şekilli boyama.",
+  "kanit": "Koşu 18 ölçümü: 1602-06-01 Doha ve Katar içi 4 nokta hiçbir yabancı gövdede değil (KAPAT-KUYRUK-0930); Katar dolgusu v 1559-1670 Lahsâ’ya bağlı (yerlesimler_ek_korfez.js:66-70).",
+  "dosyalar": [
+   "data/yerlesimler_ek_korfez.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0048/H-0010",
+  "sinif": "MOTOR",
+  "ozet": "1602 Katar batısında görüntü bozulması (uzun doğru parçaları).",
+  "kanit": "Bilinen üçgen kusuru (0,3-257 km segmentler); dpSadelestir kısa segmenti çözer, uzun parçayı değil. Koşu 23 sonrası segment dağılımı ölçülmedi.",
+  "dosyalar": [
+   "arac/uret_petek.py",
+   "js/app.js"
+  ],
+  "oneri": "Koşu 23 donemler.js SERBEST havuzunda 24.5-26.5K/50-51D hattında >100 km segment sayılsın.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0048/H-0011",
+  "sinif": "BAYAT",
+  "ozet": "Doha/Katar 1602’de Safevî’de mi.",
+  "kanit": "Katar dolgusu v 1559-1670 Lahsâ beylerbeyiliğine bağlı (yerlesimler_ek_korfez.js:66-70); koşu 18’de Katar’da Safevî gövdesi yok.",
+  "dosyalar": [
+   "data/yerlesimler_ek_korfez.js"
+  ],
+  "oneri": "",
+  "cevap": "Hayır; 1559’dan beri Katar sancağı Osmanlı (Lahsâ) hâkimiyetinde.",
+  "kaynak": "https://islamansiklopedisi.org.tr/katar",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0048/H-0015",
+  "sinif": "TEKRAR",
+  "ozet": "Her antlaşma maddesinde hükümler + önem/sebep-sonuç ek okuması.",
+  "kanit": "Aynı iş 0045/H-0009.",
+  "dosyalar": [
+   "data/ekokuma_antlasma*.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": "parti-emrelic-0045/H-0009"
+ },
+ {
+  "anahtar": "parti-emrelic-0049/H-0001",
+  "sinif": "BAYAT",
+  "ozet": "Çaldıran ve Başkale hangi tarihte kimin egemenliğinde.",
+  "kanit": "Çaldıran/Başkale s safevi 1502→1548-08-24, d 1548-08-24→1920, tbmm 1920-1923 (yerlesimler_ek26.js:130/138; girdi.yukle 1548-08-26 → OSMANLI).",
+  "dosyalar": [
+   "data/yerlesimler_ek26.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0050/H-0001",
+  "sinif": "BAYAT",
+  "ozet": "Rus kaynaklarında Kırım Hanlığı ek okuması.",
+  "kanit": "data/ekokuma_kirimrus.js 5 kart (Moskova yanıyor … Aynı hanlık, dört ayna).",
+  "dosyalar": [
+   "data/ekokuma_kirimrus.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0050/H-0002",
+  "sinif": "BAYAT",
+  "ozet": "1638 Bağdat fethinde Orta Irak yerleşimlerinin durumu; Şehrizor/Halepçe.",
+  "kanit": "Bağdat/Hille/Kerbelâ d 1638-12-24; Şehrizor ve Halepçe 1630’da OSMANLI (girdi.yukle).",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0050/H-0003",
+  "sinif": "BAYAT",
+  "ozet": "I. Mustafa kızlarağası ek okuması ve başlıktaki “doğrulanamadı” ibaresi.",
+  "kanit": "Başlık temiz (olaylar_ek17.js:46, eski sonek ic_not_b’de); kart ekokuma_rivayet.js:158 ve ekokuma_padisah.js tartisma-mustafa-i-kizlaragasi.",
+  "dosyalar": [
+   "data/olaylar_ek17.js",
+   "data/ekokuma_rivayet.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0050/H-0004",
+  "sinif": "VERI",
+  "ozet": "Okura görünen metinlerden geliştirici notlarını ayıkla.",
+  "kanit": "13 Eki OKUR-DILI commit’i (2708f416a) 90 dosyada temizlik yaptı; yine de okur alanlarında (b/d/gun/baslik/metin/not; olaylar*/kronoloji*/ekokuma*/merak*) “bulunamadı” 132, “doğrulanamadı” 25, “kaynaksız” 10, “atlas veri” 3 isabet (scratchpad okur_tara.py; ör. ekokuma_antlasma7.js “TDV’de verilmiyor: bulunamadı”).",
+  "dosyalar": [
+   "data/ekokuma_antlasma7.js",
+   "data/ekokuma_alemdar.js",
+   "data/olaylar*.js"
+  ],
+  "oneri": "Kalan ~170 isabeti okur diline çevir ya da ic_not’a taşı; denetle_yayin’a okur-alanı kalıp kapısı.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0050/H-0005",
+  "sinif": "BAYAT",
+  "ozet": "Kasr-ı Şirin ek okumaları.",
+  "kanit": "data/ekokuma_kasrisirin.js (Zühâb ovasında üç gün, hükümler, kurucu belge mi).",
+  "dosyalar": [
+   "data/ekokuma_kasrisirin.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0050/H-0006",
+  "sinif": "BAYAT",
+  "ozet": "Kasr-ı Şirin’e göre Halepçe ve Şehrizor doğru tarafta mı.",
+  "kanit": "Şehrizor d 1630-03-16→1918, Halepçe d 1638-12-24→1917 (girdi.yukle 1700 → OSMANLI); karşılaştırma denetim/ARASTIRMA-BAGDAT-0914.md:110-134.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Bedre/Mendeli/Zengabad noktaları yok (ayrı küçük iş).",
+  "cevap": "İkisi de antlaşma ile Osmanlı tarafında kaldı.",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0050/H-0007",
+  "sinif": "BAYAT",
+  "ozet": "Magazin/kişi/nasıl bilirdiniz kartları akordeon olsun.",
+  "kanit": "js/app.js AKORDEON_EK_TUR kv-kunye/kv-nasil/kv-magazin (PAKET-UI4).",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0050/H-0008",
+  "sinif": "BAYAT",
+  "ozet": "I. İbrahim skandal/magazin ek okumaları.",
+  "kanit": "data/ekokuma_ibrahim.js 12 kart (Cinci Hoca, samur, Hezarpare, hal’ günü vb.).",
+  "dosyalar": [
+   "data/ekokuma_ibrahim.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0051/H-0001",
+  "sinif": "BAYAT",
+  "ozet": "İbrahim’in hal’i ile IV. Mehmed cülusu sırası ters.",
+  "kanit": "olaylar_ek2.js:92 “Sultan İbrahim’in katli” t 1648-08-18; cülus olaylar_ek7.js:82 1648-08-08 — sıra doğru.",
+  "dosyalar": [
+   "data/olaylar_ek2.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0051/H-0002",
+  "sinif": "BAYAT",
+  "ozet": "Şüpheli ölümler listesini okunur metne dönüştür.",
+  "kanit": "ekokuma_padisah.js’de tek paragraf 13 ayrı karta bölünmüş (supheli-olum-* kartları).",
+  "dosyalar": [
+   "data/ekokuma_padisah.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0051/H-0003",
+  "sinif": "VERI",
+  "ozet": "Vestfalya maddesinde odak + Otuz Yıl Savaşları ek okuması.",
+  "kanit": "Odak tamam: olaylar_ek20.js:344 yer_id:\"Münster\", t 1648-10-24. Kart ekokuma_dunya.js:277 dunya-otuz-yil-savaslari-vestfalya ama olay bağı [\"1648-08-08|IV. Mehmed\"] — Vestfalya maddesine bağlı değil.",
+  "dosyalar": [
+   "data/ekokuma_dunya.js"
+  ],
+  "oneri": "Kartın olay:’ına \"1648-10-24|Vestfalya\" ekle (ya da cülus bağını değiştir).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0051/H-0004",
+  "sinif": "BAYAT",
+  "ozet": "1652 Sloboda katman bindirmeleri.",
+  "kanit": "GOVDE-CAKISMA-0079 motor yaması (uret_petek.py “EKLEME KOMŞU TOPRAĞINI KESMEZ”); koşu 18’de Harkov-Çuguyev bindirmesi yok (KAPAT-KUYRUK-0930). Aynı pencerede rusya×don-kazak 6.047 km² ve lehistan×rusya 1.074 km² çakışma kalmıştı; koşu 23’te ölçülmedi.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "Kalan iki çakışma koşu 23 gövdesinde ölçülsün (MOTOR).",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0051/H-0005",
+  "sinif": "BAYAT",
+  "ozet": "Kâtib Çelebi ek okuması.",
+  "kanit": "ekokuma_rivayet.js kimdir-katib-celebi + Cihannümâ/Keşfü’z-zünûn kartları.",
+  "dosyalar": [
+   "data/ekokuma_rivayet.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0051/H-0006",
+  "sinif": "BAYAT",
+  "ozet": "Yanova maddesindeki “harita onu tâbi renkte gösteriyordu” cümlesi.",
+  "kanit": "grep “renkte gösteriyordu” data/olaylar*.js kronoloji*.js = 0; Yanova (olaylar_ek5.js:247) ve Varad (:249) temiz.",
+  "dosyalar": [
+   "data/olaylar_ek5.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0051/H-0007",
+  "sinif": "ARASTIRMA",
+  "ozet": "Levant’ta iki özerk görünen yer nedir, ne zamandan ne zamana.",
+  "kanit": "Deyrülkamer v özerk 1516-10-01→1842 kid lubnan-emirligi (TDV lübnan); Ba’lebek v özerk 1521→1850 kid harfusogullari (yerlesimler_ek29.js); Harfûş kartı ekokuma_p75c.js:100. Lübnan emirliği için okur kartı yok.",
+  "dosyalar": [
+   "data/yerlesimler_ek29.js",
+   "data/ekokuma_p75c.js"
+  ],
+  "oneri": "Lübnan Emirliği (Ma‘noğulları/Şihâbîler 1516-1842) açıklama kartı yazılsın.",
+  "cevap": "Kaynaklı: Lübnan Emirliği (Deyrülkamer, 1516-1842) ve Harfûşoğulları (Ba‘lebek, 1521-1850) Osmanlı’ya bağlı özerk yerel hanedanlar.",
+  "kaynak": "https://islamansiklopedisi.org.tr/lubnan",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0051/H-0008",
+  "sinif": "BAYAT",
+  "ozet": "Lahsa/Katar civarı bozuk desen.",
+  "kanit": "Koşu 18, 1670-01-01: gövde çakışması 0 km², Katar’da Safevî şeridi yok (KAPAT-KUYRUK-0930). Koşu 23’te ayrıca ölçülmedi.",
+  "dosyalar": [
+   "arac/uret_petek.py"
+  ],
+  "oneri": "Yan: Katar 1670 sonrası sahipsiz — Benî Hâlid kaydı ayrı veri kararı.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0001",
+  "sinif": "BAYAT",
+  "ozet": "Üç voyvodalık isyanında başkentlere isyan ateşi.",
+  "kanit": "js/app.js function isyanAtesGuncelle mevcut.",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0002",
+  "sinif": "ARASTIRMA",
+  "ozet": "Kırım bozkırları olarak görünen alanlar (Deşt-i Kıpçak, Kuban, Nogay, Yedisan, Camboyluk, Yediçkul, Çerkezya kıyısı vb.) gerçekten Kırım toprağı mı.",
+  "kanit": "1700’de Bozkır/Camboyluk/Yedisan/Yediçkul tâbi:kirim, Kuban/Stavropol/Maykop/Soçi/Tuapse tâbi, Anapa 13 Eki’den beri doğrudan Osmanlı (KUTU-HUKUM-ESKI-1012; DUZELTME-1 13 Eki; SIRADA-A 13 Eki “bozkır Don Kazak’a”). 11 bozkırın her biri kaynakla tek tek teyit edilmedi.",
+  "dosyalar": [
+   "data/yerlesimler_ek_bozkir.js",
+   "data/yerlesimler.js"
+  ],
+  "oneri": "TDV kırım hanlığı, kuban, nogaylar, yedisan, çerkezler ile her bozkır için dönem tablosu; uyuşmayan v:/s: düzeltilsin, sonra koşu.",
+  "cevap": "",
+  "kaynak": "https://islamansiklopedisi.org.tr/kirim-hanligi",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0003",
+  "sinif": "BAYAT",
+  "ozet": "Üç voyvodalık isyanı maddesi.",
+  "kanit": "data/olaylar_p0059.js 1594-11-13 maddesi + ekokuma_rivayet.js sebep-sonuc-1594-uc-voyvodalik-isyani.",
+  "dosyalar": [
+   "data/olaylar_p0059.js",
+   "data/ekokuma_rivayet.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0004",
+  "sinif": "BAYAT",
+  "ozet": "Nurbânû/Safiye/III. Murad harem hikâyeleri.",
+  "kanit": "ekokuma_padisah.js magazin-nurbanu-safiye-murad-iii · ekokuma_kadin.js kimdir-nurbanu-sultan, kimdir-safiye-sultan.",
+  "dosyalar": [
+   "data/ekokuma_padisah.js",
+   "data/ekokuma_kadin.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0005",
+  "sinif": "BAYAT",
+  "ozet": "III. Mehmed’in oğlunu boğdurması.",
+  "kanit": "ekokuma_padisah.js tartisma-sehzade-mahmud-tarih-bulgusu · ekokuma_hanedan.js sebep-sonuc-1595-on-dokuz-sehzade.",
+  "dosyalar": [
+   "data/ekokuma_padisah.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0006",
+  "sinif": "VERI",
+  "ozet": "Tüm savaşların sebep/başlangıç/bedel/antlaşma maddeleri ve meydan muharebeleri ek okuması.",
+  "kanit": "EKO-DUNYA savaş kartları (ekokuma_dunya.js savas-viyana-karlofca-1683-1699, savas-kirim-savasi-1853-1856, savas-93-harbi) + havuzda 51 savaş hikâyesi kartı; 13 Eki SAVAS-KUNYE/SAVAS-2 savaş künyeleri. “Bütün savaşlar” ve “savaş başlangıcı maddesi” kapsaması ölçülmedi.",
+  "dosyalar": [
+   "data/ekokuma_dunya.js",
+   "data/savaslar.js"
+  ],
+  "oneri": "Büyük savaşlar için başlangıç (ilan) maddesi var mı taraması; eksiklere madde + kart.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0007",
+  "sinif": "BAYAT",
+  "ozet": "1596 sefer maddesinde yanlış Nevşehirli Damad İbrahim Paşa kartı.",
+  "kanit": "kisiler.js:56 damad-ibrahim-pasa-1601; olaylar_ek7.js:60 kisiler “III. Mehmed, Damad İbrâhim Paşa (ö. 1601)”.",
+  "dosyalar": [
+   "data/kisiler.js",
+   "data/olaylar_ek7.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0008",
+  "sinif": "BAYAT",
+  "ozet": "Kanije/Tiryaki Hasan Paşa halk anlatıları.",
+  "kanit": "ekokuma_rivayet.js menkibe-tiryaki-hasan-pasa-kanije.",
+  "dosyalar": [
+   "data/ekokuma_rivayet.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0009",
+  "sinif": "BAYAT",
+  "ozet": "Fethedilen toprağın yanıp sönme + öncesi/sonrası düğmeleri.",
+  "kanit": "js/app.js “Yakıp söndür” ve _farkKutusuCiz mevcut.",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0010",
+  "sinif": "ARASTIRMA",
+  "ozet": "Gence/Karabağ/Tiflis elden çıkınca kime boyanmalı.",
+  "kanit": "KAPAT-0052-0930 HARİTA-VERİ kaynakla ölçtü: Gence/Karabağ doğrudan Safevî; Kartli/Kaheti kendi kralları altında Safevî tâbisi.",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Açık tasarım sorusu (Emre): Safevî tâbiliği için şerit/ton gösterimi istenir mi.",
+  "cevap": "Harita kaynakla uyumlu: Gence ve Karabağ Safevî’ye, Tiflis kendi Gürcü krallarına (Safevî tâbisi) geçti.",
+  "kaynak": "https://islamansiklopedisi.org.tr/gence",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0011",
+  "sinif": "BAYAT",
+  "ozet": "Kabartay rengi Gürcistan’a yakın.",
+  "kanit": "arac/renkler.py:3096 kabartay #0c5a84 (gurcistan #e020b0).",
+  "dosyalar": [
+   "arac/renkler.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0012",
+  "sinif": "MOTOR",
+  "ozet": "Nalçik doğusunda dağı aşan üçgen alan; Kafkas sırtına yaslanma.",
+  "kanit": "Koşu 23 MOTOR_YURUYUS=1 ile koştu ama bu kare koşu 23 gövdesinde ölçülmedi. Vladikavkaz (bos:\"kabile\") ve Kabartay (1427) kayıtları 13 Eki’de değişti — koşu sonrası. 13 Eki AVRUPA-YER “Kafkas sırt beyanı”.",
+  "dosyalar": [
+   "arac/uret_petek.py",
+   "data/yerlesimler.js"
+  ],
+  "oneri": "Sonraki koşu çıktısında Nalçik doğusu (43.0-43.6K, 43.6-45D) görüntülensin; dağ aşımı sürüyorsa yürüyüş maliyetinde sırt bedeli.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "dusuk",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0013",
+  "sinif": "BAYAT",
+  "ozet": "Venedik sarısı Avusturya’ya yakın.",
+  "kanit": "arac/renkler.py:899 venedik #fcfc06, :588 avusturya #bdab3f.",
+  "dosyalar": [
+   "arac/renkler.py"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0014",
+  "sinif": "BAYAT",
+  "ozet": "Derbend koyu ton almadan İran rengine dönüyor; davranış tâbi/doğrudana göre mi değişiyor.",
+  "kanit": "girdi.yukle 1606-12-30→1607-01-01: Şamahı, Bakü, Derbend, Kuba hepsi OSMANLI→safevi (aynı çift); js/suzgec.js komşu eşleşmesi (önce,sonra) çiftiyle çalışıyor.",
+  "dosyalar": [
+   "js/suzgec.js"
+  ],
+  "oneri": "Genel “Osmanlı ≡ tâbi” eşdeğerliği hâlâ yok — tâbi→yabancı vakaları ayrı bakılabilir (ARAYUZ).",
+  "cevap": "Evet, koyu vurgu maddeye bağlanan aynı (önce→sonra) değişim çiftine uygulanıyor; tâbi bir yer farklı çift sayıldığından dışarıda kalabiliyordu. Bugünkü veride Derbend doğrudan Osmanlı, vaka kalmadı.",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0015",
+  "sinif": "TEKRAR",
+  "ozet": "Ba’lebek Harfûşoğulları ve Deyrülkamer özerk görünümü + özerk/vassal/haraçgüzâr yapılar ek okuması.",
+  "kanit": "Aynı soru 0051/H-0007. Sınıflandırma ek okuması mevcut: data/ekokuma_statu.js statu-terim-haracguzar-tabi-himaye, statu-terim-muhtar-imtiyazli-bagli, statu-terim-eyalet-sancak-ocaklik.",
+  "dosyalar": [
+   "data/ekokuma_statu.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": "parti-emrelic-0051/H-0007"
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0016",
+  "sinif": "BAYAT",
+  "ozet": "I. Mustafa’nın tuhaf davranışları ek okuması.",
+  "kanit": "ekokuma_padisah.js tartisma-mustafa-i-davranislari.",
+  "dosyalar": [
+   "data/ekokuma_padisah.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0017",
+  "sinif": "BAYAT",
+  "ozet": "Genç Osman reform, kardeş katli, hac ek okumaları.",
+  "kanit": "ekokuma_padisah.js tartisma-osman-ii-reform-imaji, olum-sehzade-mehmed-osman-ii-1621, tartisma-padisahlar-hac-gitmemesi.",
+  "dosyalar": [
+   "data/ekokuma_padisah.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0018",
+  "sinif": "BAYAT",
+  "ozet": "I. Mustafa hal’inde kızlarağası ek okuması.",
+  "kanit": "ekokuma_padisah.js tartisma-mustafa-i-kizlaragasi.",
+  "dosyalar": [
+   "data/ekokuma_padisah.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0019",
+  "sinif": "BAYAT",
+  "ozet": "Bağdat’ın Safevîlere kaybında bazı yerler koyu tonla, bazıları doğrudan geçiyor.",
+  "kanit": "girdi.yukle 1623-11-27→28: Bağdat, Âne, Tikrit, Kifri, Hît, Hânekîn, Divaniye, Vâsıt hepsi OSMANLI→safevi aynı gün aynı çift; 150 km komşu eşiği kaldırıldı (js/suzgec.js).",
+  "dosyalar": [
+   "js/suzgec.js"
+  ],
+  "oneri": "Tarayıcıda madde açılıp seçilen yer sayısı görülmedi.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0020",
+  "sinif": "BAYAT",
+  "ozet": "1623 Bağdat’ta savaş ilanı var mıydı.",
+  "kanit": "ekokuma_rivayet.js tartisma-bagdat-1623-savas-ilani-mi.",
+  "dosyalar": [
+   "data/ekokuma_rivayet.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0021",
+  "sinif": "ARASTIRMA",
+  "ozet": "Erbil, Musul/Kerkük ile birlikte mi el değiştirdi; 1625-1638 adacık.",
+  "kanit": "girdi.yukle: Erbil safevi 1623-11-28→1638-12-24 (13 Eki’de 12-25→12-24); Musul ve Kerkük safevi yalnız 1624→1625 ⇒ Erbil 1625-1638 Osmanlı içinde Safevî adacığı. Erbil’i adıyla anan kaynak bulunamadı (KUTU-HUKUM-ESKI-1012).",
+  "dosyalar": [
+   "data/yerlesimler.js"
+  ],
+  "oneri": "TDV erbil/musul/kerkük + Kütükoğlu’nda 1625 Osmanlı geri alışında Erbil; kaynak yoksa Musul/Kerkük’e hizalama Emre kararı (beyanlı).",
+  "cevap": "",
+  "kaynak": "https://islamansiklopedisi.org.tr/erbil",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0023",
+  "sinif": "BAYAT",
+  "ozet": "Evliya Çelebi kişi kartı/ek okuması.",
+  "kanit": "ekokuma_vezir.js kimdir-evliya-celebi.",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0024",
+  "sinif": "BAYAT",
+  "ozet": "1632 IV. Murad maddesinin sonundaki geliştirici notu.",
+  "kanit": "js/app.js:12078-12093: eşleşme yoksa “haritadaki karşılığı” kutusu basılmıyor, not console.debug’a gidiyor.",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0025",
+  "sinif": "BAYAT",
+  "ozet": "1632 Lâgarî maddesinin sonundaki geliştirici notu.",
+  "kanit": "js/app.js:12078-12093 (H-0024 ile aynı çare).",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0026",
+  "sinif": "BAYAT",
+  "ozet": "Evliya Çelebi tartışma/eleştiri kartı.",
+  "kanit": "ekokuma_vezir.js tartisma-evliya-celebi-guvenilirlik.",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0027",
+  "sinif": "BAYAT",
+  "ozet": "Kâtib Çelebi 1633 maddesindeki “haritadaki karşılığı bulunamadı” notu.",
+  "kanit": "js/app.js:12078-12093 (aynı çare).",
+  "dosyalar": [
+   "js/app.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0028",
+  "sinif": "VERI",
+  "ozet": "Kâtib Çelebi, Lâgarî, Hezarfen maddelerine görsel.",
+  "kanit": "Kâtib Çelebi görseli 13 Eki indi (data/gorsel_madde.js “1654-12-01-katib-celebi-cihannuma-1732-arabistan”, commit 2708f416a). Lâgarî ve Hezarfen: lisans/kaynak belirsiz diye indirilmedi.",
+  "dosyalar": [
+   "data/gorsel_madde.js",
+   "assets/gorseller/"
+  ],
+  "oneri": "Lâgarî/Hezarfen için Commons PD (ör. 19. yy gravürleri) bulunursa gorsel_kaynak ile ekle; yoksa “görsel yok” bırak.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0029",
+  "sinif": "BAYAT",
+  "ozet": "Kahve, tütün, içki, spor, kahvehane ek okumaları.",
+  "kanit": "ekokuma_toplum.js kahve-kahvehane-yasagi, tutun-yasagi-kaldirilmasi · ekokuma_tamamla.js teknik-osmanli-spor-gelenekleri.",
+  "dosyalar": [
+   "data/ekokuma_toplum.js",
+   "data/ekokuma_tamamla.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0030",
+  "sinif": "BAYAT",
+  "ozet": "İdam edilen devlet adamları ek okuması.",
+  "kanit": "ekokuma_vezir.js tartisma-idam-edilen-devlet-adamlari, kimdir-ahizade-huseyin-efendi.",
+  "dosyalar": [
+   "data/ekokuma_vezir.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0031",
+  "sinif": "BAYAT",
+  "ozet": "Devlet kademeleri ek okuması.",
+  "kanit": "ekokuma_kurum.js teknik-osmanli-devlet-kademeleri.",
+  "dosyalar": [
+   "data/ekokuma_kurum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0032",
+  "sinif": "BAYAT",
+  "ozet": "İdari yapı ve değişimi ek okuması.",
+  "kanit": "ekokuma_kurum.js teknik-osmanli-idari-yapi-degisimi.",
+  "dosyalar": [
+   "data/ekokuma_kurum.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0033",
+  "sinif": "VERI",
+  "ozet": "Osmanlı ekonomisi + Avrupa (feodalizm, kilise, sanayi devrimi, aydınlanma) karşılaştırmalı ek okumalar.",
+  "kanit": "Kısmi: ekokuma_toplum.js timar-avrupa-feodalizm-farki, lonca, vergi kartları. Avrupa karşılaştırması (kilise, burjuvazi, sanayi devrimi, aydınlanma) kartı yok; TDV kapsamıyor.",
+  "dosyalar": [
+   "data/ekokuma_toplum.js"
+  ],
+  "oneri": "Akademik kaynakla (ör. İnalcık, Pamuk) karşılaştırma kartları; kaynak alanına açıkça.",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "orta",
+  "tekrar_of": ""
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0034",
+  "sinif": "BAYAT",
+  "ozet": "Sosyal yaşam ek okumaları.",
+  "kanit": "ekokuma_toplum.js mahalle-teskilati-sorumluluk · ekokuma_tamamla.js teknik-osmanli-kiyafet-statu.",
+  "dosyalar": [
+   "data/ekokuma_toplum.js",
+   "data/ekokuma_tamamla.js"
+  ],
+  "oneri": "",
+  "cevap": "",
+  "kaynak": "",
+  "guven": "yuksek",
+  "tekrar_of": ""
+ }
+]
