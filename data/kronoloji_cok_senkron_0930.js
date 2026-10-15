@@ -121,7 +121,7 @@ window.KRONOLOJI_COK_SENKRON_0930 = [
     gun:"29 Mayıs 1460 (Babinger)", yer:"Mistra", kisiler:"II. Mehmed · Dimitrios Palaiologos",
     d:"II. Mehmed'in 1460 Mora seferinde Despot Dimitrios Palaiologos Mistra'yı teslim etti; Palaiologos kardeşlerin yönettiği Bizans Mora Despotluğu sona erdi ve yarımadanın büyük kısmı Osmanlı idaresine girdi.",
     kaynak:"TDV: mora (MORA) — gövde yıl verir: \"Osmanlı devrinde ise (1460-1829)\" · Franz Babinger, Mehmed the Conqueror and His Time (Princeton 1978)",
-    taraflar:["bizans"], odak_kimlik:"bizans", etiket:["konu-savas"],
+    taraflar:["bizans"], odak_yer:"Mora (Tripoliçe)", ic_not_odak:"KUTU-H7-1015: odak_kimlik:'bizans' 1460'ta Limni ve Bozbaba'nın hatalı bizans dönemine (1479'a dek) dayanıyordu; o dönem düzeltilince (Bizans 1453'te biter) kutu kurulamadı — kamera Mora'ya yönlendirildi.", etiket:["konu-savas"],
     ic_not_k:"TDV yalnız YILI veriyor; gün Babinger'den, sayfa açılmadı." },
   { t:"1871-01-18", k:"siyasi", b:"Versay'da Alman İmparatorluğu ilân edilir: Prusya kralı I. Wilhelm Alman imparatoru olur",
     gun:"18 Ocak 1871", yer:"Versay, Aynalı Salon", kisiler:"I. Wilhelm · Bismarck",
