@@ -3106,6 +3106,19 @@ _B1_SAYAC = {"dolduruldu": 0, "yabanci_yerlesim": 0, "yabanci_ad": set(),
              "kapat_engel": 0, "kapat_engel_ad": set()}
 
 
+def _poligonlar(h):
+    """Geometrinin POLİGON parçaları. 16 Ekim 2026: KOŞU 26 _ham_km2'de GeometryCollection ile çöktü
+    (petek ∩ kara poligon + kenar çizgisi döndürdü). Çizgi/nokta alan taşımaz; Polygon/MultiPolygon
+    girdide sonuç eskisiyle BİREBİR aynı."""
+    if h is None or h.is_empty:
+        return []
+    if h.geom_type == "Polygon":
+        return [h]
+    if h.geom_type in ("MultiPolygon", "GeometryCollection"):
+        return [q for alt in h.geoms for q in _poligonlar(alt)]
+    return []
+
+
 def delikleri_doldur(g, muaf=True, sahip_ix=None):
     """Kuşatılmış boşluk bırakmaz: çevresi ele geçmiş alan (dağ bloğu, ova) da
     hâkimiyet altındadır.
@@ -3125,7 +3138,7 @@ def delikleri_doldur(g, muaf=True, sahip_ix=None):
                davranışı sürdürür. Şüphede DOLDURMA.
                `None` ise bu yasak uygulanmaz (eski davranış aynen sürer)."""
     if g.is_empty: return g
-    ps = g.geoms if isinstance(g, MultiPolygon) else [g]
+    ps = _poligonlar(g)
     out = []
     for p in ps:
         tut = []
@@ -3947,7 +3960,7 @@ def _ham_km2(g):
     """Yuvarlamasız km² — alan_km2 bini yuvarladığı için oran hesabına uymuyor."""
     if g is None or g.is_empty:
         return 0.0
-    ps = g.geoms if isinstance(g, MultiPolygon) else [g]
+    ps = _poligonlar(g)
     T = 0.0
     for p in ps:
         for ring, sg in [(p.exterior, 1)] + [(h, -1) for h in p.interiors]:
@@ -4661,7 +4674,7 @@ print(f"Kırılma tarihi: {len(tarihler)}")
 
 def alan_km2(g):
     if g.is_empty: return 0
-    ps = g.geoms if isinstance(g, MultiPolygon) else [g]
+    ps = _poligonlar(g)
     T = 0.0
     for p in ps:
         for ring, sg in [(p.exterior, 1)] + [(h, -1) for h in p.interiors]:
