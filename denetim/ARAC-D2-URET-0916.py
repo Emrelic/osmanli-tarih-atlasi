@@ -482,6 +482,28 @@ iql = iq[0] if len(iq) == 1 else linemerge(iq)
 ucq = "bas" if iql.coords[0][1] < iql.coords[-1][1] else "son"    # Şattülarap GÜNEY uçta
 SATT_KM = 105 * uzunluk(iql) / 1458                                # IBS 164 oranı NE çizgisine
 satt, iqkara = uc_kes(iql, SATT_KM, ucq)
+# 🆕 KARAR3-1016 (Emre #17, 16 Ekim 2026; KUTU-1016 0039/H-0002 seçenek a) — GÜNEY UCU KAYNAKLI KOORDİNATLA.
+# IBS 164 (1978) s.5-6: Point 59 (Şattülarap talvegi × Nahr el-Hayyin) → BP1 → BP2 (Hayyin ortaçizgisi) → BP12 → BP14-A
+# → BP14-B → BP15 ("eastern limit of the Tigris valley"). 🔴 1975 yeniden sütunlamasının koordinatları (VEKİL), 1914
+# ölçümü DEĞİL; sıra Ryder, GJ 66/3 (1925) ss.227-242 ile aynı. BP14-B koordinatı kaynakta YOK ⇒ NE köşesi (47.6789,31.4079).
+# NE kara çizgisi BP15'e kırpılır, Şattülarap çizgisi Point 59'a bağlanır. ⚠️ Bu blok yazıldığında ÜRETİLMEDİ
+# (GeoNames dökümü bu makinede yok); data/d_sinirlar_komsu.js aynı mantıkla ELLE yazıldı (KARAR3-1016 commit'i).
+# ⚠️ Bu üretici SINIR-D-KOMSU-0077'nin Şattülarap YOK→E elle değişikliğini de İÇERMİYOR — yeniden koşturmadan önce eşitle.
+def _dms(d, m, sn=0.0):
+    return d + m / 60 + sn / 3600
+IBS164_P59 = (48 + 6.62 / 60, 30 + 26.90 / 60)
+IBS164_GUNEY = [IBS164_P59, (_dms(48, 6, 33), _dms(30, 27, 13)), (_dms(48, 1, 27), _dms(30, 28, 40)),
+                (_dms(48, 1, 56), _dms(30, 59, 53)), (_dms(47, 40, 54), _dms(31, 0, 1)), (47.6789, 31.4079),
+                (_dms(47, 51, 57), _dms(31, 47, 5))]
+_bp15 = Point(IBS164_GUNEY[-1])
+_yon = iqkara if iqkara.coords[0][1] < iqkara.coords[-1][1] else LineString(list(iqkara.coords)[::-1])
+_kuzey = substring(_yon, _yon.project(_bp15), _yon.length)
+iqkara = LineString([IBS164_GUNEY[-1]] + list(_kuzey.coords)[1:])
+_sy = satt if satt.coords[0][1] < satt.coords[-1][1] else LineString(list(satt.coords)[::-1])
+_sk = list(_sy.coords)
+_ix = min(range(len(_sk)), key=lambda i: Point(_sk[i]).distance(Point(IBS164_P59)))
+satt = LineString(_sk[:_ix + 1] + [IBS164_P59])
+iqguney = LineString(IBS164_GUNEY)
 PROT = {"ad": "İstanbul Protokolü (Türk-İran tahdidi)", "tarih": "1913-11-17", "tur": "protokol",
         "not": "IBS 164 metni 17 Kas 1913, antlaşma listesi 4 Kas 1913 — ÇELİŞKİ YOK, aynı gün: protokolün kendi başlığı 'November 4th (17th), 1913' (Pars Times tam metni, Selections from the Iraqi-Iranian Dispute s.138-145'ten; asıl yayın LN OJ 1935 Ek 1528 App. IIA) — 4 Teşrînisânî 1329 Rûmî / 4 Kasım Jülyen = 17 Kasım 1913 Mîlâdî (KUTU-H6-1015, 0039/H-0002; K1R3)"}
 ekle("d1923-iq-ir", IQ, IR, "1921-08-23", "D", [iqkara],
@@ -533,6 +555,25 @@ yok("d1923-iq-ir-DEGISTI-sattularap", IQ, IR, "1921-08-23", bbox([satt], 0.06),
     {"deger": True, "kaynak": "IBS 164", "not": "1913: sol kıyı (düşük su) sınırı; 1937 Abadan önünde talveg; 1975 tamamı talveg"},
     [PROT, {"ad": "IBS No. 164 Iran–Iraq", "tur": "resmî sınır çalışması",
             "alinti": "follows the thalweg of the Shatt al Arab downstream for 105"}])
+
+# 🆕 KARAR3-1016 — güney kesimin iki kaydı (hat SADELEŞTİRİLMEZ: kaynak köşeleridir)
+for _id, _a, _f, _t in (("d1923-iq-ir-guney-ibs164", IQ, "1921-08-23", T), ("g1-osm-ir-guney-ibs164", "osmanli", "1913-11-17", "1921-08-23")):
+    KAYIT.append({
+        "id": _id, "taraflar": [_a, IR], "f": _f, "t": _t, "kategori": "D", "sinif": "E",
+        "sinif_not": "E (VEKİL): hukukî hat 1913 İstanbul Protokolü + 1914 komisyonu; koordinat 1975 sütunlaması (IBS 164) — F değil: tanınma kanıtı yok",
+        "sol_taraf": _a, "hat": [[round(x, 4), round(y, 4)] for x, y in iqguney.coords],
+        "uzunluk_km": round(uzunluk(iqguney), 1),
+        "geometri_kaynagi": "IBS 164 (1978) 1975 sütun koordinatları (Point 59, BP1, BP2, BP12, BP14-A, BP15) — '1913/14 hattının 1975 sütunlaması' VEKİLİ; BP14-B koordinatı kaynakta YOK ⇒ NE 10m köşesi (47.6789,31.4079) VEKİL köşe",
+        "degisti": {"deger": False, "kaynak": "IBS 164", "not": "1975 kara hattı 1913/14 esasıyla yeniden işaretlendi (IBS 164 s.4-5)"},
+        "tahdit": {"t": "1914-10", "not": "1914 komisyonu sütunları (Ryder 1925); bu kayıttaki koordinatlar 1975 sütunlarıdır"},
+        "kesinlik_km": 3.0,
+        "kesinlik_not": "VEKİL: 1975 sütunları; 1914 koordinatları (IOR/L/PS/10/522/2) okunamadı ⇒ farkı ÖLÇÜLMEDİ · ara sütunlar kirişle · BP14-B NE köşesi",
+        "dayanak": [PROT, {"ad": "IBS No. 164 Iran–Iraq", "tur": "resmî sınır çalışması", "url": IBS % 164, "sayfa": "s.5-6",
+                           "alinti": "to boundary pillar (B.P.) No. 1 (30º27'13\"N., 48º06'33\"E.) on the latter stream"},
+                    {"ad": "C. H. D. Ryder, Geographical Journal 66/3 (1925)", "sayfa": "ss.227-242", "tur": "akademik",
+                     "alinti": "plant pillar No. 1 where the frontier leaves the river between Mohammerah and Basra"}],
+        "not": "YENİ (KARAR3-1016, Emre #17): Mendelî → Şattülarap kesiminin YALNIZ GÜNEY ucu kaynaklı koordinatla; BP15 kuzeyi NE vekili",
+    })
 
 ekle("d1923-fi-lb", FI, SL, "1923-03-07", "D", cizgi("ISR-LBN"),
      [{"ad": "Fransız-İngiliz Sözleşmesi", "madde": "md. 1–2", "tarih": "1920-12-23", "tur": "antlaşma", "kaynak": "22 LNTS 353"},
