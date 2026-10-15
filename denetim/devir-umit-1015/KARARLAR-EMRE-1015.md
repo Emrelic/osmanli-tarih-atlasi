@@ -29,3 +29,11 @@ Ayrıca bu oturumda (15 Ekim): 8a birimi = taşma parçası, BEKLENEN_D8A 1108 (
 | 14 | 8a motor yolu | Sınır çizgisi motorun KESİN KISITI (vekil hatlar dahil). |
 | 15 | 8a ölçütü | Eşik hattın beyanlı belirsizliğini okur — UYGULANDI (bf1ce189, 8a 981). |
 | 16 | T5 sırası | paket maddeleri → 8a → 1000–1281 → MS 1–1000 → motorun MÖ hesabı; 2001–2026 şimdilik bekler. |
+
+## Üçüncü tur (16 Ekim 2026, gece)
+| # | Kalem | Karar |
+|---|---|---|
+| 17 | Kutu karar kalemleri (KUTU-1016 listesi) | HAVVA önerileriyle: Ahtapolu/Rezve/İğneada 1424–1453 Vize kalıbı (Bizans + haraçgüzâr) · Şeyh Salû 1724–35 "çıkarım" damgalı Osmanlı penceresi, Serdeşt/Kotur beyan · Abâdân Osmanlı penceresi kalır + çelişki notu · Sığnak 1465–68 Ebülhayr ulusu (renk) · İran-Irak güney hattı 1975 sütunları + Ryder sırasıyla beyanlı · Mısır isyanı (0075/H-0010, H-0029) yeni statü AÇILMAZ |
+| 18 | II. Mehmed sultanisi görseli | ANS 1997.65.4097 (883 H, Public Domain Mark) indirilir |
+| 19 | Salzburg | `salzburg-baspiskoposlugu` künyesi + renk (Pettau 977–1555) |
+| 20 | Muharebe adı etiketi | zemin kalkar, ince halolu yazı (sefer adı gibi) |
