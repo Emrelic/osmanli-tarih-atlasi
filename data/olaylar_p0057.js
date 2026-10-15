@@ -263,7 +263,7 @@ window.OLAYLAR_P0057 = [
 { t:"1557-04-02", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Özdemir Paşa'nın Masavva' limanını alması",
   gun:"2 Cemâziyelâhir 964 (2 Nisan 1557)",
-  ic_not_gun:"Gün TDV masavva (hicrî karşılığıyla) ve TDV habes-eyaleti ('2 Nisan 1557'de Masavva' şehri alındıktan sonra'). TDV harar '12 Nisan' der; hicrî karşılığı veren ihtisas maddesi esas (kronoloji_dogu_afrika.js:82). Dehlek'in alınış günü TDV dehlek'te YOK — Dahlak 1557-01-01 (yıl) kaldı. KUTU-C-1014.",
+  ic_not_gun:"Gün TDV masavva (hicrî karşılığıyla) ve TDV habes-eyaleti ('2 Nisan 1557'de Masavva' şehri alındıktan sonra'). TDV harar '12 Nisan' der; hicrî karşılığı veren ihtisas maddesi esas (kronoloji_dogu_afrika.js:82). Dehlek'in alınış günü TDV dehlek'te YOK — KARAR-UYG-1015: Dahlak ve Arkîko uçları Masavva'nın 2 Nisan'ına hizalandı (komşu günü, beyanlı; Dahlak için üst, Arkîko için alt sınır). KUTU-C-1014.",
   yer:"Masavva, Arkîko", yer_id:"Masavva", kisiler:"Özdemir Paşa",
   d:"Habeş Eyaleti'nin beylerbeyi Özdemir Paşa, Dehlek adalarını ele geçirdikten sonra karşı kıyıdaki Masavva' şehrini 2 Nisan 1557'de aldı; ardından Arkîko da Osmanlı idaresine girdi. Böylece Habeşistan'ın Kızıldeniz'e açılan başlıca limanı Osmanlı'nın eline geçti.",
   kaynak:"masavva · habes-eyaleti" },
