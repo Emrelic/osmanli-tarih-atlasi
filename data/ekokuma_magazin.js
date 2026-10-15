@@ -351,9 +351,9 @@ window.EKOKUMA_MAGAZIN = [
   "kisi": [
     "mehmed3"
   ],
-  "t": "1603-12-22",
+  "t": "1603-12-20",
   "olay": [
-    "1603-12-22|vefatı"
+    "1603-12-20|vefatı"
   ],
   "soru": "Bir fal kâğıdı şehzadenin sonunu mu getirdi?",
   "baslik": "Falcının kâğıdı: Şehzade Mahmud'un sonu",
