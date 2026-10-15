@@ -190,6 +190,17 @@ window.YERLESIMLER_E9353F = [
   bos:"veri-yok",
   neden:"veri-yok — UC AYRI ARALIK, ucu de BILEREK bos ve ucunun de gerekcesi AYRI. ① 1281-1473: sehir IX. yuzyildan beri var (TDV cenne) ve 1473'e kadar Songay'a gecmedi; bagimsiz bir sehir devletiydi ama Cenne icin kunye YOK. ② 1591-04-13 → 1596-01-01 (4,7 yil): Tondibi ile Cudar Pasa'nin sehri almasi arasi; TDV'nin KENDISI 'buyuk ihtimalle 1596'da' diyerek TEREDDUT ediyor ve o tereddudu doldurmak icin tarih uydurmak, dort yil sekiz aylik bir bosluktan kotudur. ③ 1700 → 1818 (118 yil): Arma pasaligi donemi; TDV gao yalniz 'XVIII. yuzyila kadar Askiyalar Fasli pasalarin emrinde' diyor, YIL vermiyor ve arma-pasaligi kunyesi de YOK. ⇒ Ucunde de kaynak ya susuyor ya kunye eksik; hicbirine tarih UYDURULMADI. 🟢 Buna karsilik 1818-1893 arasi ARTIK DOLU: massina ve tekrur kunyeleri indi ve iki donem yazildi." },
 
+// DİA (Zâgha) — Nijer iç deltasında, Cenne'nin kuzeybatısı. KARAR-UYG-1015 (G4, 0033/H-0013).
+// Koordinat: GeoNames "Dia" (Mali, Mopti; populated place) 14.3486516 / -4.9619232.
+// Mükerrer taraması: ad (Dia/Zâgha/Diakha) + 3 km — eşleşme yok; en yakın Cenne 66 km.
+{ ad:"Dia (Zâgha)", tur:"sehir", lat:14.3487, lon:-4.9619, g:0, k:4,
+  s:[{f:"1494-01-01", t:"1591-04-13", d:"songhay-imparatorlugu", kesinlik:"yil", kaynak:"es-Sa'dî, Tarikh es-Soudan, trc. O. Houdas (Paris 1900) s.118-119: 'A la fin de l'année 899 (1494), Askia-Mohammed s'empara de Zâgha par l'intermédiaire de son frère le Kourmina-Fâri Amar-Komzâgho' — YIL (H.899 sonu); gün yok · bitiş: Tondibi (künye songhay-imparatorlugu t), Zâgha için ayrı gün kaynakta YOK"}],
+  d:[], v:[],
+  kasitli_bosluk:true,
+  bos:"veri-yok",
+  neden:"veri-yok — İKİ ARALIK BİLEREK BOŞ. ① 1281-1494: Tarikh es-Soudan s.20 'Le roi de Melli conquit le Songhaï, Tombouctou, Zâgha' der ama YIL vermez ve Mali'nin Zâgha'yı ne zaman kaybettiğini söylemez; 1494'te Askiya'nın kimden aldığı da yazılı değil ⇒ mali-imparatorlugu yazmak çıkarım olurdu. ② 1591-04-13 sonrası: Fas paşalığı ile Mâsina arasında çekişme (aynı eser s.274, 411-414 Zâgha'yı anar) — sahiplik zinciri kurulamadı. KARAR-UYG-1015",
+  kaynak:"es-Sa'dî, Tarikh es-Soudan, trc. O. Houdas (Paris 1900) s.20, 118-119 · GeoNames (koordinat)" },
+
 // SEGU (Ségou) — Bambara Krallığı'nın başşehri, sonra Toucouleur merkezi.
 // TDV `el-hac-omer` (gövdesi okundu): "1861 başlarında bir başka Bambara
 //   Krallığı olan Segu'ya girilerek Segu'nun animist krallığı ortadan
