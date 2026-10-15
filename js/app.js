@@ -3909,6 +3909,11 @@ harita.on("load", function () {
     // Punto da ölçeğe bağlı: uzakta ad kutusu peteğinden taşmasın diye küçülür.
     el.classList.toggle("cok-uzak", z < 4.0);
     el.classList.toggle("uzak", z >= 4.0 && z < 5.2);
+    // ETIKET-1016 (Emre, not #13): muharebe ad etiketi şehir adından daha
+    // erken küçülür — 6,5'in altında 9 px + kısaltma. 6,5 ≈ il ölçeği: altında
+    // ekranda birden çok sancak/vilayet ve onların şehir adları sığar, 110 px'lik
+    // olay adı onları örter; üstünde ekran tek bir olayın çevresidir.
+    el.classList.toggle("sv-uzak", z >= 4.0 && z < 6.5);
     var e = zoomEsigi();
     // 🔴 KUTU-D-1014 (0088/H-0006, Emre: "uçuş … takılmadan oynasın, yağ gibi
     // kaysın"). ÖLÇÜLDÜ (yerel önizleme, kare sayacının "UÇUŞ SIRASINDA" satırı):
@@ -5175,7 +5180,12 @@ function savasGuncelle(t) {
   for (var mk0 = 0; mk0 < savasIsaretleri.length; mk0++) {
     var mp = savasIsaretleri[mk0];
     mp._odakKorundu = false;
+    var pel0 = mp.mk && mp.mk.getElement ? mp.mk.getElement() : null;
+    var pic0 = pel0 ? pel0.firstChild : null;
+    if (pic0) pic0.classList.remove("sv-odak");
     if (!mp.ekli || odakGi === null || mp.gi !== odakGi) continue;
+    // ETIKET-1016: odak sınıfı ÖLÇÜMDEN ÖNCE — büyük punto çarpışma kutusuna girsin.
+    if (!_odakIlkBulundu && pic0) pic0.classList.add("sv-odak");
     var pel = mp.mk.getElement();
     var pr = pel ? pel.getBoundingClientRect() : null;
     if (pr && pr.width) {

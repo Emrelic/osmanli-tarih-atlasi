@@ -7,6 +7,13 @@
   --panel-koyu: #efe5cf;
   --altin: #b8860b;
   --metin: #2b2313;
+  /* Muharebe işareti ad rengi (sonuç/tür) — ETIKET-1016: zemin değil yazı rengi */
+  --sv-zafer: #1b5e20;
+  --sv-yenilgi: #8c0f26;
+  --sv-belirsiz: #455a64;
+  --sv-isyan: #bf360c;
+  --sv-deniz: #0d47a1;
+  --sv-hale: #fff;
 }
 
 /* 🔴 SAĞ TIK → KOPYALA menüsü — Emre, 24 Ağustos 2026: *"kronoloji
@@ -1597,18 +1604,27 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   line-height: 1;
   filter: drop-shadow(0 0 3px #fff);
 }
+/* 🆕 ETIKET-1016 (Emre, 16 Ekim 2026, not #13: "Kulacahisar baskını gibi
+   kocaman fontlu yazılar haritayı kapatıyor"). Eskiden 10,5 px kalın BEYAZ
+   yazı + %85 opak renkli ZEMİN (padding 1px 5px) — ~110×16 px'lik kutu
+   altındaki sınırı ve şehir adını örtüyordu. Artık zemin YOK: sonuç renginde
+   ince yazı + beyaz hale (`.sefer-ad` ile aynı dil). Odaktaki olay `sv-odak`
+   (app.js savasGuncelle) ile biraz daha büyük/kalın kalır. */
 .savas-isaret .sv-ad {
-  font-size: 10.5px;
-  font-weight: bold;
+  font: 600 10px/1.2 system-ui, sans-serif;
   white-space: nowrap;
-  padding: 1px 5px;
-  border-radius: 4px;
-  color: #fff;
+  color: var(--sv-belirsiz);
+  text-shadow: 0 0 3px var(--sv-hale), 0 0 2px var(--sv-hale), 0 1px 2px var(--sv-hale);
   margin-top: 1px;
 }
-.savas-isaret.zafer   .sv-ad { background: rgba(27, 94, 32, 0.85); }
-.savas-isaret.yenilgi .sv-ad { background: rgba(140, 15, 38, 0.85); }
-.savas-isaret.belirsiz .sv-ad { background: rgba(69, 90, 100, 0.85); }
+.savas-isaret.zafer   .sv-ad { color: var(--sv-zafer); }
+.savas-isaret.yenilgi .sv-ad { color: var(--sv-yenilgi); }
+.savas-isaret.belirsiz .sv-ad { color: var(--sv-belirsiz); }
+.savas-isaret.sv-odak .sv-ad {
+  font-size: 11.5px;
+  font-weight: 700;
+  text-shadow: 0 0 3px var(--sv-hale), 0 0 3px var(--sv-hale), 0 0 2px var(--sv-hale), 0 1px 2px var(--sv-hale);
+}
 
 /* ---------- Olay türü simgeleri (kullanıcı isteği) ----------
    meydan ⚔ · kuşatma ◎ (şehrin üstünde çember) · iç isyan 🔥 · deniz ⚓
@@ -1636,11 +1652,11 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   from { transform: scale(1)    rotate(-5deg); }
   to   { transform: scale(1.15) rotate(5deg);  }
 }
-.savas-isaret.tur-isyan .sv-ad { background: rgba(191, 54, 12, 0.88); }
+.savas-isaret.tur-isyan .sv-ad { color: var(--sv-isyan); }
 
 /* Deniz muharebesi */
 .savas-isaret.tur-deniz .sv-ikon { font-size: 16px; color: #0d47a1; }
-.savas-isaret.tur-deniz .sv-ad   { background: rgba(13, 71, 161, 0.85); }
+.savas-isaret.tur-deniz .sv-ad   { color: var(--sv-deniz); }
 
 /* Başarısızlık: simgenin üzerine çapraz kırmızı çarpı */
 .savas-isaret.basarisiz .sv-ikon::after {
@@ -3008,15 +3024,26 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 
    İşaretin KENDİSİ kaldırılmıyor — o an anlatılan olayın yeri o. Uzaklaşınca
    yalnız ad etiketi çekiliyor; ikon kalıyor ki olay kaybolmasın. */
-#harita.uzak .savas-isaret .sv-ad {
+/* 🆕 ETIKET-1016: muharebe adının küçülme eşiği şehir adlarından AYRILDI —
+   `sv-uzak` (app.js zoomSinifi, 4,0 ≤ z < 6,5). `#harita.uzak` (z < 5,2)
+   şehir puntosu için kalır; Emre'nin Kulacahisar kamerası z ≈ 5,7'deydi ve
+   eski eşikte tam boy çıkıyordu. Odaktaki olay (`sv-odak`) HİÇBİR ölçekte
+   kısaltılmaz/gizlenmez — ekranın konusu odur. */
+#harita.sv-uzak .savas-isaret .sv-ad {
   font-size: 9px;
-  padding: 0 3px;
   max-width: 90px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 #harita.cok-uzak .savas-isaret .sv-ad { display: none; }
+#harita.sv-uzak .savas-isaret.sv-odak .sv-ad,
+#harita.cok-uzak .savas-isaret.sv-odak .sv-ad {
+  display: block;
+  font-size: 10.5px;
+  max-width: none;
+  overflow: visible;
+}
 #harita.cok-uzak .savas-isaret .sv-ikon { transform: scale(0.72); }
 /* 13 Eylül 2026 — 0042/H-0023·24·26: şehir etiketiyle çarpışan işaret artık
    SİLİNMİYOR, küçük simgeye iniyor (app.js savasGuncelle `sv-sade`). */
