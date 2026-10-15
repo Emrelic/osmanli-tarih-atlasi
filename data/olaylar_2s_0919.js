@@ -528,4 +528,10 @@ window.OLAYLAR_2S_0919 = [
   d:"Sırp Kralı Stefan Duşan 1334'te Bizans'ın Makedonya'daki şehirlerine yöneldi: 1018'den beri Bizans idaresindeki Ohri'yi ele geçirdi, Ustrumca'da da öteki Makedonya şehirlerinde olduğu gibi egemenlik kurdu. XIV. yüzyıla kadar Bizans himayesinde kalan Manastır aynı süreçte Sırp eline geçti (Manastır'ın kendi yılı kaynakta yok).",
   kaynak:"TDV ohri — AYNEN: \"1334’te Sırp Kralı Stefan Duşan tarafından ele geçirildi.\" · TDV ustrumca: \"1334’te Sırp Kralı Stefan Duşan diğer Makedonya şehirleri gibi burada da egemenlik kurdu.\" · TDV manastir--makedonya: \"bir iki dönem hariç XIV. yüzyıla kadar Bizans İmparatorluğu’nun himayesi altına kaldı\" — Manastır'ın günü komşudan: Ohri · TDV ohri · hassasiyet: YIL" },
 
+// NOT-DUZELT-1016 (Emre notu #3) — Berat 1281-1343 Bizans; Sırp fethi 1343 dolayı (Nicol)
+{ t:"1343-01-01", kesinlik:"yil", b:"Berat Bizans'tan Sırp eline geçti — Stefan Duşan'ın Arnavutluk fethi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Berat", yer:"Berat, Arnavutluk",
+  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["sirbistan-nemanjic","bizans"],
+  d:"1281'de Anjou kuşatmasını kıran ve o tarihten beri Bizans'ın Adriyatik'teki son eyaletinin merkezi olan Berat kalesi, Bizans iç savaşı sürerken Stefan Duşan'ın Arnavutluk'a ilerleyişinde Sırp eline geçti. Kroya'nın Mayıs ya da Haziran 1343'te teslim olmasının ardından Berat, Kanina ve Avlonya iki yıl içinde Sırpların oldu; eyaletin başına Duşan'ın kayınbiraderi John Komnenos Asen getirildi.",
+  kaynak:"D. M. Nicol, The Despotate of Epiros 1267-1479 (Cambridge 1984), s. 127 — AYNEN: \"Berat, Kanina and Valona were all in Serbian hands within two years. Berat may have fallen by 1343. Valona fell between July and September of 1345.\" · aynı sayfa: \"The Byzantine province of Berat, Valona, Kanina and Spinaritsa, which had come into being in the years after 1281, was now held by a Slav governor.\" · TDV berat--arnavutluk: Bizans … 'tekrar Bizanslılar’ın, Sırplar’ın' (yıl yok) · hassasiyet: YIL, OLASI ('may have fallen by 1343')" },
+
 ];
