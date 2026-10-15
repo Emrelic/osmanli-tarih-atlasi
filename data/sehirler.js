@@ -386,7 +386,7 @@ window.SEHIRLER = [
   yapilar:"1438-1454 arası inşa edilmiş, yirmi altı kuleli, dört kapılı, yaklaşık 2 km surlu — Ukrayna'nın en büyük kalesi.",
   kaynak:"akkirman" },
 { ad:"Özi",        tur:"kale",  lat:46.619, lon:31.539,
-  k:[{f:"1538-01-01",t:"1788-12-06",d:1}],
+  k:[{f:"1538-01-01",t:"1788-12-17",d:1}],
   koken:"'Özü'/'Özi', Oçakof (Ochakiv) için Kanûnî Sultan Süleyman zamanından beri kullanılan Türkçe karşılıktır; nehir adından türer.",
   onem:"Kazakların Karadeniz'e çıkışını denetleyen, hem Karadeniz hem Tuna kıyılarını koruyan bir kilit nokta.",
   tarihce:"1490'larda Kırım Hanlığı tarafından kuruldu, 1538'de kesin olarak Osmanlı'ya katıldı; 1737'de Rusya tarafından alındı, 1739'da antlaşmayla Osmanlı'ya döndü, 1789'da Mareşal Suvorov tarafından kesin olarak ele geçirildi, 1792'de resmen Rusya'ya bırakıldı.",
@@ -485,7 +485,7 @@ window.SEHIRLER = [
   yapilar:"Yaklaşık 250×125 m dikdörtgen plan, üç büyük kule (Sadrazam, Halil Paşa, Zağanos Paşa kuleleri) ve on üç küçük kule.",
   kaynak:"rumelihisari" },
 { ad:"Hotin",         tur:"kale", lat:48.507, lon:26.494,
-  k:[{f:"1538-01-01",t:"1739-08-19",d:1,y:"antlasma"},{f:"1739-09-18",t:"1769-09-10",d:1,y:"antlasma"},{f:"1774-07-21",t:"1788-01-01",d:1,y:"antlasma"},{f:"1792-01-09",t:"1812-05-28",d:1,y:"antlasma"}],
+  k:[{f:"1538-01-01",t:"1739-08-30",d:1,y:"antlasma"},{f:"1739-09-18",t:"1769-09-10",d:1,y:"antlasma"},{f:"1774-07-21",t:"1788-01-01",d:1,y:"antlasma"},{f:"1792-01-09",t:"1812-05-28",d:1,y:"antlasma"}],
   // ⚠️ Ara dönüş tarihleri (1739 Belgrad, 1774 Küçük Kaynarca, 1792 Yaş
   // antlaşmaları) TDV'nin bu madde metninden değil, standart Osmanlı-Rus
   // savaşları kronolojisinden alındı — TDV yalnız kaybediliş tarihlerini

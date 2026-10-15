@@ -124,7 +124,7 @@ window.KRONOLOJI_COK_SIRBISTAN = [
   d:"Niş üzerine yürüyen Sırp kuvvetleri Çegar tepesinde bozuldu; mevziini düşürmemek için barut deposunu ateşleyen Stevan Sinđelić ve adamları öldü. Osmanlı komutanı düşen isyancıların kafataslarından Niş yakınında bir kule ördürdü; yenilgi isyanın güneye yayılmasını durdurdu.",
   kaynak:"TDV `nis`: 'Mayıs 1809'da … Stephan Sindjelić liderliğindeki isyan kuvvet kullanılarak bastırıldı.' · TDV `prizren`: 1809'da Mahmud Paşa Niş yakınındaki isyancıları dağıttı. Gün: Petrovich (1976)." },
 
-{ t:"1812-05-28", b:"Bükreş Antlaşması'nın 8. maddesi — Sırplara kısmî özerklik vaadi", tur:"antlasma",
+{ t:"1812-05-28", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1812-05-16 (Bükreş Antlaşması; ESBE «Бухарестский мир» 'подписан 16 мая 1812 г.', eski takvim) = Gregoryen 1812-05-28 (TDV bukres-antlasmasi)", b:"Bükreş Antlaşması'nın 8. maddesi — Sırplara kısmî özerklik vaadi", tur:"antlasma",
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","ozerklik","konu-diplomasi"],
   yer_id:"", odak_yer:"Belgrad", devlet:"sirbistan-prensligi",
   d:"1806-1812 Osmanlı-Rus savaşını bitiren barış, Sırplara iç işlerinde kısmî özerklik verilmesini öngördü; ancak Rusya'nın Napolyon karşısında Balkanlardan çekilmesi maddeyi uygulanamaz kıldı. Daha geniş özerklik isteyen isyan ertesi yıl bastırılacaktır.",

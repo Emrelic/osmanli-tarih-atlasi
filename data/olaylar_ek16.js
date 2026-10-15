@@ -194,7 +194,7 @@ window.OLAYLAR_EK16 = [
   d:"Rusya, Prusya ve Avusturya arasında 5 Ağustos 1772'de imzalanan antlaşmayla Polonya-Litvanya Devletler Birliği topraklarının yaklaşık üçte biri paylaşıldı: Rusya bugünkü Belarus ve Letonya'nın bir kısmını (Dünaburg, Polotsk, Vitebsk dahil) aldı, Avusturya ise Galiçya'yı (Lvov ve batı Podolya, Yazlovets dahil) ilhak etti; Prusya kıyı bölgesi Kraliyet Prusyası'nı devraldı. Polonya Seymi antlaşmayı ancak 30 Eylül 1773'te, baskı altında onayladı. Bu, 1795'e kadar sürecek üç paylaşımın ilkiydi.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
   kaynak:"bulunamadı", duygu:["😔"] },
 
-{ t:"1793-01-23", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
+{ t:"1793-01-23", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1793-01-12 (II. Paylaşım; Jülyen günü ÇEVİRİYLE: Gregoryen − 11, Jülyen gün veren birincil kaynak okunamadı) = Gregoryen 1793-01-23", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", onem:4, b:"Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı",
   gun:"23 Ocak 1793",
   yer:"Bar (Podolya), Kamaniçe, Meciboj (Mejibuji), Minsk, Çehrin (Çigirin), Gdansk, Poznan",
@@ -340,12 +340,12 @@ window.OLAYLAR_EK16 = [
   d:"1609-1618 Lehistan-Rus Savaşı'nı sona erdiren Deulino Mütarekesi, 11 Aralık 1618'de imzalandı ve 14,5 yıllık bir ateşkes sağladı; Rusya, Smolensk (Vyazma hariç) ile Çernigov ve Novgorod-Seversk bölgelerindeki 29 şehri Lehistan-Litvanya Birliği'ne bırakmak zorunda kaldı — bu, Kargaşalar Dönemi'nin (Smuta) en ağır toprak kaybıydı. Bölge 1667 Andrusovo Mütarekesi'ne kadar Lehistan'da kalacaktı.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Truce of Deulino tarihyazımı)", duygu:["😔"] },
 
-{ t:"1654-01-08", k:"antlasma", etiket:["toprak-kazanc","konu-askeri","konu-diplomasi"],
+{ t:"1654-01-18", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1654-01-08 (Pereyaslav Radası; ESBE «Переяславская рада» '8 января 1654 г.', eski takvim) = Gregoryen 1654-01-18", k:"antlasma", etiket:["toprak-kazanc","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Pereyaslav Radası — Zaporojye Kazakları Rus çarına bağlılık yemini etti",
-  gun:"8 Ocak 1654",
+  gun:"18 Ocak 1654 (Jülyen 8 Ocak)",
   yer:"Çernigov, Novgorod-Seversk, Baturin",
   yer_id:"Çernigov", kisiler:"Bohdan Hmelnitski, I. Aleksey Mihayloviç",
-  d:"1648'den beri Lehistan-Litvanya'ya karşı ayaklanan Zaporojye Kazakları Hetmanı Bohdan Hmelnitski, Moskova'dan Vasili Buturlin başkanlığında gelen heyetin katıldığı 8 Ocak 1654 tarihli Pereyaslav Radası'nda Çar I. Aleksey Mihayloviç'e bağlılık yemini etti; bu, Ukrayna Kazak Hetmanlığı'nın Rusya himayesine girişinin başlangıcı sayılır ve Çernigov-Seversk bölgesinin fiilî denetimini Lehistan'dan Rusya'ya kaydırdı — resmî sınır ise 1667 Andrusovo Mütarekesi'yle çizilecekti.",
+  d:"1648'den beri Lehistan-Litvanya'ya karşı ayaklanan Zaporojye Kazakları Hetmanı Bohdan Hmelnitski, Moskova'dan Vasili Buturlin başkanlığında gelen heyetin katıldığı 18 Ocak 1654 (Jülyen 8 Ocak) tarihli Pereyaslav Radası'nda Çar I. Aleksey Mihayloviç'e bağlılık yemini etti; bu, Ukrayna Kazak Hetmanlığı'nın Rusya himayesine girişinin başlangıcı sayılır ve Çernigov-Seversk bölgesinin fiilî denetimini Lehistan'dan Rusya'ya kaydırdı — resmî sınır ise 1667 Andrusovo Mütarekesi'yle çizilecekti.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Pereyaslav Council 1654 tarihyazımı)", duygu:["😔"] },
 
 { t:"1654-10-03", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
@@ -356,7 +356,7 @@ window.OLAYLAR_EK16 = [
   d:"1654'te başlayan Lehistan-Rus Savaşı sırasında Rus ordusu Temmuz'dan beri kuşattığı Smolensk'i 3 Ekim 1654'te Lehistan garnizonunun teslim olmasıyla geri aldı; 1611'de Lehistan'a kaybedilen şehir 43 yıl sonra Rusya'ya döndü. Bu, Rusya'nın Kargaşalar Dönemi kayıplarını tersine çevirme sürecinin en önemli adımlarından biriydi ve 1667 Andrusovo Mütarekesi'yle kalıcı hâle geldi.",
   kaynak:"bulunamadı — TDV bu kuşatmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Siege of Smolensk 1654 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1667-02-09", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
+{ t:"1667-02-09", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1667-01-30 (Andrusovo Mütarekesi; VE (Sytin) «Андрусовское перемирие» '30 янв. 1667 г.', eski takvim) = Gregoryen 1667-02-09", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
   gun:"30 Ocak 1667 (Jülyen) / 9 Şubat 1667 (Gregoryen)",
   yer:"Kiev",

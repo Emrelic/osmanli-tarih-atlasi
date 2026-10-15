@@ -355,7 +355,7 @@ window.KRONOLOJI_COK_SENKRON_0930 = [
     kaynak:"TDV: serez (SEREZ) — gövde yıl verir: \"1345’te Sırp Kralı Stefan Duşan tarafından ele geçirildiğinde\" · gün: George C. Soulis, The Serbs and Byzantium during the Reign of Tsar Stephen Dušan (Washington 1984)",
     taraflar:["bizans","sirbistan-nemanjic"], yer_id:"Serez", etiket:["konu-savas"],
     ic_not_k:"TDV yalnız YILI veriyor; gün Soulis'ten, sayfa açılmadı." },
-  { t:"1812-05-28", k:"siyasi", b:"Bükreş Antlaşması: Prut-Dinyester arası (Besarabya) Rusya'ya bırakılır",
+  { t:"1812-05-28", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1812-05-16 (Bükreş Antlaşması; ESBE «Бухарестский мир» 'подписан 16 мая 1812 г.', eski takvim) = Gregoryen 1812-05-28 (TDV bukres-antlasmasi)", k:"siyasi", b:"Bükreş Antlaşması: Prut-Dinyester arası (Besarabya) Rusya'ya bırakılır",
     gun:"28 Mayıs 1812", yer:"Bükreş", kisiler:"Kutuzov",
     d:"1806-1812 Osmanlı-Rus Savaşı'nı bitiren antlaşmayla Boğdan'ın Prut ile Dinyester arasındaki doğu yarısı (Besarabya) — Hotin, Bender, Akkerman, Kili, İsmail ile Kahul, Orhei ve Soroka — Rusya'ya bırakıldı.",
     kaynak:"TDV: bukres (BÜKREŞ) — gövde antlaşmayı anar, gün vermez · gün: Virginia H. Aksan, Ottoman Wars 1700–1870 (Harlow 2007)",
