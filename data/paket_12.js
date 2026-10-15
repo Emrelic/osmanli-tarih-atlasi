@@ -9968,6 +9968,40 @@ window.OLAYLAR_2S_0919 = [
   etiket:["siyasi","toprak-kazanc","konu-siyasi"], taraflar:["timurlu","kert"],
   d:"1281'den beri İlhanlıların vasalı Herat Kertlerinin elinde bulunan Kandehar, Timur'un Horasan seferleri sırasında zaptedildi ve torunu Pîr Muhammed'e verildi; şehir bundan sonra Timurlu valilerince yönetildi.",
   kaynak:"TDV `kandehar` (A. Özcan) — AYNEN: \"680’de (1281) İlhanlılar’ın vasalı Herat hâkimi Şemseddin Kert’in eline geçti\" · \"785’te (1383) Timur tarafından zaptedilerek torunu Pîr Muhammed’e verilen şehir\" · hassasiyet: YIL" },
+// KARAR-UYG-1015 (G4) — Songhay: Dia (Zâgha) 1494 · Agadez 1515 tâbiliği · Bilma 1759
+{ t:"1494-01-01", kesinlik:"yil", b:"Askiya Muhammed Zâgha'yı (Dia) aldı", tur:"fetih", onem:2, dunya:1, kapsam:"dis", yer_kon:[14.3487, -4.9619],
+  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["songhay-imparatorlugu"],
+  d:"Songhay tahtına çıkan Askiya Muhammed, H. 899 yılının sonunda kardeşi Kurmina-Fâri Amar Komzâgho aracılığıyla Nijer iç deltasının batısındaki Zâgha (Dia) şehrini ele geçirdi.",
+  kaynak:"es-Sa'dî, Tarikh es-Soudan, trc. O. Houdas (Paris 1900) s.118-119 — AYNEN: \"A la fin de l'année 899 (1494), Askia-Mohammed s'empara de Zâgha par l'intermédiaire de son frère le Kourmina-Fâri Amar-Komzâgho\" · hassasiyet: YIL" },
+
+{ t:"1515-01-01", kesinlik:"yil", b:"Agadez Songhay'a bağlandı", tur:"vassal", onem:2, dunya:1, kapsam:"dis", yer_id:"Agadez",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"], taraflar:["songhay-imparatorlugu","agadez-sultanligi"],
+  d:"Âir bölgesinin merkezi Agadez, Songhay Sultanı Askiya Muhammed tarafından Gao'ya bağlandı; şehir Songhay'ın 1591'de Tondibi'de yıkılışına kadar bu tâbiliği taşıdı.",
+  kaynak:"TDV `nijer` (A. Kavas) — AYNEN: \"1515 yılında Songay Sultanı Askiya Muhammed tarafından Gao’ya bağlanan şehir\" · hassasiyet: YIL" },
+
+{ t:"1759-01-01", kesinlik:"yil", b:"Agadez Tuaregleri Bilma tuzluğunu Kanem-Bornu'dan aldı", tur:"fetih", onem:2, dunya:1, kapsam:"dis", yer_id:"Bilma",
+  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["agadez-sultanligi","kanem-bornu"],
+  d:"XVIII. yüzyılda çöküş yaşayan Kanem-Bornu, 1759'da Agadez Tuaregleri Bilma tuzluğunu elinden alınca Sahra'daki birçok yerleşim yerini kaybetti.",
+  kaynak:"TDV `kanim` (A. Kavas) — AYNEN: \"1759’da Agâdes Tevârikleri, Bîlmâ tuzluğunu Kânim-Bornu’nun elinden alınca Sahrâ’daki birçok yerleşim mahallini kaybettiler\" · hassasiyet: YIL" },
+
+// KARAR-UYG-1015 (Emre #13) — Güney Afrika: 37 nokta ingiltere → guney-afrika-birligi 1910-05-31
+{ t:"1910-05-31", b:"Güney Afrika Birliği kuruldu", tur:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Kap (Cape Town)",
+  etiket:["siyasi","kurulus","konu-siyasi"], taraflar:["guney-afrika-birligi","ingiltere"],
+  d:"1909 tarihli South Africa Act uyarınca Kap, Natal, Transvaal ve Oranj Nehri kolonileri 31 Mayıs 1910'da Britanya İmparatorluğu'na bağlı Güney Afrika Birliği adıyla birleşti; yürütme merkezi Pretoria, yasama merkezi Cape Town oldu.",
+  kaynak:"Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909) — AYNEN: \"the thirty-first day of May, one thousand nine hundred and ten\" · South Africa Act 1909 md. 18, 23 · TDV `guney-afrika-cumhuriyeti`: \"1910 yılında … Güney Afrika Birliği Devleti'ni kurdular\" · hassasiyet: GÜN" },
+
+// KARAR-UYG-1015 — Soyo (Kongo ağzının güney yakası) Portekiz 1885-02-14
+{ t:"1885-02-14", b:"Kongo Hür Devleti ile Portekiz sınır sözleşmesi — Kongo ağzının güney yakası Portekiz'e", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Soyo",
+  etiket:["antlasma","diplomasi","konu-diplomasi"], taraflar:["portekiz-angola","kongo-serbest-devleti"],
+  d:"Berlin Konferansı sürerken imzalanan sözleşmeyle Kongo Hür Devleti ile Portekiz arasındaki sınır, Kongo (Zaire) ırmağının ağzından Uango-Uango çayına kadar ırmağın kendisi olarak çizildi; Soyo'nun bulunduğu güney yaka Portekiz'de, Kabinda ise ırmağın kuzeyinde Portekiz'e kaldı.",
+  kaynak:"Hertslet, The Map of Africa by Treaty, 2. bs. c.1 No.58 (14 Şubat 1885) s.232 — AYNEN: \"The course of the Congo (Zaire) from its mouth to its junction with the little River Uango-Uango\" · hassasiyet: GÜN" },
+
+// KARAR-UYG-1015 (G3) — Eski Kandehar: babur → safevi 1556 (eski 1537 kırılması kaldırıldı)
+{ t:"1556-01-01", kesinlik:"yil", b:"Hümâyun'un ölümünden sonra Safevîler Kandehar'ı Bâbürlülerden aldı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Eski Kandehar (Şehr-i Köhne)",
+  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["safevi","babur-imparatorlugu"],
+  d:"Hümâyun'un 1556'da Delhi'de ölümünden sonra Şah Tahmasb, Kandehar ve Zemindâver'deki Bâbürlü valileri arasındaki çekişmeden yararlandı; Zemindâver valisinin davetiyle gelen bir Safevî birliği Kandehar'a girdi ve Tahmasb amcazadesi Sultan Hüseyin Mirza'yı şehre vali atadı. Şehir 1595'e kadar Safevî elinde kaldı.",
+  kaynak:"EIr KANDAHAR iv. From the Mongol Invasion through the Safavid Era (R. Matthee & H. Mashita, 2010) — AYNEN: \"When Homāyun died in Delhi in 1556, the Safavid Shah Ṭahmāsb took advantage of conflict among the Mughal governors of Kandahar and Zamindāvar\" · hassasiyet: YIL (alt sınır; zaptın kendi yılı metinde yok)" },
+
 ];
 
 ;

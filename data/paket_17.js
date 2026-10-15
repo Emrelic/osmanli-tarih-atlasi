@@ -749,6 +749,10 @@ window.YERLESIMLER_E9353F = [
   bos:"veri-yok",
   neden:"veri-yok — UC AYRI ARALIK, ucu de BILEREK bos ve ucunun de gerekcesi AYRI. ① 1281-1473: sehir IX. yuzyildan beri var (TDV cenne) ve 1473'e kadar Songay'a gecmedi; bagimsiz bir sehir devletiydi ama Cenne icin kunye YOK. ② 1591-04-13 → 1596-01-01 (4,7 yil): Tondibi ile Cudar Pasa'nin sehri almasi arasi; TDV'nin KENDISI 'buyuk ihtimalle 1596'da' diyerek TEREDDUT ediyor ve o tereddudu doldurmak icin tarih uydurmak, dort yil sekiz aylik bir bosluktan kotudur. ③ 1700 → 1818 (118 yil): Arma pasaligi donemi; TDV gao yalniz 'XVIII. yuzyila kadar Askiyalar Fasli pasalarin emrinde' diyor, YIL vermiyor ve arma-pasaligi kunyesi de YOK. ⇒ Ucunde de kaynak ya susuyor ya kunye eksik; hicbirine tarih UYDURULMADI. 🟢 Buna karsilik 1818-1893 arasi ARTIK DOLU: massina ve tekrur kunyeleri indi ve iki donem yazildi." },
 
+// DİA (Zâgha) — Nijer iç deltasında, Cenne'nin kuzeybatısı. KARAR-UYG-1015 (G4, 0033/H-0013).
+// Koordinat: GeoNames "Dia" (Mali, Mopti; populated place) 14.3486516 / -4.9619232.
+// Mükerrer taraması: ad (Dia/Zâgha/Diakha) + 3 km — eşleşme yok; en yakın Cenne 66 km.
+
 // SEGU (Ségou) — Bambara Krallığı'nın başşehri, sonra Toucouleur merkezi.
 // TDV `el-hac-omer` (gövdesi okundu): "1861 başlarında bir başka Bambara
 //   Krallığı olan Segu'ya girilerek Segu'nun animist krallığı ortadan
@@ -1151,7 +1155,7 @@ window.YERLESIMLER_E9353F = [
   s:[{f:"1652-01-01", t:"1795-01-01", d:"hollanda",  kaynak:"guney-afrika-cumhuriyeti"},
      {f:"1795-01-01", t:"1802-01-01", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"},
      {f:"1802-01-01", t:"1806-01-01", d:"hollanda",  kaynak:"guney-afrika-cumhuriyeti"},
-     {f:"1806-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1806-01-01", t:"1910-05-31", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // BÜYÜK ZİMBABVE — 1281'de AYAKTA, ve şartnamemin §③.1'inin adıyla istediği yer.
@@ -1197,7 +1201,7 @@ window.YERLESIMLER_E9353F = [
 { ad:"Ulundi (Zululand)", tur:"sehir", lat:-28.313, lon:31.416, g:0, k:1,
   kur:"1816-01-01",
   s:[{f:"1816-01-01", t:"1879-07-04", d:"zulu-kralligi", kaynak:"bulunamadi"},
-     {f:"1879-07-04", t:"1923-10-29", d:"ingiltere",     kaynak:"guney-afrika-cumhuriyeti"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1879-07-04", t:"1910-05-31", d:"ingiltere",     kaynak:"guney-afrika-cumhuriyeti"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"veri-yok — sahipsiz araligi YOK; bayrak KAYNAK eksigini isaretliyor. TDV guney-afrika-cumhuriyeti maddesi Zulu direnisini aniyor ama Shaka'yi da Ulundi Muharebesi'ni de TARTISMIYOR (govdesi okundu, olctum). Zulu donemi bu yuzden kaynak:bulunamadi; sinirlari zulu-kralligi kunyesinden (f:1816 t:1879-07-04) alindi. kur:1816 SEHRIN degil KRALLIGIN kurulusudur. UYARI: PENCERE DISINDA (lat -28,313)." },
@@ -1219,7 +1223,7 @@ window.YERLESIMLER_E9353F = [
 { ad:"Transvaal (Bur cumhuriyeti)", tur:"bolge", lat:-25.746, lon:28.188, g:0, k:0,
   kur:"1830-01-01",
   s:[{f:"1830-01-01", t:"1902-01-01", d:"transvaal", kaynak:"guney-afrika-cumhuriyeti"},
-     {f:"1902-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1902-01-01", t:"1910-05-31", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"kunye-yok — transvaal kunyesi devletler.js'te YOK (koordinator M-0218'de yazacagini soyledi). Sahipsiz araligi yok. kur:1830 Buyuk Goc'un baslangicidir, CUMHURIYETIN kurulus yili DEGIL - TDV cumhuriyetlerin kurulus yillarini vermiyor. tur:bolge cunku Pretoria'nin kurulus yili da yok. UYARI: PENCERE DISINDA (lat -25,746)." },
@@ -1227,7 +1231,7 @@ window.YERLESIMLER_E9353F = [
 { ad:"Oranj (Bur cumhuriyeti)", tur:"bolge", lat:-29.120, lon:26.214, g:0, k:0,
   kur:"1830-01-01",
   s:[{f:"1830-01-01", t:"1902-01-01", d:"oranj",     kaynak:"guney-afrika-cumhuriyeti"},
-     {f:"1902-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1902-01-01", t:"1910-05-31", d:"ingiltere", kaynak:"guney-afrika-cumhuriyeti"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"kunye-yok — oranj kunyesi devletler.js'te YOK. Transvaal kaydiyla ayni gerekce: kur:1830 Buyuk Goc'un yili ve tur alani bolge, cunku Bloemfontein'in kurulus yili TDV'de yok. UYARI: PENCERE DISINDA (lat -29,120)." },

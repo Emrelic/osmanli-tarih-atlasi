@@ -477,8 +477,8 @@
     },
     {
      "yol": "data/olaylar_2s_0919.js",
-     "sha": "32554d900f198bb9",
-     "bayt": 68591
+     "sha": "eef8c3c45507814f",
+     "bayt": 73461
     },
     {
      "yol": "data/olaylar_amerika_0920.js",
@@ -551,20 +551,20 @@
      "bayt": 167050
     }
    ],
-   "bayt": 2092747
+   "bayt": 2097617
   },
   {
    "paket": "data/paket_13.js",
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "c641c5e7df8b8257",
-     "bayt": 1085809
+     "sha": "9038097fd6982b3f",
+     "bayt": 1089199
     },
     {
      "yol": "data/yerlesimler_afrika.js",
-     "sha": "27a060839da345ea",
-     "bayt": 224139
+     "sha": "2b8c04a245dd3a58",
+     "bayt": 224748
     },
     {
      "yol": "data/yerlesimler_avrupa.js",
@@ -573,8 +573,8 @@
     },
     {
      "yol": "data/yerlesimler_asya.js",
-     "sha": "9a6d897e3f6c462f",
-     "bayt": 284781
+     "sha": "d63df7655103b523",
+     "bayt": 286030
     },
     {
      "yol": "data/yerlesimler_ek.js",
@@ -622,7 +622,7 @@
      "bayt": 9947
     }
    ],
-   "bayt": 1981141
+   "bayt": 1986389
   },
   {
    "paket": "data/paket_14.js",
@@ -739,8 +739,8 @@
     },
     {
      "yol": "data/yerlesimler_emilme.js",
-     "sha": "6a13e6ed74b45337",
-     "bayt": 17131
+     "sha": "ba5c8ce407a8407c",
+     "bayt": 17535
     },
     {
      "yol": "data/yerlesimler_ek23.js",
@@ -778,7 +778,7 @@
      "bayt": 201478
     }
    ],
-   "bayt": 949958
+   "bayt": 950362
   },
   {
    "paket": "data/paket_15.js",
@@ -917,11 +917,11 @@
     },
     {
      "yol": "data/yerlesimler_e9353f.js",
-     "sha": "992e784868d8debc",
-     "bayt": 64635
+     "sha": "7e0ef7f727a0cdf2",
+     "bayt": 66416
     }
    ],
-   "bayt": 105909
+   "bayt": 107690
   },
   {
    "paket": "data/paket_18.js",
@@ -1052,8 +1052,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler_ok107.js",
-     "sha": "826ab3d36722b6be",
-     "bayt": 51943
+     "sha": "9bb69d12f405dd7f",
+     "bayt": 52682
     },
     {
      "yol": "data/yerlesimler_amerika3.js",
@@ -1091,7 +1091,7 @@
      "bayt": 6206
     }
    ],
-   "bayt": 485275
+   "bayt": 486014
   },
   {
    "paket": "data/paket_23.js",
@@ -1143,11 +1143,11 @@
     },
     {
      "yol": "data/yerlesimler_afrika2.js",
-     "sha": "7be2a68654d18c09",
-     "bayt": 196885
+     "sha": "8cce629163900d81",
+     "bayt": 209227
     }
    ],
-   "bayt": 357045
+   "bayt": 369387
   },
   {
    "paket": "data/paket_24.js",
