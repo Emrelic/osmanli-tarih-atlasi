@@ -298,7 +298,8 @@ window.KRONOLOJI_BALKAN = [
 { taraflar:["karadag"], t:"1877-09-01", b:"Nikšić, Podgorica ve Bar alındı, Ülgün ele geçirildi", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas","konu-askeri"], yer_id:"Podgorica",
   d:"Savaşın son evresinde Karadağ kuvvetleri Nikšić'i, ardından Podgorica ve Bar'ı ele geçirdi; Ülgün de düştü. Bu fetihler bir yıl sonra Berlin'de tanınacak kazanımların fiilî zemini oldu.", ic_not_d:"(data/yerlesimler.js) · Yerel atlas kaydı Podgorica'yı 'karadag'a diplomatik tanıma tarihiyle (1878-07-13) bağlıyor; fiilî fetih on ay önce, burada.",
-  kaynak:"TDV `karadag`: 'Savaşın sonlarına doğru Nikšić, Podgorica, Bar'ı aldı, Ülgün'ü (Dulcigno) ele geçirdi.' Ay: standart akademik kaynak." },
+  kaynak:"TDV `karadag`: 'Savaşın sonlarına doğru Nikšić, Podgorica, Bar'ı aldı, Ülgün'ü (Dulcigno) ele geçirdi.' Ay: standart akademik kaynak.",
+  ic_not_gun:"KUTU-VERI-1015 (0076/H-0048): Nikšić'in günü ayrı kaynakla bulundu — ESBE 'Никшич' (https://ru.wikisource.org/wiki/ЭСБЕ/Никшич, t. XXI 1897, Jülyen takvimi): 'кн. Николай 10 июля подошел к Н. … и начал осаду; 27 августа город сдался' ⇒ teslim 27 Ağustos (Jülyen) = 8 Eylül 1877 (Gregoryen); 'Н., в 1878 г. окончательно присоединенный к Черногории'. Madde dört şehri tek tarihte topladığı için t değiştirilmedi; Podgorica/Bar/Ülgün aynı güne ait DEĞİL. Nikšić'in atlasta NOKTASI YOK (1281-1877 zinciri kaynakla kurulamadı)." },
 
 { taraflar:["karadag"], t:"1878-03-03", b:"Ayastefanos Antlaşması — bağımsızlık ilk kez tanındı", tur:"antlasma",
   onem:3, dunya:3, kapsam:"dis", etiket:["antlasma","konu-diplomasi"], yer_id:"", kapsam_genis:true,
