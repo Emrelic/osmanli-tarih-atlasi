@@ -13,6 +13,12 @@
 //      seçenekleri korunur (B3) · fitBounds değişmiyorsa asıl fitBounds koşar ve
 //      içindeki flyTo İKİNCİ KEZ süzülmez (B4) · ayar KAPALIYKEN dokunulmaz (B5) ·
 //      gövde o gün yoksa dokunulmaz (B6) · Osmanlı maddesi kapsam dışı (B7).
+//   C) İKİNCİ KURAL, saf (`odakZoomIkili`): ikisi sığıyor ⇒ ikisi birden (C1) ·
+//      sığmıyor ⇒ yalnız madde ülkesi ≥ 1/8 (C2) · alt sınır iki yönde (C3) ·
+//      ortak kadrajda bölge küçülürse yalnız madde (C4) · nokta bölgesi (C5).
+//   D) İKİNCİ KURAL, bağlantı: ilgili ülkenin seçimi — yer sahibi (D1) · madde odak
+//      toprağında ⇒ eski kural (D2) · odak_kimlik önceliği (D3) · taraflar (D4) ·
+//      tâbi sahibi kimlik kutusuyla (D5) · nokta çevresi (D6) · hiçbiri yok (D7).
 "use strict";
 var fs = require("fs"), path = require("path"), vm = require("vm");
 var KOK = path.join(__dirname, "..");
@@ -141,11 +147,12 @@ var APP = fs.readFileSync(path.join(KOK, "js", "app.js"), "utf8");
 var bas = APP.indexOf("// 🆕 ODAK-ZOOM-1016 — DEVLET KRONOLOJİSİNDE TOPRAK");
 var son = APP.indexOf("// (`odakZoomAlt` ve `ODAK_ZOOM_SON`", bas);
 sina("B0 blok app.js'te bulundu", bas > 0 && son > bas);
-sina("B0 gezGit kapıya bağlı (devlet dalı)",
-     /else odakZoomKapisi\(o\.d, gezSuanki, function \(\) \{ maddeAc\(o\.d, o\.m\); \}\);/.test(APP));
+sina("B0 gezGit kapıya bağlı (devlet dalı, madde de geçer)",
+     /else odakZoomKapisi\(o\.d, gezSuanki, function \(\) \{ maddeAc\(o\.d, o\.m\); \}, o\.m\);/.test(APP));
 var BLOK = APP.slice(bas, son);
 
-function ortam(ayarAcik, govdeVar) {
+function ortam(ayarAcik, govdeVar, ek) {
+  ek = ek || {};
   var W = 1200, H = 800, kayit = [];
   var harita = {
     _zoom: 8,
@@ -171,19 +178,32 @@ function ortam(ayarAcik, govdeVar) {
   var govde = { type: "MultiPolygon", coordinates: [kare(20, 44, 21, 45)] };
   var ctx = {
     console: { log: function () {}, error: console.error, warn: function () {} },
-    window: { ODAK_ZOOM: OZ },
     ODAK_ZOOM: OZ,
     localStorage: { getItem: function () { return null; }, setItem: function () {} },
     document: { getElementById: function (id) {
       return id === "ayar-odak-zoom-ac" ? { checked: ayarAcik, addEventListener: function () {} } : null; } },
     harita: harita,
     _haritaKutu: function () { return { width: W, height: H }; },
-    devletler2: [{ id: "sirp", dnm: [{ fi: 100, ti: 200, ft: { geometry: govde } }] }],
+    devletler2: [{ id: "sirp", dnm: [{ fi: 100, ti: 200, ft: { geometry: govde } }] }].concat(ek.devletler2 || []),
+    // ikinci kuralın bağımlılıkları — app.js'teki adlarla, en sade biçimde
+    DEVLETLER: ek.DEVLETLER || [], YERLESIMLER: ek.YERLESIMLER || [],
+    SUZGEC: require(path.join(KOK, "js", "suzgec.js")),
+    donemler: [], donemBul: function () { return -1; },
+    _cDevletIx: function () { var ix = {}; (ek.DEVLETLER || []).forEach(function (d) { ix[d.id] = d; }); return ix; },
+    _khGunStr: function () { return "1826-10-07"; },
+    adKonumBul: function (ad) { var L = ek.YERLESIMLER || []; for (var i = 0; i < L.length; i++) if (L[i].ad === ad) return { ad: ad, lat: L[i].lat, lon: L[i].lon }; return null; },
+    olayKonumu: function (m) { return m && m._c ? { lon: m._c[0], lat: m._c[1] } : null; },
+    maddeOdakKutusu: function (o) {
+      var ids = o && o.odak_kimlik, tk = ek.tabiKutu || {};
+      if (ids && ids.length === 1 && tk[ids[0]]) return { kutu: tk[ids[0]] };
+      return null;
+    },
     devletAktifDonem: function (s, t) {
       for (var i = 0; i < s.dnm.length; i++) if (govdeVar && s.dnm[i].fi <= t && t <= s.dnm[i].ti) return s.dnm[i];
       return null;
     }
   };
+  ctx.window = ctx;
   vm.createContext(ctx);
   vm.runInContext(BLOK + "\nthis.odakZoomKapisi = odakZoomKapisi; this.getBag = function(){return ODAK_ZOOM_BAG;}; this.getSon = function(){return ODAK_ZOOM_SON;};", ctx);
   return { ctx: ctx, harita: harita, kayit: kayit };
@@ -266,6 +286,115 @@ var D = { id: "sirp", ad: "Sırp" };
   var s = { center: [22.6, 44.5], zoom: 8 };
   o.ctx.odakZoomKapisi({ id: "osmanli" }, 150, function () { o.harita.flyTo(s); });
   sina("B7 Osmanlı ⇒ dokunulmaz", o.kayit[0][1] === s);
+})();
+
+console.log("C) İKİNCİ KURAL, SAF — odakZoomIkili (madde ülkesi + odak devlet)");
+var EK = { width: 1200, height: 800 };
+function kamEkraninda(gk, kam) {                  // hazırlanmış gövdenin kutusu kameranın ekranında mı
+  var S = 512 * Math.pow(2, kam.zoom), c = OZ.merk(kam.center[0], kam.center[1]);
+  var hw = EK.width / 2 / S, hh = EK.height / 2 / S;
+  return gk.kutu[0] >= c[0] - hw - 1e-12 && gk.kutu[2] <= c[0] + hw + 1e-12 &&
+         gk.kutu[1] >= c[1] - hh - 1e-12 && gk.kutu[3] <= c[1] + hh + 1e-12;
+}
+function payKam(g, kam) { var c = OZ.merk(kam.center[0], kam.center[1]); return OZ.odakPay(g, c[0], c[1], kam.zoom, EK.width, EK.height); }
+// C1 — İKİSİ SIĞIYOR: odak (Eflak gibi) ile madde ülkesi (Boğdan gibi) komşu
+(function () {
+  var odak = OZ.odakGovdeHazirla([kare(22.5, 43.7, 27.5, 45.3)]);
+  var ulke = OZ.odakGovdeHazirla([kare(26.2, 45.4, 28.6, 48.3)]);
+  var kam = { center: [27.2, 47.1], zoom: 9 };
+  var r = OZ.odakZoomIkili(kam, ulke, odak, EK);
+  sina("C1 komşu ülke maddesi ⇒ kip 'ikisi'", r.kip === "ikisi" && r.degisti, "zoom 9 → " + r.zoom + " · alt " + (r.altZoom || 0).toFixed(2));
+  sina("C1 iki gövde de TAMAMEN kadrajda", kamEkraninda(ulke, r) && kamEkraninda(odak, r));
+  sina("C1 madde ülkesi ≥ 1/8", payKam(ulke, r) >= 1 / 8, "%" + (100 * payKam(ulke, r)).toFixed(1));
+  sina("C1 zoom alt sınırın üstünde ve hedeften yakın değil", r.zoom >= r.altZoom - 1e-9 && r.zoom <= 9);
+  sina("C1 madde noktası ekranda", ekranda(27.2, 47.1, r, EK.width, EK.height));
+})();
+// C2 — SIĞMIYOR: odak Portekiz gibi (batı ucu), madde ülkesi Rusya gibi (doğu) — ~5.000 km
+(function () {
+  var odak = OZ.odakGovdeHazirla([kare(-9, 37, -7, 42)]);
+  var ulke = OZ.odakGovdeHazirla([kare(30, 45, 60, 60)]);
+  var kam = { center: [37.6, 55.75], zoom: 8.5 };
+  var r = OZ.odakZoomIkili(kam, ulke, odak, EK);
+  sina("C2 uzak odak ⇒ kip 'yalniz-madde' (red: alt-sinir)", r.kip === "yalniz-madde" && r.redB === "alt-sinir",
+       "alt " + (r.altZoom || 0).toFixed(2) + " · red " + r.redB);
+  sina("C2 madde ülkesi yine ≥ 1/8", payKam(ulke, r) >= 1 / 8, "%" + (100 * payKam(ulke, r)).toFixed(1) + " · " + r.sebep);
+  sina("C2 odak devlet kadraja SOKULMADI", !kamEkraninda(odak, r));
+})();
+// C3 — ALT SINIR iki yönde: aynı geometri, alt sınır gevşetilince 'ikisi' olur
+(function () {
+  var odak = OZ.odakGovdeHazirla([kare(-9, 37, -7, 42)]);
+  var ulke = OZ.odakGovdeHazirla([kare(30, 45, 60, 60)]);
+  var kam = { center: [37.6, 55.75], zoom: 8.5 };
+  var r = OZ.odakZoomIkili(kam, ulke, odak, EK, { altZoom: 2 });
+  sina("C3 alt sınır 2'ye indirilirse ⇒ 'ikisi' (sınırı koyan gerçekten alt sınır)", r.kip === "ikisi", "zoom → " + r.zoom);
+  var r2 = OZ.odakZoomIkili(kam, ulke, odak, EK);
+  sina("C3 varsayılan alt sınırda zoom ALTINA inilmez", r2.zoom >= OZ.IKILI_ZOOM_TABAN - 1e-9 && r2.zoom >= r.zoom,
+       "zoom " + r2.zoom + " ≥ taban " + OZ.IKILI_ZOOM_TABAN);
+  var a45 = OZ.odakAltZoom(45, 1200), a45dar = OZ.odakAltZoom(45, 375);
+  var km = 40075016.686 * Math.cos(45 * Math.PI / 180) * 1200 / (512 * Math.pow(2, a45)) / 1000;
+  sina("C3 alt sınır = 4.000 km ekran (45°, 1200 px)", Math.abs(km - 4000) < 1, "z " + a45.toFixed(2) + " ≈ " + km.toFixed(0) + " km");
+  sina("C3 dar ekranda taban 3,5", a45dar === 3.5, "z " + a45dar);
+})();
+// C4 — iki ülke de geniş ama madde ülkesi ORTAK kadrajda 1/8'in altına düşer ⇒ yalnız madde
+(function () {
+  var odak = OZ.odakGovdeHazirla([kare(10, 40, 30, 52)]);           // büyük odak gövde
+  var ulke = OZ.odakGovdeHazirla([kare(31, 41, 32, 41.6)]);          // küçük komşu
+  var kam = { center: [31.5, 41.3], zoom: 9 };
+  var r = OZ.odakZoomIkili(kam, ulke, odak, EK, { altZoom: 0 });
+  sina("C4 ortak kadrajda bölge < 1/8 kalırsa ⇒ 'yalniz-madde' (red: bolge-kucuk-kalir)",
+       r.kip === "yalniz-madde" && r.redB === "bolge-kucuk-kalir", "red " + r.redB + " · " + r.sebep);
+})();
+// C5 — küçük (nokta) bölge: 1/8'e yaklaşmadan ulaşılamaz; şart "tamamı ekranda"
+(function () {
+  var odak = OZ.odakGovdeHazirla([kare(22.5, 43.7, 27.5, 45.3)]);
+  var nokta = OZ.odakKutuGovde([28.0, 46.0, 28.7, 46.7]); nokta.kucuk = true;
+  var kam = { center: [28.35, 46.35], zoom: 9 };
+  var r = OZ.odakZoomIkili(kam, nokta, odak, EK);
+  sina("C5 nokta bölgesi + yakın odak ⇒ 'ikisi', nokta ekranda", r.kip === "ikisi" && kamEkraninda(nokta, r) && kamEkraninda(odak, r),
+       "zoom → " + r.zoom);
+  var r0 = OZ.odakZoomIkili(kam, nokta, null, EK);
+  sina("C5 nokta bölgesi, odak gövdesi yok ⇒ DEĞİŞMEZ (zoom-in yok)", !r0.degisti && r0.zoom === 9 && r0.sebep === "nokta-bolge");
+})();
+
+console.log("D) İKİNCİ KURAL, BAĞLANTI — ilgili ülkenin seçimi (app.js bloğu)");
+var SG = require(path.join(KOK, "js", "suzgec.js"));
+function ortam2(madde) {
+  var o = ortam(true, true, {
+    devletler2: [
+      { id: "eflak", dnm: [{ fi: 100, ti: 200, ft: { geometry: { coordinates: [kare(22.5, 43.7, 27.5, 45.3)] } } }] },
+      { id: "bogdan", dnm: [{ fi: 100, ti: 200, ft: { geometry: { coordinates: [kare(26.2, 45.4, 28.6, 48.3)] } } }] },
+      { id: "rusya", dnm: [{ fi: 100, ti: 200, ft: { geometry: { coordinates: [kare(28.5, 44.5, 60, 62)] } } }] }],
+    DEVLETLER: [{ id: "eflak", ad: "Eflak", harita: "eflak" }, { id: "bogdan", ad: "Boğdan" }, { id: "rusya", ad: "Rusya" },
+                { id: "kirim", ad: "Kırım Hanlığı" }],
+    YERLESIMLER: [
+      { ad: "Yaş", lat: 47.16, lon: 27.59, s: [{ d: "bogdan", f: "1300-01-01", t: "1900-01-01" }] },
+      { ad: "Bükreş", lat: 44.43, lon: 26.1, s: [{ d: "eflak", f: "1300-01-01", t: "1900-01-01" }] },
+      { ad: "Akkirman", lat: 46.19, lon: 30.35, s: [{ d: "rusya", f: "1812-01-01", t: "1900-01-01" }] },
+      { ad: "Kefe", lat: 45.03, lon: 35.38, v: [{ kid: "kirim", f: "1475-01-01", t: "1900-01-01" }] }],
+    tabiKutu: { kirim: [33, 44.4, 36.6, 46.2] }
+  });
+  var d = { id: "eflak", ad: "Eflak", harita: "eflak" };
+  o.ctx.odakZoomKapisi(d, 150, function () { o.harita.flyTo({ center: madde._c, zoom: 9, duration: 1000 }); }, madde);
+  return { o: o, son: o.ctx.getSon(), kam: o.kayit[0] && o.kayit[0][1] };
+}
+(function () {
+  var x = ortam2({ t: "1826-10-07", yer_id: "Yaş", _c: [27.59, 47.16] });
+  sina("D1 yer_id sahibi = komşu (Boğdan) ⇒ madde-ulkesi, kip ikisi",
+       x.son.kural === "madde-ulkesi" && x.son.ulke.join() === "bogdan" && /^yer_id sahibi/.test(x.son.kaynak) && x.son.kip === "ikisi",
+       x.son.kural + " · " + x.son.kaynak + " · " + x.son.kip + " · zoom → " + (x.kam && x.kam.zoom));
+  var y = ortam2({ t: "1826-10-07", yer_id: "Bükreş", _c: [26.1, 44.43] });
+  sina("D2 yer odak toprağında (Bükreş/Eflak) ⇒ İLK KURAL (odak-topraginda)", y.son.kural === "odak-topraginda", y.son.kural + " · " + y.son.sebep);
+  var z = ortam2({ t: "1826-10-07", yer_id: "Akkirman", odak_kimlik: ["bogdan"], _c: [30.35, 46.19] });
+  sina("D3 odak_kimlik, yer sahibinden ÖNCE gelir", z.son.kaynak === "odak_kimlik" && z.son.ulke.join() === "bogdan", z.son.kaynak);
+  var t = ortam2({ t: "1826-10-07", taraflar: ["eflak", "rusya"], _c: [30, 46] });
+  sina("D4 yer yok ⇒ taraflar, odak devlet ayıklanır", t.son.kaynak === "taraflar" && t.son.ulke.join() === "rusya", t.son.ulke.join());
+  var k = ortam2({ t: "1826-10-07", yer_id: "Kefe", _c: [35.38, 45.03] });
+  sina("D5 tâbi sahip (gövdesiz Kırım) ⇒ kimlik kutusu bölge olur", k.son.ulke.join() === "kirim" && k.son.bolge === "ulke-kutusu" && k.son.kural === "madde-ulkesi",
+       k.son.kaynak + " · " + k.son.bolge + " · " + k.son.kip);
+  var n = ortam2({ t: "1826-10-07", yer_id: "Bilinmeyen", _c: [29, 46] });
+  sina("D6 ülke çözülemez ⇒ yer noktası çevresi (küçük bölge)", n.son.bolge === "yer-noktasi" && n.son.kural === "madde-ulkesi", n.son.bolge + " · " + n.son.sebep);
+  var b = ortam2({ t: "1826-10-07", _c: [29, 46] });
+  sina("D7 hiçbir yer/taraf yok ⇒ İLK KURAL (bolge-yok)", b.son.kural === "bolge-yok", b.son.kural);
 })();
 
 console.log("\nSONUÇ: " + gecen + " geçti · " + kalan + " kaldı");
