@@ -6572,6 +6572,17 @@ window.DEVLETLER = [
     { t:"1859-01-01", tur:"son", b:"İtalyan birleşme hareketiyle Modena da Sardinya-Piyemonte'ye katıldı" }
   ]
 },
+// RENK-PAKET-1015 — `ferrara`nın 1598 SONRASI HARİTA KİMLİĞİ. Aynı polity (D205 sınıf ②: künye
+// `ferrara` 1240-1859 olduğu gibi kalır, kronoloji orada). Bu künye yalnız haritadaki adın
+// 1598-01-29'dan sonra "Modena ve Reggio Dükalığı" okunması içindir: BOYALAR'da zamana bağlı ad
+// yok (motor kodu), ayrı kimlik + aynı hex (renkler.py PAYLASIM #300c93) en az değişiklik.
+{ id:"modena", ad:"Modena ve Reggio Dükalığı (Este)", tur:"dukalik", bolge:"italya",
+  f:"1598-01-29", t:"1859-01-01", baskent:"Modena", harita:"modena",
+  ic_not_f:"Chiappini, «1598: diario di una svolta», Ferrara. Voci di una città (Fondazione Estense) 1997: son Este 28 Ocak 1598'de Ferrara'dan Porta degli Angeli'den çıktı, «ertesi gün» Kardinal Pietro Aldobrandini şehrin anahtarlarını aldı ⇒ papalık devri 29 Ocak; Este devleti o günden Modena merkezli.",
+  ic_not_t:"`ferrara` künyesinin t'si DEVRALINDI (1859-01-01, yıl) — kaynak gün vermiyor; veride Modena dönemi 1860-03-18'e kadar sürüyor (ferrara künyesiyle aynı mevcut aşım, bu pakette değiştirilmedi).",
+  ozet:"Este hanedanının Ferrara'yı Papalık Devleti'ne kaybettikten (1598) sonra Modena ve Reggio merkezli sürdürdüğü dükalık; 1859'da İtalyan birliği sürecinde sona erdi. Ana künye: [[ferrara]].",
+  kaynak:"Chiappini, L., «1598: diario di una svolta», Ferrara. Voci di una città, Fondazione Estense (1997) https://rivista.fondazioneestense.it/en/1997/item/383-1598-diario-di-una-svolta.html · TDV kapsamıyor (İtalya)",
+  kronoloji:[] },
 // VERİ DEVLET (7 Ağustos 2026) — DALGA 2: `mantua` harita kimliği künyenin
 // ömrünün (1328-1708) ÖNCESİNDE de kullanılıyordu; Bonacolsi senyörlüğü
 // dönemi. Bitiş günü (16 Ağustos 1328, Gonzaga darbesi) iyi belgeli bir
