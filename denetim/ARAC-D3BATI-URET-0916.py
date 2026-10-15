@@ -801,48 +801,14 @@ for rid, f0, t0 in RUS:
 PENCERE_BASI = T_VIYANA1815   # G4'te 1878-07-13'ten Viyana 1815'e uzatıldı (öncül başlangıcı hâlâ kaynakta yok)
 PB_NOT = ("f Viyana 1815 (G4 pencere başı): öncülün kendi başlangıcı kaynakta yok — değişiklik tarihi DEĞİL; "
           "1815 öncesi G5'te")
-# KARAR-UYG-1015 (Emre 0080 DEVİR İsviçre kuzey, KAYNAK-1015/G5): eski `dg3-ch-de-1879-oncesi` YOK kutusu
-# (taraf `almanya` = Kutsal Roma künyesi 962-1806, 1815-1871 için YANLIŞ taraf) → E hattı, iki taraf dönemi:
-#   1815-06-09 → 1871-01-18  isvicre–baden   (Baden Büyük Dükalığı, künye `baden` 1281→1918-11-22)
-#   1871-01-18 → 1879-06-24  isvicre–almanya (Alman İmparatorluğu ilanı; d1923-ch-de'nin öncülü)
-# Geometri bugünkü CHE-DEU hattı (d1923-ch-de ile AYNI parçalama). Dayanak: HLS "Grenzen" (Leimgruber, 2017-12-14):
-# "Der aktuelle Verlauf der Schweizer Grenze geht auf den Wiener Kongress von 1815 zurück"; 1815 sonrası sayılan
-# değişiklikler 1862 Dappental · 1952 · 1955 · 1967 Verenahof — bu kesimde 1815-1879 arası değişiklik SAYILMIYOR.
-# HLS "Wiener Kongress" (Jorio, 2015-02-03): "1815 wurden die bis heute gültige Landesgrenze … festgelegt".
-# 1854/1878/1879 Untersee-Konstanz antlaşmalarının öncesiyle farkı ÖLÇÜLMEDİ ⇒ kesinlik_km 1.5 + beyan.
-T_ALMAN_IMP = "1871-01-18"     # Alman İmparatorluğu'nun ilanı (Versay)
-ISO_BADEN = dict(ISO); ISO_BADEN["baden"] = ["DEU"]
-HLS_CH = [{"ad": "HLS — Grenzen (W. Leimgruber)", "tarih": "2017-12-14", "tur": "akademik ansiklopedi",
-           "url": "https://hls-dhs-dss.ch/de/articles/007841/2017-12-14/",
-           "alinti": "Der aktuelle Verlauf der Schweizer Grenze geht auf den Wiener Kongress von 1815 zurück"},
-          {"ad": "HLS — Wiener Kongress (M. Jorio)", "tarih": "2015-02-03", "tur": "akademik ansiklopedi",
-           "url": "https://hls-dhs-dss.ch/de/articles/008922/2015-02-03/",
-           "alinti": "1815 wurden die bis heute gültige Landesgrenze sowie die Kantonsgrenzen festgelegt"},
-          {"ad": "Baden–İsviçre sınır antlaşması (Untersee)", "tarih": "1854-10-31", "tur": "antlaşma"},
-          {"ad": "Baden–İsviçre antlaşması", "tarih": "1878-04-28", "tur": "antlaşma"},
-          {"ad": "İsviçre–Almanya sınır antlaşması (Untersee/Konstanz)", "tarih": "1879-06-24", "tur": "antlaşma"}]
-CHB_DEG = {"deger": None, "kaynak": "HLS Grenzen",
-           "not": "HLS 1815 sonrası değişiklikleri sayıyor, bu kesimde 1879 öncesi YOK; 1854/1878/1879 Untersee-Konstanz "
-                  "düzenlemelerinin öncesiyle farkı ölçülmedi · sonrası: " + CHDE_DEG["not"]}
-CHB_NOT = ("G3 · KARAR-UYG-1015 (KAYNAK-1015/G5 HLS): eski YOK kutusu → E · " + PB_NOT)
-ekle("dg3-ch-baden", "baden", CH, PENCERE_BASI, "D", parcala(cizgi("CHE-DEU"), disinda([OBERSEE])), HLS_CH, CHB_DEG,
-     {"t": "bulunamadı", "not": "kara kesimlerinin 19. yy temel antlaşma listesi bulunamadı"}, 1.5, KES_NE,
-     CHB_NOT, t=T_ALMAN_IMP, iso=ISO_BADEN)
-ekle("dg3-ch-baden-obersee", "baden", CH, PENCERE_BASI, "C", parcala(cizgi("CHE-DEU"), icinde([OBERSEE])), HLS_CH,
-     {"deger": False, "kaynak": "Kramsch 2015", "not": "Obersee'de sınır bugün de ÇİZİLMEMİŞ"},
-     {"t": "yok", "not": "göl sınırı hiç çizilmedi"}, None,
-     "NE göl çizgisi bir kartografik UZLAŞIDIR, hukukî hat değil",
-     CHB_NOT + " · Obersee: karşı kıyıda Baden yanında Württemberg ve Bavyera da var ⇒ C", t=T_ALMAN_IMP,
-     iso=ISO_BADEN)
-ekle("dg3-ch-de-1879-oncesi", CH, DE, T_ALMAN_IMP, "D", parcala(cizgi("CHE-DEU"), disinda([OBERSEE])), HLS_CH, CHB_DEG,
-     {"t": "bulunamadı", "not": "kara kesimlerinin 19. yy temel antlaşma listesi bulunamadı"}, 1.5, KES_NE,
-     "G3 · KARAR-UYG-1015 (KAYNAK-1015/G5 HLS): eski YOK kutusu → E · f Alman İmparatorluğu'nun ilanı (taraf değişimi, "
-     "hat değişimi DEĞİL)", t="1879-06-24")
-ekle("dg3-ch-de-1879-oncesi-obersee", CH, DE, T_ALMAN_IMP, "C", parcala(cizgi("CHE-DEU"), icinde([OBERSEE])), HLS_CH,
-     {"deger": False, "kaynak": "Kramsch 2015", "not": "Obersee'de sınır bugün de ÇİZİLMEMİŞ"},
-     {"t": "yok", "not": "göl sınırı hiç çizilmedi"}, None,
-     "NE göl çizgisi bir kartografik UZLAŞIDIR, hukukî hat değil",
-     "G3 · KARAR-UYG-1015 · Bodensee Obersee: İsviçre orta hat, Avusturya kondominyum der ⇒ C", t="1879-06-24")
+g = cizgi("CHE-DEU")
+xs = [x for l in g for x, _ in l.coords]; ys = [y for l in g for _, y in l.coords]
+yok("dg3-ch-de-1879-oncesi", CH, DE, PENCERE_BASI, (min(xs) - .03, min(ys) - .03, max(xs) + .03, max(ys) + .03),
+    {"deger": None, "kaynak": "bulunamadı", "not": "1879 antlaşması Untersee/Konstanz kesimini düzenledi; öncesiyle farkı ölçülmedi"},
+    [{"ad": "Baden–İsviçre sınır antlaşması (Untersee)", "tarih": "1854-10-31", "tur": "antlaşma"},
+     {"ad": "Baden–İsviçre antlaşması", "tarih": "1878-04-28", "tur": "antlaşma"},
+     {"ad": "İsviçre–Almanya sınır antlaşması (Untersee/Konstanz)", "tarih": "1879-06-24", "tur": "antlaşma"}],
+    "E (kara ve Untersee) · Obersee C", "G3 · " + PB_NOT, t="1879-06-24")
 # KUTU-H5-1015 (Emre 0075/H-0003 "İsviçre 1830 sınırı"): bugünkü AT–CH kesimi 1815-1893 için YOK → E.
 # Dayanak: Avusturya hükümetinin 1970 sınır antlaşması gerekçesi — Saint-Germain md. 27(1) "gegenwärtige Grenze"
 # yani monarşinin son hattını aldı; bütün hattı belirleyen resmî antlaşma hiç yapılmadı, yalnız 1868 Finstermünz
