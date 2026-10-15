@@ -1972,8 +1972,8 @@ window.SEFERLER_P0074 = [
 { id:"p0074-dibic-silistre-edirne-1829",
   ad:"General Diebitsch'in Silistre'den Edirne'ye ilerleyişi (1829)",
   tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"rusya",
-  f:"1829-06-30", t:"1829-08-22",
-  tarih_hassasiyet:"f: GÜN — Silistre'nin Dibiç'e teslimi (kronoloji maddesi 1829-06-30; TDV ilerleyişin Silistre'nin alınmasından SONRA başladığını söylüyor, çıkış günü ayrıca verilmiyor) · t: GÜN — Rus kuvvetlerinin Edirne'ye girişi",
+  f:"1829-06-18", t:"1829-08-22",
+  tarih_hassasiyet:"f: GÜN — Silistre'nin Dibiç'e teslimi (kronoloji maddesi 1829-06-18 — ESBE 18 Haziran J; KUTU-H6-1015 eski G 1829-06-30'dan döndürdü, m.28; TDV ilerleyişin Silistre'nin alınmasından SONRA başladığını söylüyor, çıkış günü ayrıca verilmiyor) · t: GÜN — Rus kuvvetlerinin Edirne'ye girişi",
   kaynak:"edirne-antlasmasi (TDV): \"Silistre'yi ele geçiren General Diebitch Edirne'ye doğru ilerlemeye başlamış\" · \"Edirne önündeki Rus kuvvetleri herhangi bir mukavemetle karşılaşmadan şehre girmişler (22 Ağustos 1829), Kırklareli ile Lüleburgaz'ı da işgal etmişlerdi\"",
   kesinlik:"İSTASYON yalnız iki uç: Silistre ve Edirne. Kırklareli ile Lüleburgaz kaynakta ADIYLA geçiyor ama SIRASI ve GÜNÜ yok — üstelik Lüleburgaz Edirne'nin doğusunda kalıyor, yani 'yol üstünde' varsaymak güzergâhı UYDURMAK olurdu; ikisi de yola KONMADI. Ara menziller (Şumnu, Aydos, Karnabat) bu cümlelerde geçmiyor.",
   yol:[[27.26,44.117],[26.556,41.677]] }

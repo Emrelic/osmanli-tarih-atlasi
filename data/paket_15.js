@@ -1085,9 +1085,9 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"] },
 
 // ── 1788 · Rumyantsev Mogilev'de Dinyester'i geçiyor ─────────────────
-{ t:"1788-07-01", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ t:"1788-06-20", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Rus Ukrayna ordusunun Mogilev'de Dinyester'i geçip Boğdan'a girmesi (1787-1792 Osmanlı-Rus Savaşı)",
-  gun:"1 Temmuz 1788 (Jülyen 20 Haziran)",
+  gun:"20 Haziran 1788", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir.",
   yer:"Mogilev (Mohyliv-Podilskyi), Dinyester — Boğdan'ın kuzeyi",
   yer_kon:[48.446, 27.798],
   kisiler:"Mareşal Rumyantsev",
@@ -1098,9 +1098,9 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"] },
 
 // ── 1806 · ilansız işgal ─────────────────────────────────────────────
-{ t:"1806-11-23", k:"savas", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ t:"1806-11-11", k:"savas", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Rus ordusunun savaş ilan edilmeden Dinyester'i geçip Memleketeyn'i işgale başlaması (1806-1812 Osmanlı-Rus Savaşı)",
-  gun:"23 Kasım 1806 (Jülyen 11 Kasım)",
+  gun:"11 Kasım 1806", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir.",
   yer:"Dinyester hattı — Hotin, Bender, Akkirman, Kili",
   yer_id:"Hotin",
   kisiler:"General Michelson (Mihelson)",
@@ -1134,9 +1134,9 @@ window.OLAYLAR_P0056 = [
   duygu:["😔"] },
 
 // ── 1810 · Silistre ──────────────────────────────────────────────────
-{ t:"1810-06-10", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ t:"1810-05-29", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Silistre'nin Ruslara teslimi",
-  gun:"10 Haziran 1810 (Jülyen 29 Mayıs)",
+  gun:"29 Mayıs 1810", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir.",
   yer:"Silistre, Tuna'nın sağ yakası",
   yer_id:"Silistre",
   kisiler:"General N. M. Kamenski",
@@ -1160,9 +1160,9 @@ window.OLAYLAR_P0056 = [
   duygu:["😔"] },
 
 // ── 1811 · Rusçuk muharebesi ve boşaltma ─────────────────────────────
-{ t:"1811-07-04", k:"savas", kapsam:"ic", etiket:["savas","toprak-kazanc","konu-askeri"],
+{ t:"1811-06-22", k:"savas", kapsam:"ic", etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"Rusçuk Muharebesi ve Kutuzov'un Rusçuk'u yıkıp Tuna'nın sol yakasına çekilmesi",
-  gun:"4 Temmuz 1811 (Jülyen 22 Haziran) — muharebe; çekilişin günü kaynakta yok",
+  gun:"22 Haziran 1811 — muharebe; çekilişin günü kaynakta yok", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir.",
   yer:"Rusçuk, Tuna'nın sağ yakası",
   yer_id:"Rusçuk",
   kisiler:"General Kutuzov, Sadrazam Ahmed Paşa",
@@ -1172,9 +1172,9 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"] },
 
 // ── 1828 · Prut geçişi ───────────────────────────────────────────────
-{ t:"1828-05-07", k:"savas", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ t:"1828-04-25", k:"savas", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Rus 6. Piyade Kolordusunun Prut'u geçip Memleketeyn'e girmesi (1828-1829 Osmanlı-Rus Savaşı)",
-  gun:"7 Mayıs 1828 (Jülyen 25 Nisan)",
+  gun:"25 Nisan 1828", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir.",
   yer:"Prut — Boğdan ve Eflak",
   yer_id:"Yaş",
   kisiler:"Mareşal Wittgenstein, General Geismar",
@@ -1184,9 +1184,9 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"] },
 
 // ── 1829 · Silistre ikinci kez ───────────────────────────────────────
-{ t:"1829-06-30", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ t:"1829-06-18", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Silistre'nin Dibiç'e teslimi — 1836'ya kadar sürecek Rus işgali",
-  gun:"30 Haziran 1829 (Jülyen 18 Haziran)",
+  gun:"18 Haziran 1829", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir.",
   yer:"Silistre, Tuna'nın sağ yakası",
   yer_id:"Silistre",
   kisiler:"General Dibiç (Diebitsch), General Schilder",
@@ -1209,9 +1209,9 @@ window.OLAYLAR_P0056 = [
 
 // ── 1853 · Prut geçişi ───────────────────────────────────────────────
 // KUTU-G2-1014 (0035/H-0090): savaş ilanından (1853-10-04) üç ay önce, ilansız işgal.
-{ t:"1853-07-03", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ t:"1853-06-21", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Rus ordusunun Prut'u geçip Memleketeyn'i (Eflak-Boğdan) işgale başlaması — Kırım Savaşı'na giden yol",
-  gun:"3 Temmuz 1853 (Jülyen 21 Haziran)",
+  gun:"21 Haziran 1853", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir.",
   yer:"Prut — Besarabya ile Boğdan arasındaki sınır",
   yer_id:"Yaş",
   kisiler:"Prens Mihail Gorçakov, General Anrep-Elmpt, I. Nikola",

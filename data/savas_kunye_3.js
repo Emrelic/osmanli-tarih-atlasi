@@ -627,10 +627,10 @@ window.SAVAS_KUNYE_3 = [
   ],
   kaynak:"TDV: ruscuk (DİA 35, 2008, s. 246-250) · TDV: yusuf-ziya-pasa (DİA 44, 2013, s. 34-37)" },
 
-{ id:"kunye-ruscuk-1811", savas_ad:null, savas_t:"1811-07-04", tur:"meydan",
+{ id:"kunye-ruscuk-1811", savas_ad:null, savas_t:"1811-06-22", tur:"meydan",
   baslik:"Rusçuk Muharebesi (1811)",
   tarih_metin:"1811 Haziranında alınan ağır yenilgiler ve tersliklerden sonra Ruslar geri çekilmeye zorlandı (ruscuk)",
-  celiski:"TDV ruscuk: Haziran 1811 (takvim belirtilmemiş; Jülyen olabilir); atlas kronolojisi: 1811-07-04",
+  celiski:"TDV ruscuk: Haziran 1811 (takvim belirtilmemiş; Jülyen olabilir); atlas kronolojisi: 1811-06-22 (ESBE 22 Haziran J; KUTU-H6-1015 eski G karşılığı 1811-07-04'ten döndürdü, m.28)",
   taraflar:[
     { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"bulunamadı (TDV ruscuk anmıyor; ahmed-pasa-laz slug'ı ölü)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor" },
     { ad:"Rus ordusu", devlet_id:"rusya", komutan:"Başkumandan Kutuzov", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", notlar:"Çekilmeden önce Kutuzov şehrin istihkâmını ve kaleyi havaya uçurttu; şehir yangından büyük zarar gördü (ruscuk). TDV 'ağır yenilgiler' der ama muharebenin adını ve sonucunu ayrıca anlatmaz." }
