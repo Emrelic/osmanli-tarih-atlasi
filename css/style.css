@@ -3669,3 +3669,17 @@ body.gn-oge-kipi * { cursor: crosshair !important; }
   padding: 6px 12px; font-size: 13px; display: none; max-width: calc(100vw - 32px);
 }
 #gn-bildirim.hata { background: #3a1010; color: #ffd0d0; border-color: #ff5050; }
+/* Çok bölgeli not (GELISTIRICI-COKBOLGE-1016): bölge numarası haritada ve formda
+   AYNI rozettir — eşleşme numarayla okunur; post-it'te bölge sayısı yazar. */
+.gn-bolge-no {
+  min-width: 16px; height: 16px; padding: 0 3px; box-sizing: border-box; border-radius: 8px;
+  background: #142014; color: #39ff14; border: 1px solid #39ff14; cursor: pointer;
+  font: 700 10px/14px sans-serif; text-align: center; box-shadow: 0 0 4px rgba(57, 255, 20, .6);
+}
+.gn-bolge-no-satir { display: inline-block; cursor: default; }
+.gn-postit.gn-postit-cok { width: 16px; height: 16px; font: 700 10px/14px sans-serif; color: #111; text-align: center; }
+.gn-bolge-liste { margin: 4px 0; }
+.gn-bolge-satir { display: flex; align-items: center; gap: 6px; padding: 2px 0; }
+.gn-bolge-sil { margin-left: auto; border: 0; background: none; color: #a33; cursor: pointer; font-size: 13px; }
+.gn-bolge-ekle { margin-top: 3px; padding: 2px 8px; border-radius: 4px; border: 1px dashed #2bd10f; background: #fff; cursor: pointer; }
+
