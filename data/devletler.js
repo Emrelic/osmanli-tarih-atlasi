@@ -11517,10 +11517,10 @@ window.DEVLETLER = [
   ]
 },
 { id:"ildenizli", ad:"İldenizliler (Azerbaycan Atabegleri)", tur:"atabeglik", bolge:"iran",
-  f:"1148-01-01", t:"1225-01-01", baskent:"Nahcıvan · Tebriz · Hemedan", boya_gerekli:true,
+  f:"1148-01-01", t:"1225-07-25", baskent:"Nahcıvan · Tebriz · Hemedan", boya_gerekli:true,
   alinti_slug:"ildenizliler",
   ic_not_f:"543/1148 Azerbaycan valiliği; gün yok.",
-  ic_not_t:"Özbek 622/1225'te öldü; II. Kızılarslan (Hâmûş) Celâleddin onayıyla geçti ama 'hânedan Özbek'in ölümüyle fiilen tarihe karışmıştır'. Celâleddin Tebriz'i 1225'te merkez yaptı (tarih kaynağı: hükümdar listesi 607-622 (1210-1225)).",
+  ic_not_t:"Özbek 622/1225'te öldü; II. Kızılarslan (Hâmûş) Celâleddin onayıyla geçti ama 'hânedan Özbek'in ölümüyle fiilen tarihe karışmıştır'. Celâleddin Tebriz'i 1225'te merkez yaptı (tarih kaynağı: hükümdar listesi 607-622 (1210-1225)). · T5-1000-A-1016: t 1225-01-01 → 1225-07-25 (künye aşımı sınıf ② — aynı polity sürüyor): TDV tebriz 'Bir engelle karşılaşmadan Tebriz’e giren Celâleddin şehre hâkim oldu (17 Receb 622/25 Temmuz 1225)'; Özbek'in Tebriz'i bırakışı İldenizli hâkimiyetinin fiilî sonu.",
   alinti_f:"Diğer adı Azerbaycan Atabegleri olan hânedanın temelleri, Şemseddin İldeniz’in 543’te (1148) Azerbaycan valiliğine tayiniyle atılmıştır.",
   alinti_t:"Nusretüddin Ebû Bekir 591 (1195) Muzafferüddin Özbek 607-622 (1210-1225)",
   ozet:"Şemseddin İldeniz'in kurduğu Azerbaycan atabegliği; Irak Selçuklu sultanlarını fiilen yönetti, Gürcülere karşı İslâm sınırını korudu.",
