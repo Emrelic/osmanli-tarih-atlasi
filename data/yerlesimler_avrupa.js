@@ -172,7 +172,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Pau", tur:"sehir", lat:43.296, lon:-0.370, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1479-01-01",d:"fransa"},{f:"1479-01-01",t:"1620-10-19",d:"navarra"},{f:"1620-10-19",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"2000-12-31",d:"fransa-cumhuriyet"}] },
 
 // ── FRANSA: doğu sınırı (Burgonya, Lorraine, Alsace, Franche-Comté) ────────
-{ ad:"Dijon", tur:"sehir", lat:47.322, lon:5.041, g:0, k:1,kd:[{f:"1281-01-01",t:"1482-03-27",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1477-01-05",d:"burgonya"},{f:"1477-01-05",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"2000-12-31",d:"fransa-cumhuriyet"}] },
+{ ad:"Dijon", tur:"sehir", lat:47.322, lon:5.041, g:0, k:1,kd:[{f:"1281-01-01",t:"1482-03-27",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1477-01-05",d:"burgonya",enklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Burgonya Dükalığı'nın iki parçalı yapısı — güneydeki düklük merkezi Dijon ile kuzeydeki Alçak Ülkeler arasında Lotaringiya/Fransa toprakları vardı · TDV belcika: 'Belçika ve Hollanda’nın birçok toprağı Bourgogne Dukalığı’na dahil oldu' (dönem uçları bu beyanla doğrulanmadı)"},{f:"1477-01-05",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"2000-12-31",d:"fransa-cumhuriyet"}] },
 // Franche-Comté: imparatorluk kontluğu, Habsburg mirası, 1678 (Nijmegen) Fransa
 { ad:"Besançon", tur:"sehir", lat:47.238, lon:6.024, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1678-09-17",d:"ispanya"},{f:"1678-09-17",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"2000-12-31",d:"fransa-cumhuriyet"}] },
 // Metz: serbest imparatorluk şehri, 1552'de II. Henri, 1871-1919 Alman
