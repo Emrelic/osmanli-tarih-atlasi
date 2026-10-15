@@ -3693,6 +3693,11 @@ BOYALAR = {
     #   değişir (hex aynı kalabilir). Engel kümesi Riga noktası + 1281-1561-11-28 enjekte edilerek
     #   kuruldu (livonya-tarikati · teuton · litvanya · novgorod komşuları): en yakın engel ΔE 12,9.
     "riga-baspiskoposlugu": ("Riga Başpiskoposluğu", "#d82a78"),
+    # RENK-PAKET-1015 — KARAR-UYG-1015 künyesi (Riga 1561-11-28 → 1581-01-01). Engel kümesi GERÇEK
+    #   veriyle (Voronoi 4 komşu → evren 28) + Riga noktası/pencere: --oner
+    #   (denetim/oneri-20261015-222539.txt) en yakın engel ΔE 12,1.
+    #   riga-baspiskoposlugu (#d82a78) GERÇEK dönemle (1281-1330) yeniden sınandı — bkz. rapor.
+    "riga-hur-sehri":       ("Riga Hür Şehri", "#2a24c6"),
 }
 
 
