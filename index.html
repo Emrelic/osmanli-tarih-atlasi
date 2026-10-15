@@ -900,6 +900,15 @@
         <input type="range" id="ayar-imparatorluk-pay" min="10" max="120" step="5" value="55">
         <span id="ayar-imparatorluk-pay-deger" class="ayar-deger"></span>
       </div>
+      <!-- 🆕 ODAK-ZOOM-1016 — Emre (16 Ekim 2026): devlet kronolojisinde madde
+           ilerletilirken devletin o günkü toprağı ekranın EN AZ 1/8'ini kaplasın;
+           kaplamıyorsa kamera uzaklaşır (js/odak_zoom.js · app.js `odakZoomKapisi`).
+           Varsayılan AÇIK; tercih `odakZoom` anahtarıyla kalıcı. -->
+      <div class="ayar-satir">
+        <label for="ayar-odak-zoom-ac">Devlet toprağı görünsün <span class="ayar-ipucu">(devlet kronolojisinde toprak ekranın en az 1/8'i olacak kadar uzaklaş)</span></label>
+        <input type="checkbox" id="ayar-odak-zoom-ac" checked>
+        <span class="ayar-deger"></span>
+      </div>
     </details>
     <details class="ayar-grup">
       <summary>⏱ ③ Hız ve süre</summary>
@@ -2015,6 +2024,8 @@
      app.js `olaylar`ı ve künye kronolojilerini kurarken süzgeç olarak çağırır. -->
 <script src="data/kaynak_guven.js?v=r208058036"></script>
 <script src="js/kaynak_damga.js?v=r126307977"></script>
+<!-- ODAK-ZOOM-1016 — saf hesap (DOM'suz), app.js'ten ÖNCE: `window.ODAK_ZOOM`. -->
+<script src="js/odak_zoom.js?v=r0"></script>
 <script src="js/app.js?v=r234500486"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->

@@ -14013,6 +14013,141 @@ function maddeOdakKutusu(o) {
   return null;
 }
 // ═══════════════════════════════════════════════════════════════════════════
+// 🆕 ODAK-ZOOM-1016 — DEVLET KRONOLOJİSİNDE TOPRAK ≥ EKRANIN 1/8'İ
+// Emre (16 Ekim 2026): *"Odakta yer alan devlet kronoloji maddeleri ilerletilirken
+// ilgili devletin toprakları ekranın en az 1/8'i kadar yer kaplamalı; ona göre
+// zoom out yapılmalı."*
+// NEREYE BAĞLI — TEK NOKTA: `odakKur()` içindeki `gezGit(o)`. ⏭/⏮ (`ODAK_GEZINTI.
+// adim`), olay olay oynatma (`adim(1)`), "tarihe git" (`ODAK_GEZINTI.git`) ve
+// listede satır tıklaması HEPSİ oradan geçer; devlet maddesinde ardından
+// `maddeAc(d, m)` koşar ve kamerayı ÜÇ dalda kurar (konumlu → `haritayiOlayaGotur`
+// flyTo/easeTo/jumpTo · odak kutusu → cameraForBounds+flyTo · gövde → `devletiYay`
+// fitBounds · tâbi kutusu → fitBounds). 🔴 Dallara TEK TEK dokunulmadı (dosyanın
+// kendi uyarısı: *"Dördüncü bir yol açmıyoruz"* · *"iki ayrı bbox-kamera yolu
+// olsaydı biri düzelirken öteki bayatlardı"*): `gezGit` çağrının süresince bir
+// BAĞLAM kurar, haritanın kamera komutları (flyTo/easeTo/jumpTo/fitBounds) bağlam
+// varken HEDEFİ `odakZoomAlt`tan geçirir, bağlam yokken BİT BİT eskisi gibi
+// davranır. Yeni kamera yolu YOK; var olan yolun hedefi süzülüyor — animasyon
+// seçenekleri (duration · curve · essential · offset) olduğu gibi geçer.
+// ⚠️ `maddeAc`ın bütün kamera çağrıları SENKRON (ölçüldü: `haritayiOlayaGotur`
+//   orada doğrudan çağrılıyor; Osmanlı `olayaGit`i ise `_haritaSakinlesince` ile
+//   ERTELİYOR) ⇒ bağlam `try/finally` ile kurulup kaldırılabiliyor. Birleşik
+//   listedeki OSMANLI maddeleri (`olayaGit` dalı) bu kapsamın DIŞINDA — Osmanlı
+//   gövdesi imparatorluk ölçeğindedir ve o yol ertelemeli.
+// Saf hesap `js/odak_zoom.js`te (node sınavı: denetim/ARAC-ODAK-ZOOM-SINAV-1016.js).
+// Ayar: ⚙ `ayar-odak-zoom-ac` (varsayılan AÇIK, `odakZoom` anahtarıyla kalıcı).
+var ODAK_ZOOM_BAG = null;       // null ya da { id, gi, ad } — yalnız gezGit süresince dolu
+var ODAK_ZOOM_SON = null;       // son karar (konsoldan ölçüm: window.ODAK_ZOOM_SON)
+function odakZoomAcik() {
+  var e = document.getElementById("ayar-odak-zoom-ac");
+  return !(e && !e.checked);
+}
+// Kalıcılık — `duyguAc` deseni: kayıt yoksa HTML'deki `checked` (AÇIK) geçerli.
+(function () {
+  var e = document.getElementById("ayar-odak-zoom-ac");
+  if (!e) return;
+  try { if (localStorage.getItem("odakZoom") === "0") e.checked = false; } catch (eL) { /* özel pencere */ }
+  e.addEventListener("change", function () {
+    try { localStorage.setItem("odakZoom", e.checked ? "1" : "0"); } catch (eL) { /* özel pencere */ }
+  });
+})();
+// Devletin `gi` gününde ÇİZİLİ gövdesi (MultiPolygon koordinatları) — haritanın
+// zaten tuttuğu `devletler2[].dnm[].ft` (DEVLET_HARITA); yeni veri YÜKLENMEZ.
+// Gövde yoksa (henüz doğmamış · tâbi çizili · sahnede değil) null ⇒ eski davranış.
+var _odakZoomOnbellek = { anahtar: null, g: null };
+function odakZoomGovdesi(devletId, gi) {
+  if (!devletId || !window.ODAK_ZOOM) return null;
+  var s = null;
+  for (var i = 0; i < devletler2.length; i++) if (devletler2[i].id === devletId) { s = devletler2[i]; break; }
+  if (!s) return null;
+  var p = devletAktifDonem(s, gi);
+  if (!p || !p.ft || !p.ft.geometry) return null;
+  // Aynı dönem art arda maddelerde tekrar projekte edilmesin (tembel havuz inince
+  // `__govdeYenile` `p.ft`yi YENİDEN kurar ⇒ nesne kimliği anahtarın parçası).
+  if (_odakZoomOnbellek.anahtar === p.ft) return _odakZoomOnbellek.g;
+  var g = null;
+  try { g = ODAK_ZOOM.odakGovdeHazirla(p.ft.geometry.coordinates); } catch (e) { g = null; }
+  _odakZoomOnbellek = { anahtar: p.ft, g: g };
+  return g;
+}
+// `odakZoomAlt(hedefKam, devletId, gun)` — kamera yolunun hesapladığı hedefi alır,
+// gerekiyorsa zoom'u düşürülmüş (ve merkezi gövdeye kaydırılmış) hedefi döndürür.
+// Ölçülemezse hedefKam AYNEN döner.
+function odakZoomAlt(hedefKam, devletId, gun) {
+  var g = odakZoomGovdesi(devletId, gun);
+  if (!g) { ODAK_ZOOM_SON = { id: devletId, gi: gun, sebep: "govde-yok" }; return hedefKam; }
+  var r;
+  try {
+    r = ODAK_ZOOM.odakZoomAlt(hedefKam, g, _haritaKutu(),
+          { minZoom: (harita.getMinZoom ? harita.getMinZoom() : 0) });
+  } catch (e) { console.error("[odak-zoom]", e); return hedefKam; }
+  ODAK_ZOOM_SON = { id: devletId, gi: gun, sebep: r.sebep, pay0: r.pay0, pay: r.pay,
+                    zoom0: hedefKam.zoom, zoom: r.zoom };
+  if (!r.degisti) return hedefKam;
+  console.log("🔭 odak-zoom: " + devletId + " · pay %" + (100 * r.pay0).toFixed(1) +
+              " → %" + (100 * r.pay).toFixed(1) + " · zoom " + hedefKam.zoom.toFixed(2) +
+              " → " + r.zoom.toFixed(2) + " (" + r.sebep + ")");
+  var yeni = {};
+  for (var k in hedefKam) if (Object.prototype.hasOwnProperty.call(hedefKam, k)) yeni[k] = hedefKam[k];
+  yeni.center = r.center; yeni.zoom = r.zoom;
+  return yeni;
+}
+// Kamera komutlarının SÜZGECİ — bir kez kurulur; bağlam yoksa doğrudan geçer.
+function _odakZoomSar() {
+  if (!harita || harita.__odakZoomSarili) return;
+  harita.__odakZoomSarili = true;
+  ["flyTo", "easeTo", "jumpTo"].forEach(function (ad) {
+    var asil = harita[ad];
+    if (typeof asil !== "function") return;
+    harita[ad] = function (sec, ev) {
+      if (ODAK_ZOOM_BAG && sec && sec.center != null) {
+        var bag = ODAK_ZOOM_BAG, s2 = {};
+        for (var k in sec) if (Object.prototype.hasOwnProperty.call(sec, k)) s2[k] = sec[k];
+        if (typeof s2.zoom !== "number") s2.zoom = harita.getZoom();
+        sec = odakZoomAlt(s2, bag.id, bag.gi);
+      }
+      return asil.call(harita, sec, ev);
+    };
+  });
+  var asilFit = harita.fitBounds;
+  if (typeof asilFit === "function") {
+    harita.fitBounds = function (sinir, sec, ev) {
+      var bag = ODAK_ZOOM_BAG;
+      if (!bag) return asilFit.call(harita, sinir, sec, ev);
+      sec = sec || {};
+      var kam = null;
+      try { kam = harita.cameraForBounds(sinir, { padding: sec.padding, maxZoom: sec.maxZoom }); } catch (e) { kam = null; }
+      if (kam && kam.center && typeof kam.zoom === "number") {
+        var yeni = odakZoomAlt({ center: kam.center, zoom: kam.zoom }, bag.id, bag.gi);
+        if (yeni.zoom !== kam.zoom) {
+          // fitBounds'un kendi geçişi: `linear` ise easeTo, değilse flyTo (MapLibre
+          // belgesi) — aynı süre/essential/curve ile, BAĞLAMSIZ (ikinci süzme yok).
+          var s3 = { center: yeni.center, zoom: yeni.zoom };
+          if (typeof kam.bearing === "number") s3.bearing = kam.bearing;
+          ["duration", "essential", "curve", "speed", "easing", "animate", "maxDuration"].forEach(function (k) {
+            if (sec[k] !== undefined) s3[k] = sec[k];
+          });
+          ODAK_ZOOM_BAG = null;
+          try { return (sec.linear ? harita.easeTo : harita.flyTo).call(harita, s3, ev); }
+          finally { ODAK_ZOOM_BAG = bag; }
+        }
+      }
+      // Değişiklik yok ⇒ asıl fitBounds; içindeki flyTo/easeTo yeniden süzülmesin.
+      ODAK_ZOOM_BAG = null;
+      try { return asilFit.call(harita, sinir, sec, ev); } finally { ODAK_ZOOM_BAG = bag; }
+    };
+  }
+}
+// TEK KAPI — `gezGit` çağırır. Kapalıysa / gövde kimliği yoksa `is()` aynen koşar.
+function odakZoomKapisi(d, gi, is) {
+  if (!d || d.id === "osmanli" || !odakZoomAcik() || typeof gi !== "number") return is();
+  try { _odakZoomSar(); } catch (e) { return is(); }
+  var onceki = ODAK_ZOOM_BAG;
+  ODAK_ZOOM_BAG = { id: d.harita || d.id, gi: gi, ad: d.ad };
+  try { return is(); } finally { ODAK_ZOOM_BAG = onceki; }
+}
+// (`odakZoomAlt` ve `ODAK_ZOOM_SON` üst düzey `var`/işlev ⇒ konsoldan doğrudan okunur.)
+// ═══════════════════════════════════════════════════════════════════════════
 // 🆕 KUTU-D-1014 — İTTİFAK ROZETİ + İP (paket 0023 H-0003 · 0027 H-0006)
 // Emre: *"kutsal ittifaka katılan devletlere bir rozet dağıtarak bunu haritada
 // göster … fosforlu yeşil, parlak turuncu gibi vurgulu bir renk … bir seferlik
@@ -16536,7 +16671,10 @@ function kronoTemsilEdiliyor(k, derin) {
     // aynı günün doğru maddesine otursun (atlas penceresine kırpılmış hâli).
     gezSuanki = Math.max(BASLANGIC, Math.min(BITIS, o.gi));
     if (o.d && o.d.id === "osmanli") olayaGit(o.m, true, true);   // Osmanlı: tam panel
-    else maddeAc(o.d, o.m);
+    // 🆕 ODAK-ZOOM-1016 — devlet maddesinin kamerası TEK KAPIDAN süzülür: toprak
+    // ekranın ≥ 1/8'i değilse zoom düşer (`odakZoomKapisi`, tanım ve gerekçe
+    // `maddeOdakKutusu`nun altında). Kapalıysa / gövde yoksa davranış bit bit eski.
+    else odakZoomKapisi(o.d, gezSuanki, function () { maddeAc(o.d, o.m); });
     gezSuanki = suanki;
   }
   function gezTazele(l) {
@@ -17139,6 +17277,7 @@ var IPUCU_EK = [
   ["#ayar-hareket", "Hareket biçimi: eğik atış uzaklaşıp yaklaşarak gider, yatay düz kayar."],
   ["#ayar-yatay-esik", "Yatay sınırı: bu km'nin üstündeki geçişler \"yatay\" seçilse de eğik atışla yapılır."],
   ["#ayar-kirpma-ac", "Öncesi/sonrası kırpması: olay yerine varınca haritanın olaydan önceki ve sonraki hâli sırayla gösterilir."],
+  ["#ayar-odak-zoom-ac", "Devlet toprağı görünsün: devlet kronolojisinde maddeden maddeye geçerken devletin o günkü toprağı ekranın en az 1/8'ini kaplamıyorsa harita o kadar uzaklaşır."],
   ["#ayar-kirpma-toplam-ms", "Kırpma süresi: öncesi/sonrası gösteriminin toplam süresi (milisaniye)."],
   ["#ayar-kirpma-adet", "Kırpma sayısı: öncesi→sonrası gösteriminin kaç kez tekrarlanacağı."],
   ["#ayar-irtifa", "İrtifa: orta mesafeli geçişlerde kameranın ne kadar yükseleceği; kısa/uzun geçişte kendiliğinden ayarlanır."],
