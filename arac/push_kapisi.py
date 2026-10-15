@@ -481,6 +481,10 @@ def main(argv):
         return 2
     nabiz = Nabiz(ar["--kim"])
     nabiz.start()
+    # 🔴 --kuru AĞACI DEĞİŞTİRMEZ (15 Ekim 2026, KOŞU 25). Ölçüm itilecek commit'ten yapıldığı için
+    #    kuru da rebase eder; eskiden rebase + amend KALICI kalıyordu ve C:\atlas-kosu25'in HEAD'i
+    #    59bc89d71 → 43d2d5b3e sessizce değişti. Artık HEAD her yolda (geçti/red/çatışma) geri alınır.
+    kuru_bas = git("rev-parse", "HEAD").stdout.strip() if ar["--kuru"] else None
     try:
         for n in range(3):
             if tur(ar):
@@ -499,8 +503,27 @@ def main(argv):
         print("⚪ ÖLÇÜLEMEDİ: %s" % e)
         return 2
     finally:
+        if kuru_bas:
+            kuru_geri_al(kuru_bas)
         nabiz.dur.set()
         _kilit("birak", KILIT_AD, "--kim", ar["--kim"], "--sessiz")
+
+
+def kuru_geri_al(bas):
+    """--kuru sonunda HEAD'i kurudan önceki commit'e döndürür (yerel değişiklikler korunur)."""
+    if _rebase_suruyor():
+        git("rebase", "--abort", kontrol=False)
+    simdi = git("rev-parse", "HEAD").stdout.strip()
+    if simdi == bas:
+        print("   --kuru: ağaç DEĞİŞMEDİ (HEAD %s)." % bas[:9])
+        return
+    r = git("reset", "--keep", bas, kontrol=False)
+    if r.returncode == 0 and git("rev-parse", "HEAD").stdout.strip() == bas:
+        print("   --kuru: rebase GERİ ALINDI — HEAD %s → %s (kurudan önceki hâl)." % (simdi[:9], bas[:9]))
+    else:
+        print("🟠 --kuru: HEAD GERİ ALINAMADI — ağaç rebase'li kaldı (HEAD %s, kurudan önce %s).\n"
+              "   Yerel değişiklik çakışıyor olabilir. Elle: git reset --keep %s\n   %s"
+              % (simdi[:9], bas[:9], bas, (r.stdout + r.stderr).strip()[-300:]))
 
 
 if __name__ == "__main__":

@@ -5178,7 +5178,7 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   ⚠️ Gövde hâlâ 2026-10-04 19:17 koşusunun çıktısı; Dobriç henüz gövdede YOK.
 #     Tam inşadan sonra bu üye yeniden ölçülecek — düşebilir de, kalabilir de.
 # ═══════════════════════════════════════════════════════════════════════════
-BEKLENEN_D8A = 1508   # 15 Ekim 2026: 1505 → 1508, Emre onayı (KOŞU 25 gövdesi, taban b0b48774 + KUTU-H5-1015 308429b12 rebase). Taşma GEOMETRİSİ değişmedi: H5 aynı şeritlere yeni noktalar ekledi (Cortina, Locarno, Enschede, Subotica), birim = (hat, gün, yan, EN YAKIN yer) olduğundan aynı taşma daha çok ada bölündü. Sayım kusuru ayrıca düzeltilecek · ÖNCEKİ 13 Ekim: 1508 → 1505 (denetle.py ölçümü, origin/main 122ae588d; Emre tavan onayı) · 1568 → 1508, 6 Ekim 2026 (§3.4③ iyileşme; koordinatör kararı, UMIT ölçtü+yazdı).
+BEKLENEN_D8A = 1108   # 15 Ekim 2026 (ikinci): 1508 → 1108, Emre onayı — BİRİM TANIMI DEĞİŞTİ: (hat, gün, yan, en yakın yer) → (hat, gün, yan, taşma PARÇASI). Aynı gövde (KOŞU 25) eski ölçütle 1508, yeni ölçütle 1108; KUTU-H5 öncesi veride (59bc89d71) de 1108 ⇒ sayı artık nokta yoğunluğundan bağımsız. Defter aynı commit'te yeni anahtarlarla yazıldı, hat evreni AYNI. Sınav: denetim/ARAC-D8A-YOGUNLUK-SINAV-1015.py · ÖNCEKİ 15 Ekim 2026: 1505 → 1508, Emre onayı (KOŞU 25 gövdesi, taban b0b48774 + KUTU-H5-1015 308429b12 rebase). Taşma GEOMETRİSİ değişmedi: H5 aynı şeritlere yeni noktalar ekledi (Cortina, Locarno, Enschede, Subotica), birim = (hat, gün, yan, EN YAKIN yer) olduğundan aynı taşma daha çok ada bölündü. Sayım kusuru ayrıca düzeltilecek · ÖNCEKİ 13 Ekim: 1508 → 1505 (denetle.py ölçümü, origin/main 122ae588d; Emre tavan onayı) · 1568 → 1508, 6 Ekim 2026 (§3.4③ iyileşme; koordinatör kararı, UMIT ölçtü+yazdı).
 #   🔴 ŞERH: bu sayı MAIN'İN gövdesine aittir (gövde 2026-10-04 11:37 · uret_petek 8b6aaea5,
 #   makine/umit 47290f11'de ölçüldü). KOŞU 20 geometrisi yayınlanırsa (SABAH ⑳, Emre)
 #   YENİDEN ölçülür — HAVVA aynı soruyu koşu gövdesinde başka sayıyla ölçtü. Aynı araç,
@@ -5587,6 +5587,7 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
         return _agac[k]
 
     a_tasma, a_kaba, olculen, olculemeyen = [], [], 0, []
+    a_sira = {}                     # (hat, gün, yan, yer) → kaçıncı parça (anahtar tekilliği)
     olc_hat = set()
     kor_sinif = {}                  # hat → sınıf (yalnız ölçülemeyen hatlar için; körlük raporu okur)
     atlanan = []                    # (hat, sebep) — döngüde HİÇ SAYILMADAN `continue`lenen hatlar
@@ -5688,14 +5689,33 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
                         adlar = np.array(["?"] * len(gx), dtype=object)
                     else:
                         adlar = np.array(A[1], dtype=object)[A[0].query_nearest(ll, all_matches=False)[1]]
+                    # 🔴 BİRİM = TAŞMA PARÇASI, YER DEĞİL (15 Ekim 2026, Emre onayı, KOŞU 25).
+                    #   Eskiden her (parça × en yakın yer) ayrı birimdi ⇒ aynı taşmanın yakınına
+                    #   yeni nokta eklemek (KUTU-H5: Cortina, Locarno, Enschede…) geometri hiç
+                    #   değişmeden sayıyı artırıyordu (1500 → 1508). Sayı artık yalnız motor
+                    #   çıktısına bağlı; yerler `yerler`de durur, `yer` = en büyük paylı ad
+                    #   (defter anahtarı ve okunurluk için).
+                    paylar = []
                     for kim in set(adlar):
                         m = adlar == kim
                         km2 = 4.0 * int(m.sum())
-                        if km2 < D8_ALAN_8A:
-                            continue
-                        hedef.append(dict(hat=r["id"], sinif=sinif, gun=gun, yan=yan,
-                                          kimden=karsi_ad, yer=kim,
-                                          km=round(float(km[m].max()), 1), km2=round(km2)))
+                        if km2 >= D8_ALAN_8A:
+                            paylar.append((km2, kim, float(km[m].max())))
+                    if not paylar:
+                        continue
+                    paylar.sort(key=lambda p: (-p[0], str(p[1])))
+                    # Aynı (hat, gün, yan) içinde iki AYRI parçanın en büyük paylı adı aynı
+                    # olabilir (KOŞU 25'te 99 kez). Anahtar `yer` ile kurulursa ikisi TEK
+                    # birime çöker ve sayı yine nokta yoğunluğuna bağlanır ⇒ 2. parça `Ad#2`.
+                    _k = (r["id"], gun, yan, paylar[0][1])
+                    a_sira[_k] = a_sira.get(_k, 0) + 1
+                    hedef.append(dict(hat=r["id"], sinif=sinif, gun=gun, yan=yan,
+                                      kimden=karsi_ad, yer=paylar[0][1],
+                                      yer_anahtar=paylar[0][1] if a_sira[_k] == 1
+                                      else "%s#%d" % (paylar[0][1], a_sira[_k]),
+                                      yerler=[p[1] for p in paylar],
+                                      km=round(max(p[2] for p in paylar), 1),
+                                      km2=round(sum(p[0] for p in paylar))))
     t_a = time.time() - t0
 
     # ---- 8b BÖLGE × GÖVDE ----
@@ -5742,7 +5762,7 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
 
 
 def _d8_a_anahtar(x):
-    return "%s|%s|%s|%s" % (x["hat"], x["gun"], x["yan"], x["yer"])
+    return "%s|%s|%s|%s" % (x["hat"], x["gun"], x["yan"], x.get("yer_anahtar", x["yer"]))
 
 
 def _d8_b_anahtar(x):
