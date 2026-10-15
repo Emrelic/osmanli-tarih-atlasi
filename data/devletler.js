@@ -13244,11 +13244,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"livonya-tarikati", ad:"Kılıç Kardeşleri / Livonya Tarikatı", tur:"tarikat-devleti", bolge:"dogu-avrupa",
-  f:"1202-01-01", t:"1561-01-01", baskent:"Riga / Wenden (Cēsis) — merkez bu turda kaynakla ölçülmedi", boya_gerekli:true,
+  f:"1202-01-01", t:"1561-11-28", baskent:"Riga / Wenden (Cēsis) — merkez bu turda kaynakla ölçülmedi", boya_gerekli:true,
   alinti_f:"I 1202 stiftede han Sværdridderordenen , ved hvis hjælp det meste af Livland i de efterfølgende årtier blev erobret.",
   alinti_t:"LO, kaip ir visa Livonija, nesugebėjo gintis nuo 1558 Livonijos karą pradėjusios Rusijos ir 1561 pasidavė Lietuvos Didžiajai Kunigaikštystei",
   ic_not_f:"1202 tarikatın KURULUŞ yılıdır (lex, snl, VLE üçü de 1202; VLE: papa onayı 1204). Toprak devleti 1207-1210 paylaşımıyla doğar (madde 1210) — haritada ilk yerleşim dönemleri 1207/1210'dan başlatılmalı; 1202-1207 arası Livonya toprağı piskoposluğundur (künyesi YOK, bu grubun kapsamında da değil). Gün yok.",
-  ic_not_t:"Kaynak yalnız yıl verir (Vilnius antlaşması Kasım 1561 — gün bu turda kaynakla ölçülmedi); VLE: '1562 paskutinis krašto magistras Gotthardas Kettleris … paskelbė apie LO panaikinimą'. Ardıl: Kurland Dükalığı ve Litvanya/Polonya Livonyası — atlas künyeleri bu grubun kapsamı dışında, kontrol EDİLMEDİ.",
+  ic_not_t:"KARAR-UYG-1015: t 1561-01-01 → 1561-11-28 (atlasın Vilnius Antlaşması günü, olaylar_ek16 '28 Kasım 1561'; Livonya şehirlerinin uçları bu gün) — kaynak AY verir (Kasım 1561). ESKİ: Kaynak yalnız yıl verir (Vilnius antlaşması Kasım 1561 — gün bu turda kaynakla ölçülmedi); VLE: '1562 paskutinis krašto magistras Gotthardas Kettleris … paskelbė apie LO panaikinimą'. Ardıl: Kurland Dükalığı ve Litvanya/Polonya Livonyası — atlas künyeleri bu grubun kapsamı dışında, kontrol EDİLMEDİ.",
   ozet:"Riga piskoposu Albert'in kurduğu Kılıç Kardeşleri tarikatı ve 1237'den onun ardılı olan, Töton Tarikatı'nın özerk kolu Livonya Tarikatı; Livonya ve Kurland'ın büyük kısmına hükmetti, 1561'de Litvanya'ya teslim oldu.",
   kaynak:"f: Den Store Danske (lex.dk) — 'Albert af Riga' — https://lex.dk/Albert_af_Riga · t: Visuotinė lietuvių enciklopedija — 'Livonijos ordinas' — https://www.vle.lt/straipsnis/livonijos-ordinas/",
   kronoloji:[
@@ -13264,6 +13264,26 @@ window.DEVLETLER = [
     { t:"1561-01-01", tur:"son", b:"Livonya Savaşı'nda tarikat Litvanya Büyük Dükalığı'na teslim oldu; 1562'de feshedildi" }
   ]
 },
+{ id:"riga-baspiskoposlugu", ad:"Riga Başpiskoposluğu", tur:"piskoposluk-prensligi", bolge:"dogu-avrupa",
+  f:"1255-01-01", t:"1562-01-01", baskent:"Riga", boya_gerekli:true,
+  ic_not_f:"VLE: 1201-55 piskopos, 1255-1562 başpiskopos makamı — YIL. Atlasta yalnız Riga şehrinin 1281-1330 dilimini taşır (1330'da Tarikat süzeren oldu).",
+  ic_not_t:"YIL (VLE '1255–1562'); şehir üzerindeki süzerenlik 1330'da Tarikat'a, 1452'den sonra ikili süzerenliğe geçti.",
+  ozet:"Riga piskoposluğundan 1255'te yükseltilen başpiskoposluk; şehrin süzereniydi, 1297-1330 Riga ile birlikte Livonya Tarikatı'na karşı savaştı (Litvanya desteğiyle). 1330'da şehir Tarikat'ın süzerenliğine girdi, 1452 Salaspils antlaşmasıyla Tarikat ile başpiskopos ortak süzeren oldu. Livonya Savaşı'nda dağıldı.",
+  kaynak:"Visuotinė lietuvių enciklopedija — 'Rygos istorija' — https://www.vle.lt/straipsnis/rygos-istorija/ ('1201–55 Rygos vyskupo, 1255–1562 – arkivyskupo rezidencija'; '1330 LO tapo Rygos siuzerenu') · KARAR-UYG-1015",
+  kronoloji:[
+    { t:"1255-01-01", tur:"kurulus", b:"Riga piskoposluğu başpiskoposluğa yükseltildi", kaynak:"VLE 'Rygos istorija'" },
+    { t:"1330-01-01", tur:"toprak-kayip", b:"Livonya Tarikatı Riga şehrinin süzereni oldu", kaynak:"VLE 'Rygos istorija'" },
+    { t:"1452-11-01", tur:"antlasma", b:"Salaspils antlaşması: Riga, Tarikat ile başpiskoposun ortak süzerenliğine girdi", kaynak:"VLE 'Rygos istorija' ('1452 11 pasirašyta Salaspilio sutartis')" },
+    { t:"1562-01-01", tur:"yikilis", b:"Livonya Savaşı'nda başpiskoposluk sona erdi", kaynak:"VLE 'Rygos istorija' ('1255–1562 – arkivyskupo rezidencija')" } ] },
+{ id:"riga-hur-sehri", ad:"Riga Hür Şehri", tur:"sehir-devleti", bolge:"dogu-avrupa",
+  f:"1561-11-28", t:"1581-01-01", baskent:"Riga", boya_gerekli:true,
+  ic_not_f:"VLE '1561–81 buvo laisvasis miestas' — YIL; gün atlasın Vilnius Antlaşması günü (olaylar_ek16 '28 Kasım 1561': Livonya Lehistan-Litvanya'ya bağlandı, Riga şehri dışında).",
+  ic_not_t:"YIL (VLE '1581–1621 priklausė Abiejų Tautų Respublikai'). Britannica 'Riga' de 1581 der.",
+  ozet:"Livonya Konfederasyonu dağılınca Lehistan-Litvanya'ya bağlanmayan Riga, Livonya Savaşı sırasında yirmi yıl hür şehir olarak kaldı; 1581'de Lehistan-Litvanya'ya bağlandı, 1621'de İsveç aldı.",
+  kaynak:"Visuotinė lietuvių enciklopedija — 'Rygos istorija' — https://www.vle.lt/straipsnis/rygos-istorija/ ('Per 1558–83 Livonijos karą Ryga 1561–81 buvo laisvasis miestas') · Britannica 'Riga' · KARAR-UYG-1015",
+  kronoloji:[
+    { t:"1561-11-28", tur:"kurulus", b:"Vilnius Antlaşması'nda Riga Lehistan-Litvanya'ya bağlanmadı, hür şehir kaldı", kaynak:"VLE 'Rygos istorija'" },
+    { t:"1581-01-01", tur:"yikilis", b:"Riga Lehistan-Litvanya'ya bağlandı", kaynak:"VLE 'Rygos istorija' ('1581–1621 priklausė Abiejų Tautų Respublikai')" } ] },
 { id:"kiev-rusu", ad:"Kiev Rus'u (Kiev Büyük Knezliği)", tur:"knezlik", bolge:"dogu-avrupa",
   f:"0882-01-01", t:"1240-12-06", baskent:"Kiev", boya_gerekli:true,
   alinti_f:"In 882 they were killed by Prince Oleh, the son of Riuryk of Novgorod.",
