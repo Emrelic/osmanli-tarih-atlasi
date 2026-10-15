@@ -469,4 +469,16 @@ window.YERLESIMLER_ORTAASYA3 = [
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
      {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
+// ── ARALSK — KUTU-VERI-1015 (parti-emrelic-0052 / H-0103) ─────────────────
+// Aral'ın kuzey kıyısında nokta yoktu (en yakın: 'Aral kuzeyi' yer tutucu 46,6 km,
+// Kazalinsk 120 km). Kur KURULUŞ cümlesinden (BSE 'Основан в 1905'), ilk anılıştan
+// türetilmedi. Sahip zinciri komşu Kazalinsk'in 1905 sonrası zinciriyle aynı ülke
+// devirleri (künye günleri); 1917-1920 iç savaş cepheleri kodlanmadı.
+{ ad:"Aralsk (Aral)", tur:"liman", lat:46.7967, lon:61.6667, g:0, k:4, kur:"1905-01-01", kesinlik:"yil",
+  neden:"0052/H-0103 · Aral kıyısını kuzeyde noktayla tutmak için (Emre: kıyıya örtüştürme). Muynak (güney kıyı) için kuruluş/ilk tanık tarihi BULUNAMADI — BSE 'Муйнак' maddesi tarih vermiyor; nokta açılmadı.",
+  kaynak:"Büyük Sovyet Ansiklopedisi (3. baskı) 'Аральск' — çevrimiçi https://dic.academic.ru/dic.nsf/bse/64755/ (15 Ekim 2026 okundu): 'Основан в 1905 в связи со строительством железной дороги Оренбург — Ташкент; город — с 1938' · 'Ж.-д. станция (Аральское Море) на линии Оренбург — Ташкент' · konum: bugünkü şehir merkezi (GeoNames)",
+  s:[{f:"1905-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil"}},
+     {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"devletler.js kazakistan f (adilet.zan.kz resmî metin)"}] },
+
 ];

@@ -443,6 +443,12 @@ window.OLAYLAR_2S_0919 = [
   d:"Adamava, İngiltere'ye bağlı Kuzey Nijerya ile Almanya'ya bağlı Kamerun arasında paylaşıldı; Adama'nın dördüncü oğlu Bobbo Ahmedü İngiliz bölgesinde Yola emîri oldu.",
   kaynak:"TDV `adamava` — AYNEN: \"1901’de Adamava, İngiltere’ye bağlı Kuzey Nijerya ile Almanya’ya bağlı Kamerun arasında paylaşılmış ve Adama’nın dördüncü oğlu Bobbo Ahmedü (Bobo Amadu), İngiliz bölgesinde Yola emîri olmuştur.\" · hassasiyet: YIL" },
 
+// ── 1905 ─────────────────────────────────────────────────────────────
+{ t:"1905-01-01", kesinlik:"yil", b:"Orenburg-Taşkent demiryolunda Aral Denizi istasyonu açıldı — Aralsk yerleşimi kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Aralsk (Aral)",
+  etiket:["konu-ekonomi","konu-siyasi"],
+  d:"Rus İmparatorluğu'nun Orenburg ile Taşkent'i bağlayan demiryolu Aral Denizi'nin kuzeydoğu ucundan geçerken kıyıda 'Aralskoye More' istasyonu açıldı; istasyonun yanında bir balıkçı yerleşimi doğdu. Yerleşim 1938'de şehir statüsü alarak Aralsk adını aldı.",
+  kaynak:"Büyük Sovyet Ansiklopedisi (3. baskı) 'Аральск' (https://dic.academic.ru/dic.nsf/bse/64755/) — AYNEN: \"Основан в 1905 в связи со строительством железной дороги Оренбург — Ташкент; город — с 1938.\" · Toponimik sözlük 'Аральск' (https://dic.academic.ru/dic.nsf/enc_geo/566/): 'Возник как пос. при ст. Аральское Море (открыта в 1905 г.)' · hassasiyet: YIL · KUTU-VERI-1015 (0052/H-0103)" },
+
 // ── Vaday 2 Haziran 1909 ─────────────────────────────────────────────
 { t:"1909-06-02", b:"Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Abeşe (Abéché)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
