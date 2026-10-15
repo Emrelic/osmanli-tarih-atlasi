@@ -1,5 +1,5 @@
 // ============================================================================
-// EK OKUMA — SAVAŞIN HİKÂYESİ, dalga 4 (6 kart)
+// EK OKUMA — SAVAŞIN HİKÂYESİ, dalga 4 (6 kart) · +2 kart KUTU-VERI-1015 (Centla 1519, Lippa 1596)
 // ============================================================================
 // Yazan: P12-EKOKUMA · 14 Eylül 2026 · paket 0045 H-0007 (+ 0032 H-0013)
 // Koordinatör: 1.MURAT · rapor: denetim/P12-EKOKUMA-0914.md
@@ -953,6 +953,46 @@ window.EKOKUMA_SAVAS3 = [
   kesinlik:"kesin",
   olay:["1510-12-02|Merv"],
   kaynak:"TDV: seybani-han (Merv kuşatması, mektuplar, kuvvetler, ölüm, kafatası ve deri) · TDV: sah-ismail (1512 Ubeydullah Han) · TDV: safeviler (Horasan'ın durumu, Merv ve Herat)",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 48 · 1519 Centla (KUTU-VERI-1015, 0045/H-0007) ─────────────────────────
+{ id:"savas-centla-1519", tur:"savas-hikayesi",
+  baslik:"Centla (Cintla) Muharebesi: Cortés Tabasco'da (Mart 1519)",
+  kisa:"Meksika anakarasındaki ilk büyük çarpışma: on üç atlının arkadan saldırısı Chontal Maya ordusunu dağıttı; barışın armağanları arasında sonradan doña Marina adını alacak genç bir kadın vardı.",
+  tarih_metin:"Tabasco ırmağına varış 12 Mart 1519 · meydan muharebesi 'Meryem Ana'nın mart bayramı' günü (Bernal Díaz) — Müjde yortusu, 25 Mart",
+  yer:"Grijalva (Tabasco) ırmağı ağzı, Potonchán kenti ve bir fersah içerideki Cintla ovası — bugün Tabasco eyaleti, Meksika",
+  taraflar:[
+    { ad:"İspanyol keşif kuvveti (Küba'dan)", komutan:"Hernán Cortés · piyade başında Diego de Ordás · topçu Mesa", kuvvet:"toplam bu kaynakta yok; muharebede 13 atlı (Bernal Díaz adlarıyla sayar)" },
+    { ad:"Tabasco (Chontal Maya) beyleri ve bağlı kasabalar", komutan:"adı kaynakta yok", kuvvet:"Bernal Díaz'a göre kentte 'on iki binden fazla' savaşçı toplanmıştı" }
+  ],
+  oncesi:"Cortés'in filosu Kozumel'den sonra, Grijalva'nın bir yıl önce dostça karşılandığı Tabasco ırmağına geldi. Bu kez kıyı halkı silahlanmıştı: komşu Potonchán ve öteki kasabalar, Grijalva'ya armağan verdikleri için Tabascoluları korkaklıkla suçlayıp İspanyollara karşı koymaya kışkırtmıştı; Cotoche'den getirilen tercüman Melchorejo da gece kaçıp onlara katılmıştı. Jerónimo de Aguilar aracılığıyla yapılan barış çağrıları, su ve yiyecek alma isteği reddedildi.",
+  akis:"İspanyollar sığ ve çamurlu kıyıda ok yağmuru altında karaya çıkıp kentin kalın tahta perdelerini aşarak Potonchán'ı aldılar. Birkaç gün sonra çevreyi kollayan iki bölük saldırıya uğradı; Cortés atları gemilerden indirtti. Ertesi sabah, Meryem Ana bayramı günü, piyade Ordás'ın emrinde Cintla ovasına yürüdü ve kat kat Maya birliklerinin ortasında kaldı; top ve ateşli silahlar kayıp verdirse de çember çözülmedi. Bataklıklar yüzünden ayrı yoldan dolanan Cortés ve on üç atlı arkadan çarpınca Maya saflarında bozgun başladı. Çarpışma bir saat kadar sürdü.",
+  sonuc:"Bernal Díaz alanda sekiz yüzden fazla ölü saydığını, İspanyolların iki yaralısını gömdüğünü yazar. Tabasco beyleri barış istedi; mantolar, altın süsler ve yirmi kadın armağan ettiler. Kadınlar vaftiz edildi; biri doña Marina adını aldı ve Cortés'in tercümanı olarak fetihte kilit rol oynadı. Zafer gününün anısına sonradan orada kurulan kasaba Santa María de la Victoria adını aldı. Filo oradan San Juan de Ulúa'ya, Aztek topraklarına yöneldi.",
+  tartisma:"Gün ayrışır: atlas maddesi 1519-03-25'tedir ve iç notu muharebeyi 14 Mart'a, kuruluşu 25 Mart'a ayırır; oysa Bernal Díaz meydan muharebesinin kendisini 'Meryem Ana'nın mart bayramı' gününe koyar ve kasabanın adını da o güne bağlar — bu tanıklık 25 Mart'tan yanadır. Gómara'nın aktardığı, savaşta beyaz atlı bir azizin (Santiago ya da Aziz Petrus) göründüğü rivayetini Bernal Díaz, kendi gözleriyle görmediğini söyleyerek reddeder; gördüğünün Francisco de Morla olduğunu yazar. Rakamlar tek tanığa, olaydan yaklaşık elli yıl sonra yazan Bernal Díaz'a dayanır.",
+  kesinlik:"kesin",
+  olay:["1519-03-25|Centla"],
+  kaynak:"Bernal Díaz del Castillo, Historia verdadera de la conquista de la Nueva España (yazımı 1568, ilk baskı 1632; kamu malı çağdaş tanık metni), I, bölüm XXXI-XXXVI — çevrimiçi edisyon https://www.biblioteca-antologica.org/es/wp-content/uploads/2017/07/DÍAZ-DEL-CASTILLO-Historia-verdadera-de-la-Conquista-de-MeXico-I.pdf (15 Ekim 2026 okundu: 'En 12 días del mes de marzo de 1519 años llegamos' · 'que fue dia de nuestra señora de marzo' · 'eran más de ochocientos' · 'veinte mujeres, y entre ellas una muy excelente mujer, que se dijo doña Marina') · arka plan: Ross Hassig, Mexico and the Spanish Conquest (Longman 1994; atlas maddesinin kaynağı, bu turda okunmadı)",
+  ic_not:"KUTU-VERI-1015 (0045/H-0007): birincil metin; Britannica 'Hernán Cortés' 403 (okunamadı), cervantesvirtual 403. Vikipedi kullanılmadı.",
+  gorsel:null, gorsel_kaynak:"aranmadı" },
+
+// ── 49 · 1596 Lippa (KUTU-VERI-1015, 0045/H-0007) ──────────────────────────
+{ id:"savas-lippa-1596", tur:"savas-hikayesi",
+  baslik:"Lippa Kuşatması ve Kalkışı (28 Nisan - 11 Mayıs 1596)",
+  kisa:"Temeşvar'ın yeni paşası bir yıl önce Erdel'e geçen Lippa'yı geri almaya geldi; gece bütün topların birden ateşlenmesi ve Temeşvar varoşlarının yanması, kurtarıcı ordu geliyor sandırıp onu çekilmeye zorladı.",
+  tarih_metin:"Kuşatma 28 Nisan 1596 · kale 5 Mayıs'ta tam çevrildi · 7 Mayıs genel hücum · 10/11 Mayıs gecesi aldatmaca · 11 Mayıs 1596 çekiliş",
+  yer:"Lippa (bugün Lipova, Romanya) — Maros ırmağı kıyısı, Banat; baskın Temeşvar varoşlarında",
+  taraflar:[
+    { ad:"Osmanlı — Temeşvar beylerbeyiliği, serhat beyleri ve Kırım Tatarları", komutan:"Temeşvar'ın yeni paşası (Bánlaky'de 'kaşlı' lakabıyla Süleyman)", kuvvet:"Bánlaky'ye göre 17.000 Türk ve Tatar" },
+    { ad:"Erdel Prensliği (Lippa garnizonu)", komutan:"Borbély György (Lippa kaptanı) · Lugos bânı Palatics György · Buday György", kuvvet:"garnizonda 143 (başka anlatıma göre 75) İskoç paralı askeri; toplam bu kaynakta yok" }
+  ],
+  oncesi:"Uzun Savaş'ın (1593-1606) ilk yıllarında Erdel Prensi Báthory Zsigmond Habsburglarla birleşip Osmanlı'ya karşı çıktı. Borbély György 1595 yazında Banat'ta ilerleyerek Lippa'yı kuşattı; Osmanlı garnizonu 18 Ağustos 1595'te teslimi kabul etti, ertesi gün kaleden çıktı. Mart 1596'da Borbély, İstanbul'a dönen eski Temeşvar paşasının ağırlık kervanını pusuya düşürüp paşayı öldürünce Osmanlı tarafı Lippa'yı geri almaya yöneldi.",
+  akis:"Yeni paşa serhat beyleri ve Tatar hanının yardımıyla 28 Nisan'da Lippa önüne geldi, 5 Mayıs'ta kaleyi tamamen çevirip dövmeye başladı, ertesi gün kenti hâkim tepeden topa tuttu. Savunanlar gedikleri geceleri, şarap fıçılarını boşaltıp toprakla doldurarak kapattı. 7 Mayıs sabahı en şiddetli bombardımanla başlayan hücum öğleden sonra geri püskürtüldü; İskoç paralı askerleri öne çıktı, Çanad beyi düştü. 10'u 11'ine bağlayan gece Borbély İskoç kaptanın önerisiyle bütün toplarını birden ateşletti; paşa bunu kurtarıcı ordunun gelişine sevinç atışı sandı. Aynı gece Lugos bânının emriyle Buday György'nün askerleri Temeşvar varoşlarını basıp ateşe verdi.",
+  sonuc:"Paşa 11 Mayıs'ta kendi merkezini korumak için aceleyle Lippa önünden çekildi. Báthory Zsigmond birkaç gün sonra Lippa'ya törenle girdi, Haziran'da Temeşvar'ı kuşattı; üç yönden hücum başarısız kalınca, Habsburg yardımı da gelmeyince kuşatmayı kaldırıp Lippa'yı yaklaşık 2000 kişiyle Szelestey János'a bırakarak Erdel'e döndü.",
+  tartisma:"Bütün gün ve sayılar tek bir askerî tarih derlemesine (Bánlaky, Márki Sándor'u aktararak) dayanır; Osmanlı tarafının anlatısı bu turda okunmadı — TDV'nin okunan maddeleri 1596 Lippa kuşatmasını ayrıntılı vermez. Kuşatan paşanın tam adı ve unvanı Osmanlı kaynağıyla doğrulanmadı. Çekilişin iki sebebi (topların ateşlenmesi ve Temeşvar baskını) kaynakta birlikte anılır; hangisinin belirleyici olduğu yorumdur. 1695'teki Lippa alınışıyla (II. Mustafa) karıştırılmamalı.",
+  kesinlik:"kesin",
+  olay:["1596-05-10|Lippa"],
+  kaynak:"Bánlaky József, A magyar nemzet hadtörténelme (Budapest 1928-1942), 14. kötet — 1596 seferi https://mek.oszk.hu/09400/09477/html/0014/1137.html ('április 28.-án 17.000 főnyi török és tatár hadával Lippa alatt termett' · 'Május 10-ről 11-re menő éjjel Borbély György főkapitány … elsüttette összes ágyúit' · 'a pasa tehát május 11.-én sietve elvonult Lippa alól') · 1595 alınışı https://mek.oszk.hu/09400/09477/html/0014/1134.html ('Augusztus 18.-án az alkudozások eredményre vezettek s másnap megtörtént a kivonulás') — Magyar Elektronikus Könyvtár (Országos Széchényi Könyvtár)",
+  ic_not:"KUTU-VERI-1015 (0045/H-0007): 15 Ekim 2026 MEK'ten ham metin okundu (iso-8859-2). Vikipedi kullanılmadı.",
   gorsel:null, gorsel_kaynak:"aranmadı" }
 
 ];
