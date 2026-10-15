@@ -223,6 +223,18 @@ window.OLAYLAR_2S_0919 = [
   d:"Omsk, Tobol ile İrtiş arasındaki İşim tahkimat hattının doğu ucunda bir kale olarak kuruldu; 1804'te şehir oldu.",
   kaynak:"Britannica, 'Omsk', https://www.britannica.com/place/Omsk-Russia — AYNEN: \"Omsk, founded in 1716 as a stronghold at the eastern end of the Ishim fortified line between the Tobol and the Irtysh\" · hassasiyet: YIL · ikinci okuma bot engeline takıldı (tek okuma)" },
 
+// ── 1717 ─────────────────────────────────────────────────────────────
+{ t:"1717-11-30", b:"Cungarlar Lhasa'yı bastı — Lajang Han öldürüldü, Tibet Cungar işgaline girdi", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Lhasa",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"Tsering Döndup komutasındaki Cungar ordusu, Hoşut hükümdarı Lajang Han'ın savunduğu Lhasa'ya gece yarısından sonra her yönden saldırdı; içeriden destek bulan Cungarlar şehri ele geçirip yağmaladı, Potala'yı da talan ettiler. Lajang Han kaçarken öldürüldü; Cungarlar sTag-rtse-pa başında bir kukla Tibet hükûmeti kurdu.",
+  kaynak:"L. Petech, China and Tibet in the Early XVIIIth Century (2. bs., Brill 1972), bölüm 'Dsungar occupation and Tibetan risings' — AYNEN: \"after midnight on the 30th of November 1717 the Dsungars attacked Lhasa on all sides\" · archive.org tam metin · hassasiyet: GÜN · KUTU-VERI-1015 (0086/H-0006)" },
+
+// ── 1720 ─────────────────────────────────────────────────────────────
+{ t:"1720-09-24", b:"Qing ordusu Lhasa'ya girdi — Cungar işgali sona erdi, Qing himayesi başladı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Lhasa",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"Kangxi'nin Tibet'e gönderdiği iki ordudan Galbi komutasındaki Sichuan kolu zorlu bir yürüyüşle Lhasa'ya ulaştı ve şehri direnişsiz aldı; Cungarlar bütün kuvvetlerini kuzeyden gelen Kokonor ordusuna karşı Dam'da toplamıştı. Cungarların Tibet'ten çekilmesiyle Qing, Lhasa'da kalıcı bir himaye düzeni kurdu.",
+  kaynak:"L. Petech, China and Tibet in the Early XVIIIth Century (2. bs., Brill 1972), s. 68 — AYNEN: \"Galbi's forces reached Lhasa, which they occupied on 23/VIII = September 24th. They had met with no opposition\" · archive.org tam metin · hassasiyet: GÜN · KUTU-VERI-1015 (0086/H-0006)" },
+
 // ── 1721 ─────────────────────────────────────────────────────────────
 { t:"1721-01-01", b:"Aguayo seferi Los Adaes presidyosunu kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Los Adaes",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
