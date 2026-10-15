@@ -18,3 +18,14 @@ Uygulama henüz YAPILMADI; her kalem uygulanınca yanına commit yazılır.
 | 9 | Milattan başlatma | ÖNCE VERİ (Roma, Bizans, Sasani, Abbasi, Çin `s:` partileri), SONRA UFUK | bekliyor |
 
 Ayrıca bu oturumda (15 Ekim): 8a birimi = taşma parçası, BEKLENEN_D8A 1108 (7fabadd8) — Emre onayı.
+
+## İkinci tur (15 Ekim 2026, akşam)
+| # | Kalem | Karar |
+|---|---|---|
+| 10 | TAKVİM KURALI | Atlasın bütün günleri GREGORYEN; Jülyen gün veren kaynak çevrilir, iki takvim de nota (`ic_not_takvim`) yazılır. TDV ile uyumlu. ⇒ 4a'nın "Jülyen'e dön" uygulaması (1e8b2db53) UYGULANMAZ. |
+| 11 | Masavva, Dahlak, Arkîko 1281–1557 | Dahlak + Masavva `dahlak-sultanligi`, Arkîko `habesistan` (TDV dehlek/masavva · Tamrat 1972 · Álvares 1520). Dahlak'a renk gerekir (renk paketi). |
+| 12 | Kars sancağı 1877–78 | HUKUKÎ MODEL: Berlin 1878-07-13 ile `rusya`; fiilî Rus işgali `isg:` katmanında (Kars 1877-11-18, Ardahan 1877-05-17). |
+| 13 | Küçük kalemler | HAVVA'nın önerileriyle: Ceylanpınar koridorunda kaynaksız Fransız işgali silinir · Bîşe/Vâdi'd-Devâsir beyanlı boş nokta · Sakya Lhasa modeline · Kasr-ı İbrim kaynak bulunana kadar bekler · Kuseyr tek nokta + not · Vize 1403–1453 Bizans (TDV) · Tiflis/Gence 1735 İran (TDV) · Güney Afrika 33 şehir 1910-05-31 Birlik · Riga için yeni künye. |
+| 14 | 8a motor yolu | Sınır çizgisi motorun KESİN KISITI (vekil hatlar dahil). |
+| 15 | 8a ölçütü | Eşik hattın beyanlı belirsizliğini okur — UYGULANDI (bf1ce189, 8a 981). |
+| 16 | T5 sırası | paket maddeleri → 8a → 1000–1281 → MS 1–1000 → motorun MÖ hesabı; 2001–2026 şimdilik bekler. |
