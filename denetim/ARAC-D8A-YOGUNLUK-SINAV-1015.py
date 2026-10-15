@@ -77,5 +77,16 @@ sina("iki ayrık parça AYNI ada düşse de defter anahtarı 2 × 2 = 4 (çökme
 a4 = olc(TEMEL, box(-3 * KM, 0.2, 0, 0.4))
 sina("3 km (< D8_DERIN) hâlâ 0", len(a4) == 0, f"{len(a4)}")
 
+print("YÖN 3 — hattın beyanlı belirsizliği (`kesinlik_km`) eşiğe eklenir, yoksa eski davranış")
+def olc_hat(hat, cik):
+    gv = Sahte([("aaa-yapay", A.difference(cik)), ("bbb-yapay", B.union(cik))])
+    return denetle.degismez8(TEMEL, hatlar=[hat], gv=gv)["a"]
+c12 = box(-12 * KM, 0.2, 0, 0.4)
+sina("kesinlik yok: 12 km taşma sayılır", len(olc_hat(HAT, c12)) == 2)
+sina("kesinlik 10 km: 12 km taşma (< 5+10) sayılmaz", len(olc_hat(dict(HAT, kesinlik_km=10.0), c12)) == 0)
+c22 = box(-22 * KM, 0.2, 0, 0.4)
+sina("kesinlik 10 km: 22 km taşma (> 5+10) yine sayılır", len(olc_hat(dict(HAT, kesinlik_km=10.0), c22)) == 2)
+sina("kesinlik null ⇒ eski davranış", len(olc_hat(dict(HAT, kesinlik_km=None), c12)) == 2)
+
 print("SONUÇ: %d/%d" % (sum(SONUC), len(SONUC)))
 sys.exit(0 if all(SONUC) else 1)

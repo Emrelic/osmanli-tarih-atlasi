@@ -5178,7 +5178,7 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   ⚠️ Gövde hâlâ 2026-10-04 19:17 koşusunun çıktısı; Dobriç henüz gövdede YOK.
 #     Tam inşadan sonra bu üye yeniden ölçülecek — düşebilir de, kalabilir de.
 # ═══════════════════════════════════════════════════════════════════════════
-BEKLENEN_D8A = 1108   # 15 Ekim 2026 (ikinci): 1508 → 1108, Emre onayı — BİRİM TANIMI DEĞİŞTİ: (hat, gün, yan, en yakın yer) → (hat, gün, yan, taşma PARÇASI). Aynı gövde (KOŞU 25) eski ölçütle 1508, yeni ölçütle 1108; KUTU-H5 öncesi veride (59bc89d71) de 1108 ⇒ sayı artık nokta yoğunluğundan bağımsız. Defter aynı commit'te yeni anahtarlarla yazıldı, hat evreni AYNI. Sınav: denetim/ARAC-D8A-YOGUNLUK-SINAV-1015.py · ÖNCEKİ 15 Ekim 2026: 1505 → 1508, Emre onayı (KOŞU 25 gövdesi, taban b0b48774 + KUTU-H5-1015 308429b12 rebase). Taşma GEOMETRİSİ değişmedi: H5 aynı şeritlere yeni noktalar ekledi (Cortina, Locarno, Enschede, Subotica), birim = (hat, gün, yan, EN YAKIN yer) olduğundan aynı taşma daha çok ada bölündü. Sayım kusuru ayrıca düzeltilecek · ÖNCEKİ 13 Ekim: 1508 → 1505 (denetle.py ölçümü, origin/main 122ae588d; Emre tavan onayı) · 1568 → 1508, 6 Ekim 2026 (§3.4③ iyileşme; koordinatör kararı, UMIT ölçtü+yazdı).
+BEKLENEN_D8A = 981   # 15 Ekim 2026 (üçüncü): 1108 → 981, Emre onayı — eşik hattın beyanlı belirsizliğini okur (D8_DERIN + kesinlik_km; null ⇒ 0). 127 birim hattın kendi payı içindeydi. Aynı gövde (KOŞU 25) · ÖNCEKİ 15 Ekim 2026 (ikinci): 1508 → 1108, Emre onayı — BİRİM TANIMI DEĞİŞTİ: (hat, gün, yan, en yakın yer) → (hat, gün, yan, taşma PARÇASI). Aynı gövde (KOŞU 25) eski ölçütle 1508, yeni ölçütle 1108; KUTU-H5 öncesi veride (59bc89d71) de 1108 ⇒ sayı artık nokta yoğunluğundan bağımsız. Defter aynı commit'te yeni anahtarlarla yazıldı, hat evreni AYNI. Sınav: denetim/ARAC-D8A-YOGUNLUK-SINAV-1015.py · ÖNCEKİ 15 Ekim 2026: 1505 → 1508, Emre onayı (KOŞU 25 gövdesi, taban b0b48774 + KUTU-H5-1015 308429b12 rebase). Taşma GEOMETRİSİ değişmedi: H5 aynı şeritlere yeni noktalar ekledi (Cortina, Locarno, Enschede, Subotica), birim = (hat, gün, yan, EN YAKIN yer) olduğundan aynı taşma daha çok ada bölündü. Sayım kusuru ayrıca düzeltilecek · ÖNCEKİ 13 Ekim: 1508 → 1505 (denetle.py ölçümü, origin/main 122ae588d; Emre tavan onayı) · 1568 → 1508, 6 Ekim 2026 (§3.4③ iyileşme; koordinatör kararı, UMIT ölçtü+yazdı).
 #   🔴 ŞERH: bu sayı MAIN'İN gövdesine aittir (gövde 2026-10-04 11:37 · uret_petek 8b6aaea5,
 #   makine/umit 47290f11'de ölçüldü). KOŞU 20 geometrisi yayınlanırsa (SABAH ⑳, Emre)
 #   YENİDEN ölçülür — HAVVA aynı soruyu koşu gövdesinde başka sayıyla ölçtü. Aynı araç,
@@ -5636,7 +5636,14 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
                            for p in parcalar])
         ortak = SOL.intersection(SAG)            # menderes: yaka belirsiz ⇒ atılır
         SOL, SAG = SOL.difference(ortak), SAG.difference(ortak)
-        derin = cizgi.buffer(D8_DERIN)
+        # 🔴 HATTIN BEYANLI BELİRSİZLİĞİ OKUNUR (15 Ekim 2026, Emre onayı): hat "±k km kesin"
+        #   diyorsa (`kesinlik_km`), hattan k km içindeki taşma hattın kendi payıdır, gövdenin
+        #   kusuru değil ⇒ eşik D8_DERIN + k. `null`/yok ⇒ k = 0 (eski davranış, gevşemez).
+        try:
+            _kes = max(0.0, float(r.get("kesinlik_km") or 0))
+        except (TypeError, ValueError):
+            _kes = 0.0
+        derin = cizgi.buffer(D8_DERIN + _kes)
         degme = cizgi.buffer(D8_DEGME)
         _dusen, _olcul = _d8_gunler(r.get("f"), r.get("t"))
         for g_ in _dusen:
