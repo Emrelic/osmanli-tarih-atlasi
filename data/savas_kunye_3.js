@@ -627,7 +627,7 @@ window.SAVAS_KUNYE_3 = [
   ],
   kaynak:"TDV: ruscuk (DİA 35, 2008, s. 246-250) · TDV: yusuf-ziya-pasa (DİA 44, 2013, s. 34-37)" },
 
-{ id:"kunye-ruscuk-1811", savas_ad:null, savas_t:"1811-06-22", tur:"meydan",
+{ id:"kunye-ruscuk-1811", savas_ad:null, savas_t:"1811-07-04", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1811-06-22 (Rusçuk muharebesi; ESBE «Турецкие войны России» 'а 22 атаковал', eski takvim) = Gregoryen 1811-07-04", tur:"meydan",
   baslik:"Rusçuk Muharebesi (1811)",
   tarih_metin:"1811 Haziranında alınan ağır yenilgiler ve tersliklerden sonra Ruslar geri çekilmeye zorlandı (ruscuk)",
   celiski:"TDV ruscuk: Haziran 1811 (takvim belirtilmemiş; Jülyen olabilir); atlas kronolojisi: 1811-06-22 (ESBE 22 Haziran J; KUTU-H6-1015 eski G karşılığı 1811-07-04'ten döndürdü, m.28)",

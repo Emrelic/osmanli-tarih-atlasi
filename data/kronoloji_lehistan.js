@@ -482,7 +482,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Anayasaya karşı çıkan büyük toprak sahipleri Rus desteğiyle konfederasyon ilan etti ve Rus ordusu ülkeye girdi. \"Targowica\" kelimesi Polonya dilinde ihanetin eş anlamlısı hâline geldi.",
   kaynak:"el-kitabi", yer_kon:[48.35,30.53] },
 
-{ t:"1793-01-23", b:"İKİNCİ TAKSİM — Rusya ve Prusya yeniden böldü", tur:"toprak-kayip",
+{ t:"1793-01-23", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1793-01-12 (II. Paylaşım; Jülyen günü ÇEVİRİYLE: Gregoryen − 11, Jülyen gün veren birincil kaynak okunamadı) = Gregoryen 1793-01-23", b:"İKİNCİ TAKSİM — Rusya ve Prusya yeniden böldü", tur:"toprak-kayip",
   onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","antlasma","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"3 Mayıs Anayasası iptal edildi ve ülkenin büyük bölümü Rusya ile Prusya arasında paylaşıldı; geriye küçük ve savunmasız bir kalıntı kaldı. Grodno'da toplanan sejm paylaşımı süngü altında onayladı.",

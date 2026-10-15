@@ -216,7 +216,7 @@ window.EKOKUMA_SAVAS1700 = [
  "tartisma": "Tarihler takvim farkıyla uyumludur: ESBE Rus eski takvimini kullanır (Dinyester 20 Haziran, Kalas 20 Nisan); 11 gün eklenince 1 Temmuz 1788 ve TDV'nin 1 Mayıs 1789'u çıkar. Kuvvet rakamları yalnız Rus kaynağı ESBE'dendir; Osmanlı kaynağıyla karşılaştırılmadı.",
  "kesinlik": "kesin",
  "olay": [
-  "1788-06-20|Dinyester",
+  "1788-07-01|Dinyester",
   "1789-05-01|Kalas"
  ],
  "kaynak": "TDV: yusuf-pasa-koca (Kemal Beydilli) · TDV: zistovi-antlasmasi · ESBE «Турецкие войны России» (Brockhaus-Efron, ru.wikisource), 1787-1791 kısmı",
@@ -488,7 +488,7 @@ window.EKOKUMA_SAVAS1700 = [
  "olay": [
   "1811-04-01|Niğbolu",
   "1811-05-01|Silistre",
-  "1811-06-22|Rusçuk"
+  "1811-07-04|Rusçuk"
  ],
  "kaynak": "TDV: nigbolu (Machiel Kiel) · TDV: silistre (Machiel Kiel) · TDV: ruscuk (Machiel Kiel) · Энциклопедический словарь Брокгауза и Ефрона, «Турецкие войны России» (ru.wikisource.org/wiki/ЭСБЕ/Турецкие_войны_России) · Fehmi İsmail, “Bükreş Andlaşmasının Müzakeresi 1811-1812”, Belleten 46/181 (Ocak 1982) (https://belleten.gov.tr/tam-metin/1705/tur; sadrazamın adı)",
  "gorsel": null,
@@ -621,7 +621,7 @@ window.EKOKUMA_SAVAS1700 = [
  "tartisma": "İbrâil'in teslim günü: Rus ansiklopedisi 7 Haziran (eski takvim) = 19 Haziran 1828 verir; TDV (ibrail) şehrin 23 Haziran 1828'de Rus işgaline geçtiğini söyler. Prut geçiş günü yalnız Rus ansiklopedisinde var ('25 апр. 6-й пех. корпус вступил в княжества'); TDV maddeleri olaya gün vermez.",
  "kesinlik": "kesin",
  "olay": [
-  "1828-04-25|Prut"
+  "1828-05-07|Prut"
  ],
  "kaynak": "TDV: edirne-antlasmasi (Şerafettin Turan) · TDV: ibrail (Mihai Maxim) · TDV: bogdan (Abdülkadir Özcan) · TDV: eflak (Kemal Karpat) · Энциклопедический словарь Брокгауза и Ефрона, «Турецкие войны России», bölüm 5 «Первая Т. война Николая I (1828—29)» (ru.wikisource.org/wiki/ЭСБЕ/Турецкие_войны_России)",
  "gorsel": null,
@@ -758,7 +758,7 @@ window.EKOKUMA_SAVAS1700 = [
  "tartisma": "Prut geçiş günü: Sytin'in Askerî Ansiklopedisi öncünün geçişini Jülyen takvimiyle 21 Haziran'a koyar (= 3 Temmuz 1853). Candan Badem ise 'On 2 July' der; o cümlede takvim belirtmez, ama başka yerlerde Ortodoks takvim karışıklığına dikkat çektiği için miladî kastettiği düşünülebilir — bir günlük fark çözülmüş değildir. Bükreş'e giriş günü Sytin'de Jülyen 3 Temmuz'dur (= 15 Temmuz); bu Badem'in 15 Temmuz protesto notasıyla aynı güne düşer.",
  "kesinlik": "tartismali",
  "olay": [
-  "1853-06-21|Prut"
+  "1853-07-03|Prut"
  ],
  "kaynak": "TDV: abdulmecid (Cevdet Küçük) · TDV: eflak (Kemal Karpat) · Candan Badem, The Ottomans and the Crimean War (1853-1856), doktora tezi, Sabancı Üniversitesi, Haziran 2007, s. 69-78 (https://research.sabanciuniv.edu/id/eprint/8400/); gözden geçirilmiş kitap: The Ottoman Crimean War (1853-1856), Brill 2010 · Военная энциклопедия (Sytin, 1911-1915), «Восточная война 1853—56 гг.» (ru.wikisource.org/wiki/ВЭ/ВТ/Восточная_война_1853—56_гг.)",
  "gorsel": null,

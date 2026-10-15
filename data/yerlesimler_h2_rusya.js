@@ -428,7 +428,7 @@ window.YERLESIMLER_H2_RUSYA = [
 // (Bu çeyrek zaten doygun; yalnız SINIR KARARI taşıyan üç nokta eklendi.)
 // Baturin ve Hluhiv — Hetmanlığın başkentleri; Poltava/Putivl modeliyle aynı.
 { ad:"Baturin",kaynak:"polonya", tur:"kale", lat:51.343, lon:32.879, g:1, k:4,
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-18",d:"lehistan"},{f:"1654-01-18",t:"1917-03-15",d:"rusya",kaynak:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1654-01-08 (Pereyaslav Radası; ESBE «Переяславская рада» '8 января 1654 г.', eski takvim) = Gregoryen 1654-01-18"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 { ad:"Hluhiv", tur:"sehir", lat:51.678, lon:33.917, g:2, k:3,
   s:[{f:"1281-01-01", t:"1362-01-01", d:"altinorda"},
      {f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},
