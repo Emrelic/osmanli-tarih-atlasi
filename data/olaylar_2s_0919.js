@@ -473,7 +473,7 @@ window.OLAYLAR_2S_0919 = [
   d:"1281'den beri İlhanlıların vasalı Herat Kertlerinin elinde bulunan Kandehar, Timur'un Horasan seferleri sırasında zaptedildi ve torunu Pîr Muhammed'e verildi; şehir bundan sonra Timurlu valilerince yönetildi.",
   kaynak:"TDV `kandehar` (A. Özcan) — AYNEN: \"680’de (1281) İlhanlılar’ın vasalı Herat hâkimi Şemseddin Kert’in eline geçti\" · \"785’te (1383) Timur tarafından zaptedilerek torunu Pîr Muhammed’e verilen şehir\" · hassasiyet: YIL" },
 // KARAR-UYG-1015 (G4) — Songhay: Dia (Zâgha) 1494 · Agadez 1515 tâbiliği · Bilma 1759
-{ t:"1494-01-01", kesinlik:"yil", b:"Askiya Muhammed Zâgha'yı (Dia) aldı", tur:"fetih", onem:2, dunya:1, kapsam:"dis", yer_id:"Dia (Zâgha)",
+{ t:"1494-01-01", kesinlik:"yil", b:"Askiya Muhammed Zâgha'yı (Dia) aldı", tur:"fetih", onem:2, dunya:1, kapsam:"dis", yer_kon:[14.3487, -4.9619],
   etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["songhay-imparatorlugu"],
   d:"Songhay tahtına çıkan Askiya Muhammed, H. 899 yılının sonunda kardeşi Kurmina-Fâri Amar Komzâgho aracılığıyla Nijer iç deltasının batısındaki Zâgha (Dia) şehrini ele geçirdi.",
   kaynak:"es-Sa'dî, Tarikh es-Soudan, trc. O. Houdas (Paris 1900) s.118-119 — AYNEN: \"A la fin de l'année 899 (1494), Askia-Mohammed s'empara de Zâgha par l'intermédiaire de son frère le Kourmina-Fâri Amar-Komzâgho\" · hassasiyet: YIL" },

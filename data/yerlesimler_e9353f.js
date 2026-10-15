@@ -193,13 +193,6 @@ window.YERLESIMLER_E9353F = [
 // DİA (Zâgha) — Nijer iç deltasında, Cenne'nin kuzeybatısı. KARAR-UYG-1015 (G4, 0033/H-0013).
 // Koordinat: GeoNames "Dia" (Mali, Mopti; populated place) 14.3486516 / -4.9619232.
 // Mükerrer taraması: ad (Dia/Zâgha/Diakha) + 3 km — eşleşme yok; en yakın Cenne 66 km.
-{ ad:"Dia (Zâgha)", tur:"sehir", lat:14.3487, lon:-4.9619, g:0, k:4,
-  s:[{f:"1494-01-01", t:"1591-04-13", d:"songhay-imparatorlugu", kesinlik:"yil", kaynak:"es-Sa'dî, Tarikh es-Soudan, trc. O. Houdas (Paris 1900) s.118-119: 'A la fin de l'année 899 (1494), Askia-Mohammed s'empara de Zâgha par l'intermédiaire de son frère le Kourmina-Fâri Amar-Komzâgho' — YIL (H.899 sonu); gün yok · bitiş: Tondibi (künye songhay-imparatorlugu t), Zâgha için ayrı gün kaynakta YOK"}],
-  d:[], v:[],
-  kasitli_bosluk:true,
-  bos:"veri-yok",
-  neden:"veri-yok — İKİ ARALIK BİLEREK BOŞ. ① 1281-1494: Tarikh es-Soudan s.20 'Le roi de Melli conquit le Songhaï, Tombouctou, Zâgha' der ama YIL vermez ve Mali'nin Zâgha'yı ne zaman kaybettiğini söylemez; 1494'te Askiya'nın kimden aldığı da yazılı değil ⇒ mali-imparatorlugu yazmak çıkarım olurdu. ② 1591-04-13 sonrası: Fas paşalığı ile Mâsina arasında çekişme (aynı eser s.274, 411-414 Zâgha'yı anar) — sahiplik zinciri kurulamadı. KARAR-UYG-1015",
-  kaynak:"es-Sa'dî, Tarikh es-Soudan, trc. O. Houdas (Paris 1900) s.20, 118-119 · GeoNames (koordinat)" },
 
 // SEGU (Ségou) — Bambara Krallığı'nın başşehri, sonra Toucouleur merkezi.
 // TDV `el-hac-omer` (gövdesi okundu): "1861 başlarında bir başka Bambara
