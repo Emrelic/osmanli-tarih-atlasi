@@ -500,4 +500,10 @@ window.OLAYLAR_2S_0919 = [
   d:"Berlin Konferansı sürerken imzalanan sözleşmeyle Kongo Hür Devleti ile Portekiz arasındaki sınır, Kongo (Zaire) ırmağının ağzından Uango-Uango çayına kadar ırmağın kendisi olarak çizildi; Soyo'nun bulunduğu güney yaka Portekiz'de, Kabinda ise ırmağın kuzeyinde Portekiz'e kaldı.",
   kaynak:"Hertslet, The Map of Africa by Treaty, 2. bs. c.1 No.58 (14 Şubat 1885) s.232 — AYNEN: \"The course of the Congo (Zaire) from its mouth to its junction with the little River Uango-Uango\" · hassasiyet: GÜN" },
 
+// KARAR-UYG-1015 (G3) — Eski Kandehar: babur → safevi 1556 (eski 1537 kırılması kaldırıldı)
+{ t:"1556-01-01", kesinlik:"yil", b:"Hümâyun'un ölümünden sonra Safevîler Kandehar'ı Bâbürlülerden aldı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Eski Kandehar (Şehr-i Köhne)",
+  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["safevi","babur-imparatorlugu"],
+  d:"Hümâyun'un 1556'da Delhi'de ölümünden sonra Şah Tahmasb, Kandehar ve Zemindâver'deki Bâbürlü valileri arasındaki çekişmeden yararlandı; Zemindâver valisinin davetiyle gelen bir Safevî birliği Kandehar'a girdi ve Tahmasb amcazadesi Sultan Hüseyin Mirza'yı şehre vali atadı. Şehir 1595'e kadar Safevî elinde kaldı.",
+  kaynak:"EIr KANDAHAR iv. From the Mongol Invasion through the Safavid Era (R. Matthee & H. Mashita, 2010) — AYNEN: \"When Homāyun died in Delhi in 1556, the Safavid Shah Ṭahmāsb took advantage of conflict among the Mughal governors of Kandahar and Zamindāvar\" · hassasiyet: YIL (alt sınır; zaptın kendi yılı metinde yok)" },
+
 ];
