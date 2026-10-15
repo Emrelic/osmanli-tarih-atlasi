@@ -23,6 +23,12 @@
 
 window.OLAYLAR_2S_0919 = [
 
+// ── 1328 ─────────────────────────────────────────────────────────────
+{ t:"1328-01-01", kesinlik:"yil", b:"Livonya Tarikatı Klaipėda (Memel) topraklarını Töton Tarikatı'nın Prusya koluna devretti", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Klaipėda (Memel)",
+  etiket:["toprak-kazanc","konu-siyasi"],
+  d:"Livonya Tarikatı, Neman ağzındaki Klaipėda (Memel) kalesi ve çevresindeki topraklarını Töton Tarikatı'nın Prusya koluna bıraktı; Kurland piskoposu da kendi payını 1392'de aynı kola devretti. Klaipėda 1411 Toruń ve 1422 Melno barışlarıyla Tarikat'ta kaldı, 1525'te Prusya Dükalığı'na geçti.",
+  kaynak:"Visuotinė lietuvių enciklopedija — 'Klaipėdos istorija' (https://www.vle.lt/straipsnis/klaipedos-istorija/) — AYNEN: \"1328 Livonijos ordinas, 1392 Kuršo vyskupas perleido savo Klaipėdos valdas Vokiečių ordino Prūsijos šakai.\" · hassasiyet: YIL (gün kaynakta yok) · KUTU-VERI-1015 (0025/H-0004)" },
+
 // ── 1329 ─────────────────────────────────────────────────────────────
 { t:"1329-01-01", b:"Umur Bey İzmir'in liman kalesini Cenevizlilerden aldı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"İzmir",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
