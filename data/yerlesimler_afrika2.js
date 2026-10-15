@@ -511,8 +511,9 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Nikki (Borgu)", tur:"sehir", lat:9.9400, lon:3.2100, g:0, k:0,
   s:[{f:"1281-01-01",t:"1898-01-01",d:"borgu"},
-     {f:"1898-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1960-08-01",d:"fransa-cumhuriyet",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-08-01",t:"2000-12-31",d:"dahomey-benin",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
-  kaynak:"bulunamadı" },
+     {f:"1898-01-01",t:"1960-08-01",d:"fransa-cumhuriyet",kesinlik:"yil",kaynak:"Hertslet, The Map of Africa by Treaty, 3. bs. (1909) c. 2, No. 241 Ingiliz-Fransiz Sozlesmesi 14 Haziran 1898 md. I (hat Ashigere/Yassikera topraklarinin BATISINDAN gecer) ve 1900 Borgu sinir tahdidi (hat Yashikira-Nikki yolunu Yashikira'dan 8 km'de keser) => Nikki FRANSIZ Dahomey tarafi; https://archive.org/details/mapofafricabytre02hert"},{f:"1960-08-01",t:"2000-12-31",d:"dahomey-benin",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  neden:"KUTU-VERI-1015 C: eski kayıt 1898-01-01..1923-10-29 İNGİLTERE diyor, 1923-10-29'da Fransa'ya 'geçiyordu' — 1923-10-29 pencere ucu işaretidir, devir değil (HALEF 1715b9156 ufuk kesiğini Dahomey halefiyle uzatırken ilk sahibi yanlış bıraktı). Nikki 1898 sözleşmesiyle Fransız tarafında kaldı. Kırılma yıl düzeyinde tutuldu (borgu künyesi t:1898-01-01); sözleşme günü 1898-06-14.",
+  kaynak:"Hertslet, The Map of Africa by Treaty, 3. bs. (1909) c. 2 No. 241 (14 Haziran 1898)" },
 
 { ad:"Cos (Jos)", tur:"sehir", lat:9.9000, lon:8.8600, g:0, k:0,
   s:[{f:"1281-01-01",t:"1903-01-01",d:"birom-plato"},
@@ -522,8 +523,10 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Falaba", tur:"sehir", lat:9.8500, lon:-11.3000, g:0, k:0,
   kur:"1720-01-01",
   s:[{f:"1720-01-01",t:"1884-01-01",d:"solima-yalunka"},
-     {f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"},{f:"1923-10-29",t:"1961-04-27",d:"ingiltere",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-04-27",t:"2000-12-31",d:"siyera-leon",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
-  kaynak:"bulunamadı" },
+     {f:"1884-01-01",t:"1889-08-10",d:"vasulu",kesinlik:"yil",kaynak:"Hertslet, The Map of Africa by Treaty, 3. bs. (1909) c. 2, No. 226 notu (s. 751-752): Samadu (Samori) 1883'ten itibaren Sierra Leone sinirina dek akinlar yapti; Soulimanieh ve Falaba'yi 'claimed by him as a dependency' - Ingiliz hukumeti bagimsiz sayiyordu"},
+     {f:"1889-08-10",t:"1961-04-27",d:"ingiltere",kaynak:"Hertslet, The Map of Africa by Treaty, 3. bs. (1909) c. 2, No. 226 Ingiliz-Fransiz Antlasmasi 10 Agustos 1889 md. II: '...in the English zone Soulimaniah and Falabah'; https://archive.org/details/mapofafricabytre02hert"},{f:"1961-04-27",t:"2000-12-31",d:"siyera-leon",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  neden:"KUTU-VERI-1015 C: eski kayıt 1884-01-01..1923-10-29 FRANSA diyor, 1923-10-29'da İngiltere'ye 'geçiyordu' — 1923-10-29 pencere ucudur; Falaba 1889 antlaşmasıyla İNGİLİZ bölgesine bırakıldı (bugün Sierra Leone). 1884-1889 Samori iddiası (vasulu) yıl düzeyinde; 1884 başlangıcı eski kayıttan (solima-yalunka künyesi t:1884-01-01), günü kaynakta yok.",
+  kaynak:"Hertslet, The Map of Africa by Treaty, 3. bs. (1909) c. 2 No. 226 (10 Ağustos 1889)" },
 
 { ad:"Konakri (Conakry)", tur:"sehir", lat:9.5111, lon:-13.7109, g:0, k:0,
   kur:"1885-01-01",
@@ -637,9 +640,10 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Bondugu (Gyaaman)", tur:"sehir", lat:8.0400, lon:-2.8000, g:0, k:0,
   kur:"1690-01-01",
-  s:[{f:"1690-01-01",t:"1895-01-01",d:"gyaaman"},
-     {f:"1895-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1960-08-07",d:"fransa-cumhuriyet",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-08-07",t:"2000-12-31",d:"fildisi-sahili",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
-  kaynak:"bulunamadı" },
+  s:[{f:"1690-01-01",t:"1893-07-12",d:"gyaaman"},
+     {f:"1893-07-12",t:"1960-08-07",d:"fransa-cumhuriyet",kaynak:"Hertslet, The Map of Africa by Treaty, 3. bs. (1909) c. 2, No. 236 Ingiliz-Fransiz Antlasmasi 12 Temmuz 1893 (Altin Kiyisi siniri): hat Annibilekrou-Bondoukou yolunun 10 km batisindan ve Sorobango-Tambi-Bandagadi uzerinden Bondoukou yolunun 10 km dogusundan gecer => Bondoukou FRANSIZ tarafi; https://archive.org/details/mapofafricabytre02hert"},{f:"1960-08-07",t:"2000-12-31",d:"fildisi-sahili",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  neden:"KUTU-VERI-1015 C: eski kayıt 1895-01-01..1923-10-29 İNGİLTERE diyor, 1923-10-29'da Fransa'ya 'geçiyordu' — pencere ucu, devir değil. Gyaaman (Gama) kralı 30 Temmuz 1887'de İngiliz bayrağını kabul etmişti (Hertslet c. 1, No. 91), fakat 1893 antlaşması Bondoukou'yu Fransız bölgesine bıraktı. 1895-1897 Samori işgali ayrıca yazılmadı (kaynakta gün yok).",
+  kaynak:"Hertslet, The Map of Africa by Treaty, 3. bs. (1909) c. 2 No. 236 (12 Temmuz 1893)" },
 
 { ad:"Seguela", tur:"sehir", lat:7.9600, lon:-6.6700, g:0, k:0,
   kur:"1878-01-01",
@@ -1457,8 +1461,9 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Mvansabombve (Kazembe)", tur:"sehir", lat:-9.8500, lon:28.7500, g:0, k:0,
   kur:"1740-01-01",
   s:[{f:"1740-01-01",t:"1899-01-01",d:"kazembe"},
-     {f:"1899-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1964-10-24",d:"ingiliz-kuzey-rodezya",kaynak:"Britannica 'Zambia'"},{f:"1964-10-24",t:"2000-12-31",d:"zambiya",kaynak:"Britannica 'Zambia'"}],
-  kaynak:"bulunamadı" },
+     {f:"1899-01-01",t:"1964-10-24",d:"ingiliz-kuzey-rodezya",kesinlik:"yil",kaynak:"Hertslet, The Map of Africa by Treaty, 3. bs. (1909) c. 2, No. 168 Ingiltere-Kongo Serbest Devleti Antlasmasi 12 Mayis 1894 md. I(b): sinir Luapula'nin talvegi => dogu yaka INGILIZ; Kazembe baskenti Luapula'nin dogusunda. Bagimsizligin sonu 1899: G. Macola, 'La fine dell'indipendenza del regno lunda del Luapula: il Mwata Kazembe X fra British South Africa Company e Plymouth Brethren (1890-1899)', Africa (Roma) 53/3 (1998) 338-366 (baslik)"},{f:"1964-10-24",t:"2000-12-31",d:"zambiya",kaynak:"Britannica 'Zambia'"}],
+  neden:"KUTU-VERI-1015 C: eski kayıt 1899-01-01..1923-10-29 BELÇİKA diyor (Kongo Serbest Devleti Leopold'ündü, Belçika Kongosu 1908), 1923-10-29'da Kuzey Rodezya'ya 'geçiyordu' — pencere ucu. Mvansabombve Luapula'nın doğu (İngiliz/BSAC) yakasındadır (bugün Zambiya).",
+  kaynak:"Hertslet, The Map of Africa by Treaty, 3. bs. (1909) c. 2 No. 168 (12 Mayıs 1894)" },
 
 { ad:"Karonga", tur:"sehir", lat:-9.9300, lon:33.9300, g:0, k:0,
   kur:"1880-01-01",
@@ -1587,7 +1592,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Mvembe (Mataka)", tur:"sehir", lat:-12.9000, lon:36.0000, g:0, k:0,
   kur:"1800-01-01",
   s:[{f:"1800-01-01",t:"1899-01-01",d:"yao"},
-     {f:"1899-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1899-01-01",t:"1974-09-20",d:"portekiz-mozambik",kesinlik:"yil",kaynak:"Naval Intelligence Division, A Manual of Portuguese East Africa (Londra 1920) s. 510-512: 1899'da Portekiz seferi Mataka ulkesine akin etti; 1912 sonbaharinda ana sefer Mwembe'ye girdi, Mataka Rovuma otesine kacti, Mwembe'de Fort Valadim kuruldu; https://archive.org/details/cu31924028621286 · Hertslet c. 3 No. 310 Ingiliz-Portekiz Antlasmasi 11 Haziran 1891 md. I: Nyasa golunun dogu kiyisi (13°30' G'ye dek) ve Rovuma'nin guneyi Portekiz'in"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"malavi" },
 
 { ad:"Nkhotakota (Cumbe)", tur:"sehir", lat:-12.9300, lon:34.3000, g:0, k:0,
@@ -1779,7 +1784,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Ondjiva (Ovambo)", tur:"sehir", lat:-17.0700, lon:15.7100, g:0, k:0,
   kur:"1600-01-01",
   s:[{f:"1600-01-01",t:"1917-02-06",d:"ovambo"},
-     {f:"1917-02-06",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1975-01-31",d:"portekiz-angola",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1975-01-31",t:"1975-11-11",d:"angola-gecis-hukumeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1917-02-06",t:"1975-01-31",d:"portekiz-angola",kaynak:"1926-06-22 Guney Afrika Birligi-Portekiz sinir antlasmasi md. 3: Kunene-Okavango arasi sinir Rua Cana selalesindeki ~17°23' G paraleli (UK Treaty Series 1926 No. 29, https://treaties.fcdo.gov.uk/data/Library2/pdf/1926-TS0029.pdf) => Ondjiva (17°04' G) ANGOLA tarafi"},{f:"1975-01-31",t:"1975-11-11",d:"angola-gecis-hukumeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Sena", tur:"sehir", lat:-17.4500, lon:35.0300, g:0, k:0,
@@ -1873,7 +1878,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Umtali (Mutare)", tur:"sehir", lat:-18.9700, lon:32.6700, g:0, k:0,
   s:[{f:"1281-01-01",t:"1891-01-01",d:"manica"},
-     {f:"1891-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1965-11-11",d:"ingiliz-guney-rodezya",kaynak:"Britannica Zimbabwe"},{f:"1965-11-11",t:"1979-06-01",d:"rodezya-udi",kaynak:"UDI 1965-11-11 (Britannica)"},{f:"1979-06-01",t:"1979-12-12",d:"zimbabve-rodezya",kaynak:"Britannica"},{f:"1979-12-12",t:"1980-04-18",d:"ingiliz-guney-rodezya",kaynak:"Lancaster House; Ingiliz valisi 1979-12-12"},{f:"1980-04-18",t:"2000-12-31",d:"zimbabve",kaynak:"Bagimsizlik 1980-04-18"}],
+     {f:"1891-01-01",t:"1965-11-11",d:"ingiliz-guney-rodezya",kesinlik:"yil",kaynak:"Hertslet, The Map of Africa by Treaty, 3. bs. (1909) c. 3 No. 310 Ingiliz-Portekiz Antlasmasi 11 Haziran 1891 md. II: hat Manica platosunun dogu yamacini izler, 32°30' D'nun batisi Portekiz'e verilmez, 'Mutassa, British; Massi-Kessi, Portuguese' => Umtali (Mutasa ulkesi) INGILIZ/BSAC tarafi; https://archive.org/details/mapofafricabytre03hert"},{f:"1965-11-11",t:"1979-06-01",d:"rodezya-udi",kaynak:"UDI 1965-11-11 (Britannica)"},{f:"1979-06-01",t:"1979-12-12",d:"zimbabve-rodezya",kaynak:"Britannica"},{f:"1979-12-12",t:"1980-04-18",d:"ingiliz-guney-rodezya",kaynak:"Lancaster House; Ingiliz valisi 1979-12-12"},{f:"1980-04-18",t:"2000-12-31",d:"zimbabve",kaynak:"Bagimsizlik 1980-04-18"}],
   kaynak:"mozambik" },
 
 { ad:"Tsumeb", tur:"sehir", lat:-19.2400, lon:17.7100, g:0, k:0,
