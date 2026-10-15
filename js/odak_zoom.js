@@ -205,8 +205,114 @@ function _oz_bitir(sonuc, c, z, p, sebep) {
   return sonuc;
 }
 
+// ═══════════════════════════════════════════════════════════════════════════
+// 🆕 İKİNCİ KURAL — MADDE ÜLKESİ + ODAK DEVLET BİRLİKTE (Emre, 16 Ekim 2026)
+// *"Kronoloji maddesi etraftaki bir devletle ilgiliyse, maddenin ilgili olduğu
+// devlet haritada gösterilir. Mümkünse hem odaktaki devlet hem maddenin ilgili
+// olduğu ülke aynı ekranda gösterilir. Sığmayacaksa yalnız maddenin ilgili olduğu
+// bölge ve ülke gösterilir. Ama maddedeki bölge ekranın en az 1/8'ini kaplamalı.
+// İki ülkeyi kadraja sokmak için zoom uzaya kadar çıkmamalı."*
+// Öncelik:
+//   ① ZORUNLU  madde bölgesi ≥ 1/8 (`odakZoomAlt` bölge gövdesiyle)
+//   ② TERCİH   odak devlet de aynı kadrajda — iki gövdenin ORTAK kutusuna oturan
+//              kamera, YALNIZ bölge hâlâ ≥ 1/8 ise VE zoom alt sınırın üstündeyse
+//   ③ sığmıyorsa ①'in kamerası
+//   (④ madde odak toprağındaysa çağıran `odakZoomAlt`ı odak gövdesiyle çağırır)
+// ALT SINIR: ekran genişliği ODAK_IKILI_KM (4.000 km) — Avrupa'nın batı-doğu
+//   genişliği mertebesi; ötesi kıta/yarımküre ölçeğidir, "uzaya çıkmak" budur.
+//   Enleme ve ekran genişliğine göre zoom'a çevrilir (512 px fayans), tabanı
+//   ODAK_IKILI_ZOOM_TABAN (3,5) — dar (telefon) ekranda km eşiği z~2,4'e
+//   düşürürdü; 3,5 orada ~1.800 km demektir.
+// "KÜÇÜK BÖLGE" (`bolge.kucuk`, tek şehir ± 0,35° kutusu — ülke gövdesi
+//   bulunamadı): 1/8'e ancak YAKLAŞARAK ulaşılır, zoom-in istenmedi ⇒ ① kamerayı
+//   değiştirmez; ②'de şart "kutu TAMAMEN ekranda"dır.
+var ODAK_IKILI_KM = 4000, ODAK_IKILI_ZOOM_TABAN = 3.5, ODAK_IKILI_PAD = 40;
+
+// Ekran genişliği `km` olacak zoom (enlem `lat`, `W` px). 2^z = C·cos(lat)·W/(512·km·1000)
+function zoomKmIcin(km, lat, W) {
+  var c = Math.cos(Math.max(-85, Math.min(85, lat)) * Math.PI / 180);
+  return Math.log(40075016.686 * c * W / (512 * km * 1000)) / Math.LN2;
+}
+function odakAltZoom(lat, W) {
+  return Math.max(ODAK_IKILI_ZOOM_TABAN, zoomKmIcin(ODAK_IKILI_KM, lat, W));
+}
+// [lon0, lat0, lon1, lat1] kutusu → hazırlanmış gövde (tek dikdörtgen)
+function odakKutuGovde(k) {
+  if (!k || k.length !== 4 || !(k[2] > k[0]) || !(k[3] > k[1])) return null;
+  return odakGovdeHazirla([[[[k[0], k[1]], [k[2], k[1]], [k[2], k[3]], [k[0], k[3]], [k[0], k[1]]]]]);
+}
+// Hazırlanmış gövdeleri BİRLEŞTİR (çokgen listeleri yan yana — farklı devletlerin
+// gövdeleri örtüşmez; örtüşme olursa alan iki kez sayılır, beyan).
+function odakGovdeBirlestir(liste) {
+  var L = (liste || []).filter(function (g) { return g && g.pol; });
+  if (!L.length) return null;
+  if (L.length === 1) return L[0];
+  var pol = [], top = 0, sx = 0, sy = 0, X0 = Infinity, Y0 = Infinity, X1 = -Infinity, Y1 = -Infinity;
+  L.forEach(function (g) {
+    pol = pol.concat(g.pol); top += g.alan; sx += g.alan * g.agirlik[0]; sy += g.alan * g.agirlik[1];
+    X0 = Math.min(X0, g.kutu[0]); Y0 = Math.min(Y0, g.kutu[1]); X1 = Math.max(X1, g.kutu[2]); Y1 = Math.max(Y1, g.kutu[3]);
+  });
+  return { pol: pol, kutu: [X0, Y0, X1, Y1], alan: top, agirlik: [sx / top, sy / top] };
+}
+function _oz_kutuIcinde(gk, cx, cy, z, W, H) {
+  var k = _oz_ekranKutusu(cx, cy, z, W, H);
+  return gk[0] >= k[0] && gk[2] <= k[2] && gk[1] >= k[1] && gk[3] <= k[3];
+}
+// 🔴 `odakZoomIkili(hedefKam, bolge, odakG, ekran, secenek)`
+//   bolge : hazırlanmış gövde (madde ülkesi/bölgesi); `bolge.kucuk = true` ⇒ nokta kutusu
+//   odakG : hazırlanmış odak devlet gövdesi (yoksa ② denenmez)
+// Dönüş: odakZoomAlt'ınkiyle aynı + { kip: "ikisi" | "yalniz-madde", altZoom, bolgePay, odakGorunur }
+function odakZoomIkili(hedefKam, bolge, odakG, ekran, secenek) {
+  secenek = secenek || {};
+  var esik = secenek.esik || ODAK_ZOOM_ESIK;
+  var W = ekran && ekran.width > 1 ? ekran.width : 900, H = ekran && ekran.height > 1 ? ekran.height : 620;
+  var A;
+  if (!bolge) {
+    A = odakZoomAlt(hedefKam, null, ekran, secenek);   // "govde-yok" ⇒ değişmez
+    A.kip = "yalniz-madde"; return A;
+  }
+  if (bolge.kucuk) {
+    A = { center: hedefKam.center, zoom: hedefKam.zoom, degisti: false, pay0: null, pay: null, sebep: "nokta-bolge" };
+  } else {
+    A = odakZoomAlt(hedefKam, bolge, ekran, secenek);
+  }
+  A.kip = "yalniz-madde";
+  if (!odakG || !A.center || typeof A.zoom !== "number") return A;
+  // ② ORTAK KADRAJ — iki gövdenin birleşik kutusu, `ODAK_IKILI_PAD` px payla.
+  var bk = bolge.kutu, ok = odakG.kutu;
+  var U = [Math.min(bk[0], ok[0]), Math.min(bk[1], ok[1]), Math.max(bk[2], ok[2]), Math.max(bk[3], ok[3])];
+  var uw = Math.max(1e-12, U[2] - U[0]), uh = Math.max(1e-12, U[3] - U[1]);
+  var pad = typeof secenek.padPx === "number" ? secenek.padPx : ODAK_IKILI_PAD;
+  var zf = Math.log(Math.min((W - 2 * pad) / (uw * 512), (H - 2 * pad) / (uh * 512))) / Math.LN2;
+  var zB = Math.min(zf, A.zoom);                       // ASLA ①'den yakın değil (zoom-in yok)
+  var cB = [(U[0] + U[2]) / 2, (U[1] + U[3]) / 2];
+  var cLL = _oz_tersMerk(cB[0], cB[1]);
+  var altZ = typeof secenek.altZoom === "number" ? secenek.altZoom : odakAltZoom(cLL[1], W);
+  A.altZoom = altZ;
+  var lon = hedefKam.center.lng !== undefined ? hedefKam.center.lng : hedefKam.center[0];
+  var lat = hedefKam.center.lat !== undefined ? hedefKam.center.lat : hedefKam.center[1];
+  var P = _oz_merk(lon, lat), kB = _oz_ekranKutusu(cB[0], cB[1], zB, W, H);
+  var pGorunur = P[0] >= kB[0] && P[0] <= kB[2] && P[1] >= kB[1] && P[1] <= kB[3];
+  var bPay = odakPay(bolge, cB[0], cB[1], zB, W, H);
+  var bTamam = bolge.kucuk ? _oz_kutuIcinde(bk, cB[0], cB[1], zB, W, H) : bPay >= esik;
+  A.bolgePay = bPay;
+  if (zB >= altZ - 1e-9 && bTamam && pGorunur) {
+    var B = { center: cLL, zoom: Math.round(zB * 1000) / 1000,
+              degisti: Math.abs(zB - hedefKam.zoom) > 1e-6 || Math.abs(cB[0] - P[0]) > 1e-12 || Math.abs(cB[1] - P[1]) > 1e-12,
+              pay0: A.pay0, pay: bPay,
+              sebep: "ikisi", kip: "ikisi", altZoom: altZ, bolgePay: bPay,
+              odakPay: odakPay(odakG, cB[0], cB[1], zB, W, H) };
+    return B;
+  }
+  A.redB = zB < altZ - 1e-9 ? "alt-sinir" : (!bTamam ? "bolge-kucuk-kalir" : "odak-noktasi-disarida");
+  return A;
+}
+
 var _OZ_DISA = { ESIK: ODAK_ZOOM_ESIK, odakGovdeHazirla: odakGovdeHazirla, odakPay: odakPay,
-                 odakZoomAlt: odakZoomAlt, merk: _oz_merk, tersMerk: _oz_tersMerk };
+                 odakZoomAlt: odakZoomAlt, merk: _oz_merk, tersMerk: _oz_tersMerk,
+                 odakZoomIkili: odakZoomIkili, odakAltZoom: odakAltZoom, zoomKmIcin: zoomKmIcin,
+                 odakKutuGovde: odakKutuGovde, odakGovdeBirlestir: odakGovdeBirlestir,
+                 IKILI_KM: ODAK_IKILI_KM, IKILI_ZOOM_TABAN: ODAK_IKILI_ZOOM_TABAN };
 if (typeof window !== "undefined") window.ODAK_ZOOM = _OZ_DISA;
 if (typeof module !== "undefined" && module.exports) module.exports = _OZ_DISA;
 })();
