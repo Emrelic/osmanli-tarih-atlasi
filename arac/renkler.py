@@ -3666,9 +3666,28 @@ BOYALAR = {
     "teuton-devleti":       ("Töton Şövalyeleri Devleti (Prusya)", "#cc24cc"),
     "livonya-tarikati":     ("Kılıç Kardeşleri / Livonya Tarikatı", "#cccc24"),
     # KUTU-M renk_olc --oner (denetim/oneri-20261014-155939.txt) — künyeleri devletler.js'te var.
-    "della-scala":          ("Della Scala (Scaligeri) Senyörlüğü (Verona)", "#2430c6"),
-    "carrara":              ("Carrara Senyörlüğü (Padova)", "#2460c6"),
+    # 🟢 RENK-PAKET-1015 — della-scala/carrara YENİDEN SEÇİLDİ. Eski #2430c6/#2460c6 verisiz
+    #   (komşusu ölçülemeyen) --oner çıktısıydı; Verona/Padova noktaları + künye penceresi
+    #   ENJEKTE edilerek ölçülünce (hayalet-yama emsali): della-scala ↔ iskocya 3,9 · savoya 4,8 ·
+    #   carrara ↔ siena 4,6 (eşik 12). Yeni seçim aynı enjekte evrende --oner
+    #   (denetim/oneri-20261015-214116.txt): en yakın engel ΔE 12,1 / 12,2.
+    #   ⚠️ Verona/Padova `s:` dönemleri hâlâ __BOSLUK__ — boya, veri geçişini bekliyor.
+    "della-scala":          ("Della Scala (Scaligeri) Senyörlüğü (Verona)", "#c63624"),
+    "carrara":              ("Carrara Senyörlüğü (Padova)", "#1eae1e"),
     "provence-kontlugu":    ("Provence Kontluğu", "#cc24c6"),
+    # RENK-PAKET-1015 — künyesi olan, rengi olmayan 4 kimlik. Hiçbirinin veride `s:` dönemi
+    #   YOK (Kandehar/Palopo/Bau-Bau/Dahlak-Masavva noktaları gelecekte alacak) ⇒ engel kümesi
+    #   o noktalar + künye penceresi enjekte edilerek kuruldu; --oner aynı artefakt.
+    "argun":                ("Argunlar (Kandehar, sonra Sind)", "#c63c24"),       # en yakın engel ΔE 15,9
+    "luwu":                 ("Luwu Krallığı (Güney Sulawesi)", "#2460c6"),         # ΔE 12,2 (carrara'nın eski hex'i, serbest kaldı)
+    "buton":                ("Buton (Wolio) Sultanlığı", "#c66624"),               # ΔE 12,0
+    "dahlak-sultanligi":    ("Dahlak Sultanlığı (Dehlek)", "#246cc6"),             # ΔE 14,2 · KARARLAR-EMRE-1015 #11
+    # RENK-PAKET-1015 — Este devletinin 1598 SONRASI adı. Zamana bağlı ad motor kodu ister;
+    #   onun yerine AYRI harita kimliği: `ferrara` 1598-01-29'da biter, `modena` başlar
+    #   (Chiappini, Fondazione Estense 1997: Este 28 Ocak 1598'de Ferrara'dan çıktı, ertesi
+    #   gün Kard. Aldobrandini girdi). Aynı hex — ardıllık paylaşımı (PAYLASIM, meysur emsali)
+    #   ve aynı açıklık istisnası (_ACIKLIK_ISTISNA_HUE) ⇒ ekranda ikisi de #7a005c.
+    "modena":               ("Modena ve Reggio Dükalığı (Este)", "#300c93"),
 }
 
 
@@ -3712,6 +3731,23 @@ PAYLASIM = {
     "#15421e": ("meysur → meysur-racaligi ardıllığı, sıfır gün örtüşme, "
                 "asla aynı anda sahnede değiller",
                 ["meysur", "meysur-racaligi"]),
+    # 🟢 RENK-PAKET-1015 — üç beyan. İlk ikisi KOŞU 25 logunun "BEYAN EDILMEMIS PAYLASIM"
+    #   uyarısıydı; ÖLÇÜLDÜ (veri dönemleri + nokta-nokta mesafe, 15 Ekim):
+    #   · #d24824 ovambo ↔ suriye-lubnan-mandasi: en yakın noktalar 6.002 km; veride
+    #     ovambo 1600→1917-02-06, manda 1920-07-24→1946-04-17 — eşzamanlı bile değil.
+    #   · #5ad224 dobruca-despotlugu ↔ kaheti-kralligi: dobruca künye ÖNERİSİ 1359-1389,
+    #     kaheti 1492-1762 — HİÇ eşzamanlı değil. `dobruca-despotlugu`nun künyesi henüz
+    #     YOK, veride dönemi de YOK: yetim değil "künye bekliyor" (renk 413867a59'da girdi,
+    #     künye denetim/PAKET-0076-DOBROTIC-1004.diff devletler.js kısmında bekliyor).
+    #   · #300c93 ferrara → modena: meysur emsali ardıllık, sıfır gün örtüşme (1598-01-29).
+    "#d24824": ("ovambo (Namibya) / suriye-lubnan-mandasi (Levant): 6002 km, "
+                "veride eszamanli bile degil",
+                ["ovambo", "suriye-lubnan-mandasi"]),
+    "#5ad224": ("dobruca-despotlugu (1359-1389) / kaheti-kralligi (1492-1762): "
+                "hic eszamanli degil",
+                ["dobruca-despotlugu", "kaheti-kralligi"]),
+    "#300c93": ("ferrara -> modena ardilligi (Este, 1598-01-29), sifir gun ortusme",
+                ["ferrara", "modena"]),
     # 🟢 HEX GÜNCELLENDİ — RENK DENİZ, 2026-08-12: eski #6ba0a0 denizle
     #   (#a8c8dc) ΔE 18,06 · ΔL* 1,71 idi, DAL 2 kuralına (|ΔL*|<4 ∧ ΔE<20)
     #   takıldı. Grup BİR HAMLEDE #a828d8'e taşındı (8 üye birden — hepsi
@@ -4122,6 +4158,9 @@ _ACIKLIK_ISTISNA_HUE = {
     # kimlik              engelleyen komşu(lar)         ton kaydırma (derece)
     "fransa-cumhuriyet": (["ingiltere"],                -10.0),
     "ferrara":           (["mantua", "parma"],           30.0),
+    # RENK-PAKET-1015: ferrara'nın 1598 ardılı (aynı hex) — BİRLİKTE dönmezse ekranda ayrı
+    # renge düşerler; PAYLASIM ham hex'i denetler, döndürülmüş hex'i değil.
+    "modena":            (["mantua", "parma"],           30.0),
 }
 
 
