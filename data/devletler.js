@@ -11866,8 +11866,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"inalogullari", ad:"İnaloğulları (Âmid)", tur:"beylik", bolge:"anadolu",
-  f:"1098-01-01", t:"1183-04-29", baskent:"Âmid (Diyarbekir)", boya_gerekli:true,
-  ic_not_f:"TDV başlığı '1098-1183'; gövde: beyliğe adını veren İnal'ın tahta geçişi 491/1098. Öncesinde Sadr 1095'ten itibaren Âmid'de hüküm sürüyordu (TDV diyarbakir: '1095’te Âmid Türk emîrlerinden Sadr’a verildi') — f 1095'e çekilebilir; başlığa uyup 1098-01-01 yazdım (kaynak yıl verir).",
+  f:"1095-01-01", t:"1183-04-29", baskent:"Âmid (Diyarbekir)", boya_gerekli:true,
+  ic_not_f:"TDV başlığı '1098-1183'; gövde: beyliğe adını veren İnal'ın tahta geçişi 491/1098. Öncesinde Sadr 1095'ten itibaren Âmid'de hüküm sürüyordu (TDV diyarbakir: '1095’te Âmid Türk emîrlerinden Sadr’a verildi') — f 1095'e çekilebilir; başlığa uyup 1098-01-01 yazdım (kaynak yıl verir). · T5-1000-A-1016: f 1098 → 1095 (künye aşımı sınıf ② — aynı hânedan: Sadr İnal'ın kardeşi): TDV diyarbakir '1095’te Âmid Türk emîrlerinden Sadr’a verildi. Onun kısa bir süre sonra ölümü üzerine kardeşi İnal bu şehre emîr tayin edildi'.",
   ic_not_t:"TDV gün verir (29 Nisan 1183). ⚠️ c.1149'dan sonra Mardin Artuklularına bağlandı (tâbi); künye bağımsızlık değil hânedan ömrüdür.",
   ozet:"Tutuş'un ölümünden sonra Âmid'de kurulan küçük Türkmen beyliği; çoğunlukla Selçuklu, Ahlatşah ve Artuklu metbûluğu altında yaşadı. Selâhaddîn-i Eyyûbî Âmid'i alıp Artuklu Nûreddin Muhammed'e verince 29 Nisan 1183'te tarihe karıştı.",
   kaynak:"TDV: inalogullari (İNALOĞULLARI) — gövde okundu, HTTP 200",
