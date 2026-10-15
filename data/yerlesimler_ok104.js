@@ -173,7 +173,7 @@ window.YERLESIMLER_OK104 = [
 //    dayanağım yok, ve o günler zaten kırılma günü (yeni gün açılmıyor).
 // 1912 sonrası da Ohri kalıbı: Debar bugün Kuzey Makedonya'da.
 { ad:"Debre (Dibra)", tur:"sehir", lat:41.524, lon:20.531, g:0, k:3, m:"Üsküp",
-  s:[{f:"1281-01-01",t:"1395-01-01",d:"sirbistan"},
+  s:[{f:"1281-01-01",t:"1283-01-01",d:"__BOSLUK__",kesinlik:{t:"yil"},kaynak:"BEYAN (NOT-DUZELT-1016, Emre notu #2): eski sirbistan 1281→ TDV ile çelişiyordu. TDV debre: '1204’te Bizans İmparatorluğu’nun Haçlılar tarafından parçalanmasıyla birlikte Epiros Despotluğu, II. Bulgar İmparatorluğu, Bizans ve Sırbistan arasında sürekli gerilim konusu oldu. 1283’te Sırp Kralı Milutin Debre’yi ele geçirdi.' — Sırp öncesi SAHİBİ (Bizans mı Epir mi) TDV'de YOK. Nicol, Despotate of Epiros (1984) ve Kiesewetter, Palaver 4/1 (2015) okundu: Debre/Dibra'nın 1281-1283 sahibini söylemiyor (Nicol s. 30 n. 80 yalnız Dibra piskoposunun 1283'te İstanbul'a geldiğini — kilise bağı, sahiplik değil). Fine, Late Medieval Balkans erişime KAPALI. ⇒ Komşu (Ohri/Üsküp Bizans) sahibinden ÇIKARIM yapılmadı; dilim beyanlı boşluk, kaynak bulununca künye yazılır"},{f:"1283-01-01",t:"1395-01-01",d:"sirbistan",kesinlik:{f:"yil"},kaynak:"NOT-DUZELT-1016 · f: TDV debre '1283’te Sırp Kralı Milutin Debre’yi ele geçirdi' — YIL"},
      {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
      {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
