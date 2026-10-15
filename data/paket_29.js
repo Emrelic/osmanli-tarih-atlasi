@@ -1662,6 +1662,160 @@ window.ANTLASMA_HARITALARI = [
   not: "Masavva üzerinden serbest transit hükmü toprak devri olmadığından çizilmedi (bkz. antlasma9-hewett kartı)."
 }
 // <<< KUTU-H4-1015 üçüncü parti BITTI
+
+,
+// >>> KUTU-H4-1015 dördüncü parti (0054/H-0020) — Osmanlı dışı on bir antlaşma. Nokta = atlastaki
+// yerleşim koordinatı; kaynak = yeri ADIYLA anan ek okuma kartının (data/ekokuma_antlasma10.js) kaynağı
+// ya da kronoloji maddesinin kaynağı. Bölge adı verilen yerde seçilen şehir TEMSİLÎ diye yazılır.
+{
+  id: "stolbova-1617",
+  antlasma_ad: "Stolbova Antlaşması",
+  tarih: "1617-02-27",
+  bolgeler: [
+    { taraf: "isvec", etiket: "İsveç'te kalan (İngriya, Nöteborg)", noktalar: [
+        { ad: "Oreşek (Nöteborg)", lat: 59.953, lon: 31.038, kaynak: "kart antlasma10-stolbova-1617 (lex.dk 'Stolbovofreden', SNL 'Freden i Stolbova'): İsveç Nöteborg ile birlikte İngriya'yı ve Kexholm bölgesini elinde tuttu" }
+    ] }
+  ],
+  not: "Kexholm ve İngriya'nın öteki kaleleri atlasta yerleşim olarak yok; Novgorod'un Rusya'ya iadesi geri dönüş olduğundan ayrıca çizilmedi."
+},
+{
+  id: "deulino-1618",
+  antlasma_ad: "Deulino Mütarekesi",
+  tarih: "1618-12-11",
+  bolgeler: [
+    { taraf: "lehistan", etiket: "Lehistan'a bırakılan (Smolensk, Çernigov, Novgorod-Seversk)", zarf: true, noktalar: [
+        { ad: "Smolensk", lat: 54.783, lon: 32.045, kaynak: "kart antlasma10-deulino-1618 (Britannica 'Truce of Deulino'): Smolensk Leh tarafında kaldı" },
+        { ad: "Çernigov", lat: 51.4982, lon: 31.2893, kaynak: "kart antlasma10-deulino-1618 (Encyclopedia of Ukraine 'Chernihiv region'): Çernigov bölgesi Lehistan'a geçti" },
+        { ad: "Novgorod-Seversk", lat: 51.9874, lon: 33.2620, kaynak: "kart antlasma10-deulino-1618 (Encyclopedia of Ukraine 'Russia'): Starodub ve Novgorod-Seversk Lehistan'a" }
+    ] }
+  ],
+  not: "Starodub atlasta yerleşim olarak yok."
+},
+{
+  id: "bromsebro-1645",
+  antlasma_ad: "Brömsebro Barışı",
+  tarih: "1645-08-13",
+  bolgeler: [
+    { taraf: "isvec", etiket: "İsveç'e bırakılan (Gotland, Ösel, Jämtland, Härjedalen) ve rehin Halland", noktalar: [
+        { ad: "Visby (Gotland)", lat: 57.635, lon: 18.294, kaynak: "kart antlasma10-bromsebro-1645 (lex.dk 'Brömsebro'): Gotland ve Ösel adaları İsveç'e bırakıldı" },
+        { ad: "Halmstad (Halland)", lat: 56.674, lon: 12.857, kaynak: "aynı kart (SNL): Halland otuz yıllığına İsveç'e rehin — Halmstad TEMSİLÎ nokta" }
+    ] }
+  ],
+  not: "Jämtland ve Härjedalen'de, Ösel'de atlas yerleşimi bulunamadı; bu bölgeler noktalanmadı."
+},
+{
+  id: "roskilde-1658",
+  antlasma_ad: "Roskilde Antlaşması",
+  tarih: "1658-02-26",
+  bolgeler: [
+    { taraf: "isvec", etiket: "İsveç'e bırakılan (Skåne, Halland, Blekinge, Bornholm, Bohus, Trondheim)", noktalar: [
+        { ad: "Malmö (Skåne)", lat: 55.605, lon: 13.000, kaynak: "kart antlasma10-roskilde-1658 (lex.dk 'Roskildefreden', Danmarkshistorien antlaşma metni): Skåne İsveç'e — Malmö TEMSİLÎ nokta" },
+        { ad: "Halmstad (Halland)", lat: 56.674, lon: 12.857, kaynak: "aynı kart: Halland İsveç'e — TEMSİLÎ nokta" },
+        { ad: "Rønne (Bornholm)", lat: 55.100, lon: 14.702, kaynak: "aynı kart: Bornholm İsveç'e (1660'ta geri döndü)" },
+        { ad: "Trondheim", lat: 63.431, lon: 10.395, kaynak: "aynı kart: Norveç Trondheim lenini terk etti (1660'ta geri döndü)" }
+    ] }
+  ],
+  not: "Blekinge ve Bohus'ta atlas yerleşimi bulunamadı. Trondheim ve Bornholm 1660 Kopenhag barışıyla geri döndü."
+},
+{
+  id: "nystad-1721",
+  antlasma_ad: "Nystad Antlaşması",
+  tarih: "1721-09-10",
+  bolgeler: [
+    { taraf: "rusya", etiket: "Rusya'ya bırakılan (Livonya, Estonya, İngriya, Viborg)", zarf: true, noktalar: [
+        { ad: "Riga", lat: 56.949, lon: 24.105, kaynak: "kart antlasma10-nystad-1721 (TDV isvec, SNL 'freden i Nystad'): Livonya Rusya'ya — Riga TEMSİLÎ nokta" },
+        { ad: "Tallinn (Reval)", lat: 59.4370, lon: 24.7540, kaynak: "aynı kart: Estonya Rusya'ya — Tallinn TEMSİLÎ nokta" },
+        { ad: "Narva", lat: 59.3770, lon: 28.1900, kaynak: "aynı kart: İngriya Rusya'ya — Narva TEMSİLÎ nokta" },
+        { ad: "Viipuri (Vyborg)", lat: 60.713, lon: 28.733, kaynak: "aynı kart: Viborg leni Rusya'ya, adıyla" }
+    ] },
+    { taraf: "isvec", etiket: "İsveç'e geri verilen (Finlandiya'nın büyük kısmı)", noktalar: [
+        { ad: "Turku (Åbo)", lat: 60.452, lon: 22.267, kaynak: "aynı kart: Rusya işgal ettiği Finlandiya'nın büyük kısmını geri verdi — Turku TEMSİLÎ nokta" }
+    ] }
+  ],
+  not: "Gün TDV isvec'e göredir (Gregoryen 10 Eylül; Jülyen 30 Ağustos)."
+},
+{
+  id: "fredrikshamn-1809",
+  antlasma_ad: "Fredrikshamn",
+  tarih: "1809-09-17",
+  bolgeler: [
+    { taraf: "rusya", etiket: "Rusya'ya bırakılan (Finlandiya ve Åland)", zarf: true, noktalar: [
+        { ad: "Turku (Åbo)", lat: 60.452, lon: 22.267, kaynak: "kart antlasma10-fredrikshamn-1809 (lex.dk 'Freden i Fredrikshamn'): Åbo ve Björneborg leni Rusya'ya, adıyla" },
+        { ad: "Helsinki", lat: 60.170, lon: 24.938, kaynak: "aynı kart: Nyland leni Rusya'ya — Helsinki TEMSİLÎ nokta" },
+        { ad: "Vaasa", lat: 63.096, lon: 21.616, kaynak: "aynı kart: Vasa leni Rusya'ya, adıyla" },
+        { ad: "Oulu", lat: 65.0121, lon: 25.4651, kaynak: "aynı kart: Uleåborg leni Rusya'ya, adıyla" },
+        { ad: "Viipuri (Vyborg)", lat: 60.713, lon: 28.733, kaynak: "aynı kart: Karelya leni Rusya'ya — TEMSİLÎ nokta (Viborg 1721'den beri Rus'tu)" }
+    ] }
+  ],
+  not: "Åland ve Torne ırmağına kadar Västerbotten de bırakıldı; atlas yerleşimi seçilmedi."
+},
+{
+  id: "kiel-1814",
+  antlasma_ad: "Kiel Antlaşması",
+  tarih: "1814-01-14",
+  bolgeler: [
+    { taraf: "isvec", etiket: "İsveç'e bırakılan (Norveç)", noktalar: [
+        { ad: "Oslo (Christiania)", lat: 59.913, lon: 10.752, kaynak: "kart antlasma10-kiel-1814 (SNL 'Kielfreden', lex.dk 'Kielerfreden'): Danimarka kralı Norveç'i İsveç kralına bıraktı — Christiania TEMSİLÎ nokta" },
+        { ad: "Trondheim", lat: 63.431, lon: 10.395, kaynak: "aynı kart — Norveç'in TEMSİLÎ noktası" }
+    ] }
+  ],
+  not: "Helgoland atlasta yerleşim değil; İzlanda, Faroe ve Grönland Danimarka'da kaldı (çizilmedi)."
+},
+{
+  id: "viyana-1866",
+  antlasma_ad: "Viyana Barışı — Venedik",
+  tarih: "1866-10-03",
+  bolgeler: [
+    { taraf: "italya", etiket: "İtalya'ya katılan (Venedik ve Veneto)", zarf: true, noktalar: [
+        { ad: "Venedik", lat: 45.4409, lon: 12.3188, kaynak: "kart antlasma10-viyana-1866 (Treccani 'Vienna'): Avusturya Venedik ve Veneto eyaletlerinin İtalya'ya katılmasını kabul etti" },
+        { ad: "Padova", lat: 45.407, lon: 11.876, kaynak: "aynı kart — Veneto'nun TEMSİLÎ noktası" },
+        { ad: "Verona", lat: 45.438, lon: 10.992, kaynak: "aynı kart — Veneto'nun TEMSİLÎ noktası" }
+    ] }
+  ],
+  not: "Trentino Avusturya'da kaldı (kart)."
+},
+{
+  id: "villa-giusti-1918",
+  antlasma_ad: "Villa Giusti",
+  tarih: "1918-11-03",
+  bolgeler: [
+    { taraf: "italya", etiket: "İtalyan işgaline bırakılan (Trento, Trieste)", noktalar: [
+        { ad: "Trento", lat: 46.067, lon: 11.121, kaynak: "kart antlasma10-villa-giusti-1918 (Treccani 'Villa Giusti', 'Trento'): 1915 Londra'da İtalya'ya vaat edilen topraklar boşaltılıp İtilaf'a bırakılacaktı" },
+        { ad: "Trieste", lat: 45.650, lon: 13.770, kaynak: "aynı kart (Treccani 'Trieste')" }
+    ] }
+  ],
+  not: "Mütareke işgal hükmüdür; hukukî devir Saint-Germain (1919) ve Rapallo (1920) ile."
+},
+{
+  id: "versailles-1919",
+  antlasma_ad: "Versailles Antlaşması — Alsas-Loren",
+  tarih: "1919-06-28",
+  bolgeler: [
+    { taraf: "fransa-cumhuriyet", etiket: "Fransa'ya iade edilen (Alsas-Loren)", zarf: true, noktalar: [
+        { ad: "Strazburg", lat: 48.573, lon: 7.752, kaynak: "Versailles maddesi (olaylar_ok109.js; Versailles md. 51, Avalon Project): Alsas-Loren (Strazburg, Metz, Colmar, Mulhouse) Fransa egemenliğine iade edildi" },
+        { ad: "Metz", lat: 49.120, lon: 6.176, kaynak: "aynı madde, adıyla" },
+        { ad: "Colmar", lat: 48.079, lon: 7.358, kaynak: "aynı madde, adıyla" },
+        { ad: "Mulhouse", lat: 47.750, lon: 7.340, kaynak: "aynı madde, adıyla" }
+    ] }
+  ],
+  not: "Devir md. 51 gereği 11 Kasım 1918 mütarekesinden geçerlidir."
+},
+{
+  id: "trianon-1920",
+  antlasma_ad: "Trianon Antlaşması",
+  tarih: "1920-06-04",
+  bolgeler: [
+    { taraf: "romanya-kralligi", etiket: "Romanya'ya (Erdel, Banat'ın doğusu)", noktalar: [
+        { ad: "Temeşvar", lat: 45.760, lon: 21.230, kaynak: "Banat maddesi (olaylar_ok109.js; Trianon md. 27/3 ve 45, MNIR; TDV timisvar): Tımışvar şehri Romanya Krallığı'na katıldı" },
+        { ad: "Erdel (Kaloşvar)", lat: 46.770, lon: 23.591, kaynak: "Trianon maddeleri (TDV macaristan; md. 45): Erdel'in Romanya ile birleşmesi tanındı — Kaloşvar TEMSİLÎ nokta" }
+    ] },
+    { taraf: "cekoslovakya", etiket: "Çekoslovakya'ya (Yukarı Macaristan)", noktalar: [
+        { ad: "Bratislava (Pozsony)", lat: 48.146, lon: 17.107, kaynak: "Trianon maddesi (olaylar_ok109.js, TDV macaristan): Yukarı Macaristan Çekoslovakya'ya — Pozsony TEMSİLÎ nokta" }
+    ] }
+  ],
+  not: "Hırvatistan ve Banat'ın batısı (SHS) ile Burgenland (Avusturya) bu kayıtta noktalanmadı."
+}
+// <<< KUTU-H4-1015 dördüncü parti BITTI
 ];
 
 ;
