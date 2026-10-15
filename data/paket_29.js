@@ -1816,6 +1816,94 @@ window.ANTLASMA_HARITALARI = [
   not: "Hırvatistan ve Banat'ın batısı (SHS) ile Burgenland (Avusturya) bu kayıtta noktalanmadı."
 }
 // <<< KUTU-H4-1015 dördüncü parti BITTI
+
+,
+// >>> KUTU-H4-1015 beşinci parti (0054/H-0020) — yedi kayıt daha; aynı yöntem (kart ya da madde kaynağı).
+{
+  id: "feragat-1581",
+  antlasma_ad: "Feragat Bildirgesi",
+  tarih: "1581-07-26",
+  bolgeler: [
+    { taraf: "hollanda", etiket: "İspanya'dan kopan Birleşik Eyaletler", zarf: true, noktalar: [
+        { ad: "Amsterdam", lat: 52.373, lon: 4.893, kaynak: "kart antlasma10-feragat-bildirgesi-1581 (Britannica 'Act of Abjuration', 'Union of Utrecht'): Genel Meclis II. Felipe'nin egemenliğini düşürdü — Holanda'nın TEMSİLÎ noktası" },
+        { ad: "Utrecht", lat: 52.091, lon: 5.121, kaynak: "aynı kart: Utrecht Birliği'nin ilk imzacıları arasında Utrecht, adıyla" },
+        { ad: "Rotterdam", lat: 51.924, lon: 4.478, kaynak: "aynı kart — Holanda'nın TEMSİLÎ noktası" }
+    ] }
+  ],
+  not: "Bildirge bir antlaşma değil tek taraflı bağımsızlık kararıdır; İspanya'nın tanıması 1648."
+},
+{
+  id: "rastatt-1714",
+  antlasma_ad: "Rastatt Antlaşması",
+  tarih: "1714-03-07",
+  bolgeler: [
+    { taraf: "habsburg", etiket: "Avusturya'ya (İspanyol Hollandası, Milano)", noktalar: [
+        { ad: "Brüksel", lat: 50.847, lon: 4.352, kaynak: "kart antlasma5-utrecht-1713 (1911 Britannica 'Utrecht, Treaty of'): Avusturya Napoli, Milano ve İspanyol Hollandası'nı alacaktı; Rastatt 7 Mart 1714 — Brüksel TEMSİLÎ nokta" },
+        { ad: "Anvers (Antwerpen)", lat: 51.220, lon: 4.400, kaynak: "aynı kart — İspanyol Hollandası'nın TEMSİLÎ noktası" },
+        { ad: "Milano", lat: 45.464, lon: 9.190, kaynak: "aynı kart, adıyla" }
+    ] }
+  ],
+  not: "Napoli ve Sardunya da Avusturya'ya geçti; bu kayıtta noktalanmadı."
+},
+{
+  id: "fontainebleau-1762",
+  antlasma_ad: "Fontainebleau Antlaşması",
+  tarih: "1762-11-03",
+  bolgeler: [
+    { taraf: "ispanya", etiket: "İspanya'ya bırakılan (New Orleans dahil Louisiana)", noktalar: [
+        { ad: "New Orleans", lat: 29.9511, lon: -90.0715, kaynak: "kart antlasma5-paris-1763 (Britannica): İspanya Fransa'dan New Orleans dahil Louisiana'yı aldı" }
+    ] }
+  ],
+  not: "Fontainebleau gizli antlaşmasıdır; 1763 Paris barışıyla birlikte okunur."
+},
+{
+  id: "pojun-1805",
+  antlasma_ad: "Pojun",
+  tarih: "1806-02-01",
+  bolgeler: [
+    { taraf: "italya-napolyon", etiket: "Napolyon'un İtalya Krallığı'na (Dalmaçya, Boka Kotorska)", zarf: true, noktalar: [
+        { ad: "Zadar (Zara)", lat: 44.124, lon: 15.232, kaynak: "kart antlasma10-pojun-1805 (Hrvatska enciklopedija 'Požunski mir', 'dalmacija'): Avusturya Dalmaçya'yı İtalya Krallığı'na bıraktı; Fransa Şubat 1806'da idareyi devraldı — TEMSİLÎ nokta" },
+        { ad: "Split (Spalato)", lat: 43.511, lon: 16.439, kaynak: "aynı kart — Dalmaçya'nın TEMSİLÎ noktası" },
+        { ad: "Kotor (Cattaro)", lat: 42.421, lon: 18.768, kaynak: "aynı kart (HE 'boka-kotorska'): Boka Kotorska da bırakıldı; Ruslar 1806'da Boka'yı işgal etti" }
+    ] }
+  ],
+  not: "Antlaşma 26 Aralık 1805; madde uygulamanın günüdür (Şubat 1806). Venedik, İstria, Tirol ve Bavyera hükümleri bu kayıtta noktalanmadı."
+},
+{
+  id: "kvarner-1806",
+  antlasma_ad: "Kvarner adalarının",
+  tarih: "1806-01-01",
+  bolgeler: [
+    { taraf: "italya-napolyon", etiket: "Napolyon'un İtalya Krallığı'na (Kvarner adaları)", noktalar: [
+        { ad: "Krk (Veglia)", lat: 45.075, lon: 14.615, kaynak: "madde (olaylar_ilirya_0072.js, LZMK krk-otok): Pojun barışıyla 1806'da Napolyon'un İtalya Krallığı'na girdi · kart antlasma10-pojun-1805" }
+    ] }
+  ],
+  not: "Madde yıl hassasiyetindedir (1806)."
+},
+{
+  id: "genel-deniz-1820",
+  antlasma_ad: "Genel Deniz Antlaşması",
+  tarih: "1820-01-08",
+  bolgeler: [
+    { taraf: "ingiltere", etiket: "İngiltere'yle antlaşmaya bağlanan şeyhlikler", noktalar: [
+        { ad: "Ras el-Hayme (Cülfâr)", lat: 25.7896, lon: 55.9417, kaynak: "kart antlasma10-genel-deniz-antlasmasi-1820 (Aitchison c. XII No. XXXVIII): 8 Ocak 1820 Re'sülhayme'de düzenleme; 11 Ocak Ebûzabî, 28 Ocak Dubai, 4 Şubat Şârika imzaları" }
+    ] }
+  ],
+  not: "Antlaşma himaye değil korsanlık/kölelik yasağı ve deniz barışıdır; İngiliz hegemonyası 1853 ve 1892 antlaşmalarıyla derinleşti."
+},
+{
+  id: "somali-1884",
+  antlasma_ad: "kuzey Somali kıyısında himaye",
+  tarih: "1884-07-14",
+  bolgeler: [
+    { taraf: "ingiltere", etiket: "İngiliz himayesine giren (Berbera, Habr-Awal)", noktalar: [
+        { ad: "Berbera", lat: 10.440, lon: 45.014, kaynak: "kart antlasma10-somali-himaye-1884 (Hertslet No. 93): Berbera çevresindeki Habr-Awal ile antlaşma 14 Temmuz 1884" },
+        { ad: "Zeyla", lat: 11.355, lon: 43.473, kaynak: "TDV somali (madde olaylar_ek16.js): Zeyla, Berberâ ve Tâcûre 1884'te İngilizlerce sömürgeleştirildi" }
+    ] }
+  ],
+  not: "Resmî himaye bildirimi 20 Temmuz 1887."
+}
+// <<< KUTU-H4-1015 beşinci parti BITTI
 ];
 
 ;
