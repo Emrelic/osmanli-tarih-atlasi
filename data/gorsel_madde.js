@@ -57,7 +57,9 @@ window.GORSEL_MADDE = [
     // 13 Ekim 2026 (OKUR-DILI, Emre onayı): Kâtib Çelebi'nin hayattan çizilmiş
     // bir portresi YOK (Commons'ta bulunamadı; 19. yy hayalî tasvirleri
     // alınmadı). Yerine KENDİ ESERİ: Cihannümâ'nın 1732 Müteferrika baskısı.
-    olay:          ["1654-12-01"],
+    // KUTU-VERI-1015 (0052/H-0028): aynı eser görseli Kâtib Çelebi'nin öteki iki Cihannümâ/vefat maddesine de bağlandı
+    //   (ayırt edicili bağ: _ekBagEslesir "gün|başlıkta geçen söz").
+    olay:          ["1654-12-01", "1648-01-01|Cihannümâ", "1657-10-06|Kâtib Çelebi"],
     url:           "assets/gorseller/1654-12-01-katib-celebi-cihannuma-1732-arabistan.jpg",
     baslik:        "Cihannümâ'dan Arabistan haritası (1732 baskısı)",
     gorsel_alt:    "Kâtib Çelebi'nin Cihannümâ adlı coğrafya eserinin 1732'de İbrahim Müteferrika matbaasında basılan nüshasından Arabistan haritası",
