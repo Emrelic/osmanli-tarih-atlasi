@@ -1505,9 +1505,10 @@ window.KRONOLOJI_COK_KARADAG = [
   d:"Berlin Kongresi'nin Karadağ'a bıraktığı Plav ve Gusinye'yi teslim almaya gelen Karadağ kuvvetleri, Prizren Cemiyeti'ne bağlı Arnavut gönüllülerince Novşiçe'de geri püskürtüldü. Bölge Karadağ'a geçmedi; büyük devletler karşılığında Ülgün'ün verilmesini dayatacaktır.",
   kaynak:"M. Vickers, The Albanians (1995); E. Roberts, Realm of the Black Mountain (2007) — 4 Aralık 1879. TDV `arnavutluk`: Prizren Cemiyeti'nin Arnavut topraklarının Karadağ'a verilmesine karşı kurulduğu." },
 
-{ t:"1880-01-01", b:"Ülgün (Ulcinj) Karadağ'a teslim edildi", tur:"toprak-kazanc",
+{ t:"1880-11-27", b:"Ülgün (Ulcinj) Karadağ'a teslim edildi", tur:"toprak-kazanc",
   onem:3, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","diplomasi","konu-diplomasi"],
-  yer_id:"", odak_yer:"İşkodra", devlet:"karadag", gun:"Kasım 1880 (gün doğrulanmadı)",
+  yer_id:"", odak_yer:"İşkodra", devlet:"karadag", gun:"27 Kasım 1880 (Cumartesi) — Karadağ kuvvetlerinin şehre girişi",
+  ic_not_gun:"KUTU-VERI-1015 (0076/H-0048): eski t 1880-01-01 (yalnız yıl, 'Kasım 1880, gün doğrulanmadı'). Gün: ABD Konstantinopolis elçisi Heap'in 1 Aralık 1880 raporu, FRUS 1881, belge 714 (https://history.state.gov/historicaldocuments/frus1881/d714): 'On Saturday last, the 27th ultimo, Dervisch Pacha … having retired from the town … the Black Mountaineers occupied the place with two thousand men without firing a shot'. Ülgün'ün atlasta NOKTASI YOK — 1281-1571 zinciri kaynakla kurulamadı, nokta açılmadı.",
   d:"Plav-Gusinye yerine Karadağ'a Ülgün limanının verilmesine karar veren büyük devletler, Adriyatik'te donanma gösterisiyle Babıâli'yi zorladı; Osmanlı kuvvetleri şehri Arnavut direnişini kırarak Karadağ'a teslim etti. Böylece Karadağ Bar'dan sonra ikinci limanına kavuştu.",
   kaynak:"B. Jelavich, History of the Balkans I (1983); E. Roberts (2007). TDV `karadag`: '1881'e kadar Karadağ arazisi iki katına çıktı.'" },
 

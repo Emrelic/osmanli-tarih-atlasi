@@ -2772,7 +2772,8 @@ window.KRONOLOJI_BALKAN = [
 { taraflar:["karadag"], t:"1877-09-01", b:"Nikšić, Podgorica ve Bar alındı, Ülgün ele geçirildi", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas","konu-askeri"], yer_id:"Podgorica",
   d:"Savaşın son evresinde Karadağ kuvvetleri Nikšić'i, ardından Podgorica ve Bar'ı ele geçirdi; Ülgün de düştü. Bu fetihler bir yıl sonra Berlin'de tanınacak kazanımların fiilî zemini oldu.", ic_not_d:"(data/yerlesimler.js) · Yerel atlas kaydı Podgorica'yı 'karadag'a diplomatik tanıma tarihiyle (1878-07-13) bağlıyor; fiilî fetih on ay önce, burada.",
-  kaynak:"TDV `karadag`: 'Savaşın sonlarına doğru Nikšić, Podgorica, Bar'ı aldı, Ülgün'ü (Dulcigno) ele geçirdi.' Ay: standart akademik kaynak." },
+  kaynak:"TDV `karadag`: 'Savaşın sonlarına doğru Nikšić, Podgorica, Bar'ı aldı, Ülgün'ü (Dulcigno) ele geçirdi.' Ay: standart akademik kaynak.",
+  ic_not_gun:"KUTU-VERI-1015 (0076/H-0048): Nikšić'in günü ayrı kaynakla bulundu — ESBE 'Никшич' (https://ru.wikisource.org/wiki/ЭСБЕ/Никшич, t. XXI 1897, Jülyen takvimi): 'кн. Николай 10 июля подошел к Н. … и начал осаду; 27 августа город сдался' ⇒ teslim 27 Ağustos (Jülyen) = 8 Eylül 1877 (Gregoryen); 'Н., в 1878 г. окончательно присоединенный к Черногории'. Madde dört şehri tek tarihte topladığı için t değiştirilmedi; Podgorica/Bar/Ülgün aynı güne ait DEĞİL. Nikšić'in atlasta NOKTASI YOK (1281-1877 zinciri kaynakla kurulamadı)." },
 
 { taraflar:["karadag"], t:"1878-03-03", b:"Ayastefanos Antlaşması — bağımsızlık ilk kez tanındı", tur:"antlasma",
   onem:3, dunya:3, kapsam:"dis", etiket:["antlasma","konu-diplomasi"], yer_id:"", kapsam_genis:true,
@@ -9518,6 +9519,12 @@ window.OLAYLAR_ORTADOGU_0919 = [
 
 window.OLAYLAR_2S_0919 = [
 
+// ── 1328 ─────────────────────────────────────────────────────────────
+{ t:"1328-01-01", kesinlik:"yil", b:"Livonya Tarikatı Klaipėda (Memel) topraklarını Töton Tarikatı'nın Prusya koluna devretti", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Klaipėda (Memel)",
+  etiket:["toprak-kazanc","konu-siyasi"],
+  d:"Livonya Tarikatı, Neman ağzındaki Klaipėda (Memel) kalesi ve çevresindeki topraklarını Töton Tarikatı'nın Prusya koluna bıraktı; Kurland piskoposu da kendi payını 1392'de aynı kola devretti. Klaipėda 1411 Toruń ve 1422 Melno barışlarıyla Tarikat'ta kaldı, 1525'te Prusya Dükalığı'na geçti.",
+  kaynak:"Visuotinė lietuvių enciklopedija — 'Klaipėdos istorija' (https://www.vle.lt/straipsnis/klaipedos-istorija/) — AYNEN: \"1328 Livonijos ordinas, 1392 Kuršo vyskupas perleido savo Klaipėdos valdas Vokiečių ordino Prūsijos šakai.\" · hassasiyet: YIL (gün kaynakta yok) · KUTU-VERI-1015 (0025/H-0004)" },
+
 // ── 1329 ─────────────────────────────────────────────────────────────
 { t:"1329-01-01", b:"Umur Bey İzmir'in liman kalesini Cenevizlilerden aldı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"İzmir",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -9711,6 +9718,18 @@ window.OLAYLAR_2S_0919 = [
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Omsk, Tobol ile İrtiş arasındaki İşim tahkimat hattının doğu ucunda bir kale olarak kuruldu; 1804'te şehir oldu.",
   kaynak:"Britannica, 'Omsk', https://www.britannica.com/place/Omsk-Russia — AYNEN: \"Omsk, founded in 1716 as a stronghold at the eastern end of the Ishim fortified line between the Tobol and the Irtysh\" · hassasiyet: YIL · ikinci okuma bot engeline takıldı (tek okuma)" },
+
+// ── 1717 ─────────────────────────────────────────────────────────────
+{ t:"1717-11-30", b:"Cungarlar Lhasa'yı bastı — Lajang Han öldürüldü, Tibet Cungar işgaline girdi", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Lhasa",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"Tsering Döndup komutasındaki Cungar ordusu, Hoşut hükümdarı Lajang Han'ın savunduğu Lhasa'ya gece yarısından sonra her yönden saldırdı; içeriden destek bulan Cungarlar şehri ele geçirip yağmaladı, Potala'yı da talan ettiler. Lajang Han kaçarken öldürüldü; Cungarlar sTag-rtse-pa başında bir kukla Tibet hükûmeti kurdu.",
+  kaynak:"L. Petech, China and Tibet in the Early XVIIIth Century (2. bs., Brill 1972), bölüm 'Dsungar occupation and Tibetan risings' — AYNEN: \"after midnight on the 30th of November 1717 the Dsungars attacked Lhasa on all sides\" · archive.org tam metin · hassasiyet: GÜN · KUTU-VERI-1015 (0086/H-0006)" },
+
+// ── 1720 ─────────────────────────────────────────────────────────────
+{ t:"1720-09-24", b:"Qing ordusu Lhasa'ya girdi — Cungar işgali sona erdi, Qing himayesi başladı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Lhasa",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  d:"Kangxi'nin Tibet'e gönderdiği iki ordudan Galbi komutasındaki Sichuan kolu zorlu bir yürüyüşle Lhasa'ya ulaştı ve şehri direnişsiz aldı; Cungarlar bütün kuvvetlerini kuzeyden gelen Kokonor ordusuna karşı Dam'da toplamıştı. Cungarların Tibet'ten çekilmesiyle Qing, Lhasa'da kalıcı bir himaye düzeni kurdu.",
+  kaynak:"L. Petech, China and Tibet in the Early XVIIIth Century (2. bs., Brill 1972), s. 68 — AYNEN: \"Galbi's forces reached Lhasa, which they occupied on 23/VIII = September 24th. They had met with no opposition\" · archive.org tam metin · hassasiyet: GÜN · KUTU-VERI-1015 (0086/H-0006)" },
 
 // ── 1721 ─────────────────────────────────────────────────────────────
 { t:"1721-01-01", b:"Aguayo seferi Los Adaes presidyosunu kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Los Adaes",
@@ -9932,12 +9951,23 @@ window.OLAYLAR_2S_0919 = [
   d:"Adamava, İngiltere'ye bağlı Kuzey Nijerya ile Almanya'ya bağlı Kamerun arasında paylaşıldı; Adama'nın dördüncü oğlu Bobbo Ahmedü İngiliz bölgesinde Yola emîri oldu.",
   kaynak:"TDV `adamava` — AYNEN: \"1901’de Adamava, İngiltere’ye bağlı Kuzey Nijerya ile Almanya’ya bağlı Kamerun arasında paylaşılmış ve Adama’nın dördüncü oğlu Bobbo Ahmedü (Bobo Amadu), İngiliz bölgesinde Yola emîri olmuştur.\" · hassasiyet: YIL" },
 
+// ── 1905 ─────────────────────────────────────────────────────────────
+{ t:"1905-01-01", kesinlik:"yil", b:"Orenburg-Taşkent demiryolunda Aral Denizi istasyonu açıldı — Aralsk yerleşimi kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Aralsk (Aral)",
+  etiket:["konu-ekonomi","konu-siyasi"],
+  d:"Rus İmparatorluğu'nun Orenburg ile Taşkent'i bağlayan demiryolu Aral Denizi'nin kuzeydoğu ucundan geçerken kıyıda 'Aralskoye More' istasyonu açıldı; istasyonun yanında bir balıkçı yerleşimi doğdu. Yerleşim 1938'de şehir statüsü alarak Aralsk adını aldı.",
+  kaynak:"Büyük Sovyet Ansiklopedisi (3. baskı) 'Аральск' (https://dic.academic.ru/dic.nsf/bse/64755/) — AYNEN: \"Основан в 1905 в связи со строительством железной дороги Оренбург — Ташкент; город — с 1938.\" · Toponimik sözlük 'Аральск' (https://dic.academic.ru/dic.nsf/enc_geo/566/): 'Возник как пос. при ст. Аральское Море (открыта в 1905 г.)' · hassasiyet: YIL · KUTU-VERI-1015 (0052/H-0103)" },
+
 // ── Vaday 2 Haziran 1909 ─────────────────────────────────────────────
 { t:"1909-06-02", b:"Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Abeşe (Abéché)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Doğuya ilerlemesini sürdüren Fransızlar Vedây'ın başşehri Abeşe'yi (Ebîşe) ele geçirerek Vedây Sultanlığı'na son verdi; son sultan başşehrini kurtaramadan çekildi.",
   kaynak:"TDV `veday` (başlık: 1635-1909) — AYNEN: \"Doğuya ilerlemeyi sürdüren Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler.\" · hassasiyet: GÜN" },
 
+// KUTU-VERI-1015 — Kandehar 1383 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #7): Eski Kandehar s: kert → timurlu kırılması
+{ t:"1383-01-01", b:"Timur Kandehar'ı Kertler'den aldı ve torunu Pîr Muhammed'e verdi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Eski Kandehar (Şehr-i Köhne)",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"], taraflar:["timurlu","kert"],
+  d:"1281'den beri İlhanlıların vasalı Herat Kertlerinin elinde bulunan Kandehar, Timur'un Horasan seferleri sırasında zaptedildi ve torunu Pîr Muhammed'e verildi; şehir bundan sonra Timurlu valilerince yönetildi.",
+  kaynak:"TDV `kandehar` (A. Özcan) — AYNEN: \"680’de (1281) İlhanlılar’ın vasalı Herat hâkimi Şemseddin Kert’in eline geçti\" · \"785’te (1383) Timur tarafından zaptedilerek torunu Pîr Muhammed’e verilen şehir\" · hassasiyet: YIL" },
 ];
 
 ;

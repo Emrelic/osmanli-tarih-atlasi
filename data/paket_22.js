@@ -1284,6 +1284,18 @@ window.YERLESIMLER_ORTAASYA3 = [
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
      {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
+// ── ARALSK — KUTU-VERI-1015 (parti-emrelic-0052 / H-0103) ─────────────────
+// Aral'ın kuzey kıyısında nokta yoktu (en yakın: 'Aral kuzeyi' yer tutucu 46,6 km,
+// Kazalinsk 120 km). Kur KURULUŞ cümlesinden (BSE 'Основан в 1905'), ilk anılıştan
+// türetilmedi. Sahip zinciri komşu Kazalinsk'in 1905 sonrası zinciriyle aynı ülke
+// devirleri (künye günleri); 1917-1920 iç savaş cepheleri kodlanmadı.
+{ ad:"Aralsk (Aral)", tur:"liman", lat:46.7967, lon:61.6667, g:0, k:4, kur:"1905-01-01", kesinlik:"yil",
+  neden:"0052/H-0103 · Aral kıyısını kuzeyde noktayla tutmak için (Emre: kıyıya örtüştürme). Muynak (güney kıyı) için kuruluş/ilk tanık tarihi BULUNAMADI — BSE 'Муйнак' maddesi tarih vermiyor; nokta açılmadı.",
+  kaynak:"Büyük Sovyet Ansiklopedisi (3. baskı) 'Аральск' — çevrimiçi https://dic.academic.ru/dic.nsf/bse/64755/ (15 Ekim 2026 okundu): 'Основан в 1905 в связи со строительством железной дороги Оренбург — Ташкент; город — с 1938' · 'Ж.-д. станция (Аральское Море) на линии Оренбург — Ташкент' · konum: bugünkü şehir merkezi (GeoNames)",
+  s:[{f:"1905-01-01",t:"1917-03-15",d:"rusya",kesinlik:{f:"yil"}},
+     {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"devletler.js kazakistan f (adilet.zan.kz resmî metin)"}] },
+
 ];
 
 ;
@@ -2996,9 +3008,14 @@ window.YERLESIMLER_KAMERIKA = [
     //   DOĞRUSU 1855-01-01→ `newfoundland-dominyonu` — künyede «Renk YOK» ⇒ boya inene dek ingiliz-kuzey-amerika.
     s:[{f:"1583-08-05",t:"1763-02-10",d:"ingiltere"},{f:"1763-02-10",t:"1923-10-29",d:"ingiliz-kuzey-amerika"},{f:"1923-10-29",t:"1934-02-16",d:"newfoundland-dominyonu",kaynak:"Britannica Newfoundland and Labrador; Labrador Boundary 1927 Privy Council"},{f:"1934-02-16",t:"1949-03-31",d:"newfoundland-komisyon-hukumeti",kaynak:"Britannica Newfoundland"},{f:"1949-03-31",t:"2000-12-31",d:"kanada",kaynak:"Britannica Canada: Newfoundland katilimi 31 Mart 1949"}],
     kaynak:"bulunamadı", not:"Gilbert'ın 1583 ilânı; balıkçı iskânı daha eski · dayanak: Dictionary of Canadian Biography" },
-  { ad:"Madawaska (Maliseet)", tur:"sehir", lat:47.35, lon:-68.32, g:0,
-    s:[{f:"1281-01-01",t:"1761-01-01",d:"maliseet"},{f:"1761-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"},{f:"1923-10-29",t:"2000-12-31",d:"abd",kaynak:"Britannica: United States; Alaska siniri 1903/1908"}],
-    kaynak:"bulunamadı", not:"dayanak: HNAI c.15 Northeast (Smithsonian)" },
+  // KUTU-VERI-1015 C: nokta St. John nehrinin GÜNEY (Maine) kıyısındaydı (47.35/-68.32 = Madawaska, Maine); kayıt
+  //   Maliseet köyünü temsil ediyor ve köy Madawaska ırmağının St. John'a döküldüğü yerde, KUZEY yakada (Edmundston).
+  //   Nokta GeoNames Edmundston'a çekildi (~2,6 km). ESKİ 1923-10-29 abd dönemi ("Alaska siniri") kaynaksızdı: kuzey yaka
+  //   1842 Webster-Ashburton'la İngiliz kaldı ⇒ kanada 2000'e dek. D8A-SINIF-1015 §2 (K_karsi 4 birim).
+  { ad:"Madawaska (Maliseet)", tur:"sehir", lat:47.3737, lon:-68.3251, g:0,
+    s:[{f:"1281-01-01",t:"1761-01-01",d:"maliseet"},{f:"1761-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"2000-12-31",d:"kanada",kaynak:"The Canadian Encyclopedia 'Madawaska' (https://thecanadianencyclopedia.ca/en/article/madawaska): 'The dispute was finally resolved in 1842 with the Webster-Ashburton Treaty. Accordingly, the disputed area was divided at the Saint John with the river acting as the boundary' · 'Madawaskans living north of the river remained British' · New Brunswick 1867-07-01 Konfederasyonu · ESKİ 1923-10-29 abd dönemi kaynaksızdı, silindi (KUTU-VERI-1015 C)"}],
+    kaynak:"The Canadian Encyclopedia 'Madawaska': 'It was the name of a river the flowed into the Saint John where the first residents of the valley (Aboriginal and European) settled' · TCE 'Edmundston': 'nestled on the eastern bank of the Saint John River, opposite Madawaska, Maine'; 'Initially called Petit-Sault' · koordinat GeoNames Edmundston (47.3737/-68.3251)",
+    not:"dayanak: HNAI c.15 Northeast (Smithsonian) · KUTU-VERI-1015 C: 1761-1763 fransa dönemi bu işte SINANMADI (künye maliseet t:1761 ile hizalı) · güney yaka (Maine) için ABD noktası YOK — kuzey Aroostook bu peteğe kalıyor, 8a taşması 'nokta eksik' sınıfına geçer, ikiz-nokta ayrı karar" },
   { ad:"Knife River (Hidatsa köyleri)", tur:"sehir", lat:47.333, lon:-101.383, g:0,
     s:[{f:"1281-01-01",t:"1851-09-17",d:"hidatsa"},{f:"1851-09-17",t:"2000-12-31",d:"abd"}],
     kaynak:"bulunamadı", not:"dayanak: HNAI c.13 Plains (Smithsonian)" },
@@ -3028,10 +3045,20 @@ window.YERLESIMLER_KAMERIKA = [
   { ad:"Keweenaw (Ojibwe bakır yatakları)", tur:"sehir", lat:46.54, lon:-87.4, g:0,
     s:[{f:"1281-01-01",t:"1842-10-04",d:"ojibwe",kaynak:"La Pointe Antlaşması 4.10.1842 (7 Stat. 591, ilan 23.03.1843) — Ojibwe arazi devri; atlas yerli toprağı emsali (Wayám 1855 · Klamath 1864): yerli siyaset devir antlaşmasına dek · ESKİ uç 1850-09-07 = `ojibwe` künye sonu, ÖDÜNÇ UÇTU (KASA-ABD-1010)"},{f:"1842-10-04",t:"2000-12-31",d:"abd",kaynak:"La Pointe 4.10.1842 devri · ABD egemenliği 1783 Paris sınırıyla (hat Isle Royale'in kuzeyinden) — İngiliz Mackinac garnizonu 1.09.1796 ayrıldı · ESKİ 'ingiliz-kuzey-amerika 1850 → kanada 1867' TAMAMEN YANLIŞTI (KASA-ABD-1010)"}],
     kaynak:"bulunamadı", not:"Yerli bakır madenciliği ve ticareti · dayanak: HNAI c.15 Northeast (Smithsonian)" },
-  { ad:"Sault Ste. Marie", tur:"sehir", lat:46.5, lon:-84.35, g:0,
+  // KUTU-VERI-1015 C: Sault Ste. Marie İKİ şehirdir — St. Marys nehri ayırır (D8A-SINIF-1015 §2, K_karsi 15 birim).
+  //   Bu kayıt 1668 misyonunun (Michigan) şehridir; nokta GeoNames ABD şehir merkezine çekildi (46.5/-84.35 → 46.4953/-84.3453).
+  //   ESKİ dönemler (1867 kanada · 1923 abd "Alaska siniri") YANLIŞTI: güney yaka 1783 Paris Antl. md. II ile ABD'ye kaldı.
+  { ad:"Sault Ste. Marie", ikiz:"Sault Ste. Marie (Ontario)", tur:"sehir", lat:46.4953, lon:-84.3453, g:0,
     kur:"1668-01-01",
-    s:[{f:"1668-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"},{f:"1923-10-29",t:"2000-12-31",d:"abd",kaynak:"Britannica: United States; Alaska siniri 1903/1908"}],
-    kaynak:"bulunamadı", not:"dayanak: Dictionary of Canadian Biography" },
+    s:[{f:"1668-01-01",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1783-09-03",d:"ingiliz-kuzey-amerika"},{f:"1783-09-03",t:"2000-12-31",d:"abd",kaynak:"1783 Paris Antlaşması md. II (Avalon, https://avalon.law.yale.edu/18th_century/paris.asp): 'thence through the middle of said lake to the water communication between that lake and Lake Superior' — hat St. Marys nehrinin ortasından ⇒ güney yaka de jure ABD · atlas emsali Michilimackinac/Chequamegon 1783-09-03 (İngiliz fiilî kalışı isg yazılmadı, Duluth/Keweenaw emsali) · ESKİ 1867 kanada / 1923 abd dönemleri yanlıştı (KUTU-VERI-1015 C)"}],
+    kaynak:"Britannica 'Sault Sainte Marie (Michigan)' https://www.britannica.com/place/Sault-Sainte-Marie-Michigan — 'Jacques Marquette founded a mission there in 1668' (olaylar_2s_0919.js 1668 maddesinde aynen) · koordinat GeoNames (Sault Ste. Marie, Michigan, 46.4953/-84.3453) · ikiz: karşı yakadaki Ontario şehri AYRI yerleşimdir (Parks Canada: NWC kuzey yaka karakolu 1797)",
+    not:"dayanak: Dictionary of Canadian Biography" },
+  { ad:"Sault Ste. Marie (Ontario)", ikiz:"Sault Ste. Marie", tur:"sehir", lat:46.5063, lon:-84.3362, g:0,
+    kur:"1797-01-01",
+    s:[{f:"1797-01-01",t:"1867-07-01",d:"ingiliz-kuzey-amerika",kaynak:"Parks Canada, Sault Ste. Marie Canal NHS — History (https://parks.canada.ca/lhn-nhs/on/ssmarie/culture/histoire-history): 'In 1797, the North West Company established a trading post on the north side of the rapids and in 1798 built a small lock.' · kuzey yaka 1783 Paris md. II ile İngiliz (Avalon paris.asp)"},{f:"1867-07-01",t:"2000-12-31",d:"kanada",kaynak:"Ontario 1867 Konfederasyonu (atlas Michipicoten/Fort Témiscamingue emsali 1867-07-01)"}],
+    kaynak:"Parks Canada Sault Ste. Marie Canal NHS History · koordinat GeoNames (Sault Ste. Marie, Ontario, 46.5168/-84.3333) · ikiz: Michigan yakasındaki 1668 misyon şehri AYRI yerleşimdir, nehir (1783 Paris md. II hattı) ayırır",
+    kesinlik:"yil",
+    neden:"kur: KURULUŞ DEĞİL, İLK YAZILI TANIK — görünme için ALT SINIR (Şırnak kalıbı, VERI-YAPISI): Parks Canada kuzey yakadaki NWC karakolunu 1797'ye tarihler; kuzey yakada daha eski iskân kaynakta DIŞLANMIYOR. Gün yok ⇒ 1797-01-01 (YIL). KUTU-VERI-1015 C — D8A-SINIF-1015 §2 Sault Ste. Marie ikiz-nokta işi" },
   { ad:"Fort Abercrombie (Kızıl Irmak vadisi)", tur:"kale", lat:46.45, lon:-96.72, g:0,
     kur:"1858-01-01",
     s:[{f:"1858-01-01",t:"2000-12-31",d:"abd"}],
