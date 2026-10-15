@@ -2041,7 +2041,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Dzata (Venda)", tur:"sehir", lat:-22.9600, lon:30.1500, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1898-01-01",d:"venda"},
-     {f:"1898-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1898-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Şoşong (Shoshong)", tur:"sehir", lat:-23.0300, lon:26.5000, g:0, k:0,
@@ -2053,7 +2053,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Luis Trichardt", tur:"sehir", lat:-23.0500, lon:29.9000, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1898-01-01",d:"venda"},
-     {f:"1898-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1898-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Rehoboth", tur:"sehir", lat:-23.3200, lon:17.0800, g:0, k:0,
@@ -2117,7 +2117,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Tjate (Pedi)", tur:"sehir", lat:-24.7000, lon:30.0500, g:0, k:0,
   kur:"1650-01-01",
   s:[{f:"1650-01-01",t:"1879-12-02",d:"pedi"},
-     {f:"1879-12-02",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1879-12-02",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Kanye (Ngvaketse)", tur:"sehir", lat:-24.9800, lon:25.3400, g:0, k:0,
@@ -2140,7 +2140,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Mafikeng", tur:"sehir", lat:-25.8600, lon:25.6400, g:0, k:0,
   kur:"1885-01-01",
-  s:[{f:"1885-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1885-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Lourenço Marques", tur:"sehir", lat:-25.9693, lon:32.5800, g:0, k:0,
@@ -2183,34 +2183,34 @@ window.YERLESIMLER_AFRIKA2 = [
   kur:"1838-11-01",
   s:[{f:"1838-11-01",t:"1852-01-17",d:"ingiltere"},
      {f:"1852-01-17",t:"1902-05-31",d:"transvaal"},
-     {f:"1902-05-31",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1902-05-31",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Vryburg", tur:"sehir", lat:-26.9500, lon:24.7300, g:0, k:0,
   kur:"1882-08-06",
-  s:[{f:"1882-08-06",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1882-08-06",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kuruman", tur:"sehir", lat:-27.4500, lon:23.4300, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1885-03-31",d:"tsvana"},
-     {f:"1885-03-31",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1885-03-31",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Nevkasl (Newcastle)", tur:"sehir", lat:-27.7600, lon:29.9300, g:0, k:0,
   kur:"1864-01-01",
-  s:[{f:"1864-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1864-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Postmasburg", tur:"sehir", lat:-28.3300, lon:23.0700, g:0, k:0,
   kur:"1892-01-01",
-  s:[{f:"1892-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1892-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Umgungundlovu", tur:"sehir", lat:-28.4200, lon:31.2800, g:0, k:0,
   kur:"1829-01-01",
   s:[{f:"1829-01-01",t:"1879-07-04",d:"zulu-kralligi"},
-     {f:"1879-07-04",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1879-07-04",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Varmbad (Warmbad)", tur:"sehir", lat:-28.4500, lon:18.7400, g:0, k:0,
@@ -2221,23 +2221,23 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Upington", tur:"sehir", lat:-28.4500, lon:21.2400, g:0, k:0,
   kur:"1884-01-01",
-  s:[{f:"1884-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1884-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kimberley", tur:"sehir", lat:-28.7400, lon:24.7700, g:0, k:0,
   kur:"1871-07-16",
-  s:[{f:"1871-07-16",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1871-07-16",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Griquatown", tur:"sehir", lat:-28.8500, lon:23.2600, g:0, k:0,
   kur:"1804-01-01",
   s:[{f:"1804-01-01",t:"1878-01-01",d:"griqua"},
-     {f:"1878-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1878-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Pofadder", tur:"sehir", lat:-29.1300, lon:19.4000, g:0, k:0,
   kur:"1875-01-01",
-  s:[{f:"1875-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1875-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Maseru", tur:"sehir", lat:-29.3100, lon:27.4800, g:0, k:0,
@@ -2248,7 +2248,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kenhardt", tur:"sehir", lat:-29.3500, lon:21.1500, g:0, k:0,
   kur:"1868-01-01",
-  s:[{f:"1868-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1868-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Thaba Bosiu", tur:"sehir", lat:-29.3500, lon:27.7500, g:0, k:0,
@@ -2259,97 +2259,97 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Pietermaritzburg", tur:"sehir", lat:-29.6000, lon:30.3800, g:0, k:0,
   kur:"1838-10-01",
-  s:[{f:"1838-10-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1838-10-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Springbok", tur:"sehir", lat:-29.6600, lon:17.8900, g:0, k:0,
   kur:"1852-01-01",
-  s:[{f:"1852-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1852-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Prieska", tur:"sehir", lat:-29.6700, lon:22.7500, g:0, k:0,
   kur:"1878-01-01",
-  s:[{f:"1878-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1878-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Durban", tur:"sehir", lat:-29.8600, lon:31.0200, g:0, k:0,
   kur:"1824-06-01",
-  s:[{f:"1824-06-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1824-06-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Philippolis", tur:"sehir", lat:-30.2700, lon:25.2800, g:0, k:0,
   kur:"1804-01-01",
   s:[{f:"1804-01-01",t:"1878-01-01",d:"griqua"},
-     {f:"1878-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1878-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Kokstad", tur:"sehir", lat:-30.5500, lon:29.4200, g:0, k:0,
   kur:"1863-01-01",
   s:[{f:"1863-01-01",t:"1874-01-01",d:"ingiltere"},
-     {f:"1874-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1874-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Colesberg", tur:"sehir", lat:-30.7200, lon:25.1000, g:0, k:0,
   kur:"1830-01-01",
-  s:[{f:"1830-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1830-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kalvinia", tur:"sehir", lat:-31.4700, lon:19.7800, g:0, k:0,
   kur:"1847-01-01",
-  s:[{f:"1847-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1847-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Umtata", tur:"sehir", lat:-31.5900, lon:28.7900, g:0, k:0,
   kur:"1882-01-01",
-  s:[{f:"1882-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1882-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Graaff-Reinet", tur:"sehir", lat:-32.2500, lon:24.5300, g:0, k:0,
   kur:"1786-01-01",
   s:[{f:"1786-01-01",t:"1806-01-18",d:"hollanda"},
-     {f:"1806-01-18",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1806-01-18",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Gcuva (Butterworth)", tur:"sehir", lat:-32.3300, lon:28.1500, g:0, k:0,
   s:[{f:"1281-01-01",t:"1878-01-01",d:"xhosa"},
-     {f:"1878-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1878-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — Gcaleka Xhosa'sının büyük yeri bu havzada; Butterworth misyonu 1827'de aynı yere kuruldu. 1281 XHOSA YERLEŞİMİNİN atlas ufkudur, KASABA tarihi DEĞİL" },
 
 { ad:"Beaufort West", tur:"sehir", lat:-32.3500, lon:22.5800, g:0, k:0,
   kur:"1818-01-01",
-  s:[{f:"1818-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1818-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"King William's Town", tur:"sehir", lat:-32.8800, lon:27.4000, g:0, k:0,
   kur:"1835-05-24",
-  s:[{f:"1835-05-24",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1835-05-24",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"East London", tur:"sehir", lat:-33.0177, lon:27.9088, g:0, k:0,
   kur:"1847-01-01",
-  s:[{f:"1847-01-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1847-01-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Grahamstown", tur:"sehir", lat:-33.3000, lon:26.5300, g:0, k:0,
   kur:"1812-08-14",
-  s:[{f:"1812-08-14",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1812-08-14",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Stellenbosch", tur:"sehir", lat:-33.9300, lon:18.8600, g:0, k:0,
   kur:"1679-11-08",
   s:[{f:"1679-11-08",t:"1806-01-18",d:"hollanda"},
-     {f:"1806-01-18",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1806-01-18",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Port Elizabeth", tur:"sehir", lat:-33.9600, lon:25.6000, g:0, k:0,
   kur:"1820-06-01",
-  s:[{f:"1820-06-01",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1820-06-01",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Svellendam", tur:"sehir", lat:-34.0200, lon:20.4400, g:0, k:0,
   kur:"1745-01-01",
   s:[{f:"1745-01-01",t:"1806-01-18",d:"hollanda"},
-     {f:"1806-01-18",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1806-01-18",t:"1910-05-31",d:"ingiltere"},{f:"1910-05-31",t:"1961-05-31",d:"guney-afrika-birligi",kaynak:"KARAR-UYG-1015 (Emre #13): Birlik'e geçiş 1910-05-31 — South Africa Act 1909; Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909): 'the thirty-first day of May, one thousand nine hundred and ten' · TDV guney-afrika-cumhuriyeti (1910, YIL) · künye guney-afrika-birligi f ile hizalı · eski 1923-10-29 pencere ucuydu, ölçüm değil (D210) · sonraki kaynak: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1961-05-31",t:"2000-12-31",d:"guney-afrika-cumhuriyeti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 
