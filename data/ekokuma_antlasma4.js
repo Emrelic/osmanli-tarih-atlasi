@@ -777,7 +777,7 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"Karar 1829-1832 arasındaki görüşme ve protokollerle uygulamaya kondu. Yeni devletin merkezi 1833'e kadar Anabolu'ydu, sonra Atina'ya taşındı ve eski Yunanistan'a atıfla Hellas adını aldı. TDV'ye göre bağımsız Yunan devleti, Osmanlı idaresindeki yaklaşık 2 milyonluk Rum nüfusun yarısından azını içeriyordu. Mora'daki Müslümanlar isyanın başında büyük kayıplar vermiş (Tripoliçe), İbrâhim Paşa'nın çekilmesinden sonra geride kalanlar da yok edilmişti.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1827-07-06|Londra Antlaşması","1830-02-03|Londra Protokolü", "1829-04-01|İnebahtı", "1833-03-31|Atina", "1830-02|Yunanistan'ın bağımsızlığı"],
+  olay:["1827-07-06|Londra Antlaşması","1830-02-03|Londra Protokolü", "1829-04-01|İnebahtı", "1833-03-31|Atina"],
   kaynak:"TDV: yunanistan (Sakız yankısı, 4 Nisan 1826 Petersburg, 6 Temmuz 1827 Londra, Müslümanların çıkarılması maddesi ve değerlendirmesi, Navarin, 1828-1830, Anabolu-Atina, nüfus, Tripoliçe) · TDV: navarin (20 Ekim 1827 baskını, kayıplar) · TDV: mahmud-ii--osmanli (Navarin, Rus savaşı)",
   ic_not:"OKUR METNİNDEN TAŞINDI: protokolün öteki maddeleri TDV'de okunmadı. Osmanlı iki metnin de TARAFI DEĞİL (D111 yazılı madde için geçerli; burada var olan iki çekirdek maddeye kart bağlandı, yeni madde yazılmadı). TDV yunanistan 1827 metnine de 'Londra Protokolü' diyor; çekirdek 1827 maddesi 'Londra Antlaşması', 1830 maddesi 'Londra Protokolü'. 1830 protokolünün gününü (3 Şubat) TDV vermiyor; yalnız 'Osmanlı 1830'da tanımak zorunda kaldı'. Kartın `sonuc.t`i maddenin gününü taşıyor — kaynağı madde dosyası." },
 
