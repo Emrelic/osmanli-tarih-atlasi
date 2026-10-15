@@ -1377,4 +1377,62 @@ window.SAVAS_KUNYE_3 = [
     { ad:"İtilâf Devletleri (İngiltere, Fransa, Rusya, Sırbistan, İtalya, Romanya, ABD, Yunanistan, Japonya)", komutan:"General Joffre · General Foch (17 Nisan 1918'den İtilâf başkumandanı) · General Pétain · General Brusilov · General Allenby", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"bilinmiyor", kayip:"İngiltere ve müttefikleri toplam 5.152.115 ölü (TDV birinci-dunya-savasi)", notlar:"Brusilov taarruzunda (1916) Rus kayıpları 1.400.000'i buldu; Eylül 1918 Makedonya taarruzunda İtilâf ordusu 770.000 kişi. Rusya 3 Mart 1918 Brest-Litovsk ile çekildi; ABD 6 Nisan 1917'de katıldı. Şerif Hüseyin 27 Haziran 1916'da Osmanlı'ya karşı ayaklandı." }
   ],
   kaynak:"TDV: birinci-dunya-savasi (DİA 6, 1992, s. 196-200) · TDV: enver-pasa (DİA 11, 1995, s. 261-264)" },
+
+{ id:"kunye-sufiyan-1605", savas_ad:null, savas_t:"1605-11-06", tur:"meydan",
+  baslik:"Sûfiyân (Urmiye) Savaşı (6 Kasım 1605)",
+  tarih_metin:"TDV cigalazade-sinan-pasa: 1604'te yeniden İran seferine memur; Urmiye gölü civarında büyük bozgun (gün/ay verilmiyor). TDV ahmed-i: 1605 sefer mevsiminde. TDV abbas-i: Selmâs yakınlarında yenilgi.",
+  celiski:"TDV gün vermiyor; yer konusunda TDV maddeleri ayrışıyor: cigalazade-sinan-pasa 'Urmiye gölü civarı', abbas-i 'Selmâs yakınları', safeviler (1. bölüm) 'Tebriz'de'. Atlas kronolojisi: 1605-11-06 (Sûfiyân).",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Cigalazâde Sinan Paşa (şark serdarı) · Köse Sefer Paşa (Erzurum beylerbeyi; ana ordudan ayrı hareket edip esir düştü)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"30.000 kayıp ve çok sayıda esir (TDV cigalazade-sinan-pasa)", notlar:"Ordu Şah Abbas'ın âni baskını üzerine Van'a, oradan Diyarbekir'e çekildi (TDV ahmed-i). Kayıp rakamı yalnız cigalazade-sinan-pasa'da; kimin tahmini olduğu yazılmıyor." },
+    { ad:"Safevî ordusu", devlet_id:"safevi", komutan:"Şah I. Abbas", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"TDV abbas-i ve safeviler Abbas'ın Cigalazâde'yi yendiğini yazar; Safevî kuvvet sayısı verilmiyor." }
+  ],
+  kaynak:"TDV: cigalazade-sinan-pasa (DİA 7, 1993, s. 525-526) · TDV: ahmed-i (DİA 2, 1989, s. 30-33) · TDV: abbas-i (DİA 1, 1988, s. 17-19) · TDV: safeviler (DİA 35, 2008, s. 451-457)" },
+
+{ id:"kunye-revan-1616", savas_ad:null, savas_t:"1616-09-12", tur:"kusatma",
+  baslik:"Revan Kuşatması (12 Eylül 1616)",
+  tarih_metin:"TDV revan: 29 Şâban 1025 (11 Eylül 1616) kuşatıldı, elli beş gün sonra kaldırıldı. TDV mehmed-pasa-damad: Revan önlerine varış Ramazan 1025 / Eylül 1616; kuşatma 55 gün.",
+  celiski:"TDV revan: kuşatma başlangıcı 29 Şâban 1025 = 11 Eylül 1616; atlas kronolojisi: 1616-09-12 (bir gün fark).",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Vezîriâzam Öküz (Damad) Mehmed Paşa · Yeniçeri ağası Muslu Ağa · Tekeli Mehmed Paşa", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"Muslu Ağa ve Tekeli Mehmed Paşa şehid düştü (TDV mehmed-pasa-damad); toplam kayıp bilinmiyor", notlar:"Ordu Maraş, Halep, Trablus, Adana, Anadolu, Rumeli, Diyarbekir ve Erzurum askerlerinden oluşan 'büyük bir ordu' olarak anılır, sayı verilmez. Muslu Ağa'nın görüşüyle ağır toplar getirilmediği için muhasara malzemesi eksik kaldı (TDV mehmed-pasa-damad; ahmed-i: orduda muhasara topu yoktu). Kuşatma mevsim ve isteksizlik yüzünden kaldırıldı, ordu Erzurum'a çekildi." },
+    { ad:"Safevî garnizonu (Revan)", devlet_id:"safevi", komutan:"Emirgûne Han (kale savunucusu)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"TDV ahmed-i Mâzenderan askerlerinin şiddetli direnişini anar; sayı yok." }
+  ],
+  kaynak:"TDV: revan (DİA 35, 2008, s. 26-29) · TDV: mehmed-pasa-damad (DİA 28, 2003, s. 504-505) · TDV: ahmed-i (DİA 2, 1989, s. 30-33)" },
+
+{ id:"kunye-serav-1618", savas_ad:null, savas_t:"1618-09-10", tur:"meydan",
+  baslik:"Serav (Pul-i Şikeste) Savaşı (10 Eylül 1618)",
+  tarih_metin:"TDV halil-pasa-kayserili: 10 Eylül 1618'de Osmanlı ordusu Erdebil yakınlarında yenildi. TDV osman-ii: 20 Ramazan 1027 (10 Eylül 1618).",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Sadrazam Kayserili Halil Paşa (serdâr-ı ekrem; çarpışmada bizzat bulunup bulunmadığını TDV yazmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"TDV yer olarak 'Erdebil yakınları' der; 'Serav/Pul-i Şikeste' adı savaş için geçmez, yalnız ardından imzalanan Serav Muahedesi (29 Eylül 1618 tasdik) anılır. Osman II maddesine göre yenilgiden sonra Halil Paşa Erdebil'e yürümeye karar verince Safevîler sulh istedi. TDV tebriz: Halil Paşa 1618'de kısa süre Tebriz'e hâkim oldu." },
+    { ad:"Safevî ordusu", devlet_id:"safevi", komutan:"bulunamadı (TDV halil-pasa-kayserili, osman-ii, abbas-i anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok" }
+  ],
+  kaynak:"TDV: halil-pasa-kayserili (DİA 15, 1997, s. 324-326) · TDV: osman-ii (DİA 33, 2007, s. 453-456) · TDV: tebriz" },
+
+{ id:"kunye-ducum-1733", savas_ad:null, savas_t:"1733-07-19", tur:"meydan",
+  baslik:"Dücum Savaşı (19 Temmuz 1733)",
+  tarih_metin:"TDV topal-osman-pasa--sadrazam: Sâmerrâ civarında Dücum'da, 19 Temmuz 1733. TDV nadir-sah--iran: 7 Safer 1146 / 20 Temmuz 1733. TDV bagdat: 20 Temmuz 1733.",
+  celiski:"TDV topal-osman-pasa--sadrazam 19 Temmuz 1733 (atlasla aynı); TDV nadir-sah--iran (7 Safer 1146) ve bagdat 20 Temmuz 1733 der.",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Topal Osman Paşa (Musul seraskeri) · Bağdat Valisi Ahmed Paşa (kuşatılan Bağdat'ın savunucusu)", mevcut_toplam:"100.000 (diğer rivayet 200.000 civarı)", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"Sayı TDV topal-osman-pasa--sadrazam'dan: Anadolu ve Karaman eyaletleri askerleri ile Arap ve Kürt aşiretlerinden oluşan ve Diyarbekir'den Musul'a yürüyen kuvvet (savaş öncesi sefer mevcudu; iki rivayet). Hasta Osman Paşa sedyeyle taşındı, iki kez savaşa bizzat girdi (Nikodin mektubu, Hammer üzerinden). Ahmed Paşa Bağdat'ı yedi ay savundu (TDV bagdat)." },
+    { ad:"Nâdir (Tahmasb Kulı Han) kumandasındaki İran ordusu", devlet_id:"safevi", komutan:"Nâdir Ali Han (Tahmasb Kulı Han)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"Nâdir yaralı olarak kaçtı; sayı yok", notlar:"devlet_id: TDV nadir-sah--iran'a göre Nâdir 7 Eylül 1732'de II. Tahmasb'ı indirip Safevî III. Abbas adına 'vekîlü'd-devle' olarak yönetiyordu; şahlığını 1736'da ilan etti. Yani 1733'te devlet resmen Safevî idi — Afşar sayılırsa devlet_id silinmeli. Ardından Rakka Valisi Polad Ahmed Paşa 25.000 kişiyle Nâdir'i takibe gönderildi (savaştan sonraki kuvvet)." }
+  ],
+  kaynak:"TDV: topal-osman-pasa--sadrazam (DİA 41, 2012, s. 244-246) · TDV: nadir-sah--iran (DİA 32, 2006, s. 276-277) · TDV: bagdat (DİA 4, 1991, s. 433-437) · TDV: mahmud-i--osmanli (DİA 27, 2003, s. 348-352)" },
+
+{ id:"kunye-kars-1744", savas_ad:null, savas_t:"1744-07-29", tur:"kusatma",
+  baslik:"Kars Kuşatması (29 Temmuz 1744)",
+  tarih_metin:"TDV nadir-sah--iran: 18 Cemâziyelâhir 1157 / 29 Temmuz 1744 kuşattı, iki ay sürdü, sonuç alamadı. TDV kars: 1157 (1744). TDV mahmud-i--osmanli: mücadeleler 4 Zilkade 1157 (9 Aralık 1744) tarihine kadar sürdü.",
+  taraflar:[
+    { ad:"Osmanlı (Kars savunması)", devlet_id:"osmanli", komutan:"bulunamadı (TDV kars, nadir-sah--iran, mahmud-i--osmanli kale komutanını anmıyor)", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"TDV mehmed-pasa-yegen, kuşatmadan önceki dönemde (1742-1744) Bosna'dan 'Kars Seraskeri Hacı Ahmed Paşa'yı takviye için 1000 süvari istendiğini yazar; Hacı Ahmed Paşa'nın kuşatmadaki rolü açıkça yazılmadığı için komutan olarak yazılmadı. mahmud-i: Kars önlerindeki savaştan kesin sonuç alınamadı." },
+    { ad:"Nâdir Şah ordusu (İran)", komutan:"Nâdir Şah", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"Afşar dönemi; devlet_id yazılmadı. Sefer, Osmanlılar'ın Safevî şehzadesi Sâfî Mirza'yı İran tahtına aday göstermesine karşılıktır (TDV nadir-sah--iran)." }
+  ],
+  kaynak:"TDV: nadir-sah--iran (DİA 32, 2006, s. 276-277) · TDV: kars (DİA 24, 2001, s. 515-518) · TDV: mahmud-i--osmanli (DİA 27, 2003, s. 348-352) · TDV: mehmed-pasa-yegen (DİA EK-2, 2019, s. 230-232)" },
+
+{ id:"kunye-kagaverd-1745", savas_ad:null, savas_t:"1745-08-21", tur:"meydan",
+  baslik:"Kağaverd Savaşı (21 Ağustos 1745)",
+  tarih_metin:"TDV nadir-sah--iran: 23 Receb 1158 (21 Ağustos 1745) Kağaverd mevkii. TDV mehmed-pasa-yegen: Temmuz–Ağustos 1745, Revan civarında Kağaverd ovası.",
+  celiski:"TDV mehmed-pasa-yegen: Yeğen Mehmed Paşa savaşı kazanmak üzereyken hastalanıp Hammer'e göre 16 Receb 1158 (14 Ağustos 1745) öldü — yani nadir-sah--iran'ın verdiği 21 Ağustos'tan önce. Atlas kronolojisi 1745-08-21 nadir-sah--iran ile uyumlu.",
+  taraflar:[
+    { ad:"Osmanlı ordusu", devlet_id:"osmanli", komutan:"Yeğen Mehmed Paşa (Anadolu valisi, Kars cephesi seraskeri)", mevcut_toplam:130000, piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", kayip:"Komutan Yeğen Mehmed Paşa hastalanıp öldü; ölümü askerin dağılmasına yol açtı (TDV mahmud-i--osmanli); sayı yok", notlar:"130.000, TDV mehmed-pasa-yegen'de emri altındaki kuvvet (Bosna, Sırbistan ve Arnavutluk askerleri dahil); savaş öncesi mevcut. Yenilgide leventler üzerindeki rakiplerin dahli ima edilir (Dilâverzâde). Naaşı Kars'a gömüldü." },
+    { ad:"Nâdir Şah ordusu (İran)", komutan:"Nâdir Şah", mevcut_toplam:"bilinmiyor", piyade:"bilinmiyor", suvari:"bilinmiyor", top:"bilinmiyor", tufek:"bilinmiyor", gemi:"yok", notlar:"Afşar dönemi; devlet_id yazılmadı." }
+  ],
+  kaynak:"TDV: nadir-sah--iran (DİA 32, 2006, s. 276-277) · TDV: mehmed-pasa-yegen (DİA EK-2, 2019, s. 230-232) · TDV: mahmud-i--osmanli (DİA 27, 2003, s. 348-352)" },
 ];
