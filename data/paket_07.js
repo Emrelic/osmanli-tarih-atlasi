@@ -841,7 +841,7 @@ window.KRONOLOJI_KIRIM = [
   yer_id:"",
   d:"Rus işgali karşısında Kırım halkından bir kısmı, durumu bildirip yardım isteyen dilekçeleri (mahzar) İstanbul'a gönderdi; ancak Osmanlı Devleti bu aşamada askerî müdahale gücünden yoksundu.",
   kaynak:"kirim (TDV)", kapsam_genis:true },
-{ t:"1783-04-19", b:"II. Katerina'nın manifestosuyla Rusya Kırım'ı, Taman'ı ve Kuban'ı ilhak etti — Kırım Hanlığı sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis",
+{ t:"1783-04-19", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1783-04-08 (Kırım'ın ilhakı; TDV kirim '8 Nisan 1783', eski takvim) = Gregoryen 1783-04-19", b:"II. Katerina'nın manifestosuyla Rusya Kırım'ı, Taman'ı ve Kuban'ı ilhak etti — Kırım Hanlığı sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis",
   etiket:["siyaset","toprak-kayip","konu-askeri","konu-siyasi"],
   yer_id:"Bahçesaray",
   d:"II. Katerina'nın ilhak manifestosuyla 342 yıllık Kırım Hanlığı resmen sona erdi; Şâhin Giray unvanından feragate zorlandı. (Kaynaklarda 8 Nisan 1783 olarak da geçer — Julian takvim karşılığıdır, 18. yüzyılda fark 11 gündür; burada Gregoryen tarih kullanılır.)",
