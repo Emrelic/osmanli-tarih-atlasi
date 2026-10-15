@@ -2513,9 +2513,10 @@ window.YERLESIMLER_ASYA = [
 { ad:"Lhasa", tur:"sehir", lat:29.6520, lon:91.1720, g:2, k:1,kd:[{f:"1642-01-01",t:"1923-10-29",k:1,m:"Lhasa"}], d:[],
   s:[{f:"1281-01-01", t:"1354-01-01", d:"yuan-hanedani"},
      {f:"1354-01-01", t:"1642-01-01", d:"tibet"},
-     {f:"1642-01-01", t:"1720-01-01", d:"tibet-ganden-phodrang"},
-     {f:"1720-01-01", t:"1912-02-12", d:"qing-hanedani"},
-     {f:"1912-02-12", t:"1951-05-23", d:"tibet-ganden-phodrang"},{f:"1951-05-23",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Onyedi Madde Antlaşması 1951-05-23 (Origins/Ohio State; Columbia Univ. Tibet-Potomac); PLA Lhasa'ya 1951-09-09"}] },
+     {f:"1642-01-01", t:"1720-09-24", d:"tibet-ganden-phodrang"},
+     {f:"1720-09-24", t:"1912-02-12", d:"qing-hanedani",kaynak:"KUTU-VERI-1015 (0086/H-0006): L. Petech, China and Tibet in the Early XVIIIth Century (2. bs., Leiden: Brill 1972) — archive.org tam metin (https://archive.org/details/china-and-tibet-in-the-early-18th-century-history-of-the-establishment-of-chines), s. 68: 'Galbi's forces reached Lhasa, which they occupied on 23/VIII = September 24th' — eski uç 1720-01-01 yalnız yıldı"},
+     {f:"1912-02-12", t:"1951-05-23", d:"tibet-ganden-phodrang"},{f:"1951-05-23",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Onyedi Madde Antlaşması 1951-05-23 (Origins/Ohio State; Columbia Univ. Tibet-Potomac); PLA Lhasa'ya 1951-09-09"}],
+  isg:[{f:"1717-11-30",t:"1720-09-24",d:"cungar",kaynak:"KUTU-VERI-1015 (0086/H-0006): L. Petech, China and Tibet in the Early XVIIIth Century (2. bs., Leiden: Brill 1972) — archive.org tam metin (https://archive.org/details/china-and-tibet-in-the-early-18th-century-history-of-the-establishment-of-chines) — giriş: 'after midnight on the 30th of November 1717 the Dsungars attacked Lhasa on all sides' (şehir aynı gece düştü, Lajang Khan öldürüldü, kukla hükûmet sTag-rtse-pa) · çıkış: s. 68 Qing ordusunun 24 Eylül 1720 girişi. Yalnız LHASA için yazıldı: Petech Şigatse'nin Pançen tarafından savunulduğunu, Cungar baskınının geri püskürtüldüğünü aktarır ⇒ işgal Şigatse/Gyantse'ye TAŞINMADI"}] },
 
 // Şigatse — Tsangpa hânedanının başkenti (1565-1642) ve Pançen Lama'nın
 // makamı Taşilhunpo'nun şehri.
