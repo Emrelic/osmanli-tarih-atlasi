@@ -2,7 +2,8 @@
 // SEFERLER_P0077 — SEFER-OK-0077 oturumu, 27 Eylül 2026 · PAKET-0077
 // Konu: Birinci Dünya Savaşı harekât okları — H-0016 Karadeniz Baskını · H-0018
 // Sarıkamış · H-0019 Birinci Kanal Harekâtı · H-0044 Kafkasya 1918 ilerleyişi.
-// (H-0047 Mondros sonrası: OK YAZILMADI — gerekçesi denetim/SEFER-OK-0077.md.)
+// (H-0047 Mondros sonrası: 27 Eyl'de yazılmamıştı — denetim/SEFER-OK-0077.md; KUTU27-1016'da
+//  kaynağı ADIYLA çıkış veren 4 ok eklendi, dosya sonunda.)
 //
 // OKUYUCU: js/app.js seferKayitlariniTopla() — /^SEFERLER(_[A-Za-z0-9_]+)?$/ deseni.
 // AD ALANI (§7): data/seferler_p0077.js → window.SEFERLER_P0077.
@@ -178,6 +179,55 @@ window.SEFERLER_P0077 = [
   kaynak:"mustafa-kemal-ataturk (TDV): \"İzmir'in işgal edildiğinin ertesi günü maiyetindeki on yedi subayla birlikte Bandırma vapuruyla İstanbul'dan hareket eden Mustafa Kemal 19 Mayıs 1919 sabahı Samsun'a ulaştı.\" · samsun (TDV): \"Mustafa Kemal Paşa'nın maiyetiyle 19 Mayıs 1919'da Millî Mücadele'yi başlatmak üzere Samsun'a çıkışı\"",
   kesinlik:"İSTASYON yalnız iki uç (İstanbul, Samsun) + Boğaz ağzı (coğrafî zorunluluk). Ara uğraklar kaynakta yok; rota şematik kıyı açığı hattı.",
   yol:[[28.980,41.008],[29.15,41.25],[36.331,41.286]],
-  rota:[[28.98,41.008],[29.15,41.25],[33.515,42.075],[35.075,42.135],[36.155,41.685],[36.331,41.286]] }
+  rota:[[28.98,41.008],[29.15,41.25],[33.515,42.075],[35.075,42.135],[36.155,41.685],[36.331,41.286]] },
+
+// ───────── H-0047 · MONDROS SONRASI İTİLAF İŞGAL OKLARI (KUTU27-1016) ─────────
+// SEFER-OK-0077 §3 "çıkış yeri kaynakta yok" diye yazmamıştı. KAYNAK-1015/G5 çıkış
+// cümlelerini buldu; KUTU27-1016 her cümleyi PDF/TDV gövdesinden YENİDEN OKUDU (16 Ekim 2026).
+// Yalnız kaynağın ADIYLA verdiği çıkış yeri çizildi. YAZILMAYANLAR: Birecik→Urfa
+// (Can ch03 s.71 yalnız SIRA veriyor: "sırasıyla 15 Ocak 1919'da Antep'i, 22 Şubat
+// 1919'da Maraş'ı, 27 Şubat 1919'da Birecik" — güzergâh cümlesi değil, Emre kararı
+// bekliyor) · İstanbul/Çanakkale · Batum · Kars · Maraş (çıkış yeri bulunamadı).
+// ⚠️ ÇELİŞKİ (aynı yazar): Can ch03 s.71 Antep'in İngiliz işgalini 15 Ocak 1919'a,
+// Can ch05 s.139/141 ve TDV gaziantep 17 Aralık 1918'e koyuyor — TDV esas alındı.
+// Uçlar atlasın yerleşim noktaları (Halep, Antep, Adana, Urfa, Bağdat, Musul,
+// İskenderun); İskenderun deniz ucu ŞEMATİK (körfezde kıyıdan ~17 km açık, ne_10m_land
+// dışı ölçüldü), Coutelas'ın geldiği yer kaynakta YOK.
+
+{ id:"p0077-ingiliz-halep-antep-1918",
+  ad:"İngiliz birliklerinin Halep'ten Antep'e kaydırılması (1918)",
+  tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"ingiltere",
+  f:"1918-12-17", t:"1918-12-17",
+  tarih_hassasiyet:"f=t: GÜN — Can ch05 '17 Aralık 1918'den itibaren' ve TDV gaziantep '17 Aralık 1918'de İngilizler şehre girdiler'; Halep'ten ayrılış günü kaynakta YOK",
+  kaynak:"Mustafa Can, TÜBA Millî Mücadele'nin Yerel Tarihi 1918-1923 (ISBN 978-625-8352-66-5), ch05 'Antep'in İşgali ve Kurtuluşu' s.141: \"Halep'i işgal eden İngilizler, birliklerini 17 Aralık 1918'den itibaren stratejik açıdan önemli gördükleri Antep'e kaydırdılar.\" · gaziantep (TDV): \"I. Dünya Savaşı'ndan sonra ilk olarak 17 Aralık 1918'de İngilizler şehre girdiler.\"",
+  kesinlik:"İSTASYON yalnız iki uç: Halep (çıkış, kaynakta ADIYLA) → Antep. Ara güzergâh (Kilis?) kaynakta YOK; ok iki uçlu, kavis güzergâh iddiası değil.",
+  yol:[[37.161,36.202],[37.383,37.066]] },
+
+{ id:"p0077-fransiz-adana-urfa-1919",
+  ad:"Adana'daki Fransız birliğinin Urfa'yı İngilizlerden devralması (1919)",
+  tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"fransa-cumhuriyet",
+  f:"1919-10-30", t:"1919-10-30",
+  tarih_hassasiyet:"f=t: GÜN — Can ch03 s.69/74: 'Urfa'daki İngiliz işgali, 30 Ekim 1919'da yerini Fransız işgaline bıraktı'; birliğin Adana'dan ayrılış günü kaynakta YOK",
+  kaynak:"Mustafa Can, TÜBA Millî Mücadele'nin Yerel Tarihi 1918-1923 (ISBN 978-625-8352-66-5), ch03 'Urfa'nın İşgali ve Kurtuluşu' s.76: \"Urfa'ya gelen Fransız askerleri, Adana'daki 156. Fransız Tümeni'nin 412. Alayı'nın 1. Taburu'nu oluşturuyordu.\" · s.74: \"Urfa'daki İngiliz işgali de 30 Ekim 1919'da yerini Fransız işgaline bıraktı.\"",
+  kesinlik:"ÇIKIŞ = birliğin bağlı olduğu tümenin KARARGÂHI (Adana) — kaynak birliğin Adana'dan geldiğini tümen aidiyetiyle söylüyor, yürüyüş güzergâhını vermiyor. İki uçlu ok, kavis güzergâh iddiası değil. ⚠️ Atlasın Urfa isg: fransa penceresi 1919-10-29'da başlıyor (kaynak 30 Ekim) — 1 gün fark, ayrı kalem.",
+  yol:[[35.321,37.000],[38.796,37.159]] },
+
+{ id:"p0077-ingiliz-bagdat-musul-1918",
+  ad:"İngilizlerin Bağdat'tan Musul'a ilerleyip şehri işgali (1918)",
+  tur:"sefer", sonuc:"yenilgi", taraf:"dusman", devlet:"ingiltere",
+  f:"1918-11-01", t:"1918-11-08",
+  tarih_hassasiyet:"f: GÜN — Hut ch13 dn.4 'General Marshall'ın emriyle 1 Kasım'da başlayan işgal' (Jaeschke'ye dayanarak) · t: GÜN — '8 Kasım'da tamamlanmıştı'; TDV musul--irak '8 (veya 10) Kasım 1918' — kaynak içi belirsizlik beyanlı, 8 alındı",
+  kaynak:"Davut Hut, TÜBA Millî Mücadele'nin Yerel Tarihi 1918-1923 (ISBN 978-625-8352-71-9), ch13 s.476: \"Basra'dan başlayarak Bağdat ve Musul'a doğru Osmanlı Irak'ını işgale başlamıştı\" · \"8 Kasım 1918'de tamamlanan Musul'un işgali\" · dn.4: \"İngiliz General Marshall'ın emriyle 1 Kasım'da başlayan işgal 8 Kasım'da tamamlanmıştı (Gotthard Jaeschke, Türk Kurtuluş Savaşı Kronolojisi)\" · musul--irak (TDV): \"İngilizler, ateşkes antlaşmasına ve devletler hukuku kurallarına aykırı olarak 8 (veya 10) Kasım 1918'de Musul'a girdi.\"",
+  kesinlik:"İSTASYON: Bağdat → Musul — kaynağın 'Basra'dan başlayarak Bağdat ve Musul'a doğru' eksenidir. Bağdat 1917'den beri İngiliz (TDV musul--irak '11 Mart 1917'de Bağdat İngilizler tarafından işgal edildi'); ok yalnız Kasım 1918 bacağını çizer. Ara mevziler (Şerkat vb.) kaynakta ADIYLA yok ⇒ yazılmadı.",
+  yol:[[44.361,33.340],[43.130,36.340]] },
+
+{ id:"p0077-fransiz-iskenderun-cikarma-1918",
+  ad:"Fransız birliğinin Coutelas gemisinden İskenderun'a çıkışı (1918)",
+  tur:"deniz", sonuc:"yenilgi", taraf:"dusman", devlet:"fransa-cumhuriyet",
+  f:"1918-11-10", t:"1918-11-10",
+  tarih_hassasiyet:"f=t: GÜN — TDV iskenderun '10 Kasım 1918 tarihinde'; asıl kuvvetlerin çıkışı 14 Kasım (ayrı kademe değil)",
+  kaynak:"iskenderun (TDV): \"harbin sonlarında 9 Kasım 1918'de İngilizler tarafından işgal edildi. İtilâf devletleri arasındaki gizli anlaşmaların sonucu olarak 10 Kasım 1918 tarihinde Coutelas adlı Fransız savaş gemisinden karaya çıkan ilk Fransız askerî birliği İskenderun'a girdi. 14 Kasım'da da asıl Fransız kuvvetleri şehre çıkmaya başladı.\"",
+  kesinlik:"ÇIKIŞ = DENİZ (kaynak: gemiden karaya çıkış). Deniz ucu [35.98,36.68] ŞEMATİK çizim noktasıdır (körfez içi, kıyıdan ~17 km); geminin geldiği liman kaynakta YOK. 9 Kasım İngiliz işgalinin çıkış yeri kaynakta YOK ⇒ ok yazılmadı.",
+  yol:[[35.98,36.68],[36.173,36.587]] }
 
 ];
