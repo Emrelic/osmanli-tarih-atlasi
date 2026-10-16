@@ -28,8 +28,13 @@ yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 4.7.1.
   --durum <d>|durum N <d>`. Notun bağlamı (gün, madde, alandaki yerleşimler ve sahipleri)
   gövdededir — yeniden kurma. Arşivlemeyi (`arsivle`) yalnız Emre ister.
   **Post-it kuyruğu: `/postit` skill'i — 1 not = 1 oturum.** `py arac/not.py al` boş notu
-  oturuma alır (`oturum:<id>` etiketi), `yanit … --birak` raporu yazıp bırakır; `son:claude|emre`
+  oturuma alır (`oturum:<id>` etiketi); not **arşive kadar** o oturumda kalır (cevap yazmak
+  bırakmaz; Emre sitede "sahipsiz bırak"abilir, 7 gün sessiz sahip düşer). `son:claude|emre`
   etiketi sıranın kimde olduğunu gösterir. Başka oturumun aldığı nota dokunulmaz.
+  Not sahibi oturum cevabı **arka planda** bekler (`py arac/not.py bekle N`, Bash
+  `run_in_background`); Emre cevap yazınca betik biter, uygulama oturumu uyandırır. Bu, yasak
+  olan eski **bekçi değildir**: merkezi izleyici yok, model beklerken çalışmaz, her oturum yalnız
+  kendi notunu bekler. (Yalnız Claude uygulaması açıkken çalışır.)
 - Paralel iş gerekirse **alt ajan** (Agent aracı) kullan; aynı dosyaya yazacak paralel ajanları
   ayrı worktree'de çalıştır. Ayrı oturum yalnız başka makinede, saatler süren ya da Emre'yle
   konuşması gereken iş için gerekir — o zaman Emre'den iste.

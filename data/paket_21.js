@@ -236,7 +236,7 @@ window.YERLESIMLER_OK104 = [
 //    boyunca kesintisiz `arnavutluk` tutuyor; Kastriyota yurdu olan Mat'ı
 //    ondan ayrı modellemek için bir dayanağım yok.
 { ad:"Mat (Mati)", kd:[{f:"1281-01-01",t:"1478-06-15",k:0,m:null},{f:"1478-06-15",t:"1923-10-29",k:4,m:"İşkodra"}], tur:"sehir", lat:41.610, lon:20.009, g:0, k:4, m:"İşkodra",
-  s:[{f:"1281-01-01",t:"1478-06-15",d:"arnavutluk"},
+  s:[{f:"1281-01-01",t:"1443-01-01",d:"__BOSLUK__",kaynak:"BEYANLI BOŞLUK (#4): 'Arnavutluk (Kastriota Direnişi)' künyesi 1443'te doğar; Mat'ın 1443 öncesi sahibi için TDV kaynağı BULUNAMADI (TDV iskender-bey yalnız 1432 Arvanid sancağı sınırını verir) — 1281 için arnavutluk anakronizmdi, komşuya itilmedi"},{f:"1443-01-01",t:"1478-06-15",d:"arnavutluk",kaynak:"TDV iskender-bey · künye arnavutluk f 1443-01-01"},
      {f:"1912-11-28",t:"1939-04-07",d:"arnavutluk-bagimsiz"},{f:"1939-04-07",t:"1943-09-08",d:"arnavutluk-italyan-koruma",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1943-09-08",t:"1944-11-29",d:"arnavutluk-alman-himayesi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1944-11-29",t:"1991-04-29",d:"arnavutluk-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1991-04-29",t:"2000-12-31",d:"arnavutluk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1478-06-15",t:"1912-11-28"}],
   kaynak:"TDV iskender-bey · TDV debre" },
@@ -293,7 +293,8 @@ window.YERLESIMLER_OK104 = [
 //    dayanağım yok, ve o günler zaten kırılma günü (yeni gün açılmıyor).
 // 1912 sonrası da Ohri kalıbı: Debar bugün Kuzey Makedonya'da.
 { ad:"Debre (Dibra)", tur:"sehir", lat:41.524, lon:20.531, g:0, k:3, m:"Üsküp",
-  s:[{f:"1281-01-01",t:"1395-01-01",d:"sirbistan"},
+  s:[{f:"1281-01-01",t:"1284-01-01",d:"bizans",kesinlik:{f:"gun",t:"yil"},kaynak:"POSTIT-2 · Popović & Zervan, 'The Fatherland of the Serbian Kings Milutin and Dečanski', Studia Slavica et Balcanica Petropolitana 2022/1 (31), DOI 10.21638/spbu19.2022.102: Milutin 1282/83'te Bizans'a saldırıp Üsküp-Polog-Ovče Polje'yi aldı; 'he conquered the regions of Debar, Kičevo and Porečie in 1284' (YIL). Bir başka kaynak 1282 diyor (çelişki; TDV debre 1283). 1281 sahibi Bizans: aynı çalışma Milutin'in Bizans toprağına saldırdığını yazar; Debre'nin başka bir devlete (Epir, Anjou) ait olduğuna dair tanık bulunamadı, ÇIKARIM · gün yok"},
+     {f:"1284-01-01",t:"1395-01-01",d:"sirbistan",kesinlik:{f:"yil",t:"gun"},kaynak:"POSTIT-2 · Popović & Zervan 2022 (yukarıda): Debar 1284 (YIL); TDV debre 1283"},
      {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
      {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},

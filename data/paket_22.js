@@ -399,7 +399,8 @@ window.YERLESIMLER_OK107 = [
   kaynak:"koprulu" },
 
 { ad:"İştip (Štip)", kd:[{f:"1281-01-01",t:"1371-09-26",k:0,m:null},{f:"1371-09-26",t:"1923-10-29",k:3,m:"Köstendil"}], isg:[{f:"1912-10-29",t:"1913-05-30",d:"sirbistan-kralligi",kaynak:"Sırp işgali (de facto) · f: Özkan, Tarihin Peşinde 15, s.12 ve s.16: '29 Ekim’de İştip’i ele geçiren General Stefanoviç komutasındaki Sırp birlikleri' — TDV istip '1912 Ekimi sonunda' (uyumlu); eski 1912-10-26 Üsküp'ten devralınmıştı (KUTU-H6-1015, 0076/H-0151) · bitiş 1913-05-30: Londra Antlaşması — Osmanlı Devleti Midye-Enez hattının batısındaki toprakları terk etti (Emre kararı 13 Ekim 2026; atlas Dimetoka/Çirmen/Gümülcine için bu günü zaten kullanıyor) · hüküm SINIR-BERLIN-0076 B2, SIRADA-B-1012 0076/H-0145; TDV londra-antlasmasi günü bu oturumda çekilemedi (bulunamadı) · de jure Osmanlı toprağı Londra'ya dek d: ile kesintisizdir"}], tur:"sehir", lat:41.746, lon:22.195, k:3, m:"Köstendil",
-  s:[{f:"1281-01-01",t:"1371-09-26",d:"sirbistan"},
+  s:[{f:"1281-01-01",t:"1330-01-01",d:"bizans",kesinlik:{f:"gun",t:"yil"},kaynak:"POSTIT-2 · TDV istip: '1330’da Sırp Kralı Stefan Deçanski burasını Sırp Devleti’ne katıncaya kadar Bizans’ın elinde kaldı.' · t: YIL; 🟡 olay Velbuzd'dan (1330-07-28) sonra olabilir, YYYY-01-01 birkaç ay erken (Köprülü ile aynı beyan)"},
+     {f:"1330-01-01",t:"1371-09-26",d:"sirbistan",kesinlik:{f:"yil",t:"gun"},kaynak:"POSTIT-2 · TDV istip: '1330’da Sırp Kralı Stefan Deçanski burasını Sırp Devleti’ne' kattı (YIL). Eski kayıt 1281'den Sırp diyordu (TDV ile çelişki)"},
      {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
      {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
@@ -412,7 +413,8 @@ window.YERLESIMLER_OK107 = [
   kaynak:"istip" },
 
 { ad:"Ustrumca (Strumica)", kd:[{f:"1281-01-01",t:"1371-09-26",k:0,m:null},{f:"1371-09-26",t:"1923-10-29",k:3,m:"Köstendil"}], isg:[{f:"1912-11-05",t:"1913-05-30",d:"bulgaristan-kralligi",kaynak:"BULGAR işgali (de facto) · f: Özkan, Tarihin Peşinde 15, s.20: '5 Kasım’da Bulgar Albay Mitov Ustrumca’ya girince sıkıyönetim ilan etmiş'; 6 Kasım'da Mitov ayrılırken Bulgar kaymakam ve Sırp komutan bıraktı. TDV ustrumca: 'önce Bulgarlar, daha sonra Sırplar' — Sırp devrinin günü yok, ayrı dönem açılmadı. Eski kayıt 1912-10-26 Sırp diyordu (Üsküp'ten devralınmış, sahip de yanlış) (KUTU-H6-1015, 0076/H-0151) · bitiş 1913-05-30: Londra Antlaşması — Osmanlı Devleti Midye-Enez hattının batısındaki toprakları terk etti (Emre kararı 13 Ekim 2026; atlas Dimetoka/Çirmen/Gümülcine için bu günü zaten kullanıyor) · hüküm SINIR-BERLIN-0076 B2, SIRADA-B-1012 0076/H-0145; TDV londra-antlasmasi günü bu oturumda çekilemedi (bulunamadı) · de jure Osmanlı toprağı Londra'ya dek d: ile kesintisizdir"}], tur:"sehir", lat:41.437, lon:22.643, k:3, m:"Köstendil",
-  s:[{f:"1281-01-01",t:"1371-09-26",d:"sirbistan"},
+  s:[{f:"1281-01-01",t:"1334-01-01",d:"bizans",kesinlik:{f:"gun",t:"yil"},kaynak:"POSTIT-2 · TDV ustrumca: '1230’da Klokotnica Savaşı’ndan sonra bir çeyrek asır boyunca II. Bulgar İmparatorluğu’nun parçası oldu, fakat tekrar Bizanslılar’ca alındı.' · t: Duşan yılı (aşağıda), gün yok"},
+     {f:"1334-01-01",t:"1371-09-26",d:"sirbistan",kesinlik:{f:"yil",t:"gun"},kaynak:"POSTIT-2 · TDV ustrumca: '1334’te Sırp Kralı Stefan Duşan diğer Makedonya şehirleri gibi burada da egemenlik kurdu.' (YIL). Eski kayıt 1281'den Sırp diyordu (TDV ile çelişki)"},
      {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
      {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},

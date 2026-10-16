@@ -3608,6 +3608,14 @@ body:not(.gelistirici) .yalniz-gelistirici { display: none !important; }
 #gn-arac button.etkin { background: #39ff14; color: #111; border-color: #39ff14; }
 #gn-sayi { margin-left: 3px; font-size: 11px; color: #39ff14; }
 #gn-arac button.etkin #gn-sayi { color: #111; }
+/* ⏳ bekleyen · ✉ okunmamış sayaçları: sıfırdan büyükse göze batar */
+#gn-bekleyen, #gn-okunmamis { margin-left: 3px; font: 700 11px/14px sans-serif; color: #111;
+  background: #ff851b; border-radius: 7px; padding: 0 5px; }
+#gn-okunmamis { background: #ff4136; color: #fff; }
+#gn-arac button.gn-sifir #gn-bekleyen, #gn-arac button.gn-sifir #gn-okunmamis { background: transparent; color: #888; font-weight: 400; }
+.gn-yeni { font-weight: 600; }
+.gn-yeni-cip { color: #ff4136; }
+.gn-filtre-kaldir { margin: 4px 0; font-size: 11px; }
 .gn-postit {
   width: 14px; height: 14px; border-radius: 2px; cursor: pointer;
   background: #39ff14; border: 1px solid #0b3d02;
@@ -3659,6 +3667,7 @@ body.gn-oge-kipi * { cursor: crosshair !important; }
 .gn-son-emre { background: #fff1c2; color: #6b4e00; }
 .gn-son-yok { background: #eee; color: #555; }
 .gn-oturum { background: #333; color: #fff; }
+.gn-opus { background: #6f42c1; }
 .gn-panel-tarih { color: #666; font-size: 12px; margin-bottom: 6px; }
 .gn-metin { white-space: pre-wrap; padding: 6px 8px; border-radius: 4px; margin: 6px 0; }
 .gn-emre { background: #fffbd1; border-left: 3px solid #e1c600; }

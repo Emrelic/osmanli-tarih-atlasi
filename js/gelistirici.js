@@ -40,6 +40,7 @@
   var ETIKET = "harita-notu";
   var LS_TOKEN = "atlas_gh_token";
   var ISARET = "atlas-not v1";
+  var YENI = "yeni:claude";   // Emre'nin okumadığı Claude mesajı — arac/not.py koyar, panel açılınca silinir
   // Durum etiketleri `not:<anahtar>` — arac/not.py ile AYNI liste.
   var DURUM = {
     "acik":           { ad: "açık",              renk: "#39ff14" },
@@ -65,6 +66,7 @@
     noMarkerlar: {},           // no → [Marker] bölge numaraları (çok bölgeli not)
     gorunen: null,             // görünür not kümesinin imzası (null = yeniden çiz)
     panelNo: null,
+    filtre: null,              // not listesi süzgeci: null | "bekleyen" | "okunmamis"
     // ÇOK BÖLGE (Emre 16 Ekim 2026: "bir post-it notu ve birden çok işaretlenmiş
     // çerçevelenmiş bölge olabilsin"). Yazılmakta olan notun bölgeleri burada
     // birikir; form kapanınca/kaydedilince boşalır.
@@ -208,18 +210,20 @@
     var v = null;
     if (m) { try { v = JSON.parse(m[1]); } catch (e) { v = null; } }
     if (!v) return null;
-    var durum = "acik", son = null, oturum = [];
+    var durum = "acik", son = null, oturum = [], opus = false, yeni = false;
     (is.labels || []).forEach(function (l) {
       var n = typeof l === "string" ? l : l.name;
       if (n && n.indexOf("not:") === 0 && DURUM[n.slice(4)]) durum = n.slice(4);
       // POST-İT KUYRUĞU (arac/not.py): son sözü kim söyledi · notu hangi oturum aldı
       if (n && n.indexOf("son:") === 0) son = n.slice(4);
       if (n && n.indexOf("oturum:") === 0) oturum.push(n.slice(7));
+      if (n === "model:opus") opus = true;
+      if (n === YENI) yeni = true;
     });
     if (!son && !is.comments) son = "emre";
     var gi = gunIdx(v.gun);
     return {
-      no: is.number, baslik: is.title, durum: durum, url: is.html_url, son: son, oturum: oturum,
+      no: is.number, baslik: is.title, durum: durum, url: is.html_url, son: son, oturum: oturum, opus: opus, yeni: yeni,
       yorum: is.comments || 0, veri: v, gi: gi,
       fi: v.gorunur ? gunIdx(v.gorunur.f) : gi,
       ti: v.gorunur ? gunIdx(v.gorunur.t) : gi
@@ -725,11 +729,28 @@
     return c;
   }
   function oturumCip(n) {
-    return n.oturum && n.oturum.length ? el("span", "gn-oturum", "🔒 " + n.oturum.join(", ")) : null;
+    var f = document.createDocumentFragment();
+    if (n.opus) { var o = el("span", "gn-oturum gn-opus", "🧠 Opus"); o.title = "Motor/geometri notu — Opus oturumu aç"; f.appendChild(o); }
+    if (n.oturum && n.oturum.length) f.appendChild(el("span", "gn-oturum", "🔒 " + n.oturum.join(", ")));
+    return f.childNodes.length ? f : null;
+  }
+
+  // Sayaçlar (Emre 16 Ekim 2026): ⏳ cevabımı bekleyen = son sözü Claude söyledi ve not
+  // çözülmüş/doğru bulunmuş değil · ✉ okunmamış = `yeni:claude` etiketi (bütün makinelerde aynı).
+  function bekliyor(n) { return n.son === "claude" && n.durum !== "cozuldu" && n.durum !== "dogru-bulundu"; }
+  function sayaclar() {
+    var b = G.notlar.filter(bekliyor).length, o = G.notlar.filter(function (n) { return n.yeni; }).length;
+    var s = $("gn-sayi"); if (s) s.textContent = G.notlar.length;
+    var sb = $("gn-bekleyen"); if (sb) { sb.textContent = b; sb.parentNode.classList.toggle("gn-sifir", !b); }
+    var so = $("gn-okunmamis"); if (so) { so.textContent = o; so.parentNode.classList.toggle("gn-sifir", !o); }
   }
 
   function panelAc(n) {
     G.panelNo = n.no;
+    if (n.yeni) {   // açtı = okudu
+      n.yeni = false; sayaclar(); listeCiz();
+      gh("/issues/" + n.no + "/labels/" + encodeURIComponent(YENI), "DELETE").catch(function () {});
+    }
     var p = $("gn-panel");
     p.innerHTML = "";
     var kapat = el("button", "gn-kapat", "✕"); kapat.type = "button";
@@ -785,6 +806,18 @@
       }).then(function () {
         n.yorum++; n.son = "emre"; ta.value = ""; panelAc(n); listeCiz();
       }).catch(function (e) { bildir("Eklenemedi: " + e.message, true); });
+    });
+    // UHDE: not arşive kadar sahibi oturumda kalır. Oturum silindiyse/takıldıysa Emre buradan
+    // serbest bırakır → sıradaki `/postit` oturumu yazışmayı okuyup devralır.
+    if (n.oturum && n.oturum.length) dugme("🔓 Sahipsiz bırak", function () {
+      if (!window.confirm("#" + n.no + " şu oturumdan alınsın mı: " + n.oturum.join(", ") +
+                          "?\nSıradaki /postit oturumu yazışmayı okuyup devralır.")) return;
+      Promise.all(n.oturum.map(function (o) {
+        return gh("/issues/" + n.no + "/labels/" + encodeURIComponent("oturum:" + o), "DELETE").catch(function () {});
+      })).then(function () {
+        n.oturum = []; panelAc(n); listeCiz();
+        bildir("🔓 #" + n.no + " sahipsiz — sıradaki /postit oturumu alır");
+      });
     });
     dugme("🎯 Git", function () { notaGit(n); });
     dugme("↗ GitHub", function () { window.open(n.url, "_blank", "noopener"); });
@@ -937,13 +970,24 @@
     var kapat = el("button", "gn-kapat", "✕"); kapat.type = "button";
     kapat.onclick = function () { l.style.display = "none"; };
     l.appendChild(kapat);
-    var sende = G.notlar.filter(function (n) { return n.son === "claude"; }).length;
+    var bek = G.notlar.filter(bekliyor).length;
+    var oku = G.notlar.filter(function (n) { return n.yeni; }).length;
     var alinan = G.notlar.filter(function (n) { return n.oturum && n.oturum.length; }).length;
-    l.appendChild(el("div", "gn-panel-bas", "Açık notlar (" + G.notlar.length + ") · 🤖 cevabını bekleyen " +
-      sende + " · 👤 Claude'da " + (G.notlar.length - sende) + " · 🔒 oturumda " + alinan));
-    if (!G.notlar.length) l.appendChild(el("div", "gn-bos", "açık not yok"));
-    G.notlar.forEach(function (n) {
-      var s = el("div", "gn-liste-satir");
+    var gosterilen = G.filtre === "bekleyen" ? G.notlar.filter(bekliyor)
+                   : G.filtre === "okunmamis" ? G.notlar.filter(function (n) { return n.yeni; })
+                   : G.notlar;
+    var bas = { bekleyen: "⏳ Kararını bekleyen", okunmamis: "✉ Okunmamış" }[G.filtre] || "Açık notlar";
+    l.appendChild(el("div", "gn-panel-bas", bas + " (" + gosterilen.length + ") · ⏳ bekleyen " + bek +
+      " · ✉ okunmamış " + oku + " · 🔒 oturumda " + alinan + (G.filtre ? " · hepsi " + G.notlar.length : "")));
+    if (G.filtre) {
+      var hep = el("button", "gn-filtre-kaldir", "hepsini göster"); hep.type = "button";
+      hep.onclick = function () { G.filtre = null; listeCiz(); };
+      l.appendChild(hep);
+    }
+    if (!gosterilen.length) l.appendChild(el("div", "gn-bos", G.filtre ? "bu süzgeçte not yok" : "açık not yok"));
+    gosterilen.forEach(function (n) {
+      var s = el("div", "gn-liste-satir" + (n.yeni ? " gn-yeni" : ""));
+      if (n.yeni) s.appendChild(el("span", "gn-yeni-cip", "✉"));
       s.appendChild(durumCip(n.durum));
       s.appendChild(sonCip(n));
       var oc = oturumCip(n); if (oc) s.appendChild(oc);
@@ -958,7 +1002,7 @@
   }
 
   function hepsiniCiz() {
-    var say = $("gn-sayi"); if (say) say.textContent = G.notlar.length;
+    sayaclar();
     haritaNotlariGuncelle(); zamanNoktalari(); maddeRozetleri(); ogeRozetleri(); listeCiz();
     if (G.panelNo != null) {
       var n = G.notlar.filter(function (x) { return x.no === G.panelNo; })[0];
@@ -995,10 +1039,18 @@
     d("◯", "Daire çiz ve not düş · Shift basılı bırak: bir bölge daha", function () { kipAyarla("daire"); }, "daire");
     d("✎", "Kalemle çiz ve not düş · Shift basılı bırak: bir bölge daha", function () { kipAyarla("kalem"); }, "kalem");
     d("🔘", "Bir düğmeye / menüye not düş", function () { kipAyarla("oge"); }, "oge");
-    var lb = d("📋", "Açık notlar", function () {
-      var l = $("gn-liste"); l.style.display = l.style.display === "block" ? "none" : "block"; listeCiz();
-    });
-    var sy = el("span"); sy.id = "gn-sayi"; lb.appendChild(sy);
+    function listeAc(filtre) {
+      var l = $("gn-liste"), acik = l.style.display === "block";
+      if (acik && G.filtre === filtre) { l.style.display = "none"; return; }
+      G.filtre = filtre; l.style.display = "block"; listeCiz();
+    }
+    function sayac(ad, ipucu, id, filtre) {
+      var b = d(ad, ipucu, function () { listeAc(filtre); });
+      var s = el("span"); s.id = id; b.appendChild(s);
+    }
+    sayac("📋", "Açık notlar", "gn-sayi", null);
+    sayac("⏳", "Cevabını / kararını bekleyen notlar (son sözü Claude söyledi)", "gn-bekleyen", "bekleyen");
+    sayac("✉", "Okunmamış Claude mesajları", "gn-okunmamis", "okunmamis");
     d("⟳", "Notları yeniden yükle", function () {
       notlariYukle().then(function (l) { bildir(l.length + " açık not"); }).catch(function (e) { bildir(e.message, true); });
     });
