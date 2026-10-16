@@ -213,7 +213,8 @@
    "uygulanan_kuyruk": [],
    "notlar": [
     "kesildi 1081-01-01–1204-04-13 None: sahip yok/yeni künye (None)",
-    "UYGULANMADI: 1281-01-01'de YENİ KIRILMA doğar (epir-despotlugu → mevcut bizans) — kaynaksız"
+    "UYGULANMADI: 1281-01-01'de YENİ KIRILMA doğar (epir-despotlugu → mevcut bizans) — kaynaksız",
+    "§3: epir kuyruğu UYGULANDI; bekleyen yalnız birinci-bulgar (1000-1018) dilimi"
    ],
    "dikis": "yeni-kirilma (1281-01-01 epir-despotlugu → mevcut bizans; 1281 pencere ufku)",
    "mevcut_duzeltme": "Mevcut bizans 1281→1430 TDV yanya ile ÇELİŞİR: 'XIII. yüzyılın ikinci yarısında pek çok defa el değiştirdi. 1318’de tekrar Bizans İmparatorluğu’na katılsa…' ⇒ 1281-1318 Epir olmalı (1281 sonrası, dokunulmadı — koordinatöre).",
@@ -1591,7 +1592,7 @@
       "alinti": "1204’teki IV. Haçlı Seferi’nden sonra Despot I. Mikael Angelos (Komnenos) 1430’a kadar yaşayan bağımsız Yunan Epiros Despotluğu’nu kurdu; Yanya bu despotluğun merkezi yapıldı."
      }
     ],
-    "durum": "uygulanmadi"
+    "durum": "UYGULANDI §3 (commit 2607a6396): epir-despotlugu 1204-04-13→1318 + bizans 1318→1430 — TDV yanya"
    },
    {
     "ad": "Akçahisar (Kruja)",
@@ -1635,7 +1636,7 @@
       "alinti": "1271-1272’de Fransız prensi ve sonradan Güney İtalya’nın yöneticisi olan Anjou hânedanından Charles, Draç ile Kruya’yı alıp eski kaleyi yeniden yaptırdı."
      }
     ],
-    "durum": "uygulanmadi"
+    "durum": "UYGULANDI §3 (commit cc9ed8f6c): sicilya-kralligi 1271→1282-03-30 · napoli →1284 · bizans →1344 · sirbistan →1363 · arnavutluk →1478 — TDV kruya"
    },
    {
     "ad": "Maribor (Marburg)",
@@ -2043,6 +2044,24 @@
      }
     ],
     "durum": "reddedildi-D208"
+   }
+  ]
+ },
+ "sonrasi_1281_bekleyen": {
+  "aciklama": "T5-1000-B-1016 §3 — 1281 sonrası düzeltme adayları, UYGULANMADI.",
+  "sehirler": [
+   {
+    "ad": "Cerbe (Djerba)",
+    "bekleyen_kimlik": [
+     "sicilya-aragon"
+    ],
+    "neden": "RENKSİZ künye: Sicilya (Aragon/Trinacria) künyesi var (1282-08-30→1816) ama BOYALAR'da yok — renk ekleme bu partide yasak",
+    "oneri": "hafsi 1281→1284 · sicilya-aragon 1284→1334 · hafsi 1334→1560-03-12",
+    "tdv": "cerbe: '683’te (1284-85) Sicilyalılar tarafından işgal edilen ada önce papalığın mâlikânesi olmuş, daha sonra Sicilya Krallığı’na bağlanmıştır. Sicilya valilerinin kötü idaresine karşı ayaklanan halk 1334’te Sicilyalılar’ı adadan kovmuştur.'"
+   },
+   {
+    "ad": "Rodos",
+    "neden": "TDV rodos yalnız YIL veriyor ('1309’da Saint Jean şövalyelerinin (Hospitalier/İsbitâriyye) eline geçişine kadar'); mevcut sovalye f 1310-08-15 — kaynak gün vermediği için DOKUNULMADI (görev şartı)"
    }
   ]
  }
