@@ -514,25 +514,9 @@ window.OLAYLAR_2S_0919 = [
 
 // NOT-DUZELT-1016 (Emre notu #2) — 1281'de Vardar Makedonyası Bizans'taydı; Sırp geçişleri
 // TDV'nin verdiği yıllarla (Üsküp 1282 · Debre 1283 · İştip+Köprülü 1330 · Ohri/Ustrumca/Manastır 1334)
-{ t:"1282-01-01", kesinlik:"yil", b:"Sırp Kralı II. Milutin Üsküp'ü Bizans'tan aldı — 110 yıllık Sırp hâkimiyeti başladı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Üsküp",
-  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["sirbistan-nemanjic","bizans"],
-  d:"Tahta çıktığı yıl Sırp Kralı II. Milutin, Bizans idaresindeki Üsküp'ü ele geçirerek devletinin merkezi yaptı. Şehirde 1392'deki Osmanlı fethine kadar sürecek Sırp hâkimiyeti böylece başladı; Milutin buradan Makedonya ve Arnavutluk içlerine ilerlemeyi tasarladı.",
-  kaynak:"TDV uskup — AYNEN: \"Sırp Kralı II. Milutin (1282-1321) Üsküp şehrini ele geçirerek devletinin merkezi yaptı. Böylece Üsküp’te 110 yıl devam edecek Sırp hâkimiyeti başladı.\" · D. M. Nicol, The Despotate of Epiros 1267-1479 (Cambridge 1984), s. 66-67 — AYNEN: \"Stephen Uroš II Milutin had captured Skoplje from the Byzantines in 1282.\" · hassasiyet: YIL" },
 
-{ t:"1283-01-01", kesinlik:"yil", b:"Sırp Kralı Milutin Debre'yi ele geçirdi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Debre (Dibra)",
-  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["sirbistan-nemanjic"],
-  d:"Epir Despotluğu, II. Bulgar İmparatorluğu, Bizans ve Sırbistan arasında çekişme konusu olan Debre, 1283'te Sırp Kralı Milutin'in eline geçti ve 1395'teki Osmanlı fethine kadar Sırp yönetiminde kaldı. Milutin ile Valois Kontu Charles arasındaki 1303 antlaşmasında bölge 'contrade de Deber' diye anılır. Kaynak, Sırplardan önceki sahibi adıyla vermiyor.",
-  kaynak:"TDV debre — AYNEN: \"1283’te Sırp Kralı Milutin Debre’yi ele geçirdi.\" · hassasiyet: YIL · önceki sahip TDV'de YOK (veride 1281-1283 beyanlı __BOSLUK__)" },
 
-{ t:"1330-01-01", kesinlik:"yil", b:"Kral Stefan Deçanski İştip'i ve Veles'i (Köprülü) Bizans'tan alıp Sırp Devleti'ne kattı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"İştip (Štip)", yer:"İştip, Köprülü (Veles)",
-  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["sirbistan-nemanjic","bizans"],
-  d:"Velbujd Savaşı'nın yılında Sırp Kralı Stefan Deçanski, XIII. yüzyıldan beri Bizans elinde kalan İştip'i Sırp Devleti'ne kattı; Sırp askerleri Vardar üzerindeki Veles'i (Köprülü) de Bizanslılardan aldı. İki şehir 1371 Meriç bozgunundan sonra Dejanović kardeşlerin prensliğine geçecekti.",
-  kaynak:"TDV istip — AYNEN: \"1330’da Sırp Kralı Stefan Deçanski burasını Sırp Devleti’ne katıncaya kadar Bizans’ın elinde kaldı.\" · TDV koprulu: \"1330 yılındaki Velbuzd Savaşı’nın ardından … Veles’i Bizanslar’dan alarak Sırp Devleti’ne kattıkları\" · hassasiyet: YIL (Velbujd 28 Temmuz 1330; İştip'in günü kaynakta yok)" },
 
-{ t:"1334-01-01", kesinlik:"yil", b:"Stefan Duşan Ohri, Ustrumca ve Manastır'da Sırp egemenliği kurdu", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Ohri", yer:"Ohri, Ustrumca (Strumica), Manastır",
-  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["sirbistan-nemanjic","bizans"],
-  d:"Sırp Kralı Stefan Duşan 1334'te Bizans'ın Makedonya'daki şehirlerine yöneldi: 1018'den beri Bizans idaresindeki Ohri'yi ele geçirdi, Ustrumca'da da öteki Makedonya şehirlerinde olduğu gibi egemenlik kurdu. XIV. yüzyıla kadar Bizans himayesinde kalan Manastır aynı süreçte Sırp eline geçti (Manastır'ın kendi yılı kaynakta yok).",
-  kaynak:"TDV ohri — AYNEN: \"1334’te Sırp Kralı Stefan Duşan tarafından ele geçirildi.\" · TDV ustrumca: \"1334’te Sırp Kralı Stefan Duşan diğer Makedonya şehirleri gibi burada da egemenlik kurdu.\" · TDV manastir--makedonya: \"bir iki dönem hariç XIV. yüzyıla kadar Bizans İmparatorluğu’nun himayesi altına kaldı\" — Manastır'ın günü komşudan: Ohri · TDV ohri · hassasiyet: YIL" },
 
 // NOT-DUZELT-1016 (Emre notu #3) — Berat 1281-1343 Bizans; Sırp fethi 1343 dolayı (Nicol)
 { t:"1343-01-01", kesinlik:"yil", b:"Berat Bizans'tan Sırp eline geçti — Stefan Duşan'ın Arnavutluk fethi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Berat", yer:"Berat, Arnavutluk",
