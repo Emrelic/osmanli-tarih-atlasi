@@ -175,4 +175,26 @@ window.KRONOLOJI_SINIR_KOMSU = [
   d:"28 Temmuz 1330'da Köstendil (Velbujd) yakınında Bulgar Çarı Mihail ile Sırp Kralı Stefan Deçanski karşılaştı. Mihail tahtını ve hayatını kaybetti. TDV'ye göre bu tarihten Osmanlı dönemine kadar şehir ve çevresi Sırp hâkimiyetinde kalmış olmalıdır. Kaynak ihtiyatlı konuşuyor; bir antlaşma ya da çizgi yok, harita burada A/B'de kalır.",
   kaynak:"TDV kostendil ('28 Temmuz 1330’da Bulgar Çarı Michael’in Sırp Kralı Stefan Deçanski ile çarpışarak'; 'Sırp hâkimiyetinde kalmış olmalıdır')" },
 
+// ── POSTIT-2 (16 Eki 2026): Vardar Makedonyası 1281'de Bizans'taydı; Sırp geçişleri ─────
+{ t:"1282-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
+  b:"Sırp Kralı II. Milutin Üsküp'ü Bizans'tan aldı ve devletinin merkezi yaptı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Üsküp",
+  etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
+  gun:"1282 (yıl; gün yok)",
+  d:"Bizans idaresindeki Üsküp, II. Milutin'in saltanatının başında (1282) Sırplar'ın eline geçti ve Sırp devletinin merkezi oldu. TDV'ye göre şehirde 110 yıl sürecek Sırp hâkimiyeti böyle başladı (Osmanlı fethi 1392). Gün bilinmiyor; madde yıl hassasiyetindedir.",
+  kaynak:"TDV uskup ('Sırp Kralı II. Milutin (1282-1321) Üsküp şehrini ele geçirerek devletinin merkezi yaptı. Böylece Üsküp’te 110 yıl devam edecek Sırp hâkimiyeti başladı')" },
+
+{ t:"1330-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
+  b:"Velbujd'un ardından İştip ve Köprülü (Veles) Bizans'tan Sırp Krallığı'na geçti", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"İştip (Štip)",
+  etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
+  gun:"1330 (yıl; gün yok — Velbujd 28 Temmuz 1330'dan sonra olabilir)",
+  d:"Stefan Deçanski 1330'da Bizans'ın elindeki İştip'i ve Köprülü'yü (Veles) Sırp devletine kattı. TDV iki şehir için de yalnız yılı verir, olayı Velbujd Savaşı'nın ardına koyar. Madde yıl hassasiyetindedir; 1 Ocak tarihi birkaç ay erken olabilir.",
+  kaynak:"TDV istip ('1330’da Sırp Kralı Stefan Deçanski burasını Sırp Devleti’ne katıncaya kadar Bizans’ın elinde kaldı') · TDV koprulu ('1330 yılındaki Velbuzd Savaşı’nın ardından … Veles’i Bizanslar’dan alarak Sırp Devleti’ne kattıkları')" },
+
+{ t:"1334-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
+  b:"Stefan Duşan Ohri ve Ustrumca'yı Bizans'tan aldı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Ohri",
+  etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
+  gun:"1334 (yıl; gün yok)",
+  d:"Sırp Kralı Stefan Duşan 1334'te Bizans elindeki Makedonya şehirlerine yürüdü. Ohri'yi ele geçirdi, Ustrumca'da da egemenlik kurdu. Madde yıl hassasiyetindedir.",
+  kaynak:"TDV ohri ('1334’te Sırp Kralı Stefan Duşan tarafından ele geçirildi') · TDV ustrumca ('1334’te Sırp Kralı Stefan Duşan diğer Makedonya şehirleri gibi burada da egemenlik kurdu')" },
+
 ];
