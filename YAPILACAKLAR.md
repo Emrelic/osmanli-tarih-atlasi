@@ -10,6 +10,14 @@ durum tablosunu güncelle.
 
 ## Şimdi
 
+### Berat 1281–1417 sahip dönemleri araştırması (post-it #23, Emre onayı 16 Ekim 2026)
+Berat'ta `__BOSLUK__` beyanı var (AVRUPA-YER, 13 Ekim); 1346'da Berat (2.364 km²) ve onun
+taşmasıyla İlbasan (1.166 km²) boyasız. TDV sırayı verir (Bizans → Epir → Anjou → Bizans →
+Sırbistan → küçük Arnavut prensliği) ama yılları vermez. Yapılacak: geçiş yıllarını/günlerini
+akademik kaynaktan bul (Muzaka dahil), `kaynak:`a açık yaz, `s:` dönemlerini yaz. Bulunamazsa
+beyan kalır, "bulunamadı" raporlanır. Motor kuralı (beyanlı boşluk komşu peteğe taşmasın)
+Emre'ce şimdilik istenmedi.
+
 ### 🔴 SEFER OKU 46/61 KIRPILIYOR — VE ÇARESİ VERİDE DEĞİL
 *(12 Eylül 2026 · `KITA 15` ölçtü · paket 0043 · H-0001 · H-0006 · H-0011b · H-0016)*
 
