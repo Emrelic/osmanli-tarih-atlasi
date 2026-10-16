@@ -275,7 +275,7 @@ window.YERLESIMLER_EPIR = [
 
 { ad:"Hımara (Himarë)", tur:"kale", lat:40.1017, lon:19.7444, g:0, k:4, m:"Avlonya",
   kaynak:"avlonya",
-  s:[{f:"1281-01-01", t:"1417-01-01", d:"napoli"},
+  s:[{f:"1281-01-01",t:"1282-03-30",d:"sicilya-kralligi",kaynak:"POSTIT-3 · künye aşımı düzeltmesi: napoli künyesi f 1282-03-30 (Sicilya Vesperleri); öncesi aynı Anjou yönetimi sicilya-kralligi altında — Draç emsali (EPOK-SAHIP-1008)"},{f:"1282-03-30",t:"1417-01-01",d:"napoli"},
      {f:"1912-11-28",t:"1939-04-07",d:"arnavutluk-bagimsiz"},{f:"1939-04-07",t:"1943-09-08",d:"arnavutluk-italyan-koruma",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1943-09-08",t:"1944-11-29",d:"arnavutluk-alman-himayesi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1944-11-29",t:"1991-04-29",d:"arnavutluk-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1991-04-29",t:"2000-12-31",d:"arnavutluk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1417-01-01", t:"1912-11-28"}] },
 // kaynak: TDV "avlonya" md. — GÖVDE OKUNDU. Hımara'nın müstakil maddesi

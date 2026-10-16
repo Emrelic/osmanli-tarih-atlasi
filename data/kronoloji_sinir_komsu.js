@@ -197,4 +197,12 @@ window.KRONOLOJI_SINIR_KOMSU = [
   d:"Sırp Kralı Stefan Duşan 1334'te Bizans elindeki Makedonya şehirlerine yürüdü. Ohri'yi ele geçirdi, Ustrumca'da da egemenlik kurdu. Madde yıl hassasiyetindedir.",
   kaynak:"TDV ohri ('1334’te Sırp Kralı Stefan Duşan tarafından ele geçirildi') · TDV ustrumca ('1334’te Sırp Kralı Stefan Duşan diğer Makedonya şehirleri gibi burada da egemenlik kurdu')" },
 
+// ── POSTIT-3 (16 Eki 2026): Berat 1281-1345 Bizans'ta; 1345'te Duşan ───────────────────
+{ t:"1345-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
+  b:"Stefan Duşan Berat'ı Bizans'tan aldı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Berat",
+  etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
+  gun:"1345 (yıl; gün yok)",
+  d:"Bizans iç savaşı (1341-1347) sırasında Sırp Kralı Stefan Duşan güney Arnavutluk'a yürüdü ve 1280-81'den beri Bizans elinde olan Berat'ı aldı. Sırp hâkimiyetinin ne zaman bittiği ve şehrin yerel Arnavut prensliğine ne zaman geçtiği akademik kaynakla tarihlenemedi; harita bu yüzden 1345'ten 1417 Osmanlı fethine kadar Berat'ı beyanlı boşluk olarak gösterir. Madde yıl hassasiyetindedir.",
+  kaynak:"TIB Balkan (ÖAW Bizans Araştırmaları) 'Belogradum/Berat' tib.oeaw.ac.at/balkan/explore/entity/123830: 'In 1280-81 the region and Berat became again part of the Byzantine Empire and lost in 1345 to Stefan IV Dušan.' · TDV berat--arnavutluk (sıra: Bizans, Epir, Anjou, yine Bizans, Sırplar, küçük bir Arnavut prensliği; yılsız)" },
+
 ];
