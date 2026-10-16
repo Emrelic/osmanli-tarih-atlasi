@@ -208,14 +208,18 @@
     var v = null;
     if (m) { try { v = JSON.parse(m[1]); } catch (e) { v = null; } }
     if (!v) return null;
-    var durum = "acik";
+    var durum = "acik", son = null, oturum = [];
     (is.labels || []).forEach(function (l) {
       var n = typeof l === "string" ? l : l.name;
       if (n && n.indexOf("not:") === 0 && DURUM[n.slice(4)]) durum = n.slice(4);
+      // POST-İT KUYRUĞU (arac/not.py): son sözü kim söyledi · notu hangi oturum aldı
+      if (n && n.indexOf("son:") === 0) son = n.slice(4);
+      if (n && n.indexOf("oturum:") === 0) oturum.push(n.slice(7));
     });
+    if (!son && !is.comments) son = "emre";
     var gi = gunIdx(v.gun);
     return {
-      no: is.number, baslik: is.title, durum: durum, url: is.html_url,
+      no: is.number, baslik: is.title, durum: durum, url: is.html_url, son: son, oturum: oturum,
       yorum: is.comments || 0, veri: v, gi: gi,
       fi: v.gorunur ? gunIdx(v.gorunur.f) : gi,
       ti: v.gorunur ? gunIdx(v.gorunur.t) : gi
@@ -692,7 +696,7 @@
       }
       var ilk = metin.split("\n")[0];
       var baslik = "[" + v.gun + "] " + (ilk.length > 70 ? ilk.slice(0, 68) + "…" : ilk);
-      gh("/issues", "POST", { title: baslik, body: govdeYaz(metin, v), labels: [ETIKET, "not:acik"] })
+      gh("/issues", "POST", { title: baslik, body: govdeYaz(metin, v), labels: [ETIKET, "not:acik", "son:emre"] })
         .then(function (is) {
           kapat();
           var x = notCoz(is);
@@ -713,6 +717,16 @@
     c.style.background = (DURUM[d] || DURUM.acik).renk;
     return c;
   }
+  // Sıra kimde: son sözü Claude söylediyse top Emre'dedir, Emre söylediyse Claude'da.
+  function sonCip(n) {
+    var c = el("span", "gn-son gn-son-" + (n.son || "yok"),
+      n.son === "claude" ? "🤖 Claude yazdı" : n.son === "emre" ? "👤 Emre yazdı" : "? son yazan");
+    c.title = n.son === "claude" ? "Sıra sende: Claude cevap/soru yazdı" : n.son === "emre" ? "Sıra Claude'da" : "";
+    return c;
+  }
+  function oturumCip(n) {
+    return n.oturum && n.oturum.length ? el("span", "gn-oturum", "🔒 " + n.oturum.join(", ")) : null;
+  }
 
   function panelAc(n) {
     G.panelNo = n.no;
@@ -724,6 +738,8 @@
     var bas = el("div", "gn-panel-bas");
     bas.appendChild(el("b", null, "#" + n.no + " "));
     bas.appendChild(durumCip(n.durum));
+    bas.appendChild(sonCip(n));
+    var oc = oturumCip(n); if (oc) bas.appendChild(oc);
     p.appendChild(bas);
     p.appendChild(el("div", "gn-panel-tarih", n.veri.gun + " · " + (n.veri.gun_yazi || "")));
     p.appendChild(el("div", "gn-metin gn-emre", n.veri.metin || n.baslik));
@@ -763,7 +779,11 @@
     dugme("💬 Ekle", function () {
       var m = ta.value.trim(); if (!m) return;
       gh("/issues/" + n.no + "/comments", "POST", { body: m }).then(function () {
-        n.yorum++; ta.value = ""; panelAc(n);
+        return gh("/issues/" + n.no + "/labels", "POST", { labels: ["son:emre"] });
+      }).then(function () {
+        return gh("/issues/" + n.no + "/labels/son%3Aclaude", "DELETE").catch(function () {});
+      }).then(function () {
+        n.yorum++; n.son = "emre"; ta.value = ""; panelAc(n); listeCiz();
       }).catch(function (e) { bildir("Eklenemedi: " + e.message, true); });
     });
     dugme("🎯 Git", function () { notaGit(n); });
@@ -917,11 +937,16 @@
     var kapat = el("button", "gn-kapat", "✕"); kapat.type = "button";
     kapat.onclick = function () { l.style.display = "none"; };
     l.appendChild(kapat);
-    l.appendChild(el("div", "gn-panel-bas", "Açık notlar (" + G.notlar.length + ")"));
+    var sende = G.notlar.filter(function (n) { return n.son === "claude"; }).length;
+    var alinan = G.notlar.filter(function (n) { return n.oturum && n.oturum.length; }).length;
+    l.appendChild(el("div", "gn-panel-bas", "Açık notlar (" + G.notlar.length + ") · 🤖 cevabını bekleyen " +
+      sende + " · 👤 Claude'da " + (G.notlar.length - sende) + " · 🔒 oturumda " + alinan));
     if (!G.notlar.length) l.appendChild(el("div", "gn-bos", "açık not yok"));
     G.notlar.forEach(function (n) {
       var s = el("div", "gn-liste-satir");
       s.appendChild(durumCip(n.durum));
+      s.appendChild(sonCip(n));
+      var oc = oturumCip(n); if (oc) s.appendChild(oc);
       s.appendChild(el("span", "gn-liste-tarih", n.veri.gun));
       var ik = { harita: "🗺️", madde: "📜", oge: "🔘" }[n.veri.hedef.tur] || "";
       var bs = bolgeler(n.veri).length;

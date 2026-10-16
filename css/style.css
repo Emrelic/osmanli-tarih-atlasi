@@ -3653,6 +3653,12 @@ body.gn-oge-kipi * { cursor: crosshair !important; }
 .gn-madde-dugme { border-color: #2bd10f; margin-top: 4px; }
 .gn-kapat { float: right; border: 0; background: none; font-size: 16px; cursor: pointer; }
 .gn-durum { display: inline-block; padding: 0 6px; border-radius: 3px; font-size: 11px; color: #111; }
+/* Post-it kuyruğu: son yazan (sıra kimde) · notu alan oturum */
+.gn-son, .gn-oturum { display: inline-block; padding: 0 6px; border-radius: 3px; font-size: 11px; white-space: nowrap; margin-left: 4px; }
+.gn-son-claude { background: #dbe9ff; color: #0b3d91; }
+.gn-son-emre { background: #fff1c2; color: #6b4e00; }
+.gn-son-yok { background: #eee; color: #555; }
+.gn-oturum { background: #333; color: #fff; }
 .gn-panel-tarih { color: #666; font-size: 12px; margin-bottom: 6px; }
 .gn-metin { white-space: pre-wrap; padding: 6px 8px; border-radius: 4px; margin: 6px 0; }
 .gn-emre { background: #fffbd1; border-left: 3px solid #e1c600; }

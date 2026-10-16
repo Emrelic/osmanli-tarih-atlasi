@@ -10,6 +10,20 @@ notlar GitHub Issues'tadır (etiket `harita-notu`, durum `not:<anahtar>`).
     py arac/not.py durum 123 cozuldu
     py arac/not.py arsivle 123                       yalnız Emre isterse
 
+POST-İT KUYRUĞU (Emre 16 Ekim 2026 — `/postit` skill'i, 1 not = 1 oturum):
+    py arac/not.py al [N]                            sıradaki boş notu (ya da #N'i) bu oturuma
+                                                     al ve tam metnini bas · çıkış 3 = boş not yok
+    py arac/not.py yanit 123 --dosya <yol> --durum karar-bekliyor --birak
+    py arac/not.py birak 123                         notu bırak (yanıt yazmadan)
+    py arac/not.py son-doldur                        eski notlara `son:` etiketini bir kez yaz
+
+Etiketler: `son:claude` | `son:emre` = son sözü kim söyledi (site listede gösterir) ·
+`oturum:<id>` = notu o oturum aldı (id = CLAUDE_CODE_SESSION_ID'nin ilk 6 hanesi,
+kilit.py'nin `oturum-xxxxxx` adıyla aynı). Alınabilir not: `son:` claude DEĞİL ve canlı
+`oturum:` etiketi yok. Etiket SURE_SAAT saattir tazelenmediyse (oturum çöktü) düşmüş sayılır.
+GitHub'da kilit olmadığı için iki oturum aynı anda alabilir — `al` etiketi koyduktan sonra
+olay geçmişini okur, etiketi İLK koyan kazanır, kaybeden kendi etiketini siler.
+
 Durumlar: acik · okundu · arastiriliyor · karar-bekliyor · cozuldu · dogru-bulundu
 (js/gelistirici.js `DURUM` ile AYNI liste).
 
@@ -29,6 +43,7 @@ import os
 import re
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 
 DEPO = "emrelic/osmanli-tarih-atlasi"
@@ -37,6 +52,10 @@ ETIKET = "harita-notu"
 DURUMLAR = ["acik", "okundu", "arastiriliyor", "karar-bekliyor", "cozuldu", "dogru-bulundu"]
 SITE = "https://emrelic.github.io/osmanli-tarih-atlasi/"
 ONEK = "🤖 **Claude** — "
+SON = "son:"
+OTURUM = "oturum:"
+SURE_SAAT = 3
+BOS_YOK = 3          # `al`: alınacak not yok (hata değil)
 
 
 class Olculemedi(Exception):
@@ -96,6 +115,99 @@ def coz(issue):
         if ad.startswith("not:") and ad[4:] in DURUMLAR:
             durum = ad[4:]
     return v, durum
+
+
+# ------------------------------------------------------------- POST-İT KUYRUĞU
+def etiketler(issue):
+    return [l["name"] if isinstance(l, dict) else l for l in issue.get("labels") or []]
+
+
+def son_yazan(issue):
+    """'claude' | 'emre' | None (eski not, `son-doldur` görmemiş). Yorumsuz not Emre'nindir."""
+    for ad in etiketler(issue):
+        if ad.startswith(SON):
+            return ad[len(SON):]
+    return "emre" if not issue.get("comments") else None
+
+
+def sahip_etiketleri(issue):
+    return [ad for ad in etiketler(issue) if ad.startswith(OTURUM)]
+
+
+def ben():
+    sid = os.environ.get("CLAUDE_CODE_SESSION_ID") or os.environ.get("CLAUDE_SESSION_ID") or ""
+    if not sid:
+        raise ValueError("oturum kimliği yok (CLAUDE_CODE_SESSION_ID) — --kim ver")
+    return sid[:6]
+
+
+def kim_coz(a):
+    k = getattr(a, "kim", None) or ben()
+    return k[len("oturum-"):] if k.startswith("oturum-") else k
+
+
+def etiket_sil(no, ad):
+    try:
+        gh("/issues/%d/labels/%s" % (no, urllib.parse.quote(ad, safe="")), "DELETE", yazma=True)
+    except RuntimeError as e:
+        if "GitHub 404" not in str(e):
+            raise
+
+
+def son_yaz(issue, kim):
+    no = issue["number"]
+    gh("/issues/%d/labels" % no, "POST", {"labels": [SON + kim]}, yazma=True)
+    for ad in etiketler(issue):
+        if ad.startswith(SON) and ad != SON + kim:
+            etiket_sil(no, ad)
+
+
+def etiket_olaylari(no):
+    """{etiket adı: (son 'labeled' olay id'si, zamanı)} — yalnız `oturum:` etiketleri."""
+    cik = {}
+    for o in gh("/issues/%d/events?per_page=100" % no) or []:
+        ad = (o.get("label") or {}).get("name", "")
+        if o.get("event") == "labeled" and ad.startswith(OTURUM):
+            cik[ad] = (o["id"], o["created_at"])
+    return cik
+
+
+def bayat(zaman):
+    import datetime
+    t = datetime.datetime.strptime(zaman, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=datetime.timezone.utc)
+    return (datetime.datetime.now(datetime.timezone.utc) - t).total_seconds() > SURE_SAAT * 3600
+
+
+def alinabilir_mi(issue, kim):
+    """(evet/hayır, gerekçe). Canlı başka sahip varsa hayır; bayat sahip silinecek demektir."""
+    if son_yazan(issue) == "claude":
+        return False, "son söz Claude'da — Emre'yi bekliyor"
+    if son_yazan(issue) is None:
+        return False, "son yazan bilinmiyor — önce `son-doldur`"
+    sahipler = [s for s in sahip_etiketleri(issue) if s != OTURUM + kim]
+    if not sahipler:
+        return True, ""
+    ol = etiket_olaylari(issue["number"])
+    canli = [s for s in sahipler if s not in ol or not bayat(ol[s][1])]
+    if canli:
+        return False, "alınmış: " + ", ".join(canli)
+    return True, "bayat sahip düşürülecek: " + ", ".join(sahipler)
+
+
+def almaya_calis(issue, kim):
+    """Etiketi koy, olay geçmişinden kazananı oku. Kazandıysa True."""
+    no, ben_et = issue["number"], OTURUM + kim
+    for s in sahip_etiketleri(issue):
+        if s != ben_et:
+            etiket_sil(no, s)               # alinabilir_mi bayat dedi
+    gh("/issues/%d/labels" % no, "POST", {"labels": [ben_et]}, yazma=True)
+    simdi = set(sahip_etiketleri(gh("/issues/%d" % no)))
+    ol = etiket_olaylari(no)
+    adaylar = sorted((ol.get(s, (float("inf"), ""))[0], s) for s in simdi)
+    if adaylar and adaylar[0][1] == ben_et:
+        return True
+    etiket_sil(no, ben_et)
+    return False
 
 
 def notlar(hepsi=False):
@@ -161,12 +273,13 @@ def k_liste(a):
         v, d = coz(i)
         if a.durum and d != a.durum:
             continue
+        sahip = ",".join(s[len(OTURUM):] for s in sahip_etiketleri(i)) or "-"
         satir.append((v.get("gun") if v else "?", i["number"], d, i["state"],
-                      i.get("comments", 0), hedef_yazi(v), i["title"]))
+                      i.get("comments", 0), son_yazan(i) or "?", sahip, hedef_yazi(v), i["title"]))
     satir.sort()
-    for gun, no, d, st, yc, hd, bas in satir:
-        print("#%-4d %-10s %-14s %s yorum:%d  %s  ·  %s" %
-              (no, gun, d, "" if st == "open" else "[ARŞİV]", yc, hd, bas))
+    for gun, no, d, st, yc, son, sahip, hd, bas in satir:
+        print("#%-4d %-10s %-14s %s yorum:%d son:%-6s oturum:%-6s  %s  ·  %s" %
+              (no, gun, d, "" if st == "open" else "[ARŞİV]", yc, son, sahip, hd, bas))
     print("— %d not" % len(satir))
 
 
@@ -229,6 +342,54 @@ def k_yanit(a):
     if a.durum:
         durum_yaz(a.no, a.durum)
         print("durum:", a.durum)
+    i = gh("/issues/%d" % a.no)
+    son_yaz(i, "claude")
+    if a.birak:
+        k_birak(a)
+
+
+def k_al(a):
+    kim = kim_coz(a)
+    if a.no:
+        adaylar = [gh("/issues/%d" % a.no)]
+    else:   # en eski not önce — Emre'nin cevabını bekleyenler de aynı sırada
+        adaylar = sorted(notlar(), key=lambda i: i["number"])
+    for i in adaylar:
+        if OTURUM + kim in sahip_etiketleri(i):
+            print("#%d zaten bu oturumda (oturum:%s)" % (i["number"], kim))
+            return k_oku(argparse.Namespace(no=i["number"]))
+        evet, neden = alinabilir_mi(i, kim)
+        if not evet:
+            if a.no:
+                print("#%d alınamadı: %s" % (i["number"], neden))
+                return BOS_YOK
+            continue
+        if almaya_calis(i, kim):
+            print("ALINDI #%d · oturum:%s%s\n" % (i["number"], kim, (" · " + neden) if neden else ""))
+            return k_oku(argparse.Namespace(no=i["number"]))
+        print("#%d yarışı kaybedildi, sıradakine geçiliyor" % i["number"], file=sys.stderr)
+    print("Alınacak not yok (hepsi ya Emre'yi bekliyor ya başka oturumda).")
+    return BOS_YOK
+
+
+def k_birak(a):
+    etiket_sil(a.no, OTURUM + kim_coz(a))
+    print("#%d bırakıldı" % a.no)
+
+
+def k_son_doldur(a):
+    n = 0
+    for i in notlar():
+        if son_yazan(i) is not None and any(x.startswith(SON) for x in etiketler(i)):
+            continue
+        yorumlar = gh("/issues/%d/comments?per_page=100" % i["number"]) or []
+        kim = "emre"
+        if yorumlar and re.match(r"^\s*(🤖|\*\*Claude)", yorumlar[-1].get("body") or ""):
+            kim = "claude"
+        son_yaz(i, kim)
+        n += 1
+        print("#%d son:%s" % (i["number"], kim))
+    print("— %d nota `son:` yazıldı" % n)
 
 
 def k_durum(a):
@@ -245,6 +406,7 @@ def k_arsivle(a):
 def main():
     try:
         sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
     except Exception:
         pass
     p = argparse.ArgumentParser(description="Geliştirici notları (GitHub Issues)")
@@ -253,13 +415,19 @@ def main():
     s.set_defaults(f=k_liste)
     s = alt.add_parser("oku"); s.add_argument("no", type=int); s.set_defaults(f=k_oku)
     s = alt.add_parser("yanit"); s.add_argument("no", type=int); s.add_argument("--dosya", required=True)
-    s.add_argument("--durum", choices=DURUMLAR); s.set_defaults(f=k_yanit)
+    s.add_argument("--durum", choices=DURUMLAR); s.add_argument("--birak", action="store_true")
+    s.add_argument("--kim"); s.set_defaults(f=k_yanit)
+    s = alt.add_parser("al"); s.add_argument("no", type=int, nargs="?"); s.add_argument("--kim")
+    s.set_defaults(f=k_al)
+    s = alt.add_parser("birak"); s.add_argument("no", type=int); s.add_argument("--kim")
+    s.set_defaults(f=k_birak)
+    s = alt.add_parser("son-doldur"); s.set_defaults(f=k_son_doldur)
     s = alt.add_parser("durum"); s.add_argument("no", type=int); s.add_argument("durum", choices=DURUMLAR)
     s.set_defaults(f=k_durum)
     s = alt.add_parser("arsivle"); s.add_argument("no", type=int); s.set_defaults(f=k_arsivle)
     a = p.parse_args()
     try:
-        a.f(a)
+        return a.f(a) or 0
     except Olculemedi as e:
         print("ÖLÇÜLEMEDİ:", e, file=sys.stderr)
         return 2

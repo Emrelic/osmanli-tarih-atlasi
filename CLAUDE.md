@@ -27,6 +27,9 @@ yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 4.7.1.
   (etiket `harita-notu`). Okuma ve cevap: `py arac/not.py liste|oku N|yanit N --dosya <yol>
   --durum <d>|durum N <d>`. Notun bağlamı (gün, madde, alandaki yerleşimler ve sahipleri)
   gövdededir — yeniden kurma. Arşivlemeyi (`arsivle`) yalnız Emre ister.
+  **Post-it kuyruğu: `/postit` skill'i — 1 not = 1 oturum.** `py arac/not.py al` boş notu
+  oturuma alır (`oturum:<id>` etiketi), `yanit … --birak` raporu yazıp bırakır; `son:claude|emre`
+  etiketi sıranın kimde olduğunu gösterir. Başka oturumun aldığı nota dokunulmaz.
 - Paralel iş gerekirse **alt ajan** (Agent aracı) kullan; aynı dosyaya yazacak paralel ajanları
   ayrı worktree'de çalıştır. Ayrı oturum yalnız başka makinede, saatler süren ya da Emre'yle
   konuşması gereken iş için gerekir — o zaman Emre'den iste.
