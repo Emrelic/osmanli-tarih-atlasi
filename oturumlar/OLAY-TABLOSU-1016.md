@@ -1,7 +1,8 @@
 # OLAY TABLOSU — tek elle yazılan tablo, gerisi üretilir
 
 **Tarih:** 16 Ekim 2026 · **Hazırlayan:** HAVVA oturumu (Emre ile tasarım konuşması)
-**Durum:** 🟡 ÖNERİ, Emre/koordinatör onayı bekliyor; hiçbir veri ya da araç değişmedi
+**Durum:** 🟢 Şema yönü onaylı, §8'de beş karar (K1-K3 Emre, K4-K5 Emre'nin bıraktığı) ·
+sıradaki iş A1 · hiçbir veri ya da araç değişmedi
 **Dal:** `olay/tablo-1016` (worktree `C:\atlas-w-olay`, taban `origin/main` `c2f35156b`)
 
 ---
@@ -88,6 +89,7 @@ oluyor) kimlik kaymamalı. Koordinat ve ad kimliğin **nitelikleridir**:
                {v:"kartli",     rol:"eski_sahip"},
                {v:"ks-lala-mustafa", rol:"komutan"} ],
   madde:{ b:"Tiflis'in fethi", d:"…", gun:"24 Ağustos 1578", etiket:[…] },  // yoksa ekranda madde yok
+                                                 // A2'de metin yerine madde_ref: (§8 K5-6)
   tanikliklar:[ {kaynak:"TDV «Tiflis»", sayfa:"…", alinti:"…", gelenek:"osmanli"},
                 {kaynak:"…", gelenek:"gurcu", tarih:"1578-08-28"} ],
   secim:{ tarih:"1578-08-24", gerekce:"TDV esas (CLAUDE.md §4)" } }        // yalnız çakışmada
@@ -111,7 +113,8 @@ sahiplik DEĞİŞTİRMEZ, üretilen sahibi doğrular ya da çakışma açar).
 İki tanıklık aynı olay için farklı tarih ya da farklı taraf verirse olay **tek kalır,**
 tanıklıklar yan yana durur ve `secim:` yazılır. `secim:` yoksa üretici o olayı **çizmez,
 ölçemedi kovasına düşürür**: çakışma sessizce ilk kaynağa bırakılmaz. Durum tanıklığı ile
-üretilen sahip çelişirse bu da çakışma sayılır. Ekranda o şehirde/maddede çakışma işareti
+üretilen sahip çelişirse bu da çakışma sayılır. Çözüm yolu bölgenin kaynak
+geleneklerinden geçer (§8 K2). Ekranda o şehirde/maddede çakışma işareti
 görünür, tıklanınca iki kaynak açılır.
 
 ---
@@ -210,13 +213,92 @@ yalnız **boşluk ölçümü** için kullanılır: merkez olmayan hücre listele
 
 ---
 
-## 7. Emre'ye açık sorular
+## 7. Açık sorular — 16 Ekim'de beşi de karara bağlandı → §8
 
-1. **Her sahiplik olayının ekranda maddesi olmalı mı,** yoksa `ust:` maddesine bağlı olması
-   yeter mi? (Önerim: yeter. Çıldır tek madde, bağlı beş şehir kendi gününü taşır.)
-2. **Çakışmada varsayılan seçim:** İslâm dünyası için TDV esas. Başka coğrafyada olaya en
-   yakın çağdaş kaynak mı, bölgenin kendi geleneği mi? (Önerim: seçim her zaman elle ve
-   gerekçeli yapılsın. Varsayılan kural sessiz yanlış üretir.)
-3. **Ad değişimi olay mı:** "Ankyra → Engürü → Ankara" kronolojide madde olarak görünsün mü?
-4. **Dosya bölme ölçütü:** bölge mi (önerim), dönem mi?
-5. **A2 geçişini kim, hangi koşudan sonra yapar?** (Koordinatör/Emre.)
+---
+
+## 8. KARARLAR (16 Ekim 2026)
+
+### K1 — Büyük olayın maddesi yeter (Emre)
+> *"bağlı olduğu büyük olayın maddesi yeter. eğer osmanlı tebrizi almışsa etrafındaki pek
+> çok şehir ile birlikte almıştır, teker teker saymaya gerek yok"*
+
+⇒ Sahiplik değiştiren olay için kural: **kendi `madde:`si VEYA maddeli bir `ust:` olayı.**
+Bağlı şehirler ekranda ayrı madde olmaz, ama her biri kendi olay kaydını (gün, taraf,
+tanıklık) taşır ve haritayı o kayıt çizer. Değişmez 2'nin yeni hâli budur (§4).
+⚠️ `ust:` bağı aynı süreç olmalıdır (aynı sefer, aynı antlaşma); yalnız aynı yıl olmak
+yetmez. `ust:` olayının tarihi ile bağlı olayın tarihi arasındaki fark ölçülür ve basılır.
+
+### K2 — Çakışmada bölgenin kaynaklarına gidilir (Emre)
+> *"iki kaynak çeliştiğinde o bölgedeki yerel veya büyük devletlerin kaynaklarına
+> başvurmalı. mesela sırbistan ile ilgili bir olayda sırp kaynaklarına ve macaristan
+> avusturya kaynaklarına başvurulabilir"*
+
+⇒ Her bölge kaydı (`varlik_bolge.js`) **`gelenekler:`** listesi taşır: o bölgede söz sahibi
+yerel ve büyük devletlerin kaynak gelenekleri. Örnek:
+```
+bx-sirbistan   gelenekler:["sirp","macar","avusturya","osmanli","bizans"]
+bx-kafkasya    gelenekler:["gurcu","ermeni","osmanli","iran","rus"]
+bx-orta-avrupa gelenekler:["alman","avusturya","venedik","osmanli","leh","rus"]
+```
+Çakışma akışı: ① iki tanıklık ayrışıyor → olay `secim:`siz kalır (ÖLÇÜLEMEDİ, çizilmez)
+② bölgenin `gelenekler:`inden henüz tanıklığı olmayan gelenek(ler) aranır ③ yeni tanıklıkla
+`secim:` yazılır, gerekçesi hangi geleneklerin neyi desteklediğini sayar.
+📌 CLAUDE.md §4'ün *"İslâm dünyası ve Osmanlı'da TDV birincil, çelişirse TDV esastır"*
+kuralı bu kararla **kaldırılmadı.** K2 o kuralın dışındaki coğrafyada ve TDV'nin
+susan/çelişen olduğu durumda yürür. İkisinin ilişkisini Emre teyit edecek (açık nokta).
+
+### K3 — Ad değişimi madde olur, ama araştırma konusu OLMAZ (Emre)
+> *"ad değişimi kronolojide madde olarak görünsün. ama bunun için ek araştırma yapmaya
+> gitmeyelim. eğer bilgi var ise eklensin, bilgi yok ise araştırılmaya gidilmesin."*
+
+⇒ `ad_degisimi` olayı yalnız **zaten okunan bir kaynakta** geçiyorsa yazılır, `madde:`si
+olur. Ad değişimi için hiçbir şartnameye kalem konmaz, sayacı/tavanı olmaz, "eksik" diye
+ölçülmez. Ad bilgisi kaynakta tarihsiz geçiyorsa (`adlar:` alanına `f`/`t`'siz) yazılır,
+olay açılmaz: tarih uydurulmaz (§4).
+
+### K4 — Dosyalar coğrafî bölgeye göre bölünür (Emre bana bıraktı; gerekçe aşağıda)
+**Karar:** `data/olay_<bolge>.js` → `window.OLAY_<BOLGE>`. `<bolge>` anahtarı
+`devletler.js`teki **KAPALI 28 bölgelik sözlüktür** (`anadolu · balkanlar · kafkasya ·
+iran · …`). Yeni sözlük icat edilmez; o sözlük zaten var ve tek otoritedir.
+
+**Bir olay hangi dosyaya gider, deterministik kural:**
+1. `rol:"yer"` olan şehrin bölgesi. Şehrin bölgesi koordinatından **sabit poligonla** bir kez
+   atanır (`varlik_sehir.js` `bolge_dosya:`), sonra değişmez. Sınır değişince dosya değişmez.
+2. Yeri olmayan olay (cülus, antlaşma, kişi olayı) → birincil devletin `devletler.js` `bolge:`u.
+3. İkisi de yoksa → `olay_genel.js`, ve sayısı basılır (kova büyürse kural kusurludur).
+4. Bir bölge dosyası ~2 MB'ı geçerse **o bölge içinde** yüzyıla bölünür
+   (`olay_anadolu_15.js`). Bölme ölçütü değişmez, yalnız ince ayar yapılır.
+
+**Neden bölge — elenen seçenekler:**
+| Seçenek | Neden elendi |
+|---|---|
+| Devlete göre | Bir fethin en az iki devleti var (alan ve kaybeden). Olayın tek bir "evi" olmaz, ya kopyalanır ya keyfî seçilir. Bugünkü iki-kopya kusurunu yeniden üretir. |
+| Döneme göre | Yoğun yüzyıllar (1500-1700) dev dosya olur. Bütün bölge ekipleri aynı dosyaya yazar ve `TAHTA.md` çatışması veride yaşanır. Aynı şehrin olayları dosyalara dağılır. |
+| Tek dosya | Beş makinenin tek dosyaya yazması (CLAUDE.md §7 ölçümü: çatışmanın asıl kaynağı). |
+| **Bölge** ✅ | Şehir yer değiştirmez ⇒ olayın evi **tektir ve kalıcıdır.** İş zaten bölge bölge örgütleniyor (kıta oturumları, `d_sinirlar_<bolge>.js`, pilotlar). Aynı şehrin bütün olayları aynı dosyadadır, kaynak gelenekleri de bölgeye bağlıdır (K2). |
+
+⚠️ Bölgeler arası büyük olay (Tebriz seferi: `ust:` İran'da, bağlı şehirler Kafkasya'da):
+kimlik uzayı tek olduğu için `ust:` başka dosyaya işaret edebilir. Üretici kırık `ust:`
+atfını ihlal (çıkış 1) sayar.
+
+### K5 — Geçiş (A2): kim, ne zaman (Emre bana bıraktı)
+**Karar:**
+1. **Hazırlık bu dalda, HAVVA'da yapılır** (A1 aracı + gidiş-dönüş sınavı). `main`e
+   yazılmaz, `data/` ve tuz dosyalarına dokunulmaz.
+2. **Geçiş commit'ini koordinatör atar** (`main`in tek yazıcısı, CLAUDE.md §7). HAVVA
+   atmaz.
+3. **Zamanı: A1 sınavı "fark 0" verdikten sonraki İLK YAYINLANMIŞ koşunun hemen ardından,
+   bir sonraki koşu başlamadan.** KOŞU 27'den önce kesinlikle değil. Gerekçe: koşu sürerken
+   `data/` donmuştur (§7), ve geçişten hemen sonraki koşu yeni kaynağın ilk tam sınavı olur.
+   Yani hata yayına inmeden yakalanır.
+4. **Geçiş günü açık veri dalı bırakılmaz:** bütün bekleyen yerleşim partileri ya geçişten
+   önce `main`e alınır ya da geçişten sonra olay biçimine çevrilir. A1 aracı tekrar
+   koşturulabilir olduğu için (aynı girdi → aynı olay kimliği) bu güvenlidir.
+5. **Geçişten sonra `yerlesimler*.js` ÜRETİLMİŞ dosyadır:** `denetle_yayin.py`ye kapı eklenir.
+   Dosya üreticinin çıktısıyla birebir değilse (elle dokunulmuşsa) yayın durur.
+6. **Kronoloji maddesi metni A2'de TAŞINMAZ.** Olay, mevcut maddeye `madde_ref:` ile
+   işaret eder; metin `olaylar*/kronoloji*.js`te kalır. Metni taşımak A3'ün işidir.
+   Gerekçe: A2'de metin iki yerde olursa bugünkü iki-kopya kusuru bu kez metinde doğar.
+7. **Geri dönüş yolu:** geçiş commit'i tektir ve `git revert` ile geri alınabilir. Geçişten
+   önceki `yerlesimler*.js`, A1 üreticisinin çıktısıyla birebir aynı olduğu için kayıp olmaz.
