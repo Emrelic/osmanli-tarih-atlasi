@@ -65,6 +65,12 @@ window.OLAYLAR_2S_0919 = [
   d:"Denizli çevresinde hüküm süren İnançoğulları Beyliği muhtemelen 1368'de Germiyanoğullarının hâkimiyetini tanıdı.",
   kaynak:"TDV `inancogullari` — AYNEN: \"İnançoğulları muhtemelen 1368'de Germiyanoğulları'nın hâkimiyetini tanımıştır.\" · hassasiyet: YIL, kaynağın kendisi 'muhtemelen' der · olay ilhak değil tâbiyet" },
 
+// ── 1371-11 (NOT2-1016, Emre notu #29) ────────────────────────────────
+{ t:"1371-11-01", kesinlik:"ay", b:"Selanik despotu Manuel, Serez ve Drama bölgesini Bizans idaresine aldı", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Serez",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"Çirmen'de (26 Eylül 1371) Kral Vukaşin ve Serez despotu Uglyeşa'nın ölmesiyle Serez bölgesindeki Sırp idaresi sona erdi. Selanik'te hüküm süren Bizans prensi II. Manuel Palaiologos, Kasım 1371'de Serez'i ve Drama'nın da içinde bulunduğu bölgeyi Bizans idaresine aldı. Bölge Eylül 1383'te Osmanlılar'a geçti.",
+  kaynak:"TDV `drama` (F. Emecen) — AYNEN: \"Drama’nın da içinde bulunduğu Serez bölgesi, Bizans’ın Selânik valisi Manuel’in hâkimiyeti altına girdi (Kasım 1371)\" · TDV `serez` — AYNEN: \"1371’de Selânik’te hüküm süren II. Manuel Palaeologos tarafından tekrar Bizans idaresine alındı\" · hassasiyet: AY (gün kaynakta yok; 01 ay işaretidir)" },
+
 // ── 1379 (iki ayrı küme, iki ayrı olay) ─────────────────────────────
 { t:"1379-01-01", b:"Tâceddin Bey Eretna ordusunu Niksar'da bozdu, bağımsız hareket etti", tur:"savas", onem:2, dunya:2, kapsam:"dis", yer_id:"Niksar",
   etiket:["askeri","toprak-kazanc","konu-siyasi"],
