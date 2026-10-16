@@ -264,8 +264,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_komsu.js",
-     "sha": "df59c90f986cb17a",
-     "bayt": 30093
+     "sha": "41bdeb6026827372",
+     "bayt": 30099
     },
     {
      "yol": "data/kronoloji_sinir_guney_g8.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1071794
+   "bayt": 1071800
   },
   {
    "paket": "data/paket_10.js",

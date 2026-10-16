@@ -310,7 +310,7 @@ window.KRONOLOJI_SINIR_KOMSU = [
 
 
 { t:"1284-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
-  b:"Sırp Kralı Milutin Debre, Kırçova ve Porečie'yi Bizans'tan aldı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Debre (Dibra)",
+  b:"Sırp Kralı Milutin Debre, Kırçova ve Porečie bölgelerini ele geçirdi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Debre (Dibra)",
   etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
   gun:"1284 (yıl; gün yok; kaynaklar 1282-1284 arasında ayrışır)",
   d:"Milutin 1282/83'te Bizans'a karşı Üsküp, Polog ve Ovče Polje'yi aldıktan sonra 1284'te Debre, Kırçova (Kičevo) ve Porečie bölgelerini de Sırp 'vatanına' kattı. TDV Debre maddesi 1283 der; bir başka kaynak 1282. Madde yıl hassasiyetindedir.",
