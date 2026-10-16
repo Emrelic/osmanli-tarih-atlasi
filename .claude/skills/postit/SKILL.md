@@ -25,6 +25,16 @@ py arac/not.py al 12 --zorla --model opus   # Emre "/postit 12 zorla" dediyse: s
 - Başka oturumun notuna (`oturum:` etiketi senin değil) **dokunma** — `al` bunu zaten yapmaz.
 - Bu oturumda ikinci not alma. Bitince bitir.
 
+### Oturumun adını göreve göre değiştir
+Notu alıp görevi anlayınca (model kapısından geçtiysen) oturumu yeniden adlandır — Emre kenar
+çubuğunda hangi oturumun hangi notta olduğunu adından görsün:
+`mcp__ccd_session_mgmt__set_session_title` · `session_id: "self"` ·
+`title: "#<no> <yer/konu> <yıl> — <iş>"` (≤ 50 karakter, Türkçe), örn.
+`#3 Berat 1281 — sahibi kim` · `#16 Karesi–Saruhan arası boşluk 1334` · `#13 Harita yazıları büyük`.
+Araç yüklü değilse önce `ToolSearch` (`select:mcp__ccd_session_mgmt__set_session_title`).
+Uygulama onay isterse ya da reddederse ısrar etme, işe devam et. Model kapısında `opus` ile
+bırakılan notta oturum adını değiştirme.
+
 ### Model kapısı (Sonnet oturumu için)
 Notu okuyunca türüne bak. **Motor/geometri notu** ise — zikzak, sivri çıkıntı, ince girinti/koridor,
 üçgen/üçken toprak, katmanların üst üste binmesi, ızgara izi, ya da önceki Claude yorumu teşhisi
