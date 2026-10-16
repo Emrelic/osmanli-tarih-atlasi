@@ -1,6 +1,6 @@
 ---
 name: postit
-description: Haritadaki post-it notlarından (GitHub Issues, etiket harita-notu) sahipsiz BİR notu bu oturuma alır; not arşive gidene kadar bu oturumun uhdesinde kalır. Önceki Claude yorumlarını okuyup devralır, araştırır, düzeltir, raporu ya da soruyu post-it'in altına yazar ve Emre'nin cevabını arka planda bekler (cevap gelince kendiliğinden devam eder). Emre "/postit", "/postit 12" ya da aynı oturumda "devam" yazınca çalışır. 1 not = 1 oturum; not arşivlenince oturum çöpe atılır.
+description: Haritadaki post-it notlarından (GitHub Issues, etiket harita-notu) sahipsiz BİR notu bu oturuma alır; not arşive gidene kadar bu oturumun uhdesinde kalır. Önceki Claude yorumlarını okuyup devralır, araştırır, düzeltir, raporu ya da soruyu post-it'in altına yazar ve Emre'nin cevabını arka planda bekler (cevap gelince kendiliğinden devam eder). Emre "/postit", "/postit 12" ya da aynı oturumda "devam" yazınca çalışır. 1 not = 1 oturum; iş bitince oturum kendini emekli eder (arşivler).
 ---
 
 # /postit — bir post-it, bir oturum
@@ -25,7 +25,7 @@ py arac/not.py al 12 --zorla --model opus   # Emre "/postit 12 zorla" dediyse: b
   ölç; yapılmadıysa yap. Emre'nin son yorumu neyi soruyor ya da neyi onaylıyorsa iş odur.
 - Önceki Claude yorumu YALNIZ Emre'nin verebileceği bir kararla bittiyse ve Emre cevap vermediyse:
   işe girişme, soruyu kısaltıp şıklı olarak yeniden sor (3. adım, `karar-bekliyor`) ve bekle.
-- Çıkış **3** → alınacak not yok. Emre'ye tek satırla söyle, 3 beep, bitir.
+- Çıkış **3** → alınacak not yok → **5. adım (emekli ol)**.
 - Çıkış 0 → çıktı notun TAMAMIDIR (metin, bağlam JSON'u, bütün yorumlar). Bağlamı yeniden kurma.
 - Başka oturumun notuna **dokunma**. Bu oturumda ikinci not alma.
 
@@ -37,7 +37,7 @@ Notu okuyunca türüne bak. **Motor/geometri notu** ise (zikzak, sivri çıkınt
 py arac/not.py opus <no>
 ```
 Not `model:opus` etiketini alır ve bırakılır, yorum yazılmaz. Sitede 🧠 Opus rozeti çıkar. Emre'ye
-tek satır: `#<no> motor notu — Opus oturumuyla aç: /postit <no>`. 3 beep, bitir.
+tek satır: `#<no> motor notu — Opus oturumuyla aç: /postit <no>`. Sonra **5. adım (emekli ol)**.
 Tarih/sahiplik/kaynak soruları, yerleşim eksikliğinden doğan boşluklar ve basit arayüz işleri
 Sonnet'te kalır. Sonnet işin ortasında motora dayandığını görürse de aynısını yapar: o ana kadarki
 bulguyu kısa bir dosyaya yazıp `py arac/not.py opus <no> --dosya <yol>`. Bulgu yoruma girer ama
@@ -105,7 +105,7 @@ Karar yoksa şık satırlarını yazma.
   notun sahipliği ise sürer.)
 - 3 beep. Emre'ye tek satır:
   - soru sorduysan: `#<no> → sorum post-it'te. Sitede cevap yazınca kendiliğimden devam ederim.`
-  - çözdüysen: `#<no> → <durum>. Uygunsa sitede "Kaldır (arşivle)"e bas, sonra bu oturumu silebilirsin.`
+  - çözdüysen: `#<no> → <durum>. Uygunsa sitede "Kaldır (arşivle)"e bas; arşivlenince kendimi emekli ederim.`
 - **Sonra beklemeye geç** (her iki durumda da): Bash aracıyla, `run_in_background: true`:
   ```bash
   py arac/not.py bekle <no>
@@ -114,11 +114,26 @@ Karar yoksa şık satırlarını yazma.
   Uyandığında çıkış koduna bak:
   - **0** → Emre cevap yazdı; çıktı yeni yorumlarıdır. Notu yeniden `al` ile çekme, çıktıyı oku
     ve 2. adımdan devam et (rapor → `yanit` → yine `bekle`).
-  - **10** → not arşive gitti. Tek satır: `#<no> arşivlendi. Bu oturumu silebilirsin.` Bitir.
-  - **11** → not artık bu oturumda değil. Tek satır: `#<no> başka oturuma geçti. Bu oturumu silebilirsin.` Bitir.
+  - **10** → not arşive gitti → **5. adım (emekli ol)**.
+  - **11** → not artık bu oturumda değil → **5. adım (emekli ol)**.
   - Başka bir çıkış (betik çöktü) → bir kez yeniden başlat; yine çökerse Emre'ye söyle.
 - Emre bu oturuma kendisi yazarsa (betik hâlâ çalışırken) önce onun mesajına bak; işin bitince
   bekleme betiği zaten çalışıyorsa ikincisini başlatma.
 
 Arşivi yalnız Emre yapar (`arsivle`'yi yalnız o isterse çağır). Oturum silinir ya da takılırsa Emre
 sitede "🔓 Sahipsiz bırak"a basar; 7 gün hiç ses vermeyen oturumun notu da kendiliğinden düşer.
+
+## 5 · Emekli ol (iş bittiyse oturum kendini arşivler)
+
+Emre'nin kalıcı talimatı (16 Ekim 2026): **işi biten oturum kendini emekli eder.** İş bitti demek:
+`bekle` 10 (not arşivlendi) ya da 11 (not başka oturuma geçti) verdi · `al` 3 verdi (alınacak not
+yok) · Sonnet notu `opus` ile bıraktı. Sırayla:
+1. Kilitleri bırak (`py arac/kilit.py birak-hepsi --kim "oturum-<id>"`); worktree açıksa ve
+   push edilmemiş iş yoksa `ExitWorktree` `remove`. Push edilmemiş iş varsa EMEKLİ OLMA, Emre'ye söyle.
+2. Arka planda süreç kalmasın (bekleme betiği bitmiş olmalı; çalışan varsa `TaskStop`).
+3. 3 beep ve tek satır: `#<no> → <arşivlendi | başka oturuma geçti | Opus'a bırakıldı | not yok>. Kendimi emekli ediyorum.`
+4. **Son araç çağrısı:** `mcp__ccd_session_mgmt__archive_session` · `session_id: "self"` ·
+   `reason: "#<no> bitti"` (yüklü değilse önce `ToolSearch`
+   `select:mcp__ccd_session_mgmt__archive_session`). Bu çağrıdan sonra hiçbir şey yazma.
+   Uygulama reddederse ya da onay isterse ısrar etme: "Bu oturumu arşivleyebilirsin." de, bitir.
+Arşivlenen oturum silinmez; Emre isterse Arşiv listesinden geri açar.
