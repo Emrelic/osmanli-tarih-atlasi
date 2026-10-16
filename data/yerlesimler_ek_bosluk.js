@@ -37,7 +37,7 @@ window.YERLESIMLER_EK_BOSLUK = [
 //    (ölçüldü: 1 madde) ⇒ Değişmez 2 açılmıyor, yeni gün yaratılmadı.
 {ad:"Birecik", kd:[{f:"1281-01-01",t:"1516-08-24",k:0,m:null},{f:"1516-08-24",t:"1923-10-29",k:3,m:"Urfa"}], tur:"sehir", lat:37.025, lon:37.977, g:1, k:3,
  m:"Urfa",
- s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
+ s:[{f:"1277-01-01",t:"1516-08-24",d:"memluk",kaynak:"T5-1000-B-1016: f 1281-01-01 → 1277-01-01 geri çekildi — TDV birecik: 'Bunlardan 1277-1279 tarihli olanlar Memlük Sultanı Berke Han, 1482-1483 tarihliler ise Sultan Kayıtbay zamanına aittir.' · TANIK: kaledeki Memlük kitâbesi (Sultan Berke/Baraka Han, 1277-1279). Edinim değil. · T5-1000-B-1016"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
  d:[{f:"1516-08-24",t:"1920-04-23"}],
  kaynak:"TDV `birecik` — gövdesi okundu, 2026-08-28"},
 
