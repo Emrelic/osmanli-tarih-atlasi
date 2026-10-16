@@ -209,6 +209,11 @@ def alinabilir_mi(issue, kim, zorla=False, model=None):
     if model and model != "opus" and MODEL_OPUS in etiketler(issue):
         return False, "Opus ister (%s)" % MODEL_OPUS
     sahipler = [s for s in sahip_etiketleri(issue) if s != OTURUM + kim]
+    _, durum = coz(issue)
+    if not sahipler and son_yazan(issue) == "claude" and durum in ("cozuldu", "dogru-bulundu"):
+        # İşi biten oturum notu bırakıp emekli oldu; not Emre'nin arşivini ya da cevabını
+        # bekliyor. Emre yazarsa `son:emre` olur ve yeniden alınabilir.
+        return False, "çözüldü, Emre'nin arşivini/cevabını bekliyor"
     if not sahipler:
         return True, ""
     if zorla:
