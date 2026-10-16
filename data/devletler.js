@@ -2154,7 +2154,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"artuklu", ad:"Artukoğulları (Artuklu Beyliği)", tur:"beylik", bolge:"anadolu",
-  f:"1102-01-01", t:"1409-01-01", baskent:"Hasankeyf / Mardin / Harput", harita:"artuklu",
+  f:"1085-01-01", t:"1409-01-01", baskent:"Hasankeyf / Mardin / Harput", harita:"artuklu",
+  ic_not_f:"T5-1000-B-1016 (D205 sınıf ② — aynı hânedan sürüyor, künye GENİŞLETİLDİ): f 1102-01-01 → 1085-01-01. TDV kudus: 'Büyük Selçuklu Sultanı Melikşah’ın kardeşi Tâcüddevle Tutuş 471 (1079) yılında Atsız’ı ortadan kaldırdı, daha sonra Kudüs ve çevresinin yönetimini Artuk b. Eksük’e verdi (477/1085).' · TDV artuklular: 'Tutuş da ona Kudüs ve havalisini iktâ olarak verdi. Artuk Bey’in ölümünden sonra yerine oğulları Sökmen ve İlgazi geçtiler (484/1091).' Hânedanın siyasî varlığı Kudüs iktâsıyla başlar; 1102 Hasankeyf/Mardin kollarının kuruluşudur (kronolojideki ilk madde). Hicrî 477 = 1084-85, TDV 1085 yazar ⇒ yıl hassasiyeti. ⚠️ 1085-1098 Kudüs iktâdır (Tutuş'a tâbi); atlas Kudüs noktasını bu dilimde suriye-selcuklu'da tutar.",
   ozet:"Malazgirt sonrası Diyarbekir-Mardin bölgesinde üç kola (Hasankeyf, Mardin, Harput) ayrılarak üç asır hüküm süren Türkmen beyliği; en uzun ömürlü Mardin kolu Karakoyunlu baskısıyla sona erdi. (kaynak: TDV, madde: artuklular)",
   kaynak:"artuklular",
   kronoloji:[
@@ -11140,8 +11141,8 @@ window.DEVLETLER = [
 },
 // ── ONCE1281-IRAN (birleştiren KUNYE-1945-0930, 30 Eylül 2026) ──
 { id:"buyuk-selcuklu", ad:"Büyük Selçuklu Devleti", tur:"sultanlik", bolge:"iran",
-  f:"1040-05-23", t:"1157-01-01", baskent:"Nîşâbur → Rey → İsfahan → Merv", boya_gerekli:true,
-  ic_not_f:"Dandanakan zaferi 8 Ramazan 431 / 23 Mayıs 1040; TDV: 'Tuğrul Bey, Büyük Selçuklu Devleti'nin ilk hükümdarı oldu (1040-1063)' [TDV: selcuklular]. Başkent sırası: Nîşâbur (1040) → Rey (434/1042-43) → İsfahan (Melikşah dönemi; önbellekte bu geçişin tarihli cümlesi okunmadı) → Merv (Sencer).",
+  f:"1038-01-01", t:"1157-01-01", baskent:"Nîşâbur → Rey → İsfahan → Merv", boya_gerekli:true,
+  ic_not_f:"T5-1000-B-1016 (D205 sınıf ② — aynı polity, künye GENİŞLETİLDİ): f 1040-05-23 → 1038-01-01. TDV nisabur--iran: 'Nîşâbur, Selçuklular’ın Gazneliler’e karşı Serahs yakınlarında kazandığı zaferin ardından 429 (1038) yılı ilkbaharında Tuğrul Bey’in eline geçti.' · TDV tugrul-bey: Talhâb zaferinden sonra (Şâban 429 / Mayıs 1038) 'Horasan’ın bir kısmını işgal ettiler ve kendilerine hükümdar gözüyle bakmaya başladılar.' Mevsim/ay metinde, alan YIL (D213); gün uydurulmadı. Dandanakan (1040-05-23) kesin zaferdir, devletin başlangıcı değil. ESKİ NOT: Dandanakan zaferi 8 Ramazan 431 / 23 Mayıs 1040; TDV: 'Tuğrul Bey, Büyük Selçuklu Devleti'nin ilk hükümdarı oldu (1040-1063)' [TDV: selcuklular]. Başkent sırası: Nîşâbur (1040) → Rey (434/1042-43) → İsfahan (Melikşah dönemi; önbellekte bu geçişin tarihli cümlesi okunmadı) → Merv (Sencer).",
   ic_not_t:"Sencer 14 veya 24 Rebîülevvel 552 = 26 Nisan VEYA 6 Mayıs 1157'de öldü; TDV iki gün veriyor, seçilmedi → 1157-01-01 (yıl hassasiyeti). Koordinatör 1157-04-26 isterse ilk rivayet. Irak Selçukluları (1118-1194) ayrı künye.",
   alinti_f:"Üç gün devam eden savaş neticesinde Selçuklular kesin bir zafer kazandı (8 Ramazan 431 Cuma / 23 Mayıs 1040).",
   alinti_t:"Sencer’in ölümüyle Büyük Selçuklu Devleti tarih sahnesinden çekilmiş oldu.",
@@ -12688,9 +12689,9 @@ window.DEVLETLER = [
   ]
 },
 { id:"eyyubi-halep", ad:"Halep Eyyûbîleri", tur:"hanedanlik", bolge:"suriye-filistin",
-  f:"1186-01-01", t:"1260-01-01", baskent:"Halep (1250-1260 Dımaşk da)", boya_gerekli:true,
+  f:"1186-01-01", t:"1260-09-03", baskent:"Halep (1250-1260 Dımaşk da)", boya_gerekli:true,
   ic_not_f:"TDV: halep (\"Üç yıl sonra el-Melikü’z-Zâhir tekrar Halep’e tayin edildi (582/1186).\") — hicrî 582 = 1186-87, TDV 1186 yazar. ⚠️ eyyubiler hükümdar listesi Halep kolunu 'I. el-Melikü’l-Âdil Seyfeddin 579 (1183)' ile başlatır; 1183-1186 arası Halep merkezî Selâhaddin tayinlilerindeydi (Zâhir, sonra Âdil) — o dilim eyyubi kimliğinde kalmalı; kol 1186'dan.",
-  ic_not_t:"TDV: eyyubiler (\"1260 yılı başlarında da Halep’i zaptetti.\") — gün yok ⇒ 1260-01-01; son melik Yûsuf 1260'ta Hülâgû tarafından öldürüldü: 'Böylece Eyyûbîler’in Halep kolu da sona erdi.'",
+  ic_not_t:"T5-1000-B-1016 (D205 sınıf ② — aynı hânedan sürüyor, künye GENİŞLETİLDİ): t 1260-01-01 → 1260-09-03 (Aynicâlût). Halep'in düşüşü (1260 başı) ve Dımaşk'ın düşüşü (Mart 1260: TDV sam--suriye 'Suriye’de Halep, Humus ve Hama gibi Dımaşk da Moğollar’ın eline geçti (Rebîülevvel 658 / Mart 1260).') hânedanı bitirmedi; Filistin'deki Eyyûbî hâkimiyeti Aynicâlût'a kadar sürdü — TDV kudus: 'Moğollar’a karşı kazanılan Aynicâlût zaferiyle (1260) Eyyûbî hânedanı da sona erdi' · gün TDV eyyubiler: 'Memlükler’le Moğollar arasında 3 Eylül 1260’ta Aynicâlût’ta, 6 Eylül 1260’ta Beysân yakınlarında yapılan iki savaş Memlükler’in kesin zaferiyle sonuçlandı.' ESKİ NOT: TDV: eyyubiler (\"1260 yılı başlarında da Halep’i zaptetti.\") — gün yok ⇒ 1260-01-01; son melik Yûsuf 1260'ta Hülâgû tarafından öldürüldü: 'Böylece Eyyûbîler’in Halep kolu da sona erdi.'",
   ozet:"Selâhaddin'in oğlu el-Melikü'z-Zâhir Gāzî'nin 1186'dan itibaren yönettiği Halep kolu; Âdil soyunun merkezî sultanlığından bağımsız kaldı, 1250'de Dımaşk'ı da aldı, 1260'ta Hülâgû Halep'i zaptedince sona erdi.",
   kaynak:"TDV: halep; eyyubiler (hükümdar listesi 3. Halep Kolu)",
   kronoloji:[
