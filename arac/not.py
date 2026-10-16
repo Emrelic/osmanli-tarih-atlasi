@@ -60,6 +60,7 @@ DURUMLAR = ["acik", "okundu", "arastiriliyor", "karar-bekliyor", "cozuldu", "dog
 SITE = "https://emrelic.github.io/osmanli-tarih-atlasi/"
 ONEK = "🤖 **Claude** — "
 SON = "son:"
+YENI = "yeni:claude"   # Emre'nin okumadığı Claude mesajı (js/gelistirici.js aynı ad)
 OTURUM = "oturum:"
 SURE_SAAT = 7 * 24
 MODEL_OPUS = "model:opus"   # motor/geometri notu: Sonnet oturumu almaz, sitede 🧠 Opus rozeti
@@ -163,8 +164,11 @@ def etiket_sil(no, ad):
 
 
 def son_yaz(issue, kim):
+    """`son:<kim>`; Claude yazdıysa `yeni:claude` da konur (Emre'ye okunmamış mesaj —
+    site notun panelini açınca siler)."""
     no = issue["number"]
-    gh("/issues/%d/labels" % no, "POST", {"labels": [SON + kim]}, yazma=True)
+    gh("/issues/%d/labels" % no, "POST",
+       {"labels": [SON + kim] + ([YENI] if kim == "claude" else [])}, yazma=True)
     for ad in etiketler(issue):
         if ad.startswith(SON) and ad != SON + kim:
             etiket_sil(no, ad)
