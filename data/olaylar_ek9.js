@@ -146,11 +146,11 @@ window.OLAYLAR_EK9 = [
 // E) TOKAR — Doğu Sudan'ın sekiz yıllık Mehdî devri
 // ---------------------------------------------------------------------------
 
-{ t:"1884-01-01", k:"kayip", etiket:["toprak-kayip","isyan","konu-askeri","konu-isyan"],
-  b:"Doğu Sudan'ın Mehdî kuvvetlerine geçişi — Tokar'ın kaybı",
-  gun:"1884", yer:"Tokar, Sinkat, Sevâkin ardalanı", kisiler:"Osman Digna, Muhammed Ahmed el-Mehdî",
-  d:"Mehdî'nin doğu Sudan'daki halifesi Osman Digna, 1883 sonbaharından itibaren Bece kabilelerini ayaklandırarak Sevâkin'in ardalanını ele geçirdi; Sinkat ve Tokar garnizonları kuşatıldı ve 1884 başında bölge tamamen Mehdî idaresine girdi. Sevâkin limanı İngiliz-Mısır elinde kaldığı için kıyı ile içerisi sekiz yıl boyunca ayrı iki idare altında durdu. Tokar 1891 Şubatında geri alındı.", ic_not_d:"Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
-  kaynak:"sudan", duygu:["😔"], yer_id:"Tokar" },
+// DENETIM-K27-1016: buradaki 1884-01-01 "Doğu Sudan'ın Mehdî kuvvetlerine geçişi — Tokar'ın kaybı" maddesi SİLİNDİ:
+//   aynı olayın GÜNLÜ maddeleri KARAR-UYG-1015 ile olaylar_ek16.js'e yazıldı (Sinkat 1884-02-08 · Sevâkin 1884-02-09 ·
+//   Tokar 1884-02-20 — Royle / Wingate) ve Tokar kaydı artık 1884-02-20'de kırılıyor; yıl maddesi mükerrer kalmıştı
+//   (mükerrer denetimi: 'Tokar'ın Mehdî kuvvetlerine teslimi' ile başlık çifti). Gövdesindeki 1891 geri alışı
+//   olaylar_ek16 1891-02-19 (Tokar) ve 1891-03-03 (Sinkat) maddelerinde.
 
 // ---------------------------------------------------------------------------
 // F) KESELA — Taka bölgesinin fethi

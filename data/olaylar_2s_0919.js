@@ -540,11 +540,8 @@ window.OLAYLAR_2S_0919 = [
   d:"1281'de Anjou kuşatmasını kıran ve o tarihten beri Bizans'ın Adriyatik'teki son eyaletinin merkezi olan Berat kalesi, Bizans iç savaşı sürerken Stefan Duşan'ın Arnavutluk'a ilerleyişinde Sırp eline geçti. Kroya'nın Mayıs ya da Haziran 1343'te teslim olmasının ardından Berat, Kanina ve Avlonya iki yıl içinde Sırpların oldu; eyaletin başına Duşan'ın kayınbiraderi John Komnenos Asen getirildi.",
   kaynak:"D. M. Nicol, The Despotate of Epiros 1267-1479 (Cambridge 1984), s. 127 — AYNEN: \"Berat, Kanina and Valona were all in Serbian hands within two years. Berat may have fallen by 1343. Valona fell between July and September of 1345.\" · aynı sayfa: \"The Byzantine province of Berat, Valona, Kanina and Spinaritsa, which had come into being in the years after 1281, was now held by a Slav governor.\" · TDV berat--arnavutluk: Bizans … 'tekrar Bizanslılar’ın, Sırplar’ın' (yıl yok) · hassasiyet: YIL, OLASI ('may have fallen by 1343')" },
 
-// NOT-DUZELT-1016 (Emre notu #4 yan bulgu) — Arnavutluk kıyısındaki Anjou kaleleri Sicilya Akşamı'ndan sonra
-// Napoli (kara) krallığına kaldı; veride sicilya-kralligi → napoli kırılması (Draç, Avlonya, Kanina, Hımara)
-{ t:"1282-03-30", b:"Sicilya Akşamı'ndan sonra Anjou'nun Arnavutluk kıyısındaki kaleleri (Draç, Avlonya, Kanina, Hımara) Napoli Krallığı'na kaldı", tur:"siyaset", onem:2, dunya:2, kapsam:"dis", yer_id:"Avlonya", yer:"Draç, Avlonya, Kanina, Hımara (Himarë)",
-  etiket:["siyaset","konu-siyasi"], taraflar:["sicilya-kralligi","napoli"],
-  d:"30 Mart 1282'de Palermo'da başlayan ayaklanma Sicilya adasını Anjou I. Charles'ın elinden aldı; Charles'ın kara topraklarıyla birlikte Adriyatik'in doğu kıyısındaki Draç, Avlonya, Kanina ve Hımara kaleleri de Napoli merkezli krallıkta kaldı. Avlonya kumandanı John of Taxis 1282 boyunca Bizanslılara karşı direndi; bu kaleler 1283 sonrasında, Draç, Avlonya ve Kanina büyük ihtimalle 1285 başında, Bizans'a geçecekti.",
-  kaynak:"D. M. Nicol, The Despotate of Epiros 1267-1479 (Cambridge 1984), s. 27 ve n. 71 — Valona kumandanı John of Taxis için Anjou belgeleri 'April and May 1282 … September 1282'; 'continuing brave stand against the Greeks as late as September 1284' · A. Kiesewetter, Palaver n.s. 4/1 (2015), s. 255-298: Himara için son Anjou kaydı Nisan 1283 ('capitaneus insule Corfoi, Butruntoi, Subutoi et Chimarre'); n. 99 Durazzo, Valona, Canina 'all’inizio del 1285' Bizans'a · olayın günü: olaylar_ek5.js Sicilya Akşamı maddesi (Treccani, 30 Mart 1282) · hassasiyet: GÜN (ayaklanma); kalelerin devri bir hukuk sürekliliği, ayrı günü yok" },
+// NOT-DUZELT-1016 (Emre notu #4 yan bulgu) — Arnavutluk kıyısındaki Anjou kaleleri (Draç, Avlonya, Kanina, Hımara)
+// 1282-03-30 maddesi DENETIM-K27-1016'da olaylar_ek5.js'teki 'Sicilya Akşamı' maddesine BİRLEŞTİRİLDİ (aynı olay;
+// yer alanı ve Nicol/Kiesewetter kaynağı oraya taşındı).
 
 ];

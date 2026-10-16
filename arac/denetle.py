@@ -3883,6 +3883,12 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ⭐ DENETIM-K27-1016 — 16 Ekim 2026. İki BAŞLIK çifti, AYRI YER + AYRI GÜN (yalnız kalıp ortak: 'X'in … teslimi'):
+    # Gence 1735-07-09 (TDV gence) ↔ Revan 1735-10-03 (TDV nadir-sah--iran) — Nâdir'in 1735 seferinin İKİ ayrı teslimi, 86 gün arayla;
+    # Darfur 1883-12-23 (Slatin'in teslimi, TDV darfur) ↔ Tokar 1884-02-20 (Royle s.275-276) — Batı ve Doğu Sudan, 59 gün arayla.
+    # Değişmez 2 her yere ayrı madde ister ⇒ birleştirilemez. Başlık DEĞİŞTİRİLMEDİ.
+    ("Gence'nin Nâdir'e teslimi", "Revan'ın Nâdir Han'a teslimi"),
+    ("Darfur'un Mehdî kuvvetlerine geçişi — Slatin Paşa'nın teslimi", "Tokar'ın Mehdî kuvvetlerine teslimi"),
     # ⭐ KUTU-TOPLU-1014 (KOŞU 25 öncesi birleşim) — 14 Ekim 2026. Üç çift AYRI YER, aynı gün/aynı komutan:
     # İçil (Gülek) ↔ Konya Ereğlisi, Maraş ↔ Afyon (1832-33 Mısır işgali, KUTU-K2 koridor noktaları);
     # Erzurum ↔ Hasankale/Pasinler (1918-03-12, KUTU-F2 Pasinler noktası). Değişmez 2 her yere ayrı madde
