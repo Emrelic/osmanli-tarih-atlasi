@@ -507,6 +507,10 @@ def _sk_pad(s):
     return s
 
 
+# 🆕 MOTOR-KOMSU-KUR-BOL-1016 (Emre notları #14, #17): bir noktanın kur:/bit: günü
+# o noktanın payını alan/veren KOMŞU yabancı devletlerin dönemini de böler.
+# Kapalıyken (varsayılan) yeni hiçbir satır çalışmaz ⇒ çıktı BİT BİT aynı.
+KOMSU_KUR_BOL = os.environ.get("MOTOR_KOMSU_KUR_BOL") == "1"
 SINIR_KISIT = os.environ.get("MOTOR_SINIR_KISIT") == "1"
 SINIR_KISIT_KM = float(os.environ.get("MOTOR_SINIR_KISIT_KM", "80") or "80")
 SINIR_KISIT_DEGME_KM = 1.0          # = denetle.py D8_DEGME (hatta değme bandı)
@@ -5736,6 +5740,215 @@ if _kus_kayit:
 else:
     print("  kuşatılmışlık devri: yok")
 
+
+# ---- 🆕 MOTOR-KOMSU-KUR-BOL-1016 — komşu kur:/bit: günü komşunun dönemini böler ----
+# KUSUR (Emre #14 Hamîd × İnanç 942 km², #17 Germiyan/Saruhan × Karesi 398+119 km²):
+# yabancı gövdenin kırılma günleri yalnız KENDİ noktalarından geliyordu. Burdur
+# (kur 1299-09-28) sahneye girince Denizli'nin peteği küçülür, ama İnançoğulları'nın
+# tek dönemi (1281→1368) 1281 gövdesiyle 87 yıl sürer ⇒ Burdur payı iki gövdede.
+# ÇARE: her varlık kırılma günü g için, `petek_epok`un o gün peteğini DEĞİŞTİREBİLECEĞİ
+# noktalar (ERİŞİM) hesaplanır; bir devletin noktası ERİŞİM(g)'deyse g onun da
+# kırılma günüdür. ERİŞİM, `petek_epok`un kendi alıcı kuralının ÜST KÜMESİDİR ve
+# geometri hesabı İSTEMEZ (petek_epok çağrı başı ~15 sn, KOŞU 25 logu):
+#   · ölü grup = `_olu_bilesenler` kuralı (hücre zarfı +0,02° ∩ zarf, boş hücre hariç)
+#   · alıcı adayı = `_canli_komsular` kuralı (grup zarfı +0,02° ∩ canlı hücre zarfı);
+#     YÜRÜYÜŞ açıkken pay ±3 ızgara kutusu + 3 süzgeç turu = 6 × 0,05° = 0,30° pay
+#   · canlı aday yoksa (eski yol, küresel en yakın) üyelerin en yakın canlı noktası
+# Gün eklenip gövde DEĞİŞMEZSE dönem BÖLÜNMEZ (mp eşitliği, aşağıda FAZ 1) ⇒ üst
+# küme yalnız hesap maliyetidir, ek dönem değildir.
+def _kkb_bilesenler(zarf, bos, D):
+    """D (devir kümesi) içindeki BOŞ OLMAYAN ölü hücrelerin grupları — kural
+    `_olu_bilesenler` ile aynı (hücre zarfı +0,02° ∩ öteki hücrenin zarfı).
+    Döner: [(grup listesi, [x0, y0, x1, y1]) …]. (Yalnız kip "zarf".)"""
+    import numpy as _knp
+    Dl = _knp.array(sorted(i for i in D if not bos[i]), dtype=_knp.int64)
+    if not len(Dl):
+        return []
+    Z = zarf[Dl]
+    gor, out = set(), []
+    for t in Dl.tolist():
+        if t in gor:
+            continue
+        grup, yigin = [], [t]
+        gor.add(t)
+        while yigin:
+            k = yigin.pop()
+            grup.append(k)
+            zk = zarf[k]
+            m = ((Z[:, 0] <= zk[2] + 0.02) & (Z[:, 2] >= zk[0] - 0.02)
+                 & (Z[:, 1] <= zk[3] + 0.02) & (Z[:, 3] >= zk[1] - 0.02))
+            for j in Dl[m].tolist():
+                if j not in gor:
+                    gor.add(j); yigin.append(j)
+        g0 = zarf[grup]
+        out.append((grup, [g0[:, 0].min(), g0[:, 1].min(), g0[:, 2].max(), g0[:, 3].max()]))
+    return out
+
+
+def _kkb_en_yakin(xy, i, D, canli):
+    """i'ye en yakın CANLI (D dışı) nokta — `petek_epok` eski yolunun kuralı (düzlem)."""
+    import numpy as _knp
+    c = canli.get(D)
+    if c is None:
+        c = canli[D] = _knp.array([j for j in range(len(xy)) if j not in D], dtype=_knp.int64)
+    return int(c[int(((xy[c] - xy[i]) ** 2).sum(axis=1).argmin())]) if len(c) else None
+
+
+KKB_ESIT_TAVAN = 1e-7     # derece² (~0,001 km²): yeniden birleşimin sayısal gürültüsü değişim sayılmaz
+
+
+def _kkb_hucre_ayni(onceki, pe, aktif):
+    """Son HESAPLANAN gövdenin hücreleri (`onceki`: j → geometri) ile bugünkü
+    `petek_epok` hücreleri aynı mı? Aynı nesne ⇒ aynı; değilse simetrik fark alanı
+    `KKB_ESIT_TAVAN`ın altında ⇒ aynı (pay yeniden hesaplanınca köşe temsili değişir,
+    toprak değişmez). `onceki`de olmayan nokta ⇒ FARKLI (güvenli taraf)."""
+    for j in aktif:
+        if j not in onceki:
+            return False
+        g0, g1 = onceki[j], pe[j]
+        if g0 is g1:
+            continue
+        b0 = g0 is None or g0.is_empty
+        b1 = g1 is None or g1.is_empty
+        if b0 or b1:
+            if b0 != b1:
+                return False
+            continue
+        try:
+            if g0.symmetric_difference(g1).area > KKB_ESIT_TAVAN:
+                return False
+        except Exception:
+            return False
+    return True
+
+
+def _kkb_erisim(xy, bos, d_once, d_sonra, graf=None, zarf=None, pay=0.02, bilesen=None):
+    """Saf işlev (sınanabilir). g gününde `petek_epok`un peteğini DEĞİŞTİREBİLECEĞİ
+    indeksler. xy: (n,2) nokta · bos: (n,) bool (hücre yok/boş) · d_once/d_sonra:
+    g'den önceki/sonraki devir kümesi (frozenset).
+    KİP "geo" (graf verilirse): graf[i] = PETEK_D[i]'ye `pay` derece
+      içinde değen hücreler. Değişen her nokta x için, x'i içeren ÖLÜ BİLEŞEN
+      (graf üzerinden, iki durumda ayrı ayrı) + bileşene değen CANLI hücreler.
+      NİÇİN YETER: mini-Voronoi'de p noktasının payı en yakın adaya gider; p'den
+      uzak bir j'ye giden doğru ölü alanı terk ederken önce DEĞEN bir canlı k
+      hücresine girer ve d(p,k) <= d(p,j) ⇒ payı alan, ölü alana değen hücredir.
+      Bileşen sınırı (`_olu_bilesenler`in zarf kuralı daha geniş grup kurar) payı
+      değiştirmez: uzak aday hiçbir p'yi kazanmaz. Motorun hücresi saf Voronoi
+      değildir (kenar yaslama, yürüyüş) ⇒ sapma `pay`la karşılanır.
+    KİP "zarf" (zarf verilirse, VARSAYILAN): `_canli_komsular`ın birebir aday
+      kuralı (grup zarfı +pay ∩ canlı hücre zarfı) ⇒ argümansız KESİN üst küme.
+      İki kip de KABA olabilir (kıta ölçeğinde ölü grup) — fazla gün gövde hesabı
+      DOĞURMAZ: FAZ 1 önce `_kkb_hucre_ayni` ile hücrenin gerçekten değişip
+      değişmediğine bakar. Ölçüm (kaba vekil): zarf 15.316 · geo 44.754 çift.
+    Komşusuz bileşen (aday yok) eski yoldan küresel en yakına gider: iki durumun
+    en yakını da döner."""
+    import numpy as _knp
+    X = d_once ^ d_sonra
+    if not X:
+        return frozenset()
+    out, canli = set(), {}
+    if graf is not None:
+        for D in (d_once, d_sonra):
+            gor = set()
+            for t in sorted(X):
+                if t not in D or bos[t] or t in gor:
+                    continue
+                grup, yigin = [], [t]
+                gor.add(t)
+                while yigin:
+                    k = yigin.pop()
+                    grup.append(k)
+                    for j in graf[k]:
+                        if j in D and not bos[j] and j not in gor:
+                            gor.add(j); yigin.append(j)
+                aday = {j for k in grup for j in graf[k] if j not in D and not bos[j]}
+                out.update(grup); out.update(aday)
+                if not aday:
+                    for i in grup:
+                        for Dk in (d_once, d_sonra):
+                            e = _kkb_en_yakin(xy, i, Dk, canli)
+                            if e is not None:
+                                out.add(e)
+        return frozenset(out)
+    Xl = [x for x in sorted(X) if not bos[x]]
+    ZX = zarf[Xl] if Xl else None
+    for D in (d_once, d_sonra):
+        bl = bilesen(D) if bilesen else _kkb_bilesenler(zarf, bos, D)
+        for grup, (x0, y0, x1, y1) in bl:
+            ex = (x0 - pay, y0 - pay, x1 + pay, y1 + pay)
+            ilgili = any(i in X for i in grup) or bool(
+                ZX is not None and ((ZX[:, 0] <= ex[2]) & (ZX[:, 2] >= ex[0])
+                                    & (ZX[:, 1] <= ex[3]) & (ZX[:, 3] >= ex[1])).any())
+            m = ((zarf[:, 0] <= ex[2]) & (zarf[:, 2] >= ex[0])
+                 & (zarf[:, 1] <= ex[3]) & (zarf[:, 3] >= ex[1]) & ~bos)
+            aday = [j for j in _knp.nonzero(m)[0].tolist() if j not in D]
+            if aday:
+                if ilgili:
+                    out.update(grup); out.update(aday)
+                continue
+            for i in grup:
+                en = [e for e in (_kkb_en_yakin(xy, i, Dk, canli) for Dk in (d_once, d_sonra))
+                      if e is not None]
+                if ilgili or len(set(en)) > 1:
+                    out.update(grup); out.update(en)
+    return frozenset(out)
+
+
+_KKB_NOKTA_GUN = {}                   # nokta → [kırılma günü …] (yalnız bayrak açıkken dolar)
+_kkb_kip = _kkb_pay = None
+if KOMSU_KUR_BOL:
+    import bisect
+    import numpy as _knp
+    _t_kkb = time.time()
+    _kkb_kip = os.environ.get("MOTOR_KOMSU_KUR_BOL_KIP", "zarf")
+    if _kkb_kip not in ("geo", "zarf"):
+        raise SystemExit(f"MOTOR_KOMSU_KUR_BOL_KIP={_kkb_kip!r} — 'geo' ya da 'zarf' olmalı")
+    # pay: 0,02° = motorun kendi komşuluk tamponu (`_cep`, `_olu_bilesenler`);
+    # YÜRÜYÜŞ açıkken hücreler Dijkstra sahibidir, mini-Voronoi düzlemdir ⇒ +0,30°
+    # (±3 ızgara kutusu + 3 süzgeç turu = 6 × 0,05°).
+    _kkb_pay = 0.02 + (0.30 if MOTOR_YURUYUS else 0.0)
+    _kkb_bos = _knp.array([_c is None or _c.is_empty for _c in PETEK_D], dtype=bool)
+    _kkb_xy = _knp.array([[y["lon"], y["lat"]] for y in YERLER], dtype=float)
+    _kkb_graf = _kkb_zarf = _kkb_bil = None
+    if _kkb_kip == "geo":
+        _kkb_ix = [i for i in range(len(PETEK_D)) if not _kkb_bos[i]]
+        _kkb_agac = STRtree([PETEK_D[i] for i in _kkb_ix])
+        _kkb_ci = _kkb_agac.query([PETEK_D[i] for i in _kkb_ix], predicate="dwithin",
+                                  distance=_kkb_pay)
+        _kkb_graf = [set() for _ in range(len(PETEK_D))]
+        for _a, _b in zip(_kkb_ci[0].tolist(), _kkb_ci[1].tolist()):
+            if _a != _b:
+                _kkb_graf[_kkb_ix[_a]].add(_kkb_ix[_b])
+        del _kkb_agac, _kkb_ci
+    else:
+        _kkb_zarf = _knp.zeros((len(PETEK_D), 4))
+        for _i, _c in enumerate(PETEK_D):
+            if not _kkb_bos[_i]:
+                _kkb_zarf[_i] = _c.bounds
+        _kkb_bil_ez = {}
+
+        def _kkb_bil(D):              # ardışık iki gün aynı devir kümesini paylaşır
+            v = _kkb_bil_ez.get(D)
+            if v is None:
+                if len(_kkb_bil_ez) > 2:
+                    _kkb_bil_ez.clear()
+                v = _kkb_bil_ez[D] = _kkb_bilesenler(_kkb_zarf, _kkb_bos, D)
+            return v
+    _kkb_once = devir_kumesi(EPOK)
+    _kkb_cift = 0
+    for _g in _epok_gun:
+        if not (EPOK < _g <= KESIT_SON):
+            continue
+        _kkb_sonra = devir_kumesi(_g)
+        for _j in _kkb_erisim(_kkb_xy, _kkb_bos, _kkb_once, _kkb_sonra, graf=_kkb_graf,
+                              zarf=_kkb_zarf, pay=_kkb_pay, bilesen=_kkb_bil):
+            _KKB_NOKTA_GUN.setdefault(_j, []).append(_g)
+            _kkb_cift += 1
+        _kkb_once = _kkb_sonra
+    print(f"  🧩 KOMŞU-KUR-BÖL: AÇIK · kip {_kkb_kip} · pay {_kkb_pay:.2f}° · "
+          f"{len(_KKB_NOKTA_GUN)} nokta · {_kkb_cift} (nokta, gün) erişim çifti · "
+          f"{time.time() - _t_kkb:.1f} sn")
+
 # ---------------- Parça havuzu ----------------
 # Aynı gövde parçası (ada, değişmeyen ana halka…) yüzlerce dönemde birebir
 # tekrarlanıyordu; ölçüm: donemler.js noktalarının yalnız %40'ı eşsizdi.
@@ -7603,12 +7816,17 @@ def _yabanci_devlet_faz1(_arg):
     if SINIR_KISIT:                    # 🆕 MOTOR-SINIR-KISIT-1015: hat + karşı hücre günleri
         for _ski in _SK_TARAF.get(did, ()):
             ts.update(_SK_HATLAR[_ski]["gunler"])
+    _kkb_gun = None
+    if KOMSU_KUR_BOL:                  # 🆕 MOTOR-KOMSU-KUR-BOL-1016: komşu kur:/bit: günleri
+        _kkb_gun = sorted({g for j in hj for g in _KKB_NOKTA_GUN.get(j, ())})
+        ts.update(_kkb_gun)
     ts = sorted(t for t in ts if EPOK <= t <= KESIT_SON)
     if not ts: return did, dad, renk, [], []
     if ts[0] != EPOK: ts.insert(0, EPOK)
     if ts[-1] != KESIT_SON: ts.append(KESIT_SON)
     ham = []; tani = []; onceki = None
     _sk_onceki = None; _sk_son = None
+    _kk_onceki = None; _kk_hucre = {}
     for i in range(len(ts) - 1):
         a, b = ts[i], ts[i+1]
         nabiz(f"devlet {_i}/{len(BOYALAR)} {did} · gün {i+1}/{len(ts)-1} ({a})")
@@ -7634,16 +7852,31 @@ def _yabanci_devlet_faz1(_arg):
         # 🆕 MOTOR-SINIR-KISIT-1015: imza (hat kümesi + karşı tarafın koridor
         # hücreleri) de aynı kalmalı; bayrak kapalıyken imza hep None ⇒ ESKİ kural.
         _sk_i = _sk_imza(did, a) if (SINIR_KISIT and aktif) else None
-        if aktif == onceki and ham and aktif and _sk_i == _sk_onceki:
+        # 🆕 KOMŞU-KUR-BÖL: imza = a'ya kadar geçen komşu varlık kırılması sayısı.
+        # Komşu peteği değiştiyse aynı `aktif` kümesi de YENİDEN hesaplanır.
+        _kk_i = bisect.bisect_right(_kkb_gun, a) if _kkb_gun is not None else None
+        # ERİŞİM bir ÜST KÜMEDİR: komşu kırılması geldi ama bu devletin aktif
+        # hücreleri GERÇEKTEN değişmediyse (alan farkı tavanın altında) gövde
+        # yeniden hesaplanmaz — kırılma "görülmüş" sayılır, dönem uzar.
+        if (_kk_i is not None and _kk_i != _kk_onceki and aktif == onceki and ham and aktif
+                and _sk_i == _sk_onceki and _kkb_hucre_ayni(_kk_hucre, petek_epok(a), aktif)):
+            _kk_onceki = _kk_i
+        if aktif == onceki and ham and aktif and _sk_i == _sk_onceki and _kk_i == _kk_onceki:
             # 🆕 SINIR-KISIT: önceki AYNI kurgu boş gövde verdiyse ham[-1] ESKİ bir
             # dönemdir — onu uzatmak o dönemi yıllarca sürükler (kutu sınavı: 1664
             # Yeni Hollanda gövdesi 1850'ye taşındı). Bayrak kapalıyken ESKİ davranış.
-            if SINIR_KISIT and ham[-1]["t"] != a:
+            # KOMŞU-KUR-BÖL aynı sebeple aynı kuralı alır (daha çok bölme = daha çok
+            # "araya boş gövde girdi" vakası).
+            if (SINIR_KISIT or KOMSU_KUR_BOL) and ham[-1]["t"] != a:
                 continue
             ham[-1]["t"] = b; continue
         onceki = aktif
         _sk_onceki = _sk_i
+        _kk_onceki = _kk_i
         if not aktif: continue
+        if _kk_i is not None:
+            _kk_pe = petek_epok(a)
+            _kk_hucre = {j: _kk_pe[j] for j in aktif}
         _t_gv = time.time()
         # 🧱 ÖNBELLEK (M-4537): anahtar = gövde hesabının OKUDUĞU her şey (bkz.
         # `_govde_anahtar`). Önbellek AÇIKKEN petekler KANONİK sırayla birleşir
@@ -7679,9 +7912,11 @@ def _yabanci_devlet_faz1(_arg):
         if not _mp:
             tani.append((_sure, _kesilen, _tamamen))
             continue
-        if (SINIR_KISIT and ham and _sk_son == aktif and ham[-1]["t"] == a
+        if ((SINIR_KISIT or KOMSU_KUR_BOL) and ham and _sk_son == aktif and ham[-1]["t"] == a
                 and ham[-1]["mp"] == _mp):
-            # kısıt kırılma günü eklendi ama gövde DEĞİŞMEDİ ⇒ dönem bölünmez
+            # kısıt (ya da komşu kur:/bit:) kırılma günü eklendi ama gövde
+            # DEĞİŞMEDİ ⇒ dönem bölünmez (KOMŞU-KUR-BÖL'ün ERİŞİM üst kümesi
+            # yalnız hesap maliyeti olur, ek dönem olmaz)
             ham[-1]["t"] = b
             tani.append((_sure, _kesilen, _tamamen))
             continue
@@ -7727,6 +7962,9 @@ if _SUREC_YOLU:
                         _MOTOR_IZI)).encode("utf-8"))
         if SINIR_KISIT:                # 🆕 MOTOR-SINIR-KISIT-1015: kısıtsız DEVAM sonucu karışmasın
             _h.update(repr(("SINIR_KISIT", SINIR_KISIT_KM, sorted(_SK_IZ.items()))).encode("utf-8"))
+        if KOMSU_KUR_BOL:              # 🆕 MOTOR-KOMSU-KUR-BOL-1016: bayraksız DEVAM sonucu karışmasın
+            _h.update(repr(("KOMSU_KUR_BOL", _kkb_kip, _kkb_pay,
+                            sorted(_KKB_NOKTA_GUN.items()))).encode("utf-8"))
         return _h.hexdigest()
     _SR_IZ = _sr_iz()
     _sr_is = list(enumerate(BOYALAR.items(), 1))
