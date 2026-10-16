@@ -5,7 +5,8 @@
 //   A) SAF HESAP (js/odak_zoom.js) — Web Mercator, dünya genişliği 512·2^z px.
 //      Düşmesi gereken yerde düşer + pay ≥ 1/8 + odak ekranda kalır (A1, A2) ·
 //      düşmemesi gereken yerde düşmez: büyük gövde (A3, A4) · gövde yok (A5) ·
-//      tamamı ekranda küçük gövde (A6). Alan ölçeri analitik değere karşı (A7, A8).
+//      tamamı ekranda küçük gövde ⇒ YAKLAŞIR, tavan 9 (A6) · ZOOM-IN: uzak kamera +
+//      küçük bölge ⇒ zoom artar, pay ≥ 1/8, nokta ekranda (A9). Alan ölçeri (A7, A8).
 //   B) BAĞLANTI (js/app.js'teki ODAK-ZOOM-1016 bloğu, METNİNDEN kesilip sahte
 //      haritayla koşturulur — Python/elle kopya YOK, `odak_cozum.js` dersi):
 //      bağlam YOKKEN kamera komutları bit bit geçer (B1) · gezinti kapısında
@@ -103,13 +104,45 @@ console.log("A) SAF HESAP — js/odak_zoom.js");
   sina("A5 gövde yok (null · [] · boş halka) ⇒ DEĞİŞMEZ",
        !a.degisti && !b.degisti && !c.degisti && a.zoom === 8 && a.sebep === "govde-yok");
 })();
-// A6 — küçük şehir devleti TAMAMEN ekranda: uzaklaşmak payı yalnız küçültür
+// A6 — küçük şehir devleti (Raguza boyu) TAMAMEN ekranda, pay %0,05.
+// 🔴 BEKLENTİ TERS ÇEVRİLDİ (zoom-in, koordinatörün tarayıcı ölçümü): eskiden
+// "DEĞİŞMEZ" bekliyordu; kural "bölge ≥ 1/8" olduğu için artık YAKLAŞIR — ama
+// tavan z 9'u AŞMAZ (o boyda 1/8'e z 9'da bile ulaşılmaz ⇒ "yaklasti-tavan").
 (function () {
   var g = OZ.odakGovdeHazirla([kare(18.0, 42.6, 18.3, 42.75)]);
   var kam = { center: [18.15, 42.67], zoom: 6 };
   var r = OZ.odakZoomAlt(kam, g, EKRAN);
-  sina("A6 tamamı ekranda küçük gövde ⇒ DEĞİŞMEZ", !r.degisti && r.sebep === "tam-ekranda",
-       "pay %" + (100 * r.pay0).toFixed(2));
+  sina("A6 tamamı ekranda küçük gövde ⇒ YAKLAŞIR, tavan 9'u aşmaz",
+       r.degisti && r.zoom > 6 && r.zoom <= 9 + 1e-9 && r.pay > r.pay0 && r.sebep === "yaklasti-tavan",
+       "zoom 6 → " + r.zoom + " · %" + (100 * r.pay0).toFixed(2) + " → %" + (100 * r.pay).toFixed(1) + " · " + r.sebep);
+  var gk = OZ.odakGovdeHazirla([kare(18.0, 42.6, 18.3, 42.75)]); gk.kucuk = true;
+  var rk = OZ.odakZoomAlt(kam, gk, EKRAN);
+  sina("A6 aynı kutu NOKTA bölgesiyse (tek şehir) ⇒ yakınlaşma YOK", !rk.degisti && rk.sebep === "tam-ekranda");
+})();
+// A9 — ZOOM-IN, tarayıcıdaki vaka: 604×657 ekran, kamera z 2,32 (neredeyse bütün
+// dünya), madde ülkesi Avusturya boyunda (9–23°D, 44–51°K) tamamen ekranda, pay ~%1.
+(function () {
+  var E2 = { width: 604, height: 657 };
+  var g = OZ.odakGovdeHazirla([kare(9.5, 44.5, 22.9, 51.0)]);
+  var kam = { center: [23.79, 44.33], zoom: 2.32 };
+  var r = OZ.odakZoomAlt(kam, g, E2);
+  var c = OZ.merk(r.center[0], r.center[1]);
+  var p = OZ.odakPay(g, c[0], c[1], r.zoom, 604, 657);
+  sina("A9 uzak kamera + küçük bölge ⇒ zoom ARTAR, pay ≥ 1/8", r.degisti && r.zoom > 2.32 && p >= 1 / 8 && r.sebep === "yaklasti",
+       "zoom 2,32 → " + r.zoom + " · %" + (100 * r.pay0).toFixed(1) + " → %" + (100 * p).toFixed(1));
+  sina("A9 madde noktası (kamera hedefi) ekranda kalır", ekranda(23.79, 44.33, r, 604, 657));
+  var S = 512 * Math.pow(2, r.zoom), hw = 302 / S, hh = 328.5 / S, gk = g.kutu;
+  sina("A9 bölge ekranı AŞMAZ (tamamı kadrajda)",
+       gk[0] >= c[0] - hw && gk[2] <= c[0] + hw && gk[1] >= c[1] - hh && gk[3] <= c[1] + hh);
+  var c1 = OZ.merk(r.center[0], r.center[1]);
+  sina("A9 EN UZAK yeterli zoom (0,1 geri pay < 1/8)", OZ.odakPay(g, c1[0], c1[1], r.zoom - 0.1, 604, 657) < 1 / 8);
+  // ikili kipte de aynı: madde ülkesi küçük, odak komşu ⇒ ikisi birlikte VE bölge ≥ 1/8
+  var odak = OZ.odakGovdeHazirla([kare(22.5, 43.7, 27.5, 45.3)]);
+  var ri = OZ.odakZoomIkili(kam, g, odak, E2);
+  var ci = OZ.merk(ri.center[0], ri.center[1]);
+  sina("A9 ikili kip: uzak kamera ⇒ yaklaşır, madde bölgesi ≥ 1/8",
+       ri.zoom > 2.32 && OZ.odakPay(g, ci[0], ci[1], ri.zoom, 604, 657) >= 1 / 8 && ri.zoom >= (ri.altZoom || 0) - 1e-9,
+       "kip " + ri.kip + " · zoom → " + ri.zoom + " · alt " + (ri.altZoom || 0).toFixed(2));
 })();
 // A7 — alan ölçeri: tamamı içeride kare, analitik değer
 (function () {
@@ -253,17 +286,31 @@ var D = { id: "sirp", ad: "Sırp" };
        adlar + " · zoom → " + s.zoom.toFixed(2));
   sina("B3 duration/essential korunur", s.duration === 1200 && s.essential === true);
 })();
-// B4 — fitBounds gövdenin kendisi (devletiYay) ⇒ değişmez, asıl fitBounds koşar, iç flyTo süzülmez
+// B4 — fitBounds gövdeyi zaten ≥ 1/8 çerçeveliyor ⇒ değişmez, asıl fitBounds koşar,
+// içteki flyTo İKİNCİ KEZ süzülmez. (Eski fikstür `padding:50, maxZoom:7.5` idi;
+// o kamerada 1°×1° gövdenin payı %9,6 — zoom-in kuralıyla artık YAKLAŞIR, B4b.)
+(function () {
+  var o = ortam(true, true);
+  o.ctx.odakZoomKapisi(D, 150, function () {
+    o.harita.fitBounds([[20, 44], [21, 45]], { padding: 0, duration: 800 });
+  });
+  var adlar = o.kayit.map(function (k) { return k[0]; }).join(",");
+  var beklenen = o.harita.cameraForBounds([[20, 44], [21, 45]], { padding: 0 }).zoom;
+  sina("B4 gövdeyi ≥ 1/8 çerçeveleyen fitBounds ⇒ DEĞİŞMEZ (fitBounds→flyTo, aynı zoom)",
+       adlar === "fitBounds,flyTo" && Math.abs(o.kayit[1][1].zoom - beklenen) < 1e-12,
+       adlar + " · zoom " + (o.kayit[1] ? o.kayit[1][1].zoom.toFixed(2) : "?"));
+})();
+// B4b — `devletiYay` benzeri fitBounds (maxZoom 7,5) küçük gövdeyi %9,6'da bırakıyor ⇒ YAKLAŞIR
 (function () {
   var o = ortam(true, true);
   o.ctx.odakZoomKapisi(D, 150, function () {
     o.harita.fitBounds([[20, 44], [21, 45]], { padding: 50, duration: 800, maxZoom: 7.5 });
   });
   var adlar = o.kayit.map(function (k) { return k[0]; }).join(",");
-  var beklenen = o.harita.cameraForBounds([[20, 44], [21, 45]], { padding: 50, maxZoom: 7.5 }).zoom;
-  sina("B4 gövdenin kendisine fitBounds ⇒ DEĞİŞMEZ (fitBounds→flyTo, aynı zoom)",
-       adlar === "fitBounds,flyTo" && Math.abs(o.kayit[1][1].zoom - beklenen) < 1e-12,
-       adlar + " · zoom " + o.kayit[1][1].zoom.toFixed(2));
+  var s2 = o.kayit[0] && o.kayit[0][1], son = o.ctx.getSon();
+  sina("B4b maxZoom'lu çerçeve < 1/8 ⇒ tek flyTo, zoom 7,5'ten büyük, ≤ 9, pay ≥ 1/8",
+       adlar === "flyTo" && s2.zoom > 7.5 && s2.zoom <= 9 && son.pay >= 1 / 8 && s2.duration === 800,
+       adlar + " · zoom → " + (s2 && s2.zoom) + " · %" + (son ? (100 * son.pay).toFixed(1) : "?"));
 })();
 // B5 — ayar kapalı
 (function () {
