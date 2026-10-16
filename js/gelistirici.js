@@ -790,6 +790,18 @@
         n.yorum++; n.son = "emre"; ta.value = ""; panelAc(n); listeCiz();
       }).catch(function (e) { bildir("Eklenemedi: " + e.message, true); });
     });
+    // UHDE: not arşive kadar sahibi oturumda kalır. Oturum silindiyse/takıldıysa Emre buradan
+    // serbest bırakır → sıradaki `/postit` oturumu yazışmayı okuyup devralır.
+    if (n.oturum && n.oturum.length) dugme("🔓 Sahipsiz bırak", function () {
+      if (!window.confirm("#" + n.no + " şu oturumdan alınsın mı: " + n.oturum.join(", ") +
+                          "?\nSıradaki /postit oturumu yazışmayı okuyup devralır.")) return;
+      Promise.all(n.oturum.map(function (o) {
+        return gh("/issues/" + n.no + "/labels/" + encodeURIComponent("oturum:" + o), "DELETE").catch(function () {});
+      })).then(function () {
+        n.oturum = []; panelAc(n); listeCiz();
+        bildir("🔓 #" + n.no + " sahipsiz — sıradaki /postit oturumu alır");
+      });
+    });
     dugme("🎯 Git", function () { notaGit(n); });
     dugme("↗ GitHub", function () { window.open(n.url, "_blank", "noopener"); });
     dugme("🗄 Kaldır (arşivle)", function () {

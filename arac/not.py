@@ -11,19 +11,23 @@ notlar GitHub Issues'tadır (etiket `harita-notu`, durum `not:<anahtar>`).
     py arac/not.py arsivle 123                       yalnız Emre isterse
 
 POST-İT KUYRUĞU (Emre 16 Ekim 2026 — `/postit` skill'i, 1 not = 1 oturum):
-    py arac/not.py al [N]                            sıradaki boş notu (ya da #N'i) bu oturuma
-                                                     al ve tam metnini bas · çıkış 3 = boş not yok
-    py arac/not.py yanit 123 --dosya <yol> --durum karar-bekliyor --birak
-    py arac/not.py birak 123                         notu bırak (yanıt yazmadan)
-    py arac/not.py al 12 --zorla                     son sözü Claude'da olan notu da al (Emre "zorla" dedi)
+    py arac/not.py al [N]                            bu oturumun notu varsa onu, yoksa sıradaki
+                                                     sahipsiz notu (ya da #N'i) al, tam metnini bas
+                                                     · çıkış 3 = alınacak not yok
+    py arac/not.py yanit 123 --dosya <yol> --durum karar-bekliyor
+    py arac/not.py birak 123                         notu bırak (Emre isterse)
+    py arac/not.py al 12 --zorla                     canlı başka oturumdaki notu devral (Emre "zorla" dedi)
     py arac/not.py al --model sonnet                 `model:opus` notlarını atla
     py arac/not.py opus 123                          motor notu: `model:opus` koy ve bırak
     py arac/not.py son-doldur                        eski notlara `son:` etiketini bir kez yaz
 
 Etiketler: `son:claude` | `son:emre` = son sözü kim söyledi (site listede gösterir) ·
-`oturum:<id>` = notu o oturum aldı (id = CLAUDE_CODE_SESSION_ID'nin ilk 6 hanesi,
-kilit.py'nin `oturum-xxxxxx` adıyla aynı). Alınabilir not: `son:` claude DEĞİL ve canlı
-`oturum:` etiketi yok. Etiket SURE_SAAT saattir tazelenmediyse (oturum çöktü) düşmüş sayılır.
+`oturum:<id>` = notun sahibi oturum (id = CLAUDE_CODE_SESSION_ID'nin ilk 6 hanesi,
+kilit.py'nin `oturum-xxxxxx` adıyla aynı).
+UHDE (Emre 16 Ekim 2026): not ARŞİVE KADAR sahibinde kalır — cevap yazmak bırakmaz. Sahipsiz
+not (yeni, eski/hiç sahiplenilmemiş, Emre'nin sitede "sahipsiz bırak"tığı) kim yazmış olursa
+olsun alınabilir. Güvenlik ağı: sahip SURE_SAAT (7 gün) boyunca ne etiket koydu ne Claude yorumu
+yazdıysa düşmüş sayılır.
 GitHub'da kilit olmadığı için iki oturum aynı anda alabilir — `al` etiketi koyduktan sonra
 olay geçmişini okur, etiketi İLK koyan kazanır, kaybeden kendi etiketini siler.
 
@@ -57,7 +61,7 @@ SITE = "https://emrelic.github.io/osmanli-tarih-atlasi/"
 ONEK = "🤖 **Claude** — "
 SON = "son:"
 OTURUM = "oturum:"
-SURE_SAAT = 3
+SURE_SAAT = 7 * 24
 MODEL_OPUS = "model:opus"   # motor/geometri notu: Sonnet oturumu almaz, sitede 🧠 Opus rozeti
 BOS_YOK = 3          # `al`: alınacak not yok (hata değil)
 
@@ -182,24 +186,33 @@ def bayat(zaman):
     return (datetime.datetime.now(datetime.timezone.utc) - t).total_seconds() > SURE_SAAT * 3600
 
 
+def son_claude_yorumu(no):
+    """Notun son Claude yorumunun zamanı (yoksa '') — sahibin hâlâ çalıştığının izi."""
+    zaman = ""
+    for c in gh("/issues/%d/comments?per_page=100" % no) or []:
+        if re.match(r"^\s*(🤖|\*\*Claude)", c.get("body") or ""):
+            zaman = c["created_at"]
+    return zaman
+
+
 def alinabilir_mi(issue, kim, zorla=False, model=None):
-    """(evet/hayır, gerekçe). Canlı başka sahip varsa hayır; bayat sahip silinecek demektir.
-    zorla: Emre "/postit N zorla" dedi — son sözün Claude'da olması engel değil.
+    """(evet/hayır, gerekçe). UHDE: sahipsiz not her zaman alınabilir (son yazan kim olursa
+    olsun); sahipli not sahibinde kalır, sahip 7 gündür sessizse düşmüş sayılır.
+    zorla: Emre "/postit N zorla" dedi — canlı sahipten devral.
     model: oturumun modeli; `model:opus` etiketli notu Opus olmayan oturum almaz."""
     if model and model != "opus" and MODEL_OPUS in etiketler(issue):
         return False, "Opus ister (%s)" % MODEL_OPUS
-    if son_yazan(issue) == "claude" and not zorla:
-        return False, "son söz Claude'da — Emre'yi bekliyor (zorla almak için: al N --zorla)"
-    if son_yazan(issue) is None and not zorla:
-        return False, "son yazan bilinmiyor — önce `son-doldur`"
     sahipler = [s for s in sahip_etiketleri(issue) if s != OTURUM + kim]
     if not sahipler:
         return True, ""
+    if zorla:
+        return True, "Emre'nin isteğiyle devralınıyor: " + ", ".join(sahipler)
     ol = etiket_olaylari(issue["number"])
-    canli = [s for s in sahipler if s not in ol or not bayat(ol[s][1])]
+    yorum = son_claude_yorumu(issue["number"])
+    canli = [s for s in sahipler if s not in ol or not bayat(max(ol[s][1], yorum))]
     if canli:
-        return False, "alınmış: " + ", ".join(canli)
-    return True, "bayat sahip düşürülecek: " + ", ".join(sahipler)
+        return False, "başka oturumda: " + ", ".join(canli)
+    return True, "7 gündür sessiz sahip düşürülecek: " + ", ".join(sahipler)
 
 
 def almaya_calis(issue, kim):
@@ -345,6 +358,7 @@ def k_yanit(a):
         metin = f.read().strip()
     if not metin:
         raise ValueError("yanıt dosyası boş")
+    metin = re.sub(r"^\s*🤖\s*\*\*Claude\*\*\s*—\s*", "", metin)   # önek iki kez basılmasın
     c = gh("/issues/%d/comments" % a.no, "POST", {"body": ONEK + metin}, yazma=True)
     print("yazıldı:", c["html_url"])
     if a.durum:
@@ -359,12 +373,28 @@ def k_yanit(a):
 def k_al(a):
     kim = kim_coz(a)
     if a.no:
+        # 1 oturum = 1 not: bu oturumun başka bir notu varsa yenisini alma.
+        diger = [i["number"] for i in notlar()
+                 if OTURUM + kim in sahip_etiketleri(i) and i["number"] != a.no]
+        if diger:
+            print("Bu oturumun zaten notu var: #%d — ikinci not alınmaz (yeni oturum aç)." % diger[0])
+            return BOS_YOK
         adaylar = [gh("/issues/%d" % a.no)]
-    else:   # en eski not önce — Emre'nin cevabını bekleyenler de aynı sırada
-        adaylar = sorted(notlar(), key=lambda i: i["number"])
+    else:
+        adaylar = notlar()
+        # Bu oturumun zaten bir notu varsa "/postit" = devam: o notu bas, yenisini alma.
+        benim = [i for i in adaylar if OTURUM + kim in sahip_etiketleri(i)]
+        if benim:
+            i = min(benim, key=lambda x: x["number"])
+            print("#%d bu oturumun notu (oturum:%s) — devam\n" % (i["number"], kim))
+            return k_oku(argparse.Namespace(no=i["number"]))
+        # Sıra: sahipsizler önce (sahipliler yalnız 7 gün sessizse alınır); içinde Emre'nin
+        # yazdıkları (son:emre) önce, sonra eski notlar; en eski önce.
+        adaylar = sorted(adaylar, key=lambda i: (bool(sahip_etiketleri(i)),
+                                                 son_yazan(i) != "emre", i["number"]))
     for i in adaylar:
         if OTURUM + kim in sahip_etiketleri(i):
-            print("#%d zaten bu oturumda (oturum:%s)" % (i["number"], kim))
+            print("#%d zaten bu oturumda (oturum:%s) — devam\n" % (i["number"], kim))
             return k_oku(argparse.Namespace(no=i["number"]))
         evet, neden = alinabilir_mi(i, kim, zorla=a.zorla and bool(a.no), model=a.model)
         if not evet:
@@ -376,7 +406,7 @@ def k_al(a):
             print("ALINDI #%d · oturum:%s%s\n" % (i["number"], kim, (" · " + neden) if neden else ""))
             return k_oku(argparse.Namespace(no=i["number"]))
         print("#%d yarışı kaybedildi, sıradakine geçiliyor" % i["number"], file=sys.stderr)
-    print("Alınacak not yok (hepsi ya Emre'yi bekliyor ya başka oturumda).")
+    print("Alınacak not yok (hepsi başka oturumlarda).")
     return BOS_YOK
 
 
