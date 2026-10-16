@@ -1039,6 +1039,19 @@
     d("◯", "Daire çiz ve not düş · Shift basılı bırak: bir bölge daha", function () { kipAyarla("daire"); }, "daire");
     d("✎", "Kalemle çiz ve not düş · Shift basılı bırak: bir bölge daha", function () { kipAyarla("kalem"); }, "kalem");
     d("🔘", "Bir düğmeye / menüye not düş", function () { kipAyarla("oge"); }, "oge");
+    // Rötuş teklifi (Emre 16 Ekim 2026: butonlar bölümünden buraya). Düğme index.html'deki
+    // gizli yuvadan TAŞINIR — çizim mantığı app.js rotusCizimKur()'da, id'ye bağlı kalır.
+    var rd = $("rotus-teklif-dugme"), rdu = $("rotus-teklif-durum");
+    if (rd) {
+      rd.textContent = "✏️";
+      rd.title = "Rötuş teklif et — " + rd.title;
+      a.appendChild(rd);
+      if (rdu) {
+        rdu.style.cssText = "font-size:11px;font-style:normal;color:#39ff14;white-space:nowrap";
+        a.appendChild(rdu);
+      }
+      var yuva = $("rotus-teklif-yuva"); if (yuva) yuva.remove();
+    }
     function listeAc(filtre) {
       var l = $("gn-liste"), acik = l.style.display === "block";
       if (acik && G.filtre === filtre) { l.style.display = "none"; return; }
