@@ -64,7 +64,8 @@
      "slug": "nis",
      "alinti": "Fakat 1183’te Macar Kralı III. Bela yönetimindeki Sırp ve Macar orduları Belgrad ve Sofya ile birlikte Niş’i ele geçirip yıktılar."
     }
-   ]
+   ],
+   "durum_renk_paket_3_1016": "KALDI (renk var, RENK-PAKET-3-1016): birinci-bulgar artık renkli ama 1183–1281 'bulunamadı' dilimi mevcut ilk f 1281'e bitişik kuyruğu kesiyor — engel KAYNAK, renk değil."
   },
   {
    "ad": "Kesriye (Kastoria)",
@@ -145,7 +146,8 @@
      "slug": "kesriye",
      "alinti": "1082-1083’te Sicilyalı Normanlar tarafından işgal edildiyse de 1093’te İmparator I. Alexios kasabayı tekrar aldı."
     }
-   ]
+   ],
+   "durum_renk_paket_3_1016": "KALDI (renk var): 1204-04-13–1281 'bulunamadı' dilimi kuyruğu kesiyor — engel kaynak."
   },
   {
    "ad": "Filorina (Florina)",
@@ -202,7 +204,8 @@
      "slug": "makedonya",
      "alinti": "IX. yüzyılda Makedonya Bulgarlar'ın yönetimine girdi. 1018'de Bulgar Krallığı'nın ortadan kaldırılmasıyla yeniden Bizans idaresine geçti."
     }
-   ]
+   ],
+   "durum_renk_paket_3_1016": "KALDI (renk var): 1204-04-13–1281 'bulunamadı' dilimi kuyruğu kesiyor — engel kaynak."
   },
   {
    "ad": "Yanya",
@@ -280,7 +283,8 @@
      "slug": "yanya",
      "alinti": "1204’teki IV. Haçlı Seferi’nden sonra Despot I. Mikael Angelos (Komnenos) 1430’a kadar yaşayan bağımsız Yunan Epiros Despotluğu’nu kurdu; Yanya bu despotluğun merkezi yapıldı."
     }
-   ]
+   ],
+   "durum_renk_paket_3_1016": "KALDI (renk var): mevcut ilk f 1204-04-13 (epir); 1081–1204 'bulunamadı' dilimi birinci-bulgar/bizans kuyruğunu kesiyor — engel kaynak."
   },
   {
    "ad": "Divriği",
@@ -332,7 +336,8 @@
      "not": "bulunamadı — 'Böylece Divriği Mengücüklü Beyliği’nin ne zaman sona erdiği de meçhuldür.' (mengucukluler); 1277 Abaka geçişi şehrin 'artık Mengücüklüler’in idaresinde olmadığı fikrini' verir — sahip adı/yılı yok."
     }
    ],
-   "maddeler": []
+   "maddeler": [],
+   "durum_renk_paket_3_1016": "KALDI: mengucuklu-divrigi KÜNYESİZ (yeni künye açılmadı) + 1252–1281 'bulunamadı'."
   },
   {
    "ad": "Behisni (Besni)",
@@ -524,7 +529,8 @@
      "alinti": "Memlükler’den herhangi bir yardım gelmeyince kale 1261’de Ermeni kralına teslim oldu.",
      "alinti_dogrulandi": true
     }
-   ]
+   ],
+   "durum_renk_paket_3_1016": "KALDI: görev gereği DOKUNULMADI (kogh-vasil künyesiz; 1281-1293 kilikya-ermeni çelişkisi koordinatörde)."
   },
   {
    "ad": "Lefkoşa",
@@ -614,210 +620,8 @@
      "alinti": "1192’de Kıbrıs’ı Templier şövalyelerinden satın alan eski Kudüs kralı Guy de Lusignan tarafından başşehir yapılarak adı Nicosia’ya çevrilmiştir.",
      "alinti_dogrulandi": true
     }
-   ]
-  },
-  {
-   "ad": "Şam",
-   "grup": "B2",
-   "bekleyen_kimlik": [
-    "atsiz-beyligi",
-    "boriler",
-    "eyyubi-halep",
-    "fatimi"
    ],
-   "uygulanan_kuyruk": [],
-   "notlar": [
-    "SON t 1281-01-01 ≠ mevcut ilk f 1260-03-01"
-   ],
-   "dikis": "birlesti (mevcut memluk f 1281-01-01 → 1260-09-03)",
-   "mevcut_duzeltme": "yok",
-   "yeni_kunyeler": [],
-   "zincir": [
-    {
-     "f": "1000-01-01",
-     "t": "1075-01-01",
-     "d": "fatimi",
-     "kesinlik": {
-      "f": "ufuk",
-      "t": "yil"
-     },
-     "slug": "sam--suriye",
-     "alinti": "Bu isyanlar Fâtımîler’in şehirde bulundurdukları Berberî birlikleri tarafından bastırıldı (388/998).",
-     "not": "RENKSİZ künye (fatimi). Fâtımî alışı 372/982-83; Anuş Tegin (1023-1042) Fâtımî valisi.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "f": "1075-01-01",
-     "t": "1079-01-01",
-     "d": "atsiz-beyligi",
-     "kesinlik": "yil",
-     "slug": "sam--suriye",
-     "alinti": "Türkmen beyi Atsız b. Uvak’ın Suriye’yi ele geçirip hutbeyi Abbâsî Halifesi ve Sultan Melikşah adına okutmasıyla Dımaşk’ta Türk hâkimiyeti dönemi başladı (468/1075).",
-     "not": "RENKSİZ künye (atsiz-beyligi).",
-     "alinti_dogrulandi": true
-    },
-    {
-     "f": "1079-01-01",
-     "t": "1104-06-06",
-     "d": "suriye-selcuklu",
-     "kesinlik": {
-      "f": "yil",
-      "t": "kunye-gunu"
-     },
-     "slug": "sam--suriye",
-     "alinti": "Dımaşk’a gelen Tutuş şehre girdikten sonra Suriye Selçuklu Devleti’ni kurdu (471/1079).",
-     "not": "Dukak 1095'ten Dımaşk Selçuklu meliki (aynı künye).",
-     "alinti_dogrulandi": true
-    },
-    {
-     "f": "1104-06-06",
-     "t": "1154-01-01",
-     "d": "boriler",
-     "kesinlik": {
-      "f": "kunye-gunu",
-      "t": "yil"
-     },
-     "slug": "sam--suriye",
-     "alinti": "Ancak devlet işlerini elinde tutan atabegi Tuğtegin, Dukak’ın 497’de (1104) ölümünden sonra Dımaşk’ta 549 (1154) yılına kadar sürecek olan Dımaşk Atabegliği’ni (Börîler-Tuğteginliler) kurdu.",
-     "not": "RENKSİZ künye (boriler). TDV yalnız yıl (1104) verir; f künyenin günü (1104-06-06) — kaba tarih künye penceresinin önüne düştüğü için devralındı, KAYNAK DEĞİL.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "f": "1154-01-01",
-     "t": "1174-01-01",
-     "d": "zengi-halep",
-     "kesinlik": "yil",
-     "slug": "sam--suriye",
-     "alinti": "Nûreddin Mahmud Zengî, II. Haçlı Seferi’nden sonra Suriye’de etkinliğini daha da arttırdı ve 549’da (1154) Dımaşk’ı hâkimiyeti altına aldı.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "f": "1174-01-01",
-     "t": "1250-04-30",
-     "d": "eyyubi",
-     "kesinlik": {
-      "f": "yil",
-      "t": "kunye-gunu"
-     },
-     "slug": "sam--suriye",
-     "alinti": "Nûreddin Zengî’nin ölümünün (569/1174) ardından Selâhaddîn-i Eyyûbî’nin eline geçen şehir (570/1174) Haçlı mücadelesine karşı ana karargâh durumuna getirildi.",
-     "not": "Dımaşk Eyyûbî melikleri (el-Âdil, el-Muazzam, el-Eşref...) — tek künye eyyubi. t künye sınırı (Mısır Eyyûbî sonu).",
-     "alinti_dogrulandi": true
-    },
-    {
-     "f": "1250-04-30",
-     "t": "1260-03-01",
-     "d": "eyyubi-halep",
-     "kesinlik": {
-      "f": "kunye-gunu",
-      "t": "ay"
-     },
-     "slug": "sam--suriye",
-     "alinti": "Eyyûbîler’den Halep hâkimi el-Melikü’n-Nâsır Yûsuf şehir halkının da çağrısıyla Dımaşk’ta hâkimiyeti sağladı (648/1250).",
-     "not": "RENKSİZ künye (eyyubi-halep). ⚠️ KÜNYE PENCERESİ: eyyubi-halep t=1260-01-01, TDV Dımaşk'ın düşüşünü Mart 1260 verir ⇒ künye t'si 1260-03'e GENİŞLETİLMELİ (D205 sınıf ②) ya da 2 aylık dilim kabul edilmeli.",
-     "alinti_dogrulandi": true,
-     "kunye_pencere_uyarisi": "künye 1186-01-01–1260-01-01"
-    },
-    {
-     "f": "1260-03-01",
-     "t": "1260-09-03",
-     "d": "ilhanli",
-     "kesinlik": {
-      "f": "ay",
-      "t": "alt-sinir"
-     },
-     "slug": "sam--suriye",
-     "alinti": "Bağdat’ın 656 (1258) yılında Moğollar tarafından işgalinin ardından Suriye’de Halep, Humus ve Hama gibi Dımaşk da Moğollar’ın eline geçti (Rebîülevvel 658 / Mart 1260).",
-     "alinti_dogrulandi": true
-    },
-    {
-     "f": "1260-09-03",
-     "t": "1281-01-01",
-     "d": "memluk",
-     "kesinlik": {
-      "f": "alt-sinir",
-      "t": "mevcut"
-     },
-     "slug": "sam--suriye",
-     "alinti": "Memlük Sultanı Kutuz, Aynicâlût Savaşı’nda Moğollar’ı yenerek (658/1260) Dımaşk’ı ve Suriye’nin büyük bir kısmını kurtardı.",
-     "not": "Gün memlukler: 'Aynicâlût Savaşı’nı kazandı (25 Ramazan 658 / 3 Eylül 1260)' — Dımaşk'a giriş birkaç gün sonra ⇒ alt sınır.",
-     "alinti_dogrulandi": true
-    }
-   ],
-   "maddeler": [
-    {
-     "t": "1075-01-01",
-     "kesinlik": "yil",
-     "b": "Atsız b. Uvak Dımaşk'ı aldı",
-     "d": "Atsız Suriye'yi ele geçirip hutbeyi Abbâsî halifesi ve Melikşah adına okuttu.",
-     "slug": "sam--suriye",
-     "alinti": "Türkmen beyi Atsız b. Uvak’ın Suriye’yi ele geçirip hutbeyi Abbâsî Halifesi ve Sultan Melikşah adına okutmasıyla Dımaşk’ta Türk hâkimiyeti dönemi başladı (468/1075).",
-     "alinti_dogrulandi": true
-    },
-    {
-     "t": "1079-01-01",
-     "kesinlik": "yil",
-     "b": "Tutuş Dımaşk'a girdi, Suriye Selçukluları kuruldu",
-     "d": "Tutuş şehre girip Suriye Selçuklu Devleti'ni kurdu.",
-     "slug": "sam--suriye",
-     "alinti": "Dımaşk’a gelen Tutuş şehre girdikten sonra Suriye Selçuklu Devleti’ni kurdu (471/1079).",
-     "alinti_dogrulandi": true
-    },
-    {
-     "t": "1104-06-06",
-     "kesinlik": "kunye-gunu",
-     "b": "Tuğtegin Dımaşk Atabegliği'ni kurdu",
-     "d": "Dukak'ın ölümünden sonra atabeg Tuğtegin Börîler hânedanını kurdu.",
-     "slug": "sam--suriye",
-     "alinti": "Ancak devlet işlerini elinde tutan atabegi Tuğtegin, Dukak’ın 497’de (1104) ölümünden sonra Dımaşk’ta 549 (1154) yılına kadar sürecek olan Dımaşk Atabegliği’ni (Börîler-Tuğteginliler) kurdu.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "t": "1154-01-01",
-     "kesinlik": "yil",
-     "b": "Nûreddin Zengî Dımaşk'ı aldı",
-     "d": "Nûreddin Mahmud Dımaşk'ı hâkimiyeti altına aldı.",
-     "slug": "sam--suriye",
-     "alinti": "Nûreddin Mahmud Zengî, II. Haçlı Seferi’nden sonra Suriye’de etkinliğini daha da arttırdı ve 549’da (1154) Dımaşk’ı hâkimiyeti altına aldı.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "t": "1174-01-01",
-     "kesinlik": "yil",
-     "b": "Selâhaddin Dımaşk'ı aldı",
-     "d": "Nûreddin'in ölümünden sonra şehir Selâhaddîn-i Eyyûbî'ye geçti.",
-     "slug": "sam--suriye",
-     "alinti": "Nûreddin Zengî’nin ölümünün (569/1174) ardından Selâhaddîn-i Eyyûbî’nin eline geçen şehir (570/1174) Haçlı mücadelesine karşı ana karargâh durumuna getirildi.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "t": "1250-04-30",
-     "kesinlik": "kunye-gunu",
-     "b": "Halep Eyyûbîsi en-Nâsır Yûsuf Dımaşk'a hâkim oldu",
-     "d": "Mısır'da Memlük iktidarı kurulurken Halep hâkimi en-Nâsır Yûsuf Dımaşk'ı aldı (648/1250).",
-     "slug": "sam--suriye",
-     "alinti": "Eyyûbîler’den Halep hâkimi el-Melikü’n-Nâsır Yûsuf şehir halkının da çağrısıyla Dımaşk’ta hâkimiyeti sağladı (648/1250).",
-     "alinti_dogrulandi": true
-    },
-    {
-     "t": "1260-03-01",
-     "kesinlik": "ay",
-     "b": "Moğollar Dımaşk'ı aldı",
-     "d": "Hülâgû'nun Suriye seferinde Dımaşk Moğollara geçti.",
-     "slug": "sam--suriye",
-     "alinti": "Suriye’de Halep, Humus ve Hama gibi Dımaşk da Moğollar’ın eline geçti (Rebîülevvel 658 / Mart 1260).",
-     "alinti_dogrulandi": true
-    },
-    {
-     "t": "1260-09-03",
-     "kesinlik": "alt-sinir",
-     "b": "Aynicâlût: Dımaşk Memlüklere geçti",
-     "d": "Kutuz Moğolları Aynicâlût'ta yenip Dımaşk'ı kurtardı.",
-     "slug": "memlukler",
-     "alinti": "Burada Moğollar’a karşı, tarihin akışını değiştiren savaşlardan sayılan Aynicâlût Savaşı’nı kazandı (25 Ramazan 658 / 3 Eylül 1260) ve Suriye’nin büyük kısmı Memlükler’in eline geçti.",
-     "alinti_dogrulandi": true
-    }
-   ]
+   "durum_renk_paket_3_1016": "KALDI (renk var, kibris-isaakios renkli): mevcut ilk f 1192-01-01 (lusignan); 1191-05-01–1192 'bulunamadı' dilimi (Richard/Templier) kuyruğu kesiyor — engel kaynak."
   },
   {
    "ad": "Kudüs",
@@ -1061,149 +865,8 @@
      "alinti": "Moğollar’a karşı kazanılan Aynicâlût zaferiyle (1260) Eyyûbî hânedanı da sona erdi",
      "alinti_dogrulandi": true
     }
-   ]
-  },
-  {
-   "ad": "İskenderiye",
-   "grup": "B2",
-   "bekleyen_kimlik": [
-    "fatimi"
    ],
-   "uygulanan_kuyruk": [],
-   "notlar": [
-    "SON t 1281-01-01 ≠ mevcut ilk f 1171-09-13"
-   ],
-   "dikis": "birlesti (mevcut memluk f 1281-01-01 → 1250-04-30)",
-   "mevcut_duzeltme": "yok",
-   "yeni_kunyeler": [],
-   "zincir": [
-    {
-     "f": "1000-01-01",
-     "t": "1171-09-13",
-     "d": "fatimi",
-     "kesinlik": {
-      "f": "ufuk",
-      "t": "kunye-gunu"
-     },
-     "slug": "iskenderiye",
-     "alinti": "Fâtımîler döneminde (969-1171) İskenderiye ipeklileri ün yapmıştı.",
-     "not": "RENKSİZ künye (fatimi). t: f = künye eyyubi günü (1171-09-13); TDV yalnız yıl verir (fatimiler: '567 (1171) yılında Eyyûbîler’in idareyi ele geçirmesine kadar'). Kaba yıl (1171-01-01) künye penceresinin önüne düştüğü için künye günü devralındı — KAYNAK DEĞİL.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "f": "1171-09-13",
-     "t": "1250-04-30",
-     "d": "eyyubi",
-     "kesinlik": "kunye-gunu",
-     "slug": "iskenderiye",
-     "alinti": "Selâhaddîn-i Eyyûbî iktidarı ele geçirince İskenderiye’nin surlarıyla kale ve burçlarını tamir ettirmiş, donanmayı güçlendirmiş, Dîvânü’l-ustûl adıyla özel bir divan kurdurmuş",
-     "not": "f = künye eyyubi t günü (1250-04-30); TDV: Faraskur 7 Nisan 1250, Turan Şah'ın ardından Şecerüddür (80 gün), Aybek 3 Temmuz 1250. Künye sınırı kullanıldı — KAYNAK GÜNÜ DEĞİL.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "f": "1250-04-30",
-     "t": "1281-01-01",
-     "d": "memluk",
-     "kesinlik": {
-      "f": "kunye-gunu",
-      "t": "mevcut"
-     },
-     "slug": "iskenderiye",
-     "alinti": "İskenderiye en parlak günlerini Memlükler zamanında yaşamıştır.",
-     "alinti_dogrulandi": true
-    }
-   ],
-   "maddeler": [
-    {
-     "t": "1171-09-13",
-     "kesinlik": "kunye-gunu",
-     "b": "Mısır'da Fâtımî idaresi sona erdi, Eyyûbîler başa geçti",
-     "d": "Selâhaddin'in vezirliği ve Âdıd'ın ölümüyle Mısır Eyyûbîlere geçti (567/1171).",
-     "slug": "fatimiler",
-     "alinti": "Bu durum 567 (1171) yılında Eyyûbîler’in idareyi ele geçirmesine kadar devam etmiştir.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "t": "1250-04-30",
-     "kesinlik": "kunye-gunu",
-     "b": "Mısır'da Memlük Devleti kuruldu",
-     "d": "Turan Şah'tan sonra Şecerüddür ve Aybek ile Memlük iktidarı kuruldu.",
-     "slug": "memlukler",
-     "alinti": "Böylece tarihçilerin çoğu tarafından Mısır Memlük hükümdarlarının ilki sayılan İzzeddin Aybek tahta çıkmış ve Memlükler Devleti resmen kurulmuş oldu (1 Rebîülâhir 648 / 3 Temmuz 1250).",
-     "alinti_dogrulandi": true
-    }
-   ]
-  },
-  {
-   "ad": "Feyyûm",
-   "grup": "B2",
-   "bekleyen_kimlik": [
-    "fatimi"
-   ],
-   "uygulanan_kuyruk": [],
-   "notlar": [
-    "SON t 1281-01-01 ≠ mevcut ilk f 1171-09-13"
-   ],
-   "dikis": "birlesti (mevcut memluk f 1281-01-01 → 1250-04-30)",
-   "mevcut_duzeltme": "yok",
-   "yeni_kunyeler": [],
-   "zincir": [
-    {
-     "f": "1000-01-01",
-     "t": "1171-09-13",
-     "d": "fatimi",
-     "kesinlik": {
-      "f": "ufuk",
-      "t": "kunye-gunu"
-     },
-     "slug": "feyyum",
-     "alinti": "Daha sonra Mısır’a hâkim olan Fâtımîler, Feyyûm’u idarî bakımdan Mısır’ın dört eyaletinden biri olan Kūs’a bağlı bir bölge (kûre) yaptılar.",
-     "not": "RENKSİZ künye. t: f = künye eyyubi günü (1171-09-13); TDV yalnız yıl verir (fatimiler: '567 (1171) yılında Eyyûbîler’in idareyi ele geçirmesine kadar'). Kaba yıl (1171-01-01) künye penceresinin önüne düştüğü için künye günü devralındı — KAYNAK DEĞİL.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "f": "1171-09-13",
-     "t": "1250-04-30",
-     "d": "eyyubi",
-     "kesinlik": "kunye-gunu",
-     "slug": "feyyum",
-     "alinti": "Eyyûbîler döneminde idarî yapısında bir değişiklik olmadan el-A‘mâlü’l-Feyyûmiyye diye anıldı.",
-     "not": "Aynı madde: 'Selâhaddîn-i Eyyûbî 1173’te burada el-Hankāhu’s-Sâlihiyye’yi yaptırdı.' f = künye eyyubi t günü (1250-04-30); TDV: Faraskur 7 Nisan 1250, Turan Şah'ın ardından Şecerüddür (80 gün), Aybek 3 Temmuz 1250. Künye sınırı kullanıldı — KAYNAK GÜNÜ DEĞİL.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "f": "1250-04-30",
-     "t": "1281-01-01",
-     "d": "memluk",
-     "kesinlik": {
-      "f": "kunye-gunu",
-      "t": "mevcut"
-     },
-     "slug": "feyyum",
-     "alinti": "Memlük sultanları Mısır’ın en zengin bölgelerinden olan Feyyûm’daki Arap şeyhleri ve emîrleriyle iyi ilişkiler kurdular ve onlara asker hazırlama karşılığında mukātaalar verdiler.",
-     "alinti_dogrulandi": true
-    }
-   ],
-   "maddeler": [
-    {
-     "t": "1171-09-13",
-     "kesinlik": "kunye-gunu",
-     "b": "Mısır'da Fâtımî idaresi sona erdi, Eyyûbîler başa geçti",
-     "d": "Selâhaddin'in vezirliği ve Âdıd'ın ölümüyle Mısır Eyyûbîlere geçti (567/1171).",
-     "slug": "fatimiler",
-     "alinti": "Bu durum 567 (1171) yılında Eyyûbîler’in idareyi ele geçirmesine kadar devam etmiştir.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "t": "1250-04-30",
-     "kesinlik": "kunye-gunu",
-     "b": "Mısır'da Memlük Devleti kuruldu",
-     "d": "Turan Şah'tan sonra Şecerüddür ve Aybek ile Memlük iktidarı kuruldu.",
-     "slug": "memlukler",
-     "alinti": "Böylece tarihçilerin çoğu tarafından Mısır Memlük hükümdarlarının ilki sayılan İzzeddin Aybek tahta çıkmış ve Memlükler Devleti resmen kurulmuş oldu (1 Rebîülâhir 648 / 3 Temmuz 1250).",
-     "alinti_dogrulandi": true
-    }
-   ]
+   "durum_renk_paket_3_1016": "KISMEN UYGULANDI (RENK-PAKET-3-1016): 1253-04-01 memluk → 1256-01-01 eyyubi-halep → 1260-09-03 (mevcut memluk). 1250-04-30–1253-04-01 'bulunamadı' dilimi daha gerisini (fatimi/atsiz-beyligi/kudus-kralligi/eyyubi zinciri) kesiyor — engel kaynak."
   },
   {
    "ad": "Mekke",
@@ -1233,7 +896,8 @@
      "alinti_dogrulandi": true
     }
    ],
-   "maddeler": []
+   "maddeler": [],
+   "durum_renk_paket_3_1016": "KALDI: görev gereği DOKUNULMADI — zincir 1281'de mevcut memluk'a BİTİŞMİYOR (sahip farklı ⇒ 1281'de kaynaksız kırılma); memluk→şerif model kararı Emre'de. mekke-serifligi rengi verildi (#dede24)."
   },
   {
    "ad": "Medine",
@@ -1263,92 +927,8 @@
      "alinti_dogrulandi": true
     }
    ],
-   "maddeler": []
-  },
-  {
-   "ad": "Aden",
-   "grup": "B2",
-   "bekleyen_kimlik": [
-    "eyyubi-yemen",
-    "zureyi"
-   ],
-   "uygulanan_kuyruk": [],
-   "notlar": [
-    "SON t 1281-01-01 ≠ mevcut ilk f 1229-01-01"
-   ],
-   "dikis": "birlesti (mevcut resuli f 1281-01-01 → 1229-01-01)",
-   "mevcut_duzeltme": "yok",
-   "yeni_kunyeler": [],
-   "zincir": [
-    {
-     "f": "1000-01-01",
-     "t": "1080-01-01",
-     "d": null,
-     "not": "bulunamadı — aden: '916’dan sonra da bölgede bağımsız bir hânedan kuran Benî Ziyâd’a bağlanmıştır. Yaklaşık bir asır sonra Benî Ma‘n, Aden de dahil olmak üzere Lehic, Ebyen, Şihr ve Hadramut’ta hâkimiyeti ele geçirmiştir.' — Ziyâdî→Ma‘nî geçişi yılsız; Ma‘nî künyesi yok."
-    },
-    {
-     "f": "1080-01-01",
-     "t": "1175-01-01",
-     "d": "zureyi",
-     "kesinlik": "yil",
-     "slug": "zureyiler",
-     "alinti": "Aden’de hüküm süren Ma‘nîler’in (Benî Ma‘n) tâbi oldukları Suleyhîler’e yıllık vergi ödemeyerek bağımsız hareket etmeye kalkışmaları üzerine el-Melikü’l-Mükerrem Ahmed b. Ali komutasındaki ordu Ma‘nîler’i şehirden sürdü (473/1080).",
-     "not": "RENKSİZ künye (zureyi). Abbas ve Mes‘ûd şehrin yönetimine getirildi; Suleyhî tâbiliği 1110'a (zureyiler) / 1125'e (aden) kadar — fiilî yönetici Zürey‘î ailesi (kural 4). ⚠️ İç çelişki: istiklâl zureyiler 504/1110, aden 1125.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "f": "1175-01-01",
-     "t": "1229-01-01",
-     "d": "eyyubi-yemen",
-     "kesinlik": "yil",
-     "slug": "zureyiler",
-     "alinti": "Böylece bölgeye 100 yıla yakın bir süre hâkim olan Zürey‘îler hânedanı tarihe karıştı (571/1175).",
-     "not": "RENKSİZ künye (eyyubi-yemen). ⚠️ aden maddesi '1173 yılına kadar' der (Turan Şah'ın Yemen'e girişi); zureyiler Aden'in iki yıl sonra (571/1175) alındığını söyler — Aden için 1175 alındı.",
-     "alinti_dogrulandi": true
-    },
-    {
-     "f": "1229-01-01",
-     "t": "1281-01-01",
-     "d": "resuli",
-     "kesinlik": {
-      "f": "yil",
-      "t": "mevcut"
-     },
-     "slug": "resuliler",
-     "alinti": "Bunlardan Mekke Valisi Nûreddin Ömer b. Ali, Yemen Eyyûbîleri’nin son hükümdarı el-Melikü’l-Mes‘ûd Selâhaddin Atsız’ın ölümünden (626/1229) sonra Yemen’i atabeg sıfatıyla idaresi altına aldı.",
-     "not": "Bağımsızlık 632/1235; fiilî idare 1229'dan. ⚠️ aden '1228’e kadar Eyyûbîler' der.",
-     "alinti_dogrulandi": true
-    }
-   ],
-   "maddeler": [
-    {
-     "t": "1080-01-01",
-     "kesinlik": "yil",
-     "b": "Süleyhîler Ma‘nîleri Aden'den sürdü; Zürey‘îlerin temeli atıldı",
-     "d": "Süleyhî ordusu Ma‘nîleri şehirden çıkardı, yönetim Abbas ve Mes‘ûd'a verildi.",
-     "slug": "zureyiler",
-     "alinti": "el-Melikü’l-Mükerrem Ahmed b. Ali komutasındaki ordu Ma‘nîler’i şehirden sürdü (473/1080).",
-     "alinti_dogrulandi": true
-    },
-    {
-     "t": "1175-01-01",
-     "kesinlik": "yil",
-     "b": "Eyyûbîler Aden'i aldı, Zürey‘îler sona erdi",
-     "d": "Eyyûbîler Aden'e ilerleyip vezir Yâsir b. Bilâl'i idam ettiler.",
-     "slug": "zureyiler",
-     "alinti": "Böylece bölgeye 100 yıla yakın bir süre hâkim olan Zürey‘îler hânedanı tarihe karıştı (571/1175).",
-     "alinti_dogrulandi": true
-    },
-    {
-     "t": "1229-01-01",
-     "kesinlik": "yil",
-     "b": "Resûlî Nûreddin Ömer Yemen'i idaresi altına aldı",
-     "d": "Son Yemen Eyyûbîsi el-Mes‘ûd'un ölümünden sonra Nûreddin Ömer Yemen'e hâkim oldu.",
-     "slug": "resuliler",
-     "alinti": "Yemen’i atabeg sıfatıyla idaresi altına aldı.",
-     "alinti_dogrulandi": true
-    }
-   ]
+   "maddeler": [],
+   "durum_renk_paket_3_1016": "KALDI: Mekke ile aynı — model kararı Emre'de. medine-emirligi rengi verildi (#1212ea)."
   },
   {
    "ad": "Sana",
@@ -1454,7 +1034,8 @@
      "alinti": "Tihâme, San‘a ve Taiz’i idaresi altına alması (626/1229)",
      "alinti_dogrulandi": true
     }
-   ]
+   ],
+   "durum_renk_paket_3_1016": "KALDI: görev gereği DOKUNULMADI (1281 resuli→yemen çelişkisi). suleyhi/hamdani-yemen/eyyubi-yemen renkleri verildi."
   }
  ],
  "uygulanmadi": {
@@ -2051,18 +1632,10 @@
   "aciklama": "T5-1000-B-1016 §3 — 1281 sonrası düzeltme adayları, UYGULANMADI.",
   "sehirler": [
    {
-    "ad": "Cerbe (Djerba)",
-    "bekleyen_kimlik": [
-     "sicilya-aragon"
-    ],
-    "neden": "RENKSİZ künye: Sicilya (Aragon/Trinacria) künyesi var (1282-08-30→1816) ama BOYALAR'da yok — renk ekleme bu partide yasak",
-    "oneri": "hafsi 1281→1284 · sicilya-aragon 1284→1334 · hafsi 1334→1560-03-12",
-    "tdv": "cerbe: '683’te (1284-85) Sicilyalılar tarafından işgal edilen ada önce papalığın mâlikânesi olmuş, daha sonra Sicilya Krallığı’na bağlanmıştır. Sicilya valilerinin kötü idaresine karşı ayaklanan halk 1334’te Sicilyalılar’ı adadan kovmuştur.'"
-   },
-   {
     "ad": "Rodos",
     "neden": "TDV rodos yalnız YIL veriyor ('1309’da Saint Jean şövalyelerinin (Hospitalier/İsbitâriyye) eline geçişine kadar'); mevcut sovalye f 1310-08-15 — kaynak gün vermediği için DOKUNULMADI (görev şartı)"
    }
   ]
- }
+ },
+ "aciklama_renk_paket_3_1016": "RENK-PAKET-3-1016 (16 Ekim 2026): 13 renksiz künyeye renk verildi; UYGULANAN ve bu dosyadan DÜŞEN: Şam (1000→1260-03-01, 7 dilim) · İskenderiye ve Feyyûm (1000→1171-09-13 fatimi) · Aden (1080 zureyi → 1175 eyyubi-yemen → 1229) · Cerbe (§3: hafsi 1281→1284 · sicilya-aragon 1284→1334 · hafsi 1334→). Kudüs kısmen uygulandı (kaldı). Kalan her şehrin 'durum_renk_paket_3_1016' alanı sebebini söyler; Tanta (reddedildi_D208) ve Çanakkale (uygulanmadi) değişmedi."
 }
