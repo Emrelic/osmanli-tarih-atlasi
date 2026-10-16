@@ -3724,6 +3724,23 @@ BOYALAR = {
     "seddadiler-gence":         ("Şeddâdîler (Gence/Arrân kolu)", "#2a4ed8"),
     "salzburg-baspiskoposlugu": ("Salzburg Prens-Başpiskoposluğu", "#f6360c"),
     "ebulhayr-ozbek-ulusu":     ("Ebü'l-Hayr Hanlığı (Özbek Ulusu)", "#24c68a"),
+    # RENK-PAKET-3-1016 — renk_olc.oner() GERÇEK konum + dönem engel kümesiyle (T5-1000-A/B-1016
+    # bekleyen zincirleri bellekte + Cerbe 1284-1334 sicilya-aragon önerisi; artefakt denetim/oneri-20261016-161145.txt yerel/gitignore).
+    # En yakın engel ΔE 12,1-14,4 (hepsi ≥ 12). Eşzamanlı Yemen kolları (süleyhî/zürey'î/hemdânî) AYRI renk.
+    # birinci-bulgar yalnız 1000-1018 dilimi için (Sofya/Kesriye/Filorina/Yanya) — renksiz kalsa o dilim delik.
+    "birinci-bulgar":           ("Birinci Bulgar Devleti (Samuil dönemi)", "#2430c6"),
+    "kibris-isaakios":          ("Kıbrıs (İsaakios Dukas Komnenos)", "#c03624"),
+    "fatimi":                   ("Fâtımî Devleti", "#84a21e"),
+    "atsiz-beyligi":            ("Atsız b. Uvak Beyliği", "#24c630"),
+    "boriler":                  ("Dımaşk Atabegliği (Börîler)", "#1e8aa2"),
+    "eyyubi-halep":             ("Halep Eyyûbîleri", "#7ea224"),
+    "zureyi":                   ("Zürey‘îler", "#24c63c"),
+    "eyyubi-yemen":             ("Yemen Eyyûbîleri", "#24c672"),
+    "suleyhi":                  ("Suleyhîler", "#24c67e"),
+    "hamdani-yemen":            ("Yemen Hemdânîleri (San‘a)", "#24c6ba"),
+    "mekke-serifligi":          ("Mekke Şerifliği", "#dede24"),
+    "medine-emirligi":          ("Medine Emirliği (Hüseynî emîrler)", "#1212ea"),
+    "sicilya-aragon":           ("Sicilya Krallığı (Aragon/Trinacria)", "#eaa86c"),
 }
 
 
