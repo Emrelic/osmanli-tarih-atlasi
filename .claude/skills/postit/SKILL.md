@@ -81,6 +81,23 @@ Rapor kısa, okur dilinde:
    Hiçbir şey değiştirmediysen "değişiklik yok" yaz.
 3. **Sorum** (varsa) — TEK soru, şıklı (a/b), önerin hangisi. Soru yoksa bu bölümü yazma.
 
+**En altta HER ZAMAN özet** (Emre yalnız bunu okuyup ne yapacağını anlamalı). Üç satır,
+her biri tek kısa cümle; teknik terim, dosya adı, kod yok:
+```
+---
+**ÖZET**
+- **Hüküm:** Doğru · Yanlış · Kısmen doğru · Belirsiz — <işaret ettiğin yer hakkında bir cümle>.
+- **Senden beklenen:** <verilecek karar, tek cümle> · ya da "Yok."
+  - **a)** <seçenek — ne olur, tek cümle> **(önerim)**
+  - **b)** <seçenek — ne olur, tek cümle>
+- **Bilgi:** <ne yapıldı / ne zaman görünür / senin yapman gereken tek iş> · ya da "Yok."
+```
+Karar Emre'ye kalıyorsa seçenekler özette MUTLAKA tek tek yazılır (2–3 şık, her biri
+sonucuyla birlikte tek cümle, önerin işaretli); Emre cevabında yalnız "a" yazabilmeli.
+Karar yoksa şık satırlarını yazma.
+Örnek: `Hüküm: Yanlış — 1281'de Üsküp Sırp değil Bizans toprağıydı.` ·
+`Senden beklenen: Yok.` · `Bilgi: Düzelttim; haritada bir sonraki koşudan sonra görünecek.`
+
 ## 4 · Turu bitir ve bekle
 
 - `py arac/kilit.py birak-hepsi --kim "oturum-<id>"` · worktree açtıysan push kapısından geçtikten
