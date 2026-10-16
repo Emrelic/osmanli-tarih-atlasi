@@ -631,7 +631,8 @@ _ONB_ISLETIM = {"MOTOR_SUREC_ISCI", "MOTOR_SUREC_ISCI_NO", "MOTOR_SUREC_DIZIN",
                 "MOTOR_SUREC_EBEVEYN", "MOTOR_CANLI_LOG", "MOTOR_DEVAM",
                 "MOTOR_DEVAM_DIZIN", "MOTOR_PARALEL_ISCI", "MOTOR_PARALEL_KAPALI",
                 "MOTOR_NABIZ_SN", "MOTOR_ISCI_BETIK", "MOTOR_ONBELLEK_DIZIN",
-                "MOTOR_ONBELLEK_KAPALI", "MOTOR_ONBELLEK_BUDA_GUN"}
+                "MOTOR_ONBELLEK_KAPALI", "MOTOR_ONBELLEK_BUDA_GUN",
+                "MOTOR_EZBER_TAVAN", "MOTOR_EZBER_TAVAN_PUAN"}
 _ONB_TUZ = json.dumps({
     "surum": "onbellek-1",
     "motor": _MOTOR_IZI,
@@ -3018,7 +3019,81 @@ def kapat(g, yaricap=0.15, engel=None):
     return unary_union([k, g])
 
 
-_SAHIPLI_EZBER = {}
+# ═══ 🆕 MOTOR-SINIR-KISIT-BELLEK-1016 — GÜN BAŞINA EZBERLERE TAVAN ═══════════════
+# KUSUR (ölçüldü, GECE-MOTOR-1016): KOŞU 26 gövde aşamasında ~4,8 GB'ta "sanal
+# bellek çok düşük" ile öldü. Dar kutuda (20,44,45,62 · tek süreç · 3 iş
+# parçacığı) gövde aşaması RSS'i kısıt KAPALI +1.366 MB, AÇIK +1.449 MB büyüdü;
+# büyüyenin çoğu KUTUDAN BAĞIMSIZ gün başına ezberlerdir — her biri 4.660
+# yerleşimin hepsini tarayan bir dict/frozenset, ve HİÇBİRİ boşaltılmıyordu:
+#   _DEVIR_EZBER ~2.900 gün · _SAHIPLI_EZBER ~2.850 gün · _SAHIP_EZBER 1.000
+#   (kısıt kapalı) → 1.474 (kısıt açık: hat günleri her devletin gün listesine
+#   girer) · _SK_SAHIP_EZBER.
+# ÇARE: bu dört ezber sınırlı (LRU) olur. Değerleri SAF işlevlerin sonucudur
+# (yalnız güne bağlı; YERLER koşu boyunca sabit, alt ezberler — `_kusatilmis`,
+# `_dolgu_kumesi` — ayrı ve SINIRSIZ kalır) ⇒ atılan gün yeniden hesaplanır,
+# AYNI değeri verir ⇒ çıktı bit bit aynı (dar kutuda iki yönde sınandı).
+# Yeniden hesap ucuzdur (4.660 noktalık bir Python taraması); pahalı olanlar
+# (`_VARLIK_ONBELLEK` ~15 sn/çağrı, `_KUS_ONBELLEK`, `_DOLGU_ONBELLEK`) DOKUNULMADI.
+# MOTOR_EZBER_TAVAN=0 ⇒ sınırsız (eski davranış). İŞLETİM değişkenidir, tuza girmez.
+# MOTOR_EZBER_TAVAN_PUAN (varsayılan 0 = sınırsız) `_PUAN_ONBELLEK`e ayrı tavan.
+EZBER_TAVAN = int(os.environ.get("MOTOR_EZBER_TAVAN", "128") or "0")
+EZBER_TAVAN_PUAN = int(os.environ.get("MOTOR_EZBER_TAVAN_PUAN", "0") or "0")
+_EZBER_YOK = object()
+
+
+class _TavanliEzber:
+    """dict'in kullanılan alt kümesi (get · [k]=v · in · len · values) + LRU tavanı.
+    İş parçacığı güvenli (FAZ 1 iş parçacıkları aynı ezberi paylaşır)."""
+    __slots__ = ("_d", "_tavan", "_kilit", "atilan", "ad")
+
+    def __init__(self, tavan, ad=""):
+        from collections import OrderedDict as _OD
+        self._d = _OD()
+        self._tavan = tavan
+        self._kilit = _th.Lock()
+        self.atilan = 0
+        self.ad = ad
+
+    def get(self, k, varsayilan=None):
+        with self._kilit:
+            v = self._d.get(k, _EZBER_YOK)
+            if v is _EZBER_YOK:
+                return varsayilan
+            if self._tavan:
+                self._d.move_to_end(k)
+            return v
+
+    def __setitem__(self, k, v):
+        with self._kilit:
+            self._d[k] = v
+            if self._tavan:
+                self._d.move_to_end(k)
+                while len(self._d) > self._tavan:
+                    self._d.popitem(last=False)
+                    self.atilan += 1
+
+    def __contains__(self, k):
+        with self._kilit:
+            return k in self._d
+
+    def __len__(self):
+        return len(self._d)
+
+    def values(self):
+        with self._kilit:
+            return list(self._d.values())
+
+
+_EZBER_LISTE = []
+
+
+def _tavanli(tavan, ad):
+    e = _TavanliEzber(tavan, ad)
+    _EZBER_LISTE.append(e)
+    return e
+
+
+_SAHIPLI_EZBER = _tavanli(EZBER_TAVAN, "_SAHIPLI_EZBER")
 
 
 def _kapat_engel(aktif, a):
@@ -5097,7 +5172,7 @@ def _kusatilmis(g):
     return _KUS_ONBELLEK[g]
 
 
-_DEVIR_EZBER = {}
+_DEVIR_EZBER = _tavanli(EZBER_TAVAN, "_DEVIR_EZBER")   # 🆕 BELLEK-1016
 
 
 def devir_kumesi(g):
@@ -6142,7 +6217,7 @@ PUAN_KAPALI = os.environ.get("MOTOR_PUAN_KAPALI") == "1"
 # karnesi, 384/1536 gün örneklem): N=8→−%7,3 · N=12→−%4,5 · N=24→−%2,2
 # (kapanabilir petek-gün üzerinde) — dilim genişledikçe düşüş büyür, MONOTON.
 ORTME_DILIM_SAYISI = 12
-_PUAN_ONBELLEK = {}              # yalnız aynı dönem içinde tekrar için
+_PUAN_ONBELLEK = _tavanli(EZBER_TAVAN_PUAN, "_PUAN_ONBELLEK")   # 🆕 BELLEK-1016 (varsayılan sınırsız)
 _PUAN_KESILEN = [0.0]            # kapının kestiği toplam km² (ölçüm)
 _PUAN_TAMAMEN = [0]              # tamamen boşalan gövde-dönemi sayısı
 
@@ -6156,8 +6231,9 @@ def _puan_bolgesi(did, aktif, gun):
     ONLARDAN toplanır — bu, A yorumunun kodda karşılığıdır.
     """
     anahtar = (did, aktif)
-    if anahtar in _PUAN_ONBELLEK:
-        return _PUAN_ONBELLEK[anahtar]
+    _pv = _PUAN_ONBELLEK.get(anahtar, _EZBER_YOK)   # 🆕 BELLEK-1016: in+[] tavanla yarışır
+    if _pv is not _EZBER_YOK:
+        return _pv
     import numpy as _np2
     _lo = [YERLER[j]["lon"] for j in aktif]
     _la = [YERLER[j]["lat"] for j in aktif]
@@ -6705,7 +6781,7 @@ _SK_TARAF = {}
 _SK_SAYAC = {"hat_gun": 0, "kesilen_km2": 0.0, "eklenen_km2": 0.0, "yetim_kes": 0,
              "yetim_ekle": 0, "karsi_yok": 0, "hata": 0, "hata_ornek": []}
 _SK_CELISKI = {}                    # hat → {yerleşim adı} (noktası KARŞI yakada kalan)
-_SK_SAHIP_EZBER = {}
+_SK_SAHIP_EZBER = _tavanli(EZBER_TAVAN, "_SK_SAHIP_EZBER")   # 🆕 BELLEK-1016
 if SINIR_KISIT:
     from shapely.affinity import affine_transform as _sk_aff
     _sk_atla = {}
@@ -7203,7 +7279,7 @@ _ONB_GOVDE_TUZ = _hlo.sha256(shapely.to_wkb(KARA, output_dimension=2)).digest()
 #    G.Çin 1281 4.555 · Trabzon 1281 160 · Niğbolu 1915 14 · Cizre 1281 13.
 #    ÖNGÖRÜ (ölçümden önce): yabancı×yabancı çakışma her kesitte ≥%80 düşer;
 #    sıfıra İNMEZ (zaman kesiti + Osmanlı/tâbi/himaye gövdeleri bu yamada yok).
-_SAHIP_EZBER = {}
+_SAHIP_EZBER = _tavanli(EZBER_TAVAN, "_SAHIP_EZBER")   # 🆕 BELLEK-1016
 _KOMSU_CIKAR_SAYAC = {"govde": 0, "kesilen_birim2": 0.0, "bosaldi": 0}
 # EKLENTI-BOLUSTUR-1013 (işlev `_komsu_toprak_cikar`ın hemen altında)
 EKLENTI_BOLUSTUR = os.environ.get("MOTOR_EKLENTI_BOLUSTUR_KAPALI") != "1"
@@ -7801,6 +7877,8 @@ if _SUREC_YOLU:
           f"işçi çıkış kodları {[c.poll() for c in _SUREC_COCUK]}")
     print("  ⚠️ SÜREÇ: EKLEYİCİ KAPI gün sayaçları (_DOLGU_SAYAC) yalnız ANA sürecin "
           "hesapladığı günleri sayar — rapor sayısıdır, çıktıya girmez")
+    print("  🧠 EZBER TAVANI (BELLEK-1016): " + " · ".join(
+        f"{_e.ad} {len(_e)}/{_e._tavan or '∞'} atılan {_e.atilan}" for _e in _EZBER_LISTE))
 elif os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
     # ---- ESKİ YOL — bilerek DOKUNULMADI, bit-denkliğin SINAMA TABANI ------
     # `MOTOR_PARALEL_KAPALI=1` ile açılır. Aşağıdaki gövde, PARALEL
