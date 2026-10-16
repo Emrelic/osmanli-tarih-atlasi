@@ -501,6 +501,14 @@ window.OLAYLAR_EK16 = [
   d:"Aylardır Osman Digna'nın kuvvetlerince kuşatılan ve erzakı tükenen Sinkat garnizonu, komutanı Tevfik Bey ile birlikte kuşatmayı yarıp Sevâkin'e ulaşmaya çalıştı; 8 Şubat 1884'te kale dışında imha edildi ve Sinkat Mehdî kuvvetlerinin eline geçti. Haber 12 Şubat'ta Sevâkin'e ulaştı.",
   kaynak:"Wingate, Mahdiism and the Egyptian Sudan (London 1891) s.117: 'he and his men were cut absolutely to pieces on the 8th' · Royle, The Egyptian Campaigns 1882 to 1885 (yeni baskı, London 1900) s.266: 'On the 12th the news reached Souakim of the fall of Sinkat' (haber günü) · TDV kesela (1884, yıl) — KARAR-UYG-1015", duygu:["😔"] },
 
+{ t:"1891-03-03", k:"siyaset", etiket:["toprak-kayip","konu-askeri"],
+  kapsam:"dis", onem:3, b:"Grenfell kolunun Sinkat'tan geçişi — Sinkat Mehdî idaresinden çıkıp İngiliz-Mısır idaresine döndü",
+  gun:"3-7 Mart 1891 (alt uç 3 Mart; Mehdî çekilişinin kendi günü kaynakta yok)",
+  yer:"Sinkat, Sevâkin ardalanı",
+  yer_id:"Sinkat", kisiler:"Grenfell",
+  d:"Tokar'ın Şubat 1891'de geri alınmasının ardından Grenfell kumandasındaki İngiliz-Mısır kolu 3 Mart 1891'de Afafit'ten Sinkat üzerinden yola çıktı ve 7 Mart'ta Sevâkin'e vardı; kol, 1884'ten beri hiç girilemeyen bölgeyi düşmandan tamamen boşalmış buldu. 8 Mart'ta Sevâkin'de toplanan şeyhlere Hidiv adına genel af ilân edildi ve Sinkat yeniden İngiliz-Mısır idaresine bağlandı.",
+  kaynak:"Wingate, Mahdiism and the Egyptian Sudan (London 1891) Supplement s.508 — 3 Mart 1891 Afafit'ten Sinkat üzerinden çıkış, 7 Mart Sevâkin, 'having found the districts entirely clear of the enemy. This locality had not been visited since 1884' · 8 Mart şeyhler toplantısı ve genel af (Sinkat kaydının kendi kaynağı, KARAR-UYG-1015) · gün: Sinkat'tan geçiş 3-7 Mart arası, ALT UÇ yazıldı · DENETIM-K27-1016", duygu:["📌"] },
+
 { t:"1884-02-09", k:"isgal", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", onem:3, b:"Sevâkin'de sıkıyönetim — şehir İngiliz komutasına geçti",
   gun:"9 Şubat 1884",
