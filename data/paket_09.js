@@ -308,6 +308,20 @@ window.KRONOLOJI_SINIR_KOMSU = [
   d:"Bizans iç savaşı (1341-1347) sırasında Sırp Kralı Stefan Duşan güney Arnavutluk'a yürüdü ve 1280-81'den beri Bizans elinde olan Berat'ı aldı. Sırp hâkimiyetinin ne zaman bittiği ve şehrin yerel Arnavut prensliğine ne zaman geçtiği akademik kaynakla tarihlenemedi; harita bu yüzden 1345'ten 1417 Osmanlı fethine kadar Berat'ı beyanlı boşluk olarak gösterir. Madde yıl hassasiyetindedir.",
   kaynak:"TIB Balkan (ÖAW Bizans Araştırmaları) 'Belogradum/Berat' tib.oeaw.ac.at/balkan/explore/entity/123830: 'In 1280-81 the region and Berat became again part of the Byzantine Empire and lost in 1345 to Stefan IV Dušan.' · TDV berat--arnavutluk (sıra: Bizans, Epir, Anjou, yine Bizans, Sırplar, küçük bir Arnavut prensliği; yılsız)" },
 
+
+{ t:"1284-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
+  b:"Sırp Kralı Milutin Debre, Kırçova ve Porečie'yi Bizans'tan aldı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Debre (Dibra)",
+  etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
+  gun:"1284 (yıl; gün yok; kaynaklar 1282-1284 arasında ayrışır)",
+  d:"Milutin 1282/83'te Bizans'a karşı Üsküp, Polog ve Ovče Polje'yi aldıktan sonra 1284'te Debre, Kırçova (Kičevo) ve Porečie bölgelerini de Sırp 'vatanına' kattı. TDV Debre maddesi 1283 der; bir başka kaynak 1282. Madde yıl hassasiyetindedir.",
+  kaynak:"Popović & Zervan, 'The Fatherland of the Serbian Kings Milutin and Dečanski', Studia Slavica et Balcanica Petropolitana 2022/1, DOI 10.21638/spbu19.2022.102 ('conquered the regions of Debar, Kičevo and Porečie in 1284') · TDV debre ('1283’te Sırp Kralı Milutin Debre’yi ele geçirdi')" },
+
+{ t:"1334-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
+  b:"Sırplar Prilep'i aldı; Pelagonia'da Manastır da Sırp idaresine geçti (geçiş yılı yaklaşık)", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Manastır",
+  etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
+  gun:"1334 (yıl; gün yok; Manastır için yaklaşık)",
+  d:"Duşan 1334 seferinde Bizans'ın Prilep'ini aldı ve güneyde bugünkü Bitola'ya (Manastır) giden yol açıldı. Manastır'ın Sırp'a geçtiği yıl kaynaklarda doğrulanamadı; 14. yüzyıl ilk yarısında Duşan fetihlerinden sonra Sırbistan'a katıldığı bilinir. 1334 yaklaşık değerdir.",
+  kaynak:"Austrian Academy of Sciences, TIB, 'Interpretation of the Border between the Serbian Kingdom and the Byzantine Empire in the period from 1321 to 1334' (Prilep 1334) · TDV manastir--makedonya (Osmanlı fethi 1382-85)" },
 ];
 
 ;
