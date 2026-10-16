@@ -72,8 +72,8 @@ Metni `Write` ile scratchpad'e yaz (heredoc yasak), sonra:
 py arac/not.py yanit <no> --dosya <yol> --durum <durum>
 ```
 `--durum`: `cozuldu` (düzelttim) · `dogru-bulundu` (harita doğruymuş) · `karar-bekliyor` (sana sorum var).
-`son:claude` etiketi kendiliğinden konur, sıra Emre'ye geçer. **`--birak` KULLANMA**: not
-arşive kadar bu oturumdadır.
+`son:claude` etiketi kendiliğinden konur, sıra Emre'ye geçer. `--birak` YALNIZ iş bittiyse
+(`cozuldu`/`dogru-bulundu` ve karar beklenmiyor) eklenir; soru sorduysan not bu oturumda kalır.
 
 Rapor kısa, okur dilinde:
 1. **Ne buldum** — kaynakla (TDV bağlantısı), sayıyla.
@@ -103,10 +103,13 @@ Karar yoksa şık satırlarını yazma.
 - `py arac/kilit.py birak-hepsi --kim "oturum-<id>"` · worktree açtıysan push kapısından geçtikten
   sonra `ExitWorktree` `remove` · arka planda süreç bırakma. (Bunlar her turun sonunda yapılır;
   notun sahipliği ise sürer.)
-- 3 beep. Emre'ye tek satır:
-  - soru sorduysan: `#<no> → sorum post-it'te. Sitede cevap yazınca kendiliğimden devam ederim.`
-  - çözdüysen: `#<no> → <durum>. Uygunsa sitede "Kaldır (arşivle)"e bas; arşivlenince kendimi emekli ederim.`
-- **Sonra beklemeye geç** (her iki durumda da): Bash aracıyla, `run_in_background: true`:
+- **İşi bittiyse** (durum `cozuldu` ya da `dogru-bulundu` ve Emre'den beklenen karar YOK):
+  notu bırak ve hemen **5. adım (emekli ol)**. Bırakmak için `yanit`a `--birak` ekle
+  (ya da yanıtı yazdıysan `py arac/not.py birak <no>`). Not, Emre arşivleyene ya da yeni bir şey
+  yazana kadar hiçbir oturuma verilmez; Emre yazarsa yeni bir `/postit` oturumu devralır.
+- **Soru sorduysan** (`karar-bekliyor`): 3 beep, tek satır
+  `#<no> → sorum post-it'te. Sitede cevap yazınca kendiliğimden devam ederim.` ve beklemeye geç.
+- **Beklemeye geçiş** (yalnız soru sorduysan): Bash aracıyla, `run_in_background: true`:
   ```bash
   py arac/not.py bekle <no>
   ```
@@ -125,13 +128,14 @@ sitede "🔓 Sahipsiz bırak"a basar; 7 gün hiç ses vermeyen oturumun notu da 
 
 ## 5 · Emekli ol (iş bittiyse oturum kendini arşivler)
 
-Emre'nin kalıcı talimatı (16 Ekim 2026): **işi biten oturum kendini emekli eder.** İş bitti demek:
+Emre'nin kalıcı talimatı (16 Ekim 2026): **postit ile başlayan oturum işlem bitince kendini emekli
+eder.** İş bitti demek: not çözüldü/doğru bulundu ve karar beklenmiyor (4. adımda bırakıldı) ·
 `bekle` 10 (not arşivlendi) ya da 11 (not başka oturuma geçti) verdi · `al` 3 verdi (alınacak not
 yok) · Sonnet notu `opus` ile bıraktı. Sırayla:
 1. Kilitleri bırak (`py arac/kilit.py birak-hepsi --kim "oturum-<id>"`); worktree açıksa ve
    push edilmemiş iş yoksa `ExitWorktree` `remove`. Push edilmemiş iş varsa EMEKLİ OLMA, Emre'ye söyle.
 2. Arka planda süreç kalmasın (bekleme betiği bitmiş olmalı; çalışan varsa `TaskStop`).
-3. 3 beep ve tek satır: `#<no> → <arşivlendi | başka oturuma geçti | Opus'a bırakıldı | not yok>. Kendimi emekli ediyorum.`
+3. 3 beep ve tek satır: `#<no> → <çözüldü | doğru bulundu | arşivlendi | başka oturuma geçti | Opus'a bırakıldı | not yok>. Kendimi emekli ediyorum.`
 4. **Son araç çağrısı:** `mcp__ccd_session_mgmt__archive_session` · `session_id: "self"` ·
    `reason: "#<no> bitti"` (yüklü değilse önce `ToolSearch`
    `select:mcp__ccd_session_mgmt__archive_session`). Bu çağrıdan sonra hiçbir şey yazma.
