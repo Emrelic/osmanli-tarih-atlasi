@@ -15,6 +15,9 @@ POST-İT KUYRUĞU (Emre 16 Ekim 2026 — `/postit` skill'i, 1 not = 1 oturum):
                                                      al ve tam metnini bas · çıkış 3 = boş not yok
     py arac/not.py yanit 123 --dosya <yol> --durum karar-bekliyor --birak
     py arac/not.py birak 123                         notu bırak (yanıt yazmadan)
+    py arac/not.py al 12 --zorla                     son sözü Claude'da olan notu da al (Emre "zorla" dedi)
+    py arac/not.py al --model sonnet                 `model:opus` notlarını atla
+    py arac/not.py opus 123                          motor notu: `model:opus` koy ve bırak
     py arac/not.py son-doldur                        eski notlara `son:` etiketini bir kez yaz
 
 Etiketler: `son:claude` | `son:emre` = son sözü kim söyledi (site listede gösterir) ·
@@ -55,6 +58,7 @@ ONEK = "🤖 **Claude** — "
 SON = "son:"
 OTURUM = "oturum:"
 SURE_SAAT = 3
+MODEL_OPUS = "model:opus"   # motor/geometri notu: Sonnet oturumu almaz, sitede 🧠 Opus rozeti
 BOS_YOK = 3          # `al`: alınacak not yok (hata değil)
 
 
@@ -178,11 +182,15 @@ def bayat(zaman):
     return (datetime.datetime.now(datetime.timezone.utc) - t).total_seconds() > SURE_SAAT * 3600
 
 
-def alinabilir_mi(issue, kim):
-    """(evet/hayır, gerekçe). Canlı başka sahip varsa hayır; bayat sahip silinecek demektir."""
-    if son_yazan(issue) == "claude":
-        return False, "son söz Claude'da — Emre'yi bekliyor"
-    if son_yazan(issue) is None:
+def alinabilir_mi(issue, kim, zorla=False, model=None):
+    """(evet/hayır, gerekçe). Canlı başka sahip varsa hayır; bayat sahip silinecek demektir.
+    zorla: Emre "/postit N zorla" dedi — son sözün Claude'da olması engel değil.
+    model: oturumun modeli; `model:opus` etiketli notu Opus olmayan oturum almaz."""
+    if model and model != "opus" and MODEL_OPUS in etiketler(issue):
+        return False, "Opus ister (%s)" % MODEL_OPUS
+    if son_yazan(issue) == "claude" and not zorla:
+        return False, "son söz Claude'da — Emre'yi bekliyor (zorla almak için: al N --zorla)"
+    if son_yazan(issue) is None and not zorla:
         return False, "son yazan bilinmiyor — önce `son-doldur`"
     sahipler = [s for s in sahip_etiketleri(issue) if s != OTURUM + kim]
     if not sahipler:
@@ -358,7 +366,7 @@ def k_al(a):
         if OTURUM + kim in sahip_etiketleri(i):
             print("#%d zaten bu oturumda (oturum:%s)" % (i["number"], kim))
             return k_oku(argparse.Namespace(no=i["number"]))
-        evet, neden = alinabilir_mi(i, kim)
+        evet, neden = alinabilir_mi(i, kim, zorla=a.zorla and bool(a.no), model=a.model)
         if not evet:
             if a.no:
                 print("#%d alınamadı: %s" % (i["number"], neden))
@@ -375,6 +383,21 @@ def k_al(a):
 def k_birak(a):
     etiket_sil(a.no, OTURUM + kim_coz(a))
     print("#%d bırakıldı" % a.no)
+
+
+def k_opus(a):
+    """Sonnet oturumu motor/geometri notu aldıysa: işe girişmeden işaretle ve bırak.
+    `--dosya` verilirse o ana kadarki bulgu yorum olarak yazılır ama `son:` DEĞİŞMEZ →
+    not Opus oturumu için alınabilir kalır, Opus bulguyu yazışmada okur."""
+    if a.dosya:
+        with open(a.dosya, encoding="utf-8") as f:
+            metin = f.read().strip()
+        if metin:
+            gh("/issues/%d/comments" % a.no, "POST",
+               {"body": ONEK + "(ara bulgu — Opus devralacak) " + metin}, yazma=True)
+    gh("/issues/%d/labels" % a.no, "POST", {"labels": [MODEL_OPUS]}, yazma=True)
+    k_birak(a)
+    print("#%d → %s" % (a.no, MODEL_OPUS))
 
 
 def k_son_doldur(a):
@@ -418,7 +441,10 @@ def main():
     s.add_argument("--durum", choices=DURUMLAR); s.add_argument("--birak", action="store_true")
     s.add_argument("--kim"); s.set_defaults(f=k_yanit)
     s = alt.add_parser("al"); s.add_argument("no", type=int, nargs="?"); s.add_argument("--kim")
+    s.add_argument("--zorla", action="store_true"); s.add_argument("--model", choices=["opus", "sonnet", "haiku"])
     s.set_defaults(f=k_al)
+    s = alt.add_parser("opus"); s.add_argument("no", type=int); s.add_argument("--kim"); s.add_argument("--dosya")
+    s.set_defaults(f=k_opus)
     s = alt.add_parser("birak"); s.add_argument("no", type=int); s.add_argument("--kim")
     s.set_defaults(f=k_birak)
     s = alt.add_parser("son-doldur"); s.set_defaults(f=k_son_doldur)

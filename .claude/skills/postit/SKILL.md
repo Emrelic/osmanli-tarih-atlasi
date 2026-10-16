@@ -11,16 +11,33 @@ Koordinatör yoktur; koordinasyonu etiketler yapar (`oturum:<id>` = alındı, `s
 
 ## 1 · Notu al
 
+Kendi modelini bil (sistem isteminde yazar) ve `--model`e ver: `opus` · `sonnet`.
 ```bash
-py arac/not.py al          # sıradaki boş not
-py arac/not.py al 12       # Emre numara verdiyse
+py arac/not.py al --model sonnet            # sıradaki boş not (Sonnet `model:opus` notlarını atlar)
+py arac/not.py al 12 --model sonnet         # Emre numara verdiyse
+py arac/not.py al 12 --zorla --model opus   # Emre "/postit 12 zorla" dediyse: son söz Claude'da olsa da al
 ```
+`--zorla` YALNIZ Emre "zorla" yazdıysa ve yalnız numaralı notta kullanılır.
 - Çıkış **3** → alınacak not yok. Emre'ye tek satırla söyle, 3 beep, bitir.
 - Çıkış 0 → çıktı notun TAMAMIDIR (metin, bağlam JSON'u, bütün yorumlar). Bağlamı yeniden kurma,
   `oku` ile bir daha çekme. Önceki Claude yorumları varsa **kaldığı yerden devam et**; Emre'nin son
   yorumu neyi soruyor ya da neyi onaylıyorsa iş odur.
 - Başka oturumun notuna (`oturum:` etiketi senin değil) **dokunma** — `al` bunu zaten yapmaz.
 - Bu oturumda ikinci not alma. Bitince bitir.
+
+### Model kapısı (Sonnet oturumu için)
+Notu okuyunca türüne bak. **Motor/geometri notu** ise — zikzak, sivri çıkıntı, ince girinti/koridor,
+üçgen/üçken toprak, katmanların üst üste binmesi, ızgara izi, ya da önceki Claude yorumu teşhisi
+"motor" koymuşsa — işe GİRİŞME:
+```bash
+py arac/not.py opus <no>
+```
+(not `model:opus` alır, bırakılır, yorum yazılmaz; sitede 🧠 Opus rozeti çıkar). Emre'ye tek satır:
+`#<no> motor notu — Opus oturumuyla aç: /postit <no>`. 3 beep, bitir.
+Tarih/sahiplik/kaynak soruları, yerleşim eksikliğinden doğan boşluklar ve basit arayüz işleri
+Sonnet işin ortasında motora dayandığını görürse de aynısını yapar; o ana kadarki bulguyu
+boşa atmamak için kısa bir dosyaya yazıp `py arac/not.py opus <no> --dosya <yol>` (bulgu yoruma
+girer ama sıra Claude'da kalır, Opus oradan devralır). `yanit` KULLANMA — sırayı Emre'ye geçirir.
 
 ## 2 · Araştır ve düzelt
 

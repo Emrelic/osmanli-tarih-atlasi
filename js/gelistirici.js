@@ -208,18 +208,19 @@
     var v = null;
     if (m) { try { v = JSON.parse(m[1]); } catch (e) { v = null; } }
     if (!v) return null;
-    var durum = "acik", son = null, oturum = [];
+    var durum = "acik", son = null, oturum = [], opus = false;
     (is.labels || []).forEach(function (l) {
       var n = typeof l === "string" ? l : l.name;
       if (n && n.indexOf("not:") === 0 && DURUM[n.slice(4)]) durum = n.slice(4);
       // POST-İT KUYRUĞU (arac/not.py): son sözü kim söyledi · notu hangi oturum aldı
       if (n && n.indexOf("son:") === 0) son = n.slice(4);
       if (n && n.indexOf("oturum:") === 0) oturum.push(n.slice(7));
+      if (n === "model:opus") opus = true;
     });
     if (!son && !is.comments) son = "emre";
     var gi = gunIdx(v.gun);
     return {
-      no: is.number, baslik: is.title, durum: durum, url: is.html_url, son: son, oturum: oturum,
+      no: is.number, baslik: is.title, durum: durum, url: is.html_url, son: son, oturum: oturum, opus: opus,
       yorum: is.comments || 0, veri: v, gi: gi,
       fi: v.gorunur ? gunIdx(v.gorunur.f) : gi,
       ti: v.gorunur ? gunIdx(v.gorunur.t) : gi
@@ -725,7 +726,10 @@
     return c;
   }
   function oturumCip(n) {
-    return n.oturum && n.oturum.length ? el("span", "gn-oturum", "🔒 " + n.oturum.join(", ")) : null;
+    var f = document.createDocumentFragment();
+    if (n.opus) { var o = el("span", "gn-oturum gn-opus", "🧠 Opus"); o.title = "Motor/geometri notu — Opus oturumu aç"; f.appendChild(o); }
+    if (n.oturum && n.oturum.length) f.appendChild(el("span", "gn-oturum", "🔒 " + n.oturum.join(", ")));
+    return f.childNodes.length ? f : null;
   }
 
   function panelAc(n) {
