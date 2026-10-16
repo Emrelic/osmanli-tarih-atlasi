@@ -20,6 +20,8 @@ POST-İT KUYRUĞU (Emre 16 Ekim 2026 — `/postit` skill'i, 1 not = 1 oturum):
     py arac/not.py al --model sonnet                 `model:opus` notlarını atla
     py arac/not.py opus 123                          motor notu: `model:opus` koy ve bırak
     py arac/not.py son-doldur                        eski notlara `son:` etiketini bir kez yaz
+    py arac/not.py bekle 123                         ARKA PLANDA: Emre cevap yazana kadar bekle
+                                                     (0 cevap · 10 arşiv · 11 artık bu oturumda değil)
 
 Etiketler: `son:claude` | `son:emre` = son sözü kim söyledi (site listede gösterir) ·
 `oturum:<id>` = notun sahibi oturum (id = CLAUDE_CODE_SESSION_ID'nin ilk 6 hanesi,
@@ -434,6 +436,46 @@ def k_opus(a):
     print("#%d → %s" % (a.no, MODEL_OPUS))
 
 
+def emre_cevaplari(no):
+    """Son Claude yorumundan SONRA gelen Claude-dışı yorumlar (Emre'nin cevabı)."""
+    yorumlar = gh("/issues/%d/comments?per_page=100" % no) or []
+    son_c = max((k for k, c in enumerate(yorumlar)
+                 if re.match(r"^\s*(🤖|\*\*Claude)", c.get("body") or "")), default=-1)
+    return [c for c in yorumlar[son_c + 1:]]
+
+
+def k_bekle(a):
+    """OTURUM BAŞINA BEKLEME (Emre 16 Ekim 2026): `/postit` oturumu raporu yazınca bunu
+    ARKA PLANDA başlatır; Emre cevap yazınca betik biter ve uygulama oturumu uyandırır.
+    Beklerken model çalışmaz → token harcanmaz. Yorumları yalnız sayı değişince çeker.
+    Çıkış: 0 Emre cevap yazdı (yorumlar basılır) · 10 not arşive gitti · 11 not artık
+    bu oturumda değil (Emre sahipsiz bıraktı / devralındı)."""
+    import time
+    kim = kim_coz(a)
+    sayi = None
+    while True:
+        try:
+            i = gh("/issues/%d" % a.no)
+            if i.get("state") != "open":
+                print("ARŞİV — #%d kapandı. Bu oturumun işi bitti." % a.no)
+                return 10
+            if OTURUM + kim not in sahip_etiketleri(i):
+                print("SAHİPSİZ — #%d artık bu oturumda değil (oturum:%s)." % (a.no, kim))
+                return 11
+            if i.get("comments") != sayi:
+                sayi = i.get("comments")
+                yeni = emre_cevaplari(a.no)
+                if yeni:
+                    print("CEVAP GELDİ — #%d (%d yorum)\n" % (a.no, len(yeni)))
+                    for c in yeni:
+                        print("--- %s · %s\n%s\n" % (c["user"]["login"], c["created_at"], c["body"]))
+                    return 0
+        except (Olculemedi, RuntimeError) as e:     # ağ/GitHub geçici: beklemeye devam
+            print("geçici hata, sürüyor: %s" % e, file=sys.stderr)
+        sys.stdout.flush()
+        time.sleep(a.aralik)
+
+
 def k_son_doldur(a):
     n = 0
     for i in notlar():
@@ -482,6 +524,8 @@ def main():
     s = alt.add_parser("birak"); s.add_argument("no", type=int); s.add_argument("--kim")
     s.set_defaults(f=k_birak)
     s = alt.add_parser("son-doldur"); s.set_defaults(f=k_son_doldur)
+    s = alt.add_parser("bekle"); s.add_argument("no", type=int); s.add_argument("--kim")
+    s.add_argument("--aralik", type=int, default=60); s.set_defaults(f=k_bekle)
     s = alt.add_parser("durum"); s.add_argument("no", type=int); s.add_argument("durum", choices=DURUMLAR)
     s.set_defaults(f=k_durum)
     s = alt.add_parser("arsivle"); s.add_argument("no", type=int); s.set_defaults(f=k_arsivle)

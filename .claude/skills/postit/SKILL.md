@@ -1,6 +1,6 @@
 ---
 name: postit
-description: Haritadaki post-it notlarından (GitHub Issues, etiket harita-notu) sahipsiz BİR notu bu oturuma alır; not arşive gidene kadar bu oturumun uhdesinde kalır. Önceki Claude yorumlarını okuyup devralır, araştırır, düzeltir, raporu ya da soruyu post-it'in altına yazar ve Emre'nin cevabını bekler. Emre "/postit", "/postit 12" ya da aynı oturumda "devam" yazınca çalışır. 1 not = 1 oturum; not arşivlenince oturum çöpe atılır.
+description: Haritadaki post-it notlarından (GitHub Issues, etiket harita-notu) sahipsiz BİR notu bu oturuma alır; not arşive gidene kadar bu oturumun uhdesinde kalır. Önceki Claude yorumlarını okuyup devralır, araştırır, düzeltir, raporu ya da soruyu post-it'in altına yazar ve Emre'nin cevabını arka planda bekler (cevap gelince kendiliğinden devam eder). Emre "/postit", "/postit 12" ya da aynı oturumda "devam" yazınca çalışır. 1 not = 1 oturum; not arşivlenince oturum çöpe atılır.
 ---
 
 # /postit — bir post-it, bir oturum
@@ -104,8 +104,21 @@ Karar yoksa şık satırlarını yazma.
   sonra `ExitWorktree` `remove` · arka planda süreç bırakma. (Bunlar her turun sonunda yapılır;
   notun sahipliği ise sürer.)
 - 3 beep. Emre'ye tek satır:
-  - soru sorduysan: `#<no> → sorum post-it'te. Cevabını sitede yaz, sonra bu oturuma "devam" de.`
+  - soru sorduysan: `#<no> → sorum post-it'te. Sitede cevap yazınca kendiliğimden devam ederim.`
   - çözdüysen: `#<no> → <durum>. Uygunsa sitede "Kaldır (arşivle)"e bas, sonra bu oturumu silebilirsin.`
+- **Sonra beklemeye geç** (her iki durumda da): Bash aracıyla, `run_in_background: true`:
+  ```bash
+  py arac/not.py bekle <no>
+  ```
+  Beklerken hiçbir şey yapma, poll etme, `sleep` kurma — betik bitince uygulama seni uyandırır.
+  Uyandığında çıkış koduna bak:
+  - **0** → Emre cevap yazdı; çıktı yeni yorumlarıdır. Notu yeniden `al` ile çekme, çıktıyı oku
+    ve 2. adımdan devam et (rapor → `yanit` → yine `bekle`).
+  - **10** → not arşive gitti. Tek satır: `#<no> arşivlendi. Bu oturumu silebilirsin.` Bitir.
+  - **11** → not artık bu oturumda değil. Tek satır: `#<no> başka oturuma geçti. Bu oturumu silebilirsin.` Bitir.
+  - Başka bir çıkış (betik çöktü) → bir kez yeniden başlat; yine çökerse Emre'ye söyle.
+- Emre bu oturuma kendisi yazarsa (betik hâlâ çalışırken) önce onun mesajına bak; işin bitince
+  bekleme betiği zaten çalışıyorsa ikincisini başlatma.
 
 Arşivi yalnız Emre yapar (`arsivle`'yi yalnız o isterse çağır). Oturum silinir ya da takılırsa Emre
 sitede "🔓 Sahipsiz bırak"a basar; 7 gün hiç ses vermeyen oturumun notu da kendiliğinden düşer.
