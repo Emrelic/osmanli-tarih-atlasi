@@ -37,3 +37,10 @@ Ayrıca bu oturumda (15 Ekim): 8a birimi = taşma parçası, BEKLENEN_D8A 1108 (
 | 18 | II. Mehmed sultanisi görseli | ANS 1997.65.4097 (883 H, Public Domain Mark) indirilir |
 | 19 | Salzburg | `salzburg-baspiskoposlugu` künyesi + renk (Pettau 977–1555) |
 | 20 | Muharebe adı etiketi | zemin kalkar, ince halolu yazı (sefer adı gibi) |
+
+## Dördüncü tur (16 Ekim 2026, öğleden sonra)
+| # | Kalem | Karar |
+|---|---|---|
+| 21 | 7e tavanı | 1898 → 1990 (Bîşe/Vâdi'd-Devâsir #13 sonucu +66, sayım artığı +33) — UYGULANDI 43b2c082e; Kunfüze eklenince 1941'e indi (0e3080b2a) |
+| 22 | KOŞU 27 | bu akşam eczane kapanınca başlar; TUZ değişikliği onaylı (renk paketi 2+3, motor bellek + komşu-kur yamaları) |
+| 23 | Mekke / Medine sahiplik modeli | MEMLÜK KALSIN — 1281 sonrası hutbe/metbû modeli (memluk → Osmanlı) korunur; şerif/emîr fiilî yönetimi sahip olarak YAZILMAZ. 1000–1281 zinciri de aynı modelle (metbû devlet) kurulur. |
