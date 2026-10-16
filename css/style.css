@@ -3048,6 +3048,8 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 /* 13 Eylül 2026 — 0042/H-0023·24·26: şehir etiketiyle çarpışan işaret artık
    SİLİNMİYOR, küçük simgeye iniyor (app.js savasGuncelle `sv-sade`). */
 .savas-isaret.sv-sade .sv-ad { display: none; }
+/* ETIKET-1016 (not #13): odakta olay varken ötekilerin adı gizli, simge kalır. */
+#harita.sv-odakvar .savas-isaret:not(.sv-odak) .sv-ad { display: none; }
 .savas-isaret.sv-sade .sv-ikon { transform: scale(0.72); opacity: 0.9; }
 /* 🆕 14 Ekim 2026 — KARARLAR-1014 #33 (0064/H-0015): odaktaki olay simgesiyle
    kesişen şehrin adı ve ediniliş simgesi o kare için gizlenir; nokta kalır

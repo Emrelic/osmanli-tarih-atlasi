@@ -5219,6 +5219,10 @@ function savasGuncelle(t) {
       if (!_odakIlkBulundu) { mp._odakKorundu = true; _odakIlkBulundu = true; }
     }
   }
+  // ETIKET-1016 (not #13, Emre: "odak sadeleştirmesi de yapılsın"): odakta bir
+  // olay varsa ötekilerin adı gizlenir, yalnız simge kalır (css `sv-odakvar`).
+  var _hrtEl = document.getElementById("harita");
+  if (_hrtEl) _hrtEl.classList.toggle("sv-odakvar", _odakIlkBulundu);
   var _sehirKutu = [];
   for (var si = 0; si < sehirler.length; si++) {
     if (!sehirler[si].ekli) continue;
