@@ -818,13 +818,13 @@ window.YERLESIMLER_EK29 = [
 //    sonlarıdır; 'Haziran' bir ay kayması (Temmuz?) olabilir — kaynak kendi içinde şüpheli, ikinci
 //    kaynak bulunamadı.
 { ad:"Lofça (Loveč)", kaynak:"BERLİN 1878 B sınıfı (PAKET-0076-BITIR, AVRUPA-YER 13 Ekim 2026) — KONUM: GeoNames (şehir/idari merkez satırı) · SAHİPLİK/DÖNEM: TDV lofca (Kiel; Rus işgali 23 Ağustos 1877) · TDV bulgaristan; her dönemin kendi kaynağı dönemde yazılı, yorum/komşu deseni olan halkalar «⚠️» ile işaretli (denetim/PAKET-0076-BITIR-berlin-noktalar.md)", tur:"sehir", lat:43.132, lon:24.718, g:0, k:4, m:"Sofya",
-  s:[{f:"1281-01-01",t:"1393-01-01",d:"bulgar-carligi",kaynak:"TDV lofca (M. Kiel): 1187 'ikinci Bulgar Çarlığı’nın başlangıcı anlamına gelen Loveč/Lofça barışı' · 'Çar İvan Şişman’ın kalelerinin listesi'"},
+  s:[{f:"1281-01-01",t:"1393-06-17",d:"bulgar-carligi",kaynak:"TDV lofca (M. Kiel): 1187 'ikinci Bulgar Çarlığı’nın başlangıcı anlamına gelen Loveč/Lofça barışı' · 'Çar İvan Şişman’ın kalelerinin listesi'"},
      {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi",kaynak:"⚠️ fetret bölge deseni (Plevne/Tırnova/Niğbolu) — kasaba düzeyinde ölçülmedi"},
      {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
      {f:"1908-10-05",t:"1923-10-29",d:"bulgaristan-kralligi",kaynak:"TDV bulgaristan: 'Bulgaristan 5 Ekim 1908 tarihinde bağımsızlığını ilân ettikten sonra'"}],
-  d:[{f:"1393-01-01",t:"1402-07-28",kesinlik:"yil",kaynak:"TDV lofca: 'Şişman’ın bütün eyaletleriyle birlikte bu kalenin Yıldırım Bayezid’in orduları tarafından 795’te (1393) fethedildiği sanılmaktadır' ⚠️ 'sanılmaktadır' · Bulgar tarihçiliğinin 1474'ü Bosna'daki Loveč'tir (Kiel)"},
+  d:[{f:"1393-06-17",t:"1402-07-28",kesinlik:{f:"yil",t:"gun"},kaynak:"gün komşudan: Tırnova (74 km) · TDV `tirnova`: 'şehri tekrar zaptetti (17 Haziran 1393)' · TDV `lofca` (M. Kiel): 'Şişman’ın bütün eyaletleriyle birlikte bu kalenin Yıldırım Bayezid’in orduları tarafından 795’te (1393) fethedildiği sanılmaktadır' — aynı sefer · NOT2-1016 (Emre notu #33): eski 1393-01-01 yıl işareti Lofça'yı Tırnova ve Plevne'den beş buçuk ay önce, Bulgar toprağı içinde Osmanlı adası yapıyordu · ilk kaynak: TDV lofca: 'Şişman’ın bütün eyaletleriyle birlikte bu kalenin Yıldırım Bayezid’in orduları tarafından 795’te (1393) fethedildiği sanılmaktadır' ⚠️ 'sanılmaktadır' · Bulgar tarihçiliğinin 1474'ü Bosna'daki Loveč'tir (Kiel)"},
      {f:"1413-07-05",t:"1878-07-13"}],
   v:[{f:"1878-07-13",t:"1908-10-05",k:"Bulgaristan Prensliği",statu:"vassal",kid:"bulgaristan-prensligi",kaynak:"Berlin md. 2 (Tuna–Balkan arası prenslik) · TDV lofca: '1880’deki ilk Bulgar resmî nüfus sayımına göre'"}],
   isg:[{f:"1877-08-23",t:"1878-07-13",d:"rusya",kaynak:"TDV lofca: 'Türk-Rus savaşı sırasında Lofça 5 Haziran 1877’de Ruslar tarafından işgal edildi. Rifat Paşa kumandasındaki Osmanlılar’ın 15 Haziran’da Ruslar’ı geri püskürtmesine rağmen şehir 23 Ağustos’ta terkedildi' · TDV günü olduğu gibi (takvimi belirtilmemiş)"}] },
