@@ -871,64 +871,210 @@
   {
    "ad": "Mekke",
    "grup": "B2",
-   "bekleyen_kimlik": [
-    "mekke-serifligi"
+   "bekleyen_kimlik": [],
+   "uygulanan_kuyruk": [
+    [
+     "1000-01-01",
+     "1070-01-01",
+     "fatimi"
+    ],
+    [
+     "1070-01-01",
+     "1076-01-01",
+     "buyuk-selcuklu"
+    ],
+    [
+     "1076-01-01",
+     "1080-01-01",
+     "fatimi"
+    ],
+    [
+     "1080-01-01",
+     "1092-01-01",
+     "buyuk-selcuklu"
+    ],
+    [
+     "1092-01-01",
+     "1171-09-13",
+     "fatimi"
+    ],
+    [
+     "1171-09-13",
+     "1250-01-01",
+     "eyyubi"
+    ],
+    [
+     "1250-01-01",
+     "1261-06-09",
+     "resuli"
+    ],
+    [
+     "1261-06-09",
+     "1281-01-01",
+     "memluk"
+    ]
    ],
-   "uygulanan_kuyruk": [],
    "notlar": [
-    "kesildi 1000-01-01–1281-01-01 mekke-serifligi: RENKSİZ: mekke-serifligi"
+    "şerif modeli (mekke-serifligi 1000-1281) GERİ ÇEKİLDİ — Emre #23 METBÛ modeli"
    ],
-   "dikis": "yeni-kirilma (mekke-serifligi ≠ mevcut memluk) — ⚠️ çelişkiye bak",
-   "mevcut_duzeltme": "⚠️ İLKE ÇELİŞKİSİ: mevcut 1281-1517 'memluk' tâbiyeti (hutbe) sahip yazar; TDV ve kural 4'e göre fiilî yönetici şeriflerdir ('Mekke emîrlerinin tâbi oldukları Eyyûbîler’in Mekke hâkimiyetleri ...', '1254-1301 yılları arasında Mekke emîri olan Ebû Nümey ... Memlük sultanlarına bağlılığını sürdürerek'). Seçenek: (a) zincir mekke-serifligi kalır, 1281'de kaynaksız kırılma doğar → mevcut 1281+ dönem mekke-serifligi'ne çevrilmeli (1281+ benim yetkimde değil); (b) tâbiyet ilkesi Hicaz için kabul edilirse zincir 1174 Eyyûbî/1252+ Memlük hutbesine göre yeniden kurulur. Önerim (a).",
+   "dikis": "birlesti (mevcut memluk f 1281-01-01 → 1261-06-09)",
+   "mevcut_duzeltme": null,
    "yeni_kunyeler": [],
    "zincir": [
     {
      "f": "1000-01-01",
-     "t": "1281-01-01",
-     "d": "mekke-serifligi",
+     "t": "1070-01-01",
+     "d": "fatimi",
      "kesinlik": {
       "f": "ufuk",
-      "t": "mevcut"
+      "t": "yil"
      },
      "slug": "mekke",
-     "alinti": "Mekke, Suûdîler’in idaresine girinceye kadar (16 Ekim 1924) Benî Katâde ahfadından gelen emîrler tarafından yönetildi.",
-     "not": "RENKSİZ künye (mekke-serifligi 969-1919). Fiilî yönetici şerifler (kural 4): Benî Ca‘fer/Benî Süleyman 969-1062 → Benî Hâşim (1063) → Katâde (27 Receb 596 / 13 Mayıs 1200) — aynı künye. Fâtımî/Abbâsî/Selçuklu/Eyyûbî (1174-1252)/Memlük adına hutbe = tâbiyet. 455/1063 Suleyhî alışı geçici (idareyi şerif Ebû Hâşim'e bıraktı).",
-     "alinti_dogrulandi": true
+     "alinti": "368-462 (978-1070) yılları arasında Mekke’de hutbeler Fâtımîler adına okundu (İbn Fehd, II, 473).",
+     "not": "Emre #23 (16 Ekim 2026): METBÛ modeli — hutbe/metbû devlet sahip; şerif/emîr fiilî yönetimi sahip YAZILMAZ. Fiilî yönetici Hasenî emîrler (Benî Ca‘fer/Benî Süleyman/Hevâşim) — sahip yazılmadı. 402/1011 Ebü'l-Fütûh'un kısa süreli bağımsızlık hutbesi ve 455/1063 Suleyhî girişi (hutbe yine Fâtımî adına) kodlanmadı. t 1070: 462 = Ekim 1069 – Ekim 1070; özet cümle '978-1070' der."
+    },
+    {
+     "f": "1070-01-01",
+     "t": "1076-01-01",
+     "d": "buyuk-selcuklu",
+     "kesinlik": {
+      "f": "yil",
+      "t": "yil"
+     },
+     "slug": "mekke",
+     "alinti": "Ca‘fer hutbeyi Abbâsî Halifesi Kāim-Biemrillâh ile Selçuklu Sultanı Alparslan adına okuttu (462/1069-70)",
+     "not": "Emre #23 (16 Ekim 2026): METBÛ modeli — hutbe/metbû devlet sahip; şerif/emîr fiilî yönetimi sahip YAZILMAZ. Metbû: Selçuklu sultanı (Abbâsî halifesinin adı Sünnî hutbede her dönemde anılır, ayırt edici değil). 462 = Ekim 1069 – Ekim 1070 ⇒ 1070-01-01 Hicrî yılın içinde. ⚠️ kronoloji_cok_once1281_ortadogu aynı olayı 1069-01-01'e koymuş."
+    },
+    {
+     "f": "1076-01-01",
+     "t": "1080-01-01",
+     "d": "fatimi",
+     "kesinlik": {
+      "f": "yil",
+      "t": "yil"
+     },
+     "slug": "mekke",
+     "alinti": "468 (1076) yılında Mekke Emîri Ebû Hâşim Muhammed b. Ca‘fer’in hutbeyi tekrar Fâtımîler adına okutmaya başlamasıyla Hicaz’daki mücadelenin bu safhası Şiîler lehine sonuçlandı (İbnü’l-Esîr, X, 97-98).",
+     "not": "Emre #23 (16 Ekim 2026): METBÛ modeli — hutbe/metbû devlet sahip; şerif/emîr fiilî yönetimi sahip YAZILMAZ."
+    },
+    {
+     "f": "1080-01-01",
+     "t": "1092-01-01",
+     "d": "buyuk-selcuklu",
+     "kesinlik": {
+      "f": "yil",
+      "t": "yil"
+     },
+     "slug": "mekke",
+     "alinti": "Fakat 472’den (1079-80) itibaren Mekke emîri Abbâsî Halifesi Muktedî-Biemrillâh ve Sultan Melikşah’a bağlılığını bildirdi.",
+     "not": "Emre #23 (16 Ekim 2026): METBÛ modeli — hutbe/metbû devlet sahip; şerif/emîr fiilî yönetimi sahip YAZILMAZ. 472 = Haziran 1079 – Haziran 1080 ⇒ 1080-01-01 Hicrî yılın içinde. Süreklilik: '479-485 (1086-1092) tarihleri arasında Mekke Abbâsî halifesi ve Selçuklu sultanına tâbi olmaya devam etti' (TDV mekke)."
+    },
+    {
+     "f": "1092-01-01",
+     "t": "1171-09-13",
+     "d": "fatimi",
+     "kesinlik": {
+      "f": "yil",
+      "t": "yil"
+     },
+     "slug": "mekke",
+     "alinti": "Mekke emîri Melikşah’ın ölümü üzerine (485/1092) hutbeleri yeniden Fâtımîler adına okutmaya başladı.",
+     "not": "Emre #23 (16 Ekim 2026): METBÛ modeli — hutbe/metbû devlet sahip; şerif/emîr fiilî yönetimi sahip YAZILMAZ. f 1092-01-01 YIL kuralı: gerçek kırılma Melikşah'ın ölümünden (Kasım 1092) sonradır. t: TDV hicaz AYNEN: 'Daha sonraki yıllarda Selâhaddîn-i Eyyûbî’nin Fâtımîler’i ortadan kaldırmasıyla Hicaz Eyyûbîler’in idaresi altına girdi (567/1171).' — gün kaynakta yok, fatimi/eyyubi künye geçişinden (1171-09-13) DEVRALINDI (künye günü kaynak değildir, D213). ⚠️ TDV İÇ ÇELİŞKİ: TDV mekke Fâtımî hâkimiyetini 569/1174'e uzatır ('Mekke, Selâhaddîn-i Eyyûbî’nin kardeşi Turan Şah’ın gayretleriyle Fâtımî hâkimiyetinden çıktı ve hutbe 569 (1174) yılından itibaren Abbâsî halifelerinin yanı sıra Nûreddin Mahmud Zengî adına okunmaya başladı'); Fâtımî künyesi 1171-09-13'te biter (hilâfet ilgası) ⇒ TDV hicaz alındı."
+    },
+    {
+     "f": "1171-09-13",
+     "t": "1250-01-01",
+     "d": "eyyubi",
+     "kesinlik": {
+      "f": "yil",
+      "t": "yil"
+     },
+     "slug": "hicaz",
+     "alinti": "Daha sonraki yıllarda Selâhaddîn-i Eyyûbî’nin Fâtımîler’i ortadan kaldırmasıyla Hicaz Eyyûbîler’in idaresi altına girdi (567/1171).",
+     "not": "Emre #23 (16 Ekim 2026): METBÛ modeli — hutbe/metbû devlet sahip; şerif/emîr fiilî yönetimi sahip YAZILMAZ. f gün künyeden devralındı (kaynak YIL 567/1171). Süreklilik TDV mekke AYNEN: 'Mekke emîrlerinin tâbi oldukları Eyyûbîler’in Mekke hâkimiyetleri bazı kesintilerle 650 (1252) yılına kadar sürdü.' — kesintiler ('Mekke’de Eyyûbî hâkimiyeti, bazan Yemen hükümdarları adına hutbe okunması veya Mekke şeriflerinin bağımsız hareket etme arzuları yüzünden kesintiye uğramakla birlikte 650 (1252) yılına kadar sürdü.' · TDV hicaz '1232 yılından sonra Resûlîler Eyyûbîler’le bölgenin hâkimiyeti konusunda mücadele ettiler.') yılsız ⇒ KODLANMADI. t 1250: TDV resuliler Şubat 1250'de Resûlî hâkimiyetinin Mekke'de tanındığını söyler (sonraki dilim). ⚠️ TDV mekke Eyyûbî'yi 650/1252'ye uzatır; Eyyûbî künyesi 1250-04-30'da biter ⇒ ÇELİŞKİ bildirildi."
+    },
+    {
+     "f": "1250-01-01",
+     "t": "1261-06-09",
+     "d": "resuli",
+     "kesinlik": {
+      "f": "yil",
+      "t": "belirsiz"
+     },
+     "slug": "resuliler",
+     "alinti": "Cened’de kendi memlüklerinin suikastına uğradığında (Zilkade 647 / Şubat 1250) kurduğu devletin hâkimiyeti Mekke ile Hadramut arasındaki bölgede tanınıyordu.",
+     "not": "Emre #23 (16 Ekim 2026): METBÛ modeli — hutbe/metbû devlet sahip; şerif/emîr fiilî yönetimi sahip YAZILMAZ. Cümle Şubat 1250'deki DURUMU tarihler; Resûlî tanınmasının başlangıcı daha önce olabilir (1232 sonrası Eyyûbî-Resûlî mücadelesi) ⇒ f YIL. Süreklilik TDV resuliler AYNEN: 'Rakiplerini bertaraf ederek tahta çıkan Nûreddin Ömer’in büyük oğlu el-Melikü’l-Muzaffer I. Yûsuf öncelikle iktidar mücadelesi sırasında elden çıkan Zebîd, Tihâme, Aden ve Mekke gibi bölge ve şehirleri tekrar hâkimiyet altına aldı.' (yılsız). t: sonraki dilimin alt sınırı (hilâfetin ihyası) — Mekke'nin Memlüklere geçiş günü BULUNAMADI."
+    },
+    {
+     "f": "1261-06-09",
+     "t": "1281-01-01",
+     "d": "memluk",
+     "kesinlik": {
+      "f": "belirsiz"
+     },
+     "slug": "mekke",
+     "alinti": "Sultan I. Baybars’ın, Moğol istilâsıyla ortadan kaldırılan Bağdat Abbâsî hilâfetini Mısır’da yeniden kurmasıyla Mekke Emirliği Memlükler’e bağlandı.",
+     "not": "Emre #23 (16 Ekim 2026): METBÛ modeli — hutbe/metbû devlet sahip; şerif/emîr fiilî yönetimi sahip YAZILMAZ. f ALT SINIR: cümle bağlanmayı hilâfetin ihyasına bağlar ama gün/yıl vermez; ihyanın günü TDV abbasiler AYNEN: 'Sultan Baybars, Abbâsîler’den Halife Zâhir’in oğlu olup Moğollar’ın Bağdat’ı tahribi sırasında canını kurtararak Dımaşk’a gitmiş bulunan Ahmed’i Kahire’ye getirerek parlak bir merasimle halifeliğini ilân ve ona biat etti (9 Receb 659 / 9 Haziran 1261)' ⇒ Mekke'nin kendi günü BULUNAMADI (1269 Baybars haccı kronoloji_memluk'ta)."
     }
    ],
    "maddeler": [],
-   "durum_renk_paket_3_1016": "KALDI: görev gereği DOKUNULMADI — zincir 1281'de mevcut memluk'a BİTİŞMİYOR (sahip farklı ⇒ 1281'de kaynaksız kırılma); memluk→şerif model kararı Emre'de. mekke-serifligi rengi verildi (#dede24)."
+   "durum_renk_paket_3_1016": "KALDI: görev gereği DOKUNULMADI — zincir 1281'de mevcut memluk'a BİTİŞMİYOR (sahip farklı ⇒ 1281'de kaynaksız kırılma); memluk→şerif model kararı Emre'de. mekke-serifligi rengi verildi (#dede24).",
+   "durum_emre_23": "UYGULANDI (16 Ekim 2026): 1000-1281 tam zincir, metbû/hutbe modeli; maddeler data/olaylar_t5_1000b.js (1070·1076·1080·1092·1250·1261-06-09 + 1171-09-13 maddesine yer eklendi). Kalan: yok. Çelişkiler: TDV mekke Fâtımî→1174 / hicaz 1171; mekke Eyyûbî→1252 / künye 1250-04-30 / resuliler Şubat 1250."
   },
   {
    "ad": "Medine",
    "grup": "B2",
-   "bekleyen_kimlik": [
-    "medine-emirligi"
+   "bekleyen_kimlik": [],
+   "uygulanan_kuyruk": [
+    [
+     "1261-06-09",
+     "1281-01-01",
+     "memluk"
+    ]
    ],
-   "uygulanan_kuyruk": [],
    "notlar": [
-    "kesildi 1000-01-01–1281-01-01 medine-emirligi: RENKSİZ: medine-emirligi"
+    "şerif/emîr modeli (medine-emirligi 1000-1281) GERİ ÇEKİLDİ — Emre #23 METBÛ modeli",
+    "kesildi 1250-04-30–1261-06-09: bulunamadı ⇒ yalnız bitişik kuyruk (memluk f 1281 → 1261-06-09) uygulandı"
    ],
-   "dikis": "yeni-kirilma (medine-emirligi ≠ mevcut memluk) — Mekke ile aynı ilke çelişkisi",
-   "mevcut_duzeltme": "⚠️ Mekke ile aynı: mevcut 1281+ 'memluk' tâbiyettir; künye medine-emirligi 1517'ye kadar uzanıyor. Önerim mevcut dönemin medine-emirligi'ne çevrilmesi.",
+   "dikis": "birlesti (mevcut memluk f 1281-01-01 → 1261-06-09)",
+   "mevcut_duzeltme": null,
    "yeni_kunyeler": [],
    "zincir": [
     {
      "f": "1000-01-01",
+     "t": "1171-09-13",
+     "d": null,
+     "not": "bulunamadı — TDV medine: '365’te (976) tekrar Abbâsî idaresine geçen Medine bundan sonra iki devletin önemli rekabet alanı haline geldi ve şehirde hâkimiyet Abbâsîler ile Fâtımîler arasında sık sık el değiştirdi.' · 482-483 (1089-1090) Melikşah hutbesi · 25 Kasım 1092 Mahmud hutbesi · 'Daha sonra şehre bazan Selçuklular, bazan Fâtımîler hâkim oldular.' ⇒ 1000-1171 hutbe kırılmalarının çoğu yılsız/sırasız; zincir kurulamadı."
+    },
+    {
+     "f": "1171-09-13",
+     "t": "1250-04-30",
+     "d": "eyyubi",
+     "slug": "hicaz",
+     "alinti": "Daha sonraki yıllarda Selâhaddîn-i Eyyûbî’nin Fâtımîler’i ortadan kaldırmasıyla Hicaz Eyyûbîler’in idaresi altına girdi (567/1171).",
+     "not": "TDV medine AYNEN: 'Yemen’in önemli bir kısmını ele geçiren Selâhaddîn-i Eyyûbî’nin kardeşi Turan Şah’ın gayretleriyle Fâtımî hâkimiyetinden çıkan Medine’de hutbe 569 (1174) yılından itibaren Abbâsî halifesinin yanı sıra Nûreddin Mahmud Zengî adına okunmaya başlandı' (1174 — ÇELİŞKİ, Mekke ile aynı) · 'Adları hutbede Abbâsî halifeleriyle birlikte zikredilen Eyyûbî hükümdarlarının Medine ile ilgileri Selâhaddin’den sonra da devam etti.' · t = eyyubi künye sonu. UYGULANMADI (sonrası bulunamadı)."
+    },
+    {
+     "f": "1250-04-30",
+     "t": "1261-06-09",
+     "d": null,
+     "not": "bulunamadı — Eyyûbî sultanlığının sonu (künye 1250-04-30) ile Memlük bağlanması (hilâfetin ihyası 1261 sonrası) arasında Medine'de kimin adına hutbe okunduğu TDV medine/hicaz/resuliler/memlukler'de yok. Resûlî tanıklığı Medine için YOK (Mekke'den taşınmadı, D208)."
+    },
+    {
+     "f": "1261-06-09",
      "t": "1281-01-01",
-     "d": "medine-emirligi",
+     "d": "memluk",
      "kesinlik": {
-      "f": "ufuk",
-      "t": "mevcut"
+      "f": "belirsiz"
      },
      "slug": "medine",
-     "alinti": "IV. (X.) yüzyıldan itibaren şehrin yerel yöneticisi konumundaki Hüseynîler çıkarlarına göre bazan Fâtımîler, bazan da Abbâsîler adına hutbe okuttular.",
-     "not": "RENKSİZ künye (medine-emirligi 969-1517). Fiilî yönetici Hüseynî emîrler; hutbe değişimleri tâbiyet (kural 4). 'Medine Abbâsîler ile Fâtımîler arasında sık sık el değiştirdi' ifadesi hutbe rekabetini anlatır.",
-     "alinti_dogrulandi": true
+     "alinti": "Abbâsî halifelerinin İslâm dünyasında siyasî etkinliklerinin azalması ve “hâdimü’l-Haremeyn” unvanını kullanan Memlük Sultanı I. Baybars’ın Moğol istilâsıyla ortadan kaldırılan Bağdat Abbâsî hilâfetini Mısır’da yeniden kurmasının ardından Medine Memlükler’e bağlandı.",
+     "not": "Emre #23 (16 Ekim 2026): METBÛ modeli — hutbe/metbû devlet sahip; şerif/emîr fiilî yönetimi sahip YAZILMAZ. f ALT SINIR: ihyanın günü TDV abbasiler AYNEN: 'Sultan Baybars, Abbâsîler’den Halife Zâhir’in oğlu olup Moğollar’ın Bağdat’ı tahribi sırasında canını kurtararak Dımaşk’a gitmiş bulunan Ahmed’i Kahire’ye getirerek parlak bir merasimle halifeliğini ilân ve ona biat etti (9 Receb 659 / 9 Haziran 1261)' ⇒ Medine'nin kendi günü BULUNAMADI."
     }
    ],
    "maddeler": [],
-   "durum_renk_paket_3_1016": "KALDI: Mekke ile aynı — model kararı Emre'de. medine-emirligi rengi verildi (#1212ea)."
+   "durum_renk_paket_3_1016": "KALDI: Mekke ile aynı — model kararı Emre'de. medine-emirligi rengi verildi (#1212ea).",
+   "durum_emre_23": "KISMEN UYGULANDI (16 Ekim 2026): yalnız memluk 1261-06-09→1281. BEKLEYEN: 1000-1171 (hutbe kırılmaları yılsız/sırasız) ve 1250-04-30→1261-06-09 (bulunamadı) — eyyubi 1171-1250 dilimi kaynaklı ama sonrası boş olduğu için UYGULANMADI."
   },
   {
    "ad": "Sana",
