@@ -96,7 +96,8 @@
      "slug": "misis",
      "alinti": "Mleh’ten sonra Misis, Adana ve Tel Hamdûn bir süre Haçlılar’ın eline geçtiyse de III. Rupen 1184’te bu kaleleri geri almayı başardı."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANDI (kısmi): 1184-01-01–1199-01-06 rupeniler (rupeniler künye t 1199-01-01 → 1199-01-06, sınıf ②). 1097-10-08–1184 'bulunamadı' dilimi kaldı ⇒ daha gerisi bitişik değil."
   },
   {
    "ad": "Tarsus",
@@ -193,7 +194,8 @@
      "slug": "misis",
      "alinti": "Toros’un ölümüyle yerine geçen kardeşi Mleh 568 (1172-73) yılında müttefiki Nûreddin Zengî’nin yardımıyla Adana, Misis ve Tarsus şehirlerini Bizanslılar’dan geri aldı."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANDI (kısmi): 1172-01-01–1199-01-06 rupeniler. 1097-10-08–1172 'bulunamadı' dilimi kaldı."
   },
   {
    "ad": "Eski Malatya (Battalgazi)",
@@ -307,7 +309,8 @@
      "slug": "malatya",
      "alinti": "Kılıcarslan Malatya üzerine yürüdü; dört aylık bir kuşatmadan sonra şehri ele geçirdi (11 Cemâziyelevvel 574 / 25 Ekim 1178) ve Dânişmendliler’in bu koluna son verdi."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANDI (tam): 1000-01-01 bizans → 1074 malatya-ermeni-beyligi → 1102-09-18 (mevcut)."
   },
   {
    "ad": "Maraş",
@@ -477,7 +480,8 @@
      "slug": "kahramanmaras",
      "alinti": "Emîr Hüsâmeddin’in ailesinden İmâdüddin, 656’da (1258) Anadolu Selçuklu Sultanı II. İzzeddin Keykâvus ve Memlük Sultanı el-Melikü’s-Sâlih’ten istediği desteği sağlayamayınca şehri Ermeniler’e terketmek zorunda kaldı."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANMADI: renk artık var ama mevcut ilk dilime bitişen json dilimi 'bulunamadı' (d:null) — kuyruk yok; engel renk değil kaynak."
   },
   {
    "ad": "Cizre",
@@ -584,7 +588,8 @@
      "slug": "cizre",
      "alinti": "Ancak 1251’de halkın şikâyetleri üzerine Eyyûbîler’den el-Melikü’n-Nâsır Atabeg, Nûreddin Arslanşah’ın ölümünden sonra Musul’a hâkim olan Emîr Bedreddin Lü’lü’ ile birlikte Cizre’yi istilâ ederek Musul atabeglerinin buradaki hâkimiyetine son verdi."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANMADI: renk artık var ama mevcut ilk dilime bitişen json dilimi 'bulunamadı' (d:null) — kuyruk yok; engel renk değil kaynak."
   },
   {
    "ad": "Urfa",
@@ -812,7 +817,8 @@
      "slug": "sanliurfa",
      "alinti": "Ardından Selâhaddîn-i Eyyûbî’nin idaresine giren şehir ve çevresi (578/1182) bir müddet Eyyûbîler’le Musul Atabegleri ve Artuklular arasındaki mücadelelere sahne oldu."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANMADI: renk artık var ama mevcut ilk dilime bitişen json dilimi 'bulunamadı' (d:null) — kuyruk yok; engel renk değil kaynak."
   },
   {
    "ad": "Eski Van (Tuşpa)",
@@ -910,7 +916,8 @@
      "slug": "van",
      "alinti": "Eyyûbîler’in bölgedeki hâkimiyeti uzun sürmedi. 627 (1230) yılında Celâleddin Hârizmşah, Ahlat ile Van’ı ele geçirdi."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANMADI: renk artık var ama mevcut ilk dilime bitişen json dilimi 'bulunamadı' (d:null) — kuyruk yok; engel renk değil kaynak."
   },
   {
    "ad": "Kars",
@@ -943,7 +950,8 @@
      "alinti_dogrulandi": null
     }
    ],
-   "maddeler": []
+   "maddeler": [],
+   "durum_1016_tamamlama": "UYGULANMADI: renk artık var ama mevcut ilk dilime bitişen json dilimi 'bulunamadı' (d:null) — kuyruk yok; engel renk değil kaynak."
   },
   {
    "ad": "Tiflis",
@@ -1087,7 +1095,8 @@
      "slug": "tiflis",
      "alinti": "İlhanlılar döneminde buranın hâkimiyeti Gürcüler’e bırakıldı."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANMADI: renk artık var ama dikiş dilimi 1256–1281 gurcistan YILSIZ ('İlhanlılar döneminde', 1256 kural-5 sınırı) — önceki oturum da bilerek uygulamamıştı; Gürcülere bırakılış yılı için kaynak lazım."
   },
   {
    "ad": "Gence",
@@ -1199,7 +1208,8 @@
      "slug": "gence",
      "alinti": "Ardından Celâleddin Hârizmşah Azerbaycan’a yürüyerek (1225) Gence Hâkimi Cemâleddin’den şehri teslim aldı."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANMADI: renk artık var ama mevcut ilk dilime bitişen json dilimi 'bulunamadı' (d:null) — kuyruk yok; engel renk değil kaynak."
   },
   {
    "ad": "Nahçıvan",
@@ -1343,7 +1353,8 @@
      "slug": "nahcivan",
      "alinti": "İlhanlı Hükümdarı Gāzân Han devrinde biraz toparlandı."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANMADI: nahcivan-sahligi künyesi AÇILAMADI — TDV'de kuruluş yılı yok. Denenen: nahcivan ('940’lı yıllardan başlayarak kırk yıl süre ile Müsâfirîler… Ardından burada müstakil bir idare tesis edildi' — yılsız), dulefiler (825-897 Cibâl kolu; Nahcıvan yok), musafiriler, revvadiler (377/987 'Ebû Dülef eş-Şeybânî’nin topraklarına saldırarak Duvîn’i ele geçirdi' — Duvîn, Nahcıvan değil; bağlamak çıkarım), seddadiler, sacogullari, tugrul-bey ('Nahcıvan hâkimi Ebû Dülef eş-Şeybânî' — Tuğrul Bey'in Azerbaycan seferinde tâbiyet, kuruluş değil); arama: Nahcıvan, Dülef, Ebû Dülef, Duvîn, Şeybânî. Künye f'si için akademik kaynak (ör. Encyclopaedia Iranica / Minorsky) gerekir."
   },
   {
    "ad": "Musul",
@@ -1510,7 +1521,8 @@
      "slug": "musul--irak",
      "alinti": "Ancak ölümünden sonra yerine geçen oğlu el-Melikü’s-Sâlih İsmâil, Hülâgû’ya karşı Memlük Sultanı Baybars’ın yanında yer alınca Musul Moğol tahribatına mâruz kaldı (660/1262)."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANDI (tam, 1000→1262): ukayli/buyuk-selcuklu/irak-selcuklu/zengi-musul/lului. Kasım 1096 ve Aralık 1233 kırılmaları künye hassasiyetine uyularak 1096-01-01 / 1233-01-01 (kesinlik yıl, D213) yazıldı; lului künye t 1259-07-26 → 1262-01-01 (TDV musul--irak, sınıf ②)."
   },
   {
    "ad": "Erbil",
@@ -1613,7 +1625,8 @@
      "slug": "erbil",
      "alinti": "1236 yılında Erbil’e saldıran Moğollar aşağı şehri işgal ederek binaları yıkıp kaleyi kuşattılarsa da sonuçta geri çekilmek zorunda kaldılar; ancak Bağdat’ın 1258’de Hülâgû’nun eline geçmesinden sonra burası da zaptedildi."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANMADI: renk artık var ama dikiş dilimi 1258-02-10–1281 ilhanli ALT SINIRDIR ('Bağdat’ın 1258’de … eline geçmesinden sonra') — Erbil'in alınış yılı TDV'de yok; önceki oturum da bilerek uygulamamıştı."
   },
   {
    "ad": "Tikrit",
@@ -1749,7 +1762,8 @@
      "slug": "tikrit",
      "alinti": "Moğollar’ın İslâm dünyasını istilâları sırasında 655 (1257) yılında Tikrît’i işgal edip katliam ve yağmada bulundular."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANDI (kısmi): 1118-05-06 irak-selcuklu → 1149 begteginli → 1190 (mevcut). 1106-10-01–1118-05-06 'bulunamadı' dilimi kaldı."
   },
   {
    "ad": "Hille",
@@ -1902,7 +1916,9 @@
      "slug": "basra",
      "alinti": "Bu olayla birlikte Abbâsî Devleti yıkıldı ve Irak Moğollar’ın eline geçti."
     }
-   ]
+   ],
+   "durum_1016_tamamlama": "UYGULANDI (tam): 1000-01-01 mezyedi → … → 1163 (mevcut)."
   }
- ]
+ ],
+ "aciklama_1016_tamamlama": "T5-1000-A-1016 tamamlama (16 Ekim 2026, RENK-PAKET-1016 sonrası): her şehrin 'durum_1016_tamamlama' alanı ne uygulandığını/niçin uygulanmadığını söyler. Uygulama GÜNCEL ilk f'ye göre yapıldı (json zincirinin o güne biten öneki)."
 }

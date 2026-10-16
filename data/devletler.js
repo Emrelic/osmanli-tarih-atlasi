@@ -12436,15 +12436,16 @@ window.DEVLETLER = [
   ]
 },
 { id:"lului", ad:"Lü'lü' Hânedanı (Musul)", tur:"sultanlik", bolge:"mezopotamya",
-  f:"1233-01-01", t:"1259-07-26", baskent:"Musul", boya_gerekli:true,
+  f:"1233-01-01", t:"1262-01-01", baskent:"Musul", boya_gerekli:true,
   ic_not_f:"TDV lulu-bedreddin: \"… kendisine saltanat menşuruyla birlikte el-Melikü’r-Rahîm unvanı verilerek sultan ilân edildi (Rebîülevvel 631 / Aralık 1233).\" Gün yok → 1233-01-01, gun: Aralık 1233.",
-  ic_not_t:"TDV lulu-bedreddin: \"Musul’a döndükten kısa bir süre sonra seksen küsur yaşında vefat etti (3 Şâban 657 / 26 Temmuz 1259) …\" — oğullarının 1259 sonrası hâkimiyeti ve Moğol'a geçiş tarihi (brifteki \"1262 civarı\") TDV'de BULUNAMADI (bkz. bulunamadi). t Lü'lü'ün ölüm günüdür; genişletme akademik kaynak ister.",
+  ic_not_t:"TDV lulu-bedreddin: \"Musul’a döndükten kısa bir süre sonra seksen küsur yaşında vefat etti (3 Şâban 657 / 26 Temmuz 1259) …\" — oğullarının 1259 sonrası hâkimiyeti ve Moğol'a geçiş tarihi (brifteki \"1262 civarı\") TDV'de BULUNAMADI (bkz. bulunamadi). t Lü'lü'ün ölüm günüdür; genişletme akademik kaynak ister. 🔴 T5-1000-A-1016: t 1259-07-26 → 1262-01-01 (sınıf ② — aynı hânedan oğlu eliyle sürdü): TDV musul--irak AYNEN: \"Ancak ölümünden sonra yerine geçen oğlu el-Melikü’s-Sâlih İsmâil, Hülâgû’ya karşı Memlük Sultanı Baybars’ın yanında yer alınca Musul Moğol tahribatına mâruz kaldı (660/1262).\" + \"Kendisi de Hülâgû’nun huzuruna götürülerek öldürüldü.\" Yıl hassasiyeti (gün yok → 1262-01-01); Musul noktası 1262-01-01'den ilhanli (mevcut veri).",
   ozet:"Zengî atabeglerinin nâibi Bedreddin Lü'lü'ün, son Zengî atabeginin ölümünden sonra el-Melikü'r-Rahîm unvanıyla sultan tanınarak Musul'da kurduğu hâkimiyet. Eyyûbîler'le mücadele etti, Bağdat'ın düşüşünden sonra Hülâgû'ya bağlılık bildirdi; 1259'da öldü.",
   kaynak:"TDV: lulu-bedreddin (LÜ’LÜ’, Bedreddin); zengiler",
   kronoloji:[
     { t:"1233-01-01", tur:"kurulus", b:"Bedreddin Lü'lü' el-Melikü'r-Rahîm unvanıyla Musul sultanı tanındı", kaynak:"TDV: lulu-bedreddin", gun:"Aralık 1233 (gün bilinmiyor)" },
     { t:"1233-12-01", tur:"siyaset", b:"Bedreddin Lü'lü', Zengî atabegi II. Nâsırüddin Mahmûd'u Rebîülevvel 631'de (Aralık 1233) ortadan kaldırır; Zengîler'in Musul ana kolu böylece sona erer (gün yaklaşık: kaynak yalnız ay verir).", kaynak:"TDV İslâm Ansiklopedisi, Zengîler maddesi https://islamansiklopedisi.org.tr/zengiler ; Lü'lü', Bedreddin maddesi" },
-    { t:"1259-07-26", tur:"son", b:"Bedreddin Lü'lü' Musul'da öldü", kaynak:"TDV: lulu-bedreddin" }
+    { t:"1259-07-26", tur:"hukumdar", b:"Bedreddin Lü'lü' Musul'da öldü; yerine oğlu el-Melikü's-Sâlih İsmâil geçti", kaynak:"TDV: lulu-bedreddin; musul--irak" },
+    { t:"1262-01-01", tur:"son", b:"el-Melikü's-Sâlih İsmâil Baybars'ın yanında yer alınca Musul Moğol tahribatına uğradı; kendisi Hülâgû'nun huzurunda öldürüldü, hânedan sona erdi", kaynak:"TDV: musul--irak (660/1262 — yıl)" }
   ]
 },
 { id:"hamdani-halep", ad:"Hamdânîler (Halep kolu)", tur:"emirlik", bolge:"suriye-filistin",
@@ -17211,7 +17212,7 @@ window.DEVLETLER = [
     { t:"1092-01-01", tur:"savas", b:"Bizans Midilli'yi kuşattı; Çaka üç ay sonra adayı teslim etti, Bizans Sisam'ı da aldı.", kaynak:"TDV İslâm Ansiklopedisi 'Çaka Bey'" },
     { t:"1095-01-11", tur:"son", b:"Kılıç Arslan, kayınpederi Çaka'yı bir ziyafette öldürttü; beylik dağıldı.", kaynak:"TDV İslâm Ansiklopedisi 'Çaka Bey' ve 'Kılıçarslan I' (488/1095 [?])" }
   ] },
-{ id:"rupeniler", ad:"Rupenî (Ermeni) Prensliği", tur:"prenslik", bolge:"anadolu", f:"1092-01-01", t:"1199-01-01", baskent:"Vahga / Sis", ozet:"Britannica: Ermeni soylular c.1080'de Kilikya'ya yerleşti; baron I. Konstantin 1092-1100, Thoros I 1100-29, Levon I 1129-39…; Levon 1199'da kral (aday 1198 yanlış). Mevcut kilikya-ermeni 1199'da başlar.", kaynak:"Britannica 'Rubenid dynasty', 'Levon I'", kronoloji:[
+{ id:"rupeniler", ad:"Rupenî (Ermeni) Prensliği", tur:"prenslik", bolge:"anadolu", f:"1092-01-01", t:"1199-01-06", baskent:"Vahga / Sis", ic_not_t:"T5-1000-A-1016: t 1199-01-01 → 1199-01-06 (sınıf ② — aynı hânedan sürüyor): prenslik, ardılı kilikya-ermeni krallığının künye başlangıcında (1199-01-06) biter; iki künye arasındaki 5 günlük künye boşluğu Adana/Tarsus zincirinde (rupeniler → kilikya-ermeni) pencere aşımı doğuruyordu. Taç giyme günü TDV'de BULUNAMADI — gün künye sınırıdır, kaynak değil (D210).", ozet:"Britannica: Ermeni soylular c.1080'de Kilikya'ya yerleşti; baron I. Konstantin 1092-1100, Thoros I 1100-29, Levon I 1129-39…; Levon 1199'da kral (aday 1198 yanlış). Mevcut kilikya-ermeni 1199'da başlar.", kaynak:"Britannica 'Rubenid dynasty', 'Levon I'", kronoloji:[
     { t:"1092-01-01", tur:"kurulus", b:"Rupenî soyundan I. Konstantin Kilikya'da baron olarak başa geçti (1092-1100).", kaynak:"Britannica 'Rubenid dynasty' (künye özeti üzerinden; doğrudan okunamadı, 403)" },
     { t:"1100-01-01", tur:"hukumdar", b:"I. Thoros baron oldu (1100-1129).", kaynak:"Britannica 'Rubenid dynasty' (künye özeti üzerinden)" },
     { t:"1129-01-01", tur:"hukumdar", b:"I. Levon baron oldu (1129-1139 olarak verilir).", kaynak:"Britannica 'Rubenid dynasty' (künye özeti üzerinden)" },
