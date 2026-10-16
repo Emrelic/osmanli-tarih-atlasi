@@ -28,6 +28,7 @@
 "use strict";
 
 var ODAK_ZOOM_ESIK = 1 / 8;
+var ODAK_ZOOM_TAVAN = 9;        // yaklaşma tavanı (koordinatör, tarayıcı ölçümünden sonra)
 
 function _oz_merk(lon, lat) {
   var la = Math.max(-85.05112878, Math.min(85.05112878, lat));
@@ -147,8 +148,16 @@ function odakPay(g, cx, cy, z, W, H) {
 // KURAL:
 //   ① gövde yok/ölçülemiyor           → değişmez ("govde-yok")
 //   ② pay ≥ eşik                       → değişmez ("yeterli") — imparatorluk hâli
-//   ③ gövde zaten TAMAMEN ekranda      → değişmez ("tam-ekranda") — uzaklaşmak payı
-//      yalnız KÜÇÜLTÜR (küçük şehir devleti)
+//   ③ gövde zaten TAMAMEN ekranda ama pay < eşik → YAKLAŞ ("yaklasti"): pay ≥ eşik
+//      olan EN UZAK zoom, tavan `tavanZoom` (9). Merkez gövde kutusunun ortası,
+//      hedef (madde) noktası ekranda `kenarPx` içeride kalacak kadar ona doğru
+//      çekilir; gövde ekranı AŞMAZ (kutuya oturan zoom `zf`in ötesine geçilmez).
+//      `zf`/tavan'da eşik hâlâ tutmazsa o kamera ("yaklasti-tavan" /
+//      "yaklasti-en-iyi"). Nokta kutusu (`g.kucuk`, tek şehir ± 0,35°) YAKLAŞMAZ
+//      ("tam-ekranda"). 🔴 ESKİDEN burada "değişmez" yazıyordu ve tarayıcıda
+//      ÖLÇÜLÜNCE çöktü (koordinatör, 604×657 ekran, Eflak 1718-07-21 Pasarofça):
+//      kamera z 2,32'de, madde ülkesi Avusturya'nın payı %0,8 — kural ihlali, ve
+//      "uzaya çıkmış" kamera tam da o. Kural zoom-IN'i de gerektiriyor.
 //   ④ değilse zoom adım adım düşer; her adımda önce merkez ODAKTA denenir, yetmezse
 //      merkez gövdeye doğru kaydırılır — odak noktası ekranda `kenarPx` içeride
 //      kalacak kadar. Pay ≥ eşik olan EN YAKIN zoom seçilir ("dustu"/"dustu-kaydi").
@@ -177,7 +186,11 @@ function odakZoomAlt(hedefKam, govde, ekran, secenek) {
     var k = _oz_ekranKutusu(cx, cy, z, W, H), gk = g.kutu;
     return gk[0] >= k[0] && gk[2] <= k[2] && gk[1] >= k[1] && gk[3] <= k[3];
   }
-  if (tamIcinde(P[0], P[1], z0)) { sonuc.sebep = "tam-ekranda"; return sonuc; }
+  if (tamIcinde(P[0], P[1], z0)) {
+    if (g.kucuk) { sonuc.sebep = "tam-ekranda"; return sonuc; }
+    return _oz_yaklas(sonuc, g, P, z0, W, H, esik, adim, kenar,
+                      typeof secenek.tavanZoom === "number" ? secenek.tavanZoom : ODAK_ZOOM_TAVAN);
+  }
   var G = g.agirlik, en = null;
   var alt = Math.max(minZ, z0 - dusus);
   for (var z = z0 - adim; z >= alt - 1e-9; z -= adim) {
@@ -196,6 +209,36 @@ function odakZoomAlt(hedefKam, govde, ekran, secenek) {
   }
   if (en && en.p > pay0 * 1.05) return _oz_bitir(sonuc, en.c, en.z, en.p, "en-iyi");
   sonuc.sebep = "ulasilamadi";
+  return sonuc;
+}
+// ③'ün YAKLAŞMA dalı — gövde tamamen ekranda ve küçük kalıyor.
+function _oz_yaklas(sonuc, g, P, z0, W, H, esik, adim, kenar, tavan) {
+  var gk = g.kutu, pad = ODAK_IKILI_PAD;
+  var bw = Math.max(1e-12, gk[2] - gk[0]), bh = Math.max(1e-12, gk[3] - gk[1]);
+  // gövde kutusunun ekrana (pay ile) oturduğu zoom — "bölge ekranı aşmasın"
+  var zf = Math.log(Math.min((W - 2 * pad) / (bw * 512), (H - 2 * pad) / (bh * 512))) / Math.LN2;
+  var ust = Math.min(zf, tavan);
+  if (!(ust > z0 + 1e-9)) { sonuc.sebep = "tam-ekranda"; return sonuc; }
+  var Cg = [(gk[0] + gk[2]) / 2, (gk[1] + gk[3]) / 2];
+  function merkez(z) {                     // gövde ortası, madde noktası ekranda kalacak kadar ona doğru
+    var S = 512 * Math.pow(2, z);
+    var mx = Math.max(0, W / 2 - kenar) / S, my = Math.max(0, H / 2 - kenar) / S;
+    return [Math.max(P[0] - mx, Math.min(P[0] + mx, Cg[0])),
+            Math.max(P[1] - my, Math.min(P[1] + my, Cg[1]))];
+  }
+  var en = null;
+  for (var z = z0 + adim; z <= ust + 1e-9; z += adim) {
+    var C = merkez(z), p = odakPay(g, C[0], C[1], z, W, H);
+    if (p >= esik) return _oz_bitir(sonuc, C, z, p, "yaklasti");
+    if (!en || p > en.p) en = { c: C, z: z, p: p };
+  }
+  // tavana / kutuya oturan zoom'a tam olarak da bak (adım ızgarası kaçırmasın)
+  var Cu = merkez(ust), pu = odakPay(g, Cu[0], Cu[1], ust, W, H);
+  if (pu >= esik) return _oz_bitir(sonuc, Cu, ust, pu, "yaklasti");
+  if (!en || pu >= en.p) en = { c: Cu, z: ust, p: pu };
+  if (en.p > sonuc.pay0 * 1.05)
+    return _oz_bitir(sonuc, en.c, en.z, en.p, (ust === tavan && tavan < zf) ? "yaklasti-tavan" : "yaklasti-en-iyi");
+  sonuc.sebep = "tam-ekranda";
   return sonuc;
 }
 function _oz_bitir(sonuc, c, z, p, sebep) {
@@ -224,8 +267,9 @@ function _oz_bitir(sonuc, c, z, p, sebep) {
 //   ODAK_IKILI_ZOOM_TABAN (3,5) — dar (telefon) ekranda km eşiği z~2,4'e
 //   düşürürdü; 3,5 orada ~1.800 km demektir.
 // "KÜÇÜK BÖLGE" (`bolge.kucuk`, tek şehir ± 0,35° kutusu — ülke gövdesi
-//   bulunamadı): 1/8'e ancak YAKLAŞARAK ulaşılır, zoom-in istenmedi ⇒ ① kamerayı
-//   değiştirmez; ②'de şart "kutu TAMAMEN ekranda"dır.
+//   bulunamadı): 1/8'e ancak şehir ölçeğine YAKLAŞARAK ulaşılır; koordinatör
+//   kararı: tek şehirde yakınlaşma YOK ⇒ ① kamerayı değiştirmez; ②'de şart
+//   "kutu TAMAMEN ekranda"dır. (Ülke bölgesinde ① GEREKİRSE YAKLAŞIR — `_oz_yaklas`.)
 var ODAK_IKILI_KM = 4000, ODAK_IKILI_ZOOM_TABAN = 3.5, ODAK_IKILI_PAD = 40;
 
 // Ekran genişliği `km` olacak zoom (enlem `lat`, `W` px). 2^z = C·cos(lat)·W/(512·km·1000)
@@ -284,7 +328,7 @@ function odakZoomIkili(hedefKam, bolge, odakG, ekran, secenek) {
   var uw = Math.max(1e-12, U[2] - U[0]), uh = Math.max(1e-12, U[3] - U[1]);
   var pad = typeof secenek.padPx === "number" ? secenek.padPx : ODAK_IKILI_PAD;
   var zf = Math.log(Math.min((W - 2 * pad) / (uw * 512), (H - 2 * pad) / (uh * 512))) / Math.LN2;
-  var zB = Math.min(zf, A.zoom);                       // ASLA ①'den yakın değil (zoom-in yok)
+  var zB = Math.min(zf, A.zoom);                       // ASLA ①'in kamerasından yakın değil
   var cB = [(U[0] + U[2]) / 2, (U[1] + U[3]) / 2];
   var cLL = _oz_tersMerk(cB[0], cB[1]);
   var altZ = typeof secenek.altZoom === "number" ? secenek.altZoom : odakAltZoom(cLL[1], W);
@@ -312,7 +356,7 @@ var _OZ_DISA = { ESIK: ODAK_ZOOM_ESIK, odakGovdeHazirla: odakGovdeHazirla, odakP
                  odakZoomAlt: odakZoomAlt, merk: _oz_merk, tersMerk: _oz_tersMerk,
                  odakZoomIkili: odakZoomIkili, odakAltZoom: odakAltZoom, zoomKmIcin: zoomKmIcin,
                  odakKutuGovde: odakKutuGovde, odakGovdeBirlestir: odakGovdeBirlestir,
-                 IKILI_KM: ODAK_IKILI_KM, IKILI_ZOOM_TABAN: ODAK_IKILI_ZOOM_TABAN };
+                 IKILI_KM: ODAK_IKILI_KM, IKILI_ZOOM_TABAN: ODAK_IKILI_ZOOM_TABAN, TAVAN: ODAK_ZOOM_TAVAN };
 if (typeof window !== "undefined") window.ODAK_ZOOM = _OZ_DISA;
 if (typeof module !== "undefined" && module.exports) module.exports = _OZ_DISA;
 })();
