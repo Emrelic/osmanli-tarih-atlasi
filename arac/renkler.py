@@ -3511,6 +3511,7 @@ BOYALAR = {
     "eyyubi": ("Eyyûbî Sultanlığı", "#cc2472"),
     "eyyubi-hama": ("Hama Eyyûbîleri", "#e42442"),
     "gozleroglu": ("Gözleroğlu (Şebinkarahisar)", "#c66c24"),
+    "sebinkarahisar-emirligi": ("Şebinkarahisar Emirliği (Melik Ahmed–Hasan Bey)", "#2a9d8f"),
     "kudus-kralligi": ("Kudüs Haçlı Krallığı", "#2a78de"),
     "mogol-imparatorlugu": ("Moğol İmparatorluğu (bölünmemiş)", "#24c0c6"),
     "resuli": ("Resûlîler", "#3ccc24"),
