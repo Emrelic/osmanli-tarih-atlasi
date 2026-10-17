@@ -2302,6 +2302,17 @@ window.DEVLETLER = [
     { t:"1427-06-01", tur:"son", b:"II. Murad tarafından ilhak edildi" }
   ]
 },
+{ id:"sebinkarahisar-emirligi", ad:"Şebinkarahisar Emirliği (Melik Ahmed–Hasan Bey)", tur:"beylik", bolge:"anadolu",
+  f:"1398-01-01", t:"1408-01-01", baskent:"Şebinkarahisar", harita:"sebinkarahisar-emirligi",
+  boya_gerekli:true,
+  ozet:"Kadı Burhâneddin'in 1398'deki ölümünden sonra Şebinkarahisar kalesinde kendi başına duran yerel emir hanedanı: Melik Ahmed, ardından oğlu Hasan Bey. Hasan Bey Amasya valisi Şehzade Mehmed Çelebi'ye yaslandı (1403). TDV'de müstakil maddesi yoktur.",
+  kesinlik:"yil",
+  ic_not:"KÜNYE UÇLARI: f 1398 = Kadı Burhâneddin'in ölümü (TDV kadi-burhaneddin, YIL) — Melik Ahmed 1395'te ona bağlılık bildirmişti, yani 1398'e dek tâbiydi; t 1408 = TDV sebinkarahisar'ın 'Timur'un istilâsının ardından 811'de (1408) Gözleroğlu'nun' cümlesi. ⚠️ ÇELİŞKİ: Danık 2004, 1403'te Gözleroğlu'nun kuşatmasının başarısız olduğunu ve kalenin 1418'de doğrudan Karakoyunlu'ya geçtiğini söyler (Gözleroğlu'ndan söz etmez). 1403-1408 dilimi Emre kararıyla (post-it #35, 17 Eki 2026) 'kime en yakınsa ona' ilkesiyle emirliğe yazıldı: 1403'te kalede hâlâ Hasan Bey var; 1408 Gözleroğlu devri yalnız TDV'ye dayanır. Melik Ahmed'in ölüm yılı ve Hasan Bey'in tahta çıkışı kaynakta YOK.",
+  ic_not_boya:"BOYA BORCU, BEYANLI: `renkler.py` motor tuzundadır (§9.1), boya tam inşa koşusuna kalır. Komşular: gozleroglu #c66c24 · mutahharten #827717 · haciemir #ef6c00 · timurlu #9c7563. Tek noktalı kimlik.",
+  kaynak:"Ertuğrul Danık, 'Şebinkarahisar Kalesi', Sanat Tarihi Dergisi XIII/2 (Ekim 2004), 51-78 — https://dergipark.org.tr/en/download/article-file/152327 (dipnotlar: Esterâbâdî 1990: 309, 437; Yücel 1982: 23; Darkot 1955: 281; Bilgin 1997: 99-100) · TDV 'Kadı Burhâneddin' (ö. 800/1398) · TDV 'Şebinkarahisar' (Fatma Acun) · post-it #35",
+  kronoloji:[
+    { t:"1403-01-01", tur:"savas", b:"Yörük beyi Gözleroğlu Şebinkarahisar Kalesi'ni kuşattı; Hasan Bey'in yardımına Şehzade Mehmed Çelebi gelince kuşatma kalktı", kaynak:"Danık 2004, s.54-55 (Darkot 1955: 281; Bilgin 1997: 99-100); yalnız yıl kaynaktan, gün yok" }
+  ] },
 { id:"gozleroglu", ad:"Gözleroğlu (Şebinkarahisar)", tur:"beylik", bolge:"anadolu",
   f:"1408-01-01", t:"1418-01-01", baskent:"Şebinkarahisar", harita:"gozleroglu",
   boya_gerekli:true,
