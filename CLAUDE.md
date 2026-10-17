@@ -103,6 +103,14 @@ dersler/                 kuralların vakaları (DIZIN.md) · denetim/ teslimler 
 - Yeni yerleşimden önce mükerrer tara: normalleştirilmiş ad + 3 km.
 - `__BOSLUK__` haritada **delik**tir (boyanmaz). Önce şehir adlı tanık ara; yaklaşıklık
   kullanıcıya görünüyorsa bölge sahibi + beyan. **Beyansız yaklaşıklık, beyanlı boşluktan kötüdür.**
+- **Boşluk doldurma merdiveni** (Emre, 16 Ekim 2026 — her `__BOSLUK__` ve beyanlı boşlukta, sırayla):
+  ① TDV · ② öteki akademik kaynaklar · ③ komşu büyük devletlerin ve yerel devletlerin kaynakları
+  (Venedik, Avusturya/TIB, Sırp, Yunan, Bulgar…) · ④ bulunamazsa *yerleşim o devirde var mıydı?*
+  teyit et — **yoksa** dönemi kırp, toprak komşu peteklere kalır; **varsa** ⑤ bağlı olduğu **abi
+  merkezi** (siyasî/idarî/askerî/iktisadî olarak kaderini paylaştığı büyük şehir) kaynakla bul ve
+  akıbetini onun akıbetine bağla: `kaynak:`a "ABİ MERKEZ: <merkez> — <bağı gösteren kaynak>" +
+  BEYANLI YAKLAŞIKLIK yaz. Abi merkezin kendi zinciri de kaynaklı olmalı (atlas kaydı değil).
+  İlk vaka: Berat 1345-1417 → Avlonya (TDV avlonya).
 - Ayrı dosya ≠ ayrı ad alanı: `data/<tur>_<kisaltma>.js` → `window.<TUR>_<KISALTMA>`.
 - Türkçe metinde `sed` ve toplu `replace(…, 1)` kullanma; `"İ".lower()` iki kod noktası verir
   (`denetim/ARAC-NORMAL-0903.py`).
