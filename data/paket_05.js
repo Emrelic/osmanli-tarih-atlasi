@@ -6638,6 +6638,32 @@ window.DEVLETLER = [
     { t:"1387-10-18", tur:"son", b:"Antonio della Scala Verona'yı Gian Galeazzo Visconti'ye teslim etti, senyörlük sona erdi", kaynak:"Dizionario Biografico (Treccani) «Della Scala, Antonio» — 17-18 Ekim gecesi (1931 Enciclopedia Italiana: 19 Ekim)" }
   ]
 },
+{ id:"como-komunu", ad:"Como Komünü", tur:"sehir-devleti", bolge:"italya",
+  f:"1001-01-01", t:"1335-01-01", baskent:"Como", kesinlik:{ f:"yuzyil", t:"yil" },
+  ozet:"Lombardiya'da 11. yüzyıl sonlarında kurulan Como şehir komünü; Valtellina, Chiavenna ve Lugano çevresi ona bağlıydı. Guelf Vitani ile Gibelin Rusca aileleri arasındaki çekişme 1303'e kadar sürdü; 1335'te Azzone Visconti şehri ele geçirdi. Piskoposluk hakları ile komün yönetimi bu künyede tek etikettedir. TDV'de ayrı maddesi yok.",
+  kaynak:"Enciclopedia Italiana (Treccani) «Como»: komün «verso lo scorcio del sec. XI» kuruldu (f: YÜZYIL hassasiyeti, yıl yazılmadı); Vitani-Rusca çekişmesi «fino al 1303»; «venti anni dopo (1335) Como passò in dominio di Azzone Visconti» (t: YIL) · HLS «Veltlin», «Lugano»: Valtellina ve Lugano Como'ya bağlı · TDV'de yok (bulunamadı) · POSTIT-44 (Emre a+b, 17 Ekim 2026)",
+  kronoloji:[
+    { t:"1303-01-01", kesinlik:"yil", tur:"siyaset", b:"Guelf Vitani fırkası Como'ya kesin olarak hâkim oldu", kaynak:"Enciclopedia Italiana (Treccani) «Como» — YIL" },
+    { t:"1335-01-01", kesinlik:"yil", tur:"son", b:"Como Azzone Visconti'nin hâkimiyetine geçti", kaynak:"Enciclopedia Italiana (Treccani) «Como» — YIL" }
+  ]
+},
+{ id:"brescia-komunu", ad:"Brescia Komünü", tur:"sehir-devleti", bolge:"italya",
+  f:"1120-01-01", t:"1332-06-01", baskent:"Brescia", kesinlik:{ f:"onyil", t:"ay" },
+  ozet:"Lombardiya'da 1120-1127 arasında örgütlenen Brescia şehir komünü. 13. yüzyılda Ezzelino da Romano, Pelavicino ve Anjou senyörlükleri; 1298 sonrası yönetim Berardo Maggi'ye verildi; 1311'de VII. Henri şehri kuşattı. 1332 yazında Mastino II della Scala'nın fethiyle bağımsızlığı bitti. Ara senyörlükler bu künyede ayrı gösterilmedi. TDV'de ayrı maddesi yok.",
+  kaynak:"Enciclopedia Italiana (Treccani) «Brescia»: komün «tra il 1120 e 1127» (f: ONYIL hassasiyeti, aralığın ilk yılı); Ezzelino, Pelavicino, Buoso da Doara, Carlo d'Angiò senyörlükleri, Berardo Maggi, Enrico VII kuşatması (Treccani gün vermiyor) · t: Dizionario Biografico (Treccani) «Della Scala, Mastino»: «aveva già conquistato Brescia (giugno-luglio 1332)» — aralığın ilk günü, AY hassasiyeti · TDV'de yok (bulunamadı) · POSTIT-44 (Emre a+b, 17 Ekim 2026)",
+  kronoloji:[
+    { t:"1332-06-01", kesinlik:"ay", tur:"son", b:"Mastino II della Scala Brescia'yı fethetti (Haziran-Temmuz 1332)", kaynak:"Dizionario Biografico (Treccani) «Della Scala, Mastino»" }
+  ]
+},
+{ id:"bergamo-komunu", ad:"Bergamo Komünü", tur:"sehir-devleti", bolge:"italya",
+  f:"1112-01-01", t:"1333-09-20", baskent:"Bergamo", kesinlik:{ f:"yil", t:"gun" },
+  ozet:"Lombardiya'da piskoposluk yönetiminin yerini alan Bergamo şehir komünü; konsülleri ilk kez 1112'de belgelerde geçer. Suardi ailesi çoğu zaman şehrin gerçek efendisiydi; 1296'dan itibaren fırka kavgaları başladı. Treccani Visconti'leri 1329'dan şehrin senyörü sayar, 1331'de birkaç ay Bohemyalı Jan'ın senyörlüğü oldu; 1333'te Visconti zaptıyla Milano senyörlüğüne katıldı. 1329-1333 dilimi bu künyede ayrı gösterilmedi. TDV'de ayrı maddesi yok.",
+  kaynak:"Enciclopedia Italiana (Treccani) «Bergamo»: «la prima menzione dei suoi consoli risale, nei documenti, al 1112» (f: İLK ANILIŞ, YIL); fırka kavgaları 1296; Visconti «con Azzone, dal 1329»; 1331 Giovanni di Boemia; 1333 Milano senyörlüğüne katılış · t: Dizionario Biografico (Treccani) «Visconti, Azzone»: 20 Eylül 1333 zapt (atlasın visconti dilimi) · TDV'de yok (bulunamadı) · POSTIT-44 (Emre a+b, 17 Ekim 2026)",
+  kronoloji:[
+    { t:"1112-01-01", kesinlik:"yil", tur:"kurulus", b:"Bergamo konsülleri belgelerde ilk kez anıldı", kaynak:"Enciclopedia Italiana (Treccani) «Bergamo» — YIL" },
+    { t:"1333-09-20", tur:"son", b:"Azzone Visconti Bergamo'yu aldı, şehir Milano senyörlüğüne katıldı", kaynak:"Dizionario Biografico (Treccani) «Visconti, Azzone»" }
+  ]
+},
 { id:"carrara", ad:"Carrara Senyörlüğü (Padova)", tur:"devlet", bolge:"italya",
   f:"1345-01-01", t:"1405-11-17", baskent:"Padova", kesinlik:{ f:"yil", t:"gun" },
   ozet:"Padova'da da Carrara ailesinin senyörlüğü: Giacomo II 1345'te, oğlu Francesco il Vecchio 1350'de iktidara geldi; 1388'de Visconti'ye teslim edilen Padova 1390'da Francesco Novello'yla geri alındı, Novello 1404'te Verona'yı da ele geçirdi; senyörlük Venedik'in 1405'te Padova'yı almasıyla bitti. 1345 öncesi Carrara iktidarı (1318 ve 1337 iddiaları) bu künyede YAZILMADI — kaynak bulunamadı. TDV'de ayrı maddesi yok.",

@@ -415,16 +415,22 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"İmparator VII. Henri, 13 Temmuz 1311'de Matteo Visconti'yi Milano'nun imparatorluk vikarı yaptı. Visconti ailesi bundan sonra şehrin fiilî efendisi oldu ve dükalık unvanına kadar (1395) Milano'yu senyörlük olarak yönetti. Haritada Milano bu tarihten itibaren Visconti rengindedir.",
   kaynak:"Treccani, Dizionario Biografico «Visconti, Matteo»" },
 
-{ t:"1333-09-20", devlet:"visconti", devletler:["visconti"], sinir_id:"",
+{ t:"1332-06-01", kesinlik:"ay", devlet:"della-scala", devletler:["della-scala","brescia-komunu"], sinir_id:"",
+  b:"Mastino II della Scala Brescia'yı fethetti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Brescia",
+  etiket:["konu-siyasi","della-scala","brescia-komunu"],
+  d:"Verona senyörü Mastino II della Scala, 1332 yazında (Haziran-Temmuz) Brescia'yı fethetti ve şehrin komün dönemi sona erdi. Brescia 1337 sonbaharında Visconti'lere geçti. Kaynak yalnız ay aralığını veriyor; haritada aralığın ilk günü kullanıldı.",
+  kaynak:"Treccani, Dizionario Biografico «Della Scala, Mastino»" },
+
+{ t:"1333-09-20", devlet:"visconti", devletler:["visconti","bergamo-komunu"], sinir_id:"",
   b:"Azzone Visconti Bergamo'yu aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Bergamo",
   etiket:["konu-siyasi","visconti"],
   d:"Azzone Visconti'nin birlikleri 20 Eylül 1333'te Bergamo'yu ele geçirdi. Şehir 1428'de Venedik'e geçene dek Visconti senyörlüğünün, 1395'ten sonra Milano Dükalığı'nın parçası kaldı.",
   kaynak:"Treccani, Dizionario Biografico «Visconti, Azzone»" },
 
-{ t:"1335-01-01", kesinlik:"yil", devlet:"visconti", devletler:["visconti"], sinir_id:"",
-  b:"Azzone Visconti Valtellina, Chiavenna ve Piacenza'yı senyörlüğüne kattı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Sondrio",
+{ t:"1335-01-01", kesinlik:"yil", devlet:"visconti", devletler:["visconti","como-komunu"], sinir_id:"",
+  b:"Azzone Visconti Como'yu, Valtellina, Chiavenna, Lugano ve Piacenza'yı senyörlüğüne kattı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Sondrio",
   etiket:["konu-siyasi","visconti"],
-  d:"Milano senyörü Azzone Visconti 1335'te Como piskoposluğunun hâkimiyetini ele geçirerek Valtellina'yı (Sondrio) ve Chiavenna'yı aldı; aynı yıl Piacenza'da da doğrudan Visconti senyörlüğü kuruldu. Bormio ise 15 yıl daha Chur piskoposunda kaldı. Kaynaklar yalnız yılı veriyor.",
+  d:"Milano senyörü Azzone Visconti 1335'te Como komününü ve piskoposluğunun hâkimiyetini ele geçirerek Como'ya bağlı Valtellina'yı (Sondrio), Chiavenna'yı ve Lugano'yu aldı; aynı yıl Piacenza'da da doğrudan Visconti senyörlüğü kuruldu. Bormio ise 15 yıl daha Chur piskoposunda kaldı. Kaynaklar yalnız yılı veriyor.",
   kaynak:"HLS «Veltlin» (hls-dhs-dss.ch/de/articles/007135) · Treccani «Piacenza»" },
 
 { t:"1337-10-10", devlet:"visconti", devletler:["visconti","della-scala"], sinir_id:"",
@@ -439,7 +445,13 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"Luchino Visconti 1346'da Parma'yı Obizzo d'Este'den 70.000 florine satın aldı. Kaynak günü vermiyor.",
   kaynak:"Treccani, Dizionario Biografico «Visconti, Luchino»" },
 
-{ t:"1350-01-01", kesinlik:"yil", devlet:"visconti", devletler:["visconti"], sinir_id:"",
+{ t:"1471-01-01", kesinlik:"yil", devlet:"graubunden", devletler:["graubunden","almanya"], sinir_id:"",
+  b:"Chur ve çevresi Üç Lig (Graubünden) ittifakının toprağı olarak gösterilmeye başlandı", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Chur (Coira)",
+  etiket:["konu-siyasi","graubunden","almanya"],
+  d:"Chur prens-piskoposluğu Kutsal Roma İmparatorluğu'nun bir parçasıydı (Treccani «Coira»: piskopos 1170-1805 imparatorluk prensi). Tanrı Evi Ligi 1367'de kuruldu; 1471'de iki ligin ittifakıyla Üç Lig yapısı belirdi. Haritada Chur bu yıldan itibaren Üç Lig renginde gösterilir; öncesi Kutsal Roma rengindedir. Kaynaklar yalnız yılı veriyor.",
+  kaynak:"HLS «Drei Bünde» (devletler.js graubunden künyesi) · Enciclopedia Italiana (Treccani) «Coira»" },
+
+{ t:"1350-01-01", kesinlik:"yil", devlet:"visconti", devletler:["visconti","almanya"], sinir_id:"",
   b:"Bormio Chur piskoposluğundan Visconti'ye geçti", tur:"toprak-kazanc", onem:1, dunya:1, kapsam:"dis", yer_id:"Bormio",
   etiket:["konu-siyasi","visconti"],
   d:"Valtellina 1335'te Visconti'ye geçtiğinde Bormio Chur piskoposunda kalmıştı; HLS'ye göre bu durum 15 yıl daha sürdü. Yıl bu hesaptan türetildi, gün bilinmiyor.",
