@@ -111,6 +111,11 @@ dersler/                 kuralların vakaları (DIZIN.md) · denetim/ teslimler 
   akıbetini onun akıbetine bağla: `kaynak:`a "ABİ MERKEZ: <merkez> — <bağı gösteren kaynak>" +
   BEYANLI YAKLAŞIKLIK yaz. Abi merkezin kendi zinciri de kaynaklı olmalı (atlas kaydı değil).
   İlk vaka: Berat 1345-1417 → Avlonya (TDV avlonya).
+- **Sahibi kaynakta bulunamayan ama var olduğu bilinen yer** boş kalmaz: önce o devirde var mıydı
+  sorgula (yoksa toprağı komşu yerleşimlere böl); varsa siyasi-idari-askerî-iktisadî olarak
+  birlikte hareket ettiği büyük merkezi seç ve onun zincirini izle; `kaynak:`a "zincir X'ten
+  devralındı" yaz. Merkezin kendisi `__BOSLUK__` ise o dilimde yer de boşluk kalır. *(Emre,
+  post-it #30, Palu→Harput, 17 Ekim 2026)*
 - Ayrı dosya ≠ ayrı ad alanı: `data/<tur>_<kisaltma>.js` → `window.<TUR>_<KISALTMA>`.
 - Türkçe metinde `sed` ve toplu `replace(…, 1)` kullanma; `"İ".lower()` iki kod noktası verir
   (`denetim/ARAC-NORMAL-0903.py`).
