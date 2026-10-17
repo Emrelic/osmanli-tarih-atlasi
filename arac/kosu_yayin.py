@@ -255,6 +255,13 @@ def main():
     kos("⑥b kronoloji şeması", ["arac/denetle_kronoloji.py"], a.kuru,
         uyari_kodu=True)
 
+    # ⑥d KATMAN BİNMESİ — Post-it #24 (Emre, 16 Ekim 2026: "evet").
+    # Aynı toprak aynı günde iki devletin gövdesinde mi? Taze koşu çıktısını gün
+    # gün ölçer. UYARI kipinde: tavan (denetim/BINME-TAVAN.json) Emre onaylayana
+    # kadar yoktur ⇒ çıkış 2; kapıyı tavizsiz yapmak tavan onayından SONRA.
+    kos("⑥d katman binmesi", ["arac/denetle_binme.py", "--tam"], a.kuru,
+        uyari_kodu=True)
+
     # ⑥c ARAYÜZ — `index.html` ile `js/app.js` arasındaki sessiz kopukluklar.
     # 🔴 NİÇİN EKLENDİ (22 Ağustos 2026): o gün üç kusur da DENETİMSİZDİ ve
     # üçünü de KULLANICI buldu:
