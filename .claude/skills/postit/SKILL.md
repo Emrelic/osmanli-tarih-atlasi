@@ -29,19 +29,30 @@ py arac/not.py al 12 --zorla --model opus   # Emre "/postit 12 zorla" dediyse: b
 - Çıkış 0 → çıktı notun TAMAMIDIR (metin, bağlam JSON'u, bütün yorumlar). Bağlamı yeniden kurma.
 - Başka oturumun notuna **dokunma**. Bu oturumda ikinci not alma.
 
-### Model kapısı (Sonnet oturumu için)
-Notu okuyunca türüne bak. **Motor/geometri notu** ise (zikzak, sivri çıkıntı, ince girinti/koridor,
-üçgen/üçken toprak, katmanların üst üste binmesi, ızgara izi, ya da önceki Claude yorumu teşhisi
-"motor" koymuşsa) işe GİRİŞME:
-```bash
-py arac/not.py opus <no>
-```
-Not `model:opus` etiketini alır ve bırakılır, yorum yazılmaz. Sitede 🧠 Opus rozeti çıkar. Emre'ye
-tek satır: `#<no> motor notu — Opus oturumuyla aç: /postit <no>`. Sonra **5. adım (emekli ol)**.
-Tarih/sahiplik/kaynak soruları, yerleşim eksikliğinden doğan boşluklar ve basit arayüz işleri
-Sonnet'te kalır. Sonnet işin ortasında motora dayandığını görürse de aynısını yapar: o ana kadarki
-bulguyu kısa bir dosyaya yazıp `py arac/not.py opus <no> --dosya <yol>`. Bulgu yoruma girer ama
-sıra Claude'da kalır, Opus oradan devralır. `yanit` KULLANMA, çünkü sırayı Emre'ye geçirir.
+### Model kapısı — oturum kendi modeline bakar
+Notu okuyunca, işe girişmeden önce **notun türüne** ve **kendi modeline** (sistem isteminde yazar) bak.
+Oturumun modelini kendin değiştiremezsin; yalnız Emre `/model` yazarak değiştirir. Uyuşmazsa
+Emre'den çevirmesini iste.
+
+**Opus ister** (motor/geometri notu): zikzak, sivri çıkıntı, ince girinti/koridor, üçgen/üçken
+toprak, katmanların üst üste binmesi, ızgara izi, ya da önceki Claude yorumu teşhisi "motor"
+koymuşsa. **Sonnet yeter**: tarih/sahiplik/kaynak soruları, yerleşim eksikliğinden doğan boşluklar,
+basit arayüz işleri.
+
+| Oturum | Not | Ne yap |
+|---|---|---|
+| Opus | motor | uyuyor, devam et |
+| Sonnet | Sonnet yeter | uyuyor, devam et |
+| **Sonnet** | **motor** | dur. Emre'ye tek satır: `#<no> motor notu, bu oturumu Opus'a çevir: /model opus yaz, sonra "devam" yaz.` 3 beep. **Emekli olma**: Emre modeli çevirip "devam" yazana kadar bekle (5. adım yalnız alınacak not yokken ya da not arşivlenince). |
+| **Opus** | **Sonnet yeter** | dur. Emre'ye tek satır: `#<no> Sonnet'e yeter, bu oturumu Sonnet'e çevir: /model sonnet yaz, sonra "devam" yaz.` 3 beep. **Emekli olma**: Emre modeli çevirip "devam" yazana kadar bekle (5. adım yalnız alınacak not yokken ya da not arşivlenince). |
+
+- Uyuşmazlıkta araştırmaya, yoruma ya da `yanit`e **girişme**. Not bu oturumda kalır
+  (`not.py opus` KULLANMA: o notu bırakır). Emre modeli çevirip "devam" yazınca bu oturum notunu
+  `al --model <yeni model>` ile geri alır, kapı bu kez uyuşur ve iş başlar. Konuşma geçmişi korunur.
+- Emre "bu modelde kal" / "Opus'ta devam" gibi bir şey yazarsa kapıyı bir daha sorma, devam et.
+- İşin ortasında Sonnet motora dayandığını görürse de aynısı: bulguyu bir cümleyle söyle, Opus'a
+  çevirmesini iste, `yanit` yazma.
+- Emin değilsen (not iki türe de benziyor) Opus'ta sorma, devam et; kapı yalnız net uyuşmazlık içindir.
 
 ### Oturumun adını göreve göre değiştir
 Notu alıp görevi anlayınca (model kapısından geçtiysen) oturumu yeniden adlandır. Emre kenar
@@ -105,8 +116,12 @@ Karar yoksa şık satırlarını yazma.
   notun sahipliği ise sürer.)
 - 3 beep. Emre'ye tek satır:
   - soru sorduysan: `#<no> → sorum post-it'te. Sitede cevap yazınca kendiliğimden devam ederim.`
-  - çözdüysen: `#<no> → <durum>. Uygunsa sitede "Kaldır (arşivle)"e bas; arşivlenince kendimi emekli ederim.`
-- **Sonra beklemeye geç** (her iki durumda da): Bash aracıyla, `run_in_background: true`:
+  - çözdüysen: `#<no> → <durum>. Uygunsa sitede "Kaldır (arşivle)"e bas, sonra bu oturumu silebilirsin. Bir şey eklemek istersen bu oturuma "devam" yaz.`
+- **Bekçi YALNIZ Emre'den cevap beklerken çalışır** (Emre 17 Ekim 2026: *"benden cevap beklenmiyor
+  iken bekçi çalışmasın"*). Yani yalnız `karar-bekliyor` ile soru sorduysan (ya da Emre'ye yanıt
+  gerektiren bir şey bıraktıysan) bekçi kur. `cozuldu` / `dogru-bulundu` ile bitirdiysen bekçi
+  KURMA: tur biter, süreç kalmaz; Emre yazmak isterse bu oturuma "devam" yazar.
+  Bekçiyi Bash aracıyla, `run_in_background: true` kur:
   ```bash
   py arac/not.py bekle <no>
   ```
@@ -117,8 +132,10 @@ Karar yoksa şık satırlarını yazma.
   - **10** → not arşive gitti → **5. adım (emekli ol)**.
   - **11** → not artık bu oturumda değil → **5. adım (emekli ol)**.
   - Başka bir çıkış (betik çöktü) → bir kez yeniden başlat; yine çökerse Emre'ye söyle.
-- Emre bu oturuma kendisi yazarsa (betik hâlâ çalışırken) önce onun mesajına bak; işin bitince
-  bekleme betiği zaten çalışıyorsa ikincisini başlatma.
+- **Cevap gelince bekçiyi öldür.** Bekçi kendi çıkışıyla biter (0/10/11). Emre cevabı sitede değil bu
+  oturuma yazdıysa, bekçi hâlâ çalışırken önce onu durdur (`TaskStop` ile arka plan görevi, yoksa
+  `py arac/not.py bekle` sürecini sonlandır), sonra mesajı işle. Cevaba göre yeni soru çıkarsa yeni
+  bekçi kur; çıkmazsa kurma. Çalışan bekçi varken ikincisini başlatma.
 
 Arşivi yalnız Emre yapar (`arsivle`'yi yalnız o isterse çağır). Oturum silinir ya da takılırsa Emre
 sitede "🔓 Sahipsiz bırak"a basar; 7 gün hiç ses vermeyen oturumun notu da kendiliğinden düşer.

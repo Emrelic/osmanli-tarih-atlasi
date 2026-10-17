@@ -743,7 +743,22 @@
     var s = $("gn-sayi"); if (s) s.textContent = G.notlar.length;
     var sb = $("gn-bekleyen"); if (sb) { sb.textContent = b; sb.parentNode.classList.toggle("gn-sifir", !b); }
     var so = $("gn-okunmamis"); if (so) { so.textContent = o; so.parentNode.classList.toggle("gn-sifir", !o); }
+    var sh = G.notlar.filter(sahipsiz).length;   // /postit ile yeni oturum açılması gereken not sayısı
+    var ss = $("gn-sahipsiz"); if (ss) { ss.textContent = sh; ss.parentNode.classList.toggle("gn-sifir", !sh); }
   }
+  function sahipsiz(n) { return !(n.oturum && n.oturum.length); }
+
+  // Mesaj pencereleri (panel/liste) geliştirici araç çubuğunun ÜSTÜNDE biter, onu örtmez.
+  function pencereYerlestir() {
+    var a = $("gn-arac");
+    var ust = a && a.style.display !== "none" ? a.getBoundingClientRect().top : window.innerHeight;
+    ["gn-panel", "gn-liste", "gn-form"].forEach(function (id) {
+      var p = $(id); if (!p || p.style.display === "none") return;
+      p.style.maxHeight = Math.max(120, ust - (p.getBoundingClientRect().top || 70) - 8) + "px";
+      p.style.overflowY = "auto";
+    });
+  }
+  window.addEventListener("resize", function () { pencereYerlestir(); });
 
   function panelAc(n) {
     G.panelNo = n.no;
@@ -755,6 +770,7 @@
     p.innerHTML = "";
     var kapat = el("button", "gn-kapat", "✕"); kapat.type = "button";
     kapat.onclick = function () { p.style.display = "none"; G.panelNo = null; };
+    setTimeout(pencereYerlestir, 0);
     p.appendChild(kapat);
     var bas = el("div", "gn-panel-bas");
     bas.appendChild(el("b", null, "#" + n.no + " "));
@@ -975,8 +991,9 @@
     var alinan = G.notlar.filter(function (n) { return n.oturum && n.oturum.length; }).length;
     var gosterilen = G.filtre === "bekleyen" ? G.notlar.filter(bekliyor)
                    : G.filtre === "okunmamis" ? G.notlar.filter(function (n) { return n.yeni; })
+                   : G.filtre === "sahipsiz" ? G.notlar.filter(sahipsiz)
                    : G.notlar;
-    var bas = { bekleyen: "⏳ Kararını bekleyen", okunmamis: "✉ Okunmamış" }[G.filtre] || "Açık notlar";
+    var bas = { bekleyen: "⏳ Kararını bekleyen", okunmamis: "✉ Okunmamış", sahipsiz: "🔓 Sahipsiz (yeni /postit oturumu bekliyor)" }[G.filtre] || "Açık notlar";
     l.appendChild(el("div", "gn-panel-bas", bas + " (" + gosterilen.length + ") · ⏳ bekleyen " + bek +
       " · ✉ okunmamış " + oku + " · 🔒 oturumda " + alinan + (G.filtre ? " · hepsi " + G.notlar.length : "")));
     if (G.filtre) {
@@ -1042,7 +1059,7 @@
     function listeAc(filtre) {
       var l = $("gn-liste"), acik = l.style.display === "block";
       if (acik && G.filtre === filtre) { l.style.display = "none"; return; }
-      G.filtre = filtre; l.style.display = "block"; listeCiz();
+      G.filtre = filtre; l.style.display = "block"; listeCiz(); pencereYerlestir();
     }
     function sayac(ad, ipucu, id, filtre) {
       var b = d(ad, ipucu, function () { listeAc(filtre); });
@@ -1051,6 +1068,7 @@
     sayac("📋", "Açık notlar", "gn-sayi", null);
     sayac("⏳", "Cevabını / kararını bekleyen notlar (son sözü Claude söyledi)", "gn-bekleyen", "bekleyen");
     sayac("✉", "Okunmamış Claude mesajları", "gn-okunmamis", "okunmamis");
+    sayac("🔓", "Sahipsiz notlar = açılması gereken yeni /postit oturumu sayısı", "gn-sahipsiz", "sahipsiz");
     d("⟳", "Notları yeniden yükle", function () {
       notlariYukle().then(function (l) { bildir(l.length + " açık not"); }).catch(function (e) { bildir(e.message, true); });
     });
