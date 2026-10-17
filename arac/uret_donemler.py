@@ -507,7 +507,7 @@ PARCALAR = [
  (D,"Beyliklerin yeniden ilhakı ve toparlanış", "1425-06-01","1430-03-29",S["Y1400"].difference(SELANIK_KES)),
  (D,"Selanik'in kesin fethi",                   "1430-03-29","1481-05-03",S["Y1400"]),
  # Sırbistan'ın ilk ilhakı (1444 Edirne-Segedin ile iade edildi)
- (D,"Semendire'nin ilk alınışı",                "1439-08-27","1444-08-01",D1459S),
+ (D,"Semendire'nin ilk alınışı",                "1439-08-27","1444-08-15",D1459S),
  (D,"Yanya'nın teslimi",                        "1430-10-09","1481-05-03",D1430Y),
  (D,"İstanbul'un Fethi — başkent İstanbul",     "1453-05-29","1481-05-03",D1453I),
  (D,"Atina'nın fethi",                          "1456-06-04","1481-05-03",D1456A),

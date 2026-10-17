@@ -220,7 +220,7 @@ window.MERAK = [
     { tez:"\"Hep başarısız\" ölçütü de tartışmalı",
       dayanak:"1444 baskısı savaş meydanında değil MASADA sonuç vermişti: Edirne-Segedin Antlaşması (12 Haziran 1444) ve ardından Semendire'nin fiilen Sırbistan'a iadesi (Ağustos 1444) Haçlı tarafının kazancıydı. TDV bu metnin \"gerçek anlamda bir barış mı yoksa geçici bir ateşkes mi olduğu\"nun tartışmalı olduğunu, Kardinal Cesarini ve Bizans imparatorunun devreye girmesiyle hükümsüz kaldığını yazar. ⇒ Sorun her zaman kazanamamak değil, kazanılanı korumamaktı." }
   ],
-  baglanti:["1396-09-25","1444-06-12","1444-08-01|Semendire","1444-11-10"],
+  baglanti:["1396-09-25","1444-06-12","1444-08-15|Semendire","1444-11-10"],
   kesinlik:"tartismali",
   kaynak:"TDV: HAÇLILAR · NİĞBOLU SAVAŞI · VARNA MUHAREBESİ" },
 

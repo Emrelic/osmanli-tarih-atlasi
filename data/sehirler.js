@@ -306,7 +306,7 @@ window.SEHIRLER = [
   yapilar:"Bayraklı Camii (günümüze ulaşan tek Osmanlı dönemi camisi), kale içindeki idarî ve askerî yapılar, Sûk-ı Sultânî.",
   kaynak:"belgrad" },
 { ad:"Semendire",  tur:"kale",  lat:44.663, lon:20.930,
-  k:[{f:"1439-08-27",t:"1444-08-01",d:1,y:"kusatma"},{f:"1459-06-20",t:"1717-08-18",d:1,y:"kusatma"}],
+  k:[{f:"1439-08-27",t:"1444-08-15",d:1,y:"kusatma"},{f:"1459-06-20",t:"1717-08-18",d:1,y:"kusatma"}],
   koken:"Antik dönemde 'Mons Aureus' denirdi; bugünkü Sırpça adı Smederevo'dur.",
   onem:"Tuna'nın sağ kıyısında, Belgrad'ın doğusunda, ana yol güzergâhında bulunması ekonomik ve askerî açıdan kritik bir nokta yaptı.",
   tarihce:"Sırp Despotu Curac Brankoviç'in elindeyken Osmanlı 1439'da fethetti; sonraki yüzyıllarda Osmanlı, Macar ve Avusturya arasında sık sık el değiştirdi.",
