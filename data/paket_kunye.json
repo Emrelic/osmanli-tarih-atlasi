@@ -558,8 +558,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "9edd23d627cf89c6",
-     "bayt": 1224552
+     "sha": "44c46567a4308220",
+     "bayt": 1225135
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -622,7 +622,7 @@
      "bayt": 9947
     }
    ],
-   "bayt": 2147394
+   "bayt": 2147977
   },
   {
    "paket": "data/paket_14.js",
@@ -938,8 +938,8 @@
     },
     {
      "yol": "data/yerlesimler_ek_ferhadpasa.js",
-     "sha": "660aa0bf77ea135c",
-     "bayt": 9001
+     "sha": "dae2eea86489c2b2",
+     "bayt": 9465
     },
     {
      "yol": "data/yerlesimler_ek_macaristan.js",
@@ -947,7 +947,7 @@
      "bayt": 32637
     }
    ],
-   "bayt": 78726
+   "bayt": 79190
   },
   {
    "paket": "data/paket_19.js",
