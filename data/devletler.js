@@ -484,8 +484,8 @@ window.DEVLETLER = [
 },
 { id:"dulkadir", ad:"Dulkadiroğulları", tur:"beylik", bolge:"anadolu",
   f:"1337-01-01", t:"1522-01-01", baskent:"Elbistan / Maraş", harita:"dulkadir",
-  tabi:[{f:"1515-06-13", t:"1522-01-01", ust:"osmanli"}],
-  ozet:"Osmanlı-Memlûk arasında tampon beylik; Yavuz döneminde kesin ilhak edildi. tabi: başlangıcı Turnadağ Zaferi'nin (Osmanlı'ya tâbi oluşun) kendi günü — A5'in kendi işaretlediği gibi keyfî bir sınır, bitiş de yer tutucu (bkz. ARABISTAN-DUZELTMELER.md §AJ.2/§AJ.4, en zayıf satır).",
+  tabi:[{f:"1337-01-01", t:"1515-06-13", ust:"memluk"}, {f:"1515-06-13", t:"1522-01-01", ust:"osmanli"}],
+  ozet:"Osmanlı-Memlûk arasında tampon beylik; Memlûk himayesinde kuruldu (1337; TDV Dulkadıroğulları: \"himayesinde yaklaşık iki asır\", \"hiçbir dönemde tam bağımsız olmadığından\" hutbede tâbi olunan devletin hükümdarı anılırdı; 1390'da Berkuk'un tâbiiyetini kabul). Osmanlı himayesine girdiği kısa aralıklar (örn. Şehsuvar 1465-72) ayrıca yazılmadı; Yavuz döneminde kesin ilhak edildi. tabi: başlangıcı Turnadağ Zaferi'nin (Osmanlı'ya tâbi oluşun) kendi günü — A5'in kendi işaretlediği gibi keyfî bir sınır, bitiş de yer tutucu (bkz. ARABISTAN-DUZELTMELER.md §AJ.2/§AJ.4, en zayıf satır).",
   kaynak:"dulkadirogullari",
   kronoloji:[
     { t:"1337-01-01", tur:"kurulus", b:"Zeyneddin Karaca Bey tarafından kuruldu" },

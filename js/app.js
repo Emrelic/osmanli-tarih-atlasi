@@ -987,6 +987,31 @@ var devletImza = null;
 var devletEtiketleri = [];      // aktif DOM işaretleri
 var etiketAdaylari = [];        // {ad, c, alan} — dönem başına bir kez kurulur
 
+// Postit #36 — künyedeki tabi: kaydı (yabancı üst devlet) etiketin yanında görünür:
+// "Dulkadiroğulları · tâbi: Memlûk Sultanlığı". Osmanlı'ya tâbilik vl etiketinin
+// işidir (aşağıda), burada atlanır — iki etiket çakışmasın.
+var _TABI_IX = null;
+function tabiYazisi(id, t) {
+  if (!_TABI_IX) {
+    _TABI_IX = {};
+    (window.DEVLETLER || []).forEach(function (d) {
+      if (!d || !d.tabi) return;
+      var l = d.tabi.filter(function (x) { return x && x.ust && x.ust !== "osmanli"; });
+      if (!l.length) return;
+      if (d.id) _TABI_IX[d.id] = l;
+      if (d.harita && !_TABI_IX[d.harita]) _TABI_IX[d.harita] = l;
+    });
+  }
+  var l = _TABI_IX[id];
+  if (!l) return "";
+  for (var i = 0; i < l.length; i++) {
+    if (gunIdx(l[i].f) <= t && t < gunIdx(l[i].t)) {
+      return "tâbi: " + devletAdi(l[i].ust).replace(/\s*\(.*\)\s*$/, "");
+    }
+  }
+  return "";
+}
+
 function devletGuncelle(t) {
   if (!haritaHazir) return;
   var fs = [], et = [], imza = "";
@@ -994,7 +1019,7 @@ function devletGuncelle(t) {
     for (var i = 0; i < s.dnm.length; i++) {
       var p = s.dnm[i];
       if (aktifAralik(p.fi, p.ti, t)) {
-        imza += s.id + ":" + i + ";";
+        imza += s.id + ":" + i + ";" + tabiYazisi(s.id, t);
         // 🔴 21 Ağustos — KUSUR ③ (odak vurgusu) için: `p.ft` zaten "renk"
         // taşıyordu ama devletin KİMLİĞİNİ taşımıyordu (dolgu boyamak için
         // gerekmiyordu). `devlet-odak-vurgu` katmanı bunu FİLTRELEMEK için
@@ -1009,7 +1034,8 @@ function devletGuncelle(t) {
         for (var k = 0; k < mp.length; k++) {
           var dis = mp[k][0];
           if (!dis || dis.length < 4) continue;
-          et.push({ ad: s.ad, id: s.id, c: etiketNoktasi(dis), alan: halkaAlan(dis) });
+          et.push({ ad: s.ad, id: s.id, c: etiketNoktasi(dis), alan: halkaAlan(dis),
+                    tb: tabiYazisi(s.id, t) });
         }
         break;
       }
@@ -1817,7 +1843,8 @@ function etiketleriYerlestir() {
     var sigmaTavan = Math.sqrt(e.alan) * pxDerece * 0.85 / (e.ad.length * KARAKTER);
     var punto = 10 + 1.6 * (Math.log(e.alan / 0.5) / Math.LN2);
     punto = Math.max(10, Math.min(26, Math.min(punto, sigmaTavan)));
-    var g = e.ad.length * KARAKTER * punto + 8, y = punto * 1.36;
+    var eyazi = e.tb ? e.ad + " · " + e.tb : e.ad;
+    var g = eyazi.length * KARAKTER * punto + 8, y = punto * 1.36;
     var kutu = { x0: pt.x - g / 2, x1: pt.x + g / 2, y0: pt.y - y / 2, y1: pt.y + y / 2 };
     var carpti = false;
     for (var j = 0; j < yerlesen.length; j++) {
@@ -1829,7 +1856,7 @@ function etiketleriYerlestir() {
     var el = document.createElement("div");
     el.className = "devlet-etiket";
     el.style.fontSize = punto.toFixed(1) + "px";
-    el.textContent = e.ad;
+    el.textContent = eyazi;
     // p5/H-0003 — "haritaya yay": devlet adına tıklayınca o devletin O ANKİ
     // gövdesi ekrana sığdırılıyor. `e` for döngüsünün değişkeni olduğu için
     // kapanışa doğrudan alınmıyor — id, elemanın kendi dataset'ine yazılıp
