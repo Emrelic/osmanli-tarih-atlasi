@@ -36,7 +36,7 @@ window.KOSU_DAMGA = {
   no: 27,                          // koşu numarası — arayüzde "KOŞU 27" diye görünür
   tarih: "2026-10-17",             // çıktının main'e alındığı gün
   makine: "HAVVA",                 // koşuyu KOŞTURAN makine
-  commit: null,                    // KOŞU 27 çıktı commit'i — yayın 8b onayını bekliyor, inince yazılır
+  commit: "d9121c47",              // KOŞU 27 çıktı commit'i (8b 84→85 Emre onayı, 17 Ekim 2026)
   temel: "db9de100",               // koşunun girdi temeli · bellek + komşu-kur yamaları DAHİL (MOTOR_SINIR_KISIT=1 · MOTOR_COL_GIRINTI_KAPALI=1 · MOTOR_KOMSU_KUR_BOL=1)
   sure: "6 sa 31 dk 43 sn",        // 2026-10-16 20:09:52 → 2026-10-17 02:41 (AŞAMA BİLANÇOSU)
   bayraklar: {

@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 DENETLE — üç değişmezin toplu denetimi
 =======================================
@@ -5191,7 +5191,7 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   ⚠️ Gövde hâlâ 2026-10-04 19:17 koşusunun çıktısı; Dobriç henüz gövdede YOK.
 #     Tam inşadan sonra bu üye yeniden ölçülecek — düşebilir de, kalabilir de.
 # ═══════════════════════════════════════════════════════════════════════════
-BEKLENEN_D8A = 981   # 15 Ekim 2026 (üçüncü): 1108 → 981, Emre onayı — eşik hattın beyanlı belirsizliğini okur (D8_DERIN + kesinlik_km; null ⇒ 0). 127 birim hattın kendi payı içindeydi. Aynı gövde (KOŞU 25) · ÖNCEKİ 15 Ekim 2026 (ikinci): 1508 → 1108, Emre onayı — BİRİM TANIMI DEĞİŞTİ: (hat, gün, yan, en yakın yer) → (hat, gün, yan, taşma PARÇASI). Aynı gövde (KOŞU 25) eski ölçütle 1508, yeni ölçütle 1108; KUTU-H5 öncesi veride (59bc89d71) de 1108 ⇒ sayı artık nokta yoğunluğundan bağımsız. Defter aynı commit'te yeni anahtarlarla yazıldı, hat evreni AYNI. Sınav: denetim/ARAC-D8A-YOGUNLUK-SINAV-1015.py · ÖNCEKİ 15 Ekim 2026: 1505 → 1508, Emre onayı (KOŞU 25 gövdesi, taban b0b48774 + KUTU-H5-1015 308429b12 rebase). Taşma GEOMETRİSİ değişmedi: H5 aynı şeritlere yeni noktalar ekledi (Cortina, Locarno, Enschede, Subotica), birim = (hat, gün, yan, EN YAKIN yer) olduğundan aynı taşma daha çok ada bölündü. Sayım kusuru ayrıca düzeltilecek · ÖNCEKİ 13 Ekim: 1508 → 1505 (denetle.py ölçümü, origin/main 122ae588d; Emre tavan onayı) · 1568 → 1508, 6 Ekim 2026 (§3.4③ iyileşme; koordinatör kararı, UMIT ölçtü+yazdı).
+BEKLENEN_D8A = 156   # 17 Ekim 2026: 981 → 156, KOŞU 27 (sınır kısıtı ilk tam koşu; defter KOŞU 27 gövdesinde yeniden yazıldı, 37 YENİ KAPSAM birimi evrene alındı) · ÖNCEKİ 15 Ekim 2026 (üçüncü): 1108 → 981, Emre onayı — eşik hattın beyanlı belirsizliğini okur (D8_DERIN + kesinlik_km; null ⇒ 0). 127 birim hattın kendi payı içindeydi. Aynı gövde (KOŞU 25) · ÖNCEKİ 15 Ekim 2026 (ikinci): 1508 → 1108, Emre onayı — BİRİM TANIMI DEĞİŞTİ: (hat, gün, yan, en yakın yer) → (hat, gün, yan, taşma PARÇASI). Aynı gövde (KOŞU 25) eski ölçütle 1508, yeni ölçütle 1108; KUTU-H5 öncesi veride (59bc89d71) de 1108 ⇒ sayı artık nokta yoğunluğundan bağımsız. Defter aynı commit'te yeni anahtarlarla yazıldı, hat evreni AYNI. Sınav: denetim/ARAC-D8A-YOGUNLUK-SINAV-1015.py · ÖNCEKİ 15 Ekim 2026: 1505 → 1508, Emre onayı (KOŞU 25 gövdesi, taban b0b48774 + KUTU-H5-1015 308429b12 rebase). Taşma GEOMETRİSİ değişmedi: H5 aynı şeritlere yeni noktalar ekledi (Cortina, Locarno, Enschede, Subotica), birim = (hat, gün, yan, EN YAKIN yer) olduğundan aynı taşma daha çok ada bölündü. Sayım kusuru ayrıca düzeltilecek · ÖNCEKİ 13 Ekim: 1508 → 1505 (denetle.py ölçümü, origin/main 122ae588d; Emre tavan onayı) · 1568 → 1508, 6 Ekim 2026 (§3.4③ iyileşme; koordinatör kararı, UMIT ölçtü+yazdı).
 #   🔴 ŞERH: bu sayı MAIN'İN gövdesine aittir (gövde 2026-10-04 11:37 · uret_petek 8b6aaea5,
 #   makine/umit 47290f11'de ölçüldü). KOŞU 20 geometrisi yayınlanırsa (SABAH ⑳, Emre)
 #   YENİDEN ölçülür — HAVVA aynı soruyu koşu gövdesinde başka sayıyla ölçtü. Aynı araç,
@@ -5254,7 +5254,11 @@ BEKLENEN_D8A = 981   # 15 Ekim 2026 (üçüncü): 1108 → 981, Emre onayı — 
 #    ⚠️ BEYANLI BORÇ, ÖLÇÜLMEDİ: yeni 9'un çoğu FETİH GÜNÜ — bölgenin Osmanlı'ya
 #    geçtiği gün yabancı gövde henüz çekilmemiş olabilir (kronoloji günü ↔ gövde
 #    kırılması). Düşen 7 ile KOŞU 23 kıyası yapılmadı; iyileşince tavan iner.
-BEKLENEN_D8B = 84   # 82 → 84, KOŞU 24, Emre 14 Ekim 2026 (önceki: 84 → 82, 6 Ekim 2026, §3.4③).
+# 🔴 84 → 85, KOŞU 27, Emre 17 Ekim 2026 ("tavanı yükseltmeye de onay veriyorum").
+#    YENİ 4: El-Fâşir 1884-01-14 · Sevâkin 1884-02-08 · Kahire 1914-12-17 (%4) ·
+#    Prizren 1455-06-20 (%2); 3 eski birim düştü, net +1. ⚠️ BEYANLI BORÇ: dördü de
+#    kaynaklı veri değişikliğinin yan ürünü, gövde-kırılma uyumsuzluğu — iyileşince iner.
+BEKLENEN_D8B = 85   # 84 → 85, KOŞU 27, Emre 17 Ekim 2026 (önceki: 82 → 84, KOŞU 24, 14 Ekim).
 # DEFTER — tavan bir sayı, defter bir küme (2t'nin gerekçesiyle birebir).
 #   `hatlar`: tavanın EVRENİ. Tavan yazıldıktan SONRA eklenen D hattı bu
 #   evrende değildir: taşması "YENİ KAPSAM" kovasında ADIYLA ve SAYIYLA basılır,

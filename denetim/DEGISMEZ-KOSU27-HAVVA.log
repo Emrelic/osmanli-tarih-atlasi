@@ -1,4 +1,4 @@
-Veri okunuyor...
+﻿Veri okunuyor...
   UYARI alan: 'ic_not' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler.js:Abâdân). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
   UYARI alan: 'karar_notu' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler.js:Budin). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
   UYARI alan: 'kaynak_kur' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek24.js:Uzunköprü). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
@@ -349,39 +349,14 @@ Ek denetim  i  savaş senkronu: 159/168 kaydın ±30 gün içinde maddesi var
               1657-07-19  deniz    Çanakkale zaferi                 +37g  Çanakkale zaferi ve Bozcaada'nın g
               1511-03-01  isyan    Şahkulu (Teke)                   +31g  Şahkulu isyanının başlaması
 Ek denetim  i  zincir_kaynagi: 0 kayıt beyanlı — bayat kopya sorusu SORULACAK beyan yok (serbest metin kopyaları bu kapıya GÖRÜNMEZ)
-Değişmez 8a ✓  şehir peteği D hattını aşıyor: 119 birim (tavan 981) — ≥5 km · 828 (hat, gün) ölçüldü · gövde 2026-10-17 03:01 · uret_petek 49224acf
-Değişmez 8b ✗  Osmanlı bölgesi yabancı gövdede: 85 (bölge, gün) (tavan 84) — ≥50 km² ve ≥%1
-            i ayrı kovalar (ihlal DEĞİL, sayılır): C/YOK hattı taşması 372 · ölçülemeyen (hat, gün) 80 · süre 55+5 sn
-Değişmez 8k ✗  ölçülemeyen hat: 31 TAM KÖR (hiçbir günü ölçülmedi) · 18 yarım · 80 (hat,gün) · defter 155 üye
+Değişmez 8a ✓  şehir peteği D hattını aşıyor: 156 birim (tavan 156) — ≥5 km · 828 (hat, gün) ölçüldü · gövde 2026-10-17 03:01 · uret_petek 49224acf
+Değişmez 8b ✓  Osmanlı bölgesi yabancı gövdede: 85 (bölge, gün) (tavan 85) — ≥50 km² ve ≥%1
+            i ayrı kovalar (ihlal DEĞİL, sayılır): C/YOK hattı taşması 372 · ölçülemeyen (hat, gün) 80 · süre 81+9 sn
+Değişmez 8k ✓  ölçülemeyen hat: 31 TAM KÖR (hiçbir günü ölçülmedi) · 18 yarım · 80 (hat,gün) · defter 80 üye
             i D8_SINIF (D/E/F, tavan sınıfı) tam kör hat: 11 — bu hatlarda taşma HİÇ SORULMADI (taşması 0 görünür); öteki sınıflar 20
             i körlük SAYIYLA ayırt edilemez: bir hat ölçülmemeye başlayınca tavan 'iyileşti' der
             i iki taraflı olmayan D kaydı (karşı yakası tanımsız, soru SORULAMAZ, SAYILIR): 0
-            i defterde olup artık ölçülen 76 (hat,gün) — iyi haber, defteri daralt
-    8k YENİ  g1-osm-ir-guney-ibs164¦1921-08-22
-            ⇒ defterde OLMAYAN 1 (hat,gün) ölçülemez hâle geldi (1 hat): körleşme iyileşme DEĞİLDİR.
 Değişmez 8m ✓  hat muhasebesi: 460 hat = 423 ölçülen + 31 tam kör + 6 atlanan + 0 muhasebe dışı · gün süzgecinde düşen (hat,gün) 0
-            i YENİ KAPSAM: defterde olmayan 14 hatta 37 birim — tavana KATILMADI. İncele, sonra `py arac/denetle.py --d8-defter-yaz`
-            ⚠️ TAVAN GEVŞEK — BEKLENEN_D8A = 119 yapılmalı (aradaki 862 puanlık gerileme GÖRÜNMEZ).
-    8a YENİ  d1829-osm-rus-2|1878-07-12|sag|Gümrü (Aleksandropol)
-    8a YENİ  d1890-becuanaland-almanya-swa|1915-07-08|sol|Livingstone
-    8a YENİ  d1890-namrod-almanya-swa|1915-07-08|sag|Livingstone
-    8a YENİ  d1908-bg-bagimsiz-eski|1908-10-05|sol|Umur Fakih (Fakia)
-    8a YENİ  d1908-bg-bagimsiz-eski|1909-04-18|sol|Umur Fakih (Fakia)
-    8a YENİ  d1909-osm-bg-eski|1909-04-19|sol|Umur Fakih (Fakia)
-    8a YENİ  d1909-osm-bg-eski|1913-05-29|sol|Umur Fakih (Fakia)
-    8a YENİ  d1919-hu-cs-fiili-3|1919-07-25|sol|Ungvár (Uzhhorod)
-    8a YENİ  d1922-at-hu-sopron|1922-01-01|sol|Eisenstadt (Kismarton)
-    8a YENİ  d1922-at-hu-sopron|1923-10-28|sol|Eisenstadt (Kismarton)
-    8a YENİ  d1923-angola-kuzey-rodezya-barotseland|1923-10-28|sag|Katima Mulilo
-    8a YENİ  d1923-at-yu-stiriya|1923-10-28|sag|Murska Sobota
-    8a YENİ  d1923-bg-shs-2|1920-01-01|sag|İvranye (Vranje)
-    8a YENİ  d1923-bg-shs-2|1923-10-28|sag|İvranye (Vranje)
-    8a YENİ  d1923-ca-us-dogu|1867-07-01|sol|Sault Ste. Marie (Ontario)
-    8b YENİ  El-Fâşir|1884-01-14
-    8b YENİ  Kahire|1914-12-17
-    8b YENİ  Prizren|1455-06-20
-    8b YENİ  Sevâkin|1884-02-08
-    → `--ayrinti` bütün birimleri basar
 Değişmez R  ✓  harita rötuşu: 0 kayıt
    ⚠️ SINIRDA: 8 nokta ham göl poligonunun içinde ama sadeleştirilmişin dışında (ihlal DEĞİL, motor da böyle görüyor — ama nokta suyun üstünde): Detroit (Fort Pontchartrain du Détroit), Hantayka zimovyesi, Fort Rae (Behchokǫ̀), Ennadai (Ihalmiut, Karayer İnuit), Big Trout Lake (Kitchenuhmaykoosib), Nichicun (HBC iç karakolu)
 Ek denetim  ✓  konum: 0 nokta kara maskesinin dışında (beklenen 0)
@@ -392,8 +367,4 @@ Ek denetim  ✓  konum: 0 nokta kara maskesinin dışında (beklenen 0)
 
 Değişmez 7e ✓  1941 kopuk Osmanlı parçası · 598/703 kırılma gününde (tavan 1941) — Delaunay ≤400 km
 
-🔴 ÖLÇÜLEMEYEN SORU: 1 — bu kapı o soruda TEMİZ DEĞİL
-     • Değişmez 8 körlük      defterde olmayan 1 (hat,gün) körleşti, 1 hat: g1-osm-ir-guney-ibs164
-   ⇒ Eksik bağımlılık ya da eksik dosya; ölçüm YAPILMADI.
-     'ölçülemedi' ≠ 'yok' ≠ 'temiz' (CLAUDE.md §11).
-SONUÇ: İHLAL VAR — çıkış kodu 1
+SONUÇ: temiz
