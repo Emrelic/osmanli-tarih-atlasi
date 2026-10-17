@@ -1052,8 +1052,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler_ok107.js",
-     "sha": "ca0004a8ef59c2d2",
-     "bayt": 53764
+     "sha": "8850fb83ed904432",
+     "bayt": 55404
     },
     {
      "yol": "data/yerlesimler_amerika3.js",
@@ -1091,7 +1091,7 @@
      "bayt": 6206
     }
    ],
-   "bayt": 488093
+   "bayt": 489733
   },
   {
    "paket": "data/paket_23.js",

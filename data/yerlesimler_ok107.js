@@ -75,7 +75,17 @@ window.YERLESIMLER_OK107 = [
   //   bitiyor ⇒ 31 yıllık hayalet. Kapı yakaladı, zincire karakoyunlu
   //   halkası eklendi (Bitlis'in kendi halkası; TDV Siirt için ADIYLA
   //   söylemiyor — bölgesel HİZALAMA, kaynak değil).
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1431-01-01",d:"celayirli"},{f:"1431-01-01",t:"1462-01-01",d:"karakoyunlu"},{f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1514-09-06",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
+  // 🟢 POST-IT #40 (17 Eki 2026): 1402'de Siirt Celâyirli EKSKLAVI görünüyordu.
+  //   TDV `celayirliler`: Timur 1393'ten itibaren Diyarbekir ve el-Cezîre'yi aldı ⇒
+  //   celayirli 1394'te biter (gün komşudan: Diyarbakır, TDV diyarbakir '25 veya 26
+  //   Nisan 1394'). 1394→1462 için Siirt'i adıyla anan kaynak YOK ⇒ Emre'nin kuralı
+  //   ("bağlı olduğu büyük merkezin akıbetine bağla"): ağabey = HASANKEYF.
+  //   TDV `siirt`: 'Hısnıkeyfâ Artukluları'na bağlanan Siirt' · Osmanlı'da 'Hısnıkeyfâ
+  //   ile birlikte sancak'. TDV `hasankeyf`: Eyyûbî Meliki Halîl 'Siirt ve Hasankeyf'i
+  //   elinde bulunduran'. TDV `eyyubiler`: Hısnıkeyfâ kolu 'Moğollar ve Timurlular
+  //   devrinde de varlığını devam ettiren'. Eski karakoyunlu 1431-1462 halkası Bitlis
+  //   hizalamasıydı, kaynak değil — kalktı. HİZALAMADIR, kaynak değil.
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1394-04-25",d:"celayirli",kaynak:"TDV siirt: 'Celâyirliler'in hâkimiyeti altına giren Siirt, Timur istilâsını da gördükten sonra' · TDV celayirliler: Timur '1393'ten itibaren de Bağdat, Diyarbekir ve el-Cezîre bölgelerini' aldı · gün komşudan: Diyarbakır (TDV diyarbakir '25 veya 26 Nisan 1394') · POST-IT #40"},{f:"1394-04-25",t:"1462-01-01",d:"eyyubi-hisnikeyfa",kaynak:"HİZALAMA (Emre kuralı, post-it #40, 16 Eki 2026: kaynaksız aralıkta bağlı olduğu büyük merkezin akıbeti) — ağabey Hasankeyf: TDV siirt 'Hısnıkeyfâ Artukluları'na bağlanan Siirt', 'Hısnıkeyfâ ile birlikte sancak'; TDV hasankeyf 'Siirt ve Hasankeyf'i elinde bulunduran … Eyyûbî Meliki Halîl'; TDV eyyubiler Hısnıkeyfâ kolu 'Timurlular devrinde de varlığını devam ettiren'. Uçlar Hasankeyf kaydından."},{f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1514-09-06",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1514-09-06",t:"1920-04-23"}],
   v:[], kaynak:"siirt"
 },
