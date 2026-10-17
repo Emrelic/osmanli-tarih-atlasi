@@ -3741,6 +3741,12 @@ BOYALAR = {
     "mekke-serifligi":          ("Mekke Şerifliği", "#dede24"),
     "medine-emirligi":          ("Medine Emirliği (Hüseynî emîrler)", "#1212ea"),
     "sicilya-aragon":           ("Sicilya Krallığı (Aragon/Trinacria)", "#eaa86c"),
+    # RENK-PAKET-POSTIT44-1017 — renk_olc --oner (GERÇEK konum + dönem engel kümesi; artefakt
+    # denetim/oneri-20261017-132727.txt yerel). Lombardiya komünleri 1281-1335 (Emre #44 a+b, 17 Ekim 2026).
+    # En yakın engel ΔE 12,0-12,5; üçü birbirine komşu, birbirinden de ayrıştırıldı.
+    "como-komunu":              ("Como Komünü", "#e412ea"),
+    "brescia-komunu":           ("Brescia Komünü", "#0cf06c"),
+    "bergamo-komunu":           ("Bergamo Komünü", "#0c72a8"),
 }
 
 
