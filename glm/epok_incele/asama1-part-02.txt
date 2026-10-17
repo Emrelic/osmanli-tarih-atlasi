@@ -1,0 +1,438 @@
+##0061 Gelibolu [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · gelibolu · yer=1
+  Y[1204] Haçlı ordularının buradan geçerek Anadolu’ya ulaştıkları Gelibolu 1204’te Latinler’in idaresi altına girdi.
+  Y[1235] Ioannes tarafından geri alındı (1235).
+  Y[1304] Bu arada Batı Anadolu’daki beyliklerle mücadele etmek üzere Bizanslılar’ca getirtilen Katalanlar Anadolu’daki faaliyetlerinden sonra (1304) Gelibolu’ya yerleştiler ve bir süre burada kaldılar.
+  E[1332] 1320’lerde Bizans donanması için önemli bir üs niteliği kazanan Gelibolu, 1331 veya 1332’de Aydın Beyi Gazi Umur Bey idaresindeki donanmanın başlıca hedefi oldu.
+  E[1352] Daha sonra Orhan Bey’in oğlu Süleyman Paşa idaresindeki Osmanlı kuvvetleri İmparator Kantakuzenos’un müttefiki sıfatıyla yarımadaya geldiler (753/1352).
+  E[1354] Bizanslılar haraç vermek şartıyla Osmanlılar’ı bölgeden uzaklaştırmaya çalışırken 2 Mart 1354’te meydana gelen şiddetli zelzele surların yıkılmasına ve şehrin harap olmasına yol açtı.
+  E[1366] 13 Ağustos 1366’da Savoy (Savoia) Dükü Amedeo bir Haçlı filosu ile Gelibolu’yu alıp 14 Haziran 1367’de Bizans’a terketti.
+
+##0062 Edirne [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · edirne · yer=1
+  Y[1205] İstanbul’un Latinler’in eline geçmesi üzerine onlara karşı meydana gelen ayaklanmalar sırasında 15 Nisan 1205’te Latin ordusu Bizans-Bulgar müşterek kuvvetleri tarafından burada mağlûp edildi.
+  Y[1245] Edirne ilk Rus işgalini Safer 1245’te (Ağustos 1829) görmüş, fakat savaşsız teslim olduğundan saray dışındaki eserlere fazla zarar verilmemişti.
+  E[586] Hadrianopolis 586’da Avarlar tarafından muhasara edildikten sonra Bizans ve Bulgar Krallığı arasında mücadelelere sahne olduğu gibi (zaptı 914) Bizans-Peçenek savaşlarına da şahit oldu ve çeşitli defalar Peçenek hücumlarına uğradı (1049, 1078).
+  E[1342] Ioannes Palaiologos ile Kantakuzenos arasındaki mücadeleler sırasında, 1342-1343 yıllarında Aydınoğlu Umur Bey Kantakuzenos’un müttefiki sıfatıyla Trakya’ya geçti ve Edirne tekfurunun hücumlarına karşı koydu.
+  E[1352] 1352’de yine Kantakuzenos’un müttefiki olarak Trakya’ya geçen ve Bulgar-Sırp kuvvetlerini bozguna uğratan Osmanlı şehzadesi Süleyman Paşa Kantakuzenos’un kuvvetlerine Edirne’de katılmıştı.
+  E[1913] Bundan otuz yıl kadar sonra yeniden kuşatılıp top ateşine tutulan şehir bir müddet direndiyse de 26 Mart 1913’te Bulgarlar tarafından işgal edildi, 21 Temmuz’da ise geri alındı.
+
+##0063 Dimetoka [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · dimetoka · yer=1
+  Y[1206] 1206’da Çar Kaloyan kumandasındaki Bulgar ordusu Dimetoka’ya iki defa saldırdı; ikinci hücumda kuşatma altına alınan şehrin surları yıkıldı ve birçok kişi hayatını kaybetti.
+  Y[1230] 1230-1246 yılları arasında Bulgarlar’ın hâkimiyetinde kaldıysa da bu son tarihten itibaren Bizans’ın yönetimi altına girdi.
+  E[1361] Dimetoka Bizans döneminde Trakya’nın en önemli müstahkem kasabası olup Osmanlı döneminde (1361-1912) bir ilim merkezi ve Osmanlı sultanlarının zaman zaman gelip kaldıkları bir yerdi.
+  E[813] 813’te Türk/Bulgar Hanı Krum tarafından ele geçirilen şehrin adı eski bir kitâbede Kastron Didymóteichon olarak zikredilir.
+  E[1189] Haçlı Seferi sırasında 1189’da Alman İmparatoru Friedrich Barbarossa tarafından alınan, kadınlar ve çocuklar hariç bütün halkı katledilen (yaklaşık 1500 kişi) Dimetoka bundan sonra Bulgarlar’ın saldırılarına uğradı.
+  E[1361] Bizans kroniklerine göre Dimetoka’nın Osmanlılar tarafından zaptı 1361’de, Hacı İlbey liderliğinde yarı bağımsız hareket eden akıncılar tarafından gerçekleştirilmiştir.
+
+##0064 Kırklareli [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · kirklareli · yer=1
+  E[None] yüzyıl sonu) ve Latinler’in (XIII.
+  E[1878] Bu savaşın ardından 3 Mart 1878’de imzalanan Ayastefanos Antlaşması’nın maddelerinden birine göre Kırkkilise yeni kurulan Bulgaristan Prensliği’ne bırakıldı.
+  E[1971] Ticaretin gelişmesinde 1971’de açılan, Bulgaristan’la ve onun aracılığıyla Romanya ile ilişkiyi sağlayan Dereköy sınır kapısının etkisi sezilebilmektedir (bu kapıdan 1996 yılında toplam 218.816 kişi ve 25.621 araç giriş yapmış, 21.719 araç da çıkmıştır).
+  E[1864] Kornrumpf, Die Territorialverwaltung im östlichen Teil der europäischen Türkei vom Erlass der Vilayetsordnung (1864) bis zum Berliner Kongress (1878) nach amtlichen osmanischen Veröffentlichungen , Freiburg 1976, s.
+
+##0065 Tekirdağ [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · tekirdag · yer=1
+  Y[1204] Şehir daha sonra yine Hun, Avar, Bulgar ve Peçenekler’in saldırılarının hedefi oldu ve 1204 yılında Latin işgaline uğradı.
+  Y[1275] Mikhail zamanında 1275’te şehir tekrar Bizans idaresine girdi.
+  Y[1305] 1305 yılı başlarında Bizanslılar tarafından tutulan paralı asker birliği Katalanlar, Trakya’yı yağmalayıp Tekirdağ Kalesi’ni ve ahalisini yok ettiler, ardından yakınındaki Panion’u (Banados) ele geçirdiler.
+  E[1550] 957 (1550) yılından sonra tutulan resmî kayıtlardan kasabada Hacı Mûsâ, Cennet Hatun, Hoca Bayezid (Cekli), Yûnus Bey, İbrâhim Bey, Canpaşa, Hüseyin Çavuş der-Leb-i Deryâ, Abdi Hoca, Hacı Hürmüz gibi dokuz yeni mahallenin kurulduğu anlaşılır ( BA, TD , nr.
+  E[1661] 1071 (1661) yılına ait avârız defterinde 710 hâne Ermeni, seksen altı hâne Karamanlı Rum tesbit edilmiştir.
+  E[1553] Mimar Sinan’ın eseri olan cami klasik dönem Osmanlı mimarisinin en güzel örneklerinden biridir (960/1553).
+  E[1912] 1912’de Bulgarlar Tekirdağ’a girdi ve şehir ancak sekiz ay sonra geri alınabildi.
+
+##0066 İstanbul [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · istanbul · yer=1
+  Y[1261] Latin işgali araba yarışlarının sona ermesine yol açtı ve 1261’de İstanbul’un geri alınmasından sonra da artık yapılmadı.
+  Y[1261] Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261’de Haliç kıyısındaki Latin mahallesini yakan İznik birlikleri şehirdeki Batı hâkimiyetine son vermeyi başardı.
+  Y[1203] Haçlı ordusu İstanbul’u alırken (1203-1204) çıkan yangınlarda şehrin yarısına yakını tahrip olmuş, şehrin tekrar imarı ve bilhassa iskânı mümkün olmamıştır.
+  Y[1284] Aynı yasak 10 Teşrînisânî 1284’te (22 Kasım 1868) tekrar ilân edilmiştir.
+  Y[1264] 1846’da yanan bu ahşap tiyatro, devletin de yardımıyla kâgir olarak ve pek müzeyyen bir şekilde yeniden inşa edilmiş ve 4 Teşrînievvel 1264’te (16 Ekim 1848) açılmıştır.
+  Y[1203] Cemâziyelevvel 1203’te (Şubat 1789) düzenlenen bir vakfiyeye göre Esmâ Sultan’ın kethüdâsı Çelebi Mehmed Efendi, Saraçhane’de Dülgeroğlu Camii yanındaki “arsa-i merkūmede müceddeden bina eylediği bir bab kârgir kütüphane”ye 697 cilt kitap koymuş ve dört hâfız…
+  Y[1214] Selim devri şeyhülislâmlarından Mustafa Âşir Efendi, babasının bu arzusunu yerine getirmek için Şevval 1214’te (Mart 1800) aynı yerde bir kütüphane yaptırmış ve buraya babasının vakfettiği kitaplarla birlikte kendi kitaplarını da koymuştur.
+  Y[1212] Mehmed Sâlih, 15 Cemâziyelâhir 1212’de (5 Aralık 1797) yetmiş kadar kitabını hocalık yaptığı mektebe vakfetmiş, hâfız-ı kütüblüğüne de hasbî olarak mektebin hocasını tayin etmiştir (Şer‘iyye Sicilleri Arşivi, Eyüp Mahkemesi, nr.
+  E[None] Milâttan önce 478’de Atina’nın zorlamasıyla Persler’e karşı kurulan Delos Birliği’ne girdi.
+  E[None] Bununla beraber milâttan önce 440’ta Atina’ya isyan etti, fakat kısa süre sonra Atina’nın hâkimiyetini yeniden tanımaya mecbur oldu.
+  E[325] İmparatorluğun merkezini İstanbul’a taşıyan ve resmî din olarak kabul ettiği Hıristiyanlığa, 325 yılında İznik’te toplanmasını gerçekleştirdiği I.
+  E[413] daha batıya götürülerek bugünkü yerinde inşası (413-447) ve Latince-Grekçe olarak hitabet, gramer, felsefe, hukuk derslerinin verileceği yüksek okulun (Auditorium) kuruluşu (425) II.
+
+##0067 Filibe [Balkan] · SAHIP=bulgaristan (?bulgaristan) · filibe · yer=1
+  Y[1204] Yeniden onarılan şehir 1204’te tekrar Haçlı saldırılarına uğradı.
+  E[444] Romalılar’ın son ve Bizanslılar’ın ilk dönemlerinde barbar kavimlerin saldırılarına uğrayan şehir özellikle 444-447 yıllarında Hunlar tarafından tahrip edildi.
+  E[831] Ardından Bulgar Hanı Malamir (831-836) Filibe’yi kendi toprakları içine kattı.
+  E[1189] Haçlı Seferi sırasında (1189-1192) yağmalandı ve kısmen tahrip edildi.
+  E[1361] Âşıkpaşazâde, Neşrî, Oruç Bey ve Hoca Sâdeddin Efendi gibi bazı Osmanlı tarihçilerine göre, Lala Şâhin kumandasındaki Osmanlı kuvvetleri Edirne’nin fethinden hemen sonra 1361’de Filibe’yi ele geçirdiler.
+
+##0068 Sofya [Balkan] · SAHIP=bulgaristan (?bulgaristan) · sofya · yer=1
+  E[809] 809 yılında uzun bir kuşatmanın ardından Han Krum tarafından zaptedilen ve Bulgar Devleti’ne dahil edilen Sofya 1380’li yılların başında Osmanlı idaresine girdi.
+  E[1443] 1443’te János Hunyadi’nin Osmanlılar’a karşı harekâtı sırasında Gazavatnâme ’ye göre Macarlar için askerî bir üs olmaması amacıyla ve II.
+  E[1442] Sofya’nın merkez haline gelmesinde Macarlar’ın 1442-1443 yıllarındaki karşı harekâtının önemli rolü vardır.
+  E[1864] yüzyılın ortalarındaki Kırım Savaşı’ndan oldukça etkilenen Sofya, 1864’te sınırları itibariyle hemen hemen bugünkü Bulgaristan’ı içine alacak şekilde teşkil edilen ve merkezi Rusçuk olan Tuna vilâyetinin bir sancak merkezi haline getirildi.
+
+##0069 Niş [Balkan] · SAHIP=sirbistan (?sirbistan) · nis · yer=1
+  E[1386] 1386’da başlayıp 1878’e kadar kesintilerle devam eden Osmanlı idaresi altında stratejik öneme sahip İslâmî bir merkez özelliği kazanmıştır.
+  E[971] 971’den sonra Bizans’ın hâkimiyetine girdi.
+  E[1096] 1096’da ilk Haçlı seferi tarihçisi Tyreli William kalenin muhkem duvar ve kulelerle büyük bir garnizona sahip olduğundan bahseder.
+  E[1153] 1153’te coğrafyacı Şerîf el-İdrîsî burayı özellikle et, balık, meyve ve sütüyle zengin gelişmiş bir şehir diye anar.
+
+##0070 Vidin [Balkan] · SAHIP=bulgaristan (?bulgaristan) · vidin · yer=1
+  Y[1257] 1257’de Macar kralının üvey oğlu Rotislav, Vidin’i zaptederek Bulgar çarı unvanını aldı.
+  Y[1260] 1260’ta Kuman/Türk soyundan gelen Konstantin Tih, Bulgaristan’ın yeni çarı oldu ve Vidin’i zaptetti, ancak bir süre sonra tekrar Macarlar’a terketti.
+  Y[1265] 1263 ve 1265 yıllarında Vidin ve toprakları bir Rus olan Jakov Svetoslav’ın kontrolü altındaydı.
+  Y[1272] Jakov, Bulgar çarı unvanıyla Macaristan’ın vasalı haline geldi ve 1272’ye kadar idarede kaldı.
+  E[968] Bulgar İmparatorluğu’nun çöküşünün (968) ardından şehir 1003 yılına kadar Bizans güçlerine karşı direndiyse de sekiz aylık bir kuşatmadan sonra ele geçirildi.
+  E[1185] Vidin’deki Bizans hâkimiyeti tekrar Bulgarlar’ın eline geçtiği 1185 yılına kadar sürdü.
+  E[1323] 1323’te Şişman’ın oğlu Vidinli Michael Bulgar tahtına oturdu.
+  E[1365] 1365’te Macarlar tekrar Bulgar topraklarına saldırdı, Vidin’i ve bütün bölgeyi ele geçirdi, Kral Büyük Lajos şehri bir Macar vilâyeti (Banat) haline getirdi.
+
+##0071 Varna [Balkan] · SAHIP=bulgaristan (?bulgaristan) · varna · yer=1
+  E[679] Mevcut Slavca ismiyle ilk defa 679’da, ilk Bulgarlar’ın Bizans imparatoruyla burada yaptığı ve Bulgaristan’ın bağımsız bir devlet halinde tanındığı bir antlaşma vesilesiyle zikredilmektedir.
+  E[790] 790’dan sonra ilk Bulgar İmparatorluğu’na dahil edilen Varna 864’te hıristiyanlaştı ve Tuna Bulgaristanı ile birlikte 971’de Bizanslılar’ın eline geçti.
+  E[1393] Varna, Yıldırım Bayezid’in Bulgaristan seferinde 795’te (1393) Osmanlı hâkimiyetine alındı.
+  E[1403] Ankara Savaşı’ndan sonra 1403’teki Bizans-Osmanlı antlaşması neticesinde Yıldırım Bayezid’in oğlu Emîr Süleyman Çelebi bütün Karadeniz şehirlerini aldığında bunların içinde Varna’ya tam anlamıyla hâkim olup olmadığı belli değildir.
+
+##0072 Şumnu [Balkan] · SAHIP=bulgaristan (?bulgaristan) · sumnu · yer=1
+  Y[1270] Šumen adı da yapılan kazılar sırasında elde edilen ve 1270’li yıllarda Tatar işgali devrine rastlayan dua metnini içeren bir Bulgarca yazıtta geçer.
+  E[681] Bulgar İmparatorluğu zamanında (681-970) genişletilmiştir.
+  E[1186] Bulgar İmparatorluğu’nun (1186-1393) sıkıntılı yıllarında Şumnu küçüklüğüne rağmen ekonomik ve askerî merkez halinde öncelikli bir öneme sahiptir.
+  E[1960] 1960’lı ve 70’li yıllarda yapılan kazılar sonucu, Osmanlı dönemi öncesindeki şehrin, mahalleleriyle birlikte Ortaçağ’daki sıradan bir Bulgar şehri olarak 800-1200 nüfusa sahip bulunduğu tahmin edilebilir.
+  E[1388] Şehir Osmanlı idaresine 790-791’deki (1388-1389) kış seferi sırasında geçti.
+
+##0073 Silistre [Balkan] · SAHIP=bulgaristan (?bulgaristan) · silistre · yer=1
+  Y[1279] 1279’da Michael Glavas Tarhaniotes kumandasındaki Bizans ordusu, 1277’de Tatarlar’a karşı direniş hareketini başlatan ve krallığa kadar yükselen İvaylo’yu üç ay boyunca Silistre’de kuşattı, fakat ele geçiremedi.
+  E[1969] Bulgarlar’ın atalarını oluşturan yeni ahali, 1969 yılındaki arkeolojik kazılarda da açığa çıktığı gibi iki yüzyıldan fazla bir zaman eski kalıntıların üzerindeki kulübelerde yaşadı.
+  E[803] yüzyılın başlangıcında Krum Han (803-814) idaresindeki ilk Bulgarlar zamanında Drǎstǎr’ın surları tekrar onarıldı.
+  E[971] 971’de Bizans İmparatoru Ioannis Tzimiskes büyük bir orduyla, daha önce 968’de bütün Bulgar topraklarını işgal eden Rus lideri Svjatoslav’ı Silistre’ye kadar takip etti ve şehri teslim aldı.
+  E[1189] Bulgar Krallığı boyunca (1189-1393) Drǎstǎr hakkında çok az şey bilinmektedir.
+
+##0074 Niğbolu [Balkan] · SAHIP=bulgaristan (?bulgaristan) · nigbolu · yer=1
+  E[1395] Osmanlı hâkimiyeti döneminde (1395-1878) askerî ve ticarî öneme sahip bir sancak merkezi özelliği taşımaktaydı.
+  E[963] Nikephoros Phokas (963-969) tarafından Bulgaristan’ın tekrar ele geçirilmesinin ardından kurulmuştur.
+  E[600] Çünkü 600 yılından sonra Bizanslılar’ın Kuzey Bulgaristan’da kontrolü kaybetmeleri sebebiyle etnik ve siyasî değişim yaşanmış, Tuna nehri boyunca kurulan bütün eski şehirler ve kaleler ortadan kalkmıştır.
+  E[1330] yüzyıllara ait Bizans, bunun yanı sıra Çar İvan Aleksandr (1330-1371) ve İvan Şişman (1371-1395) gibi Bulgar krallarının paralarına rastlanmıştır.
+
+##0075 Rusçuk [Balkan] · SAHIP=bulgaristan (?bulgaristan) · ruscuk · yer=1
+  Y[1220] Şevval 1220’de (Ocak 1806) Rumeli âyanından Tirsinikli İsmâil Ağa, Rusçuk’taki saat kulesini yeniden tamir ettirdi.
+  E[1393] Osmanlı döneminde (1393-1878) hıristiyan bir Bulgar köyünden elli üç camisi, dokuz medresesi ve en az beş tekkesiyle müslüman Türk nüfusunun çoğunlukta olduğu Kuzey Bulgaristan’ın en büyük kozmopolit şehirlerinden birine dönüşmüştür.
+  E[1864] 1864-1878 yılları arasında Rusçuk, Dobruca’nın tamamını ve Bulgaristan’ın yarısını içine alan Tuna vilâyetinin merkeziydi.
+  E[1380] Rusçuk’un Bulgarca şeklini ifade eden en eski kaynak, 1380-1388 yılları arasında Bruggelu bir tüccarın seyahat notlarında yer alır ve “Rosi” şeklinde yazılır.
+  E[1479] 884 (1479) tarihli bir Osmanlı tahrir defterinde ise “Rusi olarak bilinen Yergöğü beriyaka” ifadesine rastlanır.
+
+##0076 Selanik [Balkan] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · selanik · yer=1
+  Y[1205] Yirmi yıl sonra bir Haçlı ordusu şehri ele geçirip Latin Selânik Krallığı’nın (1205-1225) merkezi haline getirdi; birçok önemli Ortodoks kilisesi (Aziz Dimitrios, Ayasofya vb.) yerel halkı rencide edecek biçimde Roma Katolik kilisesine dönüştürüldü.
+  Y[1292] Bunların arasında tarihçi Selânikî Mustafa, Müneccimbaşı Ahmed ile Mevlevî şairi Âkif (kendisinin Farsça-Türkçe manzumesi Rotonda Kilisesi/Camii’nde bulunan Şeyh Hortacî Türbesi’nin duvarında yazılıdır ve hâlâ görülebilir), Cemal, Hasan Dâniş, Esad Dede Mevle…
+  E[1349] 1349’da Bizanslılar şehre yeniden hâkim oldu.
+  E[1387] 789 (1387) baharında Çandarlı Hayreddin Paşa ve Gazi Evrenos kumandasındaki birlikler uzun süren bir abluka neticesinde Selânik’i ele geçirdi.
+  E[1403] Emîr Süleyman Çelebi ile Bizanslılar arasında Gelibolu’da yapılan antlaşma uyarınca Selânik 1403’te resmen Bizans idaresine geçti ve I.
+  E[1423] Konstantin Jireček ya da Apostolos Bakalopoulos gibi tarihçiler, Selânik’teki Venedik idaresini (1423-1430) şehrin tarihinde görülen en kederli dönem diye nitelemiştir.
+
+##0077 Serez [Balkan] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · serez · yer=1
+  Y[1204] 1185’te Normanlar, 1204’te Montferratlı Boniface kumandasındaki Latinler tarafından kuşatıldı ve yağmalandı.
+  Y[1206] 1206’da tarihte Kaloyan olarak bilinen Bulgar Çarı İvan Asen şehri ele geçirdi.
+  Y[1246] Bulgarlar’ın ve Latinler’in ardarda işgallerinden sonra 1246 yılında III.
+  Y[1275] Bölgedeki önemli ve güçlü bir dinî merkez olan Vaftizci Yahyâ Manastırı (Prodromos) 1275’te Serez civarında kuruldu.
+  Y[1307] 1307-1308 yıllarında Serez, Katalanlar’ın işgaline uğradı.
+  E[1345] 1345’te Sırp Kralı Stefan Duşan tarafından ele geçirildiğinde Sırp İmparatorluğu’nun başşehri yapıldı ve XIV.
+  E[1383] Serez 785’te (1383) Deli Balaban Bey ve Lala Şâhin Paşa’nın idare ettiği Osmanlı birliklerince fethedildi.
+  E[1394] Yıldırım Bayezid 797’de (1394-95) vasalları olan Balkan prenslerini ve Bizans imparatorunu burada topladı.
+  E[1385] 787’de (1385) Büyük Vezir Çandarlı Kara Halil Hayreddin Paşa’nın inşa ettirdiği Atik Camii (Kurşunlu Cami) gibi şehrin önemli camilerinin kalıntıları 1938 yılına kadar ayakta kaldı.
+
+##0078 Kavala [Balkan] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · kavala · yer=1
+  Y[1242] Uzun süre Franklar’ın hâkimiyetinde kaldıktan sonra 1242-1243’te Bizanslılar tarafından geri alındı.
+  Y[1309] 1309’da şehir ve çevresi Katalanlar’ın buradan geçişi sırasında tahribata uğradı.
+  E[1383] İlk Osmanlı kronikleri, Drama ve Serez’in Deli Balaban ile Lala Şâhin Paşa kumandasında fethiyle (785/1383) bağlantılı olarak Kavala’nın barış yoluyla ele geçirildiğini kaydeder.
+  E[1390] 1390’da Bizans tahtında hak iddia eden Manuel Paleologos’un, Kavala birliklerinin de yardımıyla bir Osmanlı vasalı olan İmparator VII.
+  E[792] Ioannes’i tahttan indirmesi üzerine Yıldırım Bayezid Şevval 792’de (Eylül 1390) Kavala’yı aldı, kısa bir Bizans kroniğine göre de şehrin surlarını yıktırdı ve ahalisini şehirden çıkardı.
+  E[1478] 883 (1478) tarihli Osmanlı tahrir defterine göre burada yetmiş beş hıristiyan ve on iki müslüman hânesi (yaklaşık 400-500 kişi) bulunuyordu ( BA, TD , nr.
+
+##0079 Üsküp [Balkan] · SAHIP=sirbistan (?sirbistan) · uskup · yer=1
+  Y[1282] Milutin (1282-1321) Üsküp şehrini ele geçirerek devletinin merkezi yaptı.
+  E[976] Bulgar Çarı Samuil zamanında (976-1014) Üsküp önemli bir ticaret merkezi haline geldi.
+  E[1050] Bu arada 1050’den itibaren Tuna’yı geçip Bizans’ın müttefiki olarak Balkanlar’a yayılan Peçenekler’le 1065’e doğru gelen Uzlar bölgede baskı kurdu ve derin izler bıraktı.
+  E[110] Böylece Üsküp’te 110 yıl devam edecek Sırp hâkimiyeti başladı.
+  E[1346] Sırp Çarı Stefan Duşan 16 Nisan 1346’da imparator unvanını alıp Üsküp’te taç giydi.
+
+##0080 Manastır [Balkan] · SAHIP=sirbistan (?sirbistan) · manastir · yer=1
+  E[451] Kadıköy Konsili’nden (451) sonra Doğu manastır hayatı ikiye ayrılmış, manastırlar müslümanlar tarafından fethedilen bölgelerde zamanla gerilerken Bizans Ortodoksluğu içerisinde ilerlemesini sürdürmüştür.
+
+##0081 Ohri [Balkan] · SAHIP=sirbistan (?sirbistan) · ohri · yer=1
+  E[976] 976-1018 yılları arasında Batı Bulgar İmparatorluğu’nun başşehri oldu.
+  E[1014] Basileios döneminde Bulgar ordusunun yenilgiye uğratıldığı Belasica savaşından (1014) sonra 1018’de Bizanslılar’ın idaresi altına girdi.
+  E[1334] 1334’te Sırp Kralı Stefan Duşan tarafından ele geçirildi.
+  E[1385] Muhtemelen Manastır ve Pirlepe’ye, oradan Arnavutluk’a uzanan akınlar sırasında 787’de (1385) Osmanlı hâkimiyetine girmiştir.
+
+##0082 Yanya [Balkan] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · yanya · yer=1
+  E[1983] 1983’te yapılan kazılar sonucu temelleri antik döneme inen kalıntılar üzerinde yer alan XIII.
+  E[1020] 1020’de Bizans İmparatoru II.
+  E[1430] Mikael Angelos (Komnenos) 1430’a kadar yaşayan bağımsız Yunan Epiros Despotluğu’nu kurdu; Yanya bu despotluğun merkezi yapıldı.
+  E[1318] 1318’de tekrar Bizans İmparatorluğu’na katılsa da bir dereceye kadar özerkliğini korudu.
+
+##0083 Yenişehir (Larissa) [Balkan] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · yenisehir · yer=1
+  E[1386] Osmanlı döneminde (1386-1881) elliden fazla camisi, önemli bazı medreseleri ve pek çok tekkesiyle imparatorluğun Avrupa’daki en büyük on şehri arasında bulunuyordu.
+  E[986] Larissa 986’da, Aziz Achileios’un kalıntılarını başşehri Prespa’ya kaçıran Makedonya ve Batı Bulgaristan Çarı Samuil tarafından ele geçirildi.
+  E[1402] Yıldırım Bayezid’in 1402’de Timur’a yenilmesinden ve 1403’teki Osmanlı-Bizans Antlaşması’ndan sonra Tesalya’nın Bizans’a iade edildiği düşünülmektedir.
+  E[1404] Bununla birlikte Epirli Tocco Hânedanı Tarihi ’nde 1404 yılında Sinâneddin Yûsuf Bey’in Tesalya’nın Türk hâkimi olarak zikredildiği dikkati çeker.
+
+##0084 Tırhala [Balkan] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · tirhala · yer=1
+  E[527] yüzyılın başında Barbar kavimlerinin istilâları sırasında yıkıldı ve Bizans İmparatoru Iustinianos idaresinde (527-565) tekrar inşa edildi.
+  E[1349] 1349’da bütün kaleleriyle birlikte Batı Tesalya, Sırp Çarı Stefan Duşan tarafından ilhak edildi.
+  E[1359] 1359-1393 yıllarında burası Batı Tesalya’daki küçük Sırp beyliğinin ikametgâhı idi.
+  E[1393] Bayezid ve Gazi Evrenos kumandasındaki Osmanlı birlikleri Batı Tesalya ve Tırhala’yı 795 (1393) sonu ile 796 (1394) başlarındaki bir sefer sırasında fethetti.
+
+##0085 Atina [Balkan] · SAHIP=atinadukaligi (?atinadukaligi) · atina · yer=1
+  Y[1204] 1204’te Haçlılar tarafından ele geçirilen şehir, yeni kurulmuş olan Burgundiya (İng.
+  Y[1208] Atina 1208’de Latinler’in işgalinde bulunduğu sıralarda burası Katolik kilisesine çevrildiğinden Türkler burayı o halde buldular.
+  E[350] Atina’nın Türk idaresinde kaldığı yaklaşık 350 yıla yakın bir süre boyunca burada bazı mimari eserler meydana getirilmi...
+  E[None] İmar faaliyetleri Atina-Sparta savaşları sırasında bir müddet için durdu, fakat milâttan önce 338-322’de yeniden başladı ve bu dönemde mimarlık sanatı yanında fikir alanında da ilerlemeler kaydedildi, yeni felsefî akımlar ortaya çıktı ve bazı önemli filozofla…
+  E[1311] Bourgogne) Dukalığı’na dahil edildi; 1311’den 1387’ye kadar Katalanlar’ın hâkimiyeti altında kaldı.
+  E[1394] 1394’te Atina dükü unvanını alan Nerio’nun ölümünden sonra vasiyeti gereği şehir gelirlerinin, daha önce Ortodoks katedrali iken Burgundiyalılar’ın hâkimiyeti sırasında Katolik katedrali haline getirilen Parthenon Tapınağı’na tahsis edilmesi Ortodoks Yunan ha…
+
+##0086 Mora (Tripoliçe) [Balkan] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · mora · yer=1
+  Y[1204] 1204’ten hemen sonra Haçlılar Konstantinópel’i ele geçirip Bizans İmparatorluğu’nu parçaladığında Mora Frank yönetimine dahil edildi ve Batı feodal yapıları temelinde Achaea Prensliği’nin bir parçası haline getirildi.
+  Y[1262] Mikhail Palaiologos, Villehardouin ve onun müttefiki Epir Despotu Mikhail Angelos’u Pelagonia savaşında (Ekim 1259) mağlûp edince bu huzurlu dönem sona erdi; Bizanslılar Mora’nın güneyindeki Monemvasia (Menekşe/Benefşe), Mistra, Mani (Manya) ve Geraki gibi iy…
+  Y[1264] 1264’te Frank-Türk ordusu Bizanslılar’ı Makryplagi Boğazı’nda yapılan savaşta mağlûp etti.
+  Y[1265] 1265’te Türkler’den bazıları Mora’yı terkedip Anadolu’ya döndü; diğerleri ise Mora’da kalarak din değiştirdiler, bölgedeki kadınlarla evlendiler.
+  Y[1278] 1278’de Villehardouin’in ölümüyle Frank Prensliği 1289’a kadar Anjou hânedanına intikal etti.
+  Y[1204] Miller, The Latins in the Levant: A History of Frankish Greece (1204-1566) , New York 1908, s.
+  Y[1205] a.mlf., La Morée franque, recherches historiques, topografiques et archéologique sur la principauté d’Achaie (1205-1430) , Paris 1969, I-II.
+  E[1460] Osmanlı devrinde ise (1460-1829) çok defa mütevazi bir ekonomik ve kültürel gelişmeye sahne olmuş, XVII.
+  E[395] En kötüsü Alaric kumandasında Gotlar’ın (Goth) 395’teki işgalleri olmak üzere Mora birçok yabancı işgaline, ayrıca veba salgını sebebiyle önemli ölçüde tahribata uğradı.
+  E[589] 589 yılı ve sonrasında Türk-Moğol Avarlar liderliğindeki Slav kabileleri Mora’nın büyük bir kısmını ele geçirdi.
+  E[807] İslâm ordularının Mora’ya yönelik ilk ciddi harekâtı 807 yılındadır.
+
+##0087 Modon [Balkan] · SAHIP=venedik (Venedik Cumhuriyeti) · modon · yer=1
+  Y[1205] Zira kasaba 1205’te Frenkler Mora’yı ele geçirinceye kadar harabe halinde kalmıştı.
+  Y[1209] Venedikliler 1209’da Modon’u tekrar alınca burayı yeniden iskân etmiş ve savunmasını güçlendirmişti.
+  E[533] Modon ilk defa 533’te bir Bizans kasabası olarak tarihî kayıtlarda görünür.
+  E[1125] Korsan yuvası haline gelince 1125’te Venedikliler tarafından yerle bir edildi.
+  E[1485] 1485-1486’da Almanya’dan Kudüs’e giderken buradan geçen Bernard von Breidenbach, Modon’un mükemmel ve ayrıntılı bir şehir manzarası gravürünü hazırlamıştır.
+  E[1499] 1499’da Modon’u gören Alman şövalyesi Arnold van Harff şehrin küçük, fakat güçlü olduğunu belirtmiş, bununla birlikte Venedikliler’in Osmanlı tehdidine karşı kara kısmındaki surları takviye etmekle meşgul olduklarını kaydetmiştir.
+
+##0088 Balyabadra (Patras) [Balkan] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · balyabadra · yer=1
+  Y[1205] Şehir 1205’te, Mora’ya girip orayı fethe başlayan Geoffroy de Villehardouin’in idaresindeki Franklar tarafından Bizanslılar’dan alındı.
+  E[3000] Tarihi 3000 yıl öncesine inen şehir, üzerinde antik dönemde kurulan Akropolis’in, daha sonra Ortaçağ’a ve ardından Osmanlı dönemine ait kalenin yer aldığı tepenin aşağı kesiminde bulunur.
+  E[1430] Böylece 1430’a kadar süren Mora Frank Prensliği’nin merkezi haline geldi.
+  E[1430] 1430’da Bizans’ın Mora Despotu Konstantin Paleologos tarafından zaptedildi ve Mora’daki Frank hâkimiyeti dönemi sona erdi.
+  E[1458] 1458’de Fâtih Sultan Mehmed Mora üzerine yürüdü ve iç karışıklıklardan da faydalanarak güç kazandı.
+
+##0089 Anabolu (Nauplion) [Balkan] · SAHIP=venedik (Venedik Cumhuriyeti) · anabolu · yer=1
+  E[879] Romalılar döneminde terkedilen şehir, Bizans İmparatorluğu idaresinde yeniden tahkim ettirilerek 879’da piskoposluk, 1189’da ise metropolitlik merkezi haline geldi.
+  E[1199] 1199’dan itibaren Nauplia, Venedik’le sıkı ticarî münasebetleri olan önemli bir liman şehri özelliğini kazandı.
+  E[1389] 1389’da Venedikliler’in idaresi altına girdi ve Venedik-İstanbul yolu üzerinde son derece müstahkem bir ticaret limanı ve üssü oldu.
+  E[1471] Yine fethin hemen sonrasında kalede bir tophâne inşa edildi; Venedikliler tarafından 1471’den sonra kuzeybatıdaki küçük ada üzerinde yaptırılan Castello dello Scoglio (Kastel-i Bahriyye, Bourzi) adlı kalenin surları onarıldı.
+
+##0090 İnebahtı [Balkan] · SAHIP=venedik (Venedik Cumhuriyeti) · inebahti · yer=1
+  Y[1204] 1204’ten sonra Bizans İmparatorluğu’nun Haçlılar tarafından parçalanmasının ardından Epiros Despotluğu toprakları içinde kaldı ve adı da Epakto olarak değiştirildi.
+  Y[1294] 1294’te kısa bir süre Anjou Frenk Prensliği’nin eline geçtiyse de 1407’de Venedikliler tarafından alınmaya kadar Arnavut Shpata Prensliği’nin hâkimiyeti altında kaldı.
+  E[1829] 1829’da Yunan idaresine geçtiğinde adı antik dönemdeki Navpaktos’a çevrilmiş olan kasabanın etrafındaki Osmanlı ve Venedik surları bugüne ulaşmıştır.
+  E[900] 900 yılı civarında, daha güneyde bulunan ve harabe haline gelen büyük Nikopolis şehrinin yerini alarak Bizans’ın Nikopolis “tema”sının merkezi oldu.
+  E[1334] 1334-1348 yılları arasında Aydınoğlu Umur Bey, gemilerini Atina körfezine sokup Isthmus (Germe) berzahını aşarak Korint körfezine girdi ve burayı kuşattı.
+  E[1499] Çok kısa bir süre Umur Bey’in kontrolü altında kaldığı tahmin edilen kasabaya 1499 yılına kadar hemen hemen bir asır boyunca Venedikliler hâkim oldu.
+
+##0091 Eğriboz [Balkan] · SAHIP=venedik (Venedik Cumhuriyeti) · egriboz · yer=1
+  Y[1204] Eğriboz, Bizans İmparatorluğu’nun 1204’te bölünmesinden sonra Venedikliler’in kontrolü altına girdi.
+  Y[1304] Venedikliler 1304’te burayı müstahkem hale getirdiler ve 1470’e kadar Ege’deki en gelişmiş deniz üssü olarak kullandılar.
+  Y[1204] yüzyılda yaptırılmıştı ve 1204’e kadar Ortodoks kilisesi, bu tarihten 1479’a kadar da Katolik katedrali olarak kullanılmıştı.
+  Y[1204] Miller, The Latins in the Levant, A History of Frankish Greece (1204-1566) , New York 1908, s.
+  E[1470] Osmanlı hâkimiyeti döneminde (1470-1831) önemli bir deniz üssü olan şehir, Tesalya’nın güneyinde kalan bölgenin kalabalık müslüman nüfusa, birçok dinî binaya sahip önde gelen İslâmî ve idarî bir merkezi olarak dikkati çeker.
+  E[1333] Türkler’in Eğriboz’a ilk gelişleri, Aydınoğlu Umur Bey’in 1333’teki akınları sırasında gerçekleşti.
+  E[1415] 1415-1417 yıllarında Venedikliler savaşlarda ele geçirdikleri Türk esirleri de kullanarak şehir surlarını geniş ve derin bir hendekle çevirip tahkim ettiler.
+  E[1458] 1458’de Mora seferi dönüşünde Fâtih Sultan Mehmed Venedikliler’in misafiri olarak Eğriboz’a geldi.
+
+##0092 İstefe (Tebai) [Balkan] · SAHIP=atinadukaligi (?atinadukaligi) · istefe · yer=1
+  Y[1204] 1204’te Kostantinopol’ün Haçlılar tarafından fethi ve Bizans İmparatorluğu’nun parçalanmasıyla Haçlı Prensi Othon de la Roche, Thebai ve ona bağlı yerleri ele geçirdi.
+  Y[1304] Türk-Katalan tanışıklığı ve başarılı yardımlaşması, onların Gelibolu’yu üs olarak seçtikleri 1304-1305 yılına kadar gider.
+  E[4000] 4000 yıla uzanan tarihiyle Yunanistan’ın en eski şehirlerinden biri olan İstefe, Osmanlı döneminde Eğriboz sancağına bağlı kaza merkeziydi.
+  E[325] Thebai piskoposu 325’te ilk İznik Konsili’ne katıldı.
+  E[873] 873-874’te Bizans Valisi Leon, Orchomenos-Skripou adıyla bugün hâlâ ayakta duran büyük bir kilise ve manastır yaptırdı.
+  E[1311] 1311’de Katalanlar (İspanyol paralı askerleri) şehri ve çevresini ele geçirdiler; 1331’de Gauthier de Brienne ile çatışmalarında sarayı yıktılar.
+
+##0093 Livadya [Balkan] · SAHIP=atinadukaligi (?atinadukaligi) · livadya · yer=1
+  Y[1204] 1204’te Haçlılar tarafından İstanbul’un zaptının ardından Haçlı Prens Othon de la Roche şehri ve çevresini ele geçirdi ve şehri Latin (Katolik) prensliğine dahil etti.
+  Y[1225] 1225’te şehir Nicolas de Saint Omer’e geçti, 1311 ve 1378 yılları arasında Katalan Prensliği’nin elindeydi ve 1460’a kadar Floransalı Acciajuoli hânedanının bir parçası durumundaydı.
+  E[1460] Osmanlı dönemi boyunca (1460-1829) Eğriboz sancağına bağlı, seksenden fazla köyden oluşan bir kazanın merkezi durumundaydı.
+  E[1435] 1435’ten itibaren Acciajuoli lordları Osmanlı tebaası oldular.
+  E[1444] Varna krizi (1444) sırasında Mora Bizans despotluğu İzdin’e kadar Livadya ve Boeotia’yı ele geçirip yağmaladı.
+  E[1446] 850 (1446) yılı güz aylarının sonlarında büyük bir kuvvetle Osmanlı ordusuna katılan Acciajuoli II.
+
+##0094 İzdin (Lamia) [Balkan] · SAHIP=katalan (Katalan Dukalığı (Atina-Neopatras K…) · izdin · yer=1
+  Y[1204] 1204’ten sonra Bizans İmparatorluğu’nun parçalanmasının ardından Zitouni Boudonitsa (Modoniç) markizliğinin bir parçası olmuştur.
+  E[1424] Osmanlılar zamanında (1424-1832) Eğriboz sancağına bağlı bir kazanın merkeziydi.
+  E[431] Şehir önce Roma, arkasından Bizans hâkimiyeti altına girdikten sonra 431’de piskoposluk merkezi oldu.
+  E[879] 879-880’den itibaren şehir kaynaklarda muhtemelen bölgenin ziraî verimliliğinden dolayı Zitouni (Slavca zito = tahıl) adıyla geçer; bu sebeple Osmanlı döneminde Zeytun adı da verilmiştir.
+  E[1318] 1318’den 1388’e kadar Atina Katalan Dukalığı’na ait olan şehir, I.
+
+##0095 İşkodra [Balkan] · SAHIP=venedik (Venedik Cumhuriyeti) · iskodra · yer=1
+  E[395] Milâttan önce 168’de şehir Romalılar’a, 395’ten sonra da Bizans’a geçti.
+  E[1360] 1360-1393 yıllarında Sırp Balšić Prensliği’nin merkezi olan şehir, Osmanlı kumandanı Kavala Şâhin tarafından ele geçirildiyse de (1393-1396) bu uzun sürmedi.
+  E[1396] 1396’da George Stratsimirović şehri Venedikliler’e sattı.
+  E[1479] Şehri tahkim eden Venedikliler 1479’a kadar burayı ellerinde tuttular.
+
+##0096 Akçahisar (Kruja) [Balkan] · SAHIP=arnavutluk (?arnavutluk) · kruya · yer=1
+  Y[1253] 1253’te Golem adlı bir Arnavut Kruya hâkimi olarak kaydedilir.
+  Y[1271] 1271-1272’de Fransız prensi ve sonradan Güney İtalya’nın yöneticisi olan Anjou hânedanından Charles, Draç ile Kruya’yı alıp eski kaleyi yeniden yaptırdı.
+  Y[1284] Charles’ın ölümünün ardından 1284’te Bizans İmparatoru II.
+  E[1415] kuzeyinde bulunan Kruya (Krujë), Osmanlı döneminde (1415-1912) Tanzimat reformlarına kadar Ohri sancağına bağlı bir kaza merkezi durumundaydı.
+  E[1344] 1344’te Sırplar Kruya, Berat ve Avlonya’yı ele geçirdi.
+  E[1355] Sırp Kralı Çar Duşan’ın ölümünden (1355) sonra bir Arnavut olan Charles Thopia Kruya’ya hâkim oldu (1363).
+  E[1393] 1393’te Şâhin Bey kumandasındaki Osmanlılar, Kruya’nın 80 km.
+
+##0097 Draç [Balkan] · SAHIP=venedik (Venedik Cumhuriyeti) · drac · yer=1
+  Y[1273] 1273’te Sicilyalı Anjouvinler’in elinde iken şiddetli bir depremle harap olduğundan nüfusu azaldı.
+  Y[1274] Şehrin yeniden imarı sırasında 1274-1285 yılları arasında yeni surlar yapılırken eski surların alanı yarıdan daha aza indirildi.
+  E[1501] Osmanlı hâkimiyetinde bulunduğu dönemlerde (1501-1912) Elbasan sancağına bağlı bir kadılık merkezi durumunda olan Draç (Durrës, Durazzo) müstahkem kalesiyle, Via Egnatia denilen Balkanlar’ın içlerine kadar uzanan önemli ticaret yollarından birinin başlangıç n…
+  E[345] Romalılar devrinde 345’te şiddetli bir zelzele ile harap olan şehir, daha sonra kendisi de buralı olan Bizans İmparatoru Anastasios (491-518) tarafından büyük ölçüde yeniden yaptırıldı.
+  E[1385] Osmanlılar 1385’te Thopia’nın müttefiki olarak Arnavutluk’un orta kesimlerinde etkilerini hissettirmeye başladılar.
+  E[1428] 1423 ve 1428’de Venedikliler burayı yeniden iskâna cazip hale getirmek için vergi mükellefiyetini kaldırdılar.
+
+##0098 Avlonya [Balkan] · SAHIP=napoli (Napoli Krallığı / İki Sicilya) · avlonya · yer=1
+  E[1378] Ardından Bizans ve Sırplar’ın, 1378’den sonra da İskenderiyeli Balşa beylerinin eline geçti.
+  E[1417] Nihayet 1417’de Osmanlılar ülkenin iç kesimindeki Berat şehri ve Kanina Kalesi ile birlikte burayı hâkimiyetleri altına aldılar.
+  E[1537] Üs vazifesi gördüğü son Osmanlı harekâtı, 1537’de Kanûnî Sultan Süleyman’ın bizzat idare ettiği Korfu (Körfez) Seferi oldu.
+  E[1638] Avlonya Temmuz-Ağustos 1638’de bir Venedik saldırısına uğradı.
+
+##0099 Priştine [Balkan] · SAHIP=sirbistan (?sirbistan) · pristine · yer=1
+  Y[1291] BİBLİYOGRAFYA Prizren Vilâyeti Salnâmesi (1291), s.
+  E[1321] Sırp Ortaçağı’nda Kral Stefan Deçanski’nin (1321-1331) ve daha sonra şehirde bir sarayı bulunan Çar Duşan’ın (1331-1355) ikametgâhı olarak bilinse de bu doğru değildir.
+  E[1439] 842-848 (1439-1444) yıllarında doğrudan Osmanlı idaresi altında Gazi Îsâ Bey tarafından yönetildi.
+  E[1455] Fâtih Sultan Mehmed 859’da (1455) kesin şekilde Priştine’yi Osmanlı topraklarına kattı ve burada iki cami yaptırdı; biri kendi adını taşıyan tek kubbeli âbidevî bina, diğeri babası II.
+  E[1690] Bütün bu sayılar, 1690’da Sırplar’ın büyük sürgününden sonra bölgenin Arnavutlaştığı ve müslüman bir çehreye büründüğü fikrini doğrulamaz.
+
+##0100 Semendire [Balkan] · SAHIP=sirbistan (?sirbistan) · semendire · yer=1
+  E[1459] 1459’dan 1521’e kadar çok önemli bir Osmanlı sancağının merkezi olmuş ve kısa zamanda gelişme göstererek bir İslâm şehri haline gelmiştir.
+  E[1427] Temmuz 1427’de Sırp Despotu ve Osmanlı Vasalı Stefan Lazareviç başşehir Belgrad’da öldü ve aynı yılın ekim ayı sonunda yerine geçen (Osmanlılar’ın Vılkoğlu adını verdiği) Curac Brankoviç eski bir anlaşma gereğince Belgrad’ı Macarlar’a iade etti.
+  E[1428] 1428’de Osmanlılar Đurađ’ın başşehri olan Kruševac’ı (Alacahisar) aldı.
+  E[1444] 15 Ağustos 1444’te Haçlı ordularının tehdidi altındaki II.
+
+##0101 Belgrad [Balkan] · SAHIP=sirbistan (?sirbistan) · belgrad · yer=1
+  E[568] Avarlar’ın 568’de Pannonia’yı (Panonya) ele geçirmesinden sonra durumu daha da kötüleşen Singidunum, Bizanslılar’la Avarlar arasındaki çarpışmalarda devamlı savaş alanı oldu ve nihayet VII.
+  E[1354] 1354’te Sırp Kralı Stefan Duşan tarafından zaptedilen Belgrad, onun ölümünden sonra tekrar Macar idaresine girerek Maçva eyaletine bağlandı.
+  E[1403] 1403’te Prens Stefan Lazareviç şehri Macarlar’dan geri aldı ve Osmanlılar’ın Sırbistan sınırlarına yaklaşması üzerine idare merkezini Kruševac’tan, kısa sürede devletin politik, askerî ve kültürel merkezi haline gelen bu şehre nakledip etrafını surlarla çevir…
+  E[1521] Nihayet şehir Kanûnî’nin Macaristan’a yaptığı sefer sonunda fethedildi (1521) ve ahalisinin bir kısmı İstanbul’a gönderilerek bugün Belgrad ormanları ve Belgrad Kapısı adıyla bilinen yerlere iskân edildi.
+
+##0102 Saraybosna [Balkan] · SAHIP=bosna (?bosna) · saraybosna · yer=1
+  E[1415] Saraybosna bölgesine yönelik Osmanlı akınları 818’den (1415) itibaren sıklaştı ve Osmanlı nüfuzu Bosna’daki yerli hânedanlar arasındaki çekişmelerde etkili rol oynamaya başladı.
+  E[1420] Tvrtko’nun (1420-1443) tahta çıkışından sonra Bosna kralları, birçok şehri ele geçiren ve askerî garnizonlar yerleştiren Osmanlılar tarafından haraca bağlandı (1428-1429).
+  E[1428] Osmanlılar ilk olarak 1428-1435 yılları arasında bugünkü şehrin yakınındaki Hodidjed kasabasını ele geçirdiler.
+  E[1448] Hodidjed vilâyeti Saray ovası ile beraber 852’de (1448) tamamen Osmanlı idaresi altına girdi.
+
+##0103 Mostar [Balkan] · SAHIP=bosna (?bosna) · mostar · yer=1
+  E[1466] 1466-1468’de Blagaj, Osmanlılar tarafından fethedildikten az önce Mostar da zaptedilmiş olmalıdır.
+  E[1468] Bosna vilâyetine ait 872-873 (1468-1469) tarihli kayıtları ihtiva eden bir icmal tahrir defterinde bu yer Mostar (Köprülü Hisar) adıyla zikredilir.
+  E[1717] 1652, 1693 ve 1717 yıllarında Mostar Venedikliler’in saldırısına mâruz kaldı.
+  E[1856] 1856’da Rus konsolosu Aleksandar Giljferding şehirde 1500 müslüman, 500 Sırp ve 300 Hırvat evi olduğunu belirtmektedir.
+
+##0104 Banaluka [Balkan] · SAHIP=bosna (?bosna) · banaluka · yer=1
+  E[1463] Banaluka ismine tarihî vesikalarda ilk defa, Bosna Krallığı’nın 1463’te yıkılışı ve hemen ardından Macarlar’ın Yayça bölgesini ele geçirişi dolayısıyla rastlanmaktadır.
+  E[1579] yüzyılın ikinci yarısında başladı ve bu gelişmede önce Bosna sancak beyi, sonra da ilk Bosna beylerbeyi olan Ferhad Paşa tarafından bir cami ve külliye yaptırılması (1579) önemli bir rol oynadı.
+  E[1540] İdarî bakımdan 1540’ta Bosna sancağına bağlı müstakil bir nahiye olarak görünen Banaluka on altı köy, dokuz mezraa, iki çiftlik, bir yayla, iki panayır yeri ve bir kaleden oluşuyordu.
+  E[1552] Sınırda önemli bir askerî merkez ve ileri karakol durumunda olan şehir bu özelliği sebebiyle 1552’den itibaren Bosna sancak beylerinin ikametine tahsis edildi.
+
+##0105 Bükreş [Balkan] · SAHIP=macaristan (Macaristan Krallığı (bağımsız dönem)) · bukres · yer=1
+  E[1462] 1462’de Fâtih Sultan Mehmed’in tayin ettiği Prens Radu Cel Frumos (Güzel Radu, 1462-1474), Yergöğü’nde (Giurgiu) bulunan bir Türk garnizonunun himayesinde idaresini bu şehirde kurdu ve Osmanlılar’a vergi verdi.
+  E[1595] yüzyılın sonlarına doğru, Bükreş’e 4 mil (yaklaşık 6 km.) mesafede ağaçlık ve bataklıklarla kaplı bir boğaz olan Kalûgerân (Çalugareni) mevkiinde Mihai Viteazul (Cesur Mihai) kumandasındaki Eflak ordusu ile Vezîriâzam ve Serdârıekrem Sinan Paşa kumandasındaki…
+  E[1878] 1877-1878 Osmanlı-Rus Savaşı sonunda imzalanan Berlin Antlaşması’yla Bükreş’te Osmanlı hâkimiyeti sona ermiştir (1878).
+  E[1912] Bükreş Osmanlı tarihinde özellikle 1806-1812 Osmanlı-Rus savaşı ile Balkan Savaşı’nı (1912-1913) bitiren antlaşmaların imzalanışlarına sahne olması açısından önem taşımaktadır.
+
+##0106 Akkirman [Kırım-Karadeniz] · SAHIP=altinorda (Altın Orda (Deşt-i Kıpçak Hanlığı)) · akkirman · yer=1
+  Y[1241] 1241 yılında Moğollar’ın hâkimiyetine geçen Akkirman, XIV.
+  E[1420] Osmanlılar tarafından ilk defa 1420’de denizden fethine çalışılan şehir, Fâtih Sultan Mehmed devrinde de iki defa kuşatıldı, fakat zaptedilemedi.
+  E[1455] Petru 1455’te Boğdan’da Osmanlı hâkimiyetini tanıyınca, Fâtih Sultan Mehmed Akkirman tüccarlarına 5 Receb 860 (9 Haziran 1456) tarihli bir fermanla Edirne, Bursa ve İstanbul’a uğrayarak ticaret yapma izni verdi.
+  E[1638] 1638’de Kazak akınlarına hedef olan Akkirman 1770 ve 1789 yıllarında iki defa Ruslar tarafından kuşatılarak ele geçirildi ise de önce Küçük Kaynarca (1774), sonra da Yaş Antlaşması (1791) ile tekrar Osmanlı idaresine girdi.
+  E[1820] 1820 yıllarında tekrar şiddetlenen Osmanlı-Rus sürtüşmelerini sonuçlandırmak için yapılan antlaşma bu şehirde imzalandı.
+
+##0107 Kili [Kırım-Karadeniz] · SAHIP=altinorda (Altın Orda (Deşt-i Kıpçak Hanlığı)) · kili · yer=1
+  E[1339] Aydınoğlu Umur Bey, 1339-1341 yıllarında Kili’ye kadar gelerek bir Ulah ordusunu mağlûp etti.
+  E[1371] 1371 yılından beri Osmanlılar’a bağlı olan Dobruca Voyvodası Ivanko (Yuan Ku, Yanko) Cenevizliler’e burada ticarethane, kilise ve konsolosluk açma hakkı tanıdı (1387).
+  E[1412] Macaristan ile Polonya arasında 1412’de imzalanan gizli Lubnan (Lublin) Antlaşması’nda Boğdan Prensliği’nin iki ülke arasında paylaşılması kararlaştırıldı; Kili dahil ülkenin batı kesimi Macaristan’a, Akkirman dahil doğu kesimi de Polonya’ya ait olacaktı.
+  E[1419] Bu sefer sırasında Dobruca kesin biçimde Osmanlı topraklarına katılırken Eflak’a da girilerek Mircea’ya Osmanlı hâkimiyeti kabul ettirildi (822/1419).
+
+##0108 Roman [Balkan] · SAHIP=altinorda (Altın Orda (Deşt-i Kıpçak Hanlığı)) · roman · yer=1
+  E[1851] Yakın yıllarda farkına varılan, Vartan Paşa’nın Ermeni alfabesiyle Akabi Hikâyesi (1851) ve Evangelist Misailidis’in Grek alfabesiyle Temâşa-i Dünyâ ve Cefâkâr u Çilekeş (1871-1872) adlı eserlerini bu türün Türkçe’deki ilk örnekleri olarak görenler olmuştur.
+  E[1910] Meşrutiyet sonrası Türk romanı bu iki akımın dışında kendi özelliklerini devam ettiren eserleriyle Edebiyât-ı Cedîde romancıları, Jön Türk ’ü ile (1910) Ahmed Midhat Efendi, popüler eserleriyle onun izinden giden Hüseyin Rahmi (Gürpınar), ilk köy romanları ar…
+  E[1937] Anadolu’ya yönelen Millî Edebiyat dönemi yazarlarının ılımlı toplumsal eleştirilerinin yerini sert-gerçekçi bir yaklaşımın aldığı bu eserlerden Kuyucaklı Yusuf ’ta (1937) Sabahattin Ali öncekilerden farklı olarak Doğu-Batı, eski-yeni zıtlığı yerine toplumsal …
+  E[1935] Halide Edip Sinekli Bakkal ’da (1935) Osmanlı’nın son döneminin sosyal yapısı ile II.
+
+##0109 İbrail [Balkan] · SAHIP=macaristan (Macaristan Krallığı (bağımsız dönem)) · ibrail · yer=1
+  E[1538] Asıl adı Brǎila olan ve 1538-1830 yılları arasında Türk idaresinde kalan şehrin ismi Osmanlı kaynaklarında XVI.
+  E[1541] 1541 yılında Orta Macaristan’ın fethinden sonra Macaristan’ın Budin beylerbeyiliği adıyla bir eyalet haline getirilerek merkeze bağlanmasının ardından Tuna Budin’den Karadeniz’e kadar Osmanlı kontrolüne girmiş, ayrıca Kırım süvarilerine Bahçesaray-Budin arası…
+  E[1601] 1595 Martında âsi Eflak Voyvodası Mihai Viteazul (Cesur Mihai) tarafından zaptedilen şehir 1601’e kadar onun idaresinde kaldıysa da bu yıl içinde tekrar Osmanlı idaresine geçti; kalesi ve şehrin tahrip edilmiş kısımları tamir edildi.
+  E[1711] yüzyıl başlangıcından itibaren vuku bulan Osmanlı-Rus savaşları sırasında İbrâil zaman zaman Rus saldırılarına ve işgaline mâruz kaldı; 1711’de Boğdan Voyvodası Brâncoveanu’nun teşvikiyle buradaki ve Kalas’taki erzakı elde etmek için General Renne kumandasınd…
+
+##0110 Budin [Balkan] · SAHIP=macaristan (Macaristan Krallığı (bağımsız dönem)) · budin · yer=1
+  Y[1241] 1241-1242’deki Moğol istilâsı sonrası ülkenin imarına çalışan IV.
+  Y[1235] Béla (1235-1270) burada taştan bir kale inşa ettirdi.
+  E[1683] Viyana’ya karşı 1683’te yöneltilen neticesiz Osmanlı seferi, eski dengelerin artık Osmanlılar’ın aleyhine değişmiş olduğunu gösterdi.
+  E[1686] Böylelikle Budin ile Macaristan’ın geri alınması için Kutsal İttifak oluşturuldu ve 1686’da muazzam bir ordu kalenin muhasarasına başlayıp şiddetli savaşlardan sonra 2 Eylül’de yapılan genel hücum sonunda Budin zaptedildi ve Osmanlı hâkimiyeti sona erdi.
+  E[1543] Kalede hizmet görenlerin mevâcib defterlerine göre Budin’de 1543’te 2965, 1549’da 1898, 1568’de ise 1636 Osmanlı muhafızı vardı.
+  E[1685] Meselâ 1685’te Budin’in Katolik hâkimi ve konseyinin Habsburg idaresine gönderdiği bir mektup dolayısıyla birkaç yüz Macar hıristiyanın XVII.
+
+##0111 Peçuy [Balkan] · SAHIP=macaristan (Macaristan Krallığı (bağımsız dönem)) · pecuy · yer=1
+  Y[1242] Piskoposluk ikametgâhı 1242 yılındaki Tatar (Moğol) hücumları sırasında yakıldı.
+  E[1009] Macar Kralı Aziz (I.) İstván, Peçuy Piskoposluğu’nu 1009’da burada kurdu.
+  E[1367] Macaristan’ın 1367’de kurulmuş olan ilk üniversitesi bu kalenin içinde yer alıyordu.
+  E[1526] Şehir, Mohaç Savaşı’nın sonucu olarak (932/1526) Osmanlı kuvvetleri tarafından yakılıp tahrip edilince halkının çoğu burayı terketti.
+  E[1533] Kral János 1533’te Macar ve Türk refakatçileriyle birlikte bir süre burada kaldı.
+
+##0112 Estergon [Balkan] · SAHIP=macaristan (Macaristan Krallığı (bağımsız dönem)) · estergon · yer=1
+  Y[1241] 1241-1242 yıllarındaki Moğol istilâsı şehrin tarihinde bir dönüm noktası teşkil etti.
+  E[1529] 1526 Mohaç Muharebesi’nden sonra ilk Osmanlı saldırılarına hedef olan Estergon 1529’da Viyana seferi sırasında geçici olarak zaptedildi.
+  E[1530] 1530 yılında kardinalin bütün arşiv, kütüphane ve hazinesiyle birlikte Kuzey Macaristan’a geçmesi üzerine Habsburglar’ın himayesi altına girdi.
+  E[1541] Estergon’un stratejik ve mânevî ehemmiyetini çok iyi bilen Osmanlı idarecileri, Budin’in 1541’de merkeze bağlı bir eyalet haline getirilmesinden sonra Estergon’u da kontrol altına alma gereğini duydular.
+  E[1543] Bazı kalelerin alınmasının ardından kuşatılan Estergon, iki buçuk hafta kadar dayanan muhafızlarının teslim olması ile 10 Ağustos 1543’te Osmanlı idaresi altına girdi ve Budin eyaletine bağlı bir sancak merkezi oldu.
+
+##0113 Eğri [Balkan] · SAHIP=macaristan (Macaristan Krallığı (bağımsız dönem)) · egri · yer=1
+  Y[1241] 1009 yılına doğru piskoposluk merkezi haline geldiyse de 1241-1242 yıllarındaki Moğol istilâsı gelişmesini önemli ölçüde aksattı; nüfusunun bir kısmı katledildiği gibi şehir de tahribata uğradı.
+  Y[1261] Béla tarafından 1261’de ihya edilen ve kalesinin inşaatı başlatılan Eger, daha sonra Hus’un mezhebine bağlı olanlar tarafından 1442’de tekrar tahrip edildi.
+  E[1552] Eğri’ye yönelik ilk ciddi Osmanlı hücumu 1552 yılında meydana geldi.
+  E[1593] Osmanlılar’la Habsburglar arasında 1593’te başlayan “Onbeşyıl savaşları” veya “Uzun Harp” dönemi Eğri’nin tarihi bakımından bir dönüm noktası oldu.
+  E[1548] Osmanlı idaresi öncesinde, 1548 yılından kalma bir vergi defterine göre sadece yirmi beş kişi hububat vergisi ödemekteydi.
+  E[1577] Hatta Osmanlı idaresi öncesi 1577’de vergi mükellefi olarak kaydedilenlerin % 90’ı sadece bağcılıkla uğraşıyordu.
+
+##0114 Kanije [Balkan] · SAHIP=macaristan (Macaristan Krallığı (bağımsız dönem)) · kanije · yer=1
+  Y[1245] Belgelerde ilk defa 1245 yılında anılan Kanizsai şehrinin kalesi XIII.
+  E[1532] Celâlzâde Mustafa’ya göre 938 (1532) yılında, Kanûnî Sultan Süleyman’ın üçüncü Macaristan seferi sırasında Kanije Kalesi Osmanlılar’ın kontrolü altına alındı, ancak bu fetih kalıcı değildi.
+  E[1566] Hemen yakınındaki Sigetvar (Szigetvár) Kalesi’nin Osmanlılar’ın eline geçmesinden sonra (974/1566) burası büyük bir önem kazandı.
+  E[1571] Yerli Osmanlı askerlerinin pususuna düşen Thury’nin 1571’deki ölümünden az sonra Kanije’ye karşı bir hücum yapıldıysa da büyük zararlara yol açan bu saldırı neticesiz kaldı.
+  E[1009] Sonunda anlaşma yoluyla 11 Rebîülâhir 1009’da (20 Ekim 1600) Osmanlılar’a teslim edildi.
+
+##0115 Uyvar [Balkan] · SAHIP=macaristan (Macaristan Krallığı (bağımsız dönem)) · uyvar · yer=1
+  E[1545] Kopyalama metni Slovakça Nové Zámky, Almanca Neuhäusel, Latince Castelnuovo ve Türkçe’de Uyvar adıyla bilinen şehrin çekirdeğini 1545’te Tuna nehrinin kollarından Nitra suyu kıyısında Osmanlı akınlarına karşı Estergon başpiskoposu tarafından inşa ettirilen ve…
+  E[1593] Bu dönem boyunca özellikle Uzun savaşlar sırasında (1593-1606) Osmanlılar burayı ele geçirmeye çalıştı.
+  E[1662] 1662’de başlayan Osmanlı-Habsburg savaşları Uyvar’ı Osmanlı hedefi haline getirdi.
+  E[1663] Osmanlı ordusu 17 Ağustos 1663’te burayı kuşattı.
+
+##0116 Temeşvar [Balkan] · SAHIP=macaristan (Macaristan Krallığı (bağımsız dönem)) · timisvar · yer=1
+  Y[1266] Adı tarihî kayıtlarda ilk defa 1212 ve 1266’da yer alır.
+  Y[1307] 1307’de Kral Charles Robert burada bir krallık sarayı yaptırdı.
+  E[1030] Şehir Macar Krallığı tarafından 1030’da ilhak edildi.
+  E[1541] Macar Krallığı’na Osmanlılar tarafından son verilip 1541’de Budin beylerbeyiliği kurulunca Osmanlı Devleti’nin himayesinde ve haraçgüzâr statüsünde Erdel Prensliği teşkil edildi.
+  E[1547] 954 (1547) yılı antlaşmasına rağmen Erdel üzerinde Osmanlı-Habsburg savaşları sürdü.
+  E[1717] Esasen Habsburglar da 1717’den itibaren son Osmanlı döneminde mevcut olan on kazayı (sancak) ismen ve aynen muhafaza etmişlerdi.
+
+##0117 Rodos [Anadolu] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · rodos · yer=1
+  Y[1309] Daha sonra Rodos adası 1309’da Saint Jean şövalyelerinin (Hospitalier/İsbitâriyye) eline geçişine kadar Bizanslılar, Cenevizliler ve Venedikliler arasında çekişmelere sahne oldu.
+  E[1522] 1522-1912 yılları arasında Osmanlı Devleti idaresi altında kalan ada halen bu döneme ait pek çok tarihî eser barındırır.
+  E[1440] Mısır ve Suriye Memlükleri’nin 1440-1444 yılları arasında Rodos’u ele geçirme teşebbüsleri başarısızlıkla sonuçlandı.
+  E[1480] Osmanlılar 885 (1480) ilkbaharında Rodos’a yönelik ilk ciddi seferi icra ettiler.
+  E[1475] 1475’te Saint Jean şövalyeleri idaresi altında ilk büyük Osmanlı kuşatmasından hemen önce Rodos şehrinin nüfusu 7500’den fazla değildi ve adanın bütün nüfusu 15.000 idi.
+
+##0118 Midilli [Anadolu] · SAHIP=ceneviz (?ceneviz) · midilli · yer=1
+  E[1354] 1354’te Bizans İmparatoru V.
+  E[866] Zilhicce 866’da (Eylül 1462) Fâtih Sultan Mehmed kumandasındaki Osmanlı ordusu ve Mahmud Paşa idaresindeki donanma, kısa süreli ancak çok şiddetli bir kuşatma sonucunda Midilli’yi ele geçirdi.
+  E[1464] 868’de (1464) adanın kuzey sahilinde bulunan Ayo Teodoro Kalesi, Midilli’yi tekrar ele geçirmek isteyen Orsato Giustiniani kumandasındaki Venedik donanması tarafından zaptedildi.
+  E[1474] 1474’teki Osmanlı-Venedik savaşı esnasında Pietro Mocenigo kumandasındaki Venedikliler adayı yağmaladı.
+
+##0119 Limni [Balkan] · SAHIP=bizans (Bizans (Doğu Roma) İmparatorluğu) · limni · yer=1
+  Y[1204] 1204’te İstanbul’un Latinler’in eline geçmesinin ardından buraya Venedikli Filocalo Navigaioso yönetici olarak gönderildi.
+  Y[1207] 1207’de onun ölümünden sonra oğulları “megadük” unvanıyla adanın idaresini 1279 yılına kadar ellerinde tuttular.
+  Y[1277] Mikael 1277-1279 yıllarında adanın merkezi Palaiokastron’u kuşatma altına aldı.
+  Y[1292] Onların dışında 1292’de Sicilya’nın Aragon kralları adına korsanlık yapan Roger de Louria ve 1296’da Venedik-Ceneviz savaşları sırasında Venedikli Malabranca adayı yağmalamıştı.
+  Y[1303] 1303’te Katalanlar buraya akında bulundular.
+  E[1453] Son megadük Paolo kuşatma sırasında ölünce adada zaman zaman kesintili de olsa 1453’e kadar sürecek Bizans idaresi başladı.
+  E[1377] Bu dönemde Venedikliler adayı geri almak için ilki 1306-1309, ikincisi 1377-1381 yıllarında iki büyük sefer düzenlediler.
+  E[1394] Ada, Yıldırım Bayezid’in İstanbul kuşatması sırasında (796/1394) Bizans ve Latin ilişkileri bakımından önem kazandı ve İstanbul’un düşmesi halinde Limni hakkında ileriye dönük stratejik planlamalar yapıldı.
+  E[1421] Kardeşi Çelebi Mehmed’e karşı taht iddiasıyla harekete geçen ve Bizans’a sığınan Şehzade Mustafa (Düzmece Mustafa), Bizanslılar tarafından yeniden harekete geçirileceği 1421’e kadar Limni’de tutuldu.
+
+##0120 Kandiye (Girit) [Balkan] · SAHIP=venedik (Venedik Cumhuriyeti) · kandiye · yer=1
+  E[None] Venedik kaynaklarında bu ad XIII.
+  E[827] Adada 827 yılından itibaren başlayan Arap hâkimiyetine son veren Bizanslılar 6 Mart 961’de Kandiye’yi aldılar.
+  E[1647] Osmanlılar, Girit savaşları devam ederken 1647’den itibaren adada aldıkları yerleri bir eyalet olarak düzenlemişlerdi.
+  E[1868] Osmanlı ıslahatları çerçevesinde 1864 genel vilâyet düzenlemesinin ardından 1868’de Girit’te ilân edilen ferman gereğince Girit vilâyeti beş livâ ve yirmi kazaya taksim edilmişti.
+

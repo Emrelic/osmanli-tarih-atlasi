@@ -1,0 +1,118 @@
+## GÖREV GLM-I — 1281'DEKİ İLK SAHİP YANLIŞ MI? Sistematik tarama
+
+Atlas 1281-01-01'de başlıyor ve **2.527 yerleşimin ilk sahiplik dönemi tam o gün
+başlıyor.** Ama o gün bir ölçüm değil: `js/app.js:3666`ın kendi yorumu diyor ki
+`EPOK_DAMGASI = "1281-01-01"` — *"gerçek bir el değiştirme değil, **atlasın
+başlangıcı**"*.
+
+🔴 **Sorun şu: o damganın yanına yazılan SAHİP bir ölçüm sanılıyor.** Ve bu hafta
+başka bir iş yaparken **tesadüfen** on bir tanesinin yanlış olduğu görüldü:
+```
+Korfu        atlas 1281-1797 Venedik     TDV 1267-1386 Napoli
+Draç         atlas 1281'den Venedik      TDV 1273'te Anjou
+Patras       atlas 1281-1430 Bizans      TDV 1205'te Frank
+Veles        atlas 1281'de Sırp          TDV 1246'da İznik
+Alaşehir     atlas 1281-1300 Selçuklu    TDV Bizans kalesi diyor
+Alanya       atlas 1281 Karaman          TDV 1221 Selçuklu
+Diyarbakır   atlas artuklu               TDV 1259'da Selçuklu'ya verildi
+Trablusşam · Akkâ · Sayda · Beyrut   atlas 1281'de MEMLÜK
+             ⇒ oysa Trablus Kontluğu 1289'a, Kudüs Krallığı 1291'e kadar yaşadı
+             ve ikisinin de künyesi `data/devletler.js`te VAR, noktalara
+             yazılmamış. Yani 1281-1291 Haçlı Levant'ı haritada HİÇ YOK;
+             Akkâ'nın düşüşü (1291) görünmüyor.
+```
+Bunlar **arayarak bulunmadı, yolda görüldü.** ⇒ Kaç tane olduğu BİLİNMİYOR.
+Görevin o sayıyı bulmak.
+
+---
+
+## EVREN ve KAYNAK
+`data/yerlesimler*.js` içinde ilk sahiplik dönemi `f:"1281-01-01"` olan her nokta.
+🔴 Canlı dosya listesini **tahmin etme**, şuradan oku:
+```
+arac/girdi.py  →  GIRDI_DOSYALARI
+```
+Kaynak: **TDV İslâm Ansiklopedisi birincil** (`§4`). Önbellek hazır ve kullanabilirsin
+— ama **kullandığını BEYAN ET**:
+```
+denetim/GLM1-TDV-ONBELLEK/        1001 dosya (senin konsolide ettiğin)
+denetim/ZAMAN-Z6-tdv/             3.966 dosya — UMIT diskinde, depoda DEĞİL
+```
+Önbellekte yoksa `https://islamansiklopedisi.org.tr/<slug>` ile GET.
+
+## SORU — tek cümle
+**O noktanın 1281-01-01 tarihindeki sahibi olarak atlasa yazılan kimlik, TDV'nin
+o yer hakkında söylediğiyle ÇELİŞİYOR mu?**
+
+⚠️ Dikkat: bu, Z6'nın sorduğu soru DEĞİLDİR. Z6 *"zincir 1281'den GERİYE uzatılabilir
+mi"* diye sordu ve %6,3 buldu. Sen *"1281'de yazan sahip DOĞRU mu"* diye soruyorsun.
+Bir nokta geriye uzatılamaz ama 1281'deki sahibi yine de **yanlış** olabilir — yukarıdaki
+on bir vakanın hepsi böyle.
+
+## KOVALAR — her nokta tam bir kovaya
+```
+① ÇELİŞİYOR        TDV 1281 dolayında BAŞKA bir sahip söylüyor, cümlesi var
+                   ⇒ en değerli kova; alıntı BİREBİR yazılır
+② DOĞRULUYOR       TDV aynı sahibi söylüyor ya da onunla tutarlı
+③ SESSİZ           TDV maddesi var ama 1281 dolayında sahip söyleyen cümle YOK
+④ MADDE YOK        slug 302 / arama boş  ⇒ `bulunamadı` bir SONUÇTUR
+⑤ ÖLÇÜLEMEDİ       taşıma arızası (000), boş gövde, boilerplate
+```
+🔴 ③ ile ④ KARIŞTIRILMAZ. *"Madde var ama söylemiyor"* ile *"madde yok"* iki ayrı
+bilgidir ve çareleri terstir.
+
+## TUZAKLAR — hepsi bu projede ÖLÇÜLDÜ
+```
+② canlı slug, YANLIŞ madde   `ordu` → `ordu--sehir` olmalı; gövdeyi OKU
+④ boilerplate gövde           "çekilemedi" ≠ "yok"
+⑤ HTTP 000                    TAŞIMA arızası, ölü DEĞİL — yeniden dene, AYRI say
+⑥ kaynak kendiyle çelişir     bildir; ama önce Türkçe yan cümleyi DOĞRU AYRIŞTIR
+⑦ çıkarıcının "okuyamadım"ı   belge hakkında hiçbir şey söylemez → ikinci çıkarıcı
+⑧ rakamın gövdede geçmesi     o değeri desteklediği anlamına GELMEZ — rakamı
+                              taşıyan cümlenin NEYİ tarihlediğini oku
+⑨ aramada çıkmayan madde      ÖLÜ DEĞİL (`sarikamis-harekati` GET 200 ama aramada yok)
+```
+🔴 Ve en önemlisi — `D208` **bölge cümlesi şehre taşınmaz**: *"Batı Trakya'nın sınırı
+doğuda Meriç"* cümlesi, Meriç kıyısındaki bir kasabanın sahibini SÖYLEMEZ. Örtülü
+ifade, çıkarım, istisna cümlesi ① kovasına girmez.
+
+---
+
+## ÇIKTI — iki dosya, başka hiçbir şeye dokunma
+```
+denetim/GLM1-EPOK-SAHIP-1009.tsv
+  nokta_adi · dosya · atlastaki_1281_sahibi · tdv_slug · http · kova(①-⑤)
+  · tdv_alinti(BİREBİR) · tdv_nin_dedigi_sahip · tdv_tarihi · guven(yuksek/orta/dusuk)
+
+denetim/GLM1-EPOK-SAHIP-1009.md
+  ① ne ölçtüm (kova kova, SAYIYLA)
+  ② ne bulamadım ("bulunamadı" bir sonuçtur — ④ ve ⑤ ayrı ayrı)
+  ③ ne istiyorum
+```
+
+## 🔴 HÜKÜM VERME, SAYIM VER
+Hiçbir `data/` dosyasına, `arac/`a dokunma. Düzeltme **önerme**: `①` kovasındaki
+her satır bir **adaydır**, hüküm koordinatörün. Sebebi ölçülmüş: bir sahibi
+değiştirmek hatayı öbür tarafa taşıyabilir (`D206` ters yön) ve bir dönemi kısaltmak
+**haritada delik açar** — ardıl künyenin penceresi de tutmalıdır (`D205`).
+
+## ÖNGÖRÜ — ölçümden ÖNCE, aynı dosyaya
+```
+① 2.527 noktanın kaçı ① kovasına düşecek?  ____
+② mekanizma: hangi coğrafya/sınıf en çok çelişecek, NİÇİN?
+```
+Sayı ile mekanizma **ayrı** değerlendirilir. Geçen seferki işinde sayın tuttu,
+mekanizman çürüdü — ve değerli olan, çürüdüğünü **senin** yazmış olmandı.
+
+## ÖLÇEK — kademeli koş, hepsini birden deneme
+```
+AŞAMA 1   TDV'nin güçlü olduğu coğrafya: Anadolu · Balkan · Ortadoğu ·
+          İran-Kafkas · Kuzey Afrika · Arabistan-Hint   (≈1.263 nokta)
+AŞAMA 2   yalnız AŞAMA 1'in ① kovası %5'i geçerse: kalan 1.264 nokta
+          (Avrupa · Doğu Asya · Amerika · Sahra-altı) — orada TDV zayıf,
+          kova ③/④ ağırlıklı olacak; bunu ÖNGÖRÜNE yaz
+```
+**Nazik ol:** istekler arası ≥ 1 sn, tam tarayıcı UA + `tr-TR`.
+📌 Ve aletinin arızasını BEYAN ET — geçen sefer PowerShell `2>$null`in bir commit'i
+sessizce yuttuğunu kendin söylemiştin. Beyan edilmiş arıza, gizlenmiş arızadan
+değerlidir.

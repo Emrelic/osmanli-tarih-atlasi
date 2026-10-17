@@ -3611,10 +3611,11 @@ body:not(.gelistirici) .yalniz-gelistirici { display: none !important; }
 #gn-sayi { margin-left: 3px; font-size: 11px; color: #39ff14; }
 #gn-arac button.etkin #gn-sayi { color: #111; }
 /* ⏳ bekleyen · ✉ okunmamış sayaçları: sıfırdan büyükse göze batar */
+#gn-sahipsiz { margin-left: 3px; font: 700 11px/14px sans-serif; color: #fff; background: #0074d9; border-radius: 7px; padding: 0 5px; }
 #gn-bekleyen, #gn-okunmamis { margin-left: 3px; font: 700 11px/14px sans-serif; color: #111;
   background: #ff851b; border-radius: 7px; padding: 0 5px; }
 #gn-okunmamis { background: #ff4136; color: #fff; }
-#gn-arac button.gn-sifir #gn-bekleyen, #gn-arac button.gn-sifir #gn-okunmamis { background: transparent; color: #888; font-weight: 400; }
+#gn-arac button.gn-sifir #gn-sahipsiz, #gn-arac button.gn-sifir #gn-bekleyen, #gn-arac button.gn-sifir #gn-okunmamis { background: transparent; color: #888; font-weight: 400; }
 .gn-yeni { font-weight: 600; }
 .gn-yeni-cip { color: #ff4136; }
 .gn-filtre-kaldir { margin: 4px 0; font-size: 11px; }

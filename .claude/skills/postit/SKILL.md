@@ -29,19 +29,31 @@ py arac/not.py al 12 --zorla --model opus   # Emre "/postit 12 zorla" dediyse: b
 - Çıkış 0 → çıktı notun TAMAMIDIR (metin, bağlam JSON'u, bütün yorumlar). Bağlamı yeniden kurma.
 - Başka oturumun notuna **dokunma**. Bu oturumda ikinci not alma.
 
-### Model kapısı (Sonnet oturumu için)
-Notu okuyunca türüne bak. **Motor/geometri notu** ise (zikzak, sivri çıkıntı, ince girinti/koridor,
-üçgen/üçken toprak, katmanların üst üste binmesi, ızgara izi, ya da önceki Claude yorumu teşhisi
-"motor" koymuşsa) işe GİRİŞME:
-```bash
-py arac/not.py opus <no>
-```
-Not `model:opus` etiketini alır ve bırakılır, yorum yazılmaz. Sitede 🧠 Opus rozeti çıkar. Emre'ye
-tek satır: `#<no> motor notu — Opus oturumuyla aç: /postit <no>`. Sonra **5. adım (emekli ol)**.
-Tarih/sahiplik/kaynak soruları, yerleşim eksikliğinden doğan boşluklar ve basit arayüz işleri
-Sonnet'te kalır. Sonnet işin ortasında motora dayandığını görürse de aynısını yapar: o ana kadarki
-bulguyu kısa bir dosyaya yazıp `py arac/not.py opus <no> --dosya <yol>`. Bulgu yoruma girer ama
-sıra Claude'da kalır, Opus oradan devralır. `yanit` KULLANMA, çünkü sırayı Emre'ye geçirir.
+### Model kapısı — oturum kendi modeline bakar
+Notu okuyunca, işe girişmeden önce **notun türüne** ve **kendi modeline** (sistem isteminde yazar) bak.
+Oturumun modelini kendin değiştiremezsin; yalnız Emre `/model` yazarak değiştirir. Uyuşmazsa
+Emre'den çevirmesini iste.
+
+**Opus ister** (motor/geometri notu): zikzak, sivri çıkıntı, ince girinti/koridor, üçgen/üçken
+toprak, katmanların üst üste binmesi, ızgara izi, ya da önceki Claude yorumu teşhisi "motor"
+koymuşsa. **Sonnet yeter**: tarih/sahiplik/kaynak soruları, yerleşim eksikliğinden doğan boşluklar,
+basit arayüz işleri.
+
+| Oturum | Not | Ne yap |
+|---|---|---|
+| Opus | motor | uyuyor, devam et |
+| Sonnet | Sonnet yeter | uyuyor, devam et |
+| **Sonnet** | **motor** | dur. Emre'ye tek satır: `#<no> motor notu, bu oturumu Opus'a çevir: /model opus yaz, sonra "devam" yaz.` 3 beep, bitir. |
+| **Opus** | **Sonnet yeter** | dur. Emre'ye tek satır: `#<no> Sonnet'e yeter, bu oturumu Sonnet'e çevir: /model sonnet yaz, sonra "devam" yaz.` 3 beep, bitir. |
+
+- Uyuşmazlıkta araştırmaya, yoruma ya da `yanit`e **girişme**. Not bu oturumda kalır
+  (`not.py opus` KULLANMA: o notu bırakır). Emre modeli çevirip "devam" yazınca bu oturum notunu
+  `al --model <yeni model>` ile geri alır, kapı bu kez uyuşur ve iş başlar. Konuşma geçmişi korunur.
+- Emre "bu modelde kal" / "Opus'ta devam" gibi bir şey yazarsa kapıyı bir daha sorma, devam et.
+- İşin ortasında Sonnet motora dayandığını görürse de aynısı: bulguyu bir cümleyle söyle, Opus'a
+  çevirmesini iste, `yanit` yazma.
+- Emin değilsen (not iki türe de benziyor) Opus'ta sorma, devam et; kapı yalnız net uyuşmazlık içindir.
+
 
 ### Oturumun adını göreve göre değiştir
 Notu alıp görevi anlayınca (model kapısından geçtiysen) oturumu yeniden adlandır. Emre kenar
