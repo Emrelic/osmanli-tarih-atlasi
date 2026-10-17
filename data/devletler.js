@@ -645,12 +645,14 @@ window.DEVLETLER = [
 },
 { id:"muzafferi", ad:"Muzafferî Hanedanı", tur:"devlet", bolge:"iran",
   f:"1318-01-01", t:"1393-01-01", baskent:"Şiraz",
+  tabi:[{f:"1384-01-01", t:"1387-11-01", ust:"timurlu"}],
   ozet:"İlhanlı Sultanı Ebû Saîd'in 718'de (1318) Mübârizüddin Muhammed'e Yezd emirliğini vermesiyle doğan, Yezd-Kirman-Fars-İsfahan'a (zaman zaman Azerbaycan'a) hâkim olan hanedan; Timur'un ordusuyla yapılan çatışmada Şah Mansûr'un öldürülmesiyle 795'te (1393) bütün hanedan tasfiye edildi. (kaynak: TDV, madde: muzafferiler)",
   kaynak:"muzafferiler",
   kronoloji:[
     { t:"1318-01-01", tur:"kurulus", b:"Sultan Ebû Saîd, Yezd emirliğini Mübârizüddin Muhammed'e verdi (718)" },
     { t:"1357-01-01", tur:"toprak-kazanc", b:"Mübârizüddin, İncûlu Ebû İshak'ı İsfahan'da öldürterek bu hânedanı ortadan kaldırdı, Fars ve Irâk-ı Acem'in büyük kısmına hâkim oldu (758)" },
     { t:"1358-01-01", tur:"isyan", b:"Mübârizüddin, kendi oğlu Şah Şücâ‘ tarafından tahttan indirilip gözlerine mil çektirildi (759)" },
+    { t:"1384-01-01", tur:"vassal", b:"Şah Şücâ' Timur'a itaat arzetti, halefi Zeynelâbidîn de önce itaat etti; hanedan yerinde kaldı, İsfahan Timur'a teslim edilene dek (1387) tâbi sayıldı", kaynak:"TDV: muzafferiler", ic_not_b:"[yalnız yıl teyitli; gün teyitsiz] TDV itaat tarihini vermez; Şücâ'ın ölümü 786 (1384) ile Timur'un elçisinin Kirman'da karşılanması 787 (1385) arasına düşer, tavan olarak 1384-01-01 alındı; tâbiyet Muzafferî toprağını Timurlu'ya katmaz (bkz. [[timurlu]])" },
     { t:"1387-01-01", tur:"isgal", b:"Timur İsfahan'ı ele geçirip yaklaşık 200.000 kişiyi kılıçtan geçirdi; hanedan onun tâbiiyetine girdi (789)" },
     { t:"1393-01-01", tur:"son", b:"Timur'un kuvvetleri Şah Mansûr'u yenip öldürdü; hânedanın tamamı tasfiye edildi (795)" }
   ]
