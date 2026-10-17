@@ -144,6 +144,8 @@ _NODE_KOVA = r"""
 const fs=require('fs'),path=require('path');const a=process.argv.slice(1);
 const bozuk=a[0]==='BOZUK';const dos=bozuk?a.slice(1):a;
 const dolu=v=>typeof v==='string'?v.trim().length>0:Array.isArray(v)?v.length>0:!!v;
+const PW=(process.env.KAYNAK_PENCERE||'').split(',');
+const ic=p=>PW.length<2||((p.f||'')<PW[1]&&(p.t||'9999')>PW[0]);
 const K={toplam:0,s_tasiyan:[],kayit_kaynaksiz:[],donem_ici:[],hicbiri:[]};
 for(const yol of dos){const js=fs.readFileSync(yol,'utf8');
  const m=js.match(/window\.(YERLESIMLER\w*)\s*=/);if(!m)throw new Error('YERLESIMLER yok: '+yol);
@@ -151,14 +153,23 @@ for(const yol of dos){const js=fs.readFileSync(yol,'utf8');
  const ad=path.basename(yol);
  for(const y of L){K.toplam++;if(!y||!Array.isArray(y.s)||!y.s.length)continue;
   const k=ad+'|'+y.ad;K.s_tasiyan.push(k);if(dolu(y.kaynak))continue;K.kayit_kaynaksiz.push(k);
-  if(!bozuk&&y.s.some(p=>p&&typeof p==='object'&&dolu(p.kaynak)))K.donem_ici.push(k);else K.hicbiri.push(k);}}
+  if(!bozuk&&y.s.some(p=>p&&typeof p==='object'&&dolu(p.kaynak)&&ic(p)))K.donem_ici.push(k);else K.hicbiri.push(k);}}
 process.stdout.write(JSON.stringify(K));
 """
 
 
+# 🆕 PENCERE ŞARTI (9 Ekim 2026, KAYNAK-PENCERE-1009): `kaynaksizlik_olc` artık
+#    kaynaklı dönemin VERI_UFKU (yoksa UFUK) ile `[f, t)` kesişmesini şart koşuyor.
+#    Bağımsız okuyucu da aynı TANIMI taşımalı — taşımazsa Z5/Z6 inmiş ağaçta S1
+#    düşer (ölçüldü: node 860/1441 · py 460/1841). Pencere uçları girdi.py'den
+#    ortam değişkeniyle geçer; kesişme kuralı node'da AYRICA yazılıdır.
+PENCERE = getattr(girdi, "VERI_UFKU", None) or girdi.UFUK
+
+
 def node_kova(dosyalar, bozuk=False):
     r = subprocess.run(["node", "-e", _NODE_KOVA] + (["BOZUK"] if bozuk else []) + dosyalar,
-                       capture_output=True, cwd=KOK)
+                       capture_output=True, cwd=KOK,
+                       env=dict(os.environ, KAYNAK_PENCERE=",".join(PENCERE)))
     if r.returncode != 0:
         return None, r.stderr.decode("utf-8", "replace")[-200:]
     return json.loads(r.stdout.decode("utf-8")), ""

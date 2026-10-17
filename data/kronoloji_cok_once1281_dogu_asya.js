@@ -190,7 +190,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   etiket:["fetih","toprak-kazanc","konu-askeri"], yer_id:"Dali", yer:"Dali", taraflar:["mogol-imparatorlugu"],
   d:"Möngke Kağan'ın emriyle Kubilay, Song'u güneybatıdan kuşatmak için Tibet sınırı boyunca yürüyüp Dali'ye indi. Şehir teslim oldu, fiilî iktidarı elinde tutan Gao ailesinin ileri gelenleri öldürüldü; Duan hükümdarı Duan Xingzhi ise Moğol hizmetinde yerel yönetici olarak bırakıldı.",
   kaynak:"TDV: kubilay-kagan (KUBİLAY KAĞAN) — '1253’te Nan-çan Devleti’ne son verdi.'", ic_not_kaynak:"① TDV'de VAR — alıntılar gövdeden birebir doğrulandı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). TDV adı 'Nan-çan Devleti' — Dali Krallığı ile eşleme bizim yorumumuz. Açılmayan eski akademik atıf (dayanak DEĞİL): Bin Yang, Between Winds and Clouds (Columbia UP, 2009) · Morris Rossabi, Khubilai Khan: His Life and Times (California UP, 1988).",
-  gun:"1253 sonu (sefer 1253 sonbaharı-kışı; şehrin alınışı bazı eserlerde Ocak 1254 — ölçülemedi)",
+  gun:"1253 sonu", ic_not_gun:"1253 sonu (sefer 1253 sonbaharı-kışı; şehrin alınışı bazı eserlerde Ocak 1254 — ölçülemedi)",
   ic_not_t:"Olay dali-kralligi künye iskeletinde (öneri) 'son' olarak var → burada yalnız mogol-imparatorlugu'na bağlandı." },
 
 { t:"1094-01-01", b:"Gao Shengtai Dali tahtını ele geçirdi — Duan hanedanı kısa süre kesintiye uğradı", tur:"hanedan", onem:2, dunya:1, kapsam:"ic",
@@ -289,7 +289,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
   etiket:["savas","deniz-savasi","konu-askeri"], yer_id:"Hakata (Fukuoka)", yer:"Tsushima · Iki · Hakata körfezi", taraflar:["yuan-hanedani","goryeo"],
   d:"Kubilay'ın elçilerine cevap vermeyen Japonya'ya karşı, gemileri Goryeo'da inşa edilen ortak bir donanma Tsushima ve Iki'yi alıp Hakata körfezine çıktı. Bir günlük çarpışmadan sonra gemilerine dönen kuvvetler fırtınaya yakalanıp ağır kayıpla geri döndü.",
   kaynak:"TDV: kubilay-kagan (KUBİLAY KAĞAN) — 'Kasım 1274’te yaklaşık 900 gemi ve 15.000 askerle başlatılan Japonya’yı istilâ teşebbüsü' · TDV: japonya (JAPONYA) — 'Moğollar 1274 ve 1281 yıllarında Japonya’yı istilâ etmeye çalıştılarsa da bu teşebbüsleri başarısızlıkla sonuçlandı'", ic_not_kaynak:"① TDV'de VAR — alıntılar gövdeden birebir doğrulandı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Açılmayan eski akademik atıf (dayanak DEĞİL): Rossabi 1988.",
-  gun:"Kasım 1274 (TDV kubilay-kagan AY verir; gün yok → YYYY-01-01, ay yazılmadı — CLAUDE.md §8)",
+  gun:"Kasım 1274 (TDV kubilay-kagan ay verir; gün yok, kayıt yıl başına konuldu)",
   ic_not_t:"kamakura künye iskeletinde 1274 maddesi var → burada kamakura'ya BAĞLANMADI." },
 
 // ─── JAPONYA: Heian · Ōshū Fujiwara · Kamakura ─────────────────────────
@@ -364,7 +364,7 @@ window.KRONOLOJI_COK_ONCE1281_DOGU_ASYA = [
 
 // ─── VİETNAM · CHAMPA · KMER ───────────────────────────────────────────
 
-{ t:"981-01-01", b:"Bạch Đằng — Lê Hoàn, Song istilasını püskürttü", tur:"savas", onem:3, dunya:1, kapsam:"ic",
+{ t:"0981-01-01", b:"Bạch Đằng — Lê Hoàn, Song istilasını püskürttü", tur:"savas", onem:3, dunya:1, kapsam:"ic",
   etiket:["savas","konu-askeri"], odak_yer:"Hai Phong", yer:"Bạch Đằng nehri · Chi Lăng", taraflar:["tien-le-hanedani","song"],
   d:"Đinh hanedanının karışıklığından yararlanmak isteyen Song, kara ve deniz yoluyla istilaya geçti. Tahta yeni çıkan Lê Hoàn istilacı orduları nehir ve geçitlerde yendi; Song komutanı öldürüldü. Lê Hoàn ardından Song'la haraç ilişkisini yeniden kurarak bağımsızlığı fiilen tanıttı.",
   kaynak:"bulunamadı", ic_not_kaynak:"③ dayanak açılmadı (KAYNAK-DOGRULA-DOGUASYA 01.10.2026). Denenen: TDV camlar 200 (Viet-Çam ilişkisi yalnız yüzyıl düzeyinde) · vietnam 302 · başlık araması 'vietnam' → yalnız ÇAMLAR. Açılmayan eski atıf (kitap sayfası açılmadı, dayanak DEĞİL): K. W. Taylor, A History of the Vietnamese (Cambridge UP, 2013). ‖ TARAYICI TURU (KAYNAK-DOGRULA-DOGUASYA 01.10.2026, tarayıcı turu): betik 403 · tarayıcıyla Britannica denendi (Le-Hoan · Earlier-Le-dynasty) — editör metninde maddeyi olay+yılla destekleyen cümle YOK.",

@@ -127,7 +127,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["hanedan","hukumdar","konu-siyasi","konu-hanedan"],
   yer_id:"",
   d:"Rákos mecliste soyluların çoğunluğu Anjoulu Károly Róbert'i tanıdı; taç giyme töreni asıl kutsal taçla ancak 1310'da tamamlanabildi çünkü taç bir süre rakip beylerin elindeydi. Anjou hanedanı merkezî otoriteyi yeniden kurmaya girişti.",
-  kaynak:"akademik: Engel (2001), s. 124-131 · daha önce künyede (devletler.js) 1308-06-15 yazılıydı, kaynaksızdı; D2c'de bu maddenin gününe çekilmişti; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #32)", yer_id:"Peşte" },
+  kaynak:"akademik: Engel (2001), s. 124-131 · daha önce künyede 1308-06-15 yazılıydı, kaynaksızdı; D2c'de bu maddenin gününe çekilmişti; mükerrer olarak kaldırıldı", yer_id:"Peşte" },
 
 { t:"1312-06-15", devlet:"macaristan", b:"Rozgony Muharebesi — Csák Máté'nin gücünün kırılması", tur:"savas", onem:4, dunya:1, kapsam:"ic",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -405,7 +405,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["hukumdar","bolunme","hanedan","konu-siyasi","konu-hanedan"],
   yer_id:"İstolni Belgrad",
   d:"II. Lajos'un kız kardeşiyle evli olan Habsburglu Ferdinand, Batı ve Kuzey Macaristan'ın büyük kısmının desteğiyle kral ilan edildi; on üç yıl sürecek bir iç savaşta iki kral (Szapolyai ve Ferdinand) ülke üzerinde birbiriyle çatıştı, her ikisi de zaman zaman Osmanlı'dan destek aradı.",
-  kaynak:"akademik: Engel (2001), s. 362-364 · gün: Magyar Katolikus Lexikon, 'pozsonyi királyválasztó országgyűlés' (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"1526. nov. 30.-dec. 17.: Habsburg Ferdinánd … magyar királlyá … választó gyűlés\" · 🔴 DÜZELTME: önceki gün 1527-01-01 idi; aynı sözlük o günü Hırvat soylularının Cetin'de Ferdinand'ı seçtiği gün olarak veriyor (\"A horvátok Czetinben 1527. I. 1: választották kir-lyá Ferdinándot\") — iki seçim karışmıştı; Cetin seçimi ayrı madde: kronoloji_cok_macaristan.js" },
+  kaynak:"akademik: Engel (2001), s. 362-364 · gün: Magyar Katolikus Lexikon, 'pozsonyi királyválasztó országgyűlés' (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"1526. nov. 30.-dec. 17.: Habsburg Ferdinánd … magyar királlyá … választó gyűlés\" · Düzeltme: önceki gün 1527-01-01 idi; aynı sözlük o günü Hırvat soylularının Cetin'de Ferdinand'ı seçtiği gün olarak veriyor (\"A horvátok Czetinben 1527. I. 1: választották kir-lyá Ferdinándot\") — iki seçim karışmıştı; Cetin seçimi ayrı madde: kronoloji_cok_macaristan.js" },
 
 { t:"1538-02-24", devletler:["macaristan-habsburg","dogu-macar-kralligi"], b:"Nagyvárad Antlaşması — Zápolya-Ferdinand paylaşımı", tur:"antlasma", onem:4, dunya:2, kapsam:"ic",
   etiket:["antlasma","bolunme","konu-siyasi","konu-diplomasi"],
@@ -435,7 +435,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["askeri","kusatma","olum","konu-askeri","konu-kisiler","konu-hukuk"],
   yer_id:"",
   d:"Zrínyi Miklós komutasındaki küçük garnizon, aylar süren kuşatmaya direndikten sonra son bir çıkışla neredeyse tamamen yok oldu; kale düşmeden hemen önce Kanuni Sultan Süleyman ordugâhında yaşlılıktan öldü, ölümü savaş bitene dek gizli tutuldu. Zrínyi'nin direnişi Macar-Hırvat millî hafızasında Eğri'ninkine benzer bir kahramanlık efsanesine dönüştü.",
-  kaynak:"TDV `suleyman-i` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"20-21 Safer 974 (6-7 Eylül 1566) gecesi hayata gözlerini yumdu\" · TDV `sigetvar`: kuşatmanın 5 Ağustos 1566'da başladığını ve 5 Eylül'de açılan lağımı anlatır, düşüş günü vermez · 🔴 DÜZELTME: önceki gün 1566-09-08 TDV sigetvar'a dayandırılmıştı ama o maddede 8 Eylül YOK; çekirdek olaylar.js 1566-09-07 ile hizalandı", yer_id:"Zigetvar" },
+  kaynak:"TDV `suleyman-i` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"20-21 Safer 974 (6-7 Eylül 1566) gecesi hayata gözlerini yumdu\" · TDV `sigetvar`: kuşatmanın 5 Ağustos 1566'da başladığını ve 5 Eylül'de açılan lağımı anlatır, düşüş günü vermez · Düzeltme: önceki gün 1566-09-08 TDV sigetvar'a dayandırılmıştı ama o maddede 8 Eylül YOK; çekirdek olaylar.js 1566-09-07 ile hizalandı", yer_id:"Zigetvar" },
 
 { t:"1571-08-16", devlet:"erdel", b:"Torda Edikti — Erdel'de din özgürlüğünün yasalaşması", tur:"kanun", onem:4, dunya:1, kapsam:"ic",
   etiket:["din","kanun","konu-din","konu-hukuk"],
@@ -529,13 +529,13 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["vassal","kurulus","hukumdar","konu-siyasi","konu-hanedan"],
   yer_id:"Kassa (Košice)",
   d:"Budin Beylerbeyi İbrahim Paşa, Fülek önünde Thököly'ye beylik alâmetlerini verdi; IV. Mehmed'in beratı da alınmıştı. Böylece Osmanlı, Kassa merkezli Kuzey-Doğu Macaristan'da haraçgüzar bir 'Orta Macar' krallığı tanımış oldu; Kassa, Eperjes ve Tokaj bu kısa ömürlü vasal yapının merkezleriydi. Yapı 1683 Viyana bozgunundan sonra hızla çözüldü.",
-  kaynak:"TDV `tokoli-imre` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"Budin Beylerbeyi İbrâhim Paşa 16 Eylül'de Fülek Kalesi önünde İmre Tököli'ye prenslik alâmetlerini verdi; IV. Mehmed'den de berat alınmıştı\" · aynı madde: \"1682 Nisanından itibaren Eğri beylerbeyinin Tököli'den Orta Macaristan'ın seçilmiş kralı diye bahsetmesi\" · akademik: Kontler (2002), s. 165-166 · 🔴 DÜZELTME: önceki gün 1682-08-01 idi; kaynakta o gün bulunamadı" },
+  kaynak:"TDV `tokoli-imre` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"Budin Beylerbeyi İbrâhim Paşa 16 Eylül'de Fülek Kalesi önünde İmre Tököli'ye prenslik alâmetlerini verdi; IV. Mehmed'den de berat alınmıştı\" · aynı madde: \"1682 Nisanından itibaren Eğri beylerbeyinin Tököli'den Orta Macaristan'ın seçilmiş kralı diye bahsetmesi\" · akademik: Kontler (2002), s. 165-166 · Düzeltme: önceki gün 1682-08-01 idi; kaynakta o gün bulunamadı" },
 
 { t:"1685-10-15", devlet:"orta-macar-kralligi", gun:"15 Ekim 1685 (Varad'da tutuklanma)", b:"Thököly'nin Varad'da tutuklanması ve Orta Macar Krallığı'nın çöküşü", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"ic",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   yer_id:"Kassa (Košice)",
   d:"Serdar Melek İbrahim Paşa'nın emriyle Varad Beylerbeyi Ahmed Paşa, yardıma gelen Thököly'yi yakalattı. Habsburg karşı taarruzu aynı sonbaharda Kassa'yı da aldı; Thököly 2 Ocak 1686'da Belgrad'da serbest bırakıldığında Orta Macar Krallığı ortadan kalkmıştı. Kuruc geleneği sonraki kuşakta II. Rákóczi Ferenc'e miras kaldı.",
-  kaynak:"TDV `tokoli-imre` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"15 Ekim 1685'te Serdar Melek İbrâhim Paşa'nın emriyle Varad Beylerbeyi Ahmed Paşa kendisine yardım için gelen İmre Tököli'yi yakalattı\" · \"2 Ocak 1686'da Belgrad'da serbest bırakıldığında Orta Macar Krallığı artık ortadan kalkmıştı\" · akademik: Kontler (2002), s. 166 · 🔴 DÜZELTME: başlık 15 Ekim'i Kassa'nın kaybına bağlıyordu; TDV o günü tutuklanmaya veriyor, Kassa'nın teslim günü bulunamadı" },
+  kaynak:"TDV `tokoli-imre` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"15 Ekim 1685'te Serdar Melek İbrâhim Paşa'nın emriyle Varad Beylerbeyi Ahmed Paşa kendisine yardım için gelen İmre Tököli'yi yakalattı\" · \"2 Ocak 1686'da Belgrad'da serbest bırakıldığında Orta Macar Krallığı artık ortadan kalkmıştı\" · akademik: Kontler (2002), s. 166 · Düzeltme: başlık 15 Ekim'i Kassa'nın kaybına bağlıyordu; TDV o günü tutuklanmaya veriyor, Kassa'nın teslim günü bulunamadı" },
 
 { t:"1686-09-02", devlet:"macaristan-habsburg", b:"Budin'in Habsburglar tarafından geri alınması", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -599,7 +599,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["antlasma","isyan","konu-diplomasi","konu-isyan"],
   yer_id:"",
   d:"Rákóczi'nin yokluğunda general Károlyi Sándor'un imzaladığı barış, Kuruc askerlerine genel af ve Macar anayasal ayrıcalıklarının (soylu vergi muafiyeti, Diyet'in yasama hakkı) tanınmasını sağladı; buna karşılık Habsburg hanedanının kalıtsal egemenliği kesinleşti. Barış, Habsburg-Macar ilişkilerini bir asır boyunca nispeten istikrarlı bir uzlaşmaya oturttu.",
-  kaynak:"Magyar Nemzeti Levéltár, 'A szatmári béke' (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"1711. április 29-én Nagykárolyban írta alá Károlyi Sándor és Pálffy János\" · \"a ratifikálásra pedig május 26-án Bécsben került sor\" · akademik: Kontler (2002), s. 172-173 · 🔴 DÜZELTME: önceki gün 30 Nisan idi (Kontler'e dayandırılmış, sayfa bu oturumda okunmadı); kronoloji_habsburg.js aynı olayı 29 Kasım'da tutuyordu — ikisi de ulusal arşivin gününe hizalandı", yer_id:"Szatmár (Satu Mare)" },
+  kaynak:"Magyar Nemzeti Levéltár, 'A szatmári béke' (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"1711. április 29-én Nagykárolyban írta alá Károlyi Sándor és Pálffy János\" · \"a ratifikálásra pedig május 26-án Bécsben került sor\" · akademik: Kontler (2002), s. 172-173 · Düzeltme: önceki gün 30 Nisan idi (Kontler'e dayandırılmış, sayfa okunmadı); kronoloji_habsburg.js aynı olayı 29 Kasım'da tutuyordu — ikisi de ulusal arşivin gününe hizalandı", yer_id:"Szatmár (Satu Mare)" },
 
 { t:"1711-02-21", devlet:"macaristan-habsburg", b:"Rákóczi'nin sürgüne gitmesi", tur:"son", onem:4, dunya:1, kapsam:"ic",
   etiket:["hukumdar","son","konu-siyasi","konu-hanedan","konu-demografi"],

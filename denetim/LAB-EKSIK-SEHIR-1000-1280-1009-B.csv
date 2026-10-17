@@ -1,0 +1,158 @@
+﻿ad,lat,lon,bolge,huk,durum,atlas_ad,atlas_km,atlas_ilk,slug,kaynak,not_,kova
+Ahlat,38.75,42.49,Anadolu,Mervânî/Ahlatşahlar 1100-1207 → Eyyûbî → Selçuklu/Moğol,YOK,Bitlis,51.1,1281,ahlat,TDV: ahlat (önbellek denetim/GLM1-TDV-ONBELLEK/ahlat.txt; gövdede 1000-1280 yılı 23 kez),,B-YOK
+Silvan (Meyyâfârikîn),38.14,41.01,Anadolu,Mervânî başkenti → Artuklu → Eyyûbî,YOK,Hasankeyf,59.1,1281,silvan,"TDV makale sayfası çekildi (SİLVAN, islamansiklopedisi.org.tr/silvan) ama 1000-1280 yıllı cümle çıkmadı — dönem için ÖLÇÜLEMEDİ",,B-YOK
+Sis (Kozan),37.45,35.82,Anadolu,Kilikya Ermeni başkenti,YOK,Erzin,64.6,1281,sis,"kaynak doğrulanmadı (çekilen TDV sayfası başka madde: ""ŞÎS"", kesik sayfa — şehir maddesi değil, kaynak sayılmadı)",,B-YOK
+Korint,37.94,22.93,Balkan,Bizans → Ahaya,YOK,Anabolu (Nauplion),43.0,1281,korint,kaynak doğrulanmadı,,B-YOK
+Andravida,37.9,21.27,Balkan,Ahaya Prinkepsliği başkenti 1205,YOK,Zaklise (Zakynthos),45.2,1281,,kaynak doğrulanmadı,,B-YOK
+Mistra,37.07,22.37,Balkan,Ahaya (1249) → Bizans 1262,YOK,Koron,47.8,1281,mistra,kaynak doğrulanmadı,,B-YOK
+Misivri,42.66,27.73,Balkan,Bizans / Bulgar,YOK,Prevadi (Provadia),62.6,1281,misivri,kaynak doğrulanmadı,,B-YOK
+Beylekan,39.77,47.62,Kafkas,Selçuklu/İldenizli; Moğol 1221,YOK,Şuşa,74.4,1752,,kaynak doğrulanmadı,,B-YOK
+Lazkiye,35.52,35.78,Suriye,Bizans/Antakya Prk. → Eyyûbî 1188,YOK,Antakya,83.2,1281,lazkiye,"TDV ""LAZKİYE"" (islamansiklopedisi.org.tr/lazkiye, çekildi 2026-10-09): ""1086’da Selçuklu Sultanı Melikşah şehir ve çevresine hâkim oldu.""",,B-YOK
+Şevbek,30.53,35.56,Suriye,Kudüs Kr. 1115 → Eyyûbî 1189,YOK,Maan,41.1,1281,sevbek,kaynak doğrulanmadı,,B-YOK
+Kayseriye (Filistin),32.5,34.89,Suriye,Kudüs Kr. 1101-1265,YOK,Nablus,46.2,1281,kayseriye,kaynak doğrulanmadı,,B-YOK
+Taberiye,32.79,35.53,Suriye,Celile Prk. → Eyyûbî 1187,YOK,Akkâ,44.6,1281,taberiye,"TDV ""TABERİYE"" (islamansiklopedisi.org.tr/taberiye, çekildi 2026-10-09): ""Nâvekiyye Türkmenleri 462 (1070) yılı civarında Kurlu Bey kumandasında Taberiye’ye yerleştiler.""",,B-YOK
+Busra,32.52,36.48,Suriye,Selçuklu/Börî/Eyyûbî,YOK,Amman,81.7,1281,busra,"TDV ""BUSRÂ"" (islamansiklopedisi.org.tr/busra, çekildi 2026-10-09): ""Uvak tarafından 1071 yılında Selçuklu Devleti’ne bağlanmıştır.""",,B-YOK
+Tartus,34.89,35.88,Suriye,Trablus Kontluğu/Templar 1102-1291,YOK,Trablusşam,50.6,1281,tartus,"TDV ""TARTÛS"" (islamansiklopedisi.org.tr/tartus, çekildi 2026-10-09): ""Tartûs 475 (1082-83) yılında Suriye Selçuklu Meliki Tâcüddevle Tutuş tarafından zaptedildi.""",,B-YOK
+Ayla (Akabe),29.53,35.0,Suriye,Fâtımî → Kudüs Kr. 1116 → Eyyûbî 1170,YOK,Maan,102.1,1281,akabe,"kaynak doğrulanmadı (çekilen TDV sayfası başka madde: ""AKABE"" Kur'an terimi — şehir maddesi değil, kaynak sayılmadı)",,B-YOK
+Sîrâf,27.67,52.34,İran,Büveyhî/Kîş,YOK,Firûzâbâd,132.5,1281,siraf,kaynak doğrulanmadı,,B-YOK
+Bust (Leşker-i Bâzâr),31.58,64.36,Horasan,Gazneli kışlık merkezi,YOK,Kandehar,127.9,1281,bust,"TDV ""BÜST"" (islamansiklopedisi.org.tr/bust, çekildi 2026-10-09): ""Selçuklular 1045’te şehri yağmaladılar, fakat ele geçiremediler.""",,B-YOK
+Fîrûzkûh (Câm),34.4,64.52,Horasan,Gurlu başkenti ~1146-1215,YOK,Herat,212.7,1281,gurlular,TDV: gurlular (önbellek denetim/GLM1-TDV-ONBELLEK/gurlular.txt; gövdede 1000-1280 yılı 61 kez),,B-YOK
+Bâmiyân,34.82,67.83,Horasan,Gurlu Bâmiyân kolu → Moğol 1221,YOK,Kâbil,126.9,1281,bamiyan,kaynak doğrulanmadı,,B-YOK
+Uç,29.24,71.06,Hind,Kabâce → Delhi,YOK,Bahâvelpûr,62.9,1748,uc,kaynak doğrulanmadı,,B-YOK
+Alamut,36.44,50.59,İran,Nizârî İsmâilî 1090-1256,YOK,Kazvin,55.8,1281,alamut,TDV: alamut (önbellek denetim/GLM1-TDV-ONBELLEK/alamut.txt; gövdede 1000-1280 yılı 17 kez),,B-YOK
+Otrar (Fârâb),42.85,68.3,Mâverâünnehir,Karahanlı/Karahitay → Hârizmşah; 1219 Otrar olayı,YOK,Türkistan (Yesi),50.4,1281,otrar,kaynak doğrulanmadı,,B-YOK
+Özkent,40.77,73.3,Mâverâünnehir,Batı Karahanlı ilk merkezi,YOK,Oş,50.6,1281,ozkent,"TDV ""ÖZKENT"" (islamansiklopedisi.org.tr/ozkent, çekildi 2026-10-09): ""Ancak kendisi Merv’de 395 (1005) yılında öldürüldüğü gibi kardeşleriyle taraftarları esir edilerek tekrar Özkent’e götürüldü.""",,B-YOK
+Tinmel,30.98,-8.23,Mağrib,Muvahhid çıkış merkezi,YOK,Merakeş,76.0,1281,tinmel,kaynak doğrulanmadı,,B-YOK
+Kumbi Salih,15.77,-7.97,Batı Afrika,Gana İmparatorluğu başkenti (1076 Murâbıt),YOK,Nema (Néma),121.2,1640,gana,TDV: gana (önbellek denetim/DEVLET-500-1000-tdv-onbellek/gana.txt; gövdede 1000-1280 yılı 7 kez),,B-YOK
+Evdağust,17.43,-10.42,Batı Afrika,Gana/Murâbıt 1054,YOK,Kiffa,137.7,1640,evdagust,kaynak doğrulanmadı,,B-YOK
+Mârida (Mérida),38.92,-6.34,Endülüs,Batalyevs/Muvahhid → Leon 1230,YOK,Badajoz,54.7,1281,,kaynak doğrulanmadı,,B-YOK
+Chartres,48.45,1.49,Batı Avrupa,Blois-Chartres,YOK,Orléans,68.4,1281,,kaynak doğrulanmadı,,B-YOK
+Carcassonne,43.21,2.35,Batı Avrupa,Trencavel → Fransa 1209,YOK,Narbonne,53.0,1281,,kaynak doğrulanmadı,,B-YOK
+Brattahlíð (Grönland),61.15,-45.51,Kuzey Avrupa,İskandinav Grönland,YOK,Sisimiut (Holsteinsborg),754.5,1756,,kaynak doğrulanmadı,,B-YOK
+Worms,49.63,8.36,Orta Avrupa,Kutsal Roma,YOK,Mainz,41.5,1281,,kaynak doğrulanmadı,,B-YOK
+Speyer,49.32,8.43,Orta Avrupa,Kutsal Roma (Salier),YOK,Mainz,76.3,1281,,kaynak doğrulanmadı,,B-YOK
+Bamberg,49.89,10.89,Orta Avrupa,Bamberg Piskoposluğu 1007,YOK,Nürnberg,50.3,1281,,kaynak doğrulanmadı,,B-YOK
+Goslar,51.91,10.43,Orta Avrupa,Kutsal Roma (Salier sarayı),YOK,Hannover,70.3,1281,,kaynak doğrulanmadı,,B-YOK
+Braunschweig,52.27,10.52,Orta Avrupa,Saksonya/Welf,YOK,Hannover,54.8,1281,,kaynak doğrulanmadı,,B-YOK
+Salzburg,47.8,13.04,Orta Avrupa,Salzburg Başpiskoposluğu,YOK,Linz,108.4,1281,,kaynak doğrulanmadı,,B-YOK
+Gniezno,52.53,17.6,Orta Avrupa,Polonya (Piast) ilk merkezi,YOK,Poznan,47.2,1281,,kaynak doğrulanmadı,,B-YOK
+Płock,52.55,19.7,Orta Avrupa,Mazovya,YOK,Łódź,89.5,1281,,kaynak doğrulanmadı,,B-YOK
+Salerno,40.68,14.77,İtalya,Lombard → Apulya Dk. merkezi,YOK,Napoli,46.4,1281,,kaynak doğrulanmadı,,B-YOK
+Melfi,40.99,15.65,İtalya,Apulya Dk. ilk merkezi,YOK,Foggia,53.2,1281,,kaynak doğrulanmadı,,B-YOK
+Benevento,41.13,14.78,İtalya,Benevento Prk. → Papalık 1077,YOK,Napoli,52.9,1281,,kaynak doğrulanmadı,,B-YOK
+Gaeta,41.21,13.57,İtalya,Gaeta Dk. → Norman,YOK,Napoli,70.8,1281,,kaynak doğrulanmadı,,B-YOK
+Cremona,45.13,10.03,İtalya,Cremona Komünü,YOK,Parma,43.5,1281,,kaynak doğrulanmadı,,B-YOK
+Pereyaslavl,50.07,31.46,Rus,Pereyaslavl Knezliği,YOK,Kiev,78.9,1281,,kaynak doğrulanmadı,,B-YOK
+Turov,52.07,27.74,Rus,Turov Knezliği,YOK,Pinsk,111.9,1281,,kaynak doğrulanmadı,,B-YOK
+Halyç,49.12,24.73,Rus,Galiçya-Volhinya,YOK,Yazlofça (Yazlovets),54.7,1281,,kaynak doğrulanmadı,,B-YOK
+Biler,54.97,50.38,Volga,İdil Bulgar başkenti (12.-13. yy),YOK,Çistopol,46.5,1281,,kaynak doğrulanmadı,,B-YOK
+Somnat,20.89,70.4,Hind,Çalukya (Gazneli baskını 1026),YOK,Diu,63.9,1281,somnat,kaynak doğrulanmadı,,B-YOK
+Khajuraho,24.85,79.92,Hind,Çandela başkenti,YOK,Kanpûr,182.6,1281,,kaynak doğrulanmadı,,B-YOK
+Kâlincar,25.0,80.48,Hind,Çandela kalesi,YOK,Ilâhâbâd (Allahabad),145.8,1281,,kaynak doğrulanmadı,,B-YOK
+Gangaikondaçolapuram,11.21,79.45,Hind,Çola başkenti (1025 sonrası),YOK,Tranquebar (Tharangambadi),48.2,1281,,kaynak doğrulanmadı,,B-YOK
+Kalyani (Basavakalyan),17.87,76.95,Hind,Batı Çalukya başkenti,YOK,Bîdar,60.5,1281,,kaynak doğrulanmadı,,B-YOK
+Halebidu (Dvarasamudra),13.21,75.99,Hind,Hoysala başkenti,YOK,Seringapatam (Şrirangapatnam),117.0,1281,,kaynak doğrulanmadı,,B-YOK
+Kançipuram,12.83,79.7,Hind,Çola,YOK,Arkot (Arcot),42.1,1281,,kaynak doğrulanmadı,,B-YOK
+Navadvipa (Nadia),23.41,88.37,Hind,Sena başkenti → Bahtiyar Halacî 1204,YOK,Hûglî (Hooghly),57.1,1281,,kaynak doğrulanmadı,,B-YOK
+Bihar Şerif,25.2,85.52,Hind,Pala → Halacî 1193,YOK,Patna (Azîmâbâd),58.2,1281,,kaynak doğrulanmadı,,B-YOK
+Polonnaruva,7.94,81.0,Hind,Sinhala başkenti 1070-1232,YOK,Kandy,82.6,1281,,kaynak doğrulanmadı,,B-YOK
+Dambadeniya,7.37,80.15,Hind,Sinhala başkenti 1220-1272,YOK,Kandy,54.3,1281,,kaynak doğrulanmadı,,B-YOK
+Mansûre (Sind),25.88,68.78,Hind,Sind Arap emirliği → Sumra,YOK,Haydarâbâd (Sind),67.3,1768,mansure,kaynak doğrulanmadı,,B-YOK
+Liao Shangjing,43.96,119.38,Çin,Liao üst başkenti,YOK,Chifeng (Ulanhad),191.0,1738,,kaynak doğrulanmadı,,B-YOK
+Hiraizumi,38.99,141.11,Japonya,Ōshū Fujiwara 1087-1189,YOK,Morioka,79.3,1597,,kaynak doğrulanmadı,,B-YOK
+Tsaparang/Tholing (Guge),31.48,79.8,Tibet,Guge Krallığı,YOK,Sirhind,338.6,1281,,kaynak doğrulanmadı,,B-YOK
+Sakya,28.9,88.02,Tibet,Sakya rejimi 1264,YOK,Şigatse,93.1,1281,,kaynak doğrulanmadı,,B-YOK
+Chaco Kanyonu (Pueblo Bonito),36.06,-107.96,Amerika,Ata Pueblo merkezi,YOK,Acoma Pueblo (Sky City),123.8,1610,,kaynak doğrulanmadı,,B-YOK
+Mesa Verde,37.18,-108.49,Amerika,Ata Pueblo,YOK,Tsegi (Canyon de Chelly),144.1,1281,,kaynak doğrulanmadı,,B-YOK
+Tula (Tollan),20.06,-99.34,Amerika,Tolték başkenti (~1150 çöküş),YOK,Tlacopan (Tacuba),68.9,1400,,kaynak doğrulanmadı,,B-YOK
+Tiwanaku,-16.55,-68.67,Amerika,Tiwanaku (~1000-1100 çöküş),YOK,La Paz,55.7,1548,,kaynak doğrulanmadı,,B-YOK
+Nan Madol,6.84,158.33,Okyanusya,Saudeleur hanedanı,VAR-ad,Kolonia (Pohnpei),19.2,1887,,kaynak doğrulanmadı,"en yakın Kolonia (Pohnpei) 19 km, ilk 1887 — Nan Madol için nokta yok",B-YOK
+Malazgirt,39.14,42.54,Anadolu,Bizans → Selçuklu 1071 → Ahlatşahlar/Eyyûbî,YOK,Erciş,71.9,1281,malazgirt,kaynak doğrulanmadı,,B-YOK
+Adilcevaz,38.8,42.73,Anadolu,Ahlatşahlar/Eyyûbî,YOK,Erciş,60.0,1281,adilcevaz,kaynak doğrulanmadı,,B-YOK
+Kalatü Caber,35.9,38.48,Suriye,Ukaylî → Zengî/Eyyûbî,YOK,Rakka,47.9,1281,,kaynak doğrulanmadı,,B-YOK
+Rahbe,35.02,40.45,Suriye,Ukaylî/Selçuklu/Eyyûbî,YOK,Deyrizor,45.0,1281,rahbe,kaynak doğrulanmadı,,B-YOK
+Afâmiye (Apamea),35.42,36.4,Suriye,Antakya Prk./Zengî,YOK,Hama,45.1,1281,,kaynak doğrulanmadı,,B-YOK
+Maarretünnümân,35.65,36.67,Suriye,Haçlı 1098 → Zengî,YOK,Hama,58.1,1281,maarretunnuman,"TDV ""MAARRETÜNNU‘MÂN"" (islamansiklopedisi.org.tr/maarretunnuman, çekildi 2026-10-09): ""Lü’lü’ 392’de (1002) Fâtımîler’le anlaşarak Maarretünnu‘mân’ı ele geçirdi.""",,B-YOK
+Merkab,35.15,35.95,Suriye,Hospitalier 1186-1285,YOK,Hama,72.8,1281,,kaynak doğrulanmadı,,B-YOK
+Cebele,35.36,35.93,Suriye,Antakya Prk. → Eyyûbî 1188,YOK,Hama,78.7,1281,cebele,"TDV ""CEBELE"" (islamansiklopedisi.org.tr/cebele, çekildi 2026-10-09): ""Mansûr) 1080’de Rumlar’ı kovarak şehre hâkim oldu ve Trablusşam’da hüküm süren Ammâroğulları’nı metbû tanıyarak hâkimiyetini sürdürdü.""",,B-YOK
+Bâniyâs,33.25,35.69,Suriye,Kudüs Kr./Börî/Zengî,YOK,Sûr (Tyre) — Lübnan,45.3,1281,,kaynak doğrulanmadı,,B-YOK
+Aclûn,32.33,35.75,Suriye,Eyyûbî kalesi 1184,YOK,Amman,45.7,1281,,kaynak doğrulanmadı,,B-YOK
+Dînever,34.59,47.44,İran,Hasaneveyhî → Selçuklu,YOK,Kirmanşah,46.1,1281,dinever,"TDV makale sayfası çekildi (DÎNEVER, islamansiklopedisi.org.tr/dinever) ama 1000-1280 yıllı cümle çıkmadı — dönem için ÖLÇÜLEMEDİ",,B-YOK
+İzeh (Mâlemîr),31.83,49.87,İran,Lur-i Büzürg merkezi,YOK,Râmhürmüz,66.1,1281,,kaynak doğrulanmadı,,B-YOK
+Ebher,36.15,49.22,İran,Selçuklu,YOK,Sultâniye,49.2,1305,,kaynak doğrulanmadı,,B-YOK
+Kâs (Kath),41.92,60.75,Mâverâünnehir,Hârizm (eski başkent),YOK,Yeni Ürgenç,42.3,1646,,kaynak doğrulanmadı,,B-YOK
+Âmul (Çarcuy),39.08,63.58,Mâverâünnehir,Selçuklu/Hârizmşah Ceyhun geçidi,YOK,Buhara,105.2,1281,,kaynak doğrulanmadı,,B-YOK
+Kâsân,41.25,71.55,Mâverâünnehir,Karahanlı,YOK,Andican,84.9,1281,,kaynak doğrulanmadı,,B-YOK
+Kayalık,45.1,79.8,Doğu Türkistan,Karluk (Rubruk 1254; yeri yaklaşık),YOK,Kopal (Kapal),58.9,1281,,kaynak doğrulanmadı,,B-YOK
+Lori,41.0,44.52,Kafkas,Lori Kr. → Gürcü,YOK,Gümrü (Aleksandropol),61.2,1281,,kaynak doğrulanmadı,,B-YOK
+Ahyolu (Anchialos),42.56,27.64,Balkan,Bizans,YOK,Ahtapolu (Ahtopol),56.8,1281,,kaynak doğrulanmadı,,B-YOK
+Süzebolu,42.42,27.7,Balkan,Bizans,YOK,Ahtapolu (Ahtopol),40.7,1281,,kaynak doğrulanmadı,,B-YOK
+Anavarza,37.25,35.9,Anadolu,Kilikya Ermeni (Rubenî) merkezi,YOK,Erzin,42.3,1281,anavarza,kaynak doğrulanmadı,,B-YOK
+Harran,36.86,39.03,Anadolu,Numeyrî → Selçuklu → Zengî/Eyyûbî,YAKIN,Akçakale,18.2,1281,harran,TDV: harran (önbellek denetim/GLM1-TDV-ONBELLEK/harran.txt; gövdede 1000-1280 yılı 29 kez),"en yakın atlas noktası 18.2 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Ani,40.51,43.57,Anadolu,Bagratlı başkenti → Bizans 1045 → Selçuklu 1064 → Şeddâdî → Gürcü 1199,YAKIN,Kliçatak (Suser),14.7,1281,ani,kaynak doğrulanmadı,"en yakın atlas noktası 14.7 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Misis,36.96,35.62,Anadolu,Bizans/Haçlı → Kilikya Ermeni,YAKIN,Yumurtalık,25.6,1281,misis,TDV: misis (önbellek denetim/GLM1-TDV-ONBELLEK/misis.txt; gövdede 1000-1280 yılı 46 kez),"en yakın atlas noktası 25.6 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Samsat,37.58,38.48,Anadolu,Haçlı/Artuklu/Selçuklu,YAKIN,Kâhta,25.8,1281,samsat,kaynak doğrulanmadı,"en yakın atlas noktası 25.8 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Ereğli (Konya),37.51,34.05,Anadolu,Bizans → Selçuklu,YAKIN,Ulukışla,38.7,1281,eregli,kaynak doğrulanmadı,"en yakın atlas noktası 38.7 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Menekşe (Monemvasia),36.69,23.06,Balkan,Bizans → Ahaya 1248 → Bizans 1262,YAKIN,Elafonisos (Cervi),23.1,1281,menekse,kaynak doğrulanmadı,"en yakın atlas noktası 23.1 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Preslav,43.16,26.81,Balkan,I. Bulgar başkenti → Bizans,YAKIN,Şumnu,16.0,1281,preslav,kaynak doğrulanmadı,"en yakın atlas noktası 16.0 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Şeyzer,35.27,36.57,Suriye,Münkızoğulları 1081-1157,YAKIN,Hama,22.4,1281,seyzer,TDV: seyzer (önbellek denetim/GLM1-TDV-ONBELLEK/seyzer.txt; gövdede 1000-1280 yılı 26 kez),"en yakın atlas noktası 22.4 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Safed,32.96,35.5,Suriye,Tapınak Şövalyeleri → Memlük 1266,YAKIN,Akkâ,39.2,1281,safed,kaynak doğrulanmadı,"en yakın atlas noktası 39.2 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Hısnülekrâd,34.76,36.29,Suriye,Hospitalier 1142-1271 → Memlük,YAKIN,Humus,38.5,1281,hisnulekrad,kaynak doğrulanmadı,"en yakın atlas noktası 38.5 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Cübeyl,34.12,35.65,Suriye,Trablus Kontluğu,YAKIN,Beyrut,29.5,1281,cubeyl,kaynak doğrulanmadı,"en yakın atlas noktası 29.5 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Rey,35.59,51.44,İran,Büveyhî → Selçuklu 1042 → Hârizmşah → Moğol yıkımı 1220,YAKIN,Tahran,12.0,1281,rey,TDV: rey (önbellek denetim/GLM1-TDV-ONBELLEK/rey.txt; gövdede 1000-1280 yılı 6 kez),"en yakın atlas noktası 12.0 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Cürcân (Gürgân),37.25,55.17,İran,Ziyârî → Selçuklu → Hârizmşah,VAR-ad,Esterâbâd (Gürgân),79.8,1281,curcan,kaynak doğrulanmadı,"ad eşleşmesi Esterâbâd (Gürgân) 79,8 km — ortaçağ Cürcân (Gonbad-ı Kâvus) ayrı yer; Esterâbâd vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Beşbalık,44.1,89.18,Doğu Türkistan,Koço Uygur kışlık merkezi,YAKIN,Qitai (Gucheng),32.0,1771,besbalik,kaynak doğrulanmadı,"en yakın atlas noktası 32.0 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Kara-Hoto,41.75,101.07,Çin,Batı Xia,YAKIN,Ejin (Hara-Hoto),22.2,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 22.2 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Ayzâb,22.33,36.49,Mısır,Fâtımî/Eyyûbî Kızıldeniz limanı,YAKIN,Halâib,20.3,1281,ayzab,kaynak doğrulanmadı,"en yakın atlas noktası 20.3 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Eski Dongola,18.22,30.75,Nûbe,Makurya Krallığı başkenti,YAKIN,Debbe,28.0,1281,dunkula,kaynak doğrulanmadı,"en yakın atlas noktası 28.0 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Soba,15.52,32.68,Nûbe,Alva Krallığı başkenti,YAKIN,Hartum,13.2,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 13.2 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Kal'atü Benî Hammâd,35.81,4.79,Mağrib,Hammâdî başkenti 1007-1090,YAKIN,Mesîle,25.2,1281,kalatu-beni-hammad,kaynak doğrulanmadı,"en yakın atlas noktası 25.2 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Ağmât,31.42,-7.8,Mağrib,Murâbıt ilk merkezi,YAKIN,Merakeş,29.0,1281,agmat,kaynak doğrulanmadı,"en yakın atlas noktası 29.0 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Kalhât,22.69,59.37,Arabistan,Hürmüz'e bağlı,YAKIN,Sûr,21.5,1281,kalhat,kaynak doğrulanmadı,"en yakın atlas noktası 21.5 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Silves,37.19,-8.44,Endülüs,Muvahhid → Portekiz 1189/1249,YAKIN,Lagos (Algarve),22.9,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 22.9 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Arles,43.68,4.63,Batı Avrupa,Arles Kr./Provence,YAKIN,Avignon,33.1,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 33.1 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Winchester,51.06,-1.31,Batı Avrupa,İngiltere (eski başkent),YAKIN,Southampton,17.9,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 17.9 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Canterbury,51.28,1.08,Batı Avrupa,İngiltere (başpiskoposluk),YAKIN,Dover,23.4,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 23.4 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Roskilde,55.64,12.08,Kuzey Avrupa,Danimarka başkenti,YAKIN,Kopenhag,30.8,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 30.8 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Lund,55.7,13.19,Kuzey Avrupa,Danimarka (başpiskoposluk 1104),YAKIN,Malmö,15.9,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 15.9 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Schleswig,54.52,9.56,Kuzey Avrupa,Danimarka,YAKIN,Flensburg,30.3,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 30.3 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Pavia,45.19,9.16,İtalya,İtalya Kr. eski başkenti,YAKIN,Milano,30.6,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 30.6 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Amalfi,40.63,14.6,İtalya,Amalfi Dk. → Norman 1073,YAKIN,Napoli,37.3,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 37.3 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Capua,41.11,14.21,İtalya,Capua Prk. → Norman,YAKIN,Napoli,29.1,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 29.1 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Lucca,43.84,10.5,İtalya,Toskana/Lucca Komünü,YAKIN,Pisa,16.1,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 16.1 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Aquileia,45.77,13.37,İtalya,Aquileia Patrikliği,YAKIN,Trieste,33.8,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 33.8 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Eski Ryazan,54.39,40.58,Rus,Ryazan Knezliği başkenti → Moğol 1237,VAR-ad,Ryazan,60.4,1281,,kaynak doğrulanmadı,ad eşleşmesi Ryazan 60 km — Eski Ryazan (1237 yıkımı) ayrı yer; modern Ryazan = Pereyaslavl-Ryazanski,OLCULEMEDI
+Dhâr,22.6,75.3,Hind,Paramâra başkenti,YAKIN,Mandu (Mândû),31.2,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 31.2 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Lamphun (Hariphunchai),18.58,99.01,GD Asya,Hariphunchai,YAKIN,Chiang Mai,23.3,1296,,kaynak doğrulanmadı,"en yakın atlas noktası 23.3 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Kediri (Daha),-7.82,112.01,GD Asya,Kediri Krallığı başkenti,YAKIN,Blitar,35.8,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 35.8 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Singhasari,-7.89,112.66,GD Asya,Singhasari 1222,YAKIN,Malang,10.5,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 10.5 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Şimşat (Arsamosata),38.86,39.71,Anadolu,Bizans → Artuklu,YAKIN,Palu,27.0,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 27.0 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Tell Bâşir,36.83,37.68,Suriye,Urfa Kontluğu ikinci merkezi 1144-1150,YAKIN,Mercihamis (Yurtbağı),29.0,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 29.0 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Karkîsiyâ,35.16,40.43,Suriye,Selçuklu/Eyyûbî,YAKIN,Deyrizor,32.7,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 32.7 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Dunaysir (Kızıltepe),37.19,40.59,Anadolu,Artuklu (Mardin kolu),YAKIN,Mardin,18.7,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 18.7 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Hârim,36.21,36.52,Suriye,Antakya Prk. → Zengî 1164,YAKIN,Antakya,32.2,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 32.2 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Masyaf,35.07,36.34,Suriye,Suriye Nizârîleri merkezi → Memlük 1270,YAKIN,Hama,37.9,1281,masyaf,kaynak doğrulanmadı,"en yakın atlas noktası 37.9 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Atlit (Château Pèlerin),32.7,34.93,Suriye,Tapınak Şövalyeleri 1218-1291,YAKIN,Akkâ,29.1,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 29.1 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Arsûf,32.2,34.81,Suriye,Kudüs Kr. → Memlük 1265,YAKIN,Yafa,17.0,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 17.0 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Remle,31.93,34.87,Suriye,Fâtımî → Kudüs Kr.,YAKIN,Yafa,17.5,1281,remle,kaynak doğrulanmadı,"en yakın atlas noktası 17.5 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Halîl (Hebron),31.53,35.1,Suriye,Kudüs Kr. → Eyyûbî,YAKIN,Kudüs,30.3,1281,halil,TDV: halil (önbellek denetim/GLM1-EPOK-SAHIP-1009-tdv-onbellek/halil.txt; gövdede 1000-1280 yılı 11 kez),"en yakın atlas noktası 30.3 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Nâsıra,32.7,35.3,Suriye,Kudüs Kr. (Celile),YAKIN,Akkâ,32.5,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 32.5 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Beysân,32.5,35.5,Suriye,Kudüs Kr. → Eyyûbî,YAKIN,Nablus,38.7,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 38.7 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Salt,32.04,35.73,Suriye,Eyyûbî,YAKIN,Amman,21.7,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 21.7 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Hulvân,34.46,45.86,İran,Annâzî → Selçuklu,YAKIN,Kasr-ı Şîrîn,26.6,1281,hulvan,kaynak doğrulanmadı,"en yakın atlas noktası 26.6 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Paykend,39.68,64.12,Mâverâünnehir,Karahanlı,YAKIN,Buhara,27.5,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 27.5 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Ahsîkes,40.87,71.0,Mâverâünnehir,Karahanlı Fergana merkezi,YAKIN,Hokand,38.2,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 38.2 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Cend,44.7,65.3,Mâverâünnehir,Oğuz/Hârizmşah Sirderya şehri (yeri tartışmalı),YAKIN,Ak-Meçit (Perovsk),23.5,1281,cend,kaynak doğrulanmadı,"en yakın atlas noktası 23.5 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Şamkor,40.83,46.02,Kafkas,Şeddâdî/Selçuklu/Gürcü,YAKIN,Gence,33.0,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 33.0 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Pliska,43.38,27.12,Balkan,I. Bulgar eski başkenti,YAKIN,Şumnu,19.2,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 19.2 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Pirlepe,41.35,21.55,Balkan,Bizans/Epir/Bulgar,YAKIN,Manastır,39.8,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 39.8 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Melnik,41.52,23.39,Balkan,Bulgar despotluğu,YAKIN,Petriç,20.2,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 20.2 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Kalamata,37.04,22.11,Balkan,Ahaya (Villehardouin),YAKIN,Koron,30.4,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 30.4 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Glarentza,37.94,21.15,Balkan,Ahaya limanı,YAKIN,Zaklise (Zakynthos),37.0,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 37.0 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Honaz,37.76,29.26,Anadolu,Bizans → Selçuklu,YAKIN,Denizli,14.8,1281,honaz,kaynak doğrulanmadı,"en yakın atlas noktası 14.8 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Kemalpaşa (Nymphaion),38.43,27.42,Anadolu,İznik İmparatorluğu sarayı,YAKIN,Manisa,20.5,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 20.5 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Korikos,36.46,34.15,Anadolu,Kilikya Ermeni,YAKIN,Silifke,25.3,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 25.3 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Lampron (Çamlıyayla),37.17,34.6,Anadolu,Hetumî Ermeni,YAKIN,Tarsus,38.4,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 38.4 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Zibatra,38.3,38.1,Anadolu,Bizans/Selçuklu (yeri yaklaşık),YAKIN,Malatya,21.2,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 21.2 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Erzen,38.03,41.37,Anadolu,Dilmaçoğulları/Artuklu,YAKIN,Hasankeyf,35.3,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 35.3 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI
+Hîzân,38.23,42.42,Anadolu,Ahlatşah,YAKIN,Bitlis,33.2,1281,,kaynak doğrulanmadı,"en yakın atlas noktası 33.2 km — vekil mi, ayrı nokta mı: insan kararı",OLCULEMEDI

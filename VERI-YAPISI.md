@@ -56,52 +56,67 @@ gibi bir **yazım hatasını** *"kasıtlı"* diye etiketler ve görünmez kılar
 
 ---
 
-## 🔴 TAKVİM — bütün tarih alanlarını bağlar, ve BUGÜNE KADAR YAZILI DEĞİLDİ
+## 🔴 TAKVİM — bütün tarih alanlarını bağlar (Emre, 15 Ekim 2026, KARARLAR-EMRE-1015 #10)
 
-> **Bu atlasın tarihleri JÜLYEN'dir. ÇEVİRME YAPILMAZ.**
+> **Bu atlasın günleri GREGORYEN'dir. Jülyen gün veren kaynak Gregoryen'e ÇEVRİLİR;
+> iki takvim de kayda yazılır. 1582 öncesi günler Jülyen KALIR.**
 
-Bu kural 2 Eylül 2026'da **ölçülerek** kondu. Ondan önce hiçbir belgede
-yoktu — ve yokluğu iki oturumu *"veri ile TDV çelişiyor"* sanmaya
-götürdü. Çelişki yoktu; **ölçüt yazılı değildi.**
-
-### Nasıl ölçüldü — tek cümlelik kanıt
-TDV `tiflis` maddesi olayı *"**29 Ağustos Cuma** günü"* diye veriyor.
-```
-29 Ağustos 1578  Jülyen'de   CUMA    ✓ TDV'nin dediği gün
-29 Ağustos 1578  Gregoryen'de SALI    ✗
-```
-⇒ **TDV bu dönem için JÜLYEN veriyor.** Kaynağın kendi haftagünü, hangi
-takvimi kullandığını ele veriyor — tarihin kendisi vermiyor.
-
-### Ve atlasın kendi geleneği de Jülyen
-```
-İstanbul'un fethi   29 Mayıs 1453   ← Jülyen. Veride böyle yazılı.
-```
-İki taraf uyuşuyor, yani **dönüştürme gereksiz ve ZARARLI**: bir kaydı
-Gregoryen'e çevirmek onu komşularından 10-13 gün ayırır ve `Değişmez 2`
-senkronunu bozar.
+📌 Tarihçe (bir cümle): 2 Eylül 2026'da konan eski kural *"tarihler Jülyen'dir,
+ÇEVİRME YAPILMAZ"* diyordu ve KARARLAR-1014 m.28 Rus kaynaklı günleri Jülyen'e
+döndürmüştü; #10 bunu kaldırdı, m.28 dönüşleri TAKVİM-1015 ile Gregoryen'e geri
+alındı (iptal edilen 1e8b2db53'ün "Gregoryen → Jülyen" uygulaması da UYGULANMAZ).
 
 ### 🔴 KURAL
 ```
-TDV'den gelen tarih          OLDUĞU GİBİ yazılır
-Batı kaynağından gelen tarih kaynağın hangi takvimde olduğu ÖLÇÜLÜR
-                             (haftagünü · kaynağın kendi beyanı)
-Hicrî tarih                  karşılığı verilmişse o alınır, kendin ÇEVİRME
-çevirme                      YAPILMAZ — ve yapıldıysa `kaynak:`ta YAZILIR
+1582-10-15'ten SONRAKİ gün   GREGORYEN yazılır
+   kaynak Jülyen veriyorsa  ÇEVRİLİR (Gregoryen = Jülyen + fark):
+      1582-10-15 .. 1700-02-28   +10 gün
+      1700-03-01 .. 1800-02-28   +11 gün
+      1800-03-01 .. 1900-02-28   +12 gün
+      1900-03-01 .. 1918-02-13   +13 gün
+   (aralıklar Gregoryen gündür; Jülyen 1700-02-29 gibi Gregoryen'de olmayan
+    günler bir sonraki aralığın farkıyla çevrilir)
+1582-10-15'ten ÖNCEKİ gün    JÜLYEN kalır — proleptik Gregoryen KULLANILMAZ
+                             (İstanbul'un fethi 1453-05-29, Tiflis 1578-08-29
+                             TDV haftagünüyle ölçülmüş Jülyen — dokunulmaz)
+TDV'den gelen gün            1582 sonrası TDV çoğunlukla Gregoryen verir; ama bazen
+                             Jülyen/Rûmî gün yazar (ör. 1912 Balkan: Karaferye
+                             '16 Ekim' = Gregoryen 29 Ekim) — haftagünü ve
+                             bağlamla ÖLÇÜLÜR, ölçülemezse dokunulmaz, bildirilir
+Rus/Balkan kaynağı           ESBE, Sytin ВЭ, RBS, Lukyanoviç, Petrov, Dubrovin
+(1918-02-14 öncesi)          vb. aksini yazmadıkça ESKİ TAKVİMDİR (Jülyen) —
+                             ama yalnız kaynak/not takvimi KESİN söylüyorsa
+                             çevrilir; belirsizse çevrilmez ve listelenir
+Hicrî tarih                  karşılığı verilmişse o alınır; vermiyorsa CLAUDE.md
+                             hicrî kuralı — 1582 sonrası Gregoryen tabloyla
+AY hassasiyetli Jülyen       Jülyen ayın 1'i çevrilir (ör. "Temmuz 1771" J →
+                             1771-07-12), hassasiyet `kesinlik`/`gun`da durur
 ```
 
-### ⚠️ VE BİR VARYANT ÇATIŞMASI ÇEVİRİYLE ÇÖZÜLMEZ, NOTLA ÇÖZÜLÜR
-Ölçülmüş vaka — Özi: veri `1737-07-13`, TDV `11 Temmuz`. İki gün fark
-takvim varyantından geliyor (Rus eski takvimi ↔ Hicrî kayıt). **Doğrusu
-tarihi değiştirmek değil**, `kaynak:` alanına varyantı **not düşmek** —
-çünkü hangisinin doğru olduğu değil, **hangi kaydın hangi takvimde
-tutulduğu** bilinmiyor.
+### `ic_not_takvim` — çevirinin izi ZORUNLUDUR
+Çevrilen her kayıtta not, kullanıcıya gösterilmeyen alana yazılır:
+```
+ic_not_takvim:"Jülyen <gün> (<kaynak>) = Gregoryen <gün>"
+```
+- **Kronoloji / savaş / sefer / künye kaydı:** `ic_not_takvim` alanı.
+- **Yerleşim dönemi (`s:`/`d:`/`v:`/`isg:` nesnesi):** dönem nesnesine yeni alan
+  AÇILMAZ (`girdi.py` `BILINEN_DONEM_ALANLARI`) — aynı cümle dönemin `kaynak:`
+  metninin BAŞINA yazılır.
+- Kullanıcıya görünen `gun:` metni Gregoryen günü önce verir, Jülyen'i ayraçta
+  anar: `"27 Eylül 1770 (Jülyen 16 Eylül)"`.
+- Gün zaten Gregoryen ise ve kaynak Jülyen'i de veriyorsa: gün DEĞİŞMEZ, yalnız
+  `ic_not_takvim` eklenir.
 
-📌 Ve bunun tersi de ölçüldü, karıştırılmasın: **Tiflis'te sorun takvim
-DEĞİLDİ.** `1578-08-09` Tiflis'in fethi değil **Çıldır Savaşı'nın günü**;
-o gün beş yerleşime ve dokuz dönem ucuna toptan yazılmış. ⇒ *"İki tarih
-çelişiyor"* gördüğünde **önce takvimi, sonra OLAYIN KENDİSİNİ** ölç —
-ikisi farklı kusur sınıfıdır ve çareleri terstir.
+### ⚠️ Çevirmeden önce: OLAYIN KENDİSİ ve VARYANT
+- Bir varyant çatışması (ör. Özi 1737: veri `1737-07-11` TDV, ESBE 2 Temmuz eski
+  takvim = 13 Temmuz) çeviriyle ZORLA çözülmez: TDV'nin günü hangi takvimde
+  ölçülemiyorsa gün kalır, varyant `kaynak:`a not düşülür.
+- Tiflis vakası: `1578-08-09` Tiflis'in fethi değil **Çıldır Savaşı'nın günüydü**.
+  ⇒ *"İki tarih çelişiyor"* gördüğünde **önce takvimi, sonra OLAYIN KENDİSİNİ**
+  ölç — ikisi farklı kusur sınıfıdır ve çareleri terstir.
+- Bir yerleşim kırılması çevrilirse aynı olayın kronoloji maddesi ve bütün
+  kopyaları (savaslar, seferler, sehirler, ekokuma bağları `"<gün>|<kelime>"`,
+  kaynaklı halka, `yer_yama.js` anahtarları) AYNI güne çekilir (Değişmez 2, ±30 gün).
 
 ---
 
@@ -293,8 +308,9 @@ demez. İzin `C4` ile açılır. Bugünkü evrende negatif yıl: **0**.
 **4.747.787 günün her birinde** Python ve JS ikizleri birebir; bugünkü verinin
 **7.404 tarih dizgisinde** eski `gunIdx`/`gun_no` ile fark **0**.
 ⚠️ Jülyen/Gregoryen farkı bu sözleşmenin DIŞINDADIR (1281'de 7, MÖ 3000'de
-**24 gün**). Kaynağın hangi takvimi kullandığı ayrı bir sorudur ve kaynak
-araştırmasında sorulur.
+**24 gün**): 1582 öncesi günler Jülyen yazılır, proleptik Gregoryen kullanılmaz
+(TAKVİM kuralı, Emre #10). Kaynağın hangi takvimi kullandığı ayrı bir sorudur
+ve kaynak araştırmasında sorulur.
 
 ---
 
@@ -417,7 +433,41 @@ uydurmak** cazip görünür. **Yasak.** Ayrımı bir örnek çifti veriyor:
 🟢 MEŞRU — ŞIRNAK   kur:"1891-01-01" · kesinlik:"belirsiz"
    Kaynak ŞIRNAK HAKKINDA konuşuyor: "XIX. yüzyılın sonlarına doğru bir
    KÖY ADI olarak geçmektedir (Cuinet)."
-   ⇒ 1891 bir ALT SINIRDIR ve alt sınırın DAYANAĞI o cümledir.
+   ⇒ 🔴 1891'İN NEYİN SINIRI OLDUĞU YAZILMALIDIR — iki ayrı nicelik var:
+     · **KURULUŞ için 1891 ÜST SINIRDIR:** "en geç 1891'de vardı".
+       Daha ÖNCE kurulmuş olabilir ve kaynak bunu DIŞLAMIYOR.
+     · **HARİTADA GÖRÜNME günü için 1891 ALT SINIRDIR:** daha erken
+       gösteremeyiz, çünkü tanık yok.
+     Dayanağı o cümledir — ama hangi niceliğin sınırı olduğu da yazılır.
+
+🔴 BURADAN ÇIKAN KURAL — İLK ANILIŞTAN `kur:` TÜRETİLMEZ
+   *(10 Ekim 2026, KASA ölçtü — K1 Mezopotamya yazım turu)*
+   `kur:` bir KURULUŞ iddiasıdır ve örtük olarak **"öncesi yok"** der.
+   İlk anılış ise yalnız **"bu tarihte vardı"** der. İkisi aynı şey değil:
+   ilk anılış kuruluşun ÜST sınırıdır, kuruluşun KENDİSİ değildir.
+   ⇒ Elinde yalnız ilk anılış varsa: `f:` o tarihtir (harita o gün
+     başlar), `kur:` YAZILMAZ; "en geç" beyanı `ic_not`a girer.
+   ⚠️ MÖ evreninde HER şehrin bir ilk anılışı var. Bu kural yazılmadan,
+     ilk anılışları `kur:`a çeviren bir yazım binlerce yanlış kuruluş
+     tarihi üretir — ve hepsi birbiriyle TUTARLI olacağı için hiçbir
+     kapı yakalamaz.
+   🟢 İSTİSNA — ATLAS YERLEŞİMİNDE GÖRÜNME ALT SINIRI *(Emre kararı, 14 Ekim 2026)*
+     Motor bir yerleşimin VAR OLDUĞU dönemi YALNIZ `kur:`dan okur (`petek_epok`;
+     Değişmez 1 `kur:` öncesini atlar, 5a `kur:` öncesi dönemi affetmez). Yani `f:`yi
+     ileri alıp `kur:` yazmamak sahipsiz delik üretir. Bu yüzden `yerlesimler*.js`te
+     yalnız ilk anılış varsa **ŞIRNAK KALIBI** uygulanır:
+       `kur:` = ilk yazılı tanık · `kesinlik:` tanığın hassasiyeti ·
+       `neden:` "kur: KURULUŞ DEĞİL, İLK YAZILI TANIK — görünme için ALT SINIR" + kaynak.
+     Kalıp, beyanı ZORUNLU kılarak 10 Ekim kuralının korktuğu sessiz yanlışı önler:
+     `kur:` alanı iki anlam taşır, hangisi olduğu `neden:`de yazar.
+     ⛔ Kalıp UYGULANMAZ: (a) "tanık yok" değil "ölçülemedi" ise (kaynak okunamadı —
+     Şibînülkûm) · (b) atlas noktası bir BÖLGEYİ ya da ADAYI temsil ediyorsa (Sisam,
+     Kabiliye, Fizan) · (c) atlasta zaten kaynaklı bir `kur:` varsa ve yeni tanık onu
+     çürütmüyorsa (Kesela). İlk uygulama: 28 şehir, `denetim/SEHIR-TARIHCE-OSM-1014/ATLAS-BASLANGIC.md`.
+   📌 Aynı ailenin veri yüzü aynı gün ölçüldü: *"by the reign of
+     Adad-nīrārī III (810–783)"* tanığından **-810** alınmıştı; güvenli
+     sınır **-783**'tü. Orada aralığın yanlış UCU, burada sınırın yanlış
+     YÖNÜ. **Bir sayı, niceliği ve yönü yazılmadan anlamsızdır.**
 
 🔴 YASAK — bir başkentin `f`/`t`sini HÜKÜMDARIN saltanatından türetmek
    Kaynak hükümdarın saltanatı hakkında konuşuyor, BAŞKENT hakkında
@@ -483,6 +533,50 @@ boole eklemek 155 kaydın hiçbirini bozmuyor.
 
 📌 Ve veri **zaten hazır**: `"Macaristan (Zapolya vasal krallığı)"`
 etiketiyle **5 kayıt** duruyor. Eksik olan sahiplik değil, **kademe.**
+
+---
+
+### `tabi:` — ZAMANLI TÂBİLİK *(CANLI veri · TÜKETİCİSİ YOK)*
+
+```js
+tabi:[{ f:"1475-06-06", t:"1774-07-21", ust:"osmanli" }]
+```
+| alan | ne |
+|---|---|
+| `f` | tâbiliğin BAŞLADIĞI gün (ISO) |
+| `t` | tâbiliğin BİTTİĞİ gün — **bir SINIR, bir "yıkılış" değil** |
+| `ust` | ÜST devletin `id:`i — `data/devletler.js`te var olan bir kimlik |
+
+**ÖLÇÜLEN KULLANIM (11 Ekim 2026):** **17 kayıt / 16 künye.** Bir künye birden
+çok dilim taşıyabilir (`dulkadir` · `misir-kavalali` · `karadag` ikişer).
+`ust` değerleri: `osmanli` 15 · **`rusya` 1** (`don-kazak`) ·
+**`fransa-cumhuriyet` 1** (`tunus-beyligi-fransiz`).
+
+🔴 **TÜKETİCİSİ YOK — ve bu, "çağıranı olmayan kapı"nın VERİ YÜZÜDÜR.**
+Ölçüldü: `arac/*.py`de 0, `js/app.js`te 0 okuyucu (her iki dosyadaki "tabi"
+isabetleri Türkçe kelime ya da `v:` alanı hakkında). ⇒ 17 kayıt yazılmış,
+**hiçbir şey okumuyor.**
+📌 Ve bu, ölü bir kapıdan KÖTÜDÜR: ölü kapı hiçbir şey yapmaz, **ölü bir
+veri alanı ise bir şey YAPIYOR GİBİ GÖRÜNÜR.** Birisi 17 tâbilik kaydını
+"haritada çizilecek" inancıyla yazdı. Yazılmış ama okunmayan veri, eksik
+veriden daha tehlikelidir: eksikliği bir denetim bulur, **sahte dolgunluğu
+hiçbir denetim aramaz.**
+⚠️ Bu alan `BILINEN_ALANLAR`a eklenirken `v:` ile KARIŞTIRILMAMALI:
+`v:` HARİTA BOYASIDIR (motor okur, tâbi rengini çizer) · `tabi:` ise
+**İLİŞKİNİN KÜNYESİ** (kim kime, hangi tarihler arası). Biri boyar, öteki
+beyan eder; ikisi aynı olguyu ayrı eksende tutar.
+
+🟢 **BEKLENEN TÜKETİCİSİ ADIYLA BELLİ: Emre'nin K1 kararı** (10 Ekim 2026):
+> *"yabancı devletlere de tâbilik çizilsin ve tâbilik etiketi ile belirtilsin,
+> 'Fransa'ya tâbi' şeklinde, ve rengi bir tık açık renk olsun tâbi olunan
+> devletten."*
+⇒ K1'in veri katmanı **ZATEN VAR** ve `don-kazak → rusya` ile
+`tunus-beyligi-fransiz → fransa-cumhuriyet` tam olarak K1'in istediği
+**yabancı→yabancı** hâlidir. Eksik olan veri değil, **okuyucu**: ① motorun
+`ust`u okuyup tâbi rengini üst devletin renginden türetmesi ② ön yüzün
+etiketi basması. İkisi de ayrı iş, ikisi de yazılmadı.
+🔴 Yeni tâbilik yazarken: `t` bir **ÜST SINIR**tır ("en geç bu gün bitti"),
+ömür sonu DEĞİL — `kur:` maddesindeki yön hatasının aynısına düşülmesin.
 
 ---
 
@@ -619,6 +713,21 @@ farklı okunur; *geri çekilme* ile *taarruz* ise **glif düzeyinde** ayrılır.
 
 ⚠️ **Geriye dönük uyumlu:** `tur`/`sonuc` yoksa eski davranış (dolu ok, kesikli
 çizgi, rozetsiz) aynen sürer — mevcut 50 kaydın hiçbiri bozulmaz.
+
+#### 🔴 Ara noktalar (`yol` içindeki istasyonlar) — YALNIZ KAYNAKLI (Emre kararı, 14 Ekim 2026)
+
+Kutu 0073/H-0001 (Emre: *"şehirlerin üzerinden geçen bir hat ile çizilebilir … literatürde
+bilgi bulursak bu bilgileri kullanmalıyız, bulamaz isek kabataslak çizebiliriz"*); karar
+KARARLAR-1014 #39: **ara istasyon yalnız kaynağı olan seferlere yazılır.**
+
+- `yol` dizisindeki uç noktalar (kaynak · hedef) dışındaki her nokta, kaynağın ADIYLA andığı
+  bir konak/şehir/geçittir; kaynak alanı (`kaynak` ya da istasyon yanındaki yorum) onu söyler.
+- Kaynaksız uzun oka "yerleşimlerden geçen şematik ara nokta" (`guzergah_kesinlik:"temsili"`)
+  **YAZILMAZ.** Gerekçe: temsili istasyon okura gerçek bir güzergâh iddiası olarak okunur —
+  beyansız yaklaşıklık beyanlı boşluktan kötüdür. Kaynaksız uzun ok bugünkü gibi iki uçlu,
+  hafif kavisli (`js/sefer_ok.js` `seferKavisliYol`) kalır; kavis güzergâh iddiası değildir.
+- Ölçüm (OK-0073 §5): 147 uzun parçanın 125'inde ±50 km'de ≥2 yerleşim var — bu sayı
+  istasyon yazmanın gerekçesi DEĞİLDİR; yalnız literatür taramasının iş kuyruğudur.
 
 ⚠️ **`tur` başına AYRI KATMAN gerekiyor** ve sebebi teknik: MapLibre'de
 `line-dasharray` veriyle sürülemeyen bir boya özelliği, yani tek katmanda
@@ -785,4 +894,125 @@ ayar     katman seçicide "⑧ Kaynakla kesinleşmiş sahiplik halkaları" · va
          localStorage "halkaAc" ("1"/"0", try/catch) · KAPALI ⇒ kaynak BOŞ (görünürlük değil)
 ```
 Sınav aleti: `denetim/ARAC-HALKA-SINA-0913.js` (şema · ad çözümü · künye · renk · pencere).
+
+---
+
+## 🆕 `data/sehir_tarihce_*.js` — ŞEHİR TARİHÇESİ (ARAŞTIRMA BİRİKİMİ) *(13 Ekim 2026, Emre kararı)*
+
+**Ne için:** 1900'de kategori 1–3 olan şehirleri (`denetim/SEHIR-1900-LISTE-1013`) tarih sahnesine ilk
+çıktıkları güne geri götürmek ve her şehrin sahiplik zincirini + kronolojisini kaynaklı biriktirmek.
+**Motor OKUMAZ, denetle OKUMAZ, site YÜKLEMEZ** (`index.html`de satır yok, hiçbir glob'a girmez).
+Niçin ayrı: MÖ tarih motorda henüz yazılamıyor (`C4`) ve yeni nokta sahiplik zinciri olmadan
+eklenemez (Değişmez 1) — araştırma bunları BEKLEMEDEN birikir, aktarım sonra yapılır.
+
+Ad alanı: `data/sehir_tarihce_<bolge>.js` → `window.SEHIR_TARIHCE_<BOLGE>` (ör. `_OSM`).
+Denetim ve JS üretimi: `py arac/sehir_tarihce.py denetle <dosya.js>` · `yaz <json> <dosya.js> <BOLGE>`.
+
+```js
+{ id:"konya", ad:"Konya", atlas_ad:"Konya",          // atlas_ad: 3 km içindeki atlas noktası, yoksa null
+  lat:37.872, lon:32.492, kat1900:2,                 // kat1900: 1 başkent · 2 eyalet · 3 sancak boyu
+  adlar:["Kawania","İkonion","Iconium","Konya"],     // tarih sırasıyla; aynı koordinat = aynı şehir
+  ilk:{ t:"-0400-01-01", gun:"MÖ 401", nicelik:"ilk_anilis", kesinlik:"yil",
+        kaynak:"Ksenophon, Anabasis 1.2.19 (Perseus)", tanik:"to Iconium, the last city of Phrygia" },
+  kur:null,                                          // yalnız KURULUŞA tanıklık varsa {t,gun,kesinlik,kaynak,tanik}
+  ark:{ t:"-1999-01-01", gun:"MÖ 2000", kesinlik:"belirsiz", kaynak:"Akok, Belleten 39/154 (1975)" },
+  bit:null,                                          // terk edildiyse {t,gun,kesinlik,kaynak}
+  sahip:[ { f:"-0400-01-01", t:"-0332-…", d:"ahamenis", kesinlik:"yil", kaynak:"…" }, … ],
+  olay:[ { t:"-0332-…", gun:"MÖ 333", k:"fetih", b:"…", kaynak:"…" }, … ],
+  ic_not:"…" }
+```
+
+**Kurallar** (`arac/sehir_tarihce.py denetle` hepsini sınar; çıkış 0 temiz · 1 ihlal · 2 ölçülemedi):
+- `ilk.nicelik`: `kurulus` | `ilk_anilis` | `arkeolojik`. Haritanın başlangıcı `ilk.t`dir ve
+  `sahip[0].f == ilk.t`. Öncelik: yazılı tanık (kuruluş ya da ilk anılış) varsa o; `arkeolojik` yalnız
+  yazılı tanık HİÇ yoksa. İlk anılıştan `kur` TÜRETİLMEZ (yukarıda `kesinlik` sınırı).
+- Aralık veren kaynakta **güvenli uç** alınır (ilk anılış için aralığın SON ucu) ve `ic_not`a yazılır.
+- MÖ yazımı astronomik (`-0400` = MÖ 401); `gun` metni ZORUNLU ve sayıyla çapraz denetlenir.
+- **Yeri kesin olmayan ad eşitlemesi** (Adana = Adaniya "kabul edilir, aynı yer mi bilinmez") başlangıç
+  sayılmaz; yeri kesin daha geç tanık alınır, eşitleme `ic_not`a. *(Emre, 13 Ekim 2026)*
+- **Antik yerleşim modern noktadan > 3 km** ise (İzmir–Bayraklı, Van–Tuşpa) BURADA yazılmaz: modern
+  nokta kendi kuruluşundan başlar; antik yer ayrı kayıt olarak `ic_not`ta önerilir. *(Emre, 13 Ekim 2026)*
+- `sahip` zinciri **kesintisiz**: her dönemin `t`si sonrakinin `f`si; sıfır uzunluk yok; ters yok.
+  Son dönemin `t`si = atlas noktasının bugünkü İLK sahiplik gününe (atlasta varsa) — ve o günden
+  sonrasına bu dosya KARIŞMAZ (atlas zinciri esastır). Atlasta yoksa zincir `1900-01-01`e kadar.
+  **Dikiş:** zincirin son sahibi atlasın ilk sahibi OLMAK ZORUNDA DEĞİL — el değiştirme tam atlas
+  başlangıcındaysa (Antalya 1207-03-05 Selçuklu) son dönem önceki sahiptir ve o gün için `olay` gerekir.
+  *(Parti 01 ölçtü: kural ilk yazıldığında bunu yasaklıyordu, yanlıştı.)*
+- **Atlasın başlangıç iddiası kaynaksızsa** (Cezayir: atlas 1281 `zeyyani`, tanık yok): dikiş için
+  YER TUTUCU OLAY YAZILMAZ — `kaynak:"bulunamadı"` olan olay ihlaldir. Şehre `dikis_beyan:"…"` yazılır
+  (ne aranıp bulunamadı); denetim borcu uyarı olarak taşır. *(Parti 03: ölçütü olay uydurarak geçmişti.)*
+- **Süresi bilinmeyen kısa ele geçirme** (kaynak "geçici" der, bitiş vermez): dönem AÇILMAZ — uydurma bitiş
+  yazılmaz, boşluk da açılmaz. `olay` olarak yazılır, zincir eski sahiple sürer, `ic_not`ta beyan edilir.
+- **Dönem başlangıcı "en geç" tanıktan** (yeni sahip en geç X'te şehri tutuyor, el değiştirme günü yok):
+  `f = X` yazılabilir; önceki sahibin dönemi X'e uzar ve bu `ic_not`ta "f en geç tanıktan: …" diye BEYAN
+  edilir. Önceki sahibin son tanığı ile X arası uzunsa (> 1 kuşak) `__BOSLUK__` tercih edilir.
+- **Künye geçişi** (toprak el değiştirmez, künye değişir: Roma Cumhuriyeti → İmparatorluk, Roma → Bizans,
+  Emevî → Abbâsî): yine dönem sınırıdır ve `olay` ister — `k:"diger"`, `b:"künye geçişi: …"`.
+- **Takvim:** yukarıdaki TAKVİM kuralı aynen — 1582 öncesi Jülyen (çevrilmez), sonrası Gregoryen (Jülyen kaynak çevrilir, `ic_not_takvim`). Hicrî tarihin mîlâdî karşılığını
+  kaynak veriyorsa o; vermiyorsa CLAUDE.md hicrî kuralı (kesişimin ilk günü) ve çevirinin kendisi `kaynak`ta
+  YAZILIR ("hicrî 488, çeviri: tablo takvimi, Jülyen").
+- `d` = `devletler.js` gerçek `id`. Sahibi bilinmiyorsa `__BOSLUK__` + `ic_not` (beyansız yaklaşıklık yok).
+  Sahip BİLİNİYOR ama künyesi yoksa: önerilen id + `kunye_yok:true` + `ic_not` (ad, ömür, kaynak) —
+  `__BOSLUK__` YAZILMAZ ("kimsenin değil" ≠ "künyesi açılmamış"). Denetim bunu uyarı sayar; künye açılınca işaret kalkar.
+- **`d:"__YOK__"`** — yerleşim o dönemde YOK (terk, yıkım; sonra yeniden iskân). `__BOSLUK__`tan farklıdır:
+  boşluk "şehir var, sahibi bilinmiyor", `__YOK__` "şehir yok". Bölgenin sahibi YAZILMAZ (şehir yokken
+  sahibi de yoktur). `kaynak` + `ic_not` zorunlu; terk/iskân geçişi için `olay` ARANMAZ (günü olmayan
+  süreç — zorlamak uydurma olay üretir). Aktarımda motorun `kur`/`bit` penceresine çevrilir.
+  *(Parti 10, Rusçuk: saha VII–XIV. yy terk edilmişti, zincir bölgenin sahibini taşıyordu.)*
+  Aynı yerde (≤ 3 km) antik şehir terk edilip modern şehir sonra doğduysa ve kesinti KAYNAKLA gösteriliyorsa
+  (Zekâzîk–Bubastis) ara dönem `__YOK__`tur: süreklilik varsayılmaz. Kaynak susuyorsa süreklilik de kesinti de yazılmaz — beyan edilir.
+- **`d:"__BILINMIYOR__"`** — yerleşimin o dönemde VAR OLUP OLMADIĞI da bilinmiyor (kaynak ne varlığı ne
+  sahibi söylüyor). `__BOSLUK__` "şehir VAR, sahibi bilinmiyor" der; bu ise varlığı da açık bırakır.
+  `kaynak` + `ic_not` (ne arandı) zorunlu; giriş/çıkış geçişinde `olay` ARANMAZ. Aktarımda nokta bu dilimde
+  ÇİZİLMEZ (görünür tanık yokken var saymak yaklaşıklıktır). *(Emre, 14 Ekim 2026 — Zekâzîk 641–1800.)*
+- **Yerinde kitabe yazılı tanıktır** (arkeolojik tarihleme değil): yerleşimin içinde/üstünde bulunan tarihli
+  kitabe `ilk_anilis` olabilir — kitabenin yeri ile tarihlenen yerleşimin aynı olduğu kaynakta açıksa.
+  *(Emre, 14 Ekim 2026 — Hürremâbâd: ad 1340, yerinde kitabe 1123.)*
+- **TDV kendi içinde çelişirse** (aynı madde iki uyumsuz tarih/olgu verir, ya da iki TDV maddesi çelişir ve
+  biri olgu hatası taşır) akademik kaynak esas alınabilir — çelişki ve seçim `ic_not`ta BEYAN edilir.
+  TDV ile dış kaynak çelişkisinde TDV esas kuralı DEĞİŞMEZ; bu istisna yalnız TDV'nin kendi çelişkisi içindir.
+  *(Emre, 14 Ekim 2026 — Berat, Annaba.)*
+- **`d:"osmanli"`** ayrılmış kimliktir: atlas Osmanlı'yı künyeyle değil `d:` alanıyla taşır
+  (`devletler.js`te ve `BOYALAR`da `osmanli` YOK — ölçüldü, kasıtlı). Burada yazılan `osmanli` dönemi
+  aktarımda `d:` dönemine dönüşür; `kunye_yok` İŞARETLENMEZ. *(Parti 04 buldu.)*
+  Dönem künyenin `f`/`t` ömrünü aşarsa denetim UYARIR (hayalet devlet) — sınıflandırma kuralı aynen geçerli.
+- Her sahiplik değişiminin (`sahip[i].t`) ±30 gün içinde bir `olay` maddesi olmalı (Değişmez 2'nin bu
+  dosyadaki eşi). `olay.k` `olaylar*.js` sözlüğünden (`fetih`, `kayip`, `kurulus`, `antlasma`, `isyan` …).
+- `kaynak` her `ilk`/`kur`/`ark`/`sahip`/`olay` öğesinde ZORUNLU; TDV birincil, Vikipedi tek dayanak olamaz,
+  bulunamadıysa `"bulunamadı"` yazılır. `tanik` ≤ 15 kelime alıntı.
+
+## 🆕 `data/yer_kat.js` — YERLEŞİM KADEMESİ TANIKLARI *(14 Ekim 2026, Emre kararı)*
+
+Silsilenin 4. halkası: her devletin bölgesinde idarî/siyasî/askerî/ekonomik merkez olan yerleşim
+indekste olmalı. **Sayısal yoğunluk eşiği YOK** (Emre: Anadolu/Almanya ile Sahra/Sibirya aynı karakterde
+değil); ölçüt **idarî kademedir**:
+
+| kat | Osmanlı | bugün | örnek |
+|---|---|---|---|
+| 1 | devlet başkenti | başkent | Ankara (1923 sonrası) |
+| 2 | eyalet / vilayet merkezi | — | Trabzon (1900) |
+| 3 | sancak / liva merkezi | il merkezi | Rize |
+| 4 | kaza merkezi | ilçe merkezi | Pazar |
+
+Kapsam (Emre onayı, 14 Ekim): **kat 1–3 zorunlu**; kat 4 yalnız kronolojide adı geçiyorsa ya da
+askerî/ekonomik/coğrafî merkezse (geçit kalesi, liman, maden, ticaret durağı) indekse girer.
+
+**Kademe döneme göre değişir** (Rize kaza → sancak → il) ⇒ yerleşime sabit sayı yazılmaz, **tanık** yazılır:
+```js
+window.YER_KAT = [
+  { ad:"Rize", lat:41.0208, lon:40.5219,        // ad = atlas yerleşim adı; konum ≤3 km eşleşme için (ad tekil değil)
+    tanik:[ { t:"1900-01-01", k:3, birim:"sancak Lazistan", ad_kaynakta:"Rize",
+              kaynak:"Cuinet TdA c.1 (1892)", kesinlik:"liste-1900",
+              dayanak:"denetim/SEHIR-1900-LISTE-1013/LISTE.tsv" } ] },
+];
+```
+- Tanık bir **an**dır: "şu tarihte, şu kaynağa göre şu kademe". İki tanık arası DOLDURULMAZ; aralık
+  (`f`/`t`) yalnız tek kaynak iki ucu birden veriyorsa yazılır (kaynaklı halka kuralıyla aynı).
+- `kesinlik:"liste-1900"` — `SEHIR-1900-LISTE` "1 Ocak 1900 durumu"nu 1891–1903 kaynaklarından derledi;
+  `t` kaynağın yılı değil listenin hedef günüdür. Kaynağın yılı `kaynak` alanında okunur.
+- `kaynak` zorunlu; güvensiz kaynak (Vikipedi, kişisel/hobi sitesi — Statoids dahil) dayanak olamaz.
+- Motor ve site bu dosyayı henüz OKUMAZ; `arac/silsile_olc.py` halka 4 ölçümü okuyacak.
+- İlk doldurma: `denetim/YER-KAT-1014/aktar.py` (1900 listesinden yalnız `kaynakli` + atlasla ≤3 km
+  eşleşen + güvenli kaynaklı satırlar; her satırın hükmü `denetim/YER-KAT-1014/aktarim.tsv`).
+
 

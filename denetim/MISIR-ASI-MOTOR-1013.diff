@@ -1,0 +1,49 @@
+diff --git a/arac/girdi.py b/arac/girdi.py
+index 2a17f344b..138639a7a 100644
+--- a/arac/girdi.py
++++ b/arac/girdi.py
+@@ -341,7 +341,11 @@ BILINEN_DONEM_ALANLARI = {
+              "'gevsek' (Emre 13 Eyl 2026, 0043/H-0003 D): gevşek kontrollü "
+              "bozkır (Kırım Hanlığı'nın Nogay bozkırı); himaye:true ile "
+              "birlikte yazılır, motor d.h[].renk'i AÇIK TONA (#e8a2aa) çeker "
+-             "— iç dolgu devletin kendi rengi DEĞİL.",
++             "— iç dolgu devletin kendi rengi DEĞİL. "
++             "'asi' (Emre 13 Eki 2026, MISIR-SEFER-0075 H-0010): Bâbıâli'ye "
++             "isyan hâlindeki ama hukuken hâlâ bağlı bölge (Mısır 1831-33); "
++             "himaye:true ile yazılır, motor 'gevsek' ile AYNI açık tonu "
++             "(HIMAYE_ASI_RENK) çeker; açık uçlu olamaz — bitişi kaynaklı olmalı.",
+     # 🆕 `himaye` — VERI-YAPISI.md "v:[{… himaye:true}] — ÜÇÜNCÜ GÖRSEL
+     # KADEME" (Emre, 2 Eylül 2026) şemayı tanımlıyordu ama bu sözlükte
+     # YOKTU (ölçüldü 14 Eylül: grep 'himaye' → yalnız statu açıklaması).
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index bd2d1def7..77b9ae2ba 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -7404,7 +7404,10 @@ def himaye_gruplari(a, tabi, yerler, boyalar, harita_alt, gevsek_renk, sayac=Non
+             gid = "__adsiz__"
+             if sayac is not None:
+                 sayac["adsiz"] += 1
+-        if dn.get("statu") == "gevsek":
++        if dn.get("statu") in ("gevsek", "asi"):
++            # 'asi' (MISIR-SEFER-0075 H-0010): isyan hâlindeki tâbi — gevsek
++            # ile AYNI açık ton (HIMAYE_ASI_RENK = HIMAYE_GEVSEK_RENK).
++            # Ton ayrışsın istenirse yalnız burada ayrı sabit seçilir.
+             renk = gevsek_renk
+         else:
+             renk = None
+diff --git a/js/app.js b/js/app.js
+index a61ab1421..27940d855 100644
+--- a/js/app.js
++++ b/js/app.js
+@@ -1640,7 +1640,10 @@ var STATU_YAZI = {
+   // Hanlığı'nın Nogay bozkırı — `v:[{…statu:"gevsek", himaye:true}]`. Tanım:
+   // arac/girdi.py BILINEN_DONEM_ALANLARI["statu"]. Motor `d.h[].renk`i açık
+   // tona (#e8a2aa) çeker; bu anahtar yalnız ETİKET yazısı içindir.
+-  "gevsek":     "gevşek tâbi"
++  "gevsek":     "gevşek tâbi",
++  // 13 Ekim 2026 (MISIR-SEFER-0075 H-0010): Bâbıâli'ye isyan hâlindeki ama
++  // hâlâ bağlı bölge (Mısır 1831-33) — `v:[{…statu:"asi", himaye:true}]`.
++  "asi":        "isyan hâlinde (âsi)"
+ };
+ // Bilinmeyen statü uyarısı DEĞER BAŞINA BİR KEZ: `etiketleriYerlestir` her
+ // zoom/move olayında koşuyor, uyarı kapısız olsa konsolu saniyede onlarca

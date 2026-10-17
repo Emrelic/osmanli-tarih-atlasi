@@ -85,7 +85,7 @@ window.YER_YAMA_P0035 = [
         { f: "1427-01-01", t: "1450-01-01", d: "eflak", kaynak: "TDV yergogu: '1427'de Eflaklılar Giurgiu Kalesi'ni geri aldı'" },
         { f: "1829-09-14", t: "1859-01-24", d: "eflak" },
         { f: "1859-01-24", t: "1881-03-26", d: "romanya" },
-        { f: "1881-03-26", t: "1923-10-29", d: "romanya-kralligi" }],
+        { f: "1881-03-26", t: "1947-12-30", d: "romanya-kralligi" },{f:"1947-12-30",t:"1989-12-22",d:"romanya-halk",kaynak:"LoC Romania Country Study"},{f:"1989-12-22",t:"2000-12-31",d:"romanya-cumhuriyeti",kaynak:"LoC Romania Country Study"}],
     isg: [{ f: "1810-09-27", t: "1812-05-28", d: "rusya", kaynak: "yergogu · ESBE «Турецкие войны России» (15 Eylül J) · Bükreş Antlaşması (iade ÇIKARIMLI)" }],
     kaynak: "yergogu",
     neden: "H-0100 · TDV yergogu: '27 Eylul 1810'da Ruslar'in eline gecti' + Edirne Antlasmasi (1829) ile Eflak Prensligi'ne birakildi ⇒ 1812-1829 arasi OSMANLI. s:rusya 17 yil fazlaydi; isg:e cevrildi, d: 1829-09-14'e uzatildi." },

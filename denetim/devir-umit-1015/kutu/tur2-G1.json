@@ -1,0 +1,23 @@
+[
+ {
+  "anahtar": "parti-emrelic-0045/H-0007",
+  "hukum": "sirada",
+  "not": "1281-1699 dilimi (G1): savaş/kuşatma maddesi 105, kartsız 61'di → 3 kaldı. TDV gövdeleri okunarak 41 yeni 'savaşın hikâyesi' kartı yazıldı (öncesi/akış/sonuç/kaynak ayrışması bölümleriyle; Kulacahisar 1285'ten Merv 1510'a, Kefe, Rodos, Malta, Korfu, Budin 1684, Lugoş-Ulaş dahil) ve 4 madde zaten o olayı anlatan kartlara bağlandı (Koyunhisar←İznik 1302, Fetih kitapçığı←1453 kuşatma başlangıcı, Ridaniye←Gazze ve Tomanbay 1517). Kalan 3: Mudanya 1321 (TDV'de yok, maddenin kendi kaynağı da anmıyor), Centla 1519 (TDV kapsamıyor), Lippa 1596 (TDV'de ayrıntı yok). 1700 sonrası dilim G2'de.",
+  "commit": "YEREL, push bekliyor (worktree agent-a4be37dd5144a3cf8, dal worktree-agent-a4be37dd5144a3cf8): b2e4251 1. parti 1281-1453 · 8006c14 2. parti 1454-1699 · 54af91d 3. parti Osmanlı dışı",
+  "kaynak": "https://islamansiklopedisi.org.tr/ (madde başına kartın kaynak alanında: osman-i, murad-ii, mehmed-ii, malta, korfu, mustafa-ii, karakoyunlular, seybani-han vb.)"
+ },
+ {
+  "anahtar": "parti-emrelic-0052/H-0006",
+  "hukum": "sirada",
+  "not": "1281-1699 diliminde kartsız savaş maddesi 61'den 3'e indi; yeni kartların her biri sebep (öncesi), savaşın akışı, bedel/sonuç ve varsa barış anlaşmasını bir arada anlatıyor (ör. 1463 Venedik savaşı → 1479 antlaşması, 1559 Konya → 1562, 1485-1491 Memlük savaşı → 1491 barışı). Ayrı 'savaş başladı' kronoloji maddeleri bu partide eklenmedi; meydan muharebeleri kart olarak verildi. 1700 sonrası G2'de.",
+  "commit": "YEREL, push bekliyor (worktree agent-a4be37dd5144a3cf8, dal worktree-agent-a4be37dd5144a3cf8): b2e4251 1. parti 1281-1453 · 8006c14 2. parti 1454-1699 · 54af91d 3. parti Osmanlı dışı",
+  "kaynak": "https://islamansiklopedisi.org.tr/mehmed-ii"
+ },
+ {
+  "anahtar": "parti-emrelic-0068/H-0006",
+  "hukum": "sirada",
+  "not": "G1 dilimi: 1443 'Uzun Sefer' için olaylar kartı (İzladi) yazıldı — Edirne-Segedin ve Varna kartları zaten vardı, böylece 1443-1444 savaşının olaylar-son-barış zinciri kartla kapandı. 1683-1699 savaşı için Budin 1684, Eğriboz 1688, Lugoş 1695, Ulaş 1696 kartları eklendi (Viyana/Zenta/Karlofça kartları vardı). Beş aşamalı KRONOLOJİ maddesi denetimi (savaşa giden süreç ve 'savaş başladı' maddeleri) bu dilimde yapılmadı; 1603 İran savaşı ele alınmadı.",
+  "commit": "YEREL, push bekliyor (worktree agent-a4be37dd5144a3cf8, dal worktree-agent-a4be37dd5144a3cf8): b2e4251 1. parti 1281-1453 · 8006c14 2. parti 1454-1699 · 54af91d 3. parti Osmanlı dışı",
+  "kaynak": "https://islamansiklopedisi.org.tr/murad-ii"
+ }
+]

@@ -1,0 +1,1801 @@
+devlet_id	ad	baskent_ham	durum	cozulen	cozulmeyen[kova]
+bizans	Bizans (Doğu Roma) İmparatorluğu	Konstantinopolis	hic-cozulmedi		Konstantinopolis
+memluk	Memlûk Sultanlığı (Mısır-Suriye)	Kahire	tam	Kahire	
+safevi	Safevî Devleti (İran)	Tebriz → Kazvin → İsfahan	tam	Tebriz | Kazvin | İsfahan	
+afsar	Afşar Devleti (Nadir Şah)	Meşhed	tam	Meşhed	
+kacar	Kaçar Hanedanı (İran)	Tahran	tam	Tahran	
+iran	İran (Pehlevi Hanedanı → İran İslam Cumhuriyeti)	Tahran	tam	Tahran	
+altinorda	Altın Orda (Deşt-i Kıpçak Hanlığı)	Saray	tam	Saray	
+kirim	Kırım Hanlığı	Bahçesaray	tam	Bahçesaray	
+habsburg	Habsburg Avusturya	Viyana	tam	Viyana	
+novgorod	Novgorod Cumhuriyeti	Novgorod	tam	Novgorod	
+pskov	Pskov Cumhuriyeti	Pskov	tam	Pskov	
+tver	Tver Büyük Knezliği	Tver	tam	Tver	
+moskova	Moskova Büyük Knezliği	Moskova	tam	Moskova	
+rusya	Rusya Çarlığı / İmparatorluğu	Moskova → Sankt-Peterburg	tam	Moskova | Sankt-Peterburg	
+rusya-gecici-hukumet	Rusya Geçici Hükûmeti	Petrograd	tam	Petrograd	
+sovyet-rusya	Sovyet Rusya / SSCB	Petrograd → Moskova	tam	Petrograd | Moskova	
+venedik	Venedik Cumhuriyeti	Venedik	tam	Venedik	
+karaman	Karamanoğulları	Ermenek → Konya (1366-67) / Larende	tam	Ermenek | Konya (1366-67) | Larende	
+germiyan	Germiyanoğulları	Kütahya	tam	Kütahya	
+aydin	Aydınoğulları	Birgi → İzmir (1329) / Tire, Ayasuluk	tam	Birgi | İzmir (1329) | Tire | Ayasuluk	
+saruhan	Saruhanoğulları	Manisa	tam	Manisa	
+mentese	Menteşeoğulları	Milas / Beçin	kismi	Milas	Beçin
+hamid	Hamîdoğulları	Uluborlu (ilk merkez) → Eğirdir / Isparta	tam	Uluborlu (ilk merkez) | Eğirdir | Isparta	
+candar	Candaroğulları (İsfendiyaroğulları)	Eflani (ilk merkez) → Kastamonu / Sinop	tam	Eflani (ilk merkez) | Kastamonu | Sinop	
+dulkadir	Dulkadiroğulları	Elbistan / Maraş	tam	Elbistan | Maraş	
+ramazanoglu	Ramazanoğulları	Adana	tam	Adana	
+karesi	Karesioğulları	Balıkesir (Erdek, Biga, Edremit, Bergama'ya kadar hâkim)	tam	Biga | Edremit	Balıkesir (Erdek[serbest-metin] | Bergama'ya kadar hâkim)[serbest-metin]
+akkoyunlu	Akkoyunlu Devleti	Diyarbekir → Tebriz	tam	Diyarbekir | Tebriz	
+celayirli	Celâyirliler	Bağdat → Tebriz	tam	Bağdat | Tebriz	
+karakoyunlu	Karakoyunlu Devleti	Van-Erciş → Tebriz	kismi	Tebriz	Van-Erciş
+lur-i-buzurg	Lür-i Büzürg Atabegliği (Hazaraspîler)	İzeh (Mâlemîr)	hic-cozulmedi		İzeh (Mâlemîr)
+lur-i-kucek	Lür-i Küçek Atabegliği	— (TDV'de belirtilmemiş)	yalniz-bolge-serbest		— (TDV'de belirtilmemiş)[serbest-metin]
+serbedariler	Serbedârîler	Sebzevâr	tam	Sebzevâr	
+kert	Kertler (Herat)	Herat	tam	Herat	
+muzafferi	Muzafferî Hanedanı	Şiraz	tam	Şiraz	
+incu	İncû Hanedanı	Şiraz	tam	Şiraz	
+kutlughanli	Kutluğhanlılar	Kirman	tam	Kirman	
+gilan-kiya	Kârkiyâ Hânedanı (Gilân)	Lâhîcân	tam	Lâhîcân	
+mazenderan-marasi	Mar'aşî Seyyidleri (Mâzenderan)	Âmül → Sârî	tam	Âmül | Sârî	
+macaristan	Macaristan Krallığı (bağımsız dönem)	Buda	tam	Buda	
+macaristan-habsburg	Macaristan Krallığı (Habsburg Tacı)	Pozsony (Bratislava) → Buda	tam	Pozsony (Bratislava) | Buda	
+polonya-erken	Polonya Krallığı (Birlik Öncesi)	Krakov	tam	Krakov	
+litvanya-buyuk-dukalik	Litvanya Büyük Dükalığı	Vilnius	tam	Vilnius	
+lehistan	Lehistan-Litvanya Birliği	Varşova	tam	Varşova	
+cenova	Cenova Cumhuriyeti	Cenova	tam	Cenova	
+napoli	Napoli Krallığı / İki Sicilya	Napoli	tam	Napoli	
+papalik	Papalık Devleti	Roma	tam	Roma	
+fransa	Fransa Krallığı	Paris	tam	Paris	
+fransa-cumhuriyet	Fransa (1792 Sonrası — Cumhuriyet/İmparatorluk/Restorasyon)	Paris	tam	Paris	
+ingiltere	İngiltere / Büyük Britanya	Londra	tam	Londra	
+isvec-birlik-oncesi	İsveç Krallığı (Kalmar Birliği Öncesi ve Dönemi)	Stockholm	hic-cozulmedi		Stockholm
+isvec	İsveç Krallığı	Stockholm	hic-cozulmedi		Stockholm
+sirbistan-nemanjic	Sırbistan Krallığı (Nemanjić Hanedanı)	Ras → Skopje → Serez (Duşan döneminde)	kismi	Skopje | Serez (Duşan döneminde)	Ras
+sirp-despotlugu	Sırp Despotluğu	Belgrad → Smederevo	tam	Belgrad | Smederevo	
+bulgar-carligi	İkinci Bulgar İmparatorluğu	Tırnova → Vidin	tam	Tırnova | Vidin	
+bosna-kralligi	Bosna Krallığı	Jajce	tam	Jajce	
+arnavutluk-iskenderbey	Arnavutluk (Kastriota Direnişi)	Krujë	hic-cozulmedi		Krujë
+eflak	Eflak Voyvodalığı (Wallachia)	Bükreş	tam	Bükreş	
+bogdan	Boğdan Voyvodalığı (Moldavia)	Suceava → Iaşi	tam	Suceava | Iaşi	
+erdel	Erdel Prensliği (Transilvanya)	Gyulafehérvár	tam	Gyulafehérvár	
+mora-despotlugu	Mora Despotluğu	Mystras	hic-cozulmedi		Mystras
+atina-dukaligi	Atina Dukalığı	Atina	tam	Atina	
+katalan	Katalan Dukalığı (Atina-Neopatras Kumpanyası)	Thebai (Tebai) → Atina	tam	Thebai (Tebai) | Atina	
+naksa-dukaligi	Naxos (Nakşa) Dukalığı	Naxos	yalniz-bolge-serbest		Naxos[devlet-adi]
+rodos-sovalyeleri	Rodos (Saint Jean/Malta Şövalyeleri)	Rodos → (1522-1530 topraksız) → Birgu/Valletta (Malta)	tam	Rodos | Birgu/Valletta (Malta)	(1522-1530 topraksız)[serbest-metin]
+kibris-krallik	Kıbrıs Krallığı (Lüzinyan)	Lefkoşa	tam	Lefkoşa	
+gurcistan	Gürcistan Krallığı/Krallıkları	Tiflis	tam	Tiflis	
+imereti	İmereti Krallığı	Kutaisi	tam	Kutaisi	
+gurcistan-demokratik-cumhuriyeti	Gürcistan Demokratik Cumhuriyeti	Tiflis	tam	Tiflis	
+ermenistan-demokratik-cumhuriyeti	Ermenistan Demokratik Cumhuriyeti	Erivan	hic-cozulmedi		Erivan
+azerbaycan-demokratik-cumhuriyeti	Azerbaycan Demokratik Cumhuriyeti	Bakü	tam	Bakü	
+kilikya-ermeni	Kilikya Ermeni Krallığı	Sis	hic-cozulmedi		Sis
+sirvansah	Şirvanşahlar	Şamahı	tam	Şamahı	
+suud-birinci	I. Suûdî Devleti (Vehhâbî Emirliği)	Dir'iye	tam	Dir'iye	
+cezayir-ocagi	Cezayir Ocağı	Cezayir	tam	Cezayir	
+tunus-ocagi	Tunus Ocağı (Hüseynî Hanedanı)	Tunus	tam	Tunus	
+trablusgarp-ocagi	Trablusgarp Ocağı (Karamanlı Hanedanı)	Trablus	tam	Trablus	
+sadi	Sâdî Hanedanı (Fas)	Fas / Marakeş	kismi	Fas	Marakeş
+fas	Fas (Sâdî / Alevî Şerifleri)	Fas / Marakeş	kismi	Fas	Marakeş
+yemen-zeydi	Yemen Zeydî İmamlığı	Sa'da → San'a	kismi	San'a	Sa'da
+misir-kavalali	Mısır Kavalalı Hanedanı	Kahire	tam	Kahire	
+sirbistan-prensligi	Sırbistan Prensliği	Belgrad	tam	Belgrad	
+yunanistan	Yunanistan Krallığı	Nafplion → Atina	tam	Nafplion | Atina	
+karadag	Karadağ (Montenegro)	Cetinje	tam	Cetinje	
+bulgaristan-prensligi	Bulgaristan Prensliği	Sofya	tam	Sofya	
+romanya	Romanya	Bükreş	tam	Bükreş	
+bosna-isgal	Bosna-Hersek (Avusturya İşgali)	Saraybosna	tam	Saraybosna	
+girit-devleti	Girit Devleti (Özerk)	Kandiye → Hanya	tam	Kandiye | Hanya	
+fransiz-misir-seferi	Napolyon'un Mısır Seferi	Kahire	tam	Kahire	
+kibris-ingiliz	Kıbrıs'ın İngiliz İdaresi	Lefkoşa	tam	Lefkoşa	
+oniki-ada-italyan	İtalya'nın Oniki Ada İşgali	Rodos	tam	Rodos	
+cezayir-fransiz	Fransız Cezayir İşgali	Cezayir	tam	Cezayir	
+abdulkadir	Emîr Abdülkādir Devleti	Muaskar (Mascara) → gezici karargâh	tam	Muaskar (Mascara)	gezici karargâh[serbest-metin]
+sarki-rumeli	Şarkî Rumeli Vilayeti (Özerk)	Filibe (Plovdiv)	tam	Filibe (Plovdiv)	
+garbi-trakya	Garbî Trakya Hükûmet-i Müstakillesi	Gümülcine	tam	Gümülcine	
+bulgaristan-kralligi	Bulgaristan Krallığı (Çarlık)	Sofya	tam	Sofya	
+sirbistan-kralligi	Sırbistan Krallığı	Belgrad	tam	Belgrad	
+romanya-kralligi	Romanya Krallığı	Bükreş	tam	Bükreş	
+arnavutluk-bagimsiz	Arnavutluk Prensliği (Bağımsız)	Vlorë (Avlonya) → Tiran	kismi	Vlorë (Avlonya)	Tiran
+ispanya	İspanya (Kastilya-Aragon)	Madrid	tam	Madrid	
+granada	Gırnata (Nasrî) Emirliği	Gırnata	yalniz-bolge-serbest		Gırnata[devlet-adi]
+portekiz	Portekiz Krallığı	Lizbon	tam	Lizbon	
+almanya	Kutsal Roma / Almanya	— (seçimli) → Berlin	tam	Berlin	— (seçimli)[serbest-metin]
+hollanda	Hollanda (Birleşik Eyaletler Cumhuriyeti → 1815 Krallık)	Amsterdam / Lahey	tam	Amsterdam | Lahey	
+danimarka	Danimarka Krallığı (1814'e kadar Danimarka-Norveç)	Kopenhag	tam	Kopenhag	
+umman	Umman (Ya'rubî / Bû Saîd) Sultanlığı	Nizva → Maskat	tam	Nizva | Maskat	
+suud-ikinci	II. Suûdî Devleti (Necid Emirliği)	Riyad	tam	Riyad	
+suud-ucuncu	III. Suûdî Devleti (Necid ve Hicaz Sultanlığı)	Riyad	tam	Riyad	
+hail-ibn-ali	Hâil Emirliği (İbn Ali ailesi — Abde/Şemmer)	Hâil	tam	Hâil	
+sammar	Şammar (Reşîdî) Emirliği	Hâil	tam	Hâil	
+hicaz-kralligi	Hicaz Krallığı (Şerif Hüseyin)	Mekke	tam	Mekke	
+funj	Func (Sennâr) Sultanlığı	Sennâr	tam	Sennâr	
+dacu	Dâcû (Daju) Hanedanlığı	— (TDV'de belirtilmemiş)	yalniz-bolge-serbest		— (TDV'de belirtilmemiş)[serbest-metin]
+tunciler	Tunciler (Tunjur) Hanedanlığı	— (TDV'de belirtilmemiş)	yalniz-bolge-serbest		— (TDV'de belirtilmemiş)[serbest-metin]
+darfur	Dârfûr Sultanlığı (Keira Hanedanı)	El-Faşir	tam	El-Faşir	
+habesistan	Habeşistan İmparatorluğu	Gondar → Addis Ababa	kismi	Gondar	Addis Ababa
+evfat	Evfât (İfat) Emirliği	— (TDV'de şehir adı belirtilmemiş)	yalniz-bolge-serbest		— (TDV'de şehir adı belirtilmemiş)[serbest-metin]
+adal	Adal Sultanlığı / Harar Emirliği	Zeyla → Harar	tam	Zeyla | Harar	
+kaffa-kralligi	Kaffa Krallığı	Bonga	tam	Bonga	
+cimma-sultanligi	Cimma (Jimma) Sultanlığı	Cirén (Jiren)	tam	Cirén (Jiren)	
+sidamo-kralliklari	Sidamo Krallıkları	çeşitli merkezler	yalniz-bolge-serbest		çeşitli merkezler[serbest-metin]
+vollayta-kralligi	Vollayta (Wolaita) Krallığı	Dalgaç (Damot Sore)	hic-cozulmedi		Dalgaç (Damot Sore)
+zaporojye	Zaporojye Kazak Hetmanlığı	Zaporojye Seçi	tam	Zaporojye Seçi	
+selcuklu	Anadolu (Türkiye) Selçuklu Devleti	İznik → Konya	tam	İznik | Konya	
+ilhanli	İlhanlı Devleti	Meraga → Tebriz → Sultaniye	tam	Meraga | Tebriz | Sultaniye	
+timurlu	Timurlu Devleti	Semerkant → Herat	tam	Semerkant | Herat	
+eretna	Eretna Beyliği	Sivas → Kayseri	tam	Sivas | Kayseri	
+burhaneddin	Kadı Burhâneddin Devleti (Sivas)	Sivas	tam	Sivas	
+artuklu	Artukoğulları (Artuklu Beyliği)	Hasankeyf / Mardin / Harput	tam	Hasankeyf | Mardin | Harput	
+ahiler	Ahi Birliği (Ankara)	Ankara	tam	Ankara	
+cobanogullari	Çobanoğulları	Kastamonu	tam	Kastamonu	
+pervane	Pervâneoğulları (Sinop)	Sinop	tam	Sinop	
+esrefogullari	Eşrefoğulları	Beyşehir	tam	Beyşehir	
+inancogullari	İnançoğulları (Denizli/Lâdik Beyliği)	Isparta-Alâiye → Denizli	kismi	Denizli	Isparta-Alâiye
+sahibata	Sâhib Ataoğulları	Afyonkarahisar	hic-cozulmedi		Afyonkarahisar
+taceddin	Tâceddinoğulları (Canik)	Niksar	tam	Niksar	
+alaiye	Alâiye Beyliği (Alanya)	Alâiye (Alanya)	tam	Alâiye (Alanya)	
+teke	Tekeoğulları	Antalya	tam	Antalya	
+haciemir	Hacıemîroğulları (Bayramlı/Ordu)	Eskipazar (Bayram Bey'in ilk yurdu) → Ordu (Bayramlı)	kismi	Ordu (Bayramlı)	Eskipazar (Bayram Bey'in ilk yurdu)
+gozleroglu	Gözleroğlu (Şebinkarahisar)	Şebinkarahisar	tam	Şebinkarahisar	
+mutahharten	Erzincan-Kemah Beyliği (Mutahharten)	Erzincan	tam	Erzincan	
+fetret-suleyman	Emîr Süleyman Çelebi Saltanatı (Rumeli)	Edirne	tam	Edirne	
+fetret-isa	İsa Çelebi Saltanatı (Bursa)	Bursa	tam	Bursa	
+fetret-musa	Musa Çelebi Saltanatı (Rumeli)	Edirne	tam	Edirne	
+fetret-mehmed	Çelebi Mehmed Saltanatı (Amasya/Anadolu)	Amasya → Bursa	tam	Amasya | Bursa	
+dubrovnik	Dubrovnik (Ragusa) Cumhuriyeti	Dubrovnik	tam	Dubrovnik	
+hersek	Hersek (Kosača Dukalığı)	Blagaj	hic-cozulmedi		Blagaj
+zeta	Zeta Prensliği (Balšić / Crnojević)	Skadar → Cetine (Cetinje)	kismi	Cetine (Cetinje)	Skadar
+bohemya	Bohemya Krallığı	Prag	tam	Prag	
+milano-dukaligi	Milano Dükalığı	Milano	tam	Milano	
+floransa	Floransa Cumhuriyeti	Floransa	tam	Floransa	
+toskana	Floransa / Toskana Büyük Dükalığı	Floransa	tam	Floransa	
+savoya	Savoya Kontluğu / Dükalığı	Chambéry → Torino	tam	Chambéry | Torino	
+sardinya-piyemonte	Sardinya-Piyemonte Krallığı (Savoya)	Torino	tam	Torino	
+italya	İtalya Krallığı	Torino → Floransa → Roma	tam	Torino | Floransa | Roma	
+trabzon-rum	Trabzon Rum İmparatorluğu	Trabzon	tam	Trabzon	
+zend	Zend Hanedanı (İran)	Şiraz	tam	Şiraz	
+galzay	Galzaylar (Hotakî Afgan Devleti)	Kandehar	tam	Kandehar	
+kasim	Kasım Hanlığı (Kasimov)	Kasimov	tam	Kasimov	
+kazan	Kazan Hanlığı	Kazan	tam	Kazan	
+astarhan	Astarhan (Ejderhan) Hanlığı	Ejderhan (Astarhan)	hic-cozulmedi		Ejderhan (Astarhan)
+nogay	Nogay Ordası	(bozkırda göçebe, sabit başkent yok)	yalniz-bolge-serbest		
+ryazan	Ryazan Knezliği	Ryazan (Stara Ryazan → Pereyaslavl-Ryazanski)	hic-cozulmedi		Pereyaslavl-Ryazanski) | Ryazan (Stara Ryazan[serbest-metin]
+usfuri	Usfûrîler (Benî Usfûr)	Katîf / Lahsâ	tam	Katîf | Lahsâ	
+cebri	Cebrîler (Benî Cebr)	Hufuf (Lahsâ)	tam	Hufuf (Lahsâ)	
+nebhani	Nebhânîler (Uman)	Bahlâ	tam	Bahlâ	
+benihalid	Benî Hâlid Emirliği (Lahsa)	Hufuf	hic-cozulmedi		Hufuf
+aiz	Âiz Emirliği (Ebhâ / Asîr)	Ebhâ	tam	Ebhâ	
+hafsi	Hafsîler (Tunus)	Tunus	tam	Tunus	
+zeyyani	Zeyyânîler (Tilimsan)	Tilimsan (Tlemcen)	tam	Tilimsan (Tlemcen)	
+mehdi	Mehdî Devleti (Sudan)	Ubeyyid (Kordofan) → Ömdürman	kismi	Ubeyyid (Kordofan)	Ömdürman
+nube	Nûbe Krallıkları (Makurya-Alve)	Dongola (Makurya) / Soba (Alve)	kismi	Dongola (Makurya)	Soba (Alve)
+makdisu-sultanligi	Makdişu (Mogadişu) Sultanlığı (Ebû Bekir b. Fahreddin Hanedanı)	Makdişu (Mogadişu)	tam	Makdişu (Mogadişu)	
+somali	Somali Sultanlıkları	Mogadişu ve çeşitli merkezler	tam	Mogadişu	çeşitli merkezler[serbest-metin]
+cekoslovakya	Çekoslovakya Cumhuriyeti	Prag	tam	Prag	
+varsova-dukaligi	Varşova Büyük Dukalığı	Varşova	tam	Varşova	
+kongre-polonyasi	Kongre Polonyası (Kraliyet Polonyası)	Varşova	tam	Varşova	
+transkafkasya	Transkafkasya (Komiserlik → Seym → Demokratik Federatif Cumhuriyet)	Tiflis	tam	Tiflis	
+ranquel	Ranquel Konfederasyonu	—	baskent-yok		
+charrua	Charrúa (Minuan · Guenoa)	—	baskent-yok		
+guarani-misyonlari	Guaraní Cizvit Misyonları (Otuz Pueblo)	—	baskent-yok		
+arua	Aruã (Marajó)	—	baskent-yok		
+futa-callon	Futa Callon İmamlığı	Timbo	tam	Timbo	
+futa-toro	Futa Toro Almamiliği	Podor	tam	Podor	
+colof	Colof (Jolof) İmparatorluğu	Linguère	tam	Linguère	
+kayor	Kayor (Cayor) Krallığı	Mbul	tam	Mbul	
+valo	Valo (Waalo) Krallığı	Nder	tam	Nder	
+sine-salum	Sine ve Salum Krallıkları (Serer)	Diahav	tam	Diahav	
+bundu	Bundu Emirliği	Bulebane	tam	Bulebane	
+moritanya-emirlikleri	Moritanya Emirlikleri (Trarza · Brakna · Tagant · Adrar)	Şinkît	tam	Şinkît	
+berabis	Berâbîş Kabile Konfederasyonu	Aravan	tam	Aravan	
+gambiya-mandinka	Gambiya Mandinka Devletçikleri (Niumi · Kombo · Vuli)	—	baskent-yok		
+vasulu	Vâsûlû Devleti (Samori Ture)	Bisandugu	tam	Bisandugu	
+solima-yalunka	Solima Yalunka Krallığı	Falaba	tam	Falaba	
+bambara	Bambara Krallıkları (Segu ve Kaarta)	Segu	tam	Segu	
+kenedugu	Kenedugu Krallığı (Sikasso)	Sikasso	tam	Sikasso	
+mossi-vagadugu	Mossi Krallığı (Vagadugu)	Vagadugu	tam	Vagadugu	
+yatenga	Yatenga Krallığı	Vahiguya	tam	Vahiguya	
+gurma	Gurma Krallığı	Fada Ngurma	tam	Fada Ngurma	
+liptako	Liptako Emirliği (Dori)	Dori	tam	Dori	
+zerma	Zerma (Djerma) Devletçikleri	Tillaberi	tam	Tillaberi	
+kong-vattara	Kong Devleti (Vattara)	Kong	tam	Kong	
+gyaaman	Gyaaman Krallığı	Bondugu	tam	Bondugu	
+buna	Buna Krallığı (Kulango)	Buna	tam	Buna	
+gonja	Gonja Krallığı	Salaga	tam	Salaga	
+dagbon	Dagbon Krallığı (Dagomba)	Yendi	tam	Yendi	
+eve-notse	Eve (Ewe) Notse Birliği	Notse	tam	Notse	
+borgu	Borgu Bariba Krallıkları (Nikki · Busa)	Nikki	tam	Nikki	
+ibadan	İbadan Devleti	İbadan	tam	İbadan	
+aro-konfederasyonu	Aro Konfederasyonu	Aroçukvu	tam	Aroçukvu	
+nijer-deltasi	Nijer Deltası Şehir Devletleri (Kalabar · Bonny)	Eski Kalabar	tam	Eski Kalabar	
+jukun-kvararafa	Kvararafa (Jukun) Krallığı	Vukari	tam	Vukari	
+tiv	Tiv Halkı	—	baskent-yok		
+birom-plato	Jos Platosu Halkları (Birom · Jarava)	—	baskent-yok		
+damagaram	Damagaram Sultanlığı (Zinder)	Zinder	tam	Zinder	
+adar	Adar Hausa Sahası (Tahoua · Konni · Madaova)	Tahoua	tam	Tahoua	
+tuareg-air	Aïr Tuareg Sultanlığı (Kel Ayr)	Agadez	tam	Agadez	
+tuareg-adag	Kel Adag Tuareg Konfederasyonu (Adrar des Ifoghas)	Kidal	tam	Kidal	
+tuareg-ivellemmedan	İvellemmedan Tuareg Konfederasyonu	Menaka	tam	Menaka	
+liberya	Liberya Cumhuriyeti	Monrovia	tam	Monrovia	
+dan-guro	Dan · Guro · Bete Halkları (Fildişi orman kuşağı)	—	baskent-yok		
+kru-grebo	Kru ve Grebo Halkları	—	baskent-yok		
+adamava	Adamava Emirliği (Fumbina)	Yola	tam	Yola	
+bamum	Bamum Krallığı	Fumban	tam	Fumban	
+vaday	Vaday Sultanlığı	Abeşe	tam	Abeşe	
+senusi	Senûsî Tarikatı (Senûsiyye)	Cağbûb · Kufra (ana zâviye)	tam	Cağbûb | Kufra (ana zâviye)	
+bagirmi	Bagirmi Sultanlığı	Massenya	tam	Massenya	
+rabih	Râbih b. Zübeyr Devleti	Dikva	tam	Dikva	
+kanem-tubu	Kanem Tubu Sahası (Teda-Daza)	Mao	tam	Mao	
+darul-kuti	Dârü'l-Kûtî Sultanlığı (Senûsî)	Ndele	tam	Ndele	
+zende	Zende (Azande) Sultanlıkları	—	baskent-yok		
+mangbetu	Mangbetu Krallığı	Nangazizi	hic-cozulmedi		Nangazizi
+banda-gbaya	Banda ve Gbaya Halkları	—	baskent-yok		
+tio	Tio (Teke) Krallığı	Mbe	hic-cozulmedi		Mbe
+kasance	Kasance (Kasanje) Krallığı	Kasance	tam	Kasance	
+matamba	Matamba Krallığı	Matamba	tam	Matamba	
+ovimbundu	Ovimbundu Krallıkları (Bailundu · Viye · Vambu)	Bailundo	tam	Bailundo	
+ovambo	Ovambo Krallıkları (Ondonga · Kvanyama)	Ondangva	tam	Ondangva	
+ruanda	Ruanda Krallığı (Nyiginya)	Nyanza	tam	Nyanza	
+burundi	Burundi Krallığı	Gitega	tam	Gitega	
+bunyoro	Bunyoro-Kitara Krallığı	Hoima	tam	Hoima	
+nkore	Nkore (Ankole) Krallığı	Mbarara	tam	Mbarara	
+karagve	Karagve Krallığı	Bveranyange	tam	Bveranyange	
+toro	Toro Krallığı	Fort Portal	tam	Fort Portal	
+nyamvezi	Nyamvezi Şeflikleri (Unyanyembe · Mirambo)	Tabora	tam	Tabora	
+hehe	Hehe Krallığı	Kalenga	tam	Kalenga	
+ngoni	Ngoni Devletleri	—	baskent-yok		
+yao	Yao Sultanlıkları	Mvembe	tam	Mvembe	
+maravi	Maravi Konfederasyonu	Mankhamba	tam	Mankhamba	
+ngonde	Ngonde Krallığı	Karonga	tam	Karonga	
+fipa-nyakyusa	Fipa ve Nyakyusa Halkları	—	baskent-yok		
+lozi	Lozi (Barotse) Krallığı	Lealui	tam	Lealui	
+kazembe	Mvata Kazembe Krallığı	Mvansabombve	tam	Mvansabombve	
+bemba	Bemba Krallığı (Citimukulu)	Kasama	tam	Kasama	
+kaonde-ila	Kaonde ve İla Halkları	—	baskent-yok		
+yeke	Yeke Krallığı (Msiri)	Bunkeya	tam	Bunkeya	
+kenya-kuzey-halklari	Kuzey Kenya Halkları (Borana · Rendille · Turkana · Somali klanları)	—	baskent-yok		
+kamba	Kamba Halkı	Kitui	tam	Kitui	
+torva	Torva Krallığı (Khami)	Khami	tam	Khami	
+rozvi	Rozvi İmparatorluğu (Changamire)	Danangombe	tam	Danangombe	
+matabele	Matabele (Ndebele) Krallığı	Bulavayo	tam	Bulavayo	
+manica	Manica Krallığı	—	baskent-yok		
+pedi	Pedi Krallığı	Tjate	tam	Tjate	
+venda	Venda Krallığı	Dzata	tam	Dzata	
+svazi	Svazi Krallığı	Lobamba	tam	Lobamba	
+basuto	Basuto (Basotho) Krallığı	Thaba Bosiu	tam	Thaba Bosiu	
+griqua	Griqua Devletleri (Griqualand Batı ve Doğu)	Griquatown	tam	Griquatown	
+tsvana	Tsvana Krallıkları (Ngvato · Kvena · Ngvaketse · Kgatla · Tavana)	Şoşong	tam	Şoşong	
+herero	Herero Halkı	Okahandja	tam	Okahandja	
+nama-orlam	Nama ve Orlam Kaptanlıkları	Bethanie	tam	Bethanie	
+xhosa	Xhosa Krallıkları	—	baskent-yok		
+sakalava-menabe	Menabe Sakalava Krallığı	Mahabo	tam	Mahabo	
+sakalava-boina	Boina Sakalava Krallığı	Mahacanga	tam	Mahacanga	
+betsileo	Betsileo Krallıkları	Fianarantsoa	tam	Fianarantsoa	
+antemoro	Antemoro Krallığı	Vohipeno	tam	Vohipeno	
+antandroy	Antandroy ve Bara Halkları	—	baskent-yok		
+betsimisaraka	Betsimisaraka Konfederasyonu	Toamasina	tam	Toamasina	
+merina-oncesi	İmerina Krallıkları (Merina birleşmesi öncesi)	Ambohimanga	tam	Ambohimanga	
+tuareg-ahaggar	Kel Ahaggar Tuareg Konfederasyonu	Tamanrasset	tam	Tamanrasset	
+tuareg-accer	Kel Accer Tuareg Konfederasyonu	Cânet	tam	Cânet	
+tubu-tibesti	Tibesti Teda (Tubu) Konfederasyonu	Bardaî	tam	Bardaî	
+bate	Baté Mandinka Devleti (Kankan)	Kankan	tam	Kankan	
+kanada	Kanada Dominyonu	Bytown (Ottawa)	tam	Bytown (Ottawa)	
+inuit	İnuit	Iglulik	tam	Iglulik	
+dene	Dene (Atabask Halkları)	Fort Simpson (Łı́ı́dlı̨ı̨ Kų́ę́)	tam	Fort Simpson (Łı́ı́dlı̨ı̨ Kų́ę́)	
+kri	Kri (Nehiyaw)	Cumberland House	tam	Cumberland House	
+ojibwe	Ojibwe (Anişinabe)	Chequamegon (La Pointe)	tam	Chequamegon (La Pointe)	
+metis	Métis Ulusu	Batoche	tam	Batoche	
+lakota	Lakota (Teton Sioux)	Kara Tepeler (Ĥe Sápa)	tam	Kara Tepeler (Ĥe Sápa)	
+navaho	Navaho (Diné)	Tsegi (Canyon de Chelly)	tam	Tsegi (Canyon de Chelly)	
+nez-perce	Nez Perce (Nimíipuu)	Lapwai	tam	Lapwai	
+hayda	Hayda	Skidegate	tam	Skidegate	
+tlingit	Tlingit	Klukwan	tam	Klukwan	
+vendat	Vendat (Huron) Konfederasyonu	Ossossané	tam	Ossossané	
+beothuk	Beothuk	Kızıl Kızılderili Gölü	tam	Kızıl Kızılderili Gölü	
+savni	Şavni (Shawnee)	Chillicothe	tam	Chillicothe	
+miami	Miami (Myaamia)	Kekionga	tam	Kekionga	
+sauk	Sauk (Asakiwaki)	Saukenuk	tam	Saukenuk	
+abenaki	Abenaki (Wabanaki)	Norridgewock	tam	Norridgewock	
+mikmak	Mikmak (Mi'kmaq)	Listuguj	tam	Listuguj	
+maliseet	Maliseet (Wolastoqiyik)	Madawaska	tam	Madawaska	
+cikasav	Çikasav (Chickasaw)	Çikasav Yarları	hic-cozulmedi		Çikasav Yarları
+sosoni	Şoşoni	Fort Washakie (Wind River)	tam	Fort Washakie (Wind River)	
+ute	Ute (Núuchiu)	Uncompahgre	tam	Uncompahgre	
+mandan	Mandan	On-A-Slant	tam	On-A-Slant	
+hidatsa	Hidatsa	Knife River	tam	Knife River	
+karga	Karga (Apsáalooke)	Crow Agency	tam	Crow Agency	
+pavni	Pavni (Pawnee)	Pavni köyleri (Loup Irmağı)	tam	Pavni köyleri (Loup Irmağı)	
+wicita	Wiçita	Taovaya (İspanyol Kalesi)	tam	Taovaya (İspanyol Kalesi)	
+aleut	Aleut (Unangax̂)	Unalaska (Iliuliuk)	tam	Unalaska (Iliuliuk)	
+alutiiq	Alutiiq (Sugpiaq)	Kodiak (Pavlovskaya Gavan)	tam	Kodiak (Pavlovskaya Gavan)	
+yupik	Yupik	Hooper Bay (Naparyarmiut)	tam	Hooper Bay (Naparyarmiut)	
+zuni	Zuni (A:shiwi)	Halona:wa	tam	Halona:wa	
+nuxalk	Nuxalk (Bella Coola)	Bella Coola (Nuxalk)	tam	Bella Coola (Nuxalk)	
+secwepemc	Secwépemc (Shuswap)	Secwépemc (Adams Gölü)	tam	Secwépemc (Adams Gölü)	
+nuu-cah-nulth	Nuu-chah-nulth (Mowachaht)	Yuquot (Nootka Sound)	tam	Yuquot (Nootka Sound)	
+kalusa	Kalusa (Calusa)	Mound Key (Kalusa başkenti)	tam	Mound Key (Kalusa başkenti)	
+mohave	Mohave (Aha Macav)	Fort Mohave (Kolorado geçidi)	tam	Fort Mohave (Kolorado geçidi)	
+klamath	Klamath (Maklaks)	Fort Klamath / Klamath Bataklığı	tam	Fort Klamath | Klamath Bataklığı	
+sahaptin	Sahaptin (Orta Columbia halkları)	Wayám (Celilo Şelâleleri)	tam	Wayám (Celilo Şelâleleri)	
+ponka	Ponka (Ponca)	Ponca köyleri (Salt Fork)	tam	Ponca köyleri (Salt Fork)	
+occaneechi	Occaneechi	Occaneechi (Hillsborough)	tam	Occaneechi (Hillsborough)	
+etowah	Etowah	Etowah	tam	Etowah	
+moundville	Moundville	Moundville	tam	Moundville	
+spiro	Spiro	Spiro	tam	Spiro	
+payut	Payut (Paiute)	Bishop (Owens Vadisi Payutları)	tam	Bishop (Owens Vadisi Payutları)	
+yavapai	Yavapai	Prescott / Yavapai	tam	Prescott	Yavapai[devlet-adi]
+meskalero-apaci	Meskalero Apaçileri	Meskalero Apaçi (Pecos vadisi)	tam	Meskalero Apaçi (Pecos vadisi)	
+prusya	Prusya Krallığı	Berlin	tam	Berlin	
+polonya	Polonya Cumhuriyeti (II. Cumhuriyet)	Varşova	tam	Varşova	
+yugoslavya	Sırp-Hırvat-Sloven Krallığı (SHS)	Belgrad	tam	Belgrad	
+letonya	Letonya Cumhuriyeti	Riga	tam	Riga	
+litvanya	Litvanya Cumhuriyeti	Kaunas (geçici) / Vilnius (iddia)	tam	Kaunas (geçici) | Vilnius (iddia)	
+estonya	Estonya Cumhuriyeti	Tallinn	tam	Tallinn	
+finlandiya	Finlandiya Cumhuriyeti	Helsinki	tam	Helsinki	
+norvec-kralligi	Norveç Krallığı (Birlik Öncesi ve Kalmar Dönemi)	Bergen → Oslo	tam	Bergen | Oslo	
+norvec	Norveç Krallığı (bağımsız)	Kristiania (Oslo)	tam	Kristiania (Oslo)	
+merini	Merînî ve Vattâsî Fas Krallığı	Fas (Fez)	tam	Fas (Fez)	
+kuveyt	Kuveyt (Sabah Şeyhliği)	Kuveyt şehri	tam	Kuveyt şehri	
+bahreyn	Bahreyn (Âl Halîfe Şeyhliği)	Manama	tam	Manama	
+katar	Katar (Âl Sânî Şeyhliği)	Devha (Doha)	tam	Devha (Doha)	
+itilaf-emaneti	Başlıca Müttefik ve Ortak Devletler emaneti (Saint-Germain md. 91)		baskent-yok		
+avusturya-cumhuriyet	Avusturya Cumhuriyeti (I. Cumhuriyet)	Viyana	tam	Viyana	
+macaristan-naiplik	Macaristan (1918 Sonrası: Cumhuriyet → Naiplik)	Budapeşte	hic-cozulmedi		Budapeşte
+tbmm-turkiye	Türkiye Büyük Millet Meclisi Hükûmeti	Ankara	tam	Ankara	
+cagatay	Çağatay Hanlığı	Almalık / Karşi	tam	Almalık | Karşi	
+buhara	Buhara Hanlığı / Emirliği	Buhara	tam	Buhara	
+hive	Hive Hanlığı	Ürgenç → Hive	kismi	Hive	Ürgenç
+turkmen	Türkmen Aşiret Konfederasyonları (Yomut, Teke, Salur, Göklen, Eymir)	(göçebe/yarı-göçebe, sabit başkent yok)	yalniz-bolge-serbest		
+hokand	Hokand Hanlığı	Hokand	tam	Hokand	
+kazak-hanligi	Kazak Hanlığı	(göçebe, sabit başkent yok)	yalniz-bolge-serbest		
+cungar	Cungar Hanlığı (Kalmuk)	Gulca (Kulca) çevresi	tam	Gulca (Kulca) çevresi	
+yakub-beg	Doğu Türkistan (Yâkub Bey Kâşgar Emirliği)	Kaşgar	tam	Kaşgar	
+delhi-sultanligi	Delhi Sultanlığı	Delhi	tam	Delhi	
+babur-imparatorlugu	Bâbürlü (Timurlu-Hint) İmparatorluğu	Delhi / Agra	tam	Delhi | Agra	
+behmeni	Behmenî Sultanlığı (Dekken)	Gulbarga → Bidar	tam	Gulbarga | Bidar	
+vijayanagara	Vijayanagara İmparatorluğu	Vijayanagara (Hampi)	tam	Vijayanagara (Hampi)	
+maratha	Maratha Konfederasyonu	Pune (Peşvalar dönemi)	tam	Pune (Peşvalar dönemi)	
+sih-imparatorlugu	Sih İmparatorluğu (Pencap)	Lahor	tam	Lahor	
+meysur	Meysûr Sultanlığı (Haydar Ali / Tipu Sultan)	Seringapatam (Şrirangapatnam)	tam	Seringapatam (Şrirangapatnam)	
+ingiliz-hindistani	İngiliz Hindistanı (Şirket ve Taç Dönemi)	Kalküta → Yeni Delhi	kismi	Kalküta	Yeni Delhi
+song	Song Hanedanı (Çin)	Bianjing (Kaifeng) → Lin'an (Hangzhou)	tam	Bianjing (Kaifeng) | Lin'an (Hangzhou)	
+jin-hanedani	Jin Hanedanı (Jurchen, Kuzey Çin)	Zhongdu (Pekin)	tam	Zhongdu (Pekin)	
+mogol-imparatorlugu	Moğol İmparatorluğu (bölünmemiş)	Karakurum	tam	Karakurum	
+yuan-hanedani	Yuan Hanedanı (Moğol Çin)	Hanbalık (Pekin)	tam	Hanbalık (Pekin)	
+ming-hanedani	Ming Hanedanı	Nanjing → Pekin	tam	Nanjing | Pekin	
+qing-hanedani	Qing Hanedanı (Mançu)	Mukden (Şenyang) → Pekin	tam	Mukden (Şenyang) | Pekin	
+goryeo	Goryeo Hanedanı (Kore)	Kaesong	tam	Kaesong	
+joseon	Joseon Hanedanı (Kore)	Hanseong (Seul)	tam	Hanseong (Seul)	
+kamakura	Kamakura Şogunluğu (Japonya)	Kamakura	tam	Kamakura	
+muromachi	Muromachi (Ashikaga) Şogunluğu	Kyoto	tam	Kyoto	
+edo-bakufu	Edo (Tokugawa) Şogunluğu	Edo (Tokyo)	tam	Edo (Tokyo)	
+meiji-japonya	Meiji ve Sonrası Japonya İmparatorluğu	Tokyo	tam	Tokyo	
+sanzan	Sanzan Dönemi (Üç Krallık, Okinawa)	— (üç ayrı merkez: Nakijin, Urasoe/Shuri, Ozato)	hic-cozulmedi		Urasoe/Shuri | Ozato) | — (üç ayrı merkez: Nakijin[serbest-metin]
+ryukyu	Ryukyu Krallığı	Şuri (Okinawa)	tam	Şuri (Okinawa)	
+tibet-ganden-phodrang	Tibet (Dalai Lama Hükûmeti, Ganden Phodrang)	Lhasa	tam	Lhasa	
+majapahit	Majapahit İmparatorluğu (Cava)	Trowulan	tam	Trowulan	
+malaka-sultanligi	Malaka Sultanlığı	Malaka	tam	Malaka	
+ayutthaya	Ayutthaya Krallığı (Siyam)	Ayutthaya	tam	Ayutthaya	
+siyam-chakri	Siyam Krallığı (Rattanakosin / Chakri Hanedanı)	Bangkok	tam	Bangkok	
+le-hanedani	Lê Hanedanı (Đại Việt)	Thăng Long (Hanoi)	tam	Thăng Long (Hanoi)	
+nguyen-hanedani	Nguyễn Hanedanı (Vietnam)	Huế	tam	Huế	
+kamboc-kralligi	Kamboçya Krallığı (Post-Angkor)	Phnom Penh	tam	Phnom Penh	
+toungoo	Toungoo Hanedanı (Birmanya)	Toungoo → Pegu → Ava	tam	Toungoo | Pegu | Ava	
+konbaung	Konbaung Hanedanı (Birmanya)	Ava → Mandalay	tam	Ava | Mandalay	
+ace-sultanligi	Açe Sultanlığı (Sumatra)	Banda Aceh	hic-cozulmedi		Banda Aceh
+mataram-sultanligi	Mataram Sultanlığı (Cava)	Kartasura → Surakarta	kismi	Surakarta	Kartasura
+poni	Po-ni (Poni) Krallığı	— (Brunei bölgesi, kesin merkez standart kaynakta belirtilmemiş)	yalniz-bolge-serbest		—[serbest-metin]
+brunei-sultanligi	Brunei Sultanlığı	Bandar Seri Begawan	hic-cozulmedi		Bandar Seri Begawan
+sulu-sultanligi	Sulu Sultanlığı	Jolo	tam	Jolo	
+hollanda-dogu-hint	Hollanda Doğu Hint Adaları	Batavia (Cakarta)	tam	Batavia (Cakarta)	
+ingiliz-malaya	İngiliz Malaya	Singapur	tam	Singapur	
+mali-imparatorlugu	Mali İmparatorluğu	Niani	tam	Niani	
+songhay-imparatorlugu	Songhay İmparatorluğu	Gao	tam	Gao	
+kanem-bornu	Kanem-Bornu İmparatorluğu	Njimi → Ngazargamu	kismi	Ngazargamu	Njimi
+hausa-sehir-devletleri	Hausa Şehir Devletleri	Kano, Katsina, Zaria, Gobir (çeşitli merkezler)	kismi	Kano | Katsina | Zaria	Gobir (çeşitli merkezler)
+sokoto	Sokoto Halifeliği	Sokoto	tam	Sokoto	
+asanti	Aşanti İmparatorluğu	Kumasi	tam	Kumasi	
+dahomey	Dahomey Krallığı	Abomey	tam	Abomey	
+benin-kralligi	Benin Krallığı (Nijerya)	Benin Şehri	tam	Benin Şehri	
+oyo-imparatorlugu	Oyo İmparatorluğu (Yoruba)	Oyo-Ile (Eski Oyo)	tam	Oyo-Ile (Eski Oyo)	
+kongo-kralligi	Kongo Krallığı	Mbanza Kongo (São Salvador)	tam	Mbanza Kongo (São Salvador)	
+ndongo	Ndongo Krallığı (Angola)	Kabasa	tam	Kabasa	
+loango	Loango Krallığı	Buali (Loango)	tam	Buali (Loango)	
+luba	Luba İmparatorluğu	Mwibele	hic-cozulmedi		Mwibele
+kuba	Kuba Krallığı	Nsheng (Mushenge)	tam	Nsheng (Mushenge)	
+lunda-imparatorlugu	Lunda İmparatorluğu	Musumba	tam	Musumba	
+buganda	Buganda Krallığı	Mengo (Kampala)	tam	Mengo (Kampala)	
+zulu-kralligi	Zulu Krallığı	Ulundi	tam	Ulundi	
+merina	Merina Krallığı (Madagaskar)	Antananarivo	tam	Antananarivo	
+svahili-sehirleri	Svahili Şehir Devletleri (Kıyı)	Kilwa, Mombasa, Zengibar (çeşitli merkezler)	kismi	Mombasa	Kilwa | Zengibar (çeşitli merkezler)[devlet-adi]
+umman-zengibar	Umman-Zengibar Sultanlığı	Maskat → Zengibar (Stone Town)	tam	Maskat	Zengibar (Stone Town)[devlet-adi]
+aztek-imparatorlugu	Aztek (Mexica) İmparatorluğu	Tenochtitlan	tam	Tenochtitlan	
+inka-imparatorlugu	İnka İmparatorluğu (Tahuantinsuyu)	Cusco	tam	Cusco	
+maya-sehir-devletleri	Maya Şehir Devletleri (Post-Klasik)	Mayapán, Nojpetén (çeşitli merkezler)	tam	Mayapán | Nojpetén (çeşitli merkezler)	
+yeni-ispanya	Yeni İspanya Genel Valiliği	Mexico City	tam	Mexico City	
+ispanyol-peru	Peru Genel Valiliği	Lima	tam	Lima	
+portekiz-brezilyasi	Portekiz Brezilyası	Salvador → Rio de Janeiro	tam	Salvador | Rio de Janeiro	
+brezilya-imparatorlugu	Brezilya İmparatorluğu	Rio de Janeiro	tam	Rio de Janeiro	
+abd	Amerika Birleşik Devletleri	Philadelphia → Washington	kismi	Philadelphia	Washington
+meksika	Meksika (Bağımsız Dönem)	Mexico City	tam	Mexico City	
+gran-kolombiya	Büyük Kolombiya (Gran Colombia)	Bogotá	tam	Bogotá	
+haiti	Haiti Cumhuriyeti	Port-au-Prince	tam	Port-au-Prince	
+ingiliz-kuzey-amerika	İngiliz Kuzey Amerika (Kanada)	Quebec → Ottawa	tam	Quebec | Ottawa	
+hawaii-kralligi	Hawaii Krallığı	Honolulu	tam	Honolulu	
+tonga-kralligi	Tonga Krallığı	Nuku'alofa	hic-cozulmedi		Nuku'alofa
+yeni-zelanda	Yeni Zelanda (İngiliz Kolonisi/Dominyonu)	Auckland → Wellington	tam	Auckland | Wellington	
+avustralya	Avustralya Milletler Topluluğu	Melbourne → Canberra	kismi	Melbourne	Canberra
+iskocya	İskoçya Krallığı	Scone → Edinburgh	kismi	Edinburgh	Scone
+irlanda	İrlanda (Gal Beylikleri ve Krallığı)	(çok merkezli Gal beylikleri) → Dublin	tam	Dublin	(çok merkezli Gal beylikleri)[serbest-metin]
+irlanda-serbest-devlet	İrlanda Serbest Devleti	Dublin	tam	Dublin	
+bretanya	Bretanya Dükalığı	Rennes / Nantes	tam	Rennes | Nantes	
+burgonya	Burgonya Dükalığı (Valois)	Dijon	tam	Dijon	
+kastilya	Kastilya Tacı	Toledo → Valladolid	tam	Toledo | Valladolid	
+aragon	Aragon Tacı	Zaragoza → Barselona	tam	Zaragoza | Barselona	
+navarra	Navarra Krallığı	Pamplona	tam	Pamplona	
+isvicre	İsviçre Konfederasyonu	(sabit başkent yok, Bern federal merkez)	yalniz-bolge-serbest		
+belcika	Belçika Krallığı	Brüksel	tam	Brüksel	
+siena	Siena Cumhuriyeti	Siena	tam	Siena	
+ferrara	Este Devleti (Ferrara / Modena)	Ferrara → Modena (1598 sonrası)	tam	Ferrara | Modena (1598 sonrası)	
+bonacolsi	Bonacolsi Senyörlüğü (Mantova)	Mantova	tam	Mantova	
+della-scala	Della Scala (Scaligeri) Senyörlüğü (Verona)	Verona	tam	Verona	
+carrara	Carrara Senyörlüğü (Padova)	Padova	tam	Padova	
+visconti	Visconti Senyörlüğü (Milano)	Milano	tam	Milano	
+mantua	Mantua Dukalığı (Gonzaga)	Mantua	yalniz-bolge-serbest		Mantua[devlet-adi]
+parma	Parma Dukalığı (Farnese / Bourbon)	Parma	tam	Parma	
+piza	Pisa Cumhuriyeti	Pisa	tam	Pisa	
+luksemburg	Lüksemburg Büyük Dükalığı	Lüksemburg Şehri	tam	Lüksemburg Şehri	
+sur-hanedani	Sûrîler (Sûr Hânedanı)	Delhi (Sasaram ocağı) → Gaur	tam	Delhi (Sasaram ocağı) | Gaur	
+gucerat-sultanligi	Gucerât Sultanlığı	Ahmedâbâd	tam	Ahmedâbâd	
+racput	Racput Devletleri (Mevar, Mârvâr, Amber, Bikaner)	Çitor/Udeypûr · Codhpûr · Caypûr (çok merkezli)	tam	Çitor/Udeypûr | Codhpûr | Caypûr (çok merkezli)	
+bicapur	Âdilşâhî Sultanlığı (Bîcâpûr)	Bîcâpûr	tam	Bîcâpûr	
+ahmednagar	Nizamşâhî Sultanlığı (Ahmednagar)	Ahmednagar → Devletâbâd	tam	Ahmednagar | Devletâbâd	
+golkonda	Kutubşâhî Sultanlığı (Golkonda)	Golkonda → Haydarâbâd	tam	Golkonda | Haydarâbâd	
+nayak-devletleri	Nâyak Beylikleri (Madurai, Tancûr, Cinci, Keladi)	Madurai · Tancûr · Cinci · Keladi (çok merkezli)	kismi	Madurai | Tancûr | Cinci	Keladi (çok merkezli)
+orissa	Orissa (Doğu Ganga ve Gacapati Krallığı)	Kattak	tam	Kattak	
+tibet	Tibet (Phagmodrupa · Rinpungpa · Tsangpa)	Nêdong → Şigatse	kismi	Şigatse	Nêdong
+yarkent-hanligi	Yarkent (Sa'îdiyye) Hanlığı	Yarkent	tam	Yarkent	
+kuzey-yuan	Kuzey Yuan (Moğol Hanlığı)	Karakurum → değişken ordugâh	tam	Karakurum	değişken ordugâh[serbest-metin]
+demak	Demak Sultanlığı (Cava)	Demak	tam	Demak	
+surakarta	Surakarta Sunanlığı	Surakarta (Solo)	tam	Surakarta (Solo)	
+yogyakarta	Yogyakarta Sultanlığı	Yogyakarta	tam	Yogyakarta	
+mogulistan	Moğulistan (Doğu Çağatay Hanlığı)	Almalık → Turfan	tam	Almalık | Turfan	
+sind	Sind (Sûmra, Samma, Ergunlu, Kalhora, Talpur)	Tatta → Haydarâbâd	tam	Tatta | Haydarâbâd	
+kesmir	Keşmir Sultanlığı (Şah Mîr Hânedanı)	Srinagar	tam	Srinagar	
+malva-sultanligi	Mâlvâ Sultanlığı	Dhâr → Mândû	kismi	Mândû	Dhâr
+bidar	Barîdşâhî Sultanlığı (Bîdar)	Bîdar	tam	Bîdar	
+berar	İmâdşâhî Sultanlığı (Berâr)	Elicpûr	tam	Elicpûr	
+gond-kralliklari	Gond Krallıkları (Garha-Mandla, Deogarh)	Mandla	hic-cozulmedi		Mandla
+ahom	Ahom Krallığı (Assam)	Çaraideo → Rangpûr	kismi	Rangpûr	Çaraideo
+manipur	Manipûr Krallığı	İmphâl	tam	İmphâl	
+nepal	Nepal (Malla Krallıkları → Gorkha/Şah Hânedanı)	Katmandu	tam	Katmandu	
+ladak	Ladakh Krallığı (Namgyal Hânedanı)	Leh	tam	Leh	
+kalikut	Kalikut Zamorinliği	Kalikut	tam	Kalikut	
+travankur	Travankur Krallığı (Venâd)	Padmanabhapuram → Trivandrum	kismi	Trivandrum	Padmanabhapuram
+kandy	Kandy Krallığı (Seylan)	Kandy	tam	Kandy	
+yafna	Yafna (Jaffna) Krallığı	Nallur	hic-cozulmedi		Nallur
+arakan	Arakan (Mrauk U) Krallığı	Mrauk U	tam	Mrauk U	
+ava	Yukarı Birmanya (Pinya, Sagaing, Ava Krallığı)	Pinya · Sagaing → Ava	kismi	Ava	Pinya | Sagaing
+lan-na	Lan Na Krallığı	Chiang Mai	tam	Chiang Mai	
+san-devletleri	Şan Beylikleri (Sawbwa'lıklar)	Kengtung · Hsipaw · Yawnghwe (çok merkezli)	kismi	Kengtung	Hsipaw | Yawnghwe (çok merkezli)
+lan-xang	Lan Xang Krallığı (Laos)	Luang Prabang → Vientiane	tam	Luang Prabang | Vientiane	
+angkor-kmer	Kmer (Angkor) İmparatorluğu	Angkor (Yasodharapura)	tam	Angkor (Yasodharapura)	
+campa	Champa Krallığı	Vijaya → Panduranga	tam	Vijaya | Panduranga	
+mac-hanedani	Mạc Hanedanı (Đại Việt)	Thăng Long → Cao Bằng	tam	Thăng Long | Cao Bằng	
+malay-sultanliklari	Malay Sultanlıkları (Kedah, Patani, Perak, Selangor, Trengganu, Pahang)	(çok merkezli)	yalniz-bolge-serbest		(çok merkezli)[serbest-metin]
+cohor-sultanligi	Cohor (Johor) Sultanlığı	Johor Lama → Johor Bahru	hic-cozulmedi		Johor Lama | Johor Bahru
+palembang-sultanligi	Palembang Sultanlığı	Palembang	tam	Palembang	
+banten-sultanligi	Banten Sultanlığı	Banten	tam	Banten	
+banjar-sultanligi	Bancar (Banjar) Sultanlığı	Bancarmasin	tam	Bancarmasin	
+gova-makassar	Gova (Makassar) Sultanlığı	Makassar (Sombaopu)	tam	Makassar (Sombaopu)	
+ternate-sultanligi	Ternate Sultanlığı (Moluk)	Ternate	tam	Ternate	
+tidore-sultanligi	Tidore Sultanlığı (Moluk)	Tidore	tam	Tidore	
+banda-adalari	Banda Adaları (Orang Kaya Meclisleri)	Banda Neira	tam	Banda Neira	
+bali-kralliklari	Bali Krallıkları (Gelgel, Klungkung, Karangasem)	Gelgel → Klungkung	kismi	Klungkung	Gelgel
+pagaruyung	Pagaruyung (Minangkabau) Krallığı	Pagaruyung	yalniz-bolge-serbest		Pagaruyung[devlet-adi]
+timor-beylikleri	Timor Beylikleri (Liurai'lar)	(çok merkezli liurai'lıklar)	yalniz-bolge-serbest		(çok merkezli liurai'lıklar)[serbest-metin]
+filipin-racaliklari	Filipin Racalıkları (Tondo, Maynila, Cebu, Butuan)	(çok merkezli barangay ve racalıklar)	yalniz-bolge-serbest		(çok merkezli barangay[serbest-metin] | racalıklar)[serbest-metin]
+magindanao-sultanligi	Magindanao Sultanlığı	Kotabato	tam	Kotabato	
+azuchi-momoyama	Azuchi-Momoyama Dönemi (Oda-Toyotomi Japonyası)	Azuchi → Osaka	kismi	Osaka	Azuchi
+guney-ming	Güney Ming (Hongguang, Longwu, Yongli Sarayları)	Nanking → Fuzhou → Kunming	tam	Nanking | Fuzhou | Kunming	
+nguyen-beyligi	Nguyễn Beyleri (Đàng Trong)	Phú Xuân (Huế)	tam	Phú Xuân (Huế)	
+hosut	Hoşut (Kokonor) Hanlığı	Kokonor (Kuku Nor)	hic-cozulmedi		Kokonor (Kuku Nor)
+tungning	Tungning Krallığı (Zheng / Koxinga)	Amoy (Xiamen) → Tainan	tam	Amoy (Xiamen) | Tainan	
+teodoro	Theodoro (Gotya) Prensliği	Mankup (Doros)	tam	Mankup (Doros)	
+don-kazak	Don Kazak Ordası	Razdory → Çerkassk	tam	Razdory | Çerkassk	
+cin-cumhuriyeti	Çin Cumhuriyeti	Nanking → Pekin	tam	Nanking | Pekin	
+mogolistan	Moğolistan (Bogd Hanlık)	Urga (Ulan Batur)	tam	Urga (Ulan Batur)	
+afgan-durrani	Dürrânî (Afgan) Devleti	Kandehar → Kâbil	tam	Kandehar | Kâbil	
+afganistan	Afganistan (Bârekzâyî Emirliği)	Kâbil	tam	Kâbil	
+sibir-hanligi	Sibir Hanlığı	Çimgi-Tura → Sibir (İsker)	tam	Çimgi-Tura | Sibir (İsker)	
+izlanda	İzlanda	Reykjavík	tam	Reykjavík	
+bengal-sultanligi	Bengal Sultanlığı	Pandua → Gaur	tam	Pandua | Gaur	
+kenmu	Kenmu Restorasyonu (Japonya)	Kyoto	tam	Kyoto	
+fransiz-cinhindi	Fransız Çinhindi (Indochine française)	Saygon → Hanoi	tam	Saygon | Hanoi	
+haydarabad-nizam	Haydarabad Nizamlığı (Âsafcâh Hanedanı)	Haydarabad	tam	Haydarabad	
+bengal-nevabligi	Bengal Nevablığı	Murshidabad	hic-cozulmedi		Murshidabad
+san-fan	Üç Vasal İsyanı (San Fan)	Changsha (Wu Sangui'nin merkezi)	tam	Changsha (Wu Sangui'nin merkezi)	
+dashun	Dashun (Li Zicheng)	Xi'an → Pekin (kısa süreli)	tam	Xi'an | Pekin (kısa süreli)	
+yadava	Yadava Hanedanı (Devagiri)	Devagiri	tam	Devagiri	
+avad	Avad Nevablığı (Oudh)	Faizabad → Lucknow	kismi	Lucknow	Faizabad
+cavnpur-sultanligi	Cavnpur (Jaunpur) Sultanlığı — Şarkî Hanedanı	Jaunpur	tam	Jaunpur	
+hanthawaddy	Hanthawaddy Krallığı (Mon, Peygu)	Martaban → Peygu (Bago)	kismi	Peygu (Bago)	Martaban
+kakatiya	Kakatiya Hanedanı (Warangal)	Warangal	tam	Warangal	
+pagan	Pagan Krallığı (Burma) — Son Dönem	Pagan (Bagan)	tam	Pagan (Bagan)	
+pandya	Pandya Hanedanı (İkinci İmparatorluk)	Madurai	tam	Madurai	
+tay-son	Tay Sơn Hanedanı	Phú Xuân (Huế)	tam	Phú Xuân (Huế)	
+taiping	Taiping Cennetsel Krallığı	Nanjing (Tianjing)	tam	Nanjing (Tianjing)	
+madurai-sultanligi	Madurai Sultanlığı (Ma'bar)	Madurai	tam	Madurai	
+singhasari	Singhasari Krallığı (Cava)	Singhasari	yalniz-bolge-serbest		Singhasari[devlet-adi]
+ho-hanedani	Hồ Hanedanı (Vietnam)	Tây Đô (Thanh Hóa)	tam	Tây Đô (Thanh Hóa)	
+karnatik	Karnatik Nevablığı (Arcot)	Arcot	tam	Arcot	
+tonburi	Thonburi Krallığı (Siyam)	Thonburi	yalniz-bolge-serbest		Thonburi[devlet-adi]
+tran-hanedani	Trần Hanedanı (Vietnam)	Thăng Long (Hanoi)	tam	Thăng Long (Hanoi)	
+cammu-kesmir	Cammû-Keşmir (Dogra Hanedanı)	Srinagar (yaz) / Jammu (kış)	tam	Srinagar (yaz) | Jammu (kış)	
+hoysala	Hoysala Hanedanı	Belur → Halebidu	hic-cozulmedi		Belur | Halebidu
+laos-kralliklari	Laos Krallıkları (Luang Prabang, Vientiane, Champasak)	Luang Prabang / Vientiane / Champasak (üç ayrı merkez)	tam	Luang Prabang | Vientiane | Champasak (üç ayrı merkez)	
+seylan-sinhala	Seylan Sinhala Krallıkları (Portekiz Öncesi)	Dambadeniya → Gampola → Kotte (ardışık merkezler)	kismi	Kotte (ardışık merkezler)	Dambadeniya | Gampola
+sukhothai	Sukhothai Krallığı (Siyam)	Sukhothai	tam	Sukhothai	
+bahavelpur	Bahavelpur Emirliği (Dâvudpotralar)	Bahawalpur	hic-cozulmedi		Bahawalpur
+bharatpur-cat	Bharatpur Krallığı (Jat)	Bharatpur	tam	Bharatpur	
+bhopal	Bopal (Bhopal) Devleti	Bhopal	tam	Bhopal	
+cunagadh	Cunagadh (Junagadh) Nevablığı	Junagadh	hic-cozulmedi		Junagadh
+kocin	Kochi (Cochin) Krallığı — Portekiz Öncesi	Kochi	tam	Kochi	
+multan-langah	Multan Langah Sultanlığı	Multan	tam	Multan	
+pingnan	Pingnan Devleti (Panthay, Du Wenxiu)	Dali	tam	Dali	
+samudra-pasai	Samudra Pasai Sultanlığı	Pasai	hic-cozulmedi		Pasai
+sarawak-brooke	Sarawak (Brooke Hanedanı)	Kuching	tam	Kuching	
+sunda-pajajaran	Sunda Krallığı (Pajajaran)	Pakuan Pajajaran	hic-cozulmedi		Pakuan Pajajaran
+dogu-sumatra-sultanliklari	Doğu Sumatra Sultanlıkları (Jambi, Siyak, Deli, Indragiri)	—	baskent-yok		
+pontianak	Pontianak Sultanlığı (Borneo)	Pontianak	tam	Pontianak	
+kutai	Kutai Sultanlığı (Doğu Borneo)	Tenggarong	tam	Tenggarong	
+bugis-kralliklari	Bugis Krallıkları (Bone, Wajo, Soppeng — Tellumpoccoe)	—	baskent-yok		
+arjantin-cumhuriyeti	Arjantin Cumhuriyeti	Buenos Aires	tam	Buenos Aires	
+bolivya-cumhuriyeti	Bolivya Cumhuriyeti	Sucre	tam	Sucre	
+sili-cumhuriyeti	Şili Cumhuriyeti	Santiago	tam	Santiago	
+paraguay-cumhuriyeti	Paraguay Cumhuriyeti	Asunción	tam	Asunción	
+peru-cumhuriyeti	Peru Cumhuriyeti	Lima	tam	Lima	
+uruguay-cumhuriyeti	Uruguay Doğu Cumhuriyeti	Montevideo	tam	Montevideo	
+ekvador-cumhuriyeti	Ekvador Cumhuriyeti	Quito	tam	Quito	
+venezuela-cumhuriyeti	Venezuela Cumhuriyeti	Caracas	tam	Caracas	
+kolombiya-cumhuriyeti	Kolombiya Cumhuriyeti (Yeni Granada soyu)	Bogotá	tam	Bogotá	
+brezilya-cumhuriyeti	Brezilya Birleşik Devletleri Cumhuriyeti	Rio de Janeiro	tam	Rio de Janeiro	
+dominik-cumhuriyeti	Dominik Cumhuriyeti	Santo Domingo	tam	Santo Domingo	
+kuba-cumhuriyeti	Küba Cumhuriyeti	Havana	tam	Havana	
+guatemala	Guatemala Cumhuriyeti	Guatemala	yalniz-bolge-serbest		Guatemala[bolge-ulke]
+teksas-cumhuriyeti	Teksas Cumhuriyeti	Austin	hic-cozulmedi		Austin
+cahokia	Cahokia (Mississippi Kültürü)	Cahokia	tam	Cahokia	
+cherokee	Cherokee Ulusu	—	baskent-yok		
+choctaw	Choctaw Konfederasyonu	—	baskent-yok		
+creek-konfederasyonu	Creek (Mvskoke) Konfederasyonu	—	baskent-yok		
+haudenosaunee	Haudenosaunee (İrokua) Konfederasyonu	—	baskent-yok		
+powhatan	Powhatan Konfederasyonu (Tsenacomoco)	—	baskent-yok		
+natchez	Natchez (Grand Village)	—	baskent-yok		
+pueblo-bagimsizligi	Pueblo Bağımsızlığı	—	baskent-yok		
+chimu-krallik	Chimu Krallığı (Chimor)	Chan Chan	tam	Chan Chan	
+colla-krallik	Colla (Qulla) Krallığı	—	baskent-yok		
+lupaqa-krallik	Lupaqa Krallığı	—	baskent-yok		
+diaguita-calchaqui-konfederasyonu	Diaguita-Calchaquí Konfederasyonu	—	baskent-yok		
+mapuche-araukanya	Mapuche (Araukanya)	—	baskent-yok		
+muisca-konfederasyonu	Muisca Konfederasyonu	—	baskent-yok		
+nahua-sehir-devletleri	Nahua Şehir-Devletleri (Altepetl'ler)	—	baskent-yok		
+purepecha-imparatorlugu	Purépecha (Tarasko) İmparatorluğu	Tzintzuntzan	tam	Tzintzuntzan	
+tututepec-krallik	Tututepec Krallığı (Yucu Dzaa)	—	baskent-yok		
+zapotek-krallik	Zapotek Krallığı	—	baskent-yok		
+farukiler	Fârûkîler (Handeş Sultanlığı)	Asîrgarh / Burhânpûr	tam	Asîrgarh | Burhânpûr	
+apaci-ovalar	Ovalar Apaçileri (Plains Apache)	—	baskent-yok		
+komanci	Komançi (Comanchería)	merkezi yok — göçebe, son direniş noktası Palo Duro Kanyonu	yalniz-bolge-serbest		merkezi yok — göçebe[serbest-metin] | son direniş noktası Palo Duro Kanyonu[serbest-metin]
+panama-cumhuriyeti	Panama Cumhuriyeti	Panamá (Panama City)	tam	Panamá (Panama City)	
+kabartay	Kabartay (Kabardey) Beylikleri	(beylikler hâlinde, sabit başkent yok)	yalniz-bolge-serbest		
+eyyubi-hisnikeyfa	Hısnıkeyfâ Eyyûbîleri	Hısnıkeyfâ (Hasankeyf)	tam	Hısnıkeyfâ (Hasankeyf)	
+tui-tonga-imparatorlugu	Tuʻi Tonga İmparatorluğu	Muʻa (Lapaha)	tam	Muʻa (Lapaha)	
+transvaal	Transvaal (Güney Afrika Cumhuriyeti — Zuid-Afrikaansche Republiek)	Pretoria	hic-cozulmedi		Pretoria
+oranj	Oranj Hür Devleti (Oranje Vrijstaat)	Bloemfontein	hic-cozulmedi		Bloemfontein
+mutapa	Mwene Mutapa (Monomotapa)	—	baskent-yok		
+zimbabve-kralligi	Büyük Zimbabve Krallığı	Büyük Zimbabve	tam	Büyük Zimbabve	
+massina	Masina Halifeliği (Hamdullahi)	Hamdullahi	tam	Hamdullahi	
+tekrur	Toucouleur Devleti (Umarî / Segu Tukulor)	Segu	tam	Segu	
+irak-kralligi	Irak Krallığı (Faysal I, İngiliz Mandası)		baskent-yok		
+suriye-lubnan-mandasi	Fransız Suriye-Lübnan Manda İdaresi		baskent-yok		
+filistin-mandasi	İngiliz Filistin Mandası		baskent-yok		
+urdun-emirligi	Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)		baskent-yok		
+misir-sultanligi	Mısır Sultanlığı (İngiliz Himayesi)		baskent-yok		
+misir-kralligi	Mısır Krallığı (I. Fuad)		baskent-yok		
+tannu-tuva	Tannu Tuva Halk Cumhuriyeti		baskent-yok		
+harezm-halk-cumhuriyeti	Harezm Halk Sovyet Cumhuriyeti		baskent-yok		
+buhara-halk-cumhuriyeti	Buhara Halk Sovyet Cumhuriyeti		baskent-yok		
+rif-cumhuriyeti	Rif Cumhuriyeti (Abdülkerim el-Hattâbî)		baskent-yok		
+ingiliz-guyanasi	İngiliz Guyanası		baskent-yok		
+hollanda-guyanasi	Hollanda Guyanası (Surinam)		baskent-yok		
+fransiz-guyanasi	Fransız Guyanası		baskent-yok		
+agadez-sultanligi	Agadez (Aïr) Sultanlığı — Tuareg		baskent-yok		
+kesiri-sultanligi	Kesîrî Sultanlığı (Hadramut iç kesimi)		baskent-yok		
+kuayti-sultanligi	Kuaytî Sultanlığı (Şihr-Mükellâ, Hadramut kıyısı)		baskent-yok		
+ammarogullari	Ammâroğulları (Trablusgarp)	Trablus	tam	Trablus	
+arma	Arma Paşalığı (Tinbüktü)		baskent-yok		
+topia	Topia (Thopia) Beyliği		baskent-yok		
+dukagin	Dukagin (Dukagjini) Prensliği		baskent-yok		
+hurmuz-sultanligi	Hürmüz Sultanlığı		baskent-yok		
+norse-gronland	Norse Grönland (Vestribygð–Eystribygð)		baskent-yok		
+piombino	Piombino Prensliği (Appiani hânedanı)	Piombino	yalniz-bolge-serbest		Piombino[devlet-adi]
+ingiliz-sudani	İngiliz Sudanı (Anglo-Mısır Kondominyumu)	Hartum	tam	Hartum	
+sutayogullari	Sutayogullari		baskent-yok		
+cemisgezek-beyligi	Cemisgezek Beyligi (Melkisi)		baskent-yok		
+orta-macar-kralligi	Orta Macar Krallığı (Tököli İmre)		baskent-yok		
+arvanid-sancagi	Arvanid Sancağı (Arnavut-ili)		baskent-yok		
+mekke-serifligi	Mekke Şerifliği		baskent-yok		
+konstantin-beyligi	Konstantin Beyliği (Ahmed Bey)		baskent-yok		
+sani-emirligi	Âl-i Sânî Emirliği (Katar)		baskent-yok		
+sabah-emirligi	Sabah Emirliği (Kuveyt)		baskent-yok		
+kumuk-samhalligi	Kumuk Şamhallığı (Tarki)		baskent-yok		
+kaheti-kralligi	Kaheti Krallığı		baskent-yok		
+crnojevic-zetasi	Crnojević Zetası		baskent-yok		
+dejanovic-prensligi	Dejanović Prensliği (Kostadin-ili)		baskent-yok		
+lubnan-emirligi	Lübnan Emirliği (Ma'noğulları · Şihaboğulları)	Dayr al-Kamer (Deyrülkamer) → Beyteddin	kismi	Dayr al-Kamer (Deyrülkamer)	Beyteddin
+cebel-i-lubnan-mutasarrifligi	Cebel-i Lübnan Mutasarrıflığı	Beyteddin	hic-cozulmedi		Beyteddin
+harfusogullari	Harfûşoğulları (Baalbek Emirliği)		baskent-yok		
+misir-eyaleti	Osmanlı Mısır Eyaleti		baskent-yok		
+sirbistan-eyaleti	Osmanlı Sırbistan'ı (Doğrudan İdare Dönemi)		baskent-yok		
+tunus-beyligi-fransiz	Tunus Beyliği (Fransız Himayesi Dönemi)		baskent-yok		
+meysur-racaligi	Meysûr Racalığı (Wodeyar Hanedanı, İngiliz himayesinde)		baskent-yok		
+gvalyar	Gvalyar Devleti (Sindiya Hanedanı)		baskent-yok		
+indor	İndor Devleti (Holkar Hanedanı)		baskent-yok		
+kolhapur	Kolhapur Devleti (Şivâcî'nin İkinci Kolu)		baskent-yok		
+baroda	Baroda Devleti (Gaikvad Hanedanı)		baskent-yok		
+bali-kralliklari-pejeng	Bali Pejeng Krallığı		baskent-yok		
+suriye-arap-kralligi	Suriye Arap Krallığı (Faysal)	Şam	tam	Şam	
+kosta-rika-cumhuriyeti	Kosta Rika Cumhuriyeti	San José	tam	San José	
+guney-afrika-birligi	Güney Afrika Birliği	Pretoria (hükûmet) · Cape Town (yasama)	kismi	Cape Town (yasama)	Pretoria (hükûmet)
+guneybati-afrika-mandasi	Güneybatı Afrika (Güney Afrika Mandası)	Windhoek	tam	Windhoek	
+fransiz-kamerun-mandasi	Fransız Kamerunu (Fransız Mandası)	Yaoundé	hic-cozulmedi		Yaoundé
+ingiliz-tanganika-mandasi	Tanganika Toprağı (İngiliz Mandası)	Dar es Salaam	yalniz-bolge-serbest		Dar es Salaam[serbest-metin]
+ruanda-urundi-mandasi	Ruanda-Urundi (Belçika Mandası)	Usumbura	hic-cozulmedi		Usumbura
+ingiliz-nijerya	İngiliz Nijeryası (Lagos Kolonisi → Nijerya Kolonisi ve Protektorası)	Lagos	tam	Lagos	
+ingiliz-becuanaland	Becuanaland Protektorası	Mafeking (protektora toprakları dışında)	hic-cozulmedi		Mafeking (protektora toprakları dışında)
+ingiliz-kenya-kolonisi	İngiliz Kenyası (Doğu Afrika Protektorası → Kenya Kolonisi ve Protektorası)	Mombasa → Nairobi (1907)	tam	Mombasa | Nairobi (1907)	
+ingiliz-guney-rodezya	Güney Rodezya (İngiliz Güney Afrika Şirketi → Özyönetimli Koloni)	Salisbury	tam	Salisbury	
+portekiz-mozambik	Portekiz Mozambiği (Portekiz Doğu Afrikası)	Mozambik adası → Lourenço Marques	tam	Mozambik adası | Lourenço Marques	
+honduras-cumhuriyeti	Honduras Cumhuriyeti	Comayagua → Tegucigalpa (1880)	kismi	Comayagua	Tegucigalpa (1880)
+nikaragua-cumhuriyeti	Nikaragua Cumhuriyeti	León → Managua	kismi	León	Managua
+danzig-serbest-sehri	Danzig Serbest Şehri	Danzig	hic-cozulmedi		Danzig
+saar-havzasi-mandasi	Saar Havzası Bölgesi (Milletler Cemiyeti İdaresi)	Saarbrücken	tam	Saarbrücken	
+krakow-serbest-sehri	Krakov Serbest Şehri	Krakov	tam	Krakov	
+prusya-dukaligi	Prusya Dükalığı	Königsberg	tam	Königsberg	
+norvec-isvec-birligi	Norveç Krallığı (İsveç ile Birlik)	Christiania	hic-cozulmedi		Christiania
+luksemburg-hollanda-birligi	Lüksemburg Büyük Dükalığı (Hollanda ile Şahsî Birlik)	Lüksemburg	tam	Lüksemburg	
+italya-napolyon	Cisalpin Cumhuriyeti → İtalya Cumhuriyeti → İtalya Krallığı (Napolyon)	Milano	tam	Milano	
+bavyera	Bavyera (Dükalık → Elektörlük → Krallık)	Münih	tam	Münih	
+danzig-serbest-sehri-1807	Danzig Serbest Şehri (Napolyon Dönemi)	Danzig	hic-cozulmedi		Danzig
+cerkez	Çerkez Kabile Birlikleri — Batı Grubu (Adige)	(kabile birlikleri hâlinde, sabit merkez yok)	yalniz-bolge-serbest		
+kuba-hanligi	Kuba Hanlığı	Hudad Kalesi (1735'e kadar) → Kuba şehri (1735'ten)	kismi	Kuba şehri (1735'ten)	Hudad Kalesi (1735'e kadar)
+belcika-kongo	Belçika Kongosu	Boma → Léopoldville	kismi	Boma	Léopoldville
+el-salvador-cumhuriyeti	El Salvador Cumhuriyeti	San Salvador	tam	San Salvador	
+fransiz-bati-afrika	Fransız Batı Afrikası (AOF)	Saint-Louis → Dakar (1902)	tam	Saint-Louis | Dakar (1902)	
+fransiz-ekvator-afrikasi	Fransız Ekvator Afrikası (AEF)	Brazzaville	tam	Brazzaville	
+ingiliz-altin-kiyisi	İngiliz Altın Kıyısı (Gold Coast Kolonisi)	Cape Coast → Accra	tam	Cape Coast | Accra	
+ingiliz-hondurasi	İngiliz Hondurası (Belize)	Belize	yalniz-bolge-serbest		Belize[bolge-ulke]
+ingiliz-kuzey-rodezya	Kuzey Rodezya (İngiliz Güney Afrika Şirketi İdaresi → İngiliz Protektorası)	Livingstone → Lusaka	tam	Livingstone | Lusaka	
+ingiliz-nyasaland	Nyasaland Protektorası (İngiliz Orta Afrikası)	Zomba	tam	Zomba	
+ingiliz-siyera-leon	İngiliz Sierra Leone'si (Koloni ve Protektora)	Freetown	tam	Freetown	
+newfoundland-dominyonu	Newfoundland (Sorumlu Hükûmet → Dominyon)	St. John's	tam	St. John's	
+portekiz-angola	Portekiz Angolası	Luanda	tam	Luanda	
+portekiz-gine	Portekiz Ginesi	Bissau	tam	Bissau	
+bosna-eyaleti	Osmanlı Bosna'sı (sancak → 1580 eyalet → 1866 vilâyet)		baskent-yok		
+iskodra-pasaligi	İşkodra Paşalığı (Buşatlılar)		baskent-yok		
+arnavutluk-osmanli	Osmanlı Arnavutluğu (İşkodra/Yanya/Manastır/Kosova sancak ve vilâyetleri)		baskent-yok		
+samtshe-atabegligi	Samçhe (Meskheti, Ahıska/Çıldır) Atabekliği		baskent-yok		
+revan-hanligi	Revan (Erivan) Hanlığı		baskent-yok		
+cenub-i-garbi-kafkas	Cenûb-ı Garbî Kafkas Hükûmet-i Muvakkate-i Milliyesi (Kars)		baskent-yok		
+ukrayna-devleti-1918	Ukrayna Devleti (Skoropadski Hetmanlığı)		baskent-yok		
+epir-despotlugu	Epir (Yanya) Despotluğu — Tocco dönemi dâhil		baskent-yok		
+vidin-carligi	Vidin Çarlığı (İvan Sracimir)		baskent-yok		
+kartli-kralligi	Kartli Krallığı (1762'den Kartli-Kaheti)		baskent-yok		
+megrelya-prensligi	Megrelya (Dadyan / Odişi) Prensliği		baskent-yok		
+guria-prensligi	Guria (Güryel) Prensliği		baskent-yok		
+abhazya-prensligi	Abhazya (Şervaşidze / Çaçba) Prensliği		baskent-yok		
+ukrayna-halk-cumhuriyeti	Ukrayna Halk Cumhuriyeti		baskent-yok		
+tahiri	Tâhirîler (Yemen)		baskent-yok		
+yeni-granada-valiligi	Yeni Granada Genel Valiliği		baskent-yok		
+rio-de-la-plata-valiligi	Río de la Plata Genel Valiliği		baskent-yok		
+venezuela-genel-kaptanligi	Venezuela Genel Kaptanlığı		baskent-yok		
+hollanda-brezilyasi	Hollanda Brezilyası (Nieuw Holland)		baskent-yok		
+habsburg-hollandasi	Habsburg Hollandası (On Yedi Eyalet)		baskent-yok		
+batav-cumhuriyeti	Batav Cumhuriyeti / Holland Krallığı		baskent-yok		
+mayorka	Mayorka Krallığı		baskent-yok		
+arborea	Arborea Yargıçlığı (Sardinya)		baskent-yok		
+orta-amerika-federasyonu	Orta Amerika Federal Cumhuriyeti		baskent-yok		
+yeni-ispanya-ilk-donem	Yeni İspanya — Genel Valilik Öncesi (Cortés ve Audiencia, 1521-1535)		baskent-yok		
+nagpur-bhonsle	Nagpur Bhonsle Krallığı		baskent-yok		
+turkiye-cumhuriyeti	Türkiye Cumhuriyeti	Ankara	tam	Ankara	
+hatay-devleti	Hatay Devleti	Antakya	tam	Antakya	
+suudi-arabistan	Suudi Arabistan Krallığı	Riyad	tam	Riyad	
+mogolistan-halk-cumhuriyeti	Moğolistan Halk Cumhuriyeti	Ulan Batur	tam	Ulan Batur	
+avusturya-ikinci-cumhuriyet	Avusturya Cumhuriyeti (II. Cumhuriyet)	Viyana	tam	Viyana	
+vichy-fransasi	Fransız Devleti (Vichy)	Vichy	tam	Vichy	
+slovakya-cumhuriyeti	Slovak Cumhuriyeti (1939-1945)	Bratislava	tam	Bratislava	
+bohemya-moravya-protektorasi	Bohemya ve Moravya Protektorası	Prag	tam	Prag	
+hirvatistan-bagimsiz	Bağımsız Hırvat Devleti (NDH)	Zagreb	tam	Zagreb	
+mancukuo	Mançukuo	Hsinking (Changchun)	tam	Hsinking (Changchun)	
+nanjing-wang-jingwei	Çin Cumhuriyeti Yeniden Düzenlenmiş Millî Hükûmeti (Wang Jingwei, Nanjing)	Nanjing	tam	Nanjing	
+italyan-dogu-afrikasi	İtalyan Doğu Afrikası	Addis Ababa	hic-cozulmedi		Addis Ababa
+ispanya-milliyetci	Milliyetçi İspanya (Franco, Burgos)	Burgos	tam	Burgos	
+arnavutluk-halk-cumhuriyeti	Arnavutluk (Komünist Yönetim → Halk Cumhuriyeti)	Tiran	hic-cozulmedi		Tiran
+almanya-muttefik-isgali	Almanya — Müttefik İşgal İdaresi	Berlin (Müttefik Kontrol Konseyi)	tam	Berlin (Müttefik Kontrol Konseyi)	
+endonezya-cumhuriyeti	Endonezya Cumhuriyeti	Cakarta	tam	Cakarta	
+filipin-commonwealth	Filipinler Milletler Topluluğu (Commonwealth)	Manila	tam	Manila	
+murabitlar	Murâbıtlar Devleti	Ağmât → Merakeş	kismi	Merakeş	Ağmât
+muvahhidler	Muvahhidler Devleti	Tinmel → Merakeş	kismi	Merakeş	Tinmel
+ziriler	Zîrîler (Kuzey Afrika)	Kayrevan → Mehdiye	tam	Kayrevan | Mehdiye	
+hammadiler	Hammâdîler	Kal‘atü Benî Hammâd → Bicâye	kismi	Bicâye	Kal‘atü Benî Hammâd
+magrave-sicilmase	Mağrâve Emirliği (Sicilmâse)	Sicilmâse	tam	Sicilmâse	
+gane	Gāne (Gana) Devleti	Gāne (Kumbîsâlih harabeleri sanılıyor)	yalniz-bolge-serbest		Gāne (Kumbîsâlih harabeleri sanılıyor)[devlet-adi]
+susu-kralligi	Susu (Sosso) Krallığı	Susu (yeri kaynakta yok)	yalniz-bolge-serbest		Susu[devlet-adi]
+tekrur-kralligi	Tekrûr Krallığı (Senegal vadisi)	Tekrûr	yalniz-bolge-serbest		Tekrûr[devlet-adi]
+kevkev	Kevkev (Gao) Krallığı — Songay Zâ Hânedanı	Kukia → Gao (1009-10)	kismi	Gao (1009-10)	Kukia
+zagve	Zague (Zagwe) Hânedanı — Etiyopya	Roha (Lalibela)	tam	Roha (Lalibela)	
+suve-emirligi	Şüve (Shoa) Mahzûmî Emirliği	Doğu Şüve (kaynakta şehir adı yok)	hic-cozulmedi		Doğu Şüve
+mapungubwe	Mapungubwe Krallığı	Mapungubwe (Limpopo-Shashe birleşimi)	tam	Mapungubwe (Limpopo-Shashe birleşimi)	
+liao-hanedani	Liao Hanedanı (Kitan / Hıtay)	Shangjing (Linhuang) · beş başkent sistemi (Nanjing = Pekin dahil)	hic-cozulmedi		Shangjing (Linhuang) | beş başkent sistemi (Nanjing = Pekin dahil)[serbest-metin]
+bati-xia	Batı Xia (Tangut) Devleti	Xingqing (Zhongxing; bugün Yinchuan)	yalniz-bolge-serbest		Xingqing (Zhongxing[serbest-metin] | bugün Yinchuan)[serbest-metin]
+dali-kralligi	Dali Krallığı (Yunnan)	Dali (Yangjümie)	tam	Dali (Yangjümie)	
+dongxia	Doğu Xia (Dongxia / Dazhen) Devleti	Nanjing (Mançurya doğusu; bugün Yanji yöresi — kesin yer tartışmalı)	tam	Nanjing	
+tien-le-hanedani	Erken Lê Hanedanı (Đại Cồ Việt)	Hoa Lư	hic-cozulmedi		Hoa Lư
+ly-hanedani	Lý Hanedanı (Đại Việt)	Thăng Long (Hanoi)	tam	Thăng Long (Hanoi)	
+heian-japonya	Japonya — Heian Dönemi İmparatorluk Sarayı	Heian-kyō (Kyoto)	tam	Heian-kyō (Kyoto)	
+oshu-fujiwara	Ōshū Fujiwara (Kuzey Fujiwara) Hanedanlığı	Hiraizumi	tam	Hiraizumi	
+srivijaya	Srivicaya (Śrīvijaya) Krallığı	Palembang → Jambi (Melayu)	tam	Palembang | Jambi (Melayu)	
+medang	Medang (Mataram) Krallığı (Cava)	Orta Cava (Mataram) → Doğu Cava (Watugaluh, 929 sonrası)	tam	Orta Cava (Mataram)	Doğu Cava (Watugaluh[serbest-metin] | 929 sonrası)[serbest-metin]
+kahuripan	Kahuripan Krallığı (Airlangga, Doğu Cava)	Kahuripan	yalniz-bolge-serbest		Kahuripan[devlet-adi]
+kediri	Kediri (Panjalu) Krallığı (Doğu Cava)	Daha (Kediri)	hic-cozulmedi		Daha (Kediri)
+bali-warmadewa	Bali Krallığı (Warmadewa Hanedanı)	Bedulu–Pejeng yöresi	yalniz-bolge-serbest		Bedulu–Pejeng yöresi[serbest-metin]
+hariphunchai	Hariphunchai (Haripuñjaya) Krallığı	Lamphun	tam	Lamphun	
+guge	Guge Krallığı (Batı Tibet)	Tsaparang · Tholing	hic-cozulmedi		Tsaparang | Tholing
+sakya	Sakya Yönetimi (Moğol-Yuan himayesinde Tibet)	Sakya	tam	Sakya	
+buyuk-selcuklu	Büyük Selçuklu Devleti	Nîşâbur → Rey → İsfahan → Merv	kismi	Nîşâbur | İsfahan | Merv	Rey
+kirman-selcuklu	Kirman Selçukluları	Berdesîr (Kirman) → Nermâsîr (son dönem)	kismi	Berdesîr (Kirman)	Nermâsîr (son dönem)
+suriye-selcuklu	Suriye Selçukluları	Dımaşk → Halep (1095 sonrası iki melik: Halep ve Dımaşk)	yalniz-bolge-serbest		Dımaşk[devlet-adi] | Halep (1095 sonrası iki melik: Halep[serbest-metin] | Dımaşk)[devlet-adi]
+irak-selcuklu	Irak Selçukluları	İsfahan → Hemedan	tam	İsfahan | Hemedan	
+gazneli	Gazneliler (Gazneli Devleti)	Gazne → Lahor	tam	Gazne | Lahor	
+gurlu	Gurlular (Şensebânîler)	Estiyâ → Fîrûzkûh (Gazne ikinci merkez, 1173'ten)	hic-cozulmedi		Estiyâ | Fîrûzkûh (Gazne ikinci merkez[serbest-metin] | 1173'ten)[serbest-metin]
+karahanli	Karahanlılar (bölünme öncesi birleşik devlet)	Balasagun / Kâşgar (Talas); batıda Özkent, Semerkant, Buhara	tam	Balasagun | Kâşgar (Talas) | Semerkant | Buhara	batıda Özkent[serbest-metin]
+dogu-karahanli	Doğu Karahanlılar	Balasagun → Kâşgar	tam	Balasagun | Kâşgar	
+bati-karahanli	Batı Karahanlılar	Özkent → Semerkant	kismi	Semerkant	Özkent
+karahitay	Karahıtaylar (Batı Liao)	Balasagun	tam	Balasagun	
+harizmsah	Hârizmşahlar (Anuştegin hânedanı)	Gürgenç → Semerkant (1212) → Tebriz (Celâleddin, 1225)	tam	Gürgenç | Semerkant (1212)	Tebriz (Celâleddin[serbest-metin] | 1225)[serbest-metin]
+samani	Sâmânîler	Buhara	tam	Buhara	
+buveyhi	Büveyhîler	Şîraz (Fars) · Rey / İsfahan / Hemedan (Cibâl) · Bağdat (Irak kolu)	kismi	Şîraz (Fars) | İsfahan | Hemedan (Cibâl) | Bağdat (Irak kolu)	Rey
+ziyari	Ziyârîler	Cürcân (Gürgân) · Esterâbâd	tam	Cürcân (Gürgân) | Esterâbâd	
+kakuyi	Kâkûyîler (Kâkeveyhîler)	İsfahan (1051'e dek) · Yezd (1051-1141)	tam	İsfahan (1051'e dek) | Yezd (1051-1141)	
+revvadi	Revvâdîler	Tebriz	tam	Tebriz	
+bavendi	Bâvendîler	Firîm / Şehriyârkûh (Keyûsiyye) · Sârî (İspehbediyye) · Âmül (Kinhâriyye)	kismi	Sârî (İspehbediyye) | Âmül (Kinhâriyye)	Firîm | Şehriyârkûh (Keyûsiyye)
+salgurlu	Salgurlular (Fars Atabegleri)	Şîraz	tam	Şîraz	
+ildenizli	İldenizliler (Azerbaycan Atabegleri)	Nahcıvan · Tebriz · Hemedan	tam	Nahcıvan | Tebriz | Hemedan	
+ahmedili	Ahmedîlîler (Merâga Atabegleri)	Merâga · (sonra) Revândiz Kalesi	tam	Merâga | Revândiz Kalesi	
+yezd-atabegligi	Yezd Atabegleri	Yezd	tam	Yezd	
+alamut-nizari	Nizârî İsmâilî Devleti (Alamut)	Alamut Kalesi (Rûdbâr)	hic-cozulmedi		Alamut Kalesi (Rûdbâr)
+annazi	Annâzîler	Hulvân · Sîrvân Kalesi	hic-cozulmedi		Hulvân | Sîrvân Kalesi
+musafiri	Müsâfirîler (Sellârîler, Kengerîler)	Şemîrân Kalesi (Târum) · Erdebil (Azerbaycan kolu, 979/980'e dek)	hic-cozulmedi		Şemîrân Kalesi (Târum) | Erdebil (Azerbaycan kolu[serbest-metin] | 979/980'e dek)[serbest-metin]
+badusbani	Bâdüsbânîler (Rûyân üstândârları)	Rûyân · (sonra) Kucur ve Nur	hic-cozulmedi		Rûyân | Kucur | Nur
+kipcak	Kıpçaklar (Kumanlar) — Deşt-i Kıpçak	yok (başbuğ yurtları: Orta Asya, İtil-Yayık, Don-Donets, Aşağı Dinyeper, Tuna)	hic-cozulmedi		İtil-Yayık | Don-Donets | yok (başbuğ yurtları: Orta Asya[serbest-metin] | Aşağı Dinyeper[bolge-ulke] | Tuna)[bolge-ulke]
+idil-bulgar	İdil (Volga) Bulgar Hanlığı	Bulgar	tam	Bulgar	
+kerayit	Kerâyitler (Ong Han ülkesi)	bulunamadı	yalniz-bolge-serbest		bulunamadı[serbest-metin]
+nayman	Naymanlar	bulunamadı	yalniz-bolge-serbest		bulunamadı[serbest-metin]
+koco-uygur	Koço (Turfan) Uygur Devleti — İdikutlar	Koço (yazlık) · Beşbalık (kışlık)	hic-cozulmedi		Koço (yazlık) | Beşbalık (kışlık)
+dogu-macar-kralligi	Doğu Macar Krallığı (Szapolyai / Zapolya)	Buda → Gyulafehérvár	tam	Buda | Gyulafehérvár	
+kuca-hocalari	Kuça Hocaları (Döngen-Uygur Birleşik Hükûmeti)	Kuça	tam	Kuça	
+danismendli	Dânişmendliler	Sivas / Niksar → Kayseri; Malatya kolu: Malatya	tam	Sivas | Niksar | Kayseri	Malatya kolu: Malatya[serbest-metin]
+saltuklu	Saltuklular (Saltukoğulları)	Erzurum	tam	Erzurum	
+mengucuklu	Mengücüklüler (Mengücekoğulları)	Kemah → Erzincan (Divriği ve Şebinkarahisar kolları)	tam	Kemah	Erzincan (Divriği[serbest-metin] | Şebinkarahisar kolları)[serbest-metin]
+ahlatsahlar	Ahlatşahlar (Sökmenliler, Şâh-i Ermenler)	Ahlat	hic-cozulmedi		Ahlat
+mervani	Mervânîler (Mervanoğulları)	Meyyâfârikīn (Silvan)	hic-cozulmedi		Meyyâfârikīn (Silvan)
+inalogullari	İnaloğulları (Âmid)	Âmid (Diyarbekir)	tam	Âmid (Diyarbekir)	
+dilmacogullari	Dilmaçoğulları (Bitlis-Erzen)	Bitlis → Erzen	kismi	Bitlis	Erzen
+cubukogullari	Çubukoğulları (Harput)	Harput	tam	Harput	
+latin-imparatorlugu	Latin İstanbul İmparatorluğu	Konstantinopolis (İstanbul)	tam	Konstantinopolis (İstanbul)	
+iznik-imparatorlugu	İznik (Laskaris) İmparatorluğu	İznik	tam	İznik	
+ahaya-prinkepsligi	Ahaya (Mora) Prinkepsliği	Andravida	hic-cozulmedi		Andravida
+selanik-kralligi	Latin Selânik Krallığı	Selânik	tam	Selânik	
+selanik-imparatorlugu	Selânik İmparatorluğu (Komnenos Dukas kolu)	Selânik	tam	Selânik	
+cola	Çola (Chola) İmparatorluğu	Tancavur (Thanjavur) → Gangaikondaçolapuram	kismi	Tancavur (Thanjavur)	Gangaikondaçolapuram
+bati-calukya	Batı Çalukya (Kalyani Çalukyaları)	Manyakheta → Kalyani	hic-cozulmedi		Manyakheta | Kalyani
+dogu-calukya	Doğu Çalukya (Vengi Çalukyaları)	Vengi	hic-cozulmedi		Vengi
+pala	Pâla Hanedanı (Bengal-Bihar)	Mudgagiri (Munger)	hic-cozulmedi		Mudgagiri (Munger)
+sena	Sena Hanedanı (Bengal)	Nadia (Navadvipa)	tam	Nadia (Navadvipa)	
+gahadavala	Gâhadavâla Hanedanı (Kannauj-Varanasi)	Kannauj · Varanasi	kismi	Varanasi	Kannauj
+cahamana	Çavhan (Çâhamâna) Hanedanı — Şakambhari/Ecmîr	Şakambhari → Ecmîr (Ajayameru) · Delhi	kismi	Ecmîr (Ajayameru) | Delhi	Şakambhari
+paramara	Paramâra Hanedanı (Mâlva)	Dhâr · Ujjain	kismi	Ujjain	Dhâr
+caulukya	Çaulukya (Solanki) Hanedanı — Gucerat	Anahilapataka (Patan)	tam	Anahilapataka (Patan)	
+candela	Çandela (Candella) Hanedanı — Bundelkhand	Khajuraho → Mahoba · Kâlincar	hic-cozulmedi		Khajuraho | Mahoba | Kâlincar
+gurjara-pratihara	Gürcara-Pratihâra Hanedanı (Kannauj)	Kannauj	hic-cozulmedi		Kannauj
+kabace	Nâsırüddin Kabâce Devleti (Mültan-Uç-Sind)	Mültan · Uç	kismi	Mültan	Uç
+toltek	Toltek Devleti (Tollan/Tula)	Tollan (Tula, Hidalgo)	hic-cozulmedi		Hidalgo) | Tollan (Tula[serbest-metin]
+ata-pueblo	Ata Pueblo Kültürü (Anasazi) — Chaco ve Mesa Verde	Chaco Kanyonu (Pueblo Bonito)	hic-cozulmedi		Chaco Kanyonu (Pueblo Bonito)
+rapa-nui	Rapa Nui (Paskalya Adası) Soyları	Anakena	hic-cozulmedi		Anakena
+tahiti	Tahiti ve Cemiyet Adaları Şeflikleri (→ Pomare Krallığı)	Papeete (Pomare dönemi)	tam	Papeete (Pomare dönemi)	
+hawaii-seflikleri	Hawaii Şeflikleri (Birleşme Öncesi)	—	baskent-yok		
+abbasi	Abbâsî Hilâfeti	Kûfe → Bağdat	tam	Kûfe | Bağdat	
+ukayli	Ukaylîler	Musul	tam	Musul	
+mezyedi	Mezyedîler	Nîl / Câmiayn → Hille (1102)	kismi	Hille (1102)	Câmiayn | Nîl[bolge-ulke]
+zengi-musul	Zengîler (Musul Atabegliği)	Musul	tam	Musul	
+zengi-halep	Zengîler (Halep kolu – Nûreddin Mahmud)	Halep (1154'ten sonra Dımaşk da)	yalniz-bolge-serbest		Halep (1154'ten[serbest-metin] | Dımaşk da)[serbest-metin]
+begteginli	Begteginliler (Erbil Atabegliği)	Erbil	tam	Erbil	
+lului	Lü'lü' Hânedanı (Musul)	Musul	tam	Musul	
+hamdani-halep	Hamdânîler (Halep kolu)	Halep	tam	Halep	
+numeyri	Nümeyrîler (Nümeyroğulları)	Harran	hic-cozulmedi		Harran
+fatimi	Fâtımî Devleti	Rakkāde → Mehdiye → Sabra (Mansûriye) → Kahire	kismi	Mehdiye | Kahire	Rakkāde | Sabra (Mansûriye)
+mirdasi	Mirdâsîler	Halep	tam	Halep	
+boriler	Dımaşk Atabegliği (Tuğteginliler / Börîler)	Dımaşk	yalniz-bolge-serbest		Dımaşk[devlet-adi]
+munkizogullari	Şeyzer Münkızoğulları Emirliği	Şeyzer	hic-cozulmedi		Şeyzer
+beni-ammar-trablussam	Ammâroğulları (Trablusşam Benî Ammâr Kadıları)	Trablusşam	tam	Trablusşam	
+kudus-kralligi	Kudüs Haçlı Krallığı	Kudüs (1099-1187) → Akkâ (1191-1291; 1229-1244 Kudüs yeniden elde)	tam	Kudüs (1099-1187)	Akkâ (1191-1291[serbest-metin] | 1229-1244 Kudüs yeniden elde)[serbest-metin]
+antakya-prinkipsligi	Antakya Prinkepsliği	Antakya	tam	Antakya	
+urfa-kontlugu	Urfa (Edessa) Haçlı Kontluğu	Urfa (1098-1144) → Tel Bâşir (1144-1150)	kismi	Urfa (1098-1144)	Tel Bâşir (1144-1150)
+trablus-kontlugu	Trablus Haçlı Kontluğu	Trablusşam	tam	Trablusşam	
+eyyubi	Eyyûbî Sultanlığı	Kahire (Dımaşk ile birlikte; el-Melikü'l-Kâmil'den itibaren Kahire)	yalniz-bolge-serbest		Kahire (Dımaşk ile birlikte[serbest-metin] | el-Melikü'l-Kâmil'den itibaren Kahire)[serbest-metin]
+eyyubi-halep	Halep Eyyûbîleri	Halep (1250-1260 Dımaşk da)	tam	Halep (1250-1260 Dımaşk da)	
+eyyubi-meyyafarikin	Meyyâfârikîn Eyyûbîleri (Cebel ve Sincar kolu)	Meyyâfârikîn (Silvan)	hic-cozulmedi		Meyyâfârikîn (Silvan)
+eyyubi-hama	Hama Eyyûbîleri	Hama	tam	Hama	
+karmati	Bahreyn Karmatî Devleti	Lahsâ (Ahsâ)	tam	Lahsâ (Ahsâ)	
+uyuni	Uyûnîler	Lahsâ (Ahsâ); son dönemde Katîf ve Uvâl (Bahreyn adası)	kismi	Lahsâ (Ahsâ)	Uvâl (Bahreyn adası) | son dönemde Katîf[serbest-metin]
+suleyhi	Suleyhîler	San‘a → Zûcible	kismi	San‘a	Zûcible
+zureyi	Zürey‘îler	Aden	tam	Aden	
+necahi	Necâhîler (Benî Necâh)	Zebîd	tam	Zebîd	
+hamdani-yemen	Yemen Hemdânîleri (San‘a)	San‘a	tam	San‘a	
+benu-mehdi-zebid	Mehdîler (Benî Mehdî, Zebîd)	Zebîd	tam	Zebîd	
+resuli	Resûlîler	Taiz / Zebîd (sultanlar Cened, Taiz, Zebîd arasında)	tam	Taiz | Taiz	Zebîd (sultanlar Cened[serbest-metin] | Zebîd arasında)[serbest-metin]
+medine-emirligi	Medine Emirliği (Hüseynî emîrler)	Medine	tam	Medine	
+endulus-emevi	Endülüs Emevîleri (Kurtuba Emirliği / Hilâfeti)	Kurtuba (Córdoba)	tam	Kurtuba (Córdoba)	
+endulus-tavaif	Mülûkü't-tavâif (Endülüs tâife emirlikleri)	yok (toplu künye) — başlıca merkezler: İşbîliye, Tuleytula, Sarakusta, Batalyevs, Gırnata, Belensiye, Kurtuba	kismi	Kurtuba	Tuleytula | Sarakusta | Batalyevs | Belensiye | yok (toplu künye) — başlıca merkezler: İşbîliye[serbest-metin] | Gırnata[devlet-adi]
+leon-kralligi	León Krallığı	León	tam	León	
+barselona-kontlugu	Barselona Kontluğu (Katalan kontlukları)	Barselona	tam	Barselona	
+normandiya	Normandiya Dükalığı	Rouen	tam	Rouen	
+flandre	Flandre Kontluğu	Brugge (Bruges)	tam	Brugge (Bruges)	
+toulouse	Toulouse Kontluğu	Toulouse	tam	Toulouse	
+arles-kralligi	Burgonya (Arles) Krallığı	Arles / Vienne	hic-cozulmedi		Arles | Vienne
+gwynedd	Gwynedd Krallığı / Galler Prensliği	Aberffraw / Garth Celyn	tam	Aberffraw | Garth Celyn	
+sicilya-emirligi	Sicilya Emirliği (Kelbîler ve ardıl mahallî emirlikler)	Palermo (Belerm)	tam	Palermo (Belerm)	
+apulya-dukaligi	Apulya ve Calabria Dükalığı (Norman)	Melfi, sonra Salerno	tam	Melfi | Salerno	
+sicilya-kralligi	Sicilya Krallığı (Norman Sicilya Kontluğu dahil)	Palermo	tam	Palermo	
+avusturya-dukaligi	Avusturya Dükalığı (Babenberg ve II. Ottokar dönemi)	Viyana	tam	Viyana	
+izlanda-serbest-devleti	İzlanda Serbest Devleti (Althing dönemi)	Þingvellir (Althing; başkent yok)	yalniz-bolge-serbest		Þingvellir (Althing[serbest-metin] | başkent yok)[serbest-metin]
+teuton-devleti	Töton Şövalyeleri Devleti (Prusya)	Kulm → Marienburg (1309) → Königsberg (1457)	kismi	Königsberg (1457)	Kulm | Marienburg (1309)
+livonya-tarikati	Kılıç Kardeşleri / Livonya Tarikatı	Riga / Wenden (Cēsis) — merkez bu turda kaynakla ölçülmedi	tam	Riga | Wenden (Cēsis) — merkez bu turda kaynakla ölçülmedi	
+kiev-rusu	Kiev Rus'u (Kiev Büyük Knezliği)	Kiev	tam	Kiev	
+galicya-volhinya	Galiçya-Volhinya Knezliği (Rus Krallığı)	Halych → Kholm (1241 sonrası) → Lviv (1272)	kismi	Kholm (1241 sonrası)	Halych | Lviv (1272)
+birinci-bulgar	Birinci Bulgar Devleti (Tuna Bulgar Devleti; Samuil dönemi)	Pliska → Preslav; 971 sonrası Sredets → Prespa → Ohri	kismi	Ohri	Pliska | Preslav | Prespa | 971 sonrası Sredets[serbest-metin]
+duklja	Duklja (Zeta) Prensliği/Krallığı	bulunamadı (kaynak başkent adı vermez; HE: merkez Skadar gölü çevresi kıyı bölgesi, 1089'dan metropolitlik Bar'da)	yalniz-bolge-serbest		bulunamadı[serbest-metin]
+hirvatistan-kralligi	Hırvatistan Krallığı	Knin · Biograd (kaynak sabit başkent vermez; HE 'Petar': 'Prijestolnica mu je bila u Kninu')	kismi	Knin	Biograd
+vladimir-suzdal	Vladimir-Suzdal Büyük Knezliği	Vladimir	tam	Vladimir	
+ani-bagratli-kralligi	Ani Bagratlı Ermeni Krallığı	Ani (962'den; önce Bagaran, Kars)	tam	Kars)	Ani (962'den[serbest-metin] | önce Bagaran[serbest-metin]
+kars-vanand-kralligi	Kars (Vanand) Ermeni Krallığı	Kars	tam	Kars	
+lori-kralligi	Taşir-Dzoraget (Lori) Ermeni Krallığı	Lori	hic-cozulmedi		Lori
+seddadiler-gence	Şeddâdîler (Gence/Arrân kolu)	Dvin, 971'den Gence	tam	Dvin	971'den Gence[serbest-metin]
+seddadiler-ani	Şeddâdîler (Ani kolu)	Ani	hic-cozulmedi		Ani
+derbent-hasimi-emirligi	Derbend (Bâbülebvâb) Hâşimî Emirliği	Derbend (Bâbülebvâb)	tam	Derbend (Bâbülebvâb)	
+filaretos-devleti	Filaretos Brakamios Devleti	bulunamadı (kaynak merkez vermiyor)	yalniz-bolge-serbest		bulunamadı[serbest-metin]
+brandenburg-prusya	Brandenburg Elektörlüğü (Hohenzollern)	Berlin-Cölln	hic-cozulmedi		Berlin-Cölln
+saksonya	Saksonya (Wettin: Meissen Markgraflığı → Elektörlük → Krallık)	Meissen → Wittenberg → Dresden	kismi	Dresden	Meissen | Wittenberg
+pfalz	Ren Pfalzı (Kurpfalz — Wittelsbach Elektörlüğü)	Heidelberg → Mannheim	tam	Heidelberg | Mannheim	
+hannover	Hannover (Elektörlük → Krallık, Welf)	Hannover	tam	Hannover	
+baden	Baden (Markgraflık → Büyük Dükalık)	Baden-Baden → Durlach → Karlsruhe	tam	Baden-Baden | Durlach | Karlsruhe	
+wurttemberg	Württemberg (Dükalık → Krallık)	Stuttgart	tam	Stuttgart	
+alman-konfederasyonu	Alman Konfederasyonu (Deutscher Bund)	Frankfurt (Bundesversammlung)	tam	Frankfurt (Bundesversammlung)	
+teuton-sovalyeleri	Töton Tarikatı Devleti (Prusya'da)	Marienburg (Malbork) → Königsberg	kismi	Königsberg	Marienburg (Malbork)
+hulefa-yi-rasidin	Hulefâ-yi Râşidîn Devri (Medine Hilâfeti)	Medine → Kûfe	tam	Medine | Kûfe	
+emevi	Emevî Hilâfeti (Benî Ümeyye)	Dımaşk	yalniz-bolge-serbest		Dımaşk[devlet-adi]
+sasani	Sâsânî İmparatorluğu	Medâin (Ktesifon)	hic-cozulmedi		Medâin (Ktesifon)
+tahiri-horasan	Tâhirîler (Horasan)	Merv → Nîşâbur	tam	Merv | Nîşâbur	
+saffari	Saffârîler	Zerenc	tam	Zerenc	
+sacogullari	Sâcoğulları (Azerbaycan)	Merâga → Erdebîl	tam	Merâga | Erdebîl	
+tolunogullari	Tolunoğulları	Fustat → Katâi	hic-cozulmedi		Fustat | Katâi
+ihsidi	İhşîdîler	Fustat	hic-cozulmedi		Fustat
+aglebi	Ağlebîler	Kayrevan → Rakkāde	kismi	Kayrevan	Rakkāde
+idrisi	İdrîsîler	Velîlâ → Fas → Hacerünnesr	kismi	Fas	Velîlâ | Hacerünnesr
+rustemi	Rüstemîler	Tâhert	tam	Tâhert	
+midrari	Midrârîler (Sicilmâse)	Sicilmâse	tam	Sicilmâse	
+hamdani-musul	Hamdânîler (Musul kolu)	Musul	tam	Musul	
+hazar-kaganligi	Hazar Kağanlığı	Belencer → İtil	hic-cozulmedi		Belencer | İtil
+uygur-kaganligi	Uygur Kağanlığı (Ötüken)	Ordu-Balık (Ötüken)	hic-cozulmedi		Ordu-Balık (Ötüken)
+ziyadi	Ziyâdîler (Yemen Tihâmesi)	Zebîd	tam	Zebîd	
+fas-fransiz-himayesi	Fas Fransız Himayesi	Rabat	tam	Rabat	
+fas-ispanyol-himayesi	Fas İspanyol Himayesi (Kuzey bölgesi)	Tetuan	tam	Tetuan	
+tanca-uluslararasi-bolge	Tanca Uluslararası Bölgesi	Tanca	tam	Tanca	
+fas-krallik	Fas Krallığı (bağımsız, Alevî)	Rabat	tam	Rabat	
+ifni-ispanyol	İspanyol Ifni	Sidi Ifni	tam	Sidi Ifni	
+cabo-juby-ispanyol	Cabo Juby (Tarfaya) İspanyol Bölgesi	Villa Bens (Tarfaya)	tam	Villa Bens (Tarfaya)	
+ispanyol-sahra	İspanyol Sahrası (Río de Oro + Sakiyet el-Hamra)	El-Ayûn	hic-cozulmedi		El-Ayûn
+sahra-arap-demokratik-cumhuriyeti	Sahra Arap Demokratik Cumhuriyeti (Polisario)	Bir Lahlu / Tindûf	kismi	Bir Lahlu	Tindûf
+tiris-el-garbiyye	Moritanya Tiris el-Garbiyye İli	Dahla	tam	Dahla	
+cezayir-gpra	Cezayir Cumhuriyeti Geçici Hükümeti (GPRA)	Kahire → Tunus	tam	Kahire | Tunus	
+cezayir	Cezayir Demokratik ve Halk Cumhuriyeti	Cezayir	tam	Cezayir	
+tunus-krallik	Tunus Krallığı (Hüseynî)	Tunus	tam	Tunus	
+tunus	Tunus Cumhuriyeti	Tunus	tam	Tunus	
+libya-ingiliz-askeri-idaresi	Libya İngiliz Askerî İdaresi (Trablusgarp ve Bingazi)	Trablus / Bingazi	tam	Trablus | Bingazi	
+libya-fransiz-fizan	Fizan-Gadames Fransız Askerî İdaresi	Sebha	tam	Sebha	
+bingazi-emirligi	Sirenayka (Bingazi) Emirliği (İdris es-Senûsî)	Bingazi	tam	Bingazi	
+libya-krallik	Libya Birleşik Krallığı	Trablus / Bingazi	tam	Trablus | Bingazi	
+libya-cumhuriyet-cemahiriye	Libya Arap Cumhuriyeti → Libya Arap Cemahiriyesi (1977)	Trablus	tam	Trablus	
+misir-cumhuriyeti	Mısır Cumhuriyeti	Kahire	tam	Kahire	
+birlesik-arap-cumhuriyeti	Birleşik Arap Cumhuriyeti (Mısır-Suriye; Suriye 28.09.1961'de ayrıldı, Mısır adı 1971'e dek korudu)	Kahire	tam	Kahire	
+misir-arap-cumhuriyeti	Mısır Arap Cumhuriyeti	Kahire	tam	Kahire	
+arap-cumhuriyetleri-federasyonu	Arap Cumhuriyetleri Federasyonu (Mısır-Libya-Suriye, nominal)	Kahire	tam	Kahire	
+sudan-cumhuriyeti	Sudan Cumhuriyeti	Hartum	tam	Hartum	
+guney-sudan-ozerk-bolge	Güney Sudan Özerk Bölgesi (Addis Ababa Anlaşması)	Juba	tam	Juba	
+etiyopya-derg	Etiyopya Geçici Askerî İdare Konseyi (Derg) / Halk Demokratik Cumhuriyeti (1987)	Addis Ababa	hic-cozulmedi		Addis Ababa
+etiyopya-gecis-hukumeti	Etiyopya Geçiş Hükümeti (TGE)	Addis Ababa	hic-cozulmedi		Addis Ababa
+etiyopya-federal	Etiyopya Federal Demokratik Cumhuriyeti	Addis Ababa	hic-cozulmedi		Addis Ababa
+eritre-ingiliz-askeri-idaresi	Eritre İngiliz Askerî İdaresi	Asmara	tam	Asmara	
+eritre-federasyon	Etiyopya-Eritre Federasyonu (Eritre özerk birimi)	Asmara	tam	Asmara	
+eritre	Eritre Devleti (fiilî 1991-05-24; resmî ilan 24 Mayıs 1993)	Asmara	tam	Asmara	
+somali-ingiliz-himayesi	İngiliz Somalilandı Himayesi	Hargeysa	tam	Hargeysa	
+somali-ingiliz-askeri-idaresi	İtalyan Somalisi İngiliz Askerî İdaresi	Mogadişu	tam	Mogadişu	
+somali-italyan-vesayet	İtalyan Somalisi BM Vesayet İdaresi (AFIS)	Mogadişu	tam	Mogadişu	
+somaliland-1960	Somaliland Devleti (1960 kısa bağımsızlık)	Hargeysa	tam	Hargeysa	
+somali-cumhuriyeti	Somali Cumhuriyeti (1969'dan Demokratik Cumhuriyet; 1991'de merkez çöktü)	Mogadişu	tam	Mogadişu	
+somaliland-cumhuriyeti	Somaliland Cumhuriyeti (tanınmamış fiilî devlet)	Hargeysa	tam	Hargeysa	
+puntland	Puntland Devleti (özerk)	Garoowe	tam	Garoowe	
+somali-ulusal-gecis-hukumeti	Somali Geçici Ulusal Hükümeti (Arta/Cibuti)	Mogadişu	tam	Mogadişu	
+fransiz-somalisi	Fransız Somalisi (Côte française des Somalis)	Cibuti	tam	Cibuti	
+afar-issa-fransiz-bolgesi	Afarlar ve İssalar Fransız Bölgesi	Cibuti	tam	Cibuti	
+cibuti	Cibuti Cumhuriyeti	Cibuti	tam	Cibuti	
+kenya	Kenya (Dominyon; Cumhuriyet 12 Aralık 1964)	Nairobi	tam	Nairobi	
+ingiliz-uganda-himayesi	Uganda Himayesi (İngiliz)	Entebbe	hic-cozulmedi		Entebbe
+uganda	Uganda (1967'ye dek krallıkların federal yapısı)	Kampala	hic-cozulmedi		Kampala
+tanganika	Tanganika (bağımsız)	Dar es Salaam	yalniz-bolge-serbest		Dar es Salaam[serbest-metin]
+zengibar-bagimsiz-sultanlik	Zengibar Sultanlığı (bağımsız)	Zengibar	yalniz-bolge-serbest		Zengibar[devlet-adi]
+zengibar-halk-cumhuriyeti	Zengibar ve Pemba Halk Cumhuriyeti	Zengibar	yalniz-bolge-serbest		Zengibar[devlet-adi]
+tanzanya	Tanzanya Birleşik Cumhuriyeti	Dodoma / Dar es Salaam	tam	Dodoma	Dar es Salaam[serbest-metin]
+ruanda-cumhuriyeti	Ruanda Cumhuriyeti	Kigali	tam	Kigali	
+burundi-krallik	Burundi Krallığı (bağımsız)	Bujumbura	hic-cozulmedi		Bujumbura
+burundi-cumhuriyeti	Burundi Cumhuriyeti	Bujumbura	hic-cozulmedi		Bujumbura
+madagaskar-fransiz	Fransız Madagaskarı	Antananarivo	tam	Antananarivo	
+fransiz-komorlari	Fransız Komorları (himaye → sömürge → TOM)	Dzaoudzi / Moroni	tam	Dzaoudzi | Moroni	
+komorlar	Komor Devleti (Mayotte Fransa'da kaldı)	Moroni	tam	Moroni	
+anjuan-devleti	Anjuan Devleti (ayrılıkçı)	Mutsamudu	tam	Mutsamudu	
+ingiliz-mauritius	İngiliz Mauritiusu (Rodrigues dahil)	Port Louis	tam	Port Louis	
+morityus	Mauritius	Port Louis	tam	Port Louis	
+malavi	Malavi	Zomba / Lilongwe	kismi	Zomba	Lilongwe
+zambiya	Zambiya	Lusaka	tam	Lusaka	
+rodezya-nyasaland-federasyonu	Rodezya ve Nyasaland Federasyonu (Orta Afrika Federasyonu)	Salisbury	tam	Salisbury	
+mozambik-gecis-hukumeti	Mozambik Geçiş Hükümeti (Lusaka Anlaşması)	Lourenço Marques	tam	Lourenço Marques	
+mozambik	Mozambik Halk Cumhuriyeti	Maputo	hic-cozulmedi		Maputo
+guney-afrika-cumhuriyeti	Güney Afrika Cumhuriyeti	Pretoria / Cape Town	kismi	Cape Town	Pretoria
+transkei	Transkei (Bantustan, 'bağımsız')	Umtata	tam	Umtata	
+bophuthatswana	Bophuthatswana (Bantustan)	Mmabatho	hic-cozulmedi		Mmabatho
+venda-bantustan	Venda (Bantustan)	Thohoyandou	tam	Thohoyandou	
+ciskei	Ciskei (Bantustan)	Bisho	tam	Bisho	
+namibya-gecici-ulusal-birlik-hukumeti	Güneybatı Afrika Geçici Ulusal Birlik Hükümeti	Windhoek	tam	Windhoek	
+namibya	Namibya Cumhuriyeti	Windhoek	tam	Windhoek	
+botsvana	Botsvana	Gaborone	hic-cozulmedi		Gaborone
+ingiliz-basutoland	Basutoland (İngiliz himayesi/kolonisi)	Maseru	tam	Maseru	
+lesoto	Lesoto Krallığı	Maseru	tam	Maseru	
+ingiliz-svaziland	Svaziland Himayesi (İngiliz)	Mbabane	tam	Mbabane	
+svaziland	Svaziland Krallığı (2018'den eSwatini)	Mbabane	tam	Mbabane	
+rodezya-udi	Rodezya (UDI devleti; 1970-03-02'den Cumhuriyet)	Salisbury	tam	Salisbury	
+zimbabve-rodezya	Zimbabve-Rodezya	Salisbury	tam	Salisbury	
+zimbabve	Zimbabve Cumhuriyeti	Harare	tam	Harare	
+fransiz-birligi	Fransız Birliği (Union française)	Paris	tam	Paris	
+gana	Gana (Dominyon; Cumhuriyet 1960-07-01)	Accra	tam	Accra	
+ingiliz-togoland	İngiliz Togolandı (Mandat/Vesayet)	Accra'dan idare	yalniz-bolge-serbest		Accra'dan idare[serbest-metin]
+fransiz-togo	Fransız Togosu (Mandat → Vesayet)	Lomé	tam	Lomé	
+togo	Togo Cumhuriyeti	Lomé	tam	Lomé	
+gine	Gine Cumhuriyeti	Konakri	tam	Konakri	
+mali-federasyonu	Mali Federasyonu (Senegal + Sudan Cumhuriyeti)	Dakar	tam	Dakar	
+senegal	Senegal Cumhuriyeti	Dakar	tam	Dakar	
+mali	Mali Cumhuriyeti	Bamako	tam	Bamako	
+senegambiya	Senegambiya Konfederasyonu	Dakar	tam	Dakar	
+ingiliz-gambiya	Gambiya Kolonisi ve Himayesi	Bathurst (Banjul)	tam	Bathurst (Banjul)	
+gambiya	Gambiya	Banjul	tam	Banjul	
+moritanya	Moritanya İslam Cumhuriyeti	Nuakşot	hic-cozulmedi		Nuakşot
+siyera-leon	Sierra Leone	Freetown	tam	Freetown	
+fildisi-sahili	Fildişi Sahili Cumhuriyeti	Abidjan	hic-cozulmedi		Abidjan
+dahomey-benin	Dahomey Cumhuriyeti (1975-11-30'dan Benin)	Porto-Novo / Cotonou	hic-cozulmedi		Porto-Novo | Cotonou
+yukari-volta-burkina	Yukarı Volta (1984-08-04'ten Burkina Faso)	Wagadugu	tam	Wagadugu	
+nijer	Nijer Cumhuriyeti	Niamey	hic-cozulmedi		Niamey
+nijerya	Nijerya Federasyonu (Cumhuriyet 1963-10-01)	Lagos (1991'den Abuja)	tam	Lagos (1991'den Abuja)	
+biafra	Biafra Cumhuriyeti	Enugu → Umuahia	tam	Enugu | Umuahia	
+yesilburun	Yeşilburun Cumhuriyeti	Praia	tam	Praia	
+gine-bissau	Gine-Bissau (PAIGC ilanı 1973-09-24; Portekiz tanıması 1974-09-10)	Bissau	tam	Bissau	
+kamerun	Kamerun Cumhuriyeti (1961 Federal; 1972 Birleşik; 1984 Kamerun)	Yaounde	hic-cozulmedi		Yaounde
+ingiliz-kamerun	İngiliz Kamerunu (Mandat → Vesayet)	Buea	tam	Buea	
+cad	Çad Cumhuriyeti	N'Djamena	tam	N'Djamena	
+cad-gunt	Çad Ulusal Birlik Geçiş Hükümeti (GUNT)	N'Djamena → Bardaï	tam	N'Djamena | Bardaï	
+orta-afrika-cumhuriyeti	Orta Afrika Cumhuriyeti	Bangui	tam	Bangui	
+orta-afrika-imparatorlugu	Orta Afrika İmparatorluğu (Bokassa)	Bangui	tam	Bangui	
+kongo-brazzaville	Kongo Cumhuriyeti (1969-12-31'den Halk Cumhuriyeti)	Brazzaville	tam	Brazzaville	
+gabon	Gabon Cumhuriyeti	Libreville	tam	Libreville	
+ekvator-ginesi	Ekvator Ginesi Cumhuriyeti	Malabo	tam	Malabo	
+kongo-kinsasa	Kongo (Léopoldville) → Zaire (1971-10-27) → Kongo Demokratik Cumhuriyeti (1997-05-17)	Léopoldville (Kinşasa)	hic-cozulmedi		Léopoldville (Kinşasa)
+katanga	Katanga Devleti	Elisabethville	tam	Elisabethville	
+angola-gecis-hukumeti	Angola Geçiş Hükümeti (Alvor)	Luanda	tam	Luanda	
+angola	Angola Halk Cumhuriyeti (MPLA) / Angola Cumhuriyeti	Luanda	tam	Luanda	
+angola-unita-fnla	Angola Demokratik Halk Cumhuriyeti (UNITA–FNLA, Huambo)	Huambo	tam	Huambo	
+lubnan-cumhuriyeti	Lübnan Cumhuriyeti (bağımsız)	Beyrut	tam	Beyrut	
+israil-devleti	İsrail Devleti	Tel Aviv (1948) → Kudüs (1949-12-26 ilan)	kismi	Kudüs (1949-12-26 ilan)	Tel Aviv (1948)
+filistin-devleti	Filistin Devleti (Bağımsızlık Bildirgesi, Cezayir)	Kudüs (ilan) / Ramallah (fiilî)	kismi	Kudüs (ilan)	Ramallah (fiilî)
+birlesik-arap-devletleri	Birleşik Arap Devletleri (BAC + Yemen Mütevekkilî Krallığı)	Kahire	tam	Kahire	
+aden-kolonisi	Aden Kolonisi	Aden	tam	Aden	
+kibris-cumhuriyeti	Kıbrıs Cumhuriyeti	Lefkoşa	tam	Lefkoşa	
+akrotiri-dekelya	Akrotiri ve Dekelya Egemen Üs Bölgeleri	Episkopi	tam	Episkopi	
+kibris-turk-federe-devleti	Kıbrıs Türk Federe Devleti	Lefkoşa	tam	Lefkoşa	
+kktc	Kuzey Kıbrıs Türk Cumhuriyeti	Lefkoşa	tam	Lefkoşa	
+gurcistan-cumhuriyeti	Gürcistan Cumhuriyeti	Tiflis	tam	Tiflis	
+ermenistan-cumhuriyeti	Ermenistan Cumhuriyeti	Erivan	hic-cozulmedi		Erivan
+hong-kong-ingiliz	Hong Kong (İngiliz Kolonisi)	Victoria	tam	Victoria	
+makao-portekiz	Makao (Portekiz İdaresi)	Makao	tam	Makao	
+ryukyu-abd-idaresi	Ryukyu Adaları ABD İdaresi	Naha	tam	Naha	
+maldivler-sultanligi	Maldiv Sultanlığı (İngiliz himayesi 1887-1965)	Malé	hic-cozulmedi		Malé
+butan	Butan (Druk Yul; Wangchuck monarşisi)	Thimphu	tam	Thimphu	
+lao-issara-hukumeti	Lao Issara Hükûmeti	Vientiane	tam	Vientiane	
+laos-kralligi	Laos Krallığı (tam bağımsızlık 1953)	Luang Prabang / Vientiane	tam	Luang Prabang | Vientiane	
+pathet-lao-hukumeti	Pathet Lao (Neo Lao Issara) Direniş Hükûmeti	Tuyen Quang (kuruluş kongresi); Sam Neua / Vieng Xai	kismi	Sam Neua | Vieng Xai	Tuyen Quang (kuruluş kongresi)
+demokratik-kampucya	Kampuçya (Demokratik Kampuçya, Kızıl Kmerler)	Phnom Penh	tam	Phnom Penh	
+untac	UNTAC (BM Kamboçya Geçiş İdaresi)	Phnom Penh	tam	Phnom Penh	
+fed-malay-devletleri	Federe Malay Devletleri (Perak, Selangor, Negeri Sembilan, Pahang)	Kuala Lumpur	tam	Kuala Lumpur	
+federe-olmayan-malay-devletleri	Federe Olmayan Malay Devletleri (Johor, Kedah, Kelantan, Perlis, Terengganu)	çeşitli	yalniz-bolge-serbest		çeşitli[serbest-metin]
+malaya-birligi	Malaya Birliği (Malayan Union)	Kuala Lumpur	tam	Kuala Lumpur	
+singapur-kolonisi	Singapur Kolonisi	Singapur	tam	Singapur	
+singapur	Singapur (özyönetim 1959; Malezya içi 1963-65; Cumhuriyet 1965)	Singapur	tam	Singapur	
+pasundan-devleti	Pasundan Devleti (Batı Cava)	Bandung	tam	Bandung	
+untea	UNTEA (BM Geçici İdaresi, Batı Yeni Gine)	Hollandia	tam	Hollandia	
+endonezya-dogu-timor	Doğu Timor (Endonezya idaresi, 27. eyalet)	Dili	tam	Dili	
+papua-yeni-gine-avustralya	Papua ve Yeni Gine Toprakları (Avustralya İdaresi)	Port Moresby	tam	Port Moresby	
+nauru-vesayeti	Nauru (BM Vesayeti: Avustralya-Yeni Zelanda-İngiltere)	Yaren	tam	Yaren	
+solomon-adalari	Solomon Adaları	Honiara	hic-cozulmedi		Honiara
+gilbert-ellice-kolonisi	Gilbert ve Ellice Adaları (Koruma Bölgesi -> Koloni 1916-01-12)	Tarawa	tam	Tarawa	
+tuvalu	Tuvalu	Funafuti	tam	Funafuti	
+kiribati	Kiribati Cumhuriyeti	Tarawa	tam	Tarawa	
+fiji-kolonisi	Fiji Kolonisi	Suva	tam	Suva	
+fiji	Fiji (Dominyon; Cumhuriyet 1987-10-07)	Suva	tam	Suva	
+amerikan-samoasi	Amerikan Samoası	Pago Pago	tam	Pago Pago	
+pasifik-adalari-vesayet-toprak	Pasifik Adaları Vesayet Toprakları (TTPI; ABD)	Saipan	tam	Saipan	
+palau	Palau Cumhuriyeti	Koror	tam	Koror	
+almanya-federal-cumhuriyeti-bati	Almanya Federal Cumhuriyeti (Batı Almanya)	Bonn	hic-cozulmedi		Bonn
+almanya-demokratik-cumhuriyeti	Almanya Demokratik Cumhuriyeti (Doğu Almanya)	Doğu Berlin	hic-cozulmedi		Doğu Berlin
+almanya-birlesik	Almanya Federal Cumhuriyeti (birleşik)	Berlin	tam	Berlin	
+berlin-bati	Batı Berlin (üç Müttefik sektörü, özel statü)	Batı Berlin	tam	Batı Berlin	
+saar-protektorati	Saar Protektorası (Fransa ile ekonomik birlik)	Saarbrücken	tam	Saarbrücken	
+cekya	Çek Cumhuriyeti	Prag	tam	Prag	
+slovakya	Slovakya Cumhuriyeti	Bratislava	tam	Bratislava	
+polonya-halk	Polonya (PKWN → Polonya Halk Cumhuriyeti, 1952)	Varşova	tam	Varşova	
+polonya-iii-cumhuriyet	Polonya Cumhuriyeti (III. Cumhuriyet)	Varşova	tam	Varşova	
+macaristan-halk	Macaristan (II. Cumhuriyet 1946 → Halk Cumhuriyeti 1949-08-20)	Budapeşte	hic-cozulmedi		Budapeşte
+macaristan-cumhuriyeti	Macaristan Cumhuriyeti	Budapeşte	hic-cozulmedi		Budapeşte
+romanya-halk	Romanya Halk Cumhuriyeti → Sosyalist Cumhuriyeti (1965)	Bükreş	tam	Bükreş	
+romanya-cumhuriyeti	Romanya	Bükreş	tam	Bükreş	
+bulgaristan-halk	Bulgaristan (Cumhuriyet 1946 → Halk Cumhuriyeti 1947-12-04)	Sofya	tam	Sofya	
+bulgaristan-cumhuriyeti	Bulgaristan Cumhuriyeti	Sofya	tam	Sofya	
+arnavutluk-cumhuriyeti	Arnavutluk Cumhuriyeti	Tiran	hic-cozulmedi		Tiran
+yunanistan-gecici-demokratik-hukumet	Yunanistan Geçici Demokratik Hükûmeti (Markos, iç savaş)	Grammos-Vitsi dağlık bölgesi	yalniz-bolge-serbest		Grammos-Vitsi dağlık bölgesi[serbest-metin]
+yunanistan-cumhuriyeti	Yunanistan (Cunta cumhuriyeti 1973-06-01 → III. Cumhuriyet 1974-12-08)	Atina	tam	Atina	
+italya-cumhuriyeti	İtalya Cumhuriyeti	Roma	tam	Roma	
+triyeste-serbest-toprak	Triyeste Serbest Toprağı (A bölgesi Anglo-Amerikan, B bölgesi Yugoslav askerî idaresi)	Triyeste	hic-cozulmedi		Triyeste
+vatikan	Vatikan Şehir Devleti (Kutsal Makam)	Vatikan	tam	Vatikan	
+yugoslavya-federal	Yugoslavya (FHC 1945-11-29 → SFRY 1963-04-07)	Belgrad	tam	Belgrad	
+yugoslavya-federal-cumhuriyeti	Yugoslavya Federal Cumhuriyeti (Sırbistan ve Karadağ)	Belgrad	tam	Belgrad	
+slovenya	Slovenya Cumhuriyeti	Ljubljana	tam	Ljubljana	
+hirvatistan	Hırvatistan Cumhuriyeti	Zagreb	tam	Zagreb	
+sirp-krajina-cumhuriyeti	Sırp Krajina Cumhuriyeti (RSK; fiilî)	Knin	tam	Knin	
+dogu-slavonya-untaes	Doğu Slavonya, Baranya ve Batı Sirmiyum (BM Geçici İdaresi, UNTAES)	Vukovar	tam	Vukovar	
+bosna-hersek	Bosna-Hersek Cumhuriyeti / Bosna-Hersek	Saraybosna	tam	Saraybosna	
+bosna-sirp-cumhuriyeti	Sırp Cumhuriyeti (Republika Srpska)	Pale	tam	Pale	
+herzeg-bosna	Herzeg-Bosna (Hırvat Topluluğu 1991 → Hırvat Cumhuriyeti 1993-08-28)	Mostar	tam	Mostar	
+makedonya	Makedonya Cumhuriyeti (2019-02-12'den Kuzey Makedonya)	Üsküp	tam	Üsküp	
+kosova-golge-cumhuriyeti	Kosova Cumhuriyeti (gölge devlet, Rugova)	Priştine	tam	Priştine	
+unmik-kosova	Kosova (BM UNMIK idaresi)	Priştine	tam	Priştine	
+rusya-federasyonu	Rusya Federasyonu	Moskova	tam	Moskova	
+ukrayna	Ukrayna	Kiev	tam	Kiev	
+belarus	Belarus Cumhuriyeti	Minsk	tam	Minsk	
+moldova	Moldova Cumhuriyeti	Kişinev	tam	Kişinev	
+transdinyester	Transdinyester (Pridnestrovie)	Tiraspol	tam	Tiraspol	
+estonya-cumhuriyeti-yeniden	Estonya Cumhuriyeti (yeniden bağımsızlık)	Tallinn	tam	Tallinn	
+letonya-cumhuriyeti-yeniden	Letonya Cumhuriyeti (yeniden bağımsızlık)	Riga	tam	Riga	
+litvanya-cumhuriyeti-yeniden	Litvanya Cumhuriyeti (yeniden bağımsızlık)	Vilnius	tam	Vilnius	
+guney-osetya	Güney Osetya (fiilî)	Tskhinvali	tam	Tskhinvali	
+daglik-karabag	Dağlık Karabağ Cumhuriyeti (Artsakh; fiilî)	Hankendi (Stepanakert)	tam	Hankendi (Stepanakert)	
+azerbaycan-cumhuriyeti	Azerbaycan Cumhuriyeti	Bakü	tam	Bakü	
+ickerya	Çeçenistan Içkerya Cumhuriyeti (fiilî)	Grozni	tam	Grozni	
+kazakistan	Kazakistan	Almatı	tam	Almatı	
+ozbekistan	Özbekistan	Taşkent	tam	Taşkent	
+kirgizistan	Kırgızistan	Bişkek	hic-cozulmedi		Bişkek
+tacikistan	Tacikistan	Duşanbe	hic-cozulmedi		Duşanbe
+turkmenistan	Türkmenistan	Aşkabat	hic-cozulmedi		Aşkabat
+irlanda-cumhuriyeti	İrlanda (Éire 1937-12-29 → Cumhuriyet 1949-04-18)	Dublin	tam	Dublin	
+kibris-ingiliz-kolonisi	Kıbrıs (İngiliz ilhakı 1914 → Taç Kolonisi 1925)	Lefkoşa	tam	Lefkoşa	
+kibris-ingiliz-ussler	Akrotiri ve Dikelya Egemen Üs Bölgeleri	Episkopi	tam	Episkopi	
+malta-ingiliz	Malta (İngiliz himayesi 1800 → Taç Kolonisi 1813)	Valletta	hic-cozulmedi		Valletta
+malta	Malta (bağımsızlık 1964; Cumhuriyet 1974-12-13)	Valletta	hic-cozulmedi		Valletta
+monako	Monako Prensliği	Monako	tam	Monako	
+andorra	Andorra Eş-Prensliği	Andorra la Vella	tam	Andorra la Vella	
+liechtenstein	Lihtenştayn Prensliği	Vaduz	tam	Vaduz	
+cebelitarik-ingiliz	Cebelitarık (İngiliz Denizaşırı Toprağı)	Cebelitarık	tam	Cebelitarık	
+man-adasi	Man Adası (Taç Bağımlılığı)	Douglas	tam	Douglas	
+kanal-adalari	Kanal Adaları (Jersey ve Guernsey Bailiwick'leri)	Saint Helier / Saint Peter Port	tam	Saint Helier | Saint Peter Port	
+feroe-adalari	Faroe Adaları (Danimarka içinde özerk)	Tórshavn	tam	Tórshavn	
+gronland-dan	Grönland (Danimarka'ya bağlı; 1953 anayasa; 1979 Home Rule)	Nuuk	hic-cozulmedi		Nuuk
+svalbard	Svalbard (Norveç egemenliği)	Longyearbyen	hic-cozulmedi		Longyearbyen
+bati-hint-federasyonu	Batı Hint Adaları Federasyonu	Chaguaramas (geçici)	tam	Chaguaramas (geçici)	
+jamaika	Jamaika (bağımsızlık)	Kingston	tam	Kingston	
+jamaika-ingiliz	Jamaika Kolonisi (İngiliz)	Spanish Town	tam	Spanish Town	
+trinidad-tobago	Trinidad ve Tobago	Port of Spain	tam	Port of Spain	
+trinidad-tobago-ingiliz	Trinidad ve Tobago Kolonisi	Port of Spain	tam	Port of Spain	
+barbados	Barbados	Bridgetown	tam	Bridgetown	
+barbados-ingiliz	Barbados Kolonisi	Bridgetown	tam	Bridgetown	
+bahamalar	Bahamalar	Nassau	tam	Nassau	
+bahama-ingiliz	Bahama Adaları Kolonisi	Nassau	tam	Nassau	
+grenada	Grenada	St. George's	tam	St. George's	
+grenada-devrimci-hukumet	Grenada Halk Devrimci Hükûmeti (PRG → Devrimci Askerî Konsey)	St. George's	tam	St. George's	
+dominika	Dominika Milletler Topluluğu	Roseau	tam	Roseau	
+saint-lucia	Saint Lucia	Castries	tam	Castries	
+saint-vincent-grenadinler	Saint Vincent ve Grenadinler	Kingstown	tam	Kingstown	
+antigua-barbuda	Antigua ve Barbuda	St. John's	tam	St. John's	
+saint-kitts-nevis	Saint Kitts ve Nevis Federasyonu	Basseterre	tam	Basseterre	
+belize	Belize	Belmopan	hic-cozulmedi		Belmopan
+guyana	Guyana (Kooperatif Cumhuriyeti 1970-02-23)	Georgetown	tam	Georgetown	
+surinam	Surinam (bağımsız)	Paramaribo	tam	Paramaribo	
+hollanda-antilleri	Hollanda Antilleri	Willemstad	tam	Willemstad	
+aruba-ozerk	Aruba (ayrı ülke statüsü)	Oranjestad	tam	Oranjestad	
+puerto-riko	Porto Riko (ABD yönetimi → Commonwealth 1952-07-25)	San Juan	tam	San Juan	
+panama-kanali-bolgesi	Panama Kanalı Bölgesi (ABD)	Balboa Heights	tam	Balboa Heights	
+guadeloupe	Guadeloupe (Fransız koloni → DOM 1946-03-19)	Basse-Terre	tam	Basse-Terre	
+martinik	Martinik (Fransız koloni → DOM 1946-03-19)	Fort-de-France	tam	Fort-de-France	
+newfoundland-komisyon-hukumeti	Newfoundland Komisyon Hükûmeti (Taç Kolonisi)	St. John's	tam	St. John's	
+falkland-ingiliz	Falkland (Malvinas) Adaları (İngiliz)	Stanley	tam	Stanley	
+falkland-arjantin-isgali	Falkland/Malvinas — Arjantin yönetimi	Puerto Argentino	hic-cozulmedi		Puerto Argentino
+akitanya-dukaligi	Akitanya (Guyenne) Dükalığı	Poitiers → Bordeaux	kismi	Poitiers	Bordeaux
+anjou-kontlugu	Anjou Kontluğu	Angers	tam	Angers	
+provence-kontlugu	Provence Kontluğu	Aix-en-Provence	tam	Aix-en-Provence	
+franche-comte	Burgonya Kontluğu (Franche-Comté)	Dole / Besançon	kismi	Besançon	Dole
+lorraine-dukaligi	Lorraine Dükalığı	Nancy	tam	Nancy	
+brabant-dukaligi	Brabant Dükalığı	Leuven / Brüksel	kismi	Brüksel	Leuven
+liege-piskoposlugu	Liège Prens-Piskoposluğu	Liège	tam	Liège	
+hollanda-kontlugu	Hollanda Kontluğu	Haarlem / Lahey	tam	Haarlem | Lahey	
+avusturya-hollandasi	Avusturya Hollandası	Brüksel	tam	Brüksel	
+anglo-korsika-krallik	Anglo-Korsika Krallığı	Corte → Bastia	kismi	Bastia	Corte
+ingiltere-irlanda-krallik	İrlanda Krallığı (İngiliz Tacı)	Dublin	tam	Dublin	
+man-ve-adalar-krallik	Man ve Adalar Krallığı	Peel / Castletown	tam	Peel | Castletown	
+orkney-kontlugu	Orkney Kontluğu	Kirkwall	tam	Kirkwall	
+toledo-zunnunler	Zünnûnîler (Toledo Taifası)	Toledo	tam	Toledo	
+zaragoza-hudiler	Hûdîler (Saragosa Taifası)	Saragosa	hic-cozulmedi		Saragosa
+murcia-ibn-merdenis	Murcia/Valensiya Emirliği (İbn Merdenîş)	Murcia	tam	Murcia	
+amalfi-cumhuriyeti	Amalfi Cumhuriyeti/Dükalığı	Amalfi	hic-cozulmedi		Amalfi
+napoli-dukaligi	Napoli Dükalığı	Napoli	tam	Napoli	
+salerno-prensligi	Salerno Prensliği	Salerno	tam	Salerno	
+benevento-papalik	Benevento Prensliği	Benevento	tam	Benevento	
+sicilya-aragon	Sicilya Krallığı (Aragon/Trinacria)	Palermo	tam	Palermo	
+sardinya-aragon	Sardinya Krallığı (Aragon/İspanyol)	Cagliari	tam	Cagliari	
+lombardiya-venedik	Lombardiya-Venedik Krallığı	Milano / Venedik	tam	Milano | Venedik	
+verona-scaliger	Verona (Della Scala) Signoria'sı	Verona	tam	Verona	
+montferrat-markizligi	Montferrat Markizliği	Casale	hic-cozulmedi		Casale
+aquileia-patrikligi	Aquileia Patrikhanesi (Friuli)	Udine / Cividale	kismi	Udine	Cividale
+salo-cumhuriyeti	İtalyan Sosyal Cumhuriyeti (Salò)	Salò	tam	Salò	
+fiume-serbest-devleti	Fiume Serbest Devleti	Fiume (Rijeka)	tam	Fiume (Rijeka)	
+carnaro-naiplik	Carnaro İtalyan Naipliği (D'Annunzio)	Fiume	tam	Fiume	
+san-marino	San Marino Cumhuriyeti	San Marino	tam	San Marino	
+malta-fransiz	Malta Fransız İşgali	Valletta	hic-cozulmedi		Valletta
+roma-cumhuriyeti-1798	Roma Cumhuriyeti (Fransız himayesi)	Roma	tam	Roma	
+roma-cumhuriyeti-1849	Roma Cumhuriyeti (Mazzini)	Roma	tam	Roma	
+partenopea-cumhuriyeti	Partenopa Cumhuriyeti	Napoli	tam	Napoli	
+ligurya-cumhuriyeti	Ligurya Cumhuriyeti	Cenova	tam	Cenova	
+helvetik-cumhuriyeti	Helvetik Cumhuriyeti	Aarau / Bern	kismi	Bern	Aarau
+karintiya-dukaligi	Karintiya Dükalığı	Klagenfurt / St. Veit	kismi	Klagenfurt	St. Veit
+pomeranya-dukaligi	Pomeranya Dükalığı	Stettin (Szczecin)	tam	Stettin (Szczecin)	
+mecklenburg-schwerin	Mecklenburg-Schwerin (Büyük Dükalık)	Schwerin	tam	Schwerin	
+mecklenburg-strelitz	Mecklenburg-Strelitz (Büyük Dükalık)	Neustrelitz	hic-cozulmedi		Neustrelitz
+nassau	Nassau Dükalığı	Wiesbaden	hic-cozulmedi		Wiesbaden
+saksonya-weimar	Saxe-Weimar-Eisenach (Büyük Dükalık)	Weimar	hic-cozulmedi		Weimar
+anhalt-dukaligi	Anhalt Dükalığı	Dessau	hic-cozulmedi		Dessau
+elsass-lothringen	Alsas-Loren İmparatorluk Bölgesi (Reichsland)	Strasbourg	hic-cozulmedi		Strasbourg
+ren-konfederasyonu	Ren Konfederasyonu	Frankfurt	tam	Frankfurt	
+korsika-cumhuriyeti	Korsika (Paoli) Cumhuriyeti	Corte	hic-cozulmedi		Corte
+kilkenny-konfederasyonu	İrlanda Katolik Konfederasyonu (Kilkenny)	Kilkenny	tam	Kilkenny	
+irlanda-dail-cumhuriyeti	İrlanda Cumhuriyeti (Dáil Éireann)	Dublin	tam	Dublin	
+sevilla-abbadiler	Abbâdîler (Sevilla Taifası)	Sevilla	tam	Sevilla	
+granada-ziriler	Zîrîler (Gırnata Taifası)	Gırnata (Granada)	tam	Gırnata (Granada)	
+westfalya-krallik	Westfalya Krallığı	Kassel	tam	Kassel	
+berg-buyuk-dukaligi	Berg Büyük Dükalığı	Düsseldorf	hic-cozulmedi		Düsseldorf
+frankfurt-serbest-sehri	Frankfurt Serbest Şehri	Frankfurt	tam	Frankfurt	
+hanse-birligi	Hanse Birliği (Lübeck önderliğinde)	Lübeck	tam	Lübeck	
+lubeck-sehri	Lübeck Özgür İmparatorluk Şehri	Lübeck	tam	Lübeck	
+hamburg-sehri	Hamburg Özgür ve Hanse Şehri	Hamburg	tam	Hamburg	
+bremen-sehri	Bremen Özgür Hanse Şehri	Bremen	tam	Bremen	
+schleswig-holstein	Schleswig-Holstein (Danimarka kralına bağlı dukalıklar)	Gottorf / Kiel	kismi	Kiel	Gottorf
+schleswig-holstein-1848	Schleswig-Holstein Geçici Hükûmeti	Kiel	tam	Kiel	
+bavyera-konsey-cumhuriyeti	Bavyera Konsey (Sovyet) Cumhuriyeti	Münih	tam	Münih	
+karpat-ukrayna	Karpat Ukraynası	Hust	hic-cozulmedi		Hust
+macar-sovyet-cumhuriyeti	Macar Sovyet Cumhuriyeti	Budapeşte	hic-cozulmedi		Budapeşte
+macaristan-halk-cumhuriyeti	Macaristan Halk Cumhuriyeti (Károlyi)	Budapeşte	hic-cozulmedi		Budapeşte
+bati-ukrayna-halk-cumhuriyeti	Batı Ukrayna Halk Cumhuriyeti	Lviv → Stanislaviv	hic-cozulmedi		Lviv | Stanislaviv
+belarus-halk-cumhuriyeti	Belarus Halk Cumhuriyeti	Minsk	tam	Minsk	
+orta-litvanya	Orta Litvanya Cumhuriyeti	Vilnius	tam	Vilnius	
+memel-bolgesi	Memel (Klaipėda) Bölgesi	Memel	yalniz-bolge-serbest		Memel[devlet-adi]
+polonya-genel-hukumeti	Polonya Genel Hükûmeti	Krakov	tam	Krakov	
+ostland	Reichskommissariat Ostland	Riga	tam	Riga	
+alman-ukrayna	Reichskommissariat Ukraine	Rivne	tam	Rivne	
+kraliyet-prusyasi	Kraliyet (Polonya) Prusyası	Malbork / Gdańsk	kismi	Gdańsk	Malbork
+mazovya-dukaligi	Mazovya Dükalığı	Płock / Varşova	kismi	Varşova	Płock
+silezya-piast	Silezya (Piast) Dükalıkları	Wrocław	tam	Wrocław	
+kurland-dukaligi	Kurland ve Semigallia Dükalığı	Mitau (Jelgava)	hic-cozulmedi		Mitau (Jelgava)
+finlandiya-buyuk-dukaligi	Finlandiya Büyük Dükalığı	Turku → Helsinki	tam	Turku | Helsinki	
+moldova-demokratik-cum	Moldova Demokratik Cumhuriyeti (Besarabya)	Kişinev	tam	Kişinev	
+kazak-hetmanligi	Kazak Hetmanlığı (Hetmanat)	Çigirin → Baturin → Hluhiv	tam	Çigirin | Baturin | Hluhiv	
+kalmuk-hanligi	Kalmuk Hanlığı (Volga)	Astrahan çevresi (Hoşut)	tam	Astrahan çevresi (Hoşut)	
+raska-buyuk-prensligi	Raşka Büyük Prensliği (Vukanoviç)	Ras	hic-cozulmedi		Ras
+prilep-mrnjavcevic	Prilep Krallığı (Mrnjavčević / Kral Marko)	Prilep	yalniz-bolge-serbest		Prilep[devlet-adi]
+kosova-brankovic	Brankoviç Toprakları (Kosova)	Priştine	tam	Priştine	
+kefalonya-palatin	Kefalonya-Zakintos Palatin Kontluğu (Orsini→Tocco)	Kefalonya	tam	Kefalonya	
+euboea-negroponte	Negroponte (Eğriboz) — Venedik Krallığı	Halkis	hic-cozulmedi		Halkis
+gattilusio	Gattilusio Lordluğu (Midilli, Limni, Taşoz, Enez)	Midilli	tam	Midilli	
+sakiz-maona	Sakız Maona'sı (Giustiniani)	Sakız	tam	Sakız	
+kefe-gazaria	Ceneviz Gazaria (Kefe)	Kefe	tam	Kefe	
+galata-pera	Galata (Pera) Ceneviz Kolonisi	Galata	hic-cozulmedi		Galata
+girit-venedik	Girit (Candia) Krallığı - Venedik	Candia (Kandiye)	tam	Candia (Kandiye)	
+kibris-venedik	Kıbrıs - Venedik İdaresi	Magusa/Lefkoşa	tam	Magusa/Lefkoşa	
+samos-prensligi	Samos Prensliği	Vathy	hic-cozulmedi		Vathy
+septinsular	Yedi Ada Cumhuriyeti	Korfu	tam	Korfu	
+birlesik-iyon-adalari	Birleşik Iyon Adaları Devleti	Korfu	tam	Korfu	
+sirp-voyvodaligi	Sırp Voyvodalığı ve Tamiş Banatı	Temeşvar	tam	Temeşvar	
+vaspurakan-kralligi	Vaspurakan Ermeni Krallığı (Artsruni)	Van / Akdamar	kismi	Van	Akdamar
+tiflis-emirligi	Tiflis Emirliği	Tiflis	tam	Tiflis	
+pecenek-konfederasyonu	Peçenek Konfederasyonu		baskent-yok		
+karabag-hanligi	Karabağ Hanlığı	Şuşa	tam	Şuşa	
+gence-hanligi	Gence Hanlığı	Gence	tam	Gence	
+seki-hanligi	Şeki Hanlığı	Nuha (Şeki)	tam	Nuha (Şeki)	
+baku-hanligi	Bakü Hanlığı	Bakü	tam	Bakü	
+derbent-hanligi	Derbent Hanlığı	Derbent	yalniz-bolge-serbest		Derbent[devlet-adi]
+nahcivan-hanligi	Nahçıvan Hanlığı	Nahçıvan	tam	Nahçıvan	
+sirvan-hanligi	Şirvan (Şamahı) Hanlığı	Şamahı	tam	Şamahı	
+talis-hanligi	Talış Hanlığı	Lenkeran	tam	Lenkeran	
+kafkas-imamligi	Kafkas (Dağıstan-Çeçenistan) İmamlığı	Gimry → Dargo → Veden	hic-cozulmedi		Gimry | Dargo | Veden
+zakafkasya-sfsc	Zakafkasya Sosyalist Federatif Sovyet Cumhuriyeti	Tiflis	tam	Tiflis	
+guney-rusya-beyaz	Güney Rusya Silahlı Kuvvetleri ve Hükûmeti (Denikin → Wrangel)	Ekaterinodar → Sivastopol	hic-cozulmedi		Ekaterinodar | Sivastopol
+caka-beyligi	Çaka Bey (İzmir) Beyliği	İzmir (Smyrna)	tam	İzmir (Smyrna)	
+rupeniler	Rupenî (Ermeni) Prensliği	Vahga / Sis	hic-cozulmedi		Vahga | Sis
+izmir-haclisi	İzmir Haçlı İttifakı (Hospitaller İzmir)	İzmir	tam	İzmir	
+cizre-botan	Cizre-Botan Emirliği	Cizre	tam	Cizre	
+norvec-1814	Norveç Krallığı (Eidsvoll)	Christiania	hic-cozulmedi		Christiania
+izlanda-norvec-danimarka	İzlanda (Norveç/Danimarka tacı altında)	Reykjavik	tam	Reykjavik	
+lihtenstayn	Lihtenştayn Prensliği	Vaduz	tam	Vaduz	
+orange-prensligi	Orange Prensliği	Orange	tam	Orange	
+avignon-venaissin	Avignon-Comtat Venaissin (Papalık eksklavı)	Carpentras (Comtat; 1320'den) / Avignon	tam	Avignon	Carpentras (Comtat[serbest-metin] | 1320'den)[serbest-metin]
+foix-kontlugu	Foix Kontluğu	Foix	tam	Foix	
+utrecht-piskoposlugu	Utrecht Prens-Piskoposluğu (Nedersticht)	Utrecht	tam	Utrecht	
+hainaut-kontlugu	Hainaut Kontluğu	Mons	tam	Mons	
+frizya-ozgurlugu	Frizya (Friesland) Özgürlüğü	belirsiz	yalniz-bolge-serbest		belirsiz[serbest-metin]
+deheubarth	Deheubarth Krallığı (Güney Galler)	Dinefwr	hic-cozulmedi		Dinefwr
+powys	Powys Krallığı	Mathrafal	hic-cozulmedi		Mathrafal
+cid-valensiya	Valensiya (El Cid) Prensliği	Valensiya	tam	Valensiya	
+gaeta-dukaligi	Gaeta Dükalığı	Gaeta	tam	Gaeta	
+taranto-prensligi	Taranto Prensliği	Taranto	tam	Taranto	
+urbino-dukaligi	Urbino Dükalığı	Urbino	yalniz-bolge-serbest		Urbino[devlet-adi]
+padova-carrara	Padova (Carrara) Signoria'sı	Padova	tam	Padova	
+saluzzo-markizligi	Saluzzo Markizliği	Saluzzo	yalniz-bolge-serbest		Saluzzo[devlet-adi]
+trento-piskoposlugu	Trento Prens-Piskoposluğu	Trento	tam	Trento	
+venedik-1848	San Marco (Venedik) Cumhuriyeti 1848	Venedik	tam	Venedik	
+lucca-dukaligi	Lucca Dükalığı	Lucca	yalniz-bolge-serbest		Lucca[devlet-adi]
+malta-kolonisi	Malta (İngiliz Koruması / Taç Kolonisi)	Valletta	hic-cozulmedi		Valletta
+schwaben-dukaligi	Schwaben (Swabia) Dükalığı	belirsiz	yalniz-bolge-serbest		belirsiz[serbest-metin]
+thuringia-landgrafligi	Thüringen Landgraflığı (Ludowinger dönemi)	Wartburg	hic-cozulmedi		Wartburg
+magdeburg-basepiskoposlugu	Magdeburg Başpiskoposluğu	Magdeburg	tam	Magdeburg	
+stiriya-dukaligi	Stiriya (Steiermark) Dükalığı (Otakar evresi)	Graz	tam	Graz	
+moravya-markgraflik	Moravya Markgraflığı	Olomouc / Brno	tam	Olomouc | Brno	
+karniola-dukaligi	Karniola Dükalığı	Ljubljana	tam	Ljubljana	
+gdansk-kral-sehri	Gdańsk (Danzig) Kraliyet Şehri	Gdańsk	tam	Gdańsk	
+smolensk-knezligi	Smolensk Knezliği	Smolensk	tam	Smolensk	
+cernigov-knezligi	Çernigov Knezliği	Çernigov	tam	Çernigov	
+polotsk-knezligi	Polotsk Knezliği	Polotsk	tam	Polotsk	
+pereyaslavl-knezligi	Pereyaslavl (Güney) Knezliği	Pereyaslavl	hic-cozulmedi		Pereyaslavl
+rostov-knezligi	Rostov Knezliği (Vladimir bağlısı)	Rostov	tam	Rostov	
+yaroslavl-knezligi	Yaroslavl Knezliği	Yaroslavl	tam	Yaroslavl	
+nijni-novgorod-suzdal	Suzdal-Nijni Novgorod Büyük Knezliği	Nijni Novgorod	hic-cozulmedi		Nijni Novgorod
+beloozero-knezligi	Beloozero Knezliği	Beloozero	hic-cozulmedi		Beloozero
+kiev-knezligi-litvanya	Kiev Knezliği (Litvanya vasalı)	Kiev	tam	Kiev	
+budjak-ordasi	Bucak (Budjak) Tatar Ordası	Akkirman civarı	tam	Akkirman civarı	
+finlandiya-demokratik-cumhuriyeti	Finlandiya Demokratik Cumhuriyeti (Terijoki)	Terijoki	tam	Terijoki	
+sirbistan-nedic	Sırbistan Millî Kurtuluş Hükûmeti (Nedić)	Belgrad	tam	Belgrad	
+italyan-karadag	Karadağ İtalyan Valiliği	Cetinje	tam	Cetinje	
+ljubljana-ili	Ljubljana İli (İtalyan)	Ljubljana	tam	Ljubljana	
+arnavutluk-italyan-koruma	Arnavutluk (İtalyan Şahsî Birliği 1939-43)	Tiran	hic-cozulmedi		Tiran
+yunan-izmir-bolgesi	İzmir Yunan İşgal Bölgesi	İzmir	tam	İzmir	
+kilikya-fransiz	Kilikya Fransız İşgal Bölgesi	Adana	tam	Adana	
+antalya-italyan	Antalya-Konya İtalyan İşgal Bölgesi	Antalya	tam	Antalya	
+svaneti	Svaneti Prensliği	Mestia	hic-cozulmedi		Mestia
+cenevre-cumhuriyeti	Cenevre Cumhuriyeti	Cenevre	tam	Cenevre	
+graubunden	Üç Lig (Graubünden)	Chur	tam	Chur	
+ogedey-ulusu	Ögedey Ulusu (Ögedeyîler)	Tarbagatay-Kara Irtış çevresi (şehir adı bulunamadı)	yalniz-bolge-serbest		Tarbagatay-Kara Irtış çevresi (şehir adı bulunamadı)[serbest-metin]
+ebulhayr-ozbek-ulusu	Ebü'l-Hayr Hanlığı (Özbek Ulusu, Ebü'l-Hayrîler)	Tura (Çimgi-Tura, 1446'ya dek)	yalniz-bolge-serbest		Tura (Çimgi-Tura[serbest-metin] | 1446'ya dek)[serbest-metin]
+yenisey-kirgiz	Yenisey Kırgızları (Kırgız Kağanlığı)	—	baskent-yok		
+mengjiang	Mengjiang (Moğol Askerî Hükûmeti → Moğol Birleşik Özerk Hükûmeti)	Kalgan (Zhangjiakou), Hohhot	tam	Kalgan (Zhangjiakou) | Hohhot	
+dogu-turkistan-islam-cumhuriyeti	Doğu Türkistan İslâm Cumhuriyeti (I, Kaşgar)	Kaşgar	tam	Kaşgar	
+dogu-turkistan-cumhuriyeti-gulca	Doğu Türkistan Cumhuriyeti (II, Gulca / Üç Vilayet)	Gulca (Yining)	tam	Gulca (Yining)	
+turkistan-muhtariyeti-hokand	Türkistan (Hokand) Muhtariyeti	Hokand	tam	Hokand	
+alas-ozerkligi	Alaş Özerkliği (Alaş Orda)	Semey (Semipalatinsk)	tam	Semey (Semipalatinsk)	
+turkistan-ossc	Türkistan Özerk Sovyet Sosyalist Cumhuriyeti	Taşkent	tam	Taşkent	
+uzak-dogu-cumhuriyeti	Uzak Doğu Cumhuriyeti (Çita Cumhuriyeti)	Çita	tam	Çita	
+gilan-sovyet-cumhuriyeti	İran Sosyalist Sovyet Cumhuriyeti (Gîlân Cumhuriyeti, Kuçek Han)	Reşt	tam	Reşt	
+hindu-sahiler	Hindu Şâhîler (Udabhandapura / Vahand)	Kâbil → Udabhandapura → Nandana → Lahor	kismi	Kâbil | Lahor	Udabhandapura | Nandana
+trucial-states	Muahede (Trucial) Sahili Şeyhlikleri	—	baskent-yok		
+umman-ic-imamlik	İç Umman İbâdî İmamlığı	Nizve	hic-cozulmedi		Nizve
+bundela-orcha	Orchha (Bundela) Krallığı	Orchha → Tikamgarh (1783)	kismi	Orchha	Tikamgarh (1783)
+kotte-krallik	Kotte Krallığı	Kotte (Sri Jayawardenapura)	tam	Kotte (Sri Jayawardenapura)	
+sitavaka-krallik	Sitavaka Krallığı	Sitavaka	tam	Sitavaka	
+portekiz-seylani	Portekiz Seylanı	Kolombo	tam	Kolombo	
+hollanda-seylani	Hollanda Seylanı (VOC)	Galle → Kolombo (1656)	kismi	Kolombo (1656)	Galle
+ingiliz-seylan	İngiliz Seylanı	Kolombo	tam	Kolombo	
+kulasekhara-cera	Kulasekhara (İkinci Çera / Çera Perumallar) Krallığı	Mahodayapuram (Kodungallur)	hic-cozulmedi		Mahodayapuram (Kodungallur)
+ispanyol-filipinler	İspanyol Filipinleri (Manila Genel Valiliği)	Cebu → Manila (1571)	tam	Cebu | Manila (1571)	
+filipin-malolos-cumhuriyeti	Filipinler Birinci (Malolos) Cumhuriyeti	Malolos	tam	Malolos	
+amerikan-filipinleri	Amerikan Filipinleri (Insular Government)	Manila	tam	Manila	
+ming-annam-idaresi	Ming Çin'i Đại Việt İdaresi (Giao Chỉ)	Đông Quan (Hanoi)	tam	Đông Quan (Hanoi)	
+vietnam-imparatorlugu-1945	Vietnam İmparatorluğu (Bảo Đại, Japon himayesi)	Huế	tam	Huế	
+kalat-hanligi	Kalat Hanlığı (Brahui / Ahmedzay)	Kalat	tam	Kalat	
+cobaniler	Çobânîler (Çûbânîler)	Tebriz	tam	Tebriz	
+eyyubi-yemen	Yemen Eyyûbîleri	Zebîd → Taiz	tam	Zebîd | Taiz	
+lahic-sultanligi	Abdâlî (Lahic) Sultanlığı	Lahic	tam	Lahic	
+turk-misir-sudani	Türk-Mısır Sudanı (Türkiyye)	Hartum	tam	Hartum	
+sikkim-krallik	Sikkim (Namgyal / Çogyal) Krallığı	Yuksom → Gangtok	tam	Yuksom | Gangtok	
+bhutan	Bhutan (Drukyul, Şabdrung Devleti → Wangchuck Krallığı)	Punakha → Thimphu	tam	Punakha | Thimphu	
+portekiz-hindistani-goa	Portekiz Hindistanı (Estado da Índia, Goa)	Goa	tam	Goa	
+fransiz-hindistani	Fransız Hindistanı	Pondicherry	hic-cozulmedi		Pondicherry
+danimarka-hindistani	Danimarka Hindistanı (Tranquebar-Serampore)	Tranquebar	tam	Tranquebar	
+transkaspi-hukumeti	Sosyal Devrimci Transhazar (Transkaspiya) Geçici Hükûmeti	Aşkabat	hic-cozulmedi		Aşkabat
+musasa	Müşa'şa'îler (Hüveyze, Arabistan/Huzistan)	Hüveyze	hic-cozulmedi		Hüveyze
+ukaydir	Ukaydirîler (Yemâme)	Hadarim / Ukhaydir (Yemâme)	hic-cozulmedi		Hadarim | Ukhaydir (Yemâme)
+kalacuri-tripuri	Kalaçuri (Tripuri/Çedi) Hanedanı	Tripuri (Tewar)	tam	Tripuri (Tewar)	
+bima-sultanligi	Bima Sultanlığı	Bima	tam	Bima	
+mangkunegaran	Mangkunegaran Prensliği (Surakarta)	Surakarta	tam	Surakarta	
+vietnam-dc	Vietnam Demokratik Cumhuriyeti (ilân)	Hanoi	tam	Hanoi	
+ingiliz-burma	İngiliz Burması	Rangun	tam	Rangun	
+kuzey-borneo	İngiliz Kuzey Borneo (Chartered Company)	Sandakan	tam	Sandakan	
+hollanda-malaka	Hollanda Malakası	Malaka	tam	Malaka	
+portekiz-malaka	Portekiz Malakası	Malaka	tam	Malaka	
+portekiz-timor	Portekiz Timoru	Lifau (1769'a dek), Dili	tam	Lifau (1769'a dek) | Dili	
+sipsong-panna	Sipsong Panna (Çiang Rung, Tai Lü) Krallığı	Chiang Rung (Jinghong)	tam	Chiang Rung (Jinghong)	
+japon-kore	Japon Kore'si (Chōsen Genel Valiliği)	Keijō (Seul)	tam	Keijō (Seul)	
+kore-gecici-hukumeti	Kore Cumhuriyeti Geçici Hükûmeti	Şanghay (1932'ye dek), sonra Çongçing	kismi	Şanghay (1932'ye dek)	Çongçing
+hollanda-formosa	Hollanda Formosası	Zeelandia	hic-cozulmedi		Zeelandia
+ispanyol-formosa	İspanyol Formosası	Keelung (San Salvador)	tam	Keelung (San Salvador)	
+formosa-cumhuriyeti	Formosa Cumhuriyeti	Taipei, sonra Tainan	tam	Taipei | Tainan	
+japon-tayvani	Japon Tayvanı	Taihoku (Taipei)	tam	Taihoku (Taipei)	
+ezo-cumhuriyeti	Ezo Cumhuriyeti (Hakodate)	Hakodate	tam	Hakodate	
+cin-sovyet-cumhuriyeti	Çin Sovyet Cumhuriyeti (Jiangxi)	Ruijin	tam	Ruijin	
+doguhebei-ozerk	Doğu Hebei Komünizm Karşıtı Özerk Hükûmeti	Tongzhou (Ağustos 1937'den Tangshan)	hic-cozulmedi		Tongzhou (Ağustos 1937'den Tangshan)
+daxi-zhang	Daxi (Zhang Xianzhong, Xi Hanedanı)	Chengdu (Xijing)	tam	Chengdu (Xijing)	
+tsongkha	Tsongkha (Qingtang, Gusiluo) Krallığı	Qingtang (1032'den; önce Kuozhou)	yalniz-bolge-serbest		Qingtang (1032'den[serbest-metin] | önce Kuozhou)[serbest-metin]
+kongo-serbest-devleti	Kongo Serbest Devleti	Boma	tam	Boma	
+fezzan	Fezzan Sultanlığı (Evlâd Muhammed)	Murzuk	tam	Murzuk	
+touggourt	Tuggurt Sultanlığı (Benî Celleb)	Tuggurt	tam	Tuggurt	
+berqavata	Bergavata Devleti	Tamesna	hic-cozulmedi		Tamesna
+ganiyeler	Gâniyeoğulları (Benî Gâniye)	Mayorka, sonra İfrîkıye	tam	Mayorka	İfrîkıye[bolge-ulke]
+tunus-benihorasan	Benî Horasan (Tunus) Emirliği	Tunus	tam	Tunus	
+trablus-benihazrun	Benî Hazrun (Trablus) Emirliği	Trablus	tam	Trablus	
+italyan-libya	İtalyan Libya	Trablus	tam	Trablus	
+fransiz-fas	Fransız Fas Protektorası	Rabat	tam	Rabat	
+tanca-bolgesi	Tanca Uluslararası Bölgesi	Tanca	tam	Tanca	
+italyan-eritre	İtalyan Eritresi	Asmara	tam	Asmara	
+italyan-somali	İtalyan Somalisi (Banaadir Kolonisi)	Mogadişu	tam	Mogadişu	
+fransiz-somali	Fransız Somali Sahili / Afarlar ve Issalar Fransız Bölgesi (Cibuti)	Obock (1888/92'ye dek), Cibuti	kismi	Cibuti	Obock (1888/92'ye dek)
+dervis-devleti	Derviş Devleti (Muhammed Abdullah Hasan)	Taleh	tam	Taleh	
+uganda-protektorasi	Uganda Protektorası	Entebbe	hic-cozulmedi		Entebbe
+alman-dogu-afrikasi	Alman Doğu Afrikası	Dar es Salaam	yalniz-bolge-serbest		Dar es Salaam[serbest-metin]
+alman-guneybati-afrikasi	Alman Güneybatı Afrikası	Windhoek	tam	Windhoek	
+alman-togo	Alman Togolandı	Lome (Klein-Popo/Zébé'den)	tam	Lome (Klein-Popo/Zébé'den)	
+alman-kamerun	Alman Kamerunu	Duala (1901'e dek), Buea (1901-16), Yaoundé	kismi	Duala (1901'e dek) | Buea (1901-16)	Yaoundé
+gambiya-kolonisi	İngiliz Gambiyası	Bathurst (Banjul)	tam	Bathurst (Banjul)	
+cape-hollanda	Hollanda Kap Kolonisi	Cape Town	tam	Cape Town	
+cape-ingiliz	İngiliz Kap Kolonisi	Cape Town	tam	Cape Town	
+natal-kolonisi	Natal Kolonisi	Pietermaritzburg	tam	Pietermaritzburg	
+natalia	Natalia (Boer) Cumhuriyeti	Pietermaritzburg	tam	Pietermaritzburg	
+oranj-nehri-kolonisi	Orange Nehri Kolonisi	Bloemfontein	hic-cozulmedi		Bloemfontein
+basutoland	Basutoland (İngiliz Himayesi)	Maseru	tam	Maseru	
+kaabu	Kaabu (Gabu) İmparatorluğu	Kansala	hic-cozulmedi		Kansala
+denyanke	Denyanke (Denianke) Krallığı — Futa Toro	Anyam Godo / Tumbere-Jiinde	hic-cozulmedi		Anyam Godo | Tumbere-Jiinde
+nri	Nri Krallığı (İgbo)	Agukwu Nri	tam	Agukwu Nri	
+akwamu	Akwamu Devleti	Nyanoase	hic-cozulmedi		Nyanoase
+fante	Fante Konfederasyonu	Mankessim	hic-cozulmedi		Mankessim
+dendi	Dendi Krallığı	Kandi (önce Lulami)	hic-cozulmedi		Kandi (önce Lulami)
+kebbi	Kebbi Krallığı	Surame (Birnin Kebbi)	hic-cozulmedi		Surame (Birnin Kebbi)
+shewa	Şewa Krallığı (Menelik öncesi)	Ankober, sonra Entoto	kismi	Ankober	Entoto
+yeni-fransa	Yeni Fransa (Nouvelle-France)	Quebec	tam	Quebec	
+louisiana	Louisiana (Fransız/İspanyol)	New Orleans	tam	New Orleans	
+ispanyol-florida	İspanyol Florida	St Augustine	tam	St Augustine	
+yeni-hollanda	Yeni Hollanda	New Amsterdam	tam	New Amsterdam	
+yeni-isvec	Yeni İsveç	Fort Christina	hic-cozulmedi		Fort Christina
+on-uc-koloni	On Üç İngiliz Kolonisi	—	baskent-yok		
+rus-amerikasi	Rus Amerikası (Rus-Amerikan Şirketi)	Sitka	tam	Sitka	
+ruperts-land	Rupert Toprakları (Hudson Körfezi Şirketi)	York Factory	tam	York Factory	
+konfedere-devletler	Amerika Konfedere Devletleri	Montgomery → Richmond	tam	Montgomery | Richmond	
+ikinci-meksika-imparatorlugu	İkinci Meksika İmparatorluğu (Maximilian)	Meksiko	hic-cozulmedi		Meksiko
+saint-domingue	Fransız Saint-Domingue	Cap-Français	tam	Cap-Français	
+ispanyol-santo-domingo	İspanyol Santo Domingo	Santo Domingo	tam	Santo Domingo	
+danimarka-bati-hint	Danimarka Batı Hint Adaları	Charlotte Amalie	tam	Charlotte Amalie	
+ispanyol-kuba	İspanyol Küba	Havana	tam	Havana	
+guatemala-kaptanligi	Guatemala Genel Kaptanlığı	Guatemala	yalniz-bolge-serbest		Guatemala[bolge-ulke]
+sili-kaptanligi	Şili Genel Kaptanlığı	Santiago	tam	Santiago	
+peru-bolivya-konfederasyonu	Peru–Bolivya Konfederasyonu	Tacna/Lima	tam	Tacna/Lima	
+palmares	Palmares Quilombo Devleti	Macaco	hic-cozulmedi		Macaco
+tairona	Tairona Şeflikleri	Ciudad Perdida (Teyuna)	hic-cozulmedi		Ciudad Perdida (Teyuna)
+sican	Sicán (Lambayeque) Devleti	Batán Grande → Túcume	kismi	Túcume	Batán Grande
+hohokam	Hohokam Kültürü (son evre)	Snaketown / Casa Grande	hic-cozulmedi		Snaketown | Casa Grande
+seminole	Seminole	—	baskent-yok		
+fiji-cakobau	Fiji Krallığı (Cakobau)	Levuka	tam	Levuka	
+maori-kingitanga	Maori Krallığı (Kīngitanga)	Ngāruawāhia	tam	Ngāruawāhia	
+moriori	Moriori (Chatham Adaları)	—	baskent-yok		
+rarotonga	Rarotonga ve Cook Adaları Şeflikleri/Krallığı	Avarua	tam	Avarua	
+chamorro	Chamorro (Mariana) Toplulukları	—	baskent-yok		
+swat-devleti	Swat Devleti (Yusufzay / Akhund)	Saidu Sharif	tam	Saidu Sharif	
+tancur-maratha	Tancur Maratha Krallığı	Tancur (Thanjavur)	tam	Tancur (Thanjavur)	
+misir-erken-hanedan	Misir Erken Hanedan Donemi (1.-2. Hanedan)	Thinis → Memfis	kismi	Memfis	Thinis
+misir-eski-krallik	Misir Eski Krallik (3.-6. Hanedan)	Memfis	tam	Memfis	
+herakleopolis	Herakleopolis Krallığı (9.-10. Hanedan, 1. Ara Donem)	Herakleopolis (Ehnasya)	yalniz-bolge-serbest		Herakleopolis (Ehnasya)[devlet-adi]
+tebai-11-hanedan	Tebai 11. Hanedan (birlesme oncesi)	Tebai (Teb)	tam	Tebai (Teb)	
+misir-orta-krallik	Misir Orta Krallik (11.-13. Hanedan)	Itj-tawy / Tebai	kismi	Tebai	Itj-tawy
+hiksos-15	Hiksos (15. Hanedan)	Avaris	hic-cozulmedi		Avaris
+tebai-17-hanedan	Tebai 17. Hanedan	Tebai	tam	Tebai	
+misir-yeni-krallik	Misir Yeni Krallik (18.-20. Hanedan)	Tebai / Pi-Ramesses	kismi	Tebai	Pi-Ramesses
+misir-3-ara	Misir 3. Ara Donem (21.-25. Hanedan: Tanis, Libya, Kus)	Tanis / Bubastis	hic-cozulmedi		Tanis | Bubastis
+kush-25-hanedan	Kusi 25. Hanedan (Misir)	Napata / Memfis	kismi	Memfis	Napata
+sait-26-hanedan	Sait (26.) Hanedan	Sais	hic-cozulmedi		Sais
+ahamenis-misir	Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi)	Memfis	tam	Memfis	
+misir-28-30-hanedan	Misir 28.-30. Hanedan (son yerli firavunlar)	Sais / Mendes / Sebennytos	hic-cozulmedi		Sais | Mendes | Sebennytos
+ahamenis-misir-2	Ahamenis Misir'i (31. Hanedan, 2. Pers egemenligi)	Memfis	tam	Memfis	
+ptolemai	Ptolemai (Lagid) Krallığı	Iskenderiye	tam	Iskenderiye	
+kerma	Kerma Krallığı (Klasik Kerma)	Kerma	tam	Kerma	
+kush-krallik	Kus (Napata–Meroe) Krallığı	Napata → Meroe	hic-cozulmedi		Napata | Meroe
+aksum	Aksum Krallığı	Aksum	tam	Aksum	
+garamant	Garamantes Krallığı	Garama (Germa)	hic-cozulmedi		Garama (Germa)
+numidia	Numidya Krallığı (Massyli-Masaesyli birlesik)	Cirta	hic-cozulmedi		Cirta
+mauretania-krallik	Mauretania Krallığı (Mauri)	Volubilis / Iol	hic-cozulmedi		Volubilis | Iol
+kartaca	Kartaca (Pön) Devleti	Kartaca	yalniz-bolge-serbest		Kartaca[devlet-adi]
+dilmun	Dilmun	Kala'at al-Bahrain	yalniz-bolge-serbest		Kala'at al-Bahrain[serbest-metin]
+harappa	Harappa (Indus) Uygarlığı (Olgun evre)		baskent-yok		
+sumer-lagas-1	Lagas I. Hanedan (sehir devleti)	Lagas (Girsu)	hic-cozulmedi		Lagas (Girsu)
+akad	Akad Imparatorlugu	Agade (konum bilinmiyor)	hic-cozulmedi		Agade
+gutium	Gutium (Gutiler) Hakimiyeti	belirsiz (Adab olasi)	yalniz-bolge-serbest		belirsiz (Adab olasi)[serbest-metin]
+ur-3	Ur III (Ucuncu Ur Hanedani)	Ur	hic-cozulmedi		Ur
+isin	Isin Krallığı (I. Hanedan)	Isin	yalniz-bolge-serbest		Isin[devlet-adi]
+larsa	Larsa Krallığı	Larsa	yalniz-bolge-serbest		Larsa[devlet-adi]
+esnunna	Esnunna Krallığı	Esnunna (Tell Asmar)	yalniz-bolge-serbest		Esnunna (Tell Asmar)[devlet-adi]
+eski-asur	Eski Asur Devleti (Assur sehir devleti)	Assur	hic-cozulmedi		Assur
+samsi-adad	Ust Mezopotamya Krallığı (Samsi-Adad I)	Subat-Enlil	hic-cozulmedi		Subat-Enlil
+babil-eski	Eski Babil (Amorit) Krallığı	Babil	tam	Babil	
+sealand-1	Birinci Deniz Ulkesi Hanedani	belirsiz (guney bataklik)	yalniz-bolge-serbest		belirsiz (guney bataklik)[serbest-metin]
+kassit-babil	Kassit Babil Krallığı	Babil / Dur-Kurigalzu	kismi	Babil	Dur-Kurigalzu
+isin-2	Isin II. Hanedan (Babil, Nabukudurusur I)	Babil	tam	Babil	
+orta-asur	Orta Asur Imparatorlugu	Assur	hic-cozulmedi		Assur
+yeni-babil	Yeni Babil (Keldani) Imparatorlugu	Babil	tam	Babil	
+mari-lim	Mari Lim Hanedani (Yahdun-Lim–Zimri-Lim)	Mari (Tell Hariri)	tam	Mari (Tell Hariri)	
+ebla-1	Ebla Birinci Krallığı	Ebla (Tell Mardikh)	yalniz-bolge-serbest		Ebla (Tell Mardikh)[devlet-adi]
+mitanni	Mitanni (Hanigalbat) Krallığı	Vassukanni (konum belirsiz)	hic-cozulmedi		Vassukanni (konum belirsiz)
+elam-simaski	Elam — Simaski Hanedani	Susa	tam	Susa	
+elam-sukkalmah	Elam — Sukkalmah (Eparti) Hanedani	Susa	tam	Susa	
+elam-orta	Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid)	Susa / Cogha Zanbil	kismi	Susa	Cogha Zanbil
+elam-yeni	Yeni Elam Krallığı	Susa	tam	Susa	
+hitit-eski	Eski Hitit Krallığı (Hattusa)	Hattusa	hic-cozulmedi		Hattusa
+hitit-imp	Hitit Imparatorlugu (Yeni Krallik)	Hattusa	hic-cozulmedi		Hattusa
+kizzuwatna	Kizzuwatna Krallığı	Kummanni / Adaniya	hic-cozulmedi		Kummanni | Adaniya
+yeni-hitit	Yeni Hitit (Luvi-Arami) Sehir Devletleri (Karkamis, Melid, Hamat, Gurgum, Kummuh, Tabal vb.)	Karkamis	hic-cozulmedi		Karkamis
+aram-sam	Aram-Sam (Dimask) Krallığı	Dimask	yalniz-bolge-serbest		Dimask[devlet-adi]
+fenike-sehirleri	Fenike Sehir Devletleri (Sur, Sayda, Cubeyl, Arvad)	Sur / Sayda	tam	Sur | Sayda	
+filistin-pentapolis	Filisti Sehir Devletleri	Askelon/Ekron/Gat/Asdod/Gazze	tam	Askelon/Ekron/Gat/Asdod/Gazze	
+israil-krallik	Israil Krallığı (Samiriye)	Sekem → Tirsa → Samiriye	hic-cozulmedi		Sekem | Tirsa | Samiriye
+yahuda	Yahuda Krallığı	Kudus	tam	Kudus	
+lidya	Lidya Krallığı	Sardes	hic-cozulmedi		Sardes
+urartu	Urartu Krallığı	Tuspa (Van)	tam	Tuspa (Van)	
+ahamenis	Ahamenis (Pers) Imparatorlugu	Pasargad / Persepolis / Susa	kismi	Susa	Pasargad | Persepolis
+iskender-imparatorlugu	Buyuk Iskender Imparatorlugu	Pella → Babil	kismi	Babil	Pella
+selevkos	Selevkos Imparatorlugu	Selevkeia → Antakya	kismi	Antakya	Selevkeia
+part	Part (Arsakid) Imparatorlugu	Nisa → Ktesiphon	hic-cozulmedi		Nisa | Ktesiphon
+elymais	Elymais Krallığı	Susa	tam	Susa	
+karakene	Karakene (Mesene) Krallığı	Charax Spasinou	hic-cozulmedi		Charax Spasinou
+atropatene	Atropatene (Med Atropatene) Krallığı	Gazaka (Ganzak)	hic-cozulmedi		Gazaka (Ganzak)
+palmira	Palmira (Odaenathus-Zenobia) Imparatorlugu	Palmira	yalniz-bolge-serbest		Palmira[devlet-adi]
+nabatiye	Nabatiye Krallığı	Petra	hic-cozulmedi		Petra
+hasmoni	Hasmoni Devleti (Yahudiye)	Kudus	tam	Kudus	
+herodes-krallik	Herodes Hanedani Krallığı (Roma vasali)	Kudus	tam	Kudus	
+himyar	Himyar Krallığı	Zafar	hic-cozulmedi		Zafar
+saba	Saba Krallığı	Marib	hic-cozulmedi		Marib
+hadramavt	Hadramavt Krallığı	Sabva	hic-cozulmedi		Sabva
+ma-in	Ma'in Krallığı (Minai)	Karna	hic-cozulmedi		Karna
+kataban	Kataban Krallığı	Timna	hic-cozulmedi		Timna
+kinde	Kinde Krallığı	Kariyat el-Fav	yalniz-bolge-serbest		Kariyat el-Fav[serbest-metin]
+lahmi	Lahmiler (Hire)	Hire	hic-cozulmedi		Hire
+gassani	Gassaniler	belirsiz (Cabiye)	yalniz-bolge-serbest		belirsiz (Cabiye)[serbest-metin]
+medine-devleti	Medine Islam Devleti (Hz. Muhammed donemi)	Medine	tam	Medine	
+zubeyri	Abdullah b. Zubeyr Hilafeti (Mekke)	Mekke	tam	Mekke	
+uman-ibadi	Uman Ibadi Imamligi (I. imamlik)	Nezva	hic-cozulmedi		Nezva
+yufiri	Yu'firiler (Yemen)	San'a / Sibam Kevkeban	kismi	San'a	Sibam Kevkeban
+taberistan-zeydi	Taberistan Zeydileri (Aleviler) — I. donem	Amul	tam	Amul	
+minos	Minos (Minos Saray) Uygarlığı	Knossos	hic-cozulmedi		Knossos
+miken	Miken (Mykene) Saray Devletleri	Miken / Pylos / Tiryns / Teb	hic-cozulmedi		Miken | Pylos | Tiryns | Teb
+sparta	Sparta (Lakedaimon)	Sparta	yalniz-bolge-serbest		Sparta[devlet-adi]
+korint	Korint	Korint	yalniz-bolge-serbest		Korint[devlet-adi]
+sirakuza	Sirakuza (Syrakousai)	Sirakuza	tam	Sirakuza	
+massalia	Massalia (Marsilya)	Massalia	yalniz-bolge-serbest		Massalia[devlet-adi]
+kyrene	Kyrene (Kirene) Devleti	Kyrene	yalniz-bolge-serbest		Kyrene[devlet-adi]
+delos-birligi	Delos (Atina Deniz) Birliği	Delos -> Atina	yalniz-bolge-serbest		Delos -> Atina[serbest-metin]
+peloponnes-birligi	Peloponnes Birliği	Sparta	yalniz-bolge-serbest		Sparta[devlet-adi]
+ikinci-atina-birligi	İkinci Atina Birliği	Atina	tam	Atina	
+korint-birligi	Korint (Hellen) Birliği	Korint	yalniz-bolge-serbest		Korint[devlet-adi]
+akhaia-birligi	Akhaia Birliği	Aigion	hic-cozulmedi		Aigion
+aitolia-birligi	Aitolia Birliği	Thermon	hic-cozulmedi		Thermon
+epir	Epir (Molossia) Krallığı	Dodona -> Ambrakia	yalniz-bolge-serbest		Dodona -> Ambrakia[serbest-metin]
+lizimakhos	Lizimakhos (Trakya) Krallığı	Lysimacheia	hic-cozulmedi		Lysimacheia
+antigonos	Antigonos Monophthalmos Krallığı (Asya)	Antigoneia	hic-cozulmedi		Antigoneia
+bergama	Bergama (Attalos) Krallığı	Bergama	tam	Bergama	
+bitinya	Bitinya Krallığı	Nikomedia	hic-cozulmedi		Nikomedia
+pontus	Pontus (Mithridates) Krallığı	Amaseia -> Sinope	yalniz-bolge-serbest		Amaseia -> Sinope[serbest-metin]
+kapadokya-krallik	Kapadokya Krallığı	Mazaka	hic-cozulmedi		Mazaka
+kommagene	Kommagene Krallığı	Samosata	hic-cozulmedi		Samosata
+galatya-keltleri	Galatia (Kelt) Tetrarşileri	Ankyra / Tavium / Pessinus	hic-cozulmedi		Ankyra | Tavium | Pessinus
+bosporos-krallik	Bosporos (Kırım) Krallığı	Pantikapaion	hic-cozulmedi		Pantikapaion
+skit-krallik	İskit (Pontus Bozkırı) Devletleri	belirsiz / İskit Neapolis	hic-cozulmedi		İskit Neapolis | belirsiz[serbest-metin]
+odris	Odris (Trakya) Krallığı	Seuthopolis / Kabyle	hic-cozulmedi		Seuthopolis | Kabyle
+dakya	Dakya (Burebista-Decebalus) Krallığı	Sarmizegetusa	hic-cozulmedi		Sarmizegetusa
+roma-kralligi	Roma Krallığı	Roma	tam	Roma	
+roma-cumhuriyeti	Roma Cumhuriyeti	Roma	tam	Roma	
+roma-imp	Roma İmparatorluğu (Prinkipat-Dominat, birleşik)	Roma (330'dan itibaren Konstantinopolis)	tam	Roma (330'dan itibaren Konstantinopolis)	
+bati-roma	Batı Roma İmparatorluğu	Mediolanum -> Ravenna	yalniz-bolge-serbest		Mediolanum -> Ravenna[serbest-metin]
+galya-imp	Galya İmparatorluğu (Postumus)	Augusta Treverorum (Trier)	tam	Augusta Treverorum (Trier)	
+britanya-imp	Britanya İmparatorluğu (Carausius-Allectus)	Londinium	hic-cozulmedi		Londinium
+odoakar	Odoakar'ın İtalya Krallığı	Ravenna	tam	Ravenna	
+dogu-got	Doğu Got (Ostrogot) Krallığı	Ravenna	tam	Ravenna	
+vandal	Vandal Krallığı	Hippo Regius -> Kartaca	yalniz-bolge-serbest		Hippo Regius -> Kartaca[serbest-metin]
+vizigot	Vizigot (Batı Got) Krallığı (Tolosa -> Toledo)	Tolosa -> Toledo	yalniz-bolge-serbest		Tolosa -> Toledo[serbest-metin]
+suev	Suev Krallığı (Galicia)	Braga	tam	Braga	
+burgund	Burgund Krallığı	Worms -> Lyon / Cenevre	tam	Cenevre	Worms -> Lyon[serbest-metin]
+alamanlar	Alamanlar (Alemanni) Konfederasyonu	belirsiz	yalniz-bolge-serbest		belirsiz[serbest-metin]
+hun-avrupa	Avrupa Hun İmparatorluğu (Attila)	belirsiz (Pannonia)	yalniz-bolge-serbest		belirsiz (Pannonia)[serbest-metin]
+gepid	Gepid Krallığı	Sirmium	hic-cozulmedi		Sirmium
+langobard	Lombard (Langobard) Krallığı	Pavia	hic-cozulmedi		Pavia
+frank	Frank Krallığı/İmparatorluğu (Merovenj-Karolenj)	Tournai -> Paris/Soissons -> Aachen	yalniz-bolge-serbest		Tournai -> Paris/Soissons -> Aachen[serbest-metin]
+bati-francia	Batı Francia	Laon / Paris	kismi	Paris	Laon
+dogu-francia	Doğu Francia (Alman Krallığı, Sakson öncesi dahil)	Regensburg / Frankfurt	tam	Regensburg | Frankfurt	
+karolenj-italya	İtalya Krallığı (Karolenj-Berengar dönemi)	Pavia	hic-cozulmedi		Pavia
+orta-francia-lotharingia	Lotharingia (II. Lothar Krallığı / Lorraine Dukalığı)	Aachen	tam	Aachen	
+asturias	Asturias Krallığı	Cangas -> Oviedo	yalniz-bolge-serbest		Cangas -> Oviedo[serbest-metin]
+buyuk-moravya	Büyük Moravya	Mikulcice? / Nitra	kismi	Nitra	Mikulcice?
+macar-prensligi	Macar (Magyar) Prensliği	belirsiz	yalniz-bolge-serbest		belirsiz[serbest-metin]
+avar	Avar Kağanlığı	Pannonia (Ring)	hic-cozulmedi		Pannonia (Ring)
+buyuk-bulgaristan	Büyük Bulgaristan (Kubrat)	Phanagoria	hic-cozulmedi		Phanagoria
+wessex	Wessex Krallığı	Winchester	hic-cozulmedi		Winchester
+mercia	Mercia Krallığı	Tamworth	hic-cozulmedi		Tamworth
+northumbria	Northumbria Krallığı	York / Bamburgh	kismi	York	Bamburgh
+jorvik	Jorvik (Viking York) Krallığı	York	tam	York	
+strathclyde	Strathclyde (Alt Clut) Krallığı	Dumbarton (Alclut)	hic-cozulmedi		Dumbarton (Alclut)
+dal-riata	Dál Riata Krallığı	Dunadd	hic-cozulmedi		Dunadd
+piktler	Pikt (Fortriu) Krallığı	Fortriu / Forteviot	hic-cozulmedi		Fortriu | Forteviot
+dublin-krallik	Dublin (Norse) Krallığı	Dublin	tam	Dublin	
+ermenistan-yervantuni	Yervandit (Orontid) Ermenistan	Armavir -> Yervandaşat	yalniz-bolge-serbest		Armavir -> Yervandaşat[serbest-metin]
+artaksiad	Artaksiad Ermenistan	Artaksata	hic-cozulmedi		Artaksata
+tigran-imp	Büyük Tigran'ın İmparatorluğu	Tigranokerta	hic-cozulmedi		Tigranokerta
+arsakuni-ermenistan	Arşakuni Ermenistan (Part dalı)	Artaksata -> Vagarşapat	yalniz-bolge-serbest		Artaksata -> Vagarşapat[serbest-metin]
+sakalar-bati-satraplar	İndo-İskit Batı Kşatrapaları	Ujjain	tam	Ujjain	
+greko-baktria	Greko-Baktriya Krallığı	Baktra / Ay Hanum	hic-cozulmedi		Baktra | Ay Hanum
+kusan	Kuşan İmparatorluğu	Bagram -> Peşaver	yalniz-bolge-serbest		Bagram -> Peşaver[serbest-metin]
+kusan-sasani	Kuşano-Sasani Krallığı (Kuşanşahlar)	Balh	hic-cozulmedi		Balh
+kidarit	Kidarit Hunlar	Balh -> Peşaver	yalniz-bolge-serbest		Balh -> Peşaver[serbest-metin]
+hivite-afrigid	Hârezm Afrigîleri	Kâs (Kath)	tam	Kâs (Kath)	
+gaochang	Gaochang (Turfan) Krallığı - Qu hanedanı	Gaochang	hic-cozulmedi		Gaochang
+hunnu-xiongnu	Xiongnu (Hunnu) Konfederasyonu	Longcheng / Ötüken	hic-cozulmedi		Longcheng | Ötüken
+xianbei	Xianbei Konfederasyonu (Tanşihuai)	belirsiz	yalniz-bolge-serbest		belirsiz[serbest-metin]
+rouran	Rouran Kağanlığı	Mumo	hic-cozulmedi		Mumo
+gokturk-1	Birinci Göktürk Kağanlığı	Ötüken	hic-cozulmedi		Ötüken
+dogu-gokturk	Doğu Göktürk Kağanlığı (I)	Ötüken	hic-cozulmedi		Ötüken
+dogu-gokturk-2	Doğu Göktürk Kağanlığı (II, İkinci Göktürk)	Ötüken	hic-cozulmedi		Ötüken
+turges	Türgiş Kağanlığı	Suyab	hic-cozulmedi		Suyab
+karluk	Karluk Devleti (Yabgu -> Kara-ordu)	Kara-ordu (Balasagun yakını)	hic-cozulmedi		Kara-ordu (Balasagun yakını)
+kirgiz-yenisey	Yenisey Kırgız Kağanlığı	Ötüken	hic-cozulmedi		Ötüken
+nanzhao	Nanzhao Krallığı	Taihe / Dali	kismi	Dali	Taihe
+balhae	Balhae (Bohai/Parhae) Krallığı	Dongmozu / Sanggyeong	hic-cozulmedi		Dongmozu | Sanggyeong
+shang	Shang Hanedanı	Erligang -> Anyang	yalniz-bolge-serbest		Erligang -> Anyang[serbest-metin]
+bati-zhou	Batı Zhou	Haojing	hic-cozulmedi		Haojing
+dogu-zhou	Doğu Zhou (Bahar-Güz ve Savaşan Devletler dönemi hanedanı)	Luoyi	hic-cozulmedi		Luoyi
+qin-devleti	Qin Devleti	Yong -> Xianyang	yalniz-bolge-serbest		Yong -> Xianyang[serbest-metin]
+qin-hanedani	Qin Hanedanı (birleşik İmparatorluk)	Xianyang	hic-cozulmedi		Xianyang
+han-devleti-zhou	Han Devleti (Savasan Devletler; Han hanedanindan ayri)	Xinzheng	hic-cozulmedi		Xinzheng
+zhao-devleti	Zhao Devleti (Savasan Devletler)	Handan	hic-cozulmedi		Handan
+wei-devleti-zhou	Wei Devleti (Savasan Devletler; Cao Wei'den ayri)	Anyi → Daliang	hic-cozulmedi		Anyi | Daliang
+bati-han	Bati Han Hanedani	Chang'an	tam	Chang'an	
+xin	Xin Hanedani (Wang Mang)	Chang'an	tam	Chang'an	
+dogu-han	Dogu Han Hanedani	Luoyang	tam	Luoyang	
+cao-wei	Cao Wei	Luoyang	tam	Luoyang	
+shu-han	Shu Han	Chengdu	tam	Chengdu	
+sun-wu	Wu (Sun Wu)	Jianye	hic-cozulmedi		Jianye
+bati-jin	Bati Jin Hanedani	Luoyang	tam	Luoyang	
+dogu-jin	Dogu Jin Hanedani	Jiankang	hic-cozulmedi		Jiankang
+han-zhao	Han-Zhao (Onceki Zhao / Kuzey Han)	Pingyang → Chang'an	kismi	Chang'an	Pingyang
+liu-song	Liu Song	Jiankang	hic-cozulmedi		Jiankang
+guney-qi	Guney Qi	Jiankang	hic-cozulmedi		Jiankang
+liang-guney	Liang (Guney Hanedani)	Jiankang	hic-cozulmedi		Jiankang
+chen	Chen Hanedani	Jiankang	hic-cozulmedi		Jiankang
+sui	Sui Hanedani	Daxing / Luoyang	kismi	Luoyang	Daxing
+tang	Tang Hanedani	Chang'an	tam	Chang'an	
+wu-zhou	Wu Zhou (Wu Zetian)	Luoyang	tam	Luoyang	
+sonraki-liang-5hanedan	Sonraki Liang (Bes Hanedan)	Kaifeng	tam	Kaifeng	
+sonraki-tang-5hanedan	Sonraki Tang (Shatuo, Bes Hanedan)	Luoyang	tam	Luoyang	
+sonraki-jin-5hanedan	Sonraki Jin (Shatuo, Bes Hanedan)	Kaifeng	tam	Kaifeng	
+sonraki-han-5hanedan	Sonraki Han (Shatuo, Bes Hanedan)	Kaifeng	tam	Kaifeng	
+sonraki-zhou-5hanedan	Sonraki Zhou (Bes Hanedan)	Kaifeng	tam	Kaifeng	
+wiman-joseon	Wiman Joseon	Wanggeom	hic-cozulmedi		Wanggeom
+goguryeo	Goguryeo Krallığı	Jolbon → Gungnae → Pyeongyang	hic-cozulmedi		Jolbon | Gungnae | Pyeongyang
+baekje	Baekje Krallığı	Wiryeseong → Ungjin → Sabi	hic-cozulmedi		Wiryeseong | Ungjin | Sabi
+silla	Silla Krallığı (Birlesik Silla dahil)	Gyeongju	tam	Gyeongju	
+yamato	Yamato Devleti (Kofun)	Yamato (Asuka'ya kadar)	yalniz-bolge-serbest		Yamato (Asuka'ya kadar)[devlet-adi]
+nara-japonya	Japonya - Nara Donemi Imparatorluk Sarayi	Heijo-kyo	hic-cozulmedi		Heijo-kyo
+funan	Funan Krallığı	Vyadhapura	hic-cozulmedi		Vyadhapura
+chenla	Chenla (Zhenla) Krallığı	Ishanapura	hic-cozulmedi		Ishanapura
+linyi-champa	Linyi (Champa'nin Ilk Donemi)	Indrapura	tam	Indrapura	
+dvaravati	Dvaravati Mon Krallıkları	Nakhon Pathom	hic-cozulmedi		Nakhon Pathom
+van-xuan	Van Xuan (Erken Ly)	Long Bien	hic-cozulmedi		Long Bien
+dinh	Dinh Hanedani (Dai Co Viet)	Hoa Lu	hic-cozulmedi		Hoa Lu
+magadha	Magadha (Haryanka-Sisunaga-Nanda)	Rajagriha → Pataliputra	hic-cozulmedi		Rajagriha | Pataliputra
+maurya	Maurya Imparatorlugu	Pataliputra	hic-cozulmedi		Pataliputra
+sunga	Sunga Hanedani	Pataliputra → Vidisha	hic-cozulmedi		Pataliputra | Vidisha
+kanva	Kanva Hanedani	Pataliputra	hic-cozulmedi		Pataliputra
+gupta	Gupta Imparatorlugu	Pataliputra	hic-cozulmedi		Pataliputra
+badami-calukya	Badami (Erken) Calukya	Badami (Vatapi)	hic-cozulmedi		Badami (Vatapi)
+rastrakuta	Rastrakuta Hanedani	Manyakheta	hic-cozulmedi		Manyakheta
+harsha	Harsa'nin Imparatorlugu (Pushyabhuti)	Kannauj / Thanesar	hic-cozulmedi		Kannauj | Thanesar
+pandya-1	Birinci Pandya Imparatorlugu	Madurai	tam	Madurai	
+caral-norte-chico	Norte Chico (Caral-Supe) Uygarligi	Caral	hic-cozulmedi		Caral
+olmek	Olmek Kulturu (San Lorenzo-La Venta)	San Lorenzo → La Venta	hic-cozulmedi		San Lorenzo | La Venta
+chavin	Chavin Kulturu	Chavin de Huantar	hic-cozulmedi		Chavin de Huantar
+nazca	Nazca Kulturu	Cahuachi	hic-cozulmedi		Cahuachi
+moche	Moche (Mochica) Devletleri	Huacas de Moche	hic-cozulmedi		Huacas de Moche
+wari	Wari (Huari) Imparatorlugu	Huari	hic-cozulmedi		Huari
+chimu	Chimu (Chimor) Krallığı	Chan Chan	tam	Chan Chan	
+maya-klasik	Klasik Maya Sehir Devletleri (genel cati)	cok merkezli	yalniz-bolge-serbest		cok merkezli[serbest-metin]
+copan	Copan (Oxwitik)	Copan	yalniz-bolge-serbest		Copan[devlet-adi]
+kis-egemenlik	Kiş Şehir Devleti ve Egemenliği (Erken Hanedan III)	Kiş	tam	Kiş	
+uruk-erken-hanedan	Uruk Şehir Devleti (Erken Hanedan; Gılgameş'ten Lugalzagesi'ye)	Uruk	hic-cozulmedi		Uruk
+ur-1-hanedan	Ur I. Hanedanı (Kraliyet Mezarlığı dönemi)	Ur	hic-cozulmedi		Ur
+umma-erken-hanedan	Umma Şehir Devleti (Erken Hanedan; Lugalzagesi)	Umma	hic-cozulmedi		Umma
+lagas-2	Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)	Girsu/Lagaş	hic-cozulmedi		Girsu/Lagaş
+awan	Awan Krallığı (Elam, Erken Elam)	Awan (yeri bilinmiyor)	yalniz-bolge-serbest		Awan[devlet-adi]
+mari-erken	Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad)	Mari	tam	Mari	
+mari-sakkanakku	Mari Şakkanakku Hanedanı	Mari	tam	Mari	
+ebla-orta-tunc	Ebla (II.-III. Krallık, Orta Tunç)	Ebla	yalniz-bolge-serbest		Ebla[devlet-adi]
+yamhad	Yamhad (Halep) Krallığı	Halep (Halab)	tam	Halep (Halab)	
+ugarit	Ugarit Krallığı	Ugarit (Ras Şamra)	yalniz-bolge-serbest		Ugarit (Ras Şamra)[devlet-adi]
+hayasa-azzi	Hayaşa-Azzi Konfederasyonu		baskent-yok		
+hitit	Hitit Krallığı ve İmparatorluğu (Hatti)	Hattuşa	hic-cozulmedi		Hattuşa
+chu-devleti	Chu Devleti (Zhou donemi; wang unvanli krallik)	Danyang → Ying (Jingzhou/Hubei) → Shouchun	kismi	Ying (Jingzhou/Hubei)	Danyang | Shouchun
+qi-devleti	Qi Devleti (Jiang Qi ve Tian Qi)	Yingqiu → Linzi (Shandong)	hic-cozulmedi		Yingqiu | Linzi (Shandong)
+nanyue	Nanyue (Nam Viet) Krallığı (Zhao hanedani)	Panyu (Guangzhou)	tam	Panyu (Guangzhou)	
+dian	Dian Krallığı (Yunnan)	Dian golu cevresi (Shizhaishan / Kunming)	tam	Kunming)	Dian golu cevresi (Shizhaishan[serbest-metin]
+indo-grek	Hint-Grek (Indo-Greek) Krallıkları	Taksila → Sagala (Sialkot)	hic-cozulmedi		Taksila | Sagala (Sialkot)
+satavahana	Satavahana Hanedanı (Andhra)	Pratishthana (Paithan) / Amaravati	hic-cozulmedi		Pratishthana (Paithan) | Amaravati
+medya	Medya (Med) Krallığı	Ekbatana (Hegmatana)	hic-cozulmedi		Ekbatana (Hegmatana)
+manna	Manna (Mannea) Krallığı	Izirtu (Zirta)	hic-cozulmedi		Izirtu (Zirta)
+sofene	Sofene (Tsopk) Krallığı	belirsiz	yalniz-bolge-serbest		belirsiz[serbest-metin]
+eftalit	Eftalit (Beyaz Hun) Krallığı	belirsiz (Tohâristân; Prokopios'un 'Gorgo'su)	yalniz-bolge-serbest		belirsiz (Tohâristân[serbest-metin] | Prokopios'un 'Gorgo'su)[serbest-metin]
+yeni-asur	Yeni Asur Imparatorlugu	Assur, Kalhu (Nimrud), Ninova	hic-cozulmedi		Assur | Kalhu (Nimrud) | Ninova
+antigonid-makedonya	Antigonid Makedonya Krallığı	Pella	hic-cozulmedi		Pella
+likya-birligi	Likya Birligi (Roma himayesinde)	Patara	hic-cozulmedi		Patara
+karya-hekatomnid	Karya Hekatomnid Satrap-Hanedanlığı	Mylasa, sonra Halikarnassos	hic-cozulmedi		Mylasa | Halikarnassos
+boiotia-birligi	Boiotia (Teb) Birliği	Teb (Thebai)	tam	Teb (Thebai)	
+atina-demokrasisi	Atina (bagimsiz demokratik polis)	Atina	tam	Atina	
+magrave-fas	Mağrâve Emirliği (Fes)	Fes	hic-cozulmedi		Fes
+teotihuacan	Teotihuacan Şehir Devleti	Teotihuacan	hic-cozulmedi		Teotihuacan
+tikal-mutal	Tikal (Mutal) Krallığı	Tikal	yalniz-bolge-serbest		Tikal[devlet-adi]
+palenque-baak	Palenque (Bakʼ) Krallığı	Palenque	yalniz-bolge-serbest		Palenque[devlet-adi]
+caracol-maya	Caracol Krallığı	Caracol	yalniz-bolge-serbest		Caracol[devlet-adi]
+monte-alban-zapotek	Monte Albán Zapotek Devleti	Monte Albán	hic-cozulmedi		Monte Albán
+tiwanaku-devleti	Tiwanaku Devleti	Tiwanaku	yalniz-bolge-serbest		Tiwanaku[devlet-adi]
+saudeleur	Saudeleur Hanedanı (Nan Madol)	Nan Madol	hic-cozulmedi		Nan Madol
+etrusk-sehir-devletleri	Etrüsk Şehir Devletleri (Oniki Şehir Birliği)	Tarquinia / Fanum Voltumnae (birlik toplantı yeri)	hic-cozulmedi		Tarquinia | Fanum Voltumnae (birlik toplantı yeri)
+makedonya-krallik	Makedonya Krallığı (Argead-Antigonid)	Aigai / Pella	hic-cozulmedi		Aigai | Pella
+kent-kralligi	Kent Krallığı (Anglosakson)	Canterbury	hic-cozulmedi		Canterbury
+sussex-kralligi	Sussex (Güney Sakson) Krallığı	Selsey / Chichester	hic-cozulmedi		Selsey | Chichester
+danelaw	Danelaw (Guthrum'un Doğu Anglia'sı ve Danimarkalı Bölge)	Doğu Anglia (belirli başkent yok)	hic-cozulmedi		Doğu Anglia (belirli başkent yok)
+catuvellauni-krallik	Catuvellauni-Trinovantes Krallığı (Cunobelinus)	Verulamium, sonra Camulodunum (Colchester)	hic-cozulmedi		Verulamium | Camulodunum (Colchester)
+ravenna-eksarhligi	Ravenna Eksarhlığı (Bizans İtalyası)	Ravenna	tam	Ravenna	
+tibet-imparatorlugu	Tibet İmparatorluğu (Tubo / Yarlung)	Lhasa	tam	Lhasa	
+yang-wu	Wu (Yang Wu) Krallığı		baskent-yok		
+guney-tang	Güney Tang (Nan Tang) Krallığı		baskent-yok		
+nan-ping-jingnan	Nan Ping (Jingnan) Krallığı		baskent-yok		
+chu-ma	Chu (Ma Chu) Krallığı		baskent-yok		
+onceki-shu	Önceki Shu (Qian Shu) Krallığı		baskent-yok		
+sonraki-shu	Sonraki Shu (Hou Shu) Krallığı		baskent-yok		
+min-krallik	Min Krallığı		baskent-yok		
+kuzey-han-10krallik	Kuzey Han (Bei Han) Krallığı		baskent-yok		
+guney-han-10krallik	Güney Han (Nan Han) Krallığı		baskent-yok		
+wuyue	Wuyue Krallığı		baskent-yok		
+kuzey-wei	Kuzey Wei (Tuoba/Tabgaç) Hanedanı	Datong (sonra Luoyang)	tam	Datong ( | Luoyang)	
+dogu-wei	Doğu Wei Hanedanı	Ye	hic-cozulmedi		Ye
+bati-wei	Batı Wei Hanedanı	Chang'an	tam	Chang'an	
+kuzey-qi	Kuzey Qi Hanedanı	Ye	hic-cozulmedi		Ye
+kuzey-zhou	Kuzey Zhou Hanedanı	Chang'an	tam	Chang'an	
+hubaekje	Sonraki Baekje (Hubaekje)	Wansan (Jeonju)	tam	Wansan (Jeonju)	
+taebong	Sonraki Goguryeo (Majin / Taebong)		baskent-yok		
+dulefi	Dülefîler (Delefîler / Dulafidler)	Kerec	hic-cozulmedi		Kerec
+bati-ganga	Batı Ganga (Talakad Gangaları) Hanedanı	Talakad	hic-cozulmedi		Talakad
+karkota	Karkota Hanedanı (Keşmir)		baskent-yok		
+pallava	Pallava Hanedanı (Kançipuram)	Kançipuram	hic-cozulmedi		Kançipuram
+bagdat-memlukleri	Bağdat Memlükleri (Eyüplü–Kölemen Hanedanı)	Bağdat	tam	Bağdat	
+zahir-el-omer-seyhligi	Zâhir el-Ömer Akka-Celile Şeyhliği	Akka	tam	Akka	
+buyuk-lubnan-devleti	Büyük Lübnan Devleti (Fransız Mandası altında)	Beyrut	tam	Beyrut	
+suriye-cumhuriyeti-1946	Suriye Cumhuriyeti (bağımsız, BAC öncesi)	Şam	tam	Şam	
+suriye-arap-cumhuriyeti	Suriye Arap Cumhuriyeti (1961'den)	Şam	tam	Şam	
+irak-cumhuriyeti	Irak Cumhuriyeti (14 Temmuz 1958'den)	Bağdat	tam	Bağdat	
+arap-birligi-irak-urdun	Arap Birliği (Irak-Ürdün Federasyonu)	Bağdat	tam	Bağdat	
+urdun-hasimi-krallik	Ürdün Haşimî Krallığı (Şarkî Ürdün Haşimî Krallığı → 1950 Ürdün)	Amman	tam	Amman	
+mayapan-birligi	Mayapan Birligi (Mayapan Ligi)	Mayapan	tam	Mayapan	
+kaqchikel-kralligi	Kaqchikel (Cakchiquel) Krallığı	Iximche	tam	Iximche	
+dahlak-sultanligi	Dahlak Sultanlığı (Dehlek)	Dahlak Kebir	hic-cozulmedi		Dahlak Kebir
+vedday-sultanligi	Vedây (Wadai/Ouaddaï) Sultanlığı	Vârâ -> Ebîşe (Abéché, 1850)	yalniz-bolge-serbest		Vârâ -> Ebîşe (Abéché[serbest-metin] | 1850)[serbest-metin]
+tuyuhun	Tuyuhun (Tuguhun) Hanlığı	Fuqi / Qinghai Gölü çevresi	hic-cozulmedi		Fuqi | Qinghai Gölü çevresi[serbest-metin]
+tubo-tibet-imparatorlugu	Tibet (Tubo/Tufan) İmparatorluğu — Yarlung hanedanı	Lhasa (Songtsen Gampo'dan beri)	tam	Lhasa (Songtsen Gampo'dan beri)	
+tiwanaku	Tiwanaku Devleti	Tiwanaku	yalniz-bolge-serbest		Tiwanaku[devlet-adi]
+zapotek-monte-alban	Zapotek Devleti (Monte Alban)	Monte Alban	hic-cozulmedi		Monte Alban
+xochicalco	Xochicalco	Xochicalco	yalniz-bolge-serbest		Xochicalco[devlet-adi]
+tikal-mutul	Mutul (Tikal) Krallığı	Tikal (Yax Mutal)	yalniz-bolge-serbest		Tikal (Yax Mutal)[devlet-adi]
+dai-tuoba	Dai Prensligi (Tuoba/Tabgac)	Shengle	hic-cozulmedi		Shengle
+xueyantuo-kaganligi	Xueyantuo (Sir-Tardus) Kaganligi	Tola vadisi (Kuzey Mogolistan)	yalniz-bolge-serbest		Tola vadisi (Kuzey Mogolistan)[cografi]
+danimarka-erken	Danimarka Krallari (Godfred donemi, Erken Dani Krallik)	Hedeby/Sliesthorp (Guney Jutland)	hic-cozulmedi		Hedeby/Sliesthorp (Guney Jutland)
+celili-musul	Celîlîler (Musul Paşalığı Yerli Hanedanı)	Musul	tam	Musul	
+misir-suriye-idaresi	Mısır Kavalalı Suriye İdaresi (İbrahim Paşa, 1832-1840)	Şam	tam	Şam	
+lubnan-kaymakamliklari	Cebel-i Lübnan Çifte Kaymakamlığı (Hristiyan ve Dürzî Kaymakamlıkları)	Deyrülkamer	tam	Deyrülkamer	
+samo-devleti	Samo'nun Slav Krallığı	bilinmiyor	yalniz-bolge-serbest		bilinmiyor[serbest-metin]
+alania-krallik	Alan (Alania) Krallığı (Kuzey Kafkasya)	bilinmiyor	yalniz-bolge-serbest		bilinmiyor[serbest-metin]
+nitra-prensligi	Nitra Prensliği (bağımsız dönem)	Nitra	tam	Nitra	
+orta-gurcistan-bagrati	Orta Gürcistan (Kartli) Bagratlı Krallığı (Kuropalat Bagratlıları)	bilinmiyor	yalniz-bolge-serbest		bilinmiyor[serbest-metin]
+bono-manso	Bono (Bono-Manso / Takyiman) Krallığı	Bono-Manso (sonra Takyiman)	kismi	Bono-Manso (	Takyiman)
+kilva-sultanligi	Kilve (Kilwa Kisiwani) Sultanlığı	Kilwa Kisiwani	tam	Kilwa Kisiwani	
+utpala-kesmir	Utpala Hanedanı (Keşmir)	Keşmir vadisi (başkent adı kaynakta teyit edilmedi)	yalniz-bolge-serbest		Keşmir vadisi[cografi]
+mogolistan-hanligi	Moğolistan (Mughulistan) Hanlığı — Doğu Çağatay	Almalık (sonra Kaşgar, Aksu)	tam	Almalık ( | Kaşgar | Aksu)	
+ogedey-ulusu-kaydu	Ögedey Ulusu (Kaydu Devleti, Orta Asya)	Talas/Isık Göl çevresi (kaynakta teyit edilmedi)	yalniz-bolge-serbest		Talas/Isık Göl çevresi[serbest-metin]
+kamarupa	Kamarupa Krallığı (Varman, Mleccha, Pala hanedanları)	Pragjyotishapura (Guwahati)	tam	Pragjyotishapura (Guwahati)	
+guiyi-jun-dunhuang	Guiyi Jun (Dunhuang/Shazhou Askerî Valiliği)	Shazhou (Dunhuang)	tam	Shazhou (Dunhuang)	
+guney-saray-nanbokucho	Güney Saray (Yoshino, Nanboku-chō)	Yoshino	hic-cozulmedi		Yoshino
+champagne-kontlugu	Champagne Kontluğu	Troyes	tam	Troyes	
+dauphine-viennois	Dauphiné (Viennois Dofenliği)	Grenoble	tam	Grenoble	
+luksemburg-kontlugu	Lüksemburg Kontluğu	Lüksemburg	tam	Lüksemburg	
+luksemburg-dukaligi	Lüksemburg Dükalığı	Lüksemburg	tam	Lüksemburg	
+hessen-landgrafligi	Hessen Landgraflığı	Kassel	tam	Kassel	
+braunschweig-luneburg-dukaligi	Braunschweig-Lüneburg Dükalığı (Welf)	Braunschweig	hic-cozulmedi		Braunschweig
+lucca-cumhuriyeti	Lucca Cumhuriyeti (Komünü)	Lucca	yalniz-bolge-serbest		Lucca[devlet-adi]
+bern-cumhuriyeti	Bern Cumhuriyeti (Şehir-Devleti)	Bern	tam	Bern	
+gelre-dukaligi	Gelre (Guelders) Dükalığı	Arnhem	hic-cozulmedi		Arnhem
+valensiya-kralligi	Valensiya Krallığı (Aragon Tacı)	Valensiya	tam	Valensiya	
+salzburg-prens-basepiskoposlugu	Salzburg Prens-Başpiskoposluğu	Salzburg	hic-cozulmedi		Salzburg
+mecklenburg-dukaligi	Mecklenburg Dükalığı (1348-1815)	Schwerin	tam	Schwerin	
+japonya-devleti	Japonya Devleti (1947 Anayasası)	Tokyo	tam	Tokyo	
+cin-halk-cumhuriyeti	Çin Halk Cumhuriyeti	Pekin	tam	Pekin	
+bhopal-eyaleti-1949	Bopal Eyaleti (Part C, 1949-1956)	Bopal	yalniz-bolge-serbest		Bopal[devlet-adi]
+sarawak-tac-kolonisi	Sarawak Tac Kolonisi	Kucing	hic-cozulmedi		Kucing
+filipinler-cumhuriyeti	Filipinler Cumhuriyeti	Manila	tam	Manila	
+alman-isgali-karadag	Alman İşgali Altındaki Karadağ	bulunamadı	yalniz-bolge-serbest		bulunamadı[serbest-metin]
+ozak	Adriyatik Kıyı Harekât Bölgesi (OZAK)	Trieste	tam	Trieste	
+arnavutluk-alman-himayesi	Arnavutluk (Alman İşgali ve Bağımsız Arnavutluk Krallığı 1943-44)	Tiran	hic-cozulmedi		Tiran
+kuzey-borneo-tac-kolonisi	Kuzey Borneo Tâc Kolonisi (İngiliz, Labuan dahil)	Jesselton (Kota Kinabalu)	tam	Jesselton (Kota Kinabalu)	
+abd-ordu-askeri-hukumeti-kore	Kore'de ABD Ordusu Askerî Hükûmeti (USAMGIK, 38. paralel güneyi)	Seul	tam	Seul	
+malezya	Malezya (Malaya Federasyonu 1957; Malezya 1963-09-16)	Kuala Lumpur	tam	Kuala Lumpur	
+guney-yemen	Guney Yemen (Halk Cumhuriyeti)	Aden	tam	Aden	
+yemen-cumhuriyeti	Yemen Cumhuriyeti	Sana	tam	Sana	
+birlesik-arap-emirlikleri	Birlesik Arap Emirlikleri	Abu Dabi	tam	Abu Dabi	
+sri-lanka	Seylan / Sri Lanka	Kolombo	tam	Kolombo	
+madagaskar	Madagaskar Cumhuriyeti	Antananarivo	tam	Antananarivo	
+hindistan-cumhuriyeti	Hindistan (Dominyon 1947; Cumhuriyet 1950-01-26)	Yeni Delhi	hic-cozulmedi		Yeni Delhi
+pakistan	Pakistan	Karaci	tam	Karaci	
+banglades	Banglades	Dakka	tam	Dakka	
+myanmar-birmanya	Birmanya Birligi (Myanmar)	Yangon	tam	Yangon	
+papua-yeni-gine	Papua Yeni Gine	Port Moresby	tam	Port Moresby	
+nauru-cumhuriyeti	Nauru Cumhuriyeti	Yaren	tam	Yaren	
+untaet	UNTAET (BM Dogu Timor Gecici Idaresi)	Dili	tam	Dili	
+guney-kore	Kore Cumhuriyeti (Guney Kore)	Seul	tam	Seul	
+kuzey-kore-sovyet-idaresi	Kuzey Kore Sovyet Sivil Idaresi	Pyongyang	tam	Pyongyang	
+kuzey-kore	Kore Demokratik Halk Cumhuriyeti (Kuzey Kore)	Pyongyang	tam	Pyongyang	
+mikronezya-federe-devletleri	Mikronezya Federe Devletleri	Palikir	hic-cozulmedi		Palikir
+marshall-adalari	Marshall Adalari Cumhuriyeti	Majuro	hic-cozulmedi		Majuro
+guney-vietnam	Guney Vietnam (Vietnam Devleti 1949 -> Vietnam Cumhuriyeti 1955)	Saygon	tam	Saygon	
+khmer-cumhuriyeti	Khmer Cumhuriyeti (Lon Nol)	Phnom Penh	tam	Phnom Penh	
+kampucya-halk-cumhuriyeti	Kampucya Halk Cumhuriyeti -> Kambocya Devleti	Phnom Penh	tam	Phnom Penh	
+laos-demokratik-halk-cumhuriyeti	Laos Demokratik Halk Cumhuriyeti	Vientiane	tam	Vientiane	
+bagimsiz-samoa	Bağımsız Samoa Devleti (Batı Samoa)	Apia	tam	Apia	
+mahra-sultanligi	Mahra Sultanlığı (Kışn ve Sokotra, İngiliz himayesi)	Kışn	hic-cozulmedi		Kışn
+yemen-arap-cumhuriyeti	Yemen Arap Cumhuriyeti (Kuzey Yemen)	Sana	tam	Sana	
+idrisi-asir	Idrisi Asir Emirliği	Sabya	hic-cozulmedi		Sabya

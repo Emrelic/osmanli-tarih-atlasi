@@ -75,7 +75,7 @@ window.YER_YAMA_OK109 = [
     ad: "Viyana",
     s: [
       { f: "1281-01-01", t: "1918-11-11", d: "avusturya" },
-      { f: "1918-11-11", t: "1923-10-29", d: "avusturya-cumhuriyet" }
+      { f: "1918-11-11", t: "1938-03-13", d: "avusturya-cumhuriyet" },{f:"1938-03-13",t:"1945-04-27",d:"almanya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1945-04-27",t:"2000-12-31",d:"avusturya-ikinci-cumhuriyet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}
     ],
     d2_gerek: "İKİ ÖN ŞART: ① `avusturya-cumhuriyet` rengi `renkler.py` BOYALAR'a girmeli (yoksa petek BOYANMAZ — hayaleti DELİĞE çevirir). ② `devletler.js` `avusturya-cumhuriyet` künyesi f:1918-11-12 → 1918-11-11 çekilmeli (yoksa Değişmez 4d 468 tavanını 470'e çıkarır). İkisi de koordinatörün dosyasında; ikisi inmeden UYGULAMA.",
     kaynak: "TDV `avusturya` (gövde okundu): 'Avusturya Almanları da 30 Ekim'de Avusturya Cumhuriyeti'ni kurdular… İmparatorun 18 Kasım'da devlet işlerinden çekildiğini açıklamasıyla imparatorlukla birlikte hânedan da tarihe karışmış oldu.' Sınır günü TDV ile künye arasında ÇELİŞİYOR (bkz. dosya başı); yama veride hâlihazırda duran 1918-11-11 sınırını kullanır, gün DEĞİŞTİRMEZ.",
@@ -86,7 +86,7 @@ window.YER_YAMA_OK109 = [
     ad: "Graz",
     s: [
       { f: "1281-01-01", t: "1918-11-11", d: "avusturya" },
-      { f: "1918-11-11", t: "1923-10-29", d: "avusturya-cumhuriyet" }
+      { f: "1918-11-11", t: "1938-03-13", d: "avusturya-cumhuriyet" },{f:"1938-03-13",t:"1945-04-27",d:"almanya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1945-04-27",t:"2000-12-31",d:"avusturya-ikinci-cumhuriyet",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}
     ],
     d2_gerek: "Viyana ile AYNI iki ön şart — renk + künye günü. İkisi inmeden UYGULAMA.",
     kaynak: "TDV `avusturya` (gövde okundu) — Viyana ile birebir aynı gerekçe ve aynı iki dönem; TDV maddesi Graz'ı Avusturya Cumhuriyeti'nin başlıca şehirleri arasında sayıyor: 'başlıca şehirleri ise başkent Viyana, Graz, Linz, Salzburg…' [TDV: avusturya]",

@@ -47,6 +47,27 @@ window.OLAYLAR_OK104 = [
   d:"1387'den beri Leş'i (Alessio) Arnavut Dukagjin Prensliği'nin merkezi olarak elinde tutan Paul ve Lek Dukagjin, Osmanlı baskısı karşısında Drin ağzındaki bu limanı savunamayacaklarını görüp kaleyi Venedik'e bıraktılar ve şehrin doğusundaki dağlık bölgeye çekildiler. Şehir bundan sonra 1478'de Fâtih'in İşkodra seferi sırasında Rumeli Beylerbeyi Dâvud Paşa tarafından alınıncaya kadar Venedik'in elinde kaldı — İskender Bey'in 1 Mart 1444'te Osmanlı karşıtı ittifakı (Lidhja e Lezhës) burada toplaması da, 17 Ocak 1468'de burada ölmesi de bir Venedik kalesinde gerçekleşti.",
   kaynak:"les", duygu:["😐"] },
 
+// ── POST-IT #4 · Kruja (Akçahisar) 1284 · 1344 · 1443 — KAYNAK: TDV `kruya`
+// Tarihler yalnız YIL veriyor ("1284", "1344", "1443") → YYYY-01-01 (gün teyitsiz).
+{ t:"1284-01-01", k:"siyaset", etiket:["toprak-kayip","savas","konu-askeri","konu-siyasi"],
+  b:"Bizans, Anjou'dan Kruja'yı (Akçahisar), Draç'ı ve Avlonya'yı geri aldı",
+  gun:"1284", yer:"Akçahisar (Kruja)", yer_id:"Akçahisar (Kruja)",
+  kisiler:"II. Andronikos",
+  d:"1271-1272'de Anjou'lu Charles'ın aldığı Draç ve Kruja, Charles'ın ölümünün ardından Bizans İmparatoru II. Andronikos tarafından yeniden alındı (TDV Kruya: 'Avlonya, Draç ve Kruya'yı yeniden aldı'). Yalnız yıl bilinir; gün teyitsizdir.",
+  kaynak:"kruya", duygu:["😐"] },
+{ t:"1344-01-01", k:"siyaset", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"],
+  b:"Sırplar Kruja'yı (Akçahisar), Berat'ı ve Avlonya'yı ele geçirdi",
+  gun:"1344", yer:"Akçahisar (Kruja)", yer_id:"Akçahisar (Kruja)",
+  kisiler:"Stefan Duşan",
+  d:"TDV Kruya: '1344'te Sırplar Kruya, Berat ve Avlonya'yı ele geçirdi'. TDV Arnavutluk, Duşan'ın Arnavutluk'u 1343-1346 arasında işgal ettiğini, 1355'te imparatorluğunun çöküşüyle yerel beylerin güçlendiğini söyler. Yalnız yıl bilinir; gün teyitsizdir.",
+  kaynak:"kruya", duygu:["😐"] },
+{ t:"1443-01-01", k:"siyaset", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"],
+  b:"İskender Bey Kruja'yı (Akçahisar) ele geçirdi — Arnavut direnişi başlıyor",
+  gun:"1443 (847)", yer:"Akçahisar (Kruja)", yer_id:"Akçahisar (Kruja)",
+  kisiler:"İskender Bey",
+  d:"İzladi yenilgisinin ardından (TDV Kruya: 847/1443) İskender Bey Kruja'yı işgal etti. 1437'de babası Gjon Kastrioti'nin ölümünden sonra Osmanlılar şehri ona değil atadıkları Hasan Bey'e vermişti. Yalnız yıl bilinir; gün teyitsizdir.",
+  kaynak:"kruya", duygu:["😐"] },
+
 ];
 
 ;

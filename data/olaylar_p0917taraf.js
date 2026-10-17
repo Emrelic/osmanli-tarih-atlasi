@@ -42,13 +42,13 @@ window.OLAYLAR_P0917TARAF = [
 
 { t:"1886-01-01", kesinlik:"yil", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi",
-  gun:"1886 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", ic_not_yer:"yer_id bilerek BOŞ — bulunamadı: sınır çizgisi olayı; uç noktalar kaynakta (IBS 121) yok. Ölçüm: denetim/KRONO-YER-0075.json (K2_BOLGESEL)", kisiler:"",
+  gun:"1886 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", yer_kon:[33.1485, 11.5676], ic_not_yer:"yer_kon = Ras Ecdir (Ra's Ajdir) kıyı ucu — GeoNames koordinatı. IBS 121 (1972) s.2-3: 1886 hattı 'from the Mediterranean inland for a limited distance'; 1910 sözleşmesi hattı 'shall start at Ras Adjedir [Ra's Ajdir], on the Mediterranean'. 1886 metninin kendisi okunamadı: Ras Ecdir 1886 ucu olarak KAYNAKTA ADIYLA GEÇMEZ, kamera/işaret noktasıdır (sınırın kıyıdaki tek ucu). Yerleşim noktası AÇILMADI (petek değişmesin). KUTU-VERI-1015 B 0076/H-0082", kisiler:"",
   d:"Tunus'un 1881'de Fransız himayesine girmesinden beş yıl sonra Fransa ile Osmanlı Devleti, Tunus ile Trablusgarp vilayeti arasındaki sınırı Akdeniz kıyısından başlayarak kısa bir mesafe boyunca belirledi. Kaynak yalnız yılı veriyor; hattın koordinatları bilinmiyor.",
   kaynak:"IBS 121 (1972) s.2 ('An agreement in 1886 between France and Turkey delimited a boundary ... for a limited distance')", duygu:["🤝"] },
 
 { t:"1892-01-01", kesinlik:"yil", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'e kadar uzatıldı",
-  gun:"1892 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"", ic_not_yer:"yer_id bilerek BOŞ — bulunamadı: sınır çizgisi olayı; uç noktalar kaynakta (IBS 121) yok. Ölçüm: denetim/KRONO-YER-0075.json (K2_BOLGESEL)", kisiler:"",
+  gun:"1892 (gün kaynakta yok)", yer:"Tunus-Trablusgarp sınırı", yer_id:"Ğadâmis", ic_not_yer:"yer_id = Ğadâmis: IBS 121 (1972) s.2 1892 hattını 'inland as far as Ghudamis' diye tarif eder — iç uç ADIYLA kaynakta. 1892 düzenlemesinin metni/koordinatları BULUNAMADI (IBS yalnız yıl ve uç verir; Martens NRG 3e sér. VII yalnız 1910'u basar) ⇒ 1886-1910 arası için D hattı YAZILMADI; haritadaki D hattı d1910-libya-tunus-osmanli (19 Mayıs 1910). KUTU-VERI-1015 B 0076/H-0087", kisiler:"",
   d:"İkinci bir Fransız-Osmanlı düzenlemesi, Tunus ile Trablusgarp vilayeti arasındaki sınırı öncekinden daha ayrıntılı biçimde ve iç kesimde Gadames'e kadar belirledi. Bugünkü sınırı çizen asıl belge on sekiz yıl sonra imzalanacak Trablus Sözleşmesi'dir.",
   kaynak:"IBS 121 (1972) s.2 ('A second agreement in 1892 delimited the boundary with greater accuracy ... as far as Ghudamis')", duygu:["🤝"] },
 

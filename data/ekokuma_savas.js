@@ -61,7 +61,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"İstanbul yenilgiyi 23 Ekim'de öğrendi; savaşta verilen terfiler geçersiz sayıldı, Uluç Ali'nin adı Kılıç'a çevrilip kaptanıderyâlık ona verildi. Kış boyunca tersanelerde yoğun bir gemi yapımı yürütüldü ve yeni donanma 13 Haziran 1572'de denize açıldı. Zaferin kalıcı bir karşılığı olmadı: Kıbrıs geri alınamadı, Venedik 1573'te yeni bir ahidnâmeyle tazminat ödemeyi kabul etti, Tunus 1574'te fethedildi. Buna karşın savaş, Avrupa'da Türklerin yenilmez olduğu inancını kırdı.",
   tartisma:"İki donanmanın gemi ve asker sayıları kaynaklarda birbirinden oldukça farklı verilir; buradaki rakamlar TDV maddesinin benimsediği yaklaşık değerlerdir.",
   kesinlik:"kesin",
-  olay:["1570-07-23","1571-10-07","1572-06-01","1572-06-13","1573-03-07","1574-08-25"],
+  olay:["1570-07-02","1571-10-07","1572-06-01","1572-06-13","1573-03-07","1574-08-25"],
   kaynak:"TDV: inebahti-deniz-savasi (DİA 22, 2000, s. 287-289)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
@@ -148,11 +148,11 @@ window.EKOKUMA_SAVAS = [
   ],
   oncesi:"Mercidâbık'ta ölen Kansu Gavri'nin yerine Memlük emirleri, onun Kahire'de naip bıraktığı Tomanbay'ı sultan seçti. Tomanbay'ın Gazze'ye yolladığı Canbirdi Gazâlî 21 Aralık 1516'da Sinan Paşa'ya yenilince Selim Kahire üzerine yürümeye karar verdi. Çöl yolunun susuzluğundan çekinenler vardı, fakat yağan yağmurlar geçişi kolaylaştırdı. Mısır'ın bağlılık karşılığında Tomanbay'a bırakılacağını bildiren Osmanlı elçileri öldürüldü. Tomanbay Mukattam dağından Nil'e uzanan bir hendek kazdırmış, topların bir kısmını kuma gömerek sürpriz bir ateş ve ardından süvari hücumu hazırlamıştı.",
   akis:"Bu plan esirlerden, casuslardan ve Memlük hizmetinden gelen Hayır Bey'in adamlarından öğrenildi. Osmanlı ordusu 22 Ocak sabahı hendek hattına doğru ilerledi, ama top menziline girmeden yönünü Mukattam dağına çevirip hattın yanından dolaştı. Toplarını çeviremeyen Memlük askeri siperden çıkıp açık düzlükte savaşmak zorunda kaldı. Osmanlı topçu ve tüfekçilerinin yoğun ateşi Memlük sol kanadını dağıttı; ateşe karşı sürülen develer ürküp geri kaçınca kendi süvarilerini ezdi. Tomanbay ve emirleri bütün güçleriyle padişahın bulunduğu kanada yüklendi; bu hücumda Vezîriâzam Hadım Sinan Paşa ağır yaralanıp öldü. Yedi sekiz saat süren çarpışmanın sonunda Memlük ordusu dağıldı.",
-  sonuc:"Memlükler 4000 dolayında, Osmanlılar biraz daha az kayıp verdi. Tomanbay 27-28 Ocak gecesi 7000 kişiyle Kahire'ye girip üç gün sokak çarpışması yürüttü, sonra şehri terk etmek zorunda kaldı. Selim 15 Şubat'ta Kahire'ye girdi; 13 Nisan 1517'de Tomanbay'ın yakalanıp idam edilmesiyle Mısır'da Osmanlı idaresi yerleşti. TDV, sonucu belirleyen etkenin Memlüklerin topa sahip olmalarına rağmen onu savaş düzeninin bir parçası saymaması olduğunu vurgular.",
+  sonuc:"Memlükler 4000 dolayında, Osmanlılar biraz daha az kayıp verdi. Tomanbay 27-28 Ocak gecesi 7000 kişiyle Kahire'ye girip üç gün sokak çarpışması yürüttü, sonra şehri terk etmek zorunda kaldı. Selim 15 Şubat'ta Kahire'ye girdi; Tomanbay'ın 30 Mart 1517'de sığındığı Terrûce'de ihanete uğrayıp yakalanması ve on dört gün sonra, 13 Nisan'da Kahire'de Bâbüzüveyle'de asılmasıyla Mısır'da Osmanlı idaresi yerleşti. TDV, sonucu belirleyen etkenin Memlüklerin topa sahip olmalarına rağmen onu savaş düzeninin bir parçası saymaması olduğunu vurgular.",
   tartisma:"Bazı kaynaklar tarihi 23 Ocak verir; TDV bunu hicrî takvimdeki bir günlük kaymanın hesaba katılmamasından doğan bir hata sayar. Sinan Paşa'yı yaralayan hücum konusunda iki anlatı vardır: Canbirdi Gazâlî'nin süvari hücumu ya da Tomanbay'ın onu padişah sanıp teke tek çarpışması; TDV ikincisinin doğru olma ihtimalini zayıf bulur.",
   kesinlik:"kesin",
-  olay:["1516-12-21","1517-01-22|Ridaniye","1517-01-27","1517-02-15","1517-04-13"],
-  kaynak:"TDV: ridaniye-savasi (DİA 35, 2008, s. 87-88)",
+  olay:["1516-12-21","1517-01-02|Gazze","1517-01-22|Ridaniye","1517-01-27","1517-02-15","1517-03-30|Tomanbay","1517-04-13"],
+  kaynak:"TDV: ridaniye-savasi (DİA 35, 2008, s. 87-88) · TDV: tomanbay (Terrûce'de yakalanış, 30 Mart ve 13 Nisan 1517)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
 { id:"savas-mercidabik-1516", tur:"savas-hikayesi",
@@ -169,7 +169,7 @@ window.EKOKUMA_SAVAS = [
   sonuc:"Kansu Gavri'nin kaçarken aniden rahatsızlanıp atından düşerek öldüğü anlaşıldı. Tutsakların arasından boyun eğmeyi reddeden emirler de dâhil olmak üzere yaklaşık 2000 Memlük askeri öldürüldü, bir kısmı ise salıverildi. Selim Halep'e girip Abbâsî halifesini iyi karşıladı; Hama, Humus ve Şam birer birer teslim oldu. Savaş Suriye, Lübnan ve Filistin'i Osmanlılara bıraktı, Mısır yolunu açtı ve Memlük Sultanlığı'nın tarihten silinişinin ilk büyük adımı oldu.",
   tartisma:"Bazı araştırmalar yenilgiyi Hayır Bey ile Canbirdi Gazâlî'nin ihanetine bağlar; TDV çağdaş kaynaklara dayanarak bunun doğru olmadığını, ikisinin padişahla temasının savaş bittikten sonra olduğunu yazar. Ordu mevcudu için kaynaklar 120.000'e varan rakamlar verse de 80.000 civarı daha olası kabul edilir.",
   kesinlik:"kesin",
-  olay:["1516-07-30","1516-08","1516-08-28","1516-08-29","1516-09-27"],
+  olay:["1516-07-30","1516-08-24","1516-08-28","1516-08-29","1516-09-27"],
   kaynak:"TDV: mercidabik-muharebesi (DİA 29, 2004, s. 174-176)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 

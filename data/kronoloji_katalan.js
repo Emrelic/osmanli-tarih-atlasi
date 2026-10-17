@@ -24,7 +24,7 @@ window.KRONOLOJI_KATALAN = [
 { t:"1311-03-15", b:"Katalanlar Atina Düklüğü'nü ele geçirdi", tur:"kurulus", onem:5, dunya:2, kapsam:"dis", yer_id:"Livadya",
   etiket:["askeri","kurulus","toprak-kazanc","konu-askeri","konu-siyasi"],
   d:"Halmyros (Kifisos) Savaşı'nda Kumpanya, kendisini ücretini ödemeden dağıtmak isteyen Atina Dukası Brienne'li Gautier V'i ve ağır süvarisini imha etti. Katalanlar dukalığı ele geçirip yetmiş yedi yıl ellerinde tuttular. Bir paralı asker şirketinin işvereninin devletini devralması, Orta Çağ'da eşi az bulunur bir vakadır.",
-  kaynak:"Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · 🔴 `dunya:2` ve başlık `data/kronoloji_bizans.js` ile BİREBİR aynı" },
+  kaynak:"Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · `dunya:2` ve başlık `data/kronoloji_bizans.js` ile BİREBİR aynı" },
 
 { t:"1312-01-01", b:"Sicilya Aragon hanedanının hükümranlığının kabulü", tur:"vassal", onem:5, dunya:1, kapsam:"dis", yer_id:"Atina",
   etiket:["siyaset","vassal","idari","konu-siyasi","konu-idari","konu-hanedan"],
@@ -54,6 +54,6 @@ window.KRONOLOJI_KATALAN = [
 { t:"1388-05-02", b:"Nerio Acciaiuoli'nin Akropolis'i alması — Katalan devrinin sonu", tur:"son", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["son","toprak-kayip","konu-askeri","konu-siyasi"],
   d:"Floransalı Nerio Acciaiuoli uzun bir kuşatmanın ardından Akropolis'i teslim aldı ve Katalanlar'ın Atina'daki yetmiş yedi yıllık hâkimiyeti sona erdi. Neopatras kolu kuzeyde birkaç yıl daha sürdü. Aragon kralları unvanı korudular ama toprakla bağları kesildi.",
-  kaynak:"TDV 'atina' md.: \"1311-1387: Katalanlar hâkimiyeti\" · Setton, Catalan Domination of Athens 1311-1388 · 🔴 `dunya:2` — atina-dukaligi dosyasındaki AYNI olayla BİREBİR aynı değer" },
+  kaynak:"TDV 'atina' md.: \"1311-1387: Katalanlar hâkimiyeti\" · Setton, Catalan Domination of Athens 1311-1388 · `dunya:2` — atina-dukaligi dosyasındaki AYNI olayla BİREBİR aynı değer" },
 
 ];

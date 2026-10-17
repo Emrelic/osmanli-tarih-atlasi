@@ -189,6 +189,8 @@ def _kaynak(d):
     sorusu sorulup "NEYİ okuyor" sorusu sorulmadığı için CANLI = SAĞIR ayırt
     edilemiyordu.
       "origin"   fetch ✓ — uzak tahta (∪ yerel) okunuyor
+      "sunucu"   tahta sunucusundan okunuyor (TAHTA-BEKCI-1010) — origin kadar sağlıklı
+      "git"      sunucu kurulu ama DÜŞTÜ, origin fetch'e düşüldü — not ZORUNLU
       "yerel"    fetch ✗ ya da --kaynak yerel ya da depo yok — not ZORUNLU
       "ESKI"     damgada `kaynak` alanı YOK ⇒ yama ÖNCESİ bekçi; o kod
                  YALNIZ çalışma ağacını okur (kodla sabit, tahmin değil)
@@ -197,7 +199,7 @@ def _kaynak(d):
     if not k:
         return "ESKI", "yama öncesi bekçi — YALNIZ yerel çalışma ağacını okur, bayat olabilir"
     not_ = d.get("kaynak_not") or ""
-    if k != "origin" and not not_:
+    if k not in ("origin", "sunucu") and not not_:
         not_ = "sebep yazılmamış"
     return k, not_
 
@@ -376,7 +378,7 @@ def main(argv):
             not_ = k["surec"]
         elif k["hal"] == "CIKTI":
             not_ = "duzgun cikis (%s) — olum DEGIL" % (not_ or "sebep yazilmamis")
-        if k.get("kaynak") != "origin" and k.get("kaynak_not") and k["hal"] in ("CANLI", "KUSKULU"):
+        if k.get("kaynak") not in ("origin", "sunucu") and k.get("kaynak_not") and k["hal"] in ("CANLI", "KUSKULU"):
             not_ = (not_ + " · " if not_ else "") + "kaynak: " + k["kaynak_not"]
         print("%s%-25s %-11s %-10s %-7s %-7s %s"
               % (ISARET.get(k["hal"], " "), k["ad"], k["hal"],
@@ -417,7 +419,7 @@ def main(argv):
     print("KAYNAK (nöbettekiler): " + (" · ".join(
         "%s %d" % (x, len(kay[x])) for x in sorted(kay)) or "—"))
     for x in sorted(kay):
-        if x == "origin":
+        if x in ("origin", "sunucu"):
             continue
         print("🔴 %s okuyan nöbetçi: %s" % (x.upper(), ", ".join(kay[x])))
         print("   ⇒ Başka makinede yazılan mesajı GÖRMEYEBİLİR (tahta bayat olabilir)."

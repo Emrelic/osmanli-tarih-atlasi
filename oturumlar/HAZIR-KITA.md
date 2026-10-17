@@ -94,6 +94,39 @@ her gereksiz tur, her yoklama token yakar — Emre'nin en büyük şikâyeti bud
 - Kaynak kuralı (CLAUDE.md §4), commit kuralı (adıyla, `git add -- <adlar>` +
   `git commit -F <dosya> -- <aynı adlar>`, dizin pathspec ve `git add -A` YASAK) aynen geçerli.
 
+### 3.1 🆕 🔴 ŞARTNAME MESAJDA DEĞİL, GİT'TE — ve sebebi ÖLÇÜLDÜ
+
+**Görev mesajı TEK SATIR olabilir ve genellikle öyledir:**
+```
+<ADIN>
+oturumlar/PAKET-<tarih>-<makine>.md · §<harf>  —  git'ten oku
+```
+⇒ **Şartnameyi mesajda bekleme.** Uyandığında yapacağın ilk şey:
+```bash
+git -C C:\atlas fetch origin --quiet
+git show origin/main:oturumlar/PAKET-<...>.md     # ortak sınırlar + kendi §
+```
+⚠️ `git show origin/main:` kullan, çalışma ağacını OKUMA — `C:\atlas` bu
+makinede **geride olabilir** (`§1`: ölçülen vaka 44 commit). Taban senin
+sorumluluğun.
+
+🔴 **NİÇİN BÖYLE — 10 Ekim 2026'da ölçüldü:**
+```
+oturumlar arası mesaj kotası   10 mesaj, kullanıcı yazana kadar KAPALI
+ölçülen sonuç                  5 kıtaya "şu kuralı oku" satırı SAATLERCE gitmedi
+                               9 mesaj kuyrukta bekledi, sınır 10
+```
+⇒ Kota **içeriği** taşımak için harcanırsa çabuk tükenir. Git içeriği
+bedava taşır; **kotanın taşıdığı tek şey UYANDIRMAK olmalı.**
+📌 Ayrımı net tut: **git İÇERİĞİ taşır, mesaj UYANDIRIR.** Bir kıta görev
+mesajı gelmeden dosyayı kendiliğinden okumaz — bu yüzden mesaj gerekli ama
+**tek satır yeter**, ve o tek satır kotanın kapasitesini kat kat büyütür.
+🔴 **VE AYNI KURAL KURALLAR İÇİN DE GEÇERLİ:** bir hüküm sana mesajla
+geldiyse ve `CLAUDE.md`/`oturumlar/HUKUM-*.md`de de duruyorsa, **dosya
+otoritedir** — mesaj onun habercisidir. Teslimden önce `fetch` edip ilgili
+bölümü yeniden oku; gece boyunca kural **dört kez** mesaj gelmeden dosyaya
+indi.
+
 ## 4. Teslim — TEK mesaj
 `py arac/tahta.py yaz --kim "<AD>" --kime "YILDIRIM BAYEZIT" --mesaj "TESLIM · ..."` —
 ① ne ölçtüm (sayıyla) ② ne bulamadım ③ ne istiyorum/öneriyorum + değişen dosyalar + commit.

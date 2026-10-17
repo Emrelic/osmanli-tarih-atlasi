@@ -10,10 +10,10 @@
 // =====================================================================
 
 window.YER_YAMA_ING = [
-{ dosya:"kronoloji_ingiltere.js", t:"1284-03-19", b:"Rhuddlan Statüsü — Galler İngiliz hukuk sistemine bağlandı",
+{ dosya:"kronoloji_ingiltere.js", t:"1284-01-01", b:"Rhuddlan Statüsü — Galler İngiliz hukuk sistemine bağlandı",
   eksik_nokta:{ ad:"Rhuddlan", enlem:53.288, boylam:-3.538, kaynak:"standart akademik kaynak — Rhuddlan Statüsü, Rhuddlan Kalesi'nde ilan edildi (Galler, Denbighshire)" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1296-03-30", b:"Berwick'in yağmalanması — İskoçya'yı fetih seferi başladı",
+{ dosya:"kronoloji_ingiltere.js", t:"1296-01-01", b:"Berwick'in yağmalanması — İskoçya'yı fetih seferi başladı",
   eksik_nokta:{ ad:"Berwick-upon-Tweed", enlem:55.7715, boylam:-2.0031, kaynak:"standart akademik kaynak — I. Edward'ın İskoçya seferi Berwick'in yağmalanmasıyla başladı" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1297-09-11", b:"Stirling Köprüsü Savaşı — Wallace İngilizleri yendi",
@@ -28,10 +28,10 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1314-06-24", b:"Bannockburn Savaşı — İskoç zaferi",
   eksik_nokta:{ ad:"Bannockburn", enlem:56.09, boylam:-3.91, kaynak:"standart akademik kaynak — Bannockburn Savaşı meydanı, Stirling yakını" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1328-05-01", b:"Edinburgh-Northampton Antlaşması — İskoç bağımsızlığı tanındı",
+{ dosya:"kronoloji_ingiltere.js", t:"1328-05-04", b:"Edinburgh-Northampton Antlaşması — İskoç bağımsızlığı tanındı",
   yer_id:"Edinburg", kaynak:"standart akademik kaynak — antlaşma önce Edinburgh'da (17 Mart 1328) imzalandı, sonra İngiliz parlamentosunca Northampton'da onaylandı (4 Mayıs 1328); havuzda yalnız Edinburgh nokta olarak var, asıl imza yeri de orasıdır" },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1337-10-01", b:"III. Edward Fransız tahtı üzerinde hak iddia etti — Yüzyıl Savaşları başladı",
+{ dosya:"kronoloji_ingiltere.js", t:"1337-01-01", b:"III. Edward Fransız tahtı üzerinde hak iddia etti — Yüzyıl Savaşları başladı",
   kapsam_genis:true, not:"Yüzyıl Savaşları'nın başlangıcı tek bir imza/olay yerine bağlanamaz — III. Edward'ın hak iddiası bir dizi diplomatik adımın (1337 boyunca) sonucudur, tek nokta yok" },
 
 { dosya:"kronoloji_ingiltere.js", t:"1340-06-24", b:"Sluys Deniz Savaşı — İngiliz donanma üstünlüğü",
@@ -40,10 +40,10 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1346-08-26", b:"Crécy Savaşı — İngiliz uzun yayının zaferi",
   eksik_nokta:{ ad:"Crécy-en-Ponthieu", enlem:50.2591, boylam:1.8859, kaynak:"standart akademik kaynak — Crécy Savaşı meydanı, Picardie, Fransa" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1348-06-01", b:"Kara Ölüm İngiltere'ye ulaştı",
+{ dosya:"kronoloji_ingiltere.js", t:"1348-01-01", b:"Kara Ölüm İngiltere'ye ulaştı",
   eksik_nokta:{ ad:"Melcombe (Weymouth)", enlem:50.6151, boylam:-2.459, kaynak:"standart akademik kaynak — Kara Ölüm İngiltere'ye ilk kez Melcombe (bugünkü Weymouth) limanından girdi, Haziran 1348" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1360-05-08", b:"Brétigny Antlaşması",
+{ dosya:"kronoloji_ingiltere.js", t:"1360-01-01", b:"Brétigny Antlaşması",
   eksik_nokta:{ ad:"Brétigny", enlem:48.43, boylam:1.49, kaynak:"standart akademik kaynak — Brétigny Antlaşması, Chartres yakınındaki Brétigny köyünde görüşüldü; ⚠️ konum hafif belirsiz, birden fazla \"Brétigny\" yerleşimi var Fransa'da, bu Chartres yakınındakidir" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1387-01-01", b:"Chaucer'ın Canterbury Hikâyeleri'ni yazmaya başlaması",
@@ -82,13 +82,13 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1536-01-01", b:"Manastırların kapatılması başladı",
   yer_id:"Londra", kaynak:"standart akademik kaynak — Manastırların Kapatılması, Westminster Parlamentosu'nun çıkardığı yasalarla başladı (1536 İlk Süpresyon Yasası)" },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1536-03-01", b:"Galler Yasası — Galler İngiltere ile idarî olarak birleşti",
+{ dosya:"kronoloji_ingiltere.js", t:"1536-01-01", b:"Galler Yasası — Galler İngiltere ile idarî olarak birleşti",
   yer_id:"Londra", kaynak:"standart akademik kaynak — Galler Yasası (Laws in Wales Act 1535/1542), Westminster Parlamentosu'nda kabul edildi" },
 
 { dosya:"kronoloji_ingiltere.js", t:"1545-07-19", b:"Mary Rose gemisi Portsmouth açıklarında battı",
   eksik_nokta:{ ad:"Portsmouth açıkları", enlem:50.75, boylam:-1.05, kaynak:"madde metninin kendisi — Mary Rose, Portsmouth açıklarında (Solent) battı, 19 Temmuz 1545" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1549-01-21", b:"İlk Ortak Dua Kitabı dayatıldı, Dua Kitabı İsyanı çıktı",
+{ dosya:"kronoloji_ingiltere.js", t:"1549-01-01", b:"İlk Ortak Dua Kitabı dayatıldı, Dua Kitabı İsyanı çıktı",
   yer_id:"Londra", kaynak:"standart akademik kaynak — İlk Ortak Dua Kitabı, Uniformity Yasası ile (21 Ocak 1549 kraliyet onayı) Westminster Parlamentosu'nca dayatıldı; isyanın kendisi Haziran 1549'da Devon/Cornwall'da çıktı ama bu maddenin tarihi yasanın kabulüne denk düşüyor" },
 
 { dosya:"kronoloji_ingiltere.js", t:"1568-05-16", b:"İskoç Kraliçesi Mary İngiltere'ye sığındı",
@@ -100,8 +100,8 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1588-08-08", b:"İspanyol Armadası yenilgiye uğratıldı",
   eksik_nokta:{ ad:"Gravelines", enlem:51.009, boylam:2.098, kaynak:"standart akademik kaynak — İspanyol Armadası'nın belirleyici yenilgisi Gravelines Savaşı'nda (Flandre kıyısı), 8 Ağustos 1588" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1607-05-14", b:"Jamestown kuruldu — ilk kalıcı İngiliz kolonisi",
-  yer_id:"Jamestown", kaynak:"standart akademik kaynak — Jamestown, Virginia, ilk kalıcı İngiliz kolonisi olarak kuruldu, 14 Mayıs 1607" },
+{ dosya:"kronoloji_ingiltere.js", t:"1607-05-13", b:"Jamestown kuruldu — ilk kalıcı İngiliz kolonisi",
+  yer_id:"Jamestown", kaynak:"standart akademik kaynak — Jamestown, Virginia, ilk kalıcı İngiliz kolonisi olarak kuruldu, 13 Mayıs 1607 (Oxford Companion to US History; eski «14 Mayıs» 14 Ekim 2026 TEYIT-KARAR-1014 ile düzeltildi)" },
 
 { dosya:"kronoloji_ingiltere.js", t:"1645-06-14", b:"Naseby Savaşı — Parlamento ordusunun belirleyici zaferi",
   eksik_nokta:{ ad:"Naseby", enlem:52.389, boylam:-0.982, kaynak:"standart akademik kaynak — Naseby Savaşı meydanı, Northamptonshire" } },

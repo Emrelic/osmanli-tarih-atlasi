@@ -1,0 +1,13 @@
+diff --git a/data/devletler.js b/data/devletler.js
+index a9f2144c..5b8d03a9 100644
+--- a/data/devletler.js
++++ b/data/devletler.js
+@@ -1772,7 +1772,7 @@ window.DEVLETLER = [
+   kronoloji:[
+     { t:"1071-08-26", tur:"savas", b:"Malazgirt zaferi Anadolu'nun kapısını açtı" },
+     { t:"1075-01-01", tur:"kurulus", b:"I. Süleyman Şah tarafından kuruldu, İznik başkent oldu" },
+-    { t:"1097-06-19", tur:"toprak-kayip", b:"I. Haçlı Seferi İznik'i aldı, başkent Konya'ya taşındı" },
++    { t:"1097-06-19", tur:"toprak-kayip", b:"I. Haçlı Seferi: İznik Bizans'a teslim edildi, başkent Konya'ya taşındı" },
+     { t:"1176-09-17", tur:"savas", b:"II. Kılıçarslan, Myriokephalon'da Bizans'ı yendi" },
+     { t:"1243-01-01", tur:"savas", b:"Kösedağ'da Moğollara yenildi, İlhanlı tâbiliği başladı" },
+     { t:"1308-01-01", tur:"son", b:"Son Selçuklu sultanının ölümüyle devlet fiilen sona erdi, toprakları beyliklere kaldı" }

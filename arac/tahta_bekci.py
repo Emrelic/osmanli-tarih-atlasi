@@ -127,6 +127,17 @@ zaten (cross-session mesajıyla ya da bir sonraki göreve atanarak)
 uyanır; boşta beklerken 30 dakikada bir "nöbetçi kuruldu, bekliyorum"
 yazıp yeniden Monitor kurmak, tam bu belgenin düzelttiği döngüyü BAŞKA
 BİR KATMANDA yeniden üretir.
+
+────────────────────────────────────────────────────────────────────────
+🟢 SUNUCU KAYNAĞI (TAHTA-BEKCI-1010). `oturumlar/ag.json` (tahtanın yanındaki)
+`jeton` + `tahta_sunucu` taşıyorsa bekçi tahtayı SUNUCUDAN okur (`GET /tahta/oku`,
+ilk tur tam, sonra `son_no` ile yalnız yeniler) — git fetch'e gitmez. ag.json
+YOKSA davranış BİREBİR eskisi (origin ∪ yerel). Sunucu düşerse bekçi ÖLMEZ: o tur
+git koluna düşer, stderr'e ADIYLA yazar, nabız damgasında `kaynak: git` +
+`kaynak_not: sunucu düştü (N tur): …` + `sunucu_ard: N`; her tur sunucu yeniden denenir.
+    --kaynak sunucu|origin|yerel   açıkça seç (ag.json varken `origin` = eski git kolu)
+    --sunucu-ara SN                iki sunucu sorgusu arası en az süre (varsayılan 0 =
+                                   her tur; tur sıklığını `--ara` belirler, varsayılan 60)
 """
 import io
 import json
@@ -345,6 +356,10 @@ def _nabiz_yaz(kim, durum, tur_no=0, ara=0, benler=None, sebep=""):
                   "fetch_hata": _kd.get("fetch_hata") or "", "fetch_ms": _kd.get("fetch_ms"),
                   "fetch_son_basari": _kd.get("fetch_son_basari"),
                   "yerel_ek": _kd.get("yerel_ek")}
+        if "sunucu" in _kd:           # yalnız sunucu kolu kuruluysa (TAHTA-BEKCI-1010)
+            kaynak.update({k: _kd.get(k) for k in (
+                "sunucu", "sunucu_ok", "sunucu_hata", "sunucu_ms", "sunucu_ard",
+                "sunucu_son_basari")})
     else:
         kaynak = {"kaynak": "yerel", "kaynak_not": "okuyucu kurulmadı (yalnız çalışma ağacı)"}
     try:
@@ -439,10 +454,19 @@ def main(argv):
     #                    gerekçe: denetim/UMIT-TAHTA-ORIGIN-OKU-1006.md
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import tahta_kaynak
-    _mod = argv[argv.index("--kaynak") + 1] if "--kaynak" in argv else "origin"
-    if _mod not in ("origin", "yerel"):
-        _diag("--kaynak yalnız 'origin' ya da 'yerel' olabilir")
+    _mod = argv[argv.index("--kaynak") + 1] if "--kaynak" in argv else None
+    if _mod not in (None, "sunucu", "origin", "yerel"):
+        _diag("--kaynak yalnız 'sunucu', 'origin' ya da 'yerel' olabilir")
         return 2
+    # 🔴 SUNUCU (TAHTA-BEKCI-1010): ag.json YOKSA tek satır basılmaz — eski davranış.
+    _ag = os.path.join(os.path.dirname(os.path.abspath(TAHTA)), "ag.json")
+    _sunucu = None
+    if _mod in (None, "sunucu"):
+        _sunucu = tahta_kaynak.ag_ayar(_ag)
+        if _sunucu is None and (_mod == "sunucu" or os.path.exists(_ag)):
+            _diag("[BEKCI-KAYNAK] ⚠️ sunucu yok (%s'da `jeton`/`tahta_sunucu` yok ya da "
+                  "okunamadı) — git kolu (origin)" % _ag)
+    _mod = "yerel" if _mod == "yerel" else "origin"
     _OKUYUCU[:] = [tahta_kaynak.Okuyucu(
         TAHTA,
         uzak=argv[argv.index("--uzak") + 1] if "--uzak" in argv else "origin",
@@ -450,7 +474,9 @@ def main(argv):
         ref=tahta_kaynak.ref_adi(kim),
         fetch_ara=(float(argv[argv.index("--fetch-ara") + 1])
                    if "--fetch-ara" in argv else 60.0),
-        mod=_mod, bildir=_diag)]
+        mod=_mod, bildir=_diag, sunucu=_sunucu,
+        sunucu_ara=(float(argv[argv.index("--sunucu-ara") + 1])
+                    if "--sunucu-ara" in argv else 0.0))]
     anahtar = tahta_kaynak.anahtar
 
     if "--defter-yok" not in argv:
@@ -498,6 +524,9 @@ def main(argv):
              (" · toplu:%.0f sn" % toplu) if toplu > 0 else "",
              (_kd0.get("kaynak") or "?").upper(),
              (" (%s)" % _kd0["kaynak_not"]) if _kd0.get("kaynak_not") else
+             (" %s · %s ms · yerel_ek %s" % (_kd0.get("sunucu"), _kd0.get("sunucu_ms"),
+                                              _kd0.get("yerel_ek")))
+             if _kd0.get("kaynak") == "sunucu" else
              (" %s · fetch %s ms · yerel_ek %s" % (_kd0.get("uzak"), _kd0.get("fetch_ms"),
                                                     _kd0.get("yerel_ek")))))
     n = 0
@@ -620,7 +649,11 @@ def main(argv):
         if yeni and _OKUYUCU:
             _yk = {anahtar(x) for x in (_OKUYUCU[0]._yerel_liste or [])}
             _yok = [m.get("no") for m in yeni if anahtar(m) not in _yk]
-            if _yok:
+            if _yok and _OKUYUCU[0].durum.get("kaynak") == "sunucu":
+                _diag("[BEKCI-KAYNAK] %s YEREL ağaçta YOK (sunucudan görüldü). Okumak için: "
+                      "py arac/tahta.py oku --kim \"%s\"   (ag.json varken sunucudan okur)"
+                      % (", ".join(str(x) for x in _yok), kim))
+            elif _yok:
                 _diag("[BEKCI-KAYNAK] %s YEREL ağaçta YOK (origin'den görüldü). Okumak için: "
                       "py arac/tahta.py oku --kim \"%s\" --kaynak origin"
                       % (", ".join(str(x) for x in _yok), kim))

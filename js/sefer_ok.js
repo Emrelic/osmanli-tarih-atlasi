@@ -150,8 +150,14 @@
       if (g < m.fi - ESLESME_GUN || g > m.ti + ESLESME_GUN) continue;
       // Mesafe GÜZERGÂHIN TAMAMINA: okun ucu seferin en ileri noktasıdır,
       // maddenin anlattığı yer güzergâhın ortasında olabilir.
+      // 🔴 KUTU-D-1014 (0088/H-0021, Emre: "Bâkî'nin mersiyesi maddesinde
+      // İstanbul'dan Zigetvar'a sefer oku var"). Mersiye İstanbul'da, Zigetvar
+      // seferinin İLK noktası İstanbul ⇒ 0 km, ok seçiliyordu. Çıkış üssü
+      // (yol[0]) yalnız seferin BAŞLADIĞI günlerde (fi ± ESLESME_GUN) eşleşmeye
+      // sayılır; sefer sürerken başkentteki her madde okun "kendi maddesi" değildir.
+      var j0 = (g <= m.fi + ESLESME_GUN) ? 0 : 1;
       var enYakin = Infinity;
-      for (var j = 0; j < m.yol.length; j++) {
+      for (var j = j0; j < m.yol.length; j++) {
         var d = kmArasi(kon.lat, kon.lon, m.yol[j][1], m.yol[j][0]);
         if (d < enYakin) enYakin = d;
       }

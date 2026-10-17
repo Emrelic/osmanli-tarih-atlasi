@@ -7,6 +7,13 @@
   --panel-koyu: #efe5cf;
   --altin: #b8860b;
   --metin: #2b2313;
+  /* Muharebe işareti ad rengi (sonuç/tür) — ETIKET-1016: zemin değil yazı rengi */
+  --sv-zafer: #1b5e20;
+  --sv-yenilgi: #8c0f26;
+  --sv-belirsiz: #455a64;
+  --sv-isyan: #bf360c;
+  --sv-deniz: #0d47a1;
+  --sv-hale: #fff;
 }
 
 /* 🔴 SAĞ TIK → KOPYALA menüsü — Emre, 24 Ağustos 2026: *"kronoloji
@@ -106,6 +113,19 @@
 #ob-kaynakca ul { margin: 4px 0 2px; padding-left: 18px; }
 #ob-kaynakca li { margin: 2px 0; overflow-wrap: anywhere; }
 #ob-kaynakca .kc-yok { font-style: italic; opacity: .8; }
+/* KAYNAK-ARAYUZ-1014 — damga rozeti (madde) ve kademe etiketi (kaynak parçası) */
+#ob-kaynakca .kc-damga { font-weight: 600; }
+#ob-kaynakca .kc-damga-guvenli { color: #2e7d32; }
+#ob-kaynakca .kc-damga-ikincil { color: #1565c0; }
+#ob-kaynakca .kc-damga-taninmayan, #ob-kaynakca .kc-damga-bos { color: #6d6d6d; }
+#ob-kaynakca .kc-damga-bulunamadi { color: #424242; }
+#ob-kaynakca .kc-damga-guvensiz { color: #c62828; }
+#ob-kaynakca .kc-kademe { display: inline-block; font-size: 10px; line-height: 1.4; padding: 0 4px;
+  border-radius: 3px; border: 1px solid currentColor; vertical-align: 1px; white-space: nowrap; }
+#ob-kaynakca .kc-a { color: #2e7d32; }
+#ob-kaynakca .kc-b { color: #1565c0; }
+#ob-kaynakca .kc-k, #ob-kaynakca .kc-n, #ob-kaynakca .kc-yok-sinif { color: #6d6d6d; }
+#ob-kaynakca .kc-c { color: #c62828; }
 /* ARAYUZ-0077-B · H-79:16 — devlet seçicide "↺ Yalnız Osmanlı" sıfırlama satırı */
 .devlet-secici-satir.dss-sifirla { font-style: italic; border-bottom: 1px solid var(--altin); }
 /* Emre 27 Eyl: "ek devlet ilan edemiyorum" — rol artık görünür düğmeden */
@@ -547,6 +567,17 @@ body {
   display: flex; flex-direction: column;
 }
 #harita { flex: 1 1 auto; min-width: 0; position: relative; }
+/* ZAMAN-GENİŞ-1008 — VERI_UFKU dışı günlerde harita üstü şerit (js/app.js
+   `kapsamSeridiGuncelle`). Tıklamayı haritaya geçirir (pointer-events yok). */
+#kapsam-disi-serit {
+  position: absolute; top: 8px; left: 50%; transform: translateX(-50%);
+  z-index: 5; max-width: calc(100% - 120px); padding: 4px 10px;
+  background: rgba(42, 10, 16, .85); color: #f3e6c8; border: 1px solid var(--altin);
+  border-radius: 5px; font-size: 12px; text-align: center; pointer-events: none;
+}
+#kapsam-disi-serit.gizli { display: none; }
+/* ZAMAN-GENİŞ-1008 — ufuk dışı kronoloji maddesi (js/app.js `ufukDisiIsaretle`). */
+.olay.ufuk-disi { opacity: .6; border-left-style: dashed; }
 
 /* 🔴 EMRE, 19 Ağustos 2026: *"sağdaki ... sağ alt bölüm genişliği şimdiki
    genişlik ve dar gösterim olarak İKİ KADEME olsun ve dar gösterim şimdiki
@@ -927,6 +958,17 @@ body {
    (`overflow: visible`). Sayı bir taban değil, ikinci bir tavan hâline
    gelirdi. `min-height: 0` ⇒ bölüşmeyi yalnız %50 belirliyor. */
 #olay-listesi { flex: 1 1 auto; overflow-y: auto; padding: 5px; min-height: 0; }
+/* 🆕 14 Ekim 2026 — KARARLAR-1014 #43 (0081/H-0044 B): "🌍 Dünyada" satırı —
+   Osmanlı görünümünde listenin üstünde, son 365 günün dünya puanı 5 olayları
+   (app.js odakKur → dunyadaGuncelle). Veri kopyalanmaz, devlet maddesine bağlanır. */
+.dunyada-satir {
+  flex: 0 0 auto; padding: 4px 8px; margin: 3px 5px 0; font-size: 11.5px; line-height: 1.35;
+  background: #eef4f8; border-left: 4px solid #2f6f8f; color: #1f3f52;
+}
+.dunyada-satir.gizli { display: none; }
+.dunyada-satir b { margin-right: 6px; white-space: nowrap; }
+.dunyada-satir .dunyada-madde { display: block; cursor: pointer; }
+.dunyada-satir .dunyada-madde:hover { text-decoration: underline; }
 
 .olay {
   padding: 4px 7px;
@@ -1045,6 +1087,15 @@ body {
    üyesi ve ayrı bir renk açmak paleti bölmekten başka bir şey söylemezdi
    (aynı desen: `ayaklanma`=`isyan`, `antlasma`=`diplomasi`=`ittifak`). */
 .olay.k-mimari   { border-left-color: #ad1457; }
+/* 🆕 13 Ekim 2026 — TERİM STANDARDI (TERIM-STANDART-0070, seçenek A, Emre onayı).
+   Üç sınıf, tek soru: toprağın EGEMENİ mi değişti, yalnız DENETLEYENİ mi?
+   `k-fetih` (yeşil) = egemenlik devri · `k-isgal` (turuncu-kiremit) = fiilî
+   denetim, egemenlik devri YOK · `k-sefer` (koyu yeşil) = ordunun hareketi.
+   `k:"isgal"` veride vardı ama CSS karşılığı yoktu (nötr bej kenara düşüyordu);
+   "işgal" başlıklı maddeler de toprak kaybı grisiyle (`k-kayip`) çiziliyordu —
+   iki ayrı olay tipi aynı renkteydi. Süre ölçüt DEĞİL (işgal pencerelerinin
+   medyanı 8,9 yıl): ayrım egemenliktedir. */
+.olay.k-isgal    { border-left-color: #d84315; }
 /* ⚠️ `diger` (45) BİLEREK renksiz: gerçek bir kategori değil, karışık torba
    (Millî Mücadele · Germiyan çeyizi · şehzade kaçırılması aynı kovada).
    Nötr kenar onun için DOĞRU gösterim — eksik değil, kasıt. */
@@ -1078,7 +1129,24 @@ body {
   font-size: 12px;
   max-width: 130px;
 }
-#zaman { flex: 1 1 auto; accent-color: var(--osmanli-kirmizi); height: 5px; min-width: 90px; }
+/* ZAMAN-GENİŞ-1008 — esneklik `#zaman`dan sarmala geçti (çubuk + çağ ekseni). */
+#zaman-sarmal { flex: 1 1 auto; min-width: 90px; display: flex; flex-direction: column; }
+#zaman { width: 100%; margin: 0; accent-color: var(--osmanli-kirmizi); height: 5px; }
+/* Çağ ekseni — ana çubuk ve yerleşim çubuğu ortak (js/app.js `zamanEksenDoldur`).
+   Yazılar `left:%` ile ölçekteki GERÇEK konumda; ilk/son kenara yaslanır. */
+.zaman-eksen { position: relative; display: block; height: 12px; }
+.zaman-eksen span {
+  position: absolute; top: 0; transform: translateX(-50%);
+  font-size: 9px; line-height: 12px; white-space: nowrap;
+}
+.zaman-eksen span.ilk { transform: none; }
+.zaman-eksen span.son { transform: translateX(-100%); }
+.zaman-eksen span.cag-siniri { font-weight: bold; }
+.zaman-eksen span.cag-siniri::before {         /* ölçeğin kırıldığı yer */
+  content: ""; position: absolute; left: 50%; top: -4px; height: 4px;
+  border-left: 1px solid currentColor;
+}
+#zaman-eksen { color: #e9d7a6; margin-top: 2px; }
 /* 11 Eylül 2026 — "Tarihe git" girişi. `#zamanbar button`/`input` genel
    kuralları zaten var; burada yalnız METİN GİRİŞİNİN kendine özgü genişliği
    gerekiyor. 14 Eylül 2026 — "📅 Git" butonu kaldırıldı, kuralı da silindi;
@@ -1170,7 +1238,7 @@ body {
   #tarihe-git-giris { flex: 1 1 120px; width: auto; min-width: 0; }
   #yer-ara { flex: 1 1 120px; min-width: 0; position: static; }
   #yer-ara-giris { width: 100%; }
-  #zaman { flex: 1 1 100%; }
+  #zaman-sarmal { flex: 1 1 100%; }
   #yer-ara-liste { left: 8px; right: 8px; width: auto; max-width: none; max-height: 40vh; }
 }
 #yer-ara-liste .ya-bas { padding: 4px 9px; font-size: 11px; color: #6b5a33; border-bottom: 1px solid #e4d6b0; }
@@ -1536,18 +1604,27 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   line-height: 1;
   filter: drop-shadow(0 0 3px #fff);
 }
+/* 🆕 ETIKET-1016 (Emre, 16 Ekim 2026, not #13: "Kulacahisar baskını gibi
+   kocaman fontlu yazılar haritayı kapatıyor"). Eskiden 10,5 px kalın BEYAZ
+   yazı + %85 opak renkli ZEMİN (padding 1px 5px) — ~110×16 px'lik kutu
+   altındaki sınırı ve şehir adını örtüyordu. Artık zemin YOK: sonuç renginde
+   ince yazı + beyaz hale (`.sefer-ad` ile aynı dil). Odaktaki olay `sv-odak`
+   (app.js savasGuncelle) ile biraz daha büyük/kalın kalır. */
 .savas-isaret .sv-ad {
-  font-size: 10.5px;
-  font-weight: bold;
+  font: 600 10px/1.2 system-ui, sans-serif;
   white-space: nowrap;
-  padding: 1px 5px;
-  border-radius: 4px;
-  color: #fff;
+  color: var(--sv-belirsiz);
+  text-shadow: 0 0 3px var(--sv-hale), 0 0 2px var(--sv-hale), 0 1px 2px var(--sv-hale);
   margin-top: 1px;
 }
-.savas-isaret.zafer   .sv-ad { background: rgba(27, 94, 32, 0.85); }
-.savas-isaret.yenilgi .sv-ad { background: rgba(140, 15, 38, 0.85); }
-.savas-isaret.belirsiz .sv-ad { background: rgba(69, 90, 100, 0.85); }
+.savas-isaret.zafer   .sv-ad { color: var(--sv-zafer); }
+.savas-isaret.yenilgi .sv-ad { color: var(--sv-yenilgi); }
+.savas-isaret.belirsiz .sv-ad { color: var(--sv-belirsiz); }
+.savas-isaret.sv-odak .sv-ad {
+  font-size: 11.5px;
+  font-weight: 700;
+  text-shadow: 0 0 3px var(--sv-hale), 0 0 3px var(--sv-hale), 0 0 2px var(--sv-hale), 0 1px 2px var(--sv-hale);
+}
 
 /* ---------- Olay türü simgeleri (kullanıcı isteği) ----------
    meydan ⚔ · kuşatma ◎ (şehrin üstünde çember) · iç isyan 🔥 · deniz ⚓
@@ -1575,11 +1652,11 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   from { transform: scale(1)    rotate(-5deg); }
   to   { transform: scale(1.15) rotate(5deg);  }
 }
-.savas-isaret.tur-isyan .sv-ad { background: rgba(191, 54, 12, 0.88); }
+.savas-isaret.tur-isyan .sv-ad { color: var(--sv-isyan); }
 
 /* Deniz muharebesi */
 .savas-isaret.tur-deniz .sv-ikon { font-size: 16px; color: #0d47a1; }
-.savas-isaret.tur-deniz .sv-ad   { background: rgba(13, 71, 161, 0.85); }
+.savas-isaret.tur-deniz .sv-ad   { color: var(--sv-deniz); }
 
 /* Başarısızlık: simgenin üzerine çapraz kırmızı çarpı */
 .savas-isaret.basarisiz .sv-ikon::after {
@@ -1710,6 +1787,7 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 .ob-kat.k-sefer   { background: #33691e; }
 .ob-kat.k-vassal  { background: #7986cb; }
 .ob-kat.k-evlilik { background: #ec407a; }
+.ob-kat.k-isgal   { background: #d84315; }   /* terim standardı: fiilî denetim, egemenlik devri yok */
 /* ARAYÜZ 4 ④ — "yer_id/yer_kon ikisi de yoksa kart SESSİZCE ATLAMAZ."
    Boşken hiç yer kaplamaz (`:empty`), doluyken belirgin bir uyarı satırı. */
 #ob-yer-yok {
@@ -2719,6 +2797,49 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
   .odak-parlama { animation: none; opacity: 0.95; }
 }
 
+/* 🆕 KUTU-D-1014 — İTTİFAK ROZETİ (0023/H-0003). Emre: "fosforlu yeşil, parlak
+   turuncu gibi vurgulu bir renk … bir seferlik". Kalkan biçimli rozet + ✠,
+   `ittifakParla` ile N kez parlar (süre/adet app.js ITTIFAK_SAHNE'den CSS
+   değişkeniyle gelir — sayı tek yerde), sonra `.sonuyor` ile söner. */
+.ittifak-rozet {
+  display: flex; flex-direction: column; align-items: center;
+  pointer-events: auto; cursor: default;
+  animation: ittifakParla var(--ittifak-sure, 900ms) ease-in-out var(--ittifak-adet, 3);
+  transition: opacity 0.6s ease;
+}
+.ittifak-rozet-glif {
+  display: flex; align-items: center; justify-content: center;
+  width: 30px; height: 34px;
+  clip-path: polygon(50% 100%, 0 68%, 0 0, 100% 0, 100% 68%);
+  background: #ff7a00; color: #fffbe6;
+  font-size: 19px; font-weight: 700; line-height: 1;
+  box-shadow: 0 0 0 2px #ffd400 inset;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.55);
+}
+.ittifak-rozet.hami .ittifak-rozet-glif { background: #c9a227; }
+.ittifak-rozet-ad {
+  margin-top: 2px; padding: 0 4px; border-radius: 3px;
+  background: rgba(255, 122, 0, 0.92); color: #fff;
+  font-size: 11px; font-weight: 600; white-space: nowrap;
+}
+.ittifak-rozet.sonuyor { opacity: 0; }
+@keyframes ittifakParla {
+  0%   { transform: scale(0.85); filter: drop-shadow(0 0 0 rgba(255, 122, 0, 0)); }
+  45%  { transform: scale(1.25); filter: drop-shadow(0 0 10px rgba(255, 140, 0, 0.95)); }
+  100% { transform: scale(1);    filter: drop-shadow(0 0 2px rgba(255, 122, 0, 0.5)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ittifak-rozet { animation: none; }
+}
+/* KUTU-D-1014 — D yaslaması sürerken (ölçüldü: 1923-09-01'de 47 sn) ham gövdenin
+   geçici olduğunu söyleyen köşe göstergesi (js/d_katman.js _dYaslaGosterge). */
+.d-yasla-gosterge {
+  position: absolute; left: 10px; bottom: 64px; z-index: 5;
+  padding: 3px 9px; border-radius: 12px;
+  background: rgba(40, 20, 10, 0.78); color: #ffe9b0;
+  font-size: 12px; pointer-events: auto;
+}
+
 /* 🔴 21 Ağustos — Emre: "devletsiz şehirlerin isimlerini de … yazalım."
    `.bosluk-kutu`, `.sehir`in flex desenini BİREBİR izliyor (nokta solda,
    ad sağında) — haritadaki her yerleşim etiketi tek bir görsel dilde
@@ -2903,20 +3024,45 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 
    İşaretin KENDİSİ kaldırılmıyor — o an anlatılan olayın yeri o. Uzaklaşınca
    yalnız ad etiketi çekiliyor; ikon kalıyor ki olay kaybolmasın. */
-#harita.uzak .savas-isaret .sv-ad {
+/* 🆕 ETIKET-1016: muharebe adının küçülme eşiği şehir adlarından AYRILDI —
+   `sv-uzak` (app.js zoomSinifi, 4,0 ≤ z < 6,5). `#harita.uzak` (z < 5,2)
+   şehir puntosu için kalır; Emre'nin Kulacahisar kamerası z ≈ 5,7'deydi ve
+   eski eşikte tam boy çıkıyordu. Odaktaki olay (`sv-odak`) HİÇBİR ölçekte
+   kısaltılmaz/gizlenmez — ekranın konusu odur. */
+#harita.sv-uzak .savas-isaret .sv-ad {
   font-size: 9px;
-  padding: 0 3px;
   max-width: 90px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 #harita.cok-uzak .savas-isaret .sv-ad { display: none; }
+#harita.sv-uzak .savas-isaret.sv-odak .sv-ad,
+#harita.cok-uzak .savas-isaret.sv-odak .sv-ad {
+  display: block;
+  font-size: 10.5px;
+  max-width: none;
+  overflow: visible;
+}
 #harita.cok-uzak .savas-isaret .sv-ikon { transform: scale(0.72); }
 /* 13 Eylül 2026 — 0042/H-0023·24·26: şehir etiketiyle çarpışan işaret artık
    SİLİNMİYOR, küçük simgeye iniyor (app.js savasGuncelle `sv-sade`). */
 .savas-isaret.sv-sade .sv-ad { display: none; }
 .savas-isaret.sv-sade .sv-ikon { transform: scale(0.72); opacity: 0.9; }
+/* 🆕 14 Ekim 2026 — KARARLAR-1014 #33 (0064/H-0015): odaktaki olay simgesiyle
+   kesişen şehrin adı ve ediniliş simgesi o kare için gizlenir; nokta kalır
+   (app.js savasGuncelle `ad-olaya-yer`). */
+.sehir.ad-olaya-yer .s-ad,
+.sehir.ad-olaya-yer .s-yontem,
+.sehir.ad-olaya-yer .s-fetih { display: none !important; }
+/* 🆕 14 Ekim 2026 — KARARLAR-1014 #36 (0083/H-0003 b): Kafkas ana sırtı not
+   katmanı (app.js SIRT_NOTLARI). Motoru etkilemez; yalnız yakın zoomda görünür. */
+.sirt-not {
+  font: italic 11px Georgia, serif; color: rgba(60, 50, 40, 0.62);
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.9); white-space: nowrap;
+  pointer-events: auto; cursor: help; letter-spacing: 0.2px;
+}
+#harita.uzak .sirt-not, #harita.cok-uzak .sirt-not { display: none; }
 
 /* 🆕 13 Eylül 2026 — paket 0046 H-0006. Ayrı bir keyframe İCAT EDİLMEDİ:
    `odakParla` (yukarıda, .odak-parlama ile paylaşılan) aynı büyüyüp-sönme
@@ -3030,10 +3176,7 @@ body.katman-yerlesim-kapali .maplibregl-marker { display: none !important; }
   background-image: repeating-linear-gradient(45deg,
       rgba(255,255,255,.35) 0 3px, transparent 3px 6px);
 }
-.yer-cubuk-eksen {
-  display: flex; justify-content: space-between;
-  font-size: 10px; color: #9a9a9a; margin-top: 2px;
-}
+.yer-cubuk-eksen { color: #9a9a9a; margin-top: 2px; }   /* düzen: .zaman-eksen */
 .yer-cubuk-sarmal[data-mesafe]::after {
   content: attr(data-mesafe);
   display: block; font-size: 10px; color: #c8861a; margin-top: 3px;
@@ -3145,7 +3288,7 @@ body.katman-yerlesim-kapali .maplibregl-marker { display: none !important; }
    kendi 1600 zirvesi) — aşağıdaki SILUETLER bloğu o betiğin çıktısıdır.
    ═══════════════════════════════════════════════════════════════════════ */
 html::before {
-  content: "Atlas yükleniyor…\A 1281’den 1923’e, gün gün değişen sınırlar hazırlanıyor — lütfen bekleyin";
+  content: "Atlas yükleniyor…\A Gün gün değişen sınırlar hazırlanıyor — lütfen bekleyin";
   white-space: pre-line;
   position: fixed; inset: 0; z-index: 9000;
   display: flex; align-items: flex-end; justify-content: center;
@@ -3443,3 +3586,115 @@ html.atlas-hazir #acilis { opacity: 0; transition: opacity .3s; }
 }
 #arama-onizleme.bos { color: #a33; font-weight: 600; }
 #arama-dugmeler { display: flex; justify-content: flex-end; }
+
+/* ==========================================================================
+   GELİŞTİRİCİ NOTLARI (js/gelistirici.js) — kip yalnız deponun sahibinin
+   token'ıyla açılır; `body.gelistirici` yoksa bu bölümün hiçbir parçası görünmez.
+   ========================================================================== */
+body:not(.gelistirici) .yalniz-gelistirici { display: none !important; }
+#zaman-sarmal { position: relative; }
+#gn-arac {
+  position: absolute; left: 10px; bottom: 34px; z-index: 30;
+  display: flex; gap: 3px; align-items: center; padding: 4px 6px;
+  background: rgba(20, 24, 20, .88); border: 1px solid #39ff14; border-radius: 6px;
+  box-shadow: 0 0 8px rgba(57, 255, 20, .35);
+}
+#gn-arac .gn-arac-bas { color: #39ff14; font-size: 14px; padding: 0 3px; }
+#gn-arac button {
+  min-width: 28px; height: 26px; padding: 0 6px; cursor: pointer; font-size: 14px;
+  background: #222; color: #e8ffe0; border: 1px solid #3c5a35; border-radius: 4px;
+}
+#gn-arac button:hover { border-color: #39ff14; }
+#gn-arac button.etkin { background: #39ff14; color: #111; border-color: #39ff14; }
+#gn-sayi { margin-left: 3px; font-size: 11px; color: #39ff14; }
+#gn-arac button.etkin #gn-sayi { color: #111; }
+/* ⏳ bekleyen · ✉ okunmamış sayaçları: sıfırdan büyükse göze batar */
+#gn-bekleyen, #gn-okunmamis { margin-left: 3px; font: 700 11px/14px sans-serif; color: #111;
+  background: #ff851b; border-radius: 7px; padding: 0 5px; }
+#gn-okunmamis { background: #ff4136; color: #fff; }
+#gn-arac button.gn-sifir #gn-bekleyen, #gn-arac button.gn-sifir #gn-okunmamis { background: transparent; color: #888; font-weight: 400; }
+.gn-yeni { font-weight: 600; }
+.gn-yeni-cip { color: #ff4136; }
+.gn-filtre-kaldir { margin: 4px 0; font-size: 11px; }
+.gn-postit {
+  width: 14px; height: 14px; border-radius: 2px; cursor: pointer;
+  background: #39ff14; border: 1px solid #0b3d02;
+  box-shadow: 0 0 6px 2px rgba(57, 255, 20, .75);
+}
+.gn-postit:hover { transform: scale(1.35); }
+#gn-oge-katman { position: fixed; left: 0; top: 0; width: 0; height: 0; z-index: 3990; }
+.gn-oge-postit { position: fixed; width: 12px; height: 12px; }
+.gn-madde-postit {
+  display: inline-block; margin-left: 5px; padding: 0 3px; border-radius: 2px;
+  font-size: 11px; line-height: 15px; cursor: pointer; vertical-align: middle;
+  box-shadow: 0 0 4px rgba(57, 255, 20, .8);
+}
+#gn-zaman { position: absolute; left: 0; right: 0; top: -7px; height: 6px; pointer-events: none; }
+.gn-zaman-nokta {
+  position: absolute; top: 0; width: 6px; height: 6px; margin-left: -3px; border-radius: 50%;
+  pointer-events: auto; cursor: pointer; box-shadow: 0 0 3px rgba(57, 255, 20, .9);
+}
+.gn-zaman-nokta:hover { transform: scale(1.8); }
+body.gn-oge-kipi * { cursor: crosshair !important; }
+.gn-oge-vurgu { outline: 2px dashed #39ff14 !important; outline-offset: 1px; }
+#gn-form, #gn-panel, #gn-liste {
+  position: fixed; z-index: 4000; background: #fdfbf4; color: #222;
+  border: 2px solid #39ff14; border-radius: 8px; box-shadow: 0 6px 24px rgba(0, 0, 0, .35);
+  font-size: 13px; padding: 12px 14px; box-sizing: border-box;
+}
+#gn-form { left: 50%; top: 18%; transform: translateX(-50%); width: min(460px, calc(100vw - 32px)); }
+#gn-panel { right: 16px; top: 70px; width: min(380px, calc(100vw - 32px)); max-height: calc(100vh - 100px); overflow-y: auto; }
+#gn-liste { left: 16px; top: 70px; width: min(420px, calc(100vw - 32px)); max-height: calc(100vh - 100px); overflow-y: auto; }
+#gn-form textarea, #gn-form input, #gn-panel textarea {
+  width: 100%; box-sizing: border-box; margin: 6px 0; font: inherit; padding: 6px;
+  border: 1px solid #b9b39c; border-radius: 4px;
+}
+.gn-form-bas, .gn-panel-bas { font-weight: 700; margin-bottom: 4px; }
+.gn-form-hedef { color: #555; margin-bottom: 4px; }
+.gn-form-satir { display: block; margin: 4px 0; }
+.gn-form-dugmeler { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; margin-top: 6px; }
+.gn-form-dugmeler button, .gn-madde-dugme {
+  padding: 4px 10px; border-radius: 4px; border: 1px solid #888; background: #fff; cursor: pointer;
+}
+.gn-form-dugmeler button.gn-ana { background: #1d7a0c; color: #fff; border-color: #1d7a0c; }
+.gn-form-dugmeler button.gn-tehlike { border-color: #a33; color: #a33; }
+.gn-madde-dugme { border-color: #2bd10f; margin-top: 4px; }
+.gn-kapat { float: right; border: 0; background: none; font-size: 16px; cursor: pointer; }
+.gn-durum { display: inline-block; padding: 0 6px; border-radius: 3px; font-size: 11px; color: #111; }
+/* Post-it kuyruğu: son yazan (sıra kimde) · notu alan oturum */
+.gn-son, .gn-oturum { display: inline-block; padding: 0 6px; border-radius: 3px; font-size: 11px; white-space: nowrap; margin-left: 4px; }
+.gn-son-claude { background: #dbe9ff; color: #0b3d91; }
+.gn-son-emre { background: #fff1c2; color: #6b4e00; }
+.gn-son-yok { background: #eee; color: #555; }
+.gn-oturum { background: #333; color: #fff; }
+.gn-opus { background: #6f42c1; }
+.gn-panel-tarih { color: #666; font-size: 12px; margin-bottom: 6px; }
+.gn-metin { white-space: pre-wrap; padding: 6px 8px; border-radius: 4px; margin: 6px 0; }
+.gn-emre { background: #fffbd1; border-left: 3px solid #e1c600; }
+.gn-claude { background: #e9f3ff; border-left: 3px solid #3a7bd5; }
+.gn-yazan { font-size: 11px; color: #666; margin-bottom: 2px; }
+.gn-baglam { white-space: pre-wrap; font-size: 12px; color: #444; }
+.gn-liste-satir { display: flex; gap: 6px; align-items: baseline; padding: 5px 2px; border-bottom: 1px solid #eee; cursor: pointer; }
+.gn-liste-satir:hover { background: #f1fbe9; }
+.gn-liste-tarih { color: #666; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.gn-bos { color: #777; font-style: italic; }
+#gn-bildirim {
+  position: fixed; left: 50%; bottom: 70px; transform: translateX(-50%); z-index: 4100;
+  background: #142014; color: #c9ffbd; border: 1px solid #39ff14; border-radius: 5px;
+  padding: 6px 12px; font-size: 13px; display: none; max-width: calc(100vw - 32px);
+}
+#gn-bildirim.hata { background: #3a1010; color: #ffd0d0; border-color: #ff5050; }
+/* Çok bölgeli not (GELISTIRICI-COKBOLGE-1016): bölge numarası haritada ve formda
+   AYNI rozettir — eşleşme numarayla okunur; post-it'te bölge sayısı yazar. */
+.gn-bolge-no {
+  min-width: 16px; height: 16px; padding: 0 3px; box-sizing: border-box; border-radius: 8px;
+  background: #142014; color: #39ff14; border: 1px solid #39ff14; cursor: pointer;
+  font: 700 10px/14px sans-serif; text-align: center; box-shadow: 0 0 4px rgba(57, 255, 20, .6);
+}
+.gn-bolge-no-satir { display: inline-block; cursor: default; }
+.gn-postit.gn-postit-cok { width: 16px; height: 16px; font: 700 10px/14px sans-serif; color: #111; text-align: center; }
+.gn-bolge-liste { margin: 4px 0; }
+.gn-bolge-satir { display: flex; align-items: center; gap: 6px; padding: 2px 0; }
+.gn-bolge-sil { margin-left: auto; border: 0; background: none; color: #a33; cursor: pointer; font-size: 13px; }
+.gn-bolge-ekle { margin-top: 3px; padding: 2px 8px; border-radius: 4px; border: 1px dashed #2bd10f; background: #fff; cursor: pointer; }
+

@@ -329,12 +329,12 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // Manama kaydındaki mevcut dönem: `ingiltere 1861-05-31 → 1923-10-29`.
 // TDV `bahreyn` ise 21 Mayıs 1861 diyor. On günlük fark; İKİSİ DE yazıldı.
-{ t:"1861-05-31", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ t:"1861-05-21", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   kapsam:"dis", onem:3, b:"Bahreyn'in İngiltere ile antlaşması — körfezde himaye düzenine giriş",
-  gun:"31 Mayıs 1861", ic_not_gun:"(atlas bu günü taşıyor; TDV `bahreyn` 21 Mayıs 1861 der — on günlük fark çözülmedi)",
+  gun:"21 Mayıs 1861", ic_not_gun:"KUTU-H1-1015: TDV bahreyn '21 Mayıs 1861’de' — TDV birincil, gün buna alındı (eski t 1861-05-31). İngiliz belgelerinde (Perpetual Truce of Friendship and Peace) 31 Mayıs 1861; fark beyan.",
   yer:"Bahreyn (Evâl adaları)",
   kisiler:"Şeyh Muhammed b. Halîfe, kardeşi Ali",
-  d:"TDV'nin kaydına göre \\\"21 Mayıs 1861'de İngiltere ile Bahreyn'i temsilen Şeyh Muhammed'in kardeşi Ali, bölgede köle ticaretini ve korsanlığı meneden bir anlaşma imzaladılar\\\"; İngiliz belgelerinde aynı antlaşma (Perpetual Truce of Friendship and Peace) 31 Mayıs 1861 tarihini taşır. Antlaşma Bahreyn'in dış ilişkilerini İngiltere'ye bağlayan himaye düzeninin ilk halkasıdır ve ada, Osmanlı'nın 1871'de Lahsa ile Katîf'e yeniden yerleşmesinden sonra da bu düzenin dışında kaldı.", ic_not_d:"⚠️ İki tarih arasındaki on günlük fark bu turda çözülemedi; atlas bugün 31 Mayıs'ı taşıyor.",
+  d:"TDV'nin kaydına göre \\\"21 Mayıs 1861'de İngiltere ile Bahreyn'i temsilen Şeyh Muhammed'in kardeşi Ali, bölgede köle ticaretini ve korsanlığı meneden bir anlaşma imzaladılar\\\"; İngiliz belgelerinde aynı antlaşma (Perpetual Truce of Friendship and Peace) 31 Mayıs 1861 tarihini taşır. Antlaşma Bahreyn'in dış ilişkilerini İngiltere'ye bağlayan himaye düzeninin ilk halkasıdır ve ada, Osmanlı'nın 1871'de Lahsa ile Katîf'e yeniden yerleşmesinden sonra da bu düzenin dışında kaldı.", ic_not_d:"İki tarih arasındaki on günlük fark: TDV esas alındı (CLAUDE.md kaynak kuralı); Manama kırılması da 1861-05-21'e çekildi. KUTU-H1-1015",
   kaynak:"bahreyn", duygu:["🤝"], yer_id:"Manama (Bahreyn)" },
 
 // ===========================================================================

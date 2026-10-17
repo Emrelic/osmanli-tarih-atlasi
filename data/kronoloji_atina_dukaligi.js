@@ -56,7 +56,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 { t:"1311-03-15", b:"Katalanlar Atina Düklüğü'nü ele geçirdi", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Livadya",
   etiket:["askeri","toprak-kayip","hanedan","konu-askeri","konu-hanedan"],
   d:"Halmyros (Kifisos) Savaşı'nda Katalan Kumpanyası, kendisini ücretini ödemeden dağıtmak isteyen Duka Gautier V'in ordusunu imha etti; duka ve Frank şövalyelerin neredeyse tamamı öldü. Bataklık araziye çekilen ağır süvarinin kırılması, Orta Çağ'ın en kesin taktik derslerinden biridir. Burgonya-Fransız Atina Dukalığı 106 yıl sonra sona erdi ve yerine Katalan idaresi kuruldu.",
-  kaynak:"Kenneth M. Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · Lock, The Franks in the Aegean · 🔴 `dunya:2` ve başlık — `data/kronoloji_bizans.js` ile BİREBİR aynı, denetimin 8. dalı için hizalandı" },
+  kaynak:"Kenneth M. Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · Lock, The Franks in the Aegean · `dunya:2` ve başlık — `data/kronoloji_bizans.js` ile BİREBİR aynı, denetimin 8. dalı için hizalandı" },
 
 { t:"1379-01-01", b:"Navarra Kumpanyası'nın Tebai'yi alması", tur:"savas", onem:4, dunya:1, kapsam:"dis", yer_id:"İstefe (Tebai)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -66,7 +66,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 { t:"1388-05-02", b:"Nerio Acciaiuoli'nin Atina'yı alması — Floransa devrinin başlaması", tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["toprak-kazanc","hanedan","konu-askeri","konu-hanedan"],
   d:"Floransalı bankacı ailesinden Korinthos derebeyi Nerio Acciaiuoli, uzun bir kuşatmanın ardından Akropolis'i teslim aldı ve Katalan hâkimiyeti Atina'da sona erdi. Yeni efendi bir şövalye değil bir TÜCCAR-BANKACI ailesindendi ve bu, Latin Yunanistan'ın son devrinin karakterini belirledi. Nerio, 1394'te papalıktan duka unvanını da aldı.",
-  kaynak:"TDV `atina`: \"1387’de ise çevresindeki Attikê bölgesiyle birlikte Floransalı Korinthos (Gördüs) derebeyi Nerio Acciajuoli tarafından ele geçirildi.\" · Setton, Catalan Domination of Athens 1311-1388 (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1388-05-02 (Setton: Akropolis'in teslimi) · kullanılmayan kaynaklı yıl 1387 (TDV) · neden: TDV alt şehir/Akropolis ayrımı yapmıyor; iki kaynak iki yıl veriyor, tek seçilmez (§4 ⑥) · önceki \"1387: …\" tırnağı TDV cümlesinin birebir hâli değildi, düzeltildi (KRONO-CELISKI-1006 §2 #23) · daha önce künyede (devletler.js) 1388-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #23)" },
+  kaynak:"TDV `atina`: \"1387’de ise çevresindeki Attikê bölgesiyle birlikte Floransalı Korinthos (Gördüs) derebeyi Nerio Acciajuoli tarafından ele geçirildi.\" · Setton, Catalan Domination of Athens 1311-1388 (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ: kullanılan gün 1388-05-02 (Setton: Akropolis'in teslimi) · kullanılmayan kaynaklı yıl 1387 (TDV) · neden: TDV alt şehir/Akropolis ayrımı yapmıyor; iki kaynak iki yıl veriyor, tek seçilmez (§4 ⑥) · önceki \"1387: …\" tırnağı TDV cümlesinin birebir hâli değildi, düzeltildi · daha önce künyede 1388-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı" },
 
 { t:"1394-09-25", b:"Nerio I'in ölümü ve Partenon'un gümüşlerinin vasiyeti", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Atina",
   etiket:["siyaset","din","konu-siyasi","konu-kisiler","konu-din"],
@@ -91,7 +91,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 { t:"1456-06-04", b:"Turahanoğlu Ömer Bey'in Atina'yı alması", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Osmanlı kuvvetleri Atina şehrini ele geçirdi; son duka Francesco II Acciaiuoli Akropolis'e çekilerek iki yıl daha direndi. Şehrin alınması, Latin Yunanistan'ın anakaradaki merkezinin sonudur. Latin başpiskoposu şehri terk etti.",
-  kaynak:"TDV 'atina' md.: \"Mayıs 1456'da şehri ele geçirdi\" (Turahan Bey) · Setton, The Papacy and the Levant, c. II · ⚠️ TDV 'Mayıs 1456' diyor; dizin künyesi 1456-06-04 tutuyor, künyeyle hizalandım · 🟢 `dunya:2` referansı BEN kuruyorum" },
+  kaynak:"TDV 'atina' md.: \"Mayıs 1456'da şehri ele geçirdi\" (Turahan Bey) · Setton, The Papacy and the Levant, c. II · Dikkat: TDV 'Mayıs 1456' diyor; dizin künyesi 1456-06-04 tutuyor, künyeyle hizalandım · 🟢 `dunya:2` referansı BEN kuruyorum" },
 
 { t:"1458-06-04", b:"Akropolis'in teslimi — Atina Dukalığı'nın sonu", tur:"son", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["son","toprak-kayip","konu-askeri","konu-siyasi"],

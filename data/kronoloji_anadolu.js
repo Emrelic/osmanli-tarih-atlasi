@@ -151,7 +151,7 @@ window.KRONOLOJI_ANADOLU = [
 { taraflar:["karaman"], t:"1277-11-01", b:"Mehmed Bey, Moğollara karşı İç İl'de savaşırken öldü", tur:"son",
   onem:4, dunya:1, kapsam:"dis", etiket:["savas","hukumdar","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"",
-  d:"Konya'daki kısa hâkimiyetinin ardından İlhanlı Moğol kuvvetleriyle İç İl bölgesinde giriştiği çarpışmada öldürüldü. İç İl'in atlas verisinde tek bir yerleşim karşılığı yoktur, bölge adıyla anılır.",
+  d:"Konya'daki kısa hâkimiyetinin ardından İlhanlı Moğol kuvvetleriyle İç İl bölgesinde giriştiği çarpışmada öldürüldü.", ic_not_d:"Konya'daki kısa hâkimiyetinin ardından İlhanlı Moğol kuvvetleriyle İç İl bölgesinde giriştiği çarpışmada öldürüldü. İç İl'in atlas verisinde tek bir yerleşim karşılığı yoktur, bölge adıyla anılır.",
   kaynak:"karamanogullari", kapsam_genis:true },
 
 { taraflar:["karaman"], t:"1281-01-01", b:"Güneri Bey beyliğin başına geçti", tur:"hukumdar",
@@ -427,7 +427,7 @@ window.KRONOLOJI_ANADOLU = [
 { taraflar:["karaman"], t:"1441-01-01", b:"Mut'ta Lâl Ağa Camii yaptırıldı", tur:"mimari",
   onem:1, dunya:1, kapsam:"ic", etiket:["mimari","imar","konu-din","konu-imar"],
   yer_id:"",
-  d:"1441 civarında Mut'ta Lâl Ağa Camii inşa edildi; Mut'un atlas verisinde ayrı bir yerleşim kaydı bulunmuyor.",
+  d:"1441 civarında Mut'ta Lâl Ağa Camii inşa edildi.", ic_not_d:"1441 civarında Mut'ta Lâl Ağa Camii inşa edildi; Mut'un atlas verisinde ayrı bir yerleşim kaydı bulunmuyor.",
   kaynak:"karamanogullari", yer_kon:[36.6469,33.4386] },
 
 // ═══════════════════ ANADOLU (TÜRKİYE) SELÇUKLU DEVLETİ (1075-1308) ═══════════════════
@@ -492,11 +492,12 @@ window.KRONOLOJI_ANADOLU = [
   d:"I. Kılıcarslan, keşiş Pierre l'Ermite idaresindeki köylü ve maceracılardan oluşan Halk Haçlı Seferi ordusunu 1 Zilkade 489 / 21 Ekim 1096'da hemen hemen tamamen imha etti.",
   kaynak:"selcuklular" },
 
-{ taraflar:["selcuklu"], t:"1097-06-19", b:"I. Haçlı Seferi İznik'i aldı, başkent Konya'ya taşındı", tur:"toprak-kayip",
+{ taraflar:["selcuklu"], t:"1097-06-19", b:"I. Haçlı Seferi: İznik Bizans'a teslim edildi, başkent Konya'ya taşındı", tur:"toprak-kayip",
   onem:5, dunya:4, kapsam:"dis", etiket:["İznik", "I. Haçlı Seferi", "başkent", "konu-askeri", "konu-idari"],
   yer_id:"İznik",
-  d:"I. Haçlı Seferi ordusu ve Bizans kuvvetleri, uzun bir kuşatmanın ardından İznik'i 19 Haziran 1097'de ele geçirdi; şehir Selçuklulara değil doğrudan Bizans'a teslim edildi. Başkentini kaybeden I. Kılıcarslan, devletin merkezini Orta Anadolu'da Konya'ya taşımak zorunda kaldı — bu, Selçuklu tarihinin en kalıcı stratejik dönüşümlerinden biridir.",
-  kaynak:"selcuklular" },
+  d:"I. Haçlı Seferi ordusunun kuşattığı İznik'te yardım ümidi kalmayan Selçuklu garnizonu, Bizans kumandanı Manuel Butumites'le anlaşarak şehri 19 Haziran 1097'de Bizans'a teslim etti; şehir Haçlılara değil Bizans'a geçti. Başkentini kaybeden I. Kılıcarslan, devletin merkezini Orta Anadolu'da Konya'ya taşımak zorunda kaldı — bu, Selçuklu tarihinin en kalıcı stratejik dönüşümlerinden biridir.",
+  kaynak:"selcuklular",
+  ic_not_kaynak:"IZNIK-1097-1010: başlık 'I. Haçlı Seferi İznik'i aldı' idi — TDV'ye göre şehir Haçlılara DEĞİL Bizans'a teslim edildi (D206). TDV `iznik` gövdesi GET 200 (10 Ekim 2026), birebir: \"… gören Türkler, Bizans Kumandanı Manuel Butumites’le anlaşarak şehri ona teslim ettiler (19 Haziran 1097).\" · TDV `haclilar`: \"Yardım alma ümidi kalmayan İznik garnizonu da şehri Bizans imparatoruna teslim etmeyi tercih etti (19 Haziran 1097). İznik’i ele geçirip yağmalayamayan Haçlılar bir hafta sonra …\" · TDV `selcuklular` (kaynak alanı) yalnız ay verir: \"… İznik kaybedildi (Haziran 1097) …\"; gün iznik/haclilar'dan. · TDV `konya`: \"Selçuklular’ın İznik’i 19 Haziran 1097’de Bizans’a teslim etmesi üzerine Selçuklu hükümdar ailesi tarafından Konya başşehir olarak seçildi.\"" },
 
 { taraflar:["selcuklu"], t:"1097-07-01", b:"Eskişehir yenilgisi ve Konya'nın başkent oluşu", tur:"idari",
   onem:4, dunya:4, kapsam:"dis", etiket:["Konya", "başkent", "I. Haçlı Seferi", "konu-idari"],

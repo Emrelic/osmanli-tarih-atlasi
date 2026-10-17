@@ -14,7 +14,7 @@
 // ── KÜNYE (M-5416: olayın GÜNÜNDE var olan yapı; ardıla geriye bağlama YOK) ──
 //   hollanda              1581-07-26 → 1923-10-29  (devletler.js)
 //   ingiltere             1066-01-01 → 1923-10-29  (devletler.js)
-//   ispanya               1479-01-20 → 1923-10-29  (devletler.js)
+//   ispanya               1479-01-19 → 1923-10-29  (devletler.js)
 //   prusya                1701-01-18 → 1871-01-18  (devletler.js)
 //   fransa-cumhuriyet     1792-09-22 → 1923-10-29  (devletler.js)
 //   🟡 habsburg-hollandasi  KÜNYE YOK — ÖNERİ (1581 öncesi Habsburg Felemengi);
@@ -66,7 +66,7 @@ window.KRONOLOJI_COK_HOLLANDA = [
 { t:"1576-01-01", b:"Gent Uzlaşması — Felemenk eyaletleri İspanyol askerine karşı birleşti", tur:"antlasma",
   onem:4, dunya:2, kapsam:"ic", etiket:["antlasma","din","konu-siyasi","konu-diplomasi"],
   devlet:"habsburg-hollandasi", devletler:["habsburg-hollandasi","ispanya"], yer_id:"Gent",
-  gun:"1576 (TDV yıl verir; imza günü bu oturumda kaynaktan doğrulanamadı)",
+  gun:"1576", ic_not_gun:"1576 (TDV yıl verir; imza günü kaynaktan doğrulanamadı)",
   d:"Katolik ve Protestan eyaletler, İspanyol birliklerinin yağmasına karşı ortak davranmak ve din çatışmasını yatıştırmak için Gent'te uzlaştı. Birlik kalıcı olmadı: üç yıl içinde güney Arras, kuzey Utrecht birlikleriyle ikiye ayrıldı.",
   kaynak:"TDV `hollanda`: Katolik-Protestan çatışmalarının \"1576’da yapılan Gent uzlaşmasıyla\" giderilmeye çalışıldığı ve bölünmenin önlenemediği" },
 

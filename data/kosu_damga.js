@@ -30,24 +30,25 @@
 //    Bu yüzden damgada `yuruyus` alanı EN ÖNEMLİ alandır.
 
 window.KOSU_DAMGA = {
-  // KOŞU 21 ELLE yazıldı (HAVVA, 7 Ekim 2026). Değerler koşu logundan
-  // (C:\atlas-kosu21-kayit\kosu21.log) ve başlatma kaydından birebir okundu.
-  no: 21,                          // koşu numarası — arayüzde "KOŞU 21" diye görünür
-  tarih: "2026-10-07",             // çıktının main'e alındığı gün
+  // KOŞU 25 ELLE yazıldı (HAVVA, 15 Ekim 2026). KOŞU 22-24 çıktıları da yayına indi ama bu dosya
+  // GÜNCELLENMEDİ (Emre sitede "KOŞU 21" gördü, 15 Ekim). Değerler atlas-kosu25/kosu25-20261015-002715
+  // -bayraklar.log ve aynı koşunun logundan birebir okundu. Çıktı commit'i: e2ca9be62 (yayın r12414).
+  no: 27,                          // koşu numarası — arayüzde "KOŞU 27" diye görünür
+  tarih: "2026-10-17",             // çıktının main'e alındığı gün
   makine: "HAVVA",                 // koşuyu KOŞTURAN makine
-  commit: null,                    // çıktı commit'i bu damgayı taşıyan commit'tir (kendi sha'sını yazamaz)
-  temel: "2fe8ada7",               // koşunun girdi temeli · yama YOK
-  sure: "7 sa 13 dk 48 sn",        // 2026-10-06 19:49:07 → 2026-10-07 03:05
+  commit: "d9121c47",              // KOŞU 27 çıktı commit'i (8b 84→85 Emre onayı, 17 Ekim 2026)
+  temel: "db9de100",               // koşunun girdi temeli · bellek + komşu-kur yamaları DAHİL (MOTOR_SINIR_KISIT=1 · MOTOR_COL_GIRINTI_KAPALI=1 · MOTOR_KOMSU_KUR_BOL=1)
+  sure: "6 sa 31 dk 43 sn",        // 2026-10-16 20:09:52 → 2026-10-17 02:41 (AŞAMA BİLANÇOSU)
   bayraklar: {
     yuruyus: true,                 // MOTOR_YURUYUS=1  ← sahiplik prensibi
     yuruyus_saat: 40,              // MOTOR_YURUYUS_SAAT=40 (bütçe 40 saat = 5 gün)
     yuruyus_16: null,              // MOTOR_YURUYUS_16 koşu ortamında YOKTU — varsayılan
-    col_ufuk_saat: 56,             // MOTOR_COL_UFUK_SAAT=56
+    col_ufuk_saat: 0,              // MOTOR_COL_UFUK_SAAT=0 — çöl kelepçesi KAPALI (KOŞU 23'ten beri)
     ufuk_bant: [40, 56, 80],       // MOTOR_UFUK_BANT — 5 · 7 · 10 gün
+    devam: true,                   // MOTOR_DEVAM=1
     surec_isci: 2                  // MOTOR_SUREC_ISCI=2 — tuzda DEĞİL, sonucu değiştirmez
   },
-  // Koşunun KENDİ denetim kaydı (depoda): denetim/DEGISMEZ-KOSU21-HAVVA.log
-  //   ÇIKIŞ 2 · ihlal YOK · 8a 1505 (tavan 1508) · 8b 82 (tavan 82) ·
-  //   ölçülemeyen tek soru 8k körlük: defterde olmayan 18 (hat,gün), 11 hat
-  denetim: "denetim/DEGISMEZ-KOSU21-HAVVA.log"
+  // Koşunun KENDİ denetim kaydı (depoda): denetim/DEGISMEZ-KOSU25-HAVVA.log
+  //   ÇIKIŞ 0 · 7e 1904/1904 · 8a 1500/1505 (eski ölçüt) · 8b 84/84
+  denetim: "denetim/DEGISMEZ-KOSU27-HAVVA.log"
 };

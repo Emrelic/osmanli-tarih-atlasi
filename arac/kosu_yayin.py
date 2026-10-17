@@ -12,13 +12,39 @@ Bu betik bütün zinciri kendi başına yürütür ve HER KAPIDA DURUR:
     ④ renk_olc.py         palet — veri değiştiyse ŞART (CLAUDE.md §9)
     ⑤ surum_damgala.py    ?v=rNN yükselt
     ⑥ denetle_yayin.py    yayın kapısı
-    ⑦ git commit + push
+    ⑦a yayın listesi      `arac/yayin_listesi.py` — index.html <script src> +
+                          js yükleyicileri ∩ üreteçlerin AST'den ölçülen
+                          çıktıları (+ kodla/paketle türevleri). Satır satır
+                          basılır. gitignore'lu · diskte olmayan · BAYAT
+                          TÜREV dosya ya da ölçülemeyen türetme ⇒ DUR.
+    ⑦ git commit + push   YALNIZ ⑦a'nın listesi (pathspec)
     ⑧ 9 bip — "masaya dön"
 
-🔴 KAPILAR TAVİZSİZ: ③ ya da ⑥ düşerse commit ATILMAZ, push YAPILMAZ.
-Bozuk bir yayın, yayın yapmamaktan kötüdür — kullanıcı onu doğru sanar.
-⚠️ ⑥ bugün SARI (çizilmeyen dosyalar) ve çıkış kodu 1 veriyor; o bilinen
-borç `--yayin-kapisi-uyari` ile UYARI sayılır, ③ ise ASLA.
+⚠️ (KOSU-YAYIN-LISTE-1010) Bu zincir `kodla.py yay` ve `paketle.py yenile`
+KOŞTURMAZ. Motor donemler/devletler_harita/petek_govde/devirler'i yeniden
+ürettiğinde yayın türevleri bayatlar ve ⑦a BAYAT TÜREV ile DURUR — bu doğru
+davranıştır: eski harita + yeni bölgeler yayınlanmaz.
+
+🔴 KAPILAR TAVİZSİZ — üç çıkış kodu (`CLAUDE.md §3`: 0 temiz · 1 İHLAL ·
+2 ÖLÇÜLEMEDİ) her kapıda AYRI okunur:
+
+    ③ denetle.py      0 → geçer · 1 → DUR · 2 → DUR + ölçülemeyen sorular
+                      ADIYLA basılır · başka her kod → DUR.  BAYRAKLA BİLE
+                      GEVŞEMEZ — `--yayin-kapisi-uyari` ③'e DOKUNMAZ.
+    ⑥ denetle_yayin   VARSAYILAN TAVİZSİZ: 0 dışı her kod → DUR.
+                      `--yayin-kapisi-uyari` verilirse YALNIZ çıkış 1 uyarıya
+                      iner (günlüğe "BAYRAĞIYLA UYARIYA İNDİ" düşer); 2
+                      (ölçülemedi) ve öteki kodlar bayrakla da DURDURUR.
+
+DUR = commit ATILMAZ, push YAPILMAZ, betik 1 ile çıkar. Bozuk bir yayın,
+yayın yapmamaktan kötüdür — kullanıcı onu doğru sanar.
+⚠️ 10 Ekim 2026'ya kadar bu paragraf `--yayin-kapisi-uyari` bayrağını
+anıyordu ama bayrak YOKTU ve ⑥ HER sıfır-dışı kodu "bilinen borç" sayıp
+zinciri sürdürüyordu (KOSU-YAYIN-KAPI-1010). Belge kod değildir; bayrak
+artık gerçekten var ve VARSAYILAN kapalıdır.
+⑥b (kronoloji şeması) ve ⑥c (arayüz) bilerek UYARI kipindedir (haritayı
+bozmazlar); gerçek çıkış kodları günlüğe yazılır.
+Commit ya da push düşerse betik 1 ile çıkar (eskiden 0 + 9 bip veriyordu).
 
 📌 Commit mesajı `Write` ile değil, bu betik tarafından DOSYAYA yazılır ve
 `git commit -F` ile verilir — `§11`: kaçış içeren metin kabuktan geçmez.
@@ -26,6 +52,9 @@ borç `--yayin-kapisi-uyari` ile UYARI sayılır, ③ ise ASLA.
     py arac/kosu_yayin.py                 # tam zincir
     py arac/kosu_yayin.py --kuru          # ne yapacağını yaz, YAPMA
     py arac/kosu_yayin.py --push-yok      # koş, denetle, commit et; PUSH ETME
+    py arac/kosu_yayin.py --yayin-kapisi-uyari   # ⑥ çıkış 1 → UYARI (yalnız 1)
+
+Çıkış: 0 yayınlandı (ya da kuru koşu) · 1 bir kapı/adım düştü, YAYIN YOK.
 """
 import argparse
 import io
@@ -34,6 +63,9 @@ import subprocess
 import sys
 import time
 from datetime import datetime
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import yayin_listesi                                        # noqa: E402
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -50,12 +82,12 @@ def yaz(s):
         f.write(satir + "\n")
 
 
-def kos(ad, argv, kuru, zorunlu=True, uyari_kodu=False):
-    """Bir adımı koşturur. zorunlu ve kod!=0 ise zinciri DURDURUR."""
+def _calistir(ad, argv, kuru):
+    """Adımı koşturur ve sonucu döndürür; KARAR VERMEZ. Kuru koşuda None."""
     yaz(f"▶ {ad}   ({' '.join(argv)})")
     if kuru:
         yaz(f"   (kuru koşu — çalıştırılmadı)")
-        return True
+        return None
     t0 = time.time()
     r = subprocess.run([sys.executable] + argv, cwd=KOK,
                        capture_output=True, text=True,
@@ -87,10 +119,20 @@ def kos(ad, argv, kuru, zorunlu=True, uyari_kodu=False):
     for l in son:
         yaz("   │ " + l)
     yaz(f"   └ çıkış {r.returncode} · {sure/60:.1f} dk")
-    if r.returncode == 0:
+    return r
+
+
+def kos(ad, argv, kuru, zorunlu=True, uyari_kodu=False):
+    """KAPI OLMAYAN adım. zorunlu ve kod!=0 ise zinciri DURDURUR.
+
+    uyari_kodu=True yalnız BİLEREK uyarı kipinde olan adımlar içindir
+    (⑥b, ⑥c). ③ ve ⑥ buradan GEÇMEZ — onlar `kapi()`dan geçer.
+    """
+    r = _calistir(ad, argv, kuru)
+    if r is None or r.returncode == 0:
         return True
     if uyari_kodu:
-        yaz(f"   ⚠️ {ad} çıkış 1 verdi — BİLİNEN BORÇ sayıldı, zincir sürüyor")
+        yaz(f"   ⚠️ {ad} çıkış {r.returncode} verdi — UYARI kipinde, zincir sürüyor")
         return True
     if zorunlu:
         yaz(f"   🔴 {ad} DÜŞTÜ — ZİNCİR DURDU. Yayın YAPILMADI.")
@@ -99,6 +141,56 @@ def kos(ad, argv, kuru, zorunlu=True, uyari_kodu=False):
         return False
     yaz(f"   ⚠️ {ad} düştü ama zorunlu değil — sürüyor")
     return True
+
+
+def _olculemedi_satirlari(metin):
+    """denetle.py'nin ÖLÇÜLEMEYEN SORU bloğunu çıktıdan ADIYLA söker."""
+    satirlar, icinde = [], False
+    for l in (metin or "").splitlines():
+        if "ÖLÇÜLEMEYEN SORU" in l:
+            icinde = True
+        elif icinde and l.strip().startswith("SONUÇ"):
+            break
+        if icinde:
+            satirlar.append(l)
+    return satirlar
+
+
+def kapi(ad, argv, kuru, bir_uyari=False):
+    """KAPI adımı (③, ⑥). True yalnız GEÇERSE; False ⇒ commit/push YOK.
+
+    0 → geçer.  1 → İHLAL: durur — YALNIZ bir_uyari=True ise uyarıya iner.
+    2 → ÖLÇÜLEMEDİ: HER ZAMAN durur (bayrak 2'yi affetmez), ölçülemeyen
+        sorular ADIYLA basılır.  Başka her kod (çökme, öldürülme) → durur.
+    """
+    r = _calistir(ad, argv, kuru)
+    if r is None:
+        return True
+    kod = r.returncode
+    if kod == 0:
+        return True
+    if kod == 1 and bir_uyari:
+        yaz(f"   ⚠️ {ad} çıkış 1 (İHLAL) — `--yayin-kapisi-uyari` BAYRAĞIYLA "
+            "UYARIYA İNDİ, zincir sürüyor")
+        return True
+    if kod == 1:
+        yaz(f"   🔴 {ad} çıkış 1 — İHLAL VAR. ZİNCİR DURDU, commit ve push YOK.")
+    elif kod == 2:
+        yaz(f"   🔴 {ad} çıkış 2 — ÖLÇÜLEMEDİ (temiz DEĞİL). ZİNCİR DURDU, "
+            "commit ve push YOK.")
+        kova = _olculemedi_satirlari(r.stdout)
+        if kova:
+            for l in kova:
+                yaz("   │ " + l)
+        else:
+            yaz("   │ (ölçülemeyen soru listesi çıktıda BULUNAMADI — tam "
+                f"günlük: {LOG_DIZIN})")
+    else:
+        yaz(f"   🔴 {ad} çıkış {kod} — tanınmayan kod (çökme?). ZİNCİR DURDU, "
+            "commit ve push YOK.")
+    if r.stderr:
+        yaz("   │ " + r.stderr[:600])
+    return False
 
 
 def bip(n, ton=880, sure=250):
@@ -115,6 +207,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--kuru", action="store_true")
     ap.add_argument("--push-yok", action="store_true")
+    ap.add_argument("--yayin-kapisi-uyari", action="store_true",
+                    help="⑥ yayın kapısının YALNIZ çıkış 1'ini uyarıya indirir; "
+                         "2 ve ③ etkilenmez")
     a = ap.parse_args()
 
     yaz("=" * 64)
@@ -131,7 +226,7 @@ def main():
                zorunlu=False):
         pass
     # ③ ALTI DEĞİŞMEZ — tavizsiz kapı
-    if not kos("③ denetle (altı değişmez)", ["arac/denetle.py"], a.kuru):
+    if not kapi("③ denetle (altı değişmez)", ["arac/denetle.py"], a.kuru):
         yaz("🔴 DEĞİŞMEZ DÜŞTÜ — commit ve push YAPILMADI.")
         bip(3, 220, 500)
         return 1
@@ -139,9 +234,12 @@ def main():
     kos("④ renk ölçümü", ["arac/renk_olc.py"], a.kuru, zorunlu=False)
     # ⑤ sürüm damgası
     kos("⑤ sürüm damgası", ["arac/surum_damgala.py"], a.kuru, zorunlu=False)
-    # ⑥ yayın kapısı — bugün SARI, uyarı sayılıyor
-    kos("⑥ yayın kapısı", ["arac/denetle_yayin.py"], a.kuru,
-        uyari_kodu=True)
+    # ⑥ yayın kapısı — VARSAYILAN TAVİZSİZ; yalnız bayrakla 1 → uyarı
+    if not kapi("⑥ yayın kapısı", ["arac/denetle_yayin.py"], a.kuru,
+                bir_uyari=a.yayin_kapisi_uyari):
+        yaz("🔴 YAYIN KAPISI DÜŞTÜ — commit ve push YAPILMADI.")
+        bip(3, 220, 500)
+        return 1
 
     # ⑥b KRONOLOJİ ŞEMASI — 21 Ağustos 2026'da zincire girdi.
     # 🔴 NİÇİN: dokuz `data/kronoloji_*.js` dosyası (1093 madde) vardı ve
@@ -171,6 +269,23 @@ def main():
     kos("⑥c arayüz denetimi", ["arac/denetle_arayuz.py"], a.kuru,
         uyari_kodu=True)
 
+    # ⑦a YAYIN LİSTESİ — elle yazılmaz, ÖLÇÜLEREK TÜRETİLİR ve BASILIR
+    #    (KOSU-YAYIN-LISTE-1010; kural ve gerekçe `arac/yayin_listesi.py`).
+    #    Eski elle liste gitignore'lu dosyalar taşıyordu ve yayındaki gerçek
+    #    haritayı (data/devlet_harita_ust.js) hiç anmıyordu.
+    yaz("▶ ⑦a yayın listesi (arac/yayin_listesi.py)")
+    L = yayin_listesi.turet(KOK)
+    for s in L["satirlar"]:
+        yaz("   " + s)
+    if L["dur"] or L["olculemedi"]:
+        if a.kuru:
+            yaz("   (kuru koşu — gerçek koşu burada DURURDU)")
+        else:
+            yaz("🔴 YAYIN LİSTESİ %s — commit ve push YAPILMADI."
+                % ("DURDURUCU VERDİ" if L["dur"] else "ÖLÇÜLEMEDİ"))
+            bip(3, 220, 500)
+            return 1
+
     # ⑦ commit + push
     if a.kuru:
         yaz("▶ ⑦ commit + push   (kuru koşu — yapılmadı)")
@@ -186,13 +301,12 @@ def main():
             "ve yayin yapilmaz. Bozuk bir yayin, yayin yapmamaktan kotudur --\n"
             "kullanici onu dogru sanar.\n"
             "\n"
+            + ("Yayin kapisi: --yayin-kapisi-uyari ILE (cikis 1 uyariya indiyse\n"
+               "gunlukte yazili).\n" if a.yayin_kapisi_uyari else
+               "Yayin kapisi: TAVIZSIZ (bayraksiz).\n")
+            + "\n"
             "Gunluk: kosu_otomatik.log\n")
-        ciktilar = ["data/donemler.js", "data/devletler_harita.js",
-                    "data/bolgeler.js", "data/devirler.js", "data/altlik.js",
-                    "data/petek_govde.js", "data/bos_alanlar.js",
-                    "veri-kaynak/motor_kara.geojson", "index.html",
-                    "css/style.css"]
-        var = [c for c in ciktilar if os.path.exists(os.path.join(KOK, c))]
+        var = L["liste"]              # ⑦a'da ölçüldü; diskte yoksa orada DURDU
         r = subprocess.run(["git", "-C", KOK, "add", "--"] + var,
                            capture_output=True, text=True,
                            encoding="utf-8", errors="replace")
@@ -200,15 +314,23 @@ def main():
                            capture_output=True, text=True,
                            encoding="utf-8", errors="replace")
         yaz(f"▶ ⑦ commit → çıkış {r.returncode}")
-        for l in (r.stdout or "").splitlines()[:4]:
+        for l in ((r.stdout or "") + (r.stderr or "")).splitlines()[:4]:
             yaz("   │ " + l)
-        if r.returncode == 0 and not a.push_yok:
+        if r.returncode != 0:
+            yaz("🔴 COMMIT DÜŞTÜ — push YAPILMADI, yayın YOK.")
+            bip(3, 220, 500)
+            return 1
+        if not a.push_yok:
             p = subprocess.run(["git", "-C", KOK, "push"],
                                capture_output=True, text=True,
                                encoding="utf-8", errors="replace")
             yaz(f"▶ ⑧ push → çıkış {p.returncode}")
             for l in ((p.stdout or "") + (p.stderr or "")).splitlines()[:4]:
                 yaz("   │ " + l)
+            if p.returncode != 0:
+                yaz("🔴 PUSH DÜŞTÜ — commit YEREL kaldı, yayın YOK.")
+                bip(3, 220, 500)
+                return 1
 
     yaz("=" * 64)
     yaz(f"BİTTİ · toplam {(time.time()-t0)/3600:.2f} saat")

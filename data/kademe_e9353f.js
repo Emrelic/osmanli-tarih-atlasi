@@ -97,8 +97,8 @@ window.KADEME_YAMA_E9353F = [
 {ad:"Roma", kd:[{f:"1281-01-01", t:"1870-09-20", k:1}], kaynak:"devletler.js:papalik",
  neden:"papalik kunyesinin baskenti, kunye 756-01-01..1870-09-20. 1870 sonrasi (Italya birligi) icin kaynak SUSUYOR, o yuzden o pencereye kademe YAZILMADI"},
 
-{ad:"Madrid", kd:[{f:"1479-01-20", t:"1923-10-29", k:1}], kaynak:"devletler.js:ispanya",
- neden:"ispanya kunyesinin baskenti, kunye 1479-01-20'de basliyor. 1281-1479 arasi Madrid Kastilya'da bir kasabaydi ve o donem icin kaynak SUSUYOR ⇒ kademe yazilmadi. 198 yillik bosluk BILINCLI"},
+{ad:"Madrid", kd:[{f:"1479-01-19", t:"1923-10-29", k:1}], kaynak:"devletler.js:ispanya",
+ neden:"ispanya kunyesinin baskenti, kunye 1479-01-19'da basliyor (14 Ekim 2026 Emre karariyla DBE'ye gore 20->19 Ocak duzeltildi). 1281-1479 arasi Madrid Kastilya'da bir kasabaydi ve o donem icin kaynak SUSUYOR ⇒ kademe yazilmadi. 198 yillik bosluk BILINCLI"},
 
 {ad:"Viyana", kd:[{f:"1526-08-29", t:"1918-11-11", k:1},
                   {f:"1918-11-12", t:"1923-10-29", k:1}], kaynak:"devletler.js:habsburg",
@@ -315,16 +315,16 @@ window.KADEME_YAMA_E9353F = [
 {ad:"Modena", kd:[{f:"1598-01-01", t:"1859-01-01", k:1}], kaynak:"devletler.js:ferrara",
  neden:"ferrara kunyesinin IKINCI baskenti; alan '(1598 sonrasi)' diyor ⇒ 1598'den kunye sonuna. 1598 oncesi Modena'nin kademesi icin kaynak SUSUYOR, o pencereye yazilmadi"},
 
-{ad:"Barselona", kd:[{f:"1281-01-01", t:"1479-01-20", k:1}], kaynak:"devletler.js:aragon",
+{ad:"Barselona", kd:[{f:"1281-01-01", t:"1479-01-19", k:1}], kaynak:"devletler.js:aragon",
  neden:"aragon kunyesinin baskenti; alan 'Zaragoza → Barselona' diyor ama GECIS TARIHI YOK ⇒ pencere BOLUNMEDI, ikisi de kunye penceresine k:1 yazildi. Mertebe tablosunun k:1 satiri 'baskent / vilayet duzeyi merkez' oldugu icin ikisi de o duzeyde"},
 
-{ad:"Zaragoza", kd:[{f:"1281-01-01", t:"1479-01-20", k:1}], kaynak:"devletler.js:aragon",
+{ad:"Zaragoza", kd:[{f:"1281-01-01", t:"1479-01-19", k:1}], kaynak:"devletler.js:aragon",
  neden:"aragon kunyesinin ILK baskenti; Barselona kaydiyla ayni gerekce, gecis tarihi olmadigi icin pencere bolunmedi"},
 
-{ad:"Toledo", kd:[{f:"1281-01-01", t:"1479-01-20", k:1}], kaynak:"devletler.js:kastilya",
- neden:"kastilya kunyesinin baskenti; alan 'Toledo → Valladolid' diyor, gecis tarihi YOK ⇒ pencere bolunmedi. Kunye 1230-09-23..1479-01-20, atlas basi 1281'e kirpildi"},
+{ad:"Toledo", kd:[{f:"1281-01-01", t:"1479-01-19", k:1}], kaynak:"devletler.js:kastilya",
+ neden:"kastilya kunyesinin baskenti; alan 'Toledo → Valladolid' diyor, gecis tarihi YOK ⇒ pencere bolunmedi. Kunye 1230-09-23..1479-01-19, atlas basi 1281'e kirpildi"},
 
-{ad:"Valladolid", kd:[{f:"1281-01-01", t:"1479-01-20", k:1}], kaynak:"devletler.js:kastilya",
+{ad:"Valladolid", kd:[{f:"1281-01-01", t:"1479-01-19", k:1}], kaynak:"devletler.js:kastilya",
  neden:"kastilya kunyesinin IKINCI baskenti; Toledo kaydiyla ayni gerekce"},
 
 {ad:"Bergen", kd:[{f:"1281-01-01", t:"1537-01-01", k:1}], kaynak:"devletler.js:norvec-kralligi",

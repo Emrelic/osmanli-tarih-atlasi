@@ -1,0 +1,591 @@
+kova	ad	madde_sayisi
+bolge-ulke	Azerbaycan	15
+bolge-ulke	Hicaz	14
+bolge-ulke	Macaristan	14
+bolge-ulke	Tuna	13
+bolge-ulke	Bosna	11
+bolge-ulke	Eflak	11
+bolge-ulke	Yemen	9
+bolge-ulke	Bahreyn (Evâl adaları)	8
+bolge-ulke	Boğdan	8
+bolge-ulke	Dalmaçya	8
+bolge-ulke	Kırım	7
+bolge-ulke	Necid	6
+bolge-ulke	Rumeli	6
+bolge-ulke	Arnavutluk	5
+bolge-ulke	Epir	5
+bolge-ulke	Horasan	5
+bolge-ulke	Makedonya	5
+bolge-ulke	Sırbistan	5
+bolge-ulke	Anadolu	4
+bolge-ulke	Banat	4
+bolge-ulke	Bulgaristan	4
+bolge-ulke	Dekken	4
+bolge-ulke	Dobruca	4
+bolge-ulke	Irak	4
+bolge-ulke	Kordun	4
+bolge-ulke	Kosova	4
+bolge-ulke	Mâverâünnehir	4
+bolge-ulke	Mısır	4
+bolge-ulke	Teselya	4
+bolge-ulke	Trakya	4
+bolge-ulke	Batı Anadolu	3
+bolge-ulke	Besarabya	3
+bolge-ulke	Bretanya	3
+bolge-ulke	Canik	3
+bolge-ulke	Doğu Anadolu	3
+bolge-ulke	Fars	3
+bolge-ulke	Gürcistan	3
+bolge-ulke	Irak-ı Acem	3
+bolge-ulke	Karadağ	3
+bolge-ulke	Mağrib-i Aksâ	3
+bolge-ulke	Moğolistan	3
+bolge-ulke	Sicilya	3
+bolge-ulke	Suriye	3
+bolge-ulke	Taberistan	3
+bolge-ulke	Tuva	3
+bolge-ulke	Çukurova	3
+bolge-ulke	Şattülarab	3
+bolge-ulke	Şirvan	3
+bolge-ulke	Assam	2
+bolge-ulke	Batı Cezayir	2
+bolge-ulke	Batı Trakya	2
+bolge-ulke	Batı İran	2
+bolge-ulke	Bengal	2
+bolge-ulke	Berka	2
+bolge-ulke	Danimarka	2
+bolge-ulke	Doğu Ege	2
+bolge-ulke	Filistin	2
+bolge-ulke	Galler	2
+bolge-ulke	Güney Macaristan	2
+bolge-ulke	Güney İtalya	2
+bolge-ulke	Hersek	2
+bolge-ulke	Karadeniz	2
+bolge-ulke	Kuzey Yemen	2
+bolge-ulke	Kürdistan	2
+bolge-ulke	Merkezî Irak	2
+bolge-ulke	Normandiya	2
+bolge-ulke	Norveç	2
+bolge-ulke	Podolya	2
+bolge-ulke	Slavonya	2
+bolge-ulke	Slobodskaya Ukrayna	2
+bolge-ulke	Teke	2
+bolge-ulke	İran	2
+bolge-ulke	İtalya	2
+bolge-ulke	Anadolu (53 sancak)	1
+bolge-ulke	Aşağı Mısır	1
+bolge-ulke	Bahreyn (Uvâl)	1
+bolge-ulke	Basra Körfezi	1
+bolge-ulke	Basra körfezi	1
+bolge-ulke	Batı El Salvador (Izalco)	1
+bolge-ulke	Batı Macaristan	1
+bolge-ulke	Batı Sudan (Sahrâ)	1
+bolge-ulke	Batı Sudan (eski Gāne toprakları)	1
+bolge-ulke	Batı İskoçya (Largs)	1
+bolge-ulke	Berka (Cyrenaica)	1
+bolge-ulke	Boğdan (Dinyester boyu)	1
+bolge-ulke	Boğdan (Erdel'in desteğiyle)	1
+bolge-ulke	Dağıstan	1
+bolge-ulke	Deşt-i Kıpçak	1
+bolge-ulke	Dinyeper	1
+bolge-ulke	Dinyester	1
+bolge-ulke	Doğu Arabistan	1
+bolge-ulke	Doğu Cezayir	1
+bolge-ulke	Doğu Trakya	1
+bolge-ulke	Doğu Trakya (Çatalca hattı)	1
+bolge-ulke	Eflak (Tuna boyu)	1
+bolge-ulke	Flandre	1
+bolge-ulke	Fırat	1
+bolge-ulke	Germiyan	1
+bolge-ulke	Grönland (Norse yerleşimleri)	1
+bolge-ulke	Güneybatı Arabistan	1
+bolge-ulke	Habeşistan	1
+bolge-ulke	Hindistan	1
+bolge-ulke	Hûzistan	1
+bolge-ulke	Irak (Bağdat yakınları)	1
+bolge-ulke	Kafkas	1
+bolge-ulke	Kastilya	1
+bolge-ulke	Katar	1
+bolge-ulke	Keşmir	1
+bolge-ulke	Kuzey Boğdan	1
+bolge-ulke	Kuzey Irak	1
+bolge-ulke	Kuzey Kafkasya	1
+bolge-ulke	Kuzey Macaristan	1
+bolge-ulke	Kuzey Suriye	1
+bolge-ulke	Letonya	1
+bolge-ulke	Litvanya	1
+bolge-ulke	Litvanya (Mindaugas'ın domeni)	1
+bolge-ulke	Menteşe	1
+bolge-ulke	Moravya	1
+bolge-ulke	Mâzenderan	1
+bolge-ulke	Niue	1
+bolge-ulke	Orta Tibet (Ü-Tsang)	1
+bolge-ulke	Provence	1
+bolge-ulke	Prusya (Pomesanya hariç)	1
+bolge-ulke	Prusya (Vistül doğusu)	1
+bolge-ulke	Saruhan	1
+bolge-ulke	Silezya	1
+bolge-ulke	Sind	1
+bolge-ulke	Sudan	1
+bolge-ulke	Sudan (Nil kıyısı)	1
+bolge-ulke	Suriye (Ukhuvâne, Taberiye gölü yakını)	1
+bolge-ulke	Tuna (Demirkapı'nın yukarısı)	1
+bolge-ulke	Ukrayna	1
+bolge-ulke	Yeni Sırbistan	1
+bolge-ulke	Yukarı Mısır	1
+bolge-ulke	Yunanistan	1
+bolge-ulke	el-Cezîre	1
+bolge-ulke	İngiltere (Gainsborough)	1
+bolge-ulke	İskoçya	1
+bolge-ulke	İskoçya (Alba)	1
+bolge-ulke	İsviçre	1
+bolge-ulke	İç Cezayir	1
+bolge-ulke	Şirvan (Şemâhî)	1
+cografi	Aras vadisi	4
+cografi	Sava nehri kıyısı	4
+cografi	Tuna kıyısı	4
+cografi	İstanbul Boğazı	3
+cografi	İyon Denizi	3
+cografi	Boğdan sahili	2
+cografi	Dağıstan kıyısı	2
+cografi	Gülek Boğazı	2
+cografi	Karadeniz kıyısı	2
+cografi	Kerç Boğazı	2
+cografi	Keşmir vadisi	2
+cografi	Kuban kıyısı	2
+cografi	Kâverî havzası	2
+cografi	Mazagan (el-Cedîde) — Fas Atlas kıyısı	2
+cografi	Rodos adası	2
+cografi	Sakız adası	2
+cografi	Tahiti	2
+cografi	Tuna deltası	2
+cografi	Çanakkale Boğazı	2
+cografi	Aden Körfezi	1
+cografi	Agadir (Santa Cruz do Cabo de Gué) — Sûs kıyısı	1
+cografi	Allahuekber dağları	1
+cografi	Alta ırmağı (Pereyaslav yakını)	1
+cografi	Ambrakya körfezi	1
+cografi	Aras nehri kıyısı (savaş yeri kaynakta adıyla yok)	1
+cografi	Arnavutluk kıyısı	1
+cografi	Arnavutluk kıyısı (Dıraç)	1
+cografi	Arzila (Asîlâ) — Fas kuzey kıyısı	1
+cografi	Asvan → Nil vadisi	1
+cografi	Atbara-Gaş havzası	1
+cografi	Azemmûr — Fas Atlas kıyısı	1
+cografi	Balkan (Stara Planina) dağları	1
+cografi	Bear River (Preston yakını, Idaho)	1
+cografi	Belasitsa dağı	1
+cografi	Belen Geçidi	1
+cografi	Bozcaada – Çanakkale Boğazı	1
+cografi	Brunei Körfezi (Muara)	1
+cografi	Canik dağları	1
+cografi	Ceyhun kıyısı	1
+cografi	Cezayir kıyısı	1
+cografi	Dahlak adaları	1
+cografi	Dimbos Boğazı (Bursa-İnegöl arası)	1
+cografi	Don deltası	1
+cografi	Don havzası	1
+cografi	Drina vadisi	1
+cografi	Durbe gölü (Kurland, bugün Liepāja ili)	1
+cografi	Ebâ adası (Beyaz Nil)	1
+cografi	Ege adaları	1
+cografi	Eğriboz (Negroponte/Chalkis) Adası	1
+cografi	Eğriboz adası	1
+cografi	Filistin sahili	1
+cografi	Fucino havzası	1
+cografi	Ganghwa adası	1
+cografi	Gelibolu yarımadası	1
+cografi	Gemlik körfezi	1
+cografi	Geyve Boğazı	1
+cografi	Gvozd dağı (Petrova gora)	1
+cografi	Habeş kıyısı	1
+cografi	Habur çayı	1
+cografi	Halha Irmağı	1
+cografi	Harşan dağı	1
+cografi	Hawaii adası	1
+cografi	Hawar Adaları	1
+cografi	Hazar denizi	1
+cografi	Hazar kıyısı	1
+cografi	James Körfezi	1
+cografi	Jeju adası	1
+cografi	Juno sahili (Courseulles-sur-Mer)	1
+cografi	Kadîr dağı	1
+cografi	Kaesong · Jindo adası	1
+cografi	Kalka ırmağı	1
+cografi	Karadeniz'in kuzeybatı kıyısı	1
+cografi	Kauai	1
+cografi	Kayalı ırmağı	1
+cografi	Kays adası (Basra körfezi)	1
+cografi	Kerulen nehri	1
+cografi	Kerç boğazı	1
+cografi	Kiklad Adaları	1
+cografi	Kodege adası	1
+cografi	Korfu Adası	1
+cografi	Korfu adası	1
+cografi	Kuban havzası	1
+cografi	Kursk — Sloboda Ukrayna bozkırı	1
+cografi	Kuzey Donets bozkırı	1
+cografi	Kuzey Saskatchewan Irmağı	1
+cografi	Kür ırmağı	1
+cografi	Kırım yarımadası	1
+cografi	Kırışan (Körös) havzası	1
+cografi	Kırışan havzası	1
+cografi	La Grande Irmağı	1
+cografi	Leitha ırmağı (Avusturya-Macaristan sınırı)	1
+cografi	Leyte	1
+cografi	Liard Irmağı	1
+cografi	Limni adası	1
+cografi	Luzon	1
+cografi	Lyø adası	1
+cografi	Malaka Boğazı	1
+cografi	Mekong deltası	1
+cografi	Menzile gölü	1
+cografi	Mora kıyıları	1
+cografi	Mora yarımadası	1
+cografi	Morava vadisi	1
+cografi	Morava ırmağı	1
+cografi	Nil deltası	1
+cografi	Paria Körfezi	1
+cografi	Placentia Körfezi (Newfoundland)	1
+cografi	Prut nehri kıyısı	1
+cografi	Raab (Rába) nehri kıyısı	1
+cografi	Rügen adası	1
+cografi	Safra geçidi	1
+cografi	Sahra	1
+cografi	Samur nehri kıyısı	1
+cografi	Selef/Göksu ırmağı (Silifke yakını)	1
+cografi	Serchio vadisi (Pisa kuzeyi)	1
+cografi	Sina çölü	1
+cografi	Sind nehri kıyısı	1
+cografi	Somali sahili	1
+cografi	Sulak ırmağı	1
+cografi	Superior Gölü	1
+cografi	Tabarka adası	1
+cografi	Taman ile Soçi arası Karadeniz kıyısı	1
+cografi	Tamarón vadisi	1
+cografi	Terek nehri kıyısı	1
+cografi	Terek ırmağı	1
+cografi	Timsah gölü	1
+cografi	Tisa nehri	1
+cografi	Tokyo Körfezi	1
+cografi	Tsushima · Iki · Hakata körfezi	1
+cografi	Tâze Geçidi	1
+cografi	Una kıyısı (Bosna)	1
+cografi	Una vadisi	1
+cografi	Venezuela kıyıları	1
+cografi	Yalu ağzı → Doğu Denizi kıyısı	1
+cografi	Yanya gölü	1
+cografi	Yılan Adası	1
+cografi	Zübâre — Katar yarımadası	1
+cografi	İdil-Kama havzası	1
+cografi	İnebahtı körfezi	1
+cografi	İthaki — İyon Denizi	1
+cografi	İyon denizi	1
+cografi	İzladi geçidi	1
+cografi	İzmit körfezi	1
+cografi	İzmit körfezi güney kıyısı	1
+cografi	İçel sahili	1
+cografi	Şayó (Sajó) ırmağı	1
+cografi	Şelif vadisi	1
+cografi	Şıpka Geçidi	1
+devlet-adi	Dımaşk	13
+devlet-adi	Kıbrıs	4
+devlet-adi	Bopal	3
+devlet-adi	Derbent	3
+devlet-adi	Cebel-i Lübnan	2
+devlet-adi	Karabağ	2
+devlet-adi	Zengibar	2
+devlet-adi	Abhazya	1
+devlet-adi	Arvanid Sancağı (Arnavutluk)	1
+devlet-adi	Burgonya (Arles) Krallığı	1
+devlet-adi	Guatemala Genel Kaptanlığı	1
+devlet-adi	Güney Yemen	1
+devlet-adi	Gırnata	1
+devlet-adi	Hırvatistan Krallığı	1
+devlet-adi	Kahuripan (Doğu Cava)	1
+devlet-adi	Kartli	1
+devlet-adi	Korsika	1
+devlet-adi	Majapahit	1
+devlet-adi	Mâlva	1
+devlet-adi	Natal	1
+devlet-adi	Singhasari (Tumapel)	1
+devlet-adi	Sirenayka	1
+devlet-adi	Talış (Lenkeran-Astara)	1
+devlet-adi	Tây Sơn	1
+devlet-adi	İngiliz Guyanası	1
+devlet-adi	Şarkî Ürdün	1
+serbest-metin	Tuna boyu	5
+serbest-metin	Tuna'nın sağ yakası	4
+serbest-metin	Semendire sancağı	3
+serbest-metin	Bitlis · Van gölü batısı	2
+serbest-metin	Don ağzı	2
+serbest-metin	Kafkas cepheleri	2
+serbest-metin	Kahire – İstanbul	2
+serbest-metin	Tarain ovası	2
+serbest-metin	Temeşvar — Banat	2
+serbest-metin	Tuna ağzı	2
+serbest-metin	Tunus-Trablusgarp sınırı	2
+serbest-metin	Vehrân eyaleti	2
+serbest-metin	çevresi	2
+serbest-metin	İdil Bulgar ülkesi	2
+serbest-metin	(Anadolu kazaskerliği görevi sırasında)	1
+serbest-metin	(genel)	1
+serbest-metin	(genel, merkezi Osmanlı toprakları)	1
+serbest-metin	Abalar köyü	1
+serbest-metin	Adriyatik girişi	1
+serbest-metin	Agadir (Santa Cruz do Cabo de Gué) — Sûs	1
+serbest-metin	Akdere (Valea Albă) – Suceava	1
+serbest-metin	Akşehir – Doğu Anadolu	1
+serbest-metin	Alnwick (Northumberland) / Falaise	1
+serbest-metin	Altuntaş köyü (Akşehir yakını)	1
+serbest-metin	Anadolu ordugâhı (Sivas–Elbistan hattı)	1
+serbest-metin	Arabat oku	1
+serbest-metin	Aragon / Kastilya	1
+serbest-metin	Arles / Vienne	1
+serbest-metin	Arzila (Asîlâ) — Fas	1
+serbest-metin	Astarhan · Aşağı Volga	1
+serbest-metin	Azak yolu	1
+serbest-metin	Azemmûr — Ümmürrebî' nehri ağzı	1
+serbest-metin	Açe (Sumatra) – İskenderiye	1
+serbest-metin	Baf — Kıbrıs	1
+serbest-metin	Basra - Gücerat - İstanbul	1
+serbest-metin	Batalyevs yakını	1
+serbest-metin	Beja — İfrîkıye	1
+serbest-metin	Belh yöresi	1
+serbest-metin	Bendenîcîn / Diz-i Mâhkî	1
+serbest-metin	Bengal · Bihar	1
+serbest-metin	Bicâye · Cezayir · Tunus	1
+serbest-metin	Bilen ülkesi	1
+serbest-metin	Bingöl – Kiğı arası	1
+serbest-metin	Biograd na Moru	1
+serbest-metin	Birecik – Nizip	1
+serbest-metin	Birgi — Aydın-ili	1
+serbest-metin	Boza suyu	1
+serbest-metin	Bozok – Tokat	1
+serbest-metin	Boğdan voyvodalıkları	1
+serbest-metin	Boğdan – Suçava	1
+serbest-metin	Bucak bozkırları	1
+serbest-metin	Budin – Orta Macaristan	1
+serbest-metin	Bursa – Gemlik – Güzelcehisar – Gelibolu	1
+serbest-metin	Bursa – İstanbul	1
+serbest-metin	Bạch Đằng nehri · Chi Lăng	1
+serbest-metin	Candar toprakları	1
+serbest-metin	Cürcân / Taberistan	1
+serbest-metin	Dazaifu · Kamakura	1
+serbest-metin	Dede Garkın sahrası	1
+serbest-metin	Derbend (Demirkapı) — Dağıstan	1
+serbest-metin	Deşt-i Kıpçak – Saray	1
+serbest-metin	Dinyeper ağzı	1
+serbest-metin	Dinyester haliç ağzı	1
+serbest-metin	Dinyester hattı — Hotin	1
+serbest-metin	Dinyester — Boğdan'ın kuzeyi	1
+serbest-metin	Dinyester'in sağ yakası	1
+serbest-metin	Doğu Anadolu cepheleri	1
+serbest-metin	Duklja (Zeta): Skadar	1
+serbest-metin	Edirne · Belgrad · İstolni Belgrad	1
+serbest-metin	Edirne → Belgrad → Ösek → Budin	1
+serbest-metin	Eflak (Bükreş	1
+serbest-metin	Eflak - Rumeli	1
+serbest-metin	Ege – Mora – Arnavutluk	1
+serbest-metin	Epir cephesi (Yunan-Arnavut sınırı)	1
+serbest-metin	Ereş (Şirvan) · Derbend	1
+serbest-metin	Erzurum-Aziziye tabyaları	1
+serbest-metin	Estergon (Esztergom) – Macaristan	1
+serbest-metin	Eğri — Macaristan	1
+serbest-metin	Fas sınırı	1
+serbest-metin	Frankfurt (seçim) · Aachen (taç)	1
+serbest-metin	Galata Kulesi - Üsküdar	1
+serbest-metin	Galata sırtları	1
+serbest-metin	Ganghwa → Moğol sarayı	1
+serbest-metin	Ganj ırmağı · Gangaikondaçolapuram	1
+serbest-metin	Gazze – Han Yûnus hattı	1
+serbest-metin	Gazze – Yafa hattı	1
+serbest-metin	Guernsey / Jersey	1
+serbest-metin	Gwynedd / Aberconwy	1
+serbest-metin	Güns (Kőszeg) – Aşağı Avusturya	1
+serbest-metin	Haida Gwaii (Queen Charlotte Adaları) kuzeyi	1
+serbest-metin	Halep – Anadolu	1
+serbest-metin	Halep'in kuzeyi	1
+serbest-metin	Hartum karşısı	1
+serbest-metin	Haydarpaşa-İzmit-Ankara hattı	1
+serbest-metin	Hemedan yöresi	1
+serbest-metin	Henan · Sichuan · Hubei cepheleri	1
+serbest-metin	Herat · Sîstan · Lahor	1
+serbest-metin	Herat — Horasan	1
+serbest-metin	Hersek (Hercegovina) — Herseknovi	1
+serbest-metin	Hersek (Hum	1
+serbest-metin	Hersek — Trebinye	1
+serbest-metin	Hille bölgesi (Nîl, Câmiayn)	1
+serbest-metin	Hille yöresi	1
+serbest-metin	Horasan / Tohâristan	1
+serbest-metin	Hotin yakını — Boğdan	1
+serbest-metin	Hotin önleri — Boğdan	1
+serbest-metin	Hırvatistan sınırı	1
+serbest-metin	Hırvatistan – Macaristan sınırı	1
+serbest-metin	Istıranca kıyısı — Ahtapolu	1
+serbest-metin	Izu · Kamakura (Kantō)	1
+serbest-metin	Jasenovaç — Sava boyu	1
+serbest-metin	Kafkasya → Osmanlı toprakları	1
+serbest-metin	Kafkasya → Osmanlı toprakları (Anadolu, Balkanlar, Suriye)	1
+serbest-metin	Kahire · Sudan	1
+serbest-metin	Kahire önü	1
+serbest-metin	Kahire önü (Abbâse)	1
+serbest-metin	Kahire – Mekke	1
+serbest-metin	Kahire – Mekke – Medine	1
+serbest-metin	Karadeniz kuzeyi	1
+serbest-metin	Karahıtay ülkesi (Balasagun-Kâşgar)	1
+serbest-metin	Karategin çayırı	1
+serbest-metin	Karintiya · Kraina	1
+serbest-metin	Kartal ovası	1
+serbest-metin	Karánsebes — Banat	1
+serbest-metin	Kasımpaşa-Şişli arası	1
+serbest-metin	Katvân sahrası (Semerkant yakını)	1
+serbest-metin	Kayseri'nin doğusu	1
+serbest-metin	Konya Ereğlisi (Aktepe) ordugâhı	1
+serbest-metin	Konya-Halep-Musul-Bağdat hattı	1
+serbest-metin	Korint körfezi ağzı	1
+serbest-metin	Kosantîne güneyi	1
+serbest-metin	Kosantîne · Bicâye	1
+serbest-metin	Koyunhisar / Bapheus (Yalova yakını)	1
+serbest-metin	Koçhisar (Kızıltepe) – Mardin	1
+serbest-metin	Krbava ovası (Lika)	1
+serbest-metin	Kuba — Şirvan	1
+serbest-metin	Kurtuba'nın kuzeyi	1
+serbest-metin	Kânim · Fizan	1
+serbest-metin	Kâşân — Irâk-ı Acem	1
+serbest-metin	Kırım berzahı	1
+serbest-metin	Kırım cepheleri	1
+serbest-metin	L'Anse aux Meadows (Newfoundland)	1
+serbest-metin	Lehistan seferi — Podolya yönü	1
+serbest-metin	Lemhi Geçidi / Beaverhead	1
+serbest-metin	Livonya · Prusya	1
+serbest-metin	Lovçen eteği	1
+serbest-metin	Mahoba · Kâlincar	1
+serbest-metin	Malatya → Kırşehir (Malya ovası)	1
+serbest-metin	Malka havzaları)	1
+serbest-metin	Managua / Corinto	1
+serbest-metin	Mehcem yakınları	1
+serbest-metin	Mehdiye · Zevîle	1
+serbest-metin	Merakeş güneyi (Atlas dağları)	1
+serbest-metin	Mercuyun cephesi (Lübnan-Suriye güneyi)	1
+serbest-metin	Mondros limanı	1
+serbest-metin	Mora yarımadası – Korint Berzahı	1
+serbest-metin	Mora — Mezistre (Mistra)	1
+serbest-metin	Mora'nın güneybatısı	1
+serbest-metin	Mora'nın güneyi	1
+serbest-metin	Morača ile Ribnica'nın kavuştuğu yer	1
+serbest-metin	Musul — Irâk-ı Arab	1
+serbest-metin	Mâku · İran Azerbaycanı sınırı	1
+serbest-metin	Mîzâb vahaları	1
+serbest-metin	Mültan · Sind	1
+serbest-metin	Navarin limanı	1
+serbest-metin	Neajlov bataklığı	1
+serbest-metin	Necid güneybatısı	1
+serbest-metin	Necid güneyi	1
+serbest-metin	Nil'in üçüncü çağlayanı	1
+serbest-metin	Novgorod · Rostov · Suzdal · Yaroslavl	1
+serbest-metin	Nusaybin – Derik – Silopi (Yukarı Cezîre)	1
+serbest-metin	Nâdir'in karargâhı	1
+serbest-metin	Orkney · Hebridler (Suderøyene)	1
+serbest-metin	Orkney · Shetland	1
+serbest-metin	Orta Kafkasya (Terek	1
+serbest-metin	Osmanlı vilayetleri (Tuna Vilayeti öncü uygulama)	1
+serbest-metin	Ozark yaylası	1
+serbest-metin	Palembang → Kaifeng	1
+serbest-metin	Prusya — Königsberg	1
+serbest-metin	Prut boyu	1
+serbest-metin	Prut — Boğdan	1
+serbest-metin	Racova – Vaslui	1
+serbest-metin	Remle yöresi (Filistin)	1
+serbest-metin	Rey civarı	1
+serbest-metin	Rey yakını	1
+serbest-metin	Roma · Trablusgarp	1
+serbest-metin	Rusçuk karşısı	1
+serbest-metin	Rütli çayırı	1
+serbest-metin	Sakarya nehri doğusu	1
+serbest-metin	Samsun yöreleri	1
+serbest-metin	Sapienza (Zonchio) açıkları	1
+serbest-metin	Savra ovası	1
+serbest-metin	Saygon açığı	1
+serbest-metin	Sebeş (Karansebeş) — Banat	1
+serbest-metin	Sevâkin ardalanı	1
+serbest-metin	Sicilya — Korfu	1
+serbest-metin	Siirt sancağı	1
+serbest-metin	Sofya güneyi	1
+serbest-metin	Soğanlı dağı geçitleri	1
+serbest-metin	St. Alban kilisesi	1
+serbest-metin	Strumitsa yakını	1
+serbest-metin	Söğüt – Bursa	1
+serbest-metin	Südet bölgesi (Liberec)	1
+serbest-metin	Süleymaniye civarı	1
+serbest-metin	Süleymaniye çevresi	1
+serbest-metin	Süveyş berzahı	1
+serbest-metin	Sırbistan-Bosna cephesi	1
+serbest-metin	Taberiye yöresi (Sinnabra)	1
+serbest-metin	Talas ovası	1
+serbest-metin	Tanca — Fas	1
+serbest-metin	Tangut ülkesi	1
+serbest-metin	Tebriz – Osmanlı sarayı	1
+serbest-metin	Tebriz → Halep	1
+serbest-metin	Teke ili	1
+serbest-metin	Tilimsân · Vehrân · Cezayir	1
+serbest-metin	Tisa boyu	1
+serbest-metin	Tisa-Maros kavşağı	1
+serbest-metin	Tomar — Portekiz	1
+serbest-metin	Tophane sırtları	1
+serbest-metin	Trablus Kontluğu toprakları	1
+serbest-metin	Trebinje) — Mostar	1
+serbest-metin	Tuna cephesi	1
+serbest-metin	Tuna vilâyeti	1
+serbest-metin	Tuna'nın Eflak yakası	1
+serbest-metin	Tuna-Tisza arası	1
+serbest-metin	Tunus – Halkulvâd (La Goletta)	1
+serbest-metin	Turla (Dinyester) boyu	1
+serbest-metin	Tâmesnâ · Rif	1
+serbest-metin	Tımışvar serhaddi	1
+serbest-metin	Una nehri · Hırvat serhaddi	1
+serbest-metin	Una serhaddi	1
+serbest-metin	Una-Kupa serhaddi	1
+serbest-metin	Ungvár — Yukarı Macaristan	1
+serbest-metin	Urfa yöresi	1
+serbest-metin	Urfa – Orta Anadolu	1
+serbest-metin	Van'ın kuzeydoğusu	1
+serbest-metin	Varad · Kassa	1
+serbest-metin	Vengi · Tancavur	1
+serbest-metin	Vâdîhalfâ kuzeyi	1
+serbest-metin	Yayça — Bosna	1
+serbest-metin	Yemen – San'a	1
+serbest-metin	Yenipazar sancağı	1
+serbest-metin	Yukarı Mısır · Asvan	1
+serbest-metin	Zarumilla / El Oro	1
+serbest-metin	Zebîd — Yemen	1
+serbest-metin	Zeta ovası	1
+serbest-metin	Zibân vahaları	1
+serbest-metin	Zsitva suyu ağzı	1
+serbest-metin	batı Bosna	1
+serbest-metin	doğu Cezayir	1
+serbest-metin	imparatorluk geneli	1
+serbest-metin	kuzey Boğdan	1
+serbest-metin	kuzeydoğu Bosna	1
+serbest-metin	mektup Halep'ten	1
+serbest-metin	orta Bosna	1
+serbest-metin	orta Cezayir	1
+serbest-metin	sürgün: Kıbrıs	1
+serbest-metin	taşra	1
+serbest-metin	vahşi bozkırın kuzey kenarı	1
+serbest-metin	Çanakkale Boğazı – Bozcaada	1
+serbest-metin	Çukurova – Adana	1
+serbest-metin	çevre adalar	1
+serbest-metin	İnab Kalesi önü	1
+serbest-metin	İran'ın iç bölgeleri	1
+serbest-metin	İskopelos – Kuzey Ege	1
+serbest-metin	İstanbul - Edirne - Şumnu	1
+serbest-metin	İstanbul Tersanesi – Akdeniz	1
+serbest-metin	İstanbul tersaneleri	1
+serbest-metin	İstanbul – Kahire	1
+serbest-metin	İstanbul – Venedik	1
+serbest-metin	İstanbul-Tebriz-Bağdat güzergâhı	1
+serbest-metin	İzmit körfezi kuzeyi	1
+serbest-metin	İzmit körfezi — Pera (Galata)	1
+serbest-metin	Şam - Medine	1
+serbest-metin	—	1

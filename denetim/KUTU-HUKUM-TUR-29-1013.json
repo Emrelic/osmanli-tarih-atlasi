@@ -1,0 +1,10 @@
+{
+  "TUR-29": {
+    "catisma-4": {"hukum": "cozuldu", "not": "k:catisma -> tur:askeri (Cemel, Kerbela, Bloody Falls, Bear River); k: dokunulmadi", "delil": "data/kronoloji_cok_500_1000.js:33,39; data/kronoloji_cok_ince_kuzey_amerika.js:45,77"},
+    "toprak-kayip-2": {"hukum": "cozuldu", "not": "k:toprak-kayip -> tur:siyasi (Emre karari; Zerenc 911, Musul 958)", "delil": "data/kronoloji_cok_500_1000.js:82,94"},
+    "toplumsal-2": {"hukum": "cozuldu", "not": "k:toplumsal -> tur:sosyal (icduzen grubu): Guyana 1838, Ruimveldt 1905", "delil": "data/kronoloji_cok_ince_avrupa_amerika.js:255,276"},
+    "temas-3": {"hukum": "cozuldu", "not": "TUR_GRUP'ta diplomasi var (siyasi): tur:diplomasi (Frobisher 1576, Lewis-Clark 1805, Perez 1774)", "delil": "data/kronoloji_cok_ince_kuzey_amerika.js:29,69,102"},
+    "olay-18": {"hukum": "cozuldu", "not": "Tek tek okundu, tur: hanedan(Muntasir 1000)/taht(Sa'd 1209, Tukli 1258)/olum(Cengiz 1227, Ogedey 1241)/siyasi(Menucihr, Melikshah, Rıdvan, Aksungur, Ozbek, Hulagu-Kert, Muhammed Tapar)/tabiiyet(Idikut 1209)/askeri(Vehsudan ziyafet 1041, Gurcu-Kipcak ordusu 1118)/sosyal(Oguz gocu 1029)/din(Alamut kiyamet 1164). Siyasi'ye en az emin: Nizari-Musta'li ayrilig 1094 (din/hanedan sinirinda), din 1164 (etiket konu-siyasi). 'diger' birakilan yok.", "delil": "data/kronoloji_cok_once1281_iran.js:9,26,27,39,63,67,70,75,78,80,102,129,130,145,148,159,164,166"},
+    "kapsam-notu": {"hukum": "senin-kararin", "not": "Gorevde sayilan 8 dosyadan yalniz 4'unde bu 29 madde cikti (ince_dg_afrika, gd_asya, guney_asya, misir_orta_asya'da yok). bilinmeyenler() hala: k:siyasi 68, k:isgal 48, k:kazanc 16, tur:ilhak 4, k:toprak-kazanc 5 vb. (bu isin disinda)", "delil": "scratchpad/t29_node.js"}
+  }
+}

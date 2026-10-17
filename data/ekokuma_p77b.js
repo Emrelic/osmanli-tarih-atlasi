@@ -171,7 +171,7 @@ window.EKOKUMA_P77B = [
   sonuc:"Kazanç kısa sürdü. 30 Ekim 1918'de imzalanan Mondros Mütarekesi'nden sonra Osmanlı kuvvetleri bölgeyi boşaltmaya başladı ve Bakü'ye İngiliz kuvvetleri girdi. Akademik değerlendirmeye göre Osmanlı Devleti bu seferden önemli bir kazanç elde etmedi. Azerbaycan Demokratik Cumhuriyeti ise 27 Nisan 1920'de Kızıl Ordu'nun işgaliyle sona erdi. TDV'nin Azerbaycan maddesi bu kısa dönemin anlamını başka bir cümleyle kaydeder: tarihte ilk defa Azerbaycan adıyla bir Türk devleti kurulmuştu; Aralık 1990'da adından Sovyet Sosyalist ifadesini çıkaran Azerbaycan, 1918-1920 cumhuriyetinin bayrağını resmî bayrak olarak kabul etti.",
   tartisma:"① BAKÜ'YÜ KİMDEN ALDI? TDV'nin Azerbaycan maddesi Bakü'nün Rusların elinden alındığını yazar; akademik kaynak ise şehrin 1918 yazında önce Bolşevik Bakü Sovyeti'nin, Temmuz sonundan itibaren Sentro-Kaspi Diktatörlüğü'nün elinde olduğunu ve İngiliz Dunsterforce birliğinin savunmaya katıldığını ayrıntılar. İki anlatı çelişmez ama farklı çözünürlüktedir. ② İNGİLİZ İŞGALİNİN GÜNÜ: TDV Azerbaycan maddesi İngilizlerin Bakü'yü Kasım 1919'da işgal ettiğini yazar; bu tarih mütarekenin (Ekim 1918) hemen ardından gelen çekilmeyle bir yıl uyuşmuyor ve maddenin kendi içinde de tutarsız görünüyor — kart bu yüzden gün vermedi. ③ AMAÇ: Kafkasya harekâtı sık sık Turan ülküsüyle açıklanır; akademik değerlendirme bunu kabul etmez ve asıl sâiki Rusya'ya karşı güvenlik ve tampon devlet kuşağı olarak gösterir.",
   kesinlik:"tartışmalı",
-  olay:["1918-09-15|Bakü","1916-02-16|Erzurum","1918-05-25|Elviye"],
+  olay:["1918-09-15|Bakü","1916-02-16|Erzurum","1918-04-25|Elviye"],
   kaynak:"TDV: azerbaycan (28 Mayıs 1918 cumhuriyet, 4 Haziran Batum antlaşması md. 4, Nuri Paşa kumandasında Bakü'nün alınışı 15 Eylül 1918, 1920 sonu, bayrak) · TDV: baku · TDV: enver-pasa · TDV: sarikamis-harekati · Yalçın Murgul, Army of Islam; 1914-1918-online, Freie Universität Berlin (5 Nisan 1918 emri, adın seçimi, Gence, Göyçay-Salyan, 30 Temmuz - 5 Ağustos, Dunsterville, 11.564 er, Dağıstan-Derbent-Petrovsk) · Tigran Martirosyan, Caucasus Front; 1914-1918-online (Köprüköy, Erzurum 1916, Erzincan mütarekesi) · Feroze Yasamee, War Aims and War Aims Discussions (Ottoman Empire); 1914-1918-online (Kafkasya hedefleri, Brest-Litovsk, Almanya'nın itirazı)" },
 
 // ── Fahreddin Paşa ──────────────────────────────────────────────────────────
@@ -212,7 +212,7 @@ window.EKOKUMA_P77B = [
     +"Büyük Romanya yirmi iki yıl sürdü. 1940'ta Hitler-Stalin anlaşmasının sonucu olarak Besarabya ve Kuzey Bukovina Sovyetler Birliği'ne geçti; bugünkü Romanya sınırları bu kayıpla belirlendi. Besarabya'nın yerinde bugünkü Moldova'nın öncülü olan sovyet cumhuriyeti kuruldu.",
   not:"Küçük bir tarih ayrışması: TDV Transilvanya'nın Avusturya'ya geçişini 1699 Karlofça ile, Bukovina'nınkini 1775 ile verir; akademik kaynak Transilvanya için 1690/91'den itibaren Habsburg idaresini, Bukovina için 1774/76'yı yazar. Fark, fiilî idare ile antlaşmayla tescil arasındaki mesafeden doğuyor olabilir; kaynaklar bunu açıklamıyor.",
   kesinlik:"kesin",
-  olay:["1918-12-01"],
+  olay:["1918-12-01|Romanya"],
   kaynak:"TDV: romanya (Memleketeyn, 1877 bağımsızlık ve Plevne, Berlin'de tanınma, Dobruca, 1881 krallık, Transilvanya-Bukovina-Besarabya'nın 1 Aralık 1918 birleşmesi, 1940 kayıpları) · Harald Heppner, Romania; 1914-1918-online. International Encyclopedia of the First World War, Freie Universität Berlin (Üçlü İttifak, savaşa giriş sebebi, 1916 yenilgisi, iki katına büyüme, dış Romenler) · Feroze Yasamee, War Aims and War Aims Discussions (Ottoman Empire); 1914-1918-online (Osmanlı'nın Romanya'yı denge unsuru görmesi)" },
 
 // ── Sırp-Hırvat-Sloven Krallığı ─────────────────────────────────────────────
@@ -253,7 +253,7 @@ window.EKOKUMA_P77B = [
     +"Ertesi gün bölgedeki işgal durumunu ve İzmir'in işgaline karşı tepkiyi iki telgrafla sadarete bildirdi. 22 Mayıs'taki ilk raporunda bölgedeki kırk kadar Rum çetesini ve subaylarının İngiliz subaylarıyla görüşmesini aktardı: İngilizler kurtuluş için bir yabancı devletin himayesinin gerektiğini söylemiş, onlara Türklüğün yabancı müdahalesine tahammülü olmadığı cevabı verilmişti. Samsun'da güvenlik içinde çalışamayacağını anlayınca 24 Mayıs'ta karargâhını Havza'ya taşıdı. Hükümetle arası kısa sürede açıldı. 21-22 Haziran gecesi Ali Fuat, Rauf ve Refet beylerle imzaladığı ve Kâzım Karabekir ile Mersinli Cemal Paşa'nın muvafakatini aldığı Amasya Tamimi, Vatanın bütünlüğü, milletin istiklali tehlikededir diye başlıyor ve Erzurum'dan sonra Sivas'ta bir kongre topluyordu. TDV'ye göre bu, Millî Mücadele'nin ilk bildirisiydi.",
   not:"Unvan konusunda bir not: okunan TDV maddesi aynı görevi bir yerde Üçüncü Ordu kıtaları müfettişliği, bir yerde Dokuzuncu Ordu kıtaları müfettişliği diye anıyor; maddede bu iki adın ilişkisi açıklanmıyor. Kartta atama kararnamesinin geçtiği cümledeki ad (Dokuzuncu Ordu) kullanıldı. Vapurun yol üzerindeki uğrakları okunan kaynaklarda verilmiyor.",
   kesinlik:"kesin",
-  olay:["1919-05|Samsun"],
+  olay:["1919-05-19|Samsun"],
   kaynak:"TDV: mustafa-kemal-ataturk (21 Nisan 1919 İngiliz raporu, atamanın aşamaları, 28 Şubat listesi ve Ryan, 30 Nisan kararnamesi ve yetkiler, 14-15 Mayıs kabulleri ve padişahın sözleri, para iddiası, Bandırma vapuru ve on yedi subay, 19 Mayıs sabahı Samsun, 20 ve 22 Mayıs raporları, 24 Mayıs Havza, Amasya Tamimi) · TDV: samsun (Pontus faaliyetleri, Nebyan dağı çeteleri, gelişin görünürdeki sebebi)" },
 
 // ── Alsas-Loren ─────────────────────────────────────────────────────────────
@@ -396,7 +396,7 @@ window.EKOKUMA_P77B = [
     +"Dağılış Viyana-Budapeşte-Prag üçlüsüyle bitmedi: toprağın bir kısmı mevcut devletlere (Romanya, Sırbistan) katıldı, bir kısmı yeni devletler (Çekoslovakya, Yugoslavya) doğurdu. Haritada bu ilanlar 11 Kasım 1918'de tek güne toplanır; ilanların kendisi 18 Ekim ile 1 Aralık arasına yayılır.",
   not:"İki boşluk açıkça bildirilir: ① İtalya'ya bırakılan topraklar (Güney Tirol, Trieste, İstria) ve ② Galiçya'nın Polonya'ya geçişi — okunan TDV maddelerinde (avusturya · macaristan · birinci-dunya-savasi) bu devirleri tarihleyen cümle BULUNAMADI; kart bu yüzden onları anlatmaz. Çekoslovakya'nın bağımsızlık ilanı için TDV avusturya 18 Ekim (Paris'teki geçici hükümet) ile 29 Ekim (Prag) günlerini ayrı ayrı verir; kronolojideki 28 Ekim maddesi TDV cekoslovakya'dandır — üç gün üç ayrı olayı tarihliyor.",
   kesinlik:"kesin",
-  olay:["1918-10-30|Avusturya Cumhuriyeti","1918-11-11|ardıl devletlere"],
+  olay:["1918-10-30|Avusturya Cumhuriyeti","1918-11-11|monarşinin sonu"],
   kaynak:"TDV: avusturya (1804-1867 / 1867-1918 adları, 1867 ikili devletin sebebi, 'Tuna'daki hasta adam', Çekler ve Sırp-Hırvat-Slovenlerin 1918 hareketleri ve ekonomik zorluklar, 18 Ekim Paris, 24 Ekim Macarlar, 29 Ekim Prag ve Zagreb, 30 Ekim Avusturya Cumhuriyeti, 3 Kasım Villa Giusti, 10 Eylül 1919 Saint-Germain hükümleri) · macaristan (4 Haziran 1920 Trianon: 283.000 km², üçte iki, %60, 35.000) · romanya ve yugoslavya (1 Aralık 1918 birleşmeleri — bu dosyadaki p77b-buyuk-romanya-1918 ve p77b-sirp-hirvat-sloven-kralligi-yugoslavya-1918 kartlarının kaynağı)" },
 
 ];

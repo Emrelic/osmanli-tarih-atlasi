@@ -209,7 +209,7 @@ def gorunen(kimlik):
 
 
 OSM = {"OSMANLI doğrudan": lab(bind(h2r("#8e0b22"), OPAKLIK["dogrudan"])),
-       "OSMANLI tâbi":     lab(bind(h2r("#b2384a"), OPAKLIK["tabi"]))}
+       "OSMANLI tâbi":     lab(bind(h2r("#a53c4e"), OPAKLIK["tabi"]))}
 ALT = lab(ALTLIK)
 
 # ═══════════════ DENİZ — RENK DENİZ oturumu, 2026-08-12 ═══════════════
@@ -1016,7 +1016,7 @@ def engel_kumesi(kim, esik=B_KADEME_KM, k=None):
     else:
         nokta, pen, _bol = _pb
     out = {x for x in k.get(kim, ()) if x in BOYALAR}
-    f, t = pen.get(kim, ("1281-01-01", "1923-10-29"))
+    f, t = pen.get(kim, girdi.UFUK)   # ZAMAN-Z1-1008: verisiz kimlik = bütün ufuk
     # 🔴 VERİSİZ ENGEL ADAYI — 8 Ağustos 2026'da ÖLÇÜLEREK bulundu.
     #   Eski hâli `b not in nokta` diyerek veride noktası olmayan kimliği
     #   ELİYORDU. Sonuç: taze yazılmış (henüz verisi olmayan) bir renk,

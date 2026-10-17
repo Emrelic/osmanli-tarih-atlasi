@@ -1,0 +1,16 @@
+[
+{"anahtar": "parti-emrelic-0076/H-0009", "hukum": "cozuldu",
+ "not": "36 padişahta kartvizitin kısa övgü/yergi satırı vardı, ayrı bir 'nasıl bilirdiniz' kartı yalnız Abdülaziz'deydi. Kalan 35 padişaha data/ekokuma_nasil.js'te birer kart yazıldı. Bölümler: Övgü, Yergi, Çağdaşları ve tarihçiler, Nasıl bilirdiniz. Kaynak her kartta o padişahın TDV maddesi; uydurma alıntı yok. İkinci partide eksik 6 vefat maddesi eklendi: IV. Mehmed 1693-01-06, II. Ahmed 1695-02-06, II. Mustafa 1703-12-29 (TDV 'muhtemelen'), III. Ahmed 1736-06-24, IV. Mustafa 1808-11-17, V. Murad 1904-08-29. 35 kartın 35'i artık vefat maddesine bağlı. I. Mustafa ve Abdülaziz'in ölüm maddelerine eksik vefat_id eklendi; artık 36 padişahın hepsinin vefat maddesi var.",
+ "commit": "085d98fb4 kartlar · 99a8f37ba vefat maddeleri ve günler (KUTU-P1-1015)",
+ "kaynak": "https://islamansiklopedisi.org.tr/abdulmecid"},
+{"anahtar": "parti-emrelic-0052/H-0033", "hukum": "cozuldu",
+ "not": "data/ekokuma_iktisat.js'e 7 kart yazıldı. Konular: üç ilke (iaşe, hazine, gelenek) ve merkantilizmle farkı; devletin gelirleri (1527-28 bütçesi); köylü serf miydi; neden burjuvazi doğmadı (kâr %10, faiz %20, gedik); kilise ile ilmiye; sanayi devrimi ve 1770-1839 'yatırım çözülmesi'; Aydınlanmanın Balkanlar'a yolu. Kaynaklar: TDV osmanlilar (Mehmet Genç, Erol Özvar), avrupa (Kemal Beydilli, Kürşat Demirci), ilmiye (Mehmet İpşirli). İnalcık ve Pamuk okunamadı, kaynak gösterilmedi. Mevcut tımar, lonca, vergi ve Balta Limanı kartları tekrar edilmedi, zincirle bağlandı.",
+ "commit": "318fc4a7e KUTU-P1-1015: Osmanlı ekonomisi ve Avrupa karşılaştırması, 7 ek okuma kartı (0052/H-0033)",
+ "kaynak": "https://islamansiklopedisi.org.tr/osmanlilar#9-iktisadi-ve-ticari-yapi-normal"},
+{"anahtar": "YAN/padisah-vefat-gunleri", "hukum": "cozuldu",
+ "not": "TDV'ye göre düzeltilen vefat günleri: II. Mahmud 1839-06-28 (07-01 artık Abdülmecid'in cülûsu ve cenaze), II. Selim 1574-12-13 (12-22 artık ölümün ilânı ve cülûs), III. Murad 1595-01-17 (yanlış 'cülûs' başlığı çıktı; cülûs 01-27 maddesinde, padisahlar mehmed3.tahta da 01-27 yapıldı), Fatih 1481-05 → 1481-05-03. Kaymalar 1-9 gün olduğu için Değişmez 2 penceresi bozulmadı. Bu tarihleri kullanan 7 dosyadaki kart ve olay bağları da güncellendi. Patrona'ya dokunulmadı: TDV'nin patrona-isyani maddesi de 25 Eylül 1730 diyor, atlas doğru; 28 Eylül, III. Ahmed'in saraya dönüş gecesi. III. Mehmed Emre kararına bırakıldı.",
+ "commit": "99a8f37ba", "kaynak": "https://islamansiklopedisi.org.tr/mahmud-ii--osmanli"},
+{"anahtar": "YAN/padisahlar-tdv-disi-ifadeler", "hukum": "cozuldu",
+ "not": "padisahlar.js'te TDV'de olmayan 4 ifade düzeltildi, eski metin ic_not'ta duruyor. mahmud2: 'verem' kalktı; TDV teşhis konamadığını ve aşırı içkinin yol açtığı sağlık sorunlarını yazıyor. osman3: '58 yaş / 53 yıl' TDV'nin kendi tarihleriyle tutmuyor; 55 yaş ve 'yaklaşık elli yıl' yazıldı. murad5: kaynaksız 'akut stres / bipolar' yorumu yerine TDV'nin doktor raporları anlatımı kondu. mehmed1: 'öldürttü… TDV doğrudan kaydeder' yerine Neşrî rivayeti ve Zachariadou itirazı yazıldı; Orhan'ın körlüğünde fail belirtilmedi.",
+ "commit": "99a8f37ba", "kaynak": "https://islamansiklopedisi.org.tr/murad-v"}
+]

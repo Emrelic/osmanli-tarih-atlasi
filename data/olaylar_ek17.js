@@ -45,7 +45,7 @@ window.OLAYLAR_EK17 = [
 
 { t:"1639-01-20", b:"I. Mustafa on beş yıllık unutuluşun ardından öldü", ic_not_b:"eski b soneki: — kızlarağası rivayeti doğrulanamadı (H-0003)", tur:"kisi",
   onem:2, dunya:1, kapsam:"ic", etiket:["saray","kisi","konu-kisiler","konu-hanedan"],
-  yer_id:"İstanbul",
+  yer_id:"İstanbul", vefat_id:"mustafa1",
   d:"10 Eylül 1623'te ikinci kez tahttan indirilen I. Mustafa, ölümüne kadar geçen on beş yıl boyunca kapalı tutulduğu bir odada yaşadı; bu yıllara dair kaynaklarda hiçbir bilgi yoktur. 15 Ramazan 1048'de (20 Ocak 1639) vefat etti — kaynakların bir kısmı bunu doğal ölüm sayarken bir kısmı IV. Murad'ın parmağı olduğunu ileri sürer. Halk arasında kızlarağasının onu bir odaya kilitlediği anlatılır; ancak bu rivayet kaynaklarca desteklenmez. Kaynaklar yalnızca ilk hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtir.", ic_not_d:"eski ifadeler (H-0003): «TDV İslâm Ansiklopedisi bu döneme dair 'herhangi bir bilgi bulunmamaktadır' diyerek sessizliği açıkça kaydeder.» · «⚠️ RİVAYET DOĞRULANAMADI: kızlarağasının … hikâye TDV maddesinde yer almıyor; madde yalnızca ilk hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtiyor.»",
   kaynak:"mustafa-i" },
 
@@ -219,13 +219,21 @@ window.OLAYLAR_EK17 = [
   d:"TDV'nin Semendire maddesine göre 1717'de Pasarofça'yla Avusturya'ya bırakılan kale, 1737'de başlayan Osmanlı-Avusturya Savaşı'nın Tuna-Sava cephesindeki Osmanlı ilerleyişiyle geri alındı; Avusturya kuvvetleri bölgede Ağustos 1738'e kadar tutunabildi, bu tarihten sonra Semendire yeniden Osmanlı idaresine girdi. Bir yıl sonra imzalanan Belgrad Antlaşması (1739-09-18) bu kazancı — Belgrad ve kuzey Sırbistan ile birlikte — tescil edecekti.", ic_not_d:"⚠️ Aynı gün Kırım'da gerçekleşen 'Özi'nin geri alınışı' maddesiyle KARIŞTIRILMASIN — 1000 km uzakta, ayrı cephe, ayrı olay; yalnızca tarih rastlantısal olarak örtüşüyor.",
   kaynak:"semendire", duygu:["🎉"] },
 
+{ t:"1738-08-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
+  b:"Morava vadisinin Osmanlı idaresine dönüşü — Yagodina, Kragujevac ve Çaçak",
+  gun:"Ağustos 1738", ic_not_gun:"gün komşudan: Semendire (TDV semendire ay verir, gün vermez); bu üç yer için ayrı kaynak kaydı BULUNAMADI — SIRADA-A-1012",
+  yer:"Yagodina, Kragujevac, Çaçak (Morava vadisi)", yer_id:"Kragujevac", odak_yer:["Yagodina (Jagodina)","Kragujevac","Çaçak"],
+  kisiler:"",
+  d:"Semendire'nin Ağustos 1738'de geri alınmasıyla Semendire ile Osmanlı ana gövdesi arasında kalan Morava vadisi de Osmanlı idaresine döndü: Yagodina, Kragujevac ve Çaçak bu tarihten itibaren Osmanlı sayılır. Kaynaklar bu üç yerin dönüşünü ayrıca günleyip anmaz; harita Semendire'nin günüyle çalışır. Belgrad Antlaşması (1739-09-18) bu durumu tescil etti.",
+  kaynak:"semendire", duygu:["🎉"] },
+
 { t:"1815-11-05", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Napolyon sonrası düzen",
   gun:"5 Kasım 1815",
   yer:"Ayamavra (Lefkada)", yer_id:"Ayamavra (Lefkada)",
   kisiler:"Robert Stewart (Castlereagh), Klemens von Metternich",
-  d:"1797'de Fransa'ya geçen Ayamavra ve öteki İyon adaları, Napolyon'un kesin yenilgisinin ardından 5 Kasım 1815'te Paris'te İngiltere, Rusya, Avusturya ve Prusya arasında imzalanan özel antlaşmayla 'Yedi Ada Birleşik Devletleri' adı altında İngiliz himayesine bırakıldı — bu, 20 Kasım 1815'teki genel Paris Antlaşması'ndan AYRI bir belgedir. Himaye 1864'e kadar sürecek, sonra adalar Yunanistan'a devredilecekti.", ic_not_d:"⚠️ TDV bu maddeyi kapsamıyor — Napolyon sonrası İyon Adaları meselesi Osmanlı'nın artık taraf olmadığı bir Avrupa iç düzenlemesidir; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Paris').",
-  kaynak:"bulunamadı — TDV bu dönemi/bölgeyi kapsamıyor, dayanak: Encyclopaedia Britannica 'Treaty of Paris (1815)'", duygu:["🏴"] },
+  d:"1797'de Fransa'ya geçen Ayamavra ve öteki İyon adaları, Napolyon'un kesin yenilgisinin ardından 5 Kasım 1815'te Paris'te İngiltere, Rusya, Avusturya ve Prusya arasında imzalanan özel antlaşmayla 'Yedi Ada Birleşik Devletleri' adı altında İngiliz himayesine bırakıldı — bu, 20 Kasım 1815'teki genel Paris Antlaşması'ndan AYRI bir belgedir. Himaye 1864'e kadar sürecek, sonra adalar Yunanistan'a devredilecekti.", ic_not_d:"KUTU-H4-1015: önceki not 'TDV kapsamıyor' diyordu — YANLIŞ. TDV 'Yedi Ada Cumhuriyeti' maddesi 5 Kasım'da Paris'te İngiltere, Avusturya, Prusya ve Rusya arasında imzalanan mukavelenâmeyle adaların İngiltere'ye bırakıldığını ve Osmanlı'nın kongreye katılmadığını yazar (15 Ekim 2026'da GET ile okundu).",
+  kaynak:"yedi-ada-cumhuriyeti", duygu:["🏴"] },
 
 { t:"1688-01-17", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Munkács (Mukacheve) kalesinin üç yıllık kuşatma sonrası Avusturya'ya teslimi",
@@ -233,7 +241,7 @@ window.OLAYLAR_EK17 = [
   yer:"Munkács (Mukacheve)", yer_id:"Munkács (Mukacheve)",
   kisiler:"İlona Zrínyi, General Antonio Caraffa",
   d:"İmparatorluk kuvvetlerince 1685 sonunda kuşatılan Munkács kalesi, Thököly İmre'nin eşi İlona Zrínyi idaresinde üç yıl boyunca direndi; çok sayıda yayımlanmış başvuru eserine göre kale 17 Ocak 1688'de General Antonio Caraffa'ya teslim edildi. Bu, Osmanlı-Habsburg cephesinde Macaristan'daki Osmanlı yanlısı direnişin son büyük kalelerinden birinin düşüşüydü.", ic_not_d:"⚠️ VERİ DÜZELTMESİ: `data/yerlesimler_ek_macaristan.js`'i yazan oturum, Değişmez 2'yi açmamak için BİLEREK bu tarihi Eğri'nin (Eger, ~250 km uzak, ayrı bir kuşatma) düşüş gününe (1687-12-17) eşitlemiş ve bunu kendi yorumunda açıkça 'sadeleştirme, ölçüm değil' diye işaretlemişti — çare olarak da tam bu maddenin yazılmasını önermişti. Bu madde inince koordinatör tarihi 1687-12-17 → 1688-01-17 olarak GERÇEĞİNE çekti (§7, VERİ SAHİPLİK/koordinatör yetkisi); ikisi AYNI turda inmezse Değişmez 2 açılırdı.",
-  kaynak:"bulunamadı — TDV'de Munkács'ın müstakil maddesi yok, 17 Ocak 1688 tarihi çok sayıda yayımlanmış başvuru eserinde (hungarianottomanwars.com, Encyclopedia.com, Wikipedia) tekrarlanıyor ama hakemli akademik kaynakta doğrulanamadı — CLAUDE.md §4 kırmızı çizgisi gereği bu popüler/derleme kaynaklar tek dayanak sayılmadı, eksiklik açıkça yazıldı" },
+  kaynak:"bulunamadı — TDV'de Munkács'ın müstakil maddesi yok, 17 Ocak 1688 tarihi çok sayıda yayımlanmış başvuru eserinde (hungarianottomanwars.com, Encyclopedia.com, Wikipedia) tekrarlanıyor ama hakemli akademik kaynakta doğrulanamadı — kaynak kuralı gereği bu popüler/derleme kaynaklar tek dayanak sayılmadı, eksiklik açıkça yazıldı" },
 
 // ── DOGU-SAFEVI-0086 (9 Ekim 2026): üç kırılmanın maddesi — 0086/H-0002 · H-0007 ──
 { t:"1485-01-01", kesinlik:"yil", k:"siyaset", etiket:["siyaset","toprak-kayip","konu-siyasi"], kapsam:"dis",

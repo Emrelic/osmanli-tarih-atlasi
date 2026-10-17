@@ -46,7 +46,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"TDV, madde: seybaniler" },
 
 { taraflar:["buhara"], t:"1510-12-02",
-  b:"Şeybânî Han'ın Merv'de yenilip öldürülmesi ⭐ (dunya paylaşılan olay)",
+  b:"Şeybânî Han'ın Merv'de yenilip öldürülmesi",
   tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","hukumdar","buhara","konu-askeri","konu-kisiler","konu-hanedan"],
   yer_id:"Merv (Mari)",
@@ -83,7 +83,7 @@ window.KRONOLOJI_OZBEK = [
   etiket:["mimari","din","buhara","imar","konu-din","konu-imar","konu-egitim"],
   yer_id:"Buhara",
   d:"Ubeydullah Han'ın mânevî hocası Şeyh Seyyid Abdullah el-Yemânî'nin ('Mîr-i Arab') adını taşıyan medrese, Ubeydullah'ın finansmanıyla tamamlandı; bugün de faal olan yapı, Buhara'nın Şeybânî dönemindeki en önemli dinî-ilmî kurumlarından biri oldu. İnşa tarihi kaynaklarda 1530-1536 arasında tartışmalıdır.",
-  kaynak:"standart akademik kaynak (yapı tarihi literatürü) — TDV'de 'mir-i-arab' sluğu bu oturumda çekilemedi (302), madde 'ubeydullah-han' içinde dolaylı geçiyor" },
+  kaynak:"standart akademik kaynak (yapı tarihi literatürü) — TDV'de 'mir-i-arab' sluğu çekilemedi (302), madde 'ubeydullah-han' içinde dolaylı geçiyor" },
 
 { taraflar:["buhara"], t:"1538-01-01",
   b:"Ubeydullah Han Harzem (Hîve) topraklarını işgal etti",
@@ -282,7 +282,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { taraflar:["buhara"], t:"1868-06-02",
-  b:"Buhara Emirliği Rus himayesine girdi ⭐ (dunya paylaşılan olay)",
+  b:"Buhara Emirliği Rus himayesine girdi",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","buhara","konu-askeri","konu-siyasi"],
   yer_id:"Buhara",
@@ -319,7 +319,7 @@ window.KRONOLOJI_OZBEK = [
   etiket:["din","siyaset","diplomasi","osmanli-temasi","buhara","konu-siyasi","konu-diplomasi","konu-din"],
   yer_id:"İstanbul",
   d:"Buhara'nın elli altı âlimi, Çarlık Rusya'sının artan baskısından kurtulmak için Osmanlı devletine özel bir mektupla başvurup yardım istedi; bu, 19. yüzyıl boyunca süregelen Buhara-İstanbul dinî-siyasi dayanışmasının son büyük örneklerinden biriydi (bkz. 1779 elçilik maddesi).",
-  kaynak:"standart akademik kaynak ('Diplomatical Relations between the Emirate of Bukhara and Turkey' başlıklı akademik makalenin özeti üzerinden doğrulandı; bu oturumda makalenin tam metni okunmadı, yalnız özeti)" },
+  kaynak:"standart akademik kaynak ('Diplomatical Relations between the Emirate of Bukhara and Turkey' başlıklı akademik makalenin özeti üzerinden doğrulandı; makalenin tam metni okunmadı, yalnız özeti)" },
 
 { t:"1920-09-02",
   b:"Kızıl Ordu Buhara şehrine girdi, son emir tahttan uzaklaştırıldı",
@@ -417,7 +417,7 @@ window.KRONOLOJI_OZBEK = [
   etiket:["hukumdar","hive","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"", odak_kimlik:["hive"],
   d:"Tahtı oğluna bırakıp çekildikten kısa süre sonra Ebulgazi Bahadır Han öldü. Genel Orta Asya tarihyazımında ona atfedilen ikinci büyük eser, Cengizli soy kütüğünü anlatan Şecere-i Türk'tür; standart akademik kaynaklara göre eser Ebulgazi'nin ölümü sırasında yarım kalmış, oğlu ve halefi tarafından tamamlanmıştır (yaklaşık 1665).", ic_not_d:"Ölçmedim: Şecere-i Türk TDV'nin bu oturumda çekilen özetinde doğrudan geçmiyor",
-  kaynak:"TDV, madde: ebulgazi-bahadir-han (ölüm); Şecere-i Türk'ün tamamlanması İÇİN TDV bu oturumda doğrulanamadı, standart akademik kaynağa (Orta Asya tarihyazımı literatürü) dayanılarak yazıldı" },
+  kaynak:"TDV, madde: ebulgazi-bahadir-han (ölüm); Şecere-i Türk'ün tamamlanması İÇİN TDV doğrulanamadı, standart akademik kaynağa (Orta Asya tarihyazımı literatürü) dayanılarak yazıldı" },
 
 { taraflar:["hive"], t:"1825-01-01",
   b:"Allahkulı Han döneminde hanlığın parlak çağı",
@@ -444,7 +444,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { taraflar:["hive"], t:"1873-08-12",
-  b:"Hîve Hanlığı Rus himayesine girdi ⭐ (dunya paylaşılan olay)",
+  b:"Hîve Hanlığı Rus himayesine girdi",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","hive","konu-askeri","konu-siyasi"],
   yer_id:"", odak_kimlik:["hive"],
@@ -457,7 +457,7 @@ window.KRONOLOJI_OZBEK = [
   etiket:["siyaset","diplomasi","osmanli-temasi","hive","konu-siyasi","konu-diplomasi"],
   yer_id:"", odak_yer:["Kâbil", "Buhara", "Hîve"],
   d:"Rus istilası sırasında Osmanlı devleti, Müslüman dünyasının önderi sıfatıyla önce Kâbil'e, ardından Buhara ve Hîve'ye elçiler göndererek Rusya'ya karşı bir ittifak kurmaya çalıştı; girişim, Rus askeri üstünlüğü karşısında sonuçsuz kaldı.",
-  kaynak:"standart akademik kaynak ('Diplomatical Relations between the Emirate of Bukhara and Turkey' başlıklı akademik makalenin özeti üzerinden doğrulandı; bu oturumda makalenin tam metni okunmadı, yalnız özeti)" },
+  kaynak:"standart akademik kaynak ('Diplomatical Relations between the Emirate of Bukhara and Turkey' başlıklı akademik makalenin özeti üzerinden doğrulandı; makalenin tam metni okunmadı, yalnız özeti)" },
 
 { taraflar:["hive"], t:"1920-02-02",
   b:"Son Han Seyyid Abdullah'ın tahttan çekilmesi",
@@ -566,7 +566,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { taraflar:["hokand"], t:"1865-06-29",
-  b:"Taşkent'in fethi ⭐ (dunya paylaşılan olay)",
+  b:"Taşkent'in fethi",
   tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip","hokand","konu-askeri"],
   yer_id:"Taşkent",
@@ -590,7 +590,7 @@ window.KRONOLOJI_OZBEK = [
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
 { t:"1876-02-19",
-  b:"Hokand Hanlığı ilhak edildi ⭐ (dunya paylaşılan olay)",
+  b:"Hokand Hanlığı ilhak edildi",
   tur:"son", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","son","toprak-kayip","hokand","konu-askeri","konu-siyasi"],
   yer_id:"Hokand",
@@ -600,7 +600,7 @@ window.KRONOLOJI_OZBEK = [
 // ══════════════ OSMANLI İLE TEMAS — ERKEN DÖNEM ══════════════
 
 { t:"1569-01-01",
-  b:"Osmanlı'nın Astrahan/Don-Volga seferi ⭐ (dunya paylaşılan olay)",
+  b:"Osmanlı'nın Astrahan/Don-Volga seferi",
   tur:"savas", onem:2, dunya:2, kapsam:"dis",
   etiket:["askeri","diplomasi","osmanli-temasi","buhara","konu-askeri","konu-diplomasi"],
   yer_id:"Astrahan",
@@ -613,6 +613,6 @@ window.KRONOLOJI_OZBEK = [
   etiket:["siyaset","diplomasi","osmanli-temasi","buhara","konu-siyasi","konu-diplomasi"],
   yer_id:"İstanbul",
   d:"Buhara Emiri, oğlunu Osmanlı payitahtına elçi olarak gönderdi; I. Abdülhamid (1774-1789) bu girişimi kabul ederek iki devlet arasındaki siyasi ve ticari ilişkilerin güçlendirilmesini onayladı. Bu, Mangıt döneminin (1785) hemen öncesindeki son Canoğulları-Osmanlı temasıydı.",
-  kaynak:"standart akademik kaynak ('Diplomatical Relations between the Emirate of Bukhara and Turkey' başlıklı akademik makalenin özeti üzerinden doğrulandı; bu oturumda makalenin tam metni okunmadı, yalnız özeti)" },
+  kaynak:"standart akademik kaynak ('Diplomatical Relations between the Emirate of Bukhara and Turkey' başlıklı akademik makalenin özeti üzerinden doğrulandı; makalenin tam metni okunmadı, yalnız özeti)" },
 
 ];

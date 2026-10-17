@@ -298,7 +298,8 @@ window.KRONOLOJI_BALKAN = [
 { taraflar:["karadag"], t:"1877-09-01", b:"Nikšić, Podgorica ve Bar alındı, Ülgün ele geçirildi", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas","konu-askeri"], yer_id:"Podgorica",
   d:"Savaşın son evresinde Karadağ kuvvetleri Nikšić'i, ardından Podgorica ve Bar'ı ele geçirdi; Ülgün de düştü. Bu fetihler bir yıl sonra Berlin'de tanınacak kazanımların fiilî zemini oldu.", ic_not_d:"(data/yerlesimler.js) · Yerel atlas kaydı Podgorica'yı 'karadag'a diplomatik tanıma tarihiyle (1878-07-13) bağlıyor; fiilî fetih on ay önce, burada.",
-  kaynak:"TDV `karadag`: 'Savaşın sonlarına doğru Nikšić, Podgorica, Bar'ı aldı, Ülgün'ü (Dulcigno) ele geçirdi.' Ay: standart akademik kaynak." },
+  kaynak:"TDV `karadag`: 'Savaşın sonlarına doğru Nikšić, Podgorica, Bar'ı aldı, Ülgün'ü (Dulcigno) ele geçirdi.' Ay: standart akademik kaynak.",
+  ic_not_gun:"KUTU-VERI-1015 (0076/H-0048): Nikšić'in günü ayrı kaynakla bulundu — ESBE 'Никшич' (https://ru.wikisource.org/wiki/ЭСБЕ/Никшич, t. XXI 1897, Jülyen takvimi): 'кн. Николай 10 июля подошел к Н. … и начал осаду; 27 августа город сдался' ⇒ teslim 27 Ağustos (Jülyen) = 8 Eylül 1877 (Gregoryen); 'Н., в 1878 г. окончательно присоединенный к Черногории'. Madde dört şehri tek tarihte topladığı için t değiştirilmedi; Podgorica/Bar/Ülgün aynı güne ait DEĞİL. Nikšić'in atlasta NOKTASI YOK (1281-1877 zinciri kaynakla kurulamadı)." },
 
 { taraflar:["karadag"], t:"1878-03-03", b:"Ayastefanos Antlaşması — bağımsızlık ilk kez tanındı", tur:"antlasma",
   onem:3, dunya:3, kapsam:"dis", etiket:["antlasma","konu-diplomasi"], yer_id:"", kapsam_genis:true,
@@ -376,7 +377,8 @@ window.KRONOLOJI_BALKAN = [
 
 { taraflar:["bulgar-carligi"], t:"1277-01-01", b:"İvaylo Ayaklanması — köylü çar", tur:"isyan",
   onem:3, dunya:2, kapsam:"ic", etiket:["sosyal","isyan","konu-isyan","konu-sosyal"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", kapsam_genis:true, odak_yer:["Tırnova"],
+  ic_not:"odak_yer YALNIZ kamera içindir, olayın yeri değildir: kaynak (TDV bulgaristan) ayaklanmanın başladığı yeri vermez ('bütün ülke'); Tırnova Bulgar başkenti ve İvaylo'nun 1278'de çar olduğu şehirdir. Atlasın gövdesi 1246-1281 arası Bulgar çarlığını boyamadığı için (ufuk 1000'e açılınca) künye sekmesi bu madde için gövdeye uçamıyordu.",
   d:"Domuz çobanı İvaylo önderliğindeki bir köylü ayaklanması, Moğol (Altın Orda) akınları ve saray zaafı karşısında bozguna uğrayan merkezi otoriteye karşı patlak verdi; İvaylo kısa süreliğine tahtı ele geçirip çar oldu (1278-1280). Ortaçağ Balkanları'nda nadir görülen bir köylü isyanı olarak Bulgar tarih yazımında özel bir yer tutar.",
   kaynak:"bulunamadı — TDV `bulgaristan` maddesi bu olaydan bahsetmiyor; dayanak: akademik (Fine, The Late Medieval Balkans, 1994)." },
 
@@ -390,7 +392,7 @@ window.KRONOLOJI_BALKAN = [
   onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","bolunme","konu-siyasi","konu-kisiler"],
   yer_id:"Tırnova",
   d:"İvan Aleksandır'ın (1331-1371) ölümüyle çarlık, oğulları arasında Tırnova (İvan Şişman) ve Vidin (İvan Sratsimir) çarlıkları olarak ikiye bölündü; bu bölünme Osmanlı ilerleyişine karşı ortak bir cephe kurulmasını imkânsızlaştırdı ve fethi hızlandırdı.", ic_not_d:"Tarih devletler.js `bulgar-carligi` künyesiyle birebir eşleşiyor.",
-  kaynak:"devletler.js `bulgar-carligi` künyesi: 'İvan Aleksandır'ın ölümüyle devlet Tırnova ve Vidin çarlıklarına bölündü.' ⚠️ WebFetch ile çekilen TDV `bulgaristan` özeti bu olayı '1365' olarak veriyordu; İvan Aleksandır'ın ölüm yılının tarihyazımında 1371 olduğu akademik literatürle (Fine) doğrulandığı için 1365 KULLANILMADI, çelişki not edildi." },
+  kaynak:"devletler.js `bulgar-carligi` künyesi: 'İvan Aleksandır'ın ölümüyle devlet Tırnova ve Vidin çarlıklarına bölündü.' Dikkat: WebFetch ile çekilen TDV `bulgaristan` özeti bu olayı '1365' olarak veriyordu; İvan Aleksandır'ın ölüm yılının tarihyazımında 1371 olduğu akademik literatürle (Fine) doğrulandığı için 1365 KULLANILMADI, çelişki not edildi." },
 
 { taraflar:["bulgar-carligi"], t:"1375-01-01", b:"Evtimiy Tırnova Patrikliği'ne getirildi — Tırnova Edebiyat Okulu zirvede", tur:"din",
   onem:3, dunya:1, kapsam:"ic", etiket:["kultur","din","konu-din","konu-kultur","konu-egitim"],
@@ -404,11 +406,12 @@ window.KRONOLOJI_BALKAN = [
   d:"1388-1389 kışında yürütülen Osmanlı seferi sırasında Şumnu, halkının kale anahtarlarını teslim etmesiyle çatışmasız ele geçirildi; kumandan Çandarlı Ali Paşa'ydı.", ic_not_d:"Tarih yerlesimler.js'teki Şumnu kaydıyla (s: bulgaristan biter 1388-01-01) örtüşüyor.",
   kaynak:"TDV `sumnu`: 790-791 (1388-1389) kışında şehrin kale anahtarlarının halk tarafından teslim edildiği, Çandarlı Ali Paşa'nın kaleyi savaşsız aldığı belirtiliyor." },
 
-{ t:"1393-07-17", b:"Tırnova'nın düşüşü — Bulgar Krallığı'na son verildi", tur:"toprak-kayip",
+{ t:"1393-06-17", b:"Tırnova'nın düşüşü — Bulgar Krallığı'na son verildi", tur:"toprak-kayip",
+  ic_not_t:"eski gün 1393-07-17 TDV'de yok; TDV «Tırnova (Bulgaristan)» ve «Bayezid I» (ham metin 14 Ekim 2026 okundu) 17 Haziran 1393 der — 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014), yerleşim uçlarıyla birlikte kaydırıldı.",
   onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],
   yer_id:"Tırnova",
   d:"Yıldırım Bayezid'in kuşatmasıyla başkent Tırnova düştü ve İvan Şişman'ın çarlığı fiilen sona erdi; Vidin'de İvan Sratsimir'in yönetimindeki ikinci parça üç yıl daha direnecektir. TDV maddesi olayı doğrudan 'Bulgar Krallığı'na son verildi' diye özetliyor.", ic_not_d:"Tarih yerlesimler.js ve devletler.js'teki Tırnova kayıtlarıyla birebir eşleşiyor.",
-  kaynak:"TDV `bulgaristan`: 1393'te Tırnova düştü, Bulgar Krallığı'na son verildi." },
+  kaynak:"TDV İslâm Ansiklopedisi, «Tırnova (Bulgaristan)» https://islamansiklopedisi.org.tr/tirnova--bulgaristan — «şehri tekrar zaptetti (17 Haziran 1393)» ; TDV `bulgaristan`: 1393'te Tırnova düştü, Bulgar Krallığı'na son verildi." },
 
 { taraflar:["bulgar-carligi"], t:"1395-06-03", b:"Niğbolu kalesi Osmanlı'ya geçti", tur:"toprak-kayip",
   onem:2, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],

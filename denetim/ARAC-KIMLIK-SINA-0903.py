@@ -64,6 +64,10 @@ def kimlikler(obj, cikti):
             kimlikler(e, cikti)
 
 TOPLAM = {}
+IHLAL = []        # cikis 1: bulgu
+OLCULEMEDI = []   # cikis 2: olculemedi
+if not sys.argv[1:]:
+    OLCULEMEDI.append("girdi JSON verilmedi")
 for yol in sys.argv[1:]:
     veri = json.load(io.open(yol, encoding="utf-8"))
     bulgu = []
@@ -71,6 +75,7 @@ for yol in sys.argv[1:]:
     ad = os.path.basename(yol)
     if not bulgu:
         print("%-42s  🔴 HIC `d:` YOK — zincir tasimayan liste" % ad)
+        IHLAL.append("%s: hic d: yok" % ad)
         continue
     kume = {}
     for kid, f, t in bulgu:
@@ -100,6 +105,8 @@ def bas(baslik, liste, isaret):
         print("     %-34s %3d donem  %s" % (kid, d["donem"], ", ".join(sorted(d["dosya"]))))
     print()
 
+IHLAL += ["kunye yok: %s" % k for k in yok_kunye]
+IHLAL += ["renk yok: %s" % k for k in yok_renk]
 bas("KUNYE YOK        (§3.5 hayalet — yazilamaz)", yok_kunye, "🔴")
 bas("RENK YOK         (§8 boyanmaz — bosluk kapanmis GORUNUR)", yok_renk, "🔴")
 print("🟢 KUNYE + RENK TAM : %d" % len(tamam))
@@ -132,6 +139,7 @@ for kid in tamam:
     kf, kt = gun(k.get("f")), gun(k.get("t"))
     if kf is None or kt is None:
         tasan.append((kid, "?", "?", "kunye f/t EKSIK ya da AYRISTIRILAMADI — olculemedi"))
+        OLCULEMEDI.append("%s: kunye f/t olculemedi" % kid)
         continue
     for f, t, ad in TOPLAM[kid]["araliklar"]:
         gf, gt = gun(f), gun(t)
@@ -139,11 +147,21 @@ for kid in tamam:
             continue
         if gf < kf:
             tasan.append((kid, f, t, "donem kunyeden ONCE basliyor (kunye f=%s)" % k.get("f")))
+            IHLAL.append("hayalet: %s %s" % (kid, f))
         if gt > kt:
             tasan.append((kid, f, t, "donem kunyeden SONRA bitiyor (kunye t=%s)" % k.get("t")))
+            IHLAL.append("hayalet: %s %s" % (kid, t))
 if tasan:
     print("🔴 HAYALET RISKI : %d" % len(tasan))
     for kid, f, t, nic in tasan:
         print("     %-30s %s → %s   %s" % (kid, f, t, nic))
 else:
     print("🟢 hicbir donem kunye omrunun disina tasmiyor")
+
+# ---- CIKIS KODU (CLAUDE.md §3: 0 temiz · 1 ihlal · 2 olculemedi) --------
+# Otomasyon cumleyi degil cikis kodunu okur; ihlal olculemeyenden once gelir.
+if IHLAL:
+    print("SONUC: IHLAL %d" % len(IHLAL)); sys.exit(1)
+if OLCULEMEDI:
+    print("SONUC: OLCULEMEDI %s" % "; ".join(OLCULEMEDI)); sys.exit(2)
+print("SONUC: temiz"); sys.exit(0)

@@ -39,7 +39,7 @@ window.YER_YAMA_ARNAVUTLUK = [
       { f: "1356-01-01", t: "1387-01-01", d: "zeta" },
       { f: "1387-01-01", t: "1393-05-01", d: "dukagin" },
       { f: "1393-05-01", t: "1478-06-15", d: "venedik" },
-      { f: "1912-11-28", t: "1923-10-29", d: "arnavutluk-bagimsiz" }
+      { f: "1912-11-28", t: "1939-04-07", d: "arnavutluk-bagimsiz" },{f:"1939-04-07",t:"1943-09-08",d:"arnavutluk-italyan-koruma",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1943-09-08",t:"1944-11-29",d:"arnavutluk-alman-himayesi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1944-11-29",t:"1991-04-29",d:"arnavutluk-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1991-04-29",t:"2000-12-31",d:"arnavutluk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}
     ],
     kaynak: "les"
   },

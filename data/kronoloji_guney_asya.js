@@ -244,7 +244,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 { taraflar:["nepal"], t:"1743-01-01", b:"Pritvi Narayan Şah Gorkha tahtına çıktı", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic",
   etiket:["hukumdar","kurulus","konu-siyasi","konu-hanedan"], yer_id:"Katmandu",
-  d:"[Nepal — Gorkha] Batıdaki küçük Gorkha beyliğinin başına geçen hükümdar, ömrünü Katmandu vadisini ele geçirmeye adadı. Bugünkü Nepal Krallığı'nın kurucusu sayılır. (TDV birleşmeyi 1742'ye bağlar; akademik literatür cülûsu 1743, vadinin fethini 1768-1769 olarak verir — bu dosya iki tarihi ayrı maddelerde tutar.)",
+  d:"[Nepal — Gorkha] Batıdaki küçük Gorkha beyliğinin başına geçen hükümdar, ömrünü Katmandu vadisini ele geçirmeye adadı. Bugünkü Nepal Krallığı'nın kurucusu sayılır. (TDV birleşmeyi 1742'ye bağlar; akademik literatür cülûsu 1743, vadinin fethini 1768-1769 olarak verir — iki tarih ayrı maddelerde tutulur.)",
   kaynak:"nepal (TDV): \"Gurka hânedanından Pritvi Narayan 1742'de ... Nepal Krallığı'nın temelini attı\"; tarih ayrımı için Cambridge History of India" },
 
 { taraflar:["nepal"], t:"1767-01-01", b:"Kinloch kumandasındaki İngiliz seferi Gorkha kuvvetleri karşısında geri püskürtüldü", tur:"savas", onem:4, dunya:2, kapsam:"dis",

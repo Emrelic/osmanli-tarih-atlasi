@@ -1,0 +1,3 @@
+KUTU-ENVANTER-1012: Atlas paket maddelerinin envanteri (hukum dagilimi)
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>

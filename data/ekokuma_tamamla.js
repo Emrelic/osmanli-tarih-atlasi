@@ -65,7 +65,7 @@ window.EKOKUMA_TAMAMLA = [
 
 // ═══ H-0029 (1/2) — geleneksel spor ═════════════════════════════════════════
 
-{ id:"teknik-osmanli-spor-gelenekleri", tur:"spor",
+{ id:"teknik-osmanli-spor-gelenekleri", baslik:"Osmanlı'da güreş ve spor gelenekleri", tur:"spor",
   kisa:"Padişahlar pehlivanlara tekke açtı, ödül dağıttı, kimi zaman da yasakladı — güreş Osmanlı'da bir eğlence değil, devlet işiydi.",
   metin:"■ GÜREŞÇİ TEKKELERİ\n"
     +"Pehlivanlık kurumsal bir yapıydı: bir şeyh liderliğinde 'dervişler' denen güreşçiler tekkelerde örgütlenir, konaklama ve antrenman meydanı bu tekkelerde bulunur, giderleri vakıf gelirinden karşılanırdı. Orhan Bey Bursa'da, I. Murad Edirne'de (Ali Paşa Çarşısı yakınında) ilk tekkeleri açtı; II. Murad Manisa'da, sonra İstanbul'da Unkapanı ve Şebsafâ civarında benzerleri kuruldu.\n\n"
@@ -102,7 +102,7 @@ window.EKOKUMA_TAMAMLA = [
 
 // ═══ H-0034 — sosyal yaşam: kıyafet ve toplumsal statü ══════════════════════
 
-{ id:"teknik-osmanli-kiyafet-statu", tur:"kultur-sanat",
+{ id:"teknik-osmanli-kiyafet-statu", baslik:"Osmanlı'da kıyafet ve statü", tur:"kultur-sanat",
   kisa:"Bir sadrazamı sokakta tanımak için konuşmasını duymaya gerek yoktu — kıyafeti zaten söylüyordu.",
   metin:"■ KIYAFET, BİR KİMLİK KARTIYDI\n"
     +"Osmanlı toplumunda giysi rastgele bir tercih değildi: resmî görevliler, askerî zümreler, din görevlileri ve tarikat mensuplarının her biri kendine has kıyafetiyle tanınırdı. Beyaz renk bir ayrıcalık sayılırdı — sadrazam ve şeyhülislâm gibi en üst rütbeliler beyaz merasim elbisesiyle ayırt edilirdi.\n\n"
@@ -119,7 +119,7 @@ window.EKOKUMA_TAMAMLA = [
 
 // ═══ H-0054 — topçuluk ve gemicilik ══════════════════════════════════════════
 
-{ id:"teknik-tophane-tersane-amire", tur:"teknik-bilimsel",
+{ id:"teknik-tophane-tersane-amire", baslik:"Tophâne-i Âmire ve Tersâne-i Âmire", tur:"teknik-bilimsel",
   kisa:"Bir top dökümhanesi ile bir tersane, Osmanlı'yı XVI. yüzyılda Avrupa'ya karşı üstün kılan iki devlet fabrikasıydı.",
   metin:"■ TOPHÂNE-İ ÂMİRE — TOP DÖKÜMÜ\n"
     +"İstanbul'un fethinden sonra Galata yakınında faaliyete geçen Tophâne-i Âmire Osmanlı'nın en önemli top döküm merkeziydi (Edirne'de fetihten önce de sabit bir tophane vardı). Kanûnî Sultan Süleyman döneminde (1520-1566) bütün yapılar yıktırılıp daha büyük tesisler kuruldu; XV-XVI. yüzyıllar topçulukta bir 'altın çağ' sayılır — Osmanlı bu alanda Avrupalı rakiplerine üstünlük sağladı. 1719'daki bir yangında binalar yandı, 1733'te tuğladan yeniden inşa edildi. XIX. yüzyılda II. Mahmud döneminde (1808-1839) İngiltere'nin Woolwich Cephanesi örnek alınarak tesisler yenilendi.\n\n"

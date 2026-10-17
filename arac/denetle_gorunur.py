@@ -41,7 +41,13 @@ import os
 import re
 import sys
 
-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
+# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
+# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
+# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
+# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
+# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
+if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
+        and hasattr(sys.stdout, "buffer")):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -291,7 +297,8 @@ def kronoloji_icerigi():
     """④ — kronoloji maddelerinin başlığı/detayı boş mu, tarihi zaman çubuğunun dışında mı."""
     bulgular = []
     olaylar = _d.olaylari_yukle()
-    baslangic, bitis = _d.gun_no("1281-01-01"), _d.gun_no("1923-10-29")
+    # ZAMAN-Z1-1008: zaman çubuğu = motor ufku (app.js BASLANGIC/BITIS ile aynı değer)
+    baslangic, bitis = _d.gun_no(_girdi.UFUK[0]), _d.gun_no(_girdi.UFUK[1])
     for o in olaylar:
         if not (o.get("b") or "").strip():
             bulgular.append(("bos-baslik", o.get("t"), "", "başlık (b:) boş"))
@@ -300,7 +307,7 @@ def kronoloji_icerigi():
         gi = _d.gun_no(o["t"])
         if gi < baslangic or gi > bitis:
             bulgular.append(("tarih-disi", o.get("t"), o.get("b", ""),
-                              "zaman çubuğu [1281-01-01, 1923-10-29] dışında"))
+                              "zaman çubuğu [%s, %s] dışında" % _girdi.UFUK))
     return bulgular
 
 

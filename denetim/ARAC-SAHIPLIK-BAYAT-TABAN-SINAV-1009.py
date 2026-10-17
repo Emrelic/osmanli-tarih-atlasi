@@ -22,7 +22,15 @@ GERÇEK (HEAD'den geçici worktree, yalnız KURU koşu, glob = Z5 gövdesi `yer_
   R2  bayat küme = BAĞIMSIZ kâhin (node ile rev ve bugün okunur; araçtan bağımsız) − aracın ATLANAN'ı
   R3  `--taban` yok (beyansız)                                  → çıkış 3, "temiz" DEĞİL
   R4  ESKİ araç (origin/main) aynı koşulda                      → çıkış 0 (kusurun ölçümü)
-  R5  83'lük ARAC-ZAMAN-Z5-SINAV listesiyle karşılaştırma (RAPOR — fark AÇIKLANIR, sınav düşmez)
+  R5  kapı BAYAT ∪ aracın ATLANAN'ı = DİLİM KÂHİNİ, fark 0 — ikisi AYNI ANDA, AYNI ağaçta hesaplanır.
+      Kâhin araçtan bağımsızdır: node yamayı ve bugünkü veriyi okur, kayıt kayıt 1281-1923
+      DİLİMİNİ (f < 1923-10-29 dönemler, t'si 1923-10-29'a kırpılmış) karşılaştırır.
+      🔴 SABİT SAYI ÖLÇÜT DEĞİLDİR (eski "83" her inişte bayatlıyordu); yalnız BİLGİ basılır.
+      R5b  kâhinden bir ad çıkarılınca (gerçek kümelerde) R5 KALIR ve adı basar
+      R5c  sayan = basan: her liste tek kaynaktan, basılan satır sayısı = sayı (kendi içinde ASSERT)
+ÖZ (hızlı kolda da koşar, gerçek veri istemez):
+  Ö1-Ö3  r5_karsilastir iki yönde (eşit → geçer · kâhinden eksik / kapıda fazla → kalır, ADIYLA)
+  Ö4-Ö6  bas_liste ASSERT'i iki yönde (normal → geçer · NFC/NFD ikiz ad · satır sonlu ad → öter)
 SON  C:\\atlas ve C:\\atlas-umit `git status --short` sınavdan önce ve sonra AYNI.
 
 Çıkış: 0 hepsi geçti · 1 en az biri kaldı · 2 sınav koşulamadı.
@@ -35,6 +43,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import unicodedata
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -51,14 +60,80 @@ import girdi_listesi  # noqa: E402
 
 HEDEF = os.path.basename(girdi_listesi.GIRDI_DOSYALARI[0])
 
-# 83 — denetim/ZAMAN-PAKET-1009.md §5 (ARAC-ZAMAN-Z5-SINAV-1008, bugünkü veriye karşı "1281-1923 dilimi değişti")
-Z5_83 = set("""Ambohimanga|Andican|Ankara|Ardahan|Arpaçay|Ayn el-Ğazâle|Bakü|Beri|Bihaç|Bosna Brod'u|Bosna Dubiçası|
-Bosna Novi'si|Budin|Cabalpûr|Cetin|Coweta|Derne|Digor|Drežnik|Eperjes|Erciş|Ereş|Etowah|Eğri|Fülek|Gence|Harput|
-Hemedan|Herseknovi|Hoima|Hokand|Hucend|Iğdır|Jasenovaç|Kabala|Kahnawake|Kanije|Karahisâr-ı Şarkî|Kars|Kassa|Kirman|
-Kostayniçe|Kotabato|Krupa|Kuba|Küçükperveli|Kızıl Kızılderili Gölü|Luang Prabang|Luristan|Mahmudâbâd|Masindi|Muang Sing|
-Nitra|Ocmulgee|Ossossané|Oş|Peşte|Plaisance|Reşt|Sainte-Marie|Salyan|Sarıkamış|Savannakhet|Sisak|Taşkent|Toamasina|
-Tokaj|Tsiroanomandidy|Tulmeyse|Udbina|Uyvar|Vientiane|Werowocomoco|Xieng Khouang|Yanıkkale|Yendi|Yezd|Zagros içi|
-Zencan|Zigetvar|Şamahı|Şiraz|Şâbüran""".replace("\n", "").split("|"))
+# R5 — BİLGİ, ÖLÇÜT DEĞİL. Eski R5 bu kümeyi sabit "83" listesiyle karşılaştırıyordu; 9 Ekim gecesinin
+#   12 inişi 15 kaydı daha bayatlattı ve sınav DOĞRU kapıyı reddetti (sabit bayatlığı, §3.4-⓪).
+#   Artık ölçüt, aynı anda aynı ağaçta hesaplanan dilim kâhinidir; bu satır yalnız "son bilinen" diye basılır.
+#   Kanıt: 3429ead9 → b3fd8874 arası 21 commit sayıyı 98'den 170'e taşıdı; sabit sınav düşerdi, bu R5 iki uçta da fark 0.
+R5_SON_OLCUM = ("kapı 100 + atlanan 70 = kâhin 170 · 10 Ekim 2026 · origin/main b3fd8874 "
+                "(önce: 91 + 7 = 98 · 3429ead9 · 76 + 7 = 83 · 36186769) — denetim/SAHIPLIK-BAYAT-TABAN-R5-1009.md")
+UC = "1923-10-29"
+DILIM_ALAN = ("s", "isg", "v")    # Z5 yamasının yazdığı dönemli alanlar
+
+
+def pad(t):
+    y, _, r = (t or "").partition("-")
+    return y.zfill(5) + "-" + r
+
+
+def dilim(donemler):
+    """1281-1923 dilimi: f < UC olan dönemler, t'si UC'ye kırpılmış; sıra bağımsız (küme)."""
+    out = set()
+    for p in donemler or []:
+        if not isinstance(p, dict) or pad(p.get("f")) >= pad(UC):
+            continue
+        q = dict(p)
+        if q.get("t") and pad(q["t"]) > pad(UC):
+            q["t"] = UC
+        out.add(kanon(q))
+    return out
+
+
+def dilim_kahini(j):
+    """j = KAHIN_JS çıktısı. Yamanın 1281-1923 dilimi bugünkü veriden FARKLI olan kayıtlar.
+    Araçtan bağımsız: tabanı hiç okumaz, aracın mekanizmasını (taban ≠ bugün) taklit etmez."""
+    farkli, belirsiz = set(), set()
+    for x in j["yama"]:
+        bu = j["bugun"].get(x["ad"], [])
+        if len(bu) != 1:
+            belirsiz.add(x["ad"])
+            continue
+        if any(alan in x and dilim(x[alan]) != dilim(bu[0].get(alan)) for alan in DILIM_ALAN):
+            farkli.add(x["ad"])
+    return farkli, belirsiz
+
+
+class SayimBasimAyristi(Exception):
+    """D225 sınıfı: SAYAN ile BASAN ayrıştı."""
+
+
+def bas_liste(baslik, adlar, yaz=print):
+    """Sayan ve basan AYNI listeden: sayı = len(adlar), her ad TEK satır. Basılan satır sayısı ve
+    görünür (NFC) tekillik sayıya eşit değilse SayimBasimAyristi atar — ', '.join kırpılınca ya da iki
+    ad ekranda aynı görününce sayının basılandan sessizce ayrışması (eski R5'in "15 dedi, 14 bastı") burada öter."""
+    adlar = sorted(adlar)
+    govde = "\n".join("      " + a for a in adlar)
+    yaz("    %s (%d):" % (baslik, len(adlar)))
+    if govde:
+        yaz(govde)
+    basilan = govde.split("\n") if govde else []
+    gorunen = {unicodedata.normalize("NFC", s.strip()) for s in basilan}
+    if len(basilan) != len(adlar) or len(gorunen) != len(adlar) or "" in gorunen:
+        raise SayimBasimAyristi("%s: sayı %d · basılan satır %d · görünür tekil %d"
+                                % (baslik, len(adlar), len(basilan), len(gorunen)))
+    return len(basilan)
+
+
+def r5_karsilastir(kapi, atlanan, kahin, belirsiz=(), yaz=print):
+    """kapı ∪ atlanan (belirsiz hariç) = kâhin. Fark ADIYLA basılır. Döner: (geçti, yalnız_kapı, yalnız_kâhin)."""
+    birlesim = (set(kapi) | set(atlanan)) - set(belirsiz)
+    yk, yh = birlesim - set(kahin), set(kahin) - birlesim
+    yaz("    kapı %d · atlanan %d · ortak %d · birleşim %d · kâhin %d · fark %d/%d"
+        % (len(kapi), len(atlanan), len(set(kapi) & set(atlanan)), len(birlesim), len(kahin), len(yk), len(yh)))
+    if yk:
+        bas_liste("FARK — kapıda/atlananda var, kâhinde YOK", yk, yaz)
+    if yh:
+        bas_liste("FARK — kâhinde var, kapıda/atlananda YOK", yh, yaz)
+    return not yk and not yh, yk, yh
 
 # ─────────────────────────────────────────────────────────────── yardımcılar
 sonuc = []
@@ -298,7 +373,7 @@ def kahin(W, tmp, girdi_dosyalari):
             if alan in x and kanon(x[alan]) != kanon(bu[0].get(alan)) \
                     and kanon(ta[0].get(alan)) != kanon(bu[0].get(alan)):
                 bayat.add(x["ad"])
-    return bayat, belirsiz, len(j["yama"])
+    return bayat, belirsiz, len(j["yama"]), j
 
 
 def gercek(eski_arac):
@@ -332,7 +407,7 @@ def gercek(eski_arac):
              ", ".join(sorted(olc)[:8]))
 
         gfiles = [os.path.basename(f) for f in girdi_listesi.GIRDI_DOSYALARI]
-        k_bayat, k_belirsiz, n = kahin(W, tmp, gfiles)
+        k_bayat, k_belirsiz, n, kj = kahin(W, tmp, gfiles)
         beklenen = k_bayat - atl
         print("  kâhin (node, araçtan bağımsız): %d yama kaydı · bayat %d · belirsiz %d · bayat∩atlanan %d"
               % (n, len(k_bayat), len(k_belirsiz), len(k_bayat & atl)))
@@ -348,30 +423,83 @@ def gercek(eski_arac):
             shutil.copy(os.path.join(KOK, "arac", "_sahiplik_uygula.py"), os.path.join(W, "arac"))
         sina("R6 geçici worktree'de data/ yazılmadı", git(W, "status", "--porcelain", "--", "data/") == once)
 
-        # R5 — 83 ile karşılaştırma. md'deki liste adları KISALTILMIŞ yazıyor ("Budin", "Bihaç"
-        #   ↔ veride "Bihaç (Bihać)") ⇒ ad, md adına eşit ya da md adı + " (" / "-" ile başlıyorsa eşleşir.
-        def esle(a):
-            return next((n for n in Z5_83 if a == n or a.startswith(n + " (") or a.startswith(n + "-")), None)
-        bay83 = {esle(a) or a for a in bay}
-        atl83 = {esle(a) or a for a in atl}
-        print("\n  R5 — 83'lük ARAC-ZAMAN-Z5-SINAV listesiyle (ad eşleştirmeli):")
-        print("    araç %d · 83 · kesişim %d · 83 − araç = %d, bunların ATLANAN'da olanı %d"
-              % (len(bay), len(bay83 & Z5_83), len(Z5_83 - bay83), len((Z5_83 - bay83) & atl83)))
-        sina("R5 araç (bayat taban) ∪ aracın ATLANAN'ı (KAPSAM DARALDI) = 83, artık 0",
-             bay83 <= Z5_83 and (Z5_83 - bay83) <= atl83,
-             "yalnız araçta %s · 83'te olup ne bayat ne atlanan %s"
-             % (sorted(bay83 - Z5_83)[:6], sorted((Z5_83 - bay83) - atl83)[:6]))
-        y83 = sorted(Z5_83 - bay83)
-        print("    yalnız 83'te (%d):" % len(y83))
-        for a in y83:
-            seb = next((x["sebep"] for x in r.get("atlanan", []) if (esle(x["ad"]) or x["ad"]) == a), None)
-            print("      %-26s %s" % (a, ("ATLANAN: " + seb[:90]) if seb else "ne bayat ne atlanan"))
-        ya = sorted(bay83 - Z5_83)
-        print("    yalnız araçta (%d): %s" % (len(ya), ", ".join(ya)))
-        print("    ARAÇ BAYAT LİSTESİ (%d): %s" % (len(bay), ", ".join(sorted(bay))))
+        # R5 — kapı ∪ atlanan = DİLİM KÂHİNİ (aynı anda, aynı ağaç W). Sabit sayı yalnız BİLGİ.
+        #   Kâhin aracın HİÇBİR kodunu paylaşmaz: veriyi node okur (KAHIN_JS · girdi.py değil), tabanı
+        #   okumaz, karşılaştırma alan eşitliği değil 1281-1923 DİLİMİ (dilim()). Aynı hatayı iki yerde
+        #   yapan çift "fark 0" diye yanlış temiz raporlardı.
+        print("\n  R5 — kapı BAYAT ∪ aracın ATLANAN'ı = dilim kâhini (aynı an, aynı ağaç):")
+        print("    (BİLGİ, ölçüt değil) son bilinen ölçüm: %s" % R5_SON_OLCUM)
+        k_dilim, k_dbel = dilim_kahini(kj)
+        satir = []          # konsola basılanın UTF-8 dosya kopyası (kod sayfası sınaması için)
+
+        def yaz(t):
+            print(t)
+            satir.append(t)
+        try:
+            gec, yk, yh = r5_karsilastir(bay, atl, k_dilim, k_dbel, yaz)
+            sina("R5 kapı BAYAT ∪ ATLANAN = dilim kâhini, fark 0 (ADIYLA)", gec,
+                 "yalnız kapı %s · yalnız kâhin %s" % (sorted(yk), sorted(yh)))
+            if k_dbel:
+                bas_liste("kâhin BELİRSİZ (veride 0 ya da >1 kayıt — karşılaştırma dışı)", k_dbel, yaz)
+            n1 = bas_liste("KAPI BAYAT TABAN", bay, yaz)
+            n2 = bas_liste("ATLANAN (KAPSAM DARALDI vb.)", atl, yaz)
+            n3 = bas_liste("DİLİM KÂHİNİ", k_dilim, yaz)
+            sina("R5c sayan = basan (her liste tek kaynaktan; satır = sayı)",
+                 (n1, n2, n3) == (len(bay), len(atl), len(k_dilim)), "%d/%d/%d" % (n1, n2, n3))
+        except SayimBasimAyristi as e:
+            sina("R5c sayan = basan (her liste tek kaynaktan; satır = sayı)", False, str(e))
+        # Kod sayfası: liste nesnesindeki assert YAZDIRICIDAN düşen adı göremez ⇒ basılan metin UTF-8
+        #   dosyaya da yazılır, dosyadan geri okunur, satır sayısı ve adlar listeyle karşılaştırılır.
+        dosya = os.environ.get("R5_LISTE_DOSYA") or os.path.join(tmp, "r5_liste.txt")
+        io.open(dosya, "w", encoding="utf-8", newline="\n").write("\n".join(satir) + "\n")
+        geri = io.open(dosya, encoding="utf-8").read().split("\n")[:-1]
+        govde = [ln.strip() for ln in geri if ln.startswith("      ")]
+        bek = len(bay) + len(atl) + len(k_dilim) + len(k_dbel)
+        sina("R5d UTF-8 dosyadan geri okunan liste satırı = sayı ve adlar BİREBİR",
+             len(govde) == bek and set(govde) >= (bay | atl | k_dilim | k_dbel),
+             "dosya %d satır · beklenen %d · %s" % (len(govde), bek, dosya))
+        # R5b — gerçek kümelerde yapay fark: kâhinden bir ad çıkar ⇒ R5 KALMALI ve adı basmalı.
+        if k_dilim:
+            kurban = sorted(k_dilim)[0]
+            tampon = []
+            gec_b, yk_b, _ = r5_karsilastir(bay, atl, k_dilim - {kurban}, k_dbel, tampon.append)
+            sina("R5b kâhinden '%s' çıkarılınca R5 KALIR ve adı ADIYLA basar" % kurban,
+                 not gec_b and yk_b == {kurban} and any(ln.strip() == kurban for t in tampon for ln in t.split("\n")))
+        else:
+            sina("R5b yapay fark sınaması (kâhin boş — koşulamadı)", False)
     finally:
         git(KOK, "worktree", "remove", "--force", W)
         shutil.rmtree(tmp, ignore_errors=True)
+
+
+def oz():
+    """R5'in kendi parçaları, İKİ YÖNDE, gerçek veri istemeden (hızlı kolda da koşar)."""
+    print("\n=== ÖZ — R5 karşılaştırıcısı ve sayan=basan ASSERT'i ===")
+    kapi, atl = {"Aden", "Budin", "Zebîd"}, {"Kars"}
+    t = []
+    gec, yk, yh = r5_karsilastir(kapi, atl, {"Aden", "Budin", "Zebîd", "Kars"}, (), t.append)
+    sina("Ö1 kapı ∪ atlanan = kâhin → geçer", gec and not yk and not yh)
+    t = []
+    gec, yk, yh = r5_karsilastir(kapi, atl, {"Aden", "Budin", "Kars"}, (), t.append)
+    sina("Ö2 kâhinden 'Zebîd' çıkarılınca → KALIR, 'Zebîd' ADIYLA basılır",
+         not gec and yk == {"Zebîd"} and any(ln.strip() == "Zebîd" for x in t for ln in x.split("\n")))
+    t = []
+    gec, yk, yh = r5_karsilastir(kapi, atl, {"Aden", "Budin", "Zebîd", "Kars", "Sayda"}, (), t.append)
+    sina("Ö3 kâhinde fazla 'Sayda' (kapı görmedi) → KALIR, ADIYLA",
+         not gec and yh == {"Sayda"} and any(ln.strip() == "Sayda" for x in t for ln in x.split("\n")))
+    adlar = ["Ad%02d" % i for i in range(15)]
+    try:
+        n = bas_liste("normal", adlar, [].append)
+        sina("Ö4 bas_liste 15 ad → 15 satır, ASSERT sessiz", n == 15)
+    except SayimBasimAyristi as e:
+        sina("Ö4 bas_liste 15 ad → 15 satır, ASSERT sessiz", False, str(e))
+    for ad, kotu in (("Ö5 NFC/NFD ikiz ad (küme 15, ekranda 14 görünür)", ["Zeb\u00eed", "Zebi\u0302d"]),
+                     ("Ö6 satır sonlu ad (15 ad, 16 satır)", ["Kars\nKuba"])):
+        try:
+            bas_liste("sabotaj", adlar[:15 - len(kotu)] + kotu, [].append)
+            sina(ad + " → ASSERT ÖTER", False, "ötmedi")
+        except SayimBasimAyristi as e:
+            sina(ad + " → ASSERT ÖTER", True, str(e))
 
 
 def main():
@@ -388,6 +516,7 @@ def main():
             print("  (%s zaten TABAN KAPISI'nı taşıyor — T4d/R4 'eski araç' sorusu anlamsız, atlanıyor)" % ESKI_REF)
             eski = None
     try:
+        oz()
         sentetik(eski)
         if GERCEK:
             gercek(eski)

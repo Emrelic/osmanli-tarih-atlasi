@@ -256,7 +256,7 @@ window.KRONOLOJI_COK_FAS = [
   d:"Isly yenilgisi ve Tanca ile Suveyre'nin bombalanmasından sonra Abdurrahman barış istedi. Antlaşmayla Fransa'nın Cezayir'deki hâkimiyeti tanındı; ertesi yıl sınır mukavelesi imzalandı ve Abdülkādir'e destek kesildi.",
   kaynak:"TDV `abdurrahman-b-hisam`: \"Bunun üzerine 26 Ekim 1844’te Tanca Antlaşması’nı imzalayarak Fransızlar’ın Cezayir hâkimiyetini kabul etti.\"",
   gun:"26 Ekim 1844",
-  celiski:"TDV `abdurrahman-b-hisam`: \"26 Ekim 1844’te Tanca Antlaşması’nı imzalayarak\" ↔ TDV `cezayir`: \"Tanca Antlaşması’yla (10 Eylül 1844)\" ↔ TDV `abdulkadir-el-cezairi`: \"1844 Ekiminde imzalanan Tanca Antlaşması’yla\" — TDV kendi içinde çelişiyor; aynı antlaşma kronoloji_cok_cezayir.js'te 1844-09-10 ile duruyor (DÜZELTME B7)." },
+  celiski:"TDV `abdurrahman-b-hisam`: \"26 Ekim 1844’te Tanca Antlaşması’nı imzalayarak\" ↔ TDV `cezayir`: \"Tanca Antlaşması’yla (10 Eylül 1844)\" ↔ TDV `abdulkadir-el-cezairi`: \"1844 Ekiminde imzalanan Tanca Antlaşması’yla\" — TDV kendi içinde çelişiyor; aynı antlaşma Cezayir kronolojisinde 1844-09-10 ile duruyor." },
 
 { t:"1860-02-05", b:"İspanya Tıtvân'ı işgal etti", tur:"isgal", onem:4, dunya:3, kapsam:"dis",
   etiket:["isgal","savas","konu-askeri"], yer_id:"Tıtvân (Tetuan)", taraflar:["fas"],

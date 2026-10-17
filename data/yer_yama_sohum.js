@@ -56,5 +56,5 @@
 //    `d:` ve `v:` alanlarına DOKUNULMADI.
 
 window.YER_YAMA_SOHUM = [
-  { ad: "Sohum", s: [{"f": "1281-01-01", "t": "1578-08-09", "d": "gurcistan"}, {"f": "1810-07-11", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-05-26", "d": "transkafkasya"}, {"f": "1918-05-26", "t": "1921-03-04", "d": "gurcistan-demokratik-cumhuriyeti"}, {"f": "1921-03-04", "t": "1923-10-29", "d": "sovyet-rusya"}] }
+  { ad: "Sohum", s: [{"f": "1281-01-01", "t": "1578-08-09", "d": "gurcistan"}, {"f": "1810-07-11", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-05-26", "d": "transkafkasya"}, {"f": "1918-05-26", "t": "1921-03-04", "d": "gurcistan-demokratik-cumhuriyeti"}, {"f": "1921-03-04", "t": "1991-04-09", "d": "sovyet-rusya"},{"f":"1991-04-09","t":"2000-12-31","d":"gurcistan-cumhuriyeti","kaynak":"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] }
 ];

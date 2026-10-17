@@ -328,6 +328,8 @@ var _D_YASLA_AILELER = [
 ];
 // Kaba belge (C) hatla gövde KESİLMEZ — C'ye koordinat kesinliği atfetmek
 // olur (D-RENK-0073-YURURLUK §5.3). Fiilî hat yalnız fiilî görünümde keser.
+// (14 Ekim 2026: hukukî görünümde D, o çiftin E/F hattı yoksa ayrıca yaslanır —
+// bkz. _dHukukiDEkle; bu küme yine F/E'dir, D'yi ayrı kural ekler.)
 var _D_YASLA_SINIF_HUKUKI = { F: 1, E: 1 };
 var _D_YASLA_SINIF_FIILI = { D: 1, F: 1, E: 1 };
 // Şerit genişliği: hattın her iki yanında bu kadar km içindeki "yanlış taraf"
@@ -535,7 +537,49 @@ function _dYaslaAdaylari(gun) {
       if (!eski || ONC[s] > ONC[eski.sinif]) grup[anahtar] = { kayit: k, sinif: s };
     });
   });
-  return Object.keys(grup).map(function (a) { return grup[a]; });
+  var liste = Object.keys(grup).map(function (a) { return grup[a]; });
+  // 🆕 14 Ekim 2026 — Emre kararı (KARARLAR-1014 #34, 0073/H-0007 · 0075/H-0003 ·
+  // 0077/H-0003): D-RENK (c) "karışık" — çizgi varsa çizgi, yoksa petek — ve
+  // D'ye istemci yaslaması. Hukukî görünümde D hattı ÇİZİLMEZ ama, aynı taraf
+  // çifti için o gün hiçbir E/F hattı yoksa, rengi D hattına yaslanır (fiilî hat
+  // o çiftin elimizdeki TEK milimetrik hattıdır; boya petekte kalırsa 24 km'lik
+  // taşma görünür — 1922 Meriç: Dimetoka TR'de, Havsa GR'de). E/F hattı varsa
+  // D yaslanmaz: hukukî görünümde hukukî hat kazanır, iki hat aynı şeridi zıt
+  // boyamaz. Kalıcı çare motor tarafıdır (#35, gövdeleri önceden hesapla — TUZ).
+  if (_dGorunum !== "fiili") liste = _dHukukiDEkle(liste, gun);
+  return liste;
+}
+var _dHukukiDSon = [];
+function _dTarafCiftAnahtari(k) {
+  var t = Array.isArray(k.taraflar) ? k.taraflar.slice().sort() : [];
+  return t.length === 2 ? t.join("|") : null;
+}
+function _dHukukiDEkle(liste, gun) {
+  var dolu = {}, hatlar = {};
+  liste.forEach(function (a) {
+    var c = _dTarafCiftAnahtari(a.kayit);
+    if (c) dolu[c] = 1;
+    hatlar[JSON.stringify(a.kayit.hat)] = 1;
+  });
+  var ek = [];
+  _D_YASLA_AILELER.forEach(function (ad) {
+    var dizi = window[ad];
+    if (!Array.isArray(dizi)) return;
+    dizi.forEach(function (k) {
+      if (!k || !Array.isArray(k.hat) || k.hat.length < 2 || k.f == null) return;
+      if (_dEtkinSinif(k) !== "D") return;
+      if (gun < gunIdx(k.f)) return;
+      if (k.t != null && gun >= gunIdx(k.t)) return;
+      var c = _dTarafCiftAnahtari(k);
+      if (!c || dolu[c]) return;              // o çiftin E/F hattı var ⇒ D yaslanmaz
+      var h = JSON.stringify(k.hat);
+      if (hatlar[h]) return;                  // aynı hat zaten aday
+      hatlar[h] = 1;
+      ek.push({ kayit: k, sinif: "D" });
+    });
+  });
+  _dHukukiDSon = ek.map(function (a) { return a.kayit.id; });   // ölçüm (konsol)
+  return liste.concat(ek);
 }
 
 // Taraf kimliği → o gün haritada boyanan gövde {renk, poli, anahtar}.
@@ -611,7 +655,7 @@ function _dTabiTaraf(tarafId, gun) {
   if (!d || !d.v) return null;
   var poli = [];
   (tekVeri(d.v).features || []).forEach(function (f) { _dPoliEkle(poli, f.geometry); });
-  return poli.length ? { renk: "#b2384a", poli: poli, anahtar: "vassal:" + aktifDonem, hk: "vassal", tabiKid: tarafId } : null;
+  return poli.length ? { renk: "#a53c4e", poli: poli, anahtar: "vassal:" + aktifDonem, hk: "vassal", tabiKid: tarafId } : null;
 }
 // Hattın _D_YASLA_KM şeridinde o gün kaç AYRI tâbi kid'inin noktası var (kaba: hat
 // köşelerine kuş uçuşu). >1 ise birleşik `v` gövdesi şeritte tek bir tâbiyi temsil ETMEZ.
@@ -917,6 +961,7 @@ function _dVassalKaynaginiYaz(geo) {
 // (SINIR-D-*-0077-olc.js). Davranışı 24 Eylül öncesiyle aynıdır.
 function _dYaslaGuncelle(gun) {
   _dYaslaIsi = null;                       // sürmekte olan dilimli iş varsa bırakılır
+  _dYaslaGosterge(false);
   var is = _dYaslaHazirla(gun);
   if (is) _dSur(is);
 }
@@ -946,11 +991,34 @@ function _dYaslaSonraki(fn) {
   _dYaslaKanal.bekleyen = fn;
   _dYaslaKanal.port2.postMessage(0);
 }
+// 🆕 KUTU-D-1014 (0077 H-0015 · H-0065 · H-0084, Emre: "Türkiye-İran sınırında iki
+// çizgi", "Bulgaristan D sınırına renkler tam oturmuyor"). ÖLÇÜLDÜ (yerel önizleme,
+// 1923-09-01): yaslama 47,4 sn sürüyor (1017 dilim, en uzun tek adım 2,37 sn) ve bu
+// sürede ekranda HAM gövde duruyor — Emre'nin gördüğü kenar bu. Kalıcı çare (önceden
+// hesaplanmış gövde ya da Worker) Emre'nin kararına sunuldu; bu arada kullanıcı ham
+// görüntünün GEÇİCİ olduğunu bilsin diye haritanın köşesinde bir gösterge yanar.
+function _dYaslaGosterge(acik) {
+  try {
+    var el = document.getElementById("d-yasla-gosterge");
+    if (!acik) { if (el) el.style.display = "none"; return; }
+    if (!el) {
+      var kap = harita.getContainer();
+      el = document.createElement("div");
+      el.id = "d-yasla-gosterge";
+      el.className = "d-yasla-gosterge";
+      el.textContent = "◐ Renkler belgeli (D) sınır hatlarına yaslanıyor…";
+      el.title = "Bu sürede sınır renkleri hatta henüz oturmamış (ham) görünür; hesap bitince kendiliğinden düzelir.";
+      kap.appendChild(el);
+    }
+    el.style.display = "";
+  } catch (e) { }
+}
 function _dYaslaPlanla(gun) {
   var is = _dYaslaHazirla(gun);
   if (!is) return;
   _dYaslaIsi = is;
   _dYaslaOlcu = { dilim: 0, dilimMax: 0, adimMax: 0, basla: performance.now(), sure: 0 };
+  _dYaslaGosterge(true);
   _dYaslaSur(is);
 }
 function _dYaslaSur(is) {
@@ -963,14 +1031,14 @@ function _dYaslaSur(is) {
       if (r.done) { bitti = true; break; }
     }
   } catch (e) {
-    if (_dYaslaIsi === is) _dYaslaIsi = null;
+    if (_dYaslaIsi === is) { _dYaslaIsi = null; _dYaslaGosterge(false); }
     console.warn("D YASLAMA: dilimli hesap düştü:", e);
     return;
   }
   var d = performance.now() - t0;
   o.dilim++; if (d > o.dilimMax) o.dilimMax = d;
   if (bitti) {
-    if (_dYaslaIsi === is) _dYaslaIsi = null;
+    if (_dYaslaIsi === is) { _dYaslaIsi = null; _dYaslaGosterge(false); }
     o.sure = performance.now() - o.basla;
     return;
   }

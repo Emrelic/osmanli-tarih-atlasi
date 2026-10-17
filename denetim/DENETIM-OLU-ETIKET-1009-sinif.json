@@ -1,0 +1,2711 @@
+[
+ {
+  "anahtar": "bizans",
+  "kunyeler": [
+   [
+    "bizans",
+    "0330-05-11",
+    "1461-08-15"
+   ]
+  ],
+  "dnm_f": "1460-05-29",
+  "dnm_t": "1479-01-25",
+  "olu_f": "1461-08-16",
+  "olu_t": "1479-01-25",
+  "gun": 6371,
+  "yon": "SONRA",
+  "km2": 485,
+  "km2_gun": 3089500,
+  "aktif_s": 2,
+  "aktif_ornek": [
+   "Bozbaba (Ay Strati)",
+   "Limni"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "F",
+  "devir": "OSMANLI@1479-01-25×2"
+ },
+ {
+  "anahtar": "memluk",
+  "kunyeler": [
+   [
+    "memluk",
+    "1250-01-01",
+    "1517-04-13"
+   ]
+  ],
+  "dnm_f": "1517-04-13",
+  "dnm_t": "1517-05-19",
+  "olu_f": "1517-04-14",
+  "olu_t": "1517-05-19",
+  "gun": 35,
+  "yon": "SONRA",
+  "km2": 530100,
+  "km2_gun": 18553494,
+  "aktif_s": 37,
+  "aktif_ornek": [
+   "Bedir",
+   "Benhâ (Kalyûbiye)",
+   "Bilbîs (Şarkiye)",
+   "Bürüllüs (Baltîm)",
+   "Cidde",
+   "Demenhûr (Damanhur)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_afrika.js",
+   "yerlesimler_nokta_ortadogu_0917.js",
+   "yerlesimler_ok101.js",
+   "yerlesimler_ok107.js"
+  ],
+  "sinif": "F",
+  "devir": "OSMANLI@1517-05-19×22; OSMANLI@1517-07-06×15"
+ },
+ {
+  "anahtar": "memluk",
+  "kunyeler": [
+   [
+    "memluk",
+    "1250-01-01",
+    "1517-04-13"
+   ]
+  ],
+  "dnm_f": "1517-05-19",
+  "dnm_t": "1517-07-06",
+  "olu_f": "1517-05-19",
+  "olu_t": "1517-07-06",
+  "gun": 48,
+  "yon": "SONRA",
+  "km2": 384004,
+  "km2_gun": 18432201,
+  "aktif_s": 15,
+  "aktif_ornek": [
+   "Bedir",
+   "Cidde",
+   "Hayber",
+   "Hurma (Tâif doğusu)",
+   "Medine",
+   "Medâin-i Sâlih (el-Hicr)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_nokta_ortadogu_0917.js",
+   "yerlesimler_ok101.js",
+   "yerlesimler_ok107.js"
+  ],
+  "sinif": "F",
+  "devir": "OSMANLI@1517-07-06×15"
+ },
+ {
+  "anahtar": "serbedariler",
+  "kunyeler": [
+   [
+    "serbedariler",
+    "1337-09-09",
+    "1386-01-01"
+   ]
+  ],
+  "dnm_f": "1386-01-01",
+  "dnm_t": "1387-11-01",
+  "olu_f": "1386-01-02",
+  "olu_t": "1387-11-01",
+  "gun": 668,
+  "yon": "SONRA",
+  "km2": 79450,
+  "km2_gun": 53072923,
+  "aktif_s": 3,
+  "aktif_ornek": [
+   "Bistâm",
+   "Dâmgan",
+   "Simnân"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "F",
+  "devir": "timurlu@1387-11-01×3"
+ },
+ {
+  "anahtar": "bengal-sultanligi",
+  "kunyeler": [
+   [
+    "bengal-sultanligi",
+    "1340-01-01",
+    "1576-01-01"
+   ]
+  ],
+  "dnm_f": "1574-08-03",
+  "dnm_t": "1576-07-12",
+  "olu_f": "1576-01-02",
+  "olu_t": "1576-07-12",
+  "gun": 192,
+  "yon": "SONRA",
+  "km2": 301338,
+  "km2_gun": 57856886,
+  "aktif_s": 10,
+  "aktif_ornek": [
+   "Bhâgalpûr",
+   "Bâlâsor (Balasore)",
+   "Dakka (Dhaka)",
+   "Gaur (Lakhnautî)",
+   "Hûglî (Hooghly)",
+   "Kattak (Cuttack)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "bengal-sultanligi",
+  "kunyeler": [
+   [
+    "bengal-sultanligi",
+    "1340-01-01",
+    "1576-01-01"
+   ]
+  ],
+  "dnm_f": "1576-07-12",
+  "dnm_t": "1592-01-01",
+  "olu_f": "1576-07-12",
+  "olu_t": "1592-01-01",
+  "gun": 5651,
+  "yon": "SONRA",
+  "km2": 75460,
+  "km2_gun": 426422472,
+  "aktif_s": 3,
+  "aktif_ornek": [
+   "Bâlâsor (Balasore)",
+   "Kattak (Cuttack)",
+   "Puri"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F",
+  "devir": "babur-imparatorlugu@1592-01-01×3"
+ },
+ {
+  "anahtar": "bengal-nevabligi",
+  "kunyeler": [
+   [
+    "bengal-nevabligi",
+    "1717-01-01",
+    "1757-06-23"
+   ]
+  ],
+  "dnm_f": "1757-06-23",
+  "dnm_t": "1760-10-11",
+  "olu_f": "1757-06-24",
+  "olu_t": "1760-10-11",
+  "gun": 1205,
+  "yon": "SONRA",
+  "km2": 128217,
+  "km2_gun": 154501156,
+  "aktif_s": 4,
+  "aktif_ornek": [
+   "Gayâ",
+   "Mungîr (Monghyr)",
+   "Patna (Azîmâbâd)",
+   "Çatgam (Chittagong)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F",
+  "devir": "ingiliz-hindistani@1764-10-22×3; ingiliz-hindistani@1760-10-11×1"
+ },
+ {
+  "anahtar": "bengal-nevabligi",
+  "kunyeler": [
+   [
+    "bengal-nevabligi",
+    "1717-01-01",
+    "1757-06-23"
+   ]
+  ],
+  "dnm_f": "1760-10-11",
+  "dnm_t": "1764-10-22",
+  "olu_f": "1760-10-11",
+  "olu_t": "1764-10-22",
+  "gun": 1472,
+  "yon": "SONRA",
+  "km2": 92127,
+  "km2_gun": 135610375,
+  "aktif_s": 3,
+  "aktif_ornek": [
+   "Gayâ",
+   "Mungîr (Monghyr)",
+   "Patna (Azîmâbâd)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F",
+  "devir": "ingiliz-hindistani@1764-10-22×3"
+ },
+ {
+  "anahtar": "pagan",
+  "kunyeler": [
+   [
+    "pagan",
+    "0849-01-01",
+    "1297-01-01"
+   ]
+  ],
+  "dnm_f": "1287-01-01",
+  "dnm_t": "1313-01-01",
+  "olu_f": "1297-01-02",
+  "olu_t": "1313-01-01",
+  "gun": 5842,
+  "yon": "SONRA",
+  "km2": 245458,
+  "km2_gun": 1433967845,
+  "aktif_s": 14,
+  "aktif_ornek": [
+   "Bhamo",
+   "Katha",
+   "Meiktila",
+   "Minbu",
+   "Mogok",
+   "Myingyan"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js",
+   "yerlesimler_gdasya.js"
+  ],
+  "sinif": "BC",
+  "devir": "ava@1313-01-01×14(doğmamış)"
+ },
+ {
+  "anahtar": "singhasari",
+  "kunyeler": [
+   [
+    "singhasari",
+    "1222-01-01",
+    "1292-01-01"
+   ]
+  ],
+  "dnm_f": "1292-01-01",
+  "dnm_t": "1343-01-01",
+  "olu_f": "1292-01-02",
+  "olu_t": "1343-01-01",
+  "gun": 18626,
+  "yon": "SONRA",
+  "km2": 25467,
+  "km2_gun": 474347407,
+  "aktif_s": 4,
+  "aktif_ornek": [
+   "Bali (Klungkung)",
+   "Bima (Sumbawa)",
+   "Mataram (Lombok)",
+   "Sumbawa"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js",
+   "yerlesimler_gdasya.js"
+  ],
+  "sinif": "BC",
+  "devir": "majapahit@1343-01-01×4(doğmamış)"
+ },
+ {
+  "anahtar": "seylan-sinhala",
+  "kunyeler": [
+   [
+    "seylan-sinhala",
+    "1070-01-01",
+    "1518-01-01"
+   ]
+  ],
+  "dnm_f": "1469-01-01",
+  "dnm_t": "1518-09-01",
+  "olu_f": "1518-01-02",
+  "olu_t": "1518-09-01",
+  "gun": 242,
+  "yon": "SONRA",
+  "km2": 15901,
+  "km2_gun": 3848066,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Kolombo"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "multan-langah",
+  "kunyeler": [
+   [
+    "multan-langah",
+    "1451-01-01",
+    "1527-01-01"
+   ]
+  ],
+  "dnm_f": "1527-01-01",
+  "dnm_t": "1528-01-01",
+  "olu_f": "1527-01-02",
+  "olu_t": "1528-01-01",
+  "gun": 364,
+  "yon": "SONRA",
+  "km2": 66661,
+  "km2_gun": 24264602,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Multan"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "kocin",
+  "kunyeler": [
+   [
+    "kocin",
+    "1102-01-01",
+    "1503-01-01"
+   ]
+  ],
+  "dnm_f": "1281-01-01",
+  "dnm_t": "1503-09-01",
+  "olu_f": "1503-01-02",
+  "olu_t": "1503-09-01",
+  "gun": 242,
+  "yon": "SONRA",
+  "km2": 143,
+  "km2_gun": 34622,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Koçin (Kochi)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "akkoyunlu",
+  "kunyeler": [
+   [
+    "akkoyunlu",
+    "1340-01-01",
+    "1514-01-01"
+   ]
+  ],
+  "dnm_f": "1510-12-02",
+  "dnm_t": "1514-09-06",
+  "olu_f": "1514-01-02",
+  "olu_t": "1514-09-06",
+  "gun": 247,
+  "yon": "SONRA",
+  "km2": 16193,
+  "km2_gun": 3999556,
+  "aktif_s": 0,
+  "aktif_ornek": [],
+  "aktif_kaynak": [],
+  "sinif": "B0",
+  "devir": ""
+ },
+ {
+  "anahtar": "avusturya",
+  "kunyeler": [
+   [
+    "habsburg",
+    "1282-01-01",
+    "1918-11-11"
+   ]
+  ],
+  "dnm_f": "1918-11-12",
+  "dnm_t": "1918-11-28",
+  "olu_f": "1918-11-12",
+  "olu_t": "1918-11-28",
+  "gun": 16,
+  "yon": "SONRA",
+  "km2": 70217,
+  "km2_gun": 1123470,
+  "aktif_s": 18,
+  "aktif_ornek": [
+   "Cres (Cherso)",
+   "Hvar (Lesina)",
+   "Knin",
+   "Korçula (Kurzola)",
+   "Krk (Veglia)",
+   "Lvov"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_ek.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "itilaf-emaneti@1919-09-10×13(doğmamış); italya@1919-09-10×3; romanya-kralligi@1918-11-28×2"
+ },
+ {
+  "anahtar": "avusturya",
+  "kunyeler": [
+   [
+    "habsburg",
+    "1282-01-01",
+    "1918-11-11"
+   ]
+  ],
+  "dnm_f": "1918-11-28",
+  "dnm_t": "1919-09-10",
+  "olu_f": "1918-11-28",
+  "olu_t": "1919-09-10",
+  "gun": 286,
+  "yon": "SONRA",
+  "km2": 45017,
+  "km2_gun": 12874859,
+  "aktif_s": 16,
+  "aktif_ornek": [
+   "Cres (Cherso)",
+   "Hvar (Lesina)",
+   "Knin",
+   "Korçula (Kurzola)",
+   "Krk (Veglia)",
+   "Lvov"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_ek.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "itilaf-emaneti@1919-09-10×13(doğmamış); italya@1919-09-10×3"
+ },
+ {
+  "anahtar": "rusya",
+  "kunyeler": [
+   [
+    "rusya",
+    "1547-01-16",
+    "1917-03-15"
+   ]
+  ],
+  "dnm_f": "1917-03-15",
+  "dnm_t": "1923-10-29",
+  "olu_f": "1917-03-16",
+  "olu_t": "1923-10-29",
+  "gun": 2418,
+  "yon": "SONRA",
+  "km2": 11688,
+  "km2_gun": 28261375,
+  "aktif_s": 0,
+  "aktif_ornek": [],
+  "aktif_kaynak": [],
+  "sinif": "B0",
+  "devir": ""
+ },
+ {
+  "anahtar": "altinorda",
+  "kunyeler": [
+   [
+    "altinorda",
+    "1242-01-01",
+    "1502-01-01"
+   ]
+  ],
+  "dnm_f": "1502-01-01",
+  "dnm_t": "1502-03-01",
+  "olu_f": "1502-01-02",
+  "olu_t": "1502-03-01",
+  "gun": 58,
+  "yon": "SONRA",
+  "km2": 776821,
+  "km2_gun": 45055623,
+  "aktif_s": 21,
+  "aktif_ornek": [
+   "Astrahan",
+   "Bozkır (Deşt-i Kıpçak)",
+   "Camboyluk bozkırı",
+   "Don bozkırı (Sal)",
+   "Donets bozkırı",
+   "Kalmuk bozkırı"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_ek22.js",
+   "yerlesimler_ek3.js",
+   "yerlesimler_ek4.js",
+   "yerlesimler_ek6.js",
+   "yerlesimler_ek_bozkir.js",
+   "yerlesimler_seyrek.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "fransa",
+  "kunyeler": [
+   [
+    "fransa",
+    "0987-01-01",
+    "1792-09-22"
+   ]
+  ],
+  "dnm_f": "1792-09-22",
+  "dnm_t": "1793-06-10",
+  "olu_f": "1792-09-23",
+  "olu_t": "1793-06-10",
+  "gun": 260,
+  "yon": "SONRA",
+  "km2": 27378,
+  "km2_gun": 7118381,
+  "aktif_s": 2,
+  "aktif_ornek": [
+   "Pondişeri",
+   "Çandernagor"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F",
+  "devir": "ingiltere@1793-06-10×1; ingiltere@1793-08-23×1"
+ },
+ {
+  "anahtar": "fransa",
+  "kunyeler": [
+   [
+    "fransa",
+    "0987-01-01",
+    "1792-09-22"
+   ]
+  ],
+  "dnm_f": "1793-06-10",
+  "dnm_t": "1793-08-23",
+  "olu_f": "1793-06-10",
+  "olu_t": "1793-08-23",
+  "gun": 74,
+  "yon": "SONRA",
+  "km2": 6886,
+  "km2_gun": 509544,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Pondişeri"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F",
+  "devir": "ingiltere@1793-08-23×1"
+ },
+ {
+  "anahtar": "venedik",
+  "kunyeler": [
+   [
+    "venedik",
+    "0697-01-01",
+    "1797-05-12"
+   ]
+  ],
+  "dnm_f": "1797-05-12",
+  "dnm_t": "1797-10-17",
+  "olu_f": "1797-05-13",
+  "olu_t": "1797-10-17",
+  "gun": 157,
+  "yon": "SONRA",
+  "km2": 18847,
+  "km2_gun": 2958943,
+  "aktif_s": 30,
+  "aktif_ornek": [
+   "Ayamavra (Lefkada)",
+   "Brakya (Brač)",
+   "Butrint (Butrinto)",
+   "Cres (Cherso)",
+   "Herseknovi (Herceg Novi)",
+   "Hvar (Lesina)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_ek.js",
+   "yerlesimler_ek_adalar.js",
+   "yerlesimler_epir.js"
+  ],
+  "sinif": "F",
+  "devir": "avusturya@1797-10-17×19; fransa-cumhuriyet@1797-10-17×11"
+ },
+ {
+  "anahtar": "bulgaristan",
+  "kunyeler": [
+   [
+    "bulgar-carligi",
+    "1185-01-01",
+    "1396-01-01"
+   ],
+   [
+    "bulgaristan-prensligi",
+    "1878-07-13",
+    "1908-10-05"
+   ],
+   [
+    "bulgaristan-kralligi",
+    "1908-10-05",
+    "1946-09-15"
+   ]
+  ],
+  "dnm_f": "1395-01-01",
+  "dnm_t": "1396-10-01",
+  "olu_f": "1396-01-02",
+  "olu_t": "1396-10-01",
+  "gun": 273,
+  "yon": "ARA",
+  "km2": 8159,
+  "km2_gun": 2227542,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Vidin"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "F",
+  "devir": "OSMANLI@1396-10-01×1"
+ },
+ {
+  "anahtar": "bosna",
+  "kunyeler": [
+   [
+    "bosna-kralligi",
+    "1180-01-01",
+    "1463-05-01"
+   ]
+  ],
+  "dnm_f": "1460-01-01",
+  "dnm_t": "1463-06-01",
+  "olu_f": "1463-05-02",
+  "olu_t": "1463-06-01",
+  "gun": 30,
+  "yon": "SONRA",
+  "km2": 32945,
+  "km2_gun": 988346,
+  "aktif_s": 8,
+  "aktif_ornek": [
+   "Banaluka",
+   "Foça (Foča)",
+   "Koniçe (Konjic)",
+   "Livno (İhlevne)",
+   "Srebrenik",
+   "Travnik"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_ek2.js",
+   "yerlesimler_seyrek.js"
+  ],
+  "sinif": "F",
+  "devir": "macaristan@1463-06-01×3; OSMANLI@1463-06-01×3; OSMANLI@1465-01-01×1; OSMANLI@1469-01-01×1"
+ },
+ {
+  "anahtar": "bosna",
+  "kunyeler": [
+   [
+    "bosna-kralligi",
+    "1180-01-01",
+    "1463-05-01"
+   ]
+  ],
+  "dnm_f": "1463-06-01",
+  "dnm_t": "1465-01-01",
+  "olu_f": "1463-06-01",
+  "olu_t": "1465-01-01",
+  "gun": 580,
+  "yon": "SONRA",
+  "km2": 11301,
+  "km2_gun": 6554441,
+  "aktif_s": 2,
+  "aktif_ornek": [
+   "Foça (Foča)",
+   "Livno (İhlevne)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "F",
+  "devir": "OSMANLI@1465-01-01×1; OSMANLI@1469-01-01×1"
+ },
+ {
+  "anahtar": "bosna",
+  "kunyeler": [
+   [
+    "bosna-kralligi",
+    "1180-01-01",
+    "1463-05-01"
+   ]
+  ],
+  "dnm_f": "1465-01-01",
+  "dnm_t": "1469-01-01",
+  "olu_f": "1465-01-01",
+  "olu_t": "1469-01-01",
+  "gun": 1461,
+  "yon": "SONRA",
+  "km2": 5726,
+  "km2_gun": 8366017,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Livno (İhlevne)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "F",
+  "devir": "OSMANLI@1469-01-01×1"
+ },
+ {
+  "anahtar": "bosna",
+  "kunyeler": [
+   [
+    "bosna-kralligi",
+    "1180-01-01",
+    "1463-05-01"
+   ]
+  ],
+  "dnm_f": "1469-01-01",
+  "dnm_t": "1482-01-01",
+  "olu_f": "1469-01-01",
+  "olu_t": "1482-01-01",
+  "gun": 4748,
+  "yon": "SONRA",
+  "km2": 663,
+  "km2_gun": 3148004,
+  "aktif_s": 0,
+  "aktif_ornek": [],
+  "aktif_kaynak": [],
+  "sinif": "B0",
+  "devir": ""
+ },
+ {
+  "anahtar": "aiz",
+  "kunyeler": [
+   [
+    "aiz",
+    "1918-10-30",
+    "1920-01-01"
+   ]
+  ],
+  "dnm_f": "1918-10-30",
+  "dnm_t": "1920-04-01",
+  "olu_f": "1920-01-02",
+  "olu_t": "1920-04-01",
+  "gun": 90,
+  "yon": "SONRA",
+  "km2": 46396,
+  "km2_gun": 4175653,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Ebha (Asir)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "benihalid",
+  "kunyeler": [
+   [
+    "benihalid",
+    "1670-01-01",
+    "1830-01-01"
+   ]
+  ],
+  "dnm_f": "1818-09-09",
+  "dnm_t": "1841-10-01",
+  "olu_f": "1830-01-02",
+  "olu_t": "1841-10-01",
+  "gun": 4290,
+  "yon": "SONRA",
+  "km2": 114350,
+  "km2_gun": 490562289,
+  "aktif_s": 4,
+  "aktif_ornek": [
+   "Cübeyl",
+   "Katîf",
+   "Lahsa",
+   "Ukayr (Uceyr)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "F",
+  "devir": "suud-ikinci@1841-10-01×4"
+ },
+ {
+  "anahtar": "funj",
+  "kunyeler": [
+   [
+    "funj",
+    "1504-01-01",
+    "1821-06-14"
+   ]
+  ],
+  "dnm_f": "1821-06-14",
+  "dnm_t": "1821-08-19",
+  "olu_f": "1821-06-15",
+  "olu_t": "1821-08-19",
+  "gun": 65,
+  "yon": "SONRA",
+  "km2": 328575,
+  "km2_gun": 21357367,
+  "aktif_s": 15,
+  "aktif_ornek": [
+   "Bâbanûsa",
+   "Bâra",
+   "Dilling",
+   "Ebû Zabed",
+   "Er-Rahad",
+   "Kordofan"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_afrika.js",
+   "yerlesimler_h2_afrika.js"
+  ],
+  "sinif": "F",
+  "devir": "OSMANLI@1821-08-19×15"
+ },
+ {
+  "anahtar": "adal",
+  "kunyeler": [
+   [
+    "adal",
+    "1415-01-01",
+    "1887-01-06"
+   ]
+  ],
+  "dnm_f": "1887-01-06",
+  "dnm_t": "1923-10-29",
+  "olu_f": "1887-01-07",
+  "olu_t": "1923-10-29",
+  "gun": 13443,
+  "yon": "SONRA",
+  "km2": 37511,
+  "km2_gun": 504256250,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Asâyita (Avsa)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_h2_afrika.js"
+  ],
+  "sinif": "BC",
+  "devir": "None@1923-10-29×1(doğmamış)"
+ },
+ {
+  "anahtar": "mutapa",
+  "kunyeler": [
+   [
+    "mutapa",
+    "1450-01-01",
+    "1695-01-01"
+   ]
+  ],
+  "dnm_f": "1450-01-01",
+  "dnm_t": "1700-01-01",
+  "olu_f": "1695-01-02",
+  "olu_t": "1700-01-01",
+  "gun": 1825,
+  "yon": "SONRA",
+  "km2": 40586,
+  "km2_gun": 74068614,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Büyük Zimbabve"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_e9353f.js"
+  ],
+  "sinif": "BC",
+  "devir": "None@1700-01-01×1(doğmamış)"
+ },
+ {
+  "anahtar": "ispanyol-peru",
+  "kunyeler": [
+   [
+    "ispanyol-peru",
+    "1542-11-20",
+    "1824-12-09"
+   ]
+  ],
+  "dnm_f": "1824-12-09",
+  "dnm_t": "1825-08-06",
+  "olu_f": "1824-12-10",
+  "olu_t": "1825-08-06",
+  "gun": 239,
+  "yon": "SONRA",
+  "km2": 174120,
+  "km2_gun": 41614787,
+  "aktif_s": 5,
+  "aktif_ornek": [
+   "Cochabamba (Villa de Oropesa)",
+   "La Paz",
+   "Oruro (Villa de San Felipe de Austria)",
+   "Potosí",
+   "Sucre (La Plata / Chuquisaca)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_amerika.js",
+   "yerlesimler_nokta_amerika_0917.js"
+  ],
+  "sinif": "BC",
+  "devir": "bolivya-cumhuriyeti@1825-08-06×5(doğmamış)"
+ },
+ {
+  "anahtar": "kaffa",
+  "kunyeler": [
+   [
+    "kaffa-kralligi",
+    "1390-01-01",
+    "1897-09-10"
+   ]
+  ],
+  "dnm_f": "1830-01-01",
+  "dnm_t": "1897-10-01",
+  "olu_f": "1897-09-11",
+  "olu_t": "1897-10-01",
+  "gun": 20,
+  "yon": "SONRA",
+  "km2": 7561,
+  "km2_gun": 151224,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Bonga (Kaffa)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_afrika.js"
+  ],
+  "sinif": "F",
+  "devir": "habesistan@1897-10-01×1"
+ },
+ {
+  "anahtar": "toskana",
+  "kunyeler": [
+   [
+    "toskana",
+    "1532-05-01",
+    "1860-03-22"
+   ]
+  ],
+  "dnm_f": "1557-07-03",
+  "dnm_t": "1861-03-17",
+  "olu_f": "1860-03-23",
+  "olu_t": "1861-03-17",
+  "gun": 359,
+  "yon": "SONRA",
+  "km2": 20679,
+  "km2_gun": 7423759,
+  "aktif_s": 4,
+  "aktif_ornek": [
+   "Elba",
+   "Floransa",
+   "Pisa",
+   "Siena"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_avrupa.js"
+  ],
+  "sinif": "BC",
+  "devir": "italya@1861-03-17×4(doğmamış)"
+ },
+ {
+  "anahtar": "mehdi",
+  "kunyeler": [
+   [
+    "mehdi",
+    "1881-03-01",
+    "1898-09-02"
+   ]
+  ],
+  "dnm_f": "1898-09-02",
+  "dnm_t": "1899-01-19",
+  "olu_f": "1898-09-03",
+  "olu_t": "1899-01-19",
+  "gun": 138,
+  "yon": "SONRA",
+  "km2": 1060343,
+  "km2_gun": 146327280,
+  "aktif_s": 51,
+  "aktif_ornek": [
+   "Abrî (Mahas)",
+   "Berber",
+   "Bâbanûsa",
+   "Bâra",
+   "Cebeleyn",
+   "Debbe"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_afrika.js",
+   "yerlesimler_h2_afrika.js"
+  ],
+  "sinif": "BC",
+  "devir": "ingiliz-sudani@1899-01-19×51(doğmamış)"
+ },
+ {
+  "anahtar": "cagatay",
+  "kunyeler": [
+   [
+    "cagatay",
+    "1227-01-01",
+    "1370-01-01"
+   ]
+  ],
+  "dnm_f": "1370-01-01",
+  "dnm_t": "1370-04-09",
+  "olu_f": "1370-01-02",
+  "olu_t": "1370-04-09",
+  "gun": 97,
+  "yon": "SONRA",
+  "km2": 655730,
+  "km2_gun": 63605796,
+  "aktif_s": 20,
+  "aktif_ornek": [
+   "Andican",
+   "Belh",
+   "Buhara",
+   "Cizzah",
+   "Hazârasp",
+   "Hisar"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_ek14.js",
+   "yerlesimler_ek15.js",
+   "yerlesimler_ek16.js",
+   "yerlesimler_ok107.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "cagatay",
+  "kunyeler": [
+   [
+    "cagatay",
+    "1227-01-01",
+    "1370-01-01"
+   ]
+  ],
+  "dnm_f": "1370-04-09",
+  "dnm_t": "1379-01-01",
+  "olu_f": "1370-04-09",
+  "olu_t": "1379-01-01",
+  "gun": 3189,
+  "yon": "SONRA",
+  "km2": 100770,
+  "km2_gun": 321356720,
+  "aktif_s": 2,
+  "aktif_ornek": [
+   "Hazârasp",
+   "Hîve"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "F",
+  "devir": "timurlu@1379-01-01×2"
+ },
+ {
+  "anahtar": "mentese",
+  "kunyeler": [
+   [
+    "mentese",
+    "1280-01-01",
+    "1424-01-01"
+   ]
+  ],
+  "dnm_f": "1402-07-28",
+  "dnm_t": "1425-06-01",
+  "olu_f": "1424-01-02",
+  "olu_t": "1425-06-01",
+  "gun": 516,
+  "yon": "SONRA",
+  "km2": 15713,
+  "km2_gun": 8108096,
+  "aktif_s": 6,
+  "aktif_ornek": [
+   "Balat (Palatia)",
+   "Datça",
+   "Fethiye (Makri)",
+   "Marmaris",
+   "Milas",
+   "Muğla"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "F",
+  "devir": "OSMANLI@1425-06-01×6"
+ },
+ {
+  "anahtar": "candar",
+  "kunyeler": [
+   [
+    "candar",
+    "1309-01-01",
+    "1461-01-01"
+   ]
+  ],
+  "dnm_f": "1413-07-05",
+  "dnm_t": "1461-06-01",
+  "olu_f": "1461-01-02",
+  "olu_t": "1461-06-01",
+  "gun": 150,
+  "yon": "SONRA",
+  "km2": 42037,
+  "km2_gun": 6305620,
+  "aktif_s": 12,
+  "aktif_ornek": [
+   "Akçakoca",
+   "Bartın",
+   "Bolu",
+   "Devrek",
+   "Eflani",
+   "Karadeniz Ereğli"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_ek29.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "katalan",
+  "kunyeler": [
+   [
+    "katalan",
+    "1311-03-15",
+    "1388-05-02"
+   ]
+  ],
+  "dnm_f": "1311-03-15",
+  "dnm_t": "1390-01-01",
+  "olu_f": "1388-05-03",
+  "olu_t": "1390-01-01",
+  "gun": 608,
+  "yon": "SONRA",
+  "km2": 19537,
+  "km2_gun": 11878427,
+  "aktif_s": 3,
+  "aktif_ornek": [
+   "Tırhala",
+   "Yenişehir (Larissa)",
+   "İzdin (Lamia)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "F",
+  "devir": "bizans@1390-01-01×2; OSMANLI@1394-01-01×1"
+ },
+ {
+  "anahtar": "katalan",
+  "kunyeler": [
+   [
+    "katalan",
+    "1311-03-15",
+    "1388-05-02"
+   ]
+  ],
+  "dnm_f": "1390-01-01",
+  "dnm_t": "1394-01-01",
+  "olu_f": "1390-01-01",
+  "olu_t": "1394-01-01",
+  "gun": 1461,
+  "yon": "SONRA",
+  "km2": 6239,
+  "km2_gun": 9114806,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "İzdin (Lamia)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "F",
+  "devir": "OSMANLI@1394-01-01×1"
+ },
+ {
+  "anahtar": "timurlu",
+  "kunyeler": [
+   [
+    "timurlu",
+    "1370-04-09",
+    "1507-05-01"
+   ]
+  ],
+  "dnm_f": "1507-05-01",
+  "dnm_t": "1507-05-24",
+  "olu_f": "1507-05-02",
+  "olu_t": "1507-05-24",
+  "gun": 22,
+  "yon": "SONRA",
+  "km2": 598736,
+  "km2_gun": 13172190,
+  "aktif_s": 22,
+  "aktif_ornek": [
+   "Bocnûrd",
+   "Bîrcend",
+   "Dihistan ovası (Meşhed-i Misriyân)",
+   "Ebîverd",
+   "Esferâyin",
+   "Kandehar"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_asya.js",
+   "yerlesimler_ortaasya2.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "buhara@1507-05-24×21; babur-imparatorlugu@1522-09-06×1(doğmamış)"
+ },
+ {
+  "anahtar": "timurlu",
+  "kunyeler": [
+   [
+    "timurlu",
+    "1370-04-09",
+    "1507-05-01"
+   ]
+  ],
+  "dnm_f": "1507-05-24",
+  "dnm_t": "1522-09-06",
+  "olu_f": "1507-05-24",
+  "olu_t": "1522-09-06",
+  "gun": 5584,
+  "yon": "SONRA",
+  "km2": 79660,
+  "km2_gun": 444822491,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Kandehar"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "BC",
+  "devir": "babur-imparatorlugu@1522-09-06×1(doğmamış)"
+ },
+ {
+  "anahtar": "ilhanli",
+  "kunyeler": [
+   [
+    "ilhanli",
+    "1256-01-01",
+    "1353-01-01"
+   ]
+  ],
+  "dnm_f": "1353-01-01",
+  "dnm_t": "1359-01-01",
+  "olu_f": "1353-01-02",
+  "olu_t": "1359-01-01",
+  "gun": 2190,
+  "yon": "SONRA",
+  "km2": 73960,
+  "km2_gun": 161972417,
+  "aktif_s": 12,
+  "aktif_ornek": [
+   "Aşkale",
+   "Bender Enzeli",
+   "Bârfurûş (Bâbil)",
+   "Erzurum",
+   "Eşref (Behşehr)",
+   "Ilgın"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_ek29.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "mazenderan-marasi@1359-01-01×4(doğmamış); karaman@1366-01-01×3; gilan-kiya@1371-01-01×3(doğmamış); eretna@1360-01-01×2"
+ },
+ {
+  "anahtar": "ilhanli",
+  "kunyeler": [
+   [
+    "ilhanli",
+    "1256-01-01",
+    "1353-01-01"
+   ]
+  ],
+  "dnm_f": "1359-01-01",
+  "dnm_t": "1360-01-01",
+  "olu_f": "1359-01-01",
+  "olu_t": "1360-01-01",
+  "gun": 365,
+  "yon": "SONRA",
+  "km2": 55563,
+  "km2_gun": 20280576,
+  "aktif_s": 8,
+  "aktif_ornek": [
+   "Aşkale",
+   "Bender Enzeli",
+   "Erzurum",
+   "Ilgın",
+   "Konya",
+   "Lâhîcan"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_ek29.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "karaman@1366-01-01×3; gilan-kiya@1371-01-01×3(doğmamış); eretna@1360-01-01×2"
+ },
+ {
+  "anahtar": "ilhanli",
+  "kunyeler": [
+   [
+    "ilhanli",
+    "1256-01-01",
+    "1353-01-01"
+   ]
+  ],
+  "dnm_f": "1360-01-01",
+  "dnm_t": "1366-01-01",
+  "olu_f": "1360-01-01",
+  "olu_t": "1366-01-01",
+  "gun": 2192,
+  "yon": "SONRA",
+  "km2": 32466,
+  "km2_gun": 71166565,
+  "aktif_s": 6,
+  "aktif_ornek": [
+   "Bender Enzeli",
+   "Ilgın",
+   "Konya",
+   "Lâhîcan",
+   "Reşt",
+   "Ulukışla"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_ek29.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "karaman@1366-01-01×3; gilan-kiya@1371-01-01×3(doğmamış)"
+ },
+ {
+  "anahtar": "ilhanli",
+  "kunyeler": [
+   [
+    "ilhanli",
+    "1256-01-01",
+    "1353-01-01"
+   ]
+  ],
+  "dnm_f": "1366-01-01",
+  "dnm_t": "1371-01-01",
+  "olu_f": "1366-01-01",
+  "olu_t": "1371-01-01",
+  "gun": 1826,
+  "yon": "SONRA",
+  "km2": 10883,
+  "km2_gun": 19872216,
+  "aktif_s": 3,
+  "aktif_ornek": [
+   "Bender Enzeli",
+   "Lâhîcan",
+   "Reşt"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "BC",
+  "devir": "gilan-kiya@1371-01-01×3(doğmamış)"
+ },
+ {
+  "anahtar": "eretna",
+  "kunyeler": [
+   [
+    "eretna",
+    "1335-01-01",
+    "1381-01-01"
+   ]
+  ],
+  "dnm_f": "1381-01-01",
+  "dnm_t": "1385-01-01",
+  "olu_f": "1381-01-02",
+  "olu_t": "1385-01-01",
+  "gun": 1460,
+  "yon": "SONRA",
+  "km2": 23163,
+  "km2_gun": 33818054,
+  "aktif_s": 2,
+  "aktif_ornek": [
+   "Aşkale",
+   "Erzurum"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js",
+   "yerlesimler_ek29.js"
+  ],
+  "sinif": "F",
+  "devir": "karakoyunlu@1385-01-01×2"
+ },
+ {
+  "anahtar": "burhaneddin",
+  "kunyeler": [
+   [
+    "burhaneddin",
+    "1381-01-01",
+    "1398-01-01"
+   ]
+  ],
+  "dnm_f": "1393-06-01",
+  "dnm_t": "1398-07-01",
+  "olu_f": "1398-01-02",
+  "olu_t": "1398-07-01",
+  "gun": 180,
+  "yon": "SONRA",
+  "km2": 30427,
+  "km2_gun": 5476866,
+  "aktif_s": 4,
+  "aktif_ornek": [
+   "Kayseri",
+   "Kırşehir",
+   "Samsun",
+   "Sivas"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "burhaneddin",
+  "kunyeler": [
+   [
+    "burhaneddin",
+    "1381-01-01",
+    "1398-01-01"
+   ]
+  ],
+  "dnm_f": "1398-07-01",
+  "dnm_t": "1398-07-15",
+  "olu_f": "1398-07-01",
+  "olu_t": "1398-07-15",
+  "gun": 14,
+  "yon": "SONRA",
+  "km2": 27801,
+  "km2_gun": 389221,
+  "aktif_s": 3,
+  "aktif_ornek": [
+   "Kayseri",
+   "Kırşehir",
+   "Sivas"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "artuklu",
+  "kunyeler": [
+   [
+    "artuklu",
+    "1102-01-01",
+    "1409-01-01"
+   ]
+  ],
+  "dnm_f": "1409-01-01",
+  "dnm_t": "1465-01-01",
+  "olu_f": "1409-01-02",
+  "olu_t": "1465-01-01",
+  "gun": 20453,
+  "yon": "SONRA",
+  "km2": 19387,
+  "km2_gun": 396515834,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Palu"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "F",
+  "devir": "akkoyunlu@1465-01-01×1"
+ },
+ {
+  "anahtar": "ahiler",
+  "kunyeler": [
+   [
+    "ahiler",
+    "1290-01-01",
+    "1354-01-01"
+   ]
+  ],
+  "dnm_f": "1281-01-01",
+  "dnm_t": "1354-08-01",
+  "olu_f": "1354-01-02",
+  "olu_t": "1354-08-01",
+  "gun": 211,
+  "yon": "SONRA",
+  "km2": 18522,
+  "km2_gun": 3908181,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Ankara"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "esrefogullari",
+  "kunyeler": [
+   [
+    "esrefogullari",
+    "1277-01-01",
+    "1326-01-01"
+   ]
+  ],
+  "dnm_f": "1281-01-01",
+  "dnm_t": "1326-10-09",
+  "olu_f": "1326-01-02",
+  "olu_t": "1326-10-09",
+  "gun": 280,
+  "yon": "SONRA",
+  "km2": 9718,
+  "km2_gun": 2720956,
+  "aktif_s": 2,
+  "aktif_ornek": [
+   "Beyşehir",
+   "Seydişehir"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "kazak-hanligi",
+  "kunyeler": [
+   [
+    "kazak-hanligi",
+    "1465-01-01",
+    "1847-01-01"
+   ]
+  ],
+  "dnm_f": "1847-01-01",
+  "dnm_t": "1868-01-01",
+  "olu_f": "1847-01-02",
+  "olu_t": "1868-01-01",
+  "gun": 7669,
+  "yon": "SONRA",
+  "km2": 479349,
+  "km2_gun": 3676128734,
+  "aktif_s": 6,
+  "aktif_ornek": [
+   "Aral kuzeyi",
+   "Emba (Cem)",
+   "Kazak bozkırı (Sarısu)",
+   "Kazak bozkırı (Turgay)",
+   "Kazak bozkırı (İşim)",
+   "Üstyurt kuzeyi"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_ek9.js",
+   "yerlesimler_ortaasya2.js",
+   "yerlesimler_sibirya.js"
+  ],
+  "sinif": "F",
+  "devir": "rusya@1868-01-01×6"
+ },
+ {
+  "anahtar": "ferrara",
+  "kunyeler": [
+   [
+    "ferrara",
+    "1240-01-01",
+    "1859-01-01"
+   ]
+  ],
+  "dnm_f": "1598-01-29",
+  "dnm_t": "1860-03-18",
+  "olu_f": "1859-01-02",
+  "olu_t": "1860-03-18",
+  "gun": 441,
+  "yon": "SONRA",
+  "km2": 4111,
+  "km2_gun": 1813008,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Modena"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_avrupa.js"
+  ],
+  "sinif": "F",
+  "devir": "sardinya@1860-03-18×1"
+ },
+ {
+  "anahtar": "maratha",
+  "kunyeler": [
+   [
+    "maratha",
+    "1674-06-06",
+    "1818-06-03"
+   ]
+  ],
+  "dnm_f": "1818-05-09",
+  "dnm_t": "1818-06-25",
+  "olu_f": "1818-06-04",
+  "olu_t": "1818-06-25",
+  "gun": 21,
+  "yon": "SONRA",
+  "km2": 158370,
+  "km2_gun": 3325765,
+  "aktif_s": 4,
+  "aktif_ornek": [
+   "Ecmîr (Ajmer)",
+   "Mandu (Mândû)",
+   "Nagpûr",
+   "Satâra"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "ingiliz-hindistani@1818-06-25×1; None@1923-10-29×1(doğmamış); ingiliz-hindistani@1853-12-11×1; ingiliz-hindistani@1848-04-05×1"
+ },
+ {
+  "anahtar": "maratha",
+  "kunyeler": [
+   [
+    "maratha",
+    "1674-06-06",
+    "1818-06-03"
+   ]
+  ],
+  "dnm_f": "1818-06-25",
+  "dnm_t": "1848-04-05",
+  "olu_f": "1818-06-25",
+  "olu_t": "1848-04-05",
+  "gun": 10877,
+  "yon": "SONRA",
+  "km2": 131865,
+  "km2_gun": 1434296263,
+  "aktif_s": 3,
+  "aktif_ornek": [
+   "Mandu (Mândû)",
+   "Nagpûr",
+   "Satâra"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "None@1923-10-29×1(doğmamış); ingiliz-hindistani@1853-12-11×1; ingiliz-hindistani@1848-04-05×1"
+ },
+ {
+  "anahtar": "maratha",
+  "kunyeler": [
+   [
+    "maratha",
+    "1674-06-06",
+    "1818-06-03"
+   ]
+  ],
+  "dnm_f": "1848-04-05",
+  "dnm_t": "1853-12-11",
+  "olu_f": "1848-04-05",
+  "olu_t": "1853-12-11",
+  "gun": 2076,
+  "yon": "SONRA",
+  "km2": 114421,
+  "km2_gun": 237538607,
+  "aktif_s": 2,
+  "aktif_ornek": [
+   "Mandu (Mândû)",
+   "Nagpûr"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "None@1923-10-29×1(doğmamış); ingiliz-hindistani@1853-12-11×1"
+ },
+ {
+  "anahtar": "maratha",
+  "kunyeler": [
+   [
+    "maratha",
+    "1674-06-06",
+    "1818-06-03"
+   ]
+  ],
+  "dnm_f": "1853-12-11",
+  "dnm_t": "1923-10-29",
+  "olu_f": "1853-12-11",
+  "olu_t": "1923-10-29",
+  "gun": 25523,
+  "yon": "SONRA",
+  "km2": 49976,
+  "km2_gun": 1275542135,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Mandu (Mândû)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "BC",
+  "devir": "None@1923-10-29×1(doğmamış)"
+ },
+ {
+  "anahtar": "qing-hanedani",
+  "kunyeler": [
+   [
+    "qing-hanedani",
+    "1636-05-15",
+    "1912-02-12"
+   ]
+  ],
+  "dnm_f": "1912-02-12",
+  "dnm_t": "1912-08-20",
+  "olu_f": "1912-02-13",
+  "olu_t": "1912-08-20",
+  "gun": 189,
+  "yon": "SONRA",
+  "km2": 44493,
+  "km2_gun": 8409113,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Kobdo (Hovd)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F",
+  "devir": "mogolistan@1912-08-20×1"
+ },
+ {
+  "anahtar": "toungoo",
+  "kunyeler": [
+   [
+    "toungoo",
+    "1510-01-01",
+    "1752-01-01"
+   ]
+  ],
+  "dnm_f": "1740-01-01",
+  "dnm_t": "1752-04-23",
+  "olu_f": "1752-01-02",
+  "olu_t": "1752-04-23",
+  "gun": 112,
+  "yon": "SONRA",
+  "km2": 341228,
+  "km2_gun": 38217577,
+  "aktif_s": 19,
+  "aktif_ornek": [
+   "Ava (İnwa)",
+   "Bhamo",
+   "Chiang Mai",
+   "Chiang Rai",
+   "Katha",
+   "Meiktila"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js",
+   "yerlesimler_gdasya.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "yuan-hanedani",
+  "kunyeler": [
+   [
+    "yuan-hanedani",
+    "1271-01-01",
+    "1368-09-14"
+   ]
+  ],
+  "dnm_f": "1368-09-14",
+  "dnm_t": "1382-01-06",
+  "olu_f": "1368-09-15",
+  "olu_t": "1382-01-06",
+  "gun": 4861,
+  "yon": "SONRA",
+  "km2": 157921,
+  "km2_gun": 767652927,
+  "aktif_s": 3,
+  "aktif_ornek": [
+   "Dali",
+   "Guiyang",
+   "Kunming"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F",
+  "devir": "ming-hanedani@1382-01-06×3"
+ },
+ {
+  "anahtar": "cungar",
+  "kunyeler": [
+   [
+    "cungar",
+    "1634-01-01",
+    "1758-01-01"
+   ]
+  ],
+  "dnm_f": "1758-01-01",
+  "dnm_t": "1759-01-01",
+  "olu_f": "1758-01-02",
+  "olu_t": "1759-01-01",
+  "gun": 364,
+  "yon": "SONRA",
+  "km2": 628029,
+  "km2_gun": 228602703,
+  "aktif_s": 10,
+  "aktif_ornek": [
+   "Aksu (Tarım)",
+   "Hotan",
+   "Karaşar (Yanqi)",
+   "Kaşgar",
+   "Keriya (Yutian)",
+   "Kuça (Kuqa)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js",
+   "yerlesimler_ortaasya3.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "ryukyu",
+  "kunyeler": [
+   [
+    "ryukyu",
+    "1429-01-01",
+    "1879-03-27"
+   ]
+  ],
+  "dnm_f": "1281-01-01",
+  "dnm_t": "1879-04-04",
+  "olu_f": "1879-03-28",
+  "olu_t": "1879-04-04",
+  "gun": 7,
+  "yon": "SONRA",
+  "km2": 1473,
+  "km2_gun": 10314,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Şuri (Naha)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F",
+  "devir": "meiji-japonya@1879-04-04×1"
+ },
+ {
+  "anahtar": "ace-sultanligi",
+  "kunyeler": [
+   [
+    "ace-sultanligi",
+    "1496-01-01",
+    "1903-01-01"
+   ]
+  ],
+  "dnm_f": "1524-01-01",
+  "dnm_t": "1903-01-10",
+  "olu_f": "1903-01-02",
+  "olu_t": "1903-01-10",
+  "gun": 8,
+  "yon": "SONRA",
+  "km2": 89056,
+  "km2_gun": 712449,
+  "aktif_s": 6,
+  "aktif_ornek": [
+   "Banda Açe",
+   "Barus",
+   "Kuala Simpang",
+   "Meulaboh",
+   "Samudra Pasai",
+   "Sibolga"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js",
+   "yerlesimler_gdasya.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "malaka-sultanligi",
+  "kunyeler": [
+   [
+    "malaka-sultanligi",
+    "1400-01-01",
+    "1511-08-10"
+   ]
+  ],
+  "dnm_f": "1511-08-10",
+  "dnm_t": "1528-01-01",
+  "olu_f": "1511-08-11",
+  "olu_t": "1528-01-01",
+  "gun": 5987,
+  "yon": "SONRA",
+  "km2": 193595,
+  "km2_gun": 1159051564,
+  "aktif_s": 7,
+  "aktif_ornek": [
+   "Bintan (Riau)",
+   "Jambi",
+   "Johor",
+   "Medan (Deli)",
+   "Muar",
+   "Rengat (Indragiri)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js",
+   "yerlesimler_gdasya.js"
+  ],
+  "sinif": "BC",
+  "devir": "cohor-sultanligi@1528-01-01×7(doğmamış)"
+ },
+ {
+  "anahtar": "ming-hanedani",
+  "kunyeler": [
+   [
+    "ming-hanedani",
+    "1368-01-23",
+    "1644-04-25"
+   ]
+  ],
+  "dnm_f": "1644-04-25",
+  "dnm_t": "1644-05-27",
+  "olu_f": "1644-04-26",
+  "olu_t": "1644-05-27",
+  "gun": 31,
+  "yon": "SONRA",
+  "km2": 846170,
+  "km2_gun": 26231258,
+  "aktif_s": 17,
+  "aktif_ornek": [
+   "Anyang",
+   "Baoding",
+   "Ciyayuguan (Jiayuguan)",
+   "Datong",
+   "Jinan",
+   "Kalgan (Zhangjiakou)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "qing-hanedani@1644-06-06×8; qing-hanedani@1644-10-01×4; qing-hanedani@1644-05-31×1; dashun@1644-09-09×1; dashun@1644-07-01×1"
+ },
+ {
+  "anahtar": "ming-hanedani",
+  "kunyeler": [
+   [
+    "ming-hanedani",
+    "1368-01-23",
+    "1644-04-25"
+   ]
+  ],
+  "dnm_f": "1644-05-27",
+  "dnm_t": "1644-05-31",
+  "olu_f": "1644-05-27",
+  "olu_t": "1644-05-31",
+  "gun": 4,
+  "yon": "SONRA",
+  "km2": 773257,
+  "km2_gun": 3093030,
+  "aktif_s": 16,
+  "aktif_ornek": [
+   "Anyang",
+   "Baoding",
+   "Ciyayuguan (Jiayuguan)",
+   "Datong",
+   "Jinan",
+   "Kalgan (Zhangjiakou)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "qing-hanedani@1644-06-06×8; qing-hanedani@1644-10-01×4; qing-hanedani@1644-05-31×1; dashun@1644-09-09×1; dashun@1644-07-01×1"
+ },
+ {
+  "anahtar": "ming-hanedani",
+  "kunyeler": [
+   [
+    "ming-hanedani",
+    "1368-01-23",
+    "1644-04-25"
+   ]
+  ],
+  "dnm_f": "1644-05-31",
+  "dnm_t": "1644-06-06",
+  "olu_f": "1644-05-31",
+  "olu_t": "1644-06-06",
+  "gun": 6,
+  "yon": "SONRA",
+  "km2": 731097,
+  "km2_gun": 4386582,
+  "aktif_s": 15,
+  "aktif_ornek": [
+   "Anyang",
+   "Baoding",
+   "Ciyayuguan (Jiayuguan)",
+   "Jinan",
+   "Kalgan (Zhangjiakou)",
+   "Lanzhou"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "qing-hanedani@1644-06-06×8; qing-hanedani@1644-10-01×4; dashun@1644-09-09×1; dashun@1644-07-01×1; tungning@1661-04-30×1(doğmamış)"
+ },
+ {
+  "anahtar": "ming-hanedani",
+  "kunyeler": [
+   [
+    "ming-hanedani",
+    "1368-01-23",
+    "1644-04-25"
+   ]
+  ],
+  "dnm_f": "1644-06-06",
+  "dnm_t": "1644-07-01",
+  "olu_f": "1644-06-06",
+  "olu_t": "1644-07-01",
+  "gun": 25,
+  "yon": "SONRA",
+  "km2": 397292,
+  "km2_gun": 9932295,
+  "aktif_s": 7,
+  "aktif_ornek": [
+   "Ciyayuguan (Jiayuguan)",
+   "Lanzhou",
+   "Penghu (Pescadores)",
+   "Yinchuan (Ningxia)",
+   "Zhangye (Ganzhou)",
+   "Çengdu (Chengdu)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "qing-hanedani@1644-10-01×4; dashun@1644-09-09×1; dashun@1644-07-01×1; tungning@1661-04-30×1(doğmamış)"
+ },
+ {
+  "anahtar": "ming-hanedani",
+  "kunyeler": [
+   [
+    "ming-hanedani",
+    "1368-01-23",
+    "1644-04-25"
+   ]
+  ],
+  "dnm_f": "1644-07-01",
+  "dnm_t": "1644-09-09",
+  "olu_f": "1644-07-01",
+  "olu_t": "1644-09-09",
+  "gun": 70,
+  "yon": "SONRA",
+  "km2": 341909,
+  "km2_gun": 23933646,
+  "aktif_s": 6,
+  "aktif_ornek": [
+   "Ciyayuguan (Jiayuguan)",
+   "Lanzhou",
+   "Penghu (Pescadores)",
+   "Yinchuan (Ningxia)",
+   "Zhangye (Ganzhou)",
+   "Çengdu (Chengdu)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "qing-hanedani@1644-10-01×4; dashun@1644-09-09×1; tungning@1661-04-30×1(doğmamış)"
+ },
+ {
+  "anahtar": "ming-hanedani",
+  "kunyeler": [
+   [
+    "ming-hanedani",
+    "1368-01-23",
+    "1644-04-25"
+   ]
+  ],
+  "dnm_f": "1644-09-09",
+  "dnm_t": "1644-10-01",
+  "olu_f": "1644-09-09",
+  "olu_t": "1644-10-01",
+  "gun": 22,
+  "yon": "SONRA",
+  "km2": 276617,
+  "km2_gun": 6085573,
+  "aktif_s": 5,
+  "aktif_ornek": [
+   "Ciyayuguan (Jiayuguan)",
+   "Lanzhou",
+   "Penghu (Pescadores)",
+   "Yinchuan (Ningxia)",
+   "Zhangye (Ganzhou)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "qing-hanedani@1644-10-01×4; tungning@1661-04-30×1(doğmamış)"
+ },
+ {
+  "anahtar": "ming-hanedani",
+  "kunyeler": [
+   [
+    "ming-hanedani",
+    "1368-01-23",
+    "1644-04-25"
+   ]
+  ],
+  "dnm_f": "1644-10-01",
+  "dnm_t": "1661-04-30",
+  "olu_f": "1644-10-01",
+  "olu_t": "1661-04-30",
+  "gun": 6055,
+  "yon": "SONRA",
+  "km2": 122,
+  "km2_gun": 740468,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Penghu (Pescadores)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "BC",
+  "devir": "tungning@1661-04-30×1(doğmamış)"
+ },
+ {
+  "anahtar": "mataram-sultanligi",
+  "kunyeler": [
+   [
+    "mataram-sultanligi",
+    "1587-01-01",
+    "1755-02-13"
+   ]
+  ],
+  "dnm_f": "1745-02-17",
+  "dnm_t": "1811-08-18",
+  "olu_f": "1755-02-14",
+  "olu_t": "1811-08-18",
+  "gun": 20638,
+  "yon": "SONRA",
+  "km2": 10738,
+  "km2_gun": 221618885,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Surakarta (Solo)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F",
+  "devir": "ingiltere@1811-08-18×1"
+ },
+ {
+  "anahtar": "meysur",
+  "kunyeler": [
+   [
+    "meysur",
+    "1761-01-01",
+    "1799-05-04"
+   ]
+  ],
+  "dnm_f": "1799-05-04",
+  "dnm_t": "1923-10-29",
+  "olu_f": "1799-05-05",
+  "olu_t": "1923-10-29",
+  "gun": 45466,
+  "yon": "SONRA",
+  "km2": 83142,
+  "km2_gun": 3780144668,
+  "aktif_s": 0,
+  "aktif_ornek": [],
+  "aktif_kaynak": [],
+  "sinif": "B0",
+  "devir": ""
+ },
+ {
+  "anahtar": "vijayanagara",
+  "kunyeler": [
+   [
+    "vijayanagara",
+    "1336-01-01",
+    "1646-01-01"
+   ]
+  ],
+  "dnm_f": "1565-01-26",
+  "dnm_t": "1656-01-01",
+  "olu_f": "1646-01-02",
+  "olu_t": "1656-01-01",
+  "gun": 3651,
+  "yon": "SONRA",
+  "km2": 23382,
+  "km2_gun": 85367341,
+  "aktif_s": 2,
+  "aktif_ornek": [
+   "Arkot (Arcot)",
+   "Vellor (Vellore)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F",
+  "devir": "bicapur@1656-01-01×2"
+ },
+ {
+  "anahtar": "babur-imparatorlugu",
+  "kunyeler": [
+   [
+    "babur-imparatorlugu",
+    "1526-04-21",
+    "1857-09-21"
+   ]
+  ],
+  "dnm_f": "1803-09-11",
+  "dnm_t": "1860-01-01",
+  "olu_f": "1857-09-22",
+  "olu_t": "1860-01-01",
+  "gun": 831,
+  "yon": "SONRA",
+  "km2": 30663,
+  "km2_gun": 25480623,
+  "aktif_s": 2,
+  "aktif_ornek": [
+   "Asîrgarh",
+   "Burhânpûr"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_hindistan.js"
+  ],
+  "sinif": "F",
+  "devir": "ingiliz-hindistani@1860-01-01×2"
+ },
+ {
+  "anahtar": "galzay",
+  "kunyeler": [
+   [
+    "galzay",
+    "1709-04-21",
+    "1738-01-01"
+   ]
+  ],
+  "dnm_f": "1709-04-21",
+  "dnm_t": "1738-03-24",
+  "olu_f": "1738-01-02",
+  "olu_t": "1738-03-24",
+  "gun": 81,
+  "yon": "SONRA",
+  "km2": 79660,
+  "km2_gun": 6452475,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Kandehar"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "afgan-durrani",
+  "kunyeler": [
+   [
+    "afgan-durrani",
+    "1747-10-01",
+    "1823-01-01"
+   ]
+  ],
+  "dnm_f": "1821-01-01",
+  "dnm_t": "1826-01-01",
+  "olu_f": "1823-01-02",
+  "olu_t": "1826-01-01",
+  "gun": 1095,
+  "yon": "SONRA",
+  "km2": 277586,
+  "km2_gun": 303956564,
+  "aktif_s": 6,
+  "aktif_ornek": [
+   "Belh",
+   "Gazne",
+   "Herat",
+   "Kandehar",
+   "Kâbil",
+   "Peşâver"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js",
+   "yerlesimler_ek16.js"
+  ],
+  "sinif": "F",
+  "devir": "afganistan@1826-01-01×4; sih-imparatorlugu@1834-05-06×1; buhara@1826-01-01×1"
+ },
+ {
+  "anahtar": "afgan-durrani",
+  "kunyeler": [
+   [
+    "afgan-durrani",
+    "1747-10-01",
+    "1823-01-01"
+   ]
+  ],
+  "dnm_f": "1826-01-01",
+  "dnm_t": "1834-05-06",
+  "olu_f": "1826-01-01",
+  "olu_t": "1834-05-06",
+  "gun": 3047,
+  "yon": "SONRA",
+  "km2": 30104,
+  "km2_gun": 91726886,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Peşâver"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F",
+  "devir": "sih-imparatorlugu@1834-05-06×1"
+ },
+ {
+  "anahtar": "gucerat-sultanligi",
+  "kunyeler": [
+   [
+    "gucerat-sultanligi",
+    "1407-01-01",
+    "1573-01-01"
+   ]
+  ],
+  "dnm_f": "1572-11-18",
+  "dnm_t": "1573-02-26",
+  "olu_f": "1573-01-02",
+  "olu_t": "1573-02-26",
+  "gun": 55,
+  "yon": "SONRA",
+  "km2": 98957,
+  "km2_gun": 5442626,
+  "aktif_s": 6,
+  "aktif_ornek": [
+   "Baroda (Vadodara)",
+   "Broaç (Bharuch)",
+   "Cûnâgadh",
+   "Kanbâyet (Khambhat)",
+   "Sûrat",
+   "Çampâner"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js",
+   "yerlesimler_hint0912.js"
+  ],
+  "sinif": "H",
+  "devir": ""
+ },
+ {
+  "anahtar": "bicapur",
+  "kunyeler": [
+   [
+    "bicapur",
+    "1489-01-01",
+    "1686-09-22"
+   ]
+  ],
+  "dnm_f": "1686-09-12",
+  "dnm_t": "1687-01-01",
+  "olu_f": "1686-09-23",
+  "olu_t": "1687-01-01",
+  "gun": 100,
+  "yon": "SONRA",
+  "km2": 70865,
+  "km2_gun": 7086512,
+  "aktif_s": 3,
+  "aktif_ornek": [
+   "Arkot (Arcot)",
+   "Bangalor",
+   "Vellor (Vellore)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F+BC",
+  "devir": "babur-imparatorlugu@1687-09-21×2; meysur@1687-01-01×1(doğmamış)"
+ },
+ {
+  "anahtar": "bicapur",
+  "kunyeler": [
+   [
+    "bicapur",
+    "1489-01-01",
+    "1686-09-22"
+   ]
+  ],
+  "dnm_f": "1687-01-01",
+  "dnm_t": "1687-09-21",
+  "olu_f": "1687-01-01",
+  "olu_t": "1687-09-21",
+  "gun": 263,
+  "yon": "SONRA",
+  "km2": 23382,
+  "km2_gun": 6149441,
+  "aktif_s": 2,
+  "aktif_ornek": [
+   "Arkot (Arcot)",
+   "Vellor (Vellore)"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F",
+  "devir": "babur-imparatorlugu@1687-09-21×2"
+ },
+ {
+  "anahtar": "kuzey-yuan",
+  "kunyeler": [
+   [
+    "kuzey-yuan",
+    "1368-09-14",
+    "1691-05-30"
+   ]
+  ],
+  "dnm_f": "1691-05-30",
+  "dnm_t": "1720-01-01",
+  "olu_f": "1691-05-31",
+  "olu_t": "1720-01-01",
+  "gun": 10441,
+  "yon": "SONRA",
+  "km2": 70515,
+  "km2_gun": 736245506,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Dunhuang"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_asya.js"
+  ],
+  "sinif": "F",
+  "devir": "qing-hanedani@1720-01-01×1"
+ },
+ {
+  "anahtar": "filipin-racaliklari",
+  "kunyeler": [
+   [
+    "filipin-racaliklari",
+    "1001-01-01",
+    "1571-06-24"
+   ]
+  ],
+  "dnm_f": "1571-06-24",
+  "dnm_t": "1572-01-01",
+  "olu_f": "1571-06-25",
+  "olu_t": "1572-01-01",
+  "gun": 190,
+  "yon": "SONRA",
+  "km2": 115370,
+  "km2_gun": 21920285,
+  "aktif_s": 7,
+  "aktif_ornek": [
+   "Butuan",
+   "Legazpi",
+   "Naga (Camarines)",
+   "Puerto Princesa (Palawan)",
+   "Tuguegarao",
+   "Vigan"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_gdasya.js"
+  ],
+  "sinif": "F",
+  "devir": "ispanya@1622-01-01×2; ispanya@1573-01-01×2; ispanya@1572-01-01×1; ispanya@1635-01-01×1; ispanya@1581-01-01×1"
+ },
+ {
+  "anahtar": "filipin-racaliklari",
+  "kunyeler": [
+   [
+    "filipin-racaliklari",
+    "1001-01-01",
+    "1571-06-24"
+   ]
+  ],
+  "dnm_f": "1572-01-01",
+  "dnm_t": "1573-01-01",
+  "olu_f": "1572-01-01",
+  "olu_t": "1573-01-01",
+  "gun": 366,
+  "yon": "SONRA",
+  "km2": 103763,
+  "km2_gun": 37977267,
+  "aktif_s": 6,
+  "aktif_ornek": [
+   "Butuan",
+   "Legazpi",
+   "Naga (Camarines)",
+   "Puerto Princesa (Palawan)",
+   "Tuguegarao",
+   "Zamboanga"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_gdasya.js"
+  ],
+  "sinif": "F",
+  "devir": "ispanya@1622-01-01×2; ispanya@1573-01-01×2; ispanya@1635-01-01×1; ispanya@1581-01-01×1"
+ },
+ {
+  "anahtar": "filipin-racaliklari",
+  "kunyeler": [
+   [
+    "filipin-racaliklari",
+    "1001-01-01",
+    "1571-06-24"
+   ]
+  ],
+  "dnm_f": "1573-01-01",
+  "dnm_t": "1581-01-01",
+  "olu_f": "1573-01-01",
+  "olu_t": "1581-01-01",
+  "gun": 2922,
+  "yon": "SONRA",
+  "km2": 76451,
+  "km2_gun": 223390725,
+  "aktif_s": 4,
+  "aktif_ornek": [
+   "Butuan",
+   "Puerto Princesa (Palawan)",
+   "Tuguegarao",
+   "Zamboanga"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_gdasya.js"
+  ],
+  "sinif": "F",
+  "devir": "ispanya@1622-01-01×2; ispanya@1635-01-01×1; ispanya@1581-01-01×1"
+ },
+ {
+  "anahtar": "filipin-racaliklari",
+  "kunyeler": [
+   [
+    "filipin-racaliklari",
+    "1001-01-01",
+    "1571-06-24"
+   ]
+  ],
+  "dnm_f": "1581-01-01",
+  "dnm_t": "1622-01-01",
+  "olu_f": "1581-01-01",
+  "olu_t": "1622-01-01",
+  "gun": 14975,
+  "yon": "SONRA",
+  "km2": 43178,
+  "km2_gun": 646595502,
+  "aktif_s": 3,
+  "aktif_ornek": [
+   "Butuan",
+   "Puerto Princesa (Palawan)",
+   "Zamboanga"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_gdasya.js"
+  ],
+  "sinif": "F",
+  "devir": "ispanya@1622-01-01×2; ispanya@1635-01-01×1"
+ },
+ {
+  "anahtar": "filipin-racaliklari",
+  "kunyeler": [
+   [
+    "filipin-racaliklari",
+    "1001-01-01",
+    "1571-06-24"
+   ]
+  ],
+  "dnm_f": "1622-01-01",
+  "dnm_t": "1635-01-01",
+  "olu_f": "1622-01-01",
+  "olu_t": "1635-01-01",
+  "gun": 4748,
+  "yon": "SONRA",
+  "km2": 6230,
+  "km2_gun": 29578322,
+  "aktif_s": 1,
+  "aktif_ornek": [
+   "Zamboanga"
+  ],
+  "aktif_kaynak": [
+   "yerlesimler_gdasya.js"
+  ],
+  "sinif": "F",
+  "devir": "ispanya@1635-01-01×1"
+ },
+ {
+  "anahtar": "hersek",
+  "kunyeler": [
+   [
+    "hersek",
+    "1435-01-01",
+    "1482-01-01"
+   ]
+  ],
+  "dnm_f": "1466-06-01",
+  "dnm_t": "1483-01-01",
+  "olu_f": "1482-01-02",
+  "olu_t": "1483-01-01",
+  "gun": 364,
+  "yon": "SONRA",
+  "km2": 4619,
+  "km2_gun": 1681201,
+  "aktif_s": 0,
+  "aktif_ornek": [],
+  "aktif_kaynak": [],
+  "sinif": "B0",
+  "devir": ""
+ },
+ {
+  "anahtar": "piombino",
+  "kunyeler": [
+   [
+    "piombino",
+    "1399-02-19",
+    "1548-01-01"
+   ]
+  ],
+  "dnm_f": "1399-02-19",
+  "dnm_t": "1923-10-29",
+  "olu_f": "1548-01-02",
+  "olu_t": "1923-10-29",
+  "gun": 137266,
+  "yon": "SONRA",
+  "km2": 210,
+  "km2_gun": 28771973,
+  "aktif_s": 0,
+  "aktif_ornek": [],
+  "aktif_kaynak": [],
+  "sinif": "B0",
+  "devir": ""
+ }
+]

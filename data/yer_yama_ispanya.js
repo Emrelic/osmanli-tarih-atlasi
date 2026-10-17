@@ -81,7 +81,7 @@ window.YER_YAMA_ISPANYA = [
  },
  {
   "dosya": "kronoloji_ispanya.js",
-  "t": "1479-01-20",
+  "t": "1479-01-19",
   "b": "Kastilya ile Aragon tacları fiilen birleşti",
   "kapsam_genis": true,
   "not": "Fernando babasının ölümüyle Aragon tahtına Kastilya'dan uzakta geçti; iki tacın \"fiilen birleşmesi\" tek bir törene/yere bağlı değil, hanedan/hukuki bir olgu — tek noktaya sığmaz."

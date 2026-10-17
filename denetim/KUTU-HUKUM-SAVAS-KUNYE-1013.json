@@ -1,0 +1,9 @@
+{
+  "0065": {
+    "H-0016": {
+      "hukum": "cozuldu",
+      "not": "ANT-KART data/savas_kunye_1.js'i (20 muharebe + app.js 'savas-kunye' gosterimi) main'e itmisti; bu oturumun savaslar.js kunye: + app.js kutu yaklasimi ATILDI (cift kaynak yok). Kapsam farki: ANT-KART'ta olmayan 9 muharebe (Istanbul 1453, Otlukbeli, I. Viyana, Malta, Hotin, Zenta, Prut, Cesme, 93 Harbi/Plevne) savas_kunye_1.js'e ayni bicimde eklendi (29 kayit). Ortak 11 muharebede (Nigbolu, I/II. Kosova, Ankara, Varna, Caldiran, Mercidabik, Ridaniye, Mohac, Preveze, Inebahti, II. Viyana) TDV metniyle karsilastirildi: celisen rakam YOK. Notlar: Preveze Hacli gemi sayisini ANT-KART preveze maddesinden (140 kalyon+168 kadirga) veriyor, barbaros-hayreddin-pasa maddesi 208 veya 246 diyor (iki TDV maddesi ayrisiyor; preveze metni scratchpad'de yok, olculmedi). Inebahti kayip: ANT-KART ~190 gemi, TDV inebahti maddesi 200-250 gemi (iki madde ayrisiyor). II. Viyana: ANT-KART 500.000 (350.000 muharip+150.000 hizmet, TDV 'abartili' diyor) - metinde var; mercidabik/Ridaniye/Viyana/Cesme/Istanbul cift savaslar.js kayitlari uyari: alaninda.",
+      "delil": "data/savas_kunye_1.js (SAVAS_KUNYE_1, 29 kayit); scratchpad tdvk/*.txt TDV metinleri"
+    }
+  }
+}

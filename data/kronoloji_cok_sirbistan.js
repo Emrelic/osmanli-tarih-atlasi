@@ -124,7 +124,7 @@ window.KRONOLOJI_COK_SIRBISTAN = [
   d:"Niş üzerine yürüyen Sırp kuvvetleri Çegar tepesinde bozuldu; mevziini düşürmemek için barut deposunu ateşleyen Stevan Sinđelić ve adamları öldü. Osmanlı komutanı düşen isyancıların kafataslarından Niş yakınında bir kule ördürdü; yenilgi isyanın güneye yayılmasını durdurdu.",
   kaynak:"TDV `nis`: 'Mayıs 1809'da … Stephan Sindjelić liderliğindeki isyan kuvvet kullanılarak bastırıldı.' · TDV `prizren`: 1809'da Mahmud Paşa Niş yakınındaki isyancıları dağıttı. Gün: Petrovich (1976)." },
 
-{ t:"1812-05-28", b:"Bükreş Antlaşması'nın 8. maddesi — Sırplara kısmî özerklik vaadi", tur:"antlasma",
+{ t:"1812-05-28", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1812-05-16 (Bükreş Antlaşması; ESBE «Бухарестский мир» 'подписан 16 мая 1812 г.', eski takvim) = Gregoryen 1812-05-28 (TDV bukres-antlasmasi)", b:"Bükreş Antlaşması'nın 8. maddesi — Sırplara kısmî özerklik vaadi", tur:"antlasma",
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","ozerklik","konu-diplomasi"],
   yer_id:"", odak_yer:"Belgrad", devlet:"sirbistan-prensligi",
   d:"1806-1812 Osmanlı-Rus savaşını bitiren barış, Sırplara iç işlerinde kısmî özerklik verilmesini öngördü; ancak Rusya'nın Napolyon karşısında Balkanlardan çekilmesi maddeyi uygulanamaz kıldı. Daha geniş özerklik isteyen isyan ertesi yıl bastırılacaktır.",
@@ -153,7 +153,7 @@ window.KRONOLOJI_COK_SIRBISTAN = [
   onem:4, dunya:1, kapsam:"dis", etiket:["toprak-kazanc","ozerklik","konu-idari"],
   yer_id:"", odak_yer:"Kragujevac", devlet:"sirbistan-prensligi", gun:"1833 (hatt-ı şerifin günü bu turda doğrulanmadı)",
   d:"1830 fermanının öngördüğü sınır düzenlemesiyle, Birinci İsyan sırasında Sırpların elinde bulunan ama 1813'te geri alınan altı nahiye özerk prensliğe bağlandı. Prensliğin toprağı böylece aşağı yukarı iki katına çıktı ve güneyde Timok ile Drina arasına yayıldı.",
-  kaynak:"M. B. Petrovich, A History of Modern Serbia (1976). TDV `sirbistan` bu ilhaka ayrıca değinmiyor. ⚠️ Gün doğrulanmadı — YYYY-01-01." },
+  kaynak:"M. B. Petrovich, A History of Modern Serbia (1976). TDV `sirbistan` bu ilhaka ayrıca değinmiyor. Dikkat: Gün doğrulanmadı — YYYY-01-01." },
 
 { t:"1835-02-15", b:"Sretenje Anayasası ilan edildi ve birkaç hafta içinde askıya alındı", tur:"anayasa",
   onem:3, dunya:1, kapsam:"ic", etiket:["anayasa","reform","konu-siyasi","konu-hukuk"],

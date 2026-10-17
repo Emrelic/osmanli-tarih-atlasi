@@ -1,0 +1,17 @@
+yon	girdi	durum	yol	atlas_karsiligi	hukum
+VAR bekleniyor	Stokholm	bulundu	birebir	Stokholm	geçti
+VAR bekleniyor	Budin	bulundu	birebir	Budin	geçti
+VAR bekleniyor	Revan	bulundu	birebir	Revan	geçti
+VAR bekleniyor	İstanbul	bulundu	birebir	İstanbul	geçti
+VAR bekleniyor	Buda	bulundu	esanlam	Budin	geçti
+VAR bekleniyor	Suceava	bulundu	parantez	Suçava (Suceava)	geçti
+VAR bekleniyor	Kruja	bulundu	parantez	Akçahisar (Kruja)	geçti
+YOK bekleniyor	Ani	yok	-		geçti
+YOK bekleniyor	Mistra	yok	-		geçti
+YOK bekleniyor	Sis (Kozan)	yok	-		geçti
+YOK bekleniyor	Harran	yok	-		geçti
+YOK bekleniyor	Alamut	yok	-		geçti
+YOK bekleniyor	Rey	yok	-		geçti
+YOK bekleniyor	Yayçe/Jajce	bulundu	parantez	Yayça (Jajce)	BULDU — açıklama gerekir
+katlama	İstanbul = istanbul	istanbul	-	istanbul	geçti
+katlama	IĞDIR = Iğdır	igdir	-	igdir	geçti

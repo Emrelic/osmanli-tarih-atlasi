@@ -64,7 +64,7 @@ window.OLAYLAR_EK12 = [
   gun:"12 Mart 1560 (14 Cemâziyelâhir 967)", yer:"Cerbe (Djerba), Trablusgarp", yer_id:"Cerbe (Djerba)",
   kisiler:"Turgut Paşa, Piyâle Paşa",
   d:"İspanya, Papalık, Malta, Ceneviz ve Floransa gemilerinden kurulu Haçlı donanması, Turgut Reis'in 1551'den beri akın üssü olarak kullandığı Cerbe'yi hedef aldı. Fırtınalar ve salgın yüzünden ada önlerine ancak 1560 yılı başlarında ulaşabildi; 12 Mart 1560'ta adayı işgal edip bir kale inşa etti. Haberi alan Piyâle Paşa 28 Mart'ta 120 kadırgalık donanmasıyla İstanbul'dan yola çıktı. İşgal uzun sürmedi: Osmanlı donanması mayısta Cerbe önünde müttefikleri yendi, kale de temmuz sonunda geri alındı. Bu sefer, Preveze'den sonra Akdeniz'de Osmanlı üstünlüğünü pekiştiren ikinci büyük deniz harekâtının başlangıcıdır.",
-  kaynak:"cerbe + piyale-pasa — TDV piyale-pasa birebir: 'İspanya yönetimindeki müttefik hıristiyan donanması 14 Cemâziyelâhir 967’de (12 Mart 1560) Cerbe adasını işgal etti. Bunun üzerine Piyâle Paşa, 120 kadırgadan oluşan donanmasıyla 1 Receb 967’de (28 Mart 1560) İstanbul’dan yola çıktı.' · TDV cerbe: '1560 yılı başlarında' (gün vermiyor). · Düzeltme (KITA 14, 13 Eylül 2026): t: 1560-01-01 → 1560-03-12; önceki metindeki 'beş ay içinde' ifadesi çıkarıldı (işgal 12 Mart, kale 30 Temmuz).", duygu:["⚔️","😔"] },
+  kaynak:"cerbe + piyale-pasa — TDV piyale-pasa birebir: 'İspanya yönetimindeki müttefik hıristiyan donanması 14 Cemâziyelâhir 967’de (12 Mart 1560) Cerbe adasını işgal etti. Bunun üzerine Piyâle Paşa, 120 kadırgadan oluşan donanmasıyla 1 Receb 967’de (28 Mart 1560) İstanbul’dan yola çıktı.' · TDV cerbe: '1560 yılı başlarında' (gün vermiyor). · Düzeltme: t: 1560-01-01 → 1560-03-12; önceki metindeki 'beş ay içinde' ifadesi çıkarıldı (işgal 12 Mart, kale 30 Temmuz).", duygu:["⚔️","😔"] },
 
 // ---------------------------------------------------------------------------
 // A-2 — Cerbe kalesinin düşüşü  🔴 ASIL BORÇ KAPATAN MADDE
@@ -124,7 +124,7 @@ window.OLAYLAR_EK12 = [
   gun:"3 Mayıs 1815", ic_not_gun:"Gün Encyclopædia Britannica 1911'de YOK; künye krakow-serbest-sehri'nin kaynağından (Hertslet, The Map of Europe by Treaty, No. 14, '21st April / 3rd May 1815') — bu turda yeniden okunmadı.",
   yer:"Krakov", yer_id:"Krakov",
   d:"Viyana Kongresi'nde Rusya, Avusturya ve Prusya, Krakov şehrini çevresiyle birlikte üç devletin koruması altında serbest bir devlet yaptı; Viyana Nihai Senedi bu düzeni tescil etti.",
-  kaynak:"Encyclopædia Britannica 1911, 'Cracow' (Wikisource) AYNEN: 'by the Final Act of the congress signed at Vienna in 1815, \"the town of Cracow, with its territory, is declared to be for ever a free, independent and strictly neutral city, under the protection of Russia, Austria and Prussia.\"' · gün: Hertslet No. 14 (künyeden)" },
+  kaynak:"P. Cichoń, 'The Free City of Kraków in the Regional Security Policies of its Neighbouring States', Krakowskie Studia z Historii Państwa i Prawa 12/4 (2019), s. 523-535, doi:10.4467/20844131KS.19.025.11643: Avusturya, Prusya ve Rusya'nın 'additional treaty signed on 3 May 1815' ile Krakov serbest, bağımsız ve tarafsız şehir oldu ; Encyclopædia Britannica 1911, 'Cracow' (Wikisource) AYNEN: 'by the Final Act of the congress signed at Vienna in 1815, \"the town of Cracow, with its territory, is declared to be for ever a free, independent and strictly neutral city, under the protection of Russia, Austria and Prussia.\"' · gün: Hertslet No. 14 (künyeden)" },
 
 { t:"1846-11-11", k:"siyaset", kapsam:"dis", etiket:["siyaset","diplomasi","konu-diplomasi"],
   b:"Krakov Serbest Şehri kaldırıldı, Avusturya'ya katıldı",
@@ -140,9 +140,9 @@ window.OLAYLAR_EK12 = [
   d:"Bagirmi ve Vedây'ı sarsan Sudanlı savaş beyi Râbih b. Zübeyr Bornu'yu ele geçirdi; 1896'ya kadar ülkenin tamamını alıp Dikeo'yu merkez edindi.",
   kaynak:"TDV bornu AYNEN: '… Bornu, Bagirmi Sultanı Râbih b. Zübeyir'in hâkimiyetine girdi (1893).' · '1896'ya kadar ülkenin tamamını ele geçiren ve Dikeo'yu merkez edinen Râbih 1900'de Fransız sömürge ordusu tarafından mağlûp edilerek öldürülünce yerine oğlu hâkimiyetini devam ettirmek istedi, fakat Fransızlar karşısında tutunamadı.'" },
 
-{ t:"1900-01-01", k:"savas", kapsam:"dis", etiket:["savas","konu-askeri"],
+{ t:"1900-04-22", k:"savas", kapsam:"dis", etiket:["savas","konu-askeri"],
   b:"Râbih b. Zübeyr Fransızlara yenilip öldürüldü — Bornu'daki hâkimiyeti çözüldü",
-  gun:"1900", ic_not_gun:"TDV yalnız YIL veriyor; ay-gün yazılmadı (§4). TDV bornu 'Fransız sömürge ordusu', TDV cad 'Dikoa'daki (Dikwa) savaşta esir düştü' diyor.",
+  gun:"22 Nisan 1900 (Kusseri muharebesi)", ic_not_gun:"TDV yalnız YIL veriyor (bornu, cad). GÜN akademik: Marc Michel, Revue historique des Armées 218 (2000) 'la bataille de Kousséri, le 22 avril 1900' · A. Bangui, Journal des africanistes 74 (2004) 'à Kousseri, le 22 avril 1900'. 🔴 YER ÇELİŞKİSİ: TDV cad 'Dikoa’daki (Dikwa) savaşta esir düştü' der; akademik kaynaklar Kusseri — taraf seçilmedi, başlık yeri anmaz. Eski t 1900-01-01 yıl koduydu. KUTU-H1-1015",
   yer:"Bornu", yer_id:"Dikva (Dikeo)", kisiler:"Râbih b. Zübeyr",
   d:"Fransız sömürge ordusuna yenilen Râbih öldürüldü; oğlu hâkimiyeti sürdürmek istediyse de tutunamadı ve Bornu 1902'de Fransa, İngiltere ve Almanya arasında paylaşıldı.",
   kaynak:"TDV bornu AYNEN: '… Râbih 1900'de Fransız sömürge ordusu tarafından mağlûp edilerek öldürülünce yerine oğlu hâkimiyetini devam ettirmek istedi, fakat Fransızlar karşısında tutunamadı.' · TDV cad AYNEN: '… Dikoa'daki (Dikwa) savaşta esir düştü ve öldürüldü (1900).'" },

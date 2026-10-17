@@ -121,9 +121,10 @@ def main():
         kayit.append({
             "ad": y["ad"], "lat": y["lat"], "lon": y["lon"],
             "cins": str(c),
-            "neden": (y.get("neden") or "").strip(),
+            "neden": _okura(y.get("neden") or ""),
             # 🔴 UYDURULMUYOR — kaynaklı yarıçap gelene kadar null
             "yaricap_km": None,
+            "p": _bos_pencereler(y),
         })
     kayit.sort(key=lambda x: (x["cins"], x["ad"]))
     say = {}
@@ -150,9 +151,12 @@ def main():
     g.write(_js(CINSLER))
     g.write(";\n\nwindow.BOS_ALANLAR = [\n")
     for k in kayit:
-        g.write("{ad:%s, lat:%.4f, lon:%.4f, cins:%s, yaricap_km:null, neden:%s},\n"
+        p = k["p"]
+        ps = "" if p is None else ", p:[%s]" % ",".join(
+            "[%s,%s]" % (_s(a) if a else "null", _s(b) if b else "null") for a, b in p)
+        g.write("{ad:%s, lat:%.4f, lon:%.4f, cins:%s, yaricap_km:null, neden:%s%s},\n"
                 % (_s(k["ad"]), k["lat"], k["lon"], _s(k["cins"]),
-                   _s(k["neden"][:300])))
+                   _s(k["neden"][:300]), ps))
     g.write("];\n")
     io.open(CIKTI, "w", encoding="utf-8", newline="\n").write(g.getvalue())
     print("🟢 %s yazıldı · %d kayıt" % (os.path.relpath(CIKTI, KOK), len(kayit)))
@@ -162,6 +166,50 @@ def main():
     print("\n⚠️ index.html'e SCRIPT SATIRI eklenmeli, yoksa dosya OKUNMAZ.")
     print("   Bu projede bağlanmamış veri dosyası ÜÇ KEZ yaşandı.")
     return 0
+
+
+# 🔴 KUTU-D-1014 (0052/H-0114, Emre: "1672'de Pavlodar/Barnaul/Semipalatinsk
+# 'devletsiz şehir idaresi' diyor … o yeşil renk kimin"). Kayıtların ZAMAN
+# BOYUTU yoktu: Barnaul'un `bos:` beyanı "1635 öncesi" içindir, 1635'ten sonra
+# nokta `cungar`ın (yeşil) — ama halka her tarihte çiziliyordu.
+# ⇒ `p`: yerleşimin HİÇBİR sahiplik dönemiyle (d · v · s · isg) örtülmediği
+#    aralıklar, [f, t) — null açık uç. Arayüz halkayı/beneği yalnız bu
+#    aralıklarda çizer. Hiç dönemi olmayan kayıtta `p` YAZILMAZ (her zaman boş).
+# Ölçüt veriden türüyor, tarih uydurulmuyor: aralık uçları kaydın kendi
+# dönem uçlarıdır.
+def _bos_pencereler(y):
+    dolu = []
+    for alan in ("d", "v", "s", "isg"):
+        for d in (y.get(alan) or []):
+            if isinstance(d, dict) and d.get("f") and d.get("t"):
+                dolu.append((str(d["f"]), str(d["t"])))
+    if not dolu:
+        return None
+    dolu.sort()
+    birlesik = []
+    for f, t in dolu:
+        if birlesik and f <= birlesik[-1][1]:
+            if t > birlesik[-1][1]:
+                birlesik[-1][1] = t
+        else:
+            birlesik.append([f, t])
+    pen = []
+    onceki = None
+    for f, t in birlesik:
+        pen.append((onceki, f))
+        onceki = t
+    pen.append((onceki, None))
+    return pen
+
+
+# Okura giden `neden` metninden geliştirici notu ("🔴 … TDV'ye basmıyor") çıkar:
+# o not iç denetimin dilidir, popup'ta okura sızıyordu (0052/H-0114).
+def _okura(metin):
+    metin = metin.strip()
+    i = metin.find("🔴")
+    if i >= 0:
+        metin = metin[:i].rstrip()
+    return metin
 
 
 def _s(x):

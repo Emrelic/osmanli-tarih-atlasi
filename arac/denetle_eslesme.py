@@ -41,7 +41,13 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import girdi
 import denetle
 
-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
+# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
+# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
+# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
+# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
+# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
+if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
+        and hasattr(sys.stdout, "buffer")):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 PENCERE_GUN = 30            # Değişmez 2 ile aynı; bilerek aynı
@@ -166,7 +172,7 @@ def a_yanlis_eslesme(Y, O, ix):
     for y in Y:
         for p in (y.get("d") or []) + (y.get("v") or []):
             for dt in (p.get("f"), p.get("t")):
-                if not dt or dt <= "1281-01-01" or dt >= "1923-10-29":
+                if denetle.kirilma_disi(dt):   # ZAMAN-Z1-1008: ufuk denetle.py'den
                     continue
                 kir.setdefault(dt, set()).add(y["ad"])
 

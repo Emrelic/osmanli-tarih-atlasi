@@ -1,0 +1,23 @@
+[
+ {
+  "anahtar": "parti-emrelic-0045/H-0007",
+  "hukum": "sirada",
+  "not": "G2 dilimi (1700-1923): kartsız 62 savaş/kuşatma maddesinin 61'i 37 yeni savaş hikâyesi kartıyla bağlandı (data/ekokuma_savas1700.js; seferler gruplandı, ör. 1831-33 Kavalalı seferi 5 maddeyi tek kartta anlatır) + 93 Harbi kartı 1877-04 maddesine bağlandı. Kartlar TDV gövdeleri okunarak, TDV kapsamadığında hakemli makale/akademik ansiklopedi künyesiyle yazıldı; kaynakta olmayan rakam yok. Kalan 1: 1724-09-11 Salyan (dayandığı Kurukin 2010 / Özdamirova 2024 okunamadı). Commit'ler yerelde, koşu 25 kapısından sonra (18:20+) itilecek.",
+  "commit": "46ad0866f KUTU-G2-1014 parti 1 (24 kart + 1853 Prut maddesi) · 989d1f20b KUTU-G2-1014 parti 2 (13 kart) — İKİSİ DE YEREL, push 18:20 sonrası",
+  "kaynak": "https://islamansiklopedisi.org.tr/"
+ },
+ {
+  "anahtar": "parti-emrelic-0035/H-0090",
+  "hukum": "sirada",
+  "not": "İki eksik halka: (1) 1790 İsmail'in düşüşü — kronolojide ZATEN var (olaylar_ek5 1790-12-22 'İsmail Kalesi'nin düşüşü ve katliamı'; önceki not yanlıştı, TDV ismail--ukrayna günü veriyor: 15 Rebîülâhir 1205 / 22 Aralık 1790); maddeye savaş kartı bağlandı. (2) 1853 Prut geçişi yazıldı: 1853-07-03 (Sytin Askerî Ansiklopedisi, Jülyen 21 Haziran; Badem 2007 '2 July' bir gün farkı beyanlı), ayrıca Menşikov krizi→işgal kartı. Commit yerelde, 18:20 sonrası itilecek; itilince cozuldu.",
+  "commit": "46ad0866f KUTU-G2-1014 (YEREL, push bekliyor)",
+  "kaynak": "https://islamansiklopedisi.org.tr/ismail--ukrayna"
+ },
+ {
+  "anahtar": "parti-emrelic-0068/H-0006",
+  "hukum": "sirada",
+  "not": "Beş aşama (giden süreç · başlangıç · olaylar · son · barış) 1700-1923 Osmanlı-Rus savaşlarında: 1787-92 savaşında başlangıçtan Yaş'a kadar zincir artık kartlarla örülü (Fidonisi, Boğdan cephesi, Fokşani-Rimnik, Kalafat-Yergöğü, İsmail-Maçin); 1806-12'de İbrail 1809, 1811 seferi, Slobozia; 1828 Prut geçişi; 1853'te eksik 'savaşa giden süreç + işgal' halkası eklendi. 1736-39 savaşının açılışı tek kartta. Avusturya ve İran savaşlarının aşama denetimi (1716-18, 1821-23 dışında) yapılmadı.",
+  "commit": "46ad0866f KUTU-G2-1014 (YEREL)",
+  "kaynak": ""
+ }
+]

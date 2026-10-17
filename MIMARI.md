@@ -312,13 +312,270 @@ uzak olmamalı:
 | Normal (Avrupa içi, İran, Kuzey Afrika kıyısı) | **120 km** |
 | Seyrek (bozkır, Sahra, Sibirya, iç Arabistan) | **300 km** |
 
+🆕 🔴 **YUKARIDAKİ TABLO BİR ÖLÇÜM DEĞİL, HEDEFTİR — ve bugün hiçbir bölge
+onu karşılamıyor** (10 Ekim 2026, LAB ölçtü: `denetim/LAB-YOGUNLUK-IZGARA-1010.md`).
+```
+Anadolu            p95  63-70 km   ·  AZAMÎ 107 km   ⇒ 60 km ölçütünü GEÇMİYOR
+yayındaki haritada emilme p95 227-280 km             ⇒ BUGÜN TOLERE EDİLEN REJİM
+```
+Yani tablo uzun süre "ölçüt" diye durdu ama **hiç ölçülmemişti**; ölçülünce en
+yoğun bölge bile dışında kaldı. **Bir sayı, ölçülmediği sürece ölçüt değil
+TEMENNÎdir** — ve bu sayı bayatlamadı, hiç doğmadı.
+
+🔴 **BUGÜNDEN İTİBAREN KAPI p95'TİR, AZAMÎ UYARIDIR** (koordinatör hükmü):
+
+| kova | ölçüt |
+|---|---|
+| **AÇ** | p95 ≤ **150 km** VE azamî ≤ **300 km** |
+| **SINIR** | p95 ≤ **300 km** |
+| **KAPALI** | üstü |
+
+**Niçin ikisi birden, biri değil:** p95 **kapı** olur çünkü tek aykırı noktaya
+rehin değildir; azamî **uyarı** olur çünkü tek aykırıyı gösteren tek şeydir.
+Birini atmak ötekinin işini görmez — ölçülen vaka: Okyanusya'da **bir Tonga
+noktası Yeni Zelanda'yı 2.276 km öteden boyuyor** ve bunu yalnız azamî
+gösteriyor; buna karşılık yalnız azamîye bakan bir kapı tek noktayla kilitlenir.
+
+**150 km keyfî değil:** Anadolu/Balkan p95'inin (63-70 km) ~2 katı, ve o p95
+**642 yıl boyunca sabit** ölçüldü. 300 km de keyfî değil: yayındaki haritanın
+bugün tolere ettiği rejim.
+
+**SAĞLAMA — bugünkü 1281-1923 penceresinde** (ölçüm, beyan değil):
+```
+8/8 AÇ       Anadolu · Balkan · Kafkasya · İran · Avrupa-Orta · Avrupa-Doğu
+yalnız SINIR Mezopotamya · Levant
+8/8 KAPALI   Okyanusya
+KAPALI       Amerika ve GD Asya, 1290-1650  ⇒ bugün de kuralı KARŞILAMIYOR
+```
+📌 Son satır önemli: ölçüt yeni bir çıta değil, **zaten karşılanmayan** bir
+gerçeği görünür kılıyor. Pencere genişletmesi (`§6` sırası) bu kovalardan
+okunur — "AÇ" olmayan bölgeye pencere açılmaz.
+
+🔴 **MÖ İÇİN EK KURAL — "var olmayan nokta yoğunluk sayılmaz":** MÖ'de boyayan
+nokta **0**, ama motor `kur:`'u olmayan **2.823 noktayı** MÖ'de de petek sitesi
+sayıyor (`uret_petek.py:2907` — `kur:` yoksa nokta `UFUK[0]`'tan beri sahnede).
+⇒ MÖ penceresi, o noktaların `kur:` borcu ÖLÇÜLMEDEN açılmaz.
+⚠️ Ama ölçüldü ve **dar** bir sonuç verdi: `kur:` borcu **1000-1280
+geometrisini DEĞİŞTİRMİYOR**, çünkü sahipsiz nokta hiç devredilmiyor
+(`:4803` · `:5023-27`) ve o dilimde devredilen nokta **0**. O dilimdeki gerçek
+engel `kur:` değil **SEYREKLİK**: 81 boyalı ada, 2.741 boş site arasında;
+boyayan noktaların en yakın 6 komşusunun **%87,1'i boş**
+(`denetim/LAB-KUR-SAYIM-1010.md`).
+⇒ Çare `kur:` yazmak DEĞİL, **nokta EKLEMEK.**
+
+**MÖ GEREKSİNİMİ, sayıya çevrildi** (`N = alan × (k/D)²`, Anadolu'ya göre
+ayarlı; k=1,25 iyi yayılım · 1,58 atlas medyanı):
+```
+Sümer kutusu (güney Mezopotamya)   D=150 km → 13-20 KAYNAKLI nokta
+                                   D=100 km → 28-44 nokta
+```
+Bölge bölge tablo `LAB-YOGUNLUK-IZGARA-1010.md §6`da. **Bunlar ALT SINIR**;
+kutu kenarı ayrıca ölçülür.
+
+### 5.1 🆕 🔴 SÜMER ÇEKİRDEK KUTUSU — resmî tanım (10 Ekim 2026, koordinatör hükmü)
+
+`D220` pencere genişlemesinin SIRASINI veriyor ama **koordinatlı bir çekirdek
+tanımı içermiyordu.** Kampanyanın ilk kutusu bu yüzden burada tanımlanıyor:
+```
+ÇEKİRDEK KUTU   30,5 – 33,5 K  ·  44 – 47 D        (güney Mezopotamya)
+MASKE           veri-kaynak/motor_kara.geojson
+```
+🔴 **Maske `motor_kara` seçildi, `ne_10m_land` DEĞİL** — gerekçe: o dosya
+`veri-kaynak/` notunda *"GİRDİ DEĞİL ÇIKTI — motorun çizdiği kara"* diye
+işaretli. **Ölçüm, motorun GÖRDÜĞÜ karada yapılır**; başka bir kara tanımı
+ikinci bir otorite olurdu.
+
+**ÖLÇÜM — "sorun SAYI değil KONUM" (KASA + LAB, bağımsız iki ölçüm):**
+| aşama | p95 | azamî |
+|---|---|---|
+| mevcut 10 nokta (bütün kutu) | 232 | 303 |
+| + 15 yeni Sümer sitesi | 221 | 302 |
+| + Susa (doğu kenarı) | 186 | 249 |
+| **çekirdek kutu, 26 nokta, maskeli** | **148,9** | **194,5** |
+| **+ 1 dolgu noktası (KD köşe)** | **111 – 113** | **177,7** |
+
+🔴 **15 SÜMER SİTESİNİN TOPLAM ETKİSİ YALNIZ −11 km**, ve 13'ü p95'i HİÇ
+oynatmıyor: hepsi Fırat-Dicle hattında, mevcutların 10-60 km yakınında.
+**Sümer KÜMELİ bir coğrafyadır.**
+⇒ `N = alan × (k/D)²` formülü **düzgün dağılım varsayar** ⇒ *"13-20 nokta
+yeter"* bu kutu için **GEÇERSİZDİR.** Formül yanlış değil; **varsayımı bu
+coğrafyada tutmuyor**, ve bu ancak gerçek siteler konulunca görülebildi.
+📌 Ders: **bir modelin cevabı, varsayımı sorulmadan kullanılamaz.**
+
+**EŞİK GEÇİŞİ VE GÜRÜLTÜ — hüküm:**
+KASA maskesiz **151**, LAB maskeli **148,9** ölçtü; aradaki ~2 km hücre
+merkezleme ve R seçiminden geliyor. Eşik **150**.
+🔴 **Eşik geçişi ölçüm gürültüsünün İÇİNDEYSE hüküm AÇ da SINIR da değil,
+`ÖLÇÜLEMEDİ`dir** (`§3`: *ölçülemeyen soru TEMİZ DEĞİLDİR*). Ve eşik **iki
+yönde de** ölçüme göre oynatılmaz: 151 geldiğinde gevşetilmedi, 148,9
+geldiğinde de AÇ ilan edilmedi.
+⇒ **Çare tartışmak değil, BELİRSİZLİĞİ KALDIRMAK:** bir `tur:"bolge"` dolgu
+noktası (KD köşe `33,475/46,825`, ya da `33,2/46,6`) p95'i **111 km**'ye
+indiriyor — eşiğe pay **~37 km**, gürültü ±2-3 km. Soru o zaman ölçülebilir
+ve cevabı **AÇ** tarafında açık.
+
+**SÜMER PENCERESİNİ AÇMAK İÇİN GEREKEN — tek cümlede:**
+> **26 kaynaklı nokta (var) + 1 `tur:"bolge"` dolgu noktası.**
+
+⚠️ Üç şart, atlanamaz:
+1. **Dolgu `BEKLENEN_SAHIPSIZ`ı oynatır** (Değişmez 1 sahipsizi sayar) ⇒
+   dolgu ve tavan **AYNI COMMIT'TE** (`§3.4②`).
+2. **Dolgu gerçek şehir değildir** ⇒ kaynak aranmaz, ama `bos:` ile
+   etiketlenir ve sahipsiz kalacağı BEYAN edilir (bu bölümün başı).
+3. **Dolgu indikten sonra yeni azamî GB köşeye (30,525K · 44,025D, çöl)
+   geçiyor** ⇒ hüküm ORADA yeniden ölçülür. Bir eşiği geçmek, sonraki
+   darboğazı görünür kılar.
+
+🔴 **VE BU KUTU MÖ'Yİ AÇMIYOR — yalnız kutunun YOĞUNLUK şartını açıyor.**
+
+### 5.1b 🆕 🔴 ANADOLU KUTUSU — resmî tanım, ve bugünkü p95 YAPAY
+
+```
+ANADOLU KUTUSU   TR-Asya ∩ veri-kaynak/motor_kara.geojson   (TRAKYA HARİÇ)
+                 31.090 hücre · atlas noktası 218
+```
+🔴 **Dikdörtgen tanım REDDEDİLDİ.** Bir enlem/boylam dikdörtgeni Trakya'yı
+(Edirne · İstanbul), Ege adalarını ve sınır ötesi noktaları içine alıyor —
+onlar **komşu kutulara** ait. Ölçüldü: dikdörtgen 316 nokta, TR-Asya 215;
+ortak 207 · yalnız dikdörtgen **109** · yalnız TR-Asya 8. O 109 nokta
+kaybolmuyor, **başka kutudadır** (`D220`: kapsam kademeli açılır).
+Maske `motor_kara` — Sümer kutusundaki hükmün aynısı: *ölçüm, motorun
+gördüğü karada yapılır.*
+
+**`kur:` BORCU — Sümer'den ÇOK daha büyük:**
+```
+atlas noktası 218  ·  kur: VAR 3  ·  kur: YOK 215   = %98,6
+215'in 68'i MÖ 3000'de p95'i DEĞİŞTİRİYOR
+en kârlı 20'nin sınıfı:  A 0 · A' 0 · B 6 · C 6 · D(yalnız MS) 5 · bulunamadı 3
+⇒ 20'nin 14'ü MÖ 2. binyılda YOK
+```
+
+🔴 **KAPI CÜMLESİ v2 (hüküm — 68 noktanın tamamı ölçüldükten sonra):**
+> **Anadolu MÖ kutusu KAYNAKLA HİÇBİR KESİTTE AÇILMIYOR (439-620 km).
+> Bugünkü 67-70 km yalnız `kur:` yokluğunun ürünüdür.**
+
+```
+TASDİKLİ, TAVO-hariç       MÖ 3000  620,2  ·  2000/1500/1000  483,8  ·  500  438,8
+                           ⇒ HEPSİ KAPALI
+TAVO etiketleri sayılırsa  MÖ 1500-500      207,9 / 186,6 / 170,4   ⇒ SINIR
+147 "etkisiz" nokta da     MÖ her kesit     120-136                 ⇒ AÇ
+   "var" sayılırsa
+```
+⇒ **TAVO kararı kapıyı KAPALI ↔ SINIR arasında oynatıyor, AÇ'a GETİRMİYOR.
+Kutuyu açık tutan TEK ŞEY 147 noktanın ÖLÇÜLMEMİŞ VARLIĞI.**
+
+🔴 **TAVO HÜKMÜ — `provenance: TAVO Index` etiketi `kur:` KAYNAĞI SAYILMAZ:**
+Ölçüldü (KASA): 48 noktanın bütün `A/A'/B` etiketleri Pleiades kaydının
+**ANTİK adından değil, MODERN ad girdisinden** geliyor.
+```
+"Konya"  GANE 34400 → MÖ 9000      "Mersin" GANE 39799 → MÖ 6000
+"Bolu" · "Samsun" · "Burdur" · "Manisa" · "Erzincan" → MÖ 1750
+Burdur'un Barrington adı [Praetoria] YALNIZ late-antique
+Mersin'in MÖ 6000'i büyük olasılıkla AYRI BİR HÖYÜK (Yumuktepe)
+```
+⇒ Etiket **modern ada** bağlı ve **hangi nesneyi tarihlediği belirsiz** ⇒
+`HUKUM §6.2`nin (tanık yanlış nesneyi ölçüyor) **ETİKET yüzü**, ve `§9.4`ün
+(etiket kapsamdan gelir) kardeşi.
+⚠️ **VE BU KARAR BİRİNCİ TURU DA ÇÜRÜTTÜ** (KASA kendi ölçümünü düzeltti):
+Ankara · Kayseri · Sivas · Sinop · Antalya **B → C** · Erzurum **B → D** ·
+Bitlis · Diyarbakır **C → D**.
+⇒ **68 noktanın tamamı: B 1 · C 36 · D 13 · bulunamadı 18.** TAVO dışında
+tanığı olan **TEK nokta Konya** (OSM Alaaddin Tepesi, 2nd-millennium-bce, 0,1 km).
+
+🔴 **`D` ≠ "YOKTU" — sınıf İKİYE AYRILIR** (`§3`ün üç kodunun sınıflamaya
+uygulanması: *ölçülemedi ≠ yok*):
+```
+D-yok          MÖ tasdiki yok VE var olduğunu düşündürecek sebep de yok
+               ⇒ kur: = en erken tasdik, MÖ sahnesinden ÇIKAR
+D-ölçülemedi   MÖ'de BİLİNEN yer ama Pleiades'te TAVO-dışı MÖ etiketi yok
+               ⇒ kur: YAZILMAZ, ikinci tanık aranır
+               ör. Diyarbakır (Amida/Amedi) · Van (Ṭušpa)
+```
+📌 İkisini tek kovaya atmak, bilinen bir şehri "yoktu" diye sahneden
+çıkarırdı — ve o, `kur:` borcunu ödemek değil **yeni bir hata yazmak** olurdu.
+
+Niçin: aynı kutu, aynı gün, **üç ayrı p95** veriyor —
+| varsayım | p95 | hüküm |
+|---|---|---|
+| motor bugünkü hâliyle (215 `kur:`'suz sahnede) | **67 km** | AÇ |
+| yalnız KAYNAKLI noktalar | **620 km** | KAPALI |
+| kalan 195 "var" sayılırsa | **105 km** | AÇ |
+⇒ Kapı **iki tarafına da** düşüyor ve fark bir ölçüm farkı DEĞİL:
+**195 noktanın ölçülmemiş varlığı.**
+🔴 Ve YÖN BELLİ: en kârlı 20'de **hiç A sınıfı yok** ⇒ borç ödendikçe
+**p95 YUKARI gider** (kötüleşir). Yani bugünkü "AÇ" hükmü borcun
+gizlediği bir rahatlık.
+📌 **Daha KÖTÜ ama DOĞRU bir p95, daha iyi ama YAPAY olandan yeğdir** — ve
+`§5`in *"var olmayan nokta yoğunluk sayılmaz"* kuralı tam bunu emreder.
+
+⚠️ **AMA 150 km EŞİĞİNİN TÜRETİMİ BUNDAN ETKİLENMEZ** — karıştırılmasın:
+eşik, Anadolu/Balkan'ın **1281-1923 penceresindeki** p95'inden (63-70 km,
+642 yıl sabit) türetildi ve o pencerede o noktalar **gerçekten vardı**
+(ortaçağ/Osmanlı şehirleri). Bozulan şey eşik değil, **MÖ penceresindeki
+Anadolu ölçümü.**
+
+---
+
+### 5.2 🆕 🔴 ÜÇ KAPI AYRI — `§6`nın sırası SAHİPLİĞİ saymıyordu
+
+`§6` *"dizin katmanı → yerleşim yoğunluğu → harita penceresi"* diyor. Ölçüldü
+(KASA, 10 Ekim 2026, **üç ayrı ölçümle üst üste**): bu sıra eksik.
+```
+① YOĞUNLUK   o gün orada NOKTA var mı?        → MIMARI §5 / §5.1 eşiği
+② SAHİPLİK   o nokta o gün KİMİN?             → `s:` zinciri
+③ KAYNAK     bunu NEREDEN biliyoruz?          → §4 · D208 · halka sınıfı
+```
+**Üçü AYRI ve biri açılınca öteki AÇILMIYOR.** Ölçülen vaka, Sümer çekirdeği:
+```
+yoğunluk kapısı  AÇIK  (26 nokta + 1 dolgu ⇒ p95 111,4 km)
+sahiplik kapısı  %14,2 (nokta-yıl 56.195 · bağlı 7.999)  ⇒ harita %85,8 BOŞ
+```
+🔴 **Ve boşluğun en büyük sebebi künye eksikliği DEĞİL:**
+`künye VAR ama şehir BAĞLANMAMIŞ` **%63,3** · `kaynak yok` %19,1 ·
+`künye yok` %17,6.
+⇒ **Künye açmak, şehir adlı kaynak olmadan haritayı BOYAMAZ.** Bu üç kez
+ayrı ayrı ölçüldü:
+```
+B-TUR     hedefli kaynak turu    %88,5 → %85,8   (7 yeni halka, 4 noktada)
+t: kuralı son tasdik yazılınca   %85,8 → %83,3   (11 nokta, "yok"a geçti)
+N kalem   5 yeni künye açılınca  %83,3 → %83,0   ⇐ künye N'yi B'ye ÇEVİRİYOR
+```
+Son satır kuralın kendisi: **künye bir DİZİN kaydıdır; boyayan şey ŞEHİR ADLI
+KAYNAKTIR.** Dizin katmanını açmak sahiplik katmanını açmaz.
+
+**MÖ KESİTLERİ — yoğunluk kapısı her kesitte AÇIK** (`kur:` uygulanmış):
+| kesit | çekirdek p95 | azamî |
+|---|---|---|
+| MÖ 3000 | 118,7 km | 177,7 |
+| MÖ 2700'den itibaren | 111,4 km | 177,7 |
+⇒ Ve `kur:`sız iki site (Sippar · Nina) hariç tutulduğunda **p95 AYNI** ⇒
+kaynaksız iki nokta kapıyı **ŞİŞİRMİYOR**; `§5`in *"var olmayan nokta
+yoğunluk sayılmaz"* kuralı bu kutuda **beyanla değil ÖLÇÜMLE** sağlanıyor.
+
+🔴 **PENCERE KARARI İÇİN SONUÇ:** MÖ penceresi **açılabilir** (yoğunluk AÇIK),
+ama açıldığı gün harita **%83 beyanlı boş** görünecek. Bu bir kusur DEĞİL
+(`§1.5`: *"Kusur değil, BEYAN"*) ama **bir GÖRÜNTÜ kararıdır ve Emre'nindir.**
+Üç sayı o kararın dayanağı: **%83 boşluk · %63,3'ü şehir bağlanmamış künye ·
+en kârlı kalem MÖ 539 → MS 226 (765 yıl, 27 noktanın hepsi).**
+
+---
+
+MÖ penceresi için kalan diğer şartlar: `kur:`/`t:` borcu (2.823 nokta,
+17'si ölçüldü) · MÖ künyeleri (KASA'da 20+ öneri) · negatif yıl makinesi
+(`gun.js` indi `5c45d2c0`, motor tarafı partide) · ve yukarıdaki **üç kapı.**
+
 Seyrek bölgelerde nokta gerçek şehir olmak zorunda değil; `tur:"bolge"` tipinde bir
 **dolgu noktası** olabilir. Dolgu noktası sahipsiz kalır ve `bos:` alanıyla
 etiketlenir (bkz. §6).
 
-**Yapılacak araç:** `arac/denetle_kapsama.py` — kara maskesini ızgaraya böler, her
-hücrenin en yakın yerleşime uzaklığını ölçer, eşiği aşan bölgeleri liste ve görüntü
-olarak verir. Bu araç olmadan bir fazın "yoğunluk kabulü" adımı ölçülemez.
+**Araç — YAPILDI** (10 Ekim 2026, LAB): `C:\lab-araclar\izgara\` (depo DIŞINDA).
+Kara maskesini 5°×5° ızgaraya böler, 55 yüzyıl × 22 makro bölge için en yakın
+yerleşime uzaklığı ölçer, "avuç" hücrelerini (≥25 bin km² boyalı, ≤3 farklı
+nokta boyuyor) ve emilme dağılımını çıkarır. Çıktı:
+`denetim/LAB-YOGUNLUK-IZGARA-1010.*` (1 md + 6 csv).
+⚠️ `arac/denetle_kapsama.py` **hâlâ YOK** ve bu bir borç: ölçüm bir kerelik
+araçla yapıldı, **kapıya BAĞLI DEĞİL.** Yani bugün bir faz "yoğunluk kabulü"
+adımını geçer ama hiçbir kapı onu SORMAZ. Kalem açık.
 
 ---
 

@@ -1,0 +1,59 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(py arac/*)",
+      "Bash(py C:/Users/emrem/AppData/Local/Temp/claude/*)",
+      "Bash(py -c *)",
+      "Bash(node -e *)",
+      "Bash(git log*)",
+      "Bash(git status*)",
+      "Bash(git show*)",
+      "Bash(git diff*)",
+      "Bash(git grep*)",
+      "Bash(git blame*)",
+      "Bash(ls*)",
+      "Bash(grep*)",
+      "Bash(curl -s -o /dev/null -w *)",
+      "Read",
+      "Grep",
+      "Glob",
+      "Edit(data/**)",
+      "Write(data/**)",
+      "Edit(arac/**)",
+      "Write(arac/**)",
+      "Edit(denetim/**)",
+      "Write(denetim/**)",
+      "Edit(oturumlar/**)",
+      "Write(oturumlar/**)",
+      "Edit(js/**)",
+      "Edit(css/**)",
+      "Edit(index.html)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py arac/kabuk_nobetci.py",
+            "timeout": 15,
+            "statusMessage": "§11 nobetcisi"
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py arac/kilit_kanca.py",
+            "timeout": 15,
+            "statusMessage": "dosya kilidi"
+          }
+        ]
+      }
+    ]
+  }
+}

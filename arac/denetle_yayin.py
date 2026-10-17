@@ -45,7 +45,13 @@ import tempfile
 # ⚠️ KORUMALI. İki TextIOWrapper aynı buffer'ı sararsa ilki çöp toplandığında
 # buffer KAPANIR ve bu modülü İÇE AKTARAN aracın çıktısı
 # "ValueError: I/O operation on closed file" ile ölür. Üç kez yaşandı.
-if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
+# 🔴 ARAC-STDOUT-A-1010 (DENETLE-STDOUT-1010'un aynısı, denetle.py 65b8965d):
+# `redirect_stdout(io.StringIO())` altında `encoding` None'dır (öznitelik VAR,
+# getattr varsayılanı devreye GİRMEZ) ve `buffer` yoktur ⇒ eski satır içe
+# aktarımı AttributeError ile düşürüyordu. Buffer'ı olmayan akış (StringIO)
+# zaten str taşır, sarılmaz; konsol/dosya davranışı AYNI.
+if ((getattr(sys.stdout, "encoding", None) or "").lower() not in ("utf-8", "utf8")
+        and hasattr(sys.stdout, "buffer")):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -77,7 +83,9 @@ def yerel_mi(yol):
 # İki ayrı soru sorulur — ikincisi daha değerlidir, çünkü commit'ten ÖNCE uyarır:
 #   1) geçmişte hangi commit damgayı unuttu (tarihsel, düzeltilemez)
 #   2) ŞU AN çalışma ağacında js/css değişmiş ama damga HEAD'dekiyle aynı mı
-DAMGA = re.compile(r"\?v=r(\d+)")
+SURUM_GENEL = re.compile(r'window\.SURUM\s*=\s*"r(\d+)"')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import surum_damgala as _sd          # dosya_damgasi(): damgayı üreten ve sınayan AYNI işlev
 
 
 def _git(*a):
@@ -90,25 +98,38 @@ def _git(*a):
 
 
 def _damga_no(metin):
-    """index.html içindeki en büyük ?v=rNN sayısı; yoksa None."""
+    """index.html içindeki GENEL damga (window.SURUM) sayısı; yoksa None.
+    (Eskiden en büyük ?v=rNN idi; etiket damgaları artık içerik özeti, sürüm numarası değil.)"""
     if metin is None:
         return None
-    n = [int(m) for m in DAMGA.findall(metin)]
-    return max(n) if n else None
+    m = SURUM_GENEL.search(metin)
+    return int(m.group(1)) if m else None
 
 
-def damga_denetimi(gecmis=30):
-    """(gecmis_ihlaller, calisma_agaci_ihlali) — ikisi de listedir."""
+def damga_denetimi(gecmis=30, taban="origin/main"):
+    """(gecmis_ihlaller, calisma_agaci_ihlali) — ikisi de listedir.
+
+    DOSYA BAŞINA DAMGA (13 Ekim 2026): ① kapsam `js/ css/` + `data/*.js`e genişledi — `index.html`de
+    ETİKETİ olmayan tembel yüklenen veri dosyaları (kaynaklı halka, ek okuma, petek gövde…)
+    yalnız GENEL damgayla (window.SURUM) önbellek kırar; değişince o da artmalı.
+    ② `taban..HEAD` arasındaki commit'ler henüz yayında değil — genel damgayı push kapısı
+    SONRADAN yazar ⇒ bunlar atlanır (yoksa her oturumda yanlış alarm). ③ Eski "çalışma ağacında
+    js/css değişmiş, damga aynı" uyarısı KALKTI: etiket damgası artık içerikten türediği için
+    aynı hata (kod değişti, damga eski) ana denetimde diskteki dosyayla DOĞRUDAN yakalanır."""
     log = _git("log", "--format=%H", "-n", str(gecmis + 1))
     if log is None:
         print("UYARI: git log çalıştırılamadı — damga denetimi ATLANDI")
         return None, None
     commitler = log.split()
+    bekleyen = set((_git("rev-list", taban + "..HEAD") or "").split())
     ihlal = []
     for i in range(len(commitler) - 1):
         c, p = commitler[i], commitler[i + 1]
+        if c in bekleyen:
+            continue
         dokunan = [l.strip() for l in (_git("show", "--name-only", "--format=", c) or "").splitlines()
-                   if l.strip().startswith(("js/", "css/"))]
+                   if l.strip().startswith(("js/", "css/")) or
+                   (l.strip().startswith("data/") and l.strip().endswith(".js"))]
         if not dokunan:
             continue
         yeni = _damga_no(_git("show", c + ":index.html"))
@@ -126,17 +147,7 @@ def damga_denetimi(gecmis=30):
                 bekleme = -1        # hiç artmadı
             ihlal.append((c[:7], eski, dokunan, bekleme))
 
-    # --- şu anki çalışma ağacı: commit'ten ÖNCE yakalar --------------------
-    simdi = []
-    durum = _git("status", "--porcelain") or ""
-    kod = [l[3:].strip().strip('"') for l in durum.splitlines()
-           if l[3:].strip().strip('"').startswith(("js/", "css/"))]
-    if kod:
-        d_simdi = _damga_no(io.open(os.path.join(KOK, "index.html"), encoding="utf-8").read())
-        d_head = _damga_no(_git("show", "HEAD:index.html"))
-        if d_simdi is not None and d_head is not None and d_simdi <= d_head:
-            simdi = [(d_head, kod)]
-    return ihlal, simdi
+    return ihlal, []
 
 
 # ============================================================================
@@ -727,6 +738,56 @@ def _yorumsuz_js(s):
     return "\n".join(cikti)
 
 
+# -----------------------------------------------------------------------------
+# 🆕 UFUK EŞİTLİĞİ (ZAMAN-GENİŞ-1008 · koordinatör hükmü, gerekçe H-0008)
+# -----------------------------------------------------------------------------
+# Ufuk İKİ yerde yaşar: `arac/girdi.py` (UFUK · VERI_UFKU — motorun ve denetimin
+# otoritesi) ve `js/app.js` (BASLANGIC · BITIS · VERI_UFKU — arayüzün kopyası).
+# H-0008'de bir yamanın motor yarısı indi, arayüz yarısı geri alınmış kaldı ve
+# hiçbir kapı SORMADI. Bu soru ikisini YAYINDAN ÖNCE karşılaştırır.
+# Okunan ÜÇ literal (Z2'nin sözleşmesi, `ZAMAN-Z2-1008.md §R2`):
+#     var BASLANGIC = gunIdx("…");   var BITIS = gunIdx("…");
+#     var VERI_UFKU = ["…", "…"];
+# Yorumlar silinerek okunur (yorumdaki bir örnek eşleşmesin). Her literal
+# TAM BİR KEZ bulunmalı: yok ya da çift ⇒ ÖLÇÜLEMEDİ ⇒ ihlal (temiz DEĞİL).
+# Sınav (iki yön): `py denetim/ARAC-ZAMAN-Z1-SINAV-1008.py`.
+_UFUK_RX = {
+    "BASLANGIC": re.compile(r'^\s*var\s+BASLANGIC\s*=\s*gunIdx\(\s*"([^"]+)"\s*\)', re.M),
+    "BITIS": re.compile(r'^\s*var\s+BITIS\s*=\s*gunIdx\(\s*"([^"]+)"\s*\)', re.M),
+    "VERI_UFKU": re.compile(r'^\s*var\s+VERI_UFKU\s*=\s*\[\s*"([^"]+)"\s*,\s*"([^"]+)"\s*\]', re.M),
+}
+
+
+def ufuk_esitligi(app_yol=None):
+    """→ (ihlal: bool, satırlar: [str]). app.js ↔ girdi.py ufuk sabitleri."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import girdi as _g
+    yol = app_yol or os.path.join(KOK, "js", "app.js")
+    try:
+        s = _yorumsuz_js(io.open(yol, encoding="utf-8").read())
+    except OSError as e:
+        return True, ["✗  UFUK EŞİTLİĞİ ÖLÇÜLEMEDİ: app.js okunamadı (%s)" % str(e)[:60]]
+    bul = {}
+    for ad, rx in _UFUK_RX.items():
+        m = rx.findall(s)
+        if len(m) != 1:
+            return True, ["✗  UFUK EŞİTLİĞİ ÖLÇÜLEMEDİ: app.js'te `var %s` literal'i %d kez "
+                          "(tam 1 olmalı) — sözleşme bozuk ya da arayüz yarısı inmemiş" % (ad, len(m))]
+        bul[ad] = m[0]
+    app_ufuk = (bul["BASLANGIC"], bul["BITIS"])
+    app_veri = tuple(bul["VERI_UFKU"])
+    fark = []
+    if app_ufuk != tuple(_g.UFUK):
+        fark.append("UFUK app.js %s→%s ≠ girdi.py %s→%s" % (app_ufuk + tuple(_g.UFUK)))
+    if app_veri != tuple(_g.VERI_UFKU):
+        fark.append("VERI_UFKU app.js %s→%s ≠ girdi.py %s→%s" % (app_veri + tuple(_g.VERI_UFKU)))
+    if fark:
+        return True, ["✗  UFUK EŞİTLİĞİ BOZUK — motor ile arayüz FARKLI pencere çiziyor: "
+                      + " · ".join(fark)]
+    return False, ["✓  UFUK EŞİTLİĞİ: app.js = girdi.py (UFUK %s→%s · VERI_UFKU %s→%s)"
+                   % (tuple(_g.UFUK) + tuple(_g.VERI_UFKU))]
+
+
 def cizilmiyor_mu():
     """(bulgular, muaf_sayisi) — üretilen her `window.X` tüketiliyor mu?"""
     import glob as _g
@@ -1189,6 +1250,20 @@ def main():
         "data/koridor_halka2.js":        "11 dugum + 10 kenar (Belgrad→Viyana); "
                                          "onkosul ARAYUZ (index.html satiri + "
                                          "app.js cizimi), renk/anlik goruntu DEGIL",
+        # ── 14 EKIM 2026 — SEHIR TARIHCESI (Emre karari, 13 Ekim) ─────────────
+        # KASITLI OLARAK yuklenmez: 1900 kat 1-3 sehirlerin ilk anilisi + sahiplik
+        # zinciri + kronolojisi ARASTIRMA BIRIKIMIDIR. MO tarih motorda henuz
+        # yazilamiyor (C4) ve yeni nokta zincirsiz eklenemiyor (Degismez 1);
+        # aktarim (yerlesimler s:/d:/kur:/bit: + olaylar) ayri istir.
+        # Sema VERI-YAPISI.md son bolum · denetci arac/sehir_tarihce.py.
+        "data/sehir_tarihce_osm.js":     "241 sehir arastirma birikimi (OSM bolgesi); "
+                                         "onkosul AKTARIM (MO motor destegi C4 + "
+                                         "Emre kararlari, denetim/SEHIR-TARIHCE-OSM-1014)",
+        # ── 14 EKIM 2026 — YERLESIM KADEMESI (Emre karari) ─────────────────────
+        # KASITLI OLARAK yuklenmez: kat 1-4 tanik birikimi (silsile halka 4).
+        # Sema VERI-YAPISI.md 'yer_kat.js' · ilk doldurma denetim/YER-KAT-1014.
+        "data/yer_kat.js":               "kademe tanik birikimi (silsile halka 4); "
+                                         "onkosul OLCUM (silsile_olc.py) + arayuz karari",
         # ── 16 AGUSTOS GECE PARTISI — SEKIZ DOSYA, HEPSI AYNI ONKOSULDA ──
         # Sekiz oturum es zamanli calisti ve her biri KENDI dosyasina yazdi
         # (adlandirma: scratchpad UUID'inin ilk 6 hanesi — cakisma YAPISAL
@@ -1380,7 +1455,48 @@ def main():
                 re.findall(r'"(data/[A-Za-z0-9_]+\.js)"', _js))
     except Exception:                                       # noqa: BLE001
         pass
+    # 🆕 14 Ekim 2026 (BANT-BOLME-1014 ↔ KOŞU 24 inişi): DÖRDÜNCÜ yol — bölünmüş
+    # havuzun ek dilimleri. `app.js` `ufukYukle` ana parçadan sonra
+    # `"data/ufuk_bant_parcalar_" + k + ".js"` ile _2.._N'i yükler; ad kaynakta
+    # TAM geçmez, yalnız ÖNEKİ geçer ⇒ yukarıdaki tırnak ölçütü onları yetim
+    # sayıyordu (KOŞU 24: yetim 3/591, ikisi bu dilimler — alet boşluğu).
+    # ⚠️ KANIT ÜÇ ŞARTLI, desen muafiyeti DEĞİL: `data/X_N.js` dinamik sayılır
+    #   ancak ① JS kaynağında `"data/X_" +` yol kurucusu tırnak içinde geçiyor
+    #   ② ana dosya `data/X.js` zaten yükleniyor (istenen ya da dinamik)
+    #   ③ ana dosya `…_PARCA=M;` yazıyor ve N ≤ M. Fazla kalmış eski bir dilim
+    #   (N > M) ya da PARCA satırı silinmiş bir ana dosya ⇒ dilim YETİM öter.
+    try:
+        _onekler = set()
+        for _jy in _gg.glob(os.path.join(KOK, "js", "*.js")):
+            _js = io.open(_jy, encoding="utf-8", errors="replace").read()
+            _onekler |= set(re.findall(r'"(data/[A-Za-z0-9_]+_)"\s*\+', _js))
+        for _on in _onekler:
+            _ana = _on[:-1] + ".js"
+            if _ana not in istenen and _ana not in _DINAMIK_ADLAR:
+                continue
+            _ay = os.path.join(KOK, _ana)
+            if not os.path.isfile(_ay):
+                continue
+            _m = re.search(r"(?m)^window\.\w+_PARCA=(\d+);$",
+                           io.open(_ay, encoding="utf-8", errors="replace").read())
+            if _m:
+                _DINAMIK_ADLAR |= {"%s%d.js" % (_on, k)
+                                   for k in range(2, int(_m.group(1)) + 1)}
+    except Exception:                                       # noqa: BLE001
+        pass
     dinamik_bulunan = []
+    # 🆕 14 Ekim 2026 (KOŞU 24 inişi, Emre): BEŞİNCİ kova — GITIGNORE'LU HAM ÇIKTI.
+    #   `data/ufuk_bantlari.js` (.gitignore) koşucunun ağacında DURUR ama hiçbir
+    #   zaman yayına gitmez ⇒ "yetim" değildir. Kanıt `git check-ignore`dan gelir
+    #   (izlenen dosyayı ASLA saymaz): `-f` ile zorla eklenmiş bir dosya izlenir ve
+    #   yine yetim öter. Push kapısının temiz ölçüm ağacında bu dosyalar zaten yok.
+    _yoksay = set()
+    _vd = os.path.join(KOK, "data")
+    if os.path.isdir(_vd):
+        _aday = ["data/" + f for f in os.listdir(_vd) if f.endswith(".js")]
+        _cik = _git("check-ignore", *_aday) if _aday else None
+        _yoksay = {s.strip().replace("\\", "/") for s in (_cik or "").splitlines() if s.strip()}
+    yoksay_bulunan = []
 
     diskte, kayitsiz, bekleyen_bulunan, emekli_bulunan = [], [], [], []
     ara_bulunan = []
@@ -1403,6 +1519,8 @@ def main():
                 ara_bulunan.append(yol)
             elif yol in _DINAMIK_ADLAR:
                 dinamik_bulunan.append(yol)
+            elif yol in _yoksay:
+                yoksay_bulunan.append(yol)
             else:
                 kayitsiz.append(yol)
 
@@ -1411,6 +1529,9 @@ def main():
           % (durum4, len(kayitsiz), len(diskte)))
     for y in kayitsiz:
         print("     %s   ← yayında yüklenmez; denetle.py sayar, kullanıcı görmez" % y)
+    if yoksay_bulunan:
+        print("  i %d dosya .gitignore'lu ham çıktı (yayına gitmez, yetim SAYILMAZ): %s"
+              % (len(yoksay_bulunan), " · ".join(y[5:] for y in yoksay_bulunan)))
     if dinamik_bulunan:
         print("  i %d dosya app.js _EKOKUMA_DOSYA_ADLARI / _KAYNAKLI_HALKA_DOSYA_ADLARI ile ÇALIŞMA ANINDA yükleniyor"
               " (adıyla, kanıtlı): %s" % (len(dinamik_bulunan),
@@ -1451,21 +1572,40 @@ def main():
                         break
             print("      %-34s %s" % (y, _ac or "desen eşleşmesi (gerekçe yazılmamış)"))
 
-    # sürüm damgası tutarlılığı: hepsi aynı ?v=rNN taşımalı
-    damgalar = set(re.findall(r'\?v=(r\d+)', html))
-    durum3 = "✓" if len(damgalar) <= 1 else "✗"
-    print("%s  sürüm damgası: %s" % (durum3, ", ".join(sorted(damgalar)) or "yok"))
-    if len(damgalar) > 1:
-        print("     birden çok damga var — surum_damgala.py yarım kalmış olabilir")
+    # sürüm damgası tutarlılığı (DOSYA BAŞINA damga, 13 Ekim 2026 prototip):
+    #   ① GENEL damga `window.SURUM="rNNNN"` tam bir kez ·
+    #   ② her yerel js/css etiketinin ?v=si o DOSYANIN İÇERİĞİNDEN türeyen değere eşit
+    #      (eski "hepsi aynı damga" sınamasının yerine; r83 vakasını — kod değişti, damga
+    #      kaldı — DOĞRUDAN yakalar: bayat damga = içerikten türeyenle uyuşmayan damga)
+    _yh = _yorumsuz_html(html)
+    genel_damga = SURUM_GENEL.findall(_yh)
+    damga_bayat, damga_yok = [], []
+    for _m in re.finditer(r'(?:src|href)="((?:js|data|css)/[^"?]+\.(?:js|css))(?:\?v=(r\d+))?"', _yh):
+        _yol, _mevcut = _m.group(1), _m.group(2)
+        _olmasi = _sd.dosya_damgasi(_yol, KOK)
+        if _olmasi is None:
+            continue                       # dosya diskte yok — başka denetimler (yoklar) söyler
+        if _mevcut is None:
+            damga_yok.append(_yol)
+        elif _mevcut != _olmasi:
+            damga_bayat.append(_yol)
+    damga_tutarsiz = len(genel_damga) != 1 or bool(damga_bayat) or bool(damga_yok)
+    print("%s  sürüm damgası: genel %s · dosya damgası %d bayat, %d eksik" % (
+        "✗" if damga_tutarsiz else "✓", ",".join("r" + x for x in genel_damga) or "YOK",
+        len(damga_bayat), len(damga_yok)))
+    if len(genel_damga) != 1:
+        print("     `window.SURUM=\"rNNNN\"` %d kez var — tam 1 olmalı (surum_damgala.py --yayin)" % len(genel_damga))
+    for _y in (damga_bayat + damga_yok)[:8]:
+        print("     %s damgası içerikle uyuşmuyor → py arac/surum_damgala.py" % _y)
 
     # --- sürüm damgası ARTTI MI (r83 vakası) ---------------------------------
-    gecmis_ihlal, simdi_ihlal = damga_denetimi(args.gecmis)
+    gecmis_ihlal, _ = damga_denetimi(args.gecmis)
     damga_ihlali = False
     if gecmis_ihlal is not None:
         takili = [x for x in gecmis_ihlal if x[3] == -1]
-        durum5 = "✓" if not simdi_ihlal and not takili else "✗"
-        print("%s  damga artışı: son %d commit'te js/css değiştiren %d commit damgayı "
-              "arttırmamış" % (durum5, args.gecmis, len(gecmis_ihlal)))
+        durum5 = "✓" if not takili else "✗"
+        print("%s  damga artışı: son %d commit'te (yayında olan) js/css/data-js değiştiren %d commit "
+              "genel damgayı arttırmamış" % (durum5, args.gecmis, len(gecmis_ihlal)))
         for c, eski, dokunan, bekleme in gecmis_ihlal:
             nasil = ("HÂLÂ TAKILI" if bekleme == -1 else
                      "%d commit sonra düzeldi" % bekleme)
@@ -1473,15 +1613,8 @@ def main():
                 sorted({d.split("/")[0] for d in dokunan})), nasil))
         if takili:
             damga_ihlali = True
-            print("     → HEAD'de hâlâ eski damga: py arac/surum_damgala.py")
-        if simdi_ihlal:
-            damga_ihlali = True
-            for eski, kod in simdi_ihlal:
-                print("✗  ÇALIŞMA AĞACI: %d kod dosyası değişmiş, damga hâlâ r%d"
-                      % (len(kod), eski))
-                for k in kod[:8]:
-                    print("     %s" % k)
-                print("     → COMMIT ETMEDEN ÖNCE: py arac/surum_damgala.py")
+            print("     → yayında genel damga hâlâ eski: push kapısı `surum_damgala.py --yayin` yazar "
+                  "(kapıyı atlayıp itildiyse: py arac/surum_damgala.py --yayin)")
 
     if args.ayrinti:
         print("\nizlenen varlıklar:")
@@ -1743,7 +1876,8 @@ def main():
                 except Exception:
                     pass
                 sys.stdout = _eski_stdout
-        _kul, _diz = _dt.kimlik_evreni()
+        _Y = girdi.yukle(sessiz=True)
+        _kul, _diz = _dt.kimlik_evreni(_Y)
         _eksik, _kasitli = _dt.bosluk_kovalari(_kul, _diz)
         _dizinsiz = len(_eksik)
         if _dizinsiz:
@@ -1760,6 +1894,31 @@ def main():
         # ÖLÇÜLEMEDİ asla TEMİZ sayılmaz — `_bagli` ile aynı desen.
         _dizinsiz = 1
         print("\n✗  dizinsiz kimlik nöbetçisi ÖLÇEMEDİ: %s" % str(_e)[:70])
+
+    # -----------------------------------------------------------------------
+    # 🆕 HARİTA DELİĞİ NÖBETÇİSİ — RENKSİZ kimlik (14 Ekim 2026, SAYAC-BICIM-1014)
+    # -----------------------------------------------------------------------
+    # Üstteki nöbetçi DİZİNSİZ kimliği sorar (künye yok). Bu RENKSİZİ sorar:
+    # `s:`/`isg:`te kullanılan ama boya anahtarı `BOYALAR`da olmayan kimlik
+    # boyanmaz = toprak var, renk yok = HARİTA DELİĞİ (`CLAUDE.md` Veri kuralları).
+    # Ölçülen kayıp: 14 Ekim'de `girdi.yukle()` 114 delik bulurken kapı 0 dedi —
+    # iki körlük üst üste: sayaç JSON girdiyi görmüyordu (`kimlik_evreni` regex'i)
+    # VE kapı renksizliği hiç sormuyordu (114'ünün künyesi vardı, dizinsiz değildi).
+    # Tavan 0: bugünkü ölçüm (`DURUM-TABLOSU` "harita deliği 0").
+    try:
+        _delik = _dt.harita_delikleri(_Y)
+        _renksiz = len(_delik)
+        if _renksiz:
+            print("\n✗  HARİTA DELİĞİ (renksiz kimlik): %d kimlik / %d pencere — "
+                  "veride kullanılıyor ama renkler.py BOYALAR'da YOK"
+                  % (_renksiz, sum(_delik.values())))
+            for _k, _n in sorted(_delik.items())[:10]:
+                print("     %-28s %d pencere" % (_k, _n))
+        else:
+            print("✓  harita deliği (renksiz kimlik): 0")
+    except Exception as _e:
+        _renksiz = 1
+        print("\n✗  harita deliği nöbetçisi ÖLÇEMEDİ: %s" % str(_e)[:70])
 
     # -----------------------------------------------------------------------
     # 🆕 ODAK NÖBETÇİSİ — kronoloji maddesinin KAMERA ODAĞI (27 Eylül 2026)
@@ -1863,6 +2022,16 @@ def main():
         _paket_ihlali = True
         print("\n✗  paket kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
 
+    # 🆕 UFUK EŞİTLİĞİ — app.js ↔ girdi.py (ZAMAN-GENİŞ-1008, yukarıdaki işlev)
+    try:
+        _ufuk_ihlali, _ufuk_satir = ufuk_esitligi()
+        print()
+        for _s in _ufuk_satir:
+            print(_s)
+    except Exception as _e:                                 # noqa: BLE001
+        _ufuk_ihlali = True
+        print("\n✗  UFUK EŞİTLİĞİ ÖLÇEMEDİ: %s" % str(_e)[:90])
+
     # -----------------------------------------------------------------
     # 🧪 SINAMA KAPISI — `kaynak_durum.py kapi` ile koşmuş motorun ürünü yayına gitmez
     # -----------------------------------------------------------------
@@ -1875,7 +2044,7 @@ def main():
         _kapi_ihlali = True
         print("\n✗  sınama kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
 
-    if (_kapi_ihlali or yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
+    if (_kapi_ihlali or yoklar or izlenmeyenler or kayitsiz or damga_tutarsiz
             # 🔴 `iz_kosu` ve `iz_olculemedi` BİLEREK YOK (Emre onayı, 1 Ekim
             #   2026): biri `D229`un yapısal koşu bayatı, öteki `D204`ün
             #   ölçülemeyeni. İkisi de basılır, ikisi de BLOKE ETMEZ. Bloke
@@ -1883,8 +2052,8 @@ def main():
             # 🆕 5 Ekim 2026: `bayat` DEĞİL `bayat_durdurucu` — iki günden taze
             #   bayatlık Emre'nin hükmüyle yayını DURDURMAZ (yukarı bak).
             or damga_ihlali or bayat_durdurucu or izsiz or iz_bayat or _sz
-            or _bagli or _dizinsiz or _odak_ihlali or _kod_ihlali
-            or _paket_ihlali or _dom_ihlali):
+            or _bagli or _dizinsiz or _renksiz or _odak_ihlali or _kod_ihlali
+            or _paket_ihlali or _dom_ihlali or _ufuk_ihlali):
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
     print("SONUÇ: temiz")

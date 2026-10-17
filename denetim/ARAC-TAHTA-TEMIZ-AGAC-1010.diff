@@ -1,0 +1,299 @@
+diff --git a/arac/tahta.py b/arac/tahta.py
+index fe8438e0..7873c197 100644
+--- a/arac/tahta.py
++++ b/arac/tahta.py
+@@ -477,6 +477,48 @@ def _kabuk_bildir(d):
+           "silme kararı Emre'nindir.")
+ 
+ 
++def _cek(_kod):
++    """Uzaktan tazele — çalışma ağacı KİRLİYKEN de (TAHTA-TEMIZ-AGAC-1010).
++
++    🔴 VAKA (10 Ekim 2026, f0b6fd50): `pull --rebase` izlenen HERHANGİ bir
++    dosyada unstaged değişiklik görünce REDDEDER ("cannot pull with rebase:
++    You have unstaged changes"). Bir oturumun `defter.py` ile kirli bıraktığı
++    `oturumlar/defter.json`, uzak ilerlediği an BÜTÜN oturumların tahtasını
++    susturdu: numara bayat, push reddedildi, ve depo ayrışık kaldığı için
++    sonraki HER yazım da düştü. Haberleşme aracı başkasının yarım dosyasına
++    bağlı olmamalı.
++    ⇒ Ağaç TEMİZSE eski yol AYNEN (`pull --rebase`). KİRLİYSE `fetch` + git'in
++      kirliliğe TOLERANSLI iki işlemi: geride → `merge --ff-only`; ayrışık →
++      `merge --no-edit` (çakışırsa KENDİ merge'ümüzü `--abort` ile geri alırız).
++      İkisi de kirli dosyaya dokunmaz; dokunmak zorunda kalacaksa HİÇBİR ŞEY
++      yapmadan reddeder. ⚠️ `--autostash` BİLEREK yok: başkasının dosyasını
++      geçici olarak geri alır (arada yazılan kaybolur) ve çakışırsa ortak
++      `refs/stash`e düşer (24 Eylül kabuğu tam bu sınıftı).
++    Dönüş `CompletedProcess` (returncode · stdout · stderr)."""
++    def g(*a):
++        return subprocess.run(["git", "-C", KOK] + list(a), **_kod)
++    s = g("status", "--porcelain", "--untracked-files=no")
++    if s.returncode != 0 or not (s.stdout or "").strip():
++        return g("pull", "--rebase")
++    print("⚪ çalışma ağacı KİRLİ (%d izlenen dosya, tahta dışı olabilir) — "
++          "rebase yerine fetch + merge." % len(s.stdout.strip().splitlines()))
++    r = g("fetch", "-q")
++    if r.returncode == 0:
++        r = g("rev-parse", "--verify", "-q", "@{u}")
++    if r.returncode != 0:
++        return r
++    if g("merge-base", "--is-ancestor", "@{u}", "HEAD").returncode == 0:
++        return r                                   # uzak zaten içimizde
++    if g("merge-base", "--is-ancestor", "HEAD", "@{u}").returncode == 0:
++        return g("merge", "--ff-only", "-q", "@{u}")
++    r = g("merge", "--no-edit", "-q", "@{u}")
++    if r.returncode != 0 and os.path.exists(
++            os.path.join(_git_dizini() or "", "MERGE_HEAD")):
++        g("merge", "--abort")
++        print("⚠️ merge ÇAKIŞTI, kendi merge'üm geri alındı.")
++    return r
++
++
+ def _tazele():
+     """Numara verilmeden ÖNCE tahtayı uzaktan tazele.
+ 
+@@ -491,7 +533,7 @@ def _tazele():
+     _kod = {"capture_output": True, "text": True,
+             "encoding": "utf-8", "errors": "replace"}
+     try:
+-        r = subprocess.run(["git", "-C", KOK, "pull", "--rebase"], **_kod)
++        r = _cek(_kod)
+     except Exception as e:
+         print("⚠️ tazeleme KOŞMADI (%s) — numara bayat olabilir." % type(e).__name__)
+         return
+@@ -631,7 +673,7 @@ def _git(kayit, baslik, govde):
+         #   temizdiyse, sonradan doğan yarım işlem bizimdir. (`yaz()` kapısı
+         #   yalnız `yaz`ı korur; `oku`/`teyit`/`kapat` buraya kapısız gelir.)
+         _once = _git_yarim()
+-        _pr = subprocess.run(["git", "-C", KOK, "pull", "--rebase"], **_kod)
++        _pr = _cek(_kod)
+         if _pr.returncode != 0 and not _once and _git_yarim():
+             subprocess.run(["git", "-C", KOK, "rebase", "--abort"], **_kod)
+             print("⚠️ `pull --rebase` ÇAKIŞTI, kendi rebase'im geri alındı"
+diff --git a/denetim/ARAC-TAHTA-TEMIZ-AGAC-SINAV-1010.py b/denetim/ARAC-TAHTA-TEMIZ-AGAC-SINAV-1010.py
+new file mode 100644
+index 00000000..e0b47373
+--- /dev/null
++++ b/denetim/ARAC-TAHTA-TEMIZ-AGAC-SINAV-1010.py
+@@ -0,0 +1,222 @@
++# -*- coding: utf-8 -*-
++"""TAHTA TEMIZ AGAC SINAVI — `tahta.py yaz` KIRLI calisma agacinda da yaziyor mu? (1010)
++
++Kusur (f0b6fd50): `_tazele()` ve `_git()` uzaktan `pull --rebase` ile tazeleniyordu;
++izlenen HERHANGI bir dosyada (ör. `oturumlar/defter.json`) unstaged degisiklik varsa
++git rebase'i REDDEDER ⇒ numara bayat · push reddedilir · mesaj KIMSEYE ULASMAZ, ve
++depo ayrisik kaldigi icin sonraki her yazim da duser.
++
++Sinav GERCEK git fiksturuyle kosar: gecici BARE uzak + iki klon (A, B). tahta.py
++klonlara KOPYALANIR (KOK = klon) ve ALT SURECTE kosar ⇒ gercek tahtaya HIC dokunmaz.
++"Dogru" aractan BAGIMSIZ olculur: bare deponun `main` ucundaki tahta.json.
++
++SENARYOLAR:
++  T1 temiz agac, uzak ayni                         → cikis 0 · uzakta
++  T2 KIRLI agac (defter.json), uzak ayni          → cikis 0 · tahta.json'dan GERI OKUNUR · uzakta
++  T3 kirli dosya commit'e KARISMAZ                → A'nin commit'lerinde defter.json YOK · kirlilik AYNEN duruyor
++  T4 KIRLI + uzak ilerlemis (B yazdi)              → cikis 0 · IKI mesaj da uzakta · numaralar FARKLI
++  T5 KIRLI + AYRISIK (A'da itilmemis ilgisiz commit, B yazdi) → cikis 0 · ikisi + ilgisiz commit uzakta · yarim islem YOK
++  T6 SINIR: kirli dosyayi uzak da degistirmis      → git kirli dosyaya dokunmayi REDDEDER ⇒ cikis 1 (ULASMADI),
++     ama depo YARIM KALMAZ ve kirli icerik KORUNUR (guvenli bozulma — care disi, rapor edilir)
++KULLANIM:
++    py denetim/ARAC-TAHTA-TEMIZ-AGAC-SINAV-1010.py [--tahta <tahta.py>]
++  BOZUK YON: yamasiz tahta.py verilince sinav OTMELI (T4 · T5).
++CIKIS: 0 temiz · 1 kusur · 2 olculemedi (fikstur kurulamadi)
++"""
++import io
++import json
++import os
++import shutil
++import subprocess
++import sys
++import tempfile
++
++sys.stdout.reconfigure(encoding="utf-8", errors="replace")
++KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++
++
++def _arg(ad):
++    if ad in sys.argv:
++        i = sys.argv.index(ad)
++        if i + 1 < len(sys.argv):
++            return sys.argv[i + 1]
++    return None
++
++
++TAHTA = os.path.abspath(_arg("--tahta") or os.path.join(KOK, "arac", "tahta.py"))
++for k, v in (("GIT_AUTHOR_NAME", "sinav"), ("GIT_AUTHOR_EMAIL", "sinav@yerel"),
++             ("GIT_COMMITTER_NAME", "sinav"), ("GIT_COMMITTER_EMAIL", "sinav@yerel")):
++    os.environ[k] = v
++HATA = 0
++
++
++def git(*a, cwd=None, ok=True):
++    r = subprocess.run(["git"] + list(a), cwd=cwd, capture_output=True, text=True,
++                       encoding="utf-8", errors="replace")
++    if ok and r.returncode != 0:
++        raise RuntimeError("git %s → %d: %s" % (" ".join(a), r.returncode, r.stderr.strip()))
++    return r
++
++
++def yaz_dosya(yol, metin):
++    os.makedirs(os.path.dirname(yol), exist_ok=True)
++    io.open(yol, "w", encoding="utf-8", newline="\n").write(metin)
++
++
++def kur(kok):
++    R = os.path.join(kok, "uzak.git")
++    git("init", "-q", "--bare", "-b", "main", R)
++    A = os.path.join(kok, "A")
++    git("init", "-q", "-b", "main", A)
++    git("remote", "add", "origin", R, cwd=A)
++    yaz_dosya(os.path.join(A, "oturumlar", "tahta.json"), "[]\n")
++    yaz_dosya(os.path.join(A, "oturumlar", "TAHTA.md"), "")
++    yaz_dosya(os.path.join(A, "oturumlar", "defter.json"), '{"defter": 0}\n')
++    git("add", "--", "oturumlar", cwd=A)
++    git("commit", "-q", "-m", "kurulus", cwd=A)
++    git("push", "-q", "-u", "origin", "main", cwd=A)
++    B = os.path.join(kok, "B")
++    git("clone", "-q", R, B)
++    for X in (A, B):
++        os.makedirs(os.path.join(X, "arac"), exist_ok=True)
++        shutil.copy(TAHTA, os.path.join(X, "arac", "tahta.py"))
++        # arac/ IZLENMEZ: kopya tahta.py kirlilik sayilmasin (sinanan sey o degil)
++        io.open(os.path.join(X, ".git", "info", "exclude"), "a").write("arac/\n")
++    return R, A, B
++
++
++def yaz(X, isaret):
++    r = subprocess.run([sys.executable, os.path.join(X, "arac", "tahta.py"), "yaz",
++                        "--kim", "SINAV", "--kime", "HEDEF", "--mesaj", isaret],
++                       capture_output=True, text=True, encoding="utf-8", errors="replace",
++                       env=dict(os.environ, PYTHONIOENCODING="utf-8"))
++    return r.returncode, (r.stdout or "") + (r.stderr or "")
++
++
++def uzak_tahta(R):
++    r = git("--git-dir", R, "show", "main:oturumlar/tahta.json", ok=False)
++    try:
++        return json.loads(r.stdout or "[]")
++    except ValueError:
++        return []
++
++
++def yerel_tahta(X):
++    try:
++        return json.load(io.open(os.path.join(X, "oturumlar", "tahta.json"), encoding="utf-8"))
++    except (OSError, ValueError):
++        return []
++
++
++def no_of(kayit, isaret):
++    return [m.get("no") for m in kayit if m.get("mesaj") == isaret]
++
++
++def yarim(X):
++    g = git("-C", X, "rev-parse", "--absolute-git-dir").stdout.strip()
++    return [a for a in ("MERGE_HEAD", "rebase-merge", "rebase-apply", "CHERRY_PICK_HEAD")
++            if os.path.exists(os.path.join(g, a))]
++
++
++def hukum(ad, ok, ayr, cikti=""):
++    global HATA
++    if not ok:
++        HATA += 1
++    print(("  OK   " if ok else "  HATA ") + "%s | %s" % (ad, ayr))
++    if not ok and cikti:
++        for s in cikti.strip().splitlines()[-8:]:
++            print("         > " + s)
++
++
++def kirlet(A, deger):
++    yol = os.path.join(A, "oturumlar", "defter.json")
++    metin = '{"defter": "%s"}\n' % deger
++    yaz_dosya(yol, metin)
++    return yol, metin
++
++
++def main():
++    print("TAHTA TEMIZ AGAC SINAVI — sinanan: %s" % TAHTA)
++    kok = tempfile.mkdtemp(prefix="tahta_temiz_")
++    try:
++        try:
++            R, A, B = kur(kok)
++        except Exception as e:                               # noqa: BLE001
++            print("OLCULEMEDI — fikstur kurulamadi: %s" % e)
++            return 2
++
++        # T1 — temiz agac
++        k, c = yaz(A, "T1-temiz")
++        hukum("T1 temiz agac yazar", k == 0 and no_of(uzak_tahta(R), "T1-temiz"),
++              "cikis=%d · uzakta=%s" % (k, no_of(uzak_tahta(R), "T1-temiz")), c)
++
++        # T2 — kirli agac (ilgisiz dosya), uzak ayni
++        dyol, dmetin = kirlet(A, "kirli-T2")
++        k, c = yaz(A, "T2-kirli")
++        yerel, uzak = no_of(yerel_tahta(A), "T2-kirli"), no_of(uzak_tahta(R), "T2-kirli")
++        hukum("T2 kirli agac yazar", k == 0 and yerel and uzak,
++              "cikis=%d · tahta.json(geri okuma)=%s · uzakta=%s" % (k, yerel, uzak), c)
++
++        # T3 — kirli dosya commit'e karismaz
++        adlar = git("--git-dir", R, "log", "--format=", "--name-only", "main", "--",
++                    "oturumlar/defter.json").stdout.split()
++        defter_commit = git("--git-dir", R, "log", "--format=%s", "main", "--",
++                            "oturumlar/defter.json").stdout.strip().splitlines()
++        korundu = io.open(dyol, encoding="utf-8").read() == dmetin
++        st = git("-C", A, "status", "--porcelain", "--untracked-files=no").stdout.strip()
++        hukum("T3 kirli dosya commit'e KARISMAZ",
++              defter_commit == ["kurulus"] and korundu and st == "M oturumlar/defter.json",
++              "defter.json'a dokunan uzak commit'ler=%s · icerik korundu=%s · status=%r"
++              % (defter_commit, korundu, st))
++        _ = adlar
++
++        # T4 — kirli + uzak ilerlemis (B yazdi)
++        git("-C", B, "pull", "-q", "--rebase")
++        kb, cb = yaz(B, "T4-B")
++        k, c = yaz(A, "T4-A")
++        u = uzak_tahta(R)
++        nb, na = no_of(u, "T4-B"), no_of(u, "T4-A")
++        hukum("T4 kirli + uzak ilerlemis: iki mesaj da kaybolmaz",
++              kb == 0 and k == 0 and nb and na and nb != na and len({m["no"] for m in u}) == len(u),
++              "B cikis=%d %s · A cikis=%d %s · uzak kayit=%d (benzersiz no=%d)"
++              % (kb, nb, k, na, len(u), len({m["no"] for m in u})), c)
++
++        # T5 — kirli + AYRISIK: A'da itilmemis ilgisiz commit, B yazdi
++        yaz_dosya(os.path.join(A, "ilgisiz.txt"), "x\n")
++        git("-C", A, "add", "--", "ilgisiz.txt")
++        git("-C", A, "commit", "-q", "-m", "ilgisiz", "--", "ilgisiz.txt")
++        git("-C", B, "pull", "-q", "--rebase")
++        kb, cb = yaz(B, "T5-B")
++        k, c = yaz(A, "T5-A")
++        u = uzak_tahta(R)
++        nb, na = no_of(u, "T5-B"), no_of(u, "T5-A")
++        ilg = git("--git-dir", R, "log", "--format=%s", "main").stdout.splitlines().count("ilgisiz")
++        y = yarim(A)
++        korundu = io.open(dyol, encoding="utf-8").read() == dmetin
++        hukum("T5 kirli + ayrisik: ikisi de uzakta, yarim islem yok",
++              kb == 0 and k == 0 and nb and na and nb != na and ilg == 1 and not y and korundu,
++              "B=%d %s · A=%d %s · ilgisiz uzakta=%d · yarim=%s · kirli icerik korundu=%s"
++              % (kb, nb, k, na, ilg, y or "yok", korundu), c)
++
++        # T6 — SINIR: kirli dosyayi uzak da degistirmis
++        git("-C", B, "pull", "-q", "--rebase")
++        yaz_dosya(os.path.join(B, "oturumlar", "defter.json"), '{"defter": "B-uzak"}\n')
++        git("-C", B, "commit", "-q", "-m", "defter-B", "--", "oturumlar/defter.json")
++        git("-C", B, "push", "-q")
++        dyol, dmetin = kirlet(A, "kirli-T6")
++        k, c = yaz(A, "T6-A")
++        y = yarim(A)
++        korundu = io.open(dyol, encoding="utf-8").read() == dmetin
++        yerel = no_of(yerel_tahta(A), "T6-A")
++        hukum("T6 SINIR (kirli dosya uzakta da degismis): guvenli bozulma",
++              k == 1 and not y and korundu and yerel,
++              "cikis=%d (beklenen 1 ULASMADI) · yarim=%s · kirli icerik korundu=%s · "
++              "mesaj yerel tahta.json'da=%s" % (k, y or "yok", korundu, yerel), c)
++    finally:
++        shutil.rmtree(kok, ignore_errors=True)
++    print("SONUC: %s (%d hata)" % ("temiz" if not HATA else "KUSUR", HATA))
++    return 1 if HATA else 0
++
++
++if __name__ == "__main__":
++    sys.exit(main())

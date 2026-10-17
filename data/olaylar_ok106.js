@@ -77,9 +77,11 @@ window.OLAYLAR_OK106 = [
   //    bağlanmamış bir ada `yer_id` vermek kırık bağ üretir. Kerç 10,4 km ötede
   //    ve TDV maddesi konumu ona göre tarif ediyor. Nokta bağlanınca
   //    `yer_id:"Yenikale"`ye çevrilebilir — koordinatörün kararı.
-  { t:"1703-01-01", k:"mimari", etiket:["mimari","denizcilik","konu-askeri","konu-imar"],
+  // 🔁 KUTU-H6-1015 (0082/H-0070): t hicrî yıl kuralıyla 1703-01-01 → 1703-05-17 (1 Muharrem 1115;
+  //    1115 ∩ 1703'ün ilk günü) — yerleşimin kur:/d: ucu ile birlikte. Nokta artık bağlı ⇒ yer_id Yenikale.
+  { t:"1703-05-17", k:"mimari", etiket:["mimari","denizcilik","konu-askeri","konu-imar"],
     b:"Yenikale'nin inşası — Kerç Boğazı'nın kilitlenmesi",
-    gun:"1115 (1703)", yer:"Yenikale, Kerç Boğazı", yer_id:"Kerç",
+    gun:"1115 (1703)", yer:"Yenikale, Kerç Boğazı", yer_id:"Yenikale", ic_not_gun:"Hicrî 1115 = 17 Mayıs 1703 – 5 Mayıs 1704 (tablo, Gregoryen); TDV mîlâdî 1703 der ⇒ kesişimin ilk günü 1703-05-17 (CLAUDE.md hicrî yıl kuralı). Gün kaynakta yok. KUTU-H6-1015.",
     d:"Azak'ın 1700'de Rusya'ya bırakılmasının ardından Karadeniz'in Azak Denizi'ne açılan tek kapısı stratejik bir sınır hattına dönüştü. Osmanlı Devleti, Kerç şehrinin on kilometre kuzeydoğusunda Akıntı Burnu mevkiinde yeni bir istihkâm yaptırarak boğaz geçişini top menziline aldı; kaleye kelimenin kendisi olan Yenikale adı verildi. Kale yetmiş yıl boyunca Kırım'ın doğu kilidi olarak kaldı ve 1774 Küçük Kaynarca Antlaşması'nın on dokuzuncu maddesiyle Kerç ile birlikte Rusya'ya terkedildi.",
     kaynak:"kerc", duygu:["🏛"] },
 

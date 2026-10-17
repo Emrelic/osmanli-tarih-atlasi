@@ -44,7 +44,7 @@ window.YER_YAMA_MAKDISU = [
     s: [
       { f: "1281-01-01", t: "1500-01-01", d: "makdisu-sultanligi" },
       { f: "1500-01-01", t: "1905-01-01", d: "somali" },
-      { f: "1905-01-01", t: "1923-10-29", d: "italya" }
+      { f: "1905-01-01", t: "1936-06-01", d: "italya" },{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}
     ],
     kaynak: "makdisu"
   },
@@ -55,7 +55,7 @@ window.YER_YAMA_MAKDISU = [
     s: [
       { f: "1281-01-01", t: "1500-01-01", d: "makdisu-sultanligi" },
       { f: "1500-01-01", t: "1905-01-01", d: "somali" },
-      { f: "1905-01-01", t: "1923-10-29", d: "italya" }
+      { f: "1905-01-01", t: "1936-06-01", d: "italya" },{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}
     ],
     kaynak: "makdisu"
   },
@@ -66,7 +66,7 @@ window.YER_YAMA_MAKDISU = [
     s: [
       { f: "1281-01-01", t: "1500-01-01", d: "makdisu-sultanligi" },
       { f: "1500-01-01", t: "1905-01-01", d: "somali" },
-      { f: "1905-01-01", t: "1923-10-29", d: "italya" }
+      { f: "1905-01-01", t: "1936-06-01", d: "italya" },{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}
     ],
     kaynak: "makdisu"
   },
@@ -77,7 +77,7 @@ window.YER_YAMA_MAKDISU = [
     s: [
       { f: "1281-01-01", t: "1500-01-01", d: "makdisu-sultanligi" },
       { f: "1500-01-01", t: "1905-01-01", d: "somali" },
-      { f: "1905-01-01", t: "1923-10-29", d: "italya" }
+      { f: "1905-01-01", t: "1936-06-01", d: "italya" },{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}
     ],
     kaynak: "makdisu"
   },
@@ -88,7 +88,7 @@ window.YER_YAMA_MAKDISU = [
     s: [
       { f: "1281-01-01", t: "1500-01-01", d: "makdisu-sultanligi" },
       { f: "1500-01-01", t: "1905-01-01", d: "somali" },
-      { f: "1905-01-01", t: "1923-10-29", d: "italya" }
+      { f: "1905-01-01", t: "1936-06-01", d: "italya" },{f:"1936-06-01",t:"1941-02-25",d:"italyan-dogu-afrikasi",kaynak:"Britannica: Italian East Africa, 1 Haziran 1936"},{f:"1941-02-25",t:"1950-04-01",d:"somali-ingiliz-askeri-idaresi",kaynak:"Britannica: Somalia; Mogadishu 25 Subat 1941"},{f:"1950-04-01",t:"1960-07-01",d:"somali-italyan-vesayet",kaynak:"BM Vesayet Konseyi, AFIS 1950-1960"},{f:"1960-07-01",t:"2000-12-31",d:"somali-cumhuriyeti",kaynak:"Britannica: Somalia, bagimsizlik 1 Temmuz 1960"}
     ],
     kaynak: "makdisu"
   }

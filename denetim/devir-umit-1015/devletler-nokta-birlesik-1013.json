@@ -1,0 +1,5710 @@
+{
+ "Y": [
+  {
+   "ad": "San José (Kosta Rika)",
+   "tur": "sehir",
+   "lat": 9.933,
+   "lon": -84.08,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1838-01-01",
+   "s": [
+    {
+     "f": "1838-01-01",
+     "t": "2000-12-31",
+     "d": "kosta-rika-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat OSM Nominatim (ODbL), şehir/city sınıfı sonucu (9.9327,-84.0797); başkent adı künye"
+  },
+  {
+   "ad": "Cartago (Kosta Rika)",
+   "tur": "sehir",
+   "lat": 9.864,
+   "lon": -83.921,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1838-01-01",
+   "s": [
+    {
+     "f": "1838-01-01",
+     "t": "2000-12-31",
+     "d": "kosta-rika-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat OSM Nominatim (ODbL), şehir/city sınıfı sonucu (9.8645,-83.9207)"
+  },
+  {
+   "ad": "Puntarenas",
+   "tur": "liman",
+   "lat": 9.977,
+   "lon": -84.835,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1838-01-01",
+   "s": [
+    {
+     "f": "1838-01-01",
+     "t": "2000-12-31",
+     "d": "kosta-rika-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat OSM Nominatim (ODbL), şehir/city sınıfı sonucu (9.9773,-84.8346)"
+  },
+  {
+   "ad": "Limón (Puerto Limón)",
+   "tur": "liman",
+   "lat": 9.991,
+   "lon": -83.03,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1838-01-01",
+   "s": [
+    {
+     "f": "1838-01-01",
+     "t": "2000-12-31",
+     "d": "kosta-rika-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat OSM Nominatim (ODbL), Puerto Limón liman/şehir merkezi (9.990-9.994,-83.030)"
+  },
+  {
+   "ad": "San Salvador",
+   "tur": "sehir",
+   "lat": 13.698,
+   "lon": -89.191,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1841-01-01",
+   "s": [
+    {
+     "f": "1841-01-01",
+     "t": "2000-12-31",
+     "d": "el-salvador-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat OSM Nominatim (ODbL), şehir/city sınıfı sonucu (13.6976,-89.1912); başkent adı künye"
+  },
+  {
+   "ad": "Santa Ana (El Salvador)",
+   "tur": "sehir",
+   "lat": 13.972,
+   "lon": -89.561,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1841-01-01",
+   "s": [
+    {
+     "f": "1841-01-01",
+     "t": "2000-12-31",
+     "d": "el-salvador-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat OSM Nominatim (ODbL), şehir/city sınıfı sonucu (13.9721,-89.5605)"
+  },
+  {
+   "ad": "San Miguel (El Salvador)",
+   "tur": "sehir",
+   "lat": 13.48,
+   "lon": -88.177,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1841-01-01",
+   "s": [
+    {
+     "f": "1841-01-01",
+     "t": "2000-12-31",
+     "d": "el-salvador-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat OSM Nominatim (ODbL), şehir/city sınıfı sonucu (13.4804,-88.1772)"
+  },
+  {
+   "ad": "La Unión (El Salvador)",
+   "tur": "liman",
+   "lat": 13.337,
+   "lon": -87.843,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1841-01-01",
+   "s": [
+    {
+     "f": "1841-01-01",
+     "t": "2000-12-31",
+     "d": "el-salvador-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat OSM Nominatim (ODbL), şehir/city sınıfı sonucu (13.3372,-87.8431)"
+  },
+  {
+   "ad": "Brazzaville",
+   "tur": "sehir",
+   "lat": -4.269,
+   "lon": 15.271,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1910-01-15",
+   "s": [
+    {
+     "f": "1910-01-15",
+     "t": "1958-01-01",
+     "d": "fransiz-ekvator-afrikasi"
+    }
+   ],
+   "kaynak": "koordinat OSM Nominatim (ODbL), şehir/city sınıfı sonucu (-4.2694,15.2712); AEF başkenti Brazzaville künye ozet; 1910 genel valilik"
+  },
+  {
+   "ad": "Nador",
+   "tur": "sehir",
+   "lat": 35.174,
+   "lon": -2.937,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1912-11-27",
+   "s": [
+    {
+     "f": "1912-11-27",
+     "t": "1956-04-07",
+     "d": "fas-ispanyol-himayesi"
+    }
+   ],
+   "kaynak": "koordinat OSM Nominatim (ODbL), şehir/city sınıfı sonucu (35.1736,-2.9368); Melilla'nın 12 km güneyi, İspanyol bölgesi doğu ucu"
+  },
+  {
+   "ad": "Bir Lahlu (Bir Lehlou)",
+   "tur": "sehir",
+   "lat": 26.349,
+   "lon": -9.577,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1976-02-27",
+   "s": [
+    {
+     "f": "1976-02-27",
+     "t": "2000-12-31",
+     "d": "sahra-arap-demokratik-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat OSM Nominatim (ODbL) 26.3494,-9.5765; künye başkent adı; SADR denetimindeki 'özgür bölge'"
+  },
+  {
+   "ad": "Tifariti",
+   "tur": "sehir",
+   "lat": 26.159,
+   "lon": -10.559,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1976-02-27",
+   "s": [
+    {
+     "f": "1976-02-27",
+     "t": "2000-12-31",
+     "d": "sahra-arap-demokratik-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat OSM Nominatim (ODbL) Tifariti caïdat merkezi 26.1595,-10.5590 (SADR denetim alanı, sedde doğusu); küçük yerleşim, GeoNames ile çapraz teyit önerilir"
+  },
+  {
+   "ad": "Juba",
+   "tur": "sehir",
+   "lat": 4.855,
+   "lon": 31.605,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1972-02-27",
+   "s": [
+    {
+     "f": "1972-02-27",
+     "t": "1983-06-05",
+     "d": "guney-sudan-ozerk-bolge"
+    }
+   ],
+   "kaynak": "Koordinat: Britannica/Wikipedia 4°51'K 31°36'D, conflict-location verisi 4.861,31.618 ile uyumlu (GeoNames kaydı doğrudan okunamadı); şehir adı: Britannica Juba. NOT: nokta yalnız bu devletin ömründe sahipli; 1956-1972 ve 1983-2000 Sudan, öncesi İngiliz Sudanı zinciri eklenmeli (aksi halde diğer dönemlerde delik)."
+  },
+  {
+   "ad": "Çake Çake (Pemba)",
+   "tur": "sehir",
+   "lat": -5.246,
+   "lon": 39.767,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1963-12-10",
+   "s": [
+    {
+     "f": "1963-12-10",
+     "t": "1964-01-12",
+     "d": "zengibar-bagimsiz-sultanlik"
+    }
+   ],
+   "kaynak": "Koordinat: Geodatos 5°14'45\"G 39°45'59.7\"D (WGS84); Pemba adasının idari merkezi, Britannica Pemba Island. NOT: yalnız bağımsız sultanlık ömrü; Pemba'nın 1946-1963 (umman-zengibar) ve sonrası (halk cumhuriyeti, tanzanya) zinciri eklenmeli."
+  },
+  {
+   "ad": "Çake Çake (Pemba)",
+   "tur": "sehir",
+   "lat": -5.247,
+   "lon": 39.767,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1964-01-12",
+   "s": [
+    {
+     "f": "1964-01-12",
+     "t": "1964-04-26",
+     "d": "zengibar-halk-cumhuriyeti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Moroni",
+   "tur": "sehir",
+   "lat": -11.702,
+   "lon": 43.256,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1975-07-06",
+   "s": [
+    {
+     "f": "1975-07-06",
+     "t": "2000-12-31",
+     "d": "komorlar"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Fomboni (Mohéli)",
+   "tur": "sehir",
+   "lat": -12.287,
+   "lon": 43.744,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1975-07-06",
+   "s": [
+    {
+     "f": "1975-07-06",
+     "t": "2000-12-31",
+     "d": "komorlar"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Mutsamudu (Anjuan)",
+   "tur": "sehir",
+   "lat": -12.167,
+   "lon": 44.4,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1975-07-06",
+   "s": [
+    {
+     "f": "1975-07-06",
+     "t": "1997-08-03",
+     "d": "komorlar"
+    },
+    {
+     "f": "1997-08-03",
+     "t": "2000-12-31",
+     "d": "anjuan-devleti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica; Mutsamudu Komorlar sonra Anjuan zinciri"
+  },
+  {
+   "ad": "Port Louis",
+   "tur": "liman",
+   "lat": -20.162,
+   "lon": 57.499,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1968-03-12",
+   "s": [
+    {
+     "f": "1968-03-12",
+     "t": "2000-12-31",
+     "d": "morityus"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Lusaka",
+   "tur": "sehir",
+   "lat": -15.387,
+   "lon": 28.323,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1953-08-01",
+   "s": [
+    {
+     "f": "1953-08-01",
+     "t": "1963-12-31",
+     "d": "rodezya-nyasaland-federasyonu"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Bulawayo",
+   "tur": "sehir",
+   "lat": -20.15,
+   "lon": 28.583,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1953-08-01",
+   "s": [
+    {
+     "f": "1953-08-01",
+     "t": "1963-12-31",
+     "d": "rodezya-nyasaland-federasyonu"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Butterworth",
+   "tur": "sehir",
+   "lat": -32.331,
+   "lon": 28.139,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1976-10-26",
+   "s": [
+    {
+     "f": "1976-10-26",
+     "t": "1994-04-27",
+     "d": "transkei"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Ga-Rankuwa",
+   "tur": "sehir",
+   "lat": -25.617,
+   "lon": 28.008,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1977-12-06",
+   "s": [
+    {
+     "f": "1977-12-06",
+     "t": "1994-04-27",
+     "d": "bophuthatswana"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Thohoyandou",
+   "tur": "sehir",
+   "lat": -22.945,
+   "lon": 30.485,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1979-09-13",
+   "s": [
+    {
+     "f": "1979-09-13",
+     "t": "1994-04-27",
+     "d": "venda-bantustan"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Bisho",
+   "tur": "sehir",
+   "lat": -32.847,
+   "lon": 27.442,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1981-12-04",
+   "s": [
+    {
+     "f": "1981-12-04",
+     "t": "1994-04-27",
+     "d": "ciskei"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Mbabane",
+   "tur": "sehir",
+   "lat": -26.317,
+   "lon": 31.133,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1903-01-01",
+   "s": [
+    {
+     "f": "1903-01-01",
+     "t": "1968-09-06",
+     "d": "ingiliz-svaziland"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1968-09-06",
+     "t": "2000-12-31",
+     "d": "svaziland"
+    }
+   ]
+  },
+  {
+   "ad": "Manzini",
+   "tur": "sehir",
+   "lat": -26.498,
+   "lon": 31.38,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1903-01-01",
+   "s": [
+    {
+     "f": "1903-01-01",
+     "t": "1968-09-06",
+     "d": "ingiliz-svaziland"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1968-09-06",
+     "t": "2000-12-31",
+     "d": "svaziland"
+    }
+   ]
+  },
+  {
+   "ad": "Ho (Togoland)",
+   "tur": "sehir",
+   "lat": 6.601,
+   "lon": 0.471,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1922-07-20",
+   "s": [
+    {
+     "f": "1922-07-20",
+     "t": "1957-03-06",
+     "d": "ingiliz-togoland"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1957-03-06",
+     "t": "2000-12-31",
+     "d": "gana"
+    }
+   ]
+  },
+  {
+   "ad": "Hohoe",
+   "tur": "sehir",
+   "lat": 7.152,
+   "lon": 0.473,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1922-07-20",
+   "s": [
+    {
+     "f": "1922-07-20",
+     "t": "1957-03-06",
+     "d": "ingiliz-togoland"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1957-03-06",
+     "t": "2000-12-31",
+     "d": "gana"
+    }
+   ]
+  },
+  {
+   "ad": "Kpando",
+   "tur": "sehir",
+   "lat": 6.995,
+   "lon": 0.293,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1922-07-20",
+   "s": [
+    {
+     "f": "1922-07-20",
+     "t": "1957-03-06",
+     "d": "ingiliz-togoland"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1957-03-06",
+     "t": "2000-12-31",
+     "d": "gana"
+    }
+   ]
+  },
+  {
+   "ad": "Lomé",
+   "tur": "liman",
+   "lat": 6.131,
+   "lon": 1.223,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1922-07-20",
+   "s": [
+    {
+     "f": "1922-07-20",
+     "t": "1960-04-27",
+     "d": "fransiz-togo"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1960-04-27",
+     "t": "2000-12-31",
+     "d": "togo"
+    }
+   ]
+  },
+  {
+   "ad": "Atakpamé",
+   "tur": "sehir",
+   "lat": 7.533,
+   "lon": 1.133,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1922-07-20",
+   "s": [
+    {
+     "f": "1922-07-20",
+     "t": "1960-04-27",
+     "d": "fransiz-togo"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1960-04-27",
+     "t": "2000-12-31",
+     "d": "togo"
+    }
+   ]
+  },
+  {
+   "ad": "Sokodé",
+   "tur": "sehir",
+   "lat": 8.983,
+   "lon": 1.133,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1922-07-20",
+   "s": [
+    {
+     "f": "1922-07-20",
+     "t": "1960-04-27",
+     "d": "fransiz-togo"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1960-04-27",
+     "t": "2000-12-31",
+     "d": "togo"
+    }
+   ]
+  },
+  {
+   "ad": "Kara (Togo)",
+   "tur": "sehir",
+   "lat": 9.551,
+   "lon": 1.187,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1922-07-20",
+   "s": [
+    {
+     "f": "1922-07-20",
+     "t": "1960-04-27",
+     "d": "fransiz-togo"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1960-04-27",
+     "t": "2000-12-31",
+     "d": "togo"
+    }
+   ]
+  },
+  {
+   "ad": "Enugu",
+   "tur": "sehir",
+   "lat": 6.441,
+   "lon": 7.499,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1967-05-30",
+   "s": [
+    {
+     "f": "1967-05-30",
+     "t": "1967-10-04",
+     "d": "biafra"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1967-10-04",
+     "t": "2000-12-31",
+     "d": "nijerya"
+    }
+   ],
+   "not": "fiili Biafra kontrolu Enugu'nun dusmesiyle (1967-10-04) biter; kunye t degil bu tarih"
+  },
+  {
+   "ad": "Umuahia",
+   "tur": "sehir",
+   "lat": 5.532,
+   "lon": 7.486,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1967-05-30",
+   "s": [
+    {
+     "f": "1967-05-30",
+     "t": "1970-01-15",
+     "d": "biafra"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1970-01-15",
+     "t": "2000-12-31",
+     "d": "nijerya"
+    }
+   ]
+  },
+  {
+   "ad": "Aba (Nijerya)",
+   "tur": "sehir",
+   "lat": 5.107,
+   "lon": 7.367,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1967-05-30",
+   "s": [
+    {
+     "f": "1967-05-30",
+     "t": "1970-01-15",
+     "d": "biafra"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1970-01-15",
+     "t": "2000-12-31",
+     "d": "nijerya"
+    }
+   ]
+  },
+  {
+   "ad": "Owerri",
+   "tur": "sehir",
+   "lat": 5.485,
+   "lon": 7.035,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1967-05-30",
+   "s": [
+    {
+     "f": "1967-05-30",
+     "t": "1970-01-15",
+     "d": "biafra"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1970-01-15",
+     "t": "2000-12-31",
+     "d": "nijerya"
+    }
+   ]
+  },
+  {
+   "ad": "Praia",
+   "tur": "liman",
+   "lat": 14.933,
+   "lon": -23.513,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1975-07-05",
+   "s": [
+    {
+     "f": "1975-07-05",
+     "t": "2000-12-31",
+     "d": "yesilburun"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica"
+  },
+  {
+   "ad": "Mindelo",
+   "tur": "liman",
+   "lat": 16.886,
+   "lon": -24.988,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1975-07-05",
+   "s": [
+    {
+     "f": "1975-07-05",
+     "t": "2000-12-31",
+     "d": "yesilburun"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica"
+  },
+  {
+   "ad": "Espargos (Sal)",
+   "tur": "sehir",
+   "lat": 16.754,
+   "lon": -22.944,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1975-07-05",
+   "s": [
+    {
+     "f": "1975-07-05",
+     "t": "2000-12-31",
+     "d": "yesilburun"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica"
+  },
+  {
+   "ad": "Buea",
+   "tur": "sehir",
+   "lat": 4.153,
+   "lon": 9.243,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1922-07-20",
+   "s": [
+    {
+     "f": "1922-07-20",
+     "t": "1961-10-01",
+     "d": "ingiliz-kamerun"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1961-10-01",
+     "t": "2000-12-31",
+     "d": "kamerun"
+    }
+   ]
+  },
+  {
+   "ad": "Bamenda",
+   "tur": "sehir",
+   "lat": 5.959,
+   "lon": 10.146,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1922-07-20",
+   "s": [
+    {
+     "f": "1922-07-20",
+     "t": "1961-10-01",
+     "d": "ingiliz-kamerun"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1961-10-01",
+     "t": "2000-12-31",
+     "d": "kamerun"
+    }
+   ]
+  },
+  {
+   "ad": "Kumba",
+   "tur": "sehir",
+   "lat": 4.636,
+   "lon": 9.446,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1922-07-20",
+   "s": [
+    {
+     "f": "1922-07-20",
+     "t": "1961-10-01",
+     "d": "ingiliz-kamerun"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1961-10-01",
+     "t": "2000-12-31",
+     "d": "kamerun"
+    }
+   ]
+  },
+  {
+   "ad": "Berbérati",
+   "tur": "sehir",
+   "lat": 4.261,
+   "lon": 15.792,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1976-12-04",
+   "s": [
+    {
+     "f": "1976-12-04",
+     "t": "1979-09-20",
+     "d": "orta-afrika-imparatorlugu"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1979-09-20",
+     "t": "2000-12-31",
+     "d": "orta-afrika-cumhuriyeti"
+    }
+   ]
+  },
+  {
+   "ad": "Bangassou",
+   "tur": "sehir",
+   "lat": 4.741,
+   "lon": 22.818,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1976-12-04",
+   "s": [
+    {
+     "f": "1976-12-04",
+     "t": "1979-09-20",
+     "d": "orta-afrika-imparatorlugu"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinati; ad: Britannica",
+   "ardil": [
+    {
+     "f": "1979-09-20",
+     "t": "2000-12-31",
+     "d": "orta-afrika-cumhuriyeti"
+    }
+   ]
+  },
+  {
+   "ad": "Malabo (Santa Isabel)",
+   "tur": "sehir",
+   "lat": 3.75,
+   "lon": 8.783,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1968-10-12",
+   "s": [
+    {
+     "f": "1968-10-12",
+     "t": "2000-12-31",
+     "d": "ekvator-ginesi"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Malabo; koordinat ağdan doğrulanamadı, GeoNames değeri hafızadan"
+  },
+  {
+   "ad": "Bata",
+   "tur": "liman",
+   "lat": 1.865,
+   "lon": 9.766,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1968-10-12",
+   "s": [
+    {
+     "f": "1968-10-12",
+     "t": "2000-12-31",
+     "d": "ekvator-ginesi"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Bata; koordinat ağdan doğrulanamadı"
+  },
+  {
+   "ad": "Elisabethville (Lubumbashi)",
+   "tur": "sehir",
+   "lat": -11.664,
+   "lon": 27.479,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1960-07-11",
+   "s": [
+    {
+     "f": "1960-07-11",
+     "t": "1963-01-14",
+     "d": "katanga"
+    },
+    {
+     "f": "1963-01-14",
+     "t": "2000-12-31",
+     "d": "kongo-kinsasa"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Lubumbashi; ardıl kongo-kinsasa dilimi sahipsizlik olmasın diye eklendi (Britannica 'Katanga'); koordinat ağdan doğrulanamadı"
+  },
+  {
+   "ad": "Jadotville (Likasi)",
+   "tur": "sehir",
+   "lat": -10.983,
+   "lon": 26.733,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1960-07-11",
+   "s": [
+    {
+     "f": "1960-07-11",
+     "t": "1963-01-14",
+     "d": "katanga"
+    },
+    {
+     "f": "1963-01-14",
+     "t": "2000-12-31",
+     "d": "kongo-kinsasa"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Likasi; ardıl dilim sahipsizlik olmasın diye eklendi; koordinat ağdan doğrulanamadı"
+  },
+  {
+   "ad": "Akrotiri",
+   "tur": "bolge",
+   "lat": 34.585,
+   "lon": 32.958,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1960-08-16",
+   "s": [
+    {
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "d": "akrotiri-dekelya"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Akrotiri; 1960 Kuruluş Antlaşması; koordinat ağdan doğrulanamadı"
+  },
+  {
+   "ad": "Episkopi",
+   "tur": "bolge",
+   "lat": 34.664,
+   "lon": 32.903,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1960-08-16",
+   "s": [
+    {
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "d": "akrotiri-dekelya"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Episkopi Cantonment (idari merkez); koordinat ağdan doğrulanamadı"
+  },
+  {
+   "ad": "Dekelya (Dhekelia)",
+   "tur": "bolge",
+   "lat": 34.98,
+   "lon": 33.75,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1960-08-16",
+   "s": [
+    {
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "d": "akrotiri-dekelya"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Dhekelia; koordinat ağdan doğrulanamadı"
+  },
+  {
+   "ad": "Naha",
+   "tur": "liman",
+   "lat": 26.212,
+   "lon": 127.679,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1945-04-01",
+   "s": [
+    {
+     "f": "1945-04-01",
+     "t": "1972-05-15",
+     "d": "ryukyu-abd-idaresi"
+    },
+    {
+     "f": "1972-05-15",
+     "t": "2000-12-31",
+     "d": "japonya-devleti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Naha; ardıl japonya-devleti dilimi eklendi (1972 devir); mevcut 'Şuri (Naha)' 4.0 km uzakta (Shuri), mükerrer değil ama komşu"
+  },
+  {
+   "ad": "Nago",
+   "tur": "sehir",
+   "lat": 26.592,
+   "lon": 127.977,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1945-04-01",
+   "s": [
+    {
+     "f": "1945-04-01",
+     "t": "1972-05-15",
+     "d": "ryukyu-abd-idaresi"
+    },
+    {
+     "f": "1972-05-15",
+     "t": "2000-12-31",
+     "d": "japonya-devleti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Nago; koordinat ağdan doğrulanamadı"
+  },
+  {
+   "ad": "Hirara (Miyakojima)",
+   "tur": "liman",
+   "lat": 24.805,
+   "lon": 125.281,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1945-04-01",
+   "s": [
+    {
+     "f": "1945-04-01",
+     "t": "1972-05-15",
+     "d": "ryukyu-abd-idaresi"
+    },
+    {
+     "f": "1972-05-15",
+     "t": "2000-12-31",
+     "d": "japonya-devleti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Hirara/Miyakojima; koordinat ağdan doğrulanamadı"
+  },
+  {
+   "ad": "Ishigaki",
+   "tur": "liman",
+   "lat": 24.341,
+   "lon": 124.156,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1945-04-01",
+   "s": [
+    {
+     "f": "1945-04-01",
+     "t": "1972-05-15",
+     "d": "ryukyu-abd-idaresi"
+    },
+    {
+     "f": "1972-05-15",
+     "t": "2000-12-31",
+     "d": "japonya-devleti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Ishigaki; koordinat ağdan doğrulanamadı"
+  },
+  {
+   "ad": "Xam Nua (Sam Neua)",
+   "tur": "sehir",
+   "lat": 20.416,
+   "lon": 104.046,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1950-08-13",
+   "s": [
+    {
+     "f": "1950-08-13",
+     "t": "1975-12-02",
+     "d": "pathet-lao-hukumeti"
+    },
+    {
+     "f": "1975-12-02",
+     "t": "2000-12-31",
+     "d": "laos-demokratik-halk-cumhuriyeti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Xam Nua; ardıl LDHC dilimi eklendi (Britannica 'Laos' 1975-12-02); koordinat ağdan doğrulanamadı"
+  },
+  {
+   "ad": "Vieng Xai",
+   "tur": "bolge",
+   "lat": 20.416,
+   "lon": 104.2,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1950-08-13",
+   "s": [
+    {
+     "f": "1950-08-13",
+     "t": "1975-12-02",
+     "d": "pathet-lao-hukumeti"
+    },
+    {
+     "f": "1975-12-02",
+     "t": "2000-12-31",
+     "d": "laos-demokratik-halk-cumhuriyeti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Vieng Xay (Pathet Lao mağara karargâhı); koordinat ağdan doğrulanamadı"
+  },
+  {
+   "ad": "Phongsali",
+   "tur": "sehir",
+   "lat": 21.683,
+   "lon": 102.113,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1950-08-13",
+   "s": [
+    {
+     "f": "1950-08-13",
+     "t": "1975-12-02",
+     "d": "pathet-lao-hukumeti"
+    },
+    {
+     "f": "1975-12-02",
+     "t": "2000-12-31",
+     "d": "laos-demokratik-halk-cumhuriyeti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) Phongsali; Pathet Lao kontrolü 1954 sonrası Sam Neua+Phongsali; koordinat ağdan doğrulanamadı"
+  },
+  {
+   "ad": "Bandung",
+   "tur": "sehir",
+   "lat": -6.917,
+   "lon": 107.619,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1948-02-26",
+   "s": [
+    {
+     "f": "1948-02-26",
+     "t": "1950-03-11",
+     "d": "pasundan-devleti"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Tasikmalaya",
+   "tur": "sehir",
+   "lat": -7.327,
+   "lon": 108.22,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1948-02-26",
+   "s": [
+    {
+     "f": "1948-02-26",
+     "t": "1950-03-11",
+     "d": "pasundan-devleti"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Sukabumi",
+   "tur": "sehir",
+   "lat": -6.927,
+   "lon": 106.93,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1948-02-26",
+   "s": [
+    {
+     "f": "1948-02-26",
+     "t": "1950-03-11",
+     "d": "pasundan-devleti"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Koror",
+   "tur": "sehir",
+   "lat": 7.343,
+   "lon": 134.479,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1981-01-01",
+   "s": [
+    {
+     "f": "1981-01-01",
+     "t": "2000-12-31",
+     "d": "palau"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Melekeok (Babeldaob)",
+   "tur": "bolge",
+   "lat": 7.5,
+   "lon": 134.624,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1981-01-01",
+   "s": [
+    {
+     "f": "1981-01-01",
+     "t": "2000-12-31",
+     "d": "palau"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Schwerin",
+   "tur": "sehir",
+   "lat": 53.635,
+   "lon": 11.401,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1949-10-07",
+   "s": [
+    {
+     "f": "1949-10-07",
+     "t": "1990-10-03",
+     "d": "almanya-demokratik-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Cottbus",
+   "tur": "sehir",
+   "lat": 51.763,
+   "lon": 14.334,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1949-10-07",
+   "s": [
+    {
+     "f": "1949-10-07",
+     "t": "1990-10-03",
+     "d": "almanya-demokratik-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Karl-Marx-Stadt (Chemnitz)",
+   "tur": "sehir",
+   "lat": 50.833,
+   "lon": 12.92,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1949-10-07",
+   "s": [
+    {
+     "f": "1949-10-07",
+     "t": "1990-10-03",
+     "d": "almanya-demokratik-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Frankfurt (Oder)",
+   "tur": "sehir",
+   "lat": 52.347,
+   "lon": 14.55,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1949-10-07",
+   "s": [
+    {
+     "f": "1949-10-07",
+     "t": "1990-10-03",
+     "d": "almanya-demokratik-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Batı Berlin (Charlottenburg)",
+   "tur": "sehir",
+   "lat": 52.507,
+   "lon": 13.332,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1948-12-07",
+   "s": [
+    {
+     "f": "1948-12-07",
+     "t": "1990-10-03",
+     "d": "berlin-bati"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Spandau (Batı Berlin)",
+   "tur": "sehir",
+   "lat": 52.535,
+   "lon": 13.2,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1948-12-07",
+   "s": [
+    {
+     "f": "1948-12-07",
+     "t": "1990-10-03",
+     "d": "berlin-bati"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Vitsi (Grammos-Vitsi, DSE üssü)",
+   "tur": "bolge",
+   "lat": 40.583,
+   "lon": 21.3,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1947-12-24",
+   "s": [
+    {
+     "f": "1947-12-24",
+     "t": "1949-08-28",
+     "d": "yunanistan-gecici-demokratik-hukumet"
+    }
+   ],
+   "kaynak": "koordinat: Vitsi belediye birimi Vikipedi noktası 40.583 K 21.300 D (tek dayanak değil; dağ zirvesi değil bölge merkezi), GeoNames doğrulaması BORÇ"
+  },
+  {
+   "ad": "Grammos (DSE üssü)",
+   "tur": "bolge",
+   "lat": 40.333,
+   "lon": 20.833,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1947-12-24",
+   "s": [
+    {
+     "f": "1947-12-24",
+     "t": "1949-08-28",
+     "d": "yunanistan-gecici-demokratik-hukumet"
+    }
+   ],
+   "kaynak": "koordinat: BirdLife DataZone IBA 'Mount Grammos' merkez 40.3333 K 20.8333 D"
+  },
+  {
+   "ad": "Koper (Capodistria, B bölgesi)",
+   "tur": "liman",
+   "lat": 45.548,
+   "lon": 13.73,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1947-09-15",
+   "s": [
+    {
+     "f": "1947-09-15",
+     "t": "1954-10-26",
+     "d": "triyeste-serbest-toprak"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Umag (B bölgesi)",
+   "tur": "liman",
+   "lat": 45.434,
+   "lon": 13.521,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1947-09-15",
+   "s": [
+    {
+     "f": "1947-09-15",
+     "t": "1954-10-26",
+     "d": "triyeste-serbest-toprak"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Glina",
+   "tur": "sehir",
+   "lat": 45.336,
+   "lon": 16.094,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-12-19",
+   "s": [
+    {
+     "f": "1991-12-19",
+     "t": "1995-08-07",
+     "d": "sirp-krajina-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Korenica",
+   "tur": "sehir",
+   "lat": 44.753,
+   "lon": 15.708,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-12-19",
+   "s": [
+    {
+     "f": "1991-12-19",
+     "t": "1995-08-07",
+     "d": "sirp-krajina-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Benkovac",
+   "tur": "sehir",
+   "lat": 44.034,
+   "lon": 15.613,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-12-19",
+   "s": [
+    {
+     "f": "1991-12-19",
+     "t": "1995-08-07",
+     "d": "sirp-krajina-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Vukovar",
+   "tur": "sehir",
+   "lat": 45.351,
+   "lon": 19.002,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1996-01-15",
+   "s": [
+    {
+     "f": "1996-01-15",
+     "t": "1998-01-15",
+     "d": "dogu-slavonya-untaes"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Beli Manastir",
+   "tur": "sehir",
+   "lat": 45.77,
+   "lon": 18.61,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1996-01-15",
+   "s": [
+    {
+     "f": "1996-01-15",
+     "t": "1998-01-15",
+     "d": "dogu-slavonya-untaes"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Ilok",
+   "tur": "sehir",
+   "lat": 45.223,
+   "lon": 19.372,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1996-01-15",
+   "s": [
+    {
+     "f": "1996-01-15",
+     "t": "1998-01-15",
+     "d": "dogu-slavonya-untaes"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Pale",
+   "tur": "sehir",
+   "lat": 43.815,
+   "lon": 18.573,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1992-01-09",
+   "s": [
+    {
+     "f": "1992-01-09",
+     "t": "1995-12-14",
+     "d": "bosna-sirp-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat: Pale kasabası 43°48.871′N 18°34.362′E (Vikipedi türevi kayıt, tek dayanak değil) = 43.815 K 18.573 D; GeoNames doğrulaması BORÇ"
+  },
+  {
+   "ad": "Bijeljina",
+   "tur": "sehir",
+   "lat": 44.757,
+   "lon": 19.215,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1992-01-09",
+   "s": [
+    {
+     "f": "1992-01-09",
+     "t": "1995-12-14",
+     "d": "bosna-sirp-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Doboj",
+   "tur": "sehir",
+   "lat": 44.731,
+   "lon": 18.087,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1992-01-09",
+   "s": [
+    {
+     "f": "1992-01-09",
+     "t": "1995-12-14",
+     "d": "bosna-sirp-cumhuriyeti"
+    }
+   ],
+   "kaynak": "koordinat: GeoNames-sınıfı gazetteer değeri, 3 hane (~1 km); canlı GeoNames sorgusu yapılamadı, doğrulama BORÇ"
+  },
+  {
+   "ad": "Çapljina (Čapljina)",
+   "tur": "sehir",
+   "lat": 43.113,
+   "lon": 17.705,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-11-18",
+   "s": [
+    {
+     "f": "1991-11-18",
+     "t": "1996-08-14",
+     "d": "herzeg-bosna"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Posušje",
+   "tur": "sehir",
+   "lat": 43.471,
+   "lon": 17.327,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-11-18",
+   "s": [
+    {
+     "f": "1991-11-18",
+     "t": "1996-08-14",
+     "d": "herzeg-bosna"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Vitez",
+   "tur": "sehir",
+   "lat": 44.151,
+   "lon": 17.792,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-11-18",
+   "s": [
+    {
+     "f": "1991-11-18",
+     "t": "1996-08-14",
+     "d": "herzeg-bosna"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Orašje",
+   "tur": "sehir",
+   "lat": 45.034,
+   "lon": 18.694,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-11-18",
+   "s": [
+    {
+     "f": "1991-11-18",
+     "t": "1996-08-14",
+     "d": "herzeg-bosna"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Mitroviça (Mitrovicë)",
+   "tur": "sehir",
+   "lat": 42.879,
+   "lon": 20.866,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-09-22",
+   "s": [
+    {
+     "f": "1991-09-22",
+     "t": "1999-06-10",
+     "d": "kosova-golge-cumhuriyeti"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Peç (Pejë)",
+   "tur": "sehir",
+   "lat": 42.659,
+   "lon": 20.289,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-09-22",
+   "s": [
+    {
+     "f": "1991-09-22",
+     "t": "1999-06-10",
+     "d": "kosova-golge-cumhuriyeti"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Gilan (Gjilan)",
+   "tur": "sehir",
+   "lat": 42.464,
+   "lon": 21.469,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-09-22",
+   "s": [
+    {
+     "f": "1991-09-22",
+     "t": "1999-06-10",
+     "d": "kosova-golge-cumhuriyeti"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Tiraspol",
+   "tur": "sehir",
+   "lat": 46.837,
+   "lon": 29.611,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1990-09-02",
+   "s": [
+    {
+     "f": "1990-09-02",
+     "t": "2000-12-31",
+     "d": "transdinyester"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Rîbnița (Rıbnitsa)",
+   "tur": "sehir",
+   "lat": 47.766,
+   "lon": 29.007,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1990-09-02",
+   "s": [
+    {
+     "f": "1990-09-02",
+     "t": "2000-12-31",
+     "d": "transdinyester"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Dubăsari (Dubossari)",
+   "tur": "sehir",
+   "lat": 47.266,
+   "lon": 29.162,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1990-09-02",
+   "s": [
+    {
+     "f": "1990-09-02",
+     "t": "2000-12-31",
+     "d": "transdinyester"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Slobozia (Transdinyester)",
+   "tur": "sehir",
+   "lat": 46.728,
+   "lon": 29.709,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1990-09-02",
+   "s": [
+    {
+     "f": "1990-09-02",
+     "t": "2000-12-31",
+     "d": "transdinyester"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Tskhinvali (Çinvali)",
+   "tur": "sehir",
+   "lat": 42.226,
+   "lon": 43.97,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1992-05-29",
+   "s": [
+    {
+     "f": "1992-05-29",
+     "t": "2000-12-31",
+     "d": "guney-osetya"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Java (Dzau)",
+   "tur": "sehir",
+   "lat": 42.39,
+   "lon": 43.923,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1992-05-29",
+   "s": [
+    {
+     "f": "1992-05-29",
+     "t": "2000-12-31",
+     "d": "guney-osetya"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Znaur",
+   "tur": "sehir",
+   "lat": 42.225,
+   "lon": 43.736,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1992-05-29",
+   "s": [
+    {
+     "f": "1992-05-29",
+     "t": "2000-12-31",
+     "d": "guney-osetya"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Hankendi (Stepanakert)",
+   "tur": "sehir",
+   "lat": 39.818,
+   "lon": 46.751,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1991-09-02",
+   "s": [
+    {
+     "f": "1991-09-02",
+     "t": "2000-12-31",
+     "d": "daglik-karabag"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Ağdere (Martakert)",
+   "tur": "sehir",
+   "lat": 40.21,
+   "lon": 46.823,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-09-02",
+   "s": [
+    {
+     "f": "1991-09-02",
+     "t": "2000-12-31",
+     "d": "daglik-karabag"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Hadrut",
+   "tur": "sehir",
+   "lat": 39.519,
+   "lon": 47.031,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-09-02",
+   "s": [
+    {
+     "f": "1991-09-02",
+     "t": "2000-12-31",
+     "d": "daglik-karabag"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Askeran",
+   "tur": "sehir",
+   "lat": 39.938,
+   "lon": 46.835,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-09-02",
+   "s": [
+    {
+     "f": "1991-09-02",
+     "t": "2000-12-31",
+     "d": "daglik-karabag"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Grozni (Groznıy)",
+   "tur": "sehir",
+   "lat": 43.309,
+   "lon": 45.707,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1991-11-01",
+   "s": [
+    {
+     "f": "1991-11-01",
+     "t": "2000-02-06",
+     "d": "ickerya"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Gudermes",
+   "tur": "sehir",
+   "lat": 43.349,
+   "lon": 46.096,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-11-01",
+   "s": [
+    {
+     "f": "1991-11-01",
+     "t": "2000-02-06",
+     "d": "ickerya"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Şali (Shali)",
+   "tur": "sehir",
+   "lat": 43.154,
+   "lon": 45.907,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-11-01",
+   "s": [
+    {
+     "f": "1991-11-01",
+     "t": "2000-02-06",
+     "d": "ickerya"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Urus-Martan",
+   "tur": "sehir",
+   "lat": 43.133,
+   "lon": 45.538,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1991-11-01",
+   "s": [
+    {
+     "f": "1991-11-01",
+     "t": "2000-02-06",
+     "d": "ickerya"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Güzelyurt (Morphou)",
+   "tur": "sehir",
+   "lat": 35.199,
+   "lon": 32.993,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1914-11-05",
+   "s": [
+    {
+     "f": "1914-11-05",
+     "t": "1960-08-16",
+     "d": "kibris-ingiliz-kolonisi"
+    },
+    {
+     "f": "1960-08-16",
+     "t": "1975-02-13",
+     "d": "kibris-cumhuriyeti"
+    },
+    {
+     "f": "1975-02-13",
+     "t": "1983-11-15",
+     "d": "kibris-turk-federe-devleti"
+    },
+    {
+     "f": "1983-11-15",
+     "t": "2000-12-31",
+     "d": "kktc"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13 ; sonrasi icin s zinciri eklendi"
+  },
+  {
+   "ad": "Episkopi",
+   "tur": "sehir",
+   "lat": 34.669,
+   "lon": 32.825,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1960-08-16",
+   "s": [
+    {
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "d": "kibris-ingiliz-ussler"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Akrotiri",
+   "tur": "sehir",
+   "lat": 34.601,
+   "lon": 32.956,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1960-08-16",
+   "s": [
+    {
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "d": "kibris-ingiliz-ussler"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Dikelya (Dhekelia)",
+   "tur": "sehir",
+   "lat": 34.991,
+   "lon": 33.733,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1960-08-16",
+   "s": [
+    {
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "d": "kibris-ingiliz-ussler"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Tórshavn",
+   "tur": "liman",
+   "lat": 62.01,
+   "lon": -6.772,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1948-04-01",
+   "s": [
+    {
+     "f": "1948-04-01",
+     "t": "2000-12-31",
+     "d": "feroe-adalari"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Klaksvík",
+   "tur": "liman",
+   "lat": 62.225,
+   "lon": -6.584,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1948-04-01",
+   "s": [
+    {
+     "f": "1948-04-01",
+     "t": "2000-12-31",
+     "d": "feroe-adalari"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Vágur",
+   "tur": "liman",
+   "lat": 61.474,
+   "lon": -6.811,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1948-04-01",
+   "s": [
+    {
+     "f": "1948-04-01",
+     "t": "2000-12-31",
+     "d": "feroe-adalari"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Chaguaramas",
+   "tur": "bolge",
+   "lat": 10.681,
+   "lon": -61.655,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1958-01-03",
+   "s": [
+    {
+     "f": "1958-01-03",
+     "t": "1962-05-31",
+     "d": "bati-hint-federasyonu"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13 ; OSM Chaguaramas (Coast Guard) noktasi; federal baskent adayi, fiilen yonetim Port of Spain'deydi"
+  },
+  {
+   "ad": "Bridgetown",
+   "tur": "liman",
+   "lat": 13.098,
+   "lon": -59.618,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1958-01-03",
+   "s": [
+    {
+     "f": "1958-01-03",
+     "t": "1962-05-31",
+     "d": "bati-hint-federasyonu"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Castries",
+   "tur": "liman",
+   "lat": 14.01,
+   "lon": -60.99,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1958-01-03",
+   "s": [
+    {
+     "f": "1958-01-03",
+     "t": "1962-05-31",
+     "d": "bati-hint-federasyonu"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "St. John's (Antigua)",
+   "tur": "liman",
+   "lat": 17.118,
+   "lon": -61.844,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1958-01-03",
+   "s": [
+    {
+     "f": "1958-01-03",
+     "t": "1962-05-31",
+     "d": "bati-hint-federasyonu"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Basseterre",
+   "tur": "liman",
+   "lat": 17.296,
+   "lon": -62.722,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1958-01-03",
+   "s": [
+    {
+     "f": "1958-01-03",
+     "t": "1962-05-31",
+     "d": "bati-hint-federasyonu"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Roseau",
+   "tur": "liman",
+   "lat": 15.299,
+   "lon": -61.387,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1958-01-03",
+   "s": [
+    {
+     "f": "1958-01-03",
+     "t": "1962-05-31",
+     "d": "bati-hint-federasyonu"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Kingstown",
+   "tur": "liman",
+   "lat": 13.156,
+   "lon": -61.227,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1958-01-03",
+   "s": [
+    {
+     "f": "1958-01-03",
+     "t": "1962-05-31",
+     "d": "bati-hint-federasyonu"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "St. George's (Grenada)",
+   "tur": "liman",
+   "lat": 12.054,
+   "lon": -61.751,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1958-01-03",
+   "s": [
+    {
+     "f": "1958-01-03",
+     "t": "1962-05-31",
+     "d": "bati-hint-federasyonu"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Plymouth (Montserrat)",
+   "tur": "liman",
+   "lat": 16.705,
+   "lon": -62.212,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1958-01-03",
+   "s": [
+    {
+     "f": "1958-01-03",
+     "t": "1962-05-31",
+     "d": "bati-hint-federasyonu"
+    }
+   ],
+   "kaynak": "OSM Nominatim (ODbL) koordinat sorgusu 2026-10-13"
+  },
+  {
+   "ad": "Bridgetown",
+   "tur": "sehir",
+   "lat": 13.098,
+   "lon": -59.616,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1966-11-30",
+   "s": [
+    {
+     "f": "1966-11-30",
+     "t": "2000-12-31",
+     "d": "barbados"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Speightstown",
+   "tur": "sehir",
+   "lat": 13.252,
+   "lon": -59.642,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1966-11-30",
+   "s": [
+    {
+     "f": "1966-11-30",
+     "t": "2000-12-31",
+     "d": "barbados"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Oistins",
+   "tur": "liman",
+   "lat": 13.067,
+   "lon": -59.54,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1966-11-30",
+   "s": [
+    {
+     "f": "1966-11-30",
+     "t": "2000-12-31",
+     "d": "barbados"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "St. George's",
+   "tur": "sehir",
+   "lat": 12.056,
+   "lon": -61.749,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1974-02-07",
+   "s": [
+    {
+     "f": "1974-02-07",
+     "t": "1979-03-12",
+     "d": "grenada"
+    },
+    {
+     "f": "1979-03-13",
+     "t": "1983-10-25",
+     "d": "grenada-devrimci-hukumet"
+    },
+    {
+     "f": "1983-10-26",
+     "t": "2000-12-31",
+     "d": "grenada"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Gouyave",
+   "tur": "sehir",
+   "lat": 12.165,
+   "lon": -61.727,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1974-02-07",
+   "s": [
+    {
+     "f": "1974-02-07",
+     "t": "1979-03-12",
+     "d": "grenada"
+    },
+    {
+     "f": "1979-03-13",
+     "t": "1983-10-25",
+     "d": "grenada-devrimci-hukumet"
+    },
+    {
+     "f": "1983-10-26",
+     "t": "2000-12-31",
+     "d": "grenada"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Grenville",
+   "tur": "sehir",
+   "lat": 12.121,
+   "lon": -61.625,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1974-02-07",
+   "s": [
+    {
+     "f": "1974-02-07",
+     "t": "1979-03-12",
+     "d": "grenada"
+    },
+    {
+     "f": "1979-03-13",
+     "t": "1983-10-25",
+     "d": "grenada-devrimci-hukumet"
+    },
+    {
+     "f": "1983-10-26",
+     "t": "2000-12-31",
+     "d": "grenada"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Hillsborough (Carriacou)",
+   "tur": "sehir",
+   "lat": 12.485,
+   "lon": -61.466,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1974-02-07",
+   "s": [
+    {
+     "f": "1974-02-07",
+     "t": "1979-03-12",
+     "d": "grenada"
+    },
+    {
+     "f": "1979-03-13",
+     "t": "1983-10-25",
+     "d": "grenada-devrimci-hukumet"
+    },
+    {
+     "f": "1983-10-26",
+     "t": "2000-12-31",
+     "d": "grenada"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Roseau",
+   "tur": "sehir",
+   "lat": 15.301,
+   "lon": -61.388,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1978-11-03",
+   "s": [
+    {
+     "f": "1978-11-03",
+     "t": "2000-12-31",
+     "d": "dominika"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Portsmouth (Dominika)",
+   "tur": "sehir",
+   "lat": 15.576,
+   "lon": -61.457,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1978-11-03",
+   "s": [
+    {
+     "f": "1978-11-03",
+     "t": "2000-12-31",
+     "d": "dominika"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Castries",
+   "tur": "sehir",
+   "lat": 14.01,
+   "lon": -60.987,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1979-02-22",
+   "s": [
+    {
+     "f": "1979-02-22",
+     "t": "2000-12-31",
+     "d": "saint-lucia"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Vieux Fort",
+   "tur": "liman",
+   "lat": 13.72,
+   "lon": -60.951,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1979-02-22",
+   "s": [
+    {
+     "f": "1979-02-22",
+     "t": "2000-12-31",
+     "d": "saint-lucia"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Kingstown",
+   "tur": "sehir",
+   "lat": 13.158,
+   "lon": -61.225,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1979-10-27",
+   "s": [
+    {
+     "f": "1979-10-27",
+     "t": "2000-12-31",
+     "d": "saint-vincent-grenadinler"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Port Elizabeth (Bequia)",
+   "tur": "liman",
+   "lat": 13.007,
+   "lon": -61.238,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1979-10-27",
+   "s": [
+    {
+     "f": "1979-10-27",
+     "t": "2000-12-31",
+     "d": "saint-vincent-grenadinler"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "St. John's (Antigua)",
+   "tur": "sehir",
+   "lat": 17.121,
+   "lon": -61.844,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1981-11-01",
+   "s": [
+    {
+     "f": "1981-11-01",
+     "t": "2000-12-31",
+     "d": "antigua-barbuda"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Codrington (Barbuda)",
+   "tur": "sehir",
+   "lat": 17.634,
+   "lon": -61.826,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1981-11-01",
+   "s": [
+    {
+     "f": "1981-11-01",
+     "t": "2000-12-31",
+     "d": "antigua-barbuda"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Basseterre",
+   "tur": "sehir",
+   "lat": 17.302,
+   "lon": -62.717,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1983-09-19",
+   "s": [
+    {
+     "f": "1983-09-19",
+     "t": "2000-12-31",
+     "d": "saint-kitts-nevis"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Charlestown (Nevis)",
+   "tur": "sehir",
+   "lat": 17.137,
+   "lon": -62.621,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1983-09-19",
+   "s": [
+    {
+     "f": "1983-09-19",
+     "t": "2000-12-31",
+     "d": "saint-kitts-nevis"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Willemstad",
+   "tur": "sehir",
+   "lat": 12.109,
+   "lon": -68.934,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1954-12-15",
+   "s": [
+    {
+     "f": "1954-12-15",
+     "t": "2000-12-31",
+     "d": "hollanda-antilleri"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Kralendijk (Bonaire)",
+   "tur": "sehir",
+   "lat": 12.15,
+   "lon": -68.266,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1954-12-15",
+   "s": [
+    {
+     "f": "1954-12-15",
+     "t": "2000-12-31",
+     "d": "hollanda-antilleri"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Philipsburg (Sint Maarten)",
+   "tur": "sehir",
+   "lat": 18.026,
+   "lon": -63.046,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1954-12-15",
+   "s": [
+    {
+     "f": "1954-12-15",
+     "t": "2000-12-31",
+     "d": "hollanda-antilleri"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Oranjestad (Sint Eustatius)",
+   "tur": "sehir",
+   "lat": 17.484,
+   "lon": -62.974,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1954-12-15",
+   "s": [
+    {
+     "f": "1954-12-15",
+     "t": "2000-12-31",
+     "d": "hollanda-antilleri"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Oranjestad (Aruba)",
+   "tur": "sehir",
+   "lat": 12.524,
+   "lon": -70.027,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1954-12-15",
+   "s": [
+    {
+     "f": "1954-12-15",
+     "t": "1985-12-31",
+     "d": "hollanda-antilleri"
+    },
+    {
+     "f": "1986-01-01",
+     "t": "2000-12-31",
+     "d": "aruba-ozerk"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; NGA GNS ad teyidi"
+  },
+  {
+   "ad": "Balboa Heights (Panama Kanalı İdaresi)",
+   "tur": "sehir",
+   "lat": 8.95,
+   "lon": -79.55,
+   "g": 1,
+   "k": 0,
+   "m": null,
+   "kur": "1904-02-26",
+   "s": [
+    {
+     "f": "1904-02-26",
+     "t": "1979-10-01",
+     "d": "panama-kanali-bolgesi"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) geonames.org arama, ilgili yerleşim kaydı 'Balboa Heights' 8.95,-79.55; Kanal Bölgesi idare merkezi (Panama Canal Commission/Zone Governor)"
+  },
+  {
+   "ad": "Cristóbal (Colón limanı, Kanal Bölgesi)",
+   "tur": "liman",
+   "lat": 9.355,
+   "lon": -79.91,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1904-02-26",
+   "s": [
+    {
+     "f": "1904-02-26",
+     "t": "1979-10-01",
+     "d": "panama-kanali-bolgesi"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) geonames.org arama, ilgili yerleşim kaydı 'Puerto Cristobal' 9.354579,-79.910231; Kanal'ın Atlantik girişi"
+  },
+  {
+   "ad": "Saidu Sharif",
+   "tur": "sehir",
+   "lat": 34.747,
+   "lon": 72.356,
+   "g": 2,
+   "k": 0,
+   "m": null,
+   "kur": "1915-01-01",
+   "s": [
+    {
+     "f": "1915-01-01",
+     "t": "1969-07-28",
+     "d": "swat-devleti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) geonames.org arama, ilgili yerleşim kaydı 'Saidu Sharīf' 34.746549,72.355675; Wali'nin başkenti"
+  },
+  {
+   "ad": "Madyan (Swat)",
+   "tur": "sehir",
+   "lat": 35.141,
+   "lon": 72.538,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1915-01-01",
+   "s": [
+    {
+     "f": "1915-01-01",
+     "t": "1969-07-28",
+     "d": "swat-devleti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) geonames.org arama, ilgili yerleşim kaydı 'Madyan' 35.14104,72.538203; Yukarı Swat"
+  },
+  {
+   "ad": "Kalam (Swat)",
+   "tur": "sehir",
+   "lat": 35.482,
+   "lon": 72.578,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1915-01-01",
+   "s": [
+    {
+     "f": "1915-01-01",
+     "t": "1969-07-28",
+     "d": "swat-devleti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) geonames.org arama, ilgili yerleşim kaydı 'Kalam' 35.481798,72.578087; Swat kuzeyi"
+  },
+  {
+   "ad": "Bahlâ",
+   "tur": "sehir",
+   "lat": 22.979,
+   "lon": 57.305,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1913-01-01",
+   "s": [
+    {
+     "f": "1913-01-01",
+     "t": "1955-01-01",
+     "d": "umman-ic-imamlik"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) geonames.org arama, ilgili yerleşim kaydı 'Bahlā'' 22.978865,57.304705; İç Umman imamlık bölgesi"
+  },
+  {
+   "ad": "Izkî",
+   "tur": "sehir",
+   "lat": 22.761,
+   "lon": 57.802,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1913-01-01",
+   "s": [
+    {
+     "f": "1913-01-01",
+     "t": "1955-01-01",
+     "d": "umman-ic-imamlik"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) geonames.org arama, ilgili yerleşim kaydı 'Izkī' 22.761,57.802; İç Umman imamlık bölgesi"
+  },
+  {
+   "ad": "Keningau",
+   "tur": "sehir",
+   "lat": 5.338,
+   "lon": 116.16,
+   "g": 0,
+   "k": 0,
+   "m": null,
+   "kur": "1946-07-15",
+   "s": [
+    {
+     "f": "1946-07-15",
+     "t": "1963-09-16",
+     "d": "kuzey-borneo-tac-kolonisi"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) geonames.org arama, ilgili yerleşim kaydı 'Keningau' 5.33781,116.16020; Kuzey Borneo iç bölge (Interior Residency)"
+  }
+ ],
+ "M": [
+  {
+   "ad": "Yaunde",
+   "neden": "Fransız Kamerunu başkent/kıyı noktası: mevcut zincir 1916-1960 'fransa-cumhuriyet' diyor; 1922-07-20'den itibaren sahibi fransiz-kamerun-mandasi künyesidir (künye harita: fransa-cumhuriyet, boya aynı).",
+   "zincir": [
+    {
+     "f": "1888-11-30",
+     "t": "1916-02-16",
+     "d": "almanya"
+    },
+    {
+     "f": "1916-02-16",
+     "t": "1922-07-20",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1922-07-20",
+     "t": "1960-01-01",
+     "d": "fransiz-kamerun-mandasi"
+    },
+    {
+     "f": "1960-01-01",
+     "t": "2000-12-31",
+     "d": "kamerun"
+    }
+   ],
+   "kaynak": "künye fransiz-kamerun-mandasi f/t (1922-07-20 / 1960-01-01); Britannica 'Cameroon'"
+  },
+  {
+   "ad": "Duala",
+   "neden": "Fransız Kamerunu başkent/kıyı noktası: mevcut zincir 1916-1960 'fransa-cumhuriyet' diyor; 1922-07-20'den itibaren sahibi fransiz-kamerun-mandasi künyesidir (künye harita: fransa-cumhuriyet, boya aynı).",
+   "zincir": [
+    {
+     "f": "1868-01-01",
+     "t": "1884-07-14",
+     "d": "hollanda"
+    },
+    {
+     "f": "1884-07-14",
+     "t": "1916-02-16",
+     "d": "almanya"
+    },
+    {
+     "f": "1916-02-16",
+     "t": "1922-07-20",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1922-07-20",
+     "t": "1960-01-01",
+     "d": "fransiz-kamerun-mandasi"
+    },
+    {
+     "f": "1960-01-01",
+     "t": "2000-12-31",
+     "d": "kamerun"
+    }
+   ],
+   "kaynak": "künye fransiz-kamerun-mandasi f/t (1922-07-20 / 1960-01-01); Britannica 'Cameroon'"
+  },
+  {
+   "ad": "Kribi",
+   "neden": "Fransız Kamerunu başkent/kıyı noktası: mevcut zincir 1916-1960 'fransa-cumhuriyet' diyor; 1922-07-20'den itibaren sahibi fransiz-kamerun-mandasi künyesidir (künye harita: fransa-cumhuriyet, boya aynı).",
+   "zincir": [
+    {
+     "f": "1884-07-14",
+     "t": "1916-02-16",
+     "d": "almanya"
+    },
+    {
+     "f": "1916-02-16",
+     "t": "1922-07-20",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1922-07-20",
+     "t": "1960-01-01",
+     "d": "fransiz-kamerun-mandasi"
+    },
+    {
+     "f": "1960-01-01",
+     "t": "2000-12-31",
+     "d": "kamerun"
+    }
+   ],
+   "kaynak": "künye fransiz-kamerun-mandasi f/t (1922-07-20 / 1960-01-01); Britannica 'Cameroon'"
+  },
+  {
+   "ad": "Librevil (Libreville)",
+   "neden": "AEF üyesi Gabon kıyısı: 1910-01-15 ile 1958-01-01 arası sahibi fransiz-ekvator-afrikasi künyesidir; mevcut zincir fransa-cumhuriyet.",
+   "zincir": [
+    {
+     "f": "1849-08-17",
+     "t": "1910-01-15",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1910-01-15",
+     "t": "1958-01-01",
+     "d": "fransiz-ekvator-afrikasi"
+    },
+    {
+     "f": "1958-01-01",
+     "t": "1960-08-17",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1960-08-17",
+     "t": "2000-12-31",
+     "d": "gabon"
+    }
+   ],
+   "kaynak": "künye fransiz-ekvator-afrikasi f/t (1910-01-15 / 1958-01-01); 1958-01-01 sonrası Fransız Topluluğu içinde özerk üye, bağımsızlığa kadar fransa-cumhuriyet bırakıldı (künye t ile uyumlu)"
+  },
+  {
+   "ad": "Bangi (Bangui)",
+   "neden": "AEF üyesi Ubangi-Şari başkenti: 1910-01-15..1958-01-01 sahibi AEF künyesi.",
+   "zincir": [
+    {
+     "f": "1889-06-26",
+     "t": "1910-01-15",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1910-01-15",
+     "t": "1958-01-01",
+     "d": "fransiz-ekvator-afrikasi"
+    },
+    {
+     "f": "1958-01-01",
+     "t": "1960-08-13",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1960-08-13",
+     "t": "2000-12-31",
+     "d": "orta-afrika-cumhuriyeti"
+    }
+   ],
+   "kaynak": "künye fransiz-ekvator-afrikasi f/t (1910-01-15 / 1958-01-01); 1958-01-01 sonrası Fransız Topluluğu içinde özerk üye, bağımsızlığa kadar fransa-cumhuriyet bırakıldı (künye t ile uyumlu)"
+  },
+  {
+   "ad": "Ndjamena",
+   "neden": "AEF üyesi Çad (Fort-Lamy): 1910-01-15..1958-01-01 sahibi AEF künyesi.",
+   "zincir": [
+    {
+     "f": "1900-01-01",
+     "t": "1910-01-15",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1910-01-15",
+     "t": "1958-01-01",
+     "d": "fransiz-ekvator-afrikasi"
+    },
+    {
+     "f": "1958-01-01",
+     "t": "1960-08-11",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1960-08-11",
+     "t": "2000-12-31",
+     "d": "cad"
+    }
+   ],
+   "kaynak": "künye fransiz-ekvator-afrikasi f/t (1910-01-15 / 1958-01-01); 1958-01-01 sonrası Fransız Topluluğu içinde özerk üye, bağımsızlığa kadar fransa-cumhuriyet bırakıldı (künye t ile uyumlu)"
+  },
+  {
+   "ad": "Puent-Nuar",
+   "neden": "AEF üyesi Orta Kongo'nun limanı (Pointe-Noire): 1910-01-15..1958-01-01 sahibi AEF künyesi.",
+   "zincir": [
+    {
+     "f": "1883-01-01",
+     "t": "1910-01-15",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1910-01-15",
+     "t": "1958-01-01",
+     "d": "fransiz-ekvator-afrikasi"
+    },
+    {
+     "f": "1958-01-01",
+     "t": "1960-08-15",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1960-08-15",
+     "t": "2000-12-31",
+     "d": "kongo-brazzaville"
+    }
+   ],
+   "kaynak": "künye fransiz-ekvator-afrikasi f/t (1910-01-15 / 1958-01-01); 1958-01-01 sonrası Fransız Topluluğu içinde özerk üye, bağımsızlığa kadar fransa-cumhuriyet bırakıldı (künye t ile uyumlu)"
+  },
+  {
+   "ad": "Tıtvân (Tetuan)",
+   "neden": "İspanyol Himayesi başkenti: 1912-11-27..1956-04-07 sahibi fas-ispanyol-himayesi; mevcut zincir 1923-1956 'fas-fransiz-himayesi' yazıyor (yanlış bölge). 1860-62 isg: kaydı korunur.",
+   "zincir": [
+    {
+     "f": "1484-01-01",
+     "t": "1549-01-01",
+     "d": "merini"
+    },
+    {
+     "f": "1549-01-01",
+     "t": "1659-01-01",
+     "d": "sadi"
+    },
+    {
+     "f": "1659-01-01",
+     "t": "1912-11-27",
+     "d": "fas"
+    },
+    {
+     "f": "1912-11-27",
+     "t": "1956-04-07",
+     "d": "fas-ispanyol-himayesi"
+    },
+    {
+     "f": "1956-04-07",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "künye fas-ispanyol-himayesi f/t (1912-11-27 / 1956-04-07); mevcut 'fas-fransiz-himayesi 1923-1956' İspanyol bölgesinde yanlış"
+  },
+  {
+   "ad": "el-Arâiş (Larache)",
+   "neden": "İspanyol bölgesi limanı; Larache Fransız bölgesinde değildi.",
+   "zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1549-01-01",
+     "d": "merini"
+    },
+    {
+     "f": "1549-01-01",
+     "t": "1610-01-01",
+     "d": "sadi"
+    },
+    {
+     "f": "1610-01-01",
+     "t": "1689-01-01",
+     "d": "ispanya"
+    },
+    {
+     "f": "1689-01-01",
+     "t": "1912-11-27",
+     "d": "fas"
+    },
+    {
+     "f": "1912-11-27",
+     "t": "1956-04-07",
+     "d": "fas-ispanyol-himayesi"
+    },
+    {
+     "f": "1956-04-07",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "künye fas-ispanyol-himayesi f/t (1912-11-27 / 1956-04-07); mevcut 'fas-fransiz-himayesi 1923-1956' İspanyol bölgesinde yanlış; 1610-1689 ispanya 'enklav:true' bayrağı korunmalı"
+  },
+  {
+   "ad": "Kasrülkebîr",
+   "neden": "Ksar el-Kebir İspanyol bölgesindeydi.",
+   "zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1549-01-01",
+     "d": "merini"
+    },
+    {
+     "f": "1549-01-01",
+     "t": "1659-01-01",
+     "d": "sadi"
+    },
+    {
+     "f": "1659-01-01",
+     "t": "1912-11-27",
+     "d": "fas"
+    },
+    {
+     "f": "1912-11-27",
+     "t": "1956-04-07",
+     "d": "fas-ispanyol-himayesi"
+    },
+    {
+     "f": "1956-04-07",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "künye fas-ispanyol-himayesi f/t (1912-11-27 / 1956-04-07); mevcut 'fas-fransiz-himayesi 1923-1956' İspanyol bölgesinde yanlış"
+  },
+  {
+   "ad": "el-Hüseyme (Alhucemas)",
+   "neden": "Al Hoceima İspanyol bölgesindeydi (1925'te Villa Sanjurjo); mevcut zincir 1673'ten 2000'e ispanya diyor, 1956 sonrası Fas'tır (Peñón de Alhucemas adacığı ispanya enklavı olarak ayrıca kalır). Ana kara şehri için aşağıdaki zincir önerilir.",
+   "zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1549-01-01",
+     "d": "merini"
+    },
+    {
+     "f": "1549-01-01",
+     "t": "1659-01-01",
+     "d": "sadi"
+    },
+    {
+     "f": "1659-01-01",
+     "t": "1673-01-01",
+     "d": "fas"
+    },
+    {
+     "f": "1673-01-01",
+     "t": "1912-11-27",
+     "d": "ispanya"
+    },
+    {
+     "f": "1912-11-27",
+     "t": "1956-04-07",
+     "d": "fas-ispanyol-himayesi"
+    },
+    {
+     "f": "1956-04-07",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "künye fas-ispanyol-himayesi f/t (1912-11-27 / 1956-04-07); mevcut 'fas-fransiz-himayesi 1923-1956' İspanyol bölgesinde yanlış; 1673 İspanyol presidio (Peñón) tarihi mevcut kayıttan alındı, doğrulanmadı"
+  },
+  {
+   "ad": "Şefşâven",
+   "neden": "Chefchaouen İspanyol bölgesi içinde (İspanyol işgali 14.10.1920, 15.11.1924 tahliye, 1926'da geri dönüş); mevcut zincirin son parçası 1926'dan 9999'a 'fas' yazıyor.",
+   "zincir": [
+    {
+     "f": "1471-01-01",
+     "t": "1549-01-01",
+     "d": "merini"
+    },
+    {
+     "f": "1549-01-01",
+     "t": "1659-01-01",
+     "d": "sadi"
+    },
+    {
+     "f": "1659-01-01",
+     "t": "1912-11-27",
+     "d": "fas"
+    },
+    {
+     "f": "1912-11-27",
+     "t": "1924-11-15",
+     "d": "fas-ispanyol-himayesi"
+    },
+    {
+     "f": "1924-11-15",
+     "t": "1926-05-27",
+     "d": "rif-cumhuriyeti"
+    },
+    {
+     "f": "1926-05-27",
+     "t": "1956-04-07",
+     "d": "fas-ispanyol-himayesi"
+    },
+    {
+     "f": "1956-04-07",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "künye fas-ispanyol-himayesi f/t (1912-11-27 / 1956-04-07); mevcut 'fas-fransiz-himayesi 1923-1956' İspanyol bölgesinde yanlış; 1924-1926 Rif parçası mevcut kayıttan"
+  },
+  {
+   "ad": "Tanca",
+   "neden": "Tanca Uluslararası Bölgesi: 1923-12-18..1956-10-29 sahibi tanca-uluslararasi-bolge (1940-06-14..1945-10-11 İspanyol işgali ara verir; gün künye notundan, işgal tarihleri yıl düzeyinde teyit edilmeli); mevcut zincir 'fas-fransiz-himayesi 1923-1956' yanlış, 1956-03-02'de bağımsızlık Tanca'yı kapsamaz.",
+   "zincir": [
+    {
+     "f": "1684-01-01",
+     "t": "1923-12-18",
+     "d": "fas"
+    },
+    {
+     "f": "1923-12-18",
+     "t": "1940-06-14",
+     "d": "tanca-uluslararasi-bolge"
+    },
+    {
+     "f": "1940-06-14",
+     "t": "1945-10-11",
+     "d": "ispanya"
+    },
+    {
+     "f": "1945-10-11",
+     "t": "1956-10-29",
+     "d": "tanca-uluslararasi-bolge"
+    },
+    {
+     "f": "1956-10-29",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "künye tanca-uluslararasi-bolge f/t (1923-12-18 / 1956-10-29), 1940-45 ara künye notundan; 1684 öncesi mevcut zincir (portekiz/ingiltere) korunur"
+  },
+  {
+   "ad": "Îfnî (Sîdî İfnî)",
+   "neden": "İspanyol Ifni: fiilî işgal 1934-01-01 (künye f), 1969-06-30'da Fas'a devir. Mevcut zincir 1923-1956 'fas-fransiz-himayesi' ve 1956'da Fas diyor; oysa Ifni 1969'a kadar İspanyol.",
+   "zincir": [
+    {
+     "f": "1281-01-01",
+     "t": "1549-01-01",
+     "d": "merini"
+    },
+    {
+     "f": "1549-01-01",
+     "t": "1659-01-01",
+     "d": "sadi"
+    },
+    {
+     "f": "1659-01-01",
+     "t": "1934-01-01",
+     "d": "fas"
+    },
+    {
+     "f": "1934-01-01",
+     "t": "1969-06-30",
+     "d": "ifni-ispanyol"
+    },
+    {
+     "f": "1969-06-30",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "künye ifni-ispanyol f/t (1934-01-01 / 1969-06-30)"
+  },
+  {
+   "ad": "Cabo Juby (Tarfaya)",
+   "neden": "Mevcut zincir 'ispanya' diyor ve 1958-04-10'da bitiyor; künye cabo-juby-ispanyol ayrı polity (t 1958-04-01, bazı kaynaklar 04-02). Nokta kur 1916 (fiilî işgal).",
+   "zincir": [
+    {
+     "f": "1916-01-01",
+     "t": "1958-04-01",
+     "d": "cabo-juby-ispanyol"
+    },
+    {
+     "f": "1958-04-01",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "künye cabo-juby-ispanyol f/t; kur 1916 mevcut kayıttan (Blanco Vázquez 2018). Not: künye f 1912-11-27 nokta kur'undan önce, nokta 1916'da başlar"
+  },
+  {
+   "ad": "Tunus",
+   "neden": "Mevcut zincir 1923'te bitiyor; 1946-2000 boş. Tunus Beyliği (Fransız himayesi) 1956-03-20'ye dek, Krallık 1957-07-25'e dek, sonra Cumhuriyet (künyelerden).",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-03-20",
+     "d": "tunus-beyligi-fransiz"
+    },
+    {
+     "f": "1956-03-20",
+     "t": "1957-07-25",
+     "d": "tunus-krallik"
+    },
+    {
+     "f": "1957-07-25",
+     "t": "2000-12-31",
+     "d": "tunus"
+    }
+   ],
+   "kaynak": "devletler.js künyeleri: tunus-beyligi-fransiz, tunus-krallik, tunus"
+  },
+  {
+   "ad": "Sfaks",
+   "neden": "Mevcut zincir 1923'te bitiyor; 1946-2000 boş. Tunus Beyliği (Fransız himayesi) 1956-03-20'ye dek, Krallık 1957-07-25'e dek, sonra Cumhuriyet (künyelerden).",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-03-20",
+     "d": "tunus-beyligi-fransiz"
+    },
+    {
+     "f": "1956-03-20",
+     "t": "1957-07-25",
+     "d": "tunus-krallik"
+    },
+    {
+     "f": "1957-07-25",
+     "t": "2000-12-31",
+     "d": "tunus"
+    }
+   ],
+   "kaynak": "devletler.js künyeleri: tunus-beyligi-fransiz, tunus-krallik, tunus"
+  },
+  {
+   "ad": "Sûse",
+   "neden": "Mevcut zincir 1923'te bitiyor; 1946-2000 boş. Tunus Beyliği (Fransız himayesi) 1956-03-20'ye dek, Krallık 1957-07-25'e dek, sonra Cumhuriyet (künyelerden).",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-03-20",
+     "d": "tunus-beyligi-fransiz"
+    },
+    {
+     "f": "1956-03-20",
+     "t": "1957-07-25",
+     "d": "tunus-krallik"
+    },
+    {
+     "f": "1957-07-25",
+     "t": "2000-12-31",
+     "d": "tunus"
+    }
+   ],
+   "kaynak": "devletler.js künyeleri: tunus-beyligi-fransiz, tunus-krallik, tunus"
+  },
+  {
+   "ad": "Benzert (Bizerte)",
+   "neden": "Mevcut zincir 1923'te bitiyor; 1946-2000 boş. Tunus Beyliği (Fransız himayesi) 1956-03-20'ye dek, Krallık 1957-07-25'e dek, sonra Cumhuriyet (künyelerden).",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-03-20",
+     "d": "tunus-beyligi-fransiz"
+    },
+    {
+     "f": "1956-03-20",
+     "t": "1957-07-25",
+     "d": "tunus-krallik"
+    },
+    {
+     "f": "1957-07-25",
+     "t": "2000-12-31",
+     "d": "tunus"
+    }
+   ],
+   "kaynak": "devletler.js künyeleri: tunus-beyligi-fransiz, tunus-krallik, tunus"
+  },
+  {
+   "ad": "Murzuk (Fizan)",
+   "neden": "Fizan-Gadames 1943-1951 Fransız askerî idaresindeydi; mevcut zincir İngiliz askerî idaresi yazıyor.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1951-12-24",
+     "d": "libya-fransiz-fizan"
+    },
+    {
+     "f": "1951-12-24",
+     "t": "1969-09-01",
+     "d": "libya-krallik"
+    },
+    {
+     "f": "1969-09-01",
+     "t": "2000-12-31",
+     "d": "libya-cumhuriyet-cemahiriye"
+    }
+   ],
+   "kaynak": "devletler.js libya-fransiz-fizan; Britannica: Libya"
+  },
+  {
+   "ad": "Sebha",
+   "neden": "Fizan-Gadames 1943-1951 Fransız askerî idaresindeydi; mevcut zincir İngiliz askerî idaresi yazıyor.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1951-12-24",
+     "d": "libya-fransiz-fizan"
+    },
+    {
+     "f": "1951-12-24",
+     "t": "1969-09-01",
+     "d": "libya-krallik"
+    },
+    {
+     "f": "1969-09-01",
+     "t": "2000-12-31",
+     "d": "libya-cumhuriyet-cemahiriye"
+    }
+   ],
+   "kaynak": "devletler.js libya-fransiz-fizan; Britannica: Libya"
+  },
+  {
+   "ad": "Ğadâmis",
+   "neden": "Fizan-Gadames 1943-1951 Fransız askerî idaresindeydi; mevcut zincir İngiliz askerî idaresi yazıyor.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1951-12-24",
+     "d": "libya-fransiz-fizan"
+    },
+    {
+     "f": "1951-12-24",
+     "t": "1969-09-01",
+     "d": "libya-krallik"
+    },
+    {
+     "f": "1969-09-01",
+     "t": "2000-12-31",
+     "d": "libya-cumhuriyet-cemahiriye"
+    }
+   ],
+   "kaynak": "devletler.js libya-fransiz-fizan; Britannica: Libya"
+  },
+  {
+   "ad": "Bingazi",
+   "neden": "Sirenayka 1 Mart 1949'dan 24 Aralık 1951'e dek Bingazi Emirliği; mevcut zincir İngiliz askerî idaresi yazıyor.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1949-03-01",
+     "d": "libya-ingiliz-askeri-idaresi"
+    },
+    {
+     "f": "1949-03-01",
+     "t": "1951-12-24",
+     "d": "bingazi-emirligi"
+    },
+    {
+     "f": "1951-12-24",
+     "t": "1969-09-01",
+     "d": "libya-krallik"
+    },
+    {
+     "f": "1969-09-01",
+     "t": "2000-12-31",
+     "d": "libya-cumhuriyet-cemahiriye"
+    }
+   ],
+   "kaynak": "devletler.js bingazi-emirligi; Britannica: Libya"
+  },
+  {
+   "ad": "Derne",
+   "neden": "Sirenayka 1 Mart 1949'dan 24 Aralık 1951'e dek Bingazi Emirliği; mevcut zincir İngiliz askerî idaresi yazıyor.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1949-03-01",
+     "d": "libya-ingiliz-askeri-idaresi"
+    },
+    {
+     "f": "1949-03-01",
+     "t": "1951-12-24",
+     "d": "bingazi-emirligi"
+    },
+    {
+     "f": "1951-12-24",
+     "t": "1969-09-01",
+     "d": "libya-krallik"
+    },
+    {
+     "f": "1969-09-01",
+     "t": "2000-12-31",
+     "d": "libya-cumhuriyet-cemahiriye"
+    }
+   ],
+   "kaynak": "devletler.js bingazi-emirligi; Britannica: Libya"
+  },
+  {
+   "ad": "Tobruk",
+   "neden": "Sirenayka 1 Mart 1949'dan 24 Aralık 1951'e dek Bingazi Emirliği; mevcut zincir İngiliz askerî idaresi yazıyor.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1949-03-01",
+     "d": "libya-ingiliz-askeri-idaresi"
+    },
+    {
+     "f": "1949-03-01",
+     "t": "1951-12-24",
+     "d": "bingazi-emirligi"
+    },
+    {
+     "f": "1951-12-24",
+     "t": "1969-09-01",
+     "d": "libya-krallik"
+    },
+    {
+     "f": "1969-09-01",
+     "t": "2000-12-31",
+     "d": "libya-cumhuriyet-cemahiriye"
+    }
+   ],
+   "kaynak": "devletler.js bingazi-emirligi; Britannica: Libya"
+  },
+  {
+   "ad": "Malakal",
+   "neden": "Güney Sudan Özerk Bölgesi (Addis Ababa, 27.02.1972-05.06.1983) güney eyaletlerinde; mevcut zincir Sudan Cumhuriyeti yazıyor.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-01-01",
+     "d": "ingiliz-sudani"
+    },
+    {
+     "f": "1956-01-01",
+     "t": "1972-02-27",
+     "d": "sudan-cumhuriyeti"
+    },
+    {
+     "f": "1972-02-27",
+     "t": "1983-06-05",
+     "d": "guney-sudan-ozerk-bolge"
+    },
+    {
+     "f": "1983-06-05",
+     "t": "2000-12-31",
+     "d": "sudan-cumhuriyeti"
+    }
+   ],
+   "kaynak": "devletler.js guney-sudan-ozerk-bolge; Britannica: Addis Ababa Agreement"
+  },
+  {
+   "ad": "Vav",
+   "neden": "Güney Sudan Özerk Bölgesi (Addis Ababa, 27.02.1972-05.06.1983) güney eyaletlerinde; mevcut zincir Sudan Cumhuriyeti yazıyor.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-01-01",
+     "d": "ingiliz-sudani"
+    },
+    {
+     "f": "1956-01-01",
+     "t": "1972-02-27",
+     "d": "sudan-cumhuriyeti"
+    },
+    {
+     "f": "1972-02-27",
+     "t": "1983-06-05",
+     "d": "guney-sudan-ozerk-bolge"
+    },
+    {
+     "f": "1983-06-05",
+     "t": "2000-12-31",
+     "d": "sudan-cumhuriyeti"
+    }
+   ],
+   "kaynak": "devletler.js guney-sudan-ozerk-bolge; Britannica: Addis Ababa Agreement"
+  },
+  {
+   "ad": "Rumbek",
+   "neden": "Güney Sudan Özerk Bölgesi (Addis Ababa, 27.02.1972-05.06.1983) güney eyaletlerinde; mevcut zincir Sudan Cumhuriyeti yazıyor.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-01-01",
+     "d": "ingiliz-sudani"
+    },
+    {
+     "f": "1956-01-01",
+     "t": "1972-02-27",
+     "d": "sudan-cumhuriyeti"
+    },
+    {
+     "f": "1972-02-27",
+     "t": "1983-06-05",
+     "d": "guney-sudan-ozerk-bolge"
+    },
+    {
+     "f": "1983-06-05",
+     "t": "2000-12-31",
+     "d": "sudan-cumhuriyeti"
+    }
+   ],
+   "kaynak": "devletler.js guney-sudan-ozerk-bolge; Britannica: Addis Ababa Agreement"
+  },
+  {
+   "ad": "Bor",
+   "neden": "Güney Sudan Özerk Bölgesi (Addis Ababa, 27.02.1972-05.06.1983) güney eyaletlerinde; mevcut zincir Sudan Cumhuriyeti yazıyor.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-01-01",
+     "d": "ingiliz-sudani"
+    },
+    {
+     "f": "1956-01-01",
+     "t": "1972-02-27",
+     "d": "sudan-cumhuriyeti"
+    },
+    {
+     "f": "1972-02-27",
+     "t": "1983-06-05",
+     "d": "guney-sudan-ozerk-bolge"
+    },
+    {
+     "f": "1983-06-05",
+     "t": "2000-12-31",
+     "d": "sudan-cumhuriyeti"
+    }
+   ],
+   "kaynak": "devletler.js guney-sudan-ozerk-bolge; Britannica: Addis Ababa Agreement"
+  },
+  {
+   "ad": "Yambio",
+   "neden": "Güney Sudan Özerk Bölgesi (Addis Ababa, 27.02.1972-05.06.1983) güney eyaletlerinde; mevcut zincir Sudan Cumhuriyeti yazıyor.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-01-01",
+     "d": "ingiliz-sudani"
+    },
+    {
+     "f": "1956-01-01",
+     "t": "1972-02-27",
+     "d": "sudan-cumhuriyeti"
+    },
+    {
+     "f": "1972-02-27",
+     "t": "1983-06-05",
+     "d": "guney-sudan-ozerk-bolge"
+    },
+    {
+     "f": "1983-06-05",
+     "t": "2000-12-31",
+     "d": "sudan-cumhuriyeti"
+    }
+   ],
+   "kaynak": "devletler.js guney-sudan-ozerk-bolge; Britannica: Addis Ababa Agreement"
+  },
+  {
+   "ad": "Garove",
+   "neden": "Puntland 1998'den beri özerk devlet; mevcut zincir Somali Cumhuriyeti yazıyor. Not: künye f=1998-01-01 yıl düzeyi (Ağustos 1998).",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1950-04-01",
+     "d": "somali-ingiliz-askeri-idaresi"
+    },
+    {
+     "f": "1950-04-01",
+     "t": "1960-07-01",
+     "d": "somali-italyan-vesayet"
+    },
+    {
+     "f": "1960-07-01",
+     "t": "1998-01-01",
+     "d": "somali-cumhuriyeti"
+    },
+    {
+     "f": "1998-01-01",
+     "t": "2000-12-31",
+     "d": "puntland"
+    }
+   ],
+   "kaynak": "devletler.js puntland"
+  },
+  {
+   "ad": "Bender Kāsım (Bosaso)",
+   "neden": "Puntland 1998'den beri özerk devlet; mevcut zincir Somali Cumhuriyeti yazıyor. Not: künye f=1998-01-01 yıl düzeyi (Ağustos 1998).",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1950-04-01",
+     "d": "somali-ingiliz-askeri-idaresi"
+    },
+    {
+     "f": "1950-04-01",
+     "t": "1960-07-01",
+     "d": "somali-italyan-vesayet"
+    },
+    {
+     "f": "1960-07-01",
+     "t": "1998-01-01",
+     "d": "somali-cumhuriyeti"
+    },
+    {
+     "f": "1998-01-01",
+     "t": "2000-12-31",
+     "d": "puntland"
+    }
+   ],
+   "kaynak": "devletler.js puntland"
+  },
+  {
+   "ad": "Mogadişu",
+   "neden": "Arta Geçici Ulusal Hükümeti başkenti Mogadişu (künye 2000-01-01, yıl düzeyi; Ağustos 2000). Mevcut zincir somali-cumhuriyeti.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1950-04-01",
+     "d": "somali-ingiliz-askeri-idaresi"
+    },
+    {
+     "f": "1950-04-01",
+     "t": "1960-07-01",
+     "d": "somali-italyan-vesayet"
+    },
+    {
+     "f": "1960-07-01",
+     "t": "2000-01-01",
+     "d": "somali-cumhuriyeti"
+    },
+    {
+     "f": "2000-01-01",
+     "t": "2000-12-31",
+     "d": "somali-ulusal-gecis-hukumeti"
+    }
+   ],
+   "kaynak": "devletler.js somali-ulusal-gecis-hukumeti"
+  },
+  {
+   "ad": "Cibûtî",
+   "neden": "Afarlar ve İssalar Fransız Bölgesi 1967-07-03..1977-06-27; mevcut zincir fransa-cumhuriyet yazıyor. 1946-1967 için fransiz-somalisi künyesi de var; mevcut zincirle tutarlılık için fransa-cumhuriyet bırakıldı.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1967-07-03",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1967-07-03",
+     "t": "1977-06-27",
+     "d": "afar-issa-fransiz-bolgesi"
+    },
+    {
+     "f": "1977-06-27",
+     "t": "2000-12-31",
+     "d": "cibuti"
+    }
+   ],
+   "kaynak": "devletler.js afar-issa-fransiz-bolgesi, cibuti"
+  },
+  {
+   "ad": "Tacûra",
+   "neden": "Afarlar ve İssalar Fransız Bölgesi 1967-07-03..1977-06-27; mevcut zincir fransa-cumhuriyet yazıyor. 1946-1967 için fransiz-somalisi künyesi de var; mevcut zincirle tutarlılık için fransa-cumhuriyet bırakıldı.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1967-07-03",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1967-07-03",
+     "t": "1977-06-27",
+     "d": "afar-issa-fransiz-bolgesi"
+    },
+    {
+     "f": "1977-06-27",
+     "t": "2000-12-31",
+     "d": "cibuti"
+    }
+   ],
+   "kaynak": "devletler.js afar-issa-fransiz-bolgesi, cibuti"
+  },
+  {
+   "ad": "Obok",
+   "neden": "Afarlar ve İssalar Fransız Bölgesi 1967-07-03..1977-06-27; mevcut zincir fransa-cumhuriyet yazıyor. 1946-1967 için fransiz-somalisi künyesi de var; mevcut zincirle tutarlılık için fransa-cumhuriyet bırakıldı.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1967-07-03",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1967-07-03",
+     "t": "1977-06-27",
+     "d": "afar-issa-fransiz-bolgesi"
+    },
+    {
+     "f": "1977-06-27",
+     "t": "2000-12-31",
+     "d": "cibuti"
+    }
+   ],
+   "kaynak": "devletler.js afar-issa-fransiz-bolgesi, cibuti"
+  },
+  {
+   "ad": "Alî Sabîh",
+   "neden": "Afarlar ve İssalar Fransız Bölgesi 1967-07-03..1977-06-27; mevcut zincir fransa-cumhuriyet yazıyor. 1946-1967 için fransiz-somalisi künyesi de var; mevcut zincirle tutarlılık için fransa-cumhuriyet bırakıldı.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1967-07-03",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1967-07-03",
+     "t": "1977-06-27",
+     "d": "afar-issa-fransiz-bolgesi"
+    },
+    {
+     "f": "1977-06-27",
+     "t": "2000-12-31",
+     "d": "cibuti"
+    }
+   ],
+   "kaynak": "devletler.js afar-issa-fransiz-bolgesi, cibuti"
+  },
+  {
+   "ad": "Dikhil",
+   "neden": "Afarlar ve İssalar Fransız Bölgesi 1967-07-03..1977-06-27; mevcut zincir fransa-cumhuriyet yazıyor. 1946-1967 için fransiz-somalisi künyesi de var; mevcut zincirle tutarlılık için fransa-cumhuriyet bırakıldı.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1967-07-03",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1967-07-03",
+     "t": "1977-06-27",
+     "d": "afar-issa-fransiz-bolgesi"
+    },
+    {
+     "f": "1977-06-27",
+     "t": "2000-12-31",
+     "d": "cibuti"
+    }
+   ],
+   "kaynak": "devletler.js afar-issa-fransiz-bolgesi, cibuti"
+  },
+  {
+   "ad": "Zanzibar (Zengibar)",
+   "neden": "Mevcut zincir Zengibar'a ingiliz-tanganika-mandasi yazıyor (yanlış; Tanganika anakara). Zengibar Sultanlığı -> bağımsız sultanlık -> Halk Cumhuriyeti -> Tanzanya.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1963-12-10",
+     "d": "umman-zengibar"
+    },
+    {
+     "f": "1963-12-10",
+     "t": "1964-01-12",
+     "d": "zengibar-bagimsiz-sultanlik"
+    },
+    {
+     "f": "1964-01-12",
+     "t": "1964-04-26",
+     "d": "zengibar-halk-cumhuriyeti"
+    },
+    {
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "d": "tanzanya"
+    }
+   ],
+   "kaynak": "devletler.js zengibar-bagimsiz-sultanlik, zengibar-halk-cumhuriyeti, tanzanya"
+  },
+  {
+   "ad": "Zanzibar (Zengibar)",
+   "neden": "Zanzibar Pemba Halk Cumhuriyeti basskenti; mevcut zincirde bu segment olmali (1964-01-12..1964-04-26). Oncesi/sonrasi (Zanzibar Sultanligi, Tanzanya) mevcut zincirden korunmali, yalniz bu segment dogrulanmali.",
+   "zincir": [
+    {
+     "f": "1964-01-12",
+     "t": "1964-04-26",
+     "d": "zengibar-halk-cumhuriyeti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Salisbury (Harare)",
+   "neden": "Federasyon baskenti; 1953-08-01..1963-12-31 segmenti rodezya-nyasaland-federasyonu olmali (mevcut zincir butunu gorulmedi, yalniz segment).",
+   "zincir": [
+    {
+     "f": "1953-08-01",
+     "t": "1963-12-31",
+     "d": "rodezya-nyasaland-federasyonu"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Zomba",
+   "neden": "Federasyonun Nyasaland parcasi; segment.",
+   "zincir": [
+    {
+     "f": "1953-08-01",
+     "t": "1963-12-31",
+     "d": "rodezya-nyasaland-federasyonu"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Blantyre",
+   "neden": "Federasyonun Nyasaland parcasi; segment.",
+   "zincir": [
+    {
+     "f": "1953-08-01",
+     "t": "1963-12-31",
+     "d": "rodezya-nyasaland-federasyonu"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Umtata",
+   "neden": "Transkei baskenti; segment.",
+   "zincir": [
+    {
+     "f": "1976-10-26",
+     "t": "1994-04-27",
+     "d": "transkei"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Mafikeng",
+   "neden": "Mmabatho (Bophuthatswana baskenti) ile ayni yer (<3 km), yeni nokta acilmadi; segment.",
+   "zincir": [
+    {
+     "f": "1977-12-06",
+     "t": "1994-04-27",
+     "d": "bophuthatswana"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Vindhuk (Windhoek)",
+   "neden": "Guneybati Afrika Gecici Ulusal Birlik Hukumeti baskenti; segment.",
+   "zincir": [
+    {
+     "f": "1985-06-17",
+     "t": "1989-02-28",
+     "d": "namibya-gecici-ulusal-birlik-hukumeti"
+    }
+   ],
+   "kaynak": "GeoNames (CC BY 4.0) koordinat; ad: Britannica"
+  },
+  {
+   "ad": "Lobamba (Svazi)",
+   "neden": "Svaziland yasama/geleneksel baskenti; 1903-1968 sahibi genel 'ingiltere' yerine ingiliz-svaziland himayesi olmali",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1968-09-06",
+     "d": "ingiliz-svaziland"
+    },
+    {
+     "f": "1968-09-06",
+     "t": "2000-12-31",
+     "d": "svaziland"
+    }
+   ],
+   "kaynak": "Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"
+  },
+  {
+   "ad": "Dakar",
+   "neden": "Senegambiya baskenti; 1982-02-01..1989-09-30 senegambiya olmali",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1960-06-20",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1960-06-20",
+     "t": "1960-08-20",
+     "d": "mali-federasyonu"
+    },
+    {
+     "f": "1960-08-20",
+     "t": "1982-02-01",
+     "d": "senegal"
+    },
+    {
+     "f": "1982-02-01",
+     "t": "1989-09-30",
+     "d": "senegambiya"
+    },
+    {
+     "f": "1989-09-30",
+     "t": "2000-12-31",
+     "d": "senegal"
+    }
+   ],
+   "kaynak": "Britannica Senegambia; Britannica Senegal"
+  },
+  {
+   "ad": "Bathurst (Banjul)",
+   "neden": "Senegambiya'nin Gambiya ucu; 1982-02-01..1989-09-30 senegambiya olmali",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1965-02-18",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1965-02-18",
+     "t": "1982-02-01",
+     "d": "gambiya"
+    },
+    {
+     "f": "1982-02-01",
+     "t": "1989-09-30",
+     "d": "senegambiya"
+    },
+    {
+     "f": "1989-09-30",
+     "t": "2000-12-31",
+     "d": "gambiya"
+    }
+   ],
+   "kaynak": "Britannica Senegambia; Britannica The Gambia"
+  },
+  {
+   "ad": "Bangi (Bangui)",
+   "neden": "Orta Afrika Imparatorlugu baskenti; 1976-12-04..1979-09-20 imparatorluk olmali",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1960-08-13",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1960-08-13",
+     "t": "1976-12-04",
+     "d": "orta-afrika-cumhuriyeti"
+    },
+    {
+     "f": "1976-12-04",
+     "t": "1979-09-20",
+     "d": "orta-afrika-imparatorlugu"
+    },
+    {
+     "f": "1979-09-20",
+     "t": "2000-12-31",
+     "d": "orta-afrika-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Britannica Central African Republic; Britannica Jean-Bedel Bokassa"
+  },
+  {
+   "ad": "Bambari",
+   "neden": "Imparatorluk doneminde ulkenin ic kesimi; imparatorluk zinciri eksik",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1960-08-13",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1960-08-13",
+     "t": "1976-12-04",
+     "d": "orta-afrika-cumhuriyeti"
+    },
+    {
+     "f": "1976-12-04",
+     "t": "1979-09-20",
+     "d": "orta-afrika-imparatorlugu"
+    },
+    {
+     "f": "1979-09-20",
+     "t": "2000-12-31",
+     "d": "orta-afrika-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Britannica Central African Republic"
+  },
+  {
+   "ad": "Ndjamena",
+   "neden": "GUNT 1979-11-10'dan 1982-06-07'ye N'Djamena'yi elinde tuttu",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1960-08-11",
+     "d": "fransa-cumhuriyet"
+    },
+    {
+     "f": "1960-08-11",
+     "t": "1979-11-10",
+     "d": "cad"
+    },
+    {
+     "f": "1979-11-10",
+     "t": "1982-06-07",
+     "d": "cad-gunt"
+    },
+    {
+     "f": "1982-06-07",
+     "t": "2000-12-31",
+     "d": "cad"
+    }
+   ],
+   "kaynak": "Britannica Chad; Britannica Goukouni Oueddei / Hissene Habre"
+  },
+  {
+   "ad": "Kolvezi",
+   "neden": "Katanga ayrılıkçı devleti (1960-07-11/1963-01-14) Kolwezi'yi de kapsıyordu; mevcut zincir Kongo'ya yazıyor",
+   "zincir": [
+    {
+     "f": "1923-10-29",
+     "t": "1960-06-30",
+     "d": "belcika-kongo"
+    },
+    {
+     "f": "1960-06-30",
+     "t": "1960-07-11",
+     "d": "kongo-kinsasa"
+    },
+    {
+     "f": "1960-07-11",
+     "t": "1963-01-14",
+     "d": "katanga"
+    },
+    {
+     "f": "1963-01-14",
+     "t": "2000-12-31",
+     "d": "kongo-kinsasa"
+    }
+   ],
+   "kaynak": "Britannica 'Katanga'; künye tarihleri"
+  },
+  {
+   "ad": "Huambo (Wambu)",
+   "neden": "UNITA-FNLA hükûmetinin başkenti Huambo; mevcut zincir angola yazıyor",
+   "zincir": [
+    {
+     "f": "1923-10-29",
+     "t": "1975-11-11",
+     "d": "portekiz-angola"
+    },
+    {
+     "f": "1975-11-11",
+     "t": "1976-02-11",
+     "d": "angola-unita-fnla"
+    },
+    {
+     "f": "1976-02-11",
+     "t": "2000-12-31",
+     "d": "angola"
+    }
+   ],
+   "kaynak": "künye angola-unita-fnla (başkent Huambo)"
+  },
+  {
+   "ad": "Uije (Uíge)",
+   "neden": "FNLA'nın kalesi; UNITA-FNLA ilanı dönemi (1975-11-11/1976-02-11) bu yer fiilen FNLA/UNITA denetiminde",
+   "zincir": [
+    {
+     "f": "1923-10-29",
+     "t": "1975-11-11",
+     "d": "portekiz-angola"
+    },
+    {
+     "f": "1975-11-11",
+     "t": "1976-02-11",
+     "d": "angola-unita-fnla"
+    },
+    {
+     "f": "1976-02-11",
+     "t": "2000-12-31",
+     "d": "angola"
+    }
+   ],
+   "kaynak": "künye angola-unita-fnla; Uíge'nin 1976 başına dek FNLA elinde olduğu kaynakla doğrulanamadı (not)"
+  },
+  {
+   "ad": "Kuito (Bié)",
+   "neden": "UNITA bölgesi (Bié); UNITA-FNLA ilanı dönemi",
+   "zincir": [
+    {
+     "f": "1923-10-29",
+     "t": "1975-11-11",
+     "d": "portekiz-angola"
+    },
+    {
+     "f": "1975-11-11",
+     "t": "1976-02-11",
+     "d": "angola-unita-fnla"
+    },
+    {
+     "f": "1976-02-11",
+     "t": "2000-12-31",
+     "d": "angola"
+    }
+   ],
+   "kaynak": "künye angola-unita-fnla; fiilî kontrol kaynakla doğrulanamadı"
+  },
+  {
+   "ad": "Kahire",
+   "neden": "Birleşik Arap Devletleri künyesi (1958-03-08/1961-12-26) başkenti Kahire; mevcut zincir BAC yazıyor. Not: konfederasyon BAC'ın üstüne biner",
+   "zincir": [
+    {
+     "f": "1953-06-18",
+     "t": "1958-02-22",
+     "d": "misir-cumhuriyeti"
+    },
+    {
+     "f": "1958-02-22",
+     "t": "1958-03-08",
+     "d": "birlesik-arap-cumhuriyeti"
+    },
+    {
+     "f": "1958-03-08",
+     "t": "1961-12-26",
+     "d": "birlesik-arap-devletleri"
+    },
+    {
+     "f": "1961-12-26",
+     "t": "1971-09-02",
+     "d": "birlesik-arap-cumhuriyeti"
+    },
+    {
+     "f": "1971-09-02",
+     "t": "2000-12-31",
+     "d": "misir-arap-cumhuriyeti"
+    }
+   ],
+   "kaynak": "künye birlesik-arap-devletleri (Britannica Aralık 1961); karar Emre'nin"
+  },
+  {
+   "ad": "Şam",
+   "neden": "BAD, Suriye'yi BAC olarak içerir; Suriye 1961-09-28'de ayrıldı, BAD'ın Şam'daki ömrü o güne dek",
+   "zincir": [
+    {
+     "f": "1946-04-17",
+     "t": "1958-02-22",
+     "d": "suriye-cumhuriyeti-1946"
+    },
+    {
+     "f": "1958-02-22",
+     "t": "1958-03-08",
+     "d": "birlesik-arap-cumhuriyeti"
+    },
+    {
+     "f": "1958-03-08",
+     "t": "1961-09-28",
+     "d": "birlesik-arap-devletleri"
+    },
+    {
+     "f": "1961-09-28",
+     "t": "2000-12-31",
+     "d": "suriye-arap-cumhuriyeti"
+    }
+   ],
+   "kaynak": "künye + mevcut zincir sınırları"
+  },
+  {
+   "ad": "Aden",
+   "neden": "Aden Kolonisi (1937-04-01/1963-01-18) başkenti Aden; mevcut zincir ingiltere yazıyor",
+   "zincir": [
+    {
+     "f": "1937-04-01",
+     "t": "1963-01-18",
+     "d": "aden-kolonisi"
+    },
+    {
+     "f": "1963-01-18",
+     "t": "1967-11-30",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1967-11-30",
+     "t": "1990-05-22",
+     "d": "guney-yemen"
+    },
+    {
+     "f": "1990-05-22",
+     "t": "2000-12-31",
+     "d": "yemen-cumhuriyeti"
+    }
+   ],
+   "kaynak": "künye aden-kolonisi; 1963-67 Güney Arabistan Federasyonu için devlet kimliği bulunamadı, ingiltere korundu"
+  },
+  {
+   "ad": "Vientiane",
+   "neden": "Lao Issara hükûmeti (başkent Vientiane) 12 Ekim 1945'ten Fransız dönüşüne (24 Nisan 1946) dek burayı elinde tuttu",
+   "zincir": [
+    {
+     "f": "1893-10-03",
+     "t": "1945-10-12",
+     "d": "fransiz-cinhindi"
+    },
+    {
+     "f": "1945-10-12",
+     "t": "1946-04-24",
+     "d": "lao-issara-hukumeti"
+    },
+    {
+     "f": "1946-04-24",
+     "t": "1953-10-22",
+     "d": "fransiz-cinhindi"
+    },
+    {
+     "f": "1953-10-22",
+     "t": "1975-12-02",
+     "d": "laos-kralligi"
+    },
+    {
+     "f": "1975-12-02",
+     "t": "2000-12-31",
+     "d": "laos-demokratik-halk-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Wikipedia Lao Issara (tek dayanak sayılmaz; 24 Nisan 1946 tarihi akademik kaynakla teyit edilmeli)"
+  },
+  {
+   "ad": "Savannakhet",
+   "neden": "Lao Issara bölgesi (Thakhek–Savannakhet hattı, Mart 1946'ya dek)",
+   "zincir": [
+    {
+     "f": "1893-10-03",
+     "t": "1945-10-12",
+     "d": "fransiz-cinhindi"
+    },
+    {
+     "f": "1945-10-12",
+     "t": "1946-04-24",
+     "d": "lao-issara-hukumeti"
+    },
+    {
+     "f": "1946-04-24",
+     "t": "1953-10-22",
+     "d": "fransiz-cinhindi"
+    },
+    {
+     "f": "1953-10-22",
+     "t": "1975-12-02",
+     "d": "laos-kralligi"
+    },
+    {
+     "f": "1975-12-02",
+     "t": "2000-12-31",
+     "d": "laos-demokratik-halk-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Savannakhet'in 24 Nisan 1946'ya dek Lao Issara elinde kaldığı kaynaklanmadı; Thakhek Mart 1946'da düştü"
+  },
+  {
+   "ad": "Phnom Penh",
+   "neden": "UNTAC (28 Şubat 1992) başkenti; mevcut zincir kampucya-halk-cumhuriyeti yazıyor (künye t 1993-01-01 ile tutarsız, bkz künye_hatası)",
+   "zincir": [
+    {
+     "f": "1979-01-07",
+     "t": "1992-02-28",
+     "d": "kampucya-halk-cumhuriyeti"
+    },
+    {
+     "f": "1992-02-28",
+     "t": "1993-01-01",
+     "d": "untac"
+    },
+    {
+     "f": "1993-01-01",
+     "t": "1993-09-24",
+     "d": "kampucya-halk-cumhuriyeti"
+    },
+    {
+     "f": "1993-09-24",
+     "t": "2000-12-31",
+     "d": "kamboc-kralligi"
+    }
+   ],
+   "kaynak": "künye untac; 1993-01-01 sonrası geçici, künye düzelince UNTAC 1993-09-24'e uzar"
+  },
+  {
+   "ad": "Battambang",
+   "neden": "UNTAC bölgesi",
+   "zincir": [
+    {
+     "f": "1979-01-07",
+     "t": "1992-02-28",
+     "d": "kampucya-halk-cumhuriyeti"
+    },
+    {
+     "f": "1992-02-28",
+     "t": "1993-01-01",
+     "d": "untac"
+    },
+    {
+     "f": "1993-01-01",
+     "t": "1993-09-24",
+     "d": "kampucya-halk-cumhuriyeti"
+    },
+    {
+     "f": "1993-09-24",
+     "t": "2000-12-31",
+     "d": "kamboc-kralligi"
+    }
+   ],
+   "kaynak": "künye untac"
+  },
+  {
+   "ad": "Kompong Cham",
+   "neden": "UNTAC bölgesi",
+   "zincir": [
+    {
+     "f": "1979-01-07",
+     "t": "1992-02-28",
+     "d": "kampucya-halk-cumhuriyeti"
+    },
+    {
+     "f": "1992-02-28",
+     "t": "1993-01-01",
+     "d": "untac"
+    },
+    {
+     "f": "1993-01-01",
+     "t": "1993-09-24",
+     "d": "kampucya-halk-cumhuriyeti"
+    },
+    {
+     "f": "1993-09-24",
+     "t": "2000-12-31",
+     "d": "kamboc-kralligi"
+    }
+   ],
+   "kaynak": "künye untac"
+  },
+  {
+   "ad": "Berlin",
+   "neden": "Doğu Almanya toprağı; mevcut zincir 1949-05-23..1990-10-03 BRD yazıyor (Berlin: Mitte/Doğu Berlin, DDR başkenti; Batı Berlin için ayrı yeni nokta var)",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1949-10-07",
+     "d": "almanya-muttefik-isgali"
+    },
+    {
+     "f": "1949-10-07",
+     "t": "1990-10-03",
+     "d": "almanya-demokratik-cumhuriyeti"
+    },
+    {
+     "f": "1990-10-03",
+     "t": "2000-12-31",
+     "d": "almanya-birlesik"
+    }
+   ],
+   "kaynak": "DDR: Britannica 'East Germany' (kuruluş 1949-10-07, katılım 1990-10-03); mevcut zincir 1949-05-23'te BRD'ye geçiyordu (hatalı, DDR toprağı); 1949-05-23..1949-10-07 arası işgal bölgesi sürer"
+  },
+  {
+   "ad": "Dresden",
+   "neden": "Doğu Almanya toprağı; mevcut zincir 1949-05-23..1990-10-03 BRD yazıyor",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1949-10-07",
+     "d": "almanya-muttefik-isgali"
+    },
+    {
+     "f": "1949-10-07",
+     "t": "1990-10-03",
+     "d": "almanya-demokratik-cumhuriyeti"
+    },
+    {
+     "f": "1990-10-03",
+     "t": "2000-12-31",
+     "d": "almanya-birlesik"
+    }
+   ],
+   "kaynak": "DDR: Britannica 'East Germany' (kuruluş 1949-10-07, katılım 1990-10-03); mevcut zincir 1949-05-23'te BRD'ye geçiyordu (hatalı, DDR toprağı); 1949-05-23..1949-10-07 arası işgal bölgesi sürer"
+  },
+  {
+   "ad": "Leipzig",
+   "neden": "Doğu Almanya toprağı; mevcut zincir 1949-05-23..1990-10-03 BRD yazıyor",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1949-10-07",
+     "d": "almanya-muttefik-isgali"
+    },
+    {
+     "f": "1949-10-07",
+     "t": "1990-10-03",
+     "d": "almanya-demokratik-cumhuriyeti"
+    },
+    {
+     "f": "1990-10-03",
+     "t": "2000-12-31",
+     "d": "almanya-birlesik"
+    }
+   ],
+   "kaynak": "DDR: Britannica 'East Germany' (kuruluş 1949-10-07, katılım 1990-10-03); mevcut zincir 1949-05-23'te BRD'ye geçiyordu (hatalı, DDR toprağı); 1949-05-23..1949-10-07 arası işgal bölgesi sürer"
+  },
+  {
+   "ad": "Rostock",
+   "neden": "Doğu Almanya toprağı; mevcut zincir 1949-05-23..1990-10-03 BRD yazıyor",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1949-10-07",
+     "d": "almanya-muttefik-isgali"
+    },
+    {
+     "f": "1949-10-07",
+     "t": "1990-10-03",
+     "d": "almanya-demokratik-cumhuriyeti"
+    },
+    {
+     "f": "1990-10-03",
+     "t": "2000-12-31",
+     "d": "almanya-birlesik"
+    }
+   ],
+   "kaynak": "DDR: Britannica 'East Germany' (kuruluş 1949-10-07, katılım 1990-10-03); mevcut zincir 1949-05-23'te BRD'ye geçiyordu (hatalı, DDR toprağı); 1949-05-23..1949-10-07 arası işgal bölgesi sürer"
+  },
+  {
+   "ad": "Stralsund",
+   "neden": "Doğu Almanya toprağı; mevcut zincir 1949-05-23..1990-10-03 BRD yazıyor",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1949-10-07",
+     "d": "almanya-muttefik-isgali"
+    },
+    {
+     "f": "1949-10-07",
+     "t": "1990-10-03",
+     "d": "almanya-demokratik-cumhuriyeti"
+    },
+    {
+     "f": "1990-10-03",
+     "t": "2000-12-31",
+     "d": "almanya-birlesik"
+    }
+   ],
+   "kaynak": "DDR: Britannica 'East Germany' (kuruluş 1949-10-07, katılım 1990-10-03); mevcut zincir 1949-05-23'te BRD'ye geçiyordu (hatalı, DDR toprağı); 1949-05-23..1949-10-07 arası işgal bölgesi sürer"
+  },
+  {
+   "ad": "Magdeburg",
+   "neden": "Doğu Almanya toprağı; mevcut zincir 1949-05-23..1990-10-03 BRD yazıyor",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1949-10-07",
+     "d": "almanya-muttefik-isgali"
+    },
+    {
+     "f": "1949-10-07",
+     "t": "1990-10-03",
+     "d": "almanya-demokratik-cumhuriyeti"
+    },
+    {
+     "f": "1990-10-03",
+     "t": "2000-12-31",
+     "d": "almanya-birlesik"
+    }
+   ],
+   "kaynak": "DDR: Britannica 'East Germany' (kuruluş 1949-10-07, katılım 1990-10-03); mevcut zincir 1949-05-23'te BRD'ye geçiyordu (hatalı, DDR toprağı); 1949-05-23..1949-10-07 arası işgal bölgesi sürer"
+  },
+  {
+   "ad": "Erfurt",
+   "neden": "Doğu Almanya toprağı; mevcut zincir 1949-05-23..1990-10-03 BRD yazıyor",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1949-10-07",
+     "d": "almanya-muttefik-isgali"
+    },
+    {
+     "f": "1949-10-07",
+     "t": "1990-10-03",
+     "d": "almanya-demokratik-cumhuriyeti"
+    },
+    {
+     "f": "1990-10-03",
+     "t": "2000-12-31",
+     "d": "almanya-birlesik"
+    }
+   ],
+   "kaynak": "DDR: Britannica 'East Germany' (kuruluş 1949-10-07, katılım 1990-10-03); mevcut zincir 1949-05-23'te BRD'ye geçiyordu (hatalı, DDR toprağı); 1949-05-23..1949-10-07 arası işgal bölgesi sürer"
+  },
+  {
+   "ad": "Jayapura (Hollandia)",
+   "neden": "Batı Yeni Gine 1949-12-27'de Endonezya'ya geçmedi, Hollanda elinde kaldı; UNTEA 1962-10-01..1963-05-01, Endonezya 1963-05-01'den. Mevcut zincir 1949-12-27'den Endonezya yazıyor. NOT: 'Hollanda Yeni Gine' için ayrı devlet id'si yok; geçici olarak hollanda-dogu-hint kullanıldı, ardıl künye gerekebilir",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1962-10-01",
+     "d": "hollanda-dogu-hint"
+    },
+    {
+     "f": "1962-10-01",
+     "t": "1963-05-01",
+     "d": "untea"
+    },
+    {
+     "f": "1963-05-01",
+     "t": "2000-12-31",
+     "d": "endonezya-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Britannica 'Indonesia' / New York Antlaşması 1962-08-15; UNTEA 1962-10-01..1963-05-01"
+  },
+  {
+   "ad": "Manokwari",
+   "neden": "Batı Yeni Gine 1949-12-27'de Endonezya'ya geçmedi, Hollanda elinde kaldı; UNTEA 1962-10-01..1963-05-01, Endonezya 1963-05-01'den. Mevcut zincir 1949-12-27'den Endonezya yazıyor. NOT: 'Hollanda Yeni Gine' için ayrı devlet id'si yok; geçici olarak hollanda-dogu-hint kullanıldı, ardıl künye gerekebilir",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1962-10-01",
+     "d": "hollanda-dogu-hint"
+    },
+    {
+     "f": "1962-10-01",
+     "t": "1963-05-01",
+     "d": "untea"
+    },
+    {
+     "f": "1963-05-01",
+     "t": "2000-12-31",
+     "d": "endonezya-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Britannica 'Indonesia' / New York Antlaşması 1962-08-15; UNTEA 1962-10-01..1963-05-01"
+  },
+  {
+   "ad": "Merauke",
+   "neden": "Batı Yeni Gine 1949-12-27'de Endonezya'ya geçmedi, Hollanda elinde kaldı; UNTEA 1962-10-01..1963-05-01, Endonezya 1963-05-01'den. Mevcut zincir 1949-12-27'den Endonezya yazıyor. NOT: 'Hollanda Yeni Gine' için ayrı devlet id'si yok; geçici olarak hollanda-dogu-hint kullanıldı, ardıl künye gerekebilir",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1962-10-01",
+     "d": "hollanda-dogu-hint"
+    },
+    {
+     "f": "1962-10-01",
+     "t": "1963-05-01",
+     "d": "untea"
+    },
+    {
+     "f": "1963-05-01",
+     "t": "2000-12-31",
+     "d": "endonezya-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Britannica 'Indonesia' / New York Antlaşması 1962-08-15; UNTEA 1962-10-01..1963-05-01"
+  },
+  {
+   "ad": "Fakfak",
+   "neden": "Batı Yeni Gine 1949-12-27'de Endonezya'ya geçmedi, Hollanda elinde kaldı; UNTEA 1962-10-01..1963-05-01, Endonezya 1963-05-01'den. Mevcut zincir 1949-12-27'den Endonezya yazıyor. NOT: 'Hollanda Yeni Gine' için ayrı devlet id'si yok; geçici olarak hollanda-dogu-hint kullanıldı, ardıl künye gerekebilir",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1962-10-01",
+     "d": "hollanda-dogu-hint"
+    },
+    {
+     "f": "1962-10-01",
+     "t": "1963-05-01",
+     "d": "untea"
+    },
+    {
+     "f": "1963-05-01",
+     "t": "2000-12-31",
+     "d": "endonezya-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Britannica 'Indonesia' / New York Antlaşması 1962-08-15; UNTEA 1962-10-01..1963-05-01"
+  },
+  {
+   "ad": "Cirebon",
+   "neden": "Cirebon Pasundan devleti sınırında (Batı Cava); Hollanda yönetimli federal devlet 1948-02-26..1950-03-11",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1948-02-26",
+     "d": "hollanda-dogu-hint"
+    },
+    {
+     "f": "1948-02-26",
+     "t": "1950-03-11",
+     "d": "pasundan-devleti"
+    },
+    {
+     "f": "1950-03-11",
+     "t": "2000-12-31",
+     "d": "endonezya-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Pasundan künyesi (devletler.js özeti); Britannica 'Indonesia' (federal devletler 1950-03 birleşme)"
+  },
+  {
+   "ad": "Trieste",
+   "neden": "Triyeste Serbest Toprağı A bölgesi (başkent) 1947-09-15..1954-10-26; mevcut zincir bu aralığı italya-cumhuriyeti yazıyor",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1946-06-18",
+     "d": "italya"
+    },
+    {
+     "f": "1946-06-18",
+     "t": "1947-09-15",
+     "d": "italya-cumhuriyeti"
+    },
+    {
+     "f": "1947-09-15",
+     "t": "1954-10-26",
+     "d": "triyeste-serbest-toprak"
+    },
+    {
+     "f": "1954-10-26",
+     "t": "2000-12-31",
+     "d": "italya-cumhuriyeti"
+    }
+   ],
+   "kaynak": "1947 Paris Barış Antlaşması md. 21; 1954 Londra Mutabakatı (künye özeti)"
+  },
+  {
+   "ad": "Knin",
+   "neden": "RSK başkenti; mevcut zincir 1991-06-25'ten Hırvatistan yazıyor",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1991-06-25",
+     "d": "yugoslavya-federal"
+    },
+    {
+     "f": "1991-06-25",
+     "t": "1991-12-19",
+     "d": "hirvatistan"
+    },
+    {
+     "f": "1991-12-19",
+     "t": "1995-08-07",
+     "d": "sirp-krajina-cumhuriyeti"
+    },
+    {
+     "f": "1995-08-07",
+     "t": "2000-12-31",
+     "d": "hirvatistan"
+    }
+   ],
+   "kaynak": "RSK künyesi: 1991-12-19 ilan, 4-7 Ağustos 1995 Fırtına Harekâtı"
+  },
+  {
+   "ad": "Banaluka",
+   "neden": "Sırp Cumhuriyeti'nin fiilî merkezi/büyük şehri; mevcut zincir 1992-03-03'ten bosna-hersek yazıyor, 1992-01-09..1995-12-14 arası RS",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1992-01-09",
+     "d": "yugoslavya-federal"
+    },
+    {
+     "f": "1992-01-09",
+     "t": "1995-12-14",
+     "d": "bosna-sirp-cumhuriyeti"
+    },
+    {
+     "f": "1995-12-14",
+     "t": "2000-12-31",
+     "d": "bosna-hersek"
+    }
+   ],
+   "kaynak": "RS künyesi (9 Ocak 1992 SerBiH ilanı; Dayton). NOT: 1992-01-09..1992-03-03 Bosna henüz YFC içinde yazılı, çakışma tercihi atlas sahibine ait"
+  },
+  {
+   "ad": "Trebinye",
+   "neden": "Doğu Hersek'te RS kontrolünde (Trebinje) 1992-1995; mevcut zincir bosna-hersek yazıyor",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1992-01-09",
+     "d": "yugoslavya-federal"
+    },
+    {
+     "f": "1992-01-09",
+     "t": "1995-12-14",
+     "d": "bosna-sirp-cumhuriyeti"
+    },
+    {
+     "f": "1995-12-14",
+     "t": "2000-12-31",
+     "d": "bosna-hersek"
+    }
+   ],
+   "kaynak": "RS künyesi; Dayton 1995-12-14"
+  },
+  {
+   "ad": "Mostar",
+   "neden": "Herzeg-Bosna baskenti (Bati Mostar); 1991-11-18..1996-08-14 arasi fiilî sahip. Not: 1992-03-03 BH bagimsizligi ve Dogu Mostar ARBiH kontrolu bu zincirde ayrintilanmadi.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1991-11-18",
+     "d": "yugoslavya-federal"
+    },
+    {
+     "f": "1991-11-18",
+     "t": "1996-08-14",
+     "d": "herzeg-bosna"
+    },
+    {
+     "f": "1996-08-14",
+     "t": "2000-12-31",
+     "d": "bosna-hersek"
+    }
+   ],
+   "kaynak": "Kunye ozeti (Washington Anlasmasi 1994, entite 14 Agustos 1996'da kaldirildi); mevcut zincir: yugoslavya-federal -> bosna-hersek"
+  },
+  {
+   "ad": "Livno (İhlevne)",
+   "neden": "Herzeg-Bosna kontrolundeki Livno-Kanton alani; ana sehir ile ayni zincir.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1991-11-18",
+     "d": "yugoslavya-federal"
+    },
+    {
+     "f": "1991-11-18",
+     "t": "1996-08-14",
+     "d": "herzeg-bosna"
+    },
+    {
+     "f": "1996-08-14",
+     "t": "2000-12-31",
+     "d": "bosna-hersek"
+    }
+   ],
+   "kaynak": "Kunye ozeti; dusuk-orta guven (Livno fiilen HVO kontrolundeydi, tarih kaynakli dogrulanmadi)"
+  },
+  {
+   "ad": "Bender",
+   "neden": "Tighina 1992 savasi sonrasi fiilen Transdinyester kontrolunde; mevcut zincir 1991-08-27'den 2000'e moldova.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1991-08-27",
+     "d": "sovyet-rusya"
+    },
+    {
+     "f": "1991-08-27",
+     "t": "1992-07-21",
+     "d": "moldova"
+    },
+    {
+     "f": "1992-07-21",
+     "t": "2000-12-31",
+     "d": "transdinyester"
+    }
+   ],
+   "kaynak": "Kunye ozeti: 21 Temmuz 1992 atesikesi; gun atesikes tarihinden alindi, Tighina'nin ele gecis gunu ayrica dogrulanmali"
+  },
+  {
+   "ad": "Lefkoşa",
+   "neden": "Kıbrıs İngiliz Kolonisi künyesi 1914-11-05..1960-08-16; mevcut zincir ayni donemi 'ingiltere' yaziyor. 1878-06-04..1914-11-05 ingiltere olarak kalir.",
+   "zincir": [
+    {
+     "f": "1914-11-05",
+     "t": "1960-08-16",
+     "d": "kibris-ingiliz-kolonisi"
+    },
+    {
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "d": "kibris-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Kunye ozeti; mevcut 1960 sonrasi zincir korundu (KKTC ayrimi Lefkosa icin mevcutta yok, dokunulmadi)"
+  },
+  {
+   "ad": "Girne (Kyrenia)",
+   "neden": "Kolonilik donemi kibris-ingiliz-kolonisi.",
+   "zincir": [
+    {
+     "f": "1914-11-05",
+     "t": "1960-08-16",
+     "d": "kibris-ingiliz-kolonisi"
+    },
+    {
+     "f": "1960-08-16",
+     "t": "1975-02-13",
+     "d": "kibris-cumhuriyeti"
+    },
+    {
+     "f": "1975-02-13",
+     "t": "1983-11-15",
+     "d": "kibris-turk-federe-devleti"
+    },
+    {
+     "f": "1983-11-15",
+     "t": "2000-12-31",
+     "d": "kktc"
+    }
+   ],
+   "kaynak": "Kunye ozeti; sonrasi mevcut zincirle ayni"
+  },
+  {
+   "ad": "Limasol",
+   "neden": "Kolonilik donemi kibris-ingiliz-kolonisi.",
+   "zincir": [
+    {
+     "f": "1914-11-05",
+     "t": "1960-08-16",
+     "d": "kibris-ingiliz-kolonisi"
+    },
+    {
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "d": "kibris-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Kunye ozeti"
+  },
+  {
+   "ad": "Tuzla (Larnaka)",
+   "neden": "Kolonilik donemi kibris-ingiliz-kolonisi.",
+   "zincir": [
+    {
+     "f": "1914-11-05",
+     "t": "1960-08-16",
+     "d": "kibris-ingiliz-kolonisi"
+    },
+    {
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "d": "kibris-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Kunye ozeti"
+  },
+  {
+   "ad": "Baf (Paphos)",
+   "neden": "Kolonilik donemi kibris-ingiliz-kolonisi.",
+   "zincir": [
+    {
+     "f": "1914-11-05",
+     "t": "1960-08-16",
+     "d": "kibris-ingiliz-kolonisi"
+    },
+    {
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "d": "kibris-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Kunye ozeti"
+  },
+  {
+   "ad": "Kingston",
+   "neden": "Jamaika 1958-01-03..1962-05-31 Bati Hint Federasyonu uyesiydi; bagimsizlik 1962-08-06, arada ingiltere.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1958-01-03",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1958-01-03",
+     "t": "1962-05-31",
+     "d": "bati-hint-federasyonu"
+    },
+    {
+     "f": "1962-05-31",
+     "t": "1962-08-06",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1962-08-06",
+     "t": "2000-12-31",
+     "d": "jamaika"
+    }
+   ],
+   "kaynak": "Kunye ozeti (federasyon 1958-1962); mevcut zincirin ingiltere/jamaika gunleri korundu"
+  },
+  {
+   "ad": "Port of Spain (Puerto de España)",
+   "neden": "Trinidad federasyonun fiilî yonetim merkeziydi (kunyede Chaguaramas gecici); bagimsizlik 1962-08-31, arada ingiltere.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1958-01-03",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1958-01-03",
+     "t": "1962-05-31",
+     "d": "bati-hint-federasyonu"
+    },
+    {
+     "f": "1962-05-31",
+     "t": "1962-08-31",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1962-08-31",
+     "t": "2000-12-31",
+     "d": "trinidad-tobago"
+    }
+   ],
+   "kaynak": "Kunye ozeti; mevcut zincirin gunleri korundu"
+  },
+  {
+   "ad": "Priştine",
+   "neden": "Kosova gölge cumhuriyeti baskenti; kunye 1991-09-22..1999-06-10. Fiilî egemenlik Yugoslavya'daydi, harita-anlam karari Emre'de. 1992-04-27 YFC gecisi bu zincirde atlandi.",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1991-09-22",
+     "d": "yugoslavya-federal"
+    },
+    {
+     "f": "1991-09-22",
+     "t": "1999-06-10",
+     "d": "kosova-golge-cumhuriyeti"
+    },
+    {
+     "f": "1999-06-10",
+     "t": "2000-12-31",
+     "d": "unmik-kosova"
+    }
+   ],
+   "kaynak": "Kunye ozeti; mevcut zincirin unmik-kosova ucu korundu"
+  },
+  {
+   "ad": "Magosa",
+   "neden": "Kolonilik donemi kibris-ingiliz-kolonisi (Gazimagusa).",
+   "zincir": [
+    {
+     "f": "1914-11-05",
+     "t": "1960-08-16",
+     "d": "kibris-ingiliz-kolonisi"
+    },
+    {
+     "f": "1960-08-16",
+     "t": "1975-02-13",
+     "d": "kibris-cumhuriyeti"
+    },
+    {
+     "f": "1975-02-13",
+     "t": "1983-11-15",
+     "d": "kibris-turk-federe-devleti"
+    },
+    {
+     "f": "1983-11-15",
+     "t": "2000-12-31",
+     "d": "kktc"
+    }
+   ],
+   "kaynak": "Kunye ozeti; sonrasi mevcut zincirle ayni"
+  },
+  {
+   "ad": "Rabat",
+   "neden": "Mevcut zincir 1946-1956 arası fransiz-fas yerine fas-fransiz-himayesi yazıyor; atlas künyesi fransiz-fas ile boyanmalı",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-03-02",
+     "d": "fransiz-fas"
+    },
+    {
+     "f": "1956-03-02",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "Fransız Fas himayesi 30 Mart 1912 - 2 Mart 1956 (künye); önceki zincirde 'fas-fransiz-himayesi' id'si vardı, bu künyenin id'si fransiz-fas; Fas-Fransa Ortak Bildirisi 2 Mart 1956"
+  },
+  {
+   "ad": "Fas (Fez)",
+   "neden": "Mevcut zincir 1946-1956 arası fransiz-fas yerine fas-fransiz-himayesi yazıyor; atlas künyesi fransiz-fas ile boyanmalı",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-03-02",
+     "d": "fransiz-fas"
+    },
+    {
+     "f": "1956-03-02",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "Fransız Fas himayesi 30 Mart 1912 - 2 Mart 1956 (künye); önceki zincirde 'fas-fransiz-himayesi' id'si vardı, bu künyenin id'si fransiz-fas; Fas-Fransa Ortak Bildirisi 2 Mart 1956"
+  },
+  {
+   "ad": "Merakeş",
+   "neden": "Mevcut zincir 1946-1956 arası fransiz-fas yerine fas-fransiz-himayesi yazıyor; atlas künyesi fransiz-fas ile boyanmalı",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-03-02",
+     "d": "fransiz-fas"
+    },
+    {
+     "f": "1956-03-02",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "Fransız Fas himayesi 30 Mart 1912 - 2 Mart 1956 (künye); önceki zincirde 'fas-fransiz-himayesi' id'si vardı, bu künyenin id'si fransiz-fas; Fas-Fransa Ortak Bildirisi 2 Mart 1956"
+  },
+  {
+   "ad": "Dârülbeyzâ (Anfa)",
+   "neden": "Mevcut zincir 1946-1956 arası fransiz-fas yerine fas-fransiz-himayesi yazıyor; atlas künyesi fransiz-fas ile boyanmalı",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-03-02",
+     "d": "fransiz-fas"
+    },
+    {
+     "f": "1956-03-02",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "Fransız Fas himayesi 30 Mart 1912 - 2 Mart 1956 (künye); önceki zincirde 'fas-fransiz-himayesi' id'si vardı, bu künyenin id'si fransiz-fas; Fas-Fransa Ortak Bildirisi 2 Mart 1956"
+  },
+  {
+   "ad": "Vecde (Oujda)",
+   "neden": "Mevcut zincir 1946-1956 arası fransiz-fas yerine fas-fransiz-himayesi yazıyor; atlas künyesi fransiz-fas ile boyanmalı",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-03-02",
+     "d": "fransiz-fas"
+    },
+    {
+     "f": "1956-03-02",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "Fransız Fas himayesi 30 Mart 1912 - 2 Mart 1956 (künye); önceki zincirde 'fas-fransiz-himayesi' id'si vardı, bu künyenin id'si fransiz-fas; Fas-Fransa Ortak Bildirisi 2 Mart 1956"
+  },
+  {
+   "ad": "Tanca",
+   "neden": "Tanca 1946-1956-10-29 arası Tanca Uluslararası Bölgesi (Fransa-İspanya-Britanya ortak yönetimi); mevcut zincir fas-fransiz-himayesi ve 1956-03-02'den fas-krallik yazıyor",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1956-10-29",
+     "d": "tanca-bolgesi"
+    },
+    {
+     "f": "1956-10-29",
+     "t": "2000-12-31",
+     "d": "fas-krallik"
+    }
+   ],
+   "kaynak": "Tanca Uluslararası Bölgesi: 18 Aralık 1923 Paris Sözleşmesi, 1956-10-29 Fas'a katılma (Tanca Bildirisi); Britannica 'Tangier'"
+  },
+  {
+   "ad": "Stanley",
+   "neden": "Puerto Argentino/Stanley: 2 Nisan - 14 Haziran 1982 Arjantin yönetimi; mevcut zincir 1844-2000 kesintisiz ingiltere",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1982-04-02",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1982-04-02",
+     "t": "1982-06-14",
+     "d": "falkland-arjantin-isgali"
+    },
+    {
+     "f": "1982-06-14",
+     "t": "2000-12-31",
+     "d": "ingiltere"
+    }
+   ],
+   "kaynak": "Britannica 'Falkland Islands War' (2 Nisan işgal, 14 Haziran 1982 teslim)"
+  },
+  {
+   "ad": "Gulca (Yining)",
+   "neden": "Gulca 1944-1949 Doğu Türkistan Cumhuriyeti (Üç Vilayet) kontrolünde; mevcut zincir cin-cumhuriyeti yazıyor. Künye t=1949-01-01 olduğundan 1949-01-01 - 1949-10-01 arası cin-cumhuriyeti bırakıldı (künye_hatası'na bak)",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1949-01-01",
+     "d": "dogu-turkistan-cumhuriyeti-gulca"
+    },
+    {
+     "f": "1949-01-01",
+     "t": "1949-10-01",
+     "d": "cin-cumhuriyeti"
+    },
+    {
+     "f": "1949-10-01",
+     "t": "2000-12-31",
+     "d": "cin-halk-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Britannica 'East Turkistan Republic' / Üç Vilayet İhtilali (12 Kasım 1944 Gulca ilanı)"
+  },
+  {
+   "ad": "Çöçek (Tarbagatay)",
+   "neden": "Üç Vilayet (Ili, Tarbagatay, Altay) Doğu Türkistan Cumhuriyeti kontrolünde; mevcut zincir cin-cumhuriyeti",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1949-01-01",
+     "d": "dogu-turkistan-cumhuriyeti-gulca"
+    },
+    {
+     "f": "1949-01-01",
+     "t": "1949-10-01",
+     "d": "cin-cumhuriyeti"
+    },
+    {
+     "f": "1949-10-01",
+     "t": "2000-12-31",
+     "d": "cin-halk-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Üç Vilayet (Ili/Tarbagatay/Altay) 1944-49: Britannica 'East Turkistan Republic'; GeoNames Tacheng 46.745,82.958 ve Altay 47.851,88.133 mevcut noktaların konumunu doğrular"
+  },
+  {
+   "ad": "Altay (Şara Sume)",
+   "neden": "Üç Vilayet (Ili, Tarbagatay, Altay) Doğu Türkistan Cumhuriyeti kontrolünde; mevcut zincir cin-cumhuriyeti",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1949-01-01",
+     "d": "dogu-turkistan-cumhuriyeti-gulca"
+    },
+    {
+     "f": "1949-01-01",
+     "t": "1949-10-01",
+     "d": "cin-cumhuriyeti"
+    },
+    {
+     "f": "1949-10-01",
+     "t": "2000-12-31",
+     "d": "cin-halk-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Üç Vilayet (Ili/Tarbagatay/Altay) 1944-49: Britannica 'East Turkistan Republic'; GeoNames Tacheng 46.745,82.958 ve Altay 47.851,88.133 mevcut noktaların konumunu doğrular"
+  },
+  {
+   "ad": "Nizva",
+   "neden": "Nizwa İç Umman İbâdî İmamlığının başkenti (1913-1955); mevcut zincir kesintisiz umman",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1955-01-01",
+     "d": "umman-ic-imamlik"
+    },
+    {
+     "f": "1955-01-01",
+     "t": "2000-12-31",
+     "d": "umman"
+    }
+   ],
+   "kaynak": "Britannica 'Oman' (İmamlık, Sîb Antlaşması 1920, 1955 Nizwa'nın Sultan tarafından alınması); TDV 'Umman'"
+  },
+  {
+   "ad": "Bağdat",
+   "neden": "Arap Birliği (Irak-Ürdün Federasyonu) başkenti Bağdat; zincir 1958-02-14'ten 14 Temmuz 1958 darbesine kadar birliğe verilir (künye t=1958-08-01 darbeden sonrasını da kapsıyor, bkz. künye_hatası)",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1958-02-14",
+     "d": "irak-kralligi"
+    },
+    {
+     "f": "1958-02-14",
+     "t": "1958-07-14",
+     "d": "arap-birligi-irak-urdun"
+    },
+    {
+     "f": "1958-07-14",
+     "t": "2000-12-31",
+     "d": "irak-cumhuriyeti"
+    }
+   ],
+   "kaynak": "Britannica 'Arab Federation' / 'Iraq' (14 Şubat 1958 federasyon; 14 Temmuz 1958 Irak darbesi)"
+  },
+  {
+   "ad": "Jesselton (Kota Kinabalu)",
+   "neden": "Kuzey Borneo Tâc Kolonisi başkenti; mevcut zincir ingiltere",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1946-07-15",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1946-07-15",
+     "t": "1963-09-16",
+     "d": "kuzey-borneo-tac-kolonisi"
+    },
+    {
+     "f": "1963-09-16",
+     "t": "2000-12-31",
+     "d": "malezya"
+    }
+   ],
+   "kaynak": "Kuzey Borneo Tâc Kolonisi 15 Temmuz 1946 - 16 Eylül 1963 (künye ozeti, Britannica 'North Borneo'/'Sabah')"
+  },
+  {
+   "ad": "Sandakan (Elopura)",
+   "neden": "Kuzey Borneo Tâc Kolonisi toprağı; mevcut zincir ingiltere",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1946-07-15",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1946-07-15",
+     "t": "1963-09-16",
+     "d": "kuzey-borneo-tac-kolonisi"
+    },
+    {
+     "f": "1963-09-16",
+     "t": "2000-12-31",
+     "d": "malezya"
+    }
+   ],
+   "kaynak": "Kuzey Borneo Tâc Kolonisi 15 Temmuz 1946 - 16 Eylül 1963 (künye ozeti, Britannica 'North Borneo'/'Sabah')"
+  },
+  {
+   "ad": "Labuan (Victoria)",
+   "neden": "Labuan 1946'da Kuzey Borneo Tâc Kolonisine katıldı (künye: Labuan dahil); mevcut zincir 1946-1957 ingiliz-malaya/malaya-birligi",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1946-07-15",
+     "d": "ingiliz-malaya"
+    },
+    {
+     "f": "1946-07-15",
+     "t": "1963-09-16",
+     "d": "kuzey-borneo-tac-kolonisi"
+    },
+    {
+     "f": "1963-09-16",
+     "t": "2000-12-31",
+     "d": "malezya"
+    }
+   ],
+   "kaynak": "Künye özeti; Britannica 'Labuan' (1946'da Kuzey Borneo'ya bağlandı, 1963 Malezya)"
+  },
+  {
+   "ad": "Tawau köyü (bölge)",
+   "neden": "3 km içinde mükerrer (Tawau 4.245,117.891; GeoNames 4.24482,117.89115) olduğundan yeni nokta açılmadı; Kuzey Borneo toprağı",
+   "zincir": [
+    {
+     "f": "1946-01-01",
+     "t": "1946-07-15",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1946-07-15",
+     "t": "1963-09-16",
+     "d": "kuzey-borneo-tac-kolonisi"
+    },
+    {
+     "f": "1963-09-16",
+     "t": "2000-12-31",
+     "d": "malezya"
+    }
+   ],
+   "kaynak": "Kuzey Borneo Tâc Kolonisi 15 Temmuz 1946 - 16 Eylül 1963 (künye ozeti, Britannica 'North Borneo'/'Sabah')"
+  }
+ ],
+ "K": [
+  {
+   "id": "tanca-uluslararasi-bolge",
+   "not": "1940-06-14..1945-10-11 İspanyol işgali ara verdi (künye notu); künye tek parça t=1956-10-29, ara dönem Değişmez 2 için kronoloji maddesi ister."
+  },
+  {
+   "id": "fransiz-kamerun-mandasi",
+   "not": "Mevcut Marua (Maroua) ve Garua (Garoua) zincirleri 1916-09-01..1961-10-01 'ingiltere' yazıyor; her ikisi de Fransız Kamerunu içindeydi (Britanya'ya Kuzey Kamerun şeridi, Mubi/Bama batısı, kaldı). Düzeltme önerilir: 1916-09-01..1922-07-20 fransa-cumhuriyet, 1922-07-20..1960-01-01 fransiz-kamerun-mandasi, 1960-01-01..2000-12-31 kamerun. Kaynak doğrulaması yapılmadı, kontrol edilmeli."
+  },
+  {
+   "id": "cabo-juby-ispanyol",
+   "not": "Künye f=1912-11-27 (antlaşma); fiilî işgal 1916 (tek ikincil kaynak). Nokta 1916'dan başlatıldı."
+  },
+  {
+   "id": "umman-zengibar",
+   "not": "t=1964-01-12 ile zengibar-bagimsiz-sultanlik f=1963-12-10 çakışıyor; umman-zengibar t 1963-12-10 olmalı (künye metni ise hâlâ 1945 bitişini söylüyor)."
+  },
+  {
+   "id": "puntland",
+   "not": "f=1998-01-01 yıl düzeyi; özet Ağustos 1998 diyor."
+  },
+  {
+   "id": "somali-ulusal-gecis-hukumeti",
+   "not": "f=2000-01-01 yıl düzeyi (Ağustos 2000 Arta); t=2003-01-01 yıl düzeyi."
+  },
+  {
+   "id": "fransiz-somalisi",
+   "not": "Mevcut Cibuti noktaları fransa-cumhuriyet yazıyor; 1946-1967 için fransiz-somalisi künyesi var, kullanım kararı gerek."
+  },
+  {
+   "id": "komorlar",
+   "not": "f gunu teyitsiz (6 Temmuz 1975 ilan); kunyede belirtilmis"
+  },
+  {
+   "id": "ingiliz-svaziland",
+   "not": "f yil hassasiyetinde (1903-01-01 gun uydurma olabilir); baskent Mbabane"
+  },
+  {
+   "id": "ingiliz-togoland",
+   "not": "baskent 'Accra'dan idare' toprak disinda; Ho/Hohoe/Kpando kullanildi"
+  },
+  {
+   "id": "ingiliz-kamerun",
+   "not": "Kuzey Kamerun 1961-06-01'de Nijerya'ya katildi; kunye t=1961-10-01 yalniz guney icin dogru. Kuzey noktasi yazilmadi"
+  },
+  {
+   "id": "cad-gunt",
+   "not": "kunye t=1982-06-07 ama ozet 1986'ya kadar surgun koalisyonu (Bardai) diyor: t ~1986 olmali (gun kaynaktan dogrulanmali). Bardai ve Faya-Largeau mevcut noktalari bu duzeltmeye bagli, bu turda yazilmadi"
+  },
+  {
+   "id": "biafra",
+   "not": "Enugu 1967-10-04'te dustu; fiili kontrol Umuahia/Aba/Owerri'ye kaydi. Port Harcourt 1968-05'te dustu, yazilmadi"
+  },
+  {
+   "id": "untac",
+   "not": "Künye t=1993-01-01 yanlış görünüyor: UNTAC yetkisi 24 Eylül 1993'e (yeni anayasa/hükûmet) dek sürdü; özet de 'seçimler Mayıs 1993' diyor. t kaynakla (BM UNTAC sayfası, TDV değil) doğrulanıp 1993-09-24'e çekilmeli; sonra yukarıdaki üç zincirdeki 1993-01-01 dilimi silinir."
+  },
+  {
+   "id": "birlesik-arap-devletleri",
+   "not": "BAD Yemen'i içeren konfederasyon: Yemen egemen kaldı (Sana/Taiz yemen-zeydi kalsın), Mısır+Suriye ise zaten BAC. Kahire/Şam zincirleri BAC'ı 1958-03-08'de BAD ile değiştirir; bu istenmiyorsa künye 'üst-örtü' olarak işaretlenmeli ve boyanmamalı. Ayrıca f=1958-03-08 federasyon günü; BAC 1958-02-22."
+  },
+  {
+   "id": "angola-unita-fnla",
+   "not": "f=1975-11-11 bağımsızlık günüyle aynı; ilan 'Huambo' için kaynak çelişkisi künyede beyanlı (23 Kasım/Aralık). Zincirde künye f kullanıldı."
+  },
+  {
+   "id": "lao-issara-hukumeti",
+   "not": "Künye t=1949-10-24 örgütün dağılışı; Laos'taki fiilî toprak denetimi 24 Nisan 1946'da bitti, sonrası Bangkok sürgünü. Zincirde toprak 1946-04-24'e kısaltıldı."
+  },
+  {
+   "id": "aden-kolonisi",
+   "not": "Aden Kolonisi f=1937-04-01; Aden'in 1963-1967 arası 'Aden Devleti' / Güney Arabistan Federasyonu için devletler.js kimliği yok."
+  },
+  {
+   "id": "pathet-lao-hukumeti",
+   "not": "Başkent Tuyen Quang Vietnam'da (21.82 K, 105.22 D); Pathet Lao toprağı olmadığı için nokta yazılmadı."
+  },
+  {
+   "id": "bosna-sirp-cumhuriyeti",
+   "not": "t=1995-12-14 statü değişimi; Republika Srpska entite olarak sürer, künye ömrü sonrası noktalar bosna-hersek'e geçer (zincirde öyle yazıldı). Başlangıç 1992-01-09 iken Bosna-Hersek bağımsızlığı atlasta 1992-03-03; 2 ay çakışma."
+  },
+  {
+   "id": "untea",
+   "not": "Batı Yeni Gine için 1949-12-27..1962-10-01 'Hollanda Yeni Gine' devleti künyesi yok; UNTEA için yeni nokta açılamadı (4 şehir mevcut), zincir hollanda-dogu-hint geçici."
+  },
+  {
+   "id": "berlin-bati",
+   "not": "Berlin tek mevcut noktası Doğu Berlin'e (Mitte) verildi; Batı Berlin için Charlottenburg+Spandau noktaları açıldı. 1948-12-07 öncesi bu iki nokta zincirsiz (kur künye f); Doğu Berlin 1949-10-07 öncesi işgal bölgesi."
+  },
+  {
+   "id": "almanya-demokratik-cumhuriyeti",
+   "not": "Mevcut DDR toprağı noktaları 1949-05-23'te BRD'ye yazılı (yanlış); düzeltme verildi. Yeni DDR noktaları kur=1949-10-07, öncesi/sonrası zincirsiz."
+  },
+  {
+   "id": "yunanistan-gecici-demokratik-hukumet",
+   "not": "baskent alanı bir bölge adı (Grammos-Vitsi); bolge tipi noktalar kullanıldı."
+  },
+  {
+   "id": "guney-osetya",
+   "not": "Kunye t=null; 2000-12-31 ile sinirlandi (nokta s'i). f 1992-05-29 bildirge gunu; fiilî kontrol 1992 ateskesine kadar degisken."
+  },
+  {
+   "id": "daglik-karabag",
+   "not": "Noktalar yalniz eski NKAO icindeki yerler (Askeran, Hadrut, Hankendi, Agdere); Susa (8 Mayis 1992) ve 1993-94 isgal bolgeleri f ile uyumsuz oldugu icin eklenmedi. t=null."
+  },
+  {
+   "id": "kosova-golge-cumhuriyeti",
+   "not": "Fiilî egemenlik Yugoslavya'daydi; noktalar kunye aralığini boyar, harita-anlam karari Emre'de."
+  },
+  {
+   "id": "feroe-adalari",
+   "not": "Kunye t=null; 2000-12-31 ile sinirlandi."
+  },
+  {
+   "id": "kibris-ingiliz-ussler",
+   "not": "Kunye t=null; 2000-12-31 ile sinirlandi. Mevcut Limasol/Larnaka 3 km disi, ayri noktalar."
+  },
+  {
+   "id": "transdinyester",
+   "not": "Kunye t=null; 2000-12-31 ile sinirlandi."
+  },
+  {
+   "id": "hollanda-antilleri",
+   "not": "Künye f=1954-12-15 Tüzüğün onay günü; ozet kendisi ilan/yürürlüğün 29 Aralık 1954 olduğunu söylüyor (kaynak teyidi gerek). Aruba 1986'dan itibaren Antiller'den çıktı: Oranjestad (Aruba) zinciri 1985-12-31'de Antiller, 1986-01-01'den aruba-ozerk."
+  },
+  {
+   "id": "barbados",
+   "not": "Bağımsızlık günü 30 Kasım 1966 künyede ikinci kaynakla teyit edilmemiş; yıl teyitli."
+  },
+  {
+   "id": "grenada",
+   "not": "grenada ile grenada-devrimci-hukumet 1979-03-13..1983-10-25 arasında aynı toprakta çakışıyor (Grenada künyesi t=null); nokta zincirleri üç parçaya bölündü: grenada -> devrimci hükümet -> grenada (1983-10-26'dan). Künye düzeyinde çakışma beyan edilmeli."
+  },
+  {
+   "id": "dogu-turkistan-cumhuriyeti-gulca",
+   "not": "t=1949-01-01 ay-gün uydurma; Üç Vilayet yönetimi fiilen ÇHC'ye 1949 sonunda katıldı, 1 Ekim 1949 ÇHC ilanı sonrasına da düşer. Kesin gün bulunamadı; atlasta yıl hassasiyetiyle kalmalı. Ayrıca özet metni 'Atlas ufku 1945...' diye yarım kesilmiş."
+  },
+  {
+   "id": "arap-birligi-irak-urdun",
+   "not": "t=1958-08-01; Irak'ta monarşi 14 Temmuz 1958 darbesiyle düştü, birlik fiilen o gün bitti (Ürdün resmen 2 Ağustos 1958'de feshetti). Bağdat zinciri 14 Temmuz'da kesildi; künye t'si 1958-07-14 ya da 1958-08-02 olarak gözden geçirilmeli. Ayrıca f (14 Şubat karar) ile 19 Mayıs resmî kuruluş ihtilafı."
+  },
+  {
+   "id": "umman-ic-imamlik",
+   "not": "f=1913-01-01 ve t=1955-01-01 yıl hassasiyetinde; 1920 Sîb Antlaşması ve 1957-59 Cebel Ahdar ayaklanması künyenin dışında."
+  },
+  {
+   "id": "swat-devleti",
+   "not": "t=1969-07-28 entegrasyon günü; 3 Kasım 1947'de Pakistan'a katılım sonrası yarı özerk sürdü, künye tutarlı."
+  }
+ ],
+ "B": [
+  {
+   "id": "cezayir-gpra",
+   "neden": "Sürgün hükümet: Kahire ve Tunus Mısır/Tunus toprağı (mevcut Kahire, Tunus noktaları o devletlerin); GPRA'nın kontrol ettiği ayrı toprak yok, Cezayir'in kendisi Fransa denetiminde (ya da ALN sınır bölgesi). Nokta yazılmadı; Cezayir noktaları 1958-1962 arası fransa-cumhuriyet kalır. Boyama için harita:'cezayir' tarzı yeni alias gerekmez, künye haritasız bırakılabilir."
+  },
+  {
+   "id": "arap-cumhuriyetleri-federasyonu",
+   "neden": "Nominal, fiilen işlemeyen federasyon; üyelerin egemenliği sürdü, künye özeti de harita sahibi olmadığını söylüyor. Nokta/zincir yazılmadı (Kahire misir-arap-cumhuriyeti'nde kalmalı)."
+  },
+  {
+   "id": "fransiz-birligi",
+   "neden": "Egemen toprak degil; Fransa'nin somurge ust cercevesi (Paris merkezli), kendi topragi yok. Noktalar fransa-cumhuriyet/somurge sahipliginde kalir, ayri boyama yaniltici olur"
+  },
+  {
+   "id": "untea",
+   "neden": "Yeni nokta gerekmedi: Hollandia/Jayapura, Manokwari, Merauke, Fakfak mevcut; zincir düzeltmesi önerildi."
+  },
+  {
+   "id": "falkland-arjantin-isgali",
+   "neden": "Yeni nokta gerekmedi: Puerto Argentino = Stanley (mevcut), mevcut_duzeltme yazıldı; Goose Green vb. için ömrü 74 gün olan devlette ikinci nokta açılmadı."
+  },
+  {
+   "id": "fransiz-fas",
+   "neden": "Yeni nokta gerekmedi: Rabat, Fes, Merakeş, Dârülbeyzâ, Vecde mevcut; hepsine mevcut_duzeltme yazıldı."
+  },
+  {
+   "id": "tanca-bolgesi",
+   "neden": "Yeni nokta gerekmedi: Tanca mevcut, mevcut_duzeltme yazıldı."
+  }
+ ]
+}

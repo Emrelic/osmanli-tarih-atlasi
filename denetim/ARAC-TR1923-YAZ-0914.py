@@ -51,6 +51,14 @@ AD_TARIHI = {
     "729716": "Malak Dervent (Lalkovo)", "731608": "Umur Fakih (Fakia)",
     "616192": "Kliçatak (Suser)",
 }
+# 🔴 AYRIŞMA GÜNÜ ZORLAMASI (KARAR-UYG-1015, Emre #13 · 0077/H-0046) — GeoNames id → (gün, gerekçe).
+# Komşu birleştirmesinin "son ayrışma günü" kaynaksız bir komşu gününe düşüyorsa ve kaynak köyün
+# karşı yakaya geçiş gününü veriyorsa, T o güne ZORLANIR (önce A, sonra B — yeni gün üretilmez,
+# gün antlaşmanın kendi günüdür). Liste ELLE büyür, her satır gerekçeli.
+ZORLA_T = {
+    "165906": ("1921-10-20", "ayrışma günü ZORLA 1921-10-20 (KARAR-UYG-1015 · Emre #13 · 0077/H-0046): Ankara İtilafnamesi (20.10.1921) md. 8 hattı köyü Suriye'ye bıraktı; 1918-10-26 Fransız başlangıcı KAYNAKSIZDI (komşu Rakka zincirinden gelen son ayrışma günüydü; Ceylanpınar'ın kaynaksız isg: fransa 1918-1921 kaydı da silindi). Öncesi Ceylanpınar zinciri (Osmanlı → tbmm-turkiye 1920-04-23)"),   # Qaţţīnah
+}
+
 DOSYA = {"guney": ("data/yerlesimler_sinir_guney.js", "YERLESIMLER_SINIR_GUNEY", ("SYR", "IRQ")),
          "kuzey": ("data/yerlesimler_sinir_kuzey.js", "YERLESIMLER_SINIR_KUZEY", ("GRC", "BGR", "GEO", "ARM", "AZE"))}
 
@@ -92,16 +100,18 @@ def _norm(st):
     return "OSMANLI" if st[0] in ("d", "v") else st[1]
 
 
-def zincir_birlestir(A, B):
+def zincir_birlestir(A, B, T_zorla=None):
     """🔴 ZİNCİR BİRLEŞTİRME (ZINCIR-SINAV-0914 bulgusu üzerine).
     A = en yakın mevcut kayıt (yakası ne olursa olsun) — TARİHSEL KOMŞULUK
     B = aynı yakada, 1923 sahibi aynı en yakın kayıt  — 1923 SAHİPLİĞİ
     T = A ile B'nin SON ayrışmasının başladığı gün. T'den önce A (A o gün
     sahipsizse B), T'den sonra B. Bütün sınır günleri A ya da B'nin KENDİ
     günleridir — yeni gün ÜRETİLMEZ. Döner: (s, d, v, T)."""
-    if A is B:
+    if A is B and T_zorla is None:
         return A.get("s") or [], A.get("d") or [], A.get("v") or [], None
     sinir = {PENCERE_BAS, PENCERE_SON}
+    if T_zorla:
+        sinir.add(T_zorla)   # ZORLA_T: antlaşma günü sınır kümesine girer
     for Z in (A, B):
         for alan in ("s", "d", "v"):
             for p in Z.get(alan) or []:
@@ -115,6 +125,8 @@ def zincir_birlestir(A, B):
     while i > 0 and not esit[i - 1]:
         i -= 1
     T = ara[i][0] if i < len(ara) else PENCERE_SON
+    if T_zorla:
+        T = T_zorla
     parca = []
     for f, t in ara:
         st = None
@@ -237,7 +249,13 @@ def main():
                 # çıkıyor ve birleştirme 1535-1878'i karşı yakadan alıp TERSİNE çeviriyordu.
                 if not (d0 > 40.0 and d0 > 2.0 * dA):
                     dA, komA = d0, kom
-                zs, zd, zv, T = zincir_birlestir(komA, kom)
+                zor = ZORLA_T.get(str(c["id"]))
+                if zor and komA is kom:
+                    # zorlamanın anlamı "önce tarihsel komşu": aynı yakadaki kayıt en yakınsa da
+                    # A en yakın kayıttır (yakası ne olursa olsun)
+                    dA, komA = min(((km(c["lat"], c["lon"], y["lat"], y["lon"]), y) for y in Y
+                                    if y.get("tur") != "bolge" and sahip(y, GUN) is not None), key=lambda t: t[0])
+                zs, zd, zv, T = zincir_birlestir(komA, kom, zor[0] if zor else None)
                 ad = AD_TARIHI.get(c["id"], c["ad"])
                 if ad in adlar:
                     ad = f"{ad} ({c['ulke']})"
@@ -270,7 +288,8 @@ def main():
                                    f"{c['kod']} · {c['ulke']} · {c['lat']}/{c['lon']}" +
                                    (f" · alternatenames: {', '.join(alt)}" if alt else "") +
                                    f". SINIR ÇİZGİSİ: {HAT_KAYNAK[k]}. ZİNCİR: §4 şartlı komşu günü — "
-                                   f"{zmetin}; köyün kendi 1281-1923 tarihi ARAŞTIRILMADI, 1923'te var olduğu AYRICA BELGELENEMEDİ.")
+                                   f"{zmetin}; köyün kendi 1281-1923 tarihi ARAŞTIRILMADI, 1923'te var olduğu AYRICA BELGELENEMEDİ." +
+                                   (f" ZORLAMA: {zor[1]}." if zor else ""))
                 kayit["neden"] = (f"TR-1923-SINIR sınır çifti ({k}, {'Türkiye' if c['yaka']=='TR' else hedef} yakası): "
                                   f"hatta {c['hat_km']} km; açgözlü seçimde sapma toplamını {c['kazanc_km']} km düşürdü "
                                   f"(denetim/ARAC-TR1923-SINIR-0914.py).")

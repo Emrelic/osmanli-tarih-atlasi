@@ -60,7 +60,7 @@ window.EKOKUMA_KURUM2 = [
   kaynak:"TDV: muhendishane-i-bahri-i-humayun" },
 
 // ── H-0016 · Osmanlı vergi sistemi ──────────────────────────────────────────
-{ id:"teknik-osmanli-vergi-sistemi", tur:"teknik-bilimsel",
+{ id:"teknik-osmanli-vergi-sistemi", baslik:"Osmanlı vergi sistemi — şer'î ve örfî vergiler", tur:"teknik-bilimsel",
   kisa:"Bir reayanın ne kadar vergi ödeyeceği önce dinine, sonra oturduğu yere bakardı — imparatorluk boyunca TEK bir vergi cetveli hiç olmadı.",
   metin:"■ İKİ KATEGORİ: ŞER'Î VE ÖRFÎ\n"
     +"Osmanlı vergileri (tekâlîf) iki ana kümede toplanırdı: tekâlîf-i şer'iyye (İslâmî temelli — zekât, öşür, haraç, cizye) ve tekâlîf-i örfiyye (padişahın kanununa dayalı — avârız, ağnam resimleri, çeşitli rüsûm/resimler). TDV'nin tabiriyle tekâlîf, 'nakdî, aynî ve bedenî yükümlülükleri' kapsardı — yani vergi her zaman para olarak alınmazdı.\n\n"

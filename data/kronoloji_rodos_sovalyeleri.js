@@ -74,7 +74,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1291-05-18", b:"Akkâ'nın düşüşü — tarikatın Kutsal Topraklar'dan çıkışı", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri","konu-din"],
   d:"Memlük kuşatmasıyla Akkâ düştü ve Hospitalier tarikatı Filistin'deki son üssünü kaybederek Kıbrıs'a çekildi. Bu, tarikatın kara ordusu olmaktan çıkıp bir DENİZ gücüne dönüşmesinin başlangıcıdır. Rodos'un sonradan seçilmesinin sebebi de budur: bir ada, sürgün edilemeyecek bir devlet demekti.",
-  kaynak:"Jonathan Riley-Smith, The Knights Hospitaller in the Levant c.1070-1309 (Palgrave, 2012) · ⚠️ `dunya:3` — venedik dosyasındaki değerle hizalandı; memluk dosyası 5 diyor, AYRIŞMA BENİM DEĞİL, kayda geçirdim" },
+  kaynak:"Jonathan Riley-Smith, The Knights Hospitaller in the Levant c.1070-1309 (Palgrave, 2012) · Dikkat: `dunya:3` — venedik dosyasındaki değerle hizalandı; memluk dosyası 5 diyor, AYRIŞMA BENİM DEĞİL, kayda geçirdim" },
 
 { t:"1306-06-27", b:"Foulques de Villaret'nin Rodos'a çıkarması", tur:"sefer", onem:5, dunya:2, kapsam:"dis", yer_id:"Rodos",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -248,7 +248,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 { t:"1522-12-21", b:"Rodos'un teslim şartlarının kabulü — 212 yıllık devletin sonu", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"Rodos",
   etiket:["toprak-kayip","antlasma","son","konu-askeri","konu-siyasi","konu-diplomasi"],
   d:"Altı aylık kuşatmanın sonunda L'Isle-Adam teslim şartlarını kabul etti; şövalyelere silâh ve bayraklarıyla adadan çıkma, halka din serbestliği ve beş yıl vergi muafiyeti tanındı. Kanûnî'nin bu cömert şartları, tarikatı yok etmek yerine uzaklaştırmayı tercih ettiğini gösterir ve sonradan çok tartışılmıştır. Rodos'taki şövalye devleti böylece sona erdi.",
-  kaynak:"TDV `rodos`: \"Zorlu ve kanlı çarpışmalar neticesinde 1 Safer 929’da (20 Aralık 1522) diğer adalarla birlikte Rodos’u fethetti.\" · Vatin (1994) (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1522-12-21 (Vatin: teslim şartlarının imzası) · kullanılmayan kaynaklı gün 1522-12-20 (TDV: fetih) · künyedeki 1522-12-25 hiçbir kaynakta yok · neden: iki kaynak iki gün veriyor, tek seçilmez (§4 ⑥) (KRONO-CELISKI-1006 §2 #28) · 🟢 `dunya:4` referansı BEN kuruyorum" },
+  kaynak:"TDV `rodos`: \"Zorlu ve kanlı çarpışmalar neticesinde 1 Safer 929’da (20 Aralık 1522) diğer adalarla birlikte Rodos’u fethetti.\" · Vatin (1994) (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ: kullanılan gün 1522-12-21 (Vatin: teslim şartlarının imzası) · kullanılmayan kaynaklı gün 1522-12-20 (TDV: fetih) · künyedeki 1522-12-25 hiçbir kaynakta yok · neden: iki kaynak iki gün veriyor, tek seçilmez (§4 ⑥) · 🟢 `dunya:4` referansı BEN kuruyorum" },
 
 { t:"1523-01-01", b:"Şövalyelerin Rodos'tan ayrılması — tarikatın topraksız kalması", tur:"son", onem:5, dunya:2, kapsam:"dis", yer_id:"Rodos",
   etiket:["toprak-kayip","sosyal","konu-askeri","konu-siyasi","konu-din","konu-sosyal"],

@@ -98,7 +98,7 @@ window.KRONOLOJI_GURCISTAN = [
 { t:"1386-01-01", b:"Timur'un birinci Gürcistan seferi", tur:"isgal", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","isgal","konu-askeri"],
   yer_id:"", kapsam_genis:true,
-  d:"Timur, 'üç yıllık sefer'i sırasında Gürcistan üzerinden Azerbaycan'a geçti; ülke bu geçişte ağır tahribata uğradı. TDV'nin 'gurcistan' maddesi Timur'un seferlerini dört ayrı tarihte (1386, 1399-1400, 1402, 1403) sayıyor; bu dosyada her biri ayrı madde olarak yazıldı.",
+  d:"Timur, 'üç yıllık sefer'i sırasında Gürcistan üzerinden Azerbaycan'a geçti; ülke bu geçişte ağır tahribata uğradı. TDV'nin 'gurcistan' maddesi Timur'un seferlerini dört ayrı tarihte (1386, 1399-1400, 1402, 1403) sayıyor; her biri ayrı madde olarak yazıldı.",
   kaynak:"gurcistan (TDV, madde: gurcistan)" },
 
 { t:"1399-01-01", b:"Timur'un ikinci Gürcistan seferi (1399-1400)", tur:"isgal", onem:4, dunya:2, kapsam:"dis",
@@ -160,7 +160,7 @@ window.KRONOLOJI_GURCISTAN = [
   etiket:["askeri","fetih","konu-askeri"],
   yer_id:"Tiflis",
   d:"Çıldır zaferinden on beş gün sonra Lala Mustafa Paşa'nın kuvvetleri Tiflis'e girdi; şehir 1603'e kadar sürecek yirmi beş yıllık bir Osmanlı idaresine girdi. Bu, Ferhad Paşa Antlaşması'na (1590) giden on iki yıllık savaşın açılış hamlesidir.",
-  kaynak:"TDV `tiflis`: \"Lala Mustafa Paşa kumandasındaki Osmanlı ordusu 24 Ağustos’ta Tiflis’e ulaştı ve boşaltılmış kaleyi ele geçirdi.\" (1578) · TDV `gurcistan`: \"24 Ağustos’ta Tiflis şehrini savaşsız ele geçirdiler\" (künyedeki mükerrer maddeden taşındı (KRONO-CELISKI-1006 §2 #24); birebirliği birebir.py ile sınandı; önceki tırnaklı özetleme TDV gövdesinde birebir YOKTU, kaldırıldı) · daha önce künyede (devletler.js) 1578-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı (KRONO-CELISKI-1006 §2 #24)" },
+  kaynak:"TDV `tiflis`: \"Lala Mustafa Paşa kumandasındaki Osmanlı ordusu 24 Ağustos’ta Tiflis’e ulaştı ve boşaltılmış kaleyi ele geçirdi.\" (1578) · TDV `gurcistan`: \"24 Ağustos’ta Tiflis şehrini savaşsız ele geçirdiler\" (künyedeki mükerrer maddeden taşındı; birebirliği sınandı; önceki tırnaklı özetleme TDV gövdesinde birebir YOKTU, kaldırıldı) · daha önce künyede 1578-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı" },
 
 { t:"1578-08-29", b:"Tiflis'te iki kilisenin camiye çevrilmesi", tur:"din", onem:2, dunya:1, kapsam:"ic",
   etiket:["din","imar","konu-din","konu-imar"],
@@ -236,13 +236,15 @@ window.KRONOLOJI_GURCISTAN = [
 
 { t:"1724-06-24", b:"İstanbul Mukâsemenâmesi — Gürcistan'ın Osmanlı-Rusya arasında paylaşılması", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis",
   etiket:["antlasma","diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", kapsam_genis:true, odak_yer:["Tiflis"],
+  ic_not:"odak_yer YALNIZ kamera içindir: antlaşma İstanbul'da imzalandı, konusu Gürcistan'ın paylaşımıdır; Tiflis Osmanlı'nın 1723'te aldığı Gürcü başkentidir. Künyenin 1723-06-15..1735-08-12 arası gövdesi olmadığı için sekme gövdeye uçamıyordu.",
   d:"Çöken Safevî ülkesi üzerinde Osmanlı ile Rusya'nın karşı karşıya gelmesini önlemek için imzalanan taksim antlaşmasıyla Gürcistan, Şirvan ve Azerbaycan Osmanlı'ya, Hazar'ın batı-güney kıyıları Rusya'ya bırakıldı. Gürcistan'ın kendi rızası olmaksızın iki büyük gücün masasında paylaşılması, ülkenin 18. yüzyıldaki konumunu özetleyen bir andır.",
   kaynak:"ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js)" },
 
 { t:"1736-09-01", b:"İstanbul Antlaşması — Osmanlı'nın on üç yıllık işgalin ardından Gürcistan'dan çekilmesi", tur:"siyaset", onem:4, dunya:3, kapsam:"dis",
   etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
-  yer_id:"", kapsam_genis:true,
+  yer_id:"", kapsam_genis:true, odak_yer:["Tiflis"],
+  ic_not:"odak_yer YALNIZ kamera içindir (1724-06-24 maddesiyle aynı gerekçe): antlaşma İstanbul'da imzalandı, konusu Osmanlı'nın Gürcistan'dan çekilmesidir; Tiflis Gürcü başkentidir. KOŞU 25 yayın kapısı 'SEKME SESSİZ GERİLEDİ' dedi (1736-09-01 × sekme gurcistan): kapsam_genis + odaksız madde kamerayı o günün Osmanlı sınırına uçuruyor, künye sekmesinde kıpırdamıyordu. 15 Ekim 2026.",
   d:"Nadir Şah'ın zaferleriyle sonuçlanan ikinci İran savaşını bitiren antlaşmayla Osmanlı, 1723'ten beri elinde tuttuğu bütün Güney Kafkasya topraklarından, dolayısıyla Gürcistan'dan da çekildi; ülke yeniden İran nüfuz alanına girdi.",
   kaynak:"osmanlilar (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js)" },
 

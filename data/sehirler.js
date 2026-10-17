@@ -348,7 +348,7 @@ window.SEHIRLER = [
   yapilar:"Arslan Paşa Külliyesi (1618, cami-medrese-hamam), Fethiye Camii.",
   kaynak:"yanya" },
 { ad:"Kandiye",    tur:"liman", lat:35.339, lon:25.133,
-  k:[{f:"1669-09-27",t:"1898-12-01",d:1,y:"kusatma"}],
+  k:[{f:"1669-09-27",t:"1898-12-22",d:1,y:"kusatma"}],
   koken:"Arapların kaleye verdiği 'Rabazulhendek'/'Hendek' adından; Rumca/İtalyanca 'Kandaka'/'Kandika' üzerinden Avrupa kaynaklarında 'Candia' oldu.",
   onem:"Girit'in en büyük şehri; Venedik idaresinde Avrupa-Asya-Uzak Doğu ticaretini birleştiren bir liman, şarap-zeytinyağı-peynir-bal ihracatının merkeziydi.",
   tarihce:"Arap hâkimiyeti (827-961), Bizans ve Venedik'ten sonra, yaklaşık yirmi üç yıl süren bir abluka ve kuşatmayla 6 Eylül 1669'da Osmanlı'ya teslim oldu.",
@@ -485,7 +485,7 @@ window.SEHIRLER = [
   yapilar:"Yaklaşık 250×125 m dikdörtgen plan, üç büyük kule (Sadrazam, Halil Paşa, Zağanos Paşa kuleleri) ve on üç küçük kule.",
   kaynak:"rumelihisari" },
 { ad:"Hotin",         tur:"kale", lat:48.507, lon:26.494,
-  k:[{f:"1538-01-01",t:"1739-08-19",d:1,y:"antlasma"},{f:"1739-09-18",t:"1769-09-10",d:1,y:"antlasma"},{f:"1774-07-21",t:"1788-01-01",d:1,y:"antlasma"},{f:"1792-01-09",t:"1812-05-28",d:1,y:"antlasma"}],
+  k:[{f:"1538-01-01",t:"1739-08-30",d:1,y:"antlasma"},{f:"1739-09-18",t:"1769-09-10",d:1,y:"antlasma"},{f:"1774-07-21",t:"1788-01-01",d:1,y:"antlasma"},{f:"1792-01-09",t:"1812-05-28",d:1,y:"antlasma"}],
   // ⚠️ Ara dönüş tarihleri (1739 Belgrad, 1774 Küçük Kaynarca, 1792 Yaş
   // antlaşmaları) TDV'nin bu madde metninden değil, standart Osmanlı-Rus
   // savaşları kronolojisinden alındı — TDV yalnız kaybediliş tarihlerini

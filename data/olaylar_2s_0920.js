@@ -66,13 +66,13 @@ window.OLAYLAR_2S0920 = [
    ═══════════════════════════════════════════════════════════════════ */
 
 // ── 1912 · Priştine ──────────────────────────────────────────────────
-{ t:"1912-10-02", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Priştine",
+{ t:"1912-10-22", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Priştine",
   b:"Priştine'nin Sırp ordusunun eline geçmesi",
-  gun:"2 Ekim 1912", yer:"Priştine, Kosova", kisiler:"Sırp ordusu",
+  gun:"22 Ekim 1912", yer:"Priştine, Kosova", kisiler:"Sırp ordusu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
   d:"Birinci Balkan Savaşı'nda Kosova'ya giren Sırp ordusu Priştine'yi aldı ve şehirde yeniden Sırplaştırma siyaseti başladı. Priştine'nin düşüşü, Kosova vilâyetindeki Osmanlı direnişinin çözülmesinin ilk halkalarındandır.",
-  kaynak:"TDV `pristine` — AYNEN: \"2 Ekim 1912 tarihinde Sırp ordusu Priştine'yi alarak Priştine ve çevresini yeniden Sırplaştırma sürecini başlattı.\" · hassasiyet: GÜN",
-  ic_not_d:"ÇELİŞKİ BİLDİRİMİ: atlas verisinde kırılma 1912-10-22'de duruyor, TDV 2 Ekim 1912 diyor (20 gün fark). Madde TDV'nin gününe yazıldı (atlas referans değildir); pencere içinde kaldığı için kırılmayı yine kapatır. Veri düzeltmesi önerisi teslim mesajında." },
+  kaynak:"Yakup Ahbab, 'Kuzey Makedonya 1912', İÜ Tarih Dergisi (dergipark 353908) s.8: 'Sırbistan I. Ordusu 19 Ekim günü sınırı geçerek … 20 ve 22 Ekim’de Priştine Sırp kuvvetleri tarafından ele geçirilmiştir' · Ayşe Özkan, Tarihin Peşinde 15, s.12: '21 Ekim’de Priştine' · TDV `pristine` '2 Ekim 1912' der (aşağıda) · hassasiyet: GÜN",
+  ic_not_d:"KUTU-H6-1015 (0076/H-0151): madde 2 Ekim'den 22 Ekim'e alındı. TDV `pristine` AYNEN \"2 Ekim 1912 tarihinde Sırp ordusu Priştine'yi alarak…\" der; ama Sırbistan savaşı 18 Ekim'de ilân etti ve ordusu 19 Ekim'de sınırı geçti (Ahbab, Özkan) — 2 Ekim Jülyen okunsa da (15 Ekim G) savaş öncesine düşer ⇒ TDV rakamı hatalı sayıldı, iki akademik kaynağın günü alındı. Atlas verisi zaten 1912-10-22. Eski not: 'Madde TDV'nin gününe yazıldı (atlas referans değildir)'." },
 
 // ── 1912 · Manastır ──────────────────────────────────────────────────
 { t:"1912-11-18", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Manastır",
@@ -154,7 +154,7 @@ window.OLAYLAR_2S0920 = [
   gun:"28 Mayıs 1918", yer:"Gence, Bakü, Azerbaycan, Revan",
   kisiler:"Azerbaycan Millî Şûrası", etiket:["siyasi","toprak-kaybi","konu-siyasi"],
   d:"Gürcistan'ın ayrılmasından iki gün sonra Azerbaycan Demokratik Cumhuriyeti ilân edildi; ilk merkez Gence oldu. Aynı gün Revan'da Ermenistan Cumhuriyeti de kuruldu ve Transkafkasya üç ayrı devlete bölündü.",
-  kaynak:"TDV `azerbaycan` — AYNEN: \"28 Mayıs 1918'de Azerbaycan Demokratik Cumhuriyeti ilân edildi\" · hassasiyet: GÜN · 🔴 Revan/Ermenistan kolu için TDV kaynağı BULUNAMADI: `ermenistan` slug'ı ÖLÜ (302) ve `gurcistan` maddesi Ermenistan ile Azerbaycan'ın ilân tarihlerini vermiyor. Aynı gün ilânı metinde yazıldı, TDV'ye DAYANDIRILMADI" },
+  kaynak:"TDV `azerbaycan` — AYNEN: \"28 Mayıs 1918'de Azerbaycan Demokratik Cumhuriyeti ilân edildi\" · hassasiyet: GÜN · Revan/Ermenistan kolu için TDV kaynağı BULUNAMADI: `ermenistan` slug'ı ÖLÜ (302) ve `gurcistan` maddesi Ermenistan ile Azerbaycan'ın ilân tarihlerini vermiyor. Aynı gün ilânı metinde yazıldı, TDV'ye DAYANDIRILMADI" },
 
 // ── 1918 · Halep ─────────────────────────────────────────────────────
 { t:"1918-10-27", k:"isgal", onem:4, dunya:4, kapsam:"dis", yer_id:"Halep",
@@ -173,15 +173,15 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `azerbaycan` — AYNEN: \"27 Nisan 1920'de Azerbaycan'ı işgal eden Kızıl Ordu parlamento ve hükümeti feshederek Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" · hassasiyet: GÜN" },
 
 // ── 1920 · Meyselûn ──────────────────────────────────────────────────
-{ t:"1920-07-01", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
+{ t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
   b:"Han Meyselûn — Faysal dönemi bitti, Suriye Fransız mandasına geçti",
-  gun:"Temmuz 1920",
+  gun:"24 Temmuz 1920",
   yer:"Şam, Halep, Beyrut, Humus, Hama, Antakya, İskenderun, Deyrizor, Rakka, Münbiç, Cerablus, Azez (A'zâz), Ayn el-Arab (Kobani), Malikiye (Derik), Tedmür (Palmyra), Trablusşam, Sayda, Sûr (Tyre), Ba'lebek (Baalbek), Deyrülkamer (Dayr al-Kamer)",
   kisiler:"Faysal b. Hüseyin, General Gouraud, Yûsuf el-Azme",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
   d:"Beyrut-Şam yolundaki Han Meyselûn'da Fransızlar Suriye kuvvetlerini ağır bir yenilgiye uğrattı ve Faysal'ın Şam'daki Arap Krallığı sona erdi. Fransa, San Remo'da kendisine verilen manda yetkisini fiilen kurdu; Halep'ten Şam'a, İskenderun'dan Deyrizor'a uzanan bölge Fransız manda yönetimine bağlandı.",
-  kaynak:"TDV `suriye` — AYNEN: \"Temmuz 1920'de Beyrut-Şam arasında Han Meyselûn'da Fransızlar'ın Suriyeliler'i ağır bir yenilgiye uğratmasının ardından Suriye'de Faysal dönemi sona erdi\" · hassasiyet: AY (Temmuz 1920)",
-  ic_not_d:"HASSASİYET AY: TDV gün vermez, 'Temmuz 1920' der — tarih ayın hassasiyetinde yazıldı, atlas kırılmasının gününe (1920-07-24) ÇEKİLMEDİ (23 gün fark, pencere içinde). `yer` alanındaki kasaba adları atlasın kırılma kümesinden; TDV bunları tek tek saymaz." },
+  kaynak:"TDV `suriye` — AYNEN: \"Temmuz 1920'de Beyrut-Şam arasında Han Meyselûn'da Fransızlar'ın Suriyeliler'i ağır bir yenilgiye uğratmasının ardından Suriye'de Faysal dönemi sona erdi\" · TDV `hasimiler--hasan` — AYNEN: \"İki taraf arasında 24 Temmuz’da cereyan eden Meyselûn Savaşı’nın ardından Fransızlar Şam’ı işgal edip Suriye’deki Hâşimî krallığına son verdiler.\" · hassasiyet: GÜN",
+  ic_not_d:"KUTU-H1-1015: GÜN TDV hasimiler--hasan'dan (24 Temmuz); eski t 1920-07-01 TDV suriye'nin ay hassasiyetiydi. Atlas kırılması zaten 1920-07-24 — artık madde ile aynı gün. `yer` alanındaki kasaba adları atlasın kırılma kümesinden; TDV bunları tek tek saymaz." },
 
 // ── 1921 · Şarkî Ürdün ───────────────────────────────────────────────
 { t:"1921-02-01", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Amman",

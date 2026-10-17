@@ -182,11 +182,9 @@
     return seyrek;
   }
 
-  function surumEki() {                       // kendi ?v=rNNNN damgamı taşı
-    try {
-      var b = kok.document.querySelector('script[src*="geo_coz.js"]');
-      var q = b && b.src.indexOf("?") >= 0 ? b.src.slice(b.src.indexOf("?")) : "";
-      return q;
+  function surumEki() {                       // GENEL damga (window.SURUM) — etiket damgası artık
+    try {                                     // yalnız o dosyanın içeriğinden türer
+      return kok.SURUM ? "?v=" + kok.SURUM : "";
     } catch (e) { return ""; }
   }
 
