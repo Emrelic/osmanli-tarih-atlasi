@@ -191,6 +191,9 @@ push kapısındaki rebase'de buluşur: farklı satırlar kendiliğinden birleşi
   `denetle_yayin` de 0) → push → geri okuma. Tuz dosyası `--tuz-onay`, motor çıktısı
   `--uretilen-onay` ister; > 95 MiB reddedilir. **Ölçülemedi (2) yalnız
   `--olculemedi-kabul "<gerekçe>"` ile geçer; ihlal (1) hiç geçmez.**
+- **Tren:** kilidi alan kapı sırada bekleyen oturumların commit'lerini de toplar ve tek rebase +
+  tek `denetle` + tek push ile geçirir; çatışan (4) ya da ihlalli (1) vagon iner, kalanlar geçer —
+  TUZ/ÜRETİLEN dosyalı commit, `--kuru` ve `--tek` trene binmez.
 - Veri değiştiren oturum `paketle.py yenile` + `surum_damgala.py`yi kendisi koşturur.
 - **Üretilen `data/*.js` yalnız HAVVA'nındır;** çatışması birleştirilmez, yeniden üretilir.
 - **Motor dondurma:** `uret_petek.py` · `renkler.py` · `girdi.py` · `motor_onbellek.py` önbelleğin

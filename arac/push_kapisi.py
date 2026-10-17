@@ -1,9 +1,17 @@
 # -*- coding: utf-8 -*-
 """PUSH KAPISI — `main`e giden TEK yol (Emre, 12 Ekim 2026; KAPI-2 yenilemesi 13 Ekim).
 
-    py arac/push_kapisi.py --kim "<AD>" [--kuru] [--autostash] [--bekle-dk N]
+    py arac/push_kapisi.py --kim "<AD>" [--kuru] [--autostash] [--bekle-dk N] [--tek]
                            [--tuz-onay "<gerekçe>"] [--uretilen-onay "<gerekçe>"]
                            [--olculemedi-kabul "<gerekçe>"]
+
+🚆 TREN (17 Ekim 2026): sırada bekleyen her kapı `oturumlar/tren/<kim>.json` biletine dal +
+   commit yazar. Kilidi alan kapı (LİDER) canlı biletleri de trene alır: hepsini ayrı bir
+   worktree'de origin/main'e sırayla rebase eder, üretilmiş dosyaları BİR kez yeniler, BİR
+   `denetle` (gerekirse BİR `denetle_yayin`) koşar, BİR push ile iter. Çatışan vagon 4, ihlalli
+   vagon (ikiye bölerek bulunur) 1 ile iner; kalanlar geçer. Her vagonun bekleyen kapısı
+   `<kim>.sonuc.json`u okur, aynı kodla çıkar, ağacını itilen commit'e getirir. TUZ/ÜRETİLEN
+   dosyalı commit, --kuru ve --tek trene binmez (tek başına geçer). Ölü sürecin bileti silinir.
 
 Koordinatör düzeni bırakıldı ⇒ "`main`in tek yazıcısı koordinatör" kuralının
 YERİNE bu kapı geçer: kişi değil, KAPI. Sıra:
@@ -43,7 +51,7 @@ YERİNE bu kapı geçer: kişi değil, KAPI. Sıra:
        2 ÖLÇÜLEMEDİ / arıza · 3 yanlış kullanım · 4 ÇATIŞMA (gerçek veri çatışması;
        kilit bırakıldı, rebase geri alındı — çöz, yeniden koştur). 2 TEMİZ DEĞİLDİR (CLAUDE.md §3).
 """
-import glob, os, re, shutil, subprocess, sys, tempfile, threading, time
+import glob, json, os, re, shutil, subprocess, sys, tempfile, threading, time
 
 sys.stdout.reconfigure(encoding="utf-8")
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -84,8 +92,15 @@ class Catisma(Exception):
     pass
 
 
+IS = {"yer": KOK}   # git/rebase/üretim adımlarının koştuğu ağaç — tren kendi worktree'sini koyar
+
+
+def _y():
+    return IS["yer"]
+
+
 def git(*a, cwd=None, kontrol=True):
-    r = subprocess.run(["git", *a], cwd=cwd or KOK, capture_output=True, text=True,
+    r = subprocess.run(["git", *a], cwd=cwd or _y(), capture_output=True, text=True,
                        encoding="utf-8", errors="replace")
     if kontrol and r.returncode != 0:
         raise Olculemedi("git %s → %d: %s" % (" ".join(a), r.returncode, r.stderr.strip()[:300]))
@@ -123,7 +138,7 @@ def cakisma_isareti_tara(dosyalar, rev="HEAD", cwd=None):
     ikisi de 0 verdi. Yalnız `<<<<<<< ` ve `>>>>>>> ` satır başları aranır: tek başına
     `=======` Markdown/RST'de meşrudur. Belgelerin alıntı yaptığı dizinler hariç.
     `arac/git-kancalar/pre_push.py` aynı fonksiyonu `git push`un kendisinde de çağırır."""
-    cwd = cwd or KOK
+    cwd = cwd or _y()
     bulunan = []
     for f in dosyalar:
         if f.startswith(CAKISMA_ATLA):
@@ -202,7 +217,7 @@ def _cozulmemis():
 
 
 def _asama(n, yol):
-    r = subprocess.run(["git", "show", ":%d:%s" % (n, yol)], cwd=KOK, capture_output=True)
+    r = subprocess.run(["git", "show", ":%d:%s" % (n, yol)], cwd=_y(), capture_output=True)
     return r.stdout if r.returncode == 0 else None
 
 
@@ -221,10 +236,10 @@ def _index_birlestir():
             with open(yollar[ad], "wb") as f:
                 f.write(SURUM_DESEN.sub(b'window.SURUM="r0"', DAMGA_DESEN.sub(b"", b)))
         r = subprocess.run(["git", "merge-file", "-p", yollar["bizim"], yollar["taban"], yollar["onlarin"]],
-                           cwd=KOK, capture_output=True)
+                           cwd=_y(), capture_output=True)
         if r.returncode != 0:
             return False
-        with open(os.path.join(KOK, INDEX), "wb") as f:
+        with open(os.path.join(_y(), INDEX), "wb") as f:
             f.write(r.stdout)
         return True
     finally:
@@ -242,15 +257,17 @@ def _origin_tarafi_al(yol):
 
 def _rebase_suruyor():
     for ad in ("rebase-merge", "rebase-apply"):
-        if os.path.isdir(os.path.join(KOK, git("rev-parse", "--git-path", ad).stdout.strip())):
+        if os.path.isdir(os.path.join(_y(), git("rev-parse", "--git-path", ad).stdout.strip())):
             return True
     return False
 
 
-def rebase_cozumlu(hedef="origin/main", autostash=False):
+def rebase_cozumlu(hedef="origin/main", autostash=False, onto=None):
     """Rebase eder; üretilmiş dosya çatışmasını çözer. → çözülen dosya listesi.
-    Gerçek veri çatışmasında rebase'i geri alır ve `Catisma` fırlatır."""
-    r = git("rebase", *(["--autostash"] if autostash else []), hedef, kontrol=False)
+    Gerçek veri çatışmasında rebase'i geri alır ve `Catisma` fırlatır.
+    `onto=(uc, taban, commit)` ⇒ `git rebase --onto uc taban commit` (tren vagonu)."""
+    arg = ["--onto", *onto] if onto else [*(["--autostash"] if autostash else []), hedef]
+    r = git("rebase", *arg, kontrol=False)
     cozulen = []
     for _ in range(500):
         if r.returncode == 0:
@@ -259,10 +276,10 @@ def rebase_cozumlu(hedef="origin/main", autostash=False):
         if not u:
             # çatışma yok ama rebase durdu: boşalmış commit ya da başka sebep
             if _rebase_suruyor():
-                if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=KOK).returncode == 0:
+                if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=_y()).returncode == 0:
                     r = git("rebase", "--skip", kontrol=False)
                 else:
-                    r = subprocess.run(["git", "-c", "core.editor=true", "rebase", "--continue"], cwd=KOK,
+                    r = subprocess.run(["git", "-c", "core.editor=true", "rebase", "--continue"], cwd=_y(),
                                        capture_output=True, text=True, encoding="utf-8", errors="replace")
                 continue
             raise Olculemedi("rebase durdu ama çözülmemiş dosya yok:\n" + (r.stdout + r.stderr)[-400:])
@@ -281,10 +298,10 @@ def rebase_cozumlu(hedef="origin/main", autostash=False):
             if f != INDEX:
                 _origin_tarafi_al(f)
                 cozulen.append(f)
-        if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=KOK).returncode == 0:
+        if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=_y()).returncode == 0:
             r = git("rebase", "--skip", kontrol=False)
         else:
-            r = subprocess.run(["git", "-c", "core.editor=true", "rebase", "--continue"], cwd=KOK,
+            r = subprocess.run(["git", "-c", "core.editor=true", "rebase", "--continue"], cwd=_y(),
                                capture_output=True, text=True, encoding="utf-8", errors="replace")
     git("rebase", "--abort", kontrol=False)
     raise Olculemedi("rebase 500 adımda bitmedi — geri alındı")
@@ -295,7 +312,7 @@ def uretilmisleri_yenile():
     son commit'e amend eder. → amend edilen dosya sayısı."""
     for ad, komut in (("paketle.py yenile", [PY, "arac/paketle.py", "yenile"]),
                       ("surum_damgala.py", [PY, "arac/surum_damgala.py"])):
-        k = kos(ad, komut, KOK)
+        k = kos(ad, komut, _y())
         if k != 0:
             raise Olculemedi("%s çıkış %d — üretilmiş dosyalar yenilenemedi" % (ad, k))
     degisen = []
@@ -325,7 +342,7 @@ def damga_yaz():
        git("diff", "--cached", "--quiet", "--", "index.html", kontrol=False).returncode != 0:
         raise Red("index.html'de yazılmamış değişiklik var — kapı damgayı üstüne yazamaz; "
                   "önce commit et ya da geri al")
-    r = subprocess.run([PY, "arac/surum_damgala.py", "--yayin"], cwd=KOK, capture_output=True,
+    r = subprocess.run([PY, "arac/surum_damgala.py", "--yayin"], cwd=_y(), capture_output=True,
                        text=True, encoding="utf-8", errors="replace")
     print("   damga: " + (r.stdout.strip().splitlines() or ["(çıktı yok)"])[-1])
     if r.returncode != 0:
@@ -403,16 +420,29 @@ def _kilit(*a):
                           capture_output=True, text=True, encoding="utf-8", errors="replace")
 
 
-def kilit_bekle(kim, bekle_dk, aralik=None):
-    """→ 0 kilit sende · 1 zaman aşımı (sıradan çıkıldı) · 2 ölçülemedi."""
+def kilit_bekle(kim, bekle_dk, aralik=None, bilet=None):
+    """→ 0 kilit sende · 1 zaman aşımı (sıradan çıkıldı) · 2 ölçülemedi ·
+    5 TRENLE TAŞINDI (sonuç `TASINAN["sonuc"]`ta; kilit/sıra bırakıldı)."""
     aralik = BEKLE_ARALIK if aralik is None else aralik
     pid = str(os.getpid())
     bitis = time.time() + bekle_dk * 60.0
-    ilk, son_yazi = True, 0.0
+    ilk, son_yazi, bindi = True, 0.0, False
+
+    def tasindi_mi():
+        s = bilet_sonuc(bilet) if bilet else None
+        if s:
+            _kilit("birak", KILIT_AD, "--kim", kim, "--sessiz")   # sıradaysak çık, sahipsek devret
+            TASINAN["sonuc"] = s
+        return bool(s)
+
     while True:
+        if tasindi_mi():
+            return 5
         _kilit("olu-temizle", KILIT_AD, "--kim", kim, "--sessiz")
         r = _kilit("al", KILIT_AD, "--kim", kim, "--pid", pid, "--sessiz")
         if r.returncode == 0:
+            if tasindi_mi():   # lider sonucu yazıp kilidi bize devretmiş olabilir
+                return 5
             if not ilk:
                 print("   sıra geldi — kilit sende.")
             return 0
@@ -424,10 +454,21 @@ def kilit_bekle(kim, bekle_dk, aralik=None):
                   % (bekle_dk, "\n".join("   " + s for s in r.stdout.strip().splitlines()[-5:])))
             son_yazi = time.time()
         ilk = False
-        if time.time() >= bitis:
+        b = bilet_binildi(bilet) if bilet else None
+        if b and not bindi:
+            print("🚆 trene bindim — lider %s commit'imi de götürüyor; sonucu bekliyorum." % b.get("lider"))
+        bindi = bool(b)
+        if time.time() >= bitis and not bindi:
+            if bilet and not bilet_geri_al(bilet):
+                continue        # tam o anda trene bindik — zaman aşımı yok, sonuç beklenir
             _kilit("birak", KILIT_AD, "--kim", kim, "--sessiz")   # yalnız sıradan çıkar
             return 1
-        time.sleep(min(aralik, max(0.0, bitis - time.time())))
+        uyku = aralik if bindi else min(aralik, max(0.0, bitis - time.time()))
+        son = time.time() + uyku
+        while time.time() < son:     # sonuç dosyası gelince hemen uyan
+            if bilet and os.path.exists(bilet + ".sonuc.json"):
+                break
+            time.sleep(min(1.0, max(0.0, son - time.time())))
 
 
 class Nabiz(threading.Thread):
@@ -442,13 +483,374 @@ class Nabiz(threading.Thread):
             _kilit("al", KILIT_AD, "--kim", self.kim, "--pid", str(os.getpid()), "--sessiz")
 
 
+# --------------------------------------------------------------------------
+# 🚆 TREN — toplu geçiş (17 Ekim 2026: 11 post-it oturumu kapıda 20 dk – 1,5 sa sıra bekledi)
+# --------------------------------------------------------------------------
+# Kapıya giren her oturum BİLET yazar: `oturumlar/tren/<kim>.json` {kim, pid, repo, dal, commit,
+# kabul}. Kilidi alan LİDER, canlı biletleri `<kim>.binildi.json`a çevirerek (atomik ad değişimi)
+# trene alır; hepsini ayrı bir worktree'de origin/main'e sırayla rebase eder, üretilmiş dosyaları
+# BİR kez yeniler, BİR ölçüm koşar ve BİR push ile iter. İhlal çıkarsa suçlu vagon ikiye bölerek
+# bulunur ve trenden iner; çatışan vagon rebase'te iner. HER vagona `<kim>.sonuc.json` yazılır
+# (kod 0/1/2/4 + itilen sha) — bekleyen kapı süreci onu okuyup aynı kodla çıkar. Hiçbir commit
+# sessizce düşmez: lider çökerse bilet ölü-lider sayılır, vagon kilidi alınca kendisi lider olur.
+TASINAN = {}
+
+
+def tren_dizini():
+    import kilit                       # kilit.DURUM ana deponun oturumlar/'ını gösterir (worktree'de de)
+    return os.path.join(os.path.dirname(kilit.DURUM), "tren")
+
+
+def _canli(pid):
+    import kilit
+    return kilit.surec_canli_mi(pid)
+
+
+def _anahtar(kim):
+    return re.sub(r"[^A-Za-z0-9_.-]", "_", kim)[:80] or "_"
+
+
+def _json_oku(yol):
+    try:
+        with open(yol, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return None
+
+
+def _json_yaz(yol, veri):
+    gecici = yol + ".tmp%d" % os.getpid()
+    with open(gecici, "w", encoding="utf-8") as f:
+        json.dump(veri, f, ensure_ascii=False, indent=1)
+    for n in range(20):                # Windows: okuyan süreç dosyayı açık tutuyorsa kısa bekle
+        try:
+            os.replace(gecici, yol)
+            return
+        except PermissionError:
+            time.sleep(0.1)
+    os.replace(gecici, yol)
+
+
+def _sil(yol):
+    try:
+        os.remove(yol)
+    except FileNotFoundError:
+        pass
+
+
+def bilet_yaz(ar):
+    """→ bilet kök yolu (uzantısız). Önceki koşudan kalan sonuç/binildi kaydı silinir."""
+    d = tren_dizini()
+    os.makedirs(d, exist_ok=True)
+    a = os.path.join(d, _anahtar(ar["--kim"]))
+    for ek in (".sonuc.json", ".binildi.json"):
+        _sil(a + ek)
+    _json_yaz(a + ".json", {
+        "kim": ar["--kim"], "pid": os.getpid(), "repo": KOK,
+        "dal": git("rev-parse", "--abbrev-ref", "HEAD", cwd=KOK).stdout.strip(),
+        "commit": git("rev-parse", "HEAD", cwd=KOK).stdout.strip(),
+        "kabul": ar["--olculemedi-kabul"], "girdi": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        "an": time.time()})
+    return a
+
+
+def bilet_sonuc(a):
+    s = _json_oku(a + ".sonuc.json")
+    return s if s and s.get("pid") == os.getpid() else None
+
+
+def bilet_binildi(a):
+    """Bilet CANLI bir liderin treninde mi → binildi kaydı ya da None."""
+    b = _json_oku(a + ".binildi.json")
+    if b and b.get("pid") == os.getpid() and b.get("lider_pid") and _canli(b["lider_pid"]):
+        return b
+    return None
+
+
+def bilet_geri_al(a):
+    """Bileti iptal eder. → True iptal edildi · False trene binmiş (lider canlı; sonuç beklenmeli)."""
+    try:
+        os.remove(a + ".json")
+        return True
+    except FileNotFoundError:
+        pass
+    if bilet_binildi(a):
+        return False
+    b = _json_oku(a + ".binildi.json")
+    if b and b.get("pid") == os.getpid():
+        _sil(a + ".binildi.json")      # lideri ölmüş tren — bilet bizim, iptal
+    return True
+
+
+def bilet_sil(a):
+    if a:
+        for ek in (".json", ".binildi.json", ".sonuc.json"):
+            b = _json_oku(a + ek)
+            if b is None or b.get("pid") == os.getpid():
+                _sil(a + ek)
+
+
+def _ileri(commit):
+    return int(git("rev-list", "--count", "origin/main.." + commit).stdout.strip())
+
+
+def _vagon_dosyalari(commit):
+    taban = git("merge-base", "origin/main", commit).stdout.strip()
+    return [f for f in git("diff", "--name-only", taban, commit).stdout.splitlines() if f]
+
+
+def _trene_uygun(commit):
+    """TUZ ya da ÜRETİLEN dosyası olan commit trene binmez (onay ister, tek başına geçer)."""
+    try:
+        dos = _vagon_dosyalari(commit)
+    except Olculemedi:
+        return False
+    return not (set(dos) & TUZ) and not any(uretilen_mi(f) for f in dos)
+
+
+def tren_topla(kim):
+    """Kilit sende iken: kuyruktaki canlı biletleri trene alır. → vagon listesi (lider HARİÇ)."""
+    d = tren_dizini()
+    if not os.path.isdir(d):
+        return []
+    benim = os.getpid()
+    adaylar = []
+    for yol in glob.glob(os.path.join(d, "*.json")):
+        if yol.endswith(".sonuc.json"):
+            s = _json_oku(yol)
+            if s and not _canli(s.get("pid")):
+                _sil(yol)              # sahibi ölmüş, okunmamış sonuç
+            continue
+        v = _json_oku(yol)
+        if not v or v.get("pid") == benim:
+            continue
+        if not _canli(v.get("pid")):
+            print("   🧹 ölü tren kaydı silindi: %s (pid %s, commit %s)"
+                  % (v.get("kim"), v.get("pid"), str(v.get("commit"))[:9]))
+            _sil(yol)
+            continue
+        if yol.endswith(".binildi.json") and v.get("lider_pid") not in (None, benim) \
+                and _canli(v["lider_pid"]):
+            continue                   # (olmamalı: kilit tek) canlı başka liderin vagonu
+        adaylar.append((v.get("an") or 0, yol, v))
+    vagonlar = []
+    for _, yol, v in sorted(adaylar, key=lambda x: x[0]):
+        c = v.get("commit") or ""
+        if git("cat-file", "-e", c + "^{commit}", kontrol=False).returncode != 0 and v.get("repo"):
+            git("fetch", "--quiet", v["repo"], c, kontrol=False)    # ayrı klon: nesneyi getir
+        if git("cat-file", "-e", c + "^{commit}", kontrol=False).returncode != 0:
+            print("   ⚠️  %s: commit %s okunamadı — trene alınmadı, kendi sırasında geçer" % (v["kim"], c[:9]))
+            continue
+        if not _trene_uygun(c):
+            print("   %s: TUZ/ÜRETİLEN dosyası var — trene binmez, kendi sırasında tek başına geçer" % v["kim"])
+            continue
+        hedef = os.path.join(d, _anahtar(v["kim"])) + ".binildi.json"
+        if not yol.endswith(".binildi.json"):
+            try:
+                os.replace(yol, hedef)  # atomik: vagon zaman aşımında bileti silemez artık
+            except FileNotFoundError:
+                continue                # tam o anda geri aldı
+        v.update(lider=kim, lider_pid=benim)
+        _json_yaz(hedef, v)
+        vagonlar.append(v)
+    return vagonlar
+
+
+def _tren_kur(vagonlar, sonuclar):
+    """Tren worktree'sinde origin/main'den başlayıp vagonları sırayla bindirir.
+    Çatışan vagon `sonuclar`a 4 ile düşer. → (dahil, değişen dosyalar)."""
+    git("checkout", "-q", "-f", "--detach", "origin/main")
+    git("clean", "-fdq", kontrol=False)
+    dahil, cozulen = [], []
+    for v in vagonlar:
+        if v["pid"] in sonuclar:
+            continue
+        uc = git("rev-parse", "HEAD").stdout.strip()
+        taban = git("merge-base", "origin/main", v["commit"]).stdout.strip()
+        try:
+            cozulen += rebase_cozumlu(onto=(uc, taban, v["commit"]))
+            dahil.append(v)
+        except Catisma as e:
+            git("checkout", "-q", "-f", "--detach", uc)
+            sonuclar[v["pid"]] = (4, str(e))
+            print("   🟠 %s trenden indi — %s" % (v["kim"], e))
+    dosyalar = [f for f in git("diff", "--name-only", "origin/main", "HEAD").stdout.splitlines() if f]
+    if dahil and (cozulen or any(f == INDEX or paket_mi(f) or f.startswith(("data/", "js/", "css/"))
+                                 for f in dosyalar)):
+        print("   üretilmiş dosyalar trende BİR kez yenileniyor (paketle + sürüm damgası)")
+        uretilmisleri_yenile()
+    if dahil and any(f.startswith(SITE_ONEK) for f in dosyalar):
+        damga_yaz()
+    return dahil, [f for f in git("diff", "--name-only", "origin/main", "HEAD").stdout.splitlines() if f]
+
+
+def _tren_dene(vagonlar, sonuclar, olculen):
+    """Vagonları kurar ve ölçer. → (kod, mesaj, dahil) — kod 0 geçti · 1 red · 2 ölçülemedi.
+    Aynı ağaç (tree sha) bir kez ölçülür."""
+    dahil, dosyalar = _tren_kur(vagonlar, sonuclar)
+    if not dahil:
+        return 0, "", []
+    agac = git("rev-parse", "HEAD^{tree}").stdout.strip()
+    if agac in olculen:
+        return olculen[agac] + (dahil,)
+    print("   🚆 ölçülüyor: %s" % ", ".join(v["kim"] for v in dahil))
+    kabuller = [v.get("kabul") for v in dahil]
+    kabul = "; ".join(sorted(set(kabuller))) if all(kabuller) else None
+    try:
+        dosya_denetimi(dosyalar, {"--tuz-onay": None, "--uretilen-onay": None})
+        olc(dosyalar, kabul)
+        olculen[agac] = (0, "")
+    except Red as e:
+        olculen[agac] = (1, str(e))
+    except Olculemedi as e:
+        olculen[agac] = (2, str(e))
+    return olculen[agac] + (dahil,)
+
+
+def _suclu_bul(iyi, aday, hata, sonuclar, olculen):
+    """`iyi`nin üstünde `aday` düşüyor (hata=(kod, mesaj)). İkiye bölerek suçluyu indirir.
+    → geçen vagon kümesi."""
+    aday = [v for v in aday if v["pid"] not in sonuclar]
+    if not aday:
+        return iyi
+    if len(aday) == 1:
+        sonuclar[aday[0]["pid"]] = hata
+        print("   🔴 %s trenden indi — %s" % (aday[0]["kim"], hata[1].splitlines()[0][:200]))
+        return iyi
+    sol, sag = aday[:len(aday) // 2], aday[len(aday) // 2:]
+    k, m, dahil = _tren_dene(iyi + sol, sonuclar, olculen)
+    if k == 0:
+        return _suclu_bul(dahil, sag, hata, sonuclar, olculen)
+    iyi = _suclu_bul(iyi, sol, (k, m), sonuclar, olculen)
+    sag = [v for v in sag if v["pid"] not in sonuclar]
+    if not sag:
+        return iyi
+    k, m, dahil = _tren_dene(iyi + sag, sonuclar, olculen)
+    if k == 0:
+        return dahil
+    return _suclu_bul(iyi, sag, (k, m), sonuclar, olculen)
+
+
+def _tren_ayikla(vagonlar, sonuclar, olculen):
+    """→ geçen vagonlar; tren worktree'sinin HEAD'i onların ÖLÇÜLMÜŞ ağacıdır."""
+    for _ in range(len(vagonlar) + 2):
+        k, m, dahil = _tren_dene(vagonlar, sonuclar, olculen)
+        if k == 0:
+            return dahil
+        if k == 2:
+            # ölçülemedi bir vagona yüklenemez: kabulü olmayanlar 2 ile iner, kabullüler yeniden ölçülür
+            kabulsuz = [v for v in dahil if not v.get("kabul")]
+            for v in (kabulsuz or dahil):
+                sonuclar[v["pid"]] = (2, m)
+            if not kabulsuz:
+                return []
+            vagonlar = [v for v in dahil if v.get("kabul")]
+            continue
+        vagonlar = _suclu_bul([], dahil, (k, m), sonuclar, olculen)
+    raise Olculemedi("tren ayıklaması yakınsamadı")
+
+
+def tren_kos(ar, lider_vagon, vagonlar):
+    """Lider: trendeki bütün vagonları geçirir, her vagona sonuç yazar. → liderin kendi çıkış kodu."""
+    hepsi = [lider_vagon] + vagonlar
+    print("🚆 TREN: %d vagon — %s" % (len(hepsi), ", ".join(v["kim"] for v in hepsi)))
+    sonuclar, itilen = {}, None
+    yer = tempfile.mkdtemp(prefix="atlas-tren-")
+    os.rmdir(yer)
+    try:
+        git("fetch", "origin", "--quiet", cwd=KOK)
+        git("worktree", "add", "--detach", yer, "origin/main", cwd=KOK)
+        IS["yer"] = yer
+        for _ in range(3):
+            git("fetch", "origin", "--quiet")
+            for v in hepsi:
+                if v["pid"] not in sonuclar and _ileri(v["commit"]) == 0:
+                    sonuclar[v["pid"]] = (0, "itilecek commit yok (zaten origin/main'de)")
+            kalan = [v for v in hepsi if v["pid"] not in sonuclar]
+            if not kalan:
+                break
+            gecen = _tren_ayikla(kalan, sonuclar, {})
+            if not gecen:
+                break
+            print("⑤ push — tren: %s" % ", ".join(v["kim"] for v in gecen))
+            r = git("push", "origin", "HEAD:main", kontrol=False)
+            if r.returncode != 0:
+                if "rejected" in r.stderr or "fetch first" in r.stderr or "non-fast-forward" in r.stderr:
+                    print("   reddedildi — başka biri itti; tren baştan kurulur.")
+                    continue
+                raise Olculemedi("push → %d: %s" % (r.returncode, r.stderr.strip()[:300]))
+            git("fetch", "origin", "--quiet")
+            h, o = git("rev-parse", "HEAD").stdout.strip(), git("rev-parse", "origin/main").stdout.strip()
+            if h != o:
+                raise Olculemedi("push sonrası origin/main %s ≠ HEAD %s" % (o[:8], h[:8]))
+            print("⑥ origin/main = %s ✓ (tek push, %d vagon)" % (h[:8], len(gecen)))
+            itilen = h
+            for v in gecen:
+                sonuclar[v["pid"]] = (0, "trenle itildi (lider %s)" % ar["--kim"])
+            break
+        for v in hepsi:
+            sonuclar.setdefault(v["pid"], (2, "3 turda da push reddedildi"))
+    except Exception as e:
+        ad = "%s: %s" % (type(e).__name__, e)
+        print("⚪ TREN ARIZASI: " + ad)
+        for v in hepsi:
+            sonuclar.setdefault(v["pid"], (2, "tren arızası — " + ad))
+    finally:
+        IS["yer"] = KOK
+        git("worktree", "remove", "--force", yer, kontrol=False, cwd=KOK)
+        git("worktree", "prune", kontrol=False, cwd=KOK)
+        shutil.rmtree(yer, ignore_errors=True)
+        d = tren_dizini()
+        for v in vagonlar:             # ÖNCE sonuç, SONRA sıradan çıkar: vagon hiç sonuçsuz kalmaz
+            kod, mesaj = sonuclar.get(v["pid"], (2, "sonuç yazılamadı"))
+            _json_yaz(os.path.join(d, _anahtar(v["kim"])) + ".sonuc.json",
+                      {"kim": v["kim"], "pid": v["pid"], "commit": v["commit"], "kod": kod,
+                       "mesaj": mesaj, "itilen": itilen if kod == 0 else None,
+                       "lider": ar["--kim"], "ne_zaman": time.strftime("%Y-%m-%dT%H:%M:%S")})
+            if v["kim"] != ar["--kim"]:
+                _kilit("birak", KILIT_AD, "--kim", v["kim"], "--sessiz")
+    print("🚆 TREN SONUCU:")
+    for v in hepsi:
+        kod, mesaj = sonuclar[v["pid"]]
+        print("   %s %-24s %s · %s" % ({0: "🟢", 1: "🔴", 4: "🟠"}.get(kod, "⚪"), v["kim"],
+                                     v["commit"][:9], mesaj.splitlines()[0][:160]))
+    kod, mesaj = sonuclar[lider_vagon["pid"]]
+    return vagon_bitir(kod, mesaj, lider_vagon["commit"], itilen if kod == 0 else None)
+
+
+def vagon_bitir(kod, mesaj, commit, itilen):
+    """Vagonun (lider ya da taşınan) kendi ağacında sonucu uygular ve basar. → çıkış kodu."""
+    if kod == 0:
+        if itilen:
+            git("fetch", "origin", "--quiet", cwd=KOK, kontrol=False)
+            if git("rev-parse", "HEAD", cwd=KOK).stdout.strip() == commit:
+                r = git("reset", "--keep", itilen, cwd=KOK, kontrol=False)
+                if r.returncode == 0:
+                    print("   ağaç origin/main'e (%s) getirildi." % itilen[:9])
+                else:
+                    print("   ⚠️  push TAMAM ama ağaç origin/main'e getirilemedi (yerel değişiklik çakışıyor):"
+                          " git reset --keep %s" % itilen)
+            else:
+                print("   ⚠️  HEAD kapıya girdiğinden beri değişti — yeni commit'ler İTİLMEDİ; kapıyı yeniden koştur.")
+        print("🟢 PUSH KAPISI: tamam — %s" % mesaj)
+    elif kod == 4:
+        print("🟠 ÇATIŞMA: %s\n   kilit bırakıldı; çatışmayı çöz (origin tarafını al, değişikliğini "
+              "yeniden uygula) ve kapıyı yeniden koştur." % mesaj)
+    elif kod == 1:
+        print("🔴 REDDEDİLDİ: %s" % mesaj)
+    else:
+        print("⚪ ÖLÇÜLEMEDİ: %s" % mesaj)
+    return kod
+
+
 def arguman(argv):
     ar = {"--kim": None, "--tuz-onay": None, "--uretilen-onay": None, "--olculemedi-kabul": None,
-          "--bekle-dk": None, "--bekle-aralik": None, "--kuru": False, "--autostash": False}
+          "--bekle-dk": None, "--bekle-aralik": None, "--kuru": False, "--autostash": False,
+          "--tek": False}
     i = 0
     while i < len(argv):
         a = argv[i]
-        if a in ("--kuru", "--autostash"):
+        if a in ("--kuru", "--autostash", "--tek"):
             ar[a] = True
         elif a in ar and i + 1 < len(argv):
             ar[a] = argv[i + 1]
@@ -471,8 +873,26 @@ def main(argv):
         print(__doc__)
         return 3
     bekle = BEKLE_DK_VARSAYILAN if ar["--bekle-dk"] is None else ar["--bekle-dk"]
+    # 🚆 tren bileti: --kuru ve --tek bilet yazmaz (kuru kimseyi taşımaz, kimseye binmez)
+    bilet = None
+    if not (ar["--kuru"] or ar["--tek"]):
+        try:
+            bilet = bilet_yaz(ar)
+        except (OSError, Olculemedi) as e:
+            print("   ⚠️  tren bileti yazılamadı (%s) — tek başına geçilecek" % e)
+    try:
+        return _kapi(ar, bekle, bilet)
+    finally:
+        bilet_sil(bilet)
+
+
+def _kapi(ar, bekle, bilet):
     print("① kilit " + KILIT_AD)
-    k = kilit_bekle(ar["--kim"], bekle, ar["--bekle-aralik"])
+    k = kilit_bekle(ar["--kim"], bekle, ar["--bekle-aralik"], bilet)
+    if k == 5:
+        s = TASINAN["sonuc"]
+        print("🚆 trenle taşındı — lider %s" % s.get("lider"))
+        return vagon_bitir(s["kod"], s.get("mesaj") or "", s.get("commit"), s.get("itilen"))
     if k == 1:
         print("🟡 %.0f dk içinde sıra gelmedi — sıradan çıkıldı, push yok. Yeniden koştur." % bekle)
         return 1
@@ -486,6 +906,16 @@ def main(argv):
     #    59bc89d71 → 43d2d5b3e sessizce değişti. Artık HEAD her yolda (geçti/red/çatışma) geri alınır.
     kuru_bas = git("rev-parse", "HEAD").stdout.strip() if ar["--kuru"] else None
     try:
+        if bilet:
+            # lider olduk: kendi biletimizi kimse taşımasın; kuyrukta bilet varsa TREN kalkar
+            for ek in (".json", ".binildi.json"):
+                _sil(bilet + ek)
+            git("fetch", "origin", "--quiet")
+            bas = git("rev-parse", "HEAD").stdout.strip()
+            vagonlar = tren_topla(ar["--kim"]) if _trene_uygun(bas) else []
+            if vagonlar:
+                return tren_kos(ar, {"kim": ar["--kim"], "pid": os.getpid(), "repo": KOK,
+                                     "commit": bas, "kabul": ar["--olculemedi-kabul"]}, vagonlar)
         for n in range(3):
             if tur(ar):
                 print("🟢 PUSH KAPISI: tamam")
