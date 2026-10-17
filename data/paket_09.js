@@ -1020,11 +1020,29 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"Valtellina 1335'te Visconti'ye geçtiğinde Bormio Chur piskoposunda kalmıştı; HLS'ye göre bu durum 15 yıl daha sürdü. Yıl bu hesaptan türetildi, gün bilinmiyor.",
   kaynak:"HLS «Veltlin» (hls-dhs-dss.ch/de/articles/007135)" },
 
+{ t:"1345-01-01", kesinlik:"yil", devlet:"carrara", devletler:["carrara"], sinir_id:"",
+  b:"Giacomo (II) da Carrara Padova senyörü oldu", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Padova",
+  etiket:["konu-siyasi","carrara"],
+  d:"Giacomo (II) di Nicolò da Carrara 1345'te Padova senyörlüğüne geçti; oğlu Francesco il Vecchio 1350'de onun yerini aldı. Kaynak yalnız yılı veriyor.",
+  kaynak:"Treccani, Dizionario Biografico «Carrara, Francesco da, il Vecchio» · KUTU-HATALI-1015 (0083/H-0007)" },
+
 { t:"1387-10-18", devlet:"visconti", devletler:["visconti","della-scala"], sinir_id:"",
   b:"Verona Gian Galeazzo Visconti'ye teslim oldu — Della Scala senyörlüğünün sonu", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Verona",
   etiket:["konu-siyasi","visconti","della-scala"],
   d:"Antonio Della Scala 18 Ekim 1387'ye kadar direnebildi ve o gün teslim olmak zorunda kaldı; Verona Gian Galeazzo Visconti'nin eline geçti. Şehir 1405'te Venedik'e bağlandı.",
   kaynak:"Treccani, Dizionario Biografico «Gian Galeazzo Visconti»" },
+
+{ t:"1388-11-21", devlet:"visconti", devletler:["visconti","carrara"], sinir_id:"",
+  b:"Francesco Novello da Carrara Padova'yı Gian Galeazzo Visconti'ye bıraktı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Padova",
+  etiket:["konu-siyasi","visconti","carrara"],
+  d:"Kuşatılan, ordusu ayaklanan ve halkı huzursuz Padova'da Francesco Novello 21 Kasım 1388'de Visconti'nin başkumandanı Giacomo Dal Verme ile anlaşmak zorunda kaldı ve devletini geçici olarak Gian Galeazzo Visconti'ye bıraktı.",
+  kaynak:"Treccani, Dizionario Biografico «Carrara, Francesco da, il Novello» · KUTU-HATALI-1015 (0083/H-0007)" },
+
+{ t:"1390-06-21", devlet:"carrara", devletler:["carrara","visconti"], sinir_id:"",
+  b:"Francesco Novello da Carrara Padova'yı Visconti'den geri aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Padova",
+  etiket:["konu-siyasi","carrara","visconti"],
+  d:"Floransa'nın yardımıyla Treviso topraklarından geçen Francesco Novello, 21 Haziran 1390'da Padova'ya baskınla girip şehri aldı; kaleye kapanan Visconti garnizonu 27 Ağustos'ta teslim oldu ve Anziani 8 Eylül'de senyörlüğü ona yeniden verdi.",
+  kaynak:"Treccani, Dizionario Biografico «Carrara, Francesco da, il Novello» · KUTU-HATALI-1015 (0083/H-0007)" },
 
 { t:"1395-05-11", devlet:"milano-dukaligi", devletler:["milano-dukaligi","visconti"], sinir_id:"",
   b:"Gian Galeazzo Visconti Milano dükü oldu — Milano Dükalığı'nın kuruluşu", tur:"kurulus", onem:4, dunya:3, kapsam:"dis", yer_id:"Milano",
@@ -1037,6 +1055,24 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   etiket:["konu-siyasi","venedik"],
   d:"Gian Galeazzo Visconti'nin 1402'deki ölümünden sonra dağılan topraklarından Belluno ve Feltre 1404'te Venedik'e bağlandı; iki şehir 1797'ye kadar Venedik'te kaldı. Kaynaklar yalnız yılı veriyor.",
   kaynak:"Treccani «Belluno» · Treccani «Feltre»" },
+
+{ t:"1404-04-08", devlet:"della-scala", devletler:["della-scala","carrara","milano-dukaligi"], sinir_id:"",
+  b:"Verona Milano'dan alındı — Della Scala'lar kısa süreliğine geri döndü", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Verona",
+  etiket:["konu-siyasi","della-scala","carrara","milano-dukaligi"],
+  d:"Carrara'lar ile Della Scala ailesinin 27 Mart 1404 anlaşması üzerine Verona 7-8 Nisan gecesi Milano Dükalığı'ndan alındı; 10 Nisan'da Guglielmo Della Scala senyör ilan edildi, 15 Nisan'da oğulları Brunoro ve Antonio babalarına halef oldu.",
+  kaynak:"Treccani, Dizionario Biografico «Carrara, Francesco da, il Novello» · KUTU-HATALI-1015 (0083/H-0007)" },
+
+{ t:"1404-05-25", devlet:"carrara", devletler:["carrara","della-scala"], sinir_id:"",
+  b:"Francesco Novello da Carrara Verona'yı ele geçirdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Verona",
+  etiket:["konu-siyasi","carrara","della-scala"],
+  d:"Vicenza'nın 25 Nisan'da Venedik'e bağlanmasının ardından Francesco Novello, Brunoro ve Antonio Della Scala'yı tutuklatıp 25 Mayıs 1404'te Verona'yı işgal etti. Bu, Venedik'in kesinlikle engellemek istediği bir adımdı.",
+  kaynak:"Treccani, Dizionario Biografico «Carrara, Francesco da, il Novello» · KUTU-HATALI-1015 (0083/H-0007)" },
+
+{ t:"1405-11-17", devlet:"venedik", devletler:["venedik","carrara"], sinir_id:"",
+  b:"Venedik Padova'yı aldı — Carrara senyörlüğünün sonu", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Padova",
+  etiket:["konu-siyasi","venedik","carrara"],
+  d:"Kuşatılan Padova'da Francesco Novello 16 Kasım 1405'te şehri on gün içinde teslim etmeye söz verdi; ertesi gece Venedik birlikleri Santa Croce kapısından şehre girdi. Venedik Senatosu Padova'nın teslimini (dedizione) 22 Kasım'da kabul etti.",
+  kaynak:"Treccani, Dizionario Biografico «Carrara, Francesco da, il Novello» · KUTU-HATALI-1015 (0083/H-0007)" },
 
 { t:"1500-01-01", kesinlik:"yil", devlet:"avusturya", devletler:["avusturya","almanya"], sinir_id:"",
   b:"Görz kontları hanedanı söndü — Görz Habsburglara geçti", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Görz (Gorizia)",

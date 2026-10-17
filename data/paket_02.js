@@ -544,6 +544,12 @@ window.OLAYLAR_EK9 = [
   d:"Darfur genel valisi Slatin Paşa, 1882'den beri Rizeykāt kabilesinin Mehdîci ayaklanmasıyla uğraşıyordu; askerlerinin yenilgileri onun hıristiyan oluşuna yüklediğini düşünerek 1883'te açıkça müslüman oldu ve Abdülkādir adını aldı. Hicks Paşa'nın ordusunun kasım 1883'te Kordofan'da yok edilmesinden sonra direnişin anlamı kalmadı ve 23 Aralık 1883'te Emîr Madibbo'ya teslim oldu. Darfur'daki küçük Mısır karakolları da kısa sürede aynı yolu izledi; on yıllık Türk-Mısır idaresi bitti.",
   kaynak:"darfur", duygu:["😔"], yer_id:"Darfur" },
 
+{ t:"1884-01-15", k:"kayip", etiket:["toprak-kayip","isyan","konu-askeri","konu-isyan"],
+  b:"Fâşir garnizonunun Mehdîcilere teslimi",
+  gun:"15 Ocak 1884", yer:"El-Fâşir", kisiler:"Rudolf Slatin Paşa, Emîr Zogal",
+  d:"Slatin'in 23 Aralık 1883'teki teslimiyetinden sonra da Fâşir kalesindeki Mısır garnizonu direndi. Yedi günlük kuşatmada kuyuları kaybeden garnizon 15 Ocak 1884'te teslim oldu; silahlar bırakılıp kale Mehdîcilere geçti.",
+  kaynak:"Slatin, Fire and Sword in the Sudan (London 1896; Gutenberg #41035) Bölüm IX: 'after a seven days' siege the garrison was obliged to submit, on the 15th of January'", ic_not_d:"Yıl metinde örtük: aynı bölümde Gretli'nin gelişi '20th of December, 1883'. KUTU-VERI-1015 B 0076/H-0065", duygu:["😔"], yer_id:"El-Fâşir" },
+
 // ---------------------------------------------------------------------------
 // C) TABARKA — iki yüz yıllık Ceneviz devrinin sonu
 // ---------------------------------------------------------------------------
@@ -577,11 +583,11 @@ window.OLAYLAR_EK9 = [
 // E) TOKAR — Doğu Sudan'ın sekiz yıllık Mehdî devri
 // ---------------------------------------------------------------------------
 
-{ t:"1884-01-01", k:"kayip", etiket:["toprak-kayip","isyan","konu-askeri","konu-isyan"],
-  b:"Doğu Sudan'ın Mehdî kuvvetlerine geçişi — Tokar'ın kaybı",
-  gun:"1884", yer:"Tokar, Sinkat, Sevâkin ardalanı", kisiler:"Osman Digna, Muhammed Ahmed el-Mehdî",
-  d:"Mehdî'nin doğu Sudan'daki halifesi Osman Digna, 1883 sonbaharından itibaren Bece kabilelerini ayaklandırarak Sevâkin'in ardalanını ele geçirdi; Sinkat ve Tokar garnizonları kuşatıldı ve 1884 başında bölge tamamen Mehdî idaresine girdi. Sevâkin limanı İngiliz-Mısır elinde kaldığı için kıyı ile içerisi sekiz yıl boyunca ayrı iki idare altında durdu. Tokar 1891 Şubatında geri alındı.", ic_not_d:"Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
-  kaynak:"sudan", duygu:["😔"], yer_id:"Tokar" },
+// DENETIM-K27-1016: buradaki 1884-01-01 "Doğu Sudan'ın Mehdî kuvvetlerine geçişi — Tokar'ın kaybı" maddesi SİLİNDİ:
+//   aynı olayın GÜNLÜ maddeleri KARAR-UYG-1015 ile olaylar_ek16.js'e yazıldı (Sinkat 1884-02-08 · Sevâkin 1884-02-09 ·
+//   Tokar 1884-02-20 — Royle / Wingate) ve Tokar kaydı artık 1884-02-20'de kırılıyor; yıl maddesi mükerrer kalmıştı
+//   (mükerrer denetimi: 'Tokar'ın Mehdî kuvvetlerine teslimi' ile başlık çifti). Gövdesindeki 1891 geri alışı
+//   olaylar_ek16 1891-02-19 (Tokar) ve 1891-03-03 (Sinkat) maddelerinde.
 
 // ---------------------------------------------------------------------------
 // F) KESELA — Taka bölgesinin fethi

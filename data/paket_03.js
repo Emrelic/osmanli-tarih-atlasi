@@ -716,6 +716,38 @@ window.OLAYLAR_EK16 = [
   d:"Karintiya Dükü ve Tirol Kontu VI. Heinrich'in 2 Nisan 1335'te Tirol Kalesi'nde vârissiz ölmesiyle, 23 Kasım 1330'da Bavyeralı Ludwig ile gizlice yapılan bir anlaşma uyarınca Habsburg kardeşler II. Albrecht ve IV. Otto, Karintiya Dukalığı'nı ve ona bağlı Karniyola (bugünkü Ljubljana'nın da içinde olduğu bölge) imparatorluk beratıyla aldılar; Tirol ise Heinrich'in kızı vasıtasıyla ayrı kaldı. Bu, Habsburgların Alp bölgesindeki genişlemesinin ilk büyük adımlarından biriydi ve Karniyola 1918'e kadar (kesintili) Habsburg/Avusturya elinde kalacaktı.",
   kaynak:"NDB 'Ludwig der Bayer' (Neue Deutsche Biographie, deutsche-biographie.de/gnd118574957.html): 'bereits Anfang Mai 1335' … 'die österr. Herzöge mit Kärnten belehnt' — AY · AEIOU/Austria-Forum '1335 Erwerbung Kärntens': '1335 belehnte der Kaiser die Habsburger mit Kärnten, das seither mit Österreich verbunden blieb.' · TDV bu olayı kapsamıyor · eski t:1335-05-02 ve '2 Nisan' günü kaynaksızdı (LUGOS-KLAGENFURT-1006)", duygu:["😔"] },
 
+{ t:"1884-02-08", k:"kayip", etiket:["toprak-kayip","isyan","konu-askeri","konu-isyan"],
+  kapsam:"dis", onem:3, b:"Sinkat garnizonunun imhası — Sinkat Mehdî kuvvetlerine geçti",
+  gun:"8 Şubat 1884",
+  yer:"Sinkat",
+  yer_id:"Sinkat", kisiler:"Tevfik Bey, Osman Digna",
+  d:"Aylardır Osman Digna'nın kuvvetlerince kuşatılan ve erzakı tükenen Sinkat garnizonu, komutanı Tevfik Bey ile birlikte kuşatmayı yarıp Sevâkin'e ulaşmaya çalıştı; 8 Şubat 1884'te kale dışında imha edildi ve Sinkat Mehdî kuvvetlerinin eline geçti. Haber 12 Şubat'ta Sevâkin'e ulaştı.",
+  kaynak:"Wingate, Mahdiism and the Egyptian Sudan (London 1891) s.117: 'he and his men were cut absolutely to pieces on the 8th' · Royle, The Egyptian Campaigns 1882 to 1885 (yeni baskı, London 1900) s.266: 'On the 12th the news reached Souakim of the fall of Sinkat' (haber günü) · TDV kesela (1884, yıl) — KARAR-UYG-1015", duygu:["😔"] },
+
+{ t:"1891-03-03", k:"siyaset", etiket:["toprak-kayip","konu-askeri"],
+  kapsam:"dis", onem:3, b:"Grenfell kolunun Sinkat'tan geçişi — Sinkat Mehdî idaresinden çıkıp İngiliz-Mısır idaresine döndü",
+  gun:"3-7 Mart 1891 (alt uç 3 Mart; Mehdî çekilişinin kendi günü kaynakta yok)",
+  yer:"Sinkat, Sevâkin ardalanı",
+  yer_id:"Sinkat", kisiler:"Grenfell",
+  d:"Tokar'ın Şubat 1891'de geri alınmasının ardından Grenfell kumandasındaki İngiliz-Mısır kolu 3 Mart 1891'de Afafit'ten Sinkat üzerinden yola çıktı ve 7 Mart'ta Sevâkin'e vardı; kol, 1884'ten beri hiç girilemeyen bölgeyi düşmandan tamamen boşalmış buldu. 8 Mart'ta Sevâkin'de toplanan şeyhlere Hidiv adına genel af ilân edildi ve Sinkat yeniden İngiliz-Mısır idaresine bağlandı.",
+  kaynak:"Wingate, Mahdiism and the Egyptian Sudan (London 1891) Supplement s.508 — 3 Mart 1891 Afafit'ten Sinkat üzerinden çıkış, 7 Mart Sevâkin, 'having found the districts entirely clear of the enemy. This locality had not been visited since 1884' · 8 Mart şeyhler toplantısı ve genel af (Sinkat kaydının kendi kaynağı, KARAR-UYG-1015) · gün: Sinkat'tan geçiş 3-7 Mart arası, ALT UÇ yazıldı · DENETIM-K27-1016", duygu:["📌"] },
+
+{ t:"1884-02-09", k:"isgal", etiket:["toprak-kayip","konu-askeri"],
+  kapsam:"dis", onem:3, b:"Sevâkin'de sıkıyönetim — şehir İngiliz komutasına geçti",
+  gun:"9 Şubat 1884",
+  yer:"Sevâkin",
+  yer_id:"Sevâkin", kisiler:"Amiral William Hewett, Valentine Baker",
+  d:"Baker'ın Tokar'ı kurtarma kuvvetinin 4 Şubat'ta El-Teb'de bozguna uğramasından sonra Amiral Hewett 6 Şubat'ta Sevâkin'e deniz piyadesi çıkardı. 9 Şubat 1884'te şehirde sıkıyönetim ilân edildi ve İngiliz subaylarına şehir üzerinde askerî ve mülkî tam yetki verildi; ertesi gün şehrin sorumluluğu resmen Baker'dan Hewett'e devredildi.",
+  kaynak:"Royle, The Egyptian Campaigns 1882 to 1885 (yeni baskı, London 1900) s.265-266: 'On the 9th it was decided to declare Souakim in a state of siege' · TDV osman-dikne (4 Şubat 1884 Baker yenilgisi) — KARAR-UYG-1015", duygu:["📌"] },
+
+{ t:"1884-02-20", k:"kayip", etiket:["toprak-kayip","isyan","konu-askeri","konu-isyan"],
+  kapsam:"dis", onem:3, b:"Tokar'ın Mehdî kuvvetlerine teslimi",
+  gun:"20 Şubat 1884",
+  yer:"Tokar",
+  yer_id:"Tokar", kisiler:"Osman Digna",
+  d:"Kuşatma altındaki Tokar garnizonu 19 Şubat 1884'te Mehdî kuvvetleriyle müzakereye girdi ve ertesi gün, 20 Şubat'ta şehri teslim etti. Haber 24 Şubat'ta Trinkitat'taki İngiliz kuvvetine ulaştı; Graham'ın kurtarma harekâtı geç kalmıştı.",
+  kaynak:"Royle, The Egyptian Campaigns 1882 to 1885 (yeni baskı, London 1900) s.275-276: 'negotiations were on the 19th opened' · 'The next day the town was finally surrendered' · TDV kesela (1884, yıl) — KARAR-UYG-1015", duygu:["😔"] },
+
 { t:"1891-02-19", k:"savas", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", onem:3, b:"Tokar'ın İngiliz-Mısır kuvvetlerince geri alınışı — Osman Digna'nın çekilişi",
   gun:"19 Şubat 1891 (Afafit/Tokar çarpışması)", ic_not_t:"eski t 1891-02-06 ('ayın ilk haftası') hiçbir okunan kaynakta yok. Gün: British Library, War Office krokisi 'Action of Afafit. 19.2.91' (Kahire, 25 Mart 1891, https://searcharchives.bl.uk/catalog/040-003409333); ay: Nour Ali – Varoğlu, TKİD 55 (2026) 'February 1891'; yıl: TDV bece. KUTU-H1-1015",
@@ -727,6 +759,7 @@ window.OLAYLAR_EK16 = [
 { t:"1330-01-01", k:"diger", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"], b:"Livonya Tarikatı Riga şehrinin süzereni oldu", gun:"1330", yer:"Riga", yer_id:"Riga", d:"Litvanya büyük dükleri Vytenis ve Gediminas'ın desteğiyle Tarikat'a karşı savaşan Riga başpiskoposluğu ve şehir 1330'da yenik düştü; Livonya Tarikatı şehrin süzereni oldu. 1452 Salaspils antlaşmasıyla Riga, Tarikat ile başpiskoposun ortak süzerenliğine girdi.", kaynak:"Visuotinė lietuvių enciklopedija, 'Rygos istorija'", ic_not_d:"KARAR-UYG-1015 (0025/H-0004 Livonya): Riga s: 1330 kırılması." },
 { t:"1346-01-01", k:"antlasma", kapsam:"dis", etiket:["toprak-kazanc","konu-diplomasi"], b:"Danimarka Kuzey Estonya'yı (Reval ve Narva) Livonya Tarikatı'na sattı", gun:"1346 (VLE 'Talino istorija' 1347 der)", yer:"Reval (Tallinn), Narva", yer_id:"Narva", d:"Danimarka krallığı Kuzey Estonya'daki topraklarını Reval ve Narva ile birlikte Livonya Tarikatı'na sattı. Bölge Livonya Savaşı'na kadar Tarikat'ın elinde kaldı.", kaynak:"Visuotinė lietuvių enciklopedija, 'Narva' ('1220–1346 priklausė Danijai, 1346–1558 – Livonijos ordinui') ve 'Talino istorija' ('1347 parduotas Livonijos ordinui')", ic_not_d:"KARAR-UYG-1015 (0025/H-0004 Livonya): Tallinn ve Narva danimarka → livonya-tarikati kırılması; VLE iki maddede 1346/1347 — tek olay, 1346 yazıldı." },
 { t:"1581-01-01", k:"diger", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"], b:"İsveç Narva'yı Rusya'dan aldı", gun:"1581", yer:"Narva", yer_id:"Narva", d:"Livonya Savaşı'nın son yıllarında İsveç kuvvetleri 1558'den beri Rus elinde olan Narva'yı aldı; şehir 1704'e kadar İsveç'te kaldı.", kaynak:"Visuotinė lietuvių enciklopedija, 'Narva' ('1558–81 Narvą valdė Rusija, 1581–1704 – Švedija')", ic_not_d:"KARAR-UYG-1015 (0025/H-0004 Livonya): Narva s: rusya → isvec kırılması." },
+{ t:"1581-01-01", k:"diger", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"], b:"Hür şehir Riga Lehistan-Litvanya'ya bağlandı", gun:"1581", yer:"Riga", yer_id:"Riga", d:"Livonya Savaşı boyunca hür şehir olarak kalan Riga 1581'de Lehistan-Litvanya Birliği'ne bağlandı; şehir 1621'de İsveç'e geçene kadar Birlik'te kaldı.", kaynak:"Visuotinė lietuvių enciklopedija, 'Rygos istorija' ('1561–81 buvo laisvasis miestas', '1581–1621 priklausė Abiejų Tautų Respublikai') · Britannica 'Riga'", ic_not_d:"KARAR-UYG-1015: Riga s: riga-hur-sehri → lehistan kırılması." },
 ];
 
 ;

@@ -9561,6 +9561,12 @@ window.OLAYLAR_2S_0919 = [
   d:"Denizli çevresinde hüküm süren İnançoğulları Beyliği muhtemelen 1368'de Germiyanoğullarının hâkimiyetini tanıdı.",
   kaynak:"TDV `inancogullari` — AYNEN: \"İnançoğulları muhtemelen 1368'de Germiyanoğulları'nın hâkimiyetini tanımıştır.\" · hassasiyet: YIL, kaynağın kendisi 'muhtemelen' der · olay ilhak değil tâbiyet" },
 
+// ── 1371-11 (NOT2-1016, Emre notu #29) ────────────────────────────────
+{ t:"1371-11-01", kesinlik:"ay", b:"Selanik despotu Manuel, Serez ve Drama bölgesini Bizans idaresine aldı", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Serez",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"Çirmen'de (26 Eylül 1371) Kral Vukaşin ve Serez despotu Uglyeşa'nın ölmesiyle Serez bölgesindeki Sırp idaresi sona erdi. Selanik'te hüküm süren Bizans prensi II. Manuel Palaiologos, Kasım 1371'de Serez'i ve Drama'nın da içinde bulunduğu bölgeyi Bizans idaresine aldı. Bölge Eylül 1383'te Osmanlılar'a geçti.",
+  kaynak:"TDV `drama` (F. Emecen) — AYNEN: \"Drama’nın da içinde bulunduğu Serez bölgesi, Bizans’ın Selânik valisi Manuel’in hâkimiyeti altına girdi (Kasım 1371)\" · TDV `serez` — AYNEN: \"1371’de Selânik’te hüküm süren II. Manuel Palaeologos tarafından tekrar Bizans idaresine alındı\" · hassasiyet: AY (gün kaynakta yok; 01 ay işaretidir)" },
+
 // ── 1379 (iki ayrı küme, iki ayrı olay) ─────────────────────────────
 { t:"1379-01-01", b:"Tâceddin Bey Eretna ordusunu Niksar'da bozdu, bağımsız hareket etti", tur:"savas", onem:2, dunya:2, kapsam:"dis", yer_id:"Niksar",
   etiket:["askeri","toprak-kazanc","konu-siyasi"],
@@ -10001,6 +10007,22 @@ window.OLAYLAR_2S_0919 = [
   etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["safevi","babur-imparatorlugu"],
   d:"Hümâyun'un 1556'da Delhi'de ölümünden sonra Şah Tahmasb, Kandehar ve Zemindâver'deki Bâbürlü valileri arasındaki çekişmeden yararlandı; Zemindâver valisinin davetiyle gelen bir Safevî birliği Kandehar'a girdi ve Tahmasb amcazadesi Sultan Hüseyin Mirza'yı şehre vali atadı. Şehir 1595'e kadar Safevî elinde kaldı.",
   kaynak:"EIr KANDAHAR iv. From the Mongol Invasion through the Safavid Era (R. Matthee & H. Mashita, 2010) — AYNEN: \"When Homāyun died in Delhi in 1556, the Safavid Shah Ṭahmāsb took advantage of conflict among the Mughal governors of Kandahar and Zamindāvar\" · hassasiyet: YIL (alt sınır; zaptın kendi yılı metinde yok)" },
+
+// NOT-DUZELT-1016 (Emre notu #2) — 1281'de Vardar Makedonyası Bizans'taydı; Sırp geçişleri
+// TDV'nin verdiği yıllarla (Üsküp 1282 · Debre 1283 · İştip+Köprülü 1330 · Ohri/Ustrumca/Manastır 1334)
+
+
+
+
+// NOT-DUZELT-1016 (Emre notu #3) — Berat 1281-1343 Bizans; Sırp fethi 1343 dolayı (Nicol)
+{ t:"1343-01-01", kesinlik:"yil", b:"Berat Bizans'tan Sırp eline geçti — Stefan Duşan'ın Arnavutluk fethi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Berat", yer:"Berat, Arnavutluk",
+  etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["sirbistan-nemanjic","bizans"],
+  d:"1281'de Anjou kuşatmasını kıran ve o tarihten beri Bizans'ın Adriyatik'teki son eyaletinin merkezi olan Berat kalesi, Bizans iç savaşı sürerken Stefan Duşan'ın Arnavutluk'a ilerleyişinde Sırp eline geçti. Kroya'nın Mayıs ya da Haziran 1343'te teslim olmasının ardından Berat, Kanina ve Avlonya iki yıl içinde Sırpların oldu; eyaletin başına Duşan'ın kayınbiraderi John Komnenos Asen getirildi.",
+  kaynak:"D. M. Nicol, The Despotate of Epiros 1267-1479 (Cambridge 1984), s. 127 — AYNEN: \"Berat, Kanina and Valona were all in Serbian hands within two years. Berat may have fallen by 1343. Valona fell between July and September of 1345.\" · aynı sayfa: \"The Byzantine province of Berat, Valona, Kanina and Spinaritsa, which had come into being in the years after 1281, was now held by a Slav governor.\" · TDV berat--arnavutluk: Bizans … 'tekrar Bizanslılar’ın, Sırplar’ın' (yıl yok) · hassasiyet: YIL, OLASI ('may have fallen by 1343')" },
+
+// NOT-DUZELT-1016 (Emre notu #4 yan bulgu) — Arnavutluk kıyısındaki Anjou kaleleri (Draç, Avlonya, Kanina, Hımara)
+// 1282-03-30 maddesi DENETIM-K27-1016'da olaylar_ek5.js'teki 'Sicilya Akşamı' maddesine BİRLEŞTİRİLDİ (aynı olay;
+// yer alanı ve Nicol/Kiesewetter kaynağı oraya taşındı).
 
 ];
 
@@ -10517,6 +10539,15 @@ window.OLAYLAR_2S0920 = [
 
 window.OLAYLAR_MISIR1801 = [
 
+{ t:"1801-05-14", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:3,
+  etiket:["savas","toprak-kazanc","konu-askeri"],
+  b:"Dimyat'ın Fransızlardan alınması — Lesbe kalesinin boşaltılması",
+  gun:"14 Mayıs 1801",
+  yer:"Dimyat", yer_id:"Dimyat",
+  d:"Sadrazamın ordusundan İbrâhim Paşa kumandasındaki bir kuvvet Dimyat'a gönderildi. 14 Mayıs sabahı Dimyat'ı koruyan Lesbe kalesine yapılacak hücum hazırlanmışken kalenin Fransızlarca boşaltıldığı, garnizonun çekildiği görüldü; ona bağlı iki küçük kale de alındı. Dimyat, Nisan'da düşen Reşîd'in ardından Fransız denetiminden çıkan ikinci Nil ağzı şehri oldu.",
+  kaynak:"London Gazette sayı 15388 (21 Temmuz 1801) s. 889-890 — Grand Vezir ordugâhından 20 Mayıs 1801 tarihli İngiliz raporu: 'the Capture of Fort Lesbie at Damietta, and two smaller Forts depending on it, by a Detachment from the Vizier's Army' · İbrahim Paşa'nın raporuna göre hücum 'on the Morning of the 14th Instant' hazırlanmışken kale boşaltılmış bulundu · üst sınır teyidi: London Gazette 15385 (15 Temmuz 1801), Lord Keith'in 22 Mayıs mektubu 'After the surrendering of Damietta' · TDV'DE KARŞILIĞI YOK (misir/kahire maddeleri gün vermiyor) — §4 gereği birincil belge künyesiyle yazıldı · KUTU-HATALI-1015 (0082/H-0061)",
+  duygu:["🎉"] },
+
 { t:"1801-06-27", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:4,
   etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"Kahire'nin Fransızlardan teslim alınması — Belliard'ın kapitülasyonu",
@@ -10560,7 +10591,7 @@ window.OLAYLAR_MISIR1801 = [
 // ============================================================================
 window.OLAYLAR_SENUSI_0919 = [
 
-{ t:"1551-07-01", kesinlik:"ay", k:"kayip", etiket:["toprak-kayip","siyaset","konu-siyasi"], b:"Erdel'in Banat kalelerinin (Temeşvar, Lippa, Lugos, Karánsebes) Ferdinand'a teslimi", gun:"Temmuz 1551 (Bánlaky: 'július 16-ika körül' — gün kesin değil)", yer:"Lugos, Karánsebes, Temeşvar — Banat", yer_id:"Lugos (Lugoj)", kisiler:"Martinuzzi (Frater György), General Castaldo, Báthory Endre, Kraliçe İzabella", d:"1551'de General Castaldo kumandasındaki Habsburg ordusu Erdel'e girdi; Kraliçe İzabella ve oğlu Macaristan tahtı üzerindeki haklarından vazgeçmek zorunda kaldı. Martinuzzi, Castaldo'nun onayıyla Temmuz 1551 ortasında Báthory Endre'yi Temeşvar, Lippa, Solymos, Karánsebes, Lugos, Becse, Becskerek ve Çanad kalelerini Ferdinand adına teslim almaya gönderdi. Osmanlı himayesindeki Erdel'in güney kaleleri böylece Habsburg eline geçti; Kanûnî'nin 1551-1552 seferleri buna cevaptır.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0013/988 · TDV timisvar ('1551’de General Giovanni Battista Castaldo kumandasında bir Habsburg ordusu Erdel’e girdi. Kraliçe Izabella ve oğlu Macaristan tahtı üzerindeki haklarından vazgeçmek zorunda bırakıldı')", duygu:["😔"] },
+{ t:"1551-07-01", kesinlik:"ay", k:"kayip", etiket:["toprak-kayip","siyaset","konu-siyasi"], b:"Erdel'in Banat kalelerinin (Temeşvar, Lippa, Lugos, Karánsebes) Macaristan Kralı Ferdinand'a teslimi", gun:"Temmuz 1551 (Bánlaky: 'július 16-ika körül' — gün kesin değil)", yer:"Lugos, Karánsebes, Temeşvar — Banat", yer_id:"Lugos (Lugoj)", kisiler:"Martinuzzi (Frater György), General Castaldo, Báthory Endre, Kraliçe İzabella", d:"1551'de General Castaldo kumandasındaki Habsburg ordusu Erdel'e girdi; Kraliçe İzabella ve oğlu Macaristan tahtı üzerindeki haklarından vazgeçmek zorunda kaldı. Martinuzzi, Castaldo'nun onayıyla Temmuz 1551 ortasında Báthory Endre'yi Temeşvar, Lippa, Solymos, Karánsebes, Lugos, Becse, Becskerek ve Çanad kalelerini Ferdinand adına teslim almaya gönderdi. Osmanlı himayesindeki Erdel'in güney kaleleri böylece Habsburg eline geçti; Kanûnî'nin 1551-1552 seferleri buna cevaptır.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0013/988 · TDV timisvar ('1551’de General Giovanni Battista Castaldo kumandasında bir Habsburg ordusu Erdel’e girdi. Kraliçe Izabella ve oğlu Macaristan tahtı üzerindeki haklarından vazgeçmek zorunda bırakıldı')", duygu:["😔"] },
 
 { t:"1554-04-07", k:"diplomasi", etiket:["siyaset","diplomasi","konu-siyasi"], b:"Petrovics Péter'in Lugos ve Karánsebes sancakbeyi atanması", gun:"7 Nisan 1554 (Kanûnî'nin Halep'ten yazdığı mektubun tarihi)", yer:"Lugos ve Karánsebes — Banat; mektup Halep'ten", yer_id:"Lugos (Lugoj)", kisiler:"Kanûnî Sultan Süleyman, Petrovics Péter, Kraliçe İzabella, János Zsigmond", d:"İzabella ve Petrovics'in ısrarlı ricası üzerine Kanûnî, küçük János Zsigmond'u Erdel'e geri döndürmeye karar verdi. 7 Nisan 1554'te Halep'ten yazdığı mektupla Erdel'e çocuğu ülkesine geri götürmelerini emretti; Eflak ve Boğdan voyvodalarına da bu işte, aynı sırada Lugos ve Karánsebes sancakbeyi atadığı Petrovics'e yardım etmelerini buyurdu. 1552'de fethedilen Lugos böylece bir Osmanlı sancağı olarak Petrovics'e verildi.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0013/1022 ('Aleppoban 1554. április 7.-én kelt levelében … Petrovicsnak, akit egyidejűleg lugosi és karánsebesi szandzsákká nevezett ki')", duygu:["🤝"] },
 
