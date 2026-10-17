@@ -7304,9 +7304,115 @@ function koridorTopla() {
   });
 }
 
+// ---------- Eğri yol çizimi (kuş uçuşu cetvel çizgisi YERİNE) ----------
+// Emre (17 Ekim 2026): "kuş uçuşu cetvelle çizilmiş havayolu haritası gibi değil,
+// hangi şehirlerden geçtiğine göre kıvrılan yol haritası".
+// Yol, geçit şehirlerinden SIRAYLA geçen merkezcil Catmull-Rom eğrisidir.
+// ⚠️ Eğri araziyi (dağ, vadi, kıyı) İZLEMEZ — yalnız şehirleri yumuşakça bağlar;
+//    gerçek kıvrım ancak ara geçit (kasaba, boğaz, köprü) eklendikçe gelir.
+//    Veri değişmez: eğri YALNIZ çizimde üretilir.
+function yolEgriParca(a0, a1, a2, a3, n) {
+  var k = Math.cos(a1[1] * Math.PI / 180);
+  function xy(p) { return [p[0] * k, p[1]]; }
+  var P0 = xy(a0), P1 = xy(a1), P2 = xy(a2), P3 = xy(a3);
+  function kd(p, q) { return Math.pow(Math.max(1e-9, Math.hypot(q[0] - p[0], q[1] - p[1])), 0.5); }
+  var t0 = 0, t1 = t0 + kd(P0, P1), t2 = t1 + kd(P1, P2), t3 = t2 + kd(P2, P3);
+  function lerp(p, q, ta, tb, t) {
+    var w = (t - ta) / (tb - ta);
+    return [p[0] + (q[0] - p[0]) * w, p[1] + (q[1] - p[1]) * w];
+  }
+  var out = [];
+  for (var i = 0; i <= n; i++) {
+    var t = t1 + (t2 - t1) * i / n;
+    var A1 = lerp(P0, P1, t0, t1, t), A2 = lerp(P1, P2, t1, t2, t), A3 = lerp(P2, P3, t2, t3, t);
+    var B1 = lerp(A1, A2, t0, t2, t), B2 = lerp(A2, A3, t1, t3, t);
+    var C = lerp(B1, B2, t1, t2, t);
+    out.push([C[0] / k, C[1]]);
+  }
+  return out;
+}
+function _yolAdim(a, b) {                        // iki nokta arası örnek sayısı (~8 km'de bir)
+  var km = Math.hypot((b[0] - a[0]) * Math.cos(a[1] * Math.PI / 180), b[1] - a[1]) * 111.32;
+  return Math.max(4, Math.min(48, Math.round(km / 8)));
+}
+// pts: [[lon,lat],…] — komşusuz uçlar yansıtılır (uçta eğri doğal biter, sapıtmaz)
+function yolEgri(pts) {
+  if (pts.length < 2) return pts;
+  var out = [];
+  for (var i = 0; i < pts.length - 1; i++) {
+    var p1 = pts[i], p2 = pts[i + 1];
+    var p0 = pts[i - 1] || [2 * p1[0] - p2[0], 2 * p1[1] - p2[1]];
+    var p3 = pts[i + 2] || [2 * p2[0] - p1[0], 2 * p2[1] - p1[1]];
+    var seg = yolEgriParca(p0, p1, p2, p3, _yolAdim(p1, p2));
+    if (i > 0) seg.shift();
+    out = out.concat(seg);
+  }
+  return out;
+}
+
+// ---------- Tarihî yollar (ana / tali) — data/yollar_*.js ----------
+var YOLLAR = { liste: [], eksik: [], detay: "hepsi", idx: null };
+
+function yolYerCoz(ad) {
+  if (!YOLLAR.idx) {
+    var tam = {}, govde = {};
+    (window.YERLESIMLER || []).forEach(function (y) {
+      if (!y || !y.ad || y.lat == null || y.lon == null) return;
+      if (!tam[y.ad]) tam[y.ad] = [y.lon, y.lat];
+      var g = String(y.ad).replace(/\s*\(.*$/, "");
+      if (!govde[g]) govde[g] = [y.lon, y.lat];
+    });
+    YOLLAR.idx = { tam: tam, govde: govde };
+  }
+  return YOLLAR.idx.tam[ad] || YOLLAR.idx.govde[ad] || null;
+}
+
+function yolTopla() {
+  YOLLAR.liste = []; YOLLAR.eksik = [];
+  Object.keys(window).forEach(function (k) {
+    if (!/^YOLLAR_[A-Z0-9_]+$/.test(k) || !Array.isArray(window[k])) return;
+    window[k].forEach(function (r) {
+      if (!r || !Array.isArray(r.gecit)) return;
+      var pts = [];
+      r.gecit.forEach(function (ad) {
+        // [lon, lat, "ad"] = atlasın yerleşim verisinde OLMAYAN geçit (açık koordinat)
+        var p = Array.isArray(ad) ? [ad[0], ad[1]] : yolYerCoz(ad);
+        if (p) pts.push(p); else YOLLAR.eksik.push(r.id + ": " + ad);
+      });
+      if (pts.length < 2) { YOLLAR.eksik.push(r.id + ": <2 durak, çizilmedi"); return; }
+      YOLLAR.liste.push({
+        r: r, hat: yolEgri(pts),
+        fi: gunIdx(r.f || "1281-01-01"), ti: gunIdx(r.t || "1923-12-31")
+      });
+    });
+  });
+}
+
+// Eski menzil ağının düz parçalarını da KIVRIT: aynı kol üzerinde komşu kenarla
+// uç uca bağlanan her kenar, komşunun öbür ucunu yönlendirici alır ⇒ zincir
+// boyunca eğri kesintisiz akar, kenarın kendi özellikleri (saat, kaynak) bozulmaz.
+function koridorKenarEgrile() {
+  var bit = {}, bas = {};
+  KORIDOR.kenar.forEach(function (m) {
+    var g = (m.e.kanat || "") + "|" + (m.e.kol || "");
+    if (!bit[g + "|" + m.e.u2]) bit[g + "|" + m.e.u2] = m;
+    if (!bas[g + "|" + m.e.u1]) bas[g + "|" + m.e.u1] = m;
+  });
+  KORIDOR.kenar.forEach(function (m) {
+    var g = (m.e.kanat || "") + "|" + (m.e.kol || "");
+    var A = [m.a.lon, m.a.lat], B = [m.b.lon, m.b.lat];
+    var on = bit[g + "|" + m.e.u1], sn = bas[g + "|" + m.e.u2];
+    var p0 = (on && on !== m) ? [on.a.lon, on.a.lat] : [2 * A[0] - B[0], 2 * A[1] - B[1]];
+    var p3 = (sn && sn !== m) ? [sn.b.lon, sn.b.lat] : [2 * B[0] - A[0], 2 * B[1] - A[1]];
+    m.hat = yolEgriParca(p0, A, B, p3, _yolAdim(A, B));
+  });
+}
+
 function koridorKur() {
   koridorTopla();
-  if (!KORIDOR.kenar.length) { console.log("Atlas: koridor ağı — veri YOK, katman kurulmadı."); return; }
+  yolTopla();
+  if (!KORIDOR.kenar.length && !YOLLAR.liste.length) { console.log("Atlas: koridor ağı — veri YOK, katman kurulmadı."); return; }
+  koridorKenarEgrile();
 
   harita.addSource("koridor-kenar", { type: "geojson", data: bosVeri() });
   harita.addSource("koridor-dugum", { type: "geojson", data: bosVeri() });
@@ -7329,6 +7435,66 @@ function koridorKur() {
       "line-opacity": 0.95
     }
   });
+
+  // TARİHÎ YOLLAR — ana (kalın, dolu) / tali (ince, kesik); menzil boncuklarının ALTINDA.
+  // Kasa (koyu zemin) uydu altlığında da okunsun diye; renkler sınır kırmızısından,
+  // motor camgöbeğinden ve menzil kehribarından ayrı tutuldu.
+  harita.addSource("koridor-yol", { type: "geojson", data: bosVeri() });
+  var _yolOnce = "koridor-kenar-cizgi";
+  harita.addLayer({
+    id: "koridor-yol-kasa", type: "line", source: "koridor-yol",
+    layout: { visibility: "none", "line-cap": "round", "line-join": "round" },
+    paint: {
+      "line-color": "#3b2a12",
+      "line-width": ["interpolate", ["linear"], ["zoom"], 4, ["case", ["==", ["get", "sinif"], "ana"], 3.4, 2.2],
+                     8, ["case", ["==", ["get", "sinif"], "ana"], 5.2, 3.2],
+                     12, ["case", ["==", ["get", "sinif"], "ana"], 8, 5]],
+      "line-opacity": 0.55
+    }
+  }, _yolOnce);
+  harita.addLayer({
+    id: "koridor-yol-ana", type: "line", source: "koridor-yol",
+    filter: ["==", ["get", "sinif"], "ana"],
+    layout: { visibility: "none", "line-cap": "round", "line-join": "round" },
+    paint: {
+      "line-color": "#f2b632",
+      "line-width": ["interpolate", ["linear"], ["zoom"], 4, 1.8, 8, 3.2, 12, 5.4],
+      "line-opacity": 0.97
+    }
+  }, _yolOnce);
+  harita.addLayer({
+    id: "koridor-yol-tali", type: "line", source: "koridor-yol",
+    filter: ["==", ["get", "sinif"], "tali"],
+    layout: { visibility: "none", "line-cap": "butt", "line-join": "round" },
+    paint: {
+      "line-color": "#fff0c2",
+      "line-width": ["interpolate", ["linear"], ["zoom"], 4, 1, 8, 1.7, 12, 3],
+      "line-dasharray": [2.4, 1.4],
+      "line-opacity": 0.97
+    }
+  }, _yolOnce);
+  harita.on("click", "koridor-yol-ana", yolTikla);
+  harita.on("click", "koridor-yol-tali", yolTikla);
+  ["koridor-yol-ana", "koridor-yol-tali"].forEach(function (id) {
+    harita.on("mouseenter", id, function () { harita.getCanvas().style.cursor = "pointer"; });
+    harita.on("mouseleave", id, function () { harita.getCanvas().style.cursor = ""; });
+  });
+  // AYAR — "Yalnız ana / Ana + tali". Seçim tarayıcıda hatırlanır (yoksa varsayılan).
+  var _yds = document.getElementById("yol-detay-sec");
+  if (_yds) {
+    try { var _kay = localStorage.getItem("atlas-yol-detay"); if (_kay === "ana" || _kay === "hepsi") YOLLAR.detay = _kay; } catch (e) { }
+    _yds.value = YOLLAR.detay;
+    _yds.addEventListener("change", function () {
+      YOLLAR.detay = _yds.value === "ana" ? "ana" : "hepsi";
+      try { localStorage.setItem("atlas-yol-detay", YOLLAR.detay); } catch (e) { }
+      try { koridorGuncelle(suanki); } catch (e) { }
+    });
+  }
+  if (YOLLAR.eksik.length)
+    console.warn("Atlas: tarihî yollar — " + YOLLAR.eksik.length + " durak çözülemedi/atlandı: " + YOLLAR.eksik.join(" · "));
+  console.log("Atlas: tarihî yollar — " + YOLLAR.liste.length + " yol kuruldu (" +
+    YOLLAR.liste.filter(function (y) { return y.r.sinif === "ana"; }).length + " ana, " +
+    YOLLAR.liste.filter(function (y) { return y.r.sinif !== "ana"; }).length + " tali).");
 
   // ŞART ③ KAYNAKSIZ DURAK GÖRÜNÜR OLSUN.
   // Duraklara `kaynakli` bayrağı basılıyor ve gösterim ONA göre ayrışıyor:
@@ -7487,8 +7653,36 @@ function koridorKur() {
 // ÇİZİLMEZ — yoksa anakronizm olur ve bu projenin en çok şikâyet edilen
 // hatası tam olarak odur. Süzgeç kenarın KENDİ f/t'sinden okunuyor, sabit
 // tarih GÖMÜLMEDİ: veri bir kolu başka bir aralıkla yazarsa katman ona uyar.
+function yolTikla(ev) {
+  var p = ev.features[0].properties;
+  var govde = "<b>" + String(p.ad).replace(/</g, "&lt;") + "</b><br><i>" +
+    (p.sinif === "ana" ? "ana yol" : "tali yol") + "</i>" +
+    "<p>Geçtiği yerler: " + String(p.gecit).replace(/</g, "&lt;") + "</p>";
+  if (p.ic_not) govde += "<p><i>" + String(p.ic_not).replace(/</g, "&lt;") + "</i></p>";
+  if (p.dogrulandi !== true && p.dogrulandi !== "true")
+    govde += "<p class=\"koridor-uyari\">⚠️ <b>Şehir dizisi ve ana/tali ayrımı henüz kaynakla doğrulanmadı.</b> " +
+      "Çizim şehirleri yumuşak bir eğriyle bağlar; arazi izlenmez.</p>";
+  govde += "<p class=\"koridor-kaynak\">Kaynak: " + String(p.kaynak).replace(/</g, "&lt;") + "</p>";
+  new maplibregl.Popup({ maxWidth: "320px", className: "koridor-popup" })
+    .setLngLat(ev.lngLat).setHTML(govde).addTo(harita);
+}
+
 function koridorGuncelle(t) {
   if (!haritaHazir || !harita.getSource("koridor-kenar")) return;
+  if (harita.getSource("koridor-yol")) {
+    var yf = [];
+    YOLLAR.liste.forEach(function (y) {
+      if (!(y.fi <= t && t < y.ti)) return;
+      if (YOLLAR.detay === "ana" && y.r.sinif !== "ana") return;
+      yf.push({
+        type: "Feature",
+        properties: { ad: y.r.ad, sinif: y.r.sinif, gecit: y.r.gecit.map(function (g) { return Array.isArray(g) ? g[2] : g; }).join(" → "), ic_not: y.r.ic_not || "",
+                      dogrulandi: y.r.dogrulandi === true, kaynak: y.r.kaynak || "bulunamadı" },
+        geometry: { type: "LineString", coordinates: y.hat }
+      });
+    });
+    harita.getSource("koridor-yol").setData({ type: "FeatureCollection", features: yf });
+  }
   var kenarlar = [], canli = {};
   KORIDOR.kenar.forEach(function (m) {
     if (!(m.fi <= t && t < m.ti)) return;
@@ -7501,7 +7695,7 @@ function koridorGuncelle(t) {
         cins: m.e.cins || "menzil",
         saat_cinsi: m.e.saat_cinsi || "olculemedi", kaynak: m.e.kaynak || "bulunamadı"
       },
-      geometry: { type: "LineString", coordinates: [[m.a.lon, m.a.lat], [m.b.lon, m.b.lat]] }
+      geometry: { type: "LineString", coordinates: m.hat || [[m.a.lon, m.a.lat], [m.b.lon, m.b.lat]] }
     });
   });
   // Düğüm yalnız CANLI bir kenara bağlıysa çizilir — tek başına duran bir

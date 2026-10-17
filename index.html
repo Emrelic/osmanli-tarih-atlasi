@@ -133,6 +133,11 @@
            görüntüsü). Menzil ağı bir ARKA PLAN bilgisi; sürekli açık dursa
            haritayı örter. 65 durak + 64 hat, yalnız 1539-1839 arası. -->
       <label><input type="checkbox" data-katman="yollar"> <span>③ Yollar ve koridorlar</span><em id="kat-sayi-yollar"></em></label>
+      <label class="secici-satir"><span>③ Yol ayrıntısı</span>
+        <select id="yol-detay-sec" title="③ açıkken hangi tarihî yollar çizilsin (ana = kalın, tali = ince kesikli)">
+          <option value="hepsi" selected>Ana + tali yollar</option>
+          <option value="ana">Yalnız ana yollar</option>
+        </select></label>
       <!-- 🔴 ④ HAREKÂT OKLARI AYRI KUTUDUR (20 Eylül 2026, SEFER-OK-0070):
            okların kalıbı bir ara ③'ün kovasındaydı ve ③ kapatılınca oklar da
            kapanıyordu — atlas açılışında HİÇ görünmüyorlardı. Koridor bir
@@ -2052,6 +2057,7 @@
      unutmak bu projede yaşanmış bir kusurdur (11 Ağu: 33 nokta tarayıcıya
      hiç girmedi, betik "bağlandı" dedi ama bağlamadı). -->
 <script src="data/koridor.js?v=r219996207"></script>
+<script src="data/yollar_anadolu_balkan.js?v=r175032079"></script>
 <!-- 🟢 ARAYÜZ KORİDOR (16 Ağustos 2026) — YUKARIDAKİ "app.js bunu HENÜZ
      ÇİZMİYOR" UYARISI ARTIK GEÇERSİZ: çizim yazıldı, üç dosyanın altısı da
      (KORIDOR_DUGUM/KENAR · _HALKA2_ · _H2B_) tek katmanda çiziliyor.
