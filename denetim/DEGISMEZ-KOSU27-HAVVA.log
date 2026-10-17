@@ -349,9 +349,9 @@ Ek denetim  i  savaş senkronu: 159/168 kaydın ±30 gün içinde maddesi var
               1657-07-19  deniz    Çanakkale zaferi                 +37g  Çanakkale zaferi ve Bozcaada'nın g
               1511-03-01  isyan    Şahkulu (Teke)                   +31g  Şahkulu isyanının başlaması
 Ek denetim  i  zincir_kaynagi: 0 kayıt beyanlı — bayat kopya sorusu SORULACAK beyan yok (serbest metin kopyaları bu kapıya GÖRÜNMEZ)
-Değişmez 8a ✓  şehir peteği D hattını aşıyor: 156 birim (tavan 156) — ≥5 km · 828 (hat, gün) ölçüldü · gövde 2026-10-17 03:01 · uret_petek 49224acf
-Değişmez 8b ✓  Osmanlı bölgesi yabancı gövdede: 85 (bölge, gün) (tavan 85) — ≥50 km² ve ≥%1
-            i ayrı kovalar (ihlal DEĞİL, sayılır): C/YOK hattı taşması 372 · ölçülemeyen (hat, gün) 80 · süre 81+9 sn
+Değişmez 8a ✓  şehir peteği D hattını aşıyor: 156 birim (tavan 156) — ≥5 km · 828 (hat, gün) ölçüldü · gövde 2026-10-17 03:01 · uret_petek 49224acf · bölge PENCERELİ
+Değişmez 8b ✓  Osmanlı bölgesi yabancı gövdede: 0 (bölge, gün) (tavan 0) — ≥50 km² ve ≥%1
+            i ayrı kovalar (ihlal DEĞİL, sayılır): C/YOK hattı taşması 372 · ölçülemeyen (hat, gün) 80 · süre 88+9 sn
 Değişmez 8k ✓  ölçülemeyen hat: 31 TAM KÖR (hiçbir günü ölçülmedi) · 18 yarım · 80 (hat,gün) · defter 80 üye
             i D8_SINIF (D/E/F, tavan sınıfı) tam kör hat: 11 — bu hatlarda taşma HİÇ SORULMADI (taşması 0 görünür); öteki sınıflar 20
             i körlük SAYIYLA ayırt edilemez: bir hat ölçülmemeye başlayınca tavan 'iyileşti' der

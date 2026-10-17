@@ -54,7 +54,7 @@ TUZ = {"arac/uret_petek.py", "arac/renkler.py", "arac/girdi.py", "arac/motor_onb
 # burada TAKİPLİ türevler sayılır. `paket_*.js` BURADA DEĞİL: `paketle.py yenile`
 # kaynak veriden türer ve veri yazan oturum onu kendisi tazeler (yoksa site eski veriyi okur).
 URETILEN_DESEN = ("data/*parca*.js", "data/*_ust.js", "data/bolgeler.js",
-                  "data/devirler.js")
+                  "data/bolge_pencere.js", "data/devirler.js")
 # Rebase çatışmasında KAPININ çözdüğü üretilmiş dosyalar (paketle.py + surum_damgala.py çıktısı).
 PAKET_DESEN = ("data/paket_*.js", "data/paket_kunye.json")
 INDEX = "index.html"

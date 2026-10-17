@@ -5258,7 +5258,13 @@ BEKLENEN_D8A = 156   # 17 Ekim 2026: 981 → 156, KOŞU 27 (sınır kısıtı il
 #    YENİ 4: El-Fâşir 1884-01-14 · Sevâkin 1884-02-08 · Kahire 1914-12-17 (%4) ·
 #    Prizren 1455-06-20 (%2); 3 eski birim düştü, net +1. ⚠️ BEYANLI BORÇ: dördü de
 #    kaynaklı veri değişikliğinin yan ürünü, gövde-kırılma uyumsuzluğu — iyileşince iner.
-BEKLENEN_D8B = 85   # 84 → 85, KOŞU 27, Emre 17 Ekim 2026 (önceki: 82 → 84, KOŞU 24, 14 Ekim).
+# 🟢 85 → 0, 17 Ekim 2026 (Emre: "bölge sınırı her gün o günkü Osmanlı gövdesiyle
+#    kırpılsın … 8b tavanı 0'a insin"). 85 birimin hepsi ZAMANSIZ bölge çizgisinin
+#    bölgenin ilk/son gününde o gün yabancı olan bağlı yerleşimleri kuşatmasıydı;
+#    veri hatası değildi. Çare `arac/uret_bolge_pencere.py` (iniş adımı) →
+#    `data/bolge_pencere.js`; site ve 8b artık pencere geometrisini okur. Sınav iki
+#    yönde: pencereli 0 · `bolge_pencere.js` kaldırılınca (zamansız) 85.
+BEKLENEN_D8B = 0    # 85 → 0, 17 Ekim 2026 (önceki: 84 → 85 KOŞU 27 · 82 → 84 KOŞU 24).
 # DEFTER — tavan bir sayı, defter bir küme (2t'nin gerekçesiyle birebir).
 #   `hatlar`: tavanın EVRENİ. Tavan yazıldıktan SONRA eklenen D hattı bu
 #   evrende değildir: taşması "YENİ KAPSAM" kovasında ADIYLA ve SAYIYLA basılır,
@@ -5436,6 +5442,19 @@ class _D8Govde:
                 os.path.getmtime(os.path.join(DATA, "devletler_harita.js")))),
             (iz.get("uret_petek.py") or "?")[:8])
         self.bolgeler = B["BOLGELER"]
+        # 🔴 ZAMAN PENCERELİ BÖLGE (Emre, 17 Ekim 2026): site bölge çizgisini
+        #   `bolge_pencere.js`ten çizer (arac/uret_bolge_pencere.py, iniş adımı).
+        #   8b SİTENİN ÇİZDİĞİNİ ölçer ⇒ dosya varsa pencere geometrisi, yoksa
+        #   eski zamansız `g` (eski ağaçlar). Hangisinin ölçüldüğü damgaya yazılır.
+        _bp = os.path.join(DATA, "bolge_pencere.js")
+        self.bolge_pencere = None
+        if os.path.isfile(_bp):
+            P = _d8_js(_bp)["BOLGE_PENCERE"]
+            self.bolge_pencere = {b["ad"]: [(pad(f), pad(t), P["g"][gi]) for f, t, gi in b["p"]]
+                                  for b in P["b"]}
+            self.damga += " · bölge PENCERELİ"
+        else:
+            self.damga += " · bölge ZAMANSIZ (bolge_pencere.js yok)"
         # (kaynak_havuz, kaynak_halka, dönem listesi[(id, f, t, g)])
         self.kay = [
             (H["DEVLET_PARCALAR"], H["DEVLET_PARCA_HALKA"],
@@ -5744,21 +5763,38 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
 
     # ---- 8b BÖLGE × GÖVDE ----
     b_tasma = []
-    for B in gv.bolgeler:
+
+    def _mp(g_koord):
         poligonlar = []
-        for pg in B.get("g") or []:
+        for pg in g_koord or []:
             try:
                 g = gv._Polygon(pg[0], pg[1:])
                 poligonlar.append(g if g.is_valid else g.buffer(0))
             except Exception:
                 pass
-        if not poligonlar:
+        return unary_union(poligonlar) if poligonlar else None
+
+    for B in gv.bolgeler:
+        BG_zamansiz = _mp(B.get("g"))
+        if BG_zamansiz is None:
             continue
-        BG = unary_union(poligonlar)
         M = _d8_izdusum(B["lon"], B["lat"])
-        alan = affine_transform(BG, M).area
+        # Oran paydası ZAMANSIZ bölge alanıdır (pencere küçüldükçe oran şişmesin).
+        alan = affine_transform(BG_zamansiz, M).area
+        pencereler = None if gv.bolge_pencere is None else gv.bolge_pencere.get(B["ad"], [])
         _dusen, _olcul = _d8_gunler(B.get("f"), B.get("t"))
         for gun in sorted(_dusen + _olcul):
+            if pencereler is None:
+                BG = BG_zamansiz
+            else:
+                # Site o gün hangi pencereyi çiziyorsa onu ölç; pencere yoksa
+                # o gün çizgi YOK ⇒ taşma da yok.
+                aktif = [g for f, t, g in pencereler if f <= gun < t]
+                if not aktif:
+                    continue
+                BG = _mp(aktif[0])
+                if BG is None:
+                    continue
             parca = gv.kesit(gun, BG.bounds)
             osm = [g for gid, g in parca if gid in ("OSMANLI", "OSM-TABI")]
             yab = {}

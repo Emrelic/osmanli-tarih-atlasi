@@ -582,14 +582,40 @@ for (var _dz = 0; _dz < donemler.length; _dz++) {
 
 // Bölge (k1/k2 merkez) sınırları — data/bolgeler.js. Her kayıt, merkeze bağlı
 // yerleşim peteklerinin birleşimi; yalnız merkezin Osmanlı aralığında çizilir.
-var bolgeler = (window.BOLGELER || []).map(function (b) {
-  return { fi: gunIdx(b.f), ti: gunIdx(b.t),
-           // `uy` = bölgeye bağlı yerleşimler. Etiketin ipucu metnine giriyor:
-           // kullanıcı "bu bölge neyi kapsıyor" diye sorduğunda cevap orada.
-           uy: b.uy || null,
-           ft: { type: "Feature", properties: { ad: b.ad },
-                 geometry: { type: "MultiPolygon", coordinates: b.g } } };
-});
+// 🔴 ZAMAN PENCERELİ BÖLGE (Emre, 17 Ekim 2026): `bolgeler.js` geometrisi
+// ZAMANSIZDIR (bağlı yerleşimlerin bütün peteklerinin birleşimi) ve merkezin
+// bütün Osmanlı aralığında çizilince o gün yabancı olan toprağı da kuşatıyordu
+// (Değişmez 8b, KOŞU 27: 85 birim — Bursa 1326 Karesi'yi, Erzurum 1920 Kars'ı
+// içine alıyordu). `data/bolge_pencere.js` (arac/uret_bolge_pencere.py, iniş
+// adımı) her bölgeyi o günün Osmanlı gövdesiyle kırpılmış PENCERELERE böler.
+// Her pencere aşağıdaki diziye AYRI kayıt olarak girer; tüketiciler (çizgi,
+// etiket, parlama) zaten `aktifAralik(fi, ti)` ile süzdüğü için değişmez.
+// Dosya yoksa eski zamansız geometriye düşülür (sessiz değil: konsola yazılır).
+var bolgeler = (function () {
+  var uyAd = {};
+  (window.BOLGELER || []).forEach(function (b) { uyAd[b.ad] = b.uy || null; });
+  var BP = window.BOLGE_PENCERE;
+  if (BP && BP.g && BP.b) {
+    var dz = [];
+    BP.b.forEach(function (b) {
+      b.p.forEach(function (p) {
+        dz.push({ fi: gunIdx(p[0]), ti: gunIdx(p[1]), uy: uyAd[b.ad] || null,
+                  ft: { type: "Feature", properties: { ad: b.ad },
+                        geometry: { type: "MultiPolygon", coordinates: BP.g[p[2]] } } });
+      });
+    });
+    return dz;
+  }
+  if (window.BOLGELER) console.warn("bolge_pencere.js yok — bölge sınırı ZAMANSIZ geometriyle çiziliyor");
+  return (window.BOLGELER || []).map(function (b) {
+    return { fi: gunIdx(b.f), ti: gunIdx(b.t),
+             // `uy` = bölgeye bağlı yerleşimler. Etiketin ipucu metnine giriyor:
+             // kullanıcı "bu bölge neyi kapsıyor" diye sorduğunda cevap orada.
+             uy: b.uy || null,
+             ft: { type: "Feature", properties: { ad: b.ad },
+                   geometry: { type: "MultiPolygon", coordinates: b.g } } };
+  });
+})();
 // 🔴 BÖLGE ETİKETİNE NİTELİK EKİ — ölçülmüş bir kusurun karşılığı.
 // Kullanıcı İKİ KEZ aynı şeyi bildirdi: *"Çankırı'nın kuzeyinde garip bir
 // Ankara etiketi daha var"* ve *"hakiki Bursa'nın doğusunda bir Bursa etiketi

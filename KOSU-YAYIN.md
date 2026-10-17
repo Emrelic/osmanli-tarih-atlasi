@@ -88,10 +88,15 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
   **"BAYAT TÜREV" ile durması DOĞRUDUR**; türev adımları ELLE (gözetimsiz yayın bir ürün kararı,
   Emre'de). İniş adım adım, HER ÇIKIŞ KODU okunarak:
   **`kodla.py yay <girdi.js> <dizin> <hedef>`** (DÖRT argüman, DÖRT hedef) → `coz-c`
-  (İKİ dosya, §5) → `denetle` → `renk_olc` → `paketle.py yenile` → `surum_damgala`
+  (İKİ dosya, §5) → **`uret_bolge_pencere.py`** → `denetle` → `renk_olc` → `paketle.py yenile` → `surum_damgala`
   → `denetle_yayin`. Hedefler (`py arac/kodla.py hedefler`): `devlet`
   (`devletler_harita.js`) · `donem` (`donemler.js`) · `govde` (`petek_govde.js`) ·
-  `bant` (`ufuk_bantlari.js`). `yay` yazdıktan sonra **DİSKTEN** gidiş-dönüş sınavı
+  `bant` (`ufuk_bantlari.js`).
+  🆕 🔴 **`uret_bolge_pencere.py` (Emre, 17 Ekim 2026)** — bölge sınırını o günün Osmanlı
+  gövdesiyle kırpar → `data/bolge_pencere.js` (~3 MB, ~5 dk). `coz-c donemler.js`den
+  SONRA (gövdeyi okur, kimliğini sınar), `denetle`den ÖNCE (8b pencereyi ölçer). Atlanırsa
+  site ve 8b ESKİ koşunun penceresini okur — bölge sınırı yeni gövdeyle uyuşmaz.
+  Çıkış 0 tamam · 2 gövde yok/uyuşmuyor. `yay` yazdıktan sonra **DİSKTEN** gidiş-dönüş sınavı
   yapar, geçmezse yazdıklarını SİLER.
   🔴 **ARİTE HATASI KENDİNİ "KOMUT YOK" DİYE TANITIYOR** (11 Ekim 2026): `kodla.py`nin
   sevk tablosu `if a[0] == "yay" and len(a) == 4` biçiminde; eşleşmeyen her hâl düşme
