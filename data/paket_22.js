@@ -437,7 +437,8 @@ window.YERLESIMLER_OK107 = [
   kaynak:"ustrumca" },
 
 { ad:"Doyran", tur:"kasaba", lat:41.183, lon:22.717, k:4, m:null,
-  s:[{f:"1281-01-01",t:"1371-09-26",d:"sirbistan"},
+  s:[{f:"1281-01-01",t:"1334-01-01",d:"bizans",kesinlik:{f:"gun",t:"yil"},kaynak:"POSTIT-47 · TDV doyran: 1204'ten 1371'e altı kez el değiştirdi (Selânik İmp., Epiros, İznik); Sırp alış yılını TDV vermez. 1281'de Sırp sahipliğine dayanak yok (eski kayıt kaynaksızdı) · t: 'gün komşudan': Ustrumca'nın TDV'li Duşan yılı 1334 (kronoloji_sinir_komsu.js), gün yok; Doyran'ın kendi alış yılı ölçülemedi"},
+     {f:"1334-01-01",t:"1371-09-26",d:"sirbistan",kesinlik:{f:"yil",t:"gun"},kaynak:"POSTIT-47 · TDV doyran: Sırp İmparatorluğu yönetiminde, 1371 Çirmen'de Sırp devleti parçalandı; alış yılı komşudan (Ustrumca 1334), Doyran'a özgü kaynak yok"},
      {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
      {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
      {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
