@@ -1108,8 +1108,8 @@
     },
     {
      "yol": "data/yerlesimler_anadolu_0914.js",
-     "sha": "3c8368a09fb89c35",
-     "bayt": 23887
+     "sha": "d3958c8f56f5e794",
+     "bayt": 26384
     },
     {
      "yol": "data/yerlesimler_ukrayna_0916.js",
@@ -1147,7 +1147,7 @@
      "bayt": 209227
     }
    ],
-   "bayt": 374675
+   "bayt": 377172
   },
   {
    "paket": "data/paket_24.js",
