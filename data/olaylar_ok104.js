@@ -63,4 +63,13 @@ window.OLAYLAR_OK104 = [
   d:"İzladi yenilgisinin ardından (TDV Kruya: 847/1443) İskender Bey Kruja'yı işgal etti. 1437'de babası Gjon Kastrioti'nin ölümünden sonra Osmanlılar şehri ona değil atadıkları Hasan Bey'e vermişti. Yalnız yıl bilinir; gün teyitsizdir.",
   kaynak:"kruya", duygu:["😐"] },
 
+// ── POST-IT #4 · Draç 1392 — Venedik. Yıl: Sufflay (Medieval Albania) + Men of Empire (Venedik tarafı);
+// TDV drac yılsız. Gün teyitsiz → 1392-01-01.
+{ t:"1392-01-01", k:"siyaset", etiket:["toprak-kazanc","diplomasi","konu-siyasi"],
+  b:"Draç (Durrës) Thopia'dan Venedik'e geçti",
+  gun:"1392", yer:"Draç", yer_id:"Draç",
+  kisiler:"George Thopia",
+  d:"Charles Thopia'nın 1368'de aldığı Draç'ı oğlu George Thopia 1392'de Venedik'e bıraktı (TDV Draç: 'Thopia’nın oğlu George tarafından Venedik’e bırakıldı', yılsız); Venedik şehrin statülerini Ağustos 1392'de onayladı. Venedik, Draç'ı 1501'de Osmanlılar alana kadar elinde tuttu. Yalnız yıl bilinir; gün teyitsizdir.",
+  kaynak:"drac", duygu:["😐"] },
+
 ];
