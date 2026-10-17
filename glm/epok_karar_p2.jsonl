@@ -1,0 +1,60 @@
+{"ad":"Malatya","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"cümleler tahrip/lojistik (1243-1258 Moğol, 1282 köprü); 1281 sahiplik cümlesi yok"}
+{"ad":"Maraş","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"blok boş (yer=0); 1281 pencere cümlesi çıkmadı — düzeltme geçişi hicri-biçim yeniden tarayacak"}
+{"ad":"Adana","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"1281 pencere cümlesi yok (1378 Memlük-Yüregir); atlas kilikya-ermeni sessiz"}
+{"ad":"Tarsus","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"antik/abbasi cümleleri; 1281 yok"}
+{"ad":"Antakya","kova":2,"tdv_sahip":"Memlük","tdv_tarihi":"1268-","guven":"yuksek","alinti_prefix":"1268'e kadar buraya birçok Haçlı sülâlesi hükmetti","not":"18 Mayıs 1268 fethi cümlesi de var"}
+{"ad":"Lüleburgaz","kova":2,"tdv_sahip":"Bizans","tdv_tarihi":"-1358","guven":"orta","not":"1358 Osmanlı alışı; öncesi terkedilmiş kale — 1281 Bizans çerçevesi"}
+{"ad":"Çirmen","kova":2,"tdv_sahip":"Bizans","tdv_tarihi":"-1371","guven":"orta","not":"1371 Osmanlı zaferi; 1281 Bizans"}
+{"ad":"Eski Zağra (Stara Zagora)","kova":2,"tdv_sahip":"Bulgar","tdv_tarihi":"-1371","guven":"orta","not":"muhtemelen 1371 Osmanlı; 1281 Bulgar (2. çarlık) — ?bulgaristan id künyesiz"}
+{"ad":"Tatarpazarcığı","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"1694+ cümleler; 1281 yok"}
+{"ad":"İhtiman","kova":2,"tdv_sahip":"Bulgar","tdv_tarihi":"-1371","guven":"orta","not":"772 (1370-71) Osmanlı zaptı; 1281 Bulgar"}
+{"ad":"Köstendil","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"1330 Velbujd + 1371 Sırp prensi; 1281 açık cümle yok"}
+{"ad":"Gelibolu","kova":2,"tdv_sahip":"Bizans","tdv_tarihi":"1235-","guven":"yuksek","alinti_prefix":"Ioannes tarafından geri alındı (1235)","not":"1204 Latin → 1235 Bizans; 1304 Katalan misafir"}
+{"ad":"Edirne","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"hicri-osmanlı cümleleri yanlış yakalandı (1245/1829 vb); gerçek 1281 cümlesi yok (1342 tekfur uzak)"}
+{"ad":"Dimetoka","kova":2,"tdv_sahip":"Bizans","tdv_tarihi":"1246-","guven":"yuksek","alinti_prefix":"1230-1246 yılları arasında Bulgarlar'ın hâkimiyetinde kaldıysa da bu son tarihten itibaren Bizans'ın yönetimi altına girdi"}
+{"ad":"Kırklareli","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"1281 pencere cümlesi yok"}
+{"ad":"Tekirdağ","kova":2,"tdv_sahip":"Bizans","tdv_tarihi":"1275-","guven":"yuksek","alinti_prefix":"Mikhail zamanında 1275'te şehir tekrar Bizans idaresine girdi"}
+{"ad":"İstanbul","kova":2,"tdv_sahip":"Bizans","tdv_tarihi":"1261-","guven":"yuksek","alinti_prefix":"Elli yedi yıl süren mücadeleden sonra 25 Temmuz 1261'de","not":"Latin 1204-1261; 1281 Bizans"}
+{"ad":"Filibe","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"1204 saldırı + 1361 Osmanlı; 1281 için sessiz — atlas bulgaristan şüpheli ama TDV hüküm vermiyor"}
+{"ad":"Sofya","kova":2,"tdv_sahip":"Bulgar","tdv_tarihi":"809-1380","guven":"yuksek","alinti_prefix":"Han Krum tarafından zaptedilen ve Bulgar Devleti'ne dahil edilen Sofya 1380'li yılların başında Osmanlı idaresine girdi","not":"aralık cümlesi tek paragraf"}
+{"ad":"Niş","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"971 Bizans + 1386 Osmanlı; 1281 sessiz — atlas sirbistan şüpheli ama cümle yok"}
+{"ad":"Vidin","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"dusuk","not":"1257-1272 Macar/Bulgar el değiştirme (1272 Macar vasalı); 1281 için açık cümle yok"}
+{"ad":"Varna","kova":2,"tdv_sahip":"Bulgar","tdv_tarihi":"790-1393","guven":"orta","not":"790 Bulgar dahil + 971 Bizans + 1393 Osmanlı; ikinci çarlık 1186-1393 bağlamı"}
+{"ad":"Şumnu","kova":2,"tdv_sahip":"Bulgar","tdv_tarihi":"1186-1393","guven":"orta","not":"Bulgar İmparatorluğu (1186-1393) cümlesi; 1270 Tatar işgali yazıtı baskı, hâkimiyet değil"}
+{"ad":"Silistre","kova":2,"tdv_sahip":"Bulgar","tdv_tarihi":"1279-","guven":"orta","not":"1279 İvaylo kuşatması Bulgar iç savaşı bağlamı"}
+{"ad":"Niğbolu","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"963 Bizans + 1330+ Bulgar paraları; 1281 açık cümle yok"}
+{"ad":"Rusçuk","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"hicri-osmanlı cümleler yanlış yakalandı; 1281 yok"}
+{"ad":"Selanik","kova":2,"tdv_sahip":"Bizans","tdv_tarihi":"1246-1342","guven":"orta","not":"1205-1225 Latin krallık; 1342 tekfur; 1246 Vatatzis alışı Serez maddesinde"}
+{"ad":"Serez","kova":2,"tdv_sahip":"Bizans","tdv_tarihi":"1246-","guven":"yuksek","alinti_prefix":"Bulgarlar'ın ve Latinler'in ardarda işgallerinden sonra 1246 yılında III.","not":"kesik cümle — III. Ioannis Vatatzis"}
+{"ad":"Kavala","kova":2,"tdv_sahip":"Bizans","tdv_tarihi":"1242-","guven":"yuksek","alinti_prefix":"Uzun süre Franklar'ın hâkimiyetinde kaldıktan sonra 1242-1243'te Bizanslılar tarafından geri alındı"}
+{"ad":"Üsküp","kova":1,"tdv_sahip":"Bizans","tdv_tarihi":"-1282","guven":"yuksek","alinti_prefix":"Milutin (1282-1321) Üsküp şehrini ele geçirerek devletinin merkezi yaptı","not":"atlas sirbistan 1281; Sırp fethi 1282"}
+{"ad":"Manastır","kova":4,"tdv_sahip":"","tdv_tarihi":"","guven":"yuksek","alinti_prefix":"YANLIŞ MADDE: TDV manastir = manastır KURUMU maddesi","not":"trap ②; şehir (Bitola) maddesi değil"}
+{"ad":"Ohri","kova":1,"tdv_sahip":"Bizans","tdv_tarihi":"1018-1334","guven":"orta","alinti_prefix":"1334'te Sırp Kralı Stefan Duşan tarafından ele geçirildi","not":"atlas sirbistan 1281; uç tarihler TDV'de: 1018 Bizans girişi, 1334 Sırp"}
+{"ad":"Yanya","kova":1,"tdv_sahip":"Epir Despotluğu","tdv_tarihi":"1204-1318","guven":"orta","alinti_prefix":"1318'de tekrar Bizans İmparatorluğu'na katılsa da","not":"atlas bizans 1281; 'tekrar katılma' 1318 = öncesinde Bizans'ta değil, Epir'de"}
+{"ad":"Yenişehir (Larissa)","kova":2,"tdv_sahip":"Bizans","tdv_tarihi":"986-1386","guven":"orta","not":"986 Samuil sonrası Bizans; 1386 Osmanlı — bu nokta için yenisehir maddesi DOĞRU (Tesalya)"}
+{"ad":"Tırhala","kova":2,"tdv_sahip":"Bizans","tdv_tarihi":"-1349","guven":"yuksek","not":"1349 Sırp Duşan ilhakı → önce Bizans"}
+{"ad":"Atina","kova":2,"tdv_sahip":"Latin Atina Dukalığı (de la Roche)","tdv_tarihi":"1204-1311","guven":"yuksek","alinti_prefix":"yeni kurulmuş olan Burgundiya (İng.","not":"atlas atinadukaligi DOĞRU yazılmış — çelişki sınıfı değil"}
+{"ad":"Mora (Tripoliçe)","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"D208: MORA maddesi bölge anlatıyor; Tripoliçe şehrine hüküm taşınmaz. Bölge 1281 Ahaya/Anjou (1278 cümlesi) ama bu şehir cümlesi değil"}
+{"ad":"Modon","kova":2,"tdv_sahip":"Venedik","tdv_tarihi":"1209-","guven":"yuksek","alinti_prefix":"Venedikliler 1209'da Modon'u tekrar alınca"}
+{"ad":"Anabolu (Nauplion)","kova":1,"tdv_sahip":"(Ven. değil — Frank Ahaya bağlamı)","tdv_tarihi":"-1389","guven":"orta","alinti_prefix":"1389'da Venedikliler'in idaresi altına girdi","not":"atlas venedik 1281; TDV Venedik idaresine GİRİŞİ 1389'a koyuyor"}
+{"ad":"İnebahtı","kova":1,"tdv_sahip":"Epir Despotluğu","tdv_tarihi":"1204-1294","guven":"yuksek","alinti_prefix":"Epiros Despotluğu toprakları içinde kaldı","not":"atlas venedik 1281; 1294 kısa Anjou, sonra Shpata 1407'e kadar, Venedik 1407"}
+{"ad":"Eğriboz","kova":2,"tdv_sahip":"Venedik","tdv_tarihi":"1204-1470","guven":"yuksek","alinti_prefix":"Venedikliler'in kontrolü altına girdi","not":"1304 tahkim + 1470 Osmanlı"}
+{"ad":"İstefe (Tebai)","kova":2,"tdv_sahip":"Latin Atina Dukalığı","tdv_tarihi":"1204-1311","guven":"yuksek","alinti_prefix":"Haçlı Prensi Othon de la Roche, Thebai ve ona bağlı yerleri ele geçirdi","not":"1311 Katalan"}
+{"ad":"Livadya","kova":2,"tdv_sahip":"Latin Atina Dukalığı","tdv_tarihi":"1204-1311","guven":"yuksek","alinti_prefix":"Haçlı Prens Othon de la Roche şehri ve çevresini ele geçirdi"}
+{"ad":"İzdin (Lamia)","kova":1,"tdv_sahip":"Latin markizliği/Bizans (Katalan değil)","tdv_tarihi":"-1318","guven":"yuksek","alinti_prefix":"1318'den 1388'e kadar Atina Katalan Dukalığı'na ait olan şehir","not":"atlas katalan 1281; Katalan dönemi 1318 ile başlıyor"}
+{"ad":"İşkodra","kova":1,"tdv_sahip":"(Ven. değil — Sırp/Bizans bağlamı)","tdv_tarihi":"-1396","guven":"yuksek","alinti_prefix":"George Stratsimirović şehri Venedikliler'e sattı","not":"atlas venedik 1281; Venedik satış 1396; 1360-93 Balšić"}
+{"ad":"Akçahisar (Kruja)","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"dusuk","not":"blok boş; akcahisar maddesinin Kruja olup olmadığı düzeltme geçişinde başlıktan doğrulanacak"}
+{"ad":"Avlonya","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"'Ardından Bizans ve Sırplar'ın, 1378+ Balşa' sıralaması 1281'i tarihlemiyor — çıkarım halka almaz (D208); Anjou Arnavutluk krallığı (Dıraç) komşu"}
+{"ad":"Priştine","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"1291 hicri salnâme yanlış yakalandı; 1281 cümle yok (1321+ Sırp)"}
+{"ad":"Semendire","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"1459+ Osmanlı; 1281 yok"}
+{"ad":"Belgrad","kova":1,"tdv_sahip":"Macaristan","tdv_tarihi":"-1354","guven":"yuksek","alinti_prefix":"1354'te Sırp Kralı Stefan Duşan tarafından zaptedilen Belgrad, onun ölümünden sonra tekrar Macar idaresine girerek","not":"atlas sirbistan 1281; Sırp alışı 1354, sonra tekrar Macar"}
+{"ad":"Saraybosna","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"1415+ akınlar; 1281 yok"}
+{"ad":"Mostar","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"1466+; 1281 yok"}
+{"ad":"Banaluka","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"1463 ilk kayıt; 1281 yok"}
+{"ad":"Bükreş","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"1462+; 1281 yok (Eflak kuruluş öncesi) — atlas macaristan sessiz kalıyor"}
+{"ad":"Kili","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"1339+; 1281 yok (delta Nogay bölgesi bilgisi TDV cümlesine taşınmaz)"}
+{"ad":"Roman","kova":4,"tdv_sahip":"","tdv_tarihi":"","guven":"yuksek","alinti_prefix":"YANLIŞ MADDE: TDV roman = edebî tür maddesi","not":"trap ②; Bulgaristan şehri maddesi değil"}
+{"ad":"İbrail","kova":3,"tdv_sahip":"","tdv_tarihi":"","guven":"orta","not":"1538+; 1281 yok"}
+{"ad":"Budin","kova":2,"tdv_sahip":"Macaristan","tdv_tarihi":"1241 sonrası-","guven":"yuksek","not":"1241-42 Moğol istilâsı SONRASI imar — Macar krallığı devam ediyor"}
+{"ad":"Peçuy","kova":2,"tdv_sahip":"Macaristan","tdv_tarihi":"1009-","guven":"orta","not":"1009 Macar kralı piskoposluk + 1242 geçici Tatar yakımı"}
+{"ad":"Estergon","kova":2,"tdv_sahip":"Macaristan","tdv_tarihi":"1241 sonrası-","guven":"orta","not":"1241 Moğol istilâsı dönüm noktası (geçici); Macar devam"}

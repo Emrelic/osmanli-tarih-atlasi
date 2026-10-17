@@ -1,0 +1,237 @@
+# GLM1-EPOK-SAHIP-1016-oneri.diff — ① ÇELİŞİYOR kovasındaki 33 kalem için düzeltme ÖNERİLERİ
+# Ölçüm: GLM-I, 16-17 Ekim 2026, worktree glm-epok-1016 (HEAD 8ecbd56e).
+# Bu dosya ÖNERİDİR: data/ dosyalarına yazılmadı; uygulama Emre'nin onayıyla.
+# Kural (CLAUDE.md, künye aşımı): devlet öldüyse dönemi KISALT · aynı polity sürüyorsa künyeyi GENİŞLET ·
+# ardıl yapı geçtiyse ardıl künye. Aşağıdaki -/+ satırları bu üçlüye göre etiketlendi.
+# Sözde-diff formatı: - mevcut atlas 1281 sahibi / + öneri · dayanak: TDV cümlesi (slug).
+
+--- Ahıska  (sahip_id gurcistan · yerlesimler.js · 41.643,42.986 · Anadolu)
+- 1281 sahibi (atlas): Gürcistan Krallığı/Krallıkları  [TDV: Moğollar · 1267-1268]
++ öneri: ilhanli
+  gerekçe: Moğol hâkimiyeti 1267-68'den beri; Gürcistan dönemi 1267'de biter (KISALT)
+  dayanak: Ahıska, 1267-1268 yıllarında Moğollar'ın hâkimiyeti altına girdi
+  kaynak : https://islamansiklopedisi.org.tr/ahiska/
+
+--- Bartın  (sahip_id selcuklu · yerlesimler.js · 41.634,32.338 · Anadolu)
+- 1281 sahibi (atlas): Anadolu (Türkiye) Selçuklu Devleti  [TDV: Bizans · 1261-]
++ öneri: bizans
+  gerekçe: 1204 Trabzon Rum→1214 İznik→1261 Bizans; Selçuklu geri alınmış sayılır (KISALT)
+  dayanak: 1261'de yeniden Bizans'ın eline geçti
+  kaynak : https://islamansiklopedisi.org.tr/bartin/
+
+--- Behisni (Besni)  (sahip_id memluk · yerlesimler.js · 37.693,37.860 · Anadolu)
+- 1281 sahibi (atlas): Memlûk Sultanlığı (Mısır-Suriye)  [TDV: Ermeni Krallığı (Kilikya) · 1261-1293]
++ öneri: ermeni-kilikya
+  gerekçe: TDV: Baybars Besni'nin Ermeniler'in elinde kalmasına razı oldu (1268); Memlûk 1293 (KISALT-ardıl)
+  dayanak: Baybars ... Besni'nin Ermeniler'in elinde kalmasına razı oldu (1268); Besni ve yöresi 1293'te tekrar Memlükler'in eline geçti
+  kaynak : https://islamansiklopedisi.org.tr/besni/
+
+--- Karapınar  (sahip_id karaman · yerlesimler_ek29.js · 37.716,33.551 · Anadolu)
+- 1281 sahibi (atlas): Karamanoğulları  [TDV: yok (1514 kuruluş) · 1514]
++ öneri: __BOSLUK__
+  gerekçe: yerleşim 1514'te (Yavuz) kuruldu; 1281'de nokta olmamalı — Karamanoğlu yazılmaz
+  dayanak: Yavuz Sultan Selim'in surla çevrili derbend köyünü inşa etmesinden sonra (1514) buraya bazı Türkmen aşiretlerinin yerleştiği sanılmaktadır
+  kaynak : https://islamansiklopedisi.org.tr/karapinar/
+
+--- Maraş  (sahip_id memluk · yerlesimler.js · 37.575,36.937 · Anadolu)
+- 1281 sahibi (atlas): Memlûk Sultanlığı (Mısır-Suriye)  [TDV: Ermeni (Kilikya) — Memlük girişi 1293 · 1293]
++ öneri: ermeni-kilikya
+  gerekçe: Memlük alışı 1293 ve Ermeniler'İN elinden; 1281'de Ermeni (slug kahramanmaras)
+  dayanak: atlas memluk 1281; koça takip: maras→kahramanmaras. Memlük alışı 1293 ve Ermeniler'İN elinden alındı ⇒ 1281'de memluk de
+  kaynak : https://islamansiklopedisi.org.tr/kahramanmaras/
+
+--- Midilli  (sahip_id ceneviz · yerlesimler.js · 39.106,26.554 · Anadolu)
+- 1281 sahibi (atlas): ?ceneviz  [TDV: Bizans · 1354'e kadar]
++ öneri: bizans
+  gerekçe: Ceneviz (Gattilusio) 1354'te imparator tarafından alındı → 1354'e dek Bizans
+  dayanak: 1354'te Bizans İmparatoru V. Ioannes Palaiologos adayı Cenovalı kayınbiraderi Françesco Gattilusio'ya verdi
+  kaynak : https://islamansiklopedisi.org.tr/midilli/
+
+--- Nusaybin  (sahip_id artuklu · yerlesimler_ek25.js · 37.077,41.215 · Anadolu)
+- 1281 sahibi (atlas): Artukoğulları (Artuklu Beyliği)  [TDV: Moğol (Hülâgû işgali) · 1250'ler]
++ öneri: ilhanli
+  gerekçe: 1230 ilk Moğol istilâsı, yüzyıl ortasında Hülâgû işgali; Artuklu biter (~1250'ler)
+  dayanak: 1230 yılında ilk Moğol istilâsına uğrayan, yüzyılın ortalarında Hülâgû tarafından işgal edilen şehir
+  kaynak : https://islamansiklopedisi.org.tr/nusaybin/
+
+--- Safranbolu  (sahip_id selcuklu · yerlesimler.js · 41.253,32.694 · Anadolu)
+- 1281 sahibi (atlas): Anadolu (Türkiye) Selçuklu Devleti  [TDV: Bizans · -1304]
++ öneri: bizans
+  gerekçe: Bizans idaresi -1304; Candaroğlu 1304'te alır — Selçuklu değil
+  dayanak: Bir süre Bizans idaresi altında kalan kalenin
+  kaynak : https://islamansiklopedisi.org.tr/safranbolu/
+
+--- Semadirek  (sahip_id ceneviz · yerlesimler.js · 40.463,25.530 · Anadolu)
+- 1281 sahibi (atlas): ?ceneviz  [TDV: Venedik · 1204-1335]
++ öneri: venedik
+  gerekçe: 1204 Venedik (Dandolo) → 1335 Gattilusio; Ceneviz pencere-sonrası
+  dayanak: 1335'te Cenevizli Gattilusio ailesi Venedikliler'i adadan çıkardı
+  kaynak : https://islamansiklopedisi.org.tr/semadirek/
+
+--- Silifke  (sahip_id karaman · yerlesimler.js · 36.309,33.938 · Anadolu)
+- 1281 sahibi (atlas): Karamanoğulları  [TDV: Saint Jean şövalyeleri (Kıbrıs bağı) · 1210-1359]
++ öneri: saint-jean/kiibris
+  gerekçe: Saint Jean şövalyeleri Kıbrıs bağı 1210-1359; Karaman 1359 sonrası
+  dayanak: Silifke ve çevresi uzun müddet Kıbrıs ile yakın ilgisi olan Saint Jean şövalyelerinin
+  kaynak : https://islamansiklopedisi.org.tr/silifke/
+
+--- Sisam  (sahip_id ceneviz · yerlesimler.js · 37.755,26.977 · Anadolu)
+- 1281 sahibi (atlas): ?ceneviz  [TDV: belirsiz (Latin 1205-1225; Ceneviz 1304'ten) · 1304-]
++ öneri: __BOSLUK__
+  gerekçe: Latin 1205-1225; Ceneviz (Maona) 1304'ten — 1225-1304 sahibi TDV'de açık değil (beyansız yaklaşıklık yazma)
+  dayanak: 1304-1329 ve 1346-1475 yılları arasında Sakız adasındaki Cenevizliler'in (Maona) mülkiyetine girdi
+  kaynak : https://islamansiklopedisi.org.tr/sisam/
+
+--- Sivrihisar  (sahip_id selcuklu · yerlesimler.js · 39.450,31.535 · Anadolu)
+- 1281 sahibi (atlas): Anadolu (Türkiye) Selçuklu Devleti  [TDV: İlhanlı idaresi · 1243-1330'lar]
++ öneri: ilhanli
+  gerekçe: TDV dönem etiketi 'Moğol/İlhanlı idaresi' 1243-1330'lar (1274 Selçuklu nâibi notuyla sınır örneği)
+  dayanak: Anadolu'daki Moğol / İlhanlı idaresi sonrasında Karamanoğulları'nın eline geçen Sivrihisar
+  kaynak : https://islamansiklopedisi.org.tr/sivrihisar/
+
+--- Tiflis  (sahip_id gurcistan · yerlesimler.js · 41.716,44.783 · Anadolu)
+- 1281 sahibi (atlas): Gürcistan Krallığı/Krallıkları  [TDV: Moğol idaresi · 1231-]
++ öneri: ilhanli
+  gerekçe: TDV açık: 1231'de Moğol idaresi kuruldu; Gürcü krallık değil
+  dayanak: 1231'de şehirde Moğol idaresi kuruldu
+  kaynak : https://islamansiklopedisi.org.tr/tiflis/
+
+--- Tire  (sahip_id bizans · yerlesimler.js · 38.089,27.735 · Anadolu)
+- 1281 sahibi (atlas): Bizans (Doğu Roma) İmparatorluğu  [TDV: Selçuklu (Türk) · 1186+]
++ öneri: selcuklu
+  gerekçe: 1186 Selçuklu fethi – 1390 Osmanlı; 1281'de Bizans olamaz
+  dayanak: Haçlı seferlerinde istilâya uğrayan kasaba Kılıcarslan'ın kumandanı Şemseddin Bey tarafından 1186'da fethedildi
+  kaynak : https://islamansiklopedisi.org.tr/tire/
+
+--- Tosya  (sahip_id cobanogullari · yerlesimler_ek29.js · 41.016,34.040 · Anadolu)
+- 1281 sahibi (atlas): Çobanoğulları  [TDV: Candaroğulları'na 1291'de geçti · 1291]
++ öneri: selcuklu
+  gerekçe: Candaroğulları bölgeye 1291'de hâkim (Yaman Candar); 1281'de beylik yok
+  dayanak: 1291 yılında bölgeye hâkim olan Şemseddin Yaman Candar'ın Kastamonu'yu alması ile Candaroğulları'na geçti
+  kaynak : https://islamansiklopedisi.org.tr/tosya/
+
+--- Azak  (sahip_id ceneviz · yerlesimler.js · 47.113,39.423 · Kırım-Karadeniz)
+- 1281 sahibi (atlas): ?ceneviz  [TDV: Altın Orda (Özbek Han) · 1332 Venedik izni]
++ öneri: altin-orda
+  gerekçe: Özbek Han hâkim; gövdede Ceneviz adı geçmiyor (Venedik mahalle izni 1332)
+  dayanak: Altın Orda Hanı Özbek Han şehirde bir mahalle oluşturmak isteyen Venedikliler'e 1332 yılında muayyen bir vergi karşılığında bu izni verdi
+  kaynak : https://islamansiklopedisi.org.tr/azak/
+
+--- Kerç  (sahip_id ceneviz · yerlesimler.js · 45.356,36.467 · Kırım-Karadeniz)
+- 1281 sahibi (atlas): ?ceneviz  [TDV: Altın Orda (Ceneviz 1318'den) · 1318 Ceneviz]
++ öneri: altin-orda
+  gerekçe: Ceneviz 1318'den, Altın Orda'ya vergi şartıyla — pencere-sonrası edinme
+  dayanak: 1318'de Altın Orda Devleti'ne vergi vermek şartıyla Cenevizliler Kerç'e hâkim oldular
+  kaynak : https://islamansiklopedisi.org.tr/kerc/
+
+--- Akçahisar (Kruja)  (sahip_id arnavutluk · yerlesimler.js · 41.509,19.793 · Balkan)
+- 1281 sahibi (atlas): ?arnavutluk  [TDV: Anjou (Charles d'Anjou) · 1272-1284]
++ öneri: anjou-napoli
+  gerekçe: Charles d'Anjou alışı 1271-72, Bizans geri alışı 1284 → 1281 Anjou
+  dayanak: atlas arnavutluk 1281; koça takip: akcahisar→kruya. Charles alışı 1271-72; Bizans geri alışı 1284 ('Charles’ın ölümünün 
+  kaynak : https://islamansiklopedisi.org.tr/kruya/
+
+--- Alacahisar (Kruševac)  (sahip_id sirbistan · yerlesimler_serhat.js · 43.580,21.327 · Balkan)
+- 1281 sahibi (atlas): ?sirbistan  [TDV: yok (1371 sonrası kuruluş) · 1371]
++ öneri: __BOSLUK__
+  gerekçe: kuruluş 1371; 1281'de yerleşim yok (Sırbistan yazılmaz)
+  dayanak: batı ve güney Morava nehirlerinin birleştikleri yere yakın bir noktada 1371 yılından sonra kurulmuş olup
+  kaynak : https://islamansiklopedisi.org.tr/alacahisar/
+
+--- Anabolu (Nauplion)  (sahip_id venedik · yerlesimler.js · 37.567,22.800 · Balkan)
+- 1281 sahibi (atlas): Venedik Cumhuriyeti  [TDV: (Ven. değil — Frank Ahaya bağlamı) · -1389]
++ öneri: ahaya/frank
+  gerekçe: Venedik idaresine GİRİŞ 1389; öncesinde Frank Ahaya bağlamı
+  dayanak: 1389'da Venedikliler'in idaresi altına girdi
+  kaynak : https://islamansiklopedisi.org.tr/anabolu/
+
+--- Aydonat (Paramythia)  (sahip_id bizans · yerlesimler_epir.js · 39.467,20.517 · Balkan)
+- 1281 sahibi (atlas): Bizans (Doğu Roma) İmparatorluğu  [TDV: Franklar · 1294]
++ öneri: epir/bizans (tartışmalı)
+  gerekçe: Frank hâkimiyeti 1294'ten anılıyor; 1281 için Epir ihtimali — kesinleşmezse __BOSLUK__
+  dayanak: Franklar'ın hâkim olduğu 1294'te buradan chastel de Saint Donat olarak söz edilir
+  kaynak : https://islamansiklopedisi.org.tr/aydonat/
+
+--- Belgrad  (sahip_id sirbistan · yerlesimler.js · 44.818,20.457 · Balkan)
+- 1281 sahibi (atlas): ?sirbistan  [TDV: Macaristan · -1354]
++ öneri: macaristan
+  gerekçe: Sırp alışı 1354 (Duşan), sonra tekrar Macar; 1281 Macar
+  dayanak: 1354'te Sırp Kralı Stefan Duşan tarafından zaptedilen Belgrad, onun ölümünden sonra tekrar Macar idaresine girerek
+  kaynak : https://islamansiklopedisi.org.tr/belgrad/
+
+--- Debre (Dibra)  (sahip_id sirbistan · yerlesimler_ok104.js · 41.524,20.531 · Balkan)
+- 1281 sahibi (atlas): ?sirbistan  [TDV: Sırp yönetimi 1283'te başlar · 1283]
++ öneri: bizans
+  gerekçe: Sırp Kralı Milutin 1283'te aldı; 1281'de Bizans
+  dayanak: 1283'te Sırp Kralı Milutin Debre'yi ele geçirdi
+  kaynak : https://islamansiklopedisi.org.tr/debre/
+
+--- Livno (İhlevne)  (sahip_id bosna · yerlesimler.js · 43.827,17.008 · Balkan)
+- 1281 sahibi (atlas): ?bosna  [TDV: Hırvatistan · 952-1326]
++ öneri: hirvatistan-macar
+  gerekçe: Bosna'ya ilhak 1326 (Kotromanić); 1281'de Hırvat-Macar
+  dayanak: 1326'da Stjepan (Stefan) Kotromanić idaresindeki Bosna Devleti'ne ilhak edilinceye kadar Hırvatistan'ın bir parçası olarak kaldı
+  kaynak : https://islamansiklopedisi.org.tr/livno/
+
+--- Plevne  (sahip_id bulgaristan · yerlesimler.js · 43.417,24.617 · Balkan)
+- 1281 sahibi (atlas): ?bulgaristan  [TDV: Macar kralı askerlerince alındı (1266) · 1266]
++ öneri: __BOSLUK__
+  gerekçe: tek Ortaçağ kaydı 1266 Macar alımı, güven 2 — dayanmaz
+  dayanak: yazılı kaynaklarda sadece 1266 yılında Macar Kralı Büyük Stephan'ın askerlerinin Plevne Kalesi'ni (Castrum Pleun) alması esnasında zikredilir
+  kaynak : https://islamansiklopedisi.org.tr/plevne/
+
+--- Taşoz  (sahip_id ceneviz · yerlesimler.js · 40.690,24.647 · Balkan)
+- 1281 sahibi (atlas): ?ceneviz  [TDV: Venedik · 1204-1327]
++ öneri: venedik
+  gerekçe: 1204'te doj Dandolo idaresine verildi; Bizans geri alışı 1327 — Venedik pencereyi çevreler
+  dayanak: 1204'te Latinler tarafından işgal edildiğinde Venedik doju Enrico Dandolo'nun idaresine verildi
+  kaynak : https://islamansiklopedisi.org.tr/tasoz/
+
+--- Trebinye  (sahip_id bosna · yerlesimler_seyrek.js · 42.711,18.344 · Balkan)
+- 1281 sahibi (atlas): ?bosna  [TDV: Bosna'ya 1353'te dahil · 1353]
++ öneri: sirp/zeta
+  gerekçe: Bosna'ya Tvrtko döneminde (1353-91) dahil; 1281'de Sırp/Zeta
+  dayanak: Tvrtko'nun idaresi zamanında (1353-1391) bölge Bosna'ya dahil edildi
+  kaynak : https://islamansiklopedisi.org.tr/trebinye/
+
+--- Uyvar  (sahip_id macaristan · yerlesimler.js · 47.986,18.162 · Balkan)
+- 1281 sahibi (atlas): Macaristan Krallığı (bağımsız dönem)  [TDV: yok (1545 kuruluş) · 1545]
++ öneri: __BOSLUK__
+  gerekçe: çekirdek 1545'te inşa edildi; 1281'de yerleşim yok
+  dayanak: şehrin çekirdeğini 1545'te ... Estergon başpiskoposu tarafından inşa ettirilen
+  kaynak : https://islamansiklopedisi.org.tr/uyvar/
+
+--- Yanya  (sahip_id bizans · yerlesimler.js · 39.665,20.852 · Balkan)
+- 1281 sahibi (atlas): Bizans (Doğu Roma) İmparatorluğu  [TDV: Epir Despotluğu · 1204-1318]
++ öneri: epir
+  gerekçe: 1318'de TEKRAR Bizans'a katıldı → öncesinde Epir Despotluğu (1204-1318)
+  dayanak: 1318'de tekrar Bizans İmparatorluğu'na katılsa da
+  kaynak : https://islamansiklopedisi.org.tr/yanya/
+
+--- İzdin (Lamia)  (sahip_id katalan · yerlesimler.js · 38.900,22.434 · Balkan)
+- 1281 sahibi (atlas): Katalan Dukalığı (Atina-Neopatras Kumpanyası)  [TDV: Latin markizliği/Bizans (Katalan değil) · -1318]
++ öneri: atina-latin
+  gerekçe: Katalan Dukalığı 1318-1388; 1281'de Latin markizliği/Bizans — Katalan değil
+  dayanak: 1318'den 1388'e kadar Atina Katalan Dukalığı'na ait olan şehir
+  kaynak : https://islamansiklopedisi.org.tr/izdin/
+
+--- Lâhîcan  (sahip_id ilhanli · yerlesimler.js · 37.207,50.004 · İran-Kafkas)
+- 1281 sahibi (atlas): İlhanlı Devleti  [TDV: Gîlân yerel emirlikleri · -1305]
++ öneri: __BOSLUK__/yerel emirlik
+  gerekçe: Şah Nev Olcaytu'ya 705/1305'te boyun eğdi; 1281'de İlhanlı değil, yerel Gîlân emirliği
+  dayanak: Şah Nev, Olcaytu Han Gîlân'a hâkim olduğunda ona boyun eğdi (705/1305-1306)
+  kaynak : https://islamansiklopedisi.org.tr/lahican/
+
+--- Tenes  (sahip_id zeyyani · yerlesimler_afrika.js · 36.507,1.307 · Kuzey Afrika)
+- 1281 sahibi (atlas): Zeyyânîler (Tilimsan)  [TDV: Zeyyânî egemenliği 1289'da başlıyor · 1289]
++ öneri: hafsi
+  gerekçe: Zeyyânî (Abdâlvâdî) egemenliğine GİRİŞ 688/1289; 1281'de Hafsî
+  dayanak: 688'de (1289) Abdülvâdîler'in (Zeyyânîler) egemenliğine girdi
+  kaynak : https://islamansiklopedisi.org.tr/tenes/
+
+--- Harar  (sahip_id adal · yerlesimler.js · 9.312,42.118 · Arabistan-Hint)
+- 1281 sahibi (atlas): Adal Sultanlığı / Harar Emirliği  [TDV: bölgenin ilk müslüman devleti Evfât 1285'te · 1285]
++ öneri: __BOSLUK__
+  gerekçe: bölgenin ilk müslüman devleti Evfât 1285'te; 1281'de müslüman devlet kaydı yok — Adal 1415 sonrası
+  dayanak: burada kurulan ilk müslüman devlet Evfât Emirliği'dir (1285-1415)
+  kaynak : https://islamansiklopedisi.org.tr/harar/
