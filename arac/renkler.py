@@ -587,6 +587,9 @@ BOYALAR = {
     # altında. YAPILACAKLAR'da "palet stratejisi" olarak duruyor.
     "macaristan": ("Macaristan",             "#20d880"),
     "avusturya":  ("Avusturya (Habsburg)",   "#bdab3f"),
+    # Postit #9 (Ptuj eksklavı): Salzburg bağımsız imparatorluk prensliğiydi, Habsburg'a bağlı
+    # değil. Renk `renk_olc.py --oner` çıktısı (en yakın engel ΔE 39,2), Emre onayı 16 Eki 2026.
+    "salzburg-prens-basepiskoposlugu": ("Salzburg Prens-Başpiskoposluğu", "#244ec6"),
     # 🔴 GRİDEN MAVİYE (RENK oturumu, 2 Ağustos; koordinatör kararı).
     # Eski #9a9a9a altlıktan ΔE 12,2 — GÖRÜNMEZ. Ve mesele yalnız görünürlük
     # değildi: bu atlasta GRİ, "veri yok" rengidir. Kutsal Roma İmparatorluğu
