@@ -8269,6 +8269,33 @@ var toprakSecim = false;
 // ("konu-askeri", "afet", "afet-deprem"); null = süzme yok. Başlıklar arası VEYA,
 // grup kutuları ve toprak kutusuyla VE.
 var baslikSecim = null;
+// 🆕 ŞEHİR KRONOLOJİSİ ETİKETİ — Emre (17 Ekim 2026): şehirlerin bir belgede İLK KEZ
+// anıldığını anlatan maddeler `etiket:["sehir-kronolojisi"]` taşır (14 madde; ölçüm
+// `data/` taraması). Bu madde türü haritada bir yerleşimin `kur:` tanığını taşıdığı için
+// VERİDE durur; ayar yalnız LİSTEDE gizler (Değişmez 2 veriyi ölçer, listeyi değil).
+// Varsayılan GÖRÜNÜR: bir süzgecin varsayılanı, hiç dokunulmamışken bir şeyi gizlememeli.
+// Adres `?sehirkron=0` · ⚙ Ayarlar'daki kutuyla ortak durum (`localStorage.sehirKronGizli`).
+var SEHIR_KRON_ETIKET = "sehir-kronolojisi";
+var sehirKronGizli = false;
+var sehirKronDinleyici = [];            // durum değişince yeniden çizecekler (devlet odak paneli)
+var sehirKronKutular = [];              // senkron tutulan onay kutuları
+function sehirKronMadde(o) {
+  return !!(o && o.etiket && o.etiket.indexOf(SEHIR_KRON_ETIKET) >= 0);
+}
+(function sehirKronOku() {
+  var u = new URL(window.location.href).searchParams.get("sehirkron");
+  if (u === "0") { sehirKronGizli = true; return; }
+  if (u === "1") return;
+  try { sehirKronGizli = localStorage.getItem("sehirKronGizli") === "1"; }
+  catch (e) { /* depolama kapalı — varsayılan: görünür */ }
+})();
+function sehirKronAyarla(gizli) {
+  sehirKronGizli = !!gizli;
+  try { localStorage.setItem("sehirKronGizli", sehirKronGizli ? "1" : "0"); } catch (e) { /* önemsiz */ }
+  sehirKronKutular.forEach(function (k) { k.checked = !sehirKronGizli; });
+  if (typeof suzgecUygula === "function" && window.SUZGEC) suzgecUygula();
+  sehirKronDinleyici.forEach(function (f) { f(); });
+}
 // 🆕 PAKET-UI3 · İŞ 2 (14 Eylül 2026) — DIŞ OLAY ÖNEM SÜZGECİ, Osmanlı zaman çizgisi.
 // Emre: *"'dış olayların 4 ya da 5 puan olanlarını göster' seçeneği işaretliyse —
 // 4 üstü seçilirse 4 ve 5 puan olanlar kronolojide zikredilecek."*
@@ -8394,6 +8421,7 @@ function suzgecUygula() {
                   (!toprakVar || !!toprakIsaret().isaretli[i]) &&
                   (!baslikVar || window.SUZGEC.baslikGecer(olaylar[i], baslikSecim)) &&
                   aramaGecer(olaylar[i]) &&      // 🔍 ARAMA-0930 — öteki süzgeçlerle VE
+                  !(sehirKronGizli && sehirKronMadde(olaylar[i])) &&
                   !disGizli;
     olayDom[i].classList.toggle("suzuldu", !gorunur);
     var ist = !!(ds && ds.istisnaIx[i] !== undefined);
@@ -8437,6 +8465,8 @@ function suzgecUrlYaz() {
   else u.searchParams.delete("toprak");
   if (baslikSecim && baslikSecim.length) u.searchParams.set("baslik", baslikSecim.join(","));
   else u.searchParams.delete("baslik");
+  if (sehirKronGizli) u.searchParams.set("sehirkron", "0");
+  else u.searchParams.delete("sehirkron");
   // PAKET-UI3 — varsayılandan farklıysa adreste taşınır (paylaşılan bağlantı aynı listeyi versin)
   if (disEsik !== DIS_ESIK_VARSAYILAN) u.searchParams.set("dis", disEsik);
   else u.searchParams.delete("dis");
@@ -8541,6 +8571,28 @@ function suzgecUrlOku() {
     govde.appendChild(tet);
   }
 
+  // 🆕 ŞEHİR KRONOLOJİSİ — işaretli = görünür (varsayılan). Sayı: listedeki etiketli madde.
+  var skSay = olaylar.filter(sehirKronMadde).length;
+  if (skSay) {
+    var skEt = document.createElement("label");
+    skEt.className = "suzgec-toprak";
+    skEt.title = "Bir şehrin bir belgede İLK KEZ anıldığını anlatan maddeler " +
+      "(etiket: sehir-kronolojisi). Kapatınca listeden ve oynatmadan çıkar; harita verisi değişmez.";
+    var skKt = document.createElement("input");
+    skKt.type = "checkbox";
+    skKt.checked = !sehirKronGizli;
+    skKt.addEventListener("change", function () { sehirKronAyarla(!skKt.checked); });
+    sehirKronKutular.push(skKt);
+    skEt.appendChild(skKt);
+    var skAd = document.createElement("span");
+    skAd.textContent = "Şehir kronolojisi (ilk anılış)";
+    skEt.appendChild(skAd);
+    var skN = document.createElement("i");
+    skN.textContent = skSay;
+    skEt.appendChild(skN);
+    govde.appendChild(skEt);
+  }
+
   // 🆕 KONU BAŞLIKLARI (Emre'nin 26 başlığı) + AFET alt türleri — PAKET-ETIKET-UYGULA.
   // Etiket ekseni (çok değerli): hiçbiri işaretli değilse süzmez; işaretlilerden
   // BİRİNİ taşıyan madde görünür. Sayılar süzülmemiş Osmanlı zaman çizgisinden;
@@ -8618,7 +8670,7 @@ function suzgecUrlOku() {
   var _ucus = document.getElementById("ucus-grup");
   if (_h2 && _ucus) _h2.insertBefore(kutu, _ucus);
   else olayListe.parentNode.insertBefore(kutu, olayListe);   // yedek: eski yer
-  if (suzgecSecim || toprakSecim || baslikSecim) kutu.classList.add("acik");   // süzme açıksa gizli kalmasın
+  if (suzgecSecim || toprakSecim || baslikSecim || sehirKronGizli) kutu.classList.add("acik");   // süzme açıksa gizli kalmasın
   suzgecUygula();
 })();
 
@@ -8657,7 +8709,7 @@ function aramaSonucYaz(gorunen) {
   //    süzüldü"yü ayırt ettirmez; kullanıcı atlası bozuk sanır. Bu satır
   //    farkı söyler — ve süzgeç de açıksa onu da söyler, çünkü sonucu
   //    daraltan arama olmayabilir.
-  var ek = (suzgecSecim || toprakSecim || baslikSecim) ? " · konu süzgeci de açık" : "";
+  var ek = (suzgecSecim || toprakSecim || baslikSecim || sehirKronGizli) ? " · konu süzgeci de açık" : "";
   if (!gorunen) {
     el.className = "bos";
     el.textContent = "eşleşen madde yok" + ek;
@@ -16702,6 +16754,13 @@ function kronoTemsilEdiliyor(k, derin) {
   var odakKonuKutu = document.getElementById("odak-suzgec-konu");
   var odakOzetEl = document.getElementById("odak-suzgec-ozet");
   var ODAK_KONU = null;                     // null = konu süzmesi YOK
+  var odakSehirKronKutu = document.getElementById("odak-sehir-kron");
+  if (odakSehirKronKutu) {
+    odakSehirKronKutu.checked = !sehirKronGizli;
+    sehirKronKutular.push(odakSehirKronKutu);
+    odakSehirKronKutu.addEventListener("change", function () { sehirKronAyarla(!odakSehirKronKutu.checked); });
+    sehirKronDinleyici.push(function () { render(); odakOzetYaz(); });
+  }
 
   // ---- ODAK SÜZGECİ: kontroller → yeniden çizim -------------------------
   [odakIcSel, odakBolgeSel, odakDunyaSel, odakPuansizKutu].forEach(function (el) {
@@ -16795,6 +16854,7 @@ function kronoTemsilEdiliyor(k, derin) {
   function odakSuz(maddeler) {
     if (!window.SUZGEC || !window.SUZGEC.onemSuz) return maddeler;
     var cikti = window.SUZGEC.onemSuz(maddeler, odakAyar());
+    if (sehirKronGizli) cikti = cikti.filter(function (m) { return !sehirKronMadde(m); });
     if (ODAK_KONU && ODAK_KONU.length)
       cikti = cikti.filter(function (m) {
         return ODAK_KONU.indexOf(window.SUZGEC.maddeGrubu(m)) >= 0;

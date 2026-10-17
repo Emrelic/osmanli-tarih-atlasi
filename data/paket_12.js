@@ -9650,7 +9650,7 @@ window.OLAYLAR_2S_0919 = [
   kaynak:"Muzeum Historii Polski, 'Rozejm w Jamie Zapolskim', https://muzhp.pl/kalendarium/rozejm-w-jamie-zapolskim — AYNEN: \"15 stycznia 1582 r.\" / \"Moskwa zrzekła się pretensji do Inflant oraz oddała Rzeczypospolitej ziemię połocką z niektórymi zamkami.\" · Britannica, 'Tartu' — AYNEN: \"held in turn by Poles (1582–1600, 1603–25)\" · hassasiyet: GÜN (veri 01-01, 14 gün fark)" },
 
 // ── 1589-07-02 ───────────────────────────────────────────────────────
-{ t:"1589-07-02", b:"Tsaritsyn kalesi ilk kez belgede anıldı", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Tsaritsyn",
+{ t:"1589-07-02", etiket:["sehir-kronolojisi"], b:"Tsaritsyn kalesi ilk kez belgede anıldı", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Tsaritsyn",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Çar Fyodor İvanoviç'in 2 Temmuz 1589 tarihli fermanı, Volga'nın güney sınırını korumak için kurulan Tsaritsyn kalesini anar; bu tarih şehrin kuruluş günü kabul edilir.",
   kaynak:"Volgograd Bölge Tarih Müzesi (ВОКМ), https://vokm134.ru/muzej-onlajn/osnovanie-goroda-caricyna.html — AYNEN: \"грамота царя Федора Иоанновича от 2 июля 1589 г.\" · hassasiyet: GÜN (Jülyen; Miladî 12 Temmuz) — veriyle birebir" },

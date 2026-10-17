@@ -477,8 +477,8 @@
     },
     {
      "yol": "data/olaylar_2s_0919.js",
-     "sha": "b185f8d2c9a0ac3e",
-     "bayt": 76461
+     "sha": "47047e351f17933e",
+     "bayt": 76491
     },
     {
      "yol": "data/olaylar_amerika_0920.js",
@@ -551,7 +551,7 @@
      "bayt": 171320
     }
    ],
-   "bayt": 2106258
+   "bayt": 2106288
   },
   {
    "paket": "data/paket_13.js",
@@ -870,11 +870,11 @@
     },
     {
      "yol": "data/olaylar_sehir_ilk.js",
-     "sha": "9497d8bcbb86c129",
-     "bayt": 25628
+     "sha": "39274183a0f8ee4e",
+     "bayt": 25868
     }
    ],
-   "bayt": 226101
+   "bayt": 226341
   },
   {
    "paket": "data/paket_16.js",
