@@ -2613,8 +2613,10 @@ harita.on("load", function () {
     layout: { "line-cap": "round", "line-join": "round" },
     paint: { "line-color": TABI_RENK, "line-opacity": 1,
       "line-width": ["interpolate", ["linear"], ["zoom"], 3, 4, 5, 6, 8, 8] } });
+  // 🎨 17 Ekim 2026, Emre: vassal dolgusu yine Osmanlı kırmızısının bir ton
+  // açığı (`TABI_RENK`); H-0084'ün "dolgu = Osmanlı'nın kendisi" kararı geri alındı.
   harita.addLayer({ id: "vassal-dolgu", type: "fill", source: "vassal",
-    paint: { "fill-color": "#8e0b22", "fill-opacity": 1 } });
+    paint: { "fill-color": TABI_RENK, "fill-opacity": 1 } });
   // Kesikli çizgi KALDIRILDI: "ayrı devlet" algısını en çok o üretiyordu.
   // Tâbi toprağın dış hattı artık imparatorluk halesinden geliyor; H-0084'ten
   // sonra `vassal-serit-dis` KENDİ tâbi rengiyle ikinci, iç bir kuşak ekliyor.
