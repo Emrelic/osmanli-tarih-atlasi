@@ -88,6 +88,14 @@ window.KRONOLOJI_COK_ANADOLU2 = [
   ic_not_d:"TDV genişlemenin hangi kaleleri kapsadığını saymıyor; harita aynı gün Gölköy, Mesudiye ve Reşadiye'yi trabzon-rum→haciemir çeviriyor — tek tek yerleşim ÖLÇÜLEMEDİ.",
   kaynak:"TDV ordu--sehir ('Ordu çevresinde Bayram Bey idaresinde bir Türkmen beyliği kuruldu, oğlu Hacı Emîr 1350 yıllarında beyliği genişletti'; '1270-1380 sürecinde … özellikle Hacı Emîroğulları'nın mücadeleleri neticesinde Türkler tarafından fethedildi'; 'Hacıemîroğulları Beyliği 1427'de Osmanlılar tarafından ilhak edildi')" },
 
+{ t:"1398-06-01", devlet:"haciemir", devletler:["haciemir","osmanli"],
+  b:"Hacıemîroğulları (Ordu emîri Süleyman) Yıldırım Bayezid'e tâbi oldu — Ordu, Ünye ve çevre kaleleri Osmanlı tâbiliğine girdi", tur:"toprak-kazanc", onem:4, dunya:1, kapsam:"dis",
+  etiket:["askeri","toprak-kazanc","konu-askeri"],
+  yer_id:"Ordu (Bayramlı)", gun:"'800 (1398) baharında' (TDV ordu--sehir) — gün yok; 06-01 ay kodudur [yalnız yıl/mevsim teyitli; gün teyitsiz]",
+  d:"I. Bayezid 1398 baharında büyük bir orduyla Canik bölgesine girince, diğer bazı emîrlerle birlikte Ordu yöresi emîri Süleyman da ona tâbi oldu. Beylik toprağını korudu ama Osmanlı'ya bağlı vassal oldu (haritada Ordu, Ünye, Mesudiye, Gölköy ve Reşadiye bu dönemde 'Osmanlı tâbiî'); 1402 Ankara Savaşı'na kadar sürdü, beylik 1427'de ilhak edilecekti.",
+  ic_not_d:"TDV Ordu emîri Süleyman'ın tâbiliğini söylüyor; Mesudiye, Gölköy, Reşadiye'yi bu olayda adıyla saymıyor — atlas bunları beyliğin kaleleri olarak aynı tâbilik penceresine koyuyor (yerleşim kayıtları TDV ordu--sehir kale adlarına dayanıyor). Mevsim 'bahar' → 06-01 seçildi; Samsun maddesi 1398-07-01.",
+  kaynak:"TDV ordu--sehir ('I. Bayezid 800 (1398) baharında büyük bir orduyla Canik bölgesine girince … Ordu yöresi emîri Süleyman da ona tâbi oldu'; 'Hacıemîroğulları Beyliği 1427'de Osmanlılar tarafından ilhak edildi')" },
+
 { t:"1391-01-01", devlet:"hamid", devletler:["hamid"],
   b:"Hamîdoğulları Beyliği sona erdi — Eğirdir, Isparta, Burdur ve Uluborlu Osmanlı'ya geçti", tur:"son", onem:5, dunya:1, kapsam:"dis",
   etiket:["siyaset","son","toprak-kayip","konu-siyasi"],
