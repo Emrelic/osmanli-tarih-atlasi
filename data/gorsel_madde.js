@@ -1024,6 +1024,25 @@ window.GORSEL_MADDE = [
   "kesinlik": "cagdas",
   "lisans_olcum": "KABUL (KARAR3-1016, 16 Ekim 2026) — ANS sayfası canlı okundu: 'License: Public Domain Mark (images)' (rel=nmo:hasLicense) · rightsstatements.org NoC-US/1.0 · altbilgi: 'All images of objects produced on or before 1925 are in the Public Domain'. Görsel: ön (…4097.obv.noscale.jpg, 1798×1813) + arka (…4097.rev.noscale.jpg, 1803×1818) yüz 600 px yüksekliğe indirilip yan yana tek JPEG'de birleştirildi (1210×600, 248 KB). ARAC-GORSEL-LISANS-0913b Commons içindir, bu kaynağa UYGULANMADI.",
   "not": "Emre kararı #18 (KARARLAR-EMRE-1015 üçüncü tur; indirme onayı). Madde 1478'deki İLK basımı anlatıyor; bu sikke 883 H tarihlidir ve 'ilk basım' örneği DEĞİLDİR, aynı tipin bir yıl sonraki örneğidir — 882 H tarihli kamu malı/CC0 görsel bulunamadı (KAYNAK-1015/G5: Smithsonian NU.68.159.6040 CC0 ama görselsiz; Commons adayları CC BY-SA/PD-Art 3B kapsamaz; British Museum/Fitzwilliam CC BY-NC). ⚠️ ANS kaydının tarih aralığı alanı '1444–1445' yazıyor — 883 H ile ve '2nd reign' başlığıyla ÇELİŞİYOR (ANS'in kendi veri kusuru; 883 H = 1478-79). Sikke yazısı bu oturumda OKUNMADI, ANS başlığına dayanıldı. 0032/H-0010."
+},
+
+{
+  "id": "1534-01-01-matrakci-bagdat-beyan-i-menazil",
+  "tur": "madde",
+  "olay": [
+    "1534-01-01"
+  ],
+  "url": "assets/gorseller/1534-01-01-matrakci-bagdat-beyan-i-menazil.jpg",
+  "baslik": "Matrakçı Nasuh'un Beyân-ı Menâzil'de resmettiği Bağdat (vr. 47b-48a)",
+  "gorsel_alt": "Minyatür-harita: Dicle kıyısında surlarla çevrili Bağdat şehri, Matrakçı Nasuh'un Irakeyn seferi menzilnamesinin çift sayfalık resmi",
+  "eser": "Beyân-ı Menâzil-i Sefer-i Irâkeyn-i Sultan Süleymân Han, İstanbul Üniversitesi Kütüphanesi, T. 5964, vr. 47b-48a",
+  "sanatci": "Matrakçı Nasuh",
+  "yil": "944 H / 1537 (Commons künyesi; sefer 1534-36, eser sonrasında tamamlandı)",
+  "lisans": "PD-old",
+  "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Baghdad%2C_Folios_47b-48a%2C_Beyan-%C4%B1_Menazil_by_Matrak%C3%A7%C4%B1_Nasuh%2C_944_AH_1537_CE._Istanbul_University_Library%2C_Ms._No._5964.jpg",
+  "kesinlik": "cagdas",
+  "lisans_olcum": "KABUL (0913, 18 Ekim 2026) · kategori PD-Art, PD-Art (PD-old-100-expired), PD-old-100-expired · Commons API LicenseShortName 'Public domain'",
+  "not": "Postit #77 (Emre: 'bu kronoloji maddesinde bahsedilen resmi araştırıp bulacaksın'). Madde 1534'te başlayan Irakeyn seferinin güzergâhını anlatıyor; bu yaprak güzergâhın sonundaki Bağdat'tır. Eserin kendisi 1537 tarihlidir (madde tarihi sefer yılı); Tebriz'in Commons kopyaları CC BY-SA olduğu için seçilmedi."
 }
 
 ];
