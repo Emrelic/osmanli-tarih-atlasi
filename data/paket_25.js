@@ -119,7 +119,18 @@ window.OLAYLAR_P0036 = [
 { t:"1566-09-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"], b:"Gyula (Göle) Kalesi'nin teslimi — Pertev Paşa'nın Tımışvar serhaddi seferi", gun:"15 Safer 974 (1 Eylül 1566)", yer:"Gyula (Göle), Tımışvar serhaddi", yer_id:"Gyula (Göle)", kisiler:"Pertev Paşa",
   d:"Kanûnî Sultan Süleyman'ın Zigetvar seferi sırasında Pertev Paşa, Tımışvar vilâyeti sınırındaki kalelerden Göle'yi (Gyula) almak üzere serdar tayin edildi; Tımışvar beylerbeyi ile Belgrad sancakbeyinin bütün kuvvetleri emrine verildi. Mayıs 1566'da yeniçeri, silâhdar ve topçularla İstanbul'dan ayrılan Pertev Paşa, bir aydan uzun süren kuşatmanın ardından Göle'yi ve çevresindeki birkaç kaleyi 1 Eylül 1566'da ele geçirdi. Savaşta yararlılık gösterenlerin tımar ve zeametleri artırıldı.",
   ic_not_t:"TDV pertev-pasa: '15 Safer 974'te (1 Eylül 1566) Göle ve civarındaki birkaç kaleyi bir aydan fazla süren kuşatmanın ardından ele geçirdi'. ⚠️ Harita kırılması Gyula d:1566-09-02 (yerlesimler_ek5.js, kaynaksız) — TDV günü 09-01; UYGULA-YERLESIM-0930'a bildirildi.",
-  kaynak:"pertev-pasa", duygu:["⚔️"] }
+  kaynak:"pertev-pasa", duygu:["⚔️"] },
+
+// POSTIT-86: Yanova (Ineu) 1566 fethi ve 1595 kaybı — maddesizdi, harita kırılmaları Değişmez 2 için.
+{ t:"1566-07-25", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"], b:"Yanova (Ineu) Kalesi'nin alınması — Zigetvar seferi", gun:"25 Temmuz 1566", yer:"Yanova (Ineu), Banat", yer_id:"Yanova (Ineu)", kisiler:"Pertev Paşa",
+  d:"Kanûnî Sultan Süleyman'ın Zigetvar seferi sırasında ikinci vezir Pertev Paşa Yanova Kalesi'ni ele geçirdi. Osmanlılar yere Yanova adını verdi; kale Yanova-Pankota sancağının merkezi oldu ve sonradan Tımışvar beylerbeyliğine bağlandı.",
+  ic_not_t:"TDV yanova: '25 Temmuz'da ele geçirildi' (1566). Yıl Sigetvar seferi bağlamından gelir.",
+  kaynak:"yanova", duygu:["⚔️"] },
+
+{ t:"1595-10-22", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Yanova (Ineu)'nın Erdel birliklerince işgali", gun:"22 Ekim 1595", yer:"Yanova (Ineu), Banat", yer_id:"Yanova (Ineu)", kisiler:"György Borbély",
+  d:"Uzun Savaş'ta Habsburg'ların müttefiki Erdel birlikleri György Borbély komutasında Yanova kasabasını ve Erdöç palankasını işgal etti; kale Osmanlı elinden çıktı.",
+  ic_not_t:"TDV yanova: '22 Ekim 1595'te işgal edildi'.",
+  kaynak:"yanova", duygu:["😔"] },
 
 ];
 
