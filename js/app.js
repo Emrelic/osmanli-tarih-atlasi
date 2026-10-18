@@ -458,6 +458,40 @@ function serbestHat(i, u) {
   return (SRB_SADE_ONBELLEK[i] = dpSadelestir(ham, tolKm / 111.32));
 }
 
+// ═══════════════════════════════════════════════════════════════════════════
+// 🔴 KIRINTI HAT — hâle hattın KENDİ BOYUNU aşamaz (POSTIT-91, 18 Ekim 2026)
+// ═══════════════════════════════════════════════════════════════════════════
+// EMRE (#91, 1559, Katar–Abu Dabi kıyısı): *"bu renklendirmede bozuk görünümler
+// neden oluyor"* — denizde adacıkların çevresinde yıldız/üçgen yelpazeler.
+// ÖLÇÜLDÜ (tarayıcı, yayın r16131560, z7,3): o kutudaki 9 serbest hattın 7'si
+// 1,7–32,9 km boyunda, 2–5 köşeli; `u`ları 29,9 ve 151,9 km ⇒ 70–80 px kalem.
+// Kalem parçadan büyükse bevel köşeler parçanın kendisini değil KALEMİ çizer:
+// ekranda yıldız. Yukarıdaki DP de u/10 = 3 km toleransla 8 km'lik halkayı
+// üçgene indiriyordu (dişin üçüncü kaynağı).
+// KURAL: u_etkin = min(u, yayılım/2) — yayılım = hattın sınır kutusu köşegeni.
+// Gerekçe belirsizlik dilinde: 2 km'lik bir kenar parçası "sınır 150 km
+// oynayabilir" diyemez — sınır o kadar oynasaydı parça hiç var olmazdı.
+// DP toleransı da u_etkin'den hesaplanır.
+// İKİ ÖLÇÜ DENENDİ (bütün havuz, 651 hat):
+//   u ≤ boy        271 hat · uzunluğun %3,8'i  — YETMEDİ: 16–33 km çevreli ada
+//                  halkası boyunu çevreden alır, yıldız kaldı (tarayıcıda görüldü)
+//   u ≤ yayılım/2  361 hat · uzunluğun %11,7'si — adalar temiz; Lahsa/Hicaz
+//                  çöl kenarının hâlesi yerinde (z5, 1559, tarayıcıda görüldü)
+// ⚠️ Katar doğu kıyısındaki 300 km'lik uzun hattın kıyı dişleri bu kuralın
+//    DIŞINDA kalır (u 29,9 < yayılım/2) — o, yukarıdaki SINIR DİŞLERİ ailesi.
+var SRB_YAY_ONBELLEK = [];
+function hatYayilimKm(c) {                       // sınır kutusunun köşegeni (km)
+  if (!c.length) return 0;
+  var x0 = 1e9, x1 = -1e9, y0 = 1e9, y1 = -1e9;
+  for (var k = 0; k < c.length; k++) {
+    if (c[k][0] < x0) x0 = c[k][0]; if (c[k][0] > x1) x1 = c[k][0];
+    if (c[k][1] < y0) y0 = c[k][1]; if (c[k][1] > y1) y1 = c[k][1];
+  }
+  var dx = (x1 - x0) * 111.32 * Math.cos((y0 + y1) / 2 * Math.PI / 180);
+  var dy = (y1 - y0) * 110.57;
+  return Math.sqrt(dx * dx + dy * dy);
+}
+
 // Her hat AYRI bir feature: kalınlık artık veriden geliyor (`u` özniteliği).
 function hatCoz(dizi) {
   if (!dizi || !dizi.length) return null;
@@ -465,6 +499,11 @@ function hatCoz(dizi) {
            features: dizi.map(function (h) {
              var i = typeof h === "number" ? h : -1;
              var u = i >= 0 ? (SERBEST_U[i] || 60) : 60;
+             var yay = i >= 0
+               ? (SRB_YAY_ONBELLEK[i] != null ? SRB_YAY_ONBELLEK[i]
+                  : (SRB_YAY_ONBELLEK[i] = hatYayilimKm(SERBEST[i] || [])))
+               : hatYayilimKm(h || []);
+             if (yay / 2 < u) u = Math.max(yay / 2, 0.5);
              return { type: "Feature",
                       properties: { u: u },
                       geometry: { type: "LineString",
