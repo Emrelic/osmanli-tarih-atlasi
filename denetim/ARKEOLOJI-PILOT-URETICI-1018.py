@@ -77,7 +77,7 @@ olay(7100, "kurulus", "Çatalhöyük Doğu Höyük'te yerleşim başlar", "Çata
      "TEK DEĞER MÖ 7100 (kaynak aralık vermiyor). Bu değer ikincil bir aktarımdan; Bayliss vd. tam metni (ücretli) okunmadı.", None, "MÖ 7100 civarı")
 olay(6000, "kayip", "Çatalhöyük Doğu Höyük'te yerleşim faaliyeti sona erer", "Çatalhöyük (Konya Ovası)",
      "56 AMS tarihi: faaliyet MÖ 6000 cal BC'den hemen sonra biter; Neolitik gömü birkaç on yıl sonra kesilir.", CATAL_S, "yuzyil",
-     "«hemen sonrası» = en erken sınır MÖ 6000 yazıldı (bit için EN ERKEN uç, gerçek bitiş birkaç on yıl geç olabilir).", None, "MÖ 6000'den hemen sonra")
+     "TEK DEĞER (aralık yok): «hemen sonrası» = en erken sınır MÖ 6000 yazıldı (bit için EN ERKEN uç, gerçek bitiş birkaç on yıl geç olabilir).", None, "MÖ 6000'den hemen sonra")
 # 7-8 Jiahu
 olay(7000, "kurulus", "Jiahu (Henan): yerleşim başlar", "Jiahu (Wuyang, Henan, Çin)",
      "Üç evreli yerleşim; en eski bölümün çanak çömleği MÖ 7000–6600 arasına tarihlenir.", JIAHU, "yuzyil",
@@ -85,7 +85,7 @@ olay(7000, "kurulus", "Jiahu (Henan): yerleşim başlar", "Jiahu (Wuyang, Henan,
      aralikli(7000, 5700, "belirsiz", "yerlesim-suresi"), "MÖ 7000 civarı")
 olay(5700, "kayip", "Jiahu yerleşiminin sonu", "Jiahu (Wuyang, Henan, Çin)",
      "Üçüncü evre MÖ 6200–5700.", JIAHU + " (bir başka yayında bitiş 5500: Frontiers ek tablosu)", "yuzyil",
-     "Bitiş için iki kaynak çelişir (5700 / 5500); Nature 1999 esas alındı.", None, "MÖ 5700 civarı")
+     "TEK DEĞER (aralık yok): Bitiş için iki kaynak çelişir (5700 / 5500); Nature 1999 esas alındı.", None, "MÖ 5700 civarı")
 # 9 Mehrgarh
 m = orta(5200, 4900)
 olay(m, "kurulus", "Mehrgarh (Belucistan): aseramik Neolitik mezarlık dizisi başlar", "Mehrgarh (Belucistan, Pakistan)",
@@ -96,7 +96,7 @@ olay(m, "kurulus", "Mehrgarh (Belucistan): aseramik Neolitik mezarlık dizisi ba
 # 10 Harappa
 olay(3300, "kurulus", "Harappa: Ravi evresi (Dönem 1) başlar — Hint vadisi öncesi dönem", "Harappa (Pencap, Pakistan)",
      "HARP kronolojisi Dönem 1'i MÖ 3300–~2800 verir; aynı sitede başka tablolar 3700 ve >3500 başlangıcı verir.", HARP, "yuzyil",
-     "KAYNAK ÇELİŞKİSİ: en sık anılan MÖ 3300 yazıldı; alternatifler 3700 / >3500 (aynı site, farklı yayın). Tek değer; orta nokta alınmaz.", None, "MÖ 3300 civarı")
+     "TEK DEĞER (aralık yok): KAYNAK ÇELİŞKİSİ: en sık anılan MÖ 3300 yazıldı; alternatifler 3700 / >3500 (aynı site, farklı yayın). Tek değer; orta nokta alınmaz.", None, "MÖ 3300 civarı")
 # 11-12 Varna
 a, b = 4596, 4516
 m = orta(a, b)
