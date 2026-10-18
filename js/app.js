@@ -4106,7 +4106,7 @@ var ISARET_KAYNAK = (window.YERLESIMLER && window.YERLESIMLER.length)
                               y: epokBaslangici ? undefined : (alan === "d" ? dn.y : undefined) });
           });
         });
-        pencereler.sort(function (a, b) { return a.f < b.f ? -1 : a.f > b.f ? 1 : 0; });
+        pencereler.sort(function (a, b) { return gunIdx(a.f) - gunIdx(b.f); });
         return { ad: y.ad, tur: y.tur, lat: y.lat, lon: y.lon, gecici: y.g === 0,
                  // ⚠️ `g` BURADA TAŞINMALI. Eskiden taşınmıyordu çünkü tek
                  // kullanıcısı `pencereler[].d` idi; şehir öncelik sıralaması
@@ -5738,8 +5738,8 @@ function isyanMaddeKutusu(o, ozelEl) {
   bas.textContent = "🗺 İsyan taraması (Eflak · Boğdan · Erdel)";
   kutuEl.appendChild(bas);
   (IT.pencereler || []).forEach(function (p) {
-    var aktif = p.f <= gs && gs < p.t;
-    var durum = aktif ? "bu gün taralı" : (gs < p.f ? "henüz başlamadı" : "sona erdi");
+    var aktif = gunIdx(p.f) <= gunIdx(gs) && gunIdx(gs) < gunIdx(p.t);
+    var durum = aktif ? "bu gün taralı" : (gunIdx(gs) < gunIdx(p.f) ? "henüz başlamadı" : "sona erdi");
     var kay = [];
     (p.kaynak || []).forEach(function (k) { var a = k.slug ? "TDV " + k.slug : "History of Transylvania"; if (kay.indexOf(a) < 0) kay.push(a); });
     var sat = document.createElement("span");
@@ -5897,7 +5897,7 @@ function isyanYayilmaUret() {
   Object.keys(grup).forEach(function (kok) {
     var nk = grup[kok];
     if (nk.length < 2) return;
-    nk.sort(function (a, b) { return a.t < b.t ? -1 : a.t > b.t ? 1 : 0; });
+    nk.sort(function (a, b) { return gunIdx(a.t) - gunIdx(b.t); });
     for (var i = 1; i < nk.length; i++) {
       var a = nk[i - 1], b = nk[i];
       // SEFER-OKU-0087 (paket 0087 H-0001): varış işareti `yayilma_oku:false` taşıyorsa
@@ -9890,16 +9890,16 @@ function _yerlesimSerit(y) {
   var uc = {};
   function ekle(a) { (y[a] || []).forEach(function (p) { uc[p.f] = 1; uc[p.t] = 1; }); }
   ekle("d"); ekle("v"); ekle("s"); ekle("isg");
-  var g = Object.keys(uc).sort();
+  var g = Object.keys(uc).sort(function (a, b) { return gunIdx(a) - gunIdx(b); });
   if (g.length < 2) return { taban: [], isgal: [] };
 
   function sahip(gun) {
     var p, i;
     for (i = 0; i < (y.d || []).length; i++)
-      if ((p = y.d[i]).f <= gun && gun < p.t)
+      if (gunIdx((p = y.d[i]).f) <= gunIdx(gun) && gunIdx(gun) < gunIdx(p.t))
         return { ad: "Osmanlı", cins: "doğrudan", renk: "#8e0b22" };
     for (i = 0; i < (y.v || []).length; i++)
-      if ((p = y.v[i]).f <= gun && gun < p.t) {
+      if (gunIdx((p = y.v[i]).f) <= gunIdx(gun) && gunIdx(gun) < gunIdx(p.t)) {
         if (p.kid && _KID_YABANCI_UST[p.kid])
           return { ad: devletAdi(p.kid),
                     cins: "tâbi (" + devletAdi(_KID_YABANCI_UST[p.kid]) + ")",
@@ -9907,7 +9907,7 @@ function _yerlesimSerit(y) {
         return { ad: "Osmanlı", cins: "tâbi", renk: TABI_RENK };
       }
     for (i = 0; i < (y.s || []).length; i++)
-      if ((p = y.s[i]).f <= gun && gun < p.t)
+      if (gunIdx((p = y.s[i]).f) <= gunIdx(gun) && gunIdx(gun) < gunIdx(p.t))
         return { ad: devletAdi(p.d), cins: "", renk: _DEVLET_RENK[p.d] || "#9a9a9a" };
     return null;                       // SAHİPSİZ — çubukta taralı zemin kalır
   }
@@ -10134,8 +10134,8 @@ function dizinDoldur(sekme) {
       baslik(KADEME_ADI[kd] + " (" + kgruplar[kd].length + ")");
       kgruplar[kd].sort(function (a, b) { return a.ad.localeCompare(b.ad, "tr"); })
       .forEach(function (s) {
-        var ilk = s.don.reduce(function (a, b) { return a.f < b.f ? a : b; });
-        var son = s.don.reduce(function (a, b) { return a.t > b.t ? a : b; });
+        var ilk = s.don.reduce(function (a, b) { return gunIdx(a.f) < gunIdx(b.f) ? a : b; });
+        var son = s.don.reduce(function (a, b) { return gunIdx(a.t) > gunIdx(b.t) ? a : b; });
         var koord = s.lat.toFixed(3) + "K, " + s.lon.toFixed(3) + "D" +
                     (s.kur ? " · kur. " + yilDizgi(s.kur) : "");
         satir((s.tur === "kale" ? "🏰 " : "") + s.ad + (s.m ? " → " + s.m : ""), koord,
@@ -10181,7 +10181,7 @@ function dizinDoldur(sekme) {
       (y.v || []).forEach(function (p) { hepsi.push({ f:p.f, t:p.t, ad:"Osmanlı", cins:"tâbi" }); });
       (y.s || []).forEach(function (p) { hepsi.push({ f:p.f, t:p.t, ad:devletAdi(p.d), cins:"" }); });
       (y.isg || []).forEach(function (p) { hepsi.push({ f:p.f, t:p.t, ad:devletAdi(p.d), cins:"işgal" }); });
-      hepsi.sort(function (a, b) { return a.f < b.f ? -1 : a.f > b.f ? 1 : 0; });
+      hepsi.sort(function (a, b) { return gunIdx(a.f) - gunIdx(b.f); });
       return hepsi;
     }
 
@@ -10495,7 +10495,7 @@ function _yaSahip(e, t) {
     ad = kid ? devletAdi(kid) + " (Osmanlı tâbi)" : (vk ? vk + " (Osmanlı tâbi)" : "Osmanlı tâbi");
   } else if (key.indexOf("s:") === 0) ad = devletAdi(key.slice(2));
   (y.isg || []).forEach(function (p) {
-    if (p.f <= gs && gs < p.t) ad += " · işgal: " + devletAdi(p.d);
+    if (gunIdx(p.f) <= gunIdx(gs) && gunIdx(gs) < gunIdx(p.t)) ad += " · işgal: " + devletAdi(p.d);
   });
   return ad;
 }
@@ -14460,8 +14460,8 @@ function ittifakCiz(itt, o) {
   ittifakTemizle();
   var noktalar = [], eksik = [];
   (itt.uyeler || []).forEach(function (u) {
-    if (u.f && u.f > o.t) return;                       // henüz katılmadı
-    if (u.t && u.t < o.t) return;                       // ayrıldı
+    if (u.f && gunIdx(u.f) > gunIdx(o.t)) return;       // henüz katılmadı
+    if (u.t && gunIdx(u.t) < gunIdx(o.t)) return;       // ayrıldı
     var c = _ittifakNoktasi(u.devlet);
     if (!c) { eksik.push(u.devlet); return; }
     noktalar.push({ c: c, u: u });
@@ -17687,7 +17687,7 @@ function derinAdimlari(o) {
     console.warn("[derin pencere] “" + (o.b || "?") + "”: " + elenen.length
                  + " alt adım ELENDİ — " + elenen.join(" · "));
   }
-  iyi.sort(function (a, b) { return a.t < b.t ? -1 : a.t > b.t ? 1 : 0; });
+  iyi.sort(function (a, b) { return gunIdx(a.t) - gunIdx(b.t); });
   return { adimlar: iyi, elenen: elenen.length };
 }
 

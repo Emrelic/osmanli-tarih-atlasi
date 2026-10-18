@@ -48,12 +48,23 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import gun as _gun                 # negatif yil sayaci (gun_no devreder)
 from girdi import UFUK, VERI_UFKU, UFUK_DAMGASI, ufuk_devirleri
 
+# 🆕 C1 · GUN-SAYACI: tarih KIYASI yalniz gun sayisiyla (dizgi MO'de ters, 3 haneli yilda yanlis).
+#   Gecersiz tarihte FIRLATIR — None donup ihlali sessizce gecirmek yasak (eski _gun_farki).
+_GN_ONB = {}
+
+
+def gn(s):
+    n = _GN_ONB.get(s)
+    if n is None:
+        n = _GN_ONB[s] = _gun.gun(s)
+    return n
+
 
 def kirilma_disi(g):
     """KIRILMA SAYILMAYAN gün: yok · UFUK'un dışı · UFUK DAMGASI (dört uç
     gün, tanımı `girdi.UFUK_DAMGASI` — el değiştirme değil, D210).
     Değişmez 2/2s/2i ve 7 aynı kapıdan sorar."""
-    return (not g) or g < UFUK[0] or g > UFUK[1] or g in UFUK_DAMGASI
+    return (not g) or gn(g) < gn(UFUK[0]) or gn(g) > gn(UFUK[1]) or g in UFUK_DAMGASI
 
 # Bugün doğru kabul edilen sayılar — CLAUDE.md §3 ile aynı. Sapma varsa uyar.
 # 748 -> 761: hatalar 4.docx düzeltmeleri (Çerkezya 5, Dağıstan 3, Şirvan 4,
@@ -1256,7 +1267,7 @@ def gun_no(s):
 # ---------------- Değişmez 1 — sahipsizlik yok ----------------
 def degismez1(Y):
     def ir(periods, g):
-        return bool(periods) and any(p["f"] <= g < p["t"] for p in periods)
+        return bool(periods) and any(gn(p["f"]) <= gn(g) < gn(p["t"]) for p in periods)
 
     sahipsiz = {}
     # ⚠️ Kesitler 1300'den başlıyordu ve KURULUŞ DEVRİNİ (1281-1300) hiç
@@ -1267,14 +1278,14 @@ def degismez1(Y):
         g = f"{yil}-06-15"
         for t in Y:
             kur = t.get("kur")
-            if kur and kur > g:
+            if kur and gn(kur) > gn(g):
                 continue
             # ⚠️ bit: — yerleşim ortadan kalktıysa sahipsizlik SORULMAZ. Motor
             # bu alanı 2026-07-30'da okumaya başladı (petek_epok); araç da
             # okumazsa yok olmuş nokta "sahipsiz" diye yanlış alarm üretir.
             # Örnek: Zaporijya Sıçı 1775'te yıkıldı, sonrasında sahibi olmaz.
             bit = t.get("bit")
-            if bit and bit <= g:
+            if bit and gn(bit) <= gn(g):
                 continue
             if ir(t.get("d"), g) or ir(t.get("s"), g) or ir(t.get("v"), g):
                 continue
@@ -1303,20 +1314,21 @@ BEKLENEN_VERILI_DELIK = None   # None = TAVAN YAZILMADI ⇒ yalnız bilgi. Koord
 def degismez1_kapsam(Y):
     """→ (kapsam_disi, verili_delik) — ikisi de [(ad, devir_adı)] LİSTESİ."""
     def dok(ps, f, t):
-        return any(p.get("f") and p.get("t") and p["f"] < t and p["t"] > f
+        return any(p.get("f") and p.get("t") and gn(p["f"]) < gn(t) and gn(p["t"]) > gn(f)
                    for p in (ps or []))
     def ir(ps, g):
-        return any(p["f"] <= g < p["t"] for p in (ps or []))
+        return any(gn(p["f"]) <= gn(g) < gn(p["t"]) for p in (ps or []))
     kapsam, delik = [], []
     for dad, df, dt in ufuk_devirleri():
-        gunler = ["%04d-06-15" % yil for yil in range(int(df[:4]), int(dt[:4]) + 1, 10)]
-        gunler = [g for g in gunler if df <= g < dt]
+        gunler = [_gun.dizgi(_gun.gun_sayisi(yil, 6, 15))
+                  for yil in range(_gun.yil(gn(df)), _gun.yil(gn(dt)) + 1, 10)]
+        gunler = [g for g in gunler if gn(df) <= gn(g) < gn(dt)]
         for y in Y:
             if not any(y.get(k) for k in ("s", "d", "v")):
                 continue                  # kasten boş dolgu — zaten Değişmez 1'de
             sahnede = [g for g in gunler
-                       if not (y.get("kur") and y["kur"] > g)
-                       and not (y.get("bit") and y["bit"] <= g)]
+                       if not (y.get("kur") and gn(y["kur"]) > gn(g))
+                       and not (y.get("bit") and gn(y["bit"]) <= gn(g))]
             bos = [g for g in sahnede
                    if not (ir(y.get("d"), g) or ir(y.get("s"), g) or ir(y.get("v"), g))]
             if not bos:
@@ -1499,19 +1511,19 @@ def degismez1b(Y):
                     araliklar.append((p["f"], p["t"]))
         if not araliklar:
             continue                      # kasten boş dolgu noktası
-        araliklar.sort()
+        araliklar.sort(key=lambda a: (gn(a[0]), gn(a[1])))
         # örtüşenleri birleştir (s×d/v örtüşmesi kasıtlı, bkz. dönem sağlığı)
         birlesik = [list(araliklar[0])]
         for f, t in araliklar[1:]:
-            if f <= birlesik[-1][1]:
-                birlesik[-1][1] = max(birlesik[-1][1], t)
+            if gn(f) <= gn(birlesik[-1][1]):
+                birlesik[-1][1] = max(birlesik[-1][1], t, key=gn)
             else:
                 birlesik.append([f, t])
         bit = y.get("bit")
         for i in range(len(birlesik) - 1):
             bas, son = birlesik[i][1], birlesik[i + 1][0]
             # bit: sonrası boşluk BOŞLUK DEĞİLDİR — yerleşim sahneden çıkmıştır.
-            if bit and bit <= bas:
+            if bit and gn(bit) <= gn(bas):
                 continue
             gun = gun_no(son) - gun_no(bas)
             bulunan.append((gun, y["ad"], bas, son))
@@ -2329,7 +2341,7 @@ def _osmanli_kure(Y, g, _onbellek={}):
     out = []
     for y in Y:
         for alan in ("d", "v"):
-            if any(p["f"] <= g < p["t"] for p in (y.get(alan) or [])):
+            if any(gn(p["f"]) <= gn(g) < gn(p["t"]) for p in (y.get(alan) or [])):
                 out.append(y)
                 break
     _onbellek[g] = out
@@ -2355,14 +2367,8 @@ def kapsam_disi(Y, acik):
         if not kure:
             # FETRET yedegi: en yakin govdeli gune kaydir
             for kaydir in (365, 730, 1460, 2920, 4380):
-                import datetime
-                yy, mm, dd = int(g[:4]), int(g[5:7]), int(g[8:10])
                 for yon in (-1, 1):
-                    try:
-                        alt = (datetime.date(yy, mm, dd)
-                               + datetime.timedelta(days=yon * kaydir)).isoformat()
-                    except Exception:
-                        continue
+                    alt = _gun.dizgi(gn(g) + yon * kaydir)
                     kure = _osmanli_kure(Y, alt)
                     if kure:
                         break
@@ -2513,13 +2519,13 @@ def degismez3(Y):
 
     def durum(y, g):
         for p in (y.get("d") or []):
-            if p["f"] <= g < p["t"]:
+            if gn(p["f"]) <= gn(g) < gn(p["t"]):
                 return "OSMANLI"
         for p in (y.get("v") or []):
-            if p["f"] <= g < p["t"]:
+            if gn(p["f"]) <= gn(g) < gn(p["t"]):
                 return "tabi"
         for p in (y.get("s") or []):
-            if p["f"] <= g < p["t"]:
+            if gn(p["f"]) <= gn(g) < gn(p["t"]):
                 return p["d"]
         return "—"
 
@@ -2742,17 +2748,11 @@ def _harita_tarih_sec(adaylar, pf, pt):
 
 
 def _gun_farki(a, b):
-    from datetime import date as _d
-
-    def ay(s):
-        p = (s or "").split("-")
-        try:
-            return _d(int(p[0]), int(p[1]) if len(p) > 1 else 1,
-                      int(p[2]) if len(p) > 2 else 1)
-        except Exception:
-            return None
-    x, y = ay(a), ay(b)
-    return None if (x is None or y is None) else (x - y).days
+    """a - b (gun). Bos/None girdi -> None (uc yok); GECERSIZ tarih FIRLATIR.
+    Eski hali date() ile MO yilda None donup 'olculemedi'yi sessizce gecirirdi."""
+    if not a or not b:
+        return None
+    return gn(a) - gn(b)
 
 
 ATLAS_SONU = UFUK[1]   # ZAMAN-Z1-1008: motor ufkunun sonu
@@ -3053,8 +3053,8 @@ def degismez4(Y):
                         cok_harita.append((_ad, kim,
                                            [a[2] for a in aday],
                                            p.get("f"), p.get("t")))
-                        kf = min((a[0] for a in aday if a[0]), default=None, key=pad)
-                        kt = max((a[1] for a in aday if a[1]), default=None, key=pad)
+                        kf = min((a[0] for a in aday if a[0]), default=None, key=lambda x: gn(pad(x)))
+                        kt = max((a[1] for a in aday if a[1]), default=None, key=lambda x: gn(pad(x)))
                     else:
                         kf, kt = sec[0], sec[1]
             # dönem BAŞI künyenin sonundan SONRA mı (devlet ölmüş)
@@ -3074,7 +3074,7 @@ def degismez4(Y):
             # ── ③ dönem, devletin ÖLÜMÜNÜ AŞIYOR mu (AYRI KOVA) ────────
             # ⚠️ Atlas sonuna kadar yaşayan künyeler HARİÇ: onlarda "aşma"
             #   diye bir şey yoktur, dönem atlasın kendi sınırında biter.
-            if kt and pad(kt) < ATLAS_SONU:
+            if kt and gn(pad(kt)) < gn(ATLAS_SONU):
                 g3 = _gun_farki(p.get("t"), kt)
                 if g3 is not None and g3 > HAYALET_TOLERANS_GUN:
                     asan.append((_ad, kim, p.get("f"), p.get("t"), kt,
@@ -3084,7 +3084,7 @@ def degismez4(Y):
             #   böyle — künyeyi iki uçtan da aşıyor). Kesişim AYRI basılır.
             # ⚠️ Atlasın başından önce doğan künyeler HARİÇ: orada "önce
             #   başlamak" atlasın kendi sınırıdır, veri kusuru değil.
-            if kf and pad(kf) > ATLAS_BASI:
+            if kf and gn(pad(kf)) > gn(ATLAS_BASI):
                 g4 = _gun_farki(kf, p.get("f"))
                 if g4 is not None and g4 > HAYALET_TOLERANS_GUN:
                     once.append((_ad, kim, p.get("f"), p.get("t"), kf,
@@ -3218,13 +3218,13 @@ def degismez5(Y):
                                     g / 365.25))
         else:
             # 5b — kur: yok ve ilk dönem çok geç ⇒ kuruluş yazılmamış olabilir
-            if ilk > "%04d-01-01" % (int(VERI_UFKU[0][:4]) + SUPHE_ESIK_YIL):
+            if gn(ilk) > _gun.gun_sayisi(_gun.yil(gn(VERI_UFKU[0])) + SUPHE_ESIK_YIL, 1, 1):
                 suphe.append((y["ad"], ilk, donemler[0][2],
                               round(y.get("lat", 0), 2),
                               round(y.get("lon", 0), 2)))
             elif (y.get("tur") != "bolge"
                   and not y.get("kasitli_bosluk")
-                  and ilk <= VERI_UFKU[0][:4] + "-12-31"):
+                  and gn(ilk) <= _gun.gun_sayisi(_gun.yil(gn(VERI_UFKU[0])), 12, 31)):
                 # 5c — `kur:` HİÇ YOK ve 1281'de zaten SAHİPLİ.
                 # Ne 5a (kur: yok) ne 5b (ilk dönem erken) görüyor.
                 kursuz.append((y["ad"], ilk, donemler[0][2],
@@ -3696,14 +3696,14 @@ def degismez7(Y, isg_kova=None):
 
     def sahip_dj(i, g):
         for f, t, s, _e in DON[i]:
-            if f <= g < t:
+            if gn(f) <= gn(g) < gn(t):
                 return s
         return None
 
     def sahip(i, g):
         """HUKUKÎ görünüm: işgal altındaki kayıt hiçbir egemene sayılmaz."""
         for f, t, s in ISG[i]:
-            if f <= g < t:
+            if gn(f) <= gn(g) < gn(t):
                 return "isg:" + s
         return sahip_dj(i, g)
 
@@ -3711,7 +3711,7 @@ def degismez7(Y, isg_kova=None):
         """FİİLÎ görünüm — yalnız işgal ceplerini sorarken: işgal altındaki
         kayıt İŞGALCİYE sayılır, işgalcinin egemen gövdesine bağlanır."""
         for f, t, s in ISG[i]:
-            if f <= g < t:
+            if gn(f) <= gn(g) < gn(t):
                 return s
         return sahip_dj(i, g)
 
@@ -3726,12 +3726,7 @@ def degismez7(Y, isg_kova=None):
         return gor
 
     def artir(g, gun):
-        p = g.split("-")
-        try:
-            return (date(int(p[0]), int(p[1]), int(p[2]))
-                    + timedelta(days=gun)).isoformat()
-        except Exception:
-            return g
+        return _gun.dizgi(gn(g) + gun)
 
     def sor(i, y, f, t, s, enk, muaf, hedef, isg):
         # isg: soru FİİLÎ görünümle sorulur (işgal cebi işgalcinin gövdesine
@@ -3757,7 +3752,7 @@ def degismez7(Y, isg_kova=None):
             muaf["kucuk-devlet"] += 1
             return
         g1 = artir(f, D7_CEPHE_GUN)
-        if t <= g1:
+        if gn(t) <= gn(g1):
             g1 = artir(t, -1)          # kayıt YAŞARKEN ölç (yukarıdaki ⑤)
         if (kendi(i, g1) != s
                 or len(bilesen(i, g1, s, D7_ADA_ESIK + 1, kim)) > D7_ADA_ESIK):
@@ -3826,13 +3821,13 @@ def degismez3z(Y):
 
     def durum(y, g):
         for p in (y.get("d") or []):
-            if p["f"] <= g < p["t"]:
+            if gn(p["f"]) <= gn(g) < gn(p["t"]):
                 return "OSMANLI"
         for p in (y.get("v") or []):
-            if p["f"] <= g < p["t"]:
+            if gn(p["f"]) <= gn(g) < gn(p["t"]):
                 return "tabi"
         for p in (y.get("s") or []):
-            if p["f"] <= g < p["t"]:
+            if gn(p["f"]) <= gn(g) < gn(p["t"]):
                 return p["d"]
         return "—"
 
@@ -4430,8 +4425,7 @@ def _kelimeler(b):
 
 
 def _gun_no(t):
-    p = (t + "-01-01").split("-")
-    return date(int(p[0]), int(p[1]), int(p[2])).toordinal()
+    return gn(t) + 719163
 
 
 # ⚠️ ÜÇÜNCÜ TUR — BAŞLIK BENZERLİĞİNİN KÖR NOKTASI (hatalar 7.docx madde 5)
@@ -4570,7 +4564,7 @@ def _tam_kokler(b):
 
 def onek_olcutu(O):
     """Bugünkü ölçütün GÖRMEDİĞİ, önek eşleşmesiyle görünen çiftler."""
-    S = sorted(O, key=lambda o: o["t"])
+    S = sorted(O, key=lambda o: gn(o["t"]))
     out = []
     for i in range(len(S)):
         gi = _gun_no(S[i]["t"])
@@ -4689,7 +4683,7 @@ def _bilinen_ayri(cift):
 
 def mukerrer_maddeler(O):
     """İki ölçüt: (1) başlık benzerliği + ±400 gün, (2) ortak kişi + ±3 gün."""
-    S = sorted(O, key=lambda o: o["t"])
+    S = sorted(O, key=lambda o: gn(o["t"]))
     bulunan = []
     for i in range(len(S)):
         gi = _gun_no(S[i]["t"])
@@ -4954,7 +4948,7 @@ def donem_sagligi(Y):
     sifir, ters, cakisan_ayni, sd_ortusme, dv_ortusme = [], [], [], [], []
 
     def orusuyor(a, b):
-        return a["f"] < b["t"] and b["f"] < a["t"]
+        return gn(a["f"]) < gn(b["t"]) and gn(b["f"]) < gn(a["t"])
 
     for y in Y:
         # "isg" (işgal örtüsü, 043e911) BİLEREK burada: sıfır uzunluk, ters
@@ -4969,11 +4963,11 @@ def donem_sagligi(Y):
                 f, t = p.get("f"), p.get("t")
                 if not f or not t:
                     continue
-                if f == t:
+                if gn(f) == gn(t):
                     sifir.append((y["ad"], kat, f))
-                elif f > t:
+                elif gn(f) > gn(t):
                     ters.append((y["ad"], kat, f, t))
-            gecerli = sorted((p for p in donemler if p.get("f") and p.get("t")), key=lambda p: p["f"])
+            gecerli = sorted((p for p in donemler if p.get("f") and p.get("t")), key=lambda p: gn(p["f"]))
             for i in range(len(gecerli) - 1):
                 if orusuyor(gecerli[i], gecerli[i + 1]):
                     cakisan_ayni.append((y["ad"], kat, gecerli[i], gecerli[i + 1]))
@@ -5335,13 +5329,9 @@ def _d8_d_dosyalari():
 
 
 def _d8_gun_once(g):
-    from datetime import date, timedelta
-    try:
-        # DENETLE-TARIH-KALAN-1008: `fromisoformat` dört haneli yıl ister;
-        # "330-05-11" pad()'siz SESSİZCE None dönüyordu (gün düşüyordu).
-        return (date.fromisoformat(pad(g)) - timedelta(days=1)).isoformat()
-    except ValueError:
-        return None
+    # C1: date.fromisoformat yil < 1'i ve 3 haneli yili reddedip None donuyordu (gun sessizce
+    # dusuyordu). Sayac 908 / -2999'u dogru okur; GECERSIZ tarih FIRLATIR.
+    return _gun.dizgi(gn(g) - 1)
 
 
 def _d8_gunler(f, t):
@@ -5353,8 +5343,8 @@ def _d8_gunler(f, t):
     """
     f_ = pad(f or "")
     gunler = {pad(f), _d8_gun_once(t) if t else None}
-    return (sorted(g for g in gunler if g and g < f_),
-            sorted(g for g in gunler if g and g >= f_))
+    return (sorted((g for g in gunler if g and gn(g) < gn(f_)), key=gn),
+            sorted((g for g in gunler if g and gn(g) >= gn(f_)), key=gn))
 
 
 # 🔴 GÖVDE KİMLİK SINAVI — "ölçtüğüm gövde, SİTENİN gösterdiği gövde mi?"
@@ -5508,7 +5498,7 @@ class _D8Govde:
         cik = []
         for ki, (_, _, donem) in enumerate(self.kay):
             for gid, f, t, parcalar in donem:
-                if not (f <= gun and (gun <= t if bitis_dahil else gun < t)):
+                if not (gn(f) <= gn(gun) and (gn(gun) <= gn(t) if bitis_dahil else gn(gun) < gn(t))):
                     continue
                 for p in parcalar:
                     r = self._parca(ki, p)
@@ -5534,13 +5524,13 @@ def _d8_izdusum(lon0, lat0):
 def _d8_sahip(y, gun):
     """Yerleşimin o günkü DE JURE sahibi (motorun gördüğü; `isg:` HARİÇ)."""
     for p in y.get("s") or []:
-        if (p.get("f") or "0000") <= gun < (p.get("t") or "9999"):
+        if gn(p.get("f") or "-9999") <= gn(gun) < gn(p.get("t") or "9999"):
             return p.get("d")
     for p in y.get("v") or []:
-        if (p.get("f") or "0000") <= gun < (p.get("t") or "9999"):
+        if gn(p.get("f") or "-9999") <= gn(gun) < gn(p.get("t") or "9999"):
             return "OSM-TABI"
     for p in y.get("d") or []:
-        if (p.get("f") or "0000") <= gun < (p.get("t") or "9999"):
+        if gn(p.get("f") or "-9999") <= gn(gun) < gn(p.get("t") or "9999"):
             return "OSMANLI"
     return None
 
@@ -5576,10 +5566,10 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
     #    yazılır; iki yaka da tâbiyse belirsizdir ⇒ hiçbirine yazılmaz (kör kalır, UYDURULMAZ).
     tabi_pen = _d8_node([os.path.join(kok, "data", "devletler.js")],
                         "Object.fromEntries((window.DEVLETLER||[]).filter(d=>d&&d.id&&Array.isArray(d.tabi))"
-                        ".map(d=>[d.id,d.tabi.filter(p=>p.ust==='osmanli').map(p=>[p.f||'0000',p.t||'9999'])]))")
+                        ".map(d=>[d.id,d.tabi.filter(p=>p.ust==='osmanli').map(p=>[p.f||'-9999',p.t||'9999'])]))")
 
     def tabi_mi(taraf, gun):
-        return any(f <= gun < t for f, t in tabi_pen.get(taraf, ()))
+        return any(gn(f) <= gn(gun) < gn(t) for f, t in tabi_pen.get(taraf, ()))
 
     iki_tarafsiz = 0
     if hatlar is None:
@@ -5617,7 +5607,7 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
     def agac(taraf, gun):
         k = (anahtar(taraf), gun)
         if k not in _agac:
-            L = [a for a in aralik.get(k[0], ()) if a[3] <= gun < a[4]]
+            L = [a for a in aralik.get(k[0], ()) if gn(a[3]) <= gn(gun) < gn(a[4])]
             _agac[k] = (STRtree(shapely.points([(a[0], a[1]) for a in L])), [a[2] for a in L]) \
                 if L else None
         return _agac[k]
@@ -5789,7 +5779,7 @@ def degismez8(Y, sadece=None, hatlar=None, gv=None):
             else:
                 # Site o gün hangi pencereyi çiziyorsa onu ölç; pencere yoksa
                 # o gün çizgi YOK ⇒ taşma da yok.
-                aktif = [g for f, t, g in pencereler if f <= gun < t]
+                aktif = [g for f, t, g in pencereler if gn(f) <= gn(gun) < gn(t)]
                 if not aktif:
                     continue
                 BG = _mp(aktif[0])
@@ -6180,7 +6170,7 @@ def _kaynak_dolu(v):
 def _donem_pencerede(p, ufuk):
     """`s:` dönemi `[f, t)` ufuk penceresi `[ufuk[0], ufuk[1])` ile kesişiyor mu
     (KAYNAK_TAVAN_YOL üstündeki PENCERE ŞARTI; uç yoksa açık — `kd_gun` gibi)."""
-    return (p.get("f") or "") < ufuk[1] and (p.get("t") or "9999") > ufuk[0]
+    return gn(p.get("f") or "-9999") < gn(ufuk[1]) and gn(p.get("t") or "9999") > gn(ufuk[0])
 
 
 def kaynaksizlik_olc(Y, ufuk=None):
@@ -6401,7 +6391,7 @@ ZK_TURLER = ("birebir", "birlesim", "pencere")
 def _zk_durum(y, gun):
     """Kaydın o günkü (de jure sahip, isg kümesi) çifti."""
     def ic(p):
-        return (p.get("f") or "0000") <= gun < (p.get("t") or "9999")
+        return gn(p.get("f") or "-9999") <= gn(gun) < gn(p.get("t") or "9999")
     taban = None
     for p in y.get("v") or []:
         if ic(p):
@@ -6430,9 +6420,9 @@ def zincir_kopya_karsilastir(kopya, kaynak, f, t):
         for kat in ("s", "d", "v", "isg"):
             for p in y.get(kat) or []:
                 for u in (p.get("f"), p.get("t")):
-                    if u and f < u < t:
+                    if u and gn(f) < gn(u) < gn(t):
                         kes.add(u)
-    kes = sorted(kes) + [t]
+    kes = sorted(kes, key=gn) + [t]
     farklar = []
     for bas, son in zip(kes, kes[1:]):
         a, b = _zk_durum(kopya, bas), _zk_durum(kaynak, bas)
@@ -6506,8 +6496,7 @@ def zincir_kaynagi_rapor(R, ayrinti=False):
     for ad, sebep in R["bozuk"]:
         print(f"    ✗ BOZUK BEYAN  {ad}: {sebep}")
     for ad, yer, f, t, tur, farklar in R["bayat"]:
-        gun = sum((date.fromisoformat(pad(s)) - date.fromisoformat(pad(b))).days
-                  for b, s, _, _ in farklar)     # pad: DENETLE-TARIH-KALAN-1008
+        gun = sum(gn(s) - gn(b) for b, s, _, _ in farklar)     # pad: DENETLE-TARIH-KALAN-1008
         yalniz_isg = all(a[0] == k[0] for _, _, a, k in farklar)
         print(f"    BAYAT KOPYA  {ad} ← {yer}  [{f}, {t}) {tur} · {len(farklar)} dilim, {gun} gün ayrı"
               + (" · YALNIZ isg: örtüsü" if yalniz_isg else ""))
@@ -6614,7 +6603,7 @@ def _rotus_sinir_gunleri(govde, kimlikler, f, t):
         else:
             for _, _, dn in govde.kay:
                 uclar += [(df, dt) for gid, df, dt, _ in dn if gid == kimlik]
-    gunler = sorted({f} | {df for df, dt in uclar if f < df < t})
+    gunler = sorted({f} | {df for df, dt in uclar if gn(f) < gn(df) < gn(t)}, key=gn)
     return gunler, {df for df, _ in uclar}, {dt for _, dt in uclar}
 
 
@@ -6744,9 +6733,9 @@ def degismez_r(Y, dosya=None, govde_fab=None, halka=None, coz=None, index_kontro
             if not P.contains(Point(y["lon"], y["lat"])):
                 continue
             for df, dt, sahip in _rotus_sahip_donemleri(y):
-                if df < t and f < dt and sahip != k["kime"]:
+                if gn(df) < gn(t) and gn(f) < gn(dt) and sahip != k["kime"]:
                     R["ihlal"].append((kid, "R4", "poligonda `%s` — %s→%s `%s`in (rötuş sahiplik "
-                                       "DEĞİŞTİREMEZ)" % (y["ad"], max(df, f), min(dt, t), sahip)))
+                                       "DEĞİŞTİREMEZ)" % (y["ad"], max(df, f, key=gn), min(dt, t, key=gn), sahip)))
                     break
         # R6 — kaynaklı halka kimden lehine mi
         for h in (halka or []):
@@ -6754,8 +6743,8 @@ def degismez_r(Y, dosya=None, govde_fab=None, halka=None, coz=None, index_kontro
                 (h["yer_kon"][1], h["yer_kon"][0]) if h.get("yer_kon") else None)
             if not kon or not P.contains(Point(*kon)):
                 continue
-            hf, ht = h.get("f") or h.get("tarih") or "0000", h.get("t") or h.get("tarih") or "9999"
-            if not (hf <= t and f <= ht):
+            hf, ht = h.get("f") or h.get("tarih") or "-9999", h.get("t") or h.get("tarih") or "9999"
+            if not (gn(hf) <= gn(t) and gn(f) <= gn(ht)):
                 continue
             dv = h.get("devlet")
             boya = ("OSM-TABI" if h.get("tur") == "tabi" else "OSMANLI") if dv == "osmanli" else hmap.get(dv, dv)
@@ -6766,7 +6755,7 @@ def degismez_r(Y, dosya=None, govde_fab=None, halka=None, coz=None, index_kontro
     # R8 — çakışma
     for i, a in enumerate(gecerli):
         for b in gecerli[i + 1:]:
-            if a["f"] < b["t"] and b["f"] < a["t"] and P_[a["id"]].intersects(P_[b["id"]]) \
+            if gn(a["f"]) < gn(b["t"]) and gn(b["f"]) < gn(a["t"]) and P_[a["id"]].intersects(P_[b["id"]]) \
                     and P_[a["id"]].intersection(P_[b["id"]]).area > 0:
                 R["ihlal"].append((a["id"], "R8", "`%s` ile poligon ve pencere kesişiyor" % b["id"]))
     for k in kayitlar:
@@ -6800,6 +6789,35 @@ def degismez_r_rapor(Y, ayrinti=False):
     return bool(R["ihlal"])
 
 
+def negatif_yil_kapisi_calistir(Y, O):
+    """GUN-SAYACI C1: veride yil <= 0 (MO) var + motor sayacsiz (uret_petek.py `GUN_SAYACI = True`
+    yok) => harita OLCULEMEZ (motor dizgi kiyaslar: ters sirali MO donemi SESSIZ sahipsizlik uretir).
+    Okunamayan tarih de olculemedi'dir. Hukum: OLCULEMEDI_KOVA => cikis 2 (temiz degildir)."""
+    tarihler = []
+    for y in Y:
+        for kat in ("s", "d", "v"):
+            for p in y.get(kat) or []:
+                for a in ("f", "t"):
+                    if p.get(a):
+                        tarihler.append(("%s.%s.%s" % (y["ad"], kat, a), p[a]))
+        for a in ("kur", "bit"):
+            if y.get(a):
+                tarihler.append(("%s.%s" % (y["ad"], a), y[a]))
+    for o in O:
+        if o.get("t"):
+            tarihler.append(("olay %s" % str(o.get("b", ""))[:40], o["t"]))
+    try:
+        sayacli = _gun.motor_sayacli_mi(os.path.join(KOK, "arac", "uret_petek.py"))
+    except OSError as e:
+        olculemedi("negatif yıl kapısı", "uret_petek.py okunamadı: %s" % e)
+        return
+    durum, satir = _gun.negatif_yil_kapisi(tarihler, sayacli)
+    print("Negatif yıl kapısı  %s  %d tarih, motor %s"
+          % ("✓" if durum == "TAMAM" else "!", len(tarihler), "SAYAÇLI" if sayacli else "sayaçsız"))
+    if durum != "TAMAM":
+        olculemedi("negatif yıl kapısı", "%d kalem: %s" % (len(satir), " | ".join(satir[:3])))
+
+
 def main():
     ap = argparse.ArgumentParser(description="Üç değişmezi tek komutta denetler.")
     ap.add_argument("--ayrinti", action="store_true", help="her ihlali tek tek listele")
@@ -6821,6 +6839,7 @@ def main():
         sys.exit(1 if kaynak_tavan_indir(Y) is False else 0)
     O = olaylari_yukle()
     print(f"  {len(Y)} yerleşim, {len(O)} kronoloji maddesi\n")
+    negatif_yil_kapisi_calistir(Y, O)
 
     ihlal = False
 

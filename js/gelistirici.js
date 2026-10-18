@@ -277,7 +277,7 @@
     function bak(l, kim) {
       for (var i = 0; l && i < l.length; i++) {
         var r = l[i];
-        if (r.f <= gun && (gun < r.t || (gun === r.t && r.t === "2000-12-31")))
+        if (GUN.gun(r.f) <= GUN.gun(gun) && (GUN.gun(gun) < GUN.gun(r.t) || (gun === r.t && r.t === "2000-12-31")))
           return { id: kim || r.d, f: r.f, t: r.t };
       }
       return null;
