@@ -139,7 +139,7 @@ window.YERLESIMLER_OK107 = [
   // Aradım, yok. Tur Abdin'in merkezi ve Osmanlı'da Mardin sancağının
   // nahiye/kaza merkezi. Dönem günleri MARDİN'in kendi kaydından alındı
   // (40,4 km) — uydurulmuş gün yok, hepsi atlasta ZATEN kullanılan günler.
-  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1517-05-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
+  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1432-01-01",d:"karakoyunlu"},{f:"1432-01-01",t:"1507-01-01",d:"akkoyunlu",kesinlik:{f:"yil",t:"gun"},kaynak:"TDV mardin: 'Karayülük Osman Bey, Karakoyunlular'ın muhafız bıraktığı Emîr Nâsır'dan Mardin'i 835'te (1432) teslim aldı'; Akkoyunlu yönetimi XVI. yüzyıl başına kadar sürdü · 1432 YIL, gün kaynakta yok · eski 1467-11-10 kaynaksızdı · POSTIT-71 (Emre onayı, 18 Ekim 2026)"},{f:"1507-01-01",t:"1517-05-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1517-05-01",t:"1920-04-23"}],
   v:[], kaynak:"bulunamadı — TDV'de `midyat` maddesi YOK (slug 302 ölçüldü). Dönem günleri Mardin kaydından (40 km) BÖLGESEL HİZALAMA ile alındı; Midyat Osmanlı'da Mardin sancağının nahiyesiydi."
 },
