@@ -135,9 +135,29 @@ dersler/                 kuralların vakaları (DIZIN.md) · denetim/ teslimler 
 
 ## Kaynak kuralı
 
-- **İslâm dünyası, Osmanlı ve komşuları: TDV İslâm Ansiklopedisi birincil;** tarih çelişkisinde
-  TDV esastır. Kapsamadığı yerde akademik kaynak, `kaynak:`a açıkça. **Vikipedi tek dayanak
-  olamaz.** Forum, blog, içerik çiftliği, YZ metni, popüler tarih sitesi kullanılmaz.
+- **İslâm dünyası, Osmanlı ve komşuları: TDV İslâm Ansiklopedisi ilk başvuru;** tarih çelişkisinde
+  TDV esastır (çelişki `ic_not`ta iki kaynağıyla beyan edilir). **Vikipedi tek dayanak
+  olamaz.** Forum, blog, içerik çiftliği, YZ metni, popüler tarih sitesi, YouTube kullanılmaz.
+- **Kaynak sırası — TDV'de durma** (Emre, 18 Ekim 2026). TDV yer-kişi ansiklopedisidir, çoğu
+  zaman yalnız yıl verir. TDV maddeyi kapsamıyorsa, **yalnız yıl veriyorsa** ya da tarihin neyi
+  tarihlediği belirsizse sıradaki basamağa geçmek **zorunludur**; bulunan her kaynak `kaynak:`a
+  adıyla (dergi, cilt/sayı, yazar, yıl, sayfa ya da URL) yazılır:
+  ① **TDV İslâm Ansiklopedisi** — `islamansiklopedisi.org.tr/arama/?q=`
+  ② **İSAM** — Osmanlı Araştırmaları / Journal of Ottoman Studies, İSAM makale veritabanı
+  (`ktp.isam.org.tr`), kadı sicilleri neşirleri
+  ③ **Türk Tarih Kurumu (TTK)** — *Belleten*, *Belgeler*, TTK monografileri (`belleten.gov.tr`,
+  `ttk.gov.tr`)
+  ④ **DergiPark / TR Dizin** hakemli tarih dergileri — OTAM (AÜ), Tarih Dergisi (İÜ), Tarih
+  Araştırmaları Dergisi (AÜ DTCF), Tarih İncelemeleri Dergisi (Ege), Türkiyat Mecmuası,
+  Atatürk Araştırma Merkezi Dergisi. Platformda olmak yetmez: hakemli ve TR Dizin'de olmalı.
+  ⑤ **YÖK Ulusal Tez Merkezi** — doktora tezleri; sancak/şehir monografileri gün taşır
+  ⑥ **Tarih Vakfı** (*Toplumsal Tarih*, Yurt Yayınları) ve akademik yayınevi monografileri
+  (yazar akademisyen, dipnotlu) — İş Bankası Kültür, Kitap, İletişim, YKY, üniversite yayınları
+  ⑦ **Komşu ve yabancı akademik kaynak** — TIB (Bizans), Venedik/Avusturya/Sırp/Yunan/Bulgar
+  akademik yayınları, uluslararası hakemli dergiler
+  ⑧ **Birincil belge neşirleri** — Devlet Arşivleri (BOA/BCA katalog), Belgeler, antlaşma
+  metinleri. Ham belgeyi biz okumayız; neşredilmiş ve tarihlenmiş hâlini kullanırız.
+  Aynı gün iki bağımsız akademik kaynakta teyit edilirse `ic_not`a "çift teyit" yazılır.
 - **Atlas referans değildir:** atlasın kendi dönemi, künye günü, koordinatı dayanak olamaz;
   çelişkide atlas düzelir. Komşu kaydın günü yalnız kendi kaynağına dayanıyorsa ve kayda
   "gün komşudan: …" yazılarak alınır; zincirleme devralma yok.
