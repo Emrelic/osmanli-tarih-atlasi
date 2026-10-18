@@ -143,6 +143,28 @@ window.YERLESIMLER_EK29 = [
      {f:"1920-06-04",t:"1939-03-14",d:"cekoslovakya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},{f:"1939-03-14",t:"1945-04-04",d:"slovakya-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1945-04-04",t:"1993-01-01",d:"cekoslovakya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1993-01-01",t:"2000-12-31",d:"slovakya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[], v:[] },
 
+// 🔴 SOMORJA (Šamorín) — post-it #108 (Emre, 18 Ekim 2026: "kaynaklı olarak
+//   var ve tarihte önemliyse ekleyelim"). Csallóköz'de (Rye adası) hiç nokta
+//   yoktu; 1663-1685'te Uyvar'ın peteği Tuna kıyısından Bratislava'ya dek
+//   ince bir dil uzatıyordu. Somorja 1405'te kraliyet serbest şehri, Yukarı
+//   Csallóköz'ün çarşı merkezi. Dunaszerdahely EKLENMEDİ: varlığı kaynaklı
+//   (Magyar Katolikus Lexikon "1256: Syridahely") ama önemini gösteren
+//   akademik kaynak bulunamadı.
+//   1938-1945: Birinci Viyana Hakemliği Csallóköz'ü Macaristan'a verdi —
+//   Komárom/Nitra kayıtları bu dönemi YAZMIYOR (çekoslovakya/slovakya
+//   sürüyor); o kayıtlar ayrı iş, burada atlas referans alınmadı.
+
+{ ad:"Somorja (Šamorín)", tur:"sehir", lat:48.0306, lon:17.3097, g:0, k:4,
+  kaynak:"Magyar Katolikus Lexikon 'Somorja' ('1238: már létezett', 'Pozsony vm.') · slovensko.sk Šamorín ('V r. 1405 kráľ Žigmund povýšil Šamorín na slobodné kráľovské mesto', '1589 … majetkom Pálffyovcov') · TDV uyvar (Uyvar eyaletinin sekiz idarî bölgesi — Somorja yok) · Debreczeni Újság 1938/248 (Csallóköz 1938 devri)",
+  s:[{f:"1281-01-01",t:"1526-12-17",d:"macaristan",kaynak:"Varlık: Magyar Katolikus Lexikon 'Somorja' — '1238: már létezett', 'Pozsony vm.' · slovensko.sk (Slovak devlet portalı, Šamorín) 'V listine je doložená v r. 1285' · 'V r. 1405 kráľ Žigmund povýšil Šamorín na slobodné kráľovské mesto a udelil mu tie isté výsady, ktoré mala Bratislava' · sahip: BALKAN-MACAR-0081: tek krallık ikinci kralın seçimine dek sürer (TDV suleyman-i 17 Aralık 1526)"},
+     {f:"1526-12-17",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"BALKAN-MACAR-0081 H-0026: Habsburg dönemi I. Ferdinand'ın Macar kralı ilânından başlar — TDV suleyman-i 'Macar kralı ilân edilmesi: 17 Aralık 1526' · TDV budin 'Ferdinand’ı (17 Aralık 1526) seçmişti' · Pozsony vilâyeti (Magyar Katolikus Lexikon 'Pozsony vm.'), slovensko.sk 'v r. 1589 mesto sa stalo majetkom Pálffyovcov' · 1663-1685: TDV uyvar Uyvar eyaletinin sekiz idarî bölgesini sayıyor (Uyvar, Narhid, Barş, Komaran, Hond, Nitra, Jabokrek, Şele) — Somorja/Pozsony YOK · Fiilî denetimin günü bulunamadı"},
+     {f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · ara dönem: Macar tacı 1918-11-11 → antlaşma (macaristan-naiplik künyesi 1918-11-16 — mevcut çekirdek verisinin 5 günlük emsali)"},
+     {f:"1920-06-04",t:"1938-11-02",d:"cekoslovakya",kaynak:"F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı'"},
+     {f:"1938-11-02",t:"1945-04-04",d:"macaristan-naiplik",kaynak:"F8: de jure devir hakemlik kararı gününde (2 Kasım 1938, Birinci Viyana Hakemliği — kronoloji_sinir_halef_1923_2000 maddesi, Maruszics 2023) · Csallóköz'ün devredilen bölgede olduğu: Debreczeni Újság 1938/248 (EPA 05567) 'a) zóna megszállása szombaton reggel a Csallóközben kezdődik' · Somorja'yı ADIYLA anan kaynak bulunamadı (Csallóköz'de olduğu için bölgeye dahil sayıldı) · t: GÜN KOMŞUDAN: Bratislava/Komárom 1945-04-04 (çekoslovakya'ya dönüş) — Somorja'nın kendi günü bulunamadı; de jure dönüş Paris Antlaşması (10 Şubat 1947) BEYANLI YAKLAŞIKLIK olarak yazılmadı"},
+     {f:"1945-04-04",t:"1993-01-01",d:"cekoslovakya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies · gün komşudan: Bratislava/Komárom"},
+     {f:"1993-01-01",t:"2000-12-31",d:"slovakya",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
+  d:[], v:[] },
+
 // 🔴 LÉVA (Levice) — Osmanlı dönemi YAZILMADI, sebebi KAYNAK YOKLUĞU.
 //   TDV `uyvar` sancak listesinde Léva GEÇMİYOR (sekiz ad sayıldı, yok).
 //   Léva'nın 1663'te alınıp 1664'te geri kaybedildiğine dair yaygın bir
