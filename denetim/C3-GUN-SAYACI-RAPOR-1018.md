@@ -54,3 +54,6 @@ Motor koşturulmaz; `_sahipli` gibi işlev kaynaktan `ast` ile çıkarılıp ça
 1. **Emre/HAVVA:** KOŞU 27 sonrası `C3-GUN-SAYACI-1018.diff` uygulansın (tuz onayı sizde), ardından tam inşa UFUK açılışıyla birleşsin.
 2. **Emre kararı:** `NEGATIF-YIL-1010-B-v2.diff` + bozuk `ARAC-NEGATIF-YIL-B-SINAV-1010.py` emekli edilsin mi (önerim evet).
 3. UFUK açılışı oturumu: `degismez1` kesit listesini ve `girdi.py` taramasını kapsama alsın.
+
+## EK (18 Ekim, akşam) — yama main'e ALINDI
+KOŞU 27 17 Ekim 03:35'te bitti ve yayınlandı; aktif koşu olmadığından motor dondurma kuralı engel olmaktan çıktı. Emre "ne gerekiyorsa yap, koşuyu bu gece koşturacağım" dedi. C3 yaması uygulandı (+ gun.py motor tuzuna eklendi), main'e `--tuz-onay` ile itilir. UFUK AÇILMADI (MÖ veri yok; girdi.py ayrı karar). Gece koşusu = yamanın ilk gerçek sınavı: ilk MS çıktısı eskisiyle aynı olmalı (renk_olc, odak_olc).
