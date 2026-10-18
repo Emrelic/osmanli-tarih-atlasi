@@ -26,7 +26,7 @@
 | Bantlar iç içe mi (olmamalı)? | ⚠️ soru bayat: **5 Ekim'den beri bantlar tasarım gereği İÇ İÇE TAM BÖLGE** (`"<=5" ⊆ "<=7" ⊆ "<=10"`). Motor konturu: 0 ihlal. Yayındaki bantta ⊆ ilişkisi **tam tutmuyor**: 161 / 6.949 kayıtta A(7) < A(5) (§3.2) |
 | 10 gün bandı 5 gün bandının üstkümesi mi | 🟡 kayıtların %97,7'sinde evet; **161 kayıt** (Bizans 74, İsviçre 25, Osmanlı 13 …) hayır; kayıp medyan %0,9, en çok %6,6 |
 | Dosya mevcut mu / yayında yükleniyor mu | ✅ 4 dosya izlenen (47,2 + 47,2 + 12,0 + 12,4 MB, hepsi < 100 MB), canlı sitede HEAD 200 ve `Content-Length` birebir aynı; tarayıcıda 10 gün seçilince 3 bant × 6.949 kayıt, 88.269 halka yüklendi, katman görünür |
-| **10 günlük A, B'nin a–e'sinden kaçını kendiliğinden sağlar?** | **Bugünkü üretim hattıyla çoğunu DEĞİL.** (b) Orta Asya/Arabistan'da ✅, (a)(c)(e) tenha bölgede kısmen, **(d) hiç** (§4.1). Saf yürüyüş (kapısız, tarihli) yayında kalan iç boşluğun %96–100'ünü Anadolu/Orta Asya/Sahra'da kapatırdı (§4.2) — yani **yürüyüşün kendisi yeter, hattın çıktısı yetmiyor.** Farkın kaynağı: puan kapısı yalnız küçük bir parça (Orta Asya 10 günde +3,5 puan, Sahra ≈ +0,6; §6); Sahra'daki asıl fark (ideal %77–81 ↔ hat %47–53) **kapıdan değil**, nereden geldiği bu raporda **ölçülemedi** |
+| **10 günlük A, B'nin a–e'sinden kaçını kendiliğinden sağlar?** | **Bugünkü üretim hattıyla çoğunu DEĞİL.** (b) Orta Asya/Arabistan'da ✅, (a)(c)(e) tenha bölgede kısmen, **(d) hiç** (§4.1). Saf yürüyüş (kapısız, tarihli) yayında kalan iç boşluğun %96–100'ünü Anadolu/Orta Asya/Sahra'da kapatırdı (§4.2) — ama **bu "İDEAL" tenhada yanıltıcıdır** (§6b): Sahra'daki ideal↔hat farkının (%77–81 ↔ %47–53) büyük kısmı **hattın hatası değil**; 10 günlük erişimdeki karanın %46'sı, o gün VAR olan ama devletsiz yerleşimlerin (vaha/aşiret) bölgesi ve hat orayı kasıtlı boyamıyor (Emre'nin B kuralı da "arada devletsiz şehir varsa doldurma" diyor). Puan kapısı küçük pay (Orta Asya 10 günde +3,5 puan, Sahra +0,6; §6). Kalan gerçek eksik: **varlık devri yalnız 40 saatlik bütçeyle** çalışıyor (§6b) |
 
 ## 2 · Yürüyüş hesabı doğru mu — kod ve bağımsız ölçüm
 
@@ -240,8 +240,29 @@ Sınıflar: **a** = yalnız tek devletle çevrili ve deniz teması yok · **c/e*
 
 - **Kapının etkisi:** Orta Asya'da yalnız 10 günde **+3,5 puan** (+45.100 km²), 5 ve 7 günde ≈ 0; Sahra'da 7/10 günde **+0,6 puan** (≈ +10.000 km²). Hatta Sahra 7→10 kapı kapalıyken de yalnız **+0,5 puan** büyüyor.
 - **Kutu koşusu dünya koşusunu Sahra'da yeniden üretiyor** (%41,6 / 47,2 / 47,5 ↔ yayın %41,4 / 47,0 / 47,4) — kutu ölçümünün güvenilirliğini gösterir. Orta Asya'da kutu yayından %3–4 puan yüksek (kutu dışındaki komşular yok; Orta Asya için ölçüm kutu etkisi içerir).
-- **Sonuç:** "10 günde neden 5 güne benziyor" sorusunun cevabı Sahra'da **kapı değil**. Kapı kapalı + saf yürüyüş (İDEAL) ile hat çıktısı arasında Sahra'da **28 puan** (%76,6 ↔ %48,2), Orta Asya'da 1,2 puan (kapı kapalıyken) var. Sahra'daki farkın kaynağı **bu raporda ölçülemedi**; aday: çöl tavanı/A1 tavanı (`PETEK_D` hattı), varlık-devri (`petek_epok`) kuralları (ölen/henüz doğmamış yerleşimin toprağının komşuya devri tavanlı), puan kapısından ayrı `_puan_bolgesi` yan etkileri. Her aday için **aşama aşama kapsam dökümü** (Dijkstra sahipliği → varlık devri → tavanlar → bant) gerekir (§9).
+- **Sonuç:** "10 günde neden 5 güne benziyor" sorusunun cevabı Sahra'da **kapı değil**; cevap §6b'de (devletsiz yerleşim bölgeleri + 40 saatlik varlık devri).
 - Yan not: kutu koşusu `data/bolgeler.js` ve `veri-kaynak/motor_kara.geojson`u (izlenen) ve `data/devletler_harita.js`i (ham) **üzerine yazar**; bir sonraki koşu bozuk `devletler_harita.js`i okuyup `TypeError` verir (`_eski_yabanci_taban`, `:6349`) — iki kez yaşandı, silinip tracked dosyalar `git checkout` ile geri alındı. Aletin başlığına yazıldı.
+
+## 6b · Aşama dökümü — kısmi koşu (Emre onayı: "kısmi koşu yapmana onay veriyorum", 18 Ekim) — `asama1_sahiplik.py`
+Soru: motorun zamandan bağımsız Dijkstra'sı her kara hücresini (tüm zamanların) en yakın yerleşime yazıyor; o yerleşimin **o tarihte** durumu ne? Bütçe içi hücrelerin sahibi: **GERÇEK devlette** · `__BOSLUK__` · **VAR ama devletsiz** · **henüz kurulmamış/ölü** (bunların toprağını `_yr_epok_onar` yeniden dağıtır, `uret_petek.py:2339-2345`: *"Bütçe (40 saat) aşılırsa hücre sahipsiz kalır"*).
+
+| bölge · 1520-06-15 (iç kutu) | gün | bütçe içi | sahibi gerçek devlette | VAR ama devletsiz | kurulmamış/ölü (devir ≤40 sa) | yayın (dünya koşusu) |
+|---|---|---|---|---|---|---|
+| Sahra | 5 | %83,1 | %40,6 | **%37,1** | %5,4 | %41,4 |
+| | 7 | %98,1 | %46,8 | **%44,9** | %6,4 | %47,0 |
+| | 10 | %100,0 | **%47,2** | **%46,2** | %6,5 | **%47,4** |
+| Arabistan | 5 / 7 / 10 | %76,7 / 92,6 / 99,8 | %44,3 / 50,6 / **53,2** | %26,1 / 34,1 / **38,0** | %6,3 / 7,8 / 8,7 | %52,6 / 61,4 / 64,1 |
+| Orta Asya | 5 / 7 / 10 | %68,6 / 89,4 / 98,9 | %65,6 / 85,7 / **95,1** | %0,3 | %2,4 / 3,0 / 3,0 | %65,2 / 84,9 / 90,3 |
+| Anadolu 1300 | 5 / 10 | %99,9 / 100 | %92,7 | %0,0 | **%7,3** | %96,4 / 96,5 |
+| Anadolu 1520 | 5 / 10 | %99,9 / 100 | %96,5 | %0,0 | %3,5 | %98,2 / 98,2 |
+| Anadolu 1683 | 5 / 10 | %99,9 / 100 | %96,8 / 96,9 | %0,0 | %3,0 | %98,5 / 98,5 |
+Sahra 1683: gerçek %43,9 / 51,1 / **51,6**, devletsiz %37,0 / 44,8 / 46,1, ölü %2,2 (yayın %46,1 / 52,5 / 53,0).
+
+**Okuma:**
+- **Sahra'daki "28 puan" hat hatası değil, veri durumu:** 10 günde karanın **%46'sı** o gün VAR olan ama devletsiz yerleşimlerin (vaha, aşiret bölgesi) hücresi; hat orayı boyamıyor. Bu, Emre'nin B kuralıyla (*"arada devletsiz şehir / aşiret … yoksa doldur"*) **aynı yöndedir** — yani B bu bölgeleri de doldurmamalı. Önceki "İDEAL" (§4.2) devletsiz yerleşimleri tohum saymadığı için tenhada (Sahra, Arabistan) yürüyüşün kapsamını **olduğundan fazla** gösteriyordu; bu satırlar artık "tavan değil üst sınır" diye okunmalı.
+- **Hattın yayını ≈ bu dökümün tavanı:** Sahra 10 gün: gerçek %47,2 (+ devir tavanı %6,5 = %53,7) ↔ yayın %47,4; 1683: %51,6 (+2,2) ↔ %53,0. Yani hat Sahra'da kendi verisinin izin verdiğini boyuyor. **Dijkstra sahipliği → bant** zinciri tutarlı.
+- **Gerçek bir eksik:** kurulmamış/ölü yerleşimlerin toprağı (Anadolu 1300'de karanın **%7,3**'ü, Arabistan %6–9, Sahra %5–6) `_yr_epok_onar` ile **yalnız 40 saatlik** bütçeyle dağıtılıyor; 7/10 günlük bantta bu toprak ayrıca geri yürünmüyor. Bu yüzden Anadolu'da ideal %100 ↔ yayın %96,5–98,5 ve 7→10 günde büyüme sıfır. **10 günlük A'nın "devir"i bütçeyle ölçeklenmiyor; bu B ilkelerine (a)(d)(e) yardım edecek asıl kod noktası.** (Nicel etkiyi ayrıca ölçmedim: Anadolu 1300'de ölü/kurulmamış yerleşim bölgesi karanın %7,3'ü ≈ 63.000 km²; yayın boşluğu 30.202 km² — ikisi arasındaki ilişki doğrulanmadı.)
+- Bu döküm yalnız **aşama 1** (Dijkstra sahipliği → tarih durumu) ve gate A/B'dir; `PETEK_D` aşama sonrası (ada kuralı, çöl tavanı) ve bant ham kesimi ayrı ayrı dökülmedi.
 
 ## 7 · Bulgular (kusur / belge farkı) — numaralı
 
@@ -249,7 +270,7 @@ Sınıflar: **a** = yalnız tek devletle çevrili ve deniz teması yok · **c/e*
 |---|---|---|
 | 1 | Üretim 8 komşu; 22,5° yönlerde −%8 (60° enlemde −%10); `MOTOR_YURUYUS_16` zorunlu bayrak listesinde yok. 16 komşu ova doğruluğunu %97'ye çıkarır (maliyet bu raporda ölçülmedi) | 🟡 |
 | 2 | "5 gün ≈ 200 km" yalnız düz ovada doğru; Anadolu'da 103 km, 10 gün 223 km. Emre'nin B'deki **400 km** ölçüsü ile "10 günlük sürtünmeli yürüyüş" Anadolu'da aynı şey değil | 🔴 B için |
-| 3 | 7→10 günde bant genişlemesi çok küçük (medyan A10/A5 = 1,06; Sahra'da hat %47 ↔ ideal %77–81). Puan kapısı küçük pay (Orta Asya 10 gün +3,5 puan, Sahra +0,6); asıl fark kaynağı ölçülemedi | 🔴 B için |
+| 3 | 7→10 günde bant genişlemesi çok küçük (medyan A10/A5 = 1,06). Nedenleri ölçüldü (§6, §6b): (i) tenhada karanın %37–46'sı devletsiz yerleşim bölgesi — kasıtlı boş; (ii) varlık devri 40 saatle sınırlı (Anadolu 1300'de karanın %7,3'ü); (iii) puan kapısı küçük pay (Orta Asya +3,5 puan, Sahra +0,6) | 🔴 B için: (ii) |
 | 4 | `≤5` ve `≤7/≤10` farklı boru hatları: 161 kayıtta A7 < A5 (maks %6,6); 1 kayıtta A10 < A7 | 🟡 |
 | 5 | Taban A'da devletler arası binme (%0,04–1,06) bantlarla taşınıyor | 🟡 (bant dışı) |
 | 6 | `app.js:1428` düğme açıklaması bayat (çöl kelepçesi 7 gün + "ek bant") | 🟡 |
@@ -261,7 +282,7 @@ Sınıflar: **a** = yalnız tek devletle çevrili ve deniz teması yok · **c/e*
 - **Adlandırılmış boşluk dökümü:** (b) kalan çiftler, (a) Anadolu'daki 3 bileşenin ne olduğu (isim) çıkarılmadı; sadece sayı/alan/çap.
 - **(c) tam tanım** ("derinlik ≤ ağız genişliği") ölçülmedi — yerine `closing 50 km` yaklaşığı kullanıldı; yalnız yön/büyüklük için.
 - **Puan kapısı A/B yalnız 2 kutu × 1 tarih** (Orta Asya ve Sahra, 1520-06-15); Anadolu/Arabistan'da kapı A/B'si koşulmadı (Arabistan kapı koşusu bellek yetmeyince düştü). İDEAL ölçümü `__BOSLUK__` yerleşimlerini (1520'de 36) gerçek tohum sayıyor — etkisi küçük beklenir, ayrıca çıkarılmadı.
-- **Sahra'daki 28 puanlık ideal↔hat farkının kaynağı** (§6) bulunamadı.
+- **Sahra'daki farkın** büyük kısmı §6b'de açıklandı (devletsiz yerleşim bölgeleri); `PETEK_D` sonrası aşamalar (ada kuralı, çöl tavanı) ayrı dökülmedi.
 - **Gerçek B ilkesi (d/e) uygulaması** (sınırın bittiği noktadan 400 km doldurma) denenmedi (görev bunu yasaklıyor).
 - **MOTOR_YURUYUS_16'nın tam koşu maliyeti**, 2 yönlü Dijkstra süresi ölçülmedi.
 - Yürüyüşün **doğruluk referansı** (gerçek askerî yürüyüş menzili) ölçülmedi: algoritmanın girdileriyle tutarlılığı doğrulandı, **girdilerin gerçeğe uyumu** (sürtünme çarpanı 0,005, nehir sınıfları) bu raporun kapsamı dışında.
@@ -269,11 +290,36 @@ Sınıflar: **a** = yalnız tek devletle çevrili ve deniz teması yok · **c/e*
 - Canlı sitede görsel doğrulama (piksel) yapılmadı; yalnız veri/katman durumu okundu.
 
 ## 9 · İstediklerim (önerimle)
-1. **İş (kod değiştirmeden, HAVVA/kutu):** Sahra ve Arabistan'da (ideal %77–86 ↔ hat %47–64) farkın kaynağını **aşama aşama kapsam dökümüyle** bul: Dijkstra sahipliği → varlık devri → çöl/A1 tavanı → bant ham kesimi → bant (`bant_derin.py`'yi aşama başına `_BANT_HAM`/`PETEK_D` kapsamını basacak biçimde genişletmek; kutu koşusu 13–25 dk). **Önerim: B'ye ve tam koşuya bu döküm çıkmadan geçilmesin** — "A'yı 10 güne çek" bugünkü hatta Sahra'da 28 puanı kaçırıyor; kapıyı açmak (puan) yetmiyor.
-   **Karar (Emre) — döküm geldikten sonra:** 10 günlük A'nın kapsamı saf yürüyüşe eşitlenirse (a)(d)(e) kapsam düzeyinde kendiliğinden çözülür; devlet ataması (d)(b) ayrı kural olarak kalır.
+1. **Karar (Emre):** Varlık devri (`_yr_epok_onar`, kurulmamış/ölü yerleşimin toprağı) bugün yalnız 40 saatle çalışıyor. 7/10 günlük bantta da bütçeyle ölçeklensin mi? Bu, 10 günlük A'nın B ilkelerini daha çok sağlamasının tek net kod yolu (Anadolu 1300'de karanın %7,3'ü). Motor tuzuna dokunur ⇒ ancak HAVVA'daki bir sonraki TAM İNŞA'da, onayınla. Önerim: evet, ama önce kutuda sayısal kanıt (bu raporda tam bir sayı yok).
+   **Bilgi (karar değil):** tenhada boş kalan toprak büyük ölçüde devletsiz yerleşim bölgesi; B'nin "devletsiz şehir varsa doldurma" kuralıyla uyumlu ⇒ 10 günlük A bu boşluğu doldurmaz, doldurmamalı.
 2. **Karar:** 16 komşu bayrağı (`MOTOR_YURUYUS_16=1`) zorunlu bayraklara girsin mi? Önerim: bir kutuda süre maliyetini ölç, sonra karar.
 3. **İş (küçük, ayrı oturum):** `app.js:1428` açıklamasını güncelle; `≤7/≤10`u `PETEK_D` hattından geçir ya da `≥ ≤5` olacak şekilde birleştir (161 kayıt). Hiçbirini bu raporda yapmadım.
 4. **Belge:** `GORUNUM-ABCD-0916.md`/`MESAFE-VE-SURTUNME.md`ye "nehir bedeli en çok bütçenin %40'ı" ve "5 gün düzde 200 km, dağlıkta 100–150 km" notu — Emre onaylarsa.
+
+## 11 · Literatür tetkiki — nehir / dağ / rampa bütçe tüketimi (Emre: "ezbere %40 demeyelim, tetkik ve teyid edelim")
+Yöntem: alt ajan web ve açık erişimli makale metinleriyle taradı; her sayı [okundu] (metin açıldı) / [özet] (arama özeti) / [hesap] (formülden hesaplandı) / [dolaylı] diye işaretli. Okuyamadıkları (Engels kitabı, Murphey, Kolb, İnalcık, Erler, Minetti 2002 tam metni) **bulunamadı/erişilemedi** diye yazıldı. Ajanın ham raporu bu belgenin altında özetlenmiştir; kaynak dosyası depoya yazılmadı. Çıkarımlar ajanın ve benim; kaynakta açık karşılığı olmayanlar belirtildi.
+
+| motor sabiti | literatür | uyum |
+|---|---|---|
+| düz zeminde 5,04 km/sa | Tobler 6·e^(−3,5·\|S+0,05\|) ⇒ düzde ≈5 km/sa; Naismith 5 km/sa [okundu: Wood ve ark. 2023, arXiv:2303.16065]; yüklü deve ≈5 km/sa [özet: UNESCO] | ✅ yol üstü hız |
+| yol dışı | Tobler ×0,6; Aitken 4 km/sa [okundu: Wood 2023] | 🟡 motor tek hız veriyor, yol dışı indirimi yok |
+| 8 sa/gün, 5 gün ≈ 200 km | büyük ordu ≈ 19–30 km/gün (Engels 15 mil/gün ≈ 24 km; Murphey 12–15 mil/gün) [özet/dolaylı]; kervan 30–40 km/gün [özet]; Roma kuryesi ≈ 74 km/gün [özet] | ✅ **"rutin idare"** tanımına (40 km/gün) uyar; ❌ büyük orduya yüksek — motor bunu zaten özne olarak seçmiyor |
+| eğim çarpanı 1 + 0,005·\|dz\| (5,5 km hücre) | %2: Tobler 1,07 · Naismith 1,17 · Minetti-Herzog 1,26 · **motor 1,55**; %5: 1,19/1,42/1,74/**2,38**; %10: 1,42/1,83/2,70/**3,75**; %20: 2,01/2,67/4,92/**6,50** [hesap] | 🟡 motor aynı eğimde literatürden **2–3 kat dik**; ama ETOPO ortalamalı 5,5 km hücrede eğim gerçek yerel eğimden küçüktür (Herzog 2014 §5.1.1; Lock & Pouncett 2010; Van Leusen 2002 [okundu, Herzog üzerinden]) — **telafi çıkarımı kaynakta açık karşılığı olmayan yorumdur**; sayısal ölçek-düzeltme oranı **bulunamadı**. 0,005 literatürden doğrulanamıyor, yalnız 44 sefer güzergâhı kalibrasyonuna dayanıyor |
+| \|dz\| simetrik (iniş = çıkış) | Tobler tepe hızı ≈ −%5 inişte; Minetti en düşük maliyet ≈ −%10 [okundu/özet] | 🟡 hafif inişte sapma |
+| dz'de doğrusal | Tobler/Minetti dik eğimde konveks (daha hızlı artar) [hesap] | 🟡 yalnız ≈550 m/hücre üstünde belirgin |
+| nehir büyük:küçük = 80,6:20,2 = 4:1 | Van Leusen 2002: 22 : 5,5 = 4:1; Herzog: büyük 10–20, küçük 5–10 çarpanı [okundu: Herzog 2014 §5.5] | ✅ **oran** uyumlu |
+| nehir **mutlak** 4 sa / 16 sa (bütçenin en çok %40'ı) | pre-modern büyük nehir geçişi için saat/gün sayısı **bulunamadı**; yalnız 1864 James Nehri'nde ≈100 bin kişi 4–5 günde [özet, pre-modern değil] | ❓ **doğrulanamadı**: mutlak değerin literatür dayanağı yok; "%40" bir kalibrasyon tercihidir, ölçülmüş bir doğa sabiti değil |
+| köprü/geçit indirimi | Langmuir 2004 geçit seçimi [okundu: Herzog üzerinden] | ✅ nitel |
+| irtifa terimi yok | VO2max ≈ −%5,6…7 / 1000 m (Wehrlin 2006; meta-analiz) [özet] ⇒ 3000 m'de ≈ −%15–20 aerobik kapasite [hesap] | 🟡 3000 m+ plato için eksik (Tibet/Pamir/Habeş); kaynaklı hız sayısı yok |
+| kış/kar kapanışı yok | ORBIS kışın dağ hareketini kısıtlar [okundu] | 🟡 eksik; sayı yok |
+
+**Hüküm (Emre'nin sorusuna):**
+1. **"Nehir bütçenin en çok %40'ı" literatürle doğrulanamıyor** — ne doğrulayan ne çürüten bir saat/gün kaynağı bulundu. Doğrulanan yalnız büyük/küçük **oranı** (4:1). Mutlak bedel bir kalibrasyon değişkeni olarak kalmalı ve belgelerde "ölçülmüş" değil "varsayılan, oranı literatürlü" diye yazılmalı.
+2. **Eğim çarpanı 0,005 fizyolojik veriden 2–3 kat sert**; bunu hücre ölçeği telafisi olarak savunmak mümkün ama ispatlanmadı. Sınama önerisi: DEM'i 5,5 km ortalamasından önce (30") ve sonra (0,05°) yerel eğimlerle karşılaştırıp küçülme oranını **ölçmek**; sonra 0,005'in neye tekabül ettiğini Tobler'le yeniden türetmek. 44 sefer kalibrasyonunun çıktı eğrisi düzdü (0,005–0,02 ayırt edilemiyor, `uret_petek.py:706-717`) — bu yüzden sayı "iyi ayarlı" değil "sıfırdan büyük ve 0,05'ten küçük".
+3. **Dağ geçidi:** 5,5 km ortalama dar geçidi yumuşatır (çıkarım, Lock & Pouncett'e dayanır); Gülek, Belen, Derbent gibi bilinen geçitlerin motorda seçilip seçilmediği **ölçülmedi** — tetkik borcu.
+4. Düz zemin hızı (5,04), 8 saatlik gün ve "rutin idare" 40 km/gün **literatürle uyumlu**.
+
+Kaynaklar: Wood, Mackaness, Simpson, Armstrong 2023, arXiv:2303.16065 · Herzog I. 2014, *Least-cost paths – some methodological issues*, Internet Archaeology 36, doi:10.11141/ia.36.5 · Minetti ve ark. 2002, J Appl Physiol 93:1039–1046 (yalnız özet) · Irmischer & Clarke 2018, CaGIS 45(2):177–186, doi:10.1080/15230406.2017.1292150 (yalnız künye) · Tang, Pilesjö, Persson 2013, Geodesy and Cartography 39(2) (özet) · Scheidel 2015, ORBIS, Princeton/Stanford Working Papers in Classics · Engels 1978, *Alexander the Great and the Logistics of the Macedonian Army* (yalnız ikincil aktarım) · Murphey 1999, *Ottoman Warfare 1500–1700* (yalnız forum aktarımı — **kullanılabilir kaynak değil**, TDV/akademik doğrulama bekler) · Wehrlin ve ark. 2006, Eur J Appl Physiol; meta-analiz doi:10.1186/s40779-017-0113-x (özet) · UNESCO Silk Road kervan sayfası (özet). 🔴 İnalcık, Erler, Finkel, TDV'den Osmanlı günlük menzili **bulunamadı** — CLAUDE.md kaynak kuralı gereği Osmanlı menzil iddiaları bu tetkikte kanıt sayılmadı.
 
 ## 10 · Yeniden üretme
 ```

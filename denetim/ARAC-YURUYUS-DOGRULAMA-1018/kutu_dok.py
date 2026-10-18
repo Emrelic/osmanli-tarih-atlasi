@@ -45,6 +45,7 @@ D = {
              if NS["_kvsurt"] is not None else None),
     "tohum": {k: list(v) for k, v in NS["_kvtohum"].items()},
     "yerler": [(y["ad"], y["lon"], y["lat"]) for y in NS["YERLER"]],
+    "yer_var": [(y.get("kur"), y.get("bit")) for y in NS["YERLER"]],
     "yer_donem": [([(p["f"], p["t"]) for p in (y.get("d") or [])] + [(p["f"], p["t"]) for p in (y.get("v") or [])], [(p.get("d"), p["f"], p["t"]) for p in (y.get("s") or [])]) for y in NS["YERLER"]],
     "nehir": NS["_KVNEHIR"],
     "kvsu": set(NS["_KVSU"]) if NS.get("_KVSU") else set(),
