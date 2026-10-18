@@ -448,14 +448,44 @@ function dpSadelestir(noktalar, tolDerece) {
   return out;
 }
 
-// Hat indeksinin SADELEŞTİRİLMİŞ hâli (bir kez hesaplanır, önbellekte kalır).
+// ═══════════════════════════════════════════════════════════════════════════
+// 🔴 KALEMDEN KISA PARÇA YOK — DP yerine RADYAL SEYRELTME (POSTIT-91 ②, 18 Ekim 2026)
+// ═══════════════════════════════════════════════════════════════════════════
+// EMRE (#91 ikinci cevap): *"kusuru düzeltemiyor muyuz, sadece burada yok ki
+// pek çok yerde var"*. Yukarıdaki DP (u/10) dişleri azaltmıştı ama BİTİRMEMİŞTİ.
+// TARAYICIDA SINANDI (yayın, 1559 Katar z7,6): line-join bevel ↔ round FARK
+// ETMİYOR ⇒ diş birleşimden değil, kalemden (~u km) KISA parçalardan doğuyor:
+// her kısa parça kendi yönünde kalem genişliğinde bir dikdörtgen çizer, yön
+// oynadıkça bu dikdörtgenler kuşaktan dışarı yelpaze gibi taşar.
+// KURAL: son tutulan köşeden u/2 km'den yakın köşe atılır (uçlar korunur).
+// Böylece her parça en az kalemin yarısı kadar uzun olur.
+// ÖLÇÜLDÜ (bütün havuz 651 hat; diş = dönüş ≥25° ve kalem/parça ≥8×; sapma =
+// asıl hattın her köşesinin yeni hatta uzaklığı, u'ya oranla):
+//       kural            diş   sapma/u en büyük   p95    en büyük sapma
+//       DP(u/10)         176        1,11          0,19       4,9 km
+//       radyal u/4        46        0,25          0,20      17,7 km
+//       radyal u/2        26        0,50          0,40      34,6 km   ← SEÇİLEN
+//       radyal u/2+Chaikin×2  —     1,43          0,52      38,8 km   (kuşağı aşıyor, reddedildi)
+// Gerekçe: kuşak sınırın iki yanına u/2 uzanır; sapma ≤ u/2 olduğundan asıl
+// sınır HER YERDE kuşağın içinde kalır — kuşağın "sınır bu bant içinde bir
+// yerde" sözü bozulmaz. u/4 Katar'ın güney kıyısında leke bırakıyordu (gözle).
+// `dpSadelestir` ve SRB_SADE_TOL_* artık serbest hatta kullanılmıyor; tarih
+// kaydı olarak duruyor.
 function serbestHat(i, u) {
   if (i < 0) return null;
   if (SRB_SADE_ONBELLEK[i]) return SRB_SADE_ONBELLEK[i];
   var ham = SERBEST[i];
   if (!ham || ham.length < 3) return (SRB_SADE_ONBELLEK[i] = ham || []);
-  var tolKm = Math.max(SRB_SADE_TOL_MIN, Math.min(SRB_SADE_TOL_MAX, (u || 60) / 10));
-  return (SRB_SADE_ONBELLEK[i] = dpSadelestir(ham, tolKm / 111.32));
+  var esik = (u || 60) / 2;
+  var out = [ham[0]], son = ham[0];
+  for (var k = 1; k < ham.length - 1; k++) {
+    var p = ham[k];
+    var dx = (p[0] - son[0]) * 111.32 * Math.cos((p[1] + son[1]) / 2 * Math.PI / 180);
+    var dy = (p[1] - son[1]) * 110.57;
+    if (Math.sqrt(dx * dx + dy * dy) >= esik) { out.push(p); son = p; }
+  }
+  out.push(ham[ham.length - 1]);
+  return (SRB_SADE_ONBELLEK[i] = out);
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -478,7 +508,8 @@ function serbestHat(i, u) {
 //   u ≤ yayılım/2  361 hat · uzunluğun %11,7'si — adalar temiz; Lahsa/Hicaz
 //                  çöl kenarının hâlesi yerinde (z5, 1559, tarayıcıda görüldü)
 // ⚠️ Katar doğu kıyısındaki 300 km'lik uzun hattın kıyı dişleri bu kuralın
-//    DIŞINDA kalır (u 29,9 < yayılım/2) — o, yukarıdaki SINIR DİŞLERİ ailesi.
+//    DIŞINDA kalır (u 29,9 < yayılım/2) — onları yukarıdaki `serbestHat`
+//    radyal seyreltmesi giderir (POSTIT-91 ②).
 var SRB_YAY_ONBELLEK = [];
 function hatYayilimKm(c) {                       // sınır kutusunun köşegeni (km)
   if (!c.length) return 0;
