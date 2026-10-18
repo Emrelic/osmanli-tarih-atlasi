@@ -1043,6 +1043,25 @@ window.GORSEL_MADDE = [
   "kesinlik": "cagdas",
   "lisans_olcum": "KABUL (0913, 18 Ekim 2026) · kategori PD-Art, PD-Art (PD-old-100-expired), PD-old-100-expired · Commons API LicenseShortName 'Public domain'",
   "not": "Postit #77 (Emre: 'bu kronoloji maddesinde bahsedilen resmi araştırıp bulacaksın'). Madde 1534'te başlayan Irakeyn seferinin güzergâhını anlatıyor; bu yaprak güzergâhın sonundaki Bağdat'tır. Eserin kendisi 1537 tarihlidir (madde tarihi sefer yılı); Tebriz'in Commons kopyaları CC BY-SA olduğu için seçilmedi."
+},
+
+{
+  "id": "1534-01-01-matrakci-istanbul-beyan-i-menazil",
+  "tur": "madde",
+  "olay": [
+    "1534-01-01"
+  ],
+  "url": "assets/gorseller/1534-01-01-matrakci-istanbul-beyan-i-menazil.jpg",
+  "baslik": "Matrakçı Nasuh'un Beyân-ı Menâzil'de resmettiği İstanbul ve Galata (Irakeyn güzergâhının başlangıcı)",
+  "gorsel_alt": "Minyatür-harita: Haliç'in iki yakasında surlarla çevrili İstanbul ve karşısında Galata, Matrakçı Nasuh'un Irakeyn seferi menzilnamesinin İstanbul yaprağı",
+  "eser": "Beyân-ı Menâzil-i Sefer-i Irâkeyn-i Sultan Süleymân Han, İstanbul Üniversitesi Kütüphanesi, T. 5964 (Commons: 'İstanbul ve Galata betimlemesi', kırpılmış sürüm)",
+  "sanatci": "Matrakçı Nasuh",
+  "yil": "1537 (Commons künyesi; sefer 1534-36, eser sonrasında tamamlandı)",
+  "lisans": "PD-old",
+  "gorsel_kaynak": "https://commons.wikimedia.org/wiki/File:Matrak%C3%A7%C4%B1_Nasuh_-_%C4%B0stanbul_(cropped-Galata).jpg",
+  "kesinlik": "cagdas",
+  "lisans_olcum": "KABUL (0913b, 18 Ekim 2026) · kategori PD-old · Commons API LicenseShortName 'Public domain'. Tam sayfa sürümü (File:Matrakçı Nasuh - İstanbul.jpg) iki betikte de RED (yalnız CC-PD-Mark + eski 100-yıl kategorisi) olduğu için kullanılmadı.",
+  "not": "Postit #77 (Emre: 'bağdat ile beraber istanbul resmini de ekleyelim'). Irakeyn güzergâhının başlangıcı İstanbul'dur. Eserin kendisi 1537 tarihlidir (madde tarihi sefer yılı)."
 }
 
 ];
