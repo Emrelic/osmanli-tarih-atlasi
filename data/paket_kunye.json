@@ -933,8 +933,8 @@
     },
     {
      "yol": "data/yerlesimler_ek_bozkir.js",
-     "sha": "ea80e40ee4431f98",
-     "bayt": 19592
+     "sha": "9e1052a020a1b523",
+     "bayt": 22205
     },
     {
      "yol": "data/yerlesimler_ek_ferhadpasa.js",
@@ -947,7 +947,7 @@
      "bayt": 32637
     }
    ],
-   "bayt": 79190
+   "bayt": 81803
   },
   {
    "paket": "data/paket_19.js",
