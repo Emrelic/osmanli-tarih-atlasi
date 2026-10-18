@@ -1310,6 +1310,7 @@ window.DEVLETLER = [
   f:"0861-01-01", t:"1538-10-01", baskent:"Şamahı",
   ozet:"Doğu Kafkasya'da uzun ömürlü yerel hanedan (hanedan ömrü); Arap fethi sonrası valilerden teşekkül etti, Şah Tahmasb'ın 1538'de hâkimiyetine son vermesiyle Safevî vilayeti oldu.",
   kaynak:"sirvan",
+  tabi:[{f:"1501-07-01", t:"1538-10-01", ust:"safevi"}],  // TDV sirvanşahlar: 1500'de Şah İsmâil Ferruh Yesâr'ı yendi, Bakü/Şemâhî alındı; hanedan Safevîler'e vergi ödeyen, iç işlerinde serbest yerel hanedan olarak 1538'e dek sürdü. f = Safevî künyesinin f'i (üst devlet yokken tâbilik yazılmaz) · post-it #74
   kronoloji:[
     { t:"0861-01-01", tur:"kurulus", b:"Yezîdî hanedanı tarafından Şamahı merkezli kuruldu" },
     { t:"1027-01-01", tur:"hukumdar", b:"Kesrânî hanedanı Yezîdîlerin yerine geçti" },
