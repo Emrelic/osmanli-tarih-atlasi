@@ -402,7 +402,7 @@ window.YERLESIMLER_AFRIKA = [
   d:[{"f":"1574-08-25","t":"1705-07-12"}], v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
 { ad:"Mehdiye",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"liman", lat:35.505, lon:11.062, g:0, k:4, m:"Tunus",
-  s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
+  s:[{f:"1229-01-01",t:"1281-01-01",d:"hafsi",kaynak:"TDV İslâm Ansiklopedisi 'Tunus': \"Muvahhidler, Tunus'a ve bölgedeki diğer şehirlere akrabaları Berberî Hafsî ailesinden valiler tayin ettiler. O dönemde İfrîkıye'de Tunus, Sûse, Mehdiye, Sefâkus, Kābis, Benzert, Tezrût, Kayrevan ... gibi önemli şehirler mevcuttu. ... Ebû Zekeriyyâ el-Hafsî, Tunus üzerine yürüdü ve 625 (1228) yılında şehre girip İfrîkıye'nin tamamına hâkim oldu.\" TDV 'Hafsîler': 29 Haziran 1228'de Tunus'a girip İfrîkıye'nin tamamına hâkim oldu; bağımsızlık 627 başı (Aralık 1229). Başlangıç f=1229-01-01 hafsi künyesinin f'si; Mehdiye'ye özgü gün yok. · ONCE1281-GERIYE",kesinlik:{f:"yil"}},{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
   d:[{"f":"1574-08-25","t":"1705-07-12"}], v:[{"f":"1705-07-12","t":"1881-05-12","statu":"vassal","k":"Tunus Ocaklığı (Hüseynîler)","kid":"tunus-ocagi"},{"f":"1881-05-12","t":"1923-10-29","statu":"vassal","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kid":"tunus-beyligi-fransiz"}] },
 
 { ad:"Kasrayn",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:35.167, lon:8.836, g:0, k:4, m:"Tunus",
