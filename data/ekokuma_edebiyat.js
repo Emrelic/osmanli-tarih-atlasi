@@ -51,7 +51,7 @@ window.EKOKUMA_EDEBIYAT = [
       hayat:"933'te (1526-27) İstanbul'da fakir bir ailenin çocuğu olarak doğdu; babası Fâtih Camii müezzini Mehmed Efendi'ydi. Gençliğinde bir zanaat çıraklığıyla (saraçlık ya da serrâclık) hayata atıldı, medrese eğitimiyle yükseldi. 1008'de (1600) öldü.",
       onem:"TDV'nin tarifiyle \"klasik Osmanlı şiirine söyleyiş gücü kazandıran\" büyük dîvân şairi; çağdaşlarınca \"Sultânü'ş-şuarâ\" (şairler sultanı) diye anıldı." },
     metin:"Kanûnî mersiyesinin hemen ardından, II. Selim tahta çıktığında (15 Rebîülevvel 974 / 30 Eylül 1566) Bâkî yeni padişaha bir cülûsiye sundu. Umduğu câizeyi bulamadığı gibi o sıralarda Murad Paşa müderrisliğinden de azledildi; ancak 1569'da uzun bir mâzullük döneminden çıkabildi.",
-    alinti:{ metin:"bulunamadı — bkz. \"baki-kanuni-mersiyesi\" kaydı", kaynak:null },
+    alinti:{ metin:"\"Bi-hamdillâh şeref buldu yine mülk-i Süleymânî / Cülûs etti saâdet tahtına İskender-i sânî\" — cülûsiyenin matla' beyti, TDV \"Cülûs\" maddesinin aktardığı biçimiyle (kasidenin kalanı bulunamadı)", kaynak:"TDV: culus" },
     gorsel:null, gorsel_kaynak:"bulunamadı — bkz. \"baki-kanuni-mersiyesi\" kaydı",
     kesinlik:"kesin", olay:["1566-09-24","1566-09-30"],
     kaynak:"TDV İslâm Ansiklopedisi, \"Bâkî\" (Mehmed Çavuşoğlu, 1991) — https://islamansiklopedisi.org.tr/baki--sair" },
