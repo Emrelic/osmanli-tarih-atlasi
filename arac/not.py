@@ -376,6 +376,17 @@ def k_yanit(a):
         k_birak(a)
 
 
+def ad_hatirlat(no, devam=False):
+    """Oturum adı unutulmasın: model kapısından ÖNCE adlandırılır (SKILL.md)."""
+    if devam:
+        print("\n>>> ADLANDIRMA: oturum adı '#%d …' ile başlamıyorsa şimdi düzelt "
+              "(set_session_title, session_id \"self\")." % no)
+    else:
+        print("\n>>> ŞİMDİ ADLANDIR (model kapısından önce): set_session_title · "
+              "session_id \"self\" · title \"#%d <yer/konu> <yıl> — <iş>\" (≤ 50 kar.). "
+              "Araç yüklü değilse önce ToolSearch select:mcp__ccd_session_mgmt__set_session_title." % no)
+
+
 def k_al(a):
     kim = kim_coz(a)
     if a.no:
@@ -393,7 +404,9 @@ def k_al(a):
         if benim:
             i = min(benim, key=lambda x: x["number"])
             print("#%d bu oturumun notu (oturum:%s) — devam\n" % (i["number"], kim))
-            return k_oku(argparse.Namespace(no=i["number"]))
+            r = k_oku(argparse.Namespace(no=i["number"]))
+            ad_hatirlat(i["number"], devam=True)
+            return r
         # Sıra: sahipsizler önce (sahipliler yalnız 7 gün sessizse alınır); içinde Emre'nin
         # yazdıkları (son:emre) önce, sonra eski notlar; en eski önce.
         adaylar = sorted(adaylar, key=lambda i: (bool(sahip_etiketleri(i)),
@@ -401,7 +414,9 @@ def k_al(a):
     for i in adaylar:
         if OTURUM + kim in sahip_etiketleri(i):
             print("#%d zaten bu oturumda (oturum:%s) — devam\n" % (i["number"], kim))
-            return k_oku(argparse.Namespace(no=i["number"]))
+            r = k_oku(argparse.Namespace(no=i["number"]))
+            ad_hatirlat(i["number"], devam=True)
+            return r
         evet, neden = alinabilir_mi(i, kim, zorla=a.zorla and bool(a.no), model=a.model)
         if not evet:
             if a.no:
@@ -410,7 +425,9 @@ def k_al(a):
             continue
         if almaya_calis(i, kim):
             print("ALINDI #%d · oturum:%s%s\n" % (i["number"], kim, (" · " + neden) if neden else ""))
-            return k_oku(argparse.Namespace(no=i["number"]))
+            r = k_oku(argparse.Namespace(no=i["number"]))
+            ad_hatirlat(i["number"])
+            return r
         print("#%d yarışı kaybedildi, sıradakine geçiliyor" % i["number"], file=sys.stderr)
     print("Alınacak not yok (hepsi başka oturumlarda).")
     return BOS_YOK
