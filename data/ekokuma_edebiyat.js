@@ -75,7 +75,7 @@ window.EKOKUMA_EDEBIYAT = [
       hayat:"Doğum tarihi ve yeri kesin bilinmiyor; kaynaklar Bağdat civarında doğduğunu yazar ama yer konusunda birleşmez. Babasının adı Süleyman'dı. 963'te (1556) öldü.",
       onem:"TDV'nin tarifiyle \"klasik Türk edebiyatının en büyük şairlerinden\"; Türkçe, Arapça ve Farsça divan yazabilecek kadar üç dile hâkimdi." },
     metin:"Leylâ vü Mecnûn, Fuzûlî tarafından 1535'te, Kanûnî'nin Bağdat seferine katılan İstanbullu şairlerin isteği üzerine yazılıp tamamlandı. Arap yarımadasının eski bir aşk efsanesini işleyen eser, klasik Türk edebiyatının en güzel mesnevilerinden sayılır.",
-    alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı yapılmadı", kaynak:null },
+    alinti:{ metin:"Çölde buluşan Leylâ'nın Mecnûn'a sözü: \"Ger ben ben isem nesin sen ey yâr / V'er sen sen isen neyim men-i zâr\" — TDV'nin Leylâ vü Mecnûn maddesinin aktardığı beyit", kaynak:"TDV: leyla-vu-mecnun" },
     gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, görsel taraması yapılmadı",
     kesinlik:"kesin", olay:["1535-01-01|Leylâ"],  // PAKET-A2 13 Eyl: 1535-01-01'de Tigre ve Çitor maddeleri de vardı
     kaynak:"TDV İslâm Ansiklopedisi, \"Fuzûlî\" (Abdülkadir Karahan, 1996) — https://islamansiklopedisi.org.tr/fuzuli" },
