@@ -10061,6 +10061,19 @@ window.YERLESIMLER_EK6 = [
 { ad:"Don bozkırı (Sal)", v:[{f:"1502-03-01",t:"1570-01-01",k:"Kırım Hanlığı",kid:"kirim",statu:"gevsek",himaye:true,kaynak:"Emre kararı D (13 Eyl 2026, oturumlar/KOSU10-SONRASI.md 0043/H-0003): hanlığın bozkır/nüfuz alanı GEVŞEK HİMAYE. TDV `kirim`: 'Nogaylar'ın hana tâbiiyeti gevşek olup bunlar hanlık iddiasında bulunanlarla yahut Ruslar ve Kazaklar'la birleşerek…' (denetim/ARASTIRMA-KIRIM-0912.md ③). Pencere = s:kirim ∩ Kırım'ın Osmanlı tâbiliği 1475-06-06 (Kefe fethi, olaylar.js) → 1774-07-21 (Küçük Kaynarca, olaylar.js); dışı s:kirim kaldı."}], neden:"VERI-KIRIM 14 Eyl 2026 ③ (Emre kararı D): s:kirim ∩ 1475-06-06→1774-07-21 → v: gevşek himaye (kid kirim, statu gevsek, himaye:true).", tur:"bolge", lat:47.000, lon:42.300, g:0, k:0, d:[],
   s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
+// POSTIT-99 (Emre, 18 Ekim 2026): Zaporojye "çağlayanların ötesi" bozkırı. Haritada yalnız 3 Seç noktası
+// (Zaporojye/Hortiça/Bazavluk) vardı, bölge çevre bozkırı olmadan küçük boyanıyordu.
+// KAYNAK: Encyclopedia of Ukraine (CIUS), «Zaporizhia, The» — ~80.000 km²; Boh/Sinyuha/Büyük Vıs/Tyasmin
+// Sağ Yaka'dan ayırır, KD'de Dinyeper-Orel (Hetman devleti), D'de Donets (Slobidska), GD'de Kalmius (Don
+// Kazakları), güneyde Kırım Hanlığı, Azak kıyısına Berda–Kalmius arası. ⚠️ BEYANLI YAKLAŞIKLIK: 80.000 km²
+// tüm dönemin (1552-1775) asgarî-azamî tarifidir; 16. yy'da bölge "iskân edilmemiş bozkır sınırı"dır (aynı
+// madde) — 1593 için sınırın tam yeri teyitsiz. Nokta, Seç noktalarının doğusunda Samara havzasında
+// durur; petek yalnız ağırlık merkezini temsil eder, Camboyluk bozkırı (OSM-TABI) ile Azak kıyısı payı
+// ayrıca teyit ister (CIUS Azak'a Berda–Kalmius arasında çıkış verir).
+// Sahip zinciri `Zaporojye Seçi` noktasıyla aynı (1552-01-01, 1775-06-16 kırılmaları orada zaten kayıtlı).
+{ ad:"Zaporojye bozkırı", v:[], kaynak:"Encyclopedia of Ukraine (CIUS) «Zaporizhia, The» (sınır nehirleri, ~80.000 km², 'beyond the Rapids') · «Zaporozhian Sich» · BEYANLI YAKLAŞIKLIK: nokta bölgenin ağırlık merkezini temsil eder, 16. yy sınırı teyitsiz", neden:"POSTIT-99 18 Ekim 2026 (Emre): Zaporojye bölgesi çevre bozkırla genişletildi; CIUS «Zaporizhia, The» ~80.000 km², sınır nehirleri Boh/Donets/Kalmius/Orel. BEYANLI YAKLAŞIKLIK (16. yy sınırı teyitsiz).", tur:"bolge", lat:48.300, lon:35.800, g:0, k:0, d:[],
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1552-01-01",d:"__BOSLUK__",kaynak:"BULUNAMADI — 1502-1552 arası bu bozkırın tasarruf sahibi kaynakta yok (Zaporojye Seçi noktasındaki Kırım gevşek himayesi Emre kararı D'ye dayanır; burada bozkıra genişletilmedi)."},{f:"1552-01-01",t:"1775-06-16",d:"zaporojye",kaynak:"Encyclopedia of Ukraine (CIUS) «Zaporizhia, The» (bölgenin sınırları ve 80.000 km²) · «Zaporozhian Sich» (1552 ilk Seç) · künye zaporojye 1552-1775 · BEYANLI YAKLAŞIKLIK: 16. yy'da bölge iskân edilmemiş bozkır sınırı, kesin sınır teyitsiz"},{f:"1775-06-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-08-24",d:"sovyet-rusya"},{f:"1991-08-24",t:"2000-12-31",d:"ukrayna",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+
 // Hücre 8 (48-50K / 38-40D) — Donets bozkırı.
 // ⚠️ Bu hücre Sloboda (Rus) ile Don Ordası arasındaki geçiş kuşağıdır ve
 //    sınır dönem dönem oynamıştır. `don-kazak` seçildi çünkü Donets'in
