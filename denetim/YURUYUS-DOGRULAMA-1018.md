@@ -26,7 +26,7 @@
 | Bantlar iç içe mi (olmamalı)? | ⚠️ soru bayat: **5 Ekim'den beri bantlar tasarım gereği İÇ İÇE TAM BÖLGE** (`"<=5" ⊆ "<=7" ⊆ "<=10"`). Motor konturu: 0 ihlal. Yayındaki bantta ⊆ ilişkisi **tam tutmuyor**: 161 / 6.949 kayıtta A(7) < A(5) (§3.2) |
 | 10 gün bandı 5 gün bandının üstkümesi mi | 🟡 kayıtların %97,7'sinde evet; **161 kayıt** (Bizans 74, İsviçre 25, Osmanlı 13 …) hayır; kayıp medyan %0,9, en çok %6,6 |
 | Dosya mevcut mu / yayında yükleniyor mu | ✅ 4 dosya izlenen (47,2 + 47,2 + 12,0 + 12,4 MB, hepsi < 100 MB), canlı sitede HEAD 200 ve `Content-Length` birebir aynı; tarayıcıda 10 gün seçilince 3 bant × 6.949 kayıt, 88.269 halka yüklendi, katman görünür |
-| **10 günlük A, B'nin a–e'sinden kaçını kendiliğinden sağlar?** | **Bugünkü üretim hattıyla çoğunu DEĞİL.** (b) Orta Asya/Arabistan'da ✅, (a)(c)(e) tenha bölgede kısmen, **(d) hiç** (§4.1). Saf yürüyüş (kapısız, tarihli) yayında kalan iç boşluğun %96–100'ünü Anadolu/Orta Asya/Sahra'da kapatırdı (§4.2) — ama **bu "İDEAL" tenhada yanıltıcıdır** (§6b): Sahra'daki ideal↔hat farkının (%77–81 ↔ %47–53) büyük kısmı **hattın hatası değil**; 10 günlük erişimdeki karanın %46'sı, o gün VAR olan ama devletsiz yerleşimlerin (vaha/aşiret) bölgesi ve hat orayı kasıtlı boyamıyor (Emre'nin B kuralı da "arada devletsiz şehir varsa doldurma" diyor). Puan kapısı küçük pay (Orta Asya 10 günde +3,5 puan, Sahra +0,6; §6). Kalan gerçek eksik: **varlık devri yalnız 40 saatlik bütçeyle** çalışıyor (§6b) |
+| **10 günlük A, B'nin a–e'sinden kaçını kendiliğinden sağlar?** | **Bugünkü üretim hattıyla çoğunu DEĞİL.** (b) Orta Asya/Arabistan'da ✅, (a)(c)(e) tenha bölgede kısmen, **(d) hiç** (§4.1). Saf yürüyüş (kapısız, tarihli) yayında kalan iç boşluğun %96–100'ünü Anadolu/Orta Asya/Sahra'da kapatırdı (§4.2) — ama **bu "İDEAL" tenhada yanıltıcıdır** (§6b): Sahra'daki ideal↔hat farkının (%77–81 ↔ %47–53) büyük kısmı **hattın hatası değil**; 10 günlük erişimdeki karanın %46'sı, o gün VAR olan ama devletsiz yerleşimlerin (vaha/aşiret) bölgesi ve hat orayı kasıtlı boyamıyor (Emre'nin B kuralı da "arada devletsiz şehir varsa doldurma" diyor). Puan kapısı küçük pay (Orta Asya 10 günde +3,5 puan, Sahra +0,6; §6). Varlık devri yalnız 40 saatle çalışıyor ama bandın bütçesine ölçeklemek kutuda yalnız 0…+2,8 puan kazandırıyor (§6c) — **devri ölçeklemek anahtar değil**; (d) iki devlet arası boşluk için B'nin kendi dolgusu gerekli kalıyor |
 
 ## 2 · Yürüyüş hesabı doğru mu — kod ve bağımsız ölçüm
 
@@ -261,8 +261,21 @@ Sahra 1683: gerçek %43,9 / 51,1 / **51,6**, devletsiz %37,0 / 44,8 / 46,1, öl�
 **Okuma:**
 - **Sahra'daki "28 puan" hat hatası değil, veri durumu:** 10 günde karanın **%46'sı** o gün VAR olan ama devletsiz yerleşimlerin (vaha, aşiret bölgesi) hücresi; hat orayı boyamıyor. Bu, Emre'nin B kuralıyla (*"arada devletsiz şehir / aşiret … yoksa doldur"*) **aynı yöndedir** — yani B bu bölgeleri de doldurmamalı. Önceki "İDEAL" (§4.2) devletsiz yerleşimleri tohum saymadığı için tenhada (Sahra, Arabistan) yürüyüşün kapsamını **olduğundan fazla** gösteriyordu; bu satırlar artık "tavan değil üst sınır" diye okunmalı.
 - **Hattın yayını ≈ bu dökümün tavanı:** Sahra 10 gün: gerçek %47,2 (+ devir tavanı %6,5 = %53,7) ↔ yayın %47,4; 1683: %51,6 (+2,2) ↔ %53,0. Yani hat Sahra'da kendi verisinin izin verdiğini boyuyor. **Dijkstra sahipliği → bant** zinciri tutarlı.
-- **Gerçek bir eksik:** kurulmamış/ölü yerleşimlerin toprağı (Anadolu 1300'de karanın **%7,3**'ü, Arabistan %6–9, Sahra %5–6) `_yr_epok_onar` ile **yalnız 40 saatlik** bütçeyle dağıtılıyor; 7/10 günlük bantta bu toprak ayrıca geri yürünmüyor. Bu yüzden Anadolu'da ideal %100 ↔ yayın %96,5–98,5 ve 7→10 günde büyüme sıfır. **10 günlük A'nın "devir"i bütçeyle ölçeklenmiyor; bu B ilkelerine (a)(d)(e) yardım edecek asıl kod noktası.** (Nicel etkiyi ayrıca ölçmedim: Anadolu 1300'de ölü/kurulmamış yerleşim bölgesi karanın %7,3'ü ≈ 63.000 km²; yayın boşluğu 30.202 km² — ikisi arasındaki ilişki doğrulanmadı.)
+- **Varlık devri 40 saatle sınırlı** (`_yr_epok_onar`, `:2399` `_YR_BUTCE`): kurulmamış/ölü yerleşimlerin toprağı (Anadolu 1300'de karanın %7,3'ü, Arabistan %6–9, Sahra %2–6) yalnız 5 günlük bütçeyle canlı komşulara dağıtılıyor. **Ama bunun 7/10 günde ölçeklenmesinin kazancı küçük** — §6c'de ölçüldü (Anadolu 0, Orta Asya +0,7, Sahra +0,5…+2,0, Arabistan +1,9…+2,8 puan). Önceki "asıl kod noktası" tahminim ölçümle **çürüdü**.
 - Bu döküm yalnız **aşama 1** (Dijkstra sahipliği → tarih durumu) ve gate A/B'dir; `PETEK_D` aşama sonrası (ada kuralı, çöl tavanı) ve bant ham kesimi ayrı ayrı dökülmedi.
+
+## 6c · Varlık devrini bütçeyle ölçeklemek ne kazandırır? (Emre onayı: "önce kutuda sayısal olarak sına") — `devir_olc.py`
+**Kod değişmedi; motor bu koşuda çalıştırılmadı.** Kutu dökümünün Dijkstra alanı + canlı yerleşim kümesiyle model: tüm-zaman sahibi o gün canlı ve gerçek devletteyse boyanır (değişmez); sahibi ölü/doğmamışsa canlı yerleşimlerden yeniden yürünür (motor notu `:2343`: sonuç epok başına tam Dijkstra ile aynıdır); bugün tavan 40 sa, öneri tavan = bandın saati. Devletsiz/`__BOSLUK__` sahipli hücre iki durumda da boyanmaz.
+
+| bölge · tarih | 5 gün | 7 gün (bugün → öneri) | 10 gün (bugün → öneri) | kazanç 10 gün |
+|---|---|---|---|---|
+| Anadolu 1300 / 1520 / 1683 | %99,94 / 99,94 / 99,83 | %99,99 → aynı (3 tarih) | %99,99 / 99,99 / 99,88 → aynı | **0** |
+| Orta Asya 1520 | %67,9 | %87,97 → %88,66 | %97,40 → %98,15 | **+0,74 puan** (9.654 km²) |
+| Sahra 1520 | %42,8 | %48,93 → %50,47 | %49,39 → %51,39 | **+2,00 puan** (48.820 km²) |
+| Sahra 1683 | %45,5 | %52,60 → %53,11 | %53,16 → %53,67 | **+0,50 puan** (12.269 km²) |
+| Arabistan 1520 | %48,6 | %54,94 → %56,85 | %57,49 → %60,27 | **+2,78 puan** (96.223 km²) |
+
+**Okuma:** bugünkü 40 saatlik devir zaten ölü yerleşimlerin toprağını canlı komşulara veriyor (Anadolu'da %99,9'a varıyor; 7→10 büyümesi sıfır çünkü başka bir şey yok). Bütçeye ölçeklemek **yalnız tenhada ve +0,5…+2,8 puan** kazandırır, yoğun bölgede **hiçbir şey**. ⇒ **Devri ölçeklemek B ilkelerini sağlamanın anahtarı değil.** Yayın Anadolu'su (%96,4–98,5) bu modelin %99,9'undan düşük; o 1,5–3,5 puanlık fark **devirden değil**, hâlâ açıklanamayan başka aşamadan (puan kapısı Anadolu'da ölçülmedi; ada/çöl tavanı/çekişmeli petekler adaydır). Kapsam: model, motorun yürüyüş aşamalarını yeniden koşturmaz; sonuçlar yaklaşıktır.
 
 ## 7 · Bulgular (kusur / belge farkı) — numaralı
 
@@ -270,7 +283,7 @@ Sahra 1683: gerçek %43,9 / 51,1 / **51,6**, devletsiz %37,0 / 44,8 / 46,1, öl�
 |---|---|---|
 | 1 | Üretim 8 komşu; 22,5° yönlerde −%8 (60° enlemde −%10); `MOTOR_YURUYUS_16` zorunlu bayrak listesinde yok. 16 komşu ova doğruluğunu %97'ye çıkarır (maliyet bu raporda ölçülmedi) | 🟡 |
 | 2 | "5 gün ≈ 200 km" yalnız düz ovada doğru; Anadolu'da 103 km, 10 gün 223 km. Emre'nin B'deki **400 km** ölçüsü ile "10 günlük sürtünmeli yürüyüş" Anadolu'da aynı şey değil | 🔴 B için |
-| 3 | 7→10 günde bant genişlemesi çok küçük (medyan A10/A5 = 1,06). Nedenleri ölçüldü (§6, §6b): (i) tenhada karanın %37–46'sı devletsiz yerleşim bölgesi — kasıtlı boş; (ii) varlık devri 40 saatle sınırlı (Anadolu 1300'de karanın %7,3'ü); (iii) puan kapısı küçük pay (Orta Asya +3,5 puan, Sahra +0,6) | 🔴 B için: (ii) |
+| 3 | 7→10 günde bant genişlemesi çok küçük (medyan A10/A5 = 1,06). Nedenleri ölçüldü (§6, §6b): (i) tenhada karanın %37–46'sı devletsiz yerleşim bölgesi — kasıtlı boş; (ii) varlık devri 40 saatle sınırlı — ama ölçeklemenin kazancı küçük (§6c: 0…+2,8 puan); (iii) puan kapısı küçük pay (Orta Asya +3,5 puan, Sahra +0,6) | 🔴 B için: (ii) |
 | 4 | `≤5` ve `≤7/≤10` farklı boru hatları: 161 kayıtta A7 < A5 (maks %6,6); 1 kayıtta A10 < A7 | 🟡 |
 | 5 | Taban A'da devletler arası binme (%0,04–1,06) bantlarla taşınıyor | 🟡 (bant dışı) |
 | 6 | `app.js:1428` düğme açıklaması bayat (çöl kelepçesi 7 gün + "ek bant") | 🟡 |
@@ -290,7 +303,7 @@ Sahra 1683: gerçek %43,9 / 51,1 / **51,6**, devletsiz %37,0 / 44,8 / 46,1, öl�
 - Canlı sitede görsel doğrulama (piksel) yapılmadı; yalnız veri/katman durumu okundu.
 
 ## 9 · İstediklerim (önerimle)
-1. **Karar (Emre):** Varlık devri (`_yr_epok_onar`, kurulmamış/ölü yerleşimin toprağı) bugün yalnız 40 saatle çalışıyor. 7/10 günlük bantta da bütçeyle ölçeklensin mi? Bu, 10 günlük A'nın B ilkelerini daha çok sağlamasının tek net kod yolu (Anadolu 1300'de karanın %7,3'ü). Motor tuzuna dokunur ⇒ ancak HAVVA'daki bir sonraki TAM İNŞA'da, onayınla. Önerim: evet, ama önce kutuda sayısal kanıt (bu raporda tam bir sayı yok).
+1. **Karar (Emre) — kutu sınavı yapıldı (§6c):** varlık devrini bandın bütçesine ölçeklemek yalnız tenhada +0,5…+2,8 puan, Anadolu/yoğunda 0 kazandırıyor. **Önerim: şimdilik motora dokunma** (kazanç küçük, motor tuzu değişir ⇒ 7–8 saatlik tam inşa); B'ye karar verirken "devri ölçeklemek B'nin yerini tutmaz; (d) için B dolgusu gerekir" diye oku. Aynı fikirdeysen kapatırım; farklı düşünürsen sonraki tam inşaya yamayı hazırlarım.
    **Bilgi (karar değil):** tenhada boş kalan toprak büyük ölçüde devletsiz yerleşim bölgesi; B'nin "devletsiz şehir varsa doldurma" kuralıyla uyumlu ⇒ 10 günlük A bu boşluğu doldurmaz, doldurmamalı.
 2. **Karar:** 16 komşu bayrağı (`MOTOR_YURUYUS_16=1`) zorunlu bayraklara girsin mi? Önerim: bir kutuda süre maliyetini ölç, sonra karar.
 3. **İş (küçük, ayrı oturum):** `app.js:1428` açıklamasını güncelle; `≤7/≤10`u `PETEK_D` hattından geçir ya da `≥ ≤5` olacak şekilde birleştir (161 kayıt). Hiçbirini bu raporda yapmadım.
