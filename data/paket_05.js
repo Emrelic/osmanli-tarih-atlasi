@@ -2062,7 +2062,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"sidamo-kralliklari", ad:"Sidamo Krallıkları", tur:"devlet", bolge:"dogu-afrika",
-  f:"1281-01-01", t:"1897-01-01", baskent:"çeşitli merkezler", harita:"sidamo",
+  f:"1281-01-01", t:"1897-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Sidamo': Sidamo'nun Kefa krallığını ~AD 1400'de kurduğu yazılır (yıl yuvarlak). Künye-içi kronolojide '9. yüzyıldan beri idari yapı' ifadesi kaynaksız/zayıf. Kabul edilebilir kaynak 1281'i ne doğrular ne çürütür. f KISALTILMADI (kaynak 1281 öncesini DESTEKLEMİYOR ama s: bağı yok; ancak künye-içi kronoloji maddesi f'ye bağlı olduğu için karar Emre'ye bırakıldı).", baskent:"çeşitli merkezler", harita:"sidamo",
   ozet:"Güney Habeşistan'da birden fazla küçük Sidama krallığından oluşan gevşek topluluk; tek bir kuruluş tarihi yok, II. Menelik'in seferleriyle 1890'ların ortasında Habeşistan'a katıldı. TDV'de ayrı maddesi yok, tarihler standart akademik kaynaklara göredir, kesinlik düşük.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -2072,7 +2073,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"vollayta-kralligi", ad:"Vollayta (Wolaita) Krallığı", tur:"krallik", bolge:"dogu-afrika",
-  f:"1281-01-01", t:"1894-01-17", baskent:"Dalgaç (Damot Sore)", harita:"vollayta",
+  f:"1281-01-01", t:"1894-01-17",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Künye-içi kronoloji Motolomi Sato'yu 1252'ye koyar (yalnız çevrimiçi ikincil kaynaklara dayanır). Bu turda: Vikipedi 'Kingdom of Wolaita' krallığı '1251'den' başlatır ve Motolomi'nin 'muhtemelen efsanevi' olduğunu söyler; yerel dergi makaleleri (Global Scientific Journal, IJELLH) XIII. yüzyılı anar. Hakemli/ansiklopedik (Encyclopaedia Aethiopica vb.) bir kaynağa ERİŞİLEMEDİ ⇒ 1251/1252 kaynak olarak KABUL EDİLMEDİ, 'bulunamadı'. f ne genişletildi ne kısaltıldı. f KISALTILMADI (kaynak 1281 öncesini DESTEKLEMİYOR ama s: bağı yok; ancak künye-içi kronoloji maddesi f'ye bağlı olduğu için karar Emre'ye bırakıldı).", baskent:"Dalgaç (Damot Sore)", harita:"vollayta",
   ozet:"Güney Habeşistan'da eski ve köklü bir krallık (Kawo hanedanı); kuruluşu efsanevi Motolomi dönemine dayanır, II. Menelik'in fetih seferiyle 1894'te sona erdi. TDV'de ayrı maddesi yok, tarihler standart akademik kaynaklara göredir, kesinlik düşük.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -2878,11 +2880,12 @@ window.DEVLETLER = [
 // kullanılıyordu. ⚠️ `mogadisu` slug'ı TDV'de CANLI ama İÇERİĞİ BOŞ/yönlendirme
 // — asıl madde `makdisu` slug'ındadır, oradan alındı.
 { id:"makdisu-sultanligi", ad:"Makdişu (Mogadişu) Sultanlığı (Ebû Bekir b. Fahreddin Hanedanı)", tur:"sultanlik", bolge:"dogu-afrika",
-  f:"1281-01-01", t:"1500-01-01", baskent:"Makdişu (Mogadişu)",
+  f:"1269-01-01", t:"1500-01-01", baskent:"Makdişu (Mogadişu)",
+  ic_not_f:"1281 → 1269 GENİŞLETME (ONCE1281 yeniden deneme, 18 Ekim 2026). Kanıt: Fahreddin Camii (Hamar Weyne) kitabesi 1269 tarihli; N. Chittick, 'Mediaeval Mogadishu' (Paideuma 1976; JSTOR 41409873): cami bu hanedan döneminde kurulmuş sayılır, hanedan 'Yâkūt (~1230) ile 1269 arasında' kurulmuş olmalıdır; IRCICA İslâm Mimari Mirası envanteri (no. 252-1-1, XIII. yy ikinci yarısı) ve Britannica 'Mogadishu' (kentin kökeni X. yy) uyumlu. f=1269-01-01 EN GEÇ sınırdır (kitabe yılı; ay/gün kaynakta yok; 667 H ∩ 1269 ⇒ kesişimin ilk günü). Gerçek kuruluş yılı BULUNAMADI. Şartnamedeki '1238 kitabesi' DOĞRULANAMADI: erişilen kaynaklar Arba'a Rukun ve Fahreddin kitabelerini 667 H/1268-69 verir, 1238 yok. Yerlesimler s: dönemi (Mogadişu 1281'den) bu turda DEĞİŞMEDİ; 1269-1281 arası motor ufku dışındadır.",
   ozet:"Ebû Bekir b. Fahreddin'in VII. (XIII.) yüzyılda Makdişu'da kurduğu küçük sultanlık; İbn Battûta 1331'de (Sultan Ebû Bekir b. Ömer döneminde) şehri ziyaret etti. XVI. yüzyılda yönetim Muzaffer sülâlesinin eline geçti (bkz. [[somali]] — Ecuran/Ajuran'ın yükselişiyle örtüşür). ⚠️ 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır — TDV yalnız \"XIII. yüzyıl\" diyor, kesin yıl yok. (kaynak: TDV, madde: makdisu)",
   kaynak:"makdisu",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Ebû Bekir b. Fahreddin Makdişu'da küçük bir sultanlık kurdu (VII./XIII. yüzyıl, kesin yıl yok)", ic_not_b:"eski b: Ebû Bekir b. Fahreddin Makdişu'da küçük bir sultanlık kurdu (TDV: VII./XIII. yüzyıl, kesin yıl yok)" },
+    { t:"1269-01-01", tur:"kurulus", b:"Makdişu'daki Fahreddin Camii'nin kitabesi (1269): Fahreddin hanedanı sultanlığı bu tarihte en geç iktidardadır (kuruluş yılı bulunamadı)", kaynak:"N. Chittick, Mediaeval Mogadishu, Paideuma 1976 (jstor.org/stable/41409873): cami hanedan döneminde kurulmuş sayılır, hanedan Yâkūt (~1230) ile 1269 kitabesi arasında kurulmuş; IRCICA İslâm Mimari Mirası envanteri 252-1-1; TDV makdisu: VII./XIII. yüzyıl", gun:"1269 — kitabe yılı; ay/gün kaynakta yok", ic_not_b:"eski b: Ebû Bekir b. Fahreddin Makdişu'da küçük bir sultanlık kurdu (TDV: VII./XIII. yüzyıl, kesin yıl yok); eski t: 1281-01-01 (epok damgası)" },
     { t:"1331-01-01", tur:"hukumdar", b:"İbn Battûta, Sultan Ebû Bekir b. Ömer döneminde Makdişu'yu ziyaret etti" },
     { t:"1499-01-01", tur:"savas", b:"Vasco da Gama Makdişu'ya saldırır ancak şehri alamaz (kaynakta gün yok).", kaynak:"https://islamansiklopedisi.org.tr/makdisu" },
     { t:"1500-01-01", tur:"son", b:"Yönetim Muzaffer sülâlesinin eline geçti", ic_not_b:"eski b: Yönetim Muzaffer sülâlesinin eline geçti (geçiş sürecinin ayrıntısı TDV'de yok)" }
@@ -3147,7 +3150,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"gambiya-mandinka", ad:"Gambiya Mandinka Devletçikleri (Niumi · Kombo · Vuli)", tur:"devlet", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1894-01-01", baskent:"—",
+  f:"1281-01-01", t:"1894-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Gambiya Mandinka devletçiklerinin 1281 öncesi varlığı için kabul edilebilir kaynak BULUNAMADI (Britannica'da müstakil madde yok; Vikipedi/derleme siteleri Wuli/Kombo/Kaabu'yu Mali'nin çözülmesinden sonrasına, XIV-XVI. yy'a koyar ve tek dayanak olamaz). Mali imparatorluğu Britannica'ya göre ~1235'te kurulur; 'Mali'nin çözülmesi' f=1281'i desteklemez. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"—",
   ozet:"Gambiya nehri boyunca Mali'nin ardılı olarak doğan küçük Mandinka devletçikleri (Niumi · Kombo · Vuli); nehir ticaretini denetlediler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Gambiya nehri boyunca Mali ardılı küçük Mandinka devletleri.",
   kronoloji:[
@@ -3211,7 +3215,7 @@ window.DEVLETLER = [
 },
 { id:"mossi-vagadugu", ad:"Mossi Krallığı (Vagadugu)", tur:"krallik", bolge:"bati-afrika",
   f:"1281-01-01", t:"1896-09-01", baskent:"Vagadugu",
-  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (18 Ekim 2026, ONCE1281 karar). Kaynaklar çelişir: TDV burkina-faso 'XII. yy sonu'; EBSCO/Oxford Research Encyclopedia kuruluşu ağırlıkla XV. yy sonu–XVI. yy, XII. yy yalnız sözlü gelenek. f KISALTILMADI: 3 yerleşimin (yerlesimler_afrika2.js) s: dönemi 1281'den bu künyeye bağlı; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur. Çözüm: s: dönemleri ile birlikte tek commit'te, kaynak kesinleşince.",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (18 Ekim 2026, ONCE1281 karar). Kaynaklar çelişir: TDV burkina-faso 'XII. yy sonu'; EBSCO/Oxford Research Encyclopedia kuruluşu ağırlıkla XV. yy sonu–XVI. yy, XII. yy yalnız sözlü gelenek. f KISALTILMADI: 3 yerleşimin (yerlesimler_afrika2.js) s: dönemi 1281'den bu künyeye bağlı; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur. Çözüm: s: dönemleri ile birlikte tek commit'te, kaynak kesinleşince. | 18 Ekim 2026 yeniden deneme: Britannica 'Burkina Faso' (History): Vagadugu (Ouagadougou) Mossi krallığının başkenti olup krallık XV. yüzyılda kurulmuştur; Britannica 'Mossi'/'Gurma' Mossi hanedanını Gambaga escarpment'ten gelen Tenkodogo grubuna bağlar, yıl vermez. 1281 (XII. yy sonu) iddiasını DESTEKLEMEZ.",
   ozet:"Volta havzasında Mogho Naaba unvanlı hükümdarlarca yönetilen, İslâm'a ve Songhay yayılmasına yüzyıllarca direnen Mossi krallığı. TDV burkina-faso maddesine dayanır.",
   kaynak:"burkina-faso — TDV gövdesi bu turda okundu. TDV burkina-faso: XII. yüzyıl sonunda Ouédraogo temel Mossi krallığını kurdu; 'Fransız askerleri 1896'da Vagadugu'ya girdi, kral kaçtı.'.",
   kronoloji:[
@@ -3240,7 +3244,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"gurma", ad:"Gurma Krallığı", tur:"krallik", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1897-01-01", baskent:"Fada Ngurma",
+  f:"1281-01-01", t:"1897-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Gurma': Gurma, Mossi ve Konkomba gibi Gambaga Escarpment'ten (KD Gana) göç ettiği sanılan gruptur; bir kolu Tenkodogo'da ilk Mossi krallığını kurdu, öbürleri Fada N'Gourma'ya gitti — TARİH VERİLMEZ. 1281 öncesi kuruluş için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Fada Ngurma",
   ozet:"Doğu Volta'da Mossi'yle akraba Gurma halkının krallığı. TDV burkina-faso maddesine dayanır.",
   kaynak:"burkina-faso — TDV gövdesi bu turda okundu. TDV burkina-faso: Fransız işgali 1897'de tamamlandı.",
   kronoloji:[
@@ -3261,7 +3266,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"zerma", ad:"Zerma (Djerma) Devletçikleri", tur:"devlet", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1898-01-01", baskent:"Tillaberi",
+  f:"1281-01-01", t:"1898-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Zarma' (Zerma): Niamey, Dosso, Tillabéry Zarma toprağıdır; kuruluş/devlet tarihi YOK. 1281 öncesi devletçik için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Tillaberi",
   ozet:"Nijer'in sağ yakasında Zerma (Djerma) halkının kurduğu devletçikler; Say zâviyesi bölgenin İslâm merkeziydi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Nijer nehri sağ yakası; Tillaberi · Tera · Say çevresi.",
   kronoloji:[
@@ -3336,7 +3342,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"eve-notse", ad:"Eve (Ewe) Notse Birliği", tur:"devlet", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1884-07-05", baskent:"Notse",
+  f:"1281-01-01", t:"1884-07-05",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica'da Ewe/Notsé maddesi yok (404). Vikipedi 'Exodus of the Ewe from Notsé' olayı XVI-XVII. yy'a (Agokoli, 1670-1720) koyar; Vikipedi tek dayanak olamaz, ama 1281 öncesini destekleyen hiçbir kaynak da bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Notse",
   ozet:"Eve halkının surlu ana yerleşimi Notse çevresinde kurulu şeflikler birliği. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Notse ana yerleşimi; Alman Togo himayesi 1884.",
   kronoloji:[
@@ -3347,7 +3354,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"borgu", ad:"Borgu Bariba Krallıkları (Nikki · Busa)", tur:"krallik", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1898-01-01", baskent:"Nikki",
+  f:"1281-01-01", t:"1898-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Bariba' ve 'History of Benin': Bariba'nın en önemli devleti Nikki krallığıdır; kuruluş tarihi VERİLMEZ. 1281 öncesi için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Nikki",
   ozet:"Nijer'in batısında Bariba halkının kurduğu, Sokoto cihadına boyun eğmeyen krallıklar birliği (Nikki · Busa · Kvande). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Nijer'in batısında Bariba devletçikleri konfederasyonu.",
   kronoloji:[
@@ -3382,7 +3390,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"nijer-deltasi", ad:"Nijer Deltası Şehir Devletleri (Kalabar · Bonny)", tur:"devlet", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1884-09-10", baskent:"Eski Kalabar",
+  f:"1281-01-01", t:"1884-09-10",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Kalabar/Bonny için bu turda erişilen açık erişimli akademik/ansiklopedik kaynakta (Britannica slug'ları 404) 1281 öncesi kuruluş tarihi BULUNAMADI. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Eski Kalabar",
   ozet:"Nijer deltasında Efik ve İjo halklarının kurduğu, Atlantik ticaretine dayanan şehir devletleri (Kalabar · Bonny · Brass). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Efik ve İjo ticaret devletleri; İngiliz Petrol Nehirleri himayesi 1884.",
   kronoloji:[
@@ -3394,7 +3403,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"jukun-kvararafa", ad:"Kvararafa (Jukun) Krallığı", tur:"krallik", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1900-01-01", baskent:"Vukari",
+  f:"1281-01-01", t:"1900-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Jukun': Jukun'un 'Avrupa geç Orta Çağı'nın en güçlü Sudan krallıklarından Kororofa'nın torunları olduğu sanılır; başkent kalıntıları 'arkeologlarca tam araştırılmamıştır' — kesin yıl YOK. 1281 öncesi için gün/yıl kaynağı bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Vukari",
   ozet:"Benue vadisinde Jukun halkının kurduğu, Bornu ve Hausa şehirlerine akınlarıyla tanınan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Merkezi Vukari.",
   kronoloji:[
@@ -3406,7 +3416,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"tiv", ad:"Tiv Halkı", tur:"devlet", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1900-01-01", baskent:"—",
+  f:"1281-01-01", t:"1900-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Tiv': göç/kuruluş tarihi yok; merkezsiz soy toplumu (1948'de İngilizler paramount chief atadı). 1281 öncesi devlet için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"—",
   ozet:"Benue vadisinde soy örgütlenmesine dayanan, merkezî hükümdarı olmayan Tiv halkı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Benue vadisi; merkezî devlet değil, soy örgütlenmesi — tanecik: HALK.",
   kronoloji:[
@@ -3416,7 +3427,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"birom-plato", ad:"Jos Platosu Halkları (Birom · Jarava)", tur:"devlet", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1903-01-01", baskent:"—",
+  f:"1281-01-01", t:"1903-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Birom' ve 'Jos': Jos platosunda Afizere, Anaguta, Berom halkları; kuruluş tarihi yok (1903'te İngilizler kalay yataklarını öğrendi). 1281 öncesi siyasi birlik için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"—",
   ozet:"Jos platosunda Birom ve Jarava gibi, Sokoto cihadına hiç boyun eğmemiş dağlı topluluklar. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Sokoto'ya hiç boyun eğmemiş plato toplulukları.",
   kronoloji:[
@@ -3439,7 +3451,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"adar", ad:"Adar Hausa Sahası (Tahoua · Konni · Madaova)", tur:"devlet", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1899-01-01", baskent:"Tahoua",
+  f:"1281-01-01", t:"1899-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Adar Hausa sahası için bu turda 1281 öncesini destekleyen açık erişimli akademik kaynak BULUNAMADI (Britannica 'Hausa' genel; Adar/Tahoua kuruluş tarihi vermez). f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Tahoua",
   ozet:"Gobir ile Tuareg sahası arasında kalan Hausa uç bölgesi; Konni ve Madaova kaleleri Sokoto'ya karşı direndi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Gobir-Adar kuşağı; Sokoto ile Tuareg arasında.",
   kronoloji:[
@@ -3461,7 +3474,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"tuareg-adag", ad:"Kel Adag Tuareg Konfederasyonu (Adrar des Ifoghas)", tur:"devlet", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1899-01-01", baskent:"Kidal",
+  f:"1281-01-01", t:"1899-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Kel Adagh/Ifoghas konfederasyonu için 1281 öncesi kaynak BULUNAMADI. Yalnız Adrar des Ifoghas'taki Tadmekka (Essouk) şehri XI-XIV. yy gelişir (Northwestern Univ. 'Caravans of Gold': 'flourished 10th-14th century', al-Bakrî alıntısı; S. Nixon, Essouk-Tadmekka, Brill 2017 kazı yayını): bu bir Berber-Tuareg ticaret şehridir, Kel Adagh KONFEDERASYONU değildir (konfederasyon çıkarımı yazılmadı). Britannica 'Tuareg' konfederasyonları sayar, tarih vermez. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Kidal",
   ozet:"Adrar des Ifoghas'ta Kel Adag (Ifoghas) Tuareg konfederasyonu; Amenokal önderliğinde teşkilatlıydı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kidal merkezli Ifoghas konfederasyonu.",
   kronoloji:[
@@ -3471,7 +3485,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"tuareg-ivellemmedan", ad:"İvellemmedan Tuareg Konfederasyonu", tur:"devlet", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1899-01-01", baskent:"Menaka",
+  f:"1281-01-01", t:"1899-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Tuareg' Aulliminden'i (İvellemmedan) sayar, kuruluş tarihi vermez. Vikipedi'ye göre XVII. yy'a kadar Adrar des Ifoghas'ın güneyinde yerleşmiştir (tek dayanak olamaz). 1281 öncesi kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Menaka",
   ozet:"Azavad ile Nijer kavsi arasında İvellemmedan Tuareg konfederasyonu; bölgenin en güçlü Tuareg gücüydü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Menaka-Azavad kuşağı.",
   kronoloji:[
@@ -3500,7 +3515,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"dan-guro", ad:"Dan · Guro · Bete Halkları (Fildişi orman kuşağı)", tur:"devlet", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1898-01-01", baskent:"—",
+  f:"1281-01-01", t:"1898-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Guro': Guro kuzey/kuzeybatıdan, XVIII. yy ikinci yarısında Mande istilalarıyla sürülerek geldi. 1281 öncesini DESTEKLEMEZ; Dan/Bete için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"—",
   ozet:"Fildişi orman kuşağında Dan · Guro · Bete gibi merkezî devlet kurmamış halklar. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Merkezî devlet kurmamış orman halkları — tanecik: HALK.",
   kronoloji:[
@@ -3509,7 +3525,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"kru-grebo", ad:"Kru ve Grebo Halkları", tur:"devlet", bolge:"bati-afrika",
-  f:"1281-01-01", t:"1822-04-25", baskent:"—",
+  f:"1281-01-01", t:"1822-04-25",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Kru': Kru'nun Liberya'ya kuzeydoğudan XV-XVII. yy'da girdiği sanılır; geleneksel örgüt merkezsiz. 1281 öncesini DESTEKLEMEZ (kısaltma adayı: ~1400). f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"—",
   ozet:"Liberya kıyısında Kru ve Grebo halkları; denizcilik ve kıyı ticaretiyle tanınırlardı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Liberya kıyısı; Liberya'dan önce.",
   kronoloji:[
@@ -3610,7 +3627,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"kanem-tubu", ad:"Kanem Tubu Sahası (Teda-Daza)", tur:"devlet", bolge:"orta-afrika",
-  f:"1281-01-01", t:"1913-01-01", baskent:"Mao",
+  f:"1281-01-01", t:"1913-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Kanem-Bornu': Kanem-Bornu ~IX. yüzyıl ortasında kuruldu, XI. yy sonunda Sef mai Umme İslam'a girdi — bu ayrı `kanem-bornu` künyesinin (f 0800) konusudur. Teda-Daza (Tubu) ayrı bir devlet olarak 1281 öncesi için kaynak BULUNAMADI. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Mao",
   ozet:"Çad gölü kuzeyinde Teda ve Daza (Tubu) kabilelerinin denetlediği geniş çöl sahası. TDV cad maddesine dayanır.",
   kaynak:"cad — TDV gövdesi bu turda okundu. TDV cad: 'Mao, Ati, Am Timan — Kanem topraklarının şehirleri'. Borku-Ennedi-Tibesti Fransız denetimine 1913'te girdi.",
   kronoloji:[
@@ -3667,7 +3685,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"banda-gbaya", ad:"Banda ve Gbaya Halkları", tur:"devlet", bolge:"orta-afrika",
-  f:"1281-01-01", t:"1903-01-01", baskent:"—",
+  f:"1281-01-01", t:"1903-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Gbaya': Gbaya XIX. yy başında Usman dan Fodio cihadından kaçarak Nijerya'dan güneydoğuya göç etti. 1281 öncesini DESTEKLEMEZ (kısaltma adayı: ~1800); Banda için tarih yok. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"—",
   ozet:"Ubangi-Şari iç kesiminde merkezî devlet kurmamış Banda ve Gbaya halkları. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Ubangi-Şari iç kesimi; merkezî devlet kurmamış halklar — tanecik: HALK.",
   kronoloji:[
@@ -3682,7 +3701,7 @@ window.DEVLETLER = [
 },
 { id:"tio", ad:"Tio (Teke) Krallığı", tur:"krallik", bolge:"orta-afrika",
   f:"1281-01-01", t:"1880-10-03", baskent:"Mbe",
-  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (18 Ekim 2026, ONCE1281 karar). Vansina Teke izini XVI. yy başına kadar sürer; XIII. yy için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te 1281'den bu künyeye bağlı 2 s: dönemi var; kısaltma s: dönemleriyle birlikte tek commit'te yapılır.",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (18 Ekim 2026, ONCE1281 karar). Vansina Teke izini XVI. yy başına kadar sürer; XIII. yy için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te 1281'den bu künyeye bağlı 2 s: dönemi var; kısaltma s: dönemleriyle birlikte tek commit'te yapılır. | 18 Ekim 2026 yeniden deneme: Britannica 'Teke': Teke platolarda 'erken çağlardan beri' yaşar; krallık olarak ne zaman örgütlendikleri BİLİNMEZ, 1600'e gelindiğinde Kongo'nun rakibi bir devlettir. 1281 öncesini DESTEKLEMEZ.",
   ozet:"Malebo Havuzu kuzeyinde Makoko unvanlı hükümdarlarca yönetilen Tio (Teke) krallığı; Kongo nehri ticaretinin kuzey ucunu tutuyordu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Malebo Havuzu kuzeyi; Makoko ile Brazza antlaşması 1880. 🔴 `teke` KİMLİĞİ KULLANILAMAZ — o Anadolu'daki Teke Beyliğidir, çakışır (§4 Türkçe yazım ekseni).",
   kronoloji:[
@@ -3712,7 +3731,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"matamba", ad:"Matamba Krallığı", tur:"krallik", bolge:"orta-afrika",
-  f:"1281-01-01", t:"1744-01-01", baskent:"Matamba",
+  f:"1281-01-01", t:"1744-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Matamba için bu turda açık erişimli akademik/ansiklopedik kaynakta 1281 öncesi tarih BULUNAMADI (Britannica slug'ı yok). Bilinen tarih Njinga dönemi XVII. yy'dır. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Matamba",
   ozet:"Kraliçe Njinga'nın Ndongo'dan çekildikten sonra merkez yaptığı, Portekiz'e uzun süre direnen krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Njinga'nın krallığı; 1744'te Portekiz'e yenildi.",
   kronoloji:[
@@ -3828,7 +3848,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"nyamvezi", ad:"Nyamvezi Şeflikleri (Unyanyembe · Mirambo)", tur:"devlet", bolge:"dogu-afrika",
-  f:"1281-01-01", t:"1890-11-04", baskent:"Tabora",
+  f:"1281-01-01", t:"1890-11-04",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Nyamwezi' ve 'Mirambo': Nyamwezi klanları 1870'lerde Mirambo'yla birleşti; XIX. yy öncesi şeflik tarihi yok. 1281 öncesini DESTEKLEMEZ. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Tabora",
   ozet:"Orta Tanzanya'da kervan ticaretini yürüten Nyamvezi şeflikleri; Mirambo bunları geçici olarak tek elde topladı. TDV tanzanya maddesine dayanır.",
   kaynak:"tanzanya — TDV gövdesi bu turda okundu. TDV tanzanya Tabora'yı (Kazeh) kervan merkezi sayar; Mirambo devleti 1860-1884.",
   kronoloji:[
@@ -3912,7 +3933,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"fipa-nyakyusa", ad:"Fipa ve Nyakyusa Halkları", tur:"devlet", bolge:"dogu-afrika",
-  f:"1281-01-01", t:"1890-11-04", baskent:"—",
+  f:"1281-01-01", t:"1890-11-04",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Fipa': Fipa 'segmentary' devleti 300-500 yıl önce (Milansi) kurdu; ~1700'de Nkansi ve Lyangalile Milansi'nin yerini aldı. 1281 öncesini DESTEKLEMEZ. Nyakyusa için tarih yok. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"—",
   ozet:"Ufipa platosu ve Nyasa kuzeyinde Fipa ve Nyakyusa halkları. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Ufipa platosu ve Nyasa kuzeyi; Alman Doğu Afrika'ya katıldı.",
   kronoloji:[
@@ -3967,7 +3989,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"kaonde-ila", ad:"Kaonde ve İla Halkları", tur:"devlet", bolge:"dogu-afrika",
-  f:"1281-01-01", t:"1900-01-01", baskent:"—",
+  f:"1281-01-01", t:"1900-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Kaonde': Kaonde bugünkü topraklarına XVI-XVII. yy'da yerleşti ve Lunda'yı üst hükümdar tanıdı; özerk şeflikler XVIII. yy. 1281 öncesini DESTEKLEMEZ; Ila için tarih yok. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"—",
   ozet:"Orta Zambiya'da Kaonde ve İla halkları; merkezî krallık kurmadılar. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Orta Zambiya; Kasempa · Mumbva sahası.",
   kronoloji:[
@@ -3991,7 +4014,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"kenya-kuzey-halklari", ad:"Kuzey Kenya Halkları (Borana · Rendille · Turkana · Somali klanları)", tur:"devlet", bolge:"dogu-afrika",
-  f:"1281-01-01", t:"1895-07-01", baskent:"—",
+  f:"1281-01-01", t:"1895-07-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Turkana': tarih vermez. Borana Oromo yayılması XVI. yy (Vikipedi 'Oromo expansion' · Kenya tarih derlemesi; tek dayanak olamaz). 1281 öncesi için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"—",
   ozet:"Kuzey Kenya'da Borana · Rendille · Turkana ve Somali klanları; merkezî devlet kurmamış pastoral halklar. TDV kenya maddesine dayanır.",
   kaynak:"kenya — TDV gövdesi bu turda okundu. Marsabit · Vacir · Garissa · İsiolo kuşağı; merkezî devlet kurmamış pastoral halklar — tanecik: HALK.",
   kronoloji:[
@@ -4006,7 +4030,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"kamba", ad:"Kamba Halkı", tur:"devlet", bolge:"dogu-afrika",
-  f:"1281-01-01", t:"1895-07-01", baskent:"Kitui",
+  f:"1281-01-01", t:"1895-07-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Kamba': kuruluş tarihi yok; çevrimiçi derlemeler (ourkenya.com) XV. yy'ı söyler — kabul edilebilir kaynak değil. 1281 öncesi için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Kitui",
   ozet:"Kenya'nın iç kesiminde kıyı ile iç bölge arasındaki uzun mesafe ticaretini yürüten Kamba halkı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kitui-Maçakos ticaret sahası.",
   kronoloji:[
@@ -4051,7 +4076,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"manica", ad:"Manica Krallığı", tur:"krallik", bolge:"guney-afrika",
-  f:"1281-01-01", t:"1891-01-01", baskent:"—",
+  f:"1281-01-01", t:"1891-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Manica/Barwe için kabul edilebilir kaynak bulunamadı; çevrimiçi derlemeler (Vikipedi, World History Encyclopedia) Manyika/Barwe'yi Mutapa genişlemesinden (~XV. yy) doğurur. 1281 öncesini DESTEKLEMEZ. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"—",
   ozet:"Mutapa'nın doğu kolu; altın sahalarını denetleyen, Portekiz ile İngiliz nüfuz alanları arasında bölünen krallık. TDV mozambik maddesine dayanır.",
   kaynak:"mozambik — TDV gövdesi bu turda okundu. Mutapa'nın doğu kolu; altın sahası; Portekiz-İngiliz paylaşımı 1891.",
   kronoloji:[
@@ -4136,7 +4162,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"herero", ad:"Herero Halkı", tur:"devlet", bolge:"guney-afrika",
-  f:"1281-01-01", t:"1904-01-12", baskent:"Okahandja",
+  f:"1281-01-01", t:"1904-01-12",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Herero': tarih vermez; Vikipedi Herero'nun XV. yy'da doğudan geldiğini yazar (tek dayanak olamaz), başka kaynak XVIII. yy der. 1281 öncesini DESTEKLEMEZ. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Okahandja",
   ozet:"Orta Namibya'da sığır besiciliğine dayanan, baş şeflerce yönetilen Herero halkı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Okahandja ve Otjimbingve; Alman soykırımı 1904'te başladı.",
   kronoloji:[
@@ -4151,7 +4178,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"nama-orlam", ad:"Nama ve Orlam Kaptanlıkları", tur:"devlet", bolge:"guney-afrika",
-  f:"1281-01-01", t:"1904-10-03", baskent:"Bethanie",
+  f:"1281-01-01", t:"1904-10-03",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Orlam': Orlam'lar XIX. yy başında Kap'tan Namibya'ya geldi; Nama kaptanlıkları aynı çağın ürünü. 1281 öncesini DESTEKLEMEZ (kısaltma adayı: ~1800). f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Bethanie",
   ozet:"Güney Namibya'da Nama ve Orlam kaptanlıkları (Bondelsvarts · Vitbooi · Afrikaner). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Bondelsvarts · Vitbooi · Afrikaner kaptanlıkları; Varmbad · Bethanie · Rehoboth.",
   kronoloji:[
@@ -4167,7 +4195,7 @@ window.DEVLETLER = [
 },
 { id:"xhosa", ad:"Xhosa Krallıkları", tur:"krallik", bolge:"guney-afrika",
   f:"1281-01-01", t:"1878-01-01", baskent:"—",
-  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (18 Ekim 2026, ONCE1281 karar). SAHO: Tshawe hanedanı c.1600; XIII. yy için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te 1281'den bu künyeye bağlı s: dönemi var (sahipsizlik riski); kısaltma s: dönemleriyle birlikte tek commit'te yapılır.",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (18 Ekim 2026, ONCE1281 karar). SAHO: Tshawe hanedanı c.1600; XIII. yy için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te 1281'den bu künyeye bağlı s: dönemi var (sahipsizlik riski); kısaltma s: dönemleriyle birlikte tek commit'te yapılır. | 18 Ekim 2026 yeniden deneme: Britannica 'Xhosa': kuruluş tarihi yok, XVIII-XIX. yy Sınır Savaşları anlatılır; 1281 öncesini DESTEKLEMEZ.",
   ozet:"Doğu Cape'te Gcaleka ve Rharhabe kollarına ayrılan, Hollanda ve İngiliz yayılmasına dokuz sınır savaşıyla direnen krallıklar. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Gcaleka ve Rharhabe kolları; dokuz sınır savaşı 1779-1878.",
   kronoloji:[
@@ -4210,7 +4238,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"betsileo", ad:"Betsileo Krallıkları", tur:"krallik", bolge:"dogu-afrika",
-  f:"1281-01-01", t:"1830-01-01", baskent:"Fianarantsoa",
+  f:"1281-01-01", t:"1830-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Betsileo': çok sayıda özerk klana bölünmüş, XIX. yy başında Merina'ya fethedilmiş; kuruluş tarihi yok. 1281 öncesi için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Fianarantsoa",
   ozet:"Madagaskar'ın güney yaylalarında Betsileo krallıkları; teraslı pirinç tarımıyla tanınırlardı. TDV madagaskar maddesine dayanır.",
   kaynak:"madagaskar — TDV gövdesi bu turda okundu. TDV madagaskar: 'Betsileo — güney yaylaları'; Merina 1830'da ilhak etti.",
   kronoloji:[
@@ -4237,7 +4266,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"antandroy", ad:"Antandroy ve Bara Halkları", tur:"devlet", bolge:"dogu-afrika",
-  f:"1281-01-01", t:"1900-01-01", baskent:"—",
+  f:"1281-01-01", t:"1900-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Antandroy': şefler Hint kökeni iddia eder; Merina ve Sakalava'dan bağımsız kaldılar, 1895 Fransız fethinde beş küçük devlete bölünmüştü; kuruluş tarihi yok. 1281 öncesi için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"—",
   ozet:"Madagaskar'ın kurak güneyinde Antandroy ve Bara halkları; Merina'nın hiç tam hâkim olamadığı kuşak. TDV madagaskar maddesine dayanır.",
   kaynak:"madagaskar — TDV gövdesi bu turda okundu. Güney Madagaskar; Merina'nın hiç tam hâkim olamadığı kuşak.",
   kronoloji:[
@@ -4303,7 +4333,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"tubu-tibesti", ad:"Tibesti Teda (Tubu) Konfederasyonu", tur:"devlet", bolge:"orta-afrika",
-  f:"1281-01-01", t:"1914-01-01", baskent:"Bardaî",
+  f:"1281-01-01", t:"1914-01-01",
+  ic_not_f:"f=1281 EPOK DAMGASI, kuruluş tarihi DEĞİL (ONCE1281 yeniden deneme, 18 Ekim 2026; Britannica tarayıcıyla okundu). Britannica 'Tibesti' yalnız coğrafya/jeoloji; Tubu siyasi tarihi yok. 1281 öncesi Tibesti Teda konfederasyonu için kaynak bulunamadı. f KISALTILMADI: yerlesimler_afrika2.js'te bu künyeye 1281'den bağlı s: dönemi var; f ileri alınırsa Değişmez 1 (sahipsizlik) ihlali olur — kısaltma s: f'leriyle AYNI commit'te, ayrı dalgada yapılmalı.", baskent:"Bardaî",
   ozet:"Tibesti dağlarında Derde unvanlı reisin başında bulunduğu Teda (Tubu) konfederasyonu; Fizan ile Kanem arasındaki kervan yolunu denetler, hiçbir devlete uzun süreli tâbi olmadı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. 🔴 Bu künye, atlasın kendi `Tibesti` beyanıyla ÇELİŞİR: o kayıt 'hiçbir devletin fiilen ulaştığı…' diyor ve `bos:\"kabile\"` taşıyor. Künye yazılırsa o beyan ya kaldırılmalı ya cinsi güncellenmelidir — karar ve o nokta KOORDİNATÖRDE. ⚠️ 1914 yılı sağlam, GÜN kaynaklı değil (`§4`: YYYY-01-01). İtalya Tibesti'yi hiç fiilen tutmadı; Fransız Borku-Ennedi-Tibesti idaresi esas alındı.",
   kronoloji:[
