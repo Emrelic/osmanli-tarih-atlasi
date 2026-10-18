@@ -5766,8 +5766,8 @@ window.KRONOLOJI_GURCISTAN = [
 
 { t:"1555-05-29", b:"Amasya Antlaşması — Gürcistan'ın Osmanlı-Safevî nüfuz bölgelerine bölünmesi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
   etiket:["antlasma","diplomasi","toprak","konu-askeri","konu-diplomasi"],
-  yer_id:"", kapsam_genis:true,
-  d:"Osmanlı ile Safevî arasındaki ilk resmî barış antlaşması Gürcistan'ı da taksim etti: batısı (İmereti ve Kartli'nin bir kısmı) Osmanlı, doğusu (Kaheti ve Kartli'nin çoğu) Safevî nüfuz bölgesi sayıldı. Gürcü tarafının hiç katılmadığı bu taksim, ülkenin kendi rızası dışında iki imparatorluk arasında paylaşılmasının ilk resmî belgesidir.",
+  yer_id:"", kapsam_genis:true, devletler:["OSMANLI","safevi","imereti","megrelya-prensligi","guria-prensligi","gurcistan"],
+  d:"Osmanlı ile Safevî arasındaki ilk resmî barış antlaşması Gürcistan'ı da taksim etti: batısı (İmereti, Megrelya/Dadyan, Güryel ve Kartli'nin bir kısmı) Osmanlı, doğusu (Kaheti ve Kartli'nin çoğu) Safevî nüfuz bölgesi sayıldı. Gürcü tarafının hiç katılmadığı bu taksim, ülkenin kendi rızası dışında iki imparatorluk arasında paylaşılmasının ilk resmî belgesidir.",
   kaynak:"amasya-antlasmasi (TDV, zaten doğrulanmış — bkz. data/kronoloji_iran.js)" },
 
 { t:"1578-08-09", b:"Çıldır Zaferi — Osmanlı ordusu Safevî kuvvetlerini yendi", tur:"savas", onem:5, dunya:3, kapsam:"dis",

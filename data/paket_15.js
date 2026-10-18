@@ -424,6 +424,16 @@ window.OLAYLAR_P0049 = [
   d:"Lala Mustafa Paşa'nın Çıldır'da Safevî öncü kuvvetlerini yenmesinin hemen ardından Gürcü atabeglerinin elindeki topraklar da Osmanlı idaresine geçti. Altunkale ve çevresini tutan Dedis İmedi ile oğulları itaatlerini bildirdiler; Ardahan sancak beyi Çıldır ve Tümük'ü, başka Osmanlı birlikleri de Hırtıs ile Ahılkelek'i aldı. Menûçihr'e ve kardeşine birer sancak bırakıldı, atabeglik ülkesinin geri kalanı doğrudan idareye bağlandı. Ahıska bundan sonra yeni kurulan Çıldır eyaletinin merkezi olacak; İstanbul'a gelip müslüman olan ve Mustafa adını alan Menûçihr 1 Temmuz 1579'da bu eyaletin başına getirilecekti.",
   kaynak:"ahiska · cildir-eyaleti · lala-mustafa-pasa" },
 
+// ── POSTIT-96 — Megrelya (Dadyan) Amasya'da Osmanlı nüfuz bölgesine bırakıldı ──
+{ t:"1555-05-29", k:"antlasma", etiket:["diplomasi","konu-diplomasi"],
+  b:"Megrelya (Dadyan) beyliği Osmanlı nüfuz bölgesine bırakıldı",
+  gun:"29 Mayıs 1555 (Amasya Antlaşması günü)",
+  ic_not_gun:"Gün Amasya Antlaşması'nın günüdür (olaylar.js); TDV gurcistan Dadyan'ın Amasya ile Osmanlı'ya bırakıldığını söyler, ayrı gün vermez. GÜN KOMŞUDAN değil, aynı belgenin günü.",
+  yer:"Zugdidi (Megrelya), Batı Gürcistan", yer_id:"Zugdidi (Megrelya/Odişi merkezi)",
+  kisiler:"",
+  d:"Amasya Antlaşması'nın Gürcistan'ı bölen hükümleriyle Batı Gürcistan'daki Dadyan (Megrel ve Svanet) beyliği, İmereti ve Güryel ile birlikte Osmanlı nüfuz bölgesine bırakıldı. Haritada Megrelya'nın merkezi Zugdidi bu günden itibaren Osmanlı'ya tâbi bir beylik olarak görünür; fiilî itaat bildirimi ise 1578'de gelecekti.",
+  kaynak:"gurcistan (TDV: 'Dadian (Megrel ve Svanet), Güryel, Daveli/Tao-eli Osmanlı Devleti'ne' — Amasya, 1555)" },
+
 // ── A1 devri ② (0021/H-0030) — 1595 Tuna kaleleri ───────────────────
 //   Ayaklanmanın başı ZATEN VAR: olaylar_ek10.js 1594-10-05 (üç voyvodalık)
 //   ve 1594-11-13 (Bükreş, Tuna kalelerine saldırı). Eksik olan, kaynakta
