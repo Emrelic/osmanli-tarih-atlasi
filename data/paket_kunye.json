@@ -881,8 +881,8 @@
    "kaynak": [
     {
      "yol": "data/hukuki_sinirlar.js",
-     "sha": "d1e8eddc650b5fb5",
-     "bayt": 70324
+     "sha": "91e2de139b61e9ba",
+     "bayt": 71115
     },
     {
      "yol": "data/bos_alanlar.js",
@@ -895,7 +895,7 @@
      "bayt": 87496
     }
    ],
-   "bayt": 270901
+   "bayt": 271692
   },
   {
    "paket": "data/paket_17.js",

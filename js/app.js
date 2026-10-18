@@ -9525,6 +9525,10 @@ function _hukukiSinirGuncelle(gun) {
     // (D012). Açık uç, atlasın kendi pencere sonuna kadar (BITIS)
     // geçerli sayılır — bu satırdan sonra veride t:null yazılabilir,
     // 1923-10-29 devralınmasına gerek kalmaz.
+    // 🔴 18 Ekim 2026 — post-it #98 (Emre): "ikili sistem olmamalı" — kaynakla
+    // teyit edilemeyen türetilmiş hat çizilmez, harita boyalı sınırla kalır.
+    // Kayıt veride durur (araştırma kaybolmasın); `cizim_kapali:true` yeter.
+    if (k.cizim_kapali) return false;
     return gunIdx(k.f) <= gun && (k.t == null || gun < gunIdx(k.t));
   });
   // nokta pencereleri (KARARLAR-1014 #48) imzaya girer: kayıt aynı kalırken
