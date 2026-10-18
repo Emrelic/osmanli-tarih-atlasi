@@ -108,7 +108,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "kaynak": "Marciniak vd. 2015, Antiquity 89(343): 56 AMS tarihi — Doğu Höyük'te yerleşim faaliyeti «MÖ 6000 cal BC'den hemen sonra» sona erer",
   "kaynak_turu": "arkeoloji",
   "kesinlik": "yuzyil",
-  "ic_not_d": "«hemen sonrası» = en erken sınır MÖ 6000 yazıldı (bit için EN ERKEN uç, gerçek bitiş birkaç on yıl geç olabilir)."
+  "ic_not_d": "TEK DEĞER (aralık yok): «hemen sonrası» = en erken sınır MÖ 6000 yazıldı (bit için EN ERKEN uç, gerçek bitiş birkaç on yıl geç olabilir)."
  },
  {
   "t": "-6999-01-01",
@@ -144,7 +144,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "kaynak": "Zhang, Harbottle, Wang, Kong 1999, Nature 401 (doi 10.1038/43865): Jiahu yerleşimi yaklaşık MÖ 7000–5700 (kalibrasyon durumu özette belirtilmemiş) (bir başka yayında bitiş 5500: Frontiers ek tablosu)",
   "kaynak_turu": "arkeoloji",
   "kesinlik": "yuzyil",
-  "ic_not_d": "Bitiş için iki kaynak çelişir (5700 / 5500); Nature 1999 esas alındı."
+  "ic_not_d": "TEK DEĞER (aralık yok): Bitiş için iki kaynak çelişir (5700 / 5500); Nature 1999 esas alındı."
  },
  {
   "t": "-5049-01-01",
@@ -180,7 +180,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "kaynak": "Harappa Archaeological Research Project (harappa.com/beas/chronology; Kenoyer): Period 1, Ravi evresi, MÖ 3300 – yaklaşık MÖ 2800",
   "kaynak_turu": "arkeoloji",
   "kesinlik": "yuzyil",
-  "ic_not_d": "KAYNAK ÇELİŞKİSİ: en sık anılan MÖ 3300 yazıldı; alternatifler 3700 / >3500 (aynı site, farklı yayın). Tek değer; orta nokta alınmaz."
+  "ic_not_d": "TEK DEĞER (aralık yok): KAYNAK ÇELİŞKİSİ: en sık anılan MÖ 3300 yazıldı; alternatifler 3700 / >3500 (aynı site, farklı yayın). Tek değer; orta nokta alınmaz."
  },
  {
   "t": "-4555-01-01",
