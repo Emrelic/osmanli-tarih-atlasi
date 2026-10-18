@@ -1,0 +1,6910 @@
+__file__ = 'C:\\atlas-sinav\\arac\\uret_petek.py'
+# -*- coding: utf-8 -*-
+"""
+PETEK MOTORU — yerleşim tabanlı harita üretimi
+==============================================
+Yaklaşım (kullanıcı önerisi):
+  Her şehir/kale/bölge bir PETEK'tir; çevresindeki toprağı temsil eder.
+  Petek sınırları komşu yerleşimlerin tam ortasından geçer (Voronoi), ardından
+  gerçek kıyı çizgisine ve nehir yataklarına yaslanır. Bir yerleşim el
+  değiştirdiğinde peteği bütün olarak el değiştirir → cetvelle çizilmiş köşeli
+  sınır, yapay enklav ve "yarım kalmış bölge" sorunu ortadan kalkar.
+
+Girdi : ../data/yerlesimler.js  (ad, koordinat, hâkimiyet dönemleri)
+        Natural Earth 10m kara + nehir verisi
+Çıktı : ../data/donemler.js     (window.DONEMLER — sitenin okuduğu dosya)
+
+Çalıştırma:  py uret_petek.py
+"""
+# ══════════════════════════════════════════════════════════════════════
+# 🔴🔴 İTHAL KİLİDİ — bu dosyanın TAMAMI modül düzeyinde koşar.
+#
+# Yani `import uret_petek` bir OKUMA değil, 80 DAKİKALIK BİR ÜRETİMDİR.
+# Ve çift koşu kilidi `KOSUYU-SIMDI-BASLAT.bat` içindeydi ⇒ import yolu
+# kilide HİÇ UĞRAMIYORDU. "İki üretim aynı anda koşamaz" garantisi
+# **yoktu**; bu proje dört üretimi tam bu sınıftan kaybetti.
+#
+# DOĞURAN VAKA (16 Ağustos 2026, OPUS HAZIR KITA 8 bildirdi):
+#   Bir işçi oturum `BOLGE` sabitini okumak için betiğinin sonuna
+#   `import uret_petek` yazdı. 23:2x'te tam üretim başladı, 00:59'da
+#   bitti. Oturum ne başlattığını üretim bitene kadar bilmiyordu.
+#
+# ⚠️ VE UYARI ZATEN YAZILIYDI — `arac/uret_altlik.py:29`, bir YORUM
+# satırında: *"`import uret_petek` YAPILMAZ"*. Doğru ders, makinenin
+# göremediği yerde. Bu blok onu bir `if`e çeviriyor.
+# 📌 Sınav tek soru: *bu bilgiyi bir `if` ile sorabiliyor muyum?*
+#
+# Ölçüldü: gerçek import eden alet sayısı **0** — yani bu kilit hiçbir
+# çalışan işi kırmıyor, yalnız kazayı kesiyor.
+if __name__ != "__main__":
+    raise RuntimeError(
+        "uret_petek.py İÇE AKTARILAMAZ — bu modül import edildiği anda "
+        "80 dakikalık ÜRETİMİ başlatır (dosyanın tamamı modül düzeyinde "
+        "koşar). Sabit okumak istiyorsan dosyayı METİN olarak ayrıştır "
+        "ya da değeri arac/girdi.py üzerinden al. Üretimi gerçekten "
+        "başlatacaksan: py arac/uret_petek.py — ve ÖNCE Oturum 0'a sor.")
+# ══════════════════════════════════════════════════════════════════════
+import json, os, sys, io, math, re, time
+# ⚠️ line_buffering=True — AŞAMA ZAMANLAYICISININ ÖN KOŞULU (MOTOR 3).
+# Bu sarmalayıcı varsayılan hâliyle BLOK TAMPONLUDUR: `py -u` ile başlatılsa
+# bile satırlar ancak çıkışta boşalır. Bir kez yaşandı — koşu 4s39dk sürdü ve
+# log dosyası koşu boyunca boş göründü, yani ölçüm körleşti. Tamponlu bir
+# akışta aşama zamanlayıcısı işe yaramaz: bilanço ancak satırlar ANINDA
+# aktığında bilançodur.
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8",
+                              errors="replace", line_buffering=True)
+# 📡 CANLI LOG — M-4533 (18 Eylül 2026). Koşu 13B 24 saatlik zaman aşımına
+# takıldı ve KAÇTA KALDIĞI BİLİNMEDİ: `kos_ve_yayinla.py` motoru
+# `subprocess.run(capture_output=True)` ile koşturuyor ⇒ stdout bir BORUYA
+# gider ve zincir onu ancak süreç BİTİNCE log'a yazar. Yukarıdaki
+# line_buffering boruyu anında boşaltır ama boruyu okuyan yok — zaman aşımında
+# süreç öldürülünce bütün satırlar kayboldu (motor_kara 21:26 · bolgeler.js
+# 22:35 dosya damgalarından okundu, sonrası karanlık).
+# ⇒ Her satır AYRICA kök klasördeki `uretim_canli.log`a SATIR SATIR yazılır
+#   (stderr de — çöküş izi görünsün). Yol `MOTOR_CANLI_LOG` ile değişir.
+#   Çıktı dosyalarına DOKUNMAZ; yalnız görünürlük.
+import threading as _th
+
+
+class _Catal:
+    """Yazılanı iki akışa birden verir; ikincisi (dosya) bozulursa sessizce düşer."""
+    def __init__(self, ana, yan, kilit):
+        self._ana, self._yan, self._k = ana, yan, kilit
+
+    def write(self, s):
+        with self._k:
+            self._ana.write(s)
+            if self._yan is not None:
+                try:
+                    self._yan.write(s)
+                except Exception:
+                    self._yan = None
+        return len(s)
+
+    def flush(self):
+        self._ana.flush()
+        if self._yan is not None:
+            try:
+                self._yan.flush()
+            except Exception:
+                self._yan = None
+
+    def __getattr__(self, ad):
+        return getattr(self._ana, ad)
+
+
+try:
+    _CANLI_YOL = os.environ.get("MOTOR_CANLI_LOG") or os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "..", "uretim_canli.log")
+    _CANLI_F = io.open(_CANLI_YOL, "w", encoding="utf-8", errors="replace", buffering=1)
+except Exception:
+    _CANLI_F = None
+_CANLI_KILIT = _th.RLock()
+sys.stdout = _Catal(sys.stdout, _CANLI_F, _CANLI_KILIT)
+sys.stderr = _Catal(sys.stderr, _CANLI_F, _CANLI_KILIT)
+
+# ══════════════════════════════════════════════════════════════════════
+# 🔒 ÇİFT KOŞU KİLİDİ — A2 (`denetim/BULGU-GEOMETRI-0904.md`)
+# ══════════════════════════════════════════════════════════════════════
+# Kilit `arac/kos_ve_yayinla.py`de VARDI ama ZİNCİRİN kilidiydi: motoru
+# doğrudan (`py arac/uret_petek.py`) başlatan biri onu HİÇ görmüyordu.
+# 🔴 Ve o kilidin kendisinde ÖLÇÜLMÜŞ bir delik var: eskime tavanı
+#    `yas < 240` (4 saat) — koşu 4b **16 saat 09 dakika** sürdü. Dördüncü
+#    saatten sonra başlatılan bir koşu kilidi "takılmış" sayıp DEVRALIRDI.
+#    Tavan bir TAHMİNDİ; ölçüm onu çürüttü. Yeni kilit YAŞA değil SÜREÇ
+#    CANLILIĞINA bakıyor (`arac/kosu_kilit.py`).
+# 📌 Ayrı modülde durmasının sebebi sınanabilirlik: bu dosya içe
+#    aktarılamaz (yukarıdaki `RuntimeError`), yani buraya gömülen bir kilit
+#    ancak 16 saatlik bir üretim başlatılarak denenebilirdi — yani hiç
+#    denenmezdi. Modül `C13`ün dört ayağıyla ayrıca sınandı: 12/12.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import atexit
+import kosu_kilit as _KILIT
+# ⚙️ SÜREÇ İŞÇİSİ (M-4533) — `MOTOR_SUREC_ISCI=N` (N>1) ile ana süreç başta N-1
+# işçi süreç başlatır (aşağıda, anlık görüntüden hemen sonra). İşçi bu dosyanın
+# AYNISIDIR, `MOTOR_SUREC_ISCI_NO` ile tanınır: kilit almaz, damga/çıktı
+# yazmaz, gövde aşamasında kendi payını diske yazıp ÇIKAR.
+_ISCI_NO = os.environ.get("MOTOR_SUREC_ISCI_NO")
+if _ISCI_NO is None:
+    if not _KILIT.al("petek"):
+        sys.exit(1)
+    atexit.register(_KILIT.birak, "petek")
+else:
+    # Ebeveyn ölürse (zaman aşımı `subprocess.run` yalnız ANA süreci öldürür)
+    # işçi yetim kalmasın. ⚠️ Windows'ta os.kill(pid, 0) SÜRECİ ÖLDÜRÜR —
+    # canlılık OpenProcess/GetExitCodeProcess ile sorulur.
+    def _ebeveyn_nobet(pid):
+        import ctypes
+        k32 = ctypes.windll.kernel32
+        while True:
+            time.sleep(30)
+            try:
+                h = k32.OpenProcess(0x1000, False, pid)
+                if not h:
+                    os._exit(3)
+                kod = ctypes.c_ulong()
+                k32.GetExitCodeProcess(h, ctypes.byref(kod))
+                k32.CloseHandle(h)
+                if kod.value != 259:          # STILL_ACTIVE
+                    os._exit(3)
+            except Exception:
+                pass
+    if os.name == "nt" and os.environ.get("MOTOR_SUREC_EBEVEYN"):
+        import threading as _th0
+        _th0.Thread(target=_ebeveyn_nobet, args=(int(os.environ["MOTOR_SUREC_EBEVEYN"]),),
+                    daemon=True).start()
+
+import shapely
+from shapely.geometry import (shape, box, Polygon, MultiPolygon, Point, MultiPoint,
+                              LineString, MultiLineString)
+from shapely.ops import unary_union, voronoi_diagram, nearest_points, linemerge, polygonize
+from shapely.affinity import scale as _scale   # A1 yarıçap tavanı (enlem düzeltmeli elips)
+from shapely.strtree import STRtree
+from shapely.validation import make_valid
+from shapely.prepared import prep
+
+def temiz(q):
+    """Geçersiz halkaları onarır; make_valid'in döndürebileceği çizgi artıklarını atar."""
+    if not q.is_valid: q = make_valid(q)
+    if q.geom_type == "GeometryCollection":
+        q = unary_union([p for p in q.geoms if p.geom_type in ("Polygon", "MultiPolygon")])
+    return q.buffer(0)
+
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# ⚠️ Bu yol bir dönem geçici klasöre (%TEMP%\claude\…\scratchpad\basemaps) bakıyordu.
+# Temp temizlense harita motoru tamamen çalışmaz hâle gelirdi: 567 yerleşimlik veri
+# elde kalır ama haritaya dönüştürülemezdi. Girdi verisi artık depoda; bkz.
+# veri-kaynak/README.md. Yol betiğin konumundan türetilir, makineye bağlı değildir.
+BASEMAPS = os.path.join(KOK, "veri-kaynak")
+CIKTI = os.path.join(KOK, "data", "donemler.js")
+# Kapsam (2 Ağustos 2026 genişletmesi — KARAR-BOLGE-KUTUSU): Batı Avrupa'dan
+# Japonya'ya, Endonezya'dan Kuzey İskandinavya'ya. Kenar gerekçeleri ölçülü:
+#   DOĞU 146: Hokkaido+Sahalin BÜTÜN girer (İş M; 142 Sapporo'nun kendi
+#     adasını bölüyordu, 145 Hokkaido'yu yarım bırakıyordu); Yeni Gine
+#     bölünmesi BİLİNÇLİ kabul (noktasız, hiçbir kenar kapatamıyor, kesik
+#     tarihî 141° Hollanda sınırının yanında — §82 notu).
+#   GÜNEY −11: Endonezya takımadası (24 nokta yalnız Doğu+Güney birlikte
+#     açılınca girer — İş J kenar etkileşimi).
+#   KUZEY 64: Sundsvall+Trondheim girer; 64'ü aşan her derece bugün
+#     getirisiz (İş J: 71'e uzatmak aynı 2 nokta için 3,3 kat pahalı).
+#   BATI −12: değişmedi (lon<−12'de nokta YOK — İş J, bulunamadı).
+# 🔴 KUTU ARTIK DİKDÖRTGEN DEĞİL, "L" — 4 Ağustos 2026, koşu 9.
+# Emre kuzeyi adıyla istedi: *"HARİTANIN KUZEY SINIRI KUZEY KUTUP NOKTASI
+# OLSUN… İZLANDA NORVEÇİN SKARSVAG ADASI MEHAM GAMVİK NOVAYA ZEMLYA
+# SEVERNAYA ZEMLYA RUDOLF İSLAND"*.
+#   · kuzey 64 → 82: yedi yer bununla giriyor (+4,83 mn km², +25.842 köşe)
+#   · İZLANDA girmiyordu: 13°B-24,5°B arasında, batı kenarı −12'ydi
+# ⚠️ AMA BATIYI DÜZ AÇMAK (box(-25,-11,…)) İKİ YENİ HATA AÇIYORDU —
+#    PETEK/NOKTA ölçtü: o şeridin %77'si BATI AFRİKA, İzlanda yalnız %9.
+#      Timbuktu'nun s:/d:/v: üçü de boş  → Senegal-Gambiya beyaz delik
+#      Agadir `fas` taşıyor              → KANARYA ADALARI Fas boyanırdı
+# ⇒ Batı yalnız KUZEYDE açılıyor. L'nin çentik köşesi (−12°D / 60°K) açık
+#   okyanusta; hiçbir peteğe değmiyor (ölçüldü).
+# 📌 Ve kuzey, noktalar HAZIR OLMADAN açılmadı: noktasız açılsa 4,83 mn km²
+#   mevcut peteklere emilir ve Moğolistan'ın Uliastay'ı Arktik Sibirya'yı,
+#   Sapporo Arktik adalarını boyardı (ölçüldü, `CLAUDE.md §2`).
+#   `yerlesimler_ek8.js` (39 nokta, 64,5-80,3°K) bu koşuda birlikte iniyor.
+# ═══════════════════════════════════════════════════════════════════════
+# 🌍 29 AĞUSTOS 2026 — PENCERE BÜTÜN DÜNYAYA AÇILDI
+#     Emre: *"Yapabilirsen tüm dünyayı ekle gitsin… böyle ilerleyelim,
+#            bir görelim bakalım ne çıkacak önümüze, tüm dünyayı açalım."*
+#
+# ESKİ: unary_union([box(-12,-11,146,82), box(-25,60,-12,82)])   (L şekli)
+# YENİ: box(-180, -60, 180, 85)
+#
+# 🔴 `CLAUDE.md §6` bunu YASAKLIYORDU: *"Kars'ın peteği Çin'i, Fas'ınki
+#   Atlantik'i boyar."* O uyarı YAZILDIĞINDA DOĞRUYDU — ama üç koruma o
+#   günden sonra geldi ve ölçüldü:
+#       ADA KURALI (:1731)            gövdeyi karaya kırpar
+#       KARA-KISITLI SAHİPLİK (:1819) Dijkstra KARA ızgarasında yürür,
+#                                     deniz aşırı sahiplik ÜRETİLEMEZ
+#       TAVAN_KM {1:700,2:420,3:280,4:140,0:280}  yarıçap tavanı
+#   Ve doğrudan kanıt koşu 1'in KENDİ BAŞARISIZLIĞINDAN geldi: tavan
+#   uygulanınca kaybolan toprak uzak komşulara EMİLMEDİ, **sahipsiz**
+#   kaldı. Yani emilme korkusu ölçümle çürüdü.
+#
+# ═══ SINIRLAR NİÇİN TAM BU DÖRT SAYI — DÜNYA PENCERE ölçtü ═══
+#   `denetim/BULGU-DUNYA-PENCERE.md` · 2609/2609 nokta içeride
+#
+#   🔴 VE ÖNCE YANLIŞ BİR SINIR SEÇİLECEKTİ. Yalnız NOKTA uç değerlerine
+#     bakılsaydı (-44,0 Yeni Zelanda) *"-50 yeter, ızgarada %7 tasarruf"*
+#     denecekti. Ama `BOLGE` kara maskesini de kesiyor ⇒ noktamız olmayan
+#     kıyı da kesilir:
+#         Tierra del Fuego -55,9  ⇒ -50 GÜNEY AMERİKA'NIN UCUNU KOPARIRDI
+#         Güney Georgia    -54,4      Falkland -51,7
+#         Grönland kuzey ucu 83,6 ⇒ 85 doğru, 83 YETMEZDİ
+#     ⇒ **-60 cömert değil, GEREKLİ.** Sınırı belirleyen NOKTA değil KARA.
+#
+# ═══ ±180 SARMASI — sorulmuş, ölçülmüş, KAYDEDİLMİŞ BORÇ ═══
+#   *"Bir petek 179°D'den 179°B'ye atlayabilir mi?"* — HAYIR, ve ölçülebilir:
+#   bir hücrenin meridyeni atlaması için tek poligonun hem -179 hem +179'da
+#   tepesi olması gerekir; ±5° enlem kuşağında **iki kenara birden dayanan
+#   site: 0**.
+#   🔴 AMA GERÇEK ZARAR BAŞKA — **KOMŞULUK KAYBI**:
+#       Bau (Fiji) 178,57°D ↔ Lapaha (Tonga) -175,12°B
+#       gerçek mesafe 750 km · MOTORUN GÖRDÜĞÜ 353,7 DERECE
+#   Gövdeler doğru çizilir, ama **komşuluk ağı eksik kurulur** — buna
+#   dayanan her şey (renk çakışması, ortak kenar) Pasifik'te yanılır.
+#   ⇒ Bugün etkilenen TEK çift Fiji↔Tonga ⇒ pencere bunun için ERTELENMEZ.
+#   ⚠️ Pasifik'e nokta eklendikçe (Samoa · Hawaii · Aleutlar) BÜYÜR.
+#     **Çözülmesi gereken engel değil, kaydedilmesi gereken borç.**
+#
+# ═══ UYGULANMAYAN: SEYREK BÖLGE EŞİĞİ ═══
+#   DÜNYA PENCERE `SEYREK_ESIK_KM = 300` önerdi (313 nokta, %12,0 etkilenir;
+#   Çin 198 km → K. Amerika 406 km arasında doğal kopma). ⚠️ AMA KENDİSİ
+#   *"uygulamadan önce ölçülmeli"* dedi ve üç ölçmediğini yazdı: N=5
+#   seçiminin duyarlılığı · eşik değerinin (8/6/12) ne olacağı · ölçütün
+#   PETEĞE mi NOKTAYA mı ait olduğu. ⇒ **Uygulanmadı.** Bugünkü koruma
+#   `TAVAN_KM`dir ve o zaten yürürlükte.
+#   📌 Ve bir yan bulgu: çöl ile seyreklik RAKİP DEĞİL, DİK. Sahra "çöl AMA
+#     yoğun" (141 km — 149 dolgu noktası kasten konmuş), Sibirya "çöl DEĞİL
+#     ama seyrek" (505 km). Doğru bileşim `max(...)`, biri ötekini ezmez.
+# ═══════════════════════════════════════════════════════════════════════
+BOLGE = box(14, 43, 26, 50)
+
+# ---------------- Devlet boya tablosu ----------------
+# Yerleşimlerin s alanındaki kimlikler; her devlet haritada kendi renginde
+# ayrı gövde olarak boyanır (Osmanlı d/v aktifken s bastırılır).
+# Devlet renkleri ayrı modülde: arac/renkler.py
+# (renk çalışması ile geometri çalışması aynı dosyaya yazmasın diye ayrıldı)
+from renkler import BOYALAR
+# Yerleşim girdisinin tek okuma noktası — dosya listesi girdi.py'de.
+import girdi
+R_DUNYA = 6371.0088
+
+# ⚠️ ANLIK GÖRÜNTÜ — HER ŞEYDEN ÖNCE, parmak izinden de önce.
+# Bu satırdan sonra motor girdi dosyalarının KOPYASINDAN okur; orijinaller
+# serbesttir ve koşu sırasında değiştirilebilir. Üretim kilidi bu yüzden
+# kalktı — gerekçesi ve ölçümü girdi.py, anlik_goruntu().
+# Damga da burada atılır: TAKİPÇİ bugüne kadar yalnız BİTİŞLERİ görebiliyordu,
+# kilit süresini hesaplayamıyordu.
+import datetime as _dt
+_BASLADI = _dt.datetime.now()
+if _ISCI_NO is None: io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",
+                     ".uretim-basladi"), "w", encoding="utf-8").write(
+    _BASLADI.strftime("%Y-%m-%d %H:%M:%S") + "\n")
+
+# ---------------- AŞAMA ZAMANLAYICISI ----------------
+# ⚠️ NİÇİN VAR (MOTOR 3, 3 Ağustos 2026). 4s41dklık bir koşunun nerede yandığı
+# üç oturum boyunca DOSYA DAMGASINDAN tahmin edildi: bolgeler.js 01:56,
+# devletler_harita.js 05:38. Damga "yazma anı"nı verir, "hesabın başladığı
+# an"ı değil — yani elimizdeki en iyi kanıt bir işaretti, ölçüm değil.
+# Bu blok o tahmini emekliye çıkarır: koşu KENDİ bilançosunu yazar.
+#
+# 📌 Üç ayrı şey ölçülür ve üçü de gerekli:
+#   asama()   — ardışık ana aşamalar; toplamları koşu süresini verir
+#   sayac()   — ÇAPRAZ maliyet: birden çok aşamaya dağılmış tek bir işlev
+#               (kuşatılmışlık üç ayrı aşamadan çağrılıyor; aşama tablosu
+#               tek başına onu ASLA gösteremezdi — 241 dakika üç aşamaya
+#               bölünmüş hâlde görünmez kalırdı)
+#   ilerleme()— uzun döngülerde satır; 3s42dk boyunca tek satır basmayan bir
+#               blok, "takıldı mı bitiyor mu" sorusunu cevaplayamaz
+_T0 = time.time()
+_ASAMA_KAYIT, _SAYAC = [], {}
+_ASAMA_AD, _ASAMA_T, _ASAMA_C = None, _T0, time.process_time()
+
+
+def _sure(s):
+    """Saniyeyi okunur süreye çevirir (1s 23dk 45sn)."""
+    s = int(round(s))
+    if s >= 3600: return f"{s//3600}s {(s%3600)//60:02d}dk {s%60:02d}sn"
+    if s >= 60:   return f"{s//60}dk {s%60:02d}sn"
+    return f"{s}sn"
+
+
+
+# ════ MOTOR-SINAV DÖKÜM KANCASI (salt-okur; yalnız sınav kesitinde) ════
+def _SINAV_DOKUM(_kapanan):
+    import hashlib as _h, json as _j, os as _o
+    _g = globals()
+    _dz = _o.environ.get("SINAV_DOKUM_DIZIN")
+    if not _dz or not _kapanan:
+        return
+    _o.makedirs(_dz, exist_ok=True)
+    _n = _g.setdefault("_SINAV_SAYAC", [0]); _n[0] += 1
+    _Y = _g.get("YERLER") or []
+    _ad = lambda i: (_Y[i]["ad"] if 0 <= i < len(_Y) else str(i))
+    _cik = {"asama": _kapanan, "sira": _n[0]}
+    for _deg in ("PETEK", "PETEK_D"):
+        _L = _g.get(_deg)
+        if isinstance(_L, list) and len(_L) == len(_Y):
+            _d = {}
+            for _i, _p in enumerate(_L):
+                if _p is None:
+                    continue
+                try:
+                    _w = _p.wkb_hex if not _p.is_empty else ""
+                except Exception:
+                    continue
+                if _w:
+                    _d[_ad(_i)] = _w
+            _hs = _h.sha1(_j.dumps(_d, sort_keys=True).encode()).hexdigest()
+            if _g.get("_SINAV_SON_" + _deg) != _hs:
+                _g["_SINAV_SON_" + _deg] = _hs
+                _cik[_deg] = _d
+    _S = _g.get("_kvsahip")
+    if _S is not None and _g.get("_SINAV_IZGARA_YAZILDI") is None:
+        try:
+            _cik["izgara"] = {"x0": _g["_kvx0"], "y0": _g["_kvy0"], "nx": _g["_kvnx"],
+                              "ny": _g["_kvny"], "adim": _g["KV_ADIM"],
+                              "sahip": [(_ad(int(_s)) if int(_s) >= 0 else None) for _s in _S]}
+            _g["_SINAV_IZGARA_YAZILDI"] = 1
+        except Exception as _x:
+            _cik["izgara_hata"] = str(_x)
+    if len(_cik) > 2:
+        _yol = _o.path.join(_dz, "%03d.json" % _n[0])
+        with open(_yol, "w", encoding="utf-8") as _f:
+            _j.dump(_cik, _f, ensure_ascii=False)
+
+def asama(ad=None):
+    _SINAV_DOKUM(globals().get('_ACIK_ASAMA_SINAV'))
+    globals()['_ACIK_ASAMA_SINAV'] = ad
+    """Açık aşamayı kapatır, yenisini açar. ad=None ise yalnız kapatır.
+
+    🔴 DUVAR SAATİ TEK BAŞINA YALAN SÖYLER — 3 Ağustos 2026'da ölçüldü.
+    Koşu 7'nin "Yabancı devlet gövdeleri" aşaması **3s 13dk 34sn** bildirdi;
+    koşu 4-6'da aynı aşama 28-34 dakikaydı. Altı kat. Girdi neredeyse aynıydı
+    (+4 nokta) ve geometri ayrıca ölçüldü: aynı 10 devlet yalıtılmış hâlde
+    **14,5 saniye** sürüyor. Sebep koda ait değildi:
+        Windows Power-Troubleshooter — Uykuya geçiş 20:08:55, uyanma 22:38:45
+        ⇒ makine aşamanın ORTASINDA 2 saat 29 dakika 50 saniye UYUDU
+    `time.time()` duvar saatidir; uykuyu da sayar. Gerçek hesap ~44 dakikaydı.
+    ⚠️ Ve bu, bugünün beşinci "araç yanlış ekseni ölçüyor" vakası — bu sefer
+    ölçen araç bu dosyanın kendisiydi.
+    ⇒ Çare: İŞLEMCİ SÜRESİ de yazılır. İkisi ayrışırsa sebep uyku ya da
+      başka bir sürecin rekabetidir; aşama gerçekten yavaşlamış DEĞİLDİR.
+    """
+    global _ASAMA_AD, _ASAMA_T, _ASAMA_C
+    simdi, simdi_c = time.time(), time.process_time()
+    if _ASAMA_AD is not None:
+        _ASAMA_KAYIT.append((_ASAMA_AD, simdi - _ASAMA_T, simdi_c - _ASAMA_C))
+        _duvar, _cpu = simdi - _ASAMA_T, simdi_c - _ASAMA_C
+        # %60'tan azı işlemcide geçtiyse aşama BEKLEMİŞTİR, çalışmamıştır
+        _not = ("   ⚠️ duvar ≫ işlemci: UYKU ya da REKABET"
+                if _duvar > 60 and _cpu < _duvar * 0.6 else "")
+        print(f"  ⏱ {_ASAMA_AD} — {_sure(_duvar)} "
+              f"(işlemci {_sure(_cpu)}) (koşu {_sure(simdi - _T0)}){_not}")
+    _ASAMA_AD, _ASAMA_T, _ASAMA_C = ad, simdi, simdi_c
+    if ad is not None:
+        print(f"[{_dt.datetime.now():%H:%M:%S}] ▶ {ad}")
+        # 🔴 MOTOR PARMAK İZİ HER AŞAMADA SINANIR — 8 Ağustos 2026'da ölçüldü.
+        # O gün bir koşu **83 dakika** çalıştı ve en sonda reddedildi:
+        #     "MOTOR KODU KOŞU SIRASINDA DEĞİŞTİ: renkler.py"
+        # Doğru hüküm, ama **83 dakika sonra** verildi. Sebep: `motor_izi_dogrula`
+        # yalnız EN SON çağrılıyordu (`donemler.js`ten hemen önce), oysa değişiklik
+        # koşunun **8. dakikasında** olmuştu.
+        # ⇒ Bir nöbetçinin DOĞRU olması yetmiyor, **ZAMANINDA** olması da gerekiyor.
+        #   Geç öten alarm, ötmeyen alarmdan yalnız biraz iyidir.
+        # ⚠️ Aşama başı sınama ucuzdur (birkaç dosyanın özeti) ve en kötü ihtimalle
+        #   bir aşama boyu gecikir — 83 dakika değil.
+        try:
+            girdi.motor_izi_dogrula(_MOTOR_IZI, f"aşama: {ad}")
+        except NameError:
+            pass          # _MOTOR_IZI henüz kurulmadı (ilk aşamalar)
+
+
+def sayac(ad, sn, n=1):
+    """Çapraz sayaç: aşamalara dağılmış bir işlevin toplam maliyeti."""
+    r = _SAYAC.setdefault(ad, [0, 0.0])
+    r[0] += n; r[1] += sn
+
+
+def ilerleme(i, n, her, etiket, kum=None):
+    """Uzun döngüde ilerleme satırı — kalan süre tahminiyle.
+
+    🔴 `kum` VERİLMEZSE TAHMİN DOĞRUSALDIR VE YANILTIR. Yaşandı (3 Ağustos
+    2026): yabancı gövde döngüsünde `devlet 10/226` satırı "tahminî kalan
+    1s 41dk" bastı, gerçek 33dk 41sn çıktı — 3 kat. Koordinatör o satıra
+    bakıp yayın saatini 15:00 diye duyurmaya hazırlanıyordu.
+    Sebep: döngü adımları EŞİT MALİYETLİ DEĞİL. Ölçüldü — ilk 10 devlet
+    gövdelerin %14,7'si ama işin %27,3'ü.
+
+    `kum` = adım başına KÜMÜLATİF iş (uzunluk n+1). Verilirse tahmin işe
+    göre ağırlıklanır.
+
+    ÖLÇÜLMÜŞ İSABET — yeni tahmin kosu3'e GERİYE DÖNÜK uygulandı
+    (gerçek 33,7 dk):
+        adım      doğrusal      iş ağırlıklı
+          10        +215%            −49%
+          20        +421%            −16%
+          30        +440%             +7%
+          40-80  +114…+318%        +4…+5%
+    ⚠️ İLK KONTROL NOKTASI YİNE GÜVENİLMEZ ve sebebi ölçüldü: ilk devletler
+    hücre başına 0,0155 sn ile ilerliyor, kararlı hız 0,0300 — oran ancak
+    ~%25 ilerlemede oturuyor. Yani bu satır "%10'da ne dediyse o" diye
+    okunmaz; **ilk iki satırı atla, üçüncüden itibaren ±%5 güven.**
+    📌 Doğrusal tahminin hiçbir noktada yakınsamadığına dikkat: sorun
+    "erken olması" değildi, ÖLÇÜTÜN YANLIŞ olmasıydı.
+    """
+    if i % her and i != n: return
+    gec = time.time() - _ASAMA_T
+    if kum is not None and kum[n] > 0 and kum[i] > 0:
+        pay = kum[i] / kum[n]
+        kalan = max(gec / pay - gec, 0.0)
+        print(f"      {etiket} {i}/{n}  geçen {_sure(gec)}  iş %{pay*100:.0f}"
+              f"  tahminî kalan {_sure(kalan)}")
+    else:
+        kalan = gec / max(i, 1) * (n - i)
+        print(f"      {etiket} {i}/{n}  geçen {_sure(gec)}  tahminî kalan "
+              f"{_sure(kalan)} ⚠️doğrusal")
+
+
+# 💓 NABIZ — M-4533. Uzun iç döngülerde (devlet başına gövde günleri, Osmanlı
+# kırılmaları, saat matrisi) en çok `MOTOR_NABIZ_SN` saniyede (varsayılan
+# 300) bir satır: saat · koşu süresi · aşama süresi · nerede olduğu.
+# 📌 `ilerleme()` FAZ 2'de devlet BİTİNCE basar; tek bir devlet (rusya,
+#    aşamanın ~%22'si) saatlerce sürebildiği için o arada log susuyordu.
+#    Nabız FAZ 1'in İÇİNDEN (iş parçacıklarından) atar; kilitli, en çok bir satır.
+_NABIZ_ARALIK = float(os.environ.get("MOTOR_NABIZ_SN", "300"))
+_NABIZ_SON = [time.time()]
+_NABIZ_KILIT = _th.Lock()
+
+
+def nabiz(etiket):
+    simdi = time.time()
+    if simdi - _NABIZ_SON[0] < _NABIZ_ARALIK:
+        return
+    with _NABIZ_KILIT:
+        if simdi - _NABIZ_SON[0] < _NABIZ_ARALIK:
+            return
+        _NABIZ_SON[0] = simdi
+    print(f"    💓 [{_dt.datetime.now():%H:%M:%S}] koşu {_sure(simdi - _T0)} · "
+          f"{_ASAMA_AD} {_sure(simdi - _ASAMA_T)} · {etiket}", flush=True)
+
+
+def asama_ozet():
+    """Sonda ÖZET TABLO: aşama · süre · toplam içindeki payı."""
+    asama(None)
+    top = time.time() - _T0
+    print("\n" + "=" * 64)
+    print(f"AŞAMA BİLANÇOSU — koşu {_sure(top)} "
+          f"(işlemci {_sure(time.process_time())})")
+    print(f"  {'aşama':<38} {'duvar':>11} {'işlemci':>11}   pay")
+    print("=" * 64)
+    for ad, sn, cp in _ASAMA_KAYIT:
+        _im = " ⚠️uyku/rekabet" if sn > 60 and cp < sn * 0.6 else ""
+        print(f"  {ad[:38]:<38} {_sure(sn):>11} {_sure(cp):>11}  "
+              f"%{sn/top*100:4.1f}{_im}")
+    olculen = sum(s for _, s, _c in _ASAMA_KAYIT)
+    print(f"  {'(aşama dışı: kurulum/import)':<44} "
+          f"{_sure(top - olculen):>12}  %{(top-olculen)/top*100:4.1f}")
+    if _SAYAC:
+        print("-" * 64)
+        print("  ÇAPRAZ SAYAÇ — yukarıdaki aşamaların İÇİNDE geçen süre")
+        print("  (toplama EKLENMEZ; hangi aşamada olduğu değil, NE OLDUĞU)")
+        for ad, (n, sn) in sorted(_SAYAC.items(), key=lambda x: -x[1][1]):
+            print(f"  {ad[:34]:<34} {n:>7} çağrı {_sure(sn):>12}  "
+                  f"%{sn/top*100:4.1f}")
+    print("=" * 64)
+
+
+# 🔴 KÜNYE ANLIK GÖRÜNTÜDEN **ÖNCE** OKUNUR — VE BU BİR ÇÖKÜŞÜN ÇARESİ.
+# 25 Ağustos 2026: boya anahtarının `harita:`ya düşmesi eklendi ve künye
+# okuması `anlik_goruntu()`dan SONRAYA konuldu. Koşu 20 SANİYEDE ÖLDÜ:
+#     !! devletler.js bulunamadı: …\petek_girdi_6z_zdbaj\devletler.js
+# Sebep: `anlik_goruntu()` yalnız `GIRDI_DOSYALARI`nı (56 yerleşim dosyası)
+# kopyalar ve `girdi.DATA`yı o geçici dizine çevirir. `devletler.js` bir
+# YERLEŞİM girdisi değil, o yüzden kopyaya HİÇ girmiyor.
+# ⇒ Künye, `girdi.DATA` hâlâ gerçek `data/`yı gösterirken okunuyor.
+# 🟢 Ve iyi ki 20 saniyede öldü: aynı hata koşunun içinde olsaydı 4,5 saat
+#    sonra görülürdü. `girdi.py`nin "SESSİZ SIFIR YASAK" kuralı (bulamazsa
+#    boş liste değil `SystemExit`) tam da bunun için var.
+_HARITA_ALT = {}
+try:
+    for _k in girdi.oku_devletler():
+        _kid, _kh = _k.get("id"), _k.get("harita")
+        if _kid and _kh:
+            _HARITA_ALT[_kid] = _kh
+    print(f"  künye okundu: {len(_HARITA_ALT)} kimlikte `harita:` alanı var")
+except BaseException as _e:
+    # ⚠️ `SystemExit` DE YAKALANIYOR ve gerekçesi ölçülü: `harita:` düşüşü
+    #    bir ZENGİNLEŞTİRME, koşunun ÖN ŞARTI değil (ölçüldü: bugünkü
+    #    kayıtlardan değişen 0). Onun yüzünden 4,5 saatlik bir koşuyu
+    #    öldürmek, orantısız bir ceza olur.
+    #    Ama SESSİZ de geçilmiyor — uyarı basılıyor, çünkü düşüş devre dışı
+    #    kalırsa bazı gövdeler çizilmez ve sebebi görünmez olurdu.
+    print(f"  ⚠️ UYARI boya: künye okunamadı ({type(_e).__name__}) — "
+          f"`harita:` düşüşü DEVRE DIŞI, ham `d:` kullanılacak")
+
+asama("Girdi anlık görüntüsü")
+girdi.anlik_goruntu()
+# ⚙️ SÜREÇ PARALELLİĞİ — M-4533 (18 Eylül 2026). NİÇİN: "Yabancı devlet
+# gövdeleri" koşunun %81'i (koşu 12: 15s36dk / 19s08dk) ve iş parçacığı
+# paralelliği ORADA ÇALIŞMIYOR — bilançoda duvar 15s35dk ≈ işlemci 15s03dk,
+# yani 4 iş parçacığı ortalama TEK çekirdek kullanıyor (GIL; ölçüm koşu 13C
+# canlı: 0,79 çekirdek). Süreç GIL'i paylaşmaz. Windows'ta fork yok ⇒ işçi
+# motoru BAŞTAN koşar (ön aşamalar ~1,5-3 saat, AYNI ANDA, başka çekirdekte —
+# duvar saatine eklenmez) ve gövde aşamasına varınca kendi payını hesaplar.
+# 🔴 BELLEK: her işçi ana süreç kadar bellek ister (~2-3 GB). N'yi boş RAM'e
+#    göre seç (12 GB makinede N=3).
+# 🔴 BİT DENKLİĞİ: işçinin sonucu, ÖN AŞAMA PARMAK İZİ (YERLER · BOYALAR ·
+#    PETEK_D WKB · ızgara sahipliği · bayraklar · motor izi) ana süreçle
+#    AYNIYSA kabul edilir; değilse ya da işçi ölmüşse o devleti ana süreç
+#    KENDİSİ hesaplar ⇒ en kötü hâl eski hız, yanlış çıktı değil.
+_SUREC_ISCI = max(1, int(os.environ.get("MOTOR_SUREC_ISCI", "1") or "1"))
+# ♻️ KALDIĞI YERDEN DEVAM — M-4535 (Emre, 18 Eyl: "hiçbir koşu bir daha çöpe
+# gitmeyecek"). `MOTOR_DEVAM=1` ile gövde aşamasının devlet başına FAZ 1 sonucu
+# `<kök>/_petek_devam/<ön aşama izi>/` altında KALICI tutulur (dizin
+# `MOTOR_DEVAM_DIZIN` ile değişir). Ölen koşu aynı girdi + aynı kodla yeniden
+# başlatılınca iz AYNI çıkar ve hazır devletler diskten okunur; girdi ya da kod
+# değiştiyse iz de değişir ⇒ eski sonuç ASLA karışmaz. Dizin koşu başarıyla
+# bitince silinir. ⚠️ Ön aşamalar (~1,5-3 saat) yine koşar — devam eden yalnız
+# koşunun %81'i olan gövde aşamasıdır.
+_DEVAM = os.environ.get("MOTOR_DEVAM") == "1"
+if os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
+    _SUREC_ISCI = 1
+    _DEVAM = False
+_SUREC_YOLU = _SUREC_ISCI > 1 or _DEVAM
+_SUREC_DIZIN = os.environ.get("MOTOR_SUREC_DIZIN")
+_SUREC_COCUK = []
+if _ISCI_NO is None and _SUREC_ISCI > 1:
+    import subprocess as _sp, tempfile as _tf
+    _SUREC_DIZIN = _tf.mkdtemp(prefix="petek_surec_")
+    _sr_betik = os.environ.get("MOTOR_ISCI_BETIK") or os.path.abspath(__file__)
+    _sr_kok = os.path.dirname(os.path.abspath(
+        globals().get("_CANLI_YOL") or os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "x")))
+    for _k in range(1, _SUREC_ISCI):
+        _env = dict(os.environ, MOTOR_SUREC_ISCI_NO=str(_k), MOTOR_SUREC_DIZIN=_SUREC_DIZIN,
+                    MOTOR_SUREC_EBEVEYN=str(os.getpid()),
+                    MOTOR_CANLI_LOG=os.path.join(_sr_kok, f"uretim_isci_{_k}.log"))
+        _SUREC_COCUK.append(_sp.Popen([sys.executable, _sr_betik], env=_env, cwd=os.getcwd(),
+                                      stdin=_sp.DEVNULL, stdout=_sp.DEVNULL, stderr=_sp.DEVNULL))
+
+    def _sr_temizle():
+        for _c in _SUREC_COCUK:
+            if _c.poll() is None:
+                try:
+                    _c.kill()
+                except Exception:
+                    pass
+    atexit.register(_sr_temizle)
+    print(f"  ⚙️ SÜREÇ PARALELLİĞİ: {_SUREC_ISCI - 1} işçi süreç başlatıldı "
+          f"(pid {[c.pid for c in _SUREC_COCUK]}) · ara dizin {_SUREC_DIZIN} · "
+          f"işçi logları uretim_isci_<k>.log")
+elif _ISCI_NO is not None:
+    print(f"  ⚙️ SÜREÇ İŞÇİSİ {_ISCI_NO}/{_SUREC_ISCI - 1} — ara dizin {_SUREC_DIZIN}")
+
+# ⚠️ KOŞU BEKÇİSİ — parmak izi anlık görüntüden SONRA, kopyadan alınır.
+# Sıra kritik: göller (goller.js) yerleşimlerden ÖNCE okunuyor, bu yüzden iz
+# yerleşim okumasının yanında alınamaz — o noktada goller.js çoktan okunmuş
+# olurdu ve arada değişse bekçi yanlış tarafa düşerdi (değişmiş veriyi okuyup
+# "değişmemiş" derdi). Gerekçe ve bugünkü canlı vaka: girdi.py, parmak_izi().
+# 📌 Artık kopyadan alındığı için bekçi pratikte hiç ateşlemez — ama ANLAMI
+# kalır ve daha da güçlenir: "yazdığım şey, okuduğum şeyden geldi."
+# Ve `URETIM_IZI`e yazılan iz KOPYANIN izidir, yani koşunun GERÇEKTEN okuduğu
+# hâl; diskteki hâl değil (o koşu boyunca değişebilir).
+_GIRDI_IZI = girdi.parmak_izi()
+# ⚠️ MOTOR İZİ DE BAŞTA — 1 Ağustos 2026'da bulundu. Eskiden çıktı yazılırken
+# diskten okunuyordu; koşu sırasında `renkler.py` değişse süreç etkilenmez
+# (kod başta belleğe alınır) ama DAMGA etkilenirdi: koşunun çalıştırmadığı
+# kodun özeti yazılırdı. Aşağıda GİRDİ için yazılmış olan gerekçe, koda
+# uygulanmamıştı.
+_MOTOR_IZI = girdi.motor_izi()
+
+# ---------------- ① EĞİM ÇARPANI — DEM'in ERKEN SINAVI ----------------
+# `ALTYAPI ①` · ölçüm: denetim/EGIM-CARPANI-OLCUM.md (`T-0112`, 15 Ağustos 2026)
+#
+# Motorun KARA-KISITLI SAHİPLİK Dijkstra'sı (:1515) bugüne kadar AĞIRLIKSIZDI:
+# adım bedeli yalnız kilometreydi, dağ ile ova aynı fiyattaydı. 44 gerçek kara
+# seferi güzergâhı üzerinde ölçüldü — her sefer için A→B en ucuz yol hesaplanıp
+# gerçek rotaya sapması alındı:
+#     çarpan 0,000   ort 88,2 km  medyan 52,7   ← eğim SAYILMIYOR
+#     çarpan 0,005   ort 71,9 km  medyan 36,4   ← EN İYİ (−%18,5 / −%30,9)
+#     çarpan 0,05+                              ← kötüleşiyor
+#
+# 🔴 VE ÖLÇÜMÜN SINIRI DA KAYITLI: EĞRİ DÜZ. 0,005 ile 0,1 arası yalnız 5,5 km —
+# 20 kat büyüyen bir çarpan sonucu %8 değiştiriyor. Ölçüm "çarpan TAM OLARAK
+# 0,005'tir" DEMİYOR; dediği şu: **sıfır olmamalı** · 0,005-0,02 ayırt edilemiyor
+# · 0,05 üstü kötüleşiyor. Bu sayıyı "ince ayarlamak" gürültüyü kalibre etmek
+# olur — güzergâh verisi kaba (3-6 düğüm) ve ordular en ucuz yolu değil
+# STRATEJİK yolu izler. YAPMA.
+EGIM_CARPANI = 0.005
+
+# 🔴 NİÇİN SÜRTÜNME DEM'DEN, KARA/DENİZ KARARI MASKEDEN — koordinatör kararı
+# (M-0126, "A yolu"). `maliyet.py` prototipi kara/deniz kararını da DEM'e
+# (`z > 0`) sorabiliyor ve o daha tutarlı olurdu; ama motorun maskesi
+# `motor_kara.geojson`dur ve ikisi AYRIŞIYOR — prototipin kendi `kara_farki()`
+# ölçümü bunu zaten söylüyor. Bugün ikisini birden değiştirmek koşuyu İKİ
+# DEĞİŞKENLİ yapardı ve `A1 tavanı` vakası tam bunun bedelini ölçtü: düzeltme
+# doğruydu, sonraki aşama geri aldı, ve hangi aşamanın ne yaptığı ancak tek
+# değişken sabitken görülebildi.
+# ⏸️ B YOLU (kara tanımını da DEM'e taşımak) ERTELENDİ — sebebi tek değişken
+#    kuralı, ölçüm değil. Bu bir BORÇTUR ve kayıtsız kalırsa yarın kusur diye
+#    yeniden keşfedilir; kaydı burada ve denetim/EGIM-ONGORU.md'dedir.
+#
+# ⚠️ GRADYAN HAM z ÜZERİNDE ALINIYOR — batimetri dâhil, ve bu KASITLI.
+#    `egim_olc.py:100` kalibrasyonu da öyle yapıyordu; değiştirseydik 0,005
+#    başka bir yüzeyde ölçülmüş bir sayı hâline gelirdi. Şüphe ölçüldü:
+#        kıyı şeridi medyan sürtünme 1,204 · iç bölge 1,117 · maks 8,25/11,03
+#    ⇒ kıyıda şişme VAR ama marjinal. Ölçülmüş şüphe, ölçülmemiş temizlikten
+#      iyidir; kayıt burada duruyor.
+#
+# 🔴 DEM YOKSA KOŞU ÖLÜR — ve bu, sessizce eğimsiz koşmaktan İYİDİR.
+#    `§11`: "ölçemediğini eleyen bir süzgeç, onu temiz sayar." Eğimsiz koşan bir
+#    motor kusursuz bir harita üretir, bütün denetimler temiz raporlar, ve
+#    kimse peteklerin eğimsiz çizildiğini ANLAMAZ. DEM `.gitignore:15` ile depo
+#    dışında (183 MB); tek komutla geri gelir.
+# ⚠️ VE SINAV BURADA, KOŞUNUN BAŞINDA — 30. dakikada değil. `motor_izi`
+#    vakasının dersi: "bir nöbetçinin DOĞRU olması yetmiyor, ZAMANINDA olması
+#    da gerekiyor. Geç öten alarm, ötmeyen alarmdan yalnız biraz iyidir."
+EGIM_DEM = None
+if os.environ.get("MOTOR_EGIMSIZ"):
+    # Açık, kayıtlı, KARARLA verilmiş bir vazgeçiş — kaza değil.
+    EGIM_CARPANI = 0.0
+    print("  🔴 MOTOR_EGIMSIZ=1 — EĞİM ÇARPANI KAPATILDI (çarpan 0,000).")
+    print("     Bu koşunun sahipliği eğimsiz hesaplanacak. KARARLA yapıldı;")
+    print("     çıktının damgasına yazılır ki bir sonraki oturum bilsin.")
+elif EGIM_CARPANI > 0:
+    import yukseklik as _yk
+    for _a in ("etopo2022_30s_dunya.tif", "etopo2022_30s_atlas.tif"):
+        _y = os.path.join(BASEMAPS, "yukseklik", _a)
+        if not os.path.exists(_y):
+            continue
+        _tam, _neden = _yk.tam_mi(_y)
+        if _tam:
+            EGIM_DEM = _y
+            print(f"  eğim DEM: {_a} · {_neden}")
+            break
+        print(f"  ⚠️ {_a} ATLANDI — {_neden}")
+    if EGIM_DEM is None:
+        raise SystemExit(
+            "EGIM DEM YOK ya da YARIM. Kosu baslamadan durduruldu.\n"
+            "  arananlar: veri-kaynak/yukseklik/etopo2022_30s_dunya.tif\n"
+            "             veri-kaynak/yukseklik/etopo2022_30s_atlas.tif\n"
+            "  CARE : py arac/yukseklik_indir.py\n"
+            "  ya da: MOTOR_EGIMSIZ=1 py arac/uret_petek.py  (KARARLA egimsiz kos)\n"
+            "  NICIN OLDURUYORUM: egimsiz kosan motor kusursuz gorunen bir\n"
+            "  harita uretir ve HICBIR denetim bunu gormez. Sessiz bayat\n"
+            "  cikti, gurultulu bir olumden pahalidir.")
+
+# ---------------- Kara maskesi ----------------
+# KARA_TOL: kıyı çizgisinin sadeleştirme toleransı (derece). Bütün gövdeler
+# kıyıyı EN SON ve bu tek maskeden aldığı için kıyı hassasiyetini tek başına
+# bu sayı belirler. 0.004 ≈ 440 m Çanakkale gibi dar boğazları genişletiyordu
+# (B-12); 0.002 ≈ 220 m ile maske köşe sayısı yalnız %33 artar (36,2k → 48,3k)
+# ve parça havuzu sayesinde dosya bütçesine sığar — ölçüm: denetim/OTURUM-8 raporu.
+KARA_TOL = 0.002
+asama(f"Kara maskesi (Natural Earth 10m, tolerans {KARA_TOL})")
+_ne = json.load(open(os.path.join(BASEMAPS, "ne_10m_land.geojson"), encoding="utf-8"))
+KARA = unary_union([shape(f["geometry"]).buffer(0).intersection(BOLGE)
+                    for f in _ne["features"] if shape(f["geometry"]).envelope.intersects(BOLGE)])
+KARA = KARA.buffer(0).simplify(KARA_TOL, preserve_topology=True).buffer(0)
+print("  tamam")
+
+# ---------------- Göller ----------------
+# Kural: iki yerleşim arasında göl varsa sınır göldür. Büyük göller kara
+# maskesinden çıkarılır → petekler göl kıyısında biter, göl doğal sınır olur
+# (Van, Urmiye, Tuz, Beyşehir, Ohri, İşkodra, Balaton...). delikleri_doldur
+# sonrası .intersection(KARA) gölleri yeniden oyduğu için deliğe dönüşmezler.
+# ⚠️ MODERN BARAJ GÖLLERİ ÇIKARILMAZ — hatalar 5.docx madde 1
+# Kullanıcı: "Antalya İçel çukurovadaki boşluklar eğer gerçek değil ise
+# düzeltilmeli... Aynı şey tuz gölünde de var." Ölçüldü: 1595'te Anadolu
+# güneyinde Osmanlı olmayan TEK kara hücresi yok; oradaki üç boşluk Eğirdir,
+# Beyşehir ve Tuz gölleridir — üçü de gerçek, kasıtlı. AMA aynı ölçüm, gerçek
+# OLMAYAN dokuz boşluk ortaya çıkardı: Natural Earth'ün göl katmanı 20. yüzyıl
+# BARAJ göllerini de taşıyor ve bunlar 1281-1923 atlasında delik açıyordu:
+#   Nâsır gölü (Asvan 1970) Nûbe'de · Keban 1974 · Karakaya 1987 · Atatürk 1992
+#   Esed gölü (Tabka 1974) · Tharthâr 1956 · Habbâniye 1956 · Mingeçevir 1953
+#   Dinyeper zinciri (Kiev 1964, Kahovka 1956, Kremençug 1959, Dniprodzerjinsk)
+# Bunlar artık maskeden çıkarılmıyor; yerleri kara sayılıyor.
+# featurecla=="Reservoir" tek başına yetmiyor: NE, Mjøsa · Ilmen · Kubenskoye
+# gibi DOĞAL gölleri de üzerlerindeki regülatör yüzünden "Reservoir" etiketler.
+# Ölçüt: Reservoir + (yıl ≥ 1900 ya da baraj adı var) → çıkarılmaz;
+# aşağıdaki DOGAL_GOL kümesi bu ölçütün yanlış yakaladığı doğal gölleri kurtarır.
+DOGAL_GOL = {"Lake Il'Men'", "Ozero Kubenskoye", "Mjøsa", "Kostroma Reservoir"}
+asama("Göller")
+GOLLER = None
+try:
+    _gl = json.load(open(os.path.join(BASEMAPS, "ne_10m_lakes.geojson"), encoding="utf-8"))
+    _gs, _baraj = [], []
+    for f in _gl["features"]:
+        p = f["properties"]
+        g = shape(f["geometry"]).buffer(0)
+        if not (g.envelope.intersects(BOLGE) and g.area > 0.02):
+            continue
+        _ad = p.get("name") or "(adsız)"
+        _yil = p.get("year") or -99
+        if (p.get("featurecla") == "Reservoir" and _ad not in DOGAL_GOL
+                and (_yil >= 1900 or p.get("dam_name"))):
+            _baraj.append(f"{_ad} ({_yil if _yil > 0 else 'yıl?'})")
+            continue
+        g = g.intersection(BOLGE)
+        if not g.is_empty: _gs.append(g)
+    # ⚠️ TARİHÎ GÖL DÜZELTMELERİ — baraj kuralının AYNADAKİ HÂLİ
+    # Yukarıdaki baraj kuralı maskeye FAZLA su girmesini engeller (1960'ta
+    # yapılmış göl 1500 haritasında delik açmasın). Buradaki düzeltme EKSİK
+    # suyu tamamlar: tarihte var olan ama modern katmanda kurumuş göller.
+    # Ölçüldü (2026-07-30, Oturum 16): Natural Earth Aral'ı kuruma sonrası üç
+    # artık parça olarak taşıyor (South Aral 3.392 + North Aral 2.952 +
+    # Barsakelmes 235 = 6.579 km²); tarihî göl 73.666 km². Aradaki
+    # 67.087 km² bugün KARA sayılıyor ve tamamını TEK petek yutuyor: KÜNGRAT.
+    # Yani Hîve Hanlığı haritada gölün üstüne taşıyor. Oturum 11'in bulgusu,
+    # Oturum 15'in poligonu (data/goller.js), ölçüm bu oturumda doğrulandı.
+    for _eg in girdi.oku_goller():
+        _g = shape(_eg["geometry"]).buffer(0).intersection(BOLGE)
+        if not _g.is_empty: _gs.append(_g)
+    GOLLER = unary_union(_gs).buffer(0).simplify(0.01, preserve_topology=True).buffer(0)
+    KARA = KARA.difference(GOLLER).buffer(0)
+    print(f"  {len(_gs)} büyük göl kara maskesinden çıkarıldı")
+    print(f"  {len(_baraj)} MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):")
+    for _b in sorted(_baraj): print(f"      {_b}")
+except Exception as e:
+    print("  göl verisi yok:", e)
+
+# ---------------- Nehir yatakları ----------------
+asama("Nehir yatakları")
+BUYUK = {"Danube","Duna","Dunav","Sava","Drava","Tisza","Tisa","Morava","Dniester",
+         "Dnipro","Dnieper","Prut","Southern Bug","Don","Kuban","Firat","Al Furat",
+         "Euphrates","Dijlah","Tigris","Murat","Kura","Aras","Nile","Bahr el Nil",
+         "Maritsa","Meric","Vardar","Struma","Sakarya","Kizilirmak","Yesilirmak",
+         "Seyhan","Ceyhan","Jordan","Orontes","Buyuk Menderes","Gediz",
+         # --- Anadolu beylik sınırlarını taşıyan akarsular (kullanıcı talebi:
+         # sınırlar cetvelle değil coğrafyayla çizilsin). Natural Earth'te adı
+         # geçmeyenler sessizce atlanır, fazladan isim zarar vermez. ---
+         "Kucuk Menderes","Kücük Menderes","Menderes","Maeander","Meander",
+         "Bakircay","Caicus","Susurluk","Simav","Kocacay",
+         "Porsuk","Aksu","Kopru","Koprucay","Dalaman","Esen","Xanthos",
+         "Goksu","Calycadnus","Coruh","Kelkit","Devrez","Filyos","Yenice",
+         "Buyuk Zap","Great Zab","Kucuk Zab","Little Zab","Habur","Khabur",
+         "Balikh","Asi","Berdan","Tarsus","Manavgat","Bartin","Gonen","Granicus",
+         # --- YEREL YAZIMLAR (COĞRAFYA'nın bulgusu, mekanizması ölçülerek
+         # düzeltildi). Natural Earth aynı nehri parça parça FARKLI ADLA
+         # kaydediyor ve parçaların rivernum'ı bile ayrı:
+         #     name='Dicle'  rivernum=120        name='Tigris' rivernum=135
+         # Motor "Tigris" parçasını yaslıyordu, "Dicle" parçasını yaslamıyordu.
+         # ⚠️ COĞRAFYA bunu "name_alt okunmuyor" diye teşhis etmişti; ölçtüm,
+         # İKİ KAYDIN DA name_alt ALANI BOŞ — o yama bu vakayı çözmezdi.
+         # Sebep listenin kendisiydi: Tigris vardı, Dicle yoktu. Aynı sınıfta
+         # üç isim daha (karşılıkları listede olduğu hâlde yerel yazımı yok).
+         "Dicle","Donau","Tuna","Evros","Drau"}
+def _ad_sadelestir(s):
+    """Nehir adlarını karşılaştırılabilir hâle getirir. Natural Earth dosyasındaki
+    Türkçe adlar bozuk kodlanmış ('Byk Menderes', 'Kiz?lirmak'); harfi harfine
+    karşılaştırma yüzünden Büyük Menderes ve Kızılırmak gibi iki büyük sınır
+    nehri sessizce devre dışı kalıyordu. Alfabe dışı her şey atılıp küçük harfe
+    indirilerek eşleşme sağlanır."""
+    return "".join(c for c in s.lower() if c.isalpha())
+
+BUYUK_SADE = {_ad_sadelestir(b) for b in BUYUK}
+# Bozuk kodlanmış hâlleri de tanı (ü/ı düşmüş varyantlar)
+BUYUK_SADE |= {"bykmenderes", "kizlirmak", "kiziirmak", "kckmenderes",
+               "yesiirmak", "bakiray", "kprüay", "kopruay", "gksu"}
+
+# Nehir önem eşiği — Natural Earth `scalerank`. Ölçüm gerekçesi aşağıda.
+NEHIR_ONEM_ESIGI = 5.0
+
+# ② NEHİR GEÇİŞ BEDELİNİN SINIFI (MOTOR · DALGA-0052 · 16 Eylül 2026)
+# Kapıdan geçen her parça ayrıca bir BEDEL SINIFI taşır. Kapı DEĞİŞMEDİ —
+# yaslama kümesi aynı; sınıf yalnız Dijkstra kenar bedelini seçer (§② aşağıda).
+#   sınıf 1  scalerank ≤ 3  YA DA araştırılan 16 nehirden biri
+#   sınıf 2  kapıdan geçen öteki her parça (scalerank 4-5 · yalnız ad listesi)
+# 🔴 NİÇİN scalerank TEK BAŞINA DEĞİL — ölçüldü: scalerank bir kartografik
+#    sıradır, genişlik/debi değil (`denetim/ARASTIRMA-NEHIR-0912.md` ⑤: 72
+#    çiftin %38'inde sıra TERS · Sava 7 / Fırat 3). 16 nehrin debisi
+#    `denetim/NEHIR-GECIS-SURE-0915.md` ⑤'te kaynaklı; hepsi teknesiz
+#    geçilemeyen mertebede (Aras yazın kısmen hariç) ⇒ sınıf 1'e ADIYLA girer,
+#    scalerank'leri 7-8 olsa bile (Prut · Sava · Evros · Aras · Kura · Sakarya).
+# ⚠️ Adlar `ne_10m_rivers` içinde ÖLÇÜLDÜ (16 Eylül): Danube/Donau 2 · Nile 1 ·
+#    Euphrates/Firat 3 · Volga 3 · Tigris/Dicle 4 · Dnipro 4 · Don 6 · Drava/Drau
+#    6-7 · Tisa 6 · Prut 7 · Sava 7 · Evros 7 · Kiz?lirmak 7 · Aras 8 · Kura 8 ·
+#    Sakarya 8. Aranıp BULUNAMAYAN yazımlar kümede zararsız duruyor.
+NEHIR_SINIF1_SR = 3.0
+NEHIR_SINIF1_ADLAR = {
+    "danube", "donau", "duna", "dunav", "dunarea", "tuna", "sava", "drava", "drau",
+    "tisza", "tisa", "prut", "dnipro", "dnieper", "dnepr", "don", "volga",
+    "euphrates", "firat", "alfurat", "tigris", "dicle", "dijlah", "nile", "bahrelnil",
+    "aras", "araks", "kura", "kizilirmak", "kizlirmak", "kiziirmak", "sakarya",
+    "maritsa", "meric", "evros"}
+
+NEHIRLER = []
+NEHIR_SINIFI = []          # NEHIRLER ile AYNI SIRADA: her parçanın bedel sınıfı
+_bulunan = set()
+try:
+    _rv = json.load(open(os.path.join(BASEMAPS, "ne_10m_rivers.geojson"), encoding="utf-8"))
+    for f in _rv["features"]:
+        pr = f["properties"]
+        # ⚠️ `name_alt` DE OKUNUR — ikinci ve AYRI bir kaçak yolu. Natural Earth
+        # bazı parçaları yerel adla kaydedip asıl adı name_alt'a koyuyor
+        # (Mur → name_alt="Drava"). Yukarıdaki yerel-yazım eklemeleri bu vakayı
+        # ÇÖZMEZ, çünkü orada eşleşen ad name alanında değil.
+        # Tersi de doğru: Dicle'nin name_alt'ı BOŞ, yani bu satır de onu
+        # kurtarmaz. İki mekanizma birbirinin yerine geçmez, ikisi de gerekli.
+        _adlar = [pr.get("name"), pr.get("name_en"), pr.get("name_alt")]
+        _ad = next((a for a in _adlar
+                    if a and _ad_sadelestir(a) in BUYUK_SADE), None)
+        # 🔴 AD LİSTESİ ARTIK TEK KAPI DEĞİL — `scalerank` İKİNCİ KAPI.
+        # Ölçüldü (7 Ağustos 2026): harita penceresinde 780 nehir parçası ve
+        # 593 ADLI akarsu var; motor bunların 43'ünü / 31 adını kullanıyordu.
+        # Sebep pencere DEĞİLDİ, yukarıdaki 31 adlık BEYAZ LİSTEYDİ — ve liste
+        # tamamen Osmanlı kuşağı. Ren · Po · Elbe · Vistül · İndus · Ganj ·
+        # Amuderya · Nijer, hiçbiri yoktu. VERİ DURUYORDU, SÜZGEÇ GEÇİRMİYORDU.
+        #
+        # Natural Earth her parçaya `scalerank` (önem derecesi) veriyor.
+        # Pencerede kümülatif: ≤1:21 · ≤2:46 · ≤3:77 · ≤4:124 · ≤5:157 ·
+        # ≤6:267 · ≤7:447 · hepsi 780. Eşik 5 seçildi: 3,6 kat artış ama hâlâ
+        # "büyük nehir" sınıfı — dereye yaslanma riski yok. 6'da 267'ye
+        # fırlıyor ve gürültü başlıyor.
+        #
+        # ⚠️ AD LİSTESİ KALDIRILMADI, TABAN OLARAK DURUYOR: elle seçilmiş
+        # beylik sınırı akarsularının bazısı küçük ve scalerank'ı yüksek
+        # (Porsuk, Bakırçay, Devrez…). İki kapı BİRBİRİNİN YERİNE GEÇMEZ —
+        # ad listesi "küçük ama sınır taşıyan"ı, scalerank "büyük ama adı
+        # listede olmayan"ı kurtarır.
+        try:
+            _sr = float(pr.get("scalerank"))
+        except (TypeError, ValueError):
+            _sr = 99.0
+        if _ad is None and _sr > NEHIR_ONEM_ESIGI:
+            continue
+        g = shape(f["geometry"])
+        if g.envelope.intersects(BOLGE):
+            NEHIRLER.append(g.intersection(BOLGE))
+            _bulunan.add(_ad or (pr.get("name") or pr.get("name_en") or "?"))
+            _sade_adlar = {_ad_sadelestir(a) for a in _adlar if a}
+            NEHIR_SINIFI.append(
+                1 if (_sr <= NEHIR_SINIF1_SR or _sade_adlar & NEHIR_SINIF1_ADLAR)
+                else 2)
+    # ⚠️ Süzgeç İKİ listeye birlikte uygulanır — sıra bozulursa sınıf yanlış
+    #    parçaya yapışır ve hiçbir denetim ötmez.
+    _nh_tut = [k for k, n in enumerate(NEHIRLER) if not n.is_empty]
+    NEHIRLER = [NEHIRLER[k] for k in _nh_tut]
+    NEHIR_SINIFI = [NEHIR_SINIFI[k] for k in _nh_tut]
+except Exception as e:
+    print("  nehir verisi yok:", e)
+NEHIR_HAT = unary_union(NEHIRLER) if NEHIRLER else None
+print(f"  {len(NEHIRLER)} nehir parçası — {len(_bulunan)} adlı akarsu: "
+      + ", ".join(sorted(_bulunan)))
+if len(NEHIR_SINIFI) != len(NEHIRLER):
+    # Yükleme yarıda kesildiyse iki liste ayrışır; sınıfı TAHMİN ETMEK yerine
+    # bedeli kapatırız (§② NEHIR_KAPALI mantığı) — ve bunu SÖYLERİZ.
+    print(f"  🔴 nehir sınıf listesi ayrıştı ({len(NEHIR_SINIFI)} ≠ "
+          f"{len(NEHIRLER)}) — nehir geçiş bedeli bu koşuda KAPALI")
+    NEHIR_SINIFI = None
+else:
+    print(f"  bedel sınıfı: sınıf-1 {NEHIR_SINIFI.count(1)} parça · "
+          f"sınıf-2 {NEHIR_SINIFI.count(2)} parça")
+
+
+def _gecitleri_oku():
+    """data/gecitler.js → ([(lon, lat, tur, etki_km, ad)], sha256).
+    Okunamazsa BOŞ liste DEĞİL istisna: 'geçit yok' ile 'okuyamadım' ekranda
+    aynı görünür."""
+    import hashlib as _hl
+    _ham = io.open(os.path.join(KOK, "data", "gecitler.js"), "rb").read()
+    _kayit = [(float(g["lon"]), float(g["lat"]), g["tur"], float(g["etki_km"]), g["ad"])
+              for g in girdi._cevir(_ham.decode("utf-8"), "GECITLER")]
+    return _kayit, _hl.sha256(_ham).hexdigest()
+
+
+# 🔴 GEÇİTLER KOŞUNUN BAŞINDA OKUNUR — Dijkstra aşamasında (koşunun onlarca
+#    dakika sonrası) DEĞİL. `girdi.anlik_goruntu()` bu dosyayı KAPSAMIYOR
+#    (yalnız GIRDI_DOSYALARI + goller.js) ve `_GIRDI_IZI`ne de girmiyor; geç
+#    okunsaydı koşu sırasındaki bir düzenleme çıktıya SESSİZCE girerdi
+#    (CLAUDE.md §7 "girdi donmuştur"). Erken okumak pencereyi daraltır,
+#    KAPATMAZ — kapatmak `girdi.py` işi (UYGULA'nın dosyası, tahtada borç).
+#    Özet loga basılır ki çıktının hangi geçit kümesiyle üretildiği sorulabilsin.
+GECIT_KAYIT, GECIT_IZI = _gecitleri_oku()
+print(f"  geçit: {len(GECIT_KAYIT)} kayıt · data/gecitler.js sha256 {GECIT_IZI[:12]}")
+
+# ---------------- Dağ sırtları ----------------
+# İki şehir arasında dağ varsa sınır dağın sırtından geçer. Natural Earth dağ
+# sırası poligonlarının orta ekseni (skeleton yerine merkez hattı yaklaşımı:
+# poligonun içine doğru daraltılmış hattı) sırt kabul edilir.
+asama("Dağ sırtları")
+SIRTLAR = []
+try:
+    _dg = json.load(open(os.path.join(BASEMAPS, "ne_10m_geography_regions_polys.geojson"),
+                         encoding="utf-8"))
+    # 🔴 ARTIK YALNIZ `Range` DEĞİL — üç engel sınıfı daha eklendi (7 Ağustos).
+    # Askerî coğrafya doktrini (OCOKA/OAKOC) arazi geçirgenliğini üçe ayırır:
+    #   unrestricted (ova · bozkır)      → engel DEĞİL, dahil edilmez
+    #   restricted (yayla · bataklık)    → yavaşlatır, kanalize eder  ← EKLENDİ
+    #   severely restricted (sıradağ)    → zaten vardı
+    # Ölçüm (pencerede): Range/mtn 127 · Plateau 34 · Gorge 2 · Wetlands 1.
+    # `Plain` (ova, 16 poligon) BİLEREK DIŞARIDA — ova engel değildir, sınır
+    # ovada durmaz. `Geoarea` (bozkır, 23) da dışarıda ve sebebi TERS:
+    # bozkır engel değil KORİDORDUR (Deşt-i Kıpçak, Kırım akınlarının yolu);
+    # onu katmak sınırı yanlış yere yaslardı. Bozkır ayrı bir mantık ister.
+    ENGEL_SINIFI = ("Range/mtn", "Plateau", "Gorge", "Wetlands")
+    for f in _dg["features"]:
+        p = f["properties"]
+        _fc = p.get("FEATURECLA") or ""
+        if not any(k in _fc for k in ENGEL_SINIFI): continue
+        g = shape(f["geometry"]).buffer(0)
+        if not g.envelope.intersects(BOLGE): continue
+        g = g.intersection(BOLGE)
+        if g.is_empty or g.area < 0.05: continue
+        # sırt hattı: poligonu içeriye daraltıp kalan çekirdeğin sınırı
+        cekirdek = g.buffer(-0.12)
+        SIRTLAR.append(cekirdek.boundary if not cekirdek.is_empty else g.boundary)
+except Exception as e:
+    print("  dağ verisi yok:", e)
+SIRT_HAT = unary_union(SIRTLAR) if SIRTLAR else None
+print(f"  {len(SIRTLAR)} dağ sırası")
+
+# ---------------- Yerleşim verisi ----------------
+# ⚠️ ÇOK DOSYALI GİRDİ (YAPILACAKLAR.md — paralel oturumların ön koşulu).
+# Okuma mantığı ve dosya listesi artık `arac/girdi.py`'de; motor ile denetle.py
+# aynı modülü kullanıyor. Sebep tarihî: iki araç aynı veriyi farklı katılıkta
+# okuduğu için bir kez DENETİM TEMİZ DERKEN ÜRETİM ÇÖKTÜ (sondaki virgül
+# toleransı motorda yoktu). Tek okuma noktası bunu yapısal olarak imkânsız kılar.
+# Bir parti canlıya alınacaksa değişecek tek şey girdi.py'deki GIRDI_DOSYALARI.
+asama("Yerleşimler okunuyor")
+YERLER = girdi.yukle()
+SENARYO_YOL = 'C:\\atlas-sinav-cikti\\senaryo\\h_nokta.json'
+
+# ════ MOTOR-SINAV SENARYOSU (bellekte; girdi dosyası değişmez) ════
+import json as _js_s, copy as _cp_s, datetime as _dt_s
+def _s_kaydir(_g, _n):
+    return (_dt_s.date.fromisoformat(_g) + _dt_s.timedelta(days=_n)).isoformat()
+for _op in _js_s.load(open(SENARYO_YOL, encoding="utf-8")):
+    _hit = [y for y in YERLER if y["ad"] == _op.get("kopya", _op.get("sahip", _op.get("kaydir")))]
+    if len(_hit) != 1:
+        raise SystemExit("SINAV SENARYOSU: ad %d kez bulundu: %r" % (len(_hit), _op))
+    _y = _hit[0]
+    if "kopya" in _op:
+        _yn = _cp_s.deepcopy(_y)
+        _yn["ad"] = _op["ad"]; _yn["lon"] = round(_y["lon"] + _op.get("dlon", 0.0), 3)
+        _yn["lat"] = round(_y["lat"] + _op.get("dlat", 0.0), 3)
+        YERLER.append(_yn)
+    elif "sahip" in _op:
+        _y["s"][_op["i"]]["d"] = _op["d"]
+    elif "kaydir" in _op:
+        _eski = _y[_op["alan"]][_op["i"]]["f"]
+        _yeni = _s_kaydir(_eski, _op["gun"])
+        _y[_op["alan"]][_op["i"]]["f"] = _yeni
+        for _al in ("s", "d", "v"):
+            for _p in _y.get(_al) or []:
+                if _p.get("t") == _eski:
+                    _p["t"] = _yeni
+print("  🧪 SINAV SENARYOSU uygulandı:", open(SENARYO_YOL, encoding="utf-8").read().strip())
+_cakisan = girdi.yakin_ciftler(YERLER)
+if _cakisan:
+    print(f"  UYARI: {len(_cakisan)} nokta çifti {girdi.YAKINLIK_ESIK_KM} km'den yakın")
+    for _d, _a, _b in _cakisan[:10]:
+        print(f"      {_d:.2f} km  {_a} <-> {_b}")
+# ⚠️ Alan varsayılanları artık girdi.py'de (VARSAYILAN) — motor ve denetim tam
+# alanlı kayıt alıyor. Buradaki blok `d` alanını SAYMIYORDU ve Afrika partisi
+# girdiye eklendiğinde üretim `KeyError: 'd'` ile düştü; 47 Afrika kaydında
+# d: hiç yok (Osmanlı dönemi olmayan yerler), çekirdek dosyada ise hep d:[] var.
+# Aşağıdaki setdefault'lar artık gereksiz ama zararsız güvenlik ağı olarak
+# duruyor; yeni isteğe bağlı alanın varsayılanı girdi.py'ye yazılır.
+# 🔴🔴 24 Ağustos 2026 — BOYA ANAHTARI ARTIK `harita:`ya DÜŞEBİLİYOR.
+#
+# Motor bugüne kadar `s:[{d:...}]`in HAM DEĞERİNİ boya anahtarı sayıyordu.
+# Sonuç: `BOYALAR`da karşılığı olmayan bir kimliğe geçen gövde HİÇ
+# ÇİZİLMİYOR — künyesinde `harita:"macaristan"` yazsa bile, çünkü motor o
+# alanı OKUMUYORDU. Ölçüldü (OPUS HAZIR KITA 87): `grep harita
+# uret_petek.py` → SIFIR eşleşme.
+#
+# ⚠️ VE İLK ÖNERİ ÇÜRÜDÜ — bu satırın yazılma sebebi o:
+#   YOL A  "motor `harita:`yı OKUSUN, o kazansın" → 8 MEVCUT kaydın
+#          anahtarı değişiyordu: `romanya-kralligi` → `romanya`,
+#          #2828d8 → #6c6912. Erdel-Temesvar kuşağı SESSİZCE yeniden
+#          boyanırdı — kimsenin istemediği bir değişiklik.
+#   YOL A' "anahtar = `id`, AMA `BOYALAR`da yoksa `harita:`ya düş"
+#          ölçüldü: bugünkü kayıtlardan değişen 0 · hedeflerden boyasız
+#          kalan 0 · renk borcu 12 kimlikten 3'e iniyor.
+# ⇒ A' uygulandı. *Var olanı korumak, doğruyu eklemekten önce gelir.*
+#
+# 📌 Ve öneriyi DARALTAN, öneriyi YAZANIN kendisi oldu: kendi ilk yolunu
+#    ölçüp çürüttü. Ölçülmemiş bir "iyileştirme" burada sekiz kaydı
+#    sessizce bozacaktı.
+# ⚠️ `_HARITA_ALT` BURADA KURULMUYOR — anlık görüntüden ÖNCE kuruldu
+# (bkz. ~285). Sebebi ölçülmüş bir çöküş: burada kurulduğunda `girdi.DATA`
+# artık geçici kopya dizinini gösteriyor ve `devletler.js` o kopyaya HİÇ
+# girmiyor (o bir YERLEŞİM girdisi değil) ⇒ koşu 20 saniyede ölüyordu.
+_yonlendirilen = 0
+for y in YERLER:
+    for _alan, _dv in girdi.VARSAYILAN.items():
+        y.setdefault(_alan, [] if _dv == [] else _dv)
+    for sp in y["s"]:
+        if sp["d"] not in BOYALAR:
+            _alt = _HARITA_ALT.get(sp["d"])
+            if _alt and _alt in BOYALAR:
+                # Künye "beni şu anahtarla çiz" diyor ve o anahtarın rengi VAR.
+                sp["d"] = _alt
+                _yonlendirilen += 1
+            else:
+                print(f"  UYARI boya: {y['ad']} bilinmeyen devlet kimliği '{sp['d']}'")
+# ⚠️ SAYI HER ZAMAN BASILIYOR, SIFIR OLSA BİLE: sessiz bir yönlendirme,
+#    "bu gövde niçin başka renkte" sorusunu cevapsız bırakır. Bir sonraki
+#    oturum log'a bakıp kaç kaydın yön değiştirdiğini GÖREBİLMELİ.
+print(f"  boya anahtarı `harita:`ya düşen dönem: {_yonlendirilen}")
+print(f"  {len(YERLER)} yerleşim ({sum(1 for y in YERLER if y['d'] or y['v'])} Osmanlı, "
+      f"{sum(1 for y in YERLER if not (y['d'] or y['v']))} komşu, "
+      f"{sum(1 for y in YERLER if y['v'])} tâbi dönemi olan)")
+
+# Kademe doğrulaması: her Osmanlı k3/k4 yerleşimi geçerli bir k1/k2 merkeze bağlı olmalı
+AD2IDX = {y["ad"]: i for i, y in enumerate(YERLER)}
+
+
+# ⚠️ m: ZİNCİRİ GEÇİŞLİ ÇÖZÜLÜR — hatalar 7 turunun devri (merkez oturum ölçtü)
+# Eski kontrol TEK HOP bakıyordu: y["m"] doğrudan k1/k2 değilse uyarı basıyordu
+# ve bölge katmanı o yerleşimi k:3 bir merkezin altında topluyordu. Sekiz kayıt
+# (Divriği, Arapkir, Hısn-ı Mansûr, Behisni, Kâhta, Siverek, Kanina, Oreoi) bu
+# yüzden bölge sınırına girmiyordu: m: alanları Malatya/Harput/Urfa gibi k:3
+# merkezleri gösteriyor, onlar da kendi k:2 merkezine bağlı.
+# Veriyi değiştirmek ÇÖZÜM DEĞİL: dört seçenek de ölçüldü (hepsi Maraş / hepsi
+# Diyarbakır / hepsi Sivas / karma) ve dördü de Değişmez 3 çelişkisini 378'den
+# 390-395'e çıkarıp 383 tavanını aşıyor. Sebep MIMARI.md §3.4: m: tek değerli ve
+# zamansız, hangi k:2 merkezi seçilse bir dönemde başka devletin elinde kalıyor.
+# Kademe uyarısının bedeli kozmetik (bölge sınırı çizilmiyor, toprak boyaması
+# etkilenmiyor); Değişmez 3'ün bedeli gerçek bir tutarsızlık sinyalini kaybetmek.
+# Bu yüzden düzeltme motorda: zincir iki hop takip edilince Divriği → Malatya →
+# Maraş (k:2), Siverek → Urfa → Diyarbakır (k:2) diye kapanıyor.
+def k12_merkez(i, azami=5):
+    """m: zincirini k1/k2 bir merkeze kadar takip eder. Kendisi k1/k2 ise
+    kendini döner. Zincir kapanmazsa (ya da döngüye girerse) None."""
+    gorulen, j = set(), i
+    for _ in range(azami):
+        y = YERLER[j]
+        if y["k"] in (1, 2):
+            return j
+        ad = y["m"]
+        if not ad or ad not in AD2IDX or j in gorulen:
+            return None
+        gorulen.add(j)
+        j = AD2IDX[ad]
+    return None
+
+
+_kademe_uyari = 0
+for i, y in enumerate(YERLER):
+    if (y["d"] or y["v"]) and y["k"] in (3, 4) and k12_merkez(i) is None:
+        print(f"  UYARI kademe: {y['ad']} (k:{y['k']}) m: zinciri bir k1/k2 "
+              f"merkeze kapanmıyor (m:{y['m'] or '—'})")
+        _kademe_uyari += 1
+print(f"  kademe: {_kademe_uyari} yerleşimin m: zinciri açık (beklenen 0)")
+
+def gun(s):
+    y, a, g = s.split("-")
+    return int(y) * 10000 + int(a) * 100 + int(g)
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 🚶 MOTOR_YURUYUS — KARA-KARA SINIRINI YÜRÜYÜŞ SÜRESİ ÇİZSİN
+#    (MOTOR-YURUYUS · 17 Eylül 2026 · oturumlar/MOTOR-YURUYUS-0917.md)
+# ═══════════════════════════════════════════════════════════════════════════
+# EMRE, 17 Eylül: *"Haritadaki bir nokta, kendisine askerî yürüyüşle EN YAKIN
+# yerleşim yerine ait olur. Bu sahiplik 5 günlük yoldan fazlasını içermez. Bir
+# noktada 5 günlük yürüyüşten yakın yerleşim yoksa o bölge SAHİPSİZ kalır."*
+# Bütçe kararı `MENZIL-KARARLARI-0912.md` ②: tek yön 40 saat × 5,04 km/saat.
+#
+# BAYRAK KAPALIYKEN (varsayılan) HİÇBİR ŞEY DEĞİŞMEZ. Açıkken üç şey olur:
+#   ① Voronoi hücreleri, ızgaradaki Dijkstra SAHİPLİĞİNDEN kurulan hücrelerle
+#      YER DEĞİŞTİRİR (kara hücresi = en ucuz yürüyüşlü tohum). Izgaranın karar
+#      vermediği hücrede (deniz · tohumsuz kara) Voronoi sahibi kalır.
+#      Hücreler örtü boru hattına AYNEN girer: yaslama · Chaikin · sadeleştirme
+#      ızgaranın basamağını yumuşatır ("IZGARA SINIR ÇİZMEZ" kuralının gerekçesi
+#      ham ızgaranın cetvel/basamak üretmesiydi; burada ham ızgara hattı haritaya
+#      değil, boru hattına girer).
+#   ② A1 tavanı (200 km · 16 sektör) kıyı kesiminde, ızgaranın karar verdiği
+#      karada 40 SAATLİK EŞYÜKSELTİYLE yer değiştirir: bütçenin ötesi SAHİPSİZ.
+#      Eşyükselti (contourpy, doğrusal ara değer) basamak çizmez.
+#   ③ Izgaranın karar VERMEDİĞİ parça (hücreden küçük ada · tohumsuz kara ·
+#      kıyıdan ≥ YURUYUS_SACAK hücre uzak deniz hücresindeki kara) ESKİ kurala
+#      kalır: A1 tavanı. Bu bir boşluk değil bir BEYANDIR — orada yürüyüş
+#      hesaplanamıyor, ve "hesaplanamıyor" ile "40 saatten uzak" aynı şey değil.
+# DOKUNULMAYAN: ada kuralı · ana parça · bileşen kilidi · kara-kısıtlı devir ·
+#   çöl tavanı · puan kapısı · varlık epokları (petek_epok mini-Voronoi'si —
+#   bkz. tahta M-4326, "zaman" sorusu). Hepsi eski hâliyle koşar.
+# ⚠️ BU YÜZDEN ızgara bloğu (aşağıda) VORONOI'NİN ÖNÜNE TAŞINDI: bayrak kapalıyken
+#   yalnız aşama SIRASI değişir; hesap aynı girdilerden, aynı kodla yapılır
+#   (bağımlılık AST ile tarandı: blok yalnız Voronoi'den ÖNCE atanan adları okur).
+MOTOR_YURUYUS = os.environ.get("MOTOR_YURUYUS") == "1"
+YURUYUS_SAAT = float(os.environ.get("MOTOR_YURUYUS_SAAT", "40"))
+YURUYUS_SACAK = 2          # hücre — kıyı saçağı: bu kadar yakın deniz hücresi ızgaraya sayılır
+YURUYUS_KARO = 5.0         # derece — eşyükselti ve karar bölgesi bu karolarla kurulur
+YURUYUS_SADE = 0.05        # derece — ızgara hücrelerinin örtü sadeleştirmesi (1 hücre)
+# 16 KOMŞU (at hamlesi, 22,5° çözünürlük) — AYRI bayrak. 8 komşulu ızgara düz
+# arazide yönüne göre %8'e kadar uzun ölçer (oktil); 16 komşu bunu ~%3'e indirir
+# (şartname §2 · Emre'nin "16 yön" sezgisinin ızgaradaki karşılığı). Bedeli: Dijkstra
+# kenar sayısı iki katı. Bu bayrak YALNIZ Dijkstra'yı değiştirir; MOTOR_YURUYUS
+# kapalıysa da açılabilir (o zaman yalnız deniz aşırı devrin ızgarası değişir).
+YURUYUS_16 = os.environ.get("MOTOR_YURUYUS_16") == "1"
+if MOTOR_YURUYUS:
+    print(f"  🚶 MOTOR_YURUYUS=1 — kara-kara sınırı yürüyüş süresiyle "
+          f"(bütçe {YURUYUS_SAAT:g} saat). Bu koşunun damgasına yazılır.")
+if YURUYUS_16:
+    print("  🚶 MOTOR_YURUYUS_16=1 — Dijkstra 16 komşulu (at hamlesi).")
+
+# ---------------- KARA-KISITLI SAHİPLİK ----------------
+# Ada kuralı KARA BİLEŞENİ bazlıdır ve Afrika ile Avrasya Sina üzerinden TEK
+# bileşendir; bu yüzden Oran'ın peteği İspanya anakarasına geçebiliyordu. Kural
+# "ihlal yok" diyor, sonuç saçma. Kullanıcının cümlesi (hatalar 15 md.19):
+# "PETEK BÖLGESİ DENİZAŞIRI OLAMAZ… binlerce kilometre karadan geçiş ile bu
+# bölgenin Oran'a ait olması mantıksız."
+#
+# Çare: sahipliği DÜZ mesafeyle değil KARA ÜZERİNDEN mesafeyle sormak. Kara
+# maskesi ızgaraya dökülür, bütün tohumlardan çok kaynaklı Dijkstra koşar, her
+# hücre "kara yolundan en yakın tohum"unu öğrenir.
+#
+# ⚠️ IZGARA YALNIZ SAHİPLİĞE KARAR VERİR, SINIR ÇİZMEZ. Sınır yine Voronoi'den
+#    gelir; bu yüzden ızgaranın kabalığı haritaya YANSIMAZ. Aksi hâlde çözümün
+#    kendisi yeni bir "cetvel" kusuru üretirdi — çaresi derdinden beter olurdu.
+#
+# ⚠️ KAPSAM — prototipin İLK sürümündeki hata ve düzeltmesi.
+#    İlk sürüm ızgarayı BÜTÜN parçalara sordu ve saçmaladı: en büyük iki
+#    değişiklik Nijniy Novgorod→Vologda (243.191 km²) ve Moskova→Vologda
+#    (124.467 km²) çıktı; ikisi de iç karada, denizle ilgisi yok. Sebep:
+#    0,05° ızgara mesafeyi ~%8 hatayla ölçer (oktil yaklaşımı + tohum
+#    yuvarlaması) ve KARADA bu, Voronoi'nin KESİN cevabından kötüdür.
+#    Doğru kapsam, yaklaşık yöntemi kesin yöntemin YANILDIĞI yere kısıtlamaktır:
+#      · tohum→parça düz hattı tamamen karadaysa → düz mesafe geçerli, VORONOI KALIR
+#      · hat denizden geçiyorsa                  → düz mesafe anlamsız, IZGARA KARAR VERİR
+#    Eşik yok; ölçüt "hat denizi kesiyor mu", bir sayı değil.
+#
+# GEÇME ÖLÇÜTÜ (prototipte ölçüldü, 32/32 parça kabul edildi): Oslo, Königsberg
+# ve Azak dar su geçişli MEŞRU parçalardır ve 0 km² kaybetmelidir. Kural onları
+# bozuyorsa kural yanlıştır.
+KV_ADIM = 0.05                   # ≈5,5 km enlemde
+KV_MIN_KM2 = 200.0               # ızgara çözünürlüğünün güvenilir olduğu taban
+asama(f"Kara-kısıtlı sahiplik: ızgara {KV_ADIM}° kuruluyor")
+_kvx0, _kvy0, _kvx1, _kvy1 = BOLGE.bounds
+_kvnx = int(round((_kvx1 - _kvx0) / KV_ADIM))
+_kvny = int(round((_kvy1 - _kvy0) / KV_ADIM))
+_kvkp = prep(KARA)          # aşağıda LineString sınamasında da kullanılıyor
+# ⚠️ VEKTÖRLEŞTİRİLDİ — MOTOR 3, 3 Ağustos 2026.
+# Eski hâli 4,74 milyon ayrı `_kvkp.contains(Point(...))` çağrısıydı ve aşama
+# bilançosunda 3dk 20sn tutuyordu (koşunun %4,4'ü) — ızgara kurulumu, faz-1'in
+# çöl tavanından sonraki en pahalı kalemiydi. `shapely.contains_xy` AYNI GEOS
+# yüklemini dizi üzerinde koşturur.
+# ÖLÇÜLDÜ (scratchpad, 60 satır × 3.160 = 189.600 hücre): FARKLI HÜCRE = 0,
+# yani birebir aynı maske; hız 25,7× (6,78 sn → 0,26 sn), tam ızgara ~170 sn → ~7 sn.
+# 📌 Satır satır çağrılıyor: 4,74M'lik tek dizi ~76 MB ara bellek isterdi,
+# satır başına 3.160 nokta hem hızın tamamını verir hem belleği düz tutar.
+import numpy as _np
+shapely.prepare(KARA)
+_kvxs = _kvx0 + (_np.arange(_kvnx) + 0.5) * KV_ADIM
+_kvkara = bytearray(_kvnx * _kvny)
+for _j in range(_kvny):
+    _lat = _kvy0 + (_j + 0.5) * KV_ADIM
+    _kvkara[_j * _kvnx:(_j + 1) * _kvnx] = shapely.contains_xy(
+        KARA, _kvxs, _np.full(_kvnx, _lat)).astype(_np.uint8).tobytes()
+print(f"  ızgara {_kvnx}×{_kvny} = {_kvnx*_kvny:,} hücre, "
+      f"kara {sum(_kvkara):,}")
+
+# Tohumları ızgaraya oturt. ⚠️ Kıyıdaki tohum su hücresine düşebilir (0,002°
+# maske vs 0,05° ızgara); en yakın kara hücresine kaydırılmazsa ulaşılmaz olur.
+# ═══ 🔴 PENCERE DIŞI TOHUM IZGARAYA ALINMAZ — 16 Ağustos 2026 ═══════════════
+# Eski hâl `min()/max()` ile KISTIRIYORDU: pencerenin dışındaki bir nokta hata
+# vermeden ızgaranın KENAR SÜTUNUNA oturuyor, sonra Dijkstra'da oradan
+# yayılıyordu. Yani 2.555 km ötedeki bir yerleşim, kenardaki toprak için
+# YARIŞIYORDU.
+#
+# ⚠️ ÖLÇÜLDÜ, VARSAYILMADI (M-0247 · M-0502):
+#     bağlı veride kıstırılan            144 nokta
+#       ızgarada yer BULAN                 8   ← bunların peteği BOŞTU, zararsız
+#     bağlanacak dosyalarda kıstırılacak  36 nokta
+#       kıstırıldığı yerde KARA olan       9   ← ve BUNLAR SAHİPLİ
+#         Kap (Cape Town)   18,4 · −33,9 → −11,0   2.555 km
+#         Oranj · Ulundi · Transvaal · Mapungubwe · Büyük Zimbabve
+#         + Doğu Sibirya · Penjina · Kolıma
+# Güney Afrika'nın altı gövdesi lat −11'e, yani KONGO/TANZANYA kuşağına
+# oturuyordu. Bileşen kilidi bunu engellemez: alıcının gerçek noktası maskenin
+# dışında olduğu için `_kv_bilesen()` −1 döner ve kilit HİÇ KURULMAZ.
+#
+# 🟢 ÇARE — DARALTMA, yeni davranış EKLEMEK değil: pencere dışındaki bir
+#    noktanın maliyet ızgarasına tohum ekmesi HİÇBİR HÂLDE doğru değil.
+#    O noktalar için Voronoi kalır — `_kverisilmez` ile aynı yol.
+# 📌 Ve bu, `§11`in "pencere dışı ≠ yanlış konum" dersiyle tutarlı: nokta
+#    DOĞRU yerdedir, atlas penceresi oraya HENÜZ açılmamıştır. Kaydı silmiyoruz,
+#    yalnız IZGARAYA sokmuyoruz. Pencere büyüyünce kendiliğinden girer.
+_kvpencere_disi = []
+_kvtohum, _kvkaydi, _kverisilmez = {}, 0, []
+for _idx, _y in enumerate(YERLER):
+    if not (_kvx0 <= _y["lon"] < _kvx0 + _kvnx * KV_ADIM
+            and _kvy0 <= _y["lat"] < _kvy0 + _kvny * KV_ADIM):
+        _kvpencere_disi.append((_y["ad"], _y["lon"], _y["lat"]))
+        continue                      # KISTIRMA YOK — Voronoi'de kalır
+    _i = min(_kvnx - 1, max(0, int((_y["lon"] - _kvx0) / KV_ADIM)))
+    _j = min(_kvny - 1, max(0, int((_y["lat"] - _kvy0) / KV_ADIM)))
+    if not _kvkara[_j * _kvnx + _i]:
+        _en, _ed = None, 9e9
+        for _dj in range(-3, 4):
+            for _di in range(-3, 4):
+                _a, _b = _i + _di, _j + _dj
+                if 0 <= _a < _kvnx and 0 <= _b < _kvny and _kvkara[_b * _kvnx + _a]:
+                    _d = _di * _di + _dj * _dj
+                    if _d < _ed: _ed, _en = _d, (_a, _b)
+        if _en is None:
+            _kverisilmez.append(_y["ad"]); continue
+        _i, _j = _en; _kvkaydi += 1
+    _kvtohum.setdefault(_j * _kvnx + _i, []).append(_idx)
+print(f"  {sum(len(v) for v in _kvtohum.values())} tohum yerleşti "
+      f"({_kvkaydi} tanesi en yakın kara hücresine kaydırıldı)")
+if _kverisilmez:
+    print(f"  ⚠️ ızgarada yer bulunamayan {len(_kverisilmez)} tohum "
+          f"(bu noktalar için Voronoi kalır): {', '.join(_kverisilmez[:8])}")
+# 🔴 PENCERE DIŞI TOHUMLAR — İSİM İSİM basılır, çünkü sessiz eleme YASAK.
+# Koordinatörün şartı (M-0509 ②): "17 tohumu İSİM İSİM yaz: hangisi düştü,
+# düşmesi DOĞRU mu." Liste basılmazsa bir sonraki oturum bunu ölçemez ve
+# "kıstırma düzeltildi" cümlesi DOĞRULANAMAZ bir iddia olarak kalır.
+if _kvpencere_disi:
+    _kvpd = sorted(_kvpencere_disi,
+                   key=lambda t: -girdi.km(t[2], t[1],
+                                           max(_kvy0, min(t[2], _kvy0 + _kvny * KV_ADIM)),
+                                           max(_kvx0, min(t[1], _kvx0 + _kvnx * KV_ADIM))))
+    print(f"  🔒 PENCERE DIŞI, ızgaraya ALINMADI: {len(_kvpd)} tohum "
+          f"(kıstırma YOK — Voronoi kalır)")
+    for _ad, _lo, _la in _kvpd[:12]:
+        _sl = max(_kvx0, min(_lo, _kvx0 + _kvnx * KV_ADIM))
+        _sb = max(_kvy0, min(_la, _kvy0 + _kvny * KV_ADIM))
+        print(f"       {_ad[:38]:<38} {_lo:8.2f},{_la:7.2f}   "
+              f"kenara {girdi.km(_la, _lo, _sb, _sl):>6,.0f} km olurdu")
+    if len(_kvpd) > 12:
+        print(f"       … ve {len(_kvpd)-12} tohum daha")
+
+# ---------------- ① EĞİM SÜRTÜNMESİ — ızgaranın kendi çözünürlüğünde --------
+# DEM aynı ızgaraya (BOLGE.bounds × KV_ADIM) indirgenir ve hücre başına
+# sürtünme çarpanı üretilir:  surt = 1 + EGIM_CARPANI × |∇z|
+#
+# ⚠️ ÇÖZÜNÜRLÜK KALİBRASYONLA AYNI OLMAK ZORUNDA — ve ölçüldü, ŞANS DEĞİL.
+# `|∇z|` birimi METRE / HÜCRE'dir, yani hücre boyuyla ÖLÇEKLENİR: 0,02°lik bir
+# ızgarada aynı yamaç 2,5 kat küçük bir eğim değeri verir ve 0,005 çarpanı
+# sessizce başka bir şeye dönüşürdü. `egim_olc.py:62` → `ADIM = 0.05`;
+# buradaki `KV_ADIM` de 0,05. İkisi aynı, o yüzden çarpan taşınabilir.
+# 📌 Bu, `§11`in "bir aletin evreni değişince alet sessizce yanılır" dersinin
+#    önlenmiş hâli: aynı sayı, farklı ızgarada AYNI SAYI DEĞİLDİR.
+#
+# 🔴 `np.flipud` ŞART VE SEBEBİ ÖLÇÜLDÜ (maliyet.py:262-282'nin aynısı):
+#    rasterio dizisinde SATIR 0 KUZEY'dir; bu ızgara `_kvy0 + (_j+0,5)*KV_ADIM`
+#    ile kurulur, yani **_j=0 GÜNEY'dir.** İkisi TERS ve fark SESSİZDİR —
+#    toplam kara oranı neredeyse değişmediği için hiçbir toplam ölçüm ötmez.
+#    Bağlanmasaydı motor Karadeniz kıyısını Akdeniz'in eğimiyle hesaplardı.
+# 🟢 VE DOĞRULUĞU BAĞIMSIZ TANIKLA SINANDI, varsayılmadı: çevirmeden sonra
+#    en pahalı hücreler 84,1°D/28,5°K (Annapurna, sürt 11,03) ve 74,7°D/36,4°K
+#    (Karakurum, 9,10) çıkıyor. Ters olsaydı bunlar Hint Okyanusu'na düşerdi.
+#    ⇒ Coğrafya, dizinin doğru yönde olduğunun tanığıdır.
+_kvsurt = None
+if EGIM_CARPANI > 0 and EGIM_DEM:
+    asama("Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)")
+    import rasterio as _rio
+    from rasterio.windows import from_bounds as _from_bounds
+    # 🔴🔴 DEM İZGARADAN KISA — VE KIRPILMAZSA GERİLİR. 12 Eylül 2026'da
+    #    ölçüldü (KITA 11 buldu, koordinatör bağımsız yeniden üretti).
+    #    ```
+    #    istenen ızgara   -60 → +85   (2900 satır × 0,05°)
+    #    etopo2022_30s    -60 → +84   (17280 satır × 30s)   ⇒ 1,0° EKSİK
+    #    ```
+    #    Eski kod pencereyi 85'e kadar istiyordu; rasterio pencereyi dosyaya
+    #    kırpıyor ama `out_shape=(2900, 7200)` verildiği için **144°'lik
+    #    veriyi 145°'lik ızgaraya YENİDEN ÖRNEKLİYOR** — yani DEM KUZEYE
+    #    DOĞRU GERİLİYOR. Ölçülen kayma (bilinen zirvelerin enlemi):
+    #    ```
+    #    Everest   +0,637°   Mont Blanc +0,742°   Elbruz +0,720°
+    #    K2        +0,544°   Kilimanjaro +0,392°  Aconcagua +0,878°
+    #    Ağrı Dağı +0,673°  ≈ 75 km KUZEY          ← Anadolu'daki bedel
+    #    ```
+    #    KONTROL: pencere 84,0'a kırpılıp çıktı 2880 satır yapılınca kayma
+    #    ÇÖKÜYOR (Everest −0,013 · Elbruz −0,030 · Kilimanjaro −0,008 ·
+    #    Ağrı +0,023) ⇒ sebep KESİN, başka bir şey değil.
+    # 🔴 BEDELİ: sürtünme yüzeyi YANLIŞ ENLEMDE. Koşu 8 ve 9 bu kodla koştu,
+    #    yani o çıktıların eğim yüzeyi de kaymış. Dijkstra dağ bedelini
+    #    75 km kuzeyde ödemiş.
+    # 📌 Ve kusur SESSİZDİ: hiçbir toplam ölçüm ötmez (kara oranı, eğim
+    #    medyanı, en pahalı hücre — hepsi makul kalır). `§11`in "bir aletin
+    #    evreni değişince alet sessizce yanılır" dersinin DEM yüzü; ve
+    #    hemen üstteki `np.flipud` yorumu "kayma SESSİZ olurdu" diye
+    #    UYARIYORDU — uyarı doğruydu, yalnız BAŞKA BİR EKSENDE gerçekleşti.
+    with _rio.open(EGIM_DEM) as _ds:
+        # Izgaranın GERÇEK kutusu: _kvnx/_kvny yuvarlanarak bulundu, o yüzden
+        # BOLGE.bounds'un üst ucu değil ızgaranın kendi üst ucu kullanılır.
+        # Aksi hâlde DEM yarım hücre kayardı ve kayma SESSİZ olurdu.
+        _dem_ust = float(_ds.bounds.top)
+        _ist_ust = _kvy0 + _kvny * KV_ADIM
+        # Pencereyi DEM'in KENDİ üst ucuna kırp — gerilmeyi böyle keseriz.
+        _ust = min(_ist_ust, _dem_ust)
+        _sat = int(round((_ust - _kvy0) / KV_ADIM))
+        _win = _from_bounds(_kvx0, _kvy0,
+                            _kvx0 + _kvnx * KV_ADIM, _ust,
+                            transform=_ds.transform)
+        _zp = _ds.read(1, window=_win, out_shape=(_sat, _kvnx),
+                       resampling=_rio.enums.Resampling.average).astype("float32")
+    _zp = _np.flipud(_zp)          # artık satır 0 = GÜNEY (ızgarayla aynı yön)
+    if _sat == _kvny:
+        _z = _zp
+    else:
+        # Eksik kuşak ızgaranın KUZEY ucundadır (84°-85°K) ve orası
+        # neredeyse tamamen okyanus: en kuzeydeki kara Grönland'ın kuzey
+        # kıyısı (~83,6°K) ve Ellesmere (~83,1°K), ikisi de 84°'nin ALTINDA.
+        # Deniz seviyesi (0) ile doldurmak eğimi bozmaz ve `_kvkara` maskesi
+        # o hücreleri zaten dışarıda bırakır.
+        _z = _np.zeros((_kvny, _kvnx), dtype="float32")
+        _z[:_sat] = _zp
+        print(f"  ⚠️ DEM ızgaradan KISA: üst uç {_dem_ust:.2f}° < istenen "
+              f"{_ist_ust:.2f}° — {_kvny - _sat} satır (kuzey kuşağı) deniz "
+              f"seviyesiyle dolduruldu. GERİLME YOK (kırpıldı).")
+    del _zp
+    _gy, _gx = _np.gradient(_z)
+    _kvegim = _np.hypot(_gx, _gy)
+    # array('f') — düz liste 6,4 M ayrı Python float'ı olurdu (~200 MB);
+    # array 4 bayt/öğe ile 25 MB'ta kalır ve indeksleme yine Python float verir.
+    import array as _array
+    _kvsurt = _array.array("f", (1.0 + EGIM_CARPANI * _kvegim).ravel().tolist())
+    _kvsm = _kvegim.ravel()[_np.frombuffer(bytes(_kvkara), dtype=_np.uint8) > 0]
+    print(f"  eğim çarpanı {EGIM_CARPANI} · kara hücresinde eğim medyanı "
+          f"{float(_np.median(_kvsm)):,.0f} m/hücre → sürtünme medyanı "
+          f"{1.0 + EGIM_CARPANI * float(_np.median(_kvsm)):.3f}")
+    print(f"  en pahalı hücre: sürtünme {1.0 + EGIM_CARPANI * float(_kvsm.max()):.2f} "
+          f"(eğim {float(_kvsm.max()):,.0f} m/hücre)")
+    del _z, _gy, _gx, _kvegim, _kvsm
+else:
+    print("  🔴 EĞİM YOK — Dijkstra ağırlıksız koşuyor (çarpan 0,000).")
+
+# ---------------- ② NEHİR GEÇİŞ BEDELİ — KENARA yazılır, HÜCREYE değil -----
+# MOTOR · DALGA-0052 · 16 Eylül 2026. Araştırma: `denetim/NEHIR-GECIS-SURE-0915.md`
+# (commit 9151774) · öncülü `denetim/ARASTIRMA-NEHIR-0912.md`.
+#
+# 🔴 NİÇİN KENAR — 0912 ④'ün bulgusu: sürtünme HÜCREYE ait bir çarpan; nehir
+#    geçişi ise bir KENAR olayıdır. Hücreye yazılsaydı (a) nehir BOYUNCA
+#    yürümek ile nehri GEÇMEK aynı bedeli öderdi — oysa tarihte nehir boyu bir
+#    YOLDUR; (b) 5,5 km'lik hücrenin %80-95'i kara iken bütünü cezalanırdı.
+#    ⇒ Bir ızgara adımı (hücre merkezi → komşu merkezi) nehir HATTINI KESİYORSA
+#    o adıma ek bedel yazılır. Nehre paralel adım kesmez, bedel ödemez.
+#
+# BİRİM: saat → km-eşdeğeri, × 5,04 km/saat (Tobler düz hız —
+#    `oturumlar/MENZIL-KARARLARI-0912.md` ②: 40 saat ≈ 201 km). Sürtünme
+#    çarpanı bu ek bedele UYGULANMAZ — bekleme ve tekne süresi eğime bağlı değil.
+#
+# TABLO — her sayı `denetim/NEHIR-GECIS-SURE-0915.json` `onerilen_adim_bedeli`nden:
+#   İDARE (varsayılan, bağlayıcı özne — MENZIL ① · D030)
+#     geçitsiz sınıf-1   16 s  Musul 1737 (2 gün) · Misis 1737 (6 gün): köprü/tekne
+#                              YOKKEN kafilenin kaybı, kaynaklı aralığın ALT ucu
+#     geçitsiz sınıf-2    4 s  fiilî kafile geçişi (Teixeira 1604 · Buckingham 1816)
+#                              ⚠️ TÜRETİLDİ — küçük nehirde kurumsal gün kaybı
+#                              varsayılmadı; KAYNAKSIZ bir ayrım, KARAR BEKLİYOR
+#     kopru               0 s  Evliya: 3,5 km Ösek köprüsü 2 saat ≈ yürüme süresi
+#     feribot/kale-cifti  8 s  5/5 kafile kaydında günün kalanı gitti
+#     sig-gecit           4 s  0912 Herzog oranı geçitli:geçitsiz = 1:4 → 16/4
+#                              ⚠️ TÜRETİLDİ — sığ geçit süresi için kayıt BULUNAMADI
+#   ORDU (KAPALI — Emre özneyi seçmedi; MOTOR_NEHIR_OZNE=ordu ile açılır)
+#     kopru 16 s (hazır köprü medyanı 2 gün × 8) · köprü kurarak 72 s (kurma
+#     medyanı 7 gün + geçiş 2 gün) · sig-gecit için kayıt BULUNAMADI → geçitsiz
+#
+# GEÇİT: `data/gecitler.js` (63 kayıt) — motor BU DOSYAYI YALNIZ OKUR.
+#   Bir kesen adımın orta noktası bir geçidin `etki_km`si içindeyse bedel
+#   min(geçitsiz, tür bedeli) olur. `f`/`t` OKUNMAZ: Emre'nin 22 Ağu kararı
+#   (gecitler.js başlığı) — "geçit köprüden eskidir", ilk turda HEP VAR.
+#   ⚠️ Geçit NEHİR ADIYLA eşlenmiyor, YAKINLIKLA eşleniyor: iki nehrin
+#      kavşağındaki geçit (Belgrad) ikisine de bedel indirimi verir. Ad eşleme
+#      Türkçe/NE yazımları yüzünden ayrı bir iş; sınırı burada kayıtlı.
+#   ⚠️ `etki_km` (30/20/15/10) gecitler.js'in KENDİ beyanıyla kalibre EDİLMEDİ.
+#
+# 🔴 KAPSAM — ve bu, ölçümün ilk cümlesi olmalı: bu Dijkstra'nın cevabı
+#    haritaya YALNIZ düz hattı DENİZİ kesen parçalar için iner (aşağıda
+#    `_kvkp.contains(LineString(...))` süzgeci). Kara-kara sınırı hâlâ
+#    Voronoi + 200 km tavan çiziyor. Yani nehir bedeli bugün ızgarayı
+#    değiştirir, haritayı ancak dar bir kapıdan etkiler — `GORUNUM-ABC-0910.md`
+#    ③ "kara-kara sürtünmeli Dijkstra" bir MOTOR DEĞİŞİKLİĞİDİR, bu değil.
+NEHIR_OZNE = os.environ.get("MOTOR_NEHIR_OZNE", "idare")
+NEHIR_KAPALI = (os.environ.get("MOTOR_NEHIR_KAPALI") == "1"
+                or NEHIR_SINIFI is None or not NEHIRLER)
+NEHIR_KM_SAAT = 5.04
+NEHIR_BEDEL_SAAT = {
+    "idare": {"gecitsiz": {1: 16.0, 2: 4.0},
+              "kopru": 0.0, "feribot": 8.0, "kale-cifti": 8.0, "sig-gecit": 4.0},
+    "ordu":  {"gecitsiz": {1: 72.0, 2: 72.0},      # sınıf-2 BULUNAMADI → en kötü hâl
+              "kopru": 16.0, "feribot": 72.0, "kale-cifti": 72.0, "sig-gecit": None},
+}
+# Dijkstra'nın komşu sırası — kenar anahtarı `h * _KV_YS + yön` bu sıraya bağlı,
+# o yüzden kurucu ile Dijkstra AYNI sabiti okur.
+_KV_YON = ((1, 0), (-1, 0), (0, 1), (0, -1), (1, 1), (1, -1), (-1, 1), (-1, -1))
+if YURUYUS_16:
+    # Sıra KORUNUR: ilk sekiz eski anahtarlarla aynı yönü taşır.
+    _KV_YON = _KV_YON + ((2, 1), (1, 2), (-1, 2), (-2, 1),
+                         (-2, -1), (-1, -2), (1, -2), (2, -1))
+_KV_YS = len(_KV_YON)                  # 8 (bayrak kapalı) ya da 16
+_KV_YARI = 2 if YURUYUS_16 else 1      # nehir kenarı aday komşuluğu yarıçapı
+
+
+def _kv_ara_kara(i, j, di, dj):
+    """At hamlesi merkezden merkeze İKİ ara hücreden geçer; ikisi de KARA
+    olmalı — yoksa adım bir hücrelik boğazı/körfezi atlardı."""
+    if abs(di) + abs(dj) < 3:
+        return True
+    si = 1 if di > 0 else -1
+    sj = 1 if dj > 0 else -1
+    if abs(di) == 2:
+        ara = ((i + si, j), (i + si, j + sj))
+    else:
+        ara = ((i, j + sj), (i + si, j + sj))
+    for a, b in ara:
+        if not (0 <= a < _kvnx and 0 <= b < _kvny) or not _kvkara[b * _kvnx + a]:
+            return False
+    return True
+
+
+def _nehir_kenar_kur(parcalar, siniflar, gecitler, tablo):
+    """Nehir hattını KESEN ızgara adımlarının ek bedelini kurar.
+
+    Döner: (bedel, bayrak, olcum)
+      bedel   {h*_KV_YS+yön: km-eşdeğeri}  — yalnız bedeli > 0 olan adımlar
+      bayrak  bytearray: h'den çıkan en az bir bedelli adım varsa 1
+      olcum   sayım sözlüğü (rapor için)
+    """
+    import numpy as _npn
+    # ① nehir hücreleri — her hat yarım ızgara adımıyla örneklenir
+    _hs = {}
+    _hatlar, _hsinif = [], []
+    for g, s in zip(parcalar, siniflar):
+        for ln in shapely.get_parts(g):
+            if ln.geom_type not in ("LineString", "LinearRing") or ln.is_empty:
+                continue
+            _hatlar.append(ln); _hsinif.append(s)
+            L = ln.length
+            n = max(2, int(L / (KV_ADIM * 0.5)) + 1)
+            pt = shapely.line_interpolate_point(ln, _npn.linspace(0.0, L, n))
+            ii = _npn.clip(((shapely.get_x(pt) - _kvx0) / KV_ADIM).astype(int), 0, _kvnx - 1)
+            jj = _npn.clip(((shapely.get_y(pt) - _kvy0) / KV_ADIM).astype(int), 0, _kvny - 1)
+            for h in set((jj * _kvnx + ii).tolist()):
+                _hs[h] = min(s, _hs.get(h, 9))
+    # ② aday kaynak hücreler: nehir hücresi ∪ 8 komşusu, yalnız KARA
+    _aday = set()
+    for h in _hs:
+        j, i = divmod(h, _kvnx)
+        for dj in range(-_KV_YARI, _KV_YARI + 1):
+            for di in range(-_KV_YARI, _KV_YARI + 1):
+                a, b = i + di, j + dj
+                if 0 <= a < _kvnx and 0 <= b < _kvny and _kvkara[b * _kvnx + a]:
+                    _aday.add(b * _kvnx + a)
+    # ③ aday adımlar (merkez → merkez) ve nehirle kesişim — vektörel
+    _anah, _x0s, _y0s, _x1s, _y1s = [], [], [], [], []
+    for h in _aday:
+        j, i = divmod(h, _kvnx)
+        cx = _kvx0 + (i + 0.5) * KV_ADIM
+        cy = _kvy0 + (j + 0.5) * KV_ADIM
+        for yi, (di, dj) in enumerate(_KV_YON):
+            a, b = i + di, j + dj
+            if not (0 <= a < _kvnx and 0 <= b < _kvny) or not _kvkara[b * _kvnx + a]:
+                continue
+            if YURUYUS_16 and not _kv_ara_kara(i, j, di, dj):
+                continue
+            _anah.append(h * _KV_YS + yi)
+            _x0s.append(cx); _y0s.append(cy)
+            _x1s.append(cx + di * KV_ADIM); _y1s.append(cy + dj * KV_ADIM)
+    olcum = {"nehir_hucre": len(_hs), "aday_hucre": len(_aday),
+             "aday_adim": len(_anah), "kesen_adim": 0,
+             "sinif1_adim": 0, "sinif2_adim": 0,
+             "gecit_indirimli": 0, "kopru_adim": 0, "gecit": len(gecitler)}
+    bedel, bayrak = {}, bytearray(_kvnx * _kvny)
+    if not _anah:
+        return bedel, bayrak, olcum
+    _seg = shapely.linestrings(
+        _npn.stack([_npn.column_stack([_x0s, _y0s]),
+                    _npn.column_stack([_x1s, _y1s])], axis=1))
+    _agac = STRtree(_hatlar)
+    _si, _hi = _agac.query(_seg, predicate="intersects")
+    _kes = {}                                   # seg → en pahalı sınıf (1 < 2)
+    for s_, h_ in zip(_si.tolist(), _hi.tolist()):
+        _kes[s_] = min(_hsinif[h_], _kes.get(s_, 9))
+    olcum["kesen_adim"] = len(_kes)
+    # ④ geçit indirimi — orta nokta, 0,5° (≈55 km) içindeki geçitler taranır;
+    #    en büyük `etki_km` 30 olduğu için pencere yeterli.
+    _gidx = sorted(_kes)
+    _mid = shapely.points(
+        (_npn.array([_x0s[k] for k in _gidx]) + _npn.array([_x1s[k] for k in _gidx])) / 2.0,
+        (_npn.array([_y0s[k] for k in _gidx]) + _npn.array([_y1s[k] for k in _gidx])) / 2.0)
+    _gbedel = {}
+    if gecitler:
+        _gpt = shapely.points([g[0] for g in gecitler], [g[1] for g in gecitler])
+        _mi, _gi = STRtree(_gpt).query(_mid, predicate="dwithin", distance=0.5)
+        for m_, g_ in zip(_mi.tolist(), _gi.tolist()):
+            glo, gla, tur, etki, _ = gecitler[g_]
+            tb = tablo.get(tur)
+            if tb is None:
+                continue
+            mx, my = shapely.get_x(_mid[m_]), shapely.get_y(_mid[m_])
+            if girdi.km(my, mx, gla, glo) <= etki:
+                _gbedel[m_] = min(tb, _gbedel.get(m_, float("inf")))
+    for m_, s_ in enumerate(_gidx):
+        sinif = _kes[s_]
+        saat = tablo["gecitsiz"][sinif]
+        olcum["sinif1_adim" if sinif == 1 else "sinif2_adim"] += 1
+        if m_ in _gbedel and _gbedel[m_] < saat:
+            saat = _gbedel[m_]
+            olcum["gecit_indirimli"] += 1
+            if saat == 0.0:
+                olcum["kopru_adim"] += 1
+        if saat > 0.0:
+            k = _anah[s_]
+            bedel[k] = saat * NEHIR_KM_SAAT
+            bayrak[k // _KV_YS] = 1
+    return bedel, bayrak, olcum
+
+
+_KVNEHIR = None
+if not NEHIR_KAPALI:
+    asama("Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)")
+    _nb_tablo = NEHIR_BEDEL_SAAT[NEHIR_OZNE]      # bilinmeyen özne → KeyError, sessiz değil
+    _nb_bedel, _nb_bayrak, _nb_olcum = _nehir_kenar_kur(
+        NEHIRLER, NEHIR_SINIFI, GECIT_KAYIT, _nb_tablo)
+    _KVNEHIR = (_nb_bedel, _nb_bayrak)
+    print(f"  özne {NEHIR_OZNE} · nehir hücresi {_nb_olcum['nehir_hucre']:,} · "
+          f"nehri KESEN adım {_nb_olcum['kesen_adim']:,} / {_nb_olcum['aday_adim']:,} aday")
+    print(f"  sınıf-1 {_nb_olcum['sinif1_adim']:,} · sınıf-2 {_nb_olcum['sinif2_adim']:,} · "
+          f"geçit indirimli {_nb_olcum['gecit_indirimli']:,} (köprü, bedelsiz "
+          f"{_nb_olcum['kopru_adim']:,}) · geçit kaydı {_nb_olcum['gecit']}")
+    print(f"  bedelli adım {len(_nb_bedel):,} · tablo {_nb_tablo}")
+else:
+    print(f"  🔴 NEHİR GEÇİŞ BEDELİ KAPALI (MOTOR_NEHIR_KAPALI="
+          f"{os.environ.get('MOTOR_NEHIR_KAPALI')} · sınıf listesi "
+          f"{'YOK' if NEHIR_SINIFI is None else 'var'}) — nehir bedeli 0")
+
+# Çok kaynaklı Dijkstra, YALNIZ kara hücreleri üzerinden. Adım maliyeti gerçek
+# km: boylam adımı cos(enlem) ile daralır, yoksa kuzeyde mesafeler şişer ve
+# Baltık/Norveç vakaları yanlış tarafa düşer.
+# ⚠️ VE ARTIK km DEĞİL, km × SÜRTÜNME + NEHİR BEDELİ (km-eşdeğeri).
+#    `_kvuzak` bu aşamadan sonra "kilometre" değil "yürüme bedeli" taşır;
+#    başka bir yerde mesafe diye OKUNMAMALIDIR. Birimi km-eşdeğeridir:
+#    ÷ 5,04 ile yürüyüş SAATİNE döner (MENZIL ②).
+#    (Bu aşamada yalnız KARŞILAŞTIRMA için kullanılıyor — hangi tohum daha
+#    ucuz — ve karşılaştırma için birim önemsizdir.)
+import heapq as _heapq
+asama("Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)")
+_KVDY = KV_ADIM * 111.32
+
+
+def _kv_dijkstra(surt, nehir=None):
+    """Çok kaynaklı Dijkstra. surt=None ise ağırlıksız (eski davranış);
+    nehir=None ise nehir geçişi bedelsiz (eski davranış).
+
+    ⚠️ İŞLEV HÂLİNE GETİRİLDİ ki AYNI KOD birden çok kez koşabilsin — eğimli
+    / eğimsiz, nehirli / nehirsiz. Kopyala-yapıştır ikinci bir gövde yazmak
+    daha kolaydı ve YANLIŞ olurdu: iki kopya zamanla ayrışır, ve ayrıştıkları
+    an A/B ölçümü sessizce anlamını yitirir. Karşılaştırmanın geçerliliği,
+    iki tarafın AYNI KOD olmasına bağlıdır. (`denetim/ARAC-MOTOR-NEHIR-0916.py`
+    bu işlevi dosyadan AST ile ÇEKİP koşturur — ayrı bir kopya yazmaz.)
+    """
+    uzak = [float("inf")] * (_kvnx * _kvny)
+    sahip = [-1] * (_kvnx * _kvny)
+    nbedel, nbayrak = nehir if nehir is not None else ({}, None)
+    q = []
+    for h, idxs in _kvtohum.items():
+        uzak[h] = 0.0
+        sahip[h] = idxs[0]
+        _heapq.heappush(q, (0.0, h))
+    while q:
+        d, h = _heapq.heappop(q)
+        if d > uzak[h]: continue
+        j, i = divmod(h, _kvnx)
+        dx = _KVDY * math.cos(math.radians(_kvy0 + (j + 0.5) * KV_ADIM))
+        nh = nbayrak is not None and nbayrak[h]
+        for yi, (di, dj) in enumerate(_KV_YON):
+            a, b = i + di, j + dj
+            if not (0 <= a < _kvnx and 0 <= b < _kvny): continue
+            k = b * _kvnx + a
+            if not _kvkara[k]: continue
+            if YURUYUS_16 and not _kv_ara_kara(i, j, di, dj): continue
+            # Sürtünme HEDEF hücreden okunur — `egim_olc.py:136` (`f = fr[jj][ii]`)
+            # kalibrasyonu birebir böyle yaptı. Kaynak hücreden ya da iki
+            # hücrenin ortalamasından okumak BAŞKA bir yüzeydir ve 0,005 orada
+            # ölçülmedi.
+            nd = d + math.hypot(dx * di, _KVDY * dj) * (surt[k] if surt else 1.0)
+            if nh:
+                nd += nbedel.get(h * _KV_YS + yi, 0.0)   # ② nehir: KENAR bedeli
+            if nd < uzak[k]:
+                uzak[k] = nd; sahip[k] = sahip[h]
+                _heapq.heappush(q, (nd, k))
+    return uzak, sahip
+
+
+_kvuzak, _kvsahip = _kv_dijkstra(_kvsurt, _KVNEHIR)
+print(f"  kara yolu çözüldü, erişilen hücre {sum(1 for s in _kvsahip if s >= 0):,}")
+
+# ---------------- ① A/B — EĞİMİN ETKİSİ, AYNI KOŞUNUN İÇİNDE ----------------
+# 🔴 NİÇİN VAR: `A1 tavanı` vakasının dersi *"bir düzeltme doğru çalışabilir ve
+# SONRAKİ AŞAMA onu geri alabilir, ve ikisi arasındaki boşluk hiçbir denetimin
+# sorusu değildir."* Eğim çarpanı için aynı soruyu sorabilmenin normal yolu iki
+# tam koşudur (eğimli + eğimsiz) — 160 dakika. Oysa ölçülmek istenen şey
+# aşamanın KENDİ içinde: aynı ızgara, aynı tohumlar, tek fark sürtünme.
+# ⇒ İkinci Dijkstra burada koşar (ölçülen maliyet: 1dk 38sn, koşunun %2,1'i) ve
+#   sonucu ÜRETİME HİÇ KARIŞMAZ; yalnız `_kvsahip0` olarak okunur.
+#
+# ⚠️ VE BU, ÖNGÖRÜNÜN MAZERETİNİ ORTADAN KALDIRIYOR. Öngörüyü yazarken tek
+# ölçemediğim şey *"ızgaradaki değişimin kaçı HARİTAYA iniyor"*du, çünkü o soru
+# PETEK_D'yi gerektiriyor ve PETEK_D koşuda doğuyor. Şimdi koşunun kendisi
+# cevaplıyor. `§11`: sonradan yazılan mazeret bulguya benzer — en iyisi mazeret
+# ihtiyacını KALDIRMAK.
+#
+# 📌 ÖLÇTÜĞÜM ile ÇIKARDIĞIM ayrı (B10): aşağıdaki sayı *"eğim yüzünden alıcısı
+# değişen parça"*dır. *"Haritanın eğim yüzünden ne kadar düzeldiği"* DEĞİLDİR —
+# onu ancak Emre'nin gözü ve kronoloji söyler.
+_kvsahip0 = None
+if _kvsurt is not None and not os.environ.get("MOTOR_EGIM_AB_KAPALI"):
+    asama("Kara-kısıtlı sahiplik: A/B ölçümü (eğimsiz ikinci Dijkstra)")
+    # ⚠️ Nehir bedeli İKİ TARAFTA DA aynı (`_KVNEHIR`) — fark yalnız EĞİM.
+    #    16 Eylül'den önce bu çağrı `_kv_dijkstra(None)` idi; nehir eklenince
+    #    öyle kalsaydı bu satır eğim + nehir farkını birlikte sayardı ve
+    #    ÖNGÖRÜ (166.966) ile karşılaştırması sessizce anlamını yitirirdi.
+    _kvuzak0, _kvsahip0 = _kv_dijkstra(None, _KVNEHIR)
+    _ab_hucre = sum(1 for _k in range(_kvnx * _kvny)
+                    if _kvsahip[_k] != _kvsahip0[_k])
+    _ab_er0 = sum(1 for s in _kvsahip0 if s >= 0)
+    _ab_er1 = sum(1 for s in _kvsahip if s >= 0)
+    print(f"  eğimsiz erişilen {_ab_er0:,} · eğimli erişilen {_ab_er1:,} "
+          + ("✓ AYNI" if _ab_er0 == _ab_er1 else
+             f"🔴 FARK {_ab_er1 - _ab_er0:+,} — eğim erişilebilirliği "
+             "DEĞİŞTİRMEMELİ, sürtünme sonludur"))
+    print(f"  ızgarada sahibi değişen hücre: {_ab_hucre:,} "
+          f"({100.0 * _ab_hucre / max(1, _ab_er1):.2f}% · ÖNGÖRÜ ~166.966 / %4,97)")
+    del _kvuzak0
+
+# ---------------- ② A/B — NEHİR BEDELİNİN ETKİSİ, AYNI KOŞUNUN İÇİNDE --------
+# Eğim A/B'sinin birebir aynası: aynı ızgara, aynı tohum, aynı sürtünme; tek
+# fark nehir kenar bedeli. Sonuç ÜRETİME KARIŞMAZ, yalnız `_kvsahipN` okunur.
+# Ölçülen maliyet: bir Dijkstra daha (eğim A/B'si ile aynı mertebe).
+# ÖNGÖRÜ koşudan ÖNCE ölçüm betiğiyle yazıldı: `denetim/MOTOR-0916.md` ②.
+_kvsahipN = None
+if _KVNEHIR is not None and not os.environ.get("MOTOR_NEHIR_AB_KAPALI"):
+    asama("Kara-kısıtlı sahiplik: A/B ölçümü (nehirsiz ikinci Dijkstra)")
+    _kvuzakN, _kvsahipN = _kv_dijkstra(_kvsurt, None)
+    _abn_hucre = sum(1 for _k in range(_kvnx * _kvny)
+                     if _kvsahip[_k] != _kvsahipN[_k])
+    _abn_er = sum(1 for s in _kvsahip if s >= 0)
+    print(f"  ② nehir bedeli yüzünden ızgarada sahibi değişen hücre: "
+          f"{_abn_hucre:,} ({100.0 * _abn_hucre / max(1, _abn_er):.2f}% · "
+          f"ÖNGÖRÜ: denetim/MOTOR-0916.md ②)")
+    del _kvuzakN
+
+# ---------------- 🚶 YÜRÜYÜŞ: bütçe bölgesi ve ızgara sahipliği ----------------
+_YR_UZAK, _YR_IZGARA = [], []       # 40 saatten UZAK eşyükselti parçaları · ızgaranın KARAR verdiği bölge
+_YR_UZAK_AGAC = _YR_IZGARA_AGAC = None
+_YR_SAHIP = None                    # ny×nx int32, Dijkstra sahibi (−1: karar yok)
+_YR_KARAR = None                    # ny×nx bool, ızgaranın karar verdiği hücre
+_YR_KORUMA = []                     # bütçe kesimi tohumun kendi yerini kesseydi → korunan adlar
+if MOTOR_YURUYUS:
+    asama(f"YÜRÜYÜŞ: {YURUYUS_SAAT:g} saatlik bütçe bölgesi (eşyükselti)")
+    import contourpy as _cp
+    from scipy import ndimage as _ndi
+    import rasterio.features as _rfe
+    from rasterio.transform import Affine as _Aff
+    _yr_n = _kvnx * _kvny
+    _YR_BUTCE = YURUYUS_SAAT * NEHIR_KM_SAAT          # km-eşdeğeri (MENZIL ②)
+    _yr_u = _np.fromiter(_kvuzak, dtype=_np.float32, count=_yr_n).reshape(_kvny, _kvnx)
+    _YR_SAHIP = _np.fromiter(_kvsahip, dtype=_np.int32, count=_yr_n).reshape(_kvny, _kvnx)
+    _yr_kara = _np.frombuffer(bytes(_kvkara), dtype=_np.uint8).reshape(_kvny, _kvnx) > 0
+    _yr_R = _yr_kara & (_YR_SAHIP >= 0)               # ızgaranın ERİŞTİĞİ kara
+    _yr_U = _yr_kara & ~_yr_R                         # tohumsuz bileşen / kaydırılamamış tohum
+    _yr_st = _np.ones((3, 3), dtype=bool)
+    # Karar bölgesi: erişilen kara + kıyı saçağı; tohumsuz karanın saçağı HARİÇ.
+    _YR_KARAR = _yr_R | (_ndi.binary_dilation(_yr_R, _yr_st, iterations=YURUYUS_SACAK)
+                         & ~_ndi.binary_dilation(_yr_U, _yr_st, iterations=YURUYUS_SACAK))
+    # Maliyet alanı: erişilen karada Dijkstra bedeli; saçakta en yakın erişilen
+    # hücreninki (komşu minimumu); karar dışında 0 (orada bütçe SORULMAZ, ③).
+    _yr_F = _np.where(_yr_R, _yr_u, _np.inf).astype(_np.float32)
+    for _ in range(YURUYUS_SACAK):
+        _yr_F = _np.where(_yr_R, _yr_F,
+                          _np.minimum(_yr_F, _ndi.minimum_filter(_yr_F, size=3, mode="nearest")))
+    _yr_F = _np.where(_YR_KARAR, _yr_F, 0.0).astype(_np.float32)
+    _yr_F[~_np.isfinite(_yr_F)] = 0.0
+    _yr_km2 = ((KV_ADIM * 111.32) ** 2
+               * _np.cos(_np.radians(_kvy0 + (_np.arange(_kvny) + 0.5) * KV_ADIM)))[:, None]
+    print(f"  bütçe {_YR_BUTCE:.1f} km-eşdeğeri · erişilen kara "
+          f"{float((_yr_km2 * _yr_R).sum()):,.0f} km² · bunun bütçe DIŞI "
+          f"{float((_yr_km2 * (_yr_R & (_yr_u > _YR_BUTCE))).sum()):,.0f} km² · "
+          f"tohumsuz kara {float((_yr_km2 * _yr_U).sum()):,.0f} km² (eski kurala kalır)")
+    # Karolar — eşyükselti ve karar bölgesi 5°'lik parçalar hâlinde kurulur ki
+    # kıyı kesiminde her petek yalnız kendi çevresindeki parçalarla kesilsin.
+    # Dolgu: çerçevede yarım hücre eksik kalmasın diye alan bir hücre genişletilir.
+    _yr_px = _np.concatenate([[_kvx0], _kvx0 + (_np.arange(_kvnx) + 0.5) * KV_ADIM,
+                              [_kvx0 + _kvnx * KV_ADIM]])
+    _yr_py = _np.concatenate([[_kvy0], _kvy0 + (_np.arange(_kvny) + 0.5) * KV_ADIM,
+                              [_kvy0 + _kvny * KV_ADIM]])
+    _yr_pF = _np.pad(_yr_F, 1, mode="edge")
+    _yr_ust = float(_yr_pF.max()) + 1.0
+    _yr_T = int(round(YURUYUS_KARO / KV_ADIM))
+    for _j0 in range(0, _kvny + 1, _yr_T):
+        _j1 = min(_j0 + _yr_T, _kvny + 1)
+        for _i0 in range(0, _kvnx + 1, _yr_T):
+            _i1 = min(_i0 + _yr_T, _kvnx + 1)
+            _sub = _yr_pF[_j0:_j1 + 1, _i0:_i1 + 1]
+            if float(_sub.max()) <= _YR_BUTCE:
+                continue
+            _gen = _cp.contour_generator(_yr_px[_i0:_i1 + 1], _yr_py[_j0:_j1 + 1], _sub,
+                                         fill_type=_cp.FillType.OuterOffset)
+            _pl, _ol = _gen.filled(_YR_BUTCE, _yr_ust)
+            for _pts, _ofs in zip(_pl, _ol):
+                _hl = [_pts[_ofs[_k]:_ofs[_k + 1]] for _k in range(len(_ofs) - 1)]
+                _hl = [_h for _h in _hl if len(_h) >= 4]
+                if not _hl:
+                    continue
+                _pg = Polygon(_hl[0], _hl[1:]).buffer(0)
+                if not _pg.is_empty:
+                    _YR_UZAK.append(_pg)
+    # Karar bölgesi — raster (kıyı saçağı ve tohumsuz kara sınırı; ikisi de
+    # kıyı kesimi ve A1 tavanı tarafından ayrıca çizilen yerler).
+    _yr_Kf = _np.flipud(_YR_KARAR).astype(_np.uint8)          # satır 0 = KUZEY
+    for _j0 in range(0, _kvny, _yr_T):
+        for _i0 in range(0, _kvnx, _yr_T):
+            _w = _yr_Kf[_j0:_j0 + _yr_T, _i0:_i0 + _yr_T]
+            if not _w.any():
+                continue
+            _tr = _Aff(KV_ADIM, 0.0, _kvx0 + _i0 * KV_ADIM,
+                       0.0, -KV_ADIM, _kvy0 + (_kvny - _j0) * KV_ADIM)
+            for _gj, _v in _rfe.shapes(_w, mask=_w > 0, transform=_tr, connectivity=8):
+                _pg = shape(_gj).buffer(0)
+                if not _pg.is_empty:
+                    _YR_IZGARA.append(_pg)
+    _YR_UZAK_AGAC = STRtree(_YR_UZAK)
+    _YR_IZGARA_AGAC = STRtree(_YR_IZGARA)
+    print(f"  40 saatten uzak eşyükselti parçası {len(_YR_UZAK):,} · "
+          f"karar bölgesi parçası {len(_YR_IZGARA):,}")
+    del _yr_u, _yr_F, _yr_pF, _yr_Kf, _yr_R, _yr_U
+
+
+def _yr_yerel_dijkstra(kaynak, izinli, tavan):
+    """🚶 Kısıtlı çok kaynaklı Dijkstra — üretim Dijkstra'sının (`_kv_dijkstra`)
+    AYNI adım bedeliyle (hedef hücre sürtünmesi · nehir kenarı · 16 komşuda ara
+    hücre şartı). `kaynak` [(bedel, hücre, sahip)] · `izinli` gevşetilebilir hücre
+    kümesi (None = bütün kara) · `tavan` km-eşdeğeri üst sınır (ötesi YAZILMAZ).
+    Döner {hücre: (bedel, sahip)} — kaynak hücreler dahil.
+    Paylaşılan hiçbir durumu değiştirmez (iş parçacığı güvenli)."""
+    nbedel, nbayrak = _KVNEHIR if _KVNEHIR is not None else ({}, None)
+    surt = _kvsurt
+    en = {}
+    q = []
+    for d, h, sa in kaynak:
+        if d <= tavan and (h not in en or d < en[h][0]):
+            en[h] = (d, sa)
+            _heapq.heappush(q, (d, h))
+    while q:
+        d, h = _heapq.heappop(q)
+        if d > en[h][0]:
+            continue
+        sa = en[h][1]
+        j, i = divmod(h, _kvnx)
+        dx = _KVDY * math.cos(math.radians(_kvy0 + (j + 0.5) * KV_ADIM))
+        nh = nbayrak is not None and nbayrak[h]
+        for yi, (di, dj) in enumerate(_KV_YON):
+            a, b = i + di, j + dj
+            if not (0 <= a < _kvnx and 0 <= b < _kvny):
+                continue
+            k = b * _kvnx + a
+            if not _kvkara[k]:
+                continue
+            if izinli is not None and k not in izinli:
+                continue
+            if YURUYUS_16 and not _kv_ara_kara(i, j, di, dj):
+                continue
+            nd = d + math.hypot(dx * di, _KVDY * dj) * (surt[k] if surt else 1.0)
+            if nh:
+                nd += nbedel.get(h * _KV_YS + yi, 0.0)
+            if nd > tavan:
+                continue
+            if k not in en or nd < en[k][0]:
+                en[k] = (nd, sa)
+                _heapq.heappush(q, (nd, k))
+    return en
+
+
+def _yr_etiket_poligon(L, i0, j0):
+    """🚶 Etiket penceresi (satır 0 = GÜNEY, −1/−2 = etiketsiz) → {etiket: poligon}.
+    Petek kurulumundaki yolun aynısı: rasterio parçaları tek ağda düğümlenir,
+    örtü birleşir ve sadeleşir (ızgara basamağı kalmasın)."""
+    _tr = _Aff(KV_ADIM, 0.0, _kvx0 + i0 * KV_ADIM,
+               0.0, -KV_ADIM, _kvy0 + (j0 + L.shape[0]) * KV_ADIM)
+    _Lf = _np.ascontiguousarray(_np.flipud(L)).astype(_np.int32)
+    _pa, _sa = [], []
+    for _gj, _v in _rfe.shapes(_Lf, mask=_Lf >= 0, transform=_tr, connectivity=4):
+        _pa.append(shape(_gj))
+        _sa.append(int(_v))
+    if not _pa:
+        return {}
+    _ag = STRtree(_pa)
+    _gr = {}
+    for _f in polygonize(unary_union(
+            [_r for _p in _pa for _r in [_p.exterior, *_p.interiors]])):
+        _q = _ag.query(_f.representative_point(), predicate="within")
+        if len(_q) != 1:
+            continue                      # maske dışı delik yüzü
+        _gr.setdefault(_sa[int(_q[0])], []).append(_f)
+    _ids = sorted(_gr)
+    _ps = [shapely.coverage_union_all(_gr[k]) if len(_gr[k]) > 1 else _gr[k][0]
+           for k in _ids]
+    return dict(zip(_ids, shapely.coverage_simplify(_ps, YURUYUS_SADE)))
+
+
+def _yr_epok_onar(olu):
+    """🚶 EPOK DEVRİ (b) — `olu` tohumlarının ızgara hücreleri, CANLI komşu
+    hücrelerden (kendi üretim bedelleriyle) tohumlanan kısıtlı Dijkstra ile
+    yeniden dağıtılır. Canlı bir hücrenin mesafesi ölü tohumun silinmesinden
+    ETKİLENMEZ (en yakın tohumu zaten canlı) ⇒ sonuç, epok başına tam Dijkstra
+    koşmakla AYNIDIR. Bütçe (40 saat) aşılırsa hücre sahipsiz kalır (−2).
+    Döner (D, yeni): D ölülerin hücreleri (düz indis), yeni sahip ya da −2."""
+    _ol = _np.fromiter(olu, dtype=_np.int32)
+    _Dm = _np.isin(_YR_SAHIP, _ol)
+    D = _np.flatnonzero(_Dm.ravel())
+    if D.size == 0:
+        return D, _np.zeros(0, dtype=_np.int32)
+    Dset = set(D.tolist())
+    kaynak = []
+    for h in D.tolist():                  # aynı hücreyi paylaşan CANLI tohum
+        for idx in _kvtohum.get(h, ()):
+            if idx not in olu:
+                kaynak.append((0.0, h, idx))
+                break
+    # sınır halkası: ölü bölgeye bitişik (16 komşuda 2 hücre) canlı kara hücreleri
+    _hl = _ndi.binary_dilation(_Dm, _np.ones((5, 5), dtype=bool)) & ~_Dm
+    _hl &= _YR_SAHIP >= 0
+    for k in _np.flatnonzero(_hl.ravel()).tolist():
+        d = _kvuzak[k]
+        if d <= _YR_BUTCE:
+            kaynak.append((d, k, int(_YR_SAHIP.flat[k])))
+    en = _yr_yerel_dijkstra(kaynak, Dset | {k for _, k, _ in kaynak}, _YR_BUTCE)
+    yeni = _np.array([en[h][1] if h in en else -2 for h in D.tolist()], dtype=_np.int32)
+    return D, yeni
+
+
+def _yr_kes(geo, i):
+    """🚶 A1 tavanının yerine: `geo`dan 40 saatten uzak olanı çıkar; ızgaranın
+    karar vermediği payda ESKİ tavanı (TAVAN_DAIRE[i]) uygula. Tohumun kendi
+    yeri asla kesilmez (Değişmez 1) — keserse korunur ve ADIYLA sayılır."""
+    kes = geo
+    for _q in _YR_UZAK_AGAC.query(geo):
+        kes = kes.difference(_YR_UZAK[int(_q)])
+    if not kes.is_empty:
+        dis = kes
+        for _q in _YR_IZGARA_AGAC.query(kes):
+            dis = dis.difference(_YR_IZGARA[int(_q)])
+        if not dis.is_empty and dis.area > 0:
+            kes = kes.difference(dis.difference(TAVAN_DAIRE[i]))
+    kes = poligonal(kes)
+    _p = noktalar[i]
+    if geo.intersects(_p) and not kes.intersects(_p):
+        kes = poligonal(unary_union([kes, geo.intersection(_p.buffer(KV_ADIM))]))
+        _YR_KORUMA.append(YERLER[i]["ad"])
+    return kes
+
+
+# ---------------- Petekler (Voronoi) ----------------
+asama("Petekler üretiliyor (Voronoi)")
+noktalar = [Point(y["lon"], y["lat"]) for y in YERLER]
+vd = voronoi_diagram(MultiPoint(noktalar), envelope=BOLGE, tolerance=0.0)
+hucreler = list(vd.geoms)
+# her hücreyi içindeki noktayla eşle
+PETEK = [None] * len(YERLER)
+for h in hucreler:
+    for i, p in enumerate(noktalar):
+        if PETEK[i] is None and h.contains(p):
+            PETEK[i] = h.intersection(BOLGE)
+            break
+eksik = [i for i, p in enumerate(PETEK) if p is None]
+for i in eksik:                              # nadiren eşleşmezse en yakın hücre
+    PETEK[i] = min(hucreler, key=lambda h: h.distance(noktalar[i])).intersection(BOLGE)
+print(f"  {len(PETEK)} petek ({len(eksik)} yedek eşleşme)")
+if MOTOR_YURUYUS:
+    asama("YÜRÜYÜŞ: petekler ızgaradan (Dijkstra sahibi; karar dışında Voronoi)")
+    _yr_tr = _Aff(KV_ADIM, 0.0, _kvx0, 0.0, -KV_ADIM, _kvy0 + _kvny * KV_ADIM)
+    # Voronoi sahibi hücre MERKEZİNDEN (rasterize: merkez kuralı) — satır 0 KUZEY
+    _yr_V = _rfe.rasterize(((PETEK[i], i) for i in range(len(PETEK))
+                            if PETEK[i] is not None and not PETEK[i].is_empty),
+                           out_shape=(_kvny, _kvnx), transform=_yr_tr,
+                           fill=-1, dtype="int32")
+    for _ in range(3):                    # sınırın tam üstüne düşen merkez (nadir)
+        _yr_bos = _yr_V < 0
+        if not _yr_bos.any():
+            break
+        _yr_V = _np.where(_yr_bos, _ndi.maximum_filter(_yr_V, size=3), _yr_V)
+    if (_yr_V < 0).any():
+        raise SystemExit(f"YÜRÜYÜŞ: {int((_yr_V < 0).sum())} hücrenin Voronoi sahibi "
+                         "bulunamadı — örtü eksik kurulurdu. Koşu durduruldu.")
+    _yr_G = _np.where(_np.flipud(_YR_SAHIP >= 0) & _np.flipud(_YR_KARAR),
+                      _np.flipud(_YR_SAHIP), _yr_V).astype(_np.int32)
+    del _yr_V
+    # 🔴 DÜĞÜMLEME ŞART — ölçüldü (sınav, 17 Eylül): rasterio'nun parçaları ortak
+    #    kenarda AYNI köşeleri taşımıyor (T-kavşağı: A'nın uzun kenarında B ile
+    #    C'nin köşesi yok). GEOS böyle bir örtüyü GEÇERSİZ sayar ve
+    #    coverage_simplify basamağı SESSİZCE sadeleştiremez (434/434 bozuk kenar).
+    #    Bütün halkalar TEK ağda düğümlenip yeniden poligonlaştırılır; yüzler
+    #    parçalarla birebirdir (sınav: 11.344 = 11.344), örtü geçerli çıkar.
+    _yr_parca, _yr_sahip = [], []
+    for _gj, _v in _rfe.shapes(_yr_G, transform=_yr_tr, connectivity=4):
+        _yr_parca.append(shape(_gj))
+        _yr_sahip.append(int(_v))
+    del _yr_G
+    _yr_yuz = list(polygonize(unary_union(
+        [_r for _p in _yr_parca for _r in [_p.exterior, *_p.interiors]])))
+    _yr_pagac = STRtree(_yr_parca)
+    _yr_grup = {}
+    for _f in _yr_yuz:
+        _q = _yr_pagac.query(_f.representative_point(), predicate="within")
+        if len(_q) != 1:
+            raise SystemExit(f"YÜRÜYÜŞ: düğümlenmiş yüz {len(_q)} parçaya düştü — "
+                             "örtü kurulamadı. Koşu durduruldu.")
+        _yr_grup.setdefault(_yr_sahip[int(_q[0])], []).append(_f)
+    print(f"  ızgara parçası {len(_yr_parca):,} · düğümlenmiş yüz {len(_yr_yuz):,} "
+          + ("✓" if len(_yr_parca) == len(_yr_yuz) else "✗ SAYI FARKLI"))
+    del _yr_parca, _yr_sahip, _yr_yuz, _yr_pagac
+    _yr_eski = PETEK
+    PETEK = [Polygon() for _ in YERLER]
+    for _v, _ps in _yr_grup.items():
+        PETEK[_v] = (shapely.coverage_union_all(_ps) if len(_ps) > 1 else _ps[0])
+    _yr_bos_n = sum(1 for g in PETEK if g.is_empty)
+    # boş (hücresiz) tohumlar sadeleştirmeye VERİLMEZ — GEOS örtüsü boş öğe istemez
+    _yr_dolu = [i for i, g in enumerate(PETEK) if not g.is_empty]
+    for i, g in zip(_yr_dolu, shapely.coverage_simplify(
+            [PETEK[i] for i in _yr_dolu], YURUYUS_SADE)):
+        PETEK[i] = g
+    _yr_gecersiz = sum(1 for x in shapely.coverage_invalid_edges(
+        [g for g in PETEK if not g.is_empty]) if x is not None and not x.is_empty)
+    _yr_disari = [YERLER[i]["ad"] for i in range(len(PETEK))
+                  if not PETEK[i].is_empty and not PETEK[i].intersects(noktalar[i])]
+    print(f"  {len(_yr_grup)} sahipli tohum · hücresiz tohum {_yr_bos_n} "
+          f"(aynı ızgara hücresini paylaşan — örtüde mini-Voronoi böler) · "
+          f"örtü bozuk kenar {_yr_gecersiz} "
+          + ("✓" if _yr_gecersiz == 0 else "✗"))
+    print(f"  tohumu kendi hücresinin DIŞINDA kalan {len(_yr_disari)}"
+          + (f": {', '.join(_yr_disari[:10])}" if _yr_disari else " ✓"))
+    _yr_deg = sum(1 for i in range(len(PETEK))
+                  if not _yr_eski[i].is_empty and not PETEK[i].is_empty
+                  and _yr_eski[i].symmetric_difference(PETEK[i]).area
+                  > 0.25 * _yr_eski[i].area)
+    print(f"  Voronoi hücresinden %25'ten fazla ayrışan petek: {_yr_deg}")
+    del _yr_eski, _yr_grup
+
+# ---------------- A1: YARIÇAP TAVANI ----------------
+# 🔴 EMRE, 8 Ağustos 2026: "Bir yerleşim yerinin idarî, askerî, sosyal,
+# siyasal olarak hükmedeceği alan bellidir… uçsuz bucaksız toprağa, çöle,
+# bozkıra, ormana ancak X kilometre kadar hâkim olabilir."
+# Doğru, ve bu tavan motorda YOKTU: Voronoi hücresi komşu bulamayınca
+# sonsuza kadar büyüyordu. Ölçülmüş sonucu: `banda-adalari` 573.188 km²
+# boyuyordu — kendi yüzölçümünün (~180 km²) ~3.200 KATI.
+#
+# ⚠️ VE X BİR KİLOMETRE DEĞİL, BİR GÜN SAYISIDIR. Ölçüldü: yoğun ve
+# gerçekçi modellenmiş bölgelerde komşu mesafesi Batı Anadolu 17 km
+# (yarım günlük yürüyüş), Trakya ve Nil vadisi 33-34 km (bir günlük).
+# Veriye bu konmadı — ÖLÇÜNCE ÇIKTI.
+#
+# 🔴 İLK TABLO YÜRÜYÜŞ HIZINDAN TÜRETİLDİ VE ÇOK SIKIYDI. Kara maskesinden
+# SONRA ölçülüp çarpan süpürüldü (ölçüt: tavan BOŞ bölgede bağlasın, YOĞUN
+# bölgede HİÇ bağlamasın):
+#     çarpan  kayıp%  bağlanan   B.Anadolu · Trakya · Nil · İtalya · Fransa
+#       1.5   33.8%     507        0 · 0 · 12 · 0 · 0
+#       2.0   23.1%     304        0 · 0 ·  4 · 0 · 0    ← SEÇİLDİ
+#       3.0   11.8%     126        hepsi 0
+# ⚠️ Nil'in 4'ü YANLIŞ POZİTİF DEĞİL: Nil yerleşimleri BİR ÇİZGİ boyunca
+# yoğundur, hücreleri çöle sarkar. Asyût'un peteğinin Sahra'ya 400 km
+# uzanması ZATEN yanlıştı; tavan onu kesiyor. Testin "yoğun bölge" tanımı
+# ALAN yoğunluğuna bakıyor, DİZİLİME değil.
+#
+# 🟢 VE ASIL DOĞRULAMA SAYIDA DEĞİL, KESİLENLERİN KİMLİĞİNDE: en çok
+# kesilen 20 peteğin YİRMİSİ DE çöl, yağmur ormanı, tundra ya da yüksek
+# yayla (Timbuktu -2,45 M km² · Ndjamena -1,29 M · Agadez -914 bin ·
+# Kisangani -598 bin · Hatanga · Şigatse · Dunhuang · Hotan…).
+# LİSTEDE TEK BİR TARIM ÇEKİRDEĞİ YOK.
+#
+# 📌 Ve tavanın bedava bir kazancı var: Sahra ve Rub'ul Hâlî'deki DOLGU
+# NOKTALARI sırf emilmeyi engellemek için konmuş bir HİLEYDİ; tavan o işi
+# yapısal olarak yapınca emekli edilebilirler.
+# 🔴 27 Ağustos 2026 — TAVANLAR DÜŞÜRÜLDÜ (MOTOR ÜÇ KALEM, Emre'nin kararı)
+# ESKİ: {1: 700, 2: 420, 3: 280, 4: 140, 0: 280}   ("ölçülmüş: TABAN × 2,0")
+# Emre: *"İstanbul Moskova Kahire Paris Budin Tebriz Cezayir gibi merkezlere
+#        700 km vermek çok değil mi… bu iki gruba da 400 km mi vermek lazım."*
+# Ve k1/k2 ayrımının pratik faydası yok: Cezayir · Budin · Kahire Osmanlı'da
+# EYALET MERKEZİ, öncesinde BAŞKENT — `k:` zamansız olduğu için ayrım zaten
+# temsil edilemiyor.
+#
+# 🟢 SARSINTI ÖLÇÜLDÜ — ~8 nokta / 1243 (koordinatörün ölçümü):
+#     k1 200 nokta · medyan komşu 98 km · 700→400 · tavana çarpan  3  (%1,5)
+#     k2 203 nokta · medyan komşu 68 km · 420→400 · tavana çarpan  1  (%0,5)
+#     k3 327 nokta · medyan komşu 42 km · 280→200 · tavana çarpan  4  (%1,2)
+#     k4 513 nokta · medyan komşu 37 km · 140→100 · tavana çarpan ~0
+#   Sebebi yapısal: komşular 40-100 km ötede ve Voronoi sınırı ZATEN ortadan
+#   geçiyor — tavan devreye girmeden iş bitiyor. Tavan yalnız KOMŞUSU UZAK
+#   yerde çalışır, yani tam Sahra/Arabistan/Sibirya'da.
+#
+# ⚠️ `k0` 280'DE KALIYOR — GEÇİCİ ve gerekçeli: k0'ın 1363 kaydı arasında
+#    Viyana · Venedik · Kiev var. Onlara 200 km vermek, İnegöl'e verdiğimizle
+#    aynı hakkı tanımak olurdu. `KADEME K0` oturumu k0'ları doldurunca bu
+#    istisna KENDİLİĞİNDEN gereksizleşir ve kaldırılır.
+# 🔴 28 AĞUSTOS 2026 — GERİ ALINDI. Ölçüm öngörüyü çürüttü.
+# Emre'nin seçtiği {1:400, 2:400, 3:200, 4:100} bir koşu koştu ve
+# ÖLÇÜLDÜ (aynı betik, eski ve yeni donemler.js üzerinde):
+#     gün    ESKİ toplam   YENİ toplam    fark
+#     1600     6.131.732     5.478.894   −%10,6
+#     1700     5.404.785     4.749.515   −%12,1
+#     1800     5.175.521     4.304.332   −%16,8
+#     1900     4.465.407     3.616.228   −%19,0
+# Koşudan ÖNCE yazılmış öngörü ⑥ "Osmanlı doğrudan + tâbi TOPLAMI ±%2"
+# diyordu ve MAZERETSİZ ilan edilmişti. Çürüdü ⇒ yayın durduruldu.
+#
+# 📌 NİÇİN TAHMİN TUTMADI — ders burada: etki "komşu medyanı" ile
+# tahmin edilmişti (~8 nokta tavana çarpar). Ama tavan komşu ortasında
+# KESMİYOR, peteğin YARIÇAPINI MUTLAK kırpıyor. Komşusu uzak bir nokta
+# 700 yerine 400 km'de bitiyor ve aradaki toprak SAHİPSİZ kalıyor —
+# sınır kaymıyor, HARİTADA DELİK açılıyor.
+# ⇒ "Kaç nokta tavana çarpar" yanlış soruydu; doğrusu "tavan kaç km²
+#   toprağı sahipsizleştirir".
+#
+# Çöl derdinin asıl çaresi COL_PUAN_ESIK'tir (aşağıda, 4→8) ve o koşuda
+# ÇALIŞTI: 14.468 petek-gün çölde takıldı. Tavan indirimi onun yanında
+# ek kazanç getirmiyor, ağır bedel bindiriyordu.
+# 🔴🔴 EMRE'NİN KARARI, 2 Eylül 2026 — HEPSİ 200 KM.
+#   "BEN ÇÖL TAVANI GİBİ MESELELERDE HANGİ TİP ŞEHİR OLDUĞUNA BAKILMAKSIZIN
+#    K1 K2 K3 K4 HEPSİ İÇİN 200 KM TAVAN BELİRLENMESİ GEREKTİĞİNİ
+#    DÜŞÜNÜYORUM."   ve sonra:   "HEPSİ 200 OLSUN, BİR GÖRELİM, SONRA
+#    DEĞİŞTİRİRİZ GEREKİRSE."
+#
+#   ESKİ: {1: 700, 2: 420, 3: 280, 4: 140, 0: 280}
+#   Ara bir tur "K4 = 140, ötekiler 200" denendi ve Emre onu da 200'e
+#   çekti — yani kademeye göre AYRIM KALDIRILDI, bilerek.
+#
+# ⚠️ ÖNGÖRÜ DAMGALI VE KOŞUDAN ÖNCE YAZILDI: `denetim/ONGORU-TAVAN-200.md`
+#   Koşudan sonra o dosyanın tablosu doldurulacak. Öngörü tutmazsa
+#   MAZERET ARANMAYACAK — çürüyen kalem bilgi taşır.
+#
+# 📌 VE BU BİR DENEY: Emre "bir görelim" dedi, "böyle kalsın" demedi.
+#   Sonuç ölçülüp ona gösterilecek; tavan geri alınabilir.
+TAVAN_KM = {1: 200, 2: 200, 3: 200, 4: 200, 0: 200}
+_TV_BAGLI = set()          # tavanın BAĞLADIĞI hücrelerin indisleri (§KIYI'de dolar)
+_tv_once = _tv_sonra = 0.0
+
+def _tavan_daire(p, r_km, lat):
+    """Enlem düzeltmeli tavan elipsi. Boylam derecesi enlemle kısalır."""
+    dy = r_km / 111.32
+    dx = r_km / (111.32 * max(0.15, math.cos(math.radians(lat))))
+    return _scale(p.buffer(1.0, quad_segs=24), xfact=dx, yfact=dy, origin=p)
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴 A1b: TAVAN ARTIK İZOTROP DEĞİL — YÖNE DUYARLI  (MOTOR TAVAN-YÖN, 12 Ağu 2026)
+# ═══════════════════════════════════════════════════════════════════════════
+# EMRE, beş ekran görüntüsüyle:
+#   "Pergelle çizilmiş gibi yuvarlak alanlar boyamış… O merkezden çizilen
+#    çemberin çaplarına insan yolculuğu sanki çöl ya da düz ova imiş gibi aynı
+#    uzaklıkta mı? O çember etrafındaki 8 noktayı düşün, her birisi için farklı
+#    uzaklıklar, engeller söz konusu."
+#   "Yuan hânedanının toprakları birbirinden hep ayrık… arada sahipsiz kalan
+#    bu topraklar nasıl yapılmalı?"
+#
+# Teşhis birebir doğruydu: `_tavan_daire` İZOTROP bir elips çizer — her yöne
+# aynı. ÖLÇÜLDÜ (12 Ağu, 2356 taban, ham Voronoi ∩ gerçek kara maskesi):
+#     A1 tavanı 391/2356 noktayı bağlıyor · 17.198.016 km² kesiyor
+#     = KARA'nın %22,9'u   (motorun kendi logu, koşu 4b: %23,0 — çapraz doğrulama)
+#
+# 📌 VE ÇÖL TAVANI (:1549) BUNU YAPMIYOR, YAPAMAZ: COL_TAVAN_KM = 300 iken
+#    k0=280 · k3=280 · k4=140 hepsi ALTINDA ⇒ o kademelerde A1 zaten daha
+#    içeride, çöl tavanı YAPISAL OLARAK hiçbir şey kesemez (2283/2356 nokta).
+#    Sahra çemberlerini adı "çöl tavanı" olan şey DEĞİL, A1 çiziyor.
+#
+# ── KURAL, tek cümlede ─────────────────────────────────────────────────────
+#   Tavan ŞEKİL değiştirir, BOYUT değiştirmez: komşusu uzak olan yöne uzanır,
+#   yakın olan yöne çekilir — ve BOYADIĞI ALAN AYNI KALIR.
+#
+# 🔴 NİÇİN ALAN KORUNUYOR — İKİ ADIMDA ÖĞRENİLDİ, İKİSİ DE ÖLÇÜLEREK.
+#
+# ① İLK BİÇİM komşusuz sektöre de `k·r` veriyordu, yani BOŞLUĞA doğru
+#    büyütüyordu. Ölçüm iyi görünüyordu ve tam bu yüzden tehlikeliydi: boşluğa
+#    büyümek tavanın VAR OLUŞ SEBEBİNİ geri getirir (`banda-adalari`
+#    573.188 km² — kendi yüzölçümünün ~3.200 katı).
+#
+# ② İKİNCİ BİÇİM yalnız gerçek komşuya doğru büyütüyordu. ÖLÇÜLDÜ (2362 taban),
+#    ve KENDİ GEREKÇESİNİ ÇÜRÜTTÜ:
+#        k_üst   kopuk çift %          en büyük petek     Osmanlı      toplam
+#                Sahra/Himalaya/Yuan
+#        1,0        11 / 11 / 18          245.514 km²          +0       +0,00%
+#        1,5         8 /  8 / 16          375.863 km²    +225.274       +5,23%
+#        2,0         8 /  8 / 16          539.518 km²    +272.170       +7,37%
+#    ⇒ Boşluğu neredeyse HİÇ kapatmıyor (%18 → %16), ama en büyük peteği
+#      `banda-adalari` bölgesine taşıyor. **Bedel büyük, kazanç yok.**
+#
+# 🟢 VE ASIL TEŞHİS (koordinatör, 12 Ağustos): EKSEN YANLIŞTI.
+#        Emre ne dedi   "pergelle çizilmiş gibi YUVARLAK"  → ŞEKİL kusuru
+#        gevşetme       alanı büyütür                      → BOYUT değişimi
+#    ***Daireyi kırmak için alanı büyütmek gerekmiyor.*** Ve büyütmek zaten
+#    kırmıyor: DAHA BÜYÜK BİR ÇEMBER, ÇEMBER OLMAKTAN ÇIKMAZ.
+#
+# ── NİÇİN "d/2" ────────────────────────────────────────────────────────────
+# Komşu d km ötedeyse Voronoi sınırı zaten TAM ORTADAN (d/2) geçer. Şeklin o
+# yöndeki ham ölçüsü d/2'dir: "bu yönde sınırımı komşum çiziyor" demek.
+# Normalizasyon bu ham ölçüleri, alanı bozmadan, bir çokgene çevirir.
+#
+# ── ALAN KORUMA NASIL ──────────────────────────────────────────────────────
+# İki kademe, ve İKİSİ DE yapısal:
+#   ① TAVAN BAĞLAMIYORSA (hücre zaten dairenin içinde) → DAİRENİN KENDİSİ
+#      döndürülür. Ölçüldü: 2362 noktanın ~1970'i böyle ⇒ o noktalarda çıktı
+#      BUGÜNKÜNÜN BİREBİR AYNISI, tek bit değişmez.
+#   ② TAVAN BAĞLIYORSA → λ ölçeği, kesilen alanın DEĞİŞMEMESİ şartıyla
+#      ikiye bölme (bisection) ile çözülür:
+#           alan(hücre ∩ çokgen(λ·w))  =  alan(hücre ∩ daire(R))
+#      ⇒ Osmanlı alanı öngörüsü bir UMUT değil, HESABIN KENDİSİ.
+#
+# ⚠️ NİÇİN DİSK ALANINI EŞİTLEMEK YETMEZDİ: normalizasyon `∮r²dθ/2 = πR²`
+#    diskin alanını korur, ama BOYANAN alan `hücre ∩ tavan`dır. Şekil, tavanın
+#    BAĞLADIĞI yöne (hücrenin büyük olduğu yön) uzanıp bağlamadığı yöne
+#    (hücrenin zaten küçük olduğu yön) çekilir ⇒ kesişim SİSTEMATİK OLARAK
+#    BÜYÜR. Yani disk-normalizasyonu "alan korundu" der ve boyanan alan artar.
+#    📌 Bu, bu projenin "denetim var ≠ o soruyu soruyor" ailesinin ta kendisi:
+#       doğru büyüklüğü korumak yetmiyor, DOĞRU BÜYÜKLÜĞÜ korumak gerekiyor.
+_TV_ANIZ_KAT = 1.75        # şekil oranı sınırı: hiçbir yön medyanın ±bu katından
+                           # öteye gidemez (dar mızrak çıkmasın diye)
+_TV_SEKTOR = 16            # yön çözünürlüğü (22,5°)
+_TV_KOSE = 128             # çokgen köşe sayısı
+_TV_BISEC = 24             # λ için ikiye bölme adımı
+
+# Voronoi komşuluğu — "o yönde komşu var mı" sorusunun EVRENİ budur.
+# ⚠️ Neden en-yakın-N nokta DEĞİL: bir nokta bana yakın olsa bile araya başka
+#    bir hücre giriyorsa benim sınırımı O belirlemez. Tavanın soracağı soru
+#    "bu yönde sınırımı kim çiziyor" — cevabı Voronoi komşuluğudur.
+_tv_hucre_agac = STRtree(PETEK)
+_TV_KOMSULAR = []
+for _i in range(len(YERLER)):
+    _ks = []
+    if PETEK[_i] is not None and not PETEK[_i].is_empty:
+        for _k in _tv_hucre_agac.query(PETEK[_i]):
+            _k = int(_k)
+            if _k == _i or PETEK[_k] is None or PETEK[_k].is_empty:
+                continue
+            try:
+                if PETEK[_i].intersection(PETEK[_k]).length > 1e-9:
+                    _ks.append(_k)
+            except Exception:
+                pass
+    _TV_KOMSULAR.append(_ks)
+print(f"     Voronoi komşuluğu kuruldu · ortalama komşu "
+      f"{sum(len(k) for k in _TV_KOMSULAR)/max(len(YERLER),1):.1f}")
+
+
+def _tv_ham_olcu(i):
+    """Sektör başına HAM şekil ölçüsü w_s (km). Voronoi komşusu olan yönde
+    d/2 (komşuyla bölüşüm çizgisi); olmayan yönde, iki yanındaki dolu
+    sektörlerden AÇISAL ARA DEĞER — sabit bir sayı uydurulmuyor."""
+    y = YERLER[i]
+    la, lo = y["lat"], y["lon"]
+    _sek = [None] * _TV_SEKTOR
+    for j in _TV_KOMSULAR[i]:
+        d = girdi.km(la, lo, YERLER[j]["lat"], YERLER[j]["lon"])
+        dy = YERLER[j]["lat"] - la
+        dx = (YERLER[j]["lon"] - lo) * math.cos(math.radians(la))
+        if dx == 0.0 and dy == 0.0:
+            continue
+        s = int((math.atan2(dy, dx) % (2 * math.pi))
+                / (2 * math.pi / _TV_SEKTOR)) % _TV_SEKTOR
+        if _sek[s] is None or d < _sek[s]:
+            _sek[s] = d
+    dolu = [s for s in range(_TV_SEKTOR) if _sek[s] is not None]
+    if not dolu:
+        return None                       # komşusuz nokta → şekil bilgisi YOK
+    w = []
+    for s in range(_TV_SEKTOR):
+        if _sek[s] is not None:
+            w.append(_sek[s] / 2.0); continue
+        ileri = min((k - s) % _TV_SEKTOR for k in dolu)
+        geri = min((s - k) % _TV_SEKTOR for k in dolu)
+        a = _sek[(s + ileri) % _TV_SEKTOR] / 2.0
+        b = _sek[(s - geri) % _TV_SEKTOR] / 2.0
+        w.append((a * geri + b * ileri) / (ileri + geri))
+    # ŞEKİL ORANI SINIRI: dar mızrak çıkmasın — medyanın ±_TV_ANIZ_KAT katı
+    med = sorted(w)[len(w) // 2]
+    if med <= 0:
+        return None
+    return [min(med * _TV_ANIZ_KAT, max(med / _TV_ANIZ_KAT, x)) for x in w]
+
+
+def _tv_cokgen_kur(lo, la, rs):
+    """Sektör yarıçaplarından çokgen. Sektörler arası doğrusal geçiş —
+    köşeli sıçrama ortak kenar ağını bozardı."""
+    co = max(0.15, math.cos(math.radians(la)))
+    cs = []
+    for t in range(_TV_KOSE):
+        th = 2 * math.pi * t / _TV_KOSE
+        s = int(th / (2 * math.pi / _TV_SEKTOR)) % _TV_SEKTOR
+        f = (th % (2 * math.pi / _TV_SEKTOR)) / (2 * math.pi / _TV_SEKTOR)
+        rr = rs[s] * (1 - f) + rs[(s + 1) % _TV_SEKTOR] * f
+        cs.append((lo + rr / 111.32 / co * math.cos(th),
+                   la + rr / 111.32 * math.sin(th)))
+    return Polygon(cs)
+
+
+_TV_AYNI = 0          # daire aynen döndürüldü (tavan bağlamıyor ya da şekil yok)
+_TV_SEKILLI = 0       # şekil verildi
+_TV_COZULEMEDI = 0    # λ bulunamadı → daire korundu
+_TV_SAPMA = []        # |boyanan alan farkı| / hedef  — alan koruma NÖBETÇİSİ
+
+
+def _tavan_cokgen(i):
+    """ALAN KORUYAN yöne duyarlı tavan.
+
+    🟢 C13 GEÇME YOLU İKİ AYRI DALDA YAPISAL — ikisi de `_tavan_daire`in
+       KENDİSİNİ döndürür, yaklaşık değil:
+         ① tavan bu noktada BAĞLAMIYOR  (hücre zaten dairenin içinde)
+         ② şekil ölçüsü yok ya da her yönde AYNI (komşusuz / eş dağılımlı)
+    """
+    global _TV_AYNI, _TV_SEKILLI, _TV_COZULEMEDI
+    y = YERLER[i]
+    la, lo = y["lat"], y["lon"]
+    R = TAVAN_KM.get(y.get("k") or 0, TAVAN_KM[0])
+    daire = _tavan_daire(noktalar[i], R, la)
+    hucre = PETEK[i]
+    if hucre is None or hucre.is_empty:
+        _TV_AYNI += 1
+        return daire
+    # ⚡ HIZLI YOL — `∩ KARA` PAHALI (maske ~48 bin köşe, 2362 hücre).
+    # Ham hücre zaten dairenin içindeyse tavan hiçbir şekilde bağlayamaz;
+    # KARA ile kesmeye hiç gerek yok. Noktaların çoğu bu daldan çıkıyor.
+    try:
+        if daire.contains(hucre):
+            _TV_AYNI += 1
+            return daire
+        hucre = hucre.intersection(KARA)
+    except Exception:
+        _TV_AYNI += 1
+        return daire
+    a_tam = hucre.area
+    if a_tam <= 0:
+        _TV_AYNI += 1
+        return daire
+    hedef = hucre.intersection(daire).area
+    if hedef >= a_tam * (1 - 1e-9):        # ① tavan BAĞLAMIYOR
+        _TV_AYNI += 1
+        return daire
+    w = _tv_ham_olcu(i)
+    if w is None or max(w) - min(w) < 1e-12:   # ② şekil bilgisi yok
+        _TV_AYNI += 1
+        return daire
+    # ③ λ'yı ikiye bölerek çöz: boyanan alan DEĞİŞMESİN
+    olcek = R / (sorted(w)[len(w) // 2])
+    lo_k, hi_k = olcek * 0.05, olcek * 20.0
+    en_iyi, en_iyi_fark = None, 9e99
+    for _ in range(_TV_BISEC):
+        ort = (lo_k + hi_k) / 2.0
+        g = _tv_cokgen_kur(lo, la, [x * ort for x in w])
+        a = hucre.intersection(g).area
+        f = abs(a - hedef)
+        if f < en_iyi_fark:
+            en_iyi, en_iyi_fark = g, f
+        if a < hedef:
+            lo_k = ort
+        else:
+            hi_k = ort
+    if en_iyi is None or en_iyi_fark > hedef * 0.01:   # %1'e inemedi
+        _TV_COZULEMEDI += 1
+        return daire
+    _TV_SEKILLI += 1
+    _TV_SAPMA.append(en_iyi_fark / max(hedef, 1e-12))
+    return en_iyi
+
+
+TAVAN_DAIRE = [_tavan_cokgen(i) for i in range(len(YERLER))]
+print(f"     tavan (km): " + " · ".join(f"k{k}={v}" for k, v in sorted(TAVAN_KM.items())))
+print(f"     ALAN KORUYAN anizotropi: {_TV_SEKILLI} peteğe şekil verildi · "
+      f"{_TV_AYNI} daire AYNEN korundu · {_TV_COZULEMEDI} çözülemedi")
+print(f"     şekil oranı sınırı ×{_TV_ANIZ_KAT} · {_TV_SEKTOR} sektör · "
+      f"{_TV_KOSE} köşe · {_TV_BISEC} ikiye bölme adımı")
+# 🔴 ALAN KORUMA NÖBETÇİSİ — "korudum" demek yetmez, ÖLÇÜLÜR.
+if _TV_SAPMA:
+    _sp = sorted(_TV_SAPMA)
+    print(f"     alan koruma sapması: medyan %{100*_sp[len(_sp)//2]:.4f} · "
+          f"azamî %{100*_sp[-1]:.4f} "
+          + ("✓" if _sp[-1] <= 0.01 else "✗ BİR PETEKTE %1'İ AŞTI"))
+if _TV_COZULEMEDI > _TV_SEKILLI * 0.05:
+    print(f"     ⚠️ ÇÖZÜLEMEYEN ORANI YÜKSEK ({_TV_COZULEMEDI}) — "
+          f"_TV_BISEC ya da şekil oranı sınırı gözden geçirilmeli")
+print(f"     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)")
+# 🔴 ÜÇ YERDE OKUNUYOR, ÜÇÜ DE `TAVAN_DAIRE`DEN BESLENİR — ve bu KASITLI:
+#     :605  kurulum  ·  §KIYI  kıyı kesimi  ·  ADA KURALI  "boşta kalan pay"
+# Ada kuralı payı yalnız `TAVAN_DAIRE[_en]` içinde verir; ayrı bir izotrop
+# daire kullansaydı kıyı kesimiyle AYRIŞIRDI ve `MIMARI §2.9`un "aşamalar
+# arası sözleşme yok" ailesine yeni bir vaka eklenirdi.
+
+# 🔴 NİÇİN BURADA DEĞİL — 9 Ağustos 2026, ÖLÇÜLDÜ VE ÖNGÖRÜ ÇÜRÜDÜ.
+# Tavan ilk yazıldığında TAM BURAYA, Voronoi'nin hemen ardına kondu. Koşu 4
+# başladı ve motorun kendi çıktısı öngörüyü çürüttü:
+#     öngörü  ~300 petek · alan ~%23      (kara maskesi ÜZERİNDE kalibre edildi)
+#     ölçüm    513 petek · alan  %40,0
+#     ve bozuk kenar 58 → 75
+# İki ayrı sebep vardı ve ikisi de YER'den geliyordu:
+#   ① Bu noktada hücre yalnız `BOLGE` ile kesik, KARA ile DEĞİL — yani tavan
+#      DENİZİ de kesiyordu. Kalibrasyon karada ölçmüştü ⇒ %23 yerine %40.
+#      Deniz zaten 924. satırda siliniyor, yani o kesim BOŞA çalışıyordu.
+#   ② Ortak kenar ağı tavandan SONRA kuruluyor (§TOPOLOJİ). Tavan hücreleri
+#      TEK TEK yaylarla kesince ağ bozuldu ⇒ +17 bozuk kenar.
+#      `CLAUDE.md` topoloji kuralı bunu zaten yasaklıyor: "yumuşatma ve
+#      sadeleştirme petek petek DEĞİL, ORTAK KENAR AĞI üzerinde."
+# ⇒ Tavan artık kıyı kesimiyle AYNI ADIMDA uygulanıyor: orada zaten her hücre
+#   ayrı ayrı kesiliyor ve sonrasında hiçbir yumuşatma yok, yani ne topoloji
+#   bozulur ne de boşa deniz kesilir.
+# 📌 Ve bunu yakalayan şey bir denetim değil, KOŞUDAN ÖNCE YAZILMIŞ BİR
+#   ÖNGÖRÜNÜN ÇÜRÜMESİYDİ. Sayı beklenenden farklı çıktı ⇒ sebep arandı ⇒
+#   iki ayrı kusur bulundu. Öngörü yazılmasaydı 513 sayısı "olur böyle" diye
+#   geçilirdi.
+
+# ---------------- Petek sınırlarını doğal hatlara yasla ----------------
+# ⚠️ TOPOLOJİ KURALI (Oturum 8): yumuşatma ve sadeleştirme petek petek DEĞİL,
+# örtünün ORTAK KENAR AĞI üzerinde bir kez yapılır. Aynı kenar iki komşu hücrede
+# ayrı ayrı işlenirse iki farklı sonuç çıkar → haritada kılcal boşluk/bindirme.
+def chaikin_acik(cs, tur=2):
+    """Açık hat için Chaikin: uç noktalar (düğümler) sabit kalır."""
+    if len(cs) < 3: return cs
+    for _ in range(tur):
+        yeni = [cs[0]]
+        for i in range(len(cs) - 1):
+            p, q = cs[i], cs[i+1]
+            yeni.append((0.75*p[0]+0.25*q[0], 0.75*p[1]+0.25*q[1]))
+            yeni.append((0.25*p[0]+0.75*q[0], 0.25*p[1]+0.75*q[1]))
+        yeni.append(cs[-1]); cs = yeni
+    return cs
+
+def sikla(cs, adim=0.22):
+    yeni = []
+    for i in range(len(cs) - 1):
+        (x1,y1),(x2,y2) = cs[i], cs[i+1]
+        yeni.append((x1,y1))
+        n = int(math.hypot(x2-x1, y2-y1) / adim)
+        for k in range(1, n):
+            t = k/n; yeni.append((x1+(x2-x1)*t, y1+(y2-y1)*t))
+    yeni.append(cs[-1]); return yeni
+
+# ⚠️ KORUMA PAYI — hatalar 7.docx madde 2-3 (SIFIR ALANLI PETEK)
+# Kullanıcı "Estergon'un kaybı haritada görülmüyor" ve "Solnok'un kaybı
+# görünmüyor" dedi. Zincir kovalandı: veri doğru (d: 1683-10-09 / 1685-10-19),
+# maddeler 0 gün farkla eşleşiyor, motor petekleri dönem kümesinden düzgün
+# çıkarıyor — AMA boyanan alan değişmiyor, çünkü o iki peteğin ALANI YOK
+# (Estergon 8 km², Solnok 0 km²). Çıplak Voronoi ile ölçüldü: olması gereken
+# Estergon 4.819 km², Solnok 8.681 km². Yani hatayı üreten adım BURASI.
+#
+# Sebep: yaslama yarıçapı nehir için 0.30 derece ≈ 33 km ve Estergon Tuna'nın,
+# Solnok Tisza'nın TAM ÜSTÜNDE. Peteğin bütün sınır köşeleri 33 km yarıçapta
+# nehri gördüğü için nehir yatağına çekiliyor; şehir de nehrin üstünde olduğuna
+# göre sınır şehrin kendi üstüne çöküyor ve petek yok oluyor. Segedin (nehre
+# 0.166 km, daha yakın) sağlam kalıyor — yani mesele yakınlık değil, sınırın
+# hangi tarafa çekildiği; bu bir kumar ve nehir şehirlerinde tutuyor.
+#
+# Çözüm: yaslama bir sınırı YERLEŞİMİN ÜSTÜNE çekemez. Hedef nokta bir yerleşime
+# `koruma`dan yakın düşüyorsa VE bu onu mevcut konumundan daha da yaklaştırıyorsa
+# yaslama iptal edilir, Voronoi hattı korunur. Sınırın nehri takip etme
+# davranışı şehirlerden uzakta olduğu gibi kalıyor.
+KORUMA_PAYI = 0.06          # ~6.7 km; peteğin asgarî yarıçapı
+
+
+def dogal_hatta_yasla(cs, nehir_mes=0.30, sirt_mes=0.35, koruma=KORUMA_PAYI):
+    """Petek sınırını en yakın doğal engele çeker:
+       1) yakında nehir varsa nehir yatağına (sınır nehri takip eder)
+       2) yoksa dağ sırtına (sınır sırttan geçer)
+       3) ikisi de yoksa Voronoi hattı kalır (iki şehrin tam ortası).
+    NOT: MultiLineString üzerinde project/interpolate parçalar arasında kayar ve
+    sınırı kıtanın öbür ucuna fırlatır; bu yüzden nearest_points kullanılır."""
+    yeni = []
+    for x, y in cs:
+        p = Point(x, y)
+        dn = NEHIR_HAT.distance(p) if NEHIR_HAT is not None else 9e9
+        ds = SIRT_HAT.distance(p) if SIRT_HAT is not None else 9e9
+        q = None
+        if dn < nehir_mes and dn <= ds:
+            q = nearest_points(NEHIR_HAT, p)[0]
+        elif ds < sirt_mes:
+            q = nearest_points(SIRT_HAT, p)[0]
+        if q is None:
+            yeni.append((x, y)); continue
+        # KORUMA: hedef bir yerleşime çok yakın VE onu yaklaştırıyorsa yaslama yok
+        j = int(_SEED_AGACI.nearest(q))
+        d_q, d_p = noktalar[j].distance(q), noktalar[j].distance(p)
+        if d_q < koruma and d_q < d_p:
+            _YASLAMA_IPTAL.append(YERLER[j]["ad"])
+            yeni.append((x, y))
+        else:
+            yeni.append((q.x, q.y))
+    return yeni
+
+
+_SEED_AGACI = STRtree(noktalar)     # yaslama koruması için tohum nokta ağacı
+_YASLAMA_IPTAL = []                 # koruma yüzünden iptal edilen yaslamalar
+
+# Atlasın başlangıç tarihi. TDV'ye göre Ertuğrul Gazi 680 (1281-82) yılında
+# vefat etti ve Osman Bey beyliğe geçti; ilk askerî harekât 1285 Kulacahisar,
+# ilk şehir fethi 1288 Karacahisar. Bu yüzden epok 1299 değil 1281.
+EPOK = "1281-01-01"
+
+# Örtü sadeleştirme toleransı (derece). coverage_simplify ile örtünün TAMAMINA
+# bir kez uygulanır; ortak kenarların iki yanı birebir aynı kalır. Gövde başına
+# ayrı simplify + dışa taşırma hilesi kaldırıldı — gerek kalmadı.
+SADE_TOL = 0.012
+
+def kapat(g, yaricap=0.15):
+    """Morfolojik kapama: aralarında yaricap*2'den (≈33 km) daha az boşluk olan
+    ayrı parçaları birleştirir. Aynı çekirdek beyliğin parçası olan komşu
+    petekler, aralarına giren ince 'henüz o an aktif olmayan komşu' şeridi
+    yüzünden kopuk görünebiliyordu (ör. 1299'da İnegöl'ün Söğüt-Bilecik'ten
+    ayrı bir 'ada' gibi çizilmesi). Deniz/kıta arası gerçek boşluklar bu
+    yarıçaptan büyük olduğu için etkilenmez; kapamadan sonra KARA ile
+    kesişim alınacağından geçici deniz taşkını da temizlenir.
+    Topoloji notu: mitre birleşim, buffer'ın yay örneklemesiyle kenara nokta
+    eklemesini önler; sonuç orijinalle BİRLEŞTİRİLİR ki gidip-gelen buffer'ın
+    sayısal aşındırması ortak kenarı bir mikron bile oynatamasın (boşluk kaynağı)."""
+    if g.is_empty: return g
+    k = temiz(g.buffer(yaricap, join_style=2, mitre_limit=2.0)).buffer(-yaricap, join_style=2, mitre_limit=2.0)
+    return unary_union([temiz(k), g])
+
+def poligonal(g):
+    """intersection/difference çıktısı geçerli ama karışık bir GeometryCollection
+    olabilir (kıyıda çizgi artığı); poligonal olmayan parçaları süz."""
+    if g.geom_type == "GeometryCollection" or not g.is_valid: return temiz(g)
+    # 🔴 M-4535 (18 Eylül 2026) — YÜRÜYÜŞ AÇIKKEN ÇÖKÜŞ, kutu sınavında yakalandı
+    # (26-50D 34-44K, MOTOR_YURUYUS=1 + 16 komşu, devlet ~100/591):
+    #     g.intersection(KARA) → MultiLineString → _ham_km2: 'no attribute exterior'
+    # Izgaradan gelen epok payı KARA'ya yalnız bir ÇİZGİ boyunca değebiliyor; kesişim
+    # o zaman saf çizgi döner ve bu işlev onu süzmüyordu (yalnız KARIŞIK koleksiyonu
+    # süzüyordu). Koşu 13B zaman aşımına takılmasaydı büyük olasılıkla BURADA ölecekti.
+    # Bayrağa bağlı: bayrak kapalıyken davranış bit-bit aynı kalsın (kapalı yolda
+    # bugüne kadar bu durum hiç ölümcül olmadı — 19 saatlik koşular tamamlandı).
+    if MOTOR_YURUYUS and g.geom_type in ("LineString", "MultiLineString", "LinearRing",
+                                         "Point", "MultiPoint"):
+        return Polygon()
+    return g
+
+# ═══ 🔴 KASITLI BOŞLUK MUAFİYETİ — MOTOR ENKLAV, 11 Ağustos 2026 ═══════════
+# `delikleri_doldur` bu satıra kadar HİÇBİR ŞEY SORMUYORDU: gövdenin bütün
+# interior ring'lerini kayıtsız şartsız dolduruyordu. Ölçüldü, ve ikisi de
+# rapora girdi:
+#
+#   ① BUGÜN ZARAR VERMİYOR. Yayındaki çıktıda (donemler.js ·
+#      devletler_harita.js) 7 kesitin 7'sinde de "bayraklı + o gün sahipsiz +
+#      varlık epoku içi" noktanın BOYANANI **0**:
+#          aday    122 · 122 · 122 · 115 · 77 · 74 · 23
+#          boyanan   0 ·   0 ·   0 ·   0 ·  0 ·  0 ·  0
+#      Sebebi yapısal: kasten boş bırakılan yerler (Sahra · Rub'ul Hâlî ·
+#      Karakum · Üstyurt) DELİK değil, kıyıya ve öteki boşluklara AÇIK
+#      bölgelerdir; interior ring hiç olmuyorlar.
+#
+#   ② AMA GÜVENCE VERİYE BAĞLI, YAPISAL DEĞİL. Nokta kümesi büyüdükçe bir
+#      vaha ya da çöl cebi kuşatılabilir — ve o an SESSİZCE boyanır.
+#      `renk_olc.py`nin başındaki dersin aynısı: "veriye dokunan her koşudan
+#      sonra yeniden sorulur" (§9). Bu yüzden nöbetçi ŞİMDİ kondu, kusur
+#      doğduktan sonra değil.
+#
+# ⚠️ MUAFİYET HALKA BAZLIDIR, GÖVDE BAZLI DEĞİL: aynı gövdenin bir deliği
+#    muaf tutulurken ötekiler dolmaya devam eder. Gövdeyi bütünüyle muaf
+#    tutmak, tek bir çöl cebi yüzünden dağ bloklarını da açık bırakırdı.
+#
+# 📌 VE MUAFİYETİN KAPSAMI `kasitli_bosluk` BAYRAĞIDIR, "sahipsizlik" DEĞİL.
+#    Sahipsizliği ölçüt yapmak, YAZILMAMIŞ boşluğu da korurdu ve fonksiyonun
+#    var oluş sebebini iptal ederdi (dağ bloğu da sahipsizdir). Ayrım
+#    `§2015 _kusatilmis`in ayrımıyla aynı: kaynaklı hüküm ile veri borcu
+#    ayrı şeylerdir. ⚠️ Bedeli ölçüldü ve saklanmıyor: bugün 55 kayıt
+#    fiilen kasıtlı ama BAYRAKSIZ, ve dördü (Darfur · Somali çölü · Ogaden ·
+#    Libya iç çölü) şu an delik olarak DOLUYOR. Muafiyet onları KURTARMAZ —
+#    kusur motorda değil veride, ve bir veri oturumuna yazıldı.
+_KB_IX = [i for i, y in enumerate(YERLER) if y.get("kasitli_bosluk")]
+_KB_NOKTA = [noktalar[i] for i in _KB_IX]
+_KB_AGAC = STRtree(_KB_NOKTA) if _KB_NOKTA else None
+_KB_MUAF = {}                       # ad → kaç halka; SESSİZ ATLAMA YOK
+print(f"     delik doldurma muafiyeti: {len(_KB_IX)} kasıtlı boşluk noktası nöbette")
+
+# 🔴 B1 ikinci yasağı için BÜTÜN yerleşimlerin ağacı (MOTOR ÜÇ KALEM).
+# Tek ağaç, bir kez kurulur; her gövde kendi `sahip_ix` kümesiyle sorar.
+# ⚠️ Her devlet için ayrı ağaç kurmak 320 devlet × ~500 dönem demekti;
+#    tek ağaç + küme sorgusu aynı işi görür ve kurulum maliyeti SIFIRA yakın.
+_TUM_AGAC = STRtree(noktalar) if noktalar else None
+_B1_SAYAC = {"dolduruldu": 0, "yabanci_yerlesim": 0, "yabanci_ad": set()}
+
+
+def delikleri_doldur(g, muaf=True, sahip_ix=None):
+    """Kuşatılmış boşluk bırakmaz: çevresi ele geçmiş alan (dağ bloğu, ova) da
+    hâkimiyet altındadır.
+
+    muaf=True  (VARSAYILAN): içinde `kasitli_bosluk` noktası bulunan halka
+               DOLDURULMAZ — kaynaklı araştırma hükmü, motorun varsayımını yener.
+    muaf=False: 11 Ağustos 2026 ÖNCESİ davranış (her halka dolar). Yalnız
+               `C13` geçme-yolu sınavı için duruyor; üretimde çağrılmaz.
+
+    sahip_ix   🔴 27 Ağustos 2026, MOTOR ÜÇ KALEM — `B1`in İKİNCİ YASAĞI.
+               Şartname: *"içinde BAŞKA DEVLETİN yerleşimi varsa KAPATMA."*
+               Verilirse, halkanın içinde bu kümeye AİT OLMAYAN bir yerleşim
+               varsa halka DOLDURULMAZ.
+               ⚠️ Ölçüt bilerek GENİŞ: nokta o gün sahipsiz olsa bile halka
+               korunur. Sebebi asimetri — yanlış doldurmak BAŞKA BİR DEVLETİN
+               toprağını yutar ve geri alınamaz; doldurmamak yalnız bugünkü
+               davranışı sürdürür. Şüphede DOLDURMA.
+               `None` ise bu yasak uygulanmaz (eski davranış aynen sürer)."""
+    if g.is_empty: return g
+    ps = g.geoms if isinstance(g, MultiPolygon) else [g]
+    out = []
+    for p in ps:
+        tut = []
+        if muaf and _KB_AGAC is not None:
+            for h in p.interiors:
+                halka = Polygon(h)
+                try:
+                    icerde = [int(q) for q in _KB_AGAC.query(halka)
+                              if halka.contains(_KB_NOKTA[int(q)])]
+                except Exception:
+                    halka = halka.buffer(0)
+                    icerde = [int(q) for q in _KB_AGAC.query(halka)
+                              if halka.contains(_KB_NOKTA[int(q)])]
+                if icerde:
+                    tut.append(h)
+                    for q in icerde:
+                        _ad = YERLER[_KB_IX[q]]["ad"]
+                        _KB_MUAF[_ad] = _KB_MUAF.get(_ad, 0) + 1
+        # ── B1 ikinci yasağı: BAŞKA DEVLETİN YERLEŞİMİ ────────────────────
+        if sahip_ix is not None and _TUM_AGAC is not None:
+            _tutulan = set(id(h) for h in tut)
+            for h in p.interiors:
+                if id(h) in _tutulan:
+                    continue                      # zaten kasıtlı boşlukla tutuldu
+                halka = Polygon(h)
+                try:
+                    icx = [int(q) for q in _TUM_AGAC.query(halka)
+                           if halka.contains(noktalar[int(q)])]
+                except Exception:
+                    halka = halka.buffer(0)
+                    icx = [int(q) for q in _TUM_AGAC.query(halka)
+                           if halka.contains(noktalar[int(q)])]
+                yabanci = [q for q in icx if q not in sahip_ix]
+                if yabanci:
+                    tut.append(h)
+                    _B1_SAYAC["yabanci_yerlesim"] += 1
+                    _B1_SAYAC["yabanci_ad"].add(YERLER[yabanci[0]]["ad"])
+                else:
+                    _B1_SAYAC["dolduruldu"] += 1
+        out.append(Polygon(p.exterior, tut) if tut else Polygon(p.exterior))
+    return unary_union(out).buffer(0)
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴 B2 · B3 — ENKLAV BİRLEŞTİRME ve KORİDOR KIRPMA  (MOTOR ÜÇ KALEM, 27 Ağu 2026)
+# ═══════════════════════════════════════════════════════════════════════════
+# Emre'nin cümlesi:
+#   *"Benekli görünmesin. Enklavların ana toprak kitlesi ile arasındaki koridor
+#    kapanacak şekilde. Ve derin koridorlar: sadece koridorun BAŞI girinti
+#    yapacak, koridorun DERİNLİĞİ GENİŞLİĞİNİ GEÇMEYECEK şekilde koridorların
+#    DİP bölümlerini AĞIZA DOĞRU kapatarak."*
+#
+# 🔴 KAPATMA ANAHTARI VAR VE BİLEREK: MOTOR_B23_KAPALI=1 ile devre dışı kalır.
+#    Sebebi risk asimetrisi — bu iki kural GEOMETRİ ÜRETİYOR (yeni toprak),
+#    ötekiler yalnız var olanı sınıflıyor. Bir koşu 4 saat; kötü giderse
+#    kod düzenlemeden kapatılabilmeli.
+B23_ACIK = os.environ.get("MOTOR_B23_KAPALI") != "1"
+_KARA_HAZIR = prep(KARA)     # bir kez hazırlanır; B2'nin deniz sınavı bunu sorar
+# 🔴 800 → 250, ve gerekçesi ÖLÇÜLDÜ (29 Ağustos 2026, r3556 verisi).
+# Birleşik gövdede (doğrudan ∪ tâbi) altı kesitte kaç enklav var:
+#     KARASAL (B2 köprü kurar)        :   7
+#     DENİZ AŞIRI (zaten reddediliyor) : 761
+# ve o 7'nin dağılımı:
+#     0-100 km  5   ← beşi de AYNI 16 km²'lik kırıntı, beş ayrı kesitte
+#   200-400 km  2   ← ikisi de AYNI enklav: 22.089 km², 159×235 km, 223 km
+# ⇒ EN UZAK KARASAL ENKLAV 223 km. 600'de de 800'de de HİÇBİR ŞEY YOK.
+#   Tavan gerçek en uzak vakanın hemen üstüne konuyor; ötesi ölü menzil ve
+#   ölü menzil bir gün veri büyüyünce SESSİZCE çubuk üretir.
+# 📌 Ve çubukların sebebi tavan DEĞİLDİ: B2 ayrı tâbi katmanında koşuyordu,
+#   orada Eflak · Kırım · Dubrovnik gerçekten ayrı parçalar ve aralarındaki
+#   toprak Osmanlı olduğu için `covers` testini geçiyorlardı. Birleşik
+#   gövdede ayrı parça bile değiller.
+B2_ENKLAV_KM = 250.0        # Emre: "karasal" · ölçülen en uzak vaka 223 km
+# 0038/H-0003 — köprü kenarının İÇ BÜKEYLİĞİ. 0 = düz yamuk (eski hâl),
+# 0,35 = ortasından %35 içeri bastırılmış parabolik bel. Uçlar HER HÂLDE
+# tam genişlikte kalır (sin(0)=sin(π)=0), yani kaynak yeri incelmez.
+# ⚠️ TAVAN 0,5 — ve sebebi ÖLÇÜLDÜ, tahmin edilmedi.
+#   Önce buraya *"0,5'in üstünde köprü KOPAR"* diye yazmıştım; sınav onu
+#   ÇÜRÜTTÜ: KAVIS=1,0'da bile shapely `is_valid=True`, tek parça, alan
+#   0,437 diyor. Yani geometrik olarak KOPMUYOR.
+#   🔴 Ama t=0,5'te yarı-genişlik TAM SIFIR oluyor: köprü ortasından bir
+#   NOKTAYA sıkışıyor. Ekranda kopuk görünür, `is_valid` ötmez, hiçbir
+#   denetim bunu yakalamaz — yani sessiz bir kusur.
+#   ⇒ Tavan hâlâ 0,5; gerekçesi *"geçersiz olur"* değil, ***"geçerli
+#     görünür ama sıfır genişliğe iner"***. Daha kötüsü, çünkü sessiz.
+B2_KAVIS = 0.35
+B3_KAPAMA_DER = 0.45        # ≈50 km yarıçaplı kapama; koridor ölçeği
+B3_SADELIK = 0.02           # ≈2 km — YALNIZ koridor adayını bulmak için
+_B23_SAYAC = {
+    "b2_birlesti": 0, "b2_deniz": 0, "b2_uzak": 0, "b2_yerlesim": 0,
+    "b3_dolduruldu": 0, "b3_sig": 0, "b3_yerlesim": 0, "b3_kb": 0,
+    "b3_kapali": 0,
+    # 0038/H-0004 — köprü hangi katmana yazıldı. İkisi de SIFIR çıkarsa
+    # renk dalı HİÇ ateşlememiş demektir; `b2_kopru_tabi` sıfırsa da
+    # tâbi girintiye hiç köprü kurulmamış demektir — ikisi de BULGU.
+    "b2_kopru_dogrudan": 0, "b2_kopru_tabi": 0,
+}
+# KITA 7 — B3 KORİDOR (12 Eylül 2026, `denetim/YAMA-B3-LOG-0911.py`).
+# B3'ün GERÇEKTEN elediği/bıraktığı "derin" bileşenleri, isim+km² ile,
+# PRE-kıyı-kesim biriktirir — B UCUZ PARÇALAR'ın çürüyen 106.123 sayısının
+# YERİNE geçecek güvenilir sayı. Her öğe: (isim, km2, derinlik_km,
+# genislik_km_govde_ort, sebep, genislik_km_agiz, tanimlar_ayrisiyor_mu).
+_B3_KALAN_IHLAL = []
+# 0038/H-0004 — köprünün hangi gövdeye yaslandığını ölçen tampon (derece).
+# ~0,02° ≈ 2 km: köprü `difference` ile üretildiği için iki gövdeye de
+# DEĞMEZ; temas ancak tamponla ölçülür. Çok küçük seçilirse ikisi de sıfır
+# çıkar ve karar sessizce "doğrudan"a düşer.
+B2_TEMAS = 0.02
+
+
+def _km_derece(lat):
+    """Bir boylam derecesinin o enlemdeki km karşılığı (ortalama için)."""
+    return 111.32 * max(0.15, math.cos(math.radians(lat)))
+
+
+def _yasakli_mi(alan, sahip_ix):
+    """B1/B2/B3'ün ORTAK ÜÇ YASAĞINDAN ikisi: başka devletin yerleşimi ·
+    `kasitli_bosluk` noktası. (Üçüncüsü — deniz aşırı — B2'ye özel.)
+
+    Döner: None (yasak yok) · "yerlesim" · "kb"
+    """
+    if _TUM_AGAC is None:
+        return None
+    try:
+        ic = [int(q) for q in _TUM_AGAC.query(alan) if alan.contains(noktalar[int(q)])]
+    except Exception:
+        alan = alan.buffer(0)
+        ic = [int(q) for q in _TUM_AGAC.query(alan) if alan.contains(noktalar[int(q)])]
+    for q in ic:
+        if YERLER[q].get("kasitli_bosluk") or YERLER[q].get("bos"):
+            return "kb"
+    if sahip_ix is not None:
+        for q in ic:
+            if q not in sahip_ix:
+                return "yerlesim"
+    return None
+
+
+def _bant_baskasinin_topragini_kesiyor_mu(hat, sahip_ix, adim_km=10.0):
+    """Emre'nin ③. kuralı: *"eğer iki birbirinden kopuk yapının arasında BAŞKA
+    DEVLETİN BÖLGESİ var ise bu gerçek bir enklav olabilir ve ek araştırma
+    yapılmadan birleştirilemez; aradaki renklendirilmiş bölge EZİLEREK iki
+    bölge birleştirilemez."*
+
+    🔴 NİÇİN AYRI BİR SINAV — `_yasakli_mi` YETMİYOR ve sebebi ölçüldü:
+    o yalnız bandın İÇİNE DÜŞEN YERLEŞİM NOKTASI arar. Bir bant iki yabancı
+    şehrin TAM ARASINDAN geçip hiçbirini içermeden ikisinin de toprağını
+    ezebilir — nokta yakalanmaz, toprak gider.
+    ⇒ Burada sorulan soru başka: hattın üzerindeki her nokta KİMİN
+      peteğine düşüyor? Petekler karayı döşediği için "en yakın yerleşim
+      bizim mi" sorusu, "burası bizim toprağımız mı" sorusuyla AYNIDIR.
+
+    Döner: True (yasak — başkasının toprağı) · False (serbest)
+    """
+    if _TUM_AGAC is None or sahip_ix is None:
+        return False
+    n = max(2, int(hat.length * 111.32 / adim_km))
+    for i in range(n + 1):
+        p = hat.interpolate(i / float(n), normalized=True)
+        try:
+            q = int(_TUM_AGAC.nearest(p))
+        except Exception:
+            return True          # ölçemedik ⇒ EN KÖTÜ HÂLİ VARSAY
+        if q not in sahip_ix:
+            return True
+    return False
+
+
+def _b2_enklav_birlestir(g, sahip_ix):
+    """Ana kütleye ≤800 km, KARASAL, arası BOŞ olan enklavı köprüyle bağlar."""
+    ps = list(g.geoms) if g.geom_type == "MultiPolygon" else [g]
+    if len(ps) < 2:
+        return g
+    ps.sort(key=lambda p: p.area, reverse=True)
+    ana = ps[0]
+    kopru = []
+    for p in ps[1:]:
+        try:
+            n1, n2 = nearest_points(ana, p)
+        except Exception:
+            continue
+        lat = (n1.y + n2.y) / 2.0
+        dx = (n2.x - n1.x) * _km_derece(lat)
+        dy = (n2.y - n1.y) * 110.574
+        d_km = math.hypot(dx, dy)
+        if d_km > B2_ENKLAV_KM:
+            _B23_SAYAC["b2_uzak"] += 1
+            continue
+        hat = LineString([n1, n2])
+        # DENİZ AŞIRI YASAK — Emre açıkça "sadece karasal" dedi.
+        # 🔴 `KARA.buffer(...)` BURADA ÇAĞRILMAZ — ÖLÇÜLDÜ. KARA bütün
+        #    dünyanın kara maskesi; onu her enklav için yeniden tamponlamak
+        #    sınavı 10 dakikanın üstüne çıkardı. Alet doğruydu, YERİ yanlıştı.
+        #    Hazırlanmış geometri bir kez kurulur, sorgu ucuzdur.
+        # ⚠️ `_KARA_HAZIR` TAMPONSUZ: kıyı çizgisi üzerinden geçen hat
+        #    "kapsanmıyor" çıkabilir ⇒ enklav BİRLEŞMEZ. Yön BİLEREK
+        #    muhafazakâr: birleştirmemek bugünkü davranışı sürdürür,
+        #    yanlış birleştirmek denizi karaya çevirir.
+        if not _KARA_HAZIR.covers(hat):
+            _B23_SAYAC["b2_deniz"] += 1
+            continue
+        # 🔴 EMRE'NİN ③. KURALI — arada başka devletin BÖLGESİ varsa BİRLEŞTİRME
+        if _bant_baskasinin_topragini_kesiyor_mu(hat, sahip_ix):
+            _B23_SAYAC["b2_yerlesim"] += 1
+            continue
+
+        # ---- KÖPRÜNÜN ŞEKLİ — Emre'nin ④. kuralı --------------------------
+        # *"Enklavın genişliğinden DAHA FAZLA ama üçgensel yapıdan DAHA AZ."*
+        #
+        # 🔴 ESKİ HÂLİ ÇUBUK ÜRETİYORDU ve Emre ekranda gördü:
+        #     en = max(0.05, min(0.25, d_km / 111.32 / 8.0))
+        #   Genişlik mesafenin 1/8'i AMA 0,25° = 27,8 km'de TAVANLI. Tavanın
+        #   devreye girdiği mesafe 0,25 × 111,32 × 8 = 222 km; ötesinde
+        #   uzunluk büyür, genişlik DONAR:
+        #       100 km → 12,5 km  (1:8   şerit)
+        #       222 km → 27,8 km  (1:8   şerit)
+        #       800 km → 27,8 km  (1:28  ÇUBUK)   ← ekrandaki rezalet
+        #
+        # YENİ ÖLÇÜT: enklavın KENDİ genişliği. Köprü ondan dar olamaz —
+        # yoksa gövdeden çıkan bir çöp gibi görünür. Ama üçgen de olamaz:
+        # enklav ucunda `w_e`, anakara ucunda `2 × w_e` ile açılan bir
+        # YAMUK. Tam üçgen `d`ye orantılı açılırdı; bu sabit bir oranla
+        # açılıyor, yani uzaklık arttıkça üçgenden UZAKLAŞIYOR.
+        #
+        # 🟢 VE 0038/H-0003 — EMRE ŞEKLİ TAM TARİF ETTİ (29 Ağustos 2026):
+        #   *"İki yerleşimin bölgeleriyle İÇ BÜKEY KAVİSLİ bir doğru ile
+        #    birleşmeli. Ne bir DİKDÖRTGEN ÇUBUK çıkmalı, ne üç şehir üçgen
+        #    alan boyamalı. KENARLARDAN BASTIRILMIŞ kavisli, PARABOLİK."*
+        #
+        #   ⇒ Yamuk DOĞRU YÖNDEYDİ ama DÜZ KENARLIYDI. Artık kenar, uçları
+        #     aynı bırakıp ORTASINDAN içeri bastırılıyor:
+        #         w(t) = lin(t) · (1 − KAVIS · sin(π·t))
+        #     t=0 ve t=1'de çarpan 1 ⇒ iki gövdeye TAM GENİŞLİKTE kaynıyor
+        #     (dar kaynak, köprüyü koparır ve enklav yine ayrı görünür).
+        #     t=0,5'te %35 içeri ⇒ göze bel vermiş, kavisli bir geçiş.
+        #   ⚠️ KAVIS 0,5'i geçerse orta yerde SIFIRA yaklaşır ve köprü
+        #     kopar; 0,35 kasıtlı ve tavanı burada yazılı.
+        x0, y0, x1, y1 = p.bounds
+        _la = (y0 + y1) / 2.0
+        w_e = min((x1 - x0) * _km_derece(_la), (y1 - y0) * 110.574)   # km
+        w_e = max(w_e, 25.0)                    # çok küçük kırıntı için taban
+        en_enklav = (w_e / 2.0) / _km_derece(_la)          # yarı-genişlik, derece
+        en_ana = min(2.0 * en_enklav, 3.0)                 # anakara ucu, tavan 3°
+        # Kavisi hattın diklerinden kur
+        _dxu, _dyu = (n2.x - n1.x), (n2.y - n1.y)
+        _bo = math.hypot(_dxu, _dyu) or 1e-9
+        _px, _py = -_dyu / _bo, _dxu / _bo                 # birim dik
+        _N = 24                                            # örnekleme
+        _sol, _sag = [], []
+        for _i in range(_N + 1):
+            _t = _i / float(_N)
+            _lin = en_ana + (en_enklav - en_ana) * _t      # yamuğun düz kenarı
+            _w = _lin * (1.0 - B2_KAVIS * math.sin(math.pi * _t))
+            _cx = n1.x + _dxu * _t
+            _cy = n1.y + _dyu * _t
+            _sol.append((_cx + _px * _w, _cy + _py * _w))
+            _sag.append((_cx - _px * _w, _cy - _py * _w))
+        bant = Polygon(_sol + list(reversed(_sag))).buffer(0)
+
+        yasak = _yasakli_mi(bant.difference(g), sahip_ix)
+        if yasak:
+            _B23_SAYAC["b2_yerlesim"] += 1
+            continue
+        kopru.append(bant)
+        _B23_SAYAC["b2_birlesti"] += 1
+    if not kopru:
+        return g
+    return temiz(unary_union([g] + kopru).intersection(KARA))
+
+
+def _b3_koridor_kirp(g, sahip_ix):
+    """Derinliği genişliğini geçen koridorun DİBİNİ doldurur, AĞZINI bırakır."""
+    if g.is_empty:
+        return g
+    # 🔴 MALİYET: kapama, gövdenin BÜTÜN köşelerini gezer. Koridor ölçeği
+    #    ~50 km iken 1 km'lik köşe ayrıntısının kapamaya katkısı yok, ama
+    #    bedeli var. Sadeleştirilmiş kopya YALNIZ koridor ADAYINI bulmakta
+    #    kullanılır; doldurulacak alan yine GERÇEK gövdeden çıkarılır ve
+    #    KARA ile kesilir ⇒ kıyı hassasiyeti KAYBOLMAZ.
+    #    Ölçüldü: 14,0 sn → aşağıdaki sınavda; sadeleştirmesiz 65,8 sn'ydi.
+    gs = g.simplify(B3_SADELIK, preserve_topology=True)
+    k = kapat(gs, B3_KAPAMA_DER)
+    aday = temiz(k.difference(g))
+    if aday.is_empty:
+        return g
+    # DIŞARISI: gövdeyi çevreleyen kutunun gövdesiz kısmı — ağzı bulmak için.
+    x0, y0, x1, y1 = g.bounds
+    m = B3_KAPAMA_DER * 4
+    kutu = box(x0 - m, y0 - m, x1 + m, y1 + m)
+    disari = temiz(kutu.difference(k))
+    # 🔴 TAMPON DÖNGÜ DIŞINDA — aynı kusuru bir kez daha yaptım ve sınav
+    #    yine yakaladı: `disari.buffer(...)` her bileşende yeniden
+    #    hesaplanıyordu (1600'de 849 kez) ve süre 65,8 sn'ye çıkmıştı.
+    #    Ağız sınavının tamponu SABİT, bir kez kurulur.
+    disari_kenar = disari.buffer(0.01)
+    dolan = []
+    for c in (list(aday.geoms) if aday.geom_type == "MultiPolygon" else [aday]):
+        if c.is_empty or c.length <= 0:
+            continue
+        # ── DERİNLİK ÖLÇÜSÜ — ve ilk yazımım YANLIŞTI, sınav gösterdi ──────
+        # 🔴 İLK BİÇİM: `d = çevre/2 − w`. Sınavda `SIĞ` sayacı 1 ve 0 çıktı,
+        #    yani kural HİÇBİR ŞEYİ elemiyordu. Sebep: ince bir dilimde çevre
+        #    alana göre büyüktür ⇒ `çevre/2` her zaman `w`den büyük çıkar.
+        #    O formül DERİNLİĞİ değil İNCELİĞİ ölçüyordu ve her koridor
+        #    "derin" görünüyordu. Emre'nin istediği SIĞ GİRİNTİLER de
+        #    doluyordu — yani kural amacının TERSİNİ yapıyordu.
+        # 🟢 DOĞRU ÖLÇÜ: ağızdan en uzak noktaya olan mesafe. `agiz` = bileşenin
+        #    dışarıya değdiği yer; derinlik = Hausdorff(c, agiz).
+        agiz = temiz(c.intersection(disari_kenar))
+        if agiz.is_empty:
+            # Dışarıya hiç değmiyor ⇒ bu bir KORİDOR değil, KAPALI DELİK.
+            # B1'in işi; burada dokunulmaz.
+            _B23_SAYAC["b3_kapali"] += 1
+            continue
+        w_der = 2.0 * c.area / c.length         # ortalama genişlik
+        try:
+            d_der = c.hausdorff_distance(agiz)  # ağızdan en uzak nokta = DERİNLİK
+        except Exception:
+            _B23_SAYAC["b3_sig"] += 1
+            continue
+        if d_der <= w_der:                      # SIĞ girinti — Emre bunu İSTİYOR
+            _B23_SAYAC["b3_sig"] += 1
+            continue
+        yasak = _yasakli_mi(c, sahip_ix)
+        if yasak in ("kb", "yerlesim"):
+            # KITA 7 — B3 KORİDOR: bu bileşen GERÇEKTEN "derin" (d_der > w_der)
+            # ama bir muafiyet yüzünden doldurulmuyor — Emre'nin kuralına göre
+            # bu PRE-kıyı-kesim gerçek bir "kalan ihlal" adayı. İKİ genişlik
+            # tanımı da kaydedilir (D022'nin kendi sınavı): kod `w_der`
+            # (gövde ortalaması, 2*alan/çevre) kullanıyor; Emre'nin kuralı
+            # AĞIZ genişliğini işaret ediyor — `agiz.length/2.0` (sentetik
+            # "dogbone" testinde gerçek ağız genişliğine %0,5 isabet etti,
+            # `denetim/BULGU-KORIDOR-AGZI-0911.md`).
+            try:
+                q = int(_TUM_AGAC.nearest(c.centroid))
+                isim = YERLER[q].get("ad", "?")
+            except Exception:
+                isim = "?"
+            try:
+                _agiz_genislik = agiz.length / 2.0
+            except Exception:
+                _agiz_genislik = None
+            _ayrisiyor = ((d_der > w_der) != (d_der > _agiz_genislik)
+                          if _agiz_genislik else None)
+            _B3_KALAN_IHLAL.append((
+                isim, round(alan_km2(c), 1),
+                round(d_der * 111.32, 1), round(w_der * 111.32, 1), yasak,
+                round(_agiz_genislik * 111.32, 1) if _agiz_genislik else None,
+                _ayrisiyor))
+            if yasak == "kb":
+                _B23_SAYAC["b3_kb"] += 1
+            else:
+                _B23_SAYAC["b3_yerlesim"] += 1
+            continue
+        # AĞIZ BIRAKILIR: ağza w kadar yakın şerit doldurulmaz.
+        # ⚠️ Tampon `disari`ya DEĞİL `agiz`a uygulanır — `disari` koca bir
+        #    poligon, `agiz` küçük bir parça. Aynı işi görür, kat kat ucuz.
+        govde = temiz(c.difference(agiz.buffer(w_der)))
+        if govde.is_empty:
+            _B23_SAYAC["b3_sig"] += 1
+            continue
+        dolan.append(govde)
+        _B23_SAYAC["b3_dolduruldu"] += 1
+    if not dolan:
+        return g
+    return temiz(unary_union([g] + dolan).intersection(KARA))
+
+
+def gosterim_duzelt(g, sahip_ix=None):
+    """B2 + B3'ü sırayla uygular. B1 `delikleri_doldur` içinde zaten var."""
+    if not B23_ACIK or g.is_empty:
+        return g
+    try:
+        g = _b2_enklav_birlestir(g, sahip_ix)
+        g = _b3_koridor_kirp(g, sahip_ix)
+    except Exception as _e:
+        # 🔴 SESSİZ ÖLÜM YOK: gösterim düzeltmesi bir SÜS; patlarsa koşuyu
+        #    öldürmesin ama GÖRÜNÜR olsun.
+        print("  UYARI gosterim_duzelt atlandi:", _e)
+    return g
+
+# ---------------- Örtü boru hattı ----------------
+# Petekler tek bir ÖRTÜ (coverage) olarak işlenir:
+#   1) Voronoi hücrelerinin ortak kenar ağı çıkarılır (her kenar TEK kopya)
+#   2) Yaslama + Chaikin bu ağ üzerinde bir kez yapılır (düğümler sabit)
+#   3) polygonize ile hücreler geri kurulur → boşluksuz/bindirmesiz örtü
+#   4) set_precision ortak ızgara, coverage_simplify topoloji korumalı sadeleştirme
+#   5) Kıyı kesimi (KARA) EN SON — sonrasında hiçbir geometri işlemi yok
+asama("Ortak kenar ağı çıkarılıyor")
+_bx0, _by0, _bx1, _by1 = BOLGE.bounds
+def _kutuda(x, y, e=1e-9):
+    # ⚠️ L KUTUSUNUN ÇENTİK KENARLARI DA ÇERÇEVEDİR. `BOLGE.bounds` yalnız
+    # dış dikdörtgeni verir (−25,−11,146,82); çentiği çizen İKİ kenar
+    # (lon −12, lat<60  ·  lat 60, lon<−12) orada görünmez. Çerçeve sayılmazsa
+    # yaslama onları nehre/sırta çeker ve veri sınırı eğrilir.
+    if (abs(x-_bx0) < e or abs(x-_bx1) < e or
+            abs(y-_by0) < e or abs(y-_by1) < e):
+        return True
+    if abs(x + 12.0) < e and y <= 60.0 + e:      # çentiğin dikey kenarı
+        return True
+    if abs(y - 60.0) < e and x <= -12.0 + e:     # çentiğin yatay kenarı
+        return True
+    return False
+
+# ⚠️ HÜCRE ÇOK PARÇALI OLABİLİR — kutu "L" olduğundan beri (4 Ağustos 2026).
+# Dikdörtgen kutuda `h.intersection(BOLGE)` her zaman tek parça veriyordu ve
+# bu satır `.exterior` diyordu. L'nin çentiği bir Voronoi hücresini ikiye
+# bölünce koşu `AttributeError: 'MultiPolygon' object has no attribute
+# 'exterior'` ile düştü (koşu 9, ilk deneme, 56. saniye).
+# 📌 Alt akış çok parçalılığı ZATEN destekliyor (`_kume` hücre başına yüz
+# listesi tutuyor); tek eksik bu satırdı.
+_dis_halkalar = []
+for h in PETEK:
+    for _p in (h.geoms if h.geom_type == "MultiPolygon" else [h]):
+        if not _p.is_empty:
+            _dis_halkalar.append(_p.exterior)
+_ag = linemerge(unary_union(_dis_halkalar))
+_kenarlar = list(_ag.geoms) if _ag.geom_type == "MultiLineString" else [_ag]
+print(f"  {len(_kenarlar)} kenar")
+
+asama("Kenarlar doğal hatlara yaslanıp yumuşatılıyor")
+_puruzsuz = []
+for _kn_i, ln in enumerate(_kenarlar, 1):
+    ilerleme(_kn_i, len(_kenarlar), 1000, "kenar")
+    cs = list(ln.coords)
+    if all(_kutuda(x, y) for x, y in cs):        # BOLGE çerçevesi düz kalır
+        _puruzsuz.append(ln); continue
+    bas, son = cs[0], cs[-1]
+    cs = dogal_hatta_yasla(sikla(cs))
+    cs[0], cs[-1] = bas, son                     # düğümler sabit: komşu kenarlar aynı noktada buluşur
+    _puruzsuz.append(LineString(chaikin_acik(cs, 2)))
+
+asama("Hücreler geri kuruluyor (polygonize)")
+# ⚠️ ULP kuralı: bütün yüzler TEK bir polygonize'dan çıkmalı ve hücreler
+# coverage_union_all ile (yeniden düğümleme YAPMADAN) birleştirilmeli. Yüz yüz
+# unary_union ya da yerel intersection(f) kırpması, ortak köşeleri son bitte
+# (ULP) kaydırıp örtüde bozuk kenar bırakıyordu (Hvar/Vis/Dir'iye vakaları).
+_nokta_agaci = STRtree(noktalar)
+def _cizgiler(g):
+    """Geometrinin çizgi bileşenlerini döker (polygonize girdisi için)."""
+    if g.is_empty: return []
+    if g.geom_type in ("LineString", "LinearRing"): return [g]
+    if hasattr(g, "geoms"): return [p for q in g.geoms for p in _cizgiler(q)]
+    return []
+def _yuzler_kur(hatlar):
+    return [f for f in polygonize(unary_union(hatlar)) if not f.is_empty]
+
+_yuzler = _yuzler_kur(_puruzsuz)
+# Çok noktalı yüzler (yaslama bir kenarı noktaların üzerinden geçirmiş): yüzün
+# içine mini-Voronoi bölme çizgileri eklenir ve HER ŞEY birlikte yeniden
+# polygonize edilir — böylece bölme kenarları da ortak düğümlemeden geçer.
+_ek_hat = []
+for f in _yuzler:
+    ic = [int(i) for i in _nokta_agaci.query(f, predicate="contains_properly")]
+    if len(ic) > 1:
+        alt = voronoi_diagram(MultiPoint([noktalar[i] for i in ic]), envelope=f)
+        _ek_hat += _cizgiler(unary_union([c.boundary for c in alt.geoms]).intersection(f))
+if _ek_hat:
+    _yuzler = _yuzler_kur(_puruzsuz + _ek_hat)
+print(f"  {len(_yuzler)} yüz ({len(_ek_hat)} mini-Voronoi bölme çizgisi)")
+
+_kume = [[] for _ in YERLER]                     # hücre başına yüz listesi
+_yetim = []
+for f in _yuzler:
+    ic = [int(i) for i in _nokta_agaci.query(f, predicate="contains_properly")]
+    if not ic:
+        _yetim.append(f)
+    else:
+        if len(ic) > 1:                          # bölme sonrası hâlâ çoksa (nadir): en yakını alır
+            print(f"  UYARI örtü: yüz {len(ic)} nokta içeriyor, en yakını seçildi")
+            ic = [min(ic, key=lambda i: f.centroid.distance(noktalar[i]))]
+        _kume[ic[0]].append(f)
+# Nokta içermeyen yüzler: en uzun ortak kenarı paylaştığı sahipli yüzün
+# hücresine katılır (birkaç tur: yetim zinciri olabilir); komşusuz kalan
+# en yakın noktaya verilir.
+# 🔴 ÖLÇÜT DEĞİŞTİ — "en uzun ortak kenar" → "ham hücre örtüşmesi".
+# MOTOR 3, 3 Ağustos 2026. Bugüne kadarki en pahalı tek kusur buradaydı.
+#
+# ESKİ ÖLÇÜT: yetim yüz, EN UZUN ORTAK KENARI paylaştığı yüzün sahibine
+# veriliyordu. Ama "en uzun ortak kenar" ile "bu toprak aslında kimindi"
+# aynı soru DEĞİL. Yaslama bir hücreyi ikiye böldüğünde, kopan parçanın en
+# uzun kenarı çoğu zaman DAĞ SIRTININ ya da BOĞAZIN ÖTE YAKASINDAKİ şehirle
+# oluyordu:
+#     Eperjes'in 23.357 km²'si  → KRAKOV      (Karpatlar'ın öte yakası)
+#     Reggio Calabria'nın payı  → SİRAKUZA    (Messina Boğazı'nın öte yakası)
+# Yani motor Slovak toprağını Krakov'a yazıyordu.
+#
+# ÖLÇÜLDÜ (MOTOR 3 raporu §⑦, canlı 1619 noktalı veriyle):
+#   yer değiştiren yüzlerde BUGÜNKÜ sahibin kendi ham hücresiyle örtüşmesi
+#   ortalama %3,1 — 8 yüzün 6'sında %2'DEN AZ. Yani "kazanmamış, YUTMUŞ".
+#   Nihai etki: %10 altında kalan petek 6 → 0 · yer değiştiren 78.368 km².
+#   🟢 Korunum sınavı: toplam boyanan alan iki ölçütte de 65.374.719 km²,
+#      fark −0. Değişiklik toprak yaratmıyor/yok etmiyor, ADRESİNİ düzeltiyor.
+#
+# ⚠️ ENKLAV KISITI — ölçütün tek başına yetmediği yer.
+# Yeni ölçüt 7 çiftin 6'sında doğru sonuç verdi ama Sebte'de yanıldı ve
+# doğru olduğu yerlerde de İLKEDEN değil TESADÜFEN doğruydu (enklav çoğu
+# zaman kısa kenarlıdır). Presidionun hinterlandı YOKTUR; bu geometrik
+# değil HUKUKÎ bir durumdur ve hiçbir örtüşme ölçütü onu soramaz —
+# `kasitli_bosluk` ile aynı sınıf. Veri alanı: `s:` içinde `enklav:`.
+# 📌 Yaklaşıklık: taban geometri ZAMANSIZ olduğu için "bir dönemde bile
+#    enklavsa hiç ememez" okuması uygulanıyor. Bedeli ÖLÇÜLDÜ —
+#    1.609 km² · 155 yıl · tek nokta (Oran), yani on binde 3. Dönem bazlı
+#    gerçek çözüm bu bedele değmedi (koordinatör kararı, 3 Ağustos).
+_ENKLAV = frozenset(i for i, y in enumerate(YERLER)
+                    if any(p.get("enklav") for p in y["s"]))
+if not _ENKLAV:
+    print("  " + "=" * 66)
+    print("  ⚠️ `enklav:` ALANI TAŞIYAN HİÇBİR KAYIT YOK.")
+    print("     A listesi (14 nokta / 20 dönem) veriye işlenmemiş olabilir.")
+    print("     BU KOŞUDA PRESİDİOLAR HİNTERLAND KAZANIR — ölçüldü:")
+    print("       Sebte %3,3 → %87,1 · Oran %7,9 → hinterland kazanır")
+    print("     Beklenen bu değilse koşuyu durdurup A listesini işleyin.")
+    print("  " + "=" * 66)
+else:
+    print(f"  enklav: {len(_ENKLAV)} nokta yetim yüz EMMEYECEK "
+          f"({', '.join(sorted(YERLER[i]['ad'] for i in _ENKLAV)[:6])}"
+          f"{'…' if len(_ENKLAV) > 6 else ''})")
+
+_PETEK_AGACI = STRtree(PETEK)
+for f in _yetim:
+    _en, _ea = None, 0.0
+    for k in _PETEK_AGACI.query(f):
+        i = int(k)
+        if i in _ENKLAV: continue
+        try:
+            _a = PETEK[i].intersection(f).area
+        except Exception:
+            continue
+        if _a > _ea: _ea, _en = _a, i
+    if _en is None:                      # hiçbir ham hücreyle örtüşmüyor
+        _en = min((i for i in range(len(noktalar)) if i not in _ENKLAV),
+                  key=lambda i: f.distance(noktalar[i]))
+    _kume[_en].append(f)
+
+PETEK_TAM = []
+for i, fs in enumerate(_kume):
+    if not fs:
+        print(f"  UYARI örtü: {YERLER[i]['ad']} hücresiz kaldı")
+        PETEK_TAM.append(Polygon())
+    else:
+        PETEK_TAM.append(shapely.coverage_union_all(fs) if len(fs) > 1 else fs[0])
+print(f"  {len(_yetim)} yetim yüz sahipli komşulara katıldı")
+
+asama("Örtü sadeleştirme (coverage_simplify)")
+# NOT: set_precision KULLANILMIYOR — ortak köşeler zaten bit düzeyinde aynı;
+# ızgaraya oturtma, üçlü kavşaklarda hücre başına farklı çökme yapıp bozuk
+# kenar üretiyordu (Maraş/Adana/Antakya kavşağında görüldü).
+# 🔴 VE BU GÜVENCE YALNIZ BU YOL İÇİN GEÇERLİ — 4 Eylül 2026'da ölçüldü.
+#    Buradaki hücreler `coverage_union_all` ile kurulur, yani köşeler
+#    GERÇEKTEN bit düzeyinde aynıdır. YABANCI HAVUZ (`DEV_HALKA`) öyle
+#    kurulmuyor: her devlet kendi dönemleri boyunca ayrı ayrı birleşiyor
+#    ve ortak sınır köşeleri bit düzeyinde AYRIŞIYOR.
+#    ⇒ Orada tam float eşitliği 96 parça / 9.046 km² dikiş boşluğu üretti
+#      (BULGU-GEOMETRI-0904, H-0001) ve `don_kose_kur` 1e-6 ızgaraya
+#      oturtularak düzeltildi (R1).
+#    📌 Bu satır bir kuralı değil bir KAPSAMI kaydeder: cümle doğruydu,
+#      GENELLENEBİLİR sanılması yanlıştı. Bir güvence, hangi yol için
+#      ölçüldüğünü söylemiyorsa okuyanı ölçüm yapmaktan alıkoyar.
+def _bozuk_liste(hucreler):
+    """Bozuk kenarı olan hücrelerin (indis, kenar) listesi."""
+    idx = [i for i, g in enumerate(hucreler) if g is not None and not g.is_empty]
+    b = shapely.coverage_invalid_edges([hucreler[i] for i in idx])
+    return [(idx[k], x) for k, x in enumerate(b) if x is not None and not x.is_empty]
+
+def _bozuk_dok(hucreler, etiket):
+    kot = _bozuk_liste(hucreler)
+    for i, x in kot:
+        print(f"    BOZUK KENAR [{etiket}] {YERLER[i]['ad']}: {x.wkt[:90]}")
+    return len(kot)
+_n0 = _bozuk_dok(PETEK_TAM, "ham")
+PETEK_TAM = list(shapely.coverage_simplify(PETEK_TAM, SADE_TOL))
+_n1 = _bozuk_dok(PETEK_TAM, "sade")
+print(f"  örtü geçerliliği: sadeleştirme öncesi {_n0}, sonrası {_n1} bozuk kenar "
+      + ("✓" if _n0 == 0 and _n1 == 0 else "✗ BOŞLUK/BİNDİRME VAR"))
+
+# Kıyı kesimi EN SON: bütün gövdelerin deniz sınırı doğrudan KARA maskesinden
+# gelir; kesimden sonra hiçbir sadeleştirme/yumuşatma yapılmaz.
+asama("Kıyı kesimi (her hücre × KARA) + A1 YARIÇAP TAVANI")
+# 🔴 TAVAN BURADA — kıyı kesimiyle AYNI ADIMDA. Gerekçe yukarıda (§TAVAN_KM).
+# Burada uygulanmasının iki sebebi var ve ikisi de ölçülmüş:
+#   ① kesim KARA üzerinde ⇒ tavan denizi boşuna kesmez, kalibrasyonla örtüşür
+#   ② bu adımdan SONRA hiçbir yumuşatma/sadeleştirme yok ⇒ ortak kenar ağı
+#      bozulmaz (Voronoi'nin ardında uygulandığında +17 bozuk kenar açmıştı)
+_TV_BAGLI = set()          # 🔴 SAYI DEĞİL KÜME — aşağıdaki nöbetçi kovayı ayırsın diye
+_tv_once = _tv_sonra = 0.0
+PETEK_D = []
+for i, g in enumerate(PETEK_TAM):
+    kara_kesik = g.intersection(KARA)
+    a0 = kara_kesik.area
+    if a0 > 0:
+        kes = (_yr_kes(kara_kesik, i) if MOTOR_YURUYUS
+               else kara_kesik.intersection(TAVAN_DAIRE[i]))
+        if not kes.is_empty:
+            _tv_once += a0
+            _tv_sonra += kes.area
+            if (a0 - kes.area) / a0 > 0.02:
+                _TV_BAGLI.add(i)
+            kara_kesik = kes
+        # tavan hücreyi TAMAMEN yerse dokunma: nokta kendi peteğinden olmaz
+    PETEK_D.append(poligonal(kara_kesik))
+print(f"  yarıçap tavanı: {len(_TV_BAGLI)} petek bağlandı "
+      f"({100*len(_TV_BAGLI)/len(YERLER):.1f}%) · "
+      f"KARA alanının {100*(_tv_once-_tv_sonra)/max(_tv_once,1e-9):.1f}%'i kesildi")
+
+if MOTOR_YURUYUS:
+    print(f"  🚶 yukarıdaki 'yarıçap tavanı' satırı BÜTÇE kesimidir "
+          f"({YURUYUS_SAAT:g} saat; ızgara dışı payda A1) · tohum yeri korunan "
+          f"{len(_YR_KORUMA)}" + (f": {', '.join(_YR_KORUMA[:10])}" if _YR_KORUMA else ""))
+
+# ═══ 🔴 KOVA GENİŞLETİLDİ — koşu 5'in öngörü ①'i BUNU ÇÜRÜTTÜ ═══
+# İlk sürüm yalnız tavanın BAĞLADIĞI hücreyi kasıtlı sayıyordu. Öngörü
+# "kıyı kovası 60-66 olmalı" diyordu ve "mazeret YOK" damgalıydı. Ölçüm:
+#     kıyı kovası 162 · tavan kovası 220   (toplam 382, 4b ile aynı)
+# ⇒ ~100 kenar tavanın kestiği hücrenin KOMŞUSUNA düşüyor. Doğaldır: A
+#   kesilip B kesilmeyince uyuşmazlık İKİ TARAFA da yazılır. Kovayı yalnız
+#   A'ya kurmak, aynı olayın yarısını kusur sayar.
+# ⇒ Kasıtlı kovası, tavanın bağladığı hücrelerin KOMŞULARINI da kapsar.
+# ⚠️ Bedeli aynı ve saklanmıyor: komşu hücrede doğan GERÇEK bir kıyı kusuru
+#    da bu kovaya düşer. İki sayı da basılıyor ki oran izlenebilsin.
+_tv_agac = STRtree(PETEK_TAM)
+_TV_KOMSU = set(_TV_BAGLI)
+for _i in _TV_BAGLI:
+    if PETEK_TAM[_i].is_empty:
+        continue
+    for _k in _tv_agac.query(PETEK_TAM[_i]):
+        _k = int(_k)
+        if not PETEK_TAM[_k].is_empty and PETEK_TAM[_k].intersects(PETEK_TAM[_i]):
+            _TV_KOMSU.add(_k)
+print(f"  tavan kovası: {len(_TV_BAGLI)} bağlanan + "
+      f"{len(_TV_KOMSU)-len(_TV_BAGLI)} komşu = {len(_TV_KOMSU)} hücre")
+
+# 🔴 KORUNUM SINAVI — 9 Ağustos 2026, ve NİÇİN VAR:
+# Koşu 4b'den sonra "Osmanlı 7/9 kesitte daraldı, yabancı +%15 (+6,6 M km²)"
+# ölçüldü ve yayın DURDURULDU. Ama bir TAVAN alan ARTIRAMAZ — yani ya motorda
+# bir kaçak vardı ya da ÖLÇÜM yanlıştı. Çıktı dosyaları geri alındığı için
+# soru koşu dışından cevaplanamadı.  ⇒ Alet koşunun İÇİNE kondu.
+# Tavan yalnız KESER: kesimden sonra toplam boyanan alan, kesilen kadar
+# AZALMALI — artarsa sonraki bir aşama kaçak veriyor demektir.
+_TV_BEKLENEN_KAYIP = _tv_once - _tv_sonra
+_TV_TOPLAM_SONRA = sum(g.area for g in PETEK_D if g is not None and not g.is_empty)
+print(f"  korunum: tavan sonrası toplam boyanan {_TV_TOPLAM_SONRA:,.0f} birim² · "
+      f"tavanın kestiği {_TV_BEKLENEN_KAYIP:,.0f} birim²")
+
+# ---------------- ADA KURALI ----------------
+# Bir yerleşimin peteği KENDİ kara parçasının dışına taşamaz.
+# Voronoi noktalar üzerinden hesaplanıp hücreler sonra karaya kırpıldığı için,
+# deniz atılıyor ama hücrenin KARŞI KIYIDAKİ parçası kalıyordu: Midilli
+# Ayvalık'ı, Marmara Adası Kapıdağ'ı, İskiathos Eğriboz'un kuzeyini boyuyordu.
+# Artık kara maskesinin her bağlantılı parçası yalnız kendi içindeki
+# yerleşimler arasında paylaşılıyor.
+asama("Ada kuralı (petekler kendi kara parçasına)")
+_komp = list(KARA.geoms) if KARA.geom_type == "MultiPolygon" else [KARA]
+_ptl = [Point(y["lon"], y["lat"]) for y in YERLER]
+_pagac = STRtree(_ptl)
+_tasan, _yalitilan = 0, 0
+_tavan_tuttu = _tavan_kesti = 0.0
+for _k in _komp:
+    if _k.is_empty or _k.area < 1e-7:
+        continue
+    _ic = [int(i) for i in _pagac.query(_k) if _k.intersects(_ptl[int(i)])]
+    if not _ic:
+        continue                       # noktasız kara parçası: eski davranış
+    _icset = set(_ic)
+    # dışarıdaki yerleşimlerin bu parçadaki payını kes
+    for _j in [int(i) for i in range(len(PETEK_D)) if i not in _icset]:
+        if PETEK_D[_j].is_empty or not PETEK_D[_j].intersects(_k):
+            continue
+        _yeni = poligonal(PETEK_D[_j].difference(_k))
+        if not _yeni.equals(PETEK_D[_j]):
+            PETEK_D[_j] = _yeni
+            _tasan += 1
+    # boşta kalan payı, parçanın İÇİNDEKİ en yakın yerleşime ver
+    # ═══ 🔴 9 Ağustos 2026 — A1 TAVANI BU SATIRLARDA GERİ ALINIYORDU ═══
+    # Koşu 5 ölçtü: tavan 1.929 birim² kesti, bu aşamanın sonunda alan
+    # +1.911 birim² ARTMIŞTI — kesilenin **%99,1'i geri verilmiş.**
+    # Sebep: `_bos`, kara parçasının hücrelerle kaplanmayan kısmıdır ve tavan
+    # devreye girdikten sonra ORAYA TAVANIN BOŞALTTIĞI ÇÖL DE DÂHİLDİR.
+    # Kural onu "boşta kalmış" sanıp en yakın yerleşime veriyordu — yani
+    # `§2` emilmesi, tavanın onu önlemesinden HEMEN SONRA yeniden yapılıyordu.
+    # 📌 Gece bu kaçak "yetim yüz mantığı" diye teşhis edilmişti; ölçüm o
+    #    teşhisi çürüttü (yetim yüz 116→118, üstelik tavandan ÖNCE koşuyor).
+    #    HÜKÜM doğruydu ("sonraki bir aşama geri veriyor"), TEŞHİS yanlıştı.
+    # ⇒ ÇARE: boşta kalan pay yalnız ALICININ TAVAN DAİRESİ İÇİNDE kalan
+    #   kadarıyla verilir. Adanın kuralı korunur (yerleşimin dibindeki küçük
+    #   artık yine emilir — tavanın içindedir), tavanın boşalttığı uzak çöl
+    #   ise SAHİPSİZ KALIR, ki tavanın var oluş sebebi budur.
+    _dolu = unary_union([PETEK_D[i] for i in _ic]) if _ic else None
+    _bos = poligonal(_k.difference(_dolu)) if _dolu is not None else _k
+    if not _bos.is_empty and _bos.area > 1e-9:
+        for _pp in (_bos.geoms if _bos.geom_type == "MultiPolygon" else [_bos]):
+            if _pp.is_empty:
+                continue
+            _en = min(_ic, key=lambda i: _ptl[i].distance(_pp))
+            _pay = (_yr_kes(_pp, _en) if MOTOR_YURUYUS
+                    else _pp.intersection(TAVAN_DAIRE[_en]))
+            if _pay.is_empty or _pay.area <= 1e-12:
+                _tavan_tuttu += _pp.area          # tavan sahipsiz bıraktı
+                continue
+            _tavan_kesti += _pp.area - _pay.area
+            PETEK_D[_en] = poligonal(unary_union([PETEK_D[_en], _pay]))
+            _yalitilan += 1
+print(f"  {_tasan} taşma kesildi, {_yalitilan} boşta kalan parça içerideki yerleşime verildi")
+print(f"  A1 tavanı ada kuralında: {_tavan_tuttu:,.1f} birim² HİÇ verilmedi · "
+      f"{_tavan_kesti:,.1f} birim² kısmen kesildi")
+# 🔴 AŞAMA SONDASI — korunum ② bütün aralığı ölçüyor ama HANGİ aşama olduğunu
+# söylemiyordu; koşu 5'te "Ada kuralı mı devret mi" sorusu ELLE ayrıldı.
+# Bir daha ayrılmasın diye sonda buraya kondu. (📌 "Denetim var ≠ o soruyu
+# soruyor" — burada denetim vardı, soruyu SORAN yoktu.)
+_TV_ADA_SONRA = sum(g.area for g in PETEK_D if g is not None and not g.is_empty)
+_d = _TV_ADA_SONRA - _TV_TOPLAM_SONRA
+print(f"  korunum ②a (ada kuralı): {_d:+,.1f} birim² "
+      f"({100*_d/max(_TV_TOPLAM_SONRA,1e-9):+.2f}%)"
+      + ("  ⚠️ ARTIŞ" if _d > 0.001 * _TV_TOPLAM_SONRA else "  ✓"))
+
+
+def _ham_km2(g):
+    """Yuvarlamasız km² — alan_km2 bini yuvarladığı için oran hesabına uymuyor."""
+    if g is None or g.is_empty:
+        return 0.0
+    ps = g.geoms if isinstance(g, MultiPolygon) else [g]
+    T = 0.0
+    for p in ps:
+        for ring, sg in [(p.exterior, 1)] + [(h, -1) for h in p.interiors]:
+            cs = list(ring.coords); s = 0.0
+            for i in range(len(cs) - 1):
+                lo1, la1 = math.radians(cs[i][0]), math.radians(cs[i][1])
+                lo2, la2 = math.radians(cs[i + 1][0]), math.radians(cs[i + 1][1])
+                s += (lo2 - lo1) * (2 + math.sin(la1) + math.sin(la2))
+            T += sg * abs(s * R_DUNYA * R_DUNYA / 2)
+    return T
+
+
+asama("Kara-kısıtlı sahiplik: parçaları sına ve devret")
+
+# Parçaları sına ve el değiştirenleri UYGULA. Parça bütün olarak taşınır, yani
+# birleşim korunur: kaybolan ya da iki kez sayılan toprak olamaz. Bunu aşağıdaki
+# _bozuk_dok ayrıca doğrular.
+#
+# 🔴 ANA PARÇA DOKUNULMAZ — bu kuralın eksikliği ilk koşuyu düşürdü.
+# İlk sürümde bu koruma yoktu ve on liman peteğinin TAMAMINI kaybetti:
+# Sinop, Aden, Benzert, Koron, Hafun, Arkîko, Masavva, Şârika, ve en çarpıcısı
+# **Küngrat %0 (0 / 132.678 km²)** — yani "Küngrat → Üstyurt 132.678 km²"
+# geçme ölçütü tutuyordu ama devretilen şey Küngrat'ın peteğinin TAMAMIYDI.
+# Ölçüt bir kusuru ölçüyormuş: liman kendi ayağının altındaki toprağı da verdi.
+# Sebep: kıyı yerleşiminin parçası tohumdan körfezle ayrılabiliyor, düz hat
+# denizi kesiyor, ızgara "kara yolundan daha yakın bir iç yerleşim var" diyor —
+# ve teknik olarak haklı. Ama bir yerleşimin ÜZERİNDE DURDUĞU toprak asla
+# başkasına geçemez; bu bir mesafe sorusu değil, tanım gereği böyle.
+_kvana = []
+for _i in range(len(PETEK_D)):
+    _g = PETEK_D[_i]
+    if _g is None or _g.is_empty:
+        _kvana.append(None); continue
+    _ps = list(_g.geoms) if _g.geom_type == "MultiPolygon" else [_g]
+    _ic = [p for p in _ps if p.contains(_ptl[_i])]
+    _kvana.append(_ic[0] if _ic else min(_ps, key=lambda p: p.distance(_ptl[_i])))
+
+# ═══ 🔴 10 Ağustos 2026 — BİLEŞEN KİLİDİ (MOTOR DENİZAŞIRI oturumu) ═══════════
+# ADA KURALI (yukarıda, :997) peteği KENDİ kara bileşenine kısıtlıyor.
+# BU AŞAMA onu geri veriyordu. Sebep ÖLÇÜLDÜ: 0,05°lik ızgara (≈5,5 km) dar
+# boğazı GÖREMİYOR ve adayı anakaraya bitişik sanıyor —
+#     Pag    ızgara bileşeni 4.084 / 4.868 hücre = %83,9  → anakaraya "bağlı"
+#     Vardø  ızgara bileşeni 3.307 / 3.307      = %100   → anakaraya "bağlı"
+#   (gerçek maskede ikisi de AYRI bileşen: Pag #351 · Vardø #1886)
+# ⇒ ADA KURALI kesiyor, Dijkstra geri veriyor. A1 tavanı / yetim yüz vakasının
+#   İKİZİ: iki aşama tek tek doğru, ARALARINDA sözleşme yok.
+#
+# ÇARE: devir yalnız ALICI ile PARÇA aynı GERÇEK maske bileşenindeyse geçerli.
+#   Izgara SAHİPLİĞE karar vermeye devam eder; yalnız bileşen atlayamaz.
+#
+# ÖLÇÜLDÜ — koşusuz, yayındaki `petek_govde.js` (r1140) üzerinde:
+#   · etkisi TAM İKİ KAYIT: Pag 7.277 km² + Vardø 4.831 km² = 12.108 km²
+#   · motorun KENDİ KABUL TESTİ (:1111) BOZULMUYOR — Oslo · Königsberg · Azak ·
+#     Tromsø · Bergen · Ålesund = 0 km² kayıp. Altısı da tohumlarıyla AYNI
+#     bileşende; Tromsøya ile anakara gerçek maskede tek bileşen (fiyort ağzı
+#     kapalı), o yüzden 20.902 km²lik fiyort toprağı etkilenmiyor.
+#   · noktasız bileşenlere DOKUNMAZ (341.335 km²) — Dijkstra onları zaten
+#     devretmiyor (:1015 "noktasız kara parçası: eski davranış").
+# ⚠️ BEKLENTİ, ÖLÇÜM DEĞİL: `Değişmez 1` değişmemeli (sahipsiz 180 kalır),
+#    çünkü ADA KURALI payı zaten anakara noktasına vermiş oluyor (:1040-1052) —
+#    bu KODDAN ÇIKARIM, koşuyla doğrulanmadı. Koşudan sonra sınanacak.
+_kvkomp_gecerli = [(_j, _k) for _j, _k in enumerate(_komp)
+                   if not _k.is_empty and _k.area > 1e-9]
+_kvkomp_idx = [_j for _j, _ in _kvkomp_gecerli]
+_kvkomp_geo = [_k for _, _k in _kvkomp_gecerli]
+_kvkomp_agac = STRtree(_kvkomp_geo)
+
+
+def _kv_bilesen(_pt):
+    """Noktanın GERÇEK maske bileşeni; maskenin dışındaysa -1 (karar verme)."""
+    for _q in [int(_x) for _x in _kvkomp_agac.query(_pt)]:
+        if _kvkomp_geo[_q].intersects(_pt):
+            return _kvkomp_idx[_q]
+    return -1
+
+
+_kvtohum_bilesen = [_kv_bilesen(_p) for _p in _ptl]
+_kvbilesen_red, _kvbilesen_alan = 0, 0.0
+# ═════════════════════════════════════════════════════════════════════════════
+
+_kvver, _kval, _kvdegisen = {}, {}, []
+_kvkucuk_n, _kvkucuk_a = 0, 0.0
+_kvkararsiz, _kvana_korundu = 0, 0
+_ab_parca = []                    # ① eğimin HARİTAYA İNEN etkisi (ölçüm)
+_abn_parca = []                   # ② nehir bedelinin HARİTAYA İNEN etkisi (ölçüm)
+for _i, _g in enumerate(PETEK_D):
+    if _g is None or _g.is_empty: continue
+    for _p in (_g.geoms if _g.geom_type == "MultiPolygon" else [_g]):
+        if _p.is_empty: continue
+        if _kvana[_i] is not None and _p.equals(_kvana[_i]):
+            _kvana_korundu += 1
+            continue                      # tohumun üstündeki toprak devredilmez
+        _a = _ham_km2(_p)
+        if _a < KV_MIN_KM2:
+            _kvkucuk_n += 1; _kvkucuk_a += _a
+            continue                      # ızgara bu ölçekte karar veremez
+        _rp = _p.representative_point()
+        if _kvkp.contains(LineString([_ptl[_i], _rp])):
+            continue                      # kesin geometri geçerli — dokunma
+        _gi = min(_kvnx - 1, max(0, int((_rp.x - _kvx0) / KV_ADIM)))
+        _gj = min(_kvny - 1, max(0, int((_rp.y - _kvy0) / KV_ADIM)))
+        _s = _kvsahip[_gj * _kvnx + _gi]
+        # ---- ① A/B: bu parçanın cevabını EĞİM mi değiştirdi? -------------
+        # 🔴 ASIL SORU BU, ve ızgara düzeyindeki 166.966 hücre onu CEVAPLAMAZ.
+        # Sebep bir satır yukarıda: `:1790` düz hattı karada olan her parçayı
+        # eliyor, yani ızgaraya YALNIZ deniz aşırı parçalar soruluyor. Eğimin
+        # Himalaya'da ürettiği fark oraya hiç ulaşmaz.
+        # ⇒ Burada sayılan şey, eğimin HARİTAYA İNEN etkisidir — tavanı değil,
+        #   kendisi. `_ab_parca` bu aşamanın kabul ölçütüdür.
+        # ⚠️ ÖLÇÜM SATIRIDIR, ÜRETİME KARIŞMAZ: `_s0` hiçbir karara girmiyor.
+        if _kvsahip0 is not None:
+            _s0 = _kvsahip0[_gj * _kvnx + _gi]
+            if _s0 != _s:
+                _ab_parca.append((_a, YERLER[_i]["ad"],
+                                  YERLER[_s0]["ad"] if _s0 >= 0 else "(kararsız)",
+                                  YERLER[_s]["ad"] if _s >= 0 else "(kararsız)"))
+        # ② aynı soru NEHİR için — ölçüm satırı, üretime karışmaz
+        if _kvsahipN is not None:
+            _sN = _kvsahipN[_gj * _kvnx + _gi]
+            if _sN != _s:
+                _abn_parca.append((_a, YERLER[_i]["ad"],
+                                   YERLER[_sN]["ad"] if _sN >= 0 else "(kararsız)",
+                                   YERLER[_s]["ad"] if _s >= 0 else "(kararsız)"))
+        if _s < 0:
+            _kvkararsiz += 1; continue    # ızgarada su/erişilmez → karar verme
+        if _s != _i:
+            # 🔴 BİLEŞEN KİLİDİ — alıcı parçanın bileşeninde değilse devir YOK.
+            # Izgara dar boğazı göremediği için "kara yolu var" diyebilir;
+            # gerçek maske hayır diyorsa gerçek maske kazanır.
+            _pb = _kv_bilesen(_rp)
+            if (_pb >= 0 and _kvtohum_bilesen[_s] >= 0
+                    and _pb != _kvtohum_bilesen[_s]):
+                _kvbilesen_red += 1
+                _kvbilesen_alan += _a
+                continue
+            _kval.setdefault(_i, []).append(_p)
+            _kvver.setdefault(_s, []).append(_p)
+            _kvdegisen.append((_a, YERLER[_i]["ad"], YERLER[_s]["ad"], _rp.y, _rp.x))
+for _i, _ps in _kval.items():
+    PETEK_D[_i] = poligonal(PETEK_D[_i].difference(unary_union(_ps).buffer(0)))
+for _i, _ps in _kvver.items():
+    PETEK_D[_i] = poligonal(unary_union([PETEK_D[_i]] + _ps))
+print(f"  {len(_kvdegisen)} parça el değiştirdi, toplam "
+      f"{sum(d[0] for d in _kvdegisen):,.0f} km²")
+# ---- ① EĞİMİN KABUL ÖLÇÜTÜ — ve SIFIR da bir sonuçtur ----------------------
+# 📌 `denetim/EGIM-ONGORU.md` bu satır için yazıldı. Öngörü: 0-8 parça.
+#    SIFIR çıkarsa bu bir BAŞARISIZLIK DEĞİL, bir ÖLÇÜMDÜR: eğim doğru
+#    hesaplanıyor (ızgarada 166.966 hücre değişiyor) ama `:1790` süzgeci onu
+#    haritadan uzak tutuyor. O hâlde bir sonraki iş çarpanı ayarlamak değil,
+#    SÜZGECİ tartışmaktır — ve bu, koşudan önce yazıldığı için çürütülebilir
+#    bir cümledir.
+if _kvsahip0 is not None:
+    print(f"  ① EĞİM ETKİSİ: {len(_ab_parca)} parçanın ızgara cevabını eğim "
+          f"değiştirdi, {sum(p[0] for p in _ab_parca):,.0f} km² "
+          f"(ÖNGÖRÜ 0-8 parça — denetim/EGIM-ONGORU.md)")
+    for _a2, _kim, _eski, _yeni in sorted(_ab_parca, reverse=True)[:12]:
+        print(f"     {_a2:>10,.0f} km²  {_kim:<20} eğimsiz→{_eski:<18} "
+              f"eğimli→{_yeni}")
+    if not _ab_parca:
+        print("     SIFIR — eğim ızgarada çalışıyor ama `:1790` süzgeci onu")
+        print("     haritaya geçirmiyor. Bulgu budur; çarpanı DEĞİŞTİRME.")
+if _kvsahipN is not None:
+    print(f"  ② NEHİR ETKİSİ: {len(_abn_parca)} parçanın ızgara cevabını nehir "
+          f"bedeli değiştirdi, {sum(p[0] for p in _abn_parca):,.0f} km² "
+          f"(ÖNGÖRÜ — denetim/MOTOR-0916.md ②)")
+    for _a2, _kim, _eski, _yeni in sorted(_abn_parca, reverse=True)[:12]:
+        print(f"     {_a2:>10,.0f} km²  {_kim:<20} nehirsiz→{_eski:<18} "
+              f"nehirli→{_yeni}")
+    if not _abn_parca:
+        print("     SIFIR — nehir bedeli ızgarada çalışıyor ama deniz-hattı")
+        print("     süzgeci onu haritaya geçirmiyor. Bulgu budur; tabloyu DEĞİŞTİRME.")
+print(f"  ızgaraya sorulmayan: {_kvkucuk_n} parça / {_kvkucuk_a:,.0f} km² "
+      f"({KV_MIN_KM2:.0f} km² altı) · kararsız {_kvkararsiz} · "
+      f"ana parça korundu {_kvana_korundu}")
+print(f"  🔒 bileşen kilidi: {_kvbilesen_red} devir REDDEDİLDİ / "
+      f"{_kvbilesen_alan:,.0f} km² (ada kuralı korundu) "
+      f"— ÖNGÖRÜ: 2 parça / 12.108 km² (Pag 7.277 + Vardø 4.831)")
+# Hiçbir petek tamamen boşalmamalı — ana parça kuralı bunu garanti eder, ama
+# garanti EDİLDİĞİNİ VARSAYMAK yerine ölçülür. İlk koşuyu düşüren tam buydu.
+_kvbos = [YERLER[_i]["ad"] for _i in range(len(PETEK_D))
+          if _kvana[_i] is not None and PETEK_D[_i].is_empty]
+print(f"  kara-kısıtlı sahiplik sonrası boşalan petek: {len(_kvbos)} "
+      + ("✓" if not _kvbos else "✗ " + ", ".join(_kvbos[:10])))
+for _a, _eski, _yeni, _lat, _lon in sorted(_kvdegisen, reverse=True)[:20]:
+    print(f"     {_a:>10,.0f} km²  {_eski:<22} → {_yeni:<22} "
+          f"{_lat:6.2f}K {_lon:7.2f}D")
+if len(_kvdegisen) > 20:
+    print(f"     … ve {len(_kvdegisen)-20} parça daha (hepsi yukarıdaki "
+          f"toplama dahil)")
+
+# ⚠️ BU SATIR YILLARDIR "✗" BASIYORDU VE KİMSE BAKMIYORDU — ölçüldü, açıklandı.
+# Sadeleştirme aşamalarında bozuk kenar SIFIR (_n0 = _n1 = 0). 32 kenar yalnız
+# `PETEK_D = g.intersection(KARA)` adımından sonra çıkıyor: örtü hücreler
+# arasında geçerli, ama her hücre kara maskesiyle AYRI AYRI kesilince ortak
+# kenar iki hücrede farklı düğümleniyor (fark 15. ondalıkta, ~1e-10 m).
+# Bu uyuşmazlık HARİTAYA ULAŞMIYOR — çıktıdan önce hücreler gövdeye
+# birleştiriliyor ve birleştirme yarığı yutuyor. r176 çıktısında ölçüldü
+# (scratchpad/bozuk_kenar.py): 1 km²'den küçük iç delik 0, 5 km² altı yarık 0,
+# dört kesitte de parça toplamı = birleşik alan (fark 0 km²).
+# Doğru okuma mutlak sayı değil TABANA GÖRE ARTIŞ: taban ise sessiz kalmalı,
+# artarsa gerçekten yeni bir uyuşmazlık açılmış demektir.
+#
+# 🔴 TABAN 32 → 57, VE NÖBETÇİ YERİ DEĞİŞTİ — MOTOR 3, 3 Ağustos 2026.
+# Son koşu 130 bozuk kenar bildirdi ve "✗ TABANIN ÜSTÜNDE" bastı. Ölçüldü:
+# YANLIŞ ALARM, iki ayrı sebepten ve ikisi de yukarıdaki yorumu geçersiz
+# kılıyordu.
+#
+# ① SAYAÇ İKİ ALAKASIZ OLAYI TOPLUYORDU. 130 kenarın hepsi logdan ayrıştırılıp
+#    kara maskesi + Natural Earth çöl poligonlarıyla konumlandırıldı:
+#        ÇÖL  (kıyıdan >25 km uzak)   73     ← kıyı kesimiyle İLGİSİ YOK
+#        KIYI (<1 km)                 57     ← bu yorumun anlattığı ULP sınıfı
+#    Bir kıyı kesimi artefaktı Ténéré'nin ortasında, kıyıdan 470 km içeride
+#    olamaz (Agadez · Hoggar · Tibesti · Kaşgar · Hotan · Turfan · Baotou…).
+#
+# ② SEBEP ÇÖL TAVANI, VE O KASITLI. Sayaç "kıyı" diye etiketliydi ama kıyı
+#    kesiminden DÖRT aşama sonra koşuyordu; araya çöl tavanı giriyor ve
+#    4.609.677 km²'yi bilerek SAHİPSİZLEŞTİRİYOR. Sahipsiz alan = örtüde delik
+#    = coverage_invalid_edges'in bildirmesi GEREKEN şey. Sayaç doğru çalışıyor,
+#    ölçtüğü şey kusur değil özellikti. İki bağımsız delil:
+#      · çöl tavanının en çok kısalttığı 12 peteğin 11'i bozuk kenar bildiriyor
+#      · çöl sınıfı kenarların kendi noktasına uzaklığı medyan 311 km, 44/73'ü
+#        ≥270 km — tam 300 km'lik tavan diskinin kenarında
+#    Karşı sınama: kara-kısıtlı devirde adı geçen 37 yerleşimin yalnız 1'i
+#    bozuk kenar bildiriyor → o aşama sebep DEĞİL.
+#
+# 🔴 VE TABAN 32 BU MOTORUN TABANI DEĞİLDİ (git'ten):
+#        31 Tem 14:01  a148161  taban 32 ölçüldü (r217)
+#        31 Tem 18:43  2254268  ÇÖL TAVANI eklendi        ← 4s42dk sonra
+#        02 Ağu 15:10  6bfcc0d  KUTU AÇILDI (Asya · Endonezya · Japonya)
+#    Taban ölçüldüğünde sahipsiz alan üreten aşama YOKTU, yani çöl sınıfı var
+#    OLAMAZDI; kutu da küçüktü ve nokta sayısı 951'di. İki yapısal
+#    değişiklikten sonra taban hiç yeniden ölçülmedi.
+#    Kıyı ekseni tek başına alındığında büyüme oransal — yani orada da yeni bir
+#    uyuşmazlığa delil yok:  nokta 951→1.579 (1,66×) · kıyı sınıfı 32→57 (1,78×)
+#    üstelik kıyı çok daha parçalı (Endonezya · Filipinler · Japonya · Ege).
+#
+# ⚠️ 57 TÜRETİLMİŞ BİR SAYIDIR, ÖLÇÜLMÜŞ DEĞİL — ve bunu saklamıyoruz.
+#    Çöl tavanı SONRASI çıktının sınıflandırılmasından geldi; nöbetçi ise artık
+#    çöl tavanı ÖNCESİNDE duruyor. İki nokta aynı geometriyi görmüyor, o yüzden
+#    ilk koşu 57'yi doğrulayabilir de düzeltebilir de. Aşağıdaki nöbetçi bu
+#    yüzden ÇİFT YÖNLÜ: taban aşılırsa ✗ basar, tabanın ALTINDA kalırsa da
+#    "taban gevşek, şu sayıya çek" der. Bu deponun tekrarlayan hastalığı
+#    ölçülmüş bir sabitin motor altından değişince yeniden ölçülmemesi; çift
+#    yönlü nöbetçi tam onu yakalar.
+# 🔴 57 → 48: İLK KOŞU ÖLÇTÜ VE BENİ DÜZELTTİ (kosu3.log, 12:49:39).
+# 57 türetilmiş bir sayıydı — çöl tavanı SONRASI çıktıyı sınıflandırarak
+# bulunmuştu, oysa nöbetçi tavandan ÖNCE duruyor. Aradaki 9 kenar 'kıyı'
+# gibi görünüp aslında tavanın açtığı kenarlarmış; yani çöl tavanının payı
+# 73 değil 82. Çift yönlü nöbetçinin ALT dalı bunu ilk koşuda yakaladı:
+#   'çöl tavanı ÖNCESİ örtü: 48 bozuk kenar (taban 57) ✓ — TABAN GEVŞEK'
+# ⚠️ Tek yönlü bir nöbetçi burada sessiz '✓' basar, taban 57'de kalır ve
+# 48-57 arasındaki her gerçek regresyon görünmez olurdu.
+# ═══ 🔴 6 Agustos 2026 — "ORANA CEVIR" ONERISI OLCULDU VE CURUDU ═══
+# Koordinator "taban mutlak sayi, oysa bugun 59 nokta ekledik; nokta sayisi
+# buyurken sabit esik tutmak 2s tavaniyla ayni sinif hata -- ORANA cevrilmeli"
+# dedi. PETEK/NOKTA once "payda `tur:'bolge'` sayisi olabilir" diye oneri
+# yazdi, sonra OLCTU ve KENDI ONERISINI CURUTTU. Sekiz kosu gunlugu:
+#     1.606 → 1.623 nokta (+17)  →  bozuk kenar TAM 48'DE SABIT
+#     1.623 → 1.713      (+90)   →  48 → 60   (+12)
+#     1.713 → 1.772      (+59)   →  60 → 58   🔴 (−2)
+# Son satir HER oran onerisini curutuyor: NOKTA ARTTI, KENAR AZALDI.
+# ⇒ Bozuk kenar nokta sayisinin fonksiyonu DEGIL; ne noktaya ne `bolge`ye
+#   bolunur -- PAYDASI YOK.
+#
+# 🟢 PEKI NEYIN FONKSIYONU: KIYI. Olculdu, parti basina kiyiya <25 km oran:
+#     ek7 %41 · ek8 %51 · ek13 %38 · OTEKI DOKUZ DOSYA %0 (hepsi ic kara)
+#     kosu9 (ek7+ek8+ek9)  90 nokta · kiyida 37 (%41)  →  +12 kenar
+#     r772  (ek13…ek20)    59 nokta · kiyida  6 (%10)  →   −2 kenar
+#   Bozuk kenar KIYI KESIMINDEN doguyor: fiyort, ada, girintili sahil.
+#   ek7/ek8'in 36 fiyort-ada noktasi +12 getirdi; Sibirya-Orta Asya-bozkir
+#   partilerinin SIFIR kiyi noktasi kenar getirmedi.
+#
+# HUKUM: orana CEVRILMEDI (veri desteklemiyor) · mutlak tripwire KALIYOR ·
+#   artis okunabilir olsun diye parti basina "kiyiya <25 km nokta" bakilir.
+# 48 -> 58: bugunku deger bir REGRESYON DEGIL; +10'un tamami ek7/ek8'in
+#   geometrisinden ve o parti dort gun once baglandi.
+# 📌 Ve cift yonlu nobetci burada ise yaradi: 60 → 58 DUSUSUNU tek yonlu bir
+#   nobetci sessizce yutardi.
+# 📌 ONCELIK.md K4'un yeni bir yuzu: OLCMEDEN VERILEN ONERI DE UC TUR DEMEK.
+#   Uygulansaydi ek17/ek18 gibi `bolge` dolgusu bol ama kiyisi sifir
+#   partiler yanlislikla ceza alirdi.
+BOZUK_KIYI_TABAN = 58
+
+# 🔴 NÖBETÇİ BURADA — ÇÖL TAVANINDAN ÖNCE. Bu çağrı, taban 32'yi üreten r217
+# koşusuyla AYNI ölçümdür (kıyı kesimi + ada kuralı + kara-kısıtlı sahiplik
+# sonrası); yalnız yeri düzeltildi. Çöl tavanı sonrasındaki çağrı aşağıda
+# duruyor ama artık BİLGİ satırı — ✗ basmıyor, çünkü orada ölçtüğü delikler
+# kasıtlı.
+# ═══ 🔴 9 Ağustos 2026 — NÖBETÇİNİN EVRENİ DEĞİŞTİ, KENDİSİ DEĞİŞMEDİ ═══
+# Bu nöbetçi kurulduğunda önünde KASITLI DELİK AÇAN hiçbir aşama yoktu; bütün
+# bozuk kenarlar kıyı geometrisinden geliyordu ve taban (58) onu ölçüyordu.
+# 8 Ağustos'ta A1 YARIÇAP TAVANI tam onun ÖNÜNE kondu ve kasıtlı delik açmaya
+# başladı. Nöbetçi ikisini AYNI KOVAYA koydu:
+#     koşu 3  (tavan yok)          62 bozuk kenar
+#     koşu 4b (tavan kıyı kesiminde)  382       ← "✗ YENİ UYUŞMAZLIK"
+# Ölçüldü: 335 yeni kenarın adları neredeyse tamamen çöl · bozkır · Sibirya ·
+# Afrika — yani TAVANIN KESTİĞİ hücreler. Kıyıda yeni bir uyuşmazlık YOK.
+# 📌 Ve motor bu kavramı ZATEN biliyordu: 30 satır yukarıda çöl tavanı için
+#    "orada ölçtüğü delikler kasıtlı" diye muafiyet yazılı. A1'e yazılmamıştı,
+#    çünkü A1 nöbetçiden SONRA doğdu.
+# ⇒ Kova ayrıldı: tavanın bağladığı hücreler BİLGİ, ötekiler TRIPWIRE.
+# ⚠️ Yaklaşıklık ve saklanmıyor: tavanın bağladığı bir hücrede GERÇEK bir kıyı
+#    uyuşmazlığı doğarsa "kasıtlı" kovasına düşer ve tripwire onu görmez.
+#    Bedeli ölçülebilir olsun diye iki sayı da basılıyor.
+# 🔴 KORUNUM SINAVI ②: tavandan buraya kadar (ada kuralı + kara-kısıtlı
+# sahiplik) alan ARTMIŞ olmamalı. Koşu 4b'de "yabancı +%15" ölçülmüştü ve
+# hangi aşamanın ürettiği bilinmiyordu; bu satır onu koşunun içinde söyler.
+_TV_TOPLAM_SIMDI = sum(g.area for g in PETEK_D if g is not None and not g.is_empty)
+_tv_delta = _TV_TOPLAM_SIMDI - _TV_TOPLAM_SONRA
+print(f"  korunum ②: tavandan bu noktaya alan {_tv_delta:+,.0f} birim² "
+      f"({100*_tv_delta/max(_TV_TOPLAM_SONRA,1e-9):+.2f}%)"
+      + ("  ⚠️ ARTIŞ — bir aşama sahipsiz alanı geri veriyor"
+         if _tv_delta > 0.001 * _TV_TOPLAM_SONRA else "  ✓"))
+
+_kot0 = _bozuk_liste(PETEK_D)
+_nk0 = sum(1 for i, _ in _kot0 if i not in _TV_KOMSU)
+_nk0_tavan = len(_kot0) - _nk0
+for i, x in _kot0:
+    _ki = "tavan/kasıtlı" if i in _TV_KOMSU else "çöl öncesi"
+    print(f"    BOZUK KENAR [{_ki}] {YERLER[i]['ad']}: {x.wkt[:90]}")
+if _nk0_tavan:
+    print(f"  A1 tavanının açtığı kenar: {_nk0_tavan} (KASITLI — sahipsizleşen "
+          f"alanın kenarı, tripwire'a SAYILMAZ)")
+if _nk0 > BOZUK_KIYI_TABAN:
+    print(f"  çöl tavanı ÖNCESİ örtü: {_nk0} bozuk kenar "
+          f"(taban {BOZUK_KIYI_TABAN}) ✗ TABANIN ÜSTÜNDE — YENİ UYUŞMAZLIK")
+elif _nk0 < BOZUK_KIYI_TABAN:
+    print(f"  çöl tavanı ÖNCESİ örtü: {_nk0} bozuk kenar "
+          f"(taban {BOZUK_KIYI_TABAN}) ✓ — ⚠️ TABAN GEVŞEK, "
+          f"BOZUK_KIYI_TABAN = {_nk0} yapılmalı")
+else:
+    print(f"  çöl tavanı ÖNCESİ örtü: {_nk0} bozuk kenar "
+          f"(taban {BOZUK_KIYI_TABAN}) ✓")
+
+# ---------------- ÇÖL TAVANI ----------------
+# Kullanıcının en eski açık şikâyeti: çölde sınırlar "pat diye" geçiyor.
+# Sebep ölçüldü ve cetvel DEĞİL — nokta yokluğu: Sahra'da 120 yerleşim var,
+# medyan aralık 120 km, ama tek bir peteğin erişimi 1.475 km'ye kadar çıkıyor
+# (Timbuktu). O kadar uzağa uzanan bir hâkimiyet iddiası tarihen de yanlış.
+#
+# KURAL (COGRAFYA-COL-TAVANI.md §2): bir yerleşimin peteği, ÇÖL içinde kalan
+# kısmında, noktasından 300 km'den uzağa uzanamaz.
+#
+# ⚠️ DERECE ≠ KİLOMETRE — bu kuralın en sinsi tuzağı ve A/B'de GÖRÜNMEZ.
+# Sabit 2,70° yazılsaydı gerçek erişim Sahra'da 272 km, Akdeniz kenarında
+# 246 km olurdu; hiçbir denetim patlamaz, tavan yalnız istenenden %10-18 dar
+# olurdu ve kimse aramazdı. Bu yüzden disk ENLEME GÖRE ölçekli bir elipstir:
+# boylam yarıçapı cos(enlem) ile genişler.
+#
+# 🔴 GÜVENLİK ÖZELLİĞİ: tavan yalnız ÇIKARIR, hiç EKLEMEZ. Yani
+# petek_son ⊆ petek_voronoi her zaman doğru ⇒ yeni emilme riski yapısal olarak
+# üretilemez, Değişmez 1 ve 2 etkilenmez (nokta değil ALAN çıkıyor ve her
+# yerleşim kendi diskinin merkezinde).
+# 🔴 VE ÇÖL DIŞI HİÇ ETKİLENMEZ — bu da yapısal: kesim `COL` ile kesişimden
+# türüyor. Bu yüzden "çöl dışında kısalma = 0" ölçülmez, buradan okunur.
+COL_TAVAN_KM = 300.0
+COL_SU_MUAF_KM = 30.0
+# 🔴 MUAFİYETİN KAPSAMI — şartname iki okumaya birden açıktı ve ikisi farklı
+# sonuç veriyor. Karar iki kez döndü, o yüzden TEK SATIRLIK anahtar yapıldı:
+#   False (ALAN bazlı)     kuralın lafzı: "30 km'den yakın ALANDA tavan
+#                          uygulanmaz". Nil şehrinin peteği Nil boyunca
+#                          sınırsız uzanır ama çöle doğru 300 km'de durur.
+#                          Yapısal olarak sınırlı — hiçbir petek 300 km'yi
+#                          çöle doğru aşamaz, veri ne olursa olsun.
+#   True  (YERLEŞİM bazlı) kullanıcının cümlesi: "nehrin kıyısındaki şehirler
+#                          bir tarafı Nil'e dayanan DİĞER TARAFI ÇÖLE UZANAN
+#                          bölgeyi kullanırlar". Suya 30 km'den yakın
+#                          yerleşimin peteği HİÇ kesilmez.
+# ⚠️ Seçim (True) ölçüme dayanıyor: muaf kümenin azamisi bugün 346 km, yani
+#    "muafiyet kaçak yola dönüşür" korkusu GERÇEKLEŞMİYOR. Ama bu VERİYE
+#    bağlı bir güvence, yapısal değil: suya yakın yeni bir çöl kenarı noktası
+#    eklenirse o nokta sınırsız erişim kazanır ve kimse uyarmaz.
+#    Bu yüzden aşağıda muaf peteklerin azami erişimi HER KOŞUDA raporlanıyor.
+# 🔴 (A) SEÇİLDİ — ÖLÇÜLEREK. (B) denendi ve koordinatörün İLK korkusunu
+# doğruladı: yerleşim bazlıda TIMBUKTU muaf çıkıyor (Nijer kıyısında,
+# suya 30 km'den yakın) ve peteği Sahra'yı 1.475 km boyunca kesmeye
+# devam ediyor — yani kullanıcının BİRİNCİ şikâyeti hiç çözülmüyor.
+# Ndjamena (Şari) 1.450 km ile ikinci. Alan bazlıda ikisi de kesiliyor
+# (Timbuktu tek başına 812.532 km²).
+COL_MUAF_YERLESIM_BAZLI = False
+asama("Çöl tavanı")
+_col_parca = []
+try:
+    _gr = json.load(open(os.path.join(BASEMAPS,
+                                      "ne_10m_geography_regions_polys.geojson"),
+                         encoding="utf-8"))
+    for f in _gr["features"]:
+        # ⚠️ ANAHTARLAR BÜYÜK HARF. Küçük harfle sorulunca sessizce None döner
+        # ve "pencerede çöl yok" gibi sakin bir yanlış üretir.
+        if (f["properties"].get("FEATURECLA") or "") != "Desert":
+            continue
+        _g = shape(f["geometry"])
+        if not _g.envelope.intersects(BOLGE):
+            continue
+        _g = _g.buffer(0).intersection(BOLGE)
+        if not _g.is_empty:
+            _col_parca.append(_g)
+except Exception as _e:
+    print("  UYARI çöl verisi okunamadı, tavan UYGULANMIYOR:", _e)
+COL = unary_union(_col_parca) if _col_parca else None
+print(f"  {len(_col_parca)} çöl poligonu birleşti")
+
+# Su koridoru muafiyeti (§3.1): Natural Earth'ün çöl lekeleri Nil vadisinin
+# ÜSTÜNDEN geçiyor, vadiyi oymuyor. Ham tavan Mısır'ı keserdi — çöl poligonu
+# içinde ve Nil'e 55 km'den yakın 35 yerleşim ölçülmüş.
+# ⚠️ Muafiyet ALAN bazlı yazıldı, kuralın lafzına uyarak ("30 km'den yakın
+#    ALANDA tavan uygulanmaz"). Yerleşim bazlı okuma da mümkündü ve Mısır'da
+#    fark üretiyor; ikisi ölçülüp koordinatöre sayıyla getirildi.
+# ⚠️ SU KÜMESİ, MOTORUN YASLAMA KÜMESİ DEĞİLDİR — ölçülerek ayrıldı.
+# İlk yazımda `NEHIR_HAT`ı (41 adlı akarsu parçası) kullandım ve muaf/tâbi
+# ayrımı 46/74 çıktı; şartname 55/61 diyordu. Fark 9 kayıt, yani tavana girip
+# girmeyeceği belirsiz 9 yerleşim.
+# Dosyanın TAMAMIYLA ölçtüm: 57/63 — şartnameye 2 kayıt uzaklıkta.
+# 📌 Kavramsal olarak da doğrusu bu: muafiyet *"burada su var mı"* diye soruyor,
+# *"motor buraya yaslanıyor mu"* diye değil. Adsız bir vadi kenarındaki
+# yerleşim de su kenarındadır.
+_tum_nehir = []
+try:
+    for _f in json.load(open(os.path.join(BASEMAPS, "ne_10m_rivers.geojson"),
+                             encoding="utf-8"))["features"]:
+        _g = shape(_f["geometry"])
+        if _g.envelope.intersects(BOLGE):
+            _g = _g.intersection(BOLGE)
+            if not _g.is_empty:
+                _tum_nehir.append(_g)
+except Exception as _e:
+    print("  UYARI tam nehir kümesi okunamadı, yaslama kümesine düşülüyor:", _e)
+    _tum_nehir = [NEHIR_HAT] if NEHIR_HAT is not None else []
+print(f"  su koridoru: {len(_tum_nehir)} akarsu parçası + kıyı")
+_su_hat = [x for x in (unary_union(_tum_nehir) if _tum_nehir else None,
+                       KARA.boundary) if x is not None and not x.is_empty]
+_SU = unary_union(_su_hat) if _su_hat else None
+# ⚠️ Tampon da derece uzayında: çöller 0-40° arasında, cos 1,00-0,77.
+#    Enlem yönünde tam, boylam yönünde en kötü %23 dar kalır — muafiyeti
+#    DARALTAN yönde hata, yani Nil'i kesme riskine karşı GÜVENLİ taraf değil.
+#    Bu yüzden tampon cos(enlem) EN KÖTÜ hâline göre genişletiliyor.
+_SU_TAMPON = (_SU.buffer(COL_SU_MUAF_KM / 111.32 / math.cos(math.radians(40.0)))
+              if _SU is not None else None)
+
+if COL is not None:
+    _tv_n, _tv_alan, _tv_dok = 0, 0.0, []
+    _tv_muaf = 0
+    _tv_yapisan = 0
+    _colp = prep(COL)
+    for _i in range(len(PETEK_D)):
+        _g = PETEK_D[_i]
+        if _g is None or _g.is_empty:
+            continue
+        if not _colp.intersects(_g):
+            continue                      # çöle hiç değmiyor → dokunma
+        _y = YERLER[_i]
+        if COL_MUAF_YERLESIM_BAZLI and _SU_TAMPON is not None \
+                and _SU_TAMPON.contains(Point(_y["lon"], _y["lat"])):
+            _tv_muaf += 1
+            continue                      # yerleşim suya yakın → peteği hiç kesilmez
+        # 300 km'lik disk: ELİPS, çünkü boylam derecesi enlemle daralıyor.
+        _co = max(math.cos(math.radians(_y["lat"])), 0.05)
+        _rx = COL_TAVAN_KM / 111.32 / _co
+        _ry = COL_TAVAN_KM / 111.32
+        # Elips doğrudan kuruluyor — `shapely.affinity` içeri alınmamış ve
+        # `import shapely` alt modülü açmıyor; derleme temiz geçer, koşu
+        # 20. dakikada patlardı.
+        _disk = Polygon([(_y["lon"] + _rx * math.cos(_t * math.pi / 32.0),
+                          _y["lat"] + _ry * math.sin(_t * math.pi / 32.0))
+                         for _t in range(64)])
+        # kesilecek = peteğin ÇÖLDE olan, SUYA uzak olan ve DİSK DIŞINDA kalan payı
+        _kes = _g.intersection(COL).difference(_disk)
+        if _SU_TAMPON is not None and not _kes.is_empty:
+            _kes = _kes.difference(_SU_TAMPON)
+        if _kes.is_empty:
+            continue
+        _a = _ham_km2(_kes)
+        if _a < 1.0:
+            continue                      # kırıntı
+        _yeni = poligonal(_g.difference(_kes))
+        if _yeni.is_empty:
+            # ⚠️ ANA PARÇA DEĞİŞMEZİ: bir yerleşim kendi altındaki toprağı
+            # kaybedemez. Tavan bunu üretemez (nokta kendi diskinin
+            # merkezindedir) ama sessiz kalmasın diye sınanıyor.
+            print(f"  ✗ TAVAN {_y['ad']} peteğini YOK ETTİ — uygulanmadı")
+            continue
+        PETEK_D[_i] = _yeni
+        _tv_n += 1; _tv_alan += _a
+        _tv_dok.append((_a, _y["ad"], _y["lat"], _y["lon"]))
+    print(f"  {_tv_n} petek kısaldı, toplam {_tv_alan:,.0f} km² sahipsizleşti"
+          + (f" · {_tv_muaf} petek su koridoru muafiyetiyle KESİLMEDİ"
+             if COL_MUAF_YERLESIM_BAZLI else ""))
+    # ⚠️ Yerleşim bazlı muafiyet VERİYE bağlı bir güvence: muaf bir noktanın
+    # erişimi ilkece sınırsız. Bugün azami 346 km ama yeni bir su kenarı çöl
+    # noktası bunu sessizce büyütebilir. Bu yüzden HER KOŞUDA raporlanıyor.
+    if COL_MUAF_YERLESIM_BAZLI and _SU_TAMPON is not None:
+        _mer = []
+        for _i2 in range(len(PETEK_D)):
+            _g2 = PETEK_D[_i2]
+            if _g2 is None or _g2.is_empty: continue
+            _y2 = YERLER[_i2]
+            if not _SU_TAMPON.contains(Point(_y2["lon"], _y2["lat"])): continue
+            if not _colp.intersects(_g2): continue
+            _en2 = 0.0
+            for _p2 in (_g2.geoms if _g2.geom_type == "MultiPolygon" else [_g2]):
+                for _x2, _yy2 in _p2.exterior.coords:
+                    _d2 = girdi.km(_y2["lat"], _y2["lon"], _yy2, _x2)
+                    if _d2 > _en2: _en2 = _d2
+            _mer.append((_en2, _y2["ad"]))
+        if _mer:
+            _mer.sort(reverse=True)
+            print(f"  muaf peteklerin azami erişimi: {_mer[0][0]:,.0f} km "
+                  f"({_mer[0][1]}) · ikinci {_mer[1][0]:,.0f} km"
+                  if len(_mer) > 1 else
+                  f"  muaf peteklerin azami erişimi: {_mer[0][0]:,.0f} km")
+    for _a, _ad, _la, _lo in sorted(_tv_dok, reverse=True)[:12]:
+        print(f"     {_a:>10,.0f} km²  {_ad:<26} {_la:6.2f}K {_lo:7.2f}D")
+    if len(_tv_dok) > 12:
+        print(f"     … ve {len(_tv_dok)-12} petek daha")
+
+# ---------------- MOTORUN ÇİZDİĞİ KARA — altlığın kıyısı buradan gelsin ----
+# ⚠️ TEK GEOMETRİ İKİ YERDE ÜRETİLMESİN (OGRENILENLER §35).
+# Vektör altlık kıyısını kendi başına `simplify(SADE_TOL)` ile üretiyordu; motor
+# ise `simplify(KARA_TOL)` → `coverage_simplify(SADE_TOL)` zinciriyle. Douglas-
+# Peucker böyle bileşmiyor ve sapma ÖLÇÜLDÜ: 16.249 kıyı köşesi, medyan 0,26 km,
+# %90 0,94 km, %99 1,29 km — %99 dilimi SADE_TOL'ün km karşılığına (1,34 km)
+# yapışık, yani sapma gürültü değil sadeleştirme farkının kendisi.
+# z5'te 0,4 px görünmez, z10'da 13 px bariz.
+# 📌 Sabiti paylaşmak sapmanın TAVANINI indirir, SIFIRLAMAZ. Çakışmanın inşa
+# gereği tam olması için ÇIKTININ paylaşılması gerekiyor — dosya bu.
+# Hücreler BOLGE'yi döşeyip KARA'ya kırpıldığı için birleşimleri tanımı gereği
+# "motorun çizdiği kara"dır; yeni hesap değil, elimizdekinin yazılması.
+asama("Motorun çizdiği kara (motor_kara.geojson)")
+_mkara = unary_union([g for g in PETEK_D if g is not None and not g.is_empty])
+_mkyol = os.path.join(BASEMAPS, "motor_kara.geojson")
+if _ISCI_NO is not None: _mkyol = os.path.join(_SUREC_DIZIN, f"mk_{_ISCI_NO}.geojson")
+io.open(_mkyol, "w", encoding="utf-8").write(json.dumps(
+    {"type": "FeatureCollection", "features": [
+        {"type": "Feature", "properties": {"kaynak": "uret_petek.py",
+                                           "not": "ALTLIK BUNU KULLANIR — elle düzenlemeyin"},
+         "geometry": shapely.geometry.mapping(_mkara)}]},
+    separators=(",", ":")))
+print(f"Motorun çizdiği kara → veri-kaynak/motor_kara.geojson "
+      f"({os.path.getsize(_mkyol)//1024} KB)")
+
+# ══════════════════════════════════════════════════════════════════════
+# R7 — ÖRTÜLMEYEN KARA NÖBETÇİSİ  (`denetim/BULGU-GEOMETRI-0904.md`, H-0003)
+# ══════════════════════════════════════════════════════════════════════
+# Reçetenin kendi cümlesi: *"her koşuda «kara maskesinin kaç km²'si hiçbir
+# petek tarafından örtülmüyor» basılsın, kıta kırılımıyla. Bugün bu sayı
+# HİÇBİR YERDE basılmıyor; boşluğun büyüdüğünü kimse göremez."*
+#
+# 🟢 Ve bu, Emre'nin 4 Eylül sorusunun ("şu anda bu katmanların ne kadarı
+#    bitti TÜM DÜNYADA") koşu tarafındaki cevabıdır: oran her koşuda
+#    kendiliğinden ölçülür, bir oturumun elle saymasına gerek kalmaz.
+#
+# ⚠️ İKİ SAYI İKİ AYRI ŞEY — karıştırılmasın:
+#     KARA        Natural Earth maskesi ∩ pencere, göller çıkarılmış  = HEDEF
+#     _mkara      motorun GERÇEKTEN çizdiği (PETEK_D birleşimi)       = OLAN
+#   Fark bir KUSUR DEĞİL: `§2` gereği noktası olmayan yer boyanmaz ve Emre'nin
+#   kendi hükmü *"devasa boşluklar olacaksa olsun"*. Nöbetçinin işi boşluğu
+#   YOK ETMEK değil, BÜYÜDÜĞÜNÜ GÖRÜNÜR KILMAK.
+#
+# 🔴 BÜTÜNÜYLE `try` İÇİNDE — bir nöbetçi 16 saatlik bir koşuyu ASLA
+#    öldürmemeli. Hesaplanamazsa "ÖLÇÜLEMEDİ" der ve geçer; sessizce
+#    "temiz" DEMEZ (`§11`).
+try:
+    _r7_kutu = [
+        ("Anadolu+Rumeli",      35,  46,  19,  45),
+        ("Avrupa (batı/orta)",  36,  71, -12,  19),
+        ("Doğu Avrupa+Rusya",   44,  72,  27,  60),
+        ("Orta Doğu+İran",      12,  42,  33,  63),
+        ("Orta Asya",           35,  56,  46,  88),
+        ("Sibirya",             50,  78,  60, 190),
+        ("Güney Asya",           5,  37,  60,  93),
+        ("Doğu Asya",           18,  54,  93, 146),
+        ("Güneydoğu Asya",     -11,  24,  92, 141),
+        ("Kuzey Afrika",        18,  38, -18,  36),
+        ("Sahra altı Afrika",  -36,  18, -18,  52),
+        ("Kuzey Amerika",        7,  75,-170, -52),
+        ("Güney Amerika",      -56,  13, -82, -34),
+        ("Okyanusya",          -48,   0, 110, 180),
+    ]
+    _r7_bos = KARA.difference(_mkara).buffer(0)
+    _r7_kara_km2 = _ham_km2(KARA)
+    _r7_bos_km2 = _ham_km2(_r7_bos)
+    _r7_oran = (100.0 * _r7_bos_km2 / _r7_kara_km2) if _r7_kara_km2 else 0.0
+    print(f"  R7 ÖRTÜLMEYEN KARA: {_r7_bos_km2:,.0f} km² / "
+          f"{_r7_kara_km2:,.0f} km²  =  %{_r7_oran:.1f}")
+    print("     (kusur DEĞİL — noktası olmayan yer boyanmaz; bu satır "
+          "boşluğun BÜYÜDÜĞÜNÜ görünür kılmak için)")
+    _r7_sat = []
+    for _ad, _la0, _la1, _lo0, _lo1 in _r7_kutu:
+        _k = box(_lo0, _la0, _lo1, _la1)
+        _kara_p = _ham_km2(KARA.intersection(_k))
+        if _kara_p < 1.0:
+            continue
+        _bos_p = _ham_km2(_r7_bos.intersection(_k))
+        _r7_sat.append((100.0 * _bos_p / _kara_p, _ad, _bos_p, _kara_p))
+    for _o, _ad, _b, _t in sorted(_r7_sat, reverse=True):
+        print(f"       %{_o:5.1f}  {_ad:<20} {_b:>12,.0f} / {_t:>12,.0f} km²")
+    # ⚠️ Kutular KABA ve ÖRTÜŞEBİLİR: toplamları KARA'yı vermez, ve bu
+    #   bilerek — amaç bir bütçe değil bir YOĞUNLUK göstergesi.
+except Exception as _r7_hata:
+    print(f"  R7 ÖRTÜLMEYEN KARA: ÖLÇÜLEMEDİ ({_r7_hata}) — "
+          "'ölçülemedi' TEMİZ demek DEĞİLDİR")
+
+# ⚠️ BU SATIR ARTIK NÖBETÇİ DEĞİL, BİLGİ. Nöbetçi çöl tavanının ÖNÜNE alındı
+# (bkz. BOZUK_KIYI_TABAN bloğu). Buradaki sayı çöl tavanının SAHİPSİZLEŞTİRDİĞİ
+# alanın kenarını da içerir ve o delikler KASITLIDIR — "tavan yalnız ÇIKARIR".
+# Bir eşikle karşılaştırmak, kasıtlı bir özelliği kusur diye raporlamak olurdu;
+# tam olarak 130 sayısının aylarca "✗" bastırmasının sebebi buydu.
+# 📌 İzlenmeye değer olan MUTLAK SAYI değil FARK: çöl tavanı kaç yeni kenar
+# açtı. Kısalan petek sayısı değişmediği hâlde fark büyürse tavanın davranışı
+# değişmiş demektir.
+_nk = _bozuk_dok(PETEK_D, "çöl sonrası")
+print(f"  çöl tavanı sonrası örtü: {_nk} bozuk kenar "
+      f"(çöl öncesi {_nk0} → tavanın açtığı {_nk - _nk0}; sahipsizleşen alanın "
+      f"kenarı, BEKLENEN — gövde birleştirmesi yutuyor)")
+
+# ---------------- Zaman çizelgesi: kırılma tarihleri ----------------
+tarihler = set()
+for y in YERLER:
+    for dn in y["d"] + y["v"]:
+        tarihler.add(dn["f"]); tarihler.add(dn["t"])
+tarihler = sorted(t for t in tarihler if EPOK <= t <= "1923-11-01")
+if tarihler[0] != EPOK: tarihler.insert(0, EPOK)
+if tarihler[-1] != "1923-11-01": tarihler.append("1923-11-01")
+print(f"Kırılma tarihi: {len(tarihler)}")
+
+def alan_km2(g):
+    if g.is_empty: return 0
+    ps = g.geoms if isinstance(g, MultiPolygon) else [g]
+    T = 0.0
+    for p in ps:
+        for ring, sg in [(p.exterior, 1)] + [(h, -1) for h in p.interiors]:
+            cs = list(ring.coords); s = 0.0
+            for i in range(len(cs)-1):
+                lo1, la1 = math.radians(cs[i][0]), math.radians(cs[i][1])
+                lo2, la2 = math.radians(cs[i+1][0]), math.radians(cs[i+1][1])
+                s += (lo2-lo1) * (2 + math.sin(la1) + math.sin(la2))
+            T += sg * abs(s * R_DUNYA * R_DUNYA / 2)
+    return int(round(T, -3))
+
+# ---------------- YEDİNCİ DENETİM — sıfır alanlı petek ----------------
+# hatalar 7.docx madde 2-3'ün kalıcı çözümü. Bu hata sınıfı SESSİZDİR:
+# veri doğru, madde doğru, motor peteği dönem kümesinden düzgün çıkarır ama
+# petek toprak taşımadığı için haritada hiçbir şey olmaz. Üç değişmez de bunu
+# göremez çünkü hiçbiri "bu noktanın peteği var mı" diye sormuyor.
+# denetle.py bunu ölçemez — hücre geometrisi yalnız burada, üretim sırasında
+# var. Bu yüzden denetim motorun içinde ve üretimi UYARIYLA bitirir.
+# ⚠️ ÖLÇÜT MUTLAK ALAN DEĞİL, ORAN — ilk yazımdaki hata ve düzeltmesi
+# İlk sürüm `alan_km2(PETEK_D[i]) < 50` diye bakıyordu ve 101 petek işaretledi:
+# Bursa, İznik, Bilecik, İnegöl, Yenişehir, Limni… Hepsi YANLIŞ ALARMDI, iki
+# sebepten: (1) `alan_km2` bini yuvarlıyor (`round(T, -3)`), yani 500 km²'nin
+# altındaki her şey "0 km²" basıyor ve 50 km² eşiği yuvarlama tanesinin altında
+# kalıyor; (2) kuruluş devri çekirdeği GERÇEKTEN sık — İnegöl'ün komşuları 15 km
+# ötede, peteği haklı olarak küçük. Mutlak alan bu iki durumu ayırt edemiyor.
+# Doğru ölçüt: peteğin YASLAMA ÖNCESİ ham Voronoi hücresine oranı. Estergon
+# 8 / 4.819 = %0.2 (boru hattı hücreyi yok etti), İnegöl ise %100 (hücre küçük
+# ama sağlam). Oran, yoğunluktan bağımsız olarak yalnız KAYBI ölçer.
+SIFIR_PETEK_ORAN = 0.10          # ham hücrenin %10'unun altı: hücre yok edilmiş
+asama("Petek alanları (yedinci denetim)")
+
+
+# ⚠️ ORAN TABANI: ham hücre TÜM KARA ile değil, yerleşimin KENDİ kara bileşeni
+# ile kesilir. İlk sürüm `PETEK[i].intersection(KARA)` diyordu ve 18 vaka
+# işaretliyordu — ölçüldü, 17'si ADA KURALININ DOĞRU ÇALIŞMASIYDI. Venedik'in
+# ham hücresi 36.825 km²'dir ama 36.803 km²'si ANAKARADADIR; ada kuralı onu
+# kesince oran %0,1 çıkıyor ve denetim "hücre yok edildi" diye bağırıyor.
+# Oysa Venedik'in kendi kara parçası (lagün adası) 9 km² ve tamamı elinde.
+# Aynısı Masira, Kemeran, Kiş, Brakya, Bozcaada, Pag, Elba, Ferasan… için.
+# Taban kendi bileşenine çevrilince 18 → 1 (Ankober %7,3, gerçek sinyal).
+# Ölçüm: Oturum 8 raporu (OTURUM-8-OLCUMLER.md §2) + Oturum 16'nın bağımsız
+# doğrulaması — iki ölçüm aynı 18 vakayı ve aynı tek kalanı verdi.
+_kagac = STRtree(_komp)
+_oranlar = []
+for i in range(len(YERLER)):
+    if PETEK[i] is None:
+        _oranlar.append((1.0, 0.0, 0.0, YERLER[i]["ad"])); continue
+    try:
+        _kendi = _komp[int(_kagac.nearest(_ptl[i]))]
+    except Exception:
+        _kendi = KARA
+    ham = _ham_km2(PETEK[i].intersection(_kendi))
+    son = _ham_km2(PETEK_D[i])
+    _oranlar.append((son / ham if ham > 1 else 1.0, son, ham, YERLER[i]["ad"]))
+_oranlar.sort()
+if _YASLAMA_IPTAL:
+    print(f"  koruma payı: {len(_YASLAMA_IPTAL)} yaslama iptal edildi "
+          f"({len(set(_YASLAMA_IPTAL))} yerleşim korundu)")
+print("  en düşük 6 oran: " + " · ".join(
+    f"{ad} %{o*100:.0f} ({son:,.0f}/{ham:,.0f} km²)" for o, son, ham, ad in _oranlar[:6]))
+# 🔴 ENKLAV MUAFİYETİ — MOTOR 3, 3 Ağustos 2026.
+# Enklav bir presidiodur; peteğinin ham hücresine oranla KÜÇÜK kalması
+# kusur değil, İSTENEN sonuçtur. Muaf tutulmazsa bu denetim doğduğu günden
+# itibaren Sebte'yi (%3,3) ve Oran'ı (%7,9) SONSUZA KADAR işaretler —
+# yani tam olarak `BOZUK_KIYI_TABAN = 32`'nin başına gelen şey: her koşuda
+# "✗" basan, kimsenin bakmadığı, gerçek bir regresyonu artık gizleyen satır.
+# ⚠️ Muafiyet SESSİZ DEĞİL: muaf tutulanlar ayrıca yazılır, çünkü "muaf"
+#    ile "gözden kaçtı" ekranda aynı görünmemeli.
+# ═══ 🔴 A1 TAVANI MUAFİYETİ — 9 Ağustos 2026, ENKLAV MUAFİYETİNİN İKİZİ ═══
+# Bu denetim bir ORAN sorar: "petek, ham hücresinin %10'undan küçük mü?"
+# Tavanlı hücrede o soru YANLIŞTIR, çünkü tavanın VAR OLUŞ SEBEBİ ham
+# hücreyi küçültmektir. Ölçülmüş vaka (koşu 4b):
+#     Timbuktu   ham 2.690.000 km²  →  son 245.000 km²  =  %9
+# Oran %10'un altında ⇒ uyarı "fetih/kayıp maddeleri GÖRÜNMEZ" diyor. Ama
+# 245.000 km² çoğu Avrupa ülkesinden büyüktür ve fazlasıyla görünür.
+# ⇒ Tavanlı hücrede doğru ölçüt ORAN değil MUTLAK BÜYÜKLÜKTÜR.
+# 📌 Ve bu, `BOZUK_KIYI_TABAN`ın ve `Değişmez 1` tavanının aynı gün ölçülen
+#    üçüncü vakası: nöbetçi doğru, EVRENİ değişmiş. Enklav muafiyetinin
+#    gerekçesi buraya kelimesi kelimesine uyuyor — "küçük kalması kusur
+#    değil, İSTENEN sonuçtur."
+# ⚠️ Muafiyet KÖR DEĞİL: mutlak taban altına düşen tavanlı hücre YİNE
+#    işaretlenir (tavan bir hücreyi gerçekten yok edebilir), ve muaf
+#    tutulanlar ENKLAVLAR GİBİ AYRICA yazılır — "muaf" ile "gözden kaçtı"
+#    ekranda aynı görünmemeli.
+TAVAN_MUAF_TABAN_KM2 = 20_000     # bu büyüklükte bir gövde haritada görünür
+_TV_AD = {YERLER[i]["ad"] for i in _TV_BAGLI}
+_ENK_AD = {YERLER[i]["ad"] for i in _ENKLAV}
+_tavan_muaf = [r for r in _oranlar
+               if r[0] < SIFIR_PETEK_ORAN and r[3] in _TV_AD
+               and r[3] not in _ENK_AD and r[1] >= TAVAN_MUAF_TABAN_KM2]
+_TM_AD = {r[3] for r in _tavan_muaf}
+_kayip = [r for r in _oranlar if r[0] < SIFIR_PETEK_ORAN
+          and r[3] not in _ENK_AD and r[3] not in _TM_AD]
+_kayip_muaf = [r for r in _oranlar if r[0] < SIFIR_PETEK_ORAN and r[3] in _ENK_AD]
+if _tavan_muaf:
+    print(f"  i A1 TAVANI MUAFİYETİ: {len(_tavan_muaf)} petek oran testinin "
+          f"altında ama ≥{TAVAN_MUAF_TABAN_KM2:,} km² — tavanın İSTENEN sonucu, "
+          f"kusur DEĞİL:")
+    for o, son, ham, ad in _tavan_muaf:
+        print(f"      {ad:<28} %{o*100:5.1f}   {son:>9,.0f} / {ham:>9,.0f} km²")
+if _kayip:
+    print(f"  ✗ {len(_kayip)} PETEK ham hücresinin %{SIFIR_PETEK_ORAN*100:.0f}'undan "
+          f"küçük — bu yerleşimlerin fetih/kayıp maddeleri haritada GÖRÜNMEZ:")
+    for o, son, ham, ad in _kayip:
+        print(f"      {ad:<28} %{o*100:5.1f}   {son:>9,.0f} / {ham:>9,.0f} km²")
+else:
+    print(f"  ✓ hiçbir petek ham hücresinin %{SIFIR_PETEK_ORAN*100:.0f}'unun altında değil"
+          + (" (enklavlar hariç)" if _kayip_muaf else ""))
+if _kayip_muaf:
+    print(f"  ⓘ enklav muafiyeti: {len(_kayip_muaf)} petek eşiğin altında ama "
+          f"BEKLENEN (presidionun hinterlandı yoktur):")
+    for o, son, ham, ad in _kayip_muaf:
+        print(f"      {ad:<28} %{o*100:5.1f}   {son:>9,.0f} / {ham:>9,.0f} km²")
+
+# ---------------- AŞINMA BANDI — iki farklı soru, iki farklı eşik ----------
+# Yedinci denetimin %10 eşiği "HÜCRE YOK EDİLDİ" sorusu için kalibre edildi
+# (Estergon 8/4.819 = %0,2). Ama bir petek yok olmadan alanının %60'ını
+# kaybedebilir ve kullanıcı bunu GÖRÜR — Budin %41 tam bu sınıf, ve çöl tavanı
+# koşusunda Dongola %38 ile aynı yere düştü.
+# İki soru tek eşiğe sıkışmıştı:
+#     %10 altı   hücre YOK EDİLDİ, fetih maddesi haritada görünmez   → ✗ HATA
+#     %10-60     hücre AŞINDI, gövde küçülmüş görünür                → ⚠️ bilgi
+# Eşiği oynatmak yanlış olurdu: o zaman gerçek "yok edildi" vakaları onlarca
+# yanlış alarmın içinde kaybolurdu. Ayrı bant, ayrı satır, üretimi DURDURMAZ.
+# ⚠️ `boşalan petek 0` bu bandı GÖREMEZ — "yok olmadı" ile "kesilmedi" ayrı
+# şeyler; koordinatörün Nil sınavında tam bu ayrım belirleyici oldu.
+ASINMA_ALT, ASINMA_UST = SIFIR_PETEK_ORAN, 0.60
+_asinan = [r for r in _oranlar if ASINMA_ALT <= r[0] < ASINMA_UST]
+if _asinan:
+    print(f"  ⚠️ AŞINMA BANDI — ham hücresinin %{ASINMA_ALT*100:.0f}-"
+          f"%{ASINMA_UST*100:.0f}'ı arasında kalan petek: {len(_asinan)}")
+    for o, son, ham, ad in _asinan[:10]:
+        print(f"      {ad:<28} %{o*100:5.1f}   {son:>9,.0f} / {ham:>9,.0f} km²")
+    if len(_asinan) > 10:
+        print(f"      … ve {len(_asinan)-10} petek daha")
+else:
+    print(f"  ✓ aşınma bandında (%{ASINMA_ALT*100:.0f}-%{ASINMA_UST*100:.0f}) "
+          f"petek yok")
+
+# ---------------- kur: / bit: — VARLIK EPOKLARI ----------------
+# ⚠️ MIMARI.md §3.1'in çözümü. Ölçüm: denetim/KUR-ALANI-OLCUMU.md
+#
+# Motor `kur:` alanını okumuyordu: henüz kurulmamış şehrin peteği 1281'den beri
+# haritada duruyor ve komşularından toprak koparıyordu. ÖLÇÜLDÜ — `kur:` taşıyan
+# 34 nokta, kuruluşlarından önce toplam **1.699.095 km²** tutuyor; en büyükleri
+# Ufa (391.590 km², kur 1574) ve Perm (364.108 km², kur 1723), ikisi de Ural
+# eteğinde ve komşusuz. Yani hata "geç kuruluş × seyrek komşuluk" çarpımıdır ve
+# nokta eklendikçe büyür.
+#
+# ZAMAN DİLİMLİ VORONOI'YE GEREK YOK. Diyagramı 441 kırılma için yeniden
+# hesaplamak pahalı ve gereksiz; ADA KURALI'nın kullandığı makine yeterli:
+# kurulmamış peteğin payı, o tarihte SAHNEDE OLAN en yakın komşuya devredilir.
+# Varlık kümesi yalnız kur:/bit: günlerinde değiştiği için sonuç önbelleklenir —
+# 917 nokta içinde 34 kur: + 3 bit: var, yani en çok ~37 ayrı epok.
+#
+# ⚠️ EN ÖNEMLİ KISIT: devir YALNIZ YANLIŞ BOYANAN peteklere uygulanır.
+# Ölçüt "kurulmamış" değil, "kurulmamış VE o tarihte bir sahibi yazılı".
+# Sebebi: bu projede sahipsizlik bazen KASITLIDIR (CLAUDE.md §3 — çöl dolgu
+# noktaları, körfez şeyhlikleri). Kuveyt'in `kur:1716` ve ilk sahiplik penceresi
+# de 1716; yani 1716 öncesi hem kurulmamış hem sahipsiz ve haritada BOŞ olması
+# DOĞRU. O peteği komşusuna devretmek körfez kıyısını Basra'yla doldurup kasıtlı
+# boşluğu yok ederdi. St. Petersburg ise `kur:1703` olduğu hâlde `s:` 1281'den
+# rusya diyor — işte yanlış boyanan budur ve devredilir.
+# Kural tek cümleyle: motor, VERİNİN BOYADIĞI ama HENÜZ VAR OLMAYAN alanı taşır;
+# verinin bilerek boş bıraktığı alana dokunmaz.
+_VARLIK_ONBELLEK = {}
+_VARLIK_DEVIR = {}
+# ② paylaştırma sayacı — İŞ 2'nin KABUL ÖLÇÜTÜ. Anahtar `devir` frozenset'i,
+# yani önbellekle AYNI anahtar: bir epok iki kez hesaplanmaz, sayaç da
+# şişmez. (Sayacı çağrı başına tutmak, önbellek isabetlerini iki kez sayardı.)
+_VARLIK_PAY = {}
+_KUS_IX = [i for i in range(len(PETEK_D))
+           if PETEK_D[i] is not None and not PETEK_D[i].is_empty]
+_KUS_AGAC = STRtree([PETEK_D[i] for i in _KUS_IX])
+# ⚠️ TAMPON BİR KEZ — ölçüm betiğimde bu döngü İÇİNDEYDİ ve 35 epok × 12
+# boşluk = 420 kez tam kıyı çizgisini tamponluyordu: bad allocation.
+_KIYI_TAMPON = KARA.boundary.buffer(0.01)
+
+# 🔴 PETEK_D MÜHRÜ — `_IC_ONBELLEK`in geçerlilik şartının ÖLÇÜLMESİ.
+# Önbellek "PETEK_D bu noktadan sonra değişmez" varsayımına dayanıyor. Bu
+# depoda bir varsayımın doğru OLDUĞUNU varsaymak yasak (bkz. kara-kısıtlı
+# sahiplik bloğu: "garanti EDİLDİĞİNİ VARSAYMAK yerine ölçülür — ilk koşuyu
+# düşüren tam buydu"). Mühür burada alınır, çıktı yazılmadan önce sınanır;
+# tutmazsa koşu ÖLDÜRÜLÜR. Yanlış önbellek sessiz bayat harita üretirdi ve
+# hiçbir denetim göremezdi — sekiz denetim de çıktının İÇ tutarlılığına bakıyor.
+def _petek_muhru():
+    return (len(PETEK_D),
+            sum(shapely.get_num_coordinates(g) for g in PETEK_D),
+            round(sum(g.area for g in PETEK_D), 9))
+
+
+_PETEK_MUHUR = _petek_muhru()
+
+
+def _muhru_dogrula(nerede):
+    simdi = _petek_muhru()
+    if simdi != _PETEK_MUHUR:
+        raise SystemExit(
+            "PETEK_D KOSU SIRASINDA DEGISTI: " + repr(_PETEK_MUHUR) + " -> "
+            + repr(simdi) + " (" + nerede + " yazilmadan once olculdu)."
+            " _IC_ONBELLEK/_CEP_ONBELLEK bayat kaldi, kusatilmislik kararlari"
+            " ESKI geometriden verilmis olabilir. Kosu OLDURULDU --"
+            " onbellekleri temizleyen ya da PETEK_D'ye yazan yeni satiri bul.")
+
+
+def _sahipli(y, g):
+    """y yerleşiminin g tarihinde yazılı bir sahibi var mı (s/d/v)."""
+    for kat in ("d", "v", "s"):
+        for p in y[kat]:
+            if p["f"] <= g < p["t"]:
+                return True
+    return False
+
+
+# ---------------- KUŞATILMIŞLIK — "yazılmamış boşluk" ile "kasıtlı" ayrımı ---
+# `_sahipli` ölçütü Kuveyt için doğru kuruldu (kur:1716, ilk sahiplik de 1716 →
+# kasıtlı boş) ama Rumeli Hisarı'na da aynı cevabı veriyordu: 1452'de yapılmış
+# bir hisara 1288 sahibi yazılmamış, oysa toprak Bizans'tı. Kural "kasıtlı
+# boşluk" ile "yazılmamış boşluk"u ayıramıyor — ikisi de veride aynı görünüyor.
+#
+# ÜÇ ÖLÇÜT SIRAYLA ELENDİ, üçü de farklı sebeple:
+#   1. "komşuları sahipli mi"        → 12'nin 10'unu işaretledi, Kuveyt dahil
+#   2. "en yakın 6 komşu oy birliği" → KOMŞULUK TANIMINA DAYANIKSIZ: düz
+#      mesafeyle Rumeli Hisarı devrediliyor, gerçek petek komşuluğuyla KUVEYT
+#      devrediliyor. Tam tersi. Sebep: düz mesafe HER ZAMAN 6 komşu bulur;
+#      Rumeli Hisarı'nın gerçekte 1 ortak-kenarlı komşusu var.
+#   3. çevre payı, kıyı paydada     → Rumeli Hisarı %35 çıktı, çünkü çevresinin
+#      çoğu Boğaz. Kıyıda komşu OLAMAZ; yokluğu kuşatılmamışlık delili değildir.
+# Kalan ölçüt: KARA komşuluğu payı (kıyı paydadan çıkarılmış), tek sahip.
+#
+# 📌 EŞİK ÖNEMSİZ — ve bu, tek uydurma sayıya yaslanmaktan çok daha sağlam.
+# 35 epokun hepsinde ölçüldü, her yerleşimin azami payı:
+#     100,0 Adapazarı · 95,6 Rumeli Hisarı · 95,4 Anadolu Hisarı
+#      90,8 Yeni Ürgenç                      ← bekletildi, aşağıya bak
+#     ───────────────── 25 puanlık boşluk ─────────────────
+#      65,6 Kesela · 62,8 Krasnovodsk · 62,7 İlbasan · 49,5 Doha · 48,9 Cetinje
+#      45,2 Kuveyt · 36,0 Vladikavkaz
+# 65,6 ile 90,8 arasında HİÇBİR vaka yok ⇒ %66 ile %90 arasındaki HER eşik
+# aynı sonucu verir. Eşiği "ayarlamaya" kalkma; ayarlanacak bir şey yok.
+#
+# ⚠️ HATA ASİMETRİSİ: yanlış devir haritayı BOZAR (Kuveyt İran boyanır),
+# devretmemek bugünkü hâli KORUR. Eşik yüksek tutulmuştur; en kötü ihtimalde
+# bugünden kötü değiliz.
+#
+# ⏸️ YENİ ÜRGENÇ (%90,8) BİLEREK DIŞARIDA. Üç eksende de tutuyordu ama üçü de
+# aynı soruyu soruyor: "orayı kim yönetiyordu". Asıl soru o değil: şehir
+# CEYHUN'UN YATAK DEĞİŞTİRMESİ üzerine kuruldu, eski Ürgenç susuz kaldı.
+# Soru "Hîve orayı yönetiyor muydu" değil, "1646'dan önce orası sulanan vahanın
+# içinde miydi, yoksa çöl müydü". Çölse boşluk DOĞRU ve kuşatılmışlık bunu
+# göremez — çöl de kuşatılmış olabilir. ARAŞTIRMA DOĞU'nun cevabı bekleniyor.
+# 🔴 ÖLÇÜT GEVŞETİLDİ — "tek sahip ≥%90" DEĞİL, "SAHİPLİ ≥%90".
+# Eski hâli deliği yeniden açıyordu ve kullanıcı onu gördü: Anadolu Hisarı
+# 1305'e kadar devrediliyor, sonra Osmanlı Bitinya'ya girince çevre
+# Bizans+Osmanlı karışımı oluyor ve tek-sahip payı %95,2 → %75,9'a düşüyor.
+# Toplam SAHİPLİ oran ise %95,4'te kalıyor:
+#     1305: en büyük %95,2 (1 sahip)   → devrediliyordu
+#     1340: en büyük %75,9 (2 sahip)   → DELİK, toplam %95,4
+# ⇒ Kasıtlı boşluğu ayıran şey "kaç sahip" değil "HİÇ sahip var mı".
+#   Kuveyt'in çevresi %45 sahipli — orada gerçekten devlet yok.
+#   Anadolu Hisarı'nın çevresi %95 — orada İKİ devlet var, toprak ikisinden
+#   birinin ve "kimsesiz" göstermek yanlış.
+# Ön-kayıtlı sınav geçti: Kuveyt %45,2 · Doha %49,4 · Abu Dabi ölçülemez —
+# üçü de eşiğin çok altında, gevşetme kasıtlı boşlukları BOZMUYOR.
+#
+# 🔴 BEYAZ LİSTE KALDIRILDI. Eskiden `KUSATMA_ADLAR` üç ölçülmüş adı tutuyordu;
+# gevşetilmiş ölçüt sekiz ad üretiyor ve liste kalsaydı ölçüt SESSİZCE
+# kısıtlanmış olurdu — kodun söylediği ile yaptığı ayrışırdı.
+# Yerine `kasitli_bosluk:` veri alanı geçti: ölçüt VARSAYILAN, kaynaklı
+# araştırma hükmü İSTİSNA.
+#
+# 🔴 DEVİR HEDEFİ DEĞİŞMEDİ — `petek_epok`'un kuralı: EN YAKIN sahnedeki komşu.
+# "En büyük paylı komşuya devret" ölçüldü ve TEHLİKELİ çıktı:
+#     1340'ta en büyük pay   OSMANLI %75,9  → hücre OSMANLI boyanırdı
+#     1340'ta en yakın komşu İSTANBUL 11 km → hücre BİZANS boyanıyor
+# Tarihen doğru olan Bizans (Boğaz kıyısı 1452'ye kadar Bizans'ta).
+# ⚠️ Yanlış renk boşluktan KÖTÜDÜR: boşluk "bilmiyoruz" der, yanlış renk
+# "biliyoruz" der. Gevşetme yalnız "devredilsin mi" sorusunu değiştiriyor,
+# "kime" sorusunu değil.
+KUSATMA_ESIK = 0.90
+_KUS_ONBELLEK = {}
+
+# 🔴 KOŞUNUN %86'SI BU İKİ SATIRDA YANIYORDU — MOTOR 3, 3 Ağustos 2026, ölçüldü.
+# `_kusatilmis` her TARİH için bütün adayların "kıyı olmayan sınır payı"nı
+# baştan hesaplıyordu:
+#       ic = c.boundary.difference(_KIYI_TAMPON)
+# Oysa bu ifade `g` TARİHİNDEN BAĞIMSIZDIR: `c` = PETEK_D[i] ve PETEK_D'nin son
+# değişimi çöl tavanı bloğundadır (`PETEK_D[_i] = _yeni`), yani _kusatilmis ilk
+# kez çağrılmadan ÇOK ÖNCE donar; `_KIYI_TAMPON` de sabittir. Aynı 96 değer
+# 1.207 kez yeniden hesaplanıyordu.
+#
+# ÖLÇÜM (scratchpad, canlı veri + uretilmiş petek_govde.js geometrisi):
+#     _kusatilmis çağrı başına        11,7 sn ortalama  →  ~0,45 sn
+#     bunun %96,5'i tek satır          difference(_KIYI_TAMPON)
+#     1.207 ayrı tarih × 11,7 sn      = 241 dk = koşunun %86'sı
+#     ilk çağrı önbelleği doldurur (24 sn), sonrakiler 0,2-1,2 sn
+# 19 tarihte eski/yeni sonuç KARŞILAŞTIRILDI: fark 0, frozenset'ler BİREBİR.
+#
+# ⚠️ ÖNBELLEĞİN GEÇERLİLİK ŞARTI TEK CÜMLE: PETEK_D bu noktadan sonra
+# DEĞİŞMEZ. `petek_epok()` onu kopyalayıp (`hucre = list(PETEK_D)`) kopyayı
+# değiştirir, tabanı değil. Motorda PETEK_D'ye yazan yeni bir satır açılırsa
+# — ve o satır bu bloktan SONRA çalışırsa — önbellek bayat kalır ve hata
+# SESSİZ olur. Yeni bir yazma noktası açan oturum bu sözlüğü temizlemelidir.
+_IC_ONBELLEK, _CEP_ONBELLEK = {}, {}
+
+
+def _ic_kara(i):
+    """PETEK_D[i] sınırının KIYI OLMAYAN payı — tarihten bağımsız, önbellekli."""
+    v = _IC_ONBELLEK.get(i)
+    if v is None:
+        v = PETEK_D[i].boundary.difference(_KIYI_TAMPON)
+        _IC_ONBELLEK[i] = v
+    return v
+
+
+def _cep(i):
+    """PETEK_D[i]'nin komşu sorgusu için tamponu — o da tarihten bağımsız."""
+    v = _CEP_ONBELLEK.get(i)
+    if v is None:
+        v = PETEK_D[i].buffer(0.02)
+        _CEP_ONBELLEK[i] = v
+    return v
+
+
+def _kusatilmis(g):
+    """g epokunda, sahibi yazılmamış ama KARA komşuluğunun ≥%90'ı tek bir
+    sahibe ait olan petekler. Karar epok gününde verilir ve epok aralığı
+    boyunca geçerlidir; devrin KİME yapılacağını `petek_epok` o günün
+    verisinden bulur, yani sahip kimliği donmuş olmuyor."""
+    if g in _KUS_ONBELLEK:
+        return _KUS_ONBELLEK[g]
+    _t_kus = time.time()
+    out = set()
+    for i, y in enumerate(YERLER):
+        if y.get("kasitli_bosluk"):
+            continue                      # KAYNAKLI hüküm: boşluk kasten öyle
+        if not ((y.get("kur") and y["kur"] > g) or (y.get("bit") and y["bit"] <= g)):
+            continue
+        if _sahipli(y, g):
+            continue                      # zaten devrediliyor
+        c = PETEK_D[i]
+        if c is None or c.is_empty:
+            continue
+        ic = _ic_kara(i)
+        if ic.length <= 1e-9:
+            continue                      # tamamen kıyı — karar verilemez
+        sahipli = []
+        for q in _KUS_AGAC.query(_cep(i)):
+            j = _KUS_IX[int(q)]
+            if j == i: continue
+            yj = YERLER[j]
+            if (yj.get("kur") and yj["kur"] > g) or (yj.get("bit") and yj["bit"] <= g):
+                continue
+            if _sahipli(yj, g):
+                sahipli.append(PETEK_D[j])
+        if not sahipli:
+            continue
+        try:
+            # ⚠️ SAHİP AYRIMI YAPILMIYOR — hepsi tek birleşim. Soru "hangi
+            # devlet" değil, "HİÇ devlet var mı".
+            ort = ic.intersection(unary_union(sahipli).buffer(0.002))
+            if not ort.is_empty and min(ort.length / ic.length, 1.0) >= KUSATMA_ESIK:
+                out.add(i)
+        except Exception:
+            pass
+    _KUS_ONBELLEK[g] = frozenset(out)
+    sayac("kuşatılmışlık (_kusatilmis)", time.time() - _t_kus)
+    return _KUS_ONBELLEK[g]
+
+
+def devir_kumesi(g):
+    """g tarihinde SAHNEDE OLMAYAN ve peteği devredilecek yerleşimler:
+    (a) veride SAHİBİ YAZILI olanlar, (b) sahibi yazılmamış ama kara
+    komşuluğunun ≥%90'ı tek bir sahibe ait olanlar (bkz. yukarıdaki blok)."""
+    yazili = frozenset(
+        i for i, y in enumerate(YERLER)
+        if ((y.get("kur") and y["kur"] > g) or (y.get("bit") and y["bit"] <= g))
+        and _sahipli(y, g))
+    return yazili | _kusatilmis(g)
+
+
+# ---------------- SERBEST KENAR — sahipli ↔ SAHİPSİZ sınırı ----------------
+# hatalar 15 md.17'nin çözümü. Kullanıcı çölde "cetvelle çizilmiş" sınır görüyor;
+# ölçüldü ve sebebi bulundu: o kenarların BEŞİ DE `(boş) | OSMANLI`, yani çizgi
+# iki devlet arasında DEĞİL, devlet ile SAHİPSİZ ÇÖL arasında.
+# İki devlet arasındaki Voronoi orta dikmesi kaba da olsa GERÇEK bir iddiadır —
+# "yetki burada bölünüyordu". Devlet ile HİÇLİK arasındaki orta dikme ise hiçbir
+# şeyin iddiası değil: dolgu noktasını nereye koyduğumuzun artefaktı. O çizgi
+# haritada keskin çizilmemeli, çünkü olmayan bir kesinlik iddia ediyor.
+# ⚠️ Bu yüzden çare ergleri yaslama hedefi yapmak DEĞİLDİ: sahte bir çizgiyi
+# gerçek bir fiziki hatta oturtmak onu daha İNANDIRICI yapardı. Görsel şikâyet
+# kapanır, epistemik hata derinleşirdi.
+# Ölçüldü (r138 geometrisi): serbest kenar, Osmanlı gövde sınırının köşe olarak
+# %1,7-3,1'i ama UZUNLUK olarak %17-22'si. Ortalama parçası 29,6 km, gövdenin
+# geneli 4,2 km — yedi kat kaba. Yani hem ucuz (dönem başına ~470 köşe) hem de
+# marjinal değil (çevrenin beşte biri).
+# Çıktı: window.SERBEST hat havuzu + dönem kaydında "sb" (PARCALAR/"o" deseninin
+# birebir aynısı); js/app.js line-blur ile dışa doğru söndürür.
+SERBEST_TOL = 0.02          # ~2 km: gövde sınırı ile boş bölgenin çakışma payı
+_SERBEST_ONBELLEK = {}
+
+
+def bos_bolge(g, pe):
+    """g tarihinde hiçbir sahibi YAZILI OLMAYAN peteklerin birleşimi (tamponlu).
+    Küme dönemler arası neredeyse sabit — 40 sahipsiz noktanın çoğu kalıcı — bu
+    yüzden petek_epok()'un önbellek deseni birebir tekrarlanıyor: 453 dönemin
+    maliyeti birkaç düzine ayrı kümeye iner.
+    ⚠️ Anahtar (sahipsiz, devir) İKİLİSİ: petek geometrisi epoktan epoğa
+    değiştiği için yalnız sahipsiz kümesiyle anahtarlamak bayat sonuç verirdi."""
+    anahtar = (frozenset(i for i, y in enumerate(YERLER) if not _sahipli(y, g)),
+               devir_kumesi(g))
+    if anahtar in _SERBEST_ONBELLEK:
+        return _SERBEST_ONBELLEK[anahtar]
+    bos = [pe[i] for i in anahtar[0] if not pe[i].is_empty]
+    b = unary_union(bos).buffer(SERBEST_TOL) if bos else None
+    _SERBEST_ONBELLEK[anahtar] = b
+    return b
+
+
+def serbest_kenar(g, govde, pe):
+    """Gövdenin SAHİPSİZ alana bakan kenar parçaları."""
+    if govde is None or govde.is_empty:
+        return None
+    b = bos_bolge(g, pe)
+    if b is None or b.is_empty:
+        return None
+    try:
+        k = govde.boundary.intersection(b)
+        return None if k.is_empty else k
+    except Exception:
+        return None
+
+
+def hat_belirsizlik(cs):
+    """Hattın BELİRSİZLİĞİ, km. Serbest kenar iki tohumun ORTA DİKMESİDİR —
+    sahipli yerleşim ile sahipsiz dolgu noktası. Dolgu noktasını d kadar
+    oynatırsak sınır d/2 kayar; yani belirsizlik = iki tohum arası / 2.
+    ⚠️ Neden tek çıpa değil: ölçüldü (r138), dağılım GENİŞ. Bölge medyanları
+    Anadolu 23,4 km · Rumeli 30,5 · Kafkasya 62,0 · Libya 150,7 · Sahra 181,9 ·
+    Arabistan 217,3 — en dar ile en geniş arasında 9,3 KAT. Tek kalınlık
+    seçilseydi Anadolu'da hale 7 kat geniş, Arabistan'da 4 kat dar olurdu ve
+    ölçtüğümüz farkı gizlerdi. Anadolu'daki serbest kenar neredeyse gerçek bir
+    sınır; Arabistan'daki neredeyse hiçbir şey söylemiyor.
+    Hat boyunca değişiyorsa MEDYAN alınır (ortalama değil — Q3/Q1 3,2-4,6)."""
+    v = []
+    for i in range(len(cs) - 1):
+        p = Point((cs[i][0] + cs[i+1][0]) / 2, (cs[i][1] + cs[i+1][1]) / 2)
+        yak = sorted((noktalar[int(k)].distance(p), int(k))
+                     for k in _SEED_AGACI.query(p.buffer(6.0)))[:2]
+        if len(yak) < 2:
+            continue
+        a, b = noktalar[yak[0][1]], noktalar[yak[1][1]]
+        v.append(girdi.km(a.y, a.x, b.y, b.x) / 2.0)
+    if not v:
+        return None
+    v.sort()
+    return round(v[len(v) // 2], 1)
+
+
+def hat_havuza(hatlar):
+    """Hat havuzu + PARALEL belirsizlik dizisi. Aynı hat birden çok dönemde
+    kullanılıyorsa tekilleşir ve belirsizliği bir kez hesaplanır."""
+    out = []
+    for cs in hatlar:
+        k = json.dumps(cs, separators=(",", ":"))
+        j = SRB_IX.get(k)
+        if j is None:
+            j = len(SRB_HAVUZ)
+            SRB_HAVUZ.append(cs)
+            SRB_U.append(hat_belirsizlik(cs))
+            SRB_IX[k] = j
+        out.append(j)
+    return out
+
+
+def hat_koord(g):
+    """Hat geometrisini havuza yazılabilir koordinat listesine çevirir."""
+    if g is None or g.is_empty:
+        return []
+    hs = ([g] if g.geom_type == "LineString"
+          else [x for x in getattr(g, "geoms", []) if x.geom_type == "LineString"])
+    out = []
+    for h in hs:
+        # Ardışık aynı nokta eleniyor (YUK-SARTNAME.md · D). Burası HAT,
+        # halka değil — kapanış noktası yok, o yüzden kapatma da yok.
+        cs = []
+        for x, y in h.coords:
+            q = [round(x, 3), round(y, 3)]
+            if not cs or q != cs[-1]:
+                cs.append(q)
+        if len(cs) >= 2:
+            out.append(cs)
+    return out
+
+
+# ---------------- ② VARLIK EPOKU PAYLAŞTIRMASI ------------------------------
+# 🔴 EMRE'NİN CÜMLESİ (16 Ağustos 2026): *"sonradan doğan yerleşim kendi
+# bölgesini kapmalı."*
+#
+# ⚠️ KUSUR "DEVİR YAPILMIYOR" DEĞİLDİ — devir yapılıyordu ama YANLIŞ BİÇİMDE:
+# doğmamış noktanın peteği **bütünüyle TEK komşuya** gidiyordu (`agac.nearest`).
+# Oysa o nokta yokken sınır **öbür komşuların ARASINDAN** geçerdi. Yani A'ya
+# bütün gitmemeliydi; A, B ve C **paylaşmalıydı.**
+#
+# 📌 NİÇİN TAM VORONOİ DEĞİL — ölçüldü, naif yol PAHALI:
+#     289 nokta kur: · 250 ayrı varlık kırılması
+#     tam Voronoi 35 sn × 250 = +2,4 saat        🔴 kabul edilemez
+#     ortalama Delaunay komşusu 6,0             ⇒ YEREL onarım yeter
+# ⇒ Bütün diyagramı yeniden kurmak yerine, YALNIZ ÖLEN PETEĞE clip'lenmiş bir
+#   mini-Voronoi kuruluyor. Sonuç aynı (o bölgede sınır, hayatta olan
+#   komşuların orta dikmeleridir), maliyet binde biri.
+#
+# 🔴 VE BİTİŞİK ÖLÜ HÜCRELER BİRLİKTE İŞLENİR — bu, tek tek işlemenin sessiz
+# hatasını kapatır. İki ölü hücre yan yanaysa ve tek tek işlenirse, birincinin
+# "komşusu" ikinci ÖLÜ hücre olur; ölü bir komşuya pay vermek anlamsızdır ve
+# sonuç İŞLEME SIRASINA bağlı hâle gelir. Bileşen hâlinde işlenince sıra
+# etkisi ortadan kalkar — `§11`in *"SIRA bağlıyor olabilir"* dersinin önlenmiş
+# hâli.
+#
+# ⚠️ ALAN KORUNUMU VARSAYILMAZ, ÖLÇÜLÜR. Motorun kendi kuralı (kara-kısıtlı
+# sahiplik bloğu): *"garanti EDİLDİĞİNİ VARSAYMAK yerine ölçülür — ilk koşuyu
+# düşüren tam buydu."* Mini-Voronoi'nin bölgeleri clip'lenen alanı tam
+# örtmeyebilir (zarf payı, sayısal artık). Artık ÖLÇÜLÜR ve en yakın canlıya
+# verilir; **sessizce kaybolmaz.**
+_EPOK_PAY_TOL = 1e-12          # birim² — bunun altındaki artık sayısal gürültü
+
+
+def _canli_komsular(alan, sahne_kume):
+    """`alan`a değen, HAYATTA olan yerleşimlerin indeksleri.
+
+    Komşuluk DONMUŞ `PETEK_D` üzerinden sorulur (kopyadan değil): ölü hücreler
+    kopyada boşaltıldığı için kopyaya sormak komşuyu kaybettirirdi.
+    """
+    out = []
+    for _q in _KUS_AGAC.query(alan.buffer(0.02)):
+        j = _KUS_IX[int(_q)]
+        if j in sahne_kume:
+            out.append(j)
+    return out
+
+
+def _olu_bilesenler(olu, hucre):
+    """Bitişik ölü hücreleri gruplar. [[i, ...], ...] döner."""
+    if len(olu) == 1:
+        return [list(olu)]
+    agac = STRtree([hucre[i] for i in olu])
+    baglanti = {i: set() for i in olu}
+    for a, i in enumerate(olu):
+        for _q in agac.query(hucre[i].buffer(0.02)):
+            j = olu[int(_q)]
+            if j != i:
+                baglanti[i].add(j)
+                baglanti[j].add(i)
+    gorulen, out = set(), []
+    for i in olu:
+        if i in gorulen:
+            continue
+        yigin, grup = [i], []
+        gorulen.add(i)
+        while yigin:
+            k = yigin.pop()
+            grup.append(k)
+            for j in baglanti[k]:
+                if j not in gorulen:
+                    gorulen.add(j)
+                    yigin.append(j)
+        out.append(grup)
+    return out
+
+
+def petek_epok(g):
+    """g tarihinde geçerli petek listesi; kurulmamış/yok olmuş noktanın payı
+    o tarihte sahnede olan komşulara **Voronoi kuralıyla PAYLAŞTIRILMIŞ** hâlde.
+
+    Eski davranış (tek komşuya bütün) yalnız iki hâlde sürer ve ikisi de
+    DOĞRUDUR: hayatta tek komşu varsa (bölünecek bir şey yok) ve hiç komşu
+    yoksa (yerel onarım kurulamaz → küresel en yakına, eski yol).
+    """
+    devir = devir_kumesi(g)
+    if not devir:
+        return PETEK_D
+    if devir in _VARLIK_ONBELLEK:
+        return _VARLIK_ONBELLEK[devir]
+    _t_pe = time.time()
+    hucre = list(PETEK_D)
+    sahne = [i for i in range(len(YERLER)) if i not in devir]
+    sahne_kume = set(sahne)
+    agac = STRtree([noktalar[i] for i in sahne])
+    kayit = []
+    # sayaç — İŞ 2'nin KABUL ÖLÇÜTÜ (koordinatör, M-0221)
+    _pay = {"paylastirilan": 0, "tek_komsu": 0, "komsusuz": 0,
+            "artik_km2": 0.0, "alici": 0}
+
+    _yr_D = _yr_Y = None
+    if MOTOR_YURUYUS and _YR_SAHIP is not None:
+        _pay["yuruyus"] = 0
+        _pay["butce_disi_km2"] = 0.0
+        _yr_D, _yr_Y = _yr_epok_onar(frozenset(devir))
+    olu = [i for i in sorted(devir) if not hucre[i].is_empty]
+    for grup in _olu_bilesenler(olu, hucre):
+        alan = poligonal(unary_union([hucre[i] for i in grup]))
+        if alan.is_empty:
+            continue
+        # ── 🚶 MOTOR_YURUYUS: ölü peteğin payı YÜRÜYÜŞLE dağıtılır ─────────
+        # Izgarada hücresi olmayan grup (pencere dışı / erişilmez tohum) eski
+        # yoldan geçer. Bütçenin ötesi kimseye verilmez (sahipsiz) — sayılır.
+        if _yr_D is not None:
+            _gm = _np.isin(_YR_SAHIP.flat[_yr_D], _np.array(grup, dtype=_np.int32))
+            if _gm.any():
+                _gD, _gY = _yr_D[_gm], _yr_Y[_gm]
+                _gj, _gi = _np.divmod(_gD, _kvnx)
+                _j0 = max(0, int(_gj.min()) - 3)
+                _j1 = min(_kvny, int(_gj.max()) + 4)
+                _i0 = max(0, int(_gi.min()) - 3)
+                _i1 = min(_kvnx, int(_gi.max()) + 4)
+                _L = _np.full((_j1 - _j0, _i1 - _i0), -1, dtype=_np.int32)
+                _L[_gj - _j0, _gi - _i0] = _gY
+                for _ in range(3):        # kıyı hücresine taş: gerçek kıyıyı alan keser
+                    _bos = _L == -1
+                    if not _bos.any():
+                        break
+                    _L = _np.where(_bos, _ndi.maximum_filter(_L, size=3), _L)
+                _verildi = {}
+                for j, _pg in _yr_etiket_poligon(_L, _i0, _j0).items():
+                    if j in devir:
+                        continue
+                    _pay_geo = poligonal(_pg.intersection(alan))
+                    if not _pay_geo.is_empty and _pay_geo.area > _EPOK_PAY_TOL:
+                        _verildi[j] = _pay_geo
+                _dis = alan.area - sum(_g.area for _g in _verildi.values())
+                if _dis > _EPOK_PAY_TOL:
+                    try:
+                        _pay["butce_disi_km2"] += _ham_km2(poligonal(alan.difference(
+                            unary_union(list(_verildi.values()))))) if _verildi else _ham_km2(alan)
+                    except Exception:
+                        pass
+                for j, _geo in _verildi.items():
+                    hucre[j] = poligonal(unary_union([hucre[j], _geo]))
+                for i in grup:
+                    kayit.append((YERLER[i]["ad"],
+                                  " + ".join(YERLER[j]["ad"] for j in sorted(_verildi))[:80],
+                                  _ham_km2(hucre[i]), "YÜRÜYÜŞ %d" % len(_verildi)))
+                    hucre[i] = Polygon()
+                    _pay["yuruyus"] += 1
+                _pay["alici"] += len(_verildi)
+                continue
+        komsu = _canli_komsular(alan, sahne_kume)
+        # ── ① hiç canlı komşu yok → ESKİ YOL (küresel en yakın) ──────────
+        if not komsu:
+            for i in grup:
+                k = sahne[int(agac.nearest(noktalar[i]))]
+                hucre[k] = poligonal(unary_union([hucre[k], hucre[i]]))
+                kayit.append((YERLER[i]["ad"], YERLER[k]["ad"],
+                              _ham_km2(hucre[i]), "komşusuz"))
+                hucre[i] = Polygon()
+                _pay["komsusuz"] += 1
+            continue
+        # ── ② tek canlı komşu → bütün ona; BÖLÜNECEK BİR ŞEY YOK ─────────
+        if len(komsu) == 1:
+            k = komsu[0]
+            for i in grup:
+                kayit.append((YERLER[i]["ad"], YERLER[k]["ad"],
+                              _ham_km2(hucre[i]), "tek komşu"))
+                hucre[i] = Polygon()
+                _pay["tek_komsu"] += 1
+            hucre[k] = poligonal(unary_union([hucre[k], alan]))
+            continue
+        # ── ③ ASIL YOL — yerel Voronoi, ölü alana clip'li ────────────────
+        try:
+            _zarf = box(*alan.buffer(1.0).bounds)
+            _vd = voronoi_diagram(MultiPoint([noktalar[j] for j in komsu]),
+                                  envelope=_zarf)
+            _bolge = list(getattr(_vd, "geoms", []))
+        except Exception:
+            _bolge = []
+        _verildi, _toplam = {}, 0.0
+        for _b in _bolge:
+            # Voronoi çıktısının SIRASI girdiyle AYNI DEĞİLDİR — her bölgeyi
+            # içindeki noktayla eşleştirmek ŞART. (Sırasına güvenmek bu
+            # dosyada daha önce ölçülmüş bir hata sınıfıdır.)
+            _sahip = None
+            for j in komsu:
+                if _b.covers(noktalar[j]):
+                    _sahip = j
+                    break
+            if _sahip is None:
+                continue
+            _pay_geo = _b.intersection(alan)
+            if _pay_geo.is_empty or _pay_geo.area <= _EPOK_PAY_TOL:
+                continue
+            _verildi[_sahip] = poligonal(
+                unary_union([_verildi[_sahip], _pay_geo])
+                if _sahip in _verildi else _pay_geo)
+            _toplam += _pay_geo.area
+        # ⚠️ ARTIK — ÖLÇÜLÜR VE VERİLİR, sessizce kaybolmaz
+        _artik = alan.area - _toplam
+        if _artik > _EPOK_PAY_TOL and _bolge:
+            try:
+                _kalan = poligonal(alan.difference(
+                    unary_union(list(_verildi.values()))))
+                if not _kalan.is_empty:
+                    _k2 = komsu[int(STRtree([noktalar[j] for j in komsu])
+                                    .nearest(_kalan.representative_point()))]
+                    _verildi[_k2] = poligonal(unary_union(
+                        [_verildi.get(_k2, Polygon()), _kalan]))
+                    _pay["artik_km2"] += _ham_km2(_kalan)
+            except Exception:
+                pass
+        if not _verildi:              # Voronoi kurulamadı → ESKİ YOL
+            for i in grup:
+                k = sahne[int(agac.nearest(noktalar[i]))]
+                hucre[k] = poligonal(unary_union([hucre[k], hucre[i]]))
+                kayit.append((YERLER[i]["ad"], YERLER[k]["ad"],
+                              _ham_km2(hucre[i]), "voronoi YOK"))
+                hucre[i] = Polygon()
+                _pay["komsusuz"] += 1
+            continue
+        for j, _geo in _verildi.items():
+            hucre[j] = poligonal(unary_union([hucre[j], _geo]))
+        for i in grup:
+            kayit.append((YERLER[i]["ad"],
+                          " + ".join(YERLER[j]["ad"] for j in sorted(_verildi))[:80],
+                          _ham_km2(hucre[i]), "PAYLAŞTIRILDI %d" % len(_verildi)))
+            hucre[i] = Polygon()
+            _pay["paylastirilan"] += 1
+        _pay["alici"] += len(_verildi)
+
+    _VARLIK_ONBELLEK[devir] = hucre
+    _VARLIK_DEVIR[devir] = kayit
+    _VARLIK_PAY[devir] = _pay
+    sayac("varlık devri (petek_epok)", time.time() - _t_pe)
+    return hucre
+
+
+asama("Varlık epokları (kur:/bit:) — kuşatılmışlık ön geçişi")
+_kur_sayi = sum(1 for y in YERLER if y.get("kur"))
+_bit_sayi = sum(1 for y in YERLER if y.get("bit"))
+_epok_gun = sorted({y["kur"] for y in YERLER if y.get("kur")}
+                   | {y["bit"] for y in YERLER if y.get("bit")})
+print(f"  {_kur_sayi} nokta kur:, {_bit_sayi} nokta bit: taşıyor "
+      f"→ {len(_epok_gun)} varlık kırılması")
+for _g in (EPOK, "1500-06-15", "1700-06-15", "1900-06-15"):
+    _d = devir_kumesi(_g)
+    _a = sum(_ham_km2(PETEK_D[i]) for i in _d)
+    print(f"  {_g}: {len(_d)} petek devredilecek, {_a:,.0f} km²")
+
+# ---- ② PAYLAŞTIRMANIN KABUL ÖLÇÜTÜ — koşu KENDİ sayısını basar -------------
+# 🔴 Koordinatörün şartı (M-0221): *"52'nin kaçı PAYLAŞTIRILDI, kaçı tek
+# sahipte kaldı ve NİÇİN kaldı."* — ve "niçin" ÜÇ AYRI KOVA, tek sayı değil:
+#     PAYLAŞTIRILDI  ≥2 hayatta komşu → mini-Voronoi böldü        ← ASIL İŞ
+#     tek komşu      1 hayatta komşu  → bölünecek bir şey YOK     ← MEŞRU
+#     komşusuz       0 hayatta komşu  → eski yol (küresel en yakın) ← MEŞRU
+# ⚠️ Son iki kova BAŞARISIZLIK DEĞİLDİR ve öyle raporlanmamalı. Tek komşusu
+# olan bir peteği "bölemedik" diye saymak, bölünecek şey olmadığı hâlde
+# kusur uydurmak olurdu.
+_pe_ozet = petek_epok(EPOK) and _VARLIK_PAY.get(devir_kumesi(EPOK))
+if _pe_ozet:
+    _tp = (_pe_ozet["paylastirilan"] + _pe_ozet["tek_komsu"]
+           + _pe_ozet["komsusuz"])
+    print(f"  ② PAYLAŞTIRMA ({EPOK}): {_tp} peteğin "
+          f"{_pe_ozet['paylastirilan']}'i PAYLAŞTIRILDI "
+          f"({_pe_ozet['alici']} alıcıya), "
+          f"{_pe_ozet['tek_komsu']}'i tek komşu (bölünecek şey yok), "
+          f"{_pe_ozet['komsusuz']}'i komşusuz (eski yol)")
+    if _pe_ozet["artik_km2"] > 0.5:
+        print(f"     ⚠️ artık {_pe_ozet['artik_km2']:,.0f} km² en yakın "
+              f"canlıya verildi — SESSİZ KAYIP YOK")
+    print(f"     ÖNGÖRÜ: denetim/EPOK-ONGORU.md")
+
+# ⚠️ KUŞATILMIŞLIK DEVİRLERİ ADIYLA VE EPOKUYLA YAZILIR — koordinatörün şartı.
+# Sebep: %90 çizgisi 12 kayıtlık bir dağılımdan çıktı. İleride kasıtlı bir
+# boşluk ≥%90 kuşatılabilir (tek bir vahanın etrafı tümüyle sahipli olabilir).
+# Liste basılırsa YENİ BİR DEVİR SESSİZ GELMEZ.
+# 📌 Bu şartın karşılığı daha ilk turda alındı: üç ad beklenirken 35 epok
+# taraması DÖRDÜNCÜYÜ (Yeni Ürgenç, %90,8, 16 epok) buldu. Tek epoktan
+# çıkarılmış "beklenen liste" onu göremiyordu.
+# Gevşetilmiş ölçütün 35 epokta ürettiği küme (scratchpad/gevsetme_tarama.py).
+# Kaynaklı `kasitli_bosluk: true` yazılanlar buradan DÜŞER; liste yalnız
+# "beklenmedik ad çıktı mı" sorusu için duruyor.
+# 🔴 FOTOĞRAF YENİDEN ÇEKİLDİ — 4 Eylül 2026, 8 ad → 159 ad.
+# Eski liste 8 adlıktı ve koşu 4b 159 yerleşim ölçtü ⇒ 154 satır
+# "✗ BEKLENMEDİK — İNCELE" bastı. **154 satır bağıran bir nöbetçi
+# okunmaz**, ve gerçekten öttüğü gün de okunmaz (aynı hastalık bugün
+# `_opaklik_dogrula`da da ölçüldü ve düzeltildi).
+#
+# 🟢 BÜYÜME ATFEDİLDİ — ve KENDİ İLK ATFİMİ DÜZELTİYORUM.
+#   İlk yazımda *"61 yeni dosyadan, 92 ESKİ dosyadan ⇒ yarısı
+#   açıklanamadı"* dedim. O sayı YANLIŞ TABANA karşı ölçülmüştü: 8 adlık,
+#   aylardır bayat beyaz listeye. Doğru evren KOŞUDAN KOŞUYA farktır.
+#   Önceki koşuların logları okundu ve seri çıktı:
+#       28 Ağu 75 → 2 Eylül 88 → 3 Eylül 89 → 4 Eylül 159
+#   3 Eylül ↔ 4 Eylül farkı:
+#       YENİ 71 · GİDEN 1
+#         bu koşuda İLK ÇİZİLEN beş dosyadan : 61   (%86)
+#         ESKİDEN de çizilen dosyalardan     : 10
+#   ⇒ Büyüme neredeyse BÜTÜNÜYLE yeni çizilen kıtalar. Ve kalan 10'un çoğu
+#     da Amerika (`Cahokia` · `New Orleans` · `Antequera (Oaxaca)`,
+#     `yerlesimler_amerika.js` — ESKİ dosya ama YENİ komşuları var).
+#     Aynı sebep, farklı dosya.
+#   📌 *"Yarısı açıklanamadı"* bir kusur değil, benim YANLIŞ EVRENİMDİ.
+#     `§11`in "ölçüm doğru, evren dar" dersi — bu sefer ters yönde: evren
+#     GENİŞ değil ESKİYDİ.
+#
+# 🔴 VE "ÜÇ AD KAYBOLDU" DA YANLIŞTI: bu koşuda giden BİR ad —
+#     Port of Spain (Puerto de España).
+#   `Cetinje` · `Vladikavkaz` · `Yeni Ürgenç` eski beyaz listedeydi ama
+#   3 Eylül koşusunda ZATEN yoktular; daha önce düşmüşler. Onları bu
+#   koşuya yazmak yanlış bir sebebi kayda geçirirdi.
+#   ⚠️ Küçülme yine de bir sinyal ve kaydı duruyor: bir devir kaybolursa
+#   ya veri ya komşuluk değişmiştir. `Port of Spain`in niçin düştüğü
+#   ÖLÇÜLMEDİ — açık kalem, ama ARTIK TEK BİR AD.
+#
+# 📌 Sabit bir HEDEF değil bir FOTOĞRAF (`BEKLENEN_ENKLAV_SORGU` ile aynı
+#   sınıf): büyüme kusur değil, kusur bir devrin SESSİZ gelmesidir.
+#   Kaydırmanın şartı da aynı: farkın nereden geldiği GÖSTERİLMELİ.
+_KUS_BEKLENEN = {"Adapazarı", "Ahmedâbâd", "Amritsar", "Anadolu Hisarı",
+    "Antequera (Oaxaca)", "Antsirabe", "Aroçukvu", "Bahmut", "Bakel",
+    "Bangalor", "Bangkok (Tonburi)", "Batavia (Cakarta)",
+    "Bathurst (Banjul)", "Bender Abbas (Gamrûn)", "Bharatpûr",
+    "Bida (Nupe)", "Bodrum", "Bolgrad (Bolhrad)", "Bucumbura", "Buşehr",
+    "Cahokia", "Campeche (San Francisco de Campeche)", "Caparra",
+    "Cartwright (Sandwich Körfezi, Labrador)", "Cavnpur (Jaunpur)",
+    "Charleston (Batı Virjinya, Kanawha)", "Chiang Mai",
+    "Chicago (Fort Dearborn)", "Chilpancingo (Guerrero)",
+    "Chiquiaca misyonları", "Cibûtî", "Cincinnati (Losantiville)", "Dakar",
+    "Dire Dava", "Dodoma", "Dori", "Eagle (Fort Egbert)", "East London",
+    "Edo (Tokyo)", "Erâk (Sultânâbâd)", "Evrengâbâd", "Ferahâbâd",
+    "Fianarantsoa", "Fort Abercrombie (Kızıl Irmak vadisi)",
+    "Fort Assiniboine", "Fort Garry (Kızıl Irmak Kolonisi)",
+    "Fort Harney (Harney Havzası, Payut)", "Fort Riley (Kansas Irmağı)",
+    "Fort William (Thunder Bay)", "French Lick (Nashville)", "Fukui",
+    "Gambela", "Gaspé", "Hamdullahi", "Haydarâbâd (Dekken)", "Helsinki",
+    "Herseknovi (Herceg Novi)", "Hirosaki", "Hong Kong", "Houston",
+    "Kalküta", "Karlovac", "Karonga", "Kesela", "Kigali", "Kikwit",
+    "Kilitbahir", "Kingston", "Kirillov", "Kodiak (Pavlovskaya Gavan)",
+    "Konakri (Conakry)", "Kozmodemyansk", "Kristiansand", "Kuala Lumpur",
+    "Kumasi", "Kırcaali", "La Merced (Chanchamayo)",
+    "La Paz (Baja California Sur)", "Laredo", "Le Havre", "Licinga",
+    "Ludhiyana", "Mafikeng", "Malaka", "Mandalay", "Matamoros (Refugio)",
+    "Matsue", "Matsuyama", "Mayapán", "Michilimackinac",
+    "Mobile (Fort Louis de la Louisiane)", "Muhammere", "Mundu (Moundou)",
+    "Nagazaki", "Nagoya", "Nevkasl (Newcastle)", "New Orleans", "Nome",
+    "Odanak (Abenaki)", "Ostrogojsk", "Oudong", "Perm", "Pondişeri",
+    "Port Elizabeth", "Portobelo (Puerto Bello)", "Portsaid", "Porvenir",
+    "Postmasburg", "Prieska", "Puebla de los Ángeles", "Rigolet",
+    "Rostov (Don)", "Rumeli Hisarı", "Saint-Louis (Ndar)",
+    "San Cristóbal de las Casas (Ciudad Real)", "San Germán", "San Juan",
+    "Santa Bárbara", "Sendai", "Senendec (Sine)", "Sergiyev Posad",
+    "Singapur", "Sokoto", "Springfield (Missouri, Ozark)",
+    "St. Petersburg", "Stavropol (Volga)", "Sterlitamak", "Sultâniye",
+    "Sumı", "Sûvayra (Mogador)", "Tetyuşi", "Timber Creek Polis Karakolu",
+    "Tolanaro (Fort Dauphin)", "Trowulan (Majapahit)", "Trujillo (Peru)",
+    "Tsarevokokşaysk (Yoşkar-Ola)", "Tsaritsyn", "Tsumeb",
+    "Tıtvân (Tetuan)", "Udeypûr (Udaipur)", "Umtata",
+    "Utatlán (Q'umarkaj)", "Vindhuk (Windhoek)", "Volsk",
+    "Wilmington (Kuzey Karolayna)",
+    "Yelisavetgrad (Aziz Yelizaveta Kalesi)", "Yenice-i Vardar",
+    "Yenikale", "Yenişehir (Bursa)", "Yenotayevsk", "Yogyakarta", "Zamość",
+    "Zlatoust", "Çipata (Fort Jameson)", "İlbasan (Elbasan)",
+    "İndor (Indore)", "İsmâiliye", "Şuşa", "Şırnak"}
+_kus_kayit = []
+for _g in [EPOK] + _epok_gun:
+    for _i in sorted(_kusatilmis(_g)):
+        _kus_kayit.append((_g, YERLER[_i]["ad"]))
+if _kus_kayit:
+    _kus_ad = sorted({a for _, a in _kus_kayit})
+    print(f"  kuşatılmışlık devri (kara komşuluğu ≥%{KUSATMA_ESIK*100:.0f}): "
+          f"{len(_kus_kayit)} epok-vaka, {len(_kus_ad)} yerleşim")
+    for _ad in _kus_ad:
+        _ep = [g for g, a in _kus_kayit if a == _ad]
+        # ⚠️ Beyaz liste kalktığı için "liste dışı" diye bir şey yok; onun
+        # yerine ÖLÇÜLMÜŞ küme ile karşılaştırılıyor. Yeni bir ad çıkarsa
+        # işaretlenir — şart "yanlış EKLEME"yi yakalamak içindi ve duruyor.
+        _im = "" if _ad in _KUS_BEKLENEN else "   ✗ BEKLENMEDİK — İNCELE"
+        print(f"     {_ad:<24} {len(_ep):>3} epok  ({_ep[0]} … {_ep[-1]}){_im}")
+else:
+    print("  kuşatılmışlık devri: yok")
+
+# ---------------- Parça havuzu ----------------
+# Aynı gövde parçası (ada, değişmeyen ana halka…) yüzlerce dönemde birebir
+# tekrarlanıyordu; ölçüm: donemler.js noktalarının yalnız %40'ı eşsizdi.
+# Parçalar dosya başına TEK havuza yazılır, dönem kayıtları havuz indeksi taşır.
+# js/app.js yüklerken indeksleri geometriye çevirir (aynı parça bellekte de
+# tek nesne olur). Kazanç: kıyı 0.004 çözünürlükte kalırken dosya ~%60 küçülür.
+def seyrelt(halka_hav, parca_hav, kayitlar, don_kose, tol):
+    """B · UZAK COĞRAFYA SEYRELTME — YUK-SARTNAME.md.
+
+    Halka halka Douglas-Peucker, AMA `don_kose` kümesindeki köşeler SABİT.
+    Dondurulan köşe = aynı ANDA iki farklı sahibin (yabancı devlet ya da
+    Osmanlı) sınırında geçen köşe. Onlar hiç oynamadığı için iki komşu
+    arasında **boşluk yapısal olarak doğamaz** — ölçülmesi bile gerekmez.
+
+    🔴 NİÇİN ÖLÇÜT BU (hepsi 4 Ağustos 2026'da ölçüldü):
+      · yabancı gövde köşelerinin %86,7'si KIYIDA → `coverage_simplify`
+        (yalnız hücreler arası kenarı sadeleştirir) baytın en fazla
+        %13'ünü verebilir, 27 MB'ı ASLA. O yol elendi.
+      · boşluğu kıyı değil ORTAK SINIR açıyor ve ortak sınır, aynı tarihte,
+        köşelerin yalnız %6'sı.
+      · düz Douglas-Peucker tol=0,02'de 27,09 MB veriyor ama 83.646 km²
+        boşluk açıyor; hibrit tol=0,03'te 26,90 MB veriyor ve boşluk SIFIR.
+        ⇒ Boşluğu ödemeye hiç gerek yokmuş; bir kademe tolerans yetti.
+
+    ⚠️ DONDURMA KÜMESİ OSMANLI'YI DA İÇERMELİ. İlk ölçümde yalnız yabancı
+    devletlere baktım; Avusturya-Osmanlı sınırındaki köşe tek yabancı
+    devlette göründüğü için donmuyordu ve Macaristan-Erdel-Kafkasya hattında
+    boşluk açacaktı. Osmanlı gövdesi eklenince +16.091 köşe donuyor,
+    bedeli 0,18 MB — kazancın %0,7'si.
+    ⚠️ VE ÖRTÜŞME ZAMANLIDIR: "iki devlette geçen köşe" ölçütü %87 donduruyor
+    ve YANLIŞ — aynı kıyıyı 1600'de A, 1700'de B kullanıyor, onlar hiç komşu
+    olmuyor. Zaman örtüşmesi eklenince %13,5'e iniyor; ayrım yapılmazsa
+    kazanç 27 MB yerine 4 MB olur.
+    """
+    from shapely.geometry import LineString as _LS
+    yeni_halka, esle = [], {}
+    for _hi, r in enumerate(halka_hav):
+        cs, run = [], []
+        for q in r:
+            # R1 — uretecle AYNI kuanta (don_kose_kur, yukarida).
+            if (round(q[0], 6), round(q[1], 6)) in don_kose:
+                if len(run) > 2:
+                    cs.extend([list(x) for x in
+                               _LS(run).simplify(tol, preserve_topology=False).coords][:-1])
+                elif run:
+                    cs.extend(run[:-1])
+                run = []
+                cs.append(q)
+            else:
+                if not run and cs:
+                    run = [cs.pop()]
+                run.append(q)
+        if len(run) > 2:
+            cs.extend([list(x) for x in
+                       _LS(run).simplify(tol, preserve_topology=False).coords])
+        else:
+            cs.extend(run)
+        if len(cs) >= 3 and cs[0] != cs[-1]:
+            cs.append(list(cs[0]))
+        cs = [[round(x, 3), round(y, 3)] for x, y in cs]
+        # ardışık tekrar yeniden doğabilir (D ile aynı ölçüt)
+        t2 = []
+        for q in cs:
+            if not t2 or q != t2[-1]:
+                t2.append(q)
+        if len(t2) >= 3 and t2[0] != t2[-1]:
+            t2.append(list(t2[0]))
+        esle[_hi] = len(yeni_halka)
+        yeni_halka.append(t2 if len(t2) >= 4 else r)   # bozulduysa aslını koru
+    for ks in parca_hav:
+        for i2 in range(len(ks)):
+            ks[i2] = esle[ks[i2]]
+    return yeni_halka
+
+
+def don_kose_kur(*kaynaklar):
+    """Aynı ANDA iki farklı sahibin sınırında geçen köşeler — donacak küme.
+    kaynaklar: (halka_havuzu, parca_havuzu, [(sahip, f, t, [parça_ix...])]) üçlüleri.
+    """
+    kose = {}
+    for halka_hav, parca_hav, refs in kaynaklar:
+        for sahip, f, t, pix in refs:
+            for pj in pix:
+                for hj in parca_hav[pj]:
+                    # R1 — ORTAK IZGARA (4 Eylul 2026). Eskiden `set(map(tuple, ...))`
+                    # yani TAM FLOAT ESITLIGI idi; iki govde ayni siniri paylassa bile
+                    # koseleri bit duzeyinde ayni degilse HICBIRI donmuyordu.
+                    # Olculdu (BULGU-GEOMETRI-0904, H-0001): 1281 Avrupa'da 96 parca /
+                    # 9.046 km2 dikis boslugu — Riga ve Bohemya, Emre'nin gorselleri.
+                    # 🔴 TUKETICI DE AYNI KUANTAYI UYGULAR (`seyrelt`, asagida). Yalniz
+                    #    burayi degistirmek dondurma kumesini SESSIZCE bosaltir.
+                    for q in {(round(_qx, 6), round(_qy, 6))
+                              for _qx, _qy in halka_hav[hj]}:
+                        kose.setdefault(q, []).append((sahip, f, t))
+    out = set()
+    for q, rs in kose.items():
+        if len(rs) < 2:
+            continue
+        rs.sort(key=lambda x: x[1])
+        for i2 in range(len(rs)):
+            si, fi, ti = rs[i2]
+            for k2 in range(i2 + 1, len(rs)):
+                sk, fk, _ = rs[k2]
+                if fk >= ti:
+                    break
+                if sk != si:
+                    out.add(q)
+                    break
+            if q in out:
+                break
+    return out
+
+
+def havuza(mp, halka_hav, halka_ix, parca_hav, parca_ix):
+    """İKİ KADEMELİ HAVUZ — YUK-SARTNAME.md · C.
+
+    Eskiden havuz PARÇA (halka listesi) tutuyordu; aynı halka farklı
+    parçalarda tekrar tekrar yazılıyordu. Ölçüldü (canlı çıktı, 4 Ağustos):
+        donemler.js           5.391 halkanın 2.717'si BİREBİR TEKRAR
+        devletler_harita.js  22.042 halkanın 6.112'si BİREBİR TEKRAR
+    Artık halkalar havuza girer, parça yalnız halka indeksleri taşır.
+
+    🔴 KAZANÇ SIRAYA BAĞLI: ardışık tekrar nokta temizliği (D) ÖNCE
+    yapılmazsa halkaların bir kısmı sırf tekrar noktalar yüzünden "farklı"
+    görünür ve havuza giremez. Ölçüldü — C tek başına 5,15 MB, D'den sonra
+    10,63 MB; sıranın kendisi 5,48 MB ediyor.
+
+    ⚠️ SÖZLEŞME (ARAYÜZ 2 ile çivilendi, `js/app.js` parcaCoz):
+        window.PARCALAR         + window.PARCA_HALKA
+        window.DEVLET_PARCALAR  + window.DEVLET_PARCA_HALKA
+    `parcaCoz` yeni biçim kararını DİZİ BAŞINA BİR KEZ verir ve delikte
+    `throw` eder — sessiz bozuk geometri üretmez. Bu yüzden burada da
+    kural "ya tam ya hiç": iki liste birlikte yazılır, yarısı yazılmaz.
+    """
+    out = []
+    for parca in mp:
+        ks = []
+        for halka in parca:
+            k = json.dumps(halka, separators=(",", ":"))
+            j = halka_ix.get(k)
+            if j is None:
+                j = len(halka_hav); halka_hav.append(halka); halka_ix[k] = j
+            ks.append(j)
+        pk = json.dumps(ks, separators=(",", ":"))
+        j = parca_ix.get(pk)
+        if j is None:
+            j = len(parca_hav); parca_hav.append(ks); parca_ix[pk] = j
+        out.append(j)
+    return out
+
+def mp_koord(g):
+    if g.is_empty: return []
+    if isinstance(g, Polygon): g = MultiPolygon([g])
+    out = []
+    for p in g.geoms:
+        # ⚠️ Eşik 0.008'di (~79 km²) ve GERÇEK ADALARI atıyordu: Patmos 34 km²,
+        # Herke 28, Folegandros 32, Sömbeki 58, Kaşot 66… Emilmeyi önlemek için
+        # eklenen ada noktalarının peteği üretiliyor ama çıktıya yazılmıyordu:
+        # veri doğru, harita boş. Filtrenin amacı buffer(0)/intersection'dan
+        # kalan sayısal kırıntıları atmak; onlar 1e-5 mertebesindedir.
+        if p.area < 0.0002: continue      # ~2 km²
+        halkalar = []
+        for ring in [p.exterior] + list(p.interiors):
+            # 🔴 ARDIŞIK AYNI NOKTA ELENİYOR — YUK-SARTNAME.md · D.
+            # 3 ondalığa yuvarlama (~111 m) art arda gelen köşeleri BİRE
+            # indiriyor ve dosyaya iki kez yazılıyordu: iki çıktıda 145.000
+            # nokta (%3,5) bir öncekiyle birebir aynıydı, ~1,9 MB.
+            # ⚠️ HALKANIN KAPANIŞI TEKRAR DEĞİLDİR: shapely halkayı ilk
+            # noktayı sona ekleyerek kapatır (p0…pn,p0) ve o p0 SİLİNMEZ —
+            # ölçüt "bir ÖNCEKİ noktayla aynı mı", "ilk noktayla aynı mı"
+            # değil. Silinseydi halka açık kalır ve GeoJSON bozulurdu.
+            cs = []
+            for x, y in ring.coords:
+                q = [round(x, 3), round(y, 3)]
+                if not cs or q != cs[-1]:
+                    cs.append(q)
+            # Yuvarlama son köşeyi kapanış noktasına eşitlediyse kapanış
+            # elenmiş olabilir; halka açık kalmasın.
+            if len(cs) >= 3 and cs[0] != cs[-1]:
+                cs.append(list(cs[0]))
+            if len(cs) >= 4: halkalar.append(cs)
+        if halkalar: out.append(halkalar)
+    return out
+
+# ---------------- Bölge (2. kademe merkez) toplu sınırları ----------------
+# Kural 6: her k3/k4 yerleşim en yakın k1/k2 merkeze bağlıdır; merkez, üyelerinin
+# peteklerini toplayan daha büyük bir bölge sınırına sahiptir → data/bolgeler.js
+asama("Bölge sınırları (k1/k2 merkezleri)")
+_uyeler = {}
+for j, y in enumerate(YERLER):
+    if not (y["d"] or y["v"]) or not y["k"]: continue
+    # Geçişli çözüm (bkz. k12_merkez): eski hâli y["m"]'e TEK HOP bakıyordu ve
+    # k:3 bir merkeze bağlı yerleşimler için k:3 adına bölge kaydı üretiyordu —
+    # "k1/k2 merkez sınırları" diyen katmana k:3 bölge giriyordu. Artık zincir
+    # k:2'ye kadar takip ediliyor; kapanmazsa yerleşim bölge katmanına girmez.
+    mi = k12_merkez(j)
+    if mi is None: continue
+    _uyeler.setdefault(YERLER[mi]["ad"], []).append(j)
+BOLGELER = []
+for ad in sorted(_uyeler):
+    mi = AD2IDX[ad]; my = YERLER[mi]
+    bg = unary_union([PETEK_D[j] for j in _uyeler[ad]])
+    bg = poligonal(delikleri_doldur(kapat(bg)).intersection(KARA))
+    ara = my["d"] + my["v"]
+    if not ara or bg.is_empty: continue
+    BOLGELER.append({
+        "ad": ad, "k": my["k"], "lat": my["lat"], "lon": my["lon"],
+        "f": min(dn["f"] for dn in ara), "t": max(dn["t"] for dn in ara),
+        "uy": [YERLER[j]["ad"] for j in _uyeler[ad] if j != mi],
+        "g": mp_koord(bg)})
+_byol = os.path.join(KOK, "data", "bolgeler.js")
+_bj  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
+_bj += "// k1/k2 merkezlerin toplu bölge sınırları (üye peteklerinin birleşimi).\n"
+_bj += "// f/t: merkezin Osmanlı aralığı — çizgi haritada yalnız bu aralıkta görünür.\n"
+_bj += "window.BOLGELER = " + json.dumps(BOLGELER, ensure_ascii=False, separators=(",",":")) + ";\n"
+# İz donemler.js'inkiyle AYNI kaynaktan: koşu BAŞINDA alınan _GIRDI_IZI.
+# (İş G, 2 Ağustos: 7 üretilen çıktının 6'sında iz yoktu — denetle_yayin
+#  tazeliği yalnız donemler.js için ölçebiliyordu, gerisi kör noktaydı.)
+_bj += ("window.URETIM_IZI = "
+        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
+                     separators=(",", ":"), sort_keys=True) + ";\n")
+_muhru_dogrula("data/bolgeler.js")
+girdi.izi_dogrula(_GIRDI_IZI, "data/bolgeler.js")
+if _ISCI_NO is not None: _byol = os.path.join(_SUREC_DIZIN, f"bolgeler_{_ISCI_NO}.js")
+open(_byol, "w", encoding="utf-8").write(_bj)
+print(f"  {len(BOLGELER)} bölge → data/bolgeler.js ({os.path.getsize(_byol)//1024} KB)")
+
+# ---------------- Yabancı devlet gövdeleri ----------------
+# Her boya kimliği için: o kimliğe s dönemi olan hücrelerden, Osmanlı d/v'nin
+# AKTİF OLMADIĞI aralıklarda birleşik gövde üretilir → data/devletler_harita.js
+# 🔴 ÇIKTI KIYASININ İKİNCİ EKSENİ — ölçüldüğü için eklendi, tahminle değil.
+# `URETIM_OLCU` ilk yazıldığında YALNIZ Osmanlı `ao`/`av` ölçüyordu. Koşu 5'te
+# sınandı ve kör noktası KANITLANDI: o koşuda iki büyük yapısal değişiklik
+# vardı — yetim emilim ölçütü (78.368 km² yer değiştirdi) ve `iran`ın üçe
+# bölünmesi (123 kayıt) — ve kıyas İKİSİNİ DE GÖREMEDİ, "2/9 kesit, %0,0"
+# dedi. Sebep tek: değişikliklerin ~%98'i YABANCI gövdelerde, kıyas ise
+# Osmanlı eksenini ölçüyordu.
+# 📌 Genel kural (koordinatör, 3 Ağustos): *bir denetim, ölçtüğü eksenin
+#    dışında hiçbir şey söylemez — ve o eksen künyesine yazılmazsa okuyan
+#    onu "her şey" sanar.* Bu yüzden aşağıda yalnız sayı değil KAPSAM da
+#    künyeye yazılıyor.
+# ⚠️ Alan YALNIZ kesit tarihlerini kapsayan dönemler için hesaplanıyor:
+#    1.966 gövdenin tamamına `alan_km2` koşturmak ~20 sn tutardı, oysa
+#    dokuz kesit için birkaç yüz hesap yetiyor.
+OLCU_KESIT = ["1300-06-15", "1400-06-15", "1453-05-29", "1500-06-15",
+              "1517-07-06", "1600-06-15", "1700-06-15", "1800-06-15",
+              "1900-06-15"]
+# 🔴 Künye alanları SEYRELTMEDEN SONRA hesaplanır (aşağıda, _yabanci_g).
+# Koşu sırasında toplanan bir liste YOK: seyreltme geometriyi değiştiriyor
+# ve künye YAYINLANAN çıktıyı ölçmeli, ondan öncekini değil.
+
+
+# 🔴 ESKİ ÇIKTIDAN TABAN — ve NİÇİN TAM BURADA.
+# Kıyas aşaması koşunun SONUNDA çalışıyor, oysa `devletler_harita.js` bu
+# bloğun sonunda ÜZERİNE YAZILIYOR. Yani taban orada aranırsa YENİ dosya
+# okunur ve kıyas kendini kendiyle karşılaştırır — sessizce "fark yok" der.
+# Bu yüzden eski dosya, üzerine yazılmadan ÖNCE burada okunuyor.
+# ⚠️ Yalnız bir kez ödenir: önceki künyede `yabanci` varsa 40 MB hiç açılmaz.
+def _eski_yabanci_taban():
+    _dy = os.path.join(KOK, "data", "donemler.js")
+    if os.path.exists(_dy):
+        try:
+            _e = io.open(_dy, encoding="utf-8").read()
+            _i = _e.find("window.URETIM_OLCU = ")
+            if _i >= 0:
+                _o = json.loads(_e[_i + 21:_e.find(";\n", _i)])
+                if _o.get("yabanci"):
+                    return None          # künyede zaten var, türetmeye gerek yok
+        except Exception:
+            pass
+    _dh = os.path.join(KOK, "data", "devletler_harita.js")
+    if not os.path.exists(_dh):
+        return None
+    _t0 = time.time()
+    try:
+        _s = io.open(_dh, encoding="utf-8").read()
+
+        def _al(ad):
+            _a = "window." + ad + " = "
+            _i = _s.find(_a)
+            return json.loads(_s[_i + len(_a):_s.find(";\n", _i)]) if _i >= 0 else None
+
+        _hav, _dev = _al("DEVLET_PARCALAR"), _al("DEVLET_HARITA")
+        if _hav is None or _dev is None:
+            return None
+    except Exception as _e2:
+        print(f"  eski yabancı taban okunamadı: {_e2}")
+        return None
+    _pa = {}
+
+    def _parca_km2(j):
+        if j in _pa: return _pa[j]
+        T = 0.0
+        for _r, _sg in [(_hav[j][0], 1)] + [(h, -1) for h in _hav[j][1:]]:
+            _s2 = 0.0
+            for _k in range(len(_r) - 1):
+                lo1, la1 = math.radians(_r[_k][0]), math.radians(_r[_k][1])
+                lo2, la2 = math.radians(_r[_k+1][0]), math.radians(_r[_k+1][1])
+                _s2 += (lo2 - lo1) * (2 + math.sin(la1) + math.sin(la2))
+            T += _sg * abs(_s2 * R_DUNYA * R_DUNYA / 2)
+        _pa[j] = T
+        return T
+
+    _out = {}
+    for _g in OLCU_KESIT:
+        _tp = 0
+        for _d in _dev:
+            for _p in _d["dnm"]:
+                if _p["f"] <= _g < _p["t"]:
+                    # alan_km2 ile AYNI: gövde başına yuvarla, sonra topla
+                    _tp += int(round(sum(_parca_km2(j) for j in _p["g"]), -3))
+                    break
+        _out[_g] = _tp
+    print(f"  eski yabancı taban türetildi ({time.time()-_t0:.0f}sn, "
+          f"{len(_dev)} devlet · {len(_hav)} parça) — kıyas ilk koşuda çalışacak")
+    return _out
+
+
+_ESKI_YABANCI = _eski_yabanci_taban()
+
+# ═══ PUANLAMA KAPISI — "BURASI KİMSENİN Mİ?" · 16 Ağustos 2026 ═════════════
+# Emre'nin beyanı (BES-ALTYAPI ④): bir yerleşimin boş coğrafyadaki etki alanı
+# sınırsız olmamalı. Tavan 200 km, ve tek merkez yetmiyorsa PUAN toplanır:
+#     0-200 km = 4p · 200-300 km = 2p · 300-400 km = 1p · toplam ≥4 ⇒ BOYANIR
+#
+# 🔴 SÜRTÜNMELİ MESAFE İLE RAKİP DEĞİL, TAMAMLAYICI (M-0706, Emre'nin (c) şıkkı):
+#     sürtünmeli mesafe → BURASI KİMİN?        (motor bunu zaten yapıyor)
+#     PUANLAMA          → BURASI KİMSENİN Mİ?  (bu blok)
+#
+# ⚠️ PUANLAR AYNI DEVLETİN merkezlerinden toplanır, karışık değil. Bu bir
+# YORUM ve ölçülerek seçildi (M-0738): Emre'nin cümlesi *"3 ayrı merkez"* diyor,
+# *"aynı devletin"* demiyor. İki okuma ölçüldü:
+#     A aynı devlet    45,20 M km² boyanır      ← SEÇİLEN
+#     B herhangi merkez 57,13 M km² boyanır     fark 11,93 M km² (%16)
+# B düz okuma olarak savunulabilir AMA *"hangi devlete"* sorusunu cevaplayamaz
+# ⇒ sahiplik kapısı olarak KULLANILAMAZ. A, uygulanabilir tek yorumdur.
+#
+# ⚠️ ARAZİ ÖLÇÜTÜ YOK — ve bu da ölçüldü (M-0740). Şartname *"yalnız çöl/ova/
+# bozkırda uygula, yoksa Anadolu çöker"* diyordu. Ölçüm korkuyu çürüttü:
+#     ANADOLU 914.367 km² · puanlamanın DEĞDİĞİ 0 km² (%0,00)
+#     RUMELİ  525.858 km² · puanlamanın DEĞDİĞİ 0 km² (%0,00)
+# Sebebi yapısal: 200 km'de sahipli bir merkez varsa o merkez TEK BAŞINA 4 puan
+# verir ⇒ kapı orada hiçbir şey değiştirmez. **Puanlama kendi kendini sınırlar.**
+# Üç aday ölçüt denendi ve üçü de gereksiz çıktı; dahası `Desert/Plain/Tundra`
+# poligonu SİBİRYA'yı (%1,5) ve KONGO'yu (%0,5) kaçırıyordu — yani kapının en
+# çok gerektiği yerleri.
+#
+# ⚠️ IZGARA KENARI BASAMAKLIDIR (0,05° ≈ 5,5 km) ve bu KABUL EDİLMİŞ bir ödün.
+# Gerekçe motorun kendi ölçümü: kapının kestiği yerler `serbest_kenar` sınıfına
+# düşüyor — sahipli gövde ile SAHİPSİZ alan arasındaki sınır — ve o sınırın
+# ölçülmüş belirsizliği MEDYAN 91,7 km (Sahra 181,9 · Arabistan 217,3).
+# 5,5 km'lik basamak o belirsizliğin içinde kalıyor; `js/app.js` zaten o kenarı
+# line-blur ile söndürüyor. ⇒ Keskin çizmek, olmayan bir kesinlik iddia ederdi.
+#
+# 📌 MALİYET ÖLÇÜLDÜ, TAHMİN EDİLMEDİ: dönem başına 3,5 sn · 513 dönem ≈ 29 dk
+# (koşunun %22'si). Devlet-bazlı önbellek 10,3 kat ucuzlatıyor (2,8 dk) ama
+# koordinatör BEŞİNCİ KOŞUDA ÖNBELLEKSİZ olmasını istedi (M-0744) ve gerekçesi
+# hızdan iyiydi: kapı ilk kez koşuyor, aynı koşuya önbellek de konursa çıktı
+# yanlış çıktığında *"algoritma mı yanlış, önbellek mi bayat"* SORULAMAZ.
+# ⇒ Önbellek sonraki koşuda, ve BU koşunun çıktısı onun referansı olacak.
+PUAN_TAVAN_KM = 200.0            # Emre'nin beyanı — 4 puanlık halka
+PUAN_ESIK = 4                    # boyanma eşiği
+PUAN_HALKA = ((200.0, 4), (300.0, 2), (400.0, 1))
+PUAN_KAPALI = os.environ.get("MOTOR_PUAN_KAPALI") == "1"
+# 🔴 ÖRTME (occlusion) — Emre, 20-21 Ağustos 2026:
+#   *"Bir toprağın en yakınındaki yerleşim merkezlerini bir çizgi ile
+#   birleştirdikten sonra bu çizginin arkasında kalan yerleşim yerleri
+#   puanlamaya katılmaz. Doğuda 300 · 305 · 310 km'de üç yerleşim varsa
+#   yalnız en yakındaki 1 tanesi katılır."*
+# Çevre ORTME_DILIM_SAYISI eş dilime bölünür (taban 12 → 30°/dilim); her
+# dilimde YALNIZ EN YAKIN sahip nokta puan verir — DEVLETİ NE OLURSA OLSUN
+# (occlusion geometrik: yakın bir köy hangi devletin olursa olsun, aynı
+# yöndeki uzak köyün görüş hattını KESER). Ölçüldü (denetim/ongoru_ortme.py
+# karnesi, 384/1536 gün örneklem): N=8→−%7,3 · N=12→−%4,5 · N=24→−%2,2
+# (kapanabilir petek-gün üzerinde) — dilim genişledikçe düşüş büyür, MONOTON.
+ORTME_DILIM_SAYISI = 12
+_PUAN_ONBELLEK = {}              # yalnız aynı dönem içinde tekrar için
+_PUAN_KESILEN = [0.0]            # kapının kestiği toplam km² (ölçüm)
+_PUAN_TAMAMEN = [0]              # tamamen boşalan gövde-dönemi sayısı
+
+
+def _puan_bolgesi(did, aktif, gun):
+    """did devletinin `gun` tarihinde ≥PUAN_ESIK puan topladığı bölge (shapely).
+
+    Izgara üzerinde puanlanır, sonra poligona çevrilir. Boş dönerse o devletin
+    o tarihte hiçbir yeri boyanmaz.
+    ⚠️ `aktif` YALNIZ o devletin peteklerini taşıyan nokta indeksleri; puan
+    ONLARDAN toplanır — bu, A yorumunun kodda karşılığıdır.
+    """
+    anahtar = (did, aktif)
+    if anahtar in _PUAN_ONBELLEK:
+        return _PUAN_ONBELLEK[anahtar]
+    import numpy as _np2
+    _lo = [YERLER[j]["lon"] for j in aktif]
+    _la = [YERLER[j]["lat"] for j in aktif]
+    if not _lo:
+        _PUAN_ONBELLEK[anahtar] = None
+        return None
+    # yalnız bu devletin çevresini kapsayan PENCERE — tam ızgara gereksiz
+    _r = PUAN_HALKA[-1][0]
+    _dlat = _r / 110.574
+    _x0 = max(_kvx0, min(_lo) - _r / 111.320 / max(0.15, math.cos(math.radians(max(abs(min(_la)), abs(max(_la)))))))
+    _x1 = min(_kvx0 + _kvnx * KV_ADIM, max(_lo) + _r / 111.320 / max(0.15, math.cos(math.radians(max(abs(min(_la)), abs(max(_la)))))))
+    _y0 = max(_kvy0, min(_la) - _dlat)
+    _y1 = min(_kvy0 + _kvny * KV_ADIM, max(_la) + _dlat)
+    _nx = max(1, int((_x1 - _x0) / KV_ADIM))
+    _ny = max(1, int((_y1 - _y0) / KV_ADIM))
+    _p = _np2.zeros((_ny, _nx), dtype="int16")
+    _cy = _y0 + (_np2.arange(_ny) + 0.5) * KV_ADIM
+    _cx = _x0 + (_np2.arange(_nx) + 0.5) * KV_ADIM
+    _cos = _np2.cos(_np2.radians(_cy))
+    for _jj in aktif:
+        _yy = YERLER[_jj]
+        _dy = (_cy - _yy["lat"]) * 110.574
+        _dx = (_cx[None, :] - _yy["lon"]) * 111.320 * _cos[:, None]
+        _m = _np2.sqrt(_dx ** 2 + _dy[:, None] ** 2)
+        _k = _np2.zeros(_m.shape, dtype="int16")
+        _once = 0.0
+        for _e, _pu in PUAN_HALKA:          # 200→4p · 300→2p · 400→1p
+            _k[(_m >= _once) & (_m < _e)] = _pu
+            _once = _e
+        _p += _k
+    _msk = _p >= PUAN_ESIK
+    if not _msk.any():
+        _PUAN_ONBELLEK[anahtar] = None
+        return None
+    # raster → poligon: hücre kutularının birleşimi (kenar basamaklı, kabul edilmiş)
+    _kut = []
+    for _j2 in range(_ny):
+        _sat = _msk[_j2]
+        if not _sat.any():
+            continue
+        _i2 = 0
+        while _i2 < _nx:
+            if _sat[_i2]:
+                _b = _i2
+                while _i2 < _nx and _sat[_i2]:
+                    _i2 += 1
+                _kut.append(box(_x0 + _b * KV_ADIM, _y0 + _j2 * KV_ADIM,
+                                _x0 + _i2 * KV_ADIM, _y0 + (_j2 + 1) * KV_ADIM))
+            else:
+                _i2 += 1
+    _g = unary_union(_kut) if _kut else None
+    _PUAN_ONBELLEK[anahtar] = _g
+    return _g
+
+
+# ═══ EKLEYİCİ KAPI — "boş kalan yer, çevresi tek devletse ONUN" ═══════════
+# 🔴 EMRE, 18 Ağustos 2026 — aynı gün İKİ hüküm:
+#     "puanlama kapısı ekleyici olsun"
+#     "enklav yada koridor eğer boş alan ise etrafındaki bölgeye katılmalı …
+#      ama eğer tarihî gerçeklik ise enklavlar YERİNDE KALMALI … o bölgede
+#      başka bölgenin yada yerleşimin KABİLENİN etkisi yok ise katılabilir"
+#
+# 📌 KESİCİ KAPIDAN FARKI TEK CÜMLE: kesici kapı (`_puan_bolgesi`, :3568)
+#    bir KESİŞİMDİ ve yalnız BOYAMAYI kısıtlıyordu. Bu kapı SAHİPLİK ATAR.
+#
+# 📌 VE PETEK DÜZEYİNDE ÇALIŞIR, geometri düzeyinde değil: sahipsiz bir
+#    peteği kazanan devletin `aktif` kümesine EKLER. Enklav/koridor doldurma
+#    bundan kendiliğinden çıkar — çevresi tek devlet olan sahipsiz petek o
+#    devlete katılır, ve mevcut geometri makinesi hiç değişmez.
+#
+# ⚠️ ÖLÇÜLDÜ, KOŞUDAN ÖNCE (`arac/olc_ekleyici.py`): Emre'nin kuralının
+#    "burası Osmanlı olmalı" dediği ama boş duran toprak 1,67 M km²ydi —
+#    %11'i A1'in kestiği, %70'i dolgu noktası peteği, %19'u kayıtsız.
+#    Dolguların 13'ü `0cf702b`de emekli edildi; bu kapı geri kalanı çözer.
+#
+# 🔴 ŞARTI `bos:` ALANINA SORAR — Emre'nin "araştırmadan katılmamalı"
+#    cümlesinin karşılığı bu alandır ve 235 kaydın 230'unda gerekçesi yazılı.
+DOLGU_ACIK = os.environ.get("MOTOR_DOLGU_KAPALI") != "1"
+DOLDURULABILIR_BOS = {"hata"}
+# 🔴 `devletsiz` 20 AĞUSTOS 2026'DA ÇIKARILDI — ve gerekçesini ben yazmıştım,
+#    ben çürütüyorum. Eski satır şuydu:
+#      ~~devletsiz → kaynak "devlet yoktu" diyor → boş arazi, KATILABİLİR~~
+#
+#    Emre beş ekran görüntüsü gönderdi (1703-08-22, Libya ve Irak çölleri):
+#    *"bu parça neden Osmanlı rengine boyanmış, o bölge 200 km'den uzak
+#    değil mi?"* Bir ölçüm oturumu boyanan noktaların KENDİ künyelerini okudu:
+#      Vâv el-Kebîr — "Osmanlı Trablusgarp idaresinin ULAŞAMADIĞI bir alan"
+#      Tâzirbû      — "FİİLEN DEVLET DENETİMİ DIŞINDAYDI"
+#    ⇒ `devletsiz`, kaynağın **"burada devlet YOKTU" DEDİĞİ** yerdir. Orayı
+#    bir devlete katmak, kaynağın açıkça reddettiği şeyi iddia etmektir.
+#
+#    📌 VE ÇÜRÜTEN ŞEY ALTI SATIR AŞAĞIDA ZATEN YAZILIYDI: `insansiz` için
+#    *"idare yokluğu sahiplik DEĞİLDİR"* demişim. Aynı cümle `devletsiz` için
+#    DAHA GÜÇLÜ geçerli — orada kaynak susmuyor, AÇIKÇA konuşuyor.
+#    Yani kapı **araştırılmışı boyuyor, araştırılmamışı (`veri-yok`)
+#    koruyordu** — tam tersi olmalıydı. 143 kayıt bu durumdaydı.
+#
+#    ⚠️ GERİLİM VAR ve görmezden gelinmiyor: Emre daha ÖNCE "çöl bomboş
+#    duruyor" diye şikâyet etmişti ve kapı onun için açılmıştı. Bu düzeltme
+#    oraları yeniden boşaltıyor. Bugün bunun kabul edilebilir olmasının
+#    sebebi ölçülmüş: `06b2751` (15 Ağustos) `bos_alanlar.js` + `boslukKur()`
+#    katmanını getirdi — boşluk artık BOŞ DEĞİL, cinsiyle çiziliyor
+#    (34 `kabile` beneği · 9 `veri-yok` sorusu · tıklanabilir balon).
+#    ⇒ "Boş" ile "açıklanmış boş" ayrı şeyler; ikincisi bir cevaptır.
+#
+#    hata      → kaydın kendi itirafı, motor kusuru → KATILABİLİR (kaldı)
+#   kabile    → aşiret etkisi VAR                  → KATILMAZ (Emre'nin şartı)
+#   veri-yok  → "arandı, kaynak SUSUYOR"           → KATILMAZ (bilmediğimizi
+#               iddia etmek olurdu — "araştırmadan katılmamalı"nın ta kendisi)
+#   insansiz  → terra nullius                      → KATILMAZ (Novaya Zemlya'yı
+#               Rus boyamak olurdu; idare yokluğu sahiplik değildir)
+_DOLGU_ONBELLEK = {}
+_DOLGU_SAYAC = {"petek": 0, "gun": 0, "cekismeli": 0,
+                "col_dusen": 0, "col_gecen": 0}
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴 ÇÖLDE EŞİK 4 → 8   (MOTOR ÜÇ KALEM, 27 Ağustos 2026)
+# ═══════════════════════════════════════════════════════════════════════════
+# Emre (`0034/H-0028`): *"bu sahrada anlamsız gereksiz fazladan boyanan
+# yerlerin boyanmasını ENGELLEYECEK BİR YAPI kurmalıyız."*
+#
+# 🔴 VE O YAPININ ADI VARDI, İŞLEVİ YOKTU. `COL_TAVAN_KM = 300` iken
+#    k0=280 · k3=280 · k4=140 hepsi ALTINDA ⇒ çöl tavanı 2356 noktanın
+#    2283'ünde YAPISAL OLARAK hiçbir şey kesemiyordu (bu dosyanın kendi
+#    yorumu, TAVAN_KM başlığında). Sahra çemberlerini A1 çiziyordu.
+#    ⚠️ Ve bugün TAVAN_KM düşürülünce (k3→200, k4→100) 300'lük çöl tavanı
+#       BÜSBÜTÜN devre dışı kaldı.
+#
+# ⇒ ÇARE TAVANDA DEĞİL KAPIDA: çöl poligonunun İÇİNDEKİ boş peteğin
+#   doldurulması için 4 değil 8 puan aranır. SAHİPLİ çöl şehrinin (Gât ·
+#   Murzuk · Câlû) kendi peteğine DOKUNMAZ — bu kapı yalnız SAHİPSİZ
+#   peteği dağıtır.
+#
+# 🟢 ÖLÇÜLMÜŞ ÖNGÖRÜ (ÇÖL BOYAMA, 1821-08-19 · 15 dolgu noktası):
+#     DÜŞER (7): Serîr Kalanşû 6 · Vâv el-Kebîr 6 · Tâsîlî n'Accer 5 ·
+#                Serîr 5 · Lakiye Arbaîn 5 · Vâdî el-Milk 4 · Tâzirbû 1
+#     SÜRER (8): Bayûda 22 · Atbay 20 · Nûbe çölü 18 · İdehân Murzuk 14 ·
+#                Ramletü Zellâf 14 · Ramletü Murzuk 10 · İdehân Ubârî 9 ·
+#                Selîme 8
+#   📌 Düşenlerin hepsi LİBYA, sürenlerin çoğu SUDAN (Nil'e yakın, puanı
+#      yüksek) — yani eşik tam Emre'nin `H-0028`de saydığı yerlere vuruyor.
+COL_PUAN_ESIK = 8
+_COL_NOKTA_ONBELLEK = {}
+
+
+def _col_icinde(j):
+    """`j` numaralı yerleşim çöl poligonunun içinde mi? (bir kez ölçülür)"""
+    if COL is None:
+        return False
+    v = _COL_NOKTA_ONBELLEK.get(j)
+    if v is None:
+        v = bool(COL.contains(noktalar[j]))
+        _COL_NOKTA_ONBELLEK[j] = v
+    return v
+
+
+def _dolgu_kumesi(a):
+    """`a` gününde sahipsiz peteklerden hangisi hangi devlete katılır.
+
+    Döner: {devlet_kimligi: frozenset(petek_indeksi)}   ("OSMANLI" dâhil)
+    Ölçüt Emre'nin kendi kuralı: 0-200=4p · 200-300=2p · 300-400=1p, eşik 4,
+    puanlar AYNI devletin merkezlerinden toplanır (kesici kapıyla aynı yorum).
+    🔴 ÇEKİŞME = KATILMAMA: iki devlet de eşiği geçiyor ve BERABERSE petek
+    boş kalır. "Kime ait" sorusunu cevaplayamadığımız yeri boyamak, kapının
+    var oluş sebebine aykırı olurdu.
+    """
+    if a in _DOLGU_ONBELLEK:
+        return _DOLGU_ONBELLEK[a]
+    import numpy as _np3
+    # kur:/bit: — o gün henüz kurulmamış (ya da yok olmuş) nokta ne sahip
+    # sayılır ne doldurulur; peteği zaten komşusuna devredilmiştir.
+    _dv = devir_kumesi(a)
+    sahip_ix, sahip_kim = [], []
+    bos_ix = []
+    for j, y in enumerate(YERLER):
+        if j in _dv:
+            continue
+        kim = None
+        # 🔴 27 Ağustos 2026 — KADEME AYRILDI. Eskiden burası `_osm_aktif`
+        # ile tek kova veriyordu ("OSMANLI") ve dolgu kapısı kazananı
+        # DOĞRUDAN yazıyordu. Bedeli ölçüldü: 1600-06-15'te 791.491 km²
+        # koyu kırmızı. Kök bağımsız doğrulandı — şüpheli alan Libya'daki
+        # DOĞRUDAN nokta sayısıyla birebir ters orantılı:
+        #     47 nokta → 0 km² · 1 → 388.206 · 0 → 791.491 · 39 → 222.967
+        # Yani kusur tam olarak Trablusgarp'ın KARAMANLI OCAKLIĞI (tâbi)
+        # olduğu 1711-1835 aralığında doğuyor: puanı `v:` noktalar veriyor,
+        # kazanan "doğrudan" yazılıyor.
+        # ⚠️ SIRA MOTORUN KENDİ SIRASI (:3934-3937 `dogrudan = {...} - tabi`):
+        #    bir noktanın hem `d:` hem `v:` dönemi varsa TÂBİ kazanır.
+        if _osm_aktif(y, a):
+            kim = ("TABI" if any(dn["f"] <= a < dn["t"] for dn in y["v"])
+                   else "OSMANLI")
+        else:
+            for sp in y["s"]:
+                if sp["f"] <= a < sp["t"]:
+                    kim = sp["d"]
+                    break
+        if kim is not None:
+            sahip_ix.append(j)
+            sahip_kim.append(kim)
+            continue
+        # sahipsiz — katılabilir mi?
+        # 🔴 EMRE, 20 Ağustos 2026 — hüküm ve şartı birebir:
+        #   *"Eğer BOŞ ÇÖL ise, orada siyasî yapı yok ise ya da aşiret yapısı
+        #   filan yok ise, o zaman benim puanlamam boyasın. Böylece anlamsız
+        #   girintiler kapanmış olur."*
+        #
+        # ⚠️ `bos:"devletsiz"`i ham hâliyle geri almak bu şartı ÇİĞNERDİ.
+        # Ölçüldü — o etiket ÜÇ ayrı şeyi tek kovaya koymuş (129 kayıt):
+        #    tur="bolge"  37   dolgu noktası, gerçek yerleşim YOK
+        #                      Gilf el-Kebîr · Selîme · Serîr · Rebyâne ·
+        #                      Nefud · Rub'ul Hâlî · Vâdî Tanezzûft
+        #                      ⇒ Emre'nin "boş çöl"ü BUDUR
+        #    yerleşim     92   Riyad · Hâil · Dir'iye · Buraydâ · Uneyze ·
+        #                      Manama · Doha · Abu Dabi · Mukalla ·
+        #                      Vladivostok · Matsumae · Taos Pueblo
+        #                      ⇒ kayıtların KENDİ metni: "yerleşim VARDI ama
+        #                        hiçbir devletin idaresinde değildi"
+        # Yerleşim varsa orası boş çöl DEĞİLDİR; körfez şeyhliği ve Necid
+        # kasabası birer SİYASÎ YAPIDIR. 92'yi boyamak, Emre'nin kendi
+        # `0021/H-0007` Bahreyn şikâyetini geri getirirdi.
+        #
+        # 🟢 Ve ayırt edici ZATEN VERİDEYDİ — `tur:` alanı. Yeni alan icat
+        # edilmedi (`§11`: "bir alan tasarlamadan önce var olup olmadığını ölç").
+        #
+        # 🔴 DÖRDÜNCÜ SINIF (KAPI KARNESİ, `1ff92b5` · BULGULAR-DORDUNCU.md,
+        # commit 3240fb8) — `_sahipli(y,g)=YANLIŞ` olan (kaydın hiçbir
+        # döneminde bu tarihi kapsayan bir sahip yazılı DEĞİL) VE `kur:`/`bit:`
+        # yüzünden sahnede olmayan noktalar `devir_kumesi()`ye de GİRMİYORDU
+        # (o küme `_sahipli=DOĞRU` şartını arıyor) — yani ne devredilir ne
+        # doldurulurdu: PETEK DELİK. Nâsıriye (kur:1869) böyle bulundu; Emre'nin
+        # Basra-Bağdat şikâyetinin sebebiydi. Ölçüldü: bu sınıf tek başına
+        # (§DOLGU_ACIK üstündeki C sınıfının) ~3 katı büyüklükte
+        # (205.387 vs 69.198 petek-gün, örneklemsiz tam ızgara). Emre'nin
+        # kendi şartı zaten bunu kapsıyor — kayıt hiçbir dönemde "burada
+        # devlet YOKTU" demiyor, sadece henüz sözü geçen bir kayıt yok;
+        # `hata`/`bolge` sınıfından farkı yok, yalnız `tur:`/`bos:` süzgeci
+        # bunu YANLIŞLIKLA dışarıda bırakıyordu.
+        _dordurcu = bool((y.get("kur") and y["kur"] > a)
+                          or (y.get("bit") and y["bit"] <= a))
+        if (y.get("bos") in DOLDURULABILIR_BOS
+                or (y.get("tur") == "bolge"
+                    and y.get("bos") in (None, "", "devletsiz"))
+                or _dordurcu):
+            bos_ix.append(j)
+    if not bos_ix or not sahip_ix:
+        _DOLGU_ONBELLEK[a] = {}
+        return {}
+    bla = _np3.array([YERLER[j]["lat"] for j in bos_ix])
+    blo = _np3.array([YERLER[j]["lon"] for j in bos_ix])
+    sla = _np3.array([YERLER[j]["lat"] for j in sahip_ix])
+    slo = _np3.array([YERLER[j]["lon"] for j in sahip_ix])
+    _co = _np3.cos(_np3.radians((bla[:, None] + sla[None, :]) / 2))
+    _dy = (sla[None, :] - bla[:, None]) * 110.574
+    _dx = (slo[None, :] - blo[:, None]) * 111.320 * _co
+    _m = _np3.sqrt(_dx ** 2 + _dy ** 2)
+    _k = _np3.zeros(_m.shape, dtype="int16")
+    # 🚶 MOTOR_YURUYUS: saat matrisi olan satırlar yürüyüş saatiyle puanlanır
+    _yr_satir = None
+    if MOTOR_YURUYUS and _YR_PUAN_SAAT:
+        _yr_sa = _np3.full(_m.shape, _np3.inf)
+        _yr_satir = _np3.zeros(len(bos_ix), dtype=bool)
+        _yr_sut = {j: c for c, j in enumerate(sahip_ix)}
+        for _r, _j in enumerate(bos_ix):
+            _W = _YR_PUAN_SAAT.get(_j)
+            if _W is None:
+                continue
+            _yr_satir[_r] = True
+            for _sx, _hh in _W.items():
+                _c = _yr_sut.get(_sx)
+                if _c is not None:
+                    _yr_sa[_r, _c] = _hh
+    _once = 0.0
+    for _e, _pu in PUAN_HALKA:
+        _k[(_m >= _once) & (_m < _e)] = _pu
+        _once = _e
+    if _yr_satir is not None and _yr_satir.any():
+        _yr_ks = _np3.zeros(_m.shape, dtype="int16")
+        _once = 0.0
+        for _e, _pu in YURUYUS_PUAN_HALKA:
+            _yr_ks[(_yr_sa >= _once) & (_yr_sa < _e)] = _pu
+            _once = _e
+        _k = _np3.where(_yr_satir[:, None], _yr_ks, _k)
+        _m = _np3.where(_yr_satir[:, None], _yr_sa, _m)     # örtmede "yakın" = saat
+    # 🔴 ÖRTME (occlusion, Emre 20-21 Ağustos 2026 — bkz ORTME_DILIM_SAYISI
+    # tanımı yukarıda). Çevre dilimlere bölünür, her dilimde YALNIZ EN YAKIN
+    # sahip nokta puan verir — devleti ne olursa olsun. Ölçüldü
+    # (denetim/ongoru_ortme.py karnesi): dördüncü sınıfta kapanabilir
+    # petek-gün ~%4-7 düşüyor, Nâsıriye vakası (OSMANLI 41 · safevi 18) sonuç
+    # DEĞİŞTİRMİYOR (örtme sonrası 24-4, hâlâ OSMANLI).
+    _ang = (_np3.degrees(_np3.arctan2(_dx, _dy)) + 360.0) % 360.0
+    _genislik = 360.0 / ORTME_DILIM_SAYISI
+    _dilim = (_ang // _genislik).astype(int)
+    _keep = _np3.zeros(_m.shape, dtype=bool)
+    _nrow = _np3.arange(_m.shape[0])
+    for _d in range(ORTME_DILIM_SAYISI):
+        _mask_d = (_dilim == _d)
+        if not _mask_d.any():
+            continue
+        _m_masked = _np3.where(_mask_d, _m, _np3.inf)
+        _best_j = _m_masked.argmin(axis=1)
+        _has_any = _mask_d.any(axis=1)
+        _keep[_nrow[_has_any], _best_j[_has_any]] = True
+    _k = _np3.where(_keep, _k, 0)
+    devletler = sorted(set(sahip_kim))
+    dizin = {d: [i for i, k in enumerate(sahip_kim) if k == d]
+             for d in devletler}
+    puanlar = _np3.zeros((len(bos_ix), len(devletler)), dtype="int32")
+    for di, d in enumerate(devletler):
+        puanlar[:, di] = _k[:, dizin[d]].sum(axis=1)
+    out = {}
+    en = puanlar.max(axis=1)
+    for bi, j in enumerate(bos_ix):
+        # ÇÖLDE EŞİK 8, dışarıda 4 — gerekçe COL_PUAN_ESIK başlığında.
+        # 🔴 SAYAÇ ŞART: sessizce eleyen bir kural, çalıştığı bilinmeyen
+        #    kuraldır. Kaç petek çöl eşiğine takıldığı koşuda BASILIR.
+        _colde = _col_icinde(j)
+        _esik = COL_PUAN_ESIK if _colde else PUAN_ESIK
+        if en[bi] < _esik:
+            if _colde and en[bi] >= PUAN_ESIK:
+                _DOLGU_SAYAC["col_dusen"] += 1      # 4'ü geçerdi, 8'e takıldı
+            continue
+        if _colde:
+            _DOLGU_SAYAC["col_gecen"] += 1
+        kazananlar = [devletler[di] for di in range(len(devletler))
+                      if puanlar[bi, di] == en[bi]]
+        if len(kazananlar) != 1:            # çekişme → katılmaz
+            _DOLGU_SAYAC["cekismeli"] += 1
+            continue
+        out.setdefault(kazananlar[0], []).append(j)
+        _DOLGU_SAYAC["petek"] += 1
+    out = {d: frozenset(v) for d, v in out.items()}
+    _DOLGU_SAYAC["gun"] += 1
+    _DOLGU_ONBELLEK[a] = out
+    return out
+
+
+# ═══ 🚶 EKLEYİCİ KAPI YÜRÜYÜŞ SAATİNE — MOTOR_YURUYUS (KOSU13-OTOBUS) ══════
+# Şartname taslağı: denetim/TASLAK-PUAN-KAPISI-YURUYUS-0917.md (K2).
+# Düz km yerine YÜRÜYÜŞ SAATİ: 0-40 s = 4p · 40-60 s = 2p · 60-80 s = 1p —
+# PUAN_HALKA'nın (200/300/400 km) MENZIL ② çevirimiyle karşılığı.
+# ⚠️ 60 ve 80 saat BİR KARAR SAYISIDIR; Emre'ye sorulu (taslak §6 soru 1).
+# Örtmede "yakın" = yürüyüş saati (taslak §6 soru 2, öneri); yön hâlâ düz açı.
+# Matris TARİHTEN BAĞIMSIZ, bir kez kurulur: her aday sahipsiz noktadan 80
+# saatte duran yerel Dijkstra. Izgarada hücresi olmayan nokta ESKİ (km) kurala kalır.
+YURUYUS_PUAN_HALKA = ((40.0, 4), (60.0, 2), (80.0, 1))
+_YR_PUAN_SAAT = {}
+if MOTOR_YURUYUS and _YR_SAHIP is not None:
+    asama("YÜRÜYÜŞ: ekleyici kapı saat matrisi (yerel Dijkstra, 80 saat)")
+    _t_yp = time.time()
+    _yr_th = {}
+    for _h, _idxs in _kvtohum.items():
+        for _ix in _idxs:
+            _yr_th[_ix] = _h
+    _yr_aday = [j for j, y in enumerate(YERLER)
+                if (y.get("bos") in DOLDURULABILIR_BOS
+                    or (y.get("tur") == "bolge" and y.get("bos") in (None, "", "devletsiz"))
+                    or y.get("kur") or y.get("bit"))]
+    _yr_tav = YURUYUS_PUAN_HALKA[-1][0] * NEHIR_KM_SAAT
+    _yr_disari = 0
+    for _yk, _j in enumerate(_yr_aday, 1):
+        nabiz(f"saat matrisi aday {_yk}/{len(_yr_aday)}")
+        _h = _yr_th.get(_j)
+        if _h is None:
+            _yr_disari += 1
+            continue
+        _W = {}
+        for _c, (_d, _) in _yr_yerel_dijkstra([(0.0, _h, _j)], None, _yr_tav).items():
+            for _ix in _kvtohum.get(_c, ()):
+                if _ix != _j:
+                    _W[_ix] = _d / NEHIR_KM_SAAT
+        _YR_PUAN_SAAT[_j] = _W
+    print(f"  aday {len(_yr_aday)} · saat matrisi kurulan {len(_YR_PUAN_SAAT)} · "
+          f"ızgarada hücresi yok (km kuralına kalır) {_yr_disari} · "
+          f"ortalama erişilen tohum {sum(len(v) for v in _YR_PUAN_SAAT.values()) / max(1, len(_YR_PUAN_SAAT)):.1f} · "
+          f"{time.time() - _t_yp:,.0f} sn")
+
+asama("Yabancı devlet gövdeleri")
+def _osm_aktif(y, a):
+    return (any(dn["f"] <= a < dn["t"] for dn in y["d"]) or
+            any(dn["f"] <= a < dn["t"] for dn in y["v"]))
+DEVLET_KAYIT = []
+DEV_HALKA, DEV_HALKA_IX = [], {}   # → window.DEVLET_PARCALAR (halka havuzu)
+DEV_PARCA, DEV_PARCA_IX = [], {}   # → window.DEVLET_PARCA_HALKA (parça→halka)
+# ⚠️ BU BLOK 3 SAAT 42 DAKİKA BOYUNCA TEK SATIR BASMIYORDU (r-öncesi koşu,
+# 01:56 → 05:38). Log sessiz kalınca "takıldı mı, ilerliyor mu" sorusunun
+# cevabı yoktu ve üç oturum boş yere bekledi. İlerleme satırı bu yüzden var.
+#
+# ---- ETA AĞIRLIĞI (yalnız `ilerleme()` için — ÇIKTIYA GİRMEZ) ----
+# 🔴 NİÇİN: doğrusal tahmin bu döngüde 3 kat yanıldı ve bir yayın saatinin
+# yanlış duyurulmasına ramak kaldı (bkz. ilerleme() başlığı). Ağırlık, o
+# devletin kuracağı HÜCRE-BİRLEŞİMİ sayısıdır — süreyi açıklayan değişkenin
+# bu olduğu 23 kontrol noktasıyla ölçüldü: hücre R²=0,96 · gövde R²=0,51.
+#
+# ⚠️ BU BLOK AŞAĞIDAKİ DÖNGÜNÜN SET MANTIĞINI TEKRARLIYOR ve bu bilinçli bir
+# ödün. Döngüyü ikiye bölüp (önce plan, sonra geometri) tekrarı kaldırmak
+# denendi ve BIRAKILDI: dönem birleştirme ölçütü `aktif == onceki and dnm`,
+# yani set mantığı GEOMETRİ SONUCUNA bağlı (`dnm` yalnız gövde boş çıkmayınca
+# büyüyor). Ayırmak çıktıyı değiştirebilirdi; "hiçbir çıktı değişmemeli"
+# kuralı tekrarı kabul etmekten daha ağır bastı.
+# 📌 ARIZA BİÇİMİ ZARARSIZ: bu blok ana döngüden saparsa TAHMİN bozulur,
+#    ÇIKTI bozulmaz — burada üretilen tek şey bir yüzde.
+# 📌 `devir_kumesi()` KASTEN çağrılmıyor: ağırlığın mutlak doğruluğu değil
+#    ORANI önemli, ve onu çağırmak "aşamanın maliyetini ölçmek için aşamayı
+#    koşturmak" olurdu.
+_DV_KUM = [0]
+for _wdid in BOYALAR:
+    _whj = [j for j, y in enumerate(YERLER) if any(sp["d"] == _wdid for sp in y["s"])]
+    _w = 0
+    if _whj:
+        _wts = set()
+        for _wj in _whj:
+            for _wsp in YERLER[_wj]["s"]:
+                if _wsp["d"] == _wdid:
+                    _wts.add(_wsp["f"]); _wts.add(_wsp["t"])
+            for _wdn in YERLER[_wj]["d"] + YERLER[_wj]["v"]:
+                _wts.add(_wdn["f"]); _wts.add(_wdn["t"])
+        _wts = sorted(t for t in _wts if EPOK <= t <= "1923-11-01")
+        if _wts:
+            if _wts[0] != EPOK: _wts.insert(0, EPOK)
+            _wonce = None
+            for _wk in range(len(_wts) - 1):
+                _wa = _wts[_wk]
+                _wak = frozenset(
+                    j for j in _whj
+                    if any(sp["d"] == _wdid and sp["f"] <= _wa < sp["t"]
+                           for sp in YERLER[j]["s"])
+                    and not _osm_aktif(YERLER[j], _wa))
+                if _wak == _wonce and _w and _wak: continue
+                _wonce = _wak
+                if not _wak: continue
+                _w += len(_wak)
+    _DV_KUM.append(_DV_KUM[-1] + _w)
+print(f"  ETA ağırlığı hazır: {_DV_KUM[-1]:,} hücre-birleşimi bekleniyor")
+
+# ═══════════════════════════════════════════════════════════════════════
+# PARALEL UYGULAMA (10 Eylül 2026) — tasarım: denetim/PARALEL-TASARIM-0910.md §⑥
+# Bit denkliği sınandı: denetim/PARALEL-SINAV-SONUC-0910.md → 🟢 DENK
+# (küçültülmüş girdi; negatif çapa ötüyor, sınavın dişleri var — §②).
+#
+# FAZ 1 (PARALEL, iş parçacığı) : her devlet için geometri → ham dönem
+#     listesi. `havuza()` ÇAĞRILMAZ, `DEVLET_KAYIT`e yazılmaz.
+#     🔴 "YAN ETKİSİZ" İDDİASI TAM DOĞRU DEĞİL — ÇAPRAZ PARALEL ÖLÇTÜ
+#     (`denetim/BULGU-CAPRAZ-PARALEL-0910.md §①`): FAZ 1'in çağrı grafında
+#     `_SAYAC` · `_KB_MUAF` · `_B1_SAYAC` · `_B23_SAYAC` · `_DOLGU_SAYAC`
+#     dolaylı yoldan (`sayac()` · `delikleri_doldur()` · `_b2_enklav_birlestir`
+#     · `_b3_koridor_kirp` · `_dolgu_kumesi`) GÜNCELLENİYOR, iş parçacıkları
+#     arasında PAYLAŞILAN kaplar bunlar. `x += 1` GIL altında bile atomik
+#     DEĞİLDİR (yükle-topla-yaz üç ayrı bayt kodu) ⇒ TEORİDE kayıp güncelleme
+#     mümkündür. Ama ÖLÇÜLDÜ: beşinin de TEK okuma yeri `print` (satır
+#     ~4983-5083), hiçbiri bir KARARA girmiyor ⇒ ÇIKTI (hash) bozulmuyor —
+#     yalnız KOŞU RAPORUNDAKİ bu beş sayı (ve `_kusatilmis`/`petek_epok`
+#     üzerinden gelen süre toplamları — dört iş parçacığı altında bunlar
+#     artık DUVAR SAATİDİR, işlemci süresi değil) güvenilmez olabilir.
+#     Bu bir borç: sayaçların kendi yorumu (`:4420`) onları "bir kuralın
+#     ÇALIŞTIĞININ KANITI" sayıyor — eksik/şişmiş basmak o kanıtı zayıflatır.
+# FAZ 2 (SIRALI, ÖZGÜN devlet sırasıyla) : `ilerleme()` + `_PUAN_KESILEN`/
+#     `_PUAN_TAMAMEN`/`sayac("yabancı gövde geometrisi",...)` + `havuza()` +
+#     `DEVLET_KAYIT.append()`.
+#
+# NEDEN `havuza()` FAZ 1'DE ÇAĞRILAMAZ: DEV_HALKA/DEV_PARCA havuzunda
+# N'inci devletin halka indeksi 1..N-1'e bağlıdır (bkz. `havuza()` tanımı
+# ve `PARALEL-BAGIMLILIK-0910.md §①A`) — havuz sırası kayarsa çıktı
+# GÜRÜLTÜLÜ değişir, sessizce değil.
+# NEDEN SAYAÇLAR DA ERTELENİR: `_PUAN_KESILEN` gibi float toplamlar
+# BİRLEŞMELİ DEĞİLDİR ve iş parçacıkları arasında paylaşılan bir sayaca
+# eşzamanlı `+=` GIL altında bile kayıp güncelleme üretebilir (okuma ve
+# yazma ayrı bayt-kodu — `§⑤`). Bu sayaçların hiçbiri çıktıya gitmiyor
+# (`PARALEL-BAGIMLILIK-0910.md §①D`, ölçüldü), yani kayıp bir hash
+# farkı YARATMAZ; yine de FAZ 2'de ÖZGÜN sırayla eklemek belirlenimi
+# ucuza garanti eder ve tasarımın §⑥④'ü tam olarak bunu istiyor.
+def _yabanci_devlet_faz1(_arg):
+    _i, (did, (dad, renk)) = _arg
+    hj = [j for j, y in enumerate(YERLER) if any(sp["d"] == did for sp in y["s"])]
+    if not hj: return did, dad, renk, [], []
+    ts = set()
+    for j in hj:
+        for sp in YERLER[j]["s"]:
+            if sp["d"] == did: ts.add(sp["f"]); ts.add(sp["t"])
+        for dn in YERLER[j]["d"] + YERLER[j]["v"]:
+            ts.add(dn["f"]); ts.add(dn["t"])
+    ts = sorted(t for t in ts if EPOK <= t <= "1923-11-01")
+    if not ts: return did, dad, renk, [], []
+    if ts[0] != EPOK: ts.insert(0, EPOK)
+    if ts[-1] != "1923-11-01": ts.append("1923-11-01")
+    ham = []; tani = []; onceki = None
+    for i in range(len(ts) - 1):
+        a, b = ts[i], ts[i+1]
+        nabiz(f"devlet {_i}/{len(BOYALAR)} {did} · gün {i+1}/{len(ts)-1} ({a})")
+        # kur:/bit: — henüz kurulmamış (ya da yok olmuş) nokta o tarihte devletin
+        # gövdesine KATILMAZ; peteği de petek_epok() ile komşusuna devredilmiştir.
+        _dv = devir_kumesi(a)
+        aktif = frozenset(j for j in hj
+                          if j not in _dv
+                          and any(sp["d"] == did and sp["f"] <= a < sp["t"]
+                                  for sp in YERLER[j]["s"])
+                          and not _osm_aktif(YERLER[j], a))
+        # ---- EKLEYİCİ KAPI: sahipsiz peteklerden bu devlete düşenler ------
+        # Emre'nin "enklav/koridor boş alan ise etrafındaki bölgeye katılmalı"
+        # hükmü. Petek düzeyinde katılıyor ⇒ geometri makinesi hiç değişmiyor.
+        if DOLGU_ACIK and aktif:
+            _ek = _dolgu_kumesi(a).get(did)
+            if _ek:
+                aktif = aktif | _ek
+        # 🔴 HAM KAYDIN KENDİSİ TUTULUR, KOPYASI DEĞİL (bkz. eski koşu 6
+        # dersi): `aktif == onceki` olunca `ham[-1]["t"] = b` ile bir önceki
+        # kaydın bitişi UZATILIR. FAZ 2, bu ham listeyi ÖZGÜN sırayla
+        # `havuza()`ya verir; birleştirme kararı burada, FAZ 1'de kalır.
+        if aktif == onceki and ham and aktif:
+            ham[-1]["t"] = b; continue
+        onceki = aktif
+        if not aktif: continue
+        _t_gv = time.time()
+        g = unary_union([petek_epok(a)[j] for j in aktif])
+        # B1 ikinci yasagi: bu devletin OLMAYAN yerlesimini iceren halka DOLMAZ
+        g = delikleri_doldur(kapat(g), sahip_ix=aktif)
+        g = gosterim_duzelt(g, aktif)      # B2 enklav + B3 koridor
+        # Sadeleştirme örtü üzerinde ÖNCEDEN yapıldı (coverage_simplify); gövde
+        # başına simplify ve "tolerans/2 dışa taşırma" hilesi kaldırıldı — komşu
+        # devletlerin paylaştığı kenar artık birebir aynı koordinatlardan geçer,
+        # kılcal boşluk da bindirme de üretilmez. Kıyı EN SON kesilir: deniz
+        # sınırı doğrudan KARA maskesinden gelir, girinti-çıkıntıya birebir oturur.
+        g = poligonal(g.intersection(KARA))
+        # ---- PUANLAMA KAPISI: "burası kimsenin mi?" --------------------------
+        # Gövde çizildikten SONRA kesiliyor, çünkü kapı sahipliği değil
+        # BOYANMAYI sınırlıyor: petek kime aitse ona ait kalır, yalnız
+        # 4 puana ulaşmayan kısmı boyanmaz.
+        _kesilen, _tamamen = 0.0, 0
+        if not PUAN_KAPALI and not g.is_empty:
+            _pb = _puan_bolgesi(did, aktif, a)
+            _onceki_alan = _ham_km2(g)
+            g = poligonal(g.intersection(_pb)) if _pb is not None else Polygon()
+            _kesilen = max(0.0, _onceki_alan - _ham_km2(g))
+            if g.is_empty:
+                _tamamen = 1
+        _sure = time.time() - _t_gv
+        if g.is_empty:
+            tani.append((_sure, _kesilen, _tamamen))
+            continue
+        rp = g.representative_point()
+        ham.append({"f": a, "t": b, "mp": mp_koord(g),
+                    "c": [round(rp.x, 2), round(rp.y, 2)]})
+        # ⚠️ Alan HER gövde için hesaplanıyor: uzama sonradan olduğu için "bu
+        # dönem kesiti kapsıyor mu" sorusu yaratılış anında cevaplanamaz.
+        tani.append((_sure, _kesilen, _tamamen))
+    return did, dad, renk, ham, tani
+
+
+_MOTOR_PARALEL_ISCI = int(os.environ.get("MOTOR_PARALEL_ISCI", "4"))
+_SR_SONUC_DIZIN = None
+if _SUREC_YOLU:
+    # ---- SÜREÇ YOLU (M-4533) — FAZ 1 süreçlere bölünür, FAZ 2 AYNEN ------
+    # Her süreç KENDİ payının FAZ 1 sonucunu `s_<sıra>.pkl` olarak diske
+    # yazar (bellekte biriktirmez — B2). Ana süreç FAZ 2'yi ÖZGÜN devlet
+    # sırasıyla, aşağıdaki paralel yolla BİREBİR aynı gövdeyle yürütür ⇒
+    # `havuza()` çağrı dizisi DEĞİŞMEZ.
+    import pickle as _pk, hashlib as _hl
+    from concurrent.futures import ThreadPoolExecutor as _TPE
+
+    def _sr_iz():
+        _h = _hl.sha256()
+        _h.update(json.dumps([YERLER, list(BOYALAR.items())], sort_keys=True, ensure_ascii=False,
+                             default=lambda o: sorted(o) if isinstance(o, (set, frozenset)) else str(o)
+                             ).encode("utf-8"))
+        for _g in PETEK_D:
+            _h.update(b"|" if _g is None else shapely.to_wkb(_g, output_dimension=2))
+        if MOTOR_YURUYUS and _YR_SAHIP is not None:
+            _h.update(_YR_SAHIP.tobytes())
+        _h.update(repr((DOLGU_ACIK, PUAN_KAPALI, MOTOR_YURUYUS, YURUYUS_16,
+                        sorted(_YR_PUAN_SAAT.items()) if _YR_PUAN_SAAT else None,
+                        _MOTOR_IZI)).encode("utf-8"))
+        return _h.hexdigest()
+    _SR_IZ = _sr_iz()
+    _sr_is = list(enumerate(BOYALAR.items(), 1))
+    # LPT: en ağır devlet en hafif kovaya (ağırlık = ETA'nın hücre-birleşimi)
+    _sr_yuk = [0] * _SUREC_ISCI
+    _sr_sahip = {}
+    for _k in sorted(range(len(_sr_is)),
+                     key=lambda k: (-(_DV_KUM[k + 1] - _DV_KUM[k]), k)):
+        _b = min(range(_SUREC_ISCI), key=lambda b: (_sr_yuk[b], b))
+        _sr_sahip[_sr_is[_k][0]] = _b
+        _sr_yuk[_b] += (_DV_KUM[_k + 1] - _DV_KUM[_k]) + 1
+
+    if _DEVAM:
+        _SR_SONUC_DIZIN = os.path.join(
+            os.environ.get("MOTOR_DEVAM_DIZIN")
+            or os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "_petek_devam"),
+            _SR_IZ[:16])
+        os.makedirs(_SR_SONUC_DIZIN, exist_ok=True)
+    else:
+        _SR_SONUC_DIZIN = _SUREC_DIZIN
+
+    def _sr_yol(idx):
+        return os.path.join(_SR_SONUC_DIZIN, f"s_{idx:05d}.pkl")
+    if _DEVAM and _ISCI_NO is None:
+        _sr_hazir = sum(1 for a in _sr_is if os.path.exists(_sr_yol(a[0])))
+        print(f"  ♻️ DEVAM: {_SR_SONUC_DIZIN} · diskte HAZIR devlet {_sr_hazir}/{len(_sr_is)}")
+
+    def _sr_yaz(arg):
+        if _DEVAM and os.path.exists(_sr_yol(arg[0])):
+            return                    # önceki koşudan hazır (iz-anahtarlı dizin)
+        _r = _yabanci_devlet_faz1(arg)
+        _y = _sr_yol(arg[0])
+        with open(_y + ".tmp", "wb") as _f:
+            _pk.dump((_SR_IZ, _r), _f, protocol=4)
+        os.replace(_y + ".tmp", _y)
+
+    def _sr_sayac_al():
+        return {"b23": dict(_B23_SAYAC), "kb": dict(_KB_MUAF), "b3": len(_B3_KALAN_IHLAL),
+                "b1": {k: (set(v) if isinstance(v, set) else v) for k, v in _B1_SAYAC.items()},
+                "vp": set(_VARLIK_PAY), "sy": {k: list(v) for k, v in _SAYAC.items()}}
+    _sr_benim = [a for a in _sr_is if _sr_sahip[a[0]] == int(_ISCI_NO or 0)]
+    print(f"  [SÜREÇ] {len(_sr_benim)}/{len(_sr_is)} devlet bu süreçte · "
+          f"yük payı %{100.0 * _sr_yuk[int(_ISCI_NO or 0)] / max(1, sum(_sr_yuk)):.0f} · "
+          f"iz {_SR_IZ[:12]}")
+    if _ISCI_NO is not None:
+        # ---- İŞÇİ: payını yaz, sayaç farkını bırak, ÇIK --------------------
+        _sr_once = _sr_sayac_al()
+        with _TPE(max_workers=_MOTOR_PARALEL_ISCI) as _ex:
+            for _f in [_ex.submit(_sr_yaz, a) for a in _sr_benim]:
+                _f.result()
+        _sr_son = _sr_sayac_al()
+        _fark = {"b23": {k: v - _sr_once["b23"].get(k, 0) for k, v in _sr_son["b23"].items()},
+                 "kb": {k: v - _sr_once["kb"].get(k, 0) for k, v in _sr_son["kb"].items()
+                        if v - _sr_once["kb"].get(k, 0)},
+                 "b3": list(_B3_KALAN_IHLAL[_sr_once["b3"]:]),
+                 "b1": {k: (v - _sr_once["b1"][k] if not isinstance(v, set) else v - _sr_once["b1"][k])
+                        for k, v in _sr_son["b1"].items()},
+                 "vp": {k: _VARLIK_PAY[k] for k in set(_VARLIK_PAY) - _sr_once["vp"]},
+                 "sy": {k: [v[0] - _sr_once["sy"].get(k, [0, 0.0])[0],
+                            v[1] - _sr_once["sy"].get(k, [0, 0.0])[1]]
+                        for k, v in _sr_son["sy"].items()}}
+        _y = os.path.join(_SUREC_DIZIN, f"sayac_{_ISCI_NO}.pkl")
+        with open(_y + ".tmp", "wb") as _f:
+            _pk.dump(_fark, _f, protocol=4)
+        os.replace(_y + ".tmp", _y)
+        print(f"  [SÜREÇ] işçi {_ISCI_NO} payını bitirdi — çıkıyor")
+        sys.stdout.flush()
+        os._exit(0)
+    # ---- ANA SÜREÇ: kendi payı arka planda, FAZ 2 özgün sırayla ------------
+    _sr_ex = _TPE(max_workers=_MOTOR_PARALEL_ISCI)
+    _sr_fut = {a[0]: _sr_ex.submit(_sr_yaz, a) for a in _sr_benim}
+    _sr_yerel = 0
+    for _sr_idx, (did, (dad, renk)) in _sr_is:
+        _y = _sr_yol(_sr_idx)
+        _s = _sr_sahip[_sr_idx]
+        if _s == 0:
+            try:
+                _sr_fut.pop(_sr_idx).result()
+            except Exception as _e:
+                print(f"  ⚠️ SÜREÇ: devlet {did} ana payında düştü ({type(_e).__name__}) — yeniden")
+        else:
+            while not os.path.exists(_y):
+                if _SUREC_COCUK[_s - 1].poll() is not None:
+                    break
+                nabiz(f"FAZ 2 bekliyor: devlet {_sr_idx}/{len(_sr_is)} {did} (işçi {_s})")
+                time.sleep(1.0)
+        _r = None
+        if os.path.exists(_y):
+            with open(_y, "rb") as _f:
+                _iz, _r = _pk.load(_f)
+            if not _DEVAM:
+                os.remove(_y)
+            if _iz != _SR_IZ:
+                print(f"  ⚠️ SÜREÇ: devlet {did} — işçi {_s} ön aşama izi FARKLI "
+                      f"({_iz[:12]} ≠ {_SR_IZ[:12]}) — sonucu REDDEDİLDİ")
+                _r = None
+        if _r is None:
+            print(f"  ⚠️ SÜREÇ: devlet {did} işçi {_s}'den gelmedi — ana süreç hesaplıyor")
+            _r = _yabanci_devlet_faz1((_sr_idx, (did, (dad, renk))))
+            _sr_yerel += 1
+        did, dad, renk, ham, tani = _r
+        _dv_i = _sr_idx
+        ilerleme(_dv_i, len(BOYALAR), 10, "devlet", _DV_KUM)
+        for _ts_sure, _kesilen, _tamamen in tani:
+            _PUAN_KESILEN[0] += _kesilen
+            _PUAN_TAMAMEN[0] += _tamamen
+            sayac("yabancı gövde geometrisi", _ts_sure)
+        dnm = []
+        for h in ham:
+            dnm.append({"f": h["f"], "t": h["t"],
+                        "g": havuza(h["mp"], DEV_HALKA, DEV_HALKA_IX,
+                                    DEV_PARCA, DEV_PARCA_IX),
+                        "c": h["c"]})
+        if dnm:
+            DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
+    _sr_ex.shutdown()
+    # işçilerin sayaç farkları (yalnız RAPOR — çıktıya girmez)
+    for _k in range(1, _SUREC_ISCI):
+        _c = _SUREC_COCUK[_k - 1]
+        try:
+            _c.wait(timeout=600)
+        except Exception:
+            pass
+        _y = os.path.join(_SUREC_DIZIN, f"sayac_{_k}.pkl")
+        if not os.path.exists(_y):
+            print(f"  ⚠️ SÜREÇ: işçi {_k} sayaç farkı yok (kod {_c.poll()}) — rapor sayaçları EKSİK")
+            continue
+        with open(_y, "rb") as _f:
+            _fk = _pk.load(_f)
+        for k, v in _fk["b23"].items():
+            _B23_SAYAC[k] = _B23_SAYAC.get(k, 0) + v
+        for k, v in _fk["kb"].items():
+            _KB_MUAF[k] = _KB_MUAF.get(k, 0) + v
+        _B3_KALAN_IHLAL.extend(_fk["b3"])
+        for k, v in _fk["b1"].items():
+            if isinstance(v, set):
+                _B1_SAYAC[k] |= v
+            else:
+                _B1_SAYAC[k] += v
+        for k, v in _fk["vp"].items():
+            _VARLIK_PAY.setdefault(k, v)
+        for k, v in _fk["sy"].items():
+            if v[0] or v[1]:
+                sayac(k, v[1], v[0])
+    print(f"  [SÜREÇ] FAZ 2 bitti · işçiden gelmeyip ana süreçte hesaplanan devlet {_sr_yerel} · "
+          f"işçi çıkış kodları {[c.poll() for c in _SUREC_COCUK]}")
+    print("  ⚠️ SÜREÇ: EKLEYİCİ KAPI gün sayaçları (_DOLGU_SAYAC) yalnız ANA sürecin "
+          "hesapladığı günleri sayar — rapor sayısıdır, çıktıya girmez")
+elif os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
+    # ---- ESKİ YOL — bilerek DOKUNULMADI, bit-denkliğin SINAMA TABANI ------
+    # `MOTOR_PARALEL_KAPALI=1` ile açılır. Aşağıdaki gövde, PARALEL
+    # UYGULAMA'dan önceki tek-geçişli döngünün BİREBİR AYNISIDIR — ayrı bir
+    # betik kopyası tutmadan, aynı dosya içinde "sıralı" tanığı olarak durur.
+    for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
+        ilerleme(_dv_i, len(BOYALAR), 10, "devlet", _DV_KUM)
+        hj = [j for j, y in enumerate(YERLER) if any(sp["d"] == did for sp in y["s"])]
+        if not hj: continue
+        ts = set()
+        for j in hj:
+            for sp in YERLER[j]["s"]:
+                if sp["d"] == did: ts.add(sp["f"]); ts.add(sp["t"])
+            for dn in YERLER[j]["d"] + YERLER[j]["v"]:
+                ts.add(dn["f"]); ts.add(dn["t"])
+        ts = sorted(t for t in ts if EPOK <= t <= "1923-11-01")
+        if not ts: continue
+        if ts[0] != EPOK: ts.insert(0, EPOK)
+        if ts[-1] != "1923-11-01": ts.append("1923-11-01")
+        dnm = []; onceki = None
+        for i in range(len(ts) - 1):
+            a, b = ts[i], ts[i+1]
+            nabiz(f"devlet {_dv_i}/{len(BOYALAR)} {did} · gün {i+1}/{len(ts)-1} ({a})")
+            _dv = devir_kumesi(a)
+            aktif = frozenset(j for j in hj
+                              if j not in _dv
+                              and any(sp["d"] == did and sp["f"] <= a < sp["t"]
+                                      for sp in YERLER[j]["s"])
+                              and not _osm_aktif(YERLER[j], a))
+            if DOLGU_ACIK and aktif:
+                _ek = _dolgu_kumesi(a).get(did)
+                if _ek:
+                    aktif = aktif | _ek
+            if aktif == onceki and dnm and aktif:
+                dnm[-1]["t"] = b; continue
+            onceki = aktif
+            if not aktif: continue
+            _t_gv = time.time()
+            g = unary_union([petek_epok(a)[j] for j in aktif])
+            g = delikleri_doldur(kapat(g), sahip_ix=aktif)
+            g = gosterim_duzelt(g, aktif)
+            g = poligonal(g.intersection(KARA))
+            if not PUAN_KAPALI and not g.is_empty:
+                _pb = _puan_bolgesi(did, aktif, a)
+                _onceki_alan = _ham_km2(g)
+                g = poligonal(g.intersection(_pb)) if _pb is not None else Polygon()
+                _PUAN_KESILEN[0] += max(0.0, _onceki_alan - _ham_km2(g))
+                if g.is_empty:
+                    _PUAN_TAMAMEN[0] += 1
+            if g.is_empty:
+                sayac("yabancı gövde geometrisi", time.time() - _t_gv)
+                continue
+            rp = g.representative_point()
+            _kayit = {"f": a, "t": b,
+                      "g": havuza(mp_koord(g), DEV_HALKA, DEV_HALKA_IX,
+                                  DEV_PARCA, DEV_PARCA_IX),
+                      "c": [round(rp.x, 2), round(rp.y, 2)]}
+            dnm.append(_kayit)
+            sayac("yabancı gövde geometrisi", time.time() - _t_gv)
+        if dnm: DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
+else:
+    # ---- YENİ YOL — PARALEL (FAZ 1 iş parçacığı / FAZ 2 sıralı) -----------
+    # SÜREÇ DEĞİL İŞ PARÇACIĞI: Windows'ta yalnız `spawn` var, işçiyi
+    # `__main__`i yeniden import ederek kurar (bu 5300+ satırlık betik
+    # baştan koşardı). İş parçacığı aynı belleği paylaşır, 7 saf önbelleği
+    # de PAYLAŞIR, ve Shapely 2.1 GIL'i geometri hesaplarken bırakıyor
+    # (ölçüldü — `PARALEL-TASARIM-0910.md §⑤`).
+    # 🟡 BÖLME DEVLET BAŞINA — DÖNEM BAŞINA DEĞİL. `PARALEL-TASARIM-0910.md
+    # §④` dönem başına bölmenin 3730 iş verdiğini (en ağır iş yalnız %0,19)
+    # ve N=16'da 16,00× ölçeklendiğini ölçmüştü; devlet başına tavan (LPT)
+    # yalnız 4,51×. 4 FİZİKSEL ÇEKİRDEKTE fark YOK (4 < 4,51 ⇒ bu koşu
+    # ETKİLENMİYOR), ama 16 çekirdekte devlet 2,77×=7,3 saat / dönem
+    # 4,34×=4,6 saat — YENİ MAKİNEDE ~2,7 SAAT MASADA KALIYOR. Bu turda
+    # BİLEREK değiştirilmedi (koşu 9'u bekletir, ve dönem başına bölme
+    # motorun ":4443" birleştirme mantığına dokunan AYRI bir iş —
+    # `PARALEL-TASARIM-0910.md §④`nin kendi uyarısı). Yeni makine gelince
+    # "zaten paralel" deyip bu satırı atlama: kazanılabilecek 2,7 saat hâlâ
+    # masada.
+    from concurrent.futures import ThreadPoolExecutor as _TPE
+    print(f"  [PARALEL] FAZ 1 — {_MOTOR_PARALEL_ISCI} iş parçacığı, "
+          f"{len(BOYALAR)} devlet")
+    # 🔴🔴 `list(_ex.map(...))` İLE ÖNCE TAMAMINI BİRİKTİRMEK YOK — ÇAPRAZ
+    # PARALEL ÖLÇTÜ (`denetim/BULGU-CAPRAZ-PARALEL-0910.md B2 · B3`) ve İKİ
+    # AYRI ZARAR BULDU, İKİSİ DE ÇIKTIYI BOZMUYOR AMA KOŞUYU TEHDİT EDİYORDU:
+    #   B2 BELLEK: `list(...)` bütün devletlerin havuzlanmamış `mp_koord()`
+    #     çıktısını AYNI ANDA bellekte tutar. En ağır beş devlet (rusya
+    #     %22,2 dahil) FAZ 1'in ilk %16'sında doğuyor ve `list()` onları
+    #     KALAN %86 boyunca serbest bırakmazdı — bu makinede boş RAM 1,1 GB,
+    #     tahminî tepe ~0,4-1 GB ek. Küçük kutu (301 nokta) bunu YAPISAL
+    #     OLARAK gösteremiyordu; rusya kutuda hiç yoktu.
+    #   B3 NÖBETÇİ KÖRLÜĞÜ: `ilerleme()` FAZ 2'de olduğu için pahalı FAZ 1
+    #     boyunca son log satırı DONUYORDU — "sürüyor" ile "takıldı" ayırt
+    #     edilemezdi (bu depoda tam bu körlük 3 Eylül'de SEKİZ SAAT sürdü).
+    # 🔴🔴 İLK ÇARE (yalnız `.map()` üretecini dolaşmak) YETERSİZ ÇIKTI —
+    #   ÇAPRAZ PARALEL ikinci turda kendi önerisini ÖLÇEREK ÇÜRÜTTÜ
+    #   (`denetim/BULGU-CAPRAZ-PARALEL-URETEC-0910.md §②`): `Executor.map`
+    #   CPython'da bütün işleri BAŞTAN `submit` eder, tüketici GERİ BASINÇ
+    #   UYGULAMAZ. Ölçüldü (200 iş, 4 işçi, vekil yük — herhangi bir anda
+    #   HAYATTA OLAN sonuç sayısı = tepe bellek yükü):
+    #       list(map)                 tepe canlı sonuç 200/200  (eski hâl)
+    #       üreteç · HIZLI tüketici   tepe canlı sonuç   4/200  (kapanır)
+    #       üreteç · YAVAŞ tüketici   tepe canlı sonuç 179/200  (KAPANMAZ)
+    #   ⇒ üreteç biçimi belleği YALNIZ "FAZ 2 iş başına FAZ 1'den ucuz
+    #   olduğu sürece" kapatıyordu, ve bu YAZILI OLMAYAN bir ön koşuldu.
+    #   Biri FAZ 2'ye iş taşırsa (bir doğrulama, bir alan hesabı, bir
+    #   sadeleştirme) B2 SESSİZCE GERİ GELİR — hash aynı kalır, çıktı doğru
+    #   kalır, yalnız bellek şişer ve HİÇBİR DENETİM ÖTMEZ. Bu yüzden
+    #   aşağıdaki SINIRLI PENCERE koşulsuzdur — FAZ 2'nin maliyetinden
+    #   bağımsız çalışır ve bu ön koşula bağlı kalmaz.
+    # ÇARE — SINIRLI PENCERE (`deque` + submit/popleft): en çok
+    #   `FAZ1_PENCERE` future AÇIK tutulur, en eskisi tüketilmeden yenisi
+    #   gönderilmez. Bu, FAZ 2'nin maliyetinden BAĞIMSIZ olarak tepe belleği
+    #   O(pencere) ile sınırlar — koşulsuz.
+    #   `popleft()` GÖNDERİM sırasıyla tüketir ⇒ `havuza()` çağrı dizisi
+    #   DEĞİŞMEZ ⇒ sha256 AYNI KALIR — bu satır bir iddia değil, bu
+    #   değişiklikten SONRA bit denkliği sınavı YENİDEN KOŞTURULDU
+    #   (`D029`: reçete kendi testini geçmek zorunda).
+    from collections import deque
+    # 🔴 PENCERE `İŞÇİ SAYISININ 2 KATI` DEĞİL — bölme şu an DEVLET başına
+    # (579 iş, dönem başına DEĞİL) ve `rusya` TEK BİR İŞ olarak aşamanın
+    # %22,2'si (`PARALEL-TASARIM-0910.md §④`). Pencere `2×işçi` olsaydı
+    # `rusya` pencerenin başına geldiğinde `popleft()` onu bekler, pencere
+    # dolar, yeni iş submit edilemez ⇒ işçilerin çoğu `rusya` boyunca BOŞTA
+    # kalır (aşamanın %22,2'si boyunca paralellik ~1'e düşer) — ÇAPRAZ
+    # PARALEL'in M-3296'da işaret ettiği, ikimizin de ilk turda kaçırdığı
+    # takas. ⇒ Pencere BİR BELLEK-HIZ TAKASIDIR: küçültmek işçileri boşta
+    # bırakır, büyütmek B2'yi geri getirir. `rusya` tek başına aşamanın
+    # %22,2'si olduğu sürece pencere ondan (kabaca 579'un ~%14'ünden) daha
+    # DERİN olmalı — bu yüzden sabit bir küçük çarpan değil, taban değerli:
+    FAZ1_PENCERE = max(8 * _MOTOR_PARALEL_ISCI, 64)
+    with _TPE(max_workers=_MOTOR_PARALEL_ISCI) as _ex:
+        _uy_is = enumerate(BOYALAR.items(), 1)
+        _uy_kuyruk = deque()
+        for _ in range(FAZ1_PENCERE):
+            _uy_n = next(_uy_is, None)
+            if _uy_n is None: break
+            _uy_kuyruk.append(_ex.submit(_yabanci_devlet_faz1, _uy_n))
+        _dv_i = 0
+        while _uy_kuyruk:
+            did, dad, renk, ham, tani = _uy_kuyruk.popleft().result()
+            _uy_n = next(_uy_is, None)
+            if _uy_n is not None:
+                _uy_kuyruk.append(_ex.submit(_yabanci_devlet_faz1, _uy_n))
+            _dv_i += 1
+            ilerleme(_dv_i, len(BOYALAR), 10, "devlet", _DV_KUM)
+            # 🔴 DÖNGÜ DEĞİŞKENİ `_sure` OLAMAZ — modül düzeyindeki
+            # `def _sure(s)` biçimlendiricisini GÖLGELER (Python'da for
+            # gövdesi ayrı bir kapsam açmaz). İlk sürüm tam bunu yaptı ve
+            # `ilerleme()` bir sonraki devlet için `_sure(gec)` çağırırken
+            # "float callable değil" ile çöktü — sınav bunu YAKALADI
+            # (bkz. denetim/ARAC-PARALEL-UYGULAMA-SINAV-0910.py).
+            for _ts_sure, _kesilen, _tamamen in tani:
+                _PUAN_KESILEN[0] += _kesilen
+                _PUAN_TAMAMEN[0] += _tamamen
+                sayac("yabancı gövde geometrisi", _ts_sure)
+            dnm = []
+            for h in ham:
+                dnm.append({"f": h["f"], "t": h["t"],
+                            "g": havuza(h["mp"], DEV_HALKA, DEV_HALKA_IX,
+                                        DEV_PARCA, DEV_PARCA_IX),
+                            "c": h["c"]})
+            if dnm:
+                DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
+# 🔴 `devletler_harita.js` YAZIMI ERTELENDİ — B (seyreltme) yüzünden.
+# Seyreltmenin dondurma kümesi OSMANLI sınırını da içermeli, ama Osmanlı
+# gövdeleri aşağıdaki "Dönemler" döngüsünde kuruluyor. Dosya burada
+# yazılsaydı seyreltilmemiş hâli yayınlanır, ya da Osmanlı sınırı
+# korunmadan seyreltilirdi. Yazım, iki havuz da hazırken yapılıyor.
+print(f"  {len(DEVLET_KAYIT)} devlet, "
+      f"{sum(len(d['dnm']) for d in DEVLET_KAYIT)} dönem — "
+      f"yazım seyreltmeden sonraya ertelendi")
+# ---- PUANLAMA KAPISININ BİLANÇOSU — sessiz kapı, kapatılmış kapıdır --------
+# 📌 `§11`: ölçülmeyen bir aşama "çalıştı" sayılamaz. Kapı bir şey kesmediyse
+#    de BASAR — sıfır da bir sonuçtur ve öngörünün ① kalemi tam onu soruyor.
+if PUAN_KAPALI:
+    print("  🚪 PUANLAMA KAPISI KAPALI (MOTOR_PUAN_KAPALI=1) — kesim YOK")
+else:
+    # 🔴 BİRİM: km²·DÖNEM — AYRIK ALAN DEĞİLDİR. Sayaç her devlet × her DÖNEM
+    #    birikiyor (`_PUAN_KESILEN[0] += …` döngünün İÇİNDE), yani aynı toprak
+    #    her dönemde yeniden sayılır. Ayrık alan istiyorsan bunu dönem sayısına
+    #    BÖLMEN gerekir — ve bölmek bile yaklaşıktır, çünkü dönemler eş uzunlukta
+    #    değil.
+    # ⚠️ BU ETİKET ON YEDİ GÜN ARAYLA İKİ KİŞİYİ YANILTTI: öngörüyü yazan oturum
+    #    bandı km² sanıp "2-15 M km²" yazdı; bir koordinatör 743.793.802'yi km²
+    #    sanıp "50 KAT SAPMA, yayın durabilir" diye alarm verdi. İkisi de doğru
+    #    sayıya bakıyordu, YANLIŞ BİRİMDE.
+    print(f"  🚪 PUANLAMA KAPISI: kesilen {_PUAN_KESILEN[0]:,.0f} km²·dönem "
+          f"(AYRIK ALAN DEĞİLDİR — her devlet × her dönem birikir) · "
+          f"tamamen boşalan gövde-dönemi {_PUAN_TAMAMEN[0]}")
+    print(f"     ölçüt: AYNI devletin merkezleri · 0-200=4p · 200-300=2p · "
+          f"300-400=1p · eşik {PUAN_ESIK}")
+    # ⚠️ AŞAĞIDAKİ BANT YANLIŞ BİRİMDE YAZILMIŞ — kıyas ölçütü DEĞİLDİR.
+    #    "2-15 M km²" ayrık alan varsayıyor, oysa yukarıdaki sayı km²·dönem.
+    #    Ve "boşalan 50-400" YAPISAL OLARAK İMKÂNSIZ: PUAN_ESIK=4 iken bir
+    #    devletin KENDİ noktasının 0-200 km halkası tek başına 4 puan verir,
+    #    yani EN AZ BİR NOKTASI OLAN GÖVDE ASLA TAMAMEN BOŞALAMAZ — sayaç
+    #    0'dan başka değer ALAMAZ (ölçüldü, OPUS HAZIR KİTA 109).
+    #    Bant DÜZELTİLMEDİ, DAMGALANDI: onu yazan oturumun kaydı silinmemeli.
+    print(f"     ÖNGÖRÜ (🔴 YANLIŞ BİRİMDE — kıyaslama yapma): kesilen 2-15 M km² · "
+          f"boşalan 50-400 (denetim/PUANLAMA-ONGORU.md)")
+
+# ════ 🆕 HİMAYE GÖVDELERİ (`d.h`) — MOTOR-HIMAYE, 14 Eylül 2026 ════════════
+# Emre'nin kararları: 2 Eylül (himaye: iç dolgu devletin KENDİ rengi, çevresi
+# Osmanlı kırmızısı şerit) · 13 Eylül 0043/H-0003 seçenek D (Kırım bozkırı:
+# `statu:"gevsek"` ⇒ iç dolgu vassal kırmızısından BİR TON AÇIK kırmızı).
+# ŞEMA SÖZLEŞMESİ `js/app.js:183-193`:
+#     d.h : [ { g: <d.v ile AYNI parça-kodlu geometri>, renk: "#rrggbb"|null } … ]
+# 🔴 `d.v` DEĞİŞMEZ: himaye toprağı tâbi kümesinin ALT kümesi; `d.h` onun
+#    ÜSTÜNE ayrıca biner. `d.h` boşsa ANAHTAR YAZILMAZ (app.js `|| []`).
+# 🔴 AÇIK TON — `js/app.js` lejantındaki örnekle AYNI değer olmalı. Ölçüm
+#    (renk_olc.py `dE` CIE76 / `dE94`, eşik 12): dıştan içe
+#    #b2384a | #8e0b22 | #d4707d | #e8a2aa → komşu çiftler 14,9/13,3 ·
+#    34,3/30,1 · 20,2/15,3 · altlık #e8dfc8'e 32,4 (denetim/MOTOR-HIMAYE-0914.md).
+HIMAYE_GEVSEK_RENK = "#e8a2aa"
+_HIMAYE_SAYAC = {"donem": 0, "govde": 0, "adsiz": 0, "renksiz": 0, "bos": 0}
+# Veride hiç `himaye:true` yoksa grup taraması HİÇ KOŞMAZ — maliyet sıfır ve
+# anahtarın üçüncü öğesi her tarihte `frozenset()` kalır (d.h yokken çıktı
+# öncekiyle BİREBİR: delta kararları değişemez).
+_HIMAYE_VAR = any(p.get("himaye") is True
+                  for _y in YERLER for p in (_y.get("v") or []))
+
+
+def himaye_gruplari(a, tabi, yerler, boyalar, harita_alt, gevsek_renk, sayac=None):
+    """`a` gününde `tabi` kümesinden `himaye:true` dönemi AÇIK olan yerleşimleri
+    gruplar. → {(grup_kimliği, renk): (j, …)}  (j sıralı demet)
+
+    grup  = dönemin `kid`i, yoksa `k`si, ikisi de yoksa "__adsiz__" (SAYILIR,
+            yutulmaz — şerit yine çizilir, renk null ⇒ app.js #b2384a'ya düşer)
+    renk  = `statu:"gevsek"` → gevsek_renk
+            aksi hâlde BOYALAR[kid] (yoksa künyenin `harita:` anahtarı —
+            `s:` boya düşüşüyle AYNI kural, :711 YOL A') → yoksa None
+    ⚠️ `tabi` EKLEYİCİ KAPI ile genişlemiş olabilir; `v:` dönemi olmayan
+       indeks grup üretmez (tasarruf boyanır, sefer değil — `vl` ile aynı)."""
+    grup = {}
+    for j in tabi:
+        dn = next((p for p in (yerler[j].get("v") or [])
+                   if p.get("f") and p.get("t") and p["f"] <= a < p["t"]), None)
+        if dn is None or dn.get("himaye") is not True:
+            continue
+        kid = dn.get("kid")
+        gid = kid or dn.get("k")
+        if not gid:
+            gid = "__adsiz__"
+            if sayac is not None:
+                sayac["adsiz"] += 1
+        if dn.get("statu") == "gevsek":
+            renk = gevsek_renk
+        else:
+            renk = None
+            if kid:
+                b = boyalar.get(kid)
+                if b is None and harita_alt.get(kid) in boyalar:
+                    b = boyalar[harita_alt[kid]]
+                if b is not None:
+                    renk = b[1] if isinstance(b, (tuple, list)) else b
+            if renk is None and sayac is not None:
+                sayac["renksiz"] += 1
+        grup.setdefault((gid, renk), []).append(j)
+    return {k: tuple(sorted(v)) for k, v in grup.items()}
+
+
+def himaye_imza(gruplar):
+    """Delta anahtarının üçüncü öğesi. Grup yapısı ya da rengi değişince
+    YENİ DÖNEM açılır; yoksa himaye değişimi eski geometride sessizce kalırdı."""
+    return frozenset(gruplar.items())
+
+
+def himaye_govdeleri(gruplar, pe, tabi, gt, kodla, sayac=None):
+    """Her grup için tâbi gövdenin (`gt`) o gruba düşen parçası.
+
+    hg = ( delikleri_kapali(∪ grup petekleri) ∩ gt ) − ∪ (gruptaki OLMAYAN tâbi petekler)
+    · ∩ gt   ⇒ `d.v`nin DIŞINA taşamaz (doğrudan enklav `gt`de zaten yok)
+    · delik kapatma + fark ⇒ `gt`nin kapat/delik doldurma ile doldurduğu
+      boşluklar himayeye katılır, ama İÇERİDEKİ himayesiz tâbi peteği geri
+      kesilir (Kırım yarımadası gibi bir tâbi, bozkır gövdesine yutulmaz)
+    · önceki grupların gövdesi de çıkarılır ⇒ iki himaye gövdesi ÜST ÜSTE BİNMEZ
+    ⚠️ B2 köprüsü (`_kt`) grup peteğine değmiyorsa gövdeye katılmaz — o kısa
+       kenarda şerit köprünün iç tarafından geçer (bilinen, küçük).
+    → [ {"g": kodla(hg), "renk": renk} … ]  (boş gövde yazılmaz, SAYILIR)"""
+    out = []
+    if not gruplar or gt is None or gt.is_empty:
+        return out
+    alinan = []
+    for gk in sorted(gruplar, key=lambda x: (x[0], x[1] or "")):
+        uyeler = gruplar[gk]
+        uset = set(uyeler)
+        parca = [pe[j] for j in uyeler if pe[j] is not None and not pe[j].is_empty]
+        if not parca:
+            if sayac is not None:
+                sayac["bos"] += 1
+            continue
+        u = unary_union(parca)
+        polys = list(u.geoms) if u.geom_type == "MultiPolygon" else (
+            [u] if u.geom_type == "Polygon" else
+            [p for p in getattr(u, "geoms", []) if p.geom_type == "Polygon"])
+        dolu = unary_union([Polygon(p.exterior) for p in polys])
+        hg = poligonal(dolu.intersection(gt))
+        zarf = dolu.envelope
+        diger = [pe[j] for j in tabi
+                 if j not in uset and pe[j] is not None and not pe[j].is_empty
+                 and pe[j].intersects(zarf)]
+        if diger:
+            hg = poligonal(hg.difference(unary_union(diger)))
+        if alinan:
+            hg = poligonal(hg.difference(unary_union(alinan)))
+        kod = kodla(hg) if not hg.is_empty else []
+        if not kod:
+            if sayac is not None:
+                sayac["bos"] += 1
+            continue
+        alinan.append(hg)
+        out.append({"g": kod, "renk": gk[1]})
+        if sayac is not None:
+            sayac["govde"] += 1
+    return out
+
+
+asama("Dönemler kuruluyor (delta yapısı)")
+# İki katman:
+#   DOĞRUDAN (o)  : merkezden yönetilen toprak — koyu kırmızı
+#   TÂBİ     (v)  : hâkimiyetin dolaylı olduğu toprak (muhtar valilik, tâbi
+#                   beylik, fiilî işgal) — bir ton açık. Bir yerleşim aynı anda
+#                   iki listede de görünüyorsa TÂBİ kazanır; çünkü "v" doğrudan
+#                   idarenin askıya alındığı aralığı bildirir (ör. Suriye
+#                   1832-1841 Kavalalı İbrâhim Paşa'nın elinde).
+donemler = []
+OSM_HALKA, OSM_HALKA_IX = [], {}   # → window.PARCALAR (halka havuzu)
+OSM_PARCA, OSM_PARCA_IX = [], {}   # → window.PARCA_HALKA (parça→halka)
+SRB_HAVUZ, SRB_IX = [], {}   # serbest kenar hatları (sahipli ↔ sahipsiz sınırı)
+SRB_U = []                   # havuza PARALEL: her hattın belirsizliği (km)
+onceki_aktif = None      # işaret/marker için: doğrudan + tâbi hepsi
+onceki_anahtar = None    # geometri için: (doğrudan, tâbi) ikilisi
+# ETA ağırlığı — yukarıdaki gerekçenin aynısı, ama burada tekrar YOK: bu
+# döngüde iş, o tarihte aktif olan petek sayısıdır ve iki satırla çıkar.
+# Osmanlı toprağı 1281'den 1683'e büyüdüğü için iş SONA yığılı; doğrusal
+# tahmin burada tersine, olduğundan KISA gösteriyordu.
+_DN_KUM = [0]
+for _i in range(len(tarihler) - 1):
+    _a = tarihler[_i]
+    _wt = set(j for j, y in enumerate(YERLER)
+              if any(dn["f"] <= _a < dn["t"] for dn in y["v"]))
+    _wd = set(j for j, y in enumerate(YERLER)
+              if any(dn["f"] <= _a < dn["t"] for dn in y["d"])) - _wt
+    _DN_KUM.append(_DN_KUM[-1] + len(_wd) + len(_wt))
+
+for i in range(len(tarihler) - 1):
+    ilerleme(i + 1, len(tarihler) - 1, 50, "kırılma", _DN_KUM)
+    a, b = tarihler[i], tarihler[i+1]
+    nabiz(f"kırılma {i+1}/{len(tarihler)-1} ({a})")
+    # kur:/bit: — kurulmamış nokta Osmanlı gövdesine de katılmaz. Örnek:
+    # St. Petersburg'un s: alanı 1281'den rusya diyor ve kur:1703; Kesela'nın
+    # d: penceresi kur: gününde başlıyor. Devredilen petekler petek_epok()
+    # içinde komşularına geçtiği için toprak kaybolmaz, yalnız yer değiştirir.
+    _dv = devir_kumesi(a)
+    _pe = petek_epok(a)
+    tabi = frozenset(j for j, y in enumerate(YERLER)
+                     if j not in _dv
+                     and any(dn["f"] <= a < dn["t"] for dn in y["v"]))
+    dogrudan = frozenset(j for j, y in enumerate(YERLER)
+                         if j not in _dv
+                         and any(dn["f"] <= a < dn["t"] for dn in y["d"])) - tabi
+    # ---- EKLEYİCİ KAPI: sahipsiz peteklerden Osmanlı'ya düşenler ----------
+    # 🔴 27 AĞUSTOS 2026 — BU YORUM YENİDEN YAZILDI. Eski hâli şuydu:
+    #   *"DOĞRUDAN'a katılıyor, TÂBİ'ye değil: doldurulan yer boş arazidir,
+    #   orada bir tâbi beylik YOKTUR. Tâbilik bir SİYASÎ İLİŞKİDİR ve onu
+    #   kimsenin olmadığı toprağa yazmak, olmayan bir ilişkiyi iddia etmek
+    #   olur."*
+    # İLKE DOĞRUYDU, UYGULAMASI ASİMETRİKTİ ve kendi sonucunu çürütüyordu:
+    #     "tâbi" yazmak     → olmayan bir SİYASÎ İLİŞKİ iddia eder
+    #     "doğrudan" yazmak → olmayan bir DOĞRUDAN İDARE iddia eder
+    # İkincisi DAHA GÜÇLÜ bir iddiadır — Sahra'nın ortasında Osmanlı
+    # sancak/eyalet idaresi olduğunu söyler. Yorumun kendi ilkesi
+    # ("olmayanı iddia etme") tutarlı uygulanınca eski kararı düşürüyor.
+    # 🟢 Ve ölçüm bunu destekliyor: ayrım yapılınca Libya 1835 SONRASI
+    #    kendiliğinden doğrudan kalıyor, Sudan tâbi oluyor — yani kademe,
+    #    puanı veren noktaların GERÇEK SİYASÎ KONUMUNU izliyor.
+    # ⚠️ ÜÇÜNCÜ BİR ŞIK VARDI ve Emre'ye sunuldu: dolgunun KENDİ kademesi
+    #    olması (`dolgu`, ayrı ton) — "burası puanlamayla dolduruldu, idare
+    #    iddiası yok" demenin en dürüst yolu. Emre bu koşu için TÂBİ'yi
+    #    seçti; `dolgu` kademesi KAYITLI BİR SEÇENEK olarak duruyor.
+    # 🔴 SIRA ŞART: `tabi` ÖNCE genişletilir, `dogrudan` SONRA hesaplanır.
+    #    Tersi olursa aynı petek iki kovaya birden girer ve `g.difference(gt)`
+    #    onu doğrudan gövdeden keser — SESSİZ ALAN KAYBI.
+    if DOLGU_ACIK:
+        _ekt = _dolgu_kumesi(a).get("TABI")
+        if _ekt:
+            tabi = tabi | _ekt
+    if DOLGU_ACIK and dogrudan:
+        _ek = _dolgu_kumesi(a).get("OSMANLI")
+        if _ek:
+            dogrudan = dogrudan | (_ek - tabi)
+    aktif = dogrudan | tabi
+    if not aktif:
+        continue
+    # 🆕 HİMAYE (MOTOR-HIMAYE 0914): anahtarın ÜÇÜNCÜ öğesi. Himaye yoksa her
+    # tarihte `frozenset()` ⇒ uzatma/yeni dönem kararları eskisiyle BİREBİR.
+    _him_grup = (himaye_gruplari(a, tabi, YERLER, BOYALAR, _HARITA_ALT,
+                                 HIMAYE_GEVSEK_RENK) if _HIMAYE_VAR else {})
+    anahtar = (dogrudan, tabi, himaye_imza(_him_grup))
+    if anahtar == onceki_anahtar and donemler:  # hiçbir şey değişmediyse dönemi uzat
+        donemler[-1]["t"] = b
+        continue
+
+    giren = [YERLER[j]["ad"] for j, y in enumerate(YERLER)
+             if any(dn["f"] == a for dn in y["d"] + y["v"])]
+    cikan = [YERLER[j]["ad"] for j, y in enumerate(YERLER)
+             if any(dn["t"] == a for dn in y["d"] + y["v"])]
+    if giren:   ad = "Katılım: " + ", ".join(giren[:3]) + ("…" if len(giren) > 3 else "")
+    elif cikan: ad = "Kayıp: " + ", ".join(cikan[:3]) + ("…" if len(cikan) > 3 else "")
+    else:       ad = donemler[-1]["ad"] if donemler else "—"
+
+    _t_ov = time.time()
+    # 🔴 29 AĞUSTOS 2026 — B2 ARTIK BİRLEŞİK GÖVDEDE KOŞUYOR. Emre'nin ①·②.
+    # kuralı: *"Koyu kırmızı ve açık kırmızı AYNI DEVLETİN bölgeleri olduğu
+    # için bunların birbirine birleşiyor olması bir bölgeyi enklav ilan
+    # etmekten KURTARIR. İki ayrı açık kırmızı bölge birbiriyle enklav
+    # SAYILMAZ eğer arada koyu kırmızı bölge varsa."*
+    #
+    # ESKİ HÂLİ: `gosterim_duzelt` iki katmana AYRI AYRI uygulanıyordu.
+    # Tâbi katmanı `unary_union([...tabi])` ile TEK gövde sayılıyor ve B2
+    # onun parçalarını — Eflak · Boğdan · Kırım · Dubrovnik · Erdel —
+    # "kopmuş parçalar" sanıp köprüyle bağlıyordu. Aralarındaki toprak
+    # OSMANLI olduğu için `_KARA_HAZIR.covers` testini de geçiyorlardı.
+    # Sonra o köprü aşağıdaki `difference` ile DOĞRUDAN gövdeden kesiliyordu.
+    # ⇒ Emre'nin gördüğü: *"uzaktaki pembe noktaları birleştirmek için
+    #   KIRMIZI BÖLGEYİ BİLE EZİYOR."* Altı ekran görüntüsü, altısı da bu.
+    #
+    # ⚠️ Kusur B2'nin kendisinde değil EVRENİNDEYDİ: alet doğru çalışıyor,
+    #   YANLIŞ EVRENDE çalışıyordu. Bu projede ölçülmüş bir sınıf.
+    _gt_ham = None
+    if tabi:
+        _gt_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in tabi])),
+                                             sahip_ix=aktif).intersection(KARA))
+    _g_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in dogrudan])),
+                                        sahip_ix=aktif).intersection(KARA))
+
+    # Osmanlı dünyası TEK gövde olarak düzeltilir; Eflak artık "enklav" değil,
+    # çünkü doğrudan toprağa DEĞİYOR.
+    _birlesik = unary_union([x for x in (_g_ham, _gt_ham) if x is not None and not x.is_empty])
+    _duzelt = gosterim_duzelt(_birlesik, aktif) if not _birlesik.is_empty else _birlesik
+    # 🔴 0038/H-0004 — BU SATIR 29 AĞUSTOS'TA DEĞİŞTİ, EMRE İTİRAZ ETTİ VE HAKLI.
+    #
+    # ESKİ HÂLİ: köprüler koşulsuz DOĞRUDAN gövdeye yazılıyordu. Gerekçe
+    # savunulabilirdi — *"bir koridor Osmanlı'nın idare ettiği topraktır,
+    # bir vasalın değil"* — ama SONUCU YANLIŞTI: tâbi bir girintiyi dolduran
+    # köprü KOYU kırmızı çıkıyor ve göze yama gibi görünüyordu.
+    #   Emre: *"Dolgular DOLDURDUKLARI GİRİNTİ İLE AYNI RENKTE olmalı…
+    #          doldurdukları renk ile SENKRONİZE hareket ederler."*
+    #
+    # YENİ ÖLÇÜT: her köprü parçası, EN ÇOK HANGİ GÖVDEYE YASLANIYORSA
+    # onun katmanına yazılır. Yaslanma, parçanın `B2_TEMAS` kadar
+    # tamponunun her iki ham gövdeyle KESİŞİM ALANIYLA ölçülür — köprü
+    # `difference` ile üretildiği için ikisine de değmez, tampon şart.
+    # ⚠️ Beraberlikte DOĞRUDAN kazanır: eski davranış, sessizce
+    #    değişmemesi gereken taraf.
+    # 📌 `İKİ RENK ÜST ÜSTE BİNMEZ` kuralı bozulmuyor: aşağıdaki
+    #    `g = g.difference(gt)` her hâlde koşuyor.
+    try:
+        _kopru = poligonal(_duzelt.difference(_birlesik))
+    except Exception:
+        _kopru = None
+    gt = _gt_ham
+    g = _g_ham
+    if _kopru is not None and not _kopru.is_empty:
+        _par = list(_kopru.geoms) if _kopru.geom_type == "MultiPolygon" else [_kopru]
+        _kg, _kt = [], []
+        for _q in _par:
+            try:
+                _cev = _q.buffer(B2_TEMAS)
+            except Exception:
+                _kg.append(_q); continue
+            _ad = _cev.intersection(_g_ham).area if (_g_ham is not None and not _g_ham.is_empty) else 0.0
+            _at = _cev.intersection(_gt_ham).area if (_gt_ham is not None and not _gt_ham.is_empty) else 0.0
+            if _at > _ad:
+                _kt.append(_q); _B23_SAYAC["b2_kopru_tabi"] += 1
+            else:
+                _kg.append(_q); _B23_SAYAC["b2_kopru_dogrudan"] += 1
+        if _kg:
+            g = poligonal(unary_union([g] + _kg))
+        if _kt:
+            gt = poligonal(unary_union([x for x in ([gt] if gt is not None else []) + _kt
+                                        if x is not None and not x.is_empty]))
+    # Tâbi bölge doğrudan gövdenin içinden çıkarılır; yoksa delik doldurma
+    # Suriye'yi/Mısır'ı yutar ve iki katman üst üste biner.
+    if gt is not None and not gt.is_empty:
+        g = poligonal(g.difference(gt))
+    kaplam = unary_union([g, gt]) if gt is not None else g
+    x0, y0, x1, y1 = kaplam.bounds
+    # Geometri gönderilmez; yalnızca aktif petek indeksleri (delta) ve özetler.
+    ekle = sorted(aktif - onceki_aktif) if onceki_aktif else sorted(aktif)
+    cik  = sorted(onceki_aktif - aktif) if onceki_aktif else []
+    # Birleşik dış hat: petekler tek gövde olarak çizilir, aradaki petek
+    # sınırları görünmez. Kesim sonrası simplify YOK — hem kıyı oturması hem
+    # yabancı komşularla ortak kenar bozulurdu (eski 0.022/0.03 buradaydı).
+    kayit = {"f": a, "t": b, "ad": ad,
+             "b": [round(x0,2), round(y0,2), round(x1,2), round(y1,2)],
+             "ao": alan_km2(g), "e": ekle, "c": cik,
+             "o": havuza(mp_koord(g), OSM_HALKA, OSM_HALKA_IX,
+                          OSM_PARCA, OSM_PARCA_IX)}
+    if gt is not None and not gt.is_empty:
+        kayit["av"] = alan_km2(gt)
+        kayit["v"]  = havuza(mp_koord(gt), OSM_HALKA, OSM_HALKA_IX,
+                                       OSM_PARCA, OSM_PARCA_IX)
+        # ── TÂBİ ETİKET ÇAPALARI (`vl`) — HUKUM-VASSAL-GORUNUM-0906.md 3(d)
+        # 🔴 NİÇİN GEOMETRİ BÖLÜNMÜYOR: `kayit["v"]` bütün tâbi toprağı TEK
+        #   gövde olarak taşır ve kimlik `unary_union` içinde kaybolur
+        #   (:4730). Etiketin ihtiyacı GEOMETRİ DEĞİL bir ÇAPA: nereye
+        #   yazılacağı + ne yazılacağı. Gövdeyi kimliğe göre bölmek hem
+        #   pahalı hem de B2/köprü mantığını yeniden kurmayı gerektirirdi;
+        #   çapa listesi birkaç yüz bayt ve o mantığa HİÇ dokunmaz.
+        #
+        # 🟢 ÇAPA GRUBUN EN BÜYÜK PETEĞİNDEN alınır, gruptan birleşim
+        #   ÜRETİLMEZ: `representative_point()` poligonun İÇİNDE olmayı
+        #   garanti eder (centroid etmez — dağınık bir grubun ağırlık
+        #   merkezi denize düşebilir), ve en büyük hücre etiketin sığacağı
+        #   yerdir. Maliyet grup başına O(1) union, sıfır.
+        #
+        # ⚠️ `tabi` kümesi EKLEYİCİ KAPI ile genişliyor (:4689 `_ekt`) ve o
+        #   indekslerin `v:` dönemi YOKTUR. Onlar çapa üretmez — çünkü
+        #   `CLAUDE.md §11`: *atlas seferi değil TASARRUFU boyar*; kapının
+        #   doldurduğu boş arazide bir tâbi beylik yoktur.
+        _vgrup = {}
+        for _j in tabi:
+            _dn = next((p for p in (YERLER[_j].get("v") or [])
+                        if p.get("f") and p.get("t") and p["f"] <= a < p["t"]), None)
+            if _dn is None:
+                continue                      # ekleyici kapının getirdiği
+            _ad = _dn.get("k") or _dn.get("kid")
+            if not _ad:
+                continue                      # adsız dönem etiketlenmez
+            _anh = (_ad, _dn.get("statu") or "vassal")
+            _hu = _pe[_j]
+            if _hu is None or _hu.is_empty:
+                continue
+            _en = _vgrup.get(_anh)
+            _al = _hu.area
+            if _en is None or _al > _en[1]:
+                _vgrup[_anh] = (_hu, _al)
+        if _vgrup:
+            _vl = []
+            for (_ad, _st), (_hu, _) in sorted(_vgrup.items()):
+                try:
+                    _rp = _hu.representative_point()
+                except Exception:             # noqa: BLE001 — bozuk geometri
+                    continue
+                _vl.append({"k": _ad, "s": _st,
+                            "p": [round(_rp.x, 4), round(_rp.y, 4)]})
+            if _vl:
+                kayit["vl"] = _vl
+        # ── 🆕 HİMAYE GÖVDELERİ (`h`) — şema app.js:183-193. Boşsa YAZILMAZ.
+        if _him_grup:
+            # Sayaç yalnız YENİ dönemde artar (uzatılan dönemde grup yeniden
+            # sayılmaz — `adsiz`/`renksiz` dönem başına bir kez).
+            himaye_gruplari(a, tabi, YERLER, BOYALAR, _HARITA_ALT,
+                            HIMAYE_GEVSEK_RENK, _HIMAYE_SAYAC)
+            _h = himaye_govdeleri(
+                _him_grup, _pe, tabi, gt,
+                lambda _hg: havuza(mp_koord(_hg), OSM_HALKA, OSM_HALKA_IX,
+                                   OSM_PARCA, OSM_PARCA_IX),
+                _HIMAYE_SAYAC)
+            if _h:
+                kayit["h"] = _h
+                _HIMAYE_SAYAC["donem"] += 1
+    # Serbest kenar: gövdenin sahipsiz alana bakan yüzü. Boşsa alan hiç yazılmaz
+    # (çoğu dönemde çölle sınırdaş olunmuyor — kuruluş devri gibi).
+    sayac("Osmanlı gövde geometrisi", time.time() - _t_ov)
+    _t_sb = time.time()
+    _sb = hat_havuza(hat_koord(serbest_kenar(a, kaplam, _pe)))
+    sayac("serbest kenar (sahipsiz sınır)", time.time() - _t_sb)
+    if _sb:
+        kayit["sb"] = _sb
+    donemler.append(kayit)
+    onceki_aktif = aktif
+    onceki_anahtar = anahtar
+
+# 🔴 MUAFİYET RAPORU — SESSİZ ATLAMA YOK.
+# `delikleri_doldur`ın ÜÇ çağrı yeri var ve üçü de bu satırdan ÖNCE koşar;
+# rapor bu yüzden buraya kondu:
+#     :2511  bölge (k1/k2 idarî) sınırı  → data/bolgeler.js
+#     :2717  yabancı devlet gövdesi      → data/devletler_harita.js
+#     :2820  Osmanlı doğrudan + tâbi     → data/donemler.js
+# ⚠️ Üçüncüsünü ilk taramada KAÇIRMIŞTIM (`:2511`) — `grep` ile değil GÖZLE
+#    saymıştım. Muafiyet oraya da uygulanıyor ve doğrusu bu: kasten boş
+#    bırakılmış bir çöl cebi, bir sancağın sınırı içinde de yutulmamalı.
+# ⚠️ "Hiçbiri atlanmadı" satırı da BASILIR. Boş kovayı basmamak, muafiyetin
+# hiç çalışmadığı hâl ile hiç gerekmediği hâli birbirinden ayırt edilemez
+# kılardı — `§11`in "ölçülemedi ≠ temiz" kuralının bu fonksiyondaki yüzü.
+if _KB_MUAF:
+    print(f"  delik doldurma muafiyeti: {len(_KB_MUAF)} kasıtlı boşluk noktası, "
+          f"{sum(_KB_MUAF.values())} halka DOLDURULMADI")
+    for _mad, _mn in sorted(_KB_MUAF.items(), key=lambda x: (-x[1], x[0])):
+        print(f"     {_mad:<34} {_mn} halka")
+    print("     ⚠️ BEKLENEN 0 İDİ — yeni bir kasıtlı boşluk kuşatılmış olabilir, "
+          "İNCELE (ölçüm 11 Ağu 2026: 7 kesitin 7'sinde de 0)")
+else:
+    print("  delik doldurma muafiyeti: 0 halka atlandı "
+          "— BEKLENEN BU (ölçüldü 11 Ağu 2026, 7 kesitin 7'sinde 0)")
+
+# Petek geometrileri bir kez yazılır; dönemler yalnızca indeks tutar (21 MB → ~4 MB)
+# Petek geometrileri artık gönderilmiyor; birleşik dış gövde yeterli (boyut)
+petekler = [{"a": YERLER[j]["ad"]} for j in range(len(YERLER))]
+
+js  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
+js += "// PETEK (Voronoi) tabanlı: her yerleşimin bölgesi kıyı ve nehir yataklarına yaslı.\n"
+js += "// PETEKLER bir kez tanımlanır; DONEMLER yalnızca eklenen/çıkan petek indekslerini tutar.\n"
+js += "// DONEMLER'in o/v alanları PARCALAR havuzuna indekstir (js/app.js çözer).\n"
+js += "// SERBEST: sahipli ↔ SAHİPSİZ sınırı. Bu kenar KESKİN ÇİZİLMEMELİDİR —\n"
+js += "// iki devlet arasındaki sınır değil, devlet ile boş alan arasındaki\n"
+js += "// artefakttır (bkz. uret_petek.py, SERBEST KENAR bloğu). DONEMLER[].sb\n"
+js += "// bu havuza indekstir; js/app.js line-blur ile dışa doğru söndürür.\n"
+js += "window.SERBEST = " + json.dumps(SRB_HAVUZ, separators=(",",":")) + ";\n"
+# ⚠️ SERBEST_U — havuza PARALEL belirsizlik (km). Kalınlık BURADAN gelir, sabit
+# çıpadan değil: dağılım geniş (Anadolu 23,4 km ↔ Arabistan 217,3 km, 9,3 kat).
+# Bu satır bir koşuda EKSİK KALDI ve çıktı sessizce belirsizliksiz üretildi —
+# SRB_U hesaplanıyordu, log'a dağılımı bile basıyordu, yalnız dosyaya yazılmıyordu.
+# Katman `coalesce(get(u), 60)` ile 60 km'ye düşüp çalışmaya devam ettiği için
+# hata GÖRÜNMEDİ. İki satır yan yana durmalı ki bir daha ayrılmasınlar.
+js += "window.SERBEST_U = " + json.dumps(SRB_U, separators=(",",":")) + ";\n"
+js += "window.PETEKLER = " + json.dumps(petekler, separators=(",",":")) + ";\n"
+js += ("window.PARCALAR = "
+       + json.dumps(OSM_HALKA, separators=(",", ":")) + ";\n")
+js += ("window.PARCA_HALKA = "
+       + json.dumps(OSM_PARCA, separators=(",", ":")) + ";\n")
+js += "window.DONEMLER = " + json.dumps(donemler, separators=(",",":")) + ";\n"
+
+# ---------------- PER-PETEK GÖVDE — AYRI DOSYA ----------------
+# İşgal örtüsü üreticisi (`uret_devirler.py`) "şu 55 yerleşimin hücrelerinin
+# birleşimi"ni istiyor ve bunu bugünkü çıktıdan çıkaramıyor: `PETEKLER` yalnız
+# ad taşıyor, `DONEMLER.e/c` delta, `DONEMLER.o/v` ise BİRLEŞTİRİLMİŞ gövde.
+#
+# ⚠️ `PARCALAR`a indeks verilemez — o havuzda yalnız birleşik gövdeler var,
+# per-petek parçalar hiç girmiyor. Bu yüzden kendi havuzu yazılıyor.
+# Ölçüldü: 951 petek → 2.166 eşsiz parça, 1,4 MB.
+#
+# 🔴 NEDEN AYRI DOSYA: `donemler.js`i `index.html:149` yüklüyor, yani 1,4 MB'ı
+# HER ZİYARETÇİ indirirdi — oysa bu veriyi yalnız üretim betiği kullanıyor.
+# Sitenin yükü zaten 24,5 MB; tarayıcının hiç açmayacağı veriyi oraya koymak
+# saf israf. Bu dosya `index.html`e EKLENMEZ.
+#
+# ⚠️ ZAMANSIZ — ve bu sessizce yanıltabilir. Petek geometrisi `petek_epok()`
+# ile değişebiliyor (`kur:`/`bit:` devirleri); buradaki TABAN geometridir.
+# Bugünkü tüketici için doğru: en geç `kur:` 1869-01-01, `isg:` aralıkları
+# 1878'den başlıyor, yani o tarihlerde bütün noktalar kurulmuş. Ama 1869
+# ÖNCESİNE uzanan bir örtü istenirse bu dosya yanlış cevap verir ve uyarmaz.
+# ---------------- B · UZAK COĞRAFYA SEYRELTME ----------------
+# Bkz. seyrelt() başlığı: ölçüm, elenen yollar ve dondurma ölçütü orada.
+# ⚠️ YALNIZ YABANCI HAVUZ. Osmanlı havuzu (`PARCALAR`) ELLENMİYOR — kademe
+# 4-5 (Söğüt-Bursa çekirdeği, Osmanlı gövdesi, 1923 Türkiye) dokunulmaz.
+SEYRELT_TOL = 0.03          # ≈3,3 km — ölçülmüş kırılma noktası
+# ---- EKLEYİCİ KAPININ BİLANÇOSU — sessiz kapı, kapatılmış kapıdır ---------
+# 🔴 BURADA, çünkü kapı İKİ döngüde birden çalışıyor: yabancı gövdeler
+# (:3662) ve Osmanlı dönemleri (:3791). İlk yazımda bilançoyu yabancı
+# döngünün hemen ardına koymuştum ve sayacın YARISINI raporluyordu —
+# `§11`in "geç öten alarm" dersinin ters yüzü: ERKEN ölçen sayaç da yalan
+# söyler. İki döngü de bitmeden basılmaz.
+if not DOLGU_ACIK:
+    print("  🚪 EKLEYİCİ KAPI KAPALI (MOTOR_DOLGU_KAPALI=1) — katılım YOK")
+else:
+    print(f"  🚪 EKLEYİCİ KAPI: {_DOLGU_SAYAC['petek']} petek-gün katıldı · "
+          f"{_DOLGU_SAYAC['cekismeli']} ÇEKİŞMELİ (boş bırakıldı) · "
+          f"{_DOLGU_SAYAC['gun']} gün hesaplandı")
+    # 🔴 B1/B2/B3 KARNESİ — 28 Ağustos 2026'da EKLENDİ, ve sebebi ölçüldü.
+    # `_B23_SAYAC` sözlüğü baştan beri DOLUYORDU ama HİÇBİR YERDE
+    # BASILMIYORDU. Sonuç: koşudan önce yazılmış iki öngörü
+    # (② "B3 sığ girintileri bırakır" · ③ "deniz aşırı enklav birleşmez")
+    # koşudan sonra ÖLÇÜLEMEDİ — geçtiler de denemedi, kaldılar da.
+    # 📌 `CLAUDE.md`: *"aletin BASMADIĞI ≠ ölçtüğü"*. Sessiz bir sayaç,
+    #    olmayan bir sayaçla aynı şeydir; ikisi de öngörüyü sınanamaz kılar.
+    # ⚠️ Ve şu satırın kendisi bir sınavdır: SIFIR çıkan her sayaç, o dalın
+    #    HİÇ ateşlemediğini söyler — bu bir bulgudur, temizlik değil.
+    print(f"  🧩 B2 ENKLAV: {_B23_SAYAC['b2_birlesti']} birleşti · "
+          f"{_B23_SAYAC['b2_deniz']} DENİZ AŞIRI diye reddedildi · "
+          f"{_B23_SAYAC['b2_uzak']} uzak · "
+          f"{_B23_SAYAC['b2_yerlesim']} içinde başka devletin yerleşimi var")
+    print(f"  🎨 B2 KÖPRÜ RENGİ: {_B23_SAYAC['b2_kopru_dogrudan']} DOĞRUDAN · "
+          f"{_B23_SAYAC['b2_kopru_tabi']} TÂBİ  "
+          f"(0038/H-0004 — köprü, yaslandığı gövdenin rengini alır)")
+    print(f"  🧩 B3 KORİDOR: {_B23_SAYAC['b3_dolduruldu']} dolduruldu · "
+          f"{_B23_SAYAC['b3_sig']} SIĞ diye BIRAKILDI (Emre bunu istiyor) · "
+          f"{_B23_SAYAC['b3_kapali']} kapalı · "
+          f"{_B23_SAYAC['b3_yerlesim']} yerleşimli · {_B23_SAYAC['b3_kb']} k.bosluk")
+    # KITA 7 — B3 KORİDOR: PRE-kıyı-kesim, isimli/km² güvenilir liste.
+    if _B3_KALAN_IHLAL:
+        _toplam_km2 = sum(r[1] for r in _B3_KALAN_IHLAL)
+        _ayrisan = sum(1 for r in _B3_KALAN_IHLAL if len(r) > 6 and r[6])
+        print(f"  🔴 B3 KALAN İHLAL (PRE-kıyı-kesim, GÜVENİLİR): "
+              f"{len(_B3_KALAN_IHLAL)} bileşen · {_toplam_km2:,.0f} km²")
+        for isim, km2, der, gen, sebep, agiz_gen, ayrisiyor in sorted(
+                _B3_KALAN_IHLAL, key=lambda r: -r[2])[:15]:
+            print(f"       {isim:<28} {km2:>10,.0f} km²  "
+                  f"derinlik {der:>6.0f} km · gövde-genişlik {gen:>5.0f} km · "
+                  f"ağız-genişlik {agiz_gen if agiz_gen is not None else '?':>5} km  "
+                  f"[{sebep}]" + ("  ⚠️AYRIŞIYOR" if ayrisiyor else ""))
+        if len(_B3_KALAN_IHLAL) > 15:
+            print(f"       … +{len(_B3_KALAN_IHLAL) - 15} bileşen daha "
+                  f"(tam liste için ayrı bir dökümü iste)")
+        print(f"       -> bunların {_ayrisan}'i ağız/gövde tanımına göre "
+              f"FARKLI karar verirdi (kod vs Emre'nin kuralı)")
+    else:
+        print("  🟢 B3 KALAN İHLAL: 0 — SIĞ dışında hiçbir bileşen "
+              "muafiyetle atlanmadı")
+
+    # 🔴 ÇÖL EŞİĞİ KARNESİ — "kapatılmayanı da say ve bas" (MOTOR ÜÇ KALEM).
+    # `col_dusen` = 4 puanı geçerdi ama çölde olduğu için 8'e takıldı.
+    # Bu sayı SIFIR çıkarsa kural HİÇ ATEŞLEMEMİŞ demektir; o da bir bulgudur.
+    print(f"  🏜  ÇÖL EŞİĞİ ({PUAN_ESIK} → {COL_PUAN_ESIK}): "
+          f"{_DOLGU_SAYAC['col_dusen']} petek-gün ÇÖLDE TAKILDI (boyanmadı) · "
+          f"{_DOLGU_SAYAC['col_gecen']} petek-gün çölde EŞİĞİ GEÇTİ · "
+          f"{len(_COL_NOKTA_ONBELLEK)} nokta çöl içi/dışı diye ölçüldü")
+    print(f"     şart: bos ∈ {sorted(DOLDURULABILIR_BOS)} ya da "
+          f"(tur=bolge ve bos ∈ [yok, devletsiz]) ya da DÖRDÜNCÜ SINIF "
+          f"(kur:>g/bit:≤g VE sahipsiz — BULGULAR-DORDUNCU.md) · "
+          f"kabile · veri-yok · insansiz KATILMAZ (Emre, 18 Ağustos 2026) · "
+          f"ÖRTME açık, {ORTME_DILIM_SAYISI} dilim (Emre, 21 Ağustos 2026)")
+
+asama("Uzak coğrafya seyreltme (yabancı havuz)")
+_don = don_kose_kur(
+    (DEV_HALKA, DEV_PARCA, [(d["id"], p["f"], p["t"], p["g"])
+                            for d in DEVLET_KAYIT for p in d["dnm"]]),
+    (OSM_HALKA, OSM_PARCA, [("__OSMANLI__", r["f"], r["t"],
+                             (r.get("o") or []) + (r.get("v") or []))
+                            for r in donemler]))
+_k0 = sum(len(h) for h in DEV_HALKA)
+DEV_HALKA = seyrelt(DEV_HALKA, DEV_PARCA, DEVLET_KAYIT, _don, SEYRELT_TOL)
+_k1 = sum(len(h) for h in DEV_HALKA)
+print(f"  dondurulan köşe {len(_don):,} · yabancı havuz köşe "
+      f"{_k0:,} → {_k1:,} (%{_k1/_k0*100:.0f}) · boşluk 0 (yapısal)")
+
+_dyol = os.path.join(KOK, "data", "devletler_harita.js")
+_dj  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
+_dj += "// Yabancı devletlerin dönem gövdeleri (yerlesimler.js s alanından).\n"
+_dj += "// dnm[].g, DEVLET_PARCALAR havuzuna indekstir (js/app.js çözer).\n"
+_dj += ("window.DEVLET_PARCALAR = "
+        + json.dumps(DEV_HALKA, separators=(",", ":")) + ";\n")
+_dj += ("window.DEVLET_PARCA_HALKA = "
+        + json.dumps(DEV_PARCA, separators=(",", ":")) + ";\n")
+_dj += "window.DEVLET_HARITA = " + json.dumps(DEVLET_KAYIT, ensure_ascii=False, separators=(",",":")) + ";\n"
+_dj += ("window.URETIM_IZI = "
+        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
+                     separators=(",", ":"), sort_keys=True) + ";\n")
+_muhru_dogrula("data/devletler_harita.js")
+girdi.izi_dogrula(_GIRDI_IZI, "data/devletler_harita.js")
+open(_dyol, "w", encoding="utf-8").write(_dj)
+print(f"  {len(DEVLET_KAYIT)} devlet, {sum(len(d['dnm']) for d in DEVLET_KAYIT)} dönem → "
+      f"data/devletler_harita.js ({os.path.getsize(_dyol)//1024} KB)")
+
+# ---------------- Dönemleri kur ----------------
+
+asama("Çıktı yazımı (petek_govde.js + donemler.js)")
+_pg_havuz, _pg_ix, _pg_indeks = [], {}, []
+for _i, _g in enumerate(PETEK_D):
+    _ks = []
+    for _par in mp_koord(_g):
+        _k = json.dumps(_par, separators=(",", ":"))
+        _j = _pg_ix.get(_k)
+        if _j is None:
+            _j = len(_pg_havuz); _pg_havuz.append(_par); _pg_ix[_k] = _j
+        _ks.append(_j)
+    _pg_indeks.append(_ks)
+_pgyol = os.path.join(KOK, "data", "petek_govde.js")
+_pg = ("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
+       "// ⚠️ index.html BU DOSYAYI YÜKLEMEZ. Yalnız üretim betikleri okur\n"
+       "//    (uret_devirler.py). Tarayıcıya 1,4 MB fazladan yük binmesin diye\n"
+       "//    donemler.js'e KONMADI.\n"
+       "// ⚠️ ZAMANSIZ: taban geometri. kur:/bit: devirlerini TAŞIMAZ; 1869\n"
+       "//    öncesine uzanan sorularda yanlış cevap verir ve UYARMAZ.\n"
+       "// PETEK_GOVDE[i] → PETEK_GOVDE_PARCA havuzuna indeksler.\n"
+       "// Sıra PETEKLER (donemler.js) ile AYNIDIR.\n")
+_pg += ("window.PETEK_GOVDE_PARCA = "
+        + json.dumps(_pg_havuz, separators=(",", ":")) + ";\n")
+_pg += ("window.PETEK_GOVDE = "
+        + json.dumps(_pg_indeks, separators=(",", ":")) + ";\n")
+_pg += ("window.URETIM_IZI = "
+        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
+                     separators=(",", ":"), sort_keys=True) + ";\n")
+girdi.izi_dogrula(_GIRDI_IZI, "data/petek_govde.js")
+io.open(_pgyol, "w", encoding="utf-8").write(_pg)
+print(f"Per-petek gövde → data/petek_govde.js "
+      f"({os.path.getsize(_pgyol)//1024} KB, {len(_pg_havuz)} eşsiz parça) "
+      f"— index.html YÜKLEMEZ")
+# ⚠️ ÜRETİM İZİ — çıktının kendi künyesi. İki ayrı soruyu cevaplar:
+#   girdi: bu harita hangi VERİDEN üretildi → "yayın bayat mı"
+#   motor: hangi KODDAN üretildi            → "düzeltme bu çıktıda var mı"
+# İkisi de 31 Temmuz'da SORULDU ve dosyadan cevaplanamadı. Yayın girdiden dokuz
+# nokta geride kalmıştı ve sekiz denetimin hiçbiri fark etmemişti — hepsi
+# çıktının kendi İÇ tutarlılığına bakıyor, hiçbiri GÜNCEL olup olmadığına.
+# ⚠️ Ad kümesi karşılaştırması bu işi göremez: yerleşim TAŞINIRSA ya da
+# `d:`/`v:`/`s:` değişirse ad kümesi aynı kalır, ölçüt "temiz" der, harita
+# bayattır. sha256 üçünü birden yakalar.
+# 📌 `_GIRDI_IZI` koşunun BAŞINDA alınmıştır (motorun okuduğu hâl), sona değil;
+# aksi hâlde koşu ortasında değişen bir girdi kendi izini damgalar ve damga
+# yalanı doğrular.
+js += ("window.URETIM_IZI = "
+       + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
+                    separators=(",", ":"), sort_keys=True) + ";\n")
+# VERI_SINIRI — arayüzün "Veri sınırı" düğmesinin TEK otoritesi (İş S1,
+# koordinatör onayı 2 Ağustos). app.js:594'teki elle kopya bu satırdan
+# beslenecek (`window.VERI_SINIRI || yedek`): kutu değişince çizgi otomatik
+# izler, kimse elle güncellemez. Değer ELLE YAZILMAZ — BOLGE'den türetilir
+# (bugün üç elle kopya temizlendi; dördüncüsü burada açılmasın).
+# ⚠️ ARTIK EKSİK BİR ÖLÇÜ — kutu L oldu, bu satır hâlâ DİKDÖRTGEN veriyor.
+# `js/app.js:688` (`veriSiniriKur`) dört sayıdan bir dikdörtgen çiziyor;
+# L'nin çentiği (güneybatı: −25..−12 D / −11..60 K) o dikdörtgenin İÇİNDE
+# görünür ama kapsama DAHİL DEĞİL. Yani "Veri sınırı" düğmesi açılırsa
+# kapsanmayan bir alanı kapsanmış gibi gösterir.
+# 🔴 Bugünkü ders serisinin aynısı: ölçü, ölçtüğü şeyin şeklini kaybetti.
+# Katman varsayılan olarak KAPALI (`visibility: "none"`) olduğu için yayını
+# engellemiyor; ama `app.js` bir çokgen kabul edecek şekilde güncellenmeli
+# (ARAYÜZ'ün dosyası). O gün burası `BOLGE.exterior.coords` yazacak.
+js += ("window.VERI_SINIRI = "
+       + json.dumps(list(BOLGE.bounds)) + ";\n")
+# ---------------- ÇIKTI KIYASI — "geçen koşuya göre ne oynadı" ----------------
+# 🔴 NİÇİN VAR (3 Ağustos 2026, koordinatör şartnamesi). `donemler.js` bir
+# koşuda 34.362 KB → 26.303 KB düştü (%24) ve bunu HİÇBİR DENETİM SORMADI:
+# `denetle.py` yalnız girdiyi okur, `denetle_yayin.py` izin TAZE olduğunu
+# doğrular, boyutun MAKUL olduğunu değil. Koordinatör elle yakaladı; bir
+# sonraki koşuda gerçek bir kusur olsa yine kimse sormayacaktı.
+#
+# 🔴 VE NİÇİN EŞİK YOK. Bu depoda sabit eşikler ölçülüp sonra motor altından
+# değişince çürüyor — `BOZUK_KIYI_TABAN = 32` (çöl tavanı eklenince
+# anlamsızlaştı, her koşu ✗ bastı) ve `_KUS_BEKLENEN` 8 ad (veri 1.579
+# noktaya çıktı, 44 "BEKLENMEDİK" üretti). *"%20'den fazla oynarsa uyar"*
+# tipi bir ölçüt tam bu sınıftır: %24'lük o düşüş MEŞRUYDU, eşik ilk günden
+# yanlış alarma dönerdi, ikinci koşuda susturulurdu, üçüncüde kimse bakmazdı.
+# ⇒ Ölçüt her zaman "GEÇEN SEFERE GÖRE"dir; sabit sayı yoktur.
+#
+# 🔴 VE ASIL ÖLÇÜ BOYUT DEĞİL. Boyut yalnız bakmaya sevk eder; teşhisi
+# TARİH KESİTİ verdi: *"1453'e kadar fark sıfır, 1517'de başlıyor"* — yani
+# Osmanlı Mısır ve Arabistan'a girdiği an. Otomatikleşen şey teşhistir.
+#
+# ⚠️ BU BİR KAPI DEĞİL, TEŞHİSTİR: üretimi DURDURMAZ, hüküm VERMEZ.
+# "Bu sapma meşru mu" sorusunun cevabı her seferinde insanda kalır —
+# bugün olduğu gibi. Rapor eder, yorumlamaz.
+def _halka_km2(halkalar):
+    """Halka listesinden (dış + delikler) km² — alan_km2 ile aynı formül."""
+    T = 0.0
+    for _i, r in enumerate(halkalar):
+        sg = 1 if _i == 0 else -1
+        s2 = 0.0
+        for _k in range(len(r) - 1):
+            lo1, la1 = math.radians(r[_k][0]), math.radians(r[_k][1])
+            lo2, la2 = math.radians(r[_k+1][0]), math.radians(r[_k+1][1])
+            s2 += (lo2 - lo1) * (2 + math.sin(la1) + math.sin(la2))
+        T += sg * abs(s2 * R_DUNYA * R_DUNYA / 2)
+    return T
+
+
+def _yabanci_g(g):
+    """g gününde boyalı YABANCI toplam (Osmanlı dışı), km².
+    SEYRELTİLMİŞ havuzdan okunur — künye yayınlanan çıktıyı ölçer.
+    ⚠️ Osmanlı d/v aktifken o petek zaten yabancı gövdeye girmiyor
+    (`_osm_aktif` bastırıyor), yani çifte sayım yok."""
+    T = 0
+    for d in DEVLET_KAYIT:
+        for p in d["dnm"]:
+            if p["f"] <= g < p["t"]:
+                T += int(round(sum(_halka_km2([DEV_HALKA[h] for h in DEV_PARCA[pj]])
+                                   for pj in p["g"]), -3))
+                break
+    return T
+
+
+def _alan_g(dnm, g):
+    """g gününde yürürlükteki dönemin (doğrudan, tâbi) alanı."""
+    for d in dnm:
+        if d["f"] <= g < d["t"]:
+            return d.get("ao", 0), d.get("av", 0)
+    return None, None
+
+
+def _onceki_olcu():
+    """Önceki koşunun ölçüsü. `URETIM_OLCU` varsa oradan (ucuz), yoksa eski
+    `DONEMLER`den türetir — böylece bu yamanın İLK koşusu da kıyaslanabilir."""
+    if not os.path.exists(CIKTI):
+        return None
+    try:
+        _e = io.open(CIKTI, encoding="utf-8").read()
+    except Exception:
+        return None
+
+    def _pencere(ad):
+        a = f"window.{ad} = "
+        i = _e.find(a)
+        if i < 0: return None
+        j = _e.find(";\n", i + len(a))
+        if j < 0: return None
+        try:
+            return json.loads(_e[i + len(a):j])
+        except Exception:
+            return None
+
+    o = _pencere("URETIM_OLCU")
+    if o:
+        # `yabanci` ekseni sonradan eklendi; eski künyede yoksa koşunun
+        # BAŞINDA eski devletler_harita.js'ten türetilen taban kullanılır.
+        if not o.get("yabanci") and _ESKI_YABANCI:
+            o["yabanci"] = _ESKI_YABANCI
+        return o
+    d = _pencere("DONEMLER")
+    if not d: return None
+    return {"donem": len(d),
+            "kesit": {g: list(_alan_g(d, g)) for g in OLCU_KESIT}}
+
+
+asama("Çıktı kıyası (geçen koşuya göre)")
+_OLCU = {"donem": len(donemler), "nokta": len(YERLER),
+         "kesit": {g: list(_alan_g(donemler, g)) for g in OLCU_KESIT},
+         "yabanci": {g: _yabanci_g(g) for g in OLCU_KESIT},
+         # 🔴 KAPSAM KÜNYEYE YAZILIR — bu satır olmadan okuyan, ölçülmeyeni
+         # "değişmemiş" sanar. Koşu 5'te tam bu oldu.
+         "kapsam": ("ao=Osmanlı doğrudan · av=tâbi · yabanci=Osmanlı dışı "
+                    "boyalı toplam · 9 kesit örneklenir, ARALARI ÖLÇÜLMEZ "
+                    "(ör. 1865-1885 penceresi hiçbir kesite düşmüyor) · "
+                    "alanlar 1.000 km²'ye yuvarlı, ±1.000 gürültü tabanıdır")}
+_esk = _onceki_olcu()
+if _esk is None:
+    print("  önceki çıktı yok ya da ölçüsü okunamadı — KIYAS YAPILAMADI")
+    print("  (bu yamanın ilk koşusuysa normaldir; sonraki koşu kıyaslar)")
+else:
+    print(f"  dönem  {_esk.get('donem','?')} → {_OLCU['donem']}"
+          + (f"   ·   nokta {_esk['nokta']} → {_OLCU['nokta']}"
+             if _esk.get("nokta") else ""))
+    _oyn = []
+    for _g in OLCU_KESIT:
+        _a = (_esk.get("kesit") or {}).get(_g)
+        _b = _OLCU["kesit"][_g]
+        if not _a or _a[0] is None or _b[0] is None:
+            print(f"    {_g}   —  kesit karşılaştırılamadı")
+            continue
+        _d = _b[0] - _a[0]
+        _p = (_d / _a[0] * 100) if _a[0] else 0.0
+        print(f"    {_g}   doğrudan {_a[0]:>11,} → {_b[0]:>11,} km²  "
+              f"{_d:>+11,} ({_p:+5.1f}%)")
+        if _d: _oyn.append((_g, _d, _p))
+        # ikinci eksen — koşu 5'te ölçülen kör noktanın kapağı
+        _ya = (_esk.get("yabanci") or {}).get(_g)
+        _yb = _OLCU["yabanci"][_g]
+        if _ya is None:
+            print(f"                 YABANCI            —  → {_yb:>11,} km²"
+                  f"   (önceki koşuda ölçülmemiş, TABAN kuruluyor)")
+        else:
+            _yd = _yb - _ya
+            _yp = (_yd / _ya * 100) if _ya else 0.0
+            print(f"                 YABANCI {_ya:>11,} → {_yb:>11,} km²  "
+                  f"{_yd:>+11,} ({_yp:+5.1f}%)")
+            if _yd: _oyn.append((_g + " (yabancı)", _yd, _yp))
+    # ⚠️ İLK SAPMA GÜNÜ — teşhisi veren satır budur, toplam fark değil.
+    _ilk = None
+    for _d in donemler:
+        _a = (_esk.get("kesit") or {}).get(_d["f"])
+        if _a is None: continue
+        if _a[0] != _d.get("ao"):
+            _ilk = (_d["f"], _d.get("ao", 0) - _a[0]); break
+    if not _oyn:
+        print("  → BÜTÜN KESİTLER AYNI. Girdi değiştiyse bu da bir haberdir: "
+              "değişiklik boyanan alana yansımamış.")
+    else:
+        _en = max(_oyn, key=lambda x: abs(x[1]))
+        # ⚠️ PAYDA İKİ EKSENİ SAYAR. Yabancı ekseni eklenince payda 9 kalmıştı
+        # ve satır "13/9 kesit oynadı" diye ANLAMSIZ bir şey bastı. Kendi
+        # teşhis satırının yanlış sayması, bu dosyanın bütün derdi.
+        _payda = len(OLCU_KESIT) * (2 if (_esk.get("yabanci") or _OLCU["yabanci"])
+                                    else 1)
+        _osm_n = sum(1 for x in _oyn if "(yabancı)" not in x[0])
+        _yab_n = len(_oyn) - _osm_n
+        print(f"  → SAPMA VAR: {len(_oyn)}/{_payda} ölçüm oynadı "
+              f"(Osmanlı {_osm_n}/{len(OLCU_KESIT)} · yabancı {_yab_n}/{len(OLCU_KESIT)})"
+              f" · en büyük {_en[0]} tarihinde {_en[1]:+,} km² ({_en[2]:+.1f}%)")
+        # ⚠️ Etiket "1300-06-15 (yabancı)" olabilir; kıyas TARİH kısmıyla
+        # yapılmalı, yoksa dize karşılaştırması kendi kesitini de "önceki"
+        # sayar ve "ondan önceki N kesitte fark YOK" satırı yanlış çıkar.
+        _once = [g for g in OLCU_KESIT if g < _oyn[0][0][:10]]
+        print(f"  → ilk oynayan kesit {_oyn[0][0]}"
+              + (f"; ondan önceki {len(_once)} kesitte fark YOK" if _once else "")
+              + (f" · ilk sapan dönem başlangıcı {_ilk[0]} ({_ilk[1]:+,} km²)"
+                 if _ilk else ""))
+        print("  ⚠️ Bu bir HÜKÜM DEĞİL. Sapma meşru olabilir (yeni nokta, yeni "
+              "renk, kasıtlı sahipsiz dolgu) ya da olmayabilir — kararı veren "
+              "sensin. Sapmanın BAŞLADIĞI TARİH sebebi gösterir.")
+js += ("window.URETIM_OLCU = "
+       + json.dumps(_OLCU, separators=(",", ":"), sort_keys=True) + ";\n")
+
+_muhru_dogrula("data/donemler.js")
+girdi.izi_dogrula(_GIRDI_IZI, "data/donemler.js")
+# Damganın DOĞRU olması yetmez, KORUNMASI da gerek: kod koşu sırasında
+# değiştiyse çıktı karışık koddan üretilmiş olabilir. Girdiyle aynı
+# felsefe — sessiz geçiş yok.
+girdi.motor_izi_dogrula(_MOTOR_IZI, "data/donemler.js")
+# Kıyas aşaması bittiyse dosya yazımı ONUN hanesine yazılmasın — 26 MB'lık
+# yazım kıyasın maliyeti değil. (Bu dosyanın bütün derdi doğru etiket.)
+asama("donemler.js yazımı")
+open(CIKTI, "w", encoding="utf-8").write(js)
+
+print(f"Dönem sayısı: {len(donemler)}")
+print(f"Havuz — donemler: {len(OSM_HALKA):,} eşsiz halka / "
+      f"{len(OSM_PARCA):,} eşsiz parça  ·  devletler: {len(DEV_HALKA):,} halka / "
+      f"{len(DEV_PARCA):,} parça")
+# 🔴 YA TAM YA HİÇ — parça listesindeki her halka indeksi havuzda OLMALI.
+# `js/app.js` parcaCoz delikte `throw` ediyor (ARAYÜZ 2 sözleşmesi); delik
+# oraya varmadan BURADA yakalanır. Sessiz bozuk geometri üretilemez.
+for _ad2, _hv, _pr in (("donemler", OSM_HALKA, OSM_PARCA),
+                       ("devletler", DEV_HALKA, DEV_PARCA)):
+    _kotu = [j for ks in _pr for j in ks if not (0 <= j < len(_hv))]
+    if _kotu:
+        raise SystemExit(f"HAVUZ DELIGI ({_ad2}): {len(_kotu)} gecersiz halka "
+                         f"indeksi, ornek {_kotu[:5]} — cikti YAZILMADI")
+print(f"  havuz bütünlüğü: "
+      f"{sum(len(k) for k in OSM_PARCA) + sum(len(k) for k in DEV_PARCA):,} "
+      f"halka atıfının hepsi geçerli ✓")
+_sbd = sum(1 for d in donemler if d.get("sb"))
+_sbk = sum(len(h) for h in SRB_HAVUZ)
+import statistics as _stt
+_uv = sorted(u for u in SRB_U if u)
+print(f"Serbest kenar: {len(SRB_HAVUZ)} eşsiz hat ({_sbk:,} köşe), "
+      f"{_sbd}/{len(donemler)} dönemde sahipsiz alanla sınırdaş, "
+      f"{len(_SERBEST_ONBELLEK)} ayrı boş-bölge kümesi")
+if _uv:
+    print(f"  belirsizlik km — medyan {_stt.median(_uv):.1f} · "
+          f"Q1 {_uv[len(_uv)//4]:.1f} · Q3 {_uv[3*len(_uv)//4]:.1f} · maks {_uv[-1]:.1f}")
+print(f"Dosya boyutu: {os.path.getsize(CIKTI)//1024} KB")
+
+# ---------------- Doğrulama ----------------
+hata = 0
+for j, y in enumerate(YERLER):
+    if not (y["d"] or y["v"]): continue
+    if PETEK_D[j].is_empty:
+        print(f"  BOŞ PETEK: {y['ad']}"); hata += 1; continue
+    if not PETEK_D[j].buffer(0.08).contains(Point(y["lon"], y["lat"])):
+        print(f"  NOKTA PETEK DIŞINDA: {y['ad']}"); hata += 1
+print("Doğrulama:", "tüm yerleşimlerin peteği geçerli ✓" if not hata else f"{hata} uyumsuzluk")
+for d in donemler[:3] + donemler[-3:]:
+    print(f"  {d['f']} → {d['t']}  {d['ao']/1e6:5.2f} mn km²  {d['ad'][:44]}")
+print("Tâbi katmanlı dönem:", sum(1 for d in donemler if d.get("v")))
+# 🆕 HİMAYE BİLANÇOSU — SIFIR OLSA BİLE BASILIR (sessiz sıfır, hiç çalışmamış
+# kod ile hiç gerekmemiş kodu ayırt edilemez kılar).
+print(f"Himaye gövdeli dönem (`h`): {_HIMAYE_SAYAC['donem']} · gövde "
+      f"{_HIMAYE_SAYAC['govde']} · boş gövde (yazılmadı) {_HIMAYE_SAYAC['bos']} · "
+      f"adsız yerleşim-dönem {_HIMAYE_SAYAC['adsiz']} · renksiz (null → #b2384a) "
+      f"{_HIMAYE_SAYAC['renksiz']} · veride himaye:true "
+      f"{'VAR' if _HIMAYE_VAR else 'YOK'}")
+for d in donemler:
+    if "1830-01-01" <= d["f"] <= "1842-12-31":
+        print(f"  {d['f']} → {d['t']}  doğrudan {d['ao']/1e6:4.2f} + tâbi "
+              f"{d.get('av',0)/1e6:4.2f} mn km²  {d['ad'][:46]}")
+
+# 📌 KOŞU KENDİ BİLANÇOSUNU YAZAR — bu satırdan sonra "nerede yanıyor" sorusu
+# bir daha dosya damgasından TAHMİN edilmez.
+asama_ozet()
+
+# ♻️ DEVAM dizini yalnız koşu BAŞARIYLA sonuna vardıysa silinir.
+if _DEVAM and _ISCI_NO is None and _SR_SONUC_DIZIN:
+    import shutil as _shd
+    _shd.rmtree(_SR_SONUC_DIZIN, ignore_errors=True)
+    print(f"  ♻️ DEVAM dizini silindi: {_SR_SONUC_DIZIN}")
