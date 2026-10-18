@@ -365,7 +365,7 @@ window.YERLESIMLER_AFRIKA = [
 // kronoloji maddesi yok, yazılsaydı Değişmez 2'yi açardı.
 { ad:"Tabarka", kd:[{f:"1281-01-01",t:"1741-06-12",k:0,m:null},{f:"1741-06-12",t:"1923-10-29",k:4,m:"Tunus"}],kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"kale", lat:36.954, lon:8.758, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1544-01-01",d:"hafsi"},{f:"1544-01-01",t:"1741-06-12",d:"ceneviz"}],
-  d:[], v:[{f:"1741-06-12",t:"1923-10-29",statu:"vassal"}] },
+  d:[], v:[{f:"1741-06-12",t:"1881-05-12",statu:"vassal","kid":"tunus-ocagi","k":"Tunus Ocaklığı (Hüseynîler)","kaynak":"TDV huseyniler: '1741’de batıdaki Cenevizliler’in mercan avladıkları Teberke’yi ve halkı Fransız olan Tambert’i zaptetti' (Hüseynî beyi) ⇒ tâbi kimliği Tunus Ocağı (Hüseynîler) · TDV'de 'tabarka' maddesi yok, Britannica 403 · kimlik 18 Ekim 2026 eklendi"},{f:"1881-05-12",t:"1923-10-29",statu:"vassal","kid":"tunus-beyligi-fransiz","k":"Tunus Beyliği (Fransız himayesi; Osmanlı tanımadı)","kaynak":"1881-05-12 Bardo: künye tunus-beyligi-fransiz f (Fransız himayesi) — Tunus Ocaklığı'nın ardılı; Tabarka 1741'den beri Hüseynî beyliğinin (TDV huseyniler) · dönem 18 Ekim 2026'da kimlik için 1881-05-12'de bölündü, sahip (Osmanlı tâbi) DEĞİŞMEDİ"}] },
 
 { ad:"Bâce (Béja)",kaynak:"tunus",isg:[{"f":"1881-05-12","t":"1923-10-29","d":"fransa-cumhuriyet"}], tur:"sehir", lat:36.733, lon:9.183, g:0, k:4, m:"Tunus",
   s:[{"f":"1281-01-01","t":"1574-08-25","d":"hafsi"}],
