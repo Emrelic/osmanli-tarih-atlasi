@@ -302,11 +302,11 @@ window.KRONOLOJI_SINIR_KOMSU = [
 
 // ── POSTIT-3 (16 Eki 2026): Berat 1281-1345 Bizans'ta; 1345'te Duşan ───────────────────
 { t:"1345-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
-  b:"Stefan Duşan Berat'ı Bizans'tan aldı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Berat",
+  b:"Stefan Duşan Berat, Avlonya ve Kanina'yı Bizans'tan aldı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Berat",
   etiket:["sinir","toprak-kazanc","konu-askeri","sirbistan-nemanjic","bizans"],
   gun:"1345 (yıl; gün yok)",
-  d:"Bizans iç savaşı (1341-1347) sırasında Sırp Kralı Stefan Duşan güney Arnavutluk'a yürüdü ve 1280-81'den beri Bizans elinde olan Berat'ı aldı. Sırp hâkimiyetinin ne zaman bittiği ve şehrin yerel Arnavut prensliğine ne zaman geçtiği akademik kaynakla tarihlenemedi; harita bu yüzden 1345'ten 1417 Osmanlı fethine kadar Berat'ı beyanlı boşluk olarak gösterir. Madde yıl hassasiyetindedir.",
-  kaynak:"TIB Balkan (ÖAW Bizans Araştırmaları) 'Belogradum/Berat' tib.oeaw.ac.at/balkan/explore/entity/123830: 'In 1280-81 the region and Berat became again part of the Byzantine Empire and lost in 1345 to Stefan IV Dušan.' · TDV berat--arnavutluk (sıra: Bizans, Epir, Anjou, yine Bizans, Sırplar, küçük bir Arnavut prensliği; yılsız)" },
+  d:"Bizans iç savaşı (1341-1347) sırasında Sırp Kralı Stefan Duşan güney Arnavutluk'a yürüdü ve 1280-81'den beri Bizans elinde olan Berat'ı aldı. Aynı yürüyüşte Avlonya ve Kanina da Sırplar'a geçti. Madde yıl hassasiyetindedir (bir TIB kaydı Avlonya için 1340 der).",
+  kaynak:"TIB Balkan (ÖAW Bizans Araştırmaları) 'Belogradum/Berat' tib.oeaw.ac.at/balkan/explore/entity/123830: 'In 1280-81 the region and Berat became again part of the Byzantine Empire and lost in 1345 to Stefan IV Dušan.' · TIB Kanina 'In 1345 the Serbian king Stefan Uroš IV Dušan conquered the region' · TDV berat--arnavutluk (sıra: Bizans, Epir, Anjou, yine Bizans, Sırplar, küçük bir Arnavut prensliği; yılsız)" },
 
 
 { t:"1284-01-01", kesinlik:"yil", devlet:"sirbistan-nemanjic", devletler:["sirbistan-nemanjic","bizans"], sinir_id:null,
@@ -324,10 +324,10 @@ window.KRONOLOJI_SINIR_KOMSU = [
   kaynak:"Austrian Academy of Sciences, TIB, 'Interpretation of the Border between the Serbian Kingdom and the Byzantine Empire in the period from 1321 to 1334' (Prilep 1334) · TDV manastir--makedonya (Osmanlı fethi 1382-85)" },
 
 { t:"1378-01-01", kesinlik:"yil", devlet:"zeta", devletler:["zeta","sirbistan-nemanjic"], sinir_id:null,
-  b:"Avlonya, Kanina ve Berat İşkodralı Balşa beylerinin eline geçti", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Avlonya",
+  b:"Avlonya, Kanina, Berat ve Hımara İşkodralı Balşa beylerinin eline geçti", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Avlonya",
   etiket:["sinir","toprak-kazanc","konu-askeri","zeta","sirbistan-nemanjic"],
   gun:"1378 (alt sınır; kaynak '1378'den sonra' der, gün yok)",
-  d:"Sırp hâkimiyetindeki Avlonya ve çevresi 1378'den sonra İşkodralı Balşa beylerine geçti. Berat ve Kanina'nın bu yıllardaki akıbeti kendi kaynağında tarihlenemedi; atlas onları bağlı oldukları merkez Avlonya'ya bağladı (1417'de üçü birlikte Osmanlı'ya geçti). Berat'ın bir süre yerel bir Arnavut prensliğinin (Muzaka) elinde olduğu biliniyor, ama yılı kaynakla bulunamadı. Madde yıl hassasiyetindedir.",
+  d:"Sırp hâkimiyetindeki Avlonya ve çevresi 1378'den sonra İşkodralı Balşa beylerine geçti. Berat ve Hımara'nın bu yıllardaki akıbeti kendi kaynağında tarihlenemedi; atlas onları bağlı oldukları merkez Avlonya'ya bağladı (1417'de üçü birlikte Osmanlı'ya geçti). Berat'ın bir süre yerel bir Arnavut prensliğinin (Muzaka) elinde olduğu biliniyor, ama yılı kaynakla bulunamadı. Madde yıl hassasiyetindedir.",
   kaynak:"TDV avlonya (M. Kiel: 'Ardından Bizans ve Sırplar'ın, 1378'den sonra da İskenderiyeli Balşa beylerinin eline geçti'; '1417'de Osmanlılar ülkenin iç kesimindeki Berat şehri ve Kanina Kalesi ile birlikte') · TDV berat--arnavutluk (Sırplar, sonra 'küçük bir Arnavut prensliği', yılsız)" },
 
 ];
