@@ -88,13 +88,82 @@ function _ahPoligonCentroid(geom) {
   return _ahCentroid(ring);
 }
 
+// 🆕 POSTIT-101 (Emre, 18 Ekim 2026): "bu yerleri böyle geometrik üçken şeklinde
+// değil bölgeleri ile birlikte göstermek lazım. avusturyaya bırakılan yerler
+// osmanlıya bırakılan yerler ayrı işaretlemeler ve renkler ile ... tüm
+// anlaşmalarda". İki değişiklik:
+// ① BÖLGE = YERLEŞİMİN PETEĞİ. Kaynakta adıyla anılan her yerin, haritanın
+//   kendi motorunun verdiği peteği (`PETEK_GOVDE`, isyan taraması ve tâbi iç
+//   sınırıyla AYNI tembel havuz) boyanır. Dışbükey kabuk (`zarf`) ÜÇ noktada
+//   üçgen çıkıyor ve aradaki el değiştirmemiş yerleri (Zitvatorok: Budin,
+//   Peşte, İstolni Belgrad) "bırakılan" gibi gösteriyordu — artık YALNIZ
+//   petek bulunamayan bölgede yedek olarak çizilir.
+//   Nokta → yerleşim eşleşmesi koordinatla (≤ 10 km, adı tutan önce): kayıttaki
+//   adlar yerleşim adıyla birebir değil ("Vaç (Vác Kalesi)" ↔ "Vaç (Vác)").
+// ② RENK HARİTA RENGİ DEĞİL, AYIRT EDİCİ RENK. Eski `_cTarafRengi("osmanli")`
+//   haritadaki Osmanlı kırmızısıydı: Osmanlı toprağının üstünde görünmüyordu.
+//   Her taraf için sabit bir işaret rengi; bir antlaşmada iki taraf aynı renge
+//   düşerse sıradaki boş renk verilir. Düğmenin altında renk açıklaması çıkar.
+var _AH_TARAF_RENK = {
+  osmanli: "#f08c00", habsburg: "#1864ab", avusturya: "#1864ab", "macaristan-habsburg": "#1864ab",
+  venedik: "#2b8a3e", rusya: "#7048e8", lehistan: "#c2255c", safevi: "#0c8599",
+  kirim: "#a61e4d", "tbmm-turkiye": "#e03131", prusya: "#495057"
+};
+var _AH_YEDEK_RENK = ["#f08c00", "#1864ab", "#2b8a3e", "#7048e8", "#c2255c", "#0c8599", "#5c940d", "#862e9c"];
+function _ahRenkleriAta(kayit) {
+  var kullanilan = {}, sonuc = {};
+  (kayit.bolgeler || []).forEach(function (b) {
+    if (sonuc[b.taraf]) return;
+    var r = _AH_TARAF_RENK[b.taraf];
+    if (!r || kullanilan[r]) r = _AH_YEDEK_RENK.filter(function (x) { return !kullanilan[x]; })[0] || "#495057";
+    kullanilan[r] = true; sonuc[b.taraf] = r;
+  });
+  return sonuc;
+}
+var _AH_PET = { adIx: null };
+function _ahYerlesimPetegi(lon, lat, ad) {
+  var G = window.PETEK_GOVDE, PP = window.PETEK_GOVDE_PARCA;
+  if (!G || !PP || typeof PETEKLER === "undefined") return null;
+  if (!_AH_PET.adIx) {
+    _AH_PET.adIx = {};
+    PETEKLER.forEach(function (q, j) { if (q && q.a) _AH_PET.adIx[q.a] = j; });
+  }
+  var enIyi = null, enIyiPuan = Infinity, kosLat = Math.cos(lat * Math.PI / 180);
+  var kok = String(ad || "").split(" (")[0];
+  (window.YERLESIMLER || []).forEach(function (y) {
+    if (y.lat == null || y.lon == null || _AH_PET.adIx[y.ad] === undefined) return;
+    var dx = (y.lon - lon) * 111.32 * kosLat, dy = (y.lat - lat) * 110.57;
+    var km = Math.sqrt(dx * dx + dy * dy);
+    if (km > 10) return;
+    var puan = km - (kok && String(y.ad).split(" (")[0] === kok ? 100 : 0);
+    if (puan < enIyiPuan) { enIyiPuan = puan; enIyi = y; }
+  });
+  if (!enIyi) return null;
+  var ix = G[_AH_PET.adIx[enIyi.ad]];
+  if (!ix || !ix.length) return null;
+  return { ad: enIyi.ad, geometry: { type: "MultiPolygon", coordinates: ix.map(function (j) { return PP[j]; }) } };
+}
+
 // ---- KAYDI HARİTAYA DÖK — bölge başına dolgu + noktalar + tek etiket ---------
 function _ahBolgeleriUret(kayit) {
   var ix = _ahHukukiIndeks();
-  var dolguFeat = [], noktaFeat = [], etiketFeat = [];
+  var dolguFeat = [], noktaFeat = [], etiketFeat = [], lejant = [];
+  var renkler = _ahRenkleriAta(kayit);
   (kayit.bolgeler || []).forEach(function (bolge) {
-    var renk = (typeof _cTarafRengi === "function") ? _cTarafRengi(bolge.taraf) : "#8e0b22";
-    var etiketAnkraj = null;
+    var renk = renkler[bolge.taraf] || "#495057";
+    var etiketAnkraj = null, petekSayisi = 0, petekYok = [];
+    // POSTIT-101 ①: noktanın peteğini dolgu olarak ekler; bulamazsa false.
+    function petekEkle(n, kayitId) {
+      var p = _ahYerlesimPetegi(n.lon, n.lat, n.ad);
+      if (!p) { petekYok.push(n.ad); return false; }
+      dolguFeat.push({ type: "Feature", properties: { renk: renk, kayit_id: kayitId, etiket: bolge.etiket,
+        ad: n.ad, kaynak: n.kaynak || "" }, geometry: p.geometry });
+      petekSayisi++;
+      // Etiket noktaların ağırlık merkezine DEĞİL ilk boyanan yere: merkez çoğu kez
+      // el değiştirmemiş toprağa düşer (Zitvatorok: Eğri-Kanije-Estergon → Budin).
+      if (!etiketAnkraj) etiketAnkraj = [n.lon, n.lat];
+      return true;
+    }
     (bolge.sinir_id || []).forEach(function (sid) {
       var sinirKaydi = ix[sid];
       if (!sinirKaydi) { console.warn("ANTLAŞMA HARİTASI: '" + sid + "' HUKUKI_SINIRLAR'da yok."); return; }
@@ -105,6 +174,7 @@ function _ahBolgeleriUret(kayit) {
       }
       var noktalar = _ahBolgeNoktalari(sinirKaydi, bolge.taraf);
       noktalar.forEach(function (n) {
+        petekEkle(n, sid);
         noktaFeat.push({
           type: "Feature",
           properties: { renk: renk, ad: n.ad, kaynak: n.kaynak || "", kayit_id: sid, etiket: bolge.etiket },
@@ -124,7 +194,11 @@ function _ahBolgeleriUret(kayit) {
     // geçtiği yazılı yerleşimlerin kapladığı çekirdek alandır (muhafazakâr: gerçek pay daha
     // geniş olabilir); kaba kutudan farkı, sonraki paylaşmaların (1793/1795) topraklarını
     // KAPSAMAMASIDIR.
-    if (bolge.zarf && Array.isArray(bolge.noktalar)) {
+    if (Array.isArray(bolge.noktalar)) {
+      bolge.noktalar.forEach(function (n) { if (n.lat != null && n.lon != null) petekEkle(n, null); });
+    }
+    // POSTIT-101: zarf artık YEDEK — yalnız bu bölgenin hiçbir noktasına petek bulunamadıysa.
+    if (bolge.zarf && Array.isArray(bolge.noktalar) && petekSayisi === 0) {
       var _zp = bolge.noktalar.filter(function (n) { return n.lat != null && n.lon != null; })
         .map(function (n) { return [n.lon, n.lat]; }).sort(function (a, b) { return a[0] - b[0] || a[1] - b[1]; });
       var _cz = function (o, a, b) { return (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]); };
@@ -177,13 +251,16 @@ function _ahBolgeleriUret(kayit) {
     } else {
       console.warn("ANTLAŞMA HARİTASI: '" + bolge.etiket + "' için hiç geometri/nokta bulunamadı — etiket konulamadı.");
     }
+    if (petekYok.length) console.warn("ANTLAŞMA HARİTASI: '" + bolge.etiket + "' — peteği bulunamayan: " + petekYok.join(", "));
+    lejant.push({ renk: renk, etiket: bolge.etiket, petek: petekSayisi, eksik: petekYok });
   });
-  return { dolgu: dolguFeat, nokta: noktaFeat, etiket: etiketFeat };
+  return { dolgu: dolguFeat, nokta: noktaFeat, etiket: etiketFeat, lejant: lejant };
 }
 
 // ---- ÇİZ / TEMİZLE -------------------------------------------------------------
-var _ahAktifId = null;
+var _ahAktifId = null, _ahBekleyen = null;
 function _ahTemizle() {
+  _ahBekleyen = null;
   if (!_ahHazirMi() || !_ahAktifId) return;
   ["antlasma-harita-dolgu", "antlasma-harita-nokta", "antlasma-harita-etiket"].forEach(function (kaynak) {
     var s = harita.getSource(kaynak);
@@ -221,9 +298,21 @@ function _ahDesenKur(renk) {
   harita.addImage(ad, { width: K, height: K, data: veri });
   return ad;
 }
-function _ahGoster(kayit) {
+// POSTIT-101: petek havuzu (~2 MB) yoksa önce BİR KEZ tembel yüklenir, sonra çizilir.
+// `bitti(lejant)` çizim tamamlanınca çağrılır (düğme kutusu açıklamayı basar).
+function _ahGoster(kayit, bitti) {
   if (!_ahHazirMi() || !harita.getSource("antlasma-harita-dolgu")) return;
   if (_ahAktifId === kayit.id) return;
+  if (!window.PETEK_GOVDE && typeof _petekGovdeYukle === "function" &&
+      !(typeof _PETEK_GOVDE_YUK !== "undefined" && _PETEK_GOVDE_YUK.hata)) {
+    _ahBekleyen = kayit.id;
+    _petekGovdeYukle(function () {
+      if (_ahBekleyen !== kayit.id) return;      // bu arada madde değişti / kapatıldı
+      _ahBekleyen = null;
+      _ahGoster(kayit, bitti);
+    });
+    return;
+  }
   var f = _ahBolgeleriUret(kayit);
   f.dolgu.forEach(function (ft) {
     try { ft.properties.desen = _ahDesenKur(ft.properties.renk); }
@@ -233,6 +322,7 @@ function _ahGoster(kayit) {
   harita.getSource("antlasma-harita-nokta").setData({ type: "FeatureCollection", features: f.nokta });
   harita.getSource("antlasma-harita-etiket").setData({ type: "FeatureCollection", features: f.etiket });
   _ahAktifId = kayit.id;
+  if (bitti) bitti(f.lejant);
 }
 
 // ---- KATMAN KURULUMU (kendi "load" dinleyicisi, kalıcı) ------------------------
@@ -304,16 +394,44 @@ function _ahDugmeEkle(kayit) {
   btn.style.color = "#0a2f5c";
   var KAPALI = "🗺️ Haritada gör — bırakılan bölgeler", ACIK = "✕ Haritadan kaldır";
   btn.textContent = KAPALI;
+  // POSTIT-101 ②: renk açıklaması — hangi renk hangi tarafa kalan/bırakılan yer.
+  var lej = document.createElement("div");
+  lej.style.marginTop = "6px"; lej.style.fontSize = "12px"; lej.style.lineHeight = "1.5";
+  lej.hidden = true;
+  function lejantBas(L) {
+    lej.innerHTML = "";
+    (L || []).forEach(function (s) {
+      var sat = document.createElement("div");
+      var kare = document.createElement("span");
+      kare.style.cssText = "display:inline-block;width:12px;height:12px;margin-right:6px;vertical-align:-2px;" +
+        "border:2px solid " + s.renk + ";background:" + s.renk + "55";
+      sat.appendChild(kare);
+      sat.appendChild(document.createTextNode(s.etiket + (s.petek ? " (" + s.petek + " yer)" : "")));
+      if (s.eksik && s.eksik.length) {
+        var e = document.createElement("small");
+        e.style.opacity = "0.7";
+        e.textContent = " — bölgesi bulunamayan: " + s.eksik.join(", ");
+        sat.appendChild(e);
+      }
+      lej.appendChild(sat);
+    });
+    lej.hidden = !(L && L.length);
+  }
   btn.addEventListener("click", function () {
-    if (_ahAktifId === kayit.id) {
+    if (_ahAktifId === kayit.id || _ahBekleyen === kayit.id) {
       _ahTemizle();
+      lej.hidden = true;
       btn.textContent = KAPALI; btn.style.background = "#fff"; btn.style.color = "#0a2f5c";
     } else {
-      _ahGoster(kayit);
-      btn.textContent = ACIK; btn.style.background = "#0a2f5c"; btn.style.color = "#fff";
+      btn.textContent = "⏳ Bölgeler yükleniyor…";
+      _ahGoster(kayit, function (L) {
+        lejantBas(L);
+        btn.textContent = ACIK; btn.style.background = "#0a2f5c"; btn.style.color = "#fff";
+      });
     }
   });
   kutu.appendChild(btn);
+  kutu.appendChild(lej);
   ozel.appendChild(kutu);
 }
 
