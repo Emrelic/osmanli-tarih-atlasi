@@ -12810,6 +12810,8 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_fetihkitapcik", // window.EKOKUMA_FETIHKITAPCIK — İstanbul fethi kitapçığı (0080/H-0027); tek alt çizgi, _ekHavuz regex'i için
   "ekokuma_iktisat",     // window.EKOKUMA_IKTISAT — Osmanlı ekonomisi ve Avrupa karşılaştırması, 7 kart (KUTU-P1-1015, 0052/H-0033)
   "ekokuma_nasil",       // window.EKOKUMA_NASIL — 35 padişaha "nasıl bilirdiniz?" övgü/yergi kartı (KUTU-P1-1015, 0076/H-0009)
+  // 🆕 18 Ekim 2026 — Emre: devlet makamları, klasik dönemden nezaretlere
+  "ekokuma_makam",       // window.EKOKUMA_MAKAM — sadrazam·vezir·divan·şeyhülislam·kazasker/kadı·beylerbeyi·kapudan·reisülküttâb·serasker·Meclis-i Vükelâ·dönüşüm tablosu (11 kart)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
