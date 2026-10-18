@@ -1805,6 +1805,17 @@ var STATU_YAZI = {
 // satırla doldurur ve kendi kendini görünmez kılardı.
 var _statuBilinmeyen = {};
 
+// Etiket statü ekini ("· Osmanlı'ya tâbi") zaten taşıdığı için, `v:` adı (`k`)
+// içindeki tâbilik ibaresi ikinci kez yazılmaz (18 Ekim 2026; ör. "Crnojeviç
+// Zetası (Osmanlı tâbii) · Osmanlı'ya tâbi"). Yalnız GÖSTERİM: veri değişmez,
+// ve "(Fransız himayesi…)" gibi BAŞKA bir bağı anlatan ibare silinmez.
+function tabiAdSade(k) {
+  var a = String(k)
+    .replace(/\s*\((?:Osmanlı'ya |Osmanlı )?tâbii?\)/g, "")
+    .replace(/^Osmanlı'ya tâbi\s+/, "");
+  return a || String(k);
+}
+
 function statuYazi(s) {
   // Motor `statu`yu boş bırakmıyor (`_dn.statu || "vassal"`), ama bu fonksiyon
   // motorun garantisine DEĞİL kendi girdisine bakıyor: `vl` elle yazılmış bir
@@ -1952,7 +1963,8 @@ function etiketleriYerlestir() {
     // Yalnız `ve.k` üzerinden hesaplansaydı çakışma kutusu statü ekinin
     // genişliği kadar DAR çıkar ve eleme gerçek çakışmayı GÖREMEZDİ. Bu, bölge
     // etiketindeki `yazi`/`ad` ayrımının ta kendisi ve orada bir kez ısırmış.
-    var vyazi = ve.k + " · " + vst.yazi;
+    var vad = tabiAdSade(ve.k);
+    var vyazi = vad + " · " + vst.yazi;
     var vpt = harita.project(ve.p);
     var vg = vyazi.length * KARAKTER * VASSAL_PUNTO + 6, vy = VASSAL_PUNTO * 1.36;
     var vkutu = { x0: vpt.x - vg / 2, x1: vpt.x + vg / 2,
@@ -1972,7 +1984,7 @@ function etiketleriYerlestir() {
     // Ad ile statü AYRI düğüm: statü sönük yazılıyor ki tâbi devletin ADI
     // okunur kalsın. Metnin TAMAMI yukarıdaki `vyazi` ile aynı uzunlukta —
     // ad + " " + "· " + statü = ad + " · " + statü.
-    vel.appendChild(document.createTextNode(ve.k + " "));
+    vel.appendChild(document.createTextNode(vad + " "));
     var vsp = document.createElement("span");
     vsp.className = "vs";
     vsp.textContent = "· " + vst.yazi;
