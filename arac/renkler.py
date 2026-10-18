@@ -1763,6 +1763,7 @@ BOYALAR = {
     #   astarhan <-> altinorda 18,4
     # ⚠️ Dokuzunun kunyesi VAR (337 kayit) ama `harita:` alani BOS.
     "savoya":       ("Savoya Kontlugu/Dukaligi", "#12129f"),
+    "saluzzo":      ("Saluzzo Markizligi",    "#9c5a1e"),
     "floransa":     ("Floransa Cumhuriyeti",  "#deabd8"),
     "bonacolsi":    ("Bonacolsi (Mantua)",    "#421542"),
     "sardinya":     ("Sardinya-Piyemonte",    "#24de24"),
