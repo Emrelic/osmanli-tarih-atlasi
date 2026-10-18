@@ -11855,25 +11855,29 @@ function _antlasmaHal(hal) {
 // ⚠️ `once` rengi ZATEN HER PETEKTE VAR (`_farkKutusuCiz` hesaplıyor, "◀ Öncesi"
 //    düğmesi kullanıyor) — ölçüldü: 12/12 petekte tanımlı. Ek katman, ek kaynak,
 //    ek zamanlayıcı GEREKMEDİ: yalnız `["get", hal]` anahtarı değişiyor.
+// 🔴 DİZİ DEĞİŞTİ — Emre, 18 Ekim 2026: *"önce eski sahibin renginin bir ton
+// koyusu → Osmanlı rengi → eski renk → gene Osmanlı rengi. Osmanlı'nın
+// kaybettiği toprakta tam tersi."* Her petekte `once` = el değiştirmeden önceki
+// sahip, `sonra` = sonraki sahip; dizi HER İKİ YÖNDE aynıdır:
+//   kazanç: koyu(eski devlet) → Osmanlı → eski devlet → Osmanlı
+//   kayıp : koyu(Osmanlı)     → karşı taraf → Osmanlı → karşı taraf
+// ⇒ hâl sırası: koyu(once) → sonra → once → sonra → (çözülme)
 var ELE_GECIRME_DILI = {
-  vurus: 2,          // Emre: "2 kere yanıp sönmeli" — KOYU vuruş sayısı
-  eskiMs: 300,       // 2. adım: sahne eski harita durumuyla açılır
-  yanikMs: 420,      // koyu tonun ekranda kaldığı süre
-  araMs: 180,        // 4 ve 6: vuruşlar arasındaki ESKİ DURUM aralığı
-  sahipMs: 620       // 7. adım: ele geçirenin ORİJİNAL rengi — sonra çözülür
+  yanikMs: 450,      // 1: ÖNCEKİ sahibin koyu tonu
+  yeniMs: 330,       // 2: sonraki sahibin rengi
+  eskiMs: 330,       // 3: önceki sahibin rengi
+  sahipMs: 700       // 4: sonraki sahibin rengi — sonra çözülür
 };
 // Diziyi ayrı bir fonksiyon üretir ki hem burası hem ölçüm aleti AYNI
 // tablodan okusun (sayıyı iki yere yazmamak — §11).
 function eleGecirmeDizisi() {
-  var s = [];
-  s.push({ hal: "once", ms: ELE_GECIRME_DILI.eskiMs });   // ② eski harita durumu
-  for (var i = 0; i < ELE_GECIRME_DILI.vurus; i++) {
-    s.push({ hal: "koyu", ms: ELE_GECIRME_DILI.yanikMs }); // ③ ve ⑤ yansın
-    s.push({ hal: "once", ms: ELE_GECIRME_DILI.araMs });   // ④ ve ⑥ sönsün = ESKİ DURUM
-  }
-  s.push({ hal: "sonra", ms: ELE_GECIRME_DILI.sahipMs });  // ⑦ ele geçirenin rengi
-  s.push({ hal: "yok", ms: 0 });                    // çözülme — harita kendi rengini gösterir
-  return s;
+  return [
+    { hal: "koyu",  ms: ELE_GECIRME_DILI.yanikMs },
+    { hal: "sonra", ms: ELE_GECIRME_DILI.yeniMs },
+    { hal: "once",  ms: ELE_GECIRME_DILI.eskiMs },
+    { hal: "sonra", ms: ELE_GECIRME_DILI.sahipMs },
+    { hal: "yok",   ms: 0 }                     // çözülme — harita kendi rengini gösterir
+  ];
 }
 
 // Yanıp sönme. Kare başına HESAP YOK — yalnız birkaç setPaintProperty.
@@ -12099,7 +12103,7 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
       // kazanılırken Yayça kaybediliyor); tek bir "koyu renk" sabiti ikisini
       // de yanlış anlatırdı.
       fsYerel.push({ type: "Feature",
-                     properties: { once: x.once, sonra: x.sonra, koyu: x.saydamKoyu ? x.sonra : koyuTon(x.sonra),
+                     properties: { once: x.once, sonra: x.sonra, koyu: x.saydamKoyu ? x.once : koyuTon(x.once),
                                    ad: x.ad, kenar: (x.kenar === undefined ? 1 : x.kenar),
                                    savasOncesi: x.savasOncesi || x.once, fiili: x.fiili || x.once },
                      geometry: { type: "MultiPolygon", coordinates: ix.map(function (j) { return P[j]; }) } });
@@ -14872,7 +14876,10 @@ function haritayiOlayaGotur(o, zorla) {
     // `ANIM.bitince` sahne yoksa/bitmişse HEMEN koşar — yani sahnesiz
     // maddede davranış eskisinin AYNISI, gecikme eklenmiyor.
     function _simgeVeAnlati() {
-      isaretYanipSon(hedef, olayMuharebeTuru(o));   // NEREDE (halka) + NE (glif, H-0007)
+      // 18 Ekim 2026 — Emre: halka YALNIZ toprak alma/verme OLMAYAN maddede;
+      // toprak el değiştiriyorsa bölgenin renk vuruşları "nerede"yi zaten söyler.
+      var _topraklaSahne = !!(ANT_FARK.madde === o && ANT_FARK.fs && ANT_FARK.fs.length);
+      if (!_topraklaSahne) isaretYanipSon(hedef, olayMuharebeTuru(o));   // NEREDE (halka) + NE (glif, H-0007)
       // 13 Eylül 2026 — H-0006: savaş maddelerinde savaşın KENDİ simgesi de
       // (kılıç/çapa/ateş — SAVAS_TUR_SIMGE) ayrıca 3 kez parlar.
       if (o.k === "savas") savasIsaretiParlat(o.gi);
