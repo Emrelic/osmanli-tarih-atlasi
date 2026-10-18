@@ -7063,7 +7063,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"ahom", ad:"Ahom Krallığı (Assam)", tur:"krallik", bolge:"guney-asya",
-  f:"1281-01-01", t:"1826-01-01", baskent:"Çaraideo → Rangpûr", harita:"ahom",
+  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): geleneksel kuruluş 1228 (Ahom Buranji; Sukaphaa Namrup'a varışı) — yalnız Vikipedi/derleme aktarımıyla görüldü, akademik gövde açılamadı; yeni çalışmalar 14. yy'a çeker (tartışmalı). f GENİŞLETİLMEDİ, kaynak bekliyor.", t:"1826-01-01", baskent:"Çaraideo → Rangpûr", harita:"ahom",
   ozet:"Brahmaputra vadisinde altı yüzyıl süren, Bâbürlü seferlerini Saraighat'ta durdurmasıyla anılan Tai kökenli krallık; Birmanya istilâsından sonra İngiliz idaresine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -7115,7 +7115,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"kalikut", ad:"Kalikut Zamorinliği", tur:"krallik", bolge:"guney-asya",
-  f:"1281-01-01", t:"1766-01-01", baskent:"Kalikut", harita:"kalikut",
+  f:"1100-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): f 1281 damgasından 1100'e GENİŞLETİLDİ — Eranad şefi/Eradi çizgisi (Zamorin'in atası) Sahapedia'ya göre c. 1100'de Porlanad'a saldırdı (yıl yaklaşık; ikinci akademik kaynak açılamadı). Kalikut şehri 13-14. yy'da belirir; süreklilik çıkarımı beyan edilir.", t:"1766-01-01", baskent:"Kalikut", harita:"kalikut",
   ozet:"Malabar kıyısının baharat ticaretini elinde tutan, Portekiz'e karşı Osmanlı donanmasından yardım isteyen Hindu krallığı; Meysûr'un seferiyle son buldu. ⚠️ TDV'de `kalikut` maddesi YOK (ölçüldü); standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -7128,7 +7128,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"travankur", ad:"Travankur Krallığı (Venâd)", tur:"krallik", bolge:"guney-asya",
-  f:"1281-01-01", t:"1949-07-01", baskent:"Padmanabhapuram → Trivandrum", harita:"travankur",
+  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): Venâd 12. yy başında (c. 1102 yazıtı) anılır, Pandya hâkimiyeti c. 1275; yalnız Vikipedi aktarımıyla görüldü (Chackochan 1979, Narayanan 2013 açılamadı). f GENİŞLETİLMEDİ, kaynak bekliyor.", t:"1949-07-01", baskent:"Padmanabhapuram → Trivandrum", harita:"travankur",
   ozet:"Malabar'ın güney ucunda Venâd'dan doğan, Kolaçel'de Hollanda donanmasını yenmesiyle anılan krallık; İngiliz himâyesinde 1923'ün ötesine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -7164,7 +7164,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"arakan", ad:"Arakan (Mrauk U) Krallığı", tur:"krallik", bolge:"guneydogu-asya",
-  f:"1281-01-01", t:"1785-01-02", baskent:"Mrauk U", harita:"arakan",
+  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): Lemro/Parein/Launggyet sürekliliği (Launggyet 1237 ya da 22 Nisan 1251, Rakhine Razawin Thit) yalnız Vikipedi aktarımıyla görüldü; Leider/Charney açılamadı. f GENİŞLETİLMEDİ, kaynak bekliyor.", t:"1785-01-02", baskent:"Mrauk U", harita:"arakan",
   ozet:"Bengal körfezinin doğu kıyısında Budist krallar altında müslüman unvan ve sikkelerin kullanıldığı melez devlet; Konbaung fethiyle Birmanya'ya katıldı (kaynak: TDV, madde: arakan).",
   kaynak:"arakan",
   kronoloji:[
@@ -7206,7 +7206,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"san-devletleri", ad:"Şan Beylikleri (Sawbwa'lıklar)", tur:"beylik", bolge:"guneydogu-asya",
-  f:"1281-01-01", t:"1923-10-29", baskent:"Kengtung · Hsipaw · Yawnghwe (çok merkezli)", harita:"san-devletleri",
+  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): 1281 öncesi Şan beylikleri (Hsenwi kronikleri, Möng Mao) kronikçi/efsanevî; bağımsız akademik kaynak açılamadı (Daniels 2018, Scott 1967 görülmedi). f damgası korunur; 1281 öncesi bulunamadı.", t:"1923-10-29", baskent:"Kengtung · Hsipaw · Yawnghwe (çok merkezli)", harita:"san-devletleri",
   ozet:"Birmanya'nın doğu yaylasında sawbwa denen kalıtsal beylerin yönettiği Tai devletçikleri; Birmanya, Çin ve Siyam arasında tâbiiyet değiştirerek 1923'ün ötesine geçtiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -7270,7 +7270,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"malay-sultanliklari", ad:"Malay Sultanlıkları (Kedah, Patani, Perak, Selangor, Trengganu, Pahang)", tur:"sultanlik", bolge:"guneydogu-asya",
-  f:"1281-01-01", t:"1909-07-10", baskent:"(çok merkezli)", harita:"malay-sultanliklari",
+  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): Kedah (Kadaram) 1025 Çola seferi yalnız Vikipedi aktarımıyla görüldü; Pahang/Patani/Terengganu için 1281 öncesi kaynaklı olay bulunamadı. f damgası korunur.", t:"1909-07-10", baskent:"(çok merkezli)", harita:"malay-sultanliklari",
   ozet:"Malaka'nın mirasını taşıyan, Siyam ile Cohor arasında tâbiiyet değiştiren yarımada sultanlıkları; Anglo-Siyam Antlaşması'yla İngiliz himâyesine geçtiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -7295,7 +7295,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"palembang-sultanligi", ad:"Palembang Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
-  f:"1281-01-01", t:"1825-01-01", baskent:"Palembang", harita:"palembang-sultanligi",
+  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): 1281 öncesi Palembang Srivijaya merkezidir (sultanlık künyesi değil); Çola 1025 ve Çin elçilikleri 1079 yalnız ikincil aktarım. 1281 öncesi bu künyeye bağlanabilir kaynaklı olay bulunamadı; damga doğrudur.", t:"1825-01-01", baskent:"Palembang", harita:"palembang-sultanligi",
   ozet:"Srivicaya mirası üzerinde kurulan, Musi ırmağının biber ve kalay ticaretini denetleyen Sumatra sultanlığı; Hollanda idaresine katılarak son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ 10 Ağustos 2026 BULGU (değiştirilmedi, bilgi amaçlı): akademik araştırma, 'sultanlık' unvanının ve ilk Sultan Abdurrahman'ın tahta çıkışının da 1659'da (Hollanda'nın eski sarayı Kuto Gawang'ı yakmasının HEMEN ardından) ilan edildiğini gösteriyor — yani 1659 hem işgal hem sultanlığın ilanı olabilir, atlastaki f:1281 (pencere başlangıcı) ile gerçek kuruluş arasındaki fark sanıldığından küçük olabilir. 16. yy'daki öncül beylik (Ki Gede ing Suro) için akademik kalite kaynak bulunamadı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -7334,7 +7334,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"gova-makassar", ad:"Gova (Makassar) Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
-  f:"1281-01-01", t:"1667-11-18", baskent:"Makassar (Sombaopu)", harita:"gova-makassar",
+  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): Bulbeck: Gowa 13.-14. yy'da ortaya çıkar; Tumanurung ~1300 kaynaksız; 1281 öncesi bulunamadı, damga korunur.", t:"1667-11-18", baskent:"Makassar (Sombaopu)", harita:"gova-makassar",
   ozet:"Güney Sulavesi'de serbest liman siyasetiyle Hollanda tekeline karşı duran sultanlık; Bongaya Antlaşması'yla bağımsızlığını yitirdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak (Cogent Arts & Humanities 13:1, 2604957, 2026 — Poelinggomang vd. 2004'e dayanarak)",
   kronoloji:[
@@ -7358,7 +7358,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"tidore-sultanligi", ad:"Tidore Sultanlığı (Moluk)", tur:"sultanlik", bolge:"guneydogu-asya",
-  f:"1281-01-01", t:"1923-10-29", baskent:"Tidore", harita:"tidore-sultanligi",
+  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): Yerel gelenek ilk kolano Sahjati'yi 1081'e koyar (tartışmalı, İslâm sonrası gelenek); akademik dayanak açılamadı (Andaya 1993 görülmedi). f GENİŞLETİLMEDİ.", t:"1923-10-29", baskent:"Tidore", harita:"tidore-sultanligi",
   ozet:"Ternate'nin 11 km ötesindeki rakip karanfil sultanlığı; İspanya'ya yaslanarak Hollanda'ya direndi, Nuku'nun isyanından sonra himâye altında 1923'ün ötesine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -7369,7 +7369,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"banda-adalari", ad:"Banda Adaları (Orang Kaya Meclisleri)", tur:"devlet", bolge:"guneydogu-asya",
-  f:"1281-01-01", t:"1621-03-08", baskent:"Banda Neira", harita:"banda-adalari",
+  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): 1281 öncesi Banda için dayanak bulunamadı (Zhufanzhi 1225 girişi açılamadı); damga korunur.", t:"1621-03-08", baskent:"Banda Neira", harita:"banda-adalari",
   ozet:"Dünyanın tek muskat kaynağını elinde tutan, kralsız orang kaya meclisleriyle yönetilen ada topluluğu; Hollanda'nın 1621 kıyımıyla siyasî varlığı sona erdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: John Villiers, 'Trade and Society in the Banda Islands in the Sixteenth Century', Modern Asian Studies 15(4), 1981 (hakemli) + Holden Furber, 'Rival Empires of Trade in the Orient' (Univ. of Minnesota Press, 1976)",
   kronoloji:[
@@ -7392,7 +7392,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"pagaruyung", ad:"Pagaruyung (Minangkabau) Krallığı", tur:"krallik", bolge:"guneydogu-asya",
-  f:"1281-01-01", t:"1833-01-01", baskent:"Pagaruyung", harita:"pagaruyung",
+  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): Pagaruyung adı 1347 (Adityawarman) sonrasıdır; Dharmasraya öncülü ayrı künye gerektirir. 1281 öncesi bulunamadı; damga doğrudur.", t:"1833-01-01", baskent:"Pagaruyung", harita:"pagaruyung",
   ozet:"Sumatra'nın iç yaylasında anaerkil Minangkabau geleneğini taşıyan krallık; 1685'te fiilî bağımsızlığını yitirdi, hânedan Padri Savaşı'nda son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -7404,7 +7404,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"timor-beylikleri", ad:"Timor Beylikleri (Liurai'lar)", tur:"beylik", bolge:"guneydogu-asya",
-  f:"1281-01-01", t:"1769-10-10", baskent:"(çok merkezli liurai'lıklar)", harita:"timor-beylikleri",
+  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): Timor Zhufanzhi'de (1225) Ti-wu adıyla anılır; bu ada anılışıdır, beylik kanıtı değil; 1281 öncesi beylik kaynağı bulunamadı, damga korunur.", t:"1769-10-10", baskent:"(çok merkezli liurai'lıklar)", harita:"timor-beylikleri",
   ozet:"Sandal ağacı ticaretiyle yaşayan, liurai denen yerli beylerin yönettiği Timor devletçikleri; Portekiz merkezinin Dili'ye taşınmasıyla sömürge düzenine bağlandılar. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak (Hans Hägerdal, 'Lords of the Land, Lords of the Sea', KITLV 2012)",
   kronoloji:[
