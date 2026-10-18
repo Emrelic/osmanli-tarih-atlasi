@@ -58,6 +58,18 @@ B'yi elle okudum (99 satır). Sonuç:
 5. **Hicrî dönüşümlü günler (TDV):** TDV'nin 1582 sonrası bazı günleri Jülyen/Rûmî olabiliyor; hafta günü ile ölçülmeden çevrilmesin (mevcut kural).
 6. **Kapsam:** önce S2 (~60 madde) uygulansın mı, yoksa 303 satırlık S3 listesi için önce takvimi söyleyen kaynak mı aransın?
 
+## 3b. Emre'nin kararları (18 Ekim 2026)
+
+1. İngiltere 1582–1752: Jülyen günler Gregoryen'e çevrilir.
+2. İsveç: kaynağın günü alınır, çeviri `ic_not_takvim`de ayrıca yazılır.
+3. Yunan O.S. (1923'e dek): Gregoryen karşılığı atlasa, ulusal gün metne parantezle.
+4. Rus kaynak "eski stil" demiyorsa çevrilmez; yalnız kaynak takvimi kesin söylüyorsa çevrilir.
+5. TDV Hicrî/Rûmî: karar Claude'da → hafta günü veya hicrî–mîlâdî eşleşmesiyle ölçülmeden çevrilmez;
+   ölçülemeyen gün olduğu gibi kalır ve "takvimi belirsiz" listesine girer (mevcut kural korunur).
+6. Sıra: önce kaynağı takvimi açıkça söyleyen S2 maddeleri; "takvimi belirsiz" 303 satır sonra,
+   takvimi söyleyen ikinci kaynak aranarak.
+7. 1582 öncesi gösterim: Jülyen günü olduğu gibi kalır (29 Mayıs 1453), çift gösterim yapılmaz.
+
 ## 4. Sınırlar
 
 - Tarama anahtar kelime ve regex'e dayanır; B'yi elle okudum, A, C, D, E'yi okumadım. D'de gerçek ihlal olabilir.
