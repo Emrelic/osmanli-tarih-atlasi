@@ -726,7 +726,7 @@ function acikTon(hex, kat) {
 }
 // 🎨 OSMANLI TÂBİ RENGİ — `acikTon`a BAĞLI (Emre onayı, 11 Ekim 2026: *"tabi
 // rengi açıktona bağlansın"*). Eski elle seçilmiş sabit #b2384a KALDIRILDI;
-// app.js'te tâbi tonu artık YALNIZ bu satırdan okunur (`vassal-serit-dis`,
+// app.js'te tâbi tonu artık YALNIZ bu satırdan okunur (`vassal-dolgu`,
 // himaye yedeği, yerleşim kartı, `_sahipRengi`, iki lejant).
 // ÖLÇÜLDÜ (CIE76): #8e0b22 → #a53c4e ΔE 18,0 (eski #b2384a: 14,9) ⇒ tâbi ile
 // doğrudan ARTIK DAHA AYRIK, karışma yok.
@@ -1266,7 +1266,7 @@ function ufukYukle(bitti) {
 //    çevrilirse A geri GELMESİN.
 var UFUK_TABAN_KATMANLAR = [
   "devlet-dolgu", "devlet-cizgi", "imparatorluk-hale",
-  "vassal-serit-dis", "vassal-dolgu",
+  "vassal-dolgu", "vassal-ic-sinir",
   "himaye-serit-dis", "himaye-dolgu", "osmanli-dolgu",
   "osmanli-cizgi", "himaye-serit-ic", "hukuki-sinir-dolgu"
 ];
@@ -1748,7 +1748,8 @@ var vassalEtiketleri = [];
 // Yazımı tutmayan bir değer gelirse aşağıdaki bilinmeyen dalı onu ZATEN
 // görünür kılıyor — sözlüğün eksikliği sessiz bir kayba dönüşmez.
 var STATU_YAZI = {
-  "vassal":     "tâbi",
+  // Emre, 18 Ekim 2026: "etiketlerinde osmanlıya tabi etiketi ile görünecekler"
+  "vassal":     "Osmanlı'ya tâbi",
   "özerk":      "özerk",
   "himaye":     "himaye",
   "haraçgüzâr": "haraçgüzâr",
@@ -1758,7 +1759,7 @@ var STATU_YAZI = {
   // Hanlığı'nın Nogay bozkırı — `v:[{…statu:"gevsek", himaye:true}]`. Tanım:
   // arac/girdi.py BILINEN_DONEM_ALANLARI["statu"]. Motor `d.h[].renk`i açık
   // tona (#e8a2aa) çeker; bu anahtar yalnız ETİKET yazısı içindir.
-  "gevsek":     "gevşek tâbi"
+  "gevsek":     "Osmanlı'ya gevşek tâbi"
 };
 // Bilinmeyen statü uyarısı DEĞER BAŞINA BİR KEZ: `etiketleriYerlestir` her
 // zoom/move olayında koşuyor, uyarı kapısız olsa konsolu saniyede onlarca
@@ -2636,15 +2637,24 @@ harita.on("load", function () {
   // BÜTÜNÜNÜ (osmanlı+tâbi) çevreleyen KALIN dış hat olarak DEĞİŞMEDEN durur;
   // bu yeni şerit yalnız tâbi toprağı KENDİ İÇİNDE, komşusundan (doğrudan
   // idareden de) ayırt eden İKİNCİ, daha ince bir kuşaktır.
-  harita.addLayer({ id: "vassal-serit-dis", type: "line", source: "vassal",
-    layout: { "line-cap": "round", "line-join": "round" },
-    paint: { "line-color": TABI_RENK, "line-opacity": 1,
-      "line-width": ["interpolate", ["linear"], ["zoom"], 3, 4, 5, 6, 8, 8] } });
+  // 🆕🆕🆕 TÂBİ RENGİ GERİ — Emre, 18 Ekim 2026 (H-0084 TERSİNE ÇEVRİLDİ):
+  // *"vassal devletler vassal rengi ile görünecekler ve bu devletlerin
+  //  sınırları kendi içinde çizili olacak … bir ton açık kırmızı ve kendi iç
+  //  küçük sınır çizgileri ile ayrılmış ve etiketlerinde osmanlıya tabi
+  //  etiketi ile görünecekler."*
+  // ⇒ Dolgu TABI_RENK (acikTon #8e0b22 = #a53c4e). `vassal-serit-dis`
+  //   KALDIRILDI: dolgu şeritle aynı renk olunca şeridin DIŞ yarısı komşu
+  //   toprağa taşan 2-4 px'lik bir tâbi kuşağından başka bir şey değildi.
+  //   İmparatorluk halesi (osmanlı+tâbi dış hattı) DEĞİŞMEDİ. Her tâbi devletin
+  //   kendi hattı `vassal-ic-sinir` (bkz. `vassalIcSinirGuncelle`).
   harita.addLayer({ id: "vassal-dolgu", type: "fill", source: "vassal",
-    paint: { "fill-color": "#8e0b22", "fill-opacity": 1 } });
-  // Kesikli çizgi KALDIRILDI: "ayrı devlet" algısını en çok o üretiyordu.
-  // Tâbi toprağın dış hattı artık imparatorluk halesinden geliyor; H-0084'ten
-  // sonra `vassal-serit-dis` KENDİ tâbi rengiyle ikinci, iç bir kuşak ekliyor.
+    paint: { "fill-color": TABI_RENK, "fill-opacity": 1 } });
+  // Dolgunun HEMEN ÜSTÜNDE, himaye şeritlerinin altında.
+  harita.addSource("vassal-ic", agirKaynak());
+  harita.addLayer({ id: "vassal-ic-sinir", type: "line", source: "vassal-ic",
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": "#6d0d1c", "line-opacity": 0.85,
+      "line-width": ["interpolate", ["linear"], ["zoom"], 3, 0.7, 5, 1.1, 8, 1.6] } });
 
   // 🆕 HİMAYE ŞERİDİ (kuyruk ⑫, Emre — 2 Eylül 2026): "Himaye ince Osmanlı
   // kırmızısı şerit ile o ülke topraklarını çevreleyen bir yapı olarak
@@ -3437,10 +3447,10 @@ harita.on("load", function () {
     // voyvodalık, himaye…) AÇILMIYOR — d: ve v: ikilisi korunuyor, ayrım görsel
     // katmanda yapılıyor.
     '<span><i style="background:#8e0b22"></i> Doğrudan idare</span>' +
-    // 🆕 16 Eylül 2026 — H-0084: iç dolgu artık Osmanlı kırmızısıyla AYNI;
-    // ayrım dıştaki tâbi-renkli şeride taşındı (`vassal-serit-dis`).
-    '<span><i style="background:#8e0b22;border:3px solid ' + TABI_RENK + ';' +
-    'box-sizing:border-box"></i> Bağlı / tâbi topraklar (kırmızı iç, açık kırmızı şerit)</span>' +
+    // 18 Ekim 2026 — dolgu yeniden tâbi rengi, her tâbi devlet kendi ince
+    // hattıyla (`vassal-ic-sinir`). H-0084'ün şeritli gösterimi kalktı.
+    '<span><i style="background:' + TABI_RENK + ';border:1px solid #6d0d1c;' +
+    'box-sizing:border-box"></i> Osmanlı\'ya tâbi devletler (açık kırmızı, kendi sınırlarıyla)</span>' +
     // 🆕 14 Eylül 2026 — ÜÇÜNCÜ TON (Emre 0043/H-0003 seçenek D): "Osmanlı
     // kırmızısı · vassal kırmızısı · daha açık tonda kırmızı ile himaye edilen
     // gevşek kontrollü bozkır." Örnek haritadaki gibi dıştan içe:
@@ -5621,6 +5631,87 @@ function isyanGuncelle(t) {
   ISYAN.fs = fs;
   harita.getSource("isyan").setData({ type: "FeatureCollection", features: fs });
   isyanLejanti(fs);
+}
+
+// ---------- TÂBİ DEVLETLERİN KENDİ SINIRI (`vassal-ic-sinir`) ----------
+// Emre, 18 Ekim 2026: *"bu devletlerin sınırları kendi içinde çizili olacak
+// yani eflak boğdan ve erdel … kendi iç küçük sınır çizgileri ile ayrılmış"*.
+// 🔴 NİÇİN TARAYICIDA: `d.v` tâbi toprağı TEK union olarak taşır, kimlik
+//   `unary_union`da kaybolur (`uret_petek.py` `kayit["v"]`); `d.vk` parça
+//   kimliği verir ama bitişik Eflak+Boğdan TEK parçadır. Motor donuk.
+// NASIL: o gün etkin `v:` dönemi olan her yerleşimin peteği (`PETEK_GOVDE`,
+//   isyan taramasının kullandığı aynı tembel havuz) kimliğine (`kid`, yoksa
+//   `k`) göre gruplanır ve HER GRUBUN DIŞ HATTI çizilir: grup içi ortak kenar
+//   iki kez sayılıp düşer, kalan (n = 1) kenarlar hattır; iki komşu devletin
+//   hatları ortak sınırda üst üste biner. Aynı grubun petekleri ortak kenarda
+//   birebir aynı köşeleri taşır — ÖLÇÜLDÜ (1550-06-01): Eflak 16 petek, 233
+//   ortak / 200 dış kenar; Boğdan 14 petek, 251/237.
+// 🔴 "Yalnız iki FARKLI grubun paylaştığı kenar" kuralı DENENDİ, REDDEDİLDİ
+//   (1550-06-01): Karpat sırtında Erdel ile Eflak/Boğdan peteklerinin köşeleri
+//   birebir çakışmıyor (sırta yaslanan sınır), sınır parça parça çıktı.
+// ⚠️ Kimliksiz (`kid` ve `k` yok) dönem grup DEĞİLDİR, hat almaz — ama
+//   kimlikli komşusunun hattında DELİK açar (Brassó/Segesvár/Erdel Belgradı
+//   Erdel'in dışında görünüyordu; 18 Ekim'de veride `kid` tamamlandı). O
+//   düzeltmeden sonra veride 20 kimliksiz `v:` dönemi var (`v:` 654 · kid 568
+//   · yalnız k 66).
+// ⚠️ Hat `d.v`den değil motorun GİRDİSİNDEN (`v:` dönemleri) türer; motor bir
+//   peteği tâbi kümesinden düşürdüyse (köprü, rötuş) hat dolgudan sapabilir.
+// 🔴 BÜTÇE: kare başına yalnız imza karşılaştırması; kenar hesabı imza (etkin
+//   petek×grup kümesi) değişince. Havuz (~2,2 MB) ilk tâbi günde BİR KEZ iner.
+var VIC = { imza: null, liste: null, yukleniyor: false };
+function _vicListe() {
+  if (VIC.liste) return VIC.liste;
+  var petAd = {}, L = [];
+  PETEKLER.forEach(function (q, j) { if (q && q.a) petAd[q.a] = j; });
+  (window.YERLESIMLER || []).forEach(function (y) {
+    var j = petAd[y.ad];
+    if (j === undefined) return;
+    (y.v || []).forEach(function (p) {
+      var g = p.kid || p.k;
+      if (!g || !p.f || !p.t) return;
+      L.push({ j: j, g: g, fi: gunIdx(p.f), ti: gunIdx(p.t) });
+    });
+  });
+  VIC.liste = L;
+  return L;
+}
+function vassalIcSinirGuncelle(t) {
+  if (!haritaHazir || !harita.getSource("vassal-ic")) return;
+  var etkin = [];
+  if (typeof aktifDonem !== "undefined" && aktifDonem >= 0) {   // Fetret: tâbi katmanı boş
+    var L = _vicListe();
+    for (var i = 0; i < L.length; i++) {
+      if (t >= L[i].fi && t < L[i].ti) etkin.push(L[i]);
+    }
+  }
+  var imza = etkin.map(function (e) { return e.j + ":" + e.g; }).join(";");
+  if (imza === VIC.imza) return;
+  if (imza && !window.PETEK_GOVDE) {
+    if (_PETEK_GOVDE_YUK.hata) return;
+    if (!VIC.yukleniyor) {
+      VIC.yukleniyor = true;
+      _petekGovdeYukle(function () { VIC.yukleniyor = false; VIC.imza = null; vassalIcSinirGuncelle(suanki); });
+    }
+    return;
+  }
+  VIC.imza = imza;
+  var G = window.PETEK_GOVDE, PP = window.PETEK_GOVDE_PARCA, kenar = {}, cizgiler = [];
+  etkin.forEach(function (e) {
+    (G[e.j] || []).forEach(function (pi) {
+      (PP[pi] || []).forEach(function (h) {
+        for (var k = 0; k < h.length - 1; k++) {
+          var a = h[k][0] + "," + h[k][1], b = h[k + 1][0] + "," + h[k + 1][1];
+          var anh = e.g + "#" + (a < b ? a + "|" + b : b + "|" + a), o = kenar[anh];
+          if (!o) kenar[anh] = { n: 1, p: [h[k], h[k + 1]] };
+          else o.n++;
+        }
+      });
+    });
+  });
+  for (var anh in kenar) if (kenar[anh].n === 1) cizgiler.push(kenar[anh].p);
+  harita.getSource("vassal-ic").setData({ type: "FeatureCollection",
+    features: cizgiler.length ? [{ type: "Feature", properties: {},
+      geometry: { type: "MultiLineString", coordinates: cizgiler } }] : [] });
 }
 
 // 🆕 16 Eylül 2026 — H-0001 (Emre, DALGA-0052 UI): "üç voyvodalığın (Eflak,
@@ -10893,6 +10984,8 @@ function guncelle() {
   agirOlc("isgalGuncelle", function () { isgalGuncelle(suanki); });
   // PAKET-ISYAN — kare başına yalnız anahtar karşılaştırması (bkz. isyanGuncelle).
   agirOlc("isyanGuncelle", function () { isyanGuncelle(suanki); });
+  // 18 Ekim 2026 — tâbi devletlerin kendi hatları (bkz. vassalIcSinirGuncelle).
+  agirOlc("vassalIcSinirGuncelle", function () { vassalIcSinirGuncelle(suanki); });
   // H-0001 — üç voyvodalığın başkentinde isyan ateşi (bkz. isyanAtesGuncelle).
   agirOlc("isyanAtesGuncelle", function () { isyanAtesGuncelle(suanki); });
   // 🔴🔴 22 Ağustos 2026 — KIRPMA SIRASINDA PANEL DONDURULUYOR.
