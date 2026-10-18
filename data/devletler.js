@@ -4851,22 +4851,22 @@ window.DEVLETLER = [
   ]
 },
 { id:"etowah", ad:"Etowah", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1550-01-01", baskent:"Etowah",
+  f:"1100-01-01", t:"1550-01-01", baskent:"Etowah",
+  ic_not_f:"f 1281'den 1100'e genişletildi (18 Ekim 2026, ONCE1281-AMERIKA2): New Georgia Encyclopedia (King; Larson) — Orta Mississippi alt dönemi 1100-1350, 'settled by the twelfth century'.",
   ozet:"Kuzeybatı Georgia'da Etowah Irmağı kıyısında, altı höyüklü ve hendekle çevrili bir Mississippi kültürü yüce reisliği. Bakır levhalar ve mermer heykelleriyle tanınır; çevresindeki vadi kasabalarını bağlı tutardı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🔴 TEK BİR mississippi-kulturu KÜNYESİ YAZILMADI ve sebebi ölçüldü: Etowah · Moundville · Spiro · Ocmulgee'nin DÖRT AYRI sonu var; tek künye üçünün t:'sini yalanlardı. Emsal atlasın kendisinde: cahokia (f:1050 t:1350) TEK bir höyük merkezi için AYRI künyedir. 🟡 t: 1550-01-01 — De Soto 1540'ta buradan geçtiğinde merkez hâlâ iskânlıydı; yüzyılın ortasında terk edildi. YIL yaklaşıktır, GÜN yoktur; §4 gereği YYYY-01-01 ve yaklaşıklık burada AÇIKÇA yazılıdır.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Etowah yüce reisliği Etowah vadisinde", ic_not_b:"eski b: Etowah yüce reisliği Etowah vadisinde (atlas ufku)" },
     { t:"1350-01-01", tur:"siyaset", b:"Georgia'nın en büyük reisliği başkenti olan Etowah'ın yaklaşık 250 yıllık siyasi üstünlük dönemi (Orta Mississippi alt dönemi, 1100-1350) sona erer; bölgede ağırlık Coosawattee vadisindeki yeni reisliğe kayar (tarih dönem sınırıdır, kesin gün değil).", kaynak:"New Georgia Encyclopedia, Mississippian Period (https://www.georgiaencyclopedia.org/articles/history-archaeology/mississippian-period-overview/); UGA Laboratory of Archaeology Series 37 (https://archaeology.uga.edu/sites/default/files/2022-03/uga_lab_series_37_Redacted.pdf), Smith 2000 görüşü" },
     { t:"1540-01-01", tur:"isgal", b:"De Soto seferi bölgeden geçti" },
     { t:"1550-01-01", tur:"son", b:"Merkez terk edildi" }
   ]
 },
 { id:"moundville", ad:"Moundville", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1450-01-01", baskent:"Moundville",
+  f:"1120-01-01", t:"1450-01-01", baskent:"Moundville",
+  ic_not_f:"f 1281'den 1120'ye genişletildi (18 Ekim 2026, ONCE1281-AMERIKA2): Blitz, Encyclopedia of Alabama — «founded around 1120».",
   ozet:"Alabama'da Black Warrior Irmağı kıyısında yirmi dokuz höyüklü, palisatla çevrili bir Mississippi kültürü merkezi. 13. yüzyılda binlerce kişiyi barındırdı, sonra tören merkezine dönüşüp nüfusu dağıldı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1450-01-01 — merkez 15. yüzyıl ortasında büyük ölçüde boşaldı. YIL YAKLAŞIKTIR ve gün yoktur; §4 gereği YYYY-01-01. ⚠️ Bu bir fetih ya da devir değil, bir merkezin sönümlenmesidir — okuyan karıştırmasın.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Moundville merkezi Black Warrior kıyısında", ic_not_b:"eski b: Moundville merkezi Black Warrior kıyısında (atlas ufku)" },
     { t:"1300-01-01", tur:"siyaset", b:"Moundville 1300'e gelindiğinde bugünkü Alabama'nın en büyük yerleşimidir; palisat içinde yaklaşık 1000 kişi yaşar.", kaynak:"Encyclopedia of Alabama, Moundville Archaeological Park (https://encyclopediaofalabama.org/article/moundville-archaeological-park/)" },
     { t:"1400-01-01", tur:"siyaset", b:"Moundville III evresi (yaklaşık 1400-1550) başlar; merkez artık başlıca siyasi ve ölü gömme ritüeli merkezi olarak işler, nüfus doruğu daha eski bir döneme aittir.", kaynak:"Knight ve Steponaitis, A New History of Moundville, 2007 (https://rla.unc.edu/personal/vps/articles/Knight%20&%20Steponaitis%202007%20(New%20Hist).pdf); evre tarihi arama özetinden" },
     { t:"1450-01-01", tur:"son", b:"Merkez boşaldı" },
@@ -4874,11 +4874,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"spiro", ad:"Spiro", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1450-01-01", baskent:"Spiro",
+  f:"0850-01-01", t:"1450-01-01", baskent:"Spiro",
+  ic_not_f:"f 1281'den 0850'ye genişletildi (18 Ekim 2026, ONCE1281-AMERIKA2): Peterson, Encyclopedia of Oklahoma History — «Between A.D. 850 and 1450 twelve mounds … were eventually created» (evre başı).",
   ozet:"Doğu Oklahoma'da Arkansas Irmağı kıyısında, Kaddo dilli halkların tören ve ticaret merkezi. Craig Höyüğü'nden çıkan deniz kabuğu, bakır ve tekstil buluntuları kıta ölçeğinde bir değişim ağını gösterir.",
   kaynak:"bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1450-01-01 — tören kullanımı 15. yüzyıl ortasında sona erdi. YIL YAKLAŞIKTIR; §4 gereği YYYY-01-01. ⚠️ Moundville ile aynı gün taşıması tesadüf değil, aynı yüzyıl ortası çözülmesidir — ama iki AYRI künyedir ve tek künyede birleştirilmedi.",
   kronoloji:[
-    { t:"1281-01-01", tur:"kurulus", b:"Spiro merkezi Arkansas kıyısında", ic_not_b:"eski b: Spiro merkezi Arkansas kıyısında (atlas ufku)" },
     { t:"1300-01-01", tur:"siyaset", b:"Spiro'da Kaddo dilli önder sınıfın en parlak dönemi (yaklaşık 900-1300) kapanır; höyük merkezi gerilemeye başlar ve 1450'ye kadar terk edilir.", kaynak:"Oklahoma Historical Society, Spiro Mounds Archaeological Center (https://www.okhistory.org/sites/spiromounds); Encyclopedia of Oklahoma History, Spiro Mounds (https://www.okhistory.org/publications/enc/entry?entry=SP012)" },
     { t:"1450-01-01", tur:"son", b:"Tören merkezi kullanımdan düştü" }
   ]
@@ -8505,7 +8505,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"natchez", ad:"Natchez (Grand Village)", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1731-01-01", baskent:"—",
+  f:"1250-01-01", t:"1731-01-01", baskent:"—",
+  ic_not_f:"f 1281'den 1250'ye genişletildi (18 Ekim 2026, ONCE1281-AMERIKA2): Barnett, Mississippi History Now — Grand Village höyük inşası 'probably beginning in the 13th century' (yüzyıl orta noktası).",
   ozet:"Aşağı Mississippi'de, güneş-kral geleneğini sürdüren höyük yapıcı siyasî yapı; 1729 ayaklanmasının ardından Fransızlarca dağıtıldı.",
   kaynak:"Brown & Steponaitis, 'The Grand Village of the Natchez Indians Was Indeed Grand' (UNC Research Laboratories of Archaeology, hakemli akademik makale) + Mississippi Department of Archives & History (kurumsal) — Natchez halkı GA 700-1730 arası güneybatı Mississippi'de yaşadı; Grand Village ~1680'den itibaren ana kasabaydı.",
   kronoloji:[
@@ -8530,7 +8531,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"chimu-krallik", ad:"Chimu Krallığı (Chimor)", tur:"krallik", bolge:"guney-amerika",
-  f:"1281-01-01", t:"1470-01-01", baskent:"Chan Chan",
+  f:"1000-01-01", t:"1470-01-01", baskent:"Chan Chan",
+  ic_not_f:"f 1281'den 1000'e genişletildi (18 Ekim 2026, ONCE1281-AMERIKA2): Store norske leksikon 'Chimú' — «mellom cirka år 1000 og 1470 evt.». 'chimu' künyesiyle MÜKERRER (aynı polity); birleştirme kararı Emre'nin.",
   ozet:"Peru'nun kuzey kıyısında, kerpiç başkenti Chan Chan ile bilinen krallık; İnka tarafından ilhak edildi.",
   kaynak:"World History Encyclopedia, 'Chimu Civilization' — devlet 14.yy ilk yarısında şekillendi (bazı kaynaklar ~850 diyor, ANLAŞMAZLIK VAR), atlas ufku 1281'e hizalandı. Bitiş: İnka fethi 1460-1470 arası, VERİYLE ÖRTÜŞÜYOR (veri t:1470).",
   kronoloji:[
@@ -20369,7 +20371,7 @@ window.DEVLETLER = [
     { t:"0600-01-01", tur:"toprak-kazanc", b:"Wari, Moquegua'daki Cerro Baúl'u güney sınırında koloni merkezi olarak kurar; Wari varlığı yaklaşık MS 600'den başlar.", kaynak:"https://research.ufl.edu/publications/explore/v10n3/story1.html ; https://www.discovermagazine.com/a-brewery-in-peru-ran-for-centuries-then-burned-after-one-epic-ancient-party-11150" },
     { t:"0750-01-01", tur:"siyaset", b:"Conchopata'da Orta Ufuk 1B evresinde (MS 750-775) kırılıp gömülen polikrom seramik adakları; Wari devletinin törensel genişleme faaliyetleriyle ilişkilendirilir.", kaynak:"https://dig.ucla.edu/sais/node/5241" }
   ] },
-{ id:"chimu", ad:"Chimu (Chimor) Krallığı", tur:"krallik", bolge:"guney-amerika", f:"1100-01-01", t:"1470-01-01", baskent:"Chan Chan", ozet:"Brit Chan Chan: yaklasik 1100-1470; Inka'ya 1465-70 arasi boyun egdi. Aday f 900 desteklenmedi. Mevcut inka-imparatorlugu f 1438 ile cakisir (vassalik donemi).", kaynak:"https://www.britannica.com/place/Chan-Chan ; https://www.britannica.com/topic/Chimu", kronoloji:[
+{ id:"chimu", ad:"Chimu (Chimor) Krallığı", tur:"krallik", bolge:"guney-amerika", f:"1000-01-01", t:"1470-01-01", ic_not_f:"f 1100'den 1000'e genişletildi (18 Ekim 2026, ONCE1281-AMERIKA2): Store norske leksikon 'Chimú' — «mellom cirka år 1000 og 1470 evt.»; Chan Chan arkeolojik ~900. Britannica ~1100 der (uyuşmazlık; eski f). chimu-krallik aynı polity'nin mükerrer künyesi.", baskent:"Chan Chan",ozet:"Brit Chan Chan: yaklasik 1100-1470; Inka'ya 1465-70 arasi boyun egdi. Aday f 900 desteklenmedi. Mevcut inka-imparatorlugu f 1438 ile cakisir (vassalik donemi).", kaynak:"https://www.britannica.com/place/Chan-Chan ; https://www.britannica.com/topic/Chimu", kronoloji:[
     { t:"1350-01-01", tur:"toprak-kazanc", b:"Hükümdar Ñancempinco döneminde Chimú kuzeyde Jequetepeque, güneyde Santa vadisine kadar genişler (tarih 1350/1370/1375 arasında oynar).", kaynak:"https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/chimu ; ikinci kaynak: https://www.worldhistory.org/timeline/Chimu_Civilization" },
     { t:"1450-01-01", tur:"toprak-kazanc", b:"Minchançaman döneminde ikinci genişleme tamamlanır; Chimor Chillón vadisinden Tumbes'e uzanan azami sınırına ulaşır (yaklaşık 1450).", kaynak:"Gordon F. McEwan, 'Chimú', Encyclopedia of Latin American History and Culture (https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/chimu)" },
     { t:"1460-01-01", tur:"isgal", b:"İnkalar Chimor'a karşı fetih harekâtına başlar; 1460-1470 arası süren sefer Minchançaman'ın Cuzco'ya rehin götürülmesiyle biter.", kaynak:"Gordon F. McEwan, 'Chimú', Encyclopedia of Latin American History and Culture (https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/chimu)" },
@@ -20973,7 +20975,7 @@ window.DEVLETLER = [
     { t:"1951-07-20", tur:"hukumdar", b:"Kral Abdullah Kudüs'te suikastla öldürüldü", kaynak:"https://www.encyclopedia.com/politics/dictionaries-thesauruses-pictures-and-press-releases/abdullah-i-ibn-hussein-king-abdallah-jordan" },
     { t:"1994-10-26", tur:"antlasma", b:"Ürdün-İsrail barış antlaşması imzalandı (Vaşington Bildirisi 25.07.1994)", kaynak:"https://www.un.org/unispal/document/auto-insert-179122/" }
   ] },
-{ id:"mayapan-birligi", ad:"Mayapan Birligi (Mayapan Ligi)", tur:"konfederasyon", bolge:"orta-amerika", f:"1200-01-01", t:"1450-01-01", baskent:"Mayapan", ozet:"Yucatan'da Cocom hanedaninin Mayapan'dan yonettigi Post-Klasik Maya sehir-devletleri birligi; baskent Cocom-Xiu catismasi sonrasi 1441-1461 araliginda terk edildi (yaklasik/onyil hassasiyeti: baslangic ~1200, son ~1450).", kaynak:"Britannica 'League of Mayapan' (https://www.britannica.com/topic/League-of-Mayapan: ~1200-1450); Hoggarth ve ark., Nature Communications 2022 (https://www.nature.com/articles/s41467-022-31522-x: Cocom katliami cal. 1440-1461, devlet cokusu post-1450); Masson, PNAS 2012 (https://www.pnas.org/doi/10.1073/pnas.1213638109)", kronoloji:[
+{ id:"mayapan-birligi", ad:"Mayapan Birligi (Mayapan Ligi)", tur:"konfederasyon", bolge:"orta-amerika", f:"1100-01-01", t:"1450-01-01", ic_not_f:"f 1200'den 1100'e genişletildi (18 Ekim 2026, ONCE1281-AMERIKA2): Kennett ve ark., Nature Communications 13, 3911 (2022) — «arose and governed from at least 1100 to 1450 cal. CE».", baskent:"Mayapan",ozet:"Yucatan'da Cocom hanedaninin Mayapan'dan yonettigi Post-Klasik Maya sehir-devletleri birligi; baskent Cocom-Xiu catismasi sonrasi 1441-1461 araliginda terk edildi (yaklasik/onyil hassasiyeti: baslangic ~1200, son ~1450).", kaynak:"Britannica 'League of Mayapan' (https://www.britannica.com/topic/League-of-Mayapan: ~1200-1450); Hoggarth ve ark., Nature Communications 2022 (https://www.nature.com/articles/s41467-022-31522-x: Cocom katliami cal. 1440-1461, devlet cokusu post-1450); Masson, PNAS 2012 (https://www.pnas.org/doi/10.1073/pnas.1213638109)", kronoloji:[
     { t:"1400-01-01", tur:"felaket", b:"1400-1450 arasında kuraklık, Mayapan'da hizip çatışmalarını ve şiddeti belirgin biçimde artırdı (205 gömüt, mağara tortulu iklim kaydı).", kaynak:"Kennett vd., 'Drought-induced civil conflict among the ancient Maya', Nature Communications 13, 3911 (2022), DOI 10.1038/s41467-022-31522-x ; https://www.albany.edu/node/80836" },
     { t:"1441-01-01", tur:"isyan", b:"Xiu hizbi Cocom hanedanını kıyıma uğrattı; Mayapan'ın çöküşü ve terki 1441-1461 aralığında tarihlenir (aralığın başı alındı).", kaynak:"Kennett vd., Nature Communications 13, 3911 (2022) ; https://www.albany.edu/node/80836" }
   ] },
