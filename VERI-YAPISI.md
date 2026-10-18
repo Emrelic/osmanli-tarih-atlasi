@@ -339,6 +339,21 @@ partileri. Toplam 799 madde. Hepsi `js/app.js`'te tek listede birleştirilir.
 | `ic_not_d` · `ic_not_gun` · `ic_not_b` | 🆕 13 Eylül 2026 · **İÇ NOT — kullanıcıya GÖSTERİLMEZ.** Kaynak çelişkisi, "atlas verisinde şu yok", dosya/oturum atfı gibi editoryal notlar `d`/`gun`/`b` metninden buraya **taşınır, silinmez** (Emre 0045 H-0006 · 0046 H-0001). Alan adı hangi metinden taşındığını söyler; tek `ic_not` değil çünkü aynı maddede iki alan taşınınca JS nesnesinde yinelenen anahtar ilk notu SESSİZCE yok eder. Uygulayıcı: `arac/ic_not_uygula.py`. 🔴 Yeni madde yazan: süreç notunu `d`ye DEĞİL doğrudan buraya yaz |
 | `gs` | 🆕 18 Eylül 2026 · **Gün içi sıra** (tamsayı, isteğe bağlı). Aynı `t` gününe düşen maddelerin sırası: `app.js` önce tarihe, eşitse `gs`'ye göre sıralar; `gs` yoksa eski sıra AYNEN korunur. 10'ar aralıkla yaz (10 · 20 · 30) ki araya madde girebilsin. Doğuran: Emre 0068/H-0004 — 1789-04-07'de I. Abdülhamid'in ölümü → III. Selim'in cülûsu → Nizâm-ı Cedîd sırası bozuktu |
 
+### 🆕 Arkeoloji alanları — `kaynak_turu` · `aralik` *(Emre, 18 Ekim 2026 · tam kural: `denetim/ARKEOLOJI-KATMANI-SARTNAME-1018.md`)*
+
+Arkeolojik tarihlemeyle ortaya çıkan devlet/şehir/olay maddesi `etiket:["arkeoloji"]` (arayüz süzgeci) **ve** `kaynak_turu:"arkeoloji"` (kural tetikleyici) taşır. Alan yoksa `kaynak_turu` = `"yazili"`.
+
+| Alan | Anlamı |
+|---|---|
+| `kaynak_turu` | `"arkeoloji"` \| `"yazili"` |
+| `aralik` | `{ bas, son, guven, tur }` — kaynağın verdiği iki uç (astronomik ISO, `bas` daha eski; MÖ N → `-(N-1)`), `guven` (`"95.4"`·`"68.2"`·`"toplam"`·`"belirsiz"` — verilmediyse `belirsiz`, uydurulmaz), `tur` (`kalibre-14C`·`ham-14C`·`tabaka-donem`·`donem-toplami`·`yerlesim-suresi`·`tipolojik`·`termolum`) |
+| `t` | **ORTA NOKTA**: `orta_MÖ = ⌊(A+B)/2⌋` (MÖ sayılarıyla; yarım yıl → daha geç yıl), `t = -(orta_MÖ-1)`, ay-gün hep `-01-01`. 5-6 haneli yıl geçerlidir (`-12154`) |
+| `kesinlik` | yarı genişliğe göre: ≤5 `yil` · ≤50 `onyil` · ≤500 `yuzyil` · >500 `binyil` (🆕 değer). Kaynaktan ince yazılamaz |
+| `gun` | insan-okunur, ör. `"MÖ 9745–9314 arası (orta nokta MÖ 9529)"` |
+| `ic_not_d` | «ARALIK→ORTA NOKTA: …» beyanı zorunlu |
+
+**Orta nokta yalnız OLUŞ ZAMANI belirsizliğine** uygulanır. `tur:"donem-toplami"`/`"yerlesim-suresi"` (sürenin kendisi) ⇒ orta nokta ALINMAZ, `t` = en eski uç (alt sınır). Tek değerli kaynak («yaklaşık MÖ 7100») ⇒ `aralik` yazılmaz, `ic_not_d`'de «TEK DEĞER» beyanı. İki kaynak çelişirse tek kaynak seçilir, ikisinin ortası alınmaz. `ham-14C` ⇒ yazılmaz (kalibrasyon bu atlasın işi değil). Denetim: `py arac/arkeoloji_denetle.py [dosya…]`. Yerleşim/künye eşleniği: şartname §2.2-2.3 (`girdi.py BILINEN_ALANLAR` motor tuzu → HAVVA koşusu sonrası).
+
 ### `k:` — tam sözlük (31 Temmuz ölçümü, 985 madde)
 
 ```

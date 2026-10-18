@@ -11,7 +11,7 @@ import json, os, re, sys
 
 KOK = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 sys.path.insert(0, os.path.join(KOK, "arac"))
-TARIH = re.compile(r"^(-?)(\d{4})-(\d{2})-(\d{2})$")
+TARIH = re.compile(r"^(-?)(\d{4,6})-(\d{2})-(\d{2})$")   # MÖ 10000+ = 5 haneli astronomik yıl (gun.py 1-6 hane kabul eder)
 NICELIK = {"kurulus", "ilk_anilis", "arkeolojik"}
 KESINLIK = {"gun", "ay", "yil", "onyil", "yuzyil", "belirsiz"}
 ZINCIR_SONU_ATLASSIZ = "1900-01-01"
