@@ -21847,6 +21847,29 @@ window.DEVLETLER = [
     { t:"1180-01-01", tur:"kurulus", b:"Sencer Şah Zengîlerin Cizre kolunu kurdu", kaynak:"TDV: zengiler" },
     { t:"1251-01-01", tur:"son", b:"Eyyûbî el-Melikü'n-Nâsır ile Bedreddin Lü'lü' Cizre'yi istilâ etti; Cizre Zengîleri sona erdi", kaynak:"TDV: cizre" },
   ] },
+{ id:"hazar-kaganligi", ad:"Hazar Kağanlığı", tur:"kaganlik", bolge:"dogu-avrupa",
+  f:"0630-01-01", t:"0965-01-01", baskent:"İtil",
+  alinti_f:"Hazarlar bağımsızlıklarını ilân ettiler (630).",
+  alinti_t:"965’te hakanın Hârizmliler’e sığınması",
+  ic_not_f:"TDV hazarlar: Batı Göktürk devletinin çöküşü üzerine bağımsızlık ilânı 630 (yıl; gün yok). Hazar adı 558 öncesi Sâsânî-Sabar savaşlarında anılır, 576'da Göktürk Kerç'i aldı, 626'da Hazarlar Bizans'a yardım etti — Göktürk bağlılığı altındaki bu evre künyeye alınmadı.",
+  ic_not_t:"TDV hazarlar kesin bitiş yılı vermez: 'Hazar siyasî varlığı XI. yüzyılın içinde eriyip gitti'. t=965 kağanın Hârizm'e sığındığı yıldır (merkezî otoritenin fiilen çöküşü); 968 sonrası Rus seferleri Semender'i yıktı; 1066'da ~3000 Hazar ailesi Selçuklular'a bağlandı. Belirsizlik beyanlıdır.",
+  ozet:"630'da Batı Göktürk çöküşü üzerine bağımsızlığını ilân eden, Kuzey Kafkasya, Karadeniz kuzeyi ve Volga-Don bozkırlarına hükmeden Türk kağanlığı; Araplar ve Bizans'la ilişkileri belirleyici oldu, 965-968 çevresinde çöktü.",
+  kaynak:"TDV: hazarlar (HAZARLAR) https://islamansiklopedisi.org.tr/hazarlar",
+  kronoloji:[
+    { t:"0630-01-01", tur:"kurulus", b:"Batı Göktürk devletinin çöküşünden sonra Hazarlar bağımsızlıklarını ilân etti", kaynak:"TDV: hazarlar", gun:"630 — TDV yıl verir" },
+    { t:"0965-01-01", tur:"son", b:"Hazar hakanı Hârizm'e sığındı; Hazar merkezî otoritesi fiilen sona erdi", kaynak:"TDV: hazarlar — '965’te hakanın Hârizmliler’e sığınması'", gun:"965 — TDV yıl verir; kesin bitiş tarihi kaynakta yok (belirsiz)" },
+  ] },
+{ id:"idil-bulgaristan", ad:"İdil (Volga) Bulgar Hanlığı", tur:"hanlik", bolge:"dogu-avrupa",
+  f:"0920-01-01", t:"1236-01-01", baskent:"Bulgar",
+  alinti_f:"Bulgar Hanı Yaltavar oğlu Almış Han müslüman oldu",
+  alinti_t:"bütün şehirlerini yakıp yıktılar",
+  ic_not_f:"TDV bulgar/cuvaslar İdil Bulgar devletinin KURULUŞ yılını vermez (7. yy ikinci yarısında Utigur Bulgarları Orta İdil'e yerleşti; devlet 'Orta İdil bölgesinde kurulan'). f=920 kuruluş değil, kaynakta belgeli İLK TARİHLİ kayıttır (Almış Han'ın Bağdat'a elçi göndermesi) — hanlığın daha eski olduğu bellidir; BEYANLI YAKLAŞIKLIK, kuruluş kaynakla bulunamadı.",
+  ic_not_t:"TDV bulgar: 1236'da Batu Han kuvvetleri bütün şehirlerini yakıp yıktı (yıl; gün yok). 1223 civarı Moğollar'la ilk çatışma; Timur 1391; sonra Kazan Hanlığı.",
+  ozet:"Orta İdil ve Kama havzasında, Utigur Bulgarları'nın kurduğu, 920-922'de Almış Han döneminde Abbâsî elçiliğiyle İslâm'ı resmîleştiren ve 1236'da Moğollar'ca yıkılan ticaret devleti; Çuvaşlar'ın atası sayılır.",
+  kaynak:"TDV: bulgar (BULGAR) https://islamansiklopedisi.org.tr/bulgar ; TDV: cuvaslar https://islamansiklopedisi.org.tr/cuvaslar ; TDV: ibn-fadlan https://islamansiklopedisi.org.tr/ibn-fadlan",
+  kronoloji:[
+    { t:"1236-01-01", tur:"son", b:"Batu Han kuvvetleri Bulgar şehirlerini yakıp yıktı", kaynak:"TDV: bulgar — 1236, 'bütün şehirlerini yakıp yıktılar'", gun:"1236 — TDV yıl verir; gün yok" },
+  ] },
 ];
 
 ;
