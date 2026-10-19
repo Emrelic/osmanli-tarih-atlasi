@@ -497,8 +497,8 @@
     },
     {
      "yol": "data/olaylar_senusi_0919.js",
-     "sha": "2e1560bf3ee9cc02",
-     "bayt": 6858
+     "sha": "ad0935be52a2ffa0",
+     "bayt": 7782
     },
     {
      "yol": "data/olaylar_sessiz_borc_0919.js",
@@ -551,7 +551,7 @@
      "bayt": 171320
     }
    ],
-   "bayt": 2106407
+   "bayt": 2107331
   },
   {
    "paket": "data/paket_13.js",
