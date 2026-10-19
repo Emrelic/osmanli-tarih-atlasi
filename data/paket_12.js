@@ -2856,7 +2856,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Domuz çobanı İvaylo önderliğindeki bir köylü ayaklanması, Moğol (Altın Orda) akınları ve saray zaafı karşısında bozguna uğrayan merkezi otoriteye karşı patlak verdi; İvaylo kısa süreliğine tahtı ele geçirip çar oldu (1278-1280). Ortaçağ Balkanları'nda nadir görülen bir köylü isyanı olarak Bulgar tarih yazımında özel bir yer tutar.",
   kaynak:"bulunamadı — TDV `bulgaristan` maddesi bu olaydan bahsetmiyor; dayanak: akademik (Fine, The Late Medieval Balkans, 1994)." },
 
-{ taraflar:["bulgar-carligi"], t:"1371-09-26", b:"Çirmen (Meriç) Savaşı — Bulgar knezlikleri de Osmanlı vassalı oldu", tur:"savas",
+{ taraflar:["bulgar-carligi"], t:"1371-09-26", b:"Çirmen (Meriç) Savaşı — Sırp ordusu ağır yenilgiye uğradı, Makedonya Osmanlı'ya kaldı", ic_not_b:"Çapraz sorgu C026: eski başlık 'Bulgar knezlikleri de Osmanlı vassalı oldu' 1371'e ait değil; Šišman ~1375-76 (gönüllü vassal), Sracimir 1388 (Treccani 'Bulgaria'); Hrvatska enciklopedija 'Marička bitka' Bulgar vasallığından söz etmez.", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","konu-askeri"],
   yer_id:"", odak_kimlik:["bulgar-carligi"], kapsam_genis:true,
   d:"Osmanlı akıncı kuvvetleri, İvan Aleksandır'ın ölümünden sonra parçalanmış Bulgar topraklarının komşusu olan Sırp beyliklerini Meriç kıyısında ağır bir yenilgiye uğrattı; bu bozgun Bulgar knezliklerinin de Osmanlı'ya haraca bağlanmasının önünü açtı.", ic_not_d:"dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi (TDV `sirbistan` üzerinden).",
@@ -3813,10 +3813,11 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Emîr Nûr 1559'da Fatagar'a saldırarak Melik Galawdeos'un (Claudius) ölümüyle sonuçlanan büyük bir zafer elde etti. Ahmed el-Mücâhid'i yenen kralın ölümü, Harar Emirliği'nin son askerî başarısıdır.",
   kaynak:"TDV `harar`: \"1559'da Fatagar'a saldırarak Melik Galawdeos'un (Claudius) ölümüyle sonuçlanan büyük bir zafer elde etti\"", yer_kon:[8.75,39] },
 
-{ taraflar:["adal"], t:"1567-01-01", b:"Oromo akınlarının yeniden başlaması ve Emîr Nûr'un tifüsten ölümü", tur:"hukumdar", onem:5, dunya:1, kapsam:"ic", yer_id:"Harar",
+{ taraflar:["adal"], t:"1567-01-01", b:"Oromo akınları yeniden başladı", ic_not_b:"Çapraz sorgu C033: eski başlık Emîr Nûr'un ölümünü de içeriyordu; ölüm ayrı madde (1568, TDV 1567/1568).", tur:"hukumdar", onem:5, dunya:1, kapsam:"ic", yer_id:"Harar",
   etiket:["hanedan","goc","salgin","konu-kisiler","konu-hanedan","konu-demografi","afet","afet-salgin"],
   d:"1567'de Oromo (Galla) akınları yeniden başladı; Emîr Nûr bunları engellemek için sefer hazırlığındayken tifüsten öldü. Onun ölümüyle emirlik hem askerî hem hânedan istikrarını kaybetti ve göçebe baskısı karşısında savunmasız kaldı.",
   kaynak:"TDV `harar`: \"1567'de yeniden başlayan Oromo akınlarını engellemek için bir yıl sonra tekrar sefere çıktı\" · TDV `harar`: Emîr Nûr'un tifüsten ölümü 1567" },
+{ taraflar:["adal"], t:"1568-01-01", b:"Emîr Nûr tifüsten öldü", tur:"hukumdar", onem:5, dunya:1, kapsam:"ic", yer_id:"Harar", etiket:["hanedan","salgin","konu-kisiler","konu-hanedan","afet","afet-salgin"], d:"Emîr Nûr, Oromo akınlarını durdurmak için çıktığı 1568 seferinden dönüşte tifüs salgınında öldü; ölümüyle emirlik hem askerî hem hânedan istikrarını kaybetti.", kaynak:"TDV `harar` (ölüm 'yaklaşık 1567/1568') · Encyclopaedia Africana 'Nur ibn Mujahid' https://encyclopaediaafricana.com/nur-ibn-mujahid/ (1568 seferi, dönüşte tifüs)", ic_not_gun:"Çapraz sorgu C033: yıl hassasiyeti; TDV 1567/1568, Encyclopaedia Africana ölümü 1568 seferinin dönüşüne bağlar." },
 
 { taraflar:["adal"], t:"1569-01-01", b:"Harar'da hızlı emîr değişimleri — Osman, Talha ve Muhammed", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic", yer_id:"Harar",
   etiket:["hanedan","konu-hanedan"],

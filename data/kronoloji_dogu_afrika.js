@@ -278,10 +278,11 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Emîr Nûr 1559'da Fatagar'a saldırarak Melik Galawdeos'un (Claudius) ölümüyle sonuçlanan büyük bir zafer elde etti. Ahmed el-Mücâhid'i yenen kralın ölümü, Harar Emirliği'nin son askerî başarısıdır.",
   kaynak:"TDV `harar`: \"1559'da Fatagar'a saldırarak Melik Galawdeos'un (Claudius) ölümüyle sonuçlanan büyük bir zafer elde etti\"", yer_kon:[8.75,39] },
 
-{ taraflar:["adal"], t:"1567-01-01", b:"Oromo akınlarının yeniden başlaması ve Emîr Nûr'un tifüsten ölümü", tur:"hukumdar", onem:5, dunya:1, kapsam:"ic", yer_id:"Harar",
+{ taraflar:["adal"], t:"1567-01-01", b:"Oromo akınları yeniden başladı", ic_not_b:"Çapraz sorgu C033: eski başlık Emîr Nûr'un ölümünü de içeriyordu; ölüm ayrı madde (1568, TDV 1567/1568).", tur:"hukumdar", onem:5, dunya:1, kapsam:"ic", yer_id:"Harar",
   etiket:["hanedan","goc","salgin","konu-kisiler","konu-hanedan","konu-demografi","afet","afet-salgin"],
   d:"1567'de Oromo (Galla) akınları yeniden başladı; Emîr Nûr bunları engellemek için sefer hazırlığındayken tifüsten öldü. Onun ölümüyle emirlik hem askerî hem hânedan istikrarını kaybetti ve göçebe baskısı karşısında savunmasız kaldı.",
   kaynak:"TDV `harar`: \"1567'de yeniden başlayan Oromo akınlarını engellemek için bir yıl sonra tekrar sefere çıktı\" · TDV `harar`: Emîr Nûr'un tifüsten ölümü 1567" },
+{ taraflar:["adal"], t:"1568-01-01", b:"Emîr Nûr tifüsten öldü", tur:"hukumdar", onem:5, dunya:1, kapsam:"ic", yer_id:"Harar", etiket:["hanedan","salgin","konu-kisiler","konu-hanedan","afet","afet-salgin"], d:"Emîr Nûr, Oromo akınlarını durdurmak için çıktığı 1568 seferinden dönüşte tifüs salgınında öldü; ölümüyle emirlik hem askerî hem hânedan istikrarını kaybetti.", kaynak:"TDV `harar` (ölüm 'yaklaşık 1567/1568') · Encyclopaedia Africana 'Nur ibn Mujahid' https://encyclopaediaafricana.com/nur-ibn-mujahid/ (1568 seferi, dönüşte tifüs)", ic_not_gun:"Çapraz sorgu C033: yıl hassasiyeti; TDV 1567/1568, Encyclopaedia Africana ölümü 1568 seferinin dönüşüne bağlar." },
 
 { taraflar:["adal"], t:"1569-01-01", b:"Harar'da hızlı emîr değişimleri — Osman, Talha ve Muhammed", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic", yer_id:"Harar",
   etiket:["hanedan","konu-hanedan"],

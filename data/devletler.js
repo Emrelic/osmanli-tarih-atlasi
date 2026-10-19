@@ -224,7 +224,8 @@ window.DEVLETLER = [
   ozet:"Mohaç sonrası Macar tacını alan Habsburg hanedanı; üç asır boyunca Osmanlı'nın Orta Avrupa'daki ana rakibi, sonunda Avusturya-Macaristan olarak I. Dünya Savaşı'nda dağıldı.",
   kaynak:"avusturya",
   kronoloji:[
-    { t:"1526-08-29", tur:"kurulus", b:"I. Ferdinand, Mohaç sonrası Bohemya-Macaristan tacını aldı" },
+    { t:"1526-10-22", tur:"kurulus", b:"I. Ferdinand Prag'da Bohemya kralı seçildi (taçlanma: 24 Şubat 1527)", kaynak:"Deutsche Biographie (NDB/ADB) 'Ferdinand I.' https://www.deutsche-biographie.de/sfz56884.html", ic_not_b:"Çapraz sorgu C009: eski madde 1526-08-29 (Mohaç günü) 'Bohemya-Macaristan tacını aldı'; hiçbir kaynak tacın Mohaç gününde alındığını söylemez, 29 Ağustos yalnız II. Layoş'un ölüm günüdür." },
+    { t:"1526-12-16", tur:"siyaset", b:"Macar Diyeti Pozsony'da (Pressburg) I. Ferdinand'ı Macaristan kralı seçti (taçlanma: 3 Kasım 1527, Székesfehérvár)", kaynak:"Deutsche Biographie (NDB/ADB) 'Ferdinand I.' https://www.deutsche-biographie.de/sfz56884.html" },
     { t:"1529-09-27", tur:"savas", b:"I. Viyana Kuşatması" },
     { t:"1541-08-29", tur:"bolunme", b:"Budin'in fethiyle Macaristan üçe bölündü (Osmanlı, Habsburg, Erdel)" },
     { t:"1606-11-11", tur:"antlasma", b:"Zitvatorok Antlaşması — protokolde eşitlik tanındı" },
@@ -308,7 +309,8 @@ window.DEVLETLER = [
   ozet:"I. İvan Kalita'nın 'büyük knez' unvanını almasıyla Rus topraklarının siyasî merkezi hâline gelen knezlik; 1480'de Altın Orda hâkimiyetinden fiilen çıktı, IV. İvan'ın çar ilan edilmesiyle Rusya Çarlığı'na dönüştü (bkz. [[rusya]]). (kaynak: TDV, madde: rusya)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1325-01-01", tur:"kurulus", b:"I. İvan Daniloviç (Kalita) 'büyük knez' unvanını aldı, Moskova Rus topraklarının siyasî merkezi oldu" },
+    { t:"1325-01-01", tur:"kurulus", b:"I. İvan Daniloviç (Kalita) Moskova knezi oldu; Moskova Rus topraklarının siyasî merkezi haline geldi", ic_not_b:"Çapraz sorgu C066: eski başlık 'büyük knez unvanını aldı'; BRE ve ESBE 1325'i Moskova knezliği başlangıcı, Vladimir büyük knezliği yarlığını 1328 verir." },
+    { t:"1328-01-01", tur:"hukumdar", b:"I. İvan Daniloviç (Kalita) Vladimir büyük knezliği yarlığını aldı", kaynak:"Brockhaus-Efron ESBE 'Иоанн Данилович Калита' https://ru.wikisource.org/wiki/ЭСБЕ/Иоанн_Данилович_Калита · Bolşaya Rossiyskaya Entsiklopediya 'Ivan I Danilovich' https://bigenc.ru/c/ivan-i-danilovich-665ce9" },
     { t:"1331-01-01", tur:"hukumdar", b:"I. İvan Kalita Vladimir büyük knezliğinin tek sahibi oldu (kaynaklar 1328 yarlığını da anar; tek hâkimiyet 1331).", kaynak:"https://faculty.washington.edu/dwaugh/hstam443/m-chron.html ; https://en.wikipedia.org/wiki/Ivan_I_of_Moscow" },
     { t:"1380-09-08", tur:"savas", b:"Kulikovo Muharebesi: Dmitri Donskoy Mamay'ın ordusunu yendi; Moskova'nın itibarı yükseldi, ancak Moğol egemenliği sürdü.", kaynak:"https://www.britannica.com/print/article/324609 ; https://prlib.ru/en/node/1182103" },
     { t:"1389-05-19", tur:"hukumdar", b:"Dmitri Donskoy öldü ve Moskova Kremlin'indeki Başmelek Katedrali'ne gömüldü.", kaynak:"https://warhistory.org/article/grand-prince-dmitry-ivanovich-donskoy" },
@@ -9183,7 +9185,7 @@ window.DEVLETLER = [
     { t:"1363-01-01", tur:"kurulus", b:"Charles Thopia Kruya'ya (Akçahisar) hâkim oldu", kaynak:"künyenin kendi kaynak alanı (TDV kruya)" },
     { t:"1392-01-01", tur:"toprak-kayip", b:"Charles'ın oğlu ve halefi George'un ölümüyle Kruya elden çıktı; kız kardeşi Helena Venedikli Barbadigo ile evlendi", kaynak:"künyenin kendi kaynak alanı (TDV kruya)" },
     { t:"1394-01-01", tur:"toprak-kayip", b:"Osmanlı vasali olarak Sırp Prensi Konstantin Balšić Kruya'ya getirildi", kaynak:"künyenin kendi kaynak alanı (TDV kruya)" },
-    { t:"1415-01-01", tur:"son", b:"Nikola Thopia Kruya'yı ailesi adına geri aldı ve aynı yıl ölümüne kadar elinde tuttu", kaynak:"künyenin kendi kaynak alanı (TDV kruya)" }
+    { t:"1415-01-01", tur:"son", b:"Nikola (Niketa) Thopia öldü; Kruya'yı 1402'den sonra geri almış ve ölümüne dek elinde tutmuştu", ic_not_b:"Çapraz sorgu C006: eski başlık geri almayı 1415'e koyuyordu; TDV kruya ve Hrvatska enciklopedija 'Topija' 1415'i ölüm yılı, geri almayı 1402 sonrası verir (geri alma yılı bulunamadı).", kaynak:"künyenin kendi kaynak alanı (TDV kruya)" }
   ] },
 { id:"dukagin", ad:"Dukagin (Dukagjini) Prensliği", tur:"prenslik", bolge:"balkanlar", f:"1387-01-01", t:"1479-01-25",
   ozet:"Kuzey Arnavutluk'ta Leş (Alessio) merkezli Arnavut prensliği. TDV: 1387'de \"Paul ve Lek Dukagjin adlı Arnavut asilzâdeleri … burayı Arnavut Dukakin Prensliği'nin merkezi hâline getirdiler.\" Prenslik İskender Bey'in direnişine katıldı ve Osmanlı hâkimiyeti kurulana kadar sürdü. ⚠️ f:1387 kaynakta AÇIKÇA var. 🔴 t:1479-01-25 KAYNAKTAN DEĞİL: `arnavutluk-iskenderbey` künyesinin bitişiyle HİZALANDI (Osmanlı-Venedik antlaşması). TDV Dukagin Prensliği'nin sonu için tarih VERMİYOR — bu alan bir kaynak iddiası değil, bir hizalamadır ve o yüzden burada beyan ediliyor.",
@@ -9821,7 +9823,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1815-05-03", tur:"kurulus", b:"Avusturya, Prusya ve Rusya Krakov'u serbest şehir yapan ek antlaşmayı imzaladı", kaynak:"Hertslet No. 14" },
     { t:"1846-02-20", tur:"isyan", b:"Krakov Ayaklanması başladı (21 Şubat-3 Mart 1846); ayaklanma Avusturya'nın şehrin bağımsızlığına son verme gerekçesi oldu.", kaynak:"Britannica 'Republic of Cracow' https://www.britannica.com/print/article/141562 ; https://en.wikipedia.org/wiki/Krak%C3%B3w_Uprising (başlangıç gecesi 20 Şubat)" },
-    { t:"1846-03-04", tur:"isgal", b:"Kısa direnişin ardından Avusturya birlikleri Krakov'u işgal etti ve şehir Galiçya'ya bağlandı (Britannica ayı Mart 1846 verir; gün Wikipedia'dan).", kaynak:"Britannica 'Republic of Cracow' https://www.britannica.com/print/article/141562 ; https://en.wikipedia.org/wiki/Free_City_of_Cracow" },
+    { t:"1846-03-03", tur:"isgal", b:"Kısa direnişin ardından Avusturya (ve Rus) birlikleri Krakov'u işgal etti; ilhak 16 Kasım 1846'da yapıldı", ic_not_gun:"Çapraz sorgu C061: eski değer 1846-03-04 ve 'Galiçya'ya bağlandı'; ZPE ve Krzysztofory ilhakı Kasım 1846'ya koyar; işgal günü 3 Mart (ZPE) / 4 Mart (Chastain) ayrışır.", kaynak:"Britannica 'Republic of Cracow' https://www.britannica.com/print/article/141562 ; https://en.wikipedia.org/wiki/Free_City_of_Cracow" },
     { t:"1846-11-06", tur:"antlasma", b:"Üç koruyucu devlet Viyana'da Krakov'un Avusturya'ya bırakılmasını kararlaştırdı", kaynak:"Hertslet No. 201" },
     { t:"1846-11-11", tur:"son", b:"Avusturya imparatoru Krakov'un ilhakını ilan etti", kaynak:"Hertslet No. 202" }
   ] },
@@ -11849,7 +11851,7 @@ window.DEVLETLER = [
     { t:"1529-08-19", tur:"vassal", b:"Szapolyai János Osmanlı Sultanı Kanunî Süleyman'a bağlılık yemini etti.", kaynak:"https://en.wikipedia.org/wiki/Eastern_Hungarian_Kingdom" },
     { t:"1529-09-14", tur:"toprak-kazanc", b:"Süleyman'ın Viyana seferi sırasında Budin alındı (3-8 Eylül) ve müttefiki Kral János'a teslim edildi.", kaynak:"https://budavar.btk.mta.hu/en/the-history-of-the-site/buda-in-the-turkish-era.html" },
     { t:"1538-02-24", tur:"antlasma", b:"Nagyvárad (Varad) gizli antlaşması: Ferdinand, János'u kral tanıdı; János ölünce tahtın Ferdinand'a geçmesi kararlaştırıldı (oğlu doğunca bozuldu).", kaynak:"https://en.wikipedia.org/wiki/Treaty_of_Nagyv%C3%A1rad ; https://www.britannica.com/print/article/304576" },
-    { t:"1540-01-01", tur:"hukumdar", b:"I. János (Szapolyai) öldü; Budin Osmanlı beylerbeyiliğine dönüştü", gun:"1540 (TDV yıl verir)", kaynak:"TDV: macaristan: '1540'ta I. János ölünce Budin merkezli bir Osmanlı beylerbeyiliği kuruldu.'" },
+    { t:"1540-07-22", tur:"hukumdar", b:"I. János (Szapolyai) öldü", gun:"22 Temmuz 1540", kaynak:"Magyar életrajzi lexikon (MEK) 'Szapolyai János'; Vilnius VLE 'Jonas Zapojajis' (22 Temmuz 1540, Szászsebes)", ic_not_b:"Çapraz sorgu C047: eski madde 1540-01-01 'János öldü; Budin Osmanlı beylerbeyiliğine dönüştü' (TDV macaristan 1540). János 22 Temmuz 1540'ta öldü; Budin beylerbeyiliği 29 Ağustos 1541 (TDV budin, TDV eyalet, Magyar Katolikus Lexikon), 1541-08-29 ayrıca kayıtlı." },
     { t:"1541-08-29", tur:"son", b:"Erdel Osmanlı'ya bağlı haraçgüzar voyvodalık oldu", gun:"1541 (TDV yıl verir; gün komşudan: erdel)", kaynak:"TDV: erdel" }
   ]
 },
@@ -15524,7 +15526,7 @@ window.DEVLETLER = [
     { t:"2009-01-01", tur:"siyaset", b:"Slovakya avroya geçti.", kaynak:"Avrupa Merkez Bankası (ecb.europa.eu)" }
   ] },
 { id:"polonya-halk", ad:"Polonya (PKWN → Polonya Halk Cumhuriyeti, 1952)", tur:"devlet", bolge:"dogu-avrupa", harita:"polonya", f:"1944-07-22", t:"1989-12-31", baskent:"Varşova", ozet:"22 Temmuz 1944 PKWN Manifestosu ile başlayan Sovyet destekli yönetim; Sejm 29 Aralık 1989'da 'Halk' adını kaldırdı, Senato 30'unda onayladı, yayımla yürürlük 31 Aralık 1989.", kaynak:"https://www.britannica.com/topic/Lublin-Committee ; https://www.cambridge.org/core/books/concise-history-of-poland/new-republic-1989/1FCBE7993F7566640E631D15B1E4E5D2 ; t için 29 Aralık (Sejm) ile 31 Aralık (yürürlük) kaynakta ayrışıyor — yürürlük günü seçildi, ZAYIF KAYNAK", kronoloji:[
-    { t:"1944-07-22", tur:"kurulus", b:"PKWN Manifestosu ilan edildi (Chełm); Sovyet destekli yönetim başladı, 26 Temmuz'da Lublin'e yerleşti.", kaynak:"Britannica, 'Lublin Committee' (https://www.britannica.com/topic/Lublin-Committee)" },
+    { t:"1944-07-22", tur:"kurulus", b:"PKWN Manifestosu ilan edildi (Moskova radyosu; metinde Chełm yer başlığı); komite 27 Temmuz'da Chełm'e, 1 Ağustos'ta Lublin'e yerleşti.", ic_not_b:"Çapraz sorgu C063: eski başlık Lublin'e yerleşmeyi 26 Temmuz verir; Muzeum Historii Polski ve IPN: manifesto 22 Temmuz Moskova radyosu, komite 27 Temmuz Chełm, 1 Ağustos Lublin.", kaynak:"Britannica, 'Lublin Committee' (https://www.britannica.com/topic/Lublin-Committee)" },
     { t:"1944-12-31", tur:"siyaset", b:"Krajowa Rada Narodowa PKWN'yi Polonya Cumhuriyeti Geçici Hükûmeti'ne dönüştürdü.", kaynak:"Britannica, 'Lublin Committee'; Cambridge, Concise History of Poland" },
     { t:"1945-06-28", tur:"siyaset", b:"Yalta kararları uyarınca Ulusal Birlik Geçici Hükûmeti (TRJN) kuruldu; Mikołajczyk grubu dahil edildi.", kaynak:"Cambridge, Concise History of Poland (https://www.cambridge.org/core/books/concise-history-of-poland)" },
     { t:"1952-07-22", tur:"siyaset", b:"Sejm yeni anayasayı kabul etti; devlet Polonya Halk Cumhuriyeti adını aldı.", kaynak:"Konstytucja Polskiej Rzeczypospolitej Ludowej, 22.07.1952 (Dz.U. 1952 nr 33 poz. 232)" },
@@ -16454,7 +16456,8 @@ window.DEVLETLER = [
 { id:"avusturya-hollandasi", ad:"Avusturya Hollandası", tur:"habsburg-mulku", bolge:"bati-avrupa", f:"1714-01-01", t:"1795-10-01", baskent:"Brüksel", ozet:"İspanyol Hollandası Utrecht (1713) ve Rastatt (1714) ile VI. Charles'a geçti; Fransa 1 Ekim 1795'te ilhak etti, Avusturya Campo Formio'da (1797) resmen vazgeçti.", kaynak:"Britannica 'Austrian Netherlands' (1713/1714, 1 Ekim 1795, Campo Formio 1797)", kronoloji:[
     { t:"1714-03-07", tur:"kurulus", b:"Rastatt Antlaşması: eski İspanyol Hollandası Avusturya'ya geçti.", kaynak:"https://en.wikipedia.org/wiki/Austrian_Netherlands" },
     { t:"1715-01-01", tur:"antlasma", b:"Bariyer Antlaşması: Birleşik Eyaletler Avusturya Hollandası'ndaki bazı kalelerde garnizon tuttu.", kaynak:"https://en.wikipedia.org/wiki/Austrian_Netherlands" },
-    { t:"1787-01-01", tur:"isyan", b:"'Küçük Devrim' kargaşası; Joseph II karşıtlarının çoğu Hollanda Cumhuriyeti'ne kaçtı.", kaynak:"https://en.wikipedia.org/wiki/Austrian_Netherlands" },
+    { t:"1787-01-01", tur:"isyan", b:"'Küçük Devrim' kargaşası (Brabant krizi)", kaynak:"https://en.wikipedia.org/wiki/Austrian_Netherlands", ic_not_b:"Çapraz sorgu C038: eski başlık 'Joseph II karşıtlarının çoğu Hollanda Cumhuriyeti'ne kaçtı' 1787'ye ait değil; Brabantlı muhaliflerin Breda'ya kaçışı 1788-89'dur (Pirenne, Geschiedenis van België V; Documentatieblad Achttiende eeuw 1976)." },
+    { t:"1789-10-18", tur:"isyan", b:"Vonck, Breda'ya vardı — Brabantlı muhalifler Hollanda Cumhuriyeti'ne sığındı", kaynak:"Pirenne, Geschiedenis van België deel 5 https://www.dbnl.org/tekst/pire002gesc05_01/pire002gesc05_01_0017.php" },
     { t:"1789-10-27", tur:"savas", b:"Turnhout Savaşı: göçmen Brabant ordusu Avusturyalıları yendi.", kaynak:"https://en.wikipedia.org/wiki/Austrian_Netherlands" },
     { t:"1790-01-01", tur:"kurulus", b:"Belçika Birleşik Devletleri ilan edildi; yabancı tanıma görmedi.", kaynak:"https://en.wikipedia.org/wiki/Austrian_Netherlands" },
     { t:"1794-06-26", tur:"savas", b:"Fleurus Savaşı sonrası Avusturya Alçak Ülkeler'i Fransa'ya bıraktı.", kaynak:"https://en.wikipedia.org/wiki/Austrian_Netherlands" },

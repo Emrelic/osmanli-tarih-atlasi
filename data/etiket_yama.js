@@ -6557,14 +6557,6 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "dosya": "kronoloji_dogu_afrika.js",
-    "t": "1567-01-01",
-    "b": "Oromo akınlarının yeniden başlaması ve Emîr Nûr'un tifüsten ölümü",
-    "etiket_oneri": [
-     "afet-salgin"
-    ]
-   },
-   {
     "dosya": "kronoloji_fransa.js",
     "t": "1348-01-01",
     "b": "Kara Ölüm'ün Fransa'yı vurması",
