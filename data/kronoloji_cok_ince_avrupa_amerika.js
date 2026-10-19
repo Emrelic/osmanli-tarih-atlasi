@@ -98,13 +98,13 @@ window.KRONOLOJI_COK_INCE_AVRUPA_AMERIKA = [
   // Kaynak (hepsi): Richard Bagwell, Ireland under the Tudors, cilt I ve III,
   // London: Longmans, Green & Co., 1885-1890 (archive.org: irelandundertudo01bagwuoft · irelandundertudo03bagwuoft).
   // Bagwell İngiliz belgelerini (Carew, Pacata Hibernia) izler ⇒ 1601-02 günleri ESKİ ÜSLUP (Jülyen).
-  { t:"1367-01-01", k:"siyasi",tur:"siyasi", b:"Kilkenny Statüsü: İngiliz 'Pale'i ile dışındaki Gal halkı hukuken ayrıldı",
-    gun:"1367 (kaynak yıl verir)", yer:"Kilkenny", kisiler:"Clarence Dükü Lionel",
+  { t:"1366-02-18", k:"siyasi",tur:"siyasi", b:"Kilkenny Statüsü: İngiliz 'Pale'i ile dışındaki Gal halkı hukuken ayrıldı",
+    gun:"18 Şubat 1366", yer:"Kilkenny", kisiler:"Clarence Dükü Lionel",
     d:"İrlanda'ya dönen Lionel'in topladığı Kilkenny parlamentosu, kralın artık adanın ancak küçük bir kısmının efendisi olduğu gerçeğine hukukî onay verdi. Statünün önemi, bir İngiliz 'Pale'inin ve onun dışında düşman bir İrlanda halkının varlığını resmen tanımasındadır; İngiliz yerleşimcilerin Gal dilini, hukukunu ve âdetlerini benimsemesi yasaklandı.",
     kaynak:"Bagwell, Ireland under the Tudors I (1885), s. 80-81 — «In 1367 he returned and summoned a Parliament, whose enactments gave legal sanction to the fact that the King was no longer lord of more than a comparatively small portion of Ireland» · «the Statute of Kilkenny was not passed till 1367»",
     ic_not_t:"Bagwell 1367 der; güncel literatür statüyü genellikle 1366'ya tarihler — kaynağın yılı yazıldı, çelişki BİLDİRİLİYOR. Gün yok.",
     yer_id:"Kilkenny",
-    taraflar:["irlanda"], etiket:["konu-siyasi"] },
+    taraflar:["irlanda"], etiket:["konu-siyasi"], ic_not_gun:"Çapraz sorgu C039 (UC-KAYNAK-SONUC): atlas 1367-01-01 → 1366-02-18; İki bağımsız açılmış kaynak 1366 verir ve IMC parlamentonun açılışını 18 Şubat 1366 yapar; atlasın 1367'si CELT başlığındaki eski neşir etiketidir; Jülyen, Lionel Kasım 1366'da ayrıldı." },
   { t:"1494-12-01", k:"siyasi",tur:"siyasi", b:"Poynings Kanunları: İrlanda parlamentosu İngiliz kral ve meclisine bağlandı",
     gun:"1 Aralık 1494 (Irish Statutes, 10 Henry VII)", yer:"Drogheda", kisiler:"Sir Edward Poynings · VII. Henry",
     d:"13 Ekim 1494'te Howth'a 1.000 askerle çıkan Lord Deputy Sir Edward Poynings'in topladığı parlamento iki kanun çıkardı: İrlanda'da parlamento ancak Lord Deputy ve Konsey'in önerip kralın İngiliz mührüyle onayladığı gündemle toplanabilecek; İngiltere'de o güne kadar çıkmış bütün kamu kanunları İrlanda'da da geçerli olacaktı. İrlanda parlamentosunun İngiliz parlamentosuna bağımlılığı böylece en tam biçimde kuruldu.",

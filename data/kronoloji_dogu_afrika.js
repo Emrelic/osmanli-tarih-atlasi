@@ -729,20 +729,20 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"İngiltere, Fransa ve İtalya, Etiyopya'yı nüfuz bölgelerine ayıran üçlü bir antlaşma imzaladılar. Aynı yıl Adva kahramanı Ras Makonnen'in ölümü Menelik'in gücünü zayıflattı; 1903'ten itibaren Almanlar da kral üzerinde nüfuz kurup imtiyazlar elde ettiler.",
   kaynak:"TDV `etiyopya`: \"1906'da İtalyanlar'ı Adve'de hezimete uğratarak halk kahramanı olan amcasının oğlu Ras Makonnen'in ölümü Menelik'in gücünü zayıflattı\" · \"1903'ten itibaren faaliyete geçmiş olan Almanlar da Etiyopya kralı üzerinde nüfuz kurup bazı imtiyazlar elde ettiler\"" },
 
-{ taraflar:["habesistan"], t:"1907-01-01", b:"Menelik'in idareyi bırakması ve Lidj Yassou'yu vâris tayin etmesi", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic", yer_id:"Addis",
+{ taraflar:["habesistan"], t:"1908-01-01", b:"Menelik'in idareyi bırakması ve Lidj Yassou'yu vâris tayin etmesi", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic", yer_id:"Addis",
   etiket:["hanedan","konu-hanedan"],
   d:"Menelik sağlığının bozulması sebebiyle 1907'de idareyi karısına bıraktı, torunu Lidj Yassou'yu da vâris tayin etti. Veraset meselesi, ölümünden sonra sarayı yıllarca meşgul edecektir.",
-  kaynak:"TDV `etiyopya`: \"Menelik sağlığının bozulması sebebiyle 1907'de idareyi karısına bırakırken torunu Lidj Yassou'yu da vâris tayin etti\"" },
+  kaynak:"TDV `etiyopya`: \"Menelik sağlığının bozulması sebebiyle 1907'de idareyi karısına bırakırken torunu Lidj Yassou'yu da vâris tayin etti\"", ic_not_gun:"Çapraz sorgu C034 (UC-KAYNAK-SONUC): atlas 1907-01-01 → 1908-01-01; İki bağımsız yayıncı 1908 der (LoC'un 1908 Haziran'ı yalnız arama özetinden), TDV 1907 ve Treccani 1909 birer oy; 1908 çoğunluk ama sağlam değil; 1909 ilanı (28 Ekim 1909) ayrı olay olabilir, 'idareyi bırakma' 1907 TDV iddiası bağımsız teyi" },
 
-{ taraflar:["habesistan"], t:"1913-01-02", b:"Menelik'in ölümü ve Lidj Yassou'nun Alman desteğiyle tahta geçmesi", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic", yer_id:"Addis",
+{ taraflar:["habesistan"], t:"1913-12-12", b:"Menelik'in ölümü ve Lidj Yassou'nun Alman desteğiyle tahta geçmesi", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic", yer_id:"Addis",
   etiket:["hanedan","konu-kisiler","konu-hanedan"],
   d:"Kralın 1913'te ölümü üzerine sarayda ortaya çıkan iç karışıklık sırasında Lidj Yassou ancak Almanların yardımıyla tahta geçebildi. Etiyopya böylece I. Dünya Savaşı'na giden yolda İttifak devletlerine yakın bir hükümdar edindi.",
-  kaynak:"TDV `etiyopya`: \"Kralın 1913'te ölümü üzerine sarayda ortaya çıkan iç karışıklık sırasında Lidj Yassou ancak Almanlar'ın yardımıyla tahta geçebildi\"" },
+  kaynak:"TDV `etiyopya`: \"Kralın 1913'te ölümü üzerine sarayda ortaya çıkan iç karışıklık sırasında Lidj Yassou ancak Almanlar'ın yardımıyla tahta geçebildi\"", ic_not_gun:"Çapraz sorgu C035 (UC-KAYNAK-SONUC): atlas 1913-01-02 → 1913-12-12; Yıl 1913 üç yayıncıda tutarlı, ama 2 Ocak hiçbir kaynakta yok; tek açılmış gün kaynağı (encyclopedia.com) 12-13 Aralık gecesi verir, ikinci bağımsız gün kaynağı açılamadı; 'Alman desteği' bağımsız teyitsiz." },
 
-{ taraflar:["habesistan"], t:"1917-09-27", b:"Lidj Yassou'nun tahttan indirilmesi — Zaoditou imparatoriçe, Ras Tafari nâib", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic", yer_id:"Addis",
+{ taraflar:["habesistan"], t:"1916-09-27", b:"Lidj Yassou'nun tahttan indirilmesi — Zaoditou imparatoriçe, Ras Tafari nâib", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic", yer_id:"Addis",
   etiket:["hanedan","din","konu-darbe","konu-hanedan","konu-din"],
   d:"İslâmiyet'i benimsemesi ve Somali'de İngilizlere karşı savaşan Muhammed Abdullah Hasan'la ittifak yapması gibi sebeplerle Batılı çevrelerin düşmanlığını üzerine çeken Lidj Yassou 1917'de tahttan indirildi; yerine Menelik'in kızı Zaoditou çıkarıldı, Ras Makonnen'in oğlu Ras Tafari kral nâibi ve veliaht tayin edildi. Bu tarih, Etiyopya'da bir müslüman hükümdar ihtimalinin kapandığı andır.",
-  kaynak:"TDV `etiyopya`: \"1917'de tahttan indirilerek yerine Menelik'in kızı Zaoditou çıkarıldı, yeğeni Ras Tafari de (Ras Makonnen'in oğlu) kral nâibi ve veliaht tayin edildi\" · gün data/devletler.js künyesinde YOK, TDV yalnız yılı veriyor — GÜN İÇİN 27 Eylül 1917 (Zaoditou'nun taç giymesi) standart akademik kaynaktan alındı: Bahru Zewde, A History of Modern Ethiopia 1855-1974 (TDV `harar` bibliyografyasında da anılan eser)" },
+  kaynak:"TDV `etiyopya`: \"1917'de tahttan indirilerek yerine Menelik'in kızı Zaoditou çıkarıldı, yeğeni Ras Tafari de (Ras Makonnen'in oğlu) kral nâibi ve veliaht tayin edildi\" · gün data/devletler.js künyesinde YOK, TDV yalnız yılı veriyor — GÜN İÇİN 27 Eylül 1917 (Zaoditou'nun taç giymesi) standart akademik kaynaktan alındı: Bahru Zewde, A History of Modern Ethiopia 1855-1974 (TDV `harar` bibliyografyasında da anılan eser)", ic_not_gun:"Çapraz sorgu C036 (UC-KAYNAK-SONUC): atlas 1917-09-27 → 1916-09-27; Gün (27 Eylül) atlasla örtüşür, yıl 1916'dır: encyclopedia.com açık, BlackPast/GlobalSecurity özetleri 27 Eylül 1916 der; TDV 1917 tek başına; 2. kaynak sayfası tam açılamadığı için ORTA; Gregoryen." },
 
 { taraflar:["habesistan"], t:"1922-01-01", b:"İngiliz basınının kölelik meselesiyle Zaoditou ve Ras Tafari aleyhine tavır alması", tur:"diplomasi", onem:3, dunya:1, kapsam:"dis", yer_id:"Addis",
   etiket:["diplomasi","sosyal","konu-diplomasi","konu-sosyal"],

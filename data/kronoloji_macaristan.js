@@ -159,11 +159,11 @@ window.KRONOLOJI_MACARISTAN = [
   d:"I. Lajos, Papa V. Urban'ın onayıyla Pécs'te bir stüdyum genel (üniversite) kurdurdu; hukuk ve serbest sanatlar okutulan kurum, malî ve akademik personel sıkıntısı yüzünden 15. yüzyıl başında etkinliğini yitirdi. Yine de Orta Avrupa'nın en erken üniversite girişimlerinden biriydi.",
   kaynak:"akademik: Kontler (2002), s. 91", yer_id:"Peçuy" },
 
-{ t:"1370-02-17", devlet:"macaristan", b:"Lajos'un Lehistan tacını da alması — kişisel birlik", tur:"birlesme", onem:4, dunya:2, kapsam:"dis",
+{ t:"1370-11-17", devlet:"macaristan", b:"Lajos'un Lehistan tacını da alması — kişisel birlik", tur:"birlesme", onem:4, dunya:2, kapsam:"dis",
   etiket:["hanedan","diplomasi","konu-siyasi","konu-diplomasi","konu-hanedan"],
   yer_id:"",
   d:"Dayısı Kazimierz Wielki'nin erkek varissiz ölümüyle Lajos, Macaristan-Lehistan kişisel birliğinin başına geçti; iki krallık aynı hükümdarı paylaşmakla birlikte ayrı idarelerini korudu. Birlik Lajos'un 1382'deki ölümüyle sona erdi.",
-  kaynak:"akademik: Engel (2001), s. 167-168", yer_id:"Krakov" },
+  kaynak:"akademik: Engel (2001), s. 167-168", yer_id:"Krakov", ic_not_gun:"Çapraz sorgu C044 (UC-KAYNAK-SONUC): atlas 1370-02-17 → 1370-11-17; İki Macar yayıncı açılan sayfalarda 17 Kasım 1370 der ve Kazimir'in 5 Kasım ölümüyle tutarlıdır, Şubat imkânsızdır; Jülyen gün, Polonya tarafı doğrudan teyidi (PWN/PSB) bulunamadı." },
 
 { t:"1382-09-11", devlet:"macaristan", b:"I. (Büyük) Lajos'un ölümü", tur:"olum", onem:4, dunya:2, kapsam:"ic",
   etiket:["hukumdar","hanedan","konu-kisiler","konu-hanedan"],
@@ -437,11 +437,11 @@ window.KRONOLOJI_MACARISTAN = [
   d:"Zrínyi Miklós komutasındaki küçük garnizon, aylar süren kuşatmaya direndikten sonra son bir çıkışla neredeyse tamamen yok oldu; kale düşmeden hemen önce Kanuni Sultan Süleyman ordugâhında yaşlılıktan öldü, ölümü savaş bitene dek gizli tutuldu. Zrínyi'nin direnişi Macar-Hırvat millî hafızasında Eğri'ninkine benzer bir kahramanlık efsanesine dönüştü.",
   kaynak:"TDV `suleyman-i` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"20-21 Safer 974 (6-7 Eylül 1566) gecesi hayata gözlerini yumdu\" · TDV `sigetvar`: kuşatmanın 5 Ağustos 1566'da başladığını ve 5 Eylül'de açılan lağımı anlatır, düşüş günü vermez · Düzeltme: önceki gün 1566-09-08 TDV sigetvar'a dayandırılmıştı ama o maddede 8 Eylül YOK; çekirdek olaylar.js 1566-09-07 ile hizalandı", yer_id:"Zigetvar" },
 
-{ t:"1571-08-16", devlet:"erdel", b:"Torda Edikti — Erdel'de din özgürlüğünün yasalaşması", tur:"kanun", onem:4, dunya:1, kapsam:"ic",
+{ t:"1568-01-13", devlet:"erdel", b:"Torda Edikti — Erdel'de din özgürlüğünün yasalaşması", tur:"kanun", onem:4, dunya:1, kapsam:"ic",
   etiket:["din","kanun","konu-din","konu-hukuk"],
   yer_id:"", kapsam_genis:true,
   d:"Erdel Meclisi, Katoliklik, Lutherci ve Kalvinci Protestanlık ile Üniteryenliği eşit ölçüde tanıyan bir yasa kabul etti; bu, Avrupa'da bir devletin dört farklı mezhebi resmen ve eşit biçimde tanıdığı ilk örneklerden biriydi ve Erdel'in çok-mezhepli özgün kimliğinin hukukî temelini oluşturdu.",
-  kaynak:"akademik: Graeme Murdock, Calvinism on the Frontier (2000), s. 25-30", yer_kon:[46.5689,23.7856] },
+  kaynak:"akademik: Graeme Murdock, Calvinism on the Frontier (2000), s. 25-30", yer_kon:[46.5689,23.7856], ic_not_gun:"Çapraz sorgu C049 (UC-KAYNAK-SONUC): atlas 1571-08-16 → 1568-01-13; Torda Edikti 6-13 Ocak 1568 diyetinin kararıdır (MKL açıldı, Posta ikinci yayıncı), 16 Ağustos 1571 hiçbir kaynakta yok; 1571 Ocak Marosvásárhely yalnız onaylama olup ayrı madde olmalıdır." },
 
 { t:"1590-07-20", devlet:"macaristan-habsburg", b:"Vizsoly İncili'nin basımı — tam Macarca Kutsal Kitap", tur:"kultur", onem:4, dunya:1, kapsam:"ic",
   etiket:["kultur","din","bilim","konu-bilim","konu-din","konu-kultur"],
@@ -571,11 +571,11 @@ window.KRONOLOJI_MACARISTAN = [
   d:"Antlaşmayla Temeşvar hariç tüm Macaristan ve Erdel Habsburg'a bırakıldı; 158 yıl süren üçlü bölünme resmen sona erdi ve ülke -Erdel'in ayrı bir idarî statüsü korunmakla birlikte- ilk kez tek bir hanedanın tacı altında bütünleşti. Macar tarihyazımında bu, hem 'Osmanlı'dan kurtuluşun' hem de 'tam Habsburg denetiminin' başlangıcı olarak çift anlamlıdır.",
   kaynak:"TDV `karlofca`: antlaşmayla Osmanlı'nın Macaristan'dan (Temeşvar hariç) kesin olarak çekildiği anlatılır", yer_id:"Varadin (Petrovaradin)" },
 
-{ t:"1703-06-07", devlet:"macaristan-habsburg", b:"II. Rákóczi Ferenc'in Brezán Manifestosu — bağımsızlık savaşının başlaması", tur:"isyan", onem:5, dunya:2, kapsam:"ic",
+{ t:"1703-05-06", devlet:"macaristan-habsburg", b:"II. Rákóczi Ferenc'in Brezán Manifestosu — bağımsızlık savaşının başlaması", tur:"isyan", onem:5, dunya:2, kapsam:"ic",
   etiket:["isyan","hukumdar","konu-isyan","konu-hanedan"],
   yer_id:"",
   d:"Sürgündeki Rákóczi, Lehistan'dan Macaristan'a geçerek 'Recrudescunt' manifestosuyla Habsburg'a karşı silahlı direnişi ilan etti; ağır vergilere ve dinî baskıya öfkeli hajdú ve köylü kitleleri kısa sürede onun Kuruc ordusuna katıldı. Sekiz yıl sürecek bağımsızlık savaşı böyle başladı.",
-  kaynak:"akademik: Kontler (2002), s. 170-171 — TDV `tokoli-imre` maddesinde Kuruc geleneğinin Thököly'den Rákóczi'ye devri anılır", yer_kon:[49.4467,24.95] },
+  kaynak:"akademik: Kontler (2002), s. 170-171 — TDV `tokoli-imre` maddesinde Kuruc geleneğinin Thököly'den Rákóczi'ye devri anılır", yer_kon:[49.4467,24.95], ic_not_gun:"Çapraz sorgu C051 (UC-KAYNAK-SONUC): atlas 1703-06-07 → 1703-05-06; Haziran 1703 Brezán bildirisinin değil Macaristan'a geçişin ayıdır; iki bağımsız Macar yayıncı ve ek kaynaklar 6 Mayıs 1703 veriyor (Gregoryen)." },
 
 { t:"1704-07-08", devlet:"erdel", b:"Rákóczi'nin Erdel Prensi seçilmesi", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
   etiket:["hukumdar","konu-hanedan"],
@@ -769,11 +769,11 @@ window.KRONOLOJI_MACARISTAN = [
   d:"İçişleri Bakanı Alexander Bach'ın adını taşıyan sistem, Macaristan'ı ayrı bir siyasî varlık olarak tanımayıp doğrudan Viyana'dan yönetilen bir eyalete indirgedi; Alman memurlar ve jandarma ile yürütülen bu idare, Macar toplumunda 'pasif direniş' (Deák Ferenc'in siyasetiyle özdeşleşen) tepkisini doğurdu.",
   kaynak:"akademik: Kontler (2002), s. 233-235" },
 
-{ t:"1854-03-02", devlet:"macaristan-habsburg", b:"Urbéri kárpótlás — serflik tazminatının yasal çerçevesinin tamamlanması", tur:"reform", onem:3, dunya:1, kapsam:"ic",
+{ t:"1853-03-02", devlet:"macaristan-habsburg", b:"Urbéri kárpótlás — serflik tazminatının yasal çerçevesinin tamamlanması", tur:"reform", onem:3, dunya:1, kapsam:"ic",
   etiket:["mali","reform","konu-ekonomi","konu-islahat"],
   yer_id:"", kapsam_genis:true,
   d:"1848 Nisan Yasaları'yla ilke olarak kaldırılan serfliğin toprak beylerine devlet tarafından ödenecek tazminatının usulleri, Bach döneminde tamamlandı; düzenleme köylü mülkiyetini hukuken kesinleştirse de büyük toprak sahiplerini malî olarak kayırdı.",
-  kaynak:"akademik: Evans (2006), s. 280-281" },
+  kaynak:"akademik: Evans (2006), s. 280-281", ic_not_gun:"Çapraz sorgu C052 (UC-KAYNAK-SONUC): atlas 1854-03-02 → 1853-03-02; Pátens 2 Mart 1853 tarihlidir (iki Macar yayıncı), atlasın 1854 yılı hatalıdır; 1854-06-16 ek emri ayrı madde olabilir." },
 
 { t:"1859-06-24", devlet:"macaristan-habsburg", b:"Solferino bozgununun Bach sisteminin çöküşünü hızlandırması", tur:"kriz", onem:3, dunya:4, kapsam:"dis",
   etiket:["askeri","kriz","konu-askeri","konu-siyasi"],
@@ -781,11 +781,11 @@ window.KRONOLOJI_MACARISTAN = [
   d:"İtalya'daki bozgun, Viyana'nın malî ve siyasî krizini derinleştirdi; Macaristan'da pasif direniş siyaseti bu zayıflamadan güç alarak anayasal müzakere zeminini genişletti — Ausgleich'a giden sürecin ilk ciddi kırılma noktalarından biriydi.",
   kaynak:"akademik: Kontler (2002), s. 236 — bkz. `kronoloji_habsburg.js` aynı tarih, dunya:4", yer_kon:[45.3833,10.7667] },
 
-{ t:"1861-04-02", devlet:"macaristan-habsburg", b:"Deák Ferenc'in 'Húsvéti cikk' (Paskalya Makalesi) ile uzlaşma çerçevesini önermesi", tur:"siyaset", onem:4, dunya:2, kapsam:"ic",
+{ t:"1865-04-16", devlet:"macaristan-habsburg", b:"Deák Ferenc'in 'Húsvéti cikk' (Paskalya Makalesi) ile uzlaşma çerçevesini önermesi", tur:"siyaset", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"Deák, 1848 Nisan Yasaları'nın hukuki sürekliliğini talep ederken tam bağımsızlıktan vazgeçen ve ortak dışişleri-savunma alanlarını kabul eden bir uzlaşma formülü önerdi; bu ılımlı çizgi, altı yıl sonraki Ausgleich'ın fikrî temelini oluşturdu.",
-  kaynak:"akademik: Kontler (2002), s. 237-238", yer_kon:[47.4979,19.0402], yer_id:"Peşte" },
+  kaynak:"akademik: Kontler (2002), s. 237-238", yer_kon:[47.4979,19.0402], yer_id:"Peşte", ic_not_gun:"Çapraz sorgu C053 (UC-KAYNAK-SONUC): atlas 1861-04-02 → 1865-04-16; Üç-dört bağımsız yayıncı Húsvéti cikk'i 1865 Paskalyası'nda (Pesti Napló, 16 Nisan 1865) veriyor; atlasın 1861 yılı ve günü yanlış, ancak sayfa gövdeleri tam doğrulanmadı." },
 
 { t:"1866-07-03", devlet:"macaristan-habsburg", b:"Königgrätz bozgununun Ausgleich'i kaçınılmaz kılması", tur:"kriz", onem:4, dunya:4, kapsam:"dis",
   etiket:["askeri","kriz","konu-askeri","konu-siyasi"],

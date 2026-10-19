@@ -110,7 +110,7 @@ window.DEVLETLER = [
     { t:"1347-01-01", tur:"isyan", b:"VI. İoannis Kantakuzenos - V. İoannis Palaiologos iç savaşı, Kara Ölüm salgınıyla üst üste" },
     { t:"1354-03-02", tur:"toprak-kayip", b:"Gelibolu depreminden yararlanan Osmanlılar Rumeli'ye ilk kez yerleşti" },
     { t:"1373-01-01", tur:"antlasma", b:"V. İoannis, I. Murad'a vasal oldu, haraç ödemeye başladı" },
-    { t:"1391-01-01", tur:"savas", b:"Yıldırım Bayezid İstanbul'u kuşattı (1402'ye dek aralıklı)" },
+    { t:"1394-01-01", tur:"savas", b:"Yıldırım Bayezid İstanbul'u kuşattı (1402'ye dek aralıklı)", ic_not_gun:"Çapraz sorgu C024 (UC-KAYNAK-SONUC): atlas 1391-01-01 → 1394-01-01; Cambridge-Barker ve Charles Üniversitesi blokajın/kuşatmanın başlangıcını 1394 veriyor (TDV Bayezid I de 1394), TDV Bizans'ın 1391'i Dukas dayanaklı; atlasın 'kuşattı' maddesi 1394'e alınmalı, 1391 en fazla çevre toprakların alınması." },
     { t:"1422-06-10", tur:"savas", b:"II. Murad İstanbul'u kuşattı, kaldırdı" },
     { t:"1439-07-06", tur:"ittifak", b:"Floransa Konsili'nde Katolik-Ortodoks birliği ilan edildi (Batı yardımı arayışı)" },
     { t:"1449-01-06", tur:"hukumdar", b:"XI. Konstantinos Palaiologos son imparator oldu" },
@@ -376,7 +376,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1917-03-15", tur:"kurulus", b:"II. Nikolay'ın tahttan çekilmesiyle Prens Lvov önderliğinde kuruldu" },
     { t:"1917-07-21", tur:"hukumdar", b:"Aleksandr Kerenski başbakan oldu" },
-    { t:"1917-09-01", tur:"kurulus", b:"Rus Cumhuriyeti resmen ilan edildi" },
+    { t:"1917-09-14", tur:"kurulus", b:"Rus Cumhuriyeti resmen ilan edildi", ic_not_takvim:"Jülyen 1 Eylül 1917 (resmî karar) = Gregoryen 14 Eylül 1917" },
     { t:"1917-11-07", tur:"son", b:"Ekim İhtilâli ile Bolşevikler tarafından devrildi", ic_not_b:"eski b: Ekim İhtilâli ile Bolşevikler tarafından devrildi (bkz. [[sovyet-rusya]])" }
   ]
 },
@@ -403,7 +403,7 @@ window.DEVLETLER = [
     { t:"1479-01-25", tur:"toprak-kayip", b:"İstanbul Antlaşması — Arnavutluk/İşkodra Osmanlı'da kaldı" },
     { t:"1489-02-26", tur:"toprak-kazanc", b:"Kıbrıs Krallığı'nı devraldı (Lüzinyan hanedanının sonu)" },
     { t:"1571-08-01", tur:"toprak-kayip", b:"Kıbrıs Osmanlı'ya düştü (İnebahtı zaferine rağmen)" },
-    { t:"1669-09-27", tur:"toprak-kayip", b:"Kandiye'nin düşüşüyle Girit kaybedildi" },
+    { t:"1669-09-06", tur:"toprak-kayip", b:"Kandiye'nin düşüşüyle Girit kaybedildi", ic_not_gun:"Çapraz sorgu C076 (UC-KAYNAK-SONUC): atlas 1669-09-27 → 1669-09-06; İki bağımsız yayıncı (TDV ve Treccani) Kandiye'nin teslim anlaşmasını 6 Eylül 1669 verir, 27 Eylül bu iki kaynakta yok ve ancak tahliye/şehre giriş tarihi olabilir (doğrulanmadı); başlık düşüş/teslim olduğundan 6 Eylül önerilir, Osmanlı'nın" },
     { t:"1684-01-01", tur:"toprak-kazanc", b:"Kutsal İttifak Savaşı'nda Mora'yı fethetti (1699'a dek)" },
     { t:"1699-01-26", tur:"antlasma", b:"Karlofça ile Mora resmen Venedik'e bağlandı" },
     { t:"1715-09-07", tur:"toprak-kayip", b:"Osmanlı, Mora'yı geri aldı", gun:"İKİ ADAY (Sarıkaya & Göger 2018): 1715-06-26 = ordunun Mora'ya GİRİŞİ (fetihnâme: \"mâh-ı Cumâdelâhıra'nın yigirmi üçüncü günü … Mora Cezîresi içine dühûl eyleyüp\", dipnot \"23 Cumâdelâhır 1127 = 26 Haziran 1715\") · 1715-09-07 = son kalenin teslimi (\"Benefşe de 7 Eylül’de teslim oldu\"). SEÇİLEN 09-07, çünkü makale yeniden hâkimiyeti bu teslimden SONRAKİ cümleye bağlıyor: \"Böylece Mora’daki Osmanlı hâkimiyeti yeniden tesis edildi\" — maddenin olayı (geri alınış/kayıp) girişi değil TAMAMLANMAYI anlatır. 06-26 bu maddenin değil, seferin BAŞLANGICININ günüdür (KRONO-AKADEMIK-1006 §1 #3)", ic_not_b:"eski t: 1715-06-25 — KAYNAKSIZ (06-26 girişine 1 gün yakındı) (KRONO-AKADEMIK-1006)", kaynak:"Hüseyin Sarıkaya & Veysel Göger, \"Mora’nın Yeniden Fethine Dair Osmanlıların Hazırladıkları Fetihnâme (1715)\", Tarih Dergisi 67 (2018), DOI 10.26650/TurkJHist.2018.369193 · TDV `mora`: \"(1127/1715 yazı)\"" },
@@ -925,7 +925,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1792-09-22", tur:"kurulus", b:"I. Fransız Cumhuriyeti ilan edildi" },
     { t:"1804-01-01", tur:"hukumdar", b:"Napolyon Bonapart kendini imparator ilan etti (1814'e dek)" },
-    { t:"1815-06-09", tur:"hukumdar", b:"Restorasyon — Bourbon hanedanı geri döndü (1830'a dek)" },
+    { t:"1815-07-08", tur:"hukumdar", b:"Restorasyon — Bourbon hanedanı geri döndü (1830'a dek)", ic_not_gun:"Çapraz sorgu C032 (UC-KAYNAK-SONUC): atlas 1815-06-09 → 1815-07-08; İki bağımsız Fransız yayıncı (Larousse, Universalis) ikinci Restorasyon dönüşünü 8 Temmuz 1815 (Gregoryen) verir; 9 Haziran atlas hatasıdır, ilk Restorasyon dönüşü 1814-05-03'tür (başlık 1814'ü kapsayacaksa o gün)." },
     { t:"1830-08-09", tur:"bolunme", b:"Temmuz Monarşisi — Louis Philippe tahta çıktı" },
     { t:"1848-02-24", tur:"kurulus", b:"II. Cumhuriyet ilan edildi" },
     { t:"1852-12-02", tur:"hukumdar", b:"III. Napolyon kendini imparator ilan etti (II. İmparatorluk)" },
@@ -994,7 +994,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1709-07-08", tur:"savas", b:"Poltava'da Rusya'ya yenilen XII. Karl, Osmanlı'ya sığındı" },
     { t:"1709-08-01", tur:"ittifak", b:"Bender'de Osmanlı himayesinde kalarak Rusya'ya karşı savaş kışkırttı (Prut Seferi'ni tetikledi)" },
-    { t:"1714-09-19", tur:"antlasma", b:"Osmanlı topraklarını terk etti (Dimetoka'dan yola çıktı)", ic_not_b:"eski t: 1714-02-01 · eski b: Osmanlı topraklarını terk etti — gün KAYNAKSIZ ve olayla uyuşmuyordu (KRONO-AKADEMIK-1006)", kaynak:"TDV `isvec`: \"12 Temmuz 1714 tarihli mektubu ile memleketine dönmeye hazır olduğunu bildirdiğinden Ağustos içinde kendisine dönüş izni verildi. 19 Eylül’de yola çıkıp 11 Ekim’de memleketine ulaştı.\" · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1714-09-19 (TDV) · kullanılmayan kaynaklı gün 1714-09-20 (Encyclopaedia Britannica 1911, \"Charles XII.\": \"he quitted Demotika on the 20th of September 1714\") · neden: iki kaynak bir gün farklı; TDV esas (KRONO-AKADEMIK-1006)" },
+    { t:"1714-10-01", tur:"antlasma", b:"Osmanlı topraklarını terk etti (Dimetoka'dan yola çıktı)", ic_not_b:"eski t: 1714-02-01 · eski b: Osmanlı topraklarını terk etti — gün KAYNAKSIZ ve olayla uyuşmuyordu (KRONO-AKADEMIK-1006)", kaynak:"TDV `isvec`: \"12 Temmuz 1714 tarihli mektubu ile memleketine dönmeye hazır olduğunu bildirdiğinden Ağustos içinde kendisine dönüş izni verildi. 19 Eylül’de yola çıkıp 11 Ekim’de memleketine ulaştı.\" · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1714-09-19 (TDV) · kullanılmayan kaynaklı gün 1714-09-20 (Encyclopaedia Britannica 1911, \"Charles XII.\": \"he quitted Demotika on the 20th of September 1714\") · neden: iki kaynak bir gün farklı; TDV esas (KRONO-AKADEMIK-1006)", ic_not_takvim:"Jülyen 20 Eylül 1714 (SBL, Britannica 1911) = Gregoryen 1 Ekim 1714" },
     { t:"1946-11-19", tur:"siyaset", b:"İsveç Birleşmiş Milletler'e üye oldu", kaynak:"https://www.un.org/en/about-us/member-states/sweden" },
     { t:"1973-09-15", tur:"hukumdar", b:"XVI. Carl Gustaf tahta çıktı", kaynak:"https://www.kungahuset.se/" },
     { t:"1975-01-01", tur:"siyaset", b:"Yeni Hükûmet Biçimi (anayasa) yürürlüğe girdi, kralın yetkileri törensel hale geldi", kaynak:"https://www.riksdagen.se/en/ (Instrument of Government 1974)" },
@@ -1678,7 +1678,7 @@ window.DEVLETLER = [
   kaynak:"bulgaristan",
   kronoloji:[
     { t:"1908-10-05", tur:"kurulus", b:"Ferdinand, Bulgaristan'ın tam bağımsızlığını ve kendi Çarlığını ilan etti" },
-    { t:"1912-10-08", tur:"savas", b:"Balkan Savaşları'na girdi" },
+    { t:"1912-10-18", tur:"savas", b:"Balkan Savaşları'na girdi", ic_not_gun:"Çapraz sorgu C027 (UC-KAYNAK-SONUC): atlas 1912-10-08 → 1912-10-18; 8 Ekim Karadağ'ın tarihi; üç bağımsız kaynak Bulgaristan için 17-18 Ekim veriyor (Hrvatska enc. ve BNR 18 Ekim, Gale 17 Ekim = Osmanlı ilanı günü olabilir), gün 1 gün ayrışıyor; 8 Ekim Karadağ maddesi ayrı tutulmalı." },
     { t:"1913-06-29", tur:"savas", b:"II. Balkan Savaşı'nda eski müttefiklerine yenilip toprak kaybetti" },
     { t:"1946-09-08", tur:"siyaset", b:"Halk oylamasıyla monarşinin kaldırılmasına karar verildi", kaynak:"TDV: bulgaristan: '8 Eylül 1946'da yapılan halk oylamasıyla cumhuriyet ilân edildi'" }
   ]
@@ -1693,7 +1693,7 @@ window.DEVLETLER = [
     { t:"1886-03-03", tur:"antlasma", b:"Bükreş Antlaşması savaşı bitirdi ve savaş öncesi Sırp-Bulgar sınırını yeniden kurdu.", kaynak:"Britannica, Treaty of Bucharest (1886), https://www.britannica.com/topic/Treaty-of-Bucharest-Balkan-history-1886" },
     { t:"1889-03-06", tur:"hukumdar", b:"I. Milan oğlu Aleksandar lehine tahttan çekildi; Aleksandar Mart 1889'da tahta çıktı ve vesayet heyeti kuruldu.", kaynak:"Britannica, Milan IV; Britannica, Alexander (king of Serbia), https://www.britannica.com/biography/Alexander-king-of-Serbia" },
     { t:"1903-06-11", tur:"hukumdar", b:"Mayıs Darbesi: subaylar saraya girip Kral Aleksandar'ı ve Draga'yı öldürdü (Eski takvimle 29 Mayıs); ardından I. Petar kral seçildi.", kaynak:"Britannica, Alexander (king of Serbia), https://www.britannica.com/biography/Alexander-king-of-Serbia ; Britannica, Peter I (king of Serbia), https://www.britannica.com/biography/Peter-I-king-of-Serbia" },
-    { t:"1912-10-08", tur:"savas", b:"Balkan Savaşları'na girdi, Kosova ve Makedonya'yı aldı" },
+    { t:"1912-10-18", tur:"savas", b:"Balkan Savaşları'na girdi, Kosova ve Makedonya'yı aldı", ic_not_gun:"Çapraz sorgu C074 (UC-KAYNAK-SONUC): atlas 1912-10-08 → 1912-10-18; İki bağımsız yayıncı Sırbistan'ın savaşa girişini 8 Ekim değil 17-18 Ekim 1912 verir (8 Ekim Karadağ); HE 18 Ekim (5 Ekim Jülyen) açık, Treccani 17 Ekim Osmanlı ilanı; öneri 18 Ekim, kıstas 17/18 ayrışması nedeniyle ORTA." },
     { t:"1913-08-10", tur:"antlasma", b:"Bükreş Antlaşması ile II. Balkan Savaşı bitti; Sırbistan Kosova ve Vardar Makedonyası'nı elinde tuttu.", kaynak:"TDV İslâm Ansiklopedisi, GİRİT maddesi (tarih), https://islamansiklopedisi.org.tr/girit ; SIRBİSTAN maddesi, https://islamansiklopedisi.org.tr/sirbistan" },
     { t:"1914-06-24", tur:"hukumdar", b:"Yaşlı ve hasta Kral I. Petar, oğlu Veliaht Aleksandar'ı naip atadı.", kaynak:"Britannica, Peter I (king of Serbia), https://www.britannica.com/biography/Peter-I-king-of-Serbia" },
     { t:"1915-01-01", tur:"isgal", b:"Almanya ve Bulgaristan'ın Ekim 1915 taarruzu üzerine zayıflamış Sırp ordusu iki cephede dayanamayıp Arnavutluk üzerinden Adriyatik kıyısına çekildi (gün bilinmiyor).", kaynak:"Britannica, Peter I (king of Serbia), https://www.britannica.com/biography/Peter-I-king-of-Serbia" },
@@ -1791,7 +1791,7 @@ window.DEVLETLER = [
     { t:"1871-01-18", tur:"birlesme", b:"Alman İmparatorluğu ilan edildi" },
     { t:"1889-01-01", tur:"ittifak", b:"II. Wilhelm'in İstanbul ziyaretiyle yakınlaşma başladı" },
     { t:"1914-08-02", tur:"ittifak", b:"Osmanlı-Alman ittifak antlaşması imzalandı" },
-    { t:"1918-11-11", tur:"son", b:"İmparatorluk yıkıldı, cumhuriyet ilan edildi" },
+    { t:"1918-11-09", tur:"son", b:"İmparatorluk yıkıldı, cumhuriyet ilan edildi", ic_not_gun:"Çapraz sorgu C003 (UC-KAYNAK-SONUC): atlas 1918-11-11 → 1918-11-09; İki bağımsız yayıncı (bpb, DHM) monarşinin sonunu ve cumhuriyet ilanını 9 Kasım'a koyar; 11 Kasım ateşkes ve sürgün günüdür, hukukî feragat 28 Kasım (künye olarak 28 Kasım seçilirse beyan gerekir)." },
     { t:"1933-01-30", tur:"siyaset", b:"Hindenburg, Nazi Partisi lideri Hitler'i şansölye atadı", kaynak:"USHMM hitler-appointed-chancellor: 'German President Paul von Hindenburg appoints Nazi Party leader Adolf Hitler as chancellor of Germany.'" },
     { t:"1939-09-01", tur:"savas", b:"Polonya'ya saldırı: II. Dünya Savaşı başladı", kaynak:"AVALON imt/judpolan" },
     { t:"1945-05-08", tur:"antlasma", b:"Koşulsuz teslim yürürlüğe girdi (23.01 Orta Avrupa saati)", kaynak:"AVALON wwii/gs11: 'cease active operations at 2301 hours Central European time on 8th May 1945'" },
@@ -16989,7 +16989,7 @@ window.DEVLETLER = [
     { t:"1940-12-09", tur:"siyaset", b:"Genel Vali Ofisi 'Genel Hükûmet Hükûmeti' adını aldı.", kaynak:"https://en.wikipedia.org/wiki/General_Government_administration (ikincil)" },
     { t:"1941-08-01", tur:"toprak-kazanc", b:"Galiçya Bölgesi (Lviv) Genel Hükûmet'e eklendi.", kaynak:"USHMM Holocaust Encyclopedia 'General Government' (gün arama sonuçlarında doğrulanamadı)" },
     { t:"1945-01-17", tur:"son", b:"Hans Frank ve Genel Hükûmet idaresi Kraków'dan kaçtı; idare fiilen çözüldü.", kaynak:"https://encyclopedia.ushmm.org/content/en/article/krakow-key-dates" },
-    { t:"1945-01-19", tur:"toprak-kayip", b:"Sovyet birlikleri idarenin başkenti Kraków'a girdi.", kaynak:"https://encyclopedia.ushmm.org/content/en/article/krakow-key-dates" }
+    { t:"1945-01-18", tur:"toprak-kayip", b:"Sovyet birlikleri idarenin başkenti Kraków'a girdi.", kaynak:"https://encyclopedia.ushmm.org/content/en/article/krakow-key-dates", ic_not_gun:"Çapraz sorgu C064 (UC-KAYNAK-SONUC): atlas 1945-01-19 → 1945-01-18; Iki bagimsiz Polonya kurumu (IPN, MHP/PAP) girisi 18 Ocak 1945 verir; 19 Ocak yalniz USHMM'de ve guney semtlerin kontrolu icin soylenir." }
   ] },
 { id:"ostland", ad:"Reichskommissariat Ostland", tur:"isgal-idaresi", bolge:"dogu-avrupa", f:"1941-07-28", t:"1944-10-13", baskent:"Riga", ozet:"Baltık ülkeleri ve Belarus'u kapsayan Alman sivil idaresi; USHMM kuruluşu 28 Temmuz 1941 verir (aday 25 Temmuz). Riga 1944 sonbaharında düştü. t günü [g?].", kaynak:"USHMM 'Riga'/'Latvia'; Britannica 'Ostland'", kronoloji:[
     { t:"1941-07-28", tur:"kurulus", b:"Hinrich Lohse başında Ostland Reichskommissariat'ı sivil idareye geçti.", kaynak:"USHMM (künye günü); Führer kararı 17 Temmuz 1941 https://en.wikipedia.org/wiki/Reichskommissariat_Ostland (ikincil)" },

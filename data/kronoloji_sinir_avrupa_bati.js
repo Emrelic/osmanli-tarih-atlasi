@@ -371,11 +371,11 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"Versay Antlaşması'nın 32-34. maddeleri 1816'dan beri ortak yönetilen Tarafsız Moresnet'i ve Eupen ile Malmedy bölgelerini Belçika'ya bıraktı. 35. madde yedi üyeli bir komisyonu yeni hattı yerinde belirlemekle görevlendirdi. Komisyon raporunu 6 Kasım 1922'de Aachen'de tamamladı; Raeren–Kalterherberg demiryolu hattı Belçika'ya bırakıldı. Eupen-Malmedy'nin kesin devrine ilişkin Milletler Cemiyeti kararının günü okunabilir bir kaynakta bulunamadı.",
   kaynak:"Versay md. 32-35 (Avalon) · IBS No. 7 Belgium–Germany" },
 
-{ t:"1920-01-01", devlet:"italya", devletler:["italya","avusturya-cumhuriyet"], sinir_id:"d1923-it-at",
+{ t:"1920-07-16", devlet:"italya", devletler:["italya","avusturya-cumhuriyet"], sinir_id:"d1923-it-at",
   b:"Saint-Germain Antlaşması yürürlüğe girdi — Güney Tirol ve Tarvis İtalya'ya", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","italya","avusturya-cumhuriyet"],
   d:"10 Eylül 1919'da imzalanan Saint-Germain Antlaşması'nın 27(2). maddesi Avusturya–İtalya sınırını Reschen, Brenner ve Karn Alpleri boyunca çizdi; Güney Tirol ile Tarvis İtalya'ya geçti. Büyükelçiler Konferansı 22 Temmuz 1920'de demarkasyon talimatını verdi, işaretleme 1924'te bitti. Metnin 'yerinde belirlenecek' dediği üç alt kesim (Reschen, Drava geçişi, Thörl) 1923'te henüz kesinleşmemişti. Tarih yalnız YIL düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
-  kaynak:"IBS No. 58 (Revised) Austria–Italy (md. 27 alıntısı, 1920 talimatı, 1924 demarkasyonu)" },
+  kaynak:"IBS No. 58 (Revised) Austria–Italy (md. 27 alıntısı, 1920 talimatı, 1924 demarkasyonu)", ic_not_gun:"Çapraz sorgu C010 (UC-KAYNAK-SONUC): atlas 1920-01-01 → 1920-07-16; RIS, UNESCO Avusturya ve cib.de yürürlüğü 16 Temmuz 1920 verir; 1 Ocak 1920'de antlaşma yürürlükte değildir ve ilhak günü 10 Ekim 1920'dir." },
 
 { t:"1920-01-01", devlet:"italya", devletler:["italya","isvicre"], sinir_id:"d1923-it-ch-saintgermain",
   b:"Güney Tirol'le birlikte eski Avusturya–İsviçre sınırının bir kesimi İtalya–İsviçre sınırı oldu", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
@@ -657,11 +657,11 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"1794'ten beri süren Fransız işgali ve ilhakı 2 Şubat 1814'te bitti; Terneuzen yeniden kurulan Hollanda devletine katıldı. Komşu Hulst'un Hollanda'ya dönüşü atlasta 30 Mayıs 1814 Paris Barışı ile gösterilir.",
   kaynak:"Encyclopedie van Zeeland «Terneuzen»" },
 
-{ t:"1543-09-12", devlet:"ispanya", devletler:["ispanya","almanya"], sinir_id:"",
+{ t:"1543-09-07", devlet:"ispanya", devletler:["ispanya","almanya"], sinir_id:"",
   b:"Venlo Antlaşması — Gelre Dükalığı ve Roermond V. Karl'a geçti", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Roermond",
   etiket:["konu-siyasi","ispanya","almanya"],
   d:"Kleve Dükü Wilhelm 12 Eylül 1543'te Venlo'da imzalanan antlaşmayla Gelre Dükalığı'nı İmparator V. Karl'a bıraktı. Yukarı Gelre'nin merkezi Roermond böylece Habsburg Hollandası'nın (Habsburg İspanyası'nın) parçası oldu.",
-  kaynak:"Maastricht Üniversitesi «Tractaat van Venlo» (bazı kaynaklar 7 Eylül der)" },
+  kaynak:"Maastricht Üniversitesi «Tractaat van Venlo» (bazı kaynaklar 7 Eylül der)", ic_not_gun:"Çapraz sorgu C001 (UC-KAYNAK-SONUC): atlas 1543-09-12 → 1543-09-07; LVR ve Deutsche Biographie açılan sayfalarda antlaşmayı 7 Eylül 1543 verir (1582 öncesi, takvim çevrilmez); Roermond açılan kaynaklarda geçmez, metin Gelderland ve Zutphen'den feragati anlatır." },
 
 { t:"1702-10-06", devlet:"hollanda", devletler:["hollanda","ispanya"], sinir_id:"",
   b:"Müttefik ordusu Roermond'u aldı", tur:"isgal", onem:2, dunya:1, kapsam:"dis", yer_id:"Roermond",

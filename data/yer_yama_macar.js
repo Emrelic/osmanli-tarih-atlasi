@@ -31,7 +31,7 @@ window.YER_YAMA_MACAR = [
 { dosya:"kronoloji_macaristan.js", t:"1367-01-01", b:"Pécs Üniversitesi'nin kurulması — Macaristan'ın ilk yükseköğretim kurumu",
   eksik_nokta:{ ad:"Pécs", enlem:46.073, boylam:18.232, kaynak:"yer adı madde başlığında; koordinat: bilinen yerleşim konumu (Macaristan)" } },
 
-{ dosya:"kronoloji_macaristan.js", t:"1370-02-17", b:"Lajos'un Lehistan tacını da alması — kişisel birlik", yer_id:"Krakov",
+{ dosya:"kronoloji_macaristan.js", t:"1370-11-17", b:"Lajos'un Lehistan tacını da alması — kişisel birlik", yer_id:"Krakov",
   kaynak:"kişisel birlik Lajos'un Lehistan tacını almasıyla kuruldu; taç giyme töreni Krakov'da (WebSearch ile doğrulandı: Wikipedia 'Louis I of Hungary') — madde metninde şehir adı geçmiyor, bu yüzden ayrıca not düşülüyor" },
 
 { dosya:"kronoloji_macaristan.js", t:"1382-09-11", b:"I. (Büyük) Lajos'un ölümü",
@@ -124,7 +124,7 @@ window.YER_YAMA_MACAR = [
 { dosya:"kronoloji_macaristan.js", t:"1699-01-26", b:"Karlofça Antlaşması — Macaristan'ın Habsburg tacında bütünleşmesi",
   eksik_nokta:{ ad:"Karlofça (Sremski Karlovci)", enlem:45.2, boylam:19.933, kaynak:"TDV `karlofca` — yer adı madde başlığında da geçiyor" } },
 
-{ dosya:"kronoloji_macaristan.js", t:"1703-06-07", b:"II. Rákóczi Ferenc'in Brezán Manifestosu — bağımsızlık savaşının başlaması",
+{ dosya:"kronoloji_macaristan.js", t:"1703-05-06", b:"II. Rákóczi Ferenc'in Brezán Manifestosu — bağımsızlık savaşının başlaması",
   eksik_nokta:{ ad:"Brezán (Berezhany)", enlem:49.442, boylam:24.95, kaynak:"yer adı madde başlığında; koordinat WebSearch ile doğrulandı (Brezán/Brzeżany kalesi, o dönem Lehistan, bugün Berezhany, Ukrayna) — TDV/Engel'de ayrıca doğrulanmadı" } },
 
 { dosya:"kronoloji_macaristan.js", t:"1708-08-03", b:"Trencsén Muharebesi — Rákóczi'nin dönüm noktası bozgunu", yer_id:"Trencsén (Trenčín)",
@@ -163,7 +163,7 @@ window.YER_YAMA_MACAR = [
 { dosya:"kronoloji_macaristan.js", t:"1859-06-24", b:"Solferino bozgununun Bach sisteminin çöküşünü hızlandırması",
   eksik_nokta:{ ad:"Solferino", enlem:45.383, boylam:10.583, kaynak:"yer adı madde başlığında; koordinat: bilinen yerleşim konumu (Lombardiya, İtalya)" } },
 
-{ dosya:"kronoloji_macaristan.js", t:"1861-04-02", b:"Deák Ferenc'in 'Húsvéti cikk' (Paskalya Makalesi) ile uzlaşma çerçevesini önermesi", yer_id:"Peşte",
+{ dosya:"kronoloji_macaristan.js", t:"1865-04-16", b:"Deák Ferenc'in 'Húsvéti cikk' (Paskalya Makalesi) ile uzlaşma çerçevesini önermesi", yer_id:"Peşte",
   kaynak:"makale dönemin Peşte basınında (Pesti Napló) yayımlandı — madde metninde şehir adı yok, TDV/Engel'de ayrıca doğrulanmadı" },
 
 { dosya:"kronoloji_macaristan.js", t:"1866-07-03", b:"Königgrätz bozgununun Ausgleich'i kaçınılmaz kılması",

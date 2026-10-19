@@ -48,10 +48,10 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: seddadiler (ŞEDDÂDÎLER)",
   alinti:"1003 yılında Parisos Prensi Grigor’un ölümünün ardından yerine geçen oğlu Filip’i davet ederek zincire vurduran Fazl, Şaşvaş ve Sotk’u topraklarına kattı" },
 
-{ t:"1014-01-01",
+{ t:"1018-01-01",
   tur:"fetih",
   b:"II. Basileios Bulgar Devleti'ni yıkıp topraklarını Bizans'a kattı",
-  gun:"1014 (TDV yıl verir)",
+  gun:"1018",
   kisiler:"II. Basileios, Samuel",
   d:"Samuel idaresinde yeniden güçlenen Bulgarlara karşı otuz yıl süren savaşları II. Basileios kazandı. TDV'ye göre 1014 zaferiyle Bulgar Devleti yıkıldı ve toprakları imparatorluğa ilhak edildi.",
   taraflar:["bizans"],
@@ -61,7 +61,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kapsam:"dis",
   kaynak:"TDV: bizans (BİZANS)",
   alinti:"Nihayet 1014 yılında kazandığı zaferle Bulgar Devleti’ni yıkarak arazisini imparatorluğa ilhak etti.",
-  ic_not:"taraf künyesi başka oturumdan bekleniyor (Birinci Bulgar Devleti). TDV 1014 der; ilhakın tamamlanışı yaygın olarak 1018'dir — bu kaynakta yok, yazılmadı. · taraf \"bulgar-birinci\" çıkarıldı: künyesi yok" },
+  ic_not:"taraf künyesi başka oturumdan bekleniyor (Birinci Bulgar Devleti). TDV 1014 der; ilhakın tamamlanışı yaygın olarak 1018'dir — bu kaynakta yok, yazılmadı. · taraf \"bulgar-birinci\" çıkarıldı: künyesi yok", ic_not_gun:"Çapraz sorgu C013 (UC-KAYNAK-SONUC): atlas 1014-01-01 → 1018-01-01; 1014 Belasica/Kleidion zaferi (devletin sonu değil); devletin düşüşü/ilhak 1018 (HE açık sayfa, TDV Bulgaristan, Treccani); TDV Bizans yanlış okunmuş/kısaltmış; günü bilinmediğinden YYYY-01-01, alternatif olarak 1014-07-29 Kleidion maddesi " },
 
 { t:"1022-01-01",
   tur:"fetih",

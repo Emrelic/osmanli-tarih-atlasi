@@ -176,7 +176,7 @@ window.YER_YAMA_ITALYA = [
   yer_id:"Korçula (Kurzola)",
   kaynak:"Savas Korcula adasi aciklarinda; havuzda TURKCE-yerel yazimla KAYITLI — standart akademik cografi referans + maddenin kendi kaynak alani" },
 
-{ dosya:"kronoloji_italya.js", t:"1346-01-01",
+{ dosya:"kronoloji_italya.js", t:"1266-01-01",
   b:"Kefe kolonisinin kurulması",
   yer_id:"Kefe",
   kaynak:"TDV kefe" },

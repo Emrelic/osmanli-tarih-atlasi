@@ -330,10 +330,10 @@ window.KRONOLOJI_COK_ITALYA = [
   d:"Kardinal Fabrizio Ruffo'nun topladığı köylü milisi (Sanfedisti — \"kutsal iman ordusu\"), Parthenopean Cumhuriyeti'ni bastırıp Bourbon hanedanının dönüşünü sağladı; cumhuriyetçilere yönelik kanlı bir infaz dalgası izledi.",
   kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; ikincil doğrulama yapılmadı" },
 
-{ devlet:"napoli", t:"1806-03-30", b:"Napolyon'un Napoli'yi işgal etmesi", tur:"isgal", onem:4, dunya:3, kapsam:"dis", yer_id:"Napoli",
+{ devlet:"napoli", t:"1806-02-15", b:"Napolyon'un Napoli'yi işgal etmesi", tur:"isgal", onem:4, dunya:3, kapsam:"dis", yer_id:"Napoli",
   etiket:["napoli","isgal","hanedan","konu-askeri","konu-hanedan"],
   d:"Napolyon'un ordusu krallığı işgal edince Bourbon hanedanı Sicilya'ya sürüldü; Napolyon önce ağabeyi Joseph Bonaparte'ı, sonra kız kardeşinin kocası Joachim Murat'ı Napoli tahtına oturttu. Krallık böylece bir Fransız vasal devletine dönüştü.",
-  kaynak:"data/devletler.js `napoli` embedded kronoloji: \"Napolyon'un ordusu krallığı işgal etti, Bourbon hanedanını Sicilya'ya sürüp ağabeyi Joseph Bonaparte'ı (sonra Joachim Murat'ı) tahta oturttu\"" },
+  kaynak:"data/devletler.js `napoli` embedded kronoloji: \"Napolyon'un ordusu krallığı işgal etti, Bourbon hanedanını Sicilya'ya sürüp ağabeyi Joseph Bonaparte'ı (sonra Joachim Murat'ı) tahta oturttu\"", ic_not_gun:"Çapraz sorgu C058 (UC-KAYNAK-SONUC): atlas 1806-03-30 → 1806-02-15; İşgal/giriş 15 Şubat 1806 (Treccani 16 Şubat); 30 Mart yalnızca Joseph'in kral atanma kararnamesidir, ayrı madde olmalı." },
 
 { devlet:"napoli", t:"1815-05-20", b:"Joachim Murat'ın yenilgisi — Napolyoncu Napoli'nin sonu", tur:"son", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["napoli","askeri","konu-askeri","konu-siyasi"],
@@ -414,10 +414,10 @@ window.KRONOLOJI_COK_ITALYA = [
   d:"Dalmaçya açıklarında Venedik donanmasını ağır yenilgiye uğratan Cenova, esirler arasında yakaladığı Marco Polo'yu Cenova zindanına attı — Polo seyahatnâmesini burada bir hücre arkadaşına dikte ettirdi. İki cumhuriyetin bir asrı aşan deniz rekabeti bu zaferle zirveye çıktı.",
   kaynak:"data/kronoloji_venedik.js aynı olayı `dunya:2` ile kaydediyor — burada aynı değer kullanıldı; gün ayrıca DOĞRULANMADI", yer_id:"Korçula (Kurzola)" },
 
-{ devlet:"cenova", t:"1346-01-01", b:"Kefe kolonisinin kurulması", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"",
+{ devlet:"cenova", t:"1266-01-01", b:"Kefe kolonisinin kurulması", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","ekonomi","toprak-kazanc","konu-askeri","konu-ekonomi"],
   d:"Cenova, Kırım'ın güney kıyısında Kefe (Caffa) kolonisini kurdu; koloni bir buçuk asır boyunca cumhuriyetin Karadeniz-İpek Yolu ticaretindeki en kârlı üssü ve Doğu Avrupa köle ticaretinin ana limanı olacaktı.",
-  kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Kefe kolonisi kuruldu (Kırım kıyısı)\"", yer_id:"Kefe" },
+  kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Kefe kolonisi kuruldu (Kırım kıyısı)\"", yer_id:"Kefe", ic_not_gun:"Çapraz sorgu C030 (UC-KAYNAK-SONUC): atlas 1346-01-01 → 1266-01-01; İki bağımsız açılmış sayfa (TDV, Treccani) kuruluşu 1266 civarı/sonrası veriyor, 1346'yı hiçbiri kuruluş olarak anmıyor; yıl hassasiyeti ve 'civarı' beyanıyla 1266, 1346 mükerrer devletler.js kaydıyla birlikte düzelsin." },
 
 { devlet:"cenova", t:"1347-01-01", b:"Kefe kuşatması ve Kara Ölüm'ün Avrupa'ya taşınması", tur:"salgin", onem:3, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","kriz","salgin","konu-siyasi","afet","afet-salgin"],
@@ -1034,10 +1034,10 @@ window.KRONOLOJI_COK_ITALYA = [
   d:"Papa II. Julius, genç Raphael'i Vatikan sarayının özel dairelerini freskle donatmakla görevlendirdi; buradaki 'Atina Okulu' (Antik filozofları Rönesans sanatçılarının yüzleriyle betimleyen kompozisyon), Batı sanatının klasik-Hristiyan sentezinin en çok yeniden üretilen imgelerinden biri oldu.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs" },
 
-{ devlet:"papalik", t:"1582-10-04", b:"Gregoryen takviminin ilanı", tur:"bilim", onem:5, dunya:5, kapsam:"dis", yer_id:"Roma",
+{ devlet:"papalik", t:"1582-02-24", b:"Gregoryen takviminin ilanı", tur:"bilim", onem:5, dunya:5, kapsam:"dis", yer_id:"Roma",
   etiket:["papalik","bilim","reform","konu-bilim","konu-islahat"],
   d:"Papa XIII. Gregory, Jülyen takviminin astronomik yılla biriken sapmasını düzeltmek için hazırlanan yeni takvimi bir fermanla yürürlüğe koydu; 4 Ekim'i izleyen gün doğrudan 15 Ekim ilan edildi. Katolik Avrupa'nın çoğu birkaç yıl içinde, Protestan ve Ortodoks dünyası ise yüzyıllar sonra benimseyecekti — bugün dünyanın neredeyse tamamının kullandığı sivil takvimin kaynağı, papalığın bilimsel-idarî otoritesinin en kalıcı mirasıdır.",
-  kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; ikincil doğrulama yapılmadı", ic_not_gun:"Çapraz sorgu C060 (UC-KAYNAK-SONUC): atlas 1582-10-04 → 1582-02-24; 'İlan' bulla tarihi 24 Şubat 1582 (Jülyen); 4 Ekim ne ilan ne yürürlük günüdür, yürürlük anlamı seçilirse değer 1582-10-15 olmalı." },
 
 { devlet:"toskana", t:"1550-01-01", b:"Vasari'nin 'Sanatçıların Hayatları'nı yayımlaması", tur:"kultur", onem:4, dunya:3, kapsam:"ic", yer_id:"Floransa",
   etiket:["floransa","kultur","kultur","konu-kultur"],
@@ -1059,10 +1059,10 @@ window.KRONOLOJI_COK_ITALYA = [
   d:"Dünya tarihini değiştirecek 1492 seferinin kaptanı, bir Cenevizli dokumacı ailesinin oğlu olarak dünyaya geldi (kesin doğum günü belgelenmemiştir, yıl tarihçilerce yaygın kabul görür). Kolomb'un Cenova'da denizcilik ve haritacılık öğrenmesi, cumhuriyetin uzun deniz ticareti geleneğinin dolaylı ama en kalıcı mirası sayılır — kendisi İspanya adına sefer yapacak, doğduğu cumhuriyetin bu keşiften doğrudan payı olmayacaktı.",
   kaynak:"bulunamadı — doğum yılı standart akademik konsensüs, kesin gün tarihçiler arasında TARTIŞMALI (belgelenmemiş); birincil metin OKUNMADI" },
 
-{ devlet:"napoli", t:"1737-05-04", b:"San Carlo Operası'nın açılışı", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Napoli",
+{ devlet:"napoli", t:"1737-11-04", b:"San Carlo Operası'nın açılışı", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Napoli",
   etiket:["napoli","kultur","kultur","konu-sanat","konu-kultur"],
   d:"Bourbon Kralı Carlos'un emriyle inşa edilen Teatro di San Carlo, dönemin Avrupa'sının en büyük opera binası olarak açıldı; Napoli bu tarihten itibaren, kendi bestecileriyle (Neapolitan opera okulu — Alessandro Scarlatti, Pergolesi, Cimarosa) 18. yüzyıl Avrupa müziğinin en etkili merkezlerinden birine dönüştü.",
-  kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; ikincil doğrulama yapılmadı", ic_not_gun:"Çapraz sorgu C057 (UC-KAYNAK-SONUC): atlas 1737-05-04 → 1737-11-04; Mayıs açılışı 8 aylık inşaatla imkânsız; tiyatronun kendi tarihçesi ve Treccani inşaat süresi 4 Kasım'ı destekliyor, ancak açılmış tam sayfa yok." },
 
 { devlet:"napoli", t:"1748-01-01", b:"Pompeii kazılarının başlaması", tur:"bilim", onem:4, dunya:4, kapsam:"ic", yer_id:"Napoli",
   etiket:["napoli","bilim","kultur","konu-bilim","konu-kultur"],

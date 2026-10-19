@@ -220,11 +220,11 @@ window.KRONOLOJI_SINIR_KOMSU = [
   d:"Duşan 1334 seferinde Bizans'ın Prilep'ini aldı ve güneyde bugünkü Bitola'ya (Manastır) giden yol açıldı. Manastır'ın Sırp'a geçtiği yıl kaynaklarda doğrulanamadı; 14. yüzyıl ilk yarısında Duşan fetihlerinden sonra Sırbistan'a katıldığı bilinir. 1334 yaklaşık değerdir.",
   kaynak:"Austrian Academy of Sciences, TIB, 'Interpretation of the Border between the Serbian Kingdom and the Byzantine Empire in the period from 1321 to 1334' (Prilep 1334) · TDV manastir--makedonya (Osmanlı fethi 1382-85)" },
 
-{ t:"1378-01-01", kesinlik:"yil", devlet:"zeta", devletler:["zeta","sirbistan-nemanjic"], sinir_id:null,
+{ t:"1372-01-01", kesinlik:"yil", devlet:"zeta", devletler:["zeta","sirbistan-nemanjic"], sinir_id:null,
   b:"Avlonya, Kanina, Berat ve Hımara İşkodralı Balşa beylerinin eline geçti", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Avlonya",
   etiket:["sinir","toprak-kazanc","konu-askeri","zeta","sirbistan-nemanjic"],
-  gun:"1378 (alt sınır; kaynak '1378'den sonra' der, gün yok)",
-  d:"Sırp hâkimiyetindeki Avlonya ve çevresi 1378'den sonra İşkodralı Balşa beylerine geçti. Berat ve Hımara'nın bu yıllardaki akıbeti kendi kaynağında tarihlenemedi; atlas onları bağlı oldukları merkez Avlonya'ya bağladı (1417'de üçü birlikte Osmanlı'ya geçti). Berat'ın bir süre yerel bir Arnavut prensliğinin (Muzaka) elinde olduğu biliniyor, ama yılı kaynakla bulunamadı. Madde yıl hassasiyetindedir.",
-  kaynak:"TDV avlonya (M. Kiel: 'Ardından Bizans ve Sırplar'ın, 1378'den sonra da İskenderiyeli Balşa beylerinin eline geçti'; '1417'de Osmanlılar ülkenin iç kesimindeki Berat şehri ve Kanina Kalesi ile birlikte') · TDV berat--arnavutluk (Sırplar, sonra 'küçük bir Arnavut prensliği', yılsız)" },
+  gun:"1372 (Hrvatska enciklopedija, ÖAW TIB; TDV alt sınır '1378'den sonra' der)",
+  d:"Sırp hâkimiyetindeki Avlonya ve çevresi İşkodralı Balşa beylerine geçti (Balša II, 1372; TDV 'en geç 1378'den sonra' der). Berat ve Hımara'nın bu yıllardaki akıbeti kendi kaynağında tarihlenemedi; atlas onları bağlı oldukları merkez Avlonya'ya bağladı (1417'de üçü birlikte Osmanlı'ya geçti). Berat'ın bir süre yerel bir Arnavut prensliğinin (Muzaka) elinde olduğu biliniyor, ama yılı kaynakla bulunamadı. Madde yıl hassasiyetindedir.",
+  kaynak:"TDV avlonya (M. Kiel: 'Ardından Bizans ve Sırplar'ın, 1378'den sonra da İskenderiyeli Balşa beylerinin eline geçti'; '1417'de Osmanlılar ülkenin iç kesimindeki Berat şehri ve Kanina Kalesi ile birlikte') · TDV berat--arnavutluk (Sırplar, sonra 'küçük bir Arnavut prensliği', yılsız)", ic_not_gun:"Çapraz sorgu C073 (UC-KAYNAK-SONUC): atlas 1378-01-01 → 1372-01-01; iki bağımsız yayıncı (Hrvatska enciklopedija, ÖAW TIB) Balša II'nin elde ediş yılını 1372 verir (evlilik/çeyiz); 1378 Balša II'nin Zeta'ya çıkış yılıdır. Hımara için kaynak bulunamadı." },
 
 ];

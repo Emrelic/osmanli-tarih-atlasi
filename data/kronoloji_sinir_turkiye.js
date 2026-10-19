@@ -50,11 +50,11 @@ window.KRONOLOJI_SINIR_TURKIYE = [
   d:"Bulgaristan'ın savaşa Osmanlı yanında girmesi öncesinde imzalanan sözleşme, 1913 İstanbul Antlaşması'nın Osmanlı-Bulgar sınırını düzeltti. Hattın Doğu Trakya kesimi 1921'de Neuilly komisyonunca işaretlendi ve Lozan'da teyit edildi. Düzeltmenin Meriç ucundaki tam etkisi bu kayıtta ölçülmedi.",
   kaynak:"IBS No. 49 Bulgaria–Turkey (1965) s.10-12 — 'signed at Sofia, August 24 (September 6), 1915'" },
 
-{ t:"1920-01-01", devlet:"yunanistan", taraflar:["yunanistan","bulgaristan-kralligi"], hat:"d1920-yunan-isgal-bg",
+{ t:"1920-07-25", devlet:"yunanistan", taraflar:["yunanistan","bulgaristan-kralligi"], hat:"d1920-yunan-isgal-bg",
   b:"Doğu Trakya'nın Yunan işgali — Bulgar sınırında fiilî taraf değişti", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"Edirne",
   etiket:["isgal","sinir","konu-siyasi","konu-askeri"],
   d:"Temmuz 1920'de (gün bilinmiyor; tarih alanı yıl hassasiyetindedir) Yunan ordusu Edirne dahil Doğu Trakya'yı işgal etti. Hukukî Osmanlı-Bulgar hattı değişmedi, ama hattın Türk yakasında fiilen Yunan idaresi kuruldu. Sevr Antlaşması hiç yürürlüğe girmediği için bu durum hukukî değil fiilîdir. İşgal Mudanya Mütarekesi'yle sona erdi.",
-  kaynak:"TDV edirne (M. Tayyib Gökbilgin): 'Temmuz 1920'de Yunan işgaline uğradı' — gün vermiyor" },
+  kaynak:"TDV edirne (M. Tayyib Gökbilgin): 'Temmuz 1920'de Yunan işgaline uğradı' — gün vermiyor", ic_not_gun:"Çapraz sorgu C077 (UC-KAYNAK-SONUC): atlas 1920-01-01 → 1920-07-25; Atlasın yılı doğru ama yıl hassasiyeti kaba: TDV Temmuz 1920, TÜBA harekât başlangıcı 20 Temmuz ve Trakya Üniv. Edirne/Bulgar sınırı yönü 25 Temmuz verir; Bulgar sınırına ulaşma günü için 25 Temmuz önerilir (başlangıç 20 Temmuz), TÜBA ve Tr" },
 
 { t:"1921-03-16", devlet:"tbmm-turkiye", taraflar:["tbmm-turkiye","sovyet-rusya"], hat:"d1923-tr-sscb-gurcistan",
   b:"Moskova Antlaşması — Türk-Sovyet sınırının tahdidi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"Batum",
