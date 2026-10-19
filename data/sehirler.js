@@ -400,7 +400,7 @@ window.SEHIRLER = [
   yapilar:"Kare planlı iç kale, kale kumandanının sarayı, kütüphane, mektep, camiye çevrilen üç kilise.",
   kaynak:"uyvar" },
 { ad:"Kanije",     tur:"kale",  lat:46.454, lon:16.989,
-  k:[{f:"1600-10-22",t:"1690-04-13",d:1,y:"kusatma"}],
+  k:[{f:"1600-10-22",t:"1690-04-23",d:1,y:"kusatma"}],
   koken:"Ad, bölgeyi 1321'den itibaren yaklaşık 200 yıl yöneten Kanizsai ailesinden gelir; sonra evlilik yoluyla Nádasdy ailesine geçti.",
   onem:"Yakınındaki Zigetvar Kalesi'nin 1566'da Osmanlı'ya düşmesinden sonra önemi arttı; Habsburg'lara karşı önemli bir savunma mevkii oldu.",
   tarihce:"Kanûnî Sultan Süleyman döneminde 1532'de kısa süreliğine ele geçirildi; 40 günlük kuşatma sonrası 1600'de kesin olarak fethedildi; 90 yıl Osmanlı'da kaldıktan sonra 1690'da 60 bin kişilik Habsburg ordusuna teslim oldu.",
@@ -497,7 +497,7 @@ window.SEHIRLER = [
   yapilar:"1713 sonrası yeniden inşa edilen kalede İstanbul, Temeşvar ve Bender adlarını taşıyan üç kapı ile bir Su Kapısı, iki hamam, iki cami ve bir çarşı.",
   kaynak:"hotin (TDV — kayıp tarihleri doğrulandı; ara dönüş tarihleri standart Osmanlı-Rus savaşları kronolojisinden)" },
 { ad:"Azak",          tur:"kale", lat:47.114, lon:39.425,
-  k:[{f:"1475-06-01",t:"1637-06-18",d:1,y:"kusatma"},{f:"1642-10-04",t:"1696-07-19",d:1}],
+  k:[{f:"1475-06-01",t:"1637-06-18",d:1,y:"kusatma"},{f:"1642-10-04",t:"1696-08-06",d:1}],
   // 1637-1642 arası Kazakların işgalindeydi (Osmanlı'nın değil); Osmanlı
   // 1642'de geri aldı. 1696'da I. Petro tarafından kesin kaybedildi.
   koken:"Yunanlılar 'Tanais', Türkler önce 'Ten' derdi; 'Azak' adı 1317'den itibaren sikkelerde görülmeye başladı.",
