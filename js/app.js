@@ -11943,9 +11943,11 @@ function antlasmaFarkiHesapla(o) {
     var k2gun = SG.gunKaydir(f.gun, -1);
     var k1gun = (kayit && kayit.savas_basi) ? SG.gunKaydir(kayit.savas_basi, -1) : "";
     if (!ANT_FARK.isgListe) ANT_FARK.isgListe = SG.isgalliYerlesimler(Y);
+    // POSTIT-120: savaş boyunca el değiştiren her şey (bkz. suzgec.js savasBoyuDegisim).
+    var genis = (k1gun && SG.savasBoyuDegisim) ? SG.savasBoyuDegisim(Y, k1gun, f.gun, T) : [];
     kademe = { k1gun: k1gun, k2gun: k2gun, k3gun: f.gun, savasBasi: (kayit && kayit.savas_basi) || "",
                kume: SG.kademeKumesi(Y, ANT_FARK.isgListe, f.degisim, k1gun, k2gun, f.gun,
-                                     _khGunStr(o.gi - 1), _khGunStr(sonIx), T) };
+                                     _khGunStr(o.gi - 1), _khGunStr(sonIx), T, genis) };
   }
   return { f: f, sonIx: sonIx, kademe: kademe };
 }
@@ -11979,7 +11981,7 @@ function _antlasmaHal(hal) {
   if (ANT_FARK.dugmeler) {
     var D = ANT_FARK.dugmeler;
     D.once.classList.toggle("secili", hal === "once" || hal === "fiili");
-    D.sonra.classList.toggle("secili", hal === "sonra");
+    D.sonra.classList.toggle("secili", hal === "sonra" || hal === "antSonrasi");
     if (D.savasOncesi) D.savasOncesi.classList.toggle("secili", hal === "savasOncesi");
   }
   if (!haritaHazir || !harita.getLayer("antlasma-fark-dolgu")) return;
@@ -11987,7 +11989,7 @@ function _antlasmaHal(hal) {
   // fark kümesi (özellikteki `kenar`) — eski görünüm bozulmasın.
   if (harita.getLayer("antlasma-fark-cizgi")) {
     harita.setPaintProperty("antlasma-fark-cizgi", "line-opacity",
-      (hal === "savasOncesi" || hal === "fiili") ? 1 : ["case", ["has", "kenar"], ["get", "kenar"], 1]);
+      (hal === "savasOncesi" || hal === "fiili" || hal === "antSonrasi") ? 1 : ["case", ["has", "kenar"], ["get", "kenar"], 1]);
   }
   if (hal === "yok") { harita.setPaintProperty("antlasma-fark-dolgu", "fill-opacity", 0); return; }
   harita.setPaintProperty("antlasma-fark-dolgu", "fill-color", ["get", hal]);
@@ -12250,7 +12252,8 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
     liste.push({ pi: ANT_FARK.petAd[y.ad], once: _sahipRengi(d.once), sonra: _sahipRengi(d.sonra), ad: y.ad,
                  kenar: 1,
                  savasOncesi: (kademe && kademe.k1gun) ? kademeRenk(r, "k1") : SAYDAM,
-                 fiili: kademe ? kademeRenk(r, "k2") : _sahipRengi(d.once) });
+                 fiili: kademe ? kademeRenk(r, "k2") : _sahipRengi(d.once),
+                 antSonrasi: _sahipRengi(d.sonra), k1: r ? r.k1 : "", k3: d.sonra });
   });
   // ORTA kapsamın fark DIŞINDAKİ petekleri: işgal edilip antlaşmayla GERİ
   // VERİLEN toprak. `s:` hiç değişmediği için bugünkü fark listesine girmezdi —
@@ -12259,8 +12262,10 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
   if (kademe) kademe.kume.forEach(function (r) {
     if (r.fark) return;
     var y = Y[r.i];
+    if (r.genis && typeof y.lon === "number") { x0 = Math.min(x0, y.lon); x1 = Math.max(x1, y.lon); y0 = Math.min(y0, y.lat); y1 = Math.max(y1, y.lat); }
     liste.push({ pi: ANT_FARK.petAd[y.ad], once: SAYDAM, sonra: SAYDAM, ad: y.ad, kenar: 0, saydamKoyu: true,
-                 savasOncesi: kademe.k1gun ? _sahipRengi(r.k1) : SAYDAM, fiili: _sahipRengi(r.k2) });
+                 savasOncesi: kademe.k1gun ? _sahipRengi(r.k1) : SAYDAM, fiili: _sahipRengi(r.k2),
+                 antSonrasi: _sahipRengi(r.k3), k1: r.k1, k3: r.k3 });
   });
   var fsYerel = [];
   // Bölge geometrisi: PETEK_GOVDE[pi] → PETEK_GOVDE_PARCA poligonları (MultiPolygon).
@@ -12284,12 +12289,14 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
       fsYerel.push({ type: "Feature",
                      properties: { once: x.once, sonra: x.sonra, koyu: x.saydamKoyu ? x.once : koyuTon(x.once),
                                    ad: x.ad, kenar: (x.kenar === undefined ? 1 : x.kenar),
-                                   savasOncesi: x.savasOncesi || x.once, fiili: x.fiili || x.once },
+                                   savasOncesi: x.savasOncesi || x.once, fiili: x.fiili || x.once,
+                                   antSonrasi: x.antSonrasi || x.sonra, k1: x.k1 || "", k3: x.k3 || "" },
                      geometry: { type: "MultiPolygon", coordinates: ix.map(function (j) { return P[j]; }) } });
     });
     // H-0012 ④: "N bölgenin peteği yok" bizim veri borcumuz, okurun işi değil.
     yazi.textContent = anaMetin;
     if (eksik) console.debug("[fark kutusu] " + eksik + " bölgenin peteği yok, çizilmedi.");
+    if (ANT_FARK.madde === o || kutuEl.isConnected) ANT_FARK.fs = fsYerel;   // POSTIT-120: geç yüklemede bayat kalmasın
   }
   kutuEl.title = degisim.map(function (d) { return Y[d.i].ad; }).join(", ");
   if (window.PETEK_GOVDE) {
@@ -12341,9 +12348,16 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
     ? "Antlaşmadan önceki gün (" + _khGunYazi(gunIdx(onceStr)) + ") fiilen kimin elindeydi — işgaller işgalcinin KOYU tonunda"
     : "El değiştiren bölgeler ÖNCEKİ sahiplerinin renginde";
   var bOnce = dugme(ikinciMetin, ikinciIpucu, function () { _antlasmaHal(kademe ? "fiili" : "once"); });
-  var bSonra = dugme("Sonrası · " + _khGunYazi(kirilma) + " ▶", "El değiştiren bölgeler SONRAKİ sahiplerinin renginde", function () { _antlasmaHal("sonra"); });
+  // POSTIT-120: kademeli maddede "Sonrası" savaş boyunca el değiştiren BÜTÜN kümeyi
+  // antlaşma günündeki sahibiyle boyar (`antSonrasi`); `sonra` özelliği H-0008
+  // sahnesine aittir, ona dokunulmadı.
+  var sonraHal = bSavas ? "antSonrasi" : "sonra";
+  var bSonra = dugme("Sonrası · " + _khGunYazi(kirilma) + " ▶",
+    bSavas ? "Savaşta ve antlaşmada el değiştiren bütün bölgeler antlaşmadan SONRAKİ sahiplerinin renginde"
+           : "El değiştiren bölgeler SONRAKİ sahiplerinin renginde",
+    function () { _antlasmaHal(sonraHal); });
   if (bSavas) dugme("⏵ Üç kademe", "Savaştan önce → savaş sonrası fiilî durum → antlaşmadan sonra", function () {
-    var dizi = [["savasOncesi", 1500], ["fiili", 1500], ["sonra", 1700], ["yok", 0]], t = 0;
+    var dizi = [["savasOncesi", 1500], ["fiili", 1500], ["antSonrasi", 1700], ["yok", 0]], t = 0;
     dizi.forEach(function (a) {
       var an = t;
       ANT_FARK.zaman.push(setTimeout(function () { _antlasmaHal(a[0]); }, an));

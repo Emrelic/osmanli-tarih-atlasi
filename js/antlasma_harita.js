@@ -221,10 +221,46 @@ function _ahDesenKur(renk) {
   harita.addImage(ad, { width: K, height: K, data: veri });
   return ad;
 }
+// 🆕 POSTIT-120 (Emre, 19 Ekim 2026): *"bırakılan bölgeler savaş öncesi durum ile
+// savaş sonrası durumun farklarını göstermeli."* Elle yazılmış kayıt Karlofça'da
+// 1 şerit poligon + 11 nokta + üst üste 5 etiket çiziyordu (ölçüldü) — Macaristan,
+// Mora, Podolya alanı hiç boyanmıyordu. Şimdi antlaşma kutusunun ZATEN hesapladığı
+// kademe kümesinden (app.js `_farkKutusuCiz` → ANT_FARK.fs) savaş başında Osmanlı/
+// tâbi olup antlaşma günü başkasına geçen peteklerin GERÇEK sınırları boyanır,
+// yeni sahibe göre gruplanıp her gruba tek etiket konur. Küme yoksa eski yol.
+function _ahOsm(k) { return !!k && !!window.SUZGEC && SUZGEC.osmTarafi(k); }
+function _ahPetektenUret() {
+  var fs = (typeof ANT_FARK !== "undefined" && ANT_FARK.fs) || [];
+  var dolgu = [], grup = {};
+  fs.forEach(function (ft) {
+    var p = ft.properties || {};
+    if (!p.k1 || !p.k3 || !_ahOsm(p.k1) || _ahOsm(p.k3)) return;
+    dolgu.push({ type: "Feature", properties: { renk: p.antSonrasi, kayit_id: null, ad: p.ad,
+                 etiket: "Bırakılan → " + _sahipAdi(p.k3) }, geometry: ft.geometry });
+    var g = grup[p.k3] || (grup[p.k3] = { renk: p.antSonrasi, n: 0, sx: 0, sy: 0, x0: 180, y0: 90, x1: -180, y1: -90 });
+    ft.geometry.coordinates.forEach(function (poly) {
+      (poly[0] || []).forEach(function (c) {
+        g.n++; g.sx += c[0]; g.sy += c[1];
+        g.x0 = Math.min(g.x0, c[0]); g.x1 = Math.max(g.x1, c[0]); g.y0 = Math.min(g.y0, c[1]); g.y1 = Math.max(g.y1, c[1]);
+      });
+    });
+  });
+  var etiket = [], kutu = [180, 90, -180, -90];
+  Object.keys(grup).forEach(function (k) {
+    var g = grup[k];
+    if (!g.n) return;
+    etiket.push({ type: "Feature", properties: { etiket: "Bırakılan → " + _sahipAdi(k), renk: g.renk },
+                  geometry: { type: "Point", coordinates: [g.sx / g.n, g.sy / g.n] } });
+    kutu = [Math.min(kutu[0], g.x0), Math.min(kutu[1], g.y0), Math.max(kutu[2], g.x1), Math.max(kutu[3], g.y1)];
+  });
+  return { dolgu: dolgu, nokta: [], etiket: etiket, kutu: (kutu[2] >= kutu[0]) ? kutu : null };
+}
 function _ahGoster(kayit) {
   if (!_ahHazirMi() || !harita.getSource("antlasma-harita-dolgu")) return;
   if (_ahAktifId === kayit.id) return;
-  var f = _ahBolgeleriUret(kayit);
+  var f = _ahPetektenUret();
+  if (!f.dolgu.length) f = _ahBolgeleriUret(kayit);
+  else if (f.kutu) harita.fitBounds([[f.kutu[0], f.kutu[1]], [f.kutu[2], f.kutu[3]]], { padding: 40, duration: 900, maxZoom: 6, essential: true });
   f.dolgu.forEach(function (ft) {
     try { ft.properties.desen = _ahDesenKur(ft.properties.renk); }
     catch (e) { console.warn("ANTLAŞMA HARİTASI: tarama deseni kurulamadı", e); }

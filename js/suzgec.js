@@ -598,10 +598,36 @@ function isgalliYerlesimler(Y) {
 // 7 ms medyan) GENİŞ kapsamın 3921'lik taramasına aitti; ORTA kapsamda küme
 // zaten fark listesi ∪ 238 işgalli yerleşimdir, `sahipAnahtari` yalnız o küme
 // için çağrılır (Lozan'da 78 kayıt).
-function kademeKumesi(Y, isgListe, degisim, k1gun, k2gun, k3gun, basGun, sonGun, T) {
+// 🆕 POSTIT-120 (Emre, 19 Ekim 2026, Karlofça): *"2. viyana kuşatması öncesi
+// durum ile anlaşma sonrası durumu göstermeli … bırakılan bölgeler savaş öncesi
+// durum ile savaş sonrası durumun farklarını göstermeli."* ORTA kapsam savaş
+// İÇİNDE `s:` ile el değiştiren toprağı (Budin 1686, Mora 1687…) kaçırıyordu —
+// ölçüldü: Karlofça kümesi 15 yerleşimdi, Macaristan/Mora/Dalmaçya yoktu.
+// ⇒ k1 (savaş başından bir gün önce) ile k3 (antlaşma günü) arasında taraflardan
+// Osmanlı ile antlaşmanın KARŞI tarafı arasındaki BÜTÜN el değiştirmeler: bir ucu
+// Osmanlı/tâbi, öbür ucu taraf künyesi. Ölçüldü (Karlofça): "taraflardan birine
+// dokunan" geniş ölçüt Basra→Safevî, Fransa→Avusturya, Rusya→Çin'i de alıyordu.
+// Ardıl Türk devletleri Osmanlı tarafı sayılır — yoksa Lozan'da 262 Anadolu peteği
+// "Osmanlı → TBMM" diye "bırakılan" görünüyordu (ölçüldü). Künyede yapısal ardıl alanı yok.
+var _SG_OSM_ARDIL = { "s:tbmm-turkiye": true, "s:turkiye-cumhuriyeti": true };
+function _sgOsmTarafi(k) { return k === "osmanli" || k.indexOf("tabi:") === 0 || !!_SG_OSM_ARDIL[k]; }
+function savasBoyuDegisim(Y, k1gun, k3gun, T) {
+  var L = [];
+  if (!k1gun || !k3gun) return L;
+  (Y || []).forEach(function (y, i) {
+    var a = sahipAnahtari(y, k1gun), b = sahipAnahtari(y, k3gun);
+    if (!a || !b || a === b) return;
+    var oa = _sgOsmTarafi(a), ob = _sgOsmTarafi(b);
+    if (oa === ob) return;                                   // iki ucu da Osmanlı ya da ikisi de yabancı
+    if (sahipIlgiliMi(oa ? b : a, T)) L.push(i);
+  });
+  return L;
+}
+function kademeKumesi(Y, isgListe, degisim, k1gun, k2gun, k3gun, basGun, sonGun, T, ekListe) {
   var kume = {}, sira = [];
   function al(i) { if (!kume[i]) { kume[i] = { i: i, fark: false }; sira.push(kume[i]); } return kume[i]; }
   (degisim || []).forEach(function (d) { var r = al(d.i); r.fark = true; r.k2h = d.once; r.k3 = d.sonra; });
+  (ekListe || []).forEach(function (i) { al(i).genis = true; });
   (isgListe || []).forEach(function (i) {
     var y = Y[i], g = isgalAnahtari(y, k2gun), ilgili = !!(g && T[g]);
     if (!ilgili) {
@@ -869,7 +895,7 @@ var _SG_DISA = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
                  sahipKimlikte: sahipKimlikte, aktifVAdi: aktifVAdi,
                  // DALGA-0074 H-0013 — antlaşmanın üç kademesi
                  isgalAnahtari: isgalAnahtari, isgalliYerlesimler: isgalliYerlesimler,
-                 kademeKumesi: kademeKumesi,
+                 kademeKumesi: kademeKumesi, savasBoyuDegisim: savasBoyuDegisim, osmTarafi: _sgOsmTarafi,
                  // PAKET-ISYAN
                  isyanAktif: isyanAktif, isyanSecim: isyanSecim,
                  // PAKET-UI3
