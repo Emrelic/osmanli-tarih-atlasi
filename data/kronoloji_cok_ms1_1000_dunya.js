@@ -65,19 +65,19 @@ window.KRONOLOJI_COK_MS1_1000_DUNYA = [
 
 // ── İDİL (VOLGA) BULGARİSTAN ───────────────────────────────────────
 { t:"0920-01-01", b:"İdil Bulgar hanı Almış, Müslüman olup Bağdat'a elçi göndererek din âlimi ve mimar istedi", tur:"siyaset", onem:3, dunya:1, kapsam:"ic",
-  etiket:["din","konu-siyasi"], yer:"Bulgar (Orta İdil)", taraflar:["idil-bulgaristan","abbasi"],
+  etiket:["din","konu-siyasi"], yer:"Bulgar (Orta İdil)", taraflar:["idil-bulgar","abbasi"],
   d:"Bulgar Hanı Yaltavar oğlu Almış Han Müslüman oldu ve 920'de Abbâsî halifesine elçi göndererek dinî öğretmenler ile cami ve kale yapacak mimarlar istedi. Bu girişim İdil Bulgarları'nın İslâm dünyasıyla resmî ilişkisinin başlangıcıdır.",
   kaynak:"TDV: bulgar — 'Bulgar Hanı Yaltavar oğlu Almış Han müslüman oldu' ve 920'de Bağdat'a elçi gönderdi; TDV: cuvaslar — 'X. yüzyıl başlarında İslâm dini yayılmaya başladı'",
   gun:"920 — TDV yıl verir; gün yok" },
 
 { t:"0921-06-21", b:"Halife Muktedir'in elçilik heyeti (İbn Fadlân dahil) Bağdat'tan Bulgar ülkesine yola çıktı", tur:"siyaset", onem:2, dunya:1, kapsam:"ic",
-  etiket:["diplomasi","konu-siyasi"], yer:"Bağdat", taraflar:["abbasi","idil-bulgaristan"],
+  etiket:["diplomasi","konu-siyasi"], yer:"Bağdat", taraflar:["abbasi","idil-bulgar"],
   d:"Elçi Sevsen er-Ressî başkanlığındaki ve kâtip Ahmed b. Fadlân'ın da bulunduğu heyet 11 Safer 309'da (21 Haziran 921) Bağdat'tan çıktı; Rey, Nîşâbur, Merv, Buhara ve Hârizm üzerinden İdil'e yöneldi. 4.000 dinar yardım ve hediyeler taşıyordu.",
   kaynak:"TDV: ibn-fadlan — 'Sevsen er-Ressî başkanlığındaki heyet 11 Safer 309 (21 Haziran 921)' tarihinde Bağdat'tan ayrıldı",
   gun:"21 Haziran 921 — TDV mîlâdî gün verir (11 Safer 309)" },
 
 { t:"0922-05-12", b:"Muktedir'in heyeti Bulgar hanının ordugâhına ulaştı; İdil Bulgarları'nda İslâm resmîleşti", tur:"siyaset", onem:3, dunya:1, kapsam:"ic",
-  etiket:["din","diplomasi","konu-siyasi"], yer:"Bulgar (Orta İdil)", taraflar:["idil-bulgaristan","abbasi"],
+  etiket:["din","diplomasi","konu-siyasi"], yer:"Bulgar (Orta İdil)", taraflar:["idil-bulgar","abbasi"],
   d:"Heyet 12 Muharrem 310'da (12 Mayıs 922) Bulgar hanının ordugâhına vardı; Almış Han'a halifenin mesajı ve hediyeleri sunuldu. TDV, bu elçiliğin İslâm'ın yayılmasına 'daha belirgin bir resmîlik' kazandırdığını belirtir. İbn Fadlân'ın seyahatnamesi Türk, Slav ve İskandinav halkları için temel kaynaktır.",
   kaynak:"TDV: ibn-fadlan — '12 Muharrem 310 (12 Mayıs 922)' tarihinde Bulgar hanının ordugâhına ulaştı; TDV: bulgar — 'Halife Muktedir-Billâh da 922’de Bulgar ülkesine bir elçilik heyeti yolladı'; TDV: cuvaslar — '922 yılında'",
   gun:"12 Mayıs 922 — TDV mîlâdî gün verir (12 Muharrem 310)" },
