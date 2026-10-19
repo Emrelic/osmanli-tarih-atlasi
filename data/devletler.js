@@ -12665,9 +12665,9 @@ window.DEVLETLER = [
   ]
 },
 { id:"kudus-kralligi", ad:"Kudüs Haçlı Krallığı", tur:"krallik", bolge:"suriye-filistin",
-  f:"1099-07-15", t:"1291-05-18", baskent:"Kudüs (1099-1187) → Akkâ (1191-1291; 1229-1244 Kudüs yeniden elde)", boya_gerekli:true,
+  f:"1099-07-15", t:"1291-07-14", baskent:"Kudüs (1099-1187) → Akkâ (1191-1291; 1229-1244 Kudüs yeniden elde)", boya_gerekli:true,
   ic_not_f:"TDV: kudus (\"Böylece beş hafta süren kuşatmadan sonra şehir düştü (23 Şâban 492 / 15 Temmuz 1099).\") — haclilar başlığı 'Kudüs Krallığı (1099-1291)'.",
-  ic_not_t:"TDV: haclilar (\"Bir buçuk ay süren çatışmalardan sonra 18 Mayıs 1291’de Akkâ fethedildi.\") — t kuşak sınırı 1281'i aşar; künye t'si gerçek tarihtir (brif).",
+  ic_not_t:"[19 Ekim 2026 kunye turu] t 1291-05-18 (Akka) → 1291-07-14: Haçlı kıyı devleti Sûr’un düşüşüne dek sürdü (TDV sur--lubnan: Halîl 14 Temmuz 1291’de Sûr’u ele geçirdi; Akka 18 Mayıs 1291, TDV haclilar). Aynı polity GENİŞLETİLDİ. | ONCEKI BEYAN: TDV: haclilar (\"Bir buçuk ay süren çatışmalardan sonra 18 Mayıs 1291’de Akkâ fethedildi.\") — t kuşak sınırı 1281'i aşar; künye t'si gerçek tarihtir (brif).",
   ozet:"I. Haçlı Seferi'nin 1099'da Kudüs'ü Fâtımîlerden almasıyla kurulan Latin krallığı; 1187 Hıttîn'den sonra Akkâ merkezli kıyı devletine dönüştü, 1291'de Memlükler Akkâ'yı alınca sona erdi.",
   kaynak:"TDV: kudus #3 (Haçlılar Dönemi, Işın Demirkent); haclilar",
   kronoloji:[
@@ -12681,7 +12681,8 @@ window.DEVLETLER = [
     { t:"1229-02-18", tur:"antlasma", b:"II. Friedrich ile Eyyûbî Sultanı el-Kâmil arasında imzalanan Yafa Antlaşması (VI. Haçlı Seferi) Kudüs şehrini on yıllık ateşkesle krallığa geri verdi; Harem bölgesi Müslümanlarda kaldı.", kaynak:"Treaty of Jaffa (1229) (Wikipedia, 18 Şubat 1229); Columbia Encyclopedia, 'Jerusalem, Latin Kingdom of' (1229)" },
     { t:"1244-01-01", tur:"toprak-kayip", b:"Harizmli askerler Kudüs'ü ele geçirip yağmaladı; şehir Haçlıların elinden kalıcı olarak çıktı (kaynaklar Temmuz/Ağustos 1244 arasında ayrışır; gün belirlenemedi, yıl düzeyinde).", kaynak:"Columbia Encyclopedia, 'Jerusalem, Latin Kingdom of' (1244); Linda Paterson, Singing the Crusades, Boydell & Brewer 2018, böl. 10 (Cambridge Core, DOI 10.1017/9781787442092.013): 11 Ağustos 1244" },
     { t:"1244-10-17", tur:"savas", b:"La Forbie (Harbiyye) Muharebesi: Harizmlilerle birleşen Mısır ordusu Haçlı-Şam ittifakı ordusunu yok etti; Kudüs krallığı toparlanamaz biçimde zayıfladı.", kaynak:"Linda Paterson, Singing the Crusades, Boydell & Brewer 2018, böl. 10 (Cambridge Core, DOI 10.1017/9781787442092.013): 17 Ekim" },
-    { t:"1291-05-18", tur:"son", b:"Memlükler Akkâ'yı fethetti; Kudüs Krallığı sona erdi", kaynak:"TDV: haclilar", taraflar:"['kudus-kralligi', 'memluk']", gun:"18 Mayıs 1291", ic_not_t:"1281 sonrası — kuşak dışı, yalnız künye iskeleti" }
+    { t:"1291-05-18", tur:"savas", b:"Memlükler Akkâ'yı fethetti", kaynak:"TDV: haclilar", taraflar:"['kudus-kralligi', 'memluk']", gun:"18 Mayıs 1291", ic_not_t:"1281 sonrası — kuşak dışı, yalnız künye iskeleti" },
+    { t:"1291-07-14", tur:"son", b:"Memlükler Sûr'u aldı; Haçlı kıyı devleti (Kudüs Krallığı) sona erdi", kaynak:"TDV: sur--lubnan", taraflar:"['kudus-kralligi', 'memluk']", gun:"14 Temmuz 1291" }
   ]
 },
 { id:"antakya-prinkipsligi", ad:"Antakya Prinkepsliği", tur:"prenslik", bolge:"suriye-filistin",
@@ -21855,5 +21856,52 @@ window.DEVLETLER = [
   kaynak:"TDV: bulgar (BULGAR) https://islamansiklopedisi.org.tr/bulgar ; TDV: cuvaslar https://islamansiklopedisi.org.tr/cuvaslar ; TDV: ibn-fadlan https://islamansiklopedisi.org.tr/ibn-fadlan",
   kronoloji:[
     { t:"1236-01-01", tur:"son", b:"Batu Han kuvvetleri Bulgar şehirlerini yakıp yıktı", kaynak:"TDV: bulgar — 1236, 'bütün şehirlerini yakıp yıktılar'", gun:"1236 — TDV yıl verir; gün yok" },
+  ] },
+// =========== KUNYE TURU 19 EKIM 2026 — yeni kunyeler (harita: yok; kaynak zinciri TDV) ===========
+{ id:"taberistan-zeydi-ii", ad:"Taberistan Zeydîleri (Hüseynî kolu) — II. dönem", tur:"emirlik", bolge:"iran",
+  f:"0914-01-01", t:"0928-11-10", baskent:"Âmül", boya_gerekli:true,
+  alinti_slug:"hasan-el-utrus",
+  ic_not_f:"TDV hasan-el-utrus: 'Sâmânîler'in içinde bulunduğu karışıklıklardan faydalanarak hükümdarlığını ilân etti (Cemâziyelâhir 301 / Ocak 914)' — yıl+ay, gün yok → 0914-01-01. TDV taberistan: 'bütün Taberistan'ı ve Cürcân'ı ele geçirerek hükümdarlığını ilân etmesiyle tekrar Zeydîler'in eline geçti (301/914)'.",
+  ic_not_t:"TDV hasan-el-utrus: 'Hasan b. Kāsım, öldürüldüğü 24 Ramazan 316 (10 Kasım 928) tarihine kadar Taberistan’daki hâkimiyetini sürdürdü' (24 Ramazan 316 = 0928-11-10, Jülyen tablo). TDV taberistan: bölge Ziyârîler'in eline geçti (316/928). 900-914 arası Sâmânî; I. dönem = taberistan-zeydi.",
+  alinti_f:"hükümdarlığını ilân etti (Cemâziyelâhir 301 / Ocak 914)",
+  alinti_t:"öldürüldüğü 24 Ramazan 316 (10 Kasım 928) tarihine kadar Taberistan’daki hâkimiyetini sürdürdü",
+  ozet:"Hasan el-Utrûş'un 914'te Âmül'de hükümdarlığını ilân etmesiyle Zeydîlerin Hüseynî kolunun Taberistan ve Cürcân'da yeniden kurduğu devlet; 917'de Utrûş'un ölümünden sonra damadı Hasan b. Kāsım 928'de öldürülene dek sürdü.",
+  kaynak:"TDV: hasan-el-utrus ; taberistan ; merdavic-b-ziyar (Hasan b. Kāsım 316/928)",
+  kronoloji:[
+    { t:"0914-01-01", tur:"kurulus", b:"Hasan el-Utrûş Âmül'de hükümdarlığını ilân etti; Zeydî-Hüseynî Taberistan devleti kuruldu", kaynak:"TDV: hasan-el-utrus", gun:"Cemâziyelâhir 301 / Ocak 914 (gün bilinmiyor)" },
+    { t:"0928-11-10", tur:"son", b:"Hasan b. Kāsım öldürüldü; Zeydî devleti sona erdi, bölge Ziyârîler'e geçti", kaynak:"TDV: hasan-el-utrus (24 Ramazan 316); taberistan" }
+  ] },
+{ id:"babek-hurremi", ad:"Bâbek'in Hürremî isyanı (Bezz, Azerbaycan)", tur:"isyan", bolge:"kafkasya",
+  f:"0816-01-01", t:"0838-01-04", baskent:"Bezz",
+  ic_not_f:"TDV babek: 'beklediği zamanın geldiğine inanan Bâbek 816 yılında isyan etti' — yalnız yıl → 0816-01-01.",
+  ic_not_t:"TDV babek: 'Bâbek 3 Safer 223 (4 Ocak 838) tarihinde halifenin huzurunda … idam edildi' (3 Safer 223 = 0838-01-04 tablo). Merkez Bezz'in düşüşü: Taberî 20 Ramazan 222 = 26 Ağustos 837 (Yakubi 15 Ağustos) — künye t isyanın sonu (liderin ölümü).",
+  alinti_f:"Bâbek 816 yılında isyan etti",
+  alinti_t:"Bâbek 3 Safer 223 (4 Ocak 838) tarihinde halifenin huzurunda ve halkın önünde … idam edildi.",
+  ozet:"Hürremî reisi Bâbek'in 816'da Azerbaycan'da (Bezz merkezli) başlattığı, yirmi yıla yakın Abbâsî kuvvetlerine direnen isyan; Afşin 837'de Bezz'i aldı, Bâbek 838'de idam edildi.",
+  kaynak:"TDV: babek",
+  kronoloji:[
+    { t:"0816-01-01", tur:"isyan", b:"Bâbek Azerbaycan'da isyan etti", kaynak:"TDV: babek", gun:"816 — yıl" },
+    { t:"0837-08-26", tur:"savas", b:"Afşin Bezz'i aldı (Taberî; Yakubi 15 Ağustos)", kaynak:"TDV: babek" },
+    { t:"0838-01-04", tur:"son", b:"Bâbek Sâmerrâ'da idam edildi; isyan bitti", kaynak:"TDV: babek (3 Safer 223)" }
+  ] },
+{ id:"memuni-harezm", ad:"Me'mûnîler (Gürgenç Hârezmşahları)", tur:"hanedanlik", bolge:"orta-asya",
+  f:"0995-02-05", t:"1017-05-30", baskent:"Gürgenç (Köhne Ürgenç)", boya_gerekli:true,
+  ic_not_f:"TDV memuniler: '385'te (995) Ebû Abdullah Muhammed b. Ahmed'i bertaraf edip hârizmşah unvanını aldı' — hicrî 385 (Jülyen 0995-02-05…0996-01-24) ∩ 995 → ilk gün 0995-02-05 (tablo, ±1-2 gün). hivite-afrigid.t ile aynı günde bitişik.",
+  ic_not_t:"TDV memuniler: başlık '(995-1017)'; 'Hezâresb'te yenip … Horasan'a sürgüne gönderdi (408/1017)' — hicrî 408 (1017-05-30…1018-05-19) ∩ 1017 → 1017-05-30. Not: yerlesimler'de Gürgenç gazneli 1017-01-01 ve sınır maddesi 1017-01-01 yıl düzeyinde yazılmış — ayrı düzeltme (bu turda dokunulmadı).",
+  ozet:"Sâmânî Gürgenç valisi Me'mûn b. Muhammed'in 995'te Afrigîlerin son hükümdarını bertaraf edip hârizmşah unvanını almasıyla bütün Hârezm'de kurulan hânedan; 1017'de Gazneli Mahmud sona erdirdi.",
+  kaynak:"TDV: memuniler",
+  kronoloji:[
+    { t:"0995-02-05", tur:"kurulus", b:"Me'mûn b. Muhammed Afrigîlerin son hükümdarını bertaraf edip hârizmşah unvanını aldı", kaynak:"TDV: memuniler (385/995)", gun:"385 H ∩ 995 ilk gün" },
+    { t:"1017-05-30", tur:"son", b:"Gazneli Mahmud Hârezm'i ilhak etti; Me'mûnîler sona erdi", kaynak:"TDV: memuniler (408/1017)", gun:"408 H ∩ 1017 ilk gün" }
+  ] },
+{ id:"bati-gokturk", ad:"Batı Göktürk Kağanlığı", tur:"kaganlik", bolge:"orta-asya", f:"0582-01-01", t:"0659-01-01",
+  ozet:"582'de Tardu doğudaki büyük kağanlıktan ayrılıp kendi başına hüküm sürmeye başladı (TDV 'Türk'); Çin'e bağlı beyliklere ayrılışı 630'da başladı (TDV 'İdil Bulgar', 'Hazarlar': Bulgar ve Hazar bağımsızlığı), T'ang 659'da Batı Göktürkleri'ni kendine bağladı (TDV 'Talas Savaşı'). Türgiş ve Karluk gibi ardıllar ayrı.",
+  ic_not_f:"TDV 'Türk': 'Tardu 582’de doğudaki büyük kağanlıktan ayrılıp kendi başına hüküm sürmeye başladı' — f = 582 (yıl hassasiyeti); gokturk-1 t ve dogu-gokturk f ile bitişik.",
+  ic_not_t:"İKİ SINIR: TDV 'İdil Bulgar'/'Hazarlar' 630 (yıkılma = Çin'e bağlı beyliklere parçalanma, Bulgar/Hazar bağımsızlığı) ↔ TDV 'Talas Savaşı' 659 ('T’ang hânedanı, 659 yılında Batı Göktürkleri’ni kendisine bağlayıp'). t = 659 (fiilî son, 19 Ekim 2026 GET ile doğrulandı); Çin kaynaklarındaki 657 doğrulanamadı (bulunamadı). Yıl hassasiyeti; t kararı (630/659) Emre'nindir.",
+  kaynak:"TDV: turk (TÜRK); TDV: talas-savasi (TALAS SAVAŞI); TDV: idil-bulgar-hanligi; TDV: hazarlar",
+  kronoloji:[
+    { t:"0582-01-01", tur:"kurulus", b:"Tardu doğudaki büyük kağanlıktan ayrılıp Batı Göktürk Devleti'ni kurdu.", kaynak:"TDV: turk" },
+    { t:"0630-01-01", tur:"bolunme", b:"Batı Göktürk Devleti Çin'e bağlı birçok beyliğe ayrıldı; Bulgarlar (Kurt/Kuvrat) ve Hazarlar bağımsızlıklarını ilan etti (TDV: 630).", kaynak:"TDV: idil-bulgar-hanligi; TDV: hazarlar; TDV: turk" },
+    { t:"0659-01-01", tur:"son", b:"T'ang hânedanı Batı Göktürkleri'ni kendisine bağladı.", kaynak:"TDV: talas-savasi" }
   ] },
 ];
