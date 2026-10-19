@@ -119,11 +119,11 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 // Roskilde 1658 · Pireneler 1659 · Kopenhag 1660 · Lizbon 1668 · Utrecht 1713 · Rastatt 1714 ·
 // Campo Formio 1797 · Fredrikshamn 1809 · Kiel 1814. Bu dönemin hatlarının çoğu haritada YOK kutusudur.
 
-{ t:"1645-08-13", devlet:"isvec", devletler:["isvec","danimarka"], sinir_id:"dg6-dk-se-1751-oncesi",
+{ t:"1645-08-23", devlet:"isvec", devletler:["isvec","danimarka"], sinir_id:"dg6-dk-se-1751-oncesi",
   b:"Brömsebro Barışı — Jämtland ve Härjedalen İsveç'e geçti", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","isvec","danimarka"],
   d:"Uzun müzakerelerin ardından Brömsebro'da imzalanan barışla Danimarka-Norveç, Norveç'in Jämtland ve Härjedalen illerini İsveç'e bıraktı. İki krallık arasındaki kuzey sınırı böylece batıya kaydı; ancak hat 1751'e kadar ayrıntılı olarak çizilmedi.",
-  kaynak:"Den Store Danske (lex.dk) 'Brömsebro' · Store norske leksikon 'riksgrensen'" },
+  kaynak:"Den Store Danske (lex.dk) 'Brömsebro' · Store norske leksikon 'riksgrensen'", ic_not_takvim:"Jülyen/İsveç eski stil 13 Ağustos 1645 = Gregoryen 23 Ağustos 1645" },
 
 { t:"1660-11-12", devlet:"fransa", devletler:["fransa","ispanya"], sinir_id:"d1923-fr-es-llivia",
   b:"Llívia sözleşmesi — Llívia'nın Cerdanya'da İspanyol anklavı olarak kalması", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"",

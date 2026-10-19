@@ -262,10 +262,10 @@ window.KRONOLOJI_ALMANYA = [
   d:"1672-1675 arasında Brandenburg, imparatorluk yükümlülüğü gereği Lehistan'ın yanında Osmanlı'ya karşı savaşan yardımcı kuvvetler gönderdi. Bu, Prusya'nın kendi çıkarları dışında imparatorluk çapındaki bir Osmanlı cephesine ilk askerî katkısıydı.",
   kaynak:"TDV `prusya`: \"Ancak 1672-1675 arasında Brandenburg yardımcı kuvvetleri Kont Friedrich von Dönhoff kumandasında Polonya’nın yanında Türk savaşlarına iştirak etmiştir.\" — okundu, gün belirtilmedi", kapsam_genis:true },
 
-{ t:"1685-10-29", devlet:"brandenburg-prusya", b:"Potsdam Fermanı — Huguenot mültecilerin kabulü", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"",
+{ t:"1685-11-08", devlet:"brandenburg-prusya", b:"Potsdam Fermanı — Huguenot mültecilerin kabulü", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["sosyal","din","brandenburg-prusya","konu-din","konu-islahat","konu-sosyal"],
   d:"Fransa Kralı XIV. Louis'nin Nantes Fermanı'nı kaldırmasının ardından Büyük Elektör, zulümden kaçan Fransız Protestanlarına (Huguenot) Brandenburg'da yerleşme ve dinî serbestlik hakkı tanıdı. Yaklaşık 20.000 Huguenot'nun göçü, Berlin'in zanaat ve ticaret hayatını kalıcı olarak zenginleştirdi.",
-  kaynak:"Clark, Iron Kingdom — Potsdam Fermanı'nın 29 Ekim 1685 ilanı ve Huguenot göçü. Potsdam yerleşim kaydı yok, yer_id boş", yer_kon:[52.3906,13.0645] },
+  kaynak:"Clark, Iron Kingdom — Potsdam Fermanı'nın 29 Ekim 1685 ilanı ve Huguenot göçü. Potsdam yerleşim kaydı yok, yer_id boş", yer_kon:[52.3906,13.0645], ic_not_takvim:"Brandenburg Jülyen 29 Ekim 1685 (belge tarihi) = Gregoryen 8 Kasım 1685 (Deutsche Biographie)" },
 
 { t:"1701-01-18", devlet:"brandenburg-prusya", b:"I. Friedrich'in kendini 'Prusya Kralı' ilan etmesi", tur:"kurulus", onem:5, dunya:3, kapsam:"ic", yer_id:"Königsberg",
   etiket:["hanedan","siyaset","brandenburg-prusya","konu-siyasi","konu-hanedan"],

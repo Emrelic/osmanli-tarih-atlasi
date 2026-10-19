@@ -155,11 +155,11 @@ window.KRONOLOJI_COK_SIRBISTAN = [
   d:"1830 fermanının öngördüğü sınır düzenlemesiyle, Birinci İsyan sırasında Sırpların elinde bulunan ama 1813'te geri alınan altı nahiye özerk prensliğe bağlandı. Prensliğin toprağı böylece aşağı yukarı iki katına çıktı ve güneyde Timok ile Drina arasına yayıldı.",
   kaynak:"M. B. Petrovich, A History of Modern Serbia (1976). TDV `sirbistan` bu ilhaka ayrıca değinmiyor. Dikkat: Gün doğrulanmadı — YYYY-01-01." },
 
-{ t:"1835-02-15", b:"Sretenje Anayasası ilan edildi ve birkaç hafta içinde askıya alındı", tur:"anayasa",
+{ t:"1835-02-14", b:"Sretenje Anayasası ilan edildi ve birkaç hafta içinde askıya alındı", tur:"anayasa",
   onem:3, dunya:1, kapsam:"ic", etiket:["anayasa","reform","konu-siyasi","konu-hukuk"],
   yer_id:"Kragujevac", devlet:"sirbistan-prensligi",
   d:"Miloş'un mutlak idaresine karşı çıkan önde gelenlerin baskısıyla Kragujevac'ta liberal bir anayasa ilan edildi. Metin, Osmanlı, Rusya ve Avusturya'nın itirazıyla kısa sürede askıya alındı; ama prensin yetkilerini sınırlama tartışmasını Sırp siyasetinin merkezine taşıdı.",
-  kaynak:"M. B. Petrovich, A History of Modern Serbia (1976) (Sretenje, 15 Şubat / eski takvimle 2 Şubat 1835)." },
+  kaynak:"M. B. Petrovich, A History of Modern Serbia (1976) (Sretenje, 15 Şubat / eski takvimle 2 Şubat 1835).", ic_not_takvim:"Jülyen 2 Şubat 1835 (Sretenje) = Gregoryen 14 Şubat 1835 (19. yy farkı 12 gün)" },
 
 { t:"1838-01-01", b:"'Türk Anayasası' (Ustav) — Babıâli fermanıyla meclis ve danışma kurulu", tur:"anayasa",
   onem:3, dunya:1, kapsam:"dis", etiket:["anayasa","ozerklik","konu-hukuk","konu-diplomasi"],

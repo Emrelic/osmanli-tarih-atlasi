@@ -325,7 +325,7 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1534-06-11", b:"İpekli Thomas İsyanı başladı",
   yer_id:"Dublin", kaynak:"standart akademik kaynak — İpekli Thomas İsyanı, Dublin Konseyi'nde bağlılığı reddetmesiyle başladı" },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1601-12-24", b:"Kinsale Savaşı — Dokuz Yıl Savaşı'nda İngiliz zaferi",
+{ dosya:"kronoloji_ingiltere.js", t:"1602-01-03", b:"Kinsale Savaşı — Dokuz Yıl Savaşı'nda İngiliz zaferi",
   eksik_nokta:{ ad:"Kinsale", enlem:51.707, boylam:-8.528, kaynak:"standart akademik kaynak — Kinsale Savaşı, Cork, İrlanda" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1607-09-14", b:"Kontların Kaçışı — Gal İrlanda'sının sonu",

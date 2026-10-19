@@ -530,21 +530,21 @@ window.KRONOLOJI_INGILTERE = [
   d:"II. Felipe'nin İngiltere'yi istila etmek üzere gönderdiği 130 gemilik büyük donanma, İngiliz filosunun taktikleri ve ardından gelen fırtınalarla ağır kayıplar vererek dağıldı; Gravelines açıklarındaki çarpışma dönüm noktası oldu. Zafer, İngiltere'nin bağımsızlığını pekiştirdi ve deniz gücü olarak yükselişinin sembolü hâline geldi.",
   kaynak:"The Oxford Companion to British History (OUP), «Armada, Spanish» https://www.oxfordreference.com/display/10.1093/acref/9780199677832.001.0001/acref-9780199677832-e-208 — «fireship attack on the night of 7 August, and on the following day» ; el-kitabi", yer_kon:[51.009,2.098] },
 
-{ t:"1600-12-31", b:"Doğu Hindistan Şirketi'ne kraliyet fermanı verildi", tur:"kurulus",
+{ t:"1601-01-10", b:"Doğu Hindistan Şirketi'ne kraliyet fermanı verildi", tur:"kurulus",
   onem:5, dunya:3, kapsam:"dis", etiket:["ekonomi","kurulus","ingiltere","konu-siyasi","konu-ekonomi"],
   yer_id:"Londra",
-  gun:"31 Aralık 1600 JÜLYEN (İngiliz eski takvimi; Gregoryen 10 Ocak 1601)",
+  gun:"10 Ocak 1601 (Jülyen 31 Aralık 1600)",
   d:"Elizabeth, Asya ile ticareti tekelinde toplayan Doğu Hindistan Şirketi'ne on beş yıllık bir ferman verdi. Şirket, sonraki iki buçuk yüzyılda salt bir ticaret kuruluşundan Hindistan'ın fiilî hükümdarına dönüşecek bir yapının temelini attı.",
-  kaynak:"A Dictionary of Economics (OUP), «East India Company» https://www.oxfordreference.com/display/10.1093/acref/9780198759430.001.0001/acref-9780198759430-e-4309 — «granted a Royal Charter on 31 December 1600» ; el-kitabi" },
+  kaynak:"A Dictionary of Economics (OUP), «East India Company» https://www.oxfordreference.com/display/10.1093/acref/9780198759430.001.0001/acref-9780198759430-e-4309 — «granted a Royal Charter on 31 December 1600» ; el-kitabi", ic_not_takvim:"Jülyen 31 Aralık 1600 (İngiliz charter) = Gregoryen 10 Ocak 1601; İngiltere yıl başı 25 Mart, 1600 O.S. yılıdır" },
 
 // ═════════════ I) ERKEN STUART DÖNEMİ VE İÇ SAVAŞ (1603-1660) ═════════════
 
-{ t:"1603-03-24", b:"VI. James İngiltere tahtına da geçti — Taçlar Birliği", tur:"birlesme",
+{ t:"1603-04-03", b:"VI. James İngiltere tahtına da geçti — Taçlar Birliği", tur:"birlesme",
   onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","birlesme","hanedan","iskocya","ingiltere","konu-siyasi","konu-hanedan"],
   yer_id:"Londra",
-  gun:"24 Mart 1603 JÜLYEN (İngiliz eski takvimi; Gregoryen 3 Nisan 1603) (eski İngiliz yılbaşı 25 Mart: çağdaş kayıtta 1602/03)",
+  gun:"3 Nisan 1603 (Jülyen 24 Mart 1603)",
   d:"Çocuksuz ölen I. Elizabeth'in yerine İskoç kralı VI. James, I. James unvanıyla İngiltere tahtına da geçti; İngiltere ve İskoçya böylece aynı hükümdar altında (ama ayrı krallıklar olarak) birleşti. Tam siyasî birlik ancak 1707'de gerçekleşecekti.",
-  kaynak:"The Kings and Queens of Britain (OUP), «James I» https://www.oxfordreference.com/display/10.1093/acref/9780199559220.001.0001/acref-9780199559220-e-427 — «acc. Scotland 24 July 1567; England 24 Mar. 1603» ; el-kitabi" },
+  kaynak:"The Kings and Queens of Britain (OUP), «James I» https://www.oxfordreference.com/display/10.1093/acref/9780199559220.001.0001/acref-9780199559220-e-427 — «acc. Scotland 24 July 1567; England 24 Mar. 1603» ; el-kitabi", ic_not_takvim:"Jülyen 24 Mart 1602 O.S. (İngiliz yıl başı 25 Mart) = Gregoryen 3 Nisan 1603" },
 
 { t:"1605-11-05", b:"Barut Komplosu ortaya çıkarıldı", tur:"siyaset",
   onem:3, dunya:1, kapsam:"ic", etiket:["din","siyaset","ingiltere","konu-siyasi","konu-din"],
@@ -729,12 +729,12 @@ window.KRONOLOJI_INGILTERE = [
   d:"Marlborough Dükü John Churchill komutasındaki İngiliz-müttefik ordusu, Fransız-Bavyera kuvvetlerini Blenheim'da ağır bir yenilgiye uğrattı; zafer, Fransa'nın Avrupa'yı domine etme ihtimalini fiilen sona erdirdi. Zafer İngiltere'de büyük bir ulusal gurur kaynağı oldu, Marlborough'ya Blenheim Sarayı hediye edildi.",
   kaynak:"The Oxford Companion to British History (OUP), «Blenheim, battle of», encyclopedia.com https://www.encyclopedia.com/history/modern-europe/wars-and-battles/battle-blenheim — «On 13 August 1704 Marlborough attacked the 60,000-strong Franco-Bavarian forces» ; el-kitabi", yer_kon:[48.6167,10.6167] },
 
-{ t:"1707-05-01", b:"Birlik Yasaları — Büyük Britanya Krallığı kuruldu", tur:"birlesme",
+{ t:"1707-05-12", b:"Birlik Yasaları — Büyük Britanya Krallığı kuruldu", tur:"birlesme",
   onem:5, dunya:2, kapsam:"ic", etiket:["birlesme","anayasa","buyuk-britanya","ingiltere","iskocya","konu-siyasi","konu-islahat","konu-hukuk"],
   yer_id:"Londra",
-  gun:"1 Mayıs 1707 JÜLYEN (İngiliz eski takvimi; Gregoryen 12 Mayıs 1707)",
+  gun:"12 Mayıs 1707 (Jülyen 1 Mayıs 1707)",
   d:"İngiltere ve İskoçya parlamentoları, iki krallığı tek bir Büyük Britanya Krallığı ve ortak bir Parlamento altında birleştiren yasaları onayladı. Birlik, 1603'ten beri süren yalnızca kişisel taç birliğini tam siyasî birliğe dönüştürdü.",
-  kaynak:"legislation.gov.uk, «Union with Scotland Act 1706», Article I https://www.legislation.gov.uk/aep/Ann/6/11/part/1 — «shall upon the First day of May ... One thousand seven hundred and seven» ; el-kitabi" },
+  kaynak:"legislation.gov.uk, «Union with Scotland Act 1706», Article I https://www.legislation.gov.uk/aep/Ann/6/11/part/1 — «shall upon the First day of May ... One thousand seven hundred and seven» ; el-kitabi", ic_not_takvim:"Jülyen 1 Mayıs 1707 (Union with England Act yürürlük) = Gregoryen 12 Mayıs 1707" },
 
 { t:"1714-08-01", b:"I. George kral oldu — Hanover hanedanı başladı", tur:"hukumdar",
   onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","buyuk-britanya","konu-siyasi","konu-hanedan"],
@@ -1770,12 +1770,12 @@ window.KRONOLOJI_INGILTERE = [
   d:"Dublin'de toplanan İrlanda Parlamentosu, VIII. Henry'yi (önceki 'İrlanda Lordu' unvanı yerine) resmen İrlanda Kralı ilan etti; bu, İngiliz tacının İrlanda üzerindeki iddiasını papalık bağışına değil doğrudan egemenliğe dayandırmasını sağladı. Karar, 'teslim ve yeniden bağış' politikasıyla Gal beylerini İngiliz soyluluk unvanları karşılığında ikna etme stratejisinin de zeminini oluşturdu.",
   kaynak:"el-kitabi" },
 
-{ t:"1601-12-24", b:"Kinsale Savaşı — Dokuz Yıl Savaşı'nda İngiliz zaferi", tur:"savas",
+{ t:"1602-01-03", b:"Kinsale Savaşı — Dokuz Yıl Savaşı'nda İngiliz zaferi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","irlanda","konu-askeri"],
   yer_id:"",
-  gun:"24 Aralık 1601 JÜLYEN (İngiliz eski takvimi; Gregoryen 3 Ocak 1602)",
+  gun:"3 Ocak 1602 (Jülyen 24 Aralık 1601)",
   d:"Ulster beyi Hugh O'Neill'in önderliğindeki Gal ittifakı ile müttefik İspanyol kuvvetleri, Kinsale'de İngiliz ordusuna karşı belirleyici bir yenilgi aldı. Yenilgi, bağımsız Gal İrlanda'sının son büyük direnişini kırdı ve adanın tamamının İngiliz Tacı'na bağlanmasının yolunu açtı.",
-  kaynak:"el-kitabi", yer_kon:[51.707,-8.528] },
+  kaynak:"el-kitabi", yer_kon:[51.707,-8.528], ic_not_takvim:"Jülyen 24 Aralık 1601 (İngiliz/İrlanda kaynakları) = Gregoryen 3 Ocak 1602" },
 
 { t:"1607-09-14", b:"Kontların Kaçışı — Gal İrlanda'sının sonu", tur:"son",
   onem:5, dunya:2, kapsam:"dis", etiket:["siyaset","irlanda","konu-siyasi"],
@@ -3190,10 +3190,10 @@ window.KRONOLOJI_ALMANYA = [
   d:"1672-1675 arasında Brandenburg, imparatorluk yükümlülüğü gereği Lehistan'ın yanında Osmanlı'ya karşı savaşan yardımcı kuvvetler gönderdi. Bu, Prusya'nın kendi çıkarları dışında imparatorluk çapındaki bir Osmanlı cephesine ilk askerî katkısıydı.",
   kaynak:"TDV `prusya`: \"Ancak 1672-1675 arasında Brandenburg yardımcı kuvvetleri Kont Friedrich von Dönhoff kumandasında Polonya’nın yanında Türk savaşlarına iştirak etmiştir.\" — okundu, gün belirtilmedi", kapsam_genis:true },
 
-{ t:"1685-10-29", devlet:"brandenburg-prusya", b:"Potsdam Fermanı — Huguenot mültecilerin kabulü", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"",
+{ t:"1685-11-08", devlet:"brandenburg-prusya", b:"Potsdam Fermanı — Huguenot mültecilerin kabulü", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["sosyal","din","brandenburg-prusya","konu-din","konu-islahat","konu-sosyal"],
   d:"Fransa Kralı XIV. Louis'nin Nantes Fermanı'nı kaldırmasının ardından Büyük Elektör, zulümden kaçan Fransız Protestanlarına (Huguenot) Brandenburg'da yerleşme ve dinî serbestlik hakkı tanıdı. Yaklaşık 20.000 Huguenot'nun göçü, Berlin'in zanaat ve ticaret hayatını kalıcı olarak zenginleştirdi.",
-  kaynak:"Clark, Iron Kingdom — Potsdam Fermanı'nın 29 Ekim 1685 ilanı ve Huguenot göçü. Potsdam yerleşim kaydı yok, yer_id boş", yer_kon:[52.3906,13.0645] },
+  kaynak:"Clark, Iron Kingdom — Potsdam Fermanı'nın 29 Ekim 1685 ilanı ve Huguenot göçü. Potsdam yerleşim kaydı yok, yer_id boş", yer_kon:[52.3906,13.0645], ic_not_takvim:"Brandenburg Jülyen 29 Ekim 1685 (belge tarihi) = Gregoryen 8 Kasım 1685 (Deutsche Biographie)" },
 
 { t:"1701-01-18", devlet:"brandenburg-prusya", b:"I. Friedrich'in kendini 'Prusya Kralı' ilan etmesi", tur:"kurulus", onem:5, dunya:3, kapsam:"ic", yer_id:"Königsberg",
   etiket:["hanedan","siyaset","brandenburg-prusya","konu-siyasi","konu-hanedan"],

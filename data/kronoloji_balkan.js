@@ -533,11 +533,11 @@ window.KRONOLOJI_BALKAN = [
   d:"Ayastefanos'un Avrupa güçlerince revize edilmesiyle imzalanan Berlin Antlaşması, Bulgaristan'ı üçe böldü: Osmanlı'ya tâbi ama iç işlerinde serbest, Sofya-Tırnova-Varna-Şumnu-Rusçuk-Silistre'yi içeren küçültülmüş bir Prenslik; ayrı idareli Doğu Rumeli vilâyeti; ve doğrudan Osmanlı'da kalan Makedonya. dunya puanı dört ayrı kronoloji dosyasıyla (rusya, almanya, habsburg, ingiltere) eşleştirildi — dördü de 4'te birleşiyor.",
   kaynak:"TDV `berlin-antlasmasi`: 'Bulgaristan toprakları üç bölgeye ayrılacaktı. Birinci bölge Osmanlı Devleti'ne tâbi, iç işlerinde serbest, prensi halk tarafından seçilen ... Tuna ile Balkanlar arasında Sofya, Niğbolu, Ziştovi, Rusçuk, Silistre, Varna, Şumnu, Lofça ve Tırnova gibi şehirleri içine alan muhtar bir Bulgaristan Prensliği kuruldu.'" },
 
-{ taraflar:["bulgaristan-prensligi"], t:"1879-04-16", b:"Tırnova Anayasası kabul edildi", tur:"siyaset",
+{ taraflar:["bulgaristan-prensligi"], t:"1879-04-28", b:"Tırnova Anayasası kabul edildi", tur:"siyaset",
   onem:5, dunya:2, kapsam:"ic", etiket:["idari","siyaset","islahat","konu-siyasi","konu-idari","konu-islahat"],
   yer_id:"Tırnova",
   d:"Tırnova'da toplanan Kurucu Millet Meclisi, dönemin Avrupa standartlarına göre son derece liberal sayılan bir anayasa kabul etti; geniş bir Millet Meclisi (Narodno Sıbranie), evrensel erkek oy hakkı ve temel hak-özgürlükler güvence altına alındı. Bu anayasa, genç prensliğin idari-hukuki iskeletini kurdu ve 1947'ye kadar (küçük değişikliklerle) yürürlükte kaldı.",
-  kaynak:"bulunamadı — TDV `bulgaristan` maddesi bu anayasadan ayrıntılı bahsetmiyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005 — Tırnova Anayasası'nın kabul tarihi ve içeriği)." },
+  kaynak:"bulunamadı — TDV `bulgaristan` maddesi bu anayasadan ayrıntılı bahsetmiyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005 — Tırnova Anayasası'nın kabul tarihi ve içeriği).", ic_not_takvim:"Bulgar Jülyen 16 Nisan 1879 = Gregoryen 28 Nisan 1879" },
 
 { taraflar:["bulgaristan-prensligi"], t:"1879-04-29", b:"Aleksandr Battenberg Bulgaristan Prensi seçildi", tur:"hukumdar",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","idari","konu-siyasi","konu-idari","konu-hanedan"],
@@ -785,10 +785,10 @@ window.KRONOLOJI_BALKAN = [
   d:"Filiki Eterya'nın lideri Aleksandros İpsilantis, küçük bir kuvvetle Prut nehrini geçerek Osmanlı'ya tâbi Eflak-Boğdan'a girdi ve Rusya'nın desteğini ima eden bir bildiri yayımladı. Mora'daki asıl patlamadan bir ay önce isyanın ilk cephesi burada açıldı; Rus desteği gelmeyince hareket kısa sürede bastırıldı.",
   kaynak:"TDV `yunanistan` (M. Hacısalihoğlu): 'Nihayet 1821'de Fenerli beyler tarafından yönetilen Eflak-Boğdan'da ve ardından Mora'da Yunan isyanı başladı.' Gün TDV'de yok; dayanak: standart akademik kaynak (Britannica, 'War of Greek Independence')." },
 
-{ taraflar:["yunanistan"], t:"1821-03-25", b:"Mora İsyanı başladı", tur:"isyan",
+{ taraflar:["yunanistan"], t:"1821-04-06", b:"Mora İsyanı başladı", tur:"isyan",
   onem:5, dunya:5, kapsam:"dis", etiket:["isyan","kurulus","konu-siyasi","konu-isyan"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Filiki Eterya'nın örgütlediği ayaklanma Mora yarımadasında patlak verdi; kısa sürede Mora'nın büyük bölümüne ve Kiklad adalarına yayıldı. Bu tarih hem Yunanistan'ın modern devlet olarak doğuş anı hem de Yunan millî bayramı olarak kutlanır.",
-  kaynak:"TDV `yunanistan` + data/olaylar.js:133 ile zaten doğrulanmış, data/devletler.js embedded kronolojisiyle birebir uyumlu." },
+  kaynak:"TDV `yunanistan` + data/olaylar.js:133 ile zaten doğrulanmış, data/devletler.js embedded kronolojisiyle birebir uyumlu.", ic_not_takvim:"Yunan ulusal günü Jülyen 25 Mart 1821 = Gregoryen 6 Nisan 1821" },
 
 { taraflar:["yunanistan"], t:"1821-04-22", b:"Patrik V. Grigorios'un idamı", tur:"kayip",
   onem:3, dunya:3, kapsam:"dis", etiket:["din","siddet","konu-askeri","konu-kisiler","konu-din"], yer_id:"İstanbul",
@@ -860,25 +860,25 @@ window.KRONOLOJI_BALKAN = [
   d:"Naiblik konseyi, o güne kadar 7000 nüfuslu küçük bir kasaba olan Atina'yı yeni krallığın 'Kraliyet Makamı ve Başkenti' ilan etti. Antik Yunan mirasına doğrudan atıf yapan bu seçim, devletin kendini 'Hellas' olarak yeniden tanımlama siyasetinin bir parçasıydı. TDV yıl olarak 1833 veriyor; standart akademik kaynaklar 18 Eylül 1834'ü veriyor — bir yıllık fark not edilir, akademik gün kullanıldı.",
   kaynak:"TDV `yunanistan`: 'Merkezi 1833 yılına kadar Anabolu olup bu tarihte Atina'ya taşınan Yunan Devleti eski Yunanistan'a referansla Hellas adını aldı.' Gün: standart akademik kaynak (GreekReporter, Greek City Times — resmî ilan belgesine dayanan tarih)." },
 
-{ taraflar:["yunanistan"], t:"1837-05-03", b:"Atina Üniversitesi'nin kuruluşu", tur:"bilim",
+{ taraflar:["yunanistan"], t:"1837-05-15", b:"Atina Üniversitesi'nin kuruluşu", tur:"bilim",
   onem:4, dunya:2, kapsam:"ic", etiket:["bilim","egitim","konu-bilim","konu-egitim"], yer_id:"Atina",
   d:"Kral Otto'nun adına 'Othonian Üniversitesi' olarak kurulan okul, hem yeni Yunan devletinin hem de bütün Balkanlar ve Doğu Akdeniz bölgesinin ilk üniversitesiydi. 1932'de ilk valiye (Kapodistrias) atfen bugünkü adını aldı.",
-  kaynak:"bulunamadı — TDV `yunanistan` bu kuruluşu ayrıntısıyla anmıyor; dayanak: standart akademik/resmî kaynak (Atina Üniversitesi'nin kendi resmî tarihçe sayfası, uoa.gr)." },
+  kaynak:"bulunamadı — TDV `yunanistan` bu kuruluşu ayrıntısıyla anmıyor; dayanak: standart akademik/resmî kaynak (Atina Üniversitesi'nin kendi resmî tarihçe sayfası, uoa.gr).", ic_not_takvim:"Yunan Jülyen 3 Mayıs 1837 = Gregoryen 15 Mayıs 1837" },
 
-{ taraflar:["yunanistan"], t:"1843-09-03", b:"Anayasa ayaklanması", tur:"idari",
+{ taraflar:["yunanistan"], t:"1843-09-15", b:"Anayasa ayaklanması", tur:"idari",
   onem:4, dunya:2, kapsam:"ic", etiket:["idari","reform","konu-idari","konu-isyan","konu-islahat"], yer_id:"Atina",
   d:"Bağımsızlık Savaşı gazilerinin önderliğindeki Atina garnizonu, halkın geniş desteğiyle Kral Otto'nun mutlakiyetçi yönetimine ve Bavyeralı memurların devleti domine etmesine karşı ayaklandı. Neredeyse kansız geçen bu darbe, Otto'yu bir anayasa vermeye zorladı.",
-  kaynak:"bulunamadı — TDV `yunanistan` 1843 hareketini doğrudan anmıyor; dayanak: standart akademik kaynak (Britannica, 'Revolution of 1843')." },
+  kaynak:"bulunamadı — TDV `yunanistan` 1843 hareketini doğrudan anmıyor; dayanak: standart akademik kaynak (Britannica, 'Revolution of 1843').", ic_not_takvim:"Yunan Jülyen 3 Eylül 1843 = Gregoryen 15 Eylül 1843" },
 
 { taraflar:["yunanistan"], t:"1844-03-30", b:"1844 Anayasası'nın kabulü", tur:"idari",
   onem:4, dunya:2, kapsam:"ic", etiket:["idari","reform","konu-idari","konu-islahat"], yer_id:"Atina",
   d:"3 Eylül 1843 ayaklanmasının sonucunda toplanan Millî Meclis, Kral Otto'nun onayladığı ilk yazılı anayasayı kabul etti. Anayasa, meşrutî monarşiyi ve dönemine göre ileri bir adım olarak erkekler için genel oy hakkını getirdi.",
   kaynak:"bulunamadı — TDV bu anayasanın ayrıntısını vermiyor; dayanak: standart akademik kaynak (HathiTrust arşiv kaydı, Wikipedia 'Greek Constitution of 1844' ile çapraz doğrulandı)." },
 
-{ taraflar:["yunanistan"], t:"1850-06-29", b:"Fener Patrikhânesi'nin Yunan Kilisesi'nin özerkliğini tanıması", tur:"sosyal",
+{ taraflar:["yunanistan"], t:"1850-07-11", b:"Fener Patrikhânesi'nin Yunan Kilisesi'nin özerkliğini tanıması", tur:"sosyal",
   onem:4, dunya:2, kapsam:"ic", etiket:["din","konu-din","konu-sosyal"], yer_id:"İstanbul",
   d:"İstanbul'daki Fener Rum Ortodoks Patrikhânesi, on yedi yıl önce Yunan hükümetince tek taraflı ilan edilen kilise özerkliğini nihayet bir Tomos ile resmen tanıdı.",
-  kaynak:"TDV `yunanistan`: 'Patrikhâne bu durumu ancak 1850'de tanıdı.' Tam tarih TDV'de yok; dayanak: standart akademik kaynak (Tomos, 29 Haziran 1850)." },
+  kaynak:"TDV `yunanistan`: 'Patrikhâne bu durumu ancak 1850'de tanıdı.' Tam tarih TDV'de yok; dayanak: standart akademik kaynak (Tomos, 29 Haziran 1850).", ic_not_takvim:"Patrikhane Jülyen 29 Haziran 1850 (Tomos) = Gregoryen 11 Temmuz 1850" },
 
 { taraflar:["yunanistan"], t:"1862-10-10", b:"Kral Otto'nun tahttan indirilmesi", tur:"siyaset",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","darbe","darbe-askeri","konu-siyasi","konu-darbe"], yer_id:"Atina",
@@ -920,10 +920,10 @@ window.KRONOLOJI_BALKAN = [
   d:"Antik çağdan beri hayal edilen, Mora yarımadasını anakaradan ayıran Korint Kanalı tamamlandı ve İyon denizini Ege'ye bağladı. Proje on bir yıl sürmüş, Yunan devleti için hem mühendislik hem malî açıdan büyük bir yük olmuştu.",
   kaynak:"TDV `yunanistan` (coğrafya bölümü) kanalın varlığını anıyor ama açılış tarihini vermiyor; dayanak: standart akademik kaynak (Britannica, 'Corinth Canal')." },
 
-{ taraflar:["yunanistan"], t:"1893-12-10", b:"Trikoupis'in iflası ilan etmesi", tur:"ekonomi",
+{ taraflar:["yunanistan"], t:"1893-12-22", b:"Trikoupis'in iflası ilan etmesi", tur:"ekonomi",
   onem:4, dunya:2, kapsam:"ic", etiket:["ekonomi","konu-ekonomi"], yer_id:"Atina",
   d:"Başbakan Harilaos Trikoupis, mecliste 'Maalesef iflas ettik' diyerek devletin dış borçlarını ödeyemez duruma düştüğünü ilan etti. Modernleşme atılımının (demiryolları, Korint Kanalı) malî bedeli, Yunanistan'ı yüzyılın en büyük ekonomik krizine sürükledi.",
-  kaynak:"TDV `yunanistan` bu krizi yalnız dolaylı anıyor ('1895'te finans krizlerinin etkisiyle Trikoupis hükümetten çekilmek zorunda kaldı'); dayanak: standart akademik kaynak (Trikoupis'in meclis konuşması, 10 Aralık 1893)." },
+  kaynak:"TDV `yunanistan` bu krizi yalnız dolaylı anıyor ('1895'te finans krizlerinin etkisiyle Trikoupis hükümetten çekilmek zorunda kaldı'); dayanak: standart akademik kaynak (Trikoupis'in meclis konuşması, 10 Aralık 1893).", ic_not_takvim:"Yunan Jülyen 10 Aralık 1893 = Gregoryen 22 Aralık 1893" },
 
 { taraflar:["yunanistan"], t:"1896-04-06", b:"İlk modern Olimpiyat Oyunları'nın Atina'da açılması", tur:"kultur",
   onem:5, dunya:5, kapsam:"ic", etiket:["kultur","spor","konu-kultur","konu-spor"], yer_id:"Atina",

@@ -348,11 +348,11 @@ window.DEVLETLER = [
     { t:"1547-01-16", tur:"kurulus", b:"IV. İvan (Korkunç) \"Çar\" unvanını aldı" },
     { t:"1556-01-01", tur:"toprak-kazanc", b:"Astrahan Hanlığı ilhak edildi" },
     { t:"1568-01-01", tur:"savas", b:"Osmanlı ile ilk çatışma — Astrahan seferi" },
-    { t:"1613-02-21", tur:"hukumdar", b:"Romanov hanedanı tahta çıktı" },
+    { t:"1613-03-03", tur:"hukumdar", b:"Romanov hanedanı tahta çıktı", ic_not_takvim:"Jülyen 21 Şubat 1613 (BRE) = Gregoryen 3 Mart 1613" },
     { t:"1696-07-18", tur:"toprak-kazanc", b:"I. Petro Azak'ı aldı" },
     { t:"1700-01-01", tur:"savas", b:"Büyük Kuzey Savaşı — İsveç'i yenip Baltık'a açıldı (1721'e dek)" },
     { t:"1711-07-21", tur:"toprak-kayip", b:"Prut'ta Osmanlı'ya yenildi, Azak geri verildi" },
-    { t:"1721-10-22", tur:"kurulus", b:"Rusya İmparatorluğu ilan edildi" },
+    { t:"1721-11-02", tur:"kurulus", b:"Rusya İmparatorluğu ilan edildi", ic_not_takvim:"Jülyen 22 Ekim 1721 (BRE) = Gregoryen 2 Kasım 1721" },
     { t:"1774-07-21", tur:"toprak-kazanc", b:"Küçük Kaynarca — Kırım bağımsız, Karadeniz'de donanma hakkı kazanıldı" },
     { t:"1783-04-19", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1783-04-08 (Kırım'ın ilhakı; TDV kirim '8 Nisan 1783', eski takvim) = Gregoryen 1783-04-19", tur:"toprak-kazanc", b:"Kırım'ı ilhak etti" },
     { t:"1812-05-28", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1812-05-16 (Bükreş Antlaşması; ESBE «Бухарестский мир» 'подписан 16 мая 1812 г.', eski takvim) = Gregoryen 1812-05-28 (TDV bukres-antlasmasi)", tur:"toprak-kazanc", b:"Bükreş Antlaşması ile Besarabya alındı" },
@@ -1476,7 +1476,7 @@ window.DEVLETLER = [
   ozet:"Mora isyanıyla başlayıp Londra Protokolü'yle bağımsızlığa ulaşan, sonraki yüzyılda Osmanlı'dan toprak almaya devam eden devlet. (1945 ufkundan sonra da sürdü — t: pencere ucu. Künye ÜLKE sürekliliğidir: 25 Mart 1924 cumhuriyet, 1935 krallığın iadesi — TDV yunanistan.)",
   kaynak:"yunanistan",
   kronoloji:[
-    { t:"1821-03-25", tur:"isyan", b:"Mora İsyanı başladı" },
+    { t:"1821-04-06", tur:"isyan", b:"Mora İsyanı başladı", ic_not_takvim:"Yunan ulusal günü Jülyen 25 Mart 1821 = Gregoryen 6 Nisan 1821" },
     { t:"1827-10-20", tur:"savas", b:"Navarin'de müttefik donanma Osmanlı-Mısır filosunu yendi" },
     { t:"1830-02-03", tur:"kurulus", b:"Londra Protokolü ile bağımsızlık tanındı" },
     { t:"1897-04-18", tur:"savas", b:"1897 Osmanlı-Yunan Savaşı (Dömeke)" },
@@ -1521,7 +1521,7 @@ window.DEVLETLER = [
     { t:"1885-11-14", tur:"savas", b:"Sırbistan'ın saldırısıyla Sırp-Bulgar Savaşı başladı (14-28 Kasım 1885); Bulgaristan iki haftada kazandı.", kaynak:"Radio Bulgaria (BNR), Unification of Bulgaria, https://old-news.bnr.bg/en/post/101014831/unification-of-bulgaria-a-real-historical-legend" },
     { t:"1886-01-01", tur:"hukumdar", b:"Rus eğitimli Bulgar subaylar Prens Alexander'ı tahttan indirdi (Ağustos 1886, gün bilinmiyor).", kaynak:"Library of Congress Country Studies, Bulgaria, https://countrystudies.us/bulgaria/11.htm" },
     { t:"1886-03-03", tur:"antlasma", b:"Bükreş Antlaşması Sırbistan-Bulgaristan savaşını bitirdi, savaş öncesi sınırı yeniden kurdu; Bulgaristan ile Doğu Rumeli'nin birliği bozulmadı.", kaynak:"Britannica, Treaty of Bucharest (1886), https://www.britannica.com/topic/Treaty-of-Bucharest-Balkan-history-1886" },
-    { t:"1886-03-24", tur:"antlasma", b:"Tophane Senedi büyük güç elçileri ile Osmanlı arasında imzalandı; Bulgar prensi Doğu Rumeli genel valisi sayılarak birlik resmîleşti.", kaynak:"Radio Bulgaria (BNR), https://old-news.bnr.bg/en/post/101014831/unification-of-bulgaria-a-real-historical-legend ; Britannica, Convention of Tophane" },
+    { t:"1886-04-05", tur:"antlasma", b:"Tophane Senedi büyük güç elçileri ile Osmanlı arasında imzalandı; Bulgar prensi Doğu Rumeli genel valisi sayılarak birlik resmîleşti.", kaynak:"Radio Bulgaria (BNR), https://old-news.bnr.bg/en/post/101014831/unification-of-bulgaria-a-real-historical-legend ; Britannica, Convention of Tophane", ic_not_takvim:"Bulgar kaynağı Jülyen 24 Mart 1886 (BNR) = Gregoryen 5 Nisan 1886 (Türk akademik kaynağı)" },
     { t:"1887-01-01", tur:"hukumdar", b:"Stambolov başbakan oldu; Saksen-Coburg-Gotha'lı Ferdinand Bulgar tahtını kabul etti (Ağustos 1887, gün bilinmiyor).", kaynak:"Library of Congress Country Studies, Bulgaria, https://countrystudies.us/bulgaria/11.htm" },
     { t:"1895-01-01", tur:"siyaset", b:"Makedonyalı radikaller Stambolov'u öldürdü (gün bilinmiyor).", kaynak:"Library of Congress Country Studies, Bulgaria, https://countrystudies.us/bulgaria/11.htm" },
     { t:"1896-01-01", tur:"siyaset", b:"Rusya, Ferdinand'ı Bulgar prensi olarak tanıdı (gün bilinmiyor).", kaynak:"Library of Congress Country Studies, Bulgaria, https://countrystudies.us/bulgaria/11.htm" },
@@ -6488,8 +6488,8 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"0843-01-01", tur:"kurulus", b:"Kenneth MacAlpin, Pikte ve İskoç krallıklarını birleştirdi" },
     { t:"1314-06-24", tur:"savas", b:"Bannockburn Savaşı'nda İngiltere'ye karşı bağımsızlığını pekiştirdi" },
-    { t:"1603-03-24", tur:"birlesme", b:"VI. James, İngiltere tahtına da geçip iki krallık kişisel birlik kurdu" },
-    { t:"1707-05-01", tur:"son", b:"Birlik Yasası ile İngiltere'yle birleşip Büyük Britanya Krallığı'nı oluşturdu" }
+    { t:"1603-04-03", tur:"birlesme", b:"VI. James, İngiltere tahtına da geçip iki krallık kişisel birlik kurdu", ic_not_takvim:"Jülyen 24 Mart 1602 O.S. (İngiliz yıl başı 25 Mart) = Gregoryen 3 Nisan 1603" },
+    { t:"1707-05-12", tur:"son", b:"Birlik Yasası ile İngiltere'yle birleşip Büyük Britanya Krallığı'nı oluşturdu", ic_not_takvim:"Jülyen 1 Mayıs 1707 (Union with England Act yürürlük) = Gregoryen 12 Mayıs 1707" }
   ]
 },
 { id:"irlanda", ad:"İrlanda (Gal Beylikleri ve Krallığı)", tur:"krallik", bolge:"bati-avrupa",
@@ -13680,7 +13680,7 @@ window.DEVLETLER = [
     { t:"1640-12-01", tur:"hukumdar", b:"Friedrich Wilhelm (Büyük Elektör) babasının ölümüyle tahta çıktı; savaştan yıkılmış Brandenburg'u devraldı.", kaynak:"https://www.encyclopedia.com/people/history/german-history-biographies/frederick-william ; https://www.ebsco.com/research-starters/history/frederick-william-great-elector" },
     { t:"1648-10-24", tur:"toprak-kazanc", b:"Vestfalya Barışı: Brandenburg Doğu Pomeranya, Magdeburg, Halberstadt ve Minden'i aldı.", kaynak:"https://www.ebsco.com/research-starters/history/reign-frederick-william-great-elector" },
     { t:"1675-06-28", tur:"savas", b:"Fehrbellin Savaşı: Büyük Elektör'ün ordusu İsveç'i yendi.", kaynak:"https://en.wikipedia.org/wiki/Battle_of_Fehrbellin ; https://www.historyofwar.org/articles/battles_fehrbellin.html" },
-    { t:"1685-10-29", tur:"siyaset", b:"Potsdam Fermanı: Büyük Elektör Fransız Huguenot mültecilere sığınma ve imtiyaz verdi; on binlerce kişi Brandenburg'a yerleşti.", kaynak:"https://germanhistorydocs.org/en/the-holy-roman-empire-1648-1815/quot-edict-of-potsdam-quot-issued-by-frederick-william-quot-the-great-elector-quot-october-29-1685" },
+    { t:"1685-11-08", tur:"siyaset", b:"Potsdam Fermanı: Büyük Elektör Fransız Huguenot mültecilere sığınma ve imtiyaz verdi; on binlerce kişi Brandenburg'a yerleşti.", kaynak:"https://germanhistorydocs.org/en/the-holy-roman-empire-1648-1815/quot-edict-of-potsdam-quot-issued-by-frederick-william-quot-the-great-elector-quot-october-29-1685", ic_not_takvim:"Brandenburg Jülyen 29 Ekim 1685 (belge tarihi) = Gregoryen 8 Kasım 1685 (Deutsche Biographie)" },
     { t:"1700-11-16", tur:"antlasma", b:"Taç Antlaşması: Elektör III. Friedrich, İmparator I. Leopold'a Ispanya Veraset Savaşı için 8.000 asker karşılığında 'Prusya'da Kral' unvanının tanınmasını sağladı.", kaynak:"https://en.wikipedia.org/wiki/Crown_Treaty" },
     { t:"1701-01-18", tur:"son", b:"Elektör III. Friedrich Königsberg'de 'Prusya'da Kral' I. Friedrich olarak taç giydi", kaynak:"DHM preussen1701" }
   ]

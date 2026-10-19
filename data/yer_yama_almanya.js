@@ -30,7 +30,7 @@ window.YER_YAMA_ALMANYA = [
 { dosya:"kronoloji_almanya.js", t:"1672-01-01", b:"Brandenburg yardımcı kuvvetlerinin Osmanlı-Lehistan savaşlarına katılması",
   kapsam_genis:true, not:"Brandenburg yardımcı kuvvetlerinin Osmanlı-Lehistan savaşlarına katılımı — belirli bir muharebe/yer adı verilmemiş, hangi cephe olduğu net değil, tek noktaya sığmaz" },
 
-{ dosya:"kronoloji_almanya.js", t:"1685-10-29", b:"Potsdam Fermanı — Huguenot mültecilerin kabulü",
+{ dosya:"kronoloji_almanya.js", t:"1685-11-08", b:"Potsdam Fermanı — Huguenot mültecilerin kabulü",
   eksik_nokta:{ ad:"Potsdam", enlem:52.3906, boylam:13.0645, kaynak:"standart akademik kaynak — Potsdam Fermanı, Potsdam'da (Brandenburg) yayımlandı, 29 Ekim 1685" } },
 
 { dosya:"kronoloji_almanya.js", t:"1718-01-14", b:"Nişancı Mehmed Paşa'nın Prusya Kralı'na dostluk mektubu göndermesi",
