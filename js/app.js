@@ -192,7 +192,7 @@ function karsiTaraf(k) {
 //   tanımlı bir ad orada YOKTUR; bu yorum o iki işaret dizgisini de içermemeli
 //   (ölçüldü: `UFUK is not defined` ⇒ odak nöbetçisi ÖLÇEMEDİ). Bu satırın
 //   üstüne değişken taşıyan, yayın kapısını kör eder.
-var BASLANGIC = gunIdx("1000-01-01");   // = arac/girdi.py UFUK[0] · ÖNERİ
+var BASLANGIC = gunIdx("-11999-01-01");   // = arac/girdi.py UFUK[0] · ÖNERİ
 var BITIS     = gunIdx("2000-12-31");   // = arac/girdi.py UFUK[1] · ÖNERİ
 var VERI_UFKU = ["1281-01-01", "2000-12-31"];   // = arac/girdi.py VERI_UFKU
 var VERI_BASI = gunIdx(VERI_UFKU[0]);
@@ -217,6 +217,7 @@ var VERI_SONU = gunIdx(VERI_UFKU[1]);
 var ZAMAN_KONUM_MAX = 1000000;
 var ZAMAN_DIS_KAT = 0.29;
 var ZAMAN_DIS_TABAN = 0.08;
+var ZAMAN_DIS_TAVAN = 0.7;              // dış çağların çubukta toplam azami payı (çekirdek ≥ %30)
 function _yilYazi(g) { return GUN.yilYazi(idxTarih(g).y); }   // NEGATIF-YIL-1010-A: y ≤ 0 → "MÖ n"
 var ZAMAN_CAGLARI = (function () {
   var vb = Math.max(BASLANGIC, Math.min(BITIS, VERI_BASI));
@@ -231,6 +232,13 @@ var ZAMAN_CAGLARI = (function () {
     x.pay = Math.max(ZAMAN_DIS_TABAN, ZAMAN_DIS_KAT * Math.sqrt((x.t - x.f) / (cek.t - cek.f)));
     dis += x.pay;
   });
+  // UFUK MÖ 12000'e açılınca dış çağ payı 1,245 çıkıyordu ⇒ çekirdek payı NEGATİF, çubuk bozuk
+  // (tarayıcıda ölçüldü, 19 Ekim 2026). Dış çağların toplamı ZAMAN_DIS_TAVAN'ı aşamaz; aşarsa
+  // orantılı küçülür (1000–1945 ve 1281–1923 payları DEĞİŞMEZ: toplam hep tavanın altında).
+  if (dis > ZAMAN_DIS_TAVAN) {
+    c.forEach(function (x) { if (!x.cekirdek) x.pay *= ZAMAN_DIS_TAVAN / dis; });
+    dis = ZAMAN_DIS_TAVAN;
+  }
   cek.pay = 1 - dis;
   var bas = 0;
   c.forEach(function (x) {
