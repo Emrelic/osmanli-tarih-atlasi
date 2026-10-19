@@ -48,10 +48,10 @@ window.OLAYLAR_EK17 = [
 // konağı · TDV'nin 'başı açık, üstü perişan' tasviri · Orta Cami · kulak-burun)
 // kalan kaydın `d:` metnine TAŞINDI. Silinen tek şey mükerrer başlıktır.
 
-{ t:"1639-01-20", b:"I. Mustafa on beş yıllık unutuluşun ardından öldü", ic_not_b:"eski b soneki: — kızlarağası rivayeti doğrulanamadı (H-0003)", tur:"kisi",
+{ t:"1639-01-20", b:"I. Mustafa on beş yıllık unutuluşun ardından öldü", tur:"kisi",
   onem:2, dunya:1, kapsam:"ic", etiket:["saray","kisi","konu-kisiler","konu-hanedan"],
   yer_id:"İstanbul", vefat_id:"mustafa1",
-  d:"10 Eylül 1623'te ikinci kez tahttan indirilen I. Mustafa, ölümüne kadar geçen on beş yıl boyunca kapalı tutulduğu bir odada yaşadı; bu yıllara dair kaynaklarda hiçbir bilgi yoktur. 15 Ramazan 1048'de (20 Ocak 1639) vefat etti — kaynakların bir kısmı bunu doğal ölüm sayarken bir kısmı IV. Murad'ın parmağı olduğunu ileri sürer. Halk arasında kızlarağasının onu bir odaya kilitlediği anlatılır; ancak bu rivayet kaynaklarca desteklenmez. Kaynaklar yalnızca ilk hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtir.", ic_not_d:"eski ifadeler (H-0003): «TDV İslâm Ansiklopedisi bu döneme dair 'herhangi bir bilgi bulunmamaktadır' diyerek sessizliği açıkça kaydeder.» · «⚠️ RİVAYET DOĞRULANAMADI: kızlarağasının … hikâye TDV maddesinde yer almıyor; madde yalnızca ilk hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtiyor.»",
+  d:"10 Eylül 1623'te ikinci kez tahttan indirilen I. Mustafa, ölümüne kadar geçen on beş yıl boyunca kapalı tutulduğu bir odada yaşadı; bu yıllara dair kaynaklarda hiçbir bilgi yoktur. 15 Ramazan 1048'de (20 Ocak 1639) vefat etti — kaynakların bir kısmı bunu doğal ölüm sayarken bir kısmı IV. Murad'ın parmağı olduğunu ileri sürer.", ic_not_d:"eski ifadeler (H-0003): «TDV İslâm Ansiklopedisi bu döneme dair 'herhangi bir bilgi bulunmamaktadır' diyerek sessizliği açıkça kaydeder.» · (POSTIT-102, Emre) Kızlarağası/odaya kilitlenme anlatısı bu ölüm maddesinden çıkarıldı: o olay 1617-1618 ilk hal' dönemine aittir; ilk hal'deki Kızlar Ağası Mustafa Ağa rolü 1618-02-26 maddesinde (Hasanbeyzâde'ye dayanan TDV mustafa-i).",
   kaynak:"mustafa-i" },
 
 // ---------- IV. Murad dönemi ----------
