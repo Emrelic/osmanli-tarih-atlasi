@@ -812,14 +812,21 @@
            Ve iki ekseni de sayıyor: "hem kuzey güney hem doğu batı" —
            o yüzden ölçü BÜYÜK OLAN kenardır, ortalama değil. Şili ve
            İsveç kuzey-güney, Rusya doğu-batı uzar; ortalama ikisini de
-           yanlış çerçeveler. -->
+           yanlış çerçeveler.
+           🔴 19 Ekim 2026 — VARSAYILAN "sabit" OLDU. Emre: "sağdan sola 1000 km
+           göstersin ayarımız var ama çalışmıyor … çok yukarıdan bakıyor."
+           Ölçüldü (yayın, 832 px): km→zoom çevirisi BİREBİR (750/1000/3000 km
+           istendi → 750/1000/3000 km göründü); ayarı ezen "korele" varsayılanıydı —
+           orada sürgü yalnız ALT SINIR, Osmanlı kutusu × 1,35 ile 1453 sonrası
+           5.000-7.300 km'ye açılıyordu. Korele seçenek olarak duruyor; seçilince
+           o an uygulanan km yanında yazılır (sessiz ezme bitti). -->
       <div class="ayar-satir">
         <label for="ayar-genislik-kip">Genişlik kipi <span class="ayar-ipucu">(odak devlet büyüyünce görüş de büyüsün mü)</span></label>
         <select id="ayar-genislik-kip">
-          <option value="korele" selected>Devletle birlikte (adaptif)</option>
-          <option value="sabit">Sabit — hep yukarıdaki km</option>
+          <option value="sabit" selected>Sabit — hep yukarıdaki km</option>
+          <option value="korele">Devletle birlikte (sürgü alt sınır olur)</option>
         </select>
-        <span class="ayar-deger"></span>
+        <span id="ayar-genislik-kip-deger" class="ayar-deger"></span>
       </div>
       <!-- 🔴 23 Ağustos, 0029/H-0001 + H-0005 — OTO-ODAKLAMA ZAMAN
            ÇUBUĞUNDAN BURAYA TAŞINDI ve VARSAYILANI KAPANDI.
@@ -2043,7 +2050,7 @@
 <script src="js/kaynak_damga.js?v=r126307977"></script>
 <!-- ODAK-ZOOM-1016 — saf hesap (DOM'suz), app.js'ten ÖNCE: `window.ODAK_ZOOM`. -->
 <script src="js/odak_zoom.js?v=r126728536"></script>
-<script src="js/app.js?v=r8018447"></script>
+<script src="js/app.js?v=r225551932"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).

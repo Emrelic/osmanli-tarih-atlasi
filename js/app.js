@@ -15451,9 +15451,20 @@ function _otoOdakUygula(acik) {
   if (a && (a.value === "acik") !== otoZoom) a.value = otoZoom ? "acik" : "kapali";
 }
 
+// 🔴 19 Ekim 2026 — Emre: *"1000 km göstersin ayarımız var ama çalışmıyor."*
+// Ölçüldü: çeviri doğru, ezen korele kipiydi (index.html notu). Varsayılan artık
+// "sabit"; korele seçiliyse UYGULANAN km ayar satırında yazılır — sürgü bir şey
+// derken harita başka şey yapıyorsa kullanıcı bunu ekranda görür.
 function gorusGenisligiKm(lat) {
+  var km = _gorusGenisligiHam(lat);
+  var e = document.getElementById("ayar-genislik-kip-deger");
+  if (e) e.textContent = _ayarMetin("ayar-genislik-kip", "sabit") === "korele"
+    ? "şu an " + Math.round(km).toLocaleString("tr-TR") + " km" : "";
+  return km;
+}
+function _gorusGenisligiHam(lat) {
   var taban = +_ayar("ayar-genislik-km", 1500);
-  if (_ayarMetin("ayar-genislik-kip", "korele") !== "korele") return taban;
+  if (_ayarMetin("ayar-genislik-kip", "sabit") !== "korele") return taban;
   var d = (typeof aktifDonem !== "undefined" && aktifDonem >= 0
            && typeof donemler !== "undefined" && donemler[aktifDonem])
           ? donemler[aktifDonem] : null;
@@ -16150,6 +16161,7 @@ function odakOfseti(hedef, kap) {
         // doğmasın diye. (`§11`: bir bilgi iki yerde durursa biri
         // güncellenince öteki bayatlar.)
         if (p[0] === "ayar-oto-odak") _otoOdakUygula(e.value === "acik");
+        if (p[0] === "ayar-genislik-kip") try { gorusGenisligiKm(harita.getCenter().lat); } catch (eG) { }
       });
       if (p[0] === "ayar-oto-odak") _otoOdakUygula(e.value === "acik");
     });
