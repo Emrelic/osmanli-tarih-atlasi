@@ -805,13 +805,51 @@ function acikTon(hex, kat) {
 //    yer) · `arac/renk_olc.py` "OSMANLI tâbi". Devir/işgal desenlerindeki tâbi
 //    tonu o yoldan gelir ve motor tarafı hizalanana kadar ESKİ tonda kalır.
 var TABI_RENK = acikTon("#8e0b22");
-var dolgular = (window.DOLGU || []);
-dolgular.forEach(function (r) {
-  r.fi = gunIdx(r.f); r.ti = gunIdx(r.t);
-  r.ft = { type: "Feature",
-           properties: { renk: DOLGU_RENK[r.k] || "#8e0b22", kim: r.k, cins: r.c },
-           geometry: parcaCoz(r.p, DOLGU_PARCALAR, DOLGU_PARCA_HALKA) };
-});
+var dolgular = [];
+// 🆕 18 Ekim 2026 — B GÖRÜNÜMÜ TEMBEL YÜKLENİR (Emre: "ayarlardan B görünümü seçilmiş ise
+// harita tek parça görünür"). `data/dolgu.js` açılışta İNDİRİLMEZ (boyutu büyük, çoğu
+// ziyaretçi B'yi açmaz); kutu ilk işaretlenince `dolguYukle` klasik <script> ekler (ufuk
+// bantlarıyla AYNI desen). Kayıtlar `window.DOLGU`dan `dolguKur()` ile kurulur — hem
+// açılışta (dosya zaten yüklüyse) hem tembel yüklemeden sonra.
+function dolguKur() {
+  DOLGU_PARCALAR = window.DOLGU_PARCALAR || [];
+  DOLGU_PARCA_HALKA = window.DOLGU_PARCA_HALKA || [];
+  dolgular = (window.DOLGU || []);
+  dolgular.forEach(function (r) {
+    r.fi = gunIdx(r.f); r.ti = gunIdx(r.t);
+    r.ft = { type: "Feature",
+             properties: { renk: DOLGU_RENK[r.k] || "#8e0b22", kim: r.k, cins: r.c },
+             geometry: parcaCoz(r.p, DOLGU_PARCALAR, DOLGU_PARCA_HALKA) };
+  });
+}
+dolguKur();
+var dolguYukleniyor = false, dolguHata = null, dolguBekleyen = [];
+function dolguYukle(bitti) {
+  if (dolgular.length) { bitti(true); return; }
+  if (dolguHata) { bitti(false); return; }
+  dolguBekleyen.push(bitti);
+  if (dolguYukleniyor) return;
+  dolguYukleniyor = true;
+  function bildir(ok) {
+    dolguYukleniyor = false;
+    var b = dolguBekleyen; dolguBekleyen = [];
+    b.forEach(function (f) { f(ok); });
+  }
+  var s = document.createElement("script");
+  s.src = "data/b_dolgu.js" + (window.SURUM ? ("?v=" + window.SURUM) : "");
+  s.onload = function () {
+    try { dolguKur(); } catch (e) {
+      dolguHata = "kurulamadı"; console.error("Ⓑ dolgu: kurulamadı", e); bildir(false); return;
+    }
+    if (!dolgular.length) { dolguHata = "boş"; bildir(false); return; }
+    console.debug("Ⓑ dolgu: " + dolgular.length + " kayıt yüklendi");
+    bildir(true);
+  };
+  s.onerror = function () {
+    dolguHata = "yok"; console.debug("Ⓑ dolgu: data/dolgu.js YOK — A'da kalınıyor"); bildir(false);
+  };
+  document.head.appendChild(s);
+}
 // ---------- Devlet etiketleri ----------
 // ⚠️ Eskiden her devlete TEK etiket veriliyor ve üretimden gelen tek bir
 // ağırlık merkezine (p.c) konuyordu. Sonuçları kullanıcı raporladı:
@@ -1468,16 +1506,12 @@ function ufukSeciciKur() {
 function bVeriKapisi() {
   var NOT = "veri henüz üretilmedi";
   var dk = document.querySelector('input[data-katman="dolgu"]');
+  // 🆕 18 Ekim 2026 — B görünümü TEMBEL: kutu pasif DEĞİL; ilk işaretlenişte veri indirilir
+  // (`dolguYukle`). İndirme başarısızsa kutu geri bırakılır ve rozet söyler (aşağıda, katman
+  // düğmesi işleyicisi). Eskiden veri yoksa kutu kalıcı disabled idi.
   if (dk && !dolgular.length) {
-    dk.checked = false;
-    dk.disabled = true;
     var lb = dk.closest("label");
-    if (lb) {
-      lb.title = "Ⓑ Dolgu: " + NOT + " (data/dolgu.js yok) — bu ayar şimdilik bir şey değiştirmez";
-      lb.classList.add("b-pasif");
-      var em = lb.querySelector("em");
-      if (em) em.textContent = NOT;
-    }
+    if (lb) lb.title = "Ⓑ görünüm: haritayı tek parça gösterir (boşluk, kopuk parça ve dar koridorlar kapatılır). İlk açılışta veri indirilir.";
   }
   var sec = document.getElementById("ufuk-segment");
   if (!sec) return;
@@ -2866,13 +2900,16 @@ harita.on("load", function () {
   harita.addSource("dolgu", agirKaynak());
   harita.addLayer({ id: "dolgu-b-alan", type: "fill", source: "dolgu",
     layout: { visibility: "none" },
+    // 🆕 18 Ekim 2026 — Emre: "B görünümü seçilmiş ise harita tek parça görünür". Eski 0,72
+    // saydamlık + kesikli kenar dolguyu A'dan AYIRT ETMEK içindi (20 Eylül kararı); artık
+    // hedef tersi: dolgu A ile aynı opaklıkta (`SIYASI_KIP.dolgu-b-alan`, açılışta yumuşak
+    // kip ⇒ 0,44/0,68) ve kenarsız, yani dikişsiz.
     paint: { "fill-color": ["coalesce", ["get", "renk"], "#8e0b22"],
-             "fill-opacity": 0.72 } });
+             "fill-opacity": ["match", ["get", "kim"], "OSMANLI", 0.68, 0.44] } });
   harita.addLayer({ id: "dolgu-b-kenar", type: "line", source: "dolgu",
     layout: { visibility: "none", "line-join": "round" },
     paint: { "line-color": ["coalesce", ["get", "renk"], "#8e0b22"],
-             "line-width": 1, "line-opacity": 0.55,
-             "line-dasharray": [2, 2] } });
+             "line-width": 1, "line-opacity": 0 } });
 
   // 🆕 C ÇİZİM KATMANI (11 Eylül 2026, SEMA-C-0911.md §8) — window.HUKUKI_
   // SINIRLAR'ın antlaşma sınırları. "C üçüncü bir katman DEĞİL" (Emre) —
@@ -18270,7 +18307,7 @@ guncelle();
 var SIYASI_KIP = {
   sert:    { "devlet-dolgu": 1,    "vassal-dolgu": 1,
              "himaye-dolgu": 1,    "osmanli-dolgu": 1,
-             "ufuk-bant-alan": 1 },
+             "ufuk-bant-alan": 1, "dolgu-b-alan": 1 },
   // 🆕 5 Ekim 2026 (ARAYUZ-BANT-TAM-1005, H-0013 — Emre: "aynı renk olmalı"):
   //    ufuk bandı da opaklığını buradan alır; bant açıkken taban GİZLİDİR,
   //    yani bant TABANIN YERİDİR ve onun değerlerini taşır: OSMANLI kayıtları
@@ -18283,7 +18320,9 @@ var SIYASI_KIP = {
   //    sayılırlar — 0.44 ikinci daldır, bilinen sınırdır.
   yumusak: { "devlet-dolgu": 0.44, "vassal-dolgu": 0.60,
              "himaye-dolgu": 0.60, "osmanli-dolgu": 0.68,
-             "ufuk-bant-alan": ["match", ["get", "kim"], "OSMANLI", 0.68, 0.44] }
+             "ufuk-bant-alan": ["match", ["get", "kim"], "OSMANLI", 0.68, 0.44],
+             // 🆕 18 Ekim 2026 — B dolgusu A ile AYNI opaklık: "harita tek parça görünsün".
+             "dolgu-b-alan": ["match", ["get", "kim"], "OSMANLI", 0.68, 0.44] }
 };
 
 // Kipi uygular ve GERÇEKTEN uygulanan katman sayısını döndürür.
@@ -18648,7 +18687,21 @@ function katmanSeciciKur() {
       //    "katman yok" ile "veri üretilmemiş" ayırt edilebilir kalır.
       if (a === "dolgu") {
         var rd = document.getElementById("kat-sayi-dolgu");
-        if (!dolgular.length) {
+        if (!dolgular.length && acik && !dolguHata) {
+          // 🆕 18 Ekim 2026 — TEMBEL YÜKLEME: kutu işaretlendi, veri henüz inmedi.
+          if (rd) { rd.textContent = "⏳"; rd.title = "Ⓑ görünüm verisi indiriliyor"; }
+          dolguYukle(function (ok) {
+            if (ok) {
+              dolguImza = null;
+              try { dolguGuncelle(suanki); } catch (e) { /* stil hazır değil */ }
+            } else {
+              kutu.checked = false;
+              try { harita.setLayoutProperty("dolgu-b-alan", "visibility", "none"); } catch (e) {}
+              try { harita.setLayoutProperty("dolgu-b-kenar", "visibility", "none"); } catch (e) {}
+              if (rd) { rd.textContent = "—"; rd.title = "Ⓑ görünüm verisi yüklenemedi"; }
+            }
+          });
+        } else if (!dolgular.length) {
           // 🔴 21 Eylül 2026 — DALGA-0074/H-0012 ikinci tur (M-4897): rozetin
           // "—"si KALIYOR (Emre'nin "katman yok ≠ veri üretilmemiş" ayrımını o
           // taşıyor), ama `title`daki VERİ DOSYASI + ÜRETİM ALETİ adı okura

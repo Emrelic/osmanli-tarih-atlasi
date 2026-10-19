@@ -1103,6 +1103,18 @@ def _ana():
 
     if sinir:
         tarihler = tarihler[:sinir]
+    # 🆕 18 Ekim 2026 — PARALEL ÜRETİM İÇİN KESİT ARALIĞI (Emre: "B görünümü etkinleşsin").
+    # Tam üretim tek süreçte kesit başına 20-45 sn (257 gövde) ⇒ ~15+ saat. Kesitler
+    # birbirinden BAĞIMSIZDIR (dönem birleştirme yalnız çıktı biçimi), bu yüzden
+    # `MOTOR_DOLGU_BAS`/`MOTOR_DOLGU_SON` (0 tabanlı, SON hariç) ile aralık koşulur ve
+    # `arac/dolgu_birlestir.py` parçaları tek dosyaya toplar. `bitis` TAM listeden okunur,
+    # yoksa aralığın son kaydı yanlış `t` alırdı.
+    _bas = int(os.environ.get("MOTOR_DOLGU_BAS", "0") or "0")
+    _son = int(os.environ.get("MOTOR_DOLGU_SON", "0") or "0")
+    tum_tarihler = list(tarihler)
+    if _bas or _son:
+        tarihler = tarihler[_bas:(_son or None)]
+        print("  kesit aralığı: [%d, %d) → %d kesit" % (_bas, _son or len(tum_tarihler), len(tarihler)))
 
     havuz = Havuz()
     kayitlar = []
@@ -1154,7 +1166,8 @@ def _ana():
         for kim, km2 in rapor["engellendi"]:
             engelli.append((a, kim, km2))
         olcum.append((a, len(govdeler), len(parcalar), round(sure, 2)))
-        bitis = tarihler[n] if n < len(tarihler) else "9999-12-31"
+        _gi = _bas + n                      # tam listedeki sıra: n 1 tabanlı ⇒ sonraki kesit = _bas+n
+        bitis = tum_tarihler[_gi] if _gi < len(tum_tarihler) else "9999-12-31"
         yeni = []
         for pc in parcalar:
             yeni.append({"f": a, "t": bitis, "k": pc["kim"], "c": pc["cins"],
