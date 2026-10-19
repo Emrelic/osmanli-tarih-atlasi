@@ -489,11 +489,11 @@ window.OLAYLAR_EK9 = [
 // kırılmalarına yuvarlamıştı. Aşağıdaki maddeler yazıldıktan sonra
 // yerlesimler_afrika.js'te gerçek tarihlerine çekildiler.
 
-{ t:"1841-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
+{ t:"1841-05-30", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Muaskar'ın (Mascara) Fransız işgali — Abdülkādir'in başkentinin kaybı",
-  gun:"1841", yer:"Muaskar (Mascara), Vehrân eyaleti", kisiler:"Abdülkādir el-Cezâirî, Mareşal Bugeaud",
+  gun:"30 Mayıs 1841", yer:"Muaskar (Mascara), Vehrân eyaleti", kisiler:"Abdülkādir el-Cezâirî, Mareşal Bugeaud",
   d:"Bugeaud'nun 1841'de valiliğe gelmesiyle Fransız stratejisi değişti: kıyıda tutunmak yerine iç şehirleri tek tek işgal etmek. Vehrân, Mostagānim ve Medea'dan çıkan hareketli kollar Abdülkādir'in düzenli devletinin merkezlerini aldı; darphanesi, barut imalâthanesi ve tahıl ambarlarıyla gerçek bir başkent olan Muaskar bunların en önemlisiydi. Emîr bundan sonra sabit bir merkez kurmaktan vazgeçip ordusunu 'smala' denen göçer kampa çevirdi.", ic_not_d:"Günü kaynaklarda kesinleşmediği için burada yıl hassasiyetinde yazılmıştır.",
-  kaynak:"cezayir", duygu:["😔"], yer_id:"Muaskar" },
+  kaynak:"muasker · cezayir", duygu:["😔"], yer_id:"Muaskar" },
 
 { t:"1843-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Şelif vadisi ve Tenes'in işgali — Orléansville'in kurulması",
@@ -1651,7 +1651,7 @@ window.OLAYLAR_EK11 = [
   kaynak:"safeviler", duygu:["🏛"] },
 
 { t:"1510-12-02", k:"savas", etiket:["savas","siyaset","konu-askeri","konu-siyasi"],
-  kapsam:"dis", onem:4, b:"Merv Savaşı: Özbekler ağır yenilgiye uğradı, Merv ve Herat alındı",
+  kapsam:"dis", onem:4, b:"Merv Savaşı: Özbekler Safevî ordusuna ağır yenildi, Merv ve Herat alındı",
   gun:"1510 sonu", ic_not_gun:"(916 h.; TDV yalnız yılı veriyor, veri 1510-12-02 taşıyor)",
   yer:"Merv, Herat — Horasan", yer_id:"Merv (Mari)", kisiler:"Şah İsmail, Şeybânî Han (Muhammed Şeybânî)",
   d:"Batıda Akkoyunlu mirasını tamamlayan Şah İsmâil doğuya, Horasan'a yürüdü ve Merv önlerinde Özbekler'i ağır bir yenilgiye uğrattı; Şeybânî Han savaş meydanında öldü. Merv ve Herat Safevî hâkimiyetine girdi ve Safevî Devleti Fırat'tan Ceyhun'a uzanan sınırlarına kavuştu. Böylece 1501 yazında Tebriz'e girişle başlayan süreç dokuz yılda tamamlanmış oldu: Akkoyunlu mirası bütünüyle Safevî idaresine geçti ve Osmanlı Devleti doğusunda kendi büyüklüğünde ikinci bir devletle komşu hâle geldi.",

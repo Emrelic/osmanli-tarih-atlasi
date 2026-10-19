@@ -123,7 +123,7 @@ window.OLAYLAR_SENKRON_0930 = [
 { t:"1556-03-12", k:"fetih", etiket:["toprak-kazanc","konu-siyasi","erdel","habsburg"],
   b:"Habsburg idaresi Erdel'de sona erdi: Erdel yeniden Osmanlı'ya bağlı voyvodalık oldu",
   gun:"12 Mart 1556", ic_not_gun:"12 Mart 1556 — gün YERLESIM-BIRLESTIR-0930 kabulünün kaynağından devralındı (History of Transylvania I, MTA, s. 102); TDV `erdel` olayı anlatır ama TARİHLEMEZ",
-  yer:"Erdel (Kaloşvar), Erdel Belgradı (Gyulafehérvár), Brassó (Braşov), Segesvár (Sighişoara), Szatmár (Satu Mare)",
+  yer:"Erdel (Kaloşvar), Erdel Belgradı (Gyulafehérvár), Brassó (Braşov), Segesvár (Sighişoara), Szatmár (Satu Mare), Yanova (Ineu)",
   ic_not_b:"KUTU-B-1014: Szatmár eklendi — Partium İzabella'ya döndü; Szatmár'ın kendi dönüş günü yok (1557'de Báthory kaleyi İzabella adına savunuyor, MTA History of Transylvania 103-104), Erdel günüyle yazıldı",
   kisiler:"János Zsigmond, İzabella, Martinuzzi (Fráter György), Ferdinand",
   d:"János Zsigmond'un küçük yaşta olması sebebiyle ona vasî tayin edilen Hırvat asıllı papaz Martinuzzi (Fráter György) eliyle Habsburglar 1551'de Erdel'e hâkim olmaya çalıştı; Erdel Belgradı (Gyulafehérvár), Kaloşvar, Brassó ve Segesvár beş yıl Habsburg idaresinde kaldı. Osmanlılar bu durumu önledi ve Erdel yeniden kendisine bağlı haraçgüzâr voyvodalık hâline geldi. Erdel bundan sonra XVI ve XVII. yüzyıllarda yaklaşık 150 yıl boyunca iç işlerinde geniş muhtariyete, dış işlerinde İstanbul'a bağlılığa dayanan statüsünü korudu.",

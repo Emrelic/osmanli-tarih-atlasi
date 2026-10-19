@@ -216,7 +216,7 @@ window.YERLESIMLER_OK104 = [
 // 14 kez anıyor; imamlığın çekirdek şehridir.
 { ad:"Sa'de", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:3,m:"Sana"}], tur:"sehir", lat:16.940, lon:43.764, g:0, k:3, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
-     {f:"1918-10-30",t:"1923-10-29",d:"yemen"},{f:"1923-10-29",t:"1962-09-26",d:"yemen-zeydi",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
+     {f:"1918-10-30",t:"1962-09-26",d:"yemen-zeydi"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
   kaynak:"TDV zeydiyye" },
 
@@ -230,7 +230,7 @@ window.YERLESIMLER_OK104 = [
 //      çekilsin? Ben yazdım ve ETİKETLEDİM; silme kararı senin.
 { ad:"Şehâre", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:4,m:"Sana"}], tur:"kale", lat:16.183, lon:43.723, g:0, k:4, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
-     {f:"1918-10-30",t:"1923-10-29",d:"yemen"},{f:"1923-10-29",t:"1962-09-26",d:"yemen-zeydi",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
+     {f:"1918-10-30",t:"1962-09-26",d:"yemen-zeydi"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
   kaynak:"bulunamadı — TDV'de müstakil madde yok, zeydiyye maddesinde de adı geçmiyor; dayanak standart akademik kaynak" },
 
@@ -239,7 +239,7 @@ window.YERLESIMLER_OK104 = [
 //    `zeydiyye` maddesinde adı geçmiyor. Aynı şart, aynı etiket.
 { ad:"Kevkebân", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:4,m:"Sana"}], tur:"kale", lat:15.503, lon:43.899, g:0, k:4, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
-     {f:"1918-10-30",t:"1923-10-29",d:"yemen"},{f:"1923-10-29",t:"1962-09-26",d:"yemen-zeydi",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
+     {f:"1918-10-30",t:"1962-09-26",d:"yemen-zeydi"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
   kaynak:"bulunamadı — TDV'de müstakil madde yok; dayanak standart akademik kaynak" },
 

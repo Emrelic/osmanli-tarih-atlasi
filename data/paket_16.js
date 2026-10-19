@@ -2339,13 +2339,13 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"San Germán", tur:"sehir", lat:18.0803, lon:-67.0450, g:0, k:2, kur:"1512-01-01",
   s:[{f:"1512-01-01",t:"1898-12-10",d:"ispanya"},
-     {f:"1898-12-10",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"2000-12-31",d:"puerto-riko",kaynak:"Britannica 'Puerto Rico' (Commonwealth 1952-07-25)"}] },
+     {f:"1898-12-10",t:"1899-04-11",d:"abd"},{f:"1899-04-11",t:"2000-12-31",d:"puerto-riko",kaynak:"Britannica 'Puerto Rico' (Commonwealth 1952-07-25)"}] },
 // kaynak: Britannica "San Germán"; topuertorico.org — Porto Riko'nun ikinci en eski yerleşimi.
 // k gerekçesi: adanın güney idari bölgesi merkezi — k:2
 
 { ad:"San Juan", tur:"sehir", lat:18.4655, lon:-66.1057, g:1, k:1, kur:"1521-01-01",
   s:[{f:"1521-01-01",t:"1898-12-10",d:"ispanya"},
-     {f:"1898-12-10",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"2000-12-31",d:"puerto-riko",kaynak:"Britannica 'Puerto Rico' (Commonwealth 1952-07-25)"}] },
+     {f:"1898-12-10",t:"1899-04-11",d:"abd"},{f:"1899-04-11",t:"2000-12-31",d:"puerto-riko",kaynak:"Britannica 'Puerto Rico' (Commonwealth 1952-07-25)"}] },
 // kaynak: EBSCO Research Starters; Picó (2006). 1898 sonrası Porto Riko ABD toprağı olarak
 //         KALDI (bağımsızlık yok), yeni kimlik gerekmiyor.
 // k gerekçesi: Porto Riko'nun idari başkenti (1521'den) — k:1

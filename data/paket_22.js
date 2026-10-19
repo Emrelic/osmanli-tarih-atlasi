@@ -189,9 +189,9 @@ window.YERLESIMLER_OK107 = [
   // "TANECİK boşluğu" hâli: TDV bölgeyi görüyor ama bu tanecikte susuyor.
   // günler YENBU'dan (81,6 km, aynı sahil yolu, aynı kaza dairesi) alındı.
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
-     {f:"1805-07-20",t:"1811-11-01",d:"suud"},
-     {f:"1916-07-27",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
-  d:[{f:"1517-07-06",t:"1805-07-20"},
+     {f:"1805-06-01",t:"1811-11-01",d:"suud",kaynak:"aynı"},
+     {f:"1916-07-27",t:"1925-12-19",d:"hicaz-kralligi"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
+  d:[{f:"1517-07-06",t:"1805-06-01",kaynak:"ABİ MERKEZ: Medine — TDV medine 'Haziran 1805' · BEYANLI YAKLAŞIKLIK"},
      {f:"1841-05-24",t:"1916-07-27"}],
   v:[{f:"1811-11-01",t:"1841-05-24",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}],
   kaynak:"bulunamadı — TDV `bedir` maddesi Bedir Gazvesi'ni anlatıyor, yerleşimin Osmanlı dönemini KAPSAMIYOR (§4 tanecik boşluğu). Dönem günleri Yenbu kaydından (82 km) bölgesel hizalama ile alındı."
@@ -202,7 +202,7 @@ window.YERLESIMLER_OK107 = [
   // Mekke-Medine sahil yolunun mîkat durağı ve limanı.
   // günler CİDDE'den (140,5 km, aynı sahil kolu) alındı.
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
-     {f:"1916-06-16",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
+     {f:"1916-06-16",t:"1925-12-19",d:"hicaz-kralligi"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1517-07-06",t:"1813-01-23"},
      {f:"1841-05-24",t:"1916-06-16"}],
   v:[{f:"1813-01-23",t:"1841-05-24",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}],
@@ -2251,7 +2251,7 @@ window.YERLESIMLER_KAMERIKA = [
     kaynak:"bulunamadı", not:"dayanak: HNAI c.5 Arctic (Smithsonian)" },
   { ad:"Qeqertarsuaq (Godhavn)", tur:"sehir", lat:69.247, lon:-53.534, g:0,
     kur:"1773-01-01",
-    s:[{f:"1773-01-01",t:"1923-10-29",d:"danimarka"},{f:"1923-10-29",t:"2000-12-31",d:"gronland-dan",kaynak:"Britannica Greenland (Danimarka egemenligi surer; 1953 anayasa, 1979 Home Rule)"}],
+    s:[{f:"1773-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"2000-12-31",d:"gronland-dan",kaynak:"Britannica Greenland (Danimarka egemenligi surer; 1953 anayasa, 1979 Home Rule)"}],
     kaynak:"bulunamadı", not:"dayanak: Gulløv (ed.), Grønlands forhistorie / Danish Arctic historiography" },
   { ad:"Iqaluktuuttiaq (Cambridge Bay)", tur:"liman", lat:69.117, lon:-105.058, g:0,
     s:[{f:"1281-01-01",t:"1880-09-01",d:"inuit"},{f:"1880-09-01",t:"2000-12-31",d:"kanada"}],
@@ -2304,7 +2304,7 @@ window.YERLESIMLER_KAMERIKA = [
     kaynak:"bulunamadı", not:"dayanak: HNAI c.6 Subarctic (Smithsonian)" },
   { ad:"Sisimiut (Holsteinsborg)", tur:"sehir", lat:66.9338, lon:-53.6684, g:0,
     kur:"1756-01-01",
-    s:[{f:"1756-01-01",t:"1923-10-29",d:"danimarka"},{f:"1923-10-29",t:"2000-12-31",d:"gronland-dan",kaynak:"Britannica Greenland (Danimarka egemenligi surer; 1953 anayasa, 1979 Home Rule)"}],
+    s:[{f:"1756-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"2000-12-31",d:"gronland-dan",kaynak:"Britannica Greenland (Danimarka egemenligi surer; 1953 anayasa, 1979 Home Rule)"}],
     kaynak:"bulunamadı", not:"konum denetle.py reçetesiyle düzeltildi (0.55 km maske dışıydı: 66.9390,-53.6700 → 66.9338,-53.6684) · konum denetle.py reçetesiyle düzeltildi (0.55 km maske dışıydı: 66.9338,-53.6684 → 66.9338,-53.6684) · dayanak: Danish Arctic historiography (Gulløv ed., Grønlands forhistorie)" },
   { ad:"Kobuk (Kuuvaŋmiit)", tur:"sehir", lat:66.91, lon:-156.88, g:0,
     s:[{f:"1281-01-01",t:"1867-10-18",d:"inuit"},{f:"1867-10-18",t:"2000-12-31",d:"abd"}],
@@ -3533,7 +3533,7 @@ window.YERLESIMLER_KAMERIKA = [
     kaynak:"bulunamadı", not:"Luizyana'nın en eski kalıcı yerleşimi · dayanak: Usner, Indians, Settlers and Slaves (UNC Press)" },
   { ad:"El Paso del Norte", tur:"sehir", lat:31.76, lon:-106.49, g:0,
     kur:"1659-12-08",
-    s:[{f:"1659-12-08",t:"1821-09-27",d:"yeni-ispanya"},{f:"1821-09-27",t:"1923-10-29",d:"meksika"},{f:"1923-10-29",t:"2000-12-31",d:"abd",kaynak:"Treaty of Guadalupe Hidalgo 1848 sonrasi ABD egemenligi (Office of the Historian)"}],
+    s:[{f:"1659-12-08",t:"1821-09-27",d:"yeni-ispanya"},{f:"1821-09-27",t:"1848-05-30",d:"meksika",kaynak:"Guadalupe Hidalgo: imza 1848-02-02, onay belgelerinin değişimi 1848-05-30 (Office of the Historian) — devir günü olarak onay değişimi alındı"},{f:"1848-05-30",t:"2000-12-31",d:"abd",kaynak:"Treaty of Guadalupe Hidalgo 1848 sonrasi ABD egemenligi (Office of the Historian)"}],
     kaynak:"bulunamadı", not:"dayanak: Weber, The Spanish Frontier in North America" },
   { ad:"Tubac", tur:"sehir", lat:31.612, lon:-111.046, g:0,
     kur:"1752-01-01",
@@ -3577,7 +3577,7 @@ window.YERLESIMLER_KAMERIKA = [
     kaynak:"bulunamadı", not:"dayanak: Weber, The Mexican Frontier 1821-1846" },
   { ad:"La Junta de los Ríos (Presidio)", tur:"kale", lat:29.56, lon:-104.37, g:0,
     kur:"1683-01-01",
-    s:[{f:"1683-01-01",t:"1821-09-27",d:"yeni-ispanya"},{f:"1821-09-27",t:"1923-10-29",d:"meksika"},{f:"1923-10-29",t:"2000-12-31",d:"abd",kaynak:"Treaty of Guadalupe Hidalgo 1848 sonrasi ABD egemenligi (Office of the Historian)"}],
+    s:[{f:"1683-01-01",t:"1821-09-27",d:"yeni-ispanya"},{f:"1821-09-27",t:"1848-05-30",d:"meksika",kaynak:"Guadalupe Hidalgo: imza 1848-02-02, onay belgelerinin değişimi 1848-05-30 (Office of the Historian) — devir günü olarak onay değişimi alındı"},{f:"1848-05-30",t:"2000-12-31",d:"abd",kaynak:"Treaty of Guadalupe Hidalgo 1848 sonrasi ABD egemenligi (Office of the Historian)"}],
     kaynak:"bulunamadı", not:"dayanak: Weber, The Spanish Frontier in North America" },
   { ad:"Misión San Francisco de Borja", tur:"kale", lat:28.745, lon:-113.755, g:0,
     kur:"1762-01-01",

@@ -79,7 +79,7 @@ window.OLAYLAR_EK4 = [
   kisiler:"Kavalalı Mehmed Ali",
   d:"Seferin ağırdan alındığını gören vali, idareyi doğrudan eline aldı; kabile reisleriyle pazarlık ederek Suûdî cephesini içeriden çözmeye çalıştı. Mısır'ın Kızıldeniz ticaretindeki payı da bu seferle büyüdü.",
   kaynak:"hicaz", duygu:["🐎"] },
-{ t:"1815-01-20", k:"savas", etiket:["savas","konu-askeri"], b:"Bisel Muharebesi: Suûdî kuvvetleri bozguna uğradı", gun:"Ocak 1815", yer:"Bisel, Hicaz",
+{ t:"1815-01-20", k:"savas", etiket:["savas","konu-askeri"], b:"Bisel Muharebesi: Suûdî kuvvetleri bozguna uğradı", gun:"Ocak 1815", yer:"Bisel, Hicaz, Türabe, Hurma (Tâif doğusu)",
   kisiler:"Kavalalı Mehmed Ali, Abdullah b. Suûd",
   d:"Meydan savaşında ağır yenilgi alan Suûdîler iç bölgelere çekildi. Yapılan mütareke kalıcı olmadı; iki yıl sonra harekât Necid'in kalbine taşınacaktı.",
   kaynak:"vehhabilik", duygu:["⚔️","😔"], yer_kon:[26,43.5] },
@@ -98,7 +98,7 @@ window.OLAYLAR_EK4 = [
   // `odak_kimlik` madde GÜNÜNDE o kimliğe ait atlas noktalarının kutusunu
   // kurar. Ölçüldü (1816-09-01): 14 yerleşim · kutu [40.65, 21.94, 50.56, 28.65]
   // (künye `harita:"suud"` olduğu için `s:"suud"` kayıtları da eşleşiyor).
-{ t:"1818-09-09", k:"fetih", etiket:["toprak-kazanc","konu-askeri"], b:"Dir'iye düştü — ilk Suûdî Devleti sona erdi", gun:"9 Eylül 1818", yer:"Dir'iye, Necid",
+{ t:"1818-09-09", k:"fetih", etiket:["toprak-kazanc","konu-askeri"], b:"Dir'iye düştü — ilk Suûdî Devleti sona erdi", gun:"9 Eylül 1818", yer:"Dir'iye, Necid, Riyad, Buraydâ (Kasîm), Uneyze, Şakrâ, Necid içi, Nefud çölü, Hâil, Dilem (Harc), Havta (Havtat Benî Temîm), Leylâ (Eflâc), Hurma (Tâif doğusu), Türabe, Lahsa, Katîf, Cübeyl, Ukayr (Uceyr)",
   kisiler:"İbrâhim Paşa (Kavalalı), Abdullah b. Suûd",
   d:"Altı ay süren kuşatmanın ardından Dir'iye teslim oldu ve yıkıldı. Emîr Abdullah b. Suûd İstanbul'a gönderilerek idam edildi. Osmanlı bayrağı Arabistan'ın içlerinde ilk defa bu kadar derine ulaştı; Necid garnizonu 1824'e kadar kaldı. Aynı tarihte katılan öteki yerler: Dir'iye (Necid).", ic_not_d:"eski ifade: Aynı tarihte haritaya katılan diğer yerleşimler:",
   kaynak:"diriye", duygu:["🎉"], yer_id:"Dir'iye (Necid)" },
@@ -108,7 +108,7 @@ window.OLAYLAR_EK4 = [
   kisiler:"İsmâil Kâmil Paşa, Kavalalı Mehmed Ali",
   d:"Mehmed Ali'nin amacı üç katlıydı: ordusuna asker toplamak, Sennâr altınına ulaşmak ve kaçan Kölemen bakiyesini yok etmek. Oğlu İsmâil Paşa kumandasındaki kuvvet Nil'i takip ederek güneye indi.",
   kaynak:"sudan", duygu:["🐎"], yer_id:"Asvan" },
-{ t:"1821-01-04", k:"fetih", etiket:["toprak-kazanc","bilim","konu-askeri","konu-bilim"], b:"Dongola alındı — Kölemen bakiyesi dağıtıldı", gun:"Ocak 1821", yer:"Dongola", yer_id:"Dongola",
+{ t:"1821-01-04", k:"fetih", etiket:["toprak-kazanc","bilim","konu-askeri","konu-bilim"], b:"Dongola alındı — Kölemen bakiyesi dağıtıldı", gun:"Ocak 1821", yer:"Dongola, Debbe, Kerma, Merevî, Ebû Hamed, Berber", yer_id:"Dongola",
   kisiler:"İsmâil Kâmil Paşa",
   d:"Nil'in büyük kıvrımındaki Dongola'ya giren ordu, buraya sığınmış son Kölemen grubunu tasfiye etti. Haritada Sudan bu tarihten itibaren tâbi katmanda belirir: fetheden Kahire'dir, yöneten de Kahire olacaktır.",
   kaynak:"sudan", duygu:["🎉"] },
@@ -116,7 +116,7 @@ window.OLAYLAR_EK4 = [
   kisiler:"İsmâil Kâmil Paşa, Sultan Bâdî",
   d:"Üç yüzyıllık Fûnc hanedanı çarpışmadan teslim oldu. Aynı yıl Nil'in iki kolunun birleştiği noktada kurulan ordugâh, kısa sürede Sudan'ın idare merkezi Hartum'a dönüştü. Aynı tarihte katılan öteki yerler: Sennar.", ic_not_d:"eski ifade: Aynı tarihte haritaya katılan diğer yerleşimler:",
   kaynak:"func", duygu:["🎉"], yer_id:"Sennar" },
-{ t:"1821-08-19", k:"fetih", etiket:["toprak-kazanc","konu-askeri"], b:"Kordofan ele geçirildi", gun:"Ağustos 1821", yer:"Ubeyyid, Kordofan",
+{ t:"1821-08-19", k:"fetih", etiket:["toprak-kazanc","konu-askeri"], b:"Kordofan ele geçirildi", gun:"Ağustos 1821", yer:"Ubeyyid, Kordofan, Bâra, Nühûd",
   kisiler:"Mehmed Bey Defterdar",
   d:"Batıya gönderilen ikinci kol Bâre'de Dârfûr kuvvetlerini yenerek Kordofan'ı aldı. Mısır'ın Sudan hâkimiyeti böylece Nil vadisinden batı bozkırlarına genişledi.",
   kaynak:"sudan", duygu:["🎉"], yer_id:"Kordofan (Ubeyyid)" },

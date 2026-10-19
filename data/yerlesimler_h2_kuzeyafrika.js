@@ -51,7 +51,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
 
   // Alevî (Filâlî) hanedanının payitahtı — TDV `miknas`, `filaliler`.
   { ad:"Miknâs (Meknes)", tur:"sehir", lat:33.895, lon:-5.555, g:1, k:1, m:null,
-    s:[{f:"1150-01-01",t:"1237-01-01",d:"muvahhidler",kesinlik:"yil",kaynak:"TDV miknas: 'Miknâs 545 (1150) yılında Muvahhidler’in hâkimiyetine girdi.' · T5-1000-B-1016"},{f:"1237-01-01",t:"1245-01-01",d:"merini",kesinlik:"yil",kaynak:"TDV miknas: 'Miknâs, 634’te (1237) Mağrib-i Aksâ’da önemli bir güce kavuşan Merînîler’in eline geçti.' · T5-1000-B-1016"},{f:"1245-01-01",t:"1247-01-01",d:"muvahhidler",kesinlik:{f:"yil"},kaynak:"TDV miknas: 'Muvahhidler şehri 643’te (1245-46) geri aldılarsa da Merînîler iki yıl sonra tekrar Miknâs’a hâkim oldular.' · Hicrî çift yıl 1245-46 ⇒ ilki. t = 643+2 ⇒ 645 ≈ 1247 TÜRETİLMİŞ. 2 yıllık geri alış — 'geri aldılar' sahiplik dili; istenirse geçici sayılıp merini'ye birleştirilebilir. · T5-1000-B-1016"},{f:"1247-01-01",t:"1549-01-01",d:"merini",kaynak:"T5-1000-B-1016: f 1281-01-01 → 1247-01-01 geri çekildi — TDV miknas: 'Muvahhidler şehri 643’te (1245-46) geri aldılarsa da Merînîler iki yıl sonra tekrar Miknâs’a hâkim oldular.' · 1276'da Merînî camii (tanık). · T5-1000-B-1016"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1150-01-01",t:"1237-01-01",d:"muvahhidler",kesinlik:"yil",kaynak:"TDV miknas: 'Miknâs 545 (1150) yılında Muvahhidler’in hâkimiyetine girdi.' · T5-1000-B-1016"},{f:"1237-01-01",t:"1245-01-01",d:"merini",kesinlik:"yil",kaynak:"TDV miknas: 'Miknâs, 634’te (1237) Mağrib-i Aksâ’da önemli bir güce kavuşan Merînîler’in eline geçti.' · T5-1000-B-1016"},{f:"1245-01-01",t:"1247-01-01",d:"muvahhidler",kesinlik:{f:"yil"},kaynak:"TDV miknas: 'Muvahhidler şehri 643’te (1245-46) geri aldılarsa da Merînîler iki yıl sonra tekrar Miknâs’a hâkim oldular.' · Hicrî çift yıl 1245-46 ⇒ ilki. t = 643+2 ⇒ 645 ≈ 1247 TÜRETİLMİŞ. 2 yıllık geri alış — 'geri aldılar' sahiplik dili; istenirse geçici sayılıp merini'ye birleştirilebilir. · T5-1000-B-1016"},{f:"1247-01-01",t:"1549-01-01",d:"merini",kaynak:"T5-1000-B-1016: f 1281-01-01 → 1247-01-01 geri çekildi — TDV miknas: 'Muvahhidler şehri 643’te (1245-46) geri aldılarsa da Merînîler iki yıl sonra tekrar Miknâs’a hâkim oldular.' · 1276'da Merînî camii (tanık). · T5-1000-B-1016"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // TDV `titvan`: 1435'te yıkılan şehir Endülüs muhacirlerince 888-889
   // (1483-1484) boş bulunup yeniden kuruldu ⇒ `kur`.
@@ -59,41 +59,41 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    2s tavanı doluydu; teslim raporunda koordinatöre bildirildi.
   { ad:"Tıtvân (Tetuan)", tur:"sehir", lat:35.578, lon:-5.368, g:0, k:3, m:null,
     kur:"1484-01-01",
-    s:[{"f":"1484-01-01","t":"1549-01-01","d":"merini"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1923-10-29","d":"fas"},{"f":"1923-10-29","t":"1956-03-02","d":"fas-fransiz-himayesi","kaynak":"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{"f":"1956-03-02","t":"2000-12-31","d":"fas-krallik","kaynak":"Britannica 'Morocco'"}], d:[], v:[], isg:[{"f":"1860-02-05","t":"1862-01-01","d":"ispanya","kaynak":"TDV sebte 5 Şubat 1860 · TDV titvan 1862 (YIL)"}]},
+    s:[{"f":"1484-01-01","t":"1549-01-01","d":"merini"},{"f":"1549-01-01","t":"1659-01-01","d":"sadi"},{"f":"1659-01-01","t":"1912-03-30","d":"fas"},{"f":"1912-03-30","t":"1956-03-02","d":"fas-fransiz-himayesi","kaynak":"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{"f":"1956-03-02","t":"2000-12-31","d":"fas-krallik","kaynak":"Britannica 'Morocco'"}], d:[], v:[], isg:[{"f":"1860-02-05","t":"1862-01-01","d":"ispanya","kaynak":"TDV sebte 5 Şubat 1860 · TDV titvan 1862 (YIL)"}]},
 
   // İspanyol presidiosu 1610-1689 (Mevlây İsmâil geri aldı). Gün
   // doğrulanamadı ⇒ `§4` gereği YYYY-01-01.
   { ad:"el-Arâiş (Larache)", tur:"liman", lat:35.193, lon:-6.156, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1610-01-01",d:"sadi"},
        {f:"1610-01-01",t:"1689-01-01",d:"ispanya",enklav:true},
-       {f:"1689-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+       {f:"1689-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Vâdilmehâzin (Üç Padişah) Savaşı 1578 bu şehrin kuzeyinde oldu.
   { ad:"Kasrülkebîr", tur:"sehir", lat:35.001, lon:-5.906, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Tâze geçidi — Fas ile Rif/Şark arasındaki tek doğal koridor.
   { ad:"Tâze (Taza)", tur:"sehir", lat:34.210, lon:-4.010, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // 🔴 SINIR NOKTASI. Vecde yokken Fas'ın kuzeydoğusu Tilimsan'ın peteğine
   // düşüyordu; Tilimsan 1552'den Osmanlı olduğu için Melviye'nin batısı
   // dört asır boyunca yanlış tarafta boyanıyordu.
   { ad:"Vecde (Oujda)", tur:"sehir", lat:34.681, lon:-1.900, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // TDV `sicilmase` — Tâfilelt'in kervan başkenti, Alevî hanedanının ocağı.
   { ad:"Sicilmâse (Tâfilelt)", tur:"sehir", lat:31.281, lon:-4.283, g:0, k:3, m:null,
-    s:[{f:"1274-01-01",t:"1549-01-01",d:"merini",kaynak:"f 1281-01-01'den geri çekildi — TDV sicilmase: 'Bu dönemde Merînîler’le Muvahhidler arasındaki çatışmalara sahne olan ve bir ara Abdülvâdîler’in eline geçen şehir 673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi.' · TDV fas 1255'te Merînî der, sicilmase 'bir ara Abdülvâdîler’in eline geçen' arayı tarihsiz bırakır — 'kesin' tarih alındı. 1053 Murâbıt kopuk · ZAMAN-Z6-1008"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1274-01-01",t:"1549-01-01",d:"merini",kaynak:"f 1281-01-01'den geri çekildi — TDV sicilmase: 'Bu dönemde Merînîler’le Muvahhidler arasındaki çatışmalara sahne olan ve bir ara Abdülvâdîler’in eline geçen şehir 673 (1274-75) yılında kesin biçimde Merînî hâkimiyeti altına girdi.' · TDV fas 1255'te Merînî der, sicilmase 'bir ara Abdülvâdîler’in eline geçen' arayı tarihsiz bırakır — 'kesin' tarih alındı. 1053 Murâbıt kopuk · ZAMAN-Z6-1008"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Sa'dî hanedanının ilk merkezi (Sûs) — TDV `sus`.
   { ad:"Tarûdant", tur:"sehir", lat:30.471, lon:-8.877, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Sîdî Muhammed b. Abdullah 1764'te kurdurdu ⇒ `kur`.
   { ad:"Sûvayra (Mogador)", tur:"liman", lat:31.513, lon:-9.770, g:0, k:3, m:null,
     kur:"1764-01-01",
-    s:[{f:"1764-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1764-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Şefşâven",neden:"1923-10-29 kesitini ETKİLEMİYOR (olay 1924-1926 arası) — kayıt tamlık için, atlas ufkunun dışı için eklendi.",kaynak:"islamansiklopedisi'de bu tanecik yok; Wikipedia '1924 retreat from Chaoen' — İspanyol tahliyesi 15 Kasım 1924 gecesi. Rif Cumhuriyeti'nin resmî sonu (27 Mayıs 1926) kendi künyesinden.", tur:"sehir", lat:35.171, lon:-5.269, g:0, k:3, m:null,
     kur:"1471-01-01",
@@ -103,7 +103,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // BULUNAMADI ⇒ `kur` HİÇ YAZILMADI (`VERI-YAPISI.md`: "Bilinmiyorsa alanı
   // hiç yazma. Eksik alan yanlış alandan iyidir.").
   { ad:"Vezzân (Ouezzane)", tur:"sehir", lat:34.796, lon:-5.583, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Peñón de Vélez de la Gomera: 1508 alındı, 1522 kaybedildi, 1564'te
   // (Ağustos-Eylül) geri alındı ve bir daha çıkılmadı. Gün doğrulanamadı.
@@ -139,50 +139,50 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   { ad:"Mamûra (Mehdiye)", tur:"kale", lat:34.256, lon:-6.678, g:0, k:4, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1614-01-01",d:"sadi"},
        {f:"1614-01-01",t:"1681-01-01",d:"ispanya",enklav:true},
-       {f:"1681-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+       {f:"1681-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Debdû", tur:"sehir", lat:34.098, lon:-3.032, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Fas-Cezayir çöl hududundaki vaha — Vecde ile birlikte Melviye/Zûsfâne
   // hattını tutar.
   { ad:"Fîgîg (Figuig)", tur:"sehir", lat:32.109, lon:-1.227, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // TDV `darulbeyza` — eski Anfa; 1770'te Sîdî Muhammed yeniden imar etti.
   { ad:"Dârülbeyzâ (Anfa)", tur:"liman", lat:33.573, lon:-7.590, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Zâgûre (Dr'a)", tur:"sehir", lat:30.332, lon:-5.838, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Verzâzât", tur:"sehir", lat:30.920, lon:-6.910, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Tinğîr", tur:"sehir", lat:31.515, lon:-5.533, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Benî Mellâl", tur:"sehir", lat:32.337, lon:-6.360, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Hunayfire (Khenifra)", tur:"sehir", lat:32.936, lon:-5.668, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Sefrû", tur:"sehir", lat:33.830, lon:-4.836, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Îfnî (Sîdî İfnî)", tur:"liman", lat:29.379, lon:-10.173, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Tîznît", tur:"sehir", lat:29.699, lon:-9.732, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   // Vâdî Nûn — Tekne kabilelerinin kervan kapısı, Sahra'ya açılan uç.
   { ad:"Ğulmîm (Vâdî Nûn)", tur:"sehir", lat:28.987, lon:-10.057, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
   { ad:"Tâtâ", tur:"sehir", lat:29.744, lon:-7.972, g:0, k:3, m:null,
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"},{f:"1923-10-29",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1912-03-30",d:"fas"},{f:"1912-03-30",t:"1956-03-02",d:"fas-fransiz-himayesi",kaynak:"Britannica 'Morocco' (Fransiz-Fas bagimsizlik bildirisi 2 Mart 1956)"},{f:"1956-03-02",t:"2000-12-31",d:"fas-krallik",kaynak:"Britannica 'Morocco'"}], d:[], v:[] },
 
 
   // ---------------------------------------------------------------------

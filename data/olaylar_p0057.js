@@ -312,7 +312,7 @@ window.OLAYLAR_P0057 = [
   b:"Kâzım Karabekir'in kış harekâtı: Erzurum ile birlikte Hasankale (Pasinler) geri alındı",
   gun:"12 Mart 1918 (Erzurum'un günü)",
   ic_not_gun:"TDV kazim-karabekir: 'Ağır kış şartlarına rağmen Erzincan'ı, Erzurum'u ve Hasankale'yi geri alarak' — Hasankale'nin kendi günü yok; gün komşudan: Erzurum (TDV erzurum 12 Mart 1918); Hasankale Erzurum'un doğusunda olduğundan gerçek gün bundan sonra olabilir (EN ERKEN sınır). Yerleşim: Pasinler (Hasankale) d. KUTU-F2-1014 (0088/H-0001).",
-  yer:"Pasinler (Hasankale), Erzurum", yer_id:"Pasinler (Hasankale)", kisiler:"Kâzım Karabekir",
+  yer:"Pasinler (Hasankale), Erzurum, Aşkale", yer_id:"Pasinler (Hasankale)", kisiler:"Kâzım Karabekir",
   d:"Rus ordusunun çözülmesinden sonra doğuda harekâta geçen Kâzım Karabekir Paşa kumandasındaki Osmanlı kuvvetleri ağır kış şartlarına rağmen Erzincan'ı, Erzurum'u ve Erzurum'un doğusundaki Hasankale'yi geri aldı; ilerleyiş 25 Nisan 1918'de Kars'a uzandı.",
   kaynak:"kazim-karabekir · erzurum" },
 

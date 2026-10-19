@@ -833,8 +833,8 @@ window.YERLESIMLER_E9353F = [
 //   askerî yenilgi öteki hânedanın sonu. Toprak 15 Ocak'ta el değiştirdi.
 { ad:"Sokoto", tur:"sehir", lat:13.062, lon:5.234, g:1, k:1,
   kur:"1812-01-01",
-  s:[{f:"1812-01-01", t:"1903-01-15", d:"sokoto", kaynak:"sokoto"},
-     {f:"1903-01-15", t:"1960-10-01", d:"ingiltere", kaynak:"sokoto"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1812-01-01", t:"1903-03-15", d:"sokoto", kaynak:"TDV sokoto (15 Mart 1903) · ÖNCEKİ: sokoto"},
+     {f:"1903-03-15", t:"1960-10-01", d:"ingiltere", kaynak:"aynı · ÖNCEKİ: sokoto"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // ═════════════════ KANEM-BORNU — ÇAD GÖLÜ KUŞAĞI ═════════════════

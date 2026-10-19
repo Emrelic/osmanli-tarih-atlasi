@@ -93,7 +93,7 @@ window.YERLESIMLER_A78_OKYANUSYA = [
   kasitli_bosluk:true, bos:"veri-yok",
   neden:"1900 öncesi Tutuila için atlasta künye YOK (Samoa krallığı / 1889 Berlin Senedi).",
   kaynak:"Library of Congress kaydı: 'Historical sketch of the naval administration of the Government of American Samoa, April 17, 1900–July 1, 1951'; Tutuila ve Aunu'u devir senedi Pago Pago'da \"on the 17th day of April, 1900, immediately prior to the raising of the United States Flag\" imzalandı; Britannica 'Samoa': \"in 1899 the United States annexed eastern Samoa\" (1899 antlaşması, fiilî devir 1900-04-17).",
-  s:[{f:"1900-04-17",t:"1923-10-29",d:"abd"},{f:"1923-10-29",t:"2000-12-31",d:"amerikan-samoasi",kaynak:"Britannica 'American Samoa'"}] },
+  s:[{f:"1900-04-17",t:"2000-12-31",d:"amerikan-samoasi"}] },
 
 { ad:"Nauru (Yaren)", tur:"liman", lat:-0.5471, lon:166.9163, g:1, k:1,
   kasitli_bosluk:true, bos:"veri-yok",

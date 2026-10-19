@@ -52,11 +52,11 @@ window.OLAYLAR_EK9 = [
 // kırılmalarına yuvarlamıştı. Aşağıdaki maddeler yazıldıktan sonra
 // yerlesimler_afrika.js'te gerçek tarihlerine çekildiler.
 
-{ t:"1841-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
+{ t:"1841-05-30", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Muaskar'ın (Mascara) Fransız işgali — Abdülkādir'in başkentinin kaybı",
-  gun:"1841", yer:"Muaskar (Mascara), Vehrân eyaleti", kisiler:"Abdülkādir el-Cezâirî, Mareşal Bugeaud",
+  gun:"30 Mayıs 1841", yer:"Muaskar (Mascara), Vehrân eyaleti", kisiler:"Abdülkādir el-Cezâirî, Mareşal Bugeaud",
   d:"Bugeaud'nun 1841'de valiliğe gelmesiyle Fransız stratejisi değişti: kıyıda tutunmak yerine iç şehirleri tek tek işgal etmek. Vehrân, Mostagānim ve Medea'dan çıkan hareketli kollar Abdülkādir'in düzenli devletinin merkezlerini aldı; darphanesi, barut imalâthanesi ve tahıl ambarlarıyla gerçek bir başkent olan Muaskar bunların en önemlisiydi. Emîr bundan sonra sabit bir merkez kurmaktan vazgeçip ordusunu 'smala' denen göçer kampa çevirdi.", ic_not_d:"Günü kaynaklarda kesinleşmediği için burada yıl hassasiyetinde yazılmıştır.",
-  kaynak:"cezayir", duygu:["😔"], yer_id:"Muaskar" },
+  kaynak:"muasker · cezayir", duygu:["😔"], yer_id:"Muaskar" },
 
 { t:"1843-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Şelif vadisi ve Tenes'in işgali — Orléansville'in kurulması",

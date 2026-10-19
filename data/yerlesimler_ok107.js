@@ -184,9 +184,9 @@ window.YERLESIMLER_OK107 = [
   // "TANECİK boşluğu" hâli: TDV bölgeyi görüyor ama bu tanecikte susuyor.
   // günler YENBU'dan (81,6 km, aynı sahil yolu, aynı kaza dairesi) alındı.
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
-     {f:"1805-07-20",t:"1811-11-01",d:"suud"},
-     {f:"1916-07-27",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
-  d:[{f:"1517-07-06",t:"1805-07-20"},
+     {f:"1805-06-01",t:"1811-11-01",d:"suud",kaynak:"aynı"},
+     {f:"1916-07-27",t:"1925-12-19",d:"hicaz-kralligi"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
+  d:[{f:"1517-07-06",t:"1805-06-01",kaynak:"ABİ MERKEZ: Medine — TDV medine 'Haziran 1805' · BEYANLI YAKLAŞIKLIK"},
      {f:"1841-05-24",t:"1916-07-27"}],
   v:[{f:"1811-11-01",t:"1841-05-24",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}],
   kaynak:"bulunamadı — TDV `bedir` maddesi Bedir Gazvesi'ni anlatıyor, yerleşimin Osmanlı dönemini KAPSAMIYOR (§4 tanecik boşluğu). Dönem günleri Yenbu kaydından (82 km) bölgesel hizalama ile alındı."
@@ -197,7 +197,7 @@ window.YERLESIMLER_OK107 = [
   // Mekke-Medine sahil yolunun mîkat durağı ve limanı.
   // günler CİDDE'den (140,5 km, aynı sahil kolu) alındı.
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
-     {f:"1916-06-16",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
+     {f:"1916-06-16",t:"1925-12-19",d:"hicaz-kralligi"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1517-07-06",t:"1813-01-23"},
      {f:"1841-05-24",t:"1916-06-16"}],
   v:[{f:"1813-01-23",t:"1841-05-24",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}],

@@ -84,14 +84,14 @@ window.YERLESIMLER_OK101 = [
 // ── Şam hac yolu menzilleri (UNESCO 6027'nin adıyla saydığı iki durak) ──
 { ad:"el-Ulâ", tur:"sehir", lat:26.6167, lon:37.9167, g:0, k:4, m:"Medine",
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
-     {f:"1918-01-01",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
+     {f:"1918-01-01",t:"1925-12-19",d:"hicaz-kralligi"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1517-07-06",t:"1918-01-01"}],
   kaynak:"UNESCO Dünya Mirası Geçici Listesi No. 6027 'Syrian Hajj Road' — güzergâhın menzilleri arasında Al-Ula adıyla sayılıyor. TDV'de müstakil maddesi YOK (`ula`/`el-ula` slugları 302, ÖLÜ; `surre` maddesi menzil adı vermiyor) — CLAUDE.md §4'ün TANECİKLİK boşluğu.",
   neden:"H-0054/H-0055 — Tebük ile Medine arasında 430 km boyunca hac yolu üzerinde tek nokta yoktu; el-Ulâ o hattın en büyük yerleşik vahası. Dönem zinciri Tebük'ten alındı (ÇIKARIM, kaynakta gün yok)."},
 
 { ad:"Medâin-i Sâlih (el-Hicr)", tur:"kale", lat:26.7917, lon:37.9542, g:0, k:4, m:"Medine",
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
-     {f:"1918-01-01",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
+     {f:"1918-01-01",t:"1925-12-19",d:"hicaz-kralligi"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1517-07-06",t:"1918-01-01"}],
   kaynak:"UNESCO No. 6027 'Syrian Hajj Road' — menziller arasında Al-Hijr adıyla; ayrıca UNESCO Dünya Mirası 'Al-Hijr Archaeological Site (Madâin Sâlih)' dosyası. TDV `medain-i-salih` ve `hicr` sluglarının ikisi de 302 (ÖLÜ).",
   neden:"H-0054/H-0055 — el-Ulâ'nın 20 km kuzeyindeki hac yolu kalesi; menzil hattının kuzey ucunu tutuyor. Dönem zinciri Tebük'ten (ÇIKARIM)."},
@@ -99,7 +99,7 @@ window.YERLESIMLER_OK101 = [
 // ── Mısır hac yolunun Kızıldeniz kıyı kolu ──────────────────────────────
 { ad:"el-Vech", tur:"liman", lat:26.2333, lon:36.4667, g:0, k:4, m:"Medine",
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
-     {f:"1918-01-01",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
+     {f:"1918-01-01",t:"1925-12-19",d:"hicaz-kralligi"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[{f:"1517-07-06",t:"1918-01-01"}],
   kaynak:"UNESCO Dünya Mirası Geçici Listesi No. 6028 'Egyptian Hajj Road' — Kızıldeniz kıyı kolunun limanlarından. TDV `vech`/`el-vech` slugları 302 (ÖLÜ).",
   neden:"H-0054 — görselin batı kıyısı (Tebük ile Yenbu arası ~450 km kıyı şeridi) tamamen noktasızdı; el-Vech bu kolun tek büyük limanı. Dönem zinciri Tebük'ten (ÇIKARIM)."},
@@ -108,7 +108,7 @@ window.YERLESIMLER_OK101 = [
 { ad:"Hayber", tur:"sehir", lat:25.6981, lon:39.2920, g:0, k:4, m:"Medine",
   s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
      {f:"1805-06-01",t:"1812-12-03",d:"suud"},
-     {f:"1919-01-10",t:"1923-10-29",d:"hicaz"},{f:"1923-10-29",t:"1925-12-19",d:"hicaz-kralligi",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
+     {f:"1919-01-10",t:"1925-12-19",d:"hicaz-kralligi"},{f:"1925-12-19",t:"1932-09-18",d:"suud-ucuncu",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"},{f:"1932-09-18",t:"2000-12-31",d:"suudi-arabistan",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}],
   d:[],
   v:[{f:"1517-07-06",t:"1805-06-01",k:"Mekke Şerifliği",kid:"mekke-serifligi",statu:"vassal"},{f:"1812-12-03",t:"1841-05-24",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"},{f:"1841-05-24",t:"1919-01-10",k:"Mekke Şerifliği",kid:"mekke-serifligi",statu:"vassal"}],
   kaynak:"TDV `hayber` (HTTP 200, gövde okundu): \"Medine'nin yaklaşık 180 km. kadar kuzeyinden başlayan ve denizden 850-1000 m. yükseklikte yer alan etrafı volkanik topraklarla çevrili geniş bir vadinin adıdır.\" ⚠️ TDV maddesi Osmanlı dönemine dair idarî bilgi VERMİYOR (19. yy'da Burckhardt'ın gözlemi dışında) — dönem zinciri Medine'nin kaydından alındı, ÇIKARIMDIR.",
@@ -336,7 +336,7 @@ window.YERLESIMLER_OK104 = [
 // 14 kez anıyor; imamlığın çekirdek şehridir.
 { ad:"Sa'de", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:3,m:"Sana"}], tur:"sehir", lat:16.940, lon:43.764, g:0, k:3, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
-     {f:"1918-10-30",t:"1923-10-29",d:"yemen"},{f:"1923-10-29",t:"1962-09-26",d:"yemen-zeydi",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
+     {f:"1918-10-30",t:"1962-09-26",d:"yemen-zeydi"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
   kaynak:"TDV zeydiyye" },
 
@@ -350,7 +350,7 @@ window.YERLESIMLER_OK104 = [
 //      çekilsin? Ben yazdım ve ETİKETLEDİM; silme kararı senin.
 { ad:"Şehâre", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:4,m:"Sana"}], tur:"kale", lat:16.183, lon:43.723, g:0, k:4, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
-     {f:"1918-10-30",t:"1923-10-29",d:"yemen"},{f:"1923-10-29",t:"1962-09-26",d:"yemen-zeydi",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
+     {f:"1918-10-30",t:"1962-09-26",d:"yemen-zeydi"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
   kaynak:"bulunamadı — TDV'de müstakil madde yok, zeydiyye maddesinde de adı geçmiyor; dayanak standart akademik kaynak" },
 
@@ -359,7 +359,7 @@ window.YERLESIMLER_OK104 = [
 //    `zeydiyye` maddesinde adı geçmiyor. Aynı şart, aynı etiket.
 { ad:"Kevkebân", kd:[{f:"1281-01-01",t:"1872-04-01",k:0,m:null},{f:"1872-04-01",t:"1923-10-29",k:4,m:"Sana"}], tur:"kale", lat:15.503, lon:43.899, g:0, k:4, m:"Sana",
   s:[{f:"1281-01-01",t:"1872-04-01",d:"yemen"},
-     {f:"1918-10-30",t:"1923-10-29",d:"yemen"},{f:"1923-10-29",t:"1962-09-26",d:"yemen-zeydi",kaynak:"Britannica Yemen; Library of Congress Country Studies Yemen"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
+     {f:"1918-10-30",t:"1962-09-26",d:"yemen-zeydi"},{f:"1962-09-26",t:"1990-05-22",d:"yemen-arap-cumhuriyeti",kaynak:"Library of Congress Country Studies Yemen: 26 Eylul 1962 darbe"},{f:"1990-05-22",t:"2000-12-31",d:"yemen-cumhuriyeti",kaynak:"Britannica Yemen: birlesme 22 Mayis 1990"}],
   d:[{f:"1872-04-01",t:"1918-10-30"}],
   kaynak:"bulunamadı — TDV'de müstakil madde yok; dayanak standart akademik kaynak" },
 

@@ -336,7 +336,7 @@ window.YERLESIMLER_ANADOLU_0914 = [
   neden:"POSTIT #61 · 1410-05-06 karesi (Ankara–Eskişehir/Bolu–Ankara arası, 138×111 km) yerleşimsizdi; en yakın nokta Sivrihisar 56 km, Mudurnu 65 km. Ayaş Ankara'nın 45 km batısındadır. kur: KURULUŞ DEĞİL, İLK YAZILI TANIK — görünme için ALT SINIR: Bayezid I nişânı (saltanatı 1389-1402) Ayaş'ın 1402 ÖNCESİ de var olduğunu gösterir, ama nişânın yılı bilinmediği için görünme sınırı (güvenli, muhafazakâr) 1402-07-28 Ankara Savaşı günü alındı (o güne dek bölge Ankara peteğinde Osmanlı boyalıdır; Ayaş görünmese de renk değişmez).",
   not:"ABİ MERKEZ: Ankara — Ayaş'ın akıbeti Ankara kaydına bağlandı (BEYANLI YAKLAŞIKLIK). KANIT: Ayaş vakıf kayıtlarında 'I. Bayezid nişânıyla tasarruf edilen topraklar' ve 'çok eskiden' kurulmuş Ahi zaviyeleri geçer ⇒ yerleşim 1402 ÖNCESİ vardı; ama makalede 1450 öncesi TARİHLİ tek kayıt YOK. 1462-63 tahririnde Ankara sancağının birimi. ⚠️ 1410 günü ve sahibi Ayaş İÇİN doğrudan kaynakta verilmez; Ankara'nın zinciri (Timur → Mehmed Çelebi 1404 → Süleyman Çelebi 1406 → Mehmed Çelebi 1410-05-06 → Osmanlı 1413-07-05) aynen devralındı. 1402 öncesi Osmanlı dönemi Ayaş için YAZILMADI (Ankara'nın 1354 künyesi devralınmadı). Beypazarı, Nallıhan, Polatlı, Çayırhan 1463 öncesi kaynak bulunamadığı için EKLENMEDİ.",
   kaynak:"Belleten, 'XVI. Yüzyılda Ayaş Kazası Vakıfları' (belleten.gov.tr/tam-metin/21/tur, okundu): 'vakıf kayıtlarında I. Bayezid nişânıyla tasarruf edilen topraklardan bahsedilmekte'; en eski Ankara tahriri hicrî 867 (1462-63), Ayaş için daha eski defter yok. TDV ankara: Ayaş 16. yy'da Ankara sancağı kazası (ABİ MERKEZ: Ankara — Ayaş kazası). Koordinat: ilçe merkezi, Ayaş 40°01′K 32°20′D (tarihî yer ÖLÇÜLMEDİ).",
-  s:[{f:"1402-07-28",t:"1404-03-01",d:"timurlu"},{f:"1404-03-01",t:"1406-01-01",d:"mehmed-celebi"},{f:"1406-01-01",t:"1410-05-06",d:"suleyman-celebi"},{f:"1410-05-06",t:"1413-07-05",d:"mehmed-celebi"},
+  s:[{f:"1402-07-28",t:"1403-03-15",d:"timurlu",kaynak:"zincir Ankara'dan (ABİ MERKEZ: Ankara — TDV ankara)"},{f:"1403-03-15",t:"1406-01-01",d:"mehmed-celebi",kaynak:"zincir Ankara'dan"},{f:"1406-01-01",t:"1410-05-06",d:"suleyman-celebi"},{f:"1410-05-06",t:"1413-07-05",d:"mehmed-celebi"},
      {f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1413-07-05",t:"1920-04-23"}] },
 
@@ -1318,7 +1318,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kaşev (Cacheu)", tur:"sehir", lat:12.2700, lon:-16.1700, g:0, k:0,
   kur:"1588-01-01",
-  s:[{f:"1588-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-10",d:"portekiz-gine",kaynak:"Portekiz tanimasi 1974-09-10 (Britannica Guinea-Bissau)"},{f:"1974-09-10",t:"2000-12-31",d:"gine-bissau",kaynak:"Britannica Guinea-Bissau"}],
+  s:[{f:"1588-01-01",t:"1879-01-01",d:"portekiz"},{f:"1879-01-01",t:"1974-09-10",d:"portekiz-gine",kaynak:"Portekiz tanimasi 1974-09-10 (Britannica Guinea-Bissau)"},{f:"1974-09-10",t:"2000-12-31",d:"gine-bissau",kaynak:"Britannica Guinea-Bissau"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mongo", tur:"sehir", lat:12.1800, lon:18.7000, g:0, k:0,
@@ -1339,7 +1339,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Bissav (Bissau)", tur:"sehir", lat:11.8600, lon:-15.6000, g:0, k:0,
   kur:"1687-01-01",
-  s:[{f:"1687-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-10",d:"portekiz-gine",kaynak:"Portekiz tanimasi 1974-09-10 (Britannica Guinea-Bissau)"},{f:"1974-09-10",t:"2000-12-31",d:"gine-bissau",kaynak:"Britannica Guinea-Bissau"}],
+  s:[{f:"1687-01-01",t:"1879-01-01",d:"portekiz"},{f:"1879-01-01",t:"1974-09-10",d:"portekiz-gine",kaynak:"Portekiz tanimasi 1974-09-10 (Britannica Guinea-Bissau)"},{f:"1974-09-10",t:"2000-12-31",d:"gine-bissau",kaynak:"Britannica Guinea-Bissau"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Tenkodogo", tur:"sehir", lat:11.7800, lon:-0.3700, g:0, k:0,
@@ -1365,8 +1365,8 @@ window.YERLESIMLER_AFRIKA2 = [
   kaynak:"bulunamadı" },
 
 { ad:"Bobo-Diulasso", tur:"sehir", lat:11.1800, lon:-4.3000, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1896-09-01",d:"mossi-vagadugu"},
-     {f:"1896-09-01",t:"1960-08-05",d:"fransa-cumhuriyet"},{f:"1960-08-05",t:"2000-12-31",d:"yukari-volta-burkina",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1281-01-01",t:"1897-01-01",d:"<Gwiriko künyesi — atlasda yok, BULUNAMADI>",kaynak:"TDV burkina-faso + Britannica Bobo-Dioulasso: 1897"},
+     {f:"1897-01-01",t:"1960-08-05",d:"fransa-cumhuriyet",kaynak:"aynı · [yalnız yıl]"},{f:"1960-08-05",t:"2000-12-31",d:"yukari-volta-burkina",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"burkina-faso" },
 
 { ad:"Am Timan", tur:"sehir", lat:11.0300, lon:20.2800, g:0, k:0,
@@ -1800,7 +1800,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Niangara (Mangbetu)", tur:"sehir", lat:3.6900, lon:27.8700, g:0, k:0,
   kur:"1815-01-01",
   s:[{f:"1815-01-01",t:"1895-01-01",d:"mangbetu"},
-     {f:"1895-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1895-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — Uele-Bomokandi arasında Mangbetu saray sahası; Nabiembali'nin birleştirmesi 1815. 🔴 ISIRO'YA DOKUNULMADI: o bir Belçika karakolu" },
 
 { ad:"Yokadouma", tur:"sehir", lat:3.5200, lon:15.0500, g:0, k:0,
@@ -1811,12 +1811,12 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Businga", tur:"sehir", lat:3.3400, lon:20.8800, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Gemena", tur:"sehir", lat:3.2500, lon:19.7700, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Lodvar", tur:"sehir", lat:3.1200, lon:35.6000, g:0, k:0,
@@ -1826,7 +1826,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Watsa", tur:"sehir", lat:3.0400, lon:29.5300, g:0, k:0,
   kur:"1892-01-01",
-  s:[{f:"1892-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1892-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kribi", tur:"sehir", lat:2.9400, lon:9.9100, g:0, k:0,
@@ -1837,12 +1837,12 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Buta", tur:"sehir", lat:2.7900, lon:24.7400, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1890-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Isiro", tur:"sehir", lat:2.7700, lon:27.6200, g:0, k:0,
   kur:"1892-01-01",
-  s:[{f:"1892-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1892-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Gulu", tur:"sehir", lat:2.7700, lon:32.3000, g:0, k:0,
@@ -1852,7 +1852,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Aketi", tur:"sehir", lat:2.7400, lon:23.7800, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1890-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Moroto", tur:"sehir", lat:2.5300, lon:34.6600, g:0, k:0,
@@ -1872,12 +1872,12 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Bumba", tur:"sehir", lat:2.1900, lon:22.4700, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1890-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Lisala", tur:"sehir", lat:2.1500, lon:21.5100, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1890-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Suanke", tur:"sehir", lat:2.0700, lon:14.1300, g:0, k:0,
@@ -1917,7 +1917,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Bunia", tur:"sehir", lat:1.5600, lon:30.2500, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 // HAYALET-KUNYE-1008-K · `bunyoro` künyesi 1501-01-01'de başlıyor (kesinlik yuzyil); 1281→1501-01-01 dilimi → `__BOSLUK__`.
@@ -1935,7 +1935,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Basankusu", tur:"sehir", lat:1.2200, lon:19.8000, g:0, k:0,
   kur:"1885-01-01",
-  s:[{f:"1885-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1885-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kitale", tur:"sehir", lat:1.0200, lon:35.0000, g:0, k:0,
@@ -1971,12 +1971,12 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Butembo", tur:"sehir", lat:0.1400, lon:29.2900, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mbandaka", tur:"sehir", lat:0.0500, lon:18.2600, g:0, k:0,
   kur:"1883-06-17",
-  s:[{f:"1883-06-17",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1883-06-17",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kisumu", tur:"sehir", lat:-0.0900, lon:34.7700, g:0, k:0,
@@ -1986,7 +1986,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Boende", tur:"sehir", lat:-0.2800, lon:20.8800, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Nakuru", tur:"sehir", lat:-0.3000, lon:36.0800, g:0, k:0,
@@ -2006,7 +2006,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Djolu", tur:"sehir", lat:-0.5700, lon:22.4500, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mbarara (Nkore)", tur:"sehir", lat:-0.6100, lon:30.6600, g:0, k:0,
@@ -2022,12 +2022,12 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Lubutu", tur:"sehir", lat:-0.7300, lon:26.5800, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Ikela", tur:"sehir", lat:-1.1800, lon:23.2700, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Nairobi", tur:"sehir", lat:-1.2900, lon:36.8200, g:0, k:0,
@@ -2054,7 +2054,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Valikale", tur:"sehir", lat:-1.4200, lon:28.0500, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Maçakos", tur:"sehir", lat:-1.5200, lon:37.2600, g:0, k:0,
@@ -2064,7 +2064,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Monkoto", tur:"sehir", lat:-1.6000, lon:20.6800, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Fransvil (Franceville)", tur:"sehir", lat:-1.6300, lon:13.5800, g:0, k:0,
@@ -2080,18 +2080,18 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Kigali", tur:"sehir", lat:-1.9500, lon:30.0600, g:0, k:0,
   kur:"1907-01-01",
   s:[{f:"1907-01-01",t:"1916-05-06",d:"almanya"},
-     {f:"1916-05-06",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"2000-12-31",d:"ruanda-cumhuriyeti",kaynak:"Britannica 'Rwanda'"}],
+     {f:"1916-05-06",t:"1922-07-20",d:"belcika"},{f:"1922-07-20",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"2000-12-31",d:"ruanda-cumhuriyeti",kaynak:"Britannica 'Rwanda'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Nyanza (Ruanda)", tur:"sehir", lat:-2.3500, lon:29.7500, g:0, k:0,
   kur:"1300-01-01",
   s:[{f:"1300-01-01",t:"1916-05-06",d:"ruanda"},
-     {f:"1916-05-06",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"2000-12-31",d:"ruanda-cumhuriyeti",kaynak:"Britannica 'Rwanda'"}],
+     {f:"1916-05-06",t:"1922-07-20",d:"belcika"},{f:"1922-07-20",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"2000-12-31",d:"ruanda-cumhuriyeti",kaynak:"Britannica 'Rwanda'"}],
   kaynak:"ruanda" },
 
 { ad:"Bukavu", tur:"sehir", lat:-2.5100, lon:28.8600, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"2000-12-31",d:"ruanda-cumhuriyeti",kaynak:"Britannica 'Rwanda'"}],
+  s:[{f:"1900-01-01",t:"1922-07-20",d:"belcika"},{f:"1922-07-20",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"2000-12-31",d:"ruanda-cumhuriyeti",kaynak:"Britannica 'Rwanda'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mvanza", tur:"sehir", lat:-2.5200, lon:32.9000, g:0, k:0,
@@ -2112,12 +2112,12 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kindu", tur:"sehir", lat:-2.9500, lon:25.9200, g:0, k:0,
   kur:"1893-01-01",
-  s:[{f:"1893-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1893-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Bandundu", tur:"sehir", lat:-3.3100, lon:17.3800, g:0, k:0,
   kur:"1885-01-01",
-  s:[{f:"1885-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1885-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mosi (Moshi)", tur:"sehir", lat:-3.3500, lon:37.3400, g:0, k:0,
@@ -2135,18 +2135,18 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Bucumbura", tur:"sehir", lat:-3.3800, lon:29.3600, g:0, k:0,
   kur:"1897-01-01",
   s:[{f:"1897-01-01",t:"1916-06-06",d:"almanya"},
-     {f:"1916-06-06",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"1966-11-28",d:"burundi-krallik",kaynak:"Britannica 'Burundi'"},{f:"1966-11-28",t:"2000-12-31",d:"burundi-cumhuriyeti",kaynak:"Britannica 'Burundi'"}],
+     {f:"1916-06-06",t:"1922-07-20",d:"belcika"},{f:"1922-07-20",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"1966-11-28",d:"burundi-krallik",kaynak:"Britannica 'Burundi'"},{f:"1966-11-28",t:"2000-12-31",d:"burundi-cumhuriyeti",kaynak:"Britannica 'Burundi'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Uvira", tur:"sehir", lat:-3.4000, lon:29.1400, g:0, k:0,
   kur:"1892-01-01",
-  s:[{f:"1892-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1892-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Gitega (Burundi)", tur:"sehir", lat:-3.4300, lon:29.9200, g:0, k:0,
   kur:"1680-01-01",
   s:[{f:"1680-01-01",t:"1916-06-06",d:"burundi"},
-     {f:"1916-06-06",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"1966-11-28",d:"burundi-krallik",kaynak:"Britannica 'Burundi'"},{f:"1966-11-28",t:"2000-12-31",d:"burundi-cumhuriyeti",kaynak:"Britannica 'Burundi'"}],
+     {f:"1916-06-06",t:"1922-07-20",d:"belcika"},{f:"1922-07-20",t:"1962-07-01",d:"ruanda-urundi-mandasi",kaynak:"Britannica 'Ruanda-Urundi'"},{f:"1962-07-01",t:"1966-11-28",d:"burundi-krallik",kaynak:"Britannica 'Burundi'"},{f:"1966-11-28",t:"2000-12-31",d:"burundi-cumhuriyeti",kaynak:"Britannica 'Burundi'"}],
   kaynak:"bulunamadı" },
 
 { ad:"Sibiti", tur:"sehir", lat:-3.6800, lon:13.3500, g:0, k:0,
@@ -2157,7 +2157,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Nyangve (Nyangwe)", tur:"sehir", lat:-4.2100, lon:26.1800, g:0, k:0,
   kur:"1860-01-01",
   s:[{f:"1860-01-01",t:"1893-03-04",d:"umman-zengibar"},
-     {f:"1893-03-04",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1893-03-04",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Babati", tur:"sehir", lat:-4.2200, lon:35.7500, g:0, k:0,
@@ -2168,13 +2168,13 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"İlebo", tur:"sehir", lat:-4.3300, lon:20.5800, g:0, k:0,
   kur:"1888-01-01",
-  s:[{f:"1888-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1888-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kasongo", tur:"sehir", lat:-4.4300, lon:26.6600, g:0, k:0,
   kur:"1860-01-01",
   s:[{f:"1860-01-01",t:"1893-01-01",d:"umman-zengibar"},
-     {f:"1893-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1893-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Puent-Nuar", tur:"sehir", lat:-4.7900, lon:11.8600, g:0, k:0,
@@ -2197,7 +2197,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Lusambo", tur:"sehir", lat:-4.9700, lon:23.4400, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1890-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Tabora (Kazeh)", tur:"sehir", lat:-5.0200, lon:32.8000, g:0, k:0,
@@ -2209,12 +2209,12 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kikwit", tur:"sehir", lat:-5.0400, lon:18.8200, g:0, k:0,
   kur:"1896-01-01",
-  s:[{f:"1896-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1896-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Luebo", tur:"sehir", lat:-5.3500, lon:21.4200, g:0, k:0,
   kur:"1885-01-01",
-  s:[{f:"1885-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1885-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Pangani", tur:"sehir", lat:-5.4296, lon:38.9781, g:0, k:0,
@@ -2226,23 +2226,23 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kalemie", tur:"sehir", lat:-5.9509, lon:29.1824, g:0, k:0,
   kur:"1892-01-01",
-  s:[{f:"1892-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1892-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kabalo", tur:"sehir", lat:-6.0500, lon:26.9200, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Fesi (Feshi)", tur:"sehir", lat:-6.1100, lon:18.1700, g:0, k:0,
   kur:"1665-01-01",
   s:[{f:"1665-01-01",t:"1887-01-01",d:"lunda-imparatorlugu"},
-     {f:"1887-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1887-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kabinda", tur:"sehir", lat:-6.1300, lon:24.4800, g:0, k:0,
   kur:"1890-01-01",
-  s:[{f:"1890-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1890-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Dodoma", tur:"sehir", lat:-6.1700, lon:35.7500, g:0, k:0,
@@ -2272,19 +2272,19 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Kahemba", tur:"sehir", lat:-7.2800, lon:18.9900, g:0, k:0,
   kur:"1665-01-01",
   s:[{f:"1665-01-01",t:"1887-01-01",d:"lunda-imparatorlugu"},
-     {f:"1887-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1887-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Dundo", tur:"sehir", lat:-7.3700, lon:20.8300, g:0, k:0,
   kur:"1665-01-01",
   s:[{f:"1665-01-01",t:"1887-01-01",d:"lunda-imparatorlugu"},
-     {f:"1887-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1887-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Uije (Uíge)", tur:"sehir", lat:-7.6100, lon:15.0600, g:0, k:0,
   kur:"1390-01-01",
   s:[{f:"1390-01-01",t:"1914-01-01",d:"kongo-kralligi"},
-     {f:"1914-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1914-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kalenga (Hehe)", tur:"sehir", lat:-7.7900, lon:35.6200, g:0, k:0,
@@ -2302,7 +2302,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kamina", tur:"sehir", lat:-8.7400, lon:25.0000, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kilva Kivince", tur:"sehir", lat:-8.7500, lon:39.4100, g:0, k:0,
@@ -2320,7 +2320,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Matamba", tur:"sehir", lat:-9.3000, lon:16.0000, g:0, k:0,
   s:[{f:"1281-01-01",t:"1744-01-01",d:"matamba"},
-     {f:"1744-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1744-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Njombe", tur:"sehir", lat:-9.3400, lon:34.7700, g:0, k:0,
@@ -2332,40 +2332,40 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Kasance (Kasanje)", tur:"sehir", lat:-9.3600, lon:18.1400, g:0, k:0,
   kur:"1620-01-01",
   s:[{f:"1620-01-01",t:"1910-01-01",d:"kasance"},
-     {f:"1910-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1910-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Massangano", tur:"sehir", lat:-9.5400, lon:14.2000, g:0, k:0,
   kur:"1583-01-01",
-  s:[{f:"1583-01-01",t:"1923-10-29",d:"portekiz", enklav: true },{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1583-01-01",t:"1975-11-11",d:"portekiz-angola", enklav: true },{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Malanje", tur:"sehir", lat:-9.5400, lon:16.3400, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Saurimo", tur:"sehir", lat:-9.6600, lon:20.3900, g:0, k:0,
   kur:"1665-01-01",
   s:[{f:"1665-01-01",t:"1887-01-01",d:"lunda-imparatorlugu"},
-     {f:"1887-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1887-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Sandoa", tur:"sehir", lat:-9.6600, lon:22.8700, g:0, k:0,
   kur:"1665-01-01",
   s:[{f:"1665-01-01",t:"1887-01-01",d:"lunda-imparatorlugu"},
-     {f:"1887-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1887-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Pungo Andongo", tur:"sehir", lat:-9.6700, lon:15.5700, g:0, k:0,
   kur:"1671-01-01",
-  s:[{f:"1671-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1671-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kambambe (Cambambe)", tur:"sehir", lat:-9.7500, lon:14.4800, g:0, k:0,
   kur:"1604-01-01",
-  s:[{f:"1604-01-01",t:"1923-10-29",d:"portekiz", enklav: true },{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1604-01-01",t:"1975-11-11",d:"portekiz-angola", enklav: true },{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mvansabombve (Kazembe)", tur:"sehir", lat:-9.8500, lon:28.7500, g:0, k:0,
@@ -2411,7 +2411,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Bunkeya (Yeke)", tur:"sehir", lat:-10.4100, lon:26.9400, g:0, k:0,
   kur:"1856-01-01",
   s:[{f:"1856-01-01",t:"1891-12-20",d:"yeke"},
-     {f:"1891-12-20",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+     {f:"1891-12-20",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı" },
 
 { ad:"Songea (Ngoni)", tur:"sehir", lat:-10.6800, lon:35.6500, g:0, k:0,
@@ -2422,7 +2422,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kolvezi", tur:"sehir", lat:-10.7200, lon:25.4700, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"belcika"},{f:"1923-10-29",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
+  s:[{f:"1900-01-01",t:"1908-11-15",d:"belcika"},{f:"1908-11-15",t:"1960-06-30",d:"belcika-kongo",kaynak:"Britannica 'Belgian Congo'"},{f:"1960-06-30",t:"2000-12-31",d:"kongo-kinsasa",kaynak:"Britannica 'Democratic Republic of the Congo'"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Masasi", tur:"sehir", lat:-10.7200, lon:38.8000, g:0, k:0,
@@ -2439,13 +2439,13 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Mosimboa", tur:"sehir", lat:-11.3500, lon:40.3500, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1900-01-01",t:"1974-09-20",d:"portekiz-mozambik"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Luena (Moxico)", tur:"sehir", lat:-11.7800, lon:19.9200, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Mpika", tur:"sehir", lat:-11.8300, lon:31.4500, g:0, k:0,
@@ -2457,7 +2457,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Kazombo", tur:"sehir", lat:-11.9000, lon:22.9200, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Solwezi", tur:"sehir", lat:-12.1700, lon:26.3800, g:0, k:0,
@@ -2469,7 +2469,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Bailundo", tur:"sehir", lat:-12.1900, lon:15.8300, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Antseranana", tur:"sehir", lat:-12.2800, lon:49.2900, g:0, k:0,
@@ -2479,24 +2479,24 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"İbo (Kerimba)", tur:"sehir", lat:-12.3875, lon:40.5607, g:0, k:0,
   kur:"1600-01-01",
-  s:[{f:"1600-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1600-01-01",t:"1974-09-20",d:"portekiz-mozambik"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kuito (Bié)", tur:"sehir", lat:-12.3800, lon:16.9400, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Benguela", tur:"sehir", lat:-12.5800, lon:13.4100, g:0, k:0,
   kur:"1617-05-17",
-  s:[{f:"1617-05-17",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1617-05-17",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Huambo (Wambu)", tur:"sehir", lat:-12.7800, lon:15.7400, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Mvembe (Mataka)", tur:"sehir", lat:-12.9000, lon:36.0000, g:0, k:0,
@@ -2519,7 +2519,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Montepuez", tur:"sehir", lat:-13.1300, lon:39.0000, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1900-01-01",t:"1974-09-20",d:"portekiz-mozambik"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Serence (Serenje)", tur:"sehir", lat:-13.2400, lon:30.2400, g:0, k:0,
@@ -2530,7 +2530,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Licinga", tur:"sehir", lat:-13.3100, lon:35.2400, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1900-01-01",t:"1974-09-20",d:"portekiz-mozambik"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kasempa", tur:"sehir", lat:-13.4600, lon:25.8300, g:0, k:0,
@@ -2558,12 +2558,12 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Kangamba", tur:"sehir", lat:-13.7000, lon:19.8700, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Kakonda (Caconda)", tur:"sehir", lat:-13.7300, lon:15.0700, g:0, k:0,
   kur:"1682-01-01",
-  s:[{f:"1682-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1682-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Sambava", tur:"sehir", lat:-14.2700, lon:50.1700, g:0, k:0,
@@ -2587,7 +2587,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Menongue", tur:"sehir", lat:-14.6600, lon:17.6900, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Kaoma (Mankoya)", tur:"sehir", lat:-14.8000, lon:24.8000, g:0, k:0,
@@ -2598,13 +2598,13 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kuamba", tur:"sehir", lat:-14.8000, lon:36.5400, g:0, k:0,
   kur:"1900-01-01",
-  s:[{f:"1900-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1900-01-01",t:"1974-09-20",d:"portekiz-mozambik"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Lubango", tur:"sehir", lat:-14.9200, lon:13.4900, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Kalabo", tur:"sehir", lat:-14.9700, lon:22.6800, g:0, k:0,
@@ -2621,12 +2621,12 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Kuito Kuanavale", tur:"sehir", lat:-15.1700, lon:19.1700, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Mosamedes (Namibe)", tur:"sehir", lat:-15.2000, lon:12.1500, g:0, k:0,
   kur:"1840-08-04",
-  s:[{f:"1840-08-04",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1840-08-04",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Lealui (Lozi)", tur:"sehir", lat:-15.2000, lon:23.1000, g:0, k:0,
@@ -2648,7 +2648,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Zumbo", tur:"sehir", lat:-15.6100, lon:30.4500, g:0, k:0,
   kur:"1720-01-01",
-  s:[{f:"1720-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1720-01-01",t:"1974-09-20",d:"portekiz-mozambik"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mahacanga (Majunga)", tur:"sehir", lat:-15.7170, lon:46.3199, g:0, k:0,
@@ -2665,7 +2665,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Mavinga", tur:"sehir", lat:-15.8300, lon:20.3600, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Senanga", tur:"sehir", lat:-16.1200, lon:23.2700, g:0, k:0,
@@ -2676,7 +2676,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Tete", tur:"sehir", lat:-16.1600, lon:33.5900, g:0, k:0,
   kur:"1531-01-01",
-  s:[{f:"1531-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1531-01-01",t:"1974-09-20",d:"portekiz-mozambik"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Besalampy", tur:"sehir", lat:-16.7500, lon:44.4800, g:0, k:0,
@@ -2699,7 +2699,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Sena", tur:"sehir", lat:-17.4500, lon:35.0300, g:0, k:0,
   kur:"1530-01-01",
-  s:[{f:"1530-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1530-01-01",t:"1974-09-20",d:"portekiz-mozambik"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Seşeke (Sesheke)", tur:"sehir", lat:-17.4800, lon:24.3000, g:0, k:0,
@@ -2711,13 +2711,13 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Katima Mulilo", tur:"sehir", lat:-17.5000, lon:24.2700, g:0, k:0,
   kur:"1890-07-01",
   s:[{f:"1890-07-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kuangar", tur:"sehir", lat:-17.5800, lon:18.6100, g:0, k:0,
   kur:"1700-01-01",
   s:[{f:"1700-01-01",t:"1902-01-01",d:"ovimbundu"},
-     {f:"1902-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+     {f:"1902-01-01",t:"1975-11-11",d:"portekiz-angola"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı" },
 
 { ad:"Binga", tur:"sehir", lat:-17.6200, lon:27.3400, g:0, k:0,
@@ -2738,13 +2738,13 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Ondangva (Ondonga)", tur:"sehir", lat:-17.9200, lon:15.9500, g:0, k:0,
   kur:"1600-01-01",
   s:[{f:"1600-01-01",t:"1917-02-06",d:"ovambo"},
-     {f:"1917-02-06",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1917-02-06",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Rundu", tur:"sehir", lat:-17.9300, lon:19.7700, g:0, k:0,
   kur:"1900-01-01",
   s:[{f:"1900-01-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Maintirano", tur:"sehir", lat:-18.0600, lon:44.0300, g:0, k:0,
@@ -2794,7 +2794,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Tsumeb", tur:"sehir", lat:-19.2400, lon:17.7100, g:0, k:0,
   kur:"1900-01-01",
   s:[{f:"1900-01-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Gveru", tur:"sehir", lat:-19.4500, lon:29.8200, g:0, k:0,
@@ -2805,7 +2805,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Grutfontein", tur:"sehir", lat:-19.5700, lon:18.1100, g:0, k:0,
   kur:"1893-01-01",
   s:[{f:"1893-01-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Danangombe (Rozvi)", tur:"sehir", lat:-19.6000, lon:29.3000, g:0, k:0,
@@ -2829,7 +2829,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Outjo", tur:"sehir", lat:-20.1100, lon:16.1500, g:0, k:0,
   kur:"1895-01-01",
   s:[{f:"1895-01-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Khami", tur:"sehir", lat:-20.1500, lon:28.3800, g:0, k:0,
@@ -2880,7 +2880,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Massangena", tur:"sehir", lat:-21.5400, lon:32.9600, g:0, k:0,
   kur:"1895-01-01",
-  s:[{f:"1895-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1895-01-01",t:"1974-09-20",d:"portekiz-mozambik"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Ganzi (Ghanzi)", tur:"sehir", lat:-21.7000, lon:21.6500, g:0, k:0,
@@ -2892,18 +2892,18 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Okahandja", tur:"sehir", lat:-21.9800, lon:16.9100, g:0, k:0,
   s:[{f:"1281-01-01",t:"1904-01-12",d:"herero"},
      {f:"1904-01-12",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Cikualakuala", tur:"sehir", lat:-22.0900, lon:31.6800, g:0, k:0,
   kur:"1895-01-01",
-  s:[{f:"1895-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1895-01-01",t:"1974-09-20",d:"portekiz-mozambik"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Otjimbingve", tur:"sehir", lat:-22.3500, lon:16.1300, g:0, k:0,
   s:[{f:"1281-01-01",t:"1904-01-12",d:"herero"},
      {f:"1904-01-12",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Vohipeno (Antemoro)", tur:"sehir", lat:-22.3600, lon:47.8300, g:0, k:0,
@@ -2927,7 +2927,7 @@ window.YERLESIMLER_AFRIKA2 = [
   kur:"1856-01-01",
   s:[{f:"1856-01-01",t:"1884-08-07",d:"hollanda"},
      {f:"1884-08-07",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Palapye", tur:"sehir", lat:-22.5500, lon:27.1300, g:0, k:0,
@@ -2939,13 +2939,13 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Vindhuk (Windhoek)", tur:"sehir", lat:-22.5700, lon:17.0800, g:0, k:0,
   kur:"1890-10-18",
   s:[{f:"1890-10-18",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Valvis Körfezi", tur:"sehir", lat:-22.9600, lon:14.5100, g:0, k:0,
   kur:"1793-01-01",
   s:[{f:"1793-01-01",t:"1878-03-12",d:"hollanda"},
-     {f:"1878-03-12",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1878-03-12",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Dzata (Venda)", tur:"sehir", lat:-22.9600, lon:30.1500, g:0, k:0,
@@ -2969,7 +2969,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Rehoboth", tur:"sehir", lat:-23.3200, lon:17.0800, g:0, k:0,
   s:[{f:"1281-01-01",t:"1904-10-03",d:"nama-orlam"},
      {f:"1904-10-03",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Toliara (Tuléar)", tur:"sehir", lat:-23.3500, lon:43.6700, g:0, k:0,
@@ -2980,7 +2980,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Mabalane", tur:"sehir", lat:-23.4200, lon:32.5500, g:0, k:0,
   kur:"1895-01-01",
-  s:[{f:"1895-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1895-01-01",t:"1974-09-20",d:"portekiz-mozambik"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Kang", tur:"sehir", lat:-23.6700, lon:22.8000, g:0, k:0,
@@ -2991,7 +2991,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"İnhambane", tur:"sehir", lat:-23.8700, lon:35.3800, g:0, k:0,
   kur:"1534-01-01",
-  s:[{f:"1534-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1534-01-01",t:"1974-09-20",d:"portekiz-mozambik"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Tshane", tur:"sehir", lat:-24.0200, lon:21.8700, g:0, k:0,
@@ -3003,7 +3003,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Aranos", tur:"sehir", lat:-24.1300, lon:19.1200, g:0, k:0,
   kur:"1900-01-01",
   s:[{f:"1900-01-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Molepolole (Kvena)", tur:"sehir", lat:-24.4100, lon:25.5000, g:0, k:0,
@@ -3021,7 +3021,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Mariental", tur:"sehir", lat:-24.6300, lon:17.9700, g:0, k:0,
   kur:"1890-01-01",
   s:[{f:"1890-01-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Tjate (Pedi)", tur:"sehir", lat:-24.7000, lon:30.0500, g:0, k:0,
@@ -3055,7 +3055,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Lourenço Marques", tur:"sehir", lat:-25.9693, lon:32.5800, g:0, k:0,
   kur:"1781-01-01",
-  s:[{f:"1781-01-01",t:"1923-10-29",d:"portekiz"},{f:"1923-10-29",t:"1974-09-20",d:"portekiz-mozambik",kaynak:"Lusaka Anlasmasi 1974-09-07, gecis hukumeti 1974-09-20 (Britannica Mozambique)"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
+  s:[{f:"1781-01-01",t:"1974-09-20",d:"portekiz-mozambik"},{f:"1974-09-20",t:"1975-06-25",d:"mozambik-gecis-hukumeti",kaynak:"Britannica Mozambique"},{f:"1975-06-25",t:"2000-12-31",d:"mozambik",kaynak:"Bagimsizlik 1975-06-25"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Tsabong", tur:"sehir", lat:-26.0200, lon:22.4000, g:0, k:0,
@@ -3073,20 +3073,20 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Bethanie", tur:"sehir", lat:-26.4900, lon:17.1500, g:0, k:0,
   s:[{f:"1281-01-01",t:"1904-10-03",d:"nama-orlam"},
      {f:"1904-10-03",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Keetmanshoop", tur:"sehir", lat:-26.5800, lon:18.1300, g:0, k:0,
   kur:"1866-01-01",
   s:[{f:"1866-01-01",t:"1884-08-07",d:"hollanda"},
      {f:"1884-08-07",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Lüderitz", tur:"sehir", lat:-26.6500, lon:15.1600, g:0, k:0,
   kur:"1883-05-01",
   s:[{f:"1883-05-01",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Potchefstroom", tur:"sehir", lat:-26.7200, lon:27.1000, g:0, k:0,
@@ -3126,7 +3126,7 @@ window.YERLESIMLER_AFRIKA2 = [
 { ad:"Varmbad (Warmbad)", tur:"sehir", lat:-28.4500, lon:18.7400, g:0, k:0,
   s:[{f:"1281-01-01",t:"1904-10-03",d:"nama-orlam"},
      {f:"1904-10-03",t:"1915-07-09",d:"almanya"},
-     {f:"1915-07-09",t:"1923-10-29",d:"ingiltere"},{f:"1923-10-29",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1915-07-09",t:"1920-12-17",d:"ingiltere"},{f:"1920-12-17",t:"1990-03-21",d:"guneybati-afrika-mandasi",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1990-03-21",t:"2000-12-31",d:"namibya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı" },
 
 { ad:"Upington", tur:"sehir", lat:-28.4500, lon:21.2400, g:0, k:0,

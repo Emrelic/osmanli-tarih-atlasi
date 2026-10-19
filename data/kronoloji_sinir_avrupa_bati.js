@@ -542,7 +542,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   kaynak:"Encyclopedia.com «Comtat Venaissin» (New Catholic Encyclopedia) · APRA «L'annexion du Comtat et d'Avignon»" },
 
 { t:"1809-10-14", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","avusturya"], sinir_id:"",
-  b:"Görz, Trieste ve Villach dairesi Fransız İlirya Eyaletleri'ne katıldı", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Görz (Gorizia)",
+  b:"Görz, Trieste, Villach, Kranjska, Sava güneyindeki Hırvatistan ve Dalmaçya Fransa'nın İlirya Eyaletleri'ne katıldı", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Görz (Gorizia)",
   etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","avusturya"],
   d:"14 Ekim 1809 Schönbrunn Barışı'nın 3. maddesiyle Avusturya, Görz Kontluğu'nu, Trieste'yi, Karniyola'yı ve Karintiya'nın Villach dairesini (Tarvis dahil) Napolyon'a bıraktı; bu topraklar İlirya Eyaletleri olarak 1813'e dek Fransız idaresinde kaldı.",
   kaynak:"Schönbrunn Antlaşması (14 Ekim 1809) md. 3" },

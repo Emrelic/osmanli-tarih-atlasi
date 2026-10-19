@@ -27,7 +27,7 @@ window.KRONOLOJI_SINIR_TURKIYE = [
   kaynak:"Ş. Doğan, 'Rus Kaynakları Işığında Bulgaristan'ın Bağımsızlık İlanı', Balkan Araştırma Enstitüsü Dergisi 9/2 (2020) s.322 · IBS No. 49 s.9" },
 
 { t:"1913-05-30", devlet:"osmanli", taraflar:["osmanli","bulgaristan-kralligi"], hat:"d1913-londra-enez-midye",
-  b:"Londra Antlaşması — Enez-Midye hattının batısı Balkan müttefiklerine bırakıldı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"İstanbul",
+  b:"Londra Antlaşması — Enez-Midye hattının batısı Sırbistan, Bulgaristan, Yunanistan ve Karadağ'a bırakıldı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"İstanbul",
   etiket:["antlasma","sinir","toprak-kaybi","konu-siyasi"],
   d:"I. Balkan Savaşı'nı bitiren Londra Antlaşması, Osmanlı'nın Enez-Midye çizgisinin batısındaki bütün Rumeli topraklarını müttefiklere bırakmasını öngördü; Edirne de bu çizginin batısında kalıyordu. Çizgi yalnız iki ucuyla tarif edilmişti. II. Balkan Savaşı'nda Edirne geri alındı ve sınır 29 Eylül 1913 İstanbul Antlaşması'yla yeniden çizildi.",
   kaynak:"TDV bulgaristan: '30 Mayıs 1913 tarihinde imzalanan Londra Antlaşması' · Londra Antlaşması md. II (Wikisource neşri) · IBS No. 49 s.10" },

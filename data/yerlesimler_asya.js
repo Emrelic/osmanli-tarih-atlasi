@@ -3748,7 +3748,7 @@ window.YERLESIMLER_ASYA = [
 // 1975'e kadar Portekiz toprağı kaldı.
 { ad:"Dili", tur:"liman", lat:-8.5560, lon:125.5600, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1769-10-10", d:"timor-beylikleri"},
-     {f:"1769-10-10", t:"1923-10-29", d:"portekiz"},{f:"1923-10-29",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}] },
+     {f:"1769-10-10", t:"1975-12-07", d:"portekiz-timor"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}] },
 
 // ===== 8i. Filipinler =====
 //
