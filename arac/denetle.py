@@ -4343,8 +4343,6 @@ BILINEN_AYRI = {
     ("Azak'ın Ruslara düşüşü",
      "Özi (Ochakov) Kalesi'nin Ruslara düşüşü"),
     ("Niş'in Avusturya'dan geri alınışı",
-     "Semendire'nin Avusturya'dan geri alınışı — 1737-39 Savaşı"),
-    ("Niş'in Avusturya'dan geri alınışı",
      "Adakale'nin Avusturya'dan alınışı"),
     # ⭐ "AYNI GÜN / AYNI FİİL KALIBI / AYRI TOPRAK" — 6 Ekim 2026, W54b MEMEL.
     # Memel maddesi inince tavan 95 → 96 oldu; çift YANLIŞ POZİTİF.
