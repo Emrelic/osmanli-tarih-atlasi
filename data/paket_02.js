@@ -1477,7 +1477,8 @@ window.OLAYLAR_EK10 = [
   b:"Babadağı ve çevresinin Osmanlı'ya geçişi — Mircea ile oğlu Mihail yenildi",
   gun:"819 (1416)", yer:"Babadağı (Babadag)", yer_id:"Babadağı (Babadag)",
   kisiler:"Çelebi Sultan Mehmed, Eflak Voyvodası I. Mircea, Mihail",
-  d:"Çelebi Mehmed, Eflak Voyvodası Mircea ile oğlu Mihail'i yendikten sonra Kuzey Dobruca'daki Babadağı ve çevresini Osmanlı hâkimiyetine aldı. Babadağı, Saltuk Baba'nın adını taşıyan ve XIII. yüzyıl Türkmen yerleşimiyle kurulan bir kasabaydı.",
+  d:"Çelebi Mehmed, Eflak Voyvodası Mircea ile oğlu Mihail'i yendikten sonra Kuzey Dobruca'daki Babadağı ve çevresini Osmanlı hâkimiyetine aldı. Babadağı, Saltuk Baba'nın adını taşıyan ve XIII. yüzyıl Türkmen yerleşimiyle kurulan bir kasabaydı. Çevredeki Silistre, Köstence ve öteki Dobruca kaleleri ise 1419'a kadar Eflak'ta kaldı; yani Babadağı üç yıl Osmanlı toprağından kopuk bir ada (eksklav) olarak görünür.",
+  ic_not_d:"EKSKLAV BEYANI (post-it #63, Emre kararı 19 Ekim 2026, seçenek a): Babadağı 1416 (TDV babadagi) · çevre kaleler 1419 (TDV dobruca, silistre, kostence). Arada alınan yer/yol kaynakta YOK; eksklav iki kaynağın birleşiminden çıkar, TDV anlatmıyor. Alternatif okuma: Ghiaţă (Stănică 2016) 1419-20'ye kadar kesintisiz Eflak; Iorga 1416, Giurescu 1417.",
   kaynak:"babadagi", duygu:["🎉"] },
   // PAKET-0076-DOBRUCA-1004 (A) — TDV babadagi: "Babadağı ve çevresi, Çelebi Sultan Mehmed'in Eflak Voyvodası Mircea ile oğlu Mihail'i mağlûp etmesinden sonra Osmanlı hâkimiyetine girdi (819/1416)". Gün kaynakta YOK ⇒ YYYY-01-01 (D210).
 
