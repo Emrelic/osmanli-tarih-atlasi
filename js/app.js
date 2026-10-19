@@ -1090,6 +1090,65 @@ function tabiYazisi(id, t) {
   return "";
 }
 
+// 🔴 POSTIT #112 — iki devletin gövdesi AYNI toprağı örtmesin. Motor çıktısında
+// (donuk) Rusya gövdesi Don Kazak / Zaporojye gövdelerinin üstüne biniyordu
+// (1676-09-19: ≈1,5 ve ≈1,1 derece²); yarı saydam iki dolgu üst üste binince
+// ikisinden de farklı "üçüncü bir yeşil" çıkıyordu. Kural: çakışan toprak
+// KÜÇÜK gövdede (alt devlet) kalır, BÜYÜK gövdeden (üst devlet) düşülür.
+// Girdi nesnelerine dokunulmaz; değişen gövde kopyalanır. Sonuç, gövde
+// kimliği çiftine göre önbelleklenir.
+var _CAKISMA_ONBELLEK = {};
+function _gvdBbox(g) {
+  var b = [1e9, 1e9, -1e9, -1e9];
+  g.coordinates.forEach(function (p) { p[0].forEach(function (c) {
+    if (c[0] < b[0]) b[0] = c[0]; if (c[1] < b[1]) b[1] = c[1];
+    if (c[0] > b[2]) b[2] = c[0]; if (c[1] > b[3]) b[3] = c[1];
+  }); });
+  return b;
+}
+function _gvdAlan(g) {
+  var a = 0;
+  g.coordinates.forEach(function (p) { p.forEach(function (r, k) {
+    var s = 0;
+    for (var i = 0; i < r.length - 1; i++) s += r[i][0] * r[i + 1][1] - r[i + 1][0] * r[i][1];
+    a += (k ? -1 : 1) * Math.abs(s) / 2;
+  }); });
+  return a;
+}
+function cakismaGider(fs) {
+  var pc = window.polygonClipping;
+  if (!pc || fs.length < 2) return fs;
+  var bs = fs.map(function (f) { return f.geometry && f.geometry.type === "MultiPolygon" ? _gvdBbox(f.geometry) : null; });
+  var alan = fs.map(function (f, i) { return bs[i] ? _gvdAlan(f.geometry) : 0; });
+  var yeni = fs.slice();
+  for (var i = 0; i < fs.length; i++) {
+    if (!bs[i]) continue;
+    for (var j = i + 1; j < fs.length; j++) {
+      if (!bs[j] || fs[i].properties.id === fs[j].properties.id) continue;
+      var a = bs[i], b = bs[j];
+      if (a[2] < b[0] || b[2] < a[0] || a[3] < b[1] || b[3] < a[1]) continue;
+      var kucuk = alan[i] <= alan[j] ? i : j, buyuk = kucuk === i ? j : i;
+      var anahtar = fs[kucuk].properties.id + "@" + alan[kucuk].toFixed(5) + "|" +
+                    fs[buyuk].properties.id + "@" + alan[buyuk].toFixed(5);
+      var k = _CAKISMA_ONBELLEK[anahtar];
+      if (k === undefined) {
+        try {
+          var kes = pc.intersection(yeni[kucuk].geometry.coordinates, yeni[buyuk].geometry.coordinates);
+          k = (kes && kes.length) ? pc.difference(yeni[buyuk].geometry.coordinates, yeni[kucuk].geometry.coordinates) : null;
+        } catch (e) { k = null; }
+        _CAKISMA_ONBELLEK[anahtar] = k;
+      }
+      if (k) {
+        yeni[buyuk] = { type: "Feature", properties: yeni[buyuk].properties,
+                        geometry: { type: "MultiPolygon", coordinates: k } };
+        bs[buyuk] = k.length ? _gvdBbox(yeni[buyuk].geometry) : null;
+        alan[buyuk] = bs[buyuk] ? _gvdAlan(yeni[buyuk].geometry) : 0;
+      }
+    }
+  }
+  return yeni.filter(function (f) { return f.geometry.type !== "MultiPolygon" || f.geometry.coordinates.length; });
+}
+
 function devletGuncelle(t) {
   if (!haritaHazir) return;
   var fs = [], et = [], imza = "";
@@ -1135,7 +1194,7 @@ function devletGuncelle(t) {
   imza += "|r:" + rotusImza(t);           // P84-ROTUS — rötuş kümesi değişince yeniden çiz
   if (imza === devletImza) return;
   devletImza = imza;
-  harita.getSource("devlet").setData(rotusUygula({ type: "FeatureCollection", features: fs }, t,
+  harita.getSource("devlet").setData(rotusUygula({ type: "FeatureCollection", features: cakismaGider(fs) }, t,
     function (f) { return f.properties && f.properties.id; }, "devlet"));
   try { rotusKonturGuncelle(t); } catch (e) { /* kaynak henüz yok */ }
   // Büyük gövde önce yerleşsin: çakışmada küçük olan elenir
