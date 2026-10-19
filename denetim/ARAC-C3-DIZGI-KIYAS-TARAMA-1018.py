@@ -10,7 +10,7 @@ src = open(yol, encoding="utf-8-sig").read()
 tree = ast.parse(src)
 IZ = re.compile(r'\["[ft]"\]|\.get\("[ft]"\)|\bEPOK\b|\bKESIT_SON\b|"-?\d{3,4}-\d\d(-\d\d)?"|'
                 r'\b_?(a|g|g0|wa|ts|tt|tarih\w*|_gun\w*|skf|skt\d?|kur|gun|f|t|f_|t_|pf|pt|df|dt|kf|kt|bas|son|bit|ilk|ft|tf)\b')
-SAR = re.compile(r'\bgn\(|\b_gn\(|key=gn|\.area|_kvn|KV_MIN|_ea\b|< hedef|0\.0|_kusatilmis|_kus_kayit|< 1\.0|abs\(|_gun_farki\(|_gun_no\(|ROTUS|HAYALET|MUKERRER|SAVAS|_son < 0|len\(t\)|centroid|distance|en_iyi_fark|int\(t\)|x\["km"\]|defter\.get')
+SAR = re.compile(r'\bgn\(|\b_gn\(|key=gn|_gun\.gun\(|key=_gun|\.area|_kvn|KV_MIN|_ea\b|< hedef|0\.0|_kusatilmis|_kus_kayit|< 1\.0|abs\(|_gun_farki\(|_gun_no\(|ROTUS|HAYALET|MUKERRER|SAVAS|_son < 0|len\(t\)|centroid|distance|en_iyi_fark|int\(t\)|x\["km"\]|defter\.get')
 bul = []
 for n in ast.walk(tree):
     if isinstance(n, ast.Compare) and any(isinstance(o, (ast.Lt, ast.LtE, ast.Gt, ast.GtE)) for o in n.ops):

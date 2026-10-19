@@ -25,15 +25,20 @@ Hızlandırma: Delaunay ve kenar uzunlukları o gün VAR olan nokta kümesine g�
 önbelleğe alınır (küme yalnız `kur` geçince değişir), km numpy ile vektörel.
 """
 import math
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import gun as _gun     # C1: tarih kiyasi gun sayacıyla (dizgi MÖ'de ters)
 
 
 def _sahip(y, g):
     for kat in ("d", "v"):
         for p in y.get(kat) or []:
-            if p.get("f") and p.get("t") and p["f"] <= g < p["t"]:
+            if p.get("f") and p.get("t") and _gun.gun(p["f"]) <= _gun.gun(g) < _gun.gun(p["t"]):
                 return "OSMANLI"
     for p in y.get("s") or []:
-        if p.get("f") and p.get("t") and p.get("d") and p["f"] <= g < p["t"]:
+        if p.get("f") and p.get("t") and p.get("d") and _gun.gun(p["f"]) <= _gun.gun(g) < _gun.gun(p["t"]):
             return p["d"]
     return None
 
@@ -44,9 +49,9 @@ def osmanli_kirilma_gunleri(Y, bas="1281-01-01", son="1923-10-29"):
         for kat in ("d", "v"):
             for p in y.get(kat) or []:
                 for u in (p.get("f"), p.get("t")):
-                    if u and bas <= u < son:
+                    if u and _gun.gun(bas) <= _gun.gun(u) < _gun.gun(son):
                         g.add(u)
-    return sorted(g)
+    return sorted(g, key=_gun.gun)
 
 
 def olc(Y, gunler, devlet="OSMANLI", kenar_km=400.0):
@@ -58,7 +63,9 @@ def olc(Y, gunler, devlet="OSMANLI", kenar_km=400.0):
     onb = {}
     sonuc = {}
     for g in gunler:
-        V = tuple(i for i, y in enumerate(Y) if not (y.get("kur") and y["kur"] > g))
+        V = tuple(i for i, y in enumerate(Y)
+                  if not (y.get("kur") and _gun.gun(y["kur"]) > _gun.gun(g))
+                  and not (y.get("bit") and _gun.gun(y["bit"]) <= _gun.gun(g)))
         if V not in onb:
             la = np.radians(np.array([Y[i]["lat"] for i in V]))
             lo = np.radians(np.array([Y[i]["lon"] for i in V]))
@@ -113,6 +120,6 @@ if __name__ == "__main__":
     print(f"{len(G)} Osmanlı kırılma günü · {len(R)} günde kopuk parça · toplam {n} parça "
           f"({time.time() - t0:.1f} sn)")
     if "--ayrinti" in sys.argv:
-        for g in sorted(R):
+        for g in sorted(R, key=_gun.gun):
             for p in R[g]:
                 print(f"  {g}  {', '.join(p)[:110]}")

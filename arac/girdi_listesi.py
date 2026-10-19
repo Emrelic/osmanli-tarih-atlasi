@@ -722,4 +722,6 @@ GIRDI_DOSYALARI = [
     "yerlesimler_p77_avrupa.js",
     # ONCE1281-YERLESIM-AVRUPA2 (18 Ekim 2026) - Como, Meissen, Salzburg, Baden-Baden, Egriboz
     "yerlesimler_once1281_avrupa.js",
+    # SUMER-1019 (19 Ekim 2026) - Sumer kutusu 21 nokta (NOKTA-SUMER-1010 + B10), MO varlik uclari, s:/d: yok
+    "yerlesimler_mo_sumer.js",
 ]
