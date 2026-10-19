@@ -309,8 +309,7 @@ window.DEVLETLER = [
   ozet:"I. İvan Kalita'nın 'büyük knez' unvanını almasıyla Rus topraklarının siyasî merkezi hâline gelen knezlik; 1480'de Altın Orda hâkimiyetinden fiilen çıktı, IV. İvan'ın çar ilan edilmesiyle Rusya Çarlığı'na dönüştü (bkz. [[rusya]]). (kaynak: TDV, madde: rusya)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1325-01-01", tur:"kurulus", b:"I. İvan Daniloviç (Kalita) Moskova knezi oldu; Moskova Rus topraklarının siyasî merkezi haline geldi", ic_not_b:"Çapraz sorgu C066: eski başlık 'büyük knez unvanını aldı'; BRE ve ESBE 1325'i Moskova knezliği başlangıcı, Vladimir büyük knezliği yarlığını 1328 verir." },
-    { t:"1328-01-01", tur:"hukumdar", b:"I. İvan Daniloviç (Kalita) Vladimir büyük knezliği yarlığını aldı", kaynak:"Brockhaus-Efron ESBE 'Иоанн Данилович Калита' https://ru.wikisource.org/wiki/ЭСБЕ/Иоанн_Данилович_Калита · Bolşaya Rossiyskaya Entsiklopediya 'Ivan I Danilovich' https://bigenc.ru/c/ivan-i-danilovich-665ce9" },
+    { t:"1325-01-01", tur:"kurulus", b:"I. İvan Daniloviç (Kalita) Moskova knezi oldu; Moskova Rus topraklarının siyasî merkezi haline geldi", ic_not_b:"Çapraz sorgu C066: eski başlık 'büyük knez unvanını aldı'; BRE ve ESBE 1325'i Moskova knezliği başlangıcı, Vladimir büyük knezliği yarlığını 1328 verir (1328 yarlığı aşağıdaki 1331 maddesinde de anılır)." },
     { t:"1331-01-01", tur:"hukumdar", b:"I. İvan Kalita Vladimir büyük knezliğinin tek sahibi oldu (kaynaklar 1328 yarlığını da anar; tek hâkimiyet 1331).", kaynak:"https://faculty.washington.edu/dwaugh/hstam443/m-chron.html ; https://en.wikipedia.org/wiki/Ivan_I_of_Moscow" },
     { t:"1380-09-08", tur:"savas", b:"Kulikovo Muharebesi: Dmitri Donskoy Mamay'ın ordusunu yendi; Moskova'nın itibarı yükseldi, ancak Moğol egemenliği sürdü.", kaynak:"https://www.britannica.com/print/article/324609 ; https://prlib.ru/en/node/1182103" },
     { t:"1389-05-19", tur:"hukumdar", b:"Dmitri Donskoy öldü ve Moskova Kremlin'indeki Başmelek Katedrali'ne gömüldü.", kaynak:"https://warhistory.org/article/grand-prince-dmitry-ivanovich-donskoy" },
@@ -319,6 +318,7 @@ window.DEVLETLER = [
     { t:"1485-09-08", tur:"toprak-kazanc", b:"III. İvan Tver'i kuşattı; şehir savaşmadan teslim oldu ve Moskova'ya katıldı.", kaynak:"https://medieval-princesses.spbu.ru/en/articles/anastasia-alexandrovna ; https://tver.ru/en/about/history/xv-xvii.php" },
     { t:"1510-01-01", tur:"toprak-kazanc", b:"III. Vasili Pskov'u votçinası ilan edip veçeyi kaldırdı, 300 aileyi sürdü.", kaynak:"https://www.Wikipedia.com/wiki/Pskov_Republic (Crummey 2014 atfıyla); https://www.nortfort.ru/pskov/index_e/" },
     { t:"1521-01-01", tur:"toprak-kazanc", b:"Ryazan Knezliği Moskova'ya katıldı; son knez V. Ivan Litvanya'ya kaçtı.", kaynak:"https://en.wikipedia.org/wiki/Principality_of_Ryazan (Fennell 2014; Potter atfıyla)" },
+    { t:"1523-01-01", tur:"din", b:"Filofey'in mektuplarında \"Moskova Üçüncü Roma'dır\" formülü ortaya çıktı (1523-24)", kaynak:"Brockhaus-Efron ESBE 'Tretiy Rim' https://ru.wikisource.org/wiki/ЭСБЕ/Третий_Рим · Bolşaya Rossiyskaya Entsiklopediya 'Filofey' (özet)", ic_not_gun:"Çapraz sorgu C067: yıl hassasiyeti (1523 veya 1524); ESBE formülün Filofey'e ait olduğunu XVI. yy başına koyar, BRE mektuplar 1523-24; Konstantiniyye 1453 maddesi (kronoloji_cok_rusya.js) ile birlikte okunur." },
     { t:"1547-01-16", tur:"son", b:"IV. İvan çar ilan edildi, Moskova Knezliği'nin yerini Rusya Çarlığı aldı" }
   ]
 },

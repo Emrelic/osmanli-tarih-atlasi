@@ -702,11 +702,11 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 // Roskilde 1658 · Pireneler 1659 · Kopenhag 1660 · Lizbon 1668 · Utrecht 1713 · Rastatt 1714 ·
 // Campo Formio 1797 · Fredrikshamn 1809 · Kiel 1814. Bu dönemin hatlarının çoğu haritada YOK kutusudur.
 
-{ t:"1645-08-23", devlet:"isvec", devletler:["isvec","danimarka"], sinir_id:"dg6-dk-se-1751-oncesi",
+{ t:"1645-08-13", devlet:"isvec", devletler:["isvec","danimarka"], sinir_id:"dg6-dk-se-1751-oncesi",
   b:"Brömsebro Barışı — Jämtland ve Härjedalen İsveç'e geçti", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","isvec","danimarka"],
   d:"Uzun müzakerelerin ardından Brömsebro'da imzalanan barışla Danimarka-Norveç, Norveç'in Jämtland ve Härjedalen illerini İsveç'e bıraktı. İki krallık arasındaki kuzey sınırı böylece batıya kaydı; ancak hat 1751'e kadar ayrıntılı olarak çizilmedi.",
-  kaynak:"Den Store Danske (lex.dk) 'Brömsebro' · Store norske leksikon 'riksgrensen'", ic_not_takvim:"Jülyen/İsveç eski stil 13 Ağustos 1645 = Gregoryen 23 Ağustos 1645" },
+  kaynak:"Den Store Danske (lex.dk) 'Brömsebro' · Store norske leksikon 'riksgrensen'", ic_not_takvim:"Jülyen/İsveç eski stil 13 Ağustos 1645 = Gregoryen 23 Ağustos 1645; sinir_id kaydının kırılma günü (1645-08-13) henüz çevrilmediği için t bu yüzden Jülyen günde bırakıldı" },
 
 { t:"1660-11-12", devlet:"fransa", devletler:["fransa","ispanya"], sinir_id:"d1923-fr-es-llivia",
   b:"Llívia sözleşmesi — Llívia'nın Cerdanya'da İspanyol anklavı olarak kalması", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"",
@@ -954,11 +954,11 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"Versay Antlaşması'nın 32-34. maddeleri 1816'dan beri ortak yönetilen Tarafsız Moresnet'i ve Eupen ile Malmedy bölgelerini Belçika'ya bıraktı. 35. madde yedi üyeli bir komisyonu yeni hattı yerinde belirlemekle görevlendirdi. Komisyon raporunu 6 Kasım 1922'de Aachen'de tamamladı; Raeren–Kalterherberg demiryolu hattı Belçika'ya bırakıldı. Eupen-Malmedy'nin kesin devrine ilişkin Milletler Cemiyeti kararının günü okunabilir bir kaynakta bulunamadı.",
   kaynak:"Versay md. 32-35 (Avalon) · IBS No. 7 Belgium–Germany" },
 
-{ t:"1920-07-16", devlet:"italya", devletler:["italya","avusturya-cumhuriyet"], sinir_id:"d1923-it-at",
+{ t:"1920-01-01", devlet:"italya", devletler:["italya","avusturya-cumhuriyet"], sinir_id:"d1923-it-at",
   b:"Saint-Germain Antlaşması yürürlüğe girdi — Güney Tirol ve Tarvis İtalya'ya", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","italya","avusturya-cumhuriyet"],
   d:"10 Eylül 1919'da imzalanan Saint-Germain Antlaşması'nın 27(2). maddesi Avusturya–İtalya sınırını Reschen, Brenner ve Karn Alpleri boyunca çizdi; Güney Tirol ile Tarvis İtalya'ya geçti. Büyükelçiler Konferansı 22 Temmuz 1920'de demarkasyon talimatını verdi, işaretleme 1924'te bitti. Metnin 'yerinde belirlenecek' dediği üç alt kesim (Reschen, Drava geçişi, Thörl) 1923'te henüz kesinleşmemişti. Tarih yalnız YIL düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
-  kaynak:"IBS No. 58 (Revised) Austria–Italy (md. 27 alıntısı, 1920 talimatı, 1924 demarkasyonu)", ic_not_gun:"Çapraz sorgu C010 (UC-KAYNAK-SONUC): atlas 1920-01-01 → 1920-07-16; RIS, UNESCO Avusturya ve cib.de yürürlüğü 16 Temmuz 1920 verir; 1 Ocak 1920'de antlaşma yürürlükte değildir ve ilhak günü 10 Ekim 1920'dir." },
+  kaynak:"IBS No. 58 (Revised) Austria–Italy (md. 27 alıntısı, 1920 talimatı, 1924 demarkasyonu)", ic_not_gun:"Çapraz sorgu C010 (UC-KAYNAK-SONUC): atlas 1920-01-01 → önerilen 1920-07-16 (sinir_id d1923-it-at kırılma günüyle bağlı olduğundan t DEĞİŞTİRİLMEDİ); RIS, UNESCO Avusturya ve cib.de yürürlüğü 16 Temmuz 1920 verir; 1 Ocak 1920'de antlaşma yürürlükte değildir ve ilhak günü 10 Ekim 1920'dir." },
 
 { t:"1920-01-01", devlet:"italya", devletler:["italya","isvicre"], sinir_id:"d1923-it-ch-saintgermain",
   b:"Güney Tirol'le birlikte eski Avusturya–İsviçre sınırının bir kesimi İtalya–İsviçre sınırı oldu", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",

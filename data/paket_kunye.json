@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "ad1b86079bc9b196",
-     "bayt": 4266181
+     "sha": "e0e1c1be074124a2",
+     "bayt": 4266382
     }
    ],
-   "bayt": 4446009
+   "bayt": 4446210
   },
   {
    "paket": "data/paket_06.js",
@@ -279,8 +279,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_avrupa_bati.js",
-     "sha": "8d7caf994cbf2d8c",
-     "bayt": 96762
+     "sha": "654213cd63666055",
+     "bayt": 96978
     },
     {
      "yol": "data/kronoloji_sinir_ortadogu.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1081376
+   "bayt": 1081592
   },
   {
    "paket": "data/paket_10.js",
@@ -1550,8 +1550,8 @@
     },
     {
      "yol": "data/kronoloji_cok_rusya.js",
-     "sha": "e179743690c973cf",
-     "bayt": 69674
+     "sha": "03deb8725ade37d2",
+     "bayt": 68885
     },
     {
      "yol": "data/kronoloji_cok_sirbistan.js",
@@ -1629,7 +1629,7 @@
      "bayt": 13934
     }
    ],
-   "bayt": 953733
+   "bayt": 952944
   }
  ]
 }
