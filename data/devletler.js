@@ -13842,7 +13842,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"sasani", ad:"Sâsânî İmparatorluğu", tur:"imparatorluk", bolge:"iran",
-  f:"0226-01-01", t:"0651-01-01", baskent:"Medâin (Ktesifon)", boya_gerekli:true,
+  f:"0224-04-28", t:"0651-01-01", baskent:"Medâin (Ktesifon)", boya_gerekli:true,
   ic_not_f:"TDV başlığı: '226-651 yılları arasında hüküm süren bir İran hânedanı' — YIL. Kuşak 500'de başlar; f kuşak dışı ama künyenin gerçek başlangıcıdır (kırpılmadı).",
   ic_not_t:"TDV: '651 yılında düşmanları tarafından Merv’de öldürülen Yezdicerd' [TDV: sasaniler] — YIL.",
   ozet:"Erdeşîr-i Bâbekân'ın kurduğu İran hânedanı; Kādisiye ve Nihâvend yenilgilerinden sonra III. Yezdicerd'in Merv'de öldürülmesiyle sona erdi. (kaynak: TDV, madde: sasaniler)",
@@ -13866,7 +13866,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"tahiri-horasan", ad:"Tâhirîler (Horasan)", tur:"hanedanlik", bolge:"iran",
-  f:"0821-01-01", t:"0873-01-01", baskent:"Merv → Nîşâbur", boya_gerekli:true,
+  f:"0821-05-06", t:"0873-01-01", baskent:"Merv → Nîşâbur", boya_gerekli:true,
   ic_not_f:"TDV başlığı: 'Horasan ve Mâverâünnehir’de hüküm süren bir hânedan (821-873)' — YIL. 'tahiriler' slug'ı 302 (ölü); canlı madde 'tahiriler--horasan'. 'tahiri' id'si Yemen Tâhirîleri'ne (1454) ait — karıştırma.",
   ic_not_t:"TDV: 'Ya‘kūb b. Leys, Şevval 259 (Ağustos 873) tarihinde Nîşâbur’u da alarak Tâhirîler’in Horasan’daki hâkimiyetine son verdi' — AY; gün yok ⇒ 0873-01-01.",
   ozet:"Tâhir b. Hüseyin'in Abbâsî valisi olarak Horasan'da kurduğu yarı bağımsız hânedan; Ya'kūb b. Leys Nîşâbur'u alınca sona erdi. (kaynak: TDV, madde: tahiriler--horasan)",
@@ -14091,7 +14091,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"uygur-kaganligi", ad:"Uygur Kağanlığı (Ötüken)", tur:"hanlik", bolge:"sibirya-bozkir",
-  f:"0745-01-01", t:"0840-01-01", baskent:"Ordu-Balık (Ötüken)", boya_gerekli:true,
+  f:"0744-01-01", t:"0840-01-01", baskent:"Ordu-Balık (Ötüken)", boya_gerekli:true,
   ic_not_f:"TDV: '745 yılında Uygur yabgusu Basmıl kağanını …' [TDV: uygurlar] — YIL. (742-743 Karluk-Basmıl-Uygur ittifakı Göktürk kağanı Ozmış'ı öldürür; TDV karluklar 'İkinci Göktürk Devleti’nin yıkılmasında (745)'.)",
   ic_not_t:"TDV: '840 yılındaki Kırgız saldırısı kağanlığın sonunu getirdi' [TDV: uygurlar] — YIL. Ardılı koco-uygur (911) künyede VAR; 840-911 arası Turfan/Kansu Uygur yapıları için ayrı künye açılmadı (bulunamadı bölümüne bakın).",
   ozet:"İkinci Göktürk Devleti'nin yıkılışından sonra Basmıl kağanlığını deviren Uygur yabgusunun Ötüken'de kurduğu kağanlık; Kırgız saldırısıyla sona erdi. (kaynak: TDV, madde: uygurlar)",
@@ -19134,7 +19134,7 @@ window.DEVLETLER = [
     { t:"-0187-01-01", tur:"antlasma", b:"Apameia Barışı: Selevkoslar Anadolu'nun büyük bölümünden vazgeçti, ağır tazminat ödedi (MÖ 188).", kaynak:"Britannica 'Anatolia' (peace of Apamea 188 BC); BMCR bmcr.brynmawr.edu/?p=23942" },
     { t:"-0062-01-01", tur:"son", b:"Pompeius Suriye'yi Roma eyaleti yaptı; Selevkos hanedanı sona erdi (MÖ 64/63).", kaynak:"Britannica 'Seleucid Empire' (summary: 64 BC); worldhistory.org/timeline/Seleucid_Empire/ (63 BC). Çelişki: 64 ve 63" }
   ] },
-{ id:"part", ad:"Part (Arsakid) Imparatorlugu", tur:"imparatorluk", bolge:"iran", f:"-0246-01-01", t:"0224-01-01", baskent:"Nisa → Ktesiphon", ozet:"Arsakes MO 247 (Britannica: c.250-c.211) – Sasani Ardesir I MS 224. Iran platosunun tamami Mithradates I (171-138) ile. Kesinlik yil.", kaynak:"https://www.britannica.com/topic/Arsacid-dynasty ; https://www.britannica.com/place/Parthia ; livius.org Arsaces I", kronoloji:[
+{ id:"part", ad:"Part (Arsakid) Imparatorlugu", tur:"imparatorluk", bolge:"iran", f:"-0246-01-01", t:"0224-04-28", baskent:"Nisa → Ktesiphon", ozet:"Arsakes MO 247 (Britannica: c.250-c.211) – Sasani Ardesir I MS 224. Iran platosunun tamami Mithradates I (171-138) ile. Kesinlik yil.", kaynak:"https://www.britannica.com/topic/Arsacid-dynasty ; https://www.britannica.com/place/Parthia ; livius.org Arsaces I", kronoloji:[
     { t:"-0246-01-01", tur:"kurulus", b:"I. Arsakes Part bölgesini ele geçirdi (MO 247).", kaynak:"WorldHistory.org 'Parthian Empire' (worldhistory.org/Parthian_Empire/)" },
     { t:"-0170-01-01", tur:"hukumdar", b:"I. Mithradates tahta çıktı (MO 171).", kaynak:"WorldHistory.org 'Parthian Empire' (worldhistory.org/Parthian_Empire/)" },
     { t:"-0052-01-01", tur:"savas", b:"Carrhae'de Partlar Crassus'u yenip öldürdü (MO 53).", kaynak:"WorldHistory.org 'Parthian Empire' (worldhistory.org/Parthian_Empire/)" },
@@ -19156,7 +19156,7 @@ window.DEVLETLER = [
     { t:"0116-01-01", tur:"isgal", b:"Roma İmparatoru Traianus Charax'ı ilhak etti.", kaynak:"https://en.wikipedia.org/wiki/Characene (ikincil)" },
     { t:"0222-01-01", tur:"son", b:"Sasani I. Erdeşir Karakene'yi fethetti; son kral III. Abinergaios.", kaynak:"https://en.wikipedia.org/wiki/Characene ; https://en.wikipedia.org/wiki/Charax_Spasinu (ikincil)" }
   ] },
-{ id:"atropatene", ad:"Atropatene (Med Atropatene) Krallığı", tur:"krallik", bolge:"kafkasya", f:"-0320-01-01", t:"0224-01-01", baskent:"Gazaka (Ganzak)", ozet:"DUZELTME: aday f=MO 323; Iranica 'Azerbaijan iii' bagimsizlik MO 321 (baska ongoru MO 328/327). Sasani Ardesir I tarafindan MS ~224'te sona erdirildi (Iranica 'Ganzak'; baska kaynak 226). Kesinlik yuzyil.", kaynak:"https://iranicaonline.org/articles/azerbaijan-iii ; Iranica 'Atropates' (Chaumont) ; Iranica 'Ganzak' (Boyce)", kronoloji:[
+{ id:"atropatene", ad:"Atropatene (Med Atropatene) Krallığı", tur:"krallik", bolge:"kafkasya", f:"-0320-01-01", t:"0226-01-01", baskent:"Gazaka (Ganzak)", ozet:"DUZELTME: aday f=MO 323; Iranica 'Azerbaijan iii' bagimsizlik MO 321 (baska ongoru MO 328/327). Sasani Ardesir I tarafindan MS ~224'te sona erdirildi (Iranica 'Ganzak'; baska kaynak 226). Kesinlik yuzyil.", kaynak:"https://iranicaonline.org/articles/azerbaijan-iii ; Iranica 'Atropates' (Chaumont) ; Iranica 'Ganzak' (Boyce)", kronoloji:[
     { t:"-0320-01-01", tur:"kurulus", b:"Atropates'in Medya Atropatene'de bağımsızlığı (MÖ 321; başka öngörü MÖ 328/327; kesinlik yüzyıl)", kaynak:"Encyclopaedia Iranica 'Azerbaijan iii' (iranicaonline.org/articles/azerbaijan-iii); Iranica 'Atropates'" },
     { t:"-0219-01-01", tur:"savas", b:"III. Antiokhos, Artabazanes'e karşı sefer düzenleyip onu bağımlı kıldı (MÖ 220)", kaynak:"Polybios, Historiai V.55; Iranica 'Atropates'" },
     { t:"-0035-01-01", tur:"savas", b:"Antonius'un Part seferinde Atropatene kralı Artavazdes'e karşı Phraaspa kuşatması (MÖ 36)", kaynak:"Plutarkhos, Antonius 38-39; Iranica 'Atropates'" },
@@ -19182,7 +19182,7 @@ window.DEVLETLER = [
     { t:"-0062-01-01", tur:"vassal", b:"Pompeius üç aylık kuşatmadan sonra Tapınak Dağı'nı alır; Yahudiye Roma'ya bağlı vasal krallığa dönüşür.", kaynak:"Jewish Encyclopedia 'Pompey the Great' https://jewishencyclopedia.com/articles/12264" },
     { t:"-0036-01-01", tur:"son", b:"Herodes Kudüs'ü alır; son Hasmoni hükümdarı Antigonos Antakya'da Antonius'a teslim edilip idam edilir.", kaynak:"Smith, Dictionary of Greek and Roman Biography 'Antigonus' https://cts.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/A.antigonus_8" }
   ] },
-{ id:"herodes-krallik", ad:"Herodes Hanedani Krallığı (Roma vasali)", tur:"vasal-krallik", bolge:"suriye-filistin", f:"-0036-01-01", t:"0092-01-01", baskent:"Kudus", ozet:"Herodes MO 37 – II. Agrippa'nin olumu MS ~92-100; krallik MO 4'te bolundu. Kesinlik yuzyil (t).", kaynak:"Wikipedia Herodian dynasty / Herod Agrippa II (ipucu); EBSCO Herodian dynasty; livius.org Herod Agrippa II", kronoloji:[
+{ id:"herodes-krallik", ad:"Herodes Hanedani Krallığı (Roma vasali)", tur:"vasal-krallik", bolge:"suriye-filistin", f:"-0036-01-01", t:"0093-01-01", baskent:"Kudus", ozet:"Herodes MO 37 – II. Agrippa'nin olumu MS ~92-100; krallik MO 4'te bolundu. Kesinlik yuzyil (t).", kaynak:"Wikipedia Herodian dynasty / Herod Agrippa II (ipucu); EBSCO Herodian dynasty; livius.org Herod Agrippa II", kronoloji:[
     { t:"-0036-01-01", tur:"kurulus", b:"Herodes Kudüs'ü kuşatıp alır, Hasmoni Antigonos'u devirir ve Yahudiye'de tek hükümdar olur.", kaynak:"Smith, Dictionary of Greek and Roman Biography 'Antigonus' https://cts.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/A.antigonus_8; posenlibrary.com 'The Rise and Rule of Herod the Great'" },
     { t:"-0003-01-01", tur:"hukumdar", b:"Büyük Herodes ölür; krallığı oğulları Arkhelaos, Antipas ve Philippos arasında bölünür.", kaynak:"Schürer'e göre MÖ 4 (Mart-Nisan); Filmer'e göre MÖ 1: https://en.wikipedia.org/wiki/Herod_the_Great (ikincil); https://virtualreligion.net/iho/herod_1.html" },
     { t:"0006-01-01", tur:"toprak-kayip", b:"Arkhelaos'un toprakları Roma'ya katılır, Yahudiye doğrudan Roma yönetimine girer.", kaynak:"Wikipedia 'Herodian kingdom' (ikincil) https://en.wikipedia.org/wiki/Herodian_kingdom" },
@@ -19228,7 +19228,7 @@ window.DEVLETLER = [
     { t:"0580-01-01", tur:"hukumdar", b:"Numan III b. Munzir donemi basladi (580-602)", kaynak:"TDV Islam Ansiklopedisi, Lahmiler https://islamansiklopedisi.org.tr/lahmiler" },
     { t:"0602-01-01", tur:"son", b:"Numan III Sasani sarayinda tutuklanip oldurulunce Lahmi hanedani sona erdi", kaynak:"TDV Islam Ansiklopedisi, Lahmiler https://islamansiklopedisi.org.tr/lahmiler" }
   ] },
-{ id:"gassani", ad:"Gassaniler", tur:"krallik-filarkhlik", bolge:"suriye-filistin", f:"0200-01-01", t:"0636-01-01", baskent:"belirsiz (Cabiye)", ozet:"DUZELTME: TDV maddesi baslikta '200-636' verir (kurucu Cefne ~200); aday f=529 Haris b. Cebele'nin 'buyuk emir (phylarchos)' unvani alma yilidir, kurulus degil. 613-614 Sasani istilasi hakimiyeti sarstı; Cebele b. Eyhem Yermuk (636) sonrasi cekildi. Kesinlik yuzyil.", kaynak:"TDV 'Gassaniler' https://islamansiklopedisi.org.tr/gassaniler ; TDV 'Yermuk Savasi'", kronoloji:[
+{ id:"gassani", ad:"Gassaniler", tur:"krallik-filarkhlik", bolge:"suriye-filistin", f:"0200-01-01", t:"0636-08-20", baskent:"belirsiz (Cabiye)", ozet:"DUZELTME: TDV maddesi baslikta '200-636' verir (kurucu Cefne ~200); aday f=529 Haris b. Cebele'nin 'buyuk emir (phylarchos)' unvani alma yilidir, kurulus degil. 613-614 Sasani istilasi hakimiyeti sarstı; Cebele b. Eyhem Yermuk (636) sonrasi cekildi. Kesinlik yuzyil.", kaynak:"TDV 'Gassaniler' https://islamansiklopedisi.org.tr/gassaniler ; TDV 'Yermuk Savasi'", kronoloji:[
     { t:"0200-01-01", tur:"kurulus", b:"Kurucu Cefne ile Gassânîler Suriye'nin güneyinde hâkimiyet kurdu (~200, yüzyıl düzeyi).", kaynak:"TDV İslâm Ansiklopedisi 'Gassâniler' https://islamansiklopedisi.org.tr/gassaniler (içerik bu oturumda doğrudan çekilmedi, künye özetine dayanır)" },
     { t:"0529-01-01", tur:"hukumdar", b:"Hâris b. Cebele Bizans tarafından büyük emir (phylarchos) unvanını aldı.", kaynak:"TDV 'Gassâniler' https://islamansiklopedisi.org.tr/gassaniler (künye özeti; gün bilinmiyor)" },
     { t:"0613-01-01", tur:"isgal", b:"Sâsânî istilası (613-614) Gassânî hâkimiyetini sarstı.", kaynak:"TDV 'Gassâniler' https://islamansiklopedisi.org.tr/gassaniler (künye özeti)" },
@@ -19260,7 +19260,7 @@ window.DEVLETLER = [
     { t:"0893-01-01", tur:"isgal", b:"Muhammed b. Nûr komutasındaki Abbâsî seferi İbâzî direnişine rağmen Umman'ı ele geçirdi (280); imamlık gizli sürdü.", kaynak:"https://islamansiklopedisi.org.tr/ibaziyye" },
     { t:"0932-01-01", tur:"hukumdar", b:"Ebü'l-Kāsım Saîd b. Abdullah imamlığı etrafında İbâzîleri toplayıp yeniden örgütledi (320).", kaynak:"https://islamansiklopedisi.org.tr/ibaziyye" }
   ] },
-{ id:"yufiri", ad:"Yu'firiler (Yemen)", tur:"emirlik", bolge:"arabistan", f:"0861-01-01", t:"0963-01-01", baskent:"San'a / Sibam Kevkeban", ozet:"DUZELTME ve CELISKI: TDV'nin Asya maddesi cetveli 'Ya'furiler (861-963)' verir; KURE Ansiklopedisi ve Wikipedia 847-997 verir. TDV oncelikli kural geregi 861-963 yazildi, ancak TDV cetveli bu turda yalniz snippet'ten okundu — tam metinle dogrulanmali. Kesinlik yil.", kaynak:"TDV (Asya maddesi cetveli, snippet); KURE 'San'a' https://kureansiklopedi.com/tr/detay/sana-2 ; Wikipedia Yu'firids (ipucu)", kronoloji:[
+{ id:"yufiri", ad:"Yu'firiler (Yemen)", tur:"emirlik", bolge:"arabistan", f:"0847-01-01", t:"0963-01-01", baskent:"San'a / Sibam Kevkeban", ozet:"DUZELTME ve CELISKI: TDV'nin Asya maddesi cetveli 'Ya'furiler (861-963)' verir; KURE Ansiklopedisi ve Wikipedia 847-997 verir. TDV oncelikli kural geregi 861-963 yazildi, ancak TDV cetveli bu turda yalniz snippet'ten okundu — tam metinle dogrulanmali. Kesinlik yil.", kaynak:"TDV (Asya maddesi cetveli, snippet); KURE 'San'a' https://kureansiklopedi.com/tr/detay/sana-2 ; Wikipedia Yu'firids (ipucu)", kronoloji:[
     { t:"0882-01-01", tur:"hukumdar", b:"Muhammed b. Yu'fir öldü (269); oğlu İbrâhim tek hükümdar oldu.", kaynak:"https://erenow.org/postclassical/new-islamic-dynasties-chronological-genealogical-manual/44.php (Bosworth, New Islamic Dynasties)" },
     { t:"0886-06-03", tur:"hukumdar", b:"Yu'firî hükümdarı İbrâhîm b. Muhammed öldürülür (273/886)", kaynak:"TDV İslâm Ansiklopedisi, 'Yemen' maddesi https://islamansiklopedisi.org.tr/yemen" },
     { t:"0897-01-01", tur:"siyaset", b:"Zeydî imam Hâdî Yahyâ b. Hüseyin Sa'de'ye gelip Zeydî imamlığını kurdu (284); Yu'firîler San'a'da rakip kazandı.", kaynak:"https://islamansiklopedisi.org.tr/yemen" },
@@ -21104,7 +21104,7 @@ window.DEVLETLER = [
     { t:"0340-01-01", tur:"baskent", b:"Tuoba Shiyijian başkenti yeniden Shengle'ye taşıdı; devletin merkezi 376'ya dek orada kaldı.", kaynak:"https://en.wikipedia.org/wiki/Dai_(Sixteen_Kingdoms) (Grousset 1970)" },
     { t:"0376-01-01", tur:"son", b:"Shiyijian'ın oğlu Shijun tarafından öldürülmesiyle çöken Dai, Fu Jian'ın Önceki Qin'i tarafından fethedilir.", kaynak:"chinaknowledge.de Tuoba/Taghbach http://www.chinaknowledge.de/History/Altera/taghbach.html" }
   ] },
-{ id:"xueyantuo-kaganligi", ad:"Xueyantuo (Sir-Tardus) Kaganligi", tur:"kaganlik", bolge:"orta-asya", f:"0628-01-01", t:"0646-01-01", baskent:"Tola vadisi (Kuzey Mogolistan)", ozet:"Tiele boylarindan Xueyantuo'nun Yinan (Zhenzhu Kagan) onderliginde Dogu Gokturk cokusunden sonra Mogolistan bozkirinda kurdugu kaganlik; 646'da Uygurlarin ve Tang'in saldirisiyla yikildi (kurulus 628/629 kaynaklarda degisir; Yinan 628-645).", kaynak:"historystudies.net 'The Khanate of Xueyantuo (Sir-Tardush)' (bitis: 'completely disbanded in 646'); baslangic 628 icin WebSearch ozetleri (Tang kaynakli ikincil); 628/629 farki notlu", kronoloji:[
+{ id:"xueyantuo-kaganligi", ad:"Xueyantuo (Sir-Tardus) Kaganligi", tur:"kaganlik", bolge:"orta-asya", f:"0627-01-01", t:"0646-01-01", baskent:"Tola vadisi (Kuzey Mogolistan)", ozet:"Tiele boylarindan Xueyantuo'nun Yinan (Zhenzhu Kagan) onderliginde Dogu Gokturk cokusunden sonra Mogolistan bozkirinda kurdugu kaganlik; 646'da Uygurlarin ve Tang'in saldirisiyla yikildi (kurulus 628/629 kaynaklarda degisir; Yinan 628-645).", kaynak:"historystudies.net 'The Khanate of Xueyantuo (Sir-Tardush)' (bitis: 'completely disbanded in 646'); baslangic 628 icin WebSearch ozetleri (Tang kaynakli ikincil); 628/629 farki notlu", kronoloji:[
     { t:"0629-01-01", tur:"kurulus", b:"Yinan, Tang baskısıyla Inču Bilge Kağan unvanıyla yeni Xueyantuo kağanlığını ilan etti (künye f 628; kaynaklar 628/629)", kaynak:"Wikipedia 'Xueyantuo' (ikincil; Jiu Tangshu c.199, Zizhi Tongjian c.192-199'a dayanır, birincil doğrudan okunmadı)" },
     { t:"0630-03-27", tur:"savas", b:"Tang müttefiki Xueyantuo Doğu Göktürk'ü Yin Dağları'nda yendi", kaynak:"Wikipedia 'Xueyantuo' (ikincil; Zizhi Tongjian)" },
     { t:"0632-01-01", tur:"toprak-kazanc", b:"Sy Yabgu ordusu püskürtüldü; Karluk ve Yenisey Kırgızları boyun eğdirildi", kaynak:"Wikipedia 'Xueyantuo' (ikincil)" },
