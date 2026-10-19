@@ -1307,12 +1307,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"sirvansah", ad:"Şirvanşahlar", tur:"devlet", bolge:"kafkasya",
-  f:"0861-01-01", t:"1538-10-01", baskent:"Şamahı",
+  f:"0799-02-12", ic_not_f:"[19 Ekim 2026 kunye turu] TDV sirvansahlar: baslik '799-1607 yillari arasinda hukum suren hanedan'; govde: Yezid b. Mezyed 'Azerbaycan, Sirvan ve Babulebvab bolgesine vali tayin etti (183/799). Boylece ... Mezyedi Sirvansahlar hanedaninin temelleri atilmis oldu'; 247/861 = Heysem b. Halid'in bagimsiz Sirvansah unvani. Hicri 183 ∩ 799 ilk gun 0799-02-12. Ayni polity genisletildi (onceki f 861 = bagimsizlik).", t:"1538-10-01", baskent:"Şamahı",
   ozet:"Doğu Kafkasya'da uzun ömürlü yerel hanedan (hanedan ömrü); Arap fethi sonrası valilerden teşekkül etti, Şah Tahmasb'ın 1538'de hâkimiyetine son vermesiyle Safevî vilayeti oldu.",
   kaynak:"sirvan",
   tabi:[{f:"1501-07-01", t:"1538-10-01", ust:"safevi"}],  // TDV sirvanşahlar: 1500'de Şah İsmâil Ferruh Yesâr'ı yendi, Bakü/Şemâhî alındı; hanedan Safevîler'e vergi ödeyen, iç işlerinde serbest yerel hanedan olarak 1538'e dek sürdü. f = Safevî künyesinin f'i (üst devlet yokken tâbilik yazılmaz) · post-it #74
   kronoloji:[
-    { t:"0861-01-01", tur:"kurulus", b:"Yezîdî hanedanı tarafından Şamahı merkezli kuruldu" },
+    { t:"0799-02-12", tur:"kurulus", b:"Yezîd b. Mezyed Azerbaycan, Şirvan ve Bâbülebvâb valiliğine tayin edildi; Mezyedî Şirvanşahlar hânedanının temelleri atıldı (183/799)", kaynak:"TDV: sirvansahlar" },
+    { t:"0861-03-17", tur:"siyaset", b:"Heysem b. Hâlid Şirvanşah unvanıyla bağımsızlığını ilân etti (247/861; hicrî kesişim ilk günü, yıl teyitli)", kaynak:"TDV: sirvansahlar" },
     { t:"1027-01-01", tur:"hukumdar", b:"Kesrânî hanedanı Yezîdîlerin yerine geçti" },
     { t:"1382-01-01", tur:"antlasma", b:"I. İbrâhim, Timur'a bağlılığını bildirerek bağımsızlığını korudu" },
     { t:"1395-01-01", tur:"ittifak", b:"Timur'un Toktamış'a karşı Altın Orda seferine destek verdi" },
@@ -5524,11 +5525,12 @@ window.DEVLETLER = [
   ]
 },
 { id:"yuan-hanedani", ad:"Yuan Hanedanı (Moğol Çin)", tur:"hanedanlik", bolge:"dogu-asya",
-  f:"1271-01-01", t:"1368-09-14", baskent:"Hanbalık (Pekin)", harita:"yuan-hanedani",
+  f:"1260-01-01", ic_not_f:"[19 Ekim 2026 kunye turu] f = Kubilay'in han secildigi yil (Britannica 'Kublai Khan': 5 Mayis 1260, Shangdu; reigned 1260-94); hanedan adi Yuan 1271'de ilan edildi (Britannica 'Yuan dynasty'). Ayni polity genisletildi; mogol-imparatorlugu t=1260 ile bitisik. Yil hassasiyeti (mogol t ile tam bitisiklik icin 01-01).", t:"1368-09-14", baskent:"Hanbalık (Pekin)", harita:"yuan-hanedani",
   ozet:"Kubilay Han'ın Çin'de kurduğu, bütün Çin'i birleştiren Moğol hanedanı (bkz. [[mogol-imparatorlugu]]); veba, ekonomik çöküş ve Kızıl Sarıklı isyanlarıyla yıkılıp Moğollar bozkıra çekildi.",
   kaynak:"cin--ulke",
   kronoloji:[
-    { t:"1271-01-01", tur:"kurulus", b:"Kubilay Han, Çince \"Yuan\" hanedan adını ilan etti" },
+    { t:"1260-05-05", tur:"kurulus", b:"Kubilay Şangdu'da kurultayda han seçildi; Çin merkezli hanlık başladı", kaynak:"Britannica 'Kublai Khan'" },
+    { t:"1271-01-01", tur:"siyaset", b:"Kubilay Han, Çince \"Yuan\" hanedan adını ilan etti" },
     { t:"1279-03-19", tur:"toprak-kazanc", b:"Güney Song'u tamamen ilhak ederek Çin'i birleştirdi" },
     { t:"1351-01-01", tur:"isyan", b:"Kızıl Sarıklı isyanı başladı" },
     { t:"1368-09-14", tur:"son", b:"Zhu Yuanzhang Pekin'i aldı, Ming'i ilan etti; Moğollar kuzeye çekildi (Kuzey Yuan)" }
@@ -11725,15 +11727,16 @@ window.DEVLETLER = [
   ]
 },
 { id:"badusbani", ad:"Bâdüsbânîler (Rûyân üstândârları)", tur:"hanedanlik", bolge:"iran",
-  f:"0723-01-01", t:"1598-01-01", baskent:"Rûyân · (sonra) Kucur ve Nur", boya_gerekli:true,
+  f:"0665-01-01", t:"1598-01-01", baskent:"Rûyân · (sonra) Kucur ve Nur", boya_gerekli:true,
   alinti_slug:"badusbaniler",
-  ic_not_f:"⚠️ Kuruluş yılı TDV'de YOK; 105 (723-24) hânedanın başında II. Bâdüsbân'ın bulunduğu ilk tarihli tanıklıktır — kuruluş değil. Koordinatör f'yi 'ölçülemedi' işaretiyle tutsun. Grup C'nin kapsam listesinde yoktu; Kuzey İran yerel hânedanı olduğu için eklendi.",
+  ic_not_f:"[19 Ekim 2026 kunye turu] TDV badusbaniler baslik: 'Taberistan'in Ruyan, Rustemdar, Nur ve Kucur sehirlerinde 665-1598 yillari arasinda hukum suren mahalli bir hanedan' — f 665 baslik yili (govdede olay yok; yil hassasiyeti). Onceki beyan 'kurulus yili TDV'de YOK' yanlisti. 98 (716-17) ve 105 (723-24) govde tanikliklaridir. | ONCEKI BEYAN: ⚠️ Kuruluş yılı TDV'de YOK; 105 (723-24) hânedanın başında II. Bâdüsbân'ın bulunduğu ilk tarihli tanıklıktır — kuruluş değil. Koordinatör f'yi 'ölçülemedi' işaretiyle tutsun. Grup C'nin kapsam listesinde yoktu; Kuzey İran yerel hânedanı olduğu için eklendi.",
   ic_not_t:"Şah I. Abbas iki kola da son verdi (1598); kuşak dışı.",
   alinti_f:"105 (723-24) yılında hânedanın başında II. Bâdüsbân vardı.",
   alinti_t:"Safevî Hükümdarı Şah I. Abbas devrinde her iki kolun hâkimiyetine son verildi (1598).",
   ozet:"Sâsânî Taberistan valisinin soyundan Rûyân (batı Taberistan) hânedanı; Büveyhî, Selçuklu, Harizmşah ve Moğol tâbiiyetinde Safevîlere dek yaşadı.",
   kaynak:"TDV: badusbaniler (BÂDÜSBÂNÎLER)",
   kronoloji:[
+    { t:"0665-01-01", tur:"kurulus", b:"Bâdüsbânî hânedanı Taberistan'da kuruldu (TDV başlığı: 665-1598)", kaynak:"badusbaniler (TDV başlık yılı)" },
     { t:"0723-01-01", tur:"kurulus", b:"Bâdüsbânî hânedanı Taberistan'da hüküm sürüyordu (ilk tarihli tanıklık)", kaynak:"badusbaniler" },
     { t:"0864-02-17", tur:"isgal", b:"Aleviyye hânedanının kurucusu Hasan el-Alevî Taberistan'ı istilâ etti (250/864).", kaynak:"https://islamansiklopedisi.org.tr/badusbaniler" },
     { t:"0900-01-11", tur:"isgal", b:"Sâmânîler, Muhammed b. Zeyd el-Alevî'nin öldürülmesinden sonra Taberistan'a hâkim oldu (287/900).", kaynak:"https://islamansiklopedisi.org.tr/badusbaniler" },
@@ -12266,10 +12269,10 @@ window.DEVLETLER = [
   ]
 },
 { id:"gurjara-pratihara", ad:"Gürcara-Pratihâra Hanedanı (Kannauj)", tur:"hanedanlik", bolge:"guney-asya",
-  f:"1000-01-01", t:"1027-01-01", baskent:"Kannauj", boya_gerekli:true,
-  alinti_f:"Their feudatories became more and more powerful, one by one throwing off their allegiance until by the end of the 10th century the Pratiharas controlled little more than the Gangetic doab.",
+  f:"0783-01-01", t:"1027-01-01", baskent:"Kannauj", boya_gerekli:true,
+  alinti_f:"The founder of the later line, Nagabhata I (8th century), appears to have ruled in Malwa, and his grandnephew Vatsaraja is attested as king of Ujjain in 783.",
   alinti_t:"By the end of the 10th century the Pratihara feudatories—Chauhans (Chahamanas), Chandelas, Guhilas, Kalachuris, Paramaras, and Chaulukyas (also called Solankis)—were asserting their independence, although the last of the Pratiharas survived until 1027.",
-  ic_not_f:"🔴 f = KUŞAK UCU. Hanedan VIII. yüzyılda (I. Nagabhata) başlar; bu turda yalnız 1000-1027 kalıntısı önerildi.",
+  ic_not_f:"[19 Ekim 2026 kunye turu] f = ilk yil-belgeli tarih: Britannica 'Gurjara-Pratihara dynasty': Vatsaraja Ujjain krali 783; hanedan 8. yy'da I. Nagabhata ile (Malwa) baslar, yil verilmez; Kannauj'un alinisi ~816 ayri madde. Yil hassasiyeti. Aynı polity genisletildi (onceki f 1000 = motor ufku kusak ucu).",
   ic_not_t:"⚠️ Britannica iki sayfada iki ifade: 'survived until 1027' (India) ve 'For about a generation longer a small Pratihara principality apparently survived in the area of Allahabad' (Gurjara-Pratihara). Yıllı olan 1027 alındı.",
   ozet:"VIII-XI. yüzyıllarda Kuzey Hindistan'ın en önemli hanedanı; X. yüzyıl sonunda yalnız Gang-Yamuna arasına sıkıştı, son önemli kral Racyapala 1018'de Gazneli Mahmud tarafından Kannauj'dan çıkarıldı, son Pratiharalar 1027'ye kadar sürdü.",
   kaynak:"Britannica, «Gurjara-Pratihara dynasty» (britannica.com/topic/Gurjara-Pratihara-dynasty) + «India: Southern India»",
@@ -12412,13 +12415,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"ukayli", ad:"Ukaylîler", tur:"emirlik", bolge:"mezopotamya",
-  f:"0990-01-01", t:"1096-01-01", baskent:"Musul", boya_gerekli:true,
-  ic_not_f:"TDV ukayliler: \"Cezîretü İbn Ömer ve Beled’i de alan Ebü’z-Zevvâd, Ebû Tâhir İbrâhim ve oğlunu öldürüp Musul’u ele geçirdi (380/990) ve Musul’da Büveyhîler’e bağlı Ukaylîler hânedanı kuruldu.\" Gün yok → 0990-01-01.",
+  f:"0990-03-31", t:"1096-01-01", baskent:"Musul", boya_gerekli:true,
+  ic_not_f:"[19 Ekim 2026 kunye turu] TDV ukayliler: 'Musul'u ele gecirdi (380/990)' — hicri 380 ∩ 990 kesisiminin ilk gunu 0990-03-31 (tablo, ±1-2 gun). | ONCEKI BEYAN: TDV ukayliler: \"Cezîretü İbn Ömer ve Beled’i de alan Ebü’z-Zevvâd, Ebû Tâhir İbrâhim ve oğlunu öldürüp Musul’u ele geçirdi (380/990) ve Musul’da Büveyhîler’e bağlı Ukaylîler hânedanı kuruldu.\" Gün yok → 0990-01-01.",
   ic_not_t:"TDV ukayliler: \"… Ukaylîler’in Musul’daki hâkimiyeti böylece sona erdi (Zilkade 489 / Kasım 1096).\" Ay biliniyor, gün yok → 1096-01-01, gun: Kasım 1096. Ca‘ber-Rakka kolu 564'te (1169) Zengîler tarafından kaldırıldı — künye t'si Musul koluna göredir (bkz. notlar).",
   ozet:"Musul merkezli, Irak, el-Cezîre ve Kuzey Suriye'de hüküm süren Arap (Benî Ukayl) hânedanı. Önce Büveyhîler'e, sonra Selçuklular'a tâbi oldu; Musul hâkimiyeti 1096'da Kürboğa'nın şehri almasıyla bitti, küçük kolları XII. yüzyıla kadar sürdü.",
   kaynak:"TDV: ukayliler (UKAYLÎLER)",
   kronoloji:[
-    { t:"0990-01-01", tur:"kurulus", b:"Ebü'z-Zevvâd Musul'u aldı; Ukaylî hânedanı kuruldu", kaynak:"TDV: ukayliler" },
+    { t:"0990-03-31", tur:"kurulus", b:"Ebü'z-Zevvâd Musul'u aldı; Ukaylî hânedanı kuruldu", kaynak:"TDV: ukayliler" },
     { t:"0996-01-01", tur:"hukumdar", b:"Ebü'z-Zevvâd öldü (386/996); kardeşi Hüsâmüddevle Mukalled yerine geçti.", kaynak:"TDV İslâm Ansiklopedisi, Ukaylîler maddesi, https://islamansiklopedisi.org.tr/ukayliler" },
     { t:"1001-01-01", tur:"hukumdar", b:"Mukalled bir Türk gulâmı tarafından öldürüldü (Safer 391, Ocak 1001); oğlu Karvâş yerine geçti.", kaynak:"TDV İslâm Ansiklopedisi, Ukaylîler maddesi, https://islamansiklopedisi.org.tr/ukayliler" },
     { t:"1044-04-21", tur:"savas", b:"Karvâş, Musul'u almış olan Oğuzlar'ı yendi (20 Ramazan 435).", kaynak:"TDV İslâm Ansiklopedisi, Ukaylîler maddesi, https://islamansiklopedisi.org.tr/ukayliler" },
@@ -12434,13 +12437,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"mezyedi", ad:"Mezyedîler", tur:"emirlik", bolge:"mezopotamya",
-  f:"0997-01-01", t:"1163-01-01", baskent:"Nîl / Câmiayn → Hille (1102)", boya_gerekli:true,
-  ic_not_f:"TDV mezyediler: \"Böylece Büveyhîler’in hizmetine giren Senâüddevle Ali b. Mezyed, Bahâüddevle tarafından 387’de (997) muhtemelen Nîl, Fellûce ve Câmiayn’ı içine alan toprakların emîri olarak tanındı.\"",
+  f:"0997-01-14", t:"1163-01-01", baskent:"Nîl / Câmiayn → Hille (1102)", boya_gerekli:true,
+  ic_not_f:"[19 Ekim 2026 kunye turu] TDV mezyediler: 'Bahauddevle tarafindan 387'de (997) ... emiri olarak taninmistir' — hicri 387 ∩ 997 kesisiminin ilk gunu 0997-01-14 (tablo). | ONCEKI BEYAN: TDV mezyediler: \"Böylece Büveyhîler’in hizmetine giren Senâüddevle Ali b. Mezyed, Bahâüddevle tarafından 387’de (997) muhtemelen Nîl, Fellûce ve Câmiayn’ı içine alan toprakların emîri olarak tanındı.\"",
   ic_not_t:"TDV mezyediler: \"Bu sırada Mezyedîler’den 4000 kişi öldürüldü (558/1163)\"; TDV mustencid-billah: \"Batîha ve çevresi yardımlarından ötürü İbn Ma‘rûf’a verildi (558/1163).\" Hicrî 558 = Aralık 1162-Kasım 1163; TDV 1163 yazıyor. Not: 545-558 (1150-1163) arası TDV `mezyediler` maddesinin emîrler tablosu \"Selçuklu ve Abbâsî hâkimiyeti altında\" der (tablo `mustencid-billah`ta değil `mezyediler`dedir — UMIT-W49 6 Ekim 2026) — Hille 1150'de Sâlârkerd'e, 1156'da Sultan Muhammed'in kumandanlarına geçti.",
   ozet:"Benî Esed'in Nâşire koluna mensup, Merkezî Irak'ta (Hille) hüküm süren Şiî Arap emirliği. Büveyhî ve Selçuklu dönemlerinde yarı bağımsız kaldı; I. Sadaka zamanında Vâsıt, Basra ve Tikrît'e yayıldı; 1163'te Halife Müstencid'in birlikleri Hille'yi alarak hânedanı ortadan kaldırdı.",
   kaynak:"TDV: mezyediler (MEZYEDÎLER); mustencid-billah",
   kronoloji:[
-    { t:"0997-01-01", tur:"kurulus", b:"Ali b. Mezyed Büveyhîler tarafından emîr tanındı", kaynak:"TDV: mezyediler" },
+    { t:"0997-01-14", tur:"kurulus", b:"Ali b. Mezyed Büveyhîler tarafından emîr tanındı", kaynak:"TDV: mezyediler" },
     { t:"1018-01-01", tur:"hukumdar", b:"Ali b. Mezyed öldü (Zilkade 408, Nisan 1018); oğlu I. Dübeys yerine geçti.", kaynak:"TDV İslâm Ansiklopedisi, Mezyedîler maddesi, https://islamansiklopedisi.org.tr/mezyediler" },
     { t:"1055-12-18", tur:"siyaset", b:"Tuğrul Bey Bağdat'a girdi; Besâsîrî şehri terk edip Dübeys'e sığındı.", kaynak:"TDV İslâm Ansiklopedisi, Mezyedîler maddesi, https://islamansiklopedisi.org.tr/mezyediler" },
     { t:"1057-01-19", tur:"savas", b:"Besâsîrî ile Dübeys, Sincar'da Kutalmış komutasındaki Selçuklu ordusunu yendi.", kaynak:"TDV İslâm Ansiklopedisi, Mezyedîler maddesi, https://islamansiklopedisi.org.tr/mezyediler" },
@@ -13522,14 +13525,14 @@ window.DEVLETLER = [
 },
 // ── ONCE1281-KUNYE-1945-0930-ANADOLU-C (birleştiren KUNYE-1945-0930, 30 Eylül 2026) ──
 { id:"ani-bagratli-kralligi", ad:"Ani Bagratlı Ermeni Krallığı", tur:"krallik", bolge:"kafkasya",
-  f:"0884-01-01", t:"1045-01-01", baskent:"Ani (962'den; önce Bagaran, Kars)", boya_gerekli:true,
-  ic_not_f:"Iranica BAGRATIDS (tarayıcıda birebir): 'the Bagratids monopolized the office of presiding prince and then, in 884, converted it into kingship' — yıl; gün yok.",
+  f:"0885-06-18", t:"1045-01-01", baskent:"Ani (962'den; önce Bagaran, Kars)", boya_gerekli:true,
+  ic_not_f:"[19 Ekim 2026 kunye turu] KAYNAK CELISKISI: TDV van '885'te Bagrat hanedanindan Asot ... Ermenistan krali olarak taninmistir', TDV arran 'Asut 272'de (885-86) kral unvanini aldi' → hicri 272 ∩ 885 ilk gun 0885-06-18; Iranica Bagratids 884. Celiskide TDV esas (CLAUDE.md); onceki f 0884 Iranica'ya dayaniyordu. | ONCEKI BEYAN: Iranica BAGRATIDS (tarayıcıda birebir): 'the Bagratids monopolized the office of presiding prince and then, in 884, converted it into kingship' — yıl; gün yok.",
   ic_not_t:"Iranica yıl verir (1045); gün yok. Alıntı tarayıcıda birebir doğrulandı.",
   alinti_dogrulama:"birebir",
   ozet:"I. Aşot'un 884'te krallığa dönüştürdüğü Bagratlı Ermenistanı; III. Aşot merkezi Ani'ye taşıdı, son kral II. Gagik 1045'te İstanbul'da tahttan feragate zorlanınca Bizans'a katıldı.",
   kaynak:"Encyclopaedia Iranica, C. Toumanoff, 'BAGRATIDS' — https://www.iranicaonline.org/articles/bagratids-dynasty/ ; TDV: kars (KARS) Ani'ye taşınma. TDV'de 'ani' maddesi yok (slug 302; ani--sehir, ani-sehri, ani--kars, ani--kale 302; arama isabetsiz).",
   kronoloji:[
-    { t:"0884-01-01", tur:"kurulus", b:"Bagratlı Aşot prensliği krallığa dönüştürdü", kaynak:"Iranica, Toumanoff, BAGRATIDS" },
+    { t:"0885-06-18", tur:"kurulus", b:"Bagratlı Aşot prensliği krallığa dönüştürdü", kaynak:"Iranica, Toumanoff, BAGRATIDS" },
     { t:"0914-01-01", tur:"hukumdar", b:"Kral I. Smbat, Sâcî emiri Yûsuf'un esiri olarak Erenjak kalesi önünde öldürüldü (yaklaşık yıl; Sâcoğulları ile savaşın sonu).", kaynak:"Encyclopaedia Iranica, 'BANŪ SĀJ' (c. 301/914) https://www.iranicaonline.org/articles/banu-saj-more-correctly-al-abil-saj-a-family-named-after-its-ancestor-abul-saj-which-served-the-abbasid-caliphate-/" },
     { t:"0919-01-01", tur:"hukumdar", b:"Halife el-Muktedir, II. Aşot'a taç gönderip ona 'şahanşah' unvanını verdi (Iranica 919; öteki kaynaklar 922 verir).", kaynak:"Encyclopaedia Iranica, 'ARMENIA AND IRAN vi' https://www.iranicaonline.org/articles/armenia-vi/ ; TDV 'Sâcoğulları' (310/922) https://islamansiklopedisi.org.tr/sacogullari" },
     { t:"0922-01-01", tur:"savas", b:"II. Aşot ile Azerbaycan emiri Subük'ün birleşik kuvvetleri Dvin yakınında Bizans birliklerini bozguna uğrattı.", kaynak:"Encyclopaedia Iranica, 'ARMENIA AND IRAN vi' https://www.iranicaonline.org/articles/armenia-vi/" },
@@ -13906,9 +13909,9 @@ window.DEVLETLER = [
   ]
 },
 { id:"sacogullari", ad:"Sâcoğulları (Azerbaycan)", tur:"hanedanlik", bolge:"kafkasya",
-  f:"0889-01-01", t:"0929-01-01", baskent:"Merâga → Erdebîl", boya_gerekli:true,
+  f:"0889-01-01", t:"0929-09-09", baskent:"Merâga → Erdebîl", boya_gerekli:true,
   ic_not_f:"TDV başlığı: 'Azerbaycan’da hüküm süren bir Türk-İslâm hânedanı (889-929)' — YIL. bolge 'kafkasya' mı 'iran' mı: merkez Merâga (İran Azerbaycanı) — koordinatör seçsin.",
-  ic_not_t:"TDV başlığı (929) — YIL; gövdede son cümle ayrıca ölçülmedi.",
+  ic_not_t:"[19 Ekim 2026 kunye turu] TDV sacogullari: 'Sâban 317 (Eylul 929) tarihinde oldurulmesinin ardindan Sacogullari'nin Azerbaycan'daki hakimiyeti sona ermis oldu' — Saban 317 = 929-09-09…10-07 ∩ Eylul 929 → ilk gun 0929-09-09. | ONCEKI BEYAN: TDV başlığı (929) — YIL; gövdede son cümle ayrıca ölçülmedi.",
   ozet:"Üsrûşene kökenli Ebü's-Sâc ailesinin Abbâsî valisi sıfatıyla Azerbaycan ve Ermenistan'da kurduğu Türk-İslâm hânedanı. (kaynak: TDV, madde: sacogullari)",
   kaynak:"TDV: sacogullari (SÂCOĞULLARI)",
   kronoloji:[
@@ -13926,17 +13929,17 @@ window.DEVLETLER = [
     { t:"0927-12-07", tur:"savas", b:"Yûsuf, Karmatî lideri Ebû Tâhir el-Cennâbî'ye Kûfe yakınında yenilip esir düştü (9 Şevval 315; Iranica 8 Aralık verir).", kaynak:"TDV 'Sâcoğulları' https://islamansiklopedisi.org.tr/sacogullari ; Encyclopaedia Iranica 'BANŪ SĀJ'" },
     { t:"0928-01-01", tur:"hukumdar", b:"Esir düşen Yûsuf, kurtarma girişimi sırasında Karmatîlerce öldürüldü (Zilkade 315/Ocak 928).", kaynak:"Encyclopaedia Iranica, 'BANŪ SĀJ' https://www.iranicaonline.org/articles/banu-saj-more-correctly-al-abil-saj-a-family-named-after-its-ancestor-abul-saj-which-served-the-abbasid-caliphate-/" },
     { t:"0928-02-01", tur:"hukumdar", b:"Halife el-Muktedir, Yûsuf'un yeğeni Ebü'l-Müsâfir Feth'i Azerbaycan ve Ermînye valiliğine atadı (Zilhicce 315/Şubat 928).", kaynak:"TDV 'Sâcoğulları' https://islamansiklopedisi.org.tr/sacogullari ; Encyclopaedia Iranica 'BANŪ SĀJ'" },
-    { t:"0929-01-01", tur:"son", b:"Sâcoğulları hânedanı sona erdi", kaynak:"TDV: sacogullari başlığı (yıl)" }
+    { t:"0929-09-09", tur:"son", b:"Sâcoğulları hânedanı sona erdi", kaynak:"TDV: sacogullari başlığı (yıl)" }
   ]
 },
 { id:"tolunogullari", ad:"Tolunoğulları", tur:"hanedanlik", bolge:"misir-sudan",
-  f:"0868-01-01", t:"0905-01-01", baskent:"Fustat → Katâi", boya_gerekli:true,
-  ic_not_f:"TDV: 'Mısır Valisi Bayık Bey’in vekili sıfatıyla Mısır’a girdi, bu vesileyle hânedanın temellerini attı (254/868)' [TDV: tolunogullari] — YIL. 'tulunogullari' slug'ı 302.",
-  ic_not_t:"TDV: 'Şeybân … teslim oldu (Rebîülevvel 292 / Ocak 905). Ertesi gün Abbâsî ordusu Fustat’a girdi' [TDV: tolunogullari] — AY; gün yok ⇒ 0905-01-01 (tesadüfen Ocak; ay hassasiyeti ic_not'ta).",
+  f:"0868-09-15", t:"0905-01-11", baskent:"Fustat → Katâi", boya_gerekli:true,
+  ic_not_f:"[19 Ekim 2026 kunye turu] TDV ahmed-b-tolun: '15 Eylul 868'de Misir'a gitti' (hareket gunu; kesin hakimiyet girisi gun yok). | ONCEKI BEYAN: TDV: 'Mısır Valisi Bayık Bey’in vekili sıfatıyla Mısır’a girdi, bu vesileyle hânedanın temellerini attı (254/868)' [TDV: tolunogullari] — YIL. 'tulunogullari' slug'ı 302.",
+  ic_not_t:"[19 Ekim 2026 kunye turu] TDV muktefi-billah: 'Hutbeyi Halife Muktefi adina okuttu (1 Rebiulevvel 292 / 11 Ocak 905)' — gun TDV'den (1 Rebiulevvel 292 = 905-01-11 Julyen tablo). | ONCEKI BEYAN: TDV: 'Şeybân … teslim oldu (Rebîülevvel 292 / Ocak 905). Ertesi gün Abbâsî ordusu Fustat’a girdi' [TDV: tolunogullari] — AY; gün yok ⇒ 0905-01-01 (tesadüfen Ocak; ay hassasiyeti ic_not'ta).",
   ozet:"Ahmed b. Tolun'un Mısır'da kurduğu, İslâm döneminde Mısır'ın ilk müstakil hânedanı; Suriye'ye yayıldı, Abbâsî ordusu Fustat'a girince yıkıldı. (kaynak: TDV, madde: tolunogullari)",
   kaynak:"TDV: tolunogullari (TOLUNOĞULLARI)",
   kronoloji:[
-    { t:"0868-01-01", tur:"kurulus", b:"Ahmed b. Tolun vali vekili olarak Mısır'a girdi; Tolunoğulları'nın temelleri atıldı", kaynak:"TDV: tolunogullari: '(254/868)'" },
+    { t:"0868-09-15", tur:"kurulus", b:"Ahmed b. Tolun vali vekili olarak Mısır'a girdi; Tolunoğulları'nın temelleri atıldı", kaynak:"TDV: tolunogullari: '(254/868)'" },
     { t:"0870-01-01", tur:"baskent", b:"Yeni kurulan Katâi semtindeki saraya idare merkezi taşındı (256/870).", kaynak:"https://islamansiklopedisi.org.tr/tolunogullari" },
     { t:"0872-07-10", tur:"toprak-kazanc", b:"Kayınpederi Yârcûh et-Türkî'nin ölümünden sonra bütün Mısır Ahmed b. Tolun'un eline geçti (Ramazan 258 / Temmuz 872; ayın ilk günü).", kaynak:"https://islamansiklopedisi.org.tr/tolunogullari" },
     { t:"0884-01-01", tur:"hukumdar", b:"Ahmed b. Tolun öldü, yerine oğlu Humâreveyh geçti (270/884).", kaynak:"https://islamansiklopedisi.org.tr/tolunogullari" },
@@ -13945,7 +13948,7 @@ window.DEVLETLER = [
     { t:"0896-01-01", tur:"hukumdar", b:"Humâreveyh Dımaşk'ta hizmetçileri tarafından uyurken öldürüldü; oğlu Ceyş tahta çıktı, saltanatı altı ay sürdü (282-283/896).", kaynak:"https://islamansiklopedisi.org.tr/tolunogullari ; https://islamansiklopedisi.org.tr/humareveyh-b-ahmed-b-tolun" },
     { t:"0903-01-01", tur:"toprak-kayip", b:"Karmatîler Hama, Humus, Maarretünnu'mân ve Ba'lebek'i ele geçirdi; gönderilen Tolunî birlikleri yenildi (290/903).", kaynak:"https://islamansiklopedisi.org.tr/tolunogullari" },
     { t:"0904-12-13", tur:"hukumdar", b:"Hârûn b. Humâreveyh Abbâse'de öldürüldü; yönetim amcası Şeybân'a kaldı (Safer 292 / Aralık 904; ayın ilk günü).", kaynak:"https://islamansiklopedisi.org.tr/tolunogullari" },
-    { t:"0905-01-01", tur:"son", b:"Şeybân b. Ahmed teslim oldu, Abbâsî ordusu Fustat'a girdi; Tolunoğulları yıkıldı (Ocak 905)", kaynak:"TDV: tolunogullari: '(Rebîülevvel 292 / Ocak 905)'" }
+    { t:"0905-01-11", tur:"son", b:"Şeybân b. Ahmed teslim oldu, Abbâsî ordusu Fustat'a girdi; Tolunoğulları yıkıldı (Ocak 905)", kaynak:"TDV: tolunogullari: '(Rebîülevvel 292 / Ocak 905)'" }
   ]
 },
 { id:"ihsidi", ad:"İhşîdîler", tur:"hanedanlik", bolge:"misir-sudan",
@@ -14054,13 +14057,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"hamdani-musul", ad:"Hamdânîler (Musul kolu)", tur:"hanedanlik", bolge:"mezopotamya",
-  f:"0905-01-01", t:"0979-01-01", baskent:"Musul", boya_gerekli:true,
-  ic_not_f:"TDV başlığı '905-1004' (iki kol birlikte); gövde: 'Ebü’l-Heycâ 293’te (905-906) Musul … valiliğine getirilmiştir' — YIL (293 H. = 905-906; 905 alındı). Kol ayrımı 929'dan sonradır ('Onun ölümünden sonra Hamdânîler iki ayrı kol halinde'); Halep kolu hamdani-halep (944) — örtüşmez.",
-  ic_not_t:"TDV: 'Remle Emîri Müferric b. Dağfel’e yenilerek öldürüldü (369/979); onun ölümüyle de Hamdânîler’in el-Cezîre ve Musul’daki hâkimiyetleri fiilen sona erdi' [TDV: hamdaniler] — YIL. Kardeşler 380/990'da Ukaylîler'ce bertaraf edildi (ukayli künyesi 990 — tutarlı).",
+  f:"0905-11-02", t:"0979-07-29", baskent:"Musul", boya_gerekli:true,
+  ic_not_f:"[19 Ekim 2026 kunye turu] TDV hamdaniler: 'Ebu'l-Heyca 293'te (905-906) Musul valiligine getirilmistir' — hicri 293 ∩ 905-906 kesisiminin ilk gunu 0905-11-02 (Julyen tablo, ±1-2 gun). | ONCEKI BEYAN: TDV başlığı '905-1004' (iki kol birlikte); gövde: 'Ebü’l-Heycâ 293’te (905-906) Musul … valiliğine getirilmiştir' — YIL (293 H. = 905-906; 905 alındı). Kol ayrımı 929'dan sonradır ('Onun ölümünden sonra Hamdânîler iki ayrı kol halinde'); Halep kolu hamdani-halep (944) — örtüşmez.",
+  ic_not_t:"[19 Ekim 2026 kunye turu] TDV hamdaniler: Muferric b. Dagfel'e yenilerek olduruldu (369/979); hicri 369 ∩ 979 kesisiminin ilk gunu 0979-07-29 (tablo). | ONCEKI BEYAN: TDV: 'Remle Emîri Müferric b. Dağfel’e yenilerek öldürüldü (369/979); onun ölümüyle de Hamdânîler’in el-Cezîre ve Musul’daki hâkimiyetleri fiilen sona erdi' [TDV: hamdaniler] — YIL. Kardeşler 380/990'da Ukaylîler'ce bertaraf edildi (ukayli künyesi 990 — tutarlı).",
   ozet:"Tağlib kabilesinden Hamdân ailesinin Musul ve el-Cezîre'de hüküm süren kolu; Büveyhî baskısı ve Ebû Tağlib Gazanfer'in ölümüyle fiilen sona erdi. (kaynak: TDV, madde: hamdaniler)",
   kaynak:"TDV: hamdaniler (HAMDÂNÎLER)",
   kronoloji:[
-    { t:"0905-01-01", tur:"kurulus", b:"Ebü'l-Heycâ Abdullah b. Hamdân Musul valiliğine getirildi", kaynak:"TDV: hamdaniler: '293’te (905-906) Musul'" },
+    { t:"0905-11-02", tur:"kurulus", b:"Ebü'l-Heycâ Abdullah b. Hamdân Musul valiliğine getirildi", kaynak:"TDV: hamdaniler: '293’te (905-906) Musul'" },
     { t:"0929-03-02", tur:"hukumdar", b:"Ebü'l-Heycâ öldü; hânedan Musul ve Halep kollarına ayrıldı, Musul'da Nâsırüddevle Hasan öne çıktı", kaynak:"TDV: hamdaniler: '(17 Muharrem 317 / 2 Mart 929)'" },
     { t:"0935-01-01", tur:"siyaset", b:"Nâsırüddevle Hasan amcası Saîd'i öldürtüp Musul'u geri aldı ve halifenin gönderdiği İbn Mukle'nin kuvvetlerini bozdu (323/935).", kaynak:"TDV İslâm Ansiklopedisi, Hamdânîler maddesi, https://islamansiklopedisi.org.tr/hamdaniler" },
     { t:"0942-01-01", tur:"siyaset", b:"Hasan, emîrülümerâ İbn Râik'i ortadan kaldırdı; halife onu 'nâsırüddevle' unvanıyla emîrülümerâ tayin etti (330/942).", kaynak:"TDV İslâm Ansiklopedisi, Hamdânîler maddesi, https://islamansiklopedisi.org.tr/hamdaniler" },
@@ -14069,7 +14072,7 @@ window.DEVLETLER = [
     { t:"0958-01-01", tur:"siyaset", b:"Nâsırüddevle Halep'teki kardeşi Seyfüddevle'ye sığındı; kardeşinin borcu üstlenmesiyle Musul'a döndü (347/958).", kaynak:"TDV İslâm Ansiklopedisi, Hamdânîler maddesi, https://islamansiklopedisi.org.tr/hamdaniler" },
     { t:"0964-01-01", tur:"isgal", b:"Muizzüddevle Musul'u yeniden işgal edip yönetimi Ebû Tağlib Gazanfer'e verdi (353/964).", kaynak:"TDV İslâm Ansiklopedisi, Hamdânîler maddesi, https://islamansiklopedisi.org.tr/hamdaniler" },
     { t:"0969-01-01", tur:"hukumdar", b:"Nâsırüddevle Erdümüşt'te öldü (Rebîülevvel 358, Ocak-Şubat 969).", kaynak:"TDV İslâm Ansiklopedisi, Hamdânîler maddesi, https://islamansiklopedisi.org.tr/hamdaniler" },
-    { t:"0979-01-01", tur:"son", b:"Ebû Tağlib Gazanfer Remle'de öldürüldü; Hamdânîler'in Musul ve el-Cezîre hâkimiyeti fiilen sona erdi", kaynak:"TDV: hamdaniler: '(369/979)'" }
+    { t:"0979-07-29", tur:"son", b:"Ebû Tağlib Gazanfer Remle'de öldürüldü; Hamdânîler'in Musul ve el-Cezîre hâkimiyeti fiilen sona erdi", kaynak:"TDV: hamdaniler: '(369/979)'" }
   ]
 },
 { id:"hazar-kaganligi", ad:"Hazar Kağanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
@@ -17804,7 +17807,7 @@ window.DEVLETLER = [
     { t:"1921-02-26", tur:"antlasma", b:"Rus-İran antlaşması imzalanır; Gîlân cumhuriyetinin dış desteği zayıflar.", kaynak:"Encyclopaedia Iranica 'Rasht i. The City' https://www.iranicaonline.org/articles/rasht/" },
     { t:"1921-09-01", tur:"siyaset", b:"Sovyet birlikleri İran'dan çekilir; Enzelî'de yalnız bir kruvazör kalır, merkezî hükûmet güçleri Gîlân'a girip cumhuriyeti sona erdirir (Eylül 1921; gün kaynakta yok).", kaynak:"Encyclopaedia Iranica, CASPIAN SEA ii. Diplomatic History in Modern Times https://www.iranicaonline.org/articles/caspian-sea-ii-diplomatic-history-in-modern-times/" }
   ] },
-{ id:"hindu-sahiler", ad:"Hindu Şâhîler (Udabhandapura / Vahand)", tur:"hanedan", bolge:"guney-asya", f:"0870-01-01", t:"1026-01-01", baskent:"Kâbil → Udabhandapura → Nandana → Lahor", ozet:"Kâbil vadisi ve Gandhara'da Türk Şâhîler'in ardılı; Gazneli Mahmud karşısında Cayapala/Anandapala; 1026'da son buldu. Not: f İHTİLAFLI (Vikipedi 822/843, Viyana Üniv. projesi başkentin 870 dolayında Udabhandapura'ya geçtiği); 0870 'Hindu dönemi başlangıcı, yaklaşık'; Britannica yalnız 9. yy. der. t=1026 kaynaklar arası tutarlı.", kaynak:"Britannica 'Jayapala', 'Kallar', 'Afghanistan: first Muslim dynasties'; Viyana Üniv. Shahi Material Culture projesi (shahimaterialculture.univie.ac.at)", kronoloji:[
+{ id:"hindu-sahiler", ad:"Hindu Şâhîler (Udabhandapura / Vahand)", tur:"hanedan", bolge:"guney-asya", f:"0850-01-01", ic_not_f:"[19 Ekim 2026 kunye turu] TDV hindusahiler: 'yaklasik 850 yilinda Hinduşahiler denilen bu hanedani kurmustur' (baslik 850 (?)-1026). Yil hassasiyeti, yaklasik. 870 = baskent tasima (kunye-ici madde), kurulus degil.", t:"1026-01-01", baskent:"Kâbil → Udabhandapura → Nandana → Lahor", ozet:"Kabil vadisi ve Gandhara'da Turk Sahi'lerin ardili; Gazneli Mahmud karsisinda Cayapala/Anandapala; 1026'da son buldu. f: TDV 'Hindu Sahiler': yaklasik 850 (baslik '850 (?)-1026'); 870 Saffari Ya'kub'un Kabil'i alip baskentin Udabhandapura'ya tasindigi yaklasik yildir. t=1026 kaynaklar arasi tutarli.", kaynak:"Britannica 'Jayapala', 'Kallar', 'Afghanistan: first Muslim dynasties'; Viyana Üniv. Shahi Material Culture projesi (shahimaterialculture.univie.ac.at)", kronoloji:[
     { t:"0870-01-01", tur:"baskent", b:"Saffârî Ya'kûb b. Leys Kâbil'i alınca Şâhî başkenti Kâbil'den Udabhandapura'ya (Hund) taşındı; başkent 1001'e kadar orada kaldı (taşınma c. 870).", kaynak:"Abdur Rahman, The Last Two Dynasties of the Sahis (1976); Yogendra Mishra, The Hindu Shahis of Afghanistan and the Punjab (1972) - en.wikipedia.org/wiki/Hindu_Shahis atif dokumu uzerinden okundu" },
     { t:"0964-01-01", tur:"hukumdar", b:"Bhimadeva'nın ölümünün (c. 964-65, Hund yazıtında ritüel kendini yakma) ardından Cayapala tahta çıktı (c. 964).", kaynak:"Abdur Rahman, The Last Two Dynasties of the Sahis (1976); Yogendra Mishra, The Hindu Shahis of Afghanistan and the Punjab (1972) - en.wikipedia.org/wiki/Hindu_Shahis atif dokumu uzerinden okundu" },
     { t:"0986-01-01", tur:"savas", b:"Cayapala Gazne'ye yürüyüp Sebüktegin'in ordusuyla Guzak'ta karşılaştı; savaş tazminat (1 milyon Şâhî dirhemi, 50 fil) ve birkaç kale terkiyle bitti (986-87), Cayapala anlaşmayı bozunca Sebüktegin Lamgan'ı yağmaladı.", kaynak:"Abdur Rahman, The Last Two Dynasties of the Sahis (1976); Yogendra Mishra, The Hindu Shahis of Afghanistan and the Punjab (1972) - en.wikipedia.org/wiki/Hindu_Shahis atif dokumu uzerinden okundu" },
@@ -19162,7 +19165,7 @@ window.DEVLETLER = [
     { t:"-0035-01-01", tur:"savas", b:"Antonius'un Part seferinde Atropatene kralı Artavazdes'e karşı Phraaspa kuşatması (MÖ 36)", kaynak:"Plutarkhos, Antonius 38-39; Iranica 'Atropates'" },
     { t:"0224-01-01", tur:"son", b:"Sasani I. Erdeşir Atropatene krallığına son verdi (Ganzak; başka kaynak 226)", kaynak:"Encyclopaedia Iranica 'Ganzak' (Boyce); 'Azerbaijan iii'" }
   ] },
-{ id:"palmira", ad:"Palmira (Odaenathus-Zenobia) Imparatorlugu", tur:"imparatorluk", bolge:"suriye-filistin", f:"0260-01-01", t:"0273-01-01", baskent:"Palmira", ozet:"Odaenathus ~MS 260 – Aurelianus'un Palmira'yi almasi MS 272/273 (bazi kaynaklar 274 zafer alayi). Kesinlik yil.", kaynak:"Wikipedia Palmyrene Empire (ipucu); worldhistory.org Zenobia; Southern 2008", kronoloji:[
+{ id:"palmira", ad:"Palmira (Odaenathus-Zenobia) Imparatorlugu", tur:"imparatorluk", bolge:"suriye-filistin", f:"0260-01-01", t:"0273-01-01", ic_not_t:"[19 Ekim 2026 kunye turu] t 0273 kalir: TDV tedmur 272'de Aurelianus Tedmur'u ele gecirdi, ikinci isyandan sonra sehir tahrip edildi ve kralik sona erdi (yil yok); Britannica 'Zenobia/Palmyra': 273'te isyan ve yikim. 272 = Zenobia'nin yakalanmasi ayri olay.", baskent:"Palmira", ozet:"Odaenathus ~MS 260 – Aurelianus'un Palmira'yi almasi MS 272/273 (bazi kaynaklar 274 zafer alayi). Kesinlik yil.", kaynak:"TDV: tedmur (272 fetih); Britannica 'Zenobia', 'Palmyra' (273 yikim); Southern 2008", kronoloji:[
     { t:"0260-01-01", tur:"kurulus", b:"Odaenathus Palmira'nın başına geçip Doğu'da fiilî hâkimiyet kurdu (~260).", kaynak:"Southern 2008, The Roman Empire from Severus to Constantine; worldhistory.org Zenobia" },
     { t:"0267-01-01", tur:"hukumdar", b:"Odaenathus ve oğlu Herodes suikastla öldürüldü; Zenobia oğlu Vaballathus adına naip oldu (267 veya 268).", kaynak:"Britannica 'Zenobia' https://www.britannica.com/biography/Zenobia. Çelişki: 267 veya 268" },
     { t:"0269-01-01", tur:"toprak-kazanc", b:"Zenobia Mısır'ı ele geçirdi, Anadolu'nun bir kısmına yayıldı.", kaynak:"Britannica 'Zenobia' https://www.britannica.com/biography/Zenobia" },
@@ -19269,11 +19272,11 @@ window.DEVLETLER = [
     { t:"0944-01-01", tur:"hukumdar", b:"Yu'firî Es'ad b. Ya'fur ölür (332/944)", kaynak:"TDV İslâm Ansiklopedisi, 'Yemen' maddesi https://islamansiklopedisi.org.tr/yemen" },
     { t:"0955-01-01", tur:"hukumdar", b:"Abdullah b. Kahtân hükümdarlığa geçti (344); iktidarı rakiplerce tartışmalıydı.", kaynak:"https://erenow.org/postclassical/new-islamic-dynasties-chronological-genealogical-manual/44.php (Bosworth, New Islamic Dynasties)" }
   ] },
-{ id:"taberistan-zeydi", ad:"Taberistan Zeydileri (Aleviler) — I. donem", tur:"emirlik", bolge:"iran", f:"0864-01-01", t:"0900-01-01", baskent:"Amul", ozet:"DUZELTME: TDV: Hasan b. Zeyd 250/864'te Deylem/Kelar/Salus/Ruyan biatiyla kurdu, 270/884'te oldu; Muhammed b. Zeyd merkezi Curcan'a tasidi; birinci donem 287/900'de Samaniler karsisinda bitti. 301/914'te Utrus ile yeniden kurulup ~928'e dek surer (ziyari kunyesiyle sinir kontrolu gerekir). Kesinlik yil.", kaynak:"TDV 'Taberistan' https://islamansiklopedisi.org.tr/taberistan ; TDV 'Hasan el-Alevi' https://islamansiklopedisi.org.tr/hasan-el-alevi", kronoloji:[
+{ id:"taberistan-zeydi", ad:"Taberistan Zeydileri (Aleviler) — I. donem", tur:"emirlik", bolge:"iran", f:"0864-02-13", ic_not_f:"[19 Ekim 2026 kunye turu] TDV taberistan: Hasan b. Zeyd 250/864; hicri 250 ∩ 864 ilk gun 0864-02-13 (0864-01-01 hicri 249'a duser).", t:"0900-01-07", ic_not_t:"[19 Ekim 2026 kunye turu] TDV taberistan: birinci donem 287/900; hicri 287 ∩ 900 ilk gun 0900-01-07.", baskent:"Amul", ozet:"DUZELTME: TDV: Hasan b. Zeyd 250/864'te Deylem/Kelar/Salus/Ruyan biatiyla kurdu, 270/884'te oldu; Muhammed b. Zeyd merkezi Curcan'a tasidi; birinci donem 287/900'de Samaniler karsisinda bitti. 301/914'te Utrus ile yeniden kurulup ~928'e dek surer (ziyari kunyesiyle sinir kontrolu gerekir). Kesinlik yil.", kaynak:"TDV 'Taberistan' https://islamansiklopedisi.org.tr/taberistan ; TDV 'Hasan el-Alevi' https://islamansiklopedisi.org.tr/hasan-el-alevi", kronoloji:[
     { t:"0864-02-16", tur:"kurulus", b:"Hasan b. Zeyd, Deylem, Kelâr, Şâlûs ve Rûyân halkının biatıyla Taberistan Zeydîleri'ni kurar (250/864).", kaynak:"TDV 'Taberistan' https://islamansiklopedisi.org.tr/taberistan" },
     { t:"0874-01-01", tur:"savas", b:"Yakub b. Leys es-Saffâr Sâriye ve Âmül'e girer ama şiddetli yağmurlar yüzünden ağır zayiatla çekilir; Hasan b. Zeyd Taberistan'a yeniden hâkim olur (260/874).", kaynak:"TDV İslâm Ansiklopedisi, TABERİSTAN, https://islamansiklopedisi.org.tr/taberistan" },
     { t:"0884-01-01", tur:"hukumdar", b:"Hasan b. Zeyd ölür (270/884); kardeşi Muhammed b. Zeyd yönetimi alır ve merkezi Âmül'den Cürcân'a taşır.", kaynak:"TDV 'Taberistan' https://islamansiklopedisi.org.tr/taberistan" },
-    { t:"0900-01-01", tur:"son", b:"Zeydî ordusu Cürcân'da Sâmânîlere yenilir; Taberistan Zeydî Devleti'nin birinci dönemi sona erer ve bölge on dört yıl Sâmânî hâkimiyetinde kalır (287/900).", kaynak:"TDV İslâm Ansiklopedisi, TABERİSTAN, https://islamansiklopedisi.org.tr/taberistan" }
+    { t:"0900-01-07", tur:"son", b:"Zeydî ordusu Cürcân'da Sâmânîlere yenilir; Taberistan Zeydî Devleti'nin birinci dönemi sona erer ve bölge on dört yıl Sâmânî hâkimiyetinde kalır (287/900).", kaynak:"TDV İslâm Ansiklopedisi, TABERİSTAN, https://islamansiklopedisi.org.tr/taberistan" }
   ] },
 { id:"minos", ad:"Minos (Minos Saray) Uygarlığı", tur:"uygarlik-saray-devletleri-siyasi-birlik-tartismali", bolge:"balkanlar", f:"-1899-01-01", t:"-1449-01-01", baskent:"Knossos", ozet:"Knossos ilk saray ~MO 1900; Miken egemenligi ~MO 1470-1420; son yikim MO ~1350-1380. Kesinlik onyil, guven dusuk.", kaynak:"Wikipedia Minoan palaces / Cnossos (ipucu); Shaw 2000; Cadogan; Warren-Hankey", kronoloji:[
     { t:"-1899-01-01", tur:"kurulus", b:"Knossos'ta ilk saray kuruldu (MÖ ~1900, yaklaşık).", kaynak:"https://www.worldhistory.org/Minoan_Civilization/" },
@@ -19719,7 +19722,7 @@ window.DEVLETLER = [
     { t:"0805-09-21", tur:"vassal", b:"Avar kağanı Şarlman'dan üstün egemenliğini yeniden kurmasını istedi ve Fischa Nehri'nde Abraham adıyla vaftiz edildi.", kaynak:"Livius.org, Avars (https://www.livius.org/articles/people/avars/)" },
     { t:"0822-01-01", tur:"siyaset", b:"Avarların Frank sarayına gönderdiği son elçilik kayda geçti (822).", kaynak:"Livius.org, Avars (https://www.livius.org/articles/people/avars/)" }
   ] },
-{ id:"buyuk-bulgaristan", ad:"Büyük Bulgaristan (Kubrat)", tur:"kabile-devleti", bolge:"dogu-avrupa", f:"0635-01-01", t:"0680-01-01", baskent:"Phanagoria", ozet:"Kubrat'ın Avar'a isyanı 635; Kubrat ~642'de öldü; Hazar baskısıyla Bulgarlar ~680'de bölündü, Asparuh 681'de Birinci Bulgar İmparatorluğu. Kesinlik onyıl.", kaynak:"Britannica 'Great Bulgaria', 'Bulgar', 'First Bulgarian empire'", kronoloji:[
+{ id:"buyuk-bulgaristan", ad:"Büyük Bulgaristan (Kubrat)", tur:"kabile-devleti", bolge:"dogu-avrupa", f:"0635-01-01", ic_not_f:"[19 Ekim 2026 kunye turu] TDV: kurulus 630 ('Idil Bulgar') / 635 ('Hazarlar'); 635 alindi.", t:"0680-01-01", ic_not_t:"[19 Ekim 2026 kunye turu] TDV: Kurt 665'te oldu, Hazar saldirisiyla yikildi (665 sonrasi, kesin yil yok); 680 = Asparuh'un Tuna'ya gecisi (Britannica). t'ye dokunulmadi.", baskent:"Phanagoria", ozet:"Kubrat'ın Avar'a isyanı 635; Kubrat ~642'de öldü; Hazar baskısıyla Bulgarlar ~680'de bölündü, Asparuh 681'de Birinci Bulgar İmparatorluğu. Kesinlik onyıl.", kaynak:"Britannica 'Great Bulgaria', 'Bulgar', 'First Bulgarian empire'", kronoloji:[
     { t:"0635-01-01", tur:"antlasma", b:"Kubrat, Avarlardan bağımsızlaşıp Bulgar boylarını birleştirdi; Bizans'la antlaşma (635).", kaynak:"Patriarch Nikephoros 'Short History'ya dayanan ikincil özet (julita.usask.ca; en.wikipedia.org/wiki/Asparuh_of_Bulgaria)" },
     { t:"0680-01-01", tur:"bolunme", b:"Hazar baskısıyla Bulgarlar bölündü; Asparuh Tuna deltasına yerleşip Ongal'da Bizans'ı yendi (680).", kaynak:"https://en.wikipedia.org/wiki/Asparuh_of_Bulgaria (ikincil)" }
   ] },
@@ -19853,12 +19856,12 @@ window.DEVLETLER = [
     { t:"0467-01-01", tur:"savas", b:"Sasani Peroz I Kidarit kralı (Kunkhas/Kounchas) karşısında zafer kazanır.", kaynak:"Encyclopaedia Iranica 'Kidarites' (iranicaonline.org/articles/kidarites/)" },
     { t:"0467-01-01", tur:"son", b:"Balh Sasanilere geçer; Tokharistan Eftalitlere kaybedilir.", kaynak:"Encyclopaedia Iranica 'Kidarites' (iranicaonline.org/articles/kidarites/)" }
   ] },
-{ id:"hivite-afrigid", ad:"Hârezm Afrigîleri", tur:"hanedanlik", bolge:"orta-asya", f:"0305-01-01", t:"0995-01-01", baskent:"Kâs (Kath)", ozet:"Bîrûnî'ye göre 305 (Seleukos 616) - 385/995 (Me'mûnîler Kâs'ı alıp son Afrigî Ebû Abdullah Muhammed'i öldürdü). Bosworth: erken dizide ≥150 yıllık kopukluk; Vaĭnberg dinastinin efsanevi olabileceğini önerdi; sonraki hükümdarlar sikkelerden bilinir. Hicrî 385 ≈ Şubat 995 başı.", kaynak:"Encyclopaedia Iranica 'Al-e Afrig' (iranicaonline.org/articles/al-e-afrig/); TDV İslâm Ansiklopedisi 'Hârizm/Me'mûnîler'", kronoloji:[
+{ id:"hivite-afrigid", ad:"Hârezm Afrigîleri", tur:"hanedanlik", bolge:"orta-asya", f:"0305-01-01", t:"0995-02-05", ic_not_t:"[19 Ekim 2026 kunye turu] TDV memuniler: '385'te (995) ... hârizmşah unvanini aldi'; hicri 385 ∩ 995 kesisiminin ilk gunu 0995-02-05 (tablo, ±1-2 gun).", baskent:"Kâs (Kath)", ozet:"Bîrûnî'ye göre 305 (Seleukos 616) - 385/995 (Me'mûnîler Kâs'ı alıp son Afrigî Ebû Abdullah Muhammed'i öldürdü). Bosworth: erken dizide ≥150 yıllık kopukluk; Vaĭnberg dinastinin efsanevi olabileceğini önerdi; sonraki hükümdarlar sikkelerden bilinir. Hicrî 385 ≈ Şubat 995 başı.", kaynak:"Encyclopaedia Iranica 'Al-e Afrig' (iranicaonline.org/articles/al-e-afrig/); TDV İslâm Ansiklopedisi 'Hârizm/Me'mûnîler'", kronoloji:[
     { t:"0305-01-01", tur:"kurulus", b:"Afrig hanedanı Hârezm'de iktidara gelir (Bîrûnî: Seleukos 616).", kaynak:"Encyclopaedia Iranica 'Al-e Afrig' (iranicaonline.org/articles/al-e-afrig/)" },
     { t:"0712-01-01", tur:"toprak-kayip", b:"Kuteybe b. Müslim komutasındaki İslâm ordusu Hârizm'i fethetti; Afrigoğulları'ndan Hârizmşah Eskecemûk Müslüman idare altında yerinde bırakıldı.", kaynak:"https://islamansiklopedisi.org.tr/harizm (93/712)" },
     { t:"0967-01-01", tur:"hukumdar", b:"Ebû Abdullah Muhammed, babası Ebû Saîd Ahmed'in yerine Afrigî tahtına çıktı; 995'e kadar son Afrigî olarak hüküm sürdü.", kaynak:"Encyclopaedia Iranica, 'Āl-e Afrīḡ' (C. E. Bosworth); ikincil aktarım: https://en.wikipedia.org/wiki/Abu_%27Abdallah_Muhammad" },
     { t:"0992-01-01", tur:"ittifak", b:"Son Afrigî Ebû Abdullah Muhammed, Sâmânî vasalı olarak Nûh II'ye Karahanlılara karşı yardım eder.", kaynak:"Abu 'Abdallah Muhammad (en.wikipedia.org/wiki/Abu_%27Abdallah_Muhammad); akademik teyit gerekir" },
-    { t:"0995-01-01", tur:"son", b:"Ma'mûn b. Muhammed Kâs'ı alarak son Afrigî Ebû Abdullah Muhammed'i öldürür; Me'mûnîler dönemi başlar.", kaynak:"Encyclopaedia Iranica 'Al-e Afrig' (iranicaonline.org/articles/al-e-afrig/); TDV İslâm Ansiklopedisi 'Hârizm/Me'mûnîler'" }
+    { t:"0995-02-05", tur:"son", b:"Ma'mûn b. Muhammed Kâs'ı alarak son Afrigî Ebû Abdullah Muhammed'i öldürür; Me'mûnîler dönemi başlar.", kaynak:"Encyclopaedia Iranica 'Al-e Afrig' (iranicaonline.org/articles/al-e-afrig/); TDV İslâm Ansiklopedisi 'Hârizm/Me'mûnîler'" }
   ] },
 { id:"gaochang", ad:"Gaochang (Turfan) Krallığı - Qu hanedanı", tur:"krallik", bolge:"orta-asya", f:"0501-01-01", t:"0640-01-01", baskent:"Gaochang", ozet:"Qu Jia'nın seçilişi 501 (Vikipedi/sikke kaynakları; bir kaynak 499); Britannica: Tang seferi Gaochang'ın gücünü 640'ta yok etti (Hou Junji, Qu Zhisheng'in teslimi). Qu öncesi (460'a kadar) Gaochang hanedanları bu künyede DEĞİL. f zayıf kaynaklı.", kaynak:"Britannica 'Gaochang' (britannica.com/place/Gaochang); WHE 'Emperor Taizong of Tang'", kronoloji:[
     { t:"0501-01-01", tur:"kurulus", b:"Ma Ru devrilince Gaochang halkı Qu Jia'yı kral seçti; Qu hanedanı başladı (gün yok; bir kaynak 499 verir).", kaynak:"Britannica 'Gaochang' (künyede atıflı; bu oturumda sayfa 403 verdi, ikincil özetle doğrulandı)" },
@@ -19935,8 +19938,9 @@ window.DEVLETLER = [
     { t:"0840-01-01", tur:"kurulus", b:"Kırgızlar Uygur devletini yıkıp Ötüken'de kağanlık kurdu.", kaynak:"TDV İslâm Ansiklopedisi 'Kırgızlar'" },
     { t:"0920-01-01", tur:"son", b:"Kıtanlar Kırgızları Ötüken'den eski yurtlarına sürdü.", kaynak:"TDV İslâm Ansiklopedisi 'Kırgızlar'" }
   ] },
-{ id:"nanzhao", ad:"Nanzhao Krallığı", tur:"krallik", bolge:"dogu-asya", f:"0738-01-01", t:"0902-01-01", baskent:"Taihe / Dali", ozet:"Britannica: altı kralığın birleşmesi 729; Tang, Piluoge'ye 738'de unvan verdi (737-738 kuruluş); 902'de Zheng Maisi son kralı öldürüp Dachanghe'yi kurdu. Dali Krallığı 937 sonra.", kaynak:"Britannica 'Nanzhao' (britannica.com/place/Nanzhao), 'Piluoge'", kronoloji:[
-    { t:"0738-01-01", tur:"kurulus", b:"Piluoge altı zhao'yu birleştirdi; Tang ona Yunnan Prensi unvanını verdi.", kaynak:"https://www.britannica.com/place/Nanzhao" },
+{ id:"nanzhao", ad:"Nanzhao Krallığı", tur:"krallik", bolge:"dogu-asya", f:"0729-01-01", ic_not_f:"[19 Ekim 2026 kunye turu] Britannica 'Nanzhao': Nanzhao was formed by the unification of six Tai kingdoms in 729. 738 = Tang'in Piluoge'ye Yunnan Prensi unvani vermesi (taninma). Ayni polity genisletildi.", t:"0902-01-01", baskent:"Taihe / Dali", ozet:"Britannica: altı kralığın birleşmesi 729; Tang, Piluoge'ye 738'de unvan verdi (737-738 kuruluş); 902'de Zheng Maisi son kralı öldürüp Dachanghe'yi kurdu. Dali Krallığı 937 sonra.", kaynak:"Britannica 'Nanzhao' (britannica.com/place/Nanzhao), 'Piluoge'", kronoloji:[
+    { t:"0729-01-01", tur:"kurulus", b:"Piluoge altı zhao'yu birleştirdi; Nanzhao kuruldu.", kaynak:"https://www.britannica.com/place/Nanzhao" },
+    { t:"0738-01-01", tur:"siyaset", b:"Tang, Piluoge'ye Yunnan Prensi unvanını verdi (tanınma).", kaynak:"https://www.britannica.com/place/Nanzhao" },
     { t:"0739-01-01", tur:"baskent", b:"Taihe (Dali yakını) yeni başkent yapıldı.", kaynak:"https://www.britannica.com/place/Nanzhao" },
     { t:"0748-01-01", tur:"hukumdar", b:"Piluoge öldü; oğlu Geluofeng tahta çıktı.", kaynak:"https://www.britannica.com/place/Nanzhao" },
     { t:"0750-01-01", tur:"isyan", b:"Geluofeng Tang valisi Zhang Qiantuo'yu öldürüp 32 yerli ilçeyi aldı.", kaynak:"https://www.britannica.com/place/Nanzhao" },
@@ -20330,7 +20334,7 @@ window.DEVLETLER = [
     { t:"0467-01-01", tur:"hukumdar", b:"Skandagupta ölür (hükümdarlık yak. 455-467); sonrasında Hun baskısı altında hanedan geriler.", kaynak:"Britannica 'Gupta dynasty' (Skanda Gupta yak. 455-467) https://www.britannica.com/topic/Gupta-dynasty" },
     { t:"0470-01-01", tur:"isgal", b:"Hunlar yak. 470'te geri dönüp kuzey Hindistan'a akınlarla imparatorluğu çökertmeye başladı (yaklaşık yıl).", kaynak:"EBSCO Research Starters 'Gupta emperors'" }
   ] },
-{ id:"badami-calukya", ad:"Badami (Erken) Calukya", tur:"imparatorluk", bolge:"guney-asya", f:"0543-01-01", t:"0753-01-01", baskent:"Badami (Vatapi)", ozet:"Brit Kids: 543'ten; yaklasik 753'te feodatoru Rashtrakuta Dantidurga'ya yenildi (Brit India).", kaynak:"https://kids.britannica.com/kids/article/Rashtrakuta-dynasty/62750/related/main?page=1 ; https://www.britannica.com/place/India/Southern-India", kronoloji:[
+{ id:"badami-calukya", ad:"Badami (Erken) Calukya", tur:"imparatorluk", bolge:"guney-asya", f:"0543-01-01", t:"0757-01-01", ic_not_t:"[19 Ekim 2026 kunye turu] Britannica 'Chalukya dynasty': His successor, Kirtivarman II, was replaced by the Rashtrakuta dynasty in 757. rastrakuta f 0755 (Britannica 'Rashtrakuta dynasty') ile 755-757 cakisma iki Britannica maddesinin kendi uclaridir; bilincli.", baskent:"Badami (Vatapi)", ozet:"Brit Kids: 543'ten; Britannica 'Chalukya dynasty': 543-757 (Kirtivarman II 757'de Rashtrakuta ile degistirildi).", kaynak:"https://kids.britannica.com/kids/article/Rashtrakuta-dynasty/62750/related/main?page=1 ; https://www.britannica.com/place/India/Southern-India", kronoloji:[
     { t:"0543-01-01", tur:"kurulus", b:"I. Pulakeshin Vatapi (Badami) merkezli Calukya devletini kurdu.", kaynak:"https://kids.britannica.com/kids/article/Rashtrakuta-dynasty/62750 ; Britannica 'Chalukya dynasty'" },
     { t:"0566-01-01", tur:"hukumdar", b:"I. Kirtivarman tahta çıkar (566-597).", kaynak:"Wikipedia 'Chalukya dynasty' (yazıt ve hükümdar tablosu) https://en.wikipedia.org/wiki/Chalukya_dynasty" },
     { t:"0597-01-01", tur:"hukumdar", b:"Mangalesha tahta çıkar (597-609); Badami mağara yazıtı 578 tarihlidir.", kaynak:"Wikipedia 'Chalukya dynasty' https://en.wikipedia.org/wiki/Chalukya_dynasty" },
@@ -20342,13 +20346,13 @@ window.DEVLETLER = [
     { t:"0696-01-01", tur:"hukumdar", b:"Vijayaditya tahta çıkar (696-733); uzun ve huzurlu saltanatı tapınak inşasıyla anılır.", kaynak:"Wikipedia 'Chalukya dynasty' https://en.wikipedia.org/wiki/Chalukya_dynasty" },
     { t:"0733-01-01", tur:"hukumdar", b:"II. Vikramaditya tahta çıkar (733-746); Pallava başkenti Kanchi'ye karşı kazandığı zafer Kailasanatha tapınağındaki yazıtta anılır.", kaynak:"Wikipedia 'Chalukya dynasty' https://en.wikipedia.org/wiki/Chalukya_dynasty" },
     { t:"0746-01-01", tur:"hukumdar", b:"II. Kirtivarman tahta çıkar; Badami Calukyalarının son hükümdarıdır.", kaynak:"Wikipedia 'Chalukya dynasty' https://en.wikipedia.org/wiki/Chalukya_dynasty" },
-    { t:"0753-01-01", tur:"son", b:"Rashtrakuta Dantidurga son hükümdar II. Kirtivarman'ı yenerek Badami Calukya hâkimiyetine son verdi (752-753).", kaynak:"https://www.britannica.com/biography/Dantidurga ; Britannica 'India: Southern India'" }
+    { t:"0757-01-01", tur:"son", b:"Rashtrakuta Dantidurga son hükümdar II. Kirtivarman'ı yenerek Badami Calukya hâkimiyetine son verdi (752-753).", kaynak:"https://www.britannica.com/biography/Dantidurga ; Britannica 'India: Southern India'" }
   ] },
-{ id:"rastrakuta", ad:"Rastrakuta Hanedani", tur:"imparatorluk", bolge:"guney-asya", f:"0753-01-01", t:"0975-01-01", baskent:"Manyakheta", ozet:"Brit: ~753/755 - 975. t duzeltildi (aday 973); mevcut bati-calukya f 0973 ile 2 yillik cakisma icin karar gerekir.", kaynak:"https://www.britannica.com/biography/Dantidurga ; https://www.britannica.com/place/Manyakheta", kronoloji:[
-    { t:"0753-01-01", tur:"kurulus", b:"Dantidurga Calukya II. Kirtivarman'ı yenerek Rashtrakuta hâkimiyetini kurdu (752-753).", kaynak:"https://www.britannica.com/biography/Dantidurga" },
+{ id:"rastrakuta", ad:"Rastrakuta Hanedani", tur:"imparatorluk", bolge:"guney-asya", f:"0755-01-01", ic_not_f:"[19 Ekim 2026 kunye turu] Britannica 'Rashtrakuta dynasty': Hindu dynasty that ruled the Deccan from about 755 to 975 CE. Onceki f 753 Dantidurga'nin 752-753 zaferiydi. Cakisma 755-757: badami-calukya t Britannica 'Chalukya dynasty' (replaced by the Rashtrakuta dynasty in 757); yerlesim zinciri yazilirken devir gunu olarak 757 kullanilacak.", t:"0975-01-01", ic_not_t:"[19 Ekim 2026 kunye turu] Britannica: Taila I Chalukya won the succession about 975; Taila II 973 kunye-ici madde 975'e hizalandi.", baskent:"Manyakheta", ozet:"Britannica 'Rashtrakuta dynasty': yaklasik 755-975. Badami Calukya t 757 ile 755-757 arasi iki Britannica maddesinin kendi uclaridir (bilincli 2 yillik cakisma, ic_not'ta beyanli); bati-calukya f 0973 ile 975 arasi ayri not.", kaynak:"https://www.britannica.com/biography/Dantidurga ; https://www.britannica.com/place/Manyakheta", kronoloji:[
+    { t:"0755-01-01", tur:"kurulus", b:"Dantidurga Calukya II. Kirtivarman'ı yenerek Rashtrakuta hâkimiyetini kurdu (752-753).", kaynak:"https://www.britannica.com/biography/Dantidurga" },
     { t:"0756-01-01", tur:"hukumdar", b:"Krishna I (amcası) Dantidurga'nın ardından tahta çıktı (756-774); Ellora Kailasa tapınağı bu döneme aittir.", kaynak:"https://ebooks.inflibnet.ac.in/icp01/chapter/major-dynasties-of-south-india-753-1300-ce" },
     { t:"0949-01-01", tur:"savas", b:"III. Krishna Takkolam savaşında Colalar'ı yendi (949).", kaynak:"https://ebooks.inflibnet.ac.in/icp01/chapter/major-dynasties-of-south-india-753-1300-ce" },
-    { t:"0973-01-01", tur:"son", b:"Taila II (Tailapa) son Rashtrakuta hükümdarı II. Karka'yı devirdi (973); Kalyani Calukyaları kuruldu.", kaynak:"https://www.britannica.com/place/Manyakheta ; https://ebooks.inflibnet.ac.in/icp01/chapter/major-dynasties-of-south-india-753-1300-ce" }
+    { t:"0975-01-01", tur:"son", b:"Taila II (Tailapa) son Rashtrakuta hükümdarı II. Karka'yı devirdi (973); Kalyani Calukyaları kuruldu.", kaynak:"https://www.britannica.com/place/Manyakheta ; https://ebooks.inflibnet.ac.in/icp01/chapter/major-dynasties-of-south-india-753-1300-ce" }
   ] },
 { id:"harsha", ad:"Harsa'nin Imparatorlugu (Pushyabhuti)", tur:"imparatorluk", bolge:"guney-asya", f:"0606-01-01", t:"0647-01-01", baskent:"Kannauj / Thanesar", ozet:"Harsha 606-647 (Brit); olumunden sonra imparatorluk dagildi.", kaynak:"https://www.britannica.com/biography/Harsha ; https://www.britannica.com/topic/Harsa-Dynasty", kronoloji:[
     { t:"0606-01-01", tur:"hukumdar", b:"Harsha tahta çıktı; Kannauj'u egemen başkent yaptı.", kaynak:"https://www.britannica.com/biography/Harsha" },
@@ -20752,7 +20756,7 @@ window.DEVLETLER = [
     { t:"0731-01-01", tur:"toprak-kayip", b:"Langobard Kralı Liutprand, Bizans karşıtı bir grubun yardımıyla Ravenna'yı kısa süreliğine ele geçirir.", kaynak:"Catholic Encyclopedia, Ravenna https://www.newadvent.org/cathen/12662b.htm" },
     { t:"0751-01-01", tur:"son", b:"Lombard kralı Aistulf Ravenna'yı alır; son eksarh Eutychius ile eksarhlık sona erer.", kaynak:"N. Tobias/F. Nicks, 'Exarchate of Ravenna', New Catholic Encyclopedia (encyclopedia.com)" }
   ] },
-{ id:"tibet-imparatorlugu", ad:"Tibet İmparatorluğu (Tubo / Yarlung)", tur:"imparatorluk", bolge:"dogu-asya", f:"0629-01-01", t:"0842-01-01", baskent:"Lhasa", ozet:"Songtsen Gampo'nun tahta çıkışıyla (Britannica: taç giyme 629) kurulan Yarlung devleti; Nepal, Batı Tibet ve Tuyuhun'a yayıldı, 842'de Langdarma'nın ölümüyle çöktü (kaynaklarda başlangıç 617-629 arası oynar; 629 Britannica taç giyme yılıdır, yıl hassasiyeti).", kaynak:"https://www.britannica.com/biography/Srong-brtsan-sgam-po ; https://www.britannica.com/place/Tibet/History ; https://www.britannica.com/place/Tibet/Disunity-9th-to-14th-century", kronoloji:[
+{ id:"tibet-imparatorlugu", ad:"Tibet İmparatorluğu (Tubo / Yarlung)", tur:"imparatorluk", bolge:"dogu-asya", f:"0629-01-01", ic_not_f:"[19 Ekim 2026 kunye turu] AYNI DEVLET: tubo-tibet-imparatorlugu (id degismez; tarihler hizalandi f 629, t 842). Britannica 'Srong-brtsan-sgam-po': crowned 629 (617 dogum; EBSCO r.627 — 629 secildi).", t:"0842-01-01", ic_not_t:"[19 Ekim 2026 kunye turu] 842 (EBSCO, Tibet geleneği: Langdarma ol. 842) vs 846 (Britannica 'Tibet': Glandar-ma reigned 841-846): kaynak ayrisigi, 842 kalir. TDV 'Tibet': Khri Srong Lde Btsan 742-797; EBSCO: c.742 dogum, r.755-797 — kunye-ici 755 EBSCO+Britannica; TDV cumlesinin neyi tarihledigi ayri okuma bekler.", baskent:"Lhasa", ozet:"Songtsen Gampo'nun tahta çıkışıyla (Britannica: taç giyme 629) kurulan Yarlung devleti; Nepal, Batı Tibet ve Tuyuhun'a yayıldı, 842'de Langdarma'nın ölümüyle çöktü (kaynaklarda başlangıç 617-629 arası oynar; 629 Britannica taç giyme yılıdır, yıl hassasiyeti).", kaynak:"https://www.britannica.com/biography/Srong-brtsan-sgam-po ; https://www.britannica.com/place/Tibet/History ; https://www.britannica.com/place/Tibet/Disunity-9th-to-14th-century", kronoloji:[
     { t:"0755-01-01", tur:"hukumdar", b:"Trisong Detsen tahta çıktı (755-797); Budizm devlet dini oldu.", kaynak:"https://www.ebsco.com/research-starters/history/tibetan-empire-dissolves" },
     { t:"0763-01-01", tur:"savas", b:"Tibet kuvvetleri Chang'an'ı ele geçirip kukla imparator oturttu.", kaynak:"https://www.ebsco.com/research-starters/history/tibetan-empire-dissolves" },
     { t:"0815-01-01", tur:"hukumdar", b:"Ralpachen tahta çıktı (815-838).", kaynak:"https://www.ebsco.com/research-starters/history/tibetan-empire-dissolves" },
@@ -20849,7 +20853,7 @@ window.DEVLETLER = [
 { id:"kuzey-wei", ad:"Kuzey Wei (Tuoba/Tabgaç) Hanedanı", tur:"hanedanlik", bolge:"dogu-asya", f:"0386-01-01", t:"0534-01-01", baskent:"Datong (sonra Luoyang)", ozet:"Kuzey Çin'in en uzun ömürlü ve güçlü Tuoba hanedanı; 534/535'te Doğu ve Batı Wei'ye bölündü (alt sınır 534).", kaynak:"https://www.britannica.com/topic/Wei-dynasty ; https://www.britannica.com/event/Six-Dynasties", kronoloji:[
     { t:"0386-01-01", tur:"kurulus", b:"Tuoba Gui Tuoba yönetimini yeniden kurup Kuzey Wei'yi ilan etti.", kaynak:"https://worldhistoryedu.com/what-was-the-northern-wei-dynasty/" },
     { t:"0398-01-01", tur:"baskent", b:"Başkent Pingcheng'e (Datong) taşındı.", kaynak:"https://worldhistoryedu.com/what-was-the-northern-wei-dynasty/" },
-    { t:"0494-01-01", tur:"baskent", b:"Xiaowen sarayı Luoyang'a taşıdı; Çinleştirme politikası.", kaynak:"https://worldhistoryedu.com/what-was-the-northern-wei-dynasty/ ; https://www.asiaculturaltravel.co.uk/the-northern-dynasties/" },
+    { t:"0495-01-01", tur:"baskent", b:"Xiaowen sarayı Luoyang'a taşıdı; Çinleştirme politikası.", kaynak:"Britannica 'Wei dynasty' (By 495, the Wei … transferred their capital to the ancient Chinese city of Luoyang); Britannica 'Luoyang' (revived in 495 by the Xiaowendi emperor)", ic_not:"494: ikincil kaynaklarda saray tasima baslangici; Britannica iki maddede 495. Cambridge/Wei shu dogrulanamadi (bulunamadi)." },
     { t:"0534-01-01", tur:"bolunme", b:"Gao Huan sarayı Luoyang'dan Ye'ye taşıdı; devlet Doğu ve Batı Wei'ye bölündü.", kaynak:"https://www.asiaculturaltravel.co.uk/the-northern-dynasties/ ; https://www.britannica.com/event/Six-Dynasties" }
   ] },
 { id:"dogu-wei", ad:"Doğu Wei Hanedanı", tur:"hanedanlik", bolge:"dogu-asya", f:"0534-01-01", t:"0550-01-01", baskent:"Ye", ozet:"Kuzey Wei'nin doğu kolu, Ye (Anyang) başkentli; Britannica 534-550.", kaynak:"https://www.britannica.com/event/Six-Dynasties", kronoloji:[
@@ -21052,8 +21056,8 @@ window.DEVLETLER = [
     { t:"0636-01-01", tur:"vassal", b:"Nuohebo Tang'a resmen bağlılık sundu; Taizong ona Heyuan Prensi ve han unvanlarını verdi.", kaynak:"https://en.wikipedia.org/wiki/Murong_Nuohebo" },
     { t:"0663-01-01", tur:"son", b:"Tubo (Tibet) saldırısıyla çöken Tuyuhun'da Nuohebo, eşi Prenses Honghua ve binlerce hanesiyle Liangzhou'ya (Tang) sığındı; Qinghai bölgesi Tibet'e geçti (kesin yıkış 663/670/672 arasında anılır).", kaynak:"https://en.wikipedia.org/wiki/Tibetan_invasion_of_Tuyuhun; https://www.businesswire.com/news/home/20220713006004/en/Tuyuhun-Lost-History-Recovered-in-Three-Exhibitions-Organized-by-the-China-National-Silk-Museum" }
   ] },
-{ id:"tubo-tibet-imparatorlugu", ad:"Tibet (Tubo/Tufan) İmparatorluğu — Yarlung hanedanı", tur:"imparatorluk", bolge:"dogu-asya", f:"0618-01-01", t:"0842-01-01", baskent:"Lhasa (Songtsen Gampo'dan beri)", ozet:"Yarlung hanedanının Songtsen Gampo ile (~618/629) birleştirdiği, Trisong Detsen ve Ralpachen dönemlerinde Orta Asya'da Tang, Türkler ve Araplarla çekişen imparatorluk; Langdarma'nın 842'de öldürülmesiyle parçalandı (Beckwith kapsamı ~600-866; bitiş 842/866 tartışmalı, 842 seçildi).", kaynak:"Beckwith, The Tibetan Empire in Central Asia (Princeton 1987); Tibetan Govt-in-exile 'Outline of Tibetan History' (tibet.net) 842", kronoloji:[
-    { t:"0627-01-01", tur:"hukumdar", b:"Songtsen Gampo hükümdarlığa başladı; Tibet platosu Lhasa merkezli tek krallıkta birleşti.", kaynak:"https://www.ebsco.com/research-starters/history/tibetan-empire-dissolves" },
+{ id:"tubo-tibet-imparatorlugu", ad:"Tibet (Tubo/Tufan) İmparatorluğu — Yarlung hanedanı", tur:"imparatorluk", bolge:"dogu-asya", f:"0629-01-01", ic_not_f:"[19 Ekim 2026 kunye turu] AYNI DEVLET: tibet-imparatorlugu (id degismez; tarihler hizalandi). Onceki f 618 hicbir erisilebilir akademik kaynakta tac yili degil (Britannica: 617 dogum, 629 tac). EBSCO r.627 kunye-ici maddede 629'a hizalandi, celiski burada beyan.", t:"0842-01-01", ic_not_t:"[19 Ekim 2026 kunye turu] 842 (EBSCO/tibet.net) vs 846 (Britannica Glandar-ma 841-846) vs Beckwith ~866: karar kaynakla cikmaz, 842 kalir; tibet-imparatorlugu ile ayni.", baskent:"Lhasa (Songtsen Gampo'dan beri)", ozet:"Yarlung hanedaninin Songtsen Gampo ile (629 taç giyme, Britannica) birlestirdigi, Trisong Detsen ve Ralpachen donemlerinde Orta Asya'da Tang, Turkler ve Araplarla cekisen imparatorluk; Langdarma'nin 842'de oldurulmesiyle parcalandi (Beckwith kapsami ~600-866; bitis 842/846/866 tartismali, 842 secildi).", kaynak:"Beckwith, The Tibetan Empire in Central Asia (Princeton 1987); Tibetan Govt-in-exile 'Outline of Tibetan History' (tibet.net) 842", kronoloji:[
+    { t:"0629-01-01", tur:"hukumdar", b:"Songtsen Gampo hükümdarlığa başladı; Tibet platosu Lhasa merkezli tek krallıkta birleşti.", kaynak:"https://www.ebsco.com/research-starters/history/tibetan-empire-dissolves" },
     { t:"0755-01-01", tur:"hukumdar", b:"Trisong Detsen tahta çıktı (755-797).", kaynak:"https://www.ebsco.com/research-starters/history/tibetan-empire-dissolves" },
     { t:"0763-01-01", tur:"savas", b:"Tibet kuvvetleri Chang'an'ı ele geçirip kukla imparator oturttu.", kaynak:"https://www.ebsco.com/research-starters/history/tibetan-empire-dissolves" },
     { t:"0815-01-01", tur:"hukumdar", b:"Ralpachen tahta çıktı (815-838).", kaynak:"https://www.ebsco.com/research-starters/history/tibetan-empire-dissolves" },
