@@ -497,8 +497,8 @@
     },
     {
      "yol": "data/olaylar_senusi_0919.js",
-     "sha": "f6b2a78bb632f423",
-     "bayt": 7783
+     "sha": "01e6fb19c3b518e5",
+     "bayt": 8712
     },
     {
      "yol": "data/olaylar_sessiz_borc_0919.js",
@@ -551,15 +551,15 @@
      "bayt": 171320
     }
    ],
-   "bayt": 2114398
+   "bayt": 2115327
   },
   {
    "paket": "data/paket_13.js",
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "64dfc4cc5d570898",
-     "bayt": 1642369
+     "sha": "c02e6068598e7b7f",
+     "bayt": 1642906
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -622,7 +622,7 @@
      "bayt": 12545
     }
    ],
-   "bayt": 3199349
+   "bayt": 3199886
   },
   {
    "paket": "data/paket_14.js",
