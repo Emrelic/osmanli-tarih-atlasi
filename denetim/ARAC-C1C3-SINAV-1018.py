@@ -28,7 +28,8 @@ def oku(p):
 
 
 def git_eski(yol):
-    return subprocess.run(["git", "show", "origin/main:" + yol], cwd=KOK, capture_output=True,
+    # C3 yamasi d418f91ce ile main'e girdi; "eski" hal onun ebeveyni (origin/main artik yamali)
+    return subprocess.run(["git", "show", "d418f91ce^:" + yol], cwd=KOK, capture_output=True,
                           encoding="utf-8").stdout
 
 
