@@ -184,23 +184,18 @@ window.SEHIR_TARIHCE_ARKEOLOJI_MISIR_NIL_SAHRA = [
    "kesinlik": "yuzyil",
    "kaynak": "Le Moyne C, Roberts P, Hua Q, Bleasdale M, Desideri J, Boivin N, Crowther A. 2023. Ecological flexibility and adaptation to past climate change in the Middle Nile Valley (Kadruka 1 and 21). PLoS ONE 18:e0280347. 'later pre-Kerma period (3500–2500 BCE)'"
   },
-  "bit": {
-   "t": "-2499-01-01",
-   "gun": "MÖ 2500 civarı",
-   "kesinlik": "yuzyil",
-   "kaynak": "Le Moyne vd. 2023 (aynı ifade); Kerma dönemi başlangıcı ile örtüşür."
-  },
+  "bit": null,
   "sahip": [
    {
     "f": "-3499-01-01",
-    "t": "-2499-01-01",
+    "t": "0000-01-01",
     "d": "__BOSLUK__",
     "kesinlik": "yuzyil",
     "kaynak": "Le Moyne C, Roberts P, Hua Q, Bleasdale M, Desideri J, Boivin N, Crowther A. 2023. Ecological flexibility and adaptation to past climate change in the Middle Nile Valley (Kadruka 1 and 21). PLoS ONE 18:e0280347. 'later pre-Kerma period (3500–2500 BCE)'",
     "ic_not": "Devlet öncesi/kültür dönemi: siyasî sahip kavramı YOK → __BOSLUK__ = «sahip kavramı henüz yok», «kültürsüz» DEĞİL. bos:\"veri-yok\" (veri yok ≠ kimse yok; MÖ katmanı beyanı). Kaynaktaki kültür/dönem adı: Pre-Kerma (Yukarı Nubia)."
    },
    {
-    "f": "-2499-01-01",
+    "f": "0000-01-01",
     "t": "1900-01-01",
     "d": "__BILINMIYOR__",
     "kesinlik": "belirsiz",
@@ -341,23 +336,18 @@ window.SEHIR_TARIHCE_ARKEOLOJI_MISIR_NIL_SAHRA = [
    "kesinlik": "yuzyil",
    "kaynak": "Peeters vd. 2026, PNAS (Napata/Jebel Barkal; Napatan period 1070 to 300 BCE)"
   },
-  "bit": {
-   "t": "-0299-01-01",
-   "gun": "MÖ 300 civarı",
-   "kesinlik": "yuzyil",
-   "kaynak": "Peeters vd. 2026 (Napatan period sonu 300 BCE; 'shift in the Kushite center of power from Napata to Meroe around 300 BCE')"
-  },
+  "bit": null,
   "sahip": [
    {
     "f": "-1069-01-01",
-    "t": "-0299-01-01",
+    "t": "0000-01-01",
     "d": "__BOSLUK__",
     "kesinlik": "yuzyil",
     "kaynak": "Peeters vd. 2026, PNAS (Napata/Jebel Barkal; Napatan period 1070 to 300 BCE)",
     "ic_not": "Devlet öncesi/kültür dönemi: siyasî sahip kavramı YOK → __BOSLUK__ = «sahip kavramı henüz yok», «kültürsüz» DEĞİL. bos:\"veri-yok\" (veri yok ≠ kimse yok; MÖ katmanı beyanı). Kaynaktaki kültür/dönem adı: Napatan (Kushite) dönemi."
    },
    {
-    "f": "-0299-01-01",
+    "f": "0000-01-01",
     "t": "1900-01-01",
     "d": "__BILINMIYOR__",
     "kesinlik": "belirsiz",

@@ -4,7 +4,7 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
  {
   "t": "-1599-01-01",
   "k": "kayip",
-  "b": "Geç Harappa dönemi: sona erer / son tarihli kanıt",
+  "b": "Geç Harappa dönemi: sona erer",
   "gun": "MÖ 1600 civarı",
   "yer": "Late Harappan / Localization Era",
   "d": "Kentsel yapıların çözüldüğü, yerleşimlerin dağılıp doğuya/güneye kaydığı Geç Harappa dönemi (1900–1600 MÖ).",
@@ -18,23 +18,8 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
  },
  {
   "t": "-1899-01-01",
-  "k": "kayip",
-  "b": "Olgun Harappa (İndus Uygarlığı kent dönemi): sona erer / son tarihli kanıt",
-  "gun": "MÖ 1900 civarı",
-  "yer": "Mature Harappan / Harappa Phase / Integration Era",
-  "d": "Kentleşmiş İndus Uygarlığı: standart ağırlık-ölçü, mühür, planlı kentler. Dönem 2600–1900 MÖ; sonrasında Geç Harappa'ya geçiş.",
-  "kaynak": "Shinde vd. 2019 Cell (2600–1900 BCE); Parikh & Petrie 2019 (1900); Valentine vd. 2015 (Harappa Phase 2600–1900 BC) · https://pmc.ncbi.nlm.nih.gov/articles/PMC4414352/",
-  "kesinlik": "yuzyil",
-  "etiket": [
-   "arkeoloji"
-  ],
-  "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 1900 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Harappa Phase (2600–1900 BC)». Üç bağımsız hakemli kaynak aynı 2600–1900 aralığını veriyor (Shinde 2019 Cell; Parikh & Petrie 2019; Valentine 2015). Harappa mezarlığı için doğrudan 14C: kömür 2550–2030 cal BC (Valentine 2015, 'J.M. Kenoyer, kişisel görüşme'; birincil yayın değil). Sarkar 2016'da 'Olgun 4.6–3.9 ka BP' yaklaşık 2650–1950 MÖ; çelişki Erken Harappa kaydında. Mohenjo-daro/Harappa 'kentler 2600–1900' ifadesi arama özetinde Kenoyer'e atfedildi, harappa.com Cloudflare engeli nedeniyle OKUYAMADIM."
- },
- {
-  "t": "-1899-01-01",
   "k": "gelisme",
-  "b": "Geç Harappa dönemi: ilk tarihli kanıt / başlangıç",
+  "b": "Geç Harappa dönemi: başlar",
   "gun": "MÖ 1900 civarı",
   "yer": "Late Harappan / Localization Era",
   "d": "Kentsel yapıların çözüldüğü, yerleşimlerin dağılıp doğuya/güneye kaydığı Geç Harappa dönemi (1900–1600 MÖ).",
@@ -49,7 +34,7 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
  {
   "t": "-2549-01-01",
   "k": "ilk_anilis",
-  "b": "Rakhigarhi: ilk tarihli kanıt / başlangıç",
+  "b": "Rakhigarhi: başlar",
   "gun": "MÖ 2800–2300 arası (orta nokta MÖ 2550)",
   "yer": "Rakhigarhi (Rakhi Garhi)",
   "d": "Hindistan'daki en büyük İndus yerleşimi (yaklaşık 550 ha); kömür tarihleri Olgun Harappa'ya düşüyor, mezarlık Olgun dönem.",
@@ -69,23 +54,8 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
  },
  {
   "t": "-2599-01-01",
-  "k": "kayip",
-  "b": "Erken Harappa dönemi (Pre-urban / Early Harappan): sona erer / son tarihli kanıt",
-  "gun": "MÖ 2600 civarı",
-  "yer": "Early Harappan",
-  "d": "Kentleşme öncesi köy-temelli Harappa dönemi; olgun dönemde kentleşmeye geçilir. Kurulu dönemleme: Erken Harappa 3200–2600 MÖ.",
-  "kaynak": "Parikh & Petrie 2019 (aynı), Mature Harappan başlangıcı = Erken Harappa sonu · https://pmc.ncbi.nlm.nih.gov/articles/PMC7643715/",
-  "kesinlik": "yuzyil",
-  "etiket": [
-   "arkeoloji"
-  ],
-  "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 2600 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Mature Harappan (2600–1900 BC)». KRONOLOJİ ÇELİŞKİSİ (Harappa başlangıcı). (a) Parikh & Petrie 2019: Erken Harappa 3200–2600 BC (Possehl 1977/2002, Wright 2010 dönemlemesine atıf). (b) Sarkar vd. 2016 Sci Rep 6:26555, 'geleneksel' dönemleme (Harappa'daki >100 14C tarihine dayanıyor): Early Ravi ~5.7–4.8 ka BP, Kot Diji ~4.8–4.6, Olgun ~4.6–3.9, Geç (Painted Grey Ware) 3.9–3.3 ka BP (cal yr BP; yaklaşık 3750–2850, 2850–2650, 2650–1950, 1950–1350 MÖ; BP→MÖ dönüşümü bende, kaynak MÖ vermiyor). (c) Aynı makalede Possehl'e atfedilen 'eski kronoloji': ~9–6.3, 6.3–5.2, 5.2–3, 3–2.5 ka BP (Sarkar 2016, SI). (d) Dholavira için UNESCO nominasyonu/Bisht ve yeniden-tarihleme: Aşama I 3000–2900 / 3500–3200 MÖ (bkz. bulunamadi). Yani 3200 (Parikh & Petrie) / yaklaşık 3700 (Sarkar 'geleneksel' ka BP) / >3500 (Dholavira yeniden-tarihleme) / 9 ka BP (Possehl-Bhirrana) iddiaları yan yana yaşıyor; ben Parikh & Petrie 3200'ü esas aldım (hakemli, açık metin, 'yaygın dönemleme' diye veriyor). Atlasa konacaksa 'Erken Harappa' kültür başlangıcı 3200 ve çelişki beyan edilmeli."
- },
- {
-  "t": "-2599-01-01",
   "k": "gelisme",
-  "b": "Olgun Harappa (İndus Uygarlığı kent dönemi): ilk tarihli kanıt / başlangıç",
+  "b": "Olgun Harappa (İndus Uygarlığı kent dönemi): başlar",
   "gun": "MÖ 2600 civarı",
   "yer": "Mature Harappan / Harappa Phase / Integration Era",
   "d": "Kentleşmiş İndus Uygarlığı: standart ağırlık-ölçü, mühür, planlı kentler. Dönem 2600–1900 MÖ; sonrasında Geç Harappa'ya geçiş.",
@@ -95,12 +65,12 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
    "arkeoloji"
   ],
   "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 2600 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «The mature Indus Valley Civilization ... was spread over northwestern South Asia from 2600–1900 BCE». Üç bağımsız hakemli kaynak aynı 2600–1900 aralığını veriyor (Shinde 2019 Cell; Parikh & Petrie 2019; Valentine 2015). Harappa mezarlığı için doğrudan 14C: kömür 2550–2030 cal BC (Valentine 2015, 'J.M. Kenoyer, kişisel görüşme'; birincil yayın değil). Sarkar 2016'da 'Olgun 4.6–3.9 ka BP' yaklaşık 2650–1950 MÖ; çelişki Erken Harappa kaydında. Mohenjo-daro/Harappa 'kentler 2600–1900' ifadesi arama özetinde Kenoyer'e atfedildi, harappa.com Cloudflare engeli nedeniyle OKUYAMADIM."
+  "ic_not_d": "TEK DEĞER MÖ 2600 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «The mature Indus Valley Civilization ... was spread over northwestern South Asia from 2600–1900 BCE». Üç bağımsız hakemli kaynak aynı 2600–1900 aralığını veriyor (Shinde 2019 Cell; Parikh & Petrie 2019; Valentine 2015). Harappa mezarlığı için doğrudan 14C: kömür 2550–2030 cal BC (Valentine 2015, 'J.M. Kenoyer, kişisel görüşme'; birincil yayın değil). Sarkar 2016'da 'Olgun 4.6–3.9 ka BP' yaklaşık 2650–1950 MÖ; çelişki Erken Harappa kaydında. Mohenjo-daro/Harappa 'kentler 2600–1900' ifadesi arama özetinde Kenoyer'e atfedildi, harappa.com Cloudflare engeli nedeniyle OKUYAMADIM. [VERI-MO-ARKEO: bitiş, ardıl dönemin başlangıcıyla aynı sınırdır; mükerrer madde açılmadı, geçiş ardıl dönem maddesinde tutulur.]"
  },
  {
   "t": "-2899-01-01",
   "k": "ilk_anilis",
-  "b": "Burzahom: ilk tarihli kanıt / başlangıç",
+  "b": "Burzahom: başlar",
   "gun": "MÖ 2900 civarı",
   "yer": "Burzahom (Burzahama)",
   "d": "Keşmir Vadisi'nin Neolitik yerleşimi: çukur evler, mezarlar (trepanasyon), Dönem I aseramik, II seramik, III megalitik, IV erken tarihsel.",
@@ -115,7 +85,7 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
  {
   "t": "-3199-01-01",
   "k": "gelisme",
-  "b": "Erken Harappa dönemi (Pre-urban / Early Harappan): ilk tarihli kanıt / başlangıç",
+  "b": "Erken Harappa dönemi (Pre-urban / Early Harappan): başlar",
   "gun": "MÖ 3200 (ALT SINIR; donem-toplami MÖ 3200–2600)",
   "yer": "Early Harappan",
   "d": "Kentleşme öncesi köy-temelli Harappa dönemi; olgun dönemde kentleşmeye geçilir. Kurulu dönemleme: Erken Harappa 3200–2600 MÖ.",
@@ -131,12 +101,12 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
    "guven": "belirsiz",
    "tur": "donem-toplami"
   },
-  "ic_not_d": "donem-toplami aralığı (MÖ 3200–2600) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Early Harappan (3200–2600 BC), Mature Harappan (2600–1900 BC) ... Late Harappan periods (1900–1600 BC)». KRONOLOJİ ÇELİŞKİSİ (Harappa başlangıcı). (a) Parikh & Petrie 2019: Erken Harappa 3200–2600 BC (Possehl 1977/2002, Wright 2010 dönemlemesine atıf). (b) Sarkar vd. 2016 Sci Rep 6:26555, 'geleneksel' dönemleme (Harappa'daki >100 14C tarihine dayanıyor): Early Ravi ~5.7–4.8 ka BP, Kot Diji ~4.8–4.6, Olgun ~4.6–3.9, Geç (Painted Grey Ware) 3.9–3.3 ka BP (cal yr BP; yaklaşık 3750–2850, 2850–2650, 2650–1950, 1950–1350 MÖ; BP→MÖ dönüşümü bende, kaynak MÖ vermiyor). (c) Aynı makalede Possehl'e atfedilen 'eski kronoloji': ~9–6.3, 6.3–5.2, 5.2–3, 3–2.5 ka BP (Sarkar 2016, SI). (d) Dholavira için UNESCO nominasyonu/Bisht ve yeniden-tarihleme: Aşama I 3000–2900 / 3500–3200 MÖ (bkz. bulunamadi). Yani 3200 (Parikh & Petrie) / yaklaşık 3700 (Sarkar 'geleneksel' ka BP) / >3500 (Dholavira yeniden-tarihleme) / 9 ka BP (Possehl-Bhirrana) iddiaları yan yana yaşıyor; ben Parikh & Petrie 3200'ü esas aldım (hakemli, açık metin, 'yaygın dönemleme' diye veriyor). Atlasa konacaksa 'Erken Harappa' kültür başlangıcı 3200 ve çelişki beyan edilmeli."
+  "ic_not_d": "donem-toplami aralığı (MÖ 3200–2600) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Early Harappan (3200–2600 BC), Mature Harappan (2600–1900 BC) ... Late Harappan periods (1900–1600 BC)». KRONOLOJİ ÇELİŞKİSİ (Harappa başlangıcı). (a) Parikh & Petrie 2019: Erken Harappa 3200–2600 BC (Possehl 1977/2002, Wright 2010 dönemlemesine atıf). (b) Sarkar vd. 2016 Sci Rep 6:26555, 'geleneksel' dönemleme (Harappa'daki >100 14C tarihine dayanıyor): Early Ravi ~5.7–4.8 ka BP, Kot Diji ~4.8–4.6, Olgun ~4.6–3.9, Geç (Painted Grey Ware) 3.9–3.3 ka BP (cal yr BP; yaklaşık 3750–2850, 2850–2650, 2650–1950, 1950–1350 MÖ; BP→MÖ dönüşümü bende, kaynak MÖ vermiyor). (c) Aynı makalede Possehl'e atfedilen 'eski kronoloji': ~9–6.3, 6.3–5.2, 5.2–3, 3–2.5 ka BP (Sarkar 2016, SI). (d) Dholavira için UNESCO nominasyonu/Bisht ve yeniden-tarihleme: Aşama I 3000–2900 / 3500–3200 MÖ (bkz. bulunamadi). Yani 3200 (Parikh & Petrie) / yaklaşık 3700 (Sarkar 'geleneksel' ka BP) / >3500 (Dholavira yeniden-tarihleme) / 9 ka BP (Possehl-Bhirrana) iddiaları yan yana yaşıyor; ben Parikh & Petrie 3200'ü esas aldım (hakemli, açık metin, 'yaygın dönemleme' diye veriyor). Atlasa konacaksa 'Erken Harappa' kültür başlangıcı 3200 ve çelişki beyan edilmeli. [VERI-MO-ARKEO: bitiş, ardıl dönemin başlangıcıyla aynı sınırdır; mükerrer madde açılmadı, geçiş ardıl dönem maddesinde tutulur.]"
  },
  {
   "t": "-6433-01-01",
   "k": "ilk_anilis",
-  "b": "Bhirrana: ilk tarihli kanıt / başlangıç",
+  "b": "Bhirrana: başlar",
   "gun": "MÖ 6647–6221 arası (orta nokta MÖ 6434)",
   "yer": "Bhirrana (Bhirdana)",
   "d": "Ghaggar-Hakra havzasında 'Hakra evresi'nden Olgun Harappa'ya kesintisiz yerleşim; kazı dizisi İndus öncesi çok eski yerleşme iddiasının dayanağı.",

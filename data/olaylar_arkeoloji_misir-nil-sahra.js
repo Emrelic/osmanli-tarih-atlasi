@@ -3,23 +3,8 @@
 window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-0299-01-01",
-  "k": "kayip",
-  "b": "Kush krallığı — Napata dönemi: sona erer / son tarihli kanıt",
-  "gun": "MÖ 300 civarı",
-  "yer": "Napatan period of Kush",
-  "d": "Kush hanedanının Napata merkezli dönemi; merkez MÖ ~300'de Meroe'ye kayar. Mısır'ı fetheden XXV. Hanedan (Kush) bu dönemde olur — XXV. Hanedan tarihleri bu kaynakta YOK.",
-  "kaynak": "Peeters vd. 2026 (Napatan period sonu 300 BCE; 'shift in the Kushite center of power from Napata to Meroe around 300 BCE') · https://pmc.ncbi.nlm.nih.gov/articles/PMC13142976/",
-  "kesinlik": "yuzyil",
-  "etiket": [
-   "arkeoloji"
-  ],
-  "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 300 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «shift in the Kushite center of power from Napata to Meroe around 300 BCE». Dönem sınırları arkeolojik/dönemsel anlatımdır (1070–300 MÖ, 'much of' ifadesi); 1070 değeri tek sayıdır, 'Egypt'in Üçüncü Ara Dönemi başlangıcı' ile ilgisi bu kaynakta açıklanmadı. 300 MÖ 'around' (yaklaşık). Kuraklık nedenli kayma önerisi (climate-induced desiccation 'may have contributed') — yorumdur, kanıtlı değildir."
- },
- {
-  "t": "-0299-01-01",
   "k": "gelisme",
-  "b": "Kush krallığı — Meroe dönemi: ilk tarihli kanıt / başlangıç",
+  "b": "Kush krallığı — Meroe dönemi: başlar",
   "gun": "MÖ 300 civarı",
   "yer": "Meroitic period (Meroe)",
   "d": "Kush merkezinin Napata'dan Meroe'ye kayması (yaklaşık MÖ 300) ile başlayan, MS 350'ye uzanan Meroe dönemi.",
@@ -34,7 +19,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-1069-01-01",
   "k": "kurulus",
-  "b": "Kush krallığı — Napata dönemi: ilk tarihli kanıt / başlangıç",
+  "b": "Kush krallığı — Napata dönemi: başlar",
   "gun": "MÖ 1070 civarı",
   "yer": "Napatan period of Kush",
   "d": "Kush hanedanının Napata merkezli dönemi; merkez MÖ ~300'de Meroe'ye kayar. Mısır'ı fetheden XXV. Hanedan (Kush) bu dönemde olur — XXV. Hanedan tarihleri bu kaynakta YOK.",
@@ -44,12 +29,12 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
    "arkeoloji"
   ],
   "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 1070 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «principal urban center of the Kushite dynasty during much of the Napatan period (1070 to 300 BCE)». Dönem sınırları arkeolojik/dönemsel anlatımdır (1070–300 MÖ, 'much of' ifadesi); 1070 değeri tek sayıdır, 'Egypt'in Üçüncü Ara Dönemi başlangıcı' ile ilgisi bu kaynakta açıklanmadı. 300 MÖ 'around' (yaklaşık). Kuraklık nedenli kayma önerisi (climate-induced desiccation 'may have contributed') — yorumdur, kanıtlı değildir."
+  "ic_not_d": "TEK DEĞER MÖ 1070 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «principal urban center of the Kushite dynasty during much of the Napatan period (1070 to 300 BCE)». Dönem sınırları arkeolojik/dönemsel anlatımdır (1070–300 MÖ, 'much of' ifadesi); 1070 değeri tek sayıdır, 'Egypt'in Üçüncü Ara Dönemi başlangıcı' ile ilgisi bu kaynakta açıklanmadı. 300 MÖ 'around' (yaklaşık). Kuraklık nedenli kayma önerisi (climate-induced desiccation 'may have contributed') — yorumdur, kanıtlı değildir. [VERI-MO-ARKEO: bitiş, ardıl dönemin başlangıcıyla aynı sınırdır; mükerrer madde açılmadı, geçiş ardıl dönem maddesinde tutulur.]"
  },
  {
   "t": "-1449-01-01",
   "k": "kayip",
-  "b": "Kerma (Kush) krallığı/kültürü: sona erer / son tarihli kanıt",
+  "b": "Kerma (Kush) krallığı/kültürü: sona erer",
   "gun": "MÖ 1450 civarı",
   "yer": "Kerma culture / Kingdom of Kush (Kerma)",
   "d": "Üçüncü Katarakt altında Kerma merkezli Nubya krallığı; Eski Kerma (~2500), Orta, Klasik Kerma evrelerinden geçip MÖ ~1450'de bitiş. Honegger 2005: 'Kerma Classique (vers 1500 av. J.-C.)' kuşatılmış yerleşim.",
@@ -64,7 +49,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-1499-01-01",
   "k": "kurulus",
-  "b": "Napata (Cebel Barkal): ilk tarihli kanıt / başlangıç",
+  "b": "Napata (Cebel Barkal): başlar",
   "gun": "MÖ 1500 (ALT SINIR; donem-toplami MÖ 1500–1450)",
   "yer": "Napata / Jebel Barkal",
   "d": "Yeni Krallık'ta Mısır'ın tahkim edilmiş karakolu olarak kuruldu; Kush hanedanının (Napata dönemi 1070–300 MÖ) başlıca kenti, Meroe dönemi (300 MÖ–MS 350) boyunca önemini korudu.",
@@ -85,7 +70,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-1556-01-01",
   "k": "kurulus",
-  "b": "Yeni Krallık (XVIII. Hanedan başı: I. Ahmose): ilk tarihli kanıt / başlangıç",
+  "b": "Yeni Krallık (XVIII. Hanedan başı: I. Ahmose): başlar",
   "gun": "MÖ 1570–1544 arası (orta nokta MÖ 1557)",
   "yer": "New Kingdom of Egypt (accession of Ahmose I)",
   "d": "I. Ahmose'nin tahta çıkışı (XVIII. Hanedan/Yeni Krallık başı) Bronk Ramsey vd. modelinde MÖ 1570–1544 (2σ).",
@@ -106,7 +91,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-1811-01-01",
   "k": "kayip",
-  "b": "Orta Krallık: sona erer / son tarihli kanıt",
+  "b": "Orta Krallık: sona erer",
   "gun": "MÖ 1825–1799 arası (orta nokta MÖ 1812)",
   "yer": "Middle Kingdom of Egypt",
   "d": "Mısır'ın ikinci büyük birlik dönemi; makale 'High' kronolojiyi destekler (Low reddedilir), Senusret III dönemi Uronarti (Sudan) kalesi kiriş halkalarıyla ölçülmüştür.",
@@ -127,7 +112,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-2050-01-01",
   "k": "kayip",
-  "b": "Birinci Ara Dönem: sona erer / son tarihli kanıt",
+  "b": "Birinci Ara Dönem: sona erer",
   "gun": "MÖ 2065–2037 arası (orta nokta MÖ 2051)",
   "yer": "First Intermediate Period",
   "d": "Eski Krallık'ın merkezî otoritesinin çözülmesi ve Orta Krallık'ın başlangıcına kadar süren parçalı dönem; makale 4.2 ka kuraklık olayıyla (yaklaşık MÖ 2250) uyumu vurgular.",
@@ -148,7 +133,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-2050-01-01",
   "k": "kurulus",
-  "b": "Orta Krallık: ilk tarihli kanıt / başlangıç",
+  "b": "Orta Krallık: başlar",
   "gun": "MÖ 2065–2037 arası (orta nokta MÖ 2051)",
   "yer": "Middle Kingdom of Egypt",
   "d": "Mısır'ın ikinci büyük birlik dönemi; makale 'High' kronolojiyi destekler (Low reddedilir), Senusret III dönemi Uronarti (Sudan) kalesi kiriş halkalarıyla ölçülmüştür.",
@@ -169,7 +154,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-2242-01-01",
   "k": "kayip",
-  "b": "Eski Krallık (Piramit Çağı): sona erer / son tarihli kanıt",
+  "b": "Eski Krallık (Piramit Çağı): sona erer",
   "gun": "MÖ 2283–2204 arası (orta nokta MÖ 2243)",
   "yer": "Old Kingdom of Egypt",
   "d": "Piramit Çağı krallığı; Erdil vd. 2025'e göre OK'nin başı MÖ ~2698–2629 (95%), Birinci Ara Dönem'e geçiş MÖ ~2283–2204 (95%). 'Low' kronoloji bu aralıkta artık desteklenmiyor.",
@@ -190,7 +175,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-2242-01-01",
   "k": "kurulus",
-  "b": "Birinci Ara Dönem: ilk tarihli kanıt / başlangıç",
+  "b": "Birinci Ara Dönem: başlar",
   "gun": "MÖ 2283–2204 arası (orta nokta MÖ 2243)",
   "yer": "First Intermediate Period",
   "d": "Eski Krallık'ın merkezî otoritesinin çözülmesi ve Orta Krallık'ın başlangıcına kadar süren parçalı dönem; makale 4.2 ka kuraklık olayıyla (yaklaşık MÖ 2250) uyumu vurgular.",
@@ -210,23 +195,8 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  },
  {
   "t": "-2499-01-01",
-  "k": "kayip",
-  "b": "Ön-Kerma (Pre-Kerma) kültürü: sona erer / son tarihli kanıt",
-  "gun": "MÖ 2500 civarı",
-  "yer": "Pre-Kerma",
-  "d": "Kerma bölgesinde (Dongola Kolu/Nil Üçüncü Katarakt altı) Neolitik'ten Kerma'ya geçen, tarım depolama çukurları ve erken sosyal karmaşıklık gösteren kültür.",
-  "kaynak": "Le Moyne vd. 2023 (aynı ifade); Kerma dönemi başlangıcı ile örtüşür. · https://pmc.ncbi.nlm.nih.gov/articles/PMC9894462/",
-  "kesinlik": "yuzyil",
-  "etiket": [
-   "arkeoloji"
-  ],
-  "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 2500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Kerma period (2500–1450 BCE)». 'later pre-Kerma period (3500–2500 BCE)' ifadesi, daha ERKEN Pre-Kerma evresi olduğunu ima eder; erken evrenin başlangıcı bu kaynakta verilmiyor. Yani 3500 'geç Pre-Kerma' başlangıcıdır, kültürün ilk görünümü değildir. Aynı makale: 'first complex Nile Valley polities (Naqada, A-Group and pre-Kerma cultures)'. Honegger 2005 (Genava 53): Kerma'da Neolitik iskân MÖ ~4650, ~4500 civarı tabakalar (OCR'li tablo, k99/Genava 1999 s.78: 'vers 3000 av. J.-C.' / 'vers 4500' / 'vers 4650') — OCR güvensiz, kullanılmadı."
- },
- {
-  "t": "-2499-01-01",
   "k": "kurulus",
-  "b": "Kerma (Kush) krallığı/kültürü: ilk tarihli kanıt / başlangıç",
+  "b": "Kerma (Kush) krallığı/kültürü: başlar",
   "gun": "MÖ 2500 civarı",
   "yer": "Kerma culture / Kingdom of Kush (Kerma)",
   "d": "Üçüncü Katarakt altında Kerma merkezli Nubya krallığı; Eski Kerma (~2500), Orta, Klasik Kerma evrelerinden geçip MÖ ~1450'de bitiş. Honegger 2005: 'Kerma Classique (vers 1500 av. J.-C.)' kuşatılmış yerleşim.",
@@ -241,7 +211,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-2662-01-01",
   "k": "kurulus",
-  "b": "Eski Krallık (Piramit Çağı): ilk tarihli kanıt / başlangıç",
+  "b": "Eski Krallık (Piramit Çağı): başlar",
   "gun": "MÖ 2698–2629 arası (orta nokta MÖ 2663)",
   "yer": "Old Kingdom of Egypt",
   "d": "Piramit Çağı krallığı; Erdil vd. 2025'e göre OK'nin başı MÖ ~2698–2629 (95%), Birinci Ara Dönem'e geçiş MÖ ~2283–2204 (95%). 'Low' kronoloji bu aralıkta artık desteklenmiyor.",
@@ -262,7 +232,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-3125-01-01",
   "k": "kayip",
-  "b": "Nakade (Naqada) kültürü: sona erer / son tarihli kanıt",
+  "b": "Nakade (Naqada) kültürü: sona erer",
   "gun": "MÖ 3218–3035 arası (orta nokta MÖ 3126)",
   "yer": "Naqada culture (Naqada I–III)",
   "d": "Yukarı Mısır'ın Badari sonrası Predinastik kültürü; Naqada I-III evrelerini kapsar, Naqada IIIC'de I. Hanedan ile (Aha) siyasî birliğe varır.",
@@ -283,7 +253,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-3499-01-01",
   "k": "gelisme",
-  "b": "Ön-Kerma (Pre-Kerma) kültürü: ilk tarihli kanıt / başlangıç",
+  "b": "Ön-Kerma (Pre-Kerma) kültürü: başlar",
   "gun": "MÖ 3500 civarı",
   "yer": "Pre-Kerma",
   "d": "Kerma bölgesinde (Dongola Kolu/Nil Üçüncü Katarakt altı) Neolitik'ten Kerma'ya geçen, tarım depolama çukurları ve erken sosyal karmaşıklık gösteren kültür.",
@@ -293,12 +263,12 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
    "arkeoloji"
   ],
   "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 3500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «associated with the later pre-Kerma period (3500–2500 BCE)». 'later pre-Kerma period (3500–2500 BCE)' ifadesi, daha ERKEN Pre-Kerma evresi olduğunu ima eder; erken evrenin başlangıcı bu kaynakta verilmiyor. Yani 3500 'geç Pre-Kerma' başlangıcıdır, kültürün ilk görünümü değildir. Aynı makale: 'first complex Nile Valley polities (Naqada, A-Group and pre-Kerma cultures)'. Honegger 2005 (Genava 53): Kerma'da Neolitik iskân MÖ ~4650, ~4500 civarı tabakalar (OCR'li tablo, k99/Genava 1999 s.78: 'vers 3000 av. J.-C.' / 'vers 4500' / 'vers 4650') — OCR güvensiz, kullanılmadı."
+  "ic_not_d": "TEK DEĞER MÖ 3500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «associated with the later pre-Kerma period (3500–2500 BCE)». 'later pre-Kerma period (3500–2500 BCE)' ifadesi, daha ERKEN Pre-Kerma evresi olduğunu ima eder; erken evrenin başlangıcı bu kaynakta verilmiyor. Yani 3500 'geç Pre-Kerma' başlangıcıdır, kültürün ilk görünümü değildir. Aynı makale: 'first complex Nile Valley polities (Naqada, A-Group and pre-Kerma cultures)'. Honegger 2005 (Genava 53): Kerma'da Neolitik iskân MÖ ~4650, ~4500 civarı tabakalar (OCR'li tablo, k99/Genava 1999 s.78: 'vers 3000 av. J.-C.' / 'vers 4500' / 'vers 4650') — OCR güvensiz, kullanılmadı. [VERI-MO-ARKEO: bitiş, ardıl dönemin başlangıcıyla aynı sınırdır; mükerrer madde açılmadı, geçiş ardıl dönem maddesinde tutulur.]"
  },
  {
   "t": "-3755-01-01",
   "k": "kurulus",
-  "b": "Nakade (Naqada) kültürü: ilk tarihli kanıt / başlangıç",
+  "b": "Nakade (Naqada) kültürü: başlar",
   "gun": "MÖ 3896–3616 arası (orta nokta MÖ 3756)",
   "yer": "Naqada culture (Naqada I–III)",
   "d": "Yukarı Mısır'ın Badari sonrası Predinastik kültürü; Naqada I-III evrelerini kapsar, Naqada IIIC'de I. Hanedan ile (Aha) siyasî birliğe varır.",
@@ -319,7 +289,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-3949-01-01",
   "k": "kayip",
-  "b": "Takarkori kaya sığınağı (Tadrart Acacus): sona erer / son tarihli kanıt",
+  "b": "Takarkori kaya sığınağı (Tadrart Acacus): sona erer",
   "gun": "MÖ 3950 (ALT SINIR; donem-toplami MÖ 3950–2350)",
   "yer": "Takarkori rock shelter, Tadrart Acacus (Libya)",
   "d": "Libya Fezzan'ında Tadrart Acacus'ta kaya sığınağı: Geç Acacus avcı-toplayıcı-balıkçılardan (LA1 ilk iskân) Erken, Orta, Geç Pastoral çobanlara uzanan, kesintisiz stratigrafi (yeşil Sahra).",
@@ -340,7 +310,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-4699-01-01",
   "k": "ilk_anilis",
-  "b": "Eş-Şeheynab (Shaheinab) Neolitiği: ilk tarihli kanıt / başlangıç",
+  "b": "Eş-Şeheynab (Shaheinab) Neolitiği: başlar",
   "gun": "MÖ 4700 (ALT SINIR; yerlesim-suresi MÖ 4700–4200)",
   "yer": "Esh-Shaheinab (Shaheinab Neolithic)",
   "d": "Orta Sudan'da Nil'e yakın Neolitik yerleşim (evcil hayvan, seramik, keski/gouge); tip-site olarak 'Shaheinab Neolitiği'ni tanımlar. Kültürün genel aralığı 5000–3800 BCE.",
@@ -361,7 +331,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-4849-01-01",
   "k": "kayip",
-  "b": "Fayum (Karun Gölü çevresi) Holosen iskânı: sona erer / son tarihli kanıt",
+  "b": "Fayum (Karun Gölü çevresi) Holosen iskânı: sona erer",
   "gun": "MÖ 4850 (ALT SINIR; yerlesim-suresi MÖ 4850–4250)",
   "yer": "Fayum depression, Lake Qarun",
   "d": "Fayum'da MÖ ~7350'den itibaren Holosen balıkçı-avcı iskânı; evcil bitki-hayvan yaklaşık MÖ 5400'den itibaren; Kom K/W Neolitik yerleşimleri MÖ 4850–4250.",
@@ -382,7 +352,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-4999-01-01",
   "k": "kayip",
-  "b": "Erken Hartum (Khartoum Mezolitik): sona erer / son tarihli kanıt",
+  "b": "Erken Hartum (Khartoum Mezolitik): sona erer",
   "gun": "MÖ 5000 civarı",
   "yer": "Early Khartoum (Khartoum Mesolithic)",
   "d": "Orta Sudan'da Nil kıyısında seramikli (dalgalı çizgi) avcı-toplayıcı-balıkçı Mezolitik; Arkell tarafından 'Khartoum Mesolithic' / 'Early Khartoum' adlandırıldı.",
@@ -397,7 +367,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-7349-01-01",
   "k": "ilk_anilis",
-  "b": "Fayum (Karun Gölü çevresi) Holosen iskânı: ilk tarihli kanıt / başlangıç",
+  "b": "Fayum (Karun Gölü çevresi) Holosen iskânı: başlar",
   "gun": "MÖ 7350 civarı",
   "yer": "Fayum depression, Lake Qarun",
   "d": "Fayum'da MÖ ~7350'den itibaren Holosen balıkçı-avcı iskânı; evcil bitki-hayvan yaklaşık MÖ 5400'den itibaren; Kom K/W Neolitik yerleşimleri MÖ 4850–4250.",
@@ -412,7 +382,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-8219-01-01",
   "k": "kurulus",
-  "b": "Takarkori kaya sığınağı (Tadrart Acacus): ilk tarihli kanıt / başlangıç",
+  "b": "Takarkori kaya sığınağı (Tadrart Acacus): başlar",
   "gun": "MÖ 8220 (ALT SINIR; donem-toplami MÖ 8220–7450)",
   "yer": "Takarkori rock shelter, Tadrart Acacus (Libya)",
   "d": "Libya Fezzan'ında Tadrart Acacus'ta kaya sığınağı: Geç Acacus avcı-toplayıcı-balıkçılardan (LA1 ilk iskân) Erken, Orta, Geç Pastoral çobanlara uzanan, kesintisiz stratigrafi (yeşil Sahra).",
@@ -433,7 +403,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
   "t": "-8799-01-01",
   "k": "gelisme",
-  "b": "Erken Hartum (Khartoum Mezolitik): ilk tarihli kanıt / başlangıç",
+  "b": "Erken Hartum (Khartoum Mezolitik): başlar",
   "gun": "MÖ 8800 (ALT SINIR; donem-toplami MÖ 8800–8500)",
   "yer": "Early Khartoum (Khartoum Mesolithic)",
   "d": "Orta Sudan'da Nil kıyısında seramikli (dalgalı çizgi) avcı-toplayıcı-balıkçı Mezolitik; Arkell tarafından 'Khartoum Mesolithic' / 'Early Khartoum' adlandırıldı.",

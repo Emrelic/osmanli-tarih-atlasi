@@ -4,7 +4,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-0099-01-01",
   "k": "kurulus",
-  "b": "Teotihuacan: ilk tarihli kanıt / başlangıç",
+  "b": "Teotihuacan: başlar",
   "gun": "MÖ 100 (ALT SINIR; donem-toplami MÖ 100–1)",
   "yer": "Teotihuacan",
   "d": "Meksika Havzası'nın kuzeydoğusunda ilk iskân Patlachique evresi (MÖ 100–MS 1); bir yüzyıl içinde ~20 000 nüfuslu kente dönüşür; Tzacualli evresi (MS 1–100) anıtsal yapılaşma.",
@@ -25,7 +25,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-0499-01-01",
   "k": "kayip",
-  "b": "Chavín de Huántar: sona erer / son tarihli kanıt",
+  "b": "Chavín de Huántar: sona erer",
   "gun": "MÖ 500 civarı",
   "yer": "Chavín de Huántar",
   "d": "And dağlarında Ancash'ta tören merkezi; stampalı cilalı siyah seramik (Janabarroide) 800–500 MÖ (kalibre) aralığında yoğunlaşır; Rick vd.'ne göre merkez ~500 MÖ'de tapınak işlevini yitirir, büyük inşaat bundan önce azalmıştı.",
@@ -40,7 +40,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-0499-01-01",
   "k": "kurulus",
-  "b": "Monte Albán: ilk tarihli kanıt / başlangıç",
+  "b": "Monte Albán: başlar",
   "gun": "MÖ 500 civarı",
   "yer": "Monte Albán",
   "d": "Oaxaca Vadisi'nin ortasında 400 m tepe üstünde savunma duvarlı Zapotek başkenti; Erken MA I (500–300 MÖ) evresinde kuruldu, Geç MA I'de (300–100 MÖ) devlet kurumları ve fetih görülür.",
@@ -55,7 +55,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-0799-01-01",
   "k": "gelisme",
-  "b": "La Venta (Olmek): ilk tarihli kanıt / başlangıç",
+  "b": "La Venta (Olmek): başlar",
   "gun": "MÖ 800 (ALT SINIR; donem-toplami MÖ 800–400)",
   "yer": "La Venta",
   "d": "Tabasco kıyı ovasında Orta Formatif Olmek merkezi; Kompleks A, piramit ve anıtlar. Yıkılışı Orta Preklasik sonunda.",
@@ -76,7 +76,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-0799-01-01",
   "k": "ilk_anilis",
-  "b": "El Mirador: ilk tarihli kanıt / başlangıç",
+  "b": "El Mirador: başlar",
   "gun": "MÖ 800 (ALT SINIR; donem-toplami MÖ 800–400)",
   "yer": "El Mirador",
   "d": "Mirador Havzası'nda Trogón Grubu'nda Orta Preklasik birincil çöplük birikimi (800–400 MÖ); ayrıca Danta piramit kompleksi (72 m) Geç ve Son Preklasik'te (350 MÖ–MS 250) inşa edilmiştir.",
@@ -97,7 +97,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-0899-01-01",
   "k": "kurulus",
-  "b": "Aguada Fénix: ilk tarihli kanıt / başlangıç",
+  "b": "Aguada Fénix: başlar",
   "gun": "MÖ 1000–800 arası (orta nokta MÖ 900)",
   "yer": "Aguada Fénix",
   "d": "Tabasco'da Maya alanının bilinen en eski anıtsal yapısı: 1400 m uzunluğunda, 10–15 m yüksekliğinde yapay plato ve ondan çıkan 9 geçit yolu.",
@@ -118,7 +118,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-0999-01-01",
   "k": "kurulus",
-  "b": "Nakbe: ilk tarihli kanıt / başlangıç",
+  "b": "Nakbe: başlar",
   "gun": "MÖ 1000 (ALT SINIR; donem-toplami MÖ 1000–600)",
   "yer": "Nakbé",
   "d": "Mirador Havzası'nda (Petén) Orta Preklasik anıtsal platformlu erken Maya merkezi; El Mirador'dan önce gelen önde gelen merkezlerden biri.",
@@ -139,7 +139,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-1199-01-01",
   "k": "gelisme",
-  "b": "Chavín de Huántar: ilk tarihli kanıt / başlangıç",
+  "b": "Chavín de Huántar: başlar",
   "gun": "MÖ 1200 (ALT SINIR; donem-toplami MÖ 1200–800)",
   "yer": "Chavín de Huántar",
   "d": "And dağlarında Ancash'ta tören merkezi; stampalı cilalı siyah seramik (Janabarroide) 800–500 MÖ (kalibre) aralığında yoğunlaşır; Rick vd.'ne göre merkez ~500 MÖ'de tapınak işlevini yitirir, büyük inşaat bundan önce azalmıştı.",
@@ -160,7 +160,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-12599-01-01",
   "k": "kurulus",
-  "b": "Monte Verde II: ilk tarihli kanıt / başlangıç",
+  "b": "Monte Verde II: başlar",
   "gun": "MÖ 12950–12250 arası (orta nokta MÖ 12600)",
   "yer": "Monte Verde",
   "d": "Şili'nin güney-orta bölgesinde, Chinchihuapi Deresi kıyısında turba altında korunmuş açık hava kampı (MV-II); Amerika'nın erken iskânı için ana referans alandır. Bu bir kısa süreli kamp olduğundan aralık bir 'oluş-zamanı belirsizliği'dir, yerleşim süresi değil.",
@@ -181,7 +181,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-1399-01-01",
   "k": "gelisme",
-  "b": "San Lorenzo Tenochtitlan (Olmek): ilk tarihli kanıt / başlangıç",
+  "b": "San Lorenzo Tenochtitlan (Olmek): başlar",
   "gun": "MÖ 1400 (ALT SINIR; donem-toplami MÖ 1400–1000)",
   "yer": "San Lorenzo Tenochtitlán",
   "d": "Veracruz güneyinde Coatzacoalcos havzasında ilk Olmek başkenti; yapay plato, 20 kenar platformu ve anıtsal taş heykellerle bilinir.",
@@ -202,7 +202,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-1649-01-01",
   "k": "kurulus",
-  "b": "Poverty Point: ilk tarihli kanıt / başlangıç",
+  "b": "Poverty Point: başlar",
   "gun": "MÖ 1650 (ALT SINIR; yerlesim-suresi MÖ 1650–1150)",
   "yer": "Poverty Point",
   "d": "Aşağı Mississippi Vadisi'nde Geç Arkaik topraktan tümsek ve eşmerkezli kabartma halkalar kompleksi; kıtanın en büyük avcı-toplayıcı anıtsal alanı.",
@@ -223,7 +223,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-2301-01-01",
   "k": "kurulus",
-  "b": "Caral: ilk tarihli kanıt / başlangıç",
+  "b": "Caral: başlar",
   "gun": "MÖ 2627–1977 arası (orta nokta MÖ 2302)",
   "yer": "Caral (Chupacigarro)",
   "d": "Supe Vadisi'nde kıyıdan 23 km içeride, 65 ha'lık merkezi anıtsal ve konut mimarili, seramiksiz büyük yerleşim; Supe Vadisi'ndeki 18 büyük seramiksiz yerleşimden biri.",
@@ -244,7 +244,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-2999-01-01",
   "k": "kurulus",
-  "b": "Norte Chico (Caral-Supe) Geç Arkaik kompleksi: ilk tarihli kanıt / başlangıç",
+  "b": "Norte Chico (Caral-Supe) Geç Arkaik kompleksi: başlar",
   "gun": "MÖ 3000 (ALT SINIR; donem-toplami MÖ 3000–1800)",
   "yer": "Norte Chico / Caral-Supe",
   "d": "Kuzey-merkez Peru kıyısında seramiksiz, anıtsal mimarili, büyük yerleşimler kompleksi; Güney Amerika'da en erken devletleşme eşiği tartışmasının merkezi.",
@@ -265,7 +265,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-4499-01-01",
   "k": "ilk_anilis",
-  "b": "Valdivia kültürü (Loma Alta / Real Alto): ilk tarihli kanıt / başlangıç",
+  "b": "Valdivia kültürü (Loma Alta / Real Alto): başlar",
   "gun": "MÖ 4500 civarı",
   "yer": "Cultura Valdivia",
   "d": "Güneybatı Ekvador kıyısında Erken Formatif Valdivia seramikli köy kültürü; Loma Alta, Valdivia Vadisi'nde en eski köylerden biri (ilk iki evre), mısır, manyok, yer elması ve biber izleri.",

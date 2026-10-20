@@ -564,7 +564,16 @@
     "alinti": "associated with the later pre-Kerma period (3500–2500 BCE)",
     "kaynak_sinifi": "akademik-ikincil"
    },
-   "bit": {
+   "bit": null,
+   "k": "gelisme",
+   "d": "Kerma bölgesinde (Dongola Kolu/Nil Üçüncü Katarakt altı) Neolitik'ten Kerma'ya geçen, tarım depolama çukurları ve erken sosyal karmaşıklık gösteren kültür.",
+   "sahip_kultur": "Pre-Kerma (Yukarı Nubia)",
+   "ic_not": "'later pre-Kerma period (3500–2500 BCE)' ifadesi, daha ERKEN Pre-Kerma evresi olduğunu ima eder; erken evrenin başlangıcı bu kaynakta verilmiyor. Yani 3500 'geç Pre-Kerma' başlangıcıdır, kültürün ilk görünümü değildir. Aynı makale: 'first complex Nile Valley polities (Naqada, A-Group and pre-Kerma cultures)'. Honegger 2005 (Genava 53): Kerma'da Neolitik iskân MÖ ~4650, ~4500 civarı tabakalar (OCR'li tablo, k99/Genava 1999 s.78: 'vers 3000 av. J.-C.' / 'vers 4500' / 'vers 4650') — OCR güvensiz, kullanılmadı. [VERI-MO-ARKEO: bitiş, ardıl dönemin başlangıcıyla aynı sınırdır; mükerrer madde açılmadı, geçiş ardıl dönem maddesinde tutulur.]",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9894462/",
+    "https://kerma.ch/documents/Publications_PDF/Genava_1999/Rapport_1999.pdf"
+   ],
+   "bit_kunye": {
     "bas_mo": 2500,
     "son_mo": null,
     "guven": "belirsiz",
@@ -573,15 +582,7 @@
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9894462/",
     "alinti": "the Kerma period (2500–1450 BCE)",
     "kaynak_sinifi": "akademik-ikincil"
-   },
-   "k": "gelisme",
-   "d": "Kerma bölgesinde (Dongola Kolu/Nil Üçüncü Katarakt altı) Neolitik'ten Kerma'ya geçen, tarım depolama çukurları ve erken sosyal karmaşıklık gösteren kültür.",
-   "sahip_kultur": "Pre-Kerma (Yukarı Nubia)",
-   "ic_not": "'later pre-Kerma period (3500–2500 BCE)' ifadesi, daha ERKEN Pre-Kerma evresi olduğunu ima eder; erken evrenin başlangıcı bu kaynakta verilmiyor. Yani 3500 'geç Pre-Kerma' başlangıcıdır, kültürün ilk görünümü değildir. Aynı makale: 'first complex Nile Valley polities (Naqada, A-Group and pre-Kerma cultures)'. Honegger 2005 (Genava 53): Kerma'da Neolitik iskân MÖ ~4650, ~4500 civarı tabakalar (OCR'li tablo, k99/Genava 1999 s.78: 'vers 3000 av. J.-C.' / 'vers 4500' / 'vers 4650') — OCR güvensiz, kullanılmadı.",
-   "okunan_sayfa": [
-    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9894462/",
-    "https://kerma.ch/documents/Publications_PDF/Genava_1999/Rapport_1999.pdf"
-   ]
+   }
   },
   {
    "id": "kerma-krallik",
@@ -702,7 +703,15 @@
     "alinti": "principal urban center of the Kushite dynasty during much of the Napatan period (1070 to 300 BCE)",
     "kaynak_sinifi": "birincil-yayin"
    },
-   "bit": {
+   "bit": null,
+   "k": "kurulus",
+   "d": "Kush hanedanının Napata merkezli dönemi; merkez MÖ ~300'de Meroe'ye kayar. Mısır'ı fetheden XXV. Hanedan (Kush) bu dönemde olur — XXV. Hanedan tarihleri bu kaynakta YOK.",
+   "sahip_kultur": "Napatan (Kushite) dönemi",
+   "ic_not": "Dönem sınırları arkeolojik/dönemsel anlatımdır (1070–300 MÖ, 'much of' ifadesi); 1070 değeri tek sayıdır, 'Egypt'in Üçüncü Ara Dönemi başlangıcı' ile ilgisi bu kaynakta açıklanmadı. 300 MÖ 'around' (yaklaşık). Kuraklık nedenli kayma önerisi (climate-induced desiccation 'may have contributed') — yorumdur, kanıtlı değildir. [VERI-MO-ARKEO: bitiş, ardıl dönemin başlangıcıyla aynı sınırdır; mükerrer madde açılmadı, geçiş ardıl dönem maddesinde tutulur.]",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142976/"
+   ],
+   "bit_kunye": {
     "bas_mo": 300,
     "son_mo": null,
     "guven": "belirsiz",
@@ -711,14 +720,7 @@
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142976/",
     "alinti": "shift in the Kushite center of power from Napata to Meroe around 300 BCE",
     "kaynak_sinifi": "birincil-yayin"
-   },
-   "k": "kurulus",
-   "d": "Kush hanedanının Napata merkezli dönemi; merkez MÖ ~300'de Meroe'ye kayar. Mısır'ı fetheden XXV. Hanedan (Kush) bu dönemde olur — XXV. Hanedan tarihleri bu kaynakta YOK.",
-   "sahip_kultur": "Napatan (Kushite) dönemi",
-   "ic_not": "Dönem sınırları arkeolojik/dönemsel anlatımdır (1070–300 MÖ, 'much of' ifadesi); 1070 değeri tek sayıdır, 'Egypt'in Üçüncü Ara Dönemi başlangıcı' ile ilgisi bu kaynakta açıklanmadı. 300 MÖ 'around' (yaklaşık). Kuraklık nedenli kayma önerisi (climate-induced desiccation 'may have contributed') — yorumdur, kanıtlı değildir.",
-   "okunan_sayfa": [
-    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142976/"
-   ]
+   }
   },
   {
    "id": "meroe-donemi-kush",

@@ -4,7 +4,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-2491-01-01",
   "k": "kayip",
-  "b": "Skara Brae: sona erer / son tarihli kanıt",
+  "b": "Skara Brae: sona erer",
   "gun": "MÖ 2545–2440 arası (orta nokta MÖ 2492)",
   "yer": "Skara Brae",
   "d": "Orkney Anakara'sında taş yapılı Geç Neolitik köy (Grooved Ware); Faz 1 2920–2885 başlar, Faz 2 (2840–2685 başlar) ~2545–2440'ta sona erer.",
@@ -25,7 +25,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-2526-01-01",
   "k": "gelisme",
-  "b": "Stonehenge sarsen halkası ve trilitonlar (Aşama 2): ilk tarihli kanıt / başlangıç",
+  "b": "Stonehenge sarsen halkası ve trilitonlar (Aşama 2): başlar",
   "gun": "MÖ 2580–2475 arası (orta nokta MÖ 2527)",
   "yer": "Stonehenge sarsen circle",
   "d": "5 sarsen trilitondan at nalı ve 30 dikme+30 lento'dan sarsen halka dikilir; çift mavi taş halkası eklenir; tüm Aşama 2 aralığı 2760–2510 ile 2470–2300 cal BC.",
@@ -46,7 +46,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-2871-01-01",
   "k": "kurulus",
-  "b": "Stonehenge (Aşama 1: hendek ve set): ilk tarihli kanıt / başlangıç",
+  "b": "Stonehenge (Aşama 1: hendek ve set): başlar",
   "gun": "MÖ 2990–2755 arası (orta nokta MÖ 2872)",
   "yer": "Stonehenge",
   "d": "110 m çaplı dairesel toprak anıt (bank+hendek, Aubrey çukurları); yakma gömüleri. Aşama 1 bütünü 3100–2920 / 2965–2755 cal BC arası başlayıp biter; sonraki aşamalarda taşlar dikilir.",
@@ -67,7 +67,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-2901-01-01",
   "k": "kurulus",
-  "b": "Skara Brae: ilk tarihli kanıt / başlangıç",
+  "b": "Skara Brae: başlar",
   "gun": "MÖ 2920–2885 arası (orta nokta MÖ 2902)",
   "yer": "Skara Brae",
   "d": "Orkney Anakara'sında taş yapılı Geç Neolitik köy (Grooved Ware); Faz 1 2920–2885 başlar, Faz 2 (2840–2685 başlar) ~2545–2440'ta sona erer.",
@@ -88,7 +88,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-4514-01-01",
   "k": "kayip",
-  "b": "Vinča-Belo Brdo: sona erer / son tarihli kanıt",
+  "b": "Vinča-Belo Brdo: sona erer",
   "gun": "MÖ 4545–4485 arası (orta nokta MÖ 4515)",
   "yer": "Винча – Бело брдо",
   "d": "Belgrad yakınında Tuna kıyısı Geç Neolitik tell; üst katmanda yanmış ev ufukları, Vinča kültürü yerleşmesi MÖ 46. yüzyılın ikinci yarısında sona erer.",
@@ -109,7 +109,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-4586-01-01",
   "k": "kurulus",
-  "b": "Vinča-Belo Brdo: ilk tarihli kanıt / başlangıç",
+  "b": "Vinča-Belo Brdo: başlar",
   "gun": "MÖ 4625–4550 arası (orta nokta MÖ 4587)",
   "yer": "Винча – Бело брдо",
   "d": "Belgrad yakınında Tuna kıyısı Geç Neolitik tell; üst katmanda yanmış ev ufukları, Vinča kültürü yerleşmesi MÖ 46. yüzyılın ikinci yarısında sona erer.",
@@ -130,7 +130,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-4790-01-01",
   "k": "kurulus",
-  "b": "Carnac megalitik kompleksi, Le Plasker bölümü (Plouharnel): ilk tarihli kanıt / başlangıç",
+  "b": "Carnac megalitik kompleksi, Le Plasker bölümü (Plouharnel): başlar",
   "gun": "MÖ 4791 (ALT SINIR; donem-toplami MÖ 4791–4640)",
   "yer": "Complexe mégalithique de Carnac – Le Plasker (Plouharnel)",
   "d": "Le Plasker'de Geç Mezolitik yerleşme (Faz 1: 5699–5621) üstüne ~300 yıllık boşluktan sonra Orta Neolitik 'ön-megalitik' anıtsal mezar; hemen sonra veya aynı zamanda kuzey-güney dikili taş sıraları (Faz 4: 4668–4368, 95.4) ve pişirme çukurları.",
@@ -151,7 +151,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-5779-01-01",
   "k": "kayip",
-  "b": "Lepenski Vir: sona erer / son tarihli kanıt",
+  "b": "Lepenski Vir: sona erer",
   "gun": "MÖ 5900–5660 arası (orta nokta MÖ 5780)",
   "yer": "Лепенски Вир",
   "d": "Tuna Demirkapı geçidinde Mesolitik avcı-toplayıcı yerleşmesi; en geç evre Erken Neolitik (Starčevo çanak çömleği, ilk evcil hayvanlar). Başlangıç 'tek kesintisiz' yerleşim değil: Proto-LV evresi kesintili olabilir.",
@@ -172,7 +172,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-5974-01-01",
   "k": "kayip",
-  "b": "Lepenski Vir trapez yapılı yerleşim evresi (Mezolitik-Neolitik geçiş, LV I-II): sona erer / son tarihli kanıt",
+  "b": "Lepenski Vir trapez yapılı yerleşim evresi (Mezolitik-Neolitik geçiş, LV I-II): sona erer",
   "gun": "MÖ 6010–5940 arası (orta nokta MÖ 5975)",
   "yer": "Лепенски Вир, фаза I-II",
   "d": "Trapez kireçtaşı taban yapıları ve süslü kaya blokları (taş heykeller) evresi; makalede kısa (80–210 yıl, Model 2) ve ardından Starčevo Erken Neolitiği gelir.",
@@ -193,7 +193,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-6119-01-01",
   "k": "gelisme",
-  "b": "Lepenski Vir trapez yapılı yerleşim evresi (Mezolitik-Neolitik geçiş, LV I-II): ilk tarihli kanıt / başlangıç",
+  "b": "Lepenski Vir trapez yapılı yerleşim evresi (Mezolitik-Neolitik geçiş, LV I-II): başlar",
   "gun": "MÖ 6170–6070 arası (orta nokta MÖ 6120)",
   "yer": "Лепенски Вир, фаза I-II",
   "d": "Trapez kireçtaşı taban yapıları ve süslü kaya blokları (taş heykeller) evresi; makalede kısa (80–210 yıl, Model 2) ve ardından Starčevo Erken Neolitiği gelir.",
@@ -214,7 +214,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-6699-01-01",
   "k": "kurulus",
-  "b": "Knossos (Neolitik yerleşme): ilk tarihli kanıt / başlangıç",
+  "b": "Knossos (Neolitik yerleşme): başlar",
   "gun": "MÖ 6810–6590 arası (orta nokta MÖ 6700)",
   "yer": "Κνωσός",
   "d": "Girit'te ilk (Aseramik) çiftçi yerleşmesi; kısa ömürlü öncü köy (en çok ~400 yıl), ardından uzun bir boşluk, sonra seramikli Erken Neolitik I yeniden iskânı.",
@@ -235,7 +235,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-9589-01-01",
   "k": "kurulus",
-  "b": "Lepenski Vir: ilk tarihli kanıt / başlangıç",
+  "b": "Lepenski Vir: başlar",
   "gun": "MÖ 9900–9280 arası (orta nokta MÖ 9590)",
   "yer": "Лепенски Вир",
   "d": "Tuna Demirkapı geçidinde Mesolitik avcı-toplayıcı yerleşmesi; en geç evre Erken Neolitik (Starčevo çanak çömleği, ilk evcil hayvanlar). Başlangıç 'tek kesintisiz' yerleşim değil: Proto-LV evresi kesintili olabilir.",

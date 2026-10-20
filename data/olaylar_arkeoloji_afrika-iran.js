@@ -4,7 +4,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
  {
   "t": "-0299-01-01",
   "k": "kurulus",
-  "b": "Cenne-Ceno (Jenne-jeno): ilk tarihli kanıt / başlangıç",
+  "b": "Cenne-Ceno (Jenne-jeno): başlar",
   "gun": "MÖ 300 civarı",
   "yer": "Djenné-Djenno",
   "d": "Orta Nijer ic deltasinda demir kullanan topluluk MO 3. yy'dan itibaren yerlesik; MS 1. binyilda hizli buyume, MS 750-1100'de >33 ha zirve.",
@@ -19,7 +19,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
  {
   "t": "-0538-01-01",
   "k": "fetih",
-  "b": "Babil'in Kyros'a geçişi: ilk tarihli kanıt / başlangıç",
+  "b": "Babil'in Kyros'a geçişi: başlar",
   "gun": "MÖ 539",
   "yer": "Bābili",
   "d": "Nabonidus'un 17. yilinda (539/538) Ugbaru ve Kyros'un ordusu savassiz Babil'e girer; Kyros 3 Arahsamna'da sehre girer.",
@@ -31,7 +31,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
  {
   "t": "-0549-01-01",
   "k": "fetih",
-  "b": "Ekbatana (Hamedan): Kyros'un Med başkentini alması: ilk tarihli kanıt / başlangıç",
+  "b": "Ekbatana (Hamedan): Kyros'un Med başkentini alması: başlar",
   "gun": "MÖ 550",
   "yer": "Ecbatana / Hagmatāna",
   "d": "Nabonidus'un 6. yilinda (MO 550/549) Kyros, Med kralinin 'kral sehri' Ekbatana'ya yurur; Med devletinin Kyros'a gecisi ve Ahamenis imparatorlugunun kurulus tarihi olarak 550 gelenegi bu kayda dayanir.",
@@ -43,7 +43,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
  {
   "t": "-0944-01-01",
   "k": "kurulus",
-  "b": "Teouma (Lapita mezarligi), Efate: ilk tarihli kanıt / başlangıç",
+  "b": "Teouma (Lapita mezarligi), Efate: başlar",
   "gun": "MÖ 970–920 arası (orta nokta MÖ 945)",
   "yer": "Teouma, Efate, Vanuatu",
   "d": "Uzak Okyanusya'nin bilinen en eski mezarligi; Lapita yerlesmesi Efate'de ~2920-2870 BP (yaklasik MO 970-920). Ayni makale bagimsiz tortu cekirdeginden 'ilk kesin insan izi 2800 yil once' diyor.",
@@ -64,7 +64,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
  {
   "t": "-4744-01-01",
   "k": "kurulus",
-  "b": "Kuk: hoyuk (mound) tarimi, Evre 2: ilk tarihli kanıt / başlangıç",
+  "b": "Kuk: hoyuk (mound) tarimi, Evre 2: başlar",
   "gun": "MÖ 5000–4490 arası (orta nokta MÖ 4745)",
   "yer": "Kuk Swamp Phase 2",
   "d": "Yeni Gine'de bagimsiz tarimin en gec baslangici: muz (Musa) yogun yetistiricilik, ormanin otlaga donusumu.",
@@ -85,7 +85,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
  {
   "t": "-8114-01-01",
   "k": "ilk_anilis",
-  "b": "Kuk Bataklığı (erken tarım alanı): ilk tarihli kanıt / başlangıç",
+  "b": "Kuk Bataklığı (erken tarım alanı): başlar",
   "gun": "MÖ 8270–7960 arası (orta nokta MÖ 8115)",
   "yer": "Kuk Swamp / Kuk Early Agricultural Site",
   "d": "Yeni Gine yaylasinda bataklik kenarinda bitki kullanimi ve bir miktar yetistiricilik (Evre 1: 10220-9910 cal BP = yaklasik MO 8270-7960). Bagimsiz tarim en gec 6950-6440 cal BP (yaklasik MO 5000-4490, Evre 2 hoyuk/mound), hendekli tarim 4350-3980 cal BP (yaklasik MO 2400-2030, Evre 3).",

@@ -4,7 +4,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
  {
   "t": "-1009-01-01",
   "k": "ilk_anilis",
-  "b": "Kuzey Kyushu (Uki-Kunden Kabuk Höyüğü), pirinç tarımının gelişi: ilk tarihli kanıt / başlangıç",
+  "b": "Kuzey Kyushu (Uki-Kunden Kabuk Höyüğü), pirinç tarımının gelişi: başlar",
   "gun": "MÖ 1176–845 arası (orta nokta MÖ 1010)",
   "yer": "宇木汲田遺跡",
   "d": "Japonya'da pirinç tarımının kuzey Kyushu'ya (Jomon sonu / Yayoi başı) gelişi için Bayesçi tahmin; modelin orijin noktası Uki-Kunden Kabuk Höyüğü (veri setindeki en eski yanmış pirinç tarihi).",
@@ -25,7 +25,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
  {
   "t": "-1045-01-01",
   "k": "fetih",
-  "b": "Zhou'nun Shang seferi/fethi (Zhou kuruluşu; Zhou başkenti Fenghao): ilk tarihli kanıt / başlangıç",
+  "b": "Zhou'nun Shang seferi/fethi (Zhou kuruluşu; Zhou başkenti Fenghao): başlar",
   "gun": "MÖ 1046",
   "yer": "周 / 豐鎬",
   "d": "Kral Wu'nun Shang seferi (ilk sefer 1046) ve Zhòu'un yenilgisi (1044 MÖ, Zhang 2023); Zhou hanedanı kuruluşu.",
@@ -79,7 +79,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
  {
   "t": "-14914-01-01",
   "k": "ilk_anilis",
-  "b": "Yuchanyan Mağarası: ilk tarihli kanıt / başlangıç",
+  "b": "Yuchanyan Mağarası: başlar",
   "gun": "MÖ 16350–13480 arası (orta nokta MÖ 14915)",
   "yer": "玉蟾岩 (Yuchanyan)",
   "d": "Güney Çin (Hunan) mağara avcı-toplayıcı kampında çanak çömlek parçaları; çanak çömleğin kalibre yaşı 18.300-15.430 cal BP. Mağara tabakaları toplam ~21.000-13.800 cal BP.",
@@ -100,7 +100,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
  {
   "t": "-3549-01-01",
   "k": "gelisme",
-  "b": "Liangzhu Kültürü: ilk tarihli kanıt / başlangıç",
+  "b": "Liangzhu Kültürü: başlar",
   "gun": "MÖ 3550 (ALT SINIR; donem-toplami MÖ 3550–2050)",
   "yer": "良渚文化",
   "d": "Aşağı Yangtze'de yeşim ve pirinç tarımlı geç Neolitik kültür; model aralığı c. 5500-4000 cal BP (MÖ ~3550-2050).",
@@ -121,7 +121,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
  {
   "t": "-4999-01-01",
   "k": "gelisme",
-  "b": "Yangshao Kültürü: ilk tarihli kanıt / başlangıç",
+  "b": "Yangshao Kültürü: başlar",
   "gun": "MÖ 5000 (ALT SINIR; donem-toplami MÖ 5000–2900)",
   "yer": "仰韶文化",
   "d": "Orta Sarı Nehir'de darı tarımına dayalı Neolitik kültür; Miaodigou evresinde Orta Ovalar merkezli kültür topluluğu.",
@@ -142,7 +142,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
  {
   "t": "-5149-01-01",
   "k": "gelisme",
-  "b": "Hemudu Kültürü: ilk tarihli kanıt / başlangıç",
+  "b": "Hemudu Kültürü: başlar",
   "gun": "MÖ 5150 (ALT SINIR; donem-toplami MÖ 5150–3250)",
   "yer": "河姆渡文化",
   "d": "Aşağı Yangtze (Hangzhou Körfezi) pirinç tarımlı Neolitik kültür; model aralığı c. 7100-5200 cal BP (MÖ ~5150-3250).",
@@ -163,7 +163,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
  {
   "t": "-5949-01-01",
   "k": "gelisme",
-  "b": "Kuahuqiao Kültürü: ilk tarihli kanıt / başlangıç",
+  "b": "Kuahuqiao Kültürü: başlar",
   "gun": "MÖ 5950 (ALT SINIR; donem-toplami MÖ 5950–5250)",
   "yer": "跨湖桥文化",
   "d": "Hangzhou Körfezi'nde erken Neolitik kültür, c. 7900-7200 cal BP (MÖ ~5950-5250).",
@@ -184,7 +184,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
  {
   "t": "-7049-01-01",
   "k": "gelisme",
-  "b": "Peiligang Kültürü: ilk tarihli kanıt / başlangıç",
+  "b": "Peiligang Kültürü: başlar",
   "gun": "MÖ 7050 (ALT SINIR; donem-toplami MÖ 7050–5050)",
   "yer": "裴李岗文化",
   "d": "Orta Sarı Nehir bölgesinde avcı-toplayıcılıktan kuru tarım temelli Neolitik'e geçiş kültürü; Tanghu'da 7800 cal BP'de darı ve pirinç karma tarımı (phytolith).",
@@ -205,7 +205,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
  {
   "t": "-8849-01-01",
   "k": "gelisme",
-  "b": "Shangshan Kültürü: ilk tarihli kanıt / başlangıç",
+  "b": "Shangshan Kültürü: başlar",
   "gun": "MÖ 8850 (ALT SINIR; donem-toplami MÖ 8850–6650)",
   "yer": "上山文化",
   "d": "Aşağı Yangtze'de pirinç kullanımının erken evresi, c. 10800-8600 cal BP (MÖ ~8850-6650).",

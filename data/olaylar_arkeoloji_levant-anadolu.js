@@ -4,7 +4,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-10149-01-01",
   "k": "kurulus",
-  "b": "Mureybet: ilk tarihli kanıt / başlangıç",
+  "b": "Mureybet: başlar",
   "gun": "MÖ 10150 (ALT SINIR; donem-toplami MÖ 10150–9250)",
   "yer": "Tell Mureybet (Mureybit)",
   "d": "Orta Firat'ta Natufiyen sonu - Hiyamiyen - Mureybetien - erken/orta PPNB'ye uzanan yerlesme dizisi; Hiyamiyen tanim yeri.",
@@ -25,7 +25,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-11219-01-01",
   "k": "kurulus",
-  "b": "Ebu Hureyre (Abu Hureyra): ilk tarihli kanıt / başlangıç",
+  "b": "Ebu Hureyre (Abu Hureyra): başlar",
   "gun": "MÖ 11220 (ALT SINIR; yerlesim-suresi MÖ 11220–10750)",
   "yer": "Tell Abu Hureyra",
   "d": "Firat vadisinde Epipaleolitik av-toplayici koyu; ardindan kesintili Neolitik (PPNB) yerlesme 2A (~7760-7440) ve 2B (~7400-7100 MO).",
@@ -46,7 +46,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-12649-01-01",
   "k": "kurulus",
-  "b": "Natufiyen Kültürü: ilk tarihli kanıt / başlangıç",
+  "b": "Natufiyen Kültürü: başlar",
   "gun": "MÖ 12650 (ALT SINIR; donem-toplami MÖ 12650–9550)",
   "yer": "Natufian",
   "d": "Gec Epipaleolitik: buyuk ussu, tas yapilar, mezarlar; Shubayqa 1'de 27 AMS tarihi: ilk iskan ~14,600-14,200 cal BP, terk ~900 yil, tekrar 13,300-13,000 ve ~12,380-11,500 cal BP (2σ).",
@@ -67,7 +67,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-6699-01-01",
   "k": "kayip",
-  "b": "Ayn Gazal (‘Ain Ghazal): sona erer / son tarihli kanıt",
+  "b": "Ayn Gazal (‘Ain Ghazal): sona erer",
   "gun": "MÖ 6700 (ALT SINIR; donem-toplami MÖ 6700–6600)",
   "yer": "‘Ayn Ghazāl",
   "d": "Ürdün'de Orta-Gec PPNB'den PPNC'ye buyuk Neolitik yerlesme; ~7600-7500'de kisa kesinti iddiasi AMS ile (7607-7531 cal BCE) sorgulanmis.",
@@ -88,7 +88,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-6749-01-01",
   "k": "kayip",
-  "b": "Kfar HaHoresh: sona erer / son tarihli kanıt",
+  "b": "Kfar HaHoresh: sona erer",
   "gun": "MÖ 6750 civarı",
   "yer": "כפר החורש",
   "d": "Guney Levant'ta Erken-Gec PPNB torenlik/mezar merkezi (iskan degil); keci yonetimine gecis donemi.",
@@ -103,7 +103,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-6749-01-01",
   "k": "gelisme",
-  "b": "PPNC (Son PPNB) — Güney Levant: ilk tarihli kanıt / başlangıç",
+  "b": "PPNC (Son PPNB) — Güney Levant: başlar",
   "gun": "MÖ 6750 (ALT SINIR; donem-toplami MÖ 6750–6400)",
   "yer": "Final PPNB / PPNC",
   "d": "Guney Levant'ta Son PPNB (PPNC) ~8,700-8,350 cal BP; ardindan Ceramikli Neolitik 8,350-7,450 cal BP.",
@@ -124,7 +124,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-7099-01-01",
   "k": "kayip",
-  "b": "Ebu Hureyre (Abu Hureyra): sona erer / son tarihli kanıt",
+  "b": "Ebu Hureyre (Abu Hureyra): sona erer",
   "gun": "MÖ 7100 civarı",
   "yer": "Tell Abu Hureyra",
   "d": "Firat vadisinde Epipaleolitik av-toplayici koyu; ardindan kesintili Neolitik (PPNB) yerlesme 2A (~7760-7440) ve 2B (~7400-7100 MO).",
@@ -139,7 +139,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-7139-01-01",
   "k": "kayip",
-  "b": "Çayönü Tepesi: sona erer / son tarihli kanıt",
+  "b": "Çayönü Tepesi: sona erer",
   "gun": "MÖ 7140 (ALT SINIR; donem-toplami MÖ 7140–6820)",
   "yer": "Çayönü Tepesi",
   "d": "Aseramik Neolitik: yuvarlak yapi, izgara, kanalli, kaldirimli, hucreli ve genis-oda evreleri; en son Erken Neolitik tabaka ~7140-6820.",
@@ -160,7 +160,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-7499-01-01",
   "k": "kurulus",
-  "b": "Ba‘ja: ilk tarihli kanıt / başlangıç",
+  "b": "Ba‘ja: başlar",
   "gun": "MÖ 7500 (ALT SINIR; donem-toplami MÖ 7500–6900)",
   "yer": "Ba‘ja (Little Petra yakini)",
   "d": "Güney Ürdün'de Gec PPNB dag yerlesmesi; olu gomme (Loc. C10:408) 14C: 7071-6684 cal BCE (%95.4).",
@@ -181,7 +181,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-7599-01-01",
   "k": "kayip",
-  "b": "Nevalı Çori: sona erer / son tarihli kanıt",
+  "b": "Nevalı Çori: sona erer",
   "gun": "MÖ 7600 civarı",
   "yer": "Nevalı Çori",
   "d": "Yukari Firat'ta erken-orta PPNB yerlesmesi; sonra Halaf, Erken Tunc I, Demir Cagi ve Roma donemlerinde yeniden iskan.",
@@ -196,7 +196,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-7949-01-01",
   "k": "kayip",
-  "b": "Mureybet: sona erer / son tarihli kanıt",
+  "b": "Mureybet: sona erer",
   "gun": "MÖ 7950 civarı",
   "yer": "Tell Mureybet (Mureybit)",
   "d": "Orta Firat'ta Natufiyen sonu - Hiyamiyen - Mureybetien - erken/orta PPNB'ye uzanan yerlesme dizisi; Hiyamiyen tanim yeri.",
@@ -211,7 +211,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-8399-01-01",
   "k": "kurulus",
-  "b": "Aşıklı Höyük: ilk tarihli kanıt / başlangıç",
+  "b": "Aşıklı Höyük: başlar",
   "gun": "MÖ 8400 (ALT SINIR; yerlesim-suresi MÖ 8400–7350)",
   "yer": "Aşıklı Höyük",
   "d": "Kapadokya'da Orta Anadolu'nun en eski yerlesik koylerinden; yerel koyun-keci evcillestirme ~8400 MO'dan.",
@@ -232,7 +232,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-8399-01-01",
   "k": "kurulus",
-  "b": "Ayn Gazal (‘Ain Ghazal): ilk tarihli kanıt / başlangıç",
+  "b": "Ayn Gazal (‘Ain Ghazal): başlar",
   "gun": "MÖ 8400 (ALT SINIR; donem-toplami MÖ 8400–8000)",
   "yer": "‘Ayn Ghazāl",
   "d": "Ürdün'de Orta-Gec PPNB'den PPNC'ye buyuk Neolitik yerlesme; ~7600-7500'de kisa kesinti iddiasi AMS ile (7607-7531 cal BCE) sorgulanmis.",
@@ -253,7 +253,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-8499-01-01",
   "k": "kurulus",
-  "b": "Nevalı Çori: ilk tarihli kanıt / başlangıç",
+  "b": "Nevalı Çori: başlar",
   "gun": "MÖ 8500 (ALT SINIR; donem-toplami MÖ 8500–8340)",
   "yer": "Nevalı Çori",
   "d": "Yukari Firat'ta erken-orta PPNB yerlesmesi; sonra Halaf, Erken Tunc I, Demir Cagi ve Roma donemlerinde yeniden iskan.",
@@ -274,7 +274,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-8609-01-01",
   "k": "kayip",
-  "b": "Cerf el-Ahmer (Jerf el Ahmar): sona erer / son tarihli kanıt",
+  "b": "Cerf el-Ahmer (Jerf el Ahmar): sona erer",
   "gun": "MÖ 8610 civarı",
   "yer": "Jerf el-Ahmar",
   "d": "Orta Firat'ta PPNA koyu: topluluk binalari EA 47 (Faz 1), EA 7 (Faz 2), EA 30/EA 53 (Faz 3, 8800-8610 MO).",
@@ -289,7 +289,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-8629-01-01",
   "k": "kurulus",
-  "b": "Çayönü Tepesi: ilk tarihli kanıt / başlangıç",
+  "b": "Çayönü Tepesi: başlar",
   "gun": "MÖ 8630 (ALT SINIR; donem-toplami MÖ 8630–8245)",
   "yer": "Çayönü Tepesi",
   "d": "Aseramik Neolitik: yuvarlak yapi, izgara, kanalli, kaldirimli, hucreli ve genis-oda evreleri; en son Erken Neolitik tabaka ~7140-6820.",
@@ -310,7 +310,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-8649-01-01",
   "k": "kurulus",
-  "b": "Kfar HaHoresh: ilk tarihli kanıt / başlangıç",
+  "b": "Kfar HaHoresh: başlar",
   "gun": "MÖ 8650 civarı",
   "yer": "כפר החורש",
   "d": "Guney Levant'ta Erken-Gec PPNB torenlik/mezar merkezi (iskan degil); keci yonetimine gecis donemi.",
@@ -325,7 +325,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-8649-01-01",
   "k": "gelisme",
-  "b": "PPNB (Çömlekten Önceki Neolitik B) — Güney Levant: ilk tarihli kanıt / başlangıç",
+  "b": "PPNB (Çömlekten Önceki Neolitik B) — Güney Levant: başlar",
   "gun": "MÖ 8650 (ALT SINIR; donem-toplami MÖ 8650–6750)",
   "yer": "Pre-Pottery Neolithic B",
   "d": "Guney Levant PPNB: Erken 10,600-10,000; Orta 10,000-9,500; Gec 9,500-8,700 cal BP.",
@@ -346,7 +346,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-9449-01-01",
   "k": "kurulus",
-  "b": "Cerf el-Ahmer (Jerf el Ahmar): ilk tarihli kanıt / başlangıç",
+  "b": "Cerf el-Ahmer (Jerf el Ahmar): başlar",
   "gun": "MÖ 9450 (ALT SINIR; donem-toplami MÖ 9450–9240)",
   "yer": "Jerf el-Ahmar",
   "d": "Orta Firat'ta PPNA koyu: topluluk binalari EA 47 (Faz 1), EA 7 (Faz 2), EA 30/EA 53 (Faz 3, 8800-8610 MO).",
@@ -367,7 +367,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-9659-01-01",
   "k": "kurulus",
-  "b": "Hallan Çemi: ilk tarihli kanıt / başlangıç",
+  "b": "Hallan Çemi: başlar",
   "gun": "MÖ 9660 (ALT SINIR; yerlesim-suresi MÖ 9660–9320)",
   "yer": "Hallan Çemi Tepesi",
   "d": "Dicle kolu havzasinda yil boyu iskanli erken Holosen avci-toplayici koyu; kalibrasyon platosu nedeniyle ana yerlesme araligi uzatilmis.",
@@ -388,7 +388,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-9699-01-01",
   "k": "kurulus",
-  "b": "PPNA (Çömlekten Önceki Neolitik A) — Güney Levant: ilk tarihli kanıt / başlangıç",
+  "b": "PPNA (Çömlekten Önceki Neolitik A) — Güney Levant: başlar",
   "gun": "MÖ 9700 (ALT SINIR; donem-toplami MÖ 9700–8650)",
   "yer": "Pre-Pottery Neolithic A",
   "d": "Guney Levant'ta erken yerlesik/tarim oncesi koyler (Eriha vb.).",
