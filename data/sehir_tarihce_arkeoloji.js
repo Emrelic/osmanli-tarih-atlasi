@@ -5,13 +5,13 @@ window.SEHIR_TARIHCE_ARKEOLOJI = [
   "id": "ain-mallaha",
   "ad": "Ain Mallaha (Eynan)",
   "atlas_ad": null,
-  "lat": 33.037,
-  "lon": 35.61,
+  "lat": 33.087,
+  "lon": 35.579,
   "kat1900": 3,
   "adlar": [
    "Ain Mallaha (Eynan)"
   ],
-  "konum_teyit": "KOORDİNAT HAFIZADAN yazıldı, Pleiades/TGN ikinci tanığıyla ÖLÇÜLMEDİ — haritaya basılmadan önce teyit şart (CLAUDE.md: yeni yerleşimden önce mükerrer tara).",
+  "konum_teyit": "KOORDİNAT TEYİTLİ 20 Ekim 2026: Wikidata Q2915013 P625 (33.0870,35.5792; en.wikipedia ʿAin Mallaha ile aynı). HAFIZADAKİ ilk değer (33.037,35.61) ~6 km YANLIŞTI, düzeltildi. Pleiades'te kayıt yok (Neolitik öncesi). İkinci tanık: Hula Vadisi merkezi 33.103,35.609 (en.wikipedia Hula Valley) ile uyumlu (≈2-3 km). Yaklaşıklık ~0,5 km.",
   "ilk": {
    "t": "-12154-01-01",
    "gun": "MÖ 12155 (orta nokta; uçlar MÖ 12240–12070)",
@@ -59,7 +59,7 @@ window.SEHIR_TARIHCE_ARKEOLOJI = [
   "adlar": [
    "Çatalhöyük"
   ],
-  "konum_teyit": "KOORDİNAT HAFIZADAN yazıldı, Pleiades/TGN ikinci tanığıyla ÖLÇÜLMEDİ — haritaya basılmadan önce teyit şart (CLAUDE.md: yeni yerleşimden önce mükerrer tara).",
+  "konum_teyit": "KOORDİNAT TEYİTLİ 20 Ekim 2026: Wikidata Q192522 (37.6675,32.8283) ↔ OSM Nominatim (37.6668,32.8253): fark 0,3 km. Pleiades'te kayıt yok.",
   "ilk": {
    "t": "-7099-01-01",
    "gun": "MÖ 7100 civarı",
@@ -112,7 +112,7 @@ window.SEHIR_TARIHCE_ARKEOLOJI = [
   "adlar": [
    "Eriha (Tell es-Sultan)"
   ],
-  "konum_teyit": "KOORDİNAT HAFIZADAN yazıldı, Pleiades/TGN ikinci tanığıyla ÖLÇÜLMEDİ — haritaya basılmadan önce teyit şart (CLAUDE.md: yeni yerleşimden önce mükerrer tara).",
+  "konum_teyit": "KOORDİNAT TEYİTLİ 20 Ekim 2026: Wikidata Q2402267 Tell es-Sultan (31.8717,35.4446) ↔ OSM Nominatim (31.8709,35.4440): fark 0,1 km.",
   "ilk": {
    "t": "-9299-01-01",
    "gun": "MÖ 9300 (ALT SINIR; dönem toplamı 9300–8700)",
@@ -160,7 +160,7 @@ window.SEHIR_TARIHCE_ARKEOLOJI = [
   "adlar": [
    "Göbekli Tepe"
   ],
-  "konum_teyit": "KOORDİNAT HAFIZADAN yazıldı, Pleiades/TGN ikinci tanığıyla ÖLÇÜLMEDİ — haritaya basılmadan önce teyit şart (CLAUDE.md: yeni yerleşimden önce mükerrer tara).",
+  "konum_teyit": "KOORDİNAT TEYİTLİ 20 Ekim 2026: Wikidata Q214944 (37.2231,38.9225) ↔ OSM Nominatim (37.2239,38.9221): fark 0,1 km.",
   "ilk": {
    "t": "-9528-01-01",
    "gun": "MÖ 9529 (orta nokta; uçlar MÖ 9745–9314)",
@@ -207,13 +207,13 @@ window.SEHIR_TARIHCE_ARKEOLOJI = [
   "id": "harappa",
   "ad": "Harappa",
   "atlas_ad": null,
-  "lat": 30.631,
-  "lon": 72.864,
+  "lat": 30.632,
+  "lon": 72.865,
   "kat1900": 3,
   "adlar": [
    "Harappa"
   ],
-  "konum_teyit": "KOORDİNAT HAFIZADAN yazıldı, Pleiades/TGN ikinci tanığıyla ÖLÇÜLMEDİ — haritaya basılmadan önce teyit şart (CLAUDE.md: yeni yerleşimden önce mükerrer tara).",
+  "konum_teyit": "KOORDİNAT TEYİTLİ 20 Ekim 2026: Wikidata Q185562 (30.6333,72.8667); ilk değer 30.631,72.864 ile fark 0,3 km; ikisinin ortası yazıldı.",
   "ilk": {
    "t": "-3299-01-01",
    "gun": "MÖ 3300 civarı",
@@ -255,13 +255,13 @@ window.SEHIR_TARIHCE_ARKEOLOJI = [
   "id": "jiahu",
   "ad": "Jiahu",
   "atlas_ad": null,
-  "lat": 33.62,
-  "lon": 113.67,
+  "lat": 33.617,
+  "lon": 113.665,
   "kat1900": 3,
   "adlar": [
    "Jiahu"
   ],
-  "konum_teyit": "KOORDİNAT HAFIZADAN yazıldı, Pleiades/TGN ikinci tanığıyla ÖLÇÜLMEDİ — haritaya basılmadan önce teyit şart (CLAUDE.md: yeni yerleşimden önce mükerrer tara).",
+  "konum_teyit": "KOORDİNAT TEYİTLİ 20 Ekim 2026: Wikidata Q1688860 (33.6144,113.6614) ↔ ilk değer (33.62,113.67): fark ~1 km; ortası yazıldı. Yalnız iki ikincil tanık — doğruluk ~1-2 km.",
   "ilk": {
    "t": "-6999-01-01",
    "gun": "MÖ 7000 civarı",
@@ -308,13 +308,13 @@ window.SEHIR_TARIHCE_ARKEOLOJI = [
   "id": "mehrgarh",
   "ad": "Mehrgarh",
   "atlas_ad": null,
-  "lat": 29.383,
-  "lon": 67.617,
+  "lat": 29.416,
+  "lon": 67.607,
   "kat1900": 3,
   "adlar": [
    "Mehrgarh"
   ],
-  "konum_teyit": "KOORDİNAT HAFIZADAN yazıldı, Pleiades/TGN ikinci tanığıyla ÖLÇÜLMEDİ — haritaya basılmadan önce teyit şart (CLAUDE.md: yeni yerleşimden önce mükerrer tara).",
+  "konum_teyit": "KOORDİNAT DÜZELTİLDİ 20 Ekim 2026: hafızadaki (29.383,67.617) yerine Pakistan Arkeoloji ve Müzeler Müdürlüğü kaydı (doam.gov.pk/sites/8911: 29.4163,67.6068; 'Dadhar'ın 10 km güneyi, Kachi') ↔ OSM Nominatim 'Mehrgarh' (29.4008,67.5996): fark ~2 km. UNESCO Tentative List 1876 (29°12′45″N 67°40′15″E) ve Wikidata Q242148 (29.2125,67.6708) ~23 km GÜNEYDE — kaynaklar tutarsız; DOAM+OSM esas alındı. Beyanlı yaklaşıklık ~2 km.",
   "ilk": {
    "t": "-5049-01-01",
    "gun": "MÖ 5050 (orta nokta; uçlar MÖ 5200–4900)",

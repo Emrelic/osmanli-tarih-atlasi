@@ -243,7 +243,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
    "guven": "95",
    "tur": "kalibre-14C"
   },
-  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4489–4266 (kaynağın verdiği uçlar); orta nokta MÖ 4377 = astronomik -4376. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Yarım yıl çıktı (4377,5) → daha geç yıla yuvarlandı. Tablo değeri WebFetch özetinden; PDF tablosuyla bir kez daha teyit edilmeli."
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4489–4266 (kaynağın verdiği uçlar); orta nokta MÖ 4377 = astronomik -4376. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Yarım yıl çıktı (4377,5) → daha geç yıla yuvarlandı. TEYİT 20 Ekim 2026: Tablo 1 değerleri (Badarian başlangıç 4489–4266, %95) PMC3780825 tam metninden (Dee vd. 2013, Proc. R. Soc. A 469, Tablo 1) doğrudan okundu; birincil makale okundu."
  },
  {
   "t": "-3125-01-01",
@@ -264,6 +264,6 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
    "guven": "95",
    "tur": "kalibre-14C"
   },
-  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3218–3035 (kaynağın verdiği uçlar); orta nokta MÖ 3126 = astronomik -3125. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. En geniş verilen güven düzeyi (%95) kullanıldı. ⚠️ ATLAS ÇELİŞKİSİ: `devletler.js` misir-erken-hanedan f=-3099 (MÖ 3100, Shaw 2000); bu kayıt −3125 verir. Künye DEĞİŞTİRİLMEDİ — künye-kayma kararı Emre'nin (iki ucu ölç)."
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3218–3035 (kaynağın verdiği uçlar); orta nokta MÖ 3126 = astronomik -3125. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. En geniş verilen güven düzeyi (%95) kullanıldı. TEYİT 20 Ekim 2026: Aha 3218–3035 (%95) ve 3111–3045 (%68) Tablo 1'den (PMC3780825) doğrudan okundu. ⚠️ ATLAS ÇELİŞKİSİ: `devletler.js` misir-erken-hanedan f=-3099 (MÖ 3100, Shaw 2000); bu kayıt −3125 verir. Künye DEĞİŞTİRİLMEDİ — künye-kayma kararı Emre'nin (iki ucu ölç)."
  }
 ];
