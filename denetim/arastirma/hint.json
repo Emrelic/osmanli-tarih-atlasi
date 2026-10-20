@@ -1,0 +1,333 @@
+{
+ "bolge": "Hint alt kıtası MÖ 9000–MÖ 300",
+ "tarih_olcum": "20 Ekim 2026",
+ "kayitlar": [
+  {
+   "id": "erken-harappa-donemi",
+   "ad": "Erken Harappa dönemi (Pre-urban / Early Harappan)",
+   "ad_yerel": "Early Harappan",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kültür dönemi; tek nokta yok (Ghaggar-Hakra, Cholistan, Sind, Baluçistan yayılımı). Koordinat verilmedi.",
+   "kur": {
+    "bas_mo": 3200,
+    "son_mo": 2600,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Parikh D. & Petrie C.A. 2019, World Archaeology 51(2) (Introduction, dönemleme paragrafı), doi:10.1080/00438243.2019.1601463",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7643715/",
+    "alinti": "Early Harappan (3200–2600 BC), Mature Harappan (2600–1900 BC) ... Late Harappan periods (1900–1600 BC)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 2600,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Parikh & Petrie 2019 (aynı), Mature Harappan başlangıcı = Erken Harappa sonu",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7643715/",
+    "alinti": "Mature Harappan (2600–1900 BC)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Kentleşme öncesi köy-temelli Harappa dönemi; olgun dönemde kentleşmeye geçilir. Kurulu dönemleme: Erken Harappa 3200–2600 MÖ.",
+   "sahip_kultur": "Early Harappan (Pre-urban)",
+   "ic_not": "KRONOLOJİ ÇELİŞKİSİ (Harappa başlangıcı). (a) Parikh & Petrie 2019: Erken Harappa 3200–2600 BC (Possehl 1977/2002, Wright 2010 dönemlemesine atıf). (b) Sarkar vd. 2016 Sci Rep 6:26555, 'geleneksel' dönemleme (Harappa'daki >100 14C tarihine dayanıyor): Early Ravi ~5.7–4.8 ka BP, Kot Diji ~4.8–4.6, Olgun ~4.6–3.9, Geç (Painted Grey Ware) 3.9–3.3 ka BP (cal yr BP; yaklaşık 3750–2850, 2850–2650, 2650–1950, 1950–1350 MÖ; BP→MÖ dönüşümü bende, kaynak MÖ vermiyor). (c) Aynı makalede Possehl'e atfedilen 'eski kronoloji': ~9–6.3, 6.3–5.2, 5.2–3, 3–2.5 ka BP (Sarkar 2016, SI). (d) Dholavira için UNESCO nominasyonu/Bisht ve yeniden-tarihleme: Aşama I 3000–2900 / 3500–3200 MÖ (bkz. bulunamadi). Yani 3200 (Parikh & Petrie) / yaklaşık 3700 (Sarkar 'geleneksel' ka BP) / >3500 (Dholavira yeniden-tarihleme) / 9 ka BP (Possehl-Bhirrana) iddiaları yan yana yaşıyor; ben Parikh & Petrie 3200'ü esas aldım (hakemli, açık metin, 'yaygın dönemleme' diye veriyor). Atlasa konacaksa 'Erken Harappa' kültür başlangıcı 3200 ve çelişki beyan edilmeli.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7643715/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4879637/"
+   ]
+  },
+  {
+   "id": "olgun-harappa-donemi",
+   "ad": "Olgun Harappa (İndus Uygarlığı kent dönemi)",
+   "ad_yerel": "Mature Harappan / Harappa Phase / Integration Era",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kültür dönemi; tek nokta yok. Harappa, Mohenjo-daro, Dholavira, Rakhigarhi, Ganweriwala vb. merkezler.",
+   "kur": {
+    "bas_mo": 2600,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Shinde V. vd. 2019, Cell 179(3), giriş; doi:10.1016/j.cell.2019.08.048 — Parikh & Petrie 2019 (World Archaeol.) ve Valentine vd. 2015 (PLoS One 10(4):e0123103) aynı 2600 başlangıcını verir",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6800651/",
+    "alinti": "The mature Indus Valley Civilization ... was spread over northwestern South Asia from 2600–1900 BCE",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 1900,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Shinde vd. 2019 Cell (2600–1900 BCE); Parikh & Petrie 2019 (1900); Valentine vd. 2015 (Harappa Phase 2600–1900 BC)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4414352/",
+    "alinti": "Harappa Phase (2600–1900 BC)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Kentleşmiş İndus Uygarlığı: standart ağırlık-ölçü, mühür, planlı kentler. Dönem 2600–1900 MÖ; sonrasında Geç Harappa'ya geçiş.",
+   "sahip_kultur": "Mature Harappan / Harappa Phase",
+   "ic_not": "Üç bağımsız hakemli kaynak aynı 2600–1900 aralığını veriyor (Shinde 2019 Cell; Parikh & Petrie 2019; Valentine 2015). Harappa mezarlığı için doğrudan 14C: kömür 2550–2030 cal BC (Valentine 2015, 'J.M. Kenoyer, kişisel görüşme'; birincil yayın değil). Sarkar 2016'da 'Olgun 4.6–3.9 ka BP' yaklaşık 2650–1950 MÖ; çelişki Erken Harappa kaydında. Mohenjo-daro/Harappa 'kentler 2600–1900' ifadesi arama özetinde Kenoyer'e atfedildi, harappa.com Cloudflare engeli nedeniyle OKUYAMADIM.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6800651/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7643715/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4414352/"
+   ]
+  },
+  {
+   "id": "gec-harappa-donemi",
+   "ad": "Geç Harappa dönemi",
+   "ad_yerel": "Late Harappan / Localization Era",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Kültür dönemi; doğuya (Haryana, Yukarı Doab) ve Gujarat'a kayma. Nokta yok.",
+   "kur": {
+    "bas_mo": 1900,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Parikh & Petrie 2019, World Archaeology 51(2); doi:10.1080/00438243.2019.1601463 (Mughal 1970; Possehl 2002; Wright 2010'a atıf)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7643715/",
+    "alinti": "Late Harappan periods (1900–1600 BC) (Mughal 1970; Possehl 2002; Wright 2010; contra Shaffer 1992; Kenoyer 1998)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 1600,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Parikh & Petrie 2019 (aynı)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7643715/",
+    "alinti": "Late Harappan periods (1900–1600 BC)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Kentsel yapıların çözüldüğü, yerleşimlerin dağılıp doğuya/güneye kaydığı Geç Harappa dönemi (1900–1600 MÖ).",
+   "sahip_kultur": "Late Harappan (Post-urban)",
+   "ic_not": "Bitiş çelişkili: Parikh & Petrie 1900–1600 BC; Sarkar 2016 (geleneksel) 'Geç/PGW 3.9–3.3 ka BP' yaklaşık 1950–1350 MÖ; Possehl'e atfedilen eski kronolojide 3–2.5 ka BP. Parikh&Petrie metni dönemleme için Shaffer 1992/Kenoyer 1998'e 'contra' notu veriyor (Geç Harappa'yı ayrı dönem saymayan görüş). 1600 'dönem sonu' olup oluş-zamanı değildir.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7643715/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4879637/"
+   ]
+  },
+  {
+   "id": "rakhigarhi",
+   "ad": "Rakhigarhi",
+   "ad_yerel": "Rakhigarhi (Rakhi Garhi)",
+   "tur": "sehir",
+   "lat": 29.29,
+   "lon": 76.113,
+   "konum_tanik": [
+    {
+     "kaynak": "OSM Nominatim (archaeological_site RGR-2)",
+     "lat": 29.2913235,
+     "lon": 76.110736
+    },
+    {
+     "kaynak": "Wikidata Q59633503 (archaeological site, Hisar)",
+     "lat": 29.293733,
+     "lon": 76.114683
+    },
+    {
+     "kaynak": "Wikidata Q3418050",
+     "lat": 29.17,
+     "lon": 76.07
+    }
+   ],
+   "konum_not": "OSM ile Q59633503 arasında yaklaşık 0,5 km; Q3418050 yaklaşık 14 km güneybatıda (müze/köy koordinatına denk, höyük değil). Esas: OSM/Q59633503 (höyük alanı).",
+   "kur": {
+    "bas_mo": 2800,
+    "son_mo": 2300,
+    "guven": "belirsiz",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Shinde V. vd. 2019, Cell 179:729, doi:10.1016/j.cell.2019.08.048 (Shinde 2018 PLoS One ve Vahia 2016'ya atıfla)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6800651/",
+    "alinti": "seven dates from charcoal at depths of 9–23 meters have point estimates of 2800–2300 BCE",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "ilk_anilis",
+   "d": "Hindistan'daki en büyük İndus yerleşimi (yaklaşık 550 ha); kömür tarihleri Olgun Harappa'ya düşüyor, mezarlık Olgun dönem.",
+   "sahip_kultur": "Mature Harappan",
+   "ic_not": "2800–2300, 7 kömür tarihinin NOKTA tahminlerinin dağılımıdır (yerleşim süresi değil); 'kur' = en eski/en genç nokta tahmin. Aynı grubun PLoS One 2018 makalesi (Shinde, Kim, Woo vd., doi:10.1371/journal.pone.0192299): 20,6 m 2616±73 BCE, 9,1 m 2273±38 BCE (IUAC AMS, kalibre); mezarlık 'Olgun Harappa, 2500–2000 BCE'. UYARI: Sarkar vd. 2016 Rakhigarhi'nin Hakra/Erken evreleri de içerdiğini söylüyor ('recent excavations ... all the cultural levels') ama sayısal tarih vermiyor; yerleşimin gerçek başlangıcı BULUNAMADI. Haritada 'ilk anılış' olarak kullanılacaksa yerleşim başlangıcı değil, kömür tarihi olarak beyan edilmeli.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6800651/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5821334/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4879637/"
+   ]
+  },
+  {
+   "id": "bhirrana",
+   "ad": "Bhirrana",
+   "ad_yerel": "Bhirrana (Bhirdana)",
+   "tur": "sehir",
+   "lat": 29.5549,
+   "lon": 75.5478,
+   "konum_tanik": [
+    {
+     "kaynak": "OSM Nominatim (archaeological_site 'Ancient Site of Bhirrana')",
+     "lat": 29.5549146,
+     "lon": 75.5477754
+    },
+    {
+     "kaynak": "Wikidata Q4901824 (köy, Fatehabad)",
+     "lat": 29.55416667,
+     "lon": 75.56527778
+    }
+   ],
+   "konum_not": "Fark yaklaşık 1,8 km (köy merkezi vs. höyük); esas OSM höyük noktası.",
+   "kur": {
+    "bas_mo": 6647,
+    "son_mo": 6221,
+    "guven": "belirsiz",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Sarkar A. vd. 2016, Sci Rep 6:26555, doi:10.1038/srep26555 (en eski tabaka 14C, ref 8/17/18'den aktarım)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4879637/",
+    "alinti": "At Bhirrana the earliest level has provided mean 14C age of 8.35 ± 0.14 ka BP (8597 to 8171 years BP)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "ilk_anilis",
+   "d": "Ghaggar-Hakra havzasında 'Hakra evresi'nden Olgun Harappa'ya kesintisiz yerleşim; kazı dizisi İndus öncesi çok eski yerleşme iddiasının dayanağı.",
+   "sahip_kultur": "Hakra phase / Pre-Harappan, Early/Mature Harappan",
+   "ic_not": "Değerler 'cal yr BP' den MÖ'ya: BP - 1950 dönüşümü BENİM (kaynak MÖ vermiyor): 8597 yaklaşık 6647, 8171 yaklaşık 6221 MÖ. Bu 'tek tabaka 14C ortalaması aralığı' (±1σ), yerleşim süresi değil. Aynı makalede Hakra evresi ~9.5–8 ka BP, Erken Harappa ~8–6.5, Erken-Olgun ~6.5–5 ka BP (Possehl'e yakın 'uzun kronoloji'). Sarkar'ın kendi OSL'i: çanak 143 cm 5.9±0.25 ka BP (6185–5695), 42 cm 4.8±0.3 ka BP (5120–4520); en eski OSL 5.9 ka BP olup 14C'nin >9 ka iddiasını doğrulamıyor. Tartışmalı; yüksek-kronoloji iddiası olarak beyan edilmeli. Orijinal Bhirrana 14C raporu (Rao vd. 2005) OKUNAMADI.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4879637/"
+   ]
+  },
+  {
+   "id": "burzahom",
+   "ad": "Burzahom",
+   "ad_yerel": "Burzahom (Burzahama)",
+   "tur": "sehir",
+   "lat": 34.1692,
+   "lon": 74.867,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q19787278",
+     "lat": 34.1691499,
+     "lon": 74.866985
+    },
+    {
+     "kaynak": "OSM Nominatim (archaeological_site)",
+     "lat": 34.1704823,
+     "lon": 74.8673354
+    }
+   ],
+   "konum_not": "Fark yaklaşık 0,15 km; esas Wikidata (OSM ikinci 'attraction' kaydı ile birebir aynı).",
+   "kur": {
+    "bas_mo": 2900,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Dwivedi A. vd. 2025, Sci Rep, doi:10.1038/s41598-025-00568-4 (Burzahom girişi; ref 10)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12511581/",
+    "alinti": "Spanning from around 2900 BCE to around fifth century CE, Burzahom archeological site exhibits four phases of human habitation",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "ilk_anilis",
+   "d": "Keşmir Vadisi'nin Neolitik yerleşimi: çukur evler, mezarlar (trepanasyon), Dönem I aseramik, II seramik, III megalitik, IV erken tarihsel.",
+   "sahip_kultur": "Kashmir Neolithic (Burzahom Neolithic I–II)",
+   "ic_not": "'2900 MÖ' kaynağın tek değerli, yaklaşık beyanı (alt 14C serisi verilmedi); makale Keşmir Neolitik çanağını 'dördüncü bin yılın son çeyreği' (Kanispur) olarak da anıyor, yani 2900'den eski olabilir. Aynı makale bir Neolitik bireyin AMS tarihini 2009–2002 calBCE veriyor (tek birey, yerleşim süresi DEĞİL). Eski ham 14C listesi (Tata Institute, TF-129 ham 3670±90 BP) kalibre değil, yazılmadı. Dönem I/II tabaka tarihleri için orijinal kazı raporu (Khazanchi/ASI) bulunamadı.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12511581/"
+   ]
+  },
+  {
+   "id": "mohenjo-daro",
+   "ad": "Mohenjo-daro",
+   "ad_yerel": "Mohenjo-daro",
+   "tur": "sehir",
+   "lat": 27.3217,
+   "lon": 68.1366,
+   "konum_tanik": [
+    {
+     "kaynak": "OSM Nominatim (archaeological_site, Larkana)",
+     "lat": 27.321657,
+     "lon": 68.1365933
+    },
+    {
+     "kaynak": "Wikidata Q5725",
+     "lat": 27.329166666667,
+     "lon": 68.138888888889
+    }
+   ],
+   "konum_not": "Fark yaklaşık 0,9 km; esas OSM site alanı.",
+   "kur": {
+    "bas_mo": 2700,
+    "son_mo": 2600,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Sindh DGAA 2026 raporu (batı Stupa Höyüğü duvarı 14C), Archaeology Magazine 6 Nisan 2026 haberi üzerinden; İKİNCİL/HABER, hakemli yayın YOK",
+    "url": "https://archaeology.org/news/2026/04/06/new-dates-push-back-occupation-of-mohenjo-daro/",
+    "alinti": "was occupied as early as 2700 to 2600 B.C., about two hundred years earlier than previously thought",
+    "kaynak_sinifi": "ansiklopedi"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "İndus Uygarlığı'nın en büyük kentlerinden; Sind. Yeni (basın) 14C tarihleri en erken iskanı 2700–2600 MÖ'ya, surların en az 2200 MÖ'ya kadar bakıldığına işaret ediyor.",
+   "sahip_kultur": "Mature Harappan",
+   "ic_not": "ZAYIF KAYIT. Tek tanık basın haberi (yayınlanmamış Sindh DGAA 14C; haber IFLScience'a atıf). Bir fact-check sitesi '3300 MÖ' iddiasının doğrulanamadığını bildiriyor (arama özeti). Standart görüş: büyük çekirdek kentler (Mohenjo-daro, Harappa) ~2600–1900 BC (Kenoyer'e atıf; okuyamadığım kaynak, ama Olgun Harappa kaydı hakemli kaynaklarla aynı). Bitiş: kaynak yok. Eski ham 14C (Dales 1964-65; Radiocarbon listesi, bir örnek 1752 BC) kalibre değil ve stratigrafisi belirsiz, yazılmadı. Haritaya konacaksa kur 2600 (Olgun Harappa dönemi) önerilir, 2700 değil.",
+   "okunan_sayfa": [
+    "https://archaeology.org/news/2026/04/06/new-dates-push-back-occupation-of-mohenjo-daro/"
+   ]
+  },
+  {
+   "id": "maurya-magadha",
+   "ad": "Maurya iktidarı (Magadha, başkent Pataliputra)",
+   "ad_yerel": "Maurya / Magadha; Palibothra",
+   "tur": "bolge",
+   "lat": 25.6144,
+   "lon": 85.135,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 59978 Palibothra",
+     "lat": 25.614443,
+     "lon": 85.13502
+    },
+    {
+     "kaynak": "Wikidata Q389755 Pataliputra",
+     "lat": 25.611,
+     "lon": 85.144
+    }
+   ],
+   "konum_not": "Fark yaklaşık 0,9 km; esas Pleiades (Palibothra=Pataliputra, Patna).",
+   "kur": {
+    "bas_mo": 322,
+    "son_mo": 321,
+    "guven": "belirsiz",
+    "aralik_turu": "yazili",
+    "kaynak": "Bhattasali N.K. 1932, 'Mauryya Chronology and Connected Problems', JRAS 64(2):273–288, doi:10.1017/S0035869X00112043 (yalnız ilk-sayfa özeti okundu)",
+    "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/mauryya-chronology-and-connected-problems/623850C38FDC331F2B148189A18B1595",
+    "alinti": "The year 322–321 B.C. for the accession of Candragupta Mauryya is one of such dates.",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Candragupta Maurya'nın Magadha'da iktidara gelişi (Nanda hanedanının yerine) ve Maurya devletinin kuruluşu; geleneksel tarih 322–321 MÖ.",
+   "sahip_kultur": null,
+   "ic_not": "Bu metin 322–321'i uzun süredir 'çapa' sayılan ama sorgulanan tarihlerden biri olarak sunuyor (Bhattasali eleştirel). Arama özetleri (Wikipedia, tertiary): yaklaşık 320 MÖ veya Magadha fethi ~317–312 / alt. 311–305; Rapson CHI atfıyla 322, Nandaların Avanti'de 313'e dek (okunamadı). Buda tarihleri de değişken: konsensüs ~563–483, Gombrich ~484–404 (Harvey, Intro. to Buddhism, CUP 2012 sayfasından). Çifte teyit YOK. TDV/Cambridge History of India okunamadı. Başkent koordinatı Pataliputra'dır; accession günü yok.",
+   "okunan_sayfa": [
+    "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/mauryya-chronology-and-connected-problems/623850C38FDC331F2B148189A18B1595",
+    "https://pleiades.stoa.org/places/59978/json"
+   ]
+  }
+ ],
+ "bulunamadi": [
+  "bulunamadı: Dholavira Aşama I–VII tarihleri. Arama özeti (WebSearch; okunan sayfa değil): UNESCO nominasyonu Aşama I–III 3000–2500, IV–V 2500–2000 (Harappa), VI 1950–1800, VII 1500–1450 MÖ; Bisht tablosu (Wikipedia aktarımı) Aşama I 2650–2550 ... VII 1650–1450, 'yeniden tarihleme' Aşama I c.3500–3200. Çelişki tam bu. Denenen: whc.unesco.org/en/list/1645 ve /document/189324 (403/Cloudflare), Europe PMC (Dholavira hakemli 14C yok). Koordinat tanıkları hazır: Wikidata Q9468 23.8861,70.2167; OSM 23.8889,70.2115 (yaklaşık 0,6 km). Okunması gereken: Bisht 2015 ASI raporu / Current Science / UNESCO dosyası.",
+  "bulunamadı: Lothal kuruluş-bitiş. Arama özeti Rao'ya atfen Dönem A yaklaşık 2450–1900, Dönem B (Geç Harappa) yaklaşık 1800–1600 MÖ; kaynak okunamadı. Tata Institute Radiocarbon Date List III (Lothal, ham 14C 'Harappa culture 3405±125 / 1455 BC', Libby yarı-ömrü) kalibre değil, yazılmadı. Koordinat: Wikidata Q9443 22.5214,72.2494; OSM 22.5227,72.2493 (<0,2 km). Denenen: Europe PMC.",
+  "bulunamadı: Kalibangan kendi 14C aralığı. Sarkar 2016 yalnızca 'Kalibangan TF-439 7.6 ka BP' (ham/kalibre belirsiz) atfı veriyor, kaynak okunamadı. Koordinat: Wikidata Q1722226 29.4739,74.1297; OSM 29.4696,74.1348 (yaklaşık 0,6 km). Denenen: Europe PMC (Lal vd. 2003 ASI Memoir 98 açık değil).",
+  "bulunamadı: Painted Grey Ware (PGW) 14C/kalibre aralığı. Europe PMC'de uygun açık makale yok; arama özetleri (Wikipedia ~1200–600 BCE; Tata Inst. liste II ham 800–500 BC upper levels) zayıf/ham. Bhagwanpura (Wikidata Q4900684: 30.0667,76.95) Geç Harappa–PGW örtüşmesi sadece ThePrint haberi; hakemli kaynak (Joshi vd. 1993) bulunamadı.",
+  "bulunamadı: Mahajanapada/Magadha kuruluşu MÖ 6.–4. yy (Bimbisara, Ajatashatru, Haryanka, Nanda tarihleri); hakemli/ansiklopedik kaynak okunamadı. Denenen: britannica.com/place/Magadha (403), WebSearch (yalnız Buda tarihleri çıktı). Pleiades Palibothra: hellenistic-republican/roman/late-antique anılış, açıklama 'MÖ 3. yy Aşoka'da zirve'. Pataliputra'nın kuruluş tarihi kaynak yok.",
+  "bulunamadı: Mohenjo-daro bitiş/terk tarihi (kaynaklı kalibre 14C): yok (Dales 1964-65 ham tarihler, stratigrafi belirsiz, yazılmadı). Possehl yüksek kronolojisinin orijinal metni (Possehl 2002) OKUNAMADI; yalnız Sarkar 2016'nın aktarımı var.",
+  "bulunamadı: Olgun Harappa BAŞLANGICI için kalibre tek-olay 14C (Harappa 3B/3C; Kenoyer). Kenoyer tarihleri harappa.com (Cloudflare 403) ve kitaptan; Valentine 2015 Harappa mezarlığı 2550–2030 cal BC'yi 'kişisel görüşme' diye veriyor, birincil yayın yok."
+ ]
+}

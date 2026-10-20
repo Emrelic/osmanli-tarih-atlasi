@@ -1,0 +1,320 @@
+{
+ "bolge": "Sahra-alti Afrika, Okyanusya/Avustralya, Orta Asya/Iran platosu, MO 12000-MS 1",
+ "tarih_olcum": "20 Ekim 2026",
+ "donusum_notu": "Kaynak 'cal yr BP' verdiyse MO sayisi = BP - 1950 (basit cikarma, yil-0 duzeltmesi yok; kaynagin kendisi MO vermemistir, donusum bizimdir). Ham deger alintida/ic_not'ta aynen duruyor.",
+ "kayitlar": [
+  {
+   "id": "kuk-bataklik-tarimi",
+   "ad": "Kuk Bataklığı (erken tarım alanı)",
+   "ad_yerel": "Kuk Swamp / Kuk Early Agricultural Site",
+   "tur": "bolge",
+   "lat": -5.7848,
+   "lon": 144.3371,
+   "konum_tanik": [
+    {
+     "kaynak": "OSM Nominatim 'Kuk Early Agricultural World Heritage Site'",
+     "lat": -5.7847981,
+     "lon": 144.3371072
+    }
+   ],
+   "konum_not": "TEK tanik (OSM); Wikidata'da koordinatli kayit bulunamadi, UNESCO sayfasi 403 verdi. Iki-tanik kurali SAGLANMADI; koordinati kesin sayma. Waim makalesi (PMC7096170) Kuk'u Wahgi vadisinde, 1550 m rakimda gosterir (yon dogrulayici, koordinat degil).",
+   "kur": {
+    "bas_mo": 8270,
+    "son_mo": 7960,
+    "guven": "belirsiz (kaynak 'cal yr B.P.' araligi verir, guven yuzdesi ozette yok)",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Denham TP vd. 2003, Science 301(5630): 189-193, doi:10.1126/science.1085255 (Europe PMC kaydindaki ozet okundu)",
+    "url": "https://doi.org/10.1126/science.1085255",
+    "alinti": "Plant exploitation and some cultivation occurred on the wetland margin at 10,220 to 9910 cal yr B.P. (phase 1)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "ilk_anilis",
+   "d": "Yeni Gine yaylasinda bataklik kenarinda bitki kullanimi ve bir miktar yetistiricilik (Evre 1: 10220-9910 cal BP = yaklasik MO 8270-7960). Bagimsiz tarim en gec 6950-6440 cal BP (yaklasik MO 5000-4490, Evre 2 hoyuk/mound), hendekli tarim 4350-3980 cal BP (yaklasik MO 2400-2030, Evre 3).",
+   "sahip_kultur": null,
+   "ic_not": "Evre 1 'tarim' degil 'bitki kullanimi ve bir miktar yetistiricilik'; kesin tarim baslangici Evre 2 (MO ~5000-4490). UNESCO '7000, belki 10000 yil' diyor (WebSearch ozeti, sayfa okunamadi). Bunlar donem/evre araligidir (aralik_turu kalibre-14C, her evre icin ayri olay araligi). Haritada ilk_anilis icin Evre 1 ucu, 'tarim' iddiasi icin Evre 2 ucu kullanilmali.",
+   "okunan_sayfa": [
+    "Europe PMC arama kaydi: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:Kuk (doi 10.1126/science.1085255)",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7096170/ (Waim, Science Advances 2020: Kuk konumu/evre baglami)"
+   ]
+  },
+  {
+   "id": "kuk-tarim-evre2",
+   "ad": "Kuk: hoyuk (mound) tarimi, Evre 2",
+   "ad_yerel": "Kuk Swamp Phase 2",
+   "tur": "bolge",
+   "lat": -5.7848,
+   "lon": 144.3371,
+   "konum_tanik": [
+    {
+     "kaynak": "OSM Nominatim",
+     "lat": -5.7847981,
+     "lon": 144.3371072
+    }
+   ],
+   "konum_not": "Ust kayitla ayni; tek tanik.",
+   "kur": {
+    "bas_mo": 5000,
+    "son_mo": 4490,
+    "guven": "belirsiz",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Denham TP vd. 2003, Science 301: 189-193, doi:10.1126/science.1085255",
+    "url": "https://doi.org/10.1126/science.1085255",
+    "alinti": "mounding cultivation began by 6950 to 6440 cal yr B.P. (phase 2)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Yeni Gine'de bagimsiz tarimin en gec baslangici: muz (Musa) yogun yetistiricilik, ormanin otlaga donusumu.",
+   "sahip_kultur": null,
+   "ic_not": "6950-6440 cal BP = 'en gec'; baslangic ucu degil sinir degeri. MO donusumu bizimdir.",
+   "okunan_sayfa": [
+    "Europe PMC arama kaydi (ozet), doi 10.1126/science.1085255"
+   ]
+  },
+  {
+   "id": "teouma-lapita",
+   "ad": "Teouma (Lapita mezarligi), Efate",
+   "ad_yerel": "Teouma, Efate, Vanuatu",
+   "tur": "nekropol",
+   "lat": -17.755,
+   "lon": 168.424,
+   "konum_tanik": [
+    {
+     "kaynak": "OSM Nominatim 'Teouma, Teouma Ville, Shefa'",
+     "lat": -17.7549935,
+     "lon": 168.4236986
+    },
+    {
+     "kaynak": "OSM Nominatim 2. sonuc 'Teouma Ville'",
+     "lat": -17.7722311,
+     "lon": 168.4011145
+    }
+   ],
+   "konum_not": "Iki sonuc ~3.4 km ayrisiyor ve ikisi de OSM (BAGIMSIZ DEGIL). Esas alinan: 'Teouma' yer adi (mezarlik Efate guney kiyisi, Camperio 2024 PMC11541199 'south coast of Efate'). Arkeolojik alan koordinati ikinci bagimsiz tanikla DOGRULANMADI.",
+   "kur": {
+    "bas_mo": 970,
+    "son_mo": 920,
+    "guven": "belirsiz (Bayes modeli 'en olasi baslangic' araligi)",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Petchey F, Spriggs M, Bedford S, Valentin F 2015, J Archaeol Sci Rep 4: 95-105 (aktaran: Camperio G vd. 2024, Commun Earth Environ 5:667, doi:10.1038/s43247-024-01831-8, PMC11541199)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11541199/",
+    "alinti": "The Bayesian chronological framework proposed by Petchey et al. indicates 2870–2920 BP as the most likely start date of occupation of the site",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Uzak Okyanusya'nin bilinen en eski mezarligi; Lapita yerlesmesi Efate'de ~2920-2870 BP (yaklasik MO 970-920). Ayni makale bagimsiz tortu cekirdeginden 'ilk kesin insan izi 2800 yil once' diyor.",
+   "sahip_kultur": "Lapita kultur kompleksi",
+   "ic_not": "Birincil makale (Petchey vd. 2015) acilamadi; deger Camperio 2024'ten alintidir (ikincil). 2870-2920 'BP' - kalibre mi belirtilmemis; 2739-2879 BP ise tortu cekirdeginin ilk izi. Bismarck Takimadalari'ndaki erken Lapita Kamgot 3300-3000 BP (Horrocks vd. 2024, Parasitology/J Helminthol doi:10.1017/S0022149X23000998 ozeti) ve GB Yeni Gine'de Lapita-getirilmis hayvan/obsidyen 3480-3060 yil once (Shaw vd. 2022, Nat Ecol Evol 6:802-812, doi:10.1038/s41559-022-01735-w ozeti) - bunlar BP'dir, kalibre oldugu ozetten anlasilmiyor; MO'ya cevrilmedi.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11541199/ (Europe PMC full text)",
+    "Europe PMC arama ozetleri: doi 10.1017/S0022149X23000998, 10.1038/s41559-022-01735-w"
+   ]
+  },
+  {
+   "id": "jenne-jeno",
+   "ad": "Cenne-Ceno (Jenne-jeno)",
+   "ad_yerel": "Djenné-Djenno",
+   "tur": "sehir",
+   "lat": 13.8898,
+   "lon": -4.5406,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q607668 P625",
+     "lat": 13.89,
+     "lon": -4.5402777777778
+    },
+    {
+     "kaynak": "OSM Nominatim 'Djenné-Djenno'",
+     "lat": 13.8898047,
+     "lon": -4.5405717
+    }
+   ],
+   "konum_not": "Fark <0.1 km. Wikidata ile OSM bagimsiz sayilmayabilir (OSM kaydi Wikidata'dan turemis olabilir); UNESCO/ulusal kurum koordinati okunmadi.",
+   "kur": {
+    "bas_mo": 300,
+    "son_mo": 201,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "McIntosh RJ & McIntosh SK 1981, 'The Inland Niger Delta before the Empire of Mali: Evidence from Jenne-Jeno', J African History 22(1): 1-22, doi:10.1017/S0021853700018983",
+    "url": "https://www.cambridge.org/core/journals/journal-of-african-history/article/abs/inland-niger-delta-before-the-empire-of-mali-evidence-from-jennejeno/111CBA0644CA0D9EE7B3210C7A8F50F6",
+    "alinti": "iron-using and manufacturing peoples were occupying the site in the third century B.C. (WebFetch ozeti, birebir degil)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Orta Nijer ic deltasinda demir kullanan topluluk MO 3. yy'dan itibaren yerlesik; MS 1. binyilda hizli buyume, MS 750-1100'de >33 ha zirve.",
+   "sahip_kultur": "Jenne-jeno kulturu (Faz I-IV, McIntosh)",
+   "ic_not": "'MO 250 - MS 1400' ikincil aktarimdir (Seshat/HRAF/Wikipedia turevi, SAYFALAR OKUNMADI); 'MO 3. yy' birebir ozetten (WebFetch yorumu; ozet metnin kendisi 'by the 3rd century B.C.' diyor). Ham/kalibre ayrimi ve faz sinirlari birincil makalede (dipnot tablosu) aranmali: 'bulunamadi'. bas_mo 300-201 = '3. yy' icin yuvarlak aralik, kaynagin verdigi sayi degil.",
+   "okunan_sayfa": [
+    "Cambridge Core makale sayfasi (WebFetch)",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q607668.json"
+   ]
+  },
+  {
+   "id": "dhar-tichitt",
+   "ad": "Dar Tişit (Tichitt-Walata kayalıkları)",
+   "ad_yerel": "Dhar Tichitt (Tichitt Tradition)",
+   "tur": "kultur",
+   "lat": 18.44,
+   "lon": -9.49,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q985527 (Tichit koyu P625)",
+     "lat": 18.44038888888889,
+     "lon": -9.494111111111112
+    },
+    {
+     "kaynak": "OSM Nominatim 'Tichitt, Tagant'",
+     "lat": 18.444062,
+     "lon": -9.493115
+    }
+   ],
+   "konum_not": "Fark 0.5 km ama BU Tichit KOYUNUN koordinatidir; Dhar Tichitt koyleri kayaligin kenarinda yuzlerce km2'ye yayilir (Amblard-Pison 2023: >400 kuru-tas koy). Koordinat bolge merkezi vekilidir, tek yerlesim degil.",
+   "kur": {
+    "bas_mo": 2050,
+    "son_mo": 350,
+    "guven": "belirsiz (ca.)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Holl AFC 2009, 'Coping with uncertainty: Neolithic life in the Dhar Tichitt-Walata, Mauritania, (ca. 4000-2300 BP)', Comptes Rendus Geoscience 341: 703-712, doi:10.1016/j.crte.2009.04.005",
+    "url": "https://doi.org/10.1016/j.crte.2009.04.005",
+    "alinti": "inhabited by Neolithic agropastoral communities for approximately one and half millennium during the Late Holocene, from ca. 4000 to 2300 BP",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Sahra'nin kurakllasmasiyla gelen cobanlarin bulrush darisi (Pennisetum) yetistirdigi, kuru-tas duvarli koylerin kurulduğu agro-pastoral toplulukalar; MO 1. binyil ortasi kurak donemle sistem coker.",
+   "sahip_kultur": "Tichitt Gelenegi (Tichitt Tradition)",
+   "ic_not": "Kaynak 'BP' diyor, kalibre mi ham mi belirtilmiyor (ozet); 4000-2300 BP = MO ~2050-350 sadece basit cikarmadir ve yuvarlaktir. Ayni kaynak 'MO 1. binyil ortasi asiri kurak donem cokusu' diyor. Wikipedia 'MO 2200-200' ve Amblard-Pison 2023 (Encyclopedia of Ancient History) 'MO 3.-1. binyil' diyor (ozetler okundu, tam metin degil). Ayri bir MO ~2000 tarihi tek satir ozet ('Tichit koyu MO ~2000') yalniz arama ozetinde, kaynak sayfasi okunmadi - kullanilmadi.",
+   "okunan_sayfa": [
+    "Crossref API kaydi doi:10.1016/j.crte.2009.04.005 (ozet)",
+    "Crossref API kaydi doi:10.1002/9781119399919.eahaa00495 (Amblard-Pison 2023 ozeti)"
+   ]
+  },
+  {
+   "id": "ahamenis-kyros-ekbatana-550",
+   "ad": "Ekbatana (Hamedan): Kyros'un Med başkentini alması",
+   "ad_yerel": "Ecbatana / Hagmatāna",
+   "tur": "sehir",
+   "lat": 34.8,
+   "lon": 48.5155,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q696193 P625",
+     "lat": 34.8065,
+     "lon": 48.516247
+    },
+    {
+     "kaynak": "OSM Nominatim 'Hamedan'",
+     "lat": 34.7992888,
+     "lon": 48.5152464
+    }
+   ],
+   "konum_not": "Fark ~0.8 km. Hamedan modern sehri uzerinde; Hegmataneh tepe-yerinin ayri koordinati dogrulanmadi.",
+   "kur": {
+    "bas_mo": 550,
+    "son_mo": null,
+    "guven": "yazili (Nabonidus Vakayinamesi 6. yil = 550/549)",
+    "aralik_turu": "yazili",
+    "kaynak": "Grayson AK, Assyrian and Babylonian Chronicles (ABC 7, Nabonidus Chronicle), col. ii.3; Livius.org'daki gozden gecirilmis ceviri",
+    "url": "https://livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/",
+    "alinti": "Cyrus <marched> to Ecbatana, the royal city.",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "fetih",
+   "d": "Nabonidus'un 6. yilinda (MO 550/549) Kyros, Med kralinin 'kral sehri' Ekbatana'ya yurur; Med devletinin Kyros'a gecisi ve Ahamenis imparatorlugunun kurulus tarihi olarak 550 gelenegi bu kayda dayanir.",
+   "sahip_kultur": "Med devleti -> Ahamenis (Pers)",
+   "ic_not": "Livius.org tek basina dayanak olamaz: burada yalniz Grayson ceviri metninin tasiyicisi; ABC 7 birincil neşir (Grayson 1975) ve BM 35382 numarasi SAYFADA YOK, dogrulanmadi. Vakayiname metninde 'Astyages' adi gecmiyor olabilir (kirik satir) - ozet okuyucunun cikarimi, dogrulanmadi. 'Med devletinin kurulusu (MO 678?)' ve 'Kyros 550 Pers imparatorlugu kuruldu' iddialari icin akademik kaynak bulunamadi (bulunamadi listesinde).",
+   "okunan_sayfa": [
+    "https://livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/"
+   ]
+  },
+  {
+   "id": "ahamenis-babil-539",
+   "ad": "Babil'in Kyros'a geçişi",
+   "ad_yerel": "Bābili",
+   "tur": "sehir",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "KOORDINAT TANIGI TOPLANMADI (Wikidata/OSM/Pleiades sorgulanmadi); lat/lon bilerek bos birakildi. Yalniz tarih kaydi.",
+   "kur": {
+    "bas_mo": 539,
+    "son_mo": null,
+    "guven": "yazili",
+    "aralik_turu": "yazili",
+    "kaynak": "Grayson, ABC 7 (Nabonidus Chronicle), col. iii.18; Livius.org",
+    "url": "https://livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/",
+    "alinti": "On the third day of the month Arahsamna, Cyrus entered Babylon.",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "fetih",
+   "d": "Nabonidus'un 17. yilinda (539/538) Ugbaru ve Kyros'un ordusu savassiz Babil'e girer; Kyros 3 Arahsamna'da sehre girer.",
+   "sahip_kultur": "Ahamenis (Pers)",
+   "ic_not": "Gun cevirisi (Arahsamna 3 = 29 Ekim 539 Jülyen) YAPILMADI; yalniz yil: 539. TDV 'Babil' maddesinden arama ozeti: 'Ahamenîler (İran hâkimiyeti, 539-332)' - madde sayfasi acilmadi, yalniz arama parcacigi. Ahamenis son 330/331/332 TDV parcaciklarinda tutarsiz (Erdeşîr: 559-330, Gîlân: 559-331, Bâbil: 539-332).",
+   "okunan_sayfa": [
+    "https://livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/",
+    "https://islamansiklopedisi.org.tr/ahameniler (TDV arama sonucu, parcaciklar)"
+   ]
+  },
+  {
+   "id": "urartu-tushpa",
+   "ad": "Urartu Krallığı (Tuşpa / Van Kalesi)",
+   "ad_yerel": "Biainili / Tušpa",
+   "tur": "bolge",
+   "lat": 38.5025,
+   "lon": 43.34,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q3187042 (Van Fortress) P625",
+     "lat": 38.5025,
+     "lon": 43.34
+    },
+    {
+     "kaynak": "OSM Nominatim 'Eski Van'",
+     "lat": 38.5014573,
+     "lon": 43.340394
+    }
+   ],
+   "konum_not": "Fark ~0.1 km. Wikidata kaydi Van Kalesi (Tuşpa'nin kalesi) icin; baskent Tuşpa olarak yorumu bu kayitta degil, Tuşpa=Van Kalesi bagi kaynakla DOGRULANMADI.",
+   "kur": {
+    "bas_mo": 856,
+    "son_mo": 610,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Asya' maddesi (arama sonucu parcacigi: 'Urartular (856-610)'); 'Ağrı' ve 'Anadolu' maddeleri: 'm.ö. 900-600' / 'milâttan önce 900-600'",
+    "url": "https://islamansiklopedisi.org.tr/urartular",
+    "alinti": "Urartular (856-610)",
+    "kaynak_sinifi": "ansiklopedi"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Van gölü çevresinde Doğu Anadolu yaylasında kurulan Urartu krallığı.",
+   "sahip_kultur": "Urartu (Biainili)",
+   "ic_not": "ZAYIF: 'urartular' sayfasi maddenin kendisi degil arama sonucu listesiydi; yalniz uc parcacik okundu, yazar/cilt yok, nasil tarihlendigi (kurulus mu, hukumdar mi) belli degil. 856 ve 900 farki kaynak celiskisidir - tek secmedim. Kurucu (Aramu / Sarduri I) ve yikilis icin ikinci akademik kaynak (Salmanasar III yazitlari, Belleten/İSAM) BULUNAMADI. Haritaya koymadan once TDV 'Urartular' tam maddesi ve Asur kaynaklari okunmali. Ayrica 'Armenia: Urartian period ca. 800-600 BC' (Lorenzon vd. 2023, PLOS ONE, PMC10575515) ayni sayiyi bagimsiz verir ama Artaxata icindir, Urartu devleti icin degil.",
+   "okunan_sayfa": [
+    "https://islamansiklopedisi.org.tr/urartular (arama sonucu)",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q3187042.json"
+   ]
+  }
+ ],
+ "bulunamadi": [
+  "bulunamadı: Nok kültürü başlangıç/bitiş (Franke 2015 Frankfurt tezi: 3 faz, MÖ ~1500 - son yüzyıllar MÖ; DFG sayfası: MÖ 1500 köy tarımı, MÖ 900 terakota) — denenen: publikationen.ub.uni-frankfurt.de (Anubis erişim engeli), Cambridge JAH radyokarbon derlemesi (açılmadı); yalnız arama özetinde var, sayfa OKUNMADI. Koordinat hazır: Wikidata Q927291 (9.503, 8.016) + OSM 'Nok, Jaba, Kaduna' (9.506, 8.008). Nozais vd. 2000 tek heykel için MÖ 450-50 (Europe PMC özeti) — kültür tarihi değil, kullanılmadı. Fagg 1965 Nature 205:212 'Radiocarbon Dating of the Nok Culture' özetsiz/ham tarih.",
+  "bulunamadı: Dhar Tichitt kalibre 14C tablo (Holl 1985/1986, Munson 1971) — denenen: Springer s10437-023-09554-5 (Vernet vd. 2023 — yalnız Malı gölleri taş yapıları, tarihsiz), xronos.ch sonuçları (arama özetinde yalnız ham-kalibre bilgisi, sayfa açılmadı).",
+  "bulunamadı: Lake Turkana Mezolitik/Pastoral Neolitik (Lothagam, Lowasera) tarih ve koordinat — denenen: Europe PMC (TITLE Lothagam/Turkana → ilgisiz tıp makaleleri), Crossref. Nature 2022 Lothagam Pillar Site makalesi sorgulanmadı.",
+  "bulunamadı: Madjedbebe — kasıtlı dışlandı: Clarkson vd. 2017 yaşı ~65.000 yıl (MÖ 12000 sınırı dışı); Europe PMC'de 'Madjedbebe 65,000-years of continuous grinding stone use' (Sci Rep 2022) bulundu ama yalnız başlık okundu. Holosen dilimi için ayrı kaynak aranmadı.",
+  "bulunamadı: Lapita başlangıcı Bismarck (Kamgot 3300-3000 BP, Horrocks 2024) ve Teouma Petchey 2015 birincil makale — denenen: Crossref DOI 10.1016/j.jas.2014.07.002 (özetsiz), erişim yok. Kayıtta Camperio 2024 aktarımı kullanıldı.",
+  "bulunamadı: Susa / Proto-Elam (MÖ ~3200-2700), Elam krallığı yazılı kronolojisi — denenen: TDV 'elam' (arama sonucu listesi, yalnız Ahvaz parçacığı), Europe PMC, Wikidata ('Susa' İtalya/Tunus çıktı; 'Shush Iran' yalnız OSM 32.2004, 48.2490), Pleiades RSS (yalnız bağlantı listesi). Susa için tek koordinat tanığı OSM; dönem sayısı YOK.",
+  "bulunamadı: Tepe Sialk, Tepe Hissar, Shahr-i Sokhta dönem tarihleri — denenen: Crossref (Majidzadeh 1978 Iran 16 başlık; Henrickson Oxford Art Online; Encyclopaedia Iranica 'SIALK, TEPE' girdisi özetsiz), Europe PMC. Koordinatlar hazır: Sialk Wikidata Q1581555 (33.9689, 51.4047) + OSM (33.9688, 51.4042); Hissar Wikidata Q1484199 (36.1545, 54.3850) + OSM (36.1557, 54.3796) — ikisi de <0.6 km, yalnız tarih eksik. Shahr-i Sokhta: PMC11488546 özeti 'MÖ 3200-1800' (Bizhani vd. 2024, Iran J Public Health 53:1416) ve '3200-2200' — aynı özette iki farklı aralık, çelişki.",
+  "bulunamadı: Anau / Namazga / Jeitun dönem tarihleri — denenen: Crossref ('A Central Asian Village at the Dawn of Civilization' Anau North, Radiocarbon Chronology bölümü doi:10.9783/9781934536230.55 / 10.2307/j.ctt3fhvng.10; özetsiz, tam metin açılmadı). Anau koordinat: yalnız OSM (37.8967, 58.5027 / 37.9022, 58.5045, ~0.6 km). Jeitun hiç sorgulanmadı.",
+  "bulunamadı: Oxus Uygarlığı / BMAC takvim — denenen: Crossref (Muradov 2020, Avanesova 2020 başlıkları; özetsiz).",
+  "bulunamadı: Med devleti kuruluşu (MÖ 678? / Deiokes), MÖ 612 Ninova — denenen: TDV 'medler' arama sonucu (yalnız parçacıklar: 'Medler (I. binyıl başları-559)' Asya maddesi — madde sayfası değil), akademik kaynak okunmadı. Kyros'un Ekbatana'yı alışı Nabonidus Vakayinamesi'nden gelir (kayıt var) ama Med kuruluşu yok.",
+  "bulunamadı: Ahameniş devletinin kuruluşunun MÖ 550 mi 559 mı olduğu — TDV parçacıkları 559 (Erdeşîr, Gîlân maddeleri) ve 539 (Bâbil) veriyor; Kyros'un tahta çıkışı (559) için tam madde okunmadı. 550 yalnız 'Ekbatana'nın alınışı' olarak kayıtlı, 'kuruluş' diye değil.",
+  "bulunamadı: Pasargadae kuruluşu — koordinat tanıkları hazır (Wikidata Q230025: 30.2, 53.1794; OSM 30.2017, 53.1787; <0.3 km) ama dönem kaynağı okunmadı, kayıt açılmadı.",
+  "bulunamadı: Kuk — ikinci bağımsız koordinat tanığı; UNESCO https://whc.unesco.org/en/list/887 WebFetch 403 verdi. Yalnız OSM.",
+  "bulunamadı: Jenne-jeno MÖ 250 başlangıcı ve MS 1400 bitişi birincil kaynağı (McIntosh & McIntosh 1980 BAR monografisi, 14C ek tablosu) — paywall."
+ ]
+}

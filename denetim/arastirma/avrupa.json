@@ -1,0 +1,425 @@
+{
+ "bolge": "Avrupa MÖ 8000–MS 1 (kısmi: arkeolojik/kalibre-14C kayıtlar; yazılı-gelenek kayıtları bulunamadı listesinde)",
+ "tarih_olcum": "20 Ekim 2026",
+ "kayitlar": [
+  {
+   "id": "lepenski-vir",
+   "ad": "Lepenski Vir",
+   "ad_yerel": "Лепенски Вир",
+   "tur": "sehir",
+   "lat": 44.5611,
+   "lon": 22.0242,
+   "konum_tanik": [
+    {
+     "kaynak": "Borić vd. 2018 Sci Rep makalesi: 44°33′N 22°01′E",
+     "lat": 44.55,
+     "lon": 22.0167
+    },
+    {
+     "kaynak": "Wikidata Q906669 (P625)",
+     "lat": 44.5611,
+     "lon": 22.0242
+    },
+    {
+     "kaynak": "OSM Nominatim, 2. sonuç (Лепенски вир, Bolječin yakını)",
+     "lat": 44.5329,
+     "lon": 22.0367
+    }
+   ],
+   "konum_not": "Makale-WD farkı ~1,2 km; OSM 2. sonuç WD'den ~3 km (aynı yerleşme çevresi). OSM 1. sonucu (44.4629, 22.1556, Donji Milanovac) ~12 km uzak ve yanlış nesne, reddedildi. Esas: Wikidata (makale koordinatıyla 1,2 km içinde, ondalık hassasiyet daha yüksek).",
+   "kur": {
+    "bas_mo": 9900,
+    "son_mo": 9280,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Borić D., Higham T., Cristiani E., Dimitrijević V. vd. 2018, 'High-Resolution AMS Dating of Architecture, Boulder Artworks and the Transition to Farming at Lepenski Vir', Scientific Reports 8:14221 (PMC6155048), Bayes Model 2, Proto-Lepenski Vir evresi başlangıç sınırı",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6155048/",
+    "alinti": "The site was likely occupied from the beginning of the Holocene in 9,900–9,280 cal BC (95% probability",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 5900,
+    "son_mo": 5660,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Borić vd. 2018 Sci Rep, Tablo 1, Model 2 (insan+hayvan kemiği, n=80), Erken Neolitik LV III evresi bitiş sınırı",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6155048/",
+    "alinti": "Early Neolithic LV III End 5,870–5,490 | 5,900–5,660 | 5,850–5,610 (Model 1 | Model 2 | Model 3)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kurulus",
+   "d": "Tuna Demirkapı geçidinde Mesolitik avcı-toplayıcı yerleşmesi; en geç evre Erken Neolitik (Starčevo çanak çömleği, ilk evcil hayvanlar). Başlangıç 'tek kesintisiz' yerleşim değil: Proto-LV evresi kesintili olabilir.",
+   "sahip_kultur": "Proto-Lepenski Vir (Erken-Orta Mezolitik) → Mezolitik-Neolitik geçiş (LV I-II) → Erken Neolitik (Starčevo)",
+   "ic_not": "Başlangıç (9900–9280) ve evre sonu (Proto-LV bitişi 7480–6860) AYRI modelleme sınırlarıdır; aralıklar geniş (ardışık stratigrafik bağlam az). Proto-LV ile trapez yapılı evre arasında en az 700 yıl hiatus var (makale). Model 1 ve 3 başlangıçları 10360–9350 / 10530–8620; Model 2 (kullanılan) kısa ömürlü örnekleri esas alır. Tür 'sehir' yaklaşık; sahip/devlet kavramı yoktur.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6155048/",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q906669.json",
+    "https://nominatim.openstreetmap.org/search?format=json&q=Lepenski+Vir"
+   ]
+  },
+  {
+   "id": "lepenski-vir-trapez-evresi",
+   "ad": "Lepenski Vir trapez yapılı yerleşim evresi (Mezolitik-Neolitik geçiş, LV I-II)",
+   "ad_yerel": "Лепенски Вир, фаза I-II",
+   "tur": "bolge",
+   "lat": 44.5611,
+   "lon": 22.0242,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q906669 (P625)",
+     "lat": 44.5611,
+     "lon": 22.0242
+    },
+    {
+     "kaynak": "Borić vd. 2018: 44°33′N 22°01′E",
+     "lat": 44.55,
+     "lon": 22.0167
+    }
+   ],
+   "konum_not": "Bkz. lepenski-vir kaydı; aynı site, fark ~1,2 km.",
+   "kur": {
+    "bas_mo": 6170,
+    "son_mo": 6070,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Borić vd. 2018 Sci Rep, Model 2, 'Start Transition_LV_I-II'",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6155048/",
+    "alinti": "starting in 6,170–6,070 cal BC (95% probability; Start Transition_LV_I-II )",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 6010,
+    "son_mo": 5940,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Borić vd. 2018 Sci Rep, Tablo 1, Model 2, Mezolitik-Neolitik geçiş LV I-II bitiş sınırı",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6155048/",
+    "alinti": "Mesolithic-Neolithic Transition LV I-II End 5,980–5,930 | 6,010–5,940 | 6,020–5,860",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "gelisme",
+   "d": "Trapez kireçtaşı taban yapıları ve süslü kaya blokları (taş heykeller) evresi; makalede kısa (80–210 yıl, Model 2) ve ardından Starčevo Erken Neolitiği gelir.",
+   "sahip_kultur": "Mezolitik-Neolitik geçiş evresi (Srejović'in I-II evreleri birleştirilmiş)",
+   "ic_not": "Tür: dönem/evre sınırları (model sınırı), tek olay değil. Süre tahmini Model 2: 80–210 yıl (95). Geçiş evresini Neolitik başlangıç (LV III) izler; Erken Neolitik başlangıcı 5990–5900 (Model 2).",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6155048/"
+   ]
+  },
+  {
+   "id": "vinca-belo-brdo",
+   "ad": "Vinča-Belo Brdo",
+   "ad_yerel": "Винча – Бело брдо",
+   "tur": "sehir",
+   "lat": 44.7557,
+   "lon": 20.6286,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q3560333 (P625)",
+     "lat": 44.7557,
+     "lon": 20.6286
+    },
+    {
+     "kaynak": "OSM Nominatim (Бело брдо, Винча, Grocka)",
+     "lat": 44.761,
+     "lon": 20.6222
+    }
+   ],
+   "konum_not": "Fark ~0,8 km; esas Wikidata (tell merkezi), OSM alan merkezi.",
+   "kur": {
+    "bas_mo": 4625,
+    "son_mo": 4550,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Tasić N. vd. 2015, 'The end of the affair', Antiquity 89(347):1064–1082 (altbaşlık doğrulanmadı), ek materyal (duyarlılık modeli, Şekil S1): sektör II tarihli dizisinin başlangıcı",
+    "url": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0003598X15001015/resource/name/S0003598X15001015sup002.pdf",
+    "alinti": "the dated sequence in sector II began in 4625–4550 cal BC (95% probability; start sector II",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 4545,
+    "son_mo": 4485,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Tasić vd. 2015, Antiquity 89(347), ek materyal: 'end Belo Brdo'",
+    "url": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0003598X15001015/resource/name/S0003598X15001015sup002.pdf",
+    "alinti": "Vinca culture occupation at Belo Brdo ended in 4545–4485 cal BC (95% probability; end Belo Brdo",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kayip",
+   "d": "Belgrad yakınında Tuna kıyısı Geç Neolitik tell; üst katmanda yanmış ev ufukları, Vinča kültürü yerleşmesi MÖ 46. yüzyılın ikinci yarısında sona erer.",
+   "sahip_kultur": "Vinča kültürü",
+   "ic_not": "DİKKAT: bu rakamlar yazarların 'duyarlılık analizi' (alternatif) modelindendir (Şekil S1); yazarlar bitiş tarihinin tercih edilen modelle (ana metin Şekil 8) neredeyse aynı olduğunu söyler, ama ana metin okunmadı. Başlangıç yalnız SEKTÖR II dizisinin başıdır, bütün tell'in kuruluşu DEĞİLDİR (Vinča yerleşmesi daha erken olabilir). Dönem/tabaka sınırı türüdür.",
+   "okunan_sayfa": [
+    "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0003598X15001015/resource/name/S0003598X15001015sup002.pdf",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q3560333.json"
+   ]
+  },
+  {
+   "id": "knossos-neolitik",
+   "ad": "Knossos (Neolitik yerleşme)",
+   "ad_yerel": "Κνωσός",
+   "tur": "sehir",
+   "lat": 35.29796,
+   "lon": 25.16316,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q173527 (P625)",
+     "lat": 35.29796,
+     "lon": 25.16316
+    },
+    {
+     "kaynak": "OSM Nominatim (Ανάκτορο της Κνωσού)",
+     "lat": 35.29806,
+     "lon": 25.16281
+    }
+   ],
+   "konum_not": "Fark ~0,03 km; esas Wikidata. Neolitik tabaka Kephala tepesinde, Minos sarayı altında.",
+   "kur": {
+    "bas_mo": 6810,
+    "son_mo": 6590,
+    "guven": "95.4",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Douka K., Efstratiou N., Hald M.M., Henriksen P.S., Karetsou A. 2017, 'Dating Knossos and the arrival of the earliest Neolithic in the southern Aegean', Antiquity 91(356):304–321, doi:10.15184/aqy.2017.29; iki dizinin (Stratum X ve seviye 39) birleşik başlangıcı",
+    "url": "https://ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Crete-Cyprus/KnossosNeolithic-Douka2017.pdf",
+    "alinti": "weighted mean of c. 6800–6600 BC (6710–6610 BC at 68.2%, or 6810–6590 BC at 95.4% probability)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Girit'te ilk (Aseramik) çiftçi yerleşmesi; kısa ömürlü öncü köy (en çok ~400 yıl), ardından uzun bir boşluk, sonra seramikli Erken Neolitik I yeniden iskânı.",
+   "sahip_kultur": "Aseramik Neolitik (Knossos, Stratum X / seviye 39); sonra Erken Neolitik I",
+   "ic_not": "Tek seçilen: iki bağımsız dizinin (Evans kazıları Merkez Avlu, 1997 kazısı seviye 39) birleşik başlangıcı 6810–6590. Ayrı ayrı: seviye 39 başlangıcı 6970–6590 (95.4); Merkez Avlu 6910–6480. Makalenin özet cümlesi 6900–6600 (95.4) yuvarlar. Aseramik evre sonu verilmedi; makale 1000–1500 yıllık boşluk (yeniden iskân EN I başlangıcı 5500–5080 BC, 95.4, seviye 37, 1997 kazısı; Evans dizisi 6240–5030 ve 5890–4860 gibi daha geniş). Minos SARAYI (Tunç Çağı) tarihleri bu kayıtta YOK, bulunamadı listesine bakınız. Örnek ham 14C: IntCal13 ile kalibre.",
+   "okunan_sayfa": [
+    "https://ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Crete-Cyprus/KnossosNeolithic-Douka2017.pdf",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q173527.json"
+   ]
+  },
+  {
+   "id": "carnac-le-plasker",
+   "ad": "Carnac megalitik kompleksi, Le Plasker bölümü (Plouharnel)",
+   "ad_yerel": "Complexe mégalithique de Carnac – Le Plasker (Plouharnel)",
+   "tur": "bolge",
+   "lat": 47.59801,
+   "lon": -3.11283,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q127874 (Plouharnel belediyesi, P625)",
+     "lat": 47.59806,
+     "lon": -3.11278
+    },
+    {
+     "kaynak": "OSM Nominatim (Plouharnel; makale: 'town centre of Plouharnel')",
+     "lat": 47.59801,
+     "lon": -3.11283
+    },
+    {
+     "kaynak": "OSM Nominatim 'Le Plasker Plouharnel' (Le Préleran mahallesi, yaklaşık)",
+     "lat": 47.59966,
+     "lon": -3.11443
+    }
+   ],
+   "konum_not": "Makale kazı yerini Plouharnel kasaba merkezi diye verir; WD/OSM ilçe merkezi birbirine ~0,05 km yakın. Le Préleran (0,2 km). Kermario alignmanı (Wikidata Q1739286: 47.59806, -3.06222) ~3,8 km doğuda, AYRI bölüm. Esas: Plouharnel merkezi (yaklaşık, nokta kazı alanı değil).",
+   "kur": {
+    "bas_mo": 4791,
+    "son_mo": 4640,
+    "guven": "95.4",
+    "aralik_turu": "tabaka-donem",
+    "kaynak": "Blanchard A., Guyodo J.-N., Schulz Paulsson B., Montassier F. 2025, 'Le Plasker in Plouharnel (fifth millennium cal BC): a newly discovered section of the megalithic complex of Carnac', Antiquity 99(406):915–934, doi:10.15184/aqy.2025.10123 (açık erişim); Faz 3: mezar höyüğü + sandık + dikili taşlar",
+    "url": "https://doi.org/10.15184/aqy.2025.10123",
+    "alinti": "phase 3 mound with cist, standing stones and first activities in the sector, 4791–4640 cal BC, 95.4% probability",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Le Plasker'de Geç Mezolitik yerleşme (Faz 1: 5699–5621) üstüne ~300 yıllık boşluktan sonra Orta Neolitik 'ön-megalitik' anıtsal mezar; hemen sonra veya aynı zamanda kuzey-güney dikili taş sıraları (Faz 4: 4668–4368, 95.4) ve pişirme çukurları.",
+   "sahip_kultur": "Orta Neolitik (Morbihan, Geç Castelic öncesi); alttaki Geç Mezolitik",
+   "ic_not": "Bölümün (Le Plasker) tarihidir; ünlü Kermario/Ménec sıralarının KENDİ radyokarbon tarihi bu kaynakta yok. Makale/AÇIK haber (Gothenburg Üniv.) 'alignmanlar 4600–4300' der (olasılık belirtilmemiş); makale metninde Faz 4 = 4668–4368 (95.4). Faz 3 tek tek 4791–4686 (kist içi kömür, birleşik). Tür: faz sınırı (Bayes modeli, 49 yeni 14C).",
+   "okunan_sayfa": [
+    "https://doi.org/10.15184/aqy.2025.10123",
+    "https://www.gu.se/en/news/new-light-on-the-stone-alignments-in-the-carnac-region",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q127874.json"
+   ]
+  },
+  {
+   "id": "stonehenge-hendek-ve-set",
+   "ad": "Stonehenge (Aşama 1: hendek ve set)",
+   "ad_yerel": "Stonehenge",
+   "tur": "bolge",
+   "lat": 51.17889,
+   "lon": -1.82611,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q39671 (P625)",
+     "lat": 51.17889,
+     "lon": -1.82611
+    },
+    {
+     "kaynak": "OSM Nominatim (Stonehenge, A303, Amesbury)",
+     "lat": 51.17883,
+     "lon": -1.82618
+    }
+   ],
+   "konum_not": "Fark ~0,01 km.",
+   "kur": {
+    "bas_mo": 2990,
+    "son_mo": 2755,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Darvill T., Marshall P., Parker Pearson M., Wainwright G. 2012, 'Stonehenge remodelled', Antiquity 86(334):1021–1040, doi:10.1017/S0003598X00048225 (Marshall vd. 2012 modeline atıfla); hendeğin kazılıp bitirilmesi",
+    "url": "https://doi.org/10.1017/S0003598X00048225",
+    "alinti": "initial construction of the Stonehenge ditch is estimated to have been completed in 2990–2755 cal BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "110 m çaplı dairesel toprak anıt (bank+hendek, Aubrey çukurları); yakma gömüleri. Aşama 1 bütünü 3100–2920 / 2965–2755 cal BC arası başlayıp biter; sonraki aşamalarda taşlar dikilir.",
+   "sahip_kultur": "Orta-Geç Neolitik (Britanya); sonra Beaker (Aşama 3-4)",
+   "ic_not": "2990–2755 yüzdesi metinde açık yazılmamış (olasılık 'probably 2955–2830 (68%)' ile birlikte verildiğinden 95 sayıldı, Marshall vd. 2012 şekil 6). Makalenin Tablo 3'ünde aşamalar: 1: 3000–2620, 2: 2620–2480, 3: 2480–2280, 4: 2280–2020, 5: 2020–1520 cal BC (yuvarlak, makale özeti). 'Bit' yok: anıt tarih öncesi boyunca kullanımdadır.",
+   "okunan_sayfa": [
+    "https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/A118920A90FB7CCB2838CEEB10BE477D/S0003598X00048225a.pdf/stonehenge_remodelled.pdf",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q39671.json"
+   ]
+  },
+  {
+   "id": "stonehenge-sarsen-halkasi",
+   "ad": "Stonehenge sarsen halkası ve trilitonlar (Aşama 2)",
+   "ad_yerel": "Stonehenge sarsen circle",
+   "tur": "bolge",
+   "lat": 51.17889,
+   "lon": -1.82611,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q39671 (P625)",
+     "lat": 51.17889,
+     "lon": -1.82611
+    },
+    {
+     "kaynak": "OSM Nominatim (Stonehenge)",
+     "lat": 51.17883,
+     "lon": -1.82618
+    }
+   ],
+   "konum_not": "Bkz. stonehenge-hendek-ve-set.",
+   "kur": {
+    "bas_mo": 2580,
+    "son_mo": 2475,
+    "guven": "belirsiz",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Darvill vd. 2012, Antiquity 86(334):1021–1040; sarsen halkası en iyi tahmin: halka 1. taş soket içindeki geyik boynuzu kazması UB-3821 (Marshall vd. 2012 şekil 22)",
+    "url": "https://doi.org/10.1017/S0003598X00048225",
+    "alinti": "best estimate for the date of construction of the sarsen circle, from an antler pick (UB-3821) in the socket around stone 1 is 2580–2475 cal BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "5 sarsen trilitondan at nalı ve 30 dikme+30 lento'dan sarsen halka dikilir; çift mavi taş halkası eklenir; tüm Aşama 2 aralığı 2760–2510 ile 2470–2300 cal BC.",
+   "sahip_kultur": "Geç Neolitik (Britanya)",
+   "ic_not": "Tek örnek (boynuz kazma) ile tek olay tarihidir; güven düzeyi makalede yazılmamış ('belirsiz'). Trilitonlar için 2585–2400 cal BC (93%, OxA-4840). Aşama 2 sınırları 2760–2510 ile 2470–2300: iki senaryo (zaman zaman uzar). Aralıklar tek olay mı tabaka toplamı mı karıştırılmasın: bu kayıt tek-olay tarihidir.",
+   "okunan_sayfa": [
+    "https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/A118920A90FB7CCB2838CEEB10BE477D/S0003598X00048225a.pdf/stonehenge_remodelled.pdf"
+   ]
+  },
+  {
+   "id": "skara-brae",
+   "ad": "Skara Brae",
+   "ad_yerel": "Skara Brae",
+   "tur": "sehir",
+   "lat": 59.04871,
+   "lon": -3.34175,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q816437 (P625)",
+     "lat": 59.0487138,
+     "lon": -3.3417499
+    },
+    {
+     "kaynak": "OSM Nominatim (Skara Brae, Orkney)",
+     "lat": 59.0487237,
+     "lon": -3.3418007
+    }
+   ],
+   "konum_not": "Fark <0,01 km.",
+   "kur": {
+    "bas_mo": 2920,
+    "son_mo": 2885,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Bayliss A., Marshall P., Richards C., Whittle A. 2017, 'Islands of history: the Late Neolithic timescape of Orkney', Antiquity 91 (cilt/sayfa kontrol edilmedi), ek materyal Tablo S4 (model Clarke & Shepherd, basılmamış 'forthcoming', res. 2.4.3/1–4): central_phase_1_start",
+    "url": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0003598X17001405/resource/name/S0003598X17001405sup001.pdf",
+    "alinti": "Boundary parameter estimating the start of the activity associated with the first phase of settlement in the central area",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 2545,
+    "son_mo": 2440,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Bayliss vd. 2017, ek materyal Tablo S4: central_phase_2_end",
+    "url": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0003598X17001405/resource/name/S0003598X17001405sup001.pdf",
+    "alinti": "Boundary parameter estimating the end of the activity associated with the second phase of settlement",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kurulus",
+   "d": "Orkney Anakara'sında taş yapılı Geç Neolitik köy (Grooved Ware); Faz 1 2920–2885 başlar, Faz 2 (2840–2685 başlar) ~2545–2440'ta sona erer.",
+   "sahip_kultur": "Geç Neolitik / Grooved Ware (Orkney)",
+   "ic_not": "Rakamlar 'central area' (merkez alan) için ve model henüz tam yayımlanmamış monografiye dayanır (ek tabloda özet). Faz 1 sonu 2870–2815 (92%) / 2795–2760 (3%). Ness of Brodgar sitesi popüler özetleri 3300/2900 BC gibi başka başlangıçlar anar; bunlar akademik kaynak değil, kullanılmadı. 'Tabaka-donem' sınırı. [VERI-MO-ARKEO: kaynaktaki 'boundary' parametresi bir oluş zamanının modelli tahminidir → orta nokta uygulandı.]",
+   "okunan_sayfa": [
+    "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0003598X17001405/resource/name/S0003598X17001405sup001.pdf",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q816437.json"
+   ]
+  },
+  {
+   "id": "pylos-nestor-sarayi",
+   "ad": "Pylos, Nestor Sarayı (Miken sarayı; Linear B tabletleri)",
+   "ad_yerel": "Ανάκτορο του Νέστορα, Πύλος",
+   "tur": "sehir",
+   "lat": 37.02722,
+   "lon": 21.695,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q2047396 (P625)",
+     "lat": 37.02722,
+     "lon": 21.695
+    },
+    {
+     "kaynak": "OSM Nominatim (Ανάκτορο του Νέστορα)",
+     "lat": 37.02724,
+     "lon": 21.69487
+    }
+   ],
+   "konum_not": "Fark ~0,01 km.",
+   "kur": null,
+   "bit": {
+    "bas_mo": 1200,
+    "son_mo": 1180,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Finné M., Holmgren K., Shen C.-C. vd. 2017, 'Late Bronze Age climate change and the destruction of the Mycenaean Palace of Nestor at Pylos', PLoS ONE 12(12):e0189447, doi:10.1371/journal.pone.0189447 (PMC5744937); ~3150–3130 yıl BP (1950 öncesi) -> aritmetikle MÖ 1200–1180",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5744937/",
+    "alinti": "The destruction of the Palace of Nestor is thought to have occurred ~3150–3130 yrs BP",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "kayip",
+   "d": "Nestor Sarayı LH IIIB/LH IIIC geçişinde yıkılır; Linear B yazısı ve saray yönetimi ortadan kalkar.",
+   "sahip_kultur": "Miken (Geç Helladik IIIB)",
+   "ic_not": "MÖ rakamı ben yıl-BP -> MÖ çevirisidir (BP 1950'ye göre: 3150 BP = MÖ 1200, 3130 BP = MÖ 1180); makalede yalnız BP yazılıdır. Makale tarihi kendi ölçmemiştir, seramik+Mısır kronolojisi çapraz tarihlemesine ve mevcut literatüre dayanır (kaynaklar [27,29,31], 'is thought to'): yıkımı doğrudan tarihlemez, belirsizdir. Şu da yazılır: Miken sarayları LH IIIB (~3280–3150 BP = MÖ 1330–1200) sonunda yıkıldı. Kuruluş (kur) için bu oturumda sağlam kaynak bulunamadı. Miken kenti (Mycenae) kendisi için ayrı kayıt YOK.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5744937/",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q2047396.json"
+   ]
+  }
+ ],
+ "bulunamadi": [
+  "bulunamadı: Troya VI/VII (VIIa yıkımı) kalibre tarihi — denenen: WebSearch (Kromer/Manning/Korfmann, Easton-Hawkins-Sherratt), Europe PMC 'Troy radiocarbon' (0 sonuç). Yalnız Vikipedi/Britannica/Livius/Dartmouth ders sayfası vb. çıktı: bunlar kural 2'ye göre tek dayanak olamaz. Korfmann-dönemi Studia Troica / Radiocarbon makaleleri okunamadı.",
+  "bulunamadı: Miken (Mycenae) kalesi kuruluş/yıkım için kalibre tarih — denenen: WebSearch (Mycenae LH IIIB destruction), Europe PMC. Yalnız Pylos yıkımı (BP, dolaylı) bulundu. Argos ovası polen makalesi (PMC9286281) tarih vermedi.",
+  "bulunamadı: Linear B tabletlerinin kendi tarihi (yazı sisteminin ilk görünümü, Knossos Linear B tabletleri — LM II/IIIA tartışması) — okunabilir akademik açık metin bulunamadı.",
+  "bulunamadı: Minos sarayı / Minos kronolojisi (Eski Saray MM IB-II, Yeni Saray) kalibre tarihleri — denenen: yalnız Douka 2017 (Neolitik); Girit Tunç Çağı kronolojisi (Manning, Warren-Hankey) ayrıca aranmadı/okunmadı.",
+  "bulunamadı: Roma'nın kuruluşu (gelenek MÖ 753, Varro; Livius), Cumhuriyet'in ilanı (gelenek MÖ 509) — arkeolojik tarih: yalnız Latium Vetus Demir Çağı fasılları ve Fidene/Satricum/Roma mezar 14C listesi (ResearchGate tablo, birincil yayına inilmedi); gelenek tarihleri için akademik açık metin okunamadı. Bu tarihler GELENEKSEL (Livius/Varro/Dionysios) olup 'yazili' tür ve ic_not beyanı ister.",
+  "bulunamadı: Etrüsk şehirleri (Tarquinia, Cerveteri, Villanova kültürü) — Europe PMC aramaları (JSON hata/boş) ve genel WebSearch; sağlam hakemli kronoloji bulunmadı.",
+  "bulunamadı: Hallstatt / La Tène kronolojisi (Hallstatt tuz madeni dendrokronolojisi, La Tène başlangıcı) — denenen: Europe PMC 'Hallstatt salt mine dendrochronology' (alakasız sonuçlar).",
+  "bulunamadı: Starčevo kültürü kendi başına kuruluş tarihi — Lepenski Vir kaydında Erken Neolitik (LV III) başlangıcı Model 2: 5990–5900 cal BC, site-bazlıdır; bölge-genel Starčevo başlangıcı ayrıca aranmadı.",
+  "bulunamadı: Atina/Sparta, Pers savaşları (yazılı olaylar; Herodot geleneği) — bu oturumda taranmadı; yazılı-gelenek kayıtları ic_not'ta 'Herodot/Livius gelenekseldir' beyanı ister.",
+  "bulunamadı: Carnac Kermario ve Ménec sıralarının kendi radyokarbon tarihleri — yalnız Le Plasker bölümü (Blanchard vd. 2025) ve Gothenburg Üniv. haber özeti bulundu; Schulz Paulsson 2019 PNAS okunmadı.",
+  "bulunamadı: Skara Brae model monografisi (Clarke & Shepherd) — 'forthcoming', yalnız Bayliss vd. 2017 ek Tablo S4 özeti okundu; ana makale cilt/sayfa ve DOI doğrulanmadı."
+ ]
+}
