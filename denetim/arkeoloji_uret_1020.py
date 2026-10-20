@@ -98,7 +98,7 @@ def olay_uret(r, b, ad, bolge):
     baslik = r["ad"] + (": " if ad == "kur" else ": ") + (r.get("kur_baslik") if ad == "kur" and r.get("kur_baslik") else
                                                        ("ilk tarihli kanıt / başlangıç" if ad == "kur" else "son / terk"))
     if ad == "bit":
-        baslik = r["ad"] + ": " + (r.get("bit_baslik") or "yerleşim sona erer / terk")
+        baslik = r["ad"] + ": " + (r.get("bit_baslik") or "sona erer / son tarihli kanıt")
     o = {"t": iso(t_mo), "k": k, "b": baslik, "gun": gun, "yer": r.get("ad_yerel") or r["ad"],
          "d": r["d"] if ad == "kur" else (r.get("bit_d") or r["d"]), "kaynak": b["kaynak"] + (" · " + b["url"] if b.get("url") else ""),
          "kesinlik": kes}

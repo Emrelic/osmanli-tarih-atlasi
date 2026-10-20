@@ -67,7 +67,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-6699-01-01",
   "k": "kayip",
-  "b": "Ayn Gazal (‘Ain Ghazal): yerleşim sona erer / terk",
+  "b": "Ayn Gazal (‘Ain Ghazal): sona erer / son tarihli kanıt",
   "gun": "MÖ 6700 (ALT SINIR; donem-toplami MÖ 6700–6600)",
   "yer": "‘Ayn Ghazāl",
   "d": "Ürdün'de Orta-Gec PPNB'den PPNC'ye buyuk Neolitik yerlesme; ~7600-7500'de kisa kesinti iddiasi AMS ile (7607-7531 cal BCE) sorgulanmis.",
@@ -88,7 +88,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-6749-01-01",
   "k": "kayip",
-  "b": "Kfar HaHoresh: yerleşim sona erer / terk",
+  "b": "Kfar HaHoresh: sona erer / son tarihli kanıt",
   "gun": "MÖ 6750 civarı",
   "yer": "כפר החורש",
   "d": "Guney Levant'ta Erken-Gec PPNB torenlik/mezar merkezi (iskan degil); keci yonetimine gecis donemi.",
@@ -124,7 +124,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-7099-01-01",
   "k": "kayip",
-  "b": "Ebu Hureyre (Abu Hureyra): yerleşim sona erer / terk",
+  "b": "Ebu Hureyre (Abu Hureyra): sona erer / son tarihli kanıt",
   "gun": "MÖ 7100 civarı",
   "yer": "Tell Abu Hureyra",
   "d": "Firat vadisinde Epipaleolitik av-toplayici koyu; ardindan kesintili Neolitik (PPNB) yerlesme 2A (~7760-7440) ve 2B (~7400-7100 MO).",
@@ -139,7 +139,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-7139-01-01",
   "k": "kayip",
-  "b": "Çayönü Tepesi: yerleşim sona erer / terk",
+  "b": "Çayönü Tepesi: sona erer / son tarihli kanıt",
   "gun": "MÖ 7140 (ALT SINIR; donem-toplami MÖ 7140–6820)",
   "yer": "Çayönü Tepesi",
   "d": "Aseramik Neolitik: yuvarlak yapi, izgara, kanalli, kaldirimli, hucreli ve genis-oda evreleri; en son Erken Neolitik tabaka ~7140-6820.",
@@ -181,7 +181,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-7599-01-01",
   "k": "kayip",
-  "b": "Nevalı Çori: yerleşim sona erer / terk",
+  "b": "Nevalı Çori: sona erer / son tarihli kanıt",
   "gun": "MÖ 7600 civarı",
   "yer": "Nevalı Çori",
   "d": "Yukari Firat'ta erken-orta PPNB yerlesmesi; sonra Halaf, Erken Tunc I, Demir Cagi ve Roma donemlerinde yeniden iskan.",
@@ -196,7 +196,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-7949-01-01",
   "k": "kayip",
-  "b": "Mureybet: yerleşim sona erer / terk",
+  "b": "Mureybet: sona erer / son tarihli kanıt",
   "gun": "MÖ 7950 civarı",
   "yer": "Tell Mureybet (Mureybit)",
   "d": "Orta Firat'ta Natufiyen sonu - Hiyamiyen - Mureybetien - erken/orta PPNB'ye uzanan yerlesme dizisi; Hiyamiyen tanim yeri.",
@@ -274,7 +274,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
  {
   "t": "-8609-01-01",
   "k": "kayip",
-  "b": "Cerf el-Ahmer (Jerf el Ahmar): yerleşim sona erer / terk",
+  "b": "Cerf el-Ahmer (Jerf el Ahmar): sona erer / son tarihli kanıt",
   "gun": "MÖ 8610 civarı",
   "yer": "Jerf el-Ahmar",
   "d": "Orta Firat'ta PPNA koyu: topluluk binalari EA 47 (Faz 1), EA 7 (Faz 2), EA 30/EA 53 (Faz 3, 8800-8610 MO).",

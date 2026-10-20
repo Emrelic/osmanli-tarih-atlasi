@@ -4,7 +4,7 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
  {
   "t": "-1599-01-01",
   "k": "kayip",
-  "b": "Geç Harappa dönemi: yerleşim sona erer / terk",
+  "b": "Geç Harappa dönemi: sona erer / son tarihli kanıt",
   "gun": "MÖ 1600 civarı",
   "yer": "Late Harappan / Localization Era",
   "d": "Kentsel yapıların çözüldüğü, yerleşimlerin dağılıp doğuya/güneye kaydığı Geç Harappa dönemi (1900–1600 MÖ).",
@@ -19,7 +19,7 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
  {
   "t": "-1899-01-01",
   "k": "kayip",
-  "b": "Olgun Harappa (İndus Uygarlığı kent dönemi): yerleşim sona erer / terk",
+  "b": "Olgun Harappa (İndus Uygarlığı kent dönemi): sona erer / son tarihli kanıt",
   "gun": "MÖ 1900 civarı",
   "yer": "Mature Harappan / Harappa Phase / Integration Era",
   "d": "Kentleşmiş İndus Uygarlığı: standart ağırlık-ölçü, mühür, planlı kentler. Dönem 2600–1900 MÖ; sonrasında Geç Harappa'ya geçiş.",
@@ -70,7 +70,7 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
  {
   "t": "-2599-01-01",
   "k": "kayip",
-  "b": "Erken Harappa dönemi (Pre-urban / Early Harappan): yerleşim sona erer / terk",
+  "b": "Erken Harappa dönemi (Pre-urban / Early Harappan): sona erer / son tarihli kanıt",
   "gun": "MÖ 2600 civarı",
   "yer": "Early Harappan",
   "d": "Kentleşme öncesi köy-temelli Harappa dönemi; olgun dönemde kentleşmeye geçilir. Kurulu dönemleme: Erken Harappa 3200–2600 MÖ.",

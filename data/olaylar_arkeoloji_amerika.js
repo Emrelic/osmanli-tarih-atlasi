@@ -25,7 +25,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
  {
   "t": "-0499-01-01",
   "k": "kayip",
-  "b": "Chavín de Huántar: yerleşim sona erer / terk",
+  "b": "Chavín de Huántar: sona erer / son tarihli kanıt",
   "gun": "MÖ 500 civarı",
   "yer": "Chavín de Huántar",
   "d": "And dağlarında Ancash'ta tören merkezi; stampalı cilalı siyah seramik (Janabarroide) 800–500 MÖ (kalibre) aralığında yoğunlaşır; Rick vd.'ne göre merkez ~500 MÖ'de tapınak işlevini yitirir, büyük inşaat bundan önce azalmıştı.",

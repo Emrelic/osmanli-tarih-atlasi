@@ -4,7 +4,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-2491-01-01",
   "k": "kayip",
-  "b": "Skara Brae: yerleşim sona erer / terk",
+  "b": "Skara Brae: sona erer / son tarihli kanıt",
   "gun": "MÖ 2545–2440 arası (orta nokta MÖ 2492)",
   "yer": "Skara Brae",
   "d": "Orkney Anakara'sında taş yapılı Geç Neolitik köy (Grooved Ware); Faz 1 2920–2885 başlar, Faz 2 (2840–2685 başlar) ~2545–2440'ta sona erer.",
@@ -88,7 +88,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-4514-01-01",
   "k": "kayip",
-  "b": "Vinča-Belo Brdo: yerleşim sona erer / terk",
+  "b": "Vinča-Belo Brdo: sona erer / son tarihli kanıt",
   "gun": "MÖ 4545–4485 arası (orta nokta MÖ 4515)",
   "yer": "Винча – Бело брдо",
   "d": "Belgrad yakınında Tuna kıyısı Geç Neolitik tell; üst katmanda yanmış ev ufukları, Vinča kültürü yerleşmesi MÖ 46. yüzyılın ikinci yarısında sona erer.",
@@ -151,7 +151,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-5779-01-01",
   "k": "kayip",
-  "b": "Lepenski Vir: yerleşim sona erer / terk",
+  "b": "Lepenski Vir: sona erer / son tarihli kanıt",
   "gun": "MÖ 5900–5660 arası (orta nokta MÖ 5780)",
   "yer": "Лепенски Вир",
   "d": "Tuna Demirkapı geçidinde Mesolitik avcı-toplayıcı yerleşmesi; en geç evre Erken Neolitik (Starčevo çanak çömleği, ilk evcil hayvanlar). Başlangıç 'tek kesintisiz' yerleşim değil: Proto-LV evresi kesintili olabilir.",
@@ -172,7 +172,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
   "t": "-5974-01-01",
   "k": "kayip",
-  "b": "Lepenski Vir trapez yapılı yerleşim evresi (Mezolitik-Neolitik geçiş, LV I-II): yerleşim sona erer / terk",
+  "b": "Lepenski Vir trapez yapılı yerleşim evresi (Mezolitik-Neolitik geçiş, LV I-II): sona erer / son tarihli kanıt",
   "gun": "MÖ 6010–5940 arası (orta nokta MÖ 5975)",
   "yer": "Лепенски Вир, фаза I-II",
   "d": "Trapez kireçtaşı taban yapıları ve süslü kaya blokları (taş heykeller) evresi; makalede kısa (80–210 yıl, Model 2) ve ardından Starčevo Erken Neolitiği gelir.",
