@@ -85,6 +85,8 @@ function kesinlikliYazi(ham, gi, kesinlik) {
     var mo = tt.y <= 0, ty = mo ? 1 - tt.y : tt.y;
     if (kb === "ay") return AYLAR[tt.a - 1] + " " + GUN.yilYazi(tt.y);
     if (kb === "yil") return GUN.yilYazi(tt.y);
+    // ZAMAN-ATLAMA-1021 — şartname §4: "MÖ 4. binyıl" (MÖ 3999–3000) · "2. binyıl" (MS 1001–2000).
+    if (kb === "binyil") return (mo ? "MÖ " : "") + (mo ? Math.floor((ty - 1) / 1000) + 1 : Math.floor((tt.y - 1) / 1000) + 1) + ". binyıl";
     if (kb === "onyil") return "~" + (mo ? "MÖ " : "") + Math.floor(ty / 10) * 10;
     if (kb === "yuzyil") {
       // Birim [1400, 1500) — `_khBirimBasi` ile aynı kova (floor(y/100)).
@@ -127,7 +129,8 @@ function olayTarihYazi(o) { return o.gun || kesinlikliYazi(o.t, o.gi, o.kesinlik
 function kisaTarihYazi(m) {
   if (!m) return "";
   if (m.gun) return m.gun;
-  var ham = String(m.t || "").slice(0, 10), kb = kesinlikBirimi(m.kesinlik);
+  // ZAMAN-ATLAMA-1021: .slice(0, 10) "-3099-01-01"i "-3099-01-0"a kesiyordu (MÖ'de 11 karakter)
+  var ham = String(m.t || "").replace(/^([+-]?\d{1,6}(?:-\d{2}(?:-\d{2})?)?).*$/, "$1"), kb = kesinlikBirimi(m.kesinlik);
   if ((kb && kb !== "gun") || /-01-01$/.test(ham) || ham.split("-").length < 3)
     return kesinlikliYazi(ham, gunIdx(ham), m.kesinlik);
   return isoDizgi(ham);                          // "0831-09-12" → "831-09-12"
@@ -219,17 +222,34 @@ var ZAMAN_DIS_KAT = 0.29;
 var ZAMAN_DIS_TABAN = 0.08;
 var ZAMAN_DIS_TAVAN = 0.7;              // dış çağların çubukta toplam azami payı (çekirdek ≥ %30)
 function _yilYazi(g) { return GUN.yilYazi(idxTarih(g).y); }   // NEGATIF-YIL-1010-A: y ≤ 0 → "MÖ n"
+// 🆕 ZAMAN-ATLAMA-1021 — DEVİR BÖLMELİ DIŞ ÇAĞ. Eskiden veri başından önceki TÜM
+// zaman (MÖ 12000–1281, 13.280 yıl) TEK doğrusal çağdı ve çubuğun %70'ini alıyordu:
+// MS 1–1281 arası 1000 px'te birkaç pikseldi. Şartname §7 (ARKEOLOJI-KATMANI-SARTNAME-1018)
+// önerisi: dilimli ölçek. `y` = devrin SONU (astronomik yıl; null = veri başı), `w` =
+// çubuk payı. Ufuk kısalırsa (ör. UFUK 1000) üstteki devirler düşer; devir sınırları
+// yalnız burada, ufuk tarihi yine ikinci kez yazılmaz.
+//   Arkeoloji → MÖ 3000 · Tunç–Demir → MÖ 600 · Antik–Erken Orta Çağ → MS 1000 ·
+//   Orta Çağ → veri başı. Çekirdek (+ varsa sonrası) kalan %74'ü alır.
+var ZAMAN_DEVIRLERI = [
+  { y: -2999, w: 0.06 },
+  { y: -599,  w: 0.06 },
+  { y: 1000,  w: 0.08 },
+  { y: null,  w: 0.06 }
+];
 var ZAMAN_CAGLARI = (function () {
   var vb = Math.max(BASLANGIC, Math.min(BITIS, VERI_BASI));
   var vs = Math.max(BASLANGIC, Math.min(BITIS, VERI_SONU));
-  var c = [];
-  if (vb > BASLANGIC) c.push({ f: BASLANGIC, t: vb });
+  var c = [], f = BASLANGIC;
+  ZAMAN_DEVIRLERI.forEach(function (dv) {
+    var t = dv.y === null ? vb : Math.min(vb, GUN.gunSayisi(dv.y, 1, 1));
+    if (t > f) { c.push({ f: f, t: t, pay: dv.w, devir: true }); f = t; }
+  });
   c.push({ f: vb, t: vs > vb ? vs : BITIS, cekirdek: true });
   if (vs > vb && BITIS > vs) c.push({ f: vs, t: BITIS });
   var cek = c.filter(function (x) { return x.cekirdek; })[0], dis = 0;
   c.forEach(function (x) {
     if (x.cekirdek) return;
-    x.pay = Math.max(ZAMAN_DIS_TABAN, ZAMAN_DIS_KAT * Math.sqrt((x.t - x.f) / (cek.t - cek.f)));
+    if (!x.devir) x.pay = Math.max(ZAMAN_DIS_TABAN, ZAMAN_DIS_KAT * Math.sqrt((x.t - x.f) / (cek.t - cek.f)));
     dis += x.pay;
   });
   // UFUK MÖ 12000'e açılınca dış çağ payı 1,245 çıkıyordu ⇒ çekirdek payı NEGATİF, çubuk bozuk
@@ -10236,7 +10256,7 @@ function zamanEksenDoldur(el) {
   el.innerHTML = "";
   gunler.forEach(function (g, i) {
     var sp = document.createElement("span");
-    sp.textContent = idxTarih(g).y;
+    sp.textContent = _yilYazi(g);   // ZAMAN-ATLAMA-1021: "-2999" değil "MÖ 3000"
     sp.style.left = (gunKonum(g) / ZAMAN_KONUM_MAX * 100) + "%";
     if (i === 0) sp.className = "ilk";
     else if (i === gunler.length - 1) sp.className = "son";
@@ -10955,7 +10975,7 @@ function kapsamSeridiGuncelle(t) {
 
 function guncelle() {
   kapsamSeridiGuncelle(suanki);
-  if (ustbarTarih) ustbarTarih.textContent = idxYazi(suanki);
+  if (ustbarTarih) ustbarTarih.textContent = zamanTarihYazi(suanki);
   if (ustbarYil) ustbarYil.textContent = idxTarih(suanki).y;
   var di = donemBul(suanki);
   // P84-ROTUS — Osmanlı dalı yalnız dönem değişince çizer; etkin rötuş kümesi
@@ -11168,6 +11188,7 @@ function guncelle() {
   tepeEtiketGuncelle();
   kronolojiSeritGuncelle();
   obTazele();
+  devirBilgiGuncelle();     // ZAMAN-ATLAMA-1021: seyrek devirde "kayıt yok · son/sonraki" satırı
   baslikDamgala();
 }
 
@@ -11224,7 +11245,7 @@ function kronolojiSeritGuncelle() {
   var o = sonVurgulanan >= 0 ? olaylar[sonVurgulanan] : null;
   kronolojiSerit.innerHTML =
     '<span class="ks-sene">' + y + '</span>' +
-    '<span class="ks-tarih">' + idxYazi(suanki) + '</span>' +
+    '<span class="ks-tarih">' + zamanTarihYazi(suanki) + '</span>' +
     '<span class="ks-baslik">' + (o ? o.b : "") + '</span>';
 }
 
@@ -13727,7 +13748,8 @@ function oynatDurdur() {
 
   if (akisModu.value === "olay") {
     // ZAMAN-GENİŞ-1008 — Osmanlı akışı boşsa ve odak yoksa oynatma HİÇ başlamaz.
-    if (!odakGezintiAktif() && osmanliAkisiBos()) {
+    // ZAMAN-ATLAMA-1021: boşsa REDDETME — seyrek devirde küresel olaydan olaya atlanır.
+    if (!odakGezintiAktif() && osmanliAkisiBos() && !kureselKur().dizi.length) {
       btnOynat.textContent = "▶";
       kronolojiYokUyarisi();
       return;
@@ -13742,9 +13764,8 @@ function oynatDurdur() {
       // `setInterval` kurulmadan SENKRON koştuğu için burada çağrılsaydı oynatmayı
       // YENİDEN başlatır ve sonsuz özyinelemeye girerdi (tarayıcıda ölçüldü:
       // "Maximum call stack size exceeded"). Yalnız oynuyorsa durdurulur.
-      if (osmanliAkisiBos()) {
-        if (zamanlayici) oynatDurdur(); else btnOynat.textContent = "▶";
-        kronolojiYokUyarisi();
+      if (osmanliAkisiBos()) {                   // ZAMAN-ATLAMA-1021: seyrek devir → küresel atlama
+        if (kureselAdim(1) !== true) { if (zamanlayici) oynatDurdur(); else btnOynat.textContent = "▶"; }
         return;
       }
       olayIndexTazele();
@@ -13803,6 +13824,7 @@ function oynatDurdur() {
     var _sonIsaretGun = suanki;
     var _sonAn = performance.now();
     var _artik = 0;                        // birikmiş kesirli gün (aşağıda)
+    var _sonHop = 0;                       // seyrek devir sıçrama zamanı (ZAMAN-ATLAMA-1021)
     var _tik = function () {
       if (!zamanlayici) return;            // durduruldu — zinciri KURMA
       if (suanki >= BITIS) { oynatDurdur(); return; }
@@ -13810,6 +13832,16 @@ function oynatDurdur() {
       var _gecen = Math.min(1000, _simdi - _sonAn);
       _sonAn = _simdi;
       var _onceki = suanki;
+      // ZAMAN-ATLAMA-1021 — SEYREK DEVİRDE BOŞ YIL BEKLENMEZ: veri penceresinden önce
+      // oynatma bir sonraki kayıtlı güne ATLAR; her sıçrama arasında hıza bağlı kısa
+      // bekleme (30 gün/sn → 1,2 sn · 180 → 0,6 sn · 3650 → 0,12 sn) kalır ki okunabilsin.
+      if (suanki < VERI_BASI) {
+        if (_simdi - _sonHop < Math.max(120, Math.min(1200, 108000 / gunSn))) { requestAnimationFrame(_tik); return; }
+        _sonHop = _simdi;
+        if (kureselAdim(1) !== true) { oynatDurdur(); return; }
+        if (zamanlayici) requestAnimationFrame(_tik);
+        return;
+      }
       // ZAMAN-GENİŞ-1008 — hız çağa göre çarpılır (cagHizCarpani, BASLANGIC
       // tanımının altı): seyrek çağda hızlı, 1923–1945'te yavaş akar.
       // ⚠️ Eski `Math.max(1, round(...))` her KAREYE en az 1 gün veriyordu: 60
@@ -16311,6 +16343,109 @@ document.getElementById("btn-geri").addEventListener("click", function (e) {
 // kronolojisi VERI_UFKU'yla aynı pencerede yazılı (ölçüldü: OLAYLAR <1281 = 0,
 // 1923-10-29 sonrası 2 madde — ikisi de yabancı konu).
 function osmanliAkisiBos() { return suanki < VERI_BASI || suanki > VERI_SONU; }
+
+// ═══════════════════════════════════════════════════════════════════════
+// ZAMAN-ATLAMA-1021 — SEYREK DEVİRDE OLAY-ATLAMALI ADIM (Emre: "MÖ devirlerde harita ve
+// kronoloji çok tenha; gün/yıl yürümek anlamsız, bir tık seneyi/olayı birden ileri
+// götürsün; hangi devlet ve kronolojisi varsa sahneye çıksın").
+// KÜRESEL GÜN DİZİSİ = Osmanlı `olaylar` + bütün künye kronolojileri (`d.kronoloji`) +
+// veri penceresi DIŞINDAKİ dönem kırılmaları. ⏮/⏭ ve oynat, Osmanlı akışı boşken
+// (1281 öncesi) bu dizide bir sonraki/önceki GÜNE atlar; 1281–2000 davranışı DEĞİŞMEZ.
+// Dizi tembel kurulur (ilk kullanımda ~23 bin madde, tek sefer).
+var _kureselOn = null;
+function kureselKur() {
+  if (_kureselOn) return _kureselOn;
+  var gun = Object.create(null);
+  function ekle(t, b, ad, tur) {
+    if (!t) return;
+    var g;
+    var ham = String(t).replace(/^([+-]?\d{1,6}(?:-\d{2}(?:-\d{2})?)?).*$/, "$1");   // MÖ "-3099-01-01" 11 karakter
+    try { g = gunIdx(ham); } catch (e) { return; }   // bozuk tarih: sessiz atla, ölçüm başka yerde
+    if (g < BASLANGIC || g > BITIS) return;
+    (gun[g] || (gun[g] = [])).push({ b: b || "", ad: ad || "", t: ham, tur: tur });
+  }
+  (olaylar || []).forEach(function (o) { ekle(o.t, o.b, "Osmanlı", "olay"); });
+  (window.DEVLETLER || []).forEach(function (d) {
+    (d.kronoloji || []).forEach(function (m) { ekle(m.t, m.b, d.ad, "olay"); });
+  });
+  (donemler || []).forEach(function (dn) {
+    if (dn && dn.fi != null && (dn.fi < VERI_BASI || dn.fi > VERI_SONU) && dn.fi > BASLANGIC) {
+      var g = dn.fi;
+      (gun[g] || (gun[g] = [])).push({ b: dn.ad || "sınır değişimi", ad: "", t: GUN.dizgi(g), tur: "sinir" });
+    }
+  });
+  var dizi = Object.keys(gun).map(Number).sort(function (a, b) { return a - b; });
+  _kureselOn = { gun: gun, dizi: dizi };
+  return _kureselOn;
+}
+// `g`den SONRA (yon>0) / ÖNCE (yon<0) ilk kayıtlı gün; yoksa null.
+function kureselKomsu(g, yon) {
+  var D = kureselKur().dizi, lo = 0, hi = D.length;
+  if (yon > 0) {                         // ilk D[i] > g
+    while (lo < hi) { var m = (lo + hi) >> 1; if (D[m] <= g) lo = m + 1; else hi = m; }
+    return lo < D.length ? D[lo] : null;
+  }
+  while (lo < hi) { var n = (lo + hi) >> 1; if (D[n] < g) lo = n + 1; else hi = n; }   // ilk D[i] >= g
+  return lo > 0 ? D[lo - 1] : null;
+}
+function kureselAdim(yon) {
+  var g = kureselKomsu(suanki, yon);
+  if (g == null) return yon > 0 ? "son" : "bas";
+  tarihAyarla(g);
+  return true;
+}
+// Tarih göstergesi: çubuğun seçtiği gün RASTGELEDİR — veri penceresinden önce gün/ay
+// yazmak uydurma kesinliktir. Gün/ay yalnız o gün gerçekten kayıtlı bir olay varsa
+// (ve `-01-01` yıl-konvansiyonu değilse) yazılır; aksi hâlde "MÖ 9529" / "612".
+function zamanTarihYazi(i) {
+  if (i >= VERI_BASI) return idxYazi(i);
+  var t = idxTarih(i);
+  if ((t.a !== 1 || t.g !== 1) && kureselKur().gun[i]) return idxYazi(i);
+  return (t.y >= 1 ? "MS " : "") + GUN.yilYazi(t.y);
+}
+// Yan panel bilgi satırı: seyrek devirde liste/panel boş görünmesin.
+var _devletAralik = null;
+function sahnedekiDevletler(g) {
+  if (!_devletAralik) {
+    _devletAralik = [];
+    (window.DEVLETLER || []).forEach(function (d) {
+      if (!d || !d.f) return;
+      try { _devletAralik.push({ ad: d.ad || d.id, fi: gunIdx(d.f), ti: d.t ? gunIdx(d.t) : Infinity }); } catch (e) { /* bozuk künye tarihi: atla */ }
+    });
+  }
+  return _devletAralik.filter(function (x) { return x.fi <= g && g < x.ti; });
+}
+function devirBilgiGuncelle() {
+  var el = document.getElementById("devir-bilgi");
+  if (!el) return;
+  if (suanki >= VERI_BASI) { el.classList.add("gizli"); return; }
+  var K = kureselKur(), bugun = K.gun[suanki];
+  var son = kureselKomsu(suanki, -1), sonra = kureselKomsu(suanki, 1);
+  function kayit(g) { var l = K.gun[g]; return l ? l[0] : null; }
+  function dugme(g, on) {
+    var k = kayit(g), b = document.createElement("button");
+    b.type = "button"; b.className = "devir-git";
+    b.textContent = on + " " + zamanTarihYazi(g) + " — " + (k.ad ? k.ad + ": " : "") + k.b;
+    b.addEventListener("click", function () { tarihAyarla(g); });
+    return b;
+  }
+  el.textContent = "";
+  var ust = document.createElement("div"); ust.className = "devir-ust";
+  var dv = sahnedekiDevletler(suanki);
+  ust.textContent = (bugun ? bugun.length + " kayıt bu tarihte" : "Bu devirde kayıtlı olay yok") +
+    " · sahnede " + (dv.length ? dv.length + " devlet" + (dv.length <= 6 ? ": " + dv.map(function (x) { return x.ad; }).join(", ") : "")
+                               : "kayıtlı devlet yok");
+  el.appendChild(ust);
+  if (bugun) {
+    var ul = document.createElement("div"); ul.className = "devir-bugun";
+    ul.textContent = bugun.slice(0, 3).map(function (k) { return (k.ad ? k.ad + ": " : "") + k.b; }).join(" · ") +
+      (bugun.length > 3 ? " · +" + (bugun.length - 3) : "");
+    el.appendChild(ul);
+  }
+  if (son != null) el.appendChild(dugme(son, "◀ son:"));
+  if (sonra != null) el.appendChild(dugme(sonra, "▶ sonraki:"));
+  el.classList.remove("gizli");
+}
 function kronolojiYokUyarisi() {
   var el = document.getElementById("tarihe-git-durum");
   var metin = "ℹ️ Bu çağda Osmanlı kronolojisi yok — ☪ seçicisinden bir devlet seçin.";
@@ -16318,11 +16453,15 @@ function kronolojiYokUyarisi() {
 }
 function geriAdim() {
   if (odakGezintiAktif()) { ODAK_GEZINTI.adim(-1); return; }   // H-79:15
-  if (osmanliAkisiBos()) { kronolojiYokUyarisi(); return; }
+  if (osmanliAkisiBos()) { if (kureselAdim(-1) !== true) tarihAyarla(BASLANGIC); return; }   // ZAMAN-ATLAMA-1021
   olayIndexTazele();
   var gi2 = suankiOlayI - 1;
   while (gi2 >= 0 && suzulduMu(gi2)) gi2--;       // süzülmüş: atla (H-0003)
-  if (gi2 < 0) { suankiOlayI = -1; tarihAyarla(BASLANGIC); return; }
+  if (gi2 < 0) {                                  // Osmanlı akışının başı: öncesi seyrek devir
+    suankiOlayI = -1;
+    if (kureselAdim(-1) !== true) tarihAyarla(BASLANGIC);
+    return;
+  }
   suankiOlayI = gi2;
   // ⏮ ELLE yapılan bir eylem ⇒ KAMERA hakemli + 🛩 anahtarını zorlar.
   // (Panel gösterimi eskisi gibi KAPALI — bu düğme paneli hiç açmıyordu.)
@@ -16333,11 +16472,11 @@ document.getElementById("btn-ileri").addEventListener("click", function (e) {
 });
 function ileriAdim() {
   if (odakGezintiAktif()) { ODAK_GEZINTI.adim(1); return; }    // H-79:15
-  if (osmanliAkisiBos()) { kronolojiYokUyarisi(); return; }
+  if (osmanliAkisiBos()) { if (kureselAdim(1) !== true) tarihAyarla(BITIS); return; }   // ZAMAN-ATLAMA-1021
   olayIndexTazele();
   var ii2 = suankiOlayI + 1;
   while (ii2 < olaylar.length && suzulduMu(ii2)) ii2++;   // süzülmüş: atla (H-0003)
-  if (ii2 >= olaylar.length) { tarihAyarla(BITIS); return; }
+  if (ii2 >= olaylar.length) { if (kureselAdim(1) !== true) tarihAyarla(BITIS); return; }
   suankiOlayI = ii2;
   olayaGit(olaylar[suankiOlayI], false, true);   // ⏭ — aynı gerekçe
 }

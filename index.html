@@ -6,7 +6,7 @@
 <title>Tarih Atlası</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
 <script>window.SURUM="r12822";</script>
-<link rel="stylesheet" href="css/style.css?v=r73107449">
+<link rel="stylesheet" href="css/style.css?v=r180452167">
 </head>
 <body>
 <!-- ACILIS-ANIM-0929 — serpilen haritalar perdesi. <body>'nin HEMEN ardından,
@@ -631,6 +631,9 @@
           <button id="btn-ayarlar" title="Uçuş kipi ayarları: irtifa, yakınlık, hız, kenar payı">⚙</button>
         </span>
       </h2>
+      <!-- ZAMAN-ATLAMA-1021 — seyrek devir (veri penceresinden önce) bilgi satırı;
+           js/app.js devirBilgiGuncelle() doldurur, 1281+ gizli. -->
+      <div id="devir-bilgi" class="gizli" role="status"></div>
       <!-- 🔍 ARAMA SATIRI — 30 Eylül 2026, Emre: "kronoloji maddeleri için
            textbox'ta arama … metinlerin ayrı ayrı aranıp iki üç metnin
            hepsinin maddelerde aranması".
@@ -2059,7 +2062,7 @@
 <script src="js/kaynak_damga.js?v=r126307977"></script>
 <!-- ODAK-ZOOM-1016 — saf hesap (DOM'suz), app.js'ten ÖNCE: `window.ODAK_ZOOM`. -->
 <script src="js/odak_zoom.js?v=r126728536"></script>
-<script src="js/app.js?v=r200043380"></script>
+<script src="js/app.js?v=r256014222"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).
