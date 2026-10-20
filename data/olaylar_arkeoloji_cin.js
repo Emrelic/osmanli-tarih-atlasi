@@ -98,6 +98,27 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 16350–13480 (kaynağın verdiği uçlar); orta nokta MÖ 14915 = astronomik -1491. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz (kaynak düzey belirtmiyor). UFUK DIŞI: MÖ 14915, ufuk MÖ 12000'den 2915 yıl önce; tarih aynen tutuldu (harita f'i ufka kenetlenir, varsayılan — Emre değiştirebilir). Kaynaktan okunan: «the age of the ancient pottery ranges between 18,300 and 15,430 cal BP». Kaynak cal BP verir; MÖ = BP - 1950 ile çevrildi (yuvarlama payı birkaç yıl); kaynak sayıları alıntıda. Aralık çanak çömlek parçalarının yaşıdır; tabaka dizisi toplamı ~21.000-13.800 cal BP (MÖ ~19050-11850). Brif aralığının (MÖ 12000) dışında: yalnız en eski çanak çömlek tanığı olarak. Kaynak, önceki çalışmaların bölge çanak çömleğini ~16.000-10.000 cal BP verdiğini de belirtir."
  },
  {
+  "t": "-17549-01-01",
+  "k": "ilk_anilis",
+  "b": "Xianrendong Mağarası: başlar",
+  "gun": "MÖ 18050–17050 arası (orta nokta MÖ 17550)",
+  "yer": "仙人洞 (Xianrendong)",
+  "d": "Jiangxi'deki mağarada en eski çanak çömlek parçalarının bağlamı 20.000-19.000 cal BP; Son Buzul Maksimumu avcı-toplayıcıları (tarım öncesi).",
+  "kaynak": "Wu vd. 2012, Science 336:1696-1700 (PMID 22745428), doi:10.1126/science.1218643 · https://europepmc.org/article/MED/22745428",
+  "kesinlik": "yuzyil",
+  "etiket": [
+   "arkeoloji"
+  ],
+  "kaynak_turu": "arkeoloji",
+  "aralik": {
+   "bas": "-18049-01-01",
+   "son": "-17049-01-01",
+   "guven": "belirsiz",
+   "tur": "kalibre-14C"
+  },
+  "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 18050–17050 (kaynağın verdiği uçlar); orta nokta MÖ 17550 = astronomik -1754. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. UFUK DIŞI: MÖ 17550, ufuk MÖ 12000'den 5550 yıl önce; tarih aynen tutuldu (harita f'i ufka kenetlenir, varsayılan — Emre değiştirebilir). Kaynaktan okunan: «The radiocarbon ages of the archaeological contexts of the earliest sherds are 20,000 to 19,000 calendar years before the present». Kaynak cal BP verir; MÖ = BP - 1950 ile çevrildi (yuvarlama payı birkaç yıl); kaynak sayıları alıntıda. Yalnız özet okundu (Science tam metni açık değil). Brif aralığı dışında; yalnız en eski çanak çömlek için."
+ },
+ {
   "t": "-3549-01-01",
   "k": "gelisme",
   "b": "Liangzhu Kültürü: başlar",

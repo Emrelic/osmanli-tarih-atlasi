@@ -1256,6 +1256,39 @@ def main():
         # yazilamiyor (C4) ve yeni nokta zincirsiz eklenemiyor (Degismez 1);
         # aktarim (yerlesimler s:/d:/kur:/bit: + olaylar) ayri istir.
         # Sema VERI-YAPISI.md son bolum · denetci arac/sehir_tarihce.py.
+        # ── 20 EKIM 2026 — ARKEOLOJI KATMANI (MO) yerlesim birikimi: sehir_tarihce_osm.js ile AYNI statu ──
+        "data/sehir_tarihce_arkeoloji.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_afrika-iran.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_amerika.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_avrupa.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_cin.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_hint.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_levant-anadolu.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_mezopotamya.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_misir-nil-sahra.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        # ── 20 EKIM 2026 — ARKEOLOJI KATMANI (MO) yerlesim birikimi: sehir_tarihce_osm.js ile AYNI statu ──
+        "data/sehir_tarihce_arkeoloji_d2-afrika-amerika.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_d2-anadolu-ege.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_d2-cin-dogu-asya.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_d2-hint-guneydogu.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_d2-italya-avrupa.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        # ── 20 EKIM 2026 — ARKEOLOJI KATMANI (MO) yerlesim birikimi: sehir_tarihce_osm.js ile AYNI statu ──
+        "data/sehir_tarihce_arkeoloji_d2-iran-orta-asya.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
         "data/sehir_tarihce_osm.js":     "241 sehir arastirma birikimi (OSM bolgesi); "
                                          "onkosul AKTARIM (MO motor destegi C4 + "
                                          "Emre kararlari, denetim/SEHIR-TARIHCE-OSM-1014)",

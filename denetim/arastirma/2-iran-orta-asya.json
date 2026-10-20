@@ -1,0 +1,804 @@
+{
+  "bolge": "Iran platosu, Elam, Orta Asya, Kafkasya (MO 8000 - MO 300)",
+  "tarih_olcum": "21 Ekim 2026",
+  "yontem_notu": "Encyclopaedia Iranica sayfalari www.iranicaonline.org uzerinden curl ile (tarayici UA) acilip metin okundu (WebFetch 403 veriyor). Europe PMC/PMC acik metinleri, HAL API, Sidestone acik erisim kitabi (Looking Closely, 2019) indirilip okundu. Hicbir deger hafizadan yazilmadi. 'konum_tanik' icinde Wikidata ve OSM bagimsiz sayilamaz olabilir (OSM, Wikidata'dan alinmis olabilir) - ilgili kayitlarda belirtildi.",
+  "kayitlar": [
+    {
+      "id": "susa",
+      "ad": "Susa",
+      "ad_yerel": "Shush (Susa)",
+      "tur": "sehir",
+      "lat": 32.1894,
+      "lon": 48.2561,
+      "konum_tanik": [
+        {
+          "kaynak": "Wikidata Q180773 (ancient city)",
+          "lat": 32.1894,
+          "lon": 48.2561
+        },
+        {
+          "kaynak": "Wikidata Q4168823 (modern Shush)",
+          "lat": 32.1942,
+          "lon": 48.2436
+        },
+        {
+          "kaynak": "OSM Nominatim 'Shush' town",
+          "lat": 32.2004,
+          "lon": 48.249
+        }
+      ],
+      "konum_not": "Tanıklar arası en çok ~1.5 km. Antik höyük için Wikidata Q180773 esas alındı (OSM/Q4168823 modern kasaba merkezi).",
+      "kur": {
+        "bas_mo": 4000,
+        "son_mo": null,
+        "guven": "belirsiz",
+        "aralik_turu": "tek-deger",
+        "kaynak": "Vallat, F. 1998 (rev. 2016), 'Elam i. The history of Elam', Encyclopaedia Iranica VIII/3, s. 301-313",
+        "url": "https://www.iranicaonline.org/articles/elam-i",
+        "alinti": "a city that, from its foundation ca. 4000 B.C.E., alternated between subjection to Mesopotamian and Elamite power",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": null,
+      "k": "kurulus",
+      "d": "Susiana'nin merkezi; kuruluşu Iranica'da ca. MO 4000 verilir. Gec Susa II (c. MO 3500-3100) Uruk ile aynı maddi kültürü paylaşır; ardından Proto-Elam dönemi, Akad fethi (c. MO 2300), Ur III dahil edilişi (Susa VB) ve Elam krallıkları gelir.",
+      "sahip_kultur": "Susa (Susiana) kültürü; sonra Proto-Elam / Elam",
+      "ic_not": "Susa I-IV tabaka sinirlari icin dogrudan sayi bulunamadi (Iranica 'Susa i. Prehistoric periods' slug'i 404). Matthews vd. 2025'e gore Gec Susa II = c. MO 3500-3100 (Acropole I 19-18 katmanlari), Proto-Elam tabletleri c. 3200-2900; Susa IIIB-C ~MO 2800 sonrasi Sumer-Akad etkisi; Susa IVB Akad (Naram-Sin) donemi; Susa VB Ur III. Bu alt donem sayilari Matthews vd. 2025 icindedir (url altta).",
+      "kaynak_2": "Matthews, R., Richardson, A., Fazeli Nashli, H., de Groene, D. 2025, 'Information Revolutions and Information Transitions: Counting, Sealing, Writing in Iran 10,000-300 BC', J. Ancient Near Eastern History 12: 215-305, doi:10.1515/janeh-2024-0027 - https://pmc.ncbi.nlm.nih.gov/articles/PMC12645803/ ; alinti: 'The Late Susa II period, c . 3500-3100 BC'",
+      "okunan_sayfa": [
+        "https://www.iranicaonline.org/articles/elam-i",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645803/"
+      ]
+    },
+    {
+      "id": "proto-elam-yazi",
+      "ad": "Proto-Elam yazı sistemi (Susa)",
+      "ad_yerel": "Proto-Elamite script",
+      "tur": "kultur",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Kültür/yazı kaydı; merkez Susa (bkz. susa kaydı). Tabletler Susa'dan Şahr-ı Sokhta'ya (Sistan) kadar en az 8 yerde bulunur (Dahl 2019 aracılığıyla Matthews vd. 2025).",
+      "kur": {
+        "bas_mo": 3200,
+        "son_mo": null,
+        "guven": "belirsiz",
+        "aralik_turu": "tek-deger",
+        "kaynak": "Vallat 1998, Iranica 'Elam i' ve Matthews vd. 2025 (J. Anc. Near Eastern Hist. 12)",
+        "url": "https://www.iranicaonline.org/articles/elam-i",
+        "alinti": "From about 3200 B.C.E. the influence of the Persian plateau can be observed in the presence of numerical and then proto-Elamite tablets",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": {
+        "bas_mo": 2900,
+        "son_mo": null,
+        "guven": "belirsiz",
+        "aralik_turu": "tek-deger",
+        "kaynak": "Matthews vd. 2025, Tablo/ozet: 'Proto-Elamite tablets from c. 3200-2900 BC' - https://pmc.ncbi.nlm.nih.gov/articles/PMC12645803/",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645803/",
+        "alinti": "Proto-Elamite tablets from c . 3200-2900 BC.",
+        "kaynak_sinifi": "akademik-ikincil",
+        "kaynak_dili": "Ingilizce"
+      },
+      "k": "gelisme",
+      "d": "Susa'da Uruk III ile çağdaş, çözülememiş Proto-Elam yazı sistemi; İran platosunda sekiz yere yayılır. Brifteki 'MO ~3100' tek bir kaynakta bulunmadı; kaynaklar 3200 başlangıcını verir.",
+      "sahip_kultur": "Proto-Elam",
+      "ic_not": "CELISKI (bitis): Vallat (Iranica, 1998): yazi 'about 2700 B.C.E.'a kadar kullanimda ('remained in use until about 2700 B.C.E.'); Matthews vd. (2025): tabletler c. 3200-2900. Yeni ve cok-bolgeli sentez oldugu icin 2900 secildi; ikisi de belirsiz 'c./about'. Ortasi alinmadi. Bu iki kaynak ayrintili cift teyit degil (bitis ayrisiyor); baslangic 3200 iki kaynakta uyumlu (cift teyit, baslangic icin).",
+      "kaynak_2": "Matthews vd. 2025 (baslangic 3200 icin ikinci kaynak)",
+      "okunan_sayfa": [
+        "https://www.iranicaonline.org/articles/elam-i",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645803/"
+      ]
+    },
+    {
+      "id": "elam",
+      "ad": "Elam (Eski Elam - Yeni Elam)",
+      "ad_yerel": "Elam / Haltamti",
+      "tur": "bolge",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Bölge/devlet; Susa (Susiana) ve Anşan (Fars) merkezli.",
+      "kur": {
+        "bas_mo": 2400,
+        "son_mo": 2100,
+        "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Vallat 1998, Iranica 'Elam i' (Awan hanedani, Eski Elam donemi)",
+        "url": "https://www.iranicaonline.org/articles/elam-i",
+        "alinti": "The Old Elamite period (ca. 2400-1600 B.C.E.)... The Awan dynasty (ca. 2400-2100 B.C.E.)",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": {
+        "bas_mo": 539,
+        "son_mo": null,
+        "guven": "belirsiz",
+        "aralik_turu": "donem-toplami",
+        "kaynak": "Vallat 1998, Iranica 'Elam i' (Yeni Elam donemi sonu)",
+        "url": "https://www.iranicaonline.org/articles/elam-i",
+        "alinti": "The Neo-Elamite Period (1100-539 B.C.E.)",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "k": "kurulus",
+      "d": "Awan hanedanı (c. MO 2400-2100), Şimaşki, Epartid/sukkalmah (Eski Babil çağdaşı); Orta Elam (Untaş-Napirişa c. 1340-1300, Çoğa Zanbil); Yeni Elam (1100-539). Elam adı kaynakta ilk kez Kiş kralı Enmebaragesi (c. MO 2650) metninde geçer; Yeni Elam II c. 770-646 (Asur ile çatışma).",
+      "sahip_kultur": "Elam",
+      "ic_not": "Elam'in 'kurulus' tarihi tek tarih degil: ilk anilis c. 2650 (Enmebaragesi); Awan hanedani c. 2400. Bitis 539 Iranica'nin Yeni Elam donem sinirini gosterir, devletin ortadan kalkis gunu degildir (Yeni Elam II 770-646; Asur sonrasi Susa Ahamenis'e gecer). Sumer/Akad-Elam: Akad'in Susa fethi c. 2300 (Matthews vd. 2025: 'Akkadian conquest of Susa c . 2300 BC'); Sargon c. 2334-2279 ile Awan hanedani kismen caydas (Vallat). Elamlilar Susiana halkiyla ittifakla Ur imparatorlugunu MO 2004'te sona erdirdi (Vallat: 'brought an end to the empire of Ur in 2004 B.C.E.'). Kronoloji: Vallat Orta kronoloji ile uyumlu goruluyor ama acik yazmiyor.",
+      "okunan_sayfa": [
+        "https://www.iranicaonline.org/articles/elam-i",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645803/"
+      ]
+    },
+    {
+      "id": "elam-ur3-sonu-2004",
+      "ad": "Elam'ın Ur III'ü yıkması",
+      "ad_yerel": "End of Ur III by Elam",
+      "tur": "bolge",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Olay kaydı; Ur (Güney Mezopotamya).",
+      "kur": {
+        "bas_mo": 2004,
+        "son_mo": null,
+        "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Vallat 1998, Iranica 'Elam i'",
+        "url": "https://www.iranicaonline.org/articles/elam-i",
+        "alinti": "When the Elamites, in alliance with the people of Susiana, brought an end to the empire of Ur in 2004 B.C.E.",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": null,
+      "k": "fetih",
+      "d": "Elamlılar Susiana halkıyla ittifak yaparak Ur III imparatorluğunu sona erdirdi (MO 2004).",
+      "sahip_kultur": null,
+      "ic_not": "Ur III kaydi onceki dalgada var (tekrarlanmadi); bu kayit Elam tarafinin bitis olayidir. Yalnizca Vallat'in verdigi yil yazildi; baska kronoloji tablosu bu oturumda okunmadi.",
+      "okunan_sayfa": [
+        "https://www.iranicaonline.org/articles/elam-i"
+      ]
+    },
+    {
+      "id": "tepe-hissar",
+      "ad": "Tepe Hissar",
+      "ad_yerel": "Tappa Hesar (Damgan)",
+      "tur": "sehir",
+      "lat": 36.1545,
+      "lon": 54.385,
+      "konum_tanik": [
+        {
+          "kaynak": "Wikidata Q1484199",
+          "lat": 36.1545,
+          "lon": 54.385
+        },
+        {
+          "kaynak": "OSM Nominatim 'Tepe Hissar' archaeological_site",
+          "lat": 36.1557,
+          "lon": 54.3796
+        }
+      ],
+      "konum_not": "Fark ~0.5 km. Wikidata esas alındı. Bağımsızlık: Wikidata/OSM bağımsız olmayabilir; Iranica metni 'just south of Damghan' diyor (üçüncü, sözel tanık).",
+      "kur": {
+        "bas_mo": 3980,
+        "son_mo": 3865,
+        "guven": "belirsiz",
+        "aralik_turu": "kalibre-14C",
+        "kaynak": "Dyson, R.H. Jr., 'Tepe Hissar', Encyclopaedia Iranica (2009; rev. 2014) - Voigt & Dyson 1992 (CAH) 14C verilerine dayanir",
+        "url": "https://www.iranicaonline.org/articles/tepe-hissar",
+        "alinti": "IC/IIA: about 3980-3865 cal. BCE, IIB: c. 3365-3030 cal BCE, IIIB: ca. 2400-2170 cal. BCE; and IIIC 2170-1900 cal. BCE",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": {
+        "bas_mo": 2170,
+        "son_mo": 1900,
+        "guven": "belirsiz",
+        "aralik_turu": "donem-toplami",
+        "kaynak": "Dyson (Iranica) - Hissar IIIC",
+        "url": "https://www.iranicaonline.org/articles/tepe-hissar",
+        "alinti": "IIIC 2170-1900 cal. BCE",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "k": "gelisme",
+      "d": "Damgan yakınlarında Kalkolitik-Erken Tunç höyüğü (Hissar I-III); kalibre 14C ile IC/IIA ~MO 3980-3865, IIB 3365-3030, IIIB 2400-2170, IIIC 2170-1900.",
+      "sahip_kultur": "Hissar I-III (Schmidt donem adlari)",
+      "ic_not": "'kur' = en eski 14C ile tarihli evre (IC/IIA), yerlesimin gercek baslangici degil; Dyson: Hissar IA 'sometime after 5000 BCE' (tahmin, Cheshmi Ali-Sialk II boyali seramik ufkuna gore), IB ~4000 ve oncesi. 'bit' = IIIC'nin tarihli ucu; yerlesimin terki sonrasi dilimleri vardir. Bu uc sayilar donem toplamidir, tek olay degildir. Hissar'da Proto-Elam yazili tablet yok (Matthews vd. 2025).",
+      "okunan_sayfa": [
+        "https://www.iranicaonline.org/articles/tepe-hissar",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645803/"
+      ]
+    },
+    {
+      "id": "tepe-yahya",
+      "ad": "Tepe Yahya",
+      "ad_yerel": "Tappe Yahya (Soghun vadisi, Kerman)",
+      "tur": "sehir",
+      "lat": 28.3309,
+      "lon": 56.8674,
+      "konum_tanik": [
+        {
+          "kaynak": "Iranica 'Tepe Yahya' (Potts 2004): 28°20'N 56°52'E",
+          "lat": 28.3333,
+          "lon": 56.8667
+        },
+        {
+          "kaynak": "Wikidata Q384077",
+          "lat": 28.3309,
+          "lon": 56.8674
+        },
+        {
+          "kaynak": "OSM Nominatim",
+          "lat": 28.33,
+          "lon": 56.8671
+        }
+      ],
+      "konum_not": "Üç tanık <0.5 km. Wikidata/OSM değeri kullanıldı; Iranica dakika hassasiyetli.",
+      "kur": {
+        "bas_mo": 5500,
+        "son_mo": 4500,
+        "guven": "belirsiz",
+        "aralik_turu": "donem-toplami",
+        "kaynak": "Potts, D.T. 2004 (rev. 2016), 'Tepe Yahya', Encyclopaedia Iranica; Thornton vd.; Beale 1986 'Excavations at Tepe Yahya 1967-1975: The Early Periods'",
+        "url": "https://www.iranicaonline.org/articles/tepe-yahya",
+        "alinti": "Period VII 5500-4500 BCE Period VI-VC 4500-3600 BCE Period VA-B 3600-3200 BCE Period IVC2 3100-2800 BCE",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": {
+        "bas_mo": 200,
+        "son_mo": null,
+        "guven": "belirsiz",
+        "aralik_turu": "donem-toplami",
+        "kaynak": "Potts 2004, Iranica: 'I 200 BCE-300 CE' (son yerleşim evresi)",
+        "url": "https://www.iranicaonline.org/articles/tepe-yahya",
+        "alinti": "II 500-275 BCE I 200 BCE-300 CE",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "k": "kurulus",
+      "d": "Güneydoğu İran'da uzun stratigrafik dizili höyük; Period VII (seramikli Neolitik, 5500-4500), Period IVC2 (3100-2800) Proto-Elam tabletli ve Susa III tipi malzemeli büyük bina kompleksi; IVB 2400-2000; IVA 1800-1400; III 800-500; II 500-275; I 200 BCE-300 CE.",
+      "sahip_kultur": "Yahya Periyotları VII-I; Proto-Elam (IVC)",
+      "ic_not": "Iranica donem tablosunu 'tentative' (ozellikle IVA-I) olarak bildirir ve kalibre/ham ayrimi acik degil; sayilar 'donem-toplami' gibi okundu. Ham BP verisi yazilmadi. Period VII baslangici icin bagimsiz kalibre 14C tablosu bu oturumda bulunamadi (Beale 1986 erisilemedi). Matthews vd. 2025: Period VII 'late sixth and early fifth millennium BC' (uyumlu).",
+      "okunan_sayfa": [
+        "https://www.iranicaonline.org/articles/tepe-yahya",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645803/"
+      ]
+    },
+    {
+      "id": "tepe-sialk",
+      "ad": "Tepe Sialk",
+      "ad_yerel": "Tappeh Sialk (Kaşan)",
+      "tur": "sehir",
+      "lat": 33.9689,
+      "lon": 51.4047,
+      "konum_tanik": [
+        {
+          "kaynak": "Wikidata Q1581555",
+          "lat": 33.9689,
+          "lon": 51.4047
+        },
+        {
+          "kaynak": "OSM Nominatim 'تپه سیلک'",
+          "lat": 33.9688,
+          "lon": 51.4042
+        }
+      ],
+      "konum_not": "Fark <0.1 km; iki tanık muhtemelen birbirinden türedi (bağımsızlık zayıf).",
+      "kur": {
+        "bas_mo": 5841,
+        "son_mo": 5679,
+        "guven": "belirsiz",
+        "aralik_turu": "kalibre-14C",
+        "kaynak": "Fazeli Nashli, H., Theodorakopoulou, K., Stamoulis, K., Athanassas, C., Nazari, H., Jamshidi Yeganeh, S., Nokandeh, J., poster 'An updated chronology of Tepe Sialk in Iran, based on OSL and C14 dating' (ICAS-EMME 3) - Pollard vd. 2013'e atıfla",
+        "url": "https://icasemme.cyi.ac.cy/images/posters/tuesday/P13_Theodorakopoulou_et_al_ICAS-EMME_3_online.pdf",
+        "alinti": "the beginning of occupation at Tepe Sialk took place before 5841-5679 cal BCE but not earlier than the beginning of the 6th millenium BCE",
+        "kaynak_sinifi": "akademik-ikincil",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": null,
+      "k": "kurulus",
+      "d": "Kaşan'da iki höyük (Sialk Kuzey/Güney); katmanlar MÖ 6. binyıl başından Demir Çağı'na uzanır. 'before 5841-5679' = yerleşimin bu aralıktan ÖNCE başladığını söyleyen üst sınırdır, tek tarih değil.",
+      "sahip_kultur": "Sialk I-IV (Ghirshman dönem adları)",
+      "ic_not": "Bu deger konferans posterinden (ikincil) alindi; birincil kaynak Pollard vd. 2013 (Fazeli Nashli ile) acilamadi. Ghirshman 'Fouilles de Sialk' (Fransizca) erisilemedi. Ek: XRONOS/NERD (Palmisano vd. 2022, JOAD 10:2) kaydi OxA-22347 Sialk I faz 4: 6263+-33 BP, 2s IntCal20 7263-7030 cal BP (cal BP->MO: BP-1950, bu oturumda: 5313-5080 MO) - yani Sialk I faz 4 yerlesimin ilk degil sonraki asamasidir. Sialk II etiketli OxA verisi (6201+-31 BP) ile Sialk I verisi arasinda donem etiketi tutarsizligi var; sonuc yazilmadi. OSL (mudbrick, Sialk South): 6.08-2.9 ka (poster Tablo 1) kalibre degil, cal BP degil OSL yasi. Sialk IV 1 (Gec Kalkolitik): Matthews vd. 2025 - 18 sayisal/numero-ideografik tablet, 7 silindir muhur.",
+      "kaynak_2": "Palmisano, A., Bevan, A., Lawrence, D., Shennan, S. 2022, The NERD Dataset, J. Open Archaeology Data 10(0):2, doi:10.5334/joad.90 (XRONOS https://xronos.ch/c14s/153375) - baslangic icin degil, Sialk I faz 4 icin",
+      "okunan_sayfa": [
+        "https://icasemme.cyi.ac.cy/images/posters/tuesday/P13_Theodorakopoulou_et_al_ICAS-EMME_3_online.pdf",
+        "https://xronos.ch/c14s/153375",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645803/"
+      ]
+    },
+    {
+      "id": "jeitun",
+      "ad": "Jeitun",
+      "ad_yerel": "Jeitun / Dzheitun (Ahal)",
+      "tur": "sehir",
+      "lat": 38.1878,
+      "lon": 58.3491,
+      "konum_tanik": [
+        {
+          "kaynak": "Wikidata Q420194",
+          "lat": 38.1878,
+          "lon": 58.3491
+        },
+        {
+          "kaynak": "OSM Nominatim 'Jeytun' archaeological_site (Gokdepe etr.)",
+          "lat": 38.1035,
+          "lon": 58.2065
+        },
+        {
+          "kaynak": "Heit, Looking Closely (2019) Chap.3: 'about 25 km northeast of the capital Ashgabat' (Ashgabat ~37.95N 58.38E)",
+          "lat": null,
+          "lon": null
+        }
+      ],
+      "konum_not": "ÇÖZÜLEMEDİ: Wikidata ile OSM ~15 km ayrışıyor (>3 km kuralı). Kitaptaki sözel tarif (Aşkabat'ın ~25 km KD'sı) Wikidata konumuna (Aşkabat'ın ~27 km kuzeyi) OSM'den (~20 km KB) daha yakın; bu yüzden Wikidata esas alındı, kesin değil. Harita yerleştirmeden önce kazı raporundan (Harris vd. 2010 'Origins of agriculture in western Central Asia') koordinat doğrulanmalı.",
+      "kur": {
+        "bas_mo": 6214,
+        "son_mo": 5985,
+        "guven": "95",
+        "aralik_turu": "kalibre-14C",
+        "kaynak": "Heit, I. 2019, Chap. 3 (Chronology), in Pollock, S., Bernbeck, R., Ogut, B. (eds), Looking Closely: Excavations at Monjukli Depe, Turkmenistan 2010-2014, Vol. 1, Sidestone Press (OxCal Bayesian, Harris vd. 1993/2010 AMS serisi; 'Start Jeitun')",
+        "url": "https://www.sidestone.com/openaccess/9789088907654.pdf",
+        "alinti": "The settlement in Jeitun would begin 6214-5985 cal BCE (95% probability; Start Jeitun).",
+        "kaynak_sinifi": "birincil-yayin",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": {
+        "bas_mo": 6016,
+        "son_mo": 5839,
+        "guven": "95",
+        "aralik_turu": "kalibre-14C",
+        "kaynak": "Heit 2019, Chap. 3 (aynı model, 'End Jeitun')",
+        "url": "https://www.sidestone.com/openaccess/9789088907654.pdf",
+        "alinti": "The settlement ended 6016-5839 cal BCE (95% probability; End Jeitun).",
+        "kaynak_sinifi": "birincil-yayin",
+        "kaynak_dili": "Ingilizce"
+      },
+      "k": "kurulus",
+      "d": "Güney Türkmenistan'ın Kopet Dağ eteklerinde arpa-buğday ekimi ve koyun-keçi yetiştiren erken köy; Bayesçi 14C modeline göre ~MÖ 6200-5850.",
+      "sahip_kultur": "Jeitun (Geç Neolitik, Kopet Dağ)",
+      "ic_not": "TURLER: Heit bas/bit = OxCal modelinin 'Start/End' sinir tahminleri (oluş-zamanı belirsizliği), donem toplami degil. Diger yayinlar: Harris, Gosden & Charles 1996 PPS 62:423-442: 'first occupied at c. 6000 cal. BC and may only have remained in use for a few centuries' (tek deger ~6000); Harris vd. 2010 (Heit'in kitabinda alinti): erken Jeitun 'ca. 6400-5700 cal BCE' (Tab. 9.1); ayni kitabin baska yerinde 'ca. 6300-5600' ve '6200-5500' (Harris 2010). Kaynaklar arasi ~200-400 yil yayilim vardir; Bayesci model en dar ve en yeni oldugu icin secildi, ortasi alinmadi. Rusca birincil (Masson, Sarianidi 1972) kaynaklar erisilemedi: Jeitun'a 14C verilmeden cagdas Rus kronolojisi goreli idi (arama ozeti). Antiquity 67 (1993) Harris vd. tam metni paywall.",
+      "kaynak_2": "Harris, D.R., Gosden, C., Charles, M.P. 1996, 'Jeitun: recent excavations at an early Neolithic site in southern Turkmenistan', Proc. Prehistoric Society 62:423-442, doi:10.1017/S0079497X00002863 - https://www.cambridge.org/core/journals/proceedings-of-the-prehistoric-society/article/abs/jeitun-recent-excavations-at-an-early-neolithic-site-in-southern-turkmenistan/453D61E728C816C0B5BC4F37065990E9 ; alinti: 'it was first occupied at c. 6000 cal. BC and may only have remained in use for a few centuries'",
+      "okunan_sayfa": [
+        "https://www.sidestone.com/openaccess/9789088907654.pdf",
+        "https://www.cambridge.org/core/journals/proceedings-of-the-prehistoric-society/article/abs/jeitun-recent-excavations-at-an-early-neolithic-site-in-southern-turkmenistan/453D61E728C816C0B5BC4F37065990E9",
+        "https://www.cambridge.org/core/journals/antiquity/article/investigating-early-agriculture-in-central-asia-new-research-at-jeitun-turkmenistan/6FE9F99E9E1AD9EB89CAF1045E45347B"
+      ]
+    },
+    {
+      "id": "anau-ia-meana",
+      "ad": "Anau IA ve Meana Ufku (Kopet Dağ, İlk Kalkolitik)",
+      "ad_yerel": "Anau IA / Meana Horizon",
+      "tur": "kultur",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Kültür kaydı; Anau Kuzey ve Monjukli Depe koordinatları toplanmadı (Monjukli Depe ~Ashgabat yakını, kitapta Türkmenistan Kopet Dağ).",
+      "kur": {
+        "bas_mo": 4300,
+        "son_mo": 3820,
+        "guven": "95",
+        "aralik_turu": "tabaka-donem",
+        "kaynak": "Heit 2019, Chap. 3, in Pollock, Bernbeck, Ogut (eds), Looking Closely vol. 1: Anau Ia, Anau Kuzey alt tabakalari (OxCal modeli)",
+        "url": "https://www.sidestone.com/openaccess/9789088907654.pdf",
+        "alinti": "Anau Ia is dated 4300-3820 cal BCE, as represented by the lowermost layers at Anau North.",
+        "kaynak_sinifi": "birincil-yayin",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": null,
+      "k": "kurulus",
+      "d": "Kopet Dağ eteklerinde Jeitun sonrası Kalkolitik; Monjukli Depe'de Anau IA'dan önce ayrı bir 'Meana Ufku' tanımlandı (c. MÖ 4650-4340 cal).",
+      "sahip_kultur": "Anau IA; Meana Ufku",
+      "ic_not": "Iki sayi kendi icinde celiskili: kitabin ayni bolumunde Anau Ia icin 'ca. 4500-4000' (Hiebert 2002), '4500-3800' (Hiebert & Kurbansakhatov 2003 Tab. 5.1), '4400-3800' (baska bolum, Bayes) ve '4300-3820' (Chap.3 modeli) var; en yeni Bayes modeli secildi. Meana Ufku: monjukli.net (Heit modeli) 4650-4340 cal BCE, Neolitik ile arasi hiatus 5600-4650 (guven duzeyi sitede belirtilmemis); Monjukli Depe Neolitik son 5731-5616 (95%, 'End MD-Neolithic'). Namazga I-VI / Altyn-Depe icin kalibre kaynak ACILAMADI (bulunamadi).",
+      "kaynak_2": "monjukli.net/en/phases.html (Heit Bayes modeli, Pollock vd. 2018/2019 atfiyla) - https://monjukli.net/en/phases.html",
+      "okunan_sayfa": [
+        "https://www.sidestone.com/openaccess/9789088907654.pdf",
+        "https://monjukli.net/en/phases.html"
+      ]
+    },
+    {
+      "id": "ganj-dareh",
+      "ad": "Genç Dere (Ganj Dareh)",
+      "ad_yerel": "Ganj Dareh (Kermanşah)",
+      "tur": "sehir",
+      "lat": 34.2721,
+      "lon": 47.4758,
+      "konum_tanik": [
+        {
+          "kaynak": "Wikidata Q2576851",
+          "lat": 34.2721,
+          "lon": 47.4758
+        },
+        {
+          "kaynak": "OSM Nominatim 'Ganj Dareh' archaeological_site",
+          "lat": 34.2721,
+          "lon": 47.4758
+        }
+      ],
+      "konum_not": "Iki deger birebir ayni (OSM muhtemelen Wikidata'dan turedi) - bagimsiz ikinci tanik ZAYIF. OSM'de ayni adla 34.4473,48.1790'da bir 'tepe' daha cikti (~65 km uzakta, farkli nesne). Kazi raporunda koordinat dogrulanmali.",
+      "kur": {
+        "bas_mo": 10732,
+        "son_mo": 9807,
+        "guven": "95.4",
+        "aralik_turu": "tabaka-donem",
+        "kaynak": "Riel-Salvatore, J., Lythe, A., Albornoz, A.U. 2021, 'New insights into the spatial organization, stratigraphy and human occupations of the Aceramic Neolithic at Ganj Dareh, Iran', PLoS ONE 16: e0251318, doi:10.1371/journal.pone.0251318",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8372917/",
+        "alinti": "a first phase of occupation at Ganj Dareh took place around 10,732-9807 cal. BC (95.4%)",
+        "kaynak_sinifi": "birincil-yayin",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": null,
+      "k": "kurulus",
+      "d": "Orta Zagros'ta keçi yönetiminin en eski izlerini veren seramiksiz Neolitik yerleşim; beş yapı katı çok kısa sürede birikmiştir.",
+      "sahip_kultur": "Seramiksiz Neolitik (Aceramic Neolithic), Orta Zagros",
+      "ic_not": "YORUM/CELISKI: 10732-9807 cal BC makalenin onerdigi 'ilk (hareketli avcilarin mevsimlik kullandigi) evre' modelidir, kazi tarihli katmanlarin aralik toplami degildir; ayni makale GaK-807 tarihini (Seviye E) 'aberrant' sayar ve ve tarihlemeleri 'about 10,100 cal BP' sonrasi 200-300 yila sikistirir ('constrain the accumulation of the site's five levels to a 200-300 year span after about 10,100 cal BP') = cal BP-1950: yaklasik MO 8150'den sonra 200-300 yil; yani birikim MO ~8150-7850 civari, bu, MO 10732-9807'den ayri bir yorumdur. Iki gorus makalede beraber; sahip kaynak (keçi aDNA) Daly vd. 2021 PNAS 118:e2100901118 doi:10.1073/pnas.2100901118 - kullanilmadi. Ayni makale: Tepe Abdul Hosein 8205-7755 cal BC.",
+      "okunan_sayfa": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8372917/"
+      ]
+    },
+    {
+      "id": "chogha-golan",
+      "ad": "Çoğa Golan",
+      "ad_yerel": "Chogha Golan (Ilam)",
+      "tur": "sehir",
+      "lat": 33.3774,
+      "lon": 46.2711,
+      "konum_tanik": [
+        {
+          "kaynak": "Wikidata Q24036929",
+          "lat": 33.3774,
+          "lon": 46.2711
+        },
+        {
+          "kaynak": "OSM Nominatim 'Chogha Golan' locality",
+          "lat": 33.3775,
+          "lon": 46.271
+        }
+      ],
+      "konum_not": "Birebir aynı; OSM muhtemelen Wikidata'dan türedi, bağımsız ikinci tanık ZAYIF. Wikidata'da aynı adı taşıyan başka bir kayıt (Q140924688, Kermanşah mahallesi 34.3408,47.1156) farklı nesnedir.",
+      "kur": {
+        "bas_mo": 10155,
+        "son_mo": 9817,
+        "guven": "95",
+        "aralik_turu": "kalibre-14C",
+        "kaynak": "Riehl, S., Asouti, E., Karakaya, D., Starkovich, B.M., Zeidi, M., Conard, N.J. 2015, 'Resilience at the Transition to Agriculture: ... Chogha Golan (Iran)', BioMed Research International 2015: 532481, doi:10.1155/2015/532481, Tablo 1 (KIA45648, Hordeum, AH XIa, humic acid)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4544718/",
+        "alinti": "with 17 AMS dates ranging from roughly 11.800 BP (geological horizon) to ca. 9.600 BP (AH I)",
+        "kaynak_sinifi": "birincil-yayin",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": {
+        "bas_mo": 7790,
+        "son_mo": 7600,
+        "guven": "95",
+        "aralik_turu": "kalibre-14C",
+        "kaynak": "Riehl vd. 2015, Tablo 1 (Beta336508, Charcoal, AH I): 8690+-40 BP, 9637+-54 cal BP, 7790-7600 cal BC (2s)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4544718/",
+        "alinti": "Charcoal, AH I Beta336508 8690 ± 40 9637 ± 54 7790-7600",
+        "kaynak_sinifi": "birincil-yayin",
+        "kaynak_dili": "Ingilizce"
+      },
+      "k": "kurulus",
+      "d": "Seramiksiz Neolitik höyük; 2000 yıldan uzun süren yerleşim (Genç Dryas sonu - 10. binyıl cal BP); yabani/erken arpa, baklagil ve keçi-geyik avı.",
+      "sahip_kultur": "Seramiksiz Neolitik (Aceramic Neolithic), Orta Zagros",
+      "ic_not": "UYARI: ayni tabloda ayni ufukta 'base residue' (b.r.) ve 'humic acid' (h.a.) ayri sonuclar var ve tutarsiz (orn. AH XIa h.a. 10155-9817 cal BC, b.r. 8847-8283). Burada en eski ve en yeni tarihli 2s aralik secildi; 'geological horizon' ornegi h.a. 10042-9651. Makale ayrica ana yerlesim aralığını 'AH XI, AH IX-VIII (c. 11.740-10.650 cal BP)' diye verir (cal BP-1950: MO 9790-8700). 'bit' tek bir ornek (en genc AH I) oldugundan yerlesimin terk tarihi degil, en genc tarihli orneklerden biridir. Brifteki 'Çoğa Mami' (Irak, Samarra) bu oturumda aranmadi; Çoğa Golan ile karisabilir - Emre onaylasin.",
+      "okunan_sayfa": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4544718/"
+      ]
+    },
+    {
+      "id": "shulaveri-shomu",
+      "ad": "Şulaveri-Şomu kültürü",
+      "ad_yerel": "Shulaveri-Shomu (Shulaveris Gora / Shomutepe)",
+      "tur": "kultur",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Kültür kaydı (Kura havzası: Gürcistan Kvemo Kartli, Azerbaycan Orta Kura, Ermenistan). Nokta koordinat gadachrili-gora kaydında.",
+      "kur": {
+        "bas_mo": 5920,
+        "son_mo": 5720,
+        "guven": "belirsiz",
+        "aralik_turu": "tabaka-donem",
+        "kaynak": "Hamon, C., Jalabadze, M., Agapishvili, T., Baudouin, E., Koridze, I., Messager, E. vd. 2016, 'Gadachrili Gora: Architecture and organisation of a Neolithic settlement in the middle Kura Valley (6th millennium BC, Georgia)', Quaternary International 395: 154-169, doi:10.1016/j.quaint.2015.01.055 (HAL hal-03150494)",
+        "url": "https://hal.science/hal-03150494",
+        "alinti": "places the first levels of this tell in an early phase of the development of the culture, between 5920 and 5720 Cal BC",
+        "kaynak_sinifi": "birincil-yayin",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": null,
+      "k": "kurulus",
+      "d": "Kura havzasında MÖ 7. binyıl sonunda ortaya çıkan, daire planlı kerpiç yapılı ilk yerleşik tarım köyleri; 5920-5720 cal BC Gadachrili Gora'nın İLK katmanları, kültürün erken evresidir (başlangıcı değil).",
+      "sahip_kultur": "Şulaveri-Şomu",
+      "ic_not": "Kultur baslangici icin kaynak ('emerged in the Kura Basin at the end of the 7th millennium BC', Hamon vd. 2016 ozeti) sadece binyil verir; sayisal 'kur' tek bir yerlesimin ilk katmanidir. Cift teyit (Azerbaycan, Haci Elamxanli Tepe): Nishiaki, Y., Guliyev, F., Kadowaki, S. (Antiquity Project Gallery, yil/cilt sayfa gosterilmiyor): 'A series of radiocarbon dates firmly situate the four architectural levels within a short time period of 5950-5800 cal BC' - bu Gadachrili 5920-5720 ile ~uyumlu, ancak guven duzeyi/numune sayisi siteden alinamadi. Kulturun BITIS tarihi icin kaynakli sayi bulunamadi (Wikipedia 'c. 6000-5000 BC' tek dayanak olamaz; kullanilmadi). Gurcuce/Rusca birincil yayinlar (Kiguradze, Menabde, Javakhishvili) acilamadi.",
+      "kaynak_2": "Nishiaki, Y., Guliyev, F., Kadowaki, S., Antiquity Project Gallery: 'The origins of food production in the southern Caucasus: excavations at Haci Elamxanli Tepe, Azerbaijan' - https://antiquity.ac.uk/projgall/nishiaki348",
+      "okunan_sayfa": [
+        "https://api.archives-ouvertes.fr/search/?q=%22Gadachrili%20Gora%22",
+        "https://antiquity.ac.uk/projgall/nishiaki348"
+      ]
+    },
+    {
+      "id": "gadachrili-gora",
+      "ad": "Gadaçrili Gora",
+      "ad_yerel": "გადაჭრილი გორა (Gadachrili Gora)",
+      "tur": "sehir",
+      "lat": 41.3904,
+      "lon": 44.821,
+      "konum_tanik": [
+        {
+          "kaynak": "OSM Nominatim 'გადაჭრილი გორა' archaeological_site (Marneuli)",
+          "lat": 41.3903918,
+          "lon": 44.820974
+        },
+        {
+          "kaynak": "Wikidata Q108081844 (koordinat yok)",
+          "lat": null,
+          "lon": null
+        }
+      ],
+      "konum_not": "TEK koordinat tanığı (OSM). Wikidata kaydında P625 yok. İkinci bağımsız tanık bulunamadı - harita öncesi doğrulama gerekir.",
+      "kur": {
+        "bas_mo": 5920,
+        "son_mo": 5720,
+        "guven": "belirsiz",
+        "aralik_turu": "tabaka-donem",
+        "kaynak": "Hamon vd. 2016, Quaternary International 395:154-169",
+        "url": "https://hal.science/hal-03150494",
+        "alinti": "places the first levels of this tell in an early phase of the development of the culture, between 5920 and 5720 Cal BC",
+        "kaynak_sinifi": "birincil-yayin",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": null,
+      "k": "kurulus",
+      "d": "Kvemo Kartli'de (Marneuli) Şulaveri-Şomu höyüğü; iki yerleşim evresi, dairesel birimler ve depo yapıları.",
+      "sahip_kultur": "Şulaveri-Şomu",
+      "ic_not": "Guven duzeyi (95/68) Hamon vd. ozetinde belirtilmiyor; 'belirsiz'. Olay tipi: ilk katmanin (calibre) oluş zamanı belirsizliği.",
+      "okunan_sayfa": [
+        "https://api.archives-ouvertes.fr/search/?q=%22Gadachrili%20Gora%22"
+      ]
+    },
+    {
+      "id": "konar-sandal-guney",
+      "ad": "Konar Sandal (Cîroft/Halil Rud)",
+      "ad_yerel": "Konar Sandal South/B (Jiroft)",
+      "tur": "sehir",
+      "lat": 28.4632,
+      "lon": 57.7792,
+      "konum_tanik": [
+        {
+          "kaynak": "Wikidata Q2071319 (archaeological site)",
+          "lat": 28.4632,
+          "lon": 57.7792
+        },
+        {
+          "kaynak": "OSM Nominatim 'Konar Sandal B' archaeological_site",
+          "lat": 28.4635,
+          "lon": 57.7791
+        }
+      ],
+      "konum_not": "OSM değeri 'Konar Sandal B' (Kuzey höyük) içindir; Konar Sandal South (KSS) ayrı bir höyüktür ve kesin koordinatı bu oturumda bulunamadı. Koordinat kompleks içindir (fark <0.1 km iki tanık arası, ama KSS'nin kendisi için değil).",
+      "kur": {
+        "bas_mo": 2450,
+        "son_mo": null,
+        "guven": "belirsiz",
+        "aralik_turu": "tek-deger",
+        "kaynak": "Eskandari, N., De Carlo, E., Zorzi, F., Dall'Acqua, S., Furlan, C., Artioli, G., Vidale, M. 2024, 'A Bronze Age lip-paint from southeastern Iran', Scientific Reports 14: 2670, doi:10.1038/s41598-024-52490-w",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10834486/",
+        "alinti": "do not extend beyond the late twenty-fifth century BCE",
+        "kaynak_sinifi": "birincil-yayin",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": null,
+      "k": "gelisme",
+      "d": "Halil Rud vadisinde 3. binyıl MÖ'nin en büyük kent merkezi sayılan Konar Sandal South (KSS); yerleşim bağlamlarından alınan yeni 14C tarihleri MÖ geç 25. yüzyıldan geri gitmez.",
+      "sahip_kultur": "Cîroft (Halil Rud) kültürü; Marhaşi ile ilişkilendirilir (tartışmalı)",
+      "ic_not": "bas_mo=2450 benim yorumumdur (yuzyil sinirina yuvarlama): kaynak sadece 'late twenty-fifth century BCE' (yaklasik MO 2450-2401) der ve bu bir yas sinir ifadesidir; sayi yalnizca ucu isaret eder. Madjidzadeh'in 'urban centre from end of 5th millennium' iddiasi (popüler basin: National Geographic, kavehfarrokh) AKADEMIK YAYINDA dogrulanamadi, kullanilmadi; ancak varligi belirtilir. Konar Sandal North icin ayri yayin (Sanad IAU 'A Reassessment of the Chronology of Konar Sandal North' - KSN ilk 2. binyil/MO 1. binyil ilk yarisi iddiasi) erisilemedi. Bitis tarihi bulunamadi. Ur III (MO 21. yuzyil) Marhasi'yi 'powerful political entity' olarak yazar (ayni kaynak).",
+      "okunan_sayfa": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10834486/"
+      ]
+    },
+    {
+      "id": "med-devleti",
+      "ad": "Med Devleti (Hegmatana merkezli)",
+      "ad_yerel": "Mādā / Media (Hamgmatāna = Ekbatana)",
+      "tur": "bolge",
+      "lat": 34.8065,
+      "lon": 48.5162,
+      "konum_tanik": [
+        {
+          "kaynak": "Wikidata Q696193 (Ecbatana, capital of the Median empire)",
+          "lat": 34.8065,
+          "lon": 48.5162
+        },
+        {
+          "kaynak": "OSM Nominatim 'شهر همدان'",
+          "lat": 34.7993,
+          "lon": 48.5152
+        },
+        {
+          "kaynak": "Iranica 'Ecbatana' (Brown 1997): Tell Hagmatana, 30 m yüksek höyük, Hamadan KD kesimi (sözel)",
+          "lat": null,
+          "lon": null
+        }
+      ],
+      "konum_not": "Tanıklar arası ~1 km. Antik merkez Hamadan şehri altındadır; nokta kentin merkezi (Tell Hagmatana'nın tam koordinatı alınmadı).",
+      "kur": {
+        "bas_mo": 700,
+        "son_mo": null,
+        "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Medvedskaya, I.N. & Dandamayev, M.A., 'Media', Encyclopaedia Iranica (yay. 2006; rev. 2012) - Herodotos (1.96-107) geleneksel kronolojisi",
+        "url": "https://www.iranicaonline.org/articles/media",
+        "alinti": "Deioces 53 years ca. 700-647 Phraortes 22 years ca. 647-625 Cyaxares 40 years ca. 625-585 Astyages 35 years ca. 585-550",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": {
+        "bas_mo": 550,
+        "son_mo": null,
+        "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Medvedskaya & Dandamayev (Iranica 'Media'); Schmitt, R. 1983, 'Achaemenid Dynasty i', Iranica I/4:414-426",
+        "url": "https://www.iranicaonline.org/articles/achaemenid-dynasty-i",
+        "alinti": "In 550 B.C. Cyrus (called “the Great” by the Greeks) overthrew the Median empire under Astyages",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "k": "kurulus",
+      "d": "Medlerin siyasi birliği/devleti: Herodotos geleneği Deioces (c. 700-647) ile başlatır; Asur kaynaklarına dayalı alternatif Grantovskiy kronolojisi Med isyanını c. 672'ye, Deioces'i c. 672/671'e koyar. Son Med kralı Astyages MÖ 550'de Kyros tarafından devrilir (Med-Pers savaşı 553-550).",
+      "sahip_kultur": "Med (Mādā) - İran dili konuşan topluluk",
+      "ic_not": "CELISKI (kurulus) - ikisi de iki kaynaktan: (1) Herodotos gelenegi (Iranica'da hesaplanmis): Deioces c. 700-647, Phraortes 647-625, Kyaksares 625-585, Astyages 585-550. (2) Grantovskiy (1998, s. 139, 174-76; Rusca; Iranica aracilik ediyor): Deioces r. ca. 672/671-640'lar, Phraortes ca. 640-620, Kyaksares 620-584, Astyages 584-550; Asur-Med isyani c. 672. Ayrica 728'e cikaran 'Diakonoff' hesabi (Kastariti=Phraortes) Labat'in Herodotos el yazmasi kanitiyla reddedilmistir (Iranica). Asur kaynaklarinda Daiaukku 715'te Sargon II tarafindan surgun edilir (Diakonoff 1985 atfiyla). Med 'imparatorlugu' tartismasi: Herzfeld guclu imparatorluk der; Sancisi-Weerdenburg 'no real evidence about the very existence of the Median empire' ve 'unstable state formation' der (Iranica atfiyla). Medlerin kendi yazili kaynagi yok (Matthews vd. 2025). Diakonoff'un 'Istoriya Midii' (1956) kitabi dogrudan acilamadi, sadece Iranica uzerinden. Ekbatana (Hamgmatana) onceki dalgada var (tekrarlanmadi).",
+      "kaynak_2": "Grantovskii, E.A. 1998 (Iranica 'Media' uzerinden aktarim) / Matthews vd. 2025: 'Rising Urartian and Neo-Elamite, Neo-Assyrian, Achaemenid and Median empires exerting influence'",
+      "okunan_sayfa": [
+        "https://www.iranicaonline.org/articles/media",
+        "https://www.iranicaonline.org/articles/ecbatana",
+        "https://www.iranicaonline.org/articles/achaemenid-dynasty-i"
+      ]
+    },
+    {
+      "id": "ahamenis-devleti",
+      "ad": "Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı",
+      "ad_yerel": "Hakhamanishiya (Achaemenid)",
+      "tur": "bolge",
+      "lat": null,
+      "lon": null,
+      "konum_tanik": [],
+      "konum_not": "Devlet/hanedan kaydı; merkezler Pasargad, Persepolis, Susa.",
+      "kur": {
+        "bas_mo": 559,
+        "son_mo": null,
+        "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Stronach, D. & Gopnik, H., 'Pasargadae', Encyclopaedia Iranica (2009; rev. 2017)",
+        "url": "https://www.iranicaonline.org/articles/pasargadae",
+        "alinti": "the spacious capital and last resting place of Cyrus the Great (559-530 BCE)",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": {
+        "bas_mo": 330,
+        "son_mo": null,
+        "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Matthews vd. 2025, J. Anc. Near Eastern Hist. 12: 'the Achaemenid empire, c . 550-330 BC' ve Darius III 336-330",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645803/",
+        "alinti": "Darius III (336-330 BC)",
+        "kaynak_sinifi": "akademik-ikincil",
+        "kaynak_dili": "Ingilizce"
+      },
+      "k": "kurulus",
+      "d": "559: Kyros II hükümdarlık başlangıcı (Pasargad makalesinin verdiği saltanat sınırı); 550: Med kralı Astyages'in devrilmesi ve İran'ın birleşmesi (Schmitt); 330: Darius III'ün sonu.",
+      "sahip_kultur": "Ahameniş (Pers)",
+      "ic_not": "559 = Iranica Pasargadae makalesindeki Kyros saltanat tarihi 'Cyrus the Great (559-530 BCE)' (Stronach/Gopnik); 'Persler Kralı' olusun gunu ve Pers krallik kurulus tartismasi (Anshan-Parsa) bu makalede ayrintilanmaz. Schmitt (Iranica 'Achaemenid Dynasty i'): Kyros II Med'e bagli bir vasal devlet olarak Pers krallıgini birlestirdi (Nabonid kroniginde 'king of Anshan' ve 'king of Parsu'); '550 B.C. Cyrus overthrew the Median empire under Astyages'. 539 Babil zaten onceki dalgada. Briant 1996 (Fr.), Farsca kaynaklar ve Iranica 'Cyrus II' makalesi (slug bulunamadi) erisilemedi. Medvedskaya & Dandamayev: Med-Pers savasi 553-550 (Iranica 'Media'): 'this war lasted from 553 to 550 BCE'. Iki bagimsiz akademik kaynak 550 icin uyumlu (Schmitt + Medvedskaya/Dandamayev): cift teyit.",
+      "kaynak_2": "Schmitt, R. 1983, 'Achaemenid Dynasty i. The clan and dynasty', Encyclopaedia Iranica I/4:414-426 - https://www.iranicaonline.org/articles/achaemenid-dynasty-i ; alinti: 'In 550 B.C. Cyrus (called “the Great” by the Greeks) overthrew the Median empire under Astyages'",
+      "okunan_sayfa": [
+        "https://www.iranicaonline.org/articles/pasargadae",
+        "https://www.iranicaonline.org/articles/achaemenid-dynasty-i",
+        "https://www.iranicaonline.org/articles/media",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645803/"
+      ]
+    },
+    {
+      "id": "pasargad",
+      "ad": "Pasargad",
+      "ad_yerel": "Pasargadae (Dasht-e Morghab)",
+      "tur": "sehir",
+      "lat": 30.2,
+      "lon": 53.1794,
+      "konum_tanik": [
+        {
+          "kaynak": "Wikidata Q230025",
+          "lat": 30.2,
+          "lon": 53.1794
+        },
+        {
+          "kaynak": "OSM Nominatim 'محوطه جهانی پاسارگاد'",
+          "lat": 30.2017,
+          "lon": 53.1787
+        }
+      ],
+      "konum_not": "Fark ~0.2 km. İki değer yakın ama bağımsızlık zayıf; UNESCO listelemesi (tanık) doğrudan okunmadı.",
+      "kur": {
+        "bas_mo": 559,
+        "son_mo": 530,
+        "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Stronach & Gopnik 2009, Iranica 'Pasargadae'",
+        "url": "https://www.iranicaonline.org/articles/pasargadae",
+        "alinti": "the spacious capital and last resting place of Cyrus the Great (559-530 BCE)",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": null,
+      "k": "kurulus",
+      "d": "Kyros II'nin başkenti ve mezarı; Saray P Kyros zamanında başlandı, ani ölümü sebebiyle durdu, Darius tarafından tamamlandı.",
+      "sahip_kultur": "Ahameniş (Pers)",
+      "ic_not": "559-530 Kyros'un SALTANAT araligidir, sehrin kurulus tarihi DEGILDIR; kuruluş yılı bu oturumda kaynakta okunmadı. Iranica: 'Palace P was begun during the reign of Cyrus, its construction was halted, probably at the time of Cyrus' sudden death' ve Darius tamamladi. Tall-i Nokhodi'de Kalkolitik yerlesim var (Goff 1964) - bu eski katmanlar ayri.",
+      "okunan_sayfa": [
+        "https://www.iranicaonline.org/articles/pasargadae"
+      ]
+    },
+    {
+      "id": "persepolis",
+      "ad": "Persepolis (Takht-ı Cemşid)",
+      "ad_yerel": "Parsa / Takht-e Jamshid",
+      "tur": "sehir",
+      "lat": 29.935,
+      "lon": 52.8904,
+      "konum_tanik": [
+        {
+          "kaynak": "Wikidata Q129072",
+          "lat": 29.935,
+          "lon": 52.89
+        },
+        {
+          "kaynak": "OSM Nominatim 'تخت جمشید' archaeological_site",
+          "lat": 29.9352,
+          "lon": 52.8904
+        }
+      ],
+      "konum_not": "Fark <0.1 km; bağımsızlık zayıf.",
+      "kur": {
+        "bas_mo": 509,
+        "son_mo": null,
+        "guven": "belirsiz",
+        "aralik_turu": "yazili",
+        "kaynak": "Stolper, M.W., Henkelman, W.F.M., Dusinberre, E.R.M., Jones, C.E., Garrison, M.B., Azzoni, A. 2017, 'Persepolis Administrative Archives i. Persepolis Fortification Archive', Encyclopaedia Iranica",
+        "url": "https://www.iranicaonline.org/?p=65087",
+        "alinti": "The earliest known dated Elamite Fortification text was written in month I, regnal year 13 of Darius I (April, 509 BC)",
+        "kaynak_sinifi": "ansiklopedi",
+        "kaynak_dili": "Ingilizce"
+      },
+      "bit": null,
+      "k": "ilk_anilis",
+      "d": "Darius I zamanında Persis'in idari/tören merkezi; Kale Arşivi tabletleri 509-494 MÖ arasını (Darius'un 13-28. yılları) kapsar. Büyük idari yazı birikimi Persepolis'te yoğunlaşır.",
+      "sahip_kultur": "Ahameniş (Pers)",
+      "ic_not": "509 = en eski TARIHLI belge, KURULUŞ tarihi degil. Terasin/sehrin kurulus yili (literaturde c. 518-515 MO anilir) bu oturumda birincil/akademik kaynaktan OKUNAMADI (Iranica 'Persepolis' sayfasi bos gelisti; ISAC sayfasi 404), bu nedenle yazilmadi: bulunamadi. Dandamayev (Iranica 'Persepolis Elamite Tablets', 2002): '509 ila 494 B.C.E.' (cift teyit: aynı gün-ay belirtimi Stolper vd.'nda). Iskender'in yangini (MO 330): Matthews vd. 2025 'destruction by fire of Persepolis during Alexander's rampage' - yil bu cumlede yazilmamis, sayi yazilmadi.",
+      "kaynak_2": "Dandamayev, M.A. 2002, 'Persepolis Elamite Tablets', Encyclopaedia Iranica - https://www.iranicaonline.org/?p=1271 ; alinti: 'from 509 to 494 B.C.E.'",
+      "okunan_sayfa": [
+        "https://www.iranicaonline.org/?p=65087",
+        "https://www.iranicaonline.org/?p=1271",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645803/"
+      ]
+    }
+  ],
+  "bulunamadi": [
+    "Susa I-IV tabaka sınırları (MÖ yıl): Iranica 'Susa i. Prehistoric periods' slug'ı 404/403 verdi; Susa II (Elam dönemi) sayfası okundu ama tabaka sayıları çıkarılmadı. Denenen: https://www.iranicaonline.org/articles/susa-i-prehistoric-periods, /susa-i, /susa-ii (okundu, tarih sayıları yok), Matthews vd. 2025 (yalnız Gec Susa II c. 3500-3100). Fransızca DAFI/Mémoires de la Délégation en Perse metni açılamadı.",
+    "Sialk I-IV Ghirshman Fouilles de Sialk (Fr.) ve Pollard vd. 2013 birincil makalesi: açılamadı (poster ve XRONOS ikincil). Denenen: Iranica 'sialk' ve varyantları 404, durham-repository.worktribe.com/OutputFile/1360839 (açılmadı), xronos.ch/c14s/153137.",
+    "Gonur Depe / BMAC (Sarianidi Rusça, Hiebert İngilizce): Kalibre 14C ve birincil yayın açılamadı. Denenen: Leiden Arciero 2024 tezi sayfası (Gonur tarihi yok), Lyonnet & Dubova 2021 (Routledge, kitap sayfası; içerik yok), cupauam revistas.uam.es PDF (açılmadı). İkincil arama özetlerinde 2400-1600 / 2250-1700 (Lyonnet-Dubova) / 2400-1900 (İtalyan ekibi) aralıkları geçti ama bunlar Vikipedi kaynaklı özet olduğundan YAZILMADI. Koordinat tanıkları hazır: Wikidata Q3110595 (38.2133, 62.0375), OSM Gonur Tepe (38.2120, 62.0369).",
+    "Namazga-Depe / Altyn-Depe / Anau (Kopet Dağ) Bronz Çağı kalibre kronolojisi: Rusça Popov, Kircho 2005 (www.old.archeo.ru Kircho_2005.pdf >10 MB, WebFetch reddetti), Doluchanov-Shchetenko-Tosi 1985 (kayıt var, içerik yok). Yalnız Anau IA ve Meana Ufku (Heit, 2019) bulundu.",
+    "Tepe Yahya Period VII başlangıcı için bağımsız kalibre 14C tablosu (Beale 1986 'The Early Periods'): erişilemedi; Iranica tablosu 'tentative'.",
+    "Konar Sandal South kesin koordinatı ve bitiş tarihi; Konar Sandal North yeniden-tarihleme makalesi (sanad.iau.ir/en/Article/935594 yönlendirme sayfası verdi, içerik yok); Madjidzadeh/Pittman birincil yayınları.",
+    "Şulaveri-Şomu kültürünün BİTİŞ tarihi ve Gürcüce/Rusça birincil yayınlar (Kiguradze, Menabde): erişilemedi. Hacı Elamxanlı için yayın yılı/cilt/sayfa (Antiquity Project Gallery sayfasında yok) ve güven düzeyi.",
+    "Ganj Dareh için Çoğa Mami (Irak, Samarra kültürü) ayrı bir yer: bu oturumda Çoğa Golan okundu; Çoğa Mami Mezopotamya bölgesine ait olabilir, aranmadı.",
+    "Persepolis terasının kuruluş yılı (c. 518-515 MÖ): Iranica 'Persepolis' madde sayfası içeriği boş geldi; ISAC (uchicago) node 2892 404. Tek bilinen: en eski tarihli idari belge Nisan 509. Kuruluş için yazı yok.",
+    "Pasargad kuruluş yılı (inşa başlangıcı): Iranica makalesi Kyros saltanatı (559-530) verir, tek bir kuruluş tarihi vermez.",
+    "Kyros II'nin 'Pers kralı' oluş yılının (559) bağımsız ikinci kaynağı: Briant 1996 (Fr.), Iranica 'Cyrus ii' slug'ı bulunamadı (cyrus-ii-the-great 404). 559 yalnızca Pasargad makalesindeki saltanat aralığından geliyor.",
+    "Jeitun koordinat çelişkisi (Wikidata 38.1878,58.3491 vs OSM 38.1035,58.2065; ~15 km) kazı raporundan çözülmeli (Harris vd. 2010 monografisi açılamadı).",
+    "Encyclopaedia Iranica 'Elam' dışındaki Medya yazılı kaynak tartışması: Dyakonov 'История Мидии' (1956) ve Almanca literatür (Helm, Rollinger) doğrudan açılamadı; yalnız Iranica üzerinden aktarım var.",
+    "Tepe Hissar IA-IB mutlak 14C tarihleri: Dyson yalnız 'sometime after 5000 BCE' ve 'about 4000 BCE and earlier' tahmini veriyor; kalibre sayı yok."
+  ]
+}

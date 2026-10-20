@@ -84,6 +84,9 @@ def dogrula(r):
     if len(tn) < 2:
         es.append("koordinat için <2 tanık")
     else:
+        tn = [x for x in tn if x.get("lat") is not None and x.get("lon") is not None]
+        if len(tn) < 2:
+            return es + ["koordinat tanıklarının <2'sinde sayı var"]
         mx = max(km((x["lat"], x["lon"]), (y["lat"], y["lon"])) for x in tn for y in tn)
         if mx > 3 and not (r.get("konum_not") or "").strip():
             es.append("tanıklar %.1f km ayrışıyor, konum_not yok" % mx)
@@ -140,7 +143,7 @@ def yer_uret(r, bolge, pencere_son_mo):
         ts.append({"f": son, "t": "1900-01-01", "d": "__BILINMIYOR__", "kesinlik": "belirsiz", "kaynak": "bulunamadı",
                    "ic_not": "Bu bölge oturumunun penceresi dışı: yerin sonraki durumu ARAŞTIRILMADI — uydurma süreklilik/kesinti yazılmaz."})
     tn = r["konum_tanik"]
-    ktxt = ("KOORDİNAT TEYİTLİ 20 Ekim 2026: " + " ↔ ".join("%s (%.4f,%.4f)" % (x["kaynak"], x["lat"], x["lon"]) for x in tn)
+    ktxt = ("KOORDİNAT TEYİTLİ 20 Ekim 2026: " + " ↔ ".join("%s (%.4f,%.4f)" % (x["kaynak"], x["lat"], x["lon"]) for x in tn if x.get("lat") is not None)
             + (" · " + r["konum_not"] if r.get("konum_not") else ""))
     y = {"id": r["id"], "ad": r["ad"], "atlas_ad": None, "lat": r["lat"], "lon": r["lon"], "kat1900": 3, "adlar": [r["ad"]] + ([r["ad_yerel"]] if r.get("ad_yerel") and r["ad_yerel"] != r["ad"] else []),
          "konum_teyit": ktxt,
@@ -166,7 +169,14 @@ def main(argv):
     olaylar, yerler, red = [], [], []
     haric = set(argv[argv.index("--haric") + 1].split(",")) if "--haric" in argv else set()
     for r in kayit["kayitlar"]:
-        if r.get("tur") in ("kultur", "bolge") and len(r.get("konum_tanik") or []) < 2:
+        for ad_ in ("kur", "bit"):                 # alıntısız (okunduğu kanıtlanmamış) blok ATILIR; kayıt başka bloktan yaşar
+            b_ = r.get(ad_)
+            if b_ and b_.get("aralik_turu") != "yazili" and not (b_.get("alinti") or "").strip():
+                red.append((r.get("id"), ["%s bloğu alıntısız → atıldı" % ad_]))
+                r[ad_] = None
+        if not r.get("kur") and not r.get("bit"):
+            continue
+        if len([x for x in (r.get("konum_tanik") or []) if x.get("lat") is not None]) < 2:
             r["lat"] = r["lon"] = None            # koordinat tek tanıklı: konum YAZILMAZ, olay kalır
         if r.get("id") in haric:
             red.append((r.get("id"), ["elle hariç tutuldu (kaynak yetersiz/dolaylı)"]))

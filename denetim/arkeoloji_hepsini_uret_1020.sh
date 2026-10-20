@@ -11,4 +11,9 @@ py $U denetim/arastirma/amerika.json amerika
 py $U denetim/arastirma/afrika-okyanusya-iran.json afrika-iran --haric dhar-tichitt,urartu-tushpa
 [ -f denetim/arastirma/mezopotamya.json ] && py $U denetim/arastirma/mezopotamya.json mezopotamya --haric eridu,babil-fethi-539
 [ -f denetim/arastirma/misir-nil-sahra.json ] && py $U denetim/arastirma/misir-nil-sahra.json misir-nil-sahra --haric merimde-beni-salama,nabta-playa
+# ── 2. dalga (çok dilli; kürasyon: denetim/arkeoloji_dalga2_kur_1020.py → d2-*.json) ──
+py denetim/arkeoloji_dalga2_kur_1020.py
+for b in anadolu-ege italya-avrupa hint-guneydogu cin-dogu-asya afrika-amerika iran-orta-asya; do
+  py $U denetim/arastirma/d2-$b.json d2-$b
+done
 exit 0
