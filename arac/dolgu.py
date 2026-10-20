@@ -57,13 +57,29 @@ BASEMAPS = os.path.join(KOK, "veri-kaynak")
 # AYARLAR — hepsi ortam değişkeniyle çevrilebilir (koşu ortasında kod
 # düzenlemeden kapatabilmek için; `B23_ACIK`ın gerekçesinin aynısı).
 # ═══════════════════════════════════════════════════════════════════════════
-# Kapanış yarıçapı. 🔴 SEÇİMİN GEREKÇESİ ÖLÇÜLMÜŞ BİR SAYIYA BAĞLI:
-# motorun B2'si (`uret_petek.py` B2_ENKLAV_KM) 250 km'ye kadar enklav
-# köprüler ve o tavanın gerekçesi "ölçülen en uzak karasal enklav 223 km"dir.
-# Kapanış 2r'lik boşluğu kapattığı için r = 125 km, B2'nin menziliyle BİREBİR
-# aynı kapıyı açar. Varsayılanı 120 km'de tutuyorum — B2'nin ZATEN çözdüğü
-# vakaları yeniden denemesin, ondan ARTAKALANI doldursun diye.
-YARICAP_KM = float(os.environ.get("MOTOR_DOLGU_YARICAP_KM", "120"))
+# UFUK = Emre'nin 5/7/10 günlük yürüyüş ayarı (18 Ekim 2026 kararı §1 b/d/e:
+# "en çok 400 km ya da ayardaki 5/7/10 günlük yürüyüşün karşılığı").
+# 🔴 KARŞILIK ÖLÇÜLÜ, uydurma değil: motorun yürüyüş hızı 5,04 km/sa x 8 sa =
+#    40,32 km/gün (`B-GORUNUM-0072-UFUK.md` §1: 80 sa = 403,2 km, 56 sa =
+#    282,2 km, 40 sa = 201,6 km). 10 gün => 403 km ~ Emre'nin "400 km".
+#    VARSAYILAN 10 = üst sınır; 5 ve 7 aynı kurallarla daha dar dolgu verir.
+UFUK_GUN = float(os.environ.get("MOTOR_DOLGU_UFUK_GUN", "10"))
+KM_GUN = 40.32
+UFUK_KM = UFUK_GUN * KM_GUN
+# Kapanış yarıçapı. Kapanış 2r'den dar boşluğu kapattığı için r = UFUK_KM/2:
+# "ayardaki günün yürüyüşünden dar boşluk kapanır, ondan geniş (401 km)
+# kapanmaz" (Emre b/d/e). Açık yazılırsa (MOTOR_DOLGU_YARICAP_KM) ayarı ezer —
+# eski 120 km davranışına dönmek için.
+YARICAP_KM = (float(os.environ.get("MOTOR_DOLGU_YARICAP_KM", "0") or "0")
+              or UFUK_KM / 2.0)
+# Deniz kuralı (e): yalnız BÜYÜK su kütleleri "deniz" sayılır; kara maskesi
+# küçük gölleri de delik olarak taşır ve onlar sayılsaydı Afrika'nın ortasındaki
+# bir göl yüzünden 400 km kara devlete yazılırdı.
+DENIZ_ESIK_KM2 = float(os.environ.get("MOTOR_DOLGU_DENIZ_ESIK_KM2", "100000"))
+# Deniz kuralını kapatma düğmesi (A/B hesabı için); varsayılan AÇIK.
+DENIZ_KURALI = os.environ.get("MOTOR_DOLGU_DENIZ", "1") != "0"
+# Koridor kuralı (c): derinlik <= ağız genişliği; varsayılan AÇIK.
+KORIDOR_KURALI = os.environ.get("MOTOR_DOLGU_KORIDOR", "1") != "0"
 # Bundan küçük parça yazılmaz — ekranda görünmez, dosyayı şişirir.
 ESIK_KM2 = float(os.environ.get("MOTOR_DOLGU_ESIK_KM2", "200"))
 # Kapanış hesabı ÖNCESİ gövdeyi kabalaştırma toleransı (derece). ~0,05° ≈ 5 km:
@@ -152,11 +168,13 @@ _SINA_KAYDIR = os.environ.get("MOTOR_DOLGU_SINA_KAYDIR", "")
 #    eklenince indeksler kayar) `difference` zincirinin kayan nokta sonucu
 #    değişebilirdi ⇒ önbellekten okunan ile yeniden hesaplanan AYRIŞIRDI.
 #    Sıralama bunu yapısal olarak kapatıyor.
-KURAL_SURUM = "dolgu-kural-1"
+KURAL_SURUM = "dolgu-kural-2"
 _ONB_TUZ = json.dumps({
     "surum": KURAL_SURUM,
     "modul": _hlo.sha256(io.open(os.path.abspath(__file__), "rb").read()).hexdigest(),
     "kural": {"yaricap_km": YARICAP_KM, "esik_km2": ESIK_KM2,
+              "ufuk_gun": UFUK_GUN, "deniz": DENIZ_KURALI,
+              "deniz_esik_km2": DENIZ_ESIK_KM2, "koridor": KORIDOR_KURALI,
               "kaba_tol": KABA_TOL, "sade_tol": SADE_TOL, "temas": TEMAS,
               "paylasim_adim_km": PAYLASIM_ADIM_KM,
               "paylasim_nokta_tavan": PAYLASIM_NOKTA_TAVAN},
@@ -265,6 +283,41 @@ class KaraIndeks(object):
             return Polygon()
 
 
+def _deniz_kapanisi(g, kaba, kara_hazir, r):
+    """(e) Gövdenin büyük su kütleleriyle arasındaki <=2r'lik kara şeridi.
+
+    Kapanış (gövde ∪ deniz) üzerinde alınır; denizin kendisi ve gövde çıkarılır,
+    geriye yalnız aradaki şerit kalır. `r` DERECE. Yerel deniz = kutu - yerel
+    kara; kutu 2,05r pay taşır ki kutu kenarı kapanışı etkilemesin."""
+    kutu = kaba.envelope.buffer(2.05 * r)
+    try:
+        ix = kara_hazir.agac.query(kutu)
+    except Exception:
+        return Polygon()
+    yerel = (unary_union([kara_hazir.parcalar[int(q)] for q in ix])
+             if len(ix) else Polygon())
+    deniz = _temiz(kutu.difference(yerel))
+    buyuk = [p for p in _parcalar(deniz) if _km2(p) >= DENIZ_ESIK_KM2]
+    if not buyuk:
+        return Polygon()
+    deniz = unary_union(buyuk)
+    if KABA_TOL > 0:
+        deniz = _temiz(deniz.simplify(KABA_TOL, preserve_topology=True))
+    birlesik = _temiz(unary_union([kaba, deniz]))
+    kap = _temiz(birlesik.buffer(r, quad_segs=2, join_style=1).buffer(
+        -r, quad_segs=2, join_style=1))
+    serit = _temiz(kap.difference(birlesik))
+    # Kapanış deniz-deniz boğazlarını da (yarımada, Apenin…) doldurur; bunlar
+    # gövdeyle ilgisiz. Yalnız GÖVDEYE DEĞEN bileşenler ve gövdeden en çok 2r
+    # uzaktaki kesim kalır (ölçüldü: bu süzgeç olmadan 1000-01-01'de deniz
+    # kuralı 4,0 milyon km2 yazdı, gövde alanı 0,57 milyon km2 idi).
+    degen = g.buffer(TEMAS)
+    tut = [c for c in _parcalar(serit) if c.intersects(degen)]
+    if not tut:
+        return Polygon()
+    return _temiz(unary_union(tut).intersection(g.buffer(2.0 * r)))
+
+
 def _talep(g, kara_hazir, kara, r_km):
     """Bir gövdenin morfolojik kapanışından A'nın kendisi çıkarılmış hâli.
 
@@ -300,6 +353,16 @@ def _talep(g, kara_hazir, kara, r_km):
     except Exception:
         return Polygon()
     kap = _temiz(kap)
+    if kap.is_empty:
+        kap = Polygon()
+    if DENIZ_KURALI and kara_hazir is not None:
+        # (e) gövde ile DENİZ arasındaki boşluk da kapanış sayılır: kapanış
+        # (gövde ∪ yakın deniz) üzerinde alınır (bkz. _deniz_kapanisi).
+        try:
+            kap = _temiz(unary_union([kap, _deniz_kapanisi(
+                g, kaba, kara_hazir, r)]))
+        except Exception:
+            pass
     if kap.is_empty:
         return Polygon()
     t = _temiz(kap.difference(g))
@@ -394,6 +457,24 @@ def _paylas(alan, adaylar):
 # ═══════════════════════════════════════════════════════════════════════════
 # ③ CİNS — B-2: her parça ne tür bir dolgu?
 # ═══════════════════════════════════════════════════════════════════════════
+def _koridor_kirp(parca, a_tampon):
+    """(c) Koridorun ağıza yakın `ağız uzunluğu` kadar kesimi boş bırakılır.
+
+    Ağız = parça sınırının hiçbir A toprağına değmeyen kısmı (`_cins`teki ile
+    aynı tanım). Ağızdan <= ağız uzunluğu uzaktaki kesim çıkarılır; derin kesim
+    kalır. Ağız ölçülemezse parça AYNEN döner (kırpma uydurulmaz).
+    ⚠️ Yalnız kapanışın zaten ürettiği (ağzı < 2r) girintilere uygulanır;
+    ağzı 2r'den geniş derin girintiler bu kodda HENÜZ YOK (rapora yazıldı)."""
+    try:
+        agiz = parca.boundary.difference(a_tampon)
+        w = getattr(agiz, "length", 0.0)
+        if w <= 0:
+            return parca
+        return _temiz(parca.difference(agiz.buffer(w)))
+    except Exception:
+        return parca
+
+
 def _cins(parca, govde, a_tampon):
     """`bosluk` · `koridor` · `enklav-bag`. (`paylasim` çağıran tarafta.)
 
@@ -624,6 +705,12 @@ def _devlet_hesap(i, kim, g, ham, govdeler, kb, kt, g_liste, rapor):
             if p2.is_empty:
                 continue
             c = zorla or _cins(p, g, yakin(p))
+            if c == "koridor" and KORIDOR_KURALI:
+                # (c) girinti en çok ağız genişliği kadar derin KALABİLİR:
+                # ağıza o kadar yakın kesim boş bırakılır, derindeki doldurulur.
+                p2 = _koridor_kirp(p2, yakin(p))
+                if p2.is_empty or _km2(p2) < ESIK_KM2:
+                    continue
             rapor["yazilan_km2"] += _km2(p2)
             ps.append({"kim": kim, "cins": c, "g": p2})
     rapor["sn_cins"] += time.time() - _sn
@@ -970,7 +1057,8 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0):
         if ilerleme is not None:
             ilerleme(n, len(tarihler), a, len(parcalar))
     boy = js_yaz(cikti, kayitlar, havuz,
-                 izi={"yaricap_km": YARICAP_KM, "esik_km2": ESIK_KM2,
+                 izi={"ufuk_gun": UFUK_GUN, "yaricap_km": YARICAP_KM,
+                      "esik_km2": ESIK_KM2,
                       "kesit": len(tarihler)})
     return len(kayitlar), boy, cins_sayac, time.time() - t0
 
@@ -1176,7 +1264,8 @@ def _ana():
               flush=True)
 
     boy = js_yaz(cikti, kayitlar, havuz,
-                 izi={"yaricap_km": YARICAP_KM, "esik_km2": ESIK_KM2,
+                 izi={"ufuk_gun": UFUK_GUN, "yaricap_km": YARICAP_KM,
+                      "esik_km2": ESIK_KM2,
                       "kesit": len(tarihler)})
     print("\n--- B-4 MALİYET ÖLÇÜMÜ ---")
     print("  1) kesit başına ek süre : %.2f sn (toplam %.1f sn / %d kesit)"
