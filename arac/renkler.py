@@ -4349,3 +4349,57 @@ def _aciklik_tavani_dogrula():
 
 
 _aciklik_tavani_dogrula()
+
+
+# ═══════════════════════════════════════════════════════════════════════
+# 🏺 MÖ KÜLTÜR BOYALARI — DESENLİ / ŞEFFAF TON  (MO-MOTOR-1020 · şartname §5.4)
+# ═══════════════════════════════════════════════════════════════════════
+# Natufiyen/PPNA/Ubeyd gibi yapılar POLİTY DEĞİL (künye `kultur:true`): düz
+# devlet rengiyle boyanırsa göz onu "devlet sınırı" okur. Bu yüzden kültür
+# kimliği ÜÇ şeyle devletten ayrılır: (1) düşük opaklık (2) taramalı desen
+# (3) lejantta ayrı satır. BOYALAR'daki satır YİNE (ad, "#taban") — ton
+# SOZLUKTEKİ HER TÜKETİCİ için geçerli kalır (renk_olc, paketle, durum_tablosu
+# değişmez); desen yalnız ÜSTÜNE biner ve burada ayrı sözlükte durur.
+#
+#   KULTUR_DESEN[kimlik] = (desen, opaklik)
+#     desen   : "serit" (45° çizgi) · "capraz" (kafes) · "nokta" · "dikey"
+#     opaklik : 0.20–0.65 — devlet bindirmesinin (OPAKLIK["yabanci"]) ALTINDA
+#               kalmalı; taban tonun yarı saydam hâli zeminle karışıp
+#               "kültür sınırı" değil "belirsiz lekeye" dönüşmesin diye üst sınır
+#
+# 🔴 SİTE KARŞILIĞI (arayüz oturumunun işi, burada YAZILMADI): `desen` anahtarı
+#    app.js `guvenDesenKur()` deseninde runtime raster olur (`fill-pattern`).
+#    Veri tarafı sözleşmesi: künye `kultur:true` ⇔ kimlik KULTUR_DESEN'de.
+#
+# ⚠️ BU BLOK renkler.py'dedir ⇒ MOTOR TUZUNUN parçası: eklenmesi/değişmesi TAM
+#    YENİDEN İNŞA (7-8 saat) gerektirir. Kimlik EKLEMEK de aynıdır; bu yüzden
+#    sözlük şimdilik BOŞ gelir ve kültür kimlikleri MÖ veri oturumlarından
+#    BOYALAR + KULTUR_DESEN'e BİRLİKTE, tek tuz değişikliğiyle girer.
+DESEN_TURLERI = ("serit", "capraz", "nokta", "dikey")
+KULTUR_OPAKLIK_ARALIK = (0.20, 0.65)
+KULTUR_DESEN = {}
+
+
+def kultur_desen_dogrula(desen=None, boyalar=None):
+    """KULTUR_DESEN tutarlılığı → hata listesi (boş = temiz). Parametresiz çağrı
+    modül sözlüklerini sınar; sınav iki yönde parametreyle çağırır."""
+    desen = KULTUR_DESEN if desen is None else desen
+    boyalar = BOYALAR if boyalar is None else boyalar
+    hata = []
+    for kid, v in desen.items():
+        if kid not in boyalar:
+            hata.append("%s: KULTUR_DESEN'de ama BOYALAR'da YOK (taban ton yok)" % kid)
+        if not (isinstance(v, (tuple, list)) and len(v) == 2):
+            hata.append("%s: (desen, opaklik) çifti değil: %r" % (kid, v))
+            continue
+        d, o = v
+        if d not in DESEN_TURLERI:
+            hata.append("%s: bilinmeyen desen %r (geçerli: %s)" % (kid, d, "/".join(DESEN_TURLERI)))
+        if not (isinstance(o, (int, float)) and KULTUR_OPAKLIK_ARALIK[0] <= o <= KULTUR_OPAKLIK_ARALIK[1]):
+            hata.append("%s: opaklık %r aralık dışı %s" % (kid, o, KULTUR_OPAKLIK_ARALIK))
+    return hata
+
+
+_kd_hata = kultur_desen_dogrula()
+if _kd_hata:
+    raise SystemExit("KULTUR_DESEN tutarsız:\n  " + "\n  ".join(_kd_hata))

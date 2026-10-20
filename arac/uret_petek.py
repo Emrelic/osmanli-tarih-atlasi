@@ -1241,6 +1241,41 @@ YURUYUS_SADE = 0.05        # derece — ızgara hücrelerinin örtü sadeleştir
 # kenar sayısı iki katı. Bu bayrak YALNIZ Dijkstra'yı değiştirir; MOTOR_YURUYUS
 # kapalıysa da açılabilir (o zaman yalnız deniz aşırı devrin ızgarası değişir).
 YURUYUS_16 = os.environ.get("MOTOR_YURUYUS_16") == "1"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 🏺 MÖ KATMANI (MO-MOTOR-1020 · Emre 18-19 Ekim 2026) — ÜÇ AYAR, hepsi ortamdan
+# ═══════════════════════════════════════════════════════════════════════════
+# Sorun: MÖ 12000'de nokta sayısı onlarla ölçülür. Petek tüm kıtayı kaplarsa
+# "Neolitik kültür sınırı Karadeniz'e kadar" diye UYDURMA SINIR çizer; ve kur:'u
+# olmayan ~2900 nokta (şehirlerin çoğu) MÖ'de de sahnede sayılırsa gerçek MÖ
+# noktalarının peteğini sıkıştırır (hayalet komşu).
+#   ① MOTOR_MO_YURUYUS_GUN (varsayılan 10 gün = 80 saat; 1 gün = 8 saat, 5 gün =
+#      40 saat bugünkü üretim bütçesi): MÖ günlerinde petek yarıçap tavanı.
+#      Tavanı aşan toprak SAHİPSİZ kalır = "veri yok" (kültürsüz DEĞİL). Bütçe
+#      MOTOR_UFUK_BANT'ta bant olarak bulunmak ZORUNDA (80 → "40,56,80"); yoksa
+#      koşu SESSİZCE zayıf bir tavanla değil GÜRÜLTÜYLE durur.
+#   ② MOTOR_MO_SINIR (varsayılan "0001-01-01"): g bundan ÖNCE ise MÖ kuralları.
+#      MÖ sahnesi: kur:'u olan nokta kur ≤ g < bit; kur:'u OLMAYAN nokta ancak
+#      EN ERKEN yazılı sahiplik kaydı g'yi geçmişse (örtük kuruluş); ne kur: ne
+#      sahiplik varsa MÖ'de sahnede DEĞİL (varlığına tanıklık yok).
+#   ③ MOTOR_TARIH_BASI_MERKEZ: "mo" (varsayılan: yalnız MÖ günleri) · "1" (her
+#      tarih — Emre 19 Ekim kuralı, post-it #126; KOŞU EMRİ GEREKİR, çünkü
+#      Osmanlı çağı haritasını da değiştirir) · "0" kapalı. Kural: sahnedeki k≥4
+#      noktalar kendi bölgesini ALMAZ; peteği yürüyüşle en yakın sahne merkezine
+#      devredilir (bağlı olduğu m: merkezi ayrıca korunmaz — bkz. rapor).
+#      MOTOR_MERKEZ_K0 (varsayılan "1"): derecesiz (k:0) nokta merkez SAYILIR
+#      (k0 = "kademe yazılmamış"; MÖ Sümer 21 noktasının hepsi k:0 — dışlansa
+#      MÖ haritası boşalırdı).
+MO_SINIR = os.environ.get("MOTOR_MO_SINIR", "0001-01-01")
+MO_YURUYUS_GUN = float(os.environ.get("MOTOR_MO_YURUYUS_GUN", "10"))
+MO_SAAT = MO_YURUYUS_GUN * 8.0
+MERKEZ_KURALI = os.environ.get("MOTOR_TARIH_BASI_MERKEZ", "mo")
+MERKEZ_K0 = os.environ.get("MOTOR_MERKEZ_K0", "1") != "0"
+MO_PUAN = os.environ.get("MOTOR_MO_PUAN_KAPISI", "0") == "1"      # 1: yoğunluk kapısı MÖ'de de açık
+if MERKEZ_KURALI not in ("0", "1", "mo"):
+    raise SystemExit(f"MOTOR_TARIH_BASI_MERKEZ '0'|'1'|'mo' olmalı — gelen: {MERKEZ_KURALI!r}")
+print(f"  🏺 MÖ katmanı: sınır {MO_SINIR} · tavan {MO_YURUYUS_GUN:g} gün ({MO_SAAT:g} saat) · "
+      f"merkez kuralı '{MERKEZ_KURALI}' · k0 merkez {'SAYILIR' if MERKEZ_K0 else 'sayılmaz'}")
 if MOTOR_YURUYUS:
     print(f"  🚶 MOTOR_YURUYUS=1 — kara-kara sınırı yürüyüş süresiyle "
           f"(bütçe {YURUYUS_SAAT:g} saat). Bu koşunun damgasına yazılır.")
@@ -2343,7 +2378,7 @@ def _yr_etiket_poligon(L, i0, j0):
 _YR_SAHIP_SIRA = None
 
 
-def _yr_epok_onar(olu):
+def _yr_epok_onar(olu, butce=None):
     """🚶 EPOK DEVRİ (b) — `olu` tohumlarının ızgara hücreleri, CANLI komşu
     hücrelerden (kendi üretim bedelleriyle) tohumlanan kısıtlı Dijkstra ile
     yeniden dağıtılır. Canlı bir hücrenin mesafesi ölü tohumun silinmesinden
@@ -2399,11 +2434,14 @@ def _yr_epok_onar(olu):
     #    için fazlalık SONRADAN kesilir; yani kusur çıktıya değil YALNIZ ara
     #    hesabın menziline bakar. Yine de tam doğrusu tavanın da hücre başına
     #    olmasıdır — ölçülmedi, ayrı kalem olarak bildirildi.
+    # 🏺 MO-MOTOR-1020: `butce` verilirse (MÖ günleri) tavan o; None ⇒ üretim bütçesi
+    #    (CE davranışı BİREBİR). Halka tohumu da aynı tavanla süzülür.
+    _tavan = _YR_BUTCE if butce is None else butce
     for k in ((_hr + _r0) * _nxx + (_hc + _c0)).tolist():
         d = _kvuzak[k]
-        if d <= _YR_BUTCE:
+        if d <= _tavan:
             kaynak.append((d, k, int(_YR_SAHIP.flat[k])))
-    en = _yr_yerel_dijkstra(kaynak, Dset | {k for _, k, _ in kaynak}, _YR_BUTCE)
+    en = _yr_yerel_dijkstra(kaynak, Dset | {k for _, k, _ in kaynak}, _tavan)
     yeni = _np.array([en[h][1] if h in en else -2 for h in D.tolist()], dtype=_np.int32)
     return D, yeni
 
@@ -3000,6 +3038,7 @@ def gsirala(it):
 
 KESIT_SON = _GUNMOD.dizgi(_GUNMOD.gun(girdi.UFUK[1]) + 3)
 _EPOK_N, _KESIT_SON_N = gn(EPOK), gn(KESIT_SON)
+_MO_SINIR_N = gn(MO_SINIR)          # 🏺 MO-MOTOR-1020: bundan ÖNCEKİ günler MÖ kurallarına tabi
 
 # Örtü sadeleştirme toleransı (derece). coverage_simplify ile örtünün TAMAMINA
 # bir kez uygulanır; ortak kenarların iki yanı birebir aynı kalır. Gövde başına
@@ -5269,6 +5308,74 @@ def _kusatilmis(g):
 _DEVIR_EZBER = _tavanli(EZBER_TAVAN, "_DEVIR_EZBER")   # 🆕 BELLEK-1016
 
 
+_ORTUK_KUR = {}
+
+
+def _ortuk_kur(i):
+    """🏺 kur:'u olmayan noktanın ÖRTÜK kuruluşu = en erken yazılı sahiplik kaydı
+    (d/v/s `f`); kayıt yoksa None. Yeni bir tarih UYDURMAZ: yazılı bir kaydın
+    başlangıcıdır — noktanın bu günden ÖNCE var olduğuna tanıklık yoktur."""
+    v = _ORTUK_KUR.get(i, 0)
+    if v == 0:
+        y = YERLER[i]
+        fs = [gn(p["f"]) for kat in ("d", "v", "s") for p in y[kat]]
+        v = min(fs) if fs else None
+        _ORTUK_KUR[i] = v
+    return v
+
+
+def _mo_gunu(g):
+    return gn(g) < _MO_SINIR_N
+
+
+def _mo_puan_atla(g):
+    """🏺 MÖ günlerinde yoğunluk (PUAN) kapısı UYGULANMAZ: kapı tek nokta için ~200 km'lik
+    disk bırakır (4 puan = 200 km halkası) ⇒ MÖ yürüyüş tavanı (10 gün ≈ 400 km) kapının
+    ardında etkisiz kalır ve ayar yanıltıcı olur. MÖ'de yoğunluk zaten düşüktür; dürüstlük
+    tavandan gelir. `MOTOR_MO_PUAN_KAPISI=1` kapıyı MÖ'de de açık tutar."""
+    return _mo_gunu(g) and not MO_PUAN
+
+
+def _mo_tavanli(g):
+    """MÖ günü + yürüyüş ızgarası var + MÖ bütçesi üretim bütçesinden FARKLI ise
+    epok devri MÖ bütçesinden yapılır (taban = `_BANT_HAM[MO_SAAT]`)."""
+    return bool(MOTOR_YURUYUS and _YR_SAHIP is not None and _mo_gunu(g))
+
+
+def _mo_sahne_disi(g):
+    """🏺 MÖ gününde SAHNEDE OLMAYAN noktalar (Emre'nin 'yalnız o gün sahnede olan
+    yerleşimlerle' kuralı): bit ≤ g · kur > g · kur'u yok ve (örtük kuruluşu g'yi
+    geçmiş ya da hiç sahiplik kaydı yok ve bit:'i de yok). `bit:` taşıyan ama kur:/
+    sahipliği olmayan nokta (Girsu) UFUK başından bit:'e kadar sahnededir —
+    'ne zaman kuruldu' bilinmiyor, bit: ise MÖ-çağı tanıklığıdır."""
+    n = gn(g)
+    out = set()
+    for i, y in enumerate(YERLER):
+        kur, bit = y.get("kur"), y.get("bit")
+        if bit and gn(bit) <= n:
+            out.add(i)
+        elif kur:
+            if gn(kur) > n:
+                out.add(i)
+        else:
+            ok = _ortuk_kur(i)
+            if ok is None:
+                if not bit:
+                    out.add(i)
+            elif ok > n:
+                out.add(i)
+    return out
+
+
+def _merkez_disi(g):
+    """🏺 Tarih başı merkez kuralı: k≥4 (ve MERKEZ_K0 kapalıysa k:0) noktalar kendi
+    bölgesini almaz. Kapsam MERKEZ_KURALI: '0' hiç · 'mo' yalnız MÖ günleri · '1' her gün."""
+    if MERKEZ_KURALI == "0" or (MERKEZ_KURALI == "mo" and not _mo_gunu(g)):
+        return set()
+    return {i for i, y in enumerate(YERLER)
+            if (y.get("k") or 0) >= 4 or ((y.get("k") or 0) == 0 and not MERKEZ_K0)}
+
+
 def devir_kumesi(g):
     """g tarihinde SAHNEDE OLMAYAN ve peteği devredilecek yerleşimler:
     (a) veride SAHİBİ YAZILI olanlar, (b) sahibi yazılmamış ama kara
@@ -5288,6 +5395,13 @@ def devir_kumesi(g):
         if ((y.get("kur") and gn(y["kur"]) > gn(g)) or (y.get("bit") and gn(y["bit"]) <= gn(g)))
         and _sahipli(y, g))
     v = yazili | _kusatilmis(g)
+    # 🏺 MO-MOTOR-1020: MÖ sahnesi + tarih başı merkez kuralı (varsayılanda CE günlerinde
+    #    ikisi de boş küme ⇒ CE devir kümesi BİREBİR aynı).
+    if _mo_gunu(g):
+        v = v | frozenset(_mo_sahne_disi(g))
+    _md = _merkez_disi(g)
+    if _md:
+        v = v | frozenset(_md)
     _DEVIR_EZBER[g] = v
     return v
 
@@ -5531,12 +5645,26 @@ def petek_epok(g):
     yoksa (yerel onarım kurulamaz → küresel en yakına, eski yol).
     """
     devir = devir_kumesi(g)
-    if not devir:
+    # 🏺 MO-MOTOR-1020: MÖ günlerinde taban MÖ bütçesinin bandı, tavan MÖ tavanı.
+    _mo_t = _mo_tavanli(g)
+    _taban = PETEK_D
+    _butce = None
+    if _mo_t and abs(MO_SAAT - YURUYUS_SAAT) > 1e-9:
+        if MO_SAAT not in _BANT_HAM:
+            raise SystemExit(
+                f"🏺 MÖ tavanı {MO_SAAT:g} saat ama MOTOR_UFUK_BANT'ta bu bant YOK "
+                f"(bantlar: {sorted(_BANT_HAM)}) — MOTOR_UFUK_BANT'a {MO_SAAT:g} ekle ya da "
+                f"MOTOR_MO_YURUYUS_GUN={YURUYUS_SAAT / 8:g} ver. Sessizce zayıf tavanla koşulmaz.")
+        _taban = [(b if b is not None else PETEK_D[_i])
+                  for _i, b in enumerate(_BANT_HAM[MO_SAAT])]
+        _butce = MO_SAAT * NEHIR_KM_SAAT
+    _anah = ("MO", devir) if _mo_t else devir
+    if not devir and not _mo_t:
         return PETEK_D
-    if devir in _VARLIK_ONBELLEK:
-        return _VARLIK_ONBELLEK[devir]
+    if _anah in _VARLIK_ONBELLEK:
+        return _VARLIK_ONBELLEK[_anah]
     _t_pe = time.time()
-    hucre = list(PETEK_D)
+    hucre = list(_taban)
     sahne = [i for i in range(len(YERLER)) if i not in devir]
     sahne_kume = set(sahne)
     agac = STRtree([noktalar[i] for i in sahne])
@@ -5549,7 +5677,7 @@ def petek_epok(g):
     if MOTOR_YURUYUS and _YR_SAHIP is not None:
         _pay["yuruyus"] = 0
         _pay["butce_disi_km2"] = 0.0
-        _yr_D, _yr_Y = _yr_epok_onar(frozenset(devir))
+        _yr_D, _yr_Y = _yr_epok_onar(frozenset(devir), _butce)
     olu = [i for i in sorted(devir) if not hucre[i].is_empty]
     for grup in _olu_bilesenler(olu, hucre):
         alan = poligonal(unary_union([hucre[i] for i in grup]))
@@ -5598,6 +5726,16 @@ def petek_epok(g):
                     _pay["yuruyus"] += 1
                 _pay["alici"] += len(_verildi)
                 continue
+        # 🏺 MO-MOTOR-1020: MÖ gününde aşağıdaki ESKİ YOLLAR (küresel en yakın · bitişik
+        #    komşuya bütün) mesafe tavanı TANIMAZ — seyrek sahnede tek noktaya bir kıtayı
+        #    verirdi. Izgaranın karar vermediği grup MÖ'de SAHİPSİZ bırakılır ("veri yok"),
+        #    sayılır ve adıyla kayda geçer.
+        if _mo_t:
+            for i in grup:
+                kayit.append((YERLER[i]["ad"], "—", _ham_km2(hucre[i]), "MÖ ızgara dışı: SAHİPSİZ"))
+                _pay["mo_sahipsiz_km2"] = _pay.get("mo_sahipsiz_km2", 0.0) + _ham_km2(hucre[i])
+                hucre[i] = Polygon()
+            continue
         komsu = _canli_komsular(alan, sahne_kume)
         # ── ① hiç canlı komşu yok → ESKİ YOL (küresel en yakın) ──────────
         if not komsu:
@@ -5679,9 +5817,9 @@ def petek_epok(g):
             _pay["paylastirilan"] += 1
         _pay["alici"] += len(_verildi)
 
-    _VARLIK_ONBELLEK[devir] = hucre
-    _VARLIK_DEVIR[devir] = kayit
-    _VARLIK_PAY[devir] = _pay
+    _VARLIK_ONBELLEK[_anah] = hucre
+    _VARLIK_DEVIR[_anah] = kayit
+    _VARLIK_PAY[_anah] = _pay
     sayac("varlık devri (petek_epok)", time.time() - _t_pe)
     return hucre
 
@@ -5707,7 +5845,8 @@ for _g in (EPOK, "1500-06-15", "1700-06-15", "1900-06-15"):
 # ⚠️ Son iki kova BAŞARISIZLIK DEĞİLDİR ve öyle raporlanmamalı. Tek komşusu
 # olan bir peteği "bölemedik" diye saymak, bölünecek şey olmadığı hâlde
 # kusur uydurmak olurdu.
-_pe_ozet = petek_epok(EPOK) and _VARLIK_PAY.get(devir_kumesi(EPOK))
+_pe_ozet = petek_epok(EPOK) and _VARLIK_PAY.get(("MO", devir_kumesi(EPOK)) if _mo_tavanli(EPOK)
+                                                  else devir_kumesi(EPOK))
 if _pe_ozet:
     _tp = (_pe_ozet["paylastirilan"] + _pe_ozet["tek_komsu"]
            + _pe_ozet["komsusuz"])
@@ -7355,7 +7494,7 @@ def _sk_pay(L, X, Y, a, kim, pe):
     if not hucre:
         return T, Polygon()
     U = unary_union(hucre)
-    if not PUAN_KAPALI:
+    if not PUAN_KAPALI and not _mo_puan_atla(a):
         # puan YEREL bir toplamdır (≤400 km): koridor + 400 km içindeki X noktaları,
         # koridorda tam kümenin vereceği maskenin AYNISINI verir.
         _pb = _puan_bolgesi(X, frozenset(js), a)
@@ -7817,7 +7956,7 @@ def _yabanci_govde_hesap(did, aktif, a, sira):
     # BOYANMAYI sınırlıyor: petek kime aitse ona ait kalır, yalnız
     # 4 puana ulaşmayan kısmı boyanmaz.
     _kesilen, _tamamen = 0.0, 0
-    if not PUAN_KAPALI and not g.is_empty:
+    if not PUAN_KAPALI and not _mo_puan_atla(a) and not g.is_empty:
         _pb = _puan_bolgesi(did, aktif, a)
         _onceki_alan = _ham_km2(g)
         g = poligonal(g.intersection(_pb)) if _pb is not None else Polygon()
@@ -8257,7 +8396,7 @@ elif os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
             g = delikleri_doldur(kapat(g, engel=_kapat_engel(aktif, a)), sahip_ix=aktif)
             g = gosterim_duzelt(g, aktif)
             g = poligonal(g.intersection(KARA))
-            if not PUAN_KAPALI and not g.is_empty:
+            if not PUAN_KAPALI and not _mo_puan_atla(a) and not g.is_empty:
                 _pb = _puan_bolgesi(did, aktif, a)
                 _onceki_alan = _ham_km2(g)
                 g = poligonal(g.intersection(_pb)) if _pb is not None else Polygon()
@@ -9253,7 +9392,7 @@ if _BANT_HAM and len(_BANT_HAM) > 1:
             #    ⚠️ BEDEL ÖLÇÜLMEDİ: süreç yolunda `_PUAN_ONBELLEK` işçilerde
             #       kalır, ana süreç her (did, aktif) için bir kez yeniden
             #       hesaplar (bantlar arası paylaşılır). Kutu koşusunda ölçülmeli.
-            if _did != "OSMANLI" and not PUAN_KAPALI:
+            if _did != "OSMANLI" and not PUAN_KAPALI and not _mo_puan_atla(_f):
                 _pbz = _puan_bolgesi(_did, frozenset(_ak), _f)
                 _u = poligonal(_u.intersection(_pbz)) if _pbz is not None else Polygon()
             if _u.is_empty:

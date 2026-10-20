@@ -579,6 +579,26 @@ adımını geçer ama hiçbir kapı onu SORMAZ. Kalem açık.
 
 ---
 
+## 5.6 🏺 MÖ katmanı — motor kuralları (MO-MOTOR-1020, 21 Ekim 2026)
+
+Sorun: UFUK MÖ 12000'e açıldı ama motor MÖ için kural taşımıyordu. Ölçüm (Levant–Mezopotamya kutusu 33–47°D · 30–41°K,
+9 kesit; sentetik 14 MÖ noktası): **bugünkü motor MÖ'de kutu karasının %98,8'ini boyuyor** — 4.720 "sahnedeki"
+nokta, çünkü kur:'u olmayan ~2.900 şehir MÖ'de de sahnede sayılıyor ve MÖ cebinin dışındaki her toprak en yakın
+peteğe emiliyor. Üç ayar (hepsi ortamdan; varsayılanlar koşu bayrağı gerektirmez):
+
+| Ayar | Varsayılan | Ne yapar |
+|---|---|---|
+| `MOTOR_MO_YURUYUS_GUN` | **10** (80 saat; 1 gün = 8 saat, 5 gün = 40 saat üretim bütçesi) | MÖ günlerinde petek yarıçap tavanı. Taban `_BANT_HAM[80]`, epok devri 80 saatlik bütçeyle. Tavanı aşan toprak **sahipsiz = "veri yok"** (kültürsüz değil). Bant `MOTOR_UFUK_BANT`ta olmak zorunda — yoksa koşu GÜRÜLTÜYLE durur. |
+| `MOTOR_MO_SINIR` | `0001-01-01` | g bundan önceyse MÖ kuralları. **Öneri: MS 1–1281 verisi inince `1281-01-01`** (aynı hayalet sorunu orada da var; bkz. rapor). |
+| `MOTOR_MO_PUAN_KAPISI` | `0` | Yoğunluk (PUAN) kapısı MÖ'de atlanır: tek nokta ≈200 km disk bırakır ⇒ 10 günlük tavan kapının arkasında kalırdı. `1` kapıyı MÖ'de açık tutar. |
+| `MOTOR_TARIH_BASI_MERKEZ` | `mo` | `0` kapalı · `mo` yalnız MÖ günleri · `1` her tarih (Emre 19 Ekim kuralı — Osmanlı çağını da değiştirir, koşu emri ister). k≥4 nokta bölge almaz. `MOTOR_MERKEZ_K0=0` k:0 noktaları da dışlar (**önerilmez**). |
+
+MÖ sahnesi: kur: olan nokta `kur ≤ g < bit`; kur:'u olmayan nokta, EN ERKEN yazılı sahiplik kaydı (örtük kuruluş)
+g'yi geçtiyse sahnede; hiç kayıt yoksa ve bit:'i de yoksa sahnede DEĞİL; yalnız bit:'i olan (Girsu gibi) ufuk
+başından bit:'e kadar sahnede. MÖ'de ızgara dışı toprak için eski yollar (küresel en yakın · bitişik komşuya bütün)
+KAPALIDIR — mesafe tavanı tanımadıkları için seyrek sahnede bir kıtayı tek noktaya verirlerdi.
+Sınav: `denetim/ARAC-MO-MOTOR-KUTU-1020.py` (eski ↔ yeni, CE eşitliği 16 gün bit bit). Rapor: `denetim/MO-MOTOR-RAPOR-1020.md`.
+
 ## 6. Bilinmeyeni bilinmiyor diye göstermek
 
 Uydurma devlet, uydurma sınır yok. Boş bırakılacak. Ama **iki farklı boşluk** vardır

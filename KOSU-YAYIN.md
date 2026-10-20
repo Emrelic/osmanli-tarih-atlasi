@@ -42,6 +42,11 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
   MOTOR_DEVAM=1 MOTOR_SINIR_KISIT=1 MOTOR_COL_GIRINTI_KAPALI=1`
   🆕 KOŞU 26 (15 Ekim 2026, Emre): `MOTOR_SINIR_KISIT=1` — D/E/F egemenlik hattı gövdenin kesin kısıtı (işgal/fiilî hat HARİÇ, Osmanlı taraflı hatlar bu sürümde HARİÇ); `MOTOR_COL_GIRINTI_KAPALI=1` — M-BC C (çöl girintisi) kapalı, Libya binmesi arttığı için.
   ⏳ BEKLEYEN YAMA (17 Ekim 2026, Emre onayı — not #7): `denetim/MOTOR-YAKA-KILIDI-1017.diff` bir sonraki TAM İNŞADA uygulanır (`git apply`, temiz sınandı) ve bayrağa `MOTOR_YAKA_KILIDI=1` eklenir. Örtü aşamasında yaslanan hattın öte yakasına düşen nokta, ham hücresi o yüzün sahibi değilse yüzü almaz (Zimnicea'nın Tuna güneyindeki ~700 km² üçgeni). Logda `🔒 YAKA KİLİDİ` satırı düşen noktaları sayar. Uygulanınca bu satır bayrak listesine taşınır.
+  🏺 MÖ KATMANI (MO-MOTOR-1020, 21 Ekim 2026) — kod `main`de, bir sonraki TAM İNŞADA devreye girer; varsayılanlar bayrak
+  GEREKTİRMEZ ama `MOTOR_UFUK_BANT` **80'i içermek ZORUNDA** (bugünkü `40,56,80` yeterli; yoksa koşu SystemExit ile durur).
+  Ayarlar: `MOTOR_MO_YURUYUS_GUN` (10) · `MOTOR_MO_SINIR` (`0001-01-01`; MS 1–1281 verisi inince `1281-01-01` önerilir) ·
+  `MOTOR_TARIH_BASI_MERKEZ` (`mo`; `1` = Emre 19 Ekim kuralı her tarihe — CE haritasını değiştirir, Emre'nin koşu emri ister).
+  CE günleri bit bit aynı (16 gün, `denetim/ARAC-MO-MOTOR-KUTU-1020.py kiyas`). `renkler.py` tuzu değişti (KULTUR_DESEN) ⇒ tam inşa.
   ⏳ BEKLEYEN YAMA (18 Ekim 2026, Emre onayı — not #80): `denetim/MOTOR-KISTAK-KOPRU-1018.diff` bir sonraki TAM İNŞADA uygulanır (`git apply`; tek başına ve yaka kilidiyle birlikte temiz sınandı) ve bayrağa `MOTOR_KISTAK_KOPRU=1` eklenir. Yürüyüş ızgarasında hapis kalan kıstak/burun kentinin tohumu (Aden 1 hücre, Sinop, Cádiz, Özi, Kılburun…) karadan ≤ 16 km yürünen anakara hücresine taşınır. Öngörü: logda `🌉 KISTAK KÖPRÜSÜ: 39 tohum`. Kabul ölçütleri `denetim/MOTOR-KISTAK-KOPRU-1018.md`de. Uygulanınca bu satır bayrak listesine taşınır.
   🔴 **`MOTOR_DEVAM=1` 11 Ekim 2026'da EKLENDİ ve niçin eksik olduğu bir derstir:**
   `uret_petek.py:511`de duruyor ve gerekçesi Emre'nin kendi cümlesi — *"hiçbir koşu
