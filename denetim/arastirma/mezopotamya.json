@@ -1,0 +1,561 @@
+{
+ "bolge": "Mezopotamya MÖ 7000–MS 1 (Ubaid/Halaf, Eridu, Uruk, Akad, Ur III, Eski Babil, Aşşur, Yeni Babil, Ahameniş fethi)",
+ "tarih_olcum": "20 Ekim 2026",
+ "kronoloji_notu": "Yazılı dönemler (MÖ 3. bin sonrası) için esas: ARCANE III (Sallaberger & Schrakamp 2015) 'Middle Chronology' (MC; Hammurabi 1792-1750). Aynı kaynak MC II (rMC8, 8 yıl aşağı) çıktısını da verir ve onu 'daha makul' bulur; MC II sütunu ic_not'ta. Yüksek (Hammurabi 1848-1806, Babil I sonu 1651) / Kısa=Alçak (Hammurabi 1728-1686, sonu 1531) karşılıkları Babil kaydında. Tarihöncesi dönemler kalibre 14C (b.c./cal BC) üzerindendir. Atlas yıl kuralı: MÖ N = astronomik -(N-1) (yerlesimler_mo_sumer.js başlığı).",
+ "kayitlar": [
+  {
+   "id": "ubaid-kulturu",
+   "ad": "Ubaid kültürü (güney Mezopotamya)",
+   "ad_yerel": "Tell al-ʿUbaid / ʿUbaid",
+   "tur": "kultur",
+   "lat": 30.97225,
+   "lon": 46.03051,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 339709658 (atlas yerlesimler_mo_sumer.js'te kayıtlı reprPoint; Pleiades JSON bu oturumda yeniden çekilmedi, atlas dosyasından)",
+     "lat": 30.97225,
+     "lon": 46.03051
+    },
+    {
+     "kaynak": "Wikidata Q1317854 (P625, tip yerleşimi Tell al-'Ubaid)",
+     "lat": 30.9722,
+     "lon": 46.0306
+    }
+   ],
+   "konum_not": "Tanıklar arası fark <0,1 km. Nokta kültürün tip-yerleşimi Tell al-Ubaid'dir, kültürün bütün yayılımı (Suriye/Anadolu/İran/Körfez) değil. Pleiades tanığı atlas dosyasından alındı, bu oturumda canlı doğrulanmadı.",
+   "kur": {
+    "bas_mo": 6500,
+    "son_mo": null,
+    "guven": "belirsiz (kaynak 'about')",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Carter, R. A. & Philip, G. 2010, 'Beyond the Ubaid' (SAOC 63, Oriental Institute), Giriş s. 2 (Deconstructing the Ubaid)",
+    "url": "https://isac-assets.s3.amazonaws.com/isac-publications/saoc63.pdf",
+    "alinti": "spanning nearly three millennia from about 6500 to 3800 b.c.",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 3800,
+    "son_mo": null,
+    "guven": "belirsiz (kaynak 'about')",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Carter & Philip 2010, SAOC 63, s. 2 (aynı cümle; 'b.c.' = OI yazımında kalibre, ham tarihler 'uncal. b.c.' diye ayrılıyor)",
+    "url": "https://isac-assets.s3.amazonaws.com/isac-publications/saoc63.pdf",
+    "alinti": "spanning nearly three millennia from about 6500 to 3800 b.c.",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "kurulus",
+   "d": "Güney Mezopotamya'da Ubaid 0 (Oueili) ile Ubaid 5 (Terminal) arasını kapsayan, kaba-yerleşik, tapınaklı köylerin boyalı çanak çömlek kültürü; ardından Uruk dönemi gelir.",
+   "sahip_kultur": "Ubaid (Ubaid 0-5 evreleri)",
+   "ic_not": "ÇELİŞKİ (ikisi de verildi, biri seçilmedi): (a) Carter & Philip 2010 s.2: bütün güney Ubaid ~6500–3800 (b.c.); kuzey için 'daha kısa': ~5300–4300 (Akkermans & Schwartz 2003'e atfen). (b) Egberts vd. 2023, Radiocarbon 65(4):979-1002, Tablo 1 (ARCANE/MC II + yeni 14C): Ubaid 0 6500-6000, Ubaid 1 6000-5700, Ubaid 2 5700-5300, Ubaid 3 5300-4900, Ubaid 4 4900-4500, Ubaid 5 4500-4200, Early Uruk 4200-3900 yani Ubaid ~6500–4200. Fark yalnız bitişte (3800 vs 4200): Carter&Philip'in 3800'ü Uruk'un başlangıç tanımına (Geç Ubaid/Terminal) bağlı. Atlas için sınır-noktası kullanılacaksa evre bazlı Egberts tablosu daha ayrıntılıdır. Evre adları SAOC63'ten: Ubaid 1 'Eridu', Ubaid 3 'Tell al-Ubaid', Ubaid 4 eski adıyla 'Late Ubaid'. Egberts PDF: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DFCB7F569B744396C9E4BDA923A8EB07/S0033822223000401a.pdf (CC BY-NC-SA).",
+   "okunan_sayfa": [
+    "https://isac-assets.s3.amazonaws.com/isac-publications/saoc63.pdf (indirildi, pdftotext)",
+    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DFCB7F569B744396C9E4BDA923A8EB07/S0033822223000401a.pdf (indirildi, Tablo 1)",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q1317854.json"
+   ],
+   "kur_baslik": "Ubaid kültürü: güney Mezopotamya'da ilk tarihli Ubaid evresi başlar",
+   "bit_baslik": "Ubaid dönemi sona erer (Carter & Philip 2010; Egberts vd. 2023 bitişi MÖ 4200 diyor)"
+  },
+  {
+   "id": "eridu",
+   "ad": "Eridu",
+   "ad_yerel": "Eridug / Tell Abu Shahrain",
+   "tur": "sehir",
+   "lat": 30.81999,
+   "lon": 45.99564,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 912845 reprPoint (JSON bu oturumda çekildi)",
+     "lat": 30.81999,
+     "lon": 45.99564
+    },
+    {
+     "kaynak": "Wikidata Q210065 P625",
+     "lat": 30.82604,
+     "lon": 45.994627
+    },
+    {
+     "kaynak": "OSM Nominatim 'Eridu' (archaeological_site)",
+     "lat": 30.8258645,
+     "lon": 45.9948691
+    }
+   ],
+   "konum_not": "Pleiades ile Wikidata/OSM arası ~0,7 km. Atlas dosyasında zaten (30.81999, 45.99564) kayıtlı; değişiklik gerekmiyor (aynı değer, Pleiades esaslı).",
+   "kur": {
+    "bas_mo": 6000,
+    "son_mo": 5700,
+    "guven": "belirsiz (tablo dönem aralığı)",
+    "aralik_turu": "tabaka-donem",
+    "kaynak": "Egberts, E. vd. 2023, 'Dating ancient canal systems ... Tello/Girsu', Radiocarbon 65(4):979-1002, Tablo 1 (Ubaid 1 evresi); Eridu'nun Ubaid 1 'Eridu style and period' adını taşıması: Carter & Philip 2010, SAOC 63, s.2",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DFCB7F569B744396C9E4BDA923A8EB07/S0033822223000401a.pdf",
+    "alinti": "6000–5700 BC Ubaid 1",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "ilk_anilis",
+   "d": "Güney Mezopotamya'nın Ubaid 1 evresinin tip-yerleşimi; sonraki Sümer geleneğinde ilk kent sayılan, Enki tapınaklı yer.",
+   "sahip_kultur": "Ubaid (Ubaid 1 'Eridu' evresi)",
+   "ic_not": "UYARI: bu kayıt 'Eridu'daki ilk yerleşim tabakası' tarihi DEĞİL; evre tablosu (Ubaid 1 = 6000–5700 BC) ile Eridu'nun evre adı arasındaki bağdan türer. Eridu'nun kendi XVIII. tabakasının kalibre 14C tarihini bulamadım (Pleiades açıklaması 'settled ca. 5300 B.C. onward' yalnız veri-tabanı ifadesi; web arama özetinde Hritz vd. 2012 kabuk tarihleri 5837-5644 cal BC diye anıldı, makale bu oturumda AÇILMADI, kullanılmadı). Alternatif evre tarihi Wikipedia özeti 5400-4700 (Ubaid 1) tek dayanak olamaz; Egberts tablosu ile ~600 yıl çelişir, çelişki çözülmedi. Eridu'nun terki için atlas dosyasındaki 'MS 499' Pleiades konum etiketinden gelir, bu oturumda doğrulanmadı.",
+   "okunan_sayfa": [
+    "https://pleiades.stoa.org/places/912845/json",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q210065.json",
+    "https://nominatim.openstreetmap.org/search?format=json&q=Eridu archaeological site",
+    "Egberts 2023 PDF (yukarıda)"
+   ]
+  },
+  {
+   "id": "halaf-kulturu",
+   "ad": "Halaf kültürü",
+   "ad_yerel": "Tell Halaf (Guzana)",
+   "tur": "kultur",
+   "lat": 36.8267,
+   "lon": 40.0397,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 874739 Guzana (Tell Halaf) reprPoint",
+     "lat": 36.8267304,
+     "lon": 40.039676566666664
+    },
+    {
+     "kaynak": "Wikidata Q2142541 P625",
+     "lat": 36.8267852,
+     "lon": 40.0396697
+    },
+    {
+     "kaynak": "OSM Nominatim 'Tell Halaf'",
+     "lat": 36.8230854,
+     "lon": 40.0395506
+    }
+   ],
+   "konum_not": "Üç tanık <0,5 km. Nokta kültürün tip-höyüğü Tell Halaf'tır (Tell Halaf'ın sonraki Aram/Yeni Asur Guzana evresi aynı yer, Pleiades'te aynı kayıt); kültürün yayılımı Kuzey Suriye-Irak-GD Anadolu.",
+   "kur": {
+    "bas_mo": 5900,
+    "son_mo": 5400,
+    "guven": "belirsiz (kitap özeti 'ca.')",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Nieuwenhuyse, O. 2008 (Brepols) 'Plain and Painted Pottery: The Rise of Neolithic Ceramic Styles on the Syrian and Northern Mesopotamian Plains' özeti: Halaf'ın yükselişi",
+    "url": "https://www.brepols.net/products/IS-9782503524443-1",
+    "alinti": "the rise of the Halaf culture, ca. 5900 - 5400 cal. BC",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 5500,
+    "son_mo": 5400,
+    "guven": "belirsiz (yazarlar 'somewhere between')",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Campbell, S. & Fletcher, A. 2010, 'Questioning the Halaf-Ubaid Transition', in Carter & Philip (eds.), Beyond the Ubaid, SAOC 63, s. 78",
+    "url": "https://isac-assets.s3.amazonaws.com/isac-publications/saoc63.pdf",
+    "alinti": "the Halaf period cannot be conclusively shown to extend beyond a date somewhere between ca. 5500 and ca. 5400 (calibrated) b.c.",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Kuzey Mezopotamya'da (Tell Sabi Abyad dizisinde Erken Halaf'a geçişle başlayan) ince boyalı çanak çömlekli Geç Neolitik/Kalkolitik kültür; Ubaid etkisiyle yerini Kuzey Ubaid'e bırakır.",
+   "sahip_kultur": "Halaf",
+   "ic_not": "İki ayrı tür birleşik: başlangıç = Nieuwenhuyse'nin 'rise' aralığı (5900-5400 cal BC, kitap özetinden), bitiş = Campbell & Fletcher'ın en geç tarihli Halaf için üst sınırı (≤5500-5400); aynı kültürün başı ve sonu farklı yazarlardan. Pre-Halaf → Erken Halaf geçişi Sabi Abyad'da 6100-5900 cal BC (Nieuwenhuyse özetinden, makale açılmadı). Kuzey Ubaid'in en erken kesin tarihi 5100-5000 (calibrated) b.c. civarı: 'Halaf-Ubaid arası 400-500 yıl' boşluk (aynı s.78). Eski kitaplar (Akkermans 1993) ham 14C ile 5200-4500 verir; kullanılmadı. Yarım Tepe tarihlerinin 200-300 yıl geç çıktığı s.78'de belirtiliyor.",
+   "okunan_sayfa": [
+    "https://isac-assets.s3.amazonaws.com/isac-publications/saoc63.pdf",
+    "https://www.brepols.net/products/IS-9782503524443-1",
+    "https://pleiades.stoa.org/places/874739/json",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q2142541.json"
+   ],
+   "kur_baslik": "Halaf kültürü: yükseliş başlar (tarihli en erken uç)",
+   "bit_baslik": "Halaf döneminin en geç tarihi (üst sınır)"
+  },
+  {
+   "id": "uruk-yazi",
+   "ad": "Uruk IV–III (yazının ortaya çıkışı)",
+   "ad_yerel": "Warka / Unug",
+   "tur": "sehir",
+   "lat": 31.32338,
+   "lon": 45.63905,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 912986 reprPoint (JSON bu oturumda çekildi)",
+     "lat": 31.32337501,
+     "lon": 45.63905216
+    },
+    {
+     "kaynak": "Wikidata Q168518 P625",
+     "lat": 31.3259,
+     "lon": 45.6374
+    }
+   ],
+   "konum_not": "Fark ~0,3 km. Atlas dosyası ile aynı (31.32338, 45.63905).",
+   "kur": {
+    "bas_mo": 3350,
+    "son_mo": 3200,
+    "guven": "belirsiz (tablo)",
+    "aralik_turu": "tabaka-donem",
+    "kaynak": "Englund, R. K. 2006, 'An Examination of the \"Textual\" Witnesses to Late Uruk World Systems' (CDLI yayın dosyası englund2006a.pdf; dergi/kitap künyesi PDF'ten okunamadı), Uruk IVa tablosu",
+    "url": "https://cdli.earth/files-up/publications/englund2006a.pdf",
+    "alinti": "levels Uruk IV and III dating to ca. 3350-3000 BC",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 3200,
+    "son_mo": 3000,
+    "guven": "belirsiz (tablo)",
+    "aralik_turu": "tabaka-donem",
+    "kaynak": "Englund 2006 (aynı), Uruk III 3200-3000",
+    "url": "https://cdli.earth/files-up/publications/englund2006a.pdf",
+    "alinti": "Uruk IVa 3350-3200",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "kurulus",
+   "d": "Eanna çevresinde ilk idari proto-çivi yazısı tabletleri (Uruk IV, ardından Uruk III); sayısal ve ideografik işaretlerle yazılan ilk yazı sistemi.",
+   "sahip_kultur": "Geç Uruk / Uruk IV-III",
+   "ic_not": "kur = Uruk IVa evresi (3350-3200), bit = Uruk III evresi (3200-3000); ikisi de 'tabaka-dönem' aralığıdır, tablet yazımının tek olay tarihi DEĞİL. Alt sınır çelişkisi: Egberts vd. 2023 (Radiocarbon 65(4), Tablo 1) Geç Uruk 3400-3100, Jemdet Nasr 3100-2900 verir; sınırlar Englund'dan ~50-100 yıl farklı. Englund: tabletler dolgu tabakalarından geldiği için kesin bağlam yok (CDLI wiki, açılmadı; bu cümle web arama özetinden). Uruk'un çok daha eski varlığı: Egberts Tablo 1'de Erken Uruk 4200-3900.",
+   "okunan_sayfa": [
+    "https://cdli.earth/files-up/publications/englund2006a.pdf (indirildi)",
+    "Egberts 2023 PDF",
+    "https://pleiades.stoa.org/places/912986/json",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q168518.json"
+   ],
+   "kur_baslik": "Uruk IVa evresi: yazının ortaya çıktığı tabakalar (Uruk IV–III) başlar",
+   "bit_baslik": "Uruk III evresi sona erer"
+  },
+  {
+   "id": "akad-imparatorlugu",
+   "ad": "Akad İmparatorluğu (Sargon)",
+   "ad_yerel": "Akkade / Agade (Sargonic period)",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Akkade şehri konumlanamamış; bu oturumda Pleiades/Wikidata'dan güvenilir iki tanık bulunmadı (arama yapılmadı/sonuçsuz). Koordinat YAZILMADI. Başkent noktası verilemez; gerekirse Sargon'un yükseldiği Kiş atlasta var.",
+   "kur": {
+    "bas_mo": 2324,
+    "son_mo": null,
+    "guven": "±30 yıl (kaynak: 'Middle Chronology dates')",
+    "aralik_turu": "yazili",
+    "kaynak": "Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III 'History & Philology' (Brepols), Giriş, Tablo 39 'Synopsis of main dynasties', s. 136; Orta Kronoloji (MC) sütunu",
+    "url": "http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
+    "alinti": "Sargon of Akkad 40 years 2324-2285±30",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kesinlik": "onyil"
+   },
+   "bit": {
+    "bas_mo": 2142,
+    "son_mo": null,
+    "guven": "±30 yıl (MC)",
+    "aralik_turu": "yazili",
+    "kaynak": "ARCANE III Tablo 39, s. 136: Shudurul (Akad son hükümdarı) 15 yıl, 2156-2142±30 (MC)",
+    "url": "http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
+    "alinti": "Shudurul 15 years 2156-2142±30",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kesinlik": "onyil"
+   },
+   "k": "kurulus",
+   "d": "Sargon'un (Šarru-kīn) Lugalzagesi'yi yenip Akkade merkezli ilk geniş Mezopotamya imparatorluğunu kurması; Naram-Suen döneminde zirve; son hükümdar Shudurul.",
+   "sahip_kultur": "Akad (Sargonic dönem)",
+   "ic_not": "KRONOLOJİ: Orta Kronoloji (MC). ARCANE'in MC sütunu: Sargon 2324-2285±30, Rimush+Manishtushu 2284-2262, Naram-Suen 2261-2206, Shar-kali-sharri 2205-2181, Dudu 2177-2157, Shudurul 2156-2142 (hepsi ±30). MC II (rMC8) sütunu 8 yıl aşağı: Sargon 2316-2277, Shudurul 2148-2134; yazarlar MC II'yi 'daha makul' sayar (s.135). Aynı kitap RIME 2 başlığı olarak 'Sargonic and Gutian Periods (2334-2113 BC)' (Frayne 1993) anıyor: geleneksel 2334 başlangıcı ARCANE'in 2324'ünden 10 yıl yukarıdadır; iki ayrı konvansiyon, ortası alınmadı. Gutium dönemi (70 yıl, -10/+30) Akad'ı Ur III'e bağlar (MC 2180±30–2111). Sargonic dönem sonu 'MC 2142' bir yönetici-sonu, yer-terk tarihi değil. Bu satırdaki 'Sargon of Akkad 40 years 2324-2285' düz metin çıkarımıdır (pdftotext -raw s.152); sütun karışmaması için iki sütunlu tablo satır satır doğrulandı.",
+   "okunan_sayfa": [
+    "ARCANE III Giriş PDF sayfa 151-152 (indirildi, pdftotext -raw)",
+    "https://epub.ub.uni-muenchen.de/41605/"
+   ],
+   "kur_baslik": "Akad İmparatorluğu: Sargon'un saltanatı başlar (Orta Kronoloji)",
+   "bit_baslik": "Akad İmparatorluğu: son kral Şudurul'un saltanatı sona erer"
+  },
+  {
+   "id": "ur-iii-ur",
+   "ad": "Ur III Hanedanı (Ur)",
+   "ad_yerel": "Urim / Tell al-Muqayyar",
+   "tur": "sehir",
+   "lat": 30.96132,
+   "lon": 46.10542,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 912985 reprPoint (JSON bu oturumda çekildi)",
+     "lat": 30.96131794655308,
+     "lon": 46.10541981168791
+    },
+    {
+     "kaynak": "OSM Nominatim 'Ziggurat of Ur'",
+     "lat": 30.9627827,
+     "lon": 46.1031371
+    }
+   ],
+   "konum_not": "Fark ~0,3 km. Atlas dosyasında zaten (30.96132, 46.10542). Wikidata Ur kaydı (çok-anlamlı 'Ur' araması) bulunamadı, ikinci tanık OSM.",
+   "kur": {
+    "bas_mo": 2110,
+    "son_mo": null,
+    "guven": "kaynak: 'Urnamma year 1, MC 2110'",
+    "aralik_turu": "yazili",
+    "kaynak": "Sallaberger & Schrakamp 2015, ARCANE III, Giriş s. 5 (1.3) ve Tablo 39 s. 136",
+    "url": "http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
+    "alinti": "(Urnamma year 1, MC 2110)",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kesinlik": "onyil"
+   },
+   "bit": {
+    "bas_mo": 2003,
+    "son_mo": null,
+    "guven": "MC Tablo 39 (Ibbi-Suen son yılı)",
+    "aralik_turu": "yazili",
+    "kaynak": "ARCANE III Tablo 39 s. 136: Ibbisuen 24 yıl 2026-2003 (MC)",
+    "url": "http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
+    "alinti": "Ibbisuen 24 years 2026-2003",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kesinlik": "onyil"
+   },
+   "k": "kurulus",
+   "d": "Urnamma'nın kurduğu Ur III hanedanı Güney Mezopotamya'yı Şulgi döneminde merkezi bir devlete çevirir; son kral Ibbi-Suen ile hanedan sona erer.",
+   "sahip_kultur": "Ur III (Neo-Sümer)",
+   "ic_not": "Orta Kronoloji. MC: Urnamma 2110-2093, Şulgi 2092-2045, Amarsuena 2044-2036, Şusuen 2035-2027, Ibbi-Suen 2026-2003. MC II (rMC8): hepsi 8 yıl aşağı (Urnamma 2102-2085 ... Ibbi-Suen 2018-1995). Yazarlar Urnamma yıl1'den Babil I sonuna kadar göreli kronolojiyi ±1 yıl sağlam bulur (s.5). Egberts 2023 Tablo 1'de Ur III = '2100–2000 BC' (yuvarlak). Atlas dosyasında Ur için bit: MÖ 317 (-0316) (Brinkman) ayrı bir olgudur (yerleşimin yerel belge sonu).",
+   "okunan_sayfa": [
+    "ARCANE III Giriş PDF s.5 ve s.136",
+    "https://pleiades.stoa.org/places/912985/json",
+    "https://nominatim.openstreetmap.org/search?format=json&q=Ziggurat of Ur"
+   ],
+   "kur_baslik": "Ur III Hanedanı: Ur-Nammu'nun 1. yılı",
+   "bit_baslik": "Ur III Hanedanı sona erer (Ibbi-Suen'in son yılı)"
+  },
+  {
+   "id": "babil-eski-babil",
+   "ad": "Eski Babil (Babil I Hanedanı, Hammurabi)",
+   "ad_yerel": "Babilim / Babil",
+   "tur": "sehir",
+   "lat": 32.5373,
+   "lon": 44.42498,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 893951 Babylon reprPoint (JSON bu oturumda çekildi)",
+     "lat": 32.53729695,
+     "lon": 44.42497815
+    },
+    {
+     "kaynak": "Wikidata Q5684 P625",
+     "lat": 32.5425,
+     "lon": 44.42111111
+    },
+    {
+     "kaynak": "OSM Nominatim 'Outer Wall of Babylon'",
+     "lat": 32.549689,
+     "lon": 44.441459
+    }
+   ],
+   "konum_not": "Pleiades ↔ Wikidata ~0,7 km. OSM sonucu dış surun kendisi (~2,7 km), kent merkezi değil. Esas alınan: Pleiades (iç kent). Atlasa Babil için nokta eklenecekse bu değer.",
+   "kur": {
+    "bas_mo": 1792,
+    "son_mo": null,
+    "guven": "MC; kaynak yalnız hükümdar tarihleri",
+    "aralik_turu": "yazili",
+    "kaynak": "Sallaberger & Schrakamp 2015, ARCANE III, Giriş s. 6 (1.3 kronoloji tablosu) ve Tablo 39 s. 136: Hammurapi 43 yıl, 1792-1750 (MC)",
+    "url": "http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
+    "alinti": "Middle Chronology (I) (MC) Hammurapi of Babylon 1792-1750, end of Babylon I 1595",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kesinlik": "onyil"
+   },
+   "bit": {
+    "bas_mo": 1595,
+    "son_mo": null,
+    "guven": "MC; kaynak '1595/1597'",
+    "aralik_turu": "yazili",
+    "kaynak": "ARCANE III s. 5 ve 6: 'Samsuditana year 31, MC 1595/1597' (Babil I sonu); Tablo 39 '1595/1597'",
+    "url": "http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
+    "alinti": "Samsuditana year 31, MC 1595/1597",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kesinlik": "onyil"
+   },
+   "k": "gelisme",
+   "d": "Hammurabi (MC 1792-1750) Babil'i Güney ve Orta Mezopotamya'nın siyasî merkezi yapar; Babil I Hanedanı Samsuditana'nın son yılında (MC 1595/1597) biter.",
+   "sahip_kultur": "Eski Babil (Amorit hanedanı)",
+   "ic_not": "KRONOLOJİ OKULLARI (ARCANE III s.6, Venüs/Ammisaduqa levhaları): Yüksek (HC) Hammurabi 1848-1806, Babil I sonu 1651 · ORTA (MC, bu kayıtta esas) 1792-1750, sonu 1595 · MC II 1784-1742, sonu 1587 · Alçak/Kısa (LC) 1728-1686, sonu 1531 · Ultra-kısa 'Yeni Kronoloji' (NC) 1696-1654, sonu 1499. Yazarlar HC'yi 'artık olası değil' ve NC'yi tarihsel gerekçelerle geçersiz sayar; dendrokronoloji HC/NC'yi dışlar; MC–Alçak aralığını önerirler. Bu 'Hammurabi 1792' değeri hükümdarın çıkışıdır, Babil'in kuruluşu değil; Babil şehri MÖ 3. bin sonundan beri belgeli (tablo dışında, açılmadı). Eşnunna kaydının atlas bitiş değeri -1599 (Eşnunna'nın düşüşü) bu tablodan bağımsızdır.",
+   "okunan_sayfa": [
+    "ARCANE III Giriş PDF s.5-6 (pdftotext)",
+    "https://pleiades.stoa.org/places/893951/json",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q5684.json"
+   ],
+   "kur_baslik": "Eski Babil (Babil I): Hammurabi'nin saltanatı başlar (Orta Kronoloji)",
+   "bit_baslik": "Babil I Hanedanı sona erer (Samsuditana)"
+  },
+  {
+   "id": "assur-eski-asur-ve-dusus",
+   "ad": "Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü)",
+   "ad_yerel": "Aššur / Qalʿat Sherqat",
+   "tur": "sehir",
+   "lat": 35.4567,
+   "lon": 43.2625,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q200200 P625",
+     "lat": 35.456666666667,
+     "lon": 43.2625
+    },
+    {
+     "kaynak": "OSM Nominatim 'Ashur archaeological site Iraq'",
+     "lat": 35.4548366,
+     "lon": 43.2607784
+    }
+   ],
+   "konum_not": "Fark ~0,25 km. Pleiades Aşşur kaydı (arama özetinde var) bu oturumda JSON olarak çekilemedi. Esas alınan: Wikidata (OSM aynı höyük).",
+   "kur": {
+    "bas_mo": 1972,
+    "son_mo": null,
+    "guven": "MC; REL'in ilk yılı",
+    "aralik_turu": "yazili",
+    "kaynak": "Barjamovic, Hertel & Larsen (Revised Eponym List, REL) aktaran Sallaberger & Schrakamp 2015, ARCANE III, Giriş s. 7: '255 yıl, MC 1972–MC 1718'",
+    "url": "http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
+    "alinti": "Revised Eponym List (REL) of 255 years from MC 1972 to MC 1718",
+    "kaynak_sinifi": "akademik-ikincil",
+    "kesinlik": "onyil"
+   },
+   "bit": {
+    "bas_mo": 614,
+    "son_mo": null,
+    "guven": "kaynak: Nabopolassar 12. yılı (614-613), Abu ayı",
+    "aralik_turu": "yazili",
+    "kaynak": "Grayson, A. K. 1975, Assyrian and Babylonian Chronicles, ABC 3 (Fall of Nineveh Chronicle), 12. yıl; Livius.org çevirisi (Grayson'dan uyarlama, Glassner 1993 okuyuşlarıyla)",
+    "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/",
+    "alinti": "They did battle against the city and destroyed it.",
+    "kaynak_sinifi": "veri-tabani",
+    "kesinlik": "yil"
+   },
+   "k": "fetih",
+   "d": "Eski Asur eponim listesinin kapsadığı dönemde (MC 1972-1718) Aşşur ticaret merkezi; MÖ 614'te (Nabopolassar 12. yıl, Abu ayı) Medler Aşşur'u alıp yıkar.",
+   "sahip_kultur": "Asur",
+   "ic_not": "kur 'Aşşur'un kuruluşu' DEĞİL: REL, kayıtlı eponimlerin başlangıcı (belge). Şehir daha eskidir (Ur III kaynaklarında 'eyalet', kitapta Barjamovic 2011'e atıf; açılmadı). bit: Livius sayfası kroniği çeviriyor; kitap-basımı Grayson'a erişemedim, çeviri ikincil. 'Abu' ayı tarihi sayfada gün olarak yok; takvime çevirisi yapılmadı (Abu ~Temmuz/Ağustos, doğrulanmadı) ⇒ yıl hassasiyeti. 12. yıl notu sayfada '614-613 BCE'. Şamşi-Adad'ın ölümü MC 1775 (Hammurabi 18. yıl) aynı kaynakta, s.7. Orta Asur/Yeni Asur imparatorluğunun kuruluş tarihleri bu oturumda kaynaklanmadı.",
+   "okunan_sayfa": [
+    "ARCANE III Giriş PDF s.7",
+    "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q200200.json",
+    "https://nominatim.openstreetmap.org/search?format=json&q=Ashur archaeological site Iraq"
+   ],
+   "kur_baslik": "Aşşur: Eski Asur eponim listesi başlar (belge başlangıcı, kuruluş değil)",
+   "bit_baslik": "Aşşur şehri Medler/Babilliler tarafından alınır"
+  },
+  {
+   "id": "ninova-612",
+   "ad": "Ninova'nın düşüşü (Yeni Asur'un sonu)",
+   "ad_yerel": "Ninua / Nīnawā",
+   "tur": "sehir",
+   "lat": 36.3564,
+   "lon": 43.1622,
+   "konum_tanik": [
+    {
+     "kaynak": "OSM Nominatim 'Nineveh archaeological site'",
+     "lat": 36.3564339,
+     "lon": 43.1621647
+    },
+    {
+     "kaynak": "Wikidata Q5680 P625 (dakika-yuvarlak 36°22'N 43°09'E)",
+     "lat": 36.366667,
+     "lon": 43.15
+    }
+   ],
+   "konum_not": "İki tanık ~1,6 km ayrışıyor. OSM esas alındı (arkeolojik alan poligonu merkezi; Wikidata değeri yuvarlak dakika). Pleiades Ninova kaydı ID'si bu oturumda bulunamadı.",
+   "kur": null,
+   "bit": {
+    "bas_mo": 612,
+    "son_mo": null,
+    "guven": "kaynak: Nabopolassar 14. yılı (612-611); Simanu–Abu ayları kuşatma",
+    "aralik_turu": "yazili",
+    "kaynak": "Grayson 1975, ABC 3 (Fall of Nineveh Chronicle), 14. yıl; Livius.org çevirisi (Grayson'dan uyarlama)",
+    "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/",
+    "alinti": "turned the city into a ruin heap",
+    "kaynak_sinifi": "veri-tabani"
+   },
+   "k": "fetih",
+   "d": "Babil ve Med ordularının üç aylık (Simanu–Abu) kuşatmasından sonra Ninova alınıp yağmalanır; Asur kralı Sin-shar-ishkun bu sırada ölür.",
+   "sahip_kultur": "Yeni Asur",
+   "ic_not": "Yıl hassasiyeti: kroniğin 14. yıl notu '612-611 BCE', Simanu'dan Abu'ya (≈ Haziran–Ağustos, doğrulanmadı) kuşatma; saldırı günü metinde 'Nth day' (kopuk). Aynı sayfada Ulûlu 20 = 14 Eylül 612 notu (Cyaxares'in dönüşü) var; bu düşüş tarihi değil. Sonrası: Asur direnişi Harran'da sürer (kaynaklanmadı). kur yok: Ninova'nın başkent olma tarihi (Sennacherib 704) Pleiades özetinde anıldı ama kaynak açılmadı.",
+   "okunan_sayfa": [
+    "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/",
+    "https://nominatim.openstreetmap.org/search?format=json&q=Nineveh archaeological site",
+    "https://www.wikidata.org/wiki/Special:EntityData/Q5680.json"
+   ],
+   "kur_baslik": null,
+   "bit_baslik": "Ninova düşer (Yeni Asur'un sonu)"
+  },
+  {
+   "id": "yeni-babil",
+   "ad": "Yeni Babil Devleti",
+   "ad_yerel": "Neo-Babylonian / Kaldean Babil",
+   "tur": "bolge",
+   "lat": 32.5373,
+   "lon": 44.42498,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 893951 Babylon reprPoint",
+     "lat": 32.53729695,
+     "lon": 44.42497815
+    },
+    {
+     "kaynak": "Wikidata Q5684 P625",
+     "lat": 32.5425,
+     "lon": 44.42111111
+    }
+   ],
+   "konum_not": "Başkent Babil noktası (bölge çokgeni değil). Fark ~0,7 km.",
+   "kur": {
+    "bas_mo": 626,
+    "son_mo": null,
+    "guven": "Nabopolassar'ın tahta çıkışı; Livius notu 23 Kasım 626",
+    "aralik_turu": "yazili",
+    "kaynak": "ABC 2 (Early Years of Nabopolassar) aktaran Livius.org ABC 3 sayfası; Grayson 1975 çevirisi",
+    "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/",
+    "alinti": "on the twenty-sixth day of Arahsamna Nabû-apla-usur sat upon the throne in Babylon",
+    "kaynak_sinifi": "veri-tabani"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Nabopolassar 626'da Babil tahtına oturur; Asur'u yıkan Babil devleti Nabonidus'un 17. yılında Kyros'a karşı düşer.",
+   "sahip_kultur": "Yeni Babil (Kaldean)",
+   "ic_not": "kur, devletin 'ilanı' değil Nabopolassar'ın tahta oturuşu (ABC 2). Takvim: Livius notu 23 Kasım 626. Bitişte 'Arahsamna' (8. ay) günü 3; Julian karşılığı kaynakta yok. Achaemenica.org (akademik olmayan) 29 Ekim 539 diyor, bu YALNIZ ikincil, çift teyit yok ⇒ atlas için yıl hassasiyeti (539) önerilir; gün ancak Parker & Dubberstein tablosu ya da Iranica ile (Iranica 403 verdi) doğrulanınca. Livius sayfasının '16. yıl'/'17. yıl' 539/538 etiketi tutarsız (aynı yıl iki kez), bu yüzden 17. yılın 539 olduğu ABC 7 sütun iii bağlamından (Opis, Sippar, Babil) alındı, sayfa notundan değil. Nabopolassar sonrası hükümdarlar (Nebukadnezar II vb.) bu oturumda kaynaklanmadı. [VERI-MO-ARKEO: Yeni Babil sonu (539) Ahameniş Babil fethi maddesinde (afrika-iran: ahamenis-babil-539) tutulur, mükerrer madde açılmadı.]",
+   "okunan_sayfa": [
+    "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/",
+    "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/"
+   ],
+   "kur_baslik": "Yeni Babil: Nabopolassar tahta çıkar",
+   "bit_baslik": null
+  },
+  {
+   "id": "babil-fethi-539",
+   "ad": "Ahameniş (Kyros) Babil'i fethi",
+   "ad_yerel": "Cyrus enters Babylon",
+   "tur": "sehir",
+   "lat": 32.5373,
+   "lon": 44.42498,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 893951 Babylon reprPoint",
+     "lat": 32.53729695,
+     "lon": 44.42497815
+    },
+    {
+     "kaynak": "Wikidata Q5684 P625",
+     "lat": 32.5425,
+     "lon": 44.42111111
+    }
+   ],
+   "konum_not": "Babil kent noktası; bkz. babil-eski-babil kaydı.",
+   "kur": {
+    "bas_mo": 539,
+    "son_mo": null,
+    "guven": "tek olay yılı; gün: 3 Arahsamna (Nabonidus 17)",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Grayson 1975, ABC 7 (Nabonidus Chronicle), iii.12-18; Livius.org çevirisi",
+    "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/",
+    "alinti": "On the sixteenth day, Ugbaru, governor of Gutium, and the army of Cyrus, without battle they entered Babylon.",
+    "kaynak_sinifi": "veri-tabani"
+   },
+   "bit": null,
+   "k": "fetih",
+   "d": "Kyros Opis'te Akad ordusunu yener, Sippar savaşsız alınır, Ugbaru'nun ordusu Babil'e girer (16. gün); Kyros 3 Arahsamna'da girer. Nabonidus yakalanır.",
+   "sahip_kultur": "Ahameniş",
+   "ic_not": "Sıra: Opis savaşı → Sippar 14. gün → Ugbaru Babil'e 16. gün → Kyros 3 Arahsamna (ABC 7 iii.12-18). Livius metninde Opis/Sippar/Ugbaru satırları için AY ADI yok (köşeli parantez, kayıp); ay ancak Tashritu diye ikincil sitede (Achaemenica, Antiquity Project) geçiyor ⇒ ben yazmadım. Cyrus Cylinder (British Museum W_1880-0617-1941) bu oturumda 403 verdi, açılamadı. Julian gün dönüşümü doğrulanmadı ⇒ yıl hassasiyeti 539; atlas için 'YYYY-01-01' + beyan önerilir (CLAUDE.md takvim kuralı) ya da Parker-Dubberstein/Iranica ile tamamlanmalı. Aynı kroniğe göre Ugbaru Arahsamna 11. gece ölür (iii.22).",
+   "okunan_sayfa": [
+    "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/"
+   ]
+  }
+ ],
+ "bulunamadi": [
+  "bulunamadı: Samarra kültürü kalibre tarihi (Tell es-Sawwan / Choga Mami) — denenen: Wikipedia özeti (tek dayanak olamaz: 5500-4800 / ince çanak 6200-5700), Radiocarbon liste (ham 14C, kalibre değil: 7456±73 BP vb. 'ham'), Choga Mami Iraq 1972 (ham, ~5270/5870 B.C.), Oates 1968 OI raporu (ham ~5000 B.C.), Helwing 2016 Paléorient 42(1):123-136, doi 10.3406/paleo.2016.5696 (yalnız özet okunabildi: 'Tell es-Sawwan mezarlığı (Building level I altı) MÖ 7. bin ortası, en erken PN' — bu Samarra'dan ÖNCE bir evre, Samarra kültürünün tarihi değil). Tam metin akademik kalibre aralık için Helwing 2016 PDF/Oates 2013 gerekli.",
+  "bulunamadı: Eridu XVIII. tabakanın bağımsız kalibre 14C tarihi — denenen: web özetlerinde Hritz vd. 2012 (kabuk 5837-5644 cal BC) anıldı ama makale açılmadı; Egberts 2023 'Ubaid 1 6000-5700' yalnız evre tablosu.",
+  "bulunamadı: Akkade (Agade) şehrinin koordinatı — denenen: Pleiades/Wikidata araması yapılmadı/sonuçsuz (konumlanamamış site).",
+  "bulunamadı: Cyrus Cylinder British Museum sayfası (403), Encyclopaedia Iranica 'Babylonian Chronicles' (403), academia.edu Helwing (403) — Opis/Sippar/Babil girişinin Julian karşılığı (12 ve 29 Ekim 539 iddiası yalnız Achaemenica.org'dan, kullanılmadı).",
+  "bulunamadı: Sümer şehir-devletleri Kiş/Lagaş/Ur Erken Hanedan dönem tarihleri — Egberts 2023 Tablo 1 ED I 2900-2600, ED IIIA 2600-2350 verir (yuvarlak dönem aralığı, şehir-özel DEĞİL); ARCANE III Tablo 39 Fara ca. 2575-2475?±30 ('rather impressionistic' diye kendi uyarısıyla) ve Presargonic Lagash I//Umma ca. 175 yıl, ca. 2475-2300±30 verir. Şehir-özel kuruluş yılları (Kiş I. Hanedanı vb.) kaynaklanmadı; atlas dosyasındaki Kiş/Lagaş bit değerleri Pleiades türetmesi, bu oturumda doğrulanmadı.",
+  "bulunamadı: Orta Asur / Yeni Asur imparatorluğu kuruluş-genişleme tarihleri; Hitit, Mitanni — brifte 'yalnız kaynak bulursan' dendiği için araştırılmadı.",
+  "bulunamadı: Nebukadnezar II dahil Yeni Babil hükümdar dizisi (yalnız Nabopolassar 626 ve 539 sonu kaynaklı).",
+  "UYARI mevcut atlas dosyası (data/yerlesimler_mo_sumer.js) kontrolü: Ur, Uruk, Eridu, Tell al-Ubaid, Kiş, Lagaş, Nippur koordinatları Pleiades/Wikidata/OSM ile ≤0,8 km uyumlu (Eridu 0,7, Uruk 0,3, Ur 0,3, Tell al-Ubaid <0,1). Babil, Aşşur, Ninova, Tell Halaf, Akkade 21 noktada YOK (mükerrer riski yok; eklenebilir). 'Tell al-Ubaid' kaydında tur:'kasaba' kullanılıyor, şema tur listesinde yok. Eridu bit:MS 499 (-5000…499 konum etiketi) Eridu'nun kentsel varlığı için zayıf; kaynaklanmadı. Girsu (31.56039,46.17764) vs Wikidata Q853946 (31.56526,46.18964): ~1,4 km fark, atlas Pleiades 912855 esaslı, düzeltme gerekmez ama not."
+ ]
+}
