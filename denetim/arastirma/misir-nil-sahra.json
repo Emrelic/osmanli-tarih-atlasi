@@ -1,0 +1,776 @@
+{
+ "bolge": "Mısır + Nil + Sahra, MÖ 10000–MS 1 (Kush/Napata/Meroe MS 350'ye kadar)",
+ "tarih_olcum": "20 Ekim 2026",
+ "not_genel": "Negatif son_mo = MS (ör. -350 = MS 350). Takarkori kaynağı yalnız cal BP verdiği için MÖ = cal BP - 1950 çevirisi bana aittir ve her kayıtta beyan edilmiştir. Mısır yazılı-dönem sınırları Erdil vd. 2025 (Bayes 14C + hanedan saltanat süreleri) modelidir; modelin 3 saltanat-süresi varyantı (P1 Hornung vd. 2006, P2 Kitchen, P3 Shaw 2000) ayrı verilmiştir, ortalama alınmamıştır. Aha/Mısır birleşmesi ve Badari başlangıcı brife göre TEKRARLANMADI (yalnız Naqada kaydının uç değeri olarak anılır).",
+ "kayitlar": [
+  {
+   "id": "naqada-kulturu",
+   "ad": "Nakade (Naqada) kültürü",
+   "ad_yerel": "Naqada culture (Naqada I–III)",
+   "tur": "kultur",
+   "lat": 25.9017,
+   "lon": 32.7242,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q959859 (Naqada, town) P625",
+     "lat": 25.9017,
+     "lon": 32.7242
+    },
+    {
+     "kaynak": "OSM Nominatim 'Naqada Qena Egypt' (village)",
+     "lat": 25.902087,
+     "lon": 32.724654
+    },
+    {
+     "kaynak": "Wikidata Q753391 (Naqada culture) P625",
+     "lat": 25.95,
+     "lon": 32.7333
+    }
+   ],
+   "konum_not": "Tanıklar arası fark <1 km (kültür öğesi Q753391 ~5 km kuzey, kültür alanı için kabaca). Esas alınan: yerleşim adı Naqada (Q959859 ile OSM örtüşüyor).",
+   "kur": {
+    "bas_mo": 3896,
+    "son_mo": 3616,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Dee M, Wengrow D, Shortland A, Stevenson A, Brock F, Girdland Flink L, Bronk Ramsey C. 2013. An absolute chronology for early Egypt using radiocarbon dating and Bayesian statistical modelling. Proc. R. Soc. A 469(2159):20130395, Tablo 1 (Bayes modeli, OxCal + IntCal09). doi:10.1098/rspa.2013.0395",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/",
+    "alinti": "Badarian start 4407 4308 4489 4266 end 3800 3667 3896 3616 duration Badarian",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 3218,
+    "son_mo": 3035,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Dee vd. 2013, Tablo 1 ('Aha (foundation of state) 3111 3045 3218 3035'); metin: 'The duration of the Naqada period is taken to be the time from the end of the Badarian to the accession of Aha.'",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/",
+    "alinti": "The duration of the Naqada period is taken to be the time from the end of the Badarian to the accession of Aha.",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kurulus",
+   "d": "Yukarı Mısır'ın Badari sonrası Predinastik kültürü; Naqada I-III evrelerini kapsar, Naqada IIIC'de I. Hanedan ile (Aha) siyasî birliğe varır.",
+   "sahip_kultur": "Naqada (Predynastic, Yukarı Mısır)",
+   "ic_not": "Başlangıç = Badarian'ın BİTİŞİ (Dee 2013 tanımı), 95% hpd 3896–3616 MÖ (tablo satırı 'end 3800 3667 3896 3616' = 68% 3800–3667, 95% 3896–3616). Bitiş = Aha'nın tahta çıkışı 95% 3218–3035 (68%: 3111–3045). Alt evre geçişleri (95% hpd, MÖ): Naqada IB/IC 3731–3550 (68%: 3690, 3605 = 3690–3605); IIB/IIC 3562–3367; IID/IIIA 3377–3238. 'Naqada IIIA başlangıcı geç 34. yy' (yazının ilk görüldüğü evre, Dee 2013 metni). Kronoloji okulu: Dee 2013 Bayes modeli (Yüksek/Kısa okul değil; radyokarbon+saltanat sırası). Aha bitişi ve Badari başlangıcı brif gereği ayrıca kaydedilmedi. Not: tablo 68% sütunlarında 'from' büyük/küçük sırası kaynakta '3690 3605 | 3731 3550' biçimindedir (68 from-to, 95 from-to).",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/"
+   ]
+  },
+  {
+   "id": "eski-krallik",
+   "ad": "Eski Krallık (Piramit Çağı)",
+   "ad_yerel": "Old Kingdom of Egypt",
+   "tur": "bolge",
+   "lat": 29.8447,
+   "lon": 31.2509,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q5715 (Memphis, ancient capital) P625",
+     "lat": 29.8447,
+     "lon": 31.2509
+    },
+    {
+     "kaynak": "OSM Nominatim 'Memphis Mit Rahina' (protected_area)",
+     "lat": 29.8544582,
+     "lon": 31.2615188
+    },
+    {
+     "kaynak": "Wikidata Q12246507 (Mit Rahina village) P625",
+     "lat": 29.8538,
+     "lon": 31.2538
+    }
+   ],
+   "konum_not": "Memphis (devlet başkenti) temsil noktası; devlet tüm Mısır'dır. Tanıklar arası ~1.5 km. Başkentin OK boyunca Memphis olduğu bu oturumda okunan kaynakta YOK (konum yalnız temsilî).",
+   "kur": {
+    "bas_mo": 2698,
+    "son_mo": 2629,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Erdil P, Webster L, Kuitems M, Knoblauch C, Bestock L, Höflmayer F, Beeckman H, Fuller DQ, Manning SW, Dee MW. 2025. Resolution of the High versus Low debate for Old and Middle Kingdom Egypt. PLoS ONE e0314612, Tablo 4, model P1 (saltanat süreleri: Hornung vd. 2006). doi:10.1371/journal.pone.0314612",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/",
+    "alinti": "Start of OK 2679 2642 2698 2629 2695 2652 2750 2635 2686 2648 2704 2632",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 2283,
+    "son_mo": 2204,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Erdil vd. 2025, Tablo 4, model P1 ('Start of FIP' = Birinci Ara Dönem başı = Eski Krallık sonu)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/",
+    "alinti": "Start of FIP 2267 2228 2283 2204 2220 2183 2236 2158 2247 2217 2262 2197",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kurulus",
+   "d": "Piramit Çağı krallığı; Erdil vd. 2025'e göre OK'nin başı MÖ ~2698–2629 (95%), Birinci Ara Dönem'e geçiş MÖ ~2283–2204 (95%). 'Low' kronoloji bu aralıkta artık desteklenmiyor.",
+   "sahip_kultur": "Eski Mısır — Eski Krallık",
+   "ic_not": "Üç varyant (95% hpd, MÖ). OK başı: P1 Hornung vd. 2698–2629; P2 Kitchen 2750–2635; P3 Shaw 2704–2632. FIP başı: P1 2283–2204; P2 2236–2158; P3 2262–2197. 68% hpd: OK başı P1 2679–2642, P2 2695–2652, P3 2686–2648; FIP başı P1 2267–2228, P2 2220–2183, P3 2247–2217. P1 'tek seçim' olarak alındı çünkü Hornung-Krauss-Warburton 2006 standart akademik başvurudur (gerekçe: çelişkide ortalama yok; üç varyant da yukarıda). Makale OK başının hangi hükümdarla (III. Hanedan başı) tanımlandığını bu oturumda okunan metinde açıkça belirtmiyor (yalnız 'Dynasty III and IV' etrafında modellerin 'cantilevered' olduğunu söylüyor) — hanedan eşlemesi AYRICA teyit gerekir. Brifteki Shaw 2000 / Hornung 2006 kitaplarının kendisi bu oturumda AÇILMADI; yalnız Erdil'in onlara atfettiği varyantlar kullanıldı.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/"
+   ]
+  },
+  {
+   "id": "birinci-ara-donem",
+   "ad": "Birinci Ara Dönem",
+   "ad_yerel": "First Intermediate Period",
+   "tur": "bolge",
+   "lat": 29.8447,
+   "lon": 31.2509,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q5715 (Memphis) P625",
+     "lat": 29.8447,
+     "lon": 31.2509
+    },
+    {
+     "kaynak": "OSM Nominatim 'Memphis Mit Rahina'",
+     "lat": 29.8544582,
+     "lon": 31.2615188
+    }
+   ],
+   "konum_not": "Temsilî nokta; dönem siyasî olarak parçalıdır (merkez yok). Atlas için bölge/devlet geometrisi ayrıca gerekir.",
+   "kur": {
+    "bas_mo": 2283,
+    "son_mo": 2204,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Erdil vd. 2025, Tablo 4 model P1 ('Start of FIP')",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/",
+    "alinti": "Start of FIP 2267 2228 2283 2204",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 2065,
+    "son_mo": 2037,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Erdil vd. 2025, Tablo 4 model P1 ('Start of MK')",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/",
+    "alinti": "Start of MK 2058 2045 2065 2037",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kayip",
+   "d": "Eski Krallık'ın merkezî otoritesinin çözülmesi ve Orta Krallık'ın başlangıcına kadar süren parçalı dönem; makale 4.2 ka kuraklık olayıyla (yaklaşık MÖ 2250) uyumu vurgular.",
+   "sahip_kultur": "Eski Mısır — Birinci Ara Dönem",
+   "ic_not": "Başlangıç (95%, MÖ): P1 2283–2204, P2 2236–2158, P3 2262–2197. Bitiş = MK başı (95%): P1 2065–2037, P2 2064–2038, P3 2070–2040. Dönem süresi bu iki ucun farkıdır; kaynak kendisi 'FIP süresi' vermedi — fark hesabı bana aittir ve ~150–200 yıl düzeyindedir (kanıtlı değildir, kullanmayın; uç değerler esastır). 4.2 ka olayı metinde 'c. 2250 BCE' diye geçer.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/"
+   ]
+  },
+  {
+   "id": "orta-krallik",
+   "ad": "Orta Krallık",
+   "ad_yerel": "Middle Kingdom of Egypt",
+   "tur": "bolge",
+   "lat": 25.7206,
+   "lon": 32.6103,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q101583 (Thebes, ancient Egyptian city) P625",
+     "lat": 25.7206,
+     "lon": 32.6103
+    },
+    {
+     "kaynak": "OSM Nominatim 'Karnak Temple Complex'",
+     "lat": 25.7196939,
+     "lon": 32.6527265
+    }
+   ],
+   "konum_not": "Tanıklar arası ~4.3 km (>3 km): Wikidata şehir noktası vs Karnak tapınak noktası. Esas alınan Wikidata Thebes kentsel öğesi. Temsilî: OK/MK başkentlerinin kaynakta okunmadığı için bu konum sadece 'Yukarı Mısır merkezi' temsili; Orta Krallık başkenti (İtj-tavi, Lişt) ayrıca araştırılmadı.",
+   "kur": {
+    "bas_mo": 2065,
+    "son_mo": 2037,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Erdil vd. 2025, Tablo 4 model P1 ('Start of MK')",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/",
+    "alinti": "Start of MK 2058 2045 2065 2037 2058 2045 2064 2038 2063 2048 2070 2040",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 1825,
+    "son_mo": 1799,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Erdil vd. 2025, Tablo 4 model P1 ('End of MK')",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/",
+    "alinti": "End of MK 1819 1806 1825 1799 1819 1807 1825 1800 1811 1794 1818 1784",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kurulus",
+   "d": "Mısır'ın ikinci büyük birlik dönemi; makale 'High' kronolojiyi destekler (Low reddedilir), Senusret III dönemi Uronarti (Sudan) kalesi kiriş halkalarıyla ölçülmüştür.",
+   "sahip_kultur": "Eski Mısır — Orta Krallık",
+   "ic_not": "95% hpd (MÖ): MK başı P1 2065–2037, P2 2064–2038, P3 2070–2040; MK sonu P1 1825–1799, P2 1825–1800, P3 1818–1784. 68%: MK başı P1 2058–2045; MK sonu P1 1819–1806. Atlas dikkat: 'End of MK' = Orta Krallık sonu; İkinci Ara Dönem başlangıcıyla (XIII. Hanedan sonu) aynı şey olduğu makalede ayrıca belirtilmedi — arada XIII. Hanedan uzun sürebilir; AYRICA teyit. Makalenin 'Low' kronoloji ret ifadesi: abstract 'the Low Chronology is no longer empirically supported for the Old and Middle Kingdoms'.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/"
+   ]
+  },
+  {
+   "id": "yeni-krallik",
+   "ad": "Yeni Krallık (XVIII. Hanedan başı: I. Ahmose)",
+   "ad_yerel": "New Kingdom of Egypt (accession of Ahmose I)",
+   "tur": "bolge",
+   "lat": 25.7206,
+   "lon": 32.6103,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q101583 (Thebes) P625",
+     "lat": 25.7206,
+     "lon": 32.6103
+    },
+    {
+     "kaynak": "OSM Nominatim 'Karnak Temple Complex'",
+     "lat": 25.7196939,
+     "lon": 32.6527265
+    }
+   ],
+   "konum_not": "Fark ~4.3 km; Thebes temsilî (Yeni Krallık siyasî merkezi), diğer merkezler (Memphis, Pi-Ramesses) ayrı.",
+   "kur": {
+    "bas_mo": 1570,
+    "son_mo": 1544,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Bronk Ramsey C vd. 2010, Radiocarbon-based chronology for dynastic Egypt, Science 328:1554 (IntCal04 + OxCal) — bu oturumda ORİJİNAL OKUNMADI; değer şu ikincil yayından alıntılanmıştır: Bruins HJ, van der Plicht J. 2025. The Minoan Thera eruption predates Pharaoh Ahmose. PLoS ONE e0330702. doi:10.1371/journal.pone.0330702",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12422448/",
+    "alinti": "The resulting age ranges are 1566–1552 BCE (1σ) and 1570–1544 BCE (2σ)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "I. Ahmose'nin tahta çıkışı (XVIII. Hanedan/Yeni Krallık başı) Bronk Ramsey vd. modelinde MÖ 1570–1544 (2σ).",
+   "sahip_kultur": "Eski Mısır — Yeni Krallık (XVIII. Hanedan)",
+   "ic_not": "KAYNAK ÇELİŞKİSİ (aynı makalede listelenen alternatifler, hepsi Ahmose tahta çıkışı): tarihsel (Sothis/saltanat) tahminler 1580–1557 (ref 88) ile 1524–1499 (ref 89) arası; Quiles vd. Bayes modeli 1564–1528 (2σ). Atlas için Bronk Ramsey 2010 değeri seçildi çünkü radyokarbon+Bayes, düşük/yüksek tarihsel uçlar arasında ortada yer alır (ortalama alınmadı, tek seçim). Orijinal Science makalesi (Bronk Ramsey 2010) ve brifteki Shaw 2000 / Hornung 2006 kitapları bu oturumda açılmadı — Yeni Krallık bitişi (XX. Hanedan sonu) için okunmuş kaynak YOK (bulunamadi'ya yazıldı).",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12422448/"
+   ]
+  },
+  {
+   "id": "fayum-erken-holosen",
+   "ad": "Fayum (Karun Gölü çevresi) Holosen iskânı",
+   "ad_yerel": "Fayum depression, Lake Qarun",
+   "tur": "bolge",
+   "lat": 29.4707,
+   "lon": 30.624,
+   "konum_tanik": [
+    {
+     "kaynak": "OSM Nominatim 'Lake Qarun Fayum' (lake)",
+     "lat": 29.4706656,
+     "lon": 30.6239506
+    },
+    {
+     "kaynak": "Wikidata Q1330952 (Lake Moeris) P625",
+     "lat": 29.4722,
+     "lon": 30.6142
+    },
+    {
+     "kaynak": "Wikidata Q4119367 (Lake Qarun Protected Area) P625",
+     "lat": 29.4667,
+     "lon": 30.6333
+    }
+   ],
+   "konum_not": "Tanıklar arası <1.2 km ama göl merkezi; Kom K/Kom W sitelerinin kendisine ait P625 tanığı BULUNAMADI (Wikidata Q109511049 'Kom K and Kom W' koordinatsız). Kuzey kıyıdaki Qasr el-Sagha: Wikidata Q11944150 (29.595, 30.6778), OSM 29.6010, 30.6704 — iki tanık 0.8 km, ama bu Orta Krallık/Eosen tapınağı yeridir, Kom K değil. Kayıt göl çevresi bölge için.",
+   "kur": {
+    "bas_mo": 7350,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Linseele V, Van Neer W, Thys S, Phillipps R, Cappers R, Wendrich W, Holdaway S. 2014. New archaeozoological data from the Fayum 'Neolithic' with a critical assessment of the evidence for early stock keeping in Egypt. PLoS ONE 9(10):e108517 (özet; metindeki tüm tarihler kalibre). doi:10.1371/journal.pone.0108517",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4195595/",
+    "alinti": "continuity with the earlier Holocene occupation from the Fayum, starting ca. 7350 BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 4850,
+    "son_mo": 4250,
+    "guven": "belirsiz",
+    "aralik_turu": "yerlesim-suresi",
+    "kaynak": "Linseele vd. 2014 (özet): Kom K ve Kom W yerleşimlerinin tarihi (bölgedeki son Neolitik evre).",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4195595/",
+    "alinti": "large faunal datasets from new excavations at Kom K and Kom W (4850–4250 BC)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "ilk_anilis",
+   "d": "Fayum'da MÖ ~7350'den itibaren Holosen balıkçı-avcı iskânı; evcil bitki-hayvan yaklaşık MÖ 5400'den itibaren; Kom K/W Neolitik yerleşimleri MÖ 4850–4250.",
+   "sahip_kultur": "Fayum Epipaleolitik / Fayum Neolitiği (kaynak 'Fayum Neolithic' tırnaklı kullanıyor)",
+   "ic_not": "7350 yalnız TEK değer ('starting ca. 7350 BC'); kaynak metnin hangi laboratuvar tarihine dayandığını özette belirtmiyor (tam metin sayfası açılıp ilgili tablolar ayrıca okunmalı). 'bit' alanı BİTİŞ DEĞİL: Kom K/W yerleşim süresidir, Fayum iskânının sonu değildir (daha sonra A/B kültür fazları yok sayıldı). Evcil bitki/hayvanlar 'first from approximately 5400 BC'. Kaynak Wendrich-Taylor-Southon 2010 (NIM B 268:999) 'fifth millennium BCE' ile uyumludur ama o makale açılmadı. 'Fayum A / Fayum B' etiketleri bu kaynakta kullanılmıyor, TARİHLEME YAPILMADI. Kaynaktaki 'Epipalaeolithic phase (7700–6700 BC)' ifadesi Djara'ya (Batı Çölü) ait, Fayum'a değil — KULLANILMADI.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4195595/"
+   ]
+  },
+  {
+   "id": "merimde-beni-salama",
+   "ad": "Merimde Beni Salama",
+   "ad_yerel": "Merimde Beni Salama (Merimde culture type-site)",
+   "tur": "sehir",
+   "lat": 30.3212,
+   "lon": 30.8486,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q135315708 (Merimde Beni Salama, archaeological site) P625",
+     "lat": 30.3212,
+     "lon": 30.8486
+    },
+    {
+     "kaynak": "Wikidata Q111948182 (Merimde Beni Salama, settlement) P625",
+     "lat": 30.316,
+     "lon": 30.85
+    },
+    {
+     "kaynak": "Wikidata Q1262502 (Merimde culture) P625",
+     "lat": 30.3208,
+     "lon": 30.8489
+    }
+   ],
+   "konum_not": "Wikidata öğeleri arası <0.6 km, ama üçü bağımsız tanık sayılmaz (aynı veri tabanı); OSM Nominatim 'Merimde/Beni Salama' bu oturumda SONUÇ VERMEDİ. Yani BAĞIMSIZ İKİNCİ TANIK YOK — ikinci tanık aranmalı.",
+   "kur": {
+    "bas_mo": 4931,
+    "son_mo": 4606,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "XRONOS veri tabanı, KN-3277 (Köln, kömür, 5890±60 BP, IntCal20, 2σ 6881–6871 ve 6855–6556 cal BP; atıflar: Eiwanger 1992, Hassan 1985). MÖ = cal BP - 1950 (benim çevirim).",
+    "url": "https://xronos.ch/c14s/23258",
+    "alinti": "KN-3277 Radiocarbon date from Merimde , c. 6881–6556 cal BP",
+    "kaynak_sinifi": "veri-tabani"
+   },
+   "bit": {
+    "bas_mo": 4713,
+    "son_mo": 4273,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "XRONOS veri tabanı, U-73 (Uppsala, tohum/meyve, 5640±100 BP, IntCal20, 2σ 6663–6278 ve 6230–6223 cal BP). MÖ = cal BP - 1950 (benim çevirim).",
+    "url": "https://xronos.ch/c14s/23248",
+    "alinti": "U-73 Radiocarbon date from Merimde , c. 6663–6223 cal BP",
+    "kaynak_sinifi": "veri-tabani"
+   },
+   "k": "ilk_anilis",
+   "d": "Batı Delta kıyısındaki Neolitik köy; Mısır'da evcil bitki-hayvan kanıtı veren en erken yerleşimlerden. (Hayvancılık yorumu: Linseele vd. 2014 Merimde'yi Fayum ve Saïs'le birlikte anar.)",
+   "sahip_kultur": "Merimde kültürü (Lower Egypt Neolithic)",
+   "ic_not": "BU KAYIT YERLEŞİM SÜRESİ DEĞİL: XRONOS'tan okunan 3 numune (KN-3277, KN-3276 [5790±60 BP: 6734–6449 cal BP = 4784–4499 MÖ], U-73) bağımsız olay aralıklarıdır; en eski/en genç numune uçları verilmiştir ('kur' = en eski numune, 'bit' = en genç numune). Eiwanger 1992 (Merimde-Benisalâme III) ve Hassan 1985 orijinalleri bu oturumda AÇILMADI; XRONOS 'bibliographic information available değil' diyor. Merimde faz (I–V) mutlak tarihleri için sağlam hakemli kaynak BULUNAMADI. Linseele 2014 tablosunda Merimde I–V faunası var ama mutlak tarih verilmiyor. Wikipedia (5000–4200) KULLANILMADI. Bruins & van der Plicht 2025'te geçmeyen; 'Merimde sheep 6000 BP' ham yaşı Royal Society Open Science (PMC10663795) alıntısında var, kalibre değil → YAZILMADI.",
+   "okunan_sayfa": [
+    "https://xronos.ch/c14s/23258",
+    "https://xronos.ch/c14s/23248",
+    "https://xronos.ch/c14s/65239",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4195595/"
+   ]
+  },
+  {
+   "id": "nabta-playa",
+   "ad": "Nabta Playa",
+   "ad_yerel": "Nabta Playa (Batı Çölü, Mısır)",
+   "tur": "bolge",
+   "lat": 22.5079,
+   "lon": 30.7257,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q1535226 (Nabta Playa) P625",
+     "lat": 22.5079,
+     "lon": 30.7257
+    },
+    {
+     "kaynak": "OSM Nominatim 'Nabta Playa Egypt' (ruins)",
+     "lat": 22.5079423,
+     "lon": 30.7257644
+    }
+   ],
+   "konum_not": "Tanıklar özdeş (<0.01 km); ancak iki tanığın bağımsızlığı zayıf olabilir (OSM düğümü Wikidata'dan türemiş olabilir). Brass 2007 metni 'Abu Simbel'in ~100 km batısı' der — tutarlı.",
+   "kur": {
+    "bas_mo": 8600,
+    "son_mo": 7800,
+    "guven": "belirsiz",
+    "aralik_turu": "tabaka-donem",
+    "kaynak": "Brass M. 2007. Reconsidering the emergence of social complexity in early Saharan pastoral societies, 5000–2500 B.C. Sahara 18:7–22, Tablo 1 ('Calibrated and uncalibrated chronology of the Holocene Nabta Playa phases. Compiled from data in Wendorf et al. 2001'). İlk iskân katmanları = El Adam evresi.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3786551/",
+    "alinti": "El Adam Humid Interphase 8600 – 7800 BC 9500 – 8900 bp",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 4500,
+    "son_mo": 3300,
+    "guven": "belirsiz",
+    "aralik_turu": "tabaka-donem",
+    "kaynak": "Brass 2007, Tablo 1: son nemli evre (Bunat El Ansam) — ardından 'Modern phase of hyper-aridity'.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3786551/",
+    "alinti": "Bunat El Ansam Humid Interphase 4500 – 3300 BC 5700 – 4500 bp",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "kurulus",
+   "d": "Mısır Batı Çölü'nde mevsimlik göl (playa) çevresinde Erken Holosen'den itibaren göçebe çoban-avcı toplulukları; geç dönemde tören/ritüel kompleksi (tümülüsler) görülür.",
+   "sahip_kultur": "El Adam / Erken–Orta–Geç Neolitik Nabta (Wendorf & Schild fazları)",
+   "ic_not": "Tablo NEM-EVRE (iklim) kronolojisidir, doğrudan 'yerleşim' tarihi değildir; Brass bunu Wendorf vd. 2001'den derlemiştir (orijinal Wendorf & Schild 2001 kitabı AÇILMADI). 'bit' aralığı = son nemli evre; sonrası hiper-kuraklık. Tablo satırında çevrim tutarlı: 8600–7800 BC ↔ 9500–8900 bp. Başka bir kaynak (WebSearch özeti, SAYFA AÇILMADI): 'earliest excavated sites calibrated radiocarbon dates of 10,300–9,800 BP' ve stel/tören 'Final Neolithic 4500–3400 cal BC' → DOĞRULANMADI, yazılmadı. Evcil sığır iddiası tartışmalıdır (Brass: Smith karşı çıkıyor; 'argued by the excavators' ifadesi). Ayrıca Brass: Nabta Playa'daki en eski tümülüsler 'around the end of the 6th millennium BC' (Brass, Paris 2000'e atıf).",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3786551/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12494898/"
+   ]
+  },
+  {
+   "id": "takarkori",
+   "ad": "Takarkori kaya sığınağı (Tadrart Acacus)",
+   "ad_yerel": "Takarkori rock shelter, Tadrart Acacus (Libya)",
+   "tur": "bolge",
+   "lat": 24.8833,
+   "lon": 10.3333,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q124881312 (Takarkori, archaeological site SW Libya) P625",
+     "lat": 24.8833,
+     "lon": 10.3333
+    }
+   ],
+   "konum_not": "YALNIZ BİR TANIK (kural en az iki). Wikidata Q308807 Tadrart Acacus de (24.8334, 10.3333) — yani Q124881312'nin boylamı ve enlemi masif merkezine çok yakın, kaba koordinat olabilir. OSM 'Takarkori' sonuç vermedi. Di Lernia vd. 2024: Acacus '26–24 enlem K arasında'. Ghat şehri (OSM 24.9626, 10.1797) ~16 km. Konum ±10–20 km belirsiz.",
+   "kur": {
+    "bas_mo": 8220,
+    "son_mo": 7450,
+    "guven": "belirsiz",
+    "aralik_turu": "tabaka-donem",
+    "kaynak": "di Lernia S, Buldrini F, Florenzano A, Mercuri AM, Nardi V, Rotunno R. 2024. Spatial analyses of archaeobotanical record reveal site uses and activities at Early to Middle Holocene Takarkori (Libya, Central Sahara). PLoS ONE e0310739, Tablo 1 (OxCal 4.4.4). Kaynak cal BP verir; MÖ = cal BP − 1950 (benim çevirim): 10170→8220, 9400→7450.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11498675/",
+    "alinti": "Late Acacus (LA) LA1 8900–8500 10170–9400 Hunter-gatherer-fishers",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 3950,
+    "son_mo": 2350,
+    "guven": "belirsiz",
+    "aralik_turu": "tabaka-donem",
+    "kaynak": "di Lernia vd. 2024, Tablo 1: Late Pastoral LP1 (5000–4000 uncal BP; 5900–4300 cal BP). MÖ çevirisi bana aittir (5900→3950, 4300→2350).",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11498675/",
+    "alinti": "Late Pastoral (LP) LP1 5000–4000 5900–4300 Specialized nomadic herders",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kurulus",
+   "d": "Libya Fezzan'ında Tadrart Acacus'ta kaya sığınağı: Geç Acacus avcı-toplayıcı-balıkçılardan (LA1 ilk iskân) Erken, Orta, Geç Pastoral çobanlara uzanan, kesintisiz stratigrafi (yeşil Sahra).",
+   "sahip_kultur": "Late Acacus → Early/Middle/Late Pastoral (di Lernia'nın faz adları)",
+   "ic_not": "Tablo notu: 'The calibrated dates express the maximum chronological range and overlaps are statistically possible' — aralıklar maksimum kalibre aralığıdır, evre sınırı değil. Faz tablosu (cal BP): LA1 10170–9400; LA2 9500–8600; LA3 9000–8000; EP1 8300–7600; EP2 7800–7300; MP1 7100–6200; MP2 6400–5600; LP1 5900–4300. Rotunno & Crema 2025 (Nat Commun, PMC12494898) pottery-bearing layers 'dated to 10,200 cal BP' der; Eramo vd. 2020 başlığı '10,200–4650 cal BP' (başlıkta; makale açılmadı). Uan Afuda için ayrı kayıt AÇILMADI (aşağıya bak). Yeşil Sahra aDNA makalesi (Nature 2025) bu oturumda açılmadı.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11498675/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12494898/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7029841/"
+   ]
+  },
+  {
+   "id": "erken-hartum",
+   "ad": "Erken Hartum (Khartoum Mezolitik)",
+   "ad_yerel": "Early Khartoum (Khartoum Mesolithic)",
+   "tur": "kultur",
+   "lat": 15.6031,
+   "lon": 32.5265,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q1963 (Khartoum, city) P625",
+     "lat": 15.6031,
+     "lon": 32.5265
+    },
+    {
+     "kaynak": "OSM Nominatim 'Khartoum Sudan' (administrative)",
+     "lat": 15.5635972,
+     "lon": 32.5349123
+    }
+   ],
+   "konum_not": "Tanıklar arası ~4.5 km (>3): Wikidata şehir noktası vs OSM yönetim sınırı merkezi. Kültür orta Sudan'a yayılır (Esh-Shaheinab, Al-Khiday vb.); Hartum şehri yalnızca bölge temsilidir, tip-site noktası değil. Al-Khiday: Wikidata Q124707012 (15.5, 32.4).",
+   "kur": {
+    "bas_mo": 8800,
+    "son_mo": 8500,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "D'Ercole G, Dunne J, Eramo G, Evershed RP, Garcea EAA vd. 2024. Esh-Shaheinab: The archetype of the Sudanese Neolithic, its premises and sequels. PLoS ONE e0309600; atıf: Garcea 2020, The Prehistory of the Sudan (Springer). Kaynak başlangıcı iki uç arasında verir (8800–8500).",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11527226/",
+    "alinti": "The overall Early Khartoum period in central Sudan is currently dated between 8800–8500 and 5000 BCE",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 5000,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "D'Ercole vd. 2024 (aynı cümle: 'and 5000 BCE'); Esh-Shaheinab Neolitiğinin başlangıcı ile çakışır.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11527226/",
+    "alinti": "between 8800–8500 and 5000 BCE",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Orta Sudan'da Nil kıyısında seramikli (dalgalı çizgi) avcı-toplayıcı-balıkçı Mezolitik; Arkell tarafından 'Khartoum Mesolithic' / 'Early Khartoum' adlandırıldı.",
+   "sahip_kultur": "Early Khartoum / Khartoum Mesolithic (Arkell adlandırması)",
+   "ic_not": "BAŞLANGIÇ BELİRSİZLİĞİ iki uç olarak verildi (8800 ve 8500), kaynak tek sayı vermiyor. Esh-Shaheinab'taki Erken Hartum katmanları radyometrik olarak tarihlenMEMİŞ (metin: 'have not been radiometrically dated'). Ayrıntı: 'Dotted Wavy Line horizon' Erken Hartum'un geç evresi olarak değerlendirilir. İkincil derleme (Garcea 2020) esas alındı; ilk kaynak kitabı açılmadı. Al-Khiday (7000–4000 cal BC) bir kaynak başlığında (Salvatori 2020, Archaeopress) geçiyor — başlık düzeyinde, içerik okunmadı.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11527226/"
+   ]
+  },
+  {
+   "id": "esh-shaheinab",
+   "ad": "Eş-Şeheynab (Shaheinab) Neolitiği",
+   "ad_yerel": "Esh-Shaheinab (Shaheinab Neolithic)",
+   "tur": "sehir",
+   "lat": 16.0633,
+   "lon": 32.5379,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q109284524 (Esh Shaheinab, archaeological site) P625",
+     "lat": 16.0624,
+     "lon": 32.5394
+    },
+    {
+     "kaynak": "OSM Nominatim 'Shaheinab' (village)",
+     "lat": 16.0633,
+     "lon": 32.5379
+    }
+   ],
+   "konum_not": "Tanıklar arası ~0.2 km; OSM köy noktası esas alındı.",
+   "kur": {
+    "bas_mo": 4700,
+    "son_mo": 4200,
+    "guven": "95.4",
+    "aralik_turu": "yerlesim-suresi",
+    "kaynak": "D'Ercole vd. 2024 (PLoS ONE e0309600): Arkell 1949-50 + 1979-80 kazıları kabuk/kömür tarihleri (OxCal 4.4 95.4%); yazarlar Neolitik iskân süresini bu şekilde yorumlar. Tekil kalibre aralıkları: 4611–4171, 4656–4352, 4774–4363 cal BCE; Arkell'in ilk (1940'lar) tarihleri 4988–2765 ve 5288–3516 cal BCE.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11527226/",
+    "alinti": "placing the timespan of the Neolithic occupation across the mid-fifth millennium BCE (4700–4200 BCE)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "ilk_anilis",
+   "d": "Orta Sudan'da Nil'e yakın Neolitik yerleşim (evcil hayvan, seramik, keski/gouge); tip-site olarak 'Shaheinab Neolitiği'ni tanımlar. Kültürün genel aralığı 5000–3800 BCE.",
+   "sahip_kultur": "Shaheinab Neolithic (Arkell: Gouge Culture)",
+   "ic_not": "'4700–4200' yazarların yorum aralığıdır (3 kabuk tarihinin medyanı 4391, 4504, 4568 cal BCE). Arkell'in ilk 1940'lar tarihleri çok geniş (σ ±450/±380) — kullanılmaz. Shaheinab Neolitiği genel aralığı '5000 and 3800 BCE' (kaynak, atıf Garcea 2020) → bit alanı yerleşim bitişi DEĞİL. Aynı site Meroitik mezarları (MÖ 280–MS 400) ve Geç Neolitik (MÖ 4. bin) içerir.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11527226/"
+   ]
+  },
+  {
+   "id": "pre-kerma",
+   "ad": "Ön-Kerma (Pre-Kerma) kültürü",
+   "ad_yerel": "Pre-Kerma",
+   "tur": "kultur",
+   "lat": 19.6008,
+   "lon": 30.4097,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q1107569 (Kerma) P625",
+     "lat": 19.6008,
+     "lon": 30.4097
+    },
+    {
+     "kaynak": "OSM Nominatim 'Kerma Sudan' (city)",
+     "lat": 19.593098,
+     "lon": 30.4091017
+    }
+   ],
+   "konum_not": "Tanıklar arası ~0.9 km. Esas alınan Wikidata Kerma (UNESCO dışı eski başkent). Pre-Kerma yerleşimi Kerma'nın doğu nekropolü çevresindedir (Bonnet vd. 1999 'agglomération pré-Kerma' haritası), kaba temsil.",
+   "kur": {
+    "bas_mo": 3500,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Le Moyne C, Roberts P, Hua Q, Bleasdale M, Desideri J, Boivin N, Crowther A. 2023. Ecological flexibility and adaptation to past climate change in the Middle Nile Valley (Kadruka 1 and 21). PLoS ONE 18:e0280347. 'later pre-Kerma period (3500–2500 BCE)'",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9894462/",
+    "alinti": "associated with the later pre-Kerma period (3500–2500 BCE)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 2500,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Le Moyne vd. 2023 (aynı ifade); Kerma dönemi başlangıcı ile örtüşür.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9894462/",
+    "alinti": "the Kerma period (2500–1450 BCE)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Kerma bölgesinde (Dongola Kolu/Nil Üçüncü Katarakt altı) Neolitik'ten Kerma'ya geçen, tarım depolama çukurları ve erken sosyal karmaşıklık gösteren kültür.",
+   "sahip_kultur": "Pre-Kerma (Yukarı Nubia)",
+   "ic_not": "'later pre-Kerma period (3500–2500 BCE)' ifadesi, daha ERKEN Pre-Kerma evresi olduğunu ima eder; erken evrenin başlangıcı bu kaynakta verilmiyor. Yani 3500 'geç Pre-Kerma' başlangıcıdır, kültürün ilk görünümü değildir. Aynı makale: 'first complex Nile Valley polities (Naqada, A-Group and pre-Kerma cultures)'. Honegger 2005 (Genava 53): Kerma'da Neolitik iskân MÖ ~4650, ~4500 civarı tabakalar (OCR'li tablo, k99/Genava 1999 s.78: 'vers 3000 av. J.-C.' / 'vers 4500' / 'vers 4650') — OCR güvensiz, kullanılmadı.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9894462/",
+    "https://kerma.ch/documents/Publications_PDF/Genava_1999/Rapport_1999.pdf"
+   ]
+  },
+  {
+   "id": "kerma-krallik",
+   "ad": "Kerma (Kush) krallığı/kültürü",
+   "ad_yerel": "Kerma culture / Kingdom of Kush (Kerma)",
+   "tur": "kultur",
+   "lat": 19.6008,
+   "lon": 30.4097,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q1107569 (Kerma) P625",
+     "lat": 19.6008,
+     "lon": 30.4097
+    },
+    {
+     "kaynak": "OSM Nominatim 'Kerma Sudan' (city)",
+     "lat": 19.593098,
+     "lon": 30.4091017
+    }
+   ],
+   "konum_not": "Tanıklar arası ~0.9 km. Kerma antik başkent (Doğu Nekropol + deffufa). Esas alınan Wikidata.",
+   "kur": {
+    "bas_mo": 2500,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Le Moyne vd. 2023, PLoS ONE 18:e0280347 (Kerma dönemi 2500–1450 BCE). İkinci tanık: Bonnet C, Honegger M, Valbelle D vd. 1999, Genava 47 (Kerma raporu), tablo: Kerma nekropolü 'entre 1450 ... et 2450 av. J.-C.', ~40 14C tarihi + Mısır ithal seramiği (OCR'den okundu, güvensiz).",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9894462/",
+    "alinti": "increased throughout the Kerma period (2500–1450 BCE)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 1450,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Le Moyne vd. 2023 (Kerma dönemi sonu 1450 BCE); Genava 1999 tablosunda da 1450 (OCR).",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9894462/",
+    "alinti": "the Kerma period (2500–1450 BCE)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "kurulus",
+   "d": "Üçüncü Katarakt altında Kerma merkezli Nubya krallığı; Eski Kerma (~2500), Orta, Klasik Kerma evrelerinden geçip MÖ ~1450'de bitiş. Honegger 2005: 'Kerma Classique (vers 1500 av. J.-C.)' kuşatılmış yerleşim.",
+   "sahip_kultur": "Kerma culture (Ancien/Moyen/Classique/Récent)",
+   "ic_not": "KAYNAK KÜÇÜK FARKI: Le Moyne 2023 başlangıç 2500; Bonnet vd. 1999 (Genava) tablosu OCR'den 2450 okunuyor (±50). WebSearch özetinde (SAYFA AÇILMADI) 'Early Kerma 2550–2050, Kerma Moyen 2050–1750' Honegger/Bonnet'e atfedildi; Kerma Ancien/Moyen/Classique/Récent SINIRLARI için okunmuş temiz hakemli kaynak YOK, Wikipedia/Heritage Daily kullanılmadı. Mısır'ın fethi (I. Thutmose ~MÖ 1500 civarı) ile bitiş — Yeni Krallık başı (Ahmose 1570–1544) ile çakışma kontrol edilmeli. Honegger 2005 (Genava 53, s.239-250) 'Kerma Classique (vers 1500 av. J.-C.)' ifadesi.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9894462/",
+    "https://kerma.ch/documents/Publications_PDF/Genava_2005/PP_239-250_Honegger_bd.pdf",
+    "https://kerma.ch/documents/Publications_PDF/Genava_1999/Rapport_1999.pdf"
+   ]
+  },
+  {
+   "id": "napata",
+   "ad": "Napata (Cebel Barkal)",
+   "ad_yerel": "Napata / Jebel Barkal",
+   "tur": "sehir",
+   "lat": 18.5368,
+   "lon": 31.8276,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q499019 (Jebel Barkal, mountain) P625",
+     "lat": 18.5368,
+     "lon": 31.8276
+    },
+    {
+     "kaynak": "OSM Nominatim 'Jebel Barkal' (peak)",
+     "lat": 18.5372529,
+     "lon": 31.828359
+    }
+   ],
+   "konum_not": "Tanıklar arası <0.1 km. Antik Napata kenti dağın dibinde; dağ noktası temsil.",
+   "kur": {
+    "bas_mo": 1500,
+    "son_mo": 1450,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Peeters J, Winkels TG, Wolf P, Skuldbøl TBB, Chamberlain EL, Büchner-Matthews S, Elamin SM ve ark. 2026. Holocene Nile dynamics shaped the physical and cultural landscape of ancient Nubia. PNAS e2529986123. doi:10.1073/pnas.2529986123. 'early to mid-15th century BCE' ifadesinin sayısal karşılığı (1500–1450) benim yorumumdur.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142976/",
+    "alinti": "Napata was originally founded as an Egyptian fortified outpost during the New Kingdom in the early to mid-15th century BCE",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Yeni Krallık'ta Mısır'ın tahkim edilmiş karakolu olarak kuruldu; Kush hanedanının (Napata dönemi 1070–300 MÖ) başlıca kenti, Meroe dönemi (300 MÖ–MS 350) boyunca önemini korudu.",
+   "sahip_kultur": "Kush krallığı (Napata dönemi)",
+   "ic_not": "'bit' null: kentin terkedilişi okunmadı. Kaynak ifadesi: Napata kenti Kush'un başlıca merkezi olarak 1070 MÖ'den MS 350'ye ('for over a millennium (1070 BCE to 350 CE)'); Napata dönemi 1070–300 MÖ, Meroitik dönem 300 MÖ–MS 350. Kuruluş: 15. yy MÖ erken-ortası (Mısır karakolu, Peeters vd. 2026'nın atıfları ref 17, 18 — bu atıflar açılmadı). Napata'nın 'Kush devlet merkezi' oluşu 1070 MÖ (Peeters ifadesi); 'kur' alanı kentin kuruluşu (15. yy), Kush merkezi oluşu için ayrı kayıt 'napata-donemi' kullanın. Yeni Krallık'ın Kush fethi öncesi Kerma bitişiyle (1450) tutarlıdır.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142976/"
+   ]
+  },
+  {
+   "id": "napata-donemi-kush",
+   "ad": "Kush krallığı — Napata dönemi",
+   "ad_yerel": "Napatan period of Kush",
+   "tur": "kultur",
+   "lat": 18.5368,
+   "lon": 31.8276,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q499019 (Jebel Barkal) P625",
+     "lat": 18.5368,
+     "lon": 31.8276
+    },
+    {
+     "kaynak": "OSM Nominatim 'Jebel Barkal'",
+     "lat": 18.5372529,
+     "lon": 31.828359
+    }
+   ],
+   "konum_not": "Napata merkez temsil noktası; devlet Nil boyunca uzanır.",
+   "kur": {
+    "bas_mo": 1070,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Peeters vd. 2026, PNAS (Napata/Jebel Barkal; Napatan period 1070 to 300 BCE)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142976/",
+    "alinti": "principal urban center of the Kushite dynasty during much of the Napatan period (1070 to 300 BCE)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": {
+    "bas_mo": 300,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Peeters vd. 2026 (Napatan period sonu 300 BCE; 'shift in the Kushite center of power from Napata to Meroe around 300 BCE')",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142976/",
+    "alinti": "shift in the Kushite center of power from Napata to Meroe around 300 BCE",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "k": "kurulus",
+   "d": "Kush hanedanının Napata merkezli dönemi; merkez MÖ ~300'de Meroe'ye kayar. Mısır'ı fetheden XXV. Hanedan (Kush) bu dönemde olur — XXV. Hanedan tarihleri bu kaynakta YOK.",
+   "sahip_kultur": "Napatan (Kushite) dönemi",
+   "ic_not": "Dönem sınırları arkeolojik/dönemsel anlatımdır (1070–300 MÖ, 'much of' ifadesi); 1070 değeri tek sayıdır, 'Egypt'in Üçüncü Ara Dönemi başlangıcı' ile ilgisi bu kaynakta açıklanmadı. 300 MÖ 'around' (yaklaşık). Kuraklık nedenli kayma önerisi (climate-induced desiccation 'may have contributed') — yorumdur, kanıtlı değildir.",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142976/"
+   ]
+  },
+  {
+   "id": "meroe-donemi-kush",
+   "ad": "Kush krallığı — Meroe dönemi",
+   "ad_yerel": "Meroitic period (Meroe)",
+   "tur": "kultur",
+   "lat": 16.9351,
+   "lon": 33.7507,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q5780 (Meroë, ancient city) P625",
+     "lat": 16.9351,
+     "lon": 33.7507
+    },
+    {
+     "kaynak": "OSM Nominatim 'Meroe Sudan' (archaeological_site)",
+     "lat": 16.9380862,
+     "lon": 33.7480636
+    }
+   ],
+   "konum_not": "Tanıklar arası ~0.4 km.",
+   "kur": {
+    "bas_mo": 300,
+    "son_mo": null,
+    "guven": "belirsiz",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Peeters vd. 2026 PNAS: 'subsequent Meroitic period (300 BCE to 350 CE)'",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142976/",
+    "alinti": "remained an important city during the subsequent Meroitic period (300 BCE to 350 CE)",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "Kush merkezinin Napata'dan Meroe'ye kayması (yaklaşık MÖ 300) ile başlayan, MS 350'ye uzanan Meroe dönemi.",
+   "sahip_kultur": "Meroitic (Kush)",
+   "ic_not": "MS 350'nin neyin sonu olduğu bu kaynakta açık değil (kayıt: dönem adı sınırı). Meroitik dönem sonu için ikinci bir kaynak (Esh-Shaheinab makalesi 'Meroitic (280 BCE–CE 400)' der) FARKLI sınır verir: 280 MÖ–MS 400 → İKİ KAYNAK ÇELİŞKİSİ (300–350 vs 280–400); 'Peeters 2026' seçildi çünkü konu Napata/Meroe'dir; D'Ercole 2024 yalnız mezar tipinin bağlamı olarak sayar. Meroe kentinin kendi kuruluş tarihi okunmadı. [VERI-MO-ARKEO: dönem sonu MS 350 bu MÖ katmanının dışında, bit yazılmadı.]",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142976/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11527226/"
+   ]
+  }
+ ],
+ "bulunamadi": [
+  "bulunamadı: Hierakonpolis (Nekhen) mutlak (kalibre) yerleşim/Naqada I-II tarihi — denenen: Dee 2013 (PMC3780825; Hierakonpolis modellenmiş dört Yukarı Mısır sitesinden biri olarak geçer ama site-bazlı aralık tabloda yok), WebSearch 'Hierakonpolis HK6 HK11C radiocarbon' (sonuçlarda yalnız Burleigh 1983 ham 5000±90 BP kabuk tarihi ve göreli faz Naqada IC–IIB; sayfalar AÇILMADI → yazılmadı). Wikidata Nekhen Q278988 (25.0972, 32.7794) var; tarihi yok.",
+  "bulunamadı: Uan Afuda mağarası mutlak tarih aralığı — denenen: WebSearch özeti (9765±105 BP GX-20750'den 8000±100 BP GX-18104'e; 'cal. 7070-6750 BC' tek bir kuru dışlama satırı) — SAYFA AÇILMADI, kalibre sınır teyitsiz; di Lernia 1999 monografı (Arid Zone Archaeology Monographs 1) açılamadı; PMC11498675 ve PMC7029841 Uan Afuda'yı yalnız komşu/koevel site olarak anar.",
+  "bulunamadı: Merimde Beni Salama faz (I–V) ve yerleşim süresi için hakemli yayın — denenen: XRONOS (yalnız 3 numune), PMC4195595, PMC10663795 ('sheep 6000 BP' ham yaş), Wikipedia/sonuçlar kullanılmadı.",
+  "bulunamadı: Nabta Playa için Wendorf & Schild 2001 (Holocene Settlement of the Egyptian Sahara I) ve Wendorf-Schild 1998 (J. Anthropol. Archaeol. 17:97–123) birincil kronoloji tabloları — denenen: books.ub.uni-heidelberg.de (Anubis ile engelli), kar.zcu.cz PDF (açılmadı); Brass 2007 ikincil derlemesi kullanıldı.",
+  "bulunamadı: Kerma Ancien/Moyen/Classique/Récent sınırlarının hakemli ve temiz metni — denenen: kerma.ch Honegger 2005 (Genava 53), Bonnet 1999 (OCR bozuk), Rapport 2013 (sınır tablosu çıkmadı); WebSearch özetinde (açılmadı) Honegger: Early Kerma 2550–2050, Kerma Moyen 2050–1750 BC.",
+  "bulunamadı: Mısır Yeni Krallık sonu (XX. Hanedan sonu/III. Ara Dönem başı) ve İkinci Ara Dönem başı için okunmuş kaynak — Erdil 2025 yalnız OK ve MK, Bruins & van der Plicht 2025 yalnız XVII–XVIII. Hanedan'dır. Shaw 2000 / Hornung-Krauss-Warburton 2006 kitapları bu oturumda açılamadı.",
+  "bulunamadı: Takarkori için ikinci bağımsız koordinat tanığı (yalnız Wikidata Q124881312 var; OSM'de yok; GeoNames/UNESCO denenmedi).",
+  "bulunamadı: Kom K / Kom W / Fayum A–B kültürleri için ayrı koordinat ve Epipaleolitik (Qarunian) mutlak aralığı — denenen: PMC4195595 (yalnız 'ca. 7350 BC' ve 4850–4250 BC verir), Wendrich-Taylor-Southon 2010 (NIM B 268:999; açılmadı).",
+  "bulunamadı: Kush'un Napata'dan önceki dönemine (Kerma sonrası — Mısır fethi ~1450 → 1070) ait sınır; XXV. Hanedan (Kush) tarihleri; Meroe kentinin kuruluş tarihi — Peeters 2026'da yok.",
+  "bulunamadı: Napata kentinin terk/son tarihi (bit null) — Peeters 2026 yalnız '1070 BCE to 350 CE' önem süresini verir."
+ ]
+}

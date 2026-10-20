@@ -10,5 +10,5 @@ py $U denetim/arastirma/hint.json hint --haric mohenjo-daro,maurya-magadha
 py $U denetim/arastirma/amerika.json amerika
 py $U denetim/arastirma/afrika-okyanusya-iran.json afrika-iran --haric dhar-tichitt,urartu-tushpa
 [ -f denetim/arastirma/mezopotamya.json ] && py $U denetim/arastirma/mezopotamya.json mezopotamya $MEZO_ARGS
-[ -f denetim/arastirma/misir-nil-sahra.json ] && py $U denetim/arastirma/misir-nil-sahra.json misir-nil-sahra $MISIR_ARGS
+[ -f denetim/arastirma/misir-nil-sahra.json ] && py $U denetim/arastirma/misir-nil-sahra.json misir-nil-sahra --haric merimde-beni-salama,nabta-playa
 exit 0
