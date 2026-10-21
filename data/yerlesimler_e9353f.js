@@ -235,7 +235,7 @@ window.YERLESIMLER_E9353F = [
 // ⚠️ İngiliz yılı GÜN hassasiyetinde değil — TDV yalnız 1903'ü veriyor.
 //   §4'ün "gün bilinmiyorsa YYYY-01-01" kuralıyla yazdım.
 { ad:"Kano", tur:"sehir", lat:12.000, lon:8.517, g:1, k:1,
-  s:[{f:"1281-01-01", t:"1807-01-01", d:"hausa-sehir-devletleri", kaynak:"kano"},
+  s:[{f:"1000-01-01",t:"1281-01-01",d:"hausa-sehir-devletleri",kesinlik:"yuzyil",kaynak:"TDV İslâm Ansiklopedisi, hevsa (https://islamansiklopedisi.org.tr/hevsa; ham metin tdvc/hevsa.txt): «Başlıcaları Kano, Katsina, Gobir, Zaria, Biram, Rano ve Daura olan bu şehir devletlerinin» ; TDV İslâm Ansiklopedisi, hevsa (https://islamansiklopedisi.org.tr/hevsa; ham metin tdvc/hevsa.txt): «Onun XI. yüzyılın başlarında o güne kadar sihirbazlar tarafından yönetilen animist toplulukları birleştirdiği sanılmaktadır» || BEYANLI: Kano Kroniği (TDV: XIX. yy. sonu derlemesi) ilk hükümdar Bagoda'yı XI. yy. başına yerleştirir (\"sanılmaktadır\"); Kano Hausa şehir devleti olarak anılır. XI. yy. öncesi (1000-1001 civarı) kesinliği yok. f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). · VERI-MS1-1281"},{f:"1281-01-01", t:"1807-01-01", d:"hausa-sehir-devletleri", kaynak:"kano"},
      {f:"1807-01-01", t:"1903-01-01", d:"sokoto", kaynak:"kano"},
      {f:"1903-01-01", t:"1960-10-01", d:"ingiltere", kaynak:"kano"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
