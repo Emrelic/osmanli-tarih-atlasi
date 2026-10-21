@@ -61,6 +61,9 @@ def kunyeler():
 
 # sahip dizgisi (regex) → künye id | None (künyesi yok) ; ilk eşleşen kazanır
 OWNER_MAP = [
+    (r"Ahameniş Mısır", "ahamenis-misir"), (r"^Kerma Krallığı", "kerma"), (r"^Hitit", "hitit"), (r"^Ugarit", "ugarit"),
+    (r"^Yahuda", "yahuda"), (r"^Israil|^İsrail", "israil-krallik"), (r"^Aram-Şam", "aram-sam"), (r"^Nabatiye", "nabatiye"),
+    (r"^Urartu", "urartu"), (r"^Ptolemaios", "ptolemai"), (r"^Roma \(", "roma-imp"),
     (r"Lugalzagesi", None), (r"Enşakuşana", None), (r"Gutium egemenliğinde Umma", "gutium"), (r"^Gutium|Gutium çağı", "gutium"),
     (r"Akad İmparatorluğu", "akad"), (r"Ur III", "ur-3"),
     (r"İsin I Hanedanı", "isin"), (r"Larsa", "larsa"), (r"Babil I Hanedanı|Eski Babil", "babil-eski"),
@@ -155,12 +158,14 @@ def main():
         # dönemleri sırala
         P = []
         for p in s["donemler"]:
-            if p.get("dolayli_cikarim"):
-                continue
+            if p.get("dolayli_cikarim") or p.get("celiskili"):
+                continue                               # çelişkili (okullar arası) dönem YAZILMAZ (ajan önerisi; çelişki araştırma JSON'unda)
             if p.get("bas_mo") is None:
                 # başlangıç kaynakta yok: sahip künye ise dönem künyenin kendi f'sinden başlar (künye f'si kaynaklı)
-                if p.get("sahip") in KU and p.get("yil_durumu") != "yil-bulunamadi" and p.get("son_mo") is not None:
+                _k = eslestir(p["sahip"], KU, "0000-01-01", "0001-01-01") if p.get("sahip") else None
+                if _k and len(_k) == 1 and p.get("yil_durumu") != "yil-bulunamadi" and p.get("son_mo") is not None:
                     p = dict(p)
+                    p["_kid"] = _k[0]
                     p["bas_mo"] = 10 ** 6                      # sentinel: aşağıda künye f'sine çekilir
                     p["_bas_kunye"] = True
                 else:
@@ -175,7 +180,7 @@ def main():
         # künye parçaları
         seg = []                                       # dict(f,t,d,kaynak,p)
         for i, p in enumerate(P):
-            f = KU[p["sahip"]][1] if p.get("_bas_kunye") else iso(p["bas_mo"])
+            f = KU[p["_kid"]][1] if p.get("_bas_kunye") else iso(p["bas_mo"])
             if p.get("son_mo") is not None:
                 t = iso(p["son_mo"])
             else:

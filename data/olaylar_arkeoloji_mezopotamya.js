@@ -43,7 +43,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "k": "kayip",
   "b": "Eski Babil (Babil I Hanedanı, Hammurabi): Babil I Hanedanı sona erer (Samsuditana)",
   "gun": "MÖ 1595",
-  "yer": "Babilim / Babil / Ur / Mari / Ur / Ur / Ur",
+  "yer": "Babilim / Babil / Ur / Mari / Ur / Ur / Ur / Nippur",
   "d": "Hammurabi (MC 1792-1750) Babil'i Güney ve Orta Mezopotamya'nın siyasî merkezi yapar; Babil I Hanedanı Samsuditana'nın son yılında (MC 1595/1597) biter.",
   "kaynak": "ARCANE III s. 5 ve 6: 'Samsuditana year 31, MC 1595/1597' (Babil I sonu); Tablo 39 '1595/1597' · http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
   "kesinlik": "onyil",

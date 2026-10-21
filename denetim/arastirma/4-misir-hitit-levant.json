@@ -1,0 +1,2703 @@
+{
+ "bolge": "Misir, Nubya/Kush/Aksum, Hitit/Anadolu krallıkları, Levant devletleri (MO 3000 - MS 500)",
+ "tarih_olcum": "21 Ekim 2026",
+ "dalga": 4,
+ "kronoloji_notu": "Atlas devletler.js yil gosterimi astronomiktir: '-0549' = MO 550 (MO N = -(N-1)); bu dosyada tum yillar MO sayisi (pozitif), MS negatif. Misir: Bronk Ramsey 2010 (Shaw 2000 saltanat surelerine kurulu 14C+Bayes) ve Erdil vd. 2025 (Hornung/Kitchen/Shaw ucune ayri model) 'Yuksek' kronolojiyi destekler; Bruins-van der Plicht 2025 tablosu Ahmose cikisini Breasted 1580 ... Krauss-Warburton 1524 arasinda okul okul verir (dosyada Shaw 1550, Hornung 1539). Yakin Dogu: Orta Kronoloji (Babil'in dusus 1595) - Manning vd. 2016 (Kultepe/Acemhoyuk dendro+14C) yalniz Orta Kronoloji ile uyumlu bulur; Hitit krallarinin Manning 2023'teki tarihleri de Orta Kronoloji'dir. Ramses II'nin cikisi iki kronoloji arasinda 1279 (gelenek) / 1290 (yeni): Manning 2023 yeni tarihe 11 yil 'eski' kaydirma uygular. ASURCA: AEBP (UCL) tarihleri: Tiglat-pileser III 744-727, Salmanassar V 726-722, Sargon II 721-705. HERHANGI bir 'gecis' tarihinde kaynak sessizse donem yazilmadi; kaynaklar arasi cakisma 'celiskiler' bolumundedir ve tek deger secilmedi.",
+ "kunyeler": [
+  {
+   "id": "roma-misiri",
+   "ad": "Roma Misiri (Aegyptus eyaleti)",
+   "tur": "eyalet",
+   "bolge": "misir-sudan",
+   "f_mo": 30,
+   "f_gun_not": "Octavianus Iskenderiye'yi 1 Agustos 30 MO'da aldi (bu oturumda YALNIZ \"August of 30 B.C.\" okundu); resmi sayim baslangici 1 Thoth = 29 Agustos 30 MO",
+   "t_mo": null,
+   "t_not": "Bu calismanin kapsami (MS 500) icinde kaynaklanmis bir bitis okunmadi; Bizans/Arap fetih tarihleri ayri dalga",
+   "baskent": "Iskenderiye",
+   "kaynak": "Bowman AK. 1996. \"Egypt\", The Cambridge Ancient History (2. bs.), s. 676-702 (doi:10.1017/CHOL9780521264303.025); Muhs B. 2016. The Ancient Egyptian Economy: 3000-30 BCE, bol. 7 \"The Ptolemaic Period (332-30 BCE)\", s. 211-252. Cambridge University Press (doi:10.1017/CBO9781316286364.008)",
+   "url": "https://www.cambridge.org/core/books/cambridge-ancient-history/egypt/C5873D3CD7ABF1F42AB65D9E45BC8168",
+   "alinti": "In August of 30 B.C., some ten months after the Battle of Actium, Octavian had pursued Cleopatra and Mark Antony to Egypt.",
+   "kronoloji_okulu": "yok (yazili tarih)",
+   "ic_not": "Muhs 2016: \"Ptolemaic Dynasty (305-30 BCE)\" ve Romalilarin 30 MO'da fethi (ikinci bagimsiz tanik). Mevcut ptolemai kunyesi t=-0029-08-01 (MO 30-08-01) ile uyumlu. Roma tarafinda sahip kunyesi 27 MO-01-16'ya kadar roma-cumhuriyeti, sonra roma-imp (mevcut)."
+  },
+  {
+   "id": "frig-krallik",
+   "ad": "Frig (Phrygia) Krallığı",
+   "tur": "krallik",
+   "bolge": "anadolu",
+   "f_mo": null,
+   "f_aralik_mo": [
+    950,
+    800
+   ],
+   "f_not": "Penn Museum Gordion: \"Phrygian state\" olusumu ca. 950-800 MO (Erken Frig; Citadel Mound anitsal kale); tek yil verilmedi",
+   "t_mo": null,
+   "t_aralik_mo": null,
+   "t_not": "Kaynakli kesin bitis yok: Lidya egemenligi \"MO 6. yy ilk yarisi, hatta daha once\" (Penn); Pers fethi 540'lar (Kucuk Hoyuk yangini, Kyros II); Strabon'un Kimmer anlatisi (MO ~700) Penn tarafindan \"supheli\". Pleiades Muski adi MO 720-540 atif araligi.",
+   "baskent": "Gordion",
+   "kaynak": "Digital Gordion, Penn Museum (Univ. of Pennsylvania Museum of Archaeology and Anthropology), Gordion Project - Chronology ve Iron Age Gordion sayfalari (kurum ici, imzasiz); Pleiades 907036116 (ikinci tanik, veri-tabani)",
+   "url": "https://www.penn.museum/sites/gordion/history/iron-age-gordion/",
+   "alinti": "Assyrian records place him in power as late as 709 BCE (Midas); great fire destroyed part of the citadel around 800 BCE.",
+   "kronoloji_okulu": "Gordion dendro+14C (yeni kronoloji ~800 MO yikim seviyesi); eski kronoloji ~700 MO",
+   "ic_not": "Midas Asur kayitlarinda en az 717-709 MO (Penn Chronology). Tumulus MM tomruklari MO 740 +7/-3 kesilmis (Midas degil muhtemelen babasi). Metin WebFetch (ozetleyici arac) uzerinden okundu; alinti dogrudan sayfa metninden degil arac ciktisindandir - kutuphane/PDF ile dogrulanmasi onerilir."
+  }
+ ],
+ "kunye_karsilastirma": [
+  {
+   "mevcut_kunye_id": "misir-erken-hanedan",
+   "atlas_f_mo": 3100,
+   "atlas_t_mo": 2686,
+   "durum": "kismen-teyit",
+   "kaynak_f": "bulunamadi (birlesme ~3100: bu oturumda kaynak okunmadi; UNESCO Memphis: \"Traditionally believed to have been founded in 3000 BC as the capital of a politically unified Egypt\")",
+   "kaynak_t": "Eski Krallik basi (Djoser/3. hanedan) 95%: 2691-2625 [Bronk Ramsey 2010]; 2704-2632 (Shaw suresi), 2698-2629 (Hornung), 2750-2635 (Kitchen) [Erdil 2025]",
+   "kunye_celiskisi": {
+    "f_atlas": 3100,
+    "f_unesco_gelenek": 3000,
+    "t_atlas": 2686,
+    "t_95": "2625-2704 araligi"
+   },
+   "not": "Atlas t=MO 2686 modellenmis aralik icinde. f icin UNESCO \"3000 BC\" geleneksel; kaynak aralik degil. Hornung 2006 / Hendrickx tipi Naqada III kronolojisi okunmadi."
+  },
+  {
+   "mevcut_kunye_id": "misir-eski-krallik",
+   "atlas_f_mo": 2686,
+   "atlas_t_mo": 2181,
+   "durum": "cakisma-t",
+   "kaynak_f": "2691-2625 (Bronk Ramsey 2010 Djoser cikisi, 95%); 2704-2632 (Erdil P3 Shaw), 2698-2629 (P1 Hornung), 2750-2635 (P2 Kitchen)",
+   "kaynak_t": "1. Ara Donem BASI (Erdil 2025 Tablo 4, 95% hpd): P3 Shaw 2262-2197; P1 Hornung 2283-2204; P2 Kitchen 2236-2158. 68%: P3 2247-2217, P1 2267-2228, P2 2220-2183",
+   "kunye_celiskisi": {
+    "atlas_t": 2181,
+    "model_t_95": {
+     "P1": [
+      2283,
+      2204
+     ],
+     "P2": [
+      2236,
+      2158
+     ],
+     "P3": [
+      2262,
+      2197
+     ]
+    },
+    "aciklama": "Atlas t=2181 yalniz Kitchen modeli (2236-2158) icinde; P1 ve P3 %95 araliklarinin DISINDA (daha gec). 7.-8. hanedan atlas kaydi Eski Krallik icinde mi 1. Ara Donem icinde mi belirtilmemis."
+   },
+   "not": "Atlas t=2181 Wikipedia/UCL tipi gelenek (2181); yeni 14C modelleri 1. Ara Donem basini 2262-2158 arasinda verir."
+  },
+  {
+   "mevcut_kunye_id": "herakleopolis",
+   "atlas_f_mo": 2160,
+   "atlas_t_mo": 2055,
+   "durum": "kismen-teyit",
+   "kaynak_f": "bulunamadi",
+   "kaynak_t": "Orta Krallik basi 95%: 2070-2040 (Erdil P3), 2065-2037 (P1), 2064-2038 (P2); Mentuhotep II cikisi 2064-2019 (Bronk Ramsey 2010)",
+   "kunye_celiskisi": null,
+   "not": "Atlas t=2055 bu araliklarin icinde. Hanedan 9.-10. icin f kaynagi okunmadi."
+  },
+  {
+   "mevcut_kunye_id": "tebai-11-hanedan",
+   "atlas_f_mo": 2125,
+   "atlas_t_mo": 2055,
+   "durum": "kismen-teyit",
+   "kaynak_f": "bulunamadi",
+   "kaynak_t": "Orta Krallik basi 2070-2040 (Erdil 2025, 95%)",
+   "kunye_celiskisi": null,
+   "not": "f=2125 icin okunmus kaynak yok."
+  },
+  {
+   "mevcut_kunye_id": "misir-orta-krallik",
+   "atlas_f_mo": 2055,
+   "atlas_t_mo": 1650,
+   "durum": "kismen-teyit",
+   "kaynak_f": "2070-2040 (Erdil P3, 95%), 2065-2037 (P1), 2064-2038 (P2); Mentuhotep II cikisi 2064-2019 (Bronk Ramsey 2010)",
+   "kaynak_t": "12. hanedan sonu (\"End of MK\", Erdil 2025, 95%): P3 1818-1784; P1 1825-1799; P2 1825-1800. Amenemhat III cikisi 1851-1798 (Bronk Ramsey 2010)",
+   "kunye_celiskisi": {
+    "atlas_t": 1650,
+    "aciklama": "Atlas kaydi 11.-13. hanedan; Erdil \"End of MK\" 12. hanedanin (Sobekneferu) sonunu ifade eder (~1800). 13. hanedan ~150 yil atlas t'sine dahil. Fark hanedan kapsamindan, celiski degil; 13. hanedan sonu/Hiksos baslangici (~1650) icin kaynak bulunamadi."
+   },
+   "not": "Atlas f=2055 modellenmis aralik icinde."
+  },
+  {
+   "mevcut_kunye_id": "hiksos-15",
+   "atlas_f_mo": 1650,
+   "atlas_t_mo": 1550,
+   "durum": "kismen-teyit",
+   "kaynak_f": "bulunamadi (Bietak 2024 Chronos 26 kutuphane)",
+   "kaynak_t": "Ahmose'nin Avaris fethi (~18. yil): 1562 (Breasted), 1552 (Wente-Van Siclen), 1532 (Shaw 2000), 1530 (Schneider), 1521 (Hornung vd. 2006), 1506 (Krauss-Warburton) [Bruins-van der Plicht 2025 tablosu]",
+   "kunye_celiskisi": {
+    "atlas_t": 1550,
+    "aciklama": "Atlas t=1550 Ahmose CIKISI (Shaw) ile ayni; Avaris FETHI Shaw'a gore ~1532 (cikistan ~18 yil sonra). Hiksos sonu = Avaris fethi ise atlas t kronolojik olarak ~18 yil erken olabilir."
+   },
+   "not": "Tablo Bruins-van der Plicht 2025'ten (metin cikarimi; sutun hizalamasi Breasted/Wente/Shaw/Schneider/Hornung/K&W sirasiyla okundu)."
+  },
+  {
+   "mevcut_kunye_id": "tebai-17-hanedan",
+   "atlas_f_mo": 1650,
+   "atlas_t_mo": 1550,
+   "durum": "okunmadi",
+   "kaynak_f": "bulunamadi",
+   "kaynak_t": "Ahmose cikisi 95%: 1570-1544 (Bronk Ramsey 2010)",
+   "kunye_celiskisi": null,
+   "not": "17. hanedan baslangici icin kaynak yok."
+  },
+  {
+   "mevcut_kunye_id": "misir-yeni-krallik",
+   "atlas_f_mo": 1550,
+   "atlas_t_mo": 1069,
+   "durum": "teyit",
+   "kaynak_f": "Ahmose cikisi 95%: 1570-1544 (Bronk Ramsey 2010); okul okul: 1580/1570/1550/1548/1539/1524 (Bruins 2025); AEBP: \"the end of the New Kingdom (1552/1550-1069 BC)\"",
+   "kaynak_t": "AEBP (Radner/Zamazalova): Yeni Krallik 1552/1550-1069 MO; Bronk Ramsey: Ramses XI cikisi 95% 1116-1090 (son kral cikisi, donem sonu DEGIL)",
+   "kunye_celiskisi": null,
+   "not": "Atlas f=1550 (Shaw) ve t=1069 AEBP ile ayni. Radyokarbon 1570-1544 ile gecmis okullar (1580...1524) arasinda f belirsizligi +-20 yil."
+  },
+  {
+   "mevcut_kunye_id": "misir-3-ara",
+   "atlas_f_mo": 1069,
+   "atlas_t_mo": 664,
+   "durum": "kismen-teyit",
+   "kaynak_f": "AEBP: 1069 MO (Yeni Krallik sonu)",
+   "kaynak_t": "25. hanedan sonu icin kaynaklar CELISIR: Taharqa 692/691-664 (Lehmann-Tallis 2019); Tanutamun son tarihli yil 9 = 656 (Rilly); Kerma.ch \"Nubian Pharaohs 713-656\"; Pleiades \"744-656 BCE\"; AEBP \"from 672 BC onwards ... Assyrian invasion ... end of Kushite rule\"",
+   "kunye_celiskisi": {
+    "atlas_t": 664,
+    "degerler": [
+     664,
+     656,
+     672
+    ],
+    "aciklama": "Atlas t=664 (Taharqa olumu) bu uc degerden biri; Kus egemenliginin sonu icin 672/664/656 iki-uc yil farkla"
+   },
+   "not": "Tek deger secilmedi."
+  },
+  {
+   "mevcut_kunye_id": "kush-25-hanedan",
+   "atlas_f_mo": 725,
+   "atlas_t_mo": 653,
+   "durum": "cakisma",
+   "kaynak_f": "Kasta ~760-747, Piye 747-716, Sabako ~721-707/706 [AEBP Kush]; Piye Misir seferi 21. yil (Rilly: MO 732? - bu oturumda okunmadi); Kerma.ch \"Nubian Pharaohs 713-656\"; Pleiades \"744-656 BCE\"",
+   "kaynak_t": "656 (Tanutamun yil 9 - Rilly; Kerma.ch 656; Pleiades 656); 664 (Taharqa sonu - Lehmann-Tallis); 672 (Asur fethi baslangici - AEBP)",
+   "kunye_celiskisi": {
+    "atlas_f": 725,
+    "atlas_t": 653,
+    "degerler_f": {
+     "Piye cikisi 747": "AEBP",
+     "Pleiades 744": "Pleiades",
+     "Kerma.ch 713": "Kerma.ch",
+     "atlas 725": "kaynak okunmadi"
+    },
+    "degerler_t": {
+     "664": "Lehmann&Tallis",
+     "656": "Rilly/Kerma.ch/Pleiades",
+     "653": "atlas (kaynak okunmadi)"
+    }
+   },
+   "not": "Atlas t=653 hicbir okunan kaynakla ortusmuyor (656 en yakin). Atlas f=725 Piye'nin Misir seferinden (~730) sonra; Kus hakimiyetinin Thebai uzerindeki baslangici Kasta c.750 (AEBP)."
+  },
+  {
+   "mevcut_kunye_id": "sait-26-hanedan",
+   "atlas_f_mo": 664,
+   "atlas_t_mo": 525,
+   "durum": "kismen-teyit",
+   "kaynak_f": "664: \"Napata 664-290\" Rilly baslik araligi; Taharqa sonu 664 (Lehmann-Tallis). Psamtik I cikisi icin bilimsel kaynak okunmadi",
+   "kaynak_t": "525 MO - Pelusium savasi, 26. hanedanin son firavunu III. Psamtik Kambises'e yenildi [Bresciani, Iranica Egypt i]",
+   "kunye_celiskisi": null,
+   "not": "t=525 Iranica Bresciani + Dandamayev (Cambyses) ile teyit; f=664 dolayli (Psamtik cikisi kaynakli okunmadi)."
+  },
+  {
+   "mevcut_kunye_id": "ahamenis-misir",
+   "atlas_f_mo": 525,
+   "atlas_t_mo": 404,
+   "durum": "cakisma-t",
+   "kaynak_f": "525 (Pelusium baharda; ayin sonunda Kambises resmen kral ilan edildi) [Dandamayev]; [Bresciani]",
+   "kaynak_t": "\"ended around 402 B.C.E.\" [Bresciani]; Schmitt (Artaxerxes III): \"ending 65 years of Egyptian independence\" ile 343+65 = ~408 ima eder; Rilly Nektanebo I 380-362 verir",
+   "kunye_celiskisi": {
+    "atlas_t": 404,
+    "degerler_t": {
+     "402": "Bresciani (Iranica)",
+     "~408": "Schmitt'in 65 yil bagimsizlik cumlesinden turetme, birebir yazim degil"
+    }
+   },
+   "not": "Atlas t=404 ile Iranica 402 arasinda 2 yil; kaynak tutarsizligi (404/402/~408) - tek deger secilmedi."
+  },
+  {
+   "mevcut_kunye_id": "misir-28-30-hanedan",
+   "atlas_f_mo": 404,
+   "atlas_t_mo": 343,
+   "durum": "kismen-teyit",
+   "kaynak_f": "bkz. ahamenis-misir.t",
+   "kaynak_t": "Reconquest \"by 343\" [Schmitt]; \"342-32\" [Bresciani]; Nektanebo II 360-343 [Rilly]",
+   "kunye_celiskisi": null,
+   "not": "t 343/342 arasinda 1 yil."
+  },
+  {
+   "mevcut_kunye_id": "ahamenis-misir-2",
+   "atlas_f_mo": 343,
+   "atlas_t_mo": 332,
+   "durum": "teyit",
+   "kaynak_f": "342-332 \"second Persian domination\" [Bresciani]; \"by 343\" [Schmitt]",
+   "kaynak_t": "332: Mazaces Misir'i Iskender'e savassiz devretti [Bresciani]",
+   "kunye_celiskisi": {
+    "not": "Rilly farkli: 2. Pers hakimiyeti 338-332"
+   },
+   "not": "f icin 343/342/338 (Rilly) ucu farkli."
+  },
+  {
+   "mevcut_kunye_id": "ptolemai",
+   "atlas_f_mo": 323,
+   "atlas_t_mo": 30,
+   "durum": "teyit",
+   "kaynak_f": "Muhs 2016: \"Alexander the Great defeated the Persians in Egypt in 332 BCE. After he died in 323 BCE ... Ptolemy took Egypt ... proclaimed himself king in 305 BCE\"",
+   "kaynak_t": "Muhs 2016: Romalilarin fethi 30 MO; Bowman (CAH): \"In August of 30 B.C. ... Octavian\"; 1 Thoth = 29 Agustos",
+   "kunye_celiskisi": {
+    "atlas_f": "323-06-10",
+    "aciklama": "Atlas f = Iskender'in olumu (323); kral unvani 305 (Muhs). Muhs tablosu: \"Ptolemaic Dynasty (305-30 BCE)\", \"Macedonian Dynasty (332-305 BCE)\"."
+   },
+   "not": "Atlas t=MO 30-08-01 Bowman \"August of 30 B.C.\" ile uyumlu (ayin 1'i bu oturumda okunmadi)."
+  },
+  {
+   "mevcut_kunye_id": "kerma",
+   "atlas_f_mo": 1750,
+   "atlas_t_mo": 1500,
+   "durum": "kismen-teyit",
+   "kaynak_f": "Kerma.ch: Erken Kerma 2450-2050, Orta Kerma 2050-1750, Klasik Kerma 1750-1480",
+   "kaynak_t": "Kerma.ch: Klasik Kerma 1750-1480; Son Kerma 1480-1450; Misir isgali 1480-1080",
+   "kunye_celiskisi": {
+    "atlas_t": 1500,
+    "kerma_ch_t": 1480,
+    "aciklama": "Atlas yalniz Klasik Kerma; kerma.ch kenti Erken Kerma'dan (2450) itibaren \"City founded\" der. Atlas t=1500 ile 1480 arasi 20 yil; Pleiades Doukki Gel ~1450 Misirlilarca kuruldu."
+   },
+   "not": "Tarihler \"circa\" - Kerma misyonu seramik kronolojisi."
+  },
+  {
+   "mevcut_kunye_id": "kush-krallik",
+   "atlas_f_mo": 750,
+   "atlas_t_mo": -349,
+   "durum": "cakisma",
+   "kaynak_f": "Napata donemi: 730-400 (Kerma.ch); 900-270 (UNESCO Gebel Barkal); 664-290 (Rilly basligi); Pleiades: \"established ... following the end of the New Kingdom\"",
+   "kaynak_t": "Meroe donemi sonu: MS 400 (Kerma.ch), MS 350 (UNESCO Gebel Barkal); atlas t=MS 349, \"4th century CE\" (UNESCO Meroe), Pleiades \"disintegrated in the 3rd century CE\"",
+   "kunye_celiskisi": {
+    "atlas_f": 750,
+    "atlas_t_ms": 349,
+    "degerler_f": {
+     "900": "UNESCO Barkal (Napata donemi basi)",
+     "730": "Kerma.ch",
+     "664": "Rilly (Misir sonrasi Napata krallik)",
+     "750 (atlas)": "kaynak okunmadi"
+    },
+    "degerler_t_ms": {
+     "350": "UNESCO Barkal",
+     "400": "Kerma.ch",
+     "3. yy": "Pleiades"
+    }
+   },
+   "not": "Tek deger secilmedi; \"krallik baslangici\" mi, \"Napata donemi\" mi, \"Misir hakimiyeti\" mi ayrimi kaynaklarda yapilmamis."
+  },
+  {
+   "mevcut_kunye_id": "aksum",
+   "atlas_f_mo": -100,
+   "atlas_t_mo": null,
+   "durum": "kismen-teyit",
+   "kaynak_f": "UNESCO: Aksum krallıgi \"lasted from the 1st to the 8th centuries AD\"; Pleiades: \"flourished from the first to the tenth centuries AD\"; Auxoume adi MO 30 - MS 640 atifli (Pleiades)",
+   "kaynak_t": "UNESCO: 8. yy sonu / Pleiades 10. yy (Harrower 2019: Beta Samati son iskan 7. yy ortasi, zirve 3.-6. yy)",
+   "kunye_celiskisi": {
+    "atlas_f_ms": 100,
+    "aciklama": "Atlas f=MS 100 (Britannica Students); UNESCO \"1. yy\". Kesin yil yok. Ezana'nin Hristiyanlasmasi \"mid fourth century AD\" (Harrower 2019), Ezana'nin pagan gumus sikkesi c. MS 300-330."
+   },
+   "not": "Periplus Maris Erythraei (MS 1. yy ortasi, Casson 1989) Pleiades kaynakcasinda; metin bu oturumda okunmadi."
+  },
+  {
+   "mevcut_kunye_id": "hitit-eski",
+   "atlas_f_mo": 1650,
+   "atlas_t_mo": 1500,
+   "durum": "kismen-teyit",
+   "kaynak_f": "Hattusili I \"conventionally hMC c. 1650-1620 BC\"; \"traditional 1650 BC start date comes from counting back two generations from Mursili I\" [Herrmann 2023, WebFetch ozeti]",
+   "kaynak_t": "Mursili I konv. 1620-1590; Babil'in dusus 1595/1587 (hMC/lMC) [Herrmann 2023]",
+   "kunye_celiskisi": {
+    "aciklama": "Atlas hitit-eski t=1500 icin kaynak okunmadi; Herrmann yalnizca Hattusili I-Mursili I'i kapsar. 1650 gelenektir (kuşak sayimi), olcum degil."
+   },
+   "not": "Metin WebFetch (ozetleyici arac) uzerinden okundu; alinti dogrudan sayfa metninden degil arac ciktisindandir - kutuphane/PDF ile dogrulanmasi onerilir."
+  },
+  {
+   "mevcut_kunye_id": "hitit-imp",
+   "atlas_f_mo": 1400,
+   "atlas_t_mo": 1180,
+   "durum": "cakisma-t",
+   "kaynak_f": "bulunamadi (Tudhaliya I/II 1425-1390 atlas ozetinden; kaynak okunmadi)",
+   "kaynak_t": "Suppiluliuma II cikisi ~1207 (Orta Kronoloji) ve Hitit \"collapse\" ~1198-1196 (+-3): \"Around or shortly after 1200 bc, the Hittite Empire and central administrative system collapsed\" [Manning 2023]; Ramses III yil 8 (Medinet Habu) = 1188 veya ~1177 (terminus ante quem)",
+   "kunye_celiskisi": {
+    "atlas_t": 1180,
+    "aciklama": "Atlas t=1180 Medinet Habu 1180-1177 (eski Ramses III tarihi) ile uyumlu; Manning 2023 yeni tarihle 1188 ve aglik/cokus ~1198-1196. Hattusa'nin bosaltilip sonra yakildigi (once Sea Peoples fetihli saldiri varsayimi terk)."
+   },
+   "not": "Tek deger secilmedi; terminus ante quem (Medinet Habu) ile jeofizik \"tipping point\" farkli turde veri."
+  },
+  {
+   "mevcut_kunye_id": "hitit",
+   "atlas_f_mo": 1650,
+   "atlas_t_mo": 1180,
+   "durum": "cakisma-t",
+   "kaynak_f": "bkz. hitit-eski.f",
+   "kaynak_t": "bkz. hitit-imp.t",
+   "kunye_celiskisi": {
+    "atlas_t": 1180
+   },
+   "not": "Yukaridaki iki satirin birlesigi."
+  },
+  {
+   "mevcut_kunye_id": "ugarit",
+   "atlas_f_mo": 1350,
+   "atlas_t_mo": 1190,
+   "durum": "kismen-teyit",
+   "kaynak_f": "bulunamadi (Niqmaddu II ~1350: kaynak okunmadi)",
+   "kaynak_t": "\"the destruction of the major coastal centre of Ugarit has been argued to lie between ~1193 and 1186 bc ... terminus post quem\" [Manning 2023]; Ramses II/III tarihleri 11 yil eskiye kayarsa bu aralik ~11 yil daha eski",
+   "kunye_celiskisi": {
+    "atlas_t": 1190,
+    "aciklama": "Atlas t=1190 1193-1186 araligi icinde."
+   },
+   "not": "Tarih Bay (Siptah yil 5) senkronizmine dayali terminus post quem; ben RS 86.2230 metnini okumadim."
+  },
+  {
+   "mevcut_kunye_id": "yeni-hitit",
+   "atlas_f_mo": 1180,
+   "atlas_t_mo": 708,
+   "durum": "kismen-teyit",
+   "kaynak_f": "bulunamadi",
+   "kaynak_t": "Karkamis Asur eyaleti 717; Marqasu 711; Kummuhhu 709 (Asur'un Urartu ile ilk dogrudan sinir) [AEBP Urartu]; Arpad, Hamat, Unqu Tiglat-pileser sonrasi eyalet",
+   "kunye_celiskisi": {
+    "atlas_t": 708,
+    "aciklama": "Atlas t=708 (-0707) son Yeni-Hitit devleti Kummuhhu'nun 709 dususuyle 1 yil fark."
+   },
+   "not": null
+  },
+  {
+   "mevcut_kunye_id": "aram-sam",
+   "atlas_f_mo": 940,
+   "atlas_t_mo": 732,
+   "durum": "teyit-t",
+   "kaynak_f": "bulunamadi (Rezon ~940 kaynak okunmadi)",
+   "kaynak_t": "732: \"in 732 BC, when the troops of Hamat and Damascus were defeated, their countries invaded and permanently annexed\" [AEBP Tiglatpileser III]",
+   "kunye_celiskisi": {
+    "atlas_t": 731,
+    "aciklama": "Atlas t=-0731 -> MO 732 (teyit)."
+   },
+   "not": "AEBP'de Hamat 732 ve Sargon'un 720 fethi arasinda ic tutarsizlik (Philistia sayfasi: Hamat 721 isyani)."
+  },
+  {
+   "mevcut_kunye_id": "israil-krallik",
+   "atlas_f_mo": 930,
+   "atlas_t_mo": 722,
+   "durum": "teyit-t",
+   "kaynak_f": "Pleiades 14077998: \"founded ca. 930 BCE\" (veri-tabani; ikincil kaynaga dayanir)",
+   "kaynak_t": "722: \"722 BC: the taking of Samaria\" Salmanassar V (726-722) dönemi; 732'de kuzey Megiddo eyaleti [AEBP Israel]; Pleiades \"ca. 720\"",
+   "kunye_celiskisi": {
+    "atlas_t": 721,
+    "aciklama": "Atlas t=-0721 -> MO 722 (teyit). Sargon II 721 cikisi; AEBP Samiriye'yi Salmanassar V'e atfeder."
+   },
+   "not": "f=930 yalniz Pleiades; birincil/akademik kaynak okunmadi."
+  },
+  {
+   "mevcut_kunye_id": "yahuda",
+   "atlas_f_mo": 930,
+   "atlas_t_mo": 586,
+   "durum": "teyit-t",
+   "kaynak_f": "bulunamadi",
+   "kaynak_t": "586: Kudus'un Babil tarafindan yikimi \"historically secure\"; 100 halka olcumu MO 624-572 [Regev vd. 2024 PNAS]",
+   "kunye_celiskisi": {
+    "atlas_t": 585,
+    "aciklama": "Atlas t=-0585 -> MO 586 (teyit)."
+   },
+   "not": "597 sürgünü (ABC 5) bu oturumda okunmadi."
+  },
+  {
+   "mevcut_kunye_id": "urartu",
+   "atlas_f_mo": 860,
+   "atlas_t_mo": 590,
+   "durum": "teyit",
+   "kaynak_f": "\"They achieved political unity in the middle of the 9th century B.C.E. King Sarduri established the Urartian kingdom\" [Kleiss, Iranica]",
+   "kaynak_t": "\"Urartu vanished around 590 B.C.E.\" [Kleiss, Iranica]",
+   "kunye_celiskisi": {
+    "aciklama": "Atlas f=860 (Aramu/Sarduri sinirinda), t=590 ile Iranica uyumlu. Rusa II ~685-645; Argisti II 713-690 [Kleiss]."
+   },
+   "not": "AEBP: Urartu kralligi 9.-8. yy Asur ile savasti; Turushpa kusatmasi 743 (Tiglat-pileser)."
+  },
+  {
+   "mevcut_kunye_id": "lidya",
+   "atlas_f_mo": 680,
+   "atlas_t_mo": 546,
+   "durum": "teyit-t",
+   "kaynak_f": "bulunamadi (Gyges ~680: kaynak okunmadi)",
+   "kaynak_t": "Kroisos \"r. ca. 560-546\"; 546 en uygun tarih, 547 Nabonid Kronigi'nin \"Lu...\" okunusuna dayanir fakat Lydia okunusu tartismali [Shahbazi, Iranica Croesus; Dandamayev, Iranica Cyrus]",
+   "kunye_celiskisi": {
+    "atlas_t": 545,
+    "aciklama": "Atlas t=-0545 -> MO 546 (teyit); Sardes'in dusus mevsimi Ekim-Aralik (Dandamayev)."
+   },
+   "not": null
+  },
+  {
+   "mevcut_kunye_id": "karya-hekatomnid",
+   "atlas_f_mo": 391,
+   "atlas_t_mo": 334,
+   "durum": "teyit",
+   "kaynak_f": "\"(Caria) separate satrapy (390s-30s B.C.) under the Hecatomnid family\" [Weiskopf, Iranica Caria]",
+   "kaynak_t": "aynı",
+   "kunye_celiskisi": {
+    "aciklama": "Iranica \"390s-330s\"; atlas 391-334."
+   },
+   "not": "Karya Sparda altinda 540'lar-390'lar (Iranica Caria)."
+  },
+  {
+   "mevcut_kunye_id": "ahamenis",
+   "atlas_f_mo": 550,
+   "atlas_t_mo": 330,
+   "durum": "kismen-teyit",
+   "kaynak_f": "Kyros Astyages'i 549'da yendi [Shahbazi, Iranica Croesus]; atlas 550 (Ekbatana)",
+   "kaynak_t": "Iskender Mısır'ı 332'de aldi [Bresciani]; Issos Kasim 333, Gaugamela 1 Ekim 331 [Briant, Iranica]",
+   "kunye_celiskisi": {
+    "atlas_f": 550,
+    "iranica_f": 549
+   },
+   "not": "Atlas 550 / Iranica 549 bir yil fark; Iranica Cyrus iii'te ayri ayrintilar var (okunmadi)."
+  },
+  {
+   "mevcut_kunye_id": "nabatiye",
+   "atlas_f_mo": 168,
+   "atlas_t_mo": -106,
+   "durum": "teyit-t",
+   "kaynak_f": "bulunamadi (ilk kral 168 MO: kaynak okunmadi)",
+   "kaynak_t": "\"After 106 AD, when Trajan had attached Gerasa and Philadelphia to the Province of Arabia and annexed the Nabataean kingdom of Petra\" [Auge 2013]",
+   "kunye_celiskisi": {
+    "aciklama": "MS 106 (yil; ay/gun yok)."
+   },
+   "not": "Rabbel II 70/71-106 OCD ozet aramasinda gorundu, metin okunmadi."
+  },
+  {
+   "mevcut_kunye_id": "hasmoni",
+   "atlas_f_mo": 141,
+   "atlas_t_mo": 37,
+   "durum": "cakisma-t",
+   "kaynak_f": "Dabrowa (ed.) 2009 Cilt I kapsami \"Judea under the Hasmoneans, 167-63 BCE\" (Cambridge Core bolum sayfasi); Simon 142-140 yüksek rahiplik (Brill ozeti, 403 okunamadi)",
+   "kaynak_t": "Rajak CAH IX: \"The Roman seizure of Jerusalem in the autumn of 63 B.C.\"; Botha: Herod \"became king in reality in 37 BCE\", oldu 4 MO",
+   "kunye_celiskisi": {
+    "atlas_t": 37,
+    "degerler_t": {
+     "63 (Pompeius, sonbahar)": "Rajak",
+     "37 (Herodes)": "Botha"
+    },
+    "aciklama": "Hasmoni hanedanı 63'te Roma himayesine dustu (II. Hyrcanus rahip-ulus onderi); 37 son Hasmoni kralı Antigonos. Atlas t=37."
+   },
+   "not": "Metin WebFetch (ozetleyici arac) uzerinden okundu; alinti dogrudan sayfa metninden degil arac ciktisindandir - kutuphane/PDF ile dogrulanmasi onerilir. (Botha ve Dabrowa sayfalarinda yalniz ozet)."
+  },
+  {
+   "mevcut_kunye_id": "herodes-krallik",
+   "atlas_f_mo": 37,
+   "atlas_t_mo": -93,
+   "durum": "kismen-teyit",
+   "kaynak_f": "Herodes 41'de atandi, 37'de gercek kral [Botha]",
+   "kaynak_t": "bulunamadi (MS 93 kaynak okunmadi); Herodes oldu 4 MO [Botha]",
+   "kunye_celiskisi": null,
+   "not": "Metin WebFetch (ozetleyici arac) uzerinden okundu; alinti dogrudan sayfa metninden degil arac ciktisindandir - kutuphane/PDF ile dogrulanmasi onerilir."
+  },
+  {
+   "mevcut_kunye_id": "palmira",
+   "atlas_f_mo": -260,
+   "atlas_t_mo": -273,
+   "durum": "okunmadi",
+   "kaynak_f": "bulunamadi",
+   "kaynak_t": "bulunamadi (arama ozetleri 268-272 ve 273 diyor; birincil/akademik tam metin okunmadi)",
+   "kunye_celiskisi": null,
+   "not": "Pleiades: Palmira \"Palmyrene Empire ... Aurelian razing the city\" (tarih yok)."
+  },
+  {
+   "mevcut_kunye_id": "fenike-sehirleri",
+   "atlas_f_mo": 1200,
+   "atlas_t_mo": 332,
+   "durum": "kismen-teyit",
+   "kaynak_f": "bulunamadi",
+   "kaynak_t": "Iskender: \"Byblos, Arados, and Sidon quickly surrendered ... Tyre put up a long and fierce resistance which ended in its destruction\" [Briant, Iranica] (yil metinde yok; 332 baglami)",
+   "kunye_celiskisi": null,
+   "not": "Tyre kusatmasi 7 ay (Iranica arama ozeti); okunan metinde ay/gun yok."
+  },
+  {
+   "mevcut_kunye_id": "filistin-pentapolis",
+   "atlas_f_mo": 1175,
+   "atlas_t_mo": 604,
+   "durum": "okunmadi",
+   "kaynak_f": "bulunamadi",
+   "kaynak_t": "AEBP: Gaza 734'te Asur bagimliligi (bit kari), 721 Rapihu; Askelon 604 okunmadi",
+   "kunye_celiskisi": null,
+   "not": "Atlas t=-0603 -> MO 604 icin kaynak okunmadi."
+  },
+  {
+   "mevcut_kunye_id": "mitanni",
+   "atlas_f_mo": 1500,
+   "atlas_t_mo": 1260,
+   "durum": "okunmadi",
+   "kaynak_f": "bulunamadi",
+   "kaynak_t": "bulunamadi",
+   "kunye_celiskisi": null,
+   "not": "Mitanni/Hanigalbat icin acik erisimli akademik kaynak bulunamadi (CAH/Wilhelm kutuphane)."
+  },
+  {
+   "mevcut_kunye_id": "kizzuwatna",
+   "atlas_f_mo": 1500,
+   "atlas_t_mo": 1400,
+   "durum": "okunmadi",
+   "kaynak_f": "bulunamadi",
+   "kaynak_t": "bulunamadi",
+   "kunye_celiskisi": null,
+   "not": "Kutuphane gerekli."
+  },
+  {
+   "mevcut_kunye_id": "hayasa-azzi",
+   "atlas_f_mo": 1500,
+   "atlas_t_mo": 1200,
+   "durum": "okunmadi",
+   "kaynak_f": "bulunamadi",
+   "kaynak_t": "bulunamadi",
+   "kunye_celiskisi": null,
+   "not": "Kutuphane gerekli."
+  },
+  {
+   "mevcut_kunye_id": "likya-birligi",
+   "atlas_f_mo": 167,
+   "atlas_t_mo": -43,
+   "durum": "okunmadi",
+   "kaynak_f": "bulunamadi",
+   "kaynak_t": "bulunamadi",
+   "kunye_celiskisi": null,
+   "not": "Kutuphane gerekli."
+  }
+ ],
+ "sehir_kontrol": [
+  {
+   "sehir": "Memphis (Men-nefer / Mit Rahina)",
+   "lat": 29.8495,
+   "lon": 31.2551,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 736963 Memphis",
+     "lat": 29.849491,
+     "lon": 31.255061
+    },
+    {
+     "kaynak": "Wikidata Q5715",
+     "lat": 29.844667,
+     "lon": 31.250917
+    },
+    {
+     "kaynak": "OSM Nominatim (Mit Rahina)",
+     "lat": 29.8544582,
+     "lon": 31.2615188
+    }
+   ],
+   "konum_not": "Uc tanik 1 km icinde; Pleiades esas.",
+   "donemler": [
+    {
+     "sahip": "Ahameniş Mısır'ı (27. Hanedan; satrap Memphis'ten yonetti)",
+     "mevcut_kunye_id": "ahamenis-misir",
+     "bas_mo": 525,
+     "son_mo": 402,
+     "kesinlik": "yil; son uc \"ended around 402\" (yaklasik)",
+     "gecis_kaynagi": "Pelusium savasi 525; Kambises ayin sonunda Misir kralı ilan edildi; 1. Pers hakimiyeti ~402'de bitti; \"Egypt was governed from Memphis by a satrap\" [Bresciani, Iranica Egypt i; Dandamayev, Iranica Cambyses]",
+     "alinti": "During the first Persian domination Egypt was governed from Memphis by a satrap",
+     "url": "https://www.iranicaonline.org/articles/egypt-i/",
+     "kronoloji_okulu": "Iranica (402 vs atlas 404)",
+     "dolayli_cikarim": false
+    }
+   ],
+   "bosluk_notu": "Memphis'in siyasi sahibi Eski Krallik (UNESCO: \"effective administrative capital ... during the Old Kingdom\", \"at least part of the Middle and New Kingdoms\"), Esarhaddon 671 fethi (Lehmann-Tallis), Ptolemaios (Muhs: \"initially ruled from Memphis but soon moved the royal court to Alexandria\") icin YILLI sinir kaynaklarda yok: donem yazilmadi. Esarhaddon'un Memphis'i almasi 671 MO bir OLAYdir; Asur'un Memphis'i ne kadar elinde tuttugu okunmadi."
+  },
+  {
+   "sehir": "Thebes / Waset (Luksor-Karnak)",
+   "lat": 25.7206,
+   "lon": 32.6103,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q101583 Thebes",
+     "lat": 25.720556,
+     "lon": 32.610278
+    },
+    {
+     "kaynak": "Pleiades 786017 Diospolis Magna/Thebai (temsili nokta)",
+     "lat": 25.664781,
+     "lon": 32.631884
+    },
+    {
+     "kaynak": "OSM Nominatim Karnak Park",
+     "lat": 25.717592,
+     "lon": 32.6514726
+    }
+   ],
+   "konum_not": "Pleiades temsili noktasi Wikidata'dan ~6,5 km uzak (merkezden uzak temsili nokta); Wikidata + OSM (Karnak) ~4 km icinde; Wikidata (Luksor-Karnak cekirdegi) esas.",
+   "donemler": [
+    {
+     "sahip": "Kus (25. Hanedan oncesi; Kasta genislemesi)",
+     "mevcut_kunye_id": "kush-25-hanedan",
+     "bas_mo": 750,
+     "son_mo": null,
+     "kesinlik": "c.",
+     "gecis_kaynagi": "Thebes \"subject to Kush following the initial expansion by king Kashta (c.760-747 BC) around 750 BC\" [AEBP Kush]",
+     "alinti": "subject to Kush following the initial expansion by king Kashta (c.760-747 BC) around 750 BC",
+     "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/kush/",
+     "kronoloji_okulu": "AEBP (Zamazalova)",
+     "dolayli_cikarim": false,
+     "eksik_uc": "son",
+     "celiskili": true
+    }
+   ],
+   "bosluk_notu": "Thebai Orta ve Yeni Krallik baskenti (UNESCO: \"capital of Egypt during the period of the Middle and New Kingdoms\") ama yillar sinir kaynaklarda dolayli; donem yazilmadi. Kus donemi sonu (664/656) ve Asur yagması icin kaynak celiskisi (bkz. celiskiler)."
+  },
+  {
+   "sehir": "Avaris (Tell el-Dab'a)",
+   "lat": 30.7863,
+   "lon": 31.8229,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 727080 Avaris/Ramesses",
+     "lat": 30.7863139,
+     "lon": 31.8228927
+    },
+    {
+     "kaynak": "Wikidata Q309282 Avaris",
+     "lat": 30.786228,
+     "lon": 31.82253
+    }
+   ],
+   "konum_not": "Iki tanik <100 m.",
+   "donemler": [
+    {
+     "sahip": "Hiksos (15. Hanedan)",
+     "mevcut_kunye_id": "hiksos-15",
+     "bas_mo": null,
+     "son_mo": 1532,
+     "kesinlik": "ca. (Shaw); 1562-1506 okul farki",
+     "gecis_kaynagi": "Ahmose'nin Avaris fethi ca. 18. yıl: 1532 (Shaw), 1530 (Schneider), 1521 (Hornung), 1506 (Krauss-Warburton), 1562 (Breasted), 1552 (Wente) [Bruins & van der Plicht 2025]",
+     "alinti": "Conquest Avaris, ca year 18 ... ca 1532",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12422448/",
+     "kronoloji_okulu": "okul okul",
+     "dolayli_cikarim": false,
+     "eksik_uc": "bas",
+     "celiskili": true
+    }
+   ],
+   "bosluk_notu": "Hiksos hakimiyetinin Avaris'te baslangici icin kaynak okunmadi (Bietak 2024 Chronos 26, Bietak 1996 kutuphane)."
+  },
+  {
+   "sehir": "Pi-Ramesses (Qantir)",
+   "lat": 30.8008,
+   "lon": 31.8348,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 905314398 Pi-Ramesses",
+     "lat": 30.80076195,
+     "lon": 31.8347738
+    },
+    {
+     "kaynak": "Wikidata Q937930 Pi-Ramesses",
+     "lat": 30.79937,
+     "lon": 31.834217
+    }
+   ],
+   "konum_not": "Iki tanik <200 m.",
+   "donemler": [],
+   "bosluk_notu": "Pleiades aciklamasi: \"Capital city built by New Kingdom pharaoh Ramesses II\" - kuruluş yili kaynakta yok. Ramses II cikisi 95% 1297-1273 (Bronk Ramsey 2010, 1279/1290 okullari) ama baskent kuruluş/terk yili okunmadi; donem yazilmadi."
+  },
+  {
+   "sehir": "Amarna (Akhetaten)",
+   "lat": 27.6441,
+   "lon": 30.8982,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 149576487 Amarna",
+     "lat": 27.6440996,
+     "lon": 30.898182
+    },
+    {
+     "kaynak": "OSM Nominatim Tell el-Amarna",
+     "lat": 27.6462666,
+     "lon": 30.8989151
+    },
+    {
+     "kaynak": "Wikidata Q5736 Amarna",
+     "lat": 27.661667,
+     "lon": 30.905556
+    }
+   ],
+   "konum_not": "Pleiades-OSM <0,5 km; Wikidata ~2 km kuzeyde.",
+   "donemler": [],
+   "bosluk_notu": "Akhenaten (Amenhotep IV) cikisi 95% 1370-1348, Tutankhamun 1353-1331 (Bronk Ramsey 2010); sehrin kurulus yili (hukumdarin 5. yili) ve terki icin okunmus kaynak yok. Donem yazilmadi."
+  },
+  {
+   "sehir": "Napata (Gebel Barkal)",
+   "lat": 18.5351,
+   "lon": 31.8308,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 579500116 Temple of Amun at Jebel Barkal",
+     "lat": 18.535066,
+     "lon": 31.830756
+    },
+    {
+     "kaynak": "Wikidata Q743282 Napata",
+     "lat": 18.53333,
+     "lon": 31.81667
+    },
+    {
+     "kaynak": "OSM Nominatim Jebel Barkal",
+     "lat": 18.5364188,
+     "lon": 31.8275045
+    }
+   ],
+   "konum_not": "Uc tanik <2 km; Gebel Barkal Amon tapinagi esas.",
+   "donemler": [
+    {
+     "sahip": "Kus (Napata evresi)",
+     "mevcut_kunye_id": "kush-krallik",
+     "bas_mo": 664,
+     "son_mo": 290,
+     "kesinlik": "baslik araligi (Rilly: \"Le royaume de Napata. 664-290 av. J.-C.\")",
+     "gecis_kaynagi": "Rilly bölüm basligi; Tanutamun son tarihli yil 9 = 656 (aynı bölüm)",
+     "alinti": "Le royaume de Napata. 664-290 av. J.-C.",
+     "url": "https://books.openedition.org/africae/2812",
+     "kronoloji_okulu": "Rilly (Fransiz Nubiyoloji)",
+     "dolayli_cikarim": false,
+     "celiskili": true,
+     "alternatifler": [
+      {
+       "bas_mo": 900,
+       "son_mo": 270,
+       "kaynak": "UNESCO Gebel Barkal: \"Napatan (900 - 270 BC)\""
+      },
+      {
+       "bas_mo": 730,
+       "son_mo": 400,
+       "kaynak": "Kerma.ch: Napatan Period 730-400 B.C."
+      }
+     ]
+    }
+   ],
+   "bosluk_notu": "Uc kaynak farkli Napata araligi verir; tek deger secilmedi, donem celiskili isaretli. Piye'nin Misir seferi (747-716 cikis/olum) AEBP; yil 21 seferi tarihi okunmadi."
+  },
+  {
+   "sehir": "Meroe",
+   "lat": 16.9351,
+   "lon": 33.7508,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q5780 Meroe (kent)",
+     "lat": 16.935139,
+     "lon": 33.75075
+    },
+    {
+     "kaynak": "Pleiades 805630 Meroe",
+     "lat": 16.936858,
+     "lon": 33.71192
+    },
+    {
+     "kaynak": "OSM Nominatim Meroe Pyramids",
+     "lat": 16.9327361,
+     "lon": 33.7281628
+    }
+   ],
+   "konum_not": "Pleiades/OSM piramit nekropolune (3,6/2 km bati) yakin; Wikidata kent alani; kent alani esas alindi (UNESCO \"Meroe, the capital, which includes the town and cemetery site\").",
+   "donemler": [
+    {
+     "sahip": "Kus (Meroe evresi)",
+     "mevcut_kunye_id": "kush-krallik",
+     "bas_mo": 400,
+     "son_mo": -400,
+     "kesinlik": "belirsiz; uc kaynak celisiyor",
+     "gecis_kaynagi": "Kerma.ch: Meroitic Period 400 B.C.-400 A.D. \"Political centre moves to Meroe\"",
+     "alinti": "Meroitic Period 400 B.C.-400 A.D. Political centre moves to Meroe",
+     "url": "https://kerma.ch/en/history/",
+     "kronoloji_okulu": "Kerma misyonu",
+     "dolayli_cikarim": false,
+     "celiskili": true,
+     "alternatifler": [
+      {
+       "bas_mo": 270,
+       "son_mo": -350,
+       "kaynak": "UNESCO Gebel Barkal: Meroitic (270 BC - 350 AD)"
+      },
+      {
+       "bas_mo": 290,
+       "son_mo": null,
+       "kaynak": "Rilly: Napata 664-290 sonrasi; krallik mezarlari 280-270'ten itibaren Meroe yakini"
+      },
+      {
+       "bas_mo": 300,
+       "son_mo": -400,
+       "kaynak": "UNESCO Meroe: \"from the 3rd century BCE onwards it was the site of most royal burials\"; krallik \"8th century BCE to the 4th century CE\""
+      }
+     ]
+    }
+   ],
+   "bosluk_notu": "Meroe'nin baskent/ikamet haline gelisi Aspelta (~593'ten sonra) icin Rilly \"tarih verilmedi\" diyor; kaynaklar celiskili."
+  },
+  {
+   "sehir": "Kerma (Kerma / Doukki Gel)",
+   "lat": 19.6008,
+   "lon": 30.4097,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q1107569 Kerma",
+     "lat": 19.600802,
+     "lon": 30.409731
+    },
+    {
+     "kaynak": "OSM Nominatim Kerma",
+     "lat": 19.593098,
+     "lon": 30.4091017
+    },
+    {
+     "kaynak": "Pleiades 938346135 Doukki Gel",
+     "lat": 19.6088138,
+     "lon": 30.4125114
+    }
+   ],
+   "konum_not": "Uc tanik <1,6 km.",
+   "donemler": [
+    {
+     "sahip": "Kerma Krallığı (Erken+Orta+Klasik Kerma)",
+     "mevcut_kunye_id": "kerma",
+     "bas_mo": 2450,
+     "son_mo": 1480,
+     "kesinlik": "circa",
+     "gecis_kaynagi": "Kerma.ch: Early Kerma 2450-2050 \"City founded\"; Middle 2050-1750; Classic 1750-1480",
+     "alinti": "Early Kerma 2450-2050 B.C. City founded",
+     "url": "https://kerma.ch/en/history/",
+     "kronoloji_okulu": "Kerma misyonu seramik kronolojisi",
+     "dolayli_cikarim": false
+    },
+    {
+     "sahip": "Yeni Krallik Misir'i (Nubya isgali; Kerma yikildi, Dukki Gel kuruldu)",
+     "mevcut_kunye_id": "misir-yeni-krallik",
+     "bas_mo": 1480,
+     "son_mo": 1080,
+     "kesinlik": "circa",
+     "gecis_kaynagi": "Kerma.ch: Egyptian Occupation 1480-1080 B.C. \"Kerma destroyed and Dukki Gel founded\"",
+     "alinti": "Egyptian Occupation 1480-1080 B.C.",
+     "url": "https://kerma.ch/en/history/",
+     "kronoloji_okulu": "Kerma misyonu",
+     "dolayli_cikarim": false,
+     "celiskili": true,
+     "alternatifler": [
+      {
+       "not": "Kerma.ch Son Kerma 1480-1450 ile Misir isgali 1480 cakisiyor; Yeni Krallik sonu AEBP 1069 (11 yil fark)"
+      }
+     ]
+    }
+   ],
+   "bosluk_notu": "Dukki Gel Pleiades: \"founded by Egyptian pharaohs ca. 1450 BCE\" (veri-tabani). Kerma.ch tablosu iç tutarsız."
+  },
+  {
+   "sehir": "Aksum",
+   "lat": 14.1302,
+   "lon": 38.7186,
+   "konum_tanik": [
+    {
+     "kaynak": "UNESCO WHC 15 (N14 7 48.684 E38 43 6.996)",
+     "lat": 14.1302,
+     "lon": 38.7186
+    },
+    {
+     "kaynak": "Pleiades 39303 A(u)xoume",
+     "lat": 14.13385,
+     "lon": 38.72129
+    },
+    {
+     "kaynak": "OSM Nominatim Aksum",
+     "lat": 14.1220982,
+     "lon": 38.7321749
+    }
+   ],
+   "konum_not": "UNESCO-Pleiades <0,7 km; OSM kasaba merkezi ~1,3 km; UNESCO esas.",
+   "donemler": [],
+   "bosluk_notu": "Aksum krallıgi \"1st to 8th centuries AD\" (UNESCO) / \"first to tenth centuries\" (Pleiades): yil yok, donem yazilmadi. Ezana: pagan sikkesi c. MS 300-330, Hristiyanlik \"mid fourth century AD\" (Harrower 2019). Periplus (MS 1. yy ortasi) metni okunmadi."
+  },
+  {
+   "sehir": "Hattuşa (Boğazköy)",
+   "lat": 40.0149,
+   "lon": 34.6172,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 283602441 Hattusa",
+     "lat": 40.0149132,
+     "lon": 34.6171576
+    },
+    {
+     "kaynak": "Wikidata Q181007 Hattusa",
+     "lat": 40.019722,
+     "lon": 34.615278
+    },
+    {
+     "kaynak": "OSM Nominatim Hattusa",
+     "lat": 40.0222167,
+     "lon": 34.6197357
+    }
+   ],
+   "konum_not": "Uc tanik <1 km.",
+   "donemler": [
+    {
+     "sahip": "Hitit Krallığı/İmparatorluğu",
+     "mevcut_kunye_id": "hitit",
+     "bas_mo": null,
+     "son_mo": 1200,
+     "kesinlik": "yaklasik (collapse ~1198-1196 +-3; \"around or shortly after 1200 bc\")",
+     "gecis_kaynagi": "Hattusa terk edildi/bosaltildi, SONRA yakildi; Hitit \"collapse\" ~1200; son kral Suppiluliuma II cikisi ~1207 [Manning 2023]",
+     "alinti": "archaeological investigations now indicate that the city was abandoned and emptied by the royal administration and only later burnt",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+     "kronoloji_okulu": "Orta Kronoloji (Hitit kral tarihleri)",
+     "dolayli_cikarim": false,
+     "eksik_uc": "bas",
+     "celiskili": false
+    }
+   ],
+   "bosluk_notu": "Hattusa'nin baskent oluşu (Hattusili I c.1650-1620 konv., Herrmann 2023) kaynakli degil; baslangic yazilmadi. Yeni-Hitit sonrası (Frig/Asur) icin kaynak okunmadi."
+  },
+  {
+   "sehir": "Kaneş (Kültepe)",
+   "lat": 38.8501,
+   "lon": 35.6376,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 58129442 Kaneš",
+     "lat": 38.85006045,
+     "lon": 35.63763255
+    },
+    {
+     "kaynak": "Manning vd. 2016 (38°51'N, 35°38'E)",
+     "lat": 38.85,
+     "lon": 35.6333
+    },
+    {
+     "kaynak": "OSM Nominatim Kültepe",
+     "lat": 38.850645,
+     "lon": 35.6346376
+    }
+   ],
+   "konum_not": "Uc tanik <0,3 km.",
+   "donemler": [],
+   "bosluk_notu": "Karum Seviye II -> Ib gecisi eponim yillari REL 138-141 arasi (Manning vd. 2016); takvim tarihi Orta Kronoloji'de bu oturumda cikarilmadi. Asur ticaret kolonisi donemi MBA1 ~OK 2000-1800 (Manning 2016 sozlugu). Siyasi sahip (Kanes yerel krali / Asur kolonisi) icin yillı sinir yok."
+  },
+  {
+   "sehir": "Sardes",
+   "lat": 38.4883,
+   "lon": 28.0403,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 550867 Sardis",
+     "lat": 38.488314,
+     "lon": 28.040286
+    },
+    {
+     "kaynak": "Wikidata Q232615 Sardis",
+     "lat": 38.488333,
+     "lon": 28.040278
+    },
+    {
+     "kaynak": "OSM Nominatim Sardis",
+     "lat": 38.4884501,
+     "lon": 28.0401682
+    }
+   ],
+   "konum_not": "Uc tanik <50 m.",
+   "donemler": [
+    {
+     "sahip": "Ahameniş (Sparda/Lidya Büyük Satraplığı merkezi)",
+     "mevcut_kunye_id": "ahamenis",
+     "bas_mo": 546,
+     "son_mo": null,
+     "kesinlik": "yil (547 Nabonid Kroniği okunusu tartismali); Sardes dususu Ekim-Aralik",
+     "gecis_kaynagi": "Kroisos'un son Lidya krali (r. ca. 560-546); 546 en uygun tarih; satraplik baskenti Sardes [Shahbazi; Dandamayev; Jacobs]",
+     "alinti": "CROESUS, last king of Lydia (r. ca. 560-546 b.c.e.)",
+     "url": "https://www.iranicaonline.org/articles/croesus/",
+     "kronoloji_okulu": "Iranica",
+     "dolayli_cikarim": false,
+     "celiskili": true,
+     "eksik_uc": "son",
+     "alternatifler": [
+      {
+       "bas_mo": 547,
+       "kaynak": "Nabonid Kroniği 9. yıl (Dandamayev, Iranica Cyrus iii) - Lydia okunusu Cargill tarafından reddediliyor"
+      }
+     ]
+    }
+   ],
+   "bosluk_notu": "Lidya krallığı Sardes'te: Kroisos oncesi (Mermnad/Gyges ~680) tarihleri okunmadi. Ahameniş sonu (Iskender 334) bu oturumda okunmadi: son yazilmadi."
+  },
+  {
+   "sehir": "Gordion",
+   "lat": 39.6503,
+   "lon": 31.9785,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 609393 Gordion/Vindia",
+     "lat": 39.65030527,
+     "lon": 31.97848312
+    },
+    {
+     "kaynak": "Wikidata Q542854 Gordion",
+     "lat": 39.6504791,
+     "lon": 31.9784831
+    }
+   ],
+   "konum_not": "Wikidata Pleiades'ten kopya gorunuyor (ayni koordinat): BAGIMSIZ ikinci tanik bulunamadi (OSM adi bulunamadi). Penn Museum kazi sitesi koordinat vermedi.",
+   "bagimsiz_tanik_eksik": true,
+   "donemler": [],
+   "bosluk_notu": "Penn Museum: Gordion siyasi sahibi icin YILLI sinir yok: Erken Frig 900-800 (faz), Orta Frig 800-540, Gec Frig/Pers 540-330, \"Lydian control first half of 6th century BCE if not earlier\", Pers fethi 540'lar. Faz tarihleri arkeolojik faz, devlet siniri degil: donem yazilmadi."
+  },
+  {
+   "sehir": "Ugarit (Ras Şamra)",
+   "lat": 35.6019,
+   "lon": 35.7856,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q191369 Ugarit",
+     "lat": 35.601944,
+     "lon": 35.785556
+    },
+    {
+     "kaynak": "Pleiades 668295 (Leukos Limen; liman Minet el-Beida)",
+     "lat": 35.6078548,
+     "lon": 35.7764238
+    }
+   ],
+   "konum_not": "Pleiades noktasi limana (Wikidata Q191369'un P1584 degeri) ~1,2 km; Wikidata (kent tell'i) esas. OSM adi bulunamadi: ikinci bagimsiz tanik zayif.",
+   "bagimsiz_tanik_eksik": true,
+   "donemler": [
+    {
+     "sahip": "Ugarit Krallığı",
+     "mevcut_kunye_id": "ugarit",
+     "bas_mo": null,
+     "son_mo": 1190,
+     "kesinlik": "aralik ~1193-1186 (terminus post quem)",
+     "gecis_kaynagi": "\"the destruction of the major coastal centre of Ugarit has been argued to lie between ~1193 and 1186 bc\" [Manning 2023]",
+     "alinti": "the destruction of the major coastal centre of Ugarit has been argued to lie between ~1193 and 1186 bc",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+     "kronoloji_okulu": "Orta Kronoloji/Ramses II 1279",
+     "dolayli_cikarim": false,
+     "eksik_uc": "bas",
+     "celiskili": false
+    }
+   ],
+   "bosluk_notu": "Ugarit krallığı baslangici (Niqmaddu II ~1350; Hitit vasalligi) bu oturumda kaynak okunmadi."
+  },
+  {
+   "sehir": "Byblos (Cübeyl)",
+   "lat": 34.1192,
+   "lon": 35.6461,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 668216 Byblos",
+     "lat": 34.11924879,
+     "lon": 35.64612466
+    },
+    {
+     "kaynak": "Wikidata Q173532 Byblos",
+     "lat": 34.116667,
+     "lon": 35.65
+    },
+    {
+     "kaynak": "OSM Nominatim Byblos/Jbeil",
+     "lat": 34.1236954,
+     "lon": 35.6493557
+    }
+   ],
+   "konum_not": "Uc tanik <1 km.",
+   "donemler": [],
+   "bosluk_notu": "Iskender 332: \"Byblos, Arados, and Sidon quickly surrendered\" (Briant) - yil metinde yok. Fenike siyasi sahipleri icin yillı sinir okunmadi. AEBP: Fenike kentleri bagimsiz, Tyre Asur muttefiki."
+  },
+  {
+   "sehir": "Tyre (Sur)",
+   "lat": 33.2693,
+   "lon": 35.2018,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 678437 Tyrus",
+     "lat": 33.2693355,
+     "lon": 35.201829
+    },
+    {
+     "kaynak": "UNESCO WHC 299 Tyre",
+     "lat": 33.2692,
+     "lon": 35.1958
+    },
+    {
+     "kaynak": "Wikidata Q82070 Tyre",
+     "lat": 33.266667,
+     "lon": 35.2
+    }
+   ],
+   "konum_not": "Uc tanik <1 km.",
+   "donemler": [],
+   "bosluk_notu": "Iskender kusatmasi (Iranica Briant: \"long and fierce resistance which ended in its destruction\") - yil/ay metinde yok. Asur ile ittifak/antlasma Esarhaddon (681-669) - kesin sinir degil."
+  },
+  {
+   "sehir": "Sidon (Sayda)",
+   "lat": 33.5619,
+   "lon": 35.3728,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 678393 Sidon",
+     "lat": 33.56194725,
+     "lon": 35.3727895
+    },
+    {
+     "kaynak": "Wikidata Q163490 Sidon",
+     "lat": 33.560556,
+     "lon": 35.375833
+    },
+    {
+     "kaynak": "OSM Nominatim Saida",
+     "lat": 33.5642272,
+     "lon": 35.3753211
+    }
+   ],
+   "konum_not": "Uc tanik <0,5 km.",
+   "donemler": [],
+   "bosluk_notu": "Sidon icin yillı sinir okunmadi (Iskender'e teslim: Iranica Briant, yil yok). Isyan 351 (Tennes; Schmitt) Artakserkses III donemi, sahip degisimi degil."
+  },
+  {
+   "sehir": "Kudüs",
+   "lat": 31.7772,
+   "lon": 35.235,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 687928 Ierusalem",
+     "lat": 31.7771895,
+     "lon": 35.234978
+    },
+    {
+     "kaynak": "Wikidata Q1218 Jerusalem",
+     "lat": 31.776679,
+     "lon": 35.234156
+    }
+   ],
+   "konum_not": "Iki tanik <0,1 km.",
+   "donemler": [
+    {
+     "sahip": "Yahuda Krallığı",
+     "mevcut_kunye_id": "yahuda",
+     "bas_mo": null,
+     "son_mo": 586,
+     "kesinlik": "yil (\"historically secure\")",
+     "gecis_kaynagi": "Babil yikimi 586; 100 halka olcumu MO 624-572; Babil Kronikleri + Yeremya/II. Krallar [Regev vd. 2024]",
+     "alinti": "the Babylonian destruction in 586 BC",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11087761/",
+     "kronoloji_okulu": "Babil Kronikleri ile uyumlu",
+     "dolayli_cikarim": false,
+     "eksik_uc": "bas"
+    },
+    {
+     "sahip": "Hasmoni (Rajak: Roma himayesine geçiş)",
+     "mevcut_kunye_id": "hasmoni",
+     "bas_mo": null,
+     "son_mo": 63,
+     "kesinlik": "yil; sonbahar",
+     "gecis_kaynagi": "\"The Roman seizure of Jerusalem in the autumn of 63 B.C.\" [Rajak, CAH IX 8b]",
+     "alinti": "The Roman seizure of Jerusalem in the autumn of 63 B.C.",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/271397D14EACE16E21010E3C0655C421/9780521256032c9_p274-309_CBO.pdf/jews_under_hasmonean_rule.pdf",
+     "kronoloji_okulu": "yok (yazili tarih)",
+     "dolayli_cikarim": false,
+     "eksik_uc": "bas",
+     "celiskili": true,
+     "alternatifler": [
+      {
+       "son_mo": 37,
+       "kaynak": "Botha: Herodes 37'de gercek kral"
+      }
+     ]
+    }
+   ],
+   "bosluk_notu": "Kudus'un 586 sonrasi sahibi (Babil, Pers, Selevkos, Hasmoni bagimsizligi ~142-129) kaynakli okunmadi: ABC 5 (2 Adar 597), Persler, Selevkos gecisleri kutuphane."
+  },
+  {
+   "sehir": "Samiriye (Samaria / Sebaste)",
+   "lat": 32.2764,
+   "lon": 35.1901,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 678370 Samaria/Sebaste",
+     "lat": 32.27644536,
+     "lon": 35.19008143
+    },
+    {
+     "kaynak": "Wikidata Q1757438 Samaria",
+     "lat": 32.276111,
+     "lon": 35.195
+    }
+   ],
+   "konum_not": "Iki tanik ~0,5 km.",
+   "donemler": [
+    {
+     "sahip": "Israil Krallığı",
+     "mevcut_kunye_id": "israil-krallik",
+     "bas_mo": null,
+     "son_mo": 722,
+     "kesinlik": "yil",
+     "gecis_kaynagi": "\"722 BC: the taking of Samaria\" - Salmanassar V (726-722) donemi; kuzey 732'de Megiddo eyaleti [AEBP Israel, Radner 2024]",
+     "alinti": "722 BC: the taking of Samaria",
+     "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/israel/",
+     "kronoloji_okulu": "AEBP (UCL)",
+     "dolayli_cikarim": false,
+     "eksik_uc": "bas"
+    },
+    {
+     "sahip": "Yeni Asur İmparatorluğu",
+     "mevcut_kunye_id": "yeni-asur",
+     "bas_mo": 722,
+     "son_mo": null,
+     "kesinlik": "yil",
+     "gecis_kaynagi": "Samiriye'nin alinmasi 722; halk Halah/Gozan'a surgun [AEBP Israel]",
+     "alinti": "conquered the city of Samaria",
+     "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/israel/",
+     "kronoloji_okulu": "AEBP (UCL)",
+     "dolayli_cikarim": false,
+     "eksik_uc": "son"
+    }
+   ],
+   "bosluk_notu": "Samiriye Israil'in baskentligi (Omri) kuruluş yili ve sonrasi (Babil/Pers) okunmadi."
+  },
+  {
+   "sehir": "Petra",
+   "lat": 30.3306,
+   "lon": 35.4433,
+   "konum_tanik": [
+    {
+     "kaynak": "UNESCO WHC 326 Petra (N30 19 50.016 E35 26 35.988)",
+     "lat": 30.3306,
+     "lon": 35.4433
+    },
+    {
+     "kaynak": "Wikidata Q5788 Petra",
+     "lat": 30.328889,
+     "lon": 35.440278
+    },
+    {
+     "kaynak": "Pleiades 697725 Petra",
+     "lat": 30.345037,
+     "lon": 35.382685
+    }
+   ],
+   "konum_not": "UNESCO-Wikidata <0,5 km; Pleiades ~5,8 km batida (Wadi Musa/alan merkezi); OSM (Wadi Musa yerlesimi) 4 km dogu - UNESCO esas.",
+   "donemler": [
+    {
+     "sahip": "Nabatiye Krallığı",
+     "mevcut_kunye_id": "nabatiye",
+     "bas_mo": null,
+     "son_mo": -106,
+     "kesinlik": "yil (ay/gun yok)",
+     "gecis_kaynagi": "\"annexed the Nabataean kingdom of Petra\" MS 106 sonrasi Arabia eyaleti; baskent Bostra, Petra \"secondary role\" [Auge 2013]",
+     "alinti": "After 106 AD, when Trajan had attached Gerasa and Philadelphia to the Province of Arabia and annexed the Nabataean kingdom of Petra",
+     "url": "https://books.openedition.org/ifpo/4903",
+     "kronoloji_okulu": "yok (yazili tarih)",
+     "dolayli_cikarim": false,
+     "eksik_uc": "bas"
+    },
+    {
+     "sahip": "Roma (Arabia Provincia)",
+     "mevcut_kunye_id": "roma-imp",
+     "bas_mo": -106,
+     "son_mo": null,
+     "kesinlik": "yil (ay/gun yok)",
+     "gecis_kaynagi": "ayni kaynak",
+     "alinti": "Trajan created the new province of Arabia",
+     "url": "https://books.openedition.org/ifpo/4903",
+     "kronoloji_okulu": "yok",
+     "dolayli_cikarim": false,
+     "eksik_uc": "son"
+    }
+   ],
+   "bosluk_notu": "Nabatiye baslangici (168 MO) ve Petra'nin baskent olma yili okunmadi."
+  },
+  {
+   "sehir": "Palmira (Tadmur)",
+   "lat": 34.5528,
+   "lon": 38.2649,
+   "konum_tanik": [
+    {
+     "kaynak": "UNESCO WHC 23 Palmyra",
+     "lat": 34.5542,
+     "lon": 38.2667
+    },
+    {
+     "kaynak": "Pleiades 668331 Palmyra",
+     "lat": 34.5528094,
+     "lon": 38.2648672
+    },
+    {
+     "kaynak": "Wikidata Q5747 Palmyra",
+     "lat": 34.550381,
+     "lon": 38.269791
+    }
+   ],
+   "konum_not": "Uc tanik <0,5 km.",
+   "donemler": [],
+   "bosluk_notu": "Palmira imparatorlugu (Odaenathus/Zenobia) ve Aurelian fethi icin acik erisim akademik tam metin okunamadi (OUP/Andrade 2018 sayfasi navigasyon-only). Arama ozetleri 268-272, 273: yazilmadi."
+  },
+  {
+   "sehir": "Şam (Damaskus)",
+   "lat": 33.5116,
+   "lon": 36.3091,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 678106 Damascus",
+     "lat": 33.511612,
+     "lon": 36.309102
+    },
+    {
+     "kaynak": "Wikidata Q3766 Damascus",
+     "lat": 33.513056,
+     "lon": 36.291944
+    }
+   ],
+   "konum_not": "Iki tanik ~1,6 km.",
+   "donemler": [
+    {
+     "sahip": "Aram-Şam (Dimaşk) Krallığı",
+     "mevcut_kunye_id": "aram-sam",
+     "bas_mo": null,
+     "son_mo": 732,
+     "kesinlik": "yil",
+     "gecis_kaynagi": "\"in 732 BC, when the troops of Hamat and Damascus were defeated, their countries invaded and permanently annexed\" [AEBP Tiglatpileser III]",
+     "alinti": "in 732 BC, when the troops of Hamat and Damascus were defeated, their countries invaded and permanently annexed",
+     "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Kings/TiglatpileserIII/index.html",
+     "kronoloji_okulu": "AEBP (UCL)",
+     "dolayli_cikarim": false,
+     "eksik_uc": "bas"
+    },
+    {
+     "sahip": "Yeni Asur İmparatorluğu",
+     "mevcut_kunye_id": "yeni-asur",
+     "bas_mo": 732,
+     "son_mo": null,
+     "kesinlik": "yil",
+     "gecis_kaynagi": "ayni kaynak",
+     "alinti": "permanently annexed",
+     "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Kings/TiglatpileserIII/index.html",
+     "kronoloji_okulu": "AEBP (UCL)",
+     "dolayli_cikarim": false,
+     "eksik_uc": "son"
+    }
+   ],
+   "bosluk_notu": "Aram-Sam kuruluşu (Rezon ~940) kaynaklanmadi; 732 sonrası (Babil/Pers/Selevkos) okunmadi."
+  },
+  {
+   "sehir": "Iskenderiye",
+   "lat": 31.2014,
+   "lon": 29.9098,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 727070 Alexandria",
+     "lat": 31.201435,
+     "lon": 29.909773
+    },
+    {
+     "kaynak": "Wikidata Q87 Alexandria",
+     "lat": 31.1975,
+     "lon": 29.8925
+    }
+   ],
+   "konum_not": "Iki tanik ~1,7 km; Pleiades esas.",
+   "donemler": [
+    {
+     "sahip": "Ptolemaios Krallığı",
+     "mevcut_kunye_id": "ptolemai",
+     "bas_mo": 305,
+     "son_mo": 30,
+     "kesinlik": "yil; son: Agustos 30",
+     "gecis_kaynagi": "Muhs: Ptolemaios kral 305, Roma fethi 30; Bowman (CAH): Agustos 30 MO, 1 Thoth = 29 Agustos",
+     "alinti": "In August of 30 B.C., some ten months after the Battle of Actium, Octavian had pursued Cleopatra and Mark Antony to Egypt.",
+     "url": "https://www.cambridge.org/core/books/cambridge-ancient-history/egypt/C5873D3CD7ABF1F42AB65D9E45BC8168",
+     "kronoloji_okulu": "yok (yazili)",
+     "dolayli_cikarim": false,
+     "celiskili": true,
+     "alternatifler": [
+      {
+       "bas_mo": 323,
+       "kaynak": "Ptolemaios Misir'i 323'te aldi (Muhs); kral unvani 305"
+      }
+     ]
+    },
+    {
+     "sahip": "Roma (Octavianus)",
+     "mevcut_kunye_id": "roma-cumhuriyeti",
+     "bas_mo": 30,
+     "son_mo": null,
+     "kesinlik": "yil",
+     "gecis_kaynagi": "Octavianus Agustos 30 MO'da Iskenderiye'de; Muhs \"Romans conquered it in 30 BCE\"",
+     "alinti": "In August of 30 B.C.",
+     "url": "https://www.cambridge.org/core/books/cambridge-ancient-history/egypt/C5873D3CD7ABF1F42AB65D9E45BC8168",
+     "kronoloji_okulu": "yok",
+     "dolayli_cikarim": false,
+     "eksik_uc": "son"
+    }
+   ],
+   "bosluk_notu": "Iskenderiye kuruluşu 332/331 (Pleiades). Ptolemaios baslangici icin 323 mü 305 mi: iki deger (bkz. celiskiler)."
+  },
+  {
+   "sehir": "Sais (Sa el-Hagar)",
+   "lat": 30.9671,
+   "lon": 30.7744,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 727217 Sais",
+     "lat": 30.96715,
+     "lon": 30.774367
+    },
+    {
+     "kaynak": "Wikidata Q381038 Sais",
+     "lat": 30.964722,
+     "lon": 30.768333
+    }
+   ],
+   "konum_not": "Iki tanik <1 km.",
+   "donemler": [],
+   "bosluk_notu": "Sait (26.) hanedan 664-525: sehrin sahip gecisi ayri bir kaynakla okunmadi; hanedan sonu 525 (Bresciani)."
+  },
+  {
+   "sehir": "Tanis",
+   "lat": 30.9755,
+   "lon": 31.8836,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 727236 Tanis",
+     "lat": 30.97545284,
+     "lon": 31.88361936
+    },
+    {
+     "kaynak": "Wikidata Q210598 Tanis",
+     "lat": 30.976944,
+     "lon": 31.88
+    }
+   ],
+   "konum_not": "Iki tanik <0,5 km.",
+   "donemler": [],
+   "bosluk_notu": "21.-22. hanedan baskent donemleri icin kaynak okunmadi."
+  },
+  {
+   "sehir": "Gazze",
+   "lat": 31.5202,
+   "lon": 34.4517,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 687902 Gaza",
+     "lat": 31.5202095,
+     "lon": 34.451719
+    },
+    {
+     "kaynak": "Wikidata Q47492 Gaza City",
+     "lat": 31.5075,
+     "lon": 34.459722
+    }
+   ],
+   "konum_not": "Iki tanik ~1,5 km.",
+   "donemler": [
+    {
+     "sahip": "Yeni Asur (vasal/ticaret ussu - bit kari)",
+     "mevcut_kunye_id": "yeni-asur",
+     "bas_mo": 734,
+     "son_mo": null,
+     "kesinlik": "yil",
+     "gecis_kaynagi": "Hanunu 734'te Misir'a kacti, donunce Gazze Asur \"bit kari\" bagimliligina alindi; 721'de Sargon Rapihu'da yendi, Gazze vasal kaldi, eyalet olmadi [AEBP Philistia]",
+     "alinti": "In 734 BC, faced with the advancing Assyrian army, Hanunu fled to neighbouring Egypt",
+     "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/philistia/",
+     "kronoloji_okulu": "AEBP (UCL)",
+     "dolayli_cikarim": false,
+     "eksik_uc": "son",
+     "celiskili": true
+    }
+   ],
+   "bosluk_notu": "Gazze eyalet DEGIL vasal (AEBP): sahiplik donemi \"nominal bagimsiz\" - motor boyamasi icin dikkat; son (Pers/Iskender kusatmasi) okunmadi."
+  },
+  {
+   "sehir": "Karkamış",
+   "lat": 36.8294,
+   "lon": 38.0149,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 658465 Carchemish",
+     "lat": 36.82942295,
+     "lon": 38.01492052
+    },
+    {
+     "kaynak": "Wikidata Q283680 Carchemish",
+     "lat": 36.829722,
+     "lon": 38.015
+    }
+   ],
+   "konum_not": "Iki tanik <0,1 km.",
+   "donemler": [
+    {
+     "sahip": "Yeni Asur İmparatorluğu",
+     "mevcut_kunye_id": "yeni-asur",
+     "bas_mo": 717,
+     "son_mo": null,
+     "kesinlik": "yil",
+     "gecis_kaynagi": "\"the Assyrian annexation of the neighbouring kingdoms of Carchemish (in 717 BC) and Marqasu (in 711 BC)\" [AEBP Urartu]",
+     "alinti": "the Assyrian annexation of the neighbouring kingdoms of Carchemish (in 717 BC)",
+     "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/urartu/",
+     "kronoloji_okulu": "AEBP (UCL)",
+     "dolayli_cikarim": false,
+     "eksik_uc": "son"
+    }
+   ],
+   "bosluk_notu": "Yeni-Hitit Karkamis krallığı baslangıcı (Hitit sonrası) okunmadi."
+  },
+  {
+   "sehir": "Tuşpa (Van Kalesi)",
+   "lat": 38.5016,
+   "lon": 43.3361,
+   "konum_tanik": [
+    {
+     "kaynak": "Wikidata Q766324 Tushpa",
+     "lat": 38.5,
+     "lon": 43.3425
+    },
+    {
+     "kaynak": "OSM Nominatim Van Kalesi",
+     "lat": 38.5030665,
+     "lon": 43.3384997
+    }
+   ],
+   "konum_not": "Iki tanik <0,3 km. Pleiades kaydi yok.",
+   "donemler": [
+    {
+     "sahip": "Urartu Krallığı",
+     "mevcut_kunye_id": "urartu",
+     "bas_mo": null,
+     "son_mo": 590,
+     "kesinlik": "yaklasik (\"vanished around 590\")",
+     "gecis_kaynagi": "Sarduri krallik kurdu, baskent Tuspa (orta 9. yy); \"Urartu vanished around 590 B.C.E.\" [Kleiss, Iranica]",
+     "alinti": "Urartu vanished around 590 B.C.E.",
+     "url": "https://www.iranicaonline.org/articles/urartu",
+     "kronoloji_okulu": "Iranica (Kleiss)",
+     "dolayli_cikarim": false,
+     "eksik_uc": "bas"
+    }
+   ],
+   "bosluk_notu": "Tiglat-pileser III 743'te Turushpa'yi kusatti ama alamadi (AEBP Urartu): sahip degismedi."
+  },
+  {
+   "sehir": "Megiddo",
+   "lat": 32.5838,
+   "lon": 35.1837,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 26356565 Magidu",
+     "lat": 32.58377626,
+     "lon": 35.18373148
+    },
+    {
+     "kaynak": "Wikidata Q208379 Tel Megiddo",
+     "lat": 32.585278,
+     "lon": 35.184444
+    },
+    {
+     "kaynak": "OSM Nominatim Tell Megiddo",
+     "lat": 32.5854306,
+     "lon": 35.1841863
+    }
+   ],
+   "konum_not": "Uc tanik <0,3 km.",
+   "donemler": [
+    {
+     "sahip": "Yeni Asur (Megiddo eyaleti)",
+     "mevcut_kunye_id": "yeni-asur",
+     "bas_mo": 732,
+     "son_mo": null,
+     "kesinlik": "yil",
+     "gecis_kaynagi": "Israil'in kuzey topraklari Asur dogrudan yönetimine girdi; \"newly established province of Megiddo\" [AEBP Israel]; 732 [AEBP Tiglatpileser III]",
+     "alinti": "The newly established province of Megiddo centred around the city of the same name",
+     "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/israel/",
+     "kronoloji_okulu": "AEBP (UCL)",
+     "dolayli_cikarim": false,
+     "eksik_uc": "son"
+    }
+   ],
+   "bosluk_notu": "Israil Krallıgı doneminde Megiddo'nun sahipligi okunmadi."
+  }
+ ],
+ "kayitlar": [
+  {
+   "id": "misir-eski-krallik-basi-14c",
+   "ad": "Misir Eski Krallik basi (Djoser) - radyokarbon",
+   "ad_yerel": "Third Dynasty / Djoser accession",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 2691,
+    "son_mo": 2625,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Bronk Ramsey C, Dee MW, Rowland JM, Higham TFG, Harris SA, Brock F, Quiles A, Wild EM, Marcus ES, Shortland AJ. 2010. Radiocarbon-based chronology for dynastic Egypt. Science 328(5985):1554-1557 (Tablo 1; doi:10.1126/science.1189395)",
+    "url": "https://www.ltrr.arizona.edu/~tswetnam/CMATE/Ramsey%20et%20al%20Science%202010%20Egypt%20radiocarbon.pdf",
+    "alinti": "the reign of Djoser in the Old Kingdom started between 2691 and 2625 B.C.E.",
+    "kaynak_sinifi": "birincil-yayin",
+    "olusum_belirsizligi": true
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Djoser (3. hanedan, Eski Krallik) cikisinin 14C+Bayes modeli: 95% hpd 2691-2625 (68%: 2676-2643).",
+   "sahip_kultur": "Eski Krallik",
+   "ic_not": "Model Shaw 2000 saltanat sureleri uzerine; \"No. 14C dates\" Djoser 7. Erdil 2025 (ERDIL) bagimsiz model: 95% 2704-2632 (Shaw), 2698-2629 (Hornung), 2750-2635 (Kitchen) -> ic_not: cift teyit icin ikinci kaynak kaynak_2.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://www.ltrr.arizona.edu/~tswetnam/CMATE/Ramsey%20et%20al%20Science%202010%20Egypt%20radiocarbon.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/"
+   ]
+  },
+  {
+   "id": "misir-orta-krallik-basi-14c",
+   "ad": "Misir Orta Krallik basi",
+   "ad_yerel": "Start of Middle Kingdom",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 2065,
+    "son_mo": 2037,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Erdil P, Webster L, Kuitems M, Knoblauch C, Bestock L, et al. 2025. Resolution of the High versus Low debate for Old and Middle Kingdom Egypt. PLoS ONE 20(5):e0314612 (Tablo 4; doi:10.1371/journal.pone.0314612)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/",
+    "alinti": "Start of MK 2058 2045 2065 2037",
+    "kaynak_sinifi": "birincil-yayin",
+    "model": "P1 (Hornung reign lengths), 95% hpd"
+   },
+   "bit": {
+    "bas_mo": 1825,
+    "son_mo": 1799,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Erdil P, Webster L, Kuitems M, Knoblauch C, Bestock L, et al. 2025. Resolution of the High versus Low debate for Old and Middle Kingdom Egypt. PLoS ONE 20(5):e0314612 (Tablo 4; doi:10.1371/journal.pone.0314612)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/",
+    "alinti": "End of MK 1819 1806 1825 1799",
+    "kaynak_sinifi": "birincil-yayin",
+    "model": "P1 (Hornung), 95% hpd"
+   },
+   "k": "kurulus",
+   "d": "Orta Krallik basi 95% 2065-2037 (P1), 2064-2038 (P2 Kitchen), 2070-2040 (P3 Shaw); bitis (12. hanedan sonu) 1825-1799 (P1), 1825-1800 (P2), 1818-1784 (P3).",
+   "sahip_kultur": "Orta Krallik",
+   "ic_not": "kaynak_2: Bronk Ramsey 2010: Mentuhotep II cikisi 95% 2064-2019, Amenemhat I 1998-1952, Amenemhat III 1851-1798. Orta Krallik bitisi burada 12. hanedan sonudur; atlas 13. hanedani da kapsiyor (bitis ~1650).",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/",
+    "https://www.ltrr.arizona.edu/~tswetnam/CMATE/Ramsey%20et%20al%20Science%202010%20Egypt%20radiocarbon.pdf"
+   ]
+  },
+  {
+   "id": "misir-yeni-krallik-14c-ahmose",
+   "ad": "Misir Yeni Krallik basi (Ahmose cikisi)",
+   "ad_yerel": "Accession of Ahmose",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 1570,
+    "son_mo": 1544,
+    "guven": "95",
+    "aralik_turu": "kalibre-14C",
+    "kaynak": "Bronk Ramsey C, Dee MW, Rowland JM, Higham TFG, Harris SA, Brock F, Quiles A, Wild EM, Marcus ES, Shortland AJ. 2010. Radiocarbon-based chronology for dynastic Egypt. Science 328(5985):1554-1557 (Tablo 1; doi:10.1126/science.1189395)",
+    "url": "https://www.ltrr.arizona.edu/~tswetnam/CMATE/Ramsey%20et%20al%20Science%202010%20Egypt%20radiocarbon.pdf",
+    "alinti": "New Kingdom started between 1570 and 1544 B.C.E.",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "kurulus",
+   "d": "Ahmose cikisi 95% 1570-1544 (68%: 1566-1552); okul okul 1580..1524.",
+   "sahip_kultur": "Yeni Krallik",
+   "ic_not": "kaynak_2: Bruins & van der Plicht 2025 tablosu (1580 Breasted ... 1524 Krauss-Warburton; Shaw 1550, Hornung 1539); AEBP: \"1552/1550-1069\".",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://www.ltrr.arizona.edu/~tswetnam/CMATE/Ramsey%20et%20al%20Science%202010%20Egypt%20radiocarbon.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12422448/",
+    "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/kush/"
+   ]
+  },
+  {
+   "id": "hitit-cokus-manning2023",
+   "ad": "Hitit cokusu / Hattusa terki",
+   "ad_yerel": "Hittite collapse / Hattusa abandoned",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 1198,
+    "son_mo": 1196,
+    "guven": "±3 yil",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Manning SW, Kocik C, Lorentzen B, Sparks JP. 2023. Severe multi-year drought coincident with Hittite collapse around 1198-1196 BC. Nature 614(7949):719-724 (doi:10.1038/s41586-022-05693-y)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+    "alinti": "unusually severe continuous dry period from around 1198 to 1196 (±3) bc",
+    "kaynak_sinifi": "birincil-yayin",
+    "not": "Kuraklik donemi (aglik) 1198-1196 ±3, siyasi cokus tarihi DEGIL"
+   },
+   "bit": null,
+   "k": "kayip",
+   "d": "Hitit Imparatorlugu ve merkezi idare \"around or shortly after 1200 bc\" coktu; Hattusa kral idaresince bosaltildi ve sonra yakildi; Suppiluliuma II cikisi ~1207 (Orta Kronoloji).",
+   "sahip_kultur": "Hitit",
+   "ic_not": "Ramses III yil 8 (Medinet Habu) terminus ante quem: 1188 (yeni) veya ~1177/1180 (eski). Ugarit yikimi ~1193-1186 (terminus post quem).",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/"
+   ]
+  },
+  {
+   "id": "ugarit-yikim-manning2023",
+   "ad": "Ugarit yikimi",
+   "ad_yerel": "Destruction of Ugarit",
+   "tur": "sehir",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 1193,
+    "son_mo": 1186,
+    "guven": "belirsiz",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Manning SW, Kocik C, Lorentzen B, Sparks JP. 2023. Severe multi-year drought coincident with Hittite collapse around 1198-1196 BC. Nature 614(7949):719-724 (doi:10.1038/s41586-022-05693-y)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+    "alinti": "the destruction of the major coastal centre of Ugarit has been argued to lie between ~1193 and 1186 bc",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "kayip",
+   "d": "Ugarit yikimi Misir kanceleri Bay (Siptah yil 5) senkronizmine dayali terminus post quem.",
+   "sahip_kultur": "Ugarit Krallığı",
+   "ic_not": "Ramses II/III tarihleri 11 yil eskiye cekilirse aralik ~11 yil daha eski.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/"
+   ]
+  },
+  {
+   "id": "hitit-eski-hattusili-herrmann2023",
+   "ad": "Hattusili I - Mursili I (Eski Hitit)",
+   "ad_yerel": "Ḫattušili I",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 1650,
+    "son_mo": 1620,
+    "guven": "gelenek",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Herrmann VR, Manning SW, Morgan KR, Soldi S, Schloen D. 2023. New evidence for Middle Bronze Age chronology from the Syro-Anatolian frontier. Antiquity 97(393):654-673 (doi:10.15184/aqy.2023.30)",
+    "url": "https://www.cambridge.org/core/product/014ABB912CC50181E0F06E074BE071A2/core-reader",
+    "alinti": "conventionally, hMC c. 1650–1620 BC",
+    "kaynak_sinifi": "birincil-yayin",
+    "not": "Metin WebFetch (ozetleyici arac) uzerinden okundu; alinti dogrudan sayfa metninden degil arac ciktisindandir - kutuphane/PDF ile dogrulanmasi onerilir."
+   },
+   "bit": {
+    "bas_mo": 1620,
+    "son_mo": 1590,
+    "guven": "gelenek",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Herrmann VR, Manning SW, Morgan KR, Soldi S, Schloen D. 2023. New evidence for Middle Bronze Age chronology from the Syro-Anatolian frontier. Antiquity 97(393):654-673 (doi:10.15184/aqy.2023.30)",
+    "url": "https://www.cambridge.org/core/product/014ABB912CC50181E0F06E074BE071A2/core-reader",
+    "alinti": "Mursili I conventionally hMC c. 1620–1590 BC",
+    "kaynak_sinifi": "birincil-yayin",
+    "not": "Metin WebFetch (ozetleyici arac) uzerinden okundu; alinti dogrudan sayfa metninden degil arac ciktisindandir - kutuphane/PDF ile dogrulanmasi onerilir."
+   },
+   "k": "kurulus",
+   "d": "Eski Hitit krallari: Hattusili I c.1650-1620, Mursili I c.1620-1590; Babil'in dusus (Mursili I) 1595/1587 (hMC/lMC); 1650 kusak sayimiyla gelenek.",
+   "sahip_kultur": "Hitit",
+   "ic_not": "Zincirli yikimi c.1632-1610 (Hattusili I olabilir).",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://www.cambridge.org/core/product/014ABB912CC50181E0F06E074BE071A2/core-reader"
+   ]
+  },
+  {
+   "id": "urartu-kleiss",
+   "ad": "Urartu krallıgi kurulusu ve sonu",
+   "ad_yerel": "Urartu / Biainili",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 850,
+    "son_mo": 840,
+    "guven": "belirsiz (orta 9. yy)",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kleiss W. \"Urartu in Iran\", Encyclopaedia Iranica (online, 2008)",
+    "url": "https://www.iranicaonline.org/articles/urartu",
+    "alinti": "They achieved political unity in the middle of the 9th century B.C.E. King Sarduri established the Urartian kingdom",
+    "kaynak_sinifi": "ansiklopedi"
+   },
+   "bit": {
+    "bas_mo": 590,
+    "son_mo": null,
+    "guven": "yaklasik",
+    "aralik_turu": "tek-deger",
+    "kaynak": "Kleiss W. \"Urartu in Iran\", Encyclopaedia Iranica (online, 2008)",
+    "url": "https://www.iranicaonline.org/articles/urartu",
+    "alinti": "Urartu vanished around 590 B.C.E.",
+    "kaynak_sinifi": "ansiklopedi"
+   },
+   "k": "kurulus",
+   "d": "Sarduri (I) krallıgı kurar, baskent Tuspa; Sardur II (760-30) zirve; Rusa I 730-714/13; Argisti II 713-690; Rusa II ~685-645; 590 dolayinda Med/Ahameniş.",
+   "sahip_kultur": "Urartu",
+   "ic_not": "Iranica \"orta 9. yy\" yil vermez; bas_mo 850-840 oturumun yorumudur, kaynak yalniz \"middle of the 9th century\" der - atlas f=860 ile uyumlu.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://www.iranicaonline.org/articles/urartu",
+    "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/urartu/"
+   ]
+  },
+  {
+   "id": "sardes-lidya-pers-546",
+   "ad": "Lidya'nin dusmesi (Sardes) 546/547",
+   "ad_yerel": "Fall of Sardis",
+   "tur": "sehir",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 560,
+    "son_mo": 546,
+    "guven": "ca.",
+    "aralik_turu": "yazili",
+    "kaynak": "Shahbazi AS. \"Croesus\", Encyclopaedia Iranica VI/4, 1993, s. 401-402",
+    "url": "https://www.iranicaonline.org/articles/croesus/",
+    "alinti": "CROESUS, last king of Lydia (r. ca. 560-546 b.c.e.)",
+    "kaynak_sinifi": "ansiklopedi"
+   },
+   "bit": {
+    "bas_mo": 546,
+    "son_mo": 546,
+    "guven": "belirsiz (547 alternatifi)",
+    "aralik_turu": "yazili",
+    "kaynak": "Dandamayev MA. \"Cyrus iii. Cyrus II the Great\", Encyclopaedia Iranica VI/5, 1993, s. 516-521",
+    "url": "https://www.iranicaonline.org/articles/cyrus-iii/",
+    "alinti": "The fall of Sardis appears to have taken place between October and December, but Herodotus did not give the exact year.",
+    "kaynak_sinifi": "ansiklopedi"
+   },
+   "k": "fetih",
+   "d": "Kroisos son Lidya krali; Kyros Sardes'i alir; Nabonid Kroniği 9. yıl (547) \"Lu...\" okunusu Lydia olabilir (Cargill reddeder).",
+   "sahip_kultur": "Lidya",
+   "ic_not": "546 Shahbazi (Iranica Croesus) tercih; Dandamayev (Iranica Cyrus iii) 547 olasiligini verir.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://www.iranicaonline.org/articles/croesus/",
+    "https://www.iranicaonline.org/articles/cyrus-iii/"
+   ]
+  },
+  {
+   "id": "kudus-babil-586",
+   "ad": "Kudus'un Babil tarafindan yikimi",
+   "ad_yerel": "Babylonian destruction of Jerusalem",
+   "tur": "sehir",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 586,
+    "son_mo": null,
+    "guven": "tarihsel olarak guvenli",
+    "aralik_turu": "yazili",
+    "kaynak": "Regev J, Gadot Y, Uziel J, Chalaf O, Shalev Y, et al. 2024. Radiocarbon chronology of Iron Age Jerusalem reveals calibration offsets and architectural developments. PNAS 121(19) (doi:10.1073/pnas.2321024121)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11087761/",
+    "alinti": "the historically secure stratigraphic horizon of the Babylonian destruction in 586 BC",
+    "kaynak_sinifi": "birincil-yayin"
+   },
+   "bit": null,
+   "k": "fetih",
+   "d": "Kudus 586'da Babil tarafindan yikildi; 100 halka olcumu MO 624-572 ile dogrulama.",
+   "sahip_kultur": "Yahuda",
+   "ic_not": "Jeremiah 52:12-13 ve II. Krallar 25:8-9: Nabukadnezar'in 19. yili. ABC 5 (2 Adar 597) bu oturumda okunmadi -> kutuphane.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11087761/"
+   ]
+  },
+  {
+   "id": "samiriye-dimask-asur-722-732",
+   "ad": "Dimask (732) ve Samiriye (722) Asur ilhakları",
+   "ad_yerel": "Annexations of Damascus and Samaria",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 732,
+    "son_mo": null,
+    "guven": "yil",
+    "aralik_turu": "yazili",
+    "kaynak": "Radner K. \"Tiglatpileser III, king of Assyria (744-727 BC)\", Assyrian Empire Builders, University College London, 2021 (ORACC/SAAo)",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Kings/TiglatpileserIII/index.html",
+    "alinti": "in 732 BC, when the troops of Hamat and Damascus were defeated, their countries invaded and permanently annexed",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 722,
+    "son_mo": null,
+    "guven": "yil",
+    "aralik_turu": "yazili",
+    "kaynak": "Radner K. \"Israel, the House of Omri\", Assyrian Empire Builders, University College London, 2024 (ORACC/SAAo)",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/israel/",
+    "alinti": "722 BC: the taking of Samaria",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "fetih",
+   "d": "Dimask 732'de ilhak; Israil kuzey topraklari 732'de Megiddo eyaleti; Samiriye 722'de alinir (Salmanassar V 726-722).",
+   "sahip_kultur": "Yeni Asur",
+   "ic_not": "Pleiades: Israil \"ca. 930-720\". AEBP Hamat icin ic tutarsiz (bkz. celiskiler).",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Kings/TiglatpileserIII/index.html",
+    "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/israel/"
+   ]
+  },
+  {
+   "id": "kus-25-hanedan-aebp",
+   "ad": "Kus hakimiyeti: Kasta, Piye, Sabako",
+   "ad_yerel": "Kashta, Piye, Shabako",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 750,
+    "son_mo": null,
+    "guven": "c.",
+    "aralik_turu": "yazili",
+    "kaynak": "Zamazalova S. \"Kush, Assyria's rival in the Levant\", Assyrian Empire Builders, University College London, 2021 (ORACC/SAAo)",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/kush/",
+    "alinti": "Kashta (c.760-747 BC) around 750 BC",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 716,
+    "son_mo": null,
+    "guven": "saltanat sonu",
+    "aralik_turu": "yazili",
+    "kaynak": "Zamazalova S. \"Kush, Assyria's rival in the Levant\", Assyrian Empire Builders, University College London, 2021 (ORACC/SAAo)",
+    "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/kush/",
+    "alinti": "Piye (747-716 BC)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Kasta Thebai'yi ~750'de baglar; Piye Misir seferi; Sabako (c.721-707/706) Delta dahil Misir'i toparlar; Sebitku 707/706-690; Asur istilasi 672'den.",
+   "sahip_kultur": "Kus 25. Hanedan",
+   "ic_not": "AEBP kendi icinde Piye 716 sonu ve Sabako 721 basini verir (ortusme). Piye Zafer Steli yil 21.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/kush/"
+   ]
+  },
+  {
+   "id": "esarhaddon-memphis-671",
+   "ad": "Esarhaddon'un Misir seferi - Memphis'in alinmasi",
+   "ad_yerel": "Esarhaddon's conquest of Egypt",
+   "tur": "sehir",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 671,
+    "son_mo": null,
+    "guven": "yil",
+    "aralik_turu": "yazili",
+    "kaynak": "Lehmann M, Tallis N, with Camurcuoglu D, Pereira-Pardo L. 2019. Esarhaddon in Egypt: An Assyrian-Egyptian battle scene on glazed tiles from Nimrud. British Museum Studies in Ancient Egypt and Sudan 25:1-100",
+    "url": "https://www.britishmuseum.org/sites/default/files/2021-03/esarhaddon_in_egypt_2019.pdf",
+    "alinti": "the victory of the Egyptian campaign in 671 BC",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 669,
+    "son_mo": null,
+    "guven": "yil",
+    "aralik_turu": "yazili",
+    "kaynak": "Lehmann M, Tallis N, with Camurcuoglu D, Pereira-Pardo L. 2019. Esarhaddon in Egypt: An Assyrian-Egyptian battle scene on glazed tiles from Nimrud. British Museum Studies in Ancient Egypt and Sudan 25:1-100",
+    "url": "https://www.britishmuseum.org/sites/default/files/2021-03/esarhaddon_in_egypt_2019.pdf",
+    "alinti": "Esarhaddon died on the way to suppress a revolt there (669 BC)",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "fetih",
+   "d": "Esarhaddon Misir'i 671'de fethetti; 669'da isyan bastirmaya giderken olur; Taharqa 692/691-664.",
+   "sahip_kultur": "Yeni Asur",
+   "ic_not": "Lehmann-Tallis dipnot 114: Nahr el-Kelb yazitı \"22nd of Duuzu (4th month) 671 BC\" (yazit tarihi, fetih gunu degil).",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://www.britishmuseum.org/sites/default/files/2021-03/esarhaddon_in_egypt_2019.pdf"
+   ]
+  },
+  {
+   "id": "pers-misir-525-332",
+   "ad": "Pers fethi (525), 1./2. hakimiyet, Iskender (332)",
+   "ad_yerel": "Persian Egypt",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 525,
+    "son_mo": null,
+    "guven": "yil",
+    "aralik_turu": "yazili",
+    "kaynak": "Bresciani E. \"Egypt i. Persians in Egypt in the Achaemenid period\", Encyclopaedia Iranica VIII/3, 1998, s. 247-249",
+    "url": "https://www.iranicaonline.org/articles/egypt-i/",
+    "alinti": "defeated by Cambyses II ... in the battle of Pelusium in the eastern Nile delta in 525 B.C.E.",
+    "kaynak_sinifi": "ansiklopedi"
+   },
+   "bit": {
+    "bas_mo": 332,
+    "son_mo": null,
+    "guven": "yil",
+    "aralik_turu": "yazili",
+    "kaynak": "Bresciani E. \"Egypt i. Persians in Egypt in the Achaemenid period\", Encyclopaedia Iranica VIII/3, 1998, s. 247-249",
+    "url": "https://www.iranicaonline.org/articles/egypt-i/",
+    "alinti": "In 332 B.C.E. Mazaces handed over the country to Alexander the Great without a fight.",
+    "kaynak_sinifi": "ansiklopedi"
+   },
+   "k": "fetih",
+   "d": "525 Pelusium (bahar); Memphis ele gecirilir; ay sonunda Kambises kral; 1. hakimiyet ~402; Artakserkses III 343/342; 2. hakimiyet 342-332.",
+   "sahip_kultur": "Ahameniş",
+   "ic_not": "Dandamayev (Cambyses): \"At the end of August he was officially installed as king of Egypt.\" (525). Pelusium bahar, Memphis'te yaz.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://www.iranicaonline.org/articles/egypt-i/",
+    "https://www.iranicaonline.org/articles/cambyses",
+    "https://www.iranicaonline.org/articles/artaxerxes-iii-throne-name-of-ochus-gk/"
+   ]
+  },
+  {
+   "id": "ptolemai-roma-muhs",
+   "ad": "Ptolemaios Hanedani ve Roma fethi",
+   "ad_yerel": "Ptolemaic period",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 305,
+    "son_mo": null,
+    "guven": "yil",
+    "aralik_turu": "yazili",
+    "kaynak": "Muhs B. 2016. The Ancient Egyptian Economy: 3000-30 BCE, bol. 7 \"The Ptolemaic Period (332-30 BCE)\", s. 211-252. Cambridge University Press (doi:10.1017/CBO9781316286364.008)",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/029A98BAB6F458BA138E6E028C71CAB3/9781316286364c7_p211-252_CBO.pdf/the-ptolemaic-period-332-30-bce.pdf",
+    "alinti": "Ptolemy proclaimed himself king in 305 BCE",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 30,
+    "son_mo": null,
+    "guven": "ay",
+    "aralik_turu": "yazili",
+    "kaynak": "Bowman AK. 1996. \"Egypt\", The Cambridge Ancient History (2. bs.), s. 676-702 (doi:10.1017/CHOL9780521264303.025)",
+    "url": "https://www.cambridge.org/core/books/cambridge-ancient-history/egypt/C5873D3CD7ABF1F42AB65D9E45BC8168",
+    "alinti": "In August of 30 B.C., some ten months after the Battle of Actium",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Makedon hanedani 332-305; Ptolemaios hanedani 305-30; Roma 30'da fethetti; Iskenderiye'ye saray tasima.",
+   "sahip_kultur": "Ptolemaios",
+   "ic_not": "Muhs 2016 Tablo 7.1; Bowman CAH: 1 Thoth = 29 Agustos 30.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/029A98BAB6F458BA138E6E028C71CAB3/9781316286364c7_p211-252_CBO.pdf/the-ptolemaic-period-332-30-bce.pdf",
+    "https://www.cambridge.org/core/books/cambridge-ancient-history/egypt/C5873D3CD7ABF1F42AB65D9E45BC8168"
+   ]
+  },
+  {
+   "id": "kerma-kronoloji-kermach",
+   "ad": "Kerma ve Nubya kronolojisi (Kerma misyonu)",
+   "ad_yerel": "Kerma chronology",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 2450,
+    "son_mo": 2050,
+    "guven": "circa",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kerma arkeoloji misyonu (Cenevre Univ. / Honegger, Bonnet, Chaix yayinlari), \"History\" kronoloji tablosu, kerma.ch/en/history/ (sayfada kurum adi yazmiyor; tablo dilinde Ingilizce)",
+    "url": "https://kerma.ch/en/history/",
+    "alinti": "Early Kerma 2450-2050 B.C. City founded",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 1480,
+    "son_mo": 1080,
+    "guven": "circa",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Kerma arkeoloji misyonu (Cenevre Univ. / Honegger, Bonnet, Chaix yayinlari), \"History\" kronoloji tablosu, kerma.ch/en/history/ (sayfada kurum adi yazmiyor; tablo dilinde Ingilizce)",
+    "url": "https://kerma.ch/en/history/",
+    "alinti": "Egyptian Occupation 1480-1080 B.C.",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "k": "gelisme",
+   "d": "Erken 2450-2050; Orta 2050-1750; Klasik 1750-1480; Son Kerma 1480-1450; Misir isgali 1480-1080; Karanlik Cag 1080-730; Napata 730-400; Meroe 400 MO-MS 400; Post-Meroe 400-600.",
+   "sahip_kultur": "Kerma",
+   "ic_not": "Tablo kendi icinde tutarsiz: Son Kerma 1480-1450 ile isgal 1480 cakisiyor. Sayfada kurum adi yok.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://kerma.ch/en/history/"
+   ]
+  },
+  {
+   "id": "gordion-frig-penn",
+   "ad": "Gordion/Frig krallıgi kronolojisi",
+   "ad_yerel": "Gordion",
+   "tur": "kultur",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 900,
+    "son_mo": 800,
+    "guven": "faz",
+    "aralik_turu": "tabaka-donem",
+    "kaynak": "PENN_CH",
+    "url": "https://www.penn.museum/sites/gordion/history/chronology/",
+    "alinti": "Early Phrygian 900—800 BCE; calibrated range of 821–807 BCE (1 sigma) for the Destruction Level",
+    "kaynak_sinifi": "akademik-ikincil",
+    "not": "Metin WebFetch (ozetleyici arac) uzerinden okundu; alinti dogrudan sayfa metninden degil arac ciktisindandir - kutuphane/PDF ile dogrulanmasi onerilir."
+   },
+   "bit": {
+    "bas_mo": 709,
+    "son_mo": null,
+    "guven": "yil",
+    "aralik_turu": "yazili",
+    "kaynak": "PENN_IA",
+    "url": "https://www.penn.museum/sites/gordion/history/iron-age-gordion/",
+    "alinti": "Assyrian records place him in power as late as 709 BCE",
+    "kaynak_sinifi": "akademik-ikincil",
+    "not": "Metin WebFetch (ozetleyici arac) uzerinden okundu; alinti dogrudan sayfa metninden degil arac ciktisindandir - kutuphane/PDF ile dogrulanmasi onerilir."
+   },
+   "k": "gelisme",
+   "d": "Erken Frig 900-800; yikim ~800; Orta Frig 800-540; Gec Frig/Pers 540-330; Tumulus MM tomruklari 740 +7/-3; Midas en az 717-709; Lidya egemenligi MO 6. yy ilk yarisi; Pers 540'lar.",
+   "sahip_kultur": "Frig",
+   "ic_not": "YHSS fazlari arkeolojik faz, devlet siniri degil.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://www.penn.museum/sites/gordion/history/chronology/",
+    "https://www.penn.museum/sites/gordion/history/iron-age-gordion/"
+   ]
+  },
+  {
+   "id": "aksum-unesco-harrower",
+   "ad": "Aksum Krallıgi",
+   "ad_yerel": "Aksum",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": -1,
+    "son_mo": -800,
+    "guven": "yuzyil duzeyi",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "U_AKSUM",
+    "url": "https://whc.unesco.org/en/list/15/",
+    "alinti": "Aksumite kingdom, which lasted from the 1st to the 8th centuries AD",
+    "kaynak_sinifi": "ansiklopedi",
+    "not": "bas=MS 1. yy, son=MS 8. yy yuzyil sayisi; yil degil"
+   },
+   "bit": null,
+   "k": "gelisme",
+   "d": "UNESCO: 1.-8. yy MS; Harrower 2019: zirve 3.-6. yy, Ezana'nin pagan sikkesi c.300-330, Hristiyanlik \"mid fourth century AD\"; Beta Samati son iskan 7. yy ortasi.",
+   "sahip_kultur": "Aksum",
+   "ic_not": "Yuzyil duzeyi; yil yazilmamali. Pleiades \"first to tenth centuries\". Periplus metni okunmadi.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://whc.unesco.org/en/list/15/",
+    "https://www.cambridge.org/core/journals/antiquity/article/beta-samati-discovery-and-excavation-of-an-aksumite-town/643FA872A5B2F9B5E0E765D850C4A526"
+   ]
+  },
+  {
+   "id": "nabatiye-roma-106",
+   "ad": "Nabatiye Krallığı'nin Roma tarafindan ilhaki",
+   "ad_yerel": "Annexation of Nabataea",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": -106,
+    "son_mo": null,
+    "guven": "yil",
+    "aralik_turu": "yazili",
+    "kaynak": "Auge C. 2013. \"Roman Arabia\", Atlas of Jordan (ed. M. Ababsa), Presses de l'Ifpo, s. 155-161",
+    "url": "https://books.openedition.org/ifpo/4903",
+    "alinti": "After 106 AD, when Trajan had attached Gerasa and Philadelphia to the Province of Arabia and annexed the Nabataean kingdom of Petra",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": null,
+   "k": "fetih",
+   "d": "MS 106'da Arabia eyaleti, baskent Bostra, Petra ikincil rol; via nova Traiana 111-114.",
+   "sahip_kultur": "Nabatiye",
+   "ic_not": "Ay/gun yok. Rabbel II 70/71-106 OCD aramasi ozetinde (okunmadi).",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://books.openedition.org/ifpo/4903"
+   ]
+  },
+  {
+   "id": "hasmoni-rajak",
+   "ad": "Hasmoni - Roma (63 MO) ve Herodes (37 MO)",
+   "ad_yerel": "Hasmonean State",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 63,
+    "son_mo": null,
+    "guven": "yil; sonbahar",
+    "aralik_turu": "yazili",
+    "kaynak": "Rajak T. 1994. \"The Jews under Hasmonean Rule\" (8b), The Cambridge Ancient History (2. bs.), s. 274-309 (doi:10.1017/CHOL9781139054379.010)",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/271397D14EACE16E21010E3C0655C421/9780521256032c9_p274-309_CBO.pdf/jews_under_hasmonean_rule.pdf",
+    "alinti": "The Roman seizure of Jerusalem in the autumn of 63 B.C.",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "bit": {
+    "bas_mo": 37,
+    "son_mo": null,
+    "guven": "yil",
+    "aralik_turu": "yazili",
+    "kaynak": "Botha P (van den Heever G ile). 2001. \"Judaism in the Graeco-Roman World\", From Jesus Christ to Christianity, UNISA, s. 42-84 (Cambridge Core cevrimici 2020)",
+    "url": "https://www.cambridge.org/core/books/abs/from-jesus-christ-to-christianity/judaism-in-the-graecoroman-world/6D853236648C355074895A0CA2305D38",
+    "alinti": "Herod ... became king in reality in 37 BCE",
+    "kaynak_sinifi": "akademik-ikincil",
+    "not": "Metin WebFetch (ozetleyici arac) uzerinden okundu; alinti dogrudan sayfa metninden degil arac ciktisindandir - kutuphane/PDF ile dogrulanmasi onerilir."
+   },
+   "k": "fetih",
+   "d": "Pompeius Kudus'u 63 sonbaharinda aldi; Hasmoniler Roma himayesinde (II. Hyrcanus); Herodes 41'de atandi, 37'de gercek kral, 4 MO'da oldu.",
+   "sahip_kultur": "Hasmoni",
+   "ic_not": "Dabrowa (ed.) 2009: Judea under the Hasmoneans 167-63 BCE (bolum basligi ozeti).",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/271397D14EACE16E21010E3C0655C421/9780521256032c9_p274-309_CBO.pdf/jews_under_hasmonean_rule.pdf",
+    "https://www.cambridge.org/core/books/abs/from-jesus-christ-to-christianity/judaism-in-the-graecoroman-world/6D853236648C355074895A0CA2305D38"
+   ]
+  },
+  {
+   "id": "karya-pers-weiskopf",
+   "ad": "Karya Hekatomnid satraplıgi",
+   "ad_yerel": "Caria / Hecatomnids",
+   "tur": "bolge",
+   "lat": null,
+   "lon": null,
+   "konum_tanik": [],
+   "konum_not": "Bolge/olay kaydi.",
+   "kur": {
+    "bas_mo": 540,
+    "son_mo": 390,
+    "guven": "on yillar",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Weiskopf M. \"Caria\", Encyclopaedia Iranica IV/7, 1990, s. 806-812",
+    "url": "https://www.iranicaonline.org/articles/caria/",
+    "alinti": "Caria was under Achaemenid rule first as a part of the satrapy of Sparda (Lydia; 540s-390s B.C.)",
+    "kaynak_sinifi": "ansiklopedi"
+   },
+   "bit": {
+    "bas_mo": 390,
+    "son_mo": 330,
+    "guven": "on yillar",
+    "aralik_turu": "donem-toplami",
+    "kaynak": "Weiskopf M. \"Caria\", Encyclopaedia Iranica IV/7, 1990, s. 806-812",
+    "url": "https://www.iranicaonline.org/articles/caria/",
+    "alinti": "then as a separate satrapy (390s-30s B.C.) under the Hecatomnid family",
+    "kaynak_sinifi": "ansiklopedi"
+   },
+   "k": "gelisme",
+   "d": "Karya once Sparda (Lidya) altinda, 390'lardan 330'lara ayri Hekatomnid satraplıgı.",
+   "sahip_kultur": "Ahameniş",
+   "ic_not": "Iranica Jacobs: Sparda/Lidya Buyuk Satraplik baskenti Sardes.",
+   "kaynak_dili": "en",
+   "okunan_sayfa": [
+    "https://www.iranicaonline.org/articles/caria/",
+    "https://www.iranicaonline.org/articles/achaemenid-satrapies/"
+   ]
+  }
+ ],
+ "celiskiler": [
+  {
+   "konu": "Kus krallıgi / Napata-Meroe evre sinirlari",
+   "degerler": [
+    {
+     "deger": "Napata 664-290 MO (Meroe 290 MO-?)",
+     "kaynak": "Rilly (Africae)",
+     "url": "https://books.openedition.org/africae/2812"
+    },
+    {
+     "deger": "Napata 730-400 MO; Meroe 400 MO-MS 400; Nubian Pharaohs 713-656",
+     "kaynak": "Kerma.ch tablosu",
+     "url": "https://kerma.ch/en/history/"
+    },
+    {
+     "deger": "Napata 900-270 MO; Meroe 270 MO-MS 350",
+     "kaynak": "UNESCO Gebel Barkal (Ozet)",
+     "url": "https://whc.unesco.org/en/list/1073/"
+    },
+    {
+     "deger": "Krallik \"8. yy MO - 4. yy MS\"; Meroe 3. yy MO sonrasi kral mezarlari",
+     "kaynak": "UNESCO Meroe",
+     "url": "https://whc.unesco.org/en/list/1336/"
+    },
+    {
+     "deger": "25. hanedan 744-656; krallik 3. yy MS'de dagildi",
+     "kaynak": "Pleiades 827790769",
+     "url": "https://pleiades.stoa.org/places/827790769"
+    }
+   ],
+   "not": "Hangi olcutle \"baslangic/bitis\" tanimlandigi (kral mezarliklari, iktidar, Misir hakimiyeti) kaynaklar arasinda farkli. Tek deger secilmedi."
+  },
+  {
+   "konu": "25. hanedanin sonu / Kus egemenliginin Misir'da sonu",
+   "degerler": [
+    {
+     "deger": "672 MO'dan itibaren Asur istilasi, fetih, Kus egemenliginin sonu",
+     "kaynak": "AEBP Kush (Zamazalova)",
+     "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/kush/"
+    },
+    {
+     "deger": "671 MO Esarhaddon Memphis'i fethetti; Taharqa 692/691-664",
+     "kaynak": "Lehmann & Tallis 2019, BMSAES 25",
+     "url": "https://www.britishmuseum.org/sites/default/files/2021-03/esarhaddon_in_egypt_2019.pdf"
+    },
+    {
+     "deger": "656 (Tanutamun son tarihli yil 9)",
+     "kaynak": "Rilly",
+     "url": "https://books.openedition.org/africae/2812"
+    },
+    {
+     "deger": "656",
+     "kaynak": "Kerma.ch, Pleiades",
+     "url": "https://kerma.ch/en/history/"
+    },
+    {
+     "deger": "653",
+     "kaynak": "atlas kush-25-hanedan (kaynak okunmadi)",
+     "url": null
+    }
+   ],
+   "not": "Tek deger secilmedi."
+  },
+  {
+   "konu": "Ahameniş Misir'i 1. hakimiyet sonu ve bagimsiz hanedanlarin baslangici",
+   "degerler": [
+    {
+     "deger": "~402 MO",
+     "kaynak": "Bresciani, Iranica Egypt i",
+     "url": "https://www.iranicaonline.org/articles/egypt-i/"
+    },
+    {
+     "deger": "343 - 65 = ~408 (Schmitt cumlesinden turetme)",
+     "kaynak": "Schmitt, Iranica Artaxerxes III",
+     "url": "https://www.iranicaonline.org/articles/artaxerxes-iii-throne-name-of-ochus-gk/"
+    },
+    {
+     "deger": "404 MO",
+     "kaynak": "atlas ahamenis-misir.t (kaynak okunmadi)",
+     "url": null
+    }
+   ],
+   "not": "2 ile 6 yil fark."
+  },
+  {
+   "konu": "Ahameniş Misir'i 2. hakimiyet baslangici",
+   "degerler": [
+    {
+     "deger": "343",
+     "kaynak": "Schmitt (Artaxerxes III): \"by 343 the reconquest had been achieved\"",
+     "url": "https://www.iranicaonline.org/articles/artaxerxes-iii-throne-name-of-ochus-gk/"
+    },
+    {
+     "deger": "342",
+     "kaynak": "Bresciani: \"342-32\"",
+     "url": "https://www.iranicaonline.org/articles/egypt-i/"
+    },
+    {
+     "deger": "338-332 (2. Pers hakimiyeti)",
+     "kaynak": "Rilly (Nektanebo II 360-343, 2. hakimiyet 338-332)",
+     "url": "https://books.openedition.org/africae/2812"
+    }
+   ],
+   "not": "Rilly'nin 338 degeri Iranica'ya aykiri; sozdizimi (Rilly = Nektanebo II 343'e kadar)."
+  },
+  {
+   "konu": "Hitit imparatorlugunun sonu",
+   "degerler": [
+    {
+     "deger": "collapse ~1198-1196 (+-3), \"around or shortly after 1200\"",
+     "kaynak": "Manning vd. 2023, Nature",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/"
+    },
+    {
+     "deger": "Medinet Habu (Ramses III yil 8) 1188 (yeni) / ~1177 (eski) terminus ante quem",
+     "kaynak": "Manning vd. 2023",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/"
+    },
+    {
+     "deger": "1180 MO",
+     "kaynak": "atlas hitit/hitit-imp.t (kaynak okunmadi)",
+     "url": null
+    }
+   ],
+   "not": "Hattusa terk edilip sonra yakildi; \"yikim yili\" ile \"siyasi cokus\" ayri olaylar."
+  },
+  {
+   "konu": "Ahmose cikisi / Yeni Krallik basi",
+   "degerler": [
+    {
+     "deger": "1570-1544 (95%)",
+     "kaynak": "Bronk Ramsey 2010",
+     "url": "https://www.ltrr.arizona.edu/~tswetnam/CMATE/Ramsey%20et%20al%20Science%202010%20Egypt%20radiocarbon.pdf"
+    },
+    {
+     "deger": "1580 Breasted; 1570 Wente-Van Siclen; 1550 Shaw 2000; 1548 Schneider; 1539 Hornung vd. 2006; 1524 Krauss-Warburton",
+     "kaynak": "Bruins & van der Plicht 2025 tablosu",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12422448/"
+    },
+    {
+     "deger": "1552/1550",
+     "kaynak": "AEBP Kush",
+     "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/kush/"
+    }
+   ],
+   "not": "Atlas 1550 (Shaw) kullanilmis."
+  },
+  {
+   "konu": "Eski Krallik sonu / 1. Ara Donem basi",
+   "degerler": [
+    {
+     "deger": "P3 (Shaw): 2262-2197; P1 (Hornung): 2283-2204; P2 (Kitchen): 2236-2158 (95% hpd)",
+     "kaynak": "Erdil vd. 2025 Tablo 4",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12119019/"
+    },
+    {
+     "deger": "2181 (atlas)",
+     "kaynak": "atlas misir-eski-krallik.t (UCL tipi gelenek)",
+     "url": null
+    }
+   ],
+   "not": "Atlas t Hornung/Shaw modellerinin disinda."
+  },
+  {
+   "konu": "Ptolemaios Misir'inin baslangici",
+   "degerler": [
+    {
+     "deger": "323 (Ptolemaios Misir'i aldi)",
+     "kaynak": "Muhs 2016",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/029A98BAB6F458BA138E6E028C71CAB3/9781316286364c7_p211-252_CBO.pdf/the-ptolemaic-period-332-30-bce.pdf"
+    },
+    {
+     "deger": "305 (kral ilan etti)",
+     "kaynak": "Muhs 2016: \"Ptolemaic Dynasty (305-30 BCE)\"",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/029A98BAB6F458BA138E6E028C71CAB3/9781316286364c7_p211-252_CBO.pdf/the-ptolemaic-period-332-30-bce.pdf"
+    },
+    {
+     "deger": "332 (Iskender, Mazaces'in teslimi)",
+     "kaynak": "Bresciani; Muhs",
+     "url": "https://www.iranicaonline.org/articles/egypt-i/"
+    }
+   ],
+   "not": "Atlas f=323-06-10 (Iskender'in olum gunu) dogru olay, ama \"krallik\" 305."
+  },
+  {
+   "konu": "Hasmoni sonu",
+   "degerler": [
+    {
+     "deger": "63 MO sonbahar: Roma Kudus'u aldi (Hasmoni ulusu Roma himayesine)",
+     "kaynak": "Rajak, CAH IX 8b",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/271397D14EACE16E21010E3C0655C421/9780521256032c9_p274-309_CBO.pdf/jews_under_hasmonean_rule.pdf"
+    },
+    {
+     "deger": "37 MO: Herodes gercek kral",
+     "kaynak": "Botha 2001",
+     "url": "https://www.cambridge.org/core/books/abs/from-jesus-christ-to-christianity/judaism-in-the-graecoroman-world/6D853236648C355074895A0CA2305D38"
+    }
+   ],
+   "not": "Atlas t=37."
+  },
+  {
+   "konu": "Frig (Gordion) yikim seviyesi",
+   "degerler": [
+    {
+     "deger": "c. 800 MO (radyokarbon 821-807 1-sigma; 827-803 2-sigma; dendro 9. yy sonu)",
+     "kaynak": "Penn Gordion Chronology",
+     "url": "https://www.penn.museum/sites/gordion/history/chronology/"
+    },
+    {
+     "deger": "c. 700 MO (eski kronoloji, Young; Strabon Kimmer)",
+     "kaynak": "Penn Gordion Chronology",
+     "url": "https://www.penn.museum/sites/gordion/history/chronology/"
+    },
+    {
+     "deger": "Midas olumu 696 veya 675-674 (gec klasik kaynaklar \"demonstrably untrustworthy\")",
+     "kaynak": "Penn Gordion Iron Age",
+     "url": "https://www.penn.museum/sites/gordion/history/iron-age-gordion/"
+    }
+   ],
+   "not": "Penn Museum tarihleri 1-sigma/2-sigma ile verir."
+  },
+  {
+   "konu": "AEBP ic tutarsizligi: Hamat'in ilhaki",
+   "degerler": [
+    {
+     "deger": "Hamat 732'de Damaskus ile birlikte \"permanently annexed\"",
+     "kaynak": "AEBP Tiglatpileser III",
+     "url": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Kings/TiglatpileserIII/index.html"
+    },
+    {
+     "deger": "Hamat'li Yau-bi'di 721'de Sargon'a karsi koalisyon kurdu, Qarqar'da ezildi",
+     "kaynak": "AEBP Philistia",
+     "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/philistia/"
+    }
+   ],
+   "not": "Hamat icin sahip dönemi yazilmadi."
+  },
+  {
+   "konu": "Samiriye'nin dusmesi: kral atfi",
+   "degerler": [
+    {
+     "deger": "Salmanassar V (726-722) donemi, 722",
+     "kaynak": "AEBP Israel",
+     "url": "https://oracc.museum.upenn.edu/saao/aebp/essentials/countries/israel/"
+    },
+    {
+     "deger": "ca. 720'ye kadar (\"through ca. 720 BCE\"), Sargon II fethi",
+     "kaynak": "Pleiades 14077998",
+     "url": "https://pleiades.stoa.org/places/14077998"
+    }
+   ],
+   "not": "Atlas 722 (Salmanassar V)."
+  }
+ ],
+ "bulunamadi": [
+  "bulunamadi: Hiksos (15. Hanedan) BASLANGICI / Avaris'te hakimiyetin baslama tarihi - denenen: Bruins & van der Plicht 2025 (PMC12422448; yalniz fetih sonu), Bietak 2023 Avaris PDF (onceki dalga); Bietak 2024 Chronos 26 kutuphane.",
+  "bulunamadi: Misir Erken Hanedan baslangici (Naqada III/Dyn 0-1, ~3100) kaynakli tarihi; UNESCO yalniz \"traditionally 3000 BC\" der - denenen: UNESCO WHC 86, Bronk Ramsey 2010, Erdil 2025 (yalniz Djoser/OK basi).",
+  "bulunamadi: Psamtik I cikisi / Sait (26.) Hanedan baslangici icin bilimsel kaynak - denenen: livius.org (kullanilmadi: popüler), Rilly (Napata 664 baslik), Lehmann-Tallis (Taharqa 664 olumu).",
+  "bulunamadi: Ptolemaios Memphis'ten Iskenderiye'ye baskent tasima yili - denenen: Muhs 2016 (\"soon moved\", yil yok).",
+  "bulunamadi: Mitanni/Hanigalbat, Arzawa, Kizzuwatna, Hayasa-Azzi, Likya Birligi, Eski Hitit \"Orta Krallik\" icin kaynakli f/t - denenen: Herrmann 2023 (yalniz Hattusili I-Mursili I), Manning 2023, WebSearch (Cordani 2011 Anatolian Studies ozetleri).",
+  "bulunamadi: Ugarit krallıgi baslangici (Niqmaddu II ~1350) ve RS 86.2230 metni - denenen: Manning 2023 (yalniz yikim aralik), WebSearch ozetleri (popüler, kullanilmadi).",
+  "bulunamadi: Palmira (Odaenathus/Zenobia) ve Aurelian fethi tarihleri - denenen: OUP Andrade 2018 (navigasyon-only), WebSearch ozetleri (268-272/273: yazilmadi).",
+  "bulunamadi: Hamat, Arpad, Unqu, Que (Yeni-Hitit/Aram) ilhak yillari tutarli kaynak - AEBP kendi icinde tutarsiz (bkz. celiskiler).",
+  "bulunamadi: Nabatiye baslangici (168 MO / Aretas I) ve Rabbel II - denenen: OUP OCD \"Nabataeans\" (tam metin yok), Augé 2013 (yalniz 106).",
+  "bulunamadi: Tyre, Sidon, Byblos icin yillı egemenlik gecisleri (Asur/Babil/Pers/Iskender) - Iranica Briant yil vermiyor; Tyre 7 ay kusatma yalniz arama ozeti.",
+  "bulunamadi: Amarna (Akhetaten) kurulus ve terk yili; Pi-Ramesses kurulus yili - yalniz hukumdar tahta cikislari (Bronk Ramsey 2010) var.",
+  "bulunamadi: Meroe'nin baskent oluş yili; Aksum krallık baslangici yil duzeyinde - denenen: Rilly, Kerma.ch, UNESCO, Harrower 2019, Pleiades.",
+  "bulunamadi: Gordion icin ikinci BAGIMSIZ koordinat tanigi (Wikidata Pleiades kopyası); Ugarit icin OSM/UNESCO koordinati.",
+  "bulunamadi: Kudus 597/586 gunleri (ABC 5 BM 21946: 2 Adar 597) - denenen: britishmuseum.org/cdli.earth arama (metin yok), Regev 2024 yalniz 586 yil.",
+  "bulunamadi: Hasmoni baslangici (Simon 142/141, bagimsizlik ~129) - denenen: Cambridge Dabrowa ed. 2009 sayfasi, Brill (403)."
+ ],
+ "kutuphane_gerekli": [
+  {
+   "eser": "Hornung E, Krauss R, Warburton DA (eds). 2006. Ancient Egyptian Chronology. Brill (HdO 83).",
+   "doi/url": "10.1163/9789047404002",
+   "neden_gerekli": "Misir hanedan sinirlari (Erken Hanedan, 1./2. Ara Donem, 3. Ara Donem, Gec Donem); atlas f/t kaynaklari."
+  },
+  {
+   "eser": "Shaw I (ed.). 2000. The Oxford History of Ancient Egypt. Oxford UP.",
+   "doi/url": "Oxford UP",
+   "neden_gerekli": "Shaw kronolojisi (atlas Yeni Krallik 1550)."
+  },
+  {
+   "eser": "Bietak M. 2024. The Timespan of Hyksos Rule. Chronos / Aegis 26:57-81.",
+   "doi/url": "",
+   "neden_gerekli": "Hiksos baslangici (stratigrafik 105-112 yil)."
+  },
+  {
+   "eser": "Grayson AK. 1975. Assyrian and Babylonian Chronicles (ABC). Locust Valley; ABC 5 (BM 21946), ABC 1.",
+   "doi/url": "https://cdli.earth/publications/1685149",
+   "neden_gerekli": "Kudus 597 (2 Adar), Karkamis 605, Samiriye ve Babil olaylari; gun hassasiyeti."
+  },
+  {
+   "eser": "Torok L. 1998. The Kingdom of Kush: Handbook of the Napatan-Meroitic Civilization. Brill HdO 31.",
+   "doi/url": "Brill HdO 31",
+   "neden_gerekli": "Napata->Meroe gecisi, 25. hanedan baslangici; Pleiades kaynakcasi."
+  },
+  {
+   "eser": "Munro-Hay S. 1990. The rise and fall of Aksum: chronological considerations. Journal of Ethiopian Studies 23.",
+   "doi/url": "",
+   "neden_gerekli": "Aksum f/t."
+  },
+  {
+   "eser": "Casson L. 1989. The Periplus Maris Erythraei. Princeton UP.",
+   "doi/url": "",
+   "neden_gerekli": "Aksum/Adulis ilk belgesi (MS 1. yy ortasi), Zoskales."
+  },
+  {
+   "eser": "Bard KA, Fattovich R et al. 2014. Aksumite chronology (Beta Giyorgis, Bayesyen)",
+   "doi/url": "bkz. Harrower 2019 Tablo 1 (gorsel)",
+   "neden_gerekli": "Pre-/Proto-/Klasik Aksum donem tarihleri; metin goruntude."
+  },
+  {
+   "eser": "Bryce T. 2005. The Kingdom of the Hittites (2. bs.) Oxford UP; Seeher J. Hattusa kazi raporlari (Zerstorung der Stadt Hattusa).",
+   "doi/url": "https://academic.oup.com/book/36172",
+   "neden_gerekli": "Hitit kral sirasi, Hattusa baskentligi, Arzawa/Mitanni."
+  },
+  {
+   "eser": "Yon M. 2006. The City of Ugarit at Tell Ras Shamra. Eisenbrauns.",
+   "doi/url": "",
+   "neden_gerekli": "Ugarit yikim tarihi ve krallik kronolojisi."
+  },
+  {
+   "eser": "Kitchen KA. 1996. The Third Intermediate Period in Egypt (1100-650 BC) 3. bs.; Jansen-Winkeln K. TIP bolumleri (Hornung vd. 2006).",
+   "doi/url": "",
+   "neden_gerekli": "21.-25. hanedan sinirlari, Piye yil 21 seferi tarihi."
+  },
+  {
+   "eser": "Sams GK, Voigt M (eds). 2012/2019. The Archaeology of Phrygian Gordion, Royal City of Midas. Gordion Special Studies 7. Penn Museum.",
+   "doi/url": "https://www.jstor.org/stable/j.ctt3fhq2g",
+   "neden_gerekli": "Gordion yeni kronolojisi ve Frig kral/yikim sinirlari."
+  },
+  {
+   "eser": "Bowersock GW. 1971. A Report on Arabia Provincia. Journal of Roman Studies 61.",
+   "doi/url": "",
+   "neden_gerekli": "Nabatiye ilhak tarihi (106) ve Rabbel II olumu."
+  },
+  {
+   "eser": "Andrade NJ. 2018. Zenobia: Shooting Star of Palmyra. Oxford UP.",
+   "doi/url": "https://academic.oup.com/book/3925",
+   "neden_gerekli": "Palmira imparatorlugu (Odaenathus/Zenobia) ve Aurelian fethi tarihleri."
+  },
+  {
+   "eser": "Dabrowa E (ed.). 2009. The Hasmoneans and their State. Jagiellonian UP / Cambridge Core (2014).",
+   "doi/url": "https://www.cambridge.org/core/books/abs/hasmoneans-and-their-state/john-hyrcanus-securing-independence-and-the-rise-of-expansionist-policy/99CCA4BA1617260D878A9F38DFCE9D6A",
+   "neden_gerekli": "Simon 142/141, bagimsizlik, Hyrcanus I, Aristobulos I kral 104."
+  },
+  {
+   "eser": "Manning SW vd. 2016 (PLoS ONE 11:e0157144) Tablo/Sekil 8-9 - Kultepe Seviye II-Ib takvim tarihi.",
+   "doi/url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4943651/",
+   "neden_gerekli": "Kanes karum Seviye II sonu (REL 138-141) takvim karsiligi (Orta Kronoloji ~1830'lar?) - sekil goruntude."
+  },
+  {
+   "eser": "Rilly C. \"L'autre Terre des pharaons\" metin son 21 bin karakter + Rilly (2010?) Le meroitique.",
+   "doi/url": "https://books.openedition.org/africae/2812",
+   "neden_gerekli": "WebFetch ilk 100 bin karakteri okudu; bolum sonu okunamadi (offset 100000)."
+  }
+ ],
+ "okuma_notu": "WebFetch/WebSearch ozetleyici araclar kullanildi: WebFetch ile gelen metinler \"ozet\" alt modelden gelir; PDF/HTML dogrudan indirilenler (Bronk Ramsey 2010, Erdil 2025, Bruins 2025, Manning 2023/2016, Regev 2024, Iranica makaleleri, AEBP sayfalari, Muhs 2016, Lehmann-Tallis 2019, UNESCO, Pleiades/Wikidata/OSM) yerel metin olarak okundu. WebFetch ozetinden gelenler kayitta not edilmistir (Herrmann 2023, Penn Gordion, Rajak/Botha/Dabrowa, Harrower 2019, Rilly, Kerma.ch, Augé 2013, Bowman)."
+}
