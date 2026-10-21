@@ -1,5 +1,14 @@
 [
  {
+  "ad": "Masvingo (Great Zimbabwe)",
+  "kronoloji_adi": "Masvingo",
+  "lat": -20.2667,
+  "lon": 30.9,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_afrika.js"
+ },
+ {
   "ad": "Libya",
   "kronoloji_adi": "Libya",
   "lat": 27.03,
@@ -41,6 +50,54 @@
   "kronoloji_adi": "Eski Kahire",
   "lat": 30.006,
   "lon": 31.232,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "balkanlar"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_afrika_levant.js"
+ },
+ {
+  "ad": "Peluzyum (Pelusium)",
+  "kronoloji_adi": "Peluzyum",
+  "lat": 31.0426,
+  "lon": 32.544,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "balkanlar"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_afrika_levant.js"
+ },
+ {
+  "ad": "Pelusium",
+  "kronoloji_adi": "Pelusium",
+  "lat": 31.0426,
+  "lon": 32.544,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "balkanlar"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_afrika_levant.js"
+ },
+ {
+  "ad": "Babilon Kalesi (Babylon Fortress)",
+  "kronoloji_adi": "Babilon Kalesi",
+  "lat": 30.0058,
+  "lon": 31.2301,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "balkanlar"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_afrika_levant.js"
+ },
+ {
+  "ad": "Babilon (Babylon Fortress)",
+  "kronoloji_adi": "Babilon",
+  "lat": 30.0058,
+  "lon": 31.2301,
   "devlet_bolgeleri": [
    "arabistan",
    "balkanlar"
@@ -291,6 +348,30 @@
   "devlet_bolgeleri": [
    "anadolu",
    "iran"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Amorion (Amorium)",
+  "kronoloji_adi": "Amorion",
+  "lat": 39.0202,
+  "lon": 31.2956,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "mezopotamya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Ergani",
+  "kronoloji_adi": "Ergani",
+  "lat": 38.269,
+  "lon": 39.7545,
+  "devlet_bolgeleri": [
+   "anadolu",
+   "mezopotamya"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
@@ -945,6 +1026,188 @@
   "dosya": "yerlesimler_once1281_yt_avrupa.js"
  },
  {
+  "ad": "Boulogne",
+  "kronoloji_adi": "Boulogne",
+  "lat": 50.722,
+  "lon": 1.609,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Silchester",
+  "kronoloji_adi": "Silchester",
+  "lat": 51.354,
+  "lon": -1.074,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Selsey Bill",
+  "kronoloji_adi": "Selsey Bill",
+  "lat": 50.734,
+  "lon": -0.787,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Rochester",
+  "kronoloji_adi": "Rochester",
+  "lat": 51.389,
+  "lon": 0.504,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Forfar",
+  "kronoloji_adi": "Forfar",
+  "lat": 56.647,
+  "lon": -2.887,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Bensington (Benson)",
+  "kronoloji_adi": "Bensington",
+  "lat": 51.627,
+  "lon": -1.113,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Repton",
+  "kronoloji_adi": "Repton",
+  "lat": 52.836,
+  "lon": -1.551,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "kuzey-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Saint-Maurice d'Agaune",
+  "kronoloji_adi": "Saint-Maurice d'Agaune",
+  "lat": 46.214,
+  "lon": 7.005,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Tamworth",
+  "kronoloji_adi": "Tamworth",
+  "lat": 52.625,
+  "lon": -1.69,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Tolbiacum (Zülpich)",
+  "kronoloji_adi": "Tolbiacum",
+  "lat": 50.693,
+  "lon": 6.651,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Zülpich",
+  "kronoloji_adi": "Zülpich",
+  "lat": 50.693,
+  "lon": 6.651,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Gainsborough",
+  "kronoloji_adi": "Gainsborough",
+  "lat": 53.39,
+  "lon": -0.77,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Bautzen",
+  "kronoloji_adi": "Bautzen",
+  "lat": 51.182,
+  "lon": 14.43,
+  "devlet_bolgeleri": [
+   "dogu-avrupa",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Vienne",
+  "kronoloji_adi": "Vienne",
+  "lat": 45.52,
+  "lon": 4.875,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Trogir",
+  "kronoloji_adi": "Trogir",
+  "lat": 43.5176,
+  "lon": 16.2506,
+  "devlet_bolgeleri": [
+   "italya",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Tinchebrai (Tinchebray)",
+  "kronoloji_adi": "Tinchebrai",
+  "lat": 48.7644,
+  "lon": -0.7333,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
   "ad": "Bulgaristan",
   "kronoloji_adi": "Bulgaristan",
   "lat": 42.769,
@@ -1323,6 +1586,54 @@
   "dosya": "yerlesimler_once1281_yt_hint.js"
  },
  {
+  "ad": "Gaochang",
+  "kronoloji_adi": "Gaochang",
+  "lat": 42.855,
+  "lon": 89.5286,
+  "devlet_bolgeleri": [
+   "dogu-asya",
+   "orta-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_hint.js"
+ },
+ {
+  "ad": "Tokmok",
+  "kronoloji_adi": "Tokmok",
+  "lat": 42.85,
+  "lon": 75.3,
+  "devlet_bolgeleri": [
+   "dogu-asya",
+   "orta-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_hint.js"
+ },
+ {
+  "ad": "Koço (Gaochang = Qocho)",
+  "kronoloji_adi": "Koço",
+  "lat": 42.855,
+  "lon": 89.5286,
+  "devlet_bolgeleri": [
+   "orta-asya",
+   "sibirya-bozkir"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_hint.js"
+ },
+ {
+  "ad": "Kao-ch'ang (Gaochang = Qocho)",
+  "kronoloji_adi": "Kao-ch'ang",
+  "lat": 42.855,
+  "lon": 89.5286,
+  "devlet_bolgeleri": [
+   "orta-asya",
+   "sibirya-bozkir"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_hint.js"
+ },
+ {
   "ad": "Tibet",
   "kronoloji_adi": "Tibet",
   "lat": 33.375,
@@ -1419,6 +1730,29 @@
    "iran",
    "orta-asya",
    "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
+ },
+ {
+  "ad": "Semender",
+  "kronoloji_adi": "Semender",
+  "lat": 42.94,
+  "lon": 47.4,
+  "devlet_bolgeleri": [
+   "dogu-avrupa",
+   "sibirya-bozkir"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
+ },
+ {
+  "ad": "Büst",
+  "kronoloji_adi": "Büst",
+  "lat": 31.5025,
+  "lon": 64.3566,
+  "devlet_bolgeleri": [
+   "orta-asya"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
@@ -1671,6 +2005,39 @@
    "suriye-filistin"
   ],
   "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Fihl (Pella)",
+  "kronoloji_adi": "Fihl",
+  "lat": 32.45,
+  "lon": 35.614,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "balkanlar"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Celûlâ (Jalula)",
+  "kronoloji_adi": "Celûlâ",
+  "lat": 34.2667,
+  "lon": 45.1667,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "iran"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Ebher (Abhar)",
+  "kronoloji_adi": "Ebher",
+  "lat": 36.1468,
+  "lon": 49.218,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
   "dosya": "yerlesimler_once1281_yt_ortadogu.js"
  },
  {

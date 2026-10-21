@@ -1,0 +1,781 @@
+{
+ "parti": 93,
+ "sonuclar": [
+  {
+   "ad": "Ras",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/8711955",
+     "lat": 43.128,
+     "lon": 20.415,
+     "not": "Stari Ras, Novi Pazar, Sirbistan"
+    }
+   ],
+   "hesap": "",
+   "not": "Sirp devletinin cekirdegi Ras (Stari Ras, Novi Pazar yakini): yalniz Getty TGN 8711955 43.128,20.415 bulundu (tek tanik); ikinci bagimsiz kaynak dogrulanamadi."
+  },
+  {
+   "ad": "Montferrat",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Montferrat markizligi = Monferrato bolgesi (Piemonte); sehir degil. TGN 7009566 Monferrato 44.9167,8.0833 bolge merkezi. GeoNames adaylari Fransa'daki ayni adli koyler, kita uyusmaz."
+  },
+  {
+   "ad": "Gur",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Gur/Gor = Afganistan'in orta dag bolgesi (Guriler); tek nokta degil. Onceki Pleiades 28.85,52.53 (Iran Fars) kullanilmaz."
+  },
+  {
+   "ad": "Necid",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Necid = Orta Arabistan platosu bolgesi (TGN Najd 25,44.5, Riyad); bolge adi."
+  },
+  {
+   "ad": "Kayravan",
+   "durum": "cift_tanik",
+   "lat": 35.678,
+   "lon": 10.098,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Kairouan",
+   "ulke_modern": "Tunus",
+   "tanik": [
+    {
+     "kaynak": "TDV Islam Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/kayrevan",
+     "lat": null,
+     "lon": null,
+     "not": "Kayrevan, Tunus'ta, Tunus sehrinin yaklasik 156 km guneyinde: kimlik"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/7000986",
+     "lat": 35.7,
+     "lon": 10.0167,
+     "not": "al-Qayrawan"
+    },
+    {
+     "kaynak": "iDAI.gazetteer / GeoNames",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2042772",
+     "lat": 35.677182,
+     "lon": 10.101148,
+     "not": "Kairouan"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Fes",
+   "durum": "cift_tanik",
+   "lat": 34.035,
+   "lon": -5.0,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Fes",
+   "ulke_modern": "Fas",
+   "tanik": [
+    {
+     "kaynak": "TDV Islam Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/fas",
+     "lat": null,
+     "lon": null,
+     "not": "Fas maddesi: kimlik"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/7000448",
+     "lat": 34.033,
+     "lon": -5.0,
+     "not": "Fes"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2118497",
+     "lat": 34.03715,
+     "lon": -4.9998,
+     "not": "Fes"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Daxing",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2359840",
+     "lat": 34.25833,
+     "lon": 108.92861,
+     "not": "Xi'an (modern sehir)"
+    }
+   ],
+   "hesap": "",
+   "not": "Sui baskenti Daxing = bugunku Xi'an icinde (Han Chang'an'in guneydogusu). Yalniz iDAI Xi'an 34.2583,108.9286 bulundu; Daxing sehrinin kendisini adlandiran ikinci kaynak yok."
+  },
+  {
+   "ad": "Laos",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Ulke adi (Khmer krallik kapsami); onceki Pleiades 39.77,15.83 Italya'da, kita uyusmaz."
+  },
+  {
+   "ad": "Boulogne",
+   "durum": "cift_tanik",
+   "lat": 50.722,
+   "lon": 1.609,
+   "tur": "liman",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Boulogne-sur-Mer (Gesoriacum/Bononia)",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/7016632",
+     "lat": 50.720702,
+     "lon": 1.604562,
+     "not": "Boulogne-sur-Mer"
+    },
+    {
+     "kaynak": "GeoNames (onceki parti 50)",
+     "url_veya_atif": "GeoNames Boulogne-sur-Mer",
+     "lat": 50.72485,
+     "lon": 1.61373,
+     "not": "onceki parti 50"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/109008",
+     "lat": null,
+     "lon": null,
+     "not": "Gesoriacum/Bononia: kimlik"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Silchester",
+   "durum": "cift_tanik",
+   "lat": 51.354,
+   "lon": -1.074,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Silchester (Calleva Atrebatum)",
+   "ulke_modern": "Birlesik Krallik",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/7012509",
+     "lat": 51.35,
+     "lon": -1.066667,
+     "not": "Silchester"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/79368",
+     "lat": 51.3572,
+     "lon": -1.0824,
+     "not": "Calleva; adlar arasinda Silchester Roman Town"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Selsey Bill",
+   "durum": "cift_tanik",
+   "lat": 50.734,
+   "lon": -0.787,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Selsey",
+   "ulke_modern": "Birlesik Krallik",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/1011508",
+     "lat": 50.733333,
+     "lon": -0.783333,
+     "not": "Selsey Bill (West Sussex)"
+    },
+    {
+     "kaynak": "GeoNames (onceki parti 50)",
+     "url_veya_atif": "GeoNames 2638219 Selsey",
+     "lat": 50.73501,
+     "lon": -0.78979,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Selsey Bill burnu Selsey kasabasinin ~3 km guneyinde; kasaba noktasi alindi."
+  },
+  {
+   "ad": "Rochester",
+   "durum": "cift_tanik",
+   "lat": 51.389,
+   "lon": 0.504,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Rochester, Kent (Durobrivae)",
+   "ulke_modern": "Birlesik Krallik",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2093682",
+     "lat": 51.38764,
+     "lon": 0.50546,
+     "not": "Rochester (Kent)"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/79432",
+     "lat": 51.39,
+     "lon": 0.503,
+     "not": "Durobrivae (Kent); Pleiades kumesi onceki parti 50"
+    }
+   ],
+   "hesap": "",
+   "not": "Kent ulkesi baglami (Mercia Kent'i yagmaladi) ile uyumlu; Bremenium/Northumberland adayi elendi. Pleiades kaydinda 'Rochester' adinin gecisi ayrica okunmadi."
+  },
+  {
+   "ad": "Forfar",
+   "durum": "cift_tanik",
+   "lat": 56.647,
+   "lon": -2.887,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Forfar (Dunnichen/Nechtanesmere yakini)",
+   "ulke_modern": "Birlesik Krallik",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/7009744",
+     "lat": 56.65,
+     "lon": -2.883333,
+     "not": "Forfar, Angus"
+    },
+    {
+     "kaynak": "GeoNames (onceki parti 50)",
+     "url_veya_atif": "GeoNames 2649207 Forfar",
+     "lat": 56.64382,
+     "lon": -2.89001,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": "Kronolojideki 'Forfar' savas alani Dunnichen'in yakin referans sehridir; savas yeri tam nokta degil. Savasin Forfar yakininda oldugu bilgisi akademik kaynakla ayrica dogrulanmadi."
+  },
+  {
+   "ad": "Bensington",
+   "durum": "cift_tanik",
+   "lat": 51.627,
+   "lon": -1.113,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Benson, Oxfordshire",
+   "ulke_modern": "Birlesik Krallik",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/1028460",
+     "lat": 51.633333,
+     "lon": -1.116667,
+     "not": "Benson (TGN sorgusu 'Bensington' ile esledi)"
+    },
+    {
+     "kaynak": "GeoNames (onceki parti 50)",
+     "url_veya_atif": "GeoNames Benson",
+     "lat": 51.62073,
+     "lon": -1.10979,
+     "not": "onceki parti 50"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Repton",
+   "durum": "cift_tanik",
+   "lat": 52.836,
+   "lon": -1.551,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Repton, Derbyshire",
+   "ulke_modern": "Birlesik Krallik",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/7030680",
+     "lat": 52.833333,
+     "lon": -1.55,
+     "not": "Repton, Derbyshire"
+    },
+    {
+     "kaynak": "GeoNames (onceki parti 50)",
+     "url_veya_atif": "GeoNames 2639489 Repton",
+     "lat": 52.83983,
+     "lon": -1.55061,
+     "not": ""
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Saint-Maurice d'Agaune",
+   "durum": "cift_tanik",
+   "lat": 46.214,
+   "lon": 7.005,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Saint-Maurice (Agaunum)",
+   "ulke_modern": "Isvicre",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/7544518",
+     "lat": 46.208435,
+     "lon": 7.006196,
+     "not": "Saint Maurice, Valais"
+    },
+    {
+     "kaynak": "GeoNames (onceki parti 50)",
+     "url_veya_atif": "GeoNames Saint-Maurice",
+     "lat": 46.21826,
+     "lon": 7.0032,
+     "not": "onceki parti 50"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/177429",
+     "lat": null,
+     "lon": null,
+     "not": "Acaunum: kimlik"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Tamworth",
+   "durum": "cift_tanik",
+   "lat": 52.625,
+   "lon": -1.69,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tamworth, Staffordshire",
+   "ulke_modern": "Birlesik Krallik",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/4011017",
+     "lat": 52.616667,
+     "lon": -1.683333,
+     "not": "Tamworth, Staffordshire"
+    },
+    {
+     "kaynak": "GeoNames (onceki parti 50)",
+     "url_veya_atif": "GeoNames Tamworth",
+     "lat": 52.63399,
+     "lon": -1.69587,
+     "not": "Avustralya/ABD adaylari elendi"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Semender",
+   "durum": "cift_tanik",
+   "lat": 42.94,
+   "lon": 47.4,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Semender (Hazar sehri, Dagistan)",
+   "ulke_modern": "Rusya",
+   "tanik": [
+    {
+     "kaynak": "TDV Islam Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/hazarlar",
+     "lat": null,
+     "lon": null,
+     "not": "Hazarlar: Dagistan'daki Belencer ile Semender; kimlik"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/8711776",
+     "lat": 42.9,
+     "lon": 47.4,
+     "not": "Samandar, Khazar Empire"
+    },
+    {
+     "kaynak": "GeoNames (onceki parti 50)",
+     "url_veya_atif": "GeoNames 12750458 Semender",
+     "lat": 42.98556,
+     "lon": 47.40393,
+     "not": "Mahackale'de modern semt"
+    }
+   ],
+   "hesap": "",
+   "not": "Hazar Semender'inin tam yeri tartismali; TGN ve GeoNames ayni bolgeyi (Mahackale cevresi) gosteriyor."
+  },
+  {
+   "ad": "Cerme",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/1099776",
+     "lat": 26.5333,
+     "lon": 13.0667,
+     "not": "Jarmah"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2345315",
+     "lat": 26.53333,
+     "lon": 13.06667,
+     "not": "Germa"
+    }
+   ],
+   "hesap": "",
+   "not": "TDV (Ukbe b. Nafi maddesi) 'Fizan bolgesindeki Cerme' = Garama/Germa: kimlik tamam. Koordinat: TGN 1099776 Jarmah ve iDAI 2345315 Germa ayni 26.5333,13.0667 (ayni kaynaktan olasi, tek tanik); Pleiades Garama kaydi bulunamadi."
+  },
+  {
+   "ad": "Tâfîlâlt",
+   "durum": "cift_tanik",
+   "lat": 31.28,
+   "lon": -4.275,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Sijilmasa harabeleri (Rissani yakini)",
+   "ulke_modern": "Fas",
+   "tanik": [
+    {
+     "kaynak": "TDV Islam Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/sicilmase",
+     "lat": null,
+     "lon": null,
+     "not": "Sicilmase Vadizîz kiyisinda, Sahra'ya acilan kapi: kimlik (Tafilalt bolgesi)"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/6005463",
+     "lat": 31.28,
+     "lon": -4.28,
+     "not": "Sijilmassa"
+    },
+    {
+     "kaynak": "GeoNames (onceki parti 50)",
+     "url_veya_atif": "GeoNames 2538027 Recani (Rissani)",
+     "lat": 31.28318,
+     "lon": -4.26565,
+     "not": "Sicilmase'nin bulundugu yerlesim"
+    }
+   ],
+   "hesap": "",
+   "not": "Madde 'Sicilmase sehrinin temelini atti' diyor; Tafilalt bolge adidir, nokta Sicilmase."
+  },
+  {
+   "ad": "Zâb",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Cezayir'in Zab (Ziban) bolgesi; onceki GeoNames Boukadir 36.07,1.13 (bolge degil, kuzeyde baska bir yer) kullanilmaz."
+  },
+  {
+   "ad": "Germania",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Roma eyalet/bolge adi (Alamanlar baglami); onceki Pleiades 42.29,23.26 Bulgaristan'da, kita uyusmaz."
+  },
+  {
+   "ad": "Tolbiacum",
+   "durum": "cift_tanik",
+   "lat": 50.693,
+   "lon": 6.651,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Zülpich",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/109382",
+     "lat": 50.6912725,
+     "lon": 6.647617,
+     "not": "Tolbiacum"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/7012785",
+     "lat": 50.7,
+     "lon": 6.65,
+     "not": "Zülpich"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2051538",
+     "lat": 50.69447,
+     "lon": 6.65414,
+     "not": "Zülpich; sorgu 'Tolbiac' de bunu dondurdu"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Zülpich",
+   "durum": "cift_tanik",
+   "lat": 50.693,
+   "lon": 6.651,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Zülpich",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/109382",
+     "lat": 50.6912725,
+     "lon": 6.647617,
+     "not": "Tolbiacum"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/7012785",
+     "lat": 50.7,
+     "lon": 6.65,
+     "not": "Zülpich"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2051538",
+     "lat": 50.69447,
+     "lon": 6.65414,
+     "not": "Zülpich"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Elbe",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Nehir adi (Elbe/Elb), nokta degil; onceki GeoNames 52.08,10.28 ayni adli bir koy, nehir degil."
+  },
+  {
+   "ad": "Yesrib",
+   "durum": "cift_tanik",
+   "lat": 24.467,
+   "lon": 39.61,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Medine",
+   "ulke_modern": "Suudi Arabistan",
+   "tanik": [
+    {
+     "kaynak": "TDV Islam Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/yesrib",
+     "lat": null,
+     "lon": null,
+     "not": "Yesrib bk. Medine: kimlik"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/814688",
+     "lat": 24.46547,
+     "lon": 39.6162643,
+     "not": "Iathrippa; adlar arasinda Yathrib, Medina"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "https://vocab.getty.edu/tgn/7003869",
+     "lat": 24.5,
+     "lon": 39.5833,
+     "not": "Al-Madinah"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2043268",
+     "lat": 24.46861,
+     "lon": 39.61417,
+     "not": "Medina"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Destgird",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/894188",
+     "lat": 33.897044,
+     "lon": 44.652757,
+     "not": "belirsiz eslesme"
+    }
+   ],
+   "hesap": "",
+   "not": "TDV (Herakleios maddesi) Destgird'i anar ama konum tarif etmez. Tek koordinat: Pleiades 894188 'Zindan/Dastagird?' 33.897,44.653 (soru isaretli, BAtlas); ikinci bagimsiz kaynak bulunamadi."
+  },
+  {
+   "ad": "Yedisu",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Yedisu/Cetisu (Semirecye) = Balkas golu guneydogusu bolgesi; onceki GeoNames 39.43,40.53 Dogu Anadolu'da bir koy, kita uyusmaz."
+  },
+  {
+   "ad": "Fihl",
+   "durum": "cift_tanik",
+   "lat": 32.45,
+   "lon": 35.614,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Pella / Tabaqat Fahl",
+   "ulke_modern": "Urdun",
+   "tanik": [
+    {
+     "kaynak": "TDV Islam Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/arama/?q=fihl",
+     "lat": null,
+     "lon": null,
+     "not": "Muhasara maddesi: Fihl (Urdun), Beysan nehri Fihl ovasina akitildi: kimlik"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/678326",
+     "lat": 32.4495013,
+     "lon": 35.6149158,
+     "not": "Pella/Berenice/Philippeia; ad: Tabaqat Fahl"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2298620",
+     "lat": 32.45047,
+     "lon": 35.61271,
+     "not": "Pella (Tabaqat Fahl)"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Kâdisiye",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": null,
+   "esanlam_modern": null,
+   "ulke_modern": null,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/912923",
+     "lat": 31.583332,
+     "lon": 44.5,
+     "not": "Qadissiyya"
+    },
+    {
+     "kaynak": "TDV Islam Ansiklopedisi",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/kadisiye-savasi",
+     "lat": null,
+     "lon": null,
+     "not": "Kufe'nin 30 km guneyi"
+    }
+   ],
+   "hesap": "",
+   "not": "TDV (Kadisiye Savasi): Kufe'nin 30 km guneyinde Sasani sinir sehri; koordinat icin tek kaynak Pleiades 912923 31.583,44.5 (genel BAtlas noktasi). Ikinci bagimsiz koordinat yok, TDV tarifinden hesap tek basina tanik sayilmaz."
+  }
+ ]
+}

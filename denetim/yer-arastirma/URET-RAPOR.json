@@ -292,6 +292,48 @@
    "neden": "3km"
   },
   {
+   "ad": "Kayravan",
+   "atlas": "Kayrevan",
+   "km": 0.18,
+   "neden": "3km"
+  },
+  {
+   "ad": "Fes",
+   "atlas": "Fas (Fez)",
+   "km": 0.11,
+   "neden": "3km"
+  },
+  {
+   "ad": "Tâfîlâlt",
+   "atlas": "Sicilmâse (Tâfilelt)",
+   "km": 0.77,
+   "neden": "3km"
+  },
+  {
+   "ad": "Yesrib",
+   "atlas": "Medine",
+   "km": 0.4,
+   "neden": "ad"
+  },
+  {
+   "ad": "Partav",
+   "atlas": "Berde (Karabağ)",
+   "km": 0.9,
+   "neden": "3km"
+  },
+  {
+   "ad": "Tmutorakan",
+   "atlas": "Taman",
+   "km": 1.81,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kulumriye",
+   "atlas": "Coimbra",
+   "km": 1.55,
+   "neden": "3km"
+  },
+  {
    "ad": "Mısır",
    "atlas": "(parti içi)",
    "km": 0,
@@ -338,11 +380,11 @@
   "tek_kaynak": 55,
   "celiski": 20,
   "ikinci_tanik_yok": 18,
-  "bolge_adi": 16,
+  "bolge_adi": 29,
   "?": 87,
-  "cozulemedi": 14
+  "cozulemedi": 22
  },
- "yazilan": 148,
+ "yazilan": 180,
  "haric": [
   {
    "ad": "Lade",

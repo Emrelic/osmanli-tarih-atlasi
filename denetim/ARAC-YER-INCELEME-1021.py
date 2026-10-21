@@ -35,6 +35,8 @@ for f in sorted(glob.glob(os.path.join(KOK, "data", "yerlesimler_once1281_yt_*.j
             risk.append("ikinci tanık Pleiades'ten bağımsız değil")
         if "DAI" in kay and "GeoNames" in kay:
             risk.append("DAI/GeoNames aynı koordinat olabilir")
+        if re.search(r"BAĞIMSIZLIK SINIRLI|aynı kaynak ailesi|bağımsız olmayabilir|aynı alttan", not_ + kay, re.I):
+            risk.append("tanık bağımsızlığı sınırlı")
         if tur != "bolge" and "ÇİFT TANIK" not in kay:
             risk.append("çift tanık ifadesi yok")
         for r in risk:
