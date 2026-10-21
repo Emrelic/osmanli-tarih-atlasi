@@ -6,7 +6,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "k": "fetih",
   "b": "Roma Misiri'nin basi - Octavian Iskenderiye'yi alir: Roma Mısır'ı alır (Octavian)",
   "gun": "MÖ 30",
-  "yer": "Aegyptus",
+  "yer": "Aegyptus / İskenderiye",
   "d": "30 MO Agustos: Octavian Iskenderiye'yi alir; resmi 'kratesis' 1 Thoth = 29 Agustos 30 MO'dan hesaplanir (18 gunluk Antonius cocuklari 'saltanati' ile kapatilarak).",
   "kaynak": "Bowman AK. 'Egypt' in Cambridge Ancient History X (The Augustan Empire 43 BC-AD 69), 2. baski, Cambridge UP 1996 (cevrimici 28 Mart 2008) - sayfa numarasi okunamadi · https://www.cambridge.org/core/books/cambridge-ancient-history/egypt/C5873D3CD7ABF1F42AB65D9E45BC8168",
   "kesinlik": "yil",

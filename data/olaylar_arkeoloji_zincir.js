@@ -1,6 +1,28 @@
 // MÖ DEVLET-ŞEHİR ZİNCİRİ — s: dönem uçlarını destekleyen maddeler (Değişmez 2). denetim/arkeoloji_devlet_zincir_1020.py üretir.
 window.OLAYLAR_ARKEOLOJI_ZINCIR = [
  {
+  "t": "-0026-01-01",
+  "k": "diger",
+  "b": "Roma, İskenderiye: Roma Cumhuriyeti → sahipsiz aralık",
+  "gun": "MÖ 27",
+  "yer": "Roma / İskenderiye / Atina / Capua / Massalia / Pergamon / Syrakusai / Veii",
+  "d": "Roma, İskenderiye noktalarında sahiplik Roma Cumhuriyeti'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Theodosius'un ölümü 17 Ocak 395 (Olybrius ve Probus konsüllüğü): Sokrates Scholastikos Kil. Tar. 5.26 (NPNF, newadvent.org/fathers/26015.htm); Marcellinus Comes s.a. 395: Arcadius ve Honorius imparatorluğu yalnız oturma yerleriyle bölünmüş olarak devralır.",
+  "kaynak": "Theodosius'un ölümü 17 Ocak 395 (Olybrius ve Probus konsüllüğü): Sokrates Scholastikos Kil. Tar. 5.26 (NPNF, newadvent.org/fathers/26015.htm); Marcellinus Comes s.a. 395: Arcadius ve Honorius imparatorluğu yalnız oturma yerleriyle bölünmüş olarak devralır.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0048-01-01",
+  "k": "diger",
+  "b": "Massalia: Massalia (Marsilya) → Roma Cumhuriyeti",
+  "gun": "MÖ 49",
+  "yer": "Massalia",
+  "d": "Massalia noktalarında sahiplik Massalia (Marsilya)'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Caesar BC 2.22: şehir yenilince 'conservans' ve garnizon bırakıldı — özgür müttefik statüsünün sonu Roma denetimi.",
+  "kaynak": "Caesar BC 2.22: şehir yenilince 'conservans' ve garnizon bırakıldı — özgür müttefik statüsünün sonu Roma denetimi.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
   "t": "-0112-01-01",
   "k": "diger",
   "b": "Dura-Europos: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu",
@@ -8,6 +30,17 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer": "Dura-Europos",
   "d": "Dura-Europos noktalarında sahiplik Selevkos Imparatorlugu'dan Part (Arsakid) Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Part fethi (ca. 113) | Kaynak: Leriche, P. & MacKenzie, D. N., \"Dura Europos\", Encyclopaedia Iranica VII/6, 1996 (rev. 2011); kurulus tarihi Leriche ozetinden (kavehfarrokh.com aynasi) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/dura-europos | «Dura Europos was brought into the Iranian cultural sphere after the Parthian conquest in about 113 B.C.E.»",
   "kaynak": "Part fethi (ca. 113) | Kaynak: Leriche, P. & MacKenzie, D. N., \"Dura Europos\", Encyclopaedia Iranica VII/6, 1996 (rev. 2011); kurulus tarihi Leriche ozetinden (kavehfarrokh.com aynasi) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/dura-europos | «Dura Europos was brought into the Iranian cultural sphere after the Parthian conquest in about 113 B.C.E.»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0132-01-01",
+  "k": "diger",
+  "b": "Pergamon: Bergama (Attalos) Krallığı → Roma Cumhuriyeti",
+  "gun": "MÖ 133",
+  "yer": "Pergamon",
+  "d": "Pergamon noktalarında sahiplik Bergama (Attalos) Krallığı'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Strabon 13.4.2: 'The Romans proclaimed the country a province, calling it Asia'.",
+  "kaynak": "Strabon 13.4.2: 'The Romans proclaimed the country a province, calling it Asia'.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
@@ -30,6 +63,17 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer": "Ekbatana",
   "d": "Ekbatana noktalarında sahiplik sahipsiz aralık'dan Part (Arsakid) Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Mithradates I Medya'yı fetheder (148; Justinus 41.6.7 aktarımı) | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «Mithradates conquered Media in 148 BCE and appointed Bacasis as governor»",
   "kaynak": "Mithradates I Medya'yı fetheder (148; Justinus 41.6.7 aktarımı) | Kaynak: Lendering, J., Livius.org: Mithradates I (Bagayasha sayfasi); dipnot: van der Spek 1997/8: 171 | https://livius.org/articles/person/bagayasha | «Mithradates conquered Media in 148 BCE and appointed Bacasis as governor»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0211-01-01",
+  "k": "diger",
+  "b": "Syrakusai: Sirakuza (Syrakousai) → Roma Cumhuriyeti",
+  "gun": "MÖ 212",
+  "yer": "Syrakusai",
+  "d": "Syrakusai noktalarında sahiplik Sirakuza (Syrakousai)'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Livy 25.40: 'Marcellus captis Syracusis' Sicilya'yı düzenledi; Eutropius 3.14: Marcellus Sicilya'nın büyük bölümünü ve Syracusa'yı aldı.",
+  "kaynak": "Livy 25.40: 'Marcellus captis Syracusis' Sicilya'yı düzenledi; Eutropius 3.14: Marcellus Sicilya'nın büyük bölümünü ve Syracusa'yı aldı.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
@@ -86,6 +130,28 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer": "Babil / Uruk / Susa",
   "d": "Babil, Uruk noktalarında sahiplik Ahamenis (Pers) Imparatorlugu'dan Buyuk Iskender Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
   "kaynak": "İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0395-01-01",
+  "k": "diger",
+  "b": "Veii: Etrüsk Şehir Devletleri (Oniki Şehir Birliği) → Roma Cumhuriyeti",
+  "gun": "MÖ 396",
+  "yer": "Veii",
+  "d": "Veii noktalarında sahiplik Etrüsk Şehir Devletleri (Oniki Şehir Birliği)'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Livy 5.22 (Roberts, Perseus 1999.02.0026): Veii'den tüm insani mal taşındıktan sonra Juno heykeli Roma'ya götürüldü; şehir alındı. MÖ yılı Livy'de yok (konsül/diktatör Camillus yılı Fasti ile eşleşir).",
+  "kaynak": "Livy 5.22 (Roberts, Perseus 1999.02.0026): Veii'den tüm insani mal taşındıktan sonra Juno heykeli Roma'ya götürüldü; şehir alındı. MÖ yılı Livy'de yok (konsül/diktatör Camillus yılı Fasti ile eşleşir).",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0508-01-01",
+  "k": "diger",
+  "b": "Roma: Roma Krallığı → Roma Cumhuriyeti",
+  "gun": "MÖ 509",
+  "yer": "Roma",
+  "d": "Roma noktalarında sahiplik Roma Krallığı'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Senatonun Octavianus'a 'Augustus' unvanını vermesi 16 Ocak MÖ 27: Haverfield, JRS 5 (1915) 249 (LacusCurtius); Dio 53.16.6-8; konsül yılı 27 = Caesar VII, Agrippa III (Dio 53 başlığı). Dio 53.2-12: 13 Ocak yerleşimi ayrıca anlatır.",
+  "kaynak": "Senatonun Octavianus'a 'Augustus' unvanını vermesi 16 Ocak MÖ 27: Haverfield, JRS 5 (1915) 249 (LacusCurtius); Dio 53.16.6-8; konsül yılı 27 = Caesar VII, Agrippa III (Dio 53 başlığı). Dio 53.2-12: 13 Ocak yerleşimi ayrıca anlatır.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
@@ -156,17 +222,6 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "yer_id": "Ur (Tell al-Muqayyar)"
- },
- {
-  "t": "-1499-01-01",
-  "k": "diger",
-  "b": "Susa: Elam — Sukkalmah (Eparti) Hanedani → Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid)",
-  "gun": "MÖ 1500",
-  "yer": "Susa",
-  "d": "Susa noktalarında sahiplik Elam — Sukkalmah (Eparti) Hanedani'dan Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid)'ya geçer. Kaynak geçiş bilgisi: Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
-  "kaynak": "Ur III çözülmesi: İbbi-Suen yıl 3 (MC 2024) doğu/kuzey eyaletleri (Eşnunna, Susa) ayrılır | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 131 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf | «in Ibbisuen year 3 (MC 2024) provinces in the east and north, including Eshnuna and Susa»",
-  "kaynak_turu": "yazili",
-  "kesinlik": "onyil"
  },
  {
   "t": "-1762-01-01",
@@ -283,6 +338,50 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "onyil"
  },
  {
+  "t": "0395-01-01",
+  "k": "diger",
+  "b": "Roma: Roma İmparatorluğu (Prinkipat-Dominat, birleşik) → sahipsiz aralık",
+  "gun": "MS 395",
+  "yer": "Roma / İskenderiye",
+  "d": "Roma noktalarında sahiplik Roma İmparatorluğu (Prinkipat-Dominat, birleşik)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Marcellinus Comes, Chronicon s.a. 476 (Basilisco ve Armato konsüllüğü; Mommsen CM II, Latin Library marcellinus1.html): Odoacer Roma'yı aldı, Orestes'i öldürdü, Augustulus'u Lucullanum'a sürdü, Batı imparatorluğu Augustulus ile yok oldu.",
+  "kaynak": "Marcellinus Comes, Chronicon s.a. 476 (Basilisco ve Armato konsüllüğü; Mommsen CM II, Latin Library marcellinus1.html): Odoacer Roma'yı aldı, Orestes'i öldürdü, Augustulus'u Lucullanum'a sürdü, Batı imparatorluğu Augustulus ile yok oldu.",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0085-01-01",
+  "k": "diger",
+  "b": "Atina: Roma Cumhuriyeti dönemi başlar",
+  "gun": "MÖ 86",
+  "yer": "Atina",
+  "d": "Atina noktalarının s: dizisinde bu uç, sahip künyenin (Roma Cumhuriyeti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye roma-cumhuriyeti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0145-01-01",
+  "k": "diger",
+  "b": "Karthago: sahipsiz aralık dönemi sona erer",
+  "gun": "MÖ 146",
+  "yer": "Karthago",
+  "d": "Karthago noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0145-01-01",
+  "k": "diger",
+  "b": "Korint: Korint dönemi sona erer",
+  "gun": "MÖ 146",
+  "yer": "Korint",
+  "d": "Korint noktalarının s: dizisinde bu uç, sahip künyenin (Korint) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye korint — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
   "t": "-0279-01-01",
   "k": "diger",
   "b": "Pasargad: sahipsiz aralık dönemi sona erer",
@@ -294,6 +393,17 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
+  "t": "-0281-01-01",
+  "k": "diger",
+  "b": "Pergamon: Bergama (Attalos) Krallığı dönemi başlar",
+  "gun": "MÖ 282",
+  "yer": "Pergamon",
+  "d": "Pergamon noktalarının s: dizisinde bu uç, sahip künyenin (Bergama (Attalos) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye bergama — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
   "t": "-0302-01-01",
   "k": "diger",
   "b": "Dura-Europos: Selevkos Imparatorlugu dönemi başlar",
@@ -301,6 +411,28 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer": "Dura-Europos",
   "d": "Dura-Europos noktalarının s: dizisinde bu uç, sahip künyenin (Selevkos Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye selevkos — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0322-06-10",
+  "k": "diger",
+  "b": "İskenderiye: Ptolemai (Lagid) Krallığı dönemi başlar",
+  "gun": "MÖ 323",
+  "yer": "İskenderiye",
+  "d": "İskenderiye noktalarının s: dizisinde bu uç, sahip künyenin (Ptolemai (Lagid) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye ptolemai — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0337-01-01",
+  "k": "diger",
+  "b": "Capua: Roma Cumhuriyeti dönemi başlar",
+  "gun": "MÖ 338",
+  "yer": "Capua",
+  "d": "Capua noktalarının s: dizisinde bu uç, sahip künyenin (Roma Cumhuriyeti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye roma-cumhuriyeti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
@@ -339,6 +471,28 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
+  "t": "-0574-01-01",
+  "k": "diger",
+  "b": "Veii: Etrüsk Şehir Devletleri (Oniki Şehir Birliği) dönemi başlar",
+  "gun": "MÖ 575",
+  "yer": "Veii",
+  "d": "Veii noktalarının s: dizisinde bu uç, sahip künyenin (Etrüsk Şehir Devletleri (Oniki Şehir Birliği)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye etrusk-sehir-devletleri — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0599-01-01",
+  "k": "diger",
+  "b": "Massalia: Massalia (Marsilya) dönemi başlar",
+  "gun": "MÖ 600",
+  "yer": "Massalia",
+  "d": "Massalia noktalarının s: dizisinde bu uç, sahip künyenin (Massalia (Marsilya)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye massalia — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
   "t": "-0626-01-01",
   "k": "diger",
   "b": "Babil: Yeni Asur Imparatorlugu dönemi sona erer",
@@ -350,6 +504,61 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
+  "t": "-0733-01-01",
+  "k": "diger",
+  "b": "Syrakusai: Sirakuza (Syrakousai) dönemi başlar",
+  "gun": "MÖ 734",
+  "yer": "Syrakusai",
+  "d": "Syrakusai noktalarının s: dizisinde bu uç, sahip künyenin (Sirakuza (Syrakousai)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye sirakuza — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0752-01-01",
+  "k": "diger",
+  "b": "Roma: Roma Krallığı dönemi başlar",
+  "gun": "MÖ 753",
+  "yer": "Roma",
+  "d": "Roma noktalarının s: dizisinde bu uç, sahip künyenin (Roma Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye roma-kralligi — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0799-01-01",
+  "k": "diger",
+  "b": "Korint: Korint dönemi başlar",
+  "gun": "MÖ 800",
+  "yer": "Korint",
+  "d": "Korint noktalarının s: dizisinde bu uç, sahip künyenin (Korint) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye korint — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-0813-01-01",
+  "k": "diger",
+  "b": "Karthago: Kartaca (Pön) Devleti dönemi başlar",
+  "gun": "MÖ 814",
+  "yer": "Karthago",
+  "d": "Karthago noktalarının s: dizisinde bu uç, sahip künyenin (Kartaca (Pön) Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye kartaca — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-1196-01-01",
+  "k": "diger",
+  "b": "Anyang / Yinxu (殷墟): sahipsiz aralık dönemi sona erer",
+  "gun": "MÖ 1197",
+  "yer": "Anyang / Yinxu (殷墟)",
+  "d": "Anyang / Yinxu (殷墟) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
   "t": "-1209-01-01",
   "k": "diger",
   "b": "Babil: Orta Asur Imparatorlugu dönemi sona erer",
@@ -357,6 +566,17 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer": "Babil",
   "d": "Babil noktalarının s: dizisinde bu uç, sahip künyenin (Orta Asur Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye orta-asur — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "-1253-01-01",
+  "k": "diger",
+  "b": "Anyang / Yinxu (殷墟): sahipsiz aralık dönemi başlar",
+  "gun": "MÖ 1254",
+  "yer": "Anyang / Yinxu (殷墟)",
+  "d": "Anyang / Yinxu (殷墟) noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
@@ -485,6 +705,17 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
+  "t": "-2449-01-01",
+  "k": "diger",
+  "b": "Kerma: sahipsiz aralık dönemi başlar",
+  "gun": "MÖ 2450",
+  "yer": "Kerma",
+  "d": "Kerma noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
   "t": "-2474-01-01",
   "k": "diger",
   "b": "Girsu (Lagaş devletinin merkezi): Lagas I. Hanedan (sehir devleti) dönemi başlar",
@@ -503,6 +734,17 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer": "Babil / Dura-Europos / Ekbatana / Ktesiphon / Seleukeia (Dicle üzerinde) / Uruk",
   "d": "Babil, Dura-Europos, Ekbatana, Ktesiphon, Seleukeia (Dicle üzerinde), Uruk noktalarının s: dizisinde bu uç, sahip künyenin (Part (Arsakid) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye part — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yil"
+ },
+ {
+  "t": "0476-01-01",
+  "k": "diger",
+  "b": "Roma: Batı Roma İmparatorluğu dönemi sona erer",
+  "gun": "MS 476",
+  "yer": "Roma",
+  "d": "Roma noktalarının s: dizisinde bu uç, sahip künyenin (Batı Roma İmparatorluğu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
+  "kaynak": "künye bati-roma — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  }

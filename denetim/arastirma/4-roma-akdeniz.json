@@ -1,0 +1,981 @@
+{
+ "bolge": "Roma ve Akdeniz Batısı + Yunan dünyası + Helenistik krallıklar (MÖ 800 → MS 500)",
+ "tarih_olcum": "21 Ekim 2026",
+ "kronoloji_notu": "Roma tarihleri Varro/gelenek (MÖ 753, 509) ve Fasti konsül yıllarıdır; konsül-yılı → MÖ eşlemesi bu oturumda ayrı bir kaynakla (Broughton MRR, Fasti Capitolini) doğrulanmadı — 'gelenek' etiketli. MS yılları negatif (MS 476 = -476). Olimpiyat dönüşümleri 'HESAP' (Ol.1.1 = 776). Kaynaklar: Latin Library (Livy, Velleius, Eutropius, Marcellinus, Caesar, Tacitus, Justinus), LacusCurtius/Thayer (Polybios, Dio, Strabon, Plutarkhos, Ammianus, Dionysios, Haverfield JRS), Perseus, NPNF (Sokrates), Pleiades CSV dump + OSM Nominatim. Britannica 403 verdi (bot koruması aşılmadı). Almanca Pauly-Wissowa, Fransızca, İtalyanca kaynaklara bu oturumda ERİŞİLEMEDİ/okunmadı.",
+ "kunyeler": [],
+ "kunye_karsilastirma": [
+  {
+   "mevcut_kunye_id": "roma-kralligi",
+   "mevcut": "f=-0752-01-01 (MÖ 753) / t=-0508-01-01 (MÖ 509)",
+   "kaynak_bulgu": "Dionysios 1.74-75 (Ol.7.1 = 752/751, HESAP), Polybios 3.22 (509 yerine 508, HESAP). GELENEK; ikisi de künyeden 1 yıl farklı olabilir — künye Varro'ya dayanır, Varro bu oturumda okunmadı.",
+   "celiski": true
+  },
+  {
+   "mevcut_kunye_id": "roma-cumhuriyeti",
+   "mevcut": "f=-0508-01-01 / t=-0026-01-16",
+   "kaynak_bulgu": "t=MÖ 27-01-16 doğrulandı (Haverfield JRS 5:249; Dio 53.16). f=509: Polybios 3.22 HESAPla 508 → fark 1 yıl (kunye_celiskisi).",
+   "celiski": true
+  },
+  {
+   "mevcut_kunye_id": "roma-imp",
+   "mevcut": "f=-0026-01-16 / t=0395-01-17",
+   "kaynak_bulgu": "t=395-01-17 doğrulandı: Sokrates 5.26 (17 Ocak, Olybrius-Probus) + Marcellinus s.a. 395.",
+   "celiski": false
+  },
+  {
+   "mevcut_kunye_id": "bati-roma",
+   "mevcut": "f=0395-01-17 / t=0476-08-28",
+   "kaynak_bulgu": "YIL 476 doğrulandı (Marcellinus s.a. 476); GÜN 28 Ağustos bu oturumda teyit edilemedi (Marcellinus gün vermez) → künye t gün hassasiyeti kaynaksız kalıyor.",
+   "celiski": true
+  },
+  {
+   "mevcut_kunye_id": "kartaca",
+   "mevcut": "f=-0813 (MÖ 814) / t=-0145 (MÖ 146)",
+   "kaynak_bulgu": "f=814 Timaios/Dion.1.74.1 ile uyumlu (gelenek); Velleius 1.12.5 → ~818, Eutropius 4.12 → ~846 farklı. t=146 konsüllerle (Lentulus-Mummius) uyumlu.",
+   "celiski": true
+  },
+  {
+   "mevcut_kunye_id": "sirakuza",
+   "mevcut": "t=-0210 (MÖ 211)",
+   "kaynak_bulgu": "Livy 25.3/25.31 sırası 212 (Fulvius-Claudius konsül yılı).",
+   "celiski": true
+  },
+  {
+   "mevcut_kunye_id": "sparta",
+   "mevcut": "t=-0191 (MÖ 192)",
+   "kaynak_bulgu": "Livy 35.37 Akhaia birliğine katılış; MÖ 192 ile uyumlu (yıl eşlemesi gelenek).",
+   "celiski": false
+  },
+  {
+   "mevcut_kunye_id": "korint",
+   "mevcut": "t=-0145 (MÖ 146)",
+   "kaynak_bulgu": "Eutropius 4.14; Strabon 8 Loeb dipnotu 146.",
+   "celiski": false
+  },
+  {
+   "mevcut_kunye_id": "bitinya",
+   "mevcut": "t=-0073 (MÖ 74)",
+   "kaynak_bulgu": "Eutropius 6.6: Nikomedes öldü, Romalıları vâris yaptı; konsüller Lucullus-Cotta, AUC 676 (Eutropius sayısı; 754-676=78 HESAP) — konsül adları 74 ile uyumlu, AUC sayısı uyumsuz (muhtemel bozuk sayı).",
+   "celiski": true
+  },
+  {
+   "mevcut_kunye_id": "pontus",
+   "mevcut": "t=-0062 (MÖ 63)",
+   "kaynak_bulgu": "Strabon 12.3.1: Pompeius Pontus'un kalanını 11 devlete bölüp Bithynia'ya ekledi, tek eyalet. Yıl birincil okunmadı.",
+   "celiski": false
+  },
+  {
+   "mevcut_kunye_id": "bergama",
+   "mevcut": "f=-0281 (MÖ 282) / t=-0132 (MÖ 133)",
+   "kaynak_bulgu": "Strabon 13.4.1-2 Philetairos/Attalos zinciri ve vasiyet (Eutropius 4.18). Mutlak yıl Strabon'da yok; yalnız sıra doğrulandı.",
+   "celiski": false
+  },
+  {
+   "mevcut_kunye_id": "selevkos",
+   "mevcut": "t=-0062 (MÖ 63)",
+   "kaynak_bulgu": "Justinus 40.2.5 Suriye'yi eyalet yaptı; yıl birincil bulunamadı.",
+   "celiski": false
+  },
+  {
+   "mevcut_kunye_id": "ptolemai",
+   "mevcut": "t=-0029-08-01 (MÖ 30)",
+   "kaynak_bulgu": "Eutropius 7.7 + Dio 51.15-19 (MÖ 30 konsül yılı bağlamı) yıl uyumlu; 1 Ağustos günü bu oturumda teyit edilemedi.",
+   "celiski": false
+  },
+  {
+   "mevcut_kunye_id": "massalia",
+   "mevcut": "f=-0599 (MÖ 600) / t=-0048 (MÖ 49)",
+   "kaynak_bulgu": "Justinus 43.3.4 (Tarquinius dönemi), Caesar BC 2.22.",
+   "celiski": false
+  },
+  {
+   "mevcut_kunye_id": "etrusk-sehir-devletleri",
+   "mevcut": "f=-0574 / t=-0088",
+   "kaynak_bulgu": "Livy 5.1 Fanum Voltumnae meclisi (birlik kanıtı, gelenek). f/t bu oturumda yeniden ölçülmedi.",
+   "celiski": false
+  }
+ ],
+ "sehir_kontrol": [
+  {
+   "sehir": "Roma",
+   "lat": 41.88998,
+   "lon": 12.49126,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 423025 Roma",
+     "lat": 41.88998,
+     "lon": 12.49126,
+     "url": "https://pleiades.stoa.org/places/423025"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 41.89332,
+     "lon": 12.48293
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~0.9 km. Pleiades esas alındı.",
+   "donemler": [
+    {
+     "sahip": "roma-kralligi",
+     "bas_mo": 753,
+     "son_mo": 509,
+     "gecis_kaynagi": "Dionysios Hal. Rom. Ant. 1.74-75 (Loeb, LacusCurtius): Roma'nın kuruluşu 7. Olimpiyat 1. yıl; Cato'ya göre Troya'dan 432 yıl sonra. Varro 753 başka kanaldan (bu oturumda okunmadı). Krallığın sonu: Polybios 3.22.1-2 ilk Roma-Kartaca antlaşmasını 'kralların kovulmasından sonraki ilk konsüller' Brutus-Horatius yılına koyar, Xerxes geçişinden 28 yıl önce.",
+     "alinti": "founded Rome, in the beginning of the first year of the seventh Olympiad",
+     "kronoloji_okulu": "Varro (753) / Dion. Hal. (Ol.7.1 = 752/751, HESAP: Ol.1.1=776, bu oturumda) — GELENEK; Polybios 509 yerine 508 verir (HESAP: 480+28)",
+     "gun": null,
+     "guven": "gelenek",
+     "ic_not": "Kuruluş ve cumhuriyet başı yazılı gelenektir (arkeolojik değil). Roma'nın kuruluşuna Dionysios 6 farklı gelenek sayar (Timaios: Kartaca ile aynı yıl = 814)."
+    },
+    {
+     "sahip": "roma-cumhuriyeti",
+     "bas_mo": 509,
+     "son_mo": 27,
+     "gecis_kaynagi": "Senatonun Octavianus'a 'Augustus' unvanını vermesi 16 Ocak MÖ 27: Haverfield, JRS 5 (1915) 249 (LacusCurtius); Dio 53.16.6-8; konsül yılı 27 = Caesar VII, Agrippa III (Dio 53 başlığı). Dio 53.2-12: 13 Ocak yerleşimi ayrıca anlatır.",
+     "alinti": "on 16th January he received from the senate the cognomen Augustus",
+     "kronoloji_okulu": "Julyen; gün: Haverfield 1915 (ikincil-akademik); birincil Dio 53.16.6 gün vermez; Res Gestae 34 Perseus/Thayer'da okunamadı",
+     "gun": "-0026-01-16 (MÖ 27-01-16, Julyen)",
+     "guven": "yazili (gün: Haverfield)"
+    },
+    {
+     "sahip": "roma-imp",
+     "bas_mo": 27,
+     "son_mo": -395,
+     "gecis_kaynagi": "Theodosius'un ölümü 17 Ocak 395 (Olybrius ve Probus konsüllüğü): Sokrates Scholastikos Kil. Tar. 5.26 (NPNF, newadvent.org/fathers/26015.htm); Marcellinus Comes s.a. 395: Arcadius ve Honorius imparatorluğu yalnız oturma yerleriyle bölünmüş olarak devralır.",
+     "alinti": "it being the seventeenth of January, during consulate of Olybrius and Probus",
+     "kronoloji_okulu": "Julyen; çift teyit: Sokrates (Yunanca, İngilizce çeviri) + Marcellinus (Latince)",
+     "gun": "0395-01-17",
+     "guven": "yazili, çift teyit",
+     "ic_not": "Marcellinus 395: 'Arcadius et Honorius germani utrumque imperium diuisis tantum sedibus tenere coeperunt' (bölünme ilanı değil, 'yalnız oturma yeri bölünmüş' ifadesi)."
+    },
+    {
+     "sahip": "bati-roma",
+     "bas_mo": -395,
+     "son_mo": -476,
+     "gecis_kaynagi": "Marcellinus Comes, Chronicon s.a. 476 (Basilisco ve Armato konsüllüğü; Mommsen CM II, Latin Library marcellinus1.html): Odoacer Roma'yı aldı, Orestes'i öldürdü, Augustulus'u Lucullanum'a sürdü, Batı imparatorluğu Augustulus ile yok oldu.",
+     "alinti": "cum hoc Augustulo periit",
+     "kronoloji_okulu": "Julyen; gün YOK (Marcellinus gün vermez); künyedeki 476-08-28/08-23 günleri bu kaynakta teyitsiz",
+     "gun": null,
+     "guven": "yazili (yıl)"
+    }
+   ],
+   "bosluk_notu": "476 sonrası Odoakar künyesi (odoakar) atlasta mevcut; Marcellinus 476/477 'Odoacer rex Gothorum Romam optinuit' diyerek sahibi doğrular, gün vermez."
+  },
+  {
+   "sehir": "Veii",
+   "lat": 42.02134,
+   "lon": 12.39052,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 423116 Veii",
+     "lat": 42.02134,
+     "lon": 12.39052,
+     "url": "https://pleiades.stoa.org/places/423116"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 41.98141,
+     "lon": 12.45222
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~7.3 km. OSM sonucu Veio parkı galerisini işaretledi (kasaba merkezi değil); Pleiades antik şehir alanı (Isola Farnese) esas alındı.",
+   "donemler": [
+    {
+     "sahip": "etrusk-sehir-devletleri",
+     "bas_mo": null,
+     "son_mo": 396,
+     "gecis_kaynagi": "Livy 5.1.3-5: Etrurya meclisi Fanum Voltumnae'de toplanır; Veii kuşatma altında yardım ister, reddedilir.",
+     "alinti": "concilia Etruriae ad fanum Voltumnae habita",
+     "kronoloji_okulu": "Varro/gelenek",
+     "gun": null,
+     "ic_not": "Veii'nin etrüsk şehir olarak başlangıcı kaynakta sessiz → bas_mo yok."
+    },
+    {
+     "sahip": "roma-cumhuriyeti",
+     "bas_mo": 396,
+     "son_mo": 27,
+     "gecis_kaynagi": "Livy 5.22 (Roberts, Perseus 1999.02.0026): Veii'den tüm insani mal taşındıktan sonra Juno heykeli Roma'ya götürüldü; şehir alındı. MÖ yılı Livy'de yok (konsül/diktatör Camillus yılı Fasti ile eşleşir).",
+     "alinti": "When all that belonged to man had been carried away from Veii",
+     "kronoloji_okulu": "Varro/gelenek",
+     "gun": null,
+     "guven": "gelenek; yıl eşlemesi bu oturumda ikinci kaynakla doğrulanmadı",
+     "yil_durumu": "gelenek-yil-dogrulanmadi"
+    }
+   ]
+  },
+  {
+   "sehir": "Tarquinia (Tarquinii)",
+   "lat": 42.26278,
+   "lon": 11.79556,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 292680658 Pian di Civita, Tarquinii",
+     "lat": 42.26278,
+     "lon": 11.79556,
+     "url": "https://pleiades.stoa.org/places/292680658"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 42.25324,
+     "lon": 11.75917
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~3.2 km. OSM modern kasaba merkezi; Pleiades antik yerleşim platosu (Pian di Civita) esas alındı.",
+   "donemler": [],
+   "bosluk_notu": "Livy VII (Faliscum Quinctius, Sulpicius Tarquiniense) 40 yıllık mütareke ('In quadraginta annos impetraverunt') ve Livy IX (Decius: 'indutias in quadraginta annos petere') mülkiyet değiştirmez; Tarquinia'nın Roma'ya katılış tarihi bu oturumda kaynakta bulunamadı → dönem yazılmadı. Etrüsk şehir-devletleri künyesi (etrusk-sehir-devletleri) tek sahip kalır."
+  },
+  {
+   "sehir": "Capua",
+   "lat": 41.08609,
+   "lon": 14.25021,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 432754 Capua",
+     "lat": 41.08609,
+     "lon": 14.25021,
+     "url": "https://pleiades.stoa.org/places/432754"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 41.07991,
+     "lon": 14.25642
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~1.0 km. İki tanık uyumlu.",
+   "donemler": [
+    {
+     "sahip": "roma-cumhuriyeti",
+     "bas_mo": 338,
+     "son_mo": 27,
+     "gecis_kaynagi": "Livy VIII (14.10 civarı; Latin Library liv.8): Latin savaşı sonrası Kampanyalı süvarilere onur için 'civitas sine suffragio' verildi; Cumae ve Suessula Capua ile aynı hukuka bağlandı.",
+     "alinti": "Campanis equitum honoris causa ... civitas sine suffragio data",
+     "kronoloji_okulu": "Varro/gelenek",
+     "gun": null,
+     "guven": "gelenek; MÖ 338 eşlemesi bu oturumda ikinci kaynakla doğrulanmadı",
+     "yil_durumu": "gelenek-yil-dogrulanmadi",
+     "ic_not": "Roma sahipliği 'oyhakkı olmayan vatandaşlık' (özerk) statüsüdür. 216-211 Hannibal'e geçiş (Livy XXIII, XXVI) bu oturumda OKUNMADI → kesinti yazılmadı."
+    }
+   ]
+  },
+  {
+   "sehir": "Napoli (Neapolis/Parthenope)",
+   "lat": 40.84,
+   "lon": 14.25287,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 433014 Parthenope/Neapolis",
+     "lat": 40.839995,
+     "lon": 14.25287,
+     "url": "https://pleiades.stoa.org/places/433014"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 40.83588,
+     "lon": 14.24877
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~0.6 km. İki tanık uyumlu.",
+   "donemler": [
+    {
+     "sahip": null,
+     "bas_mo": 326,
+     "son_mo": null,
+     "gecis_kaynagi": "Livy VIII (26.6-7 civarı): 'foedus Neapolitanum' — Neapolis'in Roma ile eşit antlaşma ('amicitia'), Palaepolis Samnit/Roma savaşı bağlamında.",
+     "alinti": "foedus Neapolitanum",
+     "kronoloji_okulu": "Varro/gelenek",
+     "gun": null,
+     "guven": "gelenek; MÖ 326 eşlemesi doğrulanmadı",
+     "yil_durumu": "gelenek-yil-dogrulanmadi",
+     "ic_not": "Sahip künyesi YOK: müttefik özerk polis (Roma'nın toprağı değil). Atlasta bağımsız şehir olarak kalmalı; roma-cumhuriyeti ile boyanması yaklaşıklık olur."
+    }
+   ]
+  },
+  {
+   "sehir": "Syrakusai",
+   "lat": 37.07008,
+   "lon": 15.28334,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 462503 Syracusae/Syrakousai",
+     "lat": 37.07008,
+     "lon": 15.28334,
+     "url": "https://pleiades.stoa.org/places/462503"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 37.03158,
+     "lon": 15.21243
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~7.0 km. OSM modern Siracusa kenti etiketi; Pleiades antik şehir (Ortygia-Epipolai) esas alındı.",
+   "donemler": [
+    {
+     "sahip": "sirakuza",
+     "bas_mo": null,
+     "son_mo": 212,
+     "gecis_kaynagi": "Livy 25.31 Syracusae'nin Marcellus tarafından alınışını anlatır ('hoc maxime modo Syracusae captae'); Livy 25.3.1 bu kitabın konsülleri Q. Fulvius Flaccus (III) ve Ap. Claudius.",
+     "alinti": "hoc maxime modo Syracusae captae",
+     "kronoloji_okulu": "Varro/gelenek",
+     "gun": null,
+     "guven": "gelenek; Livy anlatı sırasından 212",
+     "ic_not": "Atlas künyesi sirakuza t=MÖ 211 (Britannica); Livy 25'in sırası Fulvius-Claudius konsül yılına (212) bağlar. ÇELİŞKİ: iki ucu da beyan et; kapanış 212 sonbaharı mı 211 mi Polybios 8 / Plutarkhos Marcellus 19 ile çözülmeli (bu oturumda okunmadı)."
+    },
+    {
+     "sahip": "roma-cumhuriyeti",
+     "bas_mo": 212,
+     "son_mo": 27,
+     "gecis_kaynagi": "Livy 25.40: 'Marcellus captis Syracusis' Sicilya'yı düzenledi; Eutropius 3.14: Marcellus Sicilya'nın büyük bölümünü ve Syracusa'yı aldı.",
+     "alinti": "Marcellus captis Syracusis",
+     "kronoloji_okulu": "Varro/gelenek",
+     "gun": null,
+     "guven": "gelenek",
+     "yil_durumu": "gelenek-yil-dogrulanmadi"
+    }
+   ]
+  },
+  {
+   "sehir": "Massalia",
+   "lat": 43.29685,
+   "lon": 5.3825,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 148127 Massalia/Massilia",
+     "lat": 43.296854,
+     "lon": 5.382499,
+     "url": "https://pleiades.stoa.org/places/148127"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 43.2964,
+     "lon": 5.37779
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~0.4 km. İki tanık uyumlu.",
+   "donemler": [
+    {
+     "sahip": "massalia",
+     "bas_mo": 600,
+     "son_mo": 49,
+     "gecis_kaynagi": "Kuruluş: Justinus (Trogus) Epit. 43.3.4 — Tarquinius döneminde Phokaialı gençler Gallia'nın en ucuna gidip Massilia'yı kurdu. Son: Caesar, Bell. Civ. 2.22 — Massilialılar silah/mancınıkları teslim etti; Caesar 'ad nomen et vetustatem' şehri korudu, 2 lejyon bıraktı.",
+     "alinti": "Massilienses arma tormentaque ex oppido, ut est imperatum, proferunt",
+     "kronoloji_okulu": "gelenek (Tarquinius Priscus dönemi; Eutropius krallık yılları bu oturumda okunmadı)",
+     "gun": null,
+     "guven": "kuruluş: gelenek (kral adı, MÖ yılı yok); son: Caesar BC I-II aynı yıl (49)",
+     "yil_durumu": "kurulus-yil-ikincil"
+    },
+    {
+     "sahip": "roma-cumhuriyeti",
+     "bas_mo": 49,
+     "son_mo": 27,
+     "gecis_kaynagi": "Caesar BC 2.22: şehir yenilince 'conservans' ve garnizon bırakıldı — özgür müttefik statüsünün sonu Roma denetimi.",
+     "alinti": "duas ibi legiones praesidio relinquit",
+     "kronoloji_okulu": "Caesar, Latince birincil",
+     "gun": null,
+     "guven": "yazili",
+     "yil_durumu": "yil-konsul-baglamli"
+    }
+   ]
+  },
+  {
+   "sehir": "Karthago",
+   "lat": 36.85306,
+   "lon": 10.32306,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 314921 Carthago",
+     "lat": 36.853056,
+     "lon": 10.323056,
+     "url": "https://pleiades.stoa.org/places/314921"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 36.85481,
+     "lon": 10.33099
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~0.8 km. İki tanık uyumlu.",
+   "donemler": [
+    {
+     "sahip": "kartaca",
+     "bas_mo": 814,
+     "son_mo": 146,
+     "gecis_kaynagi": "Kuruluş: Timaios (Dionysios 1.74.1 aktarımıyla) Kartaca'nın kuruluşunu 1. Olimpiyattan 38 yıl öncesine koyar (HESAP: 776+38 = 814). Yıkım: Velleius Paterculus 1.12.5 — 'Carthago diruta est ... Cn. Cornelio Lentulo L. Mummio consulibus'; Eutropius 4.12: Scipio ele geçirip yıktı.",
+     "alinti": "Carthago diruta est, cum stetisset anni sexcentis septuaginta duobus (DCLXXII)",
+     "kronoloji_okulu": "Timaios/Dionysios (gelenek); konsül yılı 146 (Fasti eşlemesi doğrulanmadı)",
+     "gun": null,
+     "guven": "gelenek (kuruluş), yazili (yıkım, yıl konsül eşlemesi)",
+     "ic_not": "KURULUŞ ÇELİŞKİSİ: Timaios 814 (Dion. 1.74.1); Velleius 1.12.5: 672 yıl ayakta kaldı → 146+672 = 818 (HESAP); Eutropius 4.12: 'septingentesimo anno' → ~846 (yuvarlak). Atlas künyesi 814 ile uyumlu; sayı gelenektir, arkeolojik değil."
+    }
+   ],
+   "bosluk_notu": "146 sonrası şehir alanı için 'Colonia Iulia Carthago' kuruluşu bu oturumda kaynakta bulunamadı → petek komşuya/boş kalır."
+  },
+  {
+   "sehir": "Atina",
+   "lat": 37.97165,
+   "lon": 23.72395,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 579885 Athenae",
+     "lat": 37.971647,
+     "lon": 23.723955,
+     "url": "https://pleiades.stoa.org/places/579885"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 37.97556,
+     "lon": 23.73483
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~1.1 km. İki tanık uyumlu.",
+   "donemler": [
+    {
+     "sahip": "roma-cumhuriyeti",
+     "bas_mo": 86,
+     "son_mo": 27,
+     "gecis_kaynagi": "Plutarkhos, Sulla 14.6 (Perseus + Loeb/Thayer): 'He took Athens, as he says himself in his Memoirs, on the Calends of March' — Sulla'nın kendi Anıları. Yıl metinde YOK.",
+     "alinti": "He took Athens, as he says himself in his Memoirs, on the Calends of March",
+     "kronoloji_okulu": "Julyen (Roma Calendae = 1 Mart)",
+     "gun": "-0085-03-01 (MÖ 86-03-01)",
+     "guven": "gün: Sulla/Plutarkhos; YIL 86 bu oturumda birincil kaynaktan doğrulanmadı",
+     "yil_durumu": "gun-kaynakli-yil-dogrulanmadi",
+     "ic_not": "Plutarkhos Sulla 14'te Atina'nın alındığı yıl yazılı değil (Loeb dipnotu 86 bağlamını Octavius/Flaccus olaylarıyla veriyor). Atlas künyesi atina-demokrasisi t=MÖ 338 (Khaironeia): 338-86 arası (Makedon/Diadokh/Roma müttefikliği) kaynaklanmadı → bosluk."
+    }
+   ],
+   "bosluk_notu": "MÖ 337-87 arası Atina sahibi (Makedon vesayeti, Antigonid/Ptolemaios nüfuzu, Roma müttefikliği) bu oturumda kaynakta bulunamadı; Atina bu aralıkta ayrı sahibi olmayan şehir olarak kalmalı (kaynak-sessiz)."
+  },
+  {
+   "sehir": "Sparta",
+   "lat": 37.08178,
+   "lon": 22.42464,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 570685 Sparta",
+     "lat": 37.081782,
+     "lon": 22.424646,
+     "url": "https://pleiades.stoa.org/places/570685"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 37.07445,
+     "lon": 22.43018
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~0.9 km. İki tanık uyumlu.",
+   "donemler": [
+    {
+     "sahip": null,
+     "bas_mo": 192,
+     "son_mo": null,
+     "gecis_kaynagi": "Livy 35.37 (Latin Library liv.35): Nabis'in öldürülmesi sonrası Philopoemen Sparta'ya gidip Lakedaimonluları Akhaia birliğine kattı.",
+     "alinti": "societati Achaeorum Lacedaemonios adiunxit",
+     "kronoloji_okulu": "Varro/gelenek",
+     "gun": null,
+     "guven": "gelenek; MÖ 192 künye ile uyumlu (sparta t=-0191)",
+     "yil_durumu": "gelenek-yil-dogrulanmadi",
+     "ic_not": "Sahip künyesi YOK (Akhaia Birliği atlasta ayrı künye olarak aranmalı; devletler.js'te bu oturumda bulunamadı)."
+    }
+   ]
+  },
+  {
+   "sehir": "Korint",
+   "lat": 37.90564,
+   "lon": 22.87861,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 570182 Corinthus/Korinthos",
+     "lat": 37.905642,
+     "lon": 22.878614,
+     "url": "https://pleiades.stoa.org/places/570182"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 37.90514,
+     "lon": 22.87644
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~0.2 km. İki tanık uyumlu.",
+   "donemler": [
+    {
+     "sahip": "korint",
+     "bas_mo": null,
+     "son_mo": 146,
+     "gecis_kaynagi": "Eutropius 4.14: Mummius konsül Korint'i aldı ve yıktı. Strabon 8 Loeb dipnotu (Thayer, Strabo 8D): 'Mummius the consul captured Corinth and destroyed it by fire in 146 B.C.; it was rebuilt again by Augustus'. Pausanias 7.16: Mummius'un Akhaialılarla savaşı (yıl metinde yok).",
+     "alinti": "Hanc Mummius consul cepit et diruit",
+     "kronoloji_okulu": "Loeb (ikincil-akademik) + Latince birincil",
+     "gun": null,
+     "guven": "yazili; yıl 146 Loeb dipnotu + künye ile uyumlu",
+     "yil_durumu": "kaynakli"
+    }
+   ],
+   "bosluk_notu": "146 sonrası yıkık alan; Iulius Caesar'ın MÖ 44 kolonisi (Colonia Laus Iulia) Strabon 8.6.23 / Pausanias 2.1.2 bu oturumda okunmadı → dönem yazılmadı."
+  },
+  {
+   "sehir": "Teb (Thebai)",
+   "lat": 38.31995,
+   "lon": 23.31763,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 541138 Thebai/Thebae",
+     "lat": 38.319949,
+     "lon": 23.317653,
+     "url": "https://pleiades.stoa.org/places/541138"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 38.32007,
+     "lon": 23.31756
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~0.0 km. Uyumlu.",
+   "donemler": [],
+   "bosluk_notu": "Aleksandros'un Teb'i yıkışı (MÖ 335, Arrianos 1.8-9 / Diodoros 17.9-14) ve Kassandros'un yeniden kuruşu (Diodoros 19.54) bu oturumda OKUNMADI → dönem yazılmadı. Künye boiotia-birligi t=-0337 (Khaironeia) kaynaksız bırakılmadı fakat bu oturumda yeniden teyit edilmedi."
+  },
+  {
+   "sehir": "Pella",
+   "lat": 40.7544,
+   "lon": 22.51822,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 491687 Pella/Diokletianoupolis",
+     "lat": 40.754359,
+     "lon": 22.518224,
+     "url": "https://pleiades.stoa.org/places/491687"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 40.75413,
+     "lon": 22.51779
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~0.0 km. Uyumlu.",
+   "donemler": [],
+   "bosluk_notu": "Pella'nın Argead başkent olması ve Pydna sonrası (168) Makedon meris düzeni Livy 44-45'te (Latin Library liv.44, liv.45) var; bu oturumda okunmadı → dönem yazılmadı. Atlasın makedon-merisleri / antigonid-makedonya künyeleri korunur."
+  },
+  {
+   "sehir": "Pergamon",
+   "lat": 39.1325,
+   "lon": 27.18416,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 550812 Pergamum",
+     "lat": 39.1325,
+     "lon": 27.184167,
+     "url": "https://pleiades.stoa.org/places/550812"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 39.11895,
+     "lon": 27.17736
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~1.6 km. OSM Bergama kent merkezi; Pleiades akropol esas alındı.",
+   "donemler": [
+    {
+     "sahip": "bergama",
+     "bas_mo": null,
+     "son_mo": 133,
+     "gecis_kaynagi": "Strabon 13.4.2 (Thayer 13D): Attalos Philometor beş yıl hüküm sürdü, hastalıktan öldü ve Romalıları vâris bıraktı; Romalılar ülkeyi 'Asia' adıyla eyalet ilan etti. Eutropius 4.18: 'per testamentum Asia accessit'. Yıl Strabon'da yok; Numantia'nın düşüşü (133) ile aynı bağlamda anılır.",
+     "alinti": "Attalus, surnamed Philometor, reigned five years, died of disease, and left the Romans his heirs",
+     "kronoloji_okulu": "Strabon (Loeb) + Eutropius (Latince)",
+     "gun": null,
+     "guven": "yazili; yıl 133 künye + Eutropius 4.17-18 Numantia bağlamı (Scipio'nun Numantia'sı 133 — eşleme doğrulanmadı)",
+     "yil_durumu": "olay-kaynakli-yil-ikincil"
+    },
+    {
+     "sahip": "roma-cumhuriyeti",
+     "bas_mo": 133,
+     "son_mo": 27,
+     "gecis_kaynagi": "Strabon 13.4.2: 'The Romans proclaimed the country a province, calling it Asia'.",
+     "alinti": "The Romans proclaimed the country a province, calling it Asia",
+     "kronoloji_okulu": "Strabon",
+     "gun": null,
+     "guven": "yazili",
+     "yil_durumu": "olay-kaynakli-yil-ikincil",
+     "ic_not": "Aristonikos isyanı (131-129) sırasında fiili Roma denetimi tam değildir; bu oturumda okunmadı."
+    }
+   ]
+  },
+  {
+   "sehir": "İskenderiye",
+   "lat": 31.20144,
+   "lon": 29.90977,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 727070 Alexandria",
+     "lat": 31.201435,
+     "lon": 29.909773,
+     "url": "https://pleiades.stoa.org/places/727070"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 31.19918,
+     "lon": 29.89517
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~1.5 km. İki tanık uyumlu.",
+   "donemler": [
+    {
+     "sahip": "ptolemai",
+     "bas_mo": null,
+     "son_mo": 30,
+     "gecis_kaynagi": "Dio 51.15-19 (Loeb/Thayer 51): Caesar (Octavianus) Mısır'ı boyun eğdirdi; 'The day on which Alexandria had been captured they declared a lucky day' ve Mısırlılar için takvim başlangıcı yapıldı. Eutropius 7.7: 'Aegyptus per Octavianum Augustum imperio Romano adiecta est', ilk vali C. Cornelius Gallus. Dio 51 başlığı: MÖ 30 konsülleri Caesar (IV), Crassus.",
+     "alinti": "Aegyptus per Octavianum Augustum imperio Romano adiecta est",
+     "kronoloji_okulu": "Julyen; gün YOK (künyedeki 30-08-01 bu oturumda teyit edilemedi)",
+     "gun": null,
+     "guven": "yazili (yıl)",
+     "yil_durumu": "kaynakli"
+    },
+    {
+     "sahip": "roma-cumhuriyeti",
+     "bas_mo": 30,
+     "son_mo": 27,
+     "gecis_kaynagi": "Eutropius 7.7; Dio 51.17: Mısır Octavianus'un şahsi idaresinde — bu aralıkta sahip Roma (Octavianus).",
+     "alinti": "Aegyptus ... imperio Romano adiecta est",
+     "kronoloji_okulu": "Julyen",
+     "gun": null,
+     "guven": "yazili",
+     "yil_durumu": "kaynakli"
+    },
+    {
+     "sahip": "roma-imp",
+     "bas_mo": 27,
+     "son_mo": -395,
+     "gecis_kaynagi": "Mısır eyaleti (Octavianus'un şahsi eyaleti, vali Gallus).",
+     "alinti": "praepositusque ei C. Cornelius Gallus",
+     "kronoloji_okulu": "Julyen",
+     "gun": null,
+     "guven": "yazili",
+     "ic_not": "395 sonrası Doğu Roma (bizans) sahipliği bu oturumda eşleme yapılmadı."
+    }
+   ]
+  },
+  {
+   "sehir": "Antiokheia (Orontes)",
+   "lat": 36.21589,
+   "lon": 36.17684,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 658381 Antiochia/Theoupolis",
+     "lat": 36.215887,
+     "lon": 36.176842,
+     "url": "https://pleiades.stoa.org/places/658381"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 36.20256,
+     "lon": 36.1641
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~2.0 km. OSM antik kent yakını; Pleiades esas alındı.",
+   "donemler": [
+    {
+     "sahip": "selevkos",
+     "bas_mo": null,
+     "son_mo": 63,
+     "gecis_kaynagi": "Justinus (Trogus) Epit. 40.2.3-5: Pompeius Antiokhos'a krallık vermeyi reddetti, 'Atque ita Syriam in provinciae formam redegit'. MÖ yıl Justinus'ta yok; künye selevkos t=MÖ 63 (atlas, Britannica notu).",
+     "alinti": "Atque ita Syriam in provinciae formam redegit",
+     "kronoloji_okulu": "Justinus (Latince birincil-özet); yıl birincil kaynakta bulunamadı",
+     "gun": null,
+     "guven": "olay yazili; yıl 64/63 birincil okunmadı (Appian Syr. 49-50 / Josephus AJ 14 bu oturumda erişilemedi)",
+     "yil_durumu": "yil-bulunamadi",
+     "ic_not": "Brif MÖ 64/63 ayrımı: bu oturumda Pompeius'un Suriye düzenlemesinin tek yıl damgası birincil kaynaktan çıkarılamadı → kutuphane_gerekli."
+    }
+   ]
+  },
+  {
+   "sehir": "Konstantinopolis (Byzantion)",
+   "lat": 41.00659,
+   "lon": 28.96564,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 520998 Constantinopolis",
+     "lat": 41.006592,
+     "lon": 28.965635,
+     "url": "https://pleiades.stoa.org/places/520998"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 41.01928,
+     "lon": 28.94793
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~2.4 km. OSM Fatih ilçe merkezi; Pleiades tarihî yarımada esas alındı.",
+   "donemler": [],
+   "bosluk_notu": "MS 330 (11 Mayıs) açılış/başkent ilanı: birincil kaynak (Chronicon Paschale, Socrates 1.16, Jerome Chron.) bu oturumda erişilemedi (Britannica 403; Jerome PDF bağlantısı geçersiz) → kutuphane_gerekli. Varlık kanıtı: Marcellinus s.a. 395 — Theodosius'un cesedi 'Constantinopolim adlatum atque sepultum' ve Rufinus'un başı 'per totam Constantinopolim' gezdirildi."
+  },
+  {
+   "sehir": "Mediolanum (Milano)",
+   "lat": 45.46375,
+   "lon": 9.18806,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 383706 Mediolan(i)um",
+     "lat": 45.463746,
+     "lon": 9.18806,
+     "url": "https://pleiades.stoa.org/places/383706"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 45.46419,
+     "lon": 9.18963
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~0.1 km. Uyumlu.",
+   "donemler": [],
+   "bosluk_notu": "Başkent oluşu (MS 286 vb.) bu oturumda kaynaksız → yazılmadı. Varlık/saray kanıtı: Marcellinus s.a. 395 'Theodosius Magnus apud Mediolanum uita decessit' (Latince, Mommsen CM II)."
+  },
+  {
+   "sehir": "Ravenna",
+   "lat": 44.41572,
+   "lon": 12.1966,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 393480 Ravenna",
+     "lat": 44.415718,
+     "lon": 12.196604,
+     "url": "https://pleiades.stoa.org/places/393480"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 44.36406,
+     "lon": 12.05906
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~12.4 km. OSM sonucu komün (Ravenna belediyesi) etiketi, şehir merkezi değil; Pleiades şehir yerleşimi esas alındı.",
+   "donemler": [],
+   "bosluk_notu": "MS 402 başkent aktarımı bu oturumda kaynaksız. Marcellinus s.a. 477/478: 'Bracilam comitem Odoacer rex apud Rauennam occidit' (Odoakar'ın Ravenna'da bulunuşu). Odoakar künyesiyle (odoakar) ilişkilendirmek için Ravenna'nın o devirde Odoakar'a bağlılığı ayrıca kaynak ister."
+  },
+  {
+   "sehir": "Treveri (Augusta Treverorum)",
+   "lat": 49.75223,
+   "lon": 6.64169,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 108894 Col. Augusta Treverorum",
+     "lat": 49.752233,
+     "lon": 6.641693,
+     "url": "https://pleiades.stoa.org/places/108894"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 49.75962,
+     "lon": 6.64419
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~0.9 km. İki tanık uyumlu.",
+   "donemler": [],
+   "bosluk_notu": "Tetrarşi/Galya başkenti rolü ve Trier'in sahip zinciri bu oturumda kaynakta bulunamadı (Latin Library Eutropius 9.22: Constantius Caesar tayini var ama başkent adı yok) → yazılmadı."
+  },
+  {
+   "sehir": "Londinium",
+   "lat": 51.51334,
+   "lon": -0.08895,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 79574 Londinium/Augusta",
+     "lat": 51.513335,
+     "lon": -0.088949,
+     "url": "https://pleiades.stoa.org/places/79574"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 51.51562,
+     "lon": -0.092
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~0.3 km. Uyumlu.",
+   "donemler": [],
+   "bosluk_notu": "Tacitus Ann. 14.33 (Latince): Suetonius Paulinus 'Londinium perrexit' — colonia unvanı yok, tüccar ve ikmal merkezi ('copia negotiatorum et commeatuum maxime celebre'); Boudica isyanı yılı bu oturumda okunmadı. Roma Britanyası künyesi atlasta yok (devletler.js'te aranmadı) → dönem yazılmadı."
+  },
+  {
+   "sehir": "Efes",
+   "lat": 37.94016,
+   "lon": 27.3424,
+   "konum_tanik": [
+    {
+     "kaynak": "Pleiades 599612 Ephesus/Arsinoe(ia)",
+     "lat": 37.940164,
+     "lon": 27.342403,
+     "url": "https://pleiades.stoa.org/places/599612"
+    },
+    {
+     "kaynak": "OSM Nominatim (bu oturumda sorgulandı)",
+     "lat": 37.94045,
+     "lon": 27.33932
+    }
+   ],
+   "konum_not": "Pleiades-OSM farkı ~0.3 km. Uyumlu.",
+   "donemler": [],
+   "bosluk_notu": "Efes: Selevkos → Bergama (Apameia sonrası Roma-Eumenes) → Asia eyaleti zinciri. Polybios 21.41-43'te Antiokhos'un 'Efes'ten ayrıldığı ve Apameia'da (Kelainai) ilk görüşme Livy 38.15 vb.) var; Efes'in hangi tarihte hangi sahibe geçtiği bu oturumda kaynaklanmadı → yazılmadı."
+  }
+ ],
+ "kayitlar": [
+  {
+   "id": "augustus-unvani-16-ocak-mo27",
+   "ad": "Octavianus'a 'Augustus' unvanının verilmesi",
+   "tur": "olay",
+   "lat": 41.88998,
+   "lon": 12.49126,
+   "kur": {
+    "gun": "-0026-01-16",
+    "bas_mo": 27,
+    "son_mo": null,
+    "kaynak": "Haverfield, 'The Name Augustus', JRS 5 (1915) 249 (LacusCurtius); Dio 53.16.6-8",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Journals/JRS/5/Augustus*.html",
+    "alinti": "on 16th January he received from the senate the cognomen Augustus",
+    "kaynak_sinifi": "akademik-ikincil"
+   },
+   "ic_not": "Gün birincil metinde (Dio 53.16) yok; Ovid Fasti 1.587-616 ve Fasti Praenestini bu oturumda okunamadı → tek akademik kaynak, 'çift teyit' DEĞİL.",
+   "k": "gelisme"
+  },
+  {
+   "id": "theodosius-olumu-395",
+   "ad": "I. Theodosius'un ölümü ve imparatorluğun iki oğula devri",
+   "tur": "olay",
+   "lat": 45.46375,
+   "lon": 9.18806,
+   "kur": {
+    "gun": "0395-01-17",
+    "bas_mo": -395,
+    "son_mo": null,
+    "kaynak": "Sokrates Scholastikos, Hist. Eccl. 5.26 (NPNF 2/2) ve Marcellinus Comes s.a. 395",
+    "url": "https://www.newadvent.org/fathers/26015.htm",
+    "alinti": "it being the seventeenth of January, during consulate of Olybrius and Probus",
+    "kaynak_sinifi": "birincil-yayin (çeviri)"
+   },
+   "ic_not": "ÇİFT TEYİT (yıl: Sokrates Yunanca/İngilizce çeviri + Marcellinus Latince); gün yalnız Sokrates'te. Konum: Marcellinus 'apud Mediolanum' (Milano).",
+   "k": "gelisme"
+  },
+  {
+   "id": "sulla-atina-1-mart",
+   "ad": "Sulla'nın Atina'yı alması (Calendae Martiae)",
+   "tur": "olay",
+   "lat": 37.97165,
+   "lon": 23.72395,
+   "kur": {
+    "gun": "-0085-03-01",
+    "bas_mo": 86,
+    "son_mo": null,
+    "kaynak": "Plutarkhos, Sulla 14.6 (Perseus; Loeb/Thayer) — Sulla'nın Anıları'na atıf",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Sull.+14",
+    "alinti": "He took Athens, as he says himself in his Memoirs, on the Calends of March",
+    "kaynak_sinifi": "birincil-yayin (çeviri)"
+   },
+   "ic_not": "YIL 86 metinde yok → yıl ikinci bir kaynakla doğrulanmalı; gün-ay kaynaklı.",
+   "k": "fetih"
+  },
+  {
+   "id": "jovian-antlasmasi-363",
+   "ad": "Roma-Sasani 30 yıllık barış ve Nisibis/Singara devri",
+   "tur": "olay",
+   "lat": null,
+   "lon": null,
+   "kur": {
+    "gun": null,
+    "bas_mo": -363,
+    "son_mo": null,
+    "kaynak": "Ammianus Marcellinus 25.7.9-14 (Loeb/Thayer Ammian 25); yıl: Sokrates 3.26 — Jovian 7 ay hüküm sürüp 17 Şubat 364'te öldü (HESAP: kabul 363)",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ammian/25*.html",
+    "alinti": "And so a peace of thirty years was made and consecrated by the sanctity of oaths",
+    "kaynak_sinifi": "birincil-yayin (çeviri)"
+   },
+   "ic_not": "Şapur'un istediği: Tigris ötesi 5 bölge (Arzanene, Moxoene, Zabdicene, Rehimene, Corduene) + Nisibis, Singara, Castra Maurorum (Amm. 25.7.9). Nisibis/Singara koordinatı ve devir günü bu oturumda doğrulanmadı (lat/lon yaklaşık, iki tanıksız → KULLANMA).",
+   "k": "gelisme"
+  },
+  {
+   "id": "apameia-188",
+   "ad": "Apameia Antlaşması (Antiokhos III - Roma)",
+   "tur": "olay",
+   "lat": null,
+   "lon": null,
+   "kur": {
+    "gun": null,
+    "bas_mo": 188,
+    "son_mo": null,
+    "kaynak": "Polybios 21.17 (ön şartlar: Taurus öte/Europa'dan çekilme), 21.41-43 (Apameia); Livy 38 (Latin Library liv.38)",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/21*.html",
+    "alinti": "They must retire from Europe and from all Asia on this side Taurus",
+    "kaynak_sinifi": "birincil-yayin (çeviri)"
+   },
+   "ic_not": "MÖ 188 yılı Polybios'ta olympiyat/konsül bağlamıyla yazılı değil; Livy 38'de Apameia antlaşmasının bölüm metni regex'le yakalanamadı (38.38) → yıl 188 brif/künye değeri, bu oturumda birincil doğrulanmadı.",
+   "k": "gelisme"
+  }
+ ],
+ "celiskiler": [
+  {
+   "konu": "Roma kuruluşu",
+   "degerler": "Varro 753 (bu oturumda okunmadı); Dionysios 1.74-75: Ol.7.1 (752/751), Cato 432 yıl sonra Troya, Polybios Ol.7.2, Fabius Ol.8.1, Cincius Ol.12.4, Timaios = Kartaca ile aynı yıl (814)",
+   "karar": "Hiçbiri seçilmedi: gelenek, künye 753 (Varro)."
+  },
+  {
+   "konu": "Roma cumhuriyetinin başı",
+   "degerler": "509 (Varro/Fasti, künye) vs 508 (Polybios 3.22: Xerxes'ten 28 yıl önce, HESAP)",
+   "karar": "Seçilmedi; gelenek."
+  },
+  {
+   "konu": "Marcellinus'un Batı imparatorluğu başlangıç sayımı",
+   "degerler": "Marcellinus s.a. 476: Octavianus'un 'Hesperium imperium'u AUC 709'da (Chiffl. 708) tutmaya başladığı; 522 yıl — HESAP: 754-709 = MÖ 45; Augustus MÖ 27'den ayrı sayım",
+   "karar": "Prinkipat başlangıcı için kullanılmaz; ic_not."
+  },
+  {
+   "konu": "Syrakusai düşüşü",
+   "degerler": "212 (Livy 25 sırası) vs 211 (künye/Britannica)",
+   "karar": "İki ucu da beyan; çözüm için Polybios 8 / Plutarkhos Marcellus 19."
+  },
+  {
+   "konu": "Bitinya Nikomedes IV vasiyeti",
+   "degerler": "Eutropius 6.6 AUC 676 (=78, HESAP) vs konsüller Lucullus-Cotta (74) vs künye 74",
+   "karar": "Konsül adları esas; AUC sayısı bozuk görünür."
+  },
+  {
+   "konu": "Kartaca kuruluşu",
+   "degerler": "Timaios 814; Velleius → ~818; Eutropius → ~846",
+   "karar": "Seçilmedi; künye 814 gelenek."
+  }
+ ],
+ "bulunamadi": [
+  "bulunamadı: Roma Dominatus başlangıcı 284 (20 Kasım) / Diocletianus-Maximianus Caesar 285 / Augustus 286 / tetrarşi 293 — denenen: Latin Library Eutropius 9.20-22 (olay sırası var, yıl yok), Britannica Diocletian (403). Brifteki 'MS 285 tetrarşi' kaynakta doğrulanamadı.",
+  "bulunamadı: Konstantinopolis 330 (11 Mayıs) — denenen: newadvent Socrates 1, Britannica Istanbul (403), tertullian.org Jerome Chronicle, fourthcentury.com.",
+  "bulunamadı: Roma eyaletleşme yılları — Makedonya 146/148 (Eutropius 4.13 yalnız Metellus Andriscus'u yendi diyor; 'prouincia' kelimesi yok), Pontus/Bithynia 64, Suriye 64/63, Kapadokya MS 17 (Tacitus Ann. 2.42 regex'i yakalamadı), Kıbrıs, Mısır gün 30-08-01.",
+  "bulunamadı: Pön Savaşları sonu için ayrıca Zama (202) / Hannibal; yalnız Kartaca yıkımı 146 ele alındı.",
+  "bulunamadı: Selevkos/Ptolemaios/Antigonid satraplık-kral geçişleri (MÖ 323, 306/305) — Diodoros 18-20 (Loeb) bu oturumda açılmadı; künyelerde bu işler 14 Ekim 2026 SEHIR-TARIHCE parti notlarıyla zaten beyanlı.",
+  "bulunamadı: Part/Sasani sınırı için Augustus-Phraates 20 BC (Res Gestae 29) ve Rhandeia 63 (Tacitus Ann. 15.24-30) — Thayer Res Gestae sayfaları İngilizce/Latince karışık, bölüm 29 regex'iyle yakalanamadı.",
+  "bulunamadı: Teb 335 yıkımı, Pella/Efes/Treveri/Mediolanum başkent dönemleri, Etrüsk şehirlerinin Roma'ya katılış yılları (Tarquinii, Caere 273, Volsinii 264)."
+ ],
+ "kutuphane_gerekli": [
+  {
+   "eser": "Cassius Dio 53.16 ve Ovid Fasti 1.587-616 + Fasti Praenestini (Inscr. It. XIII.2): 16 Ocak MÖ 27 günü birincil teyit",
+   "doi/url": "Loeb Classical Library Dio vol. 6; Degrassi Inscriptiones Italiae XIII.2",
+   "neden_gerekli": "Haverfield 1915 tek tanık; 'çift teyit' için birincil takvim kaydı"
+  },
+  {
+   "eser": "Broughton, T.R.S., The Magistrates of the Roman Republic (MRR) I-II; Fasti Capitolini",
+   "doi/url": "kütüphane",
+   "neden_gerekli": "Livy/Eutropius konsül yıllarından MÖ yıl eşlemesi (Veii 396, Capua 338, Napoli 326, Syrakusai 212/211, Tarquinii 351/308)"
+  },
+  {
+   "eser": "Appian, Syriake 49-50 ve Mithridateios 114-118 (Loeb); Josephus AJ 14.4",
+   "doi/url": "Loeb Classical Library Appian vol. 2-3",
+   "neden_gerekli": "Pompeius'un Suriye/Pontus-Bithynia düzenlemesi MÖ 64/63 yıl damgası"
+  },
+  {
+   "eser": "Chronicon Paschale (Whitby/Whitby 1989) s.a. 330; Hydatius/Consularia Constantinopolitana; Jerome Chron. (Helm GCS 47)",
+   "doi/url": "Liverpool UP TTH 7",
+   "neden_gerekli": "Konstantinopolis 330 gün ve Dominatus/tetrarşi yıllar"
+  },
+  {
+   "eser": "Pauly-Wissowa, Realencyclopädie der classischen Altertumswissenschaft (Syrakusai, Massalia, Pergamon, Karthago maddeleri)",
+   "doi/url": "kütüphane (Almanca)",
+   "neden_gerekli": "Brif çok dilli kaynak istedi; Almanca RE bu oturumda erişilemedi"
+  },
+  {
+   "eser": "Polybios 8.37 (Syrakusai), Plutarkhos Marcellus 19; Polybios 38-39 (Korint 146)",
+   "doi/url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/",
+   "neden_gerekli": "Syrakusai düşüşü 212/211 ve Korint yılı çelişkisi"
+  },
+  {
+   "eser": "Pausanias 2.1.2 ve Strabon 8.6.23 (Colonia Laus Iulia Corinthiensis 44)",
+   "doi/url": "Perseus/Thayer",
+   "neden_gerekli": "Korint 146 sonrası yeniden kuruluş tarihi"
+  }
+ ]
+}

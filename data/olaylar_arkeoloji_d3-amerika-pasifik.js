@@ -486,7 +486,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   "k": "gelisme",
   "b": "Pampa de las Hamacas töreni merkezleri (Jequetepeque, Formatif): Hamacas evresi başlar (Jequetepeque)",
   "gun": "MÖ 1500 (ALT SINIR; donem-toplami MÖ 1500–1250)",
-  "yer": "Complejo Hamacas, Pampa de las Hamacas, Tembladera",
+  "yer": "Complejo Hamacas, Pampa de las Hamacas, Tembladera / Susa",
   "d": "Jequetepeque orta vadisinde Formatif tören merkezleri dizisi; merkezlerin yeri zamanla doğuya kayar. Hamacas fazı 1500-1250, Tembladera 1250-800 (terk ~800), Lechuzas 800-550 cal BC.",
   "kaynak": "Tsurumi E. 2008, 'La secuencia cronológica de los centros ceremoniales de la Pampa de las Hamacas y Tembladera, valle medio de Jequetepeque', Boletín de Arqueología PUCP 12:141-169 (İspanyolca; OxCal 4.0.1, kalibre) · https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/964/931",
   "kesinlik": "yuzyil",

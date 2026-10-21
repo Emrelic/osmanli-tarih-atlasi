@@ -76,6 +76,8 @@ ELAM_ZINCIR = ["elam-simaski", "elam-sukkalmah", "elam-orta", "elam-yeni"]
 
 
 def eslestir(sahip, KU, bas_iso, son_iso):
+    if sahip in KU:                                  # 4. dalga: araştırma doğrudan künye id'si veriyor
+        return [sahip]
     for rx, kid in OWNER_MAP:
         if re.search(rx, sahip):
             if kid == "ELAM":
@@ -99,7 +101,7 @@ def parcala(kids, KU, bas_iso, son_iso):
 
 def oku_sk():
     sk = []
-    for f in sorted(glob.glob(os.path.join(ARA, "3-*.json"))):
+    for f in sorted(glob.glob(os.path.join(ARA, "3-*.json")) + glob.glob(os.path.join(ARA, "4-*.json"))):
         d = json.load(open(f, encoding="utf-8"))
         for s in d.get("sehir_kontrol") or []:
             s["_dosya"] = os.path.basename(f)
@@ -153,11 +155,19 @@ def main():
         # dönemleri sırala
         P = []
         for p in s["donemler"]:
-            if p.get("dolayli_cikarim") or p.get("bas_mo") is None:
+            if p.get("dolayli_cikarim"):
                 continue
-            if p["bas_mo"] < 0 or (p.get("son_mo") is not None and p["son_mo"] < 0):
-                continue                               # MS ucu — bu katman MÖ
-            P.append(p)
+            if p.get("bas_mo") is None:
+                # başlangıç kaynakta yok: sahip künye ise dönem künyenin kendi f'sinden başlar (künye f'si kaynaklı)
+                if p.get("sahip") in KU and p.get("yil_durumu") != "yil-bulunamadi" and p.get("son_mo") is not None:
+                    p = dict(p)
+                    p["bas_mo"] = 10 ** 6                      # sentinel: aşağıda künye f'sine çekilir
+                    p["_bas_kunye"] = True
+                else:
+                    continue
+            if p.get("yil_durumu") == "yil-bulunamadi" or not p.get("sahip"):
+                continue                               # yılı kaynaklanmamış / sahibi künyesiz-özerk (ör. Sparta: Akhaia Birliği) dönemler YAZILMAZ
+            P.append(p)                                # (MS yılları negatif bas_mo/son_mo: -476 = MS 476 — iso() halleder)
         P.sort(key=lambda p: -p["bas_mo"])
         if not P:
             red.append((s["sehir"], "kaynaklı dönem yok (bas_mo'su olan, dolaylı olmayan)"))
@@ -165,7 +175,7 @@ def main():
         # künye parçaları
         seg = []                                       # dict(f,t,d,kaynak,p)
         for i, p in enumerate(P):
-            f = iso(p["bas_mo"])
+            f = KU[p["sahip"]][1] if p.get("_bas_kunye") else iso(p["bas_mo"])
             if p.get("son_mo") is not None:
                 t = iso(p["son_mo"])
             else:
