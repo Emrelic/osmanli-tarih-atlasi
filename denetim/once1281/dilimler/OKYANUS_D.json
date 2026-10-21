@@ -20,13 +20,16 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Gelenek MS ~950; arkeoloji/soy sayımı MS ~1200 gibi daha geç tarihler de öne sürer. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): Campbell, Island Kingdom; Kirch, On the Road of the Winds.",
+  "kaynak": [
+   "Vikipedi 'Tuʻi Tonga Empire' (aday/yardımcı; atıf: Lal & Fortune, The Pacific Islands: An Encyclopedia, s.133): 950-1865",
+   "Clark, Burley & Murray 2008, Lapaha Kolotau toprak kalesi, Journal of Anthropological Archaeology (özet: 14. yy radyokarbon+gelenek; merkezileşme çekişmeli)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa açıldı (Vikipedi, ikincil): gelenek 950, zirve 1200-1500, unvan 1865'te kalktı. Atlas künyesi t=1845-12-04 (kaynakla 20 yıl fark; 1845 George Tupou I yükselişi, 1865 Laufilitonga ölümü olabilir, kaynakla doğrulanmadı). Arkeolojik merkezileşme 13.-14. yy'a işaret ediyor; f=950 gelenektir, tarihsel değil. Burley: Nukuleka 9.-10. yy yerleşim bağlantısı (UNESCO ön liste notu) yalnız ima.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "tui-tonga-imparatorlugu",
-   "not": "Atlas künyesi f=1000; gelenekte ~950 (50 yıl fark; ayrı kayıt açılmayacak, künyenin f'si gözden geçirilsin)."
+   "not": "Atlas f=1000/t=1845-12-04; gelenek f=950; t kaynakta 1865. Künye için karar: f=1000 korunabilir (gelenek ≈ yuvarlama), t gözden geçirilsin."
   }
  },
  {
@@ -34,7 +37,7 @@
   "ad": "Mariana Latte Kültürü / Chamorro",
   "tur": "topluluklar",
   "bolge": "okyanusya",
-  "f": "0800-01-01",
+  "f": "0900-01-01",
   "t": "1695-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -49,13 +52,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Latte dönemi MS ~800-1700 genel kabul. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "kaynak": [
+   "Carson, M. T. 2012, Micronesica 42(1/2): 1-79 (özet: latte dönemi yaklaşık MS 900-1700, en eski örnekler 900-1000, ~1700'de terk; İspanyol sömürgeciliği)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri: f 0800. Kaynağa göre latte ≈ MS 900-1700. t 1695 (atlas künyesi) kaynakta doğrulanmadı (kaynak ~1700 diyor). Latte arkeolojik dönemdir, siyasî birim değil; atlasın Chamorro künyesi f=800 (100 yıl fark).",
   "esleme": {
-   "durum": "var",
+   "durum": "var-f-t-farkli",
    "mevcut_id": "chamorro",
-   "not": ""
+   "not": "Künye f=800; Carson 2012: latte 900-1700; f tarihleme farkı 100 yıl."
   }
  }
 ]

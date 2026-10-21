@@ -5,7 +5,7 @@
   "tur": "krallik",
   "bolge": "misir-sudan",
   "f": "0500-01-01",
-  "t": "1312-01-01",
+  "t": "1365-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yil"
@@ -20,13 +20,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Çöküş 1312-1323 ve 15. yy artıkları. Mevcut künye Makuria+Alodia birleşik. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Welsby 2002; Adams 1977; TDV Nube]",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Nûbe\" (Nebi Bozkurt, 2007), islamansiklopedisi.org.tr/nube — bu oturumda okundu",
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Makuria (en.wikipedia.org/wiki/Makuria); atıflar Welsby 2002, Godlewski, Adams 1991, Łajtar",
+   "W. Godlewski, \"Makuria in the middle of the 12th century\", Polish Archaeology in the Mediterranean 28/2 (2019) — özet okundu: Georgios (Mouse Georgios) 1155'te Makuria (Dotawo) kralı olarak taç giydi"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Çöküş 1312-1323 ve 15. yy artıkları. Mevcut künye Makuria+Alodia birleşik. TDV Nûbe: Makarra Dongola merkezli; Hristiyanlık 6. yy başından, misyon 543, ilk kilise 600 sonrası; 31/652'de Abdullah b. Sa'd Dongola'yı kuşattı, 360 köle/yıl Bakt antlaşması; 664/1265-66 Kral Davud-Baybars; 13 Şevval 674 (31 Mart 1276) Dongola savaşı, Mamlûk vasalı Shikenda; 716 (1316) Berşembû'yu Kenzîler öldürdü. Vikipedi: Makuria Nobatia'yı 620'ler dolaylarında ilhak etti (TDV bunu içermez), Dongola 5. yy sonunda kuruldu, 1365 iç savaşı Makuria'yı Gebel Adda-Qasr Ibrim çekirdeğine indirdi, son kral Joel 1463'te anılır, 15. yy sonunda çöküş. t seçimi: 1365 (Dongola kaybı; Dotawo/Aşağı Nubya kalıntısı kayda ayrıca ic_not). 1312/1323 taslak değeri TDV'de yok. Atlas nube künyesi (543-1504) Makuria+Alodia'yı birlikte tutuyor — bölünme önerilir. Taslak t değeri 1312. [taslak t değeri: 1312-01-01]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "nube",
-   "not": ""
+   "not": "nube künyesi Makuria+Alodia'yı tek blokta tutuyor; Makuria ayrı polity."
   }
  },
  {
@@ -34,7 +38,7 @@
   "ad": "Alodia (Alwa) Krallığı",
   "tur": "krallik",
   "bolge": "misir-sudan",
-  "f": "0550-01-01",
+  "f": "0350-01-01",
   "t": "1504-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -49,9 +53,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Soba'nın düşüşü ~1504 kabaca. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Welsby 2002; Cambridge History of Africa II]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Alodia (en.wikipedia.org/wiki/Alodia); atıflar: Welsby 2002, Zarroug 1991, Werner 2013, Edwards 2004, Adams 1977, O'Fahey & Spaulding 1974, Vantini 1975, Łajtar 2003",
+   "TDV İslâm Ansiklopedisi, \"Nûbe\" — Alve/Sûbâ anılır (yalnız varlık)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Soba'nın düşüşü ~1504 kabaca. Sayfa: Kuş çöküşünden sonra ~350'de oluştu, 6. yy ortasında tamamlandı; ilk anılma 569 (Efesli Yuhanna); 580'de Longinus'un vaftiziyle Hristiyanlaşma; Soba'da 12. yy'dan itibaren gerileme, 1220 ve 13. yy sonu saldırıları. Çöküş tarihi kaynaklarda çelişir: Şendi geleneği 1509, Funj Chronicle ~1396-1494, Tabaqat Dayfallah 1504-05 Funj saldırısı; modern görüş çoğunlukla Abdallab Arapları. Sayfa Alodia'nın 12. yy'da çöktüğü iddiasını bir \"ani çöküş\" olarak değil, Soba arkeolojisinin gerilemesi olarak verir. Funj 1504'te kuruldu. al-Abwab 1268/9'dan beri bağımsız (ayrı kayıt). Taslak f=0550. [taslak f değeri: 0550-01-01]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "nube",
@@ -63,13 +70,13 @@
   "ad": "Beja Krallıkları (Hadariba/Baqlin vb.)",
   "tur": "krallik",
   "bolge": "misir-sudan",
-  "f": "0600-01-01",
-  "t": "1300-01-01",
+  "f": "0800-01-01",
+  "t": null,
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yuzyil"
+   "t": "belirsiz"
   },
-  "baskent": "Suakin / Hajar",
+  "baskent": "belirsiz (birimler arası farklı)",
   "etkin_bolge": "Doğu Sudan, Kızıldeniz tepeleri",
   "sehirler": [
    "Suakin",
@@ -79,9 +86,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Çoklu birim; yalnız belgelenen alınmalı. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): TDV Beja; Encyclopaedia of Islam]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Beja kingdoms (en.wikipedia.org/wiki/Beja_kingdoms); atıflar: al-Yaqubi (Ibn Wāḍiḥ al-Yaʿqūbī, çev. 2018, Brill), J. S. Trimingham Islam in Ethiopia, Sudan Notes and Records 31/1 (1950), Smidt 2011",
+   "A. Paul, A History of the Beja Tribes of the Sudan (Cambridge, 1954) — yalnız içindekiler tablosu görüldü, okunmadı"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Çoklu birim; yalnız belgelenen alınmalı. Vikipedi altı krallık sayar (Nagash, Tankish, Belgin, Bazin, Jarin, Qita'a); başka sayfalar Naqis, Baqlin, Bazin, Jarin/Erin/Bus, Qat'a diyerek 5-6 sayar. Hepsi büyük ölçüde el-Yaʿqūbī (9. yy) anlatımına dayanır ve Vikipedi sayfaları birbirinden türemiştir — bağımsız teyit yok. Sayfada tek tek başlangıç/bitiş yok; \"yaklaşık 600 yıl sonra Belew krallığı\" ile yer değişir. Eritre ovalarından Asvan'a uzanır. Taslak f=0600, t=1300; t=1300 desteklenmedi (null). Aşağıdaki 5 alt birim ayrı kayıt olarak eklenmiştir; ana oturum üst kayıt mı alt kayıtlar mı kalacak karar versin. [taslak f değeri: 0600-01-01; taslak t değeri: 1300-01-01]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -96,7 +106,7 @@
   "f": "0975-01-01",
   "t": "1505-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Kilwa Kisiwani",
@@ -109,44 +119,244 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut f=1000, gelenek 975 (fark ~25). [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Chittick 1974; TDV Kilve]",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Kilve\" (islamansiklopedisi.org.tr/kilve) — bu oturumda okundu",
+   "N. Chittick, \"The 'Shirazi' Colonization of East Africa\", Journal of African History 6/3 (1965) — Cambridge Core özeti okundu (doi:10.1017/S0021853700005806)",
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Kilwa Sultanate (atıflar: Chittick 1974, Freeman-Grenville 1962, Pouwels 1978)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Mevcut f=1000, gelenek 975 (fark ~25). TDV: Şîraz emîri Hüseyin b. Ali oğlu Ali b. Hüseyin'i Kilve'ye 975'te gönderdi; oğlu Ali Mafia'yı aldı; Dâvûd b. Süleyman (1130-1170) Sofala'yı aldı; Şîrâzî hanedan 13. yy'a dek Şiî; 14. yy'da Ebü'l-Mevâhib Hasan b. Tâlût (Yemen kökenli) yeni hanedan; Almeida 1505'te adayı aldı, 1513'te harap etti. Seçim: TDV esas (975). Çelişki: Chittick 1965 ilk Şirazi hükümdarını ~MS 1200'e indirir (Ali b. el-Hasan sikkeleri), 8.-9. yy'dan beri erken yerleşimler (başlangıçta pagan) ve ~1100'e kadar kıyıda birkaç Müslüman kasaba olduğunu söyler; 13.-14. yy dönüşünde hanedan değişimi (Mahdali ~1277-1291, Vikipedi 1277). Vikipedi bilgi kutusu 957-1513. Arama özeti (Mtambe Mkuu define) 11. yy'da Şirazi hanedanını destekler (doğrudan okunmadı). Taslak f=0975 TDV ile doğrulandı.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "kilva-sultanligi",
-   "not": ""
+   "not": "Atlas f=1000, TDV 975 (fark 25 yıl); Chittick ~1200."
   }
  },
  {
-  "id": "zenc-kiyi",
-  "ad": "Zenc Kıyı Şehirleri (Mogadişu-Kilwa-Sofala öncesi)",
-  "tur": "sehir-devleti",
+  "id": "beja-bazin",
+  "ad": "Bazin Krallığı (Beja)",
+  "tur": "krallik",
   "bolge": "dogu-afrika",
   "f": "0800-01-01",
-  "t": "1000-01-01",
+  "t": null,
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yuzyil"
+   "t": "belirsiz"
   },
   "baskent": "belirsiz",
-  "etkin_bolge": "Doğu Afrika kıyısı",
+  "etkin_bolge": "Eritre ovaları (Kunama nüfus); Gaş-Barka çevresi",
   "sehirler": [
-   "Mogadişu",
-   "Kilwa",
-   "Sofala"
+   "Bazin"
   ],
-  "ozet": "9.-10. yy Arap-Fars kaynaklarında Zenc kıyısı ticaret şehirleri.",
+  "ozet": "Beja ülkesinde el-Yakûbî'nin (9. yy) anlattığı Beja krallıklarından biri.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Beja kingdoms (en.wikipedia.org/wiki/Beja_kingdoms) ve ilgili Kingdom of Jarin/Bazin/Belgin maddeleri (arama özeti); asıl kaynak al-Yaʿqūbī 9. yy (okunmadı)"
+  ],
   "dogrulama": "taslak",
-  "ic_not": "Siyasî birlik belirsiz; Zanj isyanı Irak'taki ayrı olay. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Encyclopaedia of Islam Zandj; Chittick 1974]",
+  "ic_not": "Yalnız Vikipedi sayfaları (birbirinden türemiş) ve arama özetleri okundu; akademik kaynak doğrudan açılmadı → taslak. f: \"9. yy'da kayda geçti\" (kuruluş değil ilk anılma); t yok. Vikipedi: Kunama halkı Bazin sayılır; Habeş himayesi iddiası dubious işaretli. beja-krallik üst kaydıyla çakışır; ana oturum karar versin.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": ""
-  }
+  },
+  "ad_yerel": null
+ },
+ {
+  "id": "beja-jarin",
+  "ad": "Jarin Krallığı (Beja)",
+  "tur": "krallik",
+  "bolge": "dogu-afrika",
+  "f": "0800-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Gaş-Barka ile Massawa arası",
+  "sehirler": [
+   "Jarin"
+  ],
+  "ozet": "Beja ülkesinde el-Yakûbî'nin (9. yy) anlattığı Beja krallıklarından biri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Beja kingdoms (en.wikipedia.org/wiki/Beja_kingdoms) ve ilgili Kingdom of Jarin/Bazin/Belgin maddeleri (arama özeti); asıl kaynak al-Yaʿqūbī 9. yy (okunmadı)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yalnız Vikipedi sayfaları (birbirinden türemiş) ve arama özetleri okundu; akademik kaynak doğrudan açılmadı → taslak. f: \"9. yy'da kayda geçti\" (kuruluş değil ilk anılma); t yok. Müslüman Araplar ticaret için uğrar (Yakubi). beja-krallik üst kaydıyla çakışır; ana oturum karar versin.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "ad_yerel": null
+ },
+ {
+  "id": "beja-baqlin",
+  "ad": "Baqlin (Belgin/Baqulin) Krallığı (Beja)",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "0800-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Asvan ile Massawa arası",
+  "sehirler": [
+   "Baqlin"
+  ],
+  "ozet": "Beja ülkesinde el-Yakûbî'nin (9. yy) anlattığı Beja krallıklarından biri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Beja kingdoms (en.wikipedia.org/wiki/Beja_kingdoms) ve ilgili Kingdom of Jarin/Bazin/Belgin maddeleri (arama özeti); asıl kaynak al-Yaʿqūbī 9. yy (okunmadı)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yalnız Vikipedi sayfaları (birbirinden türemiş) ve arama özetleri okundu; akademik kaynak doğrudan açılmadı → taslak. f: \"9. yy'da kayda geçti\" (kuruluş değil ilk anılma); t yok. İkili (dualist) din iddiası zayıf kaynaklı (2004 İslam arkeolojisi kitabı). beja-krallik üst kaydıyla çakışır; ana oturum karar versin.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "ad_yerel": null
+ },
+ {
+  "id": "beja-nagash",
+  "ad": "Nagash/Naqis Krallığı (Beja)",
+  "tur": "krallik",
+  "bolge": "dogu-afrika",
+  "f": "0800-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Beja ülkesinin güney kesimi; güneyde Hristiyan Najashi krallığı",
+  "sehirler": [
+   "Nagash"
+  ],
+  "ozet": "Beja ülkesinde el-Yakûbî'nin (9. yy) anlattığı Beja krallıklarından biri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Beja kingdoms (en.wikipedia.org/wiki/Beja_kingdoms) ve ilgili Kingdom of Jarin/Bazin/Belgin maddeleri (arama özeti); asıl kaynak al-Yaʿqūbī 9. yy (okunmadı)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yalnız Vikipedi sayfaları (birbirinden türemiş) ve arama özetleri okundu; akademik kaynak doğrudan açılmadı → taslak. f: \"9. yy'da kayda geçti\" (kuruluş değil ilk anılma); t yok. Adlandırma kaynaklar arasında Naqis/Nagash olarak oynar. beja-krallik üst kaydıyla çakışır; ana oturum karar versin.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "ad_yerel": null
+ },
+ {
+  "id": "beja-qita",
+  "ad": "Qita'a (Qat'a) Krallığı (Beja)",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "0800-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Asvan yönünde kuzey uç",
+  "sehirler": [
+   "Qita'a"
+  ],
+  "ozet": "Beja ülkesinde el-Yakûbî'nin (9. yy) anlattığı Beja krallıklarından biri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Beja kingdoms (en.wikipedia.org/wiki/Beja_kingdoms) ve ilgili Kingdom of Jarin/Bazin/Belgin maddeleri (arama özeti); asıl kaynak al-Yaʿqūbī 9. yy (okunmadı)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yalnız Vikipedi sayfaları (birbirinden türemiş) ve arama özetleri okundu; akademik kaynak doğrudan açılmadı → taslak. f: \"9. yy'da kayda geçti\" (kuruluş değil ilk anılma); t yok. Her sayımda yok; Vikipedi altı krallık listesine alır. beja-krallik üst kaydıyla çakışır; ana oturum karar versin.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "ad_yerel": null
+ },
+ {
+  "id": "mogadisu-erken",
+  "ad": "Makdişu Erken Dönem Birliği (Mukri/Kahtânî öncesi sultanlık)",
+  "tur": "konfederasyon",
+  "bolge": "dogu-afrika",
+  "f": "0900-01-01",
+  "t": "1269-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Makdişu",
+  "etkin_bolge": "Benâdir kıyısı",
+  "sehirler": [
+   "Makdişu"
+  ],
+  "ozet": "TDV: 10. yy'da Mukri vb. 39 küçük grubun birliği ortak idare kurdu; 13. yy'da Ebû Bekir b. Fahreddin sultanlığı.",
+  "oncul": [],
+  "ardil": [
+   "makdisu-sultanligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Makdişu\" (islamansiklopedisi.org.tr/makdisu) — bu oturumda okundu",
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Sultanate of Mogadishu (atıflar: Lewis, Cerulli, Oliver 1975, Cuoq 1981; Yâkût ~1220, İbn Saîd)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV: kuruluş belirsiz (Abdülmelik b. Mervan 685-705 rivayeti; João de Barros 887); genel kabul 10. yy Lahsa Arapları + Şîraz/Nişabur göçmenleri. 10. yy'da Mukri, Cid'ati, Akabi, İsmâilî, Afîfî kabileleri 39 grubun birliğini kurdu ve ortak idare oluşturdu; 12. yy'da ticaret merkezi; 636/1238, 667/1268, 667/1269 cami yazıtları. Atlas makdisu-sultanligi 1269'da başlıyor; bu kayıt ondan önceki dönemi kapsar. \"Polity\" olarak 10. yy birliğinin devlet niteliği tartışmalı (Vikipedi: Somali toplulukları ve yerel liderlik).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Ardıl: makdisu-sultanligi (1269)."
+  },
+  "ad_yerel": null
+ },
+ {
+  "id": "sofala-sehir-devleti",
+  "ad": "Sofala Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "guney-afrika",
+  "f": "0900-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Sofala",
+  "etkin_bolge": "Mozambik kıyısı, altın ticareti",
+  "sehirler": [
+   "Sofala"
+  ],
+  "ozet": "Mogadişulu tüccarların altın için uğradığı Svahili liman şehri; Kilwa'ya bağlanır.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Sofala (en.wikipedia.org/wiki/Sofala), arama özeti: 10. yy'da Hint Okyanusu ticaretine katıldığı; Kilwa 1180'lerde (Vikipedi) ya da Dâvûd b. Süleyman (1130-1170, TDV Kilve)'da Sofala'yı aldı"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yalnız Vikipedi okundu. f: \"10. yy\" bilgi Vikipedi; polity niteliği belirsiz. t yok (özerkliğini sürdürerek Kilwa'ya haraç/bağlılık). Kilwa Sofala'yı Süleyman Hasan döneminde (1180'ler, Vikipedi) ya da Dâvûd b. Süleyman 1130-1170 (TDV Kilve) aldı — çelişki. Atlas kilva-sultanligi içinde kalabilir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "ad_yerel": null
  }
 ]

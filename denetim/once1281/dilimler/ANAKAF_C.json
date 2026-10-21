@@ -268,8 +268,8 @@
   "ad": "Lazika (Egrisi) Krallığı",
   "tur": "krallik",
   "bolge": "kafkasya",
-  "f": "0100-01-01",
-  "t": "0697-01-01",
+  "f": "0201-01-01",
+  "t": "0701-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yuzyil"
@@ -289,10 +289,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+   "TDV İslâm Ansiklopedisi, \"Lazlar\" maddesi (islamansiklopedisi.org.tr/lazlar, okundu): III-IV. yy'da eski Kolhis topraklarında Lazika krallığı; 562'de Sâsânîler çekilir; VIII. yy'ın ilk yarısında Abhaz Krallığı Lazika'yı ilhak eder."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "f yaklaşık (1–2. yy). t Arap/Abhaz kontrolü, kaynağa göre değişir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f yaklaşık (1–2. yy). t Arap/Abhaz kontrolü, kaynağa göre değişir. | taslak f=0100, t=0697 (en.wikipedia infobox; Lazika 131'de Kolkhis'ten ayrıldı, 697 son). TDV yüzyıl veriyor → f III. yy başı (201), t VIII. yy başı (701) kesinlik yuzyil. Lazik Savaşı 541-562 (Prokopios/Agathias).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -304,10 +304,10 @@
   "ad": "İberya (Kartli) Krallığı",
   "tur": "krallik",
   "bolge": "kafkasya",
-  "f": "-0297-01-01",
+  "f": "-0301-01-01",
   "t": "0580-01-01",
   "kesinlik": {
-   "f": "yil",
+   "f": "onyil",
    "t": "yil"
   },
   "baskent": "Mtsketa",
@@ -324,10 +324,12 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+   "TDV İslâm Ansiklopedisi, \"Gürcüler\" maddesi (okundu): Kolhis ve İberya MÖ IV. yy'da kuruldu.",
+   "Encyclopaedia Iranica, \"Iberia\" (iranicaonline.org/?p=10188) — sayfa 403 verdi; yalnız arama özeti okundu: Pharnavaz ilk kral, krallığı VI. yy'da Sâsânîler kaldırdı.",
+   "Vikipedi yalnız aracı (dayanak değil): Rapp 2003, Studies in Medieval Georgian Historiography, Peeters, s.141-142, 275."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler Kartlis Tskhovreba geleneğine göre yaklaşık; Sasani/Bizans 580'de krallığı kaldırdı.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler Kartlis Tskhovreba geleneğine göre yaklaşık; Sasani/Bizans 580'de krallığı kaldırdı. | taslak f=-0297 → Pharnavaz c.302 MÖ (-0301) (Wikipedia infobox, atıfsız) ve TDV IV. yy ile uyumlu. t=580: Hormizd IV, Bakur III ölümü sonrası marzpanlık (Wikipedia, atıfsız; Iranica özeti VI. yy). Hanedanlar: Pharnavaz, Artaksiad, Arsakid, Hosroid.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -359,14 +361,106 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+   "TDV İslâm Ansiklopedisi, \"Arrân\" maddesi (islamansiklopedisi.org.tr/arran, okundu): Kafkas Albaniası merkezi III. yy'a kadar Kabele, VI. yy'da Berdea; Mihrânîler (Arrânşah) Sâsânî soyundan; Arap fethi Berdea 24/645; Mihrânî yönetimi 822-823'te sona erdi.",
+   "Vikipedi yalnız aracı (dayanak değil): en.wikipedia Caucasian Albania; atıf: Hewsen 2001 Armenia: A Historical Atlas; Bosworth/Minorsky EI2."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Siyasî birliği ve f çok yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Siyasî birliği ve f çok yaklaşık. | f=-0298 desteklenmedi: Wikipedia MÖ 2.-1. yy der (taslak değer duruyor, düzeltilecek). Sâsânî egemenliği 252-253'ten. t=705 taslak; TDV'ye göre Arrân Mihrânî prensleriyle 822-823'e dek özerk (haraçla) kaldı — mihranid-gardman ile örtüşme: bu kayıt Arsakid krallar, Mihrânîler ayrı kayıtta.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": ""
   }
+ },
+ {
+  "ad_yerel": null,
+  "tur": "krallik",
+  "bolge": "kafkasya",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "",
+  "etkin_bolge": "Kuzey Dağıstan",
+  "sehirler": [],
+  "ozet": "682'de Albanya piskoposu Israel'in Hıristiyanlaştırma heyeti Alp İlitver ile görüştü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi yalnız aracı (dayanak değil): North Caucasian Huns / Sabir people sayfaları; birincil: Movses Kalankatuatsi (Albanya Tarihi)."
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Polity niteliği ve tarihleri doğrulanmadı; Hazar bağımlısı olabilir (elteber). Yalnız 682 tanıklığı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "id": "kafkas-hun-krallik",
+  "ad": "Kafkas Hunları (Alp İlitver) Krallığı"
+ },
+ {
+  "ad_yerel": null,
+  "tur": "konfederasyon",
+  "bolge": "kafkasya",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "",
+  "etkin_bolge": "Kuzey Kafkasya, Derbent geçidi",
+  "sehirler": [],
+  "ozet": "516'da Derbent geçidinden Anadolu'ya akın; VI. yy sonunda Avarlar yıktı. Bizans/Sasani paralı gücü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi yalnız aracı (dayanak değil): Sabir people sayfası."
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Etnik birlik mi siyasî birim mi belirsiz. Sarir kaydıyla ilişkisi araştırılmalı. Akademik kaynak açılmadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "id": "sabir-birligi",
+  "ad": "Sabir (Savir) Birliği",
+  "f": null,
+  "t": "0599-01-01"
+ },
+ {
+  "ad_yerel": "Տարօն",
+  "tur": "prenslik",
+  "bolge": "anadolu",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Muş / Glak",
+  "etkin_bolge": "Muş ovası, Taron",
+  "sehirler": [
+   "Muş",
+   "Glak"
+  ],
+  "ozet": "Mamikonyanlardan Bagratunilere geçen Ermeni prensliği; Aşot III ölünce oğulları Bizans'a bıraktı (Taronitai).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi yalnız aracı (dayanak değil): Taron (historic Armenia), Ashot III of Taron; Hewsen 2001 Armenia: A Historical Atlas (araç atfı)."
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t: 966 (çoğu kaynak) / 967 yaz sonu-sonbahar (Aşot III ölümü). f bilinmiyor. Mevcut ani-bagratli-kralligi başka kol.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Ani Bagratlıları ayrı"
+  },
+  "id": "taron-bagratuni",
+  "ad": "Taron Bagratuni Prensliği",
+  "f": null,
+  "t": "0967-01-01"
  }
 ]

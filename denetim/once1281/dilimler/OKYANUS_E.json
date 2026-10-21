@@ -19,13 +19,16 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Nan Madol inşası MS ~1180-1200 (Ayres/Athens), bitiş tarihi tartışmalı. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): Athens 1990 Nan Madol; Ayres 1990.",
+  "kaynak": [
+   "McCoy, M. D. et al. 2016, Nan Madol uranium-seri mercan tarihlemesi, PNAS (Vikipedi/ScienceDaily özetleri: 1180'de megalit taşıma, 1200 ilk gömü)",
+   "Bath & Athens 1990, Micronesica Suppl. 2: 187-212 ve Ayres 1990, Micronesica Suppl. 2: 275-290 (atıf Vikipedi 'Nan Madol' üzerinden; son ~1628)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak f 1180 desteklendi (megalit inşa başı ~1180; adacık inşası 8.-9. yy'a gider). Son 1628: Isokelekel fethi, Bath-Athens/Ayres'e göre (efsane 1500'ler). UNESCO belge: inşa 1200-1500. Mevcut künye f=1100.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "saudeleur",
-   "not": "Mevcut künye f=1100; kaynak ~1180 (80 yıl fark)."
+   "not": "Künye f=1100; kaynak ~1180 (80 yıl fark). Dinastik kuruluş geleneksel olarak daha eskidir."
   }
  },
  {
@@ -49,9 +52,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
+  "kaynak": [
+   "Lessa, W. 1950, Yap-Ulithi-Woleai etki alanı etnografyası (özet)",
+   "Descantes, C., Integrating Archaeology and Ethnohistory: The Development of Exchange between Yap and Ulithi, BAR (inceleme: Asian Perspectives, doi:10.1353/asi.2006.0017)"
+  ],
   "dogrulama": "taslak",
-  "ic_not": "Yıl bilinmiyor; MS 1280 öncesi olduğu doğrulanmadı (belki sonrası). Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "ic_not": "Yıl bilinmiyor; kaynak taramasında sawei'nin başlangıç tarihi bulunamadı (Descantes'te Mogmog radyokarbon dizisi var, tam metin okunmadı). Yerel kökenli. 1281 öncesi olduğu doğrulanmadı; ana listeye alınmaması önerilir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -79,9 +85,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
+  "kaynak": [
+   "Liston, J., Palau Babeldaob 'Earthwork Era' (ANU doktora tezi: ~2400-1100 cal BP; özet)"
+  ],
   "dogrulama": "taslak",
-  "ic_not": "Yıl bilinmiyor. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "ic_not": "Yıl bilinmiyor. Babeldaob toprak işleri 'Earthwork Era' ≈ 2400-1100 cal BP (≈ MÖ 450-MS 850), sonra terkedildi; köy şefliklerinin siyasî birim tarihi bulunamadı. Radyokarbon uyarısı: lignit kirliliği (Anderson et al.).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -93,10 +101,10 @@
   "ad": "Taputapuatea (Raiatea) Dinî-Siyasî Merkezi",
   "tur": "seflikler",
   "bolge": "okyanusya",
-  "f": "1025-01-01",
+  "f": null,
   "t": null,
   "kesinlik": {
-   "f": "onyil",
+   "f": "belirsiz",
    "t": "belirsiz"
   },
   "baskent": "Opoa",
@@ -108,9 +116,13 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut Tahiti künyesine ilişkili; marae tarihi UNESCO'da MS ~1000-1100 sonrası. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): UNESCO WHC 1529 Taputapuatea.",
+  "kaynak": [
+   "Handy; IRD belgesi 00971 (horizon.documentation.ird.fr): kuruluş 6.-7. yy (25 yıl/kuşak) ya da ≈1000 (15 yıl/kuşak)",
+   "Journal de la Société des Océanistes 149 (2019) (oceanrep.geomar.de): mercan mikroatol 3-5 bin yıllık, yapı 17.-18. yy",
+   "worldheritagesite.org/list/id/1529: yapım 14.-18. yy, en az iki evre"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak f 1025 DESTEKLENMEDİ: kuruluş tarihleri 6.-7. yy ile 18. yy arasında değişiyor; hesaba dayalı ~1000 soy sayımı varsayımı. Bu yüzden f=null. UNESCO WHC 1529 403 verdi.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "tahiti",
@@ -138,9 +150,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
+  "kaynak": [
+   "Vikipedi 'Tui Manuʻa', 'Tafaʻifa', 'Manuʻa Islands' (yalnız aday; akademik kaynak bulunamadı)"
+  ],
   "dogrulama": "taslak",
-  "ic_not": "Yıl bilinmiyor; Tonga egemenliği gelenekte ~MS 1200-1250. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "ic_not": "Yıl bilinmiyor. Gelenek: Tuʻi Manuʻa en eski unvan; Tonga egemenliği ~10.-13. yy sonra bağımsızlaşma 13. yy (Tafaʻifa maddesi), ama Manuʻa maddesi Manuʻa'nın Tonga'ya hiç tâbi olmadığını söyler: çelişki. Akademik kaynak okunamadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -168,9 +182,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
+  "kaynak": [
+   "Field, J. S., Antiquity: 'Land tenure, competition and ecology in Fijian prehistory' (özet)",
+   "Robb & Nunn 2012, J. Island & Coastal Archaeology (Vatia, ring-wall; özet)"
+  ],
   "dogrulama": "taslak",
-  "ic_not": "Yıl bilinmiyor. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "ic_not": "Yıl bilinmiyor. Sigatoka'da dağ kaleleri ~MS 500'e bağlanıyor (Field); Bau/Lau/Rewa polity tarihine dair 1281 öncesi kaynak bulunamadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -198,42 +215,16 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
+  "kaynak": [
+   "Allen, M. S. 2014, Journal of Pacific Archaeology (özet: yerleşim 11.-13. yy, olası 10.-11.)",
+   "Allen & McAlister 2013, J. Pacific Archaeology (Hatiheu: kullanım geç 13.-geç 14. yy)"
+  ],
   "dogrulama": "taslak",
-  "ic_not": "Yıl bilinmiyor. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "ic_not": "Yıl bilinmiyor. Yerleşim ≈ MS 900-1300; Hatiheu'da tohua kompleksleri 13.-14. yy'dan sonra. Vadi şefliklerinin siyasî birim olarak 1281 öncesi varlığı doğrulanamadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": ""
-  }
- },
- {
-  "id": "aotearoa-maori-oncesi",
-  "ad": "Aotearoa Erken Māori Yerleşimi",
-  "tur": "kultur",
-  "bolge": "okyanusya",
-  "f": "1250-01-01",
-  "t": null,
-  "kesinlik": {
-   "f": "onyil",
-   "t": "belirsiz"
-  },
-  "baskent": "yok",
-  "etkin_bolge": "Yeni Zelanda",
-  "sehirler": [
-   "Wairau Bar"
-  ],
-  "ozet": "Moa avcısı erken dönem; iwi/hapū siyasî yapıları sonrası.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Yerleşim MS ~1230-1280 (Wilmshurst 2011) kabaca; siyasî birim değil. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "ILISKILI (kültür)."
   }
  },
  {
@@ -256,9 +247,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Yerleşim MS ~1000-1200. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "kaynak": [
+   "Wilmshurst et al. 2011, PNAS 108(5): 1815-1820 (özet: Doğu Polinezya pulsu 1190-1293)",
+   "'When Did the Polynesians Settle Hawaiʻi? A Review of 150 Years of Scholarly Inquiry and a Tentative Answer' (özet: MS 1000-1200; Bayes: 940-1130 / 1000-1210)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Yerleşim 1000-1200 (az dayanak: tek güvenli yerleşim O18 Waimānalo). Siyasî şeflik kuruluşu yerleşimden sonradır; f=1190 Wilmshurst darbesinin başıdır, siyasî birim başlangıcı değil. Birleşme: Kamehameha 1795 (mevcut künye) kaynakta doğrulanmadı. Hawai'i adası birleşmesi Umi-a-Liloa (tarih bulunamadı).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "hawaii-seflikleri",
@@ -285,9 +279,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Yerleşim ~800-1200 tartışmalı. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "kaynak": [
+   "Hunt & Lipo 2006, Science 'Late colonization of Easter Island' (Hawaii Üniv. haberi: ~1200)",
+   "Wilmshurst et al. 2011, PNAS 108(5): 1815-1820 (1190-1290)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f 1200 desteklendi (alternatif: obsidiyen/nişasta tarihi >=1000 iddiası, doğrulanmadı). t 1888-09-09 (Şili ilhakı) kaynakta doğrulanmadı. Siyasî şeflik başlangıcı yerleşimden sonradır.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "rapa-nui",

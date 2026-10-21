@@ -1,12 +1,12 @@
 [
  {
   "id": "gerrha",
-  "ad": "Cerha (Gerrha) Krallıgi",
+  "ad": "Gerrha Krallığı (Cerha)",
   "ad_yerel": "Gerrha",
   "tur": "sehir-devleti",
   "bolge": "arabistan",
-  "f": "-0399-01-01",
-  "t": "0100-01-01",
+  "f": "-0649-01-01",
+  "t": "0299-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yuzyil"
@@ -16,15 +16,15 @@
   "sehirler": [
    "Gerrha"
   ],
-  "ozet": "Basra Korfezi Arap kiyisinda ticaret merkezi; III. Antiochos MO 205te sefer etti, daha sonra Hadramavt ve Kharaks ile rekabet etti.",
+  "ozet": "Basra Körfezi Arap kıyısında ticaret merkezi; III. Antiokhos MÖ 205'te sefer etti (Polybios); MS c. 300 civarı Sasani ilhakı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Gerrha', 21.10.2026 okundu; dipnotlar: Potts 1990 The Arabian Gulf in Antiquity; Potts 1984 'Thaj and the Location of Gerrha'; Hoyland 2002; Robin 2013 (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Konumu tartismali (Thaj?); sona erme tarihi yuzyil duzeyi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Madde: krallık c. MÖ 650'de kuruldu (kaynaksız), c. MS 300'de Sasani ilhakı. Konum tartışmalı: Hajar (Hofuf, al-Ahsa) en yaygın; Thaj; Bahreyn. Karmatiler 9. yy sonu. taslak değeri f=-0399,t=0100 değiştirildi. [Önceki taslak notu: Konumu tartismali (Thaj?); sona erme tarihi yuzyil duzeyi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -33,7 +33,7 @@
  },
  {
   "id": "fenike-ozerk-sehirleri",
-  "ad": "Fenike Ozerk Sehirleri (Helenistik-Roma)",
+  "ad": "Fenike Özerk Şehirleri (Helenistik-Roma)",
   "ad_yerel": null,
   "tur": "sehir-devleti",
   "bolge": "suriye-filistin",
@@ -50,15 +50,16 @@
    "Tire",
    "Sayda"
   ],
-  "ozet": "Selevkos doneminde sehirler sirasiyla ozerklik kazandi (Arvad ~MO 259, Tire MO 126, Sayda MO 111); Pompeius duzenlemesiyle Roma eyaleti Suriye'ye baglandi.",
+  "ozet": "Selevkos döneminde şehirler özgür/özerk statü kazandı (Arvad MÖ 259); Pompeius düzenlemesiyle Roma Suriye eyaletine bağlandı; Arvad özgürlüğü MÖ 34-35'e dek sürdü.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Arwad', 21.10.2026 okundu: MÖ 259 özgür şehir (Antiochus II), MÖ 38 Antonius kuşatması, MÖ 34-35 özgürlük kaybı",
+   "Vikipedi (aracı) 'Sidon', 21.10.2026 okundu: Diadokhlar döneminde 'göreli özerklik'"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Ozerklik tarihleri sikke ara'lariyla (era) degil kronikle; hepsi okunmadi. Yalnizca taslak.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tire MÖ 126 ve Sayda MÖ 111 özerklik tarihleri maddelerde teyit edilemedi (taslak, hafıza). t=-0062 Pompeius (MÖ 63-62); Arvad için t=MÖ 34-35'tir. Üç ayrı polity olarak yazmak daha doğru olabilir. [Önceki taslak notu: Ozerklik tarihleri sikke ara'lariyla (era) degil kronikle; hepsi okunmadi. Yalnizca taslak.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -67,31 +68,31 @@
  },
  {
   "id": "iturya",
-  "ad": "Iturya (Itureans) Krallıgi",
+  "ad": "Itureia (İturealılar) Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
   "f": "-0099-01-01",
-  "t": "0092-01-01",
+  "t": "0049-01-01",
   "kesinlik": {
    "f": "onyil",
    "t": "yil"
   },
-  "baskent": "Kalkis (Chalcis ad Libanum)",
+  "baskent": "Kalkis (Chalcis ad Libanum?)",
   "etkin_bolge": null,
   "sehirler": [
    "Kalkis",
    "Heliopolis (Baalbek)"
   ],
-  "ozet": "Lubnan ve Anti-Lubnan dağlarında Itureli Arap-Aramî kökenli prenslik; Hasmoni ve Roma ile mücadeleyle sonunda Chalcis krallıgi olarak Agrippa II ile bitti.",
+  "ozet": "Lübnan ve Anti-Lübnan'da Itureli (Arap-Arami) prensliği; Ptolemaios b. Mennaios (c. MÖ 87/85-40) zamanında krallık; Hasmoni, Roma ve Herodes tarafından ilhak edildi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Itureans', 21.10.2026 okundu; dipnotlar: Myers 2010 The Ituraeans and the Roman Near East (CUP); Schaller 1979 'Ituraea' Der Kleine Pauly; Wright 2013 Numismatic Chronicle 173 (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Baslangic tarihi Hasmoni fetihleri ~MO 100; Chalcis krallari MS 92ye (Agrippa II) kadar.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Zaman çizelgesi: MÖ 104/103 Aristobulos I Itureia'nın bir kısmını Hasmoni'ye kattı; c. MÖ 87/85-40 Ptolemaios b. Mennaios; c. MÖ 40 oğlu Lysanias; c. MÖ 23 Zenodoros; c. MÖ 20 Herodes; MS 38 Soemus; MS 49 Suriye eyaletine. taslak değeri t=0092 (Agrippa II, Chalcis) madde çizelgesinde yok; ic_not'ta alternatif. Chalcis adlı yerin konumu belirsiz. [Önceki taslak notu: Baslangic tarihi Hasmoni fetihleri ~MO 100; Chalcis krallari MS 92ye (Agrippa II) kadar.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -100,14 +101,14 @@
  },
  {
   "id": "emesa",
-  "ad": "Emesa (Hims) Krallıgi",
+  "ad": "Emesa (Hims) Krallığı",
   "ad_yerel": null,
   "tur": "vasal-krallik",
   "bolge": "suriye-filistin",
-  "f": "-0089-01-01",
+  "f": "-0063-01-01",
   "t": "0078-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Emesa (Hims)",
@@ -116,15 +117,15 @@
    "Hims",
    "Arethusa"
   ],
-  "ozet": "Sampsigeramos hanedanı; Roma vasali, Baal (Elagabal) tapınağı; Sohaemus ve Iamblichus kral soyu Flavyuslar doneminde sona erdi.",
+  "ozet": "Sampsigeramos hanedanı; Roma vasalı Emesa krallığı; Baal (Elagabal) tapınağı; kral Sohaemus MS 73'te öldü.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Emesene dynasty', 21.10.2026 okundu (Sampsiceramus I 64-48, Iamblichus I 48-31, ara 30-20, Iamblichus II 20 MÖ-14, Sampsiceramus II 14-42, Azizus 42-54, Sohaemus 54-73, Alexion 73-78); dipnotlar sayfada ayrıntılı değil"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bitis tarihi yaklasik (Domitian/Vespasian doneminde); okunmadi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Krallığın sonu: infobox 'MS 72-78/79, en geç 161'; metin 'büyük olasılıkla Sohaemus'un 78'deki ölümünden sonra Suriye eyaletine'. Hanedan rahip-kral olarak en az MS 254'e dek (Uranius Antoninus). MÖ 30-20 ara dönem. taslak değeri f=-0089 değiştirildi. [Önceki taslak notu: Bitis tarihi yaklasik (Domitian/Vespasian doneminde); okunmadi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -133,7 +134,7 @@
  },
  {
   "id": "abilene",
-  "ad": "Abilene Tetrarsisi",
+  "ad": "Abilene Tetrarşisi",
   "ad_yerel": null,
   "tur": "prenslik",
   "bolge": "suriye-filistin",
@@ -153,45 +154,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Web araması (Biblical Training, Insight vb. ikincil kaynak özetleri), 21.10.2026: Abilene Agrippa I'e MS 37, sonra prokürator, Agrippa II'ye c. MS 53; iki Lysanias (Chalcis kralı c. MÖ 36'da idam; Luka 3:1 tetrarşı) ayrımı; akademik sayfa açılmadı"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tum taslak.",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": ""
-  }
- },
- {
-  "id": "dekapolis",
-  "ad": "Dekapolis (On Sehir Birligi)",
-  "ad_yerel": null,
-  "tur": "konfederasyon",
-  "bolge": "suriye-filistin",
-  "f": "-0062-01-01",
-  "t": "0200-01-01",
-  "kesinlik": {
-   "f": "yil",
-   "t": "yuzyil"
-  },
-  "baskent": "belirsiz (cok merkezli)",
-  "etkin_bolge": null,
-  "sehirler": [
-   "Gerasa",
-   "Filadelfiya (Amman)",
-   "Gadara",
-   "Skythopolis"
-  ],
-  "ozet": "Pompeius'tan sonra Suriye ve Urdun'un helenistik on sehrinin gevsek ittifaki; Roma eyalet duzenlemesine kadar ortak sikke/yönetim.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
-  ],
-  "dogrulama": "taslak",
-  "ic_not": "Siyasal birim mi cografi ad mi tartismali.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç tarihi (taslak -0039) kaynaktan doğrulanmadı; tetrarşi Lysanias'ın Luka 3:1 (c. MS 28-29) çağında anılıyor, yıl bilinmiyor. t: Agrippa II'ye c. MS 53 (birden çok ikincil kaynak) teyit edildi. Polity ayrı olmayıp Chalcis/Itureia kökenli parçadır. [Önceki taslak notu: Tum taslak.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -200,7 +166,7 @@
  },
  {
   "id": "bar-kohba",
-  "ad": "Bar Kohba Devleti (Israil)",
+  "ad": "Bar Kohba Devleti (İsrail Hürriyeti)",
   "ad_yerel": null,
   "tur": "devlet",
   "bolge": "suriye-filistin",
@@ -216,15 +182,15 @@
    "Urusalim?",
    "Betar"
   ],
-  "ozet": "Simon Bar Kohba onderliginde Hadrianus aleyhine Yahudi isyani; sikkelerde \"Israil'in ozgurlugu\"; Betar dusmesiyle (135) bitti.",
+  "ozet": "Şimon Bar Kohba'nın Hadrianus'a karşı Yahudiye isyanı; sikkelerde 'İsrail'in Kurtuluşu/Özgürlüğü'; Betar'ın düşüşüyle (135) bitti.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Bar Kokhba revolt', 21.10.2026 okundu: 132 (muhtemelen yaz) başlangıç, 132-135 ana evre, Betar 135; dipnotlar: Eck 1999; Mor 2016; Eshel 2006; Ravid & Zissu 2024; Smallwood 1976 (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Urusalim'i elinde tutup tutmadigi tartismali; gun duzeyi veri okunmadi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kudüs'ün elde tutulup tutulmadığı tartışmalı (IAA: isyancılar almadı, yalnız 4 sikke). Betar ay/gün maddede yok. Yönetim: nasi unvanı, rütbeli ordu, resmî ağırlıklar (parnas), Herodium karargâh. taslak değeri aynı. [Önceki taslak notu: Urusalim'i elinde tutup tutmadigi tartismali; gun duzeyi veri okunmadi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -233,7 +199,7 @@
  },
  {
   "id": "tenuh",
-  "ad": "Tenuh (Tanukh) Konfederasyonu",
+  "ad": "Tenûh (Tanûh) Konfederasyonu",
   "ad_yerel": null,
   "tur": "konfederasyon",
   "bolge": "suriye-filistin",
@@ -249,15 +215,16 @@
    "Hire civari",
    "Kinesrin"
   ],
-  "ozet": "Hire ve Suriye cevresinde Arap kabile konfederasyonu; Sasani ve Bizans arasinda foederati olarak kullanildi.",
+  "ozet": "Bahreyn'den gelen Arap kabilelerinin Hîre ve Suriye çevresinde kurduğu ittifak; Bizans-Sasani arasında tampon, Hıristiyan Bizans müttefiki; İslâm fetihleriyle dağıldı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "TDV İslâm Ansiklopedisi, 'Tenûh' maddesi (islamansiklopedisi.org.tr/tenuh), 21.10.2026 okundu: hilf (ittifak), Cezîme el-Ebraş, Hîre/Enbâr, Suriye, yaklaşık III.-VII. yy",
+   "Vikipedi (aracı) 'Tanukhids': 2. yy'dan itibaren Batlamyus 150; Umm al-Jimal 3. yy yazıtı Jadhima 'Tanukh kralı'; Mavia 370'ler; Shahid 2000 EI2 'Tanūkh' (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tum taslak; polity mi kabile mi belirsiz.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Polity mı kabile mi sorusu: TDV 'ittifak' (hilf) diyor, krallık değil. Önerilen tür konfederasyon; Emre kararı. Yüzyıl hassasiyeti; kesin f/t kaynakta yok. taslak değeri aynı (0200-0630). [Önceki taslak notu: Tum taslak; polity mi kabile mi belirsiz.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -266,32 +233,32 @@
  },
  {
   "id": "salihid",
-  "ad": "Salih (Salihid) Arap Krallıgi",
+  "ad": "Salîhîler (Banû Salîh / Zokomidler)",
   "ad_yerel": null,
   "tur": "kabile-kralligi",
   "bolge": "suriye-filistin",
   "f": "0380-01-01",
-  "t": "0500-01-01",
+  "t": "0502-01-01",
   "kesinlik": {
-   "f": "onyil",
-   "t": "onyil"
+   "f": "yuzyil",
+   "t": "yil"
   },
   "baskent": "belirsiz",
   "etkin_bolge": null,
   "sehirler": [
    "Suriye bozkırı"
   ],
-  "ozet": "Bizans foederati Arap krallıgi; Gassani yukselisiyle V. yuzyil sonunda yerini birakti.",
+  "ozet": "V. yüzyılda Bizans'ın başlıca Arap foederatileri; hanedan Zokomos/Dajaʿima; kral Davud; 502'de Gassânîler baskın foederati oldu.",
   "oncul": [],
   "ardil": [
    "gassani"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Salihids', 21.10.2026 okundu: 4.-6. yy, zirve c. 395-518, 502 Gassânîler baskın; Shahid 1989, 1995; Caskel 1966; Ball 2016 (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tum taslak; tarihler cok yaklasik.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kaynak azlığı: Sozomen, İbnü'l-Kelbî, İbn Habîb. Polity mi kabile konfederasyonu mu belirsiz. taslak değeri t=0500 -> 0502 ile uyumlu. [Önceki taslak notu: Tum taslak; tarihler cok yaklasik.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -300,7 +267,7 @@
  },
  {
   "id": "mekke-kureys",
-  "ad": "Mekke Kureys Sehir Yonetimi",
+  "ad": "Mekke Kureyş Şehir Yönetimi",
   "ad_yerel": null,
   "tur": "sehir-devleti",
   "bolge": "arabistan",
@@ -316,19 +283,58 @@
    "Mekke",
    "Taif"
   ],
-  "ozet": "Kusayy b. Kilab ile Kureys'in Mekke yonetimini ustlenmesi (Daru'n-nedve); Mekke'nin fethine (630) kadar kabile meclisi yonetimi.",
+  "ozet": "Kusay b. Kilâb ile Kureyş'in Mekke yönetimini (Hüzâa'dan) devralması; Dârünnedve; Mekke'nin fethine (630) dek kabile meclisi yönetimi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "TDV İslâm Ansiklopedisi, 'Kusay b. Kilâb' (islamansiklopedisi.org.tr/kusay-b-kilab), 21.10.2026 okundu: ö. yaklaşık 480; Kâbe anahtarları, Dârünnedve, Hüzâa'dan devralma",
+   "Vikipedi (aracı) 'Quraysh (tribe)': Hawting: Kusay'ın çocukları V. yy ikinci yarısı; Watt: Kusay ölümü VI. yy ikinci yarısı; Mekke'ye giriş 630"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Fetih tarihi 8 H Ramazan = ocak 630 (TDV/Islam Ans.); okunmadi, yil kesinligiyle yazildi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kusay'ın tarihi için TDV 'ö. yaklaşık 480' (Hawting uyumlu), Watt VI. yy ikinci yarısı. f=450 yuzyil hassasiyet, kesin değil. Fetih 20 Ramazan 8 H ≈ 11 Ocak 630 hafıza değeri; bu oturumda okunmadı, t yıl hassasiyetinde. [Önceki taslak notu: Fetih tarihi 8 H Ramazan = ocak 630 (TDV/Islam Ans.); okunmadi, yil kesinligiyle yazildi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": ""
+  }
+ },
+ {
+  "id": "tryphon-devleti",
+  "ad": "Diodotos Tryphon Devleti (Seleukos iç Suriye)",
+  "ad_yerel": null,
+  "tur": "krallik",
+  "bolge": "suriye-filistin",
+  "f": "-0141-01-01",
+  "t": "-0137-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Apameia / Khalkis",
+  "etkin_bolge": "İç Suriye, Antakya, Apameia, Larisa, Ptolemais, Dor",
+  "sehirler": [
+   "Apameia",
+   "Dor",
+   "Khalkis"
+  ],
+  "ozet": "Seleukos generali Diodotos, VI. Antiokhos ölümünden (MÖ 142/141) sonra ordunun seçimiyle 'Tryphon Autokrator' adıyla kral oldu; VII. Antiokhos'a yenilip 138'de öldü.",
+  "oncul": [
+   "selevkos"
+  ],
+  "ardil": [
+   "selevkos"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (aracı) 'Diodotus Tryphon', 21.10.2026 okundu: r. 142-138 BC, VI. Antiokhos ölümü 142/141 sonu, ölüm infobox 138; dipnotlar: Chrubasik 2016 Kings and Usurpers in the Seleukid Empire (OUP); Houghton 1992; Grainger 1997 A Seleukid Prosopography and Gazetteer (açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Selevkos hanedanı içi rakip kral; ayrı polity mi hanedan içi rekabet mi: elenme adayı (küçük). Başkent resmî değil (madde); Apameia/Dor/Khalkis. Ölüm yeri/tarih madde gövdesinde çelişkili (infobox 138, Antiokhos VII yenilgisi 138 ortası).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "selevkos içi."
   }
  }
 ]

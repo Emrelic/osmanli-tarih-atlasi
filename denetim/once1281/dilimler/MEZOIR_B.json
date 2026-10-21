@@ -19,9 +19,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sumer Krallar Listesi'ndeki Adab hanedani tartismali. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Adab (şehir) — ED III yerel hükümdarlar (E-iginimpa'e, Meskigal, Lugal-anne-mundu); Rimuş 'Adab yıkıldı' yıl adı; Akad/Ur III'e bağlı; Kassit Kurigalzu I (~MÖ 1375) son doğrulanmış iskân; atfedilen: Jacobsen 1939 Sumerian King List AS 11; Frayne 2008 Presargonic Period RIME 1; Marchetti vd. 2019 QADIS (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-2599-01-01, t=-2333-01-01] f/t ED III–Akad başlangıcı için yaklaşık; bağımsızlık kesintisiz değil (Mesilim/Kiş ve Umma üstünlüğü). Lugalzagesi-Sargon geçişi MÖ ~2334 ⇒ t korunuyor. Sumer Krallar Listesi'ndeki Adab hanedani tartismali.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -33,11 +35,11 @@
   "ad": "Akşak Sehir Devleti",
   "tur": "sehir-devleti",
   "bolge": "mezopotamya",
-  "f": "-2599-01-01",
-  "t": "-2333-01-01",
+  "f": "-2458-01-01",
+  "t": "-2359-01-01",
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "yil"
+   "f": "onyil",
+   "t": "onyil"
   },
   "baskent": "Akşak",
   "etkin_bolge": "Dicle boyu (konum belirsiz)",
@@ -48,9 +50,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Konum ve tarihsellik belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Akshak — SKL'de Akşak hanedanı ~MÖ 2459–2360 (Unzi…Şu-Suen); Zuzu (Eannatum çağdaşı) tarihsel; atfedilen: Jacobsen 1939 SKL AS 11; Frayne 2008 RIME 1; Frayne 1992 Early Dynastic List of Geographical Names AOS 74 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-2599-01-01, t=-2333-01-01] SKL dönemleri Orta kronoloji ile uyumsuz olabilir (Vikipedi tarihleri SKL toplamlarından türetilmiş); tarihsellik yalnız Zuzu için kesin. Konum belirsiz (Diyala?/Upî-Opis). Konum ve tarihsellik belirsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -62,7 +66,7 @@
   "ad": "Şuruppak Sehir Devleti",
   "tur": "sehir-devleti",
   "bolge": "mezopotamya",
-  "f": "-2899-01-01",
+  "f": "-2599-01-01",
   "t": "-2333-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -77,9 +81,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Bagimsizlik derecesi sinirli. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Shuruppak — ED IIIa'da Kiş'ten Uruk'a kayan, ~100 ha (ED III sonu); Akad'da patesi, Ur III'te Ur'dan atanmış ensi; ~MÖ 2000 terk; atfedilen: Jacobsen 1939/1970/1987; Martin 1975–1988; Marchetti vd. 2019 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-2899-01-01, t=-2333-01-01] f taslakta -2899 idi; kaynak ED III'ten önce bağımsız siyasî birim göstermiyor. Bağımsızlık derecesi sınırlı (SKL: kingship Şuruppak'a geçer; hegzapolis önerisi). 'Polity' niteliği zayıf — ana oturum karar. Bagimsizlik derecesi sinirli.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -106,9 +112,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Siyasi birim mi kutsal merkez mi belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Eridu — Ubaid'den MÖ ~600'e iskân; ED'de Ur I. hanedanından Elulu yazıtı, Entemena 'Eridu kralı' anar; Ur III'te Ur-Nammu zigguratı; atfedilen: Safar 1981 Eridu; Oppenheim 1964 Ancient Mesopotamia; Green 1978 JCS 30 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-2899-01-01, t=-2333-01-01] Sayfa Eridu'yu kutsal merkez olarak gösteriyor, bağımsız ve tarihlenebilir bir şehir devleti göstermiyor (Alulim/Alalgar mitik, SKL). f/t desteklenmiyor — mevcut -2899/-2333 taslak olarak kalır. ELENEN adayı: ana oturum 'siyasî birim değil, kutsal merkez' kararı verebilir. Siyasi birim mi kutsal merkez mi belirsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -120,11 +128,11 @@
   "ad": "Hamazi Krallığı",
   "tur": "krallik",
   "bolge": "mezopotamya",
-  "f": "-2599-01-01",
-  "t": "-2333-01-01",
+  "f": "-2529-01-01",
+  "t": "-2009-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yil"
+   "t": "yuzyil"
   },
   "baskent": "Hamazi",
   "etkin_bolge": "Zagros eteklerinde (konum belirsiz)",
@@ -135,9 +143,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Tarihsellik dusuk. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Hamazi — 'Hamazi hanedanı' ~MÖ 2530–2010 (infobox), Akad/Ur III eyaleti, Zizi (Irkab-Damu çağdaşı), Ur-Adad (Gutium çağı), Ur III valileri; atfedilen: Frayne 2008 Presargonic Period RIME 1 s.441–444; Michalowski 2011 Correspondence of the Kings of Ur; Steinkeller 1998 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-2599-01-01, t=-2333-01-01] Konum bilinmiyor (Zab–Diyala arası Zagros; Halabja çevresi önerisi). Kesintisiz bağımsızlık yok: Akad ve Ur III'te eyalet. f/t Vikipedi infobox aralığıdır, yuzyil hassasiyeti. Tarihsellik dusuk.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -164,9 +174,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sureler belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Kazallu — Ur III'te ensi; Ur III sonrası kısa şehir devleti; Yaḫzir-el Sippar'ı kısa tutar; Warad-Sin yıl 2 sur yıkımı; Sumu-el yıl 4/15 ordu yenilgisi; Sumu-abum yıl 13 ele geçirme; MÖ ~1595 sonrası kayıt yok; atfedilen: de Boer 2018 JCS 70; Kutscher 1968 JCS 22; Yuhong 1998 'Kings of Kazallu and Marad'; Frayne 1993 Sargonic RIME 2 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-1999-01-01, t=-1849-01-01] Sayfa kralları 'Amorit' demiyor ve Rim-Sin/Naplanum'dan söz etmiyor. Yıl adlarına göre bağımsızlık ~Ur III sonu–Sumu-abum yıl 13 (~MÖ 1881); taslak t=-1849 bu açıdan geç olabilir, f/t yaklaşık kalır. Sureler belirsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -178,11 +190,11 @@
   "ad": "Kisurra Sehir Devleti",
   "tur": "sehir-devleti",
   "bolge": "mezopotamya",
-  "f": "-1999-01-01",
-  "t": "-1799-01-01",
+  "f": "-1922-01-01",
+  "t": "-1802-01-01",
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
+   "f": "onyil",
+   "t": "onyil"
   },
   "baskent": "Kisurra",
   "etkin_bolge": "Orta Mezopotamya",
@@ -193,9 +205,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Ayri birim mi tartismali. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Kisurra — Itur-Šamaš muhtemelen MÖ ~1923–1896; Manna-balti-El, Ibni-šadûm, Bur-Suen (Isin kökenli), Erra-imitti; Rim-Sin I yıl 20'de ele geçirme; Samsu-iluna yıl 13 yıkım; atfedilen: Sommerfeld 1983 ZA 73; Charpin 2002 NABU; Tyborowski 2012 ZA 102; Frayne 1990 RIME 4 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-1999-01-01, t=-1799-01-01] Sayfaya göre Kisurra çoğu zaman Uruk/Isin/Larsa'ya bağlı, kalıcı bağımsız değil; 'yerel saray' ve yıl adlı hükümdarlar var. Sıralama varsayımsal. t: Rim-Sin I yıl 20 ≈ MÖ 1803 (Orta kron., Rim-Sin 1822–1763 ⇒ yıl 20 = 1803); sonraki isyan/yıkım (Samsu-iluna yıl 13 ≈ 1737) t'yi uzatabilir. Ayri birim mi tartismali.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -224,7 +238,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Orta kronoloji. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "ic_not": "[Tur 1 taslak değeri: f=-2118-01-01, t=-2111-01-01] Tur 2'de doğrulanamadı. Mevcut ur-3 ve gutium/lagas-2 ile kısa süre (7 yıl) çakışıyor; Utu-hegal tek başına polity sayılıp sayılmayacağı ana oturum kararı. Orta kronoloji.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -236,11 +250,11 @@
   "ad": "Lullubi (Lullubum) Kabile Devleti",
   "tur": "kabile-hakimiyeti",
   "bolge": "iran",
-  "f": "-2299-01-01",
-  "t": "-0999-01-01",
+  "f": "-2399-01-01",
+  "t": "-0668-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yuzyil"
+   "t": "yil"
   },
   "baskent": "Belirsiz (Şehrizor)",
   "etkin_bolge": "Kuzey Zagroslar",
@@ -251,9 +265,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sure cok belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Lullubi — Immashkush ~MÖ 2400, Anubanini (Sar-e Pol-e Zahab kaya kabartması) ~2350, Satuni (Naram-Sin steli) ~2270, Irib, Darianam; Nebukadnezar I ve Tiglat-pileser I 'Lullubi ülkesi' (~1120/1113); Zamua beyleri son 669 (Esarhaddon); infobox 3100–675; atfedilen: Cameron 1936 History of Early Iran; Frayne 1990 Old Babylonian Period RIME 4; Vallat 1998 'Elam' EnIr 8 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-2299-01-01, t=-0999-01-01] Süreklilik yok: MÖ ~2400–2000 kabile krallığı, sonra 'Lullubi ülkesi' anıları ve Zamua beylikleri. Zamua'yı Lullubi devamı sayma Vikipedi'ye ait çıkarım. Yer: Şehrizor (Halabja önerisi, Frayne 1990). Sure cok belirsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -265,7 +281,7 @@
   "ad": "Simurrum Krallığı",
   "tur": "krallik",
   "bolge": "iran",
-  "f": "-2299-01-01",
+  "f": "-2333-01-01",
   "t": "-1699-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -280,9 +296,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Konum tartismali. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Simurrum — Sargon/Naram-Sin/Ur III kaynaklarında; Ka-Nisba, Tabban-darah, Zabazuna, Iddi(n)-Sin (bağımsız kral ~MÖ 2000); Old Babylonian sonrası kayıt yok; atfedilen: Frayne 1990 'Simurrum' RIME 4; Frayne 1997; Hallo 1978 RHA; Shaffer 2003 ZA 93; Eidem 2001 Shemshara Archives 1 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-2299-01-01, t=-1699-01-01] Konum tartışmalı (Diyala / Alt Zap / Küçük Zap önerileri). Lead MÖ 2000–1500 diyor; f yalnız ilk anılma (Sargon, orta kron. MÖ 2334) olduğu için yuzyil+; bağımsız krallık Iddi-Sin ile ~MÖ 2000. Konum tartismali.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -310,13 +328,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Kurulus belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Anshan (Persia) — MÖ 4000 öncesi–~1000 iskân; Elam'ın erken başkentlerinden; 'Anşan ve Susa kralı' unvanı (15. yy MÖ–Şutruk-Nahhunte II ~717–699); Teispes (675–640) Anşan'ı alır; Kiros Silindiri; atfedilen: Hansman 1972 Iran 10; Reiner 1973 RA 67; Stolper 1984; Potts 1999 Archaeology of Elam; Curtis & Stewart 2005 Birth of the Persian Empire (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-2299-01-01, t=-0549-01-01] Anşan ayrı bir bağımsız devlet olarak değil Elam'ın Fars ucu olarak belgeli (elam-* kayıtlarıyla çakışır) ve Teispes'ten sonra Pers krallığı (aşağıdaki teispid-pers ile örtüşür). f=-2299 taslak olarak kalır; kaynak ayrı polity başlangıcını desteklemiyor. Öneri: ayrı kayıt yerine elam-* + teispid-pers'e bağla; Emre kararı. Kurulus belirsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Elam kayitlari (elam-*) var; Anşan ayri kayit onerilir."
+   "not": "Elam kayıtları (awan…elam-yeni) ve teispid-pers ile örtüşür; ayrı kayıt gerekmeyebilir."
   }
  },
  {
@@ -324,8 +344,8 @@
   "ad": "Marhaşi (Paraşi) Krallığı",
   "tur": "krallik",
   "bolge": "iran",
-  "f": "-2299-01-01",
-  "t": "-1699-01-01",
+  "f": "-2333-01-01",
+  "t": "-1762-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yuzyil"
@@ -339,9 +359,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Konum belirsiz; Jiroft iliskisi spekulatif. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Marhaši — Sargon, Rimuş, Naram-Sin (unvan), Şulgi (kızını Marhaši kralına evlendirir), Amar-Sin, Ibbi-Sin; Hammurabi yıl 30 adı; krallar Abalgamash, Hupšumkipi, Hashibatal, Arwilukpi, Libanu-ugšabaš; konum bilinmiyor (Jiroft önerisi); atfedilen: Steinkeller 1982 ZA 72, 1989 RLA 7, 2014; Potts 2004 'Exit Aratta'; Frayne 1993 RIME 2 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-2299-01-01, t=-1699-01-01] Konum tanımsız ⇒ haritaya taşınması etkin_bolge olarak yapılamaz; Jiroft eşlemesi spekülatif (Steinkeller 2014 önerisi). f=ilk anılma (Sargon), t=Hammurabi yıl 30 (~MÖ 1763); Kassit/Neo-Babil anılmaları anakronizma/belirsiz. Konum belirsiz; Jiroft iliskisi spekulatif.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -368,9 +390,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Kutha — okunan sayfa: Sumu-la-El Kutha surlarını onarır; Hammurabi yıl 39 'Kutha'yı yendi' ⇒ bağımsız Kutha kralı sayfada yok (Ilum-nāsir adı de Boer 2018'e atfedilir); doğrudan açılmadı"
+  ],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Bagimsizlik sinirli. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "ic_not": "[Tur 1 taslak değeri: f=-1899-01-01, t=-1699-01-01] Okunan kaynak Kutha'yı Babil'e bağlı gösteriyor; bağımsız krallık kanıtı yok ⇒ 'taslak' kalır ve ELENEN adayı. Tarihleri destekleyen kaynak bulunamadı. Bagimsizlik sinirli.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -399,7 +423,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Kesintisiz bagimsizlik belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "ic_not": "[Tur 1 taslak değeri: f=-1999-01-01, t=-0699-01-01] Tur 2'de Vikipedi 'Der' sayfası bulunamadı (404); doğrulanamadı. Kesintisiz bagimsizlik belirsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -428,7 +452,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Orta kronoloji; hanedan sirasi Brinkman'a gore. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "ic_not": "[Tur 1 taslak değeri: f=-1025-01-01, t=-0979-01-01] Tur 2'de doğrulanamadı. Isin II (-1029) sonrası Babil: İkinci Deniz Ülkesi, Bazi, Elam hanedanları (Brinkman). Kapsam kararı: sahnede boşluk doldurmak için kullanışlı. Orta kronoloji; hanedan sirasi Brinkman'a gore.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "isin-2",
@@ -458,7 +482,7 @@
   "oncelik": "orta",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Kesintili. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "ic_not": "[Tur 1 taslak değeri: f=-0979-01-01, t=-0625-01-01] Tur 2'de doğrulanamadı. Yeni Babil (-625) öncesi boşluğu dolduruyor; Chaldea sayfası (Beaulieu 2018 A History of Babylon) Merodak-baladan'ın 721–710 ve 703'te Babil tahtını aldığını söylüyor. Kesintili.",
   "esleme": {
    "durum": "ardil-var",
    "mevcut_id": "yeni-babil",
@@ -470,10 +494,10 @@
   "ad": "Bit-Yakin Keldani Kabile Devleti",
   "tur": "kabile-hakimiyeti",
   "bolge": "mezopotamya",
-  "f": "-0899-01-01",
+  "f": "-0851-01-01",
   "t": "-0599-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Dur-Yakin",
@@ -485,9 +509,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Chaldea — Bit-Yâkin 'beş Keldani kabilesinin en büyüğü', Dur-Yâkin; Bit-Amukani reisi Mushallim-Marduk 'Kaldu kabilelerinin genel lideri', Şalmaneser III 852'de boyun eğdirdi; Marduk-apla-iddina II Babil'i 721–710 arasında aldı, 710'da Sargon II'ce devrildi, 703'te kısaca geri geldi (Kiş'te yenildi), ~700'de sürgünde öldü; atfedilen: Beaulieu 2018 A History of Babylon 2200 BC–AD 75; Roux 1992 Ancient Iraq; Brinkman 1977 Orientalia; Grayson 1996 Assyrian Rulers II (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-0899-01-01, t=-0599-01-01] f = Şalmaneser III yıllıkları (852 MÖ) — Keldanilerin ilk yazılı anılması, kabile devleti kuruluş tarihi değil. t=-0599 taslak; Nabopolassar'a (-625) kadar Bit-Yakin Merodak-baladan hanedanı çevresinde sürer, net bitiş kaynakta yok. Kabile devleti; yeni-babil öncülüdür.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -499,10 +525,10 @@
   "ad": "Bit-Amukani Keldani Kabile Devleti",
   "tur": "kabile-hakimiyeti",
   "bolge": "mezopotamya",
-  "f": "-0899-01-01",
+  "f": "-0851-01-01",
   "t": "-0599-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Babil civari",
@@ -514,9 +540,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Chaldea — Bit-Yâkin 'beş Keldani kabilesinin en büyüğü', Dur-Yâkin; Bit-Amukani reisi Mushallim-Marduk 'Kaldu kabilelerinin genel lideri', Şalmaneser III 852'de boyun eğdirdi; Marduk-apla-iddina II Babil'i 721–710 arasında aldı, 710'da Sargon II'ce devrildi, 703'te kısaca geri geldi (Kiş'te yenildi), ~700'de sürgünde öldü; atfedilen: Beaulieu 2018 A History of Babylon 2200 BC–AD 75; Roux 1992 Ancient Iraq; Brinkman 1977 Orientalia; Grayson 1996 Assyrian Rulers II (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-0899-01-01, t=-0599-01-01] f = Şalmaneser III 852 MÖ boyun eğdirme (ilk yazılı anılma). t taslak; Bit-Amukani'nin bitişi kaynakta yok.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -528,13 +556,13 @@
   "ad": "Ellipi Krallığı",
   "tur": "krallik",
   "bolge": "iran",
-  "f": "-0849-01-01",
+  "f": "-0713-01-01",
   "t": "-0639-01-01",
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
+   "f": "belirsiz",
+   "t": "belirsiz"
   },
-  "baskent": "Belirsiz (Kirmanşah civari)",
+  "baskent": "Marubishti",
   "etkin_bolge": "Orta Zagros",
   "sehirler": [
    "Belirsiz"
@@ -543,9 +571,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Ellipi — Zagros batısı, Elam'a akraba; kral Talta Sargon II'ye 714'ten haraç öder; 707'de Nibe (Elam destekli) – Ishparaba (Sargon destekli) veraset savaşı; 702'de Sennacherib başkent Marubishti'yi alır; 7. yy'da Kimmer saldırılarıyla kaynaklardan kaybolur; atfedilen (sayfada künye yok); doğrudan açılmadı"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-0849-01-01, t=-0639-01-01] f: kaynağın verdiği ilk tarihli an (714 MÖ ⇒ -0713, Talta haracı) — kuruluş tarihi bilinmiyor, kesinlik 'belirsiz'. t=-0639 taslak olarak kalır (kaynak 702 sonrası 7. yy diyor). Başkent Marubishti.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -557,11 +587,11 @@
   "ad": "Parsua (Parsumaş) Krallığı",
   "tur": "krallik",
   "bolge": "iran",
-  "f": "-0849-01-01",
-  "t": "-0639-01-01",
+  "f": "-0859-01-01",
+  "t": "-0599-01-01",
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
+   "f": "onyil",
+   "t": "onyil"
   },
   "baskent": "Belirsiz",
   "etkin_bolge": "Kuzeybati Iran, sonra Fars",
@@ -572,9 +602,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Pers gocu tartismali. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Parsua — ~MÖ 860–600 Demir Çağı krallığı/küçük krallıklar; Şalmaneser III kampanyası; Tiglat-pileser III'ün 728 listesinde Asur eyaleti; atfedilen: Bryce 2012 Routledge Handbook of the Peoples and Places of Ancient Western Asia; Gershevitch vd. 1985 Cambridge History of Iran 2; Dandamayev 1982 EnIr 'Abdadāna'; Grayson 1996 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-0849-01-01, t=-0639-01-01] Tek bir devlet değil, 'her biri bir kral altında küçük polity'ler'; Pers göçü ile ilişkisi (Parsumaš) tartışmalı. Hükümdar adı yok; 728'de bir kısmı Asur eyaleti. Pers gocu tartismali.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -601,9 +633,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Konum tartismali. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Musasir — Urartu'nun kutsal tapınak-şehri; tapınak MÖ 825; Ishpuini ~800'de heykel alır; Rusa I döneminde (735–714) kral Urzana; Sargon II Khorsabad kabartması 714; konum bilinmiyor (Sardasht/Rawandiz/Topzawa önerileri); atfedilen: Radner 2012; Roaf 2017; Schurtz 2022 (UPenn tezi) (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-0899-01-01, t=-0713-01-01] Sayfa Sargon'un 714'te Musasir'i yıktığını açıkça yazmıyor (yalnız kabartma); t=-0713 taslak/diğer bilgiye dayanır. f 9. yy anılma (-0899 taslak). Urartu'ya bağlı tapınak-krallık (Urzana kral), bağımsızlık derecesi sınırlı. Konum tartismali.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -632,7 +666,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "ic_not": "[Tur 1 taslak değeri: f=-0749-01-01, t=-0669-01-01] Tur 2'de Vikipedi 'Zikirtu' sayfası bulunamadı (404); doğrulanamadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -661,7 +695,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Gecis donemi belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "ic_not": "[Tur 1 taslak değeri: f=-0645-01-01, t=-0539-01-01] Tur 2'de doğrulanamadı. elam-yeni (-538'e kadar) ile örtüşme ihtimali var; Asurbanipal 646 sonrası Susa yerel idaresi. Gecis donemi belirsiz.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "elam-yeni",
@@ -673,10 +707,10 @@
   "ad": "Teispid Pers Krallığı",
   "tur": "krallik",
   "bolge": "iran",
-  "f": "-0639-01-01",
+  "f": "-0674-01-01",
   "t": "-0549-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "onyil",
    "t": "yil"
   },
   "baskent": "Anşan",
@@ -691,13 +725,46 @@
    "ahamenis"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Teispid-Ahamenid ayrimi Herodotos ve Kiros silindirine dayanir. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Anshan (Persia) — Teispes (675–640 MÖ) Anşan'ı alır, 'büyük kral, Anşan kralı'; Kiros Silindiri Kiros'u 'Anşan şehri kralı' ve atalarını aynı unvanla anar; diğer Teispid hükümdarlar sayfada yok; atfedilen: Hansman 1972 Iran 10; Curtis & Stewart 2005; Potts 1999 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-0639-01-01, t=-0549-01-01] f = Teispes'in 675 MÖ başlangıcı (⇒ -0674) Vikipedi kaynaklı; ancak Teispes-Ahamenid soy zinciri Herodotos ve Kiros Silindiri'ne dayanır ve Behistun 'Haxamanish' soyu ile çelişki tartışmalıdır (Ahamenid/Teispid ayrımı). t=-0549 (Kiros II Med'i alır; atlas Ahamenis -0549). Anshan kaydıyla örtüşür. Teispid-Ahamenid ayrimi Herodotos ve Kiros silindirine dayanir.",
   "esleme": {
    "durum": "ardil-var",
    "mevcut_id": "ahamenis",
    "not": "Ahamenis -549'dan baslar."
+  }
+ },
+ {
+  "id": "bit-dakkuri",
+  "ad": "Bit-Dakkuri (Keldani kabile devleti)",
+  "tur": "kabile-devleti",
+  "bolge": "mezopotamya",
+  "f": "-0851-01-01",
+  "t": "-0599-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "belirsiz"
+  },
+  "baskent": "Belirsiz (Babil çevresi)",
+  "etkin_bolge": "Güney Babil, Keldani kabile bölgesi",
+  "sehirler": [
+   "Dilbat?"
+  ],
+  "ozet": "Beş Keldani kabilesinden biri; reisi Adini Şalmaneser III'e 852'de haraç ödedi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Chaldea — Bit-Yâkin 'beş Keldani kabilesinin en büyüğü', Dur-Yâkin; Bit-Amukani reisi Mushallim-Marduk 'Kaldu kabilelerinin genel lideri', Şalmaneser III 852'de boyun eğdirdi; Marduk-apla-iddina II Babil'i 721–710 arasında aldı, 710'da Sargon II'ce devrildi, 703'te kısaca geri geldi (Kiş'te yenildi), ~700'de sürgünde öldü; atfedilen: Beaulieu 2018 A History of Babylon 2200 BC–AD 75; Roux 1992 Ancient Iraq; Brinkman 1977 Orientalia; Grayson 1996 Assyrian Rulers II (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f = 852 MÖ ilk yazılı anılma (Şalmaneser III). t belirsiz (taslak yaklaşıklığı, Bit-Yakin ile aynı); şehir adı 'Dilbat' hafızadandır, kaynakta yok. Bit-Dakkuri'nin kendi toprağı Vikipedi'de verilmemiş — kayıt kabile devleti niteliği tartışmalı, ana oturum ELENEN kararı verebilir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok (Tur 2'de TSV'ye karşı kontrol edildi)."
   }
  }
 ]

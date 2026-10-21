@@ -22,9 +22,11 @@
    "kerma"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut künye -1749'da başlıyor; Erken Kerma ~-2500. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Bonnet; Cambridge History of Africa I; Reisner]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Kerma culture (en.wikipedia.org/wiki/Kerma_culture); atıflar: Bonnet (Kerma kazıları, The Nubian Pharaohs 2003, La ville de Kerma 2014), Welsby 2003 Survey above the Fourth Nile Cataract, Edwards 2004 The Nubian Past"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Mevcut künye -1749'da başlıyor; Erken Kerma ~-2500. Sayfa: Erken Kerma MÖ ~2500-2000, Orta Kerma MÖ ~2000-1750, Klasik Kerma MÖ ~1750-1500; Birinci-Dördüncü Katarakt arası merkezî krallık; Thutmose I yıkımı ~MÖ 1504. Erken evrenin \"krallık\" olup olmadığı sayfada ayrıca tartışılmaz.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "kerma",
@@ -51,7 +53,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "Konum ve Kerma ile ilişkisi belirsiz. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Harkhuf otobiyografisi; Cambridge History of Africa I]",
+  "ic_not": "Konum ve Kerma ile ilişkisi belirsiz. Web okuması denendi: Vikipedi Yam maddesi (iki URL) 404; akademik kaynağa ulaşılamadı. Taslak kalır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -63,10 +65,10 @@
   "ad": "Punt Ülkesi",
   "tur": "krallik",
   "bolge": "dogu-afrika",
-  "f": null,
+  "f": "-2499-01-01",
   "t": null,
   "kesinlik": {
-   "f": "belirsiz",
+   "f": "yuzyil",
    "t": "belirsiz"
   },
   "baskent": "belirsiz",
@@ -76,9 +78,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Siyasî birim mi bölge adı mı belirsiz; yıl bilinmiyor. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Hatshepsut Deir el-Bahri kabartmaları; Kitchen]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Land of Punt (en.wikipedia.org/wiki/Land_of_Punt); sayfanın atıfları: Kitchen 1971 \"Punt and How to Get There\", Meeks 2003 \"Locating Punt\", Phillips 1997 \"Punt and Aksum\", Shaw ed. 2003 Oxford History of Ancient Egypt, Tyldesley 1996, Breasted 1906-07 Ancient Records of Egypt"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Siyasî birim mi bölge adı mı belirsiz; yıl bilinmiyor. f: Mısır kaynaklarında ilk belgelenme (Sahure seferi, 5. Hanedan, MÖ ~25. yy) — bu bir polity kuruluşu değil, ilk anılma tarihidir. t: yıl bilinmiyor (sayfa bilgi kutusunda \"ticaret konfederasyonu MÖ ~2500-980\" der ama bu aracı/kaynaksız; t olarak alınmadı). Hatshepsut seferi (hükümdar Parahu ve kraliçe Ati) 15. yy MÖ. Konum tartışmalı (Boynuz, ya da Arabistan). Polity mi coğrafî ad mı belirsiz. [taslak f değeri: None]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -90,7 +94,7 @@
   "ad": "Dʿmt (Da'amat) Krallığı",
   "tur": "krallik",
   "bolge": "dogu-afrika",
-  "f": "-0979-01-01",
+  "f": "-0799-01-01",
   "t": "-0399-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -108,9 +112,11 @@
    "aksum"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Aralık kabaca (MÖ 10.-5. yy). [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Cambridge History of Africa II; Phillipson 1998; Munro-Hay 1991]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Dʿmt (en.wikipedia.org/wiki/D%CA%BFmt); sayfanın atıfları: Phillipson 2009 (MÖ 1. binyıl yayla siyasal gelişimi), Munro-Hay 1991 Aksum, Fattovich 1990"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Aralık kabaca (MÖ 10.-5. yy). Sayfa: MÖ 8.-4. yy (bilgi kutusu); Aksum radyokarbonlarıyla MÖ ~800/700-400. Başkent muhtemelen Yeha. Betä Giyorgis radyokarbonu MÖ 4. yy'da proto-Aksum polity'sini gösterir; dʿmt ya Aksum'a evrildi ya da ~MÖ 150'de emildi (sayfada tartışmalı). Güney Arabistan kronolojisi uzatılırsa Saba teması MÖ 1. binyıl başına kayabilir. [taslak f değeri: -0979-01-01]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -140,9 +146,11 @@
    "hiksos-15"
   ],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler Ryholt kronolojisi. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Ryholt 1997; Bietak]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Fourteenth Dynasty of Egypt (en.wikipedia.org/wiki/Fourteenth_Dynasty_of_Egypt); sayfanın atıfları: K. Ryholt 1997 The Political Situation in Egypt during the Second Intermediate Period (MÖ ~1805-1650), M. Bietak BASOR 281 (1991) ve 315 (1999), D. Ben-Tor 2007, J. Bourriau 2000"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler Ryholt kronolojisi. f=Ryholt (MÖ ~1805). Bietak/Ben-Tor/Allen: en erken 13. Hanedan ortası ~MÖ 1720, Nehesy ~1700; ilk beş kral Ben-Tor'a göre 15. Hanedan'ın geç vasalı. Başkent: Manetho Xois, Ryholt/çoğu Avaris. Bağımsız Doğu Delta krallığı (Ryholt) tezi tartışmalıdır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -169,9 +177,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Ryholt tezi; bazı Mısırbilimciler kabul etmiyor. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Ryholt 1997; Wegner 2007]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Abydos Dynasty (en.wikipedia.org/wiki/Abydos_Dynasty); sayfanın atıfları: Ryholt 1997, Franke 1988, Wegner 2015 Near Eastern Archaeology, Marée 2010, Ilin-Tomich 2014"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Ryholt tezi; bazı Mısırbilimciler kabul etmiyor. MÖ ~1650-1600 (Ryholt). Varlığı tartışmalı: Marée aynı atölyenin hem Abydos krallarına hem 17. Hanedan'a stel ürettiğini söyleyerek buna karşı çıkar; Ilin-Tomich Senebkay'ı Tebai 16. Hanedan'a bağlar. Wegner 2014 Senebkay mezarı bir destek sayılır. Hipotetik polity.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -199,13 +209,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "16. Hanedan Tebai mi Hiksos mu tartışmalı. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Ryholt 1997; Cambridge Ancient History II]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Sixteenth Dynasty of Egypt (en.wikipedia.org/wiki/Sixteenth_Dynasty_of_Egypt); sayfanın atıfları: Ryholt 1997, Bourriau 2003, von Beckerath, Helck, Vandersleyen, Bennett"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "16. Hanedan Tebai mi Hiksos mu tartışmalı. Bilgi kutusu 1649-1582, tablo 1660-1600; Ryholt'a göre bağımsız Tebai krallığı (~15 kral), von Beckerath/Helck'e göre Hiksos vasalı. Atlas künyesi tebai-17-hanedan (-1649..-1549) Tebai'yi 16.+17. olarak kapsıyor göründüğünden ayrı kayıt gerekmeyebilir.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "tebai-17-hanedan",
-   "not": ""
+   "not": "Atlas künyesi Tebai'nin 16. hanedan evresini içeriyorsa ayrı kayıt gerekmez; 17. Hanedan'ın başlangıç tarihi (-1649) Ryholt'un 16. Hanedan dönemi ile çakışıyor."
   }
  },
  {
@@ -213,10 +225,10 @@
   "ad": "Tebai Amon Başrahipleri Devleti",
   "tur": "hanedanlik",
   "bolge": "misir-sudan",
-  "f": "-1079-01-01",
+  "f": "-1076-01-01",
   "t": "-0944-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yil",
    "t": "onyil"
   },
   "baskent": "Tebai",
@@ -228,9 +240,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut künye 21.-25. Hanedan'ı tek blokta tutuyor. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Kitchen 1986; Cambridge Ancient History III]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Third Intermediate Period of Egypt (en.wikipedia.org/wiki/Third_Intermediate_Period_of_Egypt); atıflar: Kitchen (kronoloji), P. James, D. Rohl (alternatif kronolojiler)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Mevcut künye 21.-25. Hanedan'ı tek blokta tutuyor. Sayfa: Üçüncü Ara Dönem MÖ ~1077'de (Ramses XI ölümü) başlar; Tanis kralları Aşağı Mısır'ı, Amon Başrahipleri Teb ve güneyi yönetir. Herihor başlangıcı (MÖ ~1080) geleneksel; ayrı polity olup olmadığı (21. Hanedan'la aynı aile) tartışmalı. [taslak f değeri: -1079-01-01]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "misir-3-ara",
@@ -257,9 +271,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut blok. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Kitchen 1986]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Third Intermediate Period of Egypt (en.wikipedia.org/wiki/Third_Intermediate_Period_of_Egypt)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Mevcut blok. Aynı sayfada 21. Hanedan MÖ 1069-945 (tablo) ve ~1077-943 (metin) iki farklı biçimde verilir. Seçilen: 1069-945 (-1068/-0944), atlas misir-3-ara (-1068) ile uyumlu.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "misir-3-ara",
@@ -271,10 +287,10 @@
   "ad": "22. Hanedan (Libya-Bubastis)",
   "tur": "hanedanlik",
   "bolge": "misir-sudan",
-  "f": "-0944-01-01",
+  "f": "-0942-01-01",
   "t": "-0714-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yil",
    "t": "onyil"
   },
   "baskent": "Bubastis",
@@ -287,9 +303,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Kitchen kronolojisi. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Kitchen 1986; Cambridge Ancient History III]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Third Intermediate Period of Egypt"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kitchen kronolojisi. Sayfa Şoşenk I'in ülkeyi ~MÖ 945/943'te birleştirdiğini söyler; 943 alındı (-0942). Bitişi (-0714 ≈ MÖ 715) bu oturumda sayfa tarafından desteklenmedi; Kitchen kronolojisi, Piye/Tefnakht ~MÖ 732 ve parçalanma notu mevcut. [taslak f değeri: -0944-01-01]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "misir-3-ara",
@@ -301,7 +319,7 @@
   "ad": "23. Hanedan (Leontopolis/Tanis)",
   "tur": "hanedanlik",
   "bolge": "misir-sudan",
-  "f": "-0837-01-01",
+  "f": "-0836-01-01",
   "t": "-0734-01-01",
   "kesinlik": {
    "f": "onyil",
@@ -317,9 +335,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Paralel hanedan; tarih kabaca. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Kitchen 1986]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Third Intermediate Period of Egypt"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Paralel hanedan; tarih kabaca. Sayfa: Teb iç savaşı sonunda Osorkon B Yukarı Mısır 23. Hanedan'ı kurdu, sonra yerel şehir devletlerine bölündü. Tarih (MÖ ~837-735) sayfada açıkça verilmedi; Kitchen kronolojisi hafızadan; astronomik düzeltme: MÖ 837 = -0836. [taslak f değeri: -0837-01-01]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "misir-3-ara",
@@ -331,11 +351,11 @@
   "ad": "24. Hanedan (Sais)",
   "tur": "hanedanlik",
   "bolge": "misir-sudan",
-  "f": "-0732-01-01",
-  "t": "-0720-01-01",
+  "f": "-0731-01-01",
+  "t": "-0719-01-01",
   "kesinlik": {
-   "f": "onyil",
-   "t": "onyil"
+   "f": "yil",
+   "t": "yil"
   },
   "baskent": "Sais",
   "etkin_bolge": "Batı Delta",
@@ -346,9 +366,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Piye seferi tarihi kabaca. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Kitchen 1986; Piye Zafer Steli]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Third Intermediate Period of Egypt"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Piye seferi tarihi kabaca. Sayfa: Piye ~MÖ 732'de Tefnakht (Sais) liderliğindeki koalisyonu yendi. 24. Hanedan MÖ 732-720 (astronomik -0731/-0719) Kitchen kronolojisine göre; bitiş sayfada açık değil. [taslak f değeri: -0732-01-01; taslak t değeri: -0720-01-01]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "misir-3-ara",

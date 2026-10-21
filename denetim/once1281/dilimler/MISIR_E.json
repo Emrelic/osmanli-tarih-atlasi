@@ -1,44 +1,14 @@
 [
  {
-  "id": "dotawo",
-  "ad": "Dotawo Krallığı",
-  "tur": "krallik",
-  "bolge": "misir-sudan",
-  "f": "1100-01-01",
-  "t": "1500-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "Qasr Ibrim",
-  "etkin_bolge": "Aşağı Nubya",
-  "sehirler": [
-   "Qasr Ibrim",
-   "Faras"
-  ],
-  "ozet": "Makuria'dan ayrılan Aşağı Nubya krallığı; Qasr Ibrim belgelerinde Dotawo anılır.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Ayrılma tarihi belirsiz. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Ruffini 2012; Cambridge History of Africa III]",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": ""
-  }
- },
- {
   "id": "kenzu-ddevle",
   "ad": "Kenzü'd-devle (Benî Kenz) Emirliği (Asvan)",
   "tur": "emirlik",
   "bolge": "misir-sudan",
-  "f": null,
-  "t": null,
+  "f": "1006-01-01",
+  "t": "1174-01-01",
   "kesinlik": {
-   "f": "belirsiz",
-   "t": "belirsiz"
+   "f": "yil",
+   "t": "yil"
   },
   "baskent": "Asvan",
   "etkin_bolge": "Asvan ve Aşağı Nubya",
@@ -49,13 +19,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "yıl bilinmiyor (11.-14. yy?). [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): TDV Kenzüddevle; Encyclopaedia of Islam]",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Asvan\" (islamansiklopedisi.org.tr/asvan) — bu oturumda okundu: Asvan valisi Kenzüddevle 1174'te isyan etti, Selâhaddin bastırdı; Asvan 1170'te iktâ olarak Turan Şah'a verilmişti",
+   "TDV İslâm Ansiklopedisi, \"Nûbe\" — Ayyubî baskısı sonrası Kenzîler Aşağı Nubya'ya çekildi, merkez Merîs; 716 (1316) Berşembû'yu öldürdüler",
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Banu Kanz (atıflar: P. M. Holt 1986 s.131, 135; S. Baadj 2015 Saladin, the Almohads and the Banū Ghāniya s.92, 106-108 [sayfanın atfı])"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "yıl bilinmiyor (11.-14. yy?). f=1006: Hâkim'in Ebü'l-Mekârim Hibetullah'a (Ebû Rakve'yi yakaladığı için) \"Kenzüddevle\" unvanını vermesi (Holt 1986 s.131; Baadj 2015 s.92 — Vikipedi aracılı). Önceki: Ebû Yezîd b. İshak 943 sonrası Asvan'ı başkent yaptı ve Fâtımîlerce \"Asvan koruyucusu\" tanındı (yıl yok). t=1174: Ayyubî ordusu Asvan'da Kenzleri yendi (TDV: isyan 1174); Kenzler güneye, Merîs'e çekildi ve 1317'de Makuria tahtını ele geçirdi (Mamlûk seferleri son 1324) — o evre 1281 sonrasıdır. Vikipedi'de \"Kanz al-Dawla Abu Abd Allah 1317-1331\" bu sayfada yok. Yarı özerk Fâtımî sınır emirliği; tam bağımsız polity mi tartışmalı. Taslak f/t=null. [taslak f değeri: None; taslak t değeri: None]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "Atlas fatimi ve eyyubi içinde eyalet; ayrı emirlik olarak yok."
   }
  },
  {
@@ -76,9 +50,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "yıl bilinmiyor; 1281 öncesi varlığı doğrulanmadı. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Cambridge History of Africa III; Tamrat 1972]",
+  "kaynak": [
+   "Yeshambel Kindie Bayu, \"The Kingdom of Damot: Mythical Narratives versus Historical Realities\", Ethiopian Journal of Social Sciences 7/2 (Dec 2021), s.82-: PDF bu oturumda okundu (journals.bdu.edu.et/index.php/ejss/article/view/739)",
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Kingdom of Damot (arama özeti)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "yıl bilinmiyor; 1281 öncesi varlığı doğrulanmadı. Makale Damot'un Abbay (Mavi Nil) kuzeyinde, Batı Gojjam'da bir krallık olduğunu savunur; Abbay güneyindeki Bizamo/Gafat/Conch ayrı yerel adlardır. Kaynaklarda Zagwe döneminden (Hatsey) itibaren hükümdarı \"Mätälomé\" anılır (hagiografi, tarihlendirme yok); Yekuno Amlak (1270) döneminde bir Damot-Şewa çatışması anlatılır; Amda Seyon (1314-1344) ordusunda Damot birliği vardır. 1281 öncesi varlık dolaylı (Zagwe dönemi hagiografisi); kuruluş yılı yok → null. Vikipedi 10. yy ya da 13. yy kuruluşu der (kaynaksız). 1881'de Gojjam'la birleşti (makale).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -90,11 +67,11 @@
   "ad": "Zeyla Emirliği",
   "tur": "emirlik",
   "bolge": "dogu-afrika",
-  "f": null,
-  "t": null,
+  "f": "1050-01-01",
+  "t": "1285-01-01",
   "kesinlik": {
-   "f": "belirsiz",
-   "t": "belirsiz"
+   "f": "yuzyil",
+   "t": "yil"
   },
   "baskent": "Zeyla",
   "etkin_bolge": "Aden Körfezi kıyısı",
@@ -105,13 +82,273 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Zeyla‘\" (islamansiklopedisi.org.tr/zeyla) — bu oturumda okundu",
+   "TDV İslâm Ansiklopedisi, \"Evfât\" (islamansiklopedisi.org.tr/evfat) — bu oturumda okundu",
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Zeila; Adal Sultanate (atıflar: I. M. Lewis 1955, 1999; Fage & Oliver CHA; Trimingham)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "yıl bilinmiyor. TDV Zeyla': Evfât emirliği XI. yy ortasında Zeyla'da Ömer Veleşma tarafından kuruldu, XV. yy başına kadar sürdü; TDV Evfât: Evfât emirliği 684/1285'te Veleşma'nın oğlu Ali tarafından kuruldu ve Ali Adel'i (Zeyla'yı) denetime aldı. TDV'nin iki maddesi çelişir (ic çelişki beyan edilir): seçilen f=XI. yy ortası (Zeyla maddesi), t=1285 (Evfât maddesi, Adel'in Evfât'a bağlanması). Vikipedi/El-Yakûbî 9. yy'da Zeyla'yı bağımsız liman diye anar (aracılı); İbn Saîd (1214-17) tamamen Müslüman zengin şehir. 1285'ten sonra Walasma Adel'i devraldı. Polity niteliği ve gerçek bağımsızlık sınırlı; Evfât'ın öncülü olabilir. [taslak f değeri: None; taslak t değeri: None]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas Zeyla/Adal/Ifat içermiyor."
+  }
+ },
+ {
+  "id": "pate-nabhani",
+  "ad": "Pate (Nabhânî) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "dogu-afrika",
+  "f": "1203-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": "belirsiz"
+  },
+  "baskent": "Pate",
+  "etkin_bolge": "Lamu takımadası",
+  "sehirler": [
+   "Pate",
+   "Shanga",
+   "Manda (Takwa)"
+  ],
+  "ozet": "Pate kenti Nabhânî ailesince 1203'te yeniden kuruldu (Pate Chronicle).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Pate Island (en.wikipedia.org/wiki/Pate_Island); sayfanın atıfları: Tolmacheva 1993 (Pate Chronicle edisyonu), Horton 1996 Shanga, Martin 1973, Abungu 2018"
+  ],
   "dogrulama": "taslak",
-  "ic_not": "yıl bilinmiyor. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): TDV Zeyla; Lewis 1955]",
+  "ic_not": "Yalnız Vikipedi okundu; Pate Chronicle'ın erken tarihçesi Chittick/Horton tarafından yanlışlanmış (kaynakta). Shanga: ilk yerleşim 8. yy, 11. yy ortası/sonu kırılma, 1400-1425 terk. Polity niteliği ve tarihleri belirsiz; t yok (19. yy'a dek sürüyor).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas svahili-sehirleri (1000-1698) içinde."
+  },
+  "ad_yerel": null
+ },
+ {
+  "id": "mombasa-sehir-devleti",
+  "ad": "Mombasa Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "dogu-afrika",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Mombasa",
+  "etkin_bolge": "Svahili kıyısı",
+  "sehirler": [
+   "Mombasa"
+  ],
+  "ozet": "Svahili kıyısında erken ticaret adası; İdrisî (12. yy ortası) anar.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Mombasa (arama özeti; sayfa açılmadı); İdrisî'nin bir ziyaret kaydı çoğu kaynakta 1151, bir kaynakta 1154 diye geçer (doğrulanmadı)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yıl bilinmiyor: yalnız ilk anılma (İdrisî ~1151-1154) var; bu bir polity tarihi değil. Yazılı yerel kayıt yok, geleneksel kuruluş ~900 (okul kitapları, kaynaksız). Akademik doğrulama yapılmadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas svahili-sehirleri içinde olabilir."
+  },
+  "ad_yerel": null
+ },
+ {
+  "id": "al-abwab",
+  "ad": "el-Abvâb Krallığı (Alodia'dan ayrılan)",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "1268-01-01",
+  "t": "1367-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Abu Hamad-Soba arası, Atbara-Nil kavşağı",
+  "sehirler": [],
+  "ozet": "Alodia'nın en kuzey eyaleti iken 1268/9'dan itibaren bağımsız krallık olarak anılır.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Kingdom of al-Abwab (en.wikipedia.org/wiki/Kingdom_of_al-Abwab); sayfanın atıfları: Seignobos 2018 s.138; Vantini 1975 s.475, 499; Welsby 2002 s.243-244, 254; Werner 2013 s.126, 159; Welsby 2014 s.187-188; Zarroug 1991; Edwards 2004"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: Makuria Kralı Davud'un amcasını tahttan indirip oğullarını sürdüğü 1268/9'da ilk anılır; 1276'da Kral Adur Mamlûk'lara kaçan Davud'u teslim etti; 1286-1292 Adur elçilik; 1317 civarı Atbara-Nil kavşağı; 1367 son yazılı anılma; çanak-çömlek 15.-16. yy sürmeyi gösterir; sonra Funj. Alodia'dan ayrılış tarihi bilinmiyor. t=1367 yazılı kaynakta son anılma, polity bitişi değil. Başkent kaynakta yok.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas nube (Makurya-Alve) içinde."
+  },
+  "ad_yerel": null
+ },
+ {
+  "id": "ifat-sultanligi",
+  "ad": "Ifat (Evfât) Sultanlığı (Veleşma/Walasma Hanedanı)",
+  "tur": "sultanlik",
+  "bolge": "dogu-afrika",
+  "f": "1285-01-01",
+  "t": "1415-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Wafat (Evfât) → Zeyla",
+  "etkin_bolge": "Doğu Şuva ve Adal çevresi",
+  "sehirler": [
+   "Evfât",
+   "Zeyla"
+  ],
+  "ozet": "Şüve Mahzûmî emirliğini ilhak ederek 1285'te kurulan Müslüman sultanlık.",
+  "oncul": [
+   "suve-emirligi"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Evfât\" (islamansiklopedisi.org.tr/evfat) — bu oturumda okundu",
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Sultanate of Ifat; Makhzumi dynasty (atıflar: Trimingham 1952; Taddesse Tamrat 1972; Pankhurst 1997; Levtzion & Pouwels 2000; Fauvelle/Hirsch 2017; Chekroun & Hirsch 2020 Médiévales)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "1281 sonrası başlangıç (TDV 684/1285) → BRIF kapsamı dışı sınır vakası; yine de Ömer Veleşma'nın bağımsızlık ilanı (7./13. yy, yıl yok) 1281 öncesine düşebilir: Vikipedi c.1275 (Ali \"Baziwi\" 1275-1299) ve 1285'te Şüve ilhakı (Taddesse Tamrat 1972) diye çelişir. Seçim TDV 1285. t: 1415 (TDV: Sa'deddin Zeyla adasında öldürüldü; Vikipedi 1403/1410 ölüm). TDV Zeyla maddesi Evfât'ı XI. yy ortasında Zeyla'da kuruldu diye verir — çelişki (bkz. zeyla-emirlik). Chekroun & Hirsch 2020: Şüve tek devlet değil özerk küçük birimler. Atlas habesistan (1270-) ve suve-emirligi (896-1285) ile komşu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "f 1285 > 1281 (sınır vakası)."
+  },
+  "ad_yerel": null
+ },
+ {
+  "id": "hadiya",
+  "ad": "Hadiya Sultanlığı",
+  "tur": "sultanlik",
+  "bolge": "dogu-afrika",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Etiyopya'nın Müslüman sultanlıkları kuşağı",
+  "sehirler": [],
+  "ozet": "Ifat (1285) çağında anılan Etiyopya Müslüman sultanlıklarından biri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Evfât\" — Devâro, Erâbînî, Hedye, Şerhâ, Bâlî ve Dâre \"o dönemde\" Evfât'a komşu Müslüman sultanlıklar olarak sayılır (okundu)",
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Hadiya Sultanate / Sultanate of Ifat (okundu; Pankhurst 1997, Braukämper 2012, Trimingham 1952)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yıl bilinmiyor: f/t null. 1281 öncesi varlık kaynakta dolaylı — TDV Evfât sayımı ~1285 durumunu verir; TDV Bâlî maddesi Bali'nin 14.-16. yy'da olduğunu söyler (Amda Seyon 1314-1344 zaferinde ilk anılma) → Bali bu işe alınmadı. Güneybatı Etiyopya, Şuva güneyi; Amda Seyon'a direndi (Garaad Amano). Vikipedi: ilk atıf Kebra Nagast 94 (Cerulli), 13. yy.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": ""
-  }
+  },
+  "ad_yerel": null
+ },
+ {
+  "id": "dawaro",
+  "ad": "Dâvaro (Dawaro) Sultanlığı",
+  "tur": "sultanlik",
+  "bolge": "dogu-afrika",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Etiyopya'nın Müslüman sultanlıkları kuşağı",
+  "sehirler": [],
+  "ozet": "Ifat (1285) çağında anılan Etiyopya Müslüman sultanlıklarından biri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Evfât\" — Devâro, Erâbînî, Hedye, Şerhâ, Bâlî ve Dâre \"o dönemde\" Evfât'a komşu Müslüman sultanlıklar olarak sayılır (okundu)",
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Hadiya Sultanate / Sultanate of Ifat (okundu; Pankhurst 1997, Braukämper 2012, Trimingham 1952)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yıl bilinmiyor: f/t null. 1281 öncesi varlık kaynakta dolaylı — TDV Evfât sayımı ~1285 durumunu verir; TDV Bâlî maddesi Bali'nin 14.-16. yy'da olduğunu söyler (Amda Seyon 1314-1344 zaferinde ilk anılma) → Bali bu işe alınmadı. Vikipedi: Müslüman eyalet olarak ilk bilinen anılma 1332 (Haydera valisi, Sabreddin isyanı).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "ad_yerel": null
+ },
+ {
+  "id": "sharkha",
+  "ad": "Şerhâ (Sharkha) Sultanlığı",
+  "tur": "sultanlik",
+  "bolge": "dogu-afrika",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Etiyopya'nın Müslüman sultanlıkları kuşağı",
+  "sehirler": [],
+  "ozet": "Ifat (1285) çağında anılan Etiyopya Müslüman sultanlıklarından biri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Evfât\" — Devâro, Erâbînî, Hedye, Şerhâ, Bâlî ve Dâre \"o dönemde\" Evfât'a komşu Müslüman sultanlıklar olarak sayılır (okundu)",
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Hadiya Sultanate / Sultanate of Ifat (okundu; Pankhurst 1997, Braukämper 2012, Trimingham 1952)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yıl bilinmiyor: f/t null. 1281 öncesi varlık kaynakta dolaylı — TDV Evfât sayımı ~1285 durumunu verir; TDV Bâlî maddesi Bali'nin 14.-16. yy'da olduğunu söyler (Amda Seyon 1314-1344 zaferinde ilk anılma) → Bali bu işe alınmadı. TDV Evfât: Evfât'ın yanındaki altı Müslüman sultanlıktan biri.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "ad_yerel": null
+ },
+ {
+  "id": "arabini",
+  "ad": "Erâbînî (Arabini) Sultanlığı",
+  "tur": "sultanlik",
+  "bolge": "dogu-afrika",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Etiyopya'nın Müslüman sultanlıkları kuşağı",
+  "sehirler": [],
+  "ozet": "Ifat (1285) çağında anılan Etiyopya Müslüman sultanlıklarından biri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, \"Evfât\" — Devâro, Erâbînî, Hedye, Şerhâ, Bâlî ve Dâre \"o dönemde\" Evfât'a komşu Müslüman sultanlıklar olarak sayılır (okundu)",
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Hadiya Sultanate / Sultanate of Ifat (okundu; Pankhurst 1997, Braukämper 2012, Trimingham 1952)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yıl bilinmiyor: f/t null. 1281 öncesi varlık kaynakta dolaylı — TDV Evfât sayımı ~1285 durumunu verir; TDV Bâlî maddesi Bali'nin 14.-16. yy'da olduğunu söyler (Amda Seyon 1314-1344 zaferinde ilk anılma) → Bali bu işe alınmadı. TDV Evfât: Evfât'ın yanındaki altı Müslüman sultanlıktan biri.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "ad_yerel": null
  }
 ]

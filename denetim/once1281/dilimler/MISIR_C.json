@@ -5,10 +5,10 @@
   "tur": "krallik-imparatorluk",
   "bolge": "dogu-afrika",
   "f": "0100-01-01",
-  "t": "0940-01-01",
+  "t": "0960-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yuzyil"
+   "t": "onyil"
   },
   "baskent": "Aksum",
   "etkin_bolge": "Tigray, Eritre, Kızıldeniz kıyısı",
@@ -21,13 +21,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut künyede t boş. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Munro-Hay 1991; Cambridge History of Africa II; Periplus Maris Erythraei]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Kingdom of Aksum (en.wikipedia.org/wiki/Kingdom_of_Aksum); sayfanın atıfları: Munro-Hay (Aksum 1991), Phillipson, Derat (geç kronoloji, ~960 çöküş), Encyclopaedia Aethiopica (Gudit), Uhlig 2005"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Mevcut künyede t boş. f: kuruluş MS 1. yy (Periplus, 1. yy ortası); arkeoloji polity'nin MÖ 150-MS 150 arası doğduğunu gösterir. t: Derat'a göre çöküş ~960 (Gudit geleneği, son hükümdar Dil Na'od 917/940-960); eski taslak değeri 940. Madeni para basımı 8. yy başında kesilir; yeni erken tarih 7. yy gerilemesi. [taslak t değeri: 0940-01-01]",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "aksum",
-   "not": ""
+   "not": "Atlas aksum f=0100, t boş; t=~960 ile doldurulmalı."
   }
  },
  {
@@ -54,9 +56,11 @@
   ],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut kush-krallik tek kayıt; ayrı kayıt gerekir mi karar verilsin. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Török 1997; Cambridge History of Africa II]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Kingdom of Kush (en.wikipedia.org/wiki/Kingdom_of_Kush); atıflar sayfa özetinde yok (Török 1997 ve Welsby adayı doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Mevcut kush-krallik tek kayıt; ayrı kayıt gerekir mi karar verilsin. Sayfa: başkent Meroe'ye muhtemelen MÖ ~591'de taşındı; Aksumluların Meroe'yi alması sonrası krallık Nobatia, Makuria, Alodia'ya bölündü (sayfada MS ~350; Ezana'nın sefer tarihi ~330 dolaylarında geçer). Atlas kush-krallik zaten -0749..0349'u kapsıyor; Meroe ayrı kayıt gerekmeyebilir.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "kush-krallik",
@@ -69,10 +73,10 @@
   "tur": "krallik",
   "bolge": "misir-sudan",
   "f": "-0204-01-01",
-  "t": "-0185-01-01",
+  "t": "-0185-08-27",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "gun"
   },
   "baskent": "Tebai",
   "etkin_bolge": "Yukarı Mısır",
@@ -83,39 +87,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Tarih kabaca (MÖ 205-186). [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Veïsse 2004; Cambridge Ancient History VII]",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": ""
-  }
- },
- {
-  "id": "aegyptus-roma-bizans",
-  "ad": "Roma ve Doğu Roma (Bizans) Mısır'ı (Aegyptus)",
-  "tur": "eyalet",
-  "bolge": "misir-sudan",
-  "f": "-0029-08-01",
-  "t": "0641-01-01",
-  "kesinlik": {
-   "f": "gun",
-   "t": "yil"
-  },
-  "baskent": "Iskenderiye",
-  "etkin_bolge": "Mısır",
-  "sehirler": [
-   "Iskenderiye",
-   "Fustat"
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Great Theban Revolt (en.wikipedia.org/wiki/Great_Theban_Revolt); atıflar: A.-E. Veïsse 2022 \"The Great Theban Revolt, 206-186 BCEs\" Cultures of Resistance in the Hellenistic East s.57-72; Johstono 2015; Fischer-Bovet 2014; Turner 1984 CAH VII.1; Vandorpe 2010"
   ],
-  "ozet": "Octavianus'un İskenderiye'yi almasıyla Roma eyaleti; 618-629 Sasani işgali; 641 Arap fethi.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Eyalet; kullanıcı Roma/Bizans Mısır'ını sorduğu için eklendi. Sasani işgali ayrı kayıt değil. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Bowman 1986; Oxford Dictionary of Byzantium]",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarih kabaca (MÖ 205-186). İsyan MÖ 206-186; Haronnophris MÖ 205 sonbaharında Teb'de taç giydi (-0204, ay bilinmiyor), Chaonnophris 27 Ağustos MÖ 186'da Asvan güneyinde yenildi (-0185-08-27). Yukarı Mısır (Abydos-Gebelein çekirdek, sonra Asyut'a dek); Ptolemais ve Asvan Yunan elinde kaldı. Atlas ptolemai künyesinin içindeki ayaklanma bölgesi — ayrı polity mi tartışmalı. [taslak t değeri: -0185-01-01]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -127,11 +103,11 @@
   "ad": "Blemmyes (Beja) Krallığı",
   "tur": "krallik",
   "bolge": "misir-sudan",
-  "f": "0300-01-01",
-  "t": "0600-01-01",
+  "f": "0400-01-01",
+  "t": null,
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yuzyil"
+   "t": "belirsiz"
   },
   "baskent": "Talmis (Kalabsha)",
   "etkin_bolge": "Aşağı Nubya, Doğu Çöl",
@@ -143,9 +119,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Siyasî birim mi konfederasyon mu belirsiz. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Updegraff 1988; Oxford Dictionary of Late Antiquity]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Blemmyes (en.wikipedia.org/wiki/Blemmyes); atıflar: L. Török in Fontes Historiae Nubiorum III 1998 s.1087, 1131, 1198; V. Christides 1980; J. Dijkstra, Encyclopedia of Ancient History 2013; D. Welsby 2002 Medieval Kingdoms of Nubia; Browne 2003; Barnard 2005",
+   "Vikipedi Phonen/Silko: Phonen mektubu (Qasr Ibrim, 1976) ~MS 450 (Welsby 2002 s.16-17)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Siyasî birim mi konfederasyon mu belirsiz. Sayfa: Blemmyes geç 4. yy'a kadar Aşağı Nubya'da krallık kurdu (başkent Kalabsha). Török \"tek merkezî Blemmye krallığı\" olduğundan şüphe eder, birkaç kabile \"devleti\" önerir. Kral listesi: Tamal, Isemne, Degou, Phonen (~450), Pokatimne, Kharakhen, Barakhia. Sayfada bitiş tarihi yok; Blemmyeler 8. yy'a kadar yazılı kaynaklarda anılır. Taslak f=0300 ve t=0600 sayfa tarafından desteklenmedi (f \"geç 4. yy\"ya kadar; üst sınır 400 alındı). [taslak f değeri: 0300-01-01; taslak t değeri: 0600-01-01]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -157,11 +136,11 @@
   "ad": "Nobatia (Noba) Krallığı",
   "tur": "krallik",
   "bolge": "misir-sudan",
-  "f": "0350-01-01",
-  "t": "0650-01-01",
+  "f": "0400-01-01",
+  "t": "0652-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yuzyil"
+   "t": "yil"
   },
   "baskent": "Faras (Pachoras)",
   "etkin_bolge": "Aşağı Nubya",
@@ -175,9 +154,12 @@
    "makuria"
   ],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Makuria ile birleşme tarihi belirsiz (7. yy). [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Adams 1977; Welsby 2002]",
+  "kaynak": [
+   "Vikipedi (yalnız aday/aracı; bu oturumda okundu, tek dayanak değil): Nobatia (en.wikipedia.org/wiki/Nobatia); atıflar: Obłuski 2014 The Rise of Nobadia (s.35, 170-174); Welsby 2002 s.88; Adams 2013 Qasr Ibrim: The Ballana Phase; Łajtar 2011; Werner 2013",
+   "BMCR 2003.01.16 (Welsby 2002 kitap eleştirisi; arama özeti): Nobadia'nın Makuria'ya katılışı en geç 8. yy"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Makuria ile birleşme tarihi belirsiz (7. yy). f: Noba'lar MS ~297'de Diocletianus'la bölgeye çağrıldı; krallık ~400'de belirginleşir (Obłuski 2014), ilk kral Silko ~450. 543'te resmî Hristiyanlaşma. t: Makuria'ya katılış 7. yy, Welsby 2002 s.88'e göre büyük olasılıkla 652 öncesi (en geç sınır alındı); Makuria maddesi \"620'ler ya da hemen sonrası\" der; 690'da yazılmış bir metin iki devletin hâlâ ayrı ve düşman olduğunu gösterir (BMCR özetine göre); Merkurios'a ait Taifa yazıtı Makuria hâkimiyetini ortası 8. yy'da gösterir. Çelişki beyan edilmiştir; Nobatia eparşisi Makuria içinde 1463'e dek anılır. Taslak değerler: f=0350, t=0650. [taslak f değeri: 0350-01-01; taslak t değeri: 0650-01-01]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "nube",

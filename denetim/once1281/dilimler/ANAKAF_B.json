@@ -426,10 +426,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+   "Vikipedi yalnız aracı (dayanak değil): en.wikipedia Alashiya; atıf verdiği eserler: Goren, Bunimovitz, Finkelstein, Na'aman 2003, \"The Location of Alashiya\", AJA 107(2); Knapp 1985 JFA 12(2); Beal 2011 Oxford Handbook of Ancient Anatolia."
   ],
   "dogrulama": "taslak",
-  "ic_not": "Alaşiya=Kıbrıs yaygın ama kesin değil. t: Wen-Amun (~MÖ 1075).",
+  "ic_not": "Alaşiya=Kıbrıs yaygın ama kesin değil. t: Wen-Amun (~MÖ 1075). | Araç sayfasına göre Arnuwanda I (c.1400) Alaşiya'ya akın; Amarna c.1350; Tudhaliya IV/Šuppiluliuma II c.1200 sefer. f=-1748 (Mari) ve t=-1073 (Wen-Amun) açılan kaynakta desteklenmedi. Bölge ataması (Kıbrıs → anadolu) ana oturum kararı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -459,14 +459,14 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+   "Vikipedi yalnız aracı (dayanak değil): en.wikipedia Phrygia; atıf verdiği eserler: Sulimirski & Taylor 1991 (CAH III/2, krallık tarihleri), Ivantchik 1993. Brill's New Pauly \"Phrygia\" açılamadı."
   ],
   "dogrulama": "taslak",
-  "ic_not": "Kimmer yıkımı MÖ 676 (Eusebius 696/695 verir). Frig devleti 8. yy yaklaşık.",
+  "ic_not": "Kimmer yıkımı MÖ 676 (Eusebius 696/695 verir). Frig devleti 8. yy yaklaşık. | Okunan araç sayfasına göre krallık c.1200-675 (infobox), Midas 740-675 ya da 720-695 (Eusebius)/676 (Africanus); Gordion yıkımı 695 (Kimmer anlatısı) vs ~675 (kazı); New Chronology yıkımı ~800 MÖ koyar. t=-0674 (675 MÖ) kazı tarihine göre seçildi, 695 MÖ (-0694) alternatif. f taslak değeri duruyor, desteklenmedi.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcut listede Frig yok."
+   "not": "Mevcut listede Frig yok; yeni-hitit ve lidya komşu."
   }
  },
  {
@@ -841,10 +841,10 @@
   "tur": "krallik",
   "bolge": "kafkasya",
   "f": "-0598-01-01",
-  "t": "-0108-01-01",
+  "t": "-0064-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yuzyil"
+   "t": "onyil"
   },
   "baskent": "Aia / Phasis",
   "etkin_bolge": "Doğu Karadeniz kıyısı (Rioni havzası)",
@@ -862,14 +862,154 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+   "TDV İslâm Ansiklopedisi, \"Gürcüler\" maddesi (islamansiklopedisi.org.tr/gurculer, bu oturumda okundu): Kolhis ve İberya devletleri MÖ IV. yüzyılda kuruldu.",
+   "Vikipedi yalnız aracı (dayanak değil): en.wikipedia Colchis; atıf: Braund 1994, Georgia in Antiquity (Oxford: Clarendon)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş MÖ 8–6. yy arası; Mithridates ilhakı ~MÖ 110.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş MÖ 8–6. yy arası; Mithridates ilhakı ~MÖ 110. | taslak t: -0108. Pompeius Kolkhis'i MÖ 65'te işgal etti (Wikipedia/Braund) → -0064; Mithridates fethi MÖ 70 sonrası. f: TDV MÖ IV. yy der, taslak -0598 (MÖ 6. yy sikkeleri; sikkelerin Ahameniş satraplığı altında basıldığı da öne sürülür) — çelişki çözülmedi, f değişmedi.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": ""
   }
+ },
+ {
+  "ad_yerel": null,
+  "tur": "hanedanlik",
+  "bolge": "anadolu",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Halikarnassos",
+  "etkin_bolge": "Karya kıyısı",
+  "sehirler": [
+   "Halikarnassos"
+  ],
+  "ozet": "Pers vasalı Karyalı tiranlar (Lygdamis hanedanı); Hekatomnidlerden önceki hanedan.",
+  "oncul": [],
+  "ardil": [
+   "karya-hekatomnid"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi yalnız aracı (dayanak değil): en.wikipedia Caria (c.520-450 MÖ); atıf: Unwin 2017 Caria and Crete in Antiquity, CUP; Bean 2002 Turkey beyond the Maeander."
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yalnız Wikipedia özetinden; Pers satraplığı altında tiranlık, bağımsız polity mi tartışmalı. Hekatomnid (mevcut karya-hekatomnid -0390..-0333) öncesi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "ardıl karya-hekatomnid mevcut"
+  },
+  "id": "karya-lygdamid-halikarnassos",
+  "ad": "Halikarnassos Lygdamid Tiranlığı (Karya)",
+  "f": "-0519-01-01",
+  "t": "-0449-01-01"
+ },
+ {
+  "ad_yerel": null,
+  "tur": "sehir-devleti",
+  "bolge": "anadolu",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Termessos / Selge",
+  "etkin_bolge": "Toroslar, Pisidya",
+  "sehirler": [
+   "Termessos",
+   "Selge",
+   "Sagalassos",
+   "Kremna"
+  ],
+  "ozet": "Lidya ve Pers egemenliğine büyük ölçüde girmemiş topluluklar; 25 MÖ Amyntas ölümü sonrası Galatia eyaleti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi yalnız aracı (dayanak değil): en.wikipedia Pisidia; atıf: Bean 1959 \"Notes and Inscriptions from Pisidia I\", Anatolian Studies 9, s.67-117."
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "f bilinmiyor (yıl yazılmadı). t=25 MÖ Roma ilhakı; Homonadesler MÖ 3'te yok edildi. Tek polity mi federasyon mu belirsiz.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "id": "pisidya-toplulugu",
+  "ad": "Pisidya Bağımsız Toplulukları (Termessos, Selge, Sagalassos)",
+  "f": null,
+  "t": "-0024-01-01"
+ },
+ {
+  "ad_yerel": null,
+  "tur": "konfederasyon",
+  "bolge": "anadolu",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Kibyra",
+  "etkin_bolge": "Kibyratis, Güneybatı Anadolu",
+  "sehirler": [
+   "Kibyra",
+   "Bubon",
+   "Balbura",
+   "Oinoanda"
+  ],
+  "ozet": "Moagetes hanedanı tiranlarının yönettiği dört kentli birlik; Murena kaldırdı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi yalnız aracı (dayanak değil): en.wikipedia Cibyra; Polybios ve Livius (Manlius Vulso 189 MÖ) anılıyor."
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t: Wikipedia 83 MÖ (-0082), Catholic Encyclopedia 84 MÖ (-0083); -0082 seçildi. f bilinmiyor. Moagetes I MÖ 189'da tanıklı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "id": "kibyra-tetrapolisi",
+  "ad": "Kibyra Tetrapolisi (Kibyra, Bubon, Balbura, Oinoanda)",
+  "f": null,
+  "t": "-0082-01-01"
+ },
+ {
+  "ad_yerel": null,
+  "tur": "hanedanlik",
+  "bolge": "anadolu",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Pergamon",
+  "etkin_bolge": "Misya kıyısı",
+  "sehirler": [
+   "Pergamon",
+   "Gambrion",
+   "Myrina",
+   "Grynion"
+  ],
+  "ozet": "Eretria'lı Gongylos'a Xerxes'in verdiği Misya kentleri; Ksenophon 399 MÖ'da dul Hellas'ı bulur. Pers vasalı hanedan.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi yalnız aracı (dayanak değil): en.wikipedia Gongylos; birincil: Xenophon, Anabasis 7.8.8-17."
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "f c.470-460 MÖ (Xerxes ödülü). t bilinmiyor: 399 MÖ yalnız son tanıklık. Polity niteliği zayıf (satrap hanedanı). Troas için ayrı kayıt yazılmadı (kaynak yok).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "id": "misya-gongylid-pergamon",
+  "ad": "Gongylid Hanedanı (Pergamon, Gambrion, Myrina, Grynion)",
+  "f": "-0469-01-01",
+  "t": null
  }
 ]

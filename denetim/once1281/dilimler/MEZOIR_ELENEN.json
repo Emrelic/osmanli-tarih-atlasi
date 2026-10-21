@@ -1,0 +1,34 @@
+[
+ {
+  "kayit": {
+   "id": "part-persis-diger-yok",
+   "ad": "Medya-Part ara vasal krallari (Media Magna; Elam-Mesene dahil)",
+   "tur": "vasal-krallik",
+   "bolge": "iran",
+   "f": "-0139-01-01",
+   "t": "0224-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yil"
+   },
+   "baskent": "Belirsiz",
+   "etkin_bolge": "Part vasali krallar",
+   "sehirler": [
+    "Belirsiz"
+   ],
+   "ozet": "Part vasali yerel krallar (Gotarzes vb.).",
+   "oncul": [],
+   "ardil": [],
+   "oncelik": "kucuk",
+   "kaynak": [],
+   "dogrulama": "taslak",
+   "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Birim sinirlari belirsiz; yinelenme riski, yuksek. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+   "esleme": {
+    "durum": "eksik",
+    "mevcut_id": null,
+    "not": "elymais, karakene, atropatene var."
+   }
+  },
+  "gerekce": "Tek bir polity değil: 'Part vasalı yerel krallar' toplu başlığı; Elymais/Karakene/Atropatene zaten mevcut; yinelenme riski Tur 1 raporunda belirtildi. Ayrı kayıt olarak yazılacak somut vasaller: persis (eklendi), gordyene, adiabene, hatra, osrhoene (hepsi ayrı kayıt)."
+ }
+]

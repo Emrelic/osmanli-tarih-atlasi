@@ -10,7 +10,7 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Fîrûzabâd / Ferim",
+  "baskent": "Fûmen (Fuman) (660–760)",
   "etkin_bolge": "Taberistan, Gilan",
   "sehirler": [
    "Âmül",
@@ -20,9 +20,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Baslangic 642 veya 650. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Dabuyid dynasty — Gil Gavbara 642–660, Dabuya 660–712, Ferrukhan the Great 712–728, Dadburzmihr 728–740/1, Khurshid 740/1–760 (esir 761); başkent Fuman (660–760); atfedilen: Madelung 1993 'Dabuyids' EnIr 6/5 s.541–544; Bazin 2000 'Fūman' EnIr 10; Pourshariati 2008 Decline and Fall of the Sasanian Empire s.287–318; Bosworth 1996 New Islamic Dynasties s.162 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=0642-01-01, t=0760-01-01] f/t taslakla uyumlu (642–760). Vikipedi'de Khurshid'in sonu infobox'ta 759/60, tabloda 760; iç tutarsızlık. Taslakta başkent 'Fîrûzâbâd/Ferîm' idi, Vikipedi başkent olarak Fûmen (660–760) veriyor — Fûmen alındı; ilk 18 yıl başkent belirsiz. Bolge: Tabaristan/Gilan. Baslangic 642 veya 650.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -35,12 +37,12 @@
   "tur": "hanedanlik",
   "bolge": "iran",
   "f": "0550-01-01",
-  "t": "1000-01-01",
+  "t": "1106-01-01",
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
+   "f": "onyil",
+   "t": "yil"
   },
-  "baskent": "Sâriye",
+  "baskent": "Lafur (Lafûr)",
   "etkin_bolge": "Taberistan dag bolgesi",
   "sehirler": [
    "Sâriye"
@@ -49,9 +51,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sureklilik belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Karenids (Qarinvand) — 550'lerde kurulur; Quhyar'ın 839'daki ölümü birçok yazarca hanedanın sonu sayılır ama sürer; Amîr Mahdî 1106'da Bavandî Şehriyar IV vasalı olarak anılır, sonrası bilinmiyor; başkent Lafûr; atfedilen: Madelung 1975 'The Minor Dynasties of Northern Iran' CHI 4 s.198–249; Madelung 1984 'Āl-e Bāvand' EnIr 1/7; Rekaya 1978 'Ḳārinids' EI2; Bosworth 1968 CHI 5; Ibn Isfandiyar (Browne 1905) (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=0550-01-01, t=1000-01-01] Kuruluş '550'ler' = Sasani çağı Kârin Part evi; Müslüman dönemde Taberistan dağ beyliği. t=1106 son kayıtlı üye (taslak 1000). 839 sonrası bağımsızlık derecesi azalır (Bavandîlere vasal). Mevcut bavendi (665–1349) ile çakışır; ayrı mı yoksa vasal mi ana oturum kararı. Doğrulama: EnIr 'Karenids' açılamadı (403). Sureklilik belirsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -80,7 +84,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "ic_not": "[Tur 1 taslak değeri: f=0650-01-01, t=0840-01-01] Tur 2'de Vikipedi sayfası bulunamadı (404), Iranica 403; doğrulanamadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -98,7 +102,7 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Rûdbâr",
+  "baskent": "Rûdbâr (Alamût vadisi)",
   "etkin_bolge": "Delem",
   "sehirler": [
    "Rûdbâr"
@@ -107,9 +111,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Justanids — Justan I 791–805 (kurucu), merkez Rudbar/Daylam yaylaları; Büveyhîlerin müttefiki, Gazneli/Selçuklu üstünlüğünü tanır; 11. yy'da İsmâilî fethi (infobox); atfedilen: Madelung 1975 CHI 4 s.198–249 (s.224); Pezeshk 2009 'Jostanids' EnIr 15/1 s.44–46; Donohue 2003 The Buwayhid Dynasty in Iraq (Brill); Bosworth 1996 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=0791-01-01, t=1004-01-01] f=791 Vikipedi/ Justan I; t=1004 taslak, kaynak bitişi '11. yy' diyor (İsmâilî fethi; Alamût 1090 ile ilişkili olabilir) — t doğrulanmadı. Hasan-ı Sabbah Alamût'u 1090'da aldı (alamut-nizari kaydıyla çakışma noktası).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -121,11 +127,11 @@
   "ad": "Zenc Devleti (Basra Zenc isyani)",
   "tur": "devlet",
   "bolge": "mezopotamya",
-  "f": "0869-01-01",
-  "t": "0883-01-01",
+  "f": "0869-09-01",
+  "t": "0883-08-01",
   "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "f": "ay",
+   "t": "ay"
   },
   "baskent": "Muhtâre",
   "etkin_bolge": "Guney Irak",
@@ -136,9 +142,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Siyasi devlet niteligi sinirli. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Zanj Rebellion — Eylül 869 başlangıç; al-Mukhtara kuşatması Şubat 881'den; ~Ağustos 883'te düşer; zafer alayı Bağdat 30.11.883; atfedilen: Popovic 1999 The Revolt of African Slaves in Iraq in the 3rd/9th Century; Waines 1992 Tabarî Tarihi 36 (SUNY); Fields 1987 Tabarî 37; Talhami 1977 IJAHS 10/3 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=0869-01-01, t=0883-01-01] Gün hassasiyeti sayfada yok; f=Eylül 869 (ayın 1'i), t=Ağustos 883 (ayın 1'i) 'ay' hassasiyeti. TDV 'Zenc' maddesi bu turda açılamadı (arama zaman aşımı) — TDV'de gün aranmalı. Taslak 869–883 doğru; Zenc'in 'devlet' sayılma niteliği (isyan hareketi + başkent Muhtâre) ana oturum kararı. Siyasi devlet niteligi sinirli.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -150,11 +158,11 @@
   "ad": "Bataih Emirliği (Imran b. Şâhin)",
   "tur": "emirlik",
   "bolge": "mezopotamya",
-  "f": "0923-01-01",
-  "t": "0983-01-01",
+  "f": "0940-01-01",
+  "t": "1018-01-01",
   "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "f": "onyil",
+   "t": "onyil"
   },
   "baskent": "Vâsit civari",
   "etkin_bolge": "Bataih",
@@ -165,9 +173,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Emirate of the Marshes (Batihah) — 'Imrân b. Şâhîn kurucu (949–79 civarı), ölümü 979 yazı; Hasan 979, Muhammed (öl. 983/84), Muzaffer b. Ali (öl. 986), Ebu'l-Hasan Ali b. Nasr (Muhaddib al-Dawla) 986–1017/18, el-Şerâbî; Büveyhî fethiyle biter; atfedilen: Busse 1969/2004 Chalif und Großkönig; Donohue 2003 The Buwayhid Dynasty in Iraq (Brill); Kabir 1964; Streck & el-Ali 1960 EI2 'al-Baṭīḥa' s.1093–1097 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=0923-01-01, t=0983-01-01] Taslak t=0983 hatalı: kaynak Muhaddib al-Dawla'yı ~1017/18'e kadar sürdürüyor ve Büveyhî fethi (Sultan al-Dawla'nın seferi) sonrası. Fetih tarihi sayfada yok ⇒ t=1018 'en erken' sınır, onyil hassasiyeti; kaynak: EI2 'al-Baṭīḥa' ile kesinleştirilmeli (1019 hafızada). f: sayfa kategori '940s'; Imran'ın kaçışı Vâsıt civarı. Büveyhî ve Abbasi ile çakışma var.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -185,7 +195,7 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Sermâc / Dîneyver",
+  "baskent": "Dinaver (Sermâc)",
   "etkin_bolge": "Dîneyver, Hamedan",
   "sehirler": [
    "Dîneyver"
@@ -194,9 +204,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. TDV 'Hasanüyeler' ile dogrula. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Hasanwayhids — 959–1015 (infobox); Hasanuya 961–979, Badr 979–1014; Abu'l-Fath b. Annaz Şehrizor'u geri alır; Annazî iktidarı Cibal'de yerini alır; son varis Sermâc'ta 1047 öldü; başkent Dinaver; atfedilen: Bosworth 1975 CHI 4 s.250–305; Bosworth 1996 New Islamic Dynasties s.157–158; Minorsky 1986 EI2 'Ḥasanwayh' 3 s.258–259; Öpengin 2021 Cambridge History of the Kurds; Gunter 2010 Historical Dictionary of the Kurds (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=0959-01-01, t=1015-01-01] Bolge sözlüğü kapalı: Kürt emirliği için 'iran' kullanıldı (kurdistan kodu önerisi geçerli). f=959 infobox, hasanuya kendi 961'de başlıyor (Hasanuya 961–979). Annazî (991–) ile çakışma; ardıl. TDV 'Hasanüyeler' ile dogrula.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -208,13 +220,13 @@
   "ad": "Ferîgûnîler (Cüzcan)",
   "tur": "emirlik",
   "bolge": "iran",
-  "f": "0900-01-01",
-  "t": "1000-01-01",
+  "f": "0801-01-01",
+  "t": "1010-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yuzyil"
+   "t": "yil"
   },
-  "baskent": "Gûzgan",
+  "baskent": "Yahudiyye (Meymene); emir oturağı Anbar (Guzgan)",
   "etkin_bolge": "Horasan kuzeyi",
   "sehirler": [
    "Gûzgan"
@@ -223,9 +235,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Farighunids — 9. yy'da kurulur, Gazneli Mahmud ~1010'da (Ebu'n-Nasr Muhammed ölümü sonrası, oğlu Hasan varken) Guzgan'ı alır; başkent Yahudiyye (Maymana), Anbar; atfedilen: Bosworth 1984 'Āl-e Farīḡūn' EnIr 1/7 s.756–758; Dunlop 1965 EI2 'Farighunids' 2 s.798–800; Haug 2015 EI3; Davud 2018 Encyclopaedia Islamica (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=0900-01-01, t=1000-01-01] f 'dokuzuncu yüzyıl' (yuzyil hassasiyeti); taslak f=900 yanlış. t=1010 (Gazneli); taslak 1000. Guzgan bugünkü Afganistan kuzeyi ⇒ bolge 'iran' mı 'orta-asya' mı ana oturum kararı (Samani vasalı).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -237,13 +251,13 @@
   "ad": "Simcûrîler (Horasan)",
   "tur": "emirlik",
   "bolge": "iran",
-  "f": "0900-01-01",
-  "t": "1000-01-01",
+  "f": "0913-01-01",
+  "t": "1002-01-01",
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
+   "f": "yil",
+   "t": "yil"
   },
-  "baskent": "Nîşâbûr",
+  "baskent": "Nişâbûr (valilik); Kuhistan",
   "etkin_bolge": "Horasan",
   "sehirler": [
    "Nîşâbûr"
@@ -252,13 +266,50 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Simjurids — Simjur ed-Devâtî 913–914, İbrâhîm b. Simjur 944/5, Ebu'l-Hasan Muhammed 956–960/961–982, Ebû Ali Muhammed 984–987/995–997, Ebu'l-Kâsım Ali 997–1002 (Gaznelilerce yakalanıp öldürüldü); atfedilen: Bosworth 1996 New Islamic Dynasties s.175; Treadwell 'Simjurids' EnIr (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=0900-01-01, t=1000-01-01] Sayfa kuruluş/bitiş tarihi vermiyor, yalnız valilik listesi: f=ilk vali (913), t=son hükümdar (1002). Samani valileri olarak 'devlet' niteliği sınırlı ⇒ ana oturum kararı. Başkent sayfada yok.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": "Yok."
+  }
+ },
+ {
+  "id": "sacilar",
+  "ad": "Sâcîler (Ebu's-Sâc oğulları)",
+  "tur": "hanedanlik",
+  "bolge": "iran",
+  "f": "0889-01-01",
+  "t": "0929-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Merâga (889–901) → Erdebil (901–929); sık sık Berde'de",
+  "etkin_bolge": "Azerbaycan ve Ermenistan'ın bir kısmı, Güney Kafkasya",
+  "sehirler": [
+   "Merâga",
+   "Erdebil",
+   "Berde"
+  ],
+  "ozet": "Ebu'l-Sâc oğlu Muhammed 889/890'da Azerbaycan valisi atandı; Yusuf Erdebil'e taşındı; son hükümdar Feth köle tarafından Erdebil'de zehirlenince hanedan bitti.",
+  "oncul": [],
+  "ardil": [
+   "musafiri"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Sajid dynasty — 889/890'dan 929'a; Muhammed b. Ebi's-Sâc 889–901, Devdâd 901, Yusuf 901–919/922–928, Sübük 919–922, Feth 928–929; Sâllârîler 941'de Azerbaycan'a genişler; atfedilen: Bosworth 1989 'Azerbaijan iv. Islamic History to 1941' EnIr 3; Bosworth 1996 New Islamic Dynasties s.147; Madelung 1975 CHI 4 s.198–249; Minorsky 1957 Studies in Caucasian History s.111 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Mevcut TSV'de Sâcî yok (arandı: saci, sajid). Kafkasya/İran sınırında; bolge 'iran' seçildi (Merâga, Erdebil), Berde ve Ermenistan kolu için kafkasya payı olabilir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok (Tur 2'de TSV'ye karşı kontrol edildi)."
   }
  }
 ]

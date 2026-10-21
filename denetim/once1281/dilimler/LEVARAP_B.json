@@ -1,7 +1,7 @@
 [
  {
   "id": "byblos",
-  "ad": "Byblos (Gubla) Sehir Devleti",
+  "ad": "Byblos (Gubla) Şehir Devleti",
   "ad_yerel": "Gubla / Gebal",
   "tur": "sehir-devleti",
   "bolge": "suriye-filistin",
@@ -17,24 +17,24 @@
    "Byblos",
    "Batrun"
   ],
-  "ozet": "Erken Tunc cagindan beri Misir ticaretiyle one cikan Fenike sehir krallıgi; Iskender fethine (MO 332) kadar yerel krallarla surdu.",
+  "ozet": "Fenike kıyısında Mısır ticaretiyle öne çıkan kral listeli şehir devleti; Asur, Babil ve Pers egemenliği altında yerel krallarla sürdü, İskender'in gelişiyle (MÖ 332) Helenistik döneme girdi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Byblos' maddesi, 21.10.2026 okundu; dipnottaki akademik eserler açılmadı: Elayi & Elayi 2014, A Monetary and Political History of the Phoenician City of Byblos (Eisenbrauns); Dunand 1973, Byblos: Its History, Ruins and Legends"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Baslangic yuzyil duzeyinde; Misir/Babil/Pers egemenligi altinda yerel kral listesi surdu. Atlas tek birlesik Fenike kunyesi tutuyor (MO 1200 baslangici).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Maddede bağımsız krallığın başlangıç tarihi yok; f taslak değeri korundu (EBA, kaynaksız). Kral adları: Sibittibaal (738'de Tiglat-pileser III'e haraç), Urumilki (701), Milkiasaph ve Yehawmelek (Esarhaddon-Asurbanipal). Pers döneminde (MÖ 538-332) dört Fenike vasal krallığından biri. t: MÖ 332 İskender (maddede 'Helenistik egemenlik İskender'le geldi'). taslak değeri: aynı. [Önceki taslak notu: Baslangic yuzyil duzeyinde; Misir/Babil/Pers egemenligi altinda yerel kral listesi surdu. Atlas tek birlesik Fenike kunyesi tutuyor (MO 1200 baslangici).]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "fenike-sehirleri",
-   "not": ""
+   "not": "Atlas birleşik Fenike künyesi MÖ 1200-331; Byblos EBA'dan beri ayrı krallık, künye başlangıçta kısa."
   }
  },
  {
   "id": "tire",
-  "ad": "Tire (Sur) Krallıgi",
+  "ad": "Tire (Sur) Krallığı",
   "ad_yerel": "Sur",
   "tur": "sehir-devleti",
   "bolge": "suriye-filistin",
@@ -50,24 +50,24 @@
    "Tire",
    "Kartaca (koloni)"
   ],
-  "ozet": "Fenike sehir devleti; Hiram I ile guclendi, Kartaca dahil kolonileri kurdu; Iskender kusatmasiyla (MO 332) bagimsizligi bitti.",
+  "ozet": "Hiram I ile güçlenen, Kartaca dahil koloniler kuran Fenike şehir devleti; MÖ 332'de İskender'in kuşatmasıyla bağımsızlığı bitti.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Tyre, Lebanon' maddesi, 21.10.2026 okundu (yalnız İskender kuşatması MÖ 332 ve Babil egemenliği MÖ 572 desteklendi); akademik dipnotlar açılmadı"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Baslangic Menandros/Josephus kral listesi ve ic kronolojiye gore degisir; yuzyil kesinligi. Atlas birlesik kunye tutuyor.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Maddede bağımsızlığın başlangıcı ve Hiram I (c. MÖ 969-936) tarihleri yok; f taslak değeri (yuzyil). Seleukos'tan özerklik MÖ 126 maddede geçmiyor. Babil egemenliği MÖ 572 (maddede). t: MÖ 332 İskender kuşatması. [Önceki taslak notu: Baslangic Menandros/Josephus kral listesi ve ic kronolojiye gore degisir; yuzyil kesinligi. Atlas birlesik kunye tutuyor.]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "fenike-sehirleri",
-   "not": ""
+   "not": "Birleşik künye; Tire ayrı kral listeli."
   }
  },
  {
   "id": "sidon",
-  "ad": "Sidon (Sayda) Krallıgi",
+  "ad": "Sayda (Sidon) Krallığı",
   "ad_yerel": "Sidon",
   "tur": "sehir-devleti",
   "bolge": "suriye-filistin",
@@ -82,29 +82,29 @@
   "sehirler": [
    "Sayda"
   ],
-  "ozet": "Fenike sehir devleti; Pers doneminde Fenike donanmasinin bas ussu, MO 351 isyaninin bastirilmasi sonrasi Iskender donemine kadar kral listesi surdu.",
+  "ozet": "Pers döneminde Fenike filosunun başı; Eşmunazar II sarkofagının şehri; İskender MÖ 333'te şehri aldı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Sidon' maddesi, 21.10.2026 okundu; akademik dipnotlar açılmadı"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas birlesik Fenike kunyesi; sehir bagimsiz yonetildi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Maddede: Amarna döneminde (c. MÖ 1350) Zimredda; Eşmunazar II 'muhtemelen MÖ 5. yy'; MÖ 351 Artaxerxes III istilası; İskender MÖ 333. Bu yüzden t için MÖ 333/332 aralığı; taslak değeri -0331 korundu. MÖ 111 özerklik maddede yok. [Önceki taslak notu: Atlas birlesik Fenike kunyesi; sehir bagimsiz yonetildi.]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "fenike-sehirleri",
-   "not": ""
+   "not": "Birleşik künye."
   }
  },
  {
   "id": "arvad",
-  "ad": "Arvad (Aradus) Krallıgi",
+  "ad": "Arvad (Aradus) Krallığı",
   "ad_yerel": null,
   "tur": "sehir-devleti",
   "bolge": "suriye-filistin",
   "f": "-1199-01-01",
-  "t": "-0331-01-01",
+  "t": "-0258-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yil"
@@ -115,57 +115,57 @@
    "Arvad",
    "Amrit"
   ],
-  "ozet": "Fenike kuzey kıyısında ada sehir devleti; ticaret ve donanma gucuyle Iskender donemine kadar kendi krallari oldu.",
+  "ozet": "Fenike kuzey kıyısında ada şehir devleti; kendi hanedanı ve sikkeleri vardı; MÖ 259'da Selevkos II. Antiokhos döneminde krallık sona erip özgür şehre dönüştü.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Arwad' maddesi, 21.10.2026 okundu; dipnotlar: Lipiński 2004 Itineraria Phoenicia; Sommer 2008 Die Phönizier (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tamamen taslak; kral listesi okunmadi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri t=-0331 (İskender). Maddeye göre İskender'e kral Gerostratus teslim oldu (MÖ 332) ve krallık sürdü; geleneksel krallık MÖ 259'da (Antiochus II) sona erdi, özgür şehir Mark Antony kuşatması (MÖ 38) sonrası MÖ 34-35'te bağımsızlığını yitirdi. Burada t=MÖ 259 (krallığın sonu). Bkz. fenike-ozerk-sehirleri. [Önceki taslak notu: Tamamen taslak; kral listesi okunmadi.]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "fenike-sehirleri",
-   "not": ""
+   "not": "Birleşik künye."
   }
  },
  {
   "id": "amurru",
-  "ad": "Amurru Krallıgi",
+  "ad": "Amurru Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
   "f": "-1349-01-01",
-  "t": "-1174-01-01",
+  "t": "-1199-01-01",
   "kesinlik": {
    "f": "onyil",
    "t": "onyil"
   },
-  "baskent": "Tunip?/Sumur?",
+  "baskent": "Sumur",
   "etkin_bolge": null,
   "sehirler": [
    "Sumur",
    "Ulaza"
   ],
-  "ozet": "Amarna caginda Abdi-Asirta ve Aziru ile yukselen kuzey Levant krallıgi; Hitit vasali oldu, Deniz Kavimleri donemi cokusunde yok oldu.",
+  "ozet": "Amarna çağında Abdi-Aşirta ve Aziru ile yükselen Orta Levant kıyı krallığı; Hitit vasalı; MÖ c. 1200 Tunç Çağı çöküşüyle yok oldu.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Amurru kingdom', 21.10.2026 okundu; dipnotlar: Singer 1991 'The Land of Amurru...' Iraq 53:69-74; Singer 1999 'A Political History of Ugarit' Handbook of Ugaritic Studies (Brill); Bryce 2005 Kingdom of the Hittites (OUP); Cordani 2011 (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Baskent kesin degil. Mevcut kaynaklar yalnizca onyil duzeyi verir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Maddede başkent Sumur. Abdi-Aşirta MÖ 14. yy, Aziru c. MÖ 1350-1315. Ilk belgeli hükümdar Abdi-Aşirta; kısa sonuna c. MÖ 1200 (infobox; kaynaksız). taslak değeri t=-1174. 'c. MÖ 2000' infobox başlangıcı coğrafî terim için, siyasî birim olarak reddedildi. [Önceki taslak notu: Baskent kesin degil. Mevcut kaynaklar yalnizca onyil duzeyi verir.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "Mevcut listede yok (Ugarit komşu)."
   }
  },
  {
   "id": "kades",
-  "ad": "Kades (Qadesh) Krallıgi",
+  "ad": "Kades (Kadeş) Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
@@ -185,19 +185,19 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "ADAY (okunmadı, doğrulanmadı): bu oturumda sayfa açılıp okunmadı; Pleiades / Cambridge Ancient History / Amarna mektupları edisyonu hedef kaynak"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Kades Savasi tarihi orta kronolojiye gore ~MO 1274; bagimsizlik suresi okunmadi.",
+  "ic_not": "Bu oturumda kaynaktan okunmadı; taslak. Kades Savaşı ~MÖ 1274 (orta kronoloji). Bağımsız krallık süresi belirsiz. mükerrer riski: anadolu/Hitit ajanı ile. [Önceki taslak notu: Kades Savasi tarihi orta kronolojiye gore ~MO 1274; bagimsizlik suresi okunmadi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "Mükerrer riski: Hitit/anadolu ajanı."
   }
  },
  {
   "id": "mukis-alalah",
-  "ad": "Mukis (Alalah) Krallıgi",
+  "ad": "Mukiş (Alalah) Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
@@ -212,26 +212,26 @@
   "sehirler": [
    "Alalah"
   ],
-  "ozet": "Yamhad coktuktan sonra Idrimi ile kurulan Mitanni vasali krallik; Suppiluliuma I sefernamesiyle Hitit egemenligine girdi.",
+  "ozet": "Yamhad sonrası İdrimi ile Mitanni vasalı olarak kurulan Alalah merkezli krallık; Suppiluliuma I Suriye seferiyle (c. MÖ 1350) Hitit egemenliğine girdi.",
   "oncul": [
    "yamhad"
   ],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Alalakh', 21.10.2026 okundu; dipnotlar: von Dassow 2020 'Alalaḫ between Mittani and Ḫatti' JANEC 2; Yener 2007 Anatolian Studies 57; Woolley 1955 Alalakh (OUP); Devecchi 2007 SMEA (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Idrimi tarihi okullara gore ayrisir. Alalah VII (Yamhad vasali) ayri sayilmadi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": " Başka bölge ajanlarıyla mükerrer riski: mukis-alalah (Hitit/anadolu ajanı). Maddede İdrimi 'MÖ 15. yy' (kesin tarih yok); Hitit fethi c. MÖ 1350 (mid-14th c.); krallık sonu: Cline'a göre şehir MÖ 1300'e dek terk, yapı MÖ 12. yy'da yıkıldı; Mukiş Hitit vasalı olarak sürmüş olabilir. t taslak değeri (-1339) korundu = bağımsız/Mitanni vasalı evre. [Önceki taslak notu: Idrimi tarihi okullara gore ayrisir. Alalah VII (Yamhad vasali) ayri sayilmadi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "Mükerrer riski."
   }
  },
  {
   "id": "nuhasse",
-  "ad": "Nuhasse Krallıgı",
+  "ad": "Nuhaşşe Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
@@ -241,20 +241,20 @@
    "f": "yuzyil",
    "t": "onyil"
   },
-  "baskent": "Tell Hama? / belirsiz",
+  "baskent": "Ugulzat? (Tell Khan Sheykhun)",
   "etkin_bolge": null,
   "sehirler": [
    "Nuhasse"
   ],
-  "ozet": "Halep-Hama arasi Suriye ic bolgesinde Amarna caginda krallar listesi olan sehir devletleri birligi; Hitit-Misir-Mitanni arasi vasal el degistirdi.",
+  "ozet": "Halep-Hama arasında şehir devletleri birliği; Taku (c. MÖ 1470-1450) Tutmosis III'ün tayiniyle; Suppiluliuma I Büyük Suriye Savaşı'nda (c. MÖ 1350-1345) ilhak etti.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Nuhašše', 21.10.2026 okundu; dipnotlar: Astour 2002 Eblaitica 4; Bryce 2005 Kingdom of the Hittites; Pfälzner 2012 Companion to Archaeology of Ancient Near East (Wiley); Drower 1973 CAH II/1; Rainey 2015 El-Amarna Correspondence (Brill) (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Cok belirsiz; baslangic ve bitis cag duzeyi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": " Başka bölge ajanlarıyla mükerrer riski: nuhasse (anadolu/Hitit). Başkent muhtemelen Ugulzat = Tell Khan Sheykhun (maddede 'tentatif'). Hitit vasalı Tette Mursili II zamanında (c. MÖ 1322) yeniden tahtta; bu yüzden vasal krallık sonrası da sürmüş. Sonra Lu'aş adıyla anılır. Bitiş için kaynak yok; taslak değeri korundu. [Önceki taslak notu: Cok belirsiz; baslangic ve bitis cag duzeyi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -263,7 +263,7 @@
  },
  {
   "id": "katna",
-  "ad": "Katna (Qatna) Krallıgi",
+  "ad": "Katna (Qatna) Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
@@ -278,15 +278,15 @@
   "sehirler": [
    "Katna"
   ],
-  "ozet": "Orta Suriye ovasinda Amorit krallik; Yamhad ve Mitanni ile iliskili, Hitit Suppiluliuma I ile yikildi.",
+  "ozet": "Orta Suriye'de Amorit krallık; Işhi-Addu (c. MÖ 1783-1776) döneminde zirve; son kral Akizzi; Suppiluliuma I ile Hitit egemenliğine girdi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Qatna', 21.10.2026 okundu; dipnotlar: Pfälzner 2007-2014; Morandi Bonacossi 2007-2013; Richter 2002; Bryce 2014; Astour 2002 (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Yikilis tarihi MO ~1340 (Suppiluliuma) ya da MO ~1340-1330 olarak ayrisir. Taslak.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Maddede 'c. MÖ 2000'de kuruldu' (kaynaksız); ilk bilinen kral Amut-piel I MÖ 19. yy sonu, saray 1790-1760. Saray c. MÖ 1340'ta Mitanni Tuşratta ile yakıldı, şehir Suppiluliuma I ile sonra yağmalandı (MÖ 1340 sonrası, 1334 öncesi). f taslak değeri MÖ 1800 korundu (ilk kral kaydı). [Önceki taslak notu: Yikilis tarihi MO ~1340 (Suppiluliuma) ya da MO ~1340-1330 olarak ayrisir. Taslak.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -295,12 +295,12 @@
  },
  {
   "id": "hana-terqa",
-  "ad": "Hana (Terqa) Krallıgi",
+  "ad": "Hana (Terqa) Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
-  "f": "-1758-01-01",
-  "t": "-1499-01-01",
+  "f": "-1759-01-01",
+  "t": "-1449-01-01",
   "kesinlik": {
    "f": "onyil",
    "t": "yuzyil"
@@ -311,17 +311,17 @@
    "Terqa",
    "Mari"
   ],
-  "ozet": "Mari yikilisindan (Hammurabi, MO ~1759) sonra Orta Firat Terqa merkezli Hana krallari; Kassit/Mitanni cagina kadar surdu.",
+  "ozet": "Mari'nin yıkılışından (Zimri-Lim c. MÖ 1761) sonra Orta Fırat'ta Terqa merkezli kral hanedanı; Yapah-Sumu, Yadih-Abu, Kaştiliyaşu; MÖ 15. yy ortasında Mitanni egemenliği.",
   "oncul": [
    "mari-lim"
   ],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Terqa', 21.10.2026 okundu; dipnotlar: Podany 2014 'Hana and the Low Chronology' JNES 73(1):49-71; Buccellati 'The Kingdom and Period of Khana' BASOR 270:43-61; von Dassow 2022 Oxford History of the Ancient Near East III (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mari bolge/coğrafya sinirinda; mezopotamya ajanıyla mukerrer olabilir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": " Başka bölge ajanlarıyla mükerrer riski: hana-terqa (mezopotamya ajanı). Orta kronoloji. t taslak değeri -1499; maddeye göre Terqa MÖ 15. yy ortasında Mitanni'ye bağlandı (Sinia, Qiš-Addu vasal); Hana krallarının sonraki (Orta Babil) dönemi Podany'ye göre. f: Mari düşüşü sonrası güç Terqa'ya kaydı. [Önceki taslak notu: Mari bolge/coğrafya sinirinda; mezopotamya ajanıyla mukerrer olabilir.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -330,12 +330,12 @@
  },
  {
   "id": "nagar",
-  "ad": "Nagar (Tell Brak) Krallıgi",
+  "ad": "Nagar (Tell Brak) Şehir Devleti",
   "ad_yerel": null,
   "tur": "sehir-devleti",
   "bolge": "suriye-filistin",
   "f": "-2599-01-01",
-  "t": "-2199-01-01",
+  "t": "-2299-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yuzyil"
@@ -345,15 +345,15 @@
   "sehirler": [
    "Nagar"
   ],
-  "ozet": "Habur havzasinda Ebla ve Mari ile cagdas guclu sehir devleti; Akad doneminde Naram-Sin sarayi kuruldu.",
+  "ozet": "Habur havzasında Ebla ve Kiş ile çağdaş güçlü şehir devleti; MÖ c. 2300'de Akad fethiyle bitti; Akad sonrası Hurri Nagar hanedanı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Tell Brak', 21.10.2026 okundu; dipnotlar: Oates & Oates 2001; Matthews & Eidem 1993; Eidem-Finkel-Bonechi 2001 (Iraq/Ebla); Ur 2010; Emberling 2002 (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "KUZEYDOGU SURIYE: mezopotamya ajanıyla mukerrer riski. Ebla arsivinde sik gecer.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": " Başka bölge ajanlarıyla mükerrer riski: nagar (mezopotamya ajanı). Maddeye göre krallık c. MÖ 2600-2300 (taslak değeri -2599..-2199). Kral Mara-Il (MÖ 24. yy sonu). Akad eyaleti (Naram-Sin sarayı), c. MÖ 2193 yangın, sonra Hurri Nagar hanedanı (Talpuş-atili) bağımsız; Mitanni merkezi c. MÖ 1500; Asur yıkımı MÖ 1300-1275. İkinci evre için ayrı kayıt gerekirse mezopotamya ajanı üstlenmeli. [Önceki taslak notu: KUZEYDOGU SURIYE: mezopotamya ajanıyla mukerrer riski. Ebla arsivinde sik gecer.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -362,7 +362,7 @@
  },
  {
   "id": "kenan-sehir-devletleri",
-  "ad": "Kenan Sehir Devletleri (Hasor, Megiddo, Lakis, Gezer, Sikem, Urusalim)",
+  "ad": "Kenan Şehir Devletleri (Hasor, Megiddo, Lakiş, Gezer, Şekem, Kudüs)",
   "ad_yerel": null,
   "tur": "sehir-devleti",
   "bolge": "suriye-filistin",
@@ -387,10 +387,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "ADAY (okunmadı, doğrulanmadı): bu oturumda sayfa açılıp okunmadı; Pleiades / Cambridge Ancient History / Amarna mektupları edisyonu hedef kaynak"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Tek kayit olarak yazildi; tek tek ayri (Hasor, Sikem-Labayu) gerekirse genisletilir. Bitis Misir cekilisi ve Deniz Kavimleri ~MO 1175.",
+  "ic_not": "Bu oturumda kaynaktan okunmadı; taslak. Tek toplu kayıt polity olarak zayıf: Amarna mektuplarının (EA) Şekem/Labayu, Hasor, Megiddo, Kudüs krallarını ayrı ayrı yazmak gerekir. Öneri: toplu kayıt yerine şehir bazında ayrı kayıt veya eleme. [Önceki taslak notu: Tek kayit olarak yazildi; tek tek ayri (Hasor, Sikem-Labayu) gerekirse genisletilir. Bitis Misir cekilisi ve Deniz Kavimleri ~MO 1175.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -399,11 +399,11 @@
  },
  {
   "id": "birlesik-israil",
-  "ad": "Birlesik Israil Krallıgi (Saul-Davud-Suleyman)",
+  "ad": "Birleşik İsrail Krallığı (Saul-Davud-Süleyman)",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
-  "f": "-1029-01-01",
+  "f": "-1046-01-01",
   "t": "-0929-01-01",
   "kesinlik": {
    "f": "onyil",
@@ -416,15 +416,15 @@
    "Hebron",
    "Gibea"
   ],
-  "ozet": "Kitab-i Mukaddes gelenegine gore Saul, Davud ve Suleyman donemi; tarihselligi ve sinirlari arkeolojide tartismalidir.",
+  "ozet": "Kitab-ı Mukaddes geleneğine göre Saul, Davud ve Süleyman'ın birleşik krallığı (c. MÖ 1047-930); tarihselliği ve ölçeği tartışmalıdır.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'United Monarchy', 21.10.2026 okundu (dönem MÖ c. 1047-c. 930; Finkelstein-Mazar kronoloji tartışması); akademik dipnotlar açılmadı"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihselligi ve olcegi tartismali (maksimalist vs minimalist). Yalnizca kitabi kaynakli; Tel Dan stelinden Davud evi tanikligi ~MO 9. yy. Atlas Samiriye krallıgini MO 930den baslatiyor.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihselliği tartışmalı (maksimalist/minimalist; Finkelstein 'düşük kronoloji', Mazar, Dever 'erken devlet', Faust-Farber 2025 'mini-imparatorluk'). Atlas Samiriye krallığını MÖ 930'dan başlatıyor; bölünme c. MÖ 930. taslak değeri f=-1029. [Önceki taslak notu: Tarihselligi ve olcegi tartismali (maksimalist vs minimalist). Yalnizca kitabi kaynakli; Tel Dan stelinden Davud evi tanikligi ~MO 9. yy. Atlas Samiriye krallıgini MO 930den baslatiyor.]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "israil-krallik",
@@ -433,7 +433,7 @@
  },
  {
   "id": "hamat",
-  "ad": "Hamat Krallıgi",
+  "ad": "Hamat Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
@@ -448,24 +448,24 @@
   "sehirler": [
    "Hama"
   ],
-  "ozet": "Orta Asi'de Luvi-Arami karisimi sehir devleti; Asur ile ittifak savaslarinda (Karkar MO 853) rol aldi, II. Sargon ile yikildi.",
+  "ozet": "Orta Asi'de Luvi-Arami karışımı krallık; Irhuleni Karkar'da (MÖ 853) Aram-Dimaşk ile ittifak etti; II. Sargon MÖ c. 720'de yıktı, kral Ilu-bi'di idam edildi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Hamath', 21.10.2026 okundu; dipnotlar: Hawkins 1975 'Hamath' RlA 4; Sourdel 1971 EI2 III 'Ḥamāt'; Grainger 2016 Syria: An Outline History (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas yeni-hitit kunyesi bolge anadolu; Hamat ayri krallik olarak daha net.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": " Başka bölge ajanlarıyla mükerrer riski: hamat (anadolu/Yeni Hitit ajanı: yeni-hitit künyesi Hamat'ı içeriyor). Maddede bağımsız krallığın başlangıcı yok; f taslak değeri (yuzyil) korundu. Kral Zakkur (Hamat ve Luhuti, Aramice yazıt), Irhuleni (MÖ 853), Ilu-bi'di (isyan, c. MÖ 720). t=MÖ 720 (Sargon II). [Önceki taslak notu: Atlas yeni-hitit kunyesi bolge anadolu; Hamat ayri krallik olarak daha net.]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "yeni-hitit",
-   "not": ""
+   "not": "Atlas yeni-hitit künyesi bölge anadolu ve Hamat'ı sayıyor; Hamat ayrı krallık."
   }
  },
  {
   "id": "arpad",
-  "ad": "Arpad (Bit-Agusi) Krallıgi",
+  "ad": "Arpad (Bit-Agusi) Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
@@ -480,15 +480,16 @@
   "sehirler": [
    "Arpad"
   ],
-  "ozet": "Kuzey Suriye Aram krallıgi; Asur karsiti koalisyonlarin merkezi, uc yillik kusatma sonrasi III. Tiglat-pileser ile yikildi.",
+  "ozet": "Kuzey Suriye'de Arami krallık; Gusi MÖ 9. yy başı kurucu; Mati-ilu (c. MÖ 754) ile Asur antlaşmaları; III. Tiglat-pileser'in 3-4 yıllık kuşatmasıyla (MÖ 743-740) Asur eyaleti oldu.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Encyclopedia.com 'Arpad' (ansiklopedik metin; MÖ 858 Aramé haracı, 754 Aşur-nirari V, 743 Tiglat-pileser III saldırısı, '4 yıllık savaş ve kuşatma') 21.10.2026 okundu",
+   "Vikipedi (aracı) 'Bit Agusi' 21.10.2026 okundu (MÖ 743'te üç yıllık kuşatma, 'MÖ 9. yy başı' kuruluş)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Yikilis ~MO 740 (kusatma 743-740).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "İki kaynak kuşatma süresinde ayrışır: Encyclopedia.com 4 yıl (743-740'a işaret), Vikipedi 3 yıl (743-740). MÖ 740 sonu çıkarım. MÖ 720 Sargon'a karşı Arpad isyanı ayrıca anılır. taslak değeri f=-0899,t=-0739 doğrulandı. [Önceki taslak notu: Yikilis ~MO 740 (kusatma 743-740).]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -497,11 +498,11 @@
  },
  {
   "id": "bit-adini",
-  "ad": "Bit-Adini Krallıgi",
+  "ad": "Bit-Adini Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
-  "f": "-0899-01-01",
+  "f": "-0999-01-01",
   "t": "-0854-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -512,15 +513,15 @@
   "sehirler": [
    "Til Barsip"
   ],
-  "ozet": "Firat kivrimlarinda Aram krallıgi; III. Salmanasar ile MO 855te Asur eyaletine cevrildi.",
+  "ozet": "Fırat kıvrımında Til Barsip merkezli Arami krallık; Ahuni; III. Salmanasar MÖ 856/855'te Asur eyaletine çevirdi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Bit Adini', 21.10.2026 okundu; dipnotlar: Bryce 2012 World of the Neo-Hittite Kingdoms; Younger 2016 A Political History of the Arameans; CAH (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Baslangic yuzyil duzeyi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Infobox başlangıç c. MÖ 1000 (taslak değeri -0899'dan değiştirildi). Annexation '856-5 BC'. Maddenin iç çelişkisi: Ahuni MÖ 853 Karkar'da (koalisyon) anılıyor, ilhak ise ondan önce. t=-0854 (855 MÖ) korundu, aralık 856/855. [Önceki taslak notu: Baslangic yuzyil duzeyi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -529,7 +530,7 @@
  },
  {
   "id": "patina-unqi",
-  "ad": "Patina (Unqi) Krallıgi",
+  "ad": "Patina (Unqi) Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
@@ -544,15 +545,15 @@
   "sehirler": [
    "Kinalua"
   ],
-  "ozet": "Amik ovasi Yeni Hitit-Arami krallik; MO 738de III. Tiglat-pileser ile Asur eyaletine ceviriliyor.",
+  "ozet": "Amik ovasında Yeni Hitit-Arami krallık; başkent Kinalua (Tell Tayinat); son kral Tutammu MÖ 738'de III. Tiglat-pileser'e yenildi, Asur eyaleti oldu.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Pattin', 21.10.2026 okundu; dipnotlar: Weeden 2013 BICS; Dinçol vd. 2015 Anatolian Studies; Bryce 2012 World of the Neo-Hittite Kingdoms s.130-133 (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Anadolu ajaniyla (Yeni Hitit grubu) mukerrer olabilir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": " Başka bölge ajanlarıyla mükerrer riski: patina-unqi (anadolu/Yeni Hitit ajanı). Infobox 'MÖ 870 öncesi'-738; metin '9. yy'. Kral listesi Taita I (11. yy) ile başlıyor. f taslak değeri korundu. t=MÖ 738 maddenin sonu (-0737). [Önceki taslak notu: Anadolu ajaniyla (Yeni Hitit grubu) mukerrer olabilir.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -561,7 +562,7 @@
  },
  {
   "id": "aram-soba",
-  "ad": "Aram-Soba (Zova) Krallıgi",
+  "ad": "Aram-Soba (Zova) Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
@@ -576,15 +577,15 @@
   "sehirler": [
    "Soba"
   ],
-  "ozet": "Beka vadisi Aram krallıgi; Kitab-i Mukaddese gore Davud ile savasti.",
+  "ozet": "Beka vadisi/Anti-Lübnan'da Arami krallık; Hadadezer bar Rehob Davud'la savaştı ve haraca bağlandı; Süleyman zamanında bağımsızlaştı; MÖ 8. yy Tiglat-pileser III kayıtlarında Şubat eyaleti.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Aram-Zobah', 21.10.2026 okundu; dipnotlar: Lipiński 2000 The Arameans; Na'aman 2022; Charpin 1998; Jewish Encyclopedia 1902 (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Yalnizca kitabi kaynak; konum tartismali.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Maddede kesin tarih yok; Davud çağdaşı (Kitab-ı Mukaddes). f/t taslak değerleri yüzyıl hassasiyetinde ve doğrulanmadı. Yalnız kitabi kaynak + Mari 'Şibat' ilk anılış; Süleyman döneminde Rezon Dimaşk'ı aldı (maddede yok). [Önceki taslak notu: Yalnizca kitabi kaynak; konum tartismali.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -593,12 +594,12 @@
  },
  {
   "id": "ammon",
-  "ad": "Ammon Krallıgi",
+  "ad": "Ammon Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
-  "f": "-1199-01-01",
-  "t": "-0579-01-01",
+  "f": "-1099-01-01",
+  "t": "-0581-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "onyil"
@@ -608,15 +609,16 @@
   "sehirler": [
    "Amman"
   ],
-  "ozet": "Urdun doğusunda Semitik krallik; Asur-Babil vasali, MO ~580 sonrasi Babil donemi bitisi.",
+  "ozet": "Ürdün'ün doğusunda Rabbat-Ammon (Amman) merkezli Sami krallık; Nahaş ve Hanun; Asur vasalı; MÖ c. 582 sonrası Babil eyaleti.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Encyclopedia.com 'Ammon, Ammonites' (ansiklopedik metin) 21.10.2026 okundu: Rabbat-Ammon başkent; Nahaş, Hanun, Sanipu (Tiglat-pileser III), Puduil (MÖ 701), Aminadab; Nebukadnezar MÖ 582 civarı Babil eyaleti",
+   "Vikipedi (aracı) 'Ammon', 21.10.2026 okundu: infobox c. MÖ 11. yy-332; Hübner 1992 Die Ammoniter; Tyson 2014 The Ammonites (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Baslangic ve bitis cag duzeyi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Çelişki: Encyclopedia.com 'MÖ 582 civarı Babil eyaleti, bağımsız ulus kanıtı yok'; Vikipedi infobox 332'ye (İskender) kadar sürdüğünü yazıyor. İlk kaynak seçildi. Başlangıç Vikipedi infobox 11. yy; Nahaş c. MÖ 1010-990. taslak değeri f=-1199 değiştirildi. [Önceki taslak notu: Baslangic ve bitis cag duzeyi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -625,12 +627,12 @@
  },
  {
   "id": "moab",
-  "ad": "Moab Krallıgi",
+  "ad": "Moab Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
   "f": "-1299-01-01",
-  "t": "-0579-01-01",
+  "t": "-0581-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "onyil"
@@ -641,15 +643,15 @@
    "Dibon",
    "Kerek"
   ],
-  "ozet": "Olu Deniz dogusu krallik; Mesa Steli (~MO 840) ile taniklidir; Babil donemine kadar.",
+  "ozet": "Ölü Deniz doğusunda Dibon merkezli krallık; Meşa Steli (MÖ 9. yy); MÖ 6. yy başı Babil vasalı/eyaleti.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Moab', 21.10.2026 okundu; dipnotlar: Dearman 1989 Studies in the Mesha Inscription and Moab; Routledge 2004 Moab in the Iron Age (UPenn); MacDonald 2020 A History of Ancient Moab (SBL) (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mesa Steli ~MO 9. yy ortasi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Infobox: kuruluş c. MÖ 13. yy, çöküş c. MÖ 400; metin: Nebukadnezar MÖ 582/'23. yıl' (Josephus). Mesa c. MÖ 853 saltanatı. t=-0581 (582) ve alternatif c. -0399 not edildi. taslak değeri f=-1299 aynı, t=-0579'dan hafif değişti. [Önceki taslak notu: Mesa Steli ~MO 9. yy ortasi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -658,31 +660,31 @@
  },
  {
   "id": "edom",
-  "ad": "Edom Krallıgi",
+  "ad": "Edom Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "suriye-filistin",
-  "f": "-1199-01-01",
-  "t": "-0549-01-01",
+  "f": "-1299-01-01",
+  "t": "-0552-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "onyil"
+   "t": "yil"
   },
-  "baskent": "Bozra",
+  "baskent": "Bozra (Busayra)",
   "etkin_bolge": null,
   "sehirler": [
    "Bozra",
    "Tawilan"
   ],
-  "ozet": "Olu Deniz guneyi/Aravah krallik; Asur-Babil vasali; Nabonid donemi MO ~552 sonrasi Nabati gelisine kadar.",
+  "ozet": "Ölü Deniz güneyi/Aravah'ta Bozra merkezli krallık; Nabonid c. MÖ 553'te fethetti; sonra Nabatiler ve Idumea.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Edom', 21.10.2026 okundu; dipnotlar: Levin 2015 Aram 27; Levy vd. 2019 PLOS ONE 14(9); Atkinson 2016 A History of the Hasmonean State; Negev & Gibson 2001 (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler cag duzeyi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Infobox: c. MÖ 13. yy-c. 553. taslak değeri f=-1199, t=-0549. Edom'un sonrası Idumea (Hasmoni fethi MÖ 2. yy sonu). Nabatiler MÖ 4. yy anılır; krallık MÖ 2. yy ilk yarısında kuruldu (atlas nabatiye f=-0167). [Önceki taslak notu: Tarihler cag duzeyi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -691,30 +693,30 @@
  },
  {
   "id": "kedar",
-  "ad": "Kedar (Qedar) Arap Krallıgi",
+  "ad": "Kedar Arap Krallığı (konfederasyonu)",
   "ad_yerel": null,
   "tur": "kabile-kralligi",
   "bolge": "arabistan",
-  "f": "-0799-01-01",
+  "f": "-0737-01-01",
   "t": "-0399-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yuzyil"
   },
-  "baskent": "belirsiz",
+  "baskent": null,
   "etkin_bolge": null,
   "sehirler": [
    "Duma?"
   ],
-  "ozet": "Kuzey Arabistan Arap kabile konfederasyonu/krallıgi; Asur kayitlarinda krallar, Pers doneminde Gazze-Misir yolu uzerinde.",
+  "ozet": "Kuzey Arabistan'da Asur kayıtlarında kralları anılan Arap kabile konfederasyonu (Hazail, Yauta, Ammuladi); MÖ 6. yy Babil, MÖ 5. yy Pers döneminde Geşem.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Encyclopedia.com 'Kedar' (ansiklopedik metin) 21.10.2026 okundu: ilk anılış MÖ 738 (Tiglat-pileser III haracı); Hazail MÖ c. 691-689 Sanherib; Yauta' c. MÖ 652; Nebukadnezar MÖ 599 baskını; Geşem kralı Kedar (Tell el-Maskhuta gümüş kâse, MÖ 5. yy)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tum taslak.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f=MÖ 738 ilk belgeli anılış (kuruluş değil). t yüzyıl hassasiyetiyle MÖ 5. yy sonu: Geşem'den sonra Nabati hakimiyeti; 'yok olduğu yıl bilinmiyor'. Konfederasyon yapısı (alt birimler). taslak değeri f=-0799,t=-0399. [Önceki taslak notu: Tum taslak.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -723,31 +725,31 @@
  },
  {
   "id": "lihyan",
-  "ad": "Dedan–Lihyan Krallıgi",
+  "ad": "Dedan-Lihyan Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "arabistan",
-  "f": "-0599-01-01",
+  "f": "-0499-01-01",
   "t": "-0099-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yuzyil"
   },
-  "baskent": "Dedan (el-Ula)",
+  "baskent": "Dedan (el-Hureybe, el-Ula)",
   "etkin_bolge": null,
   "sehirler": [
    "Dedan",
    "Hegra"
   ],
-  "ozet": "Hicaz kuzeyinde Dedan ve Lihyan krallari; ticaret yolu uzerinde, Nabatilerce emilene kadar.",
+  "ozet": "Hicaz'ın kuzeyinde Dedan/el-Ula merkezli Lihyan krallığı; Nabonid (c. MÖ 552) çağdaşı; Nabati ilhakıyla sonlandı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Lihyan', 21.10.2026 okundu; dipnotlar: Rohmer & Charloux 2015 Proceedings of the Seminar for Arabian Studies 45; Rohmer 2021; Macdonald 2019 'Liḥyān' EI3 (Brill); Farès-Drappeau 2005 Dédan et Liḥyān; Hoyland 2002 Arabia and the Arabs (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Lihyan/Dedan ardisikligi tartismali; tek kayit yazildi. t tahmini yuzyil.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç tartışmalı: infobox MÖ 5. yy; geleneksel MÖ 4. yy (JSLih 349); terminus post quem MÖ 552 (Nabonid); Rohmer-Charloux geç MÖ 6.-orta MÖ 3. yy aralığı. Son: infobox 'MÖ 1. yy?'; Winnett MÖ 2. yy; Caskel c. MÖ 24; başkaları MÖ 65/9. MS 106 Roma-Nabati sonrası bağımsızlık iddiası (Han'as b. Tilmi). En az 12 kral, toplam 199 yıl. taslak değeri f=-0599. [Önceki taslak notu: Lihyan/Dedan ardisikligi tartismali; tek kayit yazildi. t tahmini yuzyil.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -756,12 +758,12 @@
  },
  {
   "id": "magan",
-  "ad": "Magan (Umman) Krallıgı",
+  "ad": "Magan (Umman) Ülkesi",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "arabistan",
   "f": "-2299-01-01",
-  "t": "-0599-01-01",
+  "t": "-0549-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yuzyil"
@@ -771,15 +773,15 @@
   "sehirler": [
    "Sohar? Umm an-Nar"
   ],
-  "ozet": "Sumer-Akad kayitlarinda bakir madeni kaynagi Umman bolgesi ulkesi; Umm an-Nar ve Wadi Suq kulturlerine denk gelir.",
+  "ozet": "Sümer-Akad kayıtlarında bakır ve diyorit kaynağı Umman bölgesi; Naram-Sin ve Manistusu 32 Magan 'efendisi'ne karşı sefer yaptı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Magan (civilization)', 21.10.2026 okundu; dipnotlar: Hamblin 2006 Warfare in the Ancient Near East to 1600 BC; Hansman 2009 BSOAS; Abed & Hellyer 2001 UAE: A New Perspective (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Siyasi birim mi kultur mu belirsiz; dilim araligi tahmini. Kultur kaydi ile mukerrer olabilir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "POLİTY MI BELİRSİZ: madde Magan'ı 'antik bölge' diye tanımlıyor; '32 efendi' ve kral Manium birden çok yerel yönetime işaret ediyor. Umm an-Nar kültür kaydıyla mükerrer olabilir. Öneri: ELENEN'e taşıma kararı Emre'de. MÖ 550'ye dek Mezopotamya'ya madde kaynağı olduğu yazılı. taslak değeri f=-2299 (Naram-Sin sefer çağı) aynı. [Önceki taslak notu: Siyasi birim mi kultur mu belirsiz; dilim araligi tahmini. Kultur kaydi ile mukerrer olabilir.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -788,7 +790,7 @@
  },
  {
   "id": "awsan",
-  "ad": "Awsan (Ausan) Krallıgi",
+  "ad": "Avsan (Awsan) Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "arabistan",
@@ -798,20 +800,20 @@
    "f": "yuzyil",
    "t": "yuzyil"
   },
-  "baskent": "Hagar Yahirr",
+  "baskent": "Hajar Yahirr (varsayım)",
   "etkin_bolge": null,
   "sehirler": [
    "Hagar Yahirr"
   ],
-  "ozet": "Guney Arabistan Marib guneyinde krallik; Saba mukarribi Karib'il Watar tarafindan yenildi.",
+  "ozet": "Marib güneyinde Vadi Markha'da krallık; Saba mükarribi Karib'il Watar tarafından yok edildi (kral Murattaʿ, RES 3945).",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Awsan', 21.10.2026 okundu; dipnotlar: Robin 2015 'Before Ḥimyar' (OUP, Arabs and Empires before Islam); Nebes 2023 Oxford History of the Ancient Near East V; Avanzini 2016 By Land and by Sea; Becker-Fassbinder-Brunner 2001 (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Yikilis tarihi: Kitchen MO ~685-680; Korotayev ve baskalari MO ~500 civari; ikisi de okunmadi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Çelişki: Vikipedi infobox c. MÖ 800-c. 700, metin 'MÖ 7. yy sonu'; Kitchen ~MÖ 685-680; Korotayev ~MÖ 500. taslak değeri t=-0679 korundu (Kitchen). Başkent adı bilinmiyor; Hajar Yahirr varsayım. Karib'il Watar tarihi iç tutarsız (infobox 620-600; metin 8.-7. yy). Bu kayıt Avsan'ın yok olduğu 5-6 asır sonra MÖ 2. yy dirilişini içermiyor. [Önceki taslak notu: Yikilis tarihi: Kitchen MO ~685-680; Korotayev ve baskalari MO ~500 civari; ikisi de okunmadi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,

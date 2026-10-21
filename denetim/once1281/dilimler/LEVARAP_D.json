@@ -1,7 +1,7 @@
 [
  {
   "id": "habes-yemen",
-  "ad": "Habes Yemen (Abraha) Krallıgi",
+  "ad": "Habeş Yemen (Abraha) Krallığı",
   "ad_yerel": null,
   "tur": "krallik",
   "bolge": "arabistan",
@@ -17,26 +17,27 @@
    "Sana",
    "Marib"
   ],
-  "ozet": "Aksum seferiyle (Zu Nuvas'in yenilisi, ~525) Himyar topragi Habes hakimiyetine girdi; Abraha fiilen bagimsiz hukumdar oldu; Sasani seferiyle (~575) bitti.",
+  "ozet": "Aksum'un Yemen seferiyle (c. 525) Zû Nüvas yenildi; Abraha c. 531-535'te fiilen bağımsız hükümdar oldu; Sasani seferiyle (c. 570-575) Yemen Sasani yönetimine girdi.",
   "oncul": [
    "himyar"
   ],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Abraha', 21.10.2026 okundu: Aksum fethi 525-530 (Munro-Hay 525; Ryckmans 543'e dek), Abraha tahta c. 530/535, tarihli son yazıt 559/560, ölüm c. 570 (Robin), Sasani Vehriz 570-575",
+   "TDV İslâm Ansiklopedisi, 'Ebnâ' (islamansiklopedisi.org.tr/ebna), 21.10.2026 okundu: Habeş hâkimiyeti 525'te başladı, ~55 yıl; Vehriz 575 [?]"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Fil Olayi tarihi (~570) ayri; baslangic ve bitis okullara gore 3-5 yil oynar.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Çelişki: Himyar atlas künyesi t=0525; Himyar devleti Zû Nüvas ile bitti mi Habeş vasallığı ile mi sürdü? Himyar sonu 575 veya 578 (Robin 2015). Fil Olayı ~570 (Mekke) tarihi ayrı. taslak değerleri korundu; 'var-kisa' himyar. [Önceki taslak notu: Fil Olayi tarihi (~570) ayri; baslangic ve bitis okullara gore 3-5 yil oynar.]",
   "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": ""
+   "durum": "var-kisa",
+   "mevcut_id": "himyar",
+   "not": "Himyar künyesi 525'te bitiyor; Habeş vasalı/Abraha dönemi 525-575 Himyar topraklarında sürüyor."
   }
  },
  {
   "id": "tulunoglu",
-  "ad": "Tulunoglulari (Misir-Suriye)",
+  "ad": "Tolunoğulları (Mısır-Suriye)",
   "ad_yerel": null,
   "tur": "hanedanlik",
   "bolge": "misir-sudan",
@@ -44,40 +45,40 @@
   "t": "0905-01-01",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "ay"
   },
-  "baskent": "Fustat → el-Katai",
+  "baskent": "Fustat → el-Katâi",
   "etkin_bolge": null,
   "sehirler": [
    "Fustat",
    "Dimask",
    "Halep"
   ],
-  "ozet": "Ahmed b. Tulun 868'de Misir valiligini bagimsizlastirdi, 878'de Suriye'yi aldi; Muktefi 905te geri aldi.",
+  "ozet": "Ahmed b. Tolun 254 (868)'de Mısır'a gelip hânedanın temelini attı; 266 (879-80)'da kendi adına dinar bastırarak bağımsızlığını ilan etti; 886 antlaşmasıyla Suriye, Filistin ve el-Cezîre 30 yıllığına bırakıldı; Rebîülevvel 292 (Ocak 905) Abbâsîler Mısır'ı geri aldı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "TDV İslâm Ansiklopedisi, 'Tolunoğulları' (islamansiklopedisi.org.tr/tolunogullari), 21.10.2026 okundu"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bolge misir-sudan; Suriye'yi kapsadigi icin yazildi; Misir ajanıyla MUKERRER olabilir.",
+  "dogrulama": "okundu",
+  "ic_not": " Başka bölge ajanlarıyla mükerrer riski: tulunoglu (misir-sudan ajanı). Madde: fiilen müstakil 877'den; sikke 266 (879-80); Suriye Fırat batısına hâkimiyet Ahmed b. Tolun zamanında; Hârûn zamanında Karmatîler Hama, Humus, Maarra, Baalbek'i aldı. Günün tam tarihi kaynakta yok (Rebîülevvel 292 ≈ Ocak 905). taslak değeri t=0905. [Önceki taslak notu: Bolge misir-sudan; Suriye'yi kapsadigi icin yazildi; Misir ajanıyla MUKERRER olabilir.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "Mükerrer riski: misir-sudan ajanı."
   }
  },
  {
   "id": "cerrahi",
-  "ad": "Cerrahiler (Tay, Ramle Emirligi)",
+  "ad": "Cerrâhîler (Tay, Remle Emirliği)",
   "ad_yerel": null,
   "tur": "emirlik",
   "bolge": "suriye-filistin",
-  "f": "0980-01-01",
-  "t": "1029-01-01",
+  "f": "0979-01-01",
+  "t": "1071-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Remle",
@@ -86,19 +87,197 @@
    "Remle",
    "Aqaba"
   ],
-  "ozet": "Tay kabilesinden Mufarrij b. Dagfel Filistin'de Fatimi'ye karsi yari bagimsiz idare; 1029 Uqhuwana Savasi ile zayifladi.",
+  "ozet": "Tay kabilesinden Cerrâhoğulları Remle'de Fâtımîlere bağlı ya da isyancı yarı özerk emirlik; Müferric b. Dağfel, Hassân b. Müferric; 1071'de Atsız'la Filistin Selçuklulara geçti.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "TDV İslâm Ansiklopedisi, 'Cerrâhîler' (islamansiklopedisi.org.tr/cerrahiler), 21.10.2026 okundu"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Fatimi vali veya tabi emir mi tartismali; taslak.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV: 971 Karmatîler Remle'yi alıp Dağfel'i bıraktı; 974 Mu'izz Hassân'ı ayırdı; 979 Azîz Remle'deki hâkimiyeti tanıyıp idareyi Müferric b. Dağfel'e bıraktı (f); 1012 Ebü'l-Fütûh Mekke emiri Remle'de biat aldı; 1013 Müferric öldü; 1020-21 Hassân isyan; 1031 Bizans'a kaçış; 1041 Remle'ye dönüş; 1071 Filistin Atsız'ın idaresine geçti. Hanedan kurucusu belirsiz, 'yıl ilk kayıt'. taslak değeri f=0980,t=1029; 1029 Uhuvvâne yenilgisi sonu değil. Âl-i Rebîa (Şerât/Belkā, XII-XIV. yy) ayrı sülâle. [Önceki taslak notu: Fatimi vali veya tabi emir mi tartismali; taslak.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "atsiz-beyligi f=1071 ardıl."
+  }
+ },
+ {
+  "id": "antakya-dukaligi",
+  "ad": "Antakya Dukalığı (Bizans Katepanlığı)",
+  "ad_yerel": null,
+  "tur": "dukalik",
+  "bolge": "suriye-filistin",
+  "f": "0969-10-28",
+  "t": "1084-12-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "ay"
+  },
+  "baskent": "Antakya",
+  "etkin_bolge": "Kuzey Suriye, Antakya ve çevresi",
+  "sehirler": [
+   "Antakya",
+   "Halep sınırı"
+  ],
+  "ozet": "Michael Bourtzes Antakya'yı 28 Ekim 969'da Hamdânîlerden alıp dukalık (katepanlık) 970'te kuruldu; son dux Philaretos Brachamios'un (1078-1084) elinden Aralık 1084'te Süleymanşah (Rum Selçuklusu) aldı.",
+  "oncul": [
+   "hamdani-halep"
+  ],
+  "ardil": [
+   "suriye-selcuklu",
+   "antakya-prinkipsligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (aracı) 'Duchy of Antioch', 21.10.2026 okundu: 28 Ekim 969 Bourtzes, 970 resmen dukalık, dux imparator tayinli, Philaretos 1078 dux, Aralık 1084 Süleyman b. Kutalmış; dayandığı Kazhdan Oxford Dictionary of Byzantium; Holmes Basil II and the Governance of Empire; Treadgold Byzantium and Its Army (açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tam bağımsız polity DEĞİL: maddeye göre dux imparator tayinli, özerklik kaynakta tanımlanmıyor. Philaretos 1072 dolayında isyan edip imparatorluk unvanı aldı, 1078'de Nikephoros III duxluğu verip vazgeçirdi. Bizans eyaleti olarak elenme adayı; yalnız Philaretos evresi (bkz. filaretos-prensligi) fiilen özerk. 1084: Aralık (ay), gün yok.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "bizans künyesi içinde yer alır, ayrı yok."
+  }
+ },
+ {
+  "id": "yemame-museylime",
+  "ad": "Yemâme (Müseylime / Benî Hanîfe)",
+  "ad_yerel": null,
+  "tur": "kabile-kralligi",
+  "bolge": "arabistan",
+  "f": "0631-01-01",
+  "t": "0633-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Hecr (Yemâme)",
+  "etkin_bolge": "Orta Arabistan, Yemâme",
+  "sehirler": [
+   "Hecr (Yemâme)"
+  ],
+  "ozet": "Benî Hanîfe'den Müseylime'nin peygamberlik iddiasıyla Yemâme'de kurduğu yönetim; Halid b. Velîd'in Akrebâ'da (633) Müseylime'yi yenip öldürmesiyle bitti.",
+  "oncul": [],
+  "ardil": [
+   "ukaydir"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, 'Yemâme' (islamansiklopedisi.org.tr/yemame), 21.10.2026 okundu: 631 Sülmâ b. Hanzale heyeti müslüman oldu; Halid Akrebâ'da Müseylime'yi 633'te yendi",
+   "Vikipedi (aracı) 'Musaylima', 21.10.2026 okundu: infobox ölüm 632, Wahşî'nin öldürmesi; 9 H (631) heyetler yılı; Robin: tarihsel; Hawting: erken haberler sonradan"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Çelişki: TDV 633, Vikipedi infobox 632 (kategoride her ikisi). TDV esas -> 633. f=631 yalnız yıl çıkarımı ('Heyetler yılı' 9 H sonrası iddia; kaynakta iddianın başlangıç tarihi yok), ölçü: yıl. Polity niteliği: dini-siyasi önder altında kabile yönetimi; Mekke/Medine dışı. Ukaydirî (866) ardıl değil, yalnız bölge.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok; ukaydir 866+ Yemâme."
+  }
+ },
+ {
+  "id": "esved-ansi-yemen",
+  "ad": "Esved el-Ansî Yemen Yönetimi",
+  "ad_yerel": null,
+  "tur": "devlet",
+  "bolge": "arabistan",
+  "f": "0632-01-01",
+  "t": "0632-06-03",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "San'a",
+  "etkin_bolge": "Yemen (San'a ve çevresi)",
+  "sehirler": [
+   "San'a"
+  ],
+  "ozet": "Esved el-Ansî Veda Haccı dönüşünde peygamberlik iddia edip 25 gün sonra San'a'ya girdi, birkaç ayda Yemen'in neredeyse tamamına hâkim oldu; 8 Rebîülevvel 11 (3 Haziran 632) öldürüldü.",
+  "oncul": [],
+  "ardil": [
+   "yufiri"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, 'Esved el-Ansî' (islamansiklopedisi.org.tr/esved-el-ansi), 21.10.2026 okundu: öldürülme 8 Rebîülevvel 11 = 3 Haziran 632; isyan 3-4 ay; Veda Haccı dönüşünde iddia"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "f: kaynakta kesin başlangıç tarihi verilmiyor, 'isyan 3-4 ay sürdü' denildiğinden c. Mart 632; yalnız yıl (632) yazıldı, 25 günlük San'a girişi tarihi yok. t günü TDV'den. Peygamberlik iddiası ve Medine'ye bağlılıktan kopuş. Siyasi birim niteliği (isyan devleti) kaynakta 'Yemen'in neredeyse tamamı' diyor.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "abna-yemen",
+  "ad": "Ebnâ (Sasani Yemen Valiliği)",
+  "ad_yerel": null,
+  "tur": "valilik",
+  "bolge": "arabistan",
+  "f": "0575-01-01",
+  "t": "0628-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "San'a",
+  "etkin_bolge": "Yemen",
+  "sehirler": [
+   "San'a"
+  ],
+  "ozet": "Sasani'nin Yemen müdahalesi (Vehriz) ve Habeş'in çıkarılması sonrası Yemen'in Sasani valiliği (Vehriz, Merzbân, Bâzân); Ebnâ (Fars asıllı yönetici-asker tabakası) 628-630 arası İslâm'a girdi.",
+  "oncul": [
+   "habes-yemen"
+  ],
+  "ardil": [
+   "esved-ansi-yemen"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, 'Ebnâ' (islamansiklopedisi.org.tr/ebna), 21.10.2026 okundu: Habeş hâkimiyeti 525'te başlayıp ~55 yıl; Vehriz 4000 askerle (575 [?]), Ma'dîkerib hükümdar, San'a'da Sâsânî valisi; Ebnâ 628-630 müslüman (Bâzân, Fîrûz ed-Deylemî)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV Ebnâ'yı 'yeni ve kalabalık bir sosyal sınıf' diye tanımlıyor; resmi siyasi birim olarak değil. Sasani vilayetini polity sayıp saymamak Emre kararı (Sasani künyesi içinde yer alabilir). f=575 TDV '575 [?]' soru işaretli; Vikipedi/Robin 570-575. t=628: Bâzân'ın İslâm'a girişi 628-630, aralık alt ucu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Sasani imparatorluğu künyesi altında kalabilir."
+  }
+ },
+ {
+  "id": "culenda-umman",
+  "ad": "Cülendâ Emirliği (Umman)",
+  "ad_yerel": null,
+  "tur": "emirlik",
+  "bolge": "arabistan",
+  "f": null,
+  "t": "0705-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Umman (Sohâr?)",
+  "etkin_bolge": "Umman",
+  "sehirler": [
+   "Umman"
+  ],
+  "ozet": "Benî Cülendâ ailesi (Saîd ve Süleymân b. Abbâd) Abdülmelik döneminde Emevîlere direndi, 75 (694)'te bastırıldı; Haccâc b. Yûsuf 86 (705)'te Umman'ı Emevî kontrolüne aldı.",
+  "oncul": [],
+  "ardil": [
+   "uman-ibadi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, 'Uman' (islamansiklopedisi.org.tr/uman), 21.10.2026 okundu: Benî Cülendâ Abdülmelik'e direndi, 75/694'te bastırıldı; Haccâc 86/705'te kontrole aldı; Cülendâ b. Mes'ûd 132/750 imam, 134/751 Abbâsî Hâzim b. Huzeyme",
+   "TDV 'Cülendâ b. Mes'ûd' girişi başlığı görüldü (Ibadî imam)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f yıl bilinmiyor (İslâm öncesi Cülendâ hanedanı kaynakta tarihlenmiyor); Cülendâ b. Mes'ûd imamlığı (750-751) ayrı: atlas uman-ibadi (f=0750). t=705 Haccâc'ın kontrolü; Emevî-Haccâc sonrası ara dönem. Sasani Umman'ı için başka kaynak lazım.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "uman-ibadi 750 ardıl/komşu."
   }
  }
 ]

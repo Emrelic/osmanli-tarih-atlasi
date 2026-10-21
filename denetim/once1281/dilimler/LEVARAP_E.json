@@ -1,14 +1,14 @@
 [
  {
   "id": "lulu-halep",
-  "ad": "Lu'lu'iler (Halep, Fatimi vassali)",
+  "ad": "Lü'lü'iler (Halep Lü'lü' Naipliği)",
   "ad_yerel": null,
   "tur": "emirlik",
   "bolge": "suriye-filistin",
-  "f": "1004-01-01",
+  "f": "1002-01-01",
   "t": "1015-01-01",
   "kesinlik": {
-   "f": "yil",
+   "f": "ay",
    "t": "yil"
   },
   "baskent": "Halep",
@@ -16,7 +16,7 @@
   "sehirler": [
    "Halep"
   ],
-  "ozet": "Hamdani Sa'd el-Devle sonrasi Lu'lu' ve oglu Mansur Fatimi vassali olarak Halep'i yonetti; 1015te Fatimi'ye baglandi, 1024te Mirdasi.",
+  "ozet": "Hamdânî Sa'îdüddevle sonrası vezir Lü'lü' el-Kebîr Halep'i yönetti (Ocak 1002-1008/9); oğlu Mansûr Fâtımîlere tâbi oldu; 1015/16 halk ayaklanmasıyla devrildi.",
   "oncul": [
    "hamdani-halep"
   ],
@@ -25,42 +25,42 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Lu'lu' al-Kabir', 21.10.2026 okundu; dipnotlar: Canard 1971 'Ḥamdānids' EI2 III; Canard 1986 'Luʾluʾ' EI2 V; Kennedy 2004; Whittow 1996; Amabe 2016 Urban Autonomy in Medieval Islam (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut hamdani-halep t=1004, mirdasi f=1024 arasinda bosluk (1004-1024) bu kayit + Fatimi dogrudan yonetimi ile dolar.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri f=1004, t=1015. Maddeye göre Lü'lü' el-Kebîr Ocak 1002-1008/9; Mansûr 1008/9-1015/16; hem Fâtımîlere vasal hem Bizans'a haraç. Atlas hamdani-halep t=1004 ile Lü'lü' f=1002 arasında 2 yıl örtüşme: hamdani-halep künyesi kısaltılmalı. Mirdâsîler 1024; 1015-1024 arası Fâtımî doğrudan (vali Azizüddevle). 'Mirdâsi 1024' maddede yok. [Önceki taslak notu: Mevcut hamdani-halep t=1004, mirdasi f=1024 arasinda bosluk (1004-1024) bu kayit + Fatimi dogrudan yonetimi ile dolar.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "hamdani-halep t=1004 ve mirdasi f=1024 arasındaki boşluk bu kayıtla ve Fâtımî valiliğiyle doluyor; hamdani-halep sonu 1002 olabilir."
   }
  },
  {
   "id": "sur-kadilari",
-  "ad": "Tire (Sur) Kadilari Emirligi",
+  "ad": "Sûr (Tire) Kadıları Emirliği (İbn Ebî Akīl)",
   "ad_yerel": null,
   "tur": "emirlik",
   "bolge": "suriye-filistin",
   "f": "1063-01-01",
   "t": "1089-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yil",
    "t": "yil"
   },
-  "baskent": "Sur",
+  "baskent": "Sûr",
   "etkin_bolge": null,
   "sehirler": [
    "Sur"
   ],
-  "ozet": "Fatimi kontrolunden fiilen cikan Tire kadi hanedani; 1089'da Fatimi'ye dondu, 1124te Hacli fethi.",
+  "ozet": "Fâtımî kadısı Aynüddevle İbn Ebî Akīl 455 (1063)'te bağımsızlığını ilan etti, 465 (1075)'e dek yönetti; oğulları 482 (1089)'e dek sürdürdü; Fâtımî ordusu Sûr ve Sayda'yı geri aldı; Haçlı fethi 1124.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Web araması özeti 21.10.2026: Toyo Bunko Memoirs 57 (Amabe) / J-STAGE 'Journal of Oriental... 34(2)' özetleri: 455/1063 bağımsızlık, 465/1075 ölüm, ~27 yıl oğulları, 482/1089 Fâtımî ordusu Sûr ve Sayda'yı aldı (tam metin açılmadı, özet)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tum taslak; tarihler yaklasik.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Madde başka bir kaynakta ('sunnah.com') Aynüddevle ölümü 450 H olarak çelişkili; yalnız Toyo Bunko özetine dayanıyoruz. Hijri→miladi: 455 H = 1063, 482 H = 1089 (yıl hassasiyeti; gün için çift teyit yok). 1124 Haçlı fethi hafıza, okunmadı. taslak değeri f=1063,t=1089 ile uyumlu. [Önceki taslak notu: Tum taslak; tarihler yaklasik.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -69,30 +69,31 @@
  },
  {
   "id": "cebele-kadilari",
-  "ad": "Cebele (Cabala) Beni Sulayha Kadilari",
+  "ad": "Cebele (Jabala) Kadıları Emirliği",
   "ad_yerel": null,
   "tur": "emirlik",
   "bolge": "suriye-filistin",
   "f": "1060-01-01",
-  "t": "1109-01-01",
+  "t": "1109-07-23",
   "kesinlik": {
    "f": "onyil",
-   "t": "yil"
+   "t": "gun"
   },
   "baskent": "Cebele",
   "etkin_bolge": null,
   "sehirler": [
    "Cebele"
   ],
-  "ozet": "Fatimi baglantili kadi hanedaninin Lazkiye kıyısi emirligi; 1109'da Hacli'ye gecti.",
+  "ozet": "Fâtımî bağlantılı kadı hanedanının Lazkiye kıyısı emirliği; İbn Süleyha Selçuklu baskısına karşı bağımsızlığını sürdürdü; Haçlı kuşatmasında egemenliği Trablus'a devretti; Cebele 23 Temmuz 1109'da Tancred ve Cenevizlilerce alındı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Jableh', 21.10.2026 okundu: 23 Temmuz 1109 Tancred ve Cenevizliler, Antakya Prensliği (Helmolt 1907 dipnotu); Banu Ammar'ın bölgeyi aldığı belirtiliyor",
+   "Web araması: J-STAGE özeti (Journal of Oriental... 34/2): Cebele kadısı İbn Süleyha oğluna geçti, Selçuklu baskısına karşı bağımsız kaldı, Haçlı kuşatmasında Trablus'a devretti, kadı İbnü'n-Nakkar adli işleri sürdürdü; Haçlı yönetimi altında kadı Mansûr b. Nebîl"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tum taslak; Tripoli kontlukunun fethi ile iliskili.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç 1060 taslak (kaynaksız). Aile adı: 'Beni Süleyha' (Vikipedi 'Banu Sulayha' sayfası yok); J-STAGE özeti yalnız 'İbn Süleyha'. t: egemenlik daha önce Trablus Ammâroğulları'na devredilmiş olabilir (kaynakta tarih yok); 23 Temmuz 1109 Haçlı fethidir. Atlas beni-ammar-trablussam (1070-1109-07-23) ile örtüşme. [Önceki taslak notu: Tum taslak; Tripoli kontlukunun fethi ile iliskili.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -101,7 +102,7 @@
  },
  {
   "id": "nebhani-umman",
-  "ad": "Nebhaniler (Umman Meliklesi)",
+  "ad": "Nebhânîler (Umman Meliklikleri)",
   "ad_yerel": null,
   "tur": "hanedanlik",
   "bolge": "arabistan",
@@ -111,21 +112,22 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Behla",
+  "baskent": "Behlâ",
   "etkin_bolge": null,
   "sehirler": [
    "Behla",
    "Nizwa"
   ],
-  "ozet": "Ibadi imamligi yerine Nebhani krallari Umman ic bolgesini yonetti; 1624 Yaruba imamligi ile bitti.",
+  "ozet": "Muhammed b. Fellâh 1151'de öne çıkıp 1154'te iktidarı aldı; Behlâ, Nizvâ ve Makniyat arasında dolaşan melik hanedanı; Ya'rubîler (Nâsır b. Mürşid) 1624'te iktidarı aldı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Nabhani dynasty', 21.10.2026 okundu: 1151 ortaya çıkış, 1154 iktidar, 1624 Ya'rubi; dipnotlar: Al-Salimi 2002; Al-Salimi & Staples 2017 Oman: A Maritime History (açılmadı)",
+   "TDV İslâm Ansiklopedisi, 'Uman' (islamansiklopedisi.org.tr/uman), 21.10.2026 okundu: Nebhânîler 'bir süre' egemen, XI. yy ilk yarısı Benî Kayser etkisi; Nâsır b. Mürşid 1615-1640 (1029/1620 Maskat'tan Portekizliler)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Nebhani hakimiyeti kesintilidir ve imamlarla yan yana gecer; tum taslak.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Çelişki: TDV Nâsır b. Mürşid saltanatını 1615-1640 veriyor, Vikipedi 1624'te iktidarı alma. Nebhânî hakimiyeti kesintili (imamlarla yan yana); aile 1956'ya dek Cebel Ahdar'da yerel emir. Dönem 'iyi belgelenmemiş' (madde). taslak değeri korundu. [Önceki taslak notu: Nebhani hakimiyeti kesintilidir ve imamlarla yan yana gecer; tum taslak.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -134,7 +136,7 @@
  },
  {
   "id": "nizari-suriye",
-  "ad": "Suriye Nizari Ismaililer (Haşşaşin Kaleleri)",
+  "ad": "Suriye Nizârî İsmâilîleri (Haşşâşîn Kaleleri)",
   "ad_yerel": null,
   "tur": "devlet",
   "bolge": "suriye-filistin",
@@ -144,22 +146,24 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Masyaf",
+  "baskent": "Mısyâf (Kehf, Kadmûs)",
   "etkin_bolge": null,
   "sehirler": [
    "Masyaf",
    "Kadmus",
    "Hısnü'l-Kehf"
   ],
-  "ozet": "Alamut merkezli davetin Suriye kolu; Rashid ed-Din Sinan donemi (~1162-1193); Baybars baskisiyla Kehf 1273te dustu.",
+  "ozet": "Alamût merkezli Nizârî davetin Suriye kolu; Râşidüddin Sinân (1172'de Suriye başdâîsi, ö. 1193) bağımsız bir kale devleti kurdu; Baybars 1270-1273'te kaleleri aldı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "TDV İslâm Ansiklopedisi, 'Râşidüddin Sinân el-İsmâilî' (islamansiklopedisi.org.tr/rasiduddin-sinan-el-ismaili), 21.10.2026 okundu: 1172 Hasan II Sinân'ı gönderdi, başdâî, Kehf/Mısyâf/Kadmûs, ö. 589/1193",
+   "TDV 'Haşşâşîn' girişi: Suriye'de bağımsız kale devleti, Baybars 1270-1273 (özet düzeyi)",
+   "Vikipedi (aracı) 'Nizari Ismaili state': Baybars 1270-73, Suriye kaleleri orta 12. yy"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Baslangic Kadmus/Masyaf alimi (1132-1141) icin kaynak degisir; Masyaf 1270/73 Baybars. Tum taslak.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f=1132 taslak değeri doğrulanmadı (Kadmus/Mısyâf alımı yılları için kaynak okunmadı). TDV'ye göre Sinân 1172'den başdâî; alternatif f=1172. t=1273 (Kehf 1273, Mısyâf 1270 hafıza), bazı kaleler Memlûk tâbiiyetiyle özerklik sürdürdü. [Önceki taslak notu: Baslangic Kadmus/Masyaf alimi (1132-1141) icin kaynak degisir; Masyaf 1270/73 Baybars. Tum taslak.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -168,45 +172,45 @@
  },
  {
   "id": "eyyubi-sam",
-  "ad": "Dimask (Sam) Eyyubileri",
+  "ad": "Dımaşk (Şam) Eyyûbîleri",
   "ad_yerel": null,
   "tur": "hanedanlik",
   "bolge": "suriye-filistin",
-  "f": "1193-03-04",
-  "t": "1260-03-01",
+  "f": "1193-01-01",
+  "t": "1260-01-01",
   "kesinlik": {
-   "f": "gun",
-   "t": "ay"
+   "f": "yil",
+   "t": "yil"
   },
-  "baskent": "Dimask",
+  "baskent": "Dımaşk",
   "etkin_bolge": null,
   "sehirler": [
    "Dimask",
    "Baalbek",
    "Busra"
   ],
-  "ozet": "Selahaddin'in olumuyle (1193) Dimask kolu Afdal ve sonra Mu'azzam/Eşref/Salih ile ayrildi; 1260'ta Mogol Kitbuga ile bitti.",
+  "ozet": "Selâhaddîn'in ölümüyle (1193) Dımaşk kolu el-Efdal, sonra Mu'azzam, Eşref, Sâlih ile ayrı bir sülâle gibi yönetildi; Moğol (Kitbuga) geçişiyle 1260'ta bitti.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "TDV İslâm Ansiklopedisi, 'Eyyûbîler' (islamansiklopedisi.org.tr/eyyubiler), 21.10.2026 okundu: Selâhaddîn 1193'te Dımaşk'ta öldü; Dımaşk, Halep, Hama, Humus, Baalbek, Yemen, Kerek kolları; Moğollar 1260'ta Halep kolunu bitirdi (özet)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Selahaddin olumu (589 H Safer = Mart 1193) ve Mart 1260 bitisi hafizadan, okunmadi; gun hassasiyeti DOGRULANMADI, yila indirilmeli.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Gün hassasiyeti kaldırıldı (taslak: 1193-03-04 / 1260-03-01; TDV özeti gün vermiyor). Selâhaddîn ölümü 27 Safer 589 hafızadan; Dımaşk'ın Moğollarca alınışı Mart 1260 hafıza. Dımaşk'ta kesintisiz tek sülâle yok (el-Efdal, el-Âdil, el-Kâmil, es-Sâlih İsmâil, es-Sâlih Eyyûb ... el-Melikü'n-Nâsır Yûsuf). Atlas 'eyyubi' Mısır kolu 1171-1250. [Önceki taslak notu: Selahaddin olumu (589 H Safer = Mart 1193) ve Mart 1260 bitisi hafizadan, okunmadi; gun hassasiyeti DOGRULANMADI, yila indirilmeli.]",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "eyyubi",
-   "not": ""
+   "not": "Atlas eyyubi (Mısır/Kahire, 1171-1250) Dımaşk'ı Selâhaddîn'den ayrı göstermiyor; 1193 sonrası Dımaşk kolu."
   }
  },
  {
   "id": "eyyubi-humus",
-  "ad": "Humus Eyyubileri (Şirkuh kolu)",
+  "ad": "Humus Eyyûbîleri (Şîrkûh kolu)",
   "ad_yerel": null,
   "tur": "beylik",
   "bolge": "suriye-filistin",
-  "f": "1174-01-01",
+  "f": "1179-01-01",
   "t": "1262-01-01",
   "kesinlik": {
    "f": "yil",
@@ -217,15 +221,15 @@
   "sehirler": [
    "Humus"
   ],
-  "ozet": "Şirkuh'un torunlari Humus'u Eyyubi baglarinda yonetti; 1262'de Memluk Baybars.",
+  "ozet": "Şîrkûh'un torunları Humus'u yüzyıla yakın yönetti; son emir el-Eşref Mûsâ'nın ölümüyle (1262) Baybars.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Emirate of Homs', 21.10.2026 okundu: 1164 Nûreddin Şîrkûh'a ikta, 1169 geri aldı, Aralık 1174 Selâhaddîn işgal, kale 17 Mart 1175, 1179 hanedana iade, Eşref Mûsâ ölümü 1262"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tum taslak; Hama Eyyubi ile ayri.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak f=1174; Selâhaddîn 1174-75'te Humus'u kendi aldı, 1179'da Şîrkûh soyuna verdi. El-Eşref Mûsâ Humus'tan 1248'de çıkıp geri döndü (hafıza, okunmadı). [Önceki taslak notu: Tum taslak; Hama Eyyubi ile ayri.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -234,12 +238,12 @@
  },
  {
   "id": "eyyubi-kerek",
-  "ad": "Kerek (Karak) Eyyubileri",
+  "ad": "Kerek Eyyûbîleri (en-Nâsır Dâvûd)",
   "ad_yerel": null,
   "tur": "emirlik",
   "bolge": "suriye-filistin",
-  "f": "1227-01-01",
-  "t": "1263-01-01",
+  "f": "1229-01-01",
+  "t": "1249-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -250,15 +254,15 @@
    "Kerek",
    "Shawbak"
   ],
-  "ozet": "Nasir Davud ve ardillari Urdun doğusunu ayri yonetti; 1263'te Baybars.",
+  "ozet": "en-Nâsır Dâvûd Dımaşk'ı Eşref'e bırakıp 1229'da Kerek, Belkā ve Ürdün kalelerini aldı; oğulları Kerek'i 1249'da es-Sâlih Eyyûb'a devretti.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "TDV İslâm Ansiklopedisi, 'el-Melikü'n-Nâsır, Dâvûd' (islamansiklopedisi.org.tr/el-melikun-nasir-davud), 21.10.2026 okundu: 626 (1229) Kerek; 642 (1244) Kerek, Belkā, Aclûn; 644 (1246) yalnız Kerek; 647 (1249) oğulları Kerek'i Sâlih Eyyûb'a ikta karşılığı verdi; ö. Cemâziyelevvel 656 (Mayıs 1258)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tum taslak.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak t=1263 (Baybars). TDV Baybars'tan ya da 1263'ten söz etmiyor; madde başlığında Kerek emirliği 1229-1247 yazıyor, gövdede devir 1249. Devir sonrası Kerek'in Eyyûbî tâbi olarak sürmesi (el-Mugîs Ömer, 1263 Baybars) hafıza, okunmadı. taslak değeri f=1227 değiştirildi (Dımaşk emirliği 1227 ≠ Kerek). [Önceki taslak notu: Tum taslak.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -267,40 +271,40 @@
  },
  {
   "id": "oltre-urdun",
-  "ad": "Outrejourdain (Kerek-Şavbak) Lordlugu",
+  "ad": "Outrejourdain (Kerek-Şavbak) Lordluğu",
   "ad_yerel": null,
   "tur": "lordluk",
   "bolge": "suriye-filistin",
   "f": "1118-01-01",
-  "t": "1189-01-01",
+  "t": "1189-05-01",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "ay"
   },
-  "baskent": "Kerek",
+  "baskent": "Kerek (Montréal)",
   "etkin_bolge": null,
   "sehirler": [
    "Kerek",
    "Şavbak"
   ],
-  "ozet": "Kudus Kralligi buyuk feodal lordlugu; Reynald de Chatillon donemi, Selahaddin 1189 Kerek'i aldi.",
+  "ozet": "Kudüs Krallığının en büyük lordluğu; Montreal (1115) Roman de Le Puy'a verilince (c. 1118) kuruldu; Kerek 1142'de başkent; Reynald de Chatillon; Kerek Kasım 1188, Montreal Mayıs 1189'da Selâhaddîn'e teslim.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Lordship of Oultrejordain', 21.10.2026 okundu; dipnot yazarları verilmedi"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kudus Kralliginin alt birimi; gerekirse atlasa dahil edilmez.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kudüs Krallığının alt birimi (kudus-kralligi); atlasa ayrı künye gerekçesi Emre'de. taslak değeri t=1189 doğrulandı. [Önceki taslak notu: Kudus Kralliginin alt birimi; gerekirse atlasa dahil edilmez.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "kudus-kralligi alt birimi."
   }
  },
  {
   "id": "celile-prensligi",
-  "ad": "Celile (Tiberya) Prensligi",
+  "ad": "Celile (Tiberya) Prensliği",
   "ad_yerel": null,
   "tur": "prenslik",
   "bolge": "suriye-filistin",
@@ -316,28 +320,28 @@
    "Tiberya",
    "Nasira"
   ],
-  "ozet": "Kudus Kralliginin kuzey prensligi; Hittin Savasi (4 Temmuz 1187) sonrasi Selahaddin.",
+  "ozet": "Kudüs Krallığının dört büyük seigneurisinden biri; Godfrey 1099'da Tancred'e Tiberya, Hayfa ve Beyşan'ı verdi; Selâhaddîn 1187'de yıktı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Principality of Galilee', 21.10.2026 okundu (Hattin'den söz edilmiyor)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kudus Kralliginin alt birimi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kudüs Krallığının alt birimi. Aileler: St. Omer, Montfaucon, Bures. Prenslik adı 1187'den sonra sadece unvandı. [Önceki taslak notu: Kudus Kralliginin alt birimi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "kudus-kralligi alt birimi."
   }
  },
  {
   "id": "yafa-askalan",
-  "ad": "Yafa ve Askalan Kontlugu",
+  "ad": "Yafa ve Askalan Kontluğu",
   "ad_yerel": null,
   "tur": "kontluk",
   "bolge": "suriye-filistin",
-  "f": "1151-01-01",
+  "f": "1100-01-01",
   "t": "1268-01-01",
   "kesinlik": {
    "f": "yil",
@@ -349,31 +353,31 @@
    "Yafa",
    "Askalan"
   ],
-  "ozet": "Kudus Kralliginin kiyi kontlugu; Baybars 1268te Yafa'yi aldi.",
+  "ozet": "Kudüs Krallığının kıyı kontluğu; Godfrey 1100'de Yafa'yı güçlendirdi; Hugh I 1110; Amalric'e 1151'de apanaj, 1153'te Askalan eklendi; Baybars 1268'de aldı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'County of Jaffa and Ascalon', 21.10.2026 okundu; dipnotlar: La Monte 1932; Riley-Smith 1973; Runciman 1952; Tibble 1989 (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kudus Kralliginin alt birimi; Askalan 1187 ve 1191 arasi kesintiler.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak f=1151 ancak infobox 1100, Hugh 1110. Kudüs Krallığının alt birimi. [Önceki taslak notu: Kudus Kralliginin alt birimi; Askalan 1187 ve 1191 arasi kesintiler.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "kudus-kralligi alt birimi."
   }
  },
  {
   "id": "sayda-lordlugu",
-  "ad": "Sayda (Sidon) Lordlugu",
+  "ad": "Sayda (Sidon) Lordluğu",
   "ad_yerel": null,
   "tur": "lordluk",
   "bolge": "suriye-filistin",
-  "f": "1110-01-01",
-  "t": "1291-01-01",
+  "f": "1110-12-01",
+  "t": "1268-01-01",
   "kesinlik": {
-   "f": "yil",
+   "f": "ay",
    "t": "yil"
   },
   "baskent": "Sayda",
@@ -382,24 +386,24 @@
    "Sayda",
    "Beaufort"
   ],
-  "ozet": "Haçlı Sayda lordlugu; kesintili el degistirdi, 1260ta Tapinakcilara satildi.",
+  "ozet": "Aralık 1110'da Norveç Haçlı Seferi'nde alınıp Eustace I Grenier'e verilen kıyı lordluğu; 1187 Selâhaddîn, 1197'de geri, 1260'ta Julian Grenier Templier'lere sattı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Lordship of Sidon', 21.10.2026 okundu; dipnotlar: La Monte 1932; Riley-Smith 1973; Runciman 1952; Tibble 1989 (açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kudus Kralliginin alt birimi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Madde: infobox sonu 1268 (Baybars); 1260 Moğol yıkımı ve Templier satışı. taslak t=1291 (hafıza) düzeltildi. [Önceki taslak notu: Kudus Kralliginin alt birimi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "kudus-kralligi alt birimi."
   }
  },
  {
   "id": "beyrut-lordlugu",
-  "ad": "Beyrut Lordlugu",
+  "ad": "Beyrut Lordluğu",
   "ad_yerel": null,
   "tur": "lordluk",
   "bolge": "suriye-filistin",
@@ -414,19 +418,164 @@
   "sehirler": [
    "Beyrut"
   ],
-  "ozet": "Haçlı Beyrut lordlugu (Ibelinler); 1187de kaybedildi, 1197de geri alindi, 1291 Memluk.",
+  "ozet": "1110'da Franklarca alınan; 1187'de Eyyûbîlere geçen, 1197'de geri alınan, Ibelin ailesince yönetilen lordluk; 1291'de Memlûk Halil.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+   "Vikipedi (aracı) 'Lordship of Beirut', 21.10.2026 okundu; dipnotlar madde içinde ayrıntılı değil"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kudus Kralliginin alt birimi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kudüs Krallığının alt birimi. Beyrut 1197 sonrası Ibelin (Isabella I John'a verdi). [Önceki taslak notu: Kudus Kralliginin alt birimi.]",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "kudus-kralligi alt birimi."
+  }
+ },
+ {
+  "id": "filaretos-prensligi",
+  "ad": "Philaretos Brachamios Prensliği (Antakya-Marmaraş-Urfa)",
+  "ad_yerel": null,
+  "tur": "prenslik",
+  "bolge": "suriye-filistin",
+  "f": "1078-01-01",
+  "t": "1087-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Antakya → Urfa",
+  "etkin_bolge": "Antakya, Marmaraş ve Urfa çevresi",
+  "sehirler": [
+   "Antakya",
+   "Marmaraş",
+   "Urfa"
+  ],
+  "ozet": "Ermeni asıllı Bizans generali Philaretos Brachamios 1078'de dux olarak Antakya'yı tuttu; Antakya Aralık 1084'te, Urfa 1087'de Selçuklulara geçti.",
+  "oncul": [
+   "antakya-dukaligi"
+  ],
+  "ardil": [
+   "urfa-toros-beyligi",
+   "suriye-selcuklu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (aracı) 'Philaretos Brachamios', 21.10.2026 okundu: dux 1078-1084, Aralık 1084 Antakya Süleyman b. Kutalmış'a, Urfa 1087 Melikşah'a; dipnotlar: Yarnley 1972 'Philaretos: Armenian Bandit or Byzantine General' Revue des Études Arméniennes 9:331-353; Beihammer 2017 Byzantium and the Emergence of Muslim-Turkish Anatolia (Routledge); Dostourian 1993 Matthew of Edessa (açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Marmaraş maddede yok (taslak ifade); Antakya 1078-1084, Edessa 1087. Philaretos ölümü c. 1087 (infobox) veya 1086. Polity niteliği (özerk Ermeni-Bizans derebeyliği vs Bizans valiliği) tartışmalı; 1071-1078 arasındaki bağımsız evre okunmadı. Urfa Toros Beyliği (1095) ile komşu ardıl yapı, süreklilik iddia edilmiyor.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "urfa-toros-beyligi 1095'te ayrı."
+  }
+ },
+ {
+  "id": "hospitaller-krak",
+  "ad": "Hospitaller Krak des Chevaliers Palatinliği (Trablus Kontluğu içinde)",
+  "ad_yerel": null,
+  "tur": "kontluk",
+  "bolge": "suriye-filistin",
+  "f": "1142-01-01",
+  "t": "1271-04-08",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Krak des Chevaliers (Hısnü'l-Ekrâd)",
+  "etkin_bolge": "Trablus Kontluğu doğusu, Homs Boşluğu",
+  "sehirler": [
+   "Krak des Chevaliers",
+   "Rafanea",
+   "Montferrand"
+  ],
+  "ozet": "Trablus Kontu II. Raymond'un 1142-1144 arasında Hospitaller Tarikatı'na verdiği Krak ve çevre arazi; tarikatın 'palatinat' benzeri özerk toprağı; 8 Nisan 1271'de Baybars'a teslim.",
+  "oncul": [
+   "trablus-kontlugu"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (aracı) 'Krak des Chevaliers', 21.10.2026 okundu: 1142 (infobox 1143, metin 1142-1144) devir, 8 Nisan 1271 teslim; Riley-Smith 'palatinate' (Barber 1995 The New Knighthood s.83); Kennedy 1994 Crusader Castles s.145-147; Nicholson 2001 The Knights Hospitaller s.11; King 1949 Antiquity (açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Madde Krak'ı lordluk/devlet olarak tanımlamıyor; Riley-Smith 'palatinat' tabirini kullanıyor. Siyasi birim mi askerî-dinî tarikat toprağı mı: Emre kararı; elenme adayı. f 1142/1143/1144 arasında; 1142 seçildi, yıl.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "trablus-kontlugu içinde."
+  }
+ },
+ {
+  "id": "hospitaller-margat",
+  "ad": "Hospitaller Margat (Markab) Lordluğu",
+  "ad_yerel": null,
+  "tur": "lordluk",
+  "bolge": "suriye-filistin",
+  "f": "1186-01-01",
+  "t": "1285-05-23",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Margat (Markab)",
+  "etkin_bolge": "Banyas-Tartus kıyısı",
+  "sehirler": [
+   "Margat",
+   "Banyas"
+  ],
+  "ozet": "Masoir ailesi 1170'lerde Trablus vasalı olarak tuttu; Bertrand Masoir 1186'da Hospitaller'lara sattı, tarikatın Suriye merkezi oldu; Kalavun 17 Nisan-23 Mayıs 1285 kuşatmayla aldı.",
+  "oncul": [
+   "antakya-prinkipsligi",
+   "trablus-kontlugu"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (aracı) 'Margat', 21.10.2026 okundu: Masoir (Mazoir) lordluğu, 1186 Hospitaller satın alma, 17 Nisan 1285 kuşatma, 23 Mayıs teslim; Kennedy 1994 Crusader Castles; Heinrichs 1989 'Al-Markab' EI4; Pringle 2013 Pilgrimage to Jerusalem and the Holy Land 1187-1291; Marshall Warfare in the Latin East (açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sınır: Antakya Prensliği ile Trablus Kontluğu arasında. Masoir lordluğu öncesi f (1170'ler) ayrı polity sayılmadı. Siyasi birim mi tarikat toprağı mı: Emre kararı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Antakya/Trablus içinde."
+  }
+ },
+ {
+  "id": "tevton-montfort",
+  "ad": "Tevton Şövalyeleri Montfort Lordluğu",
+  "ad_yerel": null,
+  "tur": "lordluk",
+  "bolge": "suriye-filistin",
+  "f": "1220-01-01",
+  "t": "1271-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Montfort (Starkenberg)",
+  "etkin_bolge": "Akkâ doğusu, Galile kıyısı",
+  "sehirler": [
+   "Montfort"
+  ],
+  "ozet": "De Milly ailesi bölgeyi 1220'de Tevton Tarikatı'na sattı; 1229'da tarikatın karargâhı, arşivi ve hazinesi buraya taşındı; 1271'de Baybars kuşatması (~15 gün) sonrası teslim, kale yıkıldı.",
+  "oncul": [
+   "kudus-kralligi"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vikipedi (aracı) 'Montfort Castle', 21.10.2026 okundu: 1220 satış, 1229 karargâh, 1266 kuşatma püskürtüldü, 1271 teslim; dipnotlar: Boas, Morton, Toomaspoeg, Khamisy, Pringle (açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak (rapor): 1228. Madde: satış 1220, inşa/yerleşim 1228-1229. Gün/ay yok (Haziran 1271 hafıza, okunmadı). Siyasi birim mi tarikat toprağı mı: Emre kararı; elenme adayı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "kudus-kralligi alt birimi."
   }
  }
 ]

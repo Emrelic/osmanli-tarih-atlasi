@@ -5,7 +5,7 @@
   "tur": "hanedanlik",
   "bolge": "iran",
   "f": "1029-01-01",
-  "t": "1225-01-01",
+  "t": "1236-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -19,9 +19,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sureler kaynaklara gore degisir. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Mihrabanids — Nasrid dynasty of Sistan navbox'ta 1029–1236, Mihrabanilerin selefi; atfedilen: Bosworth 1994 The History of the Saffarids of Sistan and the Maliks of Nimruz (247/861 to 949/1542-3) Mazda; Tarih-i Sistan (14. yy anonim); TDV 'Mihribaniler' (bağlantı, açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=1029-01-01, t=1225-01-01] Nasrî sayfası okunamadı (Vikipedi 404); yalnız Mihrabanî sayfasındaki selef notu (Nasrî 1029–1236). t=1236 (taslak 1225) — 11-yıl fark. Gaznelilere vasal, Hâlefî ardıl/ayrı kol (Banu Khalaf) kaynaklı doğrulanmadı. f=1029 taslak desteklendi mi: sayfa 1029'u veriyor. Sureler kaynaklara gore degisir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -33,13 +35,13 @@
   "ad": "Hürmüz Krallığı",
   "tur": "krallik",
   "bolge": "iran",
-  "f": "1100-01-01",
-  "t": "1623-01-01",
+  "f": "1001-01-01",
+  "t": "1622-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yil"
   },
-  "baskent": "Hürmüz",
+  "baskent": "Minab/Nâband kıyı → Cerûn (Hürmüz adası) ~1301",
   "etkin_bolge": "Basra korfezi",
   "sehirler": [
    "Hürmüz"
@@ -48,9 +50,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Baslangic cok belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Kingdom of Hormuz — 11. yy'da Muhammed Diramku soyu, Kirman Selçuklu bağımlısı olarak başlar; ~1301 başkent Cerûn/Hürmüz Adası'na; 1507 Albuquerque, 1515–1622 Portekiz işgali/vasallığı; 1622'de Safevi Abbas I İngiliz yardımıyla fetheder; atfedilen: Floor 'Hormuz ii. Islamic Period' EnIr; Floor 2006 The Persian Gulf: A Political and Economic History of Five Port Cities; Aubin 1953 'Les Princes d'Ormuz du XIIIe au XVe siècle' Journal Asiatique; Kauz & Ptak 2001 BEFEO 88 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=1100-01-01, t=1623-01-01] f taslak 1100; kaynak '11. yy' (yuzyil). Bağımsız krallık olarak ~1301 sonrası adada; Portekiz vasalı 1515–1622. Bolge: Basra Körfezi kıyısı (iran), ana oturum kararı beklenir. Baslangic cok belirsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -62,13 +66,13 @@
   "ad": "Şebânkâreler",
   "tur": "emirlik",
   "bolge": "iran",
-  "f": "1060-01-01",
+  "f": "1030-01-01",
   "t": "1355-01-01",
   "kesinlik": {
-   "f": "onyil",
-   "t": "onyil"
+   "f": "yil",
+   "t": "yil"
   },
-  "baskent": "Îc",
+  "baskent": "Îc (Îg); sonra İzeh, Darabcird",
   "etkin_bolge": "Fars",
   "sehirler": [
    "Îc"
@@ -77,9 +81,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sureler degisir. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Shabankara — 1030 (Fadluya) ; infobox 1424 (Timurlular); 1355'te Muzafferî Mubâriz ed-Dîn oğlu Mahmud'u gönderip Ardeşir'i yener; 'yerel güç 1424'e kadar'; hükümdar listesi Fadluya 1030–1078 … Ardeşir c.1310–1355; atfedilen: Büchner 'Shabānkāra' EI; Spuler 'Faḍlawayh' EI; Babaie 2019 Iran After the Mongols; Potts 2014 Nomadism in Iran (OUP); Bosworth 1975 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=1060-01-01, t=1355-01-01] f taslak 1060 yerine Fadluya 1030. t: 1355 Muzafferî fethi (taslak ile uyumlu), kaynak infobox ise 1424 ⇒ 1355'ten sonra ikincil yerel güç olarak sürer (1424'e kadar). Mevcut TSV'de şebankare yok. Kürt asıllı Fars emirliği (iran). Sureler degisir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -97,7 +103,7 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Sinendec",
+  "baskent": "Sinendec (Sanandaj)",
   "etkin_bolge": "Iran Kurdistani",
   "sehirler": [
    "Sinendec"
@@ -106,9 +112,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Baslangic 1169 veya 14.yy olabilir. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Ardalan (principality) — 14. yy civarı Baba Ardalan tarafından kurulduğu, 1617'ye dek bağımsız, sonra yarı bağımsız Safevi/Kaçar vasalı; son vali Emanullah Han 1860–1867; infobox 1865/68; atfedilen: Oberling 1988 'Banī Ardalān' EnIr 3/7; Frye 1960 'Ardalān' EI2; Atmaca 2021 Cambridge History of the Kurds; Karimi 2024 History of Ardalānids (1590–1810) Brill (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=1169-01-01, t=1867-01-01] Bolge sözlüğü kapalı: Kürt emirliği için 'iran' kullanıldı. f=1169 taslak olarak kalır — Vikipedi başlangıcı '14. yy civarı' diyor ⇒ 1281 sonrası olabilir (kapsam dışı). Hafızada TDV 1169 (Ardalan-Selçuklu Kürt Baba Ardalan'ın mücadelesi) — TDV açılamadı; f DOĞRULANMADI, çelişki: 14. yy (Vikipedi) / 1169 (taslak). Ana oturum kararı: 1281 öncesi başlamadıysa kapsam dışı. t: 1867 (1865/68 aralığı). Baslangic 1169 veya 14.yy olabilir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -137,11 +145,45 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "ic_not": "[Tur 1 taslak değeri: f=1135-01-01, t=1229-01-01] Tur 2'de Vikipedi (Kish Island / Kingdom of Qays) sayfaları işe yaramadı; doğrulanamadı. Hafıza: Kays (Kiş) emirlik/kral ailesi 11.–13. yy, Basra Körfezi ticaret emirliği.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": "Yok."
+  }
+ },
+ {
+  "id": "mihrabani-sistan",
+  "ad": "Mihrâbânîler (Nimruz/Sistan Melikleri)",
+  "tur": "hanedanlik",
+  "bolge": "iran",
+  "f": "1236-01-01",
+  "t": "1537-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Zerenc (Sistan)",
+  "etkin_bolge": "Sistan (Nimruz)",
+  "sehirler": [
+   "Zerenc",
+   "Sistan"
+  ],
+  "ozet": "Nasrîlerin ardılı Sistan melikleri; 1236'dan Safevi fethine (~1537) dek sürdü.",
+  "oncul": [
+   "nasri-sistan"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Mihrabanids — 1236–1537 Sistan (Nimruz); Şemseddin Ali b. Mesud 1236–1255 … Sultan Mahmud c.1495–c.1537; atfedilen: Bosworth 1994 The History of the Saffarids of Sistan and the Maliks of Nimruz (247/861 to 949/1542–3), Mazda; Daftary 1998 A Short History of the Ismailis s.163; Daftary 2007 The Ismāʿīlīs (CUP) s.411; TDV 'Mihribaniler' (açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "1236 başlangıcı 1281'den önce olduğundan bu işe girer. Mihrabanî sayfası kendi içinde tutarsız (örn. Muhammed I: 1255–1318 / 1261–1318). Ilhanlı (ilhanli) ve Kert (kert) vasalı; mevcut TSV'de yok.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok (Tur 2'de TSV'ye karşı kontrol edildi)."
   }
  }
 ]

@@ -4,7 +4,7 @@
   "ad": "Proto-Elam Susa (Susa II-III; Proto-Elam yazi alani)",
   "tur": "sehir-devleti",
   "bolge": "iran",
-  "f": "-3199-01-01",
+  "f": "-3099-01-01",
   "t": "-2699-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -23,9 +23,11 @@
    "awan"
   ],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Siyasi birim niteligi tartismali; f/t yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Proto-Elamite (3100–2700 MÖ, Susa III / geç Banesh); atfedilen: Potts 1999 The Archaeology of Elam, Cambridge UP; Álvarez-Mon 2020 The Art of Elam; Vallat 1986 World Archaeology 'The Most Ancient Scripts of Iran' (eserler doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-3199-01-01, t=-2699-01-01] Sayfa Proto-Elam'ı 'kronolojik çağ/uygarlık' diye tanımlıyor; merkezî idare/siyasî kurum anlatılmıyor ⇒ siyasî birim değil kültür-yazı alanı olma ihtimali yüksek; Emre/ana oturum 'kultur' mü 'sehir-devleti' mi kararı versin. Takvim: MÖ 3100–2700 ⇒ astronomik -3099/-2699. Siyasi birim niteligi tartismali; f/t yaklasik.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -55,7 +57,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Siyasi yapi arkeolojik cikarim; belgeli devlet sayilmayabilir, kultur kaydiyla yinelenme riski. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "ic_not": "[Tur 1 taslak değeri: f=-3399-01-01, t=-3000-01-01] Tur 2'de doğrulanamadı (Uruk sayfası okunmadı). Mevcut uruk-gec-kultur kaydı ile yinelenme riski; siyasî birim arkeolojik çıkarım. Siyasi yapi arkeolojik cikarim; belgeli devlet sayilmayabilir, kultur kaydiyla yinelenme riski.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "uruk-gec-kultur",

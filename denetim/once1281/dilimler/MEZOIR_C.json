@@ -4,7 +4,7 @@
   "ad": "Persis (Fars) Krallığı — Frataraka ve Darayan hanedanlari",
   "tur": "krallik",
   "bolge": "iran",
-  "f": "-0299-01-01",
+  "f": "-0131-01-01",
   "t": "0224-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -22,13 +22,15 @@
    "sasani"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Baslangic sikka kronolojisine baglidir. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Kings of Persis — Darayan I (132 MÖ sonrası) … Ardakhshir V (Ardashir I) 211/2–224; sıralama sikke (nümismatik) temelli, Part vasalı; atfedilen: Wiesehöfer 2009 'Persis, Kings of' EnIr; Sellwood 1983 'Minor States in Southern Iran' Cambridge History of Iran 3; Shayegan 2011 Arsacids and Sasanians; Daryaee 2014 Sasanian Persia (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-0299-01-01, t=0224-01-01] Selevkos altındaki Frataraka evresi (taslakta f=-0299) bu sayfada yok; Darayan I MÖ 132 sonrası. Taslak başlangıcı (Frataraka) Wiesehöfer (EnIr) ile doğrulanmalı. Sayfadaki yeni hükümdar listesi 20 kralı kapsar. Baslangic sikka kronolojisine baglidir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Yok; sasani 224'ten baslar."
+   "not": "sasani 224'ten baslar; Persis Part vasalı olarak -0131'den."
   }
  },
  {
@@ -36,10 +38,10 @@
   "ad": "Hatra Krallığı",
   "tur": "krallik",
   "bolge": "mezopotamya",
-  "f": "-0149-01-01",
+  "f": "0155-01-01",
   "t": "0241-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "belirsiz",
    "t": "yil"
   },
   "baskent": "Hatra",
@@ -51,9 +53,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Bitis 240-241. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Hatra — Part'ın batı sınırında yarı-özerk tampon krallık, 'muhtemelen ilk Arap yönetimli krallık'; en erken tarihli hükümdar Elkud (155/156); 238'de Sasanileri Şehrizor'da yener; 241'de Şapur I yıkar; atfedilen: Dirven 2013 Hatra: Politics, Culture and Religion; Sommer 2003 Hatra; al-Salihi 2021 Iraq 83; Schmitt EnIr 'Hatra' (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-0149-01-01, t=0241-01-01] f=0155: yalnız en erken TARİHLİ kral; kuruluş/bağımsızlaşma tarihi sayfada yok (MÖ 149 taslak desteklenmiyor). Gerçek kuruluş 1.–2. yy olabilir; Vikipedi 'flourished 1st–2nd c. AD'. t=241 Şapur I (Emre/atlas 241 ile uyumlu). Bitis 240-241.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -81,13 +85,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Bitis 214/244 arasi okullara gore. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Osroene — Abgarid hanedanı (yerleşik Nebati-Arap), kuruluş MÖ 132 (infobox; metinde 136, yan çubukta 134); Roma son Abgar IX'u 213–214'te devirir, topraklar eyalet; Gordianus III (238–244) altında kalıntı krallık; yan çubuk 242; atfedilen: Segal 1982 'Abgar' EnIr s.210–213; Lieu 1997 'Edessa' EnIr; Sartre 2005 Cambridge Ancient History 12 s.500; Drijvers 1980 Cults and Beliefs at Edessa (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-0131-01-01, t=0244-01-01] Üç farklı kuruluş yılı sayfada (136/134/132); infobox 132 alındı. t=244 kalıntı krallığın sonu; 213/214 Roma'nın fiilî ilhakı, infobox 638 (bölge adı). Edessa, Urfa kayıtları (11.–12. yy) ile aynı yer ama farklı polity. Bitis 214/244 arasi okullara gore.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Yalniz 11.yy Urfa kayitlari var."
+   "not": "Urfa 11. yy kayıtları (urfa-toros-beyligi, urfa-kontlugu) farklı polity; Osroene yok."
   }
  },
  {
@@ -95,13 +101,13 @@
   "ad": "Adiabene Krallığı",
   "tur": "krallik",
   "bolge": "mezopotamya",
-  "f": "-0014-01-01",
+  "f": "-0163-01-01",
   "t": "0116-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "yil",
    "t": "yil"
   },
-  "baskent": "Arbela (Erbil)",
+  "baskent": "Arbela (Erbil) → ayrıca Nisibis (Izates II)",
   "etkin_bolge": "Kuzey Mezopotamya",
   "sehirler": [
    "Arbela"
@@ -110,9 +116,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Adiabene — ~MÖ 164 Abdissares (sikke); Part vasali (145–141 sonrası); Izates II (~36–55/59) Nisibis'i alır; Meharaspes Trajan'a karşı ~115; ~379'da Sasani eyaleti; atfedilen: Marciak 2017 Sophene, Gordyene, and Adiabene (Brill); Marciak & Wójcikowski 2016 Iraq; Sellwood 1983 'Adiabene' EnIr; Neusner 1964 JBL (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-0014-01-01, t=0116-01-01] Kuruluş MÖ 164 sikkeye dayanır ('around'); Part vasalı olarak sürer. t=116: son bağımsız kral Meharaspes (Trajan, ~115); Vikipedi bölgenin ~379'a kadar krallıkla anıldığını söylüyor (Sasani valisiyle) ⇒ t=116 taslak değeriyle uyumlu ama polity'nin yaşaması 379'a uzanabilir. Taslak f=-0014 (Yahudileşme çağı) yanlıştı: Yahudileşme 1. yy MS.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -124,11 +132,11 @@
   "ad": "Gordyene (Kordue) Krallığı",
   "tur": "krallik",
   "bolge": "mezopotamya",
-  "f": "-0189-01-01",
-  "t": "0400-01-01",
+  "f": "-0164-01-01",
+  "t": "-0069-01-01",
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
+   "f": "yil",
+   "t": "yil"
   },
   "baskent": "Belirsiz",
   "etkin_bolge": "Dicle ustu, Botan",
@@ -139,9 +147,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sureler cok belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Gordyene (Kordue) — Ksenophon'da MÖ 401 Karduchoi; bağımsız krallık ~165/164–95 MÖ; Tigranes II altında Ermeni vasalı (95'ten); son kral Zarbienus 71/70'te öldürülür; sonrası Part/Roma/Ermeni arası; Trajan fethi; 363 Sasani; atfedilen: Marciak 2017 Sophene, Gordyene, and Adiabene; Marciak 2021 EnIr 'Gordyene'; Hewsen 2001 Armenia: A Historical Atlas; Gray 2015 Oxford Classical Dictionary; Lightfoot 2005 CAH 12 (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-0189-01-01, t=0400-01-01] Sayfa durum için 'bilimsel tartışma' diyor (Marciak ile Hewsen çelişir). Seçilen: bağımsız/ermeni vasalı krallık dönemi MÖ ~164–70. Daha sonrası (4. yy Ermeni prensliği, Sasani satraplığı) taslak t=0400 hatalıydı ya da başka yapı. Sofene ile ilişkisi: ayrı kayıt, komşu. Sureler cok belirsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -168,9 +178,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Gelenege dayali. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Tanukh — Bahreyn'de 2. yy'dan konfederasyon, Mezopotamya (3.–9. yy), K Suriye (4.–11. yy), Güney Lübnan (11.–17. yy); Bizans foederati; kral Cezime (3. yy yazıtı); atfedilen: Shahid 1985 Byzantium and the Arabs in the Fourth Century; Shahid 2000 EI2 'Tanūkh'; Retsö 2003 The Arabs in Antiquity; Hoyland 2001 Arabia and the Arabs; Salibi 1961 'The Buḥturids of the Garb' (doğrudan açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=0196-01-01, t=0500-01-01] Sayfa bir 'kabile konfederasyonu' tarif ediyor, krallık değil; infobox şablonu 196–1100 diyor. f=196 şablonla uyumlu; t=500 destek bulmadı. Tek bir bölgeye bağlı sınırlı polity olmayabilir ⇒ ELENEN adayı; Lahmi (268+) öncülü. Gelenege dayali.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -182,11 +194,11 @@
   "ad": "Sakastan / Indo-Part (Suren) Krallığı",
   "tur": "krallik",
   "bolge": "iran",
-  "f": "-0019-01-01",
-  "t": "0050-01-01",
+  "f": "0019-01-01",
+  "t": "0226-01-01",
   "kesinlik": {
-   "f": "onyil",
-   "t": "onyil"
+   "f": "yil",
+   "t": "yil"
   },
   "baskent": "Sakastan (Sistan)",
   "etkin_bolge": "Dogu Iran, Pakistan",
@@ -197,42 +209,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Bolge iran/guney-asya siniri. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Yok."
-  }
- },
- {
-  "id": "part-persis-diger-yok",
-  "ad": "Medya-Part ara vasal krallari (Media Magna; Elam-Mesene dahil)",
-  "tur": "vasal-krallik",
-  "bolge": "iran",
-  "f": "-0139-01-01",
-  "t": "0224-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yil"
-  },
-  "baskent": "Belirsiz",
-  "etkin_bolge": "Part vasali krallar",
-  "sehirler": [
-   "Belirsiz"
+  "kaynak": [
+   "Vikipedi (yalnız aracı, tek dayanak değil): Indo-Parthian Kingdom — Gondophares I (~19–46) Sakastan (Drangiana) valisi iken Part'tan bağımsızlığını ilan eder (19/20); Taxila başkent sayılır; Sasani Ardeşir I Sakastan'ı ~224/5 ve Turan–Sakastan krallıklarını ~230'da boyun eğdirir; infobox 19–226; Paratarajas Belucistan'da 3. yy sonuna; atfedilen: Rezakhani 2017 ReOrienting the Sasanians (EUP); Bivar 2002 'Gondophares' EnIr; Schmitt 1995 'Drangiana' EnIr; Bosworth 1997 'Sīstān' EI2 (doğrudan açılmadı)"
   ],
-  "ozet": "Part vasali yerel krallar (Gotarzes vb.).",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Birim sinirlari belirsiz; yinelenme riski, yuksek. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "[Tur 1 taslak değeri: f=-0019-01-01, t=0050-01-01] Taslakta t=0050 kısa kalmıştı (kayıt 226'ya kadar sürüyor). Kaynaklar arası tutarsızlık: navbox 21–c.130; infobox 19–226. Seçilen: infobox. Çekirdek bölgeler Sakastan (iran) ve Taxila (guney-asya) — bölge kodu kararı ana oturumda; Suren soyu önerisi Olbrycht 2016. Bolge iran/guney-asya siniri.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "elymais, karakene, atropatene var."
+   "not": "iran bölgesinde Sakastan çekirdeği; Hint kolu başka oturumun alanında olabilir (HINT)."
   }
  }
 ]

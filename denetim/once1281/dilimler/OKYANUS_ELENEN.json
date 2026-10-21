@@ -1,0 +1,163 @@
+[
+ {
+  "id": "kuk-erken-tarim",
+  "ad": "Kuk Erken Tarım Alanı (Yeni Gine yaylaları)",
+  "tur": "kultur",
+  "bolge": "okyanusya",
+  "f": "-5000-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "onyil",
+   "t": "belirsiz"
+  },
+  "baskent": "yok (kültür)",
+  "etkin_bolge": "Wahgi Vadisi, Yeni Gine yaylaları",
+  "sehirler": [
+   "Kuk"
+  ],
+  "ozet": "Yeni Gine yaylalarında erken bataklık tarımı; siyasî birim değil, kültür. Ana listeye yalnız ilişkili olarak.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Denham, T. P. et al. 2003, 'Origins of Agriculture at Kuk Swamp in the Highlands of New Guinea', Science 301: 189-193 (özet, Agris/Deakin kaydı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kaynak özeti: höyükleme tarımı 6950-6440 cal BP (≈ MÖ 5000-4500), daha erken faz 10220-9910 cal BP (≈ MÖ 8270-7960), hendekli tarım 4350-3980 cal BP. Taslak f (-5000) özetle uyumlu. Kültür, siyasî birim değil: ELENEN. UNESCO WHC 887 sayfası 403 verdi, okunamadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "ILISKILI (kültür); devlet değil."
+  },
+  "elenme_gerekce": "tur=kultur: siyasî birim değil (BRIF: MÖ 3000 öncesi arkeolojik kültürler ve etnik/kültürel adlar hariç)"
+ },
+ {
+  "id": "budj-bim-gunditjmara",
+  "ad": "Budj Bim — Gunditjmara Su Ürünleri Peyzajı",
+  "tur": "kultur",
+  "bolge": "okyanusya",
+  "f": "-4600-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "onyil",
+   "t": "belirsiz"
+  },
+  "baskent": "yok (kültür)",
+  "etkin_bolge": "Victoria güneybatısı, Avustralya",
+  "sehirler": [
+   "Budj Bim"
+  ],
+  "ozet": "Gunditjmara'nın yılan balığı kanal/tuzak sistemi; siyasî birim değil, ilişkili kültür.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Monash Univ. Indigenous Studies, 'The detective work behind the Budj Bim eel traps World Heritage bid', 2017 (Lake Condah Muldoons kanalı, radyokarbon: en az 6600 yıl)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Monash özeti: bir kanal en az 6600 yıl önce; ihtilaf: Head'e göre çoğu tuzak son ~2000 yıla uyar, Coutts ~3500 yıl diyordu. Kültür peyzajı, siyasî birim değil: ELENEN. UNESCO WHC 1577 sayfası 403 verdi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "ILISKILI (kültür); devlet değil."
+  },
+  "elenme_gerekce": "tur=kultur: siyasî birim değil (BRIF: MÖ 3000 öncesi arkeolojik kültürler ve etnik/kültürel adlar hariç)"
+ },
+ {
+  "id": "aborijin-ulusal-birimleri",
+  "ad": "Avustralya Aborijin Ulusları (Yolngu vb.)",
+  "tur": "kultur",
+  "bolge": "okyanusya",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Avustralya",
+  "sehirler": [
+   "Arnhem Land (Yolngu)"
+  ],
+  "ozet": "Yüzlerce dil/ülke grubu; merkezî devlet yok. Yalnız ilişkili not; kayıt açılmayacaksa silinebilir.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Yıl bilinmiyor; siyasî birim değil (merkezî devlet yok). Kaynak bulunamadı, web'de bu kayıt için doğrulayıcı sayfa açılmadı. ELENEN.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "ILISKILI; devlet yok."
+  },
+  "elenme_gerekce": "tur=kultur: siyasî birim değil (BRIF: MÖ 3000 öncesi arkeolojik kültürler ve etnik/kültürel adlar hariç)"
+ },
+ {
+  "id": "lapita-kulturu",
+  "ad": "Lapita Kültürü",
+  "tur": "kultur",
+  "bolge": "okyanusya",
+  "f": "-1599-01-01",
+  "t": "-0499-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "yok (kültür)",
+  "etkin_bolge": "Bismarck Takımadaları'ndan Fiji, Tonga, Sāmoa'ya",
+  "sehirler": [
+   "Talepakemalai (Mussau)",
+   "Teouma (Vanuatu)",
+   "Sigatoka (Fiji)"
+  ],
+  "ozet": "Uzak Okyanusya'yı yerleştiren çanak kültürü; siyasî birim değil, ilişkili.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Denham, Ramsey & Specht 2012, Lapita'nın Bismarck'ta ortaya çıkışı ve Uzak Okyanusya'ya yayılışı (OxCal Bayes; özet, climate.ox.ac.uk/ORA kaydı)",
+   "Burley & Connaughton 2007, Vava'u Tonga (özet)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri: f -1599, t -0499. Özetlere göre Lapita Mussau'da 3470-3250 cal BP (≈ MÖ 1520-1300), Vanuatu 3250-3100, Fiji 3130-3010, Tonga/Sāmoa ~2900-2700 BP (≈ MÖ 950-750). Eski Kirch-Hunt 1988: ~3550 BP (≈ MÖ 1600). t (-0499) desteklenmedi. Kültür: ELENEN.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "ILISKILI (kültür)."
+  },
+  "elenme_gerekce": "tur=kultur: siyasî birim değil (BRIF: MÖ 3000 öncesi arkeolojik kültürler ve etnik/kültürel adlar hariç)"
+ },
+ {
+  "id": "aotearoa-maori-oncesi",
+  "ad": "Aotearoa Erken Māori Yerleşimi",
+  "tur": "kultur",
+  "bolge": "okyanusya",
+  "f": "1250-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "onyil",
+   "t": "belirsiz"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Yeni Zelanda",
+  "sehirler": [
+   "Wairau Bar"
+  ],
+  "ozet": "Moa avcısı erken dönem; iwi/hapū siyasî yapıları sonrası.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Wilmshurst, Hunt, Lipo & Anderson 2011, 'High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia', PNAS 108(5): 1815-1820 (özet/haber özetleri)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak f 1250 (onyıl); kaynak özeti: Doğu Polinezya ikinci pulsu MS 1190-1290/1293, Yeni Zelanda 1230-1282 (ikincil haber özeti; tam metin okunmadı). Siyasî birim değil: ELENEN.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "ILISKILI (kültür)."
+  },
+  "elenme_gerekce": "tur=kultur: siyasî birim değil (BRIF: MÖ 3000 öncesi arkeolojik kültürler ve etnik/kültürel adlar hariç)"
+ }
+]
