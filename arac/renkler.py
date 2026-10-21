@@ -180,6 +180,15 @@ KOVA = {
 
 BOYALAR = {
     # ═══ 🏺 MÖ 2. DALGA BOYALARI (MO-MOTOR-1020 · veri-mo-arkeo yerleşimlerinin `s:` kimlikleri; renkler yakın-coğrafya ΔE ≥ 12,5, L* ≥ 59,8) ═══
+    "akad": ("Akad Imparatorlugu", "#cc6b1c"),
+    "gutium": ("Gutium (Gutiler) Hakimiyeti", "#02d3f9"),
+    "kassit-babil": ("Kassit Babil Krallığı", "#f99e43"),
+    "lagas-2": ("Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)", "#c56615"),
+    "larsa": ("Larsa Krallığı", "#0adbfc"),
+    "sumer-lagas-1": ("Lagas I. Hanedan (sehir devleti)", "#d83c53"),
+    "ur-3": ("Ur III (Ucuncu Ur Hanedani)", "#df3e7e"),
+
+    # ═══ 🏺 MÖ 2. DALGA BOYALARI (MO-MOTOR-1020 · veri-mo-arkeo yerleşimlerinin `s:` kimlikleri; renkler yakın-coğrafya ΔE ≥ 12,5, L* ≥ 59,8) ═══
     "ahamenis": ("Ahamenis (Pers) Imparatorlugu", "#d57fc5"),
     "aseramik-kuzey-levant-anadolu": ("Epipaleolitik–Çanak Öncesi Neolitik toplulukları (Kuzey Levant, Fırat, Güneydoğu Anadolu)", "#ba8400"),
     "babil-eski": ("Eski Babil (Amorit) Krallığı", "#1382f0"),
@@ -4451,6 +4460,7 @@ _aciklik_tavani_dogrula()
 DESEN_TURLERI = ("serit", "capraz", "nokta", "dikey")
 KULTUR_OPAKLIK_ARALIK = (0.20, 0.65)
 KULTUR_DESEN = {
+
     "aseramik-kuzey-levant-anadolu": ("serit", 0.45),
     "dadiwan-laoguantai": ("serit", 0.45),
     "el-argar-kultur": ("nokta", 0.45),

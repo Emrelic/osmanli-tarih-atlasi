@@ -47,6 +47,8 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
   Ayarlar: `MOTOR_MO_YURUYUS_GUN` (10) · `MOTOR_MO_SINIR` (`1281-01-01`, Emre 21 Ekim) ·
   `MOTOR_TARIH_BASI_MERKEZ` (`mo`; `1` = Emre 19 Ekim kuralı her tarihe — CE haritasını değiştirir, Emre'nin koşu emri ister).
   CE günleri bit bit aynı (16 gün, `denetim/ARAC-MO-MOTOR-KUTU-1020.py kiyas`). `renkler.py` tuzu değişti (KULTUR_DESEN) ⇒ tam inşa.
+  🔴 DERS (21 Ekim, MO-MOTOR): tuz dosyası (`uret_petek.py`/`renkler.py`/`girdi.py`/`motor_onbellek.py`) değiştiren HER commit aynı commit'te
+  `py arac/uret_altlik.py` koşturur ve `data/altlik.js`i ekler; yoksa `denetle_yayin` "GERÇEK BAYAT" verip herkesin push'unu durdurur.
   ⏳ BEKLEYEN YAMA (18 Ekim 2026, Emre onayı — not #80): `denetim/MOTOR-KISTAK-KOPRU-1018.diff` bir sonraki TAM İNŞADA uygulanır (`git apply`; tek başına ve yaka kilidiyle birlikte temiz sınandı) ve bayrağa `MOTOR_KISTAK_KOPRU=1` eklenir. Yürüyüş ızgarasında hapis kalan kıstak/burun kentinin tohumu (Aden 1 hücre, Sinop, Cádiz, Özi, Kılburun…) karadan ≤ 16 km yürünen anakara hücresine taşınır. Öngörü: logda `🌉 KISTAK KÖPRÜSÜ: 39 tohum`. Kabul ölçütleri `denetim/MOTOR-KISTAK-KOPRU-1018.md`de. Uygulanınca bu satır bayrak listesine taşınır.
   🔴 **`MOTOR_DEVAM=1` 11 Ekim 2026'da EKLENDİ ve niçin eksik olduğu bir derstir:**
   `uret_petek.py:511`de duruyor ve gerekçesi Emre'nin kendi cümlesi — *"hiçbir koşu
