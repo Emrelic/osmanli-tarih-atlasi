@@ -1,7 +1,7 @@
 [
  {
   "id": "bmac",
-  "ad": "Baktriya-Margiana Arkeoloji Kompleksi (Oxus Uygarligi)",
+  "ad": "BMAC (Oxus Uygarlığı / Baktriya-Margiana Arkeolojik Kompleksi)",
   "tur": "kultur-kompleksi",
   "bolge": "orta-asya",
   "f": "-2299-01-01",
@@ -10,33 +10,32 @@
    "f": "yuzyil",
    "t": "yuzyil"
   },
-  "baskent": "belirsiz",
-  "etkin_bolge": "Amu Derya orta havzasi, Murgab deltasi, Baktriya",
+  "baskent": "yok",
+  "etkin_bolge": "Amuderya orta ve yukarı havzası, Murgab deltası, Kopet Dağ eteği",
   "sehirler": [
-   "Gonur Depe",
-   "Togolok",
-   "Dashly",
-   "Sapalli Tepe"
+   "Gonur",
+   "Sapalli-tepe",
+   "Altın-depe"
   ],
-  "ozet": "Sulama tarimina dayali, saray ve tapinakli vaha kentleri kompleksi; siyasi birlik veya hukumdar belgesi yok.",
+  "ozet": "Orta Asya Tunç Çağı'nın sulu tarıma dayalı yerleşik kentsel kültür kompleksi; Namazga V-VI evreleriyle ilişkili (taslak).",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994",
-   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+   "History of Civilizations of Central Asia, c. 1: The Dawn of Civilization, UNESCO, 1992 (archive.org tam metin, bu oturumda okundu) — Namazga V katmanlarının tarihi MÖ 2300'e çekilmiştir (MASCA düzeltmeli radyokarbon); Altın-depe, Sapalli-tepe, Dashly yerleşimleri"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Siyasi birim degil kultur kompleksi (tur_yeni: kultur-kompleksi); ana oturum kapsama karar versin. Tarihler arkeolojik (Sarianidi/Hiebert okullari, +-200 yil).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Siyasî birim değil, arkeolojik kültür kompleksi (tur_yeni: kultur-kompleksi); kültür-devlet geçişi kararı ana oturumda. f=-2299 (MÖ 2300): UNESCO HCCA1 Namazga V katmanlarının başlangıcını MÖ 2300'e koyar (Altın-depe ile Harappa eşzamanlaması). t=-1699 (MÖ 1700) bu oturumda kaynakta okunmadı (taslak).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
-  }
+   "not": "Atlasta yok; kültür olarak künyelenip künyelenmeyeceği karar bekliyor."
+  },
+  "tur_yeni": "kultur-kompleksi"
  },
  {
   "id": "saka-konfederasyonu",
-  "ad": "Saka (Sakalar; Pers yazitlarinda Saka Tigraxauda/Haumavarga; Cin kaynaklarinda Sai)",
+  "ad": "Saka Konfederasyonu (Orta Asya Sakaları)",
   "tur": "konfederasyon",
   "bolge": "orta-asya",
   "f": null,
@@ -45,13 +44,12 @@
    "f": "belirsiz",
    "t": "onyil"
   },
-  "baskent": "yok (gocebe)",
-  "etkin_bolge": "Seyhun-Amu Derya, Pamir-Tanri Daglari, Yedisu, Aral cevresi",
+  "baskent": "yok",
+  "etkin_bolge": "Seyhun-Amuderya arası bozkır, Yedisu, Pamir-Fergana",
   "sehirler": [
-   "Yedisu",
-   "Sakastana ovasi"
+   "—"
   ],
-  "ozet": "Dogu Iran dilli gocebe boylar birligi; Ahameni yazitlarinda Saka adlari gecer. Yuezhi baskisiyla ~MO 140'larda Fergana-Baktriya yonune dagildi.",
+  "ozet": "Hahamenişî ve Yunan kaynaklarında Sakalar olarak anılan göçebe boylar birliği; Yuezhi baskısıyla MÖ ~140-130'da Sogdiana ve Baktriya'ya taştı (taslak).",
   "oncul": [],
   "ardil": [
    "greko-baktria (isgal)",
@@ -59,21 +57,20 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde",
-   "[aday kaynak, acilmadi] Herodotos, Historiai 1.201-216 ve 4. kitap; Rolle, R., The World of the Scythians, 1989",
-   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)"
+   "History of Civilizations of Central Asia, c. 2: The Development of Sedentary and Nomadic Civilizations, UNESCO, 1994 (archive.org tam metin, bu oturumda okundu) — Kiros'un 545-539 arası kuzey-doğu seferleri ve \"Saka tribes\"; \"saka tigraxauda... Massagetae ile ilişkilendirilmiş\"",
+   "René Grousset, The Empire of the Steppes: A History of Central Asia, Rutgers University Press, 1970 (archive.org tam metin, bu oturumda okundu) — \"the Saka, under pressure from the Yüeh-chih, overran Sogdiana and then Bactria... Between 140 and 130, Bactria was in fact captured from the Greek king Heliocles by nomad tribes\""
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null: Ahameni yazit listeleri MO 520'ler ilk tanikliktir, kurulus degil. t: Hanshu 96A Sai-wang'in guneye kacisi, Yuezhi gocunden sonra (Zhang Qian MO 129-126), onyil duzeyi. Hint-Saka (Indo-Skit) krallari GUNEY_ASYA isi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f yok (yıl bilinmiyor; boy adı çok eski). t=-0138 taslak değeri (Yuezhi baskısı ~MÖ 140-130) Grousset'in aralığıyla uyumlu; tek bir \"Saka devleti\" yok — Saka boyları (ör. saka tigraxauda, HCCA2) ayrı birliklerdir; MÜKERRER ihtimali: MEZOIR_C sakastan-indo-part, HINT_C hint-iskit/sakalar-bati-satraplar (Hint'e geçen Saka krallıkları farklı polity). Siyasî birim mi etnik ad mı: ana oturum kararı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok; Hint Sakaları (HINT_C) ve Sakastan (MEZOIR_C) ayrı kayıtlar."
   }
  },
  {
   "id": "massaget",
-  "ad": "Massagetler (Tomyris'in boylari)",
+  "ad": "Massagetler",
   "tur": "konfederasyon",
   "bolge": "orta-asya",
   "f": null,
@@ -82,32 +79,31 @@
    "f": "belirsiz",
    "t": "belirsiz"
   },
-  "baskent": "yok (gocebe)",
-  "etkin_bolge": "Aral-Hazar arasi, Seyhun otesi",
+  "baskent": "yok",
+  "etkin_bolge": "Aşağı Seyhun-Aral kıyıları, Hazar doğusu (Uzboy)",
   "sehirler": [
-   "-"
+   "—"
   ],
-  "ozet": "Herodotos'a gore Kyros'u MO 530'da yenip oldurdu denilen Kralice Tomyris'in gocebe birligi.",
+  "ozet": "Herodotos'un Kiros'a karşı savaştığını anlattığı (Kraliçe Tomyris) Aral-Seyhun göçebe birliği; Dahae gibi sonraki Hellenistik birliklerin atası sayılır (taslak).",
   "oncul": [],
   "ardil": [
    "saka-konfederasyonu (emilim?)"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Herodotos, Historiai 1.201-216 ve 4. kitap; Rolle, R., The World of the Scythians, 1989",
-   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+   "History of Civilizations of Central Asia, c. 2: The Development of Sedentary and Nomadic Civilizations, UNESCO, 1994 (archive.org tam metin, bu oturumda okundu) — \"Cyrus fought against the Massagetae according to Herodotus... It is possible that the Dahae and a number of the other groupings of the Hellenistic period may have derived from the earlier Massagetian Confederation\"; \"Queen Tomyris as their leader in the war against Cyrus\""
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil bilinmiyor; tek sabit nokta MO 530 (Kyros'un olumu, Herodotos 1.205-214), tanikliktir, kurulus degil. Massaget-Saka iliskisi tartismali.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f/t yok (null; yıl bilinmiyor). UNESCO bunları \"Saka-Massagetae\" birliği olarak anar; Kiros savaşı MÖ ~530 (Herodotos), yıl bu oturumda ayrıca okunmadı. Siyasî birim mi etnik ad mı belirsiz; saka-konfederasyonu ile aynı birliğin alt kolu olabilir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok."
   }
  },
  {
   "id": "dahae",
-  "ad": "Dahae (Daha/Dai) Konfederasyonu",
+  "ad": "Dahae (Dahalar)",
   "tur": "konfederasyon",
   "bolge": "orta-asya",
   "f": null,
@@ -116,31 +112,31 @@
    "f": "belirsiz",
    "t": "belirsiz"
   },
-  "baskent": "yok (gocebe)",
-  "etkin_bolge": "Hazar-Aral guneydogusu, Turkmen bozkiri",
+  "baskent": "yok",
+  "etkin_bolge": "Hazar Denizi doğusu, Aşağı Amuderya-Uzboy, Gürgân bozkırı",
   "sehirler": [
-   "-"
+   "—"
   ],
-  "ozet": "Ahameni yazitlarinda 'Daha'; Arsakid hanedanina ad veren Parni boyunun ait oldugu birlik.",
+  "ozet": "Hazar Denizi güneyi ve doğusunda Hahamenişî ve Hellenistik kaynaklarda anılan göçebe birlik; Massaget konfederasyonundan türemiş olabilir (taslak).",
   "oncul": [],
   "ardil": [
    "Part Imparatorlugu (Parni kolu)"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+   "History of Civilizations of Central Asia, c. 2: The Development of Sedentary and Nomadic Civilizations, UNESCO, 1994 (archive.org tam metin, bu oturumda okundu) — \"the Dahae... may have derived from the earlier Massagetian Confederation\"; Berossos'a göre Kiros'un Dahae ile savaşı"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Siyasi birim mi etnik ad mi belirsiz; yil yok.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f/t yok (null; yıl bilinmiyor). Parthia'nın kurucu boyu (Parni) Dahae'den çıkar — bu ilişki bu oturumda okunmadı. Siyasî birim değil etnik/boy birliği olabilir; ana oturum kararı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok."
   }
  },
  {
   "id": "antik-harezm",
-  "ad": "Antik Harezm (Chorasmia) Krallıgi",
+  "ad": "Antik Hârizm (Hârizm Krallığı)",
   "tur": "krallik",
   "bolge": "orta-asya",
   "f": null,
@@ -149,33 +145,33 @@
    "f": "belirsiz",
    "t": "yil"
   },
-  "baskent": "Toprak-kale (belirsiz)",
-  "etkin_bolge": "Asagi Amu Derya, Harezm vahasi",
+  "baskent": "Toprak-kale / Kât",
+  "etkin_bolge": "Aşağı Amuderya deltası, Aral güneyi",
   "sehirler": [
    "Toprak-kale",
-   "Ayaz-kale"
+   "Kât"
   ],
-  "ozet": "Ahameni satrapligi sonrasi yerel Harezmsahlar; Iskender'e MO 329'da kral Pharasmanes elci yollamis. Afrigilerin 305'teki kurulusuyla yerel hanedan degisimi.",
+  "ozet": "Hârizm vahasının Hahamenişî öncesinden Afrigoğulları hânedanına (305) kadar yerel krallığı; \"Büyük Hârizm\" hipotezi (Henning, Gershevitch, Tolstov) Herodotos'un Hâriz satrapi anlatısına dayanır (taslak).",
   "oncul": [],
   "ardil": [
    "hivite-afrigid"
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde",
-   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998"
+   "History of Civilizations of Central Asia, c. 2: The Development of Sedentary and Nomadic Civilizations, UNESCO, 1994 (archive.org tam metin, bu oturumda okundu) — \"Greater Chorasmia\" hipotezi: Merv-Herat merkezli olduğu iddia edilen, Kiros'un yıktığı devlet; Hârizm-Parthia-Aria-Sogdiana'nın tek satrapi olduğu Herodotos III.17 (metindeki atıf) aktarımı",
+   "TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Hârizm\" md., 1997, https://islamansiklopedisi.org.tr/harizm (\"Hârizm'de hârizmşah unvanıyla hüküm süren ilk hânedan Afrigoğulları'dır (305-995)\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null: bagimsiz krallik kurulus yili bilinmiyor (MO 329 yalniz taniklik). t=Afrigi kurulusu 305 (Biruni), mevcut kunyeyle uyumlu.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f yok (null). t=305: Afrigoğulları'nın (305-995) başlangıcı TDV Hârizm md. ile uyumlu, ancak \"antik Hârizm\"in bitişi/sürekliliği değil dönem sınırıdır; Afrigoğulları ayrı kayıt olarak C dilimine eklendi (afrigoglu-harezm). \"Greater Chorasmia\" arkeologlarca desteklenmeyen hipotezdir (HCCA2). Hâriz satrapisi Hahamenişî eyaleti — polity değil.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "hivite-afrigid 305'ten basliyor; onceki Harezmsah cagi kunyesiz"
+   "not": "Atlasta yok; ardıl afrigoglu-harezm (C dilimi) ve memuni-harezm (atlasta var)."
   }
  },
  {
   "id": "iskit-kralligi",
-  "ad": "Iskit Krallıgi (Pontus bozkiri; Ateas donemi)",
+  "ad": "İskit Krallığı (Pontus İskitleri)",
   "tur": "krallik",
   "bolge": "dogu-avrupa",
   "f": "-0698-01-01",
@@ -184,13 +180,12 @@
    "f": "yuzyil",
    "t": "yuzyil"
   },
-  "baskent": "yok (gocebe; Gerrhos?)",
-  "etkin_bolge": "Tuna agzindan Don'a Karadeniz kuzeyi bozkiri",
+  "baskent": "—",
+  "etkin_bolge": "Kuzey Karadeniz bozkırı: Dinyeper-Don arası",
   "sehirler": [
-   "Gerrhos",
-   "Kamenka"
+   "—"
   ],
-  "ozet": "Herodotos'un anlattigi Iskit krallari ve Kral Ateas (MO 339) cevresi birlik; Sarmatlarca MO 3. yy'da ezildi.",
+  "ozet": "Herodotos'un anlattığı İskit kralları sülâlesi; Pontus bozkırında MÖ VII. yüzyıldan Sarmat baskısına kadar; geç dönemde Kırım'a çekildi (taslak).",
   "oncul": [
    "kimmer"
   ],
@@ -200,19 +195,19 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Herodotos, Historiai 1.201-216 ve 4. kitap; Rolle, R., The World of the Scythians, 1989"
+   "History of Civilizations of Central Asia, c. 2: The Development of Sedentary and Nomadic Civilizations, UNESCO, 1994 (archive.org tam metin, bu oturumda okundu) — Pontus İskit boylarının yerleşik ve göçebe ekonomisi (Herodotos IV.17-18); İskit grubu bozkır halkları (Tasmola, Pazırık, Tagar)"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Tarihler yuzyil duzeyinde (VII. yy girisi, III. yy asinmasi). DOGU_AVRUPA ile cakisma olasi.",
+  "ic_not": "f=-0698, t=-0248 bu oturumda kaynakta OKUNMADI (taslak). UNESCO metni İskitleri yalnız kültürel bağlamda anar. ÇAKIŞMA: kirim-iskit (Geç İskit) bu kaydın devamı. Siyasî birim mi sorusu: İskit kralları Herodotos'ta (Idanthyrsos) açıkça anılır — polity.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok."
   }
  },
  {
   "id": "pazyryk-kulturu",
-  "ad": "Pazyryk Kulturu (Altay)",
+  "ad": "Pazırık Kültürü (Altay)",
   "tur": "kultur",
   "bolge": "sibirya-bozkir",
   "f": "-0598-01-01",
@@ -222,31 +217,31 @@
    "t": "yuzyil"
   },
   "baskent": "yok",
-  "etkin_bolge": "Yukari Ob, Altay daglari",
+  "etkin_bolge": "Gorno-Altay, Yukarı Katun-Çuya",
   "sehirler": [
-   "Pazyryk",
-   "Ukok"
+   "—"
   ],
-  "ozet": "Donmus kurgan buluntulariyla bilinen gocebe elit kulturu.",
+  "ozet": "Altay dağlarındaki İskit-Saka dünyasına bağlı kurgan (Pazırık) kültürü; donmuş kurganlarıyla bilinir (taslak).",
   "oncul": [],
   "ardil": [
    "xiongnu"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994"
+   "History of Civilizations of Central Asia, c. 2: The Development of Sedentary and Nomadic Civilizations, UNESCO, 1994 (archive.org tam metin, bu oturumda okundu) — \"the Tasmola culture in central Kazakhstan, the Pazirik culture in the Altai, the Tagar culture in southern Siberia\" (İskit grubu bozkır halkları)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Kultur, siyasi birim degil; isteme uyarak kayda alindi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kültür kompleksi, devlet değil (tur_yeni: kultur-kompleksi); karar ana oturumda. Varlığı UNESCO'da doğrulandı; f=-0598, t=-0248 bu oturumda kaynakta OKUNMADI (taslak).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
-  }
+   "not": "Atlasta yok; kültür kompleksi."
+  },
+  "tur_yeni": "kultur-kompleksi"
  },
  {
   "id": "tagar-kulturu",
-  "ad": "Tagar Kulturu (Minusinsk havzasi)",
+  "ad": "Tagar Kültürü (Minusinsk)",
   "tur": "kultur",
   "bolge": "sibirya-bozkir",
   "f": "-0798-01-01",
@@ -256,25 +251,26 @@
    "t": "yuzyil"
   },
   "baskent": "yok",
-  "etkin_bolge": "Yukari Yenisey, Minusinsk",
+  "etkin_bolge": "Minusinsk havzası, Yukarı Yenisey",
   "sehirler": [
-   "Minusinsk"
+   "—"
   ],
-  "ozet": "Demir Cagi yerlesik-gocebe kultur; Tashtyk'e donusur.",
+  "ozet": "Güney Sibirya'da Minusinsk havzasının İskit-Sibirya Demir Çağı kültürü; Taştık'tan önce (taslak).",
   "oncul": [],
   "ardil": [
    "tashtyk-kulturu"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994"
+   "History of Civilizations of Central Asia, c. 2: The Development of Sedentary and Nomadic Civilizations, UNESCO, 1994 (archive.org tam metin, bu oturumda okundu) — \"the Tagar culture in southern Siberia\" (İskit grubu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Kultur; yuzyil duzeyi tarihler.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kültür kompleksi, devlet değil (tur_yeni: kultur-kompleksi); karar ana oturumda. Varlığı UNESCO'da doğrulandı; f=-0798, t=-0098 bu oturumda kaynakta OKUNMADI (taslak).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
-  }
+   "not": "Atlasta yok; kültür kompleksi."
+  },
+  "tur_yeni": "kultur-kompleksi"
  }
 ]

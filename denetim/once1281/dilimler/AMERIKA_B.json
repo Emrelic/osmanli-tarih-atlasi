@@ -21,43 +21,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica). Shady (Caral) 3000-1800 MÖ; Haas&Creamer daha dar aralık.",
+  "kaynak": [
+   "Moseley, Michael E. The Incas and Their Ancestors, rev. ed. London: Thames & Hudson, 2001, böl. 'The Preceramic Foundations of Civilization' (Caral: Shady 'class-structured' hipotezi; Aspero Huaca de los Sacrificios radyokarbon ort. 2857 MÖ, ateş çukuru külü 2533 MÖ; Supe'de 17 Seramiksiz tören kompleksi) (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Moseley Caral'ı 'kıtadaki en büyük seramiksiz anıtsal mimari topluluğu' olarak sunar; Aspero Huaca de los Sacrificios'un son evre radyokarbonu ort. 2857 MÖ (çalışmanın sonu), ateş çukuru külü 2533 MÖ. Caral'ın kesin başlangıç/bitiş yılı Moseley'de verilmez; atlasın (3000-1800 MÖ) Shady okulu aralığını bu oturumda teyit EDEMEDİM. Polity niteliği: Shady 'sınıflı toplum, kalıtsal elit' (Moseley aktarır) der; Moseley 'devlet' demez — şehir/tören merkezleri ağı. Haas & Creamer okulunun daha dar aralığı okunamadı. Tür 'uygarlik' sözlükte yok; 'seflik' veya 'tören-merkezi ağı' (tur_yeni).",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "caral-norte-chico",
    "not": "Künye t=-1999; Caral ağırlıklı 2600-2000 MÖ, bölge terkleri ~1800 MÖ (Shady ekolü). Devlet iddiası tartışmalı."
-  }
- },
- {
-  "id": "poverty-point",
-  "ad": "Poverty Point Kültürü (şeflik/tartışmalı)",
-  "tur": "seflik",
-  "bolge": "kuzey-amerika",
-  "f": "-1649-01-01",
-  "t": "-1149-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
   },
-  "baskent": "Poverty Point (Louisiana)",
-  "etkin_bolge": "Aşağı Mississippi vadisi, uzun mesafe takas ağı",
-  "sehirler": [
-   "Poverty Point"
-  ],
-  "ozet": "Geç Arkaik avcı-toplayıcı kompleksi, devasa toprak işleri; siyasî birim değil, ticaret merkezi, şeflik iddiası tartışmalı.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
-  "esleme": {
-   "durum": "var",
-   "mevcut_id": "poverty-point-kultur",
-   "not": "Mevcut künye kültür; devlet düzeyi YOK, şeflik bile tartışmalı. Kronolojiye siyasî birim olarak alınması önerilmez."
-  }
+  "tur_yeni": "şeflik / tören merkezi ağı (devlet kanıtı yok; Moseley 2001)."
  },
  {
   "id": "san-lorenzo-olmek",
@@ -82,14 +56,17 @@
    "la-venta-olmek"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Diehl, Richard A. 'Death Gods, Smiling Faces and Colossal Heads: Archaeology of the Mexican Gulf Lowlands' (FAMSI), 'The Rise of Complex Societies - Early and Middle Formative Periods': 'Initial Olmec coincides with San Lorenzo's growth and development, its emergence as an important cultural power in southern Mesoamerica, and its ultimate decline at the beginning of the first millennium B.C. La Venta replaced San Lorenzo during the Intermediate Olmec phase' (famsi.org/research/diehl/section01c.html, okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Diehl (FAMSI): Initial Olmec = San Lorenzo'nun büyümesi, 'güneydeki Mezoamerika'da önemli kültürel güç' olarak ortaya çıkışı ve MÖ 1. binyılın başında 'nihai gerilemesi'; Ojochi fazı (MÖ 1500-1350) San Lorenzo'nun en eski yerleşimi (tarım köyleri, eşitlikçi); 'eşitsizlikler Olmec kültürünün MÖ 1500 sonrası ortaya çıkışıyla'. Dolayısıyla f=-1199 (atlas) Diehl'de açık yıl olarak yok (Initial Olmec MÖ ~1200 yaygın değer, okunmadı); t=-0899 'MÖ 1. binyılın başı' ile uyumlu (yaklaşık). Siyasî birim niteliği: heykel merkezi, hükümdar adları/sınırlar belgesiz → polity zayıf (ELENEN adayı; ana oturum kararı). Atlasta 'olmek' (kultur) künyesi var; bu kayıt onun iki merkezinden biri.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "olmek",
    "not": "Mevcut olmek künyesi iki merkezi kapsıyor; ayrı künye isteniyorsa bu kayıt. Şeflik/tartışmalı."
-  }
+  },
+  "tur_yeni": "şeflik merkezi (Diehl: 'important cultural power') — polity niteliği zayıf, kültür künyesiyle çakışıyor."
  },
  {
   "id": "la-venta-olmek",
@@ -115,103 +92,11 @@
   "oncelik": "orta",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "ic_not": "Diehl (FAMSI): La Venta Orta Olmec evresinde San Lorenzo'nun yerini aldı ve 'Terminal Olmec'te zirveye çıktı; kesin yıl verilmiyor (atlas -0899/-0399 hafızadan). Polity niteliği zayıf (heykel merkezi, kronoloji tartışmalı); atlasta 'olmek' kültür künyesi var. ELENEN adayı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "olmek",
    "not": "Bkz. san-lorenzo-olmek. Şeflik/tartışmalı."
-  }
- },
- {
-  "id": "san-jose-mogote",
-  "ad": "San José Mogote (erken Zapotek şefliği)",
-  "tur": "seflik",
-  "bolge": "orta-amerika",
-  "f": "-1149-01-01",
-  "t": "-0499-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "San José Mogote",
-  "etkin_bolge": "Oaxaca, Etla kolu",
-  "sehirler": [
-   "San José Mogote"
-  ],
-  "ozet": "Monte Albán öncesi Oaxaca vadisinin baskın şeflik merkezi; MÖ ~500'de Monte Albán'ın kuruluşuyla ağırlığını yitirdi.",
-  "oncul": [],
-  "ardil": [
-   "monte-alban-zapotek"
-  ],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Şeflik/tartışmalı; tarihler yüzyıl düzeyi."
-  }
- },
- {
-  "id": "chavin",
-  "ad": "Chavín Kültürü (dinî merkez)",
-  "tur": "kultur",
-  "bolge": "guney-amerika",
-  "f": "-0899-01-01",
-  "t": "-0199-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "Chavín de Huántar",
-  "etkin_bolge": "Kuzey-orta Andlar",
-  "sehirler": [
-   "Chavín de Huántar"
-  ],
-  "ozet": "Dinî-ritüel çekim merkezi; devlet düzeyinde siyasî birim kanıtı zayıf.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
-  "esleme": {
-   "durum": "var",
-   "mevcut_id": "chavin",
-   "not": "Siyasî birim olarak tartışmalı; mevcut künye kültür."
-  }
- },
- {
-  "id": "paracas",
-  "ad": "Paracas (Topará) Şeflikleri",
-  "tur": "seflik",
-  "bolge": "guney-amerika",
-  "f": "-0799-01-01",
-  "t": "-0099-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "Cerro Colorado / Cahuachi-öncesi",
-  "etkin_bolge": "Peru güney kıyısı (Ica-Pisco)",
-  "sehirler": [
-   "Paracas",
-   "Topará"
-  ],
-  "ozet": "Nazca'nın öncülü; nekropol tekstilleriyle bilinen tabakalı toplum.",
-  "oncul": [],
-  "ardil": [
-   "nazca"
-  ],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Şeflik/tartışmalı."
   }
  },
  {
@@ -236,40 +121,11 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "ic_not": "Bu oturumda denendi, kaynak okunamadı. WebSearch özetleri (birincil kaynak OKUNMADI): Sanders-Parsons-Santley 1979'a atfen zirve nüfus Tezoyuca-Patlachique fazları (MÖ ~200-MS 150); Xitle patlaması tarihi çelişkili: Gonzalez ve ark. 2000 (Geol. Soc. Spec. Publ.) ≈1670 BP (≈MS 280), daha yeni bir Boletín de la Sociedad Geológica Mexicana çalışması ≈MÖ 80. Dolayısıyla t=0250 hafızadan değer güvenilmez (aralık: MÖ 80 ile MS ~280 arası); polity niteliği (şehir devleti) belgesiz — 'bölgesel kentsel merkez' olarak anılıyor. ELENEN adayı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": "Devlet mi şeflik mi tartışmalı; patlama tarihi kaynaklar arasında farklı."
-  }
- },
- {
-  "id": "tumaco-la-tolita",
-  "ad": "Tumaco-La Tolita Şeflikleri",
-  "tur": "seflik",
-  "bolge": "guney-amerika",
-  "f": "-0599-01-01",
-  "t": "0200-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "La Tolita",
-  "etkin_bolge": "Ekvador-Kolombiya kıyısı",
-  "sehirler": [
-   "La Tolita"
-  ],
-  "ozet": "Altın-platin işçiliğiyle bilinen kıyı şeflikleri.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Şeflik/tartışmalı."
   }
  }
 ]

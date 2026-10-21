@@ -21,13 +21,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 43 «Zhao shijia» (烈侯元年，魏文侯伐中山…六年，魏、韓、趙皆相立爲諸侯) ve Shiji 4 (威烈王二十三年，九鼎震。命韓、魏、趙為諸侯), Shiji 44 (王假…三年，秦灌大梁，虜王假，遂滅魏), Shiji 45 (景侯…六年，與趙、魏俱得列爲諸侯…王安九年，秦虜王安，盡入其地，爲潁州郡。韓遂亡) — zh.wikisource.org/wiki/史記/卷004, 卷043, 卷044, 卷045 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "403 Zhou'nun tanıma tarihi. Cao Wei'den farklı.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "403 Zhou'nun tanıma tarihi. Cao Wei'den farklı. | f: Shiji 4: 威烈王二十三年 (MÖ 403) Han-Wei-Zhao zhuhou ilan edildi (f=-0402 doğrulandı); Shiji 44 Wei Wenhou 元年 = Qin Linggong 1. yıl. t: Shiji 44: 王假三年 Qin Daliang'ı suya boğdu (MÖ 225) → -0224.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "wei-devleti-zhou",
@@ -57,13 +54,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 43 «Zhao shijia» (烈侯元年，魏文侯伐中山…六年，魏、韓、趙皆相立爲諸侯) ve Shiji 4 (威烈王二十三年，九鼎震。命韓、魏、趙為諸侯), Shiji 44 (王假…三年，秦灌大梁，虜王假，遂滅魏), Shiji 45 (景侯…六年，與趙、魏俱得列爲諸侯…王安九年，秦虜王安，盡入其地，爲潁州郡。韓遂亡) — zh.wikisource.org/wiki/史記/卷004, 卷043, 卷044, 卷045 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f: Shiji 45: 景侯六年 Zhao-Wei ile zhuhou oldu; Shiji 4: MÖ 403. t: Shiji 45: 王安九年 Qin Wang An'ı esir aldı, Yingchuan komutanlığı (MÖ 230) → -0229 doğrulandı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "han-devleti-zhou",
@@ -92,13 +86,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 43 «Zhao shijia» (烈侯元年，魏文侯伐中山…六年，魏、韓、趙皆相立爲諸侯) ve Shiji 4 (威烈王二十三年，九鼎震。命韓、魏、趙為諸侯), Shiji 44 (王假…三年，秦灌大梁，虜王假，遂滅魏), Shiji 45 (景侯…六年，與趙、魏俱得列爲諸侯…王安九年，秦虜王安，盡入其地，爲潁州郡。韓遂亡) — zh.wikisource.org/wiki/史記/卷004, 卷043, 卷044, 卷045 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Han Dan'ın düşüşü MÖ 228; Dai'de sürgün MÖ 222.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Han Dan'ın düşüşü MÖ 228; Dai'de sürgün MÖ 222. | f: Shiji 43: 烈侯 Ji; 烈侯六年 Wei-Han-Zhao zhuhou oldu (Shiji 4: MÖ 403 → -0402). t: Zhao Wang Qian'ın esiri (MÖ 228) ve Dai Wang Jia'nın esiri (Shiji 6: Qin 25. yıl, MÖ 222) ayrı; atlas t=-0221 (Dai'nin sonu).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "zhao-devleti",
@@ -126,13 +117,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 43 «Zhao shijia» (獻侯十年，中山武公初立) — zh.wikisource.org/wiki/史記/卷043 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "414 f: Zhongshan'ın ilk anılması; Wei fethi 406, yeniden kuruluş 380 (Wen Gong).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "414 f: Zhongshan'ın ilk anılması; Wei fethi 406, yeniden kuruluş 380 (Wen Gong). | f: Shiji 43: Zhao Xianhou 10. yıl (MÖ 414) 中山武公初立 → -0413 doğrulandı; Wei Wenhou 17. yılda Zhongshan'ı aldı (MÖ 408-406) sonra Zhongshan yeniden dirildi; t=-0294 (MÖ 295, Zhao Wuling Wang) bu sayfada tarih olarak okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -228,13 +216,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 116 «Xinan yi liezhuan» (元封二年，天子發巴蜀兵擊滅勞寖、靡莫，以兵臨滇。滇王…舉國降，請置吏入朝) — zh.wikisource.org/wiki/史記/卷116 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş Chu generali Zhuang Qiao'ya bağlanır (MÖ 279 civarı).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş Chu generali Zhuang Qiao'ya bağlanır (MÖ 279 civarı). | Shiji 116: 元封二年(MÖ 109) Han Laojin-Mimo'yu yok etti, Dian Wang舉國降, Han memur atadı (t=-0108 doğrulandı). f=-0278 (Zhuang Qiao) bu sayfada yok.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "dian",
@@ -296,13 +281,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 114 «Dongyue liezhuan» (孝惠三年…乃立搖為東海王，都東甌，世俗號為東甌王…至建元三年，閩越發兵圍東甌) — zh.wikisource.org/wiki/史記/卷114 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Wuzhu 202; Han'ın fethi 111-110 MÖ.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Wuzhu 202; Han'ın fethi 111-110 MÖ. | Shiji 114: Wuzhu Minyue 王 (Dongye merkezli); 建元三年(MÖ 138) Dongou kuşatması. f=-0201 ve t=-0109 (Han fethi 元封元年, MÖ 110) bu sayfada okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -315,7 +297,7 @@
   "tur": "krallik",
   "bolge": "dogu-asya",
   "f": "-0191-01-01",
-  "t": "-0136-01-01",
+  "t": "-0137-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -330,13 +312,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 114 «Dongyue liezhuan» (孝惠三年…乃立搖為東海王，都東甌，世俗號為東甌王…至建元三年，閩越發兵圍東甌) — zh.wikisource.org/wiki/史記/卷114 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "192 Zou Yao; 138 taşınma.",
+  "dogrulama": "okundu",
+  "ic_not": "192 Zou Yao; 138 taşınma. | taslak değeri: t=-0136-01-01 | f: 孝惠三年 (MÖ 192) Yao 東海王 (Dongou); astronomik -0191. t: 建元三年 (MÖ 138) Minyue Dongou'yu kuşattı ve halk Han'a iltica etti (Jiangsu'ya yerleştirildi) → -0137; atlas t=-0136 1 yıl kaymış.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -364,13 +343,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 113 «Nanyue liezhuan» (元鼎六年冬，樓船將軍…陷尋陜，破石門…咸會番禺) — zh.wikisource.org/wiki/史記/卷113 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Zhao Tuo 204 BC kral, 196 BC Han tanıması.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Zhao Tuo 204 BC kral, 196 BC Han tanıması. | Shiji 113: 元鼎六年(MÖ 111) kış, Han donanması Panyu'da birleşti → t=-0110 doğrulandı. f=-0203 (Zhao Tuo 自立, MÖ 204/203) bu sayfada desen bulunamadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "nanyue",
@@ -398,13 +374,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji (MÖ ~91), juan 6 «Qin Shihuang benji» (二十六年，齊王建…得齊王建。秦王初并天下…子嬰為秦王四十六日，楚將沛公破秦軍入武關，遂至霸上，使人約降子嬰) — zh.wikisource.org/wiki/史記/卷006 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "okundu",
+  "ic_not": "f: 二十六年(MÖ 221) Qin Wang Zheng Qi'yi alıp 'Qin Wang'ın birleştirmesi' (imparator unvanı ayni yıl); gün okunmadı. t: Ziying 46 gün Qin Wang, Pei Gong Wuguan'dan girip Bashang'da teslim aldı (MÖ 207 sonu/206; Shiji 16 'Han 1. yıl' tablosu aynı olayı verir). Astronomik yıl: MÖ 221=-0220.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "qin-hanedani",
@@ -432,13 +405,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -466,13 +436,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -500,13 +467,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -534,13 +498,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -568,13 +529,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -602,13 +560,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -636,13 +591,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -670,13 +622,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -704,13 +653,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -738,13 +684,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -772,13 +715,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -806,13 +746,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -840,13 +777,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -874,13 +808,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -908,13 +839,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -942,13 +870,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -976,13 +901,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1010,13 +932,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 7 «Xiang Yu benji» (項王自立為西楚霸王，王九郡，都彭城。漢之元年四月，諸侯罷戲下，各就國…項王使人徙義帝…陰令衡山、臨江王擊殺之江中…臧荼之國，因逐韓廣之遼東…田榮因自立為齊王，而西殺擊濟北王田安，并王三齊) — zh.wikisource.org/wiki/史記/卷007 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi). | Shiji 7: Xiang Yu 漢之元年(MÖ 206) 4. ay'da 'zhuhou罷戲下，各就國' — onsekiz krallık atamasının yılı (f=-0205 astronomik) doğrulandı; bu krallığın kendi bitiş yılı (t) bu sayfada tek tek okunmadı. Öncelik: kucuk, Emre kararı bekliyor (raporda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1044,13 +963,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Sima Qian, Shiji, juan 8 «Gaozu benji» (甲午，乃即皇帝位汜水之陽) ve Ban Gu, Han shu (MS 111), juan 1 xia «Gaodi ji» (謹擇良日二月甲午，上尊號。漢王即皇帝位于氾水之陽) — zh.wikisource.org/wiki/史記/卷008, 漢書/卷001下 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Han Kralı unvanı MÖ 206; İmparator MÖ 202. Atlas -0205 yıl 206.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Han Kralı unvanı MÖ 206; İmparator MÖ 202. Atlas -0205 yıl 206. | Han Gaozu 二月甲午 汜水之陽 即皇帝位 = Jülyen MÖ 202-02-28 (astronomik -0201-02-28; ganzhi→Jülyen). Atlas künyesi f=MÖ 206 Han Wang unvanından başlar (Shiji 7 'Han Wang' pasajı bu oturumda desenle bulunamadı); iki başlangıç ic_not'ta. t=MS 9 (Wang Mang) için bkz. xin-hanedani.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "bati-han",
@@ -1078,13 +994,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Ban Gu, Han shu, juan 99 zhong-xia «Wang Mang zhuan» (始建國元年正月朔，莽帥公侯卿士奉皇太后璽韍…去漢號焉; 地皇四年…十月戊申朔，兵從宣平城門入…莽就車，之漸臺) — zh.wikisource.org/wiki/漢書/卷099中, 卷099下 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas künyesi 9-01-10 (gün hassasiyeti); biz de aynı gün kesinliğiyle.",
+  "dogrulama": "okundu",
+  "ic_not": "Atlas künyesi 9-01-10 (gün hassasiyeti); biz de aynı gün kesinliğiyle. | f: Han shu 99 zhong: 始建國元年正月朔, Wang Mang Han adını bıraktı (atlas künyesindeki gün 0009-01-10 korunur; 正月朔→Jülyen çevrilmedi). t: Han shu 99 xia: 地皇四年…十月戊申朔 (23-10-04) isyancılar Xuanping kapısından girdi; Wang Mang 漸臺'ya çekildi; üçüncü gün (庚戌 = 23-10-06 Jülyen) öldürüldü — gün-ayı '3' cümlesi bu çıktıda ayrıca okunmadı, ganzhi çevrimi atlas gününü doğrular.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "xin",
@@ -1096,10 +1009,10 @@
   "ad": "Gengshi Rejimi (Xuan Han / Lulin)",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "0023-01-01",
+  "f": "0023-03-11",
   "t": "0025-01-01",
   "kesinlik": {
-   "f": "yil",
+   "f": "gun",
    "t": "yil"
   },
   "baskent": "Chang'an",
@@ -1112,13 +1025,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fan Ye, Hou Han shu (MS 445), juan 11 «Liu Xuan zhuan» (二月辛巳，設壇場於淯水上沙中…更始即帝位，建元曰更始元年) — zh.wikisource.org/wiki/後漢書/卷11 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Chimei (Kızıl Kaşlılar) tarafından MS 25'te yenildi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Chimei (Kızıl Kaşlılar) tarafından MS 25'te yenildi. | taslak değeri: f=0023-01-01 | Hou Han shu 11: 二月辛巳 淯水 kıyısında Liu Xuan 即帝位, Gengshi 元年 (ganzhi→Jülyen 23-03-11). t=25 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1146,13 +1056,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fan Ye, Hou Han shu, juan 11 «Liu Penzi zhuan» (六月，遂立盆子為帝，自號建世元年) — zh.wikisource.org/wiki/後漢書/卷11 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kısa ömürlü devletleşmiş isyan; Doğu Han tarafından teslim alındı.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kısa ömürlü devletleşmiş isyan; Doğu Han tarafından teslim alındı. | Hou Han shu 11: 六月 Liu Penzi'yi imparator yaptılar, 建世元年 (25). t=27 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1180,13 +1087,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fan Ye, Hou Han shu, juan 13 «Wei Xiao Gongsun Shu liezhuan» (述…於是自立為蜀王，都成都) — zh.wikisource.org/wiki/後漢書/卷13 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "25 imparator ilan; 36 yıkılış.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "25 imparator ilan; 36 yıkılış. | Hou Han shu 13: Gongsun Shu önce 蜀王 (Chengdu), sonra 成家 imparator (25). f=25/t=36 sınırları bu sayfada gün/yıl olarak okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1198,11 +1102,11 @@
   "ad": "Doğu Han Hanedanı",
   "tur": "imparatorluk",
   "bolge": "dogu-asya",
-  "f": "0025-01-01",
-  "t": "0220-01-01",
+  "f": "0025-08-05",
+  "t": "0220-11-25",
   "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "f": "gun",
+   "t": "gun"
   },
   "baskent": "Luoyang",
   "etkin_bolge": "Çin",
@@ -1214,13 +1118,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fan Ye, Hou Han shu, juan 1 shang «Guangwu di ji» (建武元年…六月己未，即皇帝位。燔燎告天) ve juan 9 «Xiandi ji» (延康…冬十月乙卯，皇帝遜位，魏王丕稱天子，奉帝為山陽公) — zh.wikisource.org/wiki/後漢書/卷01上, 卷9 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: f=0025-01-01, t=0220-01-01 | f: Guangwu 建武元年六月己未 即皇帝位 (25-08-05 Jülyen; hanedan olarak MS 25). t: 延康元年冬十月乙卯 皇帝遜位 (Jülyen 220-11-25). 'Wei zhi' Cao Pi'nin tahta çıkış töreni (壇 繁陽) 辛未 = 220-12-11 olarak yaygın; Han tarafı 乙卯 (11-25) kabul edildi.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "dogu-han",
@@ -1248,13 +1149,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Chen Shou, Sanguo zhi, Wei shu 8 «Zhang Lu zhuan» (漢末，力不能征，遂就寵魯為鎮民中郎將，領漢寧太守…群下欲尊魯為漢寧王…建安二十年，太祖乃自散關出武都征之，至陽平關) — zh.wikisource.org/wiki/三國志/卷08 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tür önerisi: teokrasi (tur_yeni).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tür önerisi: teokrasi (tur_yeni). | Sanguo zhi Wei 8: Zhang Lu Han-Ning Taishou (Yi-Zhou Mu Liu Yan'ın atamasıyla, 191); Cao Cao 建安二十年 (215) Yangping Pass'ı alıp Hanzhong'a girdi → t=215 doğrulandı. f=191 bu sayfada yıl olarak okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1283,13 +1181,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Chen Shou, Sanguo zhi, Wei shu 8 «Gongsun Du zhuan» (景初元年，乃遣幽州刺史毌丘儉等齎璽書徵淵。淵遂發兵…淵遂自立為燕王) — zh.wikisource.org/wiki/三國志/卷08 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Yan unvanı 237.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Yan unvanı 237. | Sanguo zhi Wei 8: Gongsun Yuan 景初元年(237) 自立為燕王. f=189 (Gongsun Du) ve t=238 bu oturumda metinle doğrulanmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1301,11 +1196,11 @@
   "ad": "Cao Wei",
   "tur": "imparatorluk",
   "bolge": "dogu-asya",
-  "f": "0220-01-01",
-  "t": "0265-01-01",
+  "f": "0220-11-25",
+  "t": "0266-02-08",
   "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "f": "gun",
+   "t": "gun"
   },
   "baskent": "Luoyang",
   "etkin_bolge": "Kuzey Çin",
@@ -1317,13 +1212,12 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Chen Shou, Sanguo zhi (MS 3. yy sonu), Wei shu 2 «Wendi ji» (乙卯，冊詔魏王禪代天下曰：惟延康元年十月乙卯…；改延康元年為黃初元年), Shu shu 2 «Xianzhu zhuan» (章武元年夏四月，大赦，改年…置百官，立宗廟), Wu shu 2 «Wu zhu zhuan» (黃龍元年…夏四月…丙申，南郊即皇帝位) — zh.wikisource.org/wiki/三國志/卷02, 卷32, 卷47 (okundu)",
+   "Fan Ye, Hou Han shu, juan 1 shang «Guangwu di ji» (建武元年…六月己未，即皇帝位。燔燎告天) ve juan 9 «Xiandi ji» (延康…冬十月乙卯，皇帝遜位，魏王丕稱天子，奉帝為山陽公) — zh.wikisource.org/wiki/後漢書/卷01上, 卷9 (okundu)",
+   "Fang Xuanling vd., Jin shu, juan 3 «Wudi ji» (泰始元年冬十二月丙寅，設壇于南郊，百僚…柴燎告類于上帝曰：皇帝臣炎…) — zh.wikisource.org/wiki/晉書/卷003 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: f=0220-01-01, t=0265-01-01 | f: Hou Han shu 9 乙卯 (220-11-25) 魏王丕稱天子; Wei zhi 2 aynı 乙卯'de 冊詔; Cao Pi'nin yaygın tahta çıkış günü 辛未=220-12-11 (Wei zhi okunmadı). t: Jin kuruluşu 泰始元年冬十二月丙寅 (266-02-08); Cao Huan'ın 禪位ı birkaç gün önce (壬戌=266-02-04, Wei zhi 4 okunmadı). Atlas t=265 (咸熙二年 yıl sayımıyla), gerçek Jülyen yıl 266.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "cao-wei",
@@ -1351,13 +1245,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Chen Shou, Sanguo zhi (MS 3. yy sonu), Wei shu 2 «Wendi ji» (乙卯，冊詔魏王禪代天下曰：惟延康元年十月乙卯…；改延康元年為黃初元年), Shu shu 2 «Xianzhu zhuan» (章武元年夏四月，大赦，改年…置百官，立宗廟), Wu shu 2 «Wu zhu zhuan» (黃龍元年…夏四月…丙申，南郊即皇帝位) — zh.wikisource.org/wiki/三國志/卷02, 卷32, 卷47 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Shu shu 2: 章武元年夏四月 Liu Bei 稱制 (221; ay-gün çevrilmedi). t=263 (Liu Shan teslimi) bu oturumda okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "shu-han",
@@ -1385,13 +1276,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Chen Shou, Sanguo zhi (MS 3. yy sonu), Wei shu 2 «Wendi ji» (乙卯，冊詔魏王禪代天下曰：惟延康元年十月乙卯…；改延康元年為黃初元年), Shu shu 2 «Xianzhu zhuan» (章武元年夏四月，大赦，改年…置百官，立宗廟), Wu shu 2 «Wu zhu zhuan» (黃龍元年…夏四月…丙申，南郊即皇帝位) — zh.wikisource.org/wiki/三國志/卷02, 卷32, 卷47 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Sun Quan 229'da imparator.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sun Quan 229'da imparator. | Wu shu 2: 黃武元年(222) yıl adı, 黃龍元年夏四月丙申 南郊 即皇帝位 = Jülyen 229-05-23 (ganzhi→Jülyen). Atlas f=222 (Wu Wang/Huangwu) korunur; imparatorluk 229. t=280 okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "sun-wu",
@@ -1403,10 +1291,10 @@
   "ad": "Batı Jin Hanedanı",
   "tur": "imparatorluk",
   "bolge": "dogu-asya",
-  "f": "0265-01-01",
+  "f": "0266-02-08",
   "t": "0316-01-01",
   "kesinlik": {
-   "f": "yil",
+   "f": "gun",
    "t": "yil"
   },
   "baskent": "Luoyang → Chang'an",
@@ -1420,13 +1308,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 3 «Wudi ji» (泰始元年冬十二月丙寅，設壇于南郊，百僚…柴燎告類于上帝曰：皇帝臣炎…) — zh.wikisource.org/wiki/晉書/卷003 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: f=0265-01-01 | f: Jin shu 3: 泰始元年冬十二月丙寅 Sima Yan壇 南郊 (266-02-08 Jülyen; atlas künyesi yıl=265 Wei takvimiyle). t=316 okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "bati-jin",
@@ -1454,13 +1339,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 121 «Zaiji 21: Li Xiong» (以永興元年僭稱成都王，赦其境內，建元為建興…李特以惠帝太安元年起兵，至此六世，凡四十六年，以穆帝永和三年滅) — zh.wikisource.org/wiki/晉書/卷121 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Li Xiong 304'te Cheng kralı, 306'da imparator.",
+  "dogrulama": "okundu",
+  "ic_not": "Li Xiong 304'te Cheng kralı, 306'da imparator. | f: 永興元年 Li Xiong 成都王 (304); Li Te 太安元年(302) isyan. t: 穆帝永和三年(347) 滅. Adlar: 成(304-338) → 漢 (338). Jin shu: Li Te'den 6 hükümdar, 46 yıl.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1489,13 +1371,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu (648), juan 101 «Zaiji 1: Liu Yuanhai» (永興元年，元海乃為壇於南郊，僭即漢王位…永嘉二年，元海僭即皇帝位，改元永鳳) — zh.wikisource.org/wiki/晉書/卷101 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Jin shu 101: 永興元年(304) Liu Yuan 漢王; 永嘉二年(308) 皇帝, Yongfeng. f=304 doğrulandı. t=329 (Liu Yao'nun yenilgisi) okunmadı. Ardıl: Zhao adı Liu Yao 319 (Han-Zhao içinde).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "han-zhao",
@@ -1526,13 +1405,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 105 «Zaiji 5: Shi Le xia» (太興二年，勒偽稱趙王…勒乃僭即皇帝位，大赦境內，改元曰建平) — zh.wikisource.org/wiki/晉書/卷105 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Shi Le 319; Shi Hu imparator 334/335.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Shi Le 319; Shi Hu imparator 334/335. | Jin shu 105: 太興二年(319) Shi Le 趙王; 皇帝, Jianping (330). f=319 doğrulandı; t=351 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1560,13 +1436,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 86 «Zhang Gui» (…是歲，元帝即位於建鄴，改年太興，寔猶稱建興六年；保聞湣帝崩，自稱晉王，建元) — zh.wikisource.org/wiki/晉書/卷86 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Zhang Gui 301'de vali; krallık 320 (kronolojik liste).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Zhang Gui 301'de vali; krallık 320 (kronolojik liste). | Jin shu 86: Zhang Shi Jianxing 年號'nı (6. yıl=318) Dongjin'in 太興 yıl adına rağmen sürdürdü; Zhang Bao 湣帝 ölünce 晉王, kendi yıl adı. f=320 ve t=376 (Fu Jian) bu sayfada yıl-yıl okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1595,13 +1468,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 109 «Zaiji 9: Murong Huang» (皝於是以咸康三年僭即王位，赦其境內) ve juan 111 (暐…以海西公太和五年滅，通廆、皝凡八十五年) — zh.wikisource.org/wiki/晉書/卷109, 卷111 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Murong Hui'den beri yarı bağımsız.",
+  "dogrulama": "okundu",
+  "ic_not": "Murong Hui'den beri yarı bağımsız. | Jin shu 111: Murong Wei 11 yıl, 太和五年(370) 滅 (t=370 doğrulandı); Murong Jun 升平四年(360)? Metin: 升平四年 僭即皇帝位, 建熙 (Murong Wei dönemi karışık okuma; bu satır Murong Jun'un 皇帝 ilanı olarak 352 yerine 360 verir — çelişki, f için yıl seçilmedi). 337 (Murong Huang 燕王) bu sayfada yok. | DÜZELTME: yukarıdaki '升平四年 僭即皇帝位, 建熙' satırı Murong Wei'nin (360) tahta çıkışıdır; Murong Jun 352'de imparator ilan etti (Jin shu 111 'Murong Jun' bölümü aynı sayfada, metin eşleşmedi). | f: Jin shu 109: 咸康三年(337) Murong Huang 僭即王位 (燕王) — Yan devlet adı; 352 imparator. t: Jin shu 111: 太和五年(370) 滅. Mükerrer tarama: BOZKIR 'on-yan' = onceki-yan, TEK kayıt CIN'de kalır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1629,13 +1499,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 107 «Zaiji 7: Shi Jilong xia, Ran Min» (僭即皇帝位於南郊，大赦，改元曰永興，國號大魏，復姓冉氏) — zh.wikisource.org/wiki/晉書/卷107 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Jin shu 107: Ran Min僭即皇帝位, 永興, 國號大魏, 冉氏 soyadını geri aldı (350, yıl metinde yok). t=352 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1663,13 +1530,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 112 «Zaiji 12: Fu Jian» (永和七年，僭稱天王、大單于，赦境內死罪，建元皇始…置百官于長安) — zh.wikisource.org/wiki/晉書/卷112 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Fu Hong 350'de bağımsızlık; 351'de Tian Wang.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Fu Hong 350'de bağımsızlık; 351'de Tian Wang. | Jin shu 112: 永和七年(351) Fu Jian 天王、大單于, Chang'an, Huangshi. f=351 doğrulandı; t=394 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1699,13 +1563,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 123 «Zaiji 23: Murong Chui» (垂至滎陽，以太元八年自稱大將軍、大都督、燕王，承制行事，建元曰燕元…以太元二十一年死) ve juan 124 «Murong Bao» (垂以孝武帝太元八年僭立，至熙四世，凡二十四年，以安帝義熙三年滅) — zh.wikisource.org/wiki/晉書/卷123, 卷124 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Jin shu 123: Murong Chui 太元八年(383) 燕王 (Jin ay hesabı), Yanyuan; Jin shu 124: 義熙三年(407) 滅 (t=407 doğrulandı). Atlas f=384: ZZTJ 太元九年 yıl başı; Jin shu 383 verir — çelişki, 384 korundu (ilk yılbaşı). Kaynakların iki yılı da ic_not'ta.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1802,13 +1663,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 125 «Zaiji 25: Qifu Guoren» (孝武太元十年自稱大都督、大將軍、大單于、領秦、河二州牧，建元曰建義) — zh.wikisource.org/wiki/晉書/卷125 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Jin shu 125: 太元十年(385) Qifu Guoren 大都督…領秦、河二州牧, Jianyi. f=385 doğrulandı; t=431 okunmadı. ID çakışması: BOZKIR 'bati-qin-qifu' ile aynı polity — TEK kayıt CIN'de bati-qin kalır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1836,13 +1694,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 122 «Zaiji 22: Lü Guang» (呂光以孝武太元十二年定涼州，十五年僭立，至隆凡十有三載，以安帝元興三年滅) — zh.wikisource.org/wiki/晉書/卷122 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "386 vali, 389 Sanhe wang, 396 Tian Wang.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "386 vali, 389 Sanhe wang, 396 Tian Wang. | Jin shu 122: Lü Guang 太元十二年(387) Liangzhou'yu 'sakinleştirdi', 十五年(390) 僭立, Lü Long'a kadar 13 yıl, 元興三年(404) 滅. Atlas f=386, t=403: sınırlar Jin shu'dan 1-4 yıl kaymış; seçim bekler.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1870,13 +1725,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 126 «Zaiji 26: Tufa Wugu» (烏孤以安帝隆安元年僭立，至傉檀三世，凡十九年，以安帝義熙十年滅) — zh.wikisource.org/wiki/晉書/卷126 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "okundu",
+  "ic_not": "Jin shu 126: 隆安元年(397) Tufa Wugu 僭立; 義熙十年(414) 滅, 3 hükümdar 19 yıl. BOZKIR'ın 'guney-liang-tufa' kaydıyla AYNI polity — TEK kayıt CIN'de guney-liang-16 kalır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1905,13 +1757,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 129 «Zaiji 29: Juqu Mengxun» (業僭稱涼王，以蒙遜為尚書左丞) — zh.wikisource.org/wiki/晉書/卷129 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Jin shu 129: Duan Ye 涼王 (397) önce, Juqu Mengxun onu devirip 河西王 oldu; f=397/401 ve t=439 bu oturumda okunmadı (Jin shu devri 420'de bitiyor).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1939,13 +1788,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 127-128 «Zaiji 27-28: Murong De, Murong Chao» (德以安帝隆安四年僭位，至超二世，凡十一年，以義熙六年滅) — zh.wikisource.org/wiki/晉書/卷127, 卷128 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Jin shu 128: Murong De 隆安四年(400) 僭位 (imparator), 義熙六年(410) 滅 (t=410 doğrulandı); 398 'Yan Wang' unvanı Jin shu 127'de 'Chui sonrası' olarak geçer. BOZKIR'ın 'guney-yan' kaydıyla AYNI polity — TEK kayıt CIN'de kalır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1974,13 +1820,11 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 87 «Li Gao (Xi Liang)» (玄盛以安帝隆安四年立，至宋少帝景平元年滅，據河右凡二十四年) — zh.wikisource.org/wiki/晉書/卷087 (okundu)",
+   "Fang Xuanling vd., Jin shu, juan 87 «Li Gao» (隆安四年，晉昌太守唐瑤移檄六郡，推玄盛為大都督、大將軍、涼公、領秦涼二州牧) — zh.wikisource.org/wiki/晉書/卷087 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Jin shu 87: Li Hao 隆安四年(400) 立; Jin shu '宋少帝景平元年'(423) 滅 der, ama Song/Wei kaynaklarında 421 (永初二年, Juqu Mengxun fethi) yaygın — atlas t=421 korunur, Jin shu çelişkisi not edilir. | f: Jin shu 87: 隆安四年 (400) Tang Yao altı komutanlığı çağırdı, Li Gao 大都督、涼公 seçildi.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -2008,13 +1852,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 130 «Zaiji 30: Helian Bobo» (義熙三年，僭稱天王、大單于，赦其境內，建元曰龍昇…自以匈奴夏後氏之苗裔也，國稱大夏) — zh.wikisource.org/wiki/晉書/卷130 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Jin shu 130: 義熙三年(407) Helian Bobo 天王、大單于, Longsheng, 國稱大夏. f=407 doğrulandı; t=431 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -2110,13 +1951,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Wei Shou, Wei shu, juan 101 «Di» (漢建安中，有楊騰者，為部落大帥…始徙居仇池) — zh.wikisource.org/wiki/魏書/卷101 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Aralıklı hükümdarlar; sınırlar belirsiz; 296 Yang Maosou, 580 Kuzey Zhou sonu.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Aralıklı hükümdarlar; sınırlar belirsiz; 296 Yang Maosou, 580 Kuzey Zhou sonu. | Wei shu 101: 漢建安中 Yang Teng Qiuchi'ye yerleşti (196-220), sonra Yang soylu 百頃氐王. atlas f=296 (Yang Maosou Qiuchi Gong) bu sayfada yok.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -2178,13 +2016,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Wei Shou, Wei shu (554), juan 1 «Xu ji» (十一月，帝即位於繁畤之北，時年十九，稱建國元年。是歲，李雄從弟壽殺期僭立，自號曰漢) ve juan 2 «Taizu ji» (登國元年春正月戊申，帝即代王位，郊天，建元) ve juan 3 (壬申，即皇帝位…改年為永興元年) — zh.wikisource.org/wiki/魏書/卷1, 卷2, 卷3 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Wei shu 1: Tuoba Shiyiqian 建國元年 (338) 繁畤 kuzeyinde tahta çıktı; atlas f=315 (Tuoba Yilu Dai Wang unvanı) bu sayfada okunmadı. t=376 (Fu Jian) okunmadı. BOZKIR'ın 'tuoba-dai' kaydıyla AYNI polity — TEK kayıt CIN'de dai-tuoba kalır.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "dai-tuoba",
@@ -2213,13 +2048,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Fang Xuanling vd., Jin shu, juan 97 «Siyi: Tuyuhun» (吐谷渾，慕容廆之庶長兄也，其父涉歸分部落一千七百家以隸焉) ve Wei shu 101 (吐谷渾…) — zh.wikisource.org/wiki/晉書/卷097, 魏書/卷101 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Ayrıca Tuyuhun krallığı: Murong Tuyuhun göçü ~284-313.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Ayrıca Tuyuhun krallığı: Murong Tuyuhun göçü ~284-313. | Jin shu 97: Tuyuhun, Murong Hui'nin üvey ağabeyi; babası Shegui 1700 aile ayırdı. f=313 (Tuyuhun'un Tianshui/Bailan'a göçü), t=663 (Tibet) bu oturumda okunmadı. BOZKIR'ın 'tuyuhun' kaydıyla AYNI polity — TEK kayıt CIN'de.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "tuyuhun",
@@ -2231,10 +2063,10 @@
   "ad": "Kuzey Wei Hanedanı",
   "tur": "hanedanlik",
   "bolge": "dogu-asya",
-  "f": "0386-01-01",
+  "f": "0386-02-20",
   "t": "0534-01-01",
   "kesinlik": {
-   "f": "yil",
+   "f": "gun",
    "t": "yil"
   },
   "baskent": "Pingcheng → Luoyang",
@@ -2248,13 +2080,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Wei Shou, Wei shu (554), juan 1 «Xu ji» (十一月，帝即位於繁畤之北，時年十九，稱建國元年。是歲，李雄從弟壽殺期僭立，自號曰漢) ve juan 2 «Taizu ji» (登國元年春正月戊申，帝即代王位，郊天，建元) ve juan 3 (壬申，即皇帝位…改年為永興元年) — zh.wikisource.org/wiki/魏書/卷1, 卷2, 卷3 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: f=0386-01-01 | f: Wei shu 2: 登國元年春正月戊申 Tuoba Gui 即代王位 (ganzhi→Jülyen 386-02-20); 國號魏 395-398 (天興元年 398 皇帝位) — devlet adı Wei 386 (Dai→Wei). t=534 (Xiaowu Di Guanzhong'a kaçışı) Wei shu 11-12'de metin eşleşmesi bulunmadı (Dong Wei kuruluşu 534-11-08 okundu: dogu-wei).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "kuzey-wei",
@@ -2267,10 +2096,10 @@
   "tur": "imparatorluk",
   "bolge": "dogu-asya",
   "f": "0317-01-01",
-  "t": "0420-01-01",
+  "t": "0420-07-10",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "gun"
   },
   "baskent": "Jiankang",
   "etkin_bolge": "Güney Çin",
@@ -2282,13 +2111,11 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Shen Yue, Song shu (488), juan 3 «Wudi xia» (永初元年夏六月丁卯，設壇於南郊，即皇帝位，柴燎告天) — zh.wikisource.org/wiki/宋書/卷3 (okundu)",
+   "Fang Xuanling vd., Jin shu, juan 3 «Wudi ji» (泰始元年冬十二月丙寅，設壇于南郊，百僚…柴燎告類于上帝曰：皇帝臣炎…) — zh.wikisource.org/wiki/晉書/卷003 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: t=0420-01-01 | t: Song shu 3 永初元年夏六月丁卯 Liu Yu即皇帝位 (420-07-10 Jülyen); Jin Gongdi'nin 禪位ı bu sıralamada; Jin shu 10 Gongdi sayfası okunmadı. f=317 (Sima Rui, Jianwu 元年) Jin shu 6'da desenle bulunamadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "dogu-jin",
@@ -2300,10 +2127,10 @@
   "ad": "Liu Song",
   "tur": "imparatorluk",
   "bolge": "dogu-asya",
-  "f": "0420-01-01",
+  "f": "0420-07-10",
   "t": "0479-01-01",
   "kesinlik": {
-   "f": "yil",
+   "f": "gun",
    "t": "yil"
   },
   "baskent": "Jiankang",
@@ -2316,13 +2143,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Shen Yue, Song shu (488), juan 3 «Wudi xia» (永初元年夏六月丁卯，設壇於南郊，即皇帝位，柴燎告天) — zh.wikisource.org/wiki/宋書/卷3 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: f=0420-01-01 | f: 永初元年夏六月丁卯 (ganzhi→Jülyen 420-07-10). t=479 (Nan Qi kuruluşu 建元元年四月甲午) bu oturumda okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "liu-song",
@@ -2350,13 +2174,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
-   "Lewis, China Between Empires (Harvard UP 2009)",
-   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+   "Xiao Zixian, Nan Qi shu (537), juan 8 «He Di» (中興元年春三月乙巳，即皇帝位，大赦，改元) — zh.wikisource.org/wiki/南齊書/卷8 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Nan Qi shu 8: Xiao Baoyin 中興元年春三月乙巳 (501) 即皇帝位 (Jiangling, rakip rejim); Xiao Baorong'un 中興二年 禪位 (502-04) Liang shu 2'de 丙寅 Xiao Yan 即皇帝位 (502-04-30). f=479 (Xiao Daocheng) okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "guney-qi",

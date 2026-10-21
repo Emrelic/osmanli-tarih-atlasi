@@ -20,14 +20,18 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "kaynak": [
+   "'Age and origin of a Cahokian wooden monument at the Mitchell site, Illinois, USA.' PLoS One 2025 (PMC12494245, Bayesyen radyokarbon/halka kronolojisi): 'Cahokia emerged spectacularly as the largest city north of modern-day Mexico around 1050 CE ... By around 1100 CE, Cahokia was the preeminent political and administrative center ... its population and influence began to decline before 1200 CE' (okundu)",
+   "'Fecal stanols show simultaneous flooding and seasonal precipitation change correlate with Cahokia's population decline.' PNAS 2019 (PMC6431169): Cahokia ile çağdaş höyük yerleşimleri '~1000-1400 CE', nüfus 12. yüzyılda azalmakta, ~1400'de minimum"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "İki açık erişimli hakemli makale (PLoS One 2025; PNAS 2019): kentsel Cahokia MS ~1050'de patlayıcı biçimde ortaya çıkar (Lohmann 1050-1100, Stirling 1100-1200 fazları); 1100 dolaylarında 'Mississippi orta kıtasının ve Güneydoğu'nun öncü siyasî-idarî merkezi'; nüfus ve etki 1200'den önce azalmaya başlar; East St. Louis bölgesi kapanışı ve yukarı tarım bölgesinin terki 1150-1175. 'Greater Cahokia—chiefdom, state, or city? AD 1050–1250' (Koldehoff, Brennan & Emerson 2018) başlığı Cahokia'nın polity türünün tartışmalı olduğunu gösterir. f=1050 doğrulandı (onyil/yuzyil). t=1350: PNAS 2019 çağdaş yerleşimleri 1000-1400 verir ve nüfus 1400'de minimum der; atlasın t=1350 değeri bu iki kaynakta TAM yılla desteklenmedi (üst sınır 1400; siyasî çöküş 1200-1300 arası). Önceki taslak değeri aynı (1050/1350).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "cahokia",
    "not": "Şeflik/tartışmalı."
-  }
+  },
+  "tur_yeni": "Cahokia: 'şeflik' (Milner, Pauketat okulu: 'chiefdom') / 'devlet' / 'kent' tartışması; sözlükte 'seflikler' kalmalı, 'devlet' kanıtlanmış değil."
  },
  {
   "id": "etowah",
@@ -51,7 +55,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "ic_not": "Bu oturumda denendi: Europe PMC/WebSearch'te Etowah kronolojisi okunamadı. Sievert & Rogers (2011) Spiro monografisi, Güneydoğu Mississippian şefliklerinin ~1450'de genel gerilemesinden söz eder (Spiro sayfası) — Etowah'ın 1550 sonu ile uyumsuz olabilir; doğrulanamadı.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "etowah",
@@ -80,7 +84,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "ic_not": "Bu oturumda denendi: akademik kaynak okunamadı. Sievert & Rogers (2011) 'Güneydoğu'da Mississippian şefliklerin ~1450 dolaylarında genel gerilemesi' der; atlas t=1450 ile uyumlu olabilir ama Moundville'e özgü kaynak değildir.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "moundville",
@@ -109,7 +113,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "ic_not": "Bu oturumda denendi: akademik kaynak bulunamadı. Natchez'in belgeli tarihi 17.-18. yy Fransız kayıtlarındadır; 1281 öncesi Grand Village/Fatherland siyasî birimi için kanıt yok → 1281 sonrası ağırlıklı, ELENEN adayı.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "natchez",
@@ -117,74 +121,15 @@
   }
  },
  {
-  "id": "inuit",
-  "ad": "İnuit (Thule göçü)",
-  "tur": "konfederasyon",
-  "bolge": "kuzey-amerika",
-  "f": "1000-01-01",
-  "t": "1880-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "",
-  "etkin_bolge": "Arktik Kanada ve Grönland",
-  "sehirler": [
-   "Iglulik"
-  ],
-  "ozet": "Thule kültürünün doğuya yayılması; siyasî birim değil.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
-  "esleme": {
-   "durum": "var",
-   "mevcut_id": "inuit",
-   "not": "Siyasî birim değil, kültürel yayılım."
-  }
- },
- {
-  "id": "haudenosaunee",
-  "ad": "Haudenosaunee (İrokua Konfederasyonu)",
-  "tur": "konfederasyon",
-  "bolge": "kuzey-amerika",
-  "f": "1142-01-01",
-  "t": "1777-01-01",
-  "kesinlik": {
-   "f": "belirsiz",
-   "t": "yuzyil"
-  },
-  "baskent": "Onondaga",
-  "etkin_bolge": "New York eyaleti",
-  "sehirler": [
-   "Onondaga",
-   "Seneca"
-  ],
-  "ozet": "Gelenekte Büyük Barış Yapıcı ile kurulan beş-ulus konfederasyonu.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Kuruluş tarihi çok tartışmalı: 1142 (Mann & Fields güneş tutulması okuması) ile 15. yy; 1450 olursa kapsam dışı."
-  }
- },
- {
   "id": "kuzco-krallik",
   "ad": "Kuzco Krallığı (Hurin-Hanan, Inka öncesi/erken)",
-  "tur": "krallik",
+  "tur": "seflik",
   "bolge": "guney-amerika",
   "f": "1200-01-01",
   "t": "1438-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yil"
+   "t": "yuzyil"
   },
   "baskent": "Cusco",
   "etkin_bolge": "Cusco vadisi",
@@ -195,25 +140,28 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica). Killke arkeolojik kültürü (~900-1200) önceki dönem.",
+  "kaynak": [
+   "Moseley, Michael E. The Incas and Their Ancestors, rev. ed. London: Thames & Hudson, 2001, böl. 'The Late Intermediate Period' – 'The southern sierra' ('Killke Cuzco was apparently a young señorío, likely confederated with Chokepukio by about AD 1200'; 'Inca political development began as a gradual process shortly after AD 1000'; 'imperial-style corporate arts ... formulated around AD 1350-75'; Pachacuti 1438) (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "1281 ÖNCESİ KAYNAK BULUNDU (Emre'nin sorusu). Moseley (2001): arkeolojik kayıt İnka siyasî gelişiminin 'MS 1000'den kısa süre sonra' yavaş bir süreç olarak başladığını gösterir; Killke Cuzco 'genç bir señorío' (küçük şeflik) ve MS ~1200'de Chokepukio ile konfedere olmuştur; Cuzco'nun hegemonyası MS 1200'de genişliyordu. 'Kronoloji' İnka sözlü geleneği (Pachacuti) 'yüzyıllarca kısa'. Yani 1200 öncesi kaynağı olan bir siyasî birim vardır ('señorío'), ama krallık değil: tür 'şeflik (señorío)'. t=1438 Pachacuti'nin tahta çıkışı/İnka İmparatorluğu ('Tahuantinsuyu') başlangıcı geleneksel tarihtir (Moseley: 'Some historians propose that the great hero Pachacuti was crowned the eighth emperor in AD 1438' — tarih 'bazı tarihçilerin önerisi'). Karar: ELENEN'e GİTMEZ; 'seflik/señorío' olarak kalır; imparatorluk dönemi 1281 sonrası (atlas çekirdeği).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Kuruluş yarı efsanevî; 1438 Rowe kronolojisi, Julien eleştirisi. İmparatorluk 1438+ kapsam dışı."
-  }
+   "not": "Atlasta İnka çekirdeği 1438'den başlar; 1200-1438 Cuzco señorío'su yok. Killke/Chokepukio konfederasyonu ek not."
+  },
+  "tur_yeni": "señorío (küçük şeflik/lordluk) — Moseley 2001"
  },
  {
   "id": "chincha",
   "ad": "Chincha Krallığı",
   "tur": "krallik",
   "bolge": "guney-amerika",
-  "f": "1000-01-01",
+  "f": "1100-01-01",
   "t": "1476-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yuzyil"
+   "t": "yil"
   },
   "baskent": "La Centinela",
   "etkin_bolge": "Peru güney-orta kıyısı",
@@ -224,19 +172,21 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "kaynak": [
+   "Nigra, Ben, Terrah Jones, Jacob Bongers, Charles Stanish, Henry Tantaleán & Kelita Pérez. 2014. 'The Chincha Kingdom: The Archaeology and Ethnohistory of the Late Intermediate Period South Coast, Peru.' Backdirt (UCLA Cotsen Institute): 'Late Intermediate Period (LIP; ca. AD 1100-1470)'; Menzel & Rowe 1966'ya göre 1476'da 'bloodless capitulation' (usf.edu IASCE PDF, tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Nigra ve ark. 2014: Chincha Krallığı LIP'de (ca. 1100-1470) vadiyi işgal eden halk; İnka yönetimi 1476'da (Menzel & Rowe 1966) kansız teslim; 'Chincha primary center' La Centinela + La Cumbe + Tambo de Mora höyükleri, 2. ve 3. düzey yerleşimler (hiyerarşik). f=1100 yüzyıl hassasiyetinde (LIP başlangıcı ile aynı, polity kuruluş yılı değil); atlas künyesi 1000-1476; Moseley (2001) LIP'nin 'teknik olarak 1000'de' başladığını söyler. Metin 'Chincha Kingdom' diyor; ethnohistory: Rostworowski 1970 (bahsi geçiyor, okunmadı).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Tarihler kaba."
+   "not": "Atlasta Chincha künyesi yok."
   }
  },
  {
   "id": "aymara-senyorlukler",
   "ad": "Altiplano Aymara Krallıkları (Colla/Lupaqa)",
-  "tur": "konfederasyon",
+  "tur": "seflik",
   "bolge": "guney-amerika",
   "f": "1100-01-01",
   "t": "1450-01-01",
@@ -254,14 +204,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "kaynak": [
+   "Moseley, Michael E. The Incas and Their Ancestors, rev. ed. London: Thames & Hudson, 2001, böl. 'The Late Intermediate Period' – 'The Titicaca region' ('so-called Aymara Kingdoms, particularly of the powerful Colla and Lupaka nations ... as well as other señoríos including the Cana, Canchi, Charca, Umasuyo, and Pacaje'; 'the pre-Inca altiplano was a landscape of combative señoríos'; Tiwanaku çöküşü ~AD 1100 sonrası; Hatungolla Colla başkenti) (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Moseley (2001): 16. yy kaynakları göl çevresinde 'Aymara Krallıkları' (Colla, Lupaka; ayrıca Cana, Canchi, Charca, Umasuyo, Pacaje señoríoları) anlatır; Moseley bunları 'savaşçı señoríolar' olarak niteler ve Tiwanaku çöküşü (MS ~1100) sonrası dönemde (LIP) yerleştirir. 'Krallık' sözü kaynağın tırnak içinde kullandığı 16. yy etiketi; akademik karşılık 'señorío' (şeflik). f=1100: Tiwanaku'nun MS ~1100 kuraklığıyla çöküşü sonrası (kaynakta tek tek señorío kuruluş yılı yok). t=1450: İnka fethi; Moseley Pachacuti'yi 1438'den, Titicaca bölgesinin 'Pachacuti tarafından konsolide edildiğini' anlatır, ama ayrı fetih yılı vermez → t yüzyıl hassasiyeti. Birleşik 'konfederasyon' etiketi kaynakta yok: señoríolar birbirleriyle rakiptir. ÖNERİ: tek kayıt yerine Colla + Lupaka ayrı künye (kaynak okunamadı).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": "Tarihler kaba; Colla/Lupaqa ayrı ayrı yazılabilir."
-  }
+  },
+  "tur_yeni": "señorío / şeflik (Moseley 2001); 'konfederasyon' etiketi kaynakta yok."
  },
  {
   "id": "muisca-konfederasyonu",
@@ -287,7 +240,7 @@
   "oncelik": "orta",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "ic_not": "Bu oturumda denendi: akademik kaynak okunamadı. WebSearch özeti (Wikipedia türevi, TEK DAYANAK OLAMAZ): 'konfederasyonlar' zipa (Bacatá), zaque (Hunza), iraca (Sogamoso), Tundama; kuruluş c. 800 Piedrahita'ya (17. yy, güvenilmez) dayanır. 1200 başlangıç hafızadan; Geç Muisca dönemi arkeolojik olarak MS 1000-1600 (Langebaek; okunamadı). 'Konfederasyon' etiketi akademik olarak 'tek devlet değil, şeflikler birliği' olarak tartışmalıdır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -317,7 +270,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "ic_not": "Bu oturumda denendi: ana kaynak (Leiden tezi; Curet 2003, Rouse 1992, Siegel 1992) erişilemedi (bağlantı hatası). WebSearch özeti (OKUNMADI): Hispaniola ve Porto Riko 'bölgesel cacicazgo'ların doğrudan belgelenebildiği tek Karayip adaları; ilk gelişim ~MS 700 civarı (kaynak Curet'ye atfeder); 15. yy sonunda Hispaniola'da 5 ile 12 arası politi tartışmalı. Dolayısıyla 1200 başlangıcı hafızadan; ~700-1200 aralığı kaynakta ilk gelişim olarak anılır. Çok sayıda ayrı politi → tek künye uygun değil.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -333,7 +286,7 @@
   "t": "1441-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yuzyil"
+   "t": "yil"
   },
   "baskent": "Mayapán",
   "etkin_bolge": "Yucatán",
@@ -344,9 +297,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. London: Thames & Hudson, 2008, 'The Postclassic' ve Southern/Northern Area sonuç bölümleri: Mayapán 'Chichén'in yerini aldı ... iç anlaşmazlık yüzünden terkine kadar ... around 1441'; Kokoom hanedanı, Xiw ile çatışma, subject lords şehirde yaşar (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Martin & Grube: Geç Postklasik (1200-1697) Chichén'in gerilemesi ve Mayapán'la değişimi; Mayapán 'Chichén'in eski bölgesinin en azından bir kısmına hâkim oldu, iç çekişme yüzünden terk edilene kadar (~1441)'. Hükümdar hanedanı Kokoom; Xiw rakip soy, soykırımla sonuç, şehir terk, bölünme. Terk yılı 'around 1441' → t=1441 yıl hassasiyeti (atlas 1450). Kuruluş yılı M&G'de YOK; f=1200 yalnız Geç Postklasik'in başlangıç sınırıdır (Mayapán'ın kuruluşu Chichén'in çöküşüne bağlı; f doğrulanmadı). Mevcut künye 1100-1450; 1100 kaynağa uymuyor (Chichén hâlâ Erken Postklasik 909-1200 güç). Öneri: f→1200 (yüzyıl), t→1441.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "mayapan-birligi",
@@ -358,7 +313,7 @@
   "ad": "Tututepec (Mixtek krallığı)",
   "tur": "krallik",
   "bolge": "orta-amerika",
-  "f": "1080-01-01",
+  "f": "1100-01-01",
   "t": "1522-01-01",
   "kesinlik": {
    "f": "onyil",
@@ -373,14 +328,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Joyce, Arthur A. 'Mixtec Empire.' (Univ. of Colorado Boulder, 2016 giriş metni): 'a powerful coastal empire dominated by Mixtec-speaking peoples developed during the Late Postclassic period (1100-1522 CE) with its political seat at the city of Tututepec'; Lord 8 Deer (doğumu 1063) 18 yaşında kıyıya gider; kodeksler kuruluşu kaydeder (colorado.edu/rioverdearchaeology/.../joyce_2016a.pdf, okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Joyce (2016): Tututepec merkezli kıyı Mixtec imparatorluğu Geç Postklasik'te (1100-1522 CE); kuruluş kodekslerde (8 Geyik 'Jaguar Pençesi' doğumu 1063, 18 yaşında yola çıkar → 1081 civarı kodeks hesabı); arkeolojik kayıt kuruluşu 1100 dolaylarına koyar (Tututepec önceden neredeyse boştu). Spores (Cambridge makalesi, okunmadı) MS ~1000 der. f=1100 (Joyce, arkeolojik/onyil), t=1522 (İspanyol fethi). Önceki taslak 1080 kodeks tarihine denk (1063+18=1081) — kaynak çatışması ic_not'ta: kodeks 1081 vs arkeoloji 1100. Mevcut künye yok.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": "Codex tarihi belirsiz."
-  }
+  },
+  "tur_yeni": "Joyce: 'tributary empire' (haraçlı imparatorluk); atlas sözlüğünde 'krallik/imparatorluk' tartışmalı"
  },
  {
   "id": "culhuacan",
@@ -404,7 +362,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "ic_not": "Bu oturumda denendi: akademik kaynak okunamadı. Culhuacán'ın Toltek mirasçısı şehir devleti olarak 12. yy kuruluşu Nahua kaynaklarına (Chimalpahin vb.) dayanır; Smith (Aztec Archaeology) okunamadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -434,7 +392,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "ic_not": "Bu oturumda denendi: akademik kaynak okunamadı. Xolotl/Tenayuca anlatısı yalnız Ixtlilxóchitl'e (17. yy) dayanır ve tarihselliği tartışmalıdır → polity niteliği zayıf, ELENEN adayı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -463,7 +421,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "ic_not": "Bu oturumda denendi: akademik kaynak okunamadı. Azcapotzalco'nun 1200 öncesi şehir devleti niteliği ve Tepanek başlangıcı hafızadan; Smith ve diğer Aztek arkeolojisi kaynakları okunamadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,

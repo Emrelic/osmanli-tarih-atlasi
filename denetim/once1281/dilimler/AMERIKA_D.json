@@ -5,7 +5,7 @@
   "tur": "devlet",
   "bolge": "guney-amerika",
   "f": "0500-01-01",
-  "t": "1000-01-01",
+  "t": "1100-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yuzyil"
@@ -20,14 +20,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "kaynak": [
+   "Moseley, Michael E. The Incas and Their Ancestors: The Archaeology of Peru, rev. ed. London: Thames & Hudson, 2001, böl. 'Early Intermediate Period' ve 'Middle Horizon' (Tiwanaku Faz 4 ≈ MS 375-600/700; Faz 5 sömürgeler; MS ~1100 kuraklığıyla çöküş) (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "MÜKERRER KÜNYE ADAYI: atlasta 'tiwanaku' (krallik, 0500-1150) ve 'tiwanaku-devleti' (imparatorluk, 0500-1010) var. Moseley'e göre Tiwanaku'nun Klasik evresi Faz 4 (MS ~375-600/700), Faz 5'te koloniler; MS ~1100'de başlayan kuraklıkla ekonomi çöker ve metropol 'kısa süre sonra' çöker. Bu yüzden t=1100 (yüzyıl hassasiyeti) alındı; mevcut künyelerden 1010 kaynağa uymuyor, 1150 daha yakın. ÖNERİ: 'tiwanaku' künyesi kalsın (t=1150 → ~1100'e çek), 'tiwanaku-devleti' birleştirilsin. Önceki f/t taslak değeri: 0500/1000. Başlangıç: Moseley Faz 4 (375-600/700) 'bölgesel hegemonya'; f=500 yüzyıl hassasiyetiyle korundu (devlet düzeyi eşiği Faz 4'ün ikinci yarısı). Tür: Moseley 'Titicaca empire' der; 'imparatorluk' vs 'krallik' ayrımı akademik tartışmalı (Silverman & Isbell 2008, okunamadı).",
   "esleme": {
-   "durum": "var",
-   "mevcut_id": "tiwanaku-devleti",
-   "not": "Mevcut tiwanaku ve tiwanaku-devleti mükerrer; t 1010/1150 farklı."
-  }
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "tiwanaku",
+   "not": "Mükerrer: tiwanaku (500-1150) kalsın, tiwanaku-devleti (500-1010) birleştirilsin; t ~1100'e çekilmeli."
+  },
+  "tur_yeni": "Moseley (2001) 'Tiwanaku empire/state' kullanır; atlas sözlüğünde 'devlet' önerilir (imparatorluk/krallık ikilisi yerine)."
  },
  {
   "id": "wari",
@@ -51,14 +54,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "kaynak": [
+   "Moseley, Michael E. The Incas and Their Ancestors, rev. ed. 2001, böl. 'The Middle Horizon' (Huari: 'by AD 600 its corporate arts reached the Ica Valley, marking the beginning of the Middle Horizon'; 'abandonment around AD 1000'; AD 562-94 kuraklığı) (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Moseley: MS 600'de Huari kurumsal sanatı Ica vadisine ulaşır (Orta Ufuk başlangıcı); şehir MS ~1000'de terk edilir. f=600, t=1000 Moseley'e göre. Önceki taslak değerleri aynıydı (0600/1000); mevcut künye farklı olabilir, mevcut_once1281.tsv'den kontrol edilmeli. Wari'nin 'imparatorluk' niteliği tartışmalı: Moseley 'Huari's ... political interests spread under the guise of an appealing ideology... reliance on force of arms not evident' (Cerro Baúl hariç); Silverman & Isbell 2008 (okunamadı) 'devlet' der.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "wari",
-   "not": "Künye t=800, kaynaklar 1000'e dek uzatır."
-  }
+   "not": "Mevcut künye wari: 0600-0800 (imparatorluk). Moseley (2001) Huari terki ~MS 1000 der; mevcut t=800 kısa, GENİŞLET (800→1000)."
+  },
+  "tur_yeni": "Moseley: 'ideology-driven expansion state'; imparatorluk yerine 'devlet' öneri."
  },
  {
   "id": "sican",
@@ -81,44 +87,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "kaynak": [
+   "Moseley, Michael E. The Incas and Their Ancestors, rev. ed. 2001, böl. 'The Late Intermediate Period' (Sicán Erken Faz MS 700-900; Orta Faz MS 900-1100; Naymlap hanedanı; Chimor'un fethi) (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Moseley: Naymlap geleneği 'Sicán Faz'ının erken evresinde (MS 700-900)' başlar; Orta Sicán MS 900-1100; Moseley hanedan geleneğini 'yerel şehir devletlerinin konfederasyonu' olarak yorumlar. Chimor'un Lambayeque'yi fethi tarihi Moseley'de yılla verilmiyor; t=1375 taslak değeri bu kaynakta DOĞRULANMADI (Chimor'un Lambayeque fethi ~MS 1350-75 yaygın anlatı; kaynak okunamadı). Bu yüzden t kismen-okundu kalır.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "sican",
    "not": ""
-  }
- },
- {
-  "id": "chachapoya",
-  "ad": "Chachapoya Şeflikleri",
-  "tur": "seflik",
-  "bolge": "guney-amerika",
-  "f": "0800-01-01",
-  "t": "1470-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
   },
-  "baskent": "Kuélap",
-  "etkin_bolge": "Amazonas, Peru",
-  "sehirler": [
-   "Kuélap",
-   "Gran Vilaya"
-  ],
-  "ozet": "Bulut Savaşçıları; Inka fethine dek.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Şeflik/tartışmalı."
-  }
+  "tur_yeni": "Moseley: 'confederacy of city-states' → 'konfederasyon' (devlet yerine)."
  },
  {
   "id": "manteno",
@@ -143,7 +122,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "ic_not": "Bu oturumda denendi: akademik kaynak bulunamadı/okunamadı (Europe PMC'de ilgili makale yok). Manteño-Huancavilca 'şeflikler konfederasyonu' bilgisi 16. yy kroniklerine dayanır; 1281 öncesi polity kanıtı zayıf, ELENEN adayı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -155,7 +134,7 @@
   "ad": "Kaanul (Kaan, Yılan Krallığı)",
   "tur": "krallik",
   "bolge": "orta-amerika",
-  "f": "0500-01-01",
+  "f": "0520-01-01",
   "t": "0909-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -171,13 +150,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. London: Thames & Hudson, 2008, 'Calakmul' bölümü: Yuknoom Ch'een I (liste 520-546), Dzibanche 'Captive stairway', Stela 61 (899 veya 909), 849'da Chan Pet son dış atıf (archive.org/details/chronicle-2008-martin-grube-ocr, tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Martin & Grube: ilk net 'Yılan (Kaan)' hükümdar referansları kuzeyde Dzibanche'den gelir; Yuknoom Ch'een I'in saltanatı listede 520-546, ama 'tarihler belirsiz, ikisi 5. yüzyıla kadar inebilir'. Merkez Dzibanche → Calakmul'a geçiş ~630'lardan önce. Son: 849'da Chan Pet'in Seibal'de 'tanıklığı' son dış atıf; Stela 61 (Aj Took') tarihi 899 veya 909 (909 tercih) — 909 = 10.4.0.0.0. f=520 yuzyıl hassasiyetinde (hükümdar listesinin başı), t=909 Stela 61 (devlet işlevinin gerçekten sürüp sürmediği M&G tarafından sorgulanır: 849 sonrası devlet 'adını hak edecek biçimde' yaşamıyor olabilir). Kaanul = Kaan ('Yılan') krallığı; 'Kaanul' hanedan adının okuma tercihi.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Başlangıç tarihi yüzyıl düzeyi (5.-6. yy); Calakmul son stel 909."
+   "not": "Atlas: maya-klasik / maya-sehir-devletleri şemsiye künyeleri; Kaan-Calakmul ayrı künye yok."
   }
  },
  {
@@ -188,8 +169,8 @@
   "f": "0648-01-01",
   "t": "0761-01-01",
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
+   "f": "yil",
+   "t": "yil"
   },
   "baskent": "Dos Pilas",
   "etkin_bolge": "Petexbatún gölü",
@@ -201,13 +182,16 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. 2008, 'Dos Pilas' bölümü: Bajlaj Chan K'awiil (Ruler 1, c. 648-692), 'narrative begins in earnest on a single day in 648'; 761 Dos Pilas düşüşü; Tamarindito/Arroyo de Piedra'da 761 sonrası son kayıt (archive.org tam metin okundu)",
+   "Inomata, T. et al. 2017. High-precision radiocarbon dating of political collapse and dynastic origins at the Maya site of Ceibal, Guatemala. PNAS 114: 'Dos Pilas was also vanquished in AD 761' (PMC5307461, okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "İki bağımsız akademik kaynak (Martin & Grube; Inomata ve ark. 2017) Dos Pilas'ın 761'de yenilgisini teyit eder: ÇİFT TEYİT (t=761). f=648: Bajlaj Chan K'awiil (Tikal sürgünü) anlatısı 648'de başlar; M&G 'ne zaman/neden Petexbatún'a geldiğini bilmiyoruz' der → f yıl hassasiyetinde 'hükümdarlık anlatısının ilk tarihi'. Dos Pilas Tikal'in 'Mutal' amblemini kullanan bir 'bölünmüş devlet' (splinter state), Calakmul müttefiki. Aguateca (ikiz başkent) 761 sonrası da sürer; Petexbatún bölgesinde Tamarindito/Arroyo de Piedra son belge 761+1.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Hafızadan taslak."
+   "not": "Atlasta ayrı Dos Pilas künyesi yok."
   }
  },
  {
@@ -232,7 +216,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "ic_not": "Bu oturumda Martin & Grube (2008) tarandı: Cobá 'Kuzey Bölge'nin yazıtları az bilinen önemli Klasik şehirlerinden' (Dzibilchaltun, Izamal, Edzná, Oxkintok ile birlikte) olarak anılır; yazıt tarihçesi verilmez. WebSearch özetleri (OKUNMADI): yerleşim MÖ 50-MS 100 ya da ~MS 600; Geç Klasik (600-900) stelleri; Britannica gerileme 10. yy sonrası, bazı kaynaklar 12. yy. Bağımsız hanedan/emblem glifi belgesi bu oturumda yok → polity niteliği zayıf, ELENEN adayı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -244,11 +228,11 @@
   "ad": "Uxmal (Puuc) Devleti",
   "tur": "sehir-devleti",
   "bolge": "orta-amerika",
-  "f": "0700-01-01",
-  "t": "1000-01-01",
+  "f": "0800-01-01",
+  "t": "0907-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yuzyil"
+   "t": "yil"
   },
   "baskent": "Uxmal",
   "etkin_bolge": "Puuc bölgesi",
@@ -260,13 +244,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. London: Thames & Hudson, 2008, 'The Terminal Classic / Northern Area' kısmı: 'Uxmal ... seat of a dynasty modelled fully in the Classic tradition. But this renaissance lasted little more than a century and Uxmal's last date falls in 907' (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Martin & Grube: Puuc bölgesinin (Uxmal, Kabah, Sayil, Labna) yeni gelişen merkezlerinden Uxmal, Klasik gelenekte bir hanedanın koltuğuydu; 'bu rönesans bir yüzyıldan biraz fazla sürdü, Uxmal'ın son tarihi 907'dir'. t=907 (son yazıt tarihi, devlet ömrü için üst sınır). f: M&G kesin başlangıç vermiyor; 'bir yüzyıldan biraz fazla' + 907 → MS ~800 türetmesidir (yüzyıl hassasiyeti). Önceki taslak f=0700 kaynağa uymuyor (taslak değeri: 0700). Hanedan tarih sırası M&G'de yoktur; Uxmal'ın 'devlet' mi 'kralık' mı olduğu epigrafik olarak sınırlı belgelidir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Tarihler kaba."
+   "not": "Atlasta Uxmal künyesi yok (şemsiye maya-klasik içinde)."
   }
  },
  {
@@ -291,13 +277,15 @@
    "mayapan-birligi"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. 2008, 'The Postclassic' ve Northern Area bölümleri (Chichén yazıtları 9. yy., K'ahk'upakal K'awiil c. 869-881; 909-1200 'regional power'; Geç Postklasik'te 'decline'; Mayapán ardıl) (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Martin & Grube: Chichén Itzá'nın yazıtlarının çoğu Puuc üslubundaki yapılarda ve K'ahk'upakal K'awiil (c. 869-881) saltanatıyla ilişkili; Erken Postklasik (909-1200) boyunca 'bölgesel güç' (Toltek bağlantılı); Geç Postklasik'te (1200-1697) 'gerileme' ve Mayapán'ın yerini alması. Kaynak kesin bir çöküş yılı vermez: t=1200 M&G'nin dönem sınırıdır (çöküş tarihi atlasta 1200 ya da 1221 gibi tartışmalıdır; kaynak okunamadı). f=800: M&G 9. yüzyıl yazıtlarından söz eder, siyasî kuruluş yılı yoktur; yüzyıl hassasiyeti. 'Dış gruplar tarafından birbirini izleyen ele geçirmeler' (M&G) → tek hanedan sürekliliği yok. Tarihçiler arasında 'Eski Chichén (Terminal Klasik) / Yeni Chichén (Postklasik)' ayrımı ve Toltek bağlantısı tartışmalıdır (M&G 'Chichen Itza and the Toltec question' kutusu).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Çöküş tarihi (~1000-1200) tartışmalı; Mayapán ile örtüşme."
+   "not": "Atlasta Chichén Itzá künyesi yok."
   }
  },
  {
@@ -320,14 +308,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Hirth, Kenneth G. 'Urbanism, Militarism, and Architectural Design: An Analysis of Epiclassic Sociopolitical Structure at Xochicalco.' Ancient Mesoamerica 1993 (Cambridge Core özeti okundu: Epiklasik 'A.D. 700-900'; 'regional confederacy dominated by Xochicalco')"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Hirth'in özetine göre Xochicalco Epiklasik dönemde (MS 700-900) 'Xochicalco'nun hâkim olduğu bölgesel bir konfederasyon' modeliyle en iyi açıklanır; tek bir savunma çevresi yok, merkezî devlet olmayan 'segmenter' yapı. Yani 'devlet' yerine 'konfederasyon/bölgesel hegemonya' daha doğru. 700-900 Epiklasik dönem sınırıdır; Xochicalco'nun yıkımı (yanma) ~900 anılır, 14C temelli bir çalışma (González ve ark. 2008, okunamadı) daha geç (1050-1100) tarih de anar — çelişki ic_not'ta açık.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "xochicalco",
    "not": ""
-  }
+  },
+  "tur_yeni": "konfederasyon (Hirth 1993: regional confederacy)"
  },
  {
   "id": "cacaxtla",
@@ -351,7 +342,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "ic_not": "Bu oturumda WebSearch özetlerinde (OKUNMADI): Epiklasik MS 600/650-900; Cacaxtla evresi 600-850 (Kubler'e atfen); 'Olmeca-Xicalanca' etiketi 16. yy Muñoz Camargo'dan (Testard 2016, Anales de Antropología: etiketin tarihsel geçerliliği tartışmalı). Siyasî birim adı kaynakta 16. yy anlatısına dayanır → polity zayıf.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -364,7 +355,7 @@
   "tur": "sehir-devleti",
   "bolge": "orta-amerika",
   "f": "0600-01-01",
-  "t": "1200-01-01",
+  "t": "1100-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yuzyil"
@@ -378,44 +369,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Diehl, Richard A. 'Death Gods, Smiling Faces and Colossal Heads: Archaeology of the Mexican Gulf Lowlands' (FAMSI), 'The Late Classic (A.D. 600-900)': 'El Tajin was occupied between A.D. 100-1100, but its florescence occurred during the tenth and eleventh centuries ... dominated much of the surrounding area' (famsi.org/research/diehl/section01f.html, okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Diehl: yerleşim MS 100-1100 arası işgal edilmiş, çiçeklenmesi 10.-11. yy; çevresine hâkim, Yucatán ve Pasifik kıyılarıyla ticaret/belki siyasî ilişki. f=600 (Geç Klasik'in başlangıcı, Körfez merkezinin El Tajín'e kaymasının başladığı dönem), t=1100 (işgalin sonu). Önceki taslak t=1200 (taslak değeri) kaynağa uymuyor. Hükümdar listesi (13 Tavşan, 10. yy) yalnız heykel anlatımından; siyasî sınırlar belgesiz → polity niteliği zayıf.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": "Totonak bağı tartışmalı."
-  }
- },
- {
-  "id": "cotzumalguapa",
-  "ad": "Cotzumalguapa (Pipil öncesi)",
-  "tur": "seflik",
-  "bolge": "orta-amerika",
-  "f": "0650-01-01",
-  "t": "0950-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
   },
-  "baskent": "Bilbao / El Baúl",
-  "etkin_bolge": "Guatemala Pasifik ovası",
-  "sehirler": [
-   "El Baúl",
-   "Bilbao"
-  ],
-  "ozet": "Epiklasik Pasifik kıyısı Cotzumalguapa şefliği.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Şeflik/tartışmalı."
-  }
+  "tur_yeni": "şehir devleti (tartışmalı): Diehl 'dominated much of the surrounding area' der, fakat yazılı hanedan yok."
  },
  {
   "id": "cholula",
@@ -439,7 +403,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "ic_not": "Bu oturumda INAH Boletín 610 (15 Eylül 2023) okundu: McCafferty'nin Cholula'da Erken-Orta Postklasik (900-1350 MS) tanı seramik tiplerini düzenlediği; siyasî tarih vermez. WebSearch özetleri (OKUNMADI): McCafferty 1996 Ancient Mesoamerica 'Reinterpreting the Great Pyramid of Cholula' (piramit dört büyük evre); Olmeca-Xicalanca evresi 700-1200 ya da Epiklasik 650-900; Tolteca-Chichimeca gelişi ~1168(?)/1200. Siyasî tarih Historia Tolteca-Chichimeca'ya (16. yy) dayanır → 1281 öncesi polity kaynağı zayıf. t=1519 İspanyol fethi (1281 sonrası kaynaklı).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -470,41 +434,11 @@
   "oncelik": "orta",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "ic_not": "Bu oturumda Joyce (2016) metni okundu: kodeksler Lord 8 Deer 'Jaguar Pençesi'nin 1063'te Tilantongo'da doğduğunu anlatır (Joyce ve ark. 2004). Tilantongo'nun Postklasik başat bir hanedan olduğu kodekslerde (Zouche-Nuttall, Bodley) görülür; 692 başlangıcı (atlas) kodeks kronolojisine dayanır ve bu oturumda doğrulanamadı. Joyce Mixtec kodeks kronolojisi ile arkeoloji arasındaki uyumsuzluğa dikkat çeker. 692 'kodeks hesabı' olarak kalır (taslak).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": "Codex tarihlendirmesi (Smith) belirsiz; f yüzyıl düzeyi."
-  }
- },
- {
-  "id": "huasteca",
-  "ad": "Huastek (Teenek) Şeflikleri",
-  "tur": "seflik",
-  "bolge": "orta-amerika",
-  "f": "0900-01-01",
-  "t": "1521-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "Tamtoc?",
-  "etkin_bolge": "Doğu-Orta Meksika Körfez kıyısı",
-  "sehirler": [
-   "Tamtoc",
-   "Tantoc"
-  ],
-  "ozet": "Huastek kültür alanı; siyasî birlik düzeyi tartışmalı.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Şeflik/tartışmalı."
   }
  },
  {
@@ -530,7 +464,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "ic_not": "Bu oturumda denendi: akademik kaynak okunamadı. Chorotega (Nicoya) etnik grup; 800 başlangıç etnik göçe dayanır; 1281 öncesi siyasî birim kanıtı bulunamadı; ELENEN adayı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -560,7 +494,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "ic_not": "Bu oturumda denendi: PMC12591407 (Cerro Juan Díaz, Panama, 2025, PLoS ONE; Europe PMC özeti okundu): 'Panama'da şeflikler küresi MÖ 200-MS 1500 arasında gelişti, ayrıntılı olarak iyi anlaşılmış değil' — Coclé'ye özgü polity/tarih yok. 1281 öncesi siyasî birim kanıtı zayıf; ELENEN adayı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -572,7 +506,7 @@
   "ad": "Spiro (Caddo Mississippi şefliği)",
   "tur": "seflik",
   "bolge": "kuzey-amerika",
-  "f": "0850-01-01",
+  "f": "0900-01-01",
   "t": "1450-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -587,14 +521,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "kaynak": [
+   "Sievert, April K. & J. Daniel Rogers. Artifacts from the Craig Mound at Spiro, Oklahoma. Smithsonian Contributions to Anthropology 49. Washington: Smithsonian Institution Scholarly Press, 2011, böl. 1 'A Chronology of Site Organization' (Spiro alanı en az 550 yıl, MS ~900-~1450; Evans fazı 900-1050/1100; Harlan 1050/1100-1250; Norman 1250-1350; Spiro 1250-1450; 'At about AD 1450 activities at Spiro came to an end') (govinfo.gov GOVPUB-SI-PURL-gpo16914, tam metin okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Sievert & Rogers 2011: 'Spiro alanı en az 550 yıl, MS ~900'de başlayıp ~1450'de sona erecek biçimde kullanıldı'; 'ilk geniş ölçekli kullanım Harlan fazında (1050/1100-1250)'. Önceki taslak f=850 kaynağa uymuyor (taslak değeri: 0850); f=900 (Evans fazı başı, yalnız bir kısım gömü, tören amaçlı yer). Sosyal örgütlenme: Sievert & Rogers 'ranked/chiefdom (şeflik) düzeyi' der, 'chiefdom level'in çöküşü ~1450'de 'Mississippian chiefdoms'in genel gerilemesi ile ilişkili. Polity kanıtı: tek merkez + çevresinde hanedan listesi yok; mevcut atlas künyesi 'spiro' (devlet, 850-1450). ÖNERİ: tür 'seflik' olmalı; atlasın 'devlet' etiketi akademik kaynağa uymuyor; başlangıç 900'e çekilmeli.",
   "esleme": {
-   "durum": "var",
+   "durum": "var-f-t-farkli",
    "mevcut_id": "spiro",
-   "not": "Şeflik/tartışmalı."
-  }
+   "not": "Mevcut künye 'devlet' 0850-1450; kaynak f=900 ve tür=şeflik der."
+  },
+  "tur_yeni": "Sievert & Rogers (2011): 'chiefdom' (Caddoan Mississippian) → atlasta 'seflikler' kullanımı doğru; 'devlet' etiketi kaynakla çelişir."
  },
  {
   "id": "ata-pueblo",
@@ -602,7 +539,7 @@
   "tur": "seflik",
   "bolge": "kuzey-amerika",
   "f": "0850-01-01",
-  "t": "1300-01-01",
+  "t": "1140-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yuzyil"
@@ -617,14 +554,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "kaynak": [
+   "Guiterman, Christopher H., Thomas W. Swetnam & Jeffrey S. Dean. 2016. 'Eleventh-century shift in timber procurement areas for the great houses of Chaco Canyon.' PNAS 113(5): 1186-1190: 'The monumental great houses of Chaco Canyon reflect an elaborate socioecological system that spanned much of the 12,000-km² San Juan Basin from 850 to 1140 CE' (PMC4747737, okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Guiterman ve ark. (PNAS 2016): Chaco büyük evleri ('great houses') 'San Juan havzasının büyük bölümüne yayılan karmaşık sosyo-ekolojik sistem, MS 850-1140'. Atlas künyesi 'ata-pueblo' (Chaco + Mesa Verde, 850-1300) iki ayrı sistemi birleştirir: Chaco sistemi 850-1140; Mesa Verde bölgesi 1300 dolaylarına kadar (Mesa Verde kaynağı bu oturumda okunamadı). ÖNERİ: Chaco 850-1140 ayrı künye; Mesa Verde ayrı. Polity niteliği: Chaco'da merkezî hanedan/siyasî sınır belgesi yok (büyük evler sistemi; 'devlet' etiketi kaynakta yok). Chaco sisteminin 'devlet/şeflik' olup olmadığı arkeologlar arasında tartışmalıdır (Lekson vs. Plog: bu oturumda okunamadı).",
   "esleme": {
-   "durum": "var",
+   "durum": "var-kisa",
    "mevcut_id": "ata-pueblo",
-   "not": "Şeflik/tartışmalı; Chaco zirvesi ~900-1150."
-  }
+   "not": "Mevcut 850-1300 iki sistemi birleştirir; Chaco kısmı 850-1140 (PNAS 2016)."
+  },
+  "tur_yeni": "büyük ev toplulukları sistemi / tartışmalı şeflik (kaynak 'sosyo-ekolojik sistem' der)"
  },
  {
   "id": "norse-gronland",
@@ -647,14 +587,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "kaynak": [
+   "Price, T. Douglas & Jette Arneborg. 2018. 'The Peopling of the North Atlantic: Isotopic Results from Greenland.' Journal of the North Atlantic, Special Volume 7: 164-185: 'Eastern Settlement ... established at the very beginning of the colonization of Greenland around AD 985 ... Western Settlement eventually abandoned ca. AD 1400. The Norse had completely left Greenland by the late 1400s (Arneborg et al. 2012a)' (eaglehill.us/JONAonline, tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Price & Arneborg (2018): Doğu yerleşimi MS ~985'te kuruldu, Batı yerleşimi biraz sonra; Batı yerleşimi ~1400'de terk edildi; Norse nüfusu 15. yy sonunda tamamen ayrılmıştı. t=1450 'nominal' (JONA kaynağı 'AD 985-~1450' der); kesin devlet sonu tarihi yok. Siyasî statü: Grönland Norse topluluğu Norveç tacına 1261'de bağlandı (bu oturumda kaynak okunamadı); atlasın 'cumhuriyet' etiketi 985-1261 serbest topluluk için geçerli olabilir; sonrası Norveç himayesi — künye bölünmeli (taslak değeri). 'Devlet' niteliği tartışmalı: Grönland Althing'i kaynaklarda anılır ama bu oturumda okunamadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "norse-gronland",
-   "not": "Bölge Kuzey Amerika olarak künyeli; siyasî statü (İzlanda/Norveç bağı) ayrıca kodlanabilir."
-  }
+   "not": "f/t uyumlu; 1261 Norveç'e bağlanma ayrı bir değişim olarak kronolojiye işlenebilir (kaynak bulunamadı)."
+  },
+  "tur_yeni": "serbest topluluk (Althing) 985-1261, sonra Norveç tacı bağımlısı — künye ikiye bölünmeli (kaynak okunamadı)."
  },
  {
   "id": "toltek",
@@ -678,7 +621,7 @@
   "oncelik": "orta",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "ic_not": "Bu oturumda sayfa okuma denendi: Healan (Cambridge Core, Ancient Mesoamerica) özeti 'Early Postclassic city of Tula, Hidalgo'dan söz eder, tarihlerini vermez; Tula özel bölümü girişi (Cambridge Core) okunamadı. Sahagún'un 'Tollan' (mitik) ile Tula'nın (Hidalgo) ayrımı 'Toltec' teriminin sistematik anlamı yoktur uyarısı (Graham/Kowalski, Ancient Americas özeti) — 'Toltek Devleti' kavramının kendisi tartışmalıdır. 900-1150 değerleri hafızadan; Erken Postklasik ≈ 900-1250 aralığı yaygın (Healan/Cobean, okunmadı).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "toltek",
@@ -690,11 +633,11 @@
   "ad": "Chimor (Chimú) Krallığı",
   "tur": "krallik",
   "bolge": "guney-amerika",
-  "f": "0900-01-01",
+  "f": "1000-01-01",
   "t": "1470-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yil"
+   "t": "yuzyil"
   },
   "baskent": "Chan Chan",
   "etkin_bolge": "Peru kuzey kıyısı",
@@ -705,13 +648,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "kaynak": [
+   "Moseley, Michael E. The Incas and Their Ancestors, rev. ed. 2001, böl. 'The Late Intermediate Period' – 'Chimor and the north' ('defeated by Cuzco's forces c. AD 1470'; Taycanamu hanedanı, 9-11 pre-Inca hükümdar) (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "MÜKERRER KÜNYE ADAYI: atlasta 'chimu' ve 'chimu-krallik' (ikisi de 1000-1470, Chan Chan). Moseley: Chimor 'Güney Amerika'da arkeolojik ve etnotarihî olarak belgelenebilen ikinci büyük yerli devlet'; Cuzco kuvvetleri tarafından MS ~1470'te yenildi (t=1470 doğrulandı). Başlangıç: Moseley kesin yıl vermiyor; Taycanamu önce Moche vadisinde 'küçük şehir devletleri'ni bulur ve fetheder; Late Intermediate Period 'teknik olarak MS 1000'de başlar'. f=1000 yüzyıl/onyıl hassasiyeti; önceki taslak 0900 idi (taslak değeri 0900). ÖNERİ: 'chimu' kalsın, 'chimu-krallik' birleştirilsin.",
   "esleme": {
-   "durum": "var-f-t-farkli",
+   "durum": "var",
    "mevcut_id": "chimu",
-   "not": "Künye f=1000; kuruluş ~900 de savunulur. chimu ve chimu-krallik mükerrer."
+   "not": "Mükerrer: chimu ve chimu-krallik aynı polity (1000-1470); biri silinmeli. f için kaynak kesin yıl vermiyor (1000 yuzyıl)."
   }
  },
  {
@@ -737,11 +682,43 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "ic_not": "Bu oturumda denendi: BanRep Boletín del Museo del Oro (1985, 'Arqueología de la Sierra Nevada de Santa Marta' tanıtım yazısı) okundu — kronoloji içermez. WebSearch özeti (Seshat'a atfen, OKUNMADI): Giraldo & Sáenz'in radyokarbon temelli tahmini: tarihöncesi Tairona fazı ~1050'de başlar, 16. yy başında biter; başka kaynaklar MÖ 200/MS 200-1600 aralığını anar. Atlas f=800 ile ~1050 arasında çelişki var; çözülemedi.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "tairona",
    "not": "Şeflik/tartışmalı. f=800 D dilimi, ancak Teyuna ~800 sonrası; 'Tairona' kimliği daha erken de başlatılır."
+  }
+ },
+ {
+  "id": "ek-balam",
+  "ad": "Ek' Balam Krallığı",
+  "ad_yerel": "Talol",
+  "tur": "krallik",
+  "bolge": "orta-amerika",
+  "f": "0770-01-01",
+  "t": "0840-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Ek' Balam",
+  "etkin_bolge": "kuzey Yucatán",
+  "sehirler": [
+   "Ek' Balam"
+  ],
+  "ozet": "Geç Klasik/Terminal Klasik'te kuzey Yucatán'da yazıtlı bir krallık; 770-840 arası bölgesel güç merkezi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. 2008, Northern Area bölümü: 'Ek' Balam ... a major centre of power from about [7]70 to 840' (archive.org tam metin OCR; ilk rakam OCR'da bulanık okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "BU OTURUMDA EKLENDİ (önceki raporda eksik denmişti). Martin & Grube'ye göre Ek' Balam, kuzey bölgenin yazıt sağlayan nadir yeri; 'major centre of power from about 770 to 840' (OCR'da '?70' — 770 olarak okundu, sayfa görüntüsü ile teyit edilmeli). Hükümdar adı/emblem (Talol) bu kaynakta yok; f/t yüzyıl hassasiyetiyle çalışma aralığıdır.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlasta yok."
   }
  }
 ]

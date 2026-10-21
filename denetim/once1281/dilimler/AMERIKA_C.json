@@ -21,7 +21,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2. t: yıl bilinmiyor.",
+  "ic_not": "Martin & Grube (2008) giriş: Güney Bölge'nin 'precocious Maya societies'inden Kaminaljuyú (+Izapa); 4. yy MS'de Teotihuacan etkisi altında 'canlandı' (revitalized under heavy Teotihuacan influence); Stela 11 gibi anıtlardan söz edilir. Kuruluş (-0499) ve son tarihleri bu kaynakta yok; hafızadan taslak. Polity: tek merkezli şeflik/şehir devleti, siyasî birim belgesi yok.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -51,22 +51,26 @@
    "kaanul"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. 2008, giriş (Preklasik): 'By as early as 500 BC the Maya of the Central Area were establishing their first major cities ... Nakbe ... superseded by El Mirador, which grew to be the largest concentration of monumental architecture'; San Bartolo kralık kavramı ≥ MÖ 100; 'dramatic decline between AD 150 and [250]' (archive.org tam metin okundu)",
+   "Inomata, Takeshi et al. 2017. PNAS 114 (PMC5307461): Ön-Klasik çöküş 'around AD 150-300', Maya ovalarında birçok merkezin MS ~150'de düşüşü (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "İki kaynak Preklasik çöküşü MS 150-300 aralığına koyar (M&G: 'dramatic decline between AD 150 and ...'; Inomata ve ark.: 'fall of multiple centers across the Maya lowlands around AD 150'). t=150 bu çöküşün başı. f=-0299: M&G El Mirador'un 'en büyük anıtsal mimari yoğunluğu' olduğunu söyler ve ilk büyük şehirlerin 'MÖ 500 kadar erken' kurulduğunu belirtir; El Mirador'un tam yükseliş yılı verilmez. Siyasî niteliği: devlet düzeyi tartışmalı (M&G: San Bartolo'da krallık kavramı en geç MÖ 100); 'Kaan krallığının ataları' hipotezi M&G'de ihtiyatla. Dolayısıyla tür 'şehir devleti' tartışmalıdır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Devlet düzeyi iddiası Hansen ekolüne ait, tartışmalı. Mevcut maya-orta-preklasik kültür künyesi onu kapsamıyor."
-  }
+   "not": "Atlasta 'maya-orta-preklasik' (kultur, -0999/-0399, merkez yok) var; El Mirador MÖ 4. yy sonrası ve MS 150'ye kadar sürer — kültür künyesinin dışında kalır."
+  },
+  "tur_yeni": "şehir devleti/şeflik (tartışmalı); polity niteliği zayıf."
  },
  {
   "id": "monte-alban-zapotek",
   "ad": "Monte Albán Zapotek Devleti",
   "tur": "devlet",
   "bolge": "orta-amerika",
-  "f": "-0499-01-01",
-  "t": "0750-01-01",
+  "f": "-0099-01-01",
+  "t": "0700-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yuzyil"
@@ -82,13 +86,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Redmond, Elsa M. & Charles S. Spencer. 1992. 'The Prehistoric City and State of Monte Albán: A View from Its Frontier.' In: Gisela von Wobeser & Ricardo Sánchez (eds.), La ciudad y el campo en la historia de México, UNAM Instituto de Investigaciones Históricas, pp. 1-24: 'Monte Albán was first settled towards the end of the Middle Formative period, around 500 B.C. ... Period Early I (500-300 B.C.) ... population of about 5,000'; kronoloji tablosu: Monte Albán III sonu A.D. 700, Monte Albán IV (700-1000) (historicas.unam.mx PDF, okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "MÜKERRER KÜNYE ADAYI: atlasta 'monte-alban-zapotek' ve 'zapotek-monte-alban' var (ikisi devlet, orta-amerika, f=-0499, t=0700). ÖNERİ: 'monte-alban-zapotek' kalsın, 'zapotek-monte-alban' birleştirilsin. Redmond & Spencer (1992, UNAM): Monte Albán MÖ ~500'de kuruldu (Faz I Erken 500-300 BC, ~5000 nüfus, 310+ danzante: 'gerçek devlet olmadan önce, etkili siyasî güç kurulmadan'); Faz II'nin başında (MÖ 100-MS 200) nüfus >15.000, Ana Plaza ve savunma duvarı → 'Zapotek DEVLETİNİN yükselişi' (resmî bürokratik/idari örgüt). Dolayısıyla DEVLET başlangıcı f=-0099 (MÖ 100); MÖ 500-100 arası Monte Albán 'devlet öncesi polity' (şeflik/ortak başkent: Blanton'a göre rakip şefliklerin tarafsız başkenti). Bu yüzden f -0499→-0099 olarak düzeltildi; mevcut künye f=-0499 'şehir kuruluşu'nu esas alıyor — künye ya f=-0099'a çekilmeli ya da tür 'şeflik→devlet' olarak ikiye bölünmeli. t=0700: Redmond&Spencer kronoloji tablosunda Monte Albán III A.D. 700'de biter. Çöküş 700-750 arası özet kaynakla uyumlu. Önceki taslak t=0750 → kaynak 700 (taslak değeri: 0750).",
   "esleme": {
-   "durum": "var",
+   "durum": "var-f-t-farkli",
    "mevcut_id": "monte-alban-zapotek",
-   "not": "Mevcut iki künye var: monte-alban-zapotek ve zapotek-monte-alban (mükerrer)."
+   "not": "Mükerrer: zapotek-monte-alban birleştirilmeli; mevcut f=-0499 kaynağa göre devlet öncesi 'şehir kuruluşu', devlet f=-0099."
   }
  },
  {
@@ -97,7 +103,7 @@
   "tur": "sehir-devleti",
   "bolge": "orta-amerika",
   "f": "-0099-01-01",
-  "t": "0550-01-01",
+  "t": "0600-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yuzyil"
@@ -111,13 +117,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "'Animal Management at the Ancient Metropolis of Teotihuacan, Mexico: Stable Isotope Analysis of Leporids.' PLoS ONE 2016 (PMC4988673), Tablo 1 (Teotihuacan kronolojisi): Patlachique 150-1 MÖ; Tzacualli MS 1-150; Tlamimilolpa 200-350; Xolalpan 350-550; Metepec 550-600; 'the approximate date of the sociopolitical collapse of Teotihuacan' çizgisi; Coyotlatelco 600-900 'siyasî çöküşü izleyen dönem' (okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "PLoS ONE (2016) kronoloji tablosu: kentin yükselişi Patlachique/Tzacualli (MÖ 150-MS 150), Klasik zirve Xolalpan (350-550), Metepec 550-600, ardından Coyotlatelco (600-900) 'siyasî çöküşü izleyen dönem'. Atlas f=-0099 (MÖ 100) şehir devletinin başlangıcı olarak yüzyıl hassasiyetinde korundu (Patlachique 150-1 MÖ). t: makale çöküşü 550-600 içinde 'yaklaşık' gösterir; t=0550 (atlas) yerine t=0600 (Metepec sonu) kaynakla uyumludur; KESİN çöküş yılı tartışmalı (Metepec'te yangın ~550-600). Siyasî sınırlar/hükümdar belgesi yok (Teotihuacan'ın şehir devleti mi imparatorluk mu olduğu tartışmalı; kaynak yalnız kronoloji verir).",
   "esleme": {
-   "durum": "var",
+   "durum": "var-f-t-farkli",
    "mevcut_id": "teotihuacan",
-   "not": "Çöküş tarihi 550 / 600-650 olarak değişir."
+   "not": "Mevcut t=0550; Metepec evresi 550-600 → t=0600 öneri."
   }
  },
  {
@@ -141,13 +149,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. London: Thames & Hudson, 2008, 'Tikal' bölümü: Yax Ehb Xook, 'no source pinpoints his rule in time, but estimates drawn from average reign-lengths now suggest a beginning for the sequence in the late 1st century AD'; ilk çağdaş tarih Stela 29 = 292; Stela 11 = 10.2.0.0.0 = 869, 'the city's final sculpture' (Jasaw Chan K'awiil II); 889'da çevre lordlukları son stelleri (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "MÜKERRER KÜNYE ADAYI: atlasta 'tikal-mutal' (devlet, 0090-0869) ve 'tikal-mutul' (krallik, 0090-0869-08-13) var. ÖNERİ: 'tikal-mutul' kalsın (Mutul/Mutal okuma farkı: 'Mutal' M&G'nin kullandığı imla: 'holder of the mutal title'; ikisi aynı polity) — 'tikal-mutal' birleştirilsin. f: Martin & Grube hanedan kurucusu Yax Ehb Xook'un saltanatını 'ortalama saltanat süreleriyle MS 1. yüzyılın sonlarına' tahmin eder (ilk çağdaş tarih 292) → f=0090 yüzyıl hassasiyetinde TÜRETİLMİŞ tahmin. t=869: Stela 11 (10.2.0.0.0 = 869; gün atlasta 08-13 veriliyor; bu kaynak ayrıntıyı vermedi) — Tikal'in son anıtı; kaynak 889'a kadar çevre lordluklarının (Jimbal, Uaxactún) 'Mutal' unvanını kullandığını belirtir. 849 Jewel K'awiil Seibal'de 'tanık' son referans; yani 849-869 devlet işlevi tartışmalı (M&G: 'Tikal itself cast into silence').",
   "esleme": {
    "durum": "var",
    "mevcut_id": "tikal-mutul",
-   "not": "Mevcut tikal-mutal ve tikal-mutul mükerrer. İlk kral tarihi geleneksel; hanedan anlatıları yazıtlara dayanır."
+   "not": "Mükerrer: tikal-mutal birleştirilmeli."
   }
  },
  {
@@ -170,13 +180,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. 2008, 'Caracol' bölümü: ilk hükümdar Te' K'ab Chaak (331-349 saltanat listesi; 'the first royal name recorded at Caracol ... two Late Classic texts, one placing him in 331 the other 349'), son hükümdar Ruler XIII Stela 10, 'half-K'atun 10.1.10.0.0 of 859' (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "M&G: Caracol'un kaydedilmiş ilk hükümdarı Te' K'ab Chaak, iki Geç Klasik metinde 331 ve 349 olarak geçer (metinler zayıf okunur) — 'hanedan kurucusu olabilir'. f=331 (iki tarihten ilk; ikinci 349). t=859: Ruler XIII'ün Stela 10'u, 4 Ajaw ile biten yarı-K'atun 10.1.10.0.0 = 859; 'sonrasında elit faaliyet yok'. Mevcut künye caracol-maya 0331-0859 ile uyumlu.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "caracol-maya",
-   "not": ""
+   "not": "f/t uyumlu (Martin & Grube 2008)."
   }
  },
  {
@@ -184,11 +196,11 @@
   "ad": "Copán (Oxwitik) Krallığı",
   "tur": "krallik",
   "bolge": "orta-amerika",
-  "f": "0426-01-01",
-  "t": "0822-01-01",
+  "f": "0426-09-05",
+  "t": "0822-02-01",
   "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "f": "gun",
+   "t": "ay"
   },
   "baskent": "Copán",
   "etkin_bolge": "Honduras batısı",
@@ -200,13 +212,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. 2008, 'Copán' bölümü: 'On 5 September 426 the founder ... took the snake-footed god K'awiil ... and rose to kingly status' (Altar Q); son hükümdar Ukit Took', Altar L, 'date of his seating in February 822' ... 'The valley had seen the last of its kings' (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "M&G: Copán'ın kurucusu K'inich Yax K'uk' Mo' (başlangıçta K'uk' Mo' Ajaw) 5 Eylül 426'da (Altar Q) K'awiil'i alıp kral oldu; bu tören muhtemelen Copán'da değil uzak bir yerde yapıldı ('Peten ya da Meksika'); varış yılı 427 (tartışma M&G'de). 'Foundation' = taht törenin tarihi (hanedan kuruluşu). t: son hükümdar Ukit Took' Şubat 822'de tahta oturdu, Altar L bitirilmeden 'valley saw the last of its kings' → t=822-02 (ay hassasiyeti; devlet sonu aslında bu tarihten biraz sonra). Gregoryen/Jülyen: Maya literatüründe 5 Eylül 426 Jülyen takvim (GMT 584283) kullanılır; atlasın convention'ı (Gregoryen mi Jülyen mi) kontrol edilmeli. Mevcut künye 0426-0820.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "copan",
-   "not": "Künye t=820; kuruluş için geleneksel okuma 5 Eylül 426."
+   "not": "Mevcut künye t=0820; kaynak 822 (Şubat) der — 2 yıl fark, künye t=822'ye çekilebilir."
   }
  },
  {
@@ -215,7 +229,7 @@
   "tur": "krallik",
   "bolge": "orta-amerika",
   "f": "0431-01-01",
-  "t": "0799-01-01",
+  "t": "0814-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -229,13 +243,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. 2008, 'Palenque' bölümü: K'uk' Bahlam I, 'His reign began in 431'; son bilinen hükümdar Janaab Pakal III (Wak Kimi, '6 Death') 799'da tahta çıktı; Comalcalco tuğlasında ~814'te Baakal krallığına son atıf (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "M&G: Palenque'nin Klasik hanedanının kurucusu K'uk' Bahlam I; saltanatı 431'de başladı (sayfada '10 March 431' gibi okunan OCR'lı tarih var — gün güvenilir okunmadı; yıl hassasiyeti kullanıldı). Son bilinen hükümdar Janaab Pakal III (799); 'son atıf' Comalcalco tuğlası ~814 (Baakal'in batıdaki son izi). Palenque'nin çöküşü 'ani'. Önceki taslak t=0799 (taslak değeri) 'son hükümdarın tahta çıkışı' idi; 814 en geç kanıt. Mevcut künye 0431-0799 (var). ÖNERİ: t 0799→0814 genişlet (ya da 799 koru; polity fiilen sürmüş olabilir).",
   "esleme": {
-   "durum": "var",
+   "durum": "var-f-t-farkli",
    "mevcut_id": "palenque-baak",
-   "not": ""
+   "not": "Mevcut t=0799 (son hükümdar tahta çıkışı); son atıf ~814."
   }
  },
  {
@@ -247,7 +263,7 @@
   "t": "0808-01-01",
   "kesinlik": {
    "f": "yil",
-   "t": "yuzyil"
+   "t": "yil"
   },
   "baskent": "Yaxchilán",
   "etkin_bolge": "Usumacinta kıvrımı",
@@ -259,13 +275,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. 2008, 'Yaxchilán' bölümü: 'History at Yaxchilan begins with the accession of its founder, Yopaat Bahlam I, perhaps in 359'; Piedras Negras bölümü: Yaxchilan'ın son anıtında (Temple 3 adanması) 808 (K'inich Tatbu Skull IV) (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "M&G: Yaxchilan'ın kurucusu Yopaat Bahlam I'in tahta çıkışı 'belki 359' (Piedras Negras ile yaşıt Altar 1'deki 8.13.0.0.0 = 297 başka bir 'başlangıç' referansı). t=808: Yaxchilan'ın son kralı K'inich Tatbu Skull IV'ün anıtı (Temple 3 adanması 808) ve Piedras Negras Ruler 7'yi esir aldığı ~808. Siyasi son 808'den biraz sonra olabilir. Kaynak 'tahta çıkış perhaps in 359' dediği için f'nin kesinliği 'yıl' ama tahminî.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Tarihler hafızadan; doğrulanmalı."
+   "not": "Atlasta ayrı künye yok."
   }
  },
  {
@@ -273,11 +291,11 @@
   "ad": "Piedras Negras (Yo'kib) Krallığı",
   "tur": "krallik",
   "bolge": "orta-amerika",
-  "f": "0400-01-01",
-  "t": "0810-01-01",
+  "f": "0478-01-01",
+  "t": "0808-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yuzyil"
+   "t": "yil"
   },
   "baskent": "Piedras Negras",
   "etkin_bolge": "Usumacinta, Guatemala",
@@ -288,13 +306,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. 2008, 'Piedras Negras' bölümü: krallığın adı Yokib; Ruler B c. 478, Turtle Tooth 510 (Panel 2), Ruler 7 son kral (781-808?), Yaxchilan'ın ~808 galibiyeti (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "M&G: ilk erken dönem anıt yok; 'Altar 1' birinci kralı mitik bir dönemde (MÖ 4691), diğer tarihleri MÖ 3114 ve MS 297 ile bağlar — hanedan kuruluşu için MS 297 'Klasik tarzı hükümet başlangıcı' olabilir ama 'Piedras Negras hâlâ çok küçüktü'. Güvenilir ilk tarihsel hükümdarlar Ruler B (c. 478) ve Turtle Tooth (508-510, Panel 2: 510). Bu yüzden f=478 (yuzyil) alındı; f=0400 taslağı kaynaktan desteklenmedi (taslak değeri 0400). t=808: Ruler 7 (781-808?) Yaxchilan'ın son kralı Tatbu Skull IV'ün 'baak' (esiri) olarak anılır; M&G 'Piedras Negras, Ruler 7 ... as late as AD 795' (en geç kendi anıtı) der.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Tarihler kaba; doğrulanmalı."
+   "not": "Atlasta ayrı künye yok."
   }
  },
  {
@@ -302,10 +322,10 @@
   "ad": "Quiriguá Krallığı",
   "tur": "krallik",
   "bolge": "orta-amerika",
-  "f": "0426-01-01",
+  "f": "0426-09-08",
   "t": "0810-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "gun",
    "t": "yuzyil"
   },
   "baskent": "Quiriguá",
@@ -317,13 +337,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. 2008, 'Quiriguá' bölümü: ilk kral Tok Casper, Copán'ın kurucusu Yax K'uk' Mo''nun 'gözetiminde' tahta çıktı (8 Eylül 426, Copán tahtına çıkışının üç gün sonrası); son bilinen kral Jade Sky (16. kral, ~10 yıl, ~800-810) (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "M&G: Quiriguá krallığı 'başlangıcından itibaren Motagua Vadisi'ni kontrol eden bölgesel planın parçasıdır'; Tok Casper 426'da Yax K'uk' Mo' gözetiminde taçlandı (Copán'ın 5 Eylül 426 töreninden üç gün sonra → 8 Eylül 426). K'ahk' Tiliw Chan Yopaat (724 tahta çıkışı) Nisan 738'de efendisi Copán kralı Waxaklajuun Ubaah K'awiil'i esir alıp bağımsızlaşır (M&G): 426-738 arası Copán vassalıdır; atlasta bu değişim için ayrı kronoloji maddesi gerekir. t: Jade Sky ~10 yıl, Sky Xul 795-800 arasında öldü → son kral ~810; t yüzyıl hassasiyeti (810 anıt tarihi). Gün: 426-09-08 M&G tablosundan ('8 September 426'), Jülyen mi Gregoryen mi belirtilmemiş.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Kuruluş Copán ile bağlantılı geleneksel tarih; bağımsızlık 738 hafızadan."
+   "not": "Atlasta ayrı künye yok."
   }
  },
  {
@@ -331,10 +353,10 @@
   "ad": "Naranjo (Saal) Krallığı",
   "tur": "krallik",
   "bolge": "orta-amerika",
-  "f": "0400-01-01",
-  "t": "0910-01-01",
+  "f": "0546-01-01",
+  "t": "0830-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "yil",
    "t": "yuzyil"
   },
   "baskent": "Naranjo",
@@ -347,105 +369,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "kaynak": [
+   "Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. 2008, 'Naranjo' bölümü: 'The Naranjo dynasty really comes into focus only with the accession of Aj Wosal ... in 546'; Lady Six Sky 682; son bilinen hükümdar Waxaklajuun Ubaah K'awiil (Stela 32, Mayıs 820; 815 haraç; Stela 9 '830 sonrası') (archive.org tam metin okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "M&G: Naranjo hanedanı 'ancak Aj Wosal Chan K'inich'in 546'da (12 yaşında) tahta çıkmasıyla netleşir' (daha eski hükümdar adları var ama belirsiz); Dos Pilas'ın Lady Six Sky'ı 682'de 'yeni hanedan' kurdu. f=546 hanedanın BELGELİ başlangıcıdır (gerçek kuruluş daha eski; taslak 0400 doğrulanmadı). t: son hükümdar Waxaklajuun Ubaah K'awiil 820; Stela 9 '830 sonrası'; Xunantunich son tarihi 830. Önceki taslak t=0910: kaynak bu değeri DESTEKLEMEDİ (taslak değeri 0910).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Tarihler kaba."
-  }
- },
- {
-  "id": "recuay",
-  "ad": "Recuay Şeflikleri",
-  "tur": "seflik",
-  "bolge": "guney-amerika",
-  "f": "0001-01-01",
-  "t": "0700-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "Pashash / Yayno",
-  "etkin_bolge": "Ancash yaylaları",
-  "sehirler": [
-   "Pashash",
-   "Yayno"
-  ],
-  "ozet": "Moche'nin komşusu dağlık şeflik ağı.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Şeflik/tartışmalı; tek siyasî birim olup olmadığı belirsiz."
-  }
- },
- {
-  "id": "pukara",
-  "ad": "Pukara (Titikaka havzası şefliği)",
-  "tur": "seflik",
-  "bolge": "guney-amerika",
-  "f": "-0199-01-01",
-  "t": "0200-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "Pukara",
-  "etkin_bolge": "Titikaka kuzeyi",
-  "sehirler": [
-   "Pukara"
-  ],
-  "ozet": "Tiwanaku öncesi yaylanın baskın merkezi.",
-  "oncul": [],
-  "ardil": [
-   "tiwanaku-devleti"
-  ],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Devlet mi şeflik mi tartışmalı."
-  }
- },
- {
-  "id": "nazca",
-  "ad": "Nazca Şeflikleri/Kültürü",
-  "tur": "seflik",
-  "bolge": "guney-amerika",
-  "f": "-0199-01-01",
-  "t": "0600-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "Cahuachi",
-  "etkin_bolge": "Peru güney kıyısı",
-  "sehirler": [
-   "Cahuachi"
-  ],
-  "ozet": "Paracas ardılı; Cahuachi tören merkezi etrafında, siyasî birlik tartışmalı.",
-  "oncul": [
-   "paracas"
-  ],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
-  "esleme": {
-   "durum": "var",
-   "mevcut_id": "nazca",
-   "not": "Mevcut künye kültür; şeflik/tartışmalı."
+   "not": "Atlasta ayrı künye yok."
   }
  },
  {
@@ -453,7 +385,7 @@
   "ad": "Moche (Mochica) Devletleri",
   "tur": "devlet",
   "bolge": "guney-amerika",
-  "f": "0001-01-01",
+  "f": "0100-01-01",
   "t": "0800-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -470,44 +402,17 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
-  "esleme": {
-   "durum": "var",
-   "mevcut_id": "moche",
-   "not": "Tek devlet / vadi devletleri tartışması."
-  }
- },
- {
-  "id": "san-agustin",
-  "ad": "San Agustín Şeflikleri",
-  "tur": "seflik",
-  "bolge": "guney-amerika",
-  "f": "0001-01-01",
-  "t": "0900-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "San Agustín",
-  "etkin_bolge": "Yukarı Magdalena, Kolombiya",
-  "sehirler": [
-   "San Agustín",
-   "Alto de los Ídolos"
+  "kaynak": [
+   "Moseley, Michael E. The Incas and Their Ancestors, rev. ed. 2001, böl. 'Early Intermediate Period' ve 'Middle Horizon' (Moche; Cerro Blanco başkenti Faz III-IV; Pampa Grande Faz V MS 600-800) (archive.org tam metin okundu)"
   ],
-  "ozet": "Dikili taş heykelli Klasik dönem şeflikleri.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Moseley (2001): 'Tek merkezî bir Moche devleti kavramı tartışmalıdır' (Moche sanatı kuzeyde ve güneyde farklı işlev gördü); 'en güçlü gerekçe', Faz III-IV'te Chicama'dan Huarmey'e uzanan Cerro Blanco merkezli devlettir. Faz V (MS 600-800, Orta Ufuk başı) güneyde başkent Cerro Blanco'nun terkiyle kaybolur; yeni başkent Pampa Grande (Lambayeque); Moche politisinin çöküşü ~800. f=100: Moseley kesin başlangıç yılı vermiyor (Gallinazo'dan türer, EIP ~MÖ 200-MS 600); yüzyıl hassasiyetiyle atlas değeri korundu. t=800 Faz V'in sonu. Çok merkezli şeflik/devlet olabilir.",
   "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Şeflik/tartışmalı; Klasik dönem aralığı."
-  }
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "moche",
+   "not": "Mevcut künye 0001-0799 (devlet); Moseley (2001) Faz V (600-800) = çöküş öncesi son evre."
+  },
+  "tur_yeni": "Moseley: 'Moche polity/state(s)'; çok merkezli yapı ihtimali nedeniyle 'devlet (tartışmalı)'."
  },
  {
   "id": "zenu-sinu",
@@ -533,7 +438,7 @@
   "oncelik": "kucuk",
   "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "ic_not": "Bu oturumda denendi: akademik kaynak bulunamadı. Zenú 'şeflikler' bilgisi 16. yy kroniklerine dayanır; -0199 başlangıç arkeolojik kültür dizisi (Zenú hidrolik sistemi) hafızadandır; polity kanıtı zayıf, ELENEN adayı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -541,61 +446,36 @@
   }
  },
  {
-  "id": "quimbaya",
-  "ad": "Quimbaya Şeflikleri",
-  "tur": "seflik",
-  "bolge": "guney-amerika",
-  "f": "-0499-01-01",
-  "t": "1540-01-01",
+  "id": "ceibal",
+  "ad": "Ceibal (Seibal) Krallığı",
+  "ad_yerel": "Ceibal / Seibal",
+  "tur": "krallik",
+  "bolge": "orta-amerika",
+  "f": "0415-01-01",
+  "t": "0889-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yuzyil"
+   "t": "yil"
   },
-  "baskent": "",
-  "etkin_bolge": "Cauca ortası, Kolombiya",
+  "baskent": "Ceibal",
+  "etkin_bolge": "Pasión Nehri, güney Peten",
   "sehirler": [
-   "Cartago"
+   "Ceibal"
   ],
-  "ozet": "Altın işçiliğiyle bilinen Kolombiya şeflikleri; İspanyol fethine dek.",
+  "ozet": "Pasión bölgesinin Klasik hanedanı: MS 415 civarında emblem glifli ilk hükümdar, 735'te Dos Pilas-Aguateca'ya yenilgi, 829'da yenilenme ve 889'da son tarihli anıt.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Şeflik/tartışmalı; dönemleme (Klasik/Geç) kaynaklar arası değişir."
-  }
- },
- {
-  "id": "marajoara",
-  "ad": "Marajoara Şefliği",
-  "tur": "seflik",
-  "bolge": "guney-amerika",
-  "f": "0400-01-01",
-  "t": "1400-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "Marajó adası",
-  "etkin_bolge": "Amazon ağzı",
-  "sehirler": [
-   "Marajó"
+  "kaynak": [
+   "Inomata, Takeshi et al. 2017. 'High-precision radiocarbon dating of political collapse and dynastic origins at the Maya site of Ceibal, Guatemala.' PNAS 114(6): 1293-1298 (PMC5307461, okundu): 'Ceibal Hieroglyphic Stairway, dedicated in AD 751, mentions an early ruler possessing the Ceibal emblem glyph ... active in AD 415'; 'defeated by the Dos Pilas-Aguateca dynasty in AD 735'; 'ruler holding the Ceibal emblem glyph in AD 829 (Wat'ul K'atel)'; 'collapsed soon after AD 889, the last date recorded on monuments'",
+   "Martin & Grube 2008, 'Seibal' ve Tikal bölümleri: 849'da Seibal 10.1.0.0.0 K'atun kutlaması (Jewel K'awiil, Chan Pet tanık) (archive.org tam metin okundu)"
   ],
-  "ozet": "Höyük-yerleşimli Amazon toplumu; devlet düzeyi iddiası Roosevelt ekolünün, Meggers karşıt.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "dogrulama": "okundu",
+  "ic_not": "BU OTURUMDA EKLENDİ (önceki raporda 'eksik' denen Klasik krallıklardan: Ceibal). Hanedanın kuruluşu: Inomata ve ark. 751 tarihli Hiyeroglif Merdiven'in 415'te etkin emblem glifli bir hükümdardan söz ettiğini ve bunun 'hanedan başlangıcı olabileceğini (kurucu olarak belirtilmemiş)' yazar. f=415 yüzyıl hassasiyeti. 735: Dos Pilas-Aguateca yenilgisi; Ajaw Bot gayrimeşru hükümdar; 800 sonrası anıt boşluğu 849'a kadar; 829'da yeni hükümdar Wat'ul K'atel; 889 son anıt tarihi. İki bağımsız kaynak (PNAS; M&G) 849/889 olaylarını teyit eder (çift teyit).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Çok tartışmalı."
+   "not": "Atlasta yok."
   }
  }
 ]

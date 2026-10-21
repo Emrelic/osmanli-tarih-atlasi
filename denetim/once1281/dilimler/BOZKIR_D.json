@@ -1,7 +1,7 @@
 [
  {
   "id": "tohar-yabgu",
-  "ad": "Tokharistan Yabguluğu (Bati Turk vasali)",
+  "ad": "Toharistan Yabguluğu (Batı Göktürk vasalı)",
   "tur": "yabgu-devleti",
   "bolge": "orta-asya",
   "f": "0630-01-01",
@@ -11,14 +11,12 @@
    "t": "yuzyil"
   },
   "baskent": "Kunduz",
-  "etkin_bolge": "Tokharistan: Caganiyan, Huttal, Termez",
+  "etkin_bolge": "Toharistan: Kunduz, Belh",
   "sehirler": [
    "Kunduz",
-   "Balh",
-   "Termez",
-   "Caganiyan"
+   "Belh"
   ],
-  "ozet": "Bati Gokturk'un Eftalit mirasi uzerine kurdugu vasal yabgu; yerel sahliklar.",
+  "ozet": "Batı Göktürklerin Eftalit mirası üzerinde bıraktığı Türk yabgularının yönettiği Toharistan; Çin kaynakları 719, 727 ve 749 yıllarında Kunduz yabgusunu anar.",
   "oncul": [
    "eftalit"
   ],
@@ -27,20 +25,19 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998",
-   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+   "René Grousset, The Empire of the Steppes: A History of Central Asia, Rutgers University Press, 1970 (archive.org tam metin, bu oturumda okundu) — \"yabghu of Tokharistan (Kunduz and Balkh)\" 719, 727 ve 749 Çin başvuruları"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Tarihler yuzyil duzeyi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Varlık Grousset'te 719/727/749 tanıklıklarıyla okundu. f=630 ve t=750 (yüzyıl düzeyi) bu oturumda kaynakta OKUNMADI, ilk taslak değerleri korunuyor; kuruluş (Tong Yabgu'nun oğlu) ve son (Arap/Abbâsî fethi) için Marquart/Bosworth bakılmalı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok; HINT_D turk-sahi (Kâbil) ayrı polity, çakışma yok."
   }
  },
  {
   "id": "gokturk-1",
-  "ad": "Birinci Gokturk Kaganligi",
+  "ad": "Birinci Göktürk Kağanlığı",
   "tur": "kaganlik",
   "bolge": "orta-asya",
   "f": "0552-01-01",
@@ -49,12 +46,12 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Otuken",
-  "etkin_bolge": "Mogolistan-Cungarya",
+  "baskent": "Ötüken",
+  "etkin_bolge": "Moğolistan, Cungarya, Orta Asya bozkırı",
   "sehirler": [
-   "Otuken"
+   "Ötüken"
   ],
-  "ozet": "Bumin'in 552'de Rouran'i yikmasi.",
+  "ozet": "Bumın'ın Juan-Juan (Rouran) devletini yıkıp bağımsız Göktürk Devleti'ni kurmasıyla (552) başlar; 582'de Batı kanadının (Tardu) bağımsızlık ilânıyla ikiye bölünür.",
   "oncul": [
    "rouran"
   ],
@@ -64,20 +61,19 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
-   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+   "TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"Türk\" md., 2012, https://islamansiklopedisi.org.tr/turk (Göktürk Devletleri bölümü) (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV: \"Bumın, Juan-Juan Devleti'ni yıkdı ve yerine bağımsız Göktürk Devleti kuruldu (552)\"; Batı kanadı 582 (Tardu). Kuruluş = Bumın'ın Rouran'ı yıkması.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "gokturk-1",
-   "not": "f/t uyumlu"
+   "not": "f/t TDV ile uyumlu."
   }
  },
  {
   "id": "dogu-gokturk",
-  "ad": "Dogu Gokturk Kaganligi (I)",
+  "ad": "Doğu Göktürk Kağanlığı (I)",
   "tur": "kaganlik",
   "bolge": "orta-asya",
   "f": "0582-01-01",
@@ -86,12 +82,12 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Otuken",
-  "etkin_bolge": "Mogolistan",
+  "baskent": "Ötüken",
+  "etkin_bolge": "Moğolistan",
   "sehirler": [
-   "Otuken"
+   "Ötüken"
   ],
-  "ozet": "582 bolunmesi; 630'da Tang'a teslim.",
+  "ozet": "582'de Batı kanadının ayrılmasından sonra Işbara ve haleflerinin yönettiği doğu kanadı; 630'da Tang ordularının yenmesiyle son bulur.",
   "oncul": [
    "gokturk-1"
   ],
@@ -100,34 +96,33 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
-   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+   "TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"Türk\" md., 2012, https://islamansiklopedisi.org.tr/turk (Göktürk Devletleri bölümü) (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV: \"630'da Doğu Göktürk Devleti Çinliler tarafından ortadan kaldırıldı\". Suy'a tâbilik 603-609 (Çi-min).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "dogu-gokturk",
-   "not": ""
+   "not": "f/t TDV ile uyumlu."
   }
  },
  {
   "id": "bati-gokturk",
-  "ad": "Bati Gokturk Kaganligi",
+  "ad": "Batı Göktürk Kağanlığı",
   "tur": "kaganlik",
   "bolge": "orta-asya",
-  "f": "0603-01-01",
-  "t": "0657-01-01",
+  "f": "0582-01-01",
+  "t": "0630-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Suyab / Mingbulak",
-  "etkin_bolge": "Yedisu, Sogdiana, Tokharistan",
+  "baskent": "bilinmiyor (bu oturumda okunmadı)",
+  "etkin_bolge": "Kuzey Afganistan, İran'ın kuzeydoğusu, Soğd şehirleri, Keşmir (TDV: Tardu ve T'ung Yabgu dönemleri)",
   "sehirler": [
-   "Suyab"
+   "—"
   ],
-  "ozet": "Tardu 582'de, kesin ayrilik 603; 657'de Tang.",
+  "ozet": "Tardu'nun 582'de doğudaki büyük kağanlıktan ayrılıp bağımsızlığını ilân etmesiyle kurulan batı kanadı; TDV'ye göre 630 dolaylarında Çin'e bağlı beyliklere ayrıldı.",
   "oncul": [
    "gokturk-1"
   ],
@@ -137,20 +132,20 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
-   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+   "TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"Türk\" md., 2012, https://islamansiklopedisi.org.tr/turk (Göktürk Devletleri bölümü) (bu oturumda okundu)",
+   "René Grousset, The Empire of the Steppes: A History of Central Asia, Rutgers University Press, 1970 (archive.org tam metin, bu oturumda okundu) — Ho-lu'nun (651-657) batı kağanlığını geçici olarak yeniden kurması ve 657 Borotala/Çu yenilgisi"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut 582-659; kaynak siralamasi Tardu/Dulu ayrim.",
+  "dogrulama": "okundu",
+  "ic_not": "TDV (esas): Tardu 582'de ayrıldı; \"630 yılına doğru ülkedeki huzursuzluklar... Batı Göktürk Devleti de Çin'e bağlı birçok beyliğe ayrıldı\" ve \"Her iki Göktürk Devleti 630'da Çin esaretine girmiş\". Taslak değeri: f=0603 (Çin okulu: Suy iç savaşı sonrası), t=0657. ÇELİŞKİ: Grousset 651-657 arası Aşina Helu ile batı kağanlığının yeniden kurulduğunu ve 657'de yenildiğini yazar; mevcut atlas künyesi 582-659. Kural gereği TDV esas alındı (t=630); 630-657/659 aralığı \"Çin himayesinde parçalı/yeniden kurulmuş\" olarak ayrıca modellenmeli.",
   "esleme": {
-   "durum": "var",
+   "durum": "var-f-t-farkli",
    "mevcut_id": "bati-gokturk",
-   "not": ""
+   "not": "Atlas künyesi 582-659; TDV t=630 (29 yıl fark), Grousset t=657. Künye sonu Emre/dönem oturumu kararı."
   }
  },
  {
   "id": "dogu-gokturk-2",
-  "ad": "Dogu Gokturk Kaganligi (II)",
+  "ad": "Doğu Göktürk Kağanlığı (II, İkinci Göktürk)",
   "tur": "kaganlik",
   "bolge": "orta-asya",
   "f": "0682-01-01",
@@ -159,12 +154,12 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Otuken",
-  "etkin_bolge": "Mogolistan",
+  "baskent": "Ötüken",
+  "etkin_bolge": "Moğolistan, Kuzey Çin sınırı",
   "sehirler": [
-   "Otuken"
+   "Ötüken"
   ],
-  "ozet": "Kutluk (Ilteris) 682'de; Uygurlar 745.",
+  "ozet": "Kutluğ'un (İlteriş Kağan) 682'de Ötüken'de Oğuzları yenip Göktürk Devleti'ni yeniden kurmasıyla başlar; 742-743 isyanları ve 745'te Uygur-Karluk-Basmıl ittifakıyla yıkılır.",
   "oncul": [
    "dogu-gokturk"
   ],
@@ -173,20 +168,20 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
-   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+   "TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"Türk\" md., 2012, https://islamansiklopedisi.org.tr/turk (Göktürk Devletleri bölümü) (bu oturumda okundu)",
+   "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Dokuz Oğuzlar\" md., 1994, https://islamansiklopedisi.org.tr/dokuz-oguzlar (\"Göktürk Devleti'nin sona ermesi üzerine (744)\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV Türk: kuruluş 682, \"745 yılında tamamen yıkıldılar\". TDV Dokuz Oğuzlar 744 verir (Uygur il teberi Köl Bilge'nin kağan unvanı). Seçim: 745 (Türk md.); 744 alternatif. Artakalanlar Çin'in kuzeyinde 941'e dek (TDV) — siyasî birim değil.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "dogu-gokturk-2",
-   "not": ""
+   "not": "f/t TDV ile uyumlu."
   }
  },
  {
   "id": "xueyantuo",
-  "ad": "Xueyantuo (Sir-Tardus)",
+  "ad": "Xueyantuo (Sir-Tarduş) Kağanlığı",
   "tur": "kaganlik",
   "bolge": "orta-asya",
   "f": "0627-01-01",
@@ -195,12 +190,12 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Tola",
-  "etkin_bolge": "K. Mogolistan",
+  "baskent": "Tola vadisi (Kuzey Moğolistan)",
+  "etkin_bolge": "Kuzey Moğolistan",
   "sehirler": [
-   "-"
+   "Tola vadisi"
   ],
-  "ozet": "Tang'a yenik.",
+  "ozet": "Doğu Göktürk'ün 630 çöküşünden sonra Töles boylarının oluşturduğu Sir-Tarduş birliği; 646'da Tang ve Uygur saldırısıyla yıkıldı, 648'de Çin'e bağlandı.",
   "oncul": [
    "tiele-gaoche"
   ],
@@ -209,19 +204,19 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+   "TDV İslâm Ansiklopedisi, Gülçin Çandarlıoğlu, \"Uygurlar\" md., 2012, https://islamansiklopedisi.org.tr/uygurlar (\"627-646 yılları arasında bağımsızlığını koruyan Sir Tarduş siyasî birliği\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV Uygurlar: Sir Tarduş 627-646 bağımsız, 648'de Çin'e bağlandı. Çin adı Xueyantuo (薛延陀).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "xueyantuo-kaganligi",
-   "not": ""
+   "not": "f/t TDV ile uyumlu; mevcut id xueyantuo-kaganligi."
   }
  },
  {
   "id": "turges",
-  "ad": "Turgis Kaganligi",
+  "ad": "Türgiş (Türgeş) Kağanlığı",
   "tur": "kaganlik",
   "bolge": "orta-asya",
   "f": "0699-01-01",
@@ -230,12 +225,14 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Suyab / Taraz",
-  "etkin_bolge": "Yedisu",
+  "baskent": "Suyab",
+  "etkin_bolge": "Yedisu, Çu-İli havzası, Taşkent-Fergana sınırı",
   "sehirler": [
-   "Suyab"
+   "Suyab",
+   "Talas",
+   "Tokmak"
   ],
-  "ozet": "Wuzhile 699; mevcut 717.",
+  "ozet": "On Ok içinde Türgiş boyunun üstünlüğüyle 699'da Ocirliq liderliğinde başlayan, Sulu (716-738) döneminde Arap karşısında güçlenen kağanlık; 766'da Karluk'un Tokmak ve Talas'ı almasıyla siyasî birliği sona erdi.",
   "oncul": [
    "bati-gokturk"
   ],
@@ -244,20 +241,22 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
-   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+   "Peter B. Golden, An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992 (archive.org golden_202303, tam metin, bu oturumda okundu) — On Oq'ta Türgeş liderliği (Ocirliq 699-706; Saqal 706-711, 708-709'da kağan)",
+   "W. Barthold, Turkestan Down to the Mongol Invasion, 2. bs., Luzac, 1928 (archive.org tam metin, bu oturumda okundu) — Sulu'nun krallığı Arap kaynaklarına göre 737, Çin kaynaklarına göre 738'e kadar",
+   "TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"Türk\" md., 2012, https://islamansiklopedisi.org.tr/turk (Göktürk Devletleri bölümü) (bu oturumda okundu) (\"766'da Türgiş siyasî birliği ortadan kalkınca\")",
+   "TDV İslâm Ansiklopedisi, Hüseyin Salman, \"Karluklar\" md., 2001, https://islamansiklopedisi.org.tr/karluklar (Kara Türgiş'in Tokmak ve Talas merkezlerinin Karluk'a geçmesi, 766) (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Wuzhile 699 (Tang kaynaklari) vs mevcut 717.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri f=0699 korundu: Golden Türgeş liderliğinin 699'da başladığını verir (Ocirliq). Mevcut atlas künyesi f=717 (Çin okulu: Sulu 716/717). Kuruluş = hangisi: 699 (On Oq içi liderlik) / 708-709 (kağan unvanı) / 716 (Sulu). Kararsız; atlas 717'yi korumak istenirse bu not. t=766 TDV (siyasî birlik sonu); Sulu'nun ölümü 738 (Çin) / 737 (Arap) ile Türgiş fiilen zayıfladı, \"Kara Türgiş\" kolu 766'ya dek sürdü.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "turges",
-   "not": "f 18 yil farki"
+   "not": "Atlas künyesi 717-766; kaynak okulu 699 (Golden) / 716-717 (Sulu). t uyumlu (TDV 766)."
   }
  },
  {
   "id": "karluk",
-  "ad": "Karluk Yabguluğu",
+  "ad": "Karluk Devleti (Yabgu → Kara-ordu)",
   "tur": "yabgu-devleti",
   "bolge": "orta-asya",
   "f": "0766-01-01",
@@ -266,12 +265,15 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Kara-ordu",
-  "etkin_bolge": "Balasagun",
+  "baskent": "Kara-ordu (Balasagun yakını)",
+  "etkin_bolge": "Isık Göl-Tarâz, sonra Taşkent, Fergana, Kâşgar",
   "sehirler": [
-   "-"
+   "Kara-ordu",
+   "Talas",
+   "Tokmak",
+   "Kâşgar"
   ],
-  "ozet": "Karluk Yabgusu; Karahanliya yol acar.",
+  "ozet": "Karlukların 742-745 isyanlarına katılıp Uygur kağanlığına sağ yabgu olduktan sonra, Kara Türgiş merkezlerini alarak 766'da Kara-ordu merkezli devlet kurmaları; 840'ta Uygur çöküşüyle Karahanlılar'a dönüşür.",
   "oncul": [
    "turges"
   ],
@@ -280,19 +282,19 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+   "TDV İslâm Ansiklopedisi, Hüseyin Salman, \"Karluklar\" md., 2001, https://islamansiklopedisi.org.tr/karluklar (\"766 yılında burada başşehri... Kara-ordu olan bir devlet kurdular\"; 840'ta Kara Han unvanı) (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV: kuruluş 766; 840'ta Bilge Kül Kadır Kağan \"Kara Han\" unvanını alıp Karahanlılar'a dönüşüm. Karahanlı kökeni (Karluk mu Yağma mı) TDV Karahanlılar md.'de tartışmalıdır.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "karluk",
-   "not": ""
+   "not": "f/t TDV ile uyumlu."
   }
  },
  {
   "id": "uygur",
-  "ad": "Uygur Kaganligi",
+  "ad": "Uygur Kağanlığı (Ötüken)",
   "tur": "kaganlik",
   "bolge": "orta-asya",
   "f": "0744-01-01",
@@ -301,12 +303,13 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Ordu-Balik",
-  "etkin_bolge": "Otuken",
+  "baskent": "Ordu-Balık (Ötüken)",
+  "etkin_bolge": "Moğolistan, Cungarya",
   "sehirler": [
-   "Ordu-Balik"
+   "Ordu-Balık",
+   "Ötüken"
   ],
-  "ozet": "Kutluk Bilge Kul 744; Kirgiz 840.",
+  "ozet": "Göktürk çöküşü üzerine Uygur il teberi Köl Bilge'nin kağan olmasıyla (744/745) kurulan; 840'ta Yenisey Kırgızlarının saldırısıyla yıkılan Maniheist kağanlık.",
   "oncul": [
    "dogu-gokturk-2"
   ],
@@ -316,34 +319,34 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
-   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+   "TDV İslâm Ansiklopedisi, Gülçin Çandarlıoğlu, \"Uygurlar\" md., 2012, https://islamansiklopedisi.org.tr/uygurlar (\"745 yılında Uygur yabgusu Basmıl kağanını yenilgiye uğratıp kendini kağan ilân etti\"; \"840 yılındaki Kırgız saldırısı\") (bu oturumda okundu)",
+   "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Dokuz Oğuzlar\" md., 1994, https://islamansiklopedisi.org.tr/dokuz-oguzlar (\"Göktürk Devleti'nin sona ermesi üzerine (744) Uygur il teberi Köl Bilge Kağan unvanını almış\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "İKİ TDV maddesi arası: Uygurlar md. 745, Dokuz Oğuzlar md. 744. Seçim 744 (atlas künyesiyle uyumlu, Kutluğ Bilge Köl unvanı); 745 alternatif. t=840 her iki TDV okuyuşunda aynı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "uygur-kaganligi",
-   "not": ""
+   "not": "f/t ≤1 yıl fark; uyumlu."
   }
  },
  {
   "id": "basmil",
-  "ad": "Basmil Konfederasyonu",
+  "ad": "Basmıl Kağanlığı",
   "tur": "konfederasyon",
   "bolge": "orta-asya",
   "f": "0742-01-01",
-  "t": "0760-01-01",
+  "t": "0745-01-01",
   "kesinlik": {
    "f": "yil",
-   "t": "onyil"
+   "t": "yil"
   },
-  "baskent": "Besbalik",
-  "etkin_bolge": "Turfan kuzeyi",
+  "baskent": "—",
+  "etkin_bolge": "Doğu Moğolistan-Cungarya (taslak)",
   "sehirler": [
-   "Besbalik"
+   "—"
   ],
-  "ozet": "742'de isyan, 744'te Gokturk kaganini oldurdu; Uygurlarca sonumlendi.",
+  "ozet": "Göktürk çöküşü sırasında (742) Uygur ve Karluklarla birlikte ayaklanan Basmılların idaresinde kurulan kısa ömürlü kağanlık; Uygur yabgusu Basmıl kağanını yenince (745) sona erdi.",
   "oncul": [
    "dogu-gokturk-2"
   ],
@@ -352,19 +355,19 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+   "TDV İslâm Ansiklopedisi, Gülçin Çandarlıoğlu, \"Uygurlar\" md., 2012, https://islamansiklopedisi.org.tr/uygurlar (\"742-743'te... Basmıl ve Uygur oymakları Göktürk Kağanı Ozmış'ı mağlûp ederek öldürdüler... Basmıllar'ın idaresinde yeni bir kağanlık kuruldu... 745 yılında Uygur yabgusu Basmıl kağanını yenilgiye uğratıp\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri t=0760. TDV Uygurlar: Basmıl kağanı 745'te Uygur yabgusu tarafından yenildi; bu nedenle t 745'e çekildi (kağanlık 742/743-745). Çin okulu 744 verebilir (okunmadı).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok; Uygur kağanlığı öncülü olarak ayrı polity."
   }
  },
  {
   "id": "gansu-uygur",
-  "ad": "Gansu (Ganzhou) Uygur Krallıgi — Sari Uygurlar",
+  "ad": "Gansu (Kançou / Sarı) Uygur Krallığı",
   "tur": "krallik",
   "bolge": "dogu-asya",
   "f": "0894-01-01",
@@ -373,12 +376,13 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Ganzhou",
-  "etkin_bolge": "Hexi koridoru",
+  "baskent": "Ganzhou (Kan-chou)",
+  "etkin_bolge": "Hexi koridoru: Ganzhou çevresi",
   "sehirler": [
-   "Ganzhou"
+   "Ganzhou (Kan-chou)",
+   "Dunhuang (911'de alındı)"
   ],
-  "ozet": "Uygurlarin Hexi kolu.",
+  "ozet": "840 Kırgız saldırısından sonra Kansu'ya göçen Uygurların Kan-chou (Ganzhou) etrafında kurduğu devlet; Çin kaynakları 939'a kadar kağanlarını anar, 1028'den itibaren Tangut nüfuzuna girdi.",
   "oncul": [
    "uygur"
   ],
@@ -387,19 +391,19 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+   "TDV İslâm Ansiklopedisi, Gülçin Çandarlıoğlu, \"Uygurlar\" md., 2012, https://islamansiklopedisi.org.tr/uygurlar (\"Kan-chou şehrinde yeni bir Uygur Devleti kurdu... 911'de Tegin kumandasındaki Uygur ordusu... Tun-huang'ı ele geçirdi\"; \"939 yılına kadar sülâle yıllıklarında\"; \"1028'den itibaren Tangutlar'ın\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Tangut'a dusus 1036.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV f ve t için yıl vermez (840 göçü; 911 Dunhuang; 939 son anılan kağan; 1028 Tangut nüfuzu). Taslak değerleri f=0894, t=1036 CIN_D ganzhou-uygur kaydıyla birebir aynıdır (kaynağı bu oturumda okunmadı). MÜKERRER: CIN_D.json ganzhou-uygur (0894-1036) ile aynı polity — birleştirmede tek kayıt kalmalı, CIN kaydı esas.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlas çekirdeğinde yok; CIN_D ganzhou-uygur ile mükerrer."
   }
  },
  {
   "id": "hazar",
-  "ad": "Hazar Kaganligi",
+  "ad": "Hazar Kağanlığı",
   "tur": "kaganlik",
   "bolge": "sibirya-bozkir",
   "f": "0630-01-01",
@@ -408,13 +412,14 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Belencer -> Itil",
-  "etkin_bolge": "Asagi Volga-Kuzey Kafkasya",
+  "baskent": "Belencer → İtil",
+  "etkin_bolge": "Hazar Denizi kuzeyi, Kuzey Kafkasya, Aşağı İdil-Don, Kırım bozkırı",
   "sehirler": [
    "Belencer",
-   "Itil"
+   "İtil",
+   "Sarkel"
   ],
-  "ozet": "Bati Gokturk'ten ayrilis.",
+  "ozet": "Batı Göktürk'ün dağılması üzerine 630'da bağımsızlığını ilân eden; Büyük Bulgaristan'ı yıkıp Doğu Avrupa bozkırına hâkim olan; 965'te Rus baskısı ve hakanın Hârizm'e sığınmasıyla çöken kağanlık.",
   "oncul": [
    "bati-gokturk"
   ],
@@ -423,20 +428,19 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+   "TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"Hazarlar\" md., 1998, https://islamansiklopedisi.org.tr/hazarlar (\"Hazarlar bağımsızlıklarını ilân ettiler (630)\"; \"965'te hakanın Hârizmliler'e sığınması\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV: bağımsızlık 630; Büyük Bulgar 665 sonrası yıkıldı; son 965 (hakanın Hârizm'e sığınması). Rus (Svyatoslav) seferi 965-969 arası tartışmalıdır; TDV 965'i verir. 8. yy Yahudi hakan dönemi ic_not dışı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "hazar-kaganligi",
-   "not": ""
+   "not": "f/t TDV ile uyumlu."
   }
  },
  {
   "id": "kutrigur",
-  "ad": "Kutrigurlar",
+  "ad": "Kutrigurlar (Kutrigur Hun-Bulgar Birliği)",
   "tur": "konfederasyon",
   "bolge": "dogu-avrupa",
   "f": null,
@@ -446,11 +450,11 @@
    "t": "belirsiz"
   },
   "baskent": "yok",
-  "etkin_bolge": "Karadeniz kuzeybatisi",
+  "etkin_bolge": "Karadeniz kuzeyi bozkırı",
   "sehirler": [
    "-"
   ],
-  "ozet": "6. yy Bizans kaynaklarinda Hun artigi birlik.",
+  "ozet": "Bizans kaynaklarında anılan Hun-Bulgar birliği (Kutrigur); Golden'e göre Avarlar Pannonia'ya kaçarken Kutrigur unsurlarını da yanlarında götürdü.",
   "oncul": [
    "hun-avrupa"
   ],
@@ -459,19 +463,19 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+   "Peter B. Golden, An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992 (archive.org golden_202303, tam metin, bu oturumda okundu) — Kutrigurlar ve Avarların Pannonia'ya göçü (Hun-Bulgar bölümü)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Siyasi birim mi etnik ad mi? f/t yok.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f/t kaynakta tarihlenemedi (null kaldı). MÜKERRER/ÇAKIŞMA: ORTAAV_D kutrigur-hanligi (0500-0600) aynı birlik. Siyasî birim mi etnik ad mı: Bizans kaynakları \"kağan\"lı ayrı birlik olarak anar; yine de kalıcı devlet değil.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok; ORTAAV_D kutrigur-hanligi ile mükerrer."
   }
  },
  {
   "id": "utigur",
-  "ad": "Utigurlar",
+  "ad": "Utigurlar (Utigur Hun-Bulgar Birliği)",
   "tur": "konfederasyon",
   "bolge": "dogu-avrupa",
   "f": null,
@@ -481,11 +485,11 @@
    "t": "belirsiz"
   },
   "baskent": "yok",
-  "etkin_bolge": "Don-Azak",
+  "etkin_bolge": "Karadeniz kuzeyi bozkırı",
   "sehirler": [
    "-"
   ],
-  "ozet": "Kutrigur'un dogu komsusu.",
+  "ozet": "Kutrigurlarla birlikte anılan Hun-Bulgar birliği; Göktürk egemenliğine girdi (Menander'dan aktaran Golden).",
   "oncul": [
    "hun-avrupa"
   ],
@@ -494,19 +498,19 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+   "Peter B. Golden, An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992 (archive.org golden_202303, tam metin, bu oturumda okundu) — \"The Ut(r)igurs came under Türk rule\" (Menander atfı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f/t kaynakta tarihlenemedi (null). MÜKERRER/ÇAKIŞMA: ORTAAV_D utigur-hanligi (0500-0600).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok; ORTAAV_D utigur-hanligi ile mükerrer."
   }
  },
  {
   "id": "sabir",
-  "ad": "Sabirler (Savirler)",
+  "ad": "Sabirler (Sabir Hun Birliği)",
   "tur": "konfederasyon",
   "bolge": "dogu-avrupa",
   "f": null,
@@ -515,12 +519,12 @@
    "f": "belirsiz",
    "t": "belirsiz"
   },
-  "baskent": "Varachan",
-  "etkin_bolge": "Kuzey Kafkasya (Dagistan)",
+  "baskent": "yok",
+  "etkin_bolge": "Kuzey Kafkasya (Derbent çevresi), Hazar kuzeyi",
   "sehirler": [
    "Varachan"
   ],
-  "ozet": "6. yy Bizans-Sasani kaynaklarinda Hun/Sabir birligi.",
+  "ozet": "V-VI. yüzyıllarda Kuzey Kafkasya ve Hazar kuzeyinde Hun kökenli birlik; Bizans-Sasanî savaşlarında yardımcı güç.",
   "oncul": [
    "hun-avrupa"
   ],
@@ -529,10 +533,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+   "[aday kaynak, açılmadı] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "ic_not": "Hafızadan; bu oturumda ayrı bir okuma yapılmadı. f/t yok (null); siyasî birim mi etnik ad mı belirsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -541,21 +545,21 @@
  },
  {
   "id": "avar",
-  "ad": "Avar Kaganligi",
+  "ad": "Avar Kağanlığı (Pannonia)",
   "tur": "kaganlik",
   "bolge": "dogu-avrupa",
   "f": "0567-01-01",
-  "t": "0822-01-01",
+  "t": "0805-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Pannonia (Ring)",
-  "etkin_bolge": "Pannonia",
+  "baskent": "Ring (Pannonia)",
+  "etkin_bolge": "Pannonia (Tisza-Tuna havzası), Balkanlar'a akın",
   "sehirler": [
-   "-"
+   "Ring"
   ],
-  "ozet": "Avarlar 558'de Kafkasya'ya, 567'de Pannonia'ya.",
+  "ozet": "Göktürk baskısıyla Pannonia'ya gelen Avarların Lombardlarla Gepidleri yıkıp (567-568) kurduğu kağanlık; Frank seferleriyle (791-796) çöktü, 805'te kağanlık Karlmagn'a tâbi bir unsur olarak kaldı.",
   "oncul": [
    "rouran?"
   ],
@@ -564,19 +568,20 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+   "Peter B. Golden, An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992 (archive.org golden_202303, tam metin, bu oturumda okundu) — 567-568 Gepidlerin Pannonia'dan çıkarılması; \"In the last decade of the 8th century, they [Franks] destroyed the Avar state\"",
+   "René Grousset, The Empire of the Steppes: A History of Central Asia, Rutgers University Press, 1970 (archive.org tam metin, bu oturumda okundu) — 791/795/796 Ring'in alınması, 803 Zodan'ın teslimi, 805 kağan Theodore Karlmagn'a tâbi"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut orta-avrupa kaydi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f=567 (Golden 567-568) okundu. t: taslak/mevcut künye 822 (Frank sarayına son Avar elçileri) bu oturumda kaynakta OKUNMADI; Grousset 796 (Ring'in yıkılışı) ve 805 (Theodore, tâbi kağan) verir, Golden devletin 8. yy son on yılında yıkıldığını söyler. t=805 (tâbi kağanlık dönemi dahil) alındı; 796 en sıkı sınırdır. TDV \"Avarlar\" md. Dağıstan Avarlarını anlatır (Pannonia ile ilgisiz; \"Avar Hakanlığı 558-805\" ibaresi orada yalnız anılmıştır). ANAKAF_D sarir (Avar krallığı, Dağıstan) ayrı polity.",
   "esleme": {
-   "durum": "var",
+   "durum": "var-f-t-farkli",
    "mevcut_id": "avar",
-   "not": ""
+   "not": "Atlas künyesi 567-822; kaynaklar t=796-805 (17-26 yıl kısa). \"Devlet öldüyse dönemi kısalt\" ilkesi: künye kısaltılmalı."
   }
  },
  {
   "id": "buyuk-bulgaristan",
-  "ad": "Buyuk Bulgaristan (Kubrat)",
+  "ad": "Büyük Bulgaristan (Kubrat)",
   "tur": "kabile-devleti",
   "bolge": "dogu-avrupa",
   "f": "0635-01-01",
@@ -586,11 +591,11 @@
    "t": "yil"
   },
   "baskent": "Phanagoria",
-  "etkin_bolge": "Kuban",
+  "etkin_bolge": "Kuzey Karadeniz-Azak bozkırı, Kuban-Dinyeper arası",
   "sehirler": [
    "Phanagoria"
   ],
-  "ozet": "Kubrat 635 civari.",
+  "ozet": "Kubrat'ın 635'te Batı Göktürk vesayetinden çıkıp kurduğu Bulgar devleti; 665 sonrasında Hazarlar tarafından yıkıldı ve Bulgar grupları Tuna ve İdil'e dağıldı.",
   "oncul": [
    "onogur"
   ],
@@ -600,88 +605,87 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+   "TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"Hazarlar\" md., 1998, https://islamansiklopedisi.org.tr/hazarlar (\"Büyük Bulgar (Magna Bulgaria) Türk Devleti kuruldu (635)... 665 yılından sonra Hazarlar tarafından yıkıldı\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Patrik Nikephoros.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV: kuruluş 635; yıkılış \"665 yılından sonra\". Mevcut künye t=680 (Kubrat'ın oğullarının dağılması / Asparuh Tuna'sı), TDV ile 15 yıl aralık — \"665 sonrası\" kesin yıl değildir. f TDV ile uyumlu.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "buyuk-bulgaristan",
-   "not": ""
+   "not": "f uyumlu; t=680 TDV \"665 sonrası\" ile çelişmiyor (≤25 yıl)."
   }
  },
  {
   "id": "kimek",
-  "ad": "Kimek Kaganligi",
+  "ad": "Kimek Kağanlığı (İrtiş)",
   "tur": "kaganlik",
   "bolge": "sibirya-bozkir",
-  "f": "0800-01-01",
-  "t": "1050-01-01",
+  "f": "0850-01-01",
+  "t": null,
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "onyil"
+   "f": "onyil",
+   "t": "belirsiz"
   },
-  "baskent": "Imekiya (Irtis)",
-  "etkin_bolge": "Irtis-Ob arasi",
+  "baskent": "Yemekiye (yazlık)",
+  "etkin_bolge": "Yukarı İrtiş, Tobol'a kadar batı Sibirya bozkırı",
   "sehirler": [
-   "-"
+   "Yemekiye"
   ],
-  "ozet": "Gerdizi'ye gore Yemek/Kimek birligi; Kipcaklar cikar.",
+  "ozet": "Uygur çöküşü (840) sonrası Batı Sibirya bozkırında ~850'den itibaren öne çıkan, hükümdarı \"hakan\" unvanlı yedi boylu birlik; XI. yüzyılda Kimek adı kalkıp Yemek ve Kıpçak adlarına bölündü.",
   "oncul": [],
   "ardil": [
    "kipcak"
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+   "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Kimek\" md., 2002, https://islamansiklopedisi.org.tr/kimek (\"IX ve X. yüzyıllarda İrtiş boylarında yaşayan\"; \"XI. yüzyılda Kimek adı ortadan kalkmış\") (bu oturumda okundu)",
+   "Peter B. Golden, An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992 (archive.org golden_202303, tam metin, bu oturumda okundu) — \"after ca. 850 came to dominate the Western Siberian steppes\"; Gardizi: başı Yinal yabgu"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yuzyil duzeyi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değerleri f=0800, t=1050 (yüzyıl düzeyi, kaynaksız) kaldırıldı: Golden ~850'yi verir (onyıl, kendi çekincesiyle \"highly problematic\"); t için TDV yalnız \"XI. yüzyılda ad kalktı\" der (yıl yok → null). Kimek bir \"hakan\"lı birlik ama sınırı belirsiz; kalıcı devlet niteliği tartışmalı. TDV Kıpçaklar md. Kimek-Kıpçak ilişkisi.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok."
   }
  },
  {
   "id": "oguz-yabgu",
-  "ad": "Oguz Yabgu Devleti",
+  "ad": "Oğuz Yabgu Devleti",
   "tur": "yabgu-devleti",
   "bolge": "orta-asya",
-  "f": "0750-01-01",
-  "t": "1050-01-01",
+  "f": null,
+  "t": null,
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "onyil"
+   "f": "belirsiz",
+   "t": "belirsiz"
   },
-  "baskent": "Yengi-kent",
-  "etkin_bolge": "Aral-Seyhun asagi kesimi",
+  "baskent": "bilinmiyor (bu oturumda okunmadı)",
+  "etkin_bolge": "Aşağı Seyhun, Aral Gölü çevresi, Mangışlak, İdil'e dek",
   "sehirler": [
-   "Yengi-kent",
-   "Cend"
+   "—"
   ],
-  "ozet": "Oguz yabgulari; Selcuklu cikisi.",
+  "ozet": "Başında \"yabgu\" unvanlı hükümdarların bulunduğu, Seyhun-Aral-Mangışlak bozkırındaki Oğuz devleti; X. yüzyılın ilk yarısında bağımsız ve güçlü, XI. yüzyılın ortasında Selçuklu göçleri ve Kıpçak baskısıyla dağıldı.",
   "oncul": [],
   "ardil": [
    "selcuklu"
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+   "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Oğuzlar\" md., 2007, https://islamansiklopedisi.org.tr/oguzlar (\"Oğuz Yabgu Devleti X. yüzyılın birinci yarısında bağımsız ve güçlü bir devletti\"; yıkılış hakkında kaynak yok, 1003 öncesi yıkılmış olabileceği ve Kıpçak (1030'lar) görüşü) (bu oturumda okundu)",
+   "Peter B. Golden, An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992 (archive.org golden_202303, tam metin, bu oturumda okundu) — Selçuklular 1030'larda Oğuz yabgusu Şahmalik'e yenildi"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yuzyil duzeyi; Ibn Fadlan 922'de.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değerleri f=0750, t=1050 kaynaksızdı; TDV yıl vermediği için null'a çekildi. TDV: \"yıkılışı hakkında kaynaklarda bilgi bulunmamakta\"; bir görüş 1003 öncesi iç çekişmeyle, öteki ~1030 Kıpçak baskısıyla. Golden (Selçuklu) 1030'larda Şahmalik'i \"Oğuz yabgusu\" olarak anar → t en az ~1040. Başkent bu oturumda okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok; Selçuklu atlas kaydı ayrı polity."
   }
  },
  {
   "id": "kirgiz-yenisey",
-  "ad": "Yenisey Kirgiz Kaganligi",
+  "ad": "Yenisey Kırgız Kağanlığı (Ötüken dönemi) — MÜKERRER",
   "tur": "kaganlik",
   "bolge": "sibirya-bozkir",
   "f": "0840-01-01",
@@ -704,20 +708,19 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)",
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+   "TDV İslâm Ansiklopedisi, İsmail Türkoğlu, \"Kırgızlar\" md., 2019, https://islamansiklopedisi.org.tr/kirgizlar (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcutta mukerrer: kirgiz-yenisey (orta-asya 840-920) ve yenisey-kirgiz (sibirya-bozkir 840-1207).",
+  "dogrulama": "okundu",
+  "ic_not": "MÜKERRER: aynı polity `yenisey-kirgiz` (sibirya-bozkir 0840-1207) ile. TDV Kırgızlar md.: \"840'ta... Uygur Devleti'ni yıkarak Ötüken'de kendi hâkimiyetlerini kurdular, fakat burada fazla kalamadılar. 920'de... K'i-tanlar, Kırgızlar'ı Ötüken bölgesinden çıkarıp eski yurtlarına sürdüler... Cengiz Han... (1207)\". 840-920 yalnız Ötüken hâkimiyeti evresidir; devlet Yenisey'de 1207'ye dek sürer. Öneri: tek kayıt `yenisey-kirgiz` (0840-1207), `kirgiz-yenisey` kaldırılsın.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "kirgiz-yenisey",
-   "not": "MUKERRER cifti"
+   "not": "MÜKERRER çifti: yenisey-kirgiz."
   }
  },
  {
   "id": "kurykan",
-  "ad": "Kurykanlar (Gulikan)",
+  "ad": "Kurıkanlar (Kurykan, Gulikan)",
   "tur": "boylar-birligi",
   "bolge": "sibirya-bozkir",
   "f": null,
@@ -727,46 +730,45 @@
    "t": "belirsiz"
   },
   "baskent": "yok",
-  "etkin_bolge": "Baykal cevresi",
+  "etkin_bolge": "Baykal çevresi (güneyi)",
   "sehirler": [
    "-"
   ],
-  "ozet": "Orhon yazitlarinda Kurikan; Yakut ataları arasinda savunulur.",
+  "ozet": "Orhon yazıtlarında anılan, Çin kaynaklarında Ku-li-kan (Tiele boylarından); Yakut atalarından sayılır.",
   "oncul": [],
   "ardil": [
    "yakut"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+   "Peter B. Golden, An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992 (archive.org golden_202303, tam metin, bu oturumda okundu) — Quriqan = Chin. Ku-li-kan, Tiele boylarından; Baykal yönünde Göktürk komşusu"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil yok; siyasi birim mi etnik ad mi belirsiz.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f/t YOK (kaynakta tarihlenmiyor). Siyasî birim değil, Tiele boy adı; \"siyasî birim değilse hariç\" ilkesi gereği elenmesi önerilir (kayıt tutuldu, karar ana oturumda).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok; birim niteliği zayıf."
   }
  },
  {
   "id": "buhara-hudat",
-  "ad": "Buhara Hudatlari (Bukhar Khudat)",
+  "ad": "Buhara Hudâtları (Buhar-hudât)",
   "tur": "sehir-devleti",
   "bolge": "orta-asya",
   "f": null,
-  "t": "0874-01-01",
+  "t": null,
   "kesinlik": {
    "f": "belirsiz",
-   "t": "yil"
+   "t": "belirsiz"
   },
-  "baskent": "Buhara",
-  "etkin_bolge": "Buhara vahasi",
+  "baskent": "Buhara (Numicket)",
+  "etkin_bolge": "Buhara vahası",
   "sehirler": [
    "Buhara",
-   "Ramitan",
-   "Vardana"
+   "Varahşa"
   ],
-  "ozet": "Sogd yerel hanedani; Samani Ismail 874'te Buhara'yi aldi.",
+  "ozet": "Soğd kökenli yerel hükümdar hanedanı; 627 tarihli Çin kaynağına göre 22 batındır hüküm sürmekteydi; Arap fethinden (674, 706-709) sonra yerel hâkimiyeti Abbâsî-Sâmânî dönemine dek azalarak sürdü.",
   "oncul": [
    "kangju"
   ],
@@ -775,35 +777,35 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998",
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+   "TDV İslâm Ansiklopedisi, Ramazan Şeşen, \"Buhara\" md., 1992, https://islamansiklopedisi.org.tr/buhara (\"627 yılında atalarının yirmi iki batından beri\"; Bîdûn Hatun 674; Tuğşâde 710-739; Bünyât Mehdî devrinde idam; \"Buharhudâtlar şehrin idaresindeki önem...\") (bu oturumda okundu)",
+   "W. Barthold, Turkestan Down to the Mongol Invasion, 2. bs., Luzac, 1928 (archive.org tam metin, bu oturumda okundu) — Sâmânî İsmâil'in Buharhudâtların mülklerini satın alması"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null; t yaklasik.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri t=0874 kaynakta OKUNMADI, kaldırıldı. TDV: Tuğşâde 710'da Kuteybe tarafından atandı, ağustos 739'da Nasr b. Seyyâr ordugâhında öldürüldü; oğlu Kuteybe öldürüldü (Ebû Müslim dönemi), kardeşi Bünyât Halife Mehdî (775-785) döneminde idam edildi; ardından Buharhudâtlar yalnız yerel nüfuz sahibi oldu. Bağımsız siyasî birim olarak son yıl yok: 674 vergi antlaşması, 706-709 Arap garnizonu. f: 627 yalnız \"22 batın\" anısı (kuruluş tarihi değil).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok; Sâmânîler atlasta var, ardıl değil (yerel hanedan)."
   }
  },
  {
   "id": "semerkant-ihsid",
-  "ad": "Semerkant (Sogd) Ihsidleri",
+  "ad": "Semerkant Soğd İhşîdleri (Gûrek)",
   "tur": "sehir-devleti",
   "bolge": "orta-asya",
-  "f": null,
-  "t": "0739-01-01",
+  "f": "0710-01-01",
+  "t": "0738-01-01",
   "kesinlik": {
-   "f": "belirsiz",
+   "f": "onyil",
    "t": "yil"
   },
-  "baskent": "Afrasiab",
-  "etkin_bolge": "Zerafsan vadisi",
+  "baskent": "Semerkant (Afrasiyab)",
+  "etkin_bolge": "Soğdiyana: Semerkant, Pencikent, Keş, Nahşeb",
   "sehirler": [
    "Semerkant",
-   "Panjikent"
+   "Pencikent"
   ],
-  "ozet": "Varhuman, Tarhun, Gurek; Kuteybe 712 fethi.",
+  "ozet": "Soğd İhşîdi Gûrek'in (ca. 710-738) Arap tâbiiyetini kabul edip 735'te Türgişlerle isyan ederek Semerkant'ı geri aldığı yerel hanedan; Gûrek'in ve Türgiş Sulu'nun ölümünden (738) sonra Arap yönetimi pekişti.",
   "oncul": [
    "kangju"
   ],
@@ -812,20 +814,21 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998",
-   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+   "René Grousset, The Empire of the Steppes: A History of Central Asia, Rutgers University Press, 1970 (archive.org tam metin, bu oturumda okundu) — \"Ghurek, king of Samarkand (ca. 710-739)... Chinese aid against his new masters (719, 731)\"",
+   "TDV İslâm Ansiklopedisi, Osman Aydınlı, \"Semerkant\" md., 2009, https://islamansiklopedisi.org.tr/semerkant (\"Semerkant 117'de (735)... Gûrek'in eline geçti\"; \"120 (738)... Sulu ve Soğd İhşîdi Gûrek'in ardı ardına ölümleri\") (bu oturumda okundu)",
+   "W. Barthold, Turkestan Down to the Mongol Invasion, 2. bs., Luzac, 1928 (archive.org tam metin, bu oturumda okundu) — 718 tarihli Gûrek'in Çin imparatoruna mektubu"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null; Gurek olumu 738/739.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri t=0739. TDV Gûrek'in ölümünü 120/738 verir; Grousset 739. t=738 (TDV). f=710 yalnız \"ca.\" (Grousset); Soğd İhşîd hanedanı daha eskidir (Kang-guo, 5. yy+), kuruluş yılı bu oturumda OKUNMADI. 706-715 Kuteybe fethi ile Semerkant 712'de alındı; Gûrek vasal olarak hüküm sürdü.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok."
   }
  },
  {
   "id": "cac-tudun",
-  "ad": "Cac (Tashkent) Tudunlugu",
+  "ad": "Çaç (Taşkent) Tudunluğu",
   "tur": "sehir-devleti",
   "bolge": "orta-asya",
   "f": null,
@@ -834,12 +837,12 @@
    "f": "belirsiz",
    "t": "yuzyil"
   },
-  "baskent": "Cac",
-  "etkin_bolge": "Tashkent vahasi",
+  "baskent": "Çaç (Taşkent)",
+  "etkin_bolge": "Taşkent vahası (Çaç)",
   "sehirler": [
    "Tashkent"
   ],
-  "ozet": "Bati Turk vasali Cac Tudunu; Talas sonrasi Arap.",
+  "ozet": "Çaç (Taşkent) vahasında Batı Göktürk döneminde yerel tudun unvanlı hükümdarlar (taslak; bu oturumda okunmadı).",
   "oncul": [
    "kangju"
   ],
@@ -848,10 +851,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998"
+   "[aday kaynak, açılmadı] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "ic_not": "Hafızadan; bu oturumda ayrı bir okuma yapılmadı. TDV Karluklar Taşkent'in Karluk'a geçtiğini söyler (IX. yy). f null; t=750 taslak.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -860,7 +863,7 @@
  },
  {
   "id": "usrusana-afsin",
-  "ad": "Usrusana Afsinleri",
+  "ad": "Üsrûşana Afşinleri",
   "tur": "emirlik",
   "bolge": "orta-asya",
   "f": null,
@@ -870,11 +873,11 @@
    "t": "yil"
   },
   "baskent": "Bunjikat",
-  "etkin_bolge": "Zerafsan ustu",
+  "etkin_bolge": "Üsrûşana (Zerafşan yukarı, Fergana-Semerkant arası)",
   "sehirler": [
    "Bunjikat"
   ],
-  "ozet": "Afsin Karahan; Samani 893.",
+  "ozet": "Üsrûşana'da yerel Afşin hanedanı; Sâmânî fethiyle (893) sona erdiği taslak olarak yazılmıştır (bu oturumda okunmadı).",
   "oncul": [
    "kangju"
   ],
@@ -883,11 +886,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde",
-   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998"
+   "[aday kaynak, açılmadı] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde",
+   "[aday kaynak, açılmadı] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "ic_not": "Hafızadan; bu oturumda ayrı bir okuma yapılmadı. t=893 Sâmânî fethi taslak (TDV Sâmânîler md.'sinde aranmadı). f null.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -896,7 +899,7 @@
  },
  {
   "id": "koco-uygur",
-  "ad": "Koco Uygur Idikutlar",
+  "ad": "Koço (Turfan) Uygur Devleti — İdikutlar",
   "tur": "devlet",
   "bolge": "orta-asya",
   "f": "0911-01-01",
@@ -905,13 +908,14 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Koco",
-  "etkin_bolge": "Turfan",
+  "baskent": "Koço (yazlık) · Beşbalık (kışlık)",
+  "etkin_bolge": "Turfan çukuru, Beşbalık, Kuça-Karaşar",
   "sehirler": [
-   "Koco",
-   "Besbalik"
+   "Koço",
+   "Beşbalık",
+   "Turfan"
   ],
-  "ozet": "Uygur 840 sonrasi.",
+  "ozet": "840'tan sonra Doğu Türkistan'a göçen Uygurların 911'de bağımsız hale gelen; Karahıtay vasalı iken 1209'da Cengiz Han'a bağlanan, bir ölçüde 1368'e dek Moğol idaresinde sürdüren devleti.",
   "oncul": [
    "uygur"
   ],
@@ -920,20 +924,19 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
-   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+   "TDV İslâm Ansiklopedisi, Gülçin Çandarlıoğlu, \"Uygurlar\" md., 2012, https://islamansiklopedisi.org.tr/uygurlar (\"911'de bağımsız hale gelen Uygur Devleti\"; \"Turfan Uygur Devleti 1209'da Cengiz Han'a bağlanıp 1368 yılına kadar Moğol idaresinde varlığını sürdürdü\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV Uygurlar: bağımsızlık 911, Cengiz'e tâbilik 1209; devlet 1368'e dek Moğol idaresinde. TDV Türk md. Koço Uygur için 850-1250 verir (başlangıç = göç yılı 840/850; son = Moğol idaresi sonu) — çelişki iki ucu da farklı olay sayar; atlas künyesi bağımsızlığa göre 911-1209.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "koco-uygur",
-   "not": ""
+   "not": "f/t TDV (Uygurlar) ile uyumlu."
   }
  },
  {
   "id": "gaochang",
-  "ad": "Gaochang (Turfan) — Qu Hanedani",
+  "ad": "Gaochang Krallığı (Qu hanedanı)",
   "tur": "krallik",
   "bolge": "orta-asya",
   "f": "0501-01-01",
@@ -942,12 +945,13 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Gaochang",
-  "etkin_bolge": "Turfan",
+  "baskent": "Gaochang (Koço)",
+  "etkin_bolge": "Turfan çukuru",
   "sehirler": [
-   "Gaochang"
+   "Gaochang",
+   "Jiaohe"
   ],
-  "ozet": "Qu Jia 499/501.",
+  "ozet": "Turfan çukurunda Çinli Qu hanedanının yönettiği vaha krallığı; 640'ta Tang'ın fethiyle bitti.",
   "oncul": [
    "cheshi-onkrallik"
   ],
@@ -956,19 +960,19 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+   "TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"Turfan\" md., 2012, https://islamansiklopedisi.org.tr/turfan (Kao-ch'ang adının kökeni; MÖ I. yy. Kao-ch'ang-pi kalesi; Kanklı/Töles birliği 460-492) (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV Turfan md. bölgenin tarihini ve Kao-ch'ang adını verir ama Qu hanedanının yıl sınırlarını (taslak f=0501, t=0640) vermez; bu iki değer bu oturumda kaynakta OKUNMADI.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "gaochang",
-   "not": ""
+   "not": "f/t atlasla aynı; kaynak okunmadı."
   }
  },
  {
   "id": "alania",
-  "ad": "Alan Krallıgi (Alania)",
+  "ad": "Alan (Alania) Krallığı",
   "tur": "krallik",
   "bolge": "kafkasya",
   "f": "0850-01-01",
@@ -977,12 +981,12 @@
    "f": "yuzyil",
    "t": "yil"
   },
-  "baskent": "Maghas",
+  "baskent": "bilinmiyor (taslak: Maas)",
   "etkin_bolge": "Kuzey Kafkasya",
   "sehirler": [
-   "Maghas"
+   "—"
   ],
-  "ozet": "Hazar etkisinden sonra kurulan Hristiyan Alan krallıgi; Moğollar 1239'da yikti.",
+  "ozet": "Kuzey Kafkasya'da Alanların krallığı (atlas künyesine göre 850'den); sonu bu oturumda kaynakta okunmadı.",
   "oncul": [
    "alan"
   ],
@@ -991,19 +995,19 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+   "[aday kaynak, açılmadı] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f yuzyil duzeyi tahmin (IX-X. yy); KAFKASYA ile cakisma.",
+  "ic_not": "Hafızadan; kaynak OKUNMADI (TDV'de ayrı madde yok; Golden Alania'yı yalnız geçerken anıyor). f/t taslak. Atlas künyesi alania-krallik 0850-1090: t için atlas künyesi 1090, taslak 1239 — Moğol istilâsına dek mi Selçuklu/Gürcü çağında mı bitti, ANAKAF/KAFKAS araştırmasıyla netleştirilmeli.",
   "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "alania-krallik",
+   "not": "Atlasta var (alania-krallik, kafkasya, 0850-1090); f aynı, t 149 yıl farkli. İlk taslak yanlışlıkla eksik demişti."
   }
  },
  {
   "id": "pecenek",
-  "ad": "Pecenek Konfederasyonu",
+  "ad": "Peçenek Konfederasyonu",
   "tur": "bozkir-konfederasyonu",
   "bolge": "dogu-avrupa",
   "f": "0889-01-01",
@@ -1013,11 +1017,11 @@
    "t": "yil"
   },
   "baskent": "yok",
-  "etkin_bolge": "Dinyeper-Tuna bozkiri",
+  "etkin_bolge": "Güney Rusya bozkırı, Aşağı Tuna",
   "sehirler": [
-   "-"
+   "—"
   ],
-  "ozet": "Hazar-Oguz baskisiyla 889 civarinda bati bozkirina.",
+  "ozet": "Hazar-Oğuz ittifakının 889'da İdil batısına sürdüğü Peçeneklerin Güney Rusya ve Tuna kuzeyinde kurduğu konfederasyon; 29 Nisan 1091 yenilgisiyle siyasî ve askerî güç olarak önemini yitirdi.",
   "oncul": [
    "kangli"
   ],
@@ -1026,20 +1030,19 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+   "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Peçenekler\" md., 2007, https://islamansiklopedisi.org.tr/pecenekler (\"Peçenekler'e hücum edip (276/889) onları İdil'in batısına geçmeye mecbur bıraktılar\"; \"29 Nisan 1091\" (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut dogu-avrupa kaydi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV: 889 (276 h.) İdil batısına sürülüş; 1091 yenilgisinden sonra \"siyasî ve askerî bir güç olarak önemleri kayboldu\" (f=889 aslında göçün başlangıcı; konfederasyonun kuruluşu daha eskidir). t=1122 bu oturumda kaynakta okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "pecenek-konfederasyonu",
-   "not": ""
+   "not": "f uyumlu (889); t atlas 1122, TDV güç kaybı 1091."
   }
  },
  {
   "id": "idil-bulgar",
-  "ad": "Idil (Volga) Bulgar Hanligi",
+  "ad": "İdil (Volga) Bulgar Hanlığı",
   "tur": "hanlik",
   "bolge": "sibirya-bozkir",
   "f": "0920-01-01",
@@ -1049,12 +1052,11 @@
    "t": "yil"
   },
   "baskent": "Bulgar",
-  "etkin_bolge": "Volga-Kama",
+  "etkin_bolge": "İdil-Kama ağzı, Orta İdil havzası",
   "sehirler": [
-   "Bulgar",
-   "Bilar"
+   "Bulgar"
   ],
-  "ozet": "Almis 922'de Ibn Fadlan elciligi.",
+  "ozet": "İdil boyunda Hazar hakimiyetinden çıkan; Almış Han ile 922'de Abbâsîlere bağlı müslüman devlet olan hanlık; 1236'da Batu Han'ın seferiyle yıkıldı.",
   "oncul": [
    "buyuk-bulgaristan"
   ],
@@ -1063,20 +1065,19 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+   "TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"İdil Bulgar Hanlığı\" md., 2000, https://islamansiklopedisi.org.tr/idil-bulgar-hanligi (\"12 Muharrem 310'da (12 Mayıs 922) Bulgar hanının İdil boyundaki karargâhına ulaştı\"; \"Batu Han... 1236'da İdil Bulgarları'nın üzerine sefere çıkarak\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut kayit 920; devlet 8-10. yy arasi olusum.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV: İslâmî devlet 922 (İbn Fadlân elçiliği); son 1236 (Batu). TDV hanlığın başlangıcı için yıl vermez (\"X-XV. yüzyıl\" künyesi); f=920 bu oturumda kaynakta OKUNMADI (922 İslâm kabulü; devlet daha eskidir).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "idil-bulgar",
-   "not": ""
+   "not": "t TDV ile uyumlu; f 920 ≈ 922 İslâm kabulü."
   }
  },
  {
   "id": "samani",
-  "ad": "Samaniler",
+  "ad": "Sâmânîler",
   "tur": "emirlik",
   "bolge": "orta-asya",
   "f": "0819-01-01",
@@ -1086,32 +1087,34 @@
    "t": "yil"
   },
   "baskent": "Buhara",
-  "etkin_bolge": "Maveraunnehir",
+  "etkin_bolge": "Mâverâünnehir ve Horasan",
   "sehirler": [
    "Buhara",
-   "Semerkant"
+   "Semerkant",
+   "Nîşâbur",
+   "Herat"
   ],
-  "ozet": "Nuh b. Esed 819.",
+  "ozet": "Sâmânhudât soyundan Nûh, Ahmed, Yahyâ ve İlyâs'ın 819'da Me'mûn tarafından valiliğe atanmasıyla başlayan; Karahanlılar'ın 999'da Buhara'yı almasıyla fiilen, 1005'te son emîrin ölümüyle sona eren Mâverâünnehir-Horasan hânedanı.",
   "oncul": [],
   "ardil": [
    "karahanli"
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde",
-   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998"
+   "TDV İslâm Ansiklopedisi, Aydın Usta, \"Sâmânîler\" md., 2009, https://islamansiklopedisi.org.tr/samaniler (\"Mâverâünnehir ve Horasan'da hüküm süren bir İslâm hânedanı (819-1005)\"; Buhara'nın İlig Han Nasr tarafından zaptı 389/999) (bu oturumda okundu)",
+   "TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar (\"Sâmânîler Devleti böylece fiilen sona ermiş oldu\", 999) (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV: 819-1005; Karahanlı İlig Nasr Buhara'yı 999'da aldı (\"fiilen sona ermiş\"), 1005 son Sâmânî İsmâil el-Muntasır'ın ölümü. Künye t: 1005 (hânedan) / 999 (fiilî son) — atlas 1005 ile uyumlu. TDV hânedanın temelini 819 valilik tayinlerine (Semerkant: Nûh, Fergana: Ahmed, Şâş: Yahyâ, Herat: İlyas) bağlar; Herat kolu 867'de ortadan kalktı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "samani",
-   "not": ""
+   "not": "f/t TDV ile uyumlu."
   }
  },
  {
   "id": "karahanli",
-  "ad": "Karahanlilar",
+  "ad": "Karahanlılar (bölünme öncesi birleşik devlet)",
   "tur": "hanlik",
   "bolge": "orta-asya",
   "f": "0840-01-01",
@@ -1120,13 +1123,16 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Balasagun / Kasgar",
-  "etkin_bolge": "Maveraunnehir",
+  "baskent": "Balasagun / Kâşgar",
+  "etkin_bolge": "Mâverâünnehir ve Doğu Türkistan",
   "sehirler": [
    "Balasagun",
-   "Kasgar"
+   "Kâşgar",
+   "Özkent",
+   "Semerkant",
+   "Buhara"
   ],
-  "ozet": "Karluk tabanli hanedan.",
+  "ozet": "840 sonrasında Karluk/Yağma kökenli (TDV'de köken tartışmalıdır) boyların kurduğu ilk Türk-İslâm hânedanı; 1041-42'de Doğu ve Batı kollarına ayrıldı, Batı kol 1212'de Hârizmşahlar'ın eliyle sona erdi.",
   "oncul": [
    "karluk"
   ],
@@ -1136,19 +1142,19 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+   "TDV İslâm Ansiklopedisi, Abdülkerim Özaydın, \"Karahanlılar\" md., 2001, https://islamansiklopedisi.org.tr/karahanlilar (\"Mâverâünnehir ve Doğu Türkistan'da hüküm süren Türk-İslâm hânedanı (840-1212)\"; Mâverâünnehir'de bağımsız devlet 433/1041-42) (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV: hânedan 840-1212 (toplam). Atlas künyesi 840-1041 bölünme öncesini, ayrı kayıtlar `dogu-karahanli` (1041-1210) ve `bati-karahanli` (1041-1212) sonrasını kapsıyor — TDV'nin 840-1212 toplamıyla uyumlu parçalanma. TDV 1041-42'yi \"Mâverâünnehir'de bağımsız devlet kurdular (433/1041-42)\" der; bölünme yılı kesin yıl değildir.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "karahanli",
-   "not": ""
+   "not": "Uyumlu; dogu-karahanli ve bati-karahanli ardıl kayıtları var."
   }
  },
  {
   "id": "gazneli",
-  "ad": "Gazneliler",
+  "ad": "Gazneliler (Gazneli Devleti)",
   "tur": "sultanlik",
   "bolge": "orta-asya",
   "f": "0963-01-01",
@@ -1157,13 +1163,15 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Gazne",
-  "etkin_bolge": "Horasan, Afganistan",
+  "baskent": "Gazne → Lahor",
+  "etkin_bolge": "Horasan, Afganistan, Kuzey Hindistan",
   "sehirler": [
    "Gazne",
-   "Lahor"
+   "Lahor",
+   "Belh",
+   "Nîşâbur"
   ],
-  "ozet": "Alptegin 963.",
+  "ozet": "Alp Tegin'in 962-963'te Gazne'de kurduğu, Mahmûd döneminde (998-1030) Kuzey Hindistan'a uzanan Türk hânedanı; 1186'da Gurlular'ın Lahor'u alıp Hüsrev Melik'i esir etmesiyle sona erdi.",
   "oncul": [
    "samani"
   ],
@@ -1172,20 +1180,19 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde",
-   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+   "TDV İslâm Ansiklopedisi, Erdoğan Merçil, \"Gazneliler\" md., 1996, https://islamansiklopedisi.org.tr/gazneliler (\"963-1186 yılları arasında Horasan, Afganistan ve Kuzey Hindistan'da hüküm süren\"; \"Gurlular... Gazneli Devleti'ne son verdiler (582/1186)\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV: 963-1186; son Hüsrev Melik'in Gurlular tarafından esir alınması (582/1186). TDV hükümdar listesi: Alp Tegin 352 (963); Sebük Tegin 366 (977); Mahmud 388 (998).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "gazneli",
-   "not": ""
+   "not": "f/t TDV ile uyumlu."
   }
  },
  {
   "id": "yenisey-kirgiz",
-  "ad": "Yenisey Kirgizlari",
+  "ad": "Yenisey Kırgızları (Kırgız Kağanlığı)",
   "tur": "kaganlik",
   "bolge": "sibirya-bozkir",
   "f": "0840-01-01",
@@ -1194,12 +1201,12 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "-",
-  "etkin_bolge": "Yenisey",
+  "baskent": "—",
+  "etkin_bolge": "Yenisey bölgesi; 840-920 arası Ötüken",
   "sehirler": [
    "-"
   ],
-  "ozet": "1207'de Cuci'ye baglandi.",
+  "ozet": "840'ta Uygur Kağanlığı'nı yıkıp Ötüken'e hâkim olan, 920'de Kitanlarca Ötüken'den çıkarılıp Yenisey yurduna dönen; 1207'de Cengiz Han'a (Cuci) boyun eğen kağanlık.",
   "oncul": [
    "uygur"
   ],
@@ -1208,14 +1215,14 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+   "TDV İslâm Ansiklopedisi, İsmail Türkoğlu, \"Kırgızlar\" md., 2019, https://islamansiklopedisi.org.tr/kirgizlar (\"840'ta şiddetli bir hücumla Uygur Devleti'ni yıkarak Ötüken'de kendi hâkimiyetlerini kurdular\"; \"920'de... K'i-tanlar, Kırgızlar'ı Ötüken bölgesinden çıkarıp eski yurtlarına sürdüler\"; \"Cengiz Han... Kırgızlar'ı da itaat altına aldı (1207)\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV: bağımsızlık Göktürk sonrası 630-680; Uygurlara bağlılık 758; 840 Uygur fethi; 920 Kitan; 1207 Cengiz. f=840 \"Ötüken hâkimiyeti\"; Yenisey'de siyasî birim daha eskidir (Jiankun, 630-680). mevcut `kirgiz-yenisey` (840-920) MÜKERRER, bu kayıtla birleştirilmeli.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "yenisey-kirgiz",
-   "not": ""
+   "not": "f/t TDV ile uyumlu; kirgiz-yenisey mükerrer çiftidir."
   }
  }
 ]

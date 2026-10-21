@@ -167,13 +167,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 4 «Zhou benji» (秦昭王怒，使將軍摎攻西周。西周君犇秦，頓首受罪，盡獻其邑三十六…周君、王赧卒，周民遂東亡。秦取九鼎寶器) — zh.wikisource.org/wiki/史記/卷004 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bahar-Güz Dönemi MÖ 770/722-481(453); Savaşan Devletler MÖ 475/453/403-221. Hanedan sonu Qin'in Zhao Xiang Wang döneminde Zhou'u yutması (256).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Bahar-Güz Dönemi MÖ 770/722-481(453); Savaşan Devletler MÖ 475/453/403-221. Hanedan sonu Qin'in Zhao Xiang Wang döneminde Zhou'u yutması (256). | t: Shiji 4: Qin Zhaoxiang Wang Xi Zhou'yu aldı, Zhou Jun ve Nan Wang ölünce halk dağıldı, dokuz kazan Qin'e geçti (MÖ 256) → -0255. f=-0769 (Pingwang'ın doğuya göçü, MÖ 770) Shiji 4'te yıl olarak okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "dogu-zhou",
@@ -202,13 +199,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 32 «Qi Taigong shijia» (於是武王已平商而王天下，封師尚父於齊營丘) ve juan 6 (秦使將軍王賁從燕南攻齊，得齊王建, Qin 26. yıl = MÖ 221) — zh.wikisource.org/wiki/史記/卷032, 卷006 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Jiang Qi → Tian Qi geçişi MÖ 386 (Zhou tarafından tanınması). Aynı polity tek kayıt.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Jiang Qi → Tian Qi geçişi MÖ 386 (Zhou tarafından tanınması). Aynı polity tek kayıt. | f: Shiji 32: Wu Wang Shang'ı yenip Taigong'u Yingqiu'da Qi'ye atadı (Zhou fethi = MÖ 1045, CHAC/Shaughnessy; XSZ 1046); t: Qin 26. yıl (MÖ 221) Qi Wang Jian esir alındı → -0220. Tian Qi hanedan değişimi (MÖ 386) ayrı kayıt değil.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "qi-devleti",
@@ -238,13 +232,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 33 «Lu Zhou Gong shijia» (頃公…二十四年，楚考烈王伐滅魯。頃公亡，遷於下邑) — zh.wikisource.org/wiki/史記/卷033 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bo Qin'in eyalet verilme yılı kesin değil (Zhou erken dönemi; geleneksel ~MÖ 1040'lar). Son hükümdar Qingong ~MÖ 256/249. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Bo Qin'in eyalet verilme yılı kesin değil (Zhou erken dönemi; geleneksel ~MÖ 1040'lar). Son hükümdar Qingong ~MÖ 256/249. Başlangıç yılı bilinmiyor/belirsiz (f=null). | t: Shiji 33: 頃公二十四年 Chu Kaolie Wang Lu'yu ortadan kaldırdı (MÖ 249, standart kronoloji; Shiji metni BC yılı vermez) → -0248. f=null: Shiji 'Zhou Gong' fief tarihi yok.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -279,13 +270,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 39 «Jin shijia» (其冬，晉滅虢，虢公丑奔周。還，襲滅虞，虜虞公及其大夫井伯) — zh.wikisource.org/wiki/史記/卷039 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "403 MÖ: Zhou'nun Han/Zhao/Wei'yi dük olarak tanıması (kronolojik bölünme çizgisi); Jin dükleri nominal olarak ~376-375 MÖ'ya kadar. Kuruluş yılı bilinmiyor. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "403 MÖ: Zhou'nun Han/Zhao/Wei'yi dük olarak tanıması (kronolojik bölünme çizgisi); Jin dükleri nominal olarak ~376-375 MÖ'ya kadar. Kuruluş yılı bilinmiyor. Başlangıç yılı bilinmiyor/belirsiz (f=null). | Shiji 39: Jin'in Guo ve Yu'yu yok edişi (MÖ 655) Jin kaydının içinde. f=null (Tang Shuyu fief tarihi Shiji'de yok). t=-0374/-0375 (Jinghgong 2. yıl, Han-Zhao-Wei Jin'i bölüşüp sona erdirdi: MÖ 376-375) Shiji 15'te okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -314,13 +302,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 34 «Yan Shaogong shijia» (燕王喜 bölümü) ve juan 6 (二十五年，大興兵，使王賁將，攻燕遼東，得燕王喜 = MÖ 222) — zh.wikisource.org/wiki/史記/卷034, 卷006 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş yılı bilinmiyor. Yan unvanı 'wang' MÖ 323; Qin son kralı MÖ 222'de yakaladı (Liaodong'a kaçışla MÖ 226). Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş yılı bilinmiyor. Yan unvanı 'wang' MÖ 323; Qin son kralı MÖ 222'de yakaladı (Liaodong'a kaçışla MÖ 226). Başlangıç yılı bilinmiyor/belirsiz (f=null). | t: Shiji 6: Qin 25. yıl (MÖ 222) Wang Jun Liaodong'u alıp Yan Wang Xi'yi esir aldı → -0221 (atlas t=-0221 doğru). f=null: Shao Gong'un fief tarihi yok.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -354,7 +339,7 @@
    "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Kuruluş ~Batı Zhou başı. Liu Song hanedanından farklıdır. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "ic_not": "Kuruluş ~Batı Zhou başı. Liu Song hanedanından farklıdır. Başlangıç yılı bilinmiyor/belirsiz (f=null). | Shiji 38 sayfasında 宋王偃 sonu için desen bulunamadı (okunamadı). t=-0285 (Qi-Chu-Wei MÖ 286) taslak.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -385,13 +370,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 37 «Wei Kangshu shijia» (君角九年，秦併天下…二十一年，二世廢君角為庶人，衞絕祀) — zh.wikisource.org/wiki/史記/卷037 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Wei (魏) ile karıştırılmamalı. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Wei (魏) ile karıştırılmamalı. Başlangıç yılı bilinmiyor/belirsiz (f=null). | t: Shiji 37: Junjiao 9. yıl Qin birleştirdi (221), 21. yıl Er Shi onu halk sıfatına indirdi, Wey'in kurban sunusu kesildi (MÖ 209) → -0208. f=null.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -421,13 +403,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 35 «Guan Cai shijia» (楚滅蔡三歲…; 成侯四年，宋滅曹。十年…十三年，楚滅陳) — zh.wikisource.org/wiki/史記/卷035 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş yılı bilinmiyor. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş yılı bilinmiyor. Başlangıç yılı bilinmiyor/belirsiz (f=null). | Shiji 35: Chu Lingwang 531 MÖ'da Cai'yi ilk kez yok etti, Pinghou'yu yeniden kurdu (okundu); t=-0446 (Chu Huiwang'ın nihai fethi, MÖ 447) Shiji 35 sayfasında doğrudan bulunamadı. f=null.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -455,13 +434,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 35 «Guan Cai shijia» (楚滅蔡三歲…; 成侯四年，宋滅曹。十年…十三年，楚滅陳) — zh.wikisource.org/wiki/史記/卷035 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Cao Wei'den farklıdır. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Cao Wei'den farklıdır. Başlangıç yılı bilinmiyor/belirsiz (f=null). | Shiji 35 (Cao Shujia dizisinde): 成侯四年，宋滅曹 (MÖ 487) → t=-0486 uyumlu; Shiji'de 'Cao Shijia' kısmı ayrı sayfada okunmadı. f=null.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -489,13 +465,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 36 «Chen Qi shijia» (湣公十五年，楚惠王滅陳) — zh.wikisource.org/wiki/史記/卷036 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Chen Hanedanı (Güney Hanedanlar) ile karıştırılmaz. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Chen Hanedanı (Güney Hanedanlar) ile karıştırılmaz. Başlangıç yılı bilinmiyor/belirsiz (f=null). | Shiji 36: 湣公十五年，楚惠王滅陳 (MÖ 479) → t=-0478 uyumlu. f=null (Hu Gong, Zhou Wu Wang'ın Shun soyuna fief'i).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -525,13 +498,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 42 «Zheng shijia» (鄭桓公友者，周厲王少子…宣王立二十二年，友初封于鄭…二十一年，韓哀侯滅鄭，并其國) — zh.wikisource.org/wiki/史記/卷042 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş: MÖ 806 (Huan Gong'un feodu); doğuya taşınma MÖ 770.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş: MÖ 806 (Huan Gong'un feodu); doğuya taşınma MÖ 770. | Shiji 42: Huan Gong You, Xuan Wang 22. yıl (MÖ 806) Zheng'e fief aldı → f=-0805 (806 MÖ astronomik) doğrulandı; 韓哀侯滅鄭 (Han Aihou 2. yıl, MÖ 375) → t=-0374 uyumlu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -561,13 +531,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 31 «Wu Taibo shijia» (吳王壽夢…; 子胥: 以觀越之滅吳也) — zh.wikisource.org/wiki/史記/卷031 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş efsanevî (Taibo ~MÖ 12. yy); f Zuozhuan'daki ilk güvenilir ilan yılı. Sun Wu'dan farklıdır.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş efsanevî (Taibo ~MÖ 12. yy); f Zuozhuan'daki ilk güvenilir ilan yılı. Sun Wu'dan farklıdır. | Shiji 31: Shoumeng Wu'yu Zhou'ya duyurdu (MÖ 585); Yue'nin Wu'yu yok edişi (MÖ 473) Shiji 41'de okunamadı. Wu Taibo geleneksel kurucu; Shoumeng'e dek tarihli kayıt yok.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -608,7 +575,7 @@
    "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
   ],
   "dogrulama": "taslak",
-  "ic_not": "t: MÖ 306 (Chu'nun Yue'yi fethi); alternatif MÖ 334/333 (Wujiang'ın ölümü). Kuruluş yılı bilinmiyor. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "ic_not": "t: MÖ 306 (Chu'nun Yue'yi fethi); alternatif MÖ 334/333 (Wujiang'ın ölümü). Kuruluş yılı bilinmiyor. Başlangıç yılı bilinmiyor/belirsiz (f=null). | Shiji 41 sayfasında Yue sonu desenle bulunamadı (okunamadı).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -638,13 +605,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 40 «Chu shijia» (楚武王 … 稱王前楚子 bölümü) — zh.wikisource.org/wiki/史記/卷040 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas künyesi MÖ 704 kral ilanından başlar; öncesi (~MÖ 11. yy vikontluk) künyede yok. Kayıt bu nedenle var-kisa ön aşamadır. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas künyesi MÖ 704 kral ilanından başlar; öncesi (~MÖ 11. yy vikontluk) künyede yok. Kayıt bu nedenle var-kisa ön aşamadır. Başlangıç yılı bilinmiyor/belirsiz (f=null). | Shiji 40: 'Chu Wu Wang' ve 稱王前楚子 bölümü (Wu Wang kral unvanını MÖ 706/704'te aldı); f=null: Xiong Yi/Xiong Qu dönemi tarihleri yok.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "chu-devleti",
@@ -674,13 +638,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 5 «Qin benji» (秦襄公…襄公為太子; 惠文王九年，司馬錯伐蜀，滅之) — zh.wikisource.org/wiki/史記/卷005 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Feizi'nin Qin'e verilişi MÖ ~897; eyalet statüsü MÖ 770.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Feizi'nin Qin'e verilişi MÖ ~897; eyalet statüsü MÖ 770. | Shiji 5: Xianggong'un Zhou tarafından beyliğe yükseltilişi (MÖ 770) metinde yıl olarak okunmadı; t: Qin 26. yıl (MÖ 221) imparatorluk (qin-hanedani'ne geçiş).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "qin-devleti",
@@ -880,13 +841,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 39 «Jin shijia» (其冬，晉滅虢，虢公丑奔周。還，襲滅虞，虜虞公及其大夫井伯) — zh.wikisource.org/wiki/史記/卷039 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Batı ve Doğu Guo ayrı; Doğu Guo MÖ 767 Zheng. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Batı ve Doğu Guo ayrı; Doğu Guo MÖ 767 Zheng. Başlangıç yılı bilinmiyor/belirsiz (f=null). | Shiji 39: Jin MÖ 655'te Guo'yu yok etti (虢公丑奔周) → t=-0654 uyumlu (Guo = Western Guo/Shang Yang Guo).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -915,13 +873,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 39 «Jin shijia» (其冬，晉滅虢，虢公丑奔周。還，襲滅虞，虜虞公及其大夫井伯) — zh.wikisource.org/wiki/史記/卷039 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atasözü 'dudak-diş' hikâyesi. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atasözü 'dudak-diş' hikâyesi. Başlangıç yılı bilinmiyor/belirsiz (f=null). | Shiji 39: aynı yıl dönüşte Yu'yu yok etti, Yu Gong tutsak (MÖ 655) → t=-0654 uyumlu. Yu devleti ile Wu'nun 'Yu' karıştırılmamalı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -951,13 +906,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 5 «Qin benji» (秦襄公…襄公為太子; 惠文王九年，司馬錯伐蜀，滅之) — zh.wikisource.org/wiki/史記/卷005 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş yılı bilinmiyor. Qin fethi MÖ 316. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş yılı bilinmiyor. Qin fethi MÖ 316. Başlangıç yılı bilinmiyor/belirsiz (f=null). | Shiji 5: 惠文王九年，司馬錯伐蜀，滅之 (MÖ 316, standart; Ba da aynı yıl) → t=-0315; atlas t=-0314 bir yıl kaymış olabilir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -985,13 +937,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
-   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
-   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+   "Sima Qian, Shiji, juan 5 «Qin benji» (秦襄公…襄公為太子; 惠文王九年，司馬錯伐蜀，滅之) — zh.wikisource.org/wiki/史記/卷005 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Sanxingdui-Shu özdeşliği varsayımdır. Tarihlendirme MÖ 316 Qin seferi. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sanxingdui-Shu özdeşliği varsayımdır. Tarihlendirme MÖ 316 Qin seferi. Başlangıç yılı bilinmiyor/belirsiz (f=null). | Shiji 5: 惠文王九年，司馬錯伐蜀，滅之 (MÖ 316) → t=-0315; atlas t=-0314.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,

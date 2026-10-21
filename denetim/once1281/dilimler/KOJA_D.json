@@ -1,14 +1,14 @@
 [
  {
   "id": "balhae",
-  "ad": "Balhae (Bohai)",
+  "ad": "Balhae (Bohai/Parhae) Krallığı",
   "tur": "krallik",
   "bolge": "dogu-asya",
   "f": "0698-01-01",
-  "t": "0926-01-01",
+  "t": "0926-04-03",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "gun"
   },
   "baskent": "Dongmozu -> Sanggyeong",
   "etkin_bolge": "Kore/Japonya",
@@ -16,19 +16,22 @@
    "Dongmozu",
    "Sanggyeong"
   ],
-  "ozet": "Kuzey Kore ve Mancurya; 926'da Khitan fethi.",
+  "ozet": "Dae Joyeong'un (Da Zuorong) 698 dolayında Tianmenling sonrası Dongmosan'da «Zhen (Jin) Krallığı» adıyla kurduğu, 713'te Tang'ın «Balhae Komandanlığı Prensi» ünvanıyla tanıdığı devlet; 926'da Khitan (Liao) Abaoji'nin Hulhan (Sanggyeong) kuşatmasıyla düştü, topraklar 4 Nisan 926'da «Dongdan» adıyla Liao'ya bağlandı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+   "Jiu Tangshu (Liu Xu vd., 945) j.199 hia «Bohai Mohe» — zh.wikisource.org/wiki/舊唐書/卷199下 (okundu 22 Eki 2026): «聖曆中，自立爲振國王» (698-700); «睿宗先天二年…冊拜祚榮爲…渤海郡王» (713)",
+   "Xin Tangshu (Ouyang Xiu vd.) j.219 «Beidi: Bohai» — zh.wikisource.org/wiki/新唐書/卷219 (okundu): «萬歲通天中…祚榮…自號震國王»; «先天中…渤海郡王…自是始去靺鞨號，專稱渤海»",
+   "Liao shi (Tuotuo vd.) j.2 Taizu ben ji hia, Tianxian 1 — zh.wikisource.org/wiki/遼史/卷2 (okundu): «己巳，諲譔請降…辛未，諲譔素服…出降»; «二月…丙午，改渤海國為東丹，忽汗城為天福»",
+   "Liao shi j.38 Dili zhi 2 (Dongjing dao) — zh.wikisource.org/wiki/遼史/卷38 (okundu): Taizu Hulhan'ı aldı, Dayinzhuan'ı esir etti, Dongdan Krallığı kuruldu"
   ],
-  "dogrulama": "taslak",
-  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: 698-01-01 / 926-01-01 (Vikipedi aday). f: Jiu Tangshu «聖曆中» (698-700) = kendini Zhen/Jin kralı ilân; Xin Tangshu devleti «萬歲通天中» (696-697) olayına bağlar (Tianmenling zaferi 698 olarak yaygın). Kuruluş = ilk hükümdarın bağımsız kral ünvanı; 713 Tang'ın tanıması ayrı tarih. t: Liao shi'ye göre Yizhuan teslim isteği 己巳 = 926-02-26, teslim 辛未 = 926-02-28 (Jülyen, sexagenary günden hesap: 2000-01-01=戊午 çapasıyla), ikinci isyan ve yenilgi aynı ay; Balhae adı kaldırılıp «Dongdan» 丙午 = 926-04-04. Bu kayıt son günü 03 Nisan alır. Vikipedi «Sanggyeong'un düşüşü 14 Ocak 926» yazıyor; Liao shi gün hesabıyla (Tianxian 1 birinci ay 己未=926-02-16'dan) tutmuyor, kaynağı belirsiz — Liao shi esas alındı. Jülyen takvim kullanıldı (kaynak 926'nın Abaoji ölüm günü 辛巳=926-09-06 ile sınandı, yaygın bilinen tarihle uyuşuyor).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "balhae",
-   "not": ""
+   "not": "mevcut t=0926-01-01 → 0926-04-03 (3 ay fark); f aynı."
   }
  },
  {
@@ -36,30 +39,33 @@
   "ad": "Nara Dönemi",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "0710-01-01",
-  "t": "0794-01-01",
+  "f": "0710-04-13",
+  "t": "0794-11-17",
   "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "f": "gun",
+   "t": "gun"
   },
   "baskent": "Heijo-kyo",
   "etkin_bolge": "Kore/Japonya",
   "sehirler": [
    "Heijo-kyo"
   ],
-  "ozet": "Nara'da imparatorluk sarayi.",
+  "ozet": "Genmei Tennō'nun 710'da başkenti Fujiwara-kyō'dan Heijō-kyō'ya (Nara) taşımasıyla başlayan imparatorluk sarayı devleti; 784-794 Nagaoka-kyō ara dönemi; 794'te Heian-kyō'ya taşınmayla Heian dönemine bağlanır (saray/devlet kesintisiz).",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Shoku Nihongi j.5 (Wadō 3, 3. ay) — zh.wikisource.org/wiki/續日本紀/卷第五 (okundu): «辛酉。始遷都于平城。以左大臣正二位石上朝臣麻呂爲留守»",
+   "Shoku Nihongi j.4 (Wadō 1-2) — zh.wikisource.org/wiki/續日本紀/卷第四 (okundu): Wadō 2 (709) taşıma emri ve «造平城京司長官» atamaları",
+   "Shoku Nihongi j.38 (Enryaku 3) — zh.wikisource.org/wiki/續日本紀/卷第卅八 (okundu): Nagaoka'ya taşınma hazırlıkları («相乙訓郡長岡村之地。爲遷都也»)",
+   "Nihon Kōki j.3 (Enryaku 13, 10. ay) — zh.wikisource.org/wiki/日本後紀/卷第三 (okundu): «辛酉。車駕遷于新京»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: 0710-01-01 / 0794-01-01 (künyedeki 793-12-31). f: 辛酉 = 710-04-13 (Jülyen; 和銅3年3月). 710 Ocak/Mart değil, Nisan. t: 794'te saray 10. ay 辛酉 = 794-11-18'de Heian-kyō'ya girdi; bu kayıt önceki günü alır. Nagaoka-kyō (784 sonu - 794) bu kayıtta kesintisiz kabul edildi; Nagaoka'ya taşınma Shoku Nihongi j.38'de gün gün anlatılıyor (Enryaku 3, 5. ay: yer seçimi), taşınmanın kendisi bu oturumda gün olarak sabitlenmedi. Künye adı «Nara Dönemi» olduğundan 784 sonrası dönemi «Nagaoka» ayrı bir alt-dönem olarak kronolojide ele alınmalı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "nara-japonya",
-   "not": ""
+   "not": "mevcut t=0793-12-31; kaynaktan sarayın Heian'a girişi 0794-11-18 (Nagaoka ara dönemi bu kayıtta eritildi)."
   }
  },
  {
@@ -67,30 +73,33 @@
   "ad": "Heian Dönemi",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "0794-01-01",
-  "t": "1185-01-01",
+  "f": "0794-11-18",
+  "t": "1185-12-22",
   "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "f": "gun",
+   "t": "gun"
   },
   "baskent": "Heian-kyo",
   "etkin_bolge": "Kore/Japonya",
   "sehirler": [
    "Heian-kyo"
   ],
-  "ozet": "Heian imparatorluk sarayi; Kamakura'da bakufu 1185.",
+  "ozet": "794'te Kanmu Tennō'nun sarayı Heian-kyō'ya (Kyoto) taşımasıyla başlayan imparatorluk sarayı devleti; Heike Kamakura yönetimiyle 1185'te fiilî iktidarı yitirir ama saray 1868'e dek sürer.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Nihon Kōki j.3 (Enryaku 13) — zh.wikisource.org/wiki/日本後紀/卷第三 (okundu): «十月…辛酉。車駕遷于新京»; 11. ay 丁丑: «號曰平安京»",
+   "Nihon Kōki j.5 (Enryaku 14) — zh.wikisource.org/wiki/日本後紀/卷第五 (okundu): «遷都以來。于今三年»",
+   "Azuma Kagami j.5, Bunji 1 (1185) 11. ay — zh.wikisource.org/wiki/吾妻鏡/卷005 (okundu): 戊申 gün «補任諸國平均守護地頭» (nationwide shugo-jitō)",
+   "Azuma Kagami j.1 başındaki hükümdar listesi (Antoku, Go-Toba…) — zh.wikisource.org/wiki/吾妻鏡/卷001 (okundu): Go-Toba 1183'ten sonra tahtta; saray sürekliliği"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Saray 1868'e kadar surer; 1185 sadece fiili iktidar degisimi. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: 0794-01-01 / 1185-01-01. f: Nihon Kōki 延暦13年10月辛酉 = 794-11-18 (Jülyen). t: künye adı «Heian Dönemi İmparatorluk Sarayı»; imparatorluk sarayı 1185'te SONA ERMEZ (Azuma Kagami hükümdar listesi: Antoku 1185-04-25'te Dan-no-ura'da ölür, Go-Toba 1183'ten beri tahtta, 1221'e dek hüküm sürer; saray 1868'e dek sürer). 1185 Heike'nin yenilişi + Kamakura'nın ülke çapında shugo-jitō hakkı (Bunji 1/11/29 戊申 = 1185-12-22) ile dönem sınırıdır. Künye düzeltme adayı: ya t'yi 1868'e uzat (aynı polity) ya da ad «Heian Dönemi» sınırını ayrıca dönem olarak tut — karar Emre'nin (KOJA_REF.json).",
   "esleme": {
-   "durum": "var",
+   "durum": "var-f-t-farkli",
    "mevcut_id": "heian-japonya",
-   "not": ""
+   "not": "mevcut f=0794-01-01 (10 ay erken); t=1185-01-01 saray sürekliliğini kesiyor — künye düzeltme adayı."
   }
  },
  {
@@ -98,30 +107,32 @@
   "ad": "Sonraki Baekje",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "0892-01-01",
-  "t": "0936-01-01",
+  "f": "0900-01-01",
+  "t": "0936-09-01",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "ay"
   },
   "baskent": "Wansan",
   "etkin_bolge": "Kore/Japonya",
   "sehirler": [
    "Wansan"
   ],
-  "ozet": "Gyeonhwon'un kurdugu krallik.",
+  "ozet": "Gyeon Hwon'un 892'de Mujin'de ayaklanıp 900'de Wansan'da (Jeonju) «Hubaekje Kralı» ilân ettiği devlet; 935'te oğlu Sin-geom'un babasını hapsetmesi, 936 sonbaharında Goryeo ordusuna yenilip teslim olmasıyla sona erdi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+   "Samguk sagi j.50 (Yeoljeon 10: Gyeon Hwon) — zh.wikisource.org/wiki/三國史記/卷50 (okundu): «景福元年…襲武珍州自王，猶不敢公然稱王»; «遂自稱後百濟王…是唐光化三年（900），新羅孝恭王四年也»",
+   "Goryeosa j.2 Taejo 19 (936) — zh.wikisource.org/wiki/高麗史/卷二 (okundu): Taejo 9. ay Cheonan-bu'da ordu toplar, 甲午 (= 936-09-26) Iljecheon'da karşılaşma; Sin-geom ve kardeşleri teslim; Baekje başkenti ele geçirilir",
+   "Samguk sagi j.12 (Gyeongmyeong) — zh.wikisource.org/wiki/三國史記/卷12 (okundu): Hubaekje'nin Silla ile savaşları"
   ],
-  "dogrulama": "taslak",
-  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: 0892-01-01 / 0936-01-01. 892 (景福元年) Gyeon Hwon'un Mujin'i alıp «yeni Silla'nın batı bölgesi komutanı» olarak yetki ilânıdır — Samguk sagi açıkça «krallık ilân edemedi» der; Hubaekje krallığı 900 (光化三年) Wansan'da ilân. Kuruluş sınıfı: bağımsızlık ilânı (900) esas; 892 «başlangıç hareketi» olarak ic_not'ta. t: 936-09-26 (甲午, Jülyen) Goryeo-sa'da karşılaşma günü; Sin-geom'un teslim günü metinde yok → ay hassasiyeti (936-09). Hubaekje kalıntısı 937'ye taşan bir bağımsızlık sürmedi.",
   "esleme": {
-   "durum": "var",
+   "durum": "var-f-t-farkli",
    "mevcut_id": "hubaekje",
-   "not": ""
+   "not": "mevcut f=0892-01-01 → önerilen 0900-01-01 (8 yıl); t aynı yıl."
   }
  },
  {
@@ -130,29 +141,31 @@
   "tur": "krallik",
   "bolge": "dogu-asya",
   "f": "0901-01-01",
-  "t": "0918-01-01",
+  "t": "0918-07-24",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "gun"
   },
   "baskent": "Cheorwon",
   "etkin_bolge": "Kore/Japonya",
   "sehirler": [
    "Cheorwon"
   ],
-  "ozet": "Gungye'nin kurdugu krallik.",
+  "ozet": "Gung Ye'nin 901'de kendini kral ilân ettiği (904'te Majin, 911'de Taebong adı) Silla'dan kopma devleti; 918 Temmuz'unda generallerinin Wang Geon'u tahta çıkarmasıyla düştü.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+   "Samguk sagi j.50 (Yeoljeon 10: Gung Ye) — zh.wikisource.org/wiki/三國史記/卷50 (okundu): «天復元年辛酉，善宗自稱王»; «天祐元年甲子，立國號為摩震，年號為武泰»; «朱梁乾化元年辛未，改…國號為泰封»; «起自唐大順二年，至朱梁貞明四年，凡二十八年而滅»",
+   "Goryeosa j.1 Taejo 1 — zh.wikisource.org/wiki/高麗史/卷一 (okundu): «至六月乙卯，騎將洪儒…密謀…推戴»; 丙辰 Taejo taht",
+   "Samguk sagi j.12 Silla bon-gi Hyogong 5 (901) — zh.wikisource.org/wiki/三國史記/卷12 (okundu): «五年，弓裔稱王»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "f: 901 (kendini kral ilân; yıl düzeyi). Gung Ye'nin 891-892 isyan başlangıcı, 898 Songak/Kaesong başkent, 904 Majin ad+yıl adı alt tarihleri ic_not'ta. t: Goryeosa'ya göre generaller 6. ay 乙卯 gecesi Wang Geon'a gidip onu tahta çağırdı, Gung Ye kaçtı; 丙辰 = 918-07-25'te Taejo tahta çıktı (Goryeo f). 乙卯 = 918-07-24 (Jülyen). Gung Ye'nin ölümü (Bugyang köylülerinin elinde) birkaç gün sonra, devlet bu gün çökmüştür.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "taebong",
-   "not": ""
+   "not": "mevcut 0901-01-01 / 0918-01-01; t 0918-07-24 (6 ay fark)."
   }
  },
  {
@@ -160,10 +173,10 @@
   "ad": "Baekje Restorasyon Hareketi (Buheung)",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "0660-01-01",
+  "f": "0660-08-01",
   "t": "0663-01-01",
   "kesinlik": {
-   "f": "yil",
+   "f": "ay",
    "t": "yil"
   },
   "baskent": "Churyu-seong",
@@ -171,40 +184,44 @@
   "sehirler": [
    "Churyu"
   ],
-  "ozet": "660 cokusunden sonra Buyeo Pung ile Japon destekli direnis; 663 Baekgang yenilgisi.",
+  "ozet": "660'ta Tang-Silla ittifakı Sabi'yi alıp Uija'yı esir edince Boksin (福信) ve Dochim (道琛, bir keşiş)'in Prens Buyeo Pung'u tahta çıkarıp Jeoryu (Churyuseong) merkezinde sürdürdüğü direniş devleti; 663'te Baekgang'da Wa-Baekje donanmasının yenilişi ve Churyu'nun düşüşüyle bitti.",
   "oncul": [
    "baekje"
   ],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Jiu Tangshu j.4 Gaozong ji (Xianqing 5) — zh.wikisource.org/wiki/舊唐書/卷4 (okundu): «八月庚辰，蘇定方等討平百濟，面縛其王扶餘義慈» (= 660-09-21, Jülyen; saray ilân günü)",
+   "Jiu Tangshu j.199 hia, Baekje — zh.wikisource.org/wiki/舊唐書/卷199上 (okundu): Fuxin (Boksin), Daochen (Dochim); Pung (Fuyu Feng); «仁軌遇扶余豐之衆于白江之口，四戰皆捷。焚其舟四百艘»",
+   "Jiu Tangshu j.84 Liu Rengui — zh.wikisource.org/wiki/舊唐書/卷84 (okundu): Baekgang savaşı",
+   "Samguk sagi j.5 Silla bon-gi Muyeol 7 (660) — zh.wikisource.org/wiki/三國史記/卷05 (okundu): 7. ay 13'ü Uija Ungjin'e kaçar, 18'inde teslim",
+   "Samguk sagi j.6 Silla bon-gi Munmu 3 (663) — zh.wikisource.org/wiki/三國史記/卷06 (okundu): Boksin, Dochim, Prens Pung, Churyu"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Devlet duzeyi tartismali. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: 0660-01-01 / 0663-01-01. f: Sabi'nin düşüşü Silla bon-gi'ye göre 7. ay 13 (Uija Ungjin'e kaçar) ve 18 (teslim); ortalama yeniay hesabıyla (± 1 gün) 660'ta 7. ay başı ≈ 08-11 Jülyen → 7/13 ≈ 08-23, 7/18 ≈ 08-28. Çin kaynağı (Jiu Tangshu 4) haberi 八月庚辰 = 660-09-21 olarak yazar. Vikipedi'deki «18 Temmuz 660» ay-güneş gününün solar sanılmasıdır. Direniş bu tarihten sonra başladı → f ay hassasiyeti (660-08). Direniş bu aydan sonra başladı → ay hassasiyeti. t: Baekgang 663 sonbaharı (Jiu Tangshu LXIII yıl 663); kesin Jülyen gün Samguk sagi'den okunmadı → yıl hassasiyeti. Bağımsız devlet mi, işgal altında direniş mi? Pung'un hükümdarlığı Wa (Yamato) desteğiyle; ölçüt «adı + belirli toprağı + birkaç yıl hâkimiyet» sağlanır (Churyu, Imjon).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "mevcut_once1281.tsv'de yok."
   }
  },
  {
   "id": "bodeok-goguryeo",
-  "ad": "Bodeok (Goguryeo Restorasyon) Krallığı",
+  "ad": "Bodeok (Geç Goguryeo — Ansŭng Krallığı)",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "0670-01-01",
-  "t": "0674-01-01",
+  "f": "0670-08-21",
+  "t": "0683-10-01",
   "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "f": "gun",
+   "t": "ay"
   },
   "baskent": "Hansong-ju / Geumma-jeo",
   "etkin_bolge": "Kuzey Kore ve Honam",
   "sehirler": [
    "Geumma"
   ],
-  "ozet": "668 sonrasi Goguryeo soylusu Anseung ile Silla destekli kisa omurlu devlet.",
+  "ozet": "Goguryeo'nun 668'de Tang-Silla ittifakıyla yıkılışından sonra Mojam (牟岑) ve Ansŭng'u 670'te Silla'nın himayesinde kral yapıp Hansŏng/Kŭmmaji (Geumma-jeo) çevresinde kurulan Goguryeo halefi devlet; 674'te «Bodeok Kralı» unvanıyla yeniden onaylandı, 683'te Silla tarafından kaldırıldı.",
   "oncul": [
    "goguryeo"
   ],
@@ -213,14 +230,16 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Samguk sagi j.6 Silla bon-gi Munmu 10 (670) — zh.wikisource.org/wiki/三國史記/卷06 (okundu): «遣沙飡須彌山，封安勝爲高句麗王。其冊曰：維咸亨元年歳次庚午秋八月一日辛丑»",
+   "Samguk sagi j.7 Silla bon-gi Munmu 14 (674) — zh.wikisource.org/wiki/三國史記/卷07 (okundu): «九月…封安勝爲報德王»",
+   "Samguk sagi j.8 Silla bon-gi Sinmun 3-4 (683-684) — zh.wikisource.org/wiki/三國史記/卷08 (okundu): «徴報德王安勝爲蘇判，賜姓金氏»; 684 Daemun'un isyanı, bölge Geummagun yapılır"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklasik. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: 0670-01-01 / 0674-01-01 (674 yalnız unvan değişimi, devletin sonu DEĞİL). f: Silla'nın Ansŭng'u Goguryeo kralı olarak resmen onayladığı gün: 咸亨元年8. ay 1 = 辛丑 = 670-08-21 (Jülyen). t: 683 Sinmun 3, 10. ay Ansŭng Sopan rütbesiyle Silla başkentine çağrıldı ve Kim soyadı verildi; krallık fiilen kaldırıldı → ay hassasiyeti (683-10). 684'teki Daemun isyanı Geummajŏ'da (eski krallık toprağı) bastırıldı; toprak «Geumma-gun» yapıldı. Silla himayesi altında bağımlı krallık; devlet ölçütü (adı + toprağı + 13 yıl) sağlanır. Vikipedi'nin «Bodeok 674-684/ 683» okumalarıyla uyumlu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -228,18 +247,18 @@
   "ad": "Dongdan (Dogu Dan) Krallığı",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "0926-01-01",
-  "t": "0936-01-01",
+  "f": "0926-04-04",
+  "t": "0929-01-01",
   "kesinlik": {
-   "f": "yil",
-   "t": "onyil"
+   "f": "gun",
+   "t": "ay"
   },
   "baskent": "Hulhan-seong -> Dongpyeong",
   "etkin_bolge": "Eski Balhae, Liao vasali",
   "sehirler": [
    "Dongpyeong"
   ],
-  "ozet": "Balhae'nin Khitan fethi (926) sonrasi Yelu Bei yonetiminde vasal krallik.",
+  "ozet": "Liao Taizu'nun 926'da Balhae'yi yıkıp Hulhan'ı Tianfu adıyla başkent yaptığı, veliaht Yelü Bei'yi «İnsan Kral» (Renhuang wang) olarak başına geçirdiği Liao'ya bağlı vasal Dongdan Krallığı; 928 sonunda halkı Dongping'e (Liaoyang) taşındı, Bei 930'da Later Tang'a kaçtı.",
   "oncul": [
    "balhae"
   ],
@@ -248,14 +267,17 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Liao shi j.2 Taizu ji hia, Tianxian 1 (926) — zh.wikisource.org/wiki/遼史/卷2 (okundu): «丙午，改渤海國為東丹，忽汗城為天福。冊皇太子倍為人皇王以主之»",
+   "Liao shi j.3 Taizong ji, Tianxian 3 (928) — zh.wikisource.org/wiki/遼史/卷3 (okundu): «詔遣耶律羽之遷東丹民以實東平…升東平郡為南京»",
+   "Liao shi j.72 Yelü Bei zhuan — zh.wikisource.org/wiki/遼史/卷72 (okundu): «改其國曰東丹，名其城曰天福，以倍為人皇王主之…建元甘露，稱制，置左右大次四相及百官»",
+   "Liao shi j.38 Dili zhi 2 — zh.wikisource.org/wiki/遼史/卷38 (okundu): Dongdan halkı Liaoyang'a taşınıp Dongping/Nanjing"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Sonu 936-937 arasi; belirsiz. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: 0926-01-01 / 0936-01-01 (Vikipedi). f: 丙午 = 926-04-04 (Jülyen). t: kaynak Dongdan «krallığının» kapanış tarihini vermez. Liao shi j.3'e göre 928 Tianxian 3 12. ayda (Jülyen ~929 Ocak sonu: 甲寅=929-01-26) halk Dongping'e taşındı ve oraya Nanjing denildi; Bei 930'da Tang'a kaçtı (j.72). j.4'te 938 dolayında hâlâ «東丹吏民/其王倍妃» anılır → ad idarî birim olarak sürmüş olabilir. Bu yüzden t en erken fiilî çöküş olarak 929-01 ay hassasiyeti; Vikipedi'nin 936'sı kaynakta doğrulanamadı. Siyasî birim mi, Liao içi özerk eyalet mi: kendi yılı (甘露) ve kendi dört baş bakanı vardı — vasal krallık olarak kabul.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -263,18 +285,18 @@
   "ad": "Jeongan Devleti",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "0935-01-01",
-  "t": "0986-01-01",
+  "f": null,
+  "t": null,
   "kesinlik": {
-   "f": "onyil",
-   "t": "onyil"
+   "f": "belirsiz",
+   "t": "belirsiz"
   },
-  "baskent": "Amnok havzasi",
+  "baskent": "bilinmiyor (kaynak vermez)",
   "etkin_bolge": "Yalu havzasi",
   "sehirler": [
    "Amnok"
   ],
-  "ozet": "Balhae soylu kalintilari; Liao'ya karsi Curcen ittifaki; 986 civari yikildi.",
+  "ozet": "Balhae'nin yıkılışından sonra Balhae kalıntı soylularının Yalu yukarı havzasında kurduğu, 970-991 arasında Song'a Jurchen yoluyla elçi gönderen devlet (Song shi: «Dingguo»; kendi yıl adı Yuanxing).",
   "oncul": [
    "balhae"
   ],
@@ -283,23 +305,23 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Song shi (Tuotuo vd.) j.491 Waiguo 7, «Ding'an guo» — zh.wikisource.org/wiki/宋史/卷491 (okundu): «定安國本馬韓之種，為契丹所攻破…自稱定安國。開寶三年（970）…王烈萬華…»; 981: «定安國王臣烏玄明…元興六年十月日»; «端拱二年（989）…其王子»; «淳化二年（991）…其王子太元…其後不復至»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kurulus tarihi ve devlet duzeyi tartismali. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: 0935-01-01 / 0986-01-01. Tanıklık aralığı: 970 (开宝三年, kral Liewanhua) – 981 (Yuanxing 6, kral Wu Xuanming) – 989 (Duangong 2, prens) – 991 (Chunhua 2, prens Taiyuan). Kuruluş yılı kaynakta yok («Khitan saldırısıyla yıkıldıktan sonra»), kapanış yılı kaynakta yok («sonra elçi gelmedi») → f ve t null. Song shi kendisini Mahan soyundan sayar (馬韓之種), Balhae/Goguryeo yurdu halkıyla özdeşleşir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok; f/t kaynakta olmadığından null."
   }
  },
  {
   "id": "masakado-shinno",
-  "ad": "Taira no Masakado'nun Yeni Imparatorlugu",
+  "ad": "Taira no Masakado'nun Yeni İmparatorluğu (Shinnō)",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "0939-12-01",
-  "t": "0940-02-01",
+  "f": "0940-01-01",
+  "t": "0940-03-01",
   "kesinlik": {
    "f": "ay",
    "t": "ay"
@@ -309,19 +331,19 @@
   "sehirler": [
    "Ishii"
   ],
-  "ozet": "939'da isyan eden Taira no Masakado kendini Yeni Imparator ilan etti; 940'ta yenildi.",
+  "ozet": "939-940 kışında Kantō'da Taira no Masakado'nun Hitachi, Shimotsuke, Kōzuke valiliklerini ele geçirip kendini Yeni İmparator (Shinnō) ilân ettiği, Shimōsa Ishii'yi başkent saydığı, Fujiwara no Hidesato ve Taira no Sadamori tarafından öldürülerek sonlanan rejim.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Fusō ryakki j.25 (Suzaku Tennō) — zh.wikisource.org/wiki/扶桑略記/第025 (okundu): Shōmonki'den aktarma: «天慶二年…十二月十一日，將門率數千兵，就下野國廰…同十五日，將門遷上野國»; «又定可建王城之處。下總國猿嶋郡石井鄉亭南，可為都朝»; «天慶三年…二月一日…貞盛秀鄉等…十四日未刻…斬將門頸»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Ay bile taslak; kisa omur. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: 0939-12-01 / 0940-02-01 (Vikipedi) — bunlar Japon ay-güneş takvimidir (Tengyō 2/12 ve Tengyō 3/2), Jülyen/Gregoryen değil. Tengyō 2 = 939 değil 940 başına düşer: 12. ay 11 ve 15 (ele geçirme, mektup) ≈ 940 Ocak; Tengyō 3/2/14 (ölüm) ≈ 940 Mart. Gün dönüşümü için sexagenary işaret metinde yok → ay hassasiyeti. «Shinnō» (新皇) unvanını Fusō ryakki alıntısı vermez (Shōmonki'nin kendisinde geçer, burada okunmadı) ama kendi atadığı valiler (Tengyō 2/12/15), kendi başkent yeri ve sivil-askerî kadro kaynakta var. Kısa süreli ayaklanma epizodudur; ölçüt (adı + belirli toprağı + birkaç hafta) yalnızca sınırda sağlanır; oncelik=kucuk, elenme adayı (KOJA_RAPOR2).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  }
 ]

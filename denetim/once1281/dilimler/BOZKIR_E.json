@@ -1,55 +1,59 @@
 [
  {
   "id": "kerait",
-  "ad": "Kerayitler",
+  "ad": "Kerâyitler (Kereyid, Ong Han ülkesi)",
   "tur": "hanlik",
   "bolge": "orta-asya",
   "f": "1007-01-01",
   "t": "1203-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "yil",
    "t": "yil"
   },
-  "baskent": "Orhon / Tola",
-  "etkin_bolge": "Orhon-Tola",
+  "baskent": "bilinmiyor (Tola-Orhon-Ongin havzası yurtları)",
+  "etkin_bolge": "Tola, Orta Orhon ve Ongin havzaları",
   "sehirler": [
-   "-"
+   "—"
   ],
-  "ozet": "1007 civari Hristiyanlasma haberi; Ong Han'in yenilgisi 1203.",
+  "ozet": "Golden'e göre Nesturî Hıristiyanlığı ca. 1007'de kabul eden Moğol dilli (belki Türk unsurlu) boylar birliği; 1203'te Temuçin'in baskınıyla Ong Han'ın yurdu dağıtıldı.",
   "oncul": [],
   "ardil": [
    "mogol-imparatorlugu"
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004",
-   "[aday kaynak, acilmadi] Atwood, C.P., Encyclopedia of Mongolia and the Mongol Empire, Facts on File, 2004"
+   "Peter B. Golden, An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992 (archive.org golden_202303, tam metin, bu oturumda okundu) — \"The Kereyids were to their west on the Tola, Middle Orxon and Ongin basins... They converted, ca. 1007, to Nestorian [Christianity]\" (Chapter 9, s. 285)",
+   "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han (\"Büyük han ilân edilen Camoha-Seçen ile Ong Han ve oğlu Senggün 1203'te Timuçin'e suikast tertiplediler... Ong Han'ın yurdunu ve Kerayit ülkesini yağmaladı\") (bu oturumda okundu)",
+   "W. Barthold, Turkestan Down to the Mongol Invasion, 2. bs., Luzac, 1928 (archive.org tam metin, bu oturumda okundu) — Kerait Han (Wang-Khan) ve Sengün; Kerait prensi Sengün'ün Doğu Türkistan'a kaçışı"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut 1199-1203: f cok gec; bkz. Rasidüddin.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV İslâm Ansiklopedisi'nde Kerait/Kerayit/Kereyit/Kerayitler adlı madde YOK (5 yazımla arandı, sonuç boş); TDV yalnız Cengiz Han md.'de anar. f=1007: Golden bunu HIRİSTİYANLAŞMA tarihi olarak verir (\"converted, ca. 1007\"), devletin kuruluşu değil; Moğol kaynaklarında hanlık yapısı (Toğrul/Ong Han) XII. yüzyılın ikinci yarısına aittir. Atlas künyesi f=1199 (mevcut kerayit 1199-1203, baskent \"bulunamadı\") siyasî yükselişi (Toğrul) gösteriyor olabilir; \"kuruluş\" olarak hangisi kabul edilirse künye değişir — Emre kararı (Emre'nin notu: bozkırda ~1007 olmalı). Kuruluş yılı yazılı hiçbir kaynakta doğrudan okunmadı. t=1203 TDV Cengiz Han md. ile destekli.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "kerayit",
-   "not": "f yuzyillik fark"
+   "not": "Atlas künyesi 1199-1203; kaynakta f=1007 (Hıristiyanlaşma, 192 yıl önce), t=1203 uyumlu. Künye genişletilmeli (siyasî birlik olarak 1007'ye çekilmesi kuruluşun kanıtı değil)."
   }
  },
  {
   "id": "karahitay",
-  "ad": "Karahitaylar (Bati Liao)",
+  "ad": "Karahıtaylar (Batı Liao)",
   "tur": "devlet",
   "bolge": "orta-asya",
-  "f": "1124-01-01",
-  "t": "1218-01-01",
+  "f": "1130-01-01",
+  "t": "1211-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
   },
   "baskent": "Balasagun",
-  "etkin_bolge": "Yedisu",
+  "etkin_bolge": "Doğu ve Batı Türkistan: Balasagun, Kâşgar, Beşbalık, Hoten; Ceyhun'a dek",
   "sehirler": [
-   "Balasagun"
+   "Balasagun",
+   "Kâşgar",
+   "Beşbalık",
+   "Hoten"
   ],
-  "ozet": "Yelu Dashi 1124'te Liao'dan kacti; Gurhan unvani 1132/1134; Kucluk 1211, Mogol 1218.",
+  "ozet": "Yeh-lü Ta-şi'nin 1130 baharında Tarbagatay'dan güneybatıya yönelip Balasagun'u alarak kurduğu Liao kökenli devlet; Katvan (1141) zaferiyle Sencer'i yendi; 1211'de Küçlüğ'ün kayınpederi Ch'e-lu-ku'yu esir alıp devleti sona erdirmesiyle bitti.",
   "oncul": [
    "liao"
   ],
@@ -58,15 +62,14 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] Barfield, T., The Perilous Frontier: Nomadic Empires and China, Blackwell, 1989",
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+   "TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"Karahıtaylar\" md., 2001, https://islamansiklopedisi.org.tr/karahitaylar (\"Moğol devleti (1130-1211)\"; \"Karahıtay Devleti'ni kurdu (1130)\"; \"Katvân savaşı 5 Safer 536 / 9 Eylül 1141\"; \"devlete son verdi (1211)\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut 1130-1211.",
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değerleri f=1124, t=1218 düzeltildi. TDV: 1128 ilk giriş (Doğu Karahanlı Ahmed'e yenildi), kuruluş 1130; son 1211 (Küçlüğ). 1124 = Yeh-lü Ta-şi'nin Liao'dan ayrılışı (Çin okulu; TDV dışında, bu oturumda okunmadı). 1218 = Cebe Noyan'ın Küçlüğ yönetimindeki Karahıtay topraklarını ele geçirmesi (TDV Cengiz Han md.): devlet 1211'de biter, 1211-1218 Küçlüğ (Nayman) yönetimi ayrı evre. Gürhan unvanı yılı bu oturumda okunmadı. CIN_D liao-hanedani ayrı polity (Kuzey Liao).",
   "esleme": {
-   "durum": "var-f-t-farkli",
+   "durum": "var",
    "mevcut_id": "karahitay",
-   "not": "f 6, t 7 yil"
+   "not": "f/t TDV ile uyumlu (1130-1211)."
   }
  },
  {
@@ -80,27 +83,27 @@
    "f": "belirsiz",
    "t": "yil"
   },
-  "baskent": "Altay",
-  "etkin_bolge": "Altay-Hangay",
+  "baskent": "bilinmiyor",
+  "etkin_bolge": "Batı Moğolistan (Altay çevresi)",
   "sehirler": [
-   "-"
+   "—"
   ],
-  "ozet": "Tayang Han 1204'te Cengiz'e yenildi.",
+  "ozet": "Altay çevresinde Tayang Han'ın başında olduğu Moğol dilli (Uygur kültüründen etkilenmiş) boylar birliği; 1204'te Temuçin'e yenildi, kalıntısı Küçlüğ ile Karahıtay'a geçti.",
   "oncul": [],
   "ardil": [
    "mogol-imparatorlugu"
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004",
-   "[aday kaynak, acilmadi] Atwood, C.P., Encyclopedia of Mongolia and the Mongol Empire, Facts on File, 2004"
+   "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han (\"1204 yılında Ongut Hükümdarı Alakuş Tigin, Timuçin'e haber göndererek Nayman Hükümdarı Tayang Han'ın Merkit Hükümdarı Kutuku ile anlaşma yaptığını... bildirdi. Timuçin süratle hazırlıklarını tamamlayarak müttefik kuvvetleri yurtlarında bastı ve hepsini dağıttı\") (bu oturumda okundu)",
+   "Peter B. Golden, An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992 (archive.org golden_202303, tam metin, bu oturumda okundu) — \"The powerful Naiman confederation (of 8 tribes?) controlled Western Mongolia... maintained close ties with and were influenced culturally by the Uygurs\" (s. 285)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil yok; mevcut f=1199.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f kaynakta YOK (null; \"yıl bilinmiyor\"). t=1204 (TDV Cengiz Han md.); aynı madde 1206'da Tayang Han'ı da hâkimiyeti altına almış sayar, 1204 saldırı, 1206 kurultay. Atlas künyesi f=1199 kaynaksız. Naymanlar'ın Türk mü Moğol mu olduğu tartışmalıdır (Golden: eliti belki Türk kökenli, Moğolca konuşuyor).",
   "esleme": {
-   "durum": "var-f-t-farkli",
+   "durum": "var",
    "mevcut_id": "nayman",
-   "not": ""
+   "not": "t uyumlu (1204); atlas f=1199 kaynakta yok."
   }
  },
  {
@@ -109,32 +112,31 @@
   "tur": "konfederasyon",
   "bolge": "sibirya-bozkir",
   "f": null,
-  "t": "1205-01-01",
+  "t": "1209-01-01",
   "kesinlik": {
    "f": "belirsiz",
-   "t": "onyil"
+   "t": "yil"
   },
-  "baskent": "Selenga",
-  "etkin_bolge": "Selenga",
+  "baskent": "yok",
+  "etkin_bolge": "Selenga ve Orta Orhon (Baykal güneyi)",
   "sehirler": [
-   "-"
+   "—"
   ],
-  "ozet": "Cengiz'in esi Borte'yi kacirmakla bilinir.",
+  "ozet": "Selenga çevresinde Merkit boylar birliği; Temuçin'in eşi Börte'yi kaçırmakla (1190'lar) bilinir; 1204'te Kutuku-Beki ile Naymanlarla ittifak ederek dağıtıldı, en geç 1209'a dek Cengiz'in idaresine girdi.",
   "oncul": [],
   "ardil": [
    "mogol-imparatorlugu"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004",
-   "[aday kaynak, acilmadi] Atwood, C.P., Encyclopedia of Mongolia and the Mongol Empire, Facts on File, 2004"
+   "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han (\"Börte-Fuçin, Merkitler tarafından esir alındı\"; \"1197'de Merkitler üzerine yürüyerek\"; \"1209 yılına kadar sırasıyla Kırgız, Merkit, Nayman ve Uygurlar'ı idaresine aldı\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil yok.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri t=1205 kaynakla örtüşmedi: TDV Cengiz Han md. Merkit hükümdarı Kutuku-Beki'yi 1204 saldırısında dağıtılanlar arasında sayar, 1206'da \"bütün bozkır hükümdarları\" hâkimiyet altında der ve 1209'a kadar Merkit'in idareye alındığını yazar — kesin yıl vermez; t=1209 \"en geç\" sınırdır. f yok. Siyasî birim mi boy mu: Han (Kutuku/Toktoa) önderliğinde birlikte hareket ettiğinden kayıtta tutuldu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok."
   }
  },
  {
@@ -149,31 +151,32 @@
    "t": "yil"
   },
   "baskent": "yok",
-  "etkin_bolge": "Buyir Golu",
+  "etkin_bolge": "Doğu Moğolistan, Buyur Gölü çevresi",
   "sehirler": [
-   "-"
+   "—"
   ],
-  "ozet": "Orhon yazitlarindan Cengiz'e kadar; 1202'de dagitildi.",
+  "ozet": "Orhon yazıtlarından (Otuz/Tokuz Tatar) Cengiz Han'a kadar anılan Doğu Moğolistan boylar birliği; Temuçin'in babasını zehirlediği rivayet edilir; 1202'de Dalan Nemürges'te bozguna uğratıldı.",
   "oncul": [],
   "ardil": [
    "mogol-imparatorlugu"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004",
-   "[aday kaynak, acilmadi] Atwood, C.P., Encyclopedia of Mongolia and the Mongol Empire, Facts on File, 2004"
+   "TDV İslâm Ansiklopedisi, Faruk Sümer, \"Tatarlar\" md., 2011, https://islamansiklopedisi.org.tr/tatarlar (\"Cengiz Han it yılında (1202) Tatarlar'ı Dalan Nemürges'te ağır bir yenilgiye uğrattı\"; Orhon kitâbelerinde Otuz Tatar, Tokuz Tatar) (bu oturumda okundu)",
+   "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han (\"Timuçin 1202 yılında Tatar ili üzerine büyük bir sefer yaparak düşmanlarına ağır bir darbe vurdu\") (bu oturumda okundu)",
+   "W. Barthold, Turkestan Down to the Mongol Invasion, 2. bs., Luzac, 1928 (archive.org tam metin, bu oturumda okundu) — Buyur-Nor Tatarları, Çin hükümetinin Tatarlara karşı Kerait ve Moğolları kışkırtması"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil yok.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f yok (null; Orhon yazıtlarında Bumın cenazesine temsilci gönderen Otuz Tatar VI. yüzyıl anısı — siyasî birim kuruluş tarihi değil). t=1202 iki TDV maddesinde (Tatarlar, Cengiz Han) aynı. Boy adı → siyasî birim mi: Tatar önderleri Çin'le ittifak ettiğinden birlik niteliği var ama zayıf; ana oturum kararı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok."
   }
  },
  {
   "id": "kamag-mogol",
-  "ad": "Kamag Mogol (Cengiz oncesi Mogol Hanligi)",
+  "ad": "Kamag Moğol (Cengiz öncesi Moğol Hanlığı)",
   "tur": "hanlik",
   "bolge": "orta-asya",
   "f": "1130-01-01",
@@ -182,12 +185,12 @@
    "f": "onyil",
    "t": "yil"
   },
-  "baskent": "Burkan Kaldun",
-  "etkin_bolge": "Onon-Kerulen",
+  "baskent": "yok",
+  "etkin_bolge": "Onon-Kerulen havzası (Doğu Moğolistan)",
   "sehirler": [
-   "-"
+   "—"
   ],
-  "ozet": "Kabul Han (~1130'lar); Kutula, Yesugey, Temucin; 1206 Kurultay.",
+  "ozet": "Kabul Han'ın (1130'lar?) önderliğinde Kin'e karşı oluşan Moğol birliği; Ambagay, Kutula, Yesügey ve Temuçin dönemleri; 1206 kurultayında Cengiz Han unvanıyla Moğol İmparatorluğu'na dönüştü.",
   "oncul": [
    "xianbei"
   ],
@@ -196,20 +199,21 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004",
-   "[aday kaynak, acilmadi] Atwood, C.P., Encyclopedia of Mongolia and the Mongol Empire, Facts on File, 2004"
+   "Peter B. Golden, An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992 (archive.org golden_202303, tam metin, bu oturumda okundu) — \"political unity... under Qabul (1130's ?), to whom the Secret History accords the title Qagan\"",
+   "René Grousset, The Empire of the Steppes: A History of Central Asia, Rutgers University Press, 1970 (archive.org tam metin, bu oturumda okundu) — \"federation under their khan Qabul... (1135, 1139)\", Kin ile savaşlar; Kin 1147 sınır ödünleri",
+   "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han (\"1206 yılında... Onon ırmağı kıyısında aynı yıl yapılan kurultay\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f onyil duzeyi (Gizli Tarih/Rasidüddin).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f=1130: Golden \"1130'ler (soru işaretli)\", Grousset 1135-1139 savaşları. \"Kamag Moğol\" adı (Hamag) bu oturumda kaynakta ADIYLA okunmadı; yalnız Kabul Han federasyonu. Golden'e göre birlik zayıf (\"Mongol internecine strife... cut short further political growth\"). Kuruluş = Kabul Han'ın kağan sayılması (Gizli Tarih), Moğol-Kin savaşı değil. t=1206 TDV (Cengiz Han md.).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok; mogol-imparatorlugu (1206) öncülü."
   }
  },
  {
   "id": "ongut",
-  "ad": "Ongutler",
+  "ad": "Öngütler (Ongut)",
   "tur": "hanlik",
   "bolge": "dogu-asya",
   "f": null,
@@ -218,31 +222,31 @@
    "f": "belirsiz",
    "t": "yil"
   },
-  "baskent": "Tianshan (Hohhot)",
-  "etkin_bolge": "Kuzey Cin siniri",
+  "baskent": "yok",
+  "etkin_bolge": "Kuzey Çin sınırı (taslak)",
   "sehirler": [
-   "-"
+   "—"
   ],
-  "ozet": "Cengiz'e 1204'te baglandi.",
+  "ozet": "Hükümdarı Alakuş Tigin olan Ongut boyu; 1204'te Temuçin'e Nayman-Merkit ittifakını bildirerek Cengiz'in müttefiki oldu.",
   "oncul": [],
   "ardil": [
    "mogol-imparatorlugu"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "[aday kaynak, acilmadi] Atwood, C.P., Encyclopedia of Mongolia and the Mongol Empire, Facts on File, 2004"
+   "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han (\"1204 yılında Ongut Hükümdarı Alakuş Tigin, Timuçin'e haber göndererek...\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil yok.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV Cengiz Han md. Alakuş Tigin'i \"Ongut Hükümdarı\" olarak anar (1204). Taslak t=1211 (Jin seferi) bu oturumda okunmadı; ozet'teki \"1204'te bağlandı\" ile t=1211 tutarsız — 1204 ittifak, bağımsızlık sonu için kaynak yok. Küçük/yarı-bağımsız birim: kayıt zayıf.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcutta yok"
+   "not": "Atlasta yok."
   }
  },
  {
   "id": "harizmsah",
-  "ad": "Harizmsahlar (Anustegin)",
+  "ad": "Hârizmşahlar (Anuş Tegin hânedanı)",
   "tur": "sultanlik",
   "bolge": "orta-asya",
   "f": "1097-01-01",
@@ -251,29 +255,32 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Gurgenc",
-  "etkin_bolge": "Harezm-Horasan",
+  "baskent": "Gürgenç → Semerkant (1212) → Tebriz (Celâleddin, 1225)",
+  "etkin_bolge": "Hârizm, Mâverâünnehir, İran",
   "sehirler": [
-   "Gurgenc"
+   "Gürgenç",
+   "Semerkant",
+   "Buhara",
+   "Nîşâbur"
   ],
-  "ozet": "",
+  "ozet": "Selçuklu Horasan valisi Habeşî'nin 490/1097'de Anuş Tegin'in oğlu Kutbüddin Muhammed'i Hârizm valisi tayin etmesiyle kurulan hânedan; Atsız (1128-1156) ile Selçuklu tâbiiyetinden fiilen sıyrılmaya başladı; TDV künyesine göre 1231'de sona erdi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+   "TDV İslâm Ansiklopedisi, Aydın Taneri, \"Hârizmşahlar\" md., 1997, https://islamansiklopedisi.org.tr/harizmsahlar (\"Hârizm ve İran'da 1097-1231 yılları arasında hüküm süren Türk-İslâm hânedanı\"; \"Hârizmşahlar hânedanı kurulmuş oldu (490/1097)\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV: 1097-1231; kuruluş 490/1097 (Kutbüddin Muhammed vali tayini; fiilî bağımsızlık Atsız 1128-1156 ve sonrası). Kuruluş = vali tayini (Selçuklu tâbi).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "harizmsah",
-   "not": ""
+   "not": "f/t TDV ile uyumlu."
   }
  },
  {
   "id": "mogol-imparatorlugu",
-  "ad": "Mogol Imparatorlugu",
+  "ad": "Moğol İmparatorluğu (bölünmemiş)",
   "tur": "imparatorluk",
   "bolge": "dogu-asya",
   "f": "1206-01-01",
@@ -283,11 +290,11 @@
    "t": "yil"
   },
   "baskent": "Karakurum",
-  "etkin_bolge": "Avrasya",
+  "etkin_bolge": "Moğolistan ve fethedilen Avrasya",
   "sehirler": [
    "Karakurum"
   ],
-  "ozet": "1206 kurultay.",
+  "ozet": "Temuçin'in 1206 kurultayında Cengiz Han unvanıyla kağan seçilmesiyle başlayan; Ögedey döneminde Batı seferiyle (1237-1241) genişleyen, Kubilay ile Arık-Buka arasındaki mücadele sonrasında parçalanan birleşik imparatorluk.",
   "oncul": [
    "kamag-mogol"
   ],
@@ -297,19 +304,20 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004"
+   "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han (\"Moğol İmparatorluğu'nun kurucusu ve ilk hükümdarı (1206-1227)\"; \"Cengiz Han kağan seçildiği 1206 kurultayında\") (bu oturumda okundu)",
+   "TDV İslâm Ansiklopedisi, Mehmet Saray, \"Altın Orda Hanlığı\" md., 1989, https://islamansiklopedisi.org.tr/altin-orda-hanligi (\"Çağatay Han ve Ögedey Kağan'ın 1241 yılında birbiri ardınca ölmeleri\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f=1206 TDV Cengiz Han md. ile destekli. t=1260 (Kubilay'ın büyük han ilânı / bölünme) bu oturumda kaynakta tarihlenmedi: TDV Çağatay Hanlığı md. Kubilay'ı Arık-Buka ve Kaydu'ya karşı \"Büyük Han\" olarak tanınan hükümdar sayar ama yıl vermez. \"Bölünmemiş\" tanımı atlasın kendi kategorisidir. Kuruluş tarihi yeri: Onon kurultayı (TDV: \"Onon ırmağı kıyısında\").",
   "esleme": {
    "durum": "var",
    "mevcut_id": "mogol-imparatorlugu",
-   "not": ""
+   "not": "f uyumlu (1206); t=1260 kaynakta okunmadı."
   }
  },
  {
   "id": "kipcak",
-  "ad": "Kipcaklar (Kumanlar)",
+  "ad": "Kıpçaklar (Kumanlar) — Deşt-i Kıpçak",
   "tur": "boylar-birligi",
   "bolge": "sibirya-bozkir",
   "f": "1054-01-01",
@@ -319,11 +327,11 @@
    "t": "yil"
   },
   "baskent": "yok",
-  "etkin_bolge": "Dest-i Kipcak",
+  "etkin_bolge": "Orta Asya'dan İtil-Yayık, Don-Donets, Aşağı Dinyeper ve Tuna'ya uzanan bozkır",
   "sehirler": [
-   "-"
+   "—"
   ],
-  "ozet": "",
+  "ozet": "Rus yıllıklarında ilk defa 1054'te \"Polovtsı\" adıyla anılan Kıpçakların Oğuzların batıya çekilmesi (1048) üzerine Güney Rusya'ya hâkim olduğu boylar birliği; 1223 Kalka, 1239 Köten'in Macaristan'a sığınması ile Moğol istilâsında dağıldı.",
   "oncul": [
    "kimek"
   ],
@@ -332,20 +340,19 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+   "TDV İslâm Ansiklopedisi, Muallâ Uydu Yücel, \"Kıpçaklar\" md., 2022, https://islamansiklopedisi.org.tr/kipcaklar (\"Rus yıllıklarında ilk defa 1054 yılında Polovtsı adıyla zikredilen\"; \"1223 yılında meydana gelen Kalka savaşı\"; \"Başbuğ Köten... Macaristan'a sığındılar (1239)\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "f=1054: TDV'ye göre Rus yıllıklarındaki İLK ANILIŞ, devletin kuruluş tarihi değil (Kıpçak/Kimek varlığı çok daha eskidir; bkz. kimek). t=1239 Köten'in kaçışı; Kıpçak hâkimiyeti Altın Orda'nın Deşt-i Kıpçak'ı almasıyla (1241) biter. Siyasî birim değil, boylar birliği (merkezî hükümdar yok, başbuğlar).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "kipcak",
-   "not": ""
+   "not": "f/t TDV ile uyumlu."
   }
  },
  {
   "id": "gurlu",
-  "ad": "Gurlular",
+  "ad": "Gurlular (Şensebânîler)",
   "tur": "sultanlik",
   "bolge": "orta-asya",
   "f": "1000-01-01",
@@ -354,29 +361,31 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Firuzkuh",
-  "etkin_bolge": "Gur",
+  "baskent": "Estiyâ → Fîrûzkûh (Gazne ikinci merkez, 1173'ten)",
+  "etkin_bolge": "Gur dağlık bölgesi, Horasan, Afganistan, Kuzey Hindistan",
   "sehirler": [
-   "Firuzkuh"
+   "Fîrûzkûh",
+   "Gazne",
+   "Estiyâ"
   ],
-  "ozet": "",
+  "ozet": "Gur bölgesinde yerel Şensebânî melikleri; Melik İzzeddin Hüseyin ve halefi Seyfeddin Sûrî'nin Gazne Sultanı Behram Şah'ı yenip \"sultan\" unvanını almasıyla (1148) yükseldi; TDV künyesine göre 1215'te sona erdi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+   "TDV İslâm Ansiklopedisi, Iqtidar Husain Siddiqui, \"Gurlular\" md., 1996, https://islamansiklopedisi.org.tr/gurlular (\"Horasan, Afganistan ve Kuzey Hindistan'da hüküm süren bir İslâm hânedanı (1000-1215)\"; \"Melik İzzeddin Hüseyin ve halefi Seyfeddin Sûrî, Gazne Sultanı Behram Şah'ı yenerek \\\"sultan\\\" unvanını aldılar (1148)\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV künyesi 1000-1215. Hânedanın siyasî olarak belirginleşmesi XI. yüzyıl ortası (Abbas, İbrâhim 1059-1099 dönemi) ve 1148 sultan unvanı; f=1000 TDV künye aralığı (kaynakta ayrıca kuruluş yılı yok). t=1215 TDV künyesi; son Gurlu Mahmûd'un Hârizmşahlar eliyle düşüşü bu oturumda tek tek okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "gurlu",
-   "not": ""
+   "not": "f/t TDV künyesi ile uyumlu."
   }
  },
  {
   "id": "cagatay",
-  "ad": "Cagatay Hanligi",
+  "ad": "Çağatay Hanlığı",
   "tur": "hanlik",
   "bolge": "orta-asya",
   "f": "1227-01-01",
@@ -385,64 +394,68 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Almalik",
-  "etkin_bolge": "Maveraunnehir",
+  "baskent": "Almalık / Karşi (Nahşeb)",
+  "etkin_bolge": "Mâverâünnehir, Yedisu, Doğu Türkistan",
   "sehirler": [
-   "Almalik"
+   "Almalık",
+   "Karşi",
+   "Kâşgar"
   ],
-  "ozet": "",
+  "ozet": "Cengiz Han'ın oğlu Çağatay'ın ulusundan çıkan, Algu Han (1260-1266) ile bağımsızlaşan hanlık; Kebek (1320-1326) Karşi'yi merkez seçti; 1370'lerde Timur Mâverâünnehir'e fiilen hâkim oldu.",
   "oncul": [
    "mogol-imparatorlugu"
   ],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004"
+   "TDV İslâm Ansiklopedisi, Abdülkadir Yuvalı, \"Çağatay Hanlığı\" md., 1993, https://islamansiklopedisi.org.tr/cagatay-hanligi (\"1227-1370 yılları arasında Mâverâünnehir, Yedisu ve Doğu Türkistan'da hüküm süren bir hânedan\"; \"Algu... Çağatay Hanlığı'nın gerçek kurucusu kabul edilmektedir\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV künyesi 1227-1370. \"Gerçek kurucu\" Algu (1260-1266) ve Kaydu'nun 1269 sonrası Ögedeyî hâkimiyeti — Çağatay'ın bağımsız hanlık olarak başlangıcı için 1227 (ulus) / ~1260 (Algu) iki okuma. Atlas 1227 kullanıyor. t=1370: Timur 1370'lerde fiilî hâkim; Çağatay soyundan isimsiz hanlar XV. yüzyıla dek (TDV).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "cagatay",
-   "not": ""
+   "not": "f/t TDV künyesi ile uyumlu."
   }
  },
  {
   "id": "altinorda",
-  "ad": "Altin Orda",
+  "ad": "Altın Orda (Deşt-i Kıpçak Hanlığı)",
   "tur": "hanlik",
   "bolge": "sibirya-bozkir",
-  "f": "1242-01-01",
+  "f": "1241-01-01",
   "t": "1502-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
   },
   "baskent": "Saray",
-  "etkin_bolge": "Kipcak bozkiri",
+  "etkin_bolge": "Deşt-i Kıpçak: Aşağı İdil, Doğu Avrupa, Batı Sibirya",
   "sehirler": [
-   "Saray"
+   "Saray",
+   "Bulgar",
+   "Kırım"
   ],
-  "ozet": "",
+  "ozet": "Batu Han'ın 1237-1241 Avrupa seferinden sonra 1241'de İdil'in aşağı mecrasında \"Orda\" merkezini (Saray) kurmasıyla başlayan Türk-Moğol devleti; Berke (1256-1266) ile İslâm'a yöneldi; TDV künyesine göre 1502'de sona erdi.",
   "oncul": [
    "mogol-imparatorlugu"
   ],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004"
+   "TDV İslâm Ansiklopedisi, Mehmet Saray, \"Altın Orda Hanlığı\" md., 1989, https://islamansiklopedisi.org.tr/altin-orda-hanligi (\"1241-1502 yılları arasında Deştikıpçak'ta hüküm süren bir Türk-Moğol devleti\"; \"Batu Han ... 1241 yılında İdil nehrinin aşağı mecrasına dönerek \\\"Orda\\\" merkezini kurdu\") (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "okundu",
+  "ic_not": "TDV künyesi 1241-1502; atlas künyesi 1242. TDV Batu Han'ı 1227'den (Cengiz'in ölümü ve Cuci ulusu) hükümdar sayar; 1241 = Saray/Orda merkezinin kurulması ve 1241 Çağatay-Ögedey ölümleriyle fiilî bağımsızlık. t=1502 TDV künyesindedir (ayrıntılı son olay bu oturumda okunmadı).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "altinorda",
-   "not": ""
+   "not": "f 1 yıl farkli (TDV 1241, atlas 1242); t uyumlu."
   }
  },
  {
   "id": "ogedey-ulusu",
-  "ad": "Ogedey Ulusu",
+  "ad": "Ögedey Ulusu (Ögedeyîler, Kaydu)",
   "tur": "hanlik",
   "bolge": "orta-asya",
   "f": "1267-01-01",
@@ -451,24 +464,63 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "-",
-  "etkin_bolge": "Tarbagatay",
+  "baskent": "bilinmiyor (İli havzası)",
+  "etkin_bolge": "İli havzası, Tarbagatay, Talas çevresi",
   "sehirler": [
-   "-"
+   "—"
   ],
-  "ozet": "",
+  "ozet": "1269 Talas kurultayından sonra Ögedey soyundan Kaydu'nun İli havzasını Çağatay Hanlığı'ndan alıp Çağatay hanları üzerinde mutlak hâkimiyet kurduğu ulus; Kaydu'nun ölümü (1303) ve 1309 Çağatay kurultayıyla İsen Buka'nın han seçilmesi ile sona erdi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004"
+   "TDV İslâm Ansiklopedisi, Abdülkadir Yuvalı, \"Çağatay Hanlığı\" md., 1993, https://islamansiklopedisi.org.tr/cagatay-hanligi (\"Kaydu, Çağatay Hanlığı üzerinde mutlak bir hâkimiyet kurdu... Kaydu'nun (ö. 1303) vasalı\"; 1309 kurultayında İsen Buka han seçildi) (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f=1267 bu oturumda kaynakta okunmadı (TDV: Kaydu'nun hâkimiyeti 1269 Talas kurultayından SONRA; atlasta ayrı kayıt ogedey-ulusu-kaydu f=1271). t=1309 TDV'nin 1309 kurultayı ile uyumlu (Çağatay-Ögedey birleşmesi), kesin son yıl değildir. MÜKERRER (atlas içi): `ogedey-ulusu` (1267-1309) ile `ogedey-ulusu-kaydu` (1271-1309) aynı polity — birleştirilmeli.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "ogedey-ulusu",
-   "not": ""
+   "not": "MÜKERRER çifti: ogedey-ulusu-kaydu (1271-1309); f kaynakta 1269 sonrası."
+  }
+ },
+ {
+  "id": "kuclug-karahitay",
+  "ad": "Küçlüğ Yönetimindeki Karahıtay (Nayman Küçlüğ)",
+  "tur": "devlet",
+  "bolge": "orta-asya",
+  "f": "1211-01-01",
+  "t": "1218-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Balasagun (taslak)",
+  "etkin_bolge": "Karahıtay toprakları: Balasagun, Kâşgar, Hoten",
+  "sehirler": [
+   "Balasagun",
+   "Kâşgar",
+   "Hoten"
+  ],
+  "ozet": "Nayman prensi Küçlüğ'ün kayınpederi Gürhan Ch'e-lu-ku'yu esir alıp Karahıtay tahtına el koyduğu (1211) ve Cebe Noyan'ın Moğol ordusunun topraklarını aldığı (1218) kısa devre.",
+  "oncul": [
+   "karahitay"
+  ],
+  "ardil": [
+   "mogol-imparatorlugu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, Ahmet Taşağıl, \"Karahıtaylar\" md., 2001, https://islamansiklopedisi.org.tr/karahitaylar (\"Küçlüğ kayınpederi Ch'e-lu-ku'yu esir ederek bu devlete son verdi (1211)\") (bu oturumda okundu)",
+   "TDV İslâm Ansiklopedisi, Mustafa Kafalı, \"Cengiz Han\" md., 1993, https://islamansiklopedisi.org.tr/cengiz-han (\"Cebe Noyan vasıtasıyla eski düşmanı Güçlüg'ün yönetimine giren Karahıtay topraklarını ele geçirdi (1218)\") (bu oturumda okundu)",
+   "Peter B. Golden, An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992 (archive.org golden_202303, tam metin, bu oturumda okundu) — \"Küclüg, the fugitive Naiman prince who had taken over the Qara Qitay realm\""
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "TDV Karahıtaylar md. devleti 1211'de bitmiş sayar; Küçlüğ dönemi (1211-1218) Karahıtay'ın fiilî devamı olarak ayrı kayıt aday: kısa, küçük polity. Başkent Balasagun bu oturumda okunmadı (taslak). Karahıtay kaydı (karahitay) 1130-1211 ile ardışık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlasta yok; ana künye karahitay 1130-1211."
   }
  }
 ]

@@ -19,13 +19,16 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Kalhana'ya bağlı. Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Kashmir: First Lohara Dynasty / Second Lohara Dynasty / Advent of the Muslim Rule» (s. 97-101); Giriş-Kronoloji (Didda 980-1003)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. VI: The Delhi Sultanate, Bharatiya Vidya Bhavan, Bombay 1960 (archive.org: delhisultanate00bhar, tam metin okundu), «C. Kashmir: End of Hindu Rule» (Suhadeva, Rinchana, Udayanadeva, Shams-ud-din)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar V: Lohara hanedanı Keşmir'de 11. yüzyılın ilk yıllarında iktidara geldi (kronolojide Kraliçe Didda 980-1003); ilk kral Samgramaraja; Hariraja 1028; Ananta 1063'e kadar; II. Lohara hanedanı Uchchala (1111 öldü); Vuppadeva, Jassaka (1181), Jagadeva (1199), Rajadeva (1213), Samgramadeva (1236), Ramadeva (1252), Lakshmadeva (1273; 1286'da öldürüldü), Simhadeva, Suhadeva (1301'de tüm Keşmir üzerinde; 1320'de öldü). t=1320: Suhadeva'nın ölümü; Rinchana (Tibetli; 1323'e kadar), Udayanadeva (1338'e kadar) ve Şah Mir/Shams-ud-din (1338-39) geçiş evresi — Hindu Lohara çizgisi 1320'de kesilir, Majumdar VI 'End of Hindu rule in Kashmir' başlığı altında 1339'a uzar. Mevcut 'kesmir' künyesi f=1000 ile 1586 arasını tek künyede toplar (Şah Mir 1339+). Karar ana oturumda: tek 'kesmir' künyesi ya da Lohara (1003-1320) ayrı. Taslak ic_not: Kalhana'ya bağlı.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "kesmir",
-   "not": "Mevcut 1000 Sultanlık."
+   "not": "kesmir künyesi (1000–1586) Lohara+Şah Mir birleşik; f=1003 doğrulandı, Lohara→Rinchana→Şah Mir geçişi 1320/1323/1338-39."
   }
  },
  {
@@ -33,7 +36,7 @@
   "ad": "Gaznelilerin Lahor Kolu",
   "tur": "sultanlik",
   "bolge": "guney-asya",
-  "f": "1151-01-01",
+  "f": "1157-01-01",
   "t": "1186-01-01",
   "kesinlik": {
    "f": "yil",
@@ -52,21 +55,25 @@
    "gurlu"
   ],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, «Gazneliler» maddesi, https://islamansiklopedisi.org.tr/gazneliler (bu oturumda okundu)",
+   "TDV İslâm Ansiklopedisi, «Gurlular» maddesi, https://islamansiklopedisi.org.tr/gurlular (bu oturumda okundu)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Punjab under the Yamini Dynasty» ve «The Ghurids» bölümleri (Khusrav Malik 1186)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV Gazneliler: Behram Şah 552'de (1157) öldü, yerine oğlu Hüsrev Şah geçti; Gurlular'ın yükselişi karşısında Hüsrev Şah Gazne'yi terk edip Lahor'a yerleşti ('Gazneliler bundan sonra Hindistan'daki topraklar üzerinde hüküm sürdü'); Hüsrev Şah 1160'ta öldü, oğlu Hüsrev Melik (555-582 / 1160-1186) Lahor'da; Gurlular hile ile Hüsrev Melik'i esir alıp devleti bitirdi (582/1186). TDV Gurlular: Hüsrev Melik 1186'ya kadar Muizzüddin'e karşı Lahor'u savundu; Hüsrev Melik ve oğlu 1192'de öldürüldü. Majumdar V: Muizzüddin 1186'da Khusrav Malik'i (son Yamini) devirdi. Lahor'a çekilişin kesin yılı TDV'de yok (Hüsrev Şah dönemi 1157-1160); f=1157 Hüsrev Şah'ın başa geçişi, Lahor-merkezli evre bu tarihte veya hemen sonra başladı. Taslak 1151 TDV'nin '547/1152 Behram Şah Gazne'de' bilgisiyle çelişir (1152'de Gazne hâlâ Gazneli). Taslak değer: f 1151",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "gazneli",
-   "not": "gazneli içinde."
+   "not": "mevcut 'gazneli' künyesi 963–1186; Lahor evresi aynı polity'nin Hint kolu — künye genişletmeye gerek yok, yalnız sahne/kronoloji notu."
   }
  },
  {
   "id": "gurlu-hint",
-  "ad": "Gurlu Hint Toprakları (Muizzüddin Muhammed)",
+  "ad": "Gurlu Hindistan Toprakları (Mültan-Lahor-Delhi)",
   "tur": "sultanlik",
   "bolge": "guney-asya",
-  "f": "1186-01-01",
+  "f": "1175-01-01",
   "t": "1206-01-01",
   "kesinlik": {
    "f": "yil",
@@ -86,13 +93,18 @@
    "delhi-sultanligi"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, «Gurlular» maddesi, https://islamansiklopedisi.org.tr/gurlular (bu oturumda okundu)",
+   "TDV İslâm Ansiklopedisi, «Sind» maddesi, https://islamansiklopedisi.org.tr/sind (bu oturumda okundu)",
+   "TDV İslâm Ansiklopedisi, «Mültan» maddesi, https://islamansiklopedisi.org.tr/multan (bu oturumda okundu)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Turkish Conquest of Northern India: The Ghurids» (Multan ve Uch 1175; Sumra 1182)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "TDV Gurlular: Muizzüddin Muhammed Mültan'ı ve Uç'u aldı (571/1175-76); Sind'e 1182'de girdi (Aşağı Sind Karmatîlerden temizlendi); Peşâver 1178-80; Lahor 1186; Tarain 1191-92; Muizzüddin Demyek'te bir İsmâilî fedaisi tarafından 602/1206'da öldürüldü. Majumdar V: Multan ve Uch 1175'te Karmatî şeflerinden alındı; 1182'de aşağı Sind'in Sumra şefi Muizzüddin'in üstünlüğünü kabul etti (çift teyit). f=1175 (hicrî 571 ∩ 1175-76 → 1175); t=1206 (602/1206; Kutbüddin Aybeg Delhi sultanlığı bu yıldan). Mevcut 'gurlu' künyesi 1000–1215 bütün Gurlu devletini kapsar; Hint toprakları ona dâhil (yalnız sahne notu). Taslak değer: f 1186",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "gurlu",
-   "not": "Gurlu içinde."
+   "not": "Hint kolu 'gurlu' künyesinin parçası; ayrı künye gerekmez (1175–1206)."
   }
  },
  {
@@ -100,7 +112,7 @@
   "ad": "Sumra Hanedanı (Sind)",
   "tur": "hanedanlik",
   "bolge": "guney-asya",
-  "f": "1026-01-01",
+  "f": "1030-01-01",
   "t": "1351-01-01",
   "kesinlik": {
    "f": "onyil",
@@ -119,13 +131,17 @@
    "samma"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç 1011/1050 çelişir. Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. VI: The Delhi Sultanate, Bharatiya Vidya Bhavan, Bombay 1960 (archive.org: delhisultanate00bhar, tam metin okundu), «F. Sind: 1. The Sumras» (s. 221-223; A. K. Majumdar)",
+   "TDV İslâm Ansiklopedisi, «Sind» maddesi, https://islamansiklopedisi.org.tr/sind (bu oturumda okundu)",
+   "TDV İslâm Ansiklopedisi, «Gazneliler» maddesi, https://islamansiklopedisi.org.tr/gazneliler (bu oturumda okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar VI: Sumralar Gazneli I. Mesud'un saltanatı sırasında (TDV tablosu: I. Mesud 421/1030, II. Mesud 440/1049) isyan edip kendi kabilelerinden bir Sumra'yı tahta çıkardı: 'Sumralar hakkındaki ilk kesin anılış'; hanedanın toplam süresi Tarih-i Tahiri'ye göre 143 yıl, diğer yazarlarca 500-550 yıl; Duda 485/1092'de öldü; Singhar; Pithu (≥ 12. yy son çeyrek); Khafif/Hafif; 'Umar; Duda II; son kral Hamir Duda; 14. yüzyıl ortasında Sammalar'ın egemenliği devraldığı kesindir. TDV Sind: Hindu Semmâ kabilesi Sind'i zaptetti (1351). f=1030 yalnız I. Mesud saltanatı başlangıcı (en erken, ONYIL; 'Mesud döneminde' ifadesi); taslak 1026 desteklenmedi (1011/1050 varyantları da). t=1351 çift teyit (Majumdar 'yüzyıl ortası' + TDV 1351). Taslak değer: f 1026 Taslak ic_not: Başlangıç 1011/1050 çelişir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcut listede yok."
+   "not": "Mevcut listede yok (kabace 1206+)."
   }
  },
  {
@@ -133,8 +149,8 @@
   "ad": "Polonnaruwa Krallığı",
   "tur": "krallik",
   "bolge": "guney-asya",
-  "f": "1055-01-01",
-  "t": "1232-01-01",
+  "f": "1070-01-01",
+  "t": "1214-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -152,13 +168,15 @@
    "dambadeniya"
   ],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Ceylon» bölümü (s. 260-266; Vijayabahu I c.1055-1110, Çola boyunduruğundan kurtuluş ≈1070; Magha c.1214-35)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar V: Vijayabahu I (c. 1055-1110) Çola boyunduruğundan ≈1070'te Seylan'ı kurtardı; Polonnaruwa çağı bunu izleyen yüzyıl buçuk; Parakramabahu I c.1153-86; Nissankamalla c.1187-96; Parakrama Pandya c.1211-14'ü Magha (Kalinga/Kerala) c.1214-35 devirdi; 'Polonnaruwa dönemi Magha ile biter'. Sinhala krallığı olarak t=1214 (Magha'nın tahta çıkışı); Magha'nın işgali 1235'e kadar sürdü ve sonraki krallar Dambadeniya/Gampola'dan yönetti. Mevcut 'seylan-sinhala' (1070–1518) bu evreyi kapsıyor (f=1070 uyumlu). Taslak f=1055 Vijayabahu'nun başa geçişi (Rohana), t=1232 ise Dambadeniya'ya geçiş. Taslak değer: f 1055, t 1232",
   "esleme": {
-   "durum": "var-kisa",
+   "durum": "var",
    "mevcut_id": "seylan-sinhala",
-   "not": "Mevcut 1070–1518."
+   "not": "Polonnaruwa evresi seylan-sinhala (1070–1518) içinde; künye f=1070 doğru."
   }
  },
  {
@@ -181,9 +199,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Northern India during the 11th and 12th Centuries: Bihar — The Karnataka Dynasty of Mithila» (s. 47)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar V: 'Some time about A.D. 1097 Nanyadeva of the Karnataka dynasty established his supremacy' over Tirabhukti/Mithila (Chalukya Vikramaditya VI yardımıyla, belki Pala memuru iken; Sylvain Levi). f=1097 doğrulandı ('yaklaşık'); t=1324 (Tughluq/Ghiyas-ud-din Tirhut seferi) bu oturumda Majumdar'dan teyit edilmedi.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -196,7 +216,7 @@
   "tur": "hanedanlik",
   "bolge": "guney-asya",
   "f": "1156-01-01",
-  "t": "1184-01-01",
+  "t": "1181-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -210,13 +230,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Later Chalukyas and Kalachuris of Kalyana: 10. The Kalachuri Usurpation (A.D. 1156-1181)» (s. 179-182)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar V: Bijjala, Taila III'ten Kalyana'nın egemenliğini aldı (fiilen 1156; Taila III 1151-1156); Somesvara (Sovideva) 1165'ten ortak, 1168'de Bijjala tahttan çekildi; Sankama II; Ahavamalla; Somesvara IV 1181'de Kalyana dahil Dekan'ın büyük kısmını geri aldı (başlık: 1156-1181); Ahavamalla Belvola-Banavasi'yi iki yıl daha tuttu (son bilinen tarih 1183), sonra kardeşi Singhana. t=1181 Kalyana'nın kaybı; taslak 1184 artçı evre. Başkent Kalyana. Eşleme: Mevcut 'bati-calukya' (975–1189) Kalyani Çalukyalarını kapsar; bu kayıt onun içinde 25 yıllık Kalaçuri 'gasp' evresidir (ayrı polity sayılıp sayılmayacağı kararlı). Taslak değer: t 1184",
   "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Mevcut listede yok."
+   "durum": "var-kisa",
+   "mevcut_id": "bati-calukya",
+   "not": "bati-calukya (975–1189) içinde Kalachuri gasp evresi (1156–1181); ayrı künye olup olmayacağı karar."
   }
  },
  {
@@ -239,13 +261,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), Giriş (s. xxx) ve «The Chahamanas of Ranastambhapura» bölümü (Govindaraja 1192; Hammira 1301)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Majumdar V: 1192'de (II. Tarain) Prithviraja III yenildikten sonra Ranthambhor Çahamanaları (Govindaraja bağımsızlığı yeniden kurdu) 1301'e kadar, Hammiradeva'nın 'Ala-ud-din Khalji'ye karşı savaşta öldüğü ve kalenin düştüğü yıla kadar direndi. f=1192 (Govindaraja'nın bağımsızlığı; Tarain yılı), t=1301 çift beyan (giriş + bölüm).",
   "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Mevcut listede yok."
+   "durum": "var-kisa",
+   "mevcut_id": "cahamana",
+   "not": "Mevcut 'cahamana' (1000–1192) Şakambhari/Ecmîr kolu; Ranthambhor kolu 1192–1301 ayrı polity olarak eksik."
   }
  },
  {
@@ -254,7 +278,7 @@
   "tur": "hanedanlik",
   "bolge": "guney-asya",
   "f": "1244-01-01",
-  "t": "1304-01-01",
+  "t": "1299-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -268,13 +292,16 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), Giriş (Chaulukya ve Vaghelalar 940–1299) ve «The Chaulukyas of Gujarat» bölümü (Bhima II 1178-1239; Vaghela Dhavala/Visaladeva)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. VI: The Delhi Sultanate, Bharatiya Vidya Bhavan, Bombay 1960 (archive.org: delhisultanate00bhar, tam metin okundu), «Early Campaigns» (Ulugh Khan ve Nusrat Khan, 1298/99; Vaghela Karna)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar V: Chaulukyalar ve Vaghelalar birlikte 940–1299; Bhima II'nin yazıtları 1178–1239 (fiilî güç Bhimapalli'de Vaghela Dhavala ve ardılları, Lavanaprasada/Viradhavala, Visaladeva ≈1250'de Gujarat kralı olarak Dhara'yı talan etti). Majumdar VI: Vaghela Karna 1298'in ikinci yarısında 'Ala-ud-din'in generalleri Ulugh Khan ve Nusrat Khan'a yenildi, Anhilwara alındı; ikinci seferle 'son fetih' (Karna'nın akıbeti belirsiz). t=1299 Majumdar V başlığı (taslak 1304 ikinci sefer). f=1244 (Vaghela hâkimiyetinin tam başlangıcı) bu oturumda okunamadı: taslak. Taslak değer: t 1304",
   "esleme": {
    "durum": "ardil-var",
    "mevcut_id": "caulukya",
-   "not": "Caulukya devamı."
+   "not": "mevcut 'caulukya' künyesi t=1297 Vaghelaları kapsıyor; ayrı künye gerekmez (Majumdar: tek 'Chaulukya-Vaghela 940–1299' çizgisi)."
   }
  },
  {
@@ -297,9 +324,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Ceylon» bölümü (Tamil'lerin Jaffna krallığını kurduğu; Vijayanagara'ya bağlılık)"
+  ],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "ic_not": "Majumdar V: 'The Tamils founded the kingdom of Jaffna which for some time owed allegiance to the emperors of Vijayanagara' — varlığı doğrulandı fakat kuruluş ve bitiş yılı verilmedi (Magha'dan sonrası Tamil işgali). f=1215 (Magha) ve t=1619 (Portekiz fethi) bu oturumda kaynakla desteklenemedi → taslak.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -311,10 +340,10 @@
   "ad": "Dambadeniya Krallığı",
   "tur": "krallik",
   "bolge": "guney-asya",
-  "f": "1220-01-01",
-  "t": "1272-01-01",
+  "f": "1236-01-01",
+  "t": "1273-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Dambadeniya",
@@ -330,13 +359,15 @@
    "yapahuwa"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Ceylon» bölümü (Parakramabahu II c.1236-71; Vijayabahu IV c.1271-73; Bhuvanaikabahu I c.1273)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar V: Magha'dan sonra 'krallar çoğunlukla Dambadeniya (Kurunegala), Gampola vb. yerlerden hüküm sürdü'; Parakramabahu II c.1236-71 Polonnaruwa'yı geçici işgal etti; Vijayabahu IV c.1271-73 Polonnaruwa'dan; Pandyalar 13. yy sonunda adaya hâkimdi (Maravarman Kulasekhara 1268-1310). f=1236 (Parakramabahu II; Majumdar bu şehre özel tarih vermez), t=1273 (Bhuvanaikabahu I'in iktidarı). Taslak f=1220 (Vijayabahu III'ün yükselişi) ve t=1272 doğrulanamadı. Taslak değer: f 1220, t 1272",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "seylan-sinhala",
-   "not": "Zincir seylan-sinhala içinde."
+   "not": "seylan-sinhala (1070–1518) kapsıyor."
   }
  },
  {
@@ -361,13 +392,15 @@
   ],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Ceylon» bölümü (Bhuvanaikabahu I 1273)"
+  ],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "ic_not": "Majumdar V: 'Bhuvanaikabahu I is stated to have succeeded in gaining the throne about A.D. 1273' (Rajput paralı askerlerin etkisi); Yapahuwa şehir adı bu bölümde geçmedi → f=1272/t=1284 doğrulanamadı.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "seylan-sinhala",
-   "not": ""
+   "not": "seylan-sinhala (1070–1518) kapsıyor."
   }
  },
  {
@@ -375,7 +408,7 @@
   "ad": "Ahom Krallığı",
   "tur": "krallik",
   "bolge": "guney-asya",
-  "f": "1228-01-01",
+  "f": "1253-01-01",
   "t": "1826-01-01",
   "kesinlik": {
    "f": "yil",
@@ -391,9 +424,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Northern India during the 11th and 12th Centuries: Assam» (s. 44-45)",
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. VI: The Delhi Sultanate, Bharatiya Vidya Bhavan, Bombay 1960 (archive.org: delhisultanate00bhar, tam metin okundu), «D. Minor States: I. Assam» (s. 387-391)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar V: Ahomlar (Shan kolu) Sukapha önderliğinde Maulung'dan 1215'te yola çıktı, Patkai'yi aştı, 1253'te Charaideo'ya yerleşti; Suteupha 1281'de öldü; Subinpha; Sukhanghpha 1293-1332. Majumdar VI: ilk üç kralın saltanatları 1215-1293. Varyantlar: sefer başlangıcı 1215 (Majumdar), geleneksel 'Sukapha 1228' (Buranji; Gait) — bu oturumda akademik kaynakla okunmadı. f=1253 Majumdar'ın yerleşme (krallığın merkezi) yılıdır; t=1826 (Yandabo) 1281 sonrası, okunmadı. Taslak değer: f 1228",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -420,13 +456,15 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. VI: The Delhi Sultanate, Bharatiya Vidya Bhavan, Bombay 1960 (archive.org: delhisultanate00bhar, tam metin okundu), «D. Minor States: I. Assam — The Kingdom of Kamata» (s. 387-390)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar VI: Kamarupa krallığı Vallabhadeva'dan (1185'te tahtta) sonra 'çok belirsiz'; 13. yüzyıl sonunda 'yeni ad (Kamata) ve yeni hanedan' ile devam etti, başkent Kamatapur (Cooch Behar yakını); Bakhtyar 1205, Hisam-ud-din Iwaz 1227, Yuzbak 1257 saldırıları (ilk tanık 1257). Kamata 15. yüzyıl başında Khen hanedanıyla yeniden güçlendi. f=1257 ilk teyitli tanıklıktır, kuruluş yılı değil; t=1581 okunmadı. Mevcut 'kamarupa' (350–1150) Kamata öncesini kapsar.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mevcut listede yok."
+   "not": "kamarupa künyesi 350–1150; Kamata ardıl polity olarak ayrı."
   }
  },
  {
@@ -435,10 +473,10 @@
   "tur": "krallik",
   "bolge": "guney-asya",
   "f": "1187-01-01",
-  "t": "1673-01-01",
+  "t": "1501-01-01",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "yuzyil"
   },
   "baskent": "Sadiya",
   "etkin_bolge": "Doğu Assam",
@@ -449,9 +487,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. VI: The Delhi Sultanate, Bharatiya Vidya Bhavan, Bombay 1960 (archive.org: delhisultanate00bhar, tam metin okundu), «D. Minor States: I. Assam — General Political Condition» (s. 387)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar VI: Chutiyalar 13. yüzyıl başında Ahomlar girerken Sadiya'da hüküm sürüyordu; Ahomlarla sık savaşlar; Chutiyalar 16. yüzyıl başında Ahomlarca kesin olarak boyun eğdirildi. f=1187 (Birpal) kaynakta yok → taslak; ilk tanık 13. yy başı. t=1501 '16. yüzyıl başı' (yüzyıl hassasiyeti); taslak t=1673 yanlış görünüyor (Ahom ilhakı 16. yüzyıl başı). Taslak değer: t 1673",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -459,148 +499,133 @@
   }
  },
  {
-  "id": "hoysala-ref",
-  "ad": "Hoysala Hanedanı",
   "tur": "hanedanlik",
   "bolge": "guney-asya",
-  "f": "1026-01-01",
-  "t": "1343-01-01",
   "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "f": "belirsiz",
+   "t": "yuzyil"
   },
-  "baskent": "Belur → Halebidu",
-  "etkin_bolge": "Karnataka",
+  "baskent": "Vikramapura",
+  "etkin_bolge": "Vanga (Doğu Bengal)",
   "sehirler": [
-   "Halebidu"
+   "Vikramapura"
   ],
-  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "ozet": "Simhapura'dan gelen Vajravarman soyundan Jatavarman ile güçlenen Doğu Bengal hanedanı; Sena Vijayasena 12. yy ortasında Bhojavarman'ı devirdi.",
   "oncul": [],
-  "ardil": [],
-  "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "ardil": [
+   "sena"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Bengal after the Palas: The Yadavas of Vanga» (s. 33-35)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar V: Varmanlar ('Yadavas of Vanga'; Belava yazıtı): Vajravarman (Simhapura/Kalinga kökenli), oğlu Jatavarman (Kalachuri Karna'nın kızı Virasri ile evli; Divya'ya karşı sefer; Vikramapura yazıtı), Harivarman (46 yıldan fazla saltanat, 12. yy ilk çeyreğinin sonunda öldü), Samalavarman, Bhojavarman; Sena Vijayasena 12. yüzyıl ortasında Bhojavarman'ı devirip Doğu Bengal'i aldı. f yıl bilinmiyor (11. yy ortası kabaca: Jatavarman Kalachuri Karna 1041-72 çağdaşı; kaynakta yıl yok) → null. t=1150 'yüzyıl ortası'.",
   "esleme": {
-   "durum": "var",
-   "mevcut_id": "hoysala",
-   "not": ""
-  }
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok (sena 1095–1202 ardıl)."
+  },
+  "id": "varman-vanga",
+  "ad": "Varman Hanedanı (Vikramapura, Doğu Bengal)",
+  "f": null,
+  "t": "1150-01-01"
  },
  {
-  "id": "kakatiya-ref",
-  "ad": "Kakatiya Hanedanı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "kesinlik": {
+   "f": "yil",
+   "t": "belirsiz"
+  },
+  "baskent": "Pattikera (Mainamati)",
+  "etkin_bolge": "Brahmaputra doğusu, Mainamati tepeleri (Comilla)",
+  "sehirler": [
+   "Pattikera"
+  ],
+  "ozet": "11. yüzyıldan beri kaynakta anılan krallık merkezi; Harikaladeva Ranavankamalla 1202-03'te tahta çıktı, en az 1219'a kadar hüküm sürdü; Deva hanedanı tarafından devrildi.",
+  "oncul": [],
+  "ardil": [
+   "deva-samatata"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Bengal after the Palas: The Royal Family of Pattikera» (s. 41-42)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar V: Pattikera, 1015 tarihli bir Nepal elyazması etiketinde anılır; Burma kroniklerine göre Anoratha (1044-77) devrinde batı sınırı Patikkara; Mainamati yazıtı: Harikaladeva Ranavankamalla 1202-03'te tahta çıktı ve en az 1219'a kadar hüküm sürdü; 'Harikaladeva ya da ardılı Deva hanedanı tarafından devrildi'. Önceki krallık hanedanının adları ve yılları bilinmiyor; f=1202 bilinen en erken hükümdarın cülusu (hanedan 11. yy'dan eski), t belirsiz (≥1219).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  },
+  "id": "pattikera",
+  "ad": "Pattikera Krallığı (Doğu Bengal–Tripura)",
+  "f": "1202-01-01",
+  "t": null
+ },
+ {
   "tur": "hanedanlik",
   "bolge": "guney-asya",
-  "f": "1163-01-01",
-  "t": "1323-01-01",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "belirsiz"
   },
-  "baskent": "Warangal",
-  "etkin_bolge": "Telengana",
+  "baskent": "Pattikera/Vikramapura çevresi",
+  "etkin_bolge": "Samatata (Comilla-Noakhali) ve Vanga",
   "sehirler": [
-   "Warangal"
+   "Pattikera"
   ],
-  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
-  "oncul": [],
+  "ozet": "Purushottama-Madhusudana-Vasudeva-Damodara soyundan Deva ailesi; Damodara 1234 ve 124x tarihli yazıtlar; Dasarathadeva Sena'yı 13. yy ortasından sonra Vanga'da yerinden etti.",
+  "oncul": [
+   "pattikera"
+  ],
   "ardil": [],
-  "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "oncelik": "kucuk",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Bengal after the Palas: The Senas of Bengal» ve «The Deva Dynasty of Samatata and Vanga» (s. 37-42)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar V: en eski bilinen Deva Purushottama (köy başı, Pattikera hanedanı altında), oğlu Madhusudana Pattikera'nın güneyinde bağımsız bir prenslik kurdu, sonra Vasudeva ve Damodara (1234 ve 124x tarihli yazıtlar); Minhaj'a göre Senalar Vanga'yı 1245'e (belki 1260'a) kadar tuttu; Danujamadhava Dasarathadeva 13. yy ortasından sonra Sena'yı Vanga'dan çıkardı. f=1234 bilinen ilk tarihli yazıt (hanedan öncesi evre belirsiz); t kaynakta yok (1281 sonrasına uzanır).",
   "esleme": {
-   "durum": "var",
-   "mevcut_id": "kakatiya",
-   "not": ""
-  }
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  },
+  "id": "deva-samatata",
+  "ad": "Deva Hanedanı (Samatata ve Vanga)",
+  "f": "1234-01-01",
+  "t": null
  },
  {
-  "id": "yadava-ref",
-  "ad": "Yadava (Seuna) Hanedanı",
   "tur": "hanedanlik",
   "bolge": "guney-asya",
-  "f": "1187-01-01",
-  "t": "1317-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Devagiri",
-  "etkin_bolge": "Maharashtra",
+  "baskent": "Japila (Rohtas çevresi)",
+  "etkin_bolge": "Shahabad bölgesi (Magadha)",
   "sehirler": [
-   "Devagiri"
+   "Japila"
   ],
-  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "ozet": "Gahadavala Vijayachandra'nın üstünlüğünü tanıyan Rohtas çevresi hanedanı; Pratapadhavala 1158 ve 1169; Indradhavala 1197; Pratapa 1223.",
   "oncul": [],
   "ardil": [],
-  "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "oncelik": "kucuk",
+  "kaynak": [
+   "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Bihar: Khayaravala Dynasty of Japila» (s. 49)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar V: Sadhava, oğlu Ranadhavala, torunu Pratapadhavala (Mahanayaka; yazıtlar 1158 ve 1169; Gahadavala Vijayachandra'nın üstünlüğünü kabul eder), oğlu Sahasa, Vikrama ve Indradhavala (1197'de 'maha-nripati'); 1223'te Pratapa adlı kral. f ve t yalnız TARİHLİ YAZITLARIN aralığıdır (kuruluş ve son bilinmiyor); vasal/yarı bağımsız statü. oncelik=kucuk.",
   "esleme": {
-   "durum": "var",
-   "mevcut_id": "yadava",
-   "not": ""
-  }
- },
- {
-  "id": "pandya-ikinci-ref",
-  "ad": "İkinci Pandya İmparatorluğu",
-  "tur": "imparatorluk",
-  "bolge": "guney-asya",
-  "f": "1190-01-01",
-  "t": "1323-01-01",
-  "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
   },
-  "baskent": "Madurai",
-  "etkin_bolge": "Tamil",
-  "sehirler": [
-   "Madurai"
-  ],
-  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
-  "esleme": {
-   "durum": "var",
-   "mevcut_id": "pandya",
-   "not": ""
-  }
- },
- {
-  "id": "delhi-ref",
-  "ad": "Delhi Sultanlığı",
-  "tur": "sultanlik",
-  "bolge": "guney-asya",
-  "f": "1206-01-01",
-  "t": "1526-01-01",
-  "kesinlik": {
-   "f": "yil",
-   "t": "yil"
-  },
-  "baskent": "Delhi",
-  "etkin_bolge": "Kuzey Hint",
-  "sehirler": [
-   "Delhi"
-  ],
-  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
-  "esleme": {
-   "durum": "var",
-   "mevcut_id": "delhi-sultanligi",
-   "not": ""
-  }
+  "id": "khayaravala-japila",
+  "ad": "Khayaravala Hanedanı (Japila, Shahabad)",
+  "f": "1158-01-01",
+  "t": "1223-01-01"
  }
 ]

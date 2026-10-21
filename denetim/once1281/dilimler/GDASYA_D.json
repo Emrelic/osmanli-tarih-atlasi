@@ -1,11 +1,11 @@
 [
  {
   "id": "triyu-viet-vuong",
-  "ad": "Trieu Viet Vuong (Da Trach)",
+  "ad": "Triệu Việt Vương (Triệu Quang Phục)",
   "tur": "krallik",
   "bolge": "guneydogu-asya",
   "f": "0549-01-01",
-  "t": "0571-01-01",
+  "t": "0570-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -15,7 +15,7 @@
   "sehirler": [
    "Da Trach"
   ],
-  "ozet": "Van Xuan'in Lý Nam De donemi sonrasi Trieu Quang Phuc'un Da Trach'tan yonettigi devlet.",
+  "ozet": "Lý Bí sonrası Triệu Quang Phục Kızıl Nehir ovasında (Dạ Trạch) bağımsız yönetim kurdu; Lý Phật Tử ile 557'de ateşkes yaptı, 570 civarında yıkıldı.",
   "oncul": [
    "van-xuan"
   ],
@@ -24,14 +24,14 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Taylor, K. W., A History of the Vietnamese (Cambridge University Press, 2013), Bölüm 1 'A lesser empire' ve Bölüm 2 'Hoa Lu' / 'Ly Cong Uan'; tam metin archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Van Xuan mevcut kaydi (544-603) bu donemi kapsar; iki ayri yönetim: Trieu Viet Vuong 549-571 ve Hau Ly Nam De. Genisletme/ayri kayit karari ana oturumda.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taylor (2013): Lý klanı (Lý Phật Tử) güney eyaletleri ve dağ sınırında, Triệu klanı (Triệu Quang Phục) Kızıl Nehir ovasında; 557 ateşkes (karşılıklı kontrol tanıma); 570 Chen seferi Triệu Quang Phục'un sonu. f=549 kronik; Taylor vermez. ÖNERİ: iki ayrı alan ve ateşkes nedeniyle ayrı künye (549-570) kaynakla savunulabilir ama süre kısa ve tek kaynaklı; alternatif: Vạn Xuân künyesini 544-602 'Lý-Triệu dönemi' olarak genişletip bölünmeyi ic_not'a yazmak. Karar ana oturumda.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "van-xuan",
-   "not": ""
+   "not": "var-kisa: van-xuan (544-602) içinde; öneri ic_not'ta."
   }
  },
  {
@@ -50,22 +50,21 @@
   "sehirler": [
    "Phan Rang"
   ],
-  "ozet": "Champa'nin guney kolu; 8. yy'dan ayri idare, 1000 sonrasi Panduranga merkezli Champa.",
+  "ozet": "Champa'nın Phan Rang bölgesindeki Panduranga merkezi (Virapura); 8. yüzyıl ortasında hanedanın güney merkezi oldu.",
   "oncul": [],
   "ardil": [
    "campa"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm VI-6 ve VII-2 (Panduranga 802-854)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Champa 'kollari' (Indrapura, Amaravati, Vijaya, Kauthara, Panduranga) tek polity mi ayri mi tartismali; ayri kayit onerisi zayif.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: Panduranga (Phan-rang) 8. yüzyıl ortasında Champa'nın güney merkezi; Satyavarman ve Indravarman Panduranga/Kauthara hanedanından; 787 Cava saldırısı Virapura yakınında. Ayrı bağımsız polity olduğuna dair kanıt yok; ayrı künye önerilmez, linyi-champa (192-999) künyesine ic_not.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "linyi-champa",
-   "not": ""
+   "not": "var-kisa: linyi-champa (192-999) zaten kapsıyor; ayrı künye önerilmez."
   }
  },
  {
@@ -84,21 +83,21 @@
   "sehirler": [
    "Nha Trang"
   ],
-  "ozet": "Champa'nin Nha Trang kolu; 774 Java akinlari bu kiyiya olmustur.",
+  "ozet": "Champa'nın güneyindeki Nha Trang ovası (Kauthara, Po Nagar); 8. yüzyılın ortasından itibaren Champa'nın ağırlık merkezi bu bölgeye kaydı; 774 ve 787 Cava saldırıları bu bölgeye yapıldı.",
   "oncul": [],
   "ardil": [
    "campa"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm VI-6 'Southern Champa, or Huan-wang' ve VII-2 'Southern Champa: Panduranga from 802 to 854'"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bkz. Panduranga notu.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: 'In the middle of the eighth century we see a movement of the center of gravity to the south, to Panduranga (Phan-rang) and to Kauthara (Nha-trang)'; Po Nagar'ı 774 Cava saldırısı yıktı (Satyavarman 784'te yeniden inşa etti), 787'de Panduranga'da Bhadradhipatisvara tapınağı yıkıldı. Kauthara ve Panduranga ayrı devlet değil, Champa'nın (Huan-wang) güney merkezleridir. ÖNERİ: ayrı künye açılmasın; atlasın mevcut linyi-champa künyesi (192-999) bu bölgeyi kapsıyor. f=750/t=1000 taslak değerleri bağımsız polity olarak desteklenmedi.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "linyi-champa",
-   "not": ""
+   "not": "var-kisa: linyi-champa (192-999) zaten bu dönemi ve bölgeyi kapsar; ayrı künye önerilmez, Kauthara ic_not."
   }
  },
  {
@@ -107,32 +106,31 @@
   "tur": "krallik",
   "bolge": "guneydogu-asya",
   "f": "0640-01-01",
-  "t": null,
+  "t": "0818-01-01",
   "kesinlik": {
    "f": "onyil",
-   "t": null
+   "t": "yil"
   },
   "baskent": "bilinmiyor (Cepara-Pekalongan yoresi)",
   "etkin_bolge": "Orta Cava kuzey kiyisi",
   "sehirler": [
    "Keling"
   ],
-  "ozet": "Cin kaynaklarinda Holing (Heling), Kralice Sima (674); 7. yy Orta Cava krallıgi.",
+  "ozet": "Çin kaynaklarındaki Ho-ling (Walaing): Orta Cava'da (ya da Malay Yarımadası'nda) bir krallık; 640, 648, 666 elçilikleri; son elçilik 813/815 ve 818.",
   "oncul": [],
   "ardil": [
    "medang"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm V-7 ('Ho-ling in Java', ilk elçilikler 640, 648, 666) ve VII-5 (son elçilikler 813/815 ve 818)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarih ilk Cin elcisi 640'tan; bitis bilinmiyor (yil bilinmiyor); Medang ile iliskisi tartismali.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: Ho-ling'in ilk üç elçiliği 640, 648, 666; son elçilikler 813 veya 815 ve 818; 'recent theory places it on the Malay Peninsula' (Cava'daki yerleşim tartışmalı); Damais'ye göre Walaing adı Ho-ling'in kaynağı. 'Kalingga' adı sonraki gelenek. t=818 Çin kaynaklarındaki son elçilik; Medang/Sailendra ile süreklilik belirsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "Orta Cava Medang (732-1016) ile örtüşebilir; ayrı künye şüpheli."
   }
  },
  {
@@ -165,7 +163,7 @@
    "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Wangsakerta (supheli) 612 verir; 670 bolunme yili+1; 723'te Sunda-Galuh birligi gelenegi. Sunda mevcut kaydi birlesik mi ayri mi, ana oturum karar versin.",
+  "ic_not": "Galuh (Batı Cava) için Coedès, Hall, Ricklefs ve Majumdar'da (Hujung Galuh = Brantas ağzında liman dışında) bağımsız bir Galuh krallığı tarihi bulunamadı; 612/670 tarihleri Wangsakerta ya da Sunda geleneğine dayanır (kullanılmadı). Taslak kalır. Önerim: sunda-pajajaran künyesine ic_not (ayrı künye açılmasın).",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "sunda-pajajaran",
@@ -189,22 +187,22 @@
    "Jambi",
    "Dharmasraya"
   ],
-  "ozet": "644-645 Tang heyetleri ve Yijing'in kaydi; Srivijaya'ya katilma, sonra Dharmasraya/Malayupura (1347 Adityawarman).",
+  "ozet": "Doğu Sumatra'da Jambi merkezli Malayu: 644-45'te Çin'e ilk elçilik, 671'de I-tsing'in uğradığı yer; yaklaşık 685'ten sonra Srivijaya'ya katıldı, 13. yüzyılda yeniden önem kazandı (1299 ve 1301 Çin elçilikleri).",
   "oncul": [],
   "ardil": [
    "srivijaya"
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Miksic, J. N., Singapore and the Silk Road of the Sea (NUS Press, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm V-7 (Mo-lo-yu, 644-45 ilk elçilik; I-tsing 671), Bölüm XI (Malayu 1299/1301 elçilikleri, 1275 Cava seferi)",
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Srivijaya mevcut kayit baskent listesinde Jambi'yi sayar ('Palembang → Jambi'); Melayu'nun ayri polity mi tek devlet mi oldugu tartismali. t yaklasik.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: Mo-lo-yu'nun ilk elçiliği 644-45 (f=644 kaynakla uyumlu); I-tsing 671'de Mo-lo-yu'da iki ay kaldı ve 'is now the country of Shih-li-fo-shih' (695 civarı Srivijaya'ya katılmış); 1275 Cava seferi Malayu'yu Cava'ya bağladı, ancak Malayu 1299 ve 1301'de Çin'e elçi gönderdi. t=1347 (Adityawarman) bu oturumda okunmadı. ÖNERİ: ayrı künye: iki ayrı dönem (644-~685 bağımsız Malayu; ~1275/1286-1347 Malayu-Dharmasraya); Srivijaya künyesine gömülmemeli.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "srivijaya",
-   "not": ""
+   "not": "var-kisa: srivijaya içinde; ayrı künye önerilir (yukarıda iki dönem)."
   }
  },
  {
@@ -213,10 +211,10 @@
   "tur": "hanedanlik",
   "bolge": "guneydogu-asya",
   "f": "0778-01-01",
-  "t": "0850-01-01",
+  "t": "0856-01-01",
   "kesinlik": {
    "f": "yil",
-   "t": "onyil"
+   "t": "yil"
   },
   "baskent": "Orta Cava (Borobudur-Kalasan)",
   "etkin_bolge": "Orta Cava Kedu ovasi",
@@ -224,7 +222,7 @@
    "Borobudur",
    "Kalasan"
   ],
-  "ozet": "Budist Sailendra hanedani; Kalasan yazitindan (778) Balaputra'nin Sumatra'ya sürgünune (~850).",
+  "ozet": "Orta Cava'da Mahayana Budist Sailendra hanedanı: Kalasan (Tara) tapınağı 778'de Maharaja Panangkaran tarafından kuruldu; 856'da Rakai Pikatan Balaputra'yı yenince Balaputra Srivijaya'ya geçti.",
   "oncul": [],
   "ardil": [
    "medang",
@@ -232,15 +230,15 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm VI-4 ve VII-5 (Sailendralar, Kalasan 778, Pikatan'ın 856'da Balaputra'yı yenmesi)",
+   "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Sanjaya hanedani ile bir arada tek polity (Medang) olabilir; mevcut medang kaydi 732'de baslar. 778 Kalasan yazit tarihi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: 778 Kalasan yazıtı; Rakai Pikatan'ın Balaputra'ya zaferi 856 ('apparently the reason why Balaputra moved to Srivijaya'); Sailendraların Cava ve Sumatra'daki dönemi 813-863. Taslak t=850 → 856 (Coedès). Sailendra ve Sanjaya (Medang) ilişkisi tartışmalı: Coedès, Panangkaran'ın yazıtında 'suzerain monarch'tan söz edildiğini yazar. ÖNERİ: ayrı künye açılmasın; Medang künyesinin içinde ic_not (iki hanedan, tek Orta Cava devleti); karar ana oturumda.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "medang",
-   "not": ""
+   "not": "var-kisa: medang; ayrı künye önerilmez."
   }
  },
  {
@@ -269,11 +267,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (bu oturumda okundu) (Chaiya yazıtında Tambralinga; Tan-ma-ling, Bandon Körfezi ile Ligor arası)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Baslangic belirsiz (7. yy+); t Ayutthaya baskisi yaklasik.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Hall: Lopburi yazıtı Suryavarman I döneminde (11. yy) Dvaravati ve 'the Malay kingdom of Tambralinga, later Ligor'un imparatorluğa dahil olduğunu iddia eder. Majumdar: kısa bir Chaiya yazıtı Tambralinga'yı anar, Doğu Malay Yarımadası'nda Bandon Körfezi ile Ligor arasında; Çince Tan-ma-ling. Coedès: Chola 1025 listesinde Madamalingam. f=700, t=1400 gelenek; bağımsız polity süresi doğrulanmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -296,7 +293,7 @@
   "sehirler": [
    "Sambor"
   ],
-  "ozet": "706'da Chenla'nin Toprak ve Su kollarina ayrilmasi; Toprak Chenla kuzey.",
+  "ozet": "706 sonrasında Tang tarihlerine göre bölünen Kamboçya'nın dağlık-vadili kuzey yarısı (Kara Chenla); 802'de Jayavarman II ile birleşmeye dek sürdü.",
   "oncul": [
    "chenla"
   ],
@@ -305,15 +302,14 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm VI-2 'The Division of Cambodia: Land Chenla and Water Chenla'"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Chenla mevcut kaydi (550-802) iki kolu tek polity sayar; 706 bolunmesi Cin kaynagindan (Xin Tang shu).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: 'shortly after 706 Cambodia came to be divided in two ... The northern half, a land of mountains and valleys, was called Land Chenla.' (Tang tarihi). Başlangıç yılı 706 'shortly after' (706 sonrası); 802 Jayavarman II. Önerim: Chenla künyesi genişletilsin; kollar ayrı künye olmasın (anarşik, tek merkezli olmayan bölünme).",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "chenla",
-   "not": ""
+   "not": "var-kisa: chenla; ayrı künye önerilmez, Chenla (550-802) içinde ic_not."
   }
  },
  {
@@ -330,7 +326,7 @@
   "baskent": "Sambhupura / Angkor Borei",
   "etkin_bolge": "Mekong deltasi ve Tonle Sap",
   "sehirler": [],
-  "ozet": "706 bolunmesiyle Su Chenla; Cava saldirilari altinda, Jayavarman II 802'de birlestirdi.",
+  "ozet": "706 sonrasında bölünen Kamboçya'nın denize bakan, göllü güney yarısı (Su Chenla); 8. yüzyılın ikinci yarısında Cava saldırılarına maruz kaldı, 802'de Jayavarman II ile birleşti.",
   "oncul": [
    "chenla"
   ],
@@ -339,15 +335,14 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm VI-2 'The Division of Cambodia: Land Chenla and Water Chenla'"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bkz. Toprak Chenla.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: 'The southern half, bounded by the sea and covered with lakes, was called Water Chenla' (Tang tarihi). Başlangıç 706 sonrası; 802'de birleşme. Önerim: ayrı künye değil, Chenla künyesine ic_not.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "chenla",
-   "not": ""
+   "not": "var-kisa: chenla; ayrı künye önerilmez."
   }
  },
  {
@@ -366,7 +361,7 @@
   "sehirler": [
    "Lopburi"
   ],
-  "ozet": "Dvaravati'nin devami; 11. yy'dan Khmer denetiminde; 1388'e kadar adi gecer.",
+  "ozet": "Lopburi merkezli bölge: Dvaravati'nin kuzey merkezi, 11. yüzyılda Khmer yönetiminde Lavo; 13. yüzyılın sonunda Çin'e elçi gönderen bağımsız bir Tay-Mon yönetim.",
   "oncul": [
    "dvaravati"
   ],
@@ -375,11 +370,11 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm XI (13. yy Menam; Lavo 1289-1299 Çin elçilikleri)",
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu) (Lopburi 8. yy Mon yazıtları; Suryavarman I)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Baslangic yaklasik (6. yy); Khmer hakimiyeti ~1000-1200'ler; t Ayutthaya baglanmasi yaklasik.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Hall: Lopburi Dvaravati'nin başkenti, 8. yüzyıl Mon yazıtları; Coedès: 11. yüzyılda Khmerler Lavo'ya yerleşti; 'from 1289 to 1299 we see it sending embassies to China' (bağımsızlaşmış). f=0600 ve t=1388 kaynakta bağımsız polity olarak destek bulmadı; Lavo'nun Khmer eyaleti olduğu dönemler (11-13. yy) ayrı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -413,7 +408,7 @@
    "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Khun Borom nithan (efsane); 698 tarihi sonradan kronik.",
+  "ic_not": "Hall: 'legendary mass migration of T'ais along the Nam U river to the site of the present Luang Prabang' (13. yy). 698 (Khun Lo) Lao kronik geleneğidir, doğrulanmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -446,7 +441,7 @@
    "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Yonok kronikleri sonraki donem, 638 efsanevi; Lan Na mevcut kaydi f=1262.",
+  "ic_not": "Hall ve Coedès'te Ngoenyang/Yonok adı bu oturumda bulunamadı (Hall: Chiang Saen yakınında 'upper Mekong' Tay beylikleri 12. yy; Mangrai Chiang Rai şefi). 638 Tay kroniklerine dayanır, tarihsel değil. Taslak kalır.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "lan-na",
@@ -469,7 +464,7 @@
   "sehirler": [
    "Vesali"
   ],
-  "ozet": "Arakan'in Chandra hanedani; Sanskrit yazitlari (Anandachandra, 729?).",
+  "ozet": "Arakan'ın Vesali (Vaisali) merkezli Candra hanedanı; yazıtlara göre 4. yüzyılın ortasında başladı, kroniklerde 788-1018 arası gösterilir.",
   "oncul": [
    "dhanyawadi"
   ],
@@ -478,19 +473,20 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Gutman, P., Ancient Arakan (Myanmar Historical Commission, 2001) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981), Bölüm 2 ve 6, Ek I (Rulers of Arakan); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu); Johnston, E. H., 'Some Sanskrit Inscriptions of Arakan', BSOAS 11/2 (1944): 357-385 (Hall'un atıfı üzerinden)",
+   "Harvey, G. E., History of Burma from the Earliest Times to 10 March 1824 (London: Longmans, 1925), 'Chronological Table' ve Bölüm 'Burma before 1044'; tam metin archive.org/details/historyofburmafr00harv (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hanedan tarihleri gelenekle degisir (Chandra 4.-10. yy iddiasi); 788-957 tek bir sinirlama.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Hall (4. baskı s. 37, 154, Ek I): Johnston'a göre Candra hanedanı 330-360 arasında başladı ve 230 yıl sürdü (13 kral, sikkeleri bulunmuş) → yaklaşık 560-590'da sona erer; kronikler 'Candra' hanedanını 788-1018 gösterir ama Hall/Johnston bunu yazıtlardaki listeyle ilgisiz, 'corrupted beyond hope' sayar. Ayrıca 8. yüzyılda Sri Dharmavijaya'nın kurduğu ikinci bir hanedan vardır (torunu Srikshetra Pyu kralının kızıyla evlendi). Taslak f=0788/t=0957 kronik değerleridir; bu kayıt epigrafik başlangıcı (MS 330-360) esas alırsa C dilimine ait olur. ÖNERİ: kaydı C'ye taşıyıp f=330 (onyıl) vermek; ana oturum karar versin. Bu dosyada değerler değiştirilmedi çünkü Johnston metni doğrudan okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "Atlasta Arakan künyesi (arakan) ayrı kontrol edilmeli; bu kayıt epigrafik ilk hanedan."
   }
  },
  {
   "id": "khuc-tu-tri",
-  "ad": "Khuc Ozerk Valiligi",
+  "ad": "Khúc Özerk Valiliği (An Nam)",
   "tur": "emirlik",
   "bolge": "guneydogu-asya",
   "f": "0905-01-01",
@@ -500,31 +496,32 @@
    "t": "yil"
   },
   "baskent": "Dai La (Hanoi)",
-  "etkin_bolge": "Kizil Nehir deltasi",
+  "etkin_bolge": "Kızıl Nehir ovası (Giao / An Nam)",
   "sehirler": [
    "Dai La"
   ],
-  "ozet": "Tang cokerken Khuc Thua Du'nun 905'te jiedushi ilan etmesi; Guney Han fethi 930.",
+  "ozet": "Tang'ın çöküşü sırasında Khúc ailesi Kızıl Nehir ovasında fiilen özerk, ama Çin'in jiedushi (askerî vali) unvanını taşıyan bir idare kurdu; Güney Han'ın 930 saldırısıyla sona erdi.",
   "oncul": [],
   "ardil": [
    "ngo-hanedani"
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Taylor, K. W., A History of the Vietnamese (Cambridge University Press, 2013), Bölüm 1 'A lesser empire' ve Bölüm 2 'Hoa Lu' / 'Ly Cong Uan'; tam metin archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Fiilen ozerk Cin valiligi; devletlesme basamagi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taylor (2013): Tang'ın yerini Geç Liang aldığında (907) Khúc Thừa Mỹ bağlılığını Liang'a çevirdi, 918'e kadar haraç elçisi gönderdi; Güney Han 930'da saldırdı, Khúc Thừa Mỹ esir alındı (t=930 okundu). f=905 (Khúc Thừa Dụ'nun jiedushi ilanı) kronik geleneğidir; Taylor 2013 başlangıç yılı vermez, bu yıl kaynakla DESTEKLENMEDİ (Taylor 1983 Birth of Vietnam okunmadı).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
-  }
+   "not": "Atlasta künyesi yok."
+  },
+  "tur_yeni": "ozerk-valilik (jiedushi): Taylor Khúc ailesini Çin imparatorluk memuru sıfatıyla yöneten 'lesser empire' olarak anlatır; Tang/Geç Liang'a bağlılık sürmüş, kendi krallık unvanı yoktur"
  },
  {
   "id": "ngo-hanedani",
   "ad": "Ngo Hanedani (Ngo Quyen)",
-  "tur": "hanedanlik",
+  "tur": "krallik",
   "bolge": "guneydogu-asya",
   "f": "0939-01-01",
   "t": "0965-01-01",
@@ -532,12 +529,12 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Co Loa",
+  "baskent": "Cổ Loa",
   "etkin_bolge": "Kizil Nehir deltasi",
   "sehirler": [
    "Co Loa"
   ],
-  "ozet": "939'da Bach Dang zaferi sonrası Ngo Quyen krallik ilan etti; 965'te Xuong Van'in olumu ve 12 Sứ Quân.",
+  "ozet": "Ngô Quyền 938 sonu Bạch Đằng zaferinden sonra krallık unvanını aldı, başkenti Cổ Loa'ya koydu; 944'te ölümünden sonra Dương Tam Kha tahtı gasp etti (944-950), ardından iki Ngô kardeşin zayıf yönetimi sürdü.",
   "oncul": [
    "khuc-tu-tri"
   ],
@@ -546,19 +543,19 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Taylor, K. W., A History of the Vietnamese (Cambridge University Press, 2013), Bölüm 1 'A lesser empire' ve Bölüm 2 'Hoa Lu' / 'Ly Cong Uan'; tam metin archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "944 Ngo Quyen olumu; Duong Dinh Nghe 931-937 ara.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taylor (2013): Bạch Đằng savaşı 938 sonu; Ngô Quyền kraliyet statüsü iddia etti (939 yılı Taylor'da açık yazılmaz, kronikten); 944 ölümü ve Dương Tam Kha gaspı, 950 devrilmesi, büyük oğul 954'te öldü, 'Ngô kralı' 963'te pusuda öldürüldü; Đinh Bộ Lĩnh 965'e kadar muhalifleri bastırdı. t=965 kronik değeri (Ngô Xương Văn'ın ölümü), Taylor 963'ü verir; Birth of Vietnam (1983) okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "Atlasta yok."
   }
  },
  {
   "id": "duong-dinh-nghe",
-  "ad": "Duong Dinh Nghe Ozerkligi",
+  "ad": "Dương Đình Nghệ Özerkliği",
   "tur": "emirlik",
   "bolge": "guneydogu-asya",
   "f": "0931-01-01",
@@ -570,7 +567,7 @@
   "baskent": "Dai La",
   "etkin_bolge": "Kizil Nehir deltasi",
   "sehirler": [],
-  "ozet": "Guney Han'i 931'de kovup jiedushi olan Duong Dinh Nghe.",
+  "ozet": "Dương Đình Nghệ, Güney Han garnizonunu 931'de Đại La'dan atıp kendini vali ilan etti; Güney Han bunu tanıdı. 937'de Kiều Công Tiễn tarafından öldürüldü.",
   "oncul": [
    "khuc-tu-tri"
   ],
@@ -579,15 +576,16 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Taylor, K. W., A History of the Vietnamese (Cambridge University Press, 2013), Bölüm 1 'A lesser empire' ve Bölüm 2 'Hoa Lu' / 'Ly Cong Uan'; tam metin archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Cok kisa; ayri kayit mi, Ngo hanedani ardili mi - ana oturum karar.",
+  "dogrulama": "okundu",
+  "ic_not": "Taylor (2013): 931'de Đại La'ya yürüdü, Güney Han memurlarını ve takviye ordusunu yendi, vali ilan etti, Güney Han tanıdı; 937'de Phong'lu Kiều Công Tiễn onu öldürdü. 6 yıllık, kendi valisi olan ayrı idare; Khúc ile Ngô arasında kesintiyi kapattığı için ayrı künye savunulabilir (tür: özerk valilik).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
-  }
+   "not": "Atlasta karşılığı yok."
+  },
+  "tur_yeni": "ozerk-valilik (jiedushi)"
  },
  {
   "id": "12-su-quan",
@@ -603,7 +601,7 @@
   "baskent": "Hoa Lu (Dinh)",
   "etkin_bolge": "Kizil Nehir deltasi",
   "sehirler": [],
-  "ozet": "Ngo'dan sonra on iki beyin ayrismasi; Dinh Bo Linh tarafindan birlestirildi.",
+  "ozet": "Ngô hanedanının çöküşünden sonra Kızıl Nehir ovasında yerel güçlü adamların bölünmüş yönetimi; Đinh Bộ Lĩnh hepsini 965 civarında bastırıp birleşik Đại Cổ Việt'i kurdu.",
   "oncul": [
    "ngo-hanedani"
   ],
@@ -612,41 +610,42 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Taylor, K. W., A History of the Vietnamese (Cambridge University Press, 2013), Bölüm 1 'A lesser empire' ve Bölüm 2 'Hoa Lu' / 'Ly Cong Uan'; tam metin archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (bu oturumda okundu); Taylor, 'The Twelve Lords in Tenth-Century Vietnam', JSEAS 14/1 (1983): 46-62 (Taylor 2013 bibliyografyasında anılır, metni okunmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Siyasi birim olarak 12 beylik; ozet kayit.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taylor (2013) '12 Sứ Quân' adını anmaz; Đinh Bộ Lĩnh'ın 'komşu güçlü adamlarla ittifak kurup ovanın üst kısmında direnenleri, en cesurları tüccar oğlu üç kardeş, bastırdığı' ve 965'te Güney Han'a elçi yolladığı bilgisini verir. 966-968 tarihleri kronik geleneğidir (okunmadı).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
-  }
+   "not": "Atlasta yok; ayrı künye önerilmez."
+  },
+  "tur_yeni": "bolgesel-beyler (tek politik birim değil): konfederasyon uygun değil, ortak organ yok; ya künyesiz bırakılmalı ya da 'beylik' türünde her sứ quân ayrı değerlendirilmeli"
  },
  {
   "id": "chitu",
   "ad": "Chitu (Kızıl Toprak)",
   "tur": "krallik",
   "bolge": "guneydogu-asya",
-  "f": "0607-01-01",
+  "f": "0450-01-01",
   "t": null,
   "kesinlik": {
-   "f": "yil",
+   "f": "onyil",
    "t": null
   },
   "baskent": "Singora? (Songkhla)",
   "etkin_bolge": "Orta Malay Yarimadasi",
   "sehirler": [],
-  "ozet": "Sui heyetiyle 607-608'de tanınan Siyam Korfezi krallıgi.",
+  "ozet": "Siyam Körfezi kıyısında (Phatthalung ya da Kelantan) Kızıl Toprak Ülkesi (Raktamrittika, Çin: Chih-t'u); 607'de Çin'le ilk kayıtlı ilişki.",
   "oncul": [],
   "ardil": [
    "tambralinga"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm V-6 'The States of the Malay Peninsula in the Seventh Century' (Chih-t'u/Raktamrittika, Ma Tuan-lin)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Cin kaynaklı; yer ve bitis belirsiz.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: 'The Chinese do not speak of it before 607, but it had by then already existed at least a century and a half, since... it is mentioned in the inscription of Buddhagupta' (yazı orta 5. yy). Taslak f=607 → c. 450 'en geç' (ilk Çin tanıklığı 607). Kral Li-fu-to-hsi 16 yıldır tahtta (Ma Tuan-lin). t yok.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -676,10 +675,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Junker, L. L., Raiding, Trading and Feasting (Univ. of Hawaii Press, 1999) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Laguna Copperplate Inscription (Saka 822 = 900 MS), Tondo'yu anan en eski belge; WebSearch özeti (birincil metin ve Postma 1992 yayını okunmadı)"
   ],
   "dogrulama": "taslak",
-  "ic_not": "LCI belgesi 900 MS (Caka 822); 1571 Ispanyol fethi.",
+  "ic_not": "WebSearch sonuçlarına göre Laguna Bakırlevhası 900 MS tarihlidir (Saka 822), Eski Malayca/Kavi yazısıyla, Tondo'yu anar; bu özet birincil metin değildir, 'okundu' sayılmadı. Tondo'nun bir siyasî birim olarak 900-1571 tarihleri doğrulanmadı.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "filipin-racaliklari",
@@ -707,10 +706,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Junker, L. L., Raiding, Trading and Feasting (Univ. of Hawaii Press, 1999) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Song Shi (Çin) kayıtları: Ma-i'nin anılması; WebSearch özeti 971 (Song Shi) der, taslak f=982'dir; birincil metin okunmadı"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Yalniz Song kayitlari; devlet niteligi zayif.",
+  "ic_not": "WebSearch özetine göre Ma-i'nin ilk anılışı genellikle Song kayıtlarına (971 ya da 982) bağlanır; yeri tartışmalıdır (Mindoro ya da Luzon). Çelişki kaynak okunmadan çözülemedi; taslak kalır, f yıl belirsiz.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "filipin-racaliklari",
@@ -733,30 +732,35 @@
   "sehirler": [
    "Peureulak"
   ],
-  "ozet": "Geleneksel Aceh Islam krallıgi; 1292'de Pasai'ye katildigi gelenegi.",
+  "ozet": "Kuzey Sumatra'nın doğu kıyısında Perlak (Ferlek, Peureula): TDV'ye göre yerel hükümdarlıklardan İslâm'ı ilk resmen kabul eden (XII. yy sanılır); Marco Polo 1292'de halkının Müslüman olduğunu yazar.",
   "oncul": [],
   "ardil": [
    "samudra-pasai"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "TDV İslâm Ansiklopedisi, 'Sumatra' maddesi, islamansiklopedisi.org.tr/sumatra (bu oturumda curl ile okundu)",
+   "TDV İslâm Ansiklopedisi, 'Endonezya' maddesi, islamansiklopedisi.org.tr/endonezya (bu oturumda curl ile okundu)",
+   "TDV İslâm Ansiklopedisi, 'Açe' maddesi, islamansiklopedisi.org.tr/ace (bu oturumda curl ile okundu) (1292 Marco Polo, Peureula)",
+   "Coedès, The Indianized States of Southeast Asia (1968), Bölüm XII-1 ('kingdom of Ferlec', 1292; okundu)",
+   "Hall, D. G. E., A History of South-East Asia (1981) (Perlac 1330 bağımsız ticaret merkezi; okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Geleneksel 840; arkeoloji zayif.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV Sumatra: 'İslâmiyet'i ilk defa XII. yüzyılda mahallî hükümdarlıklardan Perlak'ın (Ferlek) resmen kabul ettiği sanılmaktadır.' TDV Endonezya: Perlak halkı Müslüman (Marco Polo, 1292); Açe maddesi: Marco Polo Peureula'da Müslüman bir hükümdardan söz eder. Coedès ve Ricklefs: 1292'de Müslüman kasaba/krallık. Taslak f=840 (Hikayat geleneği, Perlak sultanları listesi) hiçbir okunan kaynakta YOK; en erken kaynaklı kabul XII. yy 'sanılır', kesin tanık 1292. t=1292 yalnız Marco Polo tanıklığıdır. 'emirlik' yerine 'sultanlık' ya da 'beylik' (TDV'de 'mahallî hükümdarlık/küçük devlet').",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": ""
-  }
+  },
+  "tur_yeni": "sultanlik (1292'de Müslüman liman-krallık; 'emirlik' yerine daha yaygın)"
  },
  {
   "id": "van-xuan",
-  "ad": "Van Xuan (Erken Ly)",
+  "ad": "Vạn Xuân (Erken Lý / Lý Bí)",
   "tur": "krallik",
   "bolge": "guneydogu-asya",
   "f": "0544-01-01",
-  "t": "0603-01-01",
+  "t": "0602-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -764,19 +768,19 @@
   "baskent": "Long Bien",
   "etkin_bolge": "Kizil Nehir",
   "sehirler": [],
-  "ozet": "Ly Bi'nin 544 bagimsizligi, Sui fethi 602-603.",
+  "ozet": "Lý Bí 541'de Liang valilerini kovdu, kendini imparator ilan etti; 545'te Chen Baxian'a yenildi, Lý ve Triệu klanları kendi bölgelerini 602'de Sui fethine dek sürdürdü.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Taylor, K. W., A History of the Vietnamese (Cambridge University Press, 2013), Bölüm 1 'A lesser empire' ve Bölüm 2 'Hoa Lu' / 'Ly Cong Uan'; tam metin archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taylor (2013): 541 isyan; Lý Bí 541-545 arasında imparator ilan etti; 545 Liang seferi (Chen Baxian); 557 Lý ve Triệu arasında ateşkes; 570'te Triệu Quang Phục'un sonu; Lý Phật Tử 570'ten sonra ~30 yıl Giao'yu yönetti; 602'de Sui (Liu Fang) Lý Phật Tử'yi teslim aldı. t taslak 603 → 602 düzeltildi. f=544 kronik değeri, Taylor yalnız '541-545 arası' der.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "van-xuan",
-   "not": ""
+   "not": "Atlas künyesi 544-603; t 602 olmalı (Taylor)."
   }
  },
  {
@@ -793,19 +797,19 @@
   "baskent": "Ishanapura",
   "etkin_bolge": "Mekong",
   "sehirler": [],
-  "ozet": "Funan'dan sonra Khmer oncesi devlet.",
+  "ozet": "Bhavavarman ve Chitrasena'nın Funan'dan bağımsızlaşmasıyla 6. yüzyılın ikinci yarısında kurulan Kmer krallığı; 706 sonrası Kara ve Su Chenla'ya bölündü, 802'de Jayavarman II ile Angkor'da birleşti.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm V (The End of Funan and the Beginning of Cambodia or Chenla, 550-630) ve VI (Land/Water Chenla)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. 706 kollara bolunur",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: Bhavavarman 'second half of the sixth century'; Jayavarman I'in ölümünden sonra 713'te kraliçe Jayadevi; 'shortly after 706' Tang tarihlerine göre ikiye bölündü; 802 Jayavarman II. f=550 Coedès bölüm başlığı (550-630), kesin yıl yok.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "chenla",
-   "not": "706 kollara bolunur"
+   "not": "mevcut chenla 550-802; Coedès ile uyumlu."
   }
  },
  {
@@ -822,79 +826,20 @@
   "baskent": "Nakhon Pathom",
   "etkin_bolge": "Chao Phraya",
   "sehirler": [],
-  "ozet": "Mon kulturlu sehir devletleri.",
+  "ozet": "Aşağı Menam havzasında (Lopburi-Ratburi-Prachin) Mon dilli Budist krallık; Hsüan-tsang 7. yüzyıl ortasında T'o-lo-po-ti'yi anar; Khmer yayılması ve Lavo'nun yükselişiyle 11. yüzyılda eridi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Goh Geok Yian et al., Ancient Southeast Asia (Routledge, 2019) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm V-4 'The Mon Kingdom of Dvaravati'",
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: 'The birth of Dvaravati perhaps corresponds with the dismemberment of Funan' (6. yüzyıl ortası); Hsüan-tsang 'in the middle of the seventh century' T'o-lo-po-ti; 'we know virtually nothing about this state'. f=551 yalnız Funan'ın parçalanmasıyla bağlantılı varsayımdır; t=1100 desteklenmedi (Hall: Lopburi'de 8. yüzyıl Mon yazıtları; 11. yüzyılda Khmer Lavo). Bir devlet mi şehir devletleri grubu mu belirsiz.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "dvaravati",
-   "not": ""
-  }
- },
- {
-  "id": "sunda-pajajaran",
-  "ad": "Sunda Krallıgi",
-  "tur": "krallik",
-  "bolge": "guneydogu-asya",
-  "f": "0669-01-01",
-  "t": "1527-01-01",
-  "kesinlik": {
-   "f": "yil",
-   "t": "yil"
-  },
-  "baskent": "Pakuan Pajajaran",
-  "etkin_bolge": "Bati Cava",
-  "sehirler": [],
-  "ozet": "Tarumanagara ardili.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "cekirdek",
-  "kaynak": [
-   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
-  ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
-  "esleme": {
-   "durum": "var",
-   "mevcut_id": "sunda-pajajaran",
-   "not": ""
-  }
- },
- {
-  "id": "srivijaya",
-  "ad": "Srivijaya",
-  "tur": "krallik",
-  "bolge": "guneydogu-asya",
-  "f": "0683-01-01",
-  "t": "1275-01-01",
-  "kesinlik": {
-   "f": "yil",
-   "t": "yil"
-  },
-  "baskent": "Palembang",
-  "etkin_bolge": "Sumatra-Malakka",
-  "sehirler": [],
-  "ozet": "Deniz ticaret imparatorlugu.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "cekirdek",
-  "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Miksic, J. N., Singapore and the Silk Road of the Sea (NUS Press, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
-  ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. Kedukan Bukit 683; Chola 1025 sonrasi gerileme; 1275 yerine ~1290-1377 farkli",
-  "esleme": {
-   "durum": "var-f-t-farkli",
-   "mevcut_id": "srivijaya",
-   "not": "Kedukan Bukit 683; Chola 1025 sonrasi gerileme; 1275 yerine ~1290-1377 farkli"
+   "not": "mevcut dvaravati 551-1100; f ve t kaynaklı değil, yüzyıl kesinliği."
   }
  },
  {
@@ -911,19 +856,20 @@
   "baskent": "Mataram",
   "etkin_bolge": "Orta Cava",
   "sehirler": [],
-  "ozet": "Sanjaya-Sailendra.",
+  "ozet": "Orta Cava'da Sanjaya'nın 732 tarihli Canggal yazıtıyla bilinen Mataram/Medang krallığı; 1016'da (Srivijaya destekli Wurawari saldırısıyla) Dharmawangsa'nın başkentinin yıkılmasıyla çöktü.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm VI-4 (Sanjaya yazıtı 732) ve Bölüm IX-4 (1016 felaketi)",
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. Canggal 732; 929 Dogu Cava'ya kayis",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: Sanjaya yazıtı 732 (Wukir tepesi, Canggal); 'the Sumatran expedition of 1016-17, the death of the Javanese king, and the destruction of his residence' (Dharmawangsa); bu felaketten sonra Airlangga 1019'da taç giydi. f=732 ilk tarihli belge; polity daha önce de olabilir. Medang adı tartışmalıdır (Ho-ling/Walaing/Mataram).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "medang",
-   "not": "Canggal 732; 929 Dogu Cava'ya kayis"
+   "not": "mevcut medang 732-1016; Coedès ile uyumlu."
   }
  },
  {
@@ -940,50 +886,19 @@
   "baskent": "Angkor",
   "etkin_bolge": "Mekong-Tonle Sap",
   "sehirler": [],
-  "ozet": "Khmer imparatorlugu.",
+  "ozet": "Jayavarman II, Cava'dan döndükten sonra 802'de fiilen tahta çıkıp Kamboçya'yı Cava vasallığından kurtardı; Angkor krallığının kurucusu sayılır; 15. yüzyıla dek sürdü.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm VII-1 'The Beginnings of the Kingdom of Angkor: Jayavarman II (802-50)'"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. Jayavarman II 802; t 1431 Siyam Ayutthaya fethi (1281 sonrasi)",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: Jayavarman II 'around 800' Cava'dan döndü, 'the effective beginning of the reign was 802' (802-850); hiç yazıt bırakmadı, saltanatı Sdok Kak Thom yazıtından (11. yy) bilinir; Indrapura'da başladı. f=802 yıl düzeyinde uyumlu (gün yok). t=1431 1281 sonrası, atlas çekirdeği.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "angkor-kmer",
-   "not": "Jayavarman II 802; t 1431 Siyam Ayutthaya fethi (1281 sonrasi)"
-  }
- },
- {
-  "id": "pagan",
-  "ad": "Pagan",
-  "tur": "krallik",
-  "bolge": "guneydogu-asya",
-  "f": "0849-01-01",
-  "t": "1297-01-01",
-  "kesinlik": {
-   "f": "yil",
-   "t": "yil"
-  },
-  "baskent": "Pagan",
-  "etkin_bolge": "Irrawaddy",
-  "sehirler": [],
-  "ozet": "Burma ilk imparatorlugu.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "cekirdek",
-  "kaynak": [
-   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
-  ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. Anawrahta 1044; 1287 Moğol fethi; 1297 son kral",
-  "esleme": {
-   "durum": "var-f-t-farkli",
-   "mevcut_id": "pagan",
-   "not": "Anawrahta 1044; 1287 Moğol fethi; 1297 son kral"
+   "not": "mevcut angkor-kmer 802-1431; f Coedès ile uyumlu."
   }
  },
  {
@@ -1000,24 +915,24 @@
   "baskent": "Bedulu",
   "etkin_bolge": "Bali",
   "sehirler": [],
-  "ozet": "Warmadewa.",
+  "ozet": "Bali'de ilk tarihli yazıtlar 896 ve 911; 914'te adhipati Sri Kesarivarma; Cava'dan bağımsız Hint-Bali toplumu; Kritanagara'nın seferiyle 1284'te Cava'ya bağlandı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm VIII-3 (Bali'de 896/911/914 yazıtları, Ugrasena 915-39) ve Bölüm XII (Kritanagara'nın Bali seferi)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. 1284 Kertanagara fethi",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: 896 ve 911 yazıtları kral adı taşımaz, 914 yazıtı adhipati Sri Kesarivarma adına; Ugrasena (915-39) Simhamandava'da hüküm sürdü, 'independent of Java'; Kritanagara Bali'yi seferle aldı (1284, Coedès Bölüm XII; yıl metinde okundu: 'whose king he brought'). f=914 Warmadewa adının ilk yazıtı; hanedan Warmadewa adı Coedès'te Kesarivarma olarak geçer.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "bali-warmadewa",
-   "not": "1284 Kertanagara fethi"
+   "not": "mevcut bali-warmadewa 914-1284; Coedès ile uyumlu."
   }
  },
  {
   "id": "dinh",
-  "ad": "Dinh Hanedani",
+  "ad": "Đinh Hanedanı (Đại Cổ Việt)",
   "tur": "krallik",
   "bolge": "guneydogu-asya",
   "f": "0968-01-01",
@@ -1026,22 +941,22 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Hoa Lu",
-  "etkin_bolge": "Kizil Nehir",
+  "baskent": "Hoa Lư",
+  "etkin_bolge": "Kızıl Nehir ovası ve Ma-Ca nehirleri havzası",
   "sehirler": [],
-  "ozet": "Dai Co Viet.",
+  "ozet": "Đinh Bộ Lĩnh 960'lı yıllarda krallığına Đại Cổ Việt adını verdi, Hoa Lư'den yönetti; Song ile 973 ve 975'te ilişki kurdu. Suikastla öldürüldü, Lê Hoàn tahta geçti.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Taylor, K. W., A History of the Vietnamese (Cambridge University Press, 2013), Bölüm 1 'A lesser empire' ve Bölüm 2 'Hoa Lu' / 'Ly Cong Uan'; tam metin archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taylor (2013): 960'larda Đinh Bộ Lĩnh krallığına Đại Cổ Việt adını verdi; 973 ve 975'te Song'a elçi; suikast haberi 980'de Song'a ulaştı. f=968 (imparator ilanı) ve t=979 kronik değerleridir, Taylor kesin yıl vermez.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "dinh",
-   "not": ""
+   "not": "mevcut dinh 968-979; Taylor 2013 ile uyumlu."
   }
  },
  {
@@ -1063,10 +978,11 @@
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "Miksic, J. N., Singapore and the Silk Road of the Sea (NUS Press, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (okundu) (P'o-ni: Çinlilerin 9. yy'dan itibaren Borneo için kullandığı ad)",
+   "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (bu oturumda okundu), Kitap III 'Hindu Colonisation in Borneo' (1368'de Pu-ni'ye Su-lu saldırısı; 1370'te Pu-ni kralı Çin'e haraç talebi, Cava'nın üstünlüğü)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: Çinliler Borneo'yu 9. yüzyıldan itibaren P'o-ni adıyla anar. Majumdar: Çin tarihine göre 1368'de Pu-ni (Borneo'nun batı kıyısı) Su-lu'nun saldırısına uğradı, Cava yardım etti; 1370'te Çin imparatoru Pu-ni kralından haraç istedi, 'bu ülke şimdiye dek Cava'ya aitti'. Yani Pu-ni 14. yüzyılın son çeyreğinde Cava'nın vasalı. f=977 (Song'a elçilik) ve t=1405 bu oturumda doğrulanmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "poni",
@@ -1075,7 +991,7 @@
  },
  {
   "id": "tien-le-hanedani",
-  "ad": "Erken Le",
+  "ad": "Erken Lê Hanedanı",
   "tur": "hanedanlik",
   "bolge": "guneydogu-asya",
   "f": "0980-01-01",
@@ -1084,22 +1000,89 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Hoa Lu",
+  "baskent": "Hoa Lư",
   "etkin_bolge": "Kizil Nehir",
   "sehirler": [],
-  "ozet": "Le Hoan.",
+  "ozet": "Lê Hoàn 980'de Song seferini geri püskürtüp krallığı devraldı (Song 986'da vasal unvanı verdi); 1009 sonunda Lý Công Uẩn tahta geçti.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Taylor, K. W., A History of the Vietnamese (Cambridge University Press, 2013), Bölüm 1 'A lesser empire' ve Bölüm 2 'Hoa Lu' / 'Ly Cong Uan'; tam metin archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taylor (2013): 980-981 Song seferi; Lê Hoàn önce küçük Đinh kralı adına diplomasi yürüttü, Song 986'da tanıdı; 'late 1009' Lý Công Uẩn kral oldu. Kesin gün yok.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "tien-le-hanedani",
-   "not": ""
+   "not": "mevcut tien-le-hanedani 980-1009; uyumlu."
+  }
+ },
+ {
+  "id": "mi-chen",
+  "ad": "Mi-ch'en (Pegu Körfezi krallığı)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": null,
+  "t": "0835-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "bilinmiyor (Martaban Körfezi, belki eski Pegu)",
+  "etkin_bolge": "Martaban Körfezi kıyısı",
+  "sehirler": [],
+  "ozet": "9. yüzyıl başında Çin'e elçi gönderen (805) ve 835'te Nanzhao saldırısına uğrayan Martaban Körfezi krallığı.",
+  "oncul": [],
+  "ardil": [
+   "hamsavati-pegu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm VII-3 ('Burma: Kingdoms of P'iao and Mi-ch'en')"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: 'the kingdom of Mi-ch'en, which sent an embassy to China in 805 and was a victim of Nanchao aggression in 835'; konumu Martaban Körfezi, 'perhaps in the region of old Pegu'. f bilinmiyor (ilk tanıklık 805); t=835 yalnız Nanzhao saldırısı yılıdır, devlet sonu olmayabilir. Mon Ramannadesa ile ilişkisi belirsiz.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlasta yok."
+  }
+ },
+ {
+  "id": "hamsavati-pegu",
+  "ad": "Hamsavati (Pegu) Mon Krallığı",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0825-01-01",
+  "t": "1057-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Hamsavati (Pegu)",
+  "etkin_bolge": "Aşağı Birmanya (Pegu)",
+  "sehirler": [
+   "Pegu",
+   "Thaton"
+  ],
+  "ozet": "Mon ülkesinin ağırlık merkezinin batıya kaydığı 9. yüzyılda, Thaton'lu ikiz kardeşler Samala ve Vimala'nın 825'te kurduğu Pegu (Hamsavati) şehri/krallığı.",
+  "oncul": [
+   "mi-chen"
+  ],
+  "ardil": [
+   "thaton-mon"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm VII-3: 'a chronicle gives 825 as the date for the foundation of Pegu (Hamsavati) by Samala and Vimala' (Pegu ve Pagan kronik listeleri 'impossible to verify')"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: bir kronik Pegu'nun (Hamsavati) kuruluşunu 825 verir; 'This date seems to be preferable to the earlier or later dates furnished by other texts' (825 kronik tarihidir). t=1057 Anawrahta'nın Thaton'u alıp deltayı teslim aldığı yıl (Coedès Bölüm IX-6) - Pegu'nun polity olarak sonu kaynakta açık yazılmıyor, yalnız 'tüm delta teslim oldu'. Thaton-mon kaydıyla örtüşebilir; ayrı polity mi, Mon krallığı içinde şehir mi karar ana oturumda.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlasta yok."
   }
  }
 ]

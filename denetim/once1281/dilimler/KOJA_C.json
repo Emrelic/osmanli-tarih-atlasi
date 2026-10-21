@@ -4,18 +4,18 @@
   "ad": "Jin Devleti (Kore guneyi)",
   "tur": "konfederasyon",
   "bolge": "dogu-asya",
-  "f": "-0399-01-01",
-  "t": "-0199-01-01",
+  "f": null,
+  "t": null,
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
+   "f": "belirsiz",
+   "t": "belirsiz"
   },
   "baskent": "Wolji (tartismali)",
   "etkin_bolge": "Guney Kore yarimadasi",
   "sehirler": [
    "Wolji"
   ],
-  "ozet": "Gojoseon'un guneyinde MO 4.-2. yy'da var olan, Samhan konfederasyonlarinin onculu sayilan polity.",
+  "ozet": "Han Çini kaynaklarında MÖ 2. yüzyıl sonunda Wiman Joseon'un doğusu/güneyinde «Jin (Chen) Devleti» olarak anılan, sonradan Mahan-Jinhan-Byeonhan «Samhan» konfederasyonlarına bölünen Kore güneyi siyasî birliği.",
   "oncul": [],
   "ardil": [
    "mahan",
@@ -24,14 +24,15 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Gojoseon (okundu; yalniz aday kaynak)"
+   "Shiji (Sima Qian) j.115 Chaoxian liezhuan — zh.wikisource.org/wiki/史記/卷115 (okundu): «真番旁眾國欲上書見天子，又擁閼不通» (Han Yuanfeng 2 / MÖ 109 dolayı); Hanshu j.95 — zh.wikisource.org/wiki/漢書/卷095 (okundu): «眞番、辰國欲上書見天子，又雍閼弗通»",
+   "Sanguozhi j.30 Dongyi zhuan, Han — zh.wikisource.org/wiki/三國志/卷30 (okundu): «辰韓者，古之辰國也»; Jin shu j.97 — zh.wikisource.org/wiki/晉書/卷097 (okundu): Samhan listesi"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Sayfa 4.-2. yy MO verir; devlet duzeyi belirsiz. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: -0399-01-01 / -0199-01-01 (Vikipedi) — kaynaklarda dayanağı yok. Okunan: Shiji/Hanshu'ya göre MÖ ~109'da «Jin (Chen) Devleti» Han'a elçi göndermek istemiş ama Wiman Joseon engellemiş → varlığı kesin; kuruluş ve bitiş yılı kaynakta YOK → f ve t null. Samhan'ın ata devleti olarak Sanguozhi'de «辰韓者，古之辰國也» (Chen-han eski Chen devletidir). Siyasî yapı: konfederasyon mu, tek devlet mi — kaynak vermez.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -39,10 +40,10 @@
   "ad": "Buyeo Krallığı",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "-0199-01-01",
+  "f": null,
   "t": "0494-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "belirsiz",
    "t": "yil"
   },
   "baskent": "Mancurya ortasi (Songhua havzasi); merkez tartismali",
@@ -50,7 +51,7 @@
   "sehirler": [
    "Buyeo"
   ],
-  "ozet": "Goguryeo ve Baekje'ye kaynaklik eden Mancurya krallığı; 494'te Goguryeo'ya teslim.",
+  "ozet": "Songhua havzasında Güney Mançurya'da MÖ 2. yy.'dan beri bilinen, Goguryeo ve Baekje'nin atası sayılan krallık; 285'te Murong Hui'nin saldırısıyla zayıfladı, 346'da Yan'a, 494'te Kral'ın ailesi ve halkıyla Goguryeo'ya teslim olmasıyla sona erdi.",
   "oncul": [],
   "ardil": [
    "goguryeo",
@@ -58,14 +59,18 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+   "Shiji j.129 Huozhi liezhuan — zh.wikisource.org/wiki/史記/卷129 (okundu): «北鄰烏桓、夫餘» (MÖ ~100'den önce)",
+   "Sanguozhi j.30 Dongyi zhuan, Fuyu — zh.wikisource.org/wiki/三國志/卷30 (okundu): «夫餘在長城之北…戶八萬»; «漢末，公孫度…夫餘王尉仇台更屬遼東»",
+   "Hou Han shu j.85 — zh.wikisource.org/wiki/後漢書/卷85 (okundu): «夫餘國，在玄菟北千里…»",
+   "Jin shu j.97 — zh.wikisource.org/wiki/晉書/卷097 (okundu): «至太康六年，爲慕容廆所襲破，其王依慮自殺…明年，夫餘後王依羅…得復國»",
+   "Samguk sagi j.19 Goguryeo bon-gi, Munjamyeong 3 (494) — zh.wikisource.org/wiki/三國史記/卷19 (okundu): «二月，扶餘王及妻孥，以國來降»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "494 Vikipedi'den; baslangic yili bilinmiyor, MO 2. yy yaklasik. Dongbuyeo ve Jolbon Buyeo ayri kayit adayi. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: -0199-01-01 / 0494-01-01. t=494 Samguk sagi'den okundu (Kral ve ailesi Goguryeo'ya teslim). f: Shiji j.129 Buyeo'yu MÖ ~100'den önce Yan'ın kuzey komşusu olarak anıyor → varlığı en geç MÖ 2. yy.; kuruluş yılı kaynakta yok (Samguk sagi'nin Dongmyeong/Haemosu efsanesi tarihsiz) → f null. Ara olaylar: 285 Murong Hui saldırısı, Kral Yiryeo'nun intiharı ve 286'da yeniden Yeo-ra ile kısmî diriliş (Jin shu); 346 Yan'a yenilgi (bu oturumda okunmadı). 494'ten sonra Buyeo adı Mohe/Wuji kaynaklarında devam eder ama devlet yok. İki Buyeo (Dong-Buyeo ve Buyeo) Samguk sagi'de ayrı: Dong-Buyeo ayrı kayıt adayı (KOJA_RAPOR2).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -73,32 +78,34 @@
   "ad": "Okjeo",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "-0107-01-01",
+  "f": null,
   "t": "0056-01-01",
   "kesinlik": {
-   "f": "onyil",
-   "t": "onyil"
+   "f": "belirsiz",
+   "t": "yil"
   },
   "baskent": "Dongokjeo: Hamgyeong kiyisi",
   "etkin_bolge": "Kuzeydogu Kore",
   "sehirler": [
    "Okjeo"
   ],
-  "ozet": "MO 108'de Han Hyeondo komutanligina baglanan Dogu Okjeo; Goguryeo Taejo 56'da boyun egdirdi.",
+  "ozet": "Kore doğu kıyısında (Hamgyeong) Doğu Okjeo: Wiman Joseon'a bağlıydı, MÖ 108'de Han'ın Xuantu Komandanlığı'na alındı, 56'da Goguryeo Taejo Kralı tarafından ilhak edildi.",
   "oncul": [],
   "ardil": [
    "goguryeo"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+   "Sanguozhi j.30, Dong Okjeo — zh.wikisource.org/wiki/三國志/卷30 (okundu): «東沃沮…戶五千，無大君王，世世邑落，各有長帥…漢初，燕亡人衛滿王朝鮮，時沃沮皆屬焉»",
+   "Hou Han shu j.85 — zh.wikisource.org/wiki/後漢書/卷85 (okundu): «武帝滅朝鮮，以沃沮地為玄菟郡…其土迫小，介於大國之間，遂臣屬句驪»",
+   "Samguk sagi j.15 Goguryeo bon-gi, Taejo 4 (56) — zh.wikisource.org/wiki/三國史記/卷15 (okundu): «四年，秋七月，伐東沃沮，取其土地爲城邑»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Sayfada tarih yok; yaklasik. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: -0107-01-01 / 0056-01-01. t=56 Samguk sagi'den okundu. f: kaynaklar Okjeo'nun bağımsız bir krallığa dönüşmesini belirtmez; Sanguozhi açıkça «büyük kral yok, köy başları (邑落長帥)» der → ÖLÇÜT: kabile/şeflik düzeyi, krallık DEĞİL (BRIF dışlama: «kabile siyasî birim değilse hariç»). Kayıt oncelik=kucuk; elenme adayı (KOJA_RAPOR2). f=-107 Han Xuantu atama yılıdır (Okjeo'nun Han yönetimine girişi), kuruluş değil → f null. Tur «krallik» yanlış; «siyasi-sefler» (chiefdom) önerilir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -106,18 +113,18 @@
   "ad": "Dongye",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "-0107-01-01",
-  "t": "0400-01-01",
+  "f": null,
+  "t": null,
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
+   "f": "belirsiz",
+   "t": "belirsiz"
   },
   "baskent": "Dogu kiyi",
   "etkin_bolge": "Gangwon kiyisi",
   "sehirler": [
    "Dongye"
   ],
-  "ozet": "Gojoseon parcalanmasi sonrasi dogu kiyi polity'si; Goguryeo ve Silla arasinda eridi.",
+  "ozet": "Doğu Kore kıyısında Ye (Yemaek) halkının yaşadığı bölge; MÖ 128'de Nammyeo'nun 280 bin kişiyle Han'a bağlanması, 245'te Lelang/Daifang saldırısı ve Han'ın Bunai-Ye Kralı unvanı kaynakta; Goguryeo ve Silla'ya karışarak dağıldı.",
   "oncul": [],
   "ardil": [
    "goguryeo",
@@ -125,14 +132,15 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+   "Hou Han shu j.85 — zh.wikisource.org/wiki/後漢書/卷85 (okundu): «元朔元年，濊君南閭等畔右渠，率二十八萬口詣遼東內屬，武帝以其地為蒼海郡，數年乃罷»",
+   "Sanguozhi j.30, Ye — zh.wikisource.org/wiki/三國志/卷30 (okundu): «濊…無大君長，自漢已來，其官有侯邑君、三老…正始六年，樂浪太守劉茂、帶方太守弓遵以領東濊屬句麗，興師伐之，不耐侯等舉邑降。其八年，詣闕朝貢，詔更拜不耐濊王»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklasik. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: -0107-01-01 / 0400-01-01. Kaynak: Ye'nin «büyük kral/başı yok»; yalnız «Ye Kralı unvanı Bunai-Ye (不耐濊王) 247'de Wei tarafından verildi». Yani bağımsız devlet değil, Han/Wei komandanlığı altında şeflikler → ÖLÇÜT: kabile/şeflik; elenme adayı. f ve t kaynakta yok (-107 Han komandanlıklarının kuruluşu, 400 Vikipedi tahmini). oncelik=kucuk.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -140,18 +148,18 @@
   "ad": "Mahan",
   "tur": "konfederasyon",
   "bolge": "dogu-asya",
-  "f": "-0199-01-01",
-  "t": "0369-01-01",
+  "f": null,
+  "t": null,
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "onyil"
+   "f": "belirsiz",
+   "t": "belirsiz"
   },
   "baskent": "Mokji (tartismali)",
   "etkin_bolge": "Guneybati Kore",
   "sehirler": [
    "Mokji"
   ],
-  "ozet": "Samhan'in en buyugu (54 kucuk polity); Baekje'ye dagildi.",
+  "ozet": "Güneybatı Kore'de 54-56 küçük devletten oluşan Samhan konfederasyonu; Sanguozhi'ye göre Mokji (Mu Jiguk) Hanı'nın «Jin Kralı» (辰王) olarak hâkimiyetinde; Baekje yükselince 4. yüzyıla doğru dağıldı. SAMHAN KONFEDERASYONU: Mahan, Jinhan ve Byeonhan ayrı kayıt (Emre kararı).",
   "oncul": [
    "jin-devleti-kore"
   ],
@@ -160,14 +168,16 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+   "Sanguozhi j.30, Han — zh.wikisource.org/wiki/三國志/卷30 (okundu): «韓在帶方之南…有三種，一曰馬韓，二曰辰韓，三曰弁韓…馬韓在西…各有長帥，大者自名為臣智…有爰襄國、牟水國…»",
+   "Jin shu j.97 — zh.wikisource.org/wiki/晉書/卷097 (okundu): «馬韓居山海之間…凡有小國五十六所…咸寧三年復來，明年又請內附»; son tanıklık Taikang 1 (280) civarı",
+   "Samguk sagi j.23 Baekje bon-gi, Onjo 26-27 — zh.wikisource.org/wiki/三國史記/卷23 (okundu): «二十七年，夏四月，二城降…馬韓遂滅» (Onjo 27 = MS 9; Samguk sagi'nin geleneksel kronolojisi, Çin kaynaklarıyla ÇELİŞİR)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Baslangic belirsiz; son ~369 Baekje fethi yaklasik. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "SAMHAN notu (ortak): Mahan, Jinhan, Byeonhan «Samhan» (三韓) konfederasyonunun üç üyesidir; Sanguozhi hepsini «韓» başlığı altında verir. Emre kararı: üçü AYRI kayıt. taslak değeri: -0199-01-01 / 0369-01-01 (Vikipedi). f kaynakta YOK → null. t: Samguk sagi MS 9 (Baekje Onjo 27) der; Jin shu Mahan'ın 277-290 arasında Jin'e elçi gönderdiğini söyler → Samguk sagi'nin tarihi çelişir. 369 (Baekje Geunchogo'nun güney seferi) bu oturumda kaynaktan okunamadı → t null; son tanıklık MS 290 civarı (Jin shu).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -175,11 +185,11 @@
   "ad": "Jinhan",
   "tur": "konfederasyon",
   "bolge": "dogu-asya",
-  "f": "-0199-01-01",
-  "t": "0300-01-01",
+  "f": null,
+  "t": null,
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
+   "f": "belirsiz",
+   "t": "belirsiz"
   },
   "baskent": "Saro (Gyeongju)",
   "etkin_bolge": "Guneydogu Kore",
@@ -187,7 +197,7 @@
    "Saro",
    "Daegu"
   ],
-  "ozet": "12 polity'lik konfederasyon; Saro (Silla) MO 57'de Jinhan'in birlesmesini baslatir.",
+  "ozet": "Güneydoğu Kore'de Samhan'ın doğu üyesi: altı, sonra on iki küçük devlet; Saro (Silla) çekirdeğinden büyüyen Silla tarafından 4. yüzyılda eritildi. SAMHAN KONFEDERASYONU: Mahan/Jinhan/Byeonhan ayrı kayıt.",
   "oncul": [
    "jin-devleti-kore"
   ],
@@ -196,14 +206,16 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+   "Sanguozhi j.30, Han — zh.wikisource.org/wiki/三國志/卷30 (okundu): «辰韓者，古之辰國也…弁、辰韓合二十四國，大國四五千家，小國六七百家，總四五萬戶»",
+   "Jin shu j.97 — zh.wikisource.org/wiki/晉書/卷097 (okundu): «辰韓在馬韓之東…初有六國，後稍分為十二…武帝太康元年，其王遣使獻方物。二年復來朝貢，七年又來»",
+   "Samguk sagi j.1 Silla bon-gi, Hyeokgeose — zh.wikisource.org/wiki/三國史記/卷01 (okundu): «先是，朝鮮遺民分居山谷之間，為六村…是為辰韓六部»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Vikipedi: Silla'nin Jinhan'i birlestirmesi MO 57; konfederasyonun sonu belirsiz. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "SAMHAN notu: bkz. mahan kaydı (Emre kararı: üçü ayrı). taslak değeri: -0199-01-01 / 0300-01-01. f kaynakta yok (Samguk sagi MÖ 57'de altı köyün Jinhan olarak var olduğunu söyler: varlık terminus ante quem). t: Jin shu son diplomatik tanıklık Taikang 7 (286); Silla'nın ilhakı Samguk sagi'de bölük pörçük — kesin yıl yok → null.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -211,18 +223,18 @@
   "ad": "Byeonhan",
   "tur": "konfederasyon",
   "bolge": "dogu-asya",
-  "f": "-0199-01-01",
-  "t": "0042-01-01",
+  "f": null,
+  "t": null,
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "onyil"
+   "f": "belirsiz",
+   "t": "belirsiz"
   },
   "baskent": "Gimhae",
   "etkin_bolge": "Nakdong ovasi",
   "sehirler": [
    "Gimhae"
   ],
-  "ozet": "12 polity'lik konfederasyon; Gaya konfederasyonunun ontarihi.",
+  "ozet": "Güney Kore kıyılarında Samhan'ın üçüncü üyesi (Byeonjin/Byeonhan, 12 küçük devlet: Gaya devletlerinin atası); 2.-3. yüzyıl çökmüş; Gaya Konfederasyonu olarak sürdü. SAMHAN KONFEDERASYONU: Mahan/Jinhan/Byeonhan ayrı kayıt.",
   "oncul": [
    "jin-devleti-kore"
   ],
@@ -231,15 +243,15 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)",
-   "https://en.wikipedia.org/wiki/Gaya_confederacy (okundu; yalniz aday kaynak)"
+   "Sanguozhi j.30, Han — zh.wikisource.org/wiki/三國志/卷30 (okundu): «弁辰彌離彌凍國、弁辰接塗國、勤耆國…弁辰狗邪國…弁、辰韓合二十四國»",
+   "Jin shu j.97 — zh.wikisource.org/wiki/晉書/卷097 (okundu): «又有弁辰，亦十二國…皆屬於辰韓»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Gaya efsanesi MS 42; gecis resmi tarih degil. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "SAMHAN notu: bkz. mahan. taslak değeri: -0199-01-01 / 0042-01-01 (Vikipedi/Samguk yusa Garak-guk-gi: Suro 42). Okunan kaynaklar Byeonhan'ı Jinhan'a bağlı 12 devlet olarak verir; kuruluş/son yılı yok → f, t null. 42 değeri (Garak-guk gi'nin Suro tarihi) bu oturumda okunamadı; Gaya kaydı ardıl.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -248,10 +260,10 @@
   "tur": "konfederasyon",
   "bolge": "dogu-asya",
   "f": "0042-01-01",
-  "t": "0562-01-01",
+  "t": "0562-09-01",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "ay"
   },
   "baskent": "Geumgwan Gaya (Gimhae) -> Daegaya (Goryeong)",
   "etkin_bolge": "Nakdong ovasi",
@@ -260,7 +272,7 @@
    "Goryeong",
    "Haman"
   ],
-  "ozet": "MS 42'de efsanevi alti Gaya devletinin kurulusu; Geumgwan 532'de, Daegaya 562'de Silla'ya katildi.",
+  "ozet": "Nakdong havzasında Byeonhan halefi Geumgwan Gaya (Gimhae) ve Daegaya (Goryeong) öncülüğündeki küçük devletler birliği; Geumgwan 532'de Silla'ya teslim, Daegaya 562'de Silla'ya yenilince bütünüyle sona erdi.",
   "oncul": [
    "byeonhan"
   ],
@@ -269,14 +281,15 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Gaya_confederacy (okundu; yalniz aday kaynak)"
+   "Samguk sagi j.4 Silla bon-gi, Beopheung 19 (532) — zh.wikisource.org/wiki/三國史記/卷04 (okundu): «金官國主金仇亥，與妃及三子…以國帑寶物來降»",
+   "Samguk sagi j.4, Jinheung 23 (562) — zh.wikisource.org/wiki/三國史記/卷04 (okundu): «九月，加耶叛，王命異斯夫討之，斯多含副之…一時盡降»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "42 efsane tarihi. Alt kayit adaylari: Geumgwan Gaya (42-532), Daegaya (-562), Ara Gaya. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: 0042-01-01 / 0562-01-01. f=42 (Samguk yusa Garak-guk gi'de Suro'nun kuruluşu) bu oturumda okunamadı → taslak değeri korundu, doğrulanmadı. t: Samguk sagi Jinheung 23 (562) 9. ay: Daegaya isyanı ve teslim (Jülyen gün işareti yok; ay hassasiyeti, 9. ay ≈ Ekim 562). Nihon Shoki Kinmei 23 (562) Mimana'nın yıkılışı tarihi aynıdır (okunmadı). Geumgwan Gaya'nın teslimi 532: Gaya tek devlet değil, konfederasyon; 532 sonrası Daegaya hâkimiyeti.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -284,10 +297,10 @@
   "ad": "Tamna Krallığı (Jeju)",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "0476-01-01",
+  "f": null,
   "t": "1105-01-01",
   "kesinlik": {
-   "f": "yil",
+   "f": "belirsiz",
    "t": "yil"
   },
   "baskent": "Jeju",
@@ -295,21 +308,22 @@
   "sehirler": [
    "Jeju"
   ],
-  "ozet": "Jeju adasinda hanedan; 476'da Baekje'ye haraç; 1105'te Goryeo tarafindan komutanliga cevrilir (ozerklik 1402'ye kadar).",
+  "ozet": "Jeju adasının Baekje, Silla ve Goryeo'ya haraç ödeyen yarı-bağımsız krallığı; 1105'te Goryeo tarafından komutanlığa (郡) dönüştürülerek özerkliği kaldırıldı.",
   "oncul": [],
   "ardil": [
    "goryeo"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Samguk sagi j.26 Baekje bon-gi, Munju 2 (476) — zh.wikisource.org/wiki/三國史記/卷26 (okundu): «夏四月，耽羅國獻方物，王喜，拜使者為恩率»; Dongseong 20 (498): «王以耽羅不修貢賦，親征，至武珍州。耽羅聞之，遣使乞罪»",
+   "Samguk sagi j.6 Silla bon-gi, Munmu 2 (662) — zh.wikisource.org/wiki/三國史記/卷06 (okundu): «耽羅國主佐平徒冬音律來降。耽羅自武德以來，臣屬百濟，故以佐平爲官號，至是，降爲屬國»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "476 ilk anma; erken donem belirsiz. 1105 ilhak; kendi kralligin surmesi tartismali. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: 0476-01-01 / 1105-01-01. 476 = Baekje'ye ilk elçi (Samguk sagi) — kuruluş DEĞİL, ilk tanıklık; f null. 662: Silla'ya teslim, «bağımlı devlet» statüsü. t=1105 Goryeosa Jirigi'nin Tamna-hyeon maddesinde (Sukjong 10) geçer; bu oturumda ilgili cümleyi okuyamadım → taslak t korunur. Tamna'nın kuruluş geleneği (Yang-eul-na/Go-eul-na/Bu-eul-na, Goryeosa Jirigi'nin Tamna-hyeon maddesindeki «古記») efsanevidir; tarih içermez.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -317,32 +331,33 @@
   "ad": "Na (Nakoku) Krallığı, Wa",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "0057-01-01",
-  "t": "0250-01-01",
+  "f": null,
+  "t": null,
   "kesinlik": {
-   "f": "yil",
-   "t": "yuzyil"
+   "f": "belirsiz",
+   "t": "belirsiz"
   },
   "baskent": "Na (Fukuoka yoresi)",
   "etkin_bolge": "Kuzey Kyushu",
   "sehirler": [
    "Hakata"
   ],
-  "ozet": "Han hanedanindan MS 57'de altin muhur alan Wa krallığı.",
+  "ozet": "Kyushu kuzeyinde (Fukuoka) Wa küçük devleti: Hou Han shu'ya göre MS 57'de Han İmparatoru Guangwu'ya haraç getirip «Wa Nu Devleti Kralı» altın mührünü aldı; Sanguozhi'ye göre sonradan Yamatai (Himiko) konfederasyonuna bağlı.",
   "oncul": [],
   "ardil": [
    "yamatai"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Hou Han shu j.85, Wa — zh.wikisource.org/wiki/後漢書/卷85 (okundu): «建武中元二年，倭奴國奉貢朝賀…光武賜以印綬»",
+   "Sanguozhi j.30, Wo ren — zh.wikisource.org/wiki/三國志/卷30 (okundu): «東南至奴國百里，官曰兕馬觚…»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "57 = muhur yili, kurulus degil. t belirsiz. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: 0057-01-01 / 0250-01-01. 57 = ilk Han'a haraç yılı (Jianwu Zhongyuan 2 = MS 57; kuruluş değil). Sanguozhi'de Na, Himiko'nun bağlı «30 devlet»inden biri. Kuruluş ve son yılı kaynakta YOK → f, t null. Altın mühür (Shiga Adası, 1784) arkeolojik teyit. oncelik=kucuk; Yamatai konfederasyonundan ayrı polity olup olmadığı tartışmalı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -351,17 +366,17 @@
   "tur": "krallik",
   "bolge": "dogu-asya",
   "f": "0189-01-01",
-  "t": "0250-01-01",
+  "t": null,
   "kesinlik": {
    "f": "onyil",
-   "t": "onyil"
+   "t": "belirsiz"
   },
   "baskent": "Yamatai (Kinai veya Kyushu; tartismali)",
   "etkin_bolge": "Japon takimadalari",
   "sehirler": [
    "Yamatai"
   ],
-  "ozet": "2. yy sonu Wa ic savasi sonrasi Himiko ile kurulan Wa birligi; Sanguozhi'de anilir.",
+  "ozet": "Hou Han shu'ya göre Huan-Ling devrinde (146-189) Wa'nın iç savaşından sonra kahin-kraliçe Himiko'nun başa geçirildiği, Wei ile ilişkili «Yamatai Kraliçeliği» (邪馬臺/邪馬壹); Himiko 247-248 dolayı öldü, Iyo (Toyo) kraliçe yapıldı.",
   "oncul": [
    "na-nakoku"
   ],
@@ -370,14 +385,16 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Hou Han shu j.85, Wa — zh.wikisource.org/wiki/後漢書/卷85 (okundu): «桓、靈閒，倭國大亂，更相攻伐，歷年無主。有一女子名曰卑彌呼…於是共立為王»",
+   "Sanguozhi j.30, Wo ren — zh.wikisource.org/wiki/三國志/卷30 (okundu): «其國本亦以男子為王，住七八十年，倭國亂…乃共立一女子為王，名曰卑彌呼»; «景初二年六月，倭女王遣大夫難升米等詣郡»; «其八年…卑彌呼以死，大作冢…復立卑彌呼宗女壹與，年十三為王»",
+   "Jin shu j.3 Wu di ji — zh.wikisource.org/wiki/晉書/卷003 (okundu): «泰始二年…十一月己卯，倭人來獻方物» (266: son tanıklık)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Yeri tartismali. Atlas yamato f 0250; ardil gecisi. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: 0189-01-01 / 0250-01-01. f: «桓、靈閒» = 146-189; Himiko'nun başa geçmesi savaşın sonu (~189) varsayılır → onyıl hassasiyeti, ic_not'ta aralık 146-189. Sanguozhi'de Himiko'nun Wei'ye elçisi «景初二年» (238; bazı baskılar 景初三年 = 239; Wei zhi'nin kendi yıl tutarsızlığı). t: Himiko'nun ölümü «其八年» (正始8 = 247) sonrası; Yamatai'nin sonu kaynakta YOK; son anılma Jin shu'da 266 (Iyo'nun elçisi olabilir) → t null. Yamatai'nin yeri (Kinai vs Kyushu) tartışmalı; «Yamatai» Hou Han shu'da 邪馬臺, Sanguozhi'de 邪馬壹 yazılır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -396,19 +413,21 @@
   "sehirler": [
    "Wanggeom"
   ],
-  "ozet": "Wi Man MO 194'te Gojoseon'u devirdi; Han MO 108'de fethetti.",
+  "ozet": "Yan'dan kaçan Wiman'ın Gija Joseon'un son kralı Jun'u (準) devirip Wanggeom'da (Pyongyang) kurduğu krallık; üçüncü kral Ugeo döneminde 109-108'de Han Wudi'nin seferiyle yıkıldı, topraklar Lelang, Lintun, Zhenfan, Xuantu komandanlıklarına bölündü.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Gojoseon (okundu; yalniz aday kaynak)"
+   "Shiji j.115 Chaoxian liezhuan — zh.wikisource.org/wiki/史記/卷115 (okundu): «燕王盧綰反，入匈奴，滿亡命…稍役屬真番、朝鮮蠻夷及故燕、齊亡命者王之，都王險»",
+   "Hanshu j.95 Chaoxian zhuan — zh.wikisource.org/wiki/漢書/卷095 (okundu): «三年夏，尼谿相參乃使人殺朝鮮王右渠來降…故遂定朝鮮為真番、臨屯、樂浪、玄菟四郡»",
+   "Hou Han shu j.85 — zh.wikisource.org/wiki/後漢書/卷85 (okundu): «燕人衛滿擊破准，而自王朝鮮，傳國至孫右渠…至元封三年，滅朝鮮»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: -0193-01-01 / -0107-01-01 (korundu). t: Hanshu 元封三年夏 = MÖ 108 = astronomik -0107 (kaynaktan okundu; Yuanfeng 2 = MÖ 109 sefer başlangıcı). f: Shiji yalnızca «Lu Wan'ın (MÖ 195) Xiongnu'ya kaçışından sonra» der; Wiman'ın Jun'u devirmesi Weilue'ye göre MÖ 194 (= -0193) — Weilue (Sanguozhi notu) bu oturumda okunamadı → f yıl hassasiyeti, MÖ 195-194 aralığı. Yan'dan kaçan dönüşüm; «Gija Joseon» meşruluğu efsane (Hou Han shu: «武王封箕子於朝鮮»).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "wiman-joseon",
-   "not": ""
+   "not": "mevcut -0193 / -0107; kaynakla uyumlu."
   }
  },
  {
@@ -417,10 +436,10 @@
   "tur": "krallik",
   "bolge": "dogu-asya",
   "f": "-0036-01-01",
-  "t": "0668-01-01",
+  "t": "0668-10-22",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "gun"
   },
   "baskent": "Jolbon -> Gungnae -> Pyeongyang",
   "etkin_bolge": "Kore/Japonya",
@@ -429,19 +448,22 @@
    "Gungnae",
    "Pyeongyang"
   ],
-  "ozet": "Geleneksel kurulus MO 37; 668'de Silla-Tang tarafindan fethedildi.",
+  "ozet": "Jumong'un (Dongmyeong) MÖ 37'de Jolbon'da kurduğu (Samguk sagi kronolojisi), Gungnae ve Pyongyang başkentli büyük Kuzey Kore krallığı; Tang-Silla ittifakıyla 668 sonbaharında Pyongyang'ın düşüşü ve Bojang'ın esir alınmasıyla yıkıldı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+   "Samguk sagi j.13 Goguryeo bon-gi 1 — zh.wikisource.org/wiki/三國史記/卷13 (okundu): «時，朱蒙年二十二歲，是漢孝元帝建昭二年，新羅始祖赫居世二十一年甲申歲也»",
+   "Hou Han shu j.85 — zh.wikisource.org/wiki/後漢書/卷85 (okundu): «建武八年，高句驪遣使朝貢，光武復其王號» (MS 32; Çin kaynağında ilk resmî ilişki)",
+   "Jiu Tangshu j.5 Gaozong xia, Zongzhang 1 — zh.wikisource.org/wiki/舊唐書/卷5 (okundu): «九月癸巳，司空、英國公勣破高麗，拔平壤城，擒其王高藏及其大臣男建等以歸» (癸巳 = 668-10-22 Jülyen)",
+   "Samguk sagi j.6 Silla bon-gi, Munmu 8 (668) — zh.wikisource.org/wiki/三國史記/卷06 (okundu): «九月二十一日，與大軍合圍平壤，高句麗王先遣泉男産等，詣英公請降»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: -0036-01-01 / 0668-01-01. f: Samguk sagi geleneksel kuruluş tarihi: 前漢 建昭二年 (MÖ 37) = astronomik -0036; Hou Han shu'da Goguryeo'nun resmî Çin ilişkisi MS 32'den başlar; MÖ 37 kuruluş tarihi Samguk sagi geleneğidir, bağımsız Çince teyidi bu oturumda okunmadı. t: Jiu Tangshu 668 9. ay 癸巳 = 668-10-22 (Jülyen; sexagenary); Silla kayıtlarında teslim 9. ay 21 (Silla takviminde ≈ 10-31) — iki kayıt arasında 9 gün fark; Tang kaydı esas alındı. Teslimden sonra direniş 670-673'e kadar sürdü (Bodeok-Goguryeo ayrı kayıt).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "goguryeo",
-   "not": ""
+   "not": "mevcut t=0668-01-01 → 0668-10-22 (9 ay)."
   }
  },
  {
@@ -450,10 +472,10 @@
   "tur": "krallik",
   "bolge": "dogu-asya",
   "f": "-0017-01-01",
-  "t": "0660-01-01",
+  "t": "0660-08-01",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "ay"
   },
   "baskent": "Wiryeseong -> Ungjin -> Sabi",
   "etkin_bolge": "Kore/Japonya",
@@ -462,19 +484,22 @@
    "Ungjin",
    "Sabi"
   ],
-  "ozet": "Geleneksel kurulus MO 18; 660'ta Silla-Tang fethi.",
+  "ozet": "Onjo'nun MÖ 18'de Wiryeseong'da (Hanam) kurduğu Mahan içinden büyüyen krallık (Hanseong → Ungjin → Sabi); Tang-Silla seferiyle 660'ta Sabi'nin düşmesi ve Uija'nın esir edilmesiyle yıkıldı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+   "Samguk sagi j.23 Baekje bon-gi 1, Onjo — zh.wikisource.org/wiki/三國史記/卷23 (okundu): «溫祚都河南慰禮城，以十臣為輔翼，國號十濟，是前漢成帝鴻嘉三年也»",
+   "Samguk sagi j.5 Silla bon-gi, Muyeol 7 (660) — zh.wikisource.org/wiki/三國史記/卷05 (okundu): «十三日，義慈率左右，夜遁走，保熊津城…十八日，義慈率太子及熊津方領軍等，自熊津城來降»",
+   "Jiu Tangshu j.4 Gaozong shang, Xianqing 5 — zh.wikisource.org/wiki/舊唐書/卷4 (okundu): «八月庚辰，蘇定方等討平百濟，面縛其王扶餘義慈» (庚辰 = 660-09-21 Jülyen)",
+   "Jiu Tangshu j.199 shang, Baekje — zh.wikisource.org/wiki/舊唐書/卷199上 (okundu): «顯慶五年，命左衛大將軍蘇定方統兵討之，大破其國。虜義慈及太子隆…»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: -0017-01-01 / 0660-01-01. f: Samguk sagi geleneksel kuruluş (MÖ 18 = astronomik -0017); Baekje'nin kuruluş tarihi yalnız Samguk sagi geleneğine dayanır (Sanguozhi'de «伯濟國» Mahan'ın 54 devletinden biri olarak geçer). t: Silla takvimiyle 7. ay 18 (Uija'nın Ungjin'den teslimi). 660'ın Çin-Silla takvimi başlangıçlarını ortalama yeniay hesabıyla (± 1 gün) kurduk: 7. ay başı ≈ 660-08-11 → 7/13 (Uija kaçar) ≈ 08-23, 7/18 (teslim) ≈ 08-28 (Jülyen). Tang kaydı 八月庚辰 = 660-09-21 haberin yazıldığı tarih. Vikipedi'nin «18 Temmuz 660» gösterimi büyük olasılıkla ay-güneş «7. ay 18»in solar sanıldığı hatadır — kayıt ay hassasiyeti (660-08) ile yazıldı. KÜNYE DÜZELTME ADAYI.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "baekje",
-   "not": ""
+   "not": "mevcut t=0660-01-01 → 0660-08 (yıl içi, ay hassasiyeti)."
   }
  },
  {
@@ -483,29 +508,31 @@
   "tur": "krallik",
   "bolge": "dogu-asya",
   "f": "-0056-01-01",
-  "t": "0935-01-01",
+  "t": "0936-01-08",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "gun"
   },
   "baskent": "Gyeongju",
   "etkin_bolge": "Kore/Japonya",
   "sehirler": [
    "Gyeongju"
   ],
-  "ozet": "Geleneksel kurulus MO 57; Birlesik Silla 668, Gec Silla 892; 935 Goryeo'ya.",
+  "ozet": "Hyeokgeose'nin MÖ 57'de Saro'da (Gyeongju) kurduğu Jinhan çekirdekli krallık; 668'de Goguryeo ve Baekje'yi yok edip yarımadanın büyük kısmını birleştirdi (Birleşik Silla, 676-935); Gyeongsun'un Goryeo'ya teslimiyle sona erdi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+   "Samguk sagi j.1 Silla bon-gi 1 — zh.wikisource.org/wiki/三國史記/卷01 (okundu): «始祖姓朴氏，諱赫居世，前漢孝宣帝五鳳元年甲子四月丙辰即位，號居西干，時年十三，國號徐那伐»",
+   "Samguk sagi j.12 Silla bon-gi 12, Gyeongsun 9 (935) — zh.wikisource.org/wiki/三國史記/卷12 (okundu): «乃使侍郞金封休，齎書請降於太祖…十二月，封為正丞公»",
+   "Goryeosa j.2 Taejo 18 — zh.wikisource.org/wiki/高麗史/卷二 (okundu): «羅王率百僚，發王都…癸卯，羅王與王鐵等入開京…壬申，御天德殿…乃受羅王庭見之禮…除新羅國為慶州»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Birlesik Silla 668-892 ve Gec Silla 892-935 ayni kayit. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: -0056-01-01 / 0935-01-01. f: Samguk sagi geleneksel (MÖ 57 = astronomik -0056; «四月丙辰»); Çin kaynağında Silla ayrı bir ad olarak Sanguozhi'de yalnız «斯盧國» (Jinhan devleti) geçer — kuruluş tarihi gelenekseldir. t: Silla Kralı Gyeongsun: 935 10. ay 壬戌 (= 935-10-30) teslim mektubu gönderildi; 甲午 (= 935-12-01) başkenti terk etti; 癸卯 (= 935-12-10) Kaesong'a girdi; 壬申 (= 936-01-08) Taejo teslimi kabul etti, «Silla Devleti Gyeongju oldu» (Jülyen; Goryeosa sexagenary + yeniay hesabıyla). KÜNYE KAPSAMI: künye «Birleşik Silla dahil» — Samguk sagi Silla'yı MÖ 57'den 935'e kesintisiz tek hanedan/devlet olarak verir (Birleşik Silla 676'dan, Geç Silla 780'den sonrası alt-dönemlerdir); ayrı kayıt gerekmez. Mevcut t (935-01-01) 12 ay erken.",
   "esleme": {
-   "durum": "var",
+   "durum": "var-f-t-farkli",
    "mevcut_id": "silla",
-   "not": ""
+   "not": "mevcut t=0935-01-01 → 0936-01-08 (Goryeosa)."
   }
  },
  {
@@ -513,11 +540,11 @@
   "ad": "Yamato Hükümdarlığı (Kofun)",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "0250-01-01",
-  "t": "0710-01-01",
+  "f": "0421-01-01",
+  "t": "0710-04-12",
   "kesinlik": {
-   "f": "onyil",
-   "t": "yil"
+   "f": "yil",
+   "t": "gun"
   },
   "baskent": "Yamato -> Asuka",
   "etkin_bolge": "Kore/Japonya",
@@ -525,19 +552,20 @@
    "Yamato",
    "Asuka"
   ],
-  "ozet": "Kofun doneminde Yamato krallığı; Asuka donemi dahil.",
+  "ozet": "Çin kaynaklarında Liu Song'a 421'den itibaren elçi gönderen Wa kralları (Zan, Chin, Sai ve halefleri) ve Asuka-Fujiwara-kyō dönemi saray devleti; 710'da Heijō-kyō'ya taşımayla Nara dönemine bağlanır.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Songshu j.97 Yiman zhuan, Wo guo — zh.wikisource.org/wiki/宋書/卷97 (okundu): «高祖永初二年，詔曰：倭讚萬里修貢，遠誠冝甄，可賜除授。太祖元嘉二年，讚又遣司馬曹達奉表獻方物…倭國王濟遣使奉獻…»",
+   "Shoku Nihongi j.4-5 (Wadō 1-3) — zh.wikisource.org/wiki/續日本紀/卷第五 (okundu): «辛酉。始遷都于平城» (= 710-04-13)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: 0250-01-01 / 0710-01-01. f=250 Kofun dönemi başlangıcının arkeolojik tahmini (Hashihaka vb.); yazılı kaynak YOK. Çince yazılı kaynakta Yamato kralları: Songshu 421 (Eiji 2) Zan'ın ilk elçisi; Hou Han shu/Sanguozhi'de Wa Queen Himiko'nun Yamatai'si (Yamato'ya eşitlenmesi tartışmalı) → f yazılı ilk kayıtla 421 yapıldı, 250 taslak değeri ic_not'ta. Nihon Shoki'nin Jimmu (MÖ 660) kronolojisi efsane, kullanılmadı. t: 710-04-12, Nara f'den önceki gün (Shoku Nihongi 710-04-13 taşınma). Nara-japonya ile süreklilik: aynı saray devleti; Asuka (592-694) ve Fujiwara-kyō (694-710) bu kaydın içindedir. Yamatai ile ilişkisi: ardıl/özdeş tartışmalı (Yamatai-Kinai varsayımı).",
   "esleme": {
-   "durum": "var",
+   "durum": "var-f-t-farkli",
    "mevcut_id": "yamato",
-   "not": ""
+   "not": "mevcut f=0250-01-01, t=0710-01-01; f yazılı kaynakla 421; t 0710-04-12."
   }
  }
 ]

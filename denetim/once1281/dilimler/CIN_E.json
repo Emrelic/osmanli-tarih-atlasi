@@ -89,13 +89,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
-   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
-   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+   "Tuotuo vd., Song shi (1345), juan 485 «Xia guo shang» (拓跋思恭鎮夏州…討黃巢有功，復賜李姓; 元昊…築壇受冊，即皇帝位; 國稱大夏，年號天授禮法延祚) — zh.wikisource.org/wiki/宋史/卷485 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "1032'de Prens.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "1032'de Prens. | f: Song shi 485: 寶元元年(1038) Yuanhao 築壇受冊 即皇帝位, 國稱大夏, 十月十一日 郊壇 (lunar; Jülyen karşılığı çevrilmedi). Atlas f=1038-01-01 yıl doğru. t=1227 okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "bati-xia",
@@ -123,13 +120,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
-   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
-   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+   "Song Lian vd., Yuan shi, juan 3-4 «Xianzong» (秋七月，命忽必烈征大理…九月壬寅，師次忒剌，分三道以進…) — zh.wikisource.org/wiki/元史/卷003, 卷004 (okundu; Dali'nin düşüşü 1253-54 yılları ay/gün okunmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Duan'ın Yuan'a bağlı yerel yönetimi 1382'ye kadar sürdü.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Duan'ın Yuan'a bağlı yerel yönetimi 1382'ye kadar sürdü. | Yuan shi: 憲宗三年(1253) Kubilay Dali seferi; Dali'nin (Duan hanedanı) düşüşü 1253-54. f=937 (Duan Siping) Song shi 488 sayfasında okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "dali-kralligi",
@@ -157,13 +151,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
-   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
-   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+   "Tuotuo vd., Song shi (1345), juan 475 «Pan chen shang» (金人奉冊寶至，邦昌北向拜舞受冊，即偽位，僭號大楚，擬都金陵) — zh.wikisource.org/wiki/宋史/卷475 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Çok kısa. Aylar kesin değil.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Çok kısa. Aylar kesin değil. | Song shi 475: Jin elçileri冊寶 getirdi, Zhang Bangchang 即偽位，僭號大楚, Jinling'i başkent düşünüyordu (靖康二年=1127, ay metinde yok; üç hafta sonra Gaozong'a devretti).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -192,13 +183,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
-   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
-   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+   "Tuotuo vd., Song shi, juan 475 «Liu Yu» (金人聞麟等敗，詰豫罪狀，始有廢豫意矣…七年春) — zh.wikisource.org/wiki/宋史/卷475 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Liu Yu 1130 Sept; 1137 Nov.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Liu Yu 1130 Sept; 1137 Nov. | Song shi 475: Liu Yu Jin'in kuklası Qi; 紹興七年(1137) Jin Liu Yu'yu 廢 etti (t=1137 doğrulanır); f=1130 (建炎四年 Qi ilanı) bu sayfada metin eşleşmedi.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -210,10 +198,10 @@
   "ad": "Jin Hanedanı (Jurchen, Kuzey Çin)",
   "tur": "hanedanlik",
   "bolge": "dogu-asya",
-  "f": "1115-01-01",
+  "f": "1115-01-28",
   "t": "1234-02-09",
   "kesinlik": {
-   "f": "yil",
+   "f": "gun",
    "t": "gun"
   },
   "baskent": "Huining → Zhongdu",
@@ -227,13 +215,11 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
-   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
-   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+   "Tuotuo vd., Jin shi (1344-45), juan 2 «Taizu» (收國元年正月壬申朔，群臣奉上尊號。是日，即皇帝位…于是國號大金，改元收國) — zh.wikisource.org/wiki/金史/卷2 (okundu)",
+   "Tuotuo vd., Jin shi, juan 17 «Aizong shang» (天興元年，是年本正大九年，正月改元開興，四月又改元天興) — zh.wikisource.org/wiki/金史/卷17 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: f=1115-01-01 | f: 收國元年正月壬申朔, Aguda 即皇帝位, 國號大金 (Jülyen 1115-01-28). t=1234-02-09 bu oturumda okunmadı (Jin shi 18'deki sayfada 天興三年 desenine ulaşılmadı). | Jin shi 17: Aizong 天興 yıl adı (1232); Cai Zhou'nun düşüşü 天興三年 sayfası (juan 18) okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "jin-hanedani",
@@ -295,13 +281,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
-   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
-   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
-   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+   "Song Lian vd., Yuan shi (1370), juan 7 «Shizu 4» (乙亥，劉秉忠及王磐…言…建國號曰大元，詔曰…) — zh.wikisource.org/wiki/元史/卷7 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas 1260 (Kubilay han) kullanıyor; 1271 Yuan adı. Fark 11 yıl ≤ 25 => var.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas 1260 (Kubilay han) kullanıyor; 1271 Yuan adı. Fark 11 yıl ≤ 25 => var. | f: Yuan shi 7, 乙亥 建國號曰大元 (Jülyen 1271-12-18) — resmî devlet adı; Kubilay'ın 1260 Khan seçimi (atlas yuan-hanedani f=1260). t=1368-09-14 (Shundi'nin Dadu'dan kaçışı) 元史 47 sayfasında okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "yuan-hanedani",

@@ -26,9 +26,13 @@ def devir(y):
 
 mevcut = json.load(open('denetim/once1281/mevcut_kunyeler.json', encoding='utf-8'))
 MEV = {d['id']: d for d in mevcut}
-kayitlar, sorunlar, rapor_dosyalari, elenen = [], [], [], []
+kayitlar, sorunlar, rapor_dosyalari, elenen, duzeltme = [], [], [], [], []
 for yol in sorted(glob.glob('denetim/once1281/dilimler/*.json')):
     ad = os.path.basename(yol)[:-5]
+    if ad.endswith('_REF'):             # mevcut künye düzeltme adayları (yeni polity değil)
+        try: duzeltme.extend(json.load(open(yol, encoding='utf-8')))
+        except Exception: pass
+        continue
     if ad.endswith('_ELENEN'):          # elenen kayıtlar (polity değil) listeye girmez; sayısı özette
         try: elenen.extend(json.load(open(yol, encoding='utf-8')))
         except Exception: pass
@@ -85,7 +89,7 @@ esl_id = {(k.get('esleme') or {}).get('mevcut_id') for k in kayitlar}
 yetim = sorted(d['id'] for d in mevcut if yil(d.get('f')) is not None and yil(d['f']) < 1281
                and d['id'] not in esl_id and d['id'] not in sayac and d.get('tur') != 'kultur')
 
-tam = {'elenen': elenen, 'uretim': 'denetim/once1281/birlestir.py', 'kayit_sayisi': len(kayitlar), 'kayitlar': kayitlar,
+tam = {'kunye_duzeltme_adaylari': duzeltme, 'elenen': elenen, 'uretim': 'denetim/once1281/birlestir.py', 'kayit_sayisi': len(kayitlar), 'kayitlar': kayitlar,
        'sorunlar': [{'dilim': a, 'id': b, 'sorun': c} for a, b, c in sorunlar],
        'atlasta_olup_listede_eslesmeyen': yetim}
 json.dump(tam, open('denetim/ONCE1281-DEVLET-LISTESI.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

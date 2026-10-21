@@ -1,33 +1,39 @@
 [
  {
   "id": "goryeo",
-  "ad": "Goryeo",
-  "tur": "krallik",
+  "ad": "Goryeo Hanedanı (Kore)",
+  "tur": "hanedanlik",
   "bolge": "dogu-asya",
-  "f": "0918-01-01",
-  "t": "1392-07-17",
+  "f": "0918-07-25",
+  "t": "1392-08-04",
   "kesinlik": {
-   "f": "yil",
+   "f": "gun",
    "t": "gun"
   },
-  "baskent": "Kaesong",
+  "baskent": "Kaesong (1232-1270 Ganghwa; 1011 ve 1361 geçici sürgün)",
   "etkin_bolge": "Kore/Japonya",
   "sehirler": [
-   "Kaesong"
+   "Kaesong",
+   "Pyongyang (Seogyeong)",
+   "Gyeongju (Donggyeong)",
+   "Seul (Namgyeong)"
   ],
-  "ozet": "Wang Geon'un kurdugu hanedan; 1392'de Joseon.",
+  "ozet": "Wang Geon'un 918'de Taebong'u devirip kurduğu, 936'da Hubaekje'yi ve 935'te Silla'yı kendine katarak Kore'yi birleştirdiği hanedan; 1392'de General Yi Seong-gye'nin son kral Gongyang'ı tahttan indirmesiyle Joseon'a devrildi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+   "Goryeosa (Jeong In-ji vd., 1451) j.1 Taejo 1 — zh.wikisource.org/wiki/高麗史/卷一 (okundu): «元年夏六月丙辰，卽位于布政殿，國號高麗，改元天授» (丙辰 = 918-07-25 Jülyen)",
+   "Goryeosa j.2 Taejo 18-19 — zh.wikisource.org/wiki/高麗史/卷二 (okundu): Silla Kralı Kim Bu'nun teslimi (935-11/12), 936 Iljecheon zaferi: «王旣定三韓»",
+   "Goryeosa j.46 Gongyang 4 — zh.wikisource.org/wiki/高麗史/卷四十六 (okundu): «辛卯…遂廢王，放于原州…封恭讓君»",
+   "Joseon wangjo sillok, Taejo gangheon daewang sillok 1. yıl — ko.wikisource.org/wiki/조선왕조실록/태조강헌대왕실록/1년 (okundu): «17일 병신, 태조가 수창궁에서 즉위하였다… 12일에 공양왕이…»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: 0918-01-01 / 1392-07-17. f: Goryeosa 元年夏六月丙辰 = 918-07-25 (Jülyen; Taebong'un düşüşü 乙卯 = 07-24). t: KÜNYEDEKİ 1392-07-17, Japon/Kore ay-güneş takvimindeki «7. ay 17» sayısının Gregoryen/Jülyen gün sanılmasıdır. Sillok: 7. ay 12 = Gongyang'ın tahttan indirilmesi (Goryeosa 辛卯 = 1392-07-31 Jülyen); 17 (丙申) Yi Seong-gye'nin Sugangung'da tahta çıkışı = 1392-08-05 (Jülyen; Gregoryen 08-14). Bu kayıt son günü 04 Ağustos 1392 alır; Joseon f = 1392-08-05. KÜNYE DÜZELTME ADAYI (KOJA_REF.json): goryeo t, Joseon f. Goryeo'da 1259-1356 Mongol Yuan vasallığı bu kaydın içindedir; Ssangseong/Dongnyeong komutanlıkları ayrı kayıt değildir (KOJA_RAPOR2).",
   "esleme": {
-   "durum": "var",
+   "durum": "var-f-t-farkli",
    "mevcut_id": "goryeo",
-   "not": ""
+   "not": "mevcut f=0918-01-01 (7 ay erken) ve t=1392-07-17 (takvim karışıklığı, 18 gün) → 0918-07-25 / 1392-08-04."
   }
  },
  {
@@ -51,10 +57,11 @@
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Azuma Kagami j.2 (Yōwa 1) — zh.wikisource.org/wiki/吾妻鏡/卷002 (okundu): «養和元年八月小十三日丁巳。藤原秀衡可令追討武衛也» (丁巳 = 1181-09-23 Jülyen): saray Fujiwara no Hidehira'yı Yoritomo'ya karşı görevlendirir; j.4: «兵衛尉忠信秀衡之郎等» — Hidehira'nın yerel erk sahibi olarak varlığı. 1187-1189 ciltleri Wikisource'ta yok, okunamadı",
+   "Vikipedi (Northern Fujiwara; Battle of Ōshū) yalnız aday kaynak — Ōshū Seibatsu 1189 Eylül-Ekim"
   ],
-  "dogrulama": "taslak",
-  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Akademik birincil/ikincil kaynak okunamadı: Azuma Kagami'nin 1189 cildi (Bunji 5) ve Cambridge History of Japan III (archive.org tam metin ödünç sınırlı) açılamadı. f=1087 (Gosannen savaşının sonu, Kiyohira'nın bölgeyi tek başına alması) ve t=1189 (Yoritomo'nun Ōshū seferi, Hiraizumi'nin düşüşü) Vikipedi/UNESCO Hiraizumi sayfalarında tutarlı ama dayanak yetersiz. Gün hassasiyeti: Azuma Kagami'de 1189 Bunji 5/9 (Eylül-Ekim). Dönem oturumunda Azuma Kagami j.9-10 (Bunji 5) ve Chūson-ji Konjikidō belgelerinden doğrulanmalı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "oshu-fujiwara",
@@ -66,10 +73,10 @@
   "ad": "Kamakura Şogunluğu",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "1185-01-01",
+  "f": "1185-12-22",
   "t": "1333-07-04",
   "kesinlik": {
-   "f": "yil",
+   "f": "gun",
    "t": "gun"
   },
   "baskent": "Kamakura",
@@ -77,19 +84,21 @@
   "sehirler": [
    "Kamakura"
   ],
-  "ozet": "Minamoto no Yoritomo bakufu.",
+  "ozet": "Minamoto no Yoritomo'nun 1180'de Kantō'da başlattığı, 1185'te Dan-no-ura zaferi ve imparatorluk sarayından alınan ülke çapında shugo-jitō atama hakkıyla (1185-12-22) bakufu kuran, 1333'te Hōjō naipliğinin Kamakura'nın düşüşüyle bitti.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Azuma Kagami j.1 (Jishō 4) — zh.wikisource.org/wiki/吾妻鏡/卷001 (okundu): «八月小十七日丁酉…» (= 1180-09-08 Jülyen, ayaklanma Izu); «十月小六日乙酉。着御于相摸國» (= 1180-10-26); «十月小十五日甲午。武衛始入御鎌倉御亭» (= 1180-11-04); «十二月小廿日戊戌。於新造御亭…» (= 1181-01-07)",
+   "Azuma Kagami j.4 (Genryaku 2) — zh.wikisource.org/wiki/吾妻鏡/卷004 (okundu): «三月大廿四日丁未。於長門國赤間關壇浦海上。源平相逢…» (= 1185-04-25)",
+   "Azuma Kagami j.5 (Bunji 1) — zh.wikisource.org/wiki/吾妻鏡/卷005 (okundu): «十一月大廿八日丁未。補任諸國平均守護地頭…廿九日戊申…早任申請可有御沙汰之由被仰下» (戊申 = 1185-12-22); Ōe no Hiromoto'nun önerisi: «毎國衙庄園被補守護地頭»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Yoritomo'nun Kanto'daki fiili hakimiyeti 1180'de baslar; atlas 1185. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: 1185-01-01 / 1333-07-04. «Kamakura Bakufu'nun başlangıcı» için tartışmalı dönüm noktaları: (a) 1180-11-04 Yoritomo'nun Kamakura'ya girişi (Azuma Kagami j.1) — Kantō'da fiilî rejim; (b) 1183 Ekim (Juei 2/10) saray Yoritomo'ya doğu eyaletlerinde yetki verdi [bu oturumda Azuma Kagami'de okunamadı, ak.003 başlangıcı yalnız 1184'ten]; (c) 1184 Ekim kamu işleri ve yargı ofisleri (Kumonjo/Monchūjo) [okunmadı]; (d) 1185-12-22 ülke çapında shugo-jitō (Azuma Kagami j.5 okundu); (e) 1190 sarayda ünvanlar [okunmadı]; (f) 1192 Seii taishōgun [okunmadı]. Künyedeki f=1185 «kurumun resmî başlangıcı» sınıfı, (d)'nin yıl-genelindeki öncülü; gün kaynaktan 1185-12-22. Eğer Emre «fiilî devlet» kuralını isterse f = 1180-11-04 (a). KOJA_REF.json künye düzeltme adayı: Kamakura f.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "kamakura",
-   "not": ""
+   "not": "mevcut f=1185-01-01; Azuma Kagami'den 1185-12-22 (nationwide shugo-jitō) veya fiilî 1180-11-04."
   }
  },
  {
@@ -114,11 +123,9 @@
    "kiyohara-dewa"
   ],
   "oncelik": "kucuk",
-  "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
-  ],
+  "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "Abe hakimiyeti 1051 oncesi; f savas basi. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "ic_not": "Bu oturumda birincil metin bulunamadı: Mutsu waki (Zenkunen no eki'nin anlatısı) Wikisource'ta yok; Hyakurenshō ve Fusō ryakki Wikisource sürümlerinde 1051-1062 olaylarını kapsayan ciltler (Hyakurenshō j.5-6, Fusō ryakki j.28-30) yüklenemedi. Abe klanı Mutsu'nun altı ilçesinde (Rokugun) fiilen özerk idi; devlet ölçütü (adı + belirli toprağı + on yıllar) açıkça sağlanıyor ama tarihler taslak. Elenme adayı değil, oncelik=kucuk.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -149,11 +156,9 @@
    "oshu-fujiwara"
   ],
   "oncelik": "kucuk",
-  "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
-  ],
+  "kaynak": [],
   "dogrulama": "taslak",
-  "ic_not": "Gosannen Savasi 1083-87. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "ic_not": "Birincil metin bulunamadı (Gosannen kassen ekotoba / Gosannenki Wikisource'ta yok). Kiyohara klanı Dewa Yamakita'da Mutsu-Dewa'nın hâkimi (1062-1087); f 1062 Zenkunen sonu, t 1087 Kanazawa kuşatması sonu. Doğrulanmamış taslak.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -162,36 +167,37 @@
  },
  {
   "id": "taira-rejimi",
-  "ad": "Taira (Heike) Rejimi",
+  "ad": "Taira Rejimi (Antoku Sarayı — Batı Denizi dönemi)",
   "tur": "hanedanlik",
   "bolge": "dogu-asya",
-  "f": "1179-01-01",
-  "t": "1185-01-01",
+  "f": "1183-08-01",
+  "t": "1185-04-25",
   "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "f": "ay",
+   "t": "gun"
   },
-  "baskent": "Rokuhara -> Yashima",
-  "etkin_bolge": "Seto Ic Denizi ve Kinai",
+  "baskent": "bilinmiyor (gezici saray, Batı Denizi/Saikai; Yashima, Dazaifu vb. ayrıntı okunmadı)",
+  "etkin_bolge": "Batı Denizi (Saikai) çevresi — ayrıntı okunmadı",
   "sehirler": [
    "Rokuhara",
    "Yashima"
   ],
-  "ozet": "Taira no Kiyomori'nin 1179 darbesi ve rejimi; Dannoura'da 1185'te yikildi.",
+  "ozet": "Taira no Munemori'nin 1183'te Minamoto no Yoshinaka'nın Kyoto'ya yaklaşması üzerine çocuk İmparator Antoku ve üç kutsal emanetle Batı Denizi'ne (Saikai) çekilip kurduğu rakip saray; Minamoto ordusunun Dan-no-ura'da (25 Nisan 1185) Taira donanmasını yok etmesiyle sona erdi.",
   "oncul": [],
   "ardil": [
    "kamakura"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Hyakurenshō j.9 (Antoku-tennō) — zh.wikisource.org/wiki/百錬抄/第九 (okundu): «同二年七月廿五日赴西海。文治元年乙巳三月廿四日崩海中»",
+   "Azuma Kagami j.4 (Genryaku 2) — zh.wikisource.org/wiki/吾妻鏡/卷004 (okundu): «三月大廿四日丁未。於長門國赤間關壇浦海上。源平相逢…平氏終敗傾。二品禪尼持寳釼。按察局奉抱先帝…共以没海底» (= 1185-04-25 Jülyen)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kiyomori konumu 1167'den; fiilen 1179. Heian sarayi ayri kayit. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: 1179-01-01 / 1185-01-01 (1179 = Kiyomori'nin Kyoto'daki darbesi; 1180 Fukuhara-kyō'ya geçici saray). 1179-1183 dönemi Heian saray devletinin İÇİNDE Taira hâkimiyetidir (Kiyomori Daijō-daijin; Antoku 1180 Jishō 4/4/22'de tahta çıktı (Hyakurenshō/Azuma Kagami j.1)) — ayrı polity değil, Heian kaydı ve Kantō'daki Minamoto isyanı (Azuma Kagami j.1) ile birlikte okunur. Ayrı polity sayılabilen kısım: 1183 Juei 2/7/25 (Hyakurenshō) Taira'nın sarayı alıp Kyoto'yu terk etmesinden Dan-no-ura'ya kadar. Tarih gün dönüşümü yapılamadı (7/25 için sexagenary işaret yok) → ay hassasiyeti; Dan-no-ura günü Azuma Kagami'den 丁未 = 1185-04-25. Aynı dönemde Kyoto'da Go-Toba (1183-08-20'de tahta, Azuma Kagami j.1) rakip saraydır — iki saray 1183-1185 arası eşzamanlı. Eski kayıtta f=1179 yanlış sınıflandırma.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
@@ -203,7 +209,7 @@
   "t": "1314-01-01",
   "kesinlik": {
    "f": "yil",
-   "t": "yuzyil"
+   "t": "yil"
   },
   "baskent": "Urasoe Gusuku",
   "etkin_bolge": "Okinawa adasi",
@@ -211,73 +217,75 @@
    "Urasoe",
    "Shuri"
   ],
-  "ozet": "1187'de Shunten ile Urasoe'de baslayan krallik; Eiso hanedani 1260; 1314 civari Sanzan.",
+  "ozet": "Ryukyu tarihinin geleneksel kuruluş sülalesi (Shunten 1187, Shunbajunki, Gihon, Eiso 1260, Taisei, Eiji): Chūzan Seikan'a göre Urasoe merkezli tek Ryukyu devleti; 1314'te Tamagusuku'nun yönetimi zayıflattığı için Sanzan'a (Hokuzan/Chūzan/Nanzan) bölündü.",
   "oncul": [],
   "ardil": [
    "ryukyu-chuzan"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Ryukyu_Kingdom (kismen okundu; yalniz aday kaynak)"
+   "Haneji Chōshū (Shō Shōken), Ryūkyū-koku Chūzan seikan, 1650 — ja.wikisource.org/wiki/琉球國中山世鑑/卷一 ve /卷二 (okundu): «南宋淳熈十四年丁未舜天御即位»; «大元延祐元年甲寅玉城王子御即位…此時ヨリ世衰ヘ政廢シテ…國別レテ為三中山王山南王山北王»",
+   "Chūzan Seikan, Shunten-izen sekeizu — ja.wikisource.org/wiki/琉球國中山世鑑/琉球國中山王舜天以來世纉圖 (okundu): hanedan sırası Shunten → Shunbajunki → Gihon → Eiso → Taisei → Eiji → Tamagusuku"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Shunten donemi tartismali (yari efsane). Eiso infobox'ta 1349'a kadar. Sanzan (1314-1429) atlas disi (1281 sonrasi). Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f=1187 (Jingsu 14 = 淳熈十四年丁未) ve t=1314 (延祐元年, Tamagusuku'nun tahta çıkışından sonra üçe bölünme) yalnızca XVII. yy. resmî Ryukyu kroniği Chūzan Seikan'a (1650) dayanır; Shunten'in Minamoto no Tametomo oğlu olduğu efsanevî, Shunten-Gihon dönemleri çağdaş yazılı kaynakla doğrulanmıyor. Modern araştırma Eiso (1260) ile başlayan Chūzan hanedanını tarihsel kabul eder; Shunten sülalesi tartışmalı. Kronoloji kayıtları kroniğin hükümdar sürelerinden (Shunten 51, Shunbajunki 11, Gihon 11, Eiso 40 yıl) toplanmıştır; Chūzan Seikan Eiso ölümü için 大德三年己亥 (=1299) verir. Gün yok. Arkeolojik/akademik kaynak (Smits, Visions of Ryukyu 1999; Kerr 1958) bu oturumda açılamadı. oncelik=kucuk.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
   "id": "daewi-myocheong",
-  "ad": "Daewi Devleti (Myocheong)",
+  "ad": "Daewi (Myocheong'un Seogyeong İsyanı Devleti)",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "1135-01-01",
-  "t": "1136-02-01",
+  "f": "1135-01-19",
+  "t": "1136-03-23",
   "kesinlik": {
-   "f": "ay",
-   "t": "ay"
+   "f": "gun",
+   "t": "gun"
   },
   "baskent": "Pyongyang",
   "etkin_bolge": "Pyongyang",
   "sehirler": [
    "Pyongyang"
   ],
-  "ozet": "Goryeo'da Myocheong isyani: Pyongyang'da Daewi devleti ilan edildi, 1136'da bastirildi.",
+  "ozet": "Keşiş Myocheong ve Jo Gwang'ın 1135'te Seogyeong'de (Pyongyang) Goryeo'ya karşı isyan edip «Daewi» devlet adı ve «Cheongae» yıl adı ilân ettiği; Kim Bu-sik'in 1136 Mart'ında Seogyeong'i alıp Jo Gwang'ın kendini yakmasıyla biten rejim.",
   "oncul": [],
   "ardil": [
    "goryeo"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Goryeosa j.127 Yeoljeon 40 (Myocheong) — zh.wikisource.org/wiki/高麗史/卷一百二十七 (okundu): «十三年，妙淸與分司侍郞趙匡…據西京反…國號大爲，建元天開，號其軍曰天遣忠義»",
+   "Goryeosa j.16 Injong 13-14 — zh.wikisource.org/wiki/高麗史/卷十六 (okundu): «十三年春正月乙巳朔…戊申，妙淸、柳旵…以西京反»; «十四年…二月…丁巳，金富軾會諸軍，攻西京，城陷，趙匡自焚死»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Gun/ay yaklasik. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: 1135-01-01 / 1136-02-01. f: 戊申 = 1135-01-19 (Jülyen; 13. yıl 1. ay 4) isyanın günü; Daewi ad/yıl adı ilânı aynı günlerde (Goryeosa 127'de gün yok). t: Goryeosa j.16 14. yıl 2. ay 丁巳 = 1136-03-23 (Jülyen) Seogyeong'in düşüşü. Myocheong ve Yu Cham sonradan kendi adamlarınca öldürüldü (j.16 «西人斬妙淸及柳旵», gün yok); rejim Jo Gwang yönetiminde kuşatma altında kalmıştır. Ölçüt: adı + toprağı (Seogyeong ve çevresi) + 14 ay → sağlanır. oncelik=kucuk.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  },
  {
   "id": "heungyo-guk",
-  "ad": "Heungyo Krallığı (Dae Yeonrim)",
+  "ad": "Heungyo (Xingliao) — Dae Yeon-rim'in Liaodong İsyan Devleti",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "1029-01-01",
-  "t": "1030-01-01",
+  "f": "1029-09-13",
+  "t": "1030-09-25",
   "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "f": "gun",
+   "t": "gun"
   },
-  "baskent": "Dongkyeong (Liaoyang)",
-  "etkin_bolge": "Liaodong",
+  "baskent": "Dongjing / Liaoyang (Liao'nun Doğu Başkenti)",
+  "etkin_bolge": "Liaodong (Liao Dongjing yolu); Balhae soyundan sakinler",
   "sehirler": [
    "Liaoyang"
   ],
-  "ozet": "Balhae soylusu Dae Yeonrim'in Liao'ya karsi kurdugu kisa omurlu devlet.",
+  "ozet": "Balhae kraliyet soyundan (Dae Joyeong'un 7. kuşak torunu) Liao Dongjing komutanı Da Yanlin'in 1029'da Liao'ya karşı Liaoyang'da isyan edip «Xingliao» adlı devlet ilân ettiği, Goryeo'dan yardım istediği; 1030 Eylül'ünde Liao'nun kente girip Yanlin'i esir almasıyla sona eren devlet.",
   "oncul": [
    "balhae"
   ],
@@ -286,14 +294,15 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "kaynak okunamadi (hafizadan taslak)"
+   "Liao shi j.17 Shengzong ji 8, Taiping 9-10 — zh.wikisource.org/wiki/遼史/卷17 (okundu): «八月己丑，東京舍利軍詳穩大延琳囚留守…延琳遂僭位，號其國為興遼，年為天慶» (己丑 = 1029-09-13); «十年…八月丙午，東京賊將楊詳世密送款，夜開南門納遼軍。擒延琳，渤海平» (丙午 = 1030-09-25)",
+   "Goryeosa j.5 Hyeonjong 20 — zh.wikisource.org/wiki/高麗史/卷五 (okundu): «九月戊午，契丹東京將軍大延琳遣大府丞高吉德，告建國，兼求援。延琳渤海始祖大祚榮七代孫，叛契丹，國號興遼，建元天興»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Ayrintilar yaklasik. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "okundu",
+  "ic_not": "taslak değeri: 1029-01-01 / 1030-01-01. Ölçütle: adı + belirli toprağı (Liaodong) + 12 ay hâkimiyet → girer. Yıl adı çelişkisi: Liao shi «天慶 (Tianqing)», Goryeosa «天興 (Cheonheung)» — Liao shi esas (yerel arşiv). Ay/gün: Liao shi'de sexagenary işaretle Jülyen: 己丑=1029-09-13; 丙午=1030-09-25. Gün dönüşümü: 1029'da 八月己丑 ve 1030'da 八月丙午 aynı ay adını taşır ama 1030'daki ay başı 1029'dakinden ~4 gün SONRA; bu bir artık-ay (kabisenin) farkıyla uyumludur (354 gün yıl + artık ay), 1030-09-25 (丙午) sayısal olarak 8. ay içindedir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "tsv'de yok."
   }
  }
 ]

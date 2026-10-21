@@ -1,13 +1,13 @@
 [
  {
   "id": "gojoseon",
-  "ad": "Gojoseon (Eski Joseon)",
+  "ad": "Gojoseon (Eski Joseon; Gija Joseon geleneği)",
   "tur": "krallik",
   "bolge": "dogu-asya",
-  "f": "-0699-01-01",
+  "f": null,
   "t": "-0193-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "belirsiz",
    "t": "yil"
   },
   "baskent": "Asadal -> Wanggeom (Pyongyang yoresi; tartismali)",
@@ -16,21 +16,24 @@
    "Wanggeom",
    "Asadal"
   ],
-  "ozet": "Kore geleneginde Dangun'un kurdugu ilk devlet; Cin kaynaklarinda MO 7. yy'dan anilir, MO 4. yy'da Yan ile savasir; Wi Man MO 194'te tahti alir.",
+  "ozet": "Çin kaynaklarında MÖ 4. yüzyıldan beri Yan'ın doğu komşusu olarak anılan Joseon; Han'ın başında (MÖ 195-194) Yan'dan kaçan Wiman'ın Joseon kralı Jun'u (準) devirmesiyle Wiman Joseon'a dönüştü. Dangun efsanesi (MÖ 2333) bu kayda alınmadı.",
   "oncul": [],
   "ardil": [
    "wiman-joseon"
   ],
   "oncelik": "orta",
   "kaynak": [
-   "https://en.wikipedia.org/wiki/Gojoseon (okundu; yalniz aday kaynak)"
+   "Zhanguoce j.29 Yan ce 1 — zh.wikisource.org/wiki/戰國策_(士禮居叢書本)/燕/一 (okundu): Su Qin Yan Wen Hou'ya: «燕東有朝鮮、遼東» (Bao Biao notuyla Yan Wen Hou 28. yıl ≈ MÖ 334)",
+   "Shanhaijing, Hainei bei jing — zh.wikisource.org/wiki/山海經/海內北經 (okundu): «朝鮮在列陽東，海北山南。列陽屬燕»",
+   "Hou Han shu j.85 — zh.wikisource.org/wiki/後漢書/卷85 (okundu): «昔武王封箕子於朝鮮…其後四十餘世，至朝鮮侯准自稱王。漢初大亂，燕、齊、趙人往避地者數萬口，而燕人衛滿擊破准，而自王朝鮮»",
+   "Shiji j.115 — zh.wikisource.org/wiki/史記/卷115 (okundu): «自始全燕時嘗略屬真番、朝鮮，為置吏，筑鄣塞»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Gelenek: Dangun MO 2333 (efsanevi, kullanilmadi). Byington'a gore devlet duzeyinde bir polity olup olmadigi belirsiz. f: MO 7. yy Cin anmasi, devlet iddiasi degil. Baskent konumu MO 300 civari / MO 2. yy celiskili. t = Wi Man darbesi MO 194. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak değeri: -0699-01-01 / -0193-01-01. f: kaynakta kuruluş yılı YOK: Zhanguoce MÖ ~334'te Joseon'u Yan'ın komşusu olarak sayar (terminus ante quem); Guanzi'deki «發朝鮮» geleneği ve Dangun/MÖ 2333 (Samguk yusa) bu oturumda okunamadı. f null. Hou Han shu: «Gija'nın 40 küsur kuşak sonrası Joseon Marki Jun kendini kral ilân etti» (geleneksel Gija Joseon). t=-0193 (MÖ 194) Wiman'ın Jun'u devirmesi, Weilue geleneği; Shiji yalnız «Lu Wan'ın MÖ 195 kaçışından sonra» der → MÖ 195-194, yıl hassasiyeti; wiman-joseon.f ile aynı. Gojoseon–Wiman Joseon süreklilik ilişkisi: Shiji/Hou Han shu Wiman'ı da «朝鮮王滿» sayar; tek polity mi iki polity mi — Emre kararı (şimdilik ayrı kayıt).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Atlasta yok; Wiman Joseon -0193'ten basliyor, oncesi eksik."
+   "not": "tsv'de yok."
   }
  }
 ]

@@ -7,15 +7,15 @@
   "f": "-0256-01-01",
   "t": "-0178-01-01",
   "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "f": "yuzyil",
+   "t": "yuzyil"
   },
   "baskent": "Co Loa",
   "etkin_bolge": "Kizil Nehir deltasi (Kuzey Vietnam)",
   "sehirler": [
    "Co Loa"
   ],
-  "ozet": "Thuc Phan'in Van Lang'i alip Au Lac'i kurmasi (257 MO) ve Zhao Tuo'nun (Nanyue) fethi (179 MO).",
+  "ozet": "Qin istilasından kaçan maceracıların lideri An Dương Vương, Cổ Loa'yı yeniden inşa edip Kızıl Nehir ovasını yönetti; Nanyue kralı Zhao Tuo (Triệu Đà) 2. yüzyıl başında bölgeyi ilhak etti.",
   "oncul": [
    "van-lang"
   ],
@@ -24,11 +24,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Taylor, K. W., A History of the Vietnamese (CUP, 2013), Bölüm 1 'The provincial era' (An Dương Vương ve Zhao To anlatısı); archive.org/details/cambridge-concise-histories-k.-w.-taylor-a-history-of-the-vietnamese-cambridge-university-press-2013 (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Gelenege gore 257 MO; Zhao Tuo fethi 179 MO. Cin kaynaklari Nanyue'yi yazar; Au Lac'in tarihselligi Vietnam kroniklerine dayanir. Tarihler kroniklerden, iki yil kesinligi yok.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taylor (2013): An Dương Vương Qin istilasından kaçan savaşçıların lideri; hikâyeler 600-700 yıl sonra derlenmiş; Zhao To Nan Yue'yi Qin çöküşünden (210 MÖ) sonra kurdu ve '2. yüzyıl MÖ'nin ilk çeyreğinde' Kızıl Nehir ovasında otoritesini genişletti. f=-0256 (257 MÖ) ve t=-0178 (179 MÖ) geleneksel kronik değerleridir (Đại Việt sử ký toàn thư), Taylor vermez; kesinlik yüzyıl düzeyine indirildi. Au Lạc'ın tarihselliği geç kaynaklar nedeniyle ihtiyatla anılır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -54,23 +53,25 @@
    "Sri Ksetra",
    "Maingmaw"
   ],
-  "ozet": "Irrawaddy vadisinde birbirinden bagimsiz Pyu sehir devletleri; 832'de Nanzhao Halin'i yikti, 9.-11. yy'da Pagan'a eridi.",
+  "ozet": "Orta Irrawaddy'de Halin, Beikthano, Sri Ksetra gibi tuğla surlu şehirlerden oluşan Pyu şehir devletleri; 9. yüzyılda Nanzhao baskısıyla (832 Halin tehciri) çözüldü, Pagan'a geçildi.",
   "oncul": [],
   "ardil": [
    "pagan"
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "UNESCO WHC 1444, Pyu Ancient Cities (2014) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), 'The Second Indianization' ve Bölüm VI/VII (Nanchao 832 Halin tehciri)",
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981), Bölüm 2 ve 6, Ek I (Rulers of Arakan); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu)",
+   "UNESCO World Heritage List no. 1444, 'Pyu Ancient Cities' (2014): Pyu krallıkları 200 MÖ - 900 MS; whc.unesco.org/en/list/1444 (sayfa Cloudflare/403 ile açılamadı; yalnız WebSearch özeti görüldü, birincil metin okunmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "UNESCO donemi 200 MO - 900 MS; Halin'in yikimi 832 (Cin kaynaklari). f=-0199 (MO 200) yaklasik. Pyu birligi siyasi degil kulturel olabilir; sehir devletleri ayri kayitla.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: Nanchao 832'de başkent Ha-lin'den 3000 Pyu'yu Yunnan'a sürdü, 'Pyu gerilemesinin başı'. Hall: Sri Ksetra yazıtları c. 500'e çıkar; Çin kaynakları 3. yüzyılda Lin-yang'ı anar. f=-0199 (MÖ 200) UNESCO WHC 1444 özet değeridir (birincil metin okunamadı). Ortak bir Pyu devleti değil, bağımsız şehir devletleri: tür 'konfederasyon' sorgulanabilir (ortak organ kanıtı yok). t=832 Halin düşüşü; UNESCO 900'e kadar uzatır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
-  }
+   "not": "Atlasta yok; Pagan öncesi Pyu bölgesi başka künyelere emilmiş olabilir."
+  },
+  "tur_yeni": "sehir-devletleri-grubu (konfederasyon değil): ortak merkezî organ kanıtı yok"
  },
  {
   "id": "beikthano",
@@ -88,7 +89,7 @@
   "sehirler": [
    "Beikthano"
   ],
-  "ozet": "Erken Pyu sehir devleti, UNESCO kaydina gore MS 1.-5. yy.",
+  "ozet": "Orta Birmanya'da Pyu şehir devletlerinden; MS 1.-5. yüzyıl arasında iskân edilmiş tuğla surlu şehir.",
   "oncul": [],
   "ardil": [
    "sri-ksetra"
@@ -98,7 +99,7 @@
    "UNESCO WHC 1444, Pyu Ancient Cities (2014) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
   ],
   "dogrulama": "taslak",
-  "ic_not": "UNESCO: 1.-5. yy; t=0500 yuvarlak.",
+  "ic_not": "Bu oturumda birincil kaynakta (Hall/Coedès) Beikthano için tarih bulunamadı; Hall 'earliest fragments c. 500' yalnız Sri Ksetra içindir. f=0001, t=0500 taslak değerleri arkeolojik özetlerdendir (UNESCO WHC 1444 özeti 2. yy MÖ-9. yy MS aralığını verir; Beikthano bu serinin parçasıdır). Doğrulanmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -121,16 +122,16 @@
   "sehirler": [
    "Halin"
   ],
-  "ozet": "Pyu sehir devletlerinin en uzun yasayani; Nanzhao akinlarinda (832) yikildi.",
+  "ozet": "Pyu şehir devletlerinin kuzeydeki başkenti Halin; 832'de Nanzhao 3000 Pyu'yu sürerek şehri boşalttı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "UNESCO WHC 1444, Pyu Ancient Cities (2014) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu)",
+   "UNESCO World Heritage List no. 1444, 'Pyu Ancient Cities' (2014): Pyu krallıkları 200 MÖ - 900 MS; whc.unesco.org/en/list/1444 (sayfa Cloudflare/403 ile açılamadı; yalnız WebSearch özeti görüldü, birincil metin okunmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "UNESCO 2. yy MO - 9. yy MS araligini verir; f yaklasik.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: 'In 832, it abducted three thousand Pyus from the population of the capital Ha-lin' (Nanchao). f=-0199 UNESCO 200 MÖ özeti (birincil metin okunamadı); 2024 radyokarbon çalışmaları (Vikipedi'de anılır, okunmadı) Halin'in çok daha erken iskânını önerir. t=832 Coedès.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -142,10 +143,10 @@
   "ad": "Sri Ksetra (Thayekhittaya)",
   "tur": "sehir-devleti",
   "bolge": "guneydogu-asya",
-  "f": "0450-01-01",
+  "f": "0500-01-01",
   "t": "0832-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "onyil",
    "t": "yuzyil"
   },
   "baskent": "Sri Ksetra",
@@ -153,7 +154,7 @@
   "sehirler": [
    "Sri Ksetra"
   ],
-  "ozet": "Pyu sehirlerinin en buyugu, 5.-9. yy; Burma geleneginde 638 MS donemi baslangici.",
+  "ozet": "Prome yakınlarında (Hmawza) Pyu şehri; yazıtları c. 500'e çıkar, 7.-8. yüzyılda Vikrama hanedanı yönetti; 9. yüzyılda Nanzhao baskısıyla geriledi.",
   "oncul": [
    "beikthano"
   ],
@@ -162,11 +163,11 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "UNESCO WHC 1444, Pyu Ancient Cities (2014) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu)",
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981), Bölüm 2 ve 6, Ek I (Rulers of Arakan); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "UNESCO: 5.-9. yy. Kronik gelenek 638 MS (Burma takviminin baslangici) verir; f=0450 yaklasik.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Hall: Hmawza'daki en eski yazıt parçaları c. 500; Coedès: Pali kanon parçaları c. 500, Vikrama hanedanı: Suryavikrama (öl. 673 veya 688), Harivikrama (695), Sihavikrama (718) - Pyu mezar kavanozları, 638 çağı varsayımıyla (Coedès not 54). Taslak f=0450 desteklenmedi, 0500 yapıldı. t=832 Nanchao saldırısı (Prome'nin gerilemesi); Harvey tablosunda 'Fall of Prome' yılı OCR'da okunamadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -189,18 +190,17 @@
   "sehirler": [
    "Martapura"
   ],
-  "ozet": "Endonezya'nin en eski Sanskrit yazitlarini (Mulawarman, ~4.-5. yy) birakan Hindu krallik.",
+  "ozet": "Doğu Borneo'daki Kutei yöresinde Mulavarman yazıtlarından bilinen en eski Hint etkili krallık.",
   "oncul": [],
   "ardil": [
    "kutai-kartanegara"
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm I ('Mulavarman yazıtları, Kutei, Borneo')"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Yazitlar paleografik olarak ~400 MS; bitis yili bilinmiyor (Kutai Kartanegara ile 1635'te katildi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: 'the Sanskrit inscriptions of Mulavarman in the region of Kutei, Borneo, date back to the beginning of the fifth century A.D.' (f=0400 kabaca uyumlu, yüzyıl kesinliği); hanedanın sonu bilinmiyor (t yok). 'Martapura' adı yazıtlarda yok, sonraki gelenek.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -212,10 +212,10 @@
   "ad": "Tarumanagara",
   "tur": "krallik",
   "bolge": "guneydogu-asya",
-  "f": "0400-01-01",
+  "f": "0450-01-01",
   "t": "0669-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "onyil",
    "t": "yil"
   },
   "baskent": "Sundapura? / Tarumanagara",
@@ -224,7 +224,7 @@
    "Tugu",
    "Ciaruteun"
   ],
-  "ozet": "Purnavarman yazitlariyla bilinen Bati Cava krallıgı; 669'da Sunda ve Galuh'a bolundu.",
+  "ozet": "Batı Cava'da Raca Purnavarman'ın yazıtlarından bilinen Taruma krallığı; Çin'e son elçiliği 666-669.",
   "oncul": [],
   "ardil": [
    "sunda-pajajaran",
@@ -232,15 +232,15 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm IV ('Purnavarman, Taruma') ve VI-1 (686 Bangka seferi, Taruma'nın 666-69 elçiliği)",
+   "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Wangsakerta el yazmalari 358 verir, saglam kabul edilmez; yazit paleografisi 5. yy. f=0400 yaklasik. 669 Sunda'nin kurulus yili (Sunda mevcut kaydi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: Purnavarman yazıtlarının yazısı c. 450 (Mulavarman'dan biraz sonra); Taruma 'we do not hear spoken of again after its embassy to China in 666-69'. Taslak f=0400 → c. 450 (yazı tarihi, onyıl kesinliği). t=669 son tanıklıktır, devlet sonu değil: 686 Srivijaya seferi muhtemelen buraya yönelikti. Wangsakerta metinleri kullanılmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "Atlasta yok."
   }
  },
  {
@@ -267,11 +267,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Goh Geok Yian et al., Ancient Southeast Asia (Routledge, 2019) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (bu oturumda okundu) (Langkasuka/Lehkasuka: Hikayat Merong Mahawangsa 'late work of no authentic character'; Coedès'in Lang-chia-shu özdeşleştirmesine itiraz)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Liang shu (6. yy) Lang-ya-xiu; kuruluş ve bitis yillari kaynakta yok, her iki uc yaklasik (belirsiz). Konumu tartismali.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: Hsüan-tsang'ın 'Kamalanka'sı 'belki I-tsing'in Lang-chia-shu (Langkasuka)'su ile aynı'; Malay Yarımadası'nda. Majumdar: bu özdeşleştirme Hikayat Merong Mahawangsa gibi geç, güvenilmez bir esere ve yerel Malay geleneğine dayanır; eski bir yer adı Ligor Kıstağı'nda da olabilir; Levi'ye göre Mevilimbangam Kama-lanka olabilir. f=0100 ve t=1400 kaynakta desteklenmedi; 7. yüzyıl tanıklığı mevcut. Süre tahmini zayıf.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -301,10 +300,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (bu oturumda okundu) (P'an-p'an = Bandon ya da Ligor, Malay Yarımadası; Tou-ho-lo=Dvaravati'nin güneyi)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Yalniz Cin elci kayitlarindan bilinir; f/t ilk-son elci yili.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar: 'P'an-p'an corresponds to Bandon or Ligor in Malay Peninsula'; Çin hesaplarına göre Tou-ho-lo (Dvaravati) P'an-p'an'ın kuzeyindedir. Coedès: Funan'ın ikinci Hintlileştiricisi Kauṇḍinya P'an-p'an'dan geldi. Çin elçilik yılları (424-649) bu oturumda bulunamadı; f ve t taslak değerleri doğrulanmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -325,17 +324,17 @@
   "baskent": "bilinmiyor",
   "etkin_bolge": "Sumatra (Palembang/Jambi tartismali)",
   "sehirler": [],
-  "ozet": "Cin kroniklerinde 441-563 arasi heyetleri gonderen Sumatra krallıgi; Srivijaya oncesi.",
+  "ozet": "Liang ve Birinci Sung annallerinde güney denizinde bir adada gösterilen Hint etkili krallık; Kral Śrī-varanarendra 454-465 arasında Çin'e elçi gönderdi.",
   "oncul": [],
   "ardil": [
    "srivijaya"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (bu oturumda okundu), Kitap I, Bölüm 'Malay Peninsula' (Kan-to-li / Kin-to-li; Liang ve Birinci Sung annalleri)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Yer ve sureklilik tartismali; f/t ilk-son elci.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar: Liang ve Birinci Sung annalleri Kan-to-li'yi 'güney denizinde bir ada' olarak anar; Tang ve sonraki Sung annalleri anmaz; Ming tarihi onu San-bo-tsai'nin eski adı sayar, Groeneveldt/Schlegel Palembang der, Gerini/Majumdar Malay Yarımadası'ndaki Kadara/Khanthuli (Kanturi) ile özdeşleştirir. Yeri belirsiz. Yalnız Kral Śrī-varanarendra'nın 454-465 arasındaki (Sung İmparatoru Hsiao-wu) elçiliği okundu; taslak f=441, t=563 doğrulanmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -365,11 +364,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Goh Geok Yian et al., Ancient Southeast Asia (Routledge, 2019) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu) (Si Thep, Phra Pathom ve Phong Tuk'un 6. yüzyıl ortasından önceki Funan etkisindeki merkezler olduğu)",
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu)"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Dvaravati ile iliskisi tartismali; bitis yaklasik.",
+  "ic_not": "Coedès: Si Thep, Phra Pathom, Phong Tuk 'earlier than the middle of the sixth century'; krallıkların adı ve hükümdarları bilinmiyor, 'Funan'ın az çok fiilî egemenliğini tanımış olmalılar'. Si Thep'in bağımsız bir polity olduğu ve 450-1000 tarihleri kaynakta DESTEKLENMEDİ; taslak kalır. Dvaravati'nin parçası sayılması muhtemel.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -392,15 +391,15 @@
   "sehirler": [
    "Me Linh"
   ],
-  "ozet": "Han yonetimine karsi 40'ta ayaklanan Trung kardesler 3 yil bagimsiz Giao Chi'yi yonetti.",
+  "ozet": "Mê Linh'li Trưng kardeşler 1. yüzyılın 40'lı yıllarında Han valisine karşı ayaklanıp Giao Chỉ'te kısa süreli bağımsız bir yönetim kurdu; Ma Yuan seferiyle bastırıldı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Taylor, K. W., A History of the Vietnamese (CUP, 2013), Bölüm 1 'The provincial era' (Trưng kardeşler, Ma Yuan 42 CE seferi); archive.org (aynı kimlik) okundu"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Ayaklanma 40, yenilgi 43 (Ma Yuan); devletlesme derecesi tartismali.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taylor (2013): isyan 'the fourth decade of the first century CE'; Han generali Ma Yuan 42 CE kuru mevsim başında ovaya girdi, yıl sonuna doğru savaş. 40 (isyan) ve 43 (yenilgi) Han kroniği geleneğidir (Hou Hanshu), Taylor'da yıl yok. Devlet niteliği tartışmalı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -423,18 +422,18 @@
   "sehirler": [
    "Bujang Valley"
   ],
-  "ozet": "Hint ticaret limani krallıgi (Kataha/Kadaram); Chola akini 1025; 1136 Kedah sultanligi geleneksel baslangici.",
+  "ozet": "Hint metinlerinde Kataha/Kadara olarak anılan Kedah; 1005-08 arasında Leiden Bakır Levhası'nda Culamanivarman 'Kadaram kralı' olarak Srivijaya-Sailendra hanedanının unvanında görünür.",
   "oncul": [],
   "ardil": [
    "kedah-sultanligi"
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Goh Geok Yian et al., Ancient Southeast Asia (Routledge, 2019) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (bu oturumda okundu), Kitap II ('Leiden Grant': Kadaram/Kataha, Culamanivarman)",
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (1981) (Hint metinlerinde Kedah ve Takola)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kedah Annals (Hikayat Merong Mahawangsa) 1136 verir, efsanevi; f ~4. yy arkeolojik.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Majumdar: Büyük Leiden Bakır Levhası'nda (Chola Rajaraja'nın 21.-23. yılı, 1005-08 civarı) Culamanivarman 'king of Kadaram'; Sanskritçe kısım Sri-Mara-vijayottungavarman'ı 'Kataha'nın üstünlüğünü genişleten ve Sri-Visaya'nın efendisi' olarak anar; Coedès'in görüşü: Kataha, Kadara, Kidara = Kedah (Malay Yarımadası batısı). Yani Kadaram 11. yüzyılda Srivijaya-Sailendra kralının unvanıdır, bağımsız polity olduğu kanıtlanmadı. f=0400 ve t=1136 kaynakta bulunmadı; ÖNERİ: Srivijaya'ya bağlı bölge olarak ayrı künyelenmesin, ic_not.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -446,10 +445,10 @@
   "ad": "Dhanyawadi (Arakan)",
   "tur": "krallik",
   "bolge": "guneydogu-asya",
-  "f": "0300-01-01",
+  "f": null,
   "t": null,
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "belirsiz",
    "t": null
   },
   "baskent": "Dhanyawadi",
@@ -457,17 +456,17 @@
   "sehirler": [
    "Dhanyawadi"
   ],
-  "ozet": "Arakan'in en eski arkeolojik sehir devleti, Vesali'den once.",
+  "ozet": "Arakan'da Dhanyawadi (Dinnyawadi) şehri ve kroniklerin ilk 'Dinnyawadi hanedanı'; tarihsel kuruluş yılı bilinmiyor.",
   "oncul": [],
   "ardil": [
    "vesali-chandra"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Gutman, P., Ancient Arakan (Myanmar Historical Commission, 2001) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981), Bölüm 2 ve 6, Ek I (Rulers of Arakan); tam metin archive.org/details/a-history-of-south-east-asia-4th-ed (bu oturumda okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Efsanevi tarih 3325 MO (yok sayilir); arkeoloji ~1.-4. yy; f yaklasik, t bilinmiyor.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Hall, Ek I: kronikler Dinnyawadi birinci hanedanını (54 kral, 2666-825 MÖ) ve ikincisini (53 kral, 825 MÖ-746 MS) sayar; 'purely mythical' olarak değerlendirilir. Taslak f=0300 destek bulmadı → null (yıl bilinmiyor). Arkeolojik şehir MS 1. binyıl başına yerleştirilir (kaynakla doğrulanmadı). Epigrafik Arakan siyasî birimi Candra hanedanıdır (bkz. vesali-chandra).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -488,20 +487,19 @@
   "baskent": "Oc Eo / Vyadhapura",
   "etkin_bolge": "Mekong deltasi",
   "sehirler": [],
-  "ozet": "Kambocya-Vietnam Mekong deltasinda Hint kulturlu ilk devlet; Chenla ile cokus.",
+  "ozet": "Çin kaynaklarına göre Brahman Kauṇḍinya'nın 1. yüzyılda kurduğu Mekong deltası krallığı; 3. yüzyılda Çin'le ilişki kurdu; 6. yüzyılın ikinci yarısında Chenla'nın (Bhavavarman, Chitrasena) bağımsızlaşmasıyla parçalandı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm III ('The Beginnings of Funan, First Century A.D.') ve Bölüm V ('The Dismemberment of Funan')"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: 'the Chinese place the founding of the kingdom of Funan by the Brahman Kaundinya in the first century A.D.'; Çin'le ilişki 3. yüzyıl; bölünme 'in the second half of the sixth century'; bölüm başlığı 550-630 Chenla dönemini başlatır. f=0001 gelenek (kuruluş efsanesi), t=550 Coedès'in dönem sınırı; Chenla bağımsızlığı tek günde olmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "funan",
-   "not": ""
+   "not": "mevcut funan 1-550; Coedès ile uyumlu (yıl düzeyi, gelenek)."
   }
  },
  {
@@ -510,7 +508,7 @@
   "tur": "krallik",
   "bolge": "guneydogu-asya",
   "f": "0192-01-01",
-  "t": "0758-01-01",
+  "t": "0999-12-31",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -518,20 +516,48 @@
   "baskent": "Indrapura / Simhapura",
   "etkin_bolge": "Orta Vietnam kiyisi",
   "sehirler": [],
-  "ozet": "Han vilayeti Rinan'dan kopan Cham devleti.",
+  "ozet": "Qu Lian (Ch'ü-lien) 192'de Han'ın Jih-nan komuta bölgesinde Hsiang-lin'de kendini kral ilan edip Lin-yi'yi kurdu; Çin kaynakları 758'de adı Huan-wang'a, 875'te Chan-ch'eng'e çevirir; Champa tek polity olarak sürer, 982-1000 arasında başkent Vijaya'ya taşınır.",
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
-   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm III-4 ('Lin-yi', Qu Lian 192) ve Bölüm VI-6 (758'de Huan-wang)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. Cin kaynaklari: Xianglin 192; 758 Huanwang adi.",
+  "dogrulama": "okundu",
+  "ic_not": "Coedès: 'The creation of the kingdom of Lin-yi in 192'; 758'de Çinliler Lin-yi yerine Huan-wang adını kullanır (merkez güneye, Panduranga/Kauthara'ya kayar); 875'te İndrapura hanedanı (Çin adı Chan-ch'eng); 988'de Vijaya'da Harivarman II. Bu adlar aynı devletin (Champa) adlarıdır; atlas künyesi 192-999 bu sürekliliği zaten kapsar, 1000'de 'campa' künyesine geçer. t=999-12-31 atlas değeri korundu (taslak t=758 yalnız ad değişimiydi). 192 okundu.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "linyi-champa",
-   "not": "Cin kaynaklari: Xianglin 192; 758 Huanwang adi."
+   "not": "mevcut linyi-champa 192-999 (Champa'nın 758-999 dönemini de kapsar); f Coedès ile uyumlu."
+  }
+ },
+ {
+  "id": "tun-sun",
+  "ad": "Dunxun (Tun-sun)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "bilinmiyor (Kra Kıstağı)",
+  "etkin_bolge": "Kra Kıstağı'nın iki yakası (Malay Yarımadası)",
+  "sehirler": [],
+  "ozet": "Çin kaynaklarında Funan'a bağlı olarak anılan, Kra Kıstağı'nda Brahman nüfusuyla bilinen küçük Hint etkili devlet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); tam metin archive.org/details/theindianizedstatesofsoutheastasia (bu oturumda okundu), Bölüm II-III (Tun-sun / Tien-sun, Fan Shih-man'ın fetihleri; 5. yy Çin metni)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Coedès: Fan Shih-man'ın (MS 3. yy başı) fetihleri arasında anılan Tien-sun, 5.-6. yüzyıl metninde Funan'ın bağımlısı olan Tun-sun ile özdeştir; 'on the two shores of the Isthmus of Kra'; 5. yüzyıl Çin metni: Tun-sun'da bin kadar Hintli Brahman yaşar. Kuruluş ve son yılı kaynakta yok (null); varlığı en geç MS 3. yüzyıl başında kesin. Ayrı siyasî birim olduğu tartışmalı (Funan vasalı).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlasta yok."
   }
  }
 ]
