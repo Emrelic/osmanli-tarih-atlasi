@@ -2330,6 +2330,222 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS ÇELİŞKİSİ (1281 başlangıcı): ilk yazılı tanık 1459-09-20 > atlas başlangıcı 1281-01-01. Atlas Bükreş noktasını macaristan 1281-01-01 → 1330, eflak 1330-1462 olarak açıyor; kaynak bunu desteklemiyor (1281-1459 arasında yazılı tanık yok). Bu yüzden sahip zinciri BOŞ bırakıldı (denetim 'ilk.t atlas başlangıcından sonra' uyarısı beklenir). Öneri: Bükreş noktası 1459-09-20 öncesinde gösterilmesin (motor kur/bit penceresi = ilk.t'den başlasın); macaristan 1281-1330 dönemi kaynaksız (Bükreş bölgesi Macar krallığı toprağı olduğuna dair tanık bulunamadı: Eflak/Basarab devleti 1330 Posada öncesi 'Terra Transalpina' Macar nominal egemenliği olabilir ama bu oturumda açılmadı); eflak dönemi nokta ilk.t'den itibaren geçerli. KAYNAK SEÇİMİ: TDV 1368 'Cetatea Dâmboviţei' ismiyle geçtiğini yazar, ancak (a) bu ad Bükreş'in kendi adı değildir, yeri kesin olmayan ad eşitlemesidir (VERI-YAPISI kuralı: başlangıç sayılmaz), (b) Treccani 'Bucarest' (Enciclopedia on line): 'L'origine di B. e l'etimologia del nome sono incerte', (c) Constantin 2011: 'Cetatea Dâmboviţa' adı 1458-59'da Vlad Ţepeş'in inşa ettiği Bükreş kalesinin yan adıdır. Bu yüzden adı kesin taşıyan en eski belge (1459-09-20) alındı; TDV-esas kuralı ile çelişki beyan edilir ve karar Emre'ye bırakılır (alternatif ilk: TDV 1368, yıl hassasiyeti, yer eşitlemesi belirsiz). 1459 tarihi için ikinci akademik tanık bulunamadı (Newsweek RO ve Wikipedia 20.09.1459'u aktarır ama popüler/ikincil olduğu için kaynak sayılmadı; Wikipedia 13 Haziran 1458 tarihli Latince bir belgeden de söz eder — bu oturumda doğrulanmadı). Tanik metni PDF OCR çıktısından birebir alındı ('20septembrie1459' bitişik). ARKEOLOJİ: Curtea Veche kazılarında XIV. yy ikinci yarısına ait kule/tahkimat var (ark alanı); yazılı tanık (1459) mevcut olduğundan arkeolojik katman ilk olmadı; arkeolojik tarih (XIV. yy ikinci yarısı, 1350-1399) yazılı tanıktan eskidir ama o da 1281'den sonradır — atlas başlangıcı 1281 ile ÇELİŞİR: arkeolojik bulgu da 1281'de şehir olduğunu göstermez. Treccani: 'Residenza invernale dei principi di Valacchia alla metà del 15° sec.'. Bükreş modern noktası (44.427, 26.103) ile Curtea Veche (~44.4318, 26.1018) arası < 1 km."
  },
  {
+  "id": "erdebil",
+  "ad": "Erdebil",
+  "atlas_ad": "Erdebil",
+  "lat": 38.249,
+  "lon": 48.294,
+  "kat1900": 1,
+  "adlar": [
+   "Bādān Pērōz (gelenek)",
+   "Artavēt / Artavēl (Łevond)",
+   "Erdevîl / Erdübîl",
+   "Ardabīl",
+   "Erdebil"
+  ],
+  "ilk": {
+   "t": "0642-01-01",
+   "gun": "642",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi (S. M. Aliev, Erdebil), https://islamansiklopedisi.org.tr/erdebil; Encyclopaedia Iranica, ARDABĪL i. History (C. E. Bosworth, II/4, 1986), https://www.iranicaonline.org/articles/ardabil-i/ (curl, tam Chrome UA)",
+   "tanik": "Huzeyfe b. Yemân’ın günlerce süren savaştan sonra yaptığı antlaşma ile fethedildi (642)",
+   "ic_not": "Tarihli ilk olgu Arap fethi antlaşmasıdır (TDV 642; Iranica: Balâzurî s.325-26'ya dayanarak Hz. Ömer döneminde Huzeyfe b. Yemân'la antlaşma). Fetih sırasında şehir Sâsânî Azerbaycan merzübânının başşehri/ikâmetgâhıdır (TDV, Iranica: 'residence of a mārzban') — ama bu TARİHSİZ. GELENEK (kur DEĞİL): Ortaçağ coğrafyacıları (TDV; Yâkūt'a atfen Iranica) kuruluşu Sâsânî Pîrûz/Fîrûz'a (r. 459-484) dayandırır, şehir ona nisbetle Bādān Pērōz adıyla anılmış — kaynak geç, bu yüzden kur olarak alınmadı. Ermeni tarihçilerde ancak Łevond'da (VIII. yy) Artavēt olarak geçer. Pahlavi ATRA sikke imzası Erdebil mi belirsiz."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0642-01-01",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (S. M. Aliev, Erdebil), https://islamansiklopedisi.org.tr/erdebil; Encyclopaedia Iranica, ARDABĪL i. History (C. E. Bosworth, II/4, 1986), https://www.iranicaonline.org/articles/ardabil-i/ (curl, tam Chrome UA)",
+    "ic_not": "Iranica: Osman ve Ali devrinde vali Eş'as b. Kays Arap birlikleri yerleştirip ana camiyi yaptırdı. Sasani → Râşidîn geçişi fetih antlaşmasının yılıdır (TDV 642); önceki Sâsânî dönemi ilk.t'den önce olduğundan yazılmadı."
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/emeviler",
+    "ic_not": "Iranica: Emevîler altında Erdebil ile Merâga Azerbaycan'ın başşehri olarak dönüşümlü kullanıldı; 112/730-31'de Hazar Türkleri Erdebil önünde Arap valiyi öldürüp şehri aldı, Mesleme b. Abdülmelik geri attı (geçici; dönem açılmadı)."
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0899-01-17",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (S. M. Aliev, Erdebil), https://islamansiklopedisi.org.tr/erdebil; Encyclopaedia Iranica, ARDABĪL i. History (C. E. Bosworth, II/4, 1986), https://www.iranicaonline.org/articles/ardabil-i/ (curl, tam Chrome UA)",
+    "ic_not": "f en geç tanıktan: dönemin sonu (Sâcoğulları) için kesin ilk tanık 286/899 dirhemidir; Sâcoğulları'nın Azerbaycan valiliği 276/889'da başlar (TDV sacogullari) ama Erdebil'e özgü tanık 899'dur — Abbâsî dönemi bu ucu 'en geç tanık' olarak 899'a uzanır, BEYAN. Tâhirî (III. yy ilk yarısı), Hürremî isyanı (816-838) tarihsiz yerel katmanlardır."
+   },
+   {
+    "f": "0899-01-17",
+    "t": "0929-09-09",
+    "d": "sacogullari",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, ARDABĪL i. History (C. E. Bosworth, II/4, 1986), https://www.iranicaonline.org/articles/ardabil-i/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sacogullari",
+    "ic_not": "f: hicrî 286 ∩ 899 ilk günü = 899-01-17 (tablo takvimi). Iranica: 'Abu’l-Qāsem Yūsof ... Ardabīl'i başşehri yaptı; Ebn Havkal'a göre Merâga'dan nakletti'; Yûsuf 307/919-20'de Mûnis'e esir düşüp serbest kaldı. t: Şaban 317 (Eylül 929) Ebü'l-Müsâfir öldürülür (TDV; Iranica 'killed at Ardabīl in 317/929')."
+   },
+   {
+    "f": "0929-09-09",
+    "t": "0941-09-26",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, ARDABĪL i. History (C. E. Bosworth, II/4, 1986), https://www.iranicaonline.org/articles/ardabil-i/ (curl, tam Chrome UA)",
+    "ic_not": "Sâcoğulları'ndan sonra Erdebil 'çekişmeli': Iranica 'Daylami Mosaferids passed ... 326/937-38 sonrası Kürt Dayṣam b. Ebrāhīm ile Gîlânlı Laškarī b. Mardī arasında'. Sahibi tek bir hanedan olarak okunamıyor → __BOSLUK__ (beyanlı)."
+   },
+   {
+    "f": "0941-09-26",
+    "t": "0980-01-01",
+    "d": "musafiri",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, ARDABĪL i. History (C. E. Bosworth, II/4, 1986), https://www.iranicaonline.org/articles/ardabil-i/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/musafiriler",
+    "ic_not": "f: Iranica '330/941-42'de Marzobān Erdebil ve Tebriz'i ele geçirdi' (hicrî 330 ∩ 941-42 ilk günü = 941-09-26). Merzübân Ramazan 346'da (Aralık 957) ölünce oğlu Cüstân geçti, sonra Vehsûdân/İbrâhim çekişmesi (TDV musafiriler) — hanedan Azerbaycan'ı 368 veya 369'da (979 veya 980) Revvâdîler'e kaybetti → t aralığın son ucu 980."
+   },
+   {
+    "f": "0980-01-01",
+    "t": "1054-01-01",
+    "d": "revvadi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/musafiriler; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/revvadiler",
+    "ic_not": "Revvâdîler Müsâfirîler'in Azerbaycan'ını 'zaptederek halefleri olduklarını iddia ettiler' (TDV musafiriler) ve 446'da (1054) Tuğrul Bey'e itaat ettiler (TDV revvadiler). Erdebil'e ÖZGÜ tanık bulunamadı; bölge cümlesi (beyanlı yaklaşıklık)."
+   },
+   {
+    "f": "1054-01-01",
+    "t": "1118-05-06",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/revvadiler",
+    "ic_not": "TDV revvadiler: '446’da (1054) Azerbaycan’a gelen Selçuklu Sultanı Tuğrul Bey’e itaatini arzeden mahallî hükümdarlar'. Erdebil'e özgü Selçuklu tanığı bulunamadı; bölge cümlesi."
+   },
+   {
+    "f": "1118-05-06",
+    "t": "1220-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (S. M. Aliev, Erdebil), https://islamansiklopedisi.org.tr/erdebil; Encyclopaedia Iranica, ARDABĪL i. History (C. E. Bosworth, II/4, 1986), https://www.iranicaonline.org/articles/ardabil-i/ (curl, tam Chrome UA)",
+    "ic_not": "TDV: 'Büyük Selçuklular devrinin sonlarında Erdebil ve çevresi Azerbaycan Atabegleri’ne tâbi bulunuyordu' — TARİHSİZ. 605/1209'da Gürcüler şehri yağmalar (Iranica; TDV '1209 veya 1210'), sahiplik değişmez. Atabeg (İldenizli) dönemi tek bir günle sınırlanamadı → __BOSLUK__ (merdiven: TDV → Iranica → Le Strange; Erdebil'e özgü tarihli Atabeg tanığı bulunamadı)."
+   },
+   {
+    "f": "1220-01-01",
+    "t": "1256-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (S. M. Aliev, Erdebil), https://islamansiklopedisi.org.tr/erdebil; Encyclopaedia Iranica, ARDABĪL i. History (C. E. Bosworth, II/4, 1986), https://www.iranicaonline.org/articles/ardabil-i/ (curl, tam Chrome UA)",
+    "ic_not": "Yâkūt 617'de (1220) Erdebil'e sığınmış, kısa süre sonra Moğollar şehri yakıp yıkmış (TDV); Iranica 'again sacked by the Mongols'. Yağma ≠ yönetim; Moğol egemenliği 1220'den itibaren varsayıldı (bölge çıkarımı, BEYAN)."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ilhanlilar",
+    "ic_not": "Moğol → İlhanlı ardıl yapı geçişi; künye günü devralındı (kaynaksız gün). Atlas 1281-01-01 'ilhanli' ile aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0642-01-01",
+    "gun": "642",
+    "k": "fetih",
+    "b": "Huzeyfe b. Yemân Erdebil'i antlaşma ile fetheder.",
+    "kaynak": "TDV İslâm Ansiklopedisi (S. M. Aliev, Erdebil), https://islamansiklopedisi.org.tr/erdebil",
+    "tanik": "Huzeyfe b. Yemân’ın günlerce süren savaştan sonra yaptığı antlaşma ile fethedildi (642)"
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'nin biat alması, 25 Rebîülevvel 41).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)"
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Ebü'l-Abbas'a Kûfe Camii'nde biat; Abbâsî ihtilâli).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "t": "0899-01-17",
+    "gun": "286 H / 899",
+    "k": "diger",
+    "b": "Erdebil'de basılan, açıkça Erdebil'e ait en eski İslâmî dirhem (Sâcoğulları).",
+    "kaynak": "Encyclopaedia Iranica, ARDABĪL i. History (C. E. Bosworth, II/4, 1986), https://www.iranicaonline.org/articles/ardabil-i/ (curl, tam Chrome UA)",
+    "tanik": "The first Islamic dirham unambiguously minted at Ardabīl dates only from 286/899"
+   },
+   {
+    "t": "0929-09-09",
+    "gun": "Şaban 317 / Eylül 929",
+    "k": "diger",
+    "b": "Ebü'l-Müsâfir Feth Erdebil'de öldürülür; Sâcoğulları dönemi biter, bölge çekişmeli hale gelir.",
+    "kaynak": "Encyclopaedia Iranica, ARDABĪL i. History (C. E. Bosworth, II/4, 1986), https://www.iranicaonline.org/articles/ardabil-i/ (curl, tam Chrome UA)",
+    "tanik": "Abu’l-Mosāfer Fatḥ b. Moḥammad, who was killed at Ardabīl in 317/929"
+   },
+   {
+    "t": "0941-09-26",
+    "gun": "330 H / 941-42",
+    "k": "fetih",
+    "b": "Müsâfirî Merzübân b. Muhammed Erdebil ve Tebriz'i ele geçirir; 346'ya dek Erdebil'i başşehir yapar.",
+    "kaynak": "Encyclopaedia Iranica, ARDABĪL i. History (C. E. Bosworth, II/4, 1986), https://www.iranicaonline.org/articles/ardabil-i/ (curl, tam Chrome UA)",
+    "tanik": "in 330/941-42 the Mosaferid Marzobān b. Moḥammad b. Mosāfer secured possession of Ardabīl and Tabrīz"
+   },
+   {
+    "t": "0980-01-01",
+    "gun": "368/369 H / 979-980",
+    "k": "diger",
+    "b": "Revvâdîler Azerbaycan'da bağımsızlığını kazanır ve Müsâfirîler'den kalan toprakları zaptederek halef olduklarını iddia eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/revvadiler",
+    "tanik": "muhtemelen 368 veya 369’da (979 veya 980) bağımsızlığını kazanmıştır"
+   },
+   {
+    "t": "1054-01-01",
+    "gun": "446 H / 1054",
+    "k": "diger",
+    "b": "Selçuklu Sultanı Tuğrul Bey Azerbaycan'a gelir; Vehsûdân ve diğer yerel hükümdarlar itaat eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/revvadiler",
+    "tanik": "446’da (1054) Azerbaycan’a gelen Selçuklu Sultanı Tuğrul Bey’e itaatini arzeden mahallî hükümdarlar"
+   },
+   {
+    "t": "1118-05-06",
+    "gun": "6 Mayıs 1118",
+    "k": "diger",
+    "b": "künye geçişi: Büyük Selçuklu → Irak Selçukluları (Mahmud'un sultan ilânı, 13 Muharrem 512).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Muhammed Tapar’ın ölümü üzerine yerine geçen oğlu Mahmud, 13 Muharrem 512’de (6 Mayıs 1118)"
+   },
+   {
+    "t": "1209-01-01",
+    "gun": "605 H / 1209",
+    "k": "yikim",
+    "b": "Gürcü ordusu Erdebil'e saldırır, yerel sultanı öldürür, on iki bin kadar Müslümanı katleder (sahiplik değişmez).",
+    "kaynak": "TDV İslâm Ansiklopedisi (S. M. Aliev, Erdebil), https://islamansiklopedisi.org.tr/erdebil",
+    "tanik": "1209 veya 1210 yılında Gürcü ordusu Erdebil’e saldırarak yerli sultanı katletti"
+   },
+   {
+    "t": "1220-01-01",
+    "gun": "617 H / 1220",
+    "k": "yikim",
+    "b": "Moğollar Erdebil'i zapteder, yakıp yıkar ve katliam yapar; şehir kısa sürede yeniden kurulur.",
+    "kaynak": "TDV İslâm Ansiklopedisi (S. M. Aliev, Erdebil), https://islamansiklopedisi.org.tr/erdebil",
+    "tanik": "Şehri zapteden Moğollar burayı baştan başa yakıp yıkarak büyük bir katliam yapmışlar"
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → İlhanlı Devleti (Hülâgû'nun İran'da ilhanlığı kurması).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ilhanlilar",
+    "tanik": "başşehri Tebriz olmak üzere İran’da kurulan (1256)"
+   }
+  ],
+  "ic_not": "KAYNAK: TDV Erdebil, Iranica ARDABĪL i (curl, tam Chrome UA ile açıldı), TDV Sâcoğulları/Müsâfirîler/Revvâdîler, Le Strange 1905 (Erdebil 'Azerbaycan'ın başkenti' tespiti). KURULUŞ: bulunamadı (Pîrûz geleneği ayrı). Hazar akını 112/730-31 (Iranica) ve Hürremî/Bâbek dönemi (816-838) sahipliği değiştirmeyen olay olarak yazılmadı. Atlas düzeltme: yok (1281 İlhanlı uyumlu). Atlasta Erdebil'in Osmanlı d: dönemi (1725-1730) mevcut; bu dosya ona karışmaz."
+ },
+ {
   "id": "eski-van-tuspa",
   "ad": "Eski Van (Tuşpa)",
   "atlas_ad": "Eski Van (Tuşpa)",
@@ -3058,6 +3274,382 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ÜRETİM: Kayıt Roma castrum kuruluşundan (106) başlıyor; castrum 'bugünkü kalenin yerinde' (turism.apulum.ro) ⇒ atlas noktası (46.0678, 23.58) ile <1 km: antik Apulum bu noktaya yazıldı. Sivil Apulum (canabae/Colonia Aurelia Apulensis, Partoş) ve Dakya dönemi AYRI/yakın kayıt gerektirebilir; bu oturumda mesafeleri kaynakta ölçülmedi. PTOLEMAIOS 'Apoulon': Wikipedia modern tanımlama olarak Craiva/Piatra Craivii (~20 km kuzey) der (ikincil, doğrulanmadı) ⇒ Dakya döneminin Apulon'u bu noktaya yazılmadı; önerilen ayrı kayıt: 'Piatra Craivii (Apulon?)'. Ptolemaios'un kendi metni bu oturumda açılamadı (penelope Thayer sayfası boş). MKL: 'Ter-én Kr. e. 2-1. évezredi, kora vaskori erődítményt tártak föl' — yeri ayrıntısız olduğu için ark yazılmadı. DAKYA SAHİPLİĞİ: künye dakya (-0081..0106) bu nokta için kaynaklı tanık bulunamadığı için yazılmadı (ilk.t = 106). ARALIK: 275→896 __BILINMIYOR__ (bkz. sahip[1]); gepid/avar/birinci-bulgar künyeleri bölge düzeyinde TDV tanıklığı olduğu için KULLANILMADI. ATLAS 1281: atlas macaristan 1281-01-01 ile uyumlu; öneri yok. ŞEHİR İLK ANILIŞI (Roma sonrası): MKL 'Gyulafehérvár' adlarını sayar (Bălgrad, Alba Iulia, Weissenburg) ve ilk Orta Çağ tarihi olarak '1002-ig a Gyulák / 1009 piskoposluk' verir; 1009 piskoposluğu MKL'ye göre kesin (Wikipedia/Explore Carpathia ikincil). BULGAR İZİ: MKL 'az első dunai bolgár kagánok idején ismét benépesült' tarihsiz; Bălgrad adının kaynağı (Bulgar/Slav 'beyaz kale') ayrıca doğrulanmadı. Wikipedia/Explore Carpathia tek dayanak olmadığı için hiçbir tarih yalnızca onlardan alınmadı. Kaynak notu: MKL (Magyar Katolikus Lexikon, akademik Macar ansiklopedisi) açıldı; Kristó 'Korai magyar történeti lexikon' açılamadı."
  },
  {
+  "id": "hemedan",
+  "ad": "Hemedan",
+  "atlas_ad": "Hemedan",
+  "lat": 34.799,
+  "lon": 48.515,
+  "kat1900": 2,
+  "adlar": [
+   "Hağmatana (Eski Farsça)",
+   "Agmadana (Elamca)",
+   "Ekbatana / Agbatana",
+   "Epiphaneia (IV. Antiokhos'un verdiği ad)",
+   "Hemezân (Arapça)",
+   "Hemedan"
+  ],
+  "ilk": {
+   "t": "-0600-01-01",
+   "gun": "MÖ 7. yüzyıl",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan; Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+   "tanik": "milâttan önce VII. yüzyılda Med İmparatorluğu’nun başşehri olarak kurulmuştur",
+   "ic_not": "TDV, Herodotos'a (1.98) dayanarak kuruluşu Med Kralı Deiokes'e (MÖ 728-673) ve MÖ 7. yüzyıla verir. Iranica ECBATANA aynı geleneği 'MÖ 8. yy sonu' diye anar ama 'tarihsel ya da arkeolojik kanıt yok' der; Yeni-Asur kaynakları Ekbatana'yı anmaz; Tell Hagmatana'da 1956'da yol kazısında Med ve Ahamenî dönemi kerpiç surlar açığa çıktı (Dyson), mutlak tarihleri yok. Yüzyıl hassasiyeti: MÖ 7. yy son yılı = MÖ 601 = astronomik -0600 (güvenli uç). İLK YAZILI TANIK: Nabonidus Vakayinamesi 6. yıl (MÖ 550/549): Kyros Astyages'i yener, Ekbatana'yı alır (Grayson; Iranica) — kurulus gelenek-tabanlı olduğundan bu ilk anılış ic_not'a yazıldı; Bîsütun'da Hagmatana adı: Darius I (MÖ 521)."
+  },
+  "kur": {
+   "t": "-0600-01-01",
+   "gun": "MÖ 7. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan; Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+   "tanik": "milâttan önce VII. yüzyılda Med İmparatorluğu’nun başşehri olarak kurulmuştur"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0600-01-01",
+    "t": "-0549-01-01",
+    "d": "medya",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan; Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+    "ic_not": "Med başşehri (Herodotos geleneği). t: Nabonidus Vakayinamesi 550/549 → astronomik -0549."
+   },
+   {
+    "f": "-0549-01-01",
+    "t": "-0329-01-01",
+    "d": "ahamenis",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan",
+    "ic_not": "Yazlık başkent ve hazine şehri (Iranica). t: İskender 330 baharında Ekbatana'ya gelir → astronomik -0329."
+   },
+   {
+    "f": "-0329-01-01",
+    "t": "-0322-01-01",
+    "d": "iskender-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+    "ic_not": "İskender 330'da şehri alır, hazineyi buraya koyar; 324 sonbaharında ikinci ziyaret (Hefaistion ölür). t: İskender'in ölümü MÖ 323 → -0322."
+   },
+   {
+    "f": "-0322-01-01",
+    "t": "-0304-01-01",
+    "d": "diadoklar-medya",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+    "ic_not": "Diadoklar dönemi: Perdikkas güney Media (Ekbatana dahil) satraplığını Peithon'a verir, sonra Antigonos Peithon'u idam ettirip Orontobates'i atar, 316'da Antigonos kışı burada geçirir (Iranica). Künye YOK (iskender-imparatorlugu -0322-06-10'da biter; antigonos* künyeleri -0305'te başlar ve Media'yı kapsamaz). Önerilen id: diadoklar-medya (-0322 → -0305).",
+    "kunye_yok": true
+   },
+   {
+    "f": "-0304-01-01",
+    "t": "-0146-01-01",
+    "d": "selevkos",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+    "ic_not": "f en geç tanıktan değil: Iranica yalnız 'şehir sonradan I. Selevkos Nikator (MÖ 305-281) eline geçti' der; el değiştirme günü YOK → f, Selevkos'un krallık yılı (-0305) alındı, BEYAN (künye f -0311). t: Parth kralı I. Mithradates MÖ 147'de Media ve Ekbatana'yı alır → -0146. IV. Antiokhos (175-164) şehre Epiphaneia adını verdi."
+   },
+   {
+    "f": "-0146-01-01",
+    "t": "0226-01-01",
+    "d": "part",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+    "ic_not": "Parth yazlık başkenti ve darphanesi. t: Ardaşîr I (224-41) Ekbatana'yı 226'da alır (Iranica); Part künyesi 224-04-28'de biter → ~2 yıl hayalet uyarısı beklenir (Ardaşîr'in Artabanos'u yenişi 224/226 tartışması: Iranica Azarbaijan iii 226'yı tercih eder)."
+   },
+   {
+    "f": "0226-01-01",
+    "t": "0642-01-01",
+    "d": "sasani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan",
+    "ic_not": "Sâsânîler döneminde önemini yitirdi (TDV). t: Nihâvend'den (21/642) sonra imzalanan barış (TDV); hicrî 21 ∩ 642 = 642-01-01."
+   },
+   {
+    "f": "0642-01-01",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan; Encyclopaedia Iranica, HAMADĀN vi. History, Islamic Period (P. Azkai, XI/6, 2003), https://www.iranicaonline.org/articles/hamadan-vi/ (curl, tam Chrome UA)",
+    "ic_not": "Halk antlaşmayı bozdu, 'Hz. Ömer’in vefatından altı ay sonra' Cerîr b. Abdullah savaşla geri aldı (24/645; Iranica 23/643-26/644 varyantları) — sahiplik Râşidîn'de kaldı, ayrı dönem açılmadı."
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/emeviler; Encyclopaedia Iranica, HAMADĀN vi. History, Islamic Period (P. Azkai, XI/6, 2003), https://www.iranicaonline.org/articles/hamadan-vi/ (curl, tam Chrome UA)"
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0929-02-14",
+    "d": "abbasi",
+    "kesinlik": "gun",
+    "kaynak": "Encyclopaedia Iranica, HAMADĀN vi. History, Islamic Period (P. Azkai, XI/6, 2003), https://www.iranicaonline.org/articles/hamadan-vi/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "ic_not": "Nominal Abbâsî; içinde Ejlî/Dülefî (Ebû Dülef, 185-226/801-41; Ejlîler Cibâl'i 285/898'e dek 'bir ara Hemedan ve İsfahan dahil' yönetti — Iranica) ve Benî Selâme/Alevî yerel yönetimi tarihsiz ve kesin sahibi belirsiz katmanlardır; BEYAN. t: Esfâr b. Şîreveyh Cibâl'i Hemedan dahil fetheder (317/929)."
+   },
+   {
+    "f": "0929-02-14",
+    "t": "0931-01-24",
+    "d": "esfar-siruye-deylemi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, HAMADĀN vi. History, Islamic Period (P. Azkai, XI/6, 2003), https://www.iranicaonline.org/articles/hamadan-vi/ (curl, tam Chrome UA)",
+    "ic_not": "Deylemli Esfâr b. Şîreveyh'in kısa dönemi (317/929 → Merdâvîc 319/931). Künye YOK; önerilen id: esfar-siruye-deylemi (ömür ≈929-931; Ziyârîler'in öncülü).",
+    "kunye_yok": true
+   },
+   {
+    "f": "0931-01-24",
+    "t": "0932-01-13",
+    "d": "ziyari",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, HAMADĀN vi. History, Islamic Period (P. Azkai, XI/6, 2003), https://www.iranicaonline.org/articles/hamadan-vi/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ziyariler",
+    "ic_not": "Merdâvîc b. Ziyâr Hemedan'ı 319/931'de alıp dört günlük katliam yaptı (Iranica). t: Büveyhî Emâdüddevle Ali (320-38/932-49) bölgeyi ele geçirir. Ziyârî künyesi 928'de başlar."
+   },
+   {
+    "f": "0932-01-13",
+    "t": "1023-03-26",
+    "d": "buveyhi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, HAMADĀN vi. History, Islamic Period (P. Azkai, XI/6, 2003), https://www.iranicaonline.org/articles/hamadan-vi/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler",
+    "ic_not": "Büveyhîler; 366/976'da Rüknüddevle Hemedan'ı oğlu Fahrüddevle'ye bıraktı (Iranica); son Deylemî emîr Semâüddevle (412-414/1021-23) → Alâüddevle Kâkûye 414 (1023-24)'te onu bitirdi (TDV kakuyiler)."
+   },
+   {
+    "f": "1023-03-26",
+    "t": "1047-06-28",
+    "d": "kakuyi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler; Encyclopaedia Iranica, HAMADĀN vi. History, Islamic Period (P. Azkai, XI/6, 2003), https://www.iranicaonline.org/articles/hamadan-vi/ (curl, tam Chrome UA)",
+    "ic_not": "KISA KESİNTİLER (dönem AÇILMADI): Iranica 'Alâüddevle Kâkûye 421/1030'da Gazneli Mesud I seferiyle Hemedan'dan sürüldü'; TDV kakuyiler: İbrâhim Yinal 434 (1042-43)'te Hemedan'a saldırdı, Tuğrul Bey birkaç ay sonra Hemedan'ı doğrudan yönetimine aldı, Ebû Kâlîcâr Gerşâsb 436 (1044-45)'te Büveyhî adına geri aldı. Süreleri bilinmediğinden dönem açılmadı. t: 'Hemedan’ın kesin olarak Selçuklular’a bağlanması' + Kinkever'in teslimi 439/1047."
+   },
+   {
+    "f": "1047-06-28",
+    "t": "1118-05-06",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler; Encyclopaedia Iranica, HAMADĀN vi. History, Islamic Period (P. Azkai, XI/6, 2003), https://www.iranicaonline.org/articles/hamadan-vi/ (curl, tam Chrome UA)",
+    "ic_not": "Iranica: Hemedan 'V./XI. yy'ın ilk yarısında Selçuklular'a geçti'. f: TDV'nin 'kesin bağlanma' (439/1047) tanığı (en geç sınır); 1042-43 ilk doğrudan yönetim BEYAN."
+   },
+   {
+    "f": "1118-05-06",
+    "t": "1194-01-01",
+    "d": "irak-selcuklu",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan; TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan",
+    "ic_not": "TDV Hemedan: 'XII. yüzyılın ilk yarısında Irak Selçukluları’nın başşehri oldu'; TDV İsfahan: başşehir 'II. Tuğrul zamanında Hemedan’a nakledildi'. Hemedan'a özgü dönem başı yok; künye günü kullanıldı (bölge/ardıl cümlesi)."
+   },
+   {
+    "f": "1194-01-01",
+    "t": "1221-01-01",
+    "d": "harizmsah",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizmsahlar",
+    "ic_not": "TDV Hemedan: Hârizmşahlar’ın hâkimiyetine girdi (1194), İldenizliler'den Kutluğ İnanç'a verildi (iktâ/vali)."
+   },
+   {
+    "f": "1221-01-01",
+    "t": "1256-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan; Encyclopaedia Iranica, HAMADĀN vi. History, Islamic Period (P. Azkai, XI/6, 2003), https://www.iranicaonline.org/articles/hamadan-vi/ (curl, tam Chrome UA)",
+    "ic_not": "Cebe Noyan 1221'de uzun kuşatmayla şehri aldı; Iranica iki Moğol saldırısı: 618/1221 ve 621/1224."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1257-03-27",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ilhanlilar; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hulagu",
+    "ic_not": "Moğol → İlhanlı ardıl yapı geçişi (künye günü devralındı, kaynaksız gün). Atlas 1257-03-27: Hülâgû'nun Hemedan'dan Bağdat'a hareket günü (TDV hulagu) — o tarihte 'tanık günü', kırılma değil; İlhanlı hâkimiyeti daha önce de başlamış olabilir (atlasın kendi notu)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0600-01-01",
+    "gun": "MÖ 7. yüzyıl",
+    "k": "kurulus",
+    "b": "Hemedan (Ekbatana), Med Kralı Deiokes tarafından Med başşehri olarak kurulur (Herodotos geleneği).",
+    "kaynak": "TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan",
+    "tanik": "milâttan önce VII. yüzyılda Med İmparatorluğu’nun başşehri olarak kurulmuştur"
+   },
+   {
+    "t": "-0549-01-01",
+    "gun": "MÖ 550/549",
+    "k": "fetih",
+    "b": "Kyros II Astyages'i yener, Ekbatana'yı alır, hazineyi Anşan'a taşır (Nabonidus Vakayinamesi 6. yıl).",
+    "kaynak": "Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+    "tanik": "Cyrus II defeated Astyages, captured Ecbatana, and removed its treasury to Anshan"
+   },
+   {
+    "t": "-0329-01-01",
+    "gun": "MÖ 330 ilkbahar",
+    "k": "fetih",
+    "b": "İskender Darius'u takiben Ekbatana'ya gelir, Pers hazinesini ele geçirir.",
+    "kaynak": "Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+    "tanik": "he marched in pursuit of Darius to Ecbatana, where he captured the Persian treasury"
+   },
+   {
+    "t": "-0322-01-01",
+    "gun": "MÖ 323",
+    "k": "taht",
+    "b": "İskender ölür; Perdikkas güney Media'nın (Ekbatana dahil) satraplığını Peithon'a verir.",
+    "kaynak": "Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+    "tanik": "At Alexander’s death in 323, Perdiccas assigned the satrapy of southern Media, including Ecbatana"
+   },
+   {
+    "t": "-0304-01-01",
+    "gun": "MÖ 305-281",
+    "k": "fetih",
+    "b": "Şehir I. Selevkos Nikator'un eline geçer (günü verilmemiş; krallık yılı).",
+    "kaynak": "Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+    "tanik": "The city later fell to Seleucus I Nicator (305-281 B.C.E.)"
+   },
+   {
+    "t": "-0146-01-01",
+    "gun": "MÖ 147",
+    "k": "fetih",
+    "b": "Parth Kralı I. Mithradates Media ve Ekbatana'yı alır.",
+    "kaynak": "Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+    "tanik": "Media and Ecbatana did not fall to the Parthian king Mithridates I until 147"
+   },
+   {
+    "t": "0226-01-01",
+    "gun": "226",
+    "k": "fetih",
+    "b": "Ardaşîr I Ekbatana'yı ve Atropatene'yi ele geçirir (Sâsânî dönemi).",
+    "kaynak": "Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+    "tanik": "it was captured by Ardašīr I (224-41)"
+   },
+   {
+    "t": "0642-01-01",
+    "gun": "21 H / 642",
+    "k": "antlasma",
+    "b": "Nihâvend'den sonra yapılan barışla Hemedan İslâm devletine bırakılır.",
+    "kaynak": "TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan",
+    "tanik": "Nihâvend Savaşı’ndan (21/642) sonra burada imzalanan barış antlaşması uyarınca İslâm devletine bırakıldı"
+   },
+   {
+    "t": "0645-01-01",
+    "gun": "24 H / 645",
+    "k": "fetih",
+    "b": "Halk isyan edince Cerîr b. Abdullah Hemedan'ı savaşla yeniden alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan",
+    "tanik": "bu defa savaş yoluyla tekrar ele geçirildi (24/645)"
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'nin biat alması, 25 Rebîülevvel 41).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)"
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Ebü'l-Abbas'a Kûfe Camii'nde biat; Abbâsî ihtilâli).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "t": "0929-02-14",
+    "gun": "317 H / 929",
+    "k": "fetih",
+    "b": "Deylemli Esfâr b. Şîreveyh Hemedan ve Karaj dahil bütün Cibâl'i alır.",
+    "kaynak": "Encyclopaedia Iranica, HAMADĀN vi. History, Islamic Period (P. Azkai, XI/6, 2003), https://www.iranicaonline.org/articles/hamadan-vi/ (curl, tam Chrome UA)",
+    "tanik": "Asfār b. Širuya Deylami conquered the entire Jebāl, including Hamadān and Karaj in 317/929"
+   },
+   {
+    "t": "0931-01-24",
+    "gun": "319 H / 931",
+    "k": "fetih",
+    "b": "Ziyârî Merdâvîc Hemedan'ı alır ve dört gün katliam yapar.",
+    "kaynak": "Encyclopaedia Iranica, HAMADĀN vi. History, Islamic Period (P. Azkai, XI/6, 2003), https://www.iranicaonline.org/articles/hamadan-vi/ (curl, tam Chrome UA)",
+    "tanik": "He captured Hamadān in 319/931 and inflicted a four-day massacre on the city"
+   },
+   {
+    "t": "0932-01-13",
+    "gun": "320 H / 932",
+    "k": "fetih",
+    "b": "Büveyhî Emâdüddevle Ali bölgenin tamamını denetimine alır.",
+    "kaynak": "Encyclopaedia Iranica, HAMADĀN vi. History, Islamic Period (P. Azkai, XI/6, 2003), https://www.iranicaonline.org/articles/hamadan-vi/ (curl, tam Chrome UA)",
+    "tanik": "was able to bring the entire area under his control with the assistance"
+   },
+   {
+    "t": "1023-03-26",
+    "gun": "414 H / 1023-24",
+    "k": "fetih",
+    "b": "Alâüddevle Muhammed (Kâkûyî) Hemedan'a yürüyüp Büveyhî Semâüddevle'nin hâkimiyetine son verir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler",
+    "tanik": "Alâüddevle Muhammed, Büveyhîler’den Semâüddevle’nin buradaki hâkimiyetine son verdi"
+   },
+   {
+    "t": "1030-01-09",
+    "gun": "421 H / 1030",
+    "k": "kayip",
+    "b": "Gazneli Sultan Mesud I'in seferiyle Alâüddevle Kâkûye Hemedan'dan sürülür (süre bilinmiyor; dönem açılmadı).",
+    "kaynak": "Encyclopaedia Iranica, HAMADĀN vi. History, Islamic Period (P. Azkai, XI/6, 2003), https://www.iranicaonline.org/articles/hamadan-vi/ (curl, tam Chrome UA)",
+    "tanik": "was himself driven out of Hamadān in 421/1030"
+   },
+   {
+    "t": "1042-08-21",
+    "gun": "434 H / 1042-43",
+    "k": "sefer",
+    "b": "Selçuklu İbrâhim Yinal Burûcird ve Hemedan'a saldırır; Ebû Kâlîcâr Gerşâsb şehri bırakır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler",
+    "tanik": "İbrâhim Yinal 434’te (1042-43) Burûcird ve Hemedan’a saldırınca Ebû Kâlîcâr Gerşâsb şehri terketti"
+   },
+   {
+    "t": "1047-06-28",
+    "gun": "439 H / 1047",
+    "k": "fetih",
+    "b": "Hemedan Selçuklular'a kesin olarak bağlanır; Kinkever Kalesi teslim olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler",
+    "tanik": "Kinkever Kalesi de teslim oldu (439/1047)"
+   },
+   {
+    "t": "1118-05-06",
+    "gun": "6 Mayıs 1118",
+    "k": "diger",
+    "b": "künye geçişi: Büyük Selçuklu → Irak Selçukluları (Mahmud'un sultan ilânı, 13 Muharrem 512).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Muhammed Tapar’ın ölümü üzerine yerine geçen oğlu Mahmud, 13 Muharrem 512’de (6 Mayıs 1118)"
+   },
+   {
+    "t": "1194-01-01",
+    "gun": "1194",
+    "k": "fetih",
+    "b": "Irak Selçuklu II. Tuğrul'un Hârizmşah Tekiş'e yenilmesiyle Hemedan Hârizmşahlar'a geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan",
+    "tanik": "II. Tuğrul’un Hârizmşah Alâeddin Tekiş’e yenilmesi üzerine Hârizmşahlar’ın hâkimiyeti altına girdi (1194)"
+   },
+   {
+    "t": "1221-01-01",
+    "gun": "1221",
+    "k": "fetih",
+    "b": "Cebe Noyan komutasındaki Moğol ordusu uzun kuşatmadan sonra Hemedan'ı alır ve tahrip eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi (T. Yazıcı, Hemedan), https://islamansiklopedisi.org.tr/hemedan",
+    "tanik": "1221’de Cebe Noyan kumandasındaki Moğol ordusu uzun bir kuşatma sonunda şehri ele geçirerek"
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → İlhanlı Devleti (Hülâgû'nun İran'da ilhanlığı kurması).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ilhanlilar",
+    "tanik": "başşehri Tebriz olmak üzere İran’da kurulan (1256)"
+   },
+   {
+    "t": "1257-03-27",
+    "gun": "9 Rebîülevvel 655 / 27 Mart 1257",
+    "k": "diger",
+    "b": "Hülâgû Hemedan'dan Bağdat'a hareket eder (Hemedan'ın İlhanlı üssü oluşunun tanık günü).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hulagu",
+    "tanik": "Bu cevap üzerine Hülâgû 9 Rebîülevvel 655’te (27 Mart 1257) Hemedan’dan Bağdat’a hareket etti"
+   }
+  ],
+  "ic_not": "KAYNAK: TDV Hemedan; Iranica ECBATANA (S. C. Brown), HAMADĀN vi (P. Azkai), TDV Kâkûyîler/Büveyhîler/Ziyârîler/Selçuklular/Hârizmşahlar. Kuruluş MÖ 7. yy TDV'nin (Herodotos) beyanıdır; arkeolojik/yazılı kanıt yok (Iranica) — ilk güvenli yazılı tanık Nabonidus Vakayinamesi MÖ 550/549. KÜNYE SORUNLARI: diadoklar-medya ve esfar-siruye-deylemi için künye yok (kunye_yok); part -0146 → 226, künye t 224-04-28'i aşar (hayalet uyarısı beklenir; Ardaşîr tarihi Iranica'da 224/226). selevkos f = -0305 (künye f -0311, el değiştirme günü tanıksız). Hemedan'ın Selçuklu'ya geçişi: Iranica 'ilk yarı V./XI. yy', TDV Kâkûyîler 1042-47 arası gidiş-gelişler → 1047 (kesin bağlanma) en geç uç alındı."
+ },
+ {
   "id": "hive",
   "ad": "Hîve",
   "atlas_ad": "Hîve",
@@ -3415,6 +4007,229 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas Hokand f=1281-01-01 cagatay (kaynaksız). Aranan: Fergana'nın Çağatay ulusuna geçişi. Bulunan: TDV Fergana \"XIII. yüzyılda uzun süre Mahmud ve Mesud Yalvaç Moğollar adına yönetti; Çağatay ulusu XIV. yüzyılda ikiye ayrılınca ...\" — XIII. yy Çağatay iddiası YOK; 1281 çürütülmedi/doğrulanmadı. Zincir 1281-01-01'e Moğol İmparatorluğu (künye sonu 1260) ile hizalandı.",
   "ic_not": "ABİ MERKEZ KARARI: Hokand küçük kasaba (TDV: XVIII. yy ortasına dek küçük); 983-1281 arası zincir Fergana bölgesinin TDV zinciridir, Hokand'a özgü tek tanık Hudud 982/3'tür. ATLAS: Hokand 1281-1710 Çağatay/Timurlu/Buhara ayrı dilim. Hokand Hanlığı md. 1710 sonrası. Konum: atlas noktası = modern Kökan (Özbekistan), eski yerleşim aynı alan (TDV; mesafe ölçülmedi)."
+ },
+ {
+  "id": "isfahan",
+  "ad": "Isfahan",
+  "atlas_ad": "Isfahan",
+  "lat": 32.654,
+  "lon": 51.668,
+  "kat1900": 1,
+  "adlar": [
+   "Gabae / Gabiene (Grekçe)",
+   "Aspadana (Batlamyus; eyalet adı)",
+   "Gay (Orta Farsça) / Cey (Arapça)",
+   "Sipâhân / İsbahân",
+   "Isfahan"
+  ],
+  "ilk": {
+   "t": "0270-01-01",
+   "gun": "I. Şâpûr dönemi (239-270)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Iranica, ISFAHAN iv. Pre-Islamic Period (J. F. Hansman, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-iv-pre-islamic-period/ (curl, tam Chrome UA); Encyclopaedia Iranica, GABAE (R. Schmitt, X/3, 2000), https://www.iranicaonline.org/articles/gabae-/ (curl, tam Chrome UA)",
+   "tanik": "a governor (šahrab) of Gay is named in the list of current royal officials",
+   "ic_not": "Gay = Gabae özdeşliğinin KESİN kanıtı Şâpûr I'in Ka'be-i Zerdüşt yazıtıdır (üç dilli: 'Wārzin, Gay satrapı'; Iranica GABAE). Yazıt I. Şâpûr'un saltanatında (ca. 239-270; Iranica) olduğundan aralığın güvenli ucu 270 alındı. Daha eski ANILIŞLAR, özdeşlik/okuma sorunlu olduğu için başlangıç SAYILMADI (Emre kuralı: yeri kesin olmayan eşitleme): Polybios 31.9.3 (IV. Antiokhos MÖ 164'te 'Gabai'de ölür' — metin 'Tabai'den EMENDE, Altheim-Stiehl reddeder), Strabon 15.3.3 (Ahamenî sarayı, tarihsiz), Diodoros 19.26 (MÖ 317, 'Gabiene' EYALETİ, şehir değil); Tabarî I,818: Ardaşîr I Gay'ı alır, yerel kral Şâd-Şâbûr öldürülür (≤226, tarihsiz). GELENEK: İskender kurdu (Şehristânihâ-yı Îrân, Tabarî, İbn el-Fakîh, Kudâme, Hamza — Iranica ISFAHAN ii); Demaşkî: Pîrûz — Iranica uyumsuz bulur (430'da piskoposluk). Kuruluş: bulunamadı. Antik yerleşim modern noktaya ≈ eşit (Jay ≈ merkez Isfahan, Iranica ISFAHAN iv: 'on the site later occupied by central Isfahan')."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0270-01-01",
+    "t": "0644-01-01",
+    "d": "sasani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, ISFAHAN iv. Pre-Islamic Period (J. F. Hansman, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-iv-pre-islamic-period/ (curl, tam Chrome UA); Encyclopaedia Iranica, ISFAHAN vi. Medieval Period (H. Kamaly, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-vi-medieval-period/ (curl, tam Chrome UA)",
+    "ic_not": "Sâsânî şehrazlık (satrap) merkezi; Part dönemi ve Ardaşîr I'in alışı ilk.t'den öncedir (ic_not). t: Iranica 'By the year 23/644 ... Isfahan had capitulated'; TDV: 23 (644) sulh (hicrî 23 ∩ 644 = 644-01-01)."
+   },
+   {
+    "f": "0644-01-01",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan; Encyclopaedia Iranica, ISFAHAN vi. Medieval Period (H. Kamaly, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-vi-medieval-period/ (curl, tam Chrome UA)"
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan; Encyclopaedia Iranica, ISFAHAN vi. Medieval Period (H. Kamaly, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-vi-medieval-period/ (curl, tam Chrome UA)",
+    "ic_not": "Iranica: Abdullah b. Muâviye 128/745'ten itibaren 'iki yıldan fazla' Isfahan'ı üs yaptı (Tâlibî asi, Abbâsî ihtilâlinin parçası) — sahiplik değişimi tarihsiz kısa kesinti, dönem açılmadı."
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0913-08-07",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, ISFAHAN vi. Medieval Period (H. Kamaly, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-vi-medieval-period/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan",
+    "ic_not": "NOMİNAL Abbâsî; içinde tarihli yerel katmanlar var ve dönem AÇILMADI (BEYAN): Ebû Dülef el-Ejlî ve oğulları (Dülefîler) 'Bâbek isyanından sonra onlarca yıl' (Iranica), Saffârî Yakûb b. Leys Isfahan'ı Abdülazîz b. Ebî Dülef'ten aldı (≤265/879) ve Dülefî Ahmed Amr b. Leys'i 271/884'te çıkardı; Muvaffak 276/889'da Abbâsî üstünlüğünü yeniledi; Musa b. Buga 253/867; Bedr el-Hammâmî 295-300/908-913 valisi (Iranica). t: 'In 301/913, the Samanids ... briefly extended their control'."
+   },
+   {
+    "f": "0913-08-07",
+    "t": "0934-12-11",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, ISFAHAN vi. Medieval Period (H. Kamaly, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-vi-medieval-period/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ziyariler",
+    "ic_not": "Sâmânîler kısa süre (913), sonra 'yaklaşık yirmi yıl Deylemli savaş beyleri' (Aliyy b. Vehsûdân, Ahmed Sa'luk, Merdâvîc [935'te Isfahan'da öldürüldü], Veşmgîr, Laşkerî, Rüknüddevle) — Iranica; TDV Ziyârîler: Büveyhîler 323/935'te İsfahan'ı aldı, Veşmgîr geri aldı, sonra tekrar Büveyhîler. Tek sahip yok → __BOSLUK__ (beyanlı)."
+   },
+   {
+    "f": "0934-12-11",
+    "t": "1007-09-17",
+    "d": "buveyhi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, ISFAHAN vi. Medieval Period (H. Kamaly, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-vi-medieval-period/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buveyhiler",
+    "ic_not": "f: Büveyhî sikkelerinde Isfahan adı 323/934-35'ten başlar (Iranica; hicrî 323 ∩ 934-35 ilk günü); TDV: Rüknüddevle 323'ten (935) itibaren Isfahan'ı merkez yaptı. Ali b. Büveyh 932'de şehri işgal etti ama Merdâvîc geri attı (TDV buveyhiler) — kısa kesinti. t: Kâkûyî Alâüddevle'nin vali oluşu (398/1007'den önce)."
+   },
+   {
+    "f": "1007-09-17",
+    "t": "1051-05-15",
+    "d": "kakuyi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler; TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan",
+    "ic_not": "Alâüddevle Muhammed önce Büveyhî valisi (Seyyide), 'V. yy başlarında' fiilen müstakil; 420'de (1029) Gazneli Mahmud Rey'i alınca İsfahan'ı boşaltıp Hûzistan'a kaçtı, Mesud vekil olarak dönmesine izin verdi, 424'te (1033) vergili emîr; Gazneli ordusu ~1034'te İsfahan'a hâkim oldu, Alâüddevle 427'de (1035-36) döndü — süresi belirsiz kısa Gazneli ele geçirmesi, DÖNEM AÇILMADI. t: Ferâmurz Muharrem 443'te (Mayıs-Haziran 1051) şehri Selçuklular'a teslim etti."
+   },
+   {
+    "f": "1051-05-15",
+    "t": "1118-05-06",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler; TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan",
+    "ic_not": "Tuğrul Bey 442/1050'de kuşattı, 443/1051'de sulhen aldı; Melikşah'ın başşehri (TDV)."
+   },
+   {
+    "f": "1118-05-06",
+    "t": "1194-01-01",
+    "d": "irak-selcuklu",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "ic_not": "TDV İsfahan: Sencer yeğeni Mahmud'u 'başşehri İsfahan olmak üzere yeni kurduğu Irak Selçukluları’nın başına geçirdi (512/1118)'; başşehir sonradan II. Tuğrul zamanında Hemedan'a taşındı (Isfahan'da kalan sahiplik değişmez)."
+   },
+   {
+    "f": "1194-01-01",
+    "t": "1231-01-01",
+    "d": "harizmsah",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizmsahlar",
+    "ic_not": "TDV: '1194’te Hârizmşahlar’ın ... eline geçen İsfahan'. t: Celâleddin'in 1231'de ölümü ile Hârizmşah künyesinin sonu (künye t 1231-01-01); hayalet yok."
+   },
+   {
+    "f": "1231-01-01",
+    "t": "1235-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan",
+    "ic_not": "Celâleddin'in ölümü (1231) ile TDV'nin 'Moğollar 1235-1236' tanığı arasında Isfahan'ın sahibi kaynakta yok (atlas notu da aynı boşluğu belirtiyor); 4 yıl, __BOSLUK__ (beyanlı). Atlas 1235-01-01 'mogol-imparatorlugu' iddiası TDV'nin '1235-1236' aralığının ilk ucudur — GÜVENLİ UÇ 1236'dır (atlas düzeltme önerisi)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0270-01-01",
+    "gun": "I. Şâpûr dönemi (239-270)",
+    "k": "diger",
+    "b": "Gay (Isfahan) şehri Şâpûr I'in Ka'be-i Zerdüşt yazıtında 'Gay satrapı' ile anılır (ilk kesin anılış).",
+    "kaynak": "Encyclopaedia Iranica, ISFAHAN iv. Pre-Islamic Period (J. F. Hansman, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-iv-pre-islamic-period/ (curl, tam Chrome UA)",
+    "tanik": "a governor (šahrab) of Gay is named in the list of current royal officials"
+   },
+   {
+    "t": "0644-01-01",
+    "gun": "23 H / 644",
+    "k": "fetih",
+    "b": "Isfahan düzenlenen isyanlardan sonra Arap orduları karşısında teslim olur; cizye ve haraç antlaşması yapılır.",
+    "kaynak": "Encyclopaedia Iranica, ISFAHAN vi. Medieval Period (H. Kamaly, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-vi-medieval-period/ (curl, tam Chrome UA)",
+    "tanik": "By the year 23/644, after a few failed revolts, Isfahan had capitulated"
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'nin biat alması, 25 Rebîülevvel 41).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)"
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Ebü'l-Abbas'a Kûfe Camii'nde biat; Abbâsî ihtilâli).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "t": "0913-08-07",
+    "gun": "301 H / 913",
+    "k": "isgal",
+    "b": "Sâmânîler Isfahan'a kısa süre denetim kurar.",
+    "kaynak": "Encyclopaedia Iranica, ISFAHAN vi. Medieval Period (H. Kamaly, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-vi-medieval-period/ (curl, tam Chrome UA)",
+    "tanik": "In 301/913, the Samanids of Khorasan briefly extended their control over Isfahan"
+   },
+   {
+    "t": "0934-12-11",
+    "gun": "323 H / 934-35",
+    "k": "fetih",
+    "b": "Büveyhî Rüknüddevle Hasan Isfahan'ı merkez yapar; Büveyhî sikkelerinde şehir adı görülür.",
+    "kaynak": "Encyclopaedia Iranica, ISFAHAN vi. Medieval Period (H. Kamaly, XIII/6, 2006), https://www.iranicaonline.org/articles/isfahan-vi-medieval-period/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan",
+    "tanik": "Rüknüddevle Hasan b. Büveyh 323’ten (935) itibaren uzun bir süre burada yaşadı"
+   },
+   {
+    "t": "1007-09-17",
+    "gun": "398 H / 1007",
+    "k": "idari",
+    "b": "Büveyhî Mecdüddevle'nin annesi Seyyide, Alâüddevle Muhammed'i (Kâkûyî) Isfahan valisi atar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler",
+    "tanik": "Alâüddevle’nin 398’den (1007) önceki bir tarihte Seyyide tarafından İsfahan’a vali olarak tayin edilmesiyle"
+   },
+   {
+    "t": "1034-01-01",
+    "gun": "425 H / 1034",
+    "k": "isgal",
+    "b": "Gazneli ordusu, isyan eden Alâüddevle'yi yenerek Isfahan'a hâkim olur (süre bilinmiyor; 427/1035-36'da Alâüddevle döner).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler",
+    "tanik": "Gazneli ordusu İsfahan’a hâkim oldu"
+   },
+   {
+    "t": "1051-05-15",
+    "gun": "443 H / Mayıs-Haziran 1051",
+    "k": "fetih",
+    "b": "Ebû Mansûr Ferâmurz bir yıl süren kuşatmanın ardından Isfahan'ı Selçuklular'a teslim eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kakuyiler",
+    "tanik": "Ebû Mansûr Ferâmurz, Muharrem 443’te (Mayıs-Haziran 1051) şehri Selçuklular’a teslim etti"
+   },
+   {
+    "t": "1118-05-06",
+    "gun": "512 H / 1118",
+    "k": "diger",
+    "b": "künye geçişi: Büyük Selçuklu → Irak Selçukluları (Sencer, Mahmud'u başşehri Isfahan olan Irak Selçukluları'nın başına geçirir).",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan",
+    "tanik": "başşehri İsfahan olmak üzere yeni kurduğu Irak Selçukluları’nın başına geçirdi"
+   },
+   {
+    "t": "1194-01-01",
+    "gun": "1194",
+    "k": "fetih",
+    "b": "Isfahan Hârizmşahlar'ın eline geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan",
+    "tanik": "1194’te Hârizmşahlar’ın ve 1235-1236’da Moğollar’ın eline geçen İsfahan"
+   },
+   {
+    "t": "1231-01-01",
+    "gun": "1231",
+    "k": "diger",
+    "b": "künye geçişi: Celâleddin Hârizmşah Âmid önünde Moğol baskınıyla ölür; Hârizmşah künyesi biter (Isfahan'ın 1231-1235 sahibi bilinmiyor).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/celaleddin-harizmsah",
+    "tanik": "Aras-Eleşkirt-Malazgirt-Hani yolunu takip ederek Âmid önüne geldi (1231)"
+   },
+   {
+    "t": "1235-01-01",
+    "gun": "1235-1236",
+    "k": "fetih",
+    "b": "Isfahan Moğollar'ın eline geçer (atlas: 1235; TDV aralığın ilk ucu).",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, İsfahan), https://islamansiklopedisi.org.tr/isfahan",
+    "tanik": "1194’te Hârizmşahlar’ın ve 1235-1236’da Moğollar’ın eline geçen İsfahan"
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica ISFAHAN iv (pre-Islamic, J. Hansman), ii (hist. geography, X. de Planhol), vi (medieval, H. Kamaly), GABAE (R. Schmitt); TDV İsfahan; TDV Kâkûyîler/Büveyhîler/Ziyârîler. Isfahan zincirinin 913-935 ve 1231-1235 boşlukları beyanlıdır. ATLAS ÖNERİSİ: atlasın 1235-01-01 başlangıcı TDV'nin '1235-1236' aralığının ilk ucu; güvenli uç 1236 (kaynak aralık veriyor)."
  },
  {
   "id": "kamanice",
@@ -3817,6 +4632,288 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK: ilk.t 1361 atlasın başlangıcından (1281-01-01) sonra. ATLAS UYARISI: atlas Kaunas'ı 1281'de 'litvanya-buyuk-dukalik' (künye 1236+) açıyor; yazılı tanık 1361 (kale), arkeolojik yerleşme X-XII. yy (ark) — 1281 yazılı kaynakla desteklenmiyor. Kaunas kalesinin inşası eski literatürde XIII. yy ikinci yarısı - XIV. yy başı sayılıyordu; Žalnierius (2012) buna karşı: taş kale 1350'lerin sonunda başlamış, XIII. yy ikinci yarısında inşa edilemezdi. Litvanya Büyük Dukalığı'nın Kaunas bölgesinde 1281 hâkimiyetine tanık BULUNAMADI (Visuotinė lietuvių enciklopedija vle.lt Cloudflare engelledi, Encyclopaedia Lituanica açılamadı)."
+ },
+ {
+  "id": "kazvin",
+  "ad": "Kazvin",
+  "atlas_ad": "Kazvin",
+  "lat": 36.269,
+  "lon": 50.004,
+  "kat1900": 1,
+  "adlar": [
+   "Kazvin (Qazvīn)"
+  ],
+  "ilk": {
+   "t": "0250-01-01",
+   "gun": "250",
+   "nicelik": "kurulus",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+   "tanik": "Sâsânî Hükümdarı I. Şâpûr tarafından milâdî 250 yılına doğru",
+   "ic_not": "TDV: I. Şâpûr, Deylemîler'in akınlarına karşı kuzey sınırını korumak için garnizon olarak kurdu. 'doğru' (yaklaşık) → onyıl hassasiyeti. Iranica'da Kazvin için ayrı madde bulunamadı (slug denemeleri; 'qazvin' Kazvînî'ye gider), Şâpûr I maddesinde Kazvin kuruluşuna atıf çıkmadı → ikinci tanık BULUNAMADI. Yer: modern noktayla aynı (TDV tek şehir)."
+  },
+  "kur": {
+   "t": "0250-01-01",
+   "gun": "250",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+   "tanik": "Sâsânî Hükümdarı I. Şâpûr tarafından milâdî 250 yılına doğru"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0250-01-01",
+    "t": "0644-11-07",
+    "d": "sasani",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "ic_not": "t: TDV 'Hz. Ömer zamanında Berâ b. Âzib ... sulh yoluyla ele geçirildi (24/644)'; hicrî 24 ∩ 644 ilk günü."
+   },
+   {
+    "f": "0644-11-07",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "ic_not": "Osman döneminde Velîd b. Ukbe'nin valisi Saîd b. Âs şehre ilk kez şehir görünümü verdi (TDV)."
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/emeviler"
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0865-02-02",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "ic_not": "Hârûnürreşîd'in surları ve cuma camii; sur yapımı 254'te (868) tamamlandı (TDV) — sahiplik değişmez. Tâhirî katmanı (III. yy ilk yarısı, TDV zencan) tarihsiz."
+   },
+   {
+    "f": "0865-02-02",
+    "t": "0867-01-11",
+    "d": "kevkebi-isyani",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin; TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "ic_not": "Ali evladından Hüseyin b. Ahmed el-Kevkebî isyanı (Rebîülevvel 251 / Nisan 865); Mûsâ b. Boğa 253/867'de Abbâsî hâkimiyetini geri getirdi. Künye YOK; önerilen id: kevkebi-isyani (865-867, Zeydî/Alevî asi). hicrî 251 ∩ 865 ilk günü kullanıldı (TDV Kazvin: 251'de (865) Ali evladı).",
+    "kunye_yok": true
+   },
+   {
+    "f": "0867-01-11",
+    "t": "0905-11-02",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan; TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "ic_not": "TDV Zencan: Mûsâ b. Boğa Zencan ve Kazvin'de tekrar Abbâsî hâkimiyetini kurdu (253/867)."
+   },
+   {
+    "f": "0905-11-02",
+    "t": "0906-10-22",
+    "d": "samani",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "ic_not": "TDV: 293'te (905-906) Sâmânîler'in hâkimiyeti; 'ertesi yıl' Müstevfîler ailesi yönetimi ele geçirdi."
+   },
+   {
+    "f": "0906-10-22",
+    "t": "1029-01-20",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin; TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/musafiriler; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buveyhiler",
+    "ic_not": "TDV Kazvin: Müstevfîler 27 yıl; 304'te (916-17) Esfâr b. Şîreveyh kendini Kazvin hâkimi ilân etti; '318'de (930) Büveyhîler' (TDV iç çelişkisi: TDV Zencan/Ziyârîler aynı yıl Ziyârî Merdâvîc'i gösterir; Büveyhî künyesi 932'de başlar); Müsâfirî İbrâhim b. Merzübân 411'de (1020) Kazvin'i elinde tutar (TDV musafiriler, 'rivayet'); Büveyhî vezir Sâhib b. Abbâd Kazvin kalesinin surlarını onarttı (TDV buveyhiler). Tek sahipli okunamaz → __BOSLUK__ (beyanlı)."
+   },
+   {
+    "f": "1029-01-20",
+    "t": "1040-05-23",
+    "d": "gazneli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "ic_not": "TDV Kazvin: 420'de (1029) Gazneliler'in idaresi. t: Dandanakan (Gazne'nin batı İran'ı kaybı) — Kazvin'e özgü el değiştirme günü yok, BEYAN (bölge olayı)."
+   },
+   {
+    "f": "1040-05-23",
+    "t": "1118-05-06",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "ic_not": "TDV Kazvin: 'Tuğrul Bey zamanında Kazvin’i alan Selçuklular, XI. yüzyılın ortasından XIII. yüzyılın başına kadar' ... Alparslan 455/1063'te Kazvin'de sultan ilân etti (TDV selcuklular). Alış günü yok → Dandanakan ucu BEYAN."
+   },
+   {
+    "f": "1118-05-06",
+    "t": "1194-01-01",
+    "d": "irak-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "ic_not": "Sencer Sâve savaşı sonrası (1119) Kazvin, Zencan, Ebher'i Mahmud'un kardeşi Tuğrul'a tahsis etti (TDV selcuklular) — Irak Selçuklu hanedanı koludur."
+   },
+   {
+    "f": "1194-01-01",
+    "t": "1217-04-10",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan; TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "ic_not": "1194'te Hârizmşah Tekiş II. Tuğrul'u yendi (TDV harizmsahlar) ama Kazvin'e özgü hâkimiyet yok; İldenizli Gökçe Kazvin'i halifeliğe bırakmayı teklif etti (TDV zencan, ~1200'ler). Tek sahip yok → __BOSLUK__ (beyanlı)."
+   },
+   {
+    "f": "1217-04-10",
+    "t": "1220-03-08",
+    "d": "harizmsah",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "ic_not": "TDV Zencan: Muhammed b. Tekiş 614'te (1217-18) Ebher, Kazvin ve Zencan'ı mukavemetsiz topraklarına kattı (hicrî 614 ∩ 1217-18 ilk günü)."
+   },
+   {
+    "f": "1220-03-08",
+    "t": "1253-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "ic_not": "617'de (1220) Moğollar Kazvin ahalisini kılıçtan geçirdi, Türk-Moğol boylarını iskân etti; 651'de (1253) Mengü, İftihârüddin Muhammed'i vali atadı. Atlas 1253-01-01 'mogol-imparatorlugu' ile aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0250-01-01",
+    "gun": "250 civarı",
+    "k": "kurulus",
+    "b": "Sâsânî I. Şâpûr Kazvin'i Deylemîler'e karşı garnizon şehri olarak kurar.",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "tanik": "Sâsânî Hükümdarı I. Şâpûr tarafından milâdî 250 yılına doğru"
+   },
+   {
+    "t": "0644-11-07",
+    "gun": "24 H / 644",
+    "k": "antlasma",
+    "b": "Berâ b. Âzib bir süre kuşattıktan sonra Kazvin'i sulhla alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "tanik": "Berâ b. Âzib tarafından bir süre kuşatıldıktan sonra sulh yoluyla ele geçirildi (24/644)"
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'nin biat alması, 25 Rebîülevvel 41).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)"
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Ebü'l-Abbas'a Kûfe Camii'nde biat; Abbâsî ihtilâli).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "t": "0865-02-02",
+    "gun": "251 H / 865",
+    "k": "isyan",
+    "b": "Kevkebî isyanı Tâhirî âmillerini Zencan ve Kazvin'den atar (Rebîülevvel 251 / Nisan 865).",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "Rebîülevvel 251 (Nisan 865) tarihinde isyan edip Tâhirîler’in Zencan ve Kazvin’deki âmillerini uzaklaştırdı"
+   },
+   {
+    "t": "0867-01-11",
+    "gun": "253 H / 867",
+    "k": "fetih",
+    "b": "Mûsâ b. Boğa Kevkebî'yi yenip Zencan ve Kazvin'de Abbâsî hâkimiyetini geri getirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "Mûsâ, Kevkebî’yi yenerek Zencan ve Kazvin’de tekrar Abbâsî hâkimiyetini tesis etti (253/867)"
+   },
+   {
+    "t": "0905-11-02",
+    "gun": "293 H / 905-906",
+    "k": "fetih",
+    "b": "Kazvin Sâmânîler'in hâkimiyetine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "tanik": "Şehir 251’de (865) Ali evlâdının, 293’te (905-906) Sâmânîler’in hâkimiyeti altına girdi"
+   },
+   {
+    "t": "0906-10-22",
+    "gun": "294 H / 906",
+    "k": "idari",
+    "b": "Müstevfîler ailesi şehrin yönetimini ele geçirir (27 yıl).",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "tanik": "Hamdullah el-Kazvînî’nin mensup olduğu Müstevfîler ailesi şehrin yönetimini ele geçirdi"
+   },
+   {
+    "t": "0916-07-05",
+    "gun": "304 H / 916-17",
+    "k": "diger",
+    "b": "Esfâr b. Şîreveyh Sâcoğulları saldırısını püskürtüp kendini Kazvin hâkimi ilân eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "tanik": "Esfâr b. Şîreveyh kendisini Kazvin hâkimi ilân etti"
+   },
+   {
+    "t": "1029-01-20",
+    "gun": "420 H / 1029",
+    "k": "fetih",
+    "b": "Kazvin Gazneliler'in idaresine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "tanik": "Şehir 318’de (930) Büveyhîler’in, 420’de de (1029) Gazneliler’in idaresine girdi"
+   },
+   {
+    "t": "1040-05-23",
+    "gun": "23 Mayıs 1040",
+    "k": "savas",
+    "b": "Dandanakan'da Selçuklular Gazneliler'i yener; batı İran Selçuklu denetimine geçer (Kazvin'in alışı Tuğrul Bey zamanında, günü yok).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Selçuklular kesin bir zafer kazandı (8 Ramazan 431 Cuma / 23 Mayıs 1040)"
+   },
+   {
+    "t": "1119-09-10",
+    "gun": "2 Cemâziyelâhir 513 / 10 Eylül 1119",
+    "k": "idari",
+    "b": "Sencer Sâve'de Mahmud'u yenince Kazvin'i, Zencan'ı Mahmud'un kardeşi Tuğrul'a tahsis eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Sâve, Âbe, Kazvin, Zencan, Ebher ve daha birçok yeri Sultan Mahmud’un kardeşi Tuğrul’a"
+   },
+   {
+    "t": "1118-05-06",
+    "gun": "6 Mayıs 1118",
+    "k": "diger",
+    "b": "künye geçişi: Büyük Selçuklu → Irak Selçukluları (Mahmud'un sultan ilânı, 13 Muharrem 512).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Muhammed Tapar’ın ölümü üzerine yerine geçen oğlu Mahmud, 13 Muharrem 512’de (6 Mayıs 1118)"
+   },
+   {
+    "t": "1194-01-01",
+    "gun": "1194",
+    "k": "savas",
+    "b": "Hârizmşah Tekiş Rey civarında II. Tuğrul'u yenerek Irak Selçukluları'na son verir; Irak Selçuklu sahipliği biter, şehre özgü devralan belli değil (BOSLUK).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizmsahlar",
+    "tanik": "1194’te Rey civarındaki savaşta II. Tuğrul’u yenerek Irak Selçukluları’na son verip"
+   },
+   {
+    "t": "1217-04-10",
+    "gun": "614 H / 1217-18",
+    "k": "fetih",
+    "b": "Hârizmşah Muhammed b. Tekiş Ebher, Kazvin ve Zencan'ı topraklarına katar.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "614’te (1217-18) hiçbir mukavemetle karşılaşmadan Ebher, Kazvin ve Zencan’ı topraklarına kattı"
+   },
+   {
+    "t": "1220-03-08",
+    "gun": "617 H / 1220",
+    "k": "fetih",
+    "b": "Moğollar Kazvin ahalisini kılıçtan geçirir ve Türk-Moğol boylarını iskân eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "tanik": "617’de (1220) Kazvin ahalisini kılıçtan geçirdiler"
+   },
+   {
+    "t": "1253-01-01",
+    "gun": "651 H / 1253",
+    "k": "idari",
+    "b": "Mengü Kağan İftihârüddin Muhammed'i Kazvin'e vali tayin eder (İftihârîler dönemi başlar).",
+    "kaynak": "TDV İslâm Ansiklopedisi (M. Bazin, Kazvin), https://islamansiklopedisi.org.tr/kazvin",
+    "tanik": "Mengü Kağan 651’de (1253) İftihârüddin Muhammed’i buraya vali tayin ederek"
+   }
+  ],
+  "ic_not": "KAYNAK: TDV Kazvin; TDV Zencan/Selçuklular/Müsâfirîler/Büveyhîler; Iranica'da Kazvin maddesi bulunamadı. Kuruluş tek kaynaklıdır (TDV). BEYAN EDİLEN ZAYIFLIKLAR: 906-1029 boşluk; 1194-1217 boşluk; Gazneli → Selçuklu sınırı bölge olayı (Dandanakan). TDV Kazvin '318 (930) Büveyhîler' der — Büveyhî künyesi 932'de başlar ve TDV Zencan/Ziyârîler aynı yıl Ziyârîleri gösterir; yazıldığı gibi alınmadı. Atlas düzeltme: yok (1253 Moğol, 651/1253 Mengü valisi tanık günü)."
  },
  {
   "id": "kefe",
@@ -4288,6 +5385,63 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "KAYNAK: Treccani EI 1933 \"Kutais\", TDV Gürcüler/Gürcistan, Krukowski Merkezi (Varşova Üniv. - Gürcü ortak kazısı, Bagrati tepesi, 2021-23 sezonları: Geç Tunç/Erken Demir Çağı ahşap-sıva yapılar 13.-10. yy MÖ, altta Proto-Kolhis II ~1700-1400 MÖ). ARK ZİNCİRİ: arkeolojik katman (MÖ ~1700) ile yazılı ilk anılış (IX. yy) arası Kolhis/Pers/Roma/Lazika/Bizans/Abhazya sahipliği Kutaisi'ye özgü kaynaklı olarak BULUNAMADI: zincir IX. yy'dan başlatıldı. ATLAS ÖNERİSİ: atlas 1281'den başlıyor; 1008 öncesi kaynaklı zincir yok. kat1900=2 (Kutaisi guberniyası merkezi; 1900 listesi)."
+ },
+ {
+  "id": "lahican",
+  "ad": "Lâhîcan",
+  "atlas_ad": "Lâhîcan",
+  "lat": 37.2072,
+  "lon": 50.0044,
+  "kat1900": 3,
+  "adlar": [
+   "Lâfcân / Lâfjân (Hudûdü'l-âlem)",
+   "Dârülimâre",
+   "Dârülemân",
+   "Lâhîcânülmübârek",
+   "Lâhîcân"
+  ],
+  "ilk": {
+   "t": "0983-01-01",
+   "gun": "372 H / 982-983",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica, LĀHIJĀN (C. Bromberger), https://www.iranicaonline.org/articles/lahijan/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi (R. Kurtuluş, Lâhîcân), https://islamansiklopedisi.org.tr/lahican; eserin tarihi: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hududul-alem",
+   "tanik": "the Persian geography Ḥodud al-ʿālam, where it is called Lāfjān",
+   "ic_not": "Hudûdü'l-âlem 372 (982-83)'te yazıldı (TDV hududul-alem: '372 (982-83) yılında yazılan'); aralık → güvenli uç 983. Aynı anılış TDV Lâhîcân'da da var ('adı ilk defa Lâfcân şeklinde ... yedi büyük şehirden biri olarak Hudûdü’l-âlem’de'). GELENEK: kuruluşu Lâhîc b. Sâm b. Nûh'a bağlayan efsane — Iranica 'erken Arapça coğrafyalarda atıf yok'. Kuruluş: bulunamadı. Hudûdü'l-âlem metnine ve Minorsky çevirisine doğrudan ulaşılmadı; alıntı Iranica'dandır. Utruş (Hasan el-Utrûş, ö. 304/917) hanedanı ve Kavtum/Kutom dönemi anılıştan ÖNCEDİR ve Lâhîcan'a özgü tarih/yer tanığı yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0983-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, LĀHIJĀN (C. Bromberger), https://www.iranicaonline.org/articles/lahijan/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi (R. Kurtuluş, Lâhîcân), https://islamansiklopedisi.org.tr/lahican",
+    "ic_not": "Gîlân'ın Sefîdrûd doğusundaki Biyâpîş bölgesi X. yy'a dek Deylem hânedanlarına, sonra Utruş (Kavtum) ailesine tâbidir (Iranica; TDV); 'Utruş ailesi siyasî hâkimiyetini IV. (X.) yüzyılın ortalarında kaybetti. Bundan sonra uzun bir süre Lâhîcân’ın tarihinde belirli bir gelişme görülmez' (TDV). Sonraki yerel Nâsırvend emirleri Hülâgû zamanında (1256-1265) Lâhîcan'da emîrdir (TDV) ve İlhanlı sahipliği Lâhîcan için ancak Olcaytu'nun Gîlân seferiyle (706/1306-07, Iranica; TDV Olcaytu: Gîlân zaptı Haziran 1307) kesinleşir. Yerel hanedanların künyesi yok (kunye_yok bile gerekçelendirilemedi: hanedan ömürleri kaynaklı değil) → __BOSLUK__."
+   }
+  ],
+  "dikis_beyan": "Atlas 'ilhanli' 1281-01-01 iddiası KAYNAKSIZ görünüyor: TDV Lâhîcân Hülâgû zamanında (1256-65) Nâsırvend emîrinin Lâhîcan'da oturduğunu (yerel yönetim) söyler; Iranica Lâhîcan: Nâsırvendler Uljāytu'nun birliklerine karşı 706/1306-07'de direndi, düştükten sonra Moğol subayının kızıyla evlenip Gîlân emirleri üzerinde hâkimiyet aldı; TDV Olcaytu: 'Gîlân bölgesinin zaptı (Zilhicce 706 / Haziran 1307)'. 1281 için Lâhîcan'a özgü İlhanlı tanığı bulunamadı; yer tutucu olay yazılmadı.",
+  "olay": [
+   {
+    "t": "0983-01-01",
+    "gun": "372 H / 982-983",
+    "k": "diger",
+    "b": "Lâhîcan adının ilk anılışı: Hudûdü'l-âlem'de Lâfcân, Sefîdrûd–Hazar arasındaki yedi büyük bölgeden biri.",
+    "kaynak": "Encyclopaedia Iranica, LĀHIJĀN (C. Bromberger), https://www.iranicaonline.org/articles/lahijan/ (curl, tam Chrome UA)",
+    "tanik": "the Persian geography Ḥodud al-ʿālam, where it is called Lāfjān"
+   },
+   {
+    "t": "1265-01-01",
+    "gun": "Hülâgû dönemi (1256-1265)",
+    "k": "idari",
+    "b": "Hülâgû zamanında Nâsırvend hânedanından Cemâleddin Su‘lûk Lâhîcan'da emirdir (yerel yönetim).",
+    "kaynak": "TDV İslâm Ansiklopedisi (R. Kurtuluş, Lâhîcân), https://islamansiklopedisi.org.tr/lahican",
+    "tanik": "Nâsırvend hânedanından Cemâleddin Su‘lûk b. Su‘lûk Lâhîcân’da emîr idi"
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica LĀHIJĀN (C. Bromberger), TDV Lâhîcân, TDV Hudûdü'l-âlem, TDV Olcaytu Han. 983-1281 arası şehre özgü tek bir tarihli sahiplik olgusu bulunamadı (merdiven: TDV → Iranica → Hudûdü'l-âlem erişilemedi → EI2 'Lāhidjān' erişilemedi). Hülâgû olayı 1265 = Hülâgû'nun ölüm yılı (aralık sonu); 1256-1265 aralık. ATLAS ÖNERİSİ: 1281 'ilhanli' başlangıcı yerine kaynaklı 1307 (Gîlân fethi) ya da __BOSLUK__ / yerel Nâsırvend."
  },
  {
   "id": "lizbon",
@@ -4829,6 +5983,92 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas 1281'de harita anahtarı 'mantua' (künye mantua 1328-01-01'de başlar) yazıyor; gerçek sahip bonacolsi (künye 1273-1328, harita anahtarı 'bonacolsi'). Atlasın 1281 'mantua' iddiası künyeyle uyumsuz (hayalet): önerilen düzeltme atlas dönemini 'bonacolsi' yapmak. 1281 tarihli ayrı olay YOK.",
   "ic_not": "Atlas Mantova 1281'de 'mantua' ile başlıyor (bkz. dikis_beyan). EI ile Treccani çelişkisi: Longobard fethi Treccani 'dal 601', EI 'presa, perduta e ripresa' (tarihsiz) — Treccani yılı alındı. Çift teyit YOK (Treccani online + EI aynı kurum)."
+ },
+ {
+  "id": "meraga",
+  "ad": "Merâga",
+  "atlas_ad": "Merâga",
+  "lat": 37.3894,
+  "lon": 46.2381,
+  "kat1900": 2,
+  "adlar": [
+   "Efrâzerûd (Afrāzarūd)",
+   "Merâga (Marāḡa)",
+   "Maragheh"
+  ],
+  "ilk": {
+   "t": "0809-01-01",
+   "gun": "Hârûnürreşîd dönemi (786-809)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Merâga), https://islamansiklopedisi.org.tr/meraga; ikinci tanık: G. Le Strange, The Lands of the Eastern Caliphate, Cambridge 1905 (archive.org dli.2015.153590, tam metin) (Yâkūt'a dayanarak: surlar Hârûnürreşîd'de yapıldı, Me'mûn'da onarıldı; OCR metni, birebir alıntı verilmedi)",
+   "tanik": "Hârûnürreşîd zamanında (786-809) Azerbaycan-İrmîniye Valisi Huzeyme b. Hâzım buranın etrafını surlarla çevirtti",
+   "ic_not": "Bu, TDV'nin Merâga için verdiği İLK TARİHLİ olgudur; şehir daha eskidir: TDV 'İslâm öncesi dönemde Azerbaycan’ın askerî ve idarî merkezi' der (tarihsiz) ve Belâzürî/Yakubî kayıtlarına (fetih, s.474/46) atıf yapar — bu kaynaklar bu oturumda AÇILAMADI; Iranica'nın Marāḡa maddesi yok (denendi, 404); EI2 Minorsky 'Marāgha' (Brill) bot engeli/erişilemedi. Aralık verildiği için güvenli uç (809) alındı. Eski ad Efrâzerûd (Yâkūt'tan, TDV). Kuruluş: bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0809-01-01",
+    "t": "0893-03-23",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Merâga), https://islamansiklopedisi.org.tr/meraga",
+    "ic_not": "Nominal Abbâsî egemenliği (vali yönetimi). TDV: Revvâdîler 232 (846-47) civarında Merâga, Erdebil ve Tebriz'e 'hâkim' görünür ama bunlar 'Abbâsîler’in Tebriz valisi' (TDV revvadiler) — ayrı dönem açılmadı. Hâkimiyet el değiştirme günü yok; başlangıç ilk anılış ucundan."
+   },
+   {
+    "f": "0893-03-23",
+    "t": "0929-09-09",
+    "d": "sacogullari",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sacogullari",
+    "ic_not": "f: hicrî 280 ∩ 893 = kesişimin ilk günü (tablo takvimi, Jülyen); t: TDV 'Şâban 317 (Eylül 929)' — Şaban 317'nin 1'i 929-09-09 (tablo takvimi), künye t ile aynı gün. Erdebil'e merkez nakli (Yûsuf, Ebn Havkal/Iranica) bu dönemin içindedir."
+   },
+   {
+    "f": "0929-09-09",
+    "t": "1054-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Merâga), https://islamansiklopedisi.org.tr/meraga; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/revvadiler",
+    "ic_not": "TDV Merâga: 'Abbâsîler’den sonra Merâga sırasıyla Sâcoğulları, Büveyhîler, Deylemîler ve Revvâdîler’in ... hâkimiyetine girdi' — SIRA var, TARİH YOK. Sâcoğulları 929'da biter (TDV sacogullari); Revvâdîler 368/369 (979/980)'de Azerbaycan'ı Müsâfirîler'den alır (TDV musafiriler); Büveyhî/Deylemî dilimlerinin Merâga'ya özgü tarihi bulunamadı (merdiven: TDV → TDV hanedan maddeleri tarandı → Iranica Marāḡa maddesi yok → EI2 erişilemedi). Atlas başlangıcı 1054-01-01'e kadar boşluk."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0809-01-01",
+    "gun": "786-809",
+    "k": "diger",
+    "b": "Hârûnürreşîd döneminde Valisi Huzeyme b. Hâzım Merâga'yı surlarla çevirtir (şehir Bâbek isyanında sığınmacılarla büyür).",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Merâga), https://islamansiklopedisi.org.tr/meraga",
+    "tanik": "Hârûnürreşîd zamanında (786-809) Azerbaycan-İrmîniye Valisi Huzeyme b. Hâzım buranın etrafını surlarla çevirtti"
+   },
+   {
+    "t": "0893-03-23",
+    "gun": "280 H / 893",
+    "k": "fetih",
+    "b": "Muhammed b. Ebü's-Sâc (Sâcoğulları kurucusu) Merâga'yı ele geçirir ve idare merkezi yapar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sacogullari",
+    "tanik": "Merâga’yı ele geçirip (280/893) kendisine idare merkezi yaptı"
+   },
+   {
+    "t": "0929-09-09",
+    "gun": "Şaban 317 / Eylül 929",
+    "k": "diger",
+    "b": "Ebü'l-Müsâfir Feth öldürülür; Sâcoğulları'nın Azerbaycan hâkimiyeti sona erer (künye geçişi).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sacogullari",
+    "tanik": "Onun Şâban 317 (Eylül 929) tarihinde öldürülmesinin ardından Sâcoğulları’nın Azerbaycan’daki hâkimiyeti sona ermiş oldu"
+   },
+   {
+    "t": "1054-01-01",
+    "gun": "446 H / 1054-55",
+    "k": "fetih",
+    "b": "Merâga Selçuklular'ın hâkimiyetine girer (Tuğrul Bey'in Azerbaycan seferi; yerel hükümdarlar itaat eder).",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Merâga), https://islamansiklopedisi.org.tr/meraga; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/revvadiler · TDV revvadiler: 446 (1054) Tuğrul Bey Azerbaycan'a gelir. Atlas 1054-01-01 yıl düzeyinde; TDV 446 H = 1054-04-12 → 1055-04-01 (tablo takvimi), yani atlasın 01-01'i hicrî yılın başlangıcından önce — yıl düzeyinde kabul.",
+    "tanik": "446’da (1054-55) Selçuklular’ın hâkimiyetine girdi"
+   }
+  ],
+  "ic_not": "KAYNAK DURUMU: TDV 'Merâga' (O. G. Özgüdenli) + TDV Sâcoğulları/Revvâdîler/Müsâfirîler (hanedan maddeleri); ikinci tanık Le Strange 1905 (OCR). Iranica'da Marāḡa maddesi YOK (atabakan-e-maraga yalnız 1116-1227 Ahmedîlî atabeglerini kapsar); EI2/Brill erişilemedi. KURULUŞ/İLK İSKÂN: bulunamadı. Sasani öncesi dönem (TDV: 'İslâm öncesi Azerbaycan’ın askerî ve idarî merkezi') tarihsiz; Atropatene/Phraaspa özdeşliği Minorsky'ye atfedilen görüş, bu oturumda birincil kaynaktan açılmadı. Emevî dönemi (Mervân b. Muhammed'in Merâga'da kalışı, 740) yalnız Vikipedi/EI2 ikincil bilgisi — kullanılmadı. Atlas 1054-01-01 'buyuk-selcuklu' iddiası TDV 446 (1054-55) ile uyumlu; önerim: atlas notuna 'TDV revvadiler 446/1054' eklensin."
  },
  {
   "id": "merakes",
@@ -8009,6 +9249,118 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "AÇIK BORÇLAR: (1) 10. yy Oğuz Yabgu iddiası (TDV) doğrulanamadı; (2) 1100 öncesi kuruluş; (3) Hârizmşah ilhakının yılı; (4) Moğol alımı günü (Barthold tam gün vermez; Cüveynî'ye atıf yapar, metin açılmadı); (5) konum farkı 13,7 km. Barthold İngilizce 2. baskı sayfa atıfları OCR başlık işaretlerinden türetilmiş ±1-2 sayfa. TDV Sığnak'ı şehir maddesi olarak İÇERMEZ; yalnız Siğnâkī (Hanefî fakîhi) maddesi nisbe açıklaması taşır."
  },
  {
+  "id": "simnan",
+  "ad": "Simnân",
+  "atlas_ad": "Simnân",
+  "lat": 35.5769,
+  "lon": 53.3972,
+  "kat1900": 2,
+  "adlar": [
+   "Sengser",
+   "Sigsan",
+   "Signan",
+   "Semînâ",
+   "Simnân"
+  ],
+  "ilk": {
+   "t": "0750-01-01",
+   "gun": "Abbâsî ihtilâli (747-750)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi (N. Yıldırım, Simnân), https://islamansiklopedisi.org.tr/simnan (Taberî, VII, 404'e atıfla)",
+   "tanik": "Hasan b. Kahtabe’nin emriyle Hâzim b. Huzeyme tarafından zaptedildiği sırada küçük bir köy durumundaydı",
+   "ic_not": "TDV: Simnân 'Abbâsî ihtilâli günlerinde' Hasan b. Kahtabe'nin emriyle Hâzim b. Huzeyme tarafından zaptedildiğinde 'küçük bir köy' idi (Taberî VII, 404; Taberî'ye doğrudan ulaşılmadı). Yıl verilmez; Abbâsî ihtilâli 747-750 → güvenli uç 750-01-01 (Emevî sonu 750-08-05'ten önce; Abbâsî künye f 749-11-28). GELENEK: Müstevfî'ye göre efsanevî Tahmûras kurdu (Nüzhetü'l-kulûb, s.161). Iranica DĀMḠĀN: Dâmgân Hôşeng'e atfedilir; Simnân'ın Parthia/Hecatompylos ile ilişkisi bu oturumda KAYNAKLANAMADI (TDV 'Partlar döneminde başşehir Şehr-i Sad Derveze' Dâmgân yakınıdır, Simnân değil). Kuruluş: bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0750-01-01",
+    "t": "0941-09-26",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (N. Yıldırım, Simnân), https://islamansiklopedisi.org.tr/simnan; Encyclopaedia Iranica, DĀMḠĀN (C. Adle), https://www.iranicaonline.org/articles/damgan-persian-town/ (curl, tam Chrome UA)",
+    "ic_not": "NOMİNAL Abbâsî (Kūmis eyaletine bağlı yerleşim, TDV). İçindeki yerel katmanlar tarihsiz ve Simnân'a özgü sahip tanığı yok (BEYAN). Gerçek sahipler Tâhirî/Saffârî/Sâmânî/Ziyârî/Kâbûsî olabilir — kaynakla doğrulanamadı. t: 330 (941-42) — Taberistanlı Hasan b. Feyrûzân ed-Deylemî'nin kısa ele geçirişi (süresi bilinmiyor; ayrı dönem AÇILMADI, olay olarak yazıldı); bu uç, bilinen son nominal Abbâsî tanığından sonraki ilk TDV anılışıdır."
+   },
+   {
+    "f": "0941-09-26",
+    "t": "1030-01-09",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (N. Yıldırım, Simnân), https://islamansiklopedisi.org.tr/simnan; Encyclopaedia Iranica, DĀMḠĀN (C. Adle), https://www.iranicaonline.org/articles/damgan-persian-town/ (curl, tam Chrome UA)",
+    "ic_not": "941-42'de Hasan b. Feyrûzân; X. yy'da şehir gelişir (TDV); sahip tek hanedan olarak okunamıyor → __BOSLUK__ (beyanlı)."
+   },
+   {
+    "f": "1030-01-09",
+    "t": "1040-05-23",
+    "d": "gazneli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (N. Yıldırım, Simnân), https://islamansiklopedisi.org.tr/simnan; Encyclopaedia Iranica, DĀMḠĀN (C. Adle), https://www.iranicaonline.org/articles/damgan-persian-town/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "ic_not": "TDV: 'Gazneliler devrinde I. Mesud’un Kūmis valisi Bahtiyâr b. Muhammed ed-Dâmgānî'; Iranica: Mesud I (421-32/1030-41); minare ≤425/1034, 1034'te Dâmgân ve Simnân Gızz Türkleri tarafından yağmalandı; 431/1040 Dandanakan'dan hemen sonra Ebû Harb gücünü yitirdi. f: Mesud I'in saltanatı (421/1030, hicrî ilk gün); t: Dandanakan — Simnân'a özgü Gazneli sonu yok, bölge olayı (BEYAN)."
+   },
+   {
+    "f": "1040-05-23",
+    "t": "1221-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (N. Yıldırım, Simnân), https://islamansiklopedisi.org.tr/simnan",
+    "ic_not": "TDV: VI-VIII. (XII-XIV.) yüzyıllarda Alamut İsmâilîleri ve Bâvendîler bölgede etkili oldu (tarihsiz, Simnân'a özgü sahiplik değil); Selçuklu/Hârizmşah dönemleri kaynaklanamadı → __BOSLUK__ (beyanlı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0750-01-01",
+    "gun": "Abbâsî ihtilâli (747-750)",
+    "k": "fetih",
+    "b": "Hâzim b. Huzeyme, Hasan b. Kahtabe'nin emriyle Simnân'ı zapteder (şehir küçük bir köy).",
+    "kaynak": "TDV İslâm Ansiklopedisi (N. Yıldırım, Simnân), https://islamansiklopedisi.org.tr/simnan",
+    "tanik": "Hasan b. Kahtabe’nin emriyle Hâzim b. Huzeyme tarafından zaptedildiği sırada küçük bir köy durumundaydı"
+   },
+   {
+    "t": "0941-09-26",
+    "gun": "330 H / 941-42",
+    "k": "isgal",
+    "b": "Taberistanlı kumandan Hasan b. Feyrûzân ed-Deylemî Simnân'ı ele geçirir (süre bilinmiyor; dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi (N. Yıldırım, Simnân), https://islamansiklopedisi.org.tr/simnan",
+    "tanik": "330’da (941-42) Taberistanlı kumandan Hasan b. Feyrûzân ed-Deylemî’nin ele geçirdiği şehir"
+   },
+   {
+    "t": "1029-01-20",
+    "gun": "420 H / 1029",
+    "k": "isgal",
+    "b": "Irak Oğuzları Simnân'ı yağmalar (sahiplik değişmez).",
+    "kaynak": "TDV İslâm Ansiklopedisi (N. Yıldırım, Simnân), https://islamansiklopedisi.org.tr/simnan",
+    "tanik": "420’de (1029) Irak Oğuzları tarafından yağmalandıysa da"
+   },
+   {
+    "t": "1030-01-09",
+    "gun": "421 H / 1030",
+    "k": "diger",
+    "b": "Gazneli I. Mesud saltanatı: Kūmis valisi Bahtiyâr b. Muhammed ed-Dâmgānî Simnân'ı mâmur hale getirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi (N. Yıldırım, Simnân), https://islamansiklopedisi.org.tr/simnan",
+    "tanik": "Gazneliler devrinde I. Mesud’un Kūmis valisi Bahtiyâr b. Muhammed ed-Dâmgānî’nin gayretleriyle mâmur hale getirildi"
+   },
+   {
+    "t": "1040-05-23",
+    "gun": "23 Mayıs 1040",
+    "k": "savas",
+    "b": "Dandanakan'da Selçuklular Gazneliler'i yener; Gazneli Kūmis valiliği biter (Iranica: Ebû Harb gücünü yitirir).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Selçuklular kesin bir zafer kazandı (8 Ramazan 431 Cuma / 23 Mayıs 1040)"
+   },
+   {
+    "t": "1221-01-01",
+    "gun": "618 H / 1221",
+    "k": "fetih",
+    "b": "Moğollar Simnân'a girer, şehri yağmalayıp tahrip eder ve çok sayıda kişiyi öldürür.",
+    "kaynak": "TDV İslâm Ansiklopedisi (N. Yıldırım, Simnân), https://islamansiklopedisi.org.tr/simnan",
+    "tanik": "618’de (1221) kerpiç surlarla çevrili Simnân’a giren Moğollar şehri yağmalayıp tahrip ederek"
+   }
+  ],
+  "ic_not": "KAYNAK: TDV Simnân + Iranica DĀMḠĀN (C. Adle; Semnān için ayrı madde yok) + TDV Selçuklular. 1040-1221 arası Simnân'a özgü sahiplik tanığı bulunamadı. Simnân atlasta 1221 Moğol ile başlar; kayıt Moğol alışına dikişlidir (BOSLUK → mogol-imparatorlugu, olay 618/1221). Atlas öneri: 1221-01-01 yıl düzeyinde TDV 618 (1221) ile uyumlu."
+ },
+ {
   "id": "sogut",
   "ad": "Söğüt",
   "atlas_ad": "Söğüt",
@@ -8096,6 +9448,63 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK: şehir atlasın başlangıcından SONRA kuruldu; bu bölgede 1777 öncesi yerleşim kaynağı bulunamadı (Wikipedia/pasport yok). ATLAS DÜZELTME ÖNERİSİ: atlas 1777-01-01 diyor; kaynaklara göre kale 1777-11-02 (Gregoryen) kuruldu → atlas kur/başlangıcı 1777-11-02 olmalı (10 ay erken). Not: ayrı atlas noktası \"Stavropol–Kuma bozkırı\" (44.85 K, 42.6 D) ile 25 km fark. kat1900=2 (Stavropol guberniyası merkezi)."
+ },
+ {
+  "id": "sultaniye",
+  "ad": "Sultâniye",
+  "atlas_ad": "Sultâniye",
+  "lat": 36.4318,
+  "lon": 48.797,
+  "kat1900": 1,
+  "adlar": [
+   "Sultâniye (Solṭānīya)"
+  ],
+  "ilk": {
+   "t": "1306-07-13",
+   "gun": "706 H / 1306-07 (inşaatın başlaması)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica, COURTS AND COURTIERS iv. Under the Mongols (P. Jackson), https://www.iranicaonline.org/articles/courts-and-courtiers-iv/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mogollar",
+   "tanik": "planned by Arḡun (Arḡūn) and begun under Öljeitü in 706/1306-07",
+   "ic_not": "Iranica (Courts and Courtiers iv): Sultâniye 'Arḡun tarafından planlanmış, Öljeitü zamanında 706/1306-07'de başlanmış'; Iranica 'Cities i' Arḡun'u kurucu sayar (aşağıya bak). Hicrî 706 = 1306-07-13 → 1307-07-02 (tablo takvimi, Jülyen); '706/1306-07' için kesişimin ilk günü alındı. TDV Moğollar: 'Olcaytu döneminde ... Sultâniye gibi yeni yerleşim merkezleri kuruldu'. Kuruluş ÖNCESİ yerleşim (Konkur Olang yaylağı vb.) bu oturumda kaynaktan açılmadı: bulunamadı."
+  },
+  "kur": {
+   "t": "1306-07-13",
+   "gun": "706 H / 1306-07",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica, COURTS AND COURTIERS iv. Under the Mongols (P. Jackson), https://www.iranicaonline.org/articles/courts-and-courtiers-iv/ (curl, tam Chrome UA); TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mogollar",
+   "tanik": "planned by Arḡun (Arḡūn) and begun under Öljeitü in 706/1306-07"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1306-07-13",
+    "gun": "706 H / 1306-07",
+    "k": "kurulus",
+    "b": "Sultâniye'nin inşasına Olcaytu döneminde başlanır (planı Argun'a ait).",
+    "kaynak": "Encyclopaedia Iranica, COURTS AND COURTIERS iv. Under the Mongols (P. Jackson), https://www.iranicaonline.org/articles/courts-and-courtiers-iv/ (curl, tam Chrome UA)",
+    "tanik": "planned by Arḡun (Arḡūn) and begun under Öljeitü in 706/1306-07"
+   },
+   {
+    "t": "1306-07-13",
+    "gun": "1306-07 (Olcaytu dönemi)",
+    "k": "kurulus",
+    "b": "TDV: Olcaytu döneminde Sultâniye gibi yeni yerleşim merkezleri kurulur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mogollar",
+    "tanik": "Olcaytu döneminde Rab‘ıreşîdî ve Sultâniye gibi yeni yerleşim merkezleri kuruldu"
+   },
+   {
+    "t": "1316-12-13",
+    "gun": "27 Ramazan 716 / 13 Aralık 1316",
+    "k": "taht",
+    "b": "İlhanlı hükümdarı Olcaytu Sultâniye'de ölür; yaptırdığı türbeye defnedilir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/olcaytu-han",
+    "tanik": "27 Ramazan 716 (13 Aralık 1316) tarihinde Sultâniye’de vefat eden Olcaytu"
+   }
+  ],
+  "ic_not": "Zincir YAZILMADI (sahip: []): şehir atlasın başlangıcından (1305-01-01) SONRA kurulmuş görünüyor — denetim 'atlas başlangıcı düzeltilmeli' uyarısı verir. ATLAS DÜZELTME ÖNERİSİ: atlas kur/ilk dönem 1305-01-01 yerine en erken 1306-07-13 (Iranica: inşaat 706/1306-07'de başladı); atlas kd: 1305-1335 de aynı yönde gözden geçirilmeli. Sahip İlhanlı Devleti'dir (künye ilhanli 1256-1353; TDV Olcaytu: hükümdar Sultâniye'de ölür). Iranica'nın ayrı bir SOLṬĀNIYA maddesi bulunamadı (arama ve slug denemeleri 404); CITIES i ve COURTS AND COURTIERS iv içindeki geçişler kullanıldı."
  },
  {
   "id": "susa",
@@ -8962,6 +10371,242 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ilk_anilis: Livy/Princeton MÖ 193; kuruluş tanığı yok (TDV: Tunç devri, tarihsiz). Çelişkiler: (1) TDV 'milâttan sonra 193’te Roma hâkimiyeti' ↔ Princeton/Livy MÖ 193; (2) Treccani Toledo bağımsızlığı 886'dan ≈ ↔ TDV 896-932; (3) Toledo günü: TDV yalnız 478/1085, Treccani 25 Mayıs 1085, künye 1085-05-08, atlas 1085-01-01. Çift teyit: Vizigot başşehri (TDV + Treccani aynı yüzyıl), Müslüman fethi 711/712 (TDV 93/712 ↔ Treccani 711: yıl çelişkisi, TDV esas). Zincir atlas ilk gününde (1085-01-01 Kastilya) biter."
  },
  {
+  "id": "urmiye",
+  "ad": "Urmiye",
+  "atlas_ad": "Urmiye",
+  "lat": 37.553,
+  "lon": 45.076,
+  "kat1900": 2,
+  "adlar": [
+   "Rûmiye / Urûmiye (Arap kaynakları)",
+   "Urmiye",
+   "Rızâiye (1935-1979 resmî adı)"
+  ],
+  "ilk": {
+   "t": "0644-01-01",
+   "gun": "Ömer dönemi (634-644)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye (Belâzürî, Fütûh s.475'e atıfla)",
+   "tanik": "Hz. Ömer zamanında Ezd kabilesi âzatlılarından Sadaka b. Ali b. Sadaka tarafından fethedildi",
+   "ic_not": "TDV'nin verdiği TARİHLİ ilk olgu Arap fethidir (Hz. Ömer, 634-644; yıl verilmez) → aralığın güvenli ucu 644. Şehir öncesi: TDV 'çeşitli arkeolojik kalıntılar bölgede yerleşik hayatın çok eskilere uzandığını gösterir' (tarihsiz); eski İslâm kaynakları Urmiye'yi Zerdüşt'ün doğum yeri sayar (GELENEK); Iranica AZARBAIJAN ii: 'Urmia'nın İslâm öncesi kökeni kesin kabul edilebilir' (kanıt yok), Se Gonbad kümbeti 1180 tarihli (tek tarihli erken yapı). Urartu/Asur nüfuz alanı bölge cümlesi, şehre özgü değil. Kuruluş: bulunamadı. Şehir adı Urmiye gölüne verilir; göl kıyısı şehri ile antik yerleşim aynı mı belirsiz (3 km kuralı denetlenemedi)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0644-01-01",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye"
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/emeviler"
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0957-04-04",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "ic_not": "NOMİNAL Abbâsî (yerel katmanlar tarihsiz). t: TDV 'IV. (X.) yüzyılın ortalarında Cüstân b. Şermezen’in egemenliğine girdi' + Merzübân'ın 346 (957)'daki ölümü bağlamı; yaklaşık (BEYAN)."
+   },
+   {
+    "f": "0957-04-04",
+    "t": "1063-01-04",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/revvadiler",
+    "ic_not": "TDV: Cüstân b. Şermezen; Deylemli Merzübân'ın 346 (957) ölümü sonrası oğlu Cüstân'ın hâkimiyetini tanımadı, 349'da (960) surları güçlendirdi, Deylemîler'e yenildi; V. yy ikinci çeyreğinde Hezbânî Kürt Ebü'l-Heycâ b. Rebîbüddevle; 432'de (1040-41) Vehsûdân er-Revvâdî Oğuzlar'ı öldürdü. Revvâdî/Hezbânî bağlılık ilişkisi tarihli değil → __BOSLUK__ (beyanlı)."
+   },
+   {
+    "f": "1063-01-04",
+    "t": "1118-05-06",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "ic_not": "TDV: 'Urmiye ve çevresi XI. yüzyılın ortalarında Büyük Selçuklu Devleti’ne bağlandı'; Tuğrul Bey Muharrem 455 (Ocak 1063)'te Urmiye'den Bağdat'a hareket etti → f en geç tanık (1063-01-04), BEYAN."
+   },
+   {
+    "f": "1118-05-06",
+    "t": "1189-02-19",
+    "d": "irak-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "ic_not": "TDV: 544'te (1149) Melik Muhammed b. Mahmûd b. Muhammed Tapar'ın hâkimiyetinde; 585'te (1189) II. Tuğrul Urmiye'yi yağmaladı (Irak Selçuklu hanedanı)."
+   },
+   {
+    "f": "1189-02-19",
+    "t": "1205-08-18",
+    "d": "ildenizli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "ic_not": "TDV: 'XII. yüzyılın son çeyreğinde Selçuklu hâkimiyetinin zayıflaması üzerine Azerbaycan Atabegleri’nin egemenliğine girdi'. f: 585'te (1189) Atabeg Kızılarslan'ın II. Tuğrul'a karşı harekete geçişi (hicrî 585 ∩ 1189 ilk günü) — aralığın (1176-1200) içinde, BEYAN."
+   },
+   {
+    "f": "1205-08-18",
+    "t": "1207-07-28",
+    "d": "ahmedili",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye; TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Merâga), https://islamansiklopedisi.org.tr/meraga",
+    "ic_not": "İbnü'l-Esîr'e göre Atabeg Ebû Bekir 602'de (1205-06) Merâga'ya karşılık Uşnu ve Urmiye'yi Atabeg Alâeddin'e (Ahmedîlî Körpearslan) verdi (TDV Urmiye); Körpearslan 604'te (1207-08) öldü (TDV Merâga) → ahmedili dönemi kısa."
+   },
+   {
+    "f": "1207-07-28",
+    "t": "1225-07-01",
+    "d": "ildenizli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "ic_not": "Körpearslan'ın ölümünden sonra İldenizli (Ahmedîlî toprakları Atabeg Ebû Bekir'e geçti: TDV Merâga 605/1208-09). Yâkūt 617'de (1220) Urmiye'de Atabeg Muzafferüddin Özbek'in zaaflarını anlatır (ildenizli). t: Celâleddin'in Temmuz 1225'te Azerbaycan'ı alışı (TDV Merâga/Celâleddin)."
+   },
+   {
+    "f": "1225-07-01",
+    "t": "1231-01-01",
+    "d": "harizmsah",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye; TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Merâga), https://islamansiklopedisi.org.tr/meraga",
+    "ic_not": "TDV Urmiye: 'Moğollar’ın önünden Azerbaycan’a çekilen Celâleddin Hârizmşah’ın hâkimiyetine girdi'; 628 (1230) kışını Urmiye ve Uşnu'da geçirdi, Urmiye, Selmâs ve Hoy'u Selçuklu hanedanından hanımına verdi. Urmiye'ye özgü alış günü yok; TDV Merâga'daki 'Temmuz 1225' bölge tarihi alındı, BEYAN."
+   },
+   {
+    "f": "1231-01-01",
+    "t": "1256-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "ic_not": "Celâleddin 1231'de ölünce Urmiye'nin sahibi kaynakta yok (Moğol ele geçirişi Urmiye için tarihsiz; Merâga ikinci Moğol alışı 628/1231 bölge olayı). __BOSLUK__ (beyanlı)."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ilhanlilar; TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "ic_not": "Moğol → İlhanlı ardıl yapı geçişi; künye günü devralındı (kaynaksız gün). Atlas 1281-01-01 'ilhanli' ile aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0644-01-01",
+    "gun": "Ömer dönemi (634-644)",
+    "k": "fetih",
+    "b": "Sadaka b. Ali b. Sadaka Urmiye'yi fetheder (Belâzürî s.475).",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "tanik": "Hz. Ömer zamanında Ezd kabilesi âzatlılarından Sadaka b. Ali b. Sadaka tarafından fethedildi"
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'nin biat alması, 25 Rebîülevvel 41).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)"
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Ebü'l-Abbas'a Kûfe Camii'nde biat; Abbâsî ihtilâli).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "t": "0957-04-04",
+    "gun": "346 H / 957",
+    "k": "diger",
+    "b": "Urmiye, Cüstân b. Şermezen'in egemenliğine girer (IV. yüzyıl ortası); Merzübân'ın ölümü 346 (957).",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "tanik": "Urmiye IV. (X.) yüzyılın ortalarında Cüstân b. Şermezen’in egemenliğine girdi"
+   },
+   {
+    "t": "1040-09-11",
+    "gun": "432 H / 1040-41",
+    "k": "diger",
+    "b": "Vehsûdân er-Revvâdî Oğuzlar'dan birçok kişiyi öldürür; Urmiye'deki Oğuzlar Hakkâri'ye gider (Hezbânî Ebü'l-Heycâ'nın egemenliği).",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "tanik": "Ebü’l-Heycâ’nın Tebriz hâkimi olan dayısı Vehsûdân er-Revvâdî’nin 432 (1040-41) yılında Oğuzlar’dan birçok kişiyi öldürmesi"
+   },
+   {
+    "t": "1063-01-04",
+    "gun": "Muharrem 455 / Ocak 1063",
+    "k": "diger",
+    "b": "Tuğrul Bey Halife Kāim'in kızıyla evlenmek için Urmiye'den Bağdat'a hareket eder (Urmiye'nin Selçuklu üssü olduğunun en geç tanığı).",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "tanik": "Muharrem 455’te (Ocak 1063) Urmiye’den Bağdat’a hareket etti"
+   },
+   {
+    "t": "1118-05-06",
+    "gun": "6 Mayıs 1118",
+    "k": "diger",
+    "b": "künye geçişi: Büyük Selçuklu → Irak Selçukluları (Mahmud'un sultan ilânı, 13 Muharrem 512).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Muhammed Tapar’ın ölümü üzerine yerine geçen oğlu Mahmud, 13 Muharrem 512’de (6 Mayıs 1118)"
+   },
+   {
+    "t": "1149-05-11",
+    "gun": "544 H / 1149",
+    "k": "diger",
+    "b": "Urmiye Irak Selçuklu şehzadesi Melik Muhammed b. Mahmûd'un hâkimiyetinde görülür.",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "tanik": "Şehir, 544’te (1149) Melik Muhammed b. Mahmûd b. Muhammed Tapar’ın hâkimiyetinde bulunuyordu"
+   },
+   {
+    "t": "1189-02-19",
+    "gun": "585 H / 1189",
+    "k": "savas",
+    "b": "II. Tuğrul Uşnu, Selmâs, Hoy ve Urmiye'yi yağmalar; Atabeg Kızılarslan harekete geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "tanik": "585’te (1189) Emîr İzzeddin Hasan b. Kıpçak’ın yardımıyla Uşnu, Selmâs, Hoy ve Urmiye’yi yağmalaması"
+   },
+   {
+    "t": "1205-08-18",
+    "gun": "602 H / 1205-06",
+    "k": "antlasma",
+    "b": "Atabeg Ebû Bekir Merâga'ya karşılık Uşnu ve Urmiye'yi Atabeg Alâeddin'e verir.",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "tanik": "Atabeg Ebû Bekir’in 602 (1205-1206) yılında Merâga’ya karşılık Uşnu ve Urmiye’yi Atabeg Alâeddin’e verdiğini"
+   },
+   {
+    "t": "1207-07-28",
+    "gun": "604 H / 1207-08",
+    "k": "taht",
+    "b": "Ahmedîlî Alâeddin Körpearslan ölür; Atabeg Ebû Bekir Merâga'nın kalan topraklarını alır (605/1208-09).",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Merâga), https://islamansiklopedisi.org.tr/meraga",
+    "tanik": "Atabeg Ebû Bekir 605’te (1208-1209) Merâga’nın geri kalan topraklarını da zaptetti"
+   },
+   {
+    "t": "1225-07-01",
+    "gun": "Temmuz 1225",
+    "k": "fetih",
+    "b": "Celâleddin Hârizmşah Azerbaycan'ı alır; Urmiye bu tarihten kısa süre sonra Hârizmşah hâkimiyetine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (O. G. Özgüdenli, Urmiye), https://islamansiklopedisi.org.tr/urmiye",
+    "tanik": "Moğollar’ın önünden Azerbaycan’a çekilen Celâleddin Hârizmşah’ın hâkimiyetine girdi"
+   },
+   {
+    "t": "1231-01-01",
+    "gun": "1231",
+    "k": "diger",
+    "b": "künye geçişi: Celâleddin Hârizmşah Âmid önünde Moğol baskınıyla ölür; Hârizmşah künyesi biter (Urmiye'nin 1231-1256 sahibi bilinmiyor).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/celaleddin-harizmsah",
+    "tanik": "Aras-Eleşkirt-Malazgirt-Hani yolunu takip ederek Âmid önüne geldi (1231)"
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → İlhanlı Devleti (Hülâgû'nun İran'da ilhanlığı kurması).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ilhanlilar",
+    "tanik": "başşehri Tebriz olmak üzere İran’da kurulan (1256)"
+   }
+  ],
+  "ic_not": "KAYNAK: TDV Urmiye (O. G. Özgüdenli, c.42, 2012) + TDV Merâga/Revvâdîler/Celâleddin; Iranica'da Urmia şehri maddesi yok (URMIA, LAKE göl maddesi; AZARBAIJAN ii/iii bölge). KURULUŞ: bulunamadı. 957-1063 __BOSLUK__ ve 1231-1256 __BOSLUK__ beyanlıdır. Merdiven: TDV → TDV hanedan maddeleri → Iranica → (ulaşılamayan: EI2 'Urmiya', Minorsky). Atlas düzeltme: yok (1281 İlhanlı uyumlu; atlas notundaki 1585-1603 Osmanlı d: dönemi bu dosyada yok)."
+ },
+ {
   "id": "valladolid",
   "ad": "Valladolid",
   "atlas_ad": "Valladolid",
@@ -9609,5 +11254,376 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Zaragoza kuruluşu TDV'ye göre MÖ 24 (Roma kolonisi, Salduba üstünde). Çok dilli ek kaynak: Strabon (Loeb, LacusCurtius) 'Caesar Augusta' adını verir; Princeton Encyclopedia of Classical Sites 'Caesaraugusta' maddesi Perseus 503 verdi (açılamadı). Dönem sınırı notları: Vizigot 466 (Isidorus) ↔ Treccani ≈470; Hûdî başlangıcı hicrî 431 kesişimi 1039-09-23 (TDV 'Hûdîler hânedanı 431/1039'). Zincir atlas ilk gününde (1110-01-01 Murâbıt) biter. Çift teyit YOK."
+ },
+ {
+  "id": "zencan",
+  "ad": "Zencan",
+  "atlas_ad": "Zencan",
+  "lat": 36.673,
+  "lon": 48.478,
+  "kat1900": 2,
+  "adlar": [
+   "Şâhin (Sâsânî adı)",
+   "Zengân / Zendegân / Zendigân",
+   "Zencan"
+  ],
+  "ilk": {
+   "t": "0241-01-01",
+   "gun": "I. Erdeşîr dönemi (224-241)",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan; Ardaşîr I saltanat yılı: Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+   "tanik": "Sâsânîler’den Erdeşîr-i Bâbekân tarafından Şâhin adıyla tesis edilmiş",
+   "ic_not": "TDV kuruluşu I. Ardaşîr'e (Erdeşîr-i Bâbekân) verir ve yılını vermez; saltanat aralığı Iranica ECBATANA'dan 'Ardašīr I (224-41)' → güvenli uç 241 (aralık). Kuruluş iddiası tek kaynaklı (TDV); Iranica'da Zencan maddesi bulunamadı (slug denemeleri 404). İkinci tanık yok."
+  },
+  "kur": {
+   "t": "0241-01-01",
+   "gun": "224-241",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan; Ardaşîr I saltanat yılı: Encyclopaedia Iranica, ECBATANA (S. C. Brown, VIII/1, 1997), https://www.iranicaonline.org/articles/ecbatana/ (curl, tam Chrome UA)",
+   "tanik": "Sâsânîler’den Erdeşîr-i Bâbekân tarafından Şâhin adıyla tesis edilmiş"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0241-01-01",
+    "t": "0645-01-01",
+    "d": "sasani",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "ic_not": "t: TDV 'Zencan, 24 (645) yılında Berâ b. Âzib kumandasındaki İslâm orduları tarafından Ebher ve Kazvin’den sonra fethedildi'."
+   },
+   {
+    "f": "0645-01-01",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan"
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/emeviler"
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0865-04-02",
+    "d": "abbasi",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "ic_not": "TDV: Bâbek Zencan-Erdebil arasını tahrip edince Mu'tasım Afşin'i gönderdi; 'III. yy ilk yarısında Tâhirîler’in egemenliği' (tarihsiz — dönem açılmadı); t: Rebîülevvel 251 (Nisan 865) Kevkebî isyanı (ay; tablo takvimi 865-04-02)."
+   },
+   {
+    "f": "0865-04-02",
+    "t": "0867-01-11",
+    "d": "kevkebi-isyani",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "ic_not": "Ali evladından Hüseyin b. Ahmed el-Kevkebî isyanı (865-867). Künye YOK; önerilen id: kevkebi-isyani.",
+    "kunye_yok": true
+   },
+   {
+    "f": "0867-01-11",
+    "t": "0916-07-05",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "ic_not": "NOMİNAL Abbâsî (iç katmanlar): Mu'temid 261/874-75'te kardeşi Muvaffak'ı Meşrik valisi, 281'de (894-95) Mu'tazıd oğlu Ali'yi Zencan valisi yaptı; Müktefî Sâmânî İsmâil b. Ahmed'e Rey, Kazvin, Zencan'ı bağladı (tarihsiz). t: 304 (916-17) Sâcoğulları Yûsuf Sâmânî valisini Rey ve Zencan'dan uzaklaştırdı."
+   },
+   {
+    "f": "0916-07-05",
+    "t": "0928-02-25",
+    "d": "sacogullari",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sacogullari",
+    "ic_not": "Yûsuf b. Ebü's-Sâc: 307'de (919) Mûnis'e yenildi, 310 (Mayıs 922)'de halife onu Rey, Kazvin, Ebher, Zencan ve Azerbaycan valisi atadı; 311 (924) Sâmânî valisini Ebher-Zencan arasında yendi — Abbâsî tayinli Sâcî hâkimiyeti, kesintili (BEYAN)."
+   },
+   {
+    "f": "0928-02-25",
+    "t": "0930-02-03",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "ic_not": "316 (928): Hasan b. Kāsım el-Alevî Ebher, Kum, Kazvin ve Zencan'ı zaptetti; aynı yıl Deylemli Esfâr b. Şîreveyh'in kumandanı Merdâvîc'in karşı seferiyle Zencan Esfâr'ın eline geçti — iki yıllık çekişmeli dönem (Alevî → Esfâr), künye yok → __BOSLUK__."
+   },
+   {
+    "f": "0930-02-03",
+    "t": "0941-01-01",
+    "d": "ziyari",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ziyariler",
+    "ic_not": "TDV Zencan: Ziyârî Merdâvîc b. Ziyâr 318'de (930) Esfâr'ı yenip Zencan'a hâkim oldu. 329-330'da (940-41) Sâmânî kumandan Ebû Ali Zencan, Ebher, Kazvin'i aldı (kısa; dönem açılmadı)."
+   },
+   {
+    "f": "0941-01-01",
+    "t": "0957-01-01",
+    "d": "musafiri",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/musafiriler",
+    "ic_not": "TDV Zencan: 'Zencan, 941-957 yılları arasında hüküm süren Vehsûdân b. Muhammed döneminde Müsâfirîler’in idaresindeydi'."
+   },
+   {
+    "f": "0957-01-01",
+    "t": "0997-01-14",
+    "d": "buveyhi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "ic_not": "TDV Zencan: 'Daha sonra Büveyhî hâkimiyeti altına girdi'; Rüknüddevle'nin 366'daki (976) ölümü sonrası oğlu Fahrüddevle Ali'nin egemenliğinde. f Müsâfirî dönemi sonu (957) — Büveyhî alışı günü kaynakta yok, BEYAN."
+   },
+   {
+    "f": "0997-01-14",
+    "t": "1029-09-13",
+    "d": "musafiri",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/musafiriler",
+    "ic_not": "Fahrüddevle'nin ölümü (387/997) sonrası Zencan tekrar Müsâfirîler'in eline geçti (Sellâr İbrâhim b. Merzübân aynı yıl Zencan, Ebher'i aldı)."
+   },
+   {
+    "f": "1029-09-13",
+    "t": "1040-05-23",
+    "d": "gazneli",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "ic_not": "TDV Zencan: Ramazan 420 / Eylül 1029 Zencan Gazneliler'in hâkimiyetine girdi. t: Dandanakan (1040) — Zencan'a özgü Gazneli sonu yok, bölge olayı (BEYAN)."
+   },
+   {
+    "f": "1040-05-23",
+    "t": "1118-05-06",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "ic_not": "TDV Zencan: Tuğrul Bey 'Dandanakan Savaşı’nın (1040) ardından' Yâkūtî'ye Ebher, Zencan ve Azerbaycan'ı verdi; 434'te (1042-43) Zencan'da karargâh."
+   },
+   {
+    "f": "1118-05-06",
+    "t": "1194-01-01",
+    "d": "irak-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "ic_not": "Zencan, Sâve, Âve Tuğrul b. Muhammed Tapar'a iktâ (519/1125); 525/1131'de Melik Dâvûd Hemedan'dan Zencan'a geldi; 572/1177'de Arslanşah Zencan'da hastalandı (TDV zencan) — Irak Selçuklu hanedanı."
+   },
+   {
+    "f": "1194-01-01",
+    "t": "1211-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "ic_not": "TDV Zencan: Hârizmşah ordusu Zencan yakınında İldenizli Kutluğ İnanç'ı yendi (591/1195); 602'de (1205-06) şehir hâkimi Aydoğmuş; Gökçe'nin teklifi (Zencan halifeliğe) — tek sahip yok → __BOSLUK__ (beyanlı)."
+   },
+   {
+    "f": "1211-01-01",
+    "t": "1217-04-10",
+    "d": "alamut-nizari",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "ic_not": "TDV Zencan: Halife Nâsır, İldenizli Özbek ve Alamut hâkimi Celâleddin Hasan ittifakı Hârizmli Mengli'yi yendikten sonra 'Zencan’ın idaresini Celâleddin Hasan’a bıraktılar (607/1211)' — iktâ/vali devri (BEYAN)."
+   },
+   {
+    "f": "1217-04-10",
+    "t": "1220-03-08",
+    "d": "harizmsah",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "ic_not": "Muhammed b. Tekiş 614'te (1217-18) Ebher, Kazvin ve Zencan'ı mukavemetsiz kattı; sonra Celâleddin'in memurları idare etti (Cüveynî)."
+   },
+   {
+    "f": "1220-03-08",
+    "t": "1256-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "ic_not": "617'de (1220) Moğol istilâsı (TDV); ilhanlı Zencan yıllık geliri 12.000 dinar."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ilhanlilar",
+    "ic_not": "Moğol → İlhanlı ardıl yapı geçişi; künye günü devralındı (kaynaksız gün). Atlas 1281-01-01 'ilhanli' ile aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0241-01-01",
+    "gun": "224-241",
+    "k": "kurulus",
+    "b": "Sâsânî I. Ardaşîr (Erdeşîr-i Bâbekân) Zencan'ı Şâhin adıyla kurar.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "Sâsânîler’den Erdeşîr-i Bâbekân tarafından Şâhin adıyla tesis edilmiş"
+   },
+   {
+    "t": "0645-01-01",
+    "gun": "24 H / 645",
+    "k": "fetih",
+    "b": "Berâ b. Âzib komutasındaki İslâm orduları Zencan'ı Ebher ve Kazvin'den sonra fetheder.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "24 (645) yılında Berâ b. Âzib kumandasındaki İslâm orduları tarafından Ebher ve Kazvin’den sonra fethedildi"
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'nin biat alması, 25 Rebîülevvel 41).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)"
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Ebü'l-Abbas'a Kûfe Camii'nde biat; Abbâsî ihtilâli).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "t": "0865-04-02",
+    "gun": "Rebîülevvel 251 / Nisan 865",
+    "k": "isyan",
+    "b": "Kevkebî isyanı Tâhirî âmillerini Zencan ve Kazvin'den atar.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "Rebîülevvel 251 (Nisan 865) tarihinde isyan edip Tâhirîler’in Zencan ve Kazvin’deki âmillerini uzaklaştırdı"
+   },
+   {
+    "t": "0867-01-11",
+    "gun": "253 H / 867",
+    "k": "fetih",
+    "b": "Mûsâ b. Boğa Kevkebî'yi yenip Zencan ve Kazvin'de Abbâsî hâkimiyetini geri getirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "Mûsâ, Kevkebî’yi yenerek Zencan ve Kazvin’de tekrar Abbâsî hâkimiyetini tesis etti (253/867)"
+   },
+   {
+    "t": "0916-07-05",
+    "gun": "304 H / 916-17",
+    "k": "fetih",
+    "b": "Sâcoğulları'ndan Yûsuf Sâmânî valisini Rey ve Zencan'dan uzaklaştırır.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "Sâcoğulları’ndan Yûsuf b. Ebü’s-Sâc, Sâmânî Valisi Muhammed b. Ali b. Su‘lûk’ü Rey ve Zencan’dan uzaklaştırdı"
+   },
+   {
+    "t": "0928-02-25",
+    "gun": "316 H / 928",
+    "k": "fetih",
+    "b": "Hasan b. Kāsım el-Alevî Ebher, Kum, Kazvin ve Zencan'ı zaptetti.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "Hasan b. Kāsım el-Alevî Ebher, Kum, Kazvin ve Zencan’ı zaptetti"
+   },
+   {
+    "t": "0930-02-03",
+    "gun": "318 H / 930",
+    "k": "fetih",
+    "b": "Ziyârî Merdâvîc b. Ziyâr Esfâr'ı yenip Zencan'a hâkim olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "318’de (930) Ziyârîler hânedanından Merdâvîc b. Ziyâr, Esfâr’ı mağlûp ederek Zencan’a hâkim oldu"
+   },
+   {
+    "t": "0941-01-01",
+    "gun": "941-957",
+    "k": "diger",
+    "b": "Zencan, Vehsûdân b. Muhammed dönemi Müsâfirîler'in idaresine geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "Zencan, 941-957 yılları arasında hüküm süren Vehsûdân b. Muhammed döneminde Müsâfirîler’in idaresindeydi"
+   },
+   {
+    "t": "0957-01-01",
+    "gun": "957 sonrası",
+    "k": "diger",
+    "b": "Zencan Büveyhî hâkimiyetine girer (günü yok; Vehsûdân'ın dönemi biter).",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "Daha sonra Büveyhî hâkimiyeti altına girdi"
+   },
+   {
+    "t": "0997-01-14",
+    "gun": "387 H / 997",
+    "k": "diger",
+    "b": "Fahrüddevle ölür; Zencan tekrar Müsâfirîler'in eline geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "Fahrüddevle’nin ölümünden (387/997) sonra Zencan tekrar Müsâfirîler’in eline geçti"
+   },
+   {
+    "t": "1029-09-13",
+    "gun": "Ramazan 420 / Eylül 1029",
+    "k": "fetih",
+    "b": "Sellâr İbrâhim yenilir; Zencan Gazneliler'in hâkimiyetine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "böylece Zencan Gazneliler’in hâkimiyetine girdi (Ramazan 420 / Eylül 1029)"
+   },
+   {
+    "t": "1040-05-23",
+    "gun": "23 Mayıs 1040",
+    "k": "savas",
+    "b": "Dandanakan'da Selçuklular Gazneliler'i yener; ardından Tuğrul Zencan'ın idaresini Yâkūtî'ye verir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Selçuklular kesin bir zafer kazandı (8 Ramazan 431 Cuma / 23 Mayıs 1040)"
+   },
+   {
+    "t": "1040-05-23",
+    "gun": "1040 sonrası",
+    "k": "idari",
+    "b": "Dandanakan sonrası Tuğrul Bey, Yâkūtî'ye Ebher, Zencan ve Azerbaycan'ın idaresini verir.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "Dandanakan Savaşı’nın (1040) ardından Çağrı Bey’in oğlu Yâkūtî’ye Ebher, Zencan ve Azerbaycan’ın idaresini verdi"
+   },
+   {
+    "t": "1118-05-06",
+    "gun": "6 Mayıs 1118",
+    "k": "diger",
+    "b": "künye geçişi: Büyük Selçuklu → Irak Selçukluları (Mahmud'un sultan ilânı, 13 Muharrem 512).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Muhammed Tapar’ın ölümü üzerine yerine geçen oğlu Mahmud, 13 Muharrem 512’de (6 Mayıs 1118)"
+   },
+   {
+    "t": "1194-01-01",
+    "gun": "1194",
+    "k": "savas",
+    "b": "Hârizmşah Tekiş Rey civarında II. Tuğrul'u yenerek Irak Selçukluları'na son verir; Irak Selçuklu sahipliği biter, şehre özgü devralan belli değil (BOSLUK).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizmsahlar",
+    "tanik": "1194’te Rey civarındaki savaşta II. Tuğrul’u yenerek Irak Selçukluları’na son verip"
+   },
+   {
+    "t": "1195-01-01",
+    "gun": "591 H / 1195",
+    "k": "savas",
+    "b": "Hârizmşah ordusu Zencan yakınında İldenizli Kutluğ İnanç'ı yener.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "Savaş Kutluğ İnanç’ın yenilgisiyle sonuçlandı (591/1195)"
+   },
+   {
+    "t": "1211-01-01",
+    "gun": "607 H / 1211",
+    "k": "idari",
+    "b": "Halife Nâsır, İldenizli Özbek ve Alamut hâkimi ittifakı Zencan'ın idaresini Celâleddin Hasan'a bırakır.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "Zencan’ın idaresini Celâleddin Hasan’a bıraktılar (607/1211)"
+   },
+   {
+    "t": "1217-04-10",
+    "gun": "614 H / 1217-18",
+    "k": "fetih",
+    "b": "Hârizmşah Muhammed b. Tekiş Ebher, Kazvin ve Zencan'ı topraklarına katar.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "614’te (1217-18) hiçbir mukavemetle karşılaşmadan Ebher, Kazvin ve Zencan’ı topraklarına kattı"
+   },
+   {
+    "t": "1220-03-08",
+    "gun": "617 H / 1220",
+    "k": "fetih",
+    "b": "Zencan Moğol istilâsına uğrar.",
+    "kaynak": "TDV İslâm Ansiklopedisi (A. Özaydın, Zencan), https://islamansiklopedisi.org.tr/zencan",
+    "tanik": "617’de (1220) şehir Moğol istilâsına mâruz kaldı"
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → İlhanlı Devleti (Hülâgû'nun İran'da ilhanlığı kurması).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ilhanlilar",
+    "tanik": "başşehri Tebriz olmak üzere İran’da kurulan (1256)"
+   }
+  ],
+  "ic_not": "KAYNAK: TDV Zencan (en ayrıntılı tek kaynak) + TDV hanedan maddeleri (Sâcoğulları, Müsâfirîler, Ziyârîler, Selçuklular, Harizmşahlar). Iranica'da Zencan maddesi yok. Kuruluş ve tüm erken zincir TDV tek-kaynaklı; Sasani öncesi bulunamadı. BEYANLI: 928-930 (Alevî/Esfâr) __BOSLUK__; 1194-1211 __BOSLUK__; 1211-1217 Alamut iktâsı (alamut-nizari künyesi ile). 'Tahiri' dönemi (III. yy ilk yarısı) tarihsiz — dönem açılmadı (tahiri-horasan künyesi var ama boyasız, tarih eksik)."
  }
 ];
