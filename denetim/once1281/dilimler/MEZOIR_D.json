@@ -1,0 +1,264 @@
+[
+ {
+  "id": "dabuyiler",
+  "ad": "Dâbûyîler (Gîlânşâhlar / Dabuyid İsbehbedleri)",
+  "tur": "hanedanlik",
+  "bolge": "iran",
+  "f": "0642-01-01",
+  "t": "0760-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Fîrûzabâd / Ferim",
+  "etkin_bolge": "Taberistan, Gilan",
+  "sehirler": [
+   "Âmül",
+   "Sâriye"
+  ],
+  "ozet": "Sasani sonrasi Taberistan isbehbedleri; Abbasi fethi 760.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Baslangic 642 veya 650. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "karenid",
+  "ad": "Kârenîler (Kârin) Hanedani",
+  "tur": "hanedanlik",
+  "bolge": "iran",
+  "f": "0550-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Sâriye",
+  "etkin_bolge": "Taberistan dag bolgesi",
+  "sehirler": [
+   "Sâriye"
+  ],
+  "ozet": "Parth soyu; Abbasi karsisinda dag beyligi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sureklilik belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "masmugan",
+  "ad": "Masmugânlar (Dünbâvend)",
+  "tur": "hanedanlik",
+  "bolge": "iran",
+  "f": "0650-01-01",
+  "t": "0840-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Dünbâvend",
+  "etkin_bolge": "Demavend, Kuzey Iran",
+  "sehirler": [
+   "Dünbâvend"
+  ],
+  "ozet": "Sasani sonrasi yerel hanedan.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "custanid",
+  "ad": "Cüstânîler (Delem, Rûdbâr)",
+  "tur": "hanedanlik",
+  "bolge": "iran",
+  "f": "0791-01-01",
+  "t": "1004-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Rûdbâr",
+  "etkin_bolge": "Delem",
+  "sehirler": [
+   "Rûdbâr"
+  ],
+  "ozet": "Delem bolgesinde yerel hanedan.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "zenc-devleti",
+  "ad": "Zenc Devleti (Basra Zenc isyani)",
+  "tur": "devlet",
+  "bolge": "mezopotamya",
+  "f": "0869-01-01",
+  "t": "0883-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Muhtâre",
+  "etkin_bolge": "Guney Irak",
+  "sehirler": [
+   "Basra"
+  ],
+  "ozet": "Zenc isyani; Abbasi ordusu 883'te bastirdi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Siyasi devlet niteligi sinirli. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "bataih",
+  "ad": "Bataih Emirliği (Imran b. Şâhin)",
+  "tur": "emirlik",
+  "bolge": "mezopotamya",
+  "f": "0923-01-01",
+  "t": "0983-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Vâsit civari",
+  "etkin_bolge": "Bataih",
+  "sehirler": [
+   "Vâsit"
+  ],
+  "ozet": "Abbasi'ye karsi bataklik emirligi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "hasanuya",
+  "ad": "Hasanûyîler (Hasanveyhîler)",
+  "tur": "emirlik",
+  "bolge": "iran",
+  "f": "0959-01-01",
+  "t": "1015-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sermâc / Dîneyver",
+  "etkin_bolge": "Dîneyver, Hamedan",
+  "sehirler": [
+   "Dîneyver"
+  ],
+  "ozet": "Kurt emirligi; Badr b. Hasanuya.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. TDV 'Hasanüyeler' ile dogrula. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Annazi var, Hasanuya yok."
+  }
+ },
+ {
+  "id": "ferigunid",
+  "ad": "Ferîgûnîler (Cüzcan)",
+  "tur": "emirlik",
+  "bolge": "iran",
+  "f": "0900-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Gûzgan",
+  "etkin_bolge": "Horasan kuzeyi",
+  "sehirler": [
+   "Gûzgan"
+  ],
+  "ozet": "Samani vasali yerel hanedan.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "simcurid",
+  "ad": "Simcûrîler (Horasan)",
+  "tur": "emirlik",
+  "bolge": "iran",
+  "f": "0900-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Nîşâbûr",
+  "etkin_bolge": "Horasan",
+  "sehirler": [
+   "Nîşâbûr"
+  ],
+  "ozet": "Samani valileri, sonra yari bagimsiz.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ }
+]

@@ -1,0 +1,1635 @@
+[
+ {
+  "id": "villanova-kulturu",
+  "ad": "Villanova Kültürü",
+  "tur": "kultur",
+  "bolge": "italya",
+  "f": "-0899-01-01",
+  "t": "-0699-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "yok (kültür)",
+  "etkin_bolge": "Kuzey-orta İtalya: Bologna, Etruria",
+  "sehirler": [
+   "Bologna",
+   "Tarquinia",
+   "Vetulonia",
+   "Veii"
+  ],
+  "ozet": "Erken Demir Çağı kremasyon kültürü; Etrüsk şehirleşmesinin atası. Siyasî birim değil, devlet-kültür geçişi.",
+  "oncul": [],
+  "ardil": [
+   "etrusk-sehir-devletleri"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık (MÖ 9.-8. yy). Siyasî birim sayılmayabilir; Emre karar versin.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut tur=kultur listesinde Villanova ayrı yok (kontrol edildi); Malta için malta-gantija-tarxien var."
+  }
+ },
+ {
+  "id": "nuragik-sardinya",
+  "ad": "Nuragik Sardinya (nuraghe toplulukları)",
+  "tur": "kultur",
+  "bolge": "italya",
+  "f": "-1799-01-01",
+  "t": "-0237-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "yok (merkezî yönetim yok)",
+  "etkin_bolge": "Sardinya",
+  "sehirler": "Barumini (Su Nuraxi), Mont'e Prama, Tharros",
+  "ozet": "Tunç Çağı nuraghe kültürü; yerel kabile siyasî birimleri (Ilienses, Balares, Corsi). Devlet benzeri merkezî yapı belgeli değil.",
+  "oncul": [],
+  "ardil": [
+   "kartaca-sardinya"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç/bitiş yaklaşık; bitiş Roma'nın Sardinya'yı alışı (MÖ 238/237) ile eşitlendi, kültür doğrusu o kadar kesin değil.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "etrusk-sehir-devletleri",
+  "ad": "Etrüsk Şehir Devletleri (Oniki Şehir Birliği)",
+  "tur": "konfederasyon",
+  "bolge": "italya",
+  "f": "-0699-01-01",
+  "t": "-0087-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Fanum Voltumnae (birlik toplantı yeri)",
+  "etkin_bolge": "Etruria, Po vadisi, Kampanya (kısmen)",
+  "sehirler": [
+   "Tarquinia",
+   "Caere",
+   "Veii",
+   "Vulci",
+   "Volterra",
+   "Populonia"
+  ],
+  "ozet": "Etrüsk şehir devletleri gevşek bir dinî-siyasî birlik oluşturdu; MÖ 4.-3. yy'da Roma'ya tabi oldu, Sosyal Savaş sonrası (MÖ 90-88) Roma vatandaşlığı aldı.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas künyesi f=-0574 görünüyor; 'Dodekapolis' birliği tarihi belirsiz, şehirleşme MÖ ~700. Bireysel şehirler aşağıda ayrı kayıtlı.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "etrusk-sehir-devletleri",
+   "not": ""
+  }
+ },
+ {
+  "id": "etrusk-tarquinia",
+  "ad": "Tarquinia (Tarchna) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0699-01-01",
+  "t": "-0307-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Tarquinia",
+  "etkin_bolge": "Orta Tirren kıyısı",
+  "sehirler": [
+   "Tarquinia",
+   "Graviscae"
+  ],
+  "ozet": "Etrüsk Dodekapolisi'nin en eski ve dinî açıdan en önemli şehri; MÖ 4. yy savaşları sonrası Roma'ya boyun eğdi.",
+  "oncul": [
+   "villanova-kulturu"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bitiş kesinleşmedi: MÖ 351 ateşkes, MÖ 311-308 savaş, MÖ 308 barış. MÖ ~281'e kadar kısmi özerklik de savunulur.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "etrusk-caere",
+  "ad": "Caere (Cisra) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0699-01-01",
+  "t": "-0272-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Caere (Cerveteri)",
+  "etkin_bolge": "Orta Tirren kıyısı",
+  "sehirler": [
+   "Caere",
+   "Pyrgi"
+  ],
+  "ozet": "Etrüsk deniz ticaret şehri; Roma ile erken ittifak (MÖ 353 sine suffragio); MÖ 273'te toprağı Roma'ya katıldı.",
+  "oncul": [
+   "villanova-kulturu"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "MÖ 353 yarı-vatandaşlık ve MÖ 273 topraklarının alınması; bitiş tarihi tartışmalı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "etrusk-veii",
+  "ad": "Veii (Veio) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0699-01-01",
+  "t": "-0395-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Veii",
+  "etkin_bolge": "Tiber'in kuzeyi",
+  "sehirler": [
+   "Veii"
+  ],
+  "ozet": "Roma'nın en yakın Etrüsk rakibi; MÖ 396'da Camillus tarafından alındı.",
+  "oncul": [
+   "villanova-kulturu"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Geleneksel düşüş MÖ 396 (Livius); astronomik -0395.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "etrusk-vulci",
+  "ad": "Vulci (Velch) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0699-01-01",
+  "t": "-0279-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Vulci",
+  "etkin_bolge": "Fiora vadisi, kıyı",
+  "sehirler": [
+   "Vulci"
+  ],
+  "ozet": "Etrüsk bronz/seramik merkezi; MÖ 280 civarı Roma zaferi (Coruncanius) ile boyun eğdi.",
+  "oncul": [
+   "villanova-kulturu"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Zafer kutlaması MÖ 280/279; tarih yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "etrusk-velzna",
+  "ad": "Velzna (Volsinii) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0599-01-01",
+  "t": "-0263-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Orvieto (Velzna) → Bolsena",
+  "etkin_bolge": "İç Etruria",
+  "sehirler": [
+   "Velzna (Orvieto)"
+  ],
+  "ozet": "Fanum Voltumnae'nin yakınındaki güçlü Etrüsk şehri; MÖ 264'te Roma yıkıp halkı Bolsena'ya taşıdı.",
+  "oncul": [
+   "villanova-kulturu"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç yaklaşık; bitiş MÖ 265/264.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "etrusk-clusium",
+  "ad": "Clusium (Camars) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0699-01-01",
+  "t": "-0294-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Chiusi",
+  "etkin_bolge": "Chiana vadisi",
+  "sehirler": [
+   "Clusium"
+  ],
+  "ozet": "Porsenna'nın geleneksel şehri; MÖ 4.-3. yy'da Roma'ya bağımlı oldu.",
+  "oncul": [
+   "villanova-kulturu"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bitiş çok belirsiz (MÖ 295 Sentinum çevresi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "etrusk-volaterrae",
+  "ad": "Volaterrae (Velathri) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0699-01-01",
+  "t": "-0087-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Volterra",
+  "etkin_bolge": "Kuzey Etruria",
+  "sehirler": [
+   "Volaterrae"
+  ],
+  "ozet": "Maden ve tarım zengini iç şehir; Sosyal Savaş sonrası Sulla ile mücadele edip Roma vatandaşlığı kaybı ve katılım (MÖ 80 civarı).",
+  "oncul": [
+   "villanova-kulturu"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "MÖ 3. yy'dan beri Roma müttefiki; bitiş yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "etrusk-populonia",
+  "ad": "Populonia (Pupluna) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0699-01-01",
+  "t": "-0299-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Populonia",
+  "etkin_bolge": "Toskana kıyısı, Elba demiri",
+  "sehirler": [
+   "Populonia"
+  ],
+  "ozet": "Etrüsk demir işleme merkezi, tek kıyı Dodekapolis üyesi.",
+  "oncul": [
+   "villanova-kulturu"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bitiş yaklaşık (Roma müttefikliğine geçiş MÖ 4.-3. yy).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "etrusk-felsina",
+  "ad": "Felsina (Bologna) ve Po Etrüskleri",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0599-01-01",
+  "t": "-0349-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Felsina (Bologna)",
+  "etkin_bolge": "Po vadisi (Etruria Padana)",
+  "sehirler": [
+   "Felsina",
+   "Spina",
+   "Marzabotto",
+   "Mantova"
+  ],
+  "ozet": "Etrüsklerin kuzey kolonisi; MÖ 4. yy'da Keltler (Boii) tarafından alındı.",
+  "oncul": [
+   "villanova-kulturu"
+  ],
+  "ardil": [
+   "boii-kabile-devleti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç ve bitiş yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kyme-cumae",
+  "ad": "Kyme (Cumae)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0749-01-01",
+  "t": "-0419-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Kyme",
+  "etkin_bolge": "Napoli körfezi",
+  "sehirler": [
+   "Kyme",
+   "Pithekoussai"
+  ],
+  "ozet": "Batı Yunan kolonilerinin en eskisi (Evboia kökenli); MÖ ~421'de Samnitler aldı.",
+  "oncul": [],
+  "ardil": [
+   "capua-sehri"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş MÖ ~750-725 (Pithekoussai ile birlikte); bitiş MÖ 421/420.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "neapolis-yunan",
+  "ad": "Neapolis (Napoli, Yunan şehir devleti)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0599-01-01",
+  "t": "-0324-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Neapolis",
+  "etkin_bolge": "Napoli körfezi",
+  "sehirler": [
+   "Neapolis",
+   "Palaiopolis"
+  ],
+  "ozet": "Kyme kolonisi; MÖ 326-325'te Roma ile eşit ittifak (foedus aequum).",
+  "oncul": [
+   "kyme-cumae"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Palaiopolis/Parthenope ayrımı karışık; Neapolis MÖ ~470.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "elea-velia",
+  "ad": "Elea (Velia)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0539-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": "belirsiz"
+  },
+  "baskent": "Elea",
+  "etkin_bolge": "Cilento kıyısı",
+  "sehirler": [
+   "Elea"
+  ],
+  "ozet": "Fokaialıların Alalia sonrası kurduğu koloni; Parmenides'in şehri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bitiş yok: Roma ile foedus, sonra municipium; yıl bilinmiyor.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "poseidonia",
+  "ad": "Poseidonia (Paestum)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0599-01-01",
+  "t": "-0399-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Poseidonia",
+  "etkin_bolge": "Salerno körfezi",
+  "sehirler": [
+   "Poseidonia"
+  ],
+  "ozet": "Sybaris kolonisi; MÖ ~400'de Lukanlar aldı, MÖ 273'te Latin kolonisi.",
+  "oncul": [
+   "sybaris"
+  ],
+  "ardil": [
+   "lukan-birligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bitiş yaklaşık (Lukan işgali MÖ ~400).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sybaris",
+  "ad": "Sybaris",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0719-01-01",
+  "t": "-0509-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sybaris",
+  "etkin_bolge": "Tarentum körfezi",
+  "sehirler": [
+   "Sybaris",
+   "Laos",
+   "Skidros"
+  ],
+  "ozet": "Akhaia kökenli, çok zengin; MÖ 510'da Kroton tarafından yıkıldı.",
+  "oncul": [],
+  "ardil": [
+   "thourioi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş geleneksel MÖ 720; yıkım MÖ 510.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kroton",
+  "ad": "Kroton",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0708-01-01",
+  "t": "-0275-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kroton",
+  "etkin_bolge": "Kalabria kıyısı",
+  "sehirler": [
+   "Kroton"
+  ],
+  "ozet": "Akhaia kolonisi; Pythagoras ocağı; Sybaris'i yendi; MÖ 3. yy'da Brettii ve Roma etkisiyle düştü.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bitiş yaklaşık (Pyrrhos savaşları MÖ 277; Roma kolonisi MÖ 194).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "taras",
+  "ad": "Taras (Tarentum)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0705-01-01",
+  "t": "-0271-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Taras",
+  "etkin_bolge": "Apulya, Tarent körfezi",
+  "sehirler": [
+   "Taras"
+  ],
+  "ozet": "Sparta kolonisi; Magna Graecia'nın güçlüsü; Pyrrhos'u çağırdı, MÖ 272'de Roma aldı.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Geleneksel kuruluş MÖ 706 (Eusebius); düşüş MÖ 272.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "lokroi-epizephyrioi",
+  "ad": "Lokroi Epizephyrioi",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0678-01-01",
+  "t": "-0203-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Lokroi",
+  "etkin_bolge": "Kalabria güney",
+  "sehirler": [
+   "Lokroi"
+  ],
+  "ozet": "Lokris kolonisi; Zaleukos yasaları; MÖ 205-204'te Roma'ya geçti.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş MÖ 680-673 aralığı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "metapontion",
+  "ad": "Metapontion",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0699-01-01",
+  "t": "-0211-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Metapontion",
+  "etkin_bolge": "Basilicata kıyısı",
+  "sehirler": [
+   "Metapontion"
+  ],
+  "ozet": "Akhaia kolonisi; Hannibal'e geçti, MÖ 207'den sonra zayıfladı.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bitiş yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "rhegion",
+  "ad": "Rhegion",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0719-01-01",
+  "t": "-0269-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Rhegion",
+  "etkin_bolge": "Messina Boğazı Kalabria yakası",
+  "sehirler": [
+   "Rhegion"
+  ],
+  "ozet": "Khalkis kolonisi; Anaksilas tiranlığı; Kampanya birliği ve Roma işgali sonrası MÖ 270'te geri alındı.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kampan askerleri MÖ 280'den 270'e işgal etti.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "zankle-messana",
+  "ad": "Zankle (Messana)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0729-01-01",
+  "t": "-0287-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Zankle/Messana",
+  "etkin_bolge": "Sicilya kuzeydoğu",
+  "sehirler": [
+   "Zankle",
+   "Mylai"
+  ],
+  "ozet": "Kyme ve Khalkis kolonisi; Anaksilas ile Messana adı; Agathokles sonrası Mamertinler aldı.",
+  "oncul": [],
+  "ardil": [
+   "mamertin-devleti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mamertin işgali MÖ ~289-288.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "naxos-sicilya",
+  "ad": "Naxos (Sicilya)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0733-01-01",
+  "t": "-0402-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Naxos",
+  "etkin_bolge": "Sicilya doğu",
+  "sehirler": [
+   "Naxos"
+  ],
+  "ozet": "Sicilya'nın ilk Yunan kolonisi; Dionysios MÖ 403'te yıktı.",
+  "oncul": [],
+  "ardil": [
+   "sirakuza"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "leontinoi",
+  "ad": "Leontinoi",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0728-01-01",
+  "t": "-0422-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Leontinoi",
+  "etkin_bolge": "Sicilya doğu",
+  "sehirler": [
+   "Leontinoi"
+  ],
+  "ozet": "Naxos kolonisi; Atina müttefiki; Syrakusai tarafından MÖ 422'de alındı.",
+  "oncul": [
+   "naxos-sicilya"
+  ],
+  "ardil": [
+   "sirakuza"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bitiş MÖ 423/422.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "katane",
+  "ad": "Katane",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0728-01-01",
+  "t": "-0402-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Katane",
+  "etkin_bolge": "Etna eteği doğu",
+  "sehirler": [
+   "Katane"
+  ],
+  "ozet": "Naxos kolonisi; MÖ 403'te Dionysios sürgünü; sonra Syrakusai bağımlısı.",
+  "oncul": [
+   "naxos-sicilya"
+  ],
+  "ardil": [
+   "sirakuza"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "megara-hyblaia",
+  "ad": "Megara Hyblaia",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0727-01-01",
+  "t": "-0482-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Megara Hyblaia",
+  "etkin_bolge": "Sicilya doğu kıyı",
+  "sehirler": [
+   "Megara Hyblaia",
+   "Selinous"
+  ],
+  "ozet": "Megara kolonisi; Selinous'un anası; Gelon MÖ 483'te yıktı.",
+  "oncul": [],
+  "ardil": [
+   "sirakuza"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "gela",
+  "ad": "Gela",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0687-01-01",
+  "t": "-0281-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Gela",
+  "etkin_bolge": "Sicilya güney kıyı",
+  "sehirler": [
+   "Gela",
+   "Akragas"
+  ],
+  "ozet": "Rodos ve Girit kolonisi; Hippokrates ve Gelon; Akragas'ın anası; MÖ 405'te Kartaca tehdidi, 282'de Phintias yıktı.",
+  "oncul": [],
+  "ardil": [
+   "akragas"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bitiş yaklaşık (MÖ 282).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "akragas",
+  "ad": "Akragas (Agrigentum)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0579-01-01",
+  "t": "-0209-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Akragas",
+  "etkin_bolge": "Sicilya güney",
+  "sehirler": [
+   "Akragas"
+  ],
+  "ozet": "Gela kolonisi; Phalaris, Theron; MÖ 406'da Kartaca yıktı, MÖ 210'da Roma aldı.",
+  "oncul": [
+   "gela"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "MÖ 406 yıkımı sonrası zayıf yeniden kuruluşlar; Roma düşüşü MÖ 210/209.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "selinous",
+  "ad": "Selinous",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0627-01-01",
+  "t": "-0408-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Selinous",
+  "etkin_bolge": "Sicilya güneybatı",
+  "sehirler": [
+   "Selinous"
+  ],
+  "ozet": "Megara kolonisi; Segesta ile savaş (MÖ 415 Sicilya Seferi'nin nedeni); MÖ 409'da Kartaca yıktı.",
+  "oncul": [
+   "megara-hyblaia"
+  ],
+  "ardil": [
+   "kartaca-sicilya"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "himera",
+  "ad": "Himera",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0647-01-01",
+  "t": "-0408-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Himera",
+  "etkin_bolge": "Sicilya kuzey kıyı",
+  "sehirler": [
+   "Himera"
+  ],
+  "ozet": "Zankle kolonisi; MÖ 480'de Kartaca'yı yendi; MÖ 409'da Hannibal Mago tarafından yıkıldı.",
+  "oncul": [
+   "zankle-messana"
+  ],
+  "ardil": [
+   "kartaca-sicilya"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş geleneksel MÖ 648.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sirakuza",
+  "ad": "Sirakuza (Syrakousai)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0732-01-01",
+  "t": "-0210-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sirakuza",
+  "etkin_bolge": "Sicilya doğu",
+  "sehirler": [
+   "Sirakuza",
+   "Ortigia",
+   "Akrai"
+  ],
+  "ozet": "Korinth kolonisi; Gelon ve Dionysios'ın güçlü tiranlık devleti, Hieron II'den sonra Roma'ya düştü (MÖ 212-211).",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas künyesi -0733..-0210; düşüş 212/211 (Marcellus). Tiran/kral dönemleri aynı polity.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sirakuza",
+   "not": ""
+  }
+ },
+ {
+  "id": "mozia",
+  "ad": "Mozia (Motya)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0749-01-01",
+  "t": "-0395-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Mozia",
+  "etkin_bolge": "Batı Sicilya",
+  "sehirler": [
+   "Motya"
+  ],
+  "ozet": "Fenike kolonisi; MÖ 397/396'da Dionysios I tarafından alındı.",
+  "oncul": [],
+  "ardil": [
+   "lilybaion"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç MÖ 8. yy (arkeolojik).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "alalia-korsika",
+  "ad": "Alalia (Fokaia kolonisi, Korsika)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0564-01-01",
+  "t": "-0534-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Alalia",
+  "etkin_bolge": "Doğu Korsika",
+  "sehirler": [
+   "Alalia"
+  ],
+  "ozet": "Fokaialıların MÖ ~565'te kurduğu koloni; MÖ ~540 Alalia deniz savaşı sonrası terk.",
+  "oncul": [],
+  "ardil": [
+   "elea-velia"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Savaş MÖ 540-535.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kartaca-sardinya",
+  "ad": "Kartaca Sardinyası",
+  "tur": "sehir-devleti-imparatorluk",
+  "bolge": "italya",
+  "f": "-0509-01-01",
+  "t": "-0237-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Karales/Tharros/Nora",
+  "etkin_bolge": "Sardinya kıyıları",
+  "sehirler": [
+   "Karales",
+   "Nora",
+   "Tharros",
+   "Sulki"
+  ],
+  "ozet": "Fenike limanlarının Kartaca yönetimine girmesi (~MÖ 510) ile Roma'nın alışına (MÖ 238/237) kadar.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kartaca merkezlidir (mevcut: kartaca, kuzey-afrika); bu kayıt eyalet-yapı; ayrı künye mi, kartaca'nın dilimi mi — karar Emre'nin.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "alba-longa",
+  "ad": "Alba Longa (efsanevi Latin başkenti)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": null,
+  "t": "-0639-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Alba Longa",
+  "etkin_bolge": "Alban Dağları",
+  "sehirler": [
+   "Alba Longa"
+  ],
+  "ozet": "Roma'dan önce Latin Birliği'nin geleneksel başı; Tullus Hostilius'un yıkışı (MÖ ~7. yy).",
+  "oncul": [],
+  "ardil": [
+   "roma-kralligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş efsanevi (yıl bilinmiyor); varlığı tartışmalı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "falisci-falerii",
+  "ad": "Falerii (Faliskler)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0699-01-01",
+  "t": "-0240-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Falerii Veteres",
+  "etkin_bolge": "Tiber-Soracte arası",
+  "sehirler": [
+   "Falerii Veteres",
+   "Capena"
+  ],
+  "ozet": "Faliskça konuşan topluluk, Etrüsk etkisinde; MÖ 241'de Roma yıktı.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yıkım MÖ 241 (astronomik -0240).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "capua-sehri",
+  "ad": "Capua (Etrüsk-Oskan şehir devleti)",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0598-01-01",
+  "t": "-0209-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Capua",
+  "etkin_bolge": "Kampanya ovası",
+  "sehirler": [
+   "Capua"
+  ],
+  "ozet": "Etrüsk kuruluşu, MÖ 424'te Samnit, MÖ 338'de Roma'ya bağlı; Hannibal'e geçti, MÖ 211'de cezalandırıldı.",
+  "oncul": [
+   "kyme-cumae"
+  ],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş Etrüsk MÖ ~600 (efsane: 800); bağımsızlık sonu MÖ 211/210.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "veneti",
+  "ad": "Veneti Kabile Devleti (Este kültürü)",
+  "tur": "kabile-krallik",
+  "bolge": "italya",
+  "f": "-0899-01-01",
+  "t": "-0048-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Ateste (Este)",
+  "etkin_bolge": "Veneto, Adriyatik",
+  "sehirler": [
+   "Ateste",
+   "Patavium",
+   "Altinum"
+  ],
+  "ozet": "Vénetlerin Roma ile MÖ 225'ten itibaren ittifakı; MÖ 49'da Cisalpina eyaletine katıldı.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç Este kültürü (Demir Çağı) yaklaşık; bitiş MÖ 49 (Lex Roscia) ya da MÖ 89 (Latin hakkı).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "liguria-kabileler",
+  "ad": "Ligur Kabile Birlikleri",
+  "tur": "kabile-konfederasyon",
+  "bolge": "italya",
+  "f": null,
+  "t": "-0177-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "onyil"
+  },
+  "baskent": "yok (dağınık)",
+  "etkin_bolge": "Cenova körfezi, Apenin, Alpler",
+  "sehirler": [
+   "Genua",
+   "Albingaunum",
+   "Luna"
+  ],
+  "ozet": "Ligur (Ingauni, Apuani vb.) kabileleri; Roma'ya karşı MÖ 238-MÖ 180'ler savaşlarla direndi.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç bilinmiyor (yıl bilinmiyor).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "golasecca-kulturu",
+  "ad": "Golasecca Kültürü",
+  "tur": "kultur",
+  "bolge": "italya",
+  "f": "-1198-01-01",
+  "t": "-0398-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Maggiore-Como gölleri",
+  "sehirler": [
+   "Sesto Calende",
+   "Como"
+  ],
+  "ozet": "Lombardiya'da Final Tunç/Demir Çağı kültürü; Kelt (Insubres) yerleşmesiyle sonlandı. Siyasî birim değil.",
+  "oncul": [],
+  "ardil": [
+   "insubres-kabile-devleti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık; devlet saymak için gerekçe zayıf.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "segesta-elymoi",
+  "ad": "Segesta ve Elymlar",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "-0699-01-01",
+  "t": "-0259-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Segesta",
+  "etkin_bolge": "Batı Sicilya",
+  "sehirler": [
+   "Segesta",
+   "Eryx",
+   "Entella"
+  ],
+  "ozet": "Elymli yerli topluluğun şehir devletleri; Atina ile ittifak, Kartaca ve Roma arasında; MÖ ~260'ta Roma'ya katıldı.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
+   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "messapi-birligi",
+  "ad": "Messapya (Messapi Birliği)",
+  "tur": "konfederasyon",
+  "bolge": "italya",
+  "f": "-0699-01-01",
+  "t": "-0264-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Brundisium/Hydruntum",
+  "etkin_bolge": "Salento",
+  "sehirler": [
+   "Brundisium",
+   "Hydruntum",
+   "Uzentum"
+  ],
+  "ozet": "Iapig dilli Messapi topluluğu; çok şehirli dönem; MÖ 266-265'te Roma boyun eğdi.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "piceni",
+  "ad": "Picenum (Piseni)",
+  "tur": "kabile-konfederasyon",
+  "bolge": "italya",
+  "f": "-0899-01-01",
+  "t": "-0267-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Asculum",
+  "etkin_bolge": "Adriyatik kıyısı, Marche",
+  "sehirler": [
+   "Asculum",
+   "Cupra",
+   "Novana"
+  ],
+  "ozet": "Picenum topluluğu; MÖ 268'de Roma tarafından alındı.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "roma-kralligi",
+  "ad": "Roma Krallığı",
+  "tur": "krallik",
+  "bolge": "italya",
+  "f": "-0752-01-01",
+  "t": "-0508-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Roma",
+  "etkin_bolge": "Latium",
+  "sehirler": [
+   "Roma"
+  ],
+  "ozet": "Geleneksel olarak Romulus'tan Tarquinius Superbus'a yedi kral.",
+  "oncul": [],
+  "ardil": [
+   "roma-cumhuriyeti"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas -0752..-0508 uyumlu; geleneksel tarih, tarihsel çekirdek belirsiz.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "roma-kralligi",
+   "not": ""
+  }
+ },
+ {
+  "id": "roma-cumhuriyeti",
+  "ad": "Roma Cumhuriyeti",
+  "tur": "cumhuriyet",
+  "bolge": "italya",
+  "f": "-0508-01-01",
+  "t": "-0026-01-16",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Roma",
+  "etkin_bolge": "Italia, Akdeniz",
+  "sehirler": [
+   "Roma"
+  ],
+  "ozet": "MÖ 509'da krallığın düşüşüyle kuruldu; Augustus'un 'prinkipat' düzenlemesi (MÖ 27) ile imparatorluğa evrildi.",
+  "oncul": [
+   "roma-kralligi"
+  ],
+  "ardil": [
+   "roma-imp"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bitiş MÖ 27 Ocak 16 (Senato Augustus'a unvanı verdi) -0026-01-16; alternatif MÖ 31 Actium (-0030) veya MÖ 44 (-0043).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "roma-cumhuriyeti",
+   "not": ""
+  }
+ }
+]

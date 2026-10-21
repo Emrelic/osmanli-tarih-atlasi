@@ -1,0 +1,144 @@
+[
+ {
+  "id": "kangaba",
+  "ad": "Kangaba (Manden) Krallığı",
+  "tur": "krallik",
+  "bolge": "bati-afrika",
+  "f": "1068-01-01",
+  "t": "1235-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kangaba",
+  "etkin_bolge": "Yukarı Nijer vadisi",
+  "sehirler": [
+   "Kangaba"
+  ],
+  "ozet": "Mali İmparatorluğu'nun öncülü Mandinka krallığı (Bekrî 1068'de 'Malal').",
+  "oncul": [],
+  "ardil": [
+   "mali-imparatorlugu"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Levtzion, Ancient Ghana and Mali (1973)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "f ilk anılış, kuruluş değil; t Kirina/Sundiata 1235. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mali ile ilişki."
+  }
+ },
+ {
+  "id": "ife",
+  "ad": "Ife (Ilé-Ifẹ̀) Krallığı",
+  "tur": "krallik",
+  "bolge": "bati-afrika",
+  "f": "1000-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Ife",
+  "etkin_bolge": "Güneybatı Nijerya (Yoruba)",
+  "sehirler": [
+   "Ife"
+  ],
+  "ozet": "Yoruba kutsal merkezi; klasik dönem ~1100-1400.",
+  "oncul": [],
+  "ardil": [
+   "benin-kralligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Willett, Ife in the History of West African Sculpture (1967)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "f çok kaba; Oranmiyan efsanesiyle Benin ilişkisi; t yok (süren polity). [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "f doğrulanmalı."
+  }
+ },
+ {
+  "id": "kabis-emirligi",
+  "ad": "Kâbis (Gabès) Emirliği",
+  "tur": "emirlik",
+  "bolge": "kuzey-afrika",
+  "f": "1062-01-01",
+  "t": "1148-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kâbis",
+  "etkin_bolge": "Güney Tunus",
+  "sehirler": [
+   "Kâbis"
+  ],
+  "ozet": "Zîrî çöküşü sırasında Kâbis'in yarı bağımsız emirliği; Norman fethine kadar.",
+  "oncul": [
+   "Zîrîler"
+  ],
+  "ardil": [
+   "norman-ifrikiye"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Encyclopaedia of Islam s.v. Kabis"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bir okul 1015'i gösterebilir; belirsiz. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Doğrulanmadı."
+  }
+ },
+ {
+  "id": "norman-ifrikiye",
+  "ad": "Norman Afrika (İfrîkıye) Krallığı",
+  "tur": "krallik",
+  "bolge": "kuzey-afrika",
+  "f": "1148-06-01",
+  "t": "1160-01-01",
+  "kesinlik": {
+   "f": "ay",
+   "t": "yil"
+  },
+  "baskent": "Mehdiye",
+  "etkin_bolge": "Tunus kıyı şeridi, Trablus",
+  "sehirler": [
+   "Mehdiye",
+   "Sfaks",
+   "Trablus"
+  ],
+  "ozet": "II. Roger'in Zîrî kıyı şehirlerini alması (Mehdiye 1148); 1160'ta Muvahhidler Mehdiye'yi aldı.",
+  "oncul": [
+   "Zîrîler"
+  ],
+  "ardil": [
+   "muvahhidler"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Houben, Roger II of Sicily (2002)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mehdiye 1148 Haziran; Muvahhid fethi 1160 başı (ay belirsiz). Ayrı polity mi Sicilya parçası mı tartışmalı. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Sicilya Krallığı ile bağlantı."
+  }
+ }
+]

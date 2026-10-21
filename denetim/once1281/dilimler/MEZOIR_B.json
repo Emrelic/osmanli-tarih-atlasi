@@ -1,0 +1,703 @@
+[
+ {
+  "id": "adab",
+  "ad": "Adab Sehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "mezopotamya",
+  "f": "-2599-01-01",
+  "t": "-2333-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Adab (Bismaya)",
+  "etkin_bolge": "Orta-guney Mezopotamya",
+  "sehirler": [
+   "Adab"
+  ],
+  "ozet": "Erken Hanedan Sumer sehir devleti; Lugalzagesi ve Akad'a boyun egdi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sumer Krallar Listesi'ndeki Adab hanedani tartismali. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "aksak",
+  "ad": "Akşak Sehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "mezopotamya",
+  "f": "-2599-01-01",
+  "t": "-2333-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Akşak",
+  "etkin_bolge": "Dicle boyu (konum belirsiz)",
+  "sehirler": [
+   "Akşak"
+  ],
+  "ozet": "Sumer Krallar Listesi'nde hanedan kuran sehir.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Konum ve tarihsellik belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "surupak",
+  "ad": "Şuruppak Sehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "mezopotamya",
+  "f": "-2899-01-01",
+  "t": "-2333-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Şuruppak (Fara)",
+  "etkin_bolge": "Orta Mezopotamya",
+  "sehirler": [
+   "Şuruppak"
+  ],
+  "ozet": "Erken Hanedan sehir devleti; Fara tabletleriyle bilinir.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Bagimsizlik derecesi sinirli. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "eridu-sehir-devleti",
+  "ad": "Eridu Sehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "mezopotamya",
+  "f": "-2899-01-01",
+  "t": "-2333-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Eridu",
+  "etkin_bolge": "Korfez kiyisi",
+  "sehirler": [
+   "Eridu"
+  ],
+  "ozet": "Sumer'in en eski sehri sayilan Enki kutsal merkezi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Siyasi birim mi kutsal merkez mi belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "hamazi",
+  "ad": "Hamazi Krallığı",
+  "tur": "krallik",
+  "bolge": "mezopotamya",
+  "f": "-2599-01-01",
+  "t": "-2333-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Hamazi",
+  "etkin_bolge": "Zagros eteklerinde (konum belirsiz)",
+  "sehirler": [
+   "Hamazi"
+  ],
+  "ozet": "Sumer Krallar Listesi'nde Kis oncesi hanedan.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Tarihsellik dusuk. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "kazallu",
+  "ad": "Kazallu Sehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "mezopotamya",
+  "f": "-1999-01-01",
+  "t": "-1849-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kazallu",
+  "etkin_bolge": "Orta Mezopotamya",
+  "sehirler": [
+   "Kazallu"
+  ],
+  "ozet": "Ur III sonrasi Amorit hukumdarli yerel devlet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sureler belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "kisurra",
+  "ad": "Kisurra Sehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "mezopotamya",
+  "f": "-1999-01-01",
+  "t": "-1799-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kisurra",
+  "etkin_bolge": "Orta Mezopotamya",
+  "sehirler": [
+   "Kisurra"
+  ],
+  "ozet": "Isin-Larsa doneminde yerel hanedan.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Ayri birim mi tartismali. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "uruk-v-utuhengal",
+  "ad": "Uruk V. Hanedani (Utuhengal)",
+  "tur": "hanedanlik",
+  "bolge": "mezopotamya",
+  "f": "-2118-01-01",
+  "t": "-2111-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Uruk",
+  "etkin_bolge": "Guney Mezopotamya",
+  "sehirler": [
+   "Uruk"
+  ],
+  "ozet": "Utuhengal Gutiler'i kovdu; Ur-Nammu ile Ur III'e gecildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Orta kronoloji. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut ur-3 ve gutium kaydi var."
+  }
+ },
+ {
+  "id": "lullubi",
+  "ad": "Lullubi (Lullubum) Kabile Devleti",
+  "tur": "kabile-hakimiyeti",
+  "bolge": "iran",
+  "f": "-2299-01-01",
+  "t": "-0999-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Belirsiz (Şehrizor)",
+  "etkin_bolge": "Kuzey Zagroslar",
+  "sehirler": [
+   "Şehrizor"
+  ],
+  "ozet": "Zagros dagli kabile devleti; Naram-Sin'in Dar-i Pol steli.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sure cok belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "simurrum",
+  "ad": "Simurrum Krallığı",
+  "tur": "krallik",
+  "bolge": "iran",
+  "f": "-2299-01-01",
+  "t": "-1699-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Simurrum",
+  "etkin_bolge": "Kuzey Zagros / Dicle ustu",
+  "sehirler": [
+   "Simurrum"
+  ],
+  "ozet": "Akad ve Ur III'ye karsi cikan Zagros devleti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Konum tartismali. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "anshan",
+  "ad": "Anşan Krallığı (Elam-Pers baglantili)",
+  "tur": "krallik",
+  "bolge": "iran",
+  "f": "-2299-01-01",
+  "t": "-0549-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Anşan (Tal-i Malyan)",
+  "etkin_bolge": "Fars",
+  "sehirler": [
+   "Anşan",
+   "Pasargad"
+  ],
+  "ozet": "Elam'in Fars ucu; sonra Pers (Teispid) kralligi; Kiros ile Ahamenis'e donusur.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Kurulus belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Elam kayitlari (elam-*) var; Anşan ayri kayit onerilir."
+  }
+ },
+ {
+  "id": "marhasi",
+  "ad": "Marhaşi (Paraşi) Krallığı",
+  "tur": "krallik",
+  "bolge": "iran",
+  "f": "-2299-01-01",
+  "t": "-1699-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Belirsiz",
+  "etkin_bolge": "Dogu Iran (Kirman)",
+  "sehirler": [
+   "Marhaşi"
+  ],
+  "ozet": "Mezopotamya kaynaklarinda gecen Dogu Iran devleti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Konum belirsiz; Jiroft iliskisi spekulatif. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "kutha-krallik",
+  "ad": "Kutha Sehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "mezopotamya",
+  "f": "-1899-01-01",
+  "t": "-1699-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kutha (Tel Ibrahim)",
+  "etkin_bolge": "Babil civari",
+  "sehirler": [
+   "Kutha"
+  ],
+  "ozet": "Eski Babil donemi kucuk sehir devleti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Bagimsizlik sinirli. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "der-krallik",
+  "ad": "Der Krallığı",
+  "tur": "krallik",
+  "bolge": "mezopotamya",
+  "f": "-1999-01-01",
+  "t": "-0699-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Der (Tell Aqar)",
+  "etkin_bolge": "Dicle-Elam siniri",
+  "sehirler": [
+   "Der"
+  ],
+  "ozet": "Akad-Elam arasi stratejik kral sehri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Kesintisiz bagimsizlik belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "babil-isin2-sonrasi",
+  "ad": "Babil (Isin II sonrasi: Sealand II, Bazi, Elam hanedanlari)",
+  "tur": "krallik",
+  "bolge": "mezopotamya",
+  "f": "-1025-01-01",
+  "t": "-0979-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Babil",
+  "etkin_bolge": "Guney Mezopotamya",
+  "sehirler": [
+   "Babil"
+  ],
+  "ozet": "Isin II sonrasi kisa omurlu hanedanlar.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Orta kronoloji; hanedan sirasi Brinkman'a gore. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "isin-2",
+   "not": "isin-2 sonu -1029."
+  }
+ },
+ {
+  "id": "babil-asur-egemenliginde",
+  "ad": "Babil Krallığı (Yeni Asur egemenliginde, bagimsiz ve vasal donemler)",
+  "tur": "krallik",
+  "bolge": "mezopotamya",
+  "f": "-0979-01-01",
+  "t": "-0625-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Babil",
+  "etkin_bolge": "Guney Mezopotamya",
+  "sehirler": [
+   "Babil",
+   "Borsippa"
+  ],
+  "ozet": "Asur vasali / zaman zaman bagimsiz Babil krallari; Nabopolasar ile Yeni Babil'e gecis.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Kesintili. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "yeni-babil",
+   "not": "yeni-babil -625'ten baslar; aradaki bagimsiz donemler (Nabu-mukin-apli, Nabonassar) ayri kayit sorusu."
+  }
+ },
+ {
+  "id": "bit-yakin",
+  "ad": "Bit-Yakin Keldani Kabile Devleti",
+  "tur": "kabile-hakimiyeti",
+  "bolge": "mezopotamya",
+  "f": "-0899-01-01",
+  "t": "-0599-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Dur-Yakin",
+  "etkin_bolge": "Dicle-Furat deltasi",
+  "sehirler": [
+   "Dur-Yakin"
+  ],
+  "ozet": "Merodak-baladan hanedani; Asur'a direnis.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "bit-amukani",
+  "ad": "Bit-Amukani Keldani Kabile Devleti",
+  "tur": "kabile-hakimiyeti",
+  "bolge": "mezopotamya",
+  "f": "-0899-01-01",
+  "t": "-0599-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Babil civari",
+  "etkin_bolge": "Furat boyu",
+  "sehirler": [
+   "Babil"
+  ],
+  "ozet": "Keldani kabilesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "ellipi",
+  "ad": "Ellipi Krallığı",
+  "tur": "krallik",
+  "bolge": "iran",
+  "f": "-0849-01-01",
+  "t": "-0639-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Belirsiz (Kirmanşah civari)",
+  "etkin_bolge": "Orta Zagros",
+  "sehirler": [
+   "Belirsiz"
+  ],
+  "ozet": "Asur kaynaklarinda gecen Zagros krallığı; sonra Elam/Medya.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "parsua",
+  "ad": "Parsua (Parsumaş) Krallığı",
+  "tur": "krallik",
+  "bolge": "iran",
+  "f": "-0849-01-01",
+  "t": "-0639-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Belirsiz",
+  "etkin_bolge": "Kuzeybati Iran, sonra Fars",
+  "sehirler": [
+   "Belirsiz"
+  ],
+  "ozet": "Asur kaynaklarinda gecen Pers boylari.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Pers gocu tartismali. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "musasir",
+  "ad": "Muşaşir Krallığı",
+  "tur": "krallik",
+  "bolge": "mezopotamya",
+  "f": "-0899-01-01",
+  "t": "-0713-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Muşaşir",
+  "etkin_bolge": "Rawanduz bolgesi",
+  "sehirler": [
+   "Muşaşir"
+  ],
+  "ozet": "Urartu tapinak-sehir devleti; Sargon II 714'te yagmaladi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Konum tartismali. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Urartu var (anadolu)."
+  }
+ },
+ {
+  "id": "zikirtu",
+  "ad": "Zikirtu Krallığı",
+  "tur": "krallik",
+  "bolge": "iran",
+  "f": "-0749-01-01",
+  "t": "-0669-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Belirsiz",
+  "etkin_bolge": "Azerbaycan-Iran siniri",
+  "sehirler": [
+   "Belirsiz"
+  ],
+  "ozet": "Manna guneyindeki kucuk krallik.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Manna var."
+  }
+ },
+ {
+  "id": "susa-elam-sonrasi",
+  "ad": "Susa (Elam sonrasi yerel idare)",
+  "tur": "sehir-devleti",
+  "bolge": "iran",
+  "f": "-0645-01-01",
+  "t": "-0539-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Susa",
+  "etkin_bolge": "Huzistan",
+  "sehirler": [
+   "Susa"
+  ],
+  "ozet": "Asurbanipal 646 sonrasi Elam cokusu ve Susa yerel idaresi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Gecis donemi belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "elam-yeni",
+   "not": "elam-yeni -538'de biter."
+  }
+ },
+ {
+  "id": "teispid-pers",
+  "ad": "Teispid Pers Krallığı",
+  "tur": "krallik",
+  "bolge": "iran",
+  "f": "-0639-01-01",
+  "t": "-0549-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Anşan",
+  "etkin_bolge": "Fars",
+  "sehirler": [
+   "Anşan",
+   "Pasargad"
+  ],
+  "ozet": "Teispes soyundan Kambyses I'e uzanan Pers kralligi; Kiros II ile imparatorluga donusur.",
+  "oncul": [],
+  "ardil": [
+   "ahamenis"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Teispid-Ahamenid ayrimi Herodotos ve Kiros silindirine dayanir. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "ahamenis",
+   "not": "Ahamenis -549'dan baslar."
+  }
+ }
+]

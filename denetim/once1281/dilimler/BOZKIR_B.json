@@ -1,0 +1,280 @@
+[
+ {
+  "id": "bmac",
+  "ad": "Baktriya-Margiana Arkeoloji Kompleksi (Oxus Uygarligi)",
+  "tur": "kultur-kompleksi",
+  "bolge": "orta-asya",
+  "f": "-2299-01-01",
+  "t": "-1699-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Amu Derya orta havzasi, Murgab deltasi, Baktriya",
+  "sehirler": [
+   "Gonur Depe",
+   "Togolok",
+   "Dashly",
+   "Sapalli Tepe"
+  ],
+  "ozet": "Sulama tarimina dayali, saray ve tapinakli vaha kentleri kompleksi; siyasi birlik veya hukumdar belgesi yok.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994",
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Siyasi birim degil kultur kompleksi (tur_yeni: kultur-kompleksi); ana oturum kapsama karar versin. Tarihler arkeolojik (Sarianidi/Hiebert okullari, +-200 yil).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "saka-konfederasyonu",
+  "ad": "Saka (Sakalar; Pers yazitlarinda Saka Tigraxauda/Haumavarga; Cin kaynaklarinda Sai)",
+  "tur": "konfederasyon",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "-0138-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "onyil"
+  },
+  "baskent": "yok (gocebe)",
+  "etkin_bolge": "Seyhun-Amu Derya, Pamir-Tanri Daglari, Yedisu, Aral cevresi",
+  "sehirler": [
+   "Yedisu",
+   "Sakastana ovasi"
+  ],
+  "ozet": "Dogu Iran dilli gocebe boylar birligi; Ahameni yazitlarinda Saka adlari gecer. Yuezhi baskisiyla ~MO 140'larda Fergana-Baktriya yonune dagildi.",
+  "oncul": [],
+  "ardil": [
+   "greko-baktria (isgal)",
+   "kusan"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde",
+   "[aday kaynak, acilmadi] Herodotos, Historiai 1.201-216 ve 4. kitap; Rolle, R., The World of the Scythians, 1989",
+   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null: Ahameni yazit listeleri MO 520'ler ilk tanikliktir, kurulus degil. t: Hanshu 96A Sai-wang'in guneye kacisi, Yuezhi gocunden sonra (Zhang Qian MO 129-126), onyil duzeyi. Hint-Saka (Indo-Skit) krallari GUNEY_ASYA isi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "massaget",
+  "ad": "Massagetler (Tomyris'in boylari)",
+  "tur": "konfederasyon",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "yok (gocebe)",
+  "etkin_bolge": "Aral-Hazar arasi, Seyhun otesi",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Herodotos'a gore Kyros'u MO 530'da yenip oldurdu denilen Kralice Tomyris'in gocebe birligi.",
+  "oncul": [],
+  "ardil": [
+   "saka-konfederasyonu (emilim?)"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Herodotos, Historiai 1.201-216 ve 4. kitap; Rolle, R., The World of the Scythians, 1989",
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil bilinmiyor; tek sabit nokta MO 530 (Kyros'un olumu, Herodotos 1.205-214), tanikliktir, kurulus degil. Massaget-Saka iliskisi tartismali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "dahae",
+  "ad": "Dahae (Daha/Dai) Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "yok (gocebe)",
+  "etkin_bolge": "Hazar-Aral guneydogusu, Turkmen bozkiri",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Ahameni yazitlarinda 'Daha'; Arsakid hanedanina ad veren Parni boyunun ait oldugu birlik.",
+  "oncul": [],
+  "ardil": [
+   "Part Imparatorlugu (Parni kolu)"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Siyasi birim mi etnik ad mi belirsiz; yil yok.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "antik-harezm",
+  "ad": "Antik Harezm (Chorasmia) Krallıgi",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0305-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Toprak-kale (belirsiz)",
+  "etkin_bolge": "Asagi Amu Derya, Harezm vahasi",
+  "sehirler": [
+   "Toprak-kale",
+   "Ayaz-kale"
+  ],
+  "ozet": "Ahameni satrapligi sonrasi yerel Harezmsahlar; Iskender'e MO 329'da kral Pharasmanes elci yollamis. Afrigilerin 305'teki kurulusuyla yerel hanedan degisimi.",
+  "oncul": [],
+  "ardil": [
+   "hivite-afrigid"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde",
+   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null: bagimsiz krallik kurulus yili bilinmiyor (MO 329 yalniz taniklik). t=Afrigi kurulusu 305 (Biruni), mevcut kunyeyle uyumlu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "hivite-afrigid 305'ten basliyor; onceki Harezmsah cagi kunyesiz"
+  }
+ },
+ {
+  "id": "iskit-kralligi",
+  "ad": "Iskit Krallıgi (Pontus bozkiri; Ateas donemi)",
+  "tur": "krallik",
+  "bolge": "dogu-avrupa",
+  "f": "-0698-01-01",
+  "t": "-0248-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "yok (gocebe; Gerrhos?)",
+  "etkin_bolge": "Tuna agzindan Don'a Karadeniz kuzeyi bozkiri",
+  "sehirler": [
+   "Gerrhos",
+   "Kamenka"
+  ],
+  "ozet": "Herodotos'un anlattigi Iskit krallari ve Kral Ateas (MO 339) cevresi birlik; Sarmatlarca MO 3. yy'da ezildi.",
+  "oncul": [
+   "kimmer"
+  ],
+  "ardil": [
+   "kirim-iskit",
+   "sarmat"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Herodotos, Historiai 1.201-216 ve 4. kitap; Rolle, R., The World of the Scythians, 1989"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Tarihler yuzyil duzeyinde (VII. yy girisi, III. yy asinmasi). DOGU_AVRUPA ile cakisma olasi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "pazyryk-kulturu",
+  "ad": "Pazyryk Kulturu (Altay)",
+  "tur": "kultur",
+  "bolge": "sibirya-bozkir",
+  "f": "-0598-01-01",
+  "t": "-0248-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Yukari Ob, Altay daglari",
+  "sehirler": [
+   "Pazyryk",
+   "Ukok"
+  ],
+  "ozet": "Donmus kurgan buluntulariyla bilinen gocebe elit kulturu.",
+  "oncul": [],
+  "ardil": [
+   "xiongnu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Kultur, siyasi birim degil; isteme uyarak kayda alindi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "tagar-kulturu",
+  "ad": "Tagar Kulturu (Minusinsk havzasi)",
+  "tur": "kultur",
+  "bolge": "sibirya-bozkir",
+  "f": "-0798-01-01",
+  "t": "-0098-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Yukari Yenisey, Minusinsk",
+  "sehirler": [
+   "Minusinsk"
+  ],
+  "ozet": "Demir Cagi yerlesik-gocebe kultur; Tashtyk'e donusur.",
+  "oncul": [],
+  "ardil": [
+   "tashtyk-kulturu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Kultur; yuzyil duzeyi tarihler.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ }
+]

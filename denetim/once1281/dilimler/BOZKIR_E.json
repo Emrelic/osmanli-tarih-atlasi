@@ -1,0 +1,474 @@
+[
+ {
+  "id": "kerait",
+  "ad": "Kerayitler",
+  "tur": "hanlik",
+  "bolge": "orta-asya",
+  "f": "1007-01-01",
+  "t": "1203-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Orhon / Tola",
+  "etkin_bolge": "Orhon-Tola",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "1007 civari Hristiyanlasma haberi; Ong Han'in yenilgisi 1203.",
+  "oncul": [],
+  "ardil": [
+   "mogol-imparatorlugu"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004",
+   "[aday kaynak, acilmadi] Atwood, C.P., Encyclopedia of Mongolia and the Mongol Empire, Facts on File, 2004"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut 1199-1203: f cok gec; bkz. Rasidüddin.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "kerayit",
+   "not": "f yuzyillik fark"
+  }
+ },
+ {
+  "id": "karahitay",
+  "ad": "Karahitaylar (Bati Liao)",
+  "tur": "devlet",
+  "bolge": "orta-asya",
+  "f": "1124-01-01",
+  "t": "1218-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Balasagun",
+  "etkin_bolge": "Yedisu",
+  "sehirler": [
+   "Balasagun"
+  ],
+  "ozet": "Yelu Dashi 1124'te Liao'dan kacti; Gurhan unvani 1132/1134; Kucluk 1211, Mogol 1218.",
+  "oncul": [
+   "liao"
+  ],
+  "ardil": [
+   "mogol-imparatorlugu"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Barfield, T., The Perilous Frontier: Nomadic Empires and China, Blackwell, 1989",
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut 1130-1211.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "karahitay",
+   "not": "f 6, t 7 yil"
+  }
+ },
+ {
+  "id": "naiman",
+  "ad": "Naymanlar",
+  "tur": "hanlik",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "1204-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Altay",
+  "etkin_bolge": "Altay-Hangay",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Tayang Han 1204'te Cengiz'e yenildi.",
+  "oncul": [],
+  "ardil": [
+   "mogol-imparatorlugu"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004",
+   "[aday kaynak, acilmadi] Atwood, C.P., Encyclopedia of Mongolia and the Mongol Empire, Facts on File, 2004"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil yok; mevcut f=1199.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "nayman",
+   "not": ""
+  }
+ },
+ {
+  "id": "merkit",
+  "ad": "Merkitler",
+  "tur": "konfederasyon",
+  "bolge": "sibirya-bozkir",
+  "f": null,
+  "t": "1205-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "onyil"
+  },
+  "baskent": "Selenga",
+  "etkin_bolge": "Selenga",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Cengiz'in esi Borte'yi kacirmakla bilinir.",
+  "oncul": [],
+  "ardil": [
+   "mogol-imparatorlugu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004",
+   "[aday kaynak, acilmadi] Atwood, C.P., Encyclopedia of Mongolia and the Mongol Empire, Facts on File, 2004"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil yok.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "tatar",
+  "ad": "Tatar Konfederasyonu (Otuz/Dokuz Tatar)",
+  "tur": "konfederasyon",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "1202-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Buyir Golu",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Orhon yazitlarindan Cengiz'e kadar; 1202'de dagitildi.",
+  "oncul": [],
+  "ardil": [
+   "mogol-imparatorlugu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004",
+   "[aday kaynak, acilmadi] Atwood, C.P., Encyclopedia of Mongolia and the Mongol Empire, Facts on File, 2004"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil yok.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "kamag-mogol",
+  "ad": "Kamag Mogol (Cengiz oncesi Mogol Hanligi)",
+  "tur": "hanlik",
+  "bolge": "orta-asya",
+  "f": "1130-01-01",
+  "t": "1206-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Burkan Kaldun",
+  "etkin_bolge": "Onon-Kerulen",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Kabul Han (~1130'lar); Kutula, Yesugey, Temucin; 1206 Kurultay.",
+  "oncul": [
+   "xianbei"
+  ],
+  "ardil": [
+   "mogol-imparatorlugu"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004",
+   "[aday kaynak, acilmadi] Atwood, C.P., Encyclopedia of Mongolia and the Mongol Empire, Facts on File, 2004"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f onyil duzeyi (Gizli Tarih/Rasidüddin).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "ongut",
+  "ad": "Ongutler",
+  "tur": "hanlik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "1211-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Tianshan (Hohhot)",
+  "etkin_bolge": "Kuzey Cin siniri",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Cengiz'e 1204'te baglandi.",
+  "oncul": [],
+  "ardil": [
+   "mogol-imparatorlugu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Atwood, C.P., Encyclopedia of Mongolia and the Mongol Empire, Facts on File, 2004"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil yok.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "harizmsah",
+  "ad": "Harizmsahlar (Anustegin)",
+  "tur": "sultanlik",
+  "bolge": "orta-asya",
+  "f": "1097-01-01",
+  "t": "1231-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Gurgenc",
+  "etkin_bolge": "Harezm-Horasan",
+  "sehirler": [
+   "Gurgenc"
+  ],
+  "ozet": "",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "harizmsah",
+   "not": ""
+  }
+ },
+ {
+  "id": "mogol-imparatorlugu",
+  "ad": "Mogol Imparatorlugu",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "1206-01-01",
+  "t": "1260-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Karakurum",
+  "etkin_bolge": "Avrasya",
+  "sehirler": [
+   "Karakurum"
+  ],
+  "ozet": "1206 kurultay.",
+  "oncul": [
+   "kamag-mogol"
+  ],
+  "ardil": [
+   "altinorda",
+   "cagatay"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "mogol-imparatorlugu",
+   "not": ""
+  }
+ },
+ {
+  "id": "kipcak",
+  "ad": "Kipcaklar (Kumanlar)",
+  "tur": "boylar-birligi",
+  "bolge": "sibirya-bozkir",
+  "f": "1054-01-01",
+  "t": "1239-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Dest-i Kipcak",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "",
+  "oncul": [
+   "kimek"
+  ],
+  "ardil": [
+   "altinorda"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kipcak",
+   "not": ""
+  }
+ },
+ {
+  "id": "gurlu",
+  "ad": "Gurlular",
+  "tur": "sultanlik",
+  "bolge": "orta-asya",
+  "f": "1000-01-01",
+  "t": "1215-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Firuzkuh",
+  "etkin_bolge": "Gur",
+  "sehirler": [
+   "Firuzkuh"
+  ],
+  "ozet": "",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "gurlu",
+   "not": ""
+  }
+ },
+ {
+  "id": "cagatay",
+  "ad": "Cagatay Hanligi",
+  "tur": "hanlik",
+  "bolge": "orta-asya",
+  "f": "1227-01-01",
+  "t": "1370-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Almalik",
+  "etkin_bolge": "Maveraunnehir",
+  "sehirler": [
+   "Almalik"
+  ],
+  "ozet": "",
+  "oncul": [
+   "mogol-imparatorlugu"
+  ],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "cagatay",
+   "not": ""
+  }
+ },
+ {
+  "id": "altinorda",
+  "ad": "Altin Orda",
+  "tur": "hanlik",
+  "bolge": "sibirya-bozkir",
+  "f": "1242-01-01",
+  "t": "1502-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Saray",
+  "etkin_bolge": "Kipcak bozkiri",
+  "sehirler": [
+   "Saray"
+  ],
+  "ozet": "",
+  "oncul": [
+   "mogol-imparatorlugu"
+  ],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "altinorda",
+   "not": ""
+  }
+ },
+ {
+  "id": "ogedey-ulusu",
+  "ad": "Ogedey Ulusu",
+  "tur": "hanlik",
+  "bolge": "orta-asya",
+  "f": "1267-01-01",
+  "t": "1309-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "Tarbagatay",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Mogollarin Gizli Tarihi; Rasidüddin, Camiu't-tevarih; Atwood 2004"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "ogedey-ulusu",
+   "not": ""
+  }
+ }
+]

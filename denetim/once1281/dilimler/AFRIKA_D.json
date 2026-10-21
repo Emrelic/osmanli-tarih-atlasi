@@ -1,0 +1,456 @@
+[
+ {
+  "id": "bizans-afrika-eksarhligi",
+  "ad": "Bizans Afrika Eksarhlığı",
+  "tur": "eksarhlik",
+  "bolge": "kuzey-afrika",
+  "f": "0591-01-01",
+  "t": "0698-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kartaca",
+  "etkin_bolge": "Kartaca çevresi, Proconsularis, Numidya, Mauretania kıyıları",
+  "sehirler": [
+   "Kartaca",
+   "Hadrumetum",
+   "Septem (Ceuta)"
+  ],
+  "ozet": "Maurikios döneminde Bizans'ın Afrika sivil-askerî yönetimi; Müslüman fethi Kartaca'nın düşmesiyle (698) bitti.",
+  "oncul": [
+   "Vandal (534 sonrası Bizans Afrika prefektliği)"
+  ],
+  "ardil": [
+   "Emevî İfrîkıyesi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Oxford Dictionary of Byzantium s.v. Exarchate of Africa",
+   "Encyclopaedia of Islam s.v. Ifrikiya"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Prefektlikten eksarhlığa geçiş 580'ler/591; Kartaca'nın düşüşü 698 (kaynaklar 693-698 arası verir). 534-591 prefektlik dönemi ayrı kayıt gerekirse. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Eksarhlık ayrı künyesi yok."
+  }
+ },
+ {
+  "id": "altava-mauro-roma",
+  "ad": "Altava (Mauro-Roma) Krallığı",
+  "tur": "krallik",
+  "bolge": "kuzey-afrika",
+  "f": "0508-01-01",
+  "t": "0578-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Altava (Ouled Mimoun)",
+  "etkin_bolge": "Batı Cezayir (Tlemcen çevresi)",
+  "sehirler": [
+   "Altava"
+  ],
+  "ozet": "Masuna adlı 'Mauri ve Romalıların kralı'nın Berberî-Latin krallığı.",
+  "oncul": [
+   "Vandal"
+  ],
+  "ardil": [
+   "Bizans Afrika Eksarhlığı"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Altava yazıtı CIL VIII 9835 (508)",
+   "Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "f ilk yazıt tarihi (508), kuruluş daha eski olabilir; t 578 çok belirsiz. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mauri krallıkları için dayanak ikinci el."
+  }
+ },
+ {
+  "id": "nekor-emirligi",
+  "ad": "Nekor (Nekkûr) Emirliği",
+  "tur": "emirlik",
+  "bolge": "kuzey-afrika",
+  "f": "0710-01-01",
+  "t": "1019-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Nekor (Temsaman)",
+  "etkin_bolge": "Rif, kuzey Fas",
+  "sehirler": [
+   "Nekor",
+   "Mezemme"
+  ],
+  "ozet": "Sâlih b. Mansûr el-Himyerî'nin Rif'te kurduğu Müslüman emirlik; Salihîler hanedanı.",
+  "oncul": [],
+  "ardil": [
+   "İdrîsîler"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "TDV İslâm Ansiklopedisi s.v. Nekkûr"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "f 710 (bazı kaynaklar 709); t 1019 çok kaba. TDV'den doğrulanmalı. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "TDV birinci başvuru."
+  }
+ },
+ {
+  "id": "ifraniler-tilimsan",
+  "ad": "Yıfrenîler (Benî Yıfren - Tilimsan/Sala)",
+  "tur": "emirlik",
+  "bolge": "kuzey-afrika",
+  "f": "0742-01-01",
+  "t": "1066-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Tilimsan",
+  "etkin_bolge": "Orta-batı Mağrib (Tilimsan, Sala)",
+  "sehirler": [
+   "Tilimsan",
+   "Sala"
+  ],
+  "ozet": "Zenâte kabilesi Yıfren'in Sufrî Hâricî emiri Ebû Kurre ile başlayan emirlik.",
+  "oncul": [],
+  "ardil": [
+   "zeyyani",
+   "murabitlar"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Encyclopaedia of Islam s.v. Ifrenids"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sufrî Yıfrenîler (742) ile 10.-11. yy Tilimsan Yıfrenîleri (Yaʿlâ 987-1066) aynı polity sürekliliği olmayabilir; ayrı kayıt gerekebilir. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Doğrulamada ikiye bölünebilir."
+  }
+ },
+ {
+  "id": "zawila-hattabiler",
+  "ad": "Zavîle (Fizan) Hattâbî Emirliği",
+  "tur": "emirlik",
+  "bolge": "kuzey-afrika",
+  "f": "0918-01-01",
+  "t": "1172-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Zavîle",
+  "etkin_bolge": "Fizan (Libya)",
+  "sehirler": [
+   "Zavîle",
+   "Temenhint"
+  ],
+  "ozet": "Benî Hattâb'ın Hâricî İbâzî emirliği; Karakuş'un Fizan'ı almasıyla bitti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Encyclopaedia of Islam s.v. Zawila"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "f hanedan başlangıcı (10. yy); t Şerefeddin Karakuş fethi 1172 (kaba). [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Garamantes sonrası (666-918) Fizan boşluğunu doldurur."
+  }
+ },
+ {
+  "id": "wagadu-gane-erken",
+  "ad": "Wagadu (Gana) - Erken Dönem",
+  "tur": "krallik",
+  "bolge": "bati-afrika",
+  "f": "0790-01-01",
+  "t": "1076-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Kumbî Sâlih?",
+  "etkin_bolge": "Batı Sahel (Moritanya-Mali)",
+  "sehirler": [
+   "Kumbî Sâlih"
+  ],
+  "ozet": "İlk Arapça kaynaklarda (el-Fezârî) 'altın ülkesi Gâne'; Murâbıtlar 1076'da Kumbî'yi aldı.",
+  "oncul": [],
+  "ardil": [
+   "susu-kralligi",
+   "mali-imparatorlugu"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Levtzion, Ancient Ghana and Mali (1973)",
+   "Encyclopaedia of Islam s.v. Ghana"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Soninke geleneği 4. yy; Fezârî ~790 ilk anılış. f anılma tarihi, kuruluş değil. Mevcut 'gane' f=1000. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "gane",
+   "not": "Mevcut künyenin f'sini erkene çekme önerisi; ayrı kayıt gerekmez."
+  }
+ },
+ {
+  "id": "tekrur-erken",
+  "ad": "Tekrur - Erken Dönem",
+  "tur": "krallik",
+  "bolge": "bati-afrika",
+  "f": "0850-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Silla/Tekrur",
+  "etkin_bolge": "Senegal nehri vadisi",
+  "sehirler": [
+   "Silla",
+   "Takrur"
+  ],
+  "ozet": "İlk Arapça kaynaklarda (el-Yaʿkûbî, 9. yy) Takrūr; mevcut künyenin f'si 1000.",
+  "oncul": [],
+  "ardil": [
+   "tekrur-kralligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Levtzion & Hopkins, Corpus of Early Arabic Sources for West African History (1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Aynı polity; f genişletme önerisi. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "tekrur-kralligi",
+   "not": "Ayrı kayıt gerekmez."
+  }
+ },
+ {
+  "id": "kevkev-erken",
+  "ad": "Kevkev (Gao) - Erken Dönem",
+  "tur": "krallik",
+  "bolge": "bati-afrika",
+  "f": "0872-01-01",
+  "t": "1009-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Gao",
+  "etkin_bolge": "Nijer büklümü",
+  "sehirler": [
+   "Gao",
+   "Kukiya"
+  ],
+  "ozet": "El-Yaʿkûbî (872) Kawkaw'ı krallık olarak anar; mevcut 'kevkev' f=1000.",
+  "oncul": [],
+  "ardil": [
+   "kevkev"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Levtzion & Hopkins, Corpus (1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Aynı polity; genişletme. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "kevkev",
+   "not": "Ayrı kayıt gerekmez."
+  }
+ },
+ {
+  "id": "igbo-ukwu",
+  "ad": "Igbo-Ukwu Merkezi",
+  "tur": "sehir-devleti",
+  "bolge": "bati-afrika",
+  "f": "0850-01-01",
+  "t": "0950-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Igbo-Ukwu",
+  "etkin_bolge": "Güneydoğu Nijerya",
+  "sehirler": [
+   "Igbo-Ukwu"
+  ],
+  "ozet": "9.-10. yy'da dökme bronz ve kral/rahip mezarı bulunan merkez; siyasî yapısı belirsiz.",
+  "oncul": [],
+  "ardil": [
+   "nri"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Shaw, Igbo-Ukwu (1970)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yalnız arkeoloji; yöneten birimin adı bilinmiyor. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Siyasî birim olup olmadığı belirsiz."
+  }
+ },
+ {
+  "id": "zagava-krallik",
+  "ad": "Zağava Krallığı",
+  "tur": "krallik",
+  "bolge": "orta-afrika",
+  "f": "0800-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "bilinmiyor",
+  "etkin_bolge": "Çad-Darfur",
+  "sehirler": [],
+  "ozet": "Arapça kaynaklarda (Hârezmî, Yaʿkûbî) anılan Zağava krallığı; Kanem yanında.",
+  "oncul": [],
+  "ardil": [
+   "kanem-bornu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Levtzion & Hopkins Corpus (1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasî birim mi etnik ad mı belirsiz; t bilinmiyor; misir-sudan oturumuyla çakışabilir. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mısır oturumuna sorulmalı."
+  }
+ },
+ {
+  "id": "tadmekka",
+  "ad": "Tadmekka (Es-Sûk) Tuareg Şehri",
+  "tur": "sehir-devleti",
+  "bolge": "bati-afrika",
+  "f": "0850-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Tadmekka",
+  "etkin_bolge": "Adrar des Ifoghas (Mali)",
+  "sehirler": [
+   "Tadmekka"
+  ],
+  "ozet": "Sahra ticaret yolunda Tuareg şehri; İbn Havkal/Bekrî anlatır.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Nixon, Tadmekka: Archaeology of an Early Saharan Trading Town (2017)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasî birim mi bağımsız şehir mi belirsiz; t bilinmiyor. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Doğrulama gerekir."
+  }
+ },
+ {
+  "id": "sahra-sanhaca",
+  "ad": "Sahra Sanhâcası Konfederasyonu (Kudâle-Lemtûne)",
+  "tur": "konfederasyon",
+  "bolge": "bati-afrika",
+  "f": "0800-01-01",
+  "t": "1040-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Awdaghust?",
+  "etkin_bolge": "Batı Sahra",
+  "sehirler": [
+   "Awdaghust"
+  ],
+  "ozet": "Kudâle/Lemtûne Sanhâca kabile birliği; Murâbıt hareketi öncesi.",
+  "oncul": [],
+  "ardil": [
+   "murabitlar"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Levtzion, Ancient Ghana and Mali (1973)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Konfederasyonun dönemleri belirsiz; t Murâbıt hareketi başlangıcı (~1040). [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Murâbıt öncesi."
+  }
+ },
+ {
+  "id": "toutswe-sefligi",
+  "ad": "Toutswe Şeflikleri",
+  "tur": "seflik",
+  "bolge": "guney-afrika",
+  "f": "0700-01-01",
+  "t": "1300-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Toutswe",
+  "etkin_bolge": "Botsvana doğu tepeleri",
+  "sehirler": [
+   "Toutswe",
+   "Bosutswe"
+  ],
+  "ozet": "Sığırcılığa dayalı kademeli yerleşim hiyerarşisi.",
+  "oncul": [],
+  "ardil": [
+   "mapungubwe"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Denbow, Toutswe tradition (1986)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kültür mü siyasî birim mi belirsiz. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mapungubwe öncüsü sayılır."
+  },
+  "tur_yeni": "Arkeolojik şeflik düzeyi; sözlükte yok."
+ }
+]

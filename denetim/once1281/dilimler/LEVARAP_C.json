@@ -1,0 +1,334 @@
+[
+ {
+  "id": "gerrha",
+  "ad": "Cerha (Gerrha) Krallıgi",
+  "ad_yerel": "Gerrha",
+  "tur": "sehir-devleti",
+  "bolge": "arabistan",
+  "f": "-0399-01-01",
+  "t": "0100-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Gerrha",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Gerrha"
+  ],
+  "ozet": "Basra Korfezi Arap kiyisinda ticaret merkezi; III. Antiochos MO 205te sefer etti, daha sonra Hadramavt ve Kharaks ile rekabet etti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Konumu tartismali (Thaj?); sona erme tarihi yuzyil duzeyi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "fenike-ozerk-sehirleri",
+  "ad": "Fenike Ozerk Sehirleri (Helenistik-Roma)",
+  "ad_yerel": null,
+  "tur": "sehir-devleti",
+  "bolge": "suriye-filistin",
+  "f": "-0258-01-01",
+  "t": "-0062-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Arvad / Tire / Sayda",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Arvad",
+   "Tire",
+   "Sayda"
+  ],
+  "ozet": "Selevkos doneminde sehirler sirasiyla ozerklik kazandi (Arvad ~MO 259, Tire MO 126, Sayda MO 111); Pompeius duzenlemesiyle Roma eyaleti Suriye'ye baglandi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Ozerklik tarihleri sikke ara'lariyla (era) degil kronikle; hepsi okunmadi. Yalnizca taslak.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "iturya",
+  "ad": "Iturya (Itureans) Krallıgi",
+  "ad_yerel": null,
+  "tur": "krallik",
+  "bolge": "suriye-filistin",
+  "f": "-0099-01-01",
+  "t": "0092-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Kalkis (Chalcis ad Libanum)",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Kalkis",
+   "Heliopolis (Baalbek)"
+  ],
+  "ozet": "Lubnan ve Anti-Lubnan dağlarında Itureli Arap-Aramî kökenli prenslik; Hasmoni ve Roma ile mücadeleyle sonunda Chalcis krallıgi olarak Agrippa II ile bitti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Baslangic tarihi Hasmoni fetihleri ~MO 100; Chalcis krallari MS 92ye (Agrippa II) kadar.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "emesa",
+  "ad": "Emesa (Hims) Krallıgi",
+  "ad_yerel": null,
+  "tur": "vasal-krallik",
+  "bolge": "suriye-filistin",
+  "f": "-0089-01-01",
+  "t": "0078-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Emesa (Hims)",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Hims",
+   "Arethusa"
+  ],
+  "ozet": "Sampsigeramos hanedanı; Roma vasali, Baal (Elagabal) tapınağı; Sohaemus ve Iamblichus kral soyu Flavyuslar doneminde sona erdi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bitis tarihi yaklasik (Domitian/Vespasian doneminde); okunmadi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "abilene",
+  "ad": "Abilene Tetrarsisi",
+  "ad_yerel": null,
+  "tur": "prenslik",
+  "bolge": "suriye-filistin",
+  "f": "-0039-01-01",
+  "t": "0053-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Abila",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Abila"
+  ],
+  "ozet": "Lysanias hanedaninin Anti-Lubnan'da tetrarsisi; Agrippa II ile Herodes krallıgina katıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tum taslak.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dekapolis",
+  "ad": "Dekapolis (On Sehir Birligi)",
+  "ad_yerel": null,
+  "tur": "konfederasyon",
+  "bolge": "suriye-filistin",
+  "f": "-0062-01-01",
+  "t": "0200-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz (cok merkezli)",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Gerasa",
+   "Filadelfiya (Amman)",
+   "Gadara",
+   "Skythopolis"
+  ],
+  "ozet": "Pompeius'tan sonra Suriye ve Urdun'un helenistik on sehrinin gevsek ittifaki; Roma eyalet duzenlemesine kadar ortak sikke/yönetim.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasal birim mi cografi ad mi tartismali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bar-kohba",
+  "ad": "Bar Kohba Devleti (Israil)",
+  "ad_yerel": null,
+  "tur": "devlet",
+  "bolge": "suriye-filistin",
+  "f": "0132-01-01",
+  "t": "0135-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Betar",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Urusalim?",
+   "Betar"
+  ],
+  "ozet": "Simon Bar Kohba onderliginde Hadrianus aleyhine Yahudi isyani; sikkelerde \"Israil'in ozgurlugu\"; Betar dusmesiyle (135) bitti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Urusalim'i elinde tutup tutmadigi tartismali; gun duzeyi veri okunmadi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tenuh",
+  "ad": "Tenuh (Tanukh) Konfederasyonu",
+  "ad_yerel": null,
+  "tur": "konfederasyon",
+  "bolge": "suriye-filistin",
+  "f": "0200-01-01",
+  "t": "0630-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Hire civari",
+   "Kinesrin"
+  ],
+  "ozet": "Hire ve Suriye cevresinde Arap kabile konfederasyonu; Sasani ve Bizans arasinda foederati olarak kullanildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tum taslak; polity mi kabile mi belirsiz.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "salihid",
+  "ad": "Salih (Salihid) Arap Krallıgi",
+  "ad_yerel": null,
+  "tur": "kabile-kralligi",
+  "bolge": "suriye-filistin",
+  "f": "0380-01-01",
+  "t": "0500-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Suriye bozkırı"
+  ],
+  "ozet": "Bizans foederati Arap krallıgi; Gassani yukselisiyle V. yuzyil sonunda yerini birakti.",
+  "oncul": [],
+  "ardil": [
+   "gassani"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tum taslak; tarihler cok yaklasik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "mekke-kureys",
+  "ad": "Mekke Kureys Sehir Yonetimi",
+  "ad_yerel": null,
+  "tur": "sehir-devleti",
+  "bolge": "arabistan",
+  "f": "0450-01-01",
+  "t": "0630-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Mekke",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Mekke",
+   "Taif"
+  ],
+  "ozet": "Kusayy b. Kilab ile Kureys'in Mekke yonetimini ustlenmesi (Daru'n-nedve); Mekke'nin fethine (630) kadar kabile meclisi yonetimi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Fetih tarihi 8 H Ramazan = ocak 630 (TDV/Islam Ans.); okunmadi, yil kesinligiyle yazildi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

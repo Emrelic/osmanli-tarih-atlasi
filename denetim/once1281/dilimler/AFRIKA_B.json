@@ -1,0 +1,77 @@
+[
+ {
+  "id": "utica",
+  "ad": "Utica (Utika) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "kuzey-afrika",
+  "f": "-1100-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Utica",
+  "etkin_bolge": "Bizerte körfezi, Medjerda ağzı (Tunus)",
+  "sehirler": [
+   "Utica"
+  ],
+  "ozet": "Geleneksel olarak Tyros kolonisi; MÖ 146'dan sonra Roma Africa eyaletinin başkenti.",
+  "oncul": [
+   "Sur (Tyros)"
+  ],
+  "ardil": [
+   "Roma Africa eyaleti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Brill's New Pauly s.v. Utica",
+   "Oxford Classical Dictionary s.v. Utica"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş geleneksel tarihi (MÖ ~1101, Velleius/Pliny) ile arkeolojik tarih (MÖ ~800-750) çelişir; f geleneksel. t yazılmadı: Kartaca'ya bağımlı mı bağımsız mı belirsiz. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "barka",
+  "ad": "Barka (Barke) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "kuzey-afrika",
+  "f": "-0560-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "onyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Barka",
+  "etkin_bolge": "Kirenayka iç kesimi (Libya, el-Marj)",
+  "sehirler": [
+   "Barka",
+   "Euesperides"
+  ],
+  "ozet": "Kyrene'den ayrılan Yunan muhacirlerin kurduğu polis; Perslere bağlandı.",
+  "oncul": [
+   "Kyrene"
+  ],
+  "ardil": [
+   "Ptolemaios Kirenaykası"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Herodotos IV.160-205",
+   "Brill's New Pauly s.v. Barce"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş MÖ ~560 (Herodotos); t belirsiz. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut 'kyrene' künyesinden ayrı polis."
+  }
+ }
+]

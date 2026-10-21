@@ -1,0 +1,591 @@
+[
+ {
+  "id": "kuru-vedik",
+  "ad": "Kuru (Vedik Kuru Krallığı → Kuru Mahajanapada)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-1199-01-01",
+  "t": "-0449-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Asandivat → Hastinapura → Indraprastha",
+  "etkin_bolge": "Yukarı Ganj-Yamuna doabı, Haryana/Kuruksetra",
+  "sehirler": [
+   "Hastinapura",
+   "Indraprastha",
+   "Kuruksetra"
+  ],
+  "ozet": "Geç Vedik dönemde Bharata-Puru birleşmesinden doğan, Vedik metinlerin derlendiği ilk devlet benzeri yapı; sonra Mahajanapada olarak sürdü ve Magadha öncesi silindi.",
+  "oncul": [],
+  "ardil": [
+   "magadha"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Witzel'in geç Vedik Kuru-Pancala çerçevesi; t Magadha genişlemesi öncesi gevşek tahmin.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "pancala",
+  "ad": "Pancala (Kampilya) Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0999-01-01",
+  "t": "-0344-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Kampilya (Ahicchatra kuzey kolu)",
+  "etkin_bolge": "Yukarı Doab doğusu, Ruhelkhand",
+  "sehirler": [
+   "Kampilya",
+   "Ahicchatra",
+   "Kannauj"
+  ],
+  "ozet": "Geç Vedik Kuru ile birlikte anılan krallık; Mahajanapada olarak sürdü, Nanda genişlemesiyle Magadha'ya katıldı.",
+  "oncul": [],
+  "ardil": [
+   "nanda"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "t = Nanda yükselişi (gelenek MÖ 345); Pancala-Kuru ilişkisi tartışmalı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "kashi",
+  "ad": "Kashi (Kasi) Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0799-01-01",
+  "t": "-0549-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Varanasi",
+  "etkin_bolge": "Orta Ganj havzası, Varanasi çevresi",
+  "sehirler": [
+   "Varanasi"
+  ],
+  "ozet": "Erken Budist metinlerde güçlü krallık; Buda öncesi Kosala'ya katıldı.",
+  "oncul": [],
+  "ardil": [
+   "kosala"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f Upanisad dönemi belirsiz tahmin; t Kosala'ya katılma.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "kosala",
+  "ad": "Kosala Krallığı (Savatthi/Ayodhya)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0699-01-01",
+  "t": "-0449-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Savatthi (Sravasti)",
+  "etkin_bolge": "Gorakhpur-Ayodhya çevresi",
+  "sehirler": [
+   "Savatthi",
+   "Ayodhya",
+   "Saketa"
+  ],
+  "ozet": "Buda'nın çağdaşı Prasenajit'le doruğa çıkan Mahajanapada; Magadha ile savaşlarla zayıfladı ve katıldı.",
+  "oncul": [
+   "kashi"
+  ],
+  "ardil": [
+   "magadha"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "t gevşek tahmin; kesin katılma Nanda'ya da bağlanabilir.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok (Magadha yazısı içinde anılır)."
+  }
+ },
+ {
+  "id": "anga",
+  "ad": "Anga Mahajanapadası",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0542-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Campa",
+  "etkin_bolge": "Doğu Bihar, Bhagalpur",
+  "sehirler": [
+   "Campa"
+  ],
+  "ozet": "Bimbisara tarafından Magadha'ya katıldı (gelenek MÖ ~543).",
+  "oncul": [],
+  "ardil": [
+   "magadha"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Magadha yazısı (f=-0542) Anga'yı içerir."
+  }
+ },
+ {
+  "id": "vatsa",
+  "ad": "Vatsa (Vamsa) Mahajanapadası",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0344-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Kausambi",
+  "etkin_bolge": "Allahabad çevresi",
+  "sehirler": [
+   "Kausambi"
+  ],
+  "ozet": "Udayana'nın Kausambi'si; Avanti ve sonra Magadha/Nanda'ya katıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. t Nanda genişlemesi tahmini.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "avanti",
+  "ad": "Avanti Mahajanapadası (Ujjain/Mahishmati)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0412-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Ujjayini (Ujjain) / Mahishmati",
+  "etkin_bolge": "Malva",
+  "sehirler": [
+   "Ujjain",
+   "Mahishmati"
+  ],
+  "ozet": "Pradyota hanedanıyla güçlü rakip; gelenekte Sisunaga eliyle Magadha'ya katıldı.",
+  "oncul": [],
+  "ardil": [
+   "magadha"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. t kaynaklar arası çelişkili.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "gandhara-mahajanapada",
+  "ad": "Gandhara Mahajanapadası (Taksila/Pushkalavati)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0517-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Taksila / Pushkalavati",
+  "etkin_bolge": "Peşaver-Taksila çevresi",
+  "sehirler": [
+   "Taksila",
+   "Pushkalavati"
+  ],
+  "ozet": "Pukkusati zamanı Gandhara; Ahameniş Darius genişlemesiyle Pers satraplığına katıldı.",
+  "oncul": [],
+  "ardil": [
+   "maurya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. Ahameniş Gandhara/Hindus satraplığı iran bölgesi ajanının kapsamı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "kamboja",
+  "ad": "Kamboja Mahajanapadası",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0329-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Rajapura (varsayım)",
+  "etkin_bolge": "Hindukush güneyi-Kuzeybatı",
+  "sehirler": [
+   "Rajapura",
+   "Dvaraka"
+  ],
+  "ozet": "Kuzeybatı Kamboja; Ahameniş ve Aleksandros dönemlerinde yutuldu, Asoka fermanlarında anılır.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. Konumu (Hindukush/Pamir) tartışmalı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "vajji",
+  "ad": "Vajji (Vrji) Konfederasyonu (Vaisali)",
+  "tur": "konfederasyon",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0482-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Vaisali",
+  "etkin_bolge": "Kuzey Bihar, Gandak kuzeyi",
+  "sehirler": [
+   "Vaisali",
+   "Mithila"
+  ],
+  "ozet": "Licchavi, Videha vb. kabilelerin cumhuriyet konfederasyonu; Ajatasattu tarafından fethedildi.",
+  "oncul": [],
+  "ardil": [
+   "magadha"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. t Ajatasattu savaşları (~MÖ 484-468); Buda'nın ölüm tarihi okullara bağlı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "malla",
+  "ad": "Malla Cumhuriyetleri (Kusinara/Pava)",
+  "tur": "cumhuriyet",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0399-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kusinara / Pava",
+  "etkin_bolge": "Gorakhpur çevresi",
+  "sehirler": [
+   "Kusinara",
+   "Pava"
+  ],
+  "ozet": "Buda'nın öldüğü Kusinara'yı da içeren Malla gan-sanghası; Magadha'ya katıldı.",
+  "oncul": [],
+  "ardil": [
+   "magadha"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. t gevşek tahmin.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "chedi",
+  "ad": "Chedi (Cetiya) Mahajanapadası",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0344-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Suktimati (Sotthivati-nagara)",
+  "etkin_bolge": "Bundelkhand",
+  "sehirler": [
+   "Suktimati"
+  ],
+  "ozet": "Yamuna-Narmada arası Chedi; sonradan Magadha etkisi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. Kalinga'daki Mahameghavahana Chedi'si ayrı kayıt.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "matsya",
+  "ad": "Matsya Mahajanapadası",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0344-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Viratanagara",
+  "etkin_bolge": "Alwar-Jaipur çevresi",
+  "sehirler": [
+   "Viratanagara"
+  ],
+  "ozet": "Mahajanapada listelerinde yer alır; Surasena komşusu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "surasena",
+  "ad": "Surasena Mahajanapadası (Mathura)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0344-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Mathura",
+  "etkin_bolge": "Yamuna orta kesim",
+  "sehirler": [
+   "Mathura"
+  ],
+  "ozet": "Mathura merkezli Mahajanapada; Magadha'ya katıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "assaka",
+  "ad": "Assaka (Asmaka) Mahajanapadası",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0599-01-01",
+  "t": "-0344-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Potana (Podana)",
+  "etkin_bolge": "Godavari havzası",
+  "sehirler": [
+   "Potana"
+  ],
+  "ozet": "Güneydeki tek Mahajanapada; sonrası belirsiz.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mahajanapada cagi baslangici (Anguttara Nikaya listeleri ~MO 6. yy) f olarak kullanildi; kurulus yili kaynakli degil. Konum (Godavari) tartışmalı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "anuradhapura",
+  "ad": "Anuradhapura Krallığı (Sri Lanka)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0376-01-01",
+  "t": "1017-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Anuradhapura",
+  "etkin_bolge": "Sri Lanka kuzey-orta",
+  "sehirler": [
+   "Anuradhapura",
+   "Mihintale",
+   "Sigiriya"
+  ],
+  "ozet": "Mahavamsa geleneğinde Pandukabhaya MÖ 377 ile Anuradhapura başkent; Çola işgaliyle 1017'de düştü.",
+  "oncul": [],
+  "ardil": [
+   "polonnaruwa"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Gelenekte Vijaya MÖ 543/Tambapanni; 377 = Pandukabhaya; Mahavamsa çıkarımı. Sigiriya merkezi 477-495 geçici.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "seylan-sinhala",
+   "not": "Mevcut seylan-sinhala 1070'ten başlar; Anuradhapura dönemi eksik."
+  }
+ },
+ {
+  "id": "kalinga-eski",
+  "ad": "Kalinga (Maurya öncesi)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": null,
+  "t": "-0260-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Dantapura / Sisupalgarh",
+  "etkin_bolge": "Odisha-Kuzey Andhra",
+  "sehirler": [
+   "Tosali",
+   "Dantapura"
+  ],
+  "ozet": "Asoka'nın MÖ ~261 Kalinga seferiyle Maurya'ya katıldı.",
+  "oncul": [],
+  "ardil": [
+   "maurya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f: yil bilinmiyor. Asoka 13. Kaya Fermanı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok (Maurya içinde)."
+  }
+ },
+ {
+  "id": "paurava",
+  "ad": "Paurava (Poros) Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": null,
+  "t": "-0316-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Jhelum-Chenab arası",
+  "etkin_bolge": "Pencap",
+  "sehirler": [],
+  "ozet": "Aleksandros'un Hydaspes (MÖ 326) rakibi; tahtta bırakıldı, MÖ ~317'de ortadan kalktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f: yil bilinmiyor. Kuruluşu bilinmiyor.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "maldivler-budist",
+  "ad": "Maldiv Budist Krallıkları (İslam öncesi)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": null,
+  "t": "1153-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Malé",
+  "etkin_bolge": "Maldiv adaları",
+  "sehirler": [
+   "Malé"
+  ],
+  "ozet": "Hanedan tarihi sınırlı; geleneksel olarak 1153'te İslamlaşma/Sultanlık.",
+  "oncul": [],
+  "ardil": [
+   "maldivler-sultanligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f: yil bilinmiyor. Kuruluş yılı bilinmiyor.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut maldivler-sultanligi f=1153 ile bitişik."
+  }
+ }
+]

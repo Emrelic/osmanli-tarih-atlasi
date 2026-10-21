@@ -1,0 +1,747 @@
+[
+ {
+  "id": "tiwanaku-devleti",
+  "ad": "Tiwanaku Devleti",
+  "tur": "devlet",
+  "bolge": "guney-amerika",
+  "f": "0500-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Tiwanaku",
+  "etkin_bolge": "Titikaka havzası, Güney And",
+  "sehirler": [
+   "Tiwanaku",
+   "Lukurmata"
+  ],
+  "ozet": "Titikaka çevresi devleti, 1000 civarı kuraklıkla çöküş.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "tiwanaku-devleti",
+   "not": "Mevcut tiwanaku ve tiwanaku-devleti mükerrer; t 1010/1150 farklı."
+  }
+ },
+ {
+  "id": "wari",
+  "ad": "Wari (Huari) Devleti",
+  "tur": "imparatorluk",
+  "bolge": "guney-amerika",
+  "f": "0600-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Huari",
+  "etkin_bolge": "Orta And, Ayacucho",
+  "sehirler": [
+   "Huari",
+   "Pikillacta",
+   "Cerro Baúl"
+  ],
+  "ozet": "Orta Ufuk fetih devleti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "wari",
+   "not": "Künye t=800, kaynaklar 1000'e dek uzatır."
+  }
+ },
+ {
+  "id": "sican",
+  "ad": "Sicán (Lambayeque) Devleti",
+  "tur": "devlet",
+  "bolge": "guney-amerika",
+  "f": "0750-01-01",
+  "t": "1375-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Batán Grande → Túcume",
+  "etkin_bolge": "Peru kuzey kıyısı",
+  "sehirler": [
+   "Batán Grande",
+   "Túcume"
+  ],
+  "ozet": "Moche sonrası kuzey kıyısı devleti; Chimú tarafından fethedildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sican",
+   "not": ""
+  }
+ },
+ {
+  "id": "chachapoya",
+  "ad": "Chachapoya Şeflikleri",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "0800-01-01",
+  "t": "1470-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kuélap",
+  "etkin_bolge": "Amazonas, Peru",
+  "sehirler": [
+   "Kuélap",
+   "Gran Vilaya"
+  ],
+  "ozet": "Bulut Savaşçıları; Inka fethine dek.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı."
+  }
+ },
+ {
+  "id": "manteno",
+  "ad": "Manteño-Huancavilca Şeflikleri",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "0800-01-01",
+  "t": "1534-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Manta / Agua Blanca",
+  "etkin_bolge": "Ekvador kıyısı",
+  "sehirler": [
+   "Manta",
+   "Agua Blanca"
+  ],
+  "ozet": "Deniz ticaretiyle bilinen kıyı şeflik konfederasyonu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı."
+  }
+ },
+ {
+  "id": "kaanul",
+  "ad": "Kaanul (Kaan, Yılan Krallığı)",
+  "tur": "krallik",
+  "bolge": "orta-amerika",
+  "f": "0500-01-01",
+  "t": "0909-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Dzibanché → Calakmul",
+  "etkin_bolge": "Campeche-Quintana Roo",
+  "sehirler": [
+   "Calakmul",
+   "Dzibanché"
+  ],
+  "ozet": "Mutul'un baş rakibi, 7. yy'da Calakmul'a taşınan Yılan Krallığı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Başlangıç tarihi yüzyıl düzeyi (5.-6. yy); Calakmul son stel 909."
+  }
+ },
+ {
+  "id": "dos-pilas-petexbatun",
+  "ad": "Dos Pilas / Petexbatún Krallığı",
+  "tur": "krallik",
+  "bolge": "orta-amerika",
+  "f": "0648-01-01",
+  "t": "0761-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Dos Pilas",
+  "etkin_bolge": "Petexbatún gölü",
+  "sehirler": [
+   "Dos Pilas",
+   "Aguateca"
+  ],
+  "ozet": "Mutul'dan ayrılıp Kaan müttefiki olan krallık; 761 civarı çöküş.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Hafızadan taslak."
+  }
+ },
+ {
+  "id": "coba",
+  "ad": "Cobá Krallığı",
+  "tur": "sehir-devleti",
+  "bolge": "orta-amerika",
+  "f": "0600-01-01",
+  "t": "1100-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Cobá",
+  "etkin_bolge": "Quintana Roo",
+  "sehirler": [
+   "Cobá"
+  ],
+  "ozet": "Yucatán'ın doğusunda yol (sacbe) ağlı merkez.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Tarihler kaba."
+  }
+ },
+ {
+  "id": "uxmal",
+  "ad": "Uxmal (Puuc) Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "orta-amerika",
+  "f": "0700-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Uxmal",
+  "etkin_bolge": "Puuc bölgesi",
+  "sehirler": [
+   "Uxmal",
+   "Kabah"
+  ],
+  "ozet": "Terminal Klasik Puuc merkezi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Tarihler kaba."
+  }
+ },
+ {
+  "id": "chichen-itza",
+  "ad": "Chichén Itzá Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "orta-amerika",
+  "f": "0800-01-01",
+  "t": "1200-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Chichén Itzá",
+  "etkin_bolge": "Kuzey Yucatán",
+  "sehirler": [
+   "Chichén Itzá"
+  ],
+  "ozet": "Terminal Klasik-Erken Postklasik Yucatán hegemonyası; Mayapán'a geçiş.",
+  "oncul": [],
+  "ardil": [
+   "mayapan-birligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Çöküş tarihi (~1000-1200) tartışmalı; Mayapán ile örtüşme."
+  }
+ },
+ {
+  "id": "xochicalco",
+  "ad": "Xochicalco",
+  "tur": "devlet",
+  "bolge": "orta-amerika",
+  "f": "0700-01-01",
+  "t": "0900-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Xochicalco",
+  "etkin_bolge": "Morelos",
+  "sehirler": [
+   "Xochicalco"
+  ],
+  "ozet": "Epiklasik kale-şehir devleti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "xochicalco",
+   "not": ""
+  }
+ },
+ {
+  "id": "cacaxtla",
+  "ad": "Cacaxtla-Xochitécatl (Olmeca-Xicalanca)",
+  "tur": "sehir-devleti",
+  "bolge": "orta-amerika",
+  "f": "0650-01-01",
+  "t": "0900-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Cacaxtla",
+  "etkin_bolge": "Tlaxcala",
+  "sehirler": [
+   "Cacaxtla"
+  ],
+  "ozet": "Epiklasik Olmeca-Xicalanca merkezi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Tarihler kaba."
+  }
+ },
+ {
+  "id": "el-tajin",
+  "ad": "El Tajín (Totonak)",
+  "tur": "sehir-devleti",
+  "bolge": "orta-amerika",
+  "f": "0600-01-01",
+  "t": "1200-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "El Tajín",
+  "etkin_bolge": "Veracruz",
+  "sehirler": [
+   "El Tajín"
+  ],
+  "ozet": "Klasik sonrası Veracruz merkezi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Totonak bağı tartışmalı."
+  }
+ },
+ {
+  "id": "cotzumalguapa",
+  "ad": "Cotzumalguapa (Pipil öncesi)",
+  "tur": "seflik",
+  "bolge": "orta-amerika",
+  "f": "0650-01-01",
+  "t": "0950-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Bilbao / El Baúl",
+  "etkin_bolge": "Guatemala Pasifik ovası",
+  "sehirler": [
+   "El Baúl",
+   "Bilbao"
+  ],
+  "ozet": "Epiklasik Pasifik kıyısı Cotzumalguapa şefliği.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı."
+  }
+ },
+ {
+  "id": "cholula",
+  "ad": "Cholula (Olmeca-Xicalanca / Toltek-Çiçimek)",
+  "tur": "sehir-devleti",
+  "bolge": "orta-amerika",
+  "f": "0600-01-01",
+  "t": "1519-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Cholula",
+  "etkin_bolge": "Puebla vadisi",
+  "sehirler": [
+   "Cholula"
+  ],
+  "ozet": "Teotihuacan sonrası kutsal şehir devleti; Cortés katliamıyla (Ekim 1519) son.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Fatih tarihi 1281 sonrası; polity sürdüğünden dahil."
+  }
+ },
+ {
+  "id": "tilantongo-mixtek",
+  "ad": "Mixtek Krallıkları (Ñuu Dzahui) / Tilantongo",
+  "tur": "konfederasyon",
+  "bolge": "orta-amerika",
+  "f": "0692-01-01",
+  "t": "1521-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Tilantongo",
+  "etkin_bolge": "Oaxaca Mixteca",
+  "sehirler": [
+   "Tilantongo",
+   "Tututepec",
+   "Yanhuitlán"
+  ],
+  "ozet": "Codex geleneğine göre 692 civarı Tilantongo hanedanı; Tututepec ayrı krallık olarak yükseldi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Codex tarihlendirmesi (Smith) belirsiz; f yüzyıl düzeyi."
+  }
+ },
+ {
+  "id": "huasteca",
+  "ad": "Huastek (Teenek) Şeflikleri",
+  "tur": "seflik",
+  "bolge": "orta-amerika",
+  "f": "0900-01-01",
+  "t": "1521-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Tamtoc?",
+  "etkin_bolge": "Doğu-Orta Meksika Körfez kıyısı",
+  "sehirler": [
+   "Tamtoc",
+   "Tantoc"
+  ],
+  "ozet": "Huastek kültür alanı; siyasî birlik düzeyi tartışmalı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı."
+  }
+ },
+ {
+  "id": "chorotega",
+  "ad": "Chorotega (Nicoya) Şeflikleri",
+  "tur": "seflik",
+  "bolge": "orta-amerika",
+  "f": "0800-01-01",
+  "t": "1523-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Nicoya",
+  "etkin_bolge": "Nikaragua-Kosta Rika",
+  "sehirler": [
+   "Nicoya",
+   "Nicaragua"
+  ],
+  "ozet": "Orta Meksika'dan göç eden Mangue grupları; geliş tarihi 800 / 1200 arasında tartışmalı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı; göç tarihi çelişkili."
+  }
+ },
+ {
+  "id": "cocle-panama",
+  "ad": "Coclé Şeflikleri",
+  "tur": "seflik",
+  "bolge": "orta-amerika",
+  "f": "0700-01-01",
+  "t": "1520-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Sitio Conte",
+  "etkin_bolge": "Panama",
+  "sehirler": [
+   "Sitio Conte",
+   "El Caño"
+  ],
+  "ozet": "Altın işçiliği ve zengin mezarlarıyla bilinen Panama şefliği.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı."
+  }
+ },
+ {
+  "id": "spiro",
+  "ad": "Spiro (Caddo Mississippi şefliği)",
+  "tur": "seflik",
+  "bolge": "kuzey-amerika",
+  "f": "0850-01-01",
+  "t": "1450-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Spiro",
+  "etkin_bolge": "Arkansas nehri, Oklahoma",
+  "sehirler": [
+   "Spiro"
+  ],
+  "ozet": "Caddo Mississippi dönemi tören-mezarlık merkezi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "spiro",
+   "not": "Şeflik/tartışmalı."
+  }
+ },
+ {
+  "id": "ata-pueblo",
+  "ad": "Ancestral Puebloan (Chaco Kanyonu ve Mesa Verde)",
+  "tur": "seflik",
+  "bolge": "kuzey-amerika",
+  "f": "0850-01-01",
+  "t": "1300-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Chaco Kanyonu (Pueblo Bonito)",
+  "etkin_bolge": "Four Corners",
+  "sehirler": [
+   "Pueblo Bonito",
+   "Mesa Verde"
+  ],
+  "ozet": "Chaco etkileşim alanı ve Mesa Verde; devlet değil, hiyerarşi tartışmalı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "ata-pueblo",
+   "not": "Şeflik/tartışmalı; Chaco zirvesi ~900-1150."
+  }
+ },
+ {
+  "id": "norse-gronland",
+  "ad": "Norse Grönland (Doğu ve Batı yerleşimi)",
+  "tur": "cumhuriyet",
+  "bolge": "kuzey-amerika",
+  "f": "0985-01-01",
+  "t": "1450-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Garðar",
+  "etkin_bolge": "Grönland güney-batı",
+  "sehirler": [
+   "Brattahlíð",
+   "Garðar"
+  ],
+  "ozet": "Kızıl Erik'le 985'te kuruluş; 15. yy'da terk.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "norse-gronland",
+   "not": "Bölge Kuzey Amerika olarak künyeli; siyasî statü (İzlanda/Norveç bağı) ayrıca kodlanabilir."
+  }
+ },
+ {
+  "id": "toltek",
+  "ad": "Toltek Devleti (Tollan/Tula)",
+  "tur": "devlet",
+  "bolge": "orta-amerika",
+  "f": "0900-01-01",
+  "t": "1150-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Tula",
+  "etkin_bolge": "Hidalgo",
+  "sehirler": [
+   "Tula"
+  ],
+  "ozet": "Postklasik Orta Meksika devleti; tarih ile efsane karışık.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "toltek",
+   "not": "Efsanevî veri; Tula Chico/Grande ayrımı yok."
+  }
+ },
+ {
+  "id": "chimu",
+  "ad": "Chimor (Chimú) Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-amerika",
+  "f": "0900-01-01",
+  "t": "1470-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Chan Chan",
+  "etkin_bolge": "Peru kuzey kıyısı",
+  "sehirler": [
+   "Chan Chan"
+  ],
+  "ozet": "Moche sonrası ve Sicán'ı fetheden kıyı krallığı; Inka ile 1470.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "chimu",
+   "not": "Künye f=1000; kuruluş ~900 de savunulur. chimu ve chimu-krallik mükerrer."
+  }
+ },
+ {
+  "id": "tairona",
+  "ad": "Tairona Şeflikleri",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "0800-01-01",
+  "t": "1600-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Ciudad Perdida (Teyuna)",
+  "etkin_bolge": "Sierra Nevada de Santa Marta",
+  "sehirler": [
+   "Teyuna",
+   "Pueblito"
+  ],
+  "ozet": "Sierra Nevada'nın taş yollu şeflik ağı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "tairona",
+   "not": "Şeflik/tartışmalı. f=800 D dilimi, ancak Teyuna ~800 sonrası; 'Tairona' kimliği daha erken de başlatılır."
+  }
+ }
+]

@@ -1,0 +1,327 @@
+[
+ {
+  "id": "balhae",
+  "ad": "Balhae (Bohai)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0698-01-01",
+  "t": "0926-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dongmozu -> Sanggyeong",
+  "etkin_bolge": "Kore/Japonya",
+  "sehirler": [
+   "Dongmozu",
+   "Sanggyeong"
+  ],
+  "ozet": "Kuzey Kore ve Mancurya; 926'da Khitan fethi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "balhae",
+   "not": ""
+  }
+ },
+ {
+  "id": "nara-japonya",
+  "ad": "Nara Dönemi",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0710-01-01",
+  "t": "0794-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Heijo-kyo",
+  "etkin_bolge": "Kore/Japonya",
+  "sehirler": [
+   "Heijo-kyo"
+  ],
+  "ozet": "Nara'da imparatorluk sarayi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "nara-japonya",
+   "not": ""
+  }
+ },
+ {
+  "id": "heian-japonya",
+  "ad": "Heian Dönemi",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0794-01-01",
+  "t": "1185-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Heian-kyo",
+  "etkin_bolge": "Kore/Japonya",
+  "sehirler": [
+   "Heian-kyo"
+  ],
+  "ozet": "Heian imparatorluk sarayi; Kamakura'da bakufu 1185.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Saray 1868'e kadar surer; 1185 sadece fiili iktidar degisimi. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "heian-japonya",
+   "not": ""
+  }
+ },
+ {
+  "id": "hubaekje",
+  "ad": "Sonraki Baekje",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0892-01-01",
+  "t": "0936-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Wansan",
+  "etkin_bolge": "Kore/Japonya",
+  "sehirler": [
+   "Wansan"
+  ],
+  "ozet": "Gyeonhwon'un kurdugu krallik.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "hubaekje",
+   "not": ""
+  }
+ },
+ {
+  "id": "taebong",
+  "ad": "Taebong (Sonraki Goguryeo)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0901-01-01",
+  "t": "0918-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Cheorwon",
+  "etkin_bolge": "Kore/Japonya",
+  "sehirler": [
+   "Cheorwon"
+  ],
+  "ozet": "Gungye'nin kurdugu krallik.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "taebong",
+   "not": ""
+  }
+ },
+ {
+  "id": "baekje-restorasyon",
+  "ad": "Baekje Restorasyon Hareketi (Buheung)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0660-01-01",
+  "t": "0663-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Churyu-seong",
+  "etkin_bolge": "Guneybati Kore",
+  "sehirler": [
+   "Churyu"
+  ],
+  "ozet": "660 cokusunden sonra Buyeo Pung ile Japon destekli direnis; 663 Baekgang yenilgisi.",
+  "oncul": [
+   "baekje"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Devlet duzeyi tartismali. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bodeok-goguryeo",
+  "ad": "Bodeok (Goguryeo Restorasyon) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0670-01-01",
+  "t": "0674-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Hansong-ju / Geumma-jeo",
+  "etkin_bolge": "Kuzey Kore ve Honam",
+  "sehirler": [
+   "Geumma"
+  ],
+  "ozet": "668 sonrasi Goguryeo soylusu Anseung ile Silla destekli kisa omurlu devlet.",
+  "oncul": [
+   "goguryeo"
+  ],
+  "ardil": [
+   "silla"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklasik. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dongdan",
+  "ad": "Dongdan (Dogu Dan) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0926-01-01",
+  "t": "0936-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Hulhan-seong -> Dongpyeong",
+  "etkin_bolge": "Eski Balhae, Liao vasali",
+  "sehirler": [
+   "Dongpyeong"
+  ],
+  "ozet": "Balhae'nin Khitan fethi (926) sonrasi Yelu Bei yonetiminde vasal krallik.",
+  "oncul": [
+   "balhae"
+  ],
+  "ardil": [
+   "liao-hanedani"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sonu 936-937 arasi; belirsiz. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "jeongan-krallik",
+  "ad": "Jeongan Devleti",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0935-01-01",
+  "t": "0986-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Amnok havzasi",
+  "etkin_bolge": "Yalu havzasi",
+  "sehirler": [
+   "Amnok"
+  ],
+  "ozet": "Balhae soylu kalintilari; Liao'ya karsi Curcen ittifaki; 986 civari yikildi.",
+  "oncul": [
+   "balhae"
+  ],
+  "ardil": [
+   "liao-hanedani"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kurulus tarihi ve devlet duzeyi tartismali. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "masakado-shinno",
+  "ad": "Taira no Masakado'nun Yeni Imparatorlugu",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0939-12-01",
+  "t": "0940-02-01",
+  "kesinlik": {
+   "f": "ay",
+   "t": "ay"
+  },
+  "baskent": "Shimosa Ishii",
+  "etkin_bolge": "Kanto",
+  "sehirler": [
+   "Ishii"
+  ],
+  "ozet": "939'da isyan eden Taira no Masakado kendini Yeni Imparator ilan etti; 940'ta yenildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Ay bile taslak; kisa omur. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

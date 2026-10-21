@@ -1,0 +1,36 @@
+[
+ {
+  "id": "gojoseon",
+  "ad": "Gojoseon (Eski Joseon)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0699-01-01",
+  "t": "-0193-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Asadal -> Wanggeom (Pyongyang yoresi; tartismali)",
+  "etkin_bolge": "Liaodong ve kuzeybati Kore",
+  "sehirler": [
+   "Wanggeom",
+   "Asadal"
+  ],
+  "ozet": "Kore geleneginde Dangun'un kurdugu ilk devlet; Cin kaynaklarinda MO 7. yy'dan anilir, MO 4. yy'da Yan ile savasir; Wi Man MO 194'te tahti alir.",
+  "oncul": [],
+  "ardil": [
+   "wiman-joseon"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Gojoseon (okundu; yalniz aday kaynak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Gelenek: Dangun MO 2333 (efsanevi, kullanilmadi). Byington'a gore devlet duzeyinde bir polity olup olmadigi belirsiz. f: MO 7. yy Cin anmasi, devlet iddiasi degil. Baskent konumu MO 300 civari / MO 2. yy celiskili. t = Wi Man darbesi MO 194. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlasta yok; Wiman Joseon -0193'ten basliyor, oncesi eksik."
+  }
+ }
+]

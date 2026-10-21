@@ -1,0 +1,1221 @@
+[
+ {
+  "id": "tohar-yabgu",
+  "ad": "Tokharistan Yabguluğu (Bati Turk vasali)",
+  "tur": "yabgu-devleti",
+  "bolge": "orta-asya",
+  "f": "0630-01-01",
+  "t": "0750-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kunduz",
+  "etkin_bolge": "Tokharistan: Caganiyan, Huttal, Termez",
+  "sehirler": [
+   "Kunduz",
+   "Balh",
+   "Termez",
+   "Caganiyan"
+  ],
+  "ozet": "Bati Gokturk'un Eftalit mirasi uzerine kurdugu vasal yabgu; yerel sahliklar.",
+  "oncul": [
+   "eftalit"
+  ],
+  "ardil": [
+   "samani (Caganiyan Muhtacogullari)"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998",
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Tarihler yuzyil duzeyi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "gokturk-1",
+  "ad": "Birinci Gokturk Kaganligi",
+  "tur": "kaganlik",
+  "bolge": "orta-asya",
+  "f": "0552-01-01",
+  "t": "0582-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Otuken",
+  "etkin_bolge": "Mogolistan-Cungarya",
+  "sehirler": [
+   "Otuken"
+  ],
+  "ozet": "Bumin'in 552'de Rouran'i yikmasi.",
+  "oncul": [
+   "rouran"
+  ],
+  "ardil": [
+   "dogu-gokturk",
+   "bati-gokturk"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "gokturk-1",
+   "not": "f/t uyumlu"
+  }
+ },
+ {
+  "id": "dogu-gokturk",
+  "ad": "Dogu Gokturk Kaganligi (I)",
+  "tur": "kaganlik",
+  "bolge": "orta-asya",
+  "f": "0582-01-01",
+  "t": "0630-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Otuken",
+  "etkin_bolge": "Mogolistan",
+  "sehirler": [
+   "Otuken"
+  ],
+  "ozet": "582 bolunmesi; 630'da Tang'a teslim.",
+  "oncul": [
+   "gokturk-1"
+  ],
+  "ardil": [
+   "dogu-gokturk-2"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dogu-gokturk",
+   "not": ""
+  }
+ },
+ {
+  "id": "bati-gokturk",
+  "ad": "Bati Gokturk Kaganligi",
+  "tur": "kaganlik",
+  "bolge": "orta-asya",
+  "f": "0603-01-01",
+  "t": "0657-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Suyab / Mingbulak",
+  "etkin_bolge": "Yedisu, Sogdiana, Tokharistan",
+  "sehirler": [
+   "Suyab"
+  ],
+  "ozet": "Tardu 582'de, kesin ayrilik 603; 657'de Tang.",
+  "oncul": [
+   "gokturk-1"
+  ],
+  "ardil": [
+   "turges",
+   "tohar-yabgu"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut 582-659; kaynak siralamasi Tardu/Dulu ayrim.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "bati-gokturk",
+   "not": ""
+  }
+ },
+ {
+  "id": "dogu-gokturk-2",
+  "ad": "Dogu Gokturk Kaganligi (II)",
+  "tur": "kaganlik",
+  "bolge": "orta-asya",
+  "f": "0682-01-01",
+  "t": "0745-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Otuken",
+  "etkin_bolge": "Mogolistan",
+  "sehirler": [
+   "Otuken"
+  ],
+  "ozet": "Kutluk (Ilteris) 682'de; Uygurlar 745.",
+  "oncul": [
+   "dogu-gokturk"
+  ],
+  "ardil": [
+   "uygur-kaganligi"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dogu-gokturk-2",
+   "not": ""
+  }
+ },
+ {
+  "id": "xueyantuo",
+  "ad": "Xueyantuo (Sir-Tardus)",
+  "tur": "kaganlik",
+  "bolge": "orta-asya",
+  "f": "0627-01-01",
+  "t": "0646-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Tola",
+  "etkin_bolge": "K. Mogolistan",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Tang'a yenik.",
+  "oncul": [
+   "tiele-gaoche"
+  ],
+  "ardil": [
+   "uygur-kaganligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "xueyantuo-kaganligi",
+   "not": ""
+  }
+ },
+ {
+  "id": "turges",
+  "ad": "Turgis Kaganligi",
+  "tur": "kaganlik",
+  "bolge": "orta-asya",
+  "f": "0699-01-01",
+  "t": "0766-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Suyab / Taraz",
+  "etkin_bolge": "Yedisu",
+  "sehirler": [
+   "Suyab"
+  ],
+  "ozet": "Wuzhile 699; mevcut 717.",
+  "oncul": [
+   "bati-gokturk"
+  ],
+  "ardil": [
+   "karluk"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Wuzhile 699 (Tang kaynaklari) vs mevcut 717.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "turges",
+   "not": "f 18 yil farki"
+  }
+ },
+ {
+  "id": "karluk",
+  "ad": "Karluk Yabguluğu",
+  "tur": "yabgu-devleti",
+  "bolge": "orta-asya",
+  "f": "0766-01-01",
+  "t": "0840-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kara-ordu",
+  "etkin_bolge": "Balasagun",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Karluk Yabgusu; Karahanliya yol acar.",
+  "oncul": [
+   "turges"
+  ],
+  "ardil": [
+   "karahanli"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "karluk",
+   "not": ""
+  }
+ },
+ {
+  "id": "uygur",
+  "ad": "Uygur Kaganligi",
+  "tur": "kaganlik",
+  "bolge": "orta-asya",
+  "f": "0744-01-01",
+  "t": "0840-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ordu-Balik",
+  "etkin_bolge": "Otuken",
+  "sehirler": [
+   "Ordu-Balik"
+  ],
+  "ozet": "Kutluk Bilge Kul 744; Kirgiz 840.",
+  "oncul": [
+   "dogu-gokturk-2"
+  ],
+  "ardil": [
+   "koco-uygur",
+   "gansu-uygur"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "uygur-kaganligi",
+   "not": ""
+  }
+ },
+ {
+  "id": "basmil",
+  "ad": "Basmil Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "orta-asya",
+  "f": "0742-01-01",
+  "t": "0760-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Besbalik",
+  "etkin_bolge": "Turfan kuzeyi",
+  "sehirler": [
+   "Besbalik"
+  ],
+  "ozet": "742'de isyan, 744'te Gokturk kaganini oldurdu; Uygurlarca sonumlendi.",
+  "oncul": [
+   "dogu-gokturk-2"
+  ],
+  "ardil": [
+   "uygur"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "gansu-uygur",
+  "ad": "Gansu (Ganzhou) Uygur Krallıgi — Sari Uygurlar",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0894-01-01",
+  "t": "1036-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ganzhou",
+  "etkin_bolge": "Hexi koridoru",
+  "sehirler": [
+   "Ganzhou"
+  ],
+  "ozet": "Uygurlarin Hexi kolu.",
+  "oncul": [
+   "uygur"
+  ],
+  "ardil": [
+   "xia"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Tangut'a dusus 1036.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "hazar",
+  "ad": "Hazar Kaganligi",
+  "tur": "kaganlik",
+  "bolge": "sibirya-bozkir",
+  "f": "0630-01-01",
+  "t": "0965-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Belencer -> Itil",
+  "etkin_bolge": "Asagi Volga-Kuzey Kafkasya",
+  "sehirler": [
+   "Belencer",
+   "Itil"
+  ],
+  "ozet": "Bati Gokturk'ten ayrilis.",
+  "oncul": [
+   "bati-gokturk"
+  ],
+  "ardil": [
+   "pecenek"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "hazar-kaganligi",
+   "not": ""
+  }
+ },
+ {
+  "id": "kutrigur",
+  "ad": "Kutrigurlar",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Karadeniz kuzeybatisi",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "6. yy Bizans kaynaklarinda Hun artigi birlik.",
+  "oncul": [
+   "hun-avrupa"
+  ],
+  "ardil": [
+   "avar"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Siyasi birim mi etnik ad mi? f/t yok.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "utigur",
+  "ad": "Utigurlar",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Don-Azak",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Kutrigur'un dogu komsusu.",
+  "oncul": [
+   "hun-avrupa"
+  ],
+  "ardil": [
+   "hazar"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "sabir",
+  "ad": "Sabirler (Savirler)",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Varachan",
+  "etkin_bolge": "Kuzey Kafkasya (Dagistan)",
+  "sehirler": [
+   "Varachan"
+  ],
+  "ozet": "6. yy Bizans-Sasani kaynaklarinda Hun/Sabir birligi.",
+  "oncul": [
+   "hun-avrupa"
+  ],
+  "ardil": [
+   "hazar"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "avar",
+  "ad": "Avar Kaganligi",
+  "tur": "kaganlik",
+  "bolge": "dogu-avrupa",
+  "f": "0567-01-01",
+  "t": "0822-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pannonia (Ring)",
+  "etkin_bolge": "Pannonia",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Avarlar 558'de Kafkasya'ya, 567'de Pannonia'ya.",
+  "oncul": [
+   "rouran?"
+  ],
+  "ardil": [
+   "frank"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut orta-avrupa kaydi.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "avar",
+   "not": ""
+  }
+ },
+ {
+  "id": "buyuk-bulgaristan",
+  "ad": "Buyuk Bulgaristan (Kubrat)",
+  "tur": "kabile-devleti",
+  "bolge": "dogu-avrupa",
+  "f": "0635-01-01",
+  "t": "0680-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Phanagoria",
+  "etkin_bolge": "Kuban",
+  "sehirler": [
+   "Phanagoria"
+  ],
+  "ozet": "Kubrat 635 civari.",
+  "oncul": [
+   "onogur"
+  ],
+  "ardil": [
+   "idil-bulgar",
+   "birinci-bulgar"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Patrik Nikephoros.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "buyuk-bulgaristan",
+   "not": ""
+  }
+ },
+ {
+  "id": "kimek",
+  "ad": "Kimek Kaganligi",
+  "tur": "kaganlik",
+  "bolge": "sibirya-bozkir",
+  "f": "0800-01-01",
+  "t": "1050-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Imekiya (Irtis)",
+  "etkin_bolge": "Irtis-Ob arasi",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Gerdizi'ye gore Yemek/Kimek birligi; Kipcaklar cikar.",
+  "oncul": [],
+  "ardil": [
+   "kipcak"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yuzyil duzeyi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "oguz-yabgu",
+  "ad": "Oguz Yabgu Devleti",
+  "tur": "yabgu-devleti",
+  "bolge": "orta-asya",
+  "f": "0750-01-01",
+  "t": "1050-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Yengi-kent",
+  "etkin_bolge": "Aral-Seyhun asagi kesimi",
+  "sehirler": [
+   "Yengi-kent",
+   "Cend"
+  ],
+  "ozet": "Oguz yabgulari; Selcuklu cikisi.",
+  "oncul": [],
+  "ardil": [
+   "selcuklu"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yuzyil duzeyi; Ibn Fadlan 922'de.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "kirgiz-yenisey",
+  "ad": "Yenisey Kirgiz Kaganligi",
+  "tur": "kaganlik",
+  "bolge": "sibirya-bozkir",
+  "f": "0840-01-01",
+  "t": "0920-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Otuken",
+  "etkin_bolge": "Yenisey",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Kirgiz 840'ta Uygur'u yikti.",
+  "oncul": [
+   "uygur"
+  ],
+  "ardil": [
+   "yenisey-kirgiz"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)",
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcutta mukerrer: kirgiz-yenisey (orta-asya 840-920) ve yenisey-kirgiz (sibirya-bozkir 840-1207).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kirgiz-yenisey",
+   "not": "MUKERRER cifti"
+  }
+ },
+ {
+  "id": "kurykan",
+  "ad": "Kurykanlar (Gulikan)",
+  "tur": "boylar-birligi",
+  "bolge": "sibirya-bozkir",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Baykal cevresi",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Orhon yazitlarinda Kurikan; Yakut ataları arasinda savunulur.",
+  "oncul": [],
+  "ardil": [
+   "yakut"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil yok; siyasi birim mi etnik ad mi belirsiz.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "buhara-hudat",
+  "ad": "Buhara Hudatlari (Bukhar Khudat)",
+  "tur": "sehir-devleti",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0874-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Buhara",
+  "etkin_bolge": "Buhara vahasi",
+  "sehirler": [
+   "Buhara",
+   "Ramitan",
+   "Vardana"
+  ],
+  "ozet": "Sogd yerel hanedani; Samani Ismail 874'te Buhara'yi aldi.",
+  "oncul": [
+   "kangju"
+  ],
+  "ardil": [
+   "samani"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998",
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null; t yaklasik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "semerkant-ihsid",
+  "ad": "Semerkant (Sogd) Ihsidleri",
+  "tur": "sehir-devleti",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0739-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Afrasiab",
+  "etkin_bolge": "Zerafsan vadisi",
+  "sehirler": [
+   "Semerkant",
+   "Panjikent"
+  ],
+  "ozet": "Varhuman, Tarhun, Gurek; Kuteybe 712 fethi.",
+  "oncul": [
+   "kangju"
+  ],
+  "ardil": [
+   "samani"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998",
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null; Gurek olumu 738/739.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "cac-tudun",
+  "ad": "Cac (Tashkent) Tudunlugu",
+  "tur": "sehir-devleti",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0750-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Cac",
+  "etkin_bolge": "Tashkent vahasi",
+  "sehirler": [
+   "Tashkent"
+  ],
+  "ozet": "Bati Turk vasali Cac Tudunu; Talas sonrasi Arap.",
+  "oncul": [
+   "kangju"
+  ],
+  "ardil": [
+   "samani"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "usrusana-afsin",
+  "ad": "Usrusana Afsinleri",
+  "tur": "emirlik",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0893-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Bunjikat",
+  "etkin_bolge": "Zerafsan ustu",
+  "sehirler": [
+   "Bunjikat"
+  ],
+  "ozet": "Afsin Karahan; Samani 893.",
+  "oncul": [
+   "kangju"
+  ],
+  "ardil": [
+   "samani"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde",
+   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "koco-uygur",
+  "ad": "Koco Uygur Idikutlar",
+  "tur": "devlet",
+  "bolge": "orta-asya",
+  "f": "0911-01-01",
+  "t": "1209-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Koco",
+  "etkin_bolge": "Turfan",
+  "sehirler": [
+   "Koco",
+   "Besbalik"
+  ],
+  "ozet": "Uygur 840 sonrasi.",
+  "oncul": [
+   "uygur"
+  ],
+  "ardil": [
+   "mogol-imparatorlugu"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "koco-uygur",
+   "not": ""
+  }
+ },
+ {
+  "id": "gaochang",
+  "ad": "Gaochang (Turfan) — Qu Hanedani",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": "0501-01-01",
+  "t": "0640-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Gaochang",
+  "etkin_bolge": "Turfan",
+  "sehirler": [
+   "Gaochang"
+  ],
+  "ozet": "Qu Jia 499/501.",
+  "oncul": [
+   "cheshi-onkrallik"
+  ],
+  "ardil": [
+   "koco-uygur"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "gaochang",
+   "not": ""
+  }
+ },
+ {
+  "id": "alania",
+  "ad": "Alan Krallıgi (Alania)",
+  "tur": "krallik",
+  "bolge": "kafkasya",
+  "f": "0850-01-01",
+  "t": "1239-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Maghas",
+  "etkin_bolge": "Kuzey Kafkasya",
+  "sehirler": [
+   "Maghas"
+  ],
+  "ozet": "Hazar etkisinden sonra kurulan Hristiyan Alan krallıgi; Moğollar 1239'da yikti.",
+  "oncul": [
+   "alan"
+  ],
+  "ardil": [
+   "-"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f yuzyil duzeyi tahmin (IX-X. yy); KAFKASYA ile cakisma.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "pecenek",
+  "ad": "Pecenek Konfederasyonu",
+  "tur": "bozkir-konfederasyonu",
+  "bolge": "dogu-avrupa",
+  "f": "0889-01-01",
+  "t": "1122-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Dinyeper-Tuna bozkiri",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Hazar-Oguz baskisiyla 889 civarinda bati bozkirina.",
+  "oncul": [
+   "kangli"
+  ],
+  "ardil": [
+   "kipcak"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut dogu-avrupa kaydi.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "pecenek-konfederasyonu",
+   "not": ""
+  }
+ },
+ {
+  "id": "idil-bulgar",
+  "ad": "Idil (Volga) Bulgar Hanligi",
+  "tur": "hanlik",
+  "bolge": "sibirya-bozkir",
+  "f": "0920-01-01",
+  "t": "1236-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Bulgar",
+  "etkin_bolge": "Volga-Kama",
+  "sehirler": [
+   "Bulgar",
+   "Bilar"
+  ],
+  "ozet": "Almis 922'de Ibn Fadlan elciligi.",
+  "oncul": [
+   "buyuk-bulgaristan"
+  ],
+  "ardil": [
+   "altinorda"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut kayit 920; devlet 8-10. yy arasi olusum.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "idil-bulgar",
+   "not": ""
+  }
+ },
+ {
+  "id": "samani",
+  "ad": "Samaniler",
+  "tur": "emirlik",
+  "bolge": "orta-asya",
+  "f": "0819-01-01",
+  "t": "1005-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Buhara",
+  "etkin_bolge": "Maveraunnehir",
+  "sehirler": [
+   "Buhara",
+   "Semerkant"
+  ],
+  "ozet": "Nuh b. Esed 819.",
+  "oncul": [],
+  "ardil": [
+   "karahanli"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde",
+   "[aday kaynak, acilmadi] Bosworth-Asimov (eds.), History of Civilizations of Central Asia vol. 4, UNESCO, 1998"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "samani",
+   "not": ""
+  }
+ },
+ {
+  "id": "karahanli",
+  "ad": "Karahanlilar",
+  "tur": "hanlik",
+  "bolge": "orta-asya",
+  "f": "0840-01-01",
+  "t": "1041-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Balasagun / Kasgar",
+  "etkin_bolge": "Maveraunnehir",
+  "sehirler": [
+   "Balasagun",
+   "Kasgar"
+  ],
+  "ozet": "Karluk tabanli hanedan.",
+  "oncul": [
+   "karluk"
+  ],
+  "ardil": [
+   "dogu-karahanli",
+   "bati-karahanli"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "karahanli",
+   "not": ""
+  }
+ },
+ {
+  "id": "gazneli",
+  "ad": "Gazneliler",
+  "tur": "sultanlik",
+  "bolge": "orta-asya",
+  "f": "0963-01-01",
+  "t": "1186-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Gazne",
+  "etkin_bolge": "Horasan, Afganistan",
+  "sehirler": [
+   "Gazne",
+   "Lahor"
+  ],
+  "ozet": "Alptegin 963.",
+  "oncul": [
+   "samani"
+  ],
+  "ardil": [
+   "gurlu"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde",
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "gazneli",
+   "not": ""
+  }
+ },
+ {
+  "id": "yenisey-kirgiz",
+  "ad": "Yenisey Kirgizlari",
+  "tur": "kaganlik",
+  "bolge": "sibirya-bozkir",
+  "f": "0840-01-01",
+  "t": "1207-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "Yenisey",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "1207'de Cuci'ye baglandi.",
+  "oncul": [
+   "uygur"
+  ],
+  "ardil": [
+   "mogol-imparatorlugu"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "yenisey-kirgiz",
+   "not": ""
+  }
+ }
+]

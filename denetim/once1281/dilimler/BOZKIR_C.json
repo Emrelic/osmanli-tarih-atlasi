@@ -1,0 +1,1467 @@
+[
+ {
+  "id": "kirim-iskit",
+  "ad": "Gec Iskit (Kirim) Krallıgi",
+  "tur": "krallik",
+  "bolge": "dogu-avrupa",
+  "f": "-0198-01-01",
+  "t": "0270-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Neapolis Scythica",
+  "etkin_bolge": "Kirim yarimadasi ortasi, asagi Dinyeper",
+  "sehirler": [
+   "Neapolis Scythica"
+  ],
+  "ozet": "Sarmat baskisiyla Kirim'a cekilen Iskit devleti; III. yy'da Got-Heruller akinlariyla coktu.",
+  "oncul": [
+   "iskit-kralligi"
+  ],
+  "ardil": [
+   "got"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Herodotos, Historiai 1.201-216 ve 4. kitap; Rolle, R., The World of the Scythians, 1989"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yuzyil duzeyi; DOGU_AVRUPA ile cakisma.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "sarmat",
+  "ad": "Sarmatlar (Yazigler, Roksolanlar, Aorslar, Sirakeler)",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": null,
+  "t": "0399-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "yok (gocebe)",
+  "etkin_bolge": "Don-Volga bozkiri, sonra Tuna ovasi",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Dogu Iran dilli gocebe boylar birligi; Hun baskisiyla (375) cozuldu.",
+  "oncul": [
+   "saka-konfederasyonu"
+  ],
+  "ardil": [
+   "alan"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Herodotos, Historiai 1.201-216 ve 4. kitap; Rolle, R., The World of the Scythians, 1989",
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Siyasi birim mi etnik ad mi? Alt gruplar (Roksolan, Yazig) ayri kayit gerektirebilir. Yil yok.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "alan",
+  "ad": "Alanlar",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": null,
+  "t": "0449-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Kuzey Kafkasya-Don bozkiri; bati kolu Iberya'ya gocen",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Sarmat ailesi; MS 72'de Kafkasya'dan Medya'ya akin (Josephus). Hun baskisiyla bir kismi batiya (406), kalan Alania'ya.",
+  "oncul": [
+   "sarmat"
+  ],
+  "ardil": [
+   "alania"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null (ilk anim MS 72, kurulus degil). Batiya giden Alan kralliklari IBERYA/BATI_AVRUPA isi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "donghu",
+  "ad": "Donghu (Dogu Barbarlari) Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0207-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Mogolistan dogusu-Liaoxi",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Xiongnu'nun dogu komsusu; Modu Sanyu MO 209'da dagitti, Wuhuan ve Xianbei'ye ayrildi.",
+  "oncul": [],
+  "ardil": [
+   "xianbei",
+   "wuhuan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Barfield, T., The Perilous Frontier: Nomadic Empires and China, Blackwell, 1989",
+   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil bilinmiyor (f null); t=Modu seferi MO 209 (Shiji 110). DOGU_ASYA ile cakisma.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "xiongnu",
+  "ad": "Xiongnu (Hunnu) Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "orta-asya",
+  "f": "-0207-01-01",
+  "t": "0155-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Longcheng / Otuken",
+  "etkin_bolge": "Mogolistan, Ordos, Tarim havzasi",
+  "sehirler": [
+   "Longcheng",
+   "Otuken"
+  ],
+  "ozet": "Modu Sanyu (MO 209) ile imparatorluk konfederasyonu; 48'de Kuzey/Guney bolunme; Kuzey kol 91-155.",
+  "oncul": [
+   "donghu"
+  ],
+  "ardil": [
+   "guney-xiongnu",
+   "xianbei"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Barfield, T., The Perilous Frontier: Nomadic Empires and China, Blackwell, 1989",
+   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut kunye Modu'nun yukselisinden (MO 209) 155'e; konfederasyonun dogusu (Touman ~MO 220) farkli olabilir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "hunnu-xiongnu",
+   "not": "f/t uyumlu"
+  }
+ },
+ {
+  "id": "guney-xiongnu",
+  "ad": "Guney Xiongnu (Han vasali Sanyuluk)",
+  "tur": "vasal-krallik",
+  "bolge": "dogu-asya",
+  "f": "0048-01-01",
+  "t": "0216-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Meiji (Xihe)",
+  "etkin_bolge": "Ordos, Shanxi kuzeyi",
+  "sehirler": [
+   "Meiji",
+   "Pingyang"
+  ],
+  "ozet": "Bi Sanyu'nun 48'de Han'a baglanmasiyla dogdu; Cao Cao 216'da bes kola boldu; Liu Yuan 304'te Han-Zhao'yu kurdu.",
+  "oncul": [
+   "xiongnu"
+  ],
+  "ardil": [
+   "han-zhao"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Barfield, T., The Perilous Frontier: Nomadic Empires and China, Blackwell, 1989",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. DOGU_ASYA ile cakisma; Kuzey Xiongnu (48-91/155) mevcut Xiongnu kunyesinin icinde.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "yuezhi",
+  "ad": "Yuezhi (Buyuk Yuezhi) Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0029-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Hexi / Yedisu / Daxia (Baktriya)",
+  "etkin_bolge": "Hexi koridoru, Ili, Baktriya",
+  "sehirler": [
+   "Lanshi (Baktra)"
+  ],
+  "ozet": "MO ~176'da Xiongnu'ya yenilip batiya goctu; MO ~130'da Baktriya'yi aldi; bes yabgu (xihou) sonra Kusan birligi.",
+  "oncul": [],
+  "ardil": [
+   "kusan"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)",
+   "[aday kaynak, acilmadi] Barfield, T., The Perilous Frontier: Nomadic Empires and China, Blackwell, 1989",
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil bilinmiyor: Xiongnu yenilgisi MO 176/174. t=Kujula Kadphises birlestirmesi (~30), yuzyil duzeyi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "wusun",
+  "ad": "Wusun",
+  "tur": "konfederasyon",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0449-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Chigu (Issik Gol)",
+  "etkin_bolge": "Ili vadisi, Issik Gol",
+  "sehirler": [
+   "Chigu"
+  ],
+  "ozet": "Han kaynaklarinda Zhang Qian'dan (MO ~139-126) beri anilan Ili-Issik Gol Kunmo'lugu; V. yy'da Rouran'ca dagitildi.",
+  "oncul": [
+   "xiongnu"
+  ],
+  "ardil": [
+   "bati-gokturk (bolgesel halef)"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)",
+   "[aday kaynak, acilmadi] Barfield, T., The Perilous Frontier: Nomadic Empires and China, Blackwell, 1989"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil bilinmiyor; ilk anim kurulus degil.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "kangju",
+  "ad": "Kangju (Kangli)",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0449-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Bityan / Sirderya orta havzasi",
+  "etkin_bolge": "Tashkent-Turkistan, Sirderya",
+  "sehirler": [
+   "Bityan"
+  ],
+  "ozet": "Han kaynaklarina gore Sirderya-Sogd arasi gocebe-yerlesik krallik; Sogd sehirlerine hukumranlik; V. yy'da Kidarit/Eftalit baskisi.",
+  "oncul": [],
+  "ardil": [
+   "eftalit"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)",
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil bilinmiyor; t yuzyil duzeyi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "fergana-dayuan",
+  "ad": "Fergana (Dayuan / Davan)",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0819-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Ersi (Akhsikent/Kasan)",
+  "etkin_bolge": "Fergana vadisi",
+  "sehirler": [
+   "Ersi",
+   "Kasan",
+   "Akhsikent"
+  ],
+  "ozet": "Han kaynaklarindaki Dayuan, sonra Fergana Ihsidleri; Samanilerce 9. yy'da yutuldu.",
+  "oncul": [],
+  "ardil": [
+   "samani"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)",
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil bilinmiyor; Han seferi MO 104-101 taniklik. Ihsid hanedan zinciri kaynakla ayrilmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "khotan",
+  "ad": "Hotan (Yutian) Krallıgi",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "1006-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Hotan (Yotkan)",
+  "etkin_bolge": "Tarim havzasi guneyi",
+  "sehirler": [
+   "Hotan"
+  ],
+  "ozet": "Hanshu 96A'da anilan Saka dilli vaha krallik; Budist merkez; Karahanlilarca ~1006'da yikildi.",
+  "oncul": [],
+  "ardil": [
+   "karahanli"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)",
+   "[aday kaynak, acilmadi] TDV Islam Ansiklopedisi (islamansiklopedisi.org.tr), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null (Tibet yillikleri III. yy MO kurulus anlatir, tarihsel degil). t=1006 Karahanli fethi (kaynak okunmali).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "kuca",
+  "ad": "Kuca (Qiuci) Krallıgi",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0648-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Kuca",
+  "etkin_bolge": "Tarim havzasi kuzeyi",
+  "sehirler": [
+   "Kuca"
+  ],
+  "ozet": "Han kaynaklarinda anilan Tohar dilli vaha krallik; Tang 648'de fethetti.",
+  "oncul": [],
+  "ardil": [
+   "tang-anxi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null; t=648 Tang seferi (Kuca bir sure Tang koruyuculugunda ayakta).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "kasgar-shule",
+  "ad": "Kasgar (Shule) Krallıgi",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Kasgar",
+  "etkin_bolge": "Kasgar vahasi",
+  "sehirler": [
+   "Kasgar"
+  ],
+  "ozet": "Han kaynaklarinda Shule; Tang, Tibet ve Karahanli donemlerinde el degistirdi.",
+  "oncul": [],
+  "ardil": [
+   "karahanli"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f/t bilinmiyor; kesintili anilir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "loulan-shanshan",
+  "ad": "Loulan-Shanshan (Kroraina) Krallıgi",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0445-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Loulan / Yuni",
+  "etkin_bolge": "Lop Nor cevresi",
+  "sehirler": [
+   "Loulan",
+   "Yuni",
+   "Charklik"
+  ],
+  "ozet": "MO 77'de Han destekli kralla Shanshan adini alan Lop Nor krallıgi; 445'te Kuzey Wei seferi.",
+  "oncul": [],
+  "ardil": [
+   "-"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null; t=445 Wei seferi, Shanshan adi sonra Tibet dönemine dek.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "cheshi-onkrallik",
+  "ad": "Cheshi (Jushi) Onkrallıgi — Turfan",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0450-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Jiaohe",
+  "etkin_bolge": "Turfan cukuru",
+  "sehirler": [
+   "Jiaohe"
+  ],
+  "ozet": "Han Bati Bolgeleri'nde Turfan'in Cheshi krallari; Gaochang'in onculu.",
+  "oncul": [],
+  "ardil": [
+   "gaochang"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null; MO 60'ta Han koruyuculugu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "yanqi-karashahr",
+  "ad": "Yanqi (Agni, Karasahr) Krallıgi",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0644-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Yanqi",
+  "etkin_bolge": "Karasahr cukuru",
+  "sehirler": [
+   "Yanqi"
+  ],
+  "ozet": "Han kaynaklarindaki Tarim krallıgi; Tang 644'te fethetti.",
+  "oncul": [],
+  "ardil": [
+   "tang-anxi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Hanshu ch. 96 'Xiyu zhuan' (Bati Bolgeleri); Shiji ch. 110 (Xiongnu)",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "tashtyk-kulturu",
+  "ad": "Tashtyk Kulturu (Yenisey)",
+  "tur": "kultur",
+  "bolge": "sibirya-bozkir",
+  "f": "0001-01-01",
+  "t": "0499-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Minusinsk havzasi",
+  "sehirler": [
+   "Tashtyk"
+  ],
+  "ozet": "Tagar sonrasi Demir Cagi kulturu; Kirgiz oncullerine donusur.",
+  "oncul": [
+   "tagar-kulturu"
+  ],
+  "ardil": [
+   "kirgiz-yenisey"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Kultur, yuzyil duzeyi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "kusan",
+  "ad": "Kusan Imparatorlugu",
+  "tur": "imparatorluk",
+  "bolge": "orta-asya",
+  "f": "0050-01-01",
+  "t": "0350-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Bagram -> Pesaver",
+  "etkin_bolge": "Baktriya, Gandhara, Kuzey Hindistan",
+  "sehirler": [
+   "Bagram",
+   "Pesaver",
+   "Mathura"
+  ],
+  "ozet": "Yuezhi birliginden Kujula Kadphises'le yukseldi.",
+  "oncul": [
+   "yuezhi"
+  ],
+  "ardil": [
+   "kusan-sasani"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994",
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Kujula ~30 (Hanshu'da bes xihou birlesimi); Kaniska cagi tarihi tartismali (127 / 78). Kusan zamani 375'e dek surebilir.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "kusan",
+   "not": "f yaklasik 20 yil"
+  }
+ },
+ {
+  "id": "greko-baktria",
+  "ad": "Greko-Baktriya Krallıgi",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": "-0248-01-01",
+  "t": "-0128-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Baktra / Ay Hanum",
+  "etkin_bolge": "Baktriya, Sogdiana",
+  "sehirler": [
+   "Baktra",
+   "Ay Hanum"
+  ],
+  "ozet": "Diodotos'un Selevkoslardan ayrilisi (~MO 250-245).",
+  "oncul": [
+   "seleukos"
+  ],
+  "ardil": [
+   "yuezhi"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Kurulus MO 250/246 civari.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "greko-baktria",
+   "not": "f/t uyumlu"
+  }
+ },
+ {
+  "id": "xianbei",
+  "ad": "Xianbei Konfederasyonlari (Tanshihuai ve Kebineng)",
+  "tur": "konfederasyon",
+  "bolge": "orta-asya",
+  "f": "0093-01-01",
+  "t": "0234-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Mogolistan-Mancurya",
+  "sehirler": [
+   "Mumo"
+  ],
+  "ozet": "Kuzey Xiongnu'nun 91'de coküsüyle bos kalan bozkirda 93'ten itibaren Xianbei; Tanshihuai (155-181), Kebineng (181-235).",
+  "oncul": [
+   "donghu",
+   "xiongnu"
+  ],
+  "ardil": [
+   "murong-xianbei",
+   "tuoba-dai",
+   "yuwen-xianbei",
+   "duan-xianbei"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Barfield, T., The Perilous Frontier: Nomadic Empires and China, Blackwell, 1989",
+   "[aday kaynak, acilmadi] Weishu ch.1; Jinshu ch.108-124; Cambridge History of China vol. 1"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Mevcut kunye yalniz Tanshihuai cagini (155-235) kapsiyor; f=93'e cekilmeli.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "xianbei",
+   "not": "Kunye 155-235; 91 sonrasi yukselis 93'ten"
+  }
+ },
+ {
+  "id": "yuwen-xianbei",
+  "ad": "Yuwen Xianbei",
+  "tur": "konfederasyon",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "0344-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Liucheng yoresi",
+  "etkin_bolge": "Liaoxi",
+  "sehirler": [
+   "Liucheng"
+  ],
+  "ozet": "Kuzey Zhou'nun (Yuwen Tai) atasi sayilan Xianbei; Murong Huang 344-345'te dagitti.",
+  "oncul": [
+   "xianbei"
+  ],
+  "ardil": [
+   "kuzey-zhou"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Weishu ch.1; Jinshu ch.108-124; Cambridge History of China vol. 1",
+   "[aday kaynak, acilmadi] Barfield, T., The Perilous Frontier: Nomadic Empires and China, Blackwell, 1989"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil bilinmiyor; t Murong Huang seferi 344-345.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "duan-xianbei",
+  "ad": "Duan Xianbei",
+  "tur": "konfederasyon",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "0338-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Lingzhi",
+  "etkin_bolge": "Liaoxi",
+  "sehirler": [
+   "Lingzhi"
+  ],
+  "ozet": "Murong ve Yuwen komsusu; Jin'den unvan almis; 338'de Murong Huang yikti.",
+  "oncul": [
+   "xianbei"
+  ],
+  "ardil": [
+   "on-yan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Weishu ch.1; Jinshu ch.108-124; Cambridge History of China vol. 1"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil bilinmiyor.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "murong-xianbei",
+  "ad": "Murong Xianbei (Yan oncesi beylik)",
+  "tur": "konfederasyon",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "0336-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Jicheng / Longcheng",
+  "etkin_bolge": "Liaoxi",
+  "sehirler": [
+   "Longcheng"
+  ],
+  "ozet": "Murong Xianbei III. yy'dan beri Liaoxi'de; Murong Huang 337'de Yan Prensi oldu.",
+  "oncul": [
+   "xianbei"
+  ],
+  "ardil": [
+   "on-yan"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Weishu ch.1; Jinshu ch.108-124; Cambridge History of China vol. 1",
+   "[aday kaynak, acilmadi] Barfield, T., The Perilous Frontier: Nomadic Empires and China, Blackwell, 1989"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Yil bilinmiyor.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "on-yan",
+  "ad": "Onceki Yan (Murong) Devleti",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0337-01-01",
+  "t": "0370-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Longcheng -> Ye",
+  "etkin_bolge": "Kuzey Cin ovasi",
+  "sehirler": [
+   "Longcheng",
+   "Ye"
+  ],
+  "ozet": "Murong Huang 337'de Yan Prensligini ilan etti; Ye 370'te Onceki Qin'e dustu.",
+  "oncul": [
+   "murong-xianbei"
+  ],
+  "ardil": [
+   "sonraki-yan",
+   "bati-yan"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Weishu ch.1; Jinshu ch.108-124; Cambridge History of China vol. 1",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. DOGU_ASYA ile cakisma; 337 prenslik, imparator unvani 352.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "sonraki-yan",
+  "ad": "Sonraki Yan Devleti",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0384-01-01",
+  "t": "0407-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Zhongshan -> Longcheng",
+  "etkin_bolge": "Hebei-Liaoxi",
+  "sehirler": [
+   "Zhongshan",
+   "Longcheng"
+  ],
+  "ozet": "Murong Chui 384'te Yan'i yeniden kurdu (386 imparator); 407'de Feng Ba darbesi.",
+  "oncul": [
+   "on-yan"
+  ],
+  "ardil": [
+   "guney-yan"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Weishu ch.1; Jinshu ch.108-124; Cambridge History of China vol. 1",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. 384 prens ilani, 386 imparatorluk.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "bati-yan",
+  "ad": "Bati Yan Devleti",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0384-01-01",
+  "t": "0394-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chang'zi",
+  "etkin_bolge": "Shanxi guneyi",
+  "sehirler": [
+   "Chang'zi"
+  ],
+  "ozet": "Murong Hong'un 384'te kurdugu Yan kolu; 394'te Sonraki Yan'a dustu.",
+  "oncul": [
+   "on-yan"
+  ],
+  "ardil": [
+   "-"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Weishu ch.1; Jinshu ch.108-124; Cambridge History of China vol. 1"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "guney-yan",
+  "ad": "Guney Yan Devleti",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0398-01-01",
+  "t": "0410-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Guangguo / Guangdu",
+  "etkin_bolge": "Shandong",
+  "sehirler": [
+   "Guangguo"
+  ],
+  "ozet": "Murong De 398'de kurdu; 410'da Liu Yu yikti.",
+  "oncul": [
+   "sonraki-yan"
+  ],
+  "ardil": [
+   "-"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Weishu ch.1; Jinshu ch.108-124; Cambridge History of China vol. 1"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "tuoba-dai",
+  "ad": "Dai Prensligi (Tuoba)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0310-01-01",
+  "t": "0376-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Shengle",
+  "etkin_bolge": "Shanxi kuzeyi, Ic Mogolistan",
+  "sehirler": [
+   "Shengle"
+  ],
+  "ozet": "Jin'in Tuoba Yilu'ya 310'da Dai Duku, 315'te Dai Prensi unvani vermesiyle; Onceki Qin 376'da yikti.",
+  "oncul": [
+   "xianbei"
+  ],
+  "ardil": [
+   "kuzey-wei"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Weishu ch.1; Jinshu ch.108-124; Cambridge History of China vol. 1",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. 310 duk, 315 prens.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "kuzey-wei",
+  "ad": "Kuzey Wei (Tuoba Wei)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0386-01-01",
+  "t": "0534-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pingcheng -> Luoyang (494)",
+  "etkin_bolge": "Kuzey Cin",
+  "sehirler": [
+   "Pingcheng",
+   "Luoyang"
+  ],
+  "ozet": "Tuoba Gui 386'da Wei'yi yeniden kurdu (398 imparator); 534'te Dogu/Bati Wei'ye bolundu.",
+  "oncul": [
+   "tuoba-dai"
+  ],
+  "ardil": [
+   "dogu-wei",
+   "bati-wei"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Weishu ch.1; Jinshu ch.108-124; Cambridge History of China vol. 1",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. DOGU_ASYA ile cakisma.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "bati-qin-qifu",
+  "ad": "Bati Qin (Qifu Xianbei)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0385-01-01",
+  "t": "0431-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Yuanchuan",
+  "etkin_bolge": "Gansu",
+  "sehirler": [
+   "Yuanchuan"
+  ],
+  "ozet": "Qifu Guoren 385'te kurdu; 431'de Xia'ya dustu.",
+  "oncul": [
+   "xianbei"
+  ],
+  "ardil": [
+   "-"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Weishu ch.1; Jinshu ch.108-124; Cambridge History of China vol. 1"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. DOGU_ASYA isi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "guney-liang-tufa",
+  "ad": "Guney Liang (Tufa Xianbei)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0397-01-01",
+  "t": "0414-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Lediu -> Xiping",
+  "etkin_bolge": "Gansu-Qinghai",
+  "sehirler": [
+   "Xiping"
+  ],
+  "ozet": "Tufa Wugu 397'de kurdu; 414'te Bati Qin'e dustu.",
+  "oncul": [
+   "xianbei"
+  ],
+  "ardil": [
+   "-"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Weishu ch.1; Jinshu ch.108-124; Cambridge History of China vol. 1"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. DOGU_ASYA isi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "tuyuhun",
+  "ad": "Tuyuhun (Tuguhun) Hanligi",
+  "tur": "hanlik",
+  "bolge": "dogu-asya",
+  "f": "0313-01-01",
+  "t": "0663-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Fuqi",
+  "etkin_bolge": "Qinghai Golu",
+  "sehirler": [
+   "Fuqi"
+  ],
+  "ozet": "Murong boyundan ayrilip batiya goc eden Tuyuhun; 663'te Tibet imparatorlugu yikti.",
+  "oncul": [
+   "murong-xianbei"
+  ],
+  "ardil": [
+   "tibet"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Weishu ch.1; Jinshu ch.108-124; Cambridge History of China vol. 1",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "tuyuhun",
+   "not": "f/t uyumlu"
+  }
+ },
+ {
+  "id": "rouran",
+  "ad": "Rouran Kaganligi",
+  "tur": "kaganlik",
+  "bolge": "orta-asya",
+  "f": "0402-01-01",
+  "t": "0552-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Mumo",
+  "etkin_bolge": "Mogolistan",
+  "sehirler": [
+   "Mumo"
+  ],
+  "ozet": "Shelun'un 402'de kagan ilani; Bumin 552'de yikti.",
+  "oncul": [
+   "xianbei"
+  ],
+  "ardil": [
+   "gokturk-1"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Barfield, T., The Perilous Frontier: Nomadic Empires and China, Blackwell, 1989",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "rouran",
+   "not": "f/t uyumlu"
+  }
+ },
+ {
+  "id": "tiele-gaoche",
+  "ad": "Tiele / Gaoche Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "orta-asya",
+  "f": null,
+  "t": "0581-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Kuzey Mogolistan, Cungarya",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Uygur, Xueyantuo, Basmil gibi boylarin toplu adi; Rouran sonrasi Gokturk vasali.",
+  "oncul": [
+   "xiongnu"
+  ],
+  "ardil": [
+   "uygur",
+   "xueyantuo-kaganligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992",
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Boylarin toplu adi; siyasi birimlik tartismali. Yil yok.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "kiyonit",
+  "ad": "Kiyonitler (Xyon / Chionites)",
+  "tur": "konfederasyon",
+  "bolge": "orta-asya",
+  "f": "0350-01-01",
+  "t": "0390-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Sogdiana, Baktriya",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Ammianus 356-357'de Sapur'un muttefiki Kiyonitler; Kidaritlerin oncusu.",
+  "oncul": [],
+  "ardil": [
+   "kidarit"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde",
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Tarihler tek taniga dayaniyor; zayif.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "kidarit",
+  "ad": "Kidarit Hunlar",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": "0390-01-01",
+  "t": "0467-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Balh -> Pesaver",
+  "etkin_bolge": "Baktriya, Gandhara",
+  "sehirler": [
+   "Balh",
+   "Pesaver"
+  ],
+  "ozet": "Kidara 390 civarinda Kusansah'tan Baktriya'yi aldi.",
+  "oncul": [
+   "kiyonit"
+  ],
+  "ardil": [
+   "eftalit"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde",
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kidarit",
+   "not": "f/t uyumlu"
+  }
+ },
+ {
+  "id": "alkhon",
+  "ad": "Alkhon Hunlar (Alchon)",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": "0400-01-01",
+  "t": "0560-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kapisa / Bamiyan",
+  "etkin_bolge": "Baktriya, Gandhara, Kabil",
+  "sehirler": [
+   "Kapisa",
+   "Bamiyan"
+  ],
+  "ozet": "Khingila, Toramana, Mihirakula cizgisi; Eftalit icinde/yaninda erir.",
+  "oncul": [
+   "kidarit"
+  ],
+  "ardil": [
+   "eftalit"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994",
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. GUNEY_ASYA ile cakisma; f yuzyil duzeyi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "eftalit",
+  "ad": "Eftalit (Beyaz Hun) Krallıgi",
+  "tur": "krallik",
+  "bolge": "orta-asya",
+  "f": "0457-01-01",
+  "t": "0560-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Tohariston",
+  "etkin_bolge": "Baktriya-Gandhara",
+  "sehirler": [
+   "Balh",
+   "Badakhshan"
+  ],
+  "ozet": "Eftalit yukselisi 450'ler.",
+  "oncul": [
+   "kidarit"
+  ],
+  "ardil": [
+   "bati-gokturk",
+   "tohar-yabgu"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde",
+   "[aday kaynak, acilmadi] Harmatta, J. (ed.), History of Civilizations of Central Asia vol. 2, UNESCO, 1994"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Prokopios 'Gorgo'. Hindistan'a girisleri GUNEY_ASYA isi.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "eftalit",
+   "not": "f/t uyumlu"
+  }
+ },
+ {
+  "id": "hun-avrupa",
+  "ad": "Avrupa Hun Imparatorlugu",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": "0370-01-01",
+  "t": "0455-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Pannonia)",
+  "etkin_bolge": "Pannonia, Karpat havzasi",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Hunlar 375'te Volga'yi asip Alanlari ezdi; Attila 453'te oldu.",
+  "oncul": [
+   "hunnu-xiongnu?"
+  ],
+  "ardil": [
+   "gepid",
+   "ostrogot"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Encyclopaedia Iranica (iranicaonline.org), ilgili madde"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. Tarihler genelde 375-469.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "hun-avrupa",
+   "not": "f/t uyumlu"
+  }
+ },
+ {
+  "id": "onogur",
+  "ad": "Onogur Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": null,
+  "t": "0679-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Phanagoria",
+  "etkin_bolge": "Kuban-Azak",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Priskos 463'te Onogur adini anar.",
+  "oncul": [],
+  "ardil": [
+   "buyuk-bulgaristan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null; 463 yalniz taniklik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcutta yok"
+  }
+ },
+ {
+  "id": "kirgiz-erken",
+  "ad": "Kirgizlar (Jiankun/Gekun, Gokturk vasali cagi)",
+  "tur": "kabile-devleti",
+  "bolge": "sibirya-bozkir",
+  "f": null,
+  "t": "0839-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Minusinsk-Yukari Yenisey",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Han kaynaklarinda Gekun/Jiankun (MO 201); Gokturk vasali Kirgiz; 840'ta kaganlik.",
+  "oncul": [
+   "tashtyk-kulturu"
+  ],
+  "ardil": [
+   "kirgiz-yenisey"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "[aday kaynak, acilmadi] Cambridge History of China vol. 1 (Twitchett-Loewe 1986) ve vol. 3 (Twitchett 1979)",
+   "[aday kaynak, acilmadi] Golden, P.B., An Introduction to the History of the Turkic Peoples, Harrassowitz, 1992"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; sayfa acilip okunmadi. f null; 840 oncesi.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "yenisey-kirgiz",
+   "not": "Kunye 840'tan; onceki Jiankun cagi yok"
+  }
+ }
+]

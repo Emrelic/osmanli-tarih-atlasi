@@ -1,0 +1,358 @@
+[
+ {
+  "id": "kerma-erken",
+  "ad": "Erken ve Orta Kerma Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "-2499-01-01",
+  "t": "-1749-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kerma",
+  "etkin_bolge": "III. Şelal çevresi",
+  "sehirler": [
+   "Kerma",
+   "Dukki Gel"
+  ],
+  "ozet": "Kerma kültürünün merkezî krallığa dönüşen Erken/Orta evresi; Klasik Kerma ile sürer.",
+  "oncul": [],
+  "ardil": [
+   "kerma"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut künye -1749'da başlıyor; Erken Kerma ~-2500. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Bonnet; Cambridge History of Africa I; Reisner]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "kerma",
+   "not": ""
+  }
+ },
+ {
+  "id": "yam-krallik",
+  "ad": "Yam (Irtjet-Setju-Yam) Nubya Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "-2399-01-01",
+  "t": "-2199-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Yukarı Nubya",
+  "sehirler": [],
+  "ozet": "Harkhuf (6. Hanedan) seferlerinde adı geçen güney Nubya siyasî birimi; Kerma ile özdeşliği tartışmalı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Konum ve Kerma ile ilişkisi belirsiz. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Harkhuf otobiyografisi; Cambridge History of Africa I]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "punt",
+  "ad": "Punt Ülkesi",
+  "tur": "krallik",
+  "bolge": "dogu-afrika",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Kızıldeniz güney kıyısı (Eritre/Sudan/Somali?)",
+  "sehirler": [],
+  "ozet": "Mısır kaynaklarında 5. Hanedan'dan Yeni Krallığa ticaret ortağı ülke.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasî birim mi bölge adı mı belirsiz; yıl bilinmiyor. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Hatshepsut Deir el-Bahri kabartmaları; Kitchen]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dmt",
+  "ad": "Dʿmt (Da'amat) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-afrika",
+  "f": "-0979-01-01",
+  "t": "-0399-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Yeha",
+  "etkin_bolge": "Eritre ve Tigray",
+  "sehirler": [
+   "Yeha",
+   "Matara"
+  ],
+  "ozet": "Yeha merkezli, Sabaean etkili Etiyopya platosu krallığı; Aksum öncülü.",
+  "oncul": [],
+  "ardil": [
+   "aksum"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Aralık kabaca (MÖ 10.-5. yy). [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Cambridge History of Africa II; Phillipson 1998; Munro-Hay 1991]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "misir-14-hanedan",
+  "ad": "14. Hanedan (Avaris/Xois)",
+  "tur": "hanedanlik",
+  "bolge": "misir-sudan",
+  "f": "-1804-01-01",
+  "t": "-1649-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Avaris / Xois",
+  "etkin_bolge": "Doğu Delta",
+  "sehirler": [
+   "Avaris",
+   "Xois"
+  ],
+  "ozet": "13. Hanedan'dan ayrılan Doğu Delta'da Kenanlı kökenli hanedan.",
+  "oncul": [],
+  "ardil": [
+   "hiksos-15"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler Ryholt kronolojisi. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Ryholt 1997; Bietak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "abydos-hanedani",
+  "ad": "Abydos Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "misir-sudan",
+  "f": "-1649-01-01",
+  "t": "-1599-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Abydos",
+  "etkin_bolge": "Orta Mısır",
+  "sehirler": [
+   "Abydos"
+  ],
+  "ozet": "Ryholt'un önerdiği, Tebai ile Hiksos arasında Abydos merkezli kısa krallık.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Ryholt tezi; bazı Mısırbilimciler kabul etmiyor. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Ryholt 1997; Wegner 2007]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "misir-16-hanedan",
+  "ad": "16. Hanedan (Tebai)",
+  "tur": "hanedanlik",
+  "bolge": "misir-sudan",
+  "f": "-1649-01-01",
+  "t": "-1581-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Tebai",
+  "etkin_bolge": "Yukarı Mısır",
+  "sehirler": [
+   "Tebai",
+   "Edfu"
+  ],
+  "ozet": "Hiksos çağında Tebai'de yerli hanedan; 17. Hanedan'a devreder.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "16. Hanedan Tebai mi Hiksos mu tartışmalı. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Ryholt 1997; Cambridge Ancient History II]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "tebai-17-hanedan",
+   "not": ""
+  }
+ },
+ {
+  "id": "tebai-amon-rahip-devleti",
+  "ad": "Tebai Amon Başrahipleri Devleti",
+  "tur": "hanedanlik",
+  "bolge": "misir-sudan",
+  "f": "-1079-01-01",
+  "t": "-0944-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Tebai",
+  "etkin_bolge": "Yukarı Mısır",
+  "sehirler": [
+   "Tebai"
+  ],
+  "ozet": "Herihor ile başlayan, 21. Hanedan'a paralel fiilen bağımsız Tebai başrahip yönetimi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut künye 21.-25. Hanedan'ı tek blokta tutuyor. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Kitchen 1986; Cambridge Ancient History III]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "misir-3-ara",
+   "not": ""
+  }
+ },
+ {
+  "id": "misir-21-hanedan",
+  "ad": "21. Hanedan (Tanis)",
+  "tur": "hanedanlik",
+  "bolge": "misir-sudan",
+  "f": "-1068-01-01",
+  "t": "-0944-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Tanis",
+  "etkin_bolge": "Delta ve Orta Mısır",
+  "sehirler": [
+   "Tanis"
+  ],
+  "ozet": "Smendes ile başlayan Tanis merkezli hanedan.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut blok. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Kitchen 1986]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "misir-3-ara",
+   "not": ""
+  }
+ },
+ {
+  "id": "misir-22-hanedan",
+  "ad": "22. Hanedan (Libya-Bubastis)",
+  "tur": "hanedanlik",
+  "bolge": "misir-sudan",
+  "f": "-0944-01-01",
+  "t": "-0714-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Bubastis",
+  "etkin_bolge": "Delta, Orta Mısır",
+  "sehirler": [
+   "Bubastis",
+   "Tanis"
+  ],
+  "ozet": "Meshwesh Libya kökenli Şoşenk I ile kurulan hanedan.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kitchen kronolojisi. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Kitchen 1986; Cambridge Ancient History III]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "misir-3-ara",
+   "not": ""
+  }
+ },
+ {
+  "id": "misir-23-hanedan",
+  "ad": "23. Hanedan (Leontopolis/Tanis)",
+  "tur": "hanedanlik",
+  "bolge": "misir-sudan",
+  "f": "-0837-01-01",
+  "t": "-0734-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Leontopolis",
+  "etkin_bolge": "Delta, Orta Mısır",
+  "sehirler": [
+   "Leontopolis",
+   "Tanis"
+  ],
+  "ozet": "22. Hanedan'a paralel kol.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Paralel hanedan; tarih kabaca. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Kitchen 1986]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "misir-3-ara",
+   "not": ""
+  }
+ },
+ {
+  "id": "misir-24-hanedan",
+  "ad": "24. Hanedan (Sais)",
+  "tur": "hanedanlik",
+  "bolge": "misir-sudan",
+  "f": "-0732-01-01",
+  "t": "-0720-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Sais",
+  "etkin_bolge": "Batı Delta",
+  "sehirler": [
+   "Sais"
+  ],
+  "ozet": "Tefnakht ve Bakenranef'in Sais merkezli kısa krallığı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Piye seferi tarihi kabaca. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Kitchen 1986; Piye Zafer Steli]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "misir-3-ara",
+   "not": ""
+  }
+ }
+]

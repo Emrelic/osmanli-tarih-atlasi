@@ -1,0 +1,461 @@
+[
+ {
+  "id": "arverni",
+  "ad": "Arverni Konfederasyonu/Krallıgı",
+  "tur": "konfederasyon",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "-0120-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Gergovia / Nemetum",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Orta Galya'nin guclu Kelt konfederasyonu; Bituitus MO 121de Roma'ya yenildi (Vercingetorix isyani MO 52).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f yil bilinmiyor. t = Bituitus yenilgisi (MO 121); Vercingetorix donemi (MO 52) ikinci evre. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "aedui",
+  "ad": "Aedui (Haedui) Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "-0051-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Bibracte",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Roma muttefiki Burgonya Kelt konfederasyonu; vergobret yonetimli; MO 52-51 Galya isyanindan sonra Roma'ya baglandi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f yil bilinmiyor; t Galya Savasi sonu (MO 51). Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sequani",
+  "ad": "Sequani Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "-0057-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Vesontio",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Franche-Comte Kelt halki; Ariovistus ittifaki; Caesar MO 58-57.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f yil bilinmiyor; t yaklasik. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "belgae",
+  "ad": "Belgae (Belga) Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "-0056-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Bibrax / Noviodunum (Remi)",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Kuzey Galya Belga kabileleri; Caesar MO 57-56da boyun egdirdi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Konfederasyon niteligi sinirda. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "veneti",
+  "ad": "Veneti (Armorica)",
+  "tur": "konfederasyon",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "-0055-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Darioritum",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Armorica kiyi deniz ticaret halki; MO 56da Caesar'a yenildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasi birim sinirda. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "allobroges",
+  "ad": "Allobroges",
+  "tur": "konfederasyon",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "-0120-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Vienna",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Rhone-Isere Kelt halki; MO 121de Roma'ya yenildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f yil bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "salluvii",
+  "ad": "Salluvii (Salyes) Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "-0121-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Entremont",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Provence Kelt-Ligur konfederasyonu; MO 123-122 Roma fethi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f yil bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "keltiber-arevaci",
+  "ad": "Keltiber (Arevaci) Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "iberya",
+  "f": null,
+  "t": "-0132-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Numantia",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Merkez Hispania Kelt-Iber kabilesi; Numantia MO 133te dustu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasi birim sinirda; Lusitani (Viriathus) benzer. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kartaca-ispanya",
+  "ad": "Barkid (Kartaca) Ispanyasi",
+  "tur": "imparatorluk",
+  "bolge": "iberya",
+  "f": "-0236-01-01",
+  "t": "-0205-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Qart Hadasht (Cartagena)",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Hamilcar Barca MO 237/6da Iberya'ya cikti; Ilipa MO 206 sonrasi Roma.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hamilcar'in cikisi MO 237 (yaklasik). Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "kartaca (kuzey-afrika) ana devlet; Iberya kolu ayri polity sayildi, karar ana oturumda."
+  }
+ },
+ {
+  "id": "iceni",
+  "ad": "Iceni (Britanya)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "0061-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Venta Icenorum yakini",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Dogu Britanya'da Boudica'nin kralligi; MS 60/61 isyani sonrasi dagildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Roma musterisi MS 43-47den; isyan 60/61. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "brigantes",
+  "ad": "Brigantes Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "0071-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Isurium / Eboracum yakini",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Kuzey Britanya Brigantes; Cartimandua; MS 69-74 Roma fethi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "atrebates-regni",
+  "ad": "Atrebates / Regni (Cogidubnus)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "0080-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Noviomagus Reginorum",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Guney Britanya Atrebates krallari (Commius), MS 43 sonrasi Roma musteri kralligi (Cogidubnus).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "t yaklasik. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "catuvellauni-krallik komsu."
+  }
+ },
+ {
+  "id": "soissons-devleti",
+  "ad": "Soissons Devleti (Aegidius-Syagrius)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0457-01-01",
+  "t": "0486-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Soissons",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Roma Galya'sinin Loire-Seine arasindaki kalinti devleti; Clovis 486da yikti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f Aegidius'un yonetimi (457) yaklasik; Syagrius 464/5ten. t 486 (Soissons Muharebesi). Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dumnonia",
+  "ad": "Dumnonia",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0450-01-01",
+  "t": "0710-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Exeter / Tintagel (tartisili)",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Roma sonrasi Devon-Cornwall Kelt kralligi; Wessex'e katilma 710 civari.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Baslangic belirsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "salian-frank-tournai",
+  "ad": "Salian Frank (Tournai) Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0428-01-01",
+  "t": "0481-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Tournai",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Clodio, Merovech, Childeric Salian Frank krallari; Clovis ile Frank (frank).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f Clodio (428 civari) taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "frank",
+   "not": "frank kunyesi 481de basliyor; oncul Salian krallik ayri yonetilen polity."
+  }
+ },
+ {
+  "id": "ripuer-frank-koln",
+  "ad": "Ripuer Frank Kralligi (Koln)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "0509-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Koln",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Sigibert'in Ren Franklari; Clovis tarafindan ilhak (~509-511).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "armorika-bretonlari",
+  "ad": "Bretonlar (Armorika) bolgesel krallıkları",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0450-01-01",
+  "t": "0845-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Dol / Quimper / Vannes",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Britanya'dan gocen Bretonlarin Domnonee/Cornouaille/Bro Weroc'h krallıkları; Nominoe ile birlesti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasi birliklerin sinirlari belirsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "bretanya (939 dukalik) ardil."
+  }
+ }
+]

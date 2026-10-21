@@ -1,0 +1,957 @@
+[
+ {
+  "id": "nanda",
+  "ad": "Nanda Hanedanı (Magadha)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "-0344-01-01",
+  "t": "-0321-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pataliputra",
+  "etkin_bolge": "Gangetik ova + Orta Hint",
+  "sehirler": [
+   "Pataliputra"
+  ],
+  "ozet": "Mahapadma ile Hindistan'ın büyük kısmını birleştiren hanedan; Çandragupta Maurya'ya yıkıldı.",
+  "oncul": [
+   "magadha"
+  ],
+  "ardil": [
+   "maurya"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mahapadma Nanda gelenek.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "magadha",
+   "not": "magadha içinde (-0542→-0320)"
+  }
+ },
+ {
+  "id": "maurya-ref",
+  "ad": "Maurya İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "-0321-01-01",
+  "t": "-0184-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pataliputra",
+  "etkin_bolge": "Hindistan alt kıtası",
+  "sehirler": [
+   "Pataliputra",
+   "Taksila",
+   "Ujjain"
+  ],
+  "ozet": "Çandragupta ile kuruldu; Brhadratha'nın Pusyamitra tarafından öldürülmesiyle bitti.",
+  "oncul": [
+   "nanda"
+  ],
+  "ardil": [
+   "sunga"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "maurya",
+   "not": ""
+  }
+ },
+ {
+  "id": "sunga-ref",
+  "ad": "Sunga Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "-0184-01-01",
+  "t": "-0072-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pataliputra → Vidisha",
+  "etkin_bolge": "Orta-Doğu Hint",
+  "sehirler": [
+   "Vidisha",
+   "Pataliputra"
+  ],
+  "ozet": "Pusyamitra ile başlayıp Kanva'ya devredildi.",
+  "oncul": [
+   "maurya"
+  ],
+  "ardil": [
+   "kanva"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sunga",
+   "not": ""
+  }
+ },
+ {
+  "id": "kanva-ref",
+  "ad": "Kanva Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "-0072-01-01",
+  "t": "-0027-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pataliputra",
+  "etkin_bolge": "Magadha",
+  "sehirler": [
+   "Pataliputra"
+  ],
+  "ozet": "Vasudeva ile başlayıp Satavahana/Andhra ile bitti.",
+  "oncul": [
+   "sunga"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kanva",
+   "not": ""
+  }
+ },
+ {
+  "id": "satavahana-ref",
+  "ad": "Satavahana Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "-0229-01-01",
+  "t": "0220-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Pratisthana / Amaravati",
+  "etkin_bolge": "Dekkan",
+  "sehirler": [
+   "Pratisthana",
+   "Amaravati",
+   "Junnar"
+  ],
+  "ozet": "Simuka ile (Puranik) başlayıp 3. yy'da dağıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Puranlara göre Simuka MÖ ~230; yazıtsal veriler MÖ 1. yy'ı destekler; seçim: Puranik, öbürü bu notta.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "satavahana",
+   "not": "Mevcut f=-0029; Puranik/yazıtsal ayrımı ~200 yıl."
+  }
+ },
+ {
+  "id": "hint-yunan-ref",
+  "ad": "Hint-Yunan (İndo-Grek) Krallıkları",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0179-01-01",
+  "t": "0010-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Taksila → Sagala",
+  "etkin_bolge": "Kuzeybatı Hint",
+  "sehirler": [
+   "Taksila",
+   "Sagala",
+   "Pushkalavati"
+  ],
+  "ozet": "Demetrios I'in fetihleriyle başlayıp Hint-İskit/Part baskısıyla bitti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "indo-grek",
+   "not": ""
+  }
+ },
+ {
+  "id": "hint-iskit",
+  "ad": "Hint-İskit (Saka) Krallıkları — Kuzeybatı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0084-01-01",
+  "t": "0020-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Taksila / Sirkap",
+  "etkin_bolge": "Pencap-Gandhara",
+  "sehirler": [
+   "Taksila",
+   "Mathura"
+  ],
+  "ozet": "Maues ile İskitlerin Gandhara'daki egemenliği; Gondophares'e kadar.",
+  "oncul": [
+   "indo-grek"
+  ],
+  "ardil": [
+   "hint-part"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Maues MÖ ~85. Kuzey Satraplar (Mathura) ayrı küçük kayıt gerekebilir.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Batı Kşatrapalar ayrı (sakalar-bati-satraplar)."
+  }
+ },
+ {
+  "id": "hint-part",
+  "ad": "Hint-Part (Gondophares) Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0019-01-01",
+  "t": "0226-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Taksila",
+  "etkin_bolge": "Peşaver-Taksila-Sind",
+  "sehirler": [
+   "Taksila",
+   "Peşaver"
+  ],
+  "ozet": "Gondophares ile (Part kökenli) kuzeybatıda egemen; Kuşan'a yenildi.",
+  "oncul": [
+   "hint-iskit"
+  ],
+  "ardil": [
+   "kusan"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f=Gondophares ~19; t Kuşan/Sasani sonrası çok belirsiz.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "sakalar-bati-satraplar-ref",
+  "ad": "Batı Kşatrapalar (Saka)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0035-01-01",
+  "t": "0405-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ujjain",
+  "etkin_bolge": "Gucerat-Malva",
+  "sehirler": [
+   "Ujjain",
+   "Barygaza"
+  ],
+  "ozet": "Nahapana'dan başlayıp Gupta fethiyle bitti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kşaharata (Nahapana) ve Kardamaka kolları içeride.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sakalar-bati-satraplar",
+   "not": ""
+  }
+ },
+ {
+  "id": "kuninda",
+  "ad": "Kuninda Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0199-01-01",
+  "t": "0300-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Sirmur / Himachal",
+  "etkin_bolge": "Himachal-Haryana yamacı",
+  "sehirler": [
+   "Sirmur"
+  ],
+  "ozet": "Sikkeler ve Mahabharata anıları; Gupta döneminde ortadan kalktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler sikke tipolojisine dayalı yaklaşık.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "yaudheya",
+  "ad": "Yaudheya Cumhuriyeti",
+  "tur": "cumhuriyet",
+  "bolge": "guney-asya",
+  "f": "-0099-01-01",
+  "t": "0400-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Rohtak civarı",
+  "etkin_bolge": "Doğu Pencap-Haryana",
+  "sehirler": [
+   "Rohtak",
+   "Bahawalpur"
+  ],
+  "ozet": "Panini'den bilinen gan-sangha; Samudragupta'ya Allahabad Sütunu'nda boyun eğdi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Sikke tabanlı kronoloji; Mahabharata'dakiyle özdeşlik tartışmalı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "mahameghavahana",
+  "ad": "Mahameghavahana (Kalinga Chedi) Hanedanı — Kharavela",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "-0199-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Kalinganagara / Sisupalgarh",
+  "etkin_bolge": "Odisha-Kuzey Andhra",
+  "sehirler": [
+   "Kalinganagara",
+   "Udayagiri"
+  ],
+  "ozet": "Hathigumpha yazıtı ile bilinen Kharavela hanedanı.",
+  "oncul": [
+   "kalinga-eski"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "t: yil bilinmiyor. Hathigumpha yazıtı tarihi (MÖ 2. mi 1. yy mı) tartışmalı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "pandya-erken",
+  "ad": "Pandya (Sangam / Erken Pandya)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0257-01-01",
+  "t": "0300-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Madurai",
+  "etkin_bolge": "Güney Tamil ülkesi",
+  "sehirler": [
+   "Madurai",
+   "Korkai"
+  ],
+  "ozet": "Asoka II. Kaya Fermanı'nda anılan Pandya; Kalabhra istilasına kadar.",
+  "oncul": [],
+  "ardil": [
+   "kalabhra",
+   "pandya-1"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f ilk belgeli anılış, kuruluş değil.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "pandya-1",
+   "not": "pandya-1 (601+) öncesi."
+  }
+ },
+ {
+  "id": "cola-erken",
+  "ad": "Çola (Sangam / Erken Çola)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0257-01-01",
+  "t": "0300-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Uraiyur / Kaveripattinam",
+  "etkin_bolge": "Kaveri deltası",
+  "sehirler": [
+   "Uraiyur",
+   "Puhar"
+  ],
+  "ozet": "Asoka fermanında anılan; Kalabhra/Pallava arasında silinip ~850 dirilişi.",
+  "oncul": [],
+  "ardil": [
+   "kalabhra",
+   "cola"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Karikala MS 2. yy gelenek; kesin tarih yok.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "cola",
+   "not": "Mevcut cola f=850."
+  }
+ },
+ {
+  "id": "cera-erken",
+  "ad": "Çera (Sangam / Erken Çera)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "-0257-01-01",
+  "t": "0300-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Vanji (Karur)",
+  "etkin_bolge": "Kerala-Kongu",
+  "sehirler": [
+   "Vanji",
+   "Muziris"
+  ],
+  "ozet": "Keralaputra olarak Asoka fermanında; sonraki Kulasekhara öncesi.",
+  "oncul": [],
+  "ardil": [
+   "kulasekhara-cera"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kalabhra ile kesişen belirsiz dönem.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "kulasekhara-cera",
+   "not": "Mevcut f=800."
+  }
+ },
+ {
+  "id": "kalabhra",
+  "ad": "Kalabhra Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0250-01-01",
+  "t": "0600-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Belirsiz",
+  "etkin_bolge": "Tamil ülkesi",
+  "sehirler": [],
+  "ozet": "Sangam krallıklarını ortadan kaldıran, Pallava/Pandya tarafından devrilen 'karanlık çağ' yönetimi.",
+  "oncul": [
+   "pandya-erken",
+   "cola-erken"
+  ],
+  "ardil": [
+   "pandya-1",
+   "pallava"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Çok az kaynak; yer adı belirsiz.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "ikshvaku-andhra",
+  "ad": "İkşvaku (Nagarjunakonda) Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0225-01-01",
+  "t": "0325-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Vijayapuri",
+  "etkin_bolge": "Krishna vadisi",
+  "sehirler": [
+   "Nagarjunakonda"
+  ],
+  "ozet": "Satavahana'dan sonra Andhra'da, Budist anıtlarla tanınan hanedan.",
+  "oncul": [
+   "satavahana"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Yazıtlara dayalı yaklaşık.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "abhira",
+  "ad": "Abhira Hanedanı (Maharashtra)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0250-01-01",
+  "t": "0370-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Nasik çevresi",
+  "etkin_bolge": "Kuzey Dekkan",
+  "sehirler": [
+   "Nasik"
+  ],
+  "ozet": "Satavahana sonrası Maharashtra'da.",
+  "oncul": [
+   "satavahana"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarih yaklaşık.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "vakataka",
+  "ad": "Vakataka Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0250-01-01",
+  "t": "0500-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Nandivardhana / Vatsagulma",
+  "etkin_bolge": "Orta Dekkan",
+  "sehirler": [
+   "Vatsagulma",
+   "Nandivardhana"
+  ],
+  "ozet": "Gupta ile evlilik ilişkili; Ajanta mağaralarının hamisi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hanedan kolları; son 5. yy sonu-6. yy başı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "vishnukundina",
+  "ad": "Vişnukundina Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0420-01-01",
+  "t": "0624-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Denduluru / Amaravati",
+  "etkin_bolge": "Andhra",
+  "sehirler": [
+   "Denduluru"
+  ],
+  "ozet": "Doğu Dekkan; Doğu Çalukya'ya yenildi.",
+  "oncul": [
+   "ikshvaku-andhra"
+  ],
+  "ardil": [
+   "dogu-calukya"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "gupta-ref",
+  "ad": "Gupta İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0320-01-01",
+  "t": "0550-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Pataliputra",
+  "etkin_bolge": "Kuzey Hint",
+  "sehirler": [
+   "Pataliputra",
+   "Ujjain",
+   "Ayodhya"
+  ],
+  "ozet": "Candragupta I (Gupta Çağı 319/320) ile başlayıp Hun darbesiyle çöktü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "gupta",
+   "not": ""
+  }
+ },
+ {
+  "id": "kadamba-banavasi",
+  "ad": "Kadamba (Banavasi) Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0345-01-01",
+  "t": "0525-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Banavasi",
+  "etkin_bolge": "Kuzey Karnataka-Goa",
+  "sehirler": [
+   "Banavasi",
+   "Halasi"
+  ],
+  "ozet": "Mayurasarman ile bağımsızlığını ilan etti; Badami Çalukya'ya yenildi.",
+  "oncul": [],
+  "ardil": [
+   "badami-calukya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş yazıta bağlı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "pallava-ref",
+  "ad": "Pallava Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0275-01-01",
+  "t": "0897-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Kancipuram",
+  "etkin_bolge": "Tondaimandalam",
+  "sehirler": [
+   "Kancipuram",
+   "Mahabalipuram"
+  ],
+  "ozet": "Mevcut f=350; erken Pallava (Simhavarman) ~275.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Erken Pallavaların kuruluş tarihi tartışmalı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "pallava",
+   "not": "f 75 yıl farklı."
+  }
+ },
+ {
+  "id": "kamarupa-ref",
+  "ad": "Kamarupa Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0350-01-01",
+  "t": "1140-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Pragjyotisapura / Haruppesvara",
+  "etkin_bolge": "Assam",
+  "sehirler": [
+   "Guwahati",
+   "Tezpur"
+  ],
+  "ozet": "Pusyavarman ile Varman-Mleccha-Pala kolları; Kamata'ya geçiş.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kamarupa",
+   "not": ""
+  }
+ },
+ {
+  "id": "licchavi-nepal",
+  "ad": "Licchavi Nepal Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0400-01-01",
+  "t": "0750-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kathmandu",
+  "etkin_bolge": "Kathmandu vadisi",
+  "sehirler": [
+   "Kathmandu",
+   "Patan"
+  ],
+  "ozet": "Manadeva (464) yazıtından belgeli; Thakuri geçişi.",
+  "oncul": [],
+  "ardil": [
+   "nepal-thakuri"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Yazıtlar 464'ten, daha eski Jayavarman 185 yazıtı tartışmalı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut nepal f=1000."
+  }
+ },
+ {
+  "id": "kidarit",
+  "ad": "Kidarit Krallığı (Gandhara)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0390-01-01",
+  "t": "0467-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Balkh / Peşaver",
+  "etkin_bolge": "Gandhara-Baktriya",
+  "sehirler": [
+   "Peşaver",
+   "Balkh"
+  ],
+  "ozet": "Kushano-Sasanian sonrası Kidarit Hunlar.",
+  "oncul": [
+   "kusan-sasani"
+  ],
+  "ardil": [
+   "alkhon"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "İran/Orta Asya ajanıyla çakışabilir.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "orta-asya bölgesiyle çakışır; Gandhara kısmı burada."
+  }
+ },
+ {
+  "id": "alkhon",
+  "ad": "Alkhon (Hint Hunları — Toramana/Mihirakula)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0490-01-01",
+  "t": "0528-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Sakala (Sialkot)",
+  "etkin_bolge": "Pencap-Malva",
+  "sehirler": [
+   "Sakala",
+   "Gwalior"
+  ],
+  "ozet": "Toramana ve Mihirakula'nın Gupta Hindistan'ında egemenliği; Yasodharman'a yenildi.",
+  "oncul": [
+   "kidarit"
+  ],
+  "ardil": [
+   "maukhari"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler paraya/yazıta bağlı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "rai-sind",
+  "ad": "Rai Hanedanı (Sind)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0489-01-01",
+  "t": "0632-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Aror",
+  "etkin_bolge": "Sind",
+  "sehirler": [
+   "Aror"
+  ],
+  "ozet": "Sind'de Çaç'a kadar süren Budist Rai hanedanı.",
+  "oncul": [],
+  "ardil": [
+   "cac-sind"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Çaç-nâme'ye dayalı gelenek.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "maitraka",
+  "ad": "Maitraka Hanedanı (Valabhi)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0475-01-01",
+  "t": "0776-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Valabhi",
+  "etkin_bolge": "Saurashtra",
+  "sehirler": [
+   "Valabhi"
+  ],
+  "ozet": "Bhatarka ile Valabhi merkezli; Arap istilasıyla düştü.",
+  "oncul": [],
+  "ardil": [
+   "gurjara-pratihara"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "dogu-ganga",
+  "ad": "Doğu Ganga Hanedanı (Kalinga)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0493-01-01",
+  "t": "1434-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kalinganagara → Cuttack",
+  "etkin_bolge": "Odisha",
+  "sehirler": [
+   "Kalinganagara",
+   "Puri"
+  ],
+  "ozet": "Kalinga'daki Ganga yılı 498 geleneği; Gajapatilere devredildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f yazıtsal tartışmalı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "orissa",
+   "not": "Mevcut orissa 1000–1568."
+  }
+ }
+]

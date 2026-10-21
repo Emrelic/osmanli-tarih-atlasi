@@ -1,0 +1,61 @@
+[
+ {
+  "id": "tui-tonga-gelenek-baslangici",
+  "ad": "Tuʻi Tonga Hanedanı (gelenek başlangıcı ~950)",
+  "tur": "imparatorluk",
+  "bolge": "okyanusya",
+  "f": "0950-01-01",
+  "t": "1845-12-04",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "gun"
+  },
+  "baskent": "Muʻa (Lapaha)",
+  "etkin_bolge": "Tonga, Sāmoa, Fiji doğusu, Niue (etki)",
+  "sehirler": [
+   "Muʻa",
+   "Heketā"
+  ],
+  "ozet": "Geleneğe göre Ahoʻeitu ile ~950'de kuruluş; atlas künyesi 1000'den başlıyor.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Gelenek MS ~950; arkeoloji/soy sayımı MS ~1200 gibi daha geç tarihler de öne sürer. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): Campbell, Island Kingdom; Kirch, On the Road of the Winds.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "tui-tonga-imparatorlugu",
+   "not": "Atlas künyesi f=1000; gelenekte ~950 (50 yıl fark; ayrı kayıt açılmayacak, künyenin f'si gözden geçirilsin)."
+  }
+ },
+ {
+  "id": "mariana-latte",
+  "ad": "Mariana Latte Kültürü / Chamorro",
+  "tur": "topluluklar",
+  "bolge": "okyanusya",
+  "f": "0800-01-01",
+  "t": "1695-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Guam, Saipan, Tinian, Rota",
+  "sehirler": [
+   "Tinian"
+  ],
+  "ozet": "Latte taş sütunlu klan toplulukları; atlasta Chamorro kaydı var.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Latte dönemi MS ~800-1700 genel kabul. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "chamorro",
+   "not": ""
+  }
+ }
+]

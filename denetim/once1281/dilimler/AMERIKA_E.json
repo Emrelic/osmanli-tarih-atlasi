@@ -1,0 +1,473 @@
+[
+ {
+  "id": "cahokia",
+  "ad": "Cahokia (Mississippi Kültürü şefliği)",
+  "tur": "seflik",
+  "bolge": "kuzey-amerika",
+  "f": "1050-01-01",
+  "t": "1350-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Cahokia",
+  "etkin_bolge": "Amerikan Alt Orta Batısı",
+  "sehirler": [
+   "Cahokia",
+   "East St. Louis"
+  ],
+  "ozet": "1050 civarı 'Big Bang' ile büyük kent; 13.-14. yy'da düşüş.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "cahokia",
+   "not": "Şeflik/tartışmalı."
+  }
+ },
+ {
+  "id": "etowah",
+  "ad": "Etowah",
+  "tur": "seflik",
+  "bolge": "kuzey-amerika",
+  "f": "1000-01-01",
+  "t": "1550-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Etowah",
+  "etkin_bolge": "Georgia",
+  "sehirler": [
+   "Etowah"
+  ],
+  "ozet": "Mississippi şefliği merkezi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "etowah",
+   "not": "Künye f=1100."
+  }
+ },
+ {
+  "id": "moundville",
+  "ad": "Moundville",
+  "tur": "seflik",
+  "bolge": "kuzey-amerika",
+  "f": "1000-01-01",
+  "t": "1450-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Moundville",
+  "etkin_bolge": "Alabama",
+  "sehirler": [
+   "Moundville"
+  ],
+  "ozet": "Aşağı Alabama Mississippi şefliği.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "moundville",
+   "not": "Künye f=1120; Moundville I ~1000-1200."
+  }
+ },
+ {
+  "id": "natchez",
+  "ad": "Natchez (Grand Village)",
+  "tur": "seflik",
+  "bolge": "kuzey-amerika",
+  "f": "1200-01-01",
+  "t": "1731-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Grand Village",
+  "etkin_bolge": "Aşağı Mississippi",
+  "sehirler": [
+   "Grand Village"
+  ],
+  "ozet": "Güneş şefliğiyle bilinen son Mississippi toplumu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "natchez",
+   "not": "Künye f=1250."
+  }
+ },
+ {
+  "id": "inuit",
+  "ad": "İnuit (Thule göçü)",
+  "tur": "konfederasyon",
+  "bolge": "kuzey-amerika",
+  "f": "1000-01-01",
+  "t": "1880-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "",
+  "etkin_bolge": "Arktik Kanada ve Grönland",
+  "sehirler": [
+   "Iglulik"
+  ],
+  "ozet": "Thule kültürünün doğuya yayılması; siyasî birim değil.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "inuit",
+   "not": "Siyasî birim değil, kültürel yayılım."
+  }
+ },
+ {
+  "id": "haudenosaunee",
+  "ad": "Haudenosaunee (İrokua Konfederasyonu)",
+  "tur": "konfederasyon",
+  "bolge": "kuzey-amerika",
+  "f": "1142-01-01",
+  "t": "1777-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "Onondaga",
+  "etkin_bolge": "New York eyaleti",
+  "sehirler": [
+   "Onondaga",
+   "Seneca"
+  ],
+  "ozet": "Gelenekte Büyük Barış Yapıcı ile kurulan beş-ulus konfederasyonu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Kuruluş tarihi çok tartışmalı: 1142 (Mann & Fields güneş tutulması okuması) ile 15. yy; 1450 olursa kapsam dışı."
+  }
+ },
+ {
+  "id": "kuzco-krallik",
+  "ad": "Kuzco Krallığı (Hurin-Hanan, Inka öncesi/erken)",
+  "tur": "krallik",
+  "bolge": "guney-amerika",
+  "f": "1200-01-01",
+  "t": "1438-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Cusco",
+  "etkin_bolge": "Cusco vadisi",
+  "sehirler": [
+   "Cusco"
+  ],
+  "ozet": "Manco Capac geleneksel kuruluşu; Pachacuti 1438'de imparatorluğa dönüştürdü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica). Killke arkeolojik kültürü (~900-1200) önceki dönem.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Kuruluş yarı efsanevî; 1438 Rowe kronolojisi, Julien eleştirisi. İmparatorluk 1438+ kapsam dışı."
+  }
+ },
+ {
+  "id": "chincha",
+  "ad": "Chincha Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-amerika",
+  "f": "1000-01-01",
+  "t": "1476-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "La Centinela",
+  "etkin_bolge": "Peru güney-orta kıyısı",
+  "sehirler": [
+   "La Centinela"
+  ],
+  "ozet": "Deniz ticaretine dayalı kıyı krallığı; Inka'ya ittifakla bağlanma.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Tarihler kaba."
+  }
+ },
+ {
+  "id": "aymara-senyorlukler",
+  "ad": "Altiplano Aymara Krallıkları (Colla/Lupaqa)",
+  "tur": "konfederasyon",
+  "bolge": "guney-amerika",
+  "f": "1100-01-01",
+  "t": "1450-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Hatuncolla / Chucuito",
+  "etkin_bolge": "Titikaka çevresi",
+  "sehirler": [
+   "Hatuncolla",
+   "Chucuito"
+  ],
+  "ozet": "Tiwanaku sonrası yayla krallıkları.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Tarihler kaba; Colla/Lupaqa ayrı ayrı yazılabilir."
+  }
+ },
+ {
+  "id": "muisca-konfederasyonu",
+  "ad": "Muisca Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "guney-amerika",
+  "f": "1200-01-01",
+  "t": "1537-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Bacatá / Hunza",
+  "etkin_bolge": "Kolombiya Doğu Kordilyeri",
+  "sehirler": [
+   "Bacatá",
+   "Hunza",
+   "Sogamoso"
+  ],
+  "ozet": "Zipa-Zaque-Iraca-Tundama başlıklı şeflik birliği; Quesada fethi 1537-38.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Merkezîleşme tarihi belirsiz; f yüzyıl düzeyi."
+  }
+ },
+ {
+  "id": "taino-seflikleri",
+  "ad": "Taíno Şeflikleri (Cacicazgos)",
+  "tur": "seflik",
+  "bolge": "orta-amerika",
+  "f": "1200-01-01",
+  "t": "1500-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "",
+  "etkin_bolge": "Büyük Antiller",
+  "sehirler": [
+   "Quisqueya",
+   "Borinquén"
+  ],
+  "ozet": "Klasik Taíno cacicazgo'ları; Karayip adaları için ayrı bölge kodu gerekebilir.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Bölge kodu kapalı sözlükte yok (orta-amerika geçici); şeflik/tartışmalı; Klasik Taíno başlangıcı kaba."
+  }
+ },
+ {
+  "id": "mayapan-birligi",
+  "ad": "Mayapán Birliği",
+  "tur": "konfederasyon",
+  "bolge": "orta-amerika",
+  "f": "1200-01-01",
+  "t": "1441-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Mayapán",
+  "etkin_bolge": "Yucatán",
+  "sehirler": [
+   "Mayapán"
+  ],
+  "ozet": "Chichén Itzá sonrası Cocom hanedanlı lig; 1441 civarı yıkım.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "mayapan-birligi",
+   "not": "Künye f=1100; kuruluş ~1200s kabul edilir."
+  }
+ },
+ {
+  "id": "tututepec",
+  "ad": "Tututepec (Mixtek krallığı)",
+  "tur": "krallik",
+  "bolge": "orta-amerika",
+  "f": "1080-01-01",
+  "t": "1522-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Tututepec",
+  "etkin_bolge": "Oaxaca kıyısı",
+  "sehirler": [
+   "Tututepec"
+  ],
+  "ozet": "Codex geleneğinde 8 Geyik Jaguar Pençesi ile 11. yy sonu yükselen kıyı krallığı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Codex tarihi belirsiz."
+  }
+ },
+ {
+  "id": "culhuacan",
+  "ad": "Culhuacán",
+  "tur": "sehir-devleti",
+  "bolge": "orta-amerika",
+  "f": "1100-01-01",
+  "t": "1400-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Culhuacán",
+  "etkin_bolge": "Meksika Vadisi",
+  "sehirler": [
+   "Culhuacán"
+  ],
+  "ozet": "Toltek mirasçısı sayılan Nahua şehir devleti; Mexica'nın efendisi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Tarihler Nahua yıllıklarına dayanır, kaba."
+  }
+ },
+ {
+  "id": "tenayuca-chichimeca",
+  "ad": "Tenayuca / Xolotl Çiçimek Devleti",
+  "tur": "krallik",
+  "bolge": "orta-amerika",
+  "f": "1240-01-01",
+  "t": "1300-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Tenayuca",
+  "etkin_bolge": "Meksika Vadisi kuzeyi",
+  "sehirler": [
+   "Tenayuca",
+   "Texcoco"
+  ],
+  "ozet": "Codex Xolotl'a göre Çiçimek göçmenlerinin kurduğu hanedan; Acolhua devletlerinin atası.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Codex Xolotl tarihleri tartışmalı; 1281 sonrasına taşıyor."
+  }
+ },
+ {
+  "id": "azcapotzalco-tepanek",
+  "ad": "Azcapotzalco (Tepanek)",
+  "tur": "sehir-devleti",
+  "bolge": "orta-amerika",
+  "f": "1200-01-01",
+  "t": "1428-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Azcapotzalco",
+  "etkin_bolge": "Meksika Vadisi",
+  "sehirler": [
+   "Azcapotzalco"
+  ],
+  "ozet": "Tepanek şehir devleti; 14. yy sonu bölgesel hegemonya; 1428'de Maxtla yenilgisi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Kuruluş tarihi yüzyıl düzeyi."
+  }
+ }
+]

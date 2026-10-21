@@ -1,0 +1,329 @@
+[
+ {
+  "id": "lombard-pannonia",
+  "ad": "Lombard Pannonia Krallığı",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "0546-01-01",
+  "t": "0568-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Pannonia",
+  "sehirler": [
+   "Poetovio"
+  ],
+  "ozet": "Audoin ve Alboin; 568 İtalya'ya göç.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi",
+   "Oxford Dictionary of Byzantium (1991), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Pannonia'ya yerleşme tarihi 526/546 arası. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Lombard İTALYA oturumu."
+  }
+ },
+ {
+  "id": "sklaviniai",
+  "ad": "Sklaviniai (Slav Boy Birlikleri - Balkan)",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "0550-01-01",
+  "t": "0850-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Balkanlar",
+  "sehirler": [
+   "Strymon",
+   "Rhynchinoi",
+   "Sagudatai"
+  ],
+  "ozet": "Bizans kaynaklarında Sklaviniai; Bizans yeniden fethi 8-9. yy.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Oxford Dictionary of Byzantium (1991), ilgili madde - OKUNMADI, dogrulama adayi",
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tek polity değil; kümesel kayıt. Slav göçleri 6. yy ortasından. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "karantanya",
+  "ad": "Karantanya (Carantania) Prensliği",
+  "tur": "prenslik",
+  "bolge": "orta-avrupa",
+  "f": "0658-01-01",
+  "t": "0828-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Karnburg",
+  "etkin_bolge": "Doğu Alpler / Slovenya",
+  "sehirler": [
+   "Karnburg",
+   "Krnski Grad"
+  ],
+  "ozet": "Samo ölümü sonrası Alp Slavları; Bavyera ve Frank himayesi, 828 Frank sistemine.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş yılı belirsiz (Fredegar, 658). Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "hirvat-dukalik",
+  "ad": "Hırvat Dükalığı (Dalmaçya)",
+  "tur": "dukalik",
+  "bolge": "balkanlar",
+  "f": "0800-01-01",
+  "t": "0925-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Nin",
+  "etkin_bolge": "Dalmaçya",
+  "sehirler": [
+   "Nin",
+   "Biograd",
+   "Knin"
+  ],
+  "ozet": "Frank vasalı Hırvat dükalığı; Trpimir (845); Branimir (879); 925 Tomislav kral.",
+  "oncul": [],
+  "ardil": [
+   "hirvatistan-kralligi"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi",
+   "Constantine Porphyrogenitus, De Administrando Imperio (Moravcsik-Jenkins, Dumbarton Oaks 1967) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Dükalığın başlangıcı DAI'ye göre Heraklios dönemi (7. yy). Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas hirvatistan-kralligi 925'te başlıyor."
+  }
+ },
+ {
+  "id": "sirp-prensligi",
+  "ad": "Sırp Prensliği (Vlastimirović)",
+  "tur": "prenslik",
+  "bolge": "balkanlar",
+  "f": "0830-01-01",
+  "t": "0960-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Destinikon",
+  "etkin_bolge": "Raşka",
+  "sehirler": [
+   "Ras",
+   "Destinikon",
+   "Dioclea"
+  ],
+  "ozet": "Vlastimir ve ardılları; Časlav 927-~960 sonrası Bizans fethi.",
+  "oncul": [],
+  "ardil": [
+   "raska-buyuk-prensligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Constantine Porphyrogenitus, De Administrando Imperio (Moravcsik-Jenkins, Dumbarton Oaks 1967) - OKUNMADI, dogrulama adayi",
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç DAI efsanesine göre Heraklios dönemi. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas raska 1091 sonrasını kapsıyor."
+  }
+ },
+ {
+  "id": "zahumlje",
+  "ad": "Zahumlje Prensliği",
+  "tur": "prenslik",
+  "bolge": "balkanlar",
+  "f": "0910-01-01",
+  "t": "1030-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Ston",
+  "etkin_bolge": "Hersek",
+  "sehirler": [
+   "Ston",
+   "Bona"
+  ],
+  "ozet": "Mihailo Višević ~910-950.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Constantine Porphyrogenitus, De Administrando Imperio (Moravcsik-Jenkins, Dumbarton Oaks 1967) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "travunija",
+  "ad": "Travunija (Trebinje) Prensliği",
+  "tur": "prenslik",
+  "bolge": "balkanlar",
+  "f": "0900-01-01",
+  "t": "1040-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Trebinje",
+  "etkin_bolge": "Güney Hersek",
+  "sehirler": [
+   "Trebinje"
+  ],
+  "ozet": "Duklja'ya bağlanıncaya kadar.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Constantine Porphyrogenitus, De Administrando Imperio (Moravcsik-Jenkins, Dumbarton Oaks 1967) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "neretva-prensligi",
+  "ad": "Neretva (Pagania) Prensliği",
+  "tur": "prenslik",
+  "bolge": "balkanlar",
+  "f": "0830-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Mokro",
+  "etkin_bolge": "Neretva deltası",
+  "sehirler": [
+   "Mokro"
+  ],
+  "ozet": "Narentin korsanları; Venedik 998/1000 Pietro Orseolo II seferi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Constantine Porphyrogenitus, De Administrando Imperio (Moravcsik-Jenkins, Dumbarton Oaks 1967) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "duklja-erken",
+  "ad": "Duklja (erken: Jovan Vladimir)",
+  "tur": "prenslik",
+  "bolge": "balkanlar",
+  "f": "0990-01-01",
+  "t": "1036-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Shkodër çevresi",
+  "etkin_bolge": "Zeta",
+  "sehirler": [
+   "Shkodër",
+   "Ulcinj"
+  ],
+  "ozet": "Jovan Vladimir (~990-1016) Samuil vasalı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "duklja",
+   "not": "Atlas 1036 sonrası."
+  }
+ },
+ {
+  "id": "balaton-prensligi",
+  "ad": "Balaton (Pribina-Kocel) Prensliği",
+  "tur": "prenslik",
+  "bolge": "orta-avrupa",
+  "f": "0840-01-01",
+  "t": "0876-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Mosaburg",
+  "etkin_bolge": "Aşağı Pannonia",
+  "sehirler": [
+   "Mosaburg"
+  ],
+  "ozet": "Pribina ve Kocel; Frank himayesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç tarih tahmini. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

@@ -1,0 +1,870 @@
+[
+ {
+  "id": "langobard",
+  "ad": "Lombard (Langobard) Krallığı",
+  "tur": "krallik",
+  "bolge": "italya",
+  "f": "0568-01-01",
+  "t": "0774-06-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Pavia",
+  "etkin_bolge": "Kuzey ve orta İtalya, Benevento/Spoleto dukalıkları",
+  "sehirler": [
+   "Pavia",
+   "Milano",
+   "Monza"
+  ],
+  "ozet": "Alboin'in 568'de İtalya'ya girmesiyle kuruldu; Charlemagne 774'te Pavia'yı alıp Lombard kralı sıfatını aldı.",
+  "oncul": [
+   "dogu-got"
+  ],
+  "ardil": [
+   "karolenj-italya"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas t=0774-01-01; Pavia'nın düşüşü Haziran 774.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "langobard",
+   "not": ""
+  }
+ },
+ {
+  "id": "ravenna-eksarhligi",
+  "ad": "Ravenna Eksarhlığı (Bizans İtalyası)",
+  "tur": "eksarhlik",
+  "bolge": "italya",
+  "f": "0584-01-01",
+  "t": "0751-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ravenna",
+  "etkin_bolge": "Ravenna, Pentapolis, Roma Dukalığı, Venetia",
+  "sehirler": [
+   "Ravenna"
+  ],
+  "ozet": "Maurice döneminde 584 civarı kurulan Bizans askerî-sivil eyaleti; Aistulf 751'de Ravenna'yı alınca bitti.",
+  "oncul": [],
+  "ardil": [
+   "papalik",
+   "karolenj-italya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kurulum 584-590 aralığında; atlas uyumlu.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "ravenna-eksarhligi",
+   "not": ""
+  }
+ },
+ {
+  "id": "friuli-dukaligi-lombard",
+  "ad": "Friuli Lombard Dukalığı",
+  "tur": "dukalik",
+  "bolge": "italya",
+  "f": "0568-01-01",
+  "t": "0776-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Cividale (Forum Iulii)",
+  "etkin_bolge": "Friuli, Karnik Alpler",
+  "sehirler": [
+   "Cividale"
+  ],
+  "ozet": "Gisulf I'in Alboin döneminde ilk Lombard dukası; Rotgaud isyanı (776) sonrası Franklar yönetimi.",
+  "oncul": [],
+  "ardil": [
+   "aquileia-patrikligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Frank Marka Friuli: bu kaydın devamıdır.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "spoleto-dukaligi",
+  "ad": "Spoleto Dukalığı",
+  "tur": "dukalik",
+  "bolge": "italya",
+  "f": "0576-01-01",
+  "t": "1198-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Spoleto",
+  "etkin_bolge": "Umbria, Marche",
+  "sehirler": [
+   "Spoleto",
+   "Camerino",
+   "Norcia"
+  ],
+  "ozet": "Faroald'ın ~570'lerde kurduğu Lombard dukalığı; Franklar altında marka; Innocentius III 1198'de Papalık'a bağladı.",
+  "oncul": [
+   "langobard"
+  ],
+  "ardil": [
+   "papalik"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş 570-576; bitiş 1198/1201 (Konrad von Urslingen); Spoleto dukaları arasında Guido (889-894) İmparator oldu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "benevento-dukaligi-lombard",
+  "ad": "Benevento Dukalığı-Prensliği (Lombard)",
+  "tur": "dukalik",
+  "bolge": "italya",
+  "f": "0571-01-01",
+  "t": "1077-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Benevento",
+  "etkin_bolge": "Campania iç, Apulya, Molise",
+  "sehirler": [
+   "Benevento",
+   "Capua",
+   "Salerno"
+  ],
+  "ozet": "Zotto ile ~570'te Lombard dukalığı; 774'te Charlemagne'ye karşı bağımsız prenslik; 849'da Salerno ayrıldı; 1051'den papalığa bağlı.",
+  "oncul": [
+   "langobard"
+  ],
+  "ardil": [
+   "papalik",
+   "salerno-prensligi",
+   "capua-prensligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Papa enklavı 1051'den; son Lombard prens Landulf VI 1077'de Guiscard tarafından.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "benevento-papalik",
+   "not": "Atlas künyesi 1000-1053; genişlet: 0571-1077"
+  }
+ },
+ {
+  "id": "salerno-prensligi",
+  "ad": "Salerno Prensliği",
+  "tur": "prenslik",
+  "bolge": "italya",
+  "f": "0849-01-01",
+  "t": "1076-12-13",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Salerno",
+  "etkin_bolge": "Campania, Kalabria",
+  "sehirler": [
+   "Salerno",
+   "Amalfi (kısmen)"
+  ],
+  "ozet": "849'da Benevento Prensliği'nin bölünmesiyle Siconulf ile bağımsız; 1076'da Guiscard tarafından alındı.",
+  "oncul": [
+   "benevento-dukaligi-lombard"
+  ],
+  "ardil": [
+   "apulya-dukaligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History",
+   "ADAY (okunmadi): Matthew, The Norman Kingdom of Sicily (1992); Loud, The Age of Robert Guiscard (2000)",
+   "ADAY (okunmadi): Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bölünme antlaşması 849 (II. Ludovicus arabulucu).",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "salerno-prensligi",
+   "not": "Atlas künyesi 1000-1076; başlangıç 849"
+  }
+ },
+ {
+  "id": "capua-prensligi",
+  "ad": "Capua Prensliği (Lombard ve Norman)",
+  "tur": "prenslik",
+  "bolge": "italya",
+  "f": "0900-01-01",
+  "t": "1135-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Capua",
+  "etkin_bolge": "Campania kuzey, Latium güney",
+  "sehirler": [
+   "Capua",
+   "Aversa"
+  ],
+  "ozet": "~900 civarı Atenulf'un Capua-Benevento birliği; 1058'den Norman prensler (Richard of Aversa); II. Roger 1135 civarında aldı.",
+  "oncul": [
+   "benevento-dukaligi-lombard"
+  ],
+  "ardil": [
+   "sicilya-kralligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History",
+   "ADAY (okunmadi): Matthew, The Norman Kingdom of Sicily (1992); Loud, The Age of Robert Guiscard (2000)",
+   "ADAY (okunmadi): Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Capua gastaldatı 840'lardan; prenslik 860-900 arası; bitiş 1135-1156 tartışmalı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "napoli-dukaligi",
+  "ad": "Napoli Dükalığı",
+  "tur": "dukalik",
+  "bolge": "italya",
+  "f": "0763-01-01",
+  "t": "1139-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Napoli",
+  "etkin_bolge": "Napoli körfezi",
+  "sehirler": [
+   "Napoli",
+   "Cumae",
+   "Pozzuoli"
+  ],
+  "ozet": "Bizans dukalığı olarak başlayıp 8. yy'da fiilen, 840'tan itibaren hanedanla bağımsız; II. Roger 1139'da teslim aldı.",
+  "oncul": [],
+  "ardil": [
+   "sicilya-kralligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bizans dukluğu 661'e uzatılır; fiilen özerklik 8. yy.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "napoli-dukaligi",
+   "not": "Atlas künyesi 1000-1137; tam polity 0763(8. yy)-1139"
+  }
+ },
+ {
+  "id": "gaeta-dukaligi",
+  "ad": "Gaeta Dükalığı",
+  "tur": "dukalik",
+  "bolge": "italya",
+  "f": "0839-01-01",
+  "t": "1140-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Gaeta",
+  "etkin_bolge": "Latium kıyısı",
+  "sehirler": [
+   "Gaeta",
+   "Fondi"
+  ],
+  "ozet": "Bizans dukalığı; 839 civarı bağımsız, Normanlara ~1140'ta düştü.",
+  "oncul": [],
+  "ardil": [
+   "sicilya-kralligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas 0836 ile uyumlu (≤25 yıl).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "gaeta-dukaligi",
+   "not": ""
+  }
+ },
+ {
+  "id": "amalfi-dukaligi",
+  "ad": "Amalfi Dükalığı/Cumhuriyeti",
+  "tur": "dukalik",
+  "bolge": "italya",
+  "f": "0839-01-01",
+  "t": "1131-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Amalfi",
+  "etkin_bolge": "Amalfi kıyısı",
+  "sehirler": [
+   "Amalfi",
+   "Ravello"
+  ],
+  "ozet": "Napoli'den ayrılma 839; 1131'de II. Roger'in bağlaması; Pisa saldırıları 1135, 1137.",
+  "oncul": [
+   "napoli-dukaligi"
+  ],
+  "ardil": [
+   "sicilya-kralligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "amalfi-cumhuriyeti",
+   "not": "Atlas 1000-1131; başlangıç 839"
+  }
+ },
+ {
+  "id": "sorrento-dukaligi",
+  "ad": "Sorrento Dükalığı",
+  "tur": "dukalik",
+  "bolge": "italya",
+  "f": "0900-01-01",
+  "t": "1133-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Sorrento",
+  "etkin_bolge": "Sorrento yarımadası",
+  "sehirler": [
+   "Sorrento"
+  ],
+  "ozet": "Napoli'den kopan küçük dükalık; Normanlar 1130'larda ilhak.",
+  "oncul": [
+   "napoli-dukaligi"
+  ],
+  "ardil": [
+   "sicilya-kralligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç yaklaşık (10. yy); bitiş 1133.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "venedik-tarihsel",
+  "ad": "Venedik Cumhuriyeti (Dogado)",
+  "tur": "cumhuriyet",
+  "bolge": "italya",
+  "f": "0697-01-01",
+  "t": "1797-05-12",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Venedik",
+  "etkin_bolge": "Venetia lagünü, Adriyatik",
+  "sehirler": [
+   "Venedik",
+   "Torcello",
+   "Chioggia"
+  ],
+  "ozet": "Geleneksel ilk dux Paolo Lucio Anafesto 697; Napoleon'un Mayıs 1797'deki işgali.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Geleneksel 697; ilk belgeli dux Orso 726 (Ursus). Tarih tartışmalı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "venedik",
+   "not": ""
+  }
+ },
+ {
+  "id": "papalik-devleti",
+  "ad": "Papalık Devleti",
+  "tur": "devlet",
+  "bolge": "italya",
+  "f": "0756-01-01",
+  "t": "1870-09-20",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Roma",
+  "etkin_bolge": "Latium, Umbria, Marche, Romagna",
+  "sehirler": [
+   "Roma",
+   "Ravenna",
+   "Ancona"
+  ],
+  "ozet": "756 Pippin Bağışı ile Papalık'a verilen Ravenna-Pentapolis; 1870'te İtalya'ya katıldı.",
+  "oncul": [
+   "ravenna-eksarhligi"
+  ],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Roma Dukalığı yoluyla 740'lar; 756 Pippin; 774 Charlemagne tasdiki.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "papalik",
+   "not": ""
+  }
+ },
+ {
+  "id": "karolenj-italya",
+  "ad": "İtalya Krallığı (Karolenj-Berengar dönemi)",
+  "tur": "krallik",
+  "bolge": "italya",
+  "f": "0774-06-01",
+  "t": "0962-02-02",
+  "kesinlik": {
+   "f": "ay",
+   "t": "gun"
+  },
+  "baskent": "Pavia",
+  "etkin_bolge": "Kuzey ve orta İtalya",
+  "sehirler": [
+   "Pavia",
+   "Milano",
+   "Verona"
+  ],
+  "ozet": "Charlemagne'nin Lombard tacını alması (774); Otto I'in 962'de imparatorluk tacı.",
+  "oncul": [
+   "langobard"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas f=0774-01-01 fakat Pavia 774 Haziran.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "karolenj-italya",
+   "not": ""
+  }
+ },
+ {
+  "id": "sicilya-emirligi-aglebi-kalbi",
+  "ad": "Sicilya Emirliği (Aglebî-Fâtımî-Kelbî)",
+  "tur": "emirlik",
+  "bolge": "italya",
+  "f": "0827-06-01",
+  "t": "1091-02-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Palermo (Belerm)",
+  "etkin_bolge": "Sicilya",
+  "sehirler": [
+   "Palermo",
+   "Mazara",
+   "Girgenti",
+   "Siracusa",
+   "Taormina"
+  ],
+  "ozet": "Aglebîlerin 827'de Mazara'ya çıkarmasıyla başlayan fetih (Palermo 831), 909'da Fâtımî, 948'den Kelbî emirleri; Noto 1091'de düştü.",
+  "oncul": [],
+  "ardil": [
+   "sicilya-kralligi"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY (okunmadi): Brill Encyclopaedia of Islam, 'Sikilliya'; TDV Islam Ansiklopedisi 'Sicilya'",
+   "ADAY (okunmadi): Metcalfe, The Muslims of Medieval Italy (2009)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Aglebî emirliği 827/831-909, Fâtımî valileri 909-948, Kelbî 948-1053/1061, taife dönemi 1053-1091. TDV 'Sicilya' maddesi okunmalı.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "sicilya-emirligi",
+   "not": "Atlas künyesi 0947-1091; 827/831 başlangıç ekle (Aglebî/Fâtımî evresi)"
+  }
+ },
+ {
+  "id": "bari-emirligi",
+  "ad": "Bari Emirliği",
+  "tur": "emirlik",
+  "bolge": "italya",
+  "f": "0847-01-01",
+  "t": "0871-02-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Bari",
+  "etkin_bolge": "Apulya",
+  "sehirler": [
+   "Bari"
+  ],
+  "ozet": "Halfun (Khalfun) ve Mufarrağ ile 847 civarı kurulan emirlik; II. Ludovicus ve Bizans 871'de Bari'yi aldı.",
+  "oncul": [],
+  "ardil": [
+   "karolenj-italya",
+   "bizans-katepanlik-italya"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Brill Encyclopaedia of Islam, 'Sikilliya'; TDV Islam Ansiklopedisi 'Sicilya'",
+   "ADAY (okunmadi): Metcalfe, The Muslims of Medieval Italy (2009)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş 847/853 farklı aktarılır; bitiş Şubat 871.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "taranto-emirligi",
+  "ad": "Taranto Emirliği",
+  "tur": "emirlik",
+  "bolge": "italya",
+  "f": "0840-01-01",
+  "t": "0880-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Taranto",
+  "etkin_bolge": "Apulya, Salento",
+  "sehirler": [
+   "Taranto"
+  ],
+  "ozet": "840 civarında Müslümanların Taranto'yu elde tutması; Bizans 880'de aldı.",
+  "oncul": [],
+  "ardil": [
+   "bizans-katepanlik-italya"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Brill Encyclopaedia of Islam, 'Sikilliya'; TDV Islam Ansiklopedisi 'Sicilya'",
+   "ADAY (okunmadi): Metcalfe, The Muslims of Medieval Italy (2009)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "garigliano-muslim",
+  "ad": "Garigliano Müslüman Yerleşimi",
+  "tur": "emirlik",
+  "bolge": "italya",
+  "f": "0882-01-01",
+  "t": "0915-06-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Garigliano ağzı",
+  "etkin_bolge": "Latium-Campania sınırı",
+  "sehirler": [
+   "Garigliano"
+  ],
+  "ozet": "Müslüman korsan-kolonisi; 915 Garigliano Savaşı ile yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Brill Encyclopaedia of Islam, 'Sikilliya'; TDV Islam Ansiklopedisi 'Sicilya'",
+   "ADAY (okunmadi): Metcalfe, The Muslims of Medieval Italy (2009)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Devlet saymak tartışmalı; Emre kararı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bizans-katepanlik-italya",
+  "ad": "Bizans İtalya Katepanlığı",
+  "tur": "katepanlik",
+  "bolge": "italya",
+  "f": "0975-01-01",
+  "t": "1071-04-16",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "gun"
+  },
+  "baskent": "Bari",
+  "etkin_bolge": "Apulya, Basilicata, Kalabria",
+  "sehirler": [
+   "Bari",
+   "Otranto",
+   "Matera"
+  ],
+  "ozet": "Thema Longobardia'nın yerine Bari merkezli katepanlık; Norman Roberto Guiscard 1071'de Bari'yi aldı.",
+  "oncul": [
+   "ravenna-eksarhligi"
+  ],
+  "ardil": [
+   "apulya-dukaligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bizans yönetimi başka oturumda; kayıt Bizans oturumuyla çakışırsa orada birleştir. Kuruluş 965-975; Bari düşüşü 16 Nisan 1071.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "toskana-markizligi",
+  "ad": "Toskana Markizliği",
+  "tur": "markizlik",
+  "bolge": "italya",
+  "f": "0812-01-01",
+  "t": "1197-11-11",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Lucca → Floransa",
+  "etkin_bolge": "Toskana",
+  "sehirler": [
+   "Lucca",
+   "Floransa",
+   "Pisa"
+  ],
+  "ozet": "Karolenj marka (812 civarı); 1076-1115 Matilda; 1197 Toskana Birliği ile dağıldı.",
+  "oncul": [],
+  "ardil": [
+   "floransa",
+   "siena",
+   "piza"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Marka kuruluş tarihi belirsiz; 1197 Toskana Birliği San Genesio'da.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ivrea-markizligi",
+  "ad": "Ivrea Markizliği",
+  "tur": "markizlik",
+  "bolge": "italya",
+  "f": "0888-01-01",
+  "t": "1015-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ivrea",
+  "etkin_bolge": "Piemonte kuzey, Aosta",
+  "sehirler": [
+   "Ivrea"
+  ],
+  "ozet": "Anscarik hanedanı markizliği; Berengar II ve Arduino'nun krallığı çevresi.",
+  "oncul": [],
+  "ardil": [
+   "savoya"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş ve bitiş yaklaşık (Anscar I 888/891; Arduino'nun 1015'te ölümü).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "torino-markizligi",
+  "ad": "Torino (Arduinik) Markizliği",
+  "tur": "markizlik",
+  "bolge": "italya",
+  "f": "0940-01-01",
+  "t": "1091-12-19",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "gun"
+  },
+  "baskent": "Torino",
+  "etkin_bolge": "Piemonte",
+  "sehirler": [
+   "Torino",
+   "Susa",
+   "Asti"
+  ],
+  "ozet": "Arduin Glaber ve Adelaide; Adelaide'nin 1091'de ölümüyle Savoya'ya geçti.",
+  "oncul": [
+   "ivrea-markizligi"
+  ],
+  "ardil": [
+   "savoya"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kanosa-hanedani",
+  "ad": "Kanosa Hanedanlığı (Canossa/Matilda)",
+  "tur": "markizlik",
+  "bolge": "italya",
+  "f": "0950-01-01",
+  "t": "1115-07-24",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "gun"
+  },
+  "baskent": "Canossa → Mantova",
+  "etkin_bolge": "Emilia, Toskana, Lombardiya",
+  "sehirler": [
+   "Canossa",
+   "Mantova",
+   "Lucca"
+  ],
+  "ozet": "Adalbert Atto'nun Canossa kalesinden Matilda'nın ölümüne (24 Temmuz 1115).",
+  "oncul": [],
+  "ardil": [
+   "bologna-komunu",
+   "floransa"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç 940-960; 1077 Canossa görüşmesi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "san-marino-tarih",
+  "ad": "San Marino",
+  "tur": "cumhuriyet",
+  "bolge": "italya",
+  "f": "0885-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": "belirsiz"
+  },
+  "baskent": "San Marino",
+  "etkin_bolge": "Monte Titano",
+  "sehirler": [
+   "San Marino"
+  ],
+  "ozet": "Gelenek: Marinus 301; belgeli ilk anma 885; 1243 'Kaptan' sistemi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas 1000; sürüyor, t yok.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "san-marino",
+   "not": ""
+  }
+ }
+]

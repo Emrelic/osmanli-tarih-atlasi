@@ -1,0 +1,1035 @@
+[
+ {
+  "id": "xia-hanedani",
+  "ad": "Xia Hanedanı (Erlitou/Xia sorunu)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "-2069-01-01",
+  "t": "-1599-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Yangcheng? → Erlitou? (Henan; tartışmalı)",
+  "etkin_bolge": "Orta Sarı Nehir havzası (Henan batısı, Shanxi güneyi)",
+  "sehirler": [
+   "Yangcheng?",
+   "Erlitou? (Henan; tartışmalı)"
+  ],
+  "ozet": "Geleneksel kaynaklarda Yu'nun kurduğu ilk hanedan; Xia-Shang-Zhou Projesi MÖ 2070-1600 verir, arkeolojik kimliği (Erlitou) tartışmalıdır.",
+  "oncul": [
+   "erlitou-kultur"
+  ],
+  "ardil": [
+   "shang"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihsellik ve Erlitou ile özdeşliği tartışmalı. Tarihler XSZ Projesi (2000) kronolojisi; Bambu Yıllıkları tabanlı alternatif ~1989-1558 MÖ.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Erlitou kültürü künyeli (kultur); Xia siyasî birim olarak yok."
+  }
+ },
+ {
+  "id": "shang",
+  "ad": "Shang Hanedanı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-1599-01-01",
+  "t": "-1045-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Erligang → Yin/Anyang",
+  "etkin_bolge": "Kuzey Çin ovası (Henan, Hebei, Shandong, Shanxi)",
+  "sehirler": [
+   "Erligang",
+   "Yin/Anyang"
+  ],
+  "ozet": "Cheng Tang'ın Xia'yı yıkmasıyla kurulan, Anyang'da yazılı belgeleri (kehanet kemikleri) olan ilk belgeli Çin hanedanı; Muye Savaşı'nda Zhou'ya yenildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "XSZ Projesi: 1600-1046. Muye Savaşı için 1045 (Shaughnessy 1044, Bambu Yıllıkları 1027 vb.) varyantları vardır.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "shang",
+   "not": "Atlas -1599..-1045; MÖ 1046 = -1045, uyumlu."
+  }
+ },
+ {
+  "id": "onceki-zhou",
+  "ad": "Zhou (Shang öncesi, Qishan/Zhouyuan Zhou'su)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-1045-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Bin → Qi (Zhouyuan) → Feng → Hao",
+  "etkin_bolge": "Wei Nehri vadisi (Shaanxi)",
+  "sehirler": [
+   "Bin",
+   "Qi (Zhouyuan)",
+   "Feng",
+   "Hao"
+  ],
+  "ozet": "Shang'a bağlı Batı'daki Zhou boyu; Wen Wang döneminde güçlendi, Wu Wang Shang'ı yıkıp Batı Zhou'yu kurdu.",
+  "oncul": [],
+  "ardil": [
+   "bati-zhou"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Gugong Danfu'dan başlayan dönemin yılları yok; tradisyonel kaynaklara dayanır. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Batı Zhou'nun kuruluşundan önceki aşama."
+  }
+ },
+ {
+  "id": "bati-zhou",
+  "ad": "Batı Zhou",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-1045-01-01",
+  "t": "-0770-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Haojing (Hao) / Feng",
+  "etkin_bolge": "Wei Nehri vadisi + feodal devletler ağı",
+  "sehirler": [
+   "Haojing (Hao) / Feng"
+  ],
+  "ozet": "Wu Wang'ın Shang'ı yenmesiyle başlar; Quanrong baskınıyla Haojing'in düşmesi (MÖ 771) üzerine Luoyi'ye taşınılır.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş 1046 (XSZ, Wu Wang'ın Muye zaferi); Doğu Zhou başlangıcı MÖ 770. Atlas -0770 olarak t veriyor.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "bati-zhou",
+   "not": "Atlas: -1045..-0770; hepsi MÖ 1046-770 ile uyumlu."
+  }
+ },
+ {
+  "id": "dogu-zhou",
+  "ad": "Doğu Zhou (Bahar-Güz ve Savaşan Devletler hanedanı)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0769-01-01",
+  "t": "-0255-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Luoyi (Chengzhou)",
+  "etkin_bolge": "Luoyang çevresi küçük kraliyet alanı; nominal tek hegemon",
+  "sehirler": [
+   "Luoyi (Chengzhou)"
+  ],
+  "ozet": "Haojing'in düşmesi sonrası Zhou'nun Luoyi'ye taşınması; Zhou'nun nominal hanedan olarak MÖ 256'da Qin tarafından sona erdirilmesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bahar-Güz Dönemi MÖ 770/722-481(453); Savaşan Devletler MÖ 475/453/403-221. Hanedan sonu Qin'in Zhao Xiang Wang döneminde Zhou'u yutması (256).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dogu-zhou",
+   "not": "Atlas -0769..-0255 uyumlu."
+  }
+ },
+ {
+  "id": "qi-devleti",
+  "ad": "Qi Devleti (Jiang Qi ve Tian Qi)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-1045-01-01",
+  "t": "-0220-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Yingqiu → Linzi",
+  "etkin_bolge": "Shandong",
+  "sehirler": [
+   "Yingqiu",
+   "Linzi"
+  ],
+  "ozet": "Taigong Wang (Jiang Ziya)'ya verilen Qi eyaleti; MÖ 386'da Tian ailesi hâkim olur; MÖ 221'de Qin tarafından fethedilir.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Jiang Qi → Tian Qi geçişi MÖ 386 (Zhou tarafından tanınması). Aynı polity tek kayıt.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "qi-devleti",
+   "not": "Atlas -1045..-0220."
+  }
+ },
+ {
+  "id": "lu-devleti",
+  "ad": "Lu Devleti",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0248-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Qufu",
+  "etkin_bolge": "Shandong güneybatısı",
+  "sehirler": [
+   "Qufu"
+  ],
+  "ozet": "Zhou Dükü'nün oğlu Bo Qin'e verilen eyalet; Konfüçyüs'ün ülkesi; Chu tarafından MÖ 249'da ortadan kaldırıldı.",
+  "oncul": [],
+  "ardil": [
+   "chu-devleti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bo Qin'in eyalet verilme yılı kesin değil (Zhou erken dönemi; geleneksel ~MÖ 1040'lar). Son hükümdar Qingong ~MÖ 256/249. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta ayrı Lu kaydı yok."
+  }
+ },
+ {
+  "id": "jin-devleti-chunqiu",
+  "ad": "Jin Devleti (Bahar-Güz hegemonu)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0374-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Tang → Yi → Jiang → Xintian",
+  "etkin_bolge": "Shanxi; Henan kuzeyi; Hebei güneyi",
+  "sehirler": [
+   "Tang",
+   "Yi",
+   "Jiang",
+   "Xintian"
+  ],
+  "ozet": "Tang Shuyu'ya verilen eyalet, Jin Wen Gong ile hegemon; MÖ 403'te Han-Zhao-Wei'ye bölündü, son dük MÖ 376/375'te tahttan indirildi.",
+  "oncul": [],
+  "ardil": [
+   "han-devleti-zhou",
+   "zhao-devleti",
+   "wei-devleti-zhou"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "403 MÖ: Zhou'nun Han/Zhao/Wei'yi dük olarak tanıması (kronolojik bölünme çizgisi); Jin dükleri nominal olarak ~376-375 MÖ'ya kadar. Kuruluş yılı bilinmiyor. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Jin (Savaşan Devletler öncesi) kaydı yok."
+  }
+ },
+ {
+  "id": "yan-devleti",
+  "ad": "Yan Devleti (Zhou dönemi)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0221-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Ji → Xiadu",
+  "etkin_bolge": "Hebei kuzeyi, Liaoning batısı; Pekin çevresi",
+  "sehirler": [
+   "Ji",
+   "Xiadu"
+  ],
+  "ozet": "Shao Gong'un soyundan gelen eyalet; MÖ 323 civarında kral unvanı; MÖ 222'de Qin tarafından yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş yılı bilinmiyor. Yan unvanı 'wang' MÖ 323; Qin son kralı MÖ 222'de yakaladı (Liaodong'a kaçışla MÖ 226). Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Yan yok (kronolojik tabloda anılabilir)."
+  }
+ },
+ {
+  "id": "song-devleti-zhou",
+  "ad": "Song Devleti (Zhou dönemi; Shang torunları)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0285-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Shangqiu",
+  "etkin_bolge": "Henan doğusu",
+  "sehirler": [
+   "Shangqiu"
+  ],
+  "ozet": "Shang hanedanı mensubu Weizi'ye verilen eyalet; Qi tarafından MÖ 286'da yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş ~Batı Zhou başı. Liu Song hanedanından farklıdır. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "'liu-song' ile karışmaz."
+  }
+ },
+ {
+  "id": "wey-devleti",
+  "ad": "Wey (衛) Devleti",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0208-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Chaoge → Chuqiu → Diqiu → Puyang",
+  "etkin_bolge": "Henan kuzeyi",
+  "sehirler": [
+   "Chaoge",
+   "Chuqiu",
+   "Diqiu",
+   "Puyang"
+  ],
+  "ozet": "Kang Shu'ya verilen eyalet; Qin II. imparatoru MÖ 209'da sülaleyi kaldırdı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Wei (魏) ile karıştırılmamalı. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "cai-devleti",
+  "ad": "Cai Devleti",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0446-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Shangcai → Xincai → Zhoulai",
+  "etkin_bolge": "Henan güneyi",
+  "sehirler": [
+   "Shangcai",
+   "Xincai",
+   "Zhoulai"
+  ],
+  "ozet": "Zhou kralının kardeşi Cai Shu Du'ya verilen eyalet; Chu tarafından MÖ 447'de yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş yılı bilinmiyor. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "cao-devleti",
+  "ad": "Cao Devleti (曹)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0486-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Taoqiu",
+  "etkin_bolge": "Shandong batısı",
+  "sehirler": [
+   "Taoqiu"
+  ],
+  "ozet": "Zhou kralının kardeşi Cao Shu Zhenduo'ya verilen eyalet; Song tarafından MÖ 487'de yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Cao Wei'den farklıdır. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "chen-devleti",
+  "ad": "Chen Devleti (陳)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0478-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Wanqiu",
+  "etkin_bolge": "Henan doğusu",
+  "sehirler": [
+   "Wanqiu"
+  ],
+  "ozet": "Shun soyuna verilen eyalet; Chu tarafından MÖ 479'da ilhak edildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Chen Hanedanı (Güney Hanedanlar) ile karıştırılmaz. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "zheng-devleti",
+  "ad": "Zheng Devleti",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0805-01-01",
+  "t": "-0374-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Xinzheng",
+  "etkin_bolge": "Henan ortası",
+  "sehirler": [
+   "Xinzheng"
+  ],
+  "ozet": "Zhou Xuan Wang'ın kardeşi Huan Gong'un kurduğu eyalet (MÖ 806); Han tarafından MÖ 375'te yutuldu.",
+  "oncul": [],
+  "ardil": [
+   "han-devleti-zhou"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş: MÖ 806 (Huan Gong'un feodu); doğuya taşınma MÖ 770.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "wu-devleti",
+  "ad": "Wu Devleti (吳, Gou Wu)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0584-01-01",
+  "t": "-0472-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Gusu (Suzhou)",
+  "etkin_bolge": "Jiangsu güneyi, Anhui güneyi",
+  "sehirler": [
+   "Gusu (Suzhou)"
+  ],
+  "ozet": "Taibo geleneğine bağlanan güney eyaleti; Shoumeng'in kral ilanı (MÖ 585) ile kayıtlara girer; Yue tarafından MÖ 473'te yıkıldı.",
+  "oncul": [],
+  "ardil": [
+   "yue-devleti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş efsanevî (Taibo ~MÖ 12. yy); f Zuozhuan'daki ilk güvenilir ilan yılı. Sun Wu'dan farklıdır.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "yue-devleti",
+  "ad": "Yue Devleti (越)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0304-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Kuaiji → Langya → Wu",
+  "etkin_bolge": "Zhejiang, Jiangsu güneyi",
+  "sehirler": [
+   "Kuaiji",
+   "Langya",
+   "Wu"
+  ],
+  "ozet": "Yunchang'dan itibaren anılan güneydoğu krallığı; Goujian'ın Wu'yu yutmasıyla yükseldi; Chu tarafından MÖ ~306'da dağıtıldı.",
+  "oncul": [
+   "wu-devleti"
+  ],
+  "ardil": [
+   "minyue",
+   "dongou"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t: MÖ 306 (Chu'nun Yue'yi fethi); alternatif MÖ 334/333 (Wujiang'ın ölümü). Kuruluş yılı bilinmiyor. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "chu-devleti-erken",
+  "ad": "Chu Devleti (erken aşama, vikontluk)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0704-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Danyang",
+  "etkin_bolge": "Hubei batısı, Yangzi orta kesimi",
+  "sehirler": [
+   "Danyang"
+  ],
+  "ozet": "Zhou'nun feodal 'zi' (vikont) unvanıyla anılan Chu, MÖ 704'te Xiong Tong'un kral ilanıyla bağımsız krallık oldu.",
+  "oncul": [],
+  "ardil": [
+   "chu-devleti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas künyesi MÖ 704 kral ilanından başlar; öncesi (~MÖ 11. yy vikontluk) künyede yok. Kayıt bu nedenle var-kisa ön aşamadır. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "chu-devleti",
+   "not": "Ön aşama; tek polity."
+  }
+ },
+ {
+  "id": "qin-devleti-erken",
+  "ad": "Qin Devleti (Zhou eyaleti olarak)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0769-01-01",
+  "t": "-0220-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Qin → Yong → Xianyang",
+  "etkin_bolge": "Shaanxi, Gansu doğusu",
+  "sehirler": [
+   "Qin",
+   "Yong",
+   "Xianyang"
+  ],
+  "ozet": "Duke Xiang'ın MÖ 770'te Zhou kralını eskortlamasıyla eyalet kazandı; MÖ 221'de Çin'i birleştirdi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Feizi'nin Qin'e verilişi MÖ ~897; eyalet statüsü MÖ 770.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "qin-devleti",
+   "not": ""
+  }
+ },
+ {
+  "id": "xu-devleti",
+  "ad": "Xu Devleti (徐, Huai-Yi)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0511-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Xu (Si County, Anhui/Jiangsu)",
+  "etkin_bolge": "Huai Nehri havzası",
+  "sehirler": [
+   "Xu (Si County",
+   "Anhui/Jiangsu)"
+  ],
+  "ozet": "Huai Yi halkından, Zhou ile çatışan bağımsız devlet; Wu tarafından MÖ 512'de yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Zuozhuan'a göre MÖ 512. Kuruluş yılı bilinmiyor. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ju-devleti",
+  "ad": "Ju Devleti (莒)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0430-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Ju (Shandong doğusu)",
+  "etkin_bolge": "Shandong güneydoğusu",
+  "sehirler": [
+   "Ju (Shandong doğusu)"
+  ],
+  "ozet": "Doğu Yi kökenli küçük devlet; Chu tarafından MÖ ~431'de yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yıl farklı derlemelerde MÖ 431/ 4. yy; zayıf. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "zhu-devleti",
+  "ad": "Zhu/Zou Devleti (邾)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0260-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Zou → Yi",
+  "etkin_bolge": "Shandong güneyi",
+  "sehirler": [
+   "Zou",
+   "Yi"
+  ],
+  "ozet": "Mencius'un yurdu Zou; Chu tarafından MÖ ~261'de yutuldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Zayıf kaynak; yıl yaklaşık. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "teng-devleti",
+  "ad": "Teng Devleti (滕)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0296-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Teng",
+  "etkin_bolge": "Shandong güneyi",
+  "sehirler": [
+   "Teng"
+  ],
+  "ozet": "Küçük Ji soylu eyalet; Song tarafından MÖ ~297'de yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yıl yaklaşık; Mencius'ta anılır. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "zeng-sui",
+  "ad": "Zeng/Sui Devleti (曾/隨)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0432-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Suizhou (Hubei)",
+  "etkin_bolge": "Hubei kuzeyi",
+  "sehirler": [
+   "Suizhou (Hubei)"
+  ],
+  "ozet": "Marquis Yi of Zeng mezarı (MÖ 433) ile bilinen devlet; Chu'ya bağlı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Zeng ile Sui'nin aynı devlet olduğu tartışma konusu. Bitiş yılı mezar tarihinden sonrası bilinmiyor. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "guo-devleti",
+  "ad": "Guo (虢) Devleti (Batı/Güney Guo)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0654-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Shangyang (Sanmenxia)",
+  "etkin_bolge": "Henan batısı",
+  "sehirler": [
+   "Shangyang (Sanmenxia)"
+  ],
+  "ozet": "Zhou kral ailesine bağlı eyalet; Jin tarafından MÖ 655'te yok edildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Batı ve Doğu Guo ayrı; Doğu Guo MÖ 767 Zheng. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "yu-devleti",
+  "ad": "Yu Devleti (虞)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0654-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Yu (Pinglu, Shanxi)",
+  "etkin_bolge": "Shanxi güneyi",
+  "sehirler": [
+   "Yu (Pinglu",
+   "Shanxi)"
+  ],
+  "ozet": "Jin'in Guo seferine geçit vererek MÖ 655'te yıkılan küçük eyalet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atasözü 'dudak-diş' hikâyesi. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ba-devleti",
+  "ad": "Ba Devleti (巴)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0314-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Jiangzhou (Chongqing)",
+  "etkin_bolge": "Sichuan doğusu, Chongqing",
+  "sehirler": [
+   "Jiangzhou (Chongqing)"
+  ],
+  "ozet": "Sichuan havzasında Shu'nun komşusu; Qin tarafından MÖ 316/315'te ilhak edildi.",
+  "oncul": [],
+  "ardil": [
+   "qin-devleti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş yılı bilinmiyor. Qin fethi MÖ 316. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "shu-erken",
+  "ad": "Eski Shu Krallığı (Can Cong - Bo Guan - Yufu - Kaiming)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0314-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Chengdu havzası (Guanghan?)",
+  "etkin_bolge": "Sichuan ovası",
+  "sehirler": [
+   "Chengdu havzası (Guanghan?)"
+  ],
+  "ozet": "Sanxingdui/Jinsha'yla ilişkilendirilen efsanevî Shu hanedanları; son kral Kaiming Qin'e MÖ 316'da yenildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sanxingdui-Shu özdeşliği varsayımdır. Tarihlendirme MÖ 316 Qin seferi. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Sanxingdui kültürü (kultur) künyeli."
+  }
+ },
+ {
+  "id": "dai-di",
+  "ad": "Dai Devleti (代, Di)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0456-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Dai (Hebei kuzeyi)",
+  "etkin_bolge": "Hebei-Shanxi sınırı",
+  "sehirler": [
+   "Dai (Hebei kuzeyi)"
+  ],
+  "ozet": "Di kabilesinin kurduğu devlet; Zhao Xiangzi tarafından MÖ 457'de ilhak edildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Loewe & Shaughnessy (eds.), The Cambridge History of Ancient China (CUP 1999)",
+   "Sima Qian, Shiji (12 Feodal Beyi Yıllık Tablosu 十二諸侯年表, 14)",
+   "Xia-Shang-Zhou Chronology Project (夏商周断代工程) 2000 raporu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bambu Yıllıkları/Shiji. Kuruluş yılı bilinmiyor. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Dai-Tuoba (MS 4. yy) ile karışmaz."
+  }
+ }
+]

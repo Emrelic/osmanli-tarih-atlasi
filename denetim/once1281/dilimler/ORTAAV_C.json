@@ -1,0 +1,804 @@
+[
+ {
+  "id": "boii-bohemya",
+  "ad": "Boii (Boier) Kabile Devleti — Boiohaemum",
+  "tur": "kabile-devleti",
+  "bolge": "orta-avrupa",
+  "f": "-0399-01-01",
+  "t": "-0059-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Bohemya (Boiohaemum) oppidumlari: Stradonice / Závist",
+  "etkin_bolge": "Bohemya havzasi, sonra Pannonia (Tuna ortasi)",
+  "sehirler": [
+   "Závist",
+   "Stradonice",
+   "Oppidum Hrazany"
+  ],
+  "ozet": "La Tène Keltlerinin Bohemya'daki Boii'si; MO 1. yy ortasinda Burebista'nin Dakyasi ve Cermen (Markoman) baskisiyla yok oldu.",
+  "oncul": [],
+  "ardil": [
+   "markoman-kralligi-marbod"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Boii Bohemya'dan MÖ 2.-1. yy'da ayrilip Pannonia'ya ve Helvetii ile Noricum'a gecti; Burebista MÖ ~60'larda Boii'yi yendi. Bohemya (Boiohaemum) adi Boii'den. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Boii'; Strabon VII.1.3; Tacitus Germania 28]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Cisalpin (Italya) Boii'leri ITALYA oturumunda."
+  }
+ },
+ {
+  "id": "noricum-kralligi",
+  "ad": "Noricum (Regnum Noricum) Kelt Krallığı",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "-0199-01-01",
+  "t": "-0014-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Noreia / Magdalensberg (Virunum öncesi)",
+  "etkin_bolge": "Dogu Alpler, Avusturya-Slovenya",
+  "sehirler": [
+   "Noreia",
+   "Magdalensberg"
+  ],
+  "ozet": "Norici ve Taurisci'nin Kelt krallik birligi; Roma'ya dost krallik olarak ticaret yapti, MO 16-15'te Roma tarafindan ilhak edilip eyalet oldu (resmi eyalet Claudius, MS 40-45).",
+  "oncul": [],
+  "ardil": [
+   "roma-imp"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Krallik kuruluşu MÖ 2. yy (Noreia savasi MÖ 113 Cimbri karsisi); ilhak MÖ 16-15 vs eyalet MS 40-45 çelişkisi — burada fiili ilhak alındı. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Noricum'; Alföldy 'Noricum' (1974)]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "helvet-kabile-devleti",
+  "ad": "Helvetii (Helvet) Kabile Devleti",
+  "tur": "kabile-devleti",
+  "bolge": "orta-avrupa",
+  "f": "-0299-01-01",
+  "t": "-0056-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Isvicre Platosu; Aventicum / Bibracte sonrasi)",
+  "etkin_bolge": "Isvicre Platosu (Cenevre golu-Ren)",
+  "sehirler": [
+   "Aventicum",
+   "Bibracte"
+  ],
+  "ozet": "La Tène Kelt kabilesi; MO 58'de Galya'ya goc girisimi Caesar tarafindan Bibracte'de durduruldu, geri gonderilip Roma federesi oldu.",
+  "oncul": [],
+  "ardil": [
+   "roma-imp"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç tarihi gelenekseldir (Strabon ve arkeoloji: La Tène B/C). MÖ 58 Bibracte = -0057. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Caesar Bellum Gallicum I; Brill's New Pauly 'Helvetii']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ariovist-sueb",
+  "ad": "Ariovistus' Suebi Krallığı (Elsass-Ren)",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "-0070-01-01",
+  "t": "-0057-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Yukari Ren, Elsass (Alsace)",
+  "sehirler": [],
+  "ozet": "Suebi kralı Ariovistus MO 71'de Sequani'nin cagrisiyla Ren'i gecti, MO 59'da Roma'dan 'rex et amicus' unvanini aldi; MO 58'de Caesar tarafindan Vogesler yakininda yenildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "MÖ 71 = -0070, MÖ 58 = -0057. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Caesar BG I; Brill's New Pauly 'Ariovistus']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Ren sagi/Elsass; BATIAV ile kesisebilir."
+  }
+ },
+ {
+  "id": "markoman-kralligi-marbod",
+  "ad": "Marbod'un Markoman Krallığı (Bohemya)",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "-0008-01-01",
+  "t": "0019-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Boiohaemum (Bohemya), kral kalesi belirsiz",
+  "etkin_bolge": "Bohemya, Moravya; Elbe-Odra Cermen kabileleri",
+  "sehirler": [
+   "Boiohaemum"
+  ],
+  "ozet": "Markoman kralı Marbod MO 9'da Bohemya'ya cekilip Suebi/Lugii/Semnones'i kapsayan bir krallik kurdu; MS 19'da Catualda tarafindan devrildi, Ravenna'ya siginip orada oldu.",
+  "oncul": [
+   "boii-bohemya"
+  ],
+  "ardil": [
+   "vannius-krallik",
+   "markoman-kuadi-krallik"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarih: Marbod'un Bohemya'ya gecişi MÖ 9 (Velleius Paterculus II.108); düşüş MS 17-19 (Tacitus Ann. II.44-46, 62-63). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Velleius Paterculus II.108; Tacitus Annales II.44-46, 62-63; Brill's New Pauly 'Maroboduus']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "vannius-krallik",
+  "ad": "Vannius Krallığı (Regnum Vannianum, Kuadi)",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "0019-01-01",
+  "t": "0050-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Slovakya-Morava)",
+  "etkin_bolge": "Morava-Vah arasi, Moravya-Slovakya",
+  "sehirler": [],
+  "ozet": "Marbod'un devrilisinden sonra Roma'nin yerlestirdigi Kuadi kralı Vannius'un kisa omurlu Tuna-ote krallıgı; MS 50 civarinda Hermunduri ve Lugii destekli yegenleri Vangio ve Sido tarafindan devrildi.",
+  "oncul": [
+   "markoman-kralligi-marbod"
+  ],
+  "ardil": [
+   "markoman-kuadi-krallik"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tacitus Ann. XII.29-30 (MS 50). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Tacitus Annales XII.29-30; Brill's New Pauly 'Vannius']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "markoman-kuadi-krallik",
+  "ad": "Markoman ve Kuadi Krallıkları (Roma müşteri krallıkları)",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "0050-01-01",
+  "t": "0500-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz (Bohemya ve Moravya)",
+  "etkin_bolge": "Bohemya, Moravya, Slovakya bati kesimi",
+  "sehirler": [],
+  "ozet": "Markomanlar ve Kuadiler Roma'nin Tuna sinirinda krallikla yonetilen komsu kabile devletleriydi; Markoman Savaslari (166-180) ve Hunlar sonrasi Bavyera'ya (Baiuvarii) karisarak sona erdi.",
+  "oncul": [
+   "vannius-krallik"
+  ],
+  "ardil": [
+   "bavyera-agilolfing"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "'Bitis' belirsiz: 5.-6. yy'da Markomanlar Bavyera kabilesine donusur (Baiuvarii kokeni tartismali). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Marcomanni; Quadi'; Cassius Dio LXXI-LXXII]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "cheruski-konfederasyonu",
+  "ad": "Cheruski (Arminius) Kabile Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "orta-avrupa",
+  "f": "0009-01-01",
+  "t": "0021-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Weser-Elbe arası)",
+  "etkin_bolge": "Weser, Teutoburg ormani, Saksonya'nin kuzeyi",
+  "sehirler": [],
+  "ozet": "Arminius önderliginde Cheruski, Marsi, Chatti ve Bructeri'nin MS 9'da Teutoburg'da Varus lejyonlarini yok eden birligi; Arminius 21'de oldurulunce dagildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Cheruski kabilesi daha eskidir; 'devlet benzeri birlik' MS 9-21 (Tacitus Ann. II.88). Teutoburg savasi Eylül MS 9 (kesin gün tartışmalı). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Tacitus Annales I-II; Cassius Dio LVI; Brill's New Pauly 'Arminius']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "lugii-birligi",
+  "ad": "Lugii (Lugier) Birliği",
+  "tur": "konfederasyon",
+  "bolge": "orta-avrupa",
+  "f": "0001-01-01",
+  "t": "0300-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz (Silezya-Wistula)",
+  "etkin_bolge": "Oder-Wistula arasi, Silezya, Polonya guney",
+  "sehirler": [],
+  "ozet": "Tacitus ve Ptolemaios'un Oder-Wistula arasinda anlattigi kabile konfederasyonu (Harii, Helveconae vb.); Przeworsk kulturu ile iliskilendirilir.",
+  "oncul": [],
+  "ardil": [
+   "hasding-vandal"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "İlk antik kaynak kaydı (Strabon, ~MS 1. yy başı); kuruluş yılı bilinmiyor, bitiş 'Vandal/Got hareketleri' (3.-4. yy). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Strabon VII.1.3; Tacitus Germania 43; Brill's New Pauly 'Lugii']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bastarn-krallik",
+  "ad": "Bastarnae (Bastarn) Kabile Krallıkları",
+  "tur": "krallik",
+  "bolge": "dogu-avrupa",
+  "f": "-0299-01-01",
+  "t": "0300-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz (Karpatlar dogusu, Peuce)",
+  "etkin_bolge": "Dinyester-Tuna deltasi, Karpatlar dogusu",
+  "sehirler": [],
+  "ozet": "Seltik-Cermen karisimi Bastarnae kabile krallari (Cotto, Clondicus) Makedon ve Roma kaynaklarinda gecer; Probus donemi (276-282) Roma sinirina yerlestirildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasi birlik niteligi parçalı (birden çok kral); 'MÖ 3. yy' Polybios ve Livius kayıtları. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Bastarnae'; Livius XL.57; Polybios XXV]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "karp-kabile-birligi",
+  "ad": "Karplar (Carpi) Kabile Birligi",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": "0100-01-01",
+  "t": "0300-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz (Moldova-Karpatlar)",
+  "etkin_bolge": "Moldova, Dogu Karpatlar",
+  "sehirler": [],
+  "ozet": "Dakya'nin ozgur (Roma disi) Dak kabilesi Karplar; Roma ile savasta (Galerius, Diokletianus 295-298) yenilip Roma sinirina yerlestirildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık; Karp = 'Karpatlar' adinin kaynagi sayilir. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Carpi'; Zosimos]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "skit-kirim-neapolis",
+  "ad": "Geç İskit (Kırım/Neapolis) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-avrupa",
+  "f": "-0228-01-01",
+  "t": "0275-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Neapolis Skythike (Simferopol)",
+  "etkin_bolge": "Kirim yarimadasi ovalari, Dinyeper agzi",
+  "sehirler": [],
+  "ozet": "MO 3. yy'da Sarmat baskisiyla Dnepr bozkirindan Kirim'e cekilen Iskit krallari (Skilurus, Palakos) Neapolis'ten yonetti; Mithridates VI'nin generali Diophantos ile savasti; Got/Hun akinlariyla (3. yy) sona erdi.",
+  "oncul": [
+   "skit-krallik"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Geç İskit krallığı kuruluşu MÖ 3. yy (Skilurus MÖ 2. yy); Neapolis 3. yy sonu Got saldirisi. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Scythia/Skilouros'; Strabon VII.4; Zaytsev 2004 'The Scythian Neapolis']",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "skit-krallik",
+   "not": "skit-krallik (-0699...-0199) Kirim evresini kapsamiyor: t -0199 -> ~0275 genislet veya ardil kunye ac."
+  }
+ },
+ {
+  "id": "sarmat-aorslar",
+  "ad": "Aorslar (Aorsi) Sarmat Birliği",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": "-0299-01-01",
+  "t": "0200-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz (Don-Kuban)",
+  "etkin_bolge": "Hazar denizi kuzeyi, Don-Kuban bozkiri",
+  "sehirler": [],
+  "ozet": "Aorsi (Yukarı Aorsi) ve Siraces ittifaklari: Bosporos ile ticaret/siyaset; MO 1. yy-MS 2. yy.",
+  "oncul": [
+   "savromat-birligi"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Sarmat alt-gruplari kisi–boy duzeyinde, siyasi birlik siniri belirsiz. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Strabon XI.5; Tacitus Ann. XII.15-19; Brill's New Pauly 'Aorsi']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sarmat-roksolanlar",
+  "ad": "Roksolanlar (Roxolani) Sarmat Birliği",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": "-0199-01-01",
+  "t": "0300-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz (Dinyeper-Don bozkiri)",
+  "etkin_bolge": "Dinyeper-Don bozkiri, Tuna agzi",
+  "sehirler": [],
+  "ozet": "Mithridates VI ile ittifak yapan, MS 1. yy'da Roma sinirini zorlayan Sarmat alt-birligi; sonra Alanlara karistı.",
+  "oncul": [
+   "savromat-birligi"
+  ],
+  "ardil": [
+   "alan-konfederasyonu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç: Strabon'da MÖ 2. yy sonu (Mithridates ile).  [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Strabon VII.3; Brill's New Pauly 'Roxolani']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sarmat-yaziglar",
+  "ad": "Yaziglar (Iazyges) Sarmat Birliği (Tisza)",
+  "tur": "konfederasyon",
+  "bolge": "orta-avrupa",
+  "f": "-0099-01-01",
+  "t": "0400-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz (Tisza-Tuna arası)",
+  "etkin_bolge": "Macar Ovasi (Tisza Ovasi, Pannonia-Dakya arasi)",
+  "sehirler": [],
+  "ozet": "Pannonia'ya yerlesen Sarmat Iazyges; Roma ile Marcus Aurelius donemi savaslari; Got ve Hun baskisiyla eridi.",
+  "oncul": [
+   "savromat-birligi"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Yerleşme: MS 1. yy ortası; ilk kayıt Ovidius/Strabon. Burada yaklaşık MÖ 1. yy. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Tacitus Hist. III.5; Brill's New Pauly 'Iazyges']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "alan-konfederasyonu",
+  "ad": "Alanlar (Alani) Konfederasyonu (Kuzey Karadeniz-Don)",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": "0050-01-01",
+  "t": "0450-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz (Don-Kuban)",
+  "etkin_bolge": "Don-Kuban-Kuzey Kafkasya ovalari",
+  "sehirler": [],
+  "ozet": "Sarmat sonrasi gelen Alanlar; Hun saldirisi (370'ler) ile bir kismi Avrupa'ya (Vandal ve Suebi ile Ren'i gecti 406), bir kismi Kafkasya'da kaldi.",
+  "oncul": [
+   "sarmat-roksolanlar"
+  ],
+  "ardil": [
+   "alania-krallik"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "İlk kayıt Plinius ve Josephus (MS 1. yy). Batıya giden gruplar IBERYA/BATIAV'da. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Alani'; Ammianus XXXI.2]",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "alania-krallik",
+   "not": "Alania Krallığı (Kuzey Kafkasya, 850-1090) ardıl; Alan konfederasyonu 1.-5. yy hiç kunye yok."
+  }
+ },
+ {
+  "id": "terving-got",
+  "ad": "Terving (Batı Got) Kabile Konfederasyonu (Athanaric)",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": "0291-01-01",
+  "t": "0376-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Dinyester-Karpatlar)",
+  "etkin_bolge": "Dinyester, Karpatlar, Dakya (Tuna ote)",
+  "sehirler": [],
+  "ozet": "Cernjachov kulturu cercevesinde Tervingi Gotlari; Athanaric yargici (iudex) ile yonetildi, Huns baskisiyla 376'da Tuna'yi gecti.",
+  "oncul": [],
+  "ardil": [
+   "vizigot"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tervingi ilk kayıt: Panegyrici Latini XI (291). Kuzey Karadeniz Gotları için Cernjachov kültürü (arkeolojik). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Ammianus XXXI; Heather 'Goths and Romans 332-489'; Brill's New Pauly 'Tervingi']",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "vizigot",
+   "not": "vizigot (418...) Terving oncelini kapsamiyor: oncul olarak ekle."
+  }
+ },
+ {
+  "id": "greutung-got",
+  "ad": "Greutung (Doğu Got) Krallığı — Ermanaric",
+  "tur": "krallik",
+  "bolge": "dogu-avrupa",
+  "f": "0350-01-01",
+  "t": "0376-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Dinyeper-Don bozkiri)",
+  "etkin_bolge": "Dinyeper-Don bozkiri, Kuzey Karadeniz",
+  "sehirler": [],
+  "ozet": "Kral Ermanaric'in Karadeniz'in kuzeyinde Slav, Fin ve Sarmatlari kapsayan Got hakimiyeti; ~376'da Hun saldirisiyla coktu.",
+  "oncul": [],
+  "ardil": [
+   "dogu-got",
+   "hun-avrupa"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Ermanaric'in egemenligi Jordanes (Getica XXIII) anlatimina dayanir; abartili sayilir; 376 Hun saldirisi. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Jordanes Getica XXIII-XXIV; Ammianus XXXI.3; Heather 1996]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "dogu-got",
+   "not": "dogu-got (493, Italya) oncul olarak ekle."
+  }
+ },
+ {
+  "id": "got-pannonia",
+  "ad": "Doğu Got Pannonia Krallığı (Valamir–Theodemir)",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "0456-01-01",
+  "t": "0473-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Pannonia: Balaton cevresi)",
+  "etkin_bolge": "Pannonia (Batı Macaristan)",
+  "sehirler": [],
+  "ozet": "Attila'nin olumunden (453) ve Nedao'dan sonra Doğu Gotlar Pannonia'da Roma foederati olarak ucu kralliga dönüştü; 473'te Moesia'ya gecti.",
+  "oncul": [],
+  "ardil": [
+   "dogu-got"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç 456 (Pannonia yerleşmesi; Jordanes Getica 268-276); 473 Makedonya'ya geçiş. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Jordanes Getica 268-292; Wolfram 'History of the Goths']",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "dogu-got",
+   "not": "Italya Doğu Got krallığı (493) ardıl."
+  }
+ },
+ {
+  "id": "rugi-kralligi",
+  "ad": "Rugi (Rugiland) Krallığı",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "0453-01-01",
+  "t": "0487-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Favianis (Mautern, Aşağı Avusturya)",
+  "etkin_bolge": "Norikum kiyisi, Tuna'nin kuzeyi (Aşağı Avusturya)",
+  "sehirler": [],
+  "ozet": "Attila'dan sonra Tuna'nin kuzeyinde Rugiland'i kuran Rugi kralligi (Flaccitheus, Feletheus); Odoacer 487'de yok etti.",
+  "oncul": [],
+  "ardil": [
+   "langobard-pannonia"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Rugi 453 Nedao sonrası bağımsız; son kral Feletheus (Feva) 487 Odoacer tarafından yenildi (Eugippius, Vita Severini). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Eugippius Vita Severini; Brill's New Pauly 'Rugii']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "heruli-krallik",
+  "ad": "Heruli Krallığı (Tuna, Rodulf)",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "0480-01-01",
+  "t": "0508-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Moravya-Aşağı Avusturya)",
+  "etkin_bolge": "Orta Tuna, Moravya",
+  "sehirler": [],
+  "ozet": "Hunlar sonrasi Odoacer ve sonrasi Rugiland'a yerlesen Heruli'lerin Tuna kralligi (Rodulf); Langobardlar yendi (~508), kalan Heruli Illyricum/Pannonia'ya (Bizans) cekildi.",
+  "oncul": [],
+  "ardil": [
+   "langobard-pannonia"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kronoloji: Prokopios (Bell. Goth. II.14) yenilgiyi 'Tato Langobard' zamanina koyar; Pauly 508/512. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Prokopios Bellum Gothicum II.14; Brill's New Pauly 'Heruli']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "skiri-krallik",
+  "ad": "Skiri (Sciri) Krallığı",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "0453-01-01",
+  "t": "0469-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Orta Tuna, Pannonia)",
+  "etkin_bolge": "Orta Tuna, Pannonia",
+  "sehirler": [],
+  "ozet": "Hunlar sonrası Skiri kralı Edica ve oğlu Odoacer'in kabilesi; Bolia savaşında (469) Gotlarca yenildi, Odoacer İtalya'ya geçti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Bolia savaşı 469: Jordanes Getica 277-279. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Jordanes Getica 277-279; Brill's New Pauly 'Sciri']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "burgund-worms",
+  "ad": "Worms Burgund Krallığı (Gundahar)",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "0411-01-01",
+  "t": "0436-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Worms",
+  "etkin_bolge": "Ren ortasi (Worms-Mainz-Speyer)",
+  "sehirler": [],
+  "ozet": "Burgundlar Ren'i gecip 411-413 arasi Roma foederati olarak Worms cevresinde krallik kurdu (Gundahar); 436'da Aetius' un Hun paralı askerleriyle yok edildi (Nibelungenlied'in tarihsel çekirdeği).",
+  "oncul": [],
+  "ardil": [
+   "burgund"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "443 Sapaudia yerleşmesi ile süreklilik: Burgund Krallığı tek polity sayılabilir. Burada 'Ren dönemi' ayrı kayıt; BATIAV ile birleştirme kararı ana oturumda. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Prosper Tiro; Brill's New Pauly 'Burgundiones'; Wood 'Merovingian Kingdoms']",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "burgund",
+   "not": "Burgund Krallığı (Sapaudia/Lyon, 443) ardıl."
+  }
+ },
+ {
+  "id": "thuringen-krallik",
+  "ad": "Thüringen Krallığı (Eski, Thuringi)",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "0450-01-01",
+  "t": "0534-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Burgscheidungen / Erfurt çevresi?)",
+  "etkin_bolge": "Orta Almanya (Thüringen, Harz-Main)",
+  "sehirler": [],
+  "ozet": "Hermunduri halefi Thuringi kral hanedani (Bisinus, Hermanafrid); Franklar ve Saksonlar 531-534'te yok etti.",
+  "oncul": [],
+  "ardil": [
+   "dogu-francia"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Frank saldırısı 531 (Runibergun) fakat Hermanafrid 534 öldürüldü; burada 534 alındı. Kuruluş yılı belirsiz; 4. yy'dan itibaren Thuringi adı. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Gregorius Turonensis III.4-8; Brill's New Pauly 'Thuringi']",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "thuringia-landgrafligi",
+   "not": "Landgraflık 1131 sonrası; Eski Thüringen Krallığı atlasta yok."
+  }
+ },
+ {
+  "id": "langobard-pannonia",
+  "ad": "Lombard (Langobard) Pannonia/Tuna Krallığı",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "0489-01-01",
+  "t": "0568-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Tuna kuzeyi, Pannonia)",
+  "etkin_bolge": "Rugiland, Moravya, Pannonia (Tuna ortasi)",
+  "sehirler": [],
+  "ozet": "Langobardlar 489'dan itibaren Rugiland'a, 526/546'dan itibaren Pannonia'ya yerlesti, Gepidleri yenip (567) Avarlarla ittifaktan sonra 568'de Italya'ya gecti.",
+  "oncul": [
+   "rugi-kralligi",
+   "heruli-krallik"
+  ],
+  "ardil": [
+   "langobard"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Rugiland dönemi başlangıcı 487-489; Tato kral 508+ (Heruli yenilgisi). İtalya geçişi 568 (Paulus Diaconus II.7). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Paulus Diaconus Historia Langobardorum I-II; Jarnut]",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "langobard",
+   "not": "Italya Lombard krallığı (568...) ardıl; Tuna dönemi (~489-568) künyede yok."
+  }
+ },
+ {
+  "id": "hasding-vandal",
+  "ad": "Hasding Vandallari (Tisza/Pannonia, Orta Avrupa evresi)",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "0335-01-01",
+  "t": "0406-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Tisza havzasi)",
+  "etkin_bolge": "Tisza, Pannonia (Dakya batisi)",
+  "sehirler": [],
+  "ozet": "Hasding Vandallari 335'te Konstantin'le Pannonia'ya yerlesti, 406'da Ren'i gecerek Galya-Iberya yolundan 429'da Kuzey Afrika'ya ulasti (Afrikali krallik: 'vandal').",
+  "oncul": [],
+  "ardil": [
+   "vandal"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "'Krallık' niteliği zayıf (Godigisel/Gunderic kral/lider); 335 Konstantin yerleştirmesi tartışmalı (Jordanes Getica 113-115). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Jordanes Getica 113-115; Brill's New Pauly 'Vandals'; Merrills & Miles 'The Vandals']",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "vandal",
+   "not": "Vandal Krallığı (Afrika, 429-534) ardıl; orta avrupa evresi künyede yok."
+  }
+ },
+ {
+  "id": "alamannia-dukaligi",
+  "ad": "Alaman Dukalığı (Alamannia, Frank hakimiyetinde)",
+  "tur": "dukalik",
+  "bolge": "orta-avrupa",
+  "f": "0536-01-01",
+  "t": "0746-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Konstanz / Augsburg)",
+  "etkin_bolge": "Güney Almanya, Elsass, Kuzey Isviçre",
+  "sehirler": [],
+  "ozet": "Alaman krallığının 496-506'dan sonra Franklara bağlanmasından sonra Meroven dukalığı olarak yönetilen Alamannia; 746 Cannstatt 'kan mahkemesi' ile kalan aristokrasi kırıldı.",
+  "oncul": [
+   "alamanlar"
+  ],
+  "ardil": [
+   "schwaben-dukaligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "536: Frank'ların Ostrogotlardan Alamannia'yı teslim alması (Procopius, Bell. Goth. V.13). Bitiş 746 Cannstatt. İki uçtaki künye ile boşluk (496-536) olup olmadığı kaynakla netleşmeli. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Geuenich 'Geschichte der Alemannen'; Brill's New Pauly 'Alamanni']",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "alamanlar",
+   "not": "alamanlar (213-496) devamı; sonraki Schwaben (915) ardıl."
+  }
+ }
+]

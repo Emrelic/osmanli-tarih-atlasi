@@ -1,0 +1,372 @@
+[
+ {
+  "id": "kapadokya-pers-vasali",
+  "ad": "Kapadokya (Ariarathes I) Pers Vasalı Krallık",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-0330-01-01",
+  "t": "-0320-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Mazaka",
+  "etkin_bolge": "İç Anadolu",
+  "sehirler": [
+   "Mazaka"
+  ],
+  "ozet": "Ariarathes I'in İskender sonrası krallığı; Perdikkas MÖ 322'de yıktı.",
+  "oncul": [],
+  "ardil": [
+   "kapadokya-krallik"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut kapadokya-krallik -254'te başlar; arada boşluk. Aralık yaklaşık.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "kapadokya-krallik",
+   "not": "Künye başlangıcı genişletilebilir (kronoloji tartışmalı)."
+  }
+ },
+ {
+  "id": "bitinya-dinastlari",
+  "ad": "Bitinya Dinastları (Bas, Doidalses, Zipoites)",
+  "tur": "hanedanlik",
+  "bolge": "anadolu",
+  "f": "-0374-01-01",
+  "t": "-0295-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Astakos?",
+  "etkin_bolge": "Kuzeybatı Anadolu",
+  "sehirler": [
+   "Astakos",
+   "Bithynion"
+  ],
+  "ozet": "Bitinya Krallığı öncesi Pers vasalı Thrak asıllı dinastlar.",
+  "oncul": [],
+  "ardil": [
+   "bitinya"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Dinast kronolojisi yaklaşık.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "bitinya",
+   "not": "Künye öncesini kapsamıyor."
+  }
+ },
+ {
+  "id": "paflagonya",
+  "ad": "Paflagonya Dinastlıkları / Krallığı",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-0398-01-01",
+  "t": "-0003-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Gangra",
+  "etkin_bolge": "Kuzey Anadolu (Kastamonu–Gangra)",
+  "sehirler": [
+   "Gangra",
+   "Sinope"
+  ],
+  "ozet": "Pers vasalı hanedanlar ve Roma'nın bağlı kralları (Pylaimenes) MÖ 5'e dek.",
+  "oncul": [],
+  "ardil": [
+   "galatya-krallik"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t Pylaimenes II'nin ölümü (MÖ ~5). Sürekliliği parçalı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "olba-rahip-krallik",
+  "ad": "Olba (Teukrid) Rahip-Krallığı",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-0298-01-01",
+  "t": "0072-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Olba (Uzuncaburç)",
+  "etkin_bolge": "Dağlık Kilikya",
+  "sehirler": [
+   "Olba",
+   "Kanytelis"
+  ],
+  "ozet": "Zeus Olbios rahip-kral hanedanı; Roma'ya bağlı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş yaklaşık; MS 72 Vespasianus ilhakı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tarkondimotid",
+  "ad": "Hierapolis-Kastabala Tarkondimotid Krallığı",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-0062-01-01",
+  "t": "0017-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Hierapolis-Kastabala",
+  "etkin_bolge": "Doğu Kilikya (Amanos çevresi)",
+  "sehirler": [
+   "Hierapolis-Kastabala"
+  ],
+  "ozet": "Pompeius'un tanıdığı Tarkondimotos hanedanı; MS 17'de Roma'ya katıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş MÖ 64/63.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kucuk-ermenistan",
+  "ad": "Küçük Ermenistan (Armenia Minor) Krallığı",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-0188-01-01",
+  "t": "0072-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Nikopolis?",
+  "etkin_bolge": "Sivas–Tokat–Erzincan",
+  "sehirler": [
+   "Nikopolis",
+   "Kabeira"
+  ],
+  "ozet": "Büyük Ermenistan/Sophene'den ayrılan vasal krallık; 72'de Vespasianus ilhakı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "MÖ 113–64 arası Pontus içinde; 54–72 Aristobulos dönemi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "polemon-pontus",
+  "ad": "Pontus Polemoniakus Krallığı",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-0035-01-01",
+  "t": "0064-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Polemonion",
+  "etkin_bolge": "Doğu Karadeniz (Trabzon–Fatsa)",
+  "sehirler": [
+   "Polemonion",
+   "Trapezus"
+  ],
+  "ozet": "Antonius'un verdiği Polemon krallığı; Nero 64'te ilhak etti.",
+  "oncul": [
+   "pontus"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Polemon I Pontus'u MÖ 37–36 aldı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "galatya-krallik",
+  "ad": "Galatya Krallığı (Deiotaros, Amyntas)",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-0062-01-01",
+  "t": "-0023-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ankyra / Blukion",
+  "etkin_bolge": "İç Anadolu",
+  "sehirler": [
+   "Ankyra",
+   "Tavium"
+  ],
+  "ozet": "Tetrarşi şefi Deiotaros'un kral ilan edilmesi (MÖ 63); Amyntas'ın ölümü MÖ 25.",
+  "oncul": [
+   "galatya-keltleri"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut galatya-keltleri aynı toprağı kaplar.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "galatya-keltleri",
+   "not": "Ayrı kayıt gerekip gerekmediği ana oturumda karar."
+  }
+ },
+ {
+  "id": "lazika",
+  "ad": "Lazika (Egrisi) Krallığı",
+  "tur": "krallik",
+  "bolge": "kafkasya",
+  "f": "0100-01-01",
+  "t": "0697-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Arkheopolis / Kutaisi",
+  "etkin_bolge": "Batı Gürcistan",
+  "sehirler": [
+   "Arkheopolis",
+   "Phasis"
+  ],
+  "ozet": "Kolkhis'in ardılı Lazlar'ın Roma/Bizans vasalı krallığı; Lazika Savaşı (541-562).",
+  "oncul": [
+   "kolkhis-krallik"
+  ],
+  "ardil": [
+   "abhazya-krallik"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "f yaklaşık (1–2. yy). t Arap/Abhaz kontrolü, kaynağa göre değişir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "iberya-kartli",
+  "ad": "İberya (Kartli) Krallığı",
+  "tur": "krallik",
+  "bolge": "kafkasya",
+  "f": "-0297-01-01",
+  "t": "0580-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Mtsketa",
+  "etkin_bolge": "Orta-Doğu Gürcistan",
+  "sehirler": [
+   "Mtsketa",
+   "Armazi",
+   "Uplistsikhe"
+  ],
+  "ozet": "Pharnavaz I'e atfedilen Kartli devleti; Arşaklı, Hosroid dönemi.",
+  "oncul": [],
+  "ardil": [
+   "kartli-erismtavari"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler Kartlis Tskhovreba geleneğine göre yaklaşık; Sasani/Bizans 580'de krallığı kaldırdı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut gurcistan 1008'de başlıyor."
+  }
+ },
+ {
+  "id": "kafkas-arnavutlugu",
+  "ad": "Kafkas Arnavutluğu (Albania) Krallığı",
+  "tur": "krallik",
+  "bolge": "kafkasya",
+  "f": "-0298-01-01",
+  "t": "0705-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kabala / Barda",
+  "etkin_bolge": "Kür–Aras arası",
+  "sehirler": [
+   "Kabala",
+   "Barda",
+   "Derbend"
+  ],
+  "ozet": "Strabon'un tanıklık ettiği kabile birliği-krallık; Sasani vasalı; Mihranidler.",
+  "oncul": [],
+  "ardil": [
+   "mihranid-gardman"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasî birliği ve f çok yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

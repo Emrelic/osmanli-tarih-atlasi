@@ -1,0 +1,442 @@
+[
+ {
+  "id": "aynaroz",
+  "ad": "Aynaroz (Athos) Manastır Yönetimi",
+  "tur": "kilise-devleti",
+  "bolge": "balkanlar",
+  "f": "1060-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": "belirsiz"
+  },
+  "baskent": "Karyes",
+  "etkin_bolge": "Athos Yarımadası",
+  "sehirler": [
+   "Karyes",
+   "Megisti Lavra"
+  ],
+  "ozet": "1060 Konstantinos IX typikon; özerk keşişler cumhuriyeti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Oxford Dictionary of Byzantium (1991), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t yok (süren özerk yapı); siyasî egemenlik tartışmalı. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "arbanon",
+  "ad": "Arbanon (Arbër) Prensliği",
+  "tur": "prenslik",
+  "bolge": "balkanlar",
+  "f": "1190-01-01",
+  "t": "1255-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Kruja",
+  "etkin_bolge": "Orta Arnavutluk",
+  "sehirler": [
+   "Kruja",
+   "Durrës"
+  ],
+  "ozet": "Progon hanedanı.",
+  "oncul": [],
+  "ardil": [
+   "arnavutluk-krallik"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas yok."
+  }
+ },
+ {
+  "id": "arnavutluk-krallik",
+  "ad": "Arnavutluk Krallığı (Anjou)",
+  "tur": "krallik",
+  "bolge": "balkanlar",
+  "f": "1272-01-01",
+  "t": "1368-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Durrës",
+  "etkin_bolge": "Arnavutluk",
+  "sehirler": [
+   "Durrës"
+  ],
+  "ozet": "Karl I Anjou.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tesalya-neopatras",
+  "ad": "Tesalya (Büyük Vlahia, Neopatras) Dukalığı",
+  "tur": "dukalik",
+  "bolge": "balkanlar",
+  "f": "1268-01-01",
+  "t": "1318-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Neopatras",
+  "etkin_bolge": "Tesalya",
+  "sehirler": [
+   "Neopatras",
+   "Trikala"
+  ],
+  "ozet": "Epiros'tan ayrılan Ioannes I Doukas.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi",
+   "Longnon, L'Empire latin de Constantinople et la principaute de Moree (1949); Bon, La Moree franque (1969) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bodonitsa",
+  "ad": "Bodonitsa Markizliği",
+  "tur": "markizlik",
+  "bolge": "balkanlar",
+  "f": "1204-01-01",
+  "t": "1414-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Bodonitsa",
+  "etkin_bolge": "Orta Yunanistan",
+  "sehirler": [
+   "Bodonitsa"
+  ],
+  "ozet": "Pallavicini.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Longnon, L'Empire latin de Constantinople et la principaute de Moree (1949); Bon, La Moree franque (1969) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "salona-lordluk",
+  "ad": "Salona (Amfissa) Lordluğu",
+  "tur": "lordluk",
+  "bolge": "balkanlar",
+  "f": "1205-01-01",
+  "t": "1410-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Salona",
+  "etkin_bolge": "Phokis",
+  "sehirler": [
+   "Salona"
+  ],
+  "ozet": "De la Roche.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Longnon, L'Empire latin de Constantinople et la principaute de Moree (1949); Bon, La Moree franque (1969) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "thebai-baronluk",
+  "ad": "Thebai Baronluğu",
+  "tur": "baronluk",
+  "bolge": "balkanlar",
+  "f": "1204-01-01",
+  "t": "1311-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Thebai",
+  "etkin_bolge": "Boiotia",
+  "sehirler": [
+   "Thebai"
+  ],
+  "ozet": "St. Omer.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Longnon, L'Empire latin de Constantinople et la principaute de Moree (1949); Bon, La Moree franque (1969) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "argos-nauplia",
+  "ad": "Argos ve Nauplia Lordluğu",
+  "tur": "lordluk",
+  "bolge": "balkanlar",
+  "f": "1205-01-01",
+  "t": "1388-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Argos",
+  "etkin_bolge": "Argolis",
+  "sehirler": [
+   "Nauplia"
+  ],
+  "ozet": "De la Roche.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Longnon, L'Empire latin de Constantinople et la principaute de Moree (1949); Bon, La Moree franque (1969) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "rodos-gabalas",
+  "ad": "Rodos Lordluğu (Gabalas)",
+  "tur": "lordluk",
+  "bolge": "balkanlar",
+  "f": "1204-01-01",
+  "t": "1248-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Rodos",
+  "etkin_bolge": "Rodos",
+  "sehirler": [
+   "Rodos"
+  ],
+  "ozet": "Leo Gabalas.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Oxford Dictionary of Byzantium (1991), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "melnik-despotlugu",
+  "ad": "Melnik Despotluğu (Aleksios Slav)",
+  "tur": "despotluk",
+  "bolge": "balkanlar",
+  "f": "1208-01-01",
+  "t": "1230-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Melnik",
+  "etkin_bolge": "Rodop",
+  "sehirler": [
+   "Melnik"
+  ],
+  "ozet": "Aleksios Slav.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "strez-despotlugu",
+  "ad": "Strez (Prosek) Despotluğu",
+  "tur": "despotluk",
+  "bolge": "balkanlar",
+  "f": "1207-01-01",
+  "t": "1214-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Prosek",
+  "etkin_bolge": "Vardar",
+  "sehirler": [
+   "Prosek"
+  ],
+  "ozet": "Strez.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dobromir-hrisos",
+  "ad": "Dobromir Chrysos (Strumica)",
+  "tur": "despotluk",
+  "bolge": "balkanlar",
+  "f": "1196-01-01",
+  "t": "1202-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Strumica",
+  "etkin_bolge": "Strumica",
+  "sehirler": [
+   "Strumica"
+  ],
+  "ozet": "Asenid kopuş.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "litovoi-voyvodalik",
+  "ad": "Litovoi Voyvodalığı (Oltenia)",
+  "tur": "voyvodalik",
+  "bolge": "dogu-avrupa",
+  "f": "1247-01-01",
+  "t": "1277-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Oltenia",
+  "sehirler": [
+   "belirsiz"
+  ],
+  "ozet": "Eflak öncüsü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bosna-banlik",
+  "ad": "Bosna Banlığı",
+  "tur": "banlik",
+  "bolge": "balkanlar",
+  "f": "1154-01-01",
+  "t": "1377-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Bobovac",
+  "etkin_bolge": "Bosna",
+  "sehirler": [
+   "Bobovac"
+  ],
+  "ozet": "Ban Borić ve Kulin.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "bosna-kralligi",
+   "not": "Atlas f=1180; krallık 1377."
+  }
+ }
+]

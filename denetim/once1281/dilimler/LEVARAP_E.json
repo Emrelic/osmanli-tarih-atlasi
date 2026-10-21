@@ -1,0 +1,432 @@
+[
+ {
+  "id": "lulu-halep",
+  "ad": "Lu'lu'iler (Halep, Fatimi vassali)",
+  "ad_yerel": null,
+  "tur": "emirlik",
+  "bolge": "suriye-filistin",
+  "f": "1004-01-01",
+  "t": "1015-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Halep",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Halep"
+  ],
+  "ozet": "Hamdani Sa'd el-Devle sonrasi Lu'lu' ve oglu Mansur Fatimi vassali olarak Halep'i yonetti; 1015te Fatimi'ye baglandi, 1024te Mirdasi.",
+  "oncul": [
+   "hamdani-halep"
+  ],
+  "ardil": [
+   "mirdasi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut hamdani-halep t=1004, mirdasi f=1024 arasinda bosluk (1004-1024) bu kayit + Fatimi dogrudan yonetimi ile dolar.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sur-kadilari",
+  "ad": "Tire (Sur) Kadilari Emirligi",
+  "ad_yerel": null,
+  "tur": "emirlik",
+  "bolge": "suriye-filistin",
+  "f": "1063-01-01",
+  "t": "1089-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Sur",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Sur"
+  ],
+  "ozet": "Fatimi kontrolunden fiilen cikan Tire kadi hanedani; 1089'da Fatimi'ye dondu, 1124te Hacli fethi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tum taslak; tarihler yaklasik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "cebele-kadilari",
+  "ad": "Cebele (Cabala) Beni Sulayha Kadilari",
+  "ad_yerel": null,
+  "tur": "emirlik",
+  "bolge": "suriye-filistin",
+  "f": "1060-01-01",
+  "t": "1109-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Cebele",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Cebele"
+  ],
+  "ozet": "Fatimi baglantili kadi hanedaninin Lazkiye kıyısi emirligi; 1109'da Hacli'ye gecti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tum taslak; Tripoli kontlukunun fethi ile iliskili.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "nebhani-umman",
+  "ad": "Nebhaniler (Umman Meliklesi)",
+  "ad_yerel": null,
+  "tur": "hanedanlik",
+  "bolge": "arabistan",
+  "f": "1154-01-01",
+  "t": "1624-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Behla",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Behla",
+   "Nizwa"
+  ],
+  "ozet": "Ibadi imamligi yerine Nebhani krallari Umman ic bolgesini yonetti; 1624 Yaruba imamligi ile bitti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Nebhani hakimiyeti kesintilidir ve imamlarla yan yana gecer; tum taslak.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "nizari-suriye",
+  "ad": "Suriye Nizari Ismaililer (Haşşaşin Kaleleri)",
+  "ad_yerel": null,
+  "tur": "devlet",
+  "bolge": "suriye-filistin",
+  "f": "1132-01-01",
+  "t": "1273-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Masyaf",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Masyaf",
+   "Kadmus",
+   "Hısnü'l-Kehf"
+  ],
+  "ozet": "Alamut merkezli davetin Suriye kolu; Rashid ed-Din Sinan donemi (~1162-1193); Baybars baskisiyla Kehf 1273te dustu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Baslangic Kadmus/Masyaf alimi (1132-1141) icin kaynak degisir; Masyaf 1270/73 Baybars. Tum taslak.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "eyyubi-sam",
+  "ad": "Dimask (Sam) Eyyubileri",
+  "ad_yerel": null,
+  "tur": "hanedanlik",
+  "bolge": "suriye-filistin",
+  "f": "1193-03-04",
+  "t": "1260-03-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "ay"
+  },
+  "baskent": "Dimask",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Dimask",
+   "Baalbek",
+   "Busra"
+  ],
+  "ozet": "Selahaddin'in olumuyle (1193) Dimask kolu Afdal ve sonra Mu'azzam/Eşref/Salih ile ayrildi; 1260'ta Mogol Kitbuga ile bitti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Selahaddin olumu (589 H Safer = Mart 1193) ve Mart 1260 bitisi hafizadan, okunmadi; gun hassasiyeti DOGRULANMADI, yila indirilmeli.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "eyyubi",
+   "not": ""
+  }
+ },
+ {
+  "id": "eyyubi-humus",
+  "ad": "Humus Eyyubileri (Şirkuh kolu)",
+  "ad_yerel": null,
+  "tur": "beylik",
+  "bolge": "suriye-filistin",
+  "f": "1174-01-01",
+  "t": "1262-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Humus",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Humus"
+  ],
+  "ozet": "Şirkuh'un torunlari Humus'u Eyyubi baglarinda yonetti; 1262'de Memluk Baybars.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tum taslak; Hama Eyyubi ile ayri.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "eyyubi-kerek",
+  "ad": "Kerek (Karak) Eyyubileri",
+  "ad_yerel": null,
+  "tur": "emirlik",
+  "bolge": "suriye-filistin",
+  "f": "1227-01-01",
+  "t": "1263-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kerek",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Kerek",
+   "Shawbak"
+  ],
+  "ozet": "Nasir Davud ve ardillari Urdun doğusunu ayri yonetti; 1263'te Baybars.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tum taslak.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "oltre-urdun",
+  "ad": "Outrejourdain (Kerek-Şavbak) Lordlugu",
+  "ad_yerel": null,
+  "tur": "lordluk",
+  "bolge": "suriye-filistin",
+  "f": "1118-01-01",
+  "t": "1189-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kerek",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Kerek",
+   "Şavbak"
+  ],
+  "ozet": "Kudus Kralligi buyuk feodal lordlugu; Reynald de Chatillon donemi, Selahaddin 1189 Kerek'i aldi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kudus Kralliginin alt birimi; gerekirse atlasa dahil edilmez.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "celile-prensligi",
+  "ad": "Celile (Tiberya) Prensligi",
+  "ad_yerel": null,
+  "tur": "prenslik",
+  "bolge": "suriye-filistin",
+  "f": "1099-01-01",
+  "t": "1187-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Tiberya",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Tiberya",
+   "Nasira"
+  ],
+  "ozet": "Kudus Kralliginin kuzey prensligi; Hittin Savasi (4 Temmuz 1187) sonrasi Selahaddin.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kudus Kralliginin alt birimi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "yafa-askalan",
+  "ad": "Yafa ve Askalan Kontlugu",
+  "ad_yerel": null,
+  "tur": "kontluk",
+  "bolge": "suriye-filistin",
+  "f": "1151-01-01",
+  "t": "1268-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Yafa",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Yafa",
+   "Askalan"
+  ],
+  "ozet": "Kudus Kralliginin kiyi kontlugu; Baybars 1268te Yafa'yi aldi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kudus Kralliginin alt birimi; Askalan 1187 ve 1191 arasi kesintiler.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sayda-lordlugu",
+  "ad": "Sayda (Sidon) Lordlugu",
+  "ad_yerel": null,
+  "tur": "lordluk",
+  "bolge": "suriye-filistin",
+  "f": "1110-01-01",
+  "t": "1291-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sayda",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Sayda",
+   "Beaufort"
+  ],
+  "ozet": "Haçlı Sayda lordlugu; kesintili el degistirdi, 1260ta Tapinakcilara satildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kudus Kralliginin alt birimi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "beyrut-lordlugu",
+  "ad": "Beyrut Lordlugu",
+  "ad_yerel": null,
+  "tur": "lordluk",
+  "bolge": "suriye-filistin",
+  "f": "1110-01-01",
+  "t": "1291-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Beyrut",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Beyrut"
+  ],
+  "ozet": "Haçlı Beyrut lordlugu (Ibelinler); 1187de kaybedildi, 1197de geri alindi, 1291 Memluk.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kudus Kralliginin alt birimi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

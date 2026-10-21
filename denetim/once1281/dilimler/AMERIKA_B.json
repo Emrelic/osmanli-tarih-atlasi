@@ -1,0 +1,275 @@
+[
+ {
+  "id": "caral-norte-chico",
+  "ad": "Norte Chico (Caral-Supe) Uygarlığı",
+  "tur": "uygarlik",
+  "bolge": "guney-amerika",
+  "f": "-2999-01-01",
+  "t": "-1799-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Caral",
+  "etkin_bolge": "Peru kıyısı, Supe-Pativilca-Fortaleza vadileri",
+  "sehirler": [
+   "Caral",
+   "Aspero",
+   "Vichama"
+  ],
+  "ozet": "Anıtsal mimarili, büyük olasılıkla rahip yönetimli ilk Andean toplum; devlet mi şeflik mi tartışmalı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica). Shady (Caral) 3000-1800 MÖ; Haas&Creamer daha dar aralık.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "caral-norte-chico",
+   "not": "Künye t=-1999; Caral ağırlıklı 2600-2000 MÖ, bölge terkleri ~1800 MÖ (Shady ekolü). Devlet iddiası tartışmalı."
+  }
+ },
+ {
+  "id": "poverty-point",
+  "ad": "Poverty Point Kültürü (şeflik/tartışmalı)",
+  "tur": "seflik",
+  "bolge": "kuzey-amerika",
+  "f": "-1649-01-01",
+  "t": "-1149-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Poverty Point (Louisiana)",
+  "etkin_bolge": "Aşağı Mississippi vadisi, uzun mesafe takas ağı",
+  "sehirler": [
+   "Poverty Point"
+  ],
+  "ozet": "Geç Arkaik avcı-toplayıcı kompleksi, devasa toprak işleri; siyasî birim değil, ticaret merkezi, şeflik iddiası tartışmalı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Pauketat 2009 Cahokia; Cambridge History of the Native Peoples of the Americas vol.1 (1996).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "poverty-point-kultur",
+   "not": "Mevcut künye kültür; devlet düzeyi YOK, şeflik bile tartışmalı. Kronolojiye siyasî birim olarak alınması önerilmez."
+  }
+ },
+ {
+  "id": "san-lorenzo-olmek",
+  "ad": "San Lorenzo (Olmek şeflik merkezi)",
+  "tur": "seflik",
+  "bolge": "orta-amerika",
+  "f": "-1199-01-01",
+  "t": "-0899-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "San Lorenzo",
+  "etkin_bolge": "Coatzacoalcos havzası",
+  "sehirler": [
+   "San Lorenzo",
+   "Tenochtitlan (Veracruz)"
+  ],
+  "ozet": "Olmek heykeltıraşlığının ilk büyük merkezi, ~900 MÖ'de terk ya da tahrip.",
+  "oncul": [],
+  "ardil": [
+   "la-venta-olmek"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "olmek",
+   "not": "Mevcut olmek künyesi iki merkezi kapsıyor; ayrı künye isteniyorsa bu kayıt. Şeflik/tartışmalı."
+  }
+ },
+ {
+  "id": "la-venta-olmek",
+  "ad": "La Venta (Olmek şeflik merkezi)",
+  "tur": "seflik",
+  "bolge": "orta-amerika",
+  "f": "-0899-01-01",
+  "t": "-0399-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "La Venta",
+  "etkin_bolge": "Tabasco kıyısı",
+  "sehirler": [
+   "La Venta"
+  ],
+  "ozet": "San Lorenzo'nun ardıl Olmek merkezi, ~400 MÖ'de çöküş.",
+  "oncul": [
+   "san-lorenzo-olmek"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "olmek",
+   "not": "Bkz. san-lorenzo-olmek. Şeflik/tartışmalı."
+  }
+ },
+ {
+  "id": "san-jose-mogote",
+  "ad": "San José Mogote (erken Zapotek şefliği)",
+  "tur": "seflik",
+  "bolge": "orta-amerika",
+  "f": "-1149-01-01",
+  "t": "-0499-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "San José Mogote",
+  "etkin_bolge": "Oaxaca, Etla kolu",
+  "sehirler": [
+   "San José Mogote"
+  ],
+  "ozet": "Monte Albán öncesi Oaxaca vadisinin baskın şeflik merkezi; MÖ ~500'de Monte Albán'ın kuruluşuyla ağırlığını yitirdi.",
+  "oncul": [],
+  "ardil": [
+   "monte-alban-zapotek"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı; tarihler yüzyıl düzeyi."
+  }
+ },
+ {
+  "id": "chavin",
+  "ad": "Chavín Kültürü (dinî merkez)",
+  "tur": "kultur",
+  "bolge": "guney-amerika",
+  "f": "-0899-01-01",
+  "t": "-0199-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Chavín de Huántar",
+  "etkin_bolge": "Kuzey-orta Andlar",
+  "sehirler": [
+   "Chavín de Huántar"
+  ],
+  "ozet": "Dinî-ritüel çekim merkezi; devlet düzeyinde siyasî birim kanıtı zayıf.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "chavin",
+   "not": "Siyasî birim olarak tartışmalı; mevcut künye kültür."
+  }
+ },
+ {
+  "id": "paracas",
+  "ad": "Paracas (Topará) Şeflikleri",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "-0799-01-01",
+  "t": "-0099-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Cerro Colorado / Cahuachi-öncesi",
+  "etkin_bolge": "Peru güney kıyısı (Ica-Pisco)",
+  "sehirler": [
+   "Paracas",
+   "Topará"
+  ],
+  "ozet": "Nazca'nın öncülü; nekropol tekstilleriyle bilinen tabakalı toplum.",
+  "oncul": [],
+  "ardil": [
+   "nazca"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı."
+  }
+ },
+ {
+  "id": "cuicuilco",
+  "ad": "Cuicuilco (şeflik/şehir)",
+  "tur": "sehir-devleti",
+  "bolge": "orta-amerika",
+  "f": "-0799-01-01",
+  "t": "0250-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Cuicuilco",
+  "etkin_bolge": "Meksika Vadisi güneyi",
+  "sehirler": [
+   "Cuicuilco"
+  ],
+  "ozet": "Meksika Vadisi'nin Preklasik büyük merkezi; Xitle yanardağı patlamasıyla terk (MS 1.-3. yy).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Sharer & Traxler 2006 The Ancient Maya 6th ed.; Martin & Grube 2008 Chronicle of the Maya Kings and Queens; Smith 2012 The Aztecs; Cambridge History of the Native Peoples of the Americas vol.2.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Devlet mi şeflik mi tartışmalı; patlama tarihi kaynaklar arasında farklı."
+  }
+ },
+ {
+  "id": "tumaco-la-tolita",
+  "ad": "Tumaco-La Tolita Şeflikleri",
+  "tur": "seflik",
+  "bolge": "guney-amerika",
+  "f": "-0599-01-01",
+  "t": "0200-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "La Tolita",
+  "etkin_bolge": "Ekvador-Kolombiya kıyısı",
+  "sehirler": [
+   "La Tolita"
+  ],
+  "ozet": "Altın-platin işçiliğiyle bilinen kıyı şeflikleri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "HAFIZADAN TASLAK, kaynak sayfasi bu oturumda acilip okunmadi. Dogrulama icin aday kaynaklar (okunmadi): Moseley 2001 The Incas and Their Ancestors; Silverman & Isbell 2008 Handbook of South American Archaeology; Museo del Oro (Banco de la Republica).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Şeflik/tartışmalı."
+  }
+ }
+]

@@ -1,0 +1,991 @@
+[
+ {
+  "id": "minos",
+  "ad": "Minos (Knossos merkezli saray) Uygarlığı",
+  "tur": "uygarlik-saray-devletleri",
+  "bolge": "balkanlar",
+  "f": "-1899-01-01",
+  "t": "-1449-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Knossos",
+  "etkin_bolge": "Girit",
+  "sehirler": [
+   "Knossos",
+   "Phaistos",
+   "Malia",
+   "Zakros"
+  ],
+  "ozet": "Girit saray merkezleri (Knossos, Phaistos, Malia, Zakros); siyasî birlik tartışmalı, MÖ ~1450 sonrası Miken denetimi.",
+  "oncul": [],
+  "ardil": [
+   "miken"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Cambridge Companion to the Aegean Bronze Age (Cline ed., 2010) - OKUNMADI, dogrulama adayi",
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Minos tek devlet mi, bağımsız saray devletleri mi tartışmalı; Knossos ayrı kayıt gerekirse mevcut künye bölünür. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "minos",
+   "not": "Atlas künyesi uyumlu."
+  }
+ },
+ {
+  "id": "miken",
+  "ad": "Miken (Mykene) Saray Devletleri",
+  "tur": "saray-devletleri",
+  "bolge": "balkanlar",
+  "f": "-1599-01-01",
+  "t": "-1099-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Mykenai",
+  "etkin_bolge": "Peloponnes, Orta Yunanistan, Girit (Knossos MÖ ~1450-1375)",
+  "sehirler": [
+   "Mykenai",
+   "Tiryns",
+   "Pylos",
+   "Thebai",
+   "Orchomenos",
+   "Iolkos"
+  ],
+  "ozet": "Miken saray merkezlerinin Geç Tunç Çağı yapısı; MÖ ~1200 civarı çöküş, ~1100 sonrası saray sistemi yok.",
+  "oncul": [
+   "minos"
+  ],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Cambridge Companion to the Aegean Bronze Age (Cline ed., 2010) - OKUNMADI, dogrulama adayi",
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "LH I (~MÖ 1600) başlangıç, saray dönemi MÖ ~1400; çöküş MÖ ~1200 (LH IIIC ~1100 sonu). Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "miken",
+   "not": "Atlas f=-1399 (MÖ 1400); Miken sarayları Orta Helladik sonu Şaft mezar dönemi (MÖ ~1600) ile başlar, künye f kısa."
+  }
+ },
+ {
+  "id": "pylos-kralligi",
+  "ad": "Pylos (Nestor) Krallığı",
+  "tur": "saray-devleti",
+  "bolge": "balkanlar",
+  "f": "-1449-01-01",
+  "t": "-1179-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Ano Englianos (Pylos)",
+  "etkin_bolge": "Messenia (Güneybatı Peloponnes)",
+  "sehirler": [
+   "Pylos",
+   "Methone",
+   "Pherai"
+  ],
+  "ozet": "Linear B tabletleriyle belgeli Miken sarayı; MÖ ~1180 yangınla yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Cambridge Companion to the Aegean Bronze Age (Cline ed., 2010) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Pylos tabletleri iki kronolojiye bölünmüş (LH IIIB sonu, MÖ ~1200 / ~1180). Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "miken",
+   "not": "Miken genel künyesi altında; ayrı polity olarak ayrıştırılmalı mı karar ister."
+  }
+ },
+ {
+  "id": "mykenai-tiryns",
+  "ad": "Mykenai ve Tiryns (Argolis) Sarayları",
+  "tur": "saray-devleti",
+  "bolge": "balkanlar",
+  "f": "-1599-01-01",
+  "t": "-1099-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Mykenai",
+  "etkin_bolge": "Argolis",
+  "sehirler": [
+   "Mykenai",
+   "Tiryns",
+   "Midea",
+   "Argos"
+  ],
+  "ozet": "Argolis Miken çekirdeği; Hitit kaynaklarındaki Ahhiyawa ile ilişki tartışmalı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Cambridge Companion to the Aegean Bronze Age (Cline ed., 2010) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Ahhiyawa özdeşliği tartışmalı. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "miken",
+   "not": ""
+  }
+ },
+ {
+  "id": "thebai-miken",
+  "ad": "Thebai (Kadmeia) Miken Sarayı",
+  "tur": "saray-devleti",
+  "bolge": "balkanlar",
+  "f": "-1399-01-01",
+  "t": "-1199-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Thebai",
+  "etkin_bolge": "Boiotia",
+  "sehirler": [
+   "Thebai",
+   "Orchomenos"
+  ],
+  "ozet": "Linear B tabletli Boiotia sarayı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Cambridge Companion to the Aegean Bronze Age (Cline ed., 2010) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yıkım tarihi (MÖ ~1250 mı ~1200 mü) tartışmalı. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "miken",
+   "not": ""
+  }
+ },
+ {
+  "id": "atina-arkaik",
+  "ad": "Atina (Arkaik polis: monarşi, aristokrasi, tiranlık)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0506-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Atina",
+  "etkin_bolge": "Attika",
+  "sehirler": [
+   "Atina",
+   "Eleusis",
+   "Marathon"
+  ],
+  "ozet": "Attika synoikismos sonrası polis; Solon, Peisistratos ve Hippias; MÖ 507 Kleisthenes reformu demokrasiye geçiş.",
+  "oncul": [],
+  "ardil": [
+   "atina-demokrasisi"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi",
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Synoikismos efsanevî (Theseus); f yüzyıl düzeyinde. Peisistratos tiranlığı MÖ 546-510. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas yalnız atina-demokrasisi (MÖ 508)."
+  }
+ },
+ {
+  "id": "argos-polis",
+  "ad": "Argos (polis)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0145-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Argos",
+  "etkin_bolge": "Argolis",
+  "sehirler": [
+   "Argos",
+   "Tiryns (MÖ 468 sonrası)",
+   "Mykenai (MÖ ~468 yıkım)"
+  ],
+  "ozet": "Peloponnes polis; Pheidon dönemi (MÖ 7. yy) güç merkezi, MÖ 229 Akhaia Birliği'ne katılım, MÖ 146 Roma.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi",
+   "Barrington Atlas of the Greek and Roman World (Talbert ed., 2000) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t: MÖ 146 Akhaia Birliği yenilgisi; Argos MÖ 229-146 Akhaia üyesi. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "thebai-polis",
+  "ad": "Thebai (Boiotia polis)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0334-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Thebai",
+  "etkin_bolge": "Boiotia",
+  "sehirler": [
+   "Thebai",
+   "Plataiai (hasım)",
+   "Thespiai"
+  ],
+  "ozet": "Boiotia Birliği'nin başı; MÖ 371-362 Epaminondas hegemonyası; MÖ 335 İskender tarafından yıkıldı, MÖ 316 Kassandros yeniden kurdu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi",
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yıkım MÖ 335, Kassandros ile yeniden kuruluş MÖ 316; kayıt ikiye bölünebilir. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas boiotia-birligi (MÖ 378-337) ile ilişkili ama şehir ayrı."
+  }
+ },
+ {
+  "id": "megara-polis",
+  "ad": "Megara (polis)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0145-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Megara",
+  "etkin_bolge": "Megaris",
+  "sehirler": [
+   "Megara",
+   "Pagai",
+   "Nisaia"
+  ],
+  "ozet": "Korinthos-Atina arasında polis; Byzantion, Selinus (Sicilya), Khalkedon, Megara Hyblaia kolonileri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "khalkis-polis",
+  "ad": "Khalkis (Euboia)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0145-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Khalkis",
+  "etkin_bolge": "Euboia",
+  "sehirler": [
+   "Khalkis",
+   "Eretria (komşu rakip)"
+  ],
+  "ozet": "Lelantos savaşı; Kalkidike ve Batı kolonileri; MÖ 506 Atina klerukhy.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi",
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "eretria-polis",
+  "ad": "Eretria (Euboia)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0489-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Eretria",
+  "etkin_bolge": "Euboia",
+  "sehirler": [
+   "Eretria"
+  ],
+  "ozet": "Euboia'nın ikinci polisi; Ionia isyanına yardım nedeniyle MÖ 490 Pers harabı, sonra yeniden kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t: MÖ 490 Pers yıkımı; polis sonra yeniden hayata döndü, serbestlik dönemi MÖ 4. yy. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "aigina-polis",
+  "ad": "Aigina (polis)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0430-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Aigina",
+  "etkin_bolge": "Saron Körfezi",
+  "sehirler": [
+   "Aigina"
+  ],
+  "ozet": "Deniz gücü ve sikke basan polis; MÖ 431 Atinalılar tarafından sürüldü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "samos-polis",
+  "ad": "Samos (Polykrates tiranlığı dahil)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0516-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Samos",
+  "etkin_bolge": "Doğu Ege Adası",
+  "sehirler": [
+   "Samos",
+   "Heraion"
+  ],
+  "ozet": "Polykrates tiranlığı (MÖ ~538-522) deniz imparatorluğu; MÖ ~517 Pers fethi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi",
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Polykrates ölüm yılı tartışmalı (MÖ 522/1). Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Ege adası; Anadolu oturumu ile çakışmaması için ada kaydı burada."
+  }
+ },
+ {
+  "id": "korkyra-polis",
+  "ad": "Korkyra (Kerkyra) polisi",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0732-01-01",
+  "t": "-0145-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kerkyra",
+  "etkin_bolge": "Korfu Adası",
+  "sehirler": [
+   "Kerkyra"
+  ],
+  "ozet": "Korinthos kolonisi (MÖ ~733); Epidamnos çatışması Peloponnes Savaşı'nın nedenlerinden; MÖ 229 Roma himayesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş tarihi kaynakta geleneksel (Eusebios); t Roma himayesi MÖ 229. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "thasos-polis",
+  "ad": "Thasos (polis)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0679-01-01",
+  "t": "-0145-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Thasos",
+  "etkin_bolge": "Kuzey Ege",
+  "sehirler": [
+   "Thasos",
+   "Neapolis"
+  ],
+  "ozet": "Paros kolonisi (MÖ ~680), altın madenli Trakya kıyısı; MÖ 465-463 Atina kuşatması.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi",
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "naksos-polis",
+  "ad": "Naksos (Kyklades polisi)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0499-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Naksos",
+  "etkin_bolge": "Kyklades",
+  "sehirler": [
+   "Naksos"
+  ],
+  "ozet": "Arkaik dönemde Kyklades'in en güçlü adası; Lygdamis tiranlığı; MÖ 499 Ionia isyanında merkez.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas naksa-dukaligi (1207) farklı polity."
+  }
+ },
+ {
+  "id": "apollonia-pontike",
+  "ad": "Apollonia Pontike (Sozopol)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0609-01-01",
+  "t": "-0071-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Apollonia",
+  "etkin_bolge": "Batı Karadeniz (Trakya kıyısı)",
+  "sehirler": [
+   "Apollonia",
+   "Mesembria (komşu)"
+  ],
+  "ozet": "Miletos kolonisi (MÖ ~610); MÖ 72 Roma Lucullus tarafından alındı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Pleiades Gazetteer (pleiades.stoa.org), ilgili yer kaydi - OKUNMADI, dogrulama adayi",
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "mesembria-polis",
+  "ad": "Mesembria (Nesebar)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0509-01-01",
+  "t": "-0071-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Mesembria",
+  "etkin_bolge": "Batı Karadeniz",
+  "sehirler": [
+   "Mesembria"
+  ],
+  "ozet": "Megara/Khalkedon kolonisi (MÖ ~510); MÖ 72 Roma.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Pleiades Gazetteer (pleiades.stoa.org), ilgili yer kaydi - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "istros-polis",
+  "ad": "Istros (Histria)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0656-01-01",
+  "t": "-0049-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Istros",
+  "etkin_bolge": "Dobruca kıyısı",
+  "sehirler": [
+   "Istros"
+  ],
+  "ozet": "Miletos kolonisi (MÖ ~657/630); Getai baskısıyla gerileme, Roma çağında yeniden.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Pleiades Gazetteer (pleiades.stoa.org), ilgili yer kaydi - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş MÖ 657/656 (Eusebios) ile 630 arası tartışmalı. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tomis-polis",
+  "ad": "Tomis (Köstence)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0599-01-01",
+  "t": "-0028-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Tomis",
+  "etkin_bolge": "Dobruca kıyısı",
+  "sehirler": [
+   "Tomis"
+  ],
+  "ozet": "Miletos kolonisi; Ovidius sürgün yeri; MÖ 29 Roma (Crassus).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Pleiades Gazetteer (pleiades.stoa.org), ilgili yer kaydi - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kallatis-polis",
+  "ad": "Kallatis (Mangalia)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0529-01-01",
+  "t": "-0028-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Kallatis",
+  "etkin_bolge": "Dobruca kıyısı",
+  "sehirler": [
+   "Kallatis"
+  ],
+  "ozet": "Herakleia Pontike kolonisi (MÖ ~530); Lysimachos'a direndi; MÖ 29 Roma.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Pleiades Gazetteer (pleiades.stoa.org), ilgili yer kaydi - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "olbia-polis",
+  "ad": "Olbia (Borysthenes) Polisi",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0645-01-01",
+  "t": "-0049-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Olbia",
+  "etkin_bolge": "Kuzey Karadeniz (Bug-Dnepr ağzı)",
+  "sehirler": [
+   "Olbia",
+   "Berezan"
+  ],
+  "ozet": "Miletos kolonisi (MÖ ~647/646); Skit ilişkileri, Zopyrion kuşatması MÖ 330; Getai yıkımı MÖ ~50 civarı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Pleiades Gazetteer (pleiades.stoa.org), ilgili yer kaydi - OKUNMADI, dogrulama adayi",
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş MÖ 647/646 (Eusebios) ve arkeolojik MÖ 6. yy başı; Getai yıkımı MÖ 50-45 civarı. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Bosporos Krallığı ve Kuzey Karadeniz kolonileri bu bölgeye yazıldı."
+  }
+ },
+ {
+  "id": "chersonesos-polis",
+  "ad": "Chersonesos Taurike",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0421-01-01",
+  "t": "-0109-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Chersonesos",
+  "etkin_bolge": "Güneybatı Kırım",
+  "sehirler": [
+   "Chersonesos"
+  ],
+  "ozet": "Herakleia Pontike kolonisi (MÖ ~422-421); MÖ ~110 Mithridates himayesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Pleiades Gazetteer (pleiades.stoa.org), ilgili yer kaydi - OKUNMADI, dogrulama adayi",
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t: Mithridates VI ile ittifak (MÖ ~110) bağımsızlık kaybı. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Sonra Roma ve Bizans şehri; MS 988 Vladimir kuşatması."
+  }
+ },
+ {
+  "id": "pantikapaion-polis",
+  "ad": "Pantikapaion (Bosporos öncesi polis)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0599-01-01",
+  "t": "-0436-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Pantikapaion",
+  "etkin_bolge": "Kerç Boğazı",
+  "sehirler": [
+   "Pantikapaion",
+   "Theodosia",
+   "Phanagoria"
+  ],
+  "ozet": "Miletos kolonisi (MÖ ~600); Archaianaktid hanedanı MÖ ~480; Spartokid krallık MÖ 438/437.",
+  "oncul": [],
+  "ardil": [
+   "bosporos-krallik"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Pleiades Gazetteer (pleiades.stoa.org), ilgili yer kaydi - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bosporos Krallığı mevcut künyesi MÖ 437/438 ile başlar. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "thessalia-birligi",
+  "ad": "Thessalia Birliği (Tagoi dönemi)",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "-0599-01-01",
+  "t": "-0343-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Larissa",
+  "etkin_bolge": "Thessalia",
+  "sehirler": [
+   "Larissa",
+   "Pherai",
+   "Pharsalos",
+   "Krannon"
+  ],
+  "ozet": "Aleuad aristokratik koinon; Iason of Pherai tagosu (MÖ ~374-370), Pherai tiranlığı; MÖ 344 Philippos.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi",
+   "Cambridge Ancient History (2. bs.), ilgili cilt/bolum - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "İlk Thessalia koinonunun kuruluşu efsanevi/arkaik; Birinci Kutsal Savaş (MÖ ~590) bağlamı. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Birlik MÖ 196 Roma ile yeniden kuruldu."
+  }
+ },
+ {
+  "id": "hellen-birligi-481",
+  "ad": "Hellen (Pers Karşıtı) Birliği",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "-0480-01-01",
+  "t": "-0477-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Korinthos (kongre)",
+  "etkin_bolge": "Yunan anakarası",
+  "sehirler": [
+   "Sparta",
+   "Atina",
+   "Korinthos"
+  ],
+  "ozet": "Sparta önderliğinde Pers'e karşı ittifak (MÖ 481-479); Byzantion kuşatması ardından MÖ 478 Sparta çekilmesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t: MÖ 478 civarı Pausanias krizi. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas delos-birligi (MÖ 477-403) devralır."
+  }
+ },
+ {
+  "id": "epiros-kabile",
+  "ad": "Epiros Kabile Devletleri (Molossoi, Thesprotoi, Khaones)",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0368-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Dodona (kutsal merkez)",
+  "etkin_bolge": "Epiros",
+  "sehirler": [
+   "Dodona",
+   "Ambrakia",
+   "Passaron"
+  ],
+  "ozet": "Molossoi hanedanlığı ve Khaones/Thesprotoi birlikleri; MÖ ~370 Molossia'nın hegemonyaya yükselişi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Cambridge Ancient History vol. VI-VII/2 (Makedonya, Trakya, Epiros bolumleri) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Molossia krallığının erken tarihi (Alketas) tartışmalı. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "epir",
+   "not": "Atlas epir (Molossia) MÖ 370 başlıyor; öncesi kabile devletleri."
+  }
+ },
+ {
+  "id": "paionia",
+  "ad": "Paionia Krallığı",
+  "tur": "krallik",
+  "bolge": "balkanlar",
+  "f": "-0498-01-01",
+  "t": "-0215-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Bylazora",
+  "etkin_bolge": "Axios (Vardar) vadisi",
+  "sehirler": [
+   "Bylazora",
+   "Astibos",
+   "Doberos"
+  ],
+  "ozet": "Trakya-Illyria arası Paionlar; MÖ 4. yy Philippos II tabi kıldı; Philippos V MÖ ~217-215 fethetti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi",
+   "Cambridge Ancient History (2. bs.), ilgili cilt/bolum - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Krallık sonrası Dardanlar ve Makedonya; Roma divisio MÖ 168. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "skitler-ateas",
+  "ad": "Tuna Skit Krallığı (Ateas)",
+  "tur": "krallik",
+  "bolge": "balkanlar",
+  "f": "-0358-01-01",
+  "t": "-0338-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Dobruca ve Tuna deltası",
+  "sehirler": [
+   "Istros çevresi"
+  ],
+  "ozet": "Ateas yönetiminde Dobruca/Tuna Skitleri; MÖ 339 Philippos II ile savaşta öldü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Ateas'ın iktidarı ~MÖ 360-339. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "skit-krallik",
+   "not": "Atlas skit-krallik (MÖ 700-200) Pontus bozkırı geneli."
+  }
+ },
+ {
+  "id": "triballoi",
+  "ad": "Triballoi (Tribal Krallık)",
+  "tur": "krallik",
+  "bolge": "balkanlar",
+  "f": "-0498-01-01",
+  "t": "-0334-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Güney Tuna, Morava",
+  "sehirler": [
+   "Ratiaria çevresi"
+  ],
+  "ozet": "Moesia'nın kuzeyindeki Trakya kabile devleti; Sitalkes ve Alexander karşısında MÖ 335 yenildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

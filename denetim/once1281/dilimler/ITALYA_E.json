@@ -1,0 +1,1052 @@
+[
+ {
+  "id": "cenova-tarih",
+  "ad": "Cenova Cumhuriyeti",
+  "tur": "cumhuriyet",
+  "bolge": "italya",
+  "f": "1099-01-01",
+  "t": "1797-06-14",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Cenova",
+  "etkin_bolge": "Liguria, Korsika, Kuzey Karadeniz",
+  "sehirler": [
+   "Cenova"
+  ],
+  "ozet": "Compagna communis 1099; Doge sistemi 1339; Napoleon 1797.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas 1005; Compagna 1099.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "cenova",
+   "not": ""
+  }
+ },
+ {
+  "id": "piza-tarih",
+  "ad": "Pisa Cumhuriyeti",
+  "tur": "cumhuriyet",
+  "bolge": "italya",
+  "f": "1000-01-01",
+  "t": "1406-10-09",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "gun"
+  },
+  "baskent": "Pisa",
+  "etkin_bolge": "Toskana, Sardinya, Korsika",
+  "sehirler": [
+   "Pisa"
+  ],
+  "ozet": "Pisa deniz komünü; 1284 Meloria yenilgisi; 1406 Floransa fethi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas uyumlu.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "piza",
+   "not": ""
+  }
+ },
+ {
+  "id": "savoya-tarih",
+  "ad": "Savoya Kontluğu / Dükalığı",
+  "tur": "kontluk",
+  "bolge": "italya",
+  "f": "1003-01-01",
+  "t": "1720-08-02",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Chambéry → Torino",
+  "etkin_bolge": "Savoya, Piemonte",
+  "sehirler": [
+   "Chambéry",
+   "Torino",
+   "Aosta"
+  ],
+  "ozet": "Umberto Beyaz Eller ~1003; 1416 dukalık; 1720'de Sardinya Krallığı.",
+  "oncul": [
+   "torino-markizligi"
+  ],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas 1032; Umberto I ilk anma 1003.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "savoya",
+   "not": ""
+  }
+ },
+ {
+  "id": "aversa-kontlugu",
+  "ad": "Aversa Kontluğu",
+  "tur": "kontluk",
+  "bolge": "italya",
+  "f": "1030-01-01",
+  "t": "1062-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Aversa",
+  "etkin_bolge": "Campania",
+  "sehirler": [
+   "Aversa"
+  ],
+  "ozet": "Rainulf Drengot'un Napoli dükü Sergius IV'ten aldığı kontluk; Richard 1058-62'de Capua'yı alıp prens oldu.",
+  "oncul": [],
+  "ardil": [
+   "capua-prensligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Matthew, The Norman Kingdom of Sicily (1992); Loud, The Age of Robert Guiscard (2000)",
+   "ADAY (okunmadi): Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Aversa 1030; Capua prensliği 1058/1062.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "apulya-kontlugu-melfi",
+  "ad": "Apulya Kontluğu (Melfi)",
+  "tur": "kontluk",
+  "bolge": "italya",
+  "f": "1042-09-01",
+  "t": "1059-08-01",
+  "kesinlik": {
+   "f": "ay",
+   "t": "ay"
+  },
+  "baskent": "Melfi",
+  "etkin_bolge": "Apulya, Basilicata",
+  "sehirler": [
+   "Melfi",
+   "Venosa"
+  ],
+  "ozet": "Demir Kol Guillaume'un Melfi'de kont seçilmesi (1042); Robert Guiscard 1059'da dük oldu.",
+  "oncul": [
+   "bizans-katepanlik-italya"
+  ],
+  "ardil": [
+   "apulya-dukaligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Matthew, The Norman Kingdom of Sicily (1992); Loud, The Age of Robert Guiscard (2000)",
+   "ADAY (okunmadi): Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler ay düzeyinde, gün yok.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "apulya-dukaligi-norman",
+  "ad": "Apulya ve Kalabria Dükalığı",
+  "tur": "dukalik",
+  "bolge": "italya",
+  "f": "1059-08-01",
+  "t": "1128-01-01",
+  "kesinlik": {
+   "f": "ay",
+   "t": "yil"
+  },
+  "baskent": "Melfi → Salerno",
+  "etkin_bolge": "Güney İtalya",
+  "sehirler": [
+   "Salerno",
+   "Bari",
+   "Melfi"
+  ],
+  "ozet": "Papa II. Nicolaus'un Melfi'de Guiscard'ı dük tanıması (1059); Guillaume II ölümü ve II. Roger'in alışı (1127-1128).",
+  "oncul": [
+   "apulya-kontlugu-melfi"
+  ],
+  "ardil": [
+   "sicilya-kralligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Matthew, The Norman Kingdom of Sicily (1992); Loud, The Age of Robert Guiscard (2000)",
+   "ADAY (okunmadi): Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas uyumlu.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "apulya-dukaligi",
+   "not": ""
+  }
+ },
+ {
+  "id": "sicilya-kralligi-norman",
+  "ad": "Sicilya Krallığı (Norman, Hohenstaufen)",
+  "tur": "krallik",
+  "bolge": "italya",
+  "f": "1130-12-25",
+  "t": "1282-03-30",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Palermo",
+  "etkin_bolge": "Sicilya, güney İtalya",
+  "sehirler": [
+   "Palermo",
+   "Napoli",
+   "Bari"
+  ],
+  "ozet": "II. Roger'in 25 Aralık 1130 taç giymesi; Hohenstaufen 1194-1266; Anjou 1266; 1282 Sicilya Akşam Duası ile ada Aragon'a geçti.",
+  "oncul": [
+   "apulya-dukaligi-norman"
+  ],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY (okunmadi): Matthew, The Norman Kingdom of Sicily (1992); Loud, The Age of Robert Guiscard (2000)",
+   "ADAY (okunmadi): Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas f=1072 (Roger I Palermo) – Kontluk 1071/72-1130; Krallık 1130. Napoli Krallığı anakarada 1282 sonrası sürer.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "sicilya-kralligi",
+   "not": ""
+  }
+ },
+ {
+  "id": "sardinya-cagliari",
+  "ad": "Cagliari (Kalaris) Judikatı",
+  "tur": "judikat",
+  "bolge": "italya",
+  "f": "1000-01-01",
+  "t": "1258-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Santa Igia (Cagliari)",
+  "etkin_bolge": "Sardinya güney",
+  "sehirler": [
+   "Santa Igia"
+  ],
+  "ozet": "Bizans Sardinya'sının yerel 'iudex' idaresine dönüşen dört judikattan biri; Pisa-Cenova savaşları sonunda yıkıldı.",
+  "oncul": [],
+  "ardil": [
+   "piza-tarih"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç 9.-11. yy; tarih belirsiz (yuzyil).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sardinya-torres",
+  "ad": "Torres (Logudoro) Judikatı",
+  "tur": "judikat",
+  "bolge": "italya",
+  "f": "1000-01-01",
+  "t": "1259-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Porto Torres → Ardara",
+  "etkin_bolge": "Sardinya kuzey",
+  "sehirler": [
+   "Ardara"
+  ],
+  "ozet": "Sardinya judikatlarından biri; Adelasia'nın ölümü (1259) ile Cenova Doria'larına geçti.",
+  "oncul": [],
+  "ardil": [
+   "cenova-tarih"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sardinya-gallura",
+  "ad": "Gallura Judikatı",
+  "tur": "judikat",
+  "bolge": "italya",
+  "f": "1000-01-01",
+  "t": "1288-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Civita (Olbia)",
+  "etkin_bolge": "Sardinya kuzeydoğu",
+  "sehirler": [
+   "Civita"
+  ],
+  "ozet": "Pisa etkili judikat; Nino Visconti 1288'de Gallura'dan kovuldu.",
+  "oncul": [],
+  "ardil": [
+   "piza-tarih"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Son judika Giovanna 1308/1322; 1288 bir sınır tarihtir; belirsiz.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "arborea-tarih",
+  "ad": "Arborea Judikatı",
+  "tur": "judikat",
+  "bolge": "italya",
+  "f": "1000-01-01",
+  "t": "1420-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Oristano",
+  "etkin_bolge": "Sardinya batı",
+  "sehirler": [
+   "Oristano"
+  ],
+  "ozet": "Judikatlar arasında en uzun ömürlüsü; Eleonora d'Arborea; Aragon yenilgisi 1409-1420.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas 1070-1410; kaynak değişken.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "arborea",
+   "not": ""
+  }
+ },
+ {
+  "id": "lombard-birligi",
+  "ad": "Lombard Birliği (Lega Lombarda)",
+  "tur": "konfederasyon",
+  "bolge": "italya",
+  "f": "1167-04-07",
+  "t": "1250-12-13",
+  "kesinlik": {
+   "f": "gun",
+   "t": "ay"
+  },
+  "baskent": "yok (Pontida, Cremona kurucu toplantılar)",
+  "etkin_bolge": "Kuzey İtalya",
+  "sehirler": [
+   "Milano",
+   "Brescia",
+   "Bergamo",
+   "Mantova",
+   "Bologna"
+  ],
+  "ozet": "Hohenstaufen Friedrich I'e karşı Lombardiya komünlerinin ittifakı; Konstanz Barışı 1183; II. Friedrich'in ölümüne (1250) dek.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "1167 Mart/Nisan Cremona-Pontida; 1226 yenilenme. Bitiş açık (1250 Friedrich II ölümü).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "roma-komunu",
+  "ad": "Roma Komünü ve Senatosu",
+  "tur": "komun",
+  "bolge": "italya",
+  "f": "1143-01-01",
+  "t": "1188-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Roma (Capitolium)",
+  "etkin_bolge": "Roma",
+  "sehirler": [
+   "Roma"
+  ],
+  "ozet": "Papa'ya karşı Roma halkının kurduğu komün (Arnaldo da Brescia); Clemens III antlaşması 1188.",
+  "oncul": [],
+  "ardil": [
+   "papalik-devleti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Papalık Devleti içinde; ayrı polity sayılması tartışmalı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bologna-komunu",
+  "ad": "Bologna Komünü",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "1116-01-01",
+  "t": "1506-11-11",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Bologna",
+  "etkin_bolge": "Emilia",
+  "sehirler": [
+   "Bologna"
+  ],
+  "ozet": "Kanosa sonrası komün; üniversite şehri; Papalık hâkimiyetinden 1506'da Bentivoglio kaldırıldı (Papa II. Julius).",
+  "oncul": [
+   "kanosa-hanedani"
+  ],
+  "ardil": [
+   "papalik-devleti"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Komün resmî doğuşu 1115/1116; aralarda signoria (Bentivoglio 1401-1506) aynı polity sayıldı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "padova-komunu",
+  "ad": "Padova Komünü",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "1138-01-01",
+  "t": "1318-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Padova",
+  "etkin_bolge": "Veneto",
+  "sehirler": [
+   "Padova"
+  ],
+  "ozet": "İlk konsüller 1138 civarı; Ezzelino ve Carrara signoria'sı 1318.",
+  "oncul": [],
+  "ardil": [
+   "verona-scaliger"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "verona-komunu",
+  "ad": "Verona Komünü",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "1136-01-01",
+  "t": "1259-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Verona",
+  "etkin_bolge": "Veneto",
+  "sehirler": [
+   "Verona"
+  ],
+  "ozet": "Komün 12. yy; Ezzelino 1236; Scaligeri 1259/1262.",
+  "oncul": [],
+  "ardil": [
+   "verona-scaliger"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ezzelino-signoria",
+  "ad": "Ezzelino da Romano Signoria'sı",
+  "tur": "signoria",
+  "bolge": "italya",
+  "f": "1236-01-01",
+  "t": "1259-09-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Verona / Padova",
+  "etkin_bolge": "Marca Trevigiana",
+  "sehirler": [
+   "Verona",
+   "Padova",
+   "Vicenza"
+  ],
+  "ozet": "II. Friedrich'in Gibelin komutanı Ezzelino III'ün Veneto komünlerini kontrol altına alması; Eylül 1259'da ölümü.",
+  "oncul": [
+   "verona-komunu",
+   "padova-komunu"
+  ],
+  "ardil": [
+   "verona-scaliger"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Gün belirsiz: Eylül 1259, ay düzeyi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ancona-cumhuriyeti",
+  "ad": "Ancona Cumhuriyeti",
+  "tur": "cumhuriyet",
+  "bolge": "italya",
+  "f": "1100-01-01",
+  "t": "1532-09-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "ay"
+  },
+  "baskent": "Ancona",
+  "etkin_bolge": "Marche",
+  "sehirler": [
+   "Ancona"
+  ],
+  "ozet": "Denizci cumhuriyet; Papa VII. Clemens 1532'de ilhak.",
+  "oncul": [],
+  "ardil": [
+   "papalik-devleti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç yaklaşık; bitiş Eylül 1532.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "pavia-komunu",
+  "ad": "Pavia Komünü",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "1100-01-01",
+  "t": "1359-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Pavia",
+  "etkin_bolge": "Lombardiya",
+  "sehirler": [
+   "Pavia"
+  ],
+  "ozet": "Lombard başkentinin komün dönemi; Visconti ilhakı (1359).",
+  "oncul": [
+   "karolenj-italya"
+  ],
+  "ardil": [
+   "milano-dukaligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "cremona-komunu",
+  "ad": "Cremona Komünü",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "1098-01-01",
+  "t": "1334-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Cremona",
+  "etkin_bolge": "Lombardiya",
+  "sehirler": [
+   "Cremona"
+  ],
+  "ozet": "Komün 1098 civarı; Visconti ilhakı 1334.",
+  "oncul": [],
+  "ardil": [
+   "milano-dukaligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "parma-komunu",
+  "ad": "Parma Komünü",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "1100-01-01",
+  "t": "1335-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Parma",
+  "etkin_bolge": "Emilia",
+  "sehirler": [
+   "Parma"
+  ],
+  "ozet": "Komün; Rossi/Scaligeri/Visconti signoria'ları (1300'ler).",
+  "oncul": [],
+  "ardil": [
+   "milano-dukaligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "piacenza-komunu",
+  "ad": "Piacenza Komünü",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "1126-01-01",
+  "t": "1313-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Piacenza",
+  "etkin_bolge": "Emilia",
+  "sehirler": [
+   "Piacenza"
+  ],
+  "ozet": "Lombard Birliği kurucusu komün; Visconti signoria'sı.",
+  "oncul": [],
+  "ardil": [
+   "milano-dukaligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "modena-komunu",
+  "ad": "Modena Komünü",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "1135-01-01",
+  "t": "1288-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Modena",
+  "etkin_bolge": "Emilia",
+  "sehirler": [
+   "Modena"
+  ],
+  "ozet": "Komün; Este signoria'sı 1288.",
+  "oncul": [
+   "kanosa-hanedani"
+  ],
+  "ardil": [
+   "ferrara"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "perugia-komunu",
+  "ad": "Perugia Komünü",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "1139-01-01",
+  "t": "1540-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Perugia",
+  "etkin_bolge": "Umbria",
+  "sehirler": [
+   "Perugia"
+  ],
+  "ozet": "Komün; Papalık ilhakı 1540 (Tuz Savaşı).",
+  "oncul": [],
+  "ardil": [
+   "papalik-devleti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "asti-komunu",
+  "ad": "Asti Komünü",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "1095-01-01",
+  "t": "1387-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Asti",
+  "etkin_bolge": "Piemonte",
+  "sehirler": [
+   "Asti"
+  ],
+  "ozet": "Bankacı komün; Visconti/Orléans.",
+  "oncul": [],
+  "ardil": [
+   "milano-dukaligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "vercelli-komunu",
+  "ad": "Vercelli Komünü",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "1141-01-01",
+  "t": "1335-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Vercelli",
+  "etkin_bolge": "Piemonte",
+  "sehirler": [
+   "Vercelli"
+  ],
+  "ozet": "Komün; Visconti signoria'sı.",
+  "oncul": [],
+  "ardil": [
+   "milano-dukaligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "alessandria-komunu",
+  "ad": "Alessandria Komünü",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "1168-01-01",
+  "t": "1347-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Alessandria",
+  "etkin_bolge": "Piemonte",
+  "sehirler": [
+   "Alessandria"
+  ],
+  "ozet": "Lombard Birliği tarafından Friedrich'e karşı 1168'de kurulan komün; Visconti.",
+  "oncul": [
+   "lombard-birligi"
+  ],
+  "ardil": [
+   "milano-dukaligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş 1168 (belgeli).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "milano-komunu",
+  "ad": "Milano Komünü",
+  "tur": "sehir-devleti",
+  "bolge": "italya",
+  "f": "1097-01-01",
+  "t": "1277-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Milano",
+  "etkin_bolge": "Lombardiya",
+  "sehirler": [
+   "Milano"
+  ],
+  "ozet": "Başpiskopos Anselmo konsül komün; 1277'de Visconti.",
+  "oncul": [],
+  "ardil": [
+   "visconti-signoria"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas milano-dukaligi f=1097 (komün) – dük 1395; ayır.",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "milano-dukaligi",
+   "not": ""
+  }
+ },
+ {
+  "id": "visconti-signoria",
+  "ad": "Visconti Signoria'sı (Milano)",
+  "tur": "signoria",
+  "bolge": "italya",
+  "f": "1277-01-01",
+  "t": "1395-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Milano",
+  "etkin_bolge": "Lombardiya",
+  "sehirler": [
+   "Milano",
+   "Pavia"
+  ],
+  "ozet": "Ottone Visconti 1277'de Milano'yu aldı; 1395'te Gian Galeazzo dük oldu.",
+  "oncul": [
+   "milano-komunu"
+  ],
+  "ardil": [
+   "milano-dukaligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Ayrıntı: Desio savaşı Ocak 1277; 1395 Wenzel diploması.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "floransa-tarih",
+  "ad": "Floransa Cumhuriyeti",
+  "tur": "cumhuriyet",
+  "bolge": "italya",
+  "f": "1115-01-01",
+  "t": "1532-05-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Floransa",
+  "etkin_bolge": "Toskana",
+  "sehirler": [
+   "Floransa"
+  ],
+  "ozet": "Matilda ölümünden sonra komün; Medici; 1532'de dukalık.",
+  "oncul": [
+   "kanosa-hanedani"
+  ],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas uyumlu.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "floransa",
+   "not": ""
+  }
+ },
+ {
+  "id": "brixen-piskoposlugu",
+  "ad": "Brixen (Bressanone) Prens-Piskoposluğu",
+  "tur": "kilise-devleti",
+  "bolge": "italya",
+  "f": "1027-01-01",
+  "t": "1803-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Brixen",
+  "etkin_bolge": "Güney Tirol",
+  "sehirler": [
+   "Brixen"
+  ],
+  "ozet": "II. Konrad 1027'de piskoposa kontluk hakları verdi; 1803 sekülarizasyonu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
+   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bolge: italya/orta-avrupa sınır.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

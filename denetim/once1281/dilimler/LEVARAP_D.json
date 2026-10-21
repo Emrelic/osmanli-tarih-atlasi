@@ -1,0 +1,104 @@
+[
+ {
+  "id": "habes-yemen",
+  "ad": "Habes Yemen (Abraha) Krallıgi",
+  "ad_yerel": null,
+  "tur": "krallik",
+  "bolge": "arabistan",
+  "f": "0525-01-01",
+  "t": "0575-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sana",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Sana",
+   "Marib"
+  ],
+  "ozet": "Aksum seferiyle (Zu Nuvas'in yenilisi, ~525) Himyar topragi Habes hakimiyetine girdi; Abraha fiilen bagimsiz hukumdar oldu; Sasani seferiyle (~575) bitti.",
+  "oncul": [
+   "himyar"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Fil Olayi tarihi (~570) ayri; baslangic ve bitis okullara gore 3-5 yil oynar.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tulunoglu",
+  "ad": "Tulunoglulari (Misir-Suriye)",
+  "ad_yerel": null,
+  "tur": "hanedanlik",
+  "bolge": "misir-sudan",
+  "f": "0868-01-01",
+  "t": "0905-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Fustat → el-Katai",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Fustat",
+   "Dimask",
+   "Halep"
+  ],
+  "ozet": "Ahmed b. Tulun 868'de Misir valiligini bagimsizlastirdi, 878'de Suriye'yi aldi; Muktefi 905te geri aldi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bolge misir-sudan; Suriye'yi kapsadigi icin yazildi; Misir ajanıyla MUKERRER olabilir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "cerrahi",
+  "ad": "Cerrahiler (Tay, Ramle Emirligi)",
+  "ad_yerel": null,
+  "tur": "emirlik",
+  "bolge": "suriye-filistin",
+  "f": "0980-01-01",
+  "t": "1029-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Remle",
+  "etkin_bolge": null,
+  "sehirler": [
+   "Remle",
+   "Aqaba"
+  ],
+  "ozet": "Tay kabilesinden Mufarrij b. Dagfel Filistin'de Fatimi'ye karsi yari bagimsiz idare; 1029 Uqhuwana Savasi ile zayifladi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi, dogrulanmadi): Cambridge Ancient History / Brill New Pauly / TDV Islam Ansiklopedisi ilgili maddesi; bu oturumda web sayfasi acilmadi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Fatimi vali veya tabi emir mi tartismali; taslak.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

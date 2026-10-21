@@ -1,0 +1,37 @@
+[
+ {
+  "id": "van-lang",
+  "ad": "Van Lang (Hong Bang / Hung Krallari)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "-0695-01-01",
+  "t": "-0256-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Phong Chau (Viet Tri yoresi)",
+  "etkin_bolge": "Kizil Nehir deltasi ve ust havzasi (Kuzey Vietnam)",
+  "sehirler": [
+   "Phong Chau",
+   "Co Loa (sonraki)"
+  ],
+  "ozet": "Vietnam geleneginde Hung krallarinin Dong Son kulturu cevresindeki devleti; Thuc Phan tarafindan Au Lac'a katilmasiyla sona erer.",
+  "oncul": [],
+  "ardil": [
+   "au-lac"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kronik (Dai Viet su ky toan thu) kurulus 2879 MO verir; modern arastirma tarihsel cekirdegi MO 7.-3. yy sayar, devlet niteligi tartismali. f=-0695 (MO 696) gelenekseldir. Dong Son kulturu (kultur) ayri.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Efsanevi/geleneksel; devlet olup olmadigi tartismali."
+  }
+ }
+]

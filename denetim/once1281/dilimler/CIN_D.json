@@ -1,0 +1,1770 @@
+[
+ {
+  "id": "liang-guney",
+  "ad": "Liang (Güney Hanedanı)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0502-01-01",
+  "t": "0557-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jiankang",
+  "etkin_bolge": "Güney Çin",
+  "sehirler": [
+   "Jiankang"
+  ],
+  "ozet": "Xiao Yan'ın kuruluşu; Chen Baxian'ın tahta geçmesi (557).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "liang-guney",
+   "not": ""
+  }
+ },
+ {
+  "id": "dogu-wei",
+  "ad": "Doğu Wei Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0534-01-01",
+  "t": "0550-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ye",
+  "etkin_bolge": "Kuzey Çin doğusu",
+  "sehirler": [
+   "Ye"
+  ],
+  "ozet": "Kuzey Wei'nin bölünmesi; Gao Yang'ın Kuzey Qi'yi kurması.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dogu-wei",
+   "not": ""
+  }
+ },
+ {
+  "id": "bati-wei",
+  "ad": "Batı Wei Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0535-01-01",
+  "t": "0557-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chang'an",
+  "etkin_bolge": "Kuzey Çin batısı",
+  "sehirler": [
+   "Chang'an"
+  ],
+  "ozet": "Yuwen Tai'nin Wei'yi sürdürmesi; Yuwen Jue'nin Kuzey Zhou'yu kurması.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "bati-wei",
+   "not": ""
+  }
+ },
+ {
+  "id": "kuzey-qi",
+  "ad": "Kuzey Qi Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0550-01-01",
+  "t": "0577-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ye",
+  "etkin_bolge": "Hebei, Shandong",
+  "sehirler": [
+   "Ye"
+  ],
+  "ozet": "Gao Yang'ın kuruluşu; Kuzey Zhou'nun fethi (577).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kuzey-qi",
+   "not": ""
+  }
+ },
+ {
+  "id": "chen",
+  "ad": "Chen Hanedanı",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0557-01-01",
+  "t": "0589-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jiankang",
+  "etkin_bolge": "Güney Çin",
+  "sehirler": [
+   "Jiankang"
+  ],
+  "ozet": "Chen Baxian'ın kuruluşu; Sui fethi (589).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "chen",
+   "not": ""
+  }
+ },
+ {
+  "id": "kuzey-zhou",
+  "ad": "Kuzey Zhou Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0557-01-01",
+  "t": "0581-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chang'an",
+  "etkin_bolge": "Kuzey Çin",
+  "sehirler": [
+   "Chang'an"
+  ],
+  "ozet": "Yuwen Jue'nin kuruluşu; Yang Jian'ın Sui'yi kurması (581).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kuzey-zhou",
+   "not": ""
+  }
+ },
+ {
+  "id": "hou-liang-xi-liang",
+  "ad": "Sonraki Liang / Batı Liang (後梁, Xiao Liang)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0555-01-01",
+  "t": "0587-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jiangling",
+  "etkin_bolge": "Hubei orta kesimi",
+  "sehirler": [
+   "Jiangling"
+  ],
+  "ozet": "Xiao Cha'nın Kuzey Zhou himayesinde kurduğu Liang kalıntısı; Sui tarafından 587'de ilga edildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hou Liang olarak da anılır (Beş Hanedan 'Sonraki Liang'dan ayrı).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sui",
+  "ad": "Sui Hanedanı",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0581-01-01",
+  "t": "0618-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Daxing → Luoyang",
+  "etkin_bolge": "Çin",
+  "sehirler": [
+   "Daxing",
+   "Luoyang"
+  ],
+  "ozet": "Yang Jian'ın kuruluşu (581); Chen fethiyle 589'da birlik; 618'de çöküş.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sui",
+   "not": ""
+  }
+ },
+ {
+  "id": "tang",
+  "ad": "Tang Hanedanı",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0618-01-01",
+  "t": "0907-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chang'an",
+  "etkin_bolge": "Çin, Orta Asya protektoraları",
+  "sehirler": [
+   "Chang'an"
+  ],
+  "ozet": "Li Yuan'ın kuruluşu (618); Zhu Wen'in tahta geçmesi (907).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Wu Zhou arası 690-705.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "tang",
+   "not": ""
+  }
+ },
+ {
+  "id": "sui-zheng-wang-shichong",
+  "ad": "Zheng (Wang Shichong, 鄭)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0619-01-01",
+  "t": "0621-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Luoyang",
+  "etkin_bolge": "Sui sonu isyan devletleri",
+  "sehirler": [
+   "Luoyang"
+  ],
+  "ozet": "Wang Shichong'un 619'da kurduğu Zheng; Tang 621'de yıktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sui çöküşünde devletleşmiş isyan yönetimi; yıllar ±1 yıl kesinsizdir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok."
+  }
+ },
+ {
+  "id": "sui-xia-dou-jiande",
+  "ad": "Xia (Dou Jiande, 夏)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0617-01-01",
+  "t": "0621-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Leshou (Hebei)",
+  "etkin_bolge": "Sui sonu isyan devletleri",
+  "sehirler": [
+   "Leshou (Hebei)"
+  ],
+  "ozet": "Dou Jiande'nin 'Xia'sı (617-621); Hulao yenilgisi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sui çöküşünde devletleşmiş isyan yönetimi; yıllar ±1 yıl kesinsizdir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok."
+  }
+ },
+ {
+  "id": "sui-wei-li-mi",
+  "ad": "Wei (Li Mi, Wagang, 魏)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0617-01-01",
+  "t": "0618-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Wagang",
+  "etkin_bolge": "Sui sonu isyan devletleri",
+  "sehirler": [
+   "Wagang"
+  ],
+  "ozet": "Li Mi'nin Wagang ordusu devleti; Tang'a teslim.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sui çöküşünde devletleşmiş isyan yönetimi; yıllar ±1 yıl kesinsizdir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok."
+  }
+ },
+ {
+  "id": "sui-qin-xue-ju",
+  "ad": "Qin (Xue Ju, 秦)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0617-01-01",
+  "t": "0618-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jincheng (Lanzhou)",
+  "etkin_bolge": "Sui sonu isyan devletleri",
+  "sehirler": [
+   "Jincheng (Lanzhou)"
+  ],
+  "ozet": "Xue Ju'nun Gansu devleti; Tang yıktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sui çöküşünde devletleşmiş isyan yönetimi; yıllar ±1 yıl kesinsizdir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok."
+  }
+ },
+ {
+  "id": "sui-liang-xiao-xian",
+  "ad": "Liang (Xiao Xian, 梁)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0617-01-01",
+  "t": "0621-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jiangling",
+  "etkin_bolge": "Sui sonu isyan devletleri",
+  "sehirler": [
+   "Jiangling"
+  ],
+  "ozet": "Xiao Xian'ın Liang'ı; Tang yıktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sui çöküşünde devletleşmiş isyan yönetimi; yıllar ±1 yıl kesinsizdir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok."
+  }
+ },
+ {
+  "id": "sui-liang-liang-shidu",
+  "ad": "Liang (Liang Shidu, 梁)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0617-01-01",
+  "t": "0628-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Shuofang",
+  "etkin_bolge": "Sui sonu isyan devletleri",
+  "sehirler": [
+   "Shuofang"
+  ],
+  "ozet": "Doğu Türk himayesinde Liang Shidu; Tang yıktı 628.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sui çöküşünde devletleşmiş isyan yönetimi; yıllar ±1 yıl kesinsizdir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok."
+  }
+ },
+ {
+  "id": "tibet-imparatorlugu",
+  "ad": "Tibet İmparatorluğu (Tubo/Yarlung)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0629-01-01",
+  "t": "0842-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Lhasa",
+  "etkin_bolge": "Tibet platosu, Gansu, Tarim",
+  "sehirler": [
+   "Lhasa"
+  ],
+  "ozet": "Songtsen Gampo'nun kuruluşu; Langdarma'nın ölümü sonrası çöküş (842).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas'ta aynı polity için iki künye var: tibet-imparatorlugu ve tubo-tibet-imparatorlugu (mükerrer). Birleştirme önerisi.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "tibet-imparatorlugu",
+   "not": "MÜKERRER: tubo-tibet-imparatorlugu da var."
+  }
+ },
+ {
+  "id": "wu-zhou",
+  "ad": "Wu Zhou (Wu Zetian)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0690-01-01",
+  "t": "0705-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Luoyang",
+  "etkin_bolge": "Çin",
+  "sehirler": [
+   "Luoyang"
+  ],
+  "ozet": "Wu Zetian'ın 690'daki ilanı; 705'te Tang'ın restorasyonu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "wu-zhou",
+   "not": ""
+  }
+ },
+ {
+  "id": "balhae",
+  "ad": "Balhae (Bohai) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0698-01-01",
+  "t": "0926-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dongmozu → Sanggyeong",
+  "etkin_bolge": "Mançurya, Kuzey Kore, Primorye",
+  "sehirler": [
+   "Dongmozu",
+   "Sanggyeong"
+  ],
+  "ozet": "Dae Joyeong'un Zhen devletini kurması (698), 713'te Bohai adı; Khitan fethi 926.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kore oturumuyla çakışabilir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "balhae",
+   "not": ""
+  }
+ },
+ {
+  "id": "an-lushan-yan",
+  "ad": "Yan (An Lushan, 大燕)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0756-01-01",
+  "t": "0763-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Luoyang",
+  "etkin_bolge": "Hebei, Henan",
+  "sehirler": [
+   "Luoyang"
+  ],
+  "ozet": "An Lushan'ın 756'da Yan imparatorluğu ilan etmesi; Shi Chaoyi'nin ölümü (763).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tang içindeki isyan; devletleşmiş.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "nanzhao",
+  "ad": "Nanzhao Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0729-01-01",
+  "t": "0902-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Taihe → Dali",
+  "etkin_bolge": "Yunnan, Burma kuzeyi",
+  "sehirler": [
+   "Taihe",
+   "Dali"
+  ],
+  "ozet": "Piluoge'nin birliği; Zheng Maisi'nin 902'de devirmesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Backus: 738'de Tang tarafından tanındı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "nanzhao",
+   "not": ""
+  }
+ },
+ {
+  "id": "da-changhe",
+  "ad": "Da Changhe (大長和)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0902-01-01",
+  "t": "0928-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dali/Taihe",
+  "etkin_bolge": "Yunnan",
+  "sehirler": [
+   "Dali/Taihe"
+  ],
+  "ozet": "Zheng Maisi'nin Nanzhao'dan sonra kurduğu devlet.",
+  "oncul": [
+   "nanzhao"
+  ],
+  "ardil": [
+   "da-tianxing"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Nanzhao ardılı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "da-tianxing",
+  "ad": "Da Tianxing (大天興)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0928-01-01",
+  "t": "0929-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dali",
+  "etkin_bolge": "Yunnan",
+  "sehirler": [
+   "Dali"
+  ],
+  "ozet": "Zhao Shanzheng'in kısa ömürlü devleti.",
+  "oncul": [],
+  "ardil": [
+   "da-yining"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Süre çok kısa (1 yıl).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "da-yining",
+  "ad": "Da Yining (大義寧)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0929-01-01",
+  "t": "0937-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dali",
+  "etkin_bolge": "Yunnan",
+  "sehirler": [
+   "Dali"
+  ],
+  "ozet": "Yang Ganzhen'in devleti; Duan Siping'in Dali'si ile son.",
+  "oncul": [],
+  "ardil": [
+   "dali-kralligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Duan Siping 937'de.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "heiyue-purang",
+  "ad": "Pu-rang (Purang) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0930-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "onyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Purang (Burang)",
+  "etkin_bolge": "Batı Tibet (Mapam Yumtso çevresi)",
+  "sehirler": [
+   "Purang (Burang)"
+  ],
+  "ozet": "Tibet İmparatorluğu çöküşü sonrası Nyimagon soyundan Batı Tibet krallıkları (Purang, Guge, Maryul).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş ~10. yy. Bitiş yılı bilinmiyor. Bitiş yılı bilinmiyor (t=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Guge ile ilişkili; Atlas'ta Guge 1000'den."
+  }
+ },
+ {
+  "id": "xiazhou-dangxiang",
+  "ad": "Xiazhou Dangxiang Yönetimi (Dingnan jun)",
+  "tur": "emirlik",
+  "bolge": "dogu-asya",
+  "f": "0881-01-01",
+  "t": "1038-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Xiazhou (Yulin)",
+  "etkin_bolge": "Ordos güneyi",
+  "sehirler": [
+   "Xiazhou (Yulin)"
+  ],
+  "ozet": "Tuoba Sigong'un Tang'dan Xiazhou jiedushi unvanı; Li Yuanhao'nun 1038'de Batı Xia'yı kurması.",
+  "oncul": [],
+  "ardil": [
+   "bati-xia"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sigong 881; Tuoba Li soyadı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ganzhou-uygur",
+  "ad": "Ganzhou Uygur Krallığı (Hexi)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0894-01-01",
+  "t": "1036-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ganzhou (Zhangye)",
+  "etkin_bolge": "Hexi koridoru",
+  "sehirler": [
+   "Ganzhou (Zhangye)"
+  ],
+  "ozet": "Batı Uygur ve Hexi Uygur kalıntısı; Tangut tarafından 1028-1036'da yutuldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "orta-asya oturumuyla çakışabilir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "guiyi-jun-dunhuang",
+  "ad": "Guiyi Jun (Dunhuang/Shazhou)",
+  "tur": "prenslik",
+  "bolge": "dogu-asya",
+  "f": "0848-01-01",
+  "t": "1036-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Shazhou",
+  "etkin_bolge": "Dunhuang",
+  "sehirler": [
+   "Shazhou"
+  ],
+  "ozet": "Zhang Yichao'nun Tibet'ten kurtarışı; Tangut ilhakı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "guiyi-jun-dunhuang",
+   "not": ""
+  }
+ },
+ {
+  "id": "tang-jin-shatuo-prensligi",
+  "ad": "Jin (Li Keyong, Shatuo prensliği)",
+  "tur": "prenslik",
+  "bolge": "dogu-asya",
+  "f": "0902-01-01",
+  "t": "0923-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Taiyuan (Jinyang)",
+  "etkin_bolge": "Shanxi",
+  "sehirler": [
+   "Taiyuan (Jinyang)"
+  ],
+  "ozet": "Tang'ın Li Keyong'u Jin Prensi yapması; Sonraki Tang'ın kuruluşu.",
+  "oncul": [],
+  "ardil": [
+   "sonraki-tang-5hanedan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Li Keyong: Jin Wang 902; 908 öldü; Li Cunxu Sonraki Tang'ı 923'te kurdu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "qi-li-maozhen",
+  "ad": "Qi (Li Maozhen, 岐)",
+  "tur": "prenslik",
+  "bolge": "dogu-asya",
+  "f": "0901-01-01",
+  "t": "0924-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Fengxiang",
+  "etkin_bolge": "Shaanxi batısı",
+  "sehirler": [
+   "Fengxiang"
+  ],
+  "ozet": "Fengxiang jiedushi Li Maozhen'in Qi Prensi olarak sürdürdüğü devlet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sonraki Tang'a 924'te.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "zhao-wang-rong",
+  "ad": "Zhao (Wang Rong, 趙)",
+  "tur": "prenslik",
+  "bolge": "dogu-asya",
+  "f": "0907-01-01",
+  "t": "0921-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Zhenzhou",
+  "etkin_bolge": "Hebei",
+  "sehirler": [
+   "Zhenzhou"
+  ],
+  "ozet": "Wang Rong'un Zhao Prensliği; Zhang Wenli darbesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Zayıf: Tang'a bağlı prenslik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "yan-liu-shouguang",
+  "ad": "Yan (Liu Shouguang, 燕)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0911-01-01",
+  "t": "0913-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Youzhou",
+  "etkin_bolge": "Hebei kuzeyi",
+  "sehirler": [
+   "Youzhou"
+  ],
+  "ozet": "Liu Shouguang'ın kendini imparator ilan etmesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kısa; Sonraki Tang yıktı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-liang-5hanedan",
+  "ad": "Sonraki Liang (Beş Hanedan)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0907-01-01",
+  "t": "0923-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kaifeng/Luoyang",
+  "etkin_bolge": "Kuzey Çin ovası",
+  "sehirler": [
+   "Kaifeng/Luoyang"
+  ],
+  "ozet": "Zhu Wen tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sonraki-liang-5hanedan",
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-tang-5hanedan",
+  "ad": "Sonraki Tang (Beş Hanedan)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0923-01-01",
+  "t": "0936-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kaifeng/Luoyang",
+  "etkin_bolge": "Kuzey Çin ovası",
+  "sehirler": [
+   "Kaifeng/Luoyang"
+  ],
+  "ozet": "Li Cunxu tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sonraki-tang-5hanedan",
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-jin-5hanedan",
+  "ad": "Sonraki Jin (Beş Hanedan)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0936-01-01",
+  "t": "0947-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kaifeng/Luoyang",
+  "etkin_bolge": "Kuzey Çin ovası",
+  "sehirler": [
+   "Kaifeng/Luoyang"
+  ],
+  "ozet": "Shi Jingtang tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sonraki-jin-5hanedan",
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-han-5hanedan",
+  "ad": "Sonraki Han (Beş Hanedan)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0947-01-01",
+  "t": "0951-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kaifeng/Luoyang",
+  "etkin_bolge": "Kuzey Çin ovası",
+  "sehirler": [
+   "Kaifeng/Luoyang"
+  ],
+  "ozet": "Liu Zhiyuan tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sonraki-han-5hanedan",
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-zhou-5hanedan",
+  "ad": "Sonraki Zhou (Beş Hanedan)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0951-01-01",
+  "t": "0960-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kaifeng/Luoyang",
+  "etkin_bolge": "Kuzey Çin ovası",
+  "sehirler": [
+   "Kaifeng/Luoyang"
+  ],
+  "ozet": "Guo Wei tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sonraki-zhou-5hanedan",
+   "not": ""
+  }
+ },
+ {
+  "id": "yang-wu",
+  "ad": "Wu (Yang Wu) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0902-01-01",
+  "t": "0937-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Yang Xingmi tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "yang-wu",
+   "not": ""
+  }
+ },
+ {
+  "id": "wuyue",
+  "ad": "Wuyue Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0907-01-01",
+  "t": "0978-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Qian Liu tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas'taki künye ile uyumlu; bazı krallıklarda jiedushi dönemi öncesi f farkı olabilir (Ma Chu 907/927, Wuyue 893/907, Nan Ping 907/924).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "wuyue",
+   "not": ""
+  }
+ },
+ {
+  "id": "min-krallik",
+  "ad": "Min Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0909-01-01",
+  "t": "0945-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Wang Shenzhi tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "min-krallik",
+   "not": ""
+  }
+ },
+ {
+  "id": "chu-ma",
+  "ad": "Chu (Ma Chu) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0927-01-01",
+  "t": "0951-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Ma Yin tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas'taki künye ile uyumlu; bazı krallıklarda jiedushi dönemi öncesi f farkı olabilir (Ma Chu 907/927, Wuyue 893/907, Nan Ping 907/924).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "chu-ma",
+   "not": ""
+  }
+ },
+ {
+  "id": "guney-han-10krallik",
+  "ad": "Güney Han (Nan Han) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0917-01-01",
+  "t": "0971-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Liu Yan tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "guney-han-10krallik",
+   "not": ""
+  }
+ },
+ {
+  "id": "nan-ping-jingnan",
+  "ad": "Nan Ping (Jingnan) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0924-01-01",
+  "t": "0963-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Gao Jixing tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas'taki künye ile uyumlu; bazı krallıklarda jiedushi dönemi öncesi f farkı olabilir (Ma Chu 907/927, Wuyue 893/907, Nan Ping 907/924).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "nan-ping-jingnan",
+   "not": ""
+  }
+ },
+ {
+  "id": "onceki-shu",
+  "ad": "Önceki Shu (Qian Shu) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0907-01-01",
+  "t": "0925-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Wang Jian tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "onceki-shu",
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-shu",
+  "ad": "Sonraki Shu (Hou Shu) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0934-01-01",
+  "t": "0965-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Meng Zhixiang tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sonraki-shu",
+   "not": ""
+  }
+ },
+ {
+  "id": "guney-tang",
+  "ad": "Güney Tang (Nan Tang) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0937-01-01",
+  "t": "0975-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Li Bian tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "guney-tang",
+   "not": ""
+  }
+ },
+ {
+  "id": "kuzey-han-10krallik",
+  "ad": "Kuzey Han (Bei Han) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0951-01-01",
+  "t": "0979-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "-",
+  "etkin_bolge": "On Krallık (Güney/Batı Çin)",
+  "sehirler": [
+   "-"
+  ],
+  "ozet": "Liu Min tarafından kuruldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kuzey-han-10krallik",
+   "not": ""
+  }
+ },
+ {
+  "id": "liao-hanedani",
+  "ad": "Liao Hanedanı (Kitan / Hıtay)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0916-01-01",
+  "t": "1125-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Shangjing",
+  "etkin_bolge": "Mançurya, Moğolistan, Kuzey Çin",
+  "sehirler": [
+   "Shangjing"
+  ],
+  "ozet": "Abaoji'nin 916'da imparator ilanı; Jin'in 1125'te yıkışı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "947'de 'Da Liao' adı; Abaoji 907 han.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "liao-hanedani",
+   "not": ""
+  }
+ },
+ {
+  "id": "dongdan",
+  "ad": "Dongdan (Doğu Dan) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0926-01-01",
+  "t": "0936-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Fuyu (Sanggyeong)",
+  "etkin_bolge": "Eski Balhae toprakları",
+  "sehirler": [
+   "Fuyu (Sanggyeong)"
+  ],
+  "ozet": "Liao'nun Balhae'yi aldıktan sonra kurduğu yarı bağımsız vasal krallık.",
+  "oncul": [
+   "balhae"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Merkez 929'da Dongping'e taşındı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dingan-guo",
+  "ad": "Dingan Devleti (Jeongan)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0938-01-01",
+  "t": "0986-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Fuyu?",
+  "etkin_bolge": "Eski Balhae toprağı",
+  "sehirler": [
+   "Fuyu?"
+  ],
+  "ozet": "Balhae kalıntılarının kurduğu devlet; Liao ve Jurchen baskısı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Çok zayıf; tarihler belirsiz.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "song",
+  "ad": "Song Hanedanı (Kuzey ve Güney Song)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0960-01-01",
+  "t": "1279-03-19",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Bianjing → Lin'an",
+  "etkin_bolge": "Çin",
+  "sehirler": [
+   "Bianjing",
+   "Lin'an"
+  ],
+  "ozet": "Zhao Kuangyin'in 960'taki kuruluşu; 1127'de Güney Song; 1279'da Yamen.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett (ed.), The Cambridge History of China vol.3 Sui and T'ang (CUP 1979)",
+   "Sima Guang, Zizhi tongjian (1084)",
+   "Beckwith, The Tibetan Empire in Central Asia (Princeton UP 1987)",
+   "Backus, The Nan-chao Kingdom and T'ang China's Southwestern Frontier (CUP 1981)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuzey Song 960-1127, Güney Song 1127-1279 (aynı hanedan tek kayıt).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "song",
+   "not": ""
+  }
+ }
+]

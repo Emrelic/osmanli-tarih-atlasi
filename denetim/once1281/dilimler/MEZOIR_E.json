@@ -1,0 +1,147 @@
+[
+ {
+  "id": "nasri-sistan",
+  "ad": "Sistan Nasrîleri / Hâlefîler",
+  "tur": "hanedanlik",
+  "bolge": "iran",
+  "f": "1029-01-01",
+  "t": "1225-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Zerenc",
+  "etkin_bolge": "Sistan",
+  "sehirler": [
+   "Zerenc"
+  ],
+  "ozet": "Saffari mirasi Sistan emirligi; Gaznelilere vasal.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sureler kaynaklara gore degisir. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "hurmuz",
+  "ad": "Hürmüz Krallığı",
+  "tur": "krallik",
+  "bolge": "iran",
+  "f": "1100-01-01",
+  "t": "1623-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Hürmüz",
+  "etkin_bolge": "Basra korfezi",
+  "sehirler": [
+   "Hürmüz"
+  ],
+  "ozet": "Selçuklu sonrasi Kirman valileri doneminde baslayan kralik.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Baslangic cok belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "sebankare",
+  "ad": "Şebânkâreler",
+  "tur": "emirlik",
+  "bolge": "iran",
+  "f": "1060-01-01",
+  "t": "1355-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Îc",
+  "etkin_bolge": "Fars",
+  "sehirler": [
+   "Îc"
+  ],
+  "ozet": "Kurt asil Fars emirligi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sureler degisir. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "ardalan",
+  "ad": "Erdelân Emirliği",
+  "tur": "emirlik",
+  "bolge": "iran",
+  "f": "1169-01-01",
+  "t": "1867-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sinendec",
+  "etkin_bolge": "Iran Kurdistani",
+  "sehirler": [
+   "Sinendec"
+  ],
+  "ozet": "Kurt emirligi (Ardalan).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Baslangic 1169 veya 14.yy olabilir. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "kays",
+  "ad": "Kays (Kis) Emirliği",
+  "tur": "emirlik",
+  "bolge": "iran",
+  "f": "1135-01-01",
+  "t": "1229-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kays adasi",
+  "etkin_bolge": "Basra korfezi",
+  "sehirler": [
+   "Kays"
+  ],
+  "ozet": "Basra korfezi ticaret emirligi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ }
+]

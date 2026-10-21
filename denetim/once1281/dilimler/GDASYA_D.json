@@ -1,0 +1,1105 @@
+[
+ {
+  "id": "triyu-viet-vuong",
+  "ad": "Trieu Viet Vuong (Da Trach)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0549-01-01",
+  "t": "0571-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Wu Ning / Da Trach",
+  "etkin_bolge": "Kizil Nehir deltasi",
+  "sehirler": [
+   "Da Trach"
+  ],
+  "ozet": "Van Xuan'in Lý Nam De donemi sonrasi Trieu Quang Phuc'un Da Trach'tan yonettigi devlet.",
+  "oncul": [
+   "van-xuan"
+  ],
+  "ardil": [
+   "van-xuan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Van Xuan mevcut kaydi (544-603) bu donemi kapsar; iki ayri yönetim: Trieu Viet Vuong 549-571 ve Hau Ly Nam De. Genisletme/ayri kayit karari ana oturumda.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "van-xuan",
+   "not": ""
+  }
+ },
+ {
+  "id": "linyi-champa-kol-panduranga",
+  "ad": "Panduranga (Champa kolu)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0750-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Panduranga (Phan Rang)",
+  "etkin_bolge": "Guney Champa (Phan Rang)",
+  "sehirler": [
+   "Phan Rang"
+  ],
+  "ozet": "Champa'nin guney kolu; 8. yy'dan ayri idare, 1000 sonrasi Panduranga merkezli Champa.",
+  "oncul": [],
+  "ardil": [
+   "campa"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Champa 'kollari' (Indrapura, Amaravati, Vijaya, Kauthara, Panduranga) tek polity mi ayri mi tartismali; ayri kayit onerisi zayif.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "linyi-champa",
+   "not": ""
+  }
+ },
+ {
+  "id": "kauthara",
+  "ad": "Kauthara (Champa kolu)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0750-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kauthara (Nha Trang)",
+  "etkin_bolge": "Orta Champa (Nha Trang-Cam Ranh)",
+  "sehirler": [
+   "Nha Trang"
+  ],
+  "ozet": "Champa'nin Nha Trang kolu; 774 Java akinlari bu kiyiya olmustur.",
+  "oncul": [],
+  "ardil": [
+   "campa"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bkz. Panduranga notu.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "linyi-champa",
+   "not": ""
+  }
+ },
+ {
+  "id": "kalingga-holing",
+  "ad": "Kalingga (Holing)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0640-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "onyil",
+   "t": null
+  },
+  "baskent": "bilinmiyor (Cepara-Pekalongan yoresi)",
+  "etkin_bolge": "Orta Cava kuzey kiyisi",
+  "sehirler": [
+   "Keling"
+  ],
+  "ozet": "Cin kaynaklarinda Holing (Heling), Kralice Sima (674); 7. yy Orta Cava krallıgi.",
+  "oncul": [],
+  "ardil": [
+   "medang"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarih ilk Cin elcisi 640'tan; bitis bilinmiyor (yil bilinmiyor); Medang ile iliskisi tartismali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "galuh",
+  "ad": "Galuh Krallıgi",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0670-01-01",
+  "t": "1482-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Galuh (Kawali / Ciamis)",
+  "etkin_bolge": "Dogu Sunda (Cihaur-Citanduy)",
+  "sehirler": [
+   "Kawali",
+   "Galuh"
+  ],
+  "ozet": "Tarumanagara'nin 669 bolunmesiyle Sunda'nin yaninda Galuh; Wangsakerta geleneginde 612.",
+  "oncul": [
+   "tarumanagara"
+  ],
+  "ardil": [
+   "sunda-pajajaran"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Wangsakerta (supheli) 612 verir; 670 bolunme yili+1; 723'te Sunda-Galuh birligi gelenegi. Sunda mevcut kaydi birlesik mi ayri mi, ana oturum karar versin.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "sunda-pajajaran",
+   "not": ""
+  }
+ },
+ {
+  "id": "melayu-jambi",
+  "ad": "Melayu (Mo-lo-yeu, Jambi)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0644-01-01",
+  "t": "1347-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jambi (Muara Jambi) → Dharmasraya",
+  "etkin_bolge": "Orta Sumatra (Batanghari)",
+  "sehirler": [
+   "Jambi",
+   "Dharmasraya"
+  ],
+  "ozet": "644-645 Tang heyetleri ve Yijing'in kaydi; Srivijaya'ya katilma, sonra Dharmasraya/Malayupura (1347 Adityawarman).",
+  "oncul": [],
+  "ardil": [
+   "srivijaya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Miksic, J. N., Singapore and the Silk Road of the Sea (NUS Press, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Srivijaya mevcut kayit baskent listesinde Jambi'yi sayar ('Palembang → Jambi'); Melayu'nun ayri polity mi tek devlet mi oldugu tartismali. t yaklasik.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "srivijaya",
+   "not": ""
+  }
+ },
+ {
+  "id": "sailendra",
+  "ad": "Sailendra Hanedani",
+  "tur": "hanedanlik",
+  "bolge": "guneydogu-asya",
+  "f": "0778-01-01",
+  "t": "0850-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Orta Cava (Borobudur-Kalasan)",
+  "etkin_bolge": "Orta Cava Kedu ovasi",
+  "sehirler": [
+   "Borobudur",
+   "Kalasan"
+  ],
+  "ozet": "Budist Sailendra hanedani; Kalasan yazitindan (778) Balaputra'nin Sumatra'ya sürgünune (~850).",
+  "oncul": [],
+  "ardil": [
+   "medang",
+   "srivijaya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sanjaya hanedani ile bir arada tek polity (Medang) olabilir; mevcut medang kaydi 732'de baslar. 778 Kalasan yazit tarihi.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "medang",
+   "not": ""
+  }
+ },
+ {
+  "id": "tambralinga",
+  "ad": "Tambralinga",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0700-01-01",
+  "t": "1400-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Nakhon Si Thammarat",
+  "etkin_bolge": "Guney Tayland (Kra Kıstagi)",
+  "sehirler": [
+   "Nakhon Si Thammarat",
+   "Chaiya"
+  ],
+  "ozet": "Srivijaya cevresinde yarimada krallıgi; 1230'da Chandrabhanu; sonra Ayutthaya.",
+  "oncul": [
+   "pan-pan"
+  ],
+  "ardil": [
+   "nakhon-si-thammarat"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Baslangic belirsiz (7. yy+); t Ayutthaya baskisi yaklasik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "chenla-toprak",
+  "ad": "Toprak Chenla (Land Chenla)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0706-01-01",
+  "t": "0802-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sambhupura (Sambor Prei Kuk)",
+  "etkin_bolge": "Mekong ortasi ve kuzey Kambocya",
+  "sehirler": [
+   "Sambor"
+  ],
+  "ozet": "706'da Chenla'nin Toprak ve Su kollarina ayrilmasi; Toprak Chenla kuzey.",
+  "oncul": [
+   "chenla"
+  ],
+  "ardil": [
+   "angkor-kmer"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Chenla mevcut kaydi (550-802) iki kolu tek polity sayar; 706 bolunmesi Cin kaynagindan (Xin Tang shu).",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "chenla",
+   "not": ""
+  }
+ },
+ {
+  "id": "chenla-su",
+  "ad": "Su Chenla (Water Chenla)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0706-01-01",
+  "t": "0802-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sambhupura / Angkor Borei",
+  "etkin_bolge": "Mekong deltasi ve Tonle Sap",
+  "sehirler": [],
+  "ozet": "706 bolunmesiyle Su Chenla; Cava saldirilari altinda, Jayavarman II 802'de birlestirdi.",
+  "oncul": [
+   "chenla"
+  ],
+  "ardil": [
+   "angkor-kmer"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bkz. Toprak Chenla.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "chenla",
+   "not": ""
+  }
+ },
+ {
+  "id": "lavo",
+  "ad": "Lavo (Lopburi)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0600-01-01",
+  "t": "1388-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Lopburi",
+  "etkin_bolge": "Chao Phraya havzasi (Orta Tayland)",
+  "sehirler": [
+   "Lopburi"
+  ],
+  "ozet": "Dvaravati'nin devami; 11. yy'dan Khmer denetiminde; 1388'e kadar adi gecer.",
+  "oncul": [
+   "dvaravati"
+  ],
+  "ardil": [
+   "ayutthaya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Baslangic yaklasik (6. yy); Khmer hakimiyeti ~1000-1200'ler; t Ayutthaya baglanmasi yaklasik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "muang-sua",
+  "ad": "Muang Sua (Luang Prabang)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0698-01-01",
+  "t": "1353-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Xieng Dong Xieng Thong",
+  "etkin_bolge": "Orta Mekong (Luang Prabang)",
+  "sehirler": [
+   "Luang Prabang"
+  ],
+  "ozet": "Khun Lo'nun 698'de fethiyle Tai-Lao gelenegi; 1353 Lan Xang kurulusuna kadar.",
+  "oncul": [],
+  "ardil": [
+   "lan-xang"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Khun Borom nithan (efsane); 698 tarihi sonradan kronik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ngoenyang",
+  "ad": "Ngoenyang (Singhanavati / Yonok)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0638-01-01",
+  "t": "1292-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Chiang Saen",
+  "etkin_bolge": "Kuzey Tayland (Mekong-Kok)",
+  "sehirler": [
+   "Chiang Saen"
+  ],
+  "ozet": "Kronik gelenekte Singhanavati (638); Mangrai ile Lan Na'ya donustu.",
+  "oncul": [],
+  "ardil": [
+   "lan-na"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yonok kronikleri sonraki donem, 638 efsanevi; Lan Na mevcut kaydi f=1262.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "lan-na",
+   "not": ""
+  }
+ },
+ {
+  "id": "vesali-chandra",
+  "ad": "Vesali (Chandra Hanedani, Arakan)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0788-01-01",
+  "t": "0957-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Vesali",
+  "etkin_bolge": "Arakan (Rakhine)",
+  "sehirler": [
+   "Vesali"
+  ],
+  "ozet": "Arakan'in Chandra hanedani; Sanskrit yazitlari (Anandachandra, 729?).",
+  "oncul": [
+   "dhanyawadi"
+  ],
+  "ardil": [
+   "launggyet"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Gutman, P., Ancient Arakan (Myanmar Historical Commission, 2001) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hanedan tarihleri gelenekle degisir (Chandra 4.-10. yy iddiasi); 788-957 tek bir sinirlama.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "khuc-tu-tri",
+  "ad": "Khuc Ozerk Valiligi",
+  "tur": "emirlik",
+  "bolge": "guneydogu-asya",
+  "f": "0905-01-01",
+  "t": "0930-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dai La (Hanoi)",
+  "etkin_bolge": "Kizil Nehir deltasi",
+  "sehirler": [
+   "Dai La"
+  ],
+  "ozet": "Tang cokerken Khuc Thua Du'nun 905'te jiedushi ilan etmesi; Guney Han fethi 930.",
+  "oncul": [],
+  "ardil": [
+   "ngo-hanedani"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Fiilen ozerk Cin valiligi; devletlesme basamagi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ngo-hanedani",
+  "ad": "Ngo Hanedani (Ngo Quyen)",
+  "tur": "hanedanlik",
+  "bolge": "guneydogu-asya",
+  "f": "0939-01-01",
+  "t": "0965-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Co Loa",
+  "etkin_bolge": "Kizil Nehir deltasi",
+  "sehirler": [
+   "Co Loa"
+  ],
+  "ozet": "939'da Bach Dang zaferi sonrası Ngo Quyen krallik ilan etti; 965'te Xuong Van'in olumu ve 12 Sứ Quân.",
+  "oncul": [
+   "khuc-tu-tri"
+  ],
+  "ardil": [
+   "dinh"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "944 Ngo Quyen olumu; Duong Dinh Nghe 931-937 ara.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "duong-dinh-nghe",
+  "ad": "Duong Dinh Nghe Ozerkligi",
+  "tur": "emirlik",
+  "bolge": "guneydogu-asya",
+  "f": "0931-01-01",
+  "t": "0937-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dai La",
+  "etkin_bolge": "Kizil Nehir deltasi",
+  "sehirler": [],
+  "ozet": "Guney Han'i 931'de kovup jiedushi olan Duong Dinh Nghe.",
+  "oncul": [
+   "khuc-tu-tri"
+  ],
+  "ardil": [
+   "ngo-hanedani"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Cok kisa; ayri kayit mi, Ngo hanedani ardili mi - ana oturum karar.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "12-su-quan",
+  "ad": "On Iki Sứ Quân",
+  "tur": "konfederasyon",
+  "bolge": "guneydogu-asya",
+  "f": "0966-01-01",
+  "t": "0968-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Hoa Lu (Dinh)",
+  "etkin_bolge": "Kizil Nehir deltasi",
+  "sehirler": [],
+  "ozet": "Ngo'dan sonra on iki beyin ayrismasi; Dinh Bo Linh tarafindan birlestirildi.",
+  "oncul": [
+   "ngo-hanedani"
+  ],
+  "ardil": [
+   "dinh"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasi birim olarak 12 beylik; ozet kayit.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "chitu",
+  "ad": "Chitu (Kızıl Toprak)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0607-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": null
+  },
+  "baskent": "Singora? (Songkhla)",
+  "etkin_bolge": "Orta Malay Yarimadasi",
+  "sehirler": [],
+  "ozet": "Sui heyetiyle 607-608'de tanınan Siyam Korfezi krallıgi.",
+  "oncul": [],
+  "ardil": [
+   "tambralinga"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Cin kaynaklı; yer ve bitis belirsiz.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tondo",
+  "ad": "Tondo",
+  "tur": "beylik",
+  "bolge": "guneydogu-asya",
+  "f": "0900-01-01",
+  "t": "1571-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Tondo (Manila)",
+  "etkin_bolge": "Manila koyu",
+  "sehirler": [
+   "Tondo"
+  ],
+  "ozet": "Laguna Bakir Levhasi (900) Tondo'yu andi; 1571 Ispanyol fethine kadar.",
+  "oncul": [],
+  "ardil": [
+   "filipin-racaliklari"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Junker, L. L., Raiding, Trading and Feasting (Univ. of Hawaii Press, 1999) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "LCI belgesi 900 MS (Caka 822); 1571 Ispanyol fethi.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "filipin-racaliklari",
+   "not": ""
+  }
+ },
+ {
+  "id": "ma-i",
+  "ad": "Ma-i (Mindoro/Luzon)",
+  "tur": "beylik",
+  "bolge": "guneydogu-asya",
+  "f": "0982-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": null
+  },
+  "baskent": "bilinmiyor",
+  "etkin_bolge": "Mindoro-Bay",
+  "sehirler": [],
+  "ozet": "982'de Cin kaynaklarinda gecen Ma-i (Mindoro) ticaret yerlesimi.",
+  "oncul": [],
+  "ardil": [
+   "filipin-racaliklari"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Junker, L. L., Raiding, Trading and Feasting (Univ. of Hawaii Press, 1999) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yalniz Song kayitlari; devlet niteligi zayif.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "filipin-racaliklari",
+   "not": ""
+  }
+ },
+ {
+  "id": "perlak",
+  "ad": "Perlak (Peureulak) Sultanligi",
+  "tur": "emirlik",
+  "bolge": "guneydogu-asya",
+  "f": "0840-01-01",
+  "t": "1292-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Bandar Khalifah",
+  "etkin_bolge": "Dogu Aceh",
+  "sehirler": [
+   "Peureulak"
+  ],
+  "ozet": "Geleneksel Aceh Islam krallıgi; 1292'de Pasai'ye katildigi gelenegi.",
+  "oncul": [],
+  "ardil": [
+   "samudra-pasai"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Geleneksel 840; arkeoloji zayif.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "van-xuan",
+  "ad": "Van Xuan (Erken Ly)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0544-01-01",
+  "t": "0603-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Long Bien",
+  "etkin_bolge": "Kizil Nehir",
+  "sehirler": [],
+  "ozet": "Ly Bi'nin 544 bagimsizligi, Sui fethi 602-603.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "van-xuan",
+   "not": ""
+  }
+ },
+ {
+  "id": "chenla",
+  "ad": "Chenla (Zhenla)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0550-01-01",
+  "t": "0802-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ishanapura",
+  "etkin_bolge": "Mekong",
+  "sehirler": [],
+  "ozet": "Funan'dan sonra Khmer oncesi devlet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. 706 kollara bolunur",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "chenla",
+   "not": "706 kollara bolunur"
+  }
+ },
+ {
+  "id": "dvaravati",
+  "ad": "Dvaravati",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0551-01-01",
+  "t": "1100-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Nakhon Pathom",
+  "etkin_bolge": "Chao Phraya",
+  "sehirler": [],
+  "ozet": "Mon kulturlu sehir devletleri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Goh Geok Yian et al., Ancient Southeast Asia (Routledge, 2019) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dvaravati",
+   "not": ""
+  }
+ },
+ {
+  "id": "sunda-pajajaran",
+  "ad": "Sunda Krallıgi",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0669-01-01",
+  "t": "1527-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pakuan Pajajaran",
+  "etkin_bolge": "Bati Cava",
+  "sehirler": [],
+  "ozet": "Tarumanagara ardili.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sunda-pajajaran",
+   "not": ""
+  }
+ },
+ {
+  "id": "srivijaya",
+  "ad": "Srivijaya",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0683-01-01",
+  "t": "1275-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Palembang",
+  "etkin_bolge": "Sumatra-Malakka",
+  "sehirler": [],
+  "ozet": "Deniz ticaret imparatorlugu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Miksic, J. N., Singapore and the Silk Road of the Sea (NUS Press, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. Kedukan Bukit 683; Chola 1025 sonrasi gerileme; 1275 yerine ~1290-1377 farkli",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "srivijaya",
+   "not": "Kedukan Bukit 683; Chola 1025 sonrasi gerileme; 1275 yerine ~1290-1377 farkli"
+  }
+ },
+ {
+  "id": "medang",
+  "ad": "Medang (Mataram)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0732-01-01",
+  "t": "1016-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Mataram",
+  "etkin_bolge": "Orta Cava",
+  "sehirler": [],
+  "ozet": "Sanjaya-Sailendra.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. Canggal 732; 929 Dogu Cava'ya kayis",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "medang",
+   "not": "Canggal 732; 929 Dogu Cava'ya kayis"
+  }
+ },
+ {
+  "id": "angkor-kmer",
+  "ad": "Kmer (Angkor) Imparatorlugu",
+  "tur": "imparatorluk",
+  "bolge": "guneydogu-asya",
+  "f": "0802-01-01",
+  "t": "1431-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Angkor",
+  "etkin_bolge": "Mekong-Tonle Sap",
+  "sehirler": [],
+  "ozet": "Khmer imparatorlugu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. Jayavarman II 802; t 1431 Siyam Ayutthaya fethi (1281 sonrasi)",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "angkor-kmer",
+   "not": "Jayavarman II 802; t 1431 Siyam Ayutthaya fethi (1281 sonrasi)"
+  }
+ },
+ {
+  "id": "pagan",
+  "ad": "Pagan",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0849-01-01",
+  "t": "1297-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pagan",
+  "etkin_bolge": "Irrawaddy",
+  "sehirler": [],
+  "ozet": "Burma ilk imparatorlugu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. Anawrahta 1044; 1287 Moğol fethi; 1297 son kral",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "pagan",
+   "not": "Anawrahta 1044; 1287 Moğol fethi; 1297 son kral"
+  }
+ },
+ {
+  "id": "bali-warmadewa",
+  "ad": "Bali (Warmadewa)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0914-01-01",
+  "t": "1284-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Bedulu",
+  "etkin_bolge": "Bali",
+  "sehirler": [],
+  "ozet": "Warmadewa.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. 1284 Kertanagara fethi",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "bali-warmadewa",
+   "not": "1284 Kertanagara fethi"
+  }
+ },
+ {
+  "id": "dinh",
+  "ad": "Dinh Hanedani",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0968-01-01",
+  "t": "0979-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Hoa Lu",
+  "etkin_bolge": "Kizil Nehir",
+  "sehirler": [],
+  "ozet": "Dai Co Viet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dinh",
+   "not": ""
+  }
+ },
+ {
+  "id": "poni",
+  "ad": "Po-ni",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0977-01-01",
+  "t": "1405-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Brunei",
+  "etkin_bolge": "Borneo kuzey",
+  "sehirler": [],
+  "ozet": "Cin kaynaklari.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Miksic, J. N., Singapore and the Silk Road of the Sea (NUS Press, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "poni",
+   "not": ""
+  }
+ },
+ {
+  "id": "tien-le-hanedani",
+  "ad": "Erken Le",
+  "tur": "hanedanlik",
+  "bolge": "guneydogu-asya",
+  "f": "0980-01-01",
+  "t": "1009-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Hoa Lu",
+  "etkin_bolge": "Kizil Nehir",
+  "sehirler": [],
+  "ozet": "Le Hoan.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "tien-le-hanedani",
+   "not": ""
+  }
+ }
+]

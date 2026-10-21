@@ -1,0 +1,865 @@
+[
+ {
+  "id": "avusturya-marki",
+  "ad": "Avusturya Markı (Babenberg Ostarrichi)",
+  "tur": "markgraflik",
+  "bolge": "orta-avrupa",
+  "f": "0976-01-01",
+  "t": "1156-09-17",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Melk → Klosterneuburg → Viyana",
+  "etkin_bolge": "Aşağı Avusturya (Wachau, Donau)",
+  "sehirler": [],
+  "ozet": "976'da Leopold I'in Babenberg markgrafı yapılmasıyla başlayan Doğu Mark; 1156'da Privilegium Minus ile dukalığa yükseldi.",
+  "oncul": [
+   "dogu-mark-pannonia"
+  ],
+  "ardil": [
+   "avusturya-dukaligi"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mark kuruluşu 976 (Leopold I); 996 'Ostarrichi' ilk yazılı anılış. Dukalık 17 Eylül 1156 Privilegium Minus. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Österreich'; Lechner 'Die Babenberger']",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "avusturya-dukaligi",
+   "not": "avusturya-dukaligi 1156-09-17 öncesini kapsamıyor; genişlet f=976 veya ardil künye."
+  }
+ },
+ {
+  "id": "meissen-markgrafligi",
+  "ad": "Meissen Markgraflığı",
+  "tur": "markgraflik",
+  "bolge": "orta-avrupa",
+  "f": "0968-01-01",
+  "t": "1423-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Meißen",
+  "etkin_bolge": "Elbe orta kesimi, Saksonya doğusu",
+  "sehirler": [],
+  "ozet": "Otto I'in Gero Mark'ını bölmesiyle 968'de Meissen Markı; 1089'dan Wettin hanedanı; 1423'te Saksonya Elektörlüğü ile birleşti.",
+  "oncul": [],
+  "ardil": [
+   "saksonya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mark 965/968 (Thietmar); Wettin 1089. Elektörlük 6 Ocak 1423. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Meißen'; Blaschke 'Geschichte Sachsens']",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "saksonya",
+   "not": "saksonya (1123...) kuruluşu 968 olarak genişletilebilir."
+  }
+ },
+ {
+  "id": "brandenburg-markgrafligi",
+  "ad": "Brandenburg Markgraflığı (Askanier, Elektörlük)",
+  "tur": "markgraflik",
+  "bolge": "orta-avrupa",
+  "f": "1157-06-11",
+  "t": "1701-01-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "yil"
+  },
+  "baskent": "Brandenburg an der Havel → Berlin-Cölln",
+  "etkin_bolge": "Havel-Spree, Altmark, Neumark",
+  "sehirler": [],
+  "ozet": "Albert Ayı'nın Heveller'in mirasını alıp 11 Haziran 1157'de 'Markgraf von Brandenburg' ilanıyla başlayan Askanier mark'ı; 1356'da elektörlük; Hohenzollern 1415; 1701 Prusya Krallığı ile Brandenburg-Prusya.",
+  "oncul": [
+   "hevelli-prensligi",
+   "nordmark"
+  ],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Gün 11 Haziran 1157 hafızadan (Kuruluş belgesi tarihlendirmesi tartışmalı); bitiş = 1701 Prusya Krallığı (Brandenburg elektörlüğü formel olarak 1806'ya kadar sürdü). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Brandenburg'; Schultze 'Die Mark Brandenburg']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "mecklenburg",
+  "ad": "Mecklenburg (Lordluk → Dukalık → Büyük Dukalık)",
+  "tur": "dukalik",
+  "bolge": "orta-avrupa",
+  "f": "1167-01-01",
+  "t": "1918-11-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Schwerin / Güstrow",
+  "etkin_bolge": "Kuzey Almanya (Baltık kıyısı)",
+  "sehirler": [],
+  "ozet": "Pribislav ile Obotrit soyundan gelen hanedan 1167'de Mecklenburg hükümdarlığını sürdürdü; 1348'de dukalık, 1815'te Büyük Dukalık; 1918 Kasım'da hanedan devrildi.",
+  "oncul": [
+   "obotrit-prensligi"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Pribislav 1167 yeniden onaylandı (Henry the Lion); 14 Kasım 1918 Friedrich Franz IV feragat. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Mecklenburg'; Helmold]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "anhalt-prensligi",
+  "ad": "Anhalt Prensliği (Askanier)",
+  "tur": "prenslik",
+  "bolge": "orta-avrupa",
+  "f": "1212-01-01",
+  "t": "1918-11-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Aschersleben / Bernburg / Dessau",
+  "etkin_bolge": "Orta Elbe–Saale, Anhalt",
+  "sehirler": [],
+  "ozet": "Askanier Anhalt Kontluğu 1212'de Prenslik; sonra Anhalt-Dessau, Bernburg... Hanedan kolları; 1863'te birleşik Dukalık; 1918 Kasım'da hanedan devrildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Anhalt Prensliği tarihi 1212 (Heinrich I Fürst) hafızadan; 1918 Kasım gün seçilmedi. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Anhalt']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "wurttemberg",
+  "ad": "Württemberg (Kontluk → Dukalık → Krallık)",
+  "tur": "kontluk",
+  "bolge": "orta-avrupa",
+  "f": "1135-01-01",
+  "t": "1918-11-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Stuttgart",
+  "etkin_bolge": "Neckar, Swabia (Württemberg)",
+  "sehirler": [],
+  "ozet": "Beutelsbach Konrad'ının 1081'de Württemberg Kalesi'ni kurmasıyla yükselen kontluk (1135 Count); 1495'te dukalık, 1806'da krallık; 1918 Kasım'da monarşi sona erdi.",
+  "oncul": [
+   "schwaben-dukaligi"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "1081 (şato) / 1135 (kontluk) çelişkisi; 30 Kasım 1918 II. Wilhelm feragat. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Württemberg']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tirol-kontlugu",
+  "ad": "Tirol Kontluğu",
+  "tur": "kontluk",
+  "bolge": "orta-avrupa",
+  "f": "1140-01-01",
+  "t": "1363-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Tirol Kalesi (Schloss Tirol)",
+  "etkin_bolge": "İnn-Etsch-Eisack (Tirol)",
+  "sehirler": [],
+  "ozet": "Meran ve Görz-Tirol hanedanlarının birleştirdiği Tirol Kontluğu; 1363'te Margaret Maultasch'ın Habsburglara bırakmasıyla Habsburg'a geçti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "1140 civarı kontluk adı belirir; 26 Ocak 1363 Habsburg devri (Tirol Habsburg Land olarak sürdü). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Tirol']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "habsburg-kontlugu",
+  "ad": "Habsburg Kontluğu (Aargau–Elsass)",
+  "tur": "kontluk",
+  "bolge": "orta-avrupa",
+  "f": "1020-01-01",
+  "t": "1273-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Habsburg (Aargau)",
+  "etkin_bolge": "Aargau, Elsass, Güney Almanya",
+  "sehirler": [],
+  "ozet": "Habsburg hanedanının Aargau ve Elsass'taki toprakları; 1273'te Rudolf I Alman kralı olunca Avusturya'ya dönüşüm.",
+  "oncul": [],
+  "ardil": [
+   "avusturya-dukaligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş yılı kronik efsane (Radbot ~1020); 1273 Rudolf I seçimi. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Habsburger']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "zahringen-dukaligi",
+  "ad": "Zähringen Dükalığı",
+  "tur": "dukalik",
+  "bolge": "orta-avrupa",
+  "f": "1100-01-01",
+  "t": "1218-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Freiburg im Breisgau / Zähringen",
+  "etkin_bolge": "Breisgau, Bern, Zürich, Rektorat Burgund",
+  "sehirler": [],
+  "ozet": "Berthold II'nin Swabia dukalığı yarışı sonrası 1100'de Zähringen dukası; Bern ve Freiburg kurucuları; 1218'de hanedanın sönmesiyle toprakları dağıldı.",
+  "oncul": [],
+  "ardil": [
+   "bern-cumhuriyeti",
+   "baden"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "1098 Swabia'dan vazgeçilip Zähringen dukası; hanedan 18 Şubat 1218 sönüş. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Zähringer']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "stiriya-markgrafligi",
+  "ad": "Stiriya Markgraflığı (Otakar)",
+  "tur": "markgraflik",
+  "bolge": "orta-avrupa",
+  "f": "1056-01-01",
+  "t": "1180-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Steyr / Graz",
+  "etkin_bolge": "Mur-Mürz, Yukarı Stiriya",
+  "sehirler": [],
+  "ozet": "Traungau Otakar'ların Karintiya Markı'ndan evrilmiş Stiriya Markı; 1180'de dukalığa yükseldi.",
+  "oncul": [],
+  "ardil": [
+   "stiriya-dukaligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mark kuruluşu 1056 (Otakar II); 1180 Dukalık. Atlasta stiriya künyesinin t=1192 muhtemel hata: Stiriya Dukalığı Habsburg yönetiminde sürdü. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Steiermark']",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "stiriya-dukaligi",
+   "not": "stiriya-dukaligi (1180-1192): f/t hatalı görünür; Stiriya Dukalığı 1180-1918."
+  }
+ },
+ {
+  "id": "meran-dukaligi",
+  "ad": "Meran (Andechs-Meranien) Dükalığı",
+  "tur": "dukalik",
+  "bolge": "orta-avrupa",
+  "f": "1180-01-01",
+  "t": "1248-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Andechs / Meran",
+  "etkin_bolge": "Franken, Tirol (Brenner), İstria",
+  "sehirler": [],
+  "ozet": "Andechs kontlarının 1180'de aldıkları Meran dukalığı; 1248'de hanedan sönünce toprakları Wittelsbach'a ve Tirol'e geçti.",
+  "oncul": [],
+  "ardil": [
+   "bavyera",
+   "tirol-kontlugu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Otto I 1180'de dux Meraniae; 1248 Otto VIII ölümü. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Andechs-Meranien']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ermland-piskoposlugu",
+  "ad": "Ermland (Warmia) Prens-Piskoposluğu",
+  "tur": "piskoposluk",
+  "bolge": "dogu-avrupa",
+  "f": "1243-01-01",
+  "t": "1772-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Braunsberg → Frauenburg → Heilsberg",
+  "etkin_bolge": "Ermland (Warmia), Prusya",
+  "sehirler": [],
+  "ozet": "Teutonic Order himayesinde 1243'te kurulan Ermland piskoposluğunun dünyevi toprak sahibi prens-piskoposluğu; 1466 Thorn Barışı'ndan sonra Polonya himayesinde; 1772'de Prusya'ya.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "1243 Papalık elçisi Wilhelm von Modena bölgeleri ayırır. 1772 Birinci Bölüşüm. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Ermland']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tevtonik-burzenland",
+  "ad": "Tevtonik Düzeni Burzenland Kolonisi (Erdel)",
+  "tur": "tarikat-devleti",
+  "bolge": "orta-avrupa",
+  "f": "1211-01-01",
+  "t": "1225-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Marienburg (Feldioara)",
+  "etkin_bolge": "Burzenland (Brașov çevresi, Erdel)",
+  "sehirler": [],
+  "ozet": "II. András'ın 1211'de Burzenland'ı Tevtonik Düzeni'ne vermesi; düzen bağımsız hareket edince 1225'te kovuldu ve Prusya'ya yöneldi.",
+  "oncul": [],
+  "ardil": [
+   "teuton-sovalyeleri"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Gün düzeyi belirsiz; 1225 sürgün kararı Andrew II. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Deutscher Orden'; Fügedi]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ajtony-prensligi",
+  "ad": "Ajtony (Maros-Bănat) Prensliği",
+  "tur": "prenslik",
+  "bolge": "orta-avrupa",
+  "f": "1000-01-01",
+  "t": "1028-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Morisena (Cenad)",
+  "etkin_bolge": "Maros-Tuna-Tisza Banat",
+  "sehirler": [],
+  "ozet": "Macar kralı I. İstván'a karşı bağımsız Maros bölgesi beyi Ajtony; Csanád komutanıyla ~1028'de yenildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Gesta Hungarorum ve Legenda Sancti Gerardi; kronoloji tahmini. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Legenda Sancti Gerardi; Kristó 'Hungarian History in the Ninth Century']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "gyula-erdel",
+  "ad": "Erdel Gyulası (Gyula Prensliği)",
+  "tur": "prenslik",
+  "bolge": "orta-avrupa",
+  "f": "0950-01-01",
+  "t": "1003-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Gyulafehérvár (Alba Iulia)",
+  "etkin_bolge": "Erdel (Transilvanya)",
+  "sehirler": [],
+  "ozet": "Macar boy birliğinde gyula unvanını taşıyan Erdel beyi; I. İstván 1003'te Gyula'yı yenerek Erdel'i Macar krallığına kattı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç belirsiz (gyula Bizans'ta vaftiz ~953); 1003 Anonymus / Kézai. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Anonymus Gesta Hungarorum; Kristó]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "moskova",
+  "ad": "Moskova Knezliği (Moskova Büyük Knezliği)",
+  "tur": "knezlik",
+  "bolge": "dogu-avrupa",
+  "f": "1263-01-01",
+  "t": "1547-01-16",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Moskova",
+  "etkin_bolge": "Moskova, Oka-Volga, Vladimir ve Kuzey Rus",
+  "sehirler": [],
+  "ozet": "Aleksandr Nevski'nin oğlu Daniil'in 1263'te Moskova'yı alarak kurduğu knezlik; Rusya'nın birleştiricisi; 16 Ocak 1547'de IV. İvan çar ilan edildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Moskova'nın ilk anılışı 1147 (Yuri Dolgoruki); Daniil 1263/1272 tahmini; 1547 Çarlık. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Martin 'Medieval Russia 980-1584'; Cambridge History of Russia I]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tmutarakan",
+  "ad": "Tmutarakan Knezliği",
+  "tur": "knezlik",
+  "bolge": "dogu-avrupa",
+  "f": "1010-01-01",
+  "t": "1094-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Tmutarakan (Taman)",
+  "etkin_bolge": "Taman Yarımadası, Kerç Boğazı doğusu",
+  "sehirler": [],
+  "ozet": "Kiev Rus'unun Karadeniz'e bakan uzak knezliği (Mstislav Vladimiroviç); Bizans ve Kıpçaklarla çevrili; 1094'te Oleg'in kovulmasıyla Kiev'in kontrolünden çıktı.",
+  "oncul": [
+   "kiev-rusu"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mstislav 1010 civarı; Oleg Svyatoslaviç ~1094 çıkış (Povest' vremennykh let). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Povest' vremennykh let; Martin 1995]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "turov-pinsk",
+  "ad": "Turov-Pinsk Knezliği",
+  "tur": "knezlik",
+  "bolge": "dogu-avrupa",
+  "f": "0988-01-01",
+  "t": "1320-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Turov → Pinsk",
+  "etkin_bolge": "Pripyat çevresi, Polesye",
+  "sehirler": [],
+  "ozet": "Svyatopolk'un Turov'u ile başlayan, Pinsk'e kayan Rus knezliği; Gediminas'ın fetihleriyle Litvanya'ya katıldı.",
+  "oncul": [
+   "kiev-rusu"
+  ],
+  "ardil": [
+   "litvanya-buyuk-dukalik"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç 988 civarı dağıtım; Litvanya katılımı 1320-1340 arası belirsiz. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Martin 1995; Cambridge History of Russia I]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "volhinya-knezligi",
+  "ad": "Volhinya (Vladimir-Volınski) Knezliği",
+  "tur": "knezlik",
+  "bolge": "dogu-avrupa",
+  "f": "0988-01-01",
+  "t": "1199-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Vladimir-Volınski",
+  "etkin_bolge": "Volhynia (Batı Bug, Pripyat)",
+  "sehirler": [],
+  "ozet": "Vladimir Svyatoslaviç tarafından Kiev Rus dağıtımında kurulan Volhynia knezliği; 1199'da Roman Mstislaviç Galiçya ile birleştirdi.",
+  "oncul": [
+   "kiev-rusu"
+  ],
+  "ardil": [
+   "galicya-volhinya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "988 dağıtımı (PVL); 1199 birleşme. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Martin 1995]",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "galicya-volhinya",
+   "not": "galicya-volhinya (1199...) ardıl."
+  }
+ },
+ {
+  "id": "halic-knezligi",
+  "ad": "Halych (Galiçya) Knezliği",
+  "tur": "knezlik",
+  "bolge": "dogu-avrupa",
+  "f": "1141-01-01",
+  "t": "1199-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Halych",
+  "etkin_bolge": "Dinyester yukarısı, Karpat eteği",
+  "sehirler": [],
+  "ozet": "Rostislaviç kolları (Terebovl, Zvenigorod, Przemyśl) 1141'de Vladimirko altında Halych'te birleşti; 1199'da Volhynia ile birleşerek Galiçya-Volhynia oldu.",
+  "oncul": [],
+  "ardil": [
+   "galicya-volhinya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "1141 Vladimirko birleşmesi (Hypatian Chronicle); önceki kollar ayrı. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Hypatian Chronicle; Dimnik]",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "galicya-volhinya",
+   "not": "galicya-volhinya (1199...) ardıl."
+  }
+ },
+ {
+  "id": "murom-knezligi",
+  "ad": "Murom Knezliği",
+  "tur": "knezlik",
+  "bolge": "dogu-avrupa",
+  "f": "1015-01-01",
+  "t": "1392-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Murom",
+  "etkin_bolge": "Oka orta kesimi",
+  "sehirler": [],
+  "ozet": "Gleb Vladimiroviç ile Murom'un knezliği; Çernigov ve Ryazan'a bağlı; 1392 civarı Moskova'ya katıldı.",
+  "oncul": [],
+  "ardil": [
+   "moskova"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Başlangıç 1015 civarı (Gleb Vladimiroviç); Moskova'ya katılım 1392. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Martin 1995]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "ryazan (1129) Murom-Ryazan'dan ayrışma."
+  }
+ },
+ {
+  "id": "buyuk-polonya-dukaligi",
+  "ad": "Büyük Polonya Dükalığı (Poznań–Gniezno)",
+  "tur": "dukalik",
+  "bolge": "dogu-avrupa",
+  "f": "1138-01-01",
+  "t": "1314-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Poznań / Gniezno",
+  "etkin_bolge": "Warta-Noteç, Büyük Polonya",
+  "sehirler": [],
+  "ozet": "Bolesław III Krzywousty'nin 1138 vasiyetiyle parçalanan Polonya'nın Poznań-Gniezno dukalığı; 1314'te Władysław Łokietek tarafından birleştirildi.",
+  "oncul": [],
+  "ardil": [
+   "polonya-erken"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "1138 Vasiyetname (Gallus ve Kadłubek); parçalanma sonrası sınırlar değişkendi. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Gallus Anonymus Chronica; Lexikon des Mittelalters 'Polen']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "krakov-dukaligi",
+  "ad": "Küçük Polonya (Krakov) Dükalığı — Kıdemli Eyalet",
+  "tur": "dukalik",
+  "bolge": "dogu-avrupa",
+  "f": "1138-01-01",
+  "t": "1320-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Krakov",
+  "etkin_bolge": "Küçük Polonya, Silezya ve Sandomierz ile bağlı",
+  "sehirler": [],
+  "ozet": "1138 vasiyetnamesindeki 'kıdemli eyalet' Krakov; Piast bölünmesi sürecinde dükalık; 1320'de Władysław Łokietek'in kral tacıyla birleşti.",
+  "oncul": [],
+  "ardil": [
+   "polonya-erken"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Parçalanma dönemi: bu kayıtlar polonya-erken ile örtüşür; ana oturum karar versin. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Polen']",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "polonya-erken",
+   "not": "polonya-erken (966-1569) 1138-1320 parçalanmayı tek polity olarak tutar."
+  }
+ },
+ {
+  "id": "pomerelya",
+  "ad": "Pomerelya (Gdańsk Pomeranya) Dükalığı",
+  "tur": "dukalik",
+  "bolge": "dogu-avrupa",
+  "f": "1227-01-01",
+  "t": "1308-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Gdańsk",
+  "etkin_bolge": "Vistula alt kesimi, Gdańsk",
+  "sehirler": [],
+  "ozet": "Świętopełk II'nin 1227'de Polonya'dan bağımsızlaşmasıyla kurulan Samborid dukalığı; 1308'de Teutonlar Gdańsk'ı aldı.",
+  "oncul": [],
+  "ardil": [
+   "teuton-sovalyeleri"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Samborid hanedanı daha önce vasaldı (1116+); 1227 bağımsızlık (Świętopełk); 1294 Mestwin II ölümü; 1308 Teutonic. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Pommerellen']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "rugen-prensligi",
+  "ad": "Rügen Prensliği",
+  "tur": "prenslik",
+  "bolge": "orta-avrupa",
+  "f": "1168-01-01",
+  "t": "1325-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Charenza (Garz)",
+  "etkin_bolge": "Rügen adası ve Stralsund çevresi",
+  "sehirler": [],
+  "ozet": "Arkona'nın 1168'de Danimarka tarafından alınmasıyla Danimarka vasalı Rügen prensliği; Wizlaw III'ün 1325'te ölümüyle Pomeranya'ya geçti.",
+  "oncul": [],
+  "ardil": [
+   "pomeranya-dukaligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Arkona düşüşü Haziran 1168; Wizlaw III ölümü 8 Kasım 1325. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Saxo Grammaticus XIV; Helmold II.12]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dorpat-piskoposlugu",
+  "ad": "Dorpat (Tartu) Prens-Piskoposluğu",
+  "tur": "piskoposluk",
+  "bolge": "dogu-avrupa",
+  "f": "1224-01-01",
+  "t": "1558-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dorpat (Tartu)",
+  "etkin_bolge": "Güney Estonya",
+  "sehirler": [],
+  "ozet": "Livonya Haçlı Seferleri sonrası 1224'te kurulan prens-piskoposluk; Livonya Konfederasyonu üyesi; 1558'de Rus fethiyle çöktü.",
+  "oncul": [
+   "livonya-tarikati"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş 1224 (Hermann von Buxhoeveden); Livonya Savaşı 1558. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Dorpat']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "osel-wiek-piskoposlugu",
+  "ad": "Ösel-Wiek Prens-Piskoposluğu",
+  "tur": "piskoposluk",
+  "bolge": "dogu-avrupa",
+  "f": "1228-01-01",
+  "t": "1559-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Hapsal (Haapsalu) / Arensburg",
+  "etkin_bolge": "Saaremaa, Läänemaa",
+  "sehirler": [],
+  "ozet": "1228'de kurulan Ösel-Wiek piskoposluğu; 1559'da Danimarka dükü Magnus'a satıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "1559 Magnus satın alması. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Ösel']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kurland-piskoposlugu",
+  "ad": "Kurland (Courland) Prens-Piskoposluğu",
+  "tur": "piskoposluk",
+  "bolge": "dogu-avrupa",
+  "f": "1234-01-01",
+  "t": "1560-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pilten",
+  "etkin_bolge": "Batı Letonya, Kuronya",
+  "sehirler": [],
+  "ozet": "1234'te kurulan Kuronya piskoposluğu; 1559-60'ta Magnus'a satılıp Kurland-Semigallia Dukalığı (1561) öncülü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş 1234 (Engelbert); 1560 Magnus. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Kurland']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "danimarka-estonya",
+  "ad": "Danimarka Estonyası (Estland)",
+  "tur": "dukalik",
+  "bolge": "dogu-avrupa",
+  "f": "1219-01-01",
+  "t": "1346-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Reval (Tallinn)",
+  "etkin_bolge": "Kuzey Estonya",
+  "sehirler": [],
+  "ozet": "II. Valdemar'ın 15 Haziran 1219'da Lindanise (Reval) çıkarmasıyla kurulan Danimarka Estonyası; 1346'da Livonya Tarikatı'na satıldı.",
+  "oncul": [],
+  "ardil": [
+   "livonya-tarikati"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Satış 29 Ağustos 1346 (St. Georgsnacht uyanışı sonrası). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Estland']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kuman-bati",
+  "ad": "Batı Kumanları (Kuman-Kıpçak, Dinyeper–Karpat Bozkırı)",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": "1055-01-01",
+  "t": "1239-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Don–Dinyester bozkırı)",
+  "etkin_bolge": "Dinyeper-Dinyester-Tuna aşağısı bozkırları",
+  "sehirler": [],
+  "ozet": "Kıpçak–Kuman göçüyle Doğu Avrupa bozkırının hâkimi; Rus ve Macar kaynaklarında Polovets/Kun; 1223 Kalka sonrası Moğol baskısı ve 1239'da Macaristan'a kaçış.",
+  "oncul": [
+   "pecenek-konfederasyonu"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Batı Kumanları ayrı hanlar altında; tek devlet değil, konfederasyon. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Golden 'Introduction to the History of the Turkic Peoples'; Spinei 'The Great Migrations in the East and South East of Europe']",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kipcak",
+   "not": "kipcak (1054-1239) Deşt-i Kıpçak genelinde; batı bölümü (Doğu Avrupa) kapsıyor."
+  }
+ }
+]

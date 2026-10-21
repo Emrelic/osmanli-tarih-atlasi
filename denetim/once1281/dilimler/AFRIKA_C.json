@@ -1,0 +1,213 @@
+[
+ {
+  "id": "masaesyli-krallik",
+  "ad": "Masaesyli (Batı Numidya) Krallığı",
+  "tur": "krallik",
+  "bolge": "kuzey-afrika",
+  "f": "-0300-01-01",
+  "t": "-0202-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Siga",
+  "etkin_bolge": "Batı Numidya (batı Cezayir)",
+  "sehirler": [
+   "Siga"
+  ],
+  "ozet": "Syphax döneminde Kartaca müttefiki Berberî krallık; II. Pön savaşı sonunda topraklar Masinissa'ya geçti.",
+  "oncul": [],
+  "ardil": [
+   "numidia"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Livius XXIV-XXX",
+   "Brill's New Pauly s.v. Numidia"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluşu belgesiz; t Syphax'ın esir düşmesi MÖ 203/202. 'numidia' künyesi MÖ 201'den başlıyor. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Birleşme öncesi ayrı krallık."
+  }
+ },
+ {
+  "id": "massyli-krallik",
+  "ad": "Massyli (Doğu Numidya) Krallığı",
+  "tur": "krallik",
+  "bolge": "kuzey-afrika",
+  "f": "-0300-01-01",
+  "t": "-0202-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Cirta",
+  "etkin_bolge": "Doğu Numidya (Konstantin bölgesi, Cezayir)",
+  "sehirler": [
+   "Cirta"
+  ],
+  "ozet": "Gala/Masinissa'nın krallığı; MÖ 206'dan itibaren Roma tarafında, MÖ 202'de birleşik Numidya.",
+  "oncul": [],
+  "ardil": [
+   "numidia"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Brill's New Pauly s.v. Massylii"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Birleşik Numidya mevcut künyede MÖ 201. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "numidia",
+   "not": "Birleşme öncesi iki ayrı krallık."
+  }
+ },
+ {
+  "id": "kyrenaika-magas",
+  "ad": "Kirenayka Krallığı (Magas)",
+  "tur": "krallik",
+  "bolge": "kuzey-afrika",
+  "f": "-0276-01-01",
+  "t": "-0250-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kyrene",
+  "etkin_bolge": "Kirenayka (doğu Libya)",
+  "sehirler": [
+   "Kyrene"
+  ],
+  "ozet": "Magas'ın Ptolemaios valiliğinden bağımsız kral ilanı; ölümünde Ptolemaios'a döndü.",
+  "oncul": [
+   "Ptolemaios Mısır"
+  ],
+  "ardil": [
+   "Ptolemaios Mısır"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Brill's New Pauly s.v. Magas"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Magas kral ilanı MÖ 276/274, ölüm MÖ ~250 (kaynaklar çelişir). Apion krallığı (MÖ 116-96) ayrı aday. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "kyrene",
+   "not": "'kyrene' tek künye; ara dönemler ayrı önerilebilir."
+  }
+ },
+ {
+  "id": "auris-masties",
+  "ad": "Aurès (Masties) Berberî Krallığı",
+  "tur": "krallik",
+  "bolge": "kuzey-afrika",
+  "f": "0476-01-01",
+  "t": "0535-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Aurès",
+  "etkin_bolge": "Aurès dağları (Cezayir)",
+  "sehirler": [
+   "Aurès"
+  ],
+  "ozet": "Vandal egemenliği sonrası Masties'in Aurès'te kurduğu bağımsız yönetim; Bizans fethine kadar sürdü.",
+  "oncul": [
+   "Vandal"
+  ],
+  "ardil": [
+   "Bizans Afrika Eksarhlığı"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Procopius, Wars IV",
+   "Brill's New Pauly s.v. Masties"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Masties yönetimi 476-535 (geleneksel); t Bizans fethi. Altava krallığıyla karıştırılmamalı. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Vandal'dan bağımsız Mauri krallığı."
+  }
+ },
+ {
+  "id": "sao-sehir-devletleri",
+  "ad": "Sao Şehir Devletleri (Çad Gölü)",
+  "tur": "sehir-devleti",
+  "bolge": "orta-afrika",
+  "f": "-0500-01-01",
+  "t": "1500-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "çeşitli (Logone-Birni, Makari)",
+  "etkin_bolge": "Çad Gölü güneyi, Şari-Logone",
+  "sehirler": [
+   "Logone-Birni",
+   "Makari"
+  ],
+  "ozet": "Çad Gölü güneyinde surlu yerleşimlerde şehir devletleri; sonunda Kanem-Bornu ve Bagirmi'ye katıldı.",
+  "oncul": [],
+  "ardil": [
+   "kanem-bornu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "UNESCO General History of Africa vol. III"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Birleşik siyasî birim olmayabilir; f/t çok kaba (arkeoloji MÖ 6. yy - MS 16. yy). Tür 'sehir-devleti' ağı. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Kanem-Bornu ile örtüşür."
+  }
+ },
+ {
+  "id": "djenne-djenno",
+  "ad": "Djenné-Djenno Kent Merkezi (İç Nijer Deltası)",
+  "tur": "sehir-devleti",
+  "bolge": "bati-afrika",
+  "f": "-0250-01-01",
+  "t": "1400-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Djenné-Djenno",
+  "etkin_bolge": "İç Nijer Deltası (Mali)",
+  "sehirler": [
+   "Djenné-Djenno"
+  ],
+  "ozet": "Erken demir çağında nüfuslu, uzmanlaşmış kent kümesi; çoğu araştırmacı merkezî devlet değil heterarşik kentleşme sayar.",
+  "oncul": [],
+  "ardil": [
+   "mali-imparatorlugu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "McIntosh & McIntosh, Prehistoric Investigations in the Region of Jenne, Mali (1980)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasî birim sayılıp sayılmayacağı tartışmalı; Emre karar versin. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Siyasî birim değilse kültür/yerleşim olarak kalsın."
+  }
+ }
+]

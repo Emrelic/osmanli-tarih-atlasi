@@ -1,0 +1,875 @@
+[
+ {
+  "id": "hatti-sehir-devletleri",
+  "ad": "Hatti Ülkesi Şehir Devletleri (Hattuşa, Zalpa)",
+  "tur": "sehir-devleti",
+  "bolge": "anadolu",
+  "f": "-2499-01-01",
+  "t": "-1749-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Hattuşa",
+  "etkin_bolge": "Kızılırmak kavsi, Orta-Kuzey Anadolu",
+  "sehirler": [
+   "Hattuşa",
+   "Zalpa",
+   "Neşa"
+  ],
+  "ozet": "Hitit öncesi Hatti dilli yerli şehir devletleri; Anitta Hattuşa'yı yıkıp lanetledi.",
+  "oncul": [],
+  "ardil": [
+   "kussara-nesa-krallik",
+   "hitit-eski"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş yaklaşık, kaynaksız; t Anitta'nın Hattuşa'yı yıkışı (~MÖ 1750). Siyasî birliği tartışmalı (çoğul şehir devletleri).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Hitit künyeleri 1649'da başlıyor; öncesi yok."
+  }
+ },
+ {
+  "id": "purushanda",
+  "ad": "Purushanda (Burushattum) Krallığı",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-1899-01-01",
+  "t": "-1749-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Purushanda",
+  "etkin_bolge": "Tuz Gölü çevresi / Orta Anadolu",
+  "sehirler": [
+   "Purushanda"
+  ],
+  "ozet": "Asur ticaret kolonileri çağında 'Büyük Kral'ın yönettiği şehir devleti; Anitta'ya boyun eğdi.",
+  "oncul": [],
+  "ardil": [
+   "kussara-nesa-krallik"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Konum tartışmalı (Acemhöyük?). Tarihler Asur Ticaret Kolonileri çağından yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kussara-nesa-krallik",
+  "ad": "Kuşşara–Neşa (Kaneş) Krallığı (Pithana, Anitta)",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-1779-01-01",
+  "t": "-1649-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kuşşara → Neşa (Kaneş)",
+  "etkin_bolge": "Orta Anadolu (Kayseri, Kültepe)",
+  "sehirler": [
+   "Kuşşara",
+   "Neşa (Kültepe)",
+   "Hattuşa (Anitta)"
+  ],
+  "ozet": "Pithana ve oğlu Anitta Neşa'yı başkent yapıp Orta Anadolu'yu birleştirdi; Hitit Eski Krallığı bunu izledi.",
+  "oncul": [
+   "purushanda"
+  ],
+  "ardil": [
+   "hitit-eski"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Anitta Metni. Hitit hanedanıyla soy bağı belirsiz.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "hitit-eski 1649'da başlıyor; öncül boşluk."
+  }
+ },
+ {
+  "id": "assuwa",
+  "ad": "Assuwa Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "anadolu",
+  "f": null,
+  "t": "-1429-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yuzyil"
+  },
+  "baskent": "bilinmiyor",
+  "etkin_bolge": "Batı Anadolu",
+  "sehirler": [
+   "bilinmiyor"
+  ],
+  "ozet": "Batı Anadolu'da Hitit kaynaklarında geçen 22 ülkenin koalisyonu; I. Tuthaliya tarafından dağıtıldı.",
+  "oncul": [],
+  "ardil": [
+   "arzawa"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "f: yıl bilinmiyor. Tuthaliya seferi tarihi kronolojiye göre kayar (MÖ 1430 ± 30).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "arzawa",
+  "ad": "Arzawa Krallığı",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-1499-01-01",
+  "t": "-1319-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Apaşa (Efes?)",
+  "etkin_bolge": "Batı ve Güneybatı Anadolu",
+  "sehirler": [
+   "Apaşa",
+   "Puranda",
+   "Hapalla"
+  ],
+  "ozet": "Hitit'in batı rakibi; Amarna mektuplarında Tarhundaradu. II. Murşili ~1320'de Apaşa'yı alıp ülkeyi Mira, Şeha ve Hapalla'ya böldü.",
+  "oncul": [
+   "assuwa"
+  ],
+  "ardil": [
+   "arzawa-vasal-devletleri"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Apaşa=Efes önerilir, kesin değil. Başlangıç belirsiz; Amarna (MÖ ~1360) en eski kesin tanıklık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "arzawa-vasal-devletleri",
+  "ad": "Mira, Şeha Nehri Ülkesi ve Hapalla (Arzawa Ardılları)",
+  "tur": "konfederasyon",
+  "bolge": "anadolu",
+  "f": "-1319-01-01",
+  "t": "-1178-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Apaşa / Kuwaliya",
+  "etkin_bolge": "Batı Anadolu",
+  "sehirler": [
+   "Apaşa",
+   "Kuwaliya"
+  ],
+  "ozet": "II. Murşili sonrası Hitit vasalı üç Arzawa krallığı; Hitit çöküşüyle dağıldı.",
+  "oncul": [
+   "arzawa"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t Hitit çöküşüne bağlı; bağımsız kayıt olmayabilir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "wilusa",
+  "ad": "Wilusa (Troya?) Krallığı",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Wilusa (Troya VI/VIIa?)",
+  "etkin_bolge": "Kuzeybatı Anadolu",
+  "sehirler": [
+   "Wilusa"
+  ],
+  "ozet": "Hitit vasalı; Alaksandu antlaşması (MÖ ~1280) ile bilinir; Troya ile özdeşliği tartışmalı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "f,t: yıl bilinmiyor.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tarhuntassa",
+  "ad": "Tarhuntaşşa Krallığı",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-1269-01-01",
+  "t": "-1178-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Tarhuntaşşa",
+  "etkin_bolge": "Güney-Orta Anadolu (Toroslar, Likaonya/Kilikya)",
+  "sehirler": [
+   "Tarhuntaşşa"
+  ],
+  "ozet": "II. Muvattali başkenti geçici olarak Tarhuntaşşa'ya taşıdı; Kurunta ile yarı bağımsız Hitit alt krallığı.",
+  "oncul": [
+   "hitit"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Konum tartışmalı; Hitit künyesinin parçası da sayılabilir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "hitit-imp içinde sayılabilir."
+  }
+ },
+ {
+  "id": "kaska",
+  "ad": "Kaşka Kabile Konfederasyonu",
+  "tur": "kabile-konfederasyonu",
+  "bolge": "anadolu",
+  "f": "-1499-01-01",
+  "t": "-1099-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "yok (merkezsiz)",
+  "etkin_bolge": "Pontus dağları",
+  "sehirler": [
+   "Nerik",
+   "Nihriya"
+  ],
+  "ozet": "Hitit'in kuzey komşusu merkezsiz kabileler; MÖ 1200'lerde Hitit kuzeyini ele geçirdi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasî birim mi etnik ad mı tartışmalı (brife göre yalnız siyasî birimse).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "isuwa",
+  "ad": "Isuwa Krallığı",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-1499-01-01",
+  "t": "-1099-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Şamuha?",
+  "etkin_bolge": "Yukarı Fırat (Elazığ–Malatya)",
+  "sehirler": [
+   "Şamuha"
+  ],
+  "ozet": "Hitit ve Mitanni arasında Yukarı Fırat havzası krallığı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Dönem aralığı kaba.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "nairi",
+  "ad": "Nairi Ülkeleri (Konfederasyon)",
+  "tur": "konfederasyon",
+  "bolge": "anadolu",
+  "f": "-1299-01-01",
+  "t": "-0859-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Van Gölü çevresi",
+  "sehirler": [
+   "Van çevresi"
+  ],
+  "ozet": "Asur kaynaklarında Van Gölü çevresindeki 23 kral; Urartu bu ülkelerden doğdu.",
+  "oncul": [],
+  "ardil": [
+   "urartu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "I. Tiglat-Pileser (MÖ ~1115) bildirimi ana kaynak.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "diauehi",
+  "ad": "Diauehi (Daiaeni) Krallığı",
+  "tur": "krallik",
+  "bolge": "kafkasya",
+  "f": "-1114-01-01",
+  "t": "-0778-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Taoi?",
+  "etkin_bolge": "Çoruh / Erzurum – Tao",
+  "sehirler": [
+   "Taoi"
+  ],
+  "ozet": "Tiglat-Pileser I ve Urartu kitabelerinde Çoruh-Erzurum bölgesi krallığı; Menua tarafından ezildi.",
+  "oncul": [],
+  "ardil": [
+   "kolkhis-krallik"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarih Urartu kitabelerinden yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "alasiya",
+  "ad": "Alaşiya (Kıbrıs) Krallığı",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-1748-01-01",
+  "t": "-1073-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Enkomi?",
+  "etkin_bolge": "Kıbrıs",
+  "sehirler": [
+   "Enkomi",
+   "Kition"
+  ],
+  "ozet": "Mari, Amarna, Ugarit metinlerinde bakır ihraç eden Kıbrıs devleti.",
+  "oncul": [],
+  "ardil": [
+   "kibris-sehir-krallik"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Alaşiya=Kıbrıs yaygın ama kesin değil. t: Wen-Amun (~MÖ 1075).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut kibris-* künyeleri 1185'te başlar (bolge anadolu)."
+  }
+ },
+ {
+  "id": "frigya",
+  "ad": "Frigya Krallığı",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-0798-01-01",
+  "t": "-0674-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Gordion",
+  "etkin_bolge": "Orta-Batı Anadolu",
+  "sehirler": [
+   "Gordion"
+  ],
+  "ozet": "Gordias/Midas hanedanı; Kimmer akını (MÖ ~676) ile çöktü, sonra Lidya egemenliği.",
+  "oncul": [],
+  "ardil": [
+   "lidya"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kimmer yıkımı MÖ 676 (Eusebius 696/695 verir). Frig devleti 8. yy yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede Frig yok."
+  }
+ },
+ {
+  "id": "que-hiyawa",
+  "ad": "Que (Hiyawa, Kilikya Ovası) Krallığı",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-0898-01-01",
+  "t": "-0694-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Adana / Karatepe",
+  "etkin_bolge": "Çukurova",
+  "sehirler": [
+   "Adana",
+   "Karatepe",
+   "Tarsus"
+  ],
+  "ozet": "Luvi-Fenike çift dilli Karatepe yazıtlarının krallığı; Asur ile savaşlar sonrası eyalet.",
+  "oncul": [
+   "yeni-hitit"
+  ],
+  "ardil": [
+   "kilikya-siennesis"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t: Sanherib'in 696 Kilikya seferi; sonrası kopuk. Hiyawa=Ahhiyawa önerisi var.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kilikya-siennesis",
+  "ad": "Kilikya Krallığı (Siennesis hanedanı)",
+  "tur": "krallik",
+  "bolge": "anadolu",
+  "f": "-0584-01-01",
+  "t": "-0332-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Tarsus",
+  "etkin_bolge": "Çukurova / Kilikya",
+  "sehirler": [
+   "Tarsus",
+   "Soloi",
+   "Aigai"
+  ],
+  "ozet": "Pers'e vasal Siennesis hanedanı; MÖ 585 Halys arabuluculuğu en eski kayıt.",
+  "oncul": [
+   "que-hiyawa"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "MÖ 4. yy Pers satraplığıyla kaynaşır.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "likya-dinastileri",
+  "ad": "Likya Dinastlıkları (Ksanthos, Limyra; Pers vasalı)",
+  "tur": "hanedanlik",
+  "bolge": "anadolu",
+  "f": "-0545-01-01",
+  "t": "-0332-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Ksanthos / Limyra",
+  "etkin_bolge": "Güneybatı Anadolu",
+  "sehirler": [
+   "Ksanthos",
+   "Limyra",
+   "Patara"
+  ],
+  "ozet": "Harpagos fethinden sonra Pers'e vasal yerli hanedanlar.",
+  "oncul": [],
+  "ardil": [
+   "likya-birligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Pers fethi MÖ 546 (Herodotos).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "iyonya-birligi",
+  "ad": "İyonya Dodekapolisi / Panionion Birliği",
+  "tur": "konfederasyon",
+  "bolge": "anadolu",
+  "f": null,
+  "t": "-0544-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Panionion (Mykale)",
+  "etkin_bolge": "Batı Anadolu kıyısı",
+  "sehirler": [
+   "Efes",
+   "Milet",
+   "Foça",
+   "Kolofon"
+  ],
+  "ozet": "On iki İyon kentinin dinî-siyasî birliği; Pers fethiyle sona erdi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "f: yıl bilinmiyor (MÖ 8–7. yy). t Pers fethi 546.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kibris-sehir-krallik",
+  "ad": "Kıbrıs Şehir Krallıkları (Salamis, Kition, Paphos, Soloi...)",
+  "tur": "sehir-devleti",
+  "bolge": "anadolu",
+  "f": "-0708-01-01",
+  "t": "-0308-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Salamis",
+  "etkin_bolge": "Kıbrıs",
+  "sehirler": [
+   "Salamis",
+   "Kition",
+   "Paphos",
+   "Soloi",
+   "Amathus"
+  ],
+  "ozet": "MÖ 709 Sargon II stelinde yedi kral; Ptolemaios MÖ 310'da Salamis'i sonlandırdı.",
+  "oncul": [
+   "alasiya"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "f ilk tanıklık, kuruluş değil.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "milet-polis",
+  "ad": "Milet (Miletos) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "anadolu",
+  "f": "-0998-01-01",
+  "t": "-0492-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Miletos",
+  "etkin_bolge": "Menderes ağzı",
+  "sehirler": [
+   "Miletos"
+  ],
+  "ozet": "İyon kolonizasyonuyla kurulan, Karadeniz'e koloniler yollayan polis.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t İyon İsyanı bastırılması; sonra özerk statü sürer.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "efes-polis",
+  "ad": "Efes (Ephesos) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "anadolu",
+  "f": "-0998-01-01",
+  "t": "-0558-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Efes",
+  "etkin_bolge": "Küçük Menderes ağzı",
+  "sehirler": [
+   "Efes"
+  ],
+  "ozet": "İyon polisi; Kroisos'un fethine dek bağımsız.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t Kroisos fethi ~MÖ 560.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "samos-polis",
+  "ad": "Samos Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "anadolu",
+  "f": "-0998-01-01",
+  "t": "-0515-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Samos",
+  "etkin_bolge": "Ege adası/Anadolu kıyısı",
+  "sehirler": [
+   "Samos"
+  ],
+  "ozet": "Polykrates tiranlığında Ege'nin deniz gücü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t Polykrates'in ölümü ve Pers kontrolü ~MÖ 517.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sinope-polis",
+  "ad": "Sinope Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "anadolu",
+  "f": "-0630-01-01",
+  "t": "-0181-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sinope",
+  "etkin_bolge": "Karadeniz kıyısı",
+  "sehirler": [
+   "Sinope"
+  ],
+  "ozet": "Miletli kolonisi; Pontus başkenti olmadan önce bağımsız polis.",
+  "oncul": [],
+  "ardil": [
+   "pontus"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t I. Pharnakes fethi (MÖ 183).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "herakleia-pontika",
+  "ad": "Herakleia Pontika Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "anadolu",
+  "f": "-0559-01-01",
+  "t": "-0069-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Herakleia Pontika",
+  "etkin_bolge": "Karadeniz Ereğlisi",
+  "sehirler": [
+   "Herakleia Pontika"
+  ],
+  "ozet": "Megaralı kolonisi; Klearkhos tiranlığı; Roma'ya karşı Cotta (MÖ ~70).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t belirsiz.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kyzikos-polis",
+  "ad": "Kyzikos Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "anadolu",
+  "f": "-0675-01-01",
+  "t": "0025-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kyzikos",
+  "etkin_bolge": "Marmara kıyısı (Kapıdağ)",
+  "sehirler": [
+   "Kyzikos"
+  ],
+  "ozet": "Miletli kolonisi; Roma'ya sadık özgür şehir, 25'te özgürlüğü kaldırıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t Tiberius'un özgürlüğü kaldırması (MS 25).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kolkhis-krallik",
+  "ad": "Kolkhis Krallığı",
+  "tur": "krallik",
+  "bolge": "kafkasya",
+  "f": "-0598-01-01",
+  "t": "-0108-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Aia / Phasis",
+  "etkin_bolge": "Doğu Karadeniz kıyısı (Rioni havzası)",
+  "sehirler": [
+   "Phasis",
+   "Aia",
+   "Dioskurias"
+  ],
+  "ozet": "Argonaut efsanesinin Kolkhis'i; Mithridates VI tarafından Pontus'a katıldı.",
+  "oncul": [
+   "diauehi"
+  ],
+  "ardil": [
+   "lazika"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş MÖ 8–6. yy arası; Mithridates ilhakı ~MÖ 110.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

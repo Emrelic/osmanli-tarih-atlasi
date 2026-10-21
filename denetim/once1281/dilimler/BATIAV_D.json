@@ -1,0 +1,1433 @@
+[
+ {
+  "id": "neustria",
+  "ad": "Neustria Kralligi (Merovenj)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0511-01-01",
+  "t": "0751-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Soissons / Paris",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Merovenj bolunmesinden (511) sonra Frank bati kralligi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Bolunmeler cok kez birlesti; sureklilik kismen. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "frank 481-843 umbrella."
+  }
+ },
+ {
+  "id": "austrasia",
+  "ad": "Austrasia Kralligi (Merovenj)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0511-01-01",
+  "t": "0751-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Reims / Metz",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Frank dogu kralligi; Karolenj yukselisi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "frank-burgundia",
+  "ad": "Frank Burgundia (Merovenj alt kralligi)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0534-01-01",
+  "t": "0751-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Orleans / Chalon",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Burgund Kralligi'nin (burgund) 534 ilhakindan sonra Frank alt kralligi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "akitanya-merovenj",
+  "ad": "Akitanya Dukaligi (Merovenj-Odo-Waifar)",
+  "tur": "dukalik",
+  "bolge": "bati-avrupa",
+  "f": "0660-01-01",
+  "t": "0768-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Toulouse / Bordeaux",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Felix, Eudes, Hunald, Waifar'in bagimsiz Akitanya dukaligi; Pepin 768de sona erdirdi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f yaklasik 660. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "toulouse (849) ve akitanya-dukaligi (1000) farkli donem."
+  }
+ },
+ {
+  "id": "vasconia",
+  "ad": "Vasconia Dukaligi",
+  "tur": "dukalik",
+  "bolge": "bati-avrupa",
+  "f": "0602-01-01",
+  "t": "0778-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Auch / Pamplona yakini",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Vasklar Frank-Vizigot arasinda; Gaskonya'ya evrildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f 602 Frank-Vasklar catismasi. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "gaskonya (E) ardil."
+  }
+ },
+ {
+  "id": "akitanya-karolenj",
+  "ad": "Akitanya Kralligi (Karolenj alt kralligi)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0781-01-01",
+  "t": "0877-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Toulouse / Bordeaux",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Louis (Dindar), Pepin I-II ve Kel Charles doneminde Akitanya kralligi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "t taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "karolenj-imparatorlugu",
+  "ad": "Karolenj Imparatorlugu (Charlemagne ve ardillari)",
+  "tur": "imparatorluk",
+  "bolge": "bati-avrupa",
+  "f": "0800-12-25",
+  "t": "0888-01-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "yil"
+  },
+  "baskent": "Aachen",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "25 Aralik 800 imparatorluk tacı; 843 Verdun bolunmesi; 888 Sisman Charles'in olumu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f imparatorluk taci gunu. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "frank",
+   "not": "frank kunyesi 481-843; imparatorluk sureklilgi 888e uzanir."
+  }
+ },
+ {
+  "id": "orta-francia",
+  "ad": "Orta Francia (I. Lothar)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0843-08-01",
+  "t": "0855-09-29",
+  "kesinlik": {
+   "f": "ay",
+   "t": "gun"
+  },
+  "baskent": "Aachen",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Verdun (843) ile I. Lothar'in olumu (855) arasi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Verdun Agustos 843; gun teyitsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "orta-francia-lotharingia",
+   "not": "kunye f 855."
+  }
+ },
+ {
+  "id": "asagi-burgundia-provence",
+  "ad": "Asagi Burgonya (Provence) Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0879-10-15",
+  "t": "0933-01-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "yil"
+  },
+  "baskent": "Vienne / Arles",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Boso'nun Mantaille'de secilmesi (879) ile Vienne merkezli krallik; sonra Arles ile birlesti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f Mantaille meclisi 15 Ekim 879 (taslak, gun teyitsiz). Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "arles-kralligi",
+   "not": ""
+  }
+ },
+ {
+  "id": "yukari-burgundia",
+  "ad": "Yukari Burgonya Kralligi (Rudolfian)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0888-01-01",
+  "t": "0933-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Saint-Maurice (Valais)",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "I. Rudolf'un kralligi (888); 933te Arles ile birlesti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Orta Avrupa/Italya siniri. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "arles-kralligi",
+   "not": ""
+  }
+ },
+ {
+  "id": "friz-krallik",
+  "ad": "Frizya Kralligi (Radbod)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0600-01-01",
+  "t": "0734-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Utrecht / Dorestad",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Magna Frisia; Radbod; 734 Boarn Savasi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f belirsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "frizya-ozgurlugu (1101) farkli donem."
+  }
+ },
+ {
+  "id": "essex",
+  "ad": "Essex (Dogu Sakson) Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0527-01-01",
+  "t": "0825-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "London",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Heptarsi; AEscwine gelenegi 527; Wessex'e baglanma ~825.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f gelenek. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Heptarsi: kent, sussex, wessex, mercia, northumbria, dogu-anglia mevcut."
+  }
+ },
+ {
+  "id": "bernicia",
+  "ad": "Bernicia",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0547-01-01",
+  "t": "0654-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Bamburgh",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Ida'dan (547) Northumbria birligine.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Northumbria kunyesi 604. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "northumbria",
+   "not": ""
+  }
+ },
+ {
+  "id": "deira",
+  "ad": "Deira",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0560-01-01",
+  "t": "0654-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "York",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "AElle'den itibaren; Northumbria'ya katildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "northumbria",
+   "not": ""
+  }
+ },
+ {
+  "id": "lindsey",
+  "ad": "Lindsey Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Lincoln",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Humber guneyi Anglo krallik; Mercia/Northumbria arasinda el degistirdi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "hwicce",
+  "ad": "Hwicce",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Worcester",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Mercia'ya bagli yari bagimsiz Anglo krallik.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "elmet",
+  "ad": "Elmet",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "0617-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Loidis (Leeds)",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Brittonic krallik; 617 Edwin tarafindan sonlandirildigi soylenir.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "rheged",
+  "ad": "Rheged",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Carlisle (?)",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Cumbria Brittonic kralligi; Urien.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarih yok; kaynaklar siirsel. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "gododdin",
+  "ad": "Gododdin (Manaw)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "0638-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Din Eidyn (Edinburgh)",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Lothian Brittonic kralligi; Edinburgh 638de Northumbria'ca alindi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dyfed",
+  "ad": "Dyfed Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "0920-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Narberth",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Guneybati Galler; Deheubarth'a katildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f belirsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "deheubarth (920)"
+  }
+ },
+ {
+  "id": "gwent",
+  "ad": "Gwent Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Caerwent",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Guneydogu Galler.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "glywysing",
+  "ad": "Glywysing / Morgannwg",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Llandaff (?)",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Guney Galler.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "brycheiniog",
+  "ad": "Brycheiniog Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Brecon",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Orta Galler.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ceredigion",
+  "ad": "Ceredigion Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Aberystwyth bolgesi",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Orta bati Galler.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "alba",
+  "ad": "Alba Kralligi (II. Constantine - MacAlpin ardillari)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0900-01-01",
+  "t": "1005-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Scone",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Skot-Pikt birlesmesi; Alba adi II. Constantine (900) ile kullanilir.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "843 vs 900 kronoloji okulu farki. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "iskocya",
+   "not": "iskocya kunyesi 843-1707."
+  }
+ },
+ {
+  "id": "adalar-kralligi",
+  "ad": "Adalar Kralligi (Sudreyjar/Hebridler)",
+  "tur": "norse-krallik",
+  "bolge": "bati-avrupa",
+  "f": "0850-01-01",
+  "t": "1266-07-02",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "gun"
+  },
+  "baskent": "Peel / Man",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Norse-Gal adalar kralligi; 1266 Perth Antlasmasi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "man-ve-adalar-krallik",
+   "not": "kunye 1000den."
+  }
+ },
+ {
+  "id": "orkney-jarllik-erken",
+  "ad": "Orkney Jarlligi (erken)",
+  "tur": "jarllik",
+  "bolge": "kuzey-avrupa",
+  "f": "0875-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Birsay / Kirkwall",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Rognvald Eysteinsson (~875); kunye 1000den.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "orkney-kontlugu",
+   "not": ""
+  }
+ },
+ {
+  "id": "waterford-norse",
+  "ad": "Waterford (Norse) Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0914-01-01",
+  "t": "1170-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Waterford",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Viking kurulusu; Strongbow 1170.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "dublin-krallik mevcut."
+  }
+ },
+ {
+  "id": "limerick-norse",
+  "ad": "Limerick (Norse) Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0922-01-01",
+  "t": "1014-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Limerick",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Norse; Brian Boru fethi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "connacht",
+  "ad": "Connacht Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Cruachan / Tuam",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Irlanda'nin bati eyalet kralligi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "irlanda kunyesi 1000den."
+  }
+ },
+ {
+  "id": "leinster",
+  "ad": "Leinster (Laigin) Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Naas / Ferns",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Dogu Irlanda; Diarmait Mac Murchada 1166.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "munster",
+  "ad": "Munster (Mumu) Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Cashel",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Guney Irlanda; Eoganacht -> Dal gCais.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ulaid",
+  "ad": "Ulaid (Ulster) Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "1177-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Emain Macha",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Kuzeydogu Irlanda; 1177 John de Courcy.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "mide",
+  "ad": "Mide (Meath) Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": "1173-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Tara / Uisneach",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Guney Ui Neill.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ailech",
+  "ad": "Ailech (Cenel nEogain) Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Grianan of Aileach",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Kuzey Ui Neill.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "osraige",
+  "ad": "Osraige Kralligi",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Kilkenny",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Guney-orta Irlanda.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bretanya-nominoe",
+  "ad": "Bretanya Prensligi/Kralligi (Nominoe - Salomon)",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0845-01-01",
+  "t": "0939-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Rennes / Nantes",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Nominoe 845; Erispoe krallik; Alan Barbetorte 939.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "bretanya",
+   "not": "kunye 939 dukalik."
+  }
+ },
+ {
+  "id": "galicia-kralligi",
+  "ad": "Galicya Kralligi",
+  "tur": "krallik",
+  "bolge": "iberya",
+  "f": "0910-01-01",
+  "t": "1071-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Santiago de Compostela",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Asturias ayrilisi; bagimsiz Galicya.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "suev 409-585 oncul."
+  }
+ },
+ {
+  "id": "portucale",
+  "ad": "Portucale (Portekiz) Kontlugu",
+  "tur": "kontluk",
+  "bolge": "iberya",
+  "f": "0868-01-01",
+  "t": "1097-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Portucale / Guimaraes",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Vimara Peres; Portekiz Kralligi'nin onculu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "portekiz",
+   "not": ""
+  }
+ },
+ {
+  "id": "kastilya-kontlugu",
+  "ad": "Kastilya Kontlugu",
+  "tur": "kontluk",
+  "bolge": "iberya",
+  "f": "0850-01-01",
+  "t": "1035-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Burgos",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Rodrigo; Fernan Gonzalez (931-970); Kastilya Kralligi (1035).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "kastilya",
+   "not": ""
+  }
+ },
+ {
+  "id": "aragon-kontlugu",
+  "ad": "Aragon Kontlugu",
+  "tur": "kontluk",
+  "bolge": "iberya",
+  "f": "0809-01-01",
+  "t": "1035-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Jaca",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Aznar Galindez; Ramiro I.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "aragon",
+   "not": "kunye 1035."
+  }
+ },
+ {
+  "id": "sobrarbe-ribagorza",
+  "ad": "Sobrarbe-Ribagorza Kontluklari",
+  "tur": "kontluk",
+  "bolge": "iberya",
+  "f": "0872-01-01",
+  "t": "1035-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Pirene kontluklari; Navarra/Aragon'a katildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "pallars",
+  "ad": "Pallars Kontluklari",
+  "tur": "kontluk",
+  "bolge": "iberya",
+  "f": "0872-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yuzyil"
+  },
+  "baskent": "",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Katalan Pirene kontluklari.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "barselona-kontlugu ile iliski."
+  }
+ },
+ {
+  "id": "urgell",
+  "ad": "Urgell Kontlugu",
+  "tur": "kontluk",
+  "bolge": "iberya",
+  "f": "0798-01-01",
+  "t": "1314-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Seu d'Urgell",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Katalan kontlugu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "empuries",
+  "ad": "Empuries (Ampurias) Kontlugu",
+  "tur": "kontluk",
+  "bolge": "iberya",
+  "f": "0819-01-01",
+  "t": "1402-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Castello d'Empuries",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Katalan kontlugu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "besalu",
+  "ad": "Besalu Kontlugu",
+  "tur": "kontluk",
+  "bolge": "iberya",
+  "f": "0878-01-01",
+  "t": "1111-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Besalu",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Katalan kontlugu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "septimania-gotia",
+  "ad": "Septimania / Gotia Markizligi",
+  "tur": "markizlik",
+  "bolge": "bati-avrupa",
+  "f": "0759-01-01",
+  "t": "0900-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Narbonne",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Narbonne 759 Frank; Gotia Markizligi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "beni-kasi",
+  "ad": "Beni Kasi (Ebro Muvelled Hanedani)",
+  "tur": "emirlik",
+  "bolge": "iberya",
+  "f": null,
+  "t": "0929-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Tudela",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Ebro vadisinde yari bagimsiz Muvelled hanedani.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "f bilinmiyor; taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bobastro",
+  "ad": "Bobastro (Ibn Hafsun Emirligi)",
+  "tur": "emirlik",
+  "bolge": "iberya",
+  "f": "0880-01-01",
+  "t": "0928-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Bobastro",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Muvelled isyan devleti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "svear-uppsala",
+  "ad": "Svear (Uppsala) Kralligi",
+  "tur": "krallik",
+  "bolge": "kuzey-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Gamla Uppsala",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Svealand; Ynglingar; Isvec onculu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler belirsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "isvec-birlik-oncesi",
+   "not": ""
+  }
+ },
+ {
+  "id": "gotar-gotaland",
+  "ad": "Gotar (Gotaland) Kralligi",
+  "tur": "krallik",
+  "bolge": "kuzey-avrupa",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Gotaland; Isvec'e katildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler belirsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "lade-jarlligi",
+  "ad": "Lade Jarlligi (Hladir)",
+  "tur": "jarllik",
+  "bolge": "kuzey-avrupa",
+  "f": "0870-01-01",
+  "t": "1035-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Hladir",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Trondelag jarllari, Norvec'te kral disi guc.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "faroe",
+  "ad": "Faroe Adalari (Norse Althing)",
+  "tur": "koylu-konfederasyonu",
+  "bolge": "kuzey-avrupa",
+  "f": "0825-01-01",
+  "t": "1035-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Tinganes",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Norse yerlesim, Althing.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

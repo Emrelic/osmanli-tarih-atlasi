@@ -1,0 +1,697 @@
+[
+ {
+  "id": "thaton-mon",
+  "ad": "Thaton (Ramannadesa / Mon)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": null,
+  "t": "1057-01-01",
+  "kesinlik": {
+   "f": null,
+   "t": "yil"
+  },
+  "baskent": "Thaton",
+  "etkin_bolge": "Alt Myanmar kiyi seridi",
+  "sehirler": [
+   "Thaton",
+   "Pegu"
+  ],
+  "ozet": "Mon yazit kulturu; 1057 Anawrahta Pagan'i genisletirken Thaton'u aldi.",
+  "oncul": [],
+  "ardil": [
+   "pagan"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Thaton'un siyasi varligi icin 11. yy oncesi belge zayif (Mon krallıgi efsanevi olabilir); f yil bilinmiyor.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "launggyet",
+  "ad": "Launggyet (Arakan)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1018-01-01",
+  "t": "1167-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Launggyet",
+  "etkin_bolge": "Arakan (Rakhine)",
+  "sehirler": [
+   "Launggyet"
+  ],
+  "ozet": "Arakan'in Launggyet donemi; Pagan sınirina bagimli kucuk krallik.",
+  "oncul": [
+   "vesali-chandra"
+  ],
+  "ardil": [
+   "mrauk-u"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Gutman, P., Ancient Arakan (Myanmar Historical Commission, 2001) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Arakan kroniklerine dayanir; tarihler aday; dil E.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "butuan",
+  "ad": "Butuan Racaligi",
+  "tur": "beylik",
+  "bolge": "guneydogu-asya",
+  "f": "1001-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": null
+  },
+  "baskent": "Butuan",
+  "etkin_bolge": "Agusan vadisi (Kuzey Mindanao)",
+  "sehirler": [
+   "Butuan"
+  ],
+  "ozet": "1001 Song elci kaydi; altin Tara, Hindu-Budist Rajah; 16. yy Magellan temasi.",
+  "oncul": [],
+  "ardil": [
+   "filipin-racaliklari"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Junker, L. L., Raiding, Trading and Feasting (Univ. of Hawaii Press, 1999) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Song shi 1001 elci; t yil bilinmiyor.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "filipin-racaliklari",
+   "not": ""
+  }
+ },
+ {
+  "id": "cebu-racaligi",
+  "ad": "Cebu Racaligi",
+  "tur": "beylik",
+  "bolge": "guneydogu-asya",
+  "f": "1250-01-01",
+  "t": "1565-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Singhapala (Cebu)",
+  "etkin_bolge": "Cebu",
+  "sehirler": [
+   "Cebu"
+  ],
+  "ozet": "Sri Lumay geleneginde Chola kokenli rajalik; 1565 Legazpi fethi.",
+  "oncul": [],
+  "ardil": [
+   "filipin-racaliklari"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Junker, L. L., Raiding, Trading and Feasting (Univ. of Hawaii Press, 1999) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "13. yy kurulus yaklasik, sozlu gelenek.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "filipin-racaliklari",
+   "not": ""
+  }
+ },
+ {
+  "id": "samudra-pasai",
+  "ad": "Samudera Pasai Sultanligi",
+  "tur": "emirlik",
+  "bolge": "guneydogu-asya",
+  "f": "1267-01-01",
+  "t": "1521-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pasai",
+  "etkin_bolge": "Kuzey Sumatra (Aceh)",
+  "sehirler": [
+   "Pasai"
+  ],
+  "ozet": "Merah Silu'nun 1267 Islam sultanligi; 1521 Portekiz fethi.",
+  "oncul": [],
+  "ardil": [
+   "aceh"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Goh Geok Yian et al., Ancient Southeast Asia (Routledge, 2019) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Marco Polo 1292 Ferlec; Pasai mezar tasi 1297.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ternate",
+  "ad": "Ternate Krallıgi",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1257-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": null
+  },
+  "baskent": "Sampalu → Ternate",
+  "etkin_bolge": "Kuzey Maluku",
+  "sehirler": [
+   "Ternate"
+  ],
+  "ozet": "Baab Mashur Malamo kuruluşu 1257 geleneksel.",
+  "oncul": [],
+  "ardil": [
+   "ternate-sultanligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sultanlık 1486; 1257 kronik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tidore",
+  "ad": "Tidore Krallıgi",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1081-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": null
+  },
+  "baskent": "Soasio",
+  "etkin_bolge": "Kuzey Maluku",
+  "sehirler": [
+   "Tidore"
+  ],
+  "ozet": "Gelenekte Kolano ile 1081.",
+  "oncul": [],
+  "ardil": [
+   "tidore-sultanligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kaynak zayif; gelenek 1081.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "janggala",
+  "ad": "Janggala",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1042-01-01",
+  "t": "1136-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kahuripan / Janggala",
+  "etkin_bolge": "Dogu Cava (Brantas)",
+  "sehirler": [
+   "Kahuripan"
+  ],
+  "ozet": "Airlangga ulkeyi 1042'de Panjalu (Kediri) ve Janggala'ya boldu.",
+  "oncul": [
+   "kahuripan"
+  ],
+  "ardil": [
+   "kediri"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Pucangan yazitindan; t ~1136 gelenek, belirsiz.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "phayao",
+  "ad": "Phayao",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1096-01-01",
+  "t": "1338-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Phayao",
+  "etkin_bolge": "Kuzey Tayland",
+  "sehirler": [
+   "Phayao"
+  ],
+  "ozet": "Ngoenyang sonrası ayrik Tai krallığı; 1338'de Lan Na'ya katildi.",
+  "oncul": [
+   "ngoenyang"
+  ],
+  "ardil": [
+   "lan-na"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kronik tarihler.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "suphannaphum",
+  "ad": "Suphannaphum (Suphanburi)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1000-01-01",
+  "t": "1350-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Suphanburi",
+  "etkin_bolge": "Chao Phraya aşağı havzasi",
+  "sehirler": [
+   "Suphanburi"
+  ],
+  "ozet": "Ayutthaya'nin yükselmesine kadar Tai-Khmer sınır krallıgi.",
+  "oncul": [],
+  "ardil": [
+   "ayutthaya"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Baslangic yaklasik; t Ayutthaya 1350.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "pattani-kadaram",
+  "ad": "Pattani (Langkasuka mirasi)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1000-01-01",
+  "t": "1457-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Pattani",
+  "etkin_bolge": "Güney Tayland",
+  "sehirler": [
+   "Pattani"
+  ],
+  "ozet": "Langkasuka halefi, sultanlık sonrası 1457.",
+  "oncul": [
+   "langkasuka"
+  ],
+  "ardil": [
+   "pattani-sultanligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Langkasuka kaydina dahil edilebilir; ayrik kayit gerekçesi zayif.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "campa",
+  "ad": "Champa",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1000-01-01",
+  "t": "1832-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Vijaya",
+  "etkin_bolge": "Orta Vietnam",
+  "sehirler": [],
+  "ozet": "Sonraki Champa.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "campa",
+   "not": ""
+  }
+ },
+ {
+  "id": "hariphunchai",
+  "ad": "Haripunchai",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1000-01-01",
+  "t": "1292-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Lamphun",
+  "etkin_bolge": "Kuzey Tayland",
+  "sehirler": [],
+  "ozet": "Mon kralligi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. Gelenek 750; Camadevi 7.-8. yy; f 1000 yerine ~750",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "hariphunchai",
+   "not": "Gelenek 750; Camadevi 7.-8. yy; f 1000 yerine ~750"
+  }
+ },
+ {
+  "id": "filipin-racaliklari",
+  "ad": "Filipin Racaliklari",
+  "tur": "beylik",
+  "bolge": "guneydogu-asya",
+  "f": "1001-01-01",
+  "t": "1571-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "",
+  "etkin_bolge": "Filipinler",
+  "sehirler": [],
+  "ozet": "Genel.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Junker, L. L., Raiding, Trading and Feasting (Univ. of Hawaii Press, 1999) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "filipin-racaliklari",
+   "not": ""
+  }
+ },
+ {
+  "id": "ly-hanedani",
+  "ad": "Ly Hanedani",
+  "tur": "hanedanlik",
+  "bolge": "guneydogu-asya",
+  "f": "1009-01-01",
+  "t": "1225-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Thang Long",
+  "etkin_bolge": "Kizil Nehir",
+  "sehirler": [],
+  "ozet": "Dai Viet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "ly-hanedani",
+   "not": ""
+  }
+ },
+ {
+  "id": "kahuripan",
+  "ad": "Kahuripan (Airlangga)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1019-01-01",
+  "t": "1042-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kahuripan",
+  "etkin_bolge": "Dogu Cava",
+  "sehirler": [],
+  "ozet": "Airlangga.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kahuripan",
+   "not": ""
+  }
+ },
+ {
+  "id": "kediri",
+  "ad": "Kediri (Panjalu)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1042-01-01",
+  "t": "1222-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Daha",
+  "etkin_bolge": "Dogu Cava",
+  "sehirler": [],
+  "ozet": "Kediri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kediri",
+   "not": ""
+  }
+ },
+ {
+  "id": "sipsong-panna",
+  "ad": "Sipsong Panna",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1180-01-01",
+  "t": "1950-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chiang Rung",
+  "etkin_bolge": "Yunnan guney",
+  "sehirler": [],
+  "ozet": "Tai Lu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sipsong-panna",
+   "not": ""
+  }
+ },
+ {
+  "id": "singhasari",
+  "ad": "Singhasari",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1222-01-01",
+  "t": "1292-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Singhasari",
+  "etkin_bolge": "Dogu Cava",
+  "sehirler": [],
+  "ozet": "Singhasari.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. 1292 Jayakatwang",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "singhasari",
+   "not": "1292 Jayakatwang"
+  }
+ },
+ {
+  "id": "tran-hanedani",
+  "ad": "Tran Hanedani",
+  "tur": "hanedanlik",
+  "bolge": "guneydogu-asya",
+  "f": "1225-01-01",
+  "t": "1400-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Thang Long",
+  "etkin_bolge": "Kizil Nehir",
+  "sehirler": [],
+  "ozet": "Tran.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "tran-hanedani",
+   "not": ""
+  }
+ },
+ {
+  "id": "sukhothai",
+  "ad": "Sukhothai",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1238-01-01",
+  "t": "1438-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sukhothai",
+  "etkin_bolge": "Orta Tayland",
+  "sehirler": [],
+  "ozet": "Sukhothai.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. 1238; Ayutthaya 1438 baglanma",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sukhothai",
+   "not": "1238; Ayutthaya 1438 baglanma"
+  }
+ },
+ {
+  "id": "lan-na",
+  "ad": "Lan Na",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "1262-01-01",
+  "t": "1558-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chiang Mai",
+  "etkin_bolge": "Kuzey Tayland",
+  "sehirler": [],
+  "ozet": "Lan Na.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. 1262 Chiang Saen; 1292 Lan Na adi; 1296 Chiang Mai",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "lan-na",
+   "not": "1262 Chiang Saen; 1292 Lan Na adi; 1296 Chiang Mai"
+  }
+ }
+]

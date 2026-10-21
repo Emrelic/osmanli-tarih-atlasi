@@ -1,0 +1,297 @@
+[
+ {
+  "id": "saudeleur-pohnpei",
+  "ad": "Saudeleur Hanedanı (Pohnpei)",
+  "tur": "hanedanlik",
+  "bolge": "okyanusya",
+  "f": "1180-01-01",
+  "t": "1628-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Nan Madol",
+  "etkin_bolge": "Pohnpei",
+  "sehirler": [
+   "Nan Madol"
+  ],
+  "ozet": "Nan Madol'u kuran merkezî şeflik; Isokelekel tarafından devrildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Nan Madol inşası MS ~1180-1200 (Ayres/Athens), bitiş tarihi tartışmalı. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): Athens 1990 Nan Madol; Ayres 1990.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "saudeleur",
+   "not": "Mevcut künye f=1100; kaynak ~1180 (80 yıl fark)."
+  }
+ },
+ {
+  "id": "yap-sawei",
+  "ad": "Yap Sawei Haraç Sistemi",
+  "tur": "konfederasyon",
+  "bolge": "okyanusya",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Yap",
+  "etkin_bolge": "Yap ve Ulithi-Woleai zinciri",
+  "sehirler": [
+   "Gagil",
+   "Tomil"
+  ],
+  "ozet": "Yap'ın dış adalara uyguladığı Sawei haraç ağı; başlangıç belirsiz.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Yıl bilinmiyor; MS 1280 öncesi olduğu doğrulanmadı (belki sonrası). Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "palau-koy-seflikleri",
+  "ad": "Palau Köy Şeflikleri",
+  "tur": "seflikler",
+  "bolge": "okyanusya",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Koror, Melekeok",
+  "etkin_bolge": "Palau",
+  "sehirler": [
+   "Koror",
+   "Melekeok"
+  ],
+  "ozet": "Köy şeflikleri birliği; erken tarih bulunamadı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Yıl bilinmiyor. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tahiti-taputapuatea",
+  "ad": "Taputapuatea (Raiatea) Dinî-Siyasî Merkezi",
+  "tur": "seflikler",
+  "bolge": "okyanusya",
+  "f": "1025-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "onyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Opoa",
+  "etkin_bolge": "Cemiyet Adaları",
+  "sehirler": [
+   "Opoa"
+  ],
+  "ozet": "Polinezya ölçeğinde ortak marae; Tahiti şefliklerinin parçası.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut Tahiti künyesine ilişkili; marae tarihi UNESCO'da MS ~1000-1100 sonrası. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): UNESCO WHC 1529 Taputapuatea.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "tahiti",
+   "not": "Tahiti kaydının parçası; ayrı kayıt gerekmez."
+  }
+ },
+ {
+  "id": "samoa-tui-manua",
+  "ad": "Sāmoa Şeflikleri (Tuʻi Manuʻa)",
+  "tur": "seflikler",
+  "bolge": "okyanusya",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Manuʻa / Upolu",
+  "etkin_bolge": "Sāmoa",
+  "sehirler": [
+   "Taʻu",
+   "Mulinuʻu"
+  ],
+  "ozet": "Tuʻi Manuʻa unvanlı merkezî şeflik; Tonga egemenliği ve Malietoa dönemi gelenekle anlatılır.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Yıl bilinmiyor; Tonga egemenliği gelenekte ~MS 1200-1250. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "fiji-seflikleri",
+  "ad": "Fiji Şeflikleri (Bau, Lau, Rewa)",
+  "tur": "seflikler",
+  "bolge": "okyanusya",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Bau",
+  "etkin_bolge": "Fiji",
+  "sehirler": [
+   "Bau",
+   "Rewa"
+  ],
+  "ozet": "Savaşçı şeflikler; MS 1280 öncesi siyasî birim doğrulanamadı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Yıl bilinmiyor. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "marquesas-seflikleri",
+  "ad": "Marquesas Kabile Şeflikleri",
+  "tur": "seflikler",
+  "bolge": "okyanusya",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Marquesas",
+  "sehirler": [
+   "Taiohae",
+   "Hatiheu"
+  ],
+  "ozet": "Vadi bazlı şeflikler; yerleşim ~MS 1000 civarı, siyasî birim sonraki olabilir.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Yıl bilinmiyor. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "aotearoa-maori-oncesi",
+  "ad": "Aotearoa Erken Māori Yerleşimi",
+  "tur": "kultur",
+  "bolge": "okyanusya",
+  "f": "1250-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "onyil",
+   "t": "belirsiz"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Yeni Zelanda",
+  "sehirler": [
+   "Wairau Bar"
+  ],
+  "ozet": "Moa avcısı erken dönem; iwi/hapū siyasî yapıları sonrası.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Yerleşim MS ~1230-1280 (Wilmshurst 2011) kabaca; siyasî birim değil. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "ILISKILI (kültür)."
+  }
+ },
+ {
+  "id": "hawaii-erken",
+  "ad": "Hawaii Şeflikleri (erken)",
+  "tur": "seflikler",
+  "bolge": "okyanusya",
+  "f": "1190-01-01",
+  "t": "1795-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Hawaii",
+  "sehirler": [
+   "Waipiʻo"
+  ],
+  "ozet": "Mevcut Hawaii künyesiyle aynı polity.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Yerleşim MS ~1000-1200. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "hawaii-seflikleri",
+   "not": ""
+  }
+ },
+ {
+  "id": "rapa-nui-erken",
+  "ad": "Rapa Nui Soyları",
+  "tur": "seflikler",
+  "bolge": "okyanusya",
+  "f": "1200-01-01",
+  "t": "1888-09-09",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Anakena",
+  "etkin_bolge": "Paskalya Adası",
+  "sehirler": [
+   "Anakena"
+  ],
+  "ozet": "Mevcut künyeyle aynı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Yerleşim ~800-1200 tartışmalı. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "rapa-nui",
+   "not": ""
+  }
+ }
+]

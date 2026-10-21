@@ -1,0 +1,33 @@
+[
+ {
+  "id": "lapita-kulturu",
+  "ad": "Lapita Kültürü",
+  "tur": "kultur",
+  "bolge": "okyanusya",
+  "f": "-1599-01-01",
+  "t": "-0499-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "yok (kültür)",
+  "etkin_bolge": "Bismarck Takımadaları'ndan Fiji, Tonga, Sāmoa'ya",
+  "sehirler": [
+   "Talepakemalai (Mussau)",
+   "Teouma (Vanuatu)",
+   "Sigatoka (Fiji)"
+  ],
+  "ozet": "Uzak Okyanusya'yı yerleştiren çanak kültürü; siyasî birim değil, ilişkili.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler ~1600-500 MÖ kabaca; bölgeye göre değişir (Tonga/Sāmoa ~900 MÖ). Ana listeye ilişkili. Kaynak bu oturumda web'de ACILIP OKUNMADI; tarihler hafizadan, dogrulama taslak. Aday kaynak (okunmadi): Kirch 1997 The Lapita Peoples; Bedford & Spriggs yazıları.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "ILISKILI (kültür)."
+  }
+ }
+]

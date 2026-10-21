@@ -1,0 +1,1091 @@
+[
+ {
+  "id": "maukhari",
+  "ad": "Maukhari Hanedanı (Kannauj)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0550-01-01",
+  "t": "0606-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Kannauj",
+  "etkin_bolge": "Doab",
+  "sehirler": [
+   "Kannauj"
+  ],
+  "ozet": "Gupta sonrası Kannauj merkezli; Harsha'nın evlilik ittifakı ile devir.",
+  "oncul": [
+   "gupta"
+  ],
+  "ardil": [
+   "harsha"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "sonraki-gupta",
+  "ad": "Sonraki Gupta (Magadha) Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0550-01-01",
+  "t": "0750-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Pataliputra / Malwa",
+  "etkin_bolge": "Magadha-Malwa",
+  "sehirler": [
+   "Pataliputra"
+  ],
+  "ozet": "Gupta'dan ayrı Magadha kolu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Soy bağlantısı tartışmalı.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "gauda-shashanka",
+  "ad": "Gauda (Shashanka) Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0590-01-01",
+  "t": "0625-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Karnasuvarna",
+  "etkin_bolge": "Bengal",
+  "sehirler": [
+   "Karnasuvarna"
+  ],
+  "ozet": "Shashanka ile Harsha'ya karşı Bengal hanedanı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "t yaklaşık (625-638).  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "harsha-ref",
+  "ad": "Harsha İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0606-01-01",
+  "t": "0647-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kannauj",
+  "etkin_bolge": "Kuzey Hint",
+  "sehirler": [
+   "Kannauj",
+   "Thanesar"
+  ],
+  "ozet": "Harsha'nın kısa ömürlü imparatorluğu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "harsha",
+   "not": ""
+  }
+ },
+ {
+  "id": "khadga",
+  "ad": "Khadga Hanedanı (Samatata)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0625-01-01",
+  "t": "0705-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Karmanta",
+  "etkin_bolge": "Güneydoğu Bengal",
+  "sehirler": [
+   "Karmanta"
+  ],
+  "ozet": "Samatata'daki Khadga.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "karkota-ref",
+  "ad": "Karkota Hanedanı (Keşmir)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0625-01-01",
+  "t": "0855-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Parihasapura",
+  "etkin_bolge": "Keşmir",
+  "sehirler": [
+   "Srinagar"
+  ],
+  "ozet": "Durlabhavardhana ile başlayan Keşmir imparatorluğu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "karkota",
+   "not": ""
+  }
+ },
+ {
+  "id": "turk-sahi",
+  "ad": "Türk Şahi (Kâbil Şahileri)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0665-01-01",
+  "t": "0850-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Kâbil",
+  "etkin_bolge": "Kabil vadisi, Zabulistan",
+  "sehirler": [
+   "Kâbil",
+   "Kapisi"
+  ],
+  "ozet": "Kâbil Şahilerinin Türk evresi; Hindu Şahilere devri.",
+  "oncul": [],
+  "ardil": [
+   "hindu-sahiler"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Gelenek 565 başlangıcı da vardır.  Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "orta-asya ile örtüşebilir; Hindu Şahi mevcut."
+  }
+ },
+ {
+  "id": "chamba",
+  "ad": "Chamba Krallığı",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0550-01-01",
+  "t": "1948-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Brahmapura → Chamba",
+  "etkin_bolge": "Himachal",
+  "sehirler": [
+   "Chamba"
+  ],
+  "ozet": "Meru Varman ile; 1948'de Himachal'a katıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "katyuri",
+  "ad": "Katyuri Krallığı (Kumaon)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0700-01-01",
+  "t": "1200-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Baijnath",
+  "etkin_bolge": "Uttarakhand",
+  "sehirler": [
+   "Baijnath"
+  ],
+  "ozet": "Kumaon-Garhwal'da.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "sailodbhava",
+  "ad": "Sailodbhava Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0590-01-01",
+  "t": "0780-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kongoda",
+  "etkin_bolge": "Güney Odisha",
+  "sehirler": [
+   "Kongoda"
+  ],
+  "ozet": "Kongoda'daki Sailodbhava.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "bhauma-kara",
+  "ad": "Bhauma-Kara Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0736-01-01",
+  "t": "0916-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Guhadeva-pataka",
+  "etkin_bolge": "Odisha",
+  "sehirler": [
+   "Jajpur"
+  ],
+  "ozet": "Odisha'da Budist Kara.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "somavamsi",
+  "ad": "Somavamsi Hanedanı (Kosala-Utkala)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0882-01-01",
+  "t": "1110-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Suvarnapura / Yayatinagara",
+  "etkin_bolge": "Orta Odisha",
+  "sehirler": [
+   "Sonepur"
+  ],
+  "ozet": "Mahasivagupta ile.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "badami-ref",
+  "ad": "Badami (Erken) Çalukya",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0543-01-01",
+  "t": "0753-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Vatapi",
+  "etkin_bolge": "Dekkan",
+  "sehirler": [
+   "Badami",
+   "Aihole"
+  ],
+  "ozet": "Pulakesin I – Dantidurga.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "badami-calukya",
+   "not": ""
+  }
+ },
+ {
+  "id": "dogu-calukya-ref",
+  "ad": "Doğu Çalukya (Vengi)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0624-01-01",
+  "t": "1070-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Vengi",
+  "etkin_bolge": "Andhra",
+  "sehirler": [
+   "Vengi",
+   "Rajahmundry"
+  ],
+  "ozet": "Kubja Visnuvardhana.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dogu-calukya",
+   "not": ""
+  }
+ },
+ {
+  "id": "bati-ganga-ref",
+  "ad": "Batı Ganga",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0350-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Talakad",
+  "etkin_bolge": "Güney Karnataka",
+  "sehirler": [
+   "Talakad"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "bati-ganga",
+   "not": ""
+  }
+ },
+ {
+  "id": "pandya-1-ref",
+  "ad": "Birinci Pandya İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0590-01-01",
+  "t": "0920-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Madurai",
+  "etkin_bolge": "Güney Tamil",
+  "sehirler": [
+   "Madurai"
+  ],
+  "ozet": "Kadungon ile Kalabhra'yı devirdi.",
+  "oncul": [
+   "kalabhra"
+  ],
+  "ardil": [
+   "cola"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kadungon 590; Cola Parantaka I yenilgisi 920 civarı. Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "pandya-1",
+   "not": "Mevcut t boş."
+  }
+ },
+ {
+  "id": "rastrakuta-ref",
+  "ad": "Rastrakuta İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0753-01-01",
+  "t": "0982-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Manyakheta",
+  "etkin_bolge": "Dekkan",
+  "sehirler": [
+   "Manyakheta"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "rastrakuta",
+   "not": ""
+  }
+ },
+ {
+  "id": "pala-ref",
+  "ad": "Pala İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0750-01-01",
+  "t": "1161-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Mudgagiri",
+  "etkin_bolge": "Bengal-Bihar",
+  "sehirler": [
+   "Pataliputra"
+  ],
+  "ozet": "Gopala ile.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "pala",
+   "not": "t 1120 vs 1161."
+  }
+ },
+ {
+  "id": "gurjara-pratihara-ref",
+  "ad": "Gürcara-Pratihara",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0730-01-01",
+  "t": "1036-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Kannauj",
+  "etkin_bolge": "Kuzey Hint",
+  "sehirler": [
+   "Kannauj"
+  ],
+  "ozet": "Nagabhata I.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "gurjara-pratihara",
+   "not": "f 783 vs 730 (53 yıl)."
+  }
+ },
+ {
+  "id": "kulasekhara-ref",
+  "ad": "Kulasekhara (Çera Perumallar)",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0800-01-01",
+  "t": "1102-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Mahodayapuram",
+  "etkin_bolge": "Kerala",
+  "sehirler": [
+   "Kodungallur"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kulasekhara-cera",
+   "not": ""
+  }
+ },
+ {
+  "id": "arap-sind",
+  "ad": "Arap Sind Valiliği (Emevî–Abbâsî)",
+  "tur": "emirlik",
+  "bolge": "guney-asya",
+  "f": "0711-01-01",
+  "t": "0854-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Mansura / Brahmanabad",
+  "etkin_bolge": "Sind",
+  "sehirler": [
+   "Mansura",
+   "Debal"
+  ],
+  "ozet": "İbn Kâsım ile fetih; Habbarî bağımsızlığına kadar.",
+  "oncul": [
+   "cac-sind"
+  ],
+  "ardil": [
+   "habbari"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Fiilen otonom valilik; tur_yeni: vilayet/valilik. Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "cac-sind",
+  "ad": "Çaç (Brahman) Hanedanı — Sind",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0632-01-01",
+  "t": "0712-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Aror",
+  "etkin_bolge": "Sind",
+  "sehirler": [
+   "Aror",
+   "Debal"
+  ],
+  "ozet": "Çaç ile Rai'den devir, Dahir yenilgisi.",
+  "oncul": [
+   "rai-sind"
+  ],
+  "ardil": [
+   "arap-sind"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Çaç-nâme (13. yy) rivayeti; 711/712 fetih yılı. Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "habbari",
+  "ad": "Habbârî Emirliği (Mansura)",
+  "tur": "emirlik",
+  "bolge": "guney-asya",
+  "f": "0854-01-01",
+  "t": "1026-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Mansura",
+  "etkin_bolge": "Sind",
+  "sehirler": [
+   "Mansura"
+  ],
+  "ozet": "Banû Habbâr; Sumra'ya yenildi.",
+  "oncul": [
+   "arap-sind"
+  ],
+  "ardil": [
+   "sumra"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "1024/1026 farkı. Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "multan-emirligi",
+  "ad": "Multan Emirliği (Munebbihî / Karmatî)",
+  "tur": "emirlik",
+  "bolge": "guney-asya",
+  "f": "0855-01-01",
+  "t": "1010-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Multan",
+  "etkin_bolge": "Güney Pencap",
+  "sehirler": [
+   "Multan"
+  ],
+  "ozet": "Banû Munebbih ve Karmatî İsmâilîleri; Gaznelilerle bitti.",
+  "oncul": [],
+  "ardil": [
+   "gazneli"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Evre sınırları 959/977 tartışmalı. Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut kabace (1206+) başka devlet."
+  }
+ },
+ {
+  "id": "paramara-ref",
+  "ad": "Paramara Hanedanı (Malva)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0800-01-01",
+  "t": "1305-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Dhara / Ujjain",
+  "etkin_bolge": "Malva",
+  "sehirler": [
+   "Dhara",
+   "Ujjain"
+  ],
+  "ozet": "Upendra ile başlayan Rajput kolu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Bağımsızlık Siyaka II 949'a bağlanır. Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "paramara",
+   "not": "Mevcut f=1000."
+  }
+ },
+ {
+  "id": "cahamana-ref",
+  "ad": "Chauhan (Chahamana) — Shakambhari",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0650-01-01",
+  "t": "1192-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Sakambhari → Ajmer",
+  "etkin_bolge": "Rajasthan",
+  "sehirler": [
+   "Ajmer",
+   "Delhi"
+  ],
+  "ozet": "Vasudeva ile; Prithviraj III.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "cahamana",
+   "not": "Mevcut f=1000."
+  }
+ },
+ {
+  "id": "tomara",
+  "ad": "Tomara (Delhi) Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0736-01-01",
+  "t": "1152-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Dhillika (Delhi)",
+  "etkin_bolge": "Delhi-Haryana",
+  "sehirler": [
+   "Delhi"
+  ],
+  "ozet": "Anangapala.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Geleneksel tarih; kaynak tartışmalı. Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "candela-ref",
+  "ad": "Çandela Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0831-01-01",
+  "t": "1315-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Khajuraho → Mahoba",
+  "etkin_bolge": "Bundelkhand",
+  "sehirler": [
+   "Khajuraho",
+   "Mahoba"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "candela",
+   "not": "Mevcut 1000–1203."
+  }
+ },
+ {
+  "id": "caulukya-ref",
+  "ad": "Çaulukya (Solanki) — Gucerat",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0942-01-01",
+  "t": "1244-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Anahilapataka",
+  "etkin_bolge": "Gucerat",
+  "sehirler": [
+   "Patan"
+  ],
+  "ozet": "Mularaja ile.",
+  "oncul": [],
+  "ardil": [
+   "vaghela"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "caulukya",
+   "not": "Mevcut f=1000."
+  }
+ },
+ {
+  "id": "guhila-mevar",
+  "ad": "Guhila Hanedanı (Mevar)",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0734-01-01",
+  "t": "1948-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Chittor → Udaipur",
+  "etkin_bolge": "Mevar",
+  "sehirler": [
+   "Chittor",
+   "Udaipur"
+  ],
+  "ozet": "Bappa Rawal (734 gelenek).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "566/734 çelişkisi. Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "racput",
+   "not": "Rajput içinde."
+  }
+ },
+ {
+  "id": "kadamba-goa",
+  "ad": "Goa Kadambaları",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0960-01-01",
+  "t": "1310-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Goa",
+  "etkin_bolge": "Goa-Konkan",
+  "sehirler": [
+   "Goa"
+  ],
+  "ozet": "Badami'den ayrı Goa kolu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "silahara",
+  "ad": "Silahara (Konkan) Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0765-01-01",
+  "t": "1265-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Thane",
+  "etkin_bolge": "Konkan",
+  "sehirler": [
+   "Thane"
+  ],
+  "ozet": "Rastrakuta vasalı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "hindu-sahi-ref",
+  "ad": "Hindu Şahi",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0850-01-01",
+  "t": "1026-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Udabhanda → Lahor",
+  "etkin_bolge": "Gandhara-Pencap",
+  "sehirler": [
+   "Lahor",
+   "Kâbil"
+  ],
+  "ozet": "Lalliya ile (9. yy).",
+  "oncul": [
+   "turk-sahi"
+  ],
+  "ardil": [
+   "gazneli"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "hindu-sahiler",
+   "not": ""
+  }
+ },
+ {
+  "id": "cola-ref",
+  "ad": "Çola İmparatorluğu",
+  "tur": "imparatorluk",
+  "bolge": "guney-asya",
+  "f": "0850-01-01",
+  "t": "1279-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Thanjavur",
+  "etkin_bolge": "Güney Hint",
+  "sehirler": [
+   "Thanjavur"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "cola",
+   "not": ""
+  }
+ },
+ {
+  "id": "utpala-ref",
+  "ad": "Utpala Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "guney-asya",
+  "f": "0855-01-01",
+  "t": "1003-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Srinagar",
+  "etkin_bolge": "Keşmir",
+  "sehirler": [
+   "Srinagar"
+  ],
+  "ozet": "Mevcut kunyenin f/t ve kapsam dogrulamasi icin eslesme kaydi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "utpala-kesmir",
+   "not": ""
+  }
+ },
+ {
+  "id": "nepal-thakuri",
+  "ad": "Thakuri / Erken Malla Nepal",
+  "tur": "krallik",
+  "bolge": "guney-asya",
+  "f": "0750-01-01",
+  "t": "1200-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Kathmandu",
+  "etkin_bolge": "Nepal",
+  "sehirler": [
+   "Kathmandu"
+  ],
+  "ozet": "Licchavi sonrası Thakuri hanedanları.",
+  "oncul": [
+   "licchavi-nepal"
+  ],
+  "ardil": [
+   "nepal"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihleme zayıf, çok belirsiz. Hafizadan yazildi; web kaynagi bu oturumda okunmadi (taslak). Aday kaynak: Cambridge History of India / Oxford History of India (Thapar, Majumdar, Smith); Encyclopaedia of Islam (Islam donemi); tarihler dilim-bazinda dogrulanmali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Nepal mevcut f=1000."
+  }
+ }
+]

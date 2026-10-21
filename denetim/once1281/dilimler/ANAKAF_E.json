@@ -1,0 +1,198 @@
+[
+ {
+  "id": "kaheti-hereti-krallik",
+  "ad": "Kaheti–Hereti Krallığı",
+  "tur": "krallik",
+  "bolge": "kafkasya",
+  "f": "1010-01-01",
+  "t": "1105-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Telavi",
+  "etkin_bolge": "Doğu Gürcistan",
+  "sehirler": [
+   "Telavi"
+  ],
+  "ozet": "Birleşik Kaheti-Hereti krallığı; IV. David 1105'te ilhak etti.",
+  "oncul": [
+   "kaheti-hereti-prensligi"
+  ],
+  "ardil": [
+   "gurcistan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "khachen",
+  "ad": "Khachen (Artsakh) Prensliği",
+  "tur": "prenslik",
+  "bolge": "kafkasya",
+  "f": "1000-01-01",
+  "t": "1261-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Gandzasar",
+  "etkin_bolge": "Karabağ",
+  "sehirler": [
+   "Gandzasar"
+  ],
+  "ozet": "Hasan-Celalyan prensleri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "zakarid",
+  "ad": "Zakarid Ermenistan",
+  "tur": "prenslik",
+  "bolge": "kafkasya",
+  "f": "1201-01-01",
+  "t": "1360-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Ani",
+  "etkin_bolge": "Ani çevresi",
+  "sehirler": [
+   "Ani",
+   "Kars"
+  ],
+  "ozet": "Gürcü vasalı Ermeni atabegleri.",
+  "oncul": [
+   "gurcistan"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "t çekirdek dışı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "gabras-trabzon",
+  "ad": "Gabras Hanedanı Trabzon Dukalığı",
+  "tur": "dukalik",
+  "bolge": "anadolu",
+  "f": "1075-01-01",
+  "t": "1140-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Trabzon",
+  "etkin_bolge": "Trabzon",
+  "sehirler": [
+   "Trabzon"
+  ],
+  "ozet": "Theodoros Gabras'ın özerk yönetimi.",
+  "oncul": [],
+  "ardil": [
+   "trabzon-rum"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kogh-vasil",
+  "ad": "Koğ Vasil Prensliği",
+  "tur": "prenslik",
+  "bolge": "anadolu",
+  "f": "1086-01-01",
+  "t": "1112-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Kesun",
+  "etkin_bolge": "Maraş-Behisni",
+  "sehirler": [
+   "Kesun"
+  ],
+  "ozet": "Ermeni prensliği.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yaklaşık.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "hamidogullari",
+  "ad": "Hamidoğulları",
+  "tur": "beylik",
+  "bolge": "anadolu",
+  "f": "1280-01-01",
+  "t": "1391-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Eğirdir",
+  "etkin_bolge": "Göller yöresi",
+  "sehirler": [
+   "Eğirdir",
+   "Isparta"
+  ],
+  "ozet": "Selçuklu uç beyi Dündar Bey.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY - bu oturumda sayfa ACILMADI, hafizadan: bkz. ANAKAF_RAPOR.md kaynak onerileri"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Çekirdeğe yakın.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

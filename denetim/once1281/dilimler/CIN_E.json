@@ -1,0 +1,345 @@
+[
+ {
+  "id": "guge",
+  "ad": "Guge Krallığı (Batı Tibet)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "1000-01-01",
+  "t": "1630-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Tsaparang → Tholing",
+  "etkin_bolge": "Batı Tibet",
+  "sehirler": [
+   "Tsaparang",
+   "Tholing"
+  ],
+  "ozet": "Nyimagon soyundan Guge kolu; Ladakh tarafından 1630'da yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
+   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
+   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş ~10. yy (Tibet geleneği: Trashi Tsegpal, c.930). Kesinlik zayıf.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "guge",
+   "not": ""
+  }
+ },
+ {
+  "id": "tsongkha",
+  "ad": "Tsongkha (Qingtang) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "1008-01-01",
+  "t": "1104-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Qingtang",
+  "etkin_bolge": "Qinghai doğusu",
+  "sehirler": [
+   "Qingtang"
+  ],
+  "ozet": "Gusiluo'nun Tibet devleti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
+   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
+   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "tsongkha",
+   "not": ""
+  }
+ },
+ {
+  "id": "bati-xia",
+  "ad": "Batı Xia (Tangut) Devleti",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "1038-01-01",
+  "t": "1227-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Xingqing (Yinchuan)",
+  "etkin_bolge": "Ordos, Gansu",
+  "sehirler": [
+   "Xingqing (Yinchuan)"
+  ],
+  "ozet": "Li Yuanhao'nun 1038'de imparator ilanı; Moğol fethi (1227).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
+   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
+   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "1032'de Prens.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "bati-xia",
+   "not": ""
+  }
+ },
+ {
+  "id": "dali-kralligi",
+  "ad": "Dali Krallığı (Yunnan)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0937-01-01",
+  "t": "1253-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dali",
+  "etkin_bolge": "Yunnan",
+  "sehirler": [
+   "Dali"
+  ],
+  "ozet": "Duan Siping'in kuruluşu; Mongol fethi (1253).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
+   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
+   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Duan'ın Yuan'a bağlı yerel yönetimi 1382'ye kadar sürdü.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dali-kralligi",
+   "not": ""
+  }
+ },
+ {
+  "id": "da-chu-zhang-bangchang",
+  "ad": "Da Chu (Zhang Bangchang, 大楚)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "1127-03-01",
+  "t": "1127-04-01",
+  "kesinlik": {
+   "f": "ay",
+   "t": "ay"
+  },
+  "baskent": "Kaifeng",
+  "etkin_bolge": "Orta Çin",
+  "sehirler": [
+   "Kaifeng"
+  ],
+  "ozet": "Jin'in Song'un Kuzey'ini alması sonrası kurdurduğu kukla devlet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
+   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
+   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Çok kısa. Aylar kesin değil.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "da-qi-liu-yu",
+  "ad": "Da Qi (Liu Yu, 大齊)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "1130-01-01",
+  "t": "1137-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Daming → Kaifeng",
+  "etkin_bolge": "Kuzey Çin ovası",
+  "sehirler": [
+   "Daming",
+   "Kaifeng"
+  ],
+  "ozet": "Jin'in Song karşıtı kukla devleti; Jin tarafından 1137'de kaldırıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
+   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
+   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Liu Yu 1130 Sept; 1137 Nov.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "jin-hanedani",
+  "ad": "Jin Hanedanı (Jurchen, Kuzey Çin)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "1115-01-01",
+  "t": "1234-02-09",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Huining → Zhongdu",
+  "etkin_bolge": "Mançurya, Kuzey Çin",
+  "sehirler": [
+   "Huining",
+   "Zhongdu"
+  ],
+  "ozet": "Aguda'nın 1115 ilanı; Cai Zhou'nun düşüşü 1234.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
+   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
+   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "jin-hanedani",
+   "not": ""
+  }
+ },
+ {
+  "id": "dongxia",
+  "ad": "Doğu Xia Devleti",
+  "tur": "devlet",
+  "bolge": "dogu-asya",
+  "f": "1215-01-01",
+  "t": "1233-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Nanjing",
+  "etkin_bolge": "Mançurya doğusu",
+  "sehirler": [
+   "Nanjing"
+  ],
+  "ozet": "Puxian Wannu'nun Jin'den ayrılıp kurduğu devlet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
+   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
+   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dongxia",
+   "not": ""
+  }
+ },
+ {
+  "id": "yuan-hanedani",
+  "ad": "Yuan Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "1271-12-18",
+  "t": "1368-09-14",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Dadu (Pekin)",
+  "etkin_bolge": "Çin + Moğol",
+  "sehirler": [
+   "Dadu (Pekin)"
+  ],
+  "ozet": "Kubilay'ın 1271'de Yuan adını ilanı; 1368'de Hongwu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
+   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
+   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas 1260 (Kubilay han) kullanıyor; 1271 Yuan adı. Fark 11 yıl ≤ 25 => var.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "yuan-hanedani",
+   "not": "Hanedanın kuruluşu 1260/1271."
+  }
+ },
+ {
+  "id": "sakya",
+  "ad": "Sakya Yönetimi (Yuan himayesinde Tibet)",
+  "tur": "devlet",
+  "bolge": "dogu-asya",
+  "f": "1264-01-01",
+  "t": "1354-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sakya",
+  "etkin_bolge": "Tibet",
+  "sehirler": [
+   "Sakya"
+  ],
+  "ozet": "Phagpa'nın Yuan'da imparatorluk öğretmeni olarak Tibet'i yönetmesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Franke & Twitchett (eds.), The Cambridge History of China vol.6 Alien Regimes and Border States (CUP 1994)",
+   "Smith & von Glahn (eds.), The Song-Yuan-Ming Transition; Cambridge History of China vol.5 Sung China (CUP 2009/2015)",
+   "Tuotuo et al., Songshi / Jinshi / Liaoshi / Yuanshi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sakya",
+   "not": ""
+  }
+ }
+]

@@ -1,0 +1,543 @@
+[
+ {
+  "id": "jin-devleti-kore",
+  "ad": "Jin Devleti (Kore guneyi)",
+  "tur": "konfederasyon",
+  "bolge": "dogu-asya",
+  "f": "-0399-01-01",
+  "t": "-0199-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Wolji (tartismali)",
+  "etkin_bolge": "Guney Kore yarimadasi",
+  "sehirler": [
+   "Wolji"
+  ],
+  "ozet": "Gojoseon'un guneyinde MO 4.-2. yy'da var olan, Samhan konfederasyonlarinin onculu sayilan polity.",
+  "oncul": [],
+  "ardil": [
+   "mahan",
+   "jinhan",
+   "byeonhan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Gojoseon (okundu; yalniz aday kaynak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sayfa 4.-2. yy MO verir; devlet duzeyi belirsiz. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "buyeo",
+  "ad": "Buyeo Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0199-01-01",
+  "t": "0494-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Mancurya ortasi (Songhua havzasi); merkez tartismali",
+  "etkin_bolge": "Mancurya ortasi",
+  "sehirler": [
+   "Buyeo"
+  ],
+  "ozet": "Goguryeo ve Baekje'ye kaynaklik eden Mancurya krallığı; 494'te Goguryeo'ya teslim.",
+  "oncul": [],
+  "ardil": [
+   "goguryeo",
+   "baekje"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "494 Vikipedi'den; baslangic yili bilinmiyor, MO 2. yy yaklasik. Dongbuyeo ve Jolbon Buyeo ayri kayit adayi. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "okjeo",
+  "ad": "Okjeo",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0107-01-01",
+  "t": "0056-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Dongokjeo: Hamgyeong kiyisi",
+  "etkin_bolge": "Kuzeydogu Kore",
+  "sehirler": [
+   "Okjeo"
+  ],
+  "ozet": "MO 108'de Han Hyeondo komutanligina baglanan Dogu Okjeo; Goguryeo Taejo 56'da boyun egdirdi.",
+  "oncul": [],
+  "ardil": [
+   "goguryeo"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sayfada tarih yok; yaklasik. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dongye",
+  "ad": "Dongye",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0107-01-01",
+  "t": "0400-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Dogu kiyi",
+  "etkin_bolge": "Gangwon kiyisi",
+  "sehirler": [
+   "Dongye"
+  ],
+  "ozet": "Gojoseon parcalanmasi sonrasi dogu kiyi polity'si; Goguryeo ve Silla arasinda eridi.",
+  "oncul": [],
+  "ardil": [
+   "goguryeo",
+   "silla"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklasik. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "mahan",
+  "ad": "Mahan",
+  "tur": "konfederasyon",
+  "bolge": "dogu-asya",
+  "f": "-0199-01-01",
+  "t": "0369-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Mokji (tartismali)",
+  "etkin_bolge": "Guneybati Kore",
+  "sehirler": [
+   "Mokji"
+  ],
+  "ozet": "Samhan'in en buyugu (54 kucuk polity); Baekje'ye dagildi.",
+  "oncul": [
+   "jin-devleti-kore"
+  ],
+  "ardil": [
+   "baekje"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Baslangic belirsiz; son ~369 Baekje fethi yaklasik. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "jinhan",
+  "ad": "Jinhan",
+  "tur": "konfederasyon",
+  "bolge": "dogu-asya",
+  "f": "-0199-01-01",
+  "t": "0300-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Saro (Gyeongju)",
+  "etkin_bolge": "Guneydogu Kore",
+  "sehirler": [
+   "Saro",
+   "Daegu"
+  ],
+  "ozet": "12 polity'lik konfederasyon; Saro (Silla) MO 57'de Jinhan'in birlesmesini baslatir.",
+  "oncul": [
+   "jin-devleti-kore"
+  ],
+  "ardil": [
+   "silla"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Vikipedi: Silla'nin Jinhan'i birlestirmesi MO 57; konfederasyonun sonu belirsiz. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "byeonhan",
+  "ad": "Byeonhan",
+  "tur": "konfederasyon",
+  "bolge": "dogu-asya",
+  "f": "-0199-01-01",
+  "t": "0042-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Gimhae",
+  "etkin_bolge": "Nakdong ovasi",
+  "sehirler": [
+   "Gimhae"
+  ],
+  "ozet": "12 polity'lik konfederasyon; Gaya konfederasyonunun ontarihi.",
+  "oncul": [
+   "jin-devleti-kore"
+  ],
+  "ardil": [
+   "gaya-konfederasyonu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)",
+   "https://en.wikipedia.org/wiki/Gaya_confederacy (okundu; yalniz aday kaynak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Gaya efsanesi MS 42; gecis resmi tarih degil. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "gaya-konfederasyonu",
+  "ad": "Gaya Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "dogu-asya",
+  "f": "0042-01-01",
+  "t": "0562-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Geumgwan Gaya (Gimhae) -> Daegaya (Goryeong)",
+  "etkin_bolge": "Nakdong ovasi",
+  "sehirler": [
+   "Gimhae",
+   "Goryeong",
+   "Haman"
+  ],
+  "ozet": "MS 42'de efsanevi alti Gaya devletinin kurulusu; Geumgwan 532'de, Daegaya 562'de Silla'ya katildi.",
+  "oncul": [
+   "byeonhan"
+  ],
+  "ardil": [
+   "silla"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Gaya_confederacy (okundu; yalniz aday kaynak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "42 efsane tarihi. Alt kayit adaylari: Geumgwan Gaya (42-532), Daegaya (-562), Ara Gaya. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tamna",
+  "ad": "Tamna Krallığı (Jeju)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0476-01-01",
+  "t": "1105-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jeju",
+  "etkin_bolge": "Jeju adasi",
+  "sehirler": [
+   "Jeju"
+  ],
+  "ozet": "Jeju adasinda hanedan; 476'da Baekje'ye haraç; 1105'te Goryeo tarafindan komutanliga cevrilir (ozerklik 1402'ye kadar).",
+  "oncul": [],
+  "ardil": [
+   "goryeo"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "476 ilk anma; erken donem belirsiz. 1105 ilhak; kendi kralligin surmesi tartismali. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "na-nakoku",
+  "ad": "Na (Nakoku) Krallığı, Wa",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0057-01-01",
+  "t": "0250-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Na (Fukuoka yoresi)",
+  "etkin_bolge": "Kuzey Kyushu",
+  "sehirler": [
+   "Hakata"
+  ],
+  "ozet": "Han hanedanindan MS 57'de altin muhur alan Wa krallığı.",
+  "oncul": [],
+  "ardil": [
+   "yamatai"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "57 = muhur yili, kurulus degil. t belirsiz. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "yamatai",
+  "ad": "Yamatai (Wa, Himiko)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0189-01-01",
+  "t": "0250-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Yamatai (Kinai veya Kyushu; tartismali)",
+  "etkin_bolge": "Japon takimadalari",
+  "sehirler": [
+   "Yamatai"
+  ],
+  "ozet": "2. yy sonu Wa ic savasi sonrasi Himiko ile kurulan Wa birligi; Sanguozhi'de anilir.",
+  "oncul": [
+   "na-nakoku"
+  ],
+  "ardil": [
+   "yamato"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yeri tartismali. Atlas yamato f 0250; ardil gecisi. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "wiman-joseon",
+  "ad": "Wiman Joseon",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0193-01-01",
+  "t": "-0107-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Wanggeom",
+  "etkin_bolge": "Kore/Japonya",
+  "sehirler": [
+   "Wanggeom"
+  ],
+  "ozet": "Wi Man MO 194'te Gojoseon'u devirdi; Han MO 108'de fethetti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Gojoseon (okundu; yalniz aday kaynak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "wiman-joseon",
+   "not": ""
+  }
+ },
+ {
+  "id": "goguryeo",
+  "ad": "Goguryeo",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0036-01-01",
+  "t": "0668-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jolbon -> Gungnae -> Pyeongyang",
+  "etkin_bolge": "Kore/Japonya",
+  "sehirler": [
+   "Jolbon",
+   "Gungnae",
+   "Pyeongyang"
+  ],
+  "ozet": "Geleneksel kurulus MO 37; 668'de Silla-Tang tarafindan fethedildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "goguryeo",
+   "not": ""
+  }
+ },
+ {
+  "id": "baekje",
+  "ad": "Baekje",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0017-01-01",
+  "t": "0660-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Wiryeseong -> Ungjin -> Sabi",
+  "etkin_bolge": "Kore/Japonya",
+  "sehirler": [
+   "Wiryeseong",
+   "Ungjin",
+   "Sabi"
+  ],
+  "ozet": "Geleneksel kurulus MO 18; 660'ta Silla-Tang fethi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "baekje",
+   "not": ""
+  }
+ },
+ {
+  "id": "silla",
+  "ad": "Silla",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0056-01-01",
+  "t": "0935-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Gyeongju",
+  "etkin_bolge": "Kore/Japonya",
+  "sehirler": [
+   "Gyeongju"
+  ],
+  "ozet": "Geleneksel kurulus MO 57; Birlesik Silla 668, Gec Silla 892; 935 Goryeo'ya.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Birlesik Silla 668-892 ve Gec Silla 892-935 ayni kayit. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "silla",
+   "not": ""
+  }
+ },
+ {
+  "id": "yamato",
+  "ad": "Yamato Hükümdarlığı (Kofun)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0250-01-01",
+  "t": "0710-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Yamato -> Asuka",
+  "etkin_bolge": "Kore/Japonya",
+  "sehirler": [
+   "Yamato",
+   "Asuka"
+  ],
+  "ozet": "Kofun doneminde Yamato krallığı; Asuka donemi dahil.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "yamato",
+   "not": ""
+  }
+ }
+]

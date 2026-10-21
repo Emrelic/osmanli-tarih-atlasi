@@ -1,0 +1,83 @@
+[
+ {
+  "id": "tartessos",
+  "ad": "Tartessos",
+  "tur": "krallik",
+  "bolge": "iberya",
+  "f": "-0799-01-01",
+  "t": "-0499-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Tartessos (yeri tartisili)",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Guadalquivir vadisinde Fenike/Yunan kaynaklarinda adi gecen maden zengini krallik (Arganthonios).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Baslangic ve son yuzyil duzeyinde; siyasi yapisi tartisili. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "gadir",
+  "ad": "Gadir (Gades, Fenike sehir devleti)",
+  "tur": "sehir-devleti",
+  "bolge": "iberya",
+  "f": "-0799-01-01",
+  "t": "-0205-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Gadir (Kadiz)",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Fenike kolonisi; gelenek MO 1104, arkeoloji MO 8. yy. MO 206/5te Roma'ya gecti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Gelenek MO 1104; arkeoloji MO 8. yy (f buna gore). Kartaca'ya bagliligi donemden doneme degisir. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "emporion",
+  "ad": "Emporion (Empuries, Yunan sehir devleti)",
+  "tur": "sehir-devleti",
+  "bolge": "iberya",
+  "f": "-0574-01-01",
+  "t": "-0217-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Emporion",
+  "etkin_bolge": "",
+  "sehirler": [],
+  "ozet": "Massalia kolonisi; MO 218den sonra Roma ittifaki/hegemonyasi altinda.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "t Roma ittifaki baslangici; tam bagimsizlik sonu belirsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

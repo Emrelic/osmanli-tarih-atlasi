@@ -60,6 +60,9 @@ for yol in sorted(glob.glob('denetim/once1281/dilimler/*.json')):
         if e.get('durum') != 'eksik' and not mid: s('esleme var ama mevcut_id yok')
         if mid and mid not in MEV: s(f'mevcut_id atlas künyesinde yok: {mid}')
         if e.get('durum') == 'eksik' and kid in MEV: s('esleme=eksik ama id atlasta var')
+        # taslak (okunmamış kaynak): f/t DOĞRULANMADI — aday listesidir, era oturumlarına devredilmez
+        k['taslak'] = k.get('dogrulama') == 'taslak'
+        k['f_t_durum'] = 'dogrulanmadi' if k['taslak'] else 'kaynakli'
         kayitlar.append(k)
     r = yol[:-len(f'_{dil}.json')] + '_RAPOR.md'
     if r not in rapor_dosyalari: rapor_dosyalari.append(r)
@@ -98,7 +101,7 @@ ec = collections.Counter((k.get('esleme') or {}).get('durum') for k in kayitlar)
 for d in ['var', 'var-f-t-farkli', 'var-kisa', 'ardil-var', 'eksik']:
     L.append(f'| {d} | {ec[d]} |')
 dc = collections.Counter(k.get('dogrulama') for k in kayitlar)
-L += ['', f"Doğrulama: okundu {dc['okundu']} · kismen-okundu {dc['kismen-okundu']} · taslak {dc['taslak']}", '']
+L += ['', f"Devredilebilir (taslak değil): {sum(1 for k in kayitlar if not k['taslak'])} · doğrulama bekleyen taslak: {sum(1 for k in kayitlar if k['taslak'])}", f"Doğrulama: okundu {dc['okundu']} · kismen-okundu {dc['kismen-okundu']} · taslak {dc['taslak']}", '']
 L += ['## Bölge × eşleme', '', '| bölge kodu | var | f/t farklı | kısa | ardıl | eksik |', '|---|---|---|---|---|---|']
 bg = collections.defaultdict(collections.Counter)
 for k in kayitlar:

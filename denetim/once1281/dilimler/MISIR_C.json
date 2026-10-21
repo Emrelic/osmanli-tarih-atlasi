@@ -1,0 +1,187 @@
+[
+ {
+  "id": "aksum-uzun",
+  "ad": "Aksum Krallığı (genişletme: çöküş)",
+  "tur": "krallik-imparatorluk",
+  "bolge": "dogu-afrika",
+  "f": "0100-01-01",
+  "t": "0940-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Aksum",
+  "etkin_bolge": "Tigray, Eritre, Kızıldeniz kıyısı",
+  "sehirler": [
+   "Aksum",
+   "Adulis",
+   "Yeha"
+  ],
+  "ozet": "1. yy Periplus'ta anılan Aksum; çöküş 10. yy (geleneksel ~940, Gudit).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut künyede t boş. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Munro-Hay 1991; Cambridge History of Africa II; Periplus Maris Erythraei]",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "aksum",
+   "not": ""
+  }
+ },
+ {
+  "id": "meroe-krallik",
+  "ad": "Meroe Krallığı (Meroitik evre)",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "-0590-01-01",
+  "t": "0349-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Meroe",
+  "etkin_bolge": "Orta Nil, Butana",
+  "sehirler": [
+   "Meroe",
+   "Naqa",
+   "Musawwarat"
+  ],
+  "ozet": "Napata'nın yağmasından (~MÖ 591) sonra Meroe'ye kayan Kuş krallığının ikinci evresi.",
+  "oncul": [
+   "kush-krallik"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut kush-krallik tek kayıt; ayrı kayıt gerekir mi karar verilsin. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Török 1997; Cambridge History of Africa II]",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kush-krallik",
+   "not": ""
+  }
+ },
+ {
+  "id": "tebai-ayaklanma-krallik",
+  "ad": "Tebai Ayaklanma Krallığı (Horwennefer-Ankhwennefer)",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "-0204-01-01",
+  "t": "-0185-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Tebai",
+  "etkin_bolge": "Yukarı Mısır",
+  "sehirler": [
+   "Tebai"
+  ],
+  "ozet": "Ptolemaios V döneminde Yukarı Mısır'da yerli firavunluk ilan eden isyan devleti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarih kabaca (MÖ 205-186). [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Veïsse 2004; Cambridge Ancient History VII]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "aegyptus-roma-bizans",
+  "ad": "Roma ve Doğu Roma (Bizans) Mısır'ı (Aegyptus)",
+  "tur": "eyalet",
+  "bolge": "misir-sudan",
+  "f": "-0029-08-01",
+  "t": "0641-01-01",
+  "kesinlik": {
+   "f": "gun",
+   "t": "yil"
+  },
+  "baskent": "Iskenderiye",
+  "etkin_bolge": "Mısır",
+  "sehirler": [
+   "Iskenderiye",
+   "Fustat"
+  ],
+  "ozet": "Octavianus'un İskenderiye'yi almasıyla Roma eyaleti; 618-629 Sasani işgali; 641 Arap fethi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Eyalet; kullanıcı Roma/Bizans Mısır'ını sorduğu için eklendi. Sasani işgali ayrı kayıt değil. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Bowman 1986; Oxford Dictionary of Byzantium]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "blemmyes",
+  "ad": "Blemmyes (Beja) Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "0300-01-01",
+  "t": "0600-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Talmis (Kalabsha)",
+  "etkin_bolge": "Aşağı Nubya, Doğu Çöl",
+  "sehirler": [
+   "Talmis",
+   "Primis"
+  ],
+  "ozet": "Roma-Mısır sınırında Beja kökenli Blemmyes'in krallığı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasî birim mi konfederasyon mu belirsiz. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Updegraff 1988; Oxford Dictionary of Late Antiquity]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "nobatia",
+  "ad": "Nobatia (Noba) Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "0350-01-01",
+  "t": "0650-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Faras (Pachoras)",
+  "etkin_bolge": "Aşağı Nubya",
+  "sehirler": [
+   "Faras",
+   "Qasr Ibrim"
+  ],
+  "ozet": "Meroe sonrası Noba krallığı; 543 Hristiyanlaşma; Makuria ile birleşir.",
+  "oncul": [],
+  "ardil": [
+   "makuria"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Makuria ile birleşme tarihi belirsiz (7. yy). [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Adams 1977; Welsby 2002]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "nube",
+   "not": ""
+  }
+ }
+]

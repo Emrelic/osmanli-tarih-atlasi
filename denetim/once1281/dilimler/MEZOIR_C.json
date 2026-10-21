@@ -1,0 +1,238 @@
+[
+ {
+  "id": "persis",
+  "ad": "Persis (Fars) Krallığı — Frataraka ve Darayan hanedanlari",
+  "tur": "krallik",
+  "bolge": "iran",
+  "f": "-0299-01-01",
+  "t": "0224-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Persepolis → Istahr",
+  "etkin_bolge": "Fars",
+  "sehirler": [
+   "Istahr",
+   "Persepolis"
+  ],
+  "ozet": "Selevkos/Part egemenliginde yerel Pers hukumdarlari; Ardasir I ile Sasani devletine donusur.",
+  "oncul": [],
+  "ardil": [
+   "sasani"
+  ],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Baslangic sikka kronolojisine baglidir. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok; sasani 224'ten baslar."
+  }
+ },
+ {
+  "id": "hatra",
+  "ad": "Hatra Krallığı",
+  "tur": "krallik",
+  "bolge": "mezopotamya",
+  "f": "-0149-01-01",
+  "t": "0241-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Hatra",
+  "etkin_bolge": "Cezire (Kuzey Irak)",
+  "sehirler": [
+   "Hatra"
+  ],
+  "ozet": "Part vasali Arap kralligi; Sasani Sapur I yikti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Bitis 240-241. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "osrhoene",
+  "ad": "Osrhoene (Edessa) Krallığı",
+  "tur": "krallik",
+  "bolge": "mezopotamya",
+  "f": "-0131-01-01",
+  "t": "0244-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Edessa (Urfa)",
+  "etkin_bolge": "Yukari Mezopotamya",
+  "sehirler": [
+   "Edessa",
+   "Karrhai"
+  ],
+  "ozet": "Abgar hanedani; Roma vasali, 244'te eyalet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Bitis 214/244 arasi okullara gore. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yalniz 11.yy Urfa kayitlari var."
+  }
+ },
+ {
+  "id": "adiabene",
+  "ad": "Adiabene Krallığı",
+  "tur": "krallik",
+  "bolge": "mezopotamya",
+  "f": "-0014-01-01",
+  "t": "0116-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Arbela (Erbil)",
+  "etkin_bolge": "Kuzey Mezopotamya",
+  "sehirler": [
+   "Arbela"
+  ],
+  "ozet": "Part vasali; hanedan Yahudiligi benimsedi; Trajan 116.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "gordyene",
+  "ad": "Gordyene (Kordue) Krallığı",
+  "tur": "krallik",
+  "bolge": "mezopotamya",
+  "f": "-0189-01-01",
+  "t": "0400-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Belirsiz",
+  "etkin_bolge": "Dicle ustu, Botan",
+  "sehirler": [
+   "Belirsiz"
+  ],
+  "ozet": "Ermeni/Part/Roma arasinda kucuk krallik.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Sureler cok belirsiz. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "tanuhiler",
+  "ad": "Tanuhiler (Tanukh) Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "mezopotamya",
+  "f": "0196-01-01",
+  "t": "0500-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Hira civari",
+  "etkin_bolge": "Furat boyu, Anbar",
+  "sehirler": [
+   "Hira"
+  ],
+  "ozet": "Lahmilerin oncesinde Irak Arap konfederasyonu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Gelenege dayali. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "lahmi 268'den."
+  }
+ },
+ {
+  "id": "sakastan-indo-part",
+  "ad": "Sakastan / Indo-Part (Suren) Krallığı",
+  "tur": "krallik",
+  "bolge": "iran",
+  "f": "-0019-01-01",
+  "t": "0050-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Sakastan (Sistan)",
+  "etkin_bolge": "Dogu Iran, Pakistan",
+  "sehirler": [
+   "Sakastan"
+  ],
+  "ozet": "Gondophares ile Indo-Part krallik.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Bolge iran/guney-asya siniri. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yok."
+  }
+ },
+ {
+  "id": "part-persis-diger-yok",
+  "ad": "Medya-Part ara vasal krallari (Media Magna; Elam-Mesene dahil)",
+  "tur": "vasal-krallik",
+  "bolge": "iran",
+  "f": "-0139-01-01",
+  "t": "0224-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Belirsiz",
+  "etkin_bolge": "Part vasali krallar",
+  "sehirler": [
+   "Belirsiz"
+  ],
+  "ozet": "Part vasali yerel krallar (Gotarzes vb.).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Birim sinirlari belirsiz; yinelenme riski, yuksek. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "elymais, karakene, atropatene var."
+  }
+ }
+]

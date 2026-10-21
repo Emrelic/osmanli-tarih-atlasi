@@ -1,0 +1,152 @@
+[
+ {
+  "id": "makuria",
+  "ad": "Makuria Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "0500-01-01",
+  "t": "1312-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Dongola",
+  "etkin_bolge": "Orta Nil, sonra Aşağı Nubya",
+  "sehirler": [
+   "Dongola",
+   "Faras"
+  ],
+  "ozet": "Dongola merkezli Hristiyan krallık; Bakt antlaşması (651-652); ~1312'de Müslüman kral.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Çöküş 1312-1323 ve 15. yy artıkları. Mevcut künye Makuria+Alodia birleşik. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Welsby 2002; Adams 1977; TDV Nube]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "nube",
+   "not": ""
+  }
+ },
+ {
+  "id": "alodia",
+  "ad": "Alodia (Alwa) Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "0550-01-01",
+  "t": "1504-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Soba",
+  "etkin_bolge": "Orta Sudan, Mavi Nil",
+  "sehirler": [
+   "Soba"
+  ],
+  "ozet": "Meroe sonrası Soba merkezli Hristiyan krallık; Funj ile sona erer.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Soba'nın düşüşü ~1504 kabaca. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Welsby 2002; Cambridge History of Africa II]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "nube",
+   "not": ""
+  }
+ },
+ {
+  "id": "beja-krallik",
+  "ad": "Beja Krallıkları (Hadariba/Baqlin vb.)",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "0600-01-01",
+  "t": "1300-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Suakin / Hajar",
+  "etkin_bolge": "Doğu Sudan, Kızıldeniz tepeleri",
+  "sehirler": [
+   "Suakin",
+   "Aydhab"
+  ],
+  "ozet": "İslâm kaynaklarında anılan Beja siyasî birimleri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Çoklu birim; yalnız belgelenen alınmalı. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): TDV Beja; Encyclopaedia of Islam]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kilwa-uzun",
+  "ad": "Kilve Sultanlığı (Şirazî Hanedanı)",
+  "tur": "sultanlik",
+  "bolge": "dogu-afrika",
+  "f": "0975-01-01",
+  "t": "1505-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Kilwa Kisiwani",
+  "etkin_bolge": "Svahili kıyısı",
+  "sehirler": [
+   "Kilwa",
+   "Mafia"
+  ],
+  "ozet": "Şirazî geleneğine göre Ali b. el-Hasan tarafından kurulan sultanlık.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut f=1000, gelenek 975 (fark ~25). [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Chittick 1974; TDV Kilve]",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "kilva-sultanligi",
+   "not": ""
+  }
+ },
+ {
+  "id": "zenc-kiyi",
+  "ad": "Zenc Kıyı Şehirleri (Mogadişu-Kilwa-Sofala öncesi)",
+  "tur": "sehir-devleti",
+  "bolge": "dogu-afrika",
+  "f": "0800-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Doğu Afrika kıyısı",
+  "sehirler": [
+   "Mogadişu",
+   "Kilwa",
+   "Sofala"
+  ],
+  "ozet": "9.-10. yy Arap-Fars kaynaklarında Zenc kıyısı ticaret şehirleri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasî birlik belirsiz; Zanj isyanı Irak'taki ayrı olay. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Encyclopaedia of Islam Zandj; Chittick 1974]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

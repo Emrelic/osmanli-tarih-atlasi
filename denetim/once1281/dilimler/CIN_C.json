@@ -1,0 +1,2438 @@
+[
+ {
+  "id": "wei-devleti-zhou",
+  "ad": "Wei Devleti (魏, Savaşan Devletler)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0402-01-01",
+  "t": "-0224-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Anyi → Daliang",
+  "etkin_bolge": "Henan, Shanxi güneyi",
+  "sehirler": [
+   "Anyi",
+   "Daliang"
+  ],
+  "ozet": "Jin'in bölünmesinden (MÖ 403) doğan; Qin tarafından MÖ 225'te yıkılan devlet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "403 Zhou'nun tanıma tarihi. Cao Wei'den farklı.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "wei-devleti-zhou",
+   "not": ""
+  }
+ },
+ {
+  "id": "han-devleti-zhou",
+  "ad": "Han Devleti (韓, Savaşan Devletler)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0402-01-01",
+  "t": "-0229-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pingyang → Yangzhai → Xinzheng",
+  "etkin_bolge": "Henan ortası, Shanxi güneyi",
+  "sehirler": [
+   "Pingyang",
+   "Yangzhai",
+   "Xinzheng"
+  ],
+  "ozet": "Jin bölünmesi (403); Qin tarafından MÖ 230'da yutuldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "han-devleti-zhou",
+   "not": ""
+  }
+ },
+ {
+  "id": "zhao-devleti",
+  "ad": "Zhao Devleti (趙)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0402-01-01",
+  "t": "-0221-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jinyang → Handan",
+  "etkin_bolge": "Shanxi kuzeyi, Hebei",
+  "sehirler": [
+   "Jinyang",
+   "Handan"
+  ],
+  "ozet": "Jin bölünmesi (403); Qin tarafından MÖ 228-222'de yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Han Dan'ın düşüşü MÖ 228; Dai'de sürgün MÖ 222.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "zhao-devleti",
+   "not": ""
+  }
+ },
+ {
+  "id": "zhongshan",
+  "ad": "Zhongshan Krallığı (中山)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0413-01-01",
+  "t": "-0294-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Lingshou",
+  "etkin_bolge": "Hebei ortası",
+  "sehirler": [
+   "Lingshou"
+  ],
+  "ozet": "Bai Di kökenli Xianyu'nun Zhongshan'ı; Wei tarafından MÖ 406'da yıkılıp MÖ 380 civarı yeniden kuruldu; Zhao tarafından MÖ 296/295'te yutuldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "414 f: Zhongshan'ın ilk anılması; Wei fethi 406, yeniden kuruluş 380 (Wen Gong).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "western-zhou-dukalik",
+  "ad": "Batı Zhou Dukalığı (西周公)",
+  "tur": "dukalik",
+  "bolge": "dogu-asya",
+  "f": "-0439-01-01",
+  "t": "-0254-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Henan (Wangcheng)",
+  "etkin_bolge": "Luoyang yöresi",
+  "sehirler": [
+   "Henan (Wangcheng)"
+  ],
+  "ozet": "Zhou kral ailesinin iki kola ayrılışı sonucu doğan küçük dukalık.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "440 Duke Huan; 367'de bölünmeyle Doğu Zhou dukalığı. Tarihlendirme farklı kaynaklarda MÖ 367.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "eastern-zhou-dukalik",
+  "ad": "Doğu Zhou Dukalığı (東周公)",
+  "tur": "dukalik",
+  "bolge": "dogu-asya",
+  "f": "-0365-01-01",
+  "t": "-0247-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Gong (Henan)",
+  "etkin_bolge": "Gong çevresi",
+  "sehirler": [
+   "Gong (Henan)"
+  ],
+  "ozet": "Zhou kral ailesinin doğu kolu; Qin tarafından MÖ 249'da kaldırıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "367 BC bölünme (f = -0366), 249 BC t (-0248).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dian",
+  "ad": "Dian Krallığı (Yunnan)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0278-01-01",
+  "t": "-0108-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dian gölü çevresi",
+  "etkin_bolge": "Yunnan doğusu",
+  "sehirler": [
+   "Dian gölü çevresi"
+  ],
+  "ozet": "Zhuang Qiao'nun kuruluşu; MÖ 109'da Han'a bağlandı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş Chu generali Zhuang Qiao'ya bağlanır (MÖ 279 civarı).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dian",
+   "not": ""
+  }
+ },
+ {
+  "id": "yelang",
+  "ad": "Yelang Krallığı (夜郎)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "-0025-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Yelang (Guizhou)",
+  "etkin_bolge": "Guizhou",
+  "sehirler": [
+   "Yelang (Guizhou)"
+  ],
+  "ozet": "Han'ın Güneybatı'daki vasal krallığı; Han tarafından MÖ ~27'de lağvedildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "MÖ 111 Han'a bağlandı; MÖ 27 kral Xing öldürüldü. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "minyue",
+  "ad": "Minyue Krallığı (閩越)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0201-01-01",
+  "t": "-0109-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ye (Fuzhou)",
+  "etkin_bolge": "Fujian",
+  "sehirler": [
+   "Ye (Fuzhou)"
+  ],
+  "ozet": "Wuzhu'nun Han tarafından kral tanınması (MÖ 202); Han'ın MÖ 110/111'de dağıtması.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Wuzhu 202; Han'ın fethi 111-110 MÖ.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dongou",
+  "ad": "Dongou Krallığı (東甌)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0191-01-01",
+  "t": "-0136-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dongou (Wenzhou)",
+  "etkin_bolge": "Zhejiang güneyi",
+  "sehirler": [
+   "Dongou (Wenzhou)"
+  ],
+  "ozet": "Zou Yao'nun krallığı; Minyue saldırısı üzerine halkı MÖ 138'de Huai bölgesine taşınmıştır.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "192 Zou Yao; 138 taşınma.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "nanyue",
+  "ad": "Nanyue (Nam Việt) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0203-01-01",
+  "t": "-0110-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Panyu (Guangzhou)",
+  "etkin_bolge": "Guangdong, Guangxi, Kuzey Vietnam",
+  "sehirler": [
+   "Panyu (Guangzhou)"
+  ],
+  "ozet": "Zhao Tuo'nun Qin'in çöküşünde bağımsız ilan ettiği krallık; Han tarafından MÖ 111'de ilhak.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Zhao Tuo 204 BC kral, 196 BC Han tanıması.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "nanyue",
+   "not": ""
+  }
+ },
+ {
+  "id": "qin-hanedani",
+  "ad": "Qin Hanedanı (birleşik İmparatorluk)",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "-0220-01-01",
+  "t": "-0206-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Xianyang",
+  "etkin_bolge": "Çin birliği",
+  "sehirler": [
+   "Xianyang"
+  ],
+  "ozet": "Qin Shi Huang'ın MÖ 221'de Çin'i birleştirmesi; MÖ 207'de Zi Ying'in teslimiyeti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "qin-hanedani",
+   "not": ""
+  }
+ },
+ {
+  "id": "bati-chu-xiang-yu",
+  "ad": "Batı Chu (Xiang Yu)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0201-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pengcheng",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Pengcheng"
+  ],
+  "ozet": "Xiang Yu (hükümdar). Hegemon Xiang Yu 206-202; Gaixia yenilgisi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "yong-krallik",
+  "ad": "Yong (雍) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Feiqiu",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Feiqiu"
+  ],
+  "ozet": "Zhang Han (hükümdar). Sekiz, on sekiz krallıktan biri; Han'a yenildi 205.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "sai-krallik",
+  "ad": "Sai (塞) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Yueyang",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Yueyang"
+  ],
+  "ozet": "Sima Xin (hükümdar). Han'a teslim 205.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "di-krallik-chuhan",
+  "ad": "Di (翟) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Gaonu",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Gaonu"
+  ],
+  "ozet": "Dong Yi (hükümdar). Han'a teslim 205.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "xi-wei-krallik",
+  "ad": "Batı Wei (西魏) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pingyang",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Pingyang"
+  ],
+  "ozet": "Wei Bao (hükümdar). Han Xin tarafından MÖ 205'te yenildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "henan-krallik",
+  "ad": "Henan (河南) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Luoyang",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Luoyang"
+  ],
+  "ozet": "Shen Yang (hükümdar). Han'a teslim 205.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "yin-krallik",
+  "ad": "Yin (殷) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Zhaoge",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Zhaoge"
+  ],
+  "ozet": "Sima Ang (hükümdar). Han'a yenildi 205.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "hann-krallik-chuhan",
+  "ad": "Han (韓) Krallığı (Chu-Han)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Yangzhai",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Yangzhai"
+  ],
+  "ozet": "Han Cheng (hükümdar). Han Cheng Xiang Yu tarafından öldürüldü (206); Han Xin MÖ 205'te kral oldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "changshan-krallik",
+  "ad": "Changshan (常山) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Xiangguo",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Xiangguo"
+  ],
+  "ozet": "Zhang Er (hükümdar). Zhang Er kaçtı, Zhao oldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "dai-krallik-chuhan",
+  "ad": "Dai/Zhao (代/趙) Krallığı (Chu-Han)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0203-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dai",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Dai"
+  ],
+  "ozet": "Zhao Xie (hükümdar). Zhao Xie; Han Xin tarafından yok edildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "jiujiang-krallik",
+  "ad": "Jiujiang (九江) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0202-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Liu",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Liu"
+  ],
+  "ozet": "Ying Bu (hükümdar). Ying Bu Han'a geçti; Huainan krallığı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "hengshan-krallik",
+  "ad": "Hengshan (衡山) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0201-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Zhu",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Zhu"
+  ],
+  "ozet": "Wu Rui (hükümdar). Changsha krallığına dönüştü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "linjiang-krallik",
+  "ad": "Linjiang (臨江) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0201-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jiangling",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Jiangling"
+  ],
+  "ozet": "Gong Ao (hükümdar). Han tarafından 202'de yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "liaodong-krallik-chuhan",
+  "ad": "Liaodong (遼東) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Wuzhong",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Wuzhong"
+  ],
+  "ozet": "Han Guang (hükümdar). Zang Tu tarafından yutuldu (Yan).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "yan-krallik-chuhan",
+  "ad": "Yan (燕) Krallığı (Chu-Han)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0201-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ji",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Ji"
+  ],
+  "ozet": "Zang Tu (hükümdar). Han tarafından yıkıldı 202.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "jiaodong-krallik",
+  "ad": "Jiaodong (膠東) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jimo",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Jimo"
+  ],
+  "ozet": "Tian Shi (hükümdar). Tian Rong tarafından yutuldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "qi-krallik-chuhan",
+  "ad": "Qi (齊) Krallığı (Chu-Han)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0204-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Linzi",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Linzi"
+  ],
+  "ozet": "Tian Du (hükümdar). Tian Rong ile birleşti, sonra Han Xin fethetti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "jibei-krallik",
+  "ad": "Jibei (濟北) Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "-0203-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Boyang",
+  "etkin_bolge": "Xiang Yu'nun MÖ 206 bölüşümü (Çu-Han Savaşı)",
+  "sehirler": [
+   "Boyang"
+  ],
+  "ozet": "Tian An (hükümdar). Tian Rong tarafından yutuldu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "On sekiz krallık: Xiang Yu'nun Qin sonrası bölüşümü (206 BC). Bitiş yılları ±1 yıl kesinsizdir (Shiji/Hanshu kronolojisi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Chu-Han krallıkları yok."
+  }
+ },
+ {
+  "id": "bati-han",
+  "ad": "Batı Han Hanedanı",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "-0205-01-01",
+  "t": "0009-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chang'an",
+  "etkin_bolge": "Çin + Orta Asya protektoraları",
+  "sehirler": [
+   "Chang'an"
+  ],
+  "ozet": "Liu Bang'ın Han kralı ilanı (206/202) ve Wang Mang'ın tahta geçişi (MS 9).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Han Kralı unvanı MÖ 206; İmparator MÖ 202. Atlas -0205 yıl 206.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "bati-han",
+   "not": ""
+  }
+ },
+ {
+  "id": "xin-hanedani",
+  "ad": "Xin Hanedanı (Wang Mang)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0009-01-10",
+  "t": "0023-10-06",
+  "kesinlik": {
+   "f": "gun",
+   "t": "gun"
+  },
+  "baskent": "Chang'an",
+  "etkin_bolge": "Çin",
+  "sehirler": [
+   "Chang'an"
+  ],
+  "ozet": "Wang Mang'ın MS 9'da Han tahtını alması; MS 23 Ekim'de Chang'an'ın düşüşü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Atlas künyesi 9-01-10 (gün hassasiyeti); biz de aynı gün kesinliğiyle.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "xin",
+   "not": ""
+  }
+ },
+ {
+  "id": "gengshi",
+  "ad": "Gengshi Rejimi (Xuan Han / Lulin)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0023-01-01",
+  "t": "0025-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chang'an",
+  "etkin_bolge": "Orta Çin",
+  "sehirler": [
+   "Chang'an"
+  ],
+  "ozet": "Wang Mang'ın düşüşünden sonra Liu Xuan'ın Gengshi İmparatoru olarak kurduğu geçici Han rejimi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Chimei (Kızıl Kaşlılar) tarafından MS 25'te yenildi.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "chimei-jianshi",
+  "ad": "Kızıl Kaşlılar Rejimi (Jianshi)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0025-01-01",
+  "t": "0027-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chang'an",
+  "etkin_bolge": "Orta Çin",
+  "sehirler": [
+   "Chang'an"
+  ],
+  "ozet": "Chimei isyancılarının Liu Penzi'yi 'Jianshi imparatoru' ilan etmesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kısa ömürlü devletleşmiş isyan; Doğu Han tarafından teslim alındı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "chengjia-gongsun-shu",
+  "ad": "Chengjia (成家, Gongsun Shu)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0025-01-01",
+  "t": "0036-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chengdu",
+  "etkin_bolge": "Sichuan",
+  "sehirler": [
+   "Chengdu"
+  ],
+  "ozet": "Gongsun Shu'nun Sichuan'da kendini imparator ilan ettiği devlet; Doğu Han (Guangwu) tarafından yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "25 imparator ilan; 36 yıkılış.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dogu-han",
+  "ad": "Doğu Han Hanedanı",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0025-01-01",
+  "t": "0220-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Luoyang",
+  "etkin_bolge": "Çin",
+  "sehirler": [
+   "Luoyang"
+  ],
+  "ozet": "Guangwu'nun MS 25'te Han'ı restore etmesi; Cao Pi'nin MS 220'de tahtı almasıyla biter.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dogu-han",
+   "not": ""
+  }
+ },
+ {
+  "id": "hanzhong-zhang-lu",
+  "ad": "Hanzhong Tianshi Dao Teokrasisi (Zhang Lu)",
+  "tur": "teokrasi",
+  "bolge": "dogu-asya",
+  "f": "0191-01-01",
+  "t": "0215-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Nanzheng",
+  "etkin_bolge": "Hanzhong, Kuzey Sichuan",
+  "sehirler": [
+   "Nanzheng"
+  ],
+  "ozet": "Zhang Lu'nun Beş Ölçek Pirinç mezhebi devleti; Cao Cao'ya MS 215'te teslim.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tür önerisi: teokrasi (tur_yeni).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "tur_yeni": "teokrasi: dinî mezhebin kurduğu fiilî yönetim"
+ },
+ {
+  "id": "gongsun-liaodong",
+  "ad": "Gongsun Liaodong Yönetimi (Yan)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0189-01-01",
+  "t": "0238-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Xiangping (Liaoyang)",
+  "etkin_bolge": "Liaodong, Liaoxi",
+  "sehirler": [
+   "Xiangping (Liaoyang)"
+  ],
+  "ozet": "Gongsun Du'dan itibaren bağımsız Liaodong yönetimi; Gongsun Yuan 237'de 'Yan' kralı ilan etti; Sima Yi MS 238'de yıktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yan unvanı 237.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "cao-wei",
+  "ad": "Cao Wei",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0220-01-01",
+  "t": "0265-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Luoyang",
+  "etkin_bolge": "Kuzey Çin",
+  "sehirler": [
+   "Luoyang"
+  ],
+  "ozet": "Cao Pi'nin Han'ı tahttan indirmesi (220) ve Sima Yan'ın tahta geçmesi (265).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "cao-wei",
+   "not": ""
+  }
+ },
+ {
+  "id": "shu-han",
+  "ad": "Shu Han",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0221-01-01",
+  "t": "0263-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chengdu",
+  "etkin_bolge": "Sichuan, Yunnan",
+  "sehirler": [
+   "Chengdu"
+  ],
+  "ozet": "Liu Bei'nin imparator ilanı (221); Wei tarafından fethedildi (263).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "shu-han",
+   "not": ""
+  }
+ },
+ {
+  "id": "sun-wu",
+  "ad": "Wu (Sun Wu)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0222-01-01",
+  "t": "0280-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jianye",
+  "etkin_bolge": "Jiangnan",
+  "sehirler": [
+   "Jianye"
+  ],
+  "ozet": "Sun Quan'ın Wu kralı ilanı (222) ve Jin fethi (280).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sun Quan 229'da imparator.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "sun-wu",
+   "not": ""
+  }
+ },
+ {
+  "id": "bati-jin",
+  "ad": "Batı Jin Hanedanı",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0265-01-01",
+  "t": "0316-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Luoyang → Chang'an",
+  "etkin_bolge": "Çin",
+  "sehirler": [
+   "Luoyang",
+   "Chang'an"
+  ],
+  "ozet": "Sima Yan'ın kuruluşu; Xiongnu-Han ordusunun Chang'an'ı alması (316).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "bati-jin",
+   "not": ""
+  }
+ },
+ {
+  "id": "cheng-han",
+  "ad": "Cheng-Han (成漢)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0304-01-01",
+  "t": "0347-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chengdu",
+  "etkin_bolge": "Sichuan",
+  "sehirler": [
+   "Chengdu"
+  ],
+  "ozet": "Li Xiong'un kurduğu Cheng (304) ve Han (338) devleti; Huan Wen tarafından yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Li Xiong 304'te Cheng kralı, 306'da imparator.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "han-zhao",
+  "ad": "Han-Zhao (Önceki Zhao)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0304-01-01",
+  "t": "0329-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pingyang → Chang'an",
+  "etkin_bolge": "Shanxi, Shaanxi",
+  "sehirler": [
+   "Pingyang",
+   "Chang'an"
+  ],
+  "ozet": "Liu Yuan'ın Han kralı ilanı (304); Zhao adı 319; Shi Le'nin yıkışı 329.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "han-zhao",
+   "not": ""
+  }
+ },
+ {
+  "id": "hou-zhao",
+  "ad": "Sonraki Zhao (後趙)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0319-01-01",
+  "t": "0351-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Xiangguo → Ye",
+  "etkin_bolge": "Kuzey Çin ovası",
+  "sehirler": [
+   "Xiangguo",
+   "Ye"
+  ],
+  "ozet": "Shi Le'nin Zhao kralı ilanı (319); Ran Min darbesi ve çöküş (350-351).",
+  "oncul": [],
+  "ardil": [
+   "ran-wei"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Shi Le 319; Shi Hu imparator 334/335.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "onceki-liang",
+  "ad": "Önceki Liang (前涼)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0320-01-01",
+  "t": "0376-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Guzang (Wuwei)",
+  "etkin_bolge": "Gansu koridoru",
+  "sehirler": [
+   "Guzang (Wuwei)"
+  ],
+  "ozet": "Zhang Gui hanedanı; Liangzhou vali yönetimi; Önceki Qin tarafından 376'da yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Zhang Gui 301'de vali; krallık 320 (kronolojik liste).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "onceki-yan",
+  "ad": "Önceki Yan (前燕)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0337-01-01",
+  "t": "0370-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Longcheng → Ye",
+  "etkin_bolge": "Liaoning, Hebei",
+  "sehirler": [
+   "Longcheng",
+   "Ye"
+  ],
+  "ozet": "Murong Huang'ın Yan kralı ilanı (337); Önceki Qin'in Ye'yi alışı (370).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Murong Hui'den beri yarı bağımsız.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ran-wei",
+  "ad": "Ran Wei (冉魏)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0350-01-01",
+  "t": "0352-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Ye",
+  "etkin_bolge": "Hebei",
+  "sehirler": [
+   "Ye"
+  ],
+  "ozet": "Ran Min'in Shi hanedanını devirmesiyle kurulan Han soylu devlet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "onceki-qin",
+  "ad": "Önceki Qin (前秦)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0351-01-01",
+  "t": "0394-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chang'an",
+  "etkin_bolge": "Kuzey Çin birliği (376-383)",
+  "sehirler": [
+   "Chang'an"
+  ],
+  "ozet": "Fu Jian'ın 'Tian Wang' ilanı (351); Fei River yenilgisi (383); Fu Deng'in ölümü (394).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Fu Hong 350'de bağımsızlık; 351'de Tian Wang.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-yan",
+  "ad": "Sonraki Yan (後燕)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0384-01-01",
+  "t": "0407-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Zhongshan",
+  "etkin_bolge": "Hebei",
+  "sehirler": [
+   "Zhongshan"
+  ],
+  "ozet": "Murong Chui'nin bağımsız ilanı (384); Murong Xi'nin öldürülüşü (407).",
+  "oncul": [],
+  "ardil": [
+   "kuzey-yan"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bati-yan",
+  "ad": "Batı Yan (西燕)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0384-01-01",
+  "t": "0394-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Changzi",
+  "etkin_bolge": "Shanxi",
+  "sehirler": [
+   "Changzi"
+  ],
+  "ozet": "Murong Hong'un Önceki Qin çöküşünde kurduğu devlet; Sonraki Yan tarafından yok edildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-qin",
+  "ad": "Sonraki Qin (後秦)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0384-01-01",
+  "t": "0417-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chang'an",
+  "etkin_bolge": "Shaanxi, Gansu",
+  "sehirler": [
+   "Chang'an"
+  ],
+  "ozet": "Yao Chang'ın kuruluşu (384); Liu Yu'nun fethi (417).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bati-qin",
+  "ad": "Batı Qin (西秦)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0385-01-01",
+  "t": "0431-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Yuanchuan → Jincheng",
+  "etkin_bolge": "Gansu",
+  "sehirler": [
+   "Yuanchuan",
+   "Jincheng"
+  ],
+  "ozet": "Qifu Guoren'in kuruluşu; Hu Xia tarafından yıkıldı (431).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sonraki-liang-16",
+  "ad": "Sonraki Liang (後涼)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0386-01-01",
+  "t": "0403-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Guzang",
+  "etkin_bolge": "Gansu koridoru",
+  "sehirler": [
+   "Guzang"
+  ],
+  "ozet": "Di soylu Lü Guang'ın kurduğu devlet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "386 vali, 389 Sanhe wang, 396 Tian Wang.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "guney-liang-16",
+  "ad": "Güney Liang (南涼)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0397-01-01",
+  "t": "0414-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Leidu (Ledu)",
+  "etkin_bolge": "Qinghai doğusu",
+  "sehirler": [
+   "Leidu (Ledu)"
+  ],
+  "ozet": "Tufa Wugu'nun Xianbei devleti; Batı Qin tarafından yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kuzey-liang",
+  "ad": "Kuzey Liang (北涼)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0397-01-01",
+  "t": "0439-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Zhangye → Guzang",
+  "etkin_bolge": "Hexi koridoru",
+  "sehirler": [
+   "Zhangye",
+   "Guzang"
+  ],
+  "ozet": "Duan Ye (397) ve Juqu Mengxun (401) yönetimi; Kuzey Wei fethi (439).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "guney-yan",
+  "ad": "Güney Yan (南燕)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0398-01-01",
+  "t": "0410-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Guanggu",
+  "etkin_bolge": "Shandong",
+  "sehirler": [
+   "Guanggu"
+  ],
+  "ozet": "Murong De'nin kurduğu devlet; Liu Yu tarafından yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bati-liang-16",
+  "ad": "Batı Liang (西涼)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0400-01-01",
+  "t": "0421-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dunhuang → Jiuquan",
+  "etkin_bolge": "Gansu batısı",
+  "sehirler": [
+   "Dunhuang",
+   "Jiuquan"
+  ],
+  "ozet": "Li Gao'nun kurduğu Han soylu devlet; Kuzey Liang tarafından yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "hu-xia",
+  "ad": "Hu Xia (胡夏)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0407-01-01",
+  "t": "0431-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Tongwancheng",
+  "etkin_bolge": "Ordos",
+  "sehirler": [
+   "Tongwancheng"
+  ],
+  "ozet": "Helian Bobo'nun Xiongnu devleti; Tuyuhun'un yıkışı (431).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kuzey-yan",
+  "ad": "Kuzey Yan (北燕)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0407-01-01",
+  "t": "0436-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Longcheng",
+  "etkin_bolge": "Liaoxi",
+  "sehirler": [
+   "Longcheng"
+  ],
+  "ozet": "Gao Yun ve Feng Ba'nın devleti; Kuzey Wei fethi (436).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "zhai-wei",
+  "ad": "Zhai Wei (翟魏)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0388-01-01",
+  "t": "0392-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Huatai (Henan)",
+  "etkin_bolge": "Henan kuzeyi",
+  "sehirler": [
+   "Huatai (Henan)"
+  ],
+  "ozet": "Zhai Liao'nun kısa ömürlü Dingling devleti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "qiuchi",
+  "ad": "Qiuchi (Chouchi, 仇池)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0296-01-01",
+  "t": "0580-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Qiuchi (Gansu güneyi)",
+  "etkin_bolge": "Gansu-Sichuan sınırı",
+  "sehirler": [
+   "Qiuchi (Gansu güneyi)"
+  ],
+  "ozet": "Yang ailesinin Di kökenli, bölünmüş ve sönümlenmiş hanedanı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Aralıklı hükümdarlar; sınırlar belirsiz; 296 Yang Maosou, 580 Kuzey Zhou sonu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bati-shu-qiao",
+  "ad": "Batı Shu (Qiao Zong, 譙蜀)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0405-01-01",
+  "t": "0413-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chengdu",
+  "etkin_bolge": "Sichuan",
+  "sehirler": [
+   "Chengdu"
+  ],
+  "ozet": "Qiao Zong'un Doğu Jin'den ayrılıp kurduğu devlet.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dai-tuoba",
+  "ad": "Dai Prensliği (Tuoba/Tabgaç)",
+  "tur": "prenslik",
+  "bolge": "dogu-asya",
+  "f": "0315-01-01",
+  "t": "0376-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Shengle",
+  "etkin_bolge": "İç Moğolistan, Shanxi kuzeyi",
+  "sehirler": [
+   "Shengle"
+  ],
+  "ozet": "Tuoba Yilu'nun Dai prensliği; Önceki Qin tarafından yıkıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dai-tuoba",
+   "not": ""
+  }
+ },
+ {
+  "id": "tuyuhun",
+  "ad": "Tuyuhun (Tuguhun) Hanlığı",
+  "tur": "hanlik",
+  "bolge": "dogu-asya",
+  "f": "0313-01-01",
+  "t": "0663-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Fuqi → Qinghai",
+  "etkin_bolge": "Qinghai, Gansu",
+  "sehirler": [
+   "Fuqi",
+   "Qinghai"
+  ],
+  "ozet": "Murong Tuyuhun'un Qinghai'ye yerleşmesiyle; Tibet tarafından 663'te çöktü.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Ayrıca Tuyuhun krallığı: Murong Tuyuhun göçü ~284-313.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "tuyuhun",
+   "not": ""
+  }
+ },
+ {
+  "id": "kuzey-wei",
+  "ad": "Kuzey Wei Hanedanı",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "0386-01-01",
+  "t": "0534-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Pingcheng → Luoyang",
+  "etkin_bolge": "Kuzey Çin",
+  "sehirler": [
+   "Pingcheng",
+   "Luoyang"
+  ],
+  "ozet": "Tuoba Gui'nin Wei kralı ilanı (386); 534'te Doğu/Batı Wei'ye bölünüş.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kuzey-wei",
+   "not": ""
+  }
+ },
+ {
+  "id": "dogu-jin",
+  "ad": "Doğu Jin Hanedanı",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0317-01-01",
+  "t": "0420-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jiankang",
+  "etkin_bolge": "Güney Çin",
+  "sehirler": [
+   "Jiankang"
+  ],
+  "ozet": "Sima Rui'nin Jiankang'da yeniden kurduğu Jin; Liu Yu'nun tahta geçmesi (420).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "dogu-jin",
+   "not": ""
+  }
+ },
+ {
+  "id": "liu-song",
+  "ad": "Liu Song",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0420-01-01",
+  "t": "0479-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jiankang",
+  "etkin_bolge": "Güney Çin",
+  "sehirler": [
+   "Jiankang"
+  ],
+  "ozet": "Liu Yu'nun kuruluşu; Xiao Daocheng'in tahta geçmesi (479).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "liu-song",
+   "not": "Atlas id: liu-song (kontrol: mevcut kayıt id liu-song)."
+  }
+ },
+ {
+  "id": "guney-qi",
+  "ad": "Güney Qi",
+  "tur": "imparatorluk",
+  "bolge": "dogu-asya",
+  "f": "0479-01-01",
+  "t": "0502-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Jiankang",
+  "etkin_bolge": "Güney Çin",
+  "sehirler": [
+   "Jiankang"
+  ],
+  "ozet": "Xiao Daocheng'in kuruluşu; Xiao Yan'ın (Liang) darbesiyle çöküş.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "guney-qi",
+   "not": ""
+  }
+ },
+ {
+  "id": "yarlung-krallik",
+  "ad": "Yarlung Krallığı (Tibet, imparatorluk öncesi)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "-0126-01-01",
+  "t": "0629-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Yarlung vadisi (Chingwa Taktse)",
+  "etkin_bolge": "Tibet güneyi (Yarlung)",
+  "sehirler": [
+   "Yarlung vadisi (Chingwa Taktse)"
+  ],
+  "ozet": "Geleneksel olarak Nyatri Tsenpo'dan (MÖ 127) başlayan Yarlung hanedanı; Songtsen Gampo ile Tibet İmparatorluğu.",
+  "oncul": [],
+  "ardil": [
+   "tibet-imparatorlugu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "MÖ 127 yalnız Tibet geleneğidir (efsanevî); kaynak: Tibet tarihi geleneği, Dunhuang kroniği. t: Songtsen Gampo 629.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta Tibet İmparatorluğu 629'dan."
+  }
+ },
+ {
+  "id": "zhangzhung",
+  "ad": "Zhangzhung Krallığı (Shang Shung)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": null,
+  "t": "0644-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "Khyunglung (Ngari)",
+  "etkin_bolge": "Batı Tibet (Kailash çevresi)",
+  "sehirler": [
+   "Khyunglung (Ngari)"
+  ],
+  "ozet": "Bon geleneğinin merkezi olan Batı Tibet krallığı; Songtsen Gampo/Trisong Detsen tarafından ilhak.",
+  "oncul": [],
+  "ardil": [
+   "tibet-imparatorlugu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "TASLAK - hafızadan yazıldı, sayfa okunmadı; doğrulama adayı kaynaklar:",
+   "Twitchett & Loewe (eds.), The Cambridge History of China vol.1 Ch'in and Han (CUP 1986)",
+   "Lewis, China Between Empires (Harvard UP 2009)",
+   "Sima Qian, Shiji; Ban Gu, Hanshu; Chen Shou, Sanguozhi; Fang Xuanling, Jinshu"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Ilhak tarihi kaynaklara göre 644-ca.7. yy; Tibet geleneği. Başlangıç yılı bilinmiyor/belirsiz (f=null).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

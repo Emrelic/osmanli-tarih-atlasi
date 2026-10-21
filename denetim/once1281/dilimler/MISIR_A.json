@@ -1,0 +1,129 @@
+[
+ {
+  "id": "hierakonpolis-krallik",
+  "ad": "Hierakonpolis (Nekhen) Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "-3499-01-01",
+  "t": "-3199-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Hierakonpolis",
+  "etkin_bolge": "Yukarı Mısır, Nil vadisi güney",
+  "sehirler": [
+   "Hierakonpolis",
+   "Naqada",
+   "Abydos"
+  ],
+  "ozet": "Naqada IIC-III'te Yukarı Mısır'da elit mezarlı, tapınaklı merkezî şeflik/krallık; Thinis'in öncülü.",
+  "oncul": [
+   "naqada-kultur"
+  ],
+  "ardil": [
+   "abydos-thinis-0-hanedan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Krallık mı karmaşık şeflik mi tartışmalı; tarihler Naqada kronolojisinden yaklaşık. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Cambridge Ancient History I.2; Hendrickx; Wengrow 2006]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "naqada-ombos-krallik",
+  "ad": "Naqada (Nubt/Ombos) Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "-3499-01-01",
+  "t": "-3299-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Naqada (Nubt)",
+  "etkin_bolge": "Yukarı Mısır",
+  "sehirler": [
+   "Naqada",
+   "Gebelein"
+  ],
+  "ozet": "Naqada IIC-IID civarında Hierakonpolis ve Abydos ile birlikte üç Yukarı Mısır merkezinden biri.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Ayrı polity olduğu tartışmalı; f/t kabaca. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Cambridge Ancient History I.2; Hendrickx]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "abydos-thinis-0-hanedan",
+  "ad": "Abydos/Thinis (0. Hanedan) Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "-3199-01-01",
+  "t": "-3099-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Abydos (Thinis)",
+  "etkin_bolge": "Yukarı Mısır, sonra Aşağı Mısır",
+  "sehirler": [
+   "Abydos",
+   "Thinis"
+  ],
+  "ozet": "Naqada IIIA-B'de Abydos U-j mezarı ve 0. Hanedan hükümdarları; birleşmeye giden Thinite krallık.",
+  "oncul": [],
+  "ardil": [
+   "misir-erken-hanedan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut künye -3099'da başlıyor; öncesi eksik. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Cambridge Ancient History I.2; Hendrickx; Dreyer]",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "misir-erken-hanedan",
+   "not": ""
+  }
+ },
+ {
+  "id": "ta-seti-a-grubu",
+  "ad": "Ta-Seti / A-Grubu Nubya Krallığı (Qustul)",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "-3699-01-01",
+  "t": "-3249-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Qustul / Sayala",
+  "etkin_bolge": "Aşağı Nubya",
+  "sehirler": [
+   "Qustul",
+   "Sayala"
+  ],
+  "ozet": "Aşağı Nubya A-Grubu kültürünün elit mezarlı (Qustul) merkezi şefliği; Mısır birleşmesiyle çöker.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Krallık statüsü tartışmalı. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Williams 1986 (Oriental Institute); Cambridge History of Africa I]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

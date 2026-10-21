@@ -1,0 +1,150 @@
+[
+ {
+  "id": "heuneburg-prensligi",
+  "ad": "Heuneburg (Hallstatt Prens Merkezi) Prensliği",
+  "tur": "prenslik",
+  "bolge": "orta-avrupa",
+  "f": "-0599-01-01",
+  "t": "-0449-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Heuneburg (Herbertingen-Hundersingen)",
+  "etkin_bolge": "Yukari Tuna, Wurttemberg (Almanya)",
+  "sehirler": [
+   "Heuneburg",
+   "Hohmichele",
+   "Talhau"
+  ],
+  "ozet": "Hallstatt D donemi 'prens merkezi'; Yukari Tuna'da surlu tepe-kent ve cevresindeki prens mezarlari. Arkeolojik siyasi birim varsayimi; yazili kaynak yok (Herodot Pyrene/Keltoi anmasi tartismali).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasi birim niteligi arkeolojiye dayanir; 'devlet' degil 'prenslik/elit merkez' olarak okunmali. Hohenasperg, Mont Lassois (Vix, Fransa) benzer merkezlerdir (BATIAV). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Kimmig 1969 / Gersbach; Brill's New Pauly 'Heuneburg'; Cunliffe 'Europe Between the Oceans']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlasta Kelt/Hallstatt devleti yok."
+  }
+ },
+ {
+  "id": "kimmer-konfederasyonu",
+  "ad": "Kimmerler (Cimmerian) Kabile Birligi",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": "-0799-01-01",
+  "t": "-0599-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz (Kuzey Karadeniz)",
+  "etkin_bolge": "Kuzey Karadeniz bozkiri, sonra Anadolu akinlari",
+  "sehirler": [],
+  "ozet": "Asur ve Yunan kaynaklarinda adi gecen bozkir gocebe birligi; Iskitlerce Kuzey Karadeniz'den sokulup Anadolu'ya (Gimirrai) akin etti.",
+  "oncul": [],
+  "ardil": [
+   "skit-krallik"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Asur metinlerinde ilk kayit MO 8. yy sonu (Gamir/Gimirrai). Siyasi birlik niteligi (devlet mi gocebe topluluk mu) tartismali. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Cimmerii'; Ivantchik 1993 'Les Cimmériens au Proche-Orient']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "olbia-polisi",
+  "ad": "Olbia (Borysthenes) Polisi",
+  "tur": "sehir-devleti",
+  "bolge": "dogu-avrupa",
+  "f": "-0645-01-01",
+  "t": "0300-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Olbia (Parutino, Nikolayev)",
+  "etkin_bolge": "Bug-Dnepr haliçleri, Kuzey Karadeniz kiyisi",
+  "sehirler": [
+   "Olbia",
+   "Berezan"
+  ],
+  "ozet": "Miletos kolonisi olarak kurulan ozerk Yunan polisi; Iskit krallarina vergi/hediye odeyen, sonra Roma etkisi altina giren ticaret kenti. Geç 3.-4. yy'da Got ve Hun baskisiyla terk edildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş MÖ 7. yy ortasi (Eusebius tarihi MÖ 647/6; arkeoloji MÖ 6. yy basi); bitis kesin degil (Got kirimi 250-270 sonrasi gerileme). Atlasta Karadeniz kuzey Yunan kentleri yok; BALKAN oturumu Bosporos'u alirsa cakisma kontrolu. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Olbia'; Pleiades 'Olbia' (Pleiades 118316); Wasowicz]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Bosporos'tan ayri polis."
+  }
+ },
+ {
+  "id": "tyras-polisi",
+  "ad": "Tyras (Dinyester Agzi) Polisi",
+  "tur": "sehir-devleti",
+  "bolge": "dogu-avrupa",
+  "f": "-0599-01-01",
+  "t": "0300-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Tyras (Belgorod-Dnestrovskiy)",
+  "etkin_bolge": "Dinyester Haliçi, Kuzey Karadeniz",
+  "sehirler": [],
+  "ozet": "Miletos kolonisi kucuk polis; Roma ve sonra Bizans etkisi altinda surdu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Kuruluş MÖ 6. yy (Ps.-Skymnos); bitis 'Roma donemi sonu' belirsiz. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Tyras'; Pleiades Tyras]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "savromat-birligi",
+  "ad": "Savromatlar (Sauromatae) Kabile Birligi",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": "-0599-01-01",
+  "t": "-0299-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz (Don-Volga bozkiri)",
+  "etkin_bolge": "Tanais (Don) ile Volga/Ural arasi bozkir",
+  "sehirler": [],
+  "ozet": "Herodot'un Iskit komsusu olarak anlattigi bozkir birligi; sonraki Sarmatlarin selefi (arkeolojide Savromat kulturu).",
+  "oncul": [],
+  "ardil": [
+   "sarmat-aorslar",
+   "sarmat-roksolanlar",
+   "sarmat-yaziglar"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Savromat/Sarmat ayrimi tartismali (ayni halk mi, ardil mi). Siyasi birlik niteligi zayif. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Herodotos IV.110-117; Brill's New Pauly 'Sauromatai'; Sulimirski 'The Sarmatians']",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

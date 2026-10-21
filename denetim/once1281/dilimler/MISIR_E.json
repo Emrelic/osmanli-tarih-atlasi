@@ -1,0 +1,117 @@
+[
+ {
+  "id": "dotawo",
+  "ad": "Dotawo Krallığı",
+  "tur": "krallik",
+  "bolge": "misir-sudan",
+  "f": "1100-01-01",
+  "t": "1500-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Qasr Ibrim",
+  "etkin_bolge": "Aşağı Nubya",
+  "sehirler": [
+   "Qasr Ibrim",
+   "Faras"
+  ],
+  "ozet": "Makuria'dan ayrılan Aşağı Nubya krallığı; Qasr Ibrim belgelerinde Dotawo anılır.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Ayrılma tarihi belirsiz. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Ruffini 2012; Cambridge History of Africa III]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kenzu-ddevle",
+  "ad": "Kenzü'd-devle (Benî Kenz) Emirliği (Asvan)",
+  "tur": "emirlik",
+  "bolge": "misir-sudan",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Asvan",
+  "etkin_bolge": "Asvan ve Aşağı Nubya",
+  "sehirler": [
+   "Asvan"
+  ],
+  "ozet": "Fâtımî valilerinden Rabî'a kökenli Asvan emirliği.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "yıl bilinmiyor (11.-14. yy?). [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): TDV Kenzüddevle; Encyclopaedia of Islam]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "damot",
+  "ad": "Damot Krallığı",
+  "tur": "krallik",
+  "bolge": "dogu-afrika",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Güney Etiyopya",
+  "sehirler": [],
+  "ozet": "Habeş yıllıklarında anılan güney krallığı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "yıl bilinmiyor; 1281 öncesi varlığı doğrulanmadı. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): Cambridge History of Africa III; Tamrat 1972]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "zeyla-emirlik",
+  "ad": "Zeyla Emirliği",
+  "tur": "emirlik",
+  "bolge": "dogu-afrika",
+  "f": null,
+  "t": null,
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "belirsiz"
+  },
+  "baskent": "Zeyla",
+  "etkin_bolge": "Aden Körfezi kıyısı",
+  "sehirler": [
+   "Zeyla"
+  ],
+  "ozet": "Müslüman ticaret emirliği, 9.-13. yy.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "yıl bilinmiyor. [Web'de sayfa okunmadi; hafizadan taslak. Aday kaynaklar (okunmadi): TDV Zeyla; Lewis 1955]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

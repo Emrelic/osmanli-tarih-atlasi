@@ -1,0 +1,783 @@
+[
+ {
+  "id": "chalkidike-birligi",
+  "ad": "Khalkidike (Olynthos) Birliği",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "-0431-01-01",
+  "t": "-0347-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Olynthos",
+  "etkin_bolge": "Khalkidike",
+  "sehirler": [
+   "Olynthos",
+   "Potidaia",
+   "Torone"
+  ],
+  "ozet": "Olynthos önderliğinde birlik; MÖ 379 Sparta çözdü, MÖ 348 Philippos II Olynthos'u yıktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi",
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Birinci evre MÖ 432-379, ikinci evre MÖ 375-348. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "arkadia-birligi",
+  "ad": "Arkadia Birliği (Megalopolis)",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "-0369-01-01",
+  "t": "-0362-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Megalopolis",
+  "etkin_bolge": "Arkadia",
+  "sehirler": [
+   "Megalopolis",
+   "Mantineia",
+   "Tegea"
+  ],
+  "ozet": "Thebai desteğiyle MÖ 370 kuruldu, MÖ 363 bölünme; Hellenistik dönemde yeniden.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "messene-polis",
+  "ad": "Messene",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0368-01-01",
+  "t": "-0181-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Messene",
+  "etkin_bolge": "Messenia",
+  "sehirler": [
+   "Messene",
+   "Ithome"
+  ],
+  "ozet": "Epaminondas ile MÖ 369 kuruldu; MÖ 182 Akhaia Birliği'ne zorla katıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Akhaia yenilgisi MÖ 183-182. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "pherai-tiranligi",
+  "ad": "Pherai (Iason, Alexandros) Tiranlığı",
+  "tur": "tiranlik",
+  "bolge": "balkanlar",
+  "f": "-0373-01-01",
+  "t": "-0343-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Pherai",
+  "etkin_bolge": "Thessalia",
+  "sehirler": [
+   "Pherai",
+   "Pagasai"
+  ],
+  "ozet": "Iason (tagos MÖ ~374-370) ve Alexandros'un Thessalia hegemonyası; Philippos II MÖ 352/344.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Cambridge Ancient History (2. bs.), ilgili cilt/bolum - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Thessalia Birliği (B) ile ilişkili ama ayrı siyasî birim."
+  }
+ },
+ {
+  "id": "atina-helenistik",
+  "ad": "Atina (Helenistik özgür polis)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0228-01-01",
+  "t": "-0085-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Atina",
+  "etkin_bolge": "Attika",
+  "sehirler": [
+   "Atina",
+   "Piraeus"
+  ],
+  "ozet": "Makedon garnizonunun MÖ 229 çekilmesiyle bağımsız; MÖ 86 Sulla yağması.",
+  "oncul": [
+   "atina-demokrasisi"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "MÖ 307 Demetrios Poliorketes ile kısa demokrasi; kesintili. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas atina-demokrasisi MÖ 337 ile bitiyor; arada Makedon vesayeti."
+  }
+ },
+ {
+  "id": "rodos-federasyon",
+  "ad": "Rodos Birliği (Adalar Birliği)",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "-0313-01-01",
+  "t": "-0167-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Rodos",
+  "etkin_bolge": "Doğu Ege Adaları",
+  "sehirler": [
+   "Rodos",
+   "Kos",
+   "Karpathos"
+  ],
+  "ozet": "Antigonos'a karşı Ptolemaios himayesi; Nesiotai Koinon (Kyklades) MÖ 314; Rodos ticarette lider.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi",
+   "Cambridge Ancient History (2. bs.), ilgili cilt/bolum - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Nesiotai Koinon sonunu tarih belirsiz (MÖ ~250). Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas rodos-polis (MÖ 407-79) polity aynı çekirdek."
+  }
+ },
+ {
+  "id": "nesiotai-koinon",
+  "ad": "Nesiotai (Kyklades Adalar) Birliği",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "-0313-01-01",
+  "t": "-0245-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Delos",
+  "etkin_bolge": "Kyklades",
+  "sehirler": [
+   "Delos",
+   "Tenos",
+   "Andros"
+  ],
+  "ozet": "Antigonos Monophthalmos himayesinde adalar koinonu; Ptolemaios hegemonyası sonrası.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "delos-bagimsiz",
+  "ad": "Delos (bağımsız dönem)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0313-01-01",
+  "t": "-0165-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Delos",
+  "etkin_bolge": "Delos Adası",
+  "sehirler": [
+   "Delos"
+  ],
+  "ozet": "Makedon/Ptolemaios arasında bağımsızlık; MÖ 166 Roma'nın Atina'ya verdiği serbest liman.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tylis",
+  "ad": "Tylis Kelt Krallığı",
+  "tur": "krallik",
+  "bolge": "balkanlar",
+  "f": "-0278-01-01",
+  "t": "-0211-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Tylis",
+  "etkin_bolge": "Doğu Trakya",
+  "sehirler": [
+   "Tylis"
+  ],
+  "ozet": "Komontorios önderliğinde Kelt Krallığı; Kavaros dönemi MÖ ~212 Trakyalılar yıktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi",
+   "Cambridge Ancient History (2. bs.), ilgili cilt/bolum - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "skordiskler",
+  "ad": "Skordiskler (Kelt) Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "-0278-01-01",
+  "t": "-0014-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Singidunum (sonradan)",
+  "etkin_bolge": "Sava-Tuna",
+  "sehirler": [
+   "Singidunum",
+   "Taurunum"
+  ],
+  "ozet": "Delphoi seferi sonrası Kelt yerleşimi; Roma fethi MÖ 1. yy sonu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi",
+   "J. Wilkes, The Illyrians (1992) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "getai-dromichaites",
+  "ad": "Getai Krallığı (Dromichaites)",
+  "tur": "krallik",
+  "bolge": "balkanlar",
+  "f": "-0298-01-01",
+  "t": "-0290-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Helis",
+  "etkin_bolge": "Güney Romanya",
+  "sehirler": [
+   "Helis"
+  ],
+  "ozet": "Dromichaites'in Lysimachos'u yakalaması (MÖ ~292); Getai kral listesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Olaylar MÖ 300-292 arası. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bastarnai",
+  "ad": "Bastarnae Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": "-0199-01-01",
+  "t": "0300-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Karpatlar doğusu, Aşağı Tuna",
+  "sehirler": [
+   "Peuke"
+  ],
+  "ozet": "Kelt-Germen kökenli Bastarnlar; Roma'ya karşı Makedonya ittifakı; Probus MS ~280 yerleştirdi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasî birim mi etnik ad mı tartışmalı; zayıf aday. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Bölge dogu-avrupa ile ortak."
+  }
+ },
+ {
+  "id": "illyria-ardiaioi",
+  "ad": "Illyria (Ardiaioi-Labeatai) Krallığı",
+  "tur": "krallik",
+  "bolge": "balkanlar",
+  "f": "-0249-01-01",
+  "t": "-0167-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "Skodra",
+  "etkin_bolge": "Adriyatik kıyısı (Arnavutluk-Karadağ)",
+  "sehirler": [
+   "Skodra",
+   "Rhizon",
+   "Lissos"
+  ],
+  "ozet": "Agron (MÖ ~250-231) kurucu; Teuta, Gentios; MÖ 168 Roma Gentios'u yendi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "J. Wilkes, The Illyrians (1992) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Agron öncesi Ardiaioi ve Taulantioi ayrı; kralın hükümdarlık tarihleri tahminî. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "taulantioi",
+  "ad": "Taulantioi Krallığı",
+  "tur": "krallik",
+  "bolge": "balkanlar",
+  "f": "-0398-01-01",
+  "t": "-0301-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Epidamnos çevresi",
+  "etkin_bolge": "Orta Arnavutluk kıyısı",
+  "sehirler": [
+   "Epidamnos",
+   "Apollonia"
+  ],
+  "ozet": "Glaukias (MÖ ~335-302) Pyrrhos'u himaye etti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "J. Wilkes, The Illyrians (1992) - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dardania",
+  "ad": "Dardania Krallığı",
+  "tur": "krallik",
+  "bolge": "balkanlar",
+  "f": "-0398-01-01",
+  "t": "-0027-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Naissus çevresi",
+  "etkin_bolge": "Kosova, Güney Morava",
+  "sehirler": [
+   "Scupi",
+   "Naissus"
+  ],
+  "ozet": "Dardanlar; Bardylis dönemi tartışmalı; MÖ 28 Moesia'ya katıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "J. Wilkes, The Illyrians (1992) - OKUNMADI, dogrulama adayi",
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Bardylis Dardan mı İllyrian mı karşıt okul. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "epiros-birligi",
+  "ad": "Epiros Birliği (Koinon Apeirotan)",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "-0230-01-01",
+  "t": "-0166-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Phoinike",
+  "etkin_bolge": "Epiros",
+  "sehirler": [
+   "Phoinike",
+   "Gitana"
+  ],
+  "ozet": "Pyrrhos hanedanı sonrası kurulan koinon; MÖ 167 Roma 70 Epirus kasabasını yağmaladı.",
+  "oncul": [
+   "epir"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Cambridge Ancient History (2. bs.), ilgili cilt/bolum - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas epir MÖ 231 ile bitiyor."
+  }
+ },
+ {
+  "id": "eleutherolakones",
+  "ad": "Eleutherolakones (Özgür Lakonlar) Birliği",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "-0145-01-01",
+  "t": "0300-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Gytheion",
+  "etkin_bolge": "Lakonia",
+  "sehirler": [
+   "Gytheion",
+   "Boiai"
+  ],
+  "ozet": "Augustus MÖ 21 ile yeniden düzenlendi; Roma döneminde Lakonia küçük koinon.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarih uyumsuzluğu açık (MÖ 195 mi 146 mı 21 mi). Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kretaion-koinon",
+  "ad": "Girit Birliği (Kretaion Koinon)",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "-0249-01-01",
+  "t": "-0066-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Gortyn",
+  "etkin_bolge": "Girit",
+  "sehirler": [
+   "Gortyn",
+   "Knossos",
+   "Kydonia"
+  ],
+  "ozet": "Girit polislerinin Helenistik koinonu; MÖ 67 Metellus Creticus.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Cambridge Ancient History (2. bs.), ilgili cilt/bolum - OKUNMADI, dogrulama adayi",
+   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "goth-tervingi",
+  "ad": "Tervingi (Vizigot) Gotları - Dakya",
+  "tur": "kabile-devleti",
+  "bolge": "balkanlar",
+  "f": "0291-01-01",
+  "t": "0376-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Dakya, Bessarabya, Eflak",
+  "sehirler": [
+   "Tuna ve Karpat"
+  ],
+  "ozet": "Gotların Tervingi kolu; Athanaric; MS 376 Hun baskısı ile Tuna'dan geçiş.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi",
+   "Oxford Dictionary of Byzantium (1991), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Ermanaric Gotları (Greuthungi) ayrı kayıt. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Vizigot krallığı Batı Avrupa oturumuna ait; Tervingi ilk belge 291."
+  }
+ },
+ {
+  "id": "goth-greuthungi",
+  "ad": "Greuthungi (Ostrogot) Gotları - Pontus",
+  "tur": "kabile-devleti",
+  "bolge": "dogu-avrupa",
+  "f": "0230-01-01",
+  "t": "0376-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Kuzey Karadeniz",
+  "sehirler": [
+   "Dnepr-Don"
+  ],
+  "ozet": "Ermanaric krallığı (Oium); MS ~376 Hun fethi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi",
+   "Oxford Dictionary of Byzantium (1991), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dalmatya-marcellinus",
+  "ad": "Dalmaçya (Marcellinus-Nepos) Devleti",
+  "tur": "devlet",
+  "bolge": "balkanlar",
+  "f": "0454-01-01",
+  "t": "0481-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Salona",
+  "etkin_bolge": "Dalmaçya",
+  "sehirler": [
+   "Salona",
+   "Zadar"
+  ],
+  "ozet": "Batı Roma'dan fiilen ayrılan Marcellinus (454), Iulius Nepos (474-480); 481 Odoakar.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Oxford Dictionary of Byzantium (1991), ilgili madde - OKUNMADI, dogrulama adayi",
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Marcellinus bağımsızlık yılı 454/455 tartışmalı. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ostrogot-pannonia",
+  "ad": "Ostrogot Pannonia Krallığı",
+  "tur": "krallik",
+  "bolge": "balkanlar",
+  "f": "0456-01-01",
+  "t": "0473-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sirmium (çevre)",
+  "etkin_bolge": "Pannonia",
+  "sehirler": [
+   "Sirmium",
+   "Scarbantia"
+  ],
+  "ozet": "Theodemir önderliğinde Pannonia ostrogotları; 473 Moesia'ya göç.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Oxford Dictionary of Byzantium (1991), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Ostrogot İTALYA oturumunda var; Pannonia evresi burada kayıt."
+  }
+ },
+ {
+  "id": "rugii",
+  "ad": "Rugiland (Ruglar Krallığı)",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "0453-01-01",
+  "t": "0487-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Favianis",
+  "etkin_bolge": "Aşağı Avusturya (Tuna kuzeyi)",
+  "sehirler": [
+   "Favianis (Mautern)"
+  ],
+  "ozet": "Attila sonrası Rugi krallığı; 487 Odoakar.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi",
+   "Oxford Dictionary of Byzantium (1991), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Orta Avrupa oturumu ile çakışabilir."
+  }
+ },
+ {
+  "id": "heruli-tuna",
+  "ad": "Heruli Krallığı (Tuna)",
+  "tur": "krallik",
+  "bolge": "orta-avrupa",
+  "f": "0454-01-01",
+  "t": "0508-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Orta Tuna kuzeyi",
+  "sehirler": [
+   "Rua"
+  ],
+  "ozet": "Attila sonrası Heruli krallığı; Lombardlar ~508 yıktı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi",
+   "Oxford Dictionary of Byzantium (1991), ilgili madde - OKUNMADI, dogrulama adayi"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Procopius BG ile tarih sıkıştırılmıştır. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

@@ -1,0 +1,65 @@
+[
+ {
+  "id": "proto-elam-susa",
+  "ad": "Proto-Elam Susa (Susa II-III; Proto-Elam yazi alani)",
+  "tur": "sehir-devleti",
+  "bolge": "iran",
+  "f": "-3199-01-01",
+  "t": "-2699-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Susa",
+  "etkin_bolge": "Huzistan ve Fars platosu",
+  "sehirler": [
+   "Susa",
+   "Anşan (Tal-i Malyan)",
+   "Tepe Yahya"
+  ],
+  "ozet": "Susa merkezli Proto-Elam yazili idare sistemi; siyasi birim mi kultur alani mi tartismali.",
+  "oncul": [],
+  "ardil": [
+   "awan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Siyasi birim niteligi tartismali; f/t yaklasik. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Yakin: awan (-2499), yahya-donemleri (kultur). Proto-Elam siyasi birimi yok."
+  }
+ },
+ {
+  "id": "uruk-iv-sehir-devleti",
+  "ad": "Uruk (Uruk IV-III) idari merkez / sehir devleti",
+  "tur": "sehir-devleti",
+  "bolge": "mezopotamya",
+  "f": "-3399-01-01",
+  "t": "-3000-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Uruk",
+  "etkin_bolge": "Guney Mezopotamya",
+  "sehirler": [
+   "Uruk",
+   "Eridu"
+  ],
+  "ozet": "Yazinin dogdugu Gec Uruk merkezi; kral-rahip idaresi ihtimali.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Hafizadan taslak; web'de sayfa okunmadi, tarihler yaklasik. Siyasi yapi arkeolojik cikarim; belgeli devlet sayilmayabilir, kultur kaydiyla yinelenme riski. Dogrulama onerisi: Encyclopaedia Iranica, Brill's New Pauly, TDV Islam Ansiklopedisi, Cambridge History of Iran / CAH.",
+  "esleme": {
+   "durum": "var-kisa",
+   "mevcut_id": "uruk-gec-kultur",
+   "not": "Mevcut yalniz kultur kaydi (-3349/-3199); sehir devleti olarak ayri kayit onerilir."
+  }
+ }
+]

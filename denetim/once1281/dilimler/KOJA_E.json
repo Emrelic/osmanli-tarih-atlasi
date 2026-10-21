@@ -1,0 +1,299 @@
+[
+ {
+  "id": "goryeo",
+  "ad": "Goryeo",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "0918-01-01",
+  "t": "1392-07-17",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Kaesong",
+  "etkin_bolge": "Kore/Japonya",
+  "sehirler": [
+   "Kaesong"
+  ],
+  "ozet": "Wang Geon'un kurdugu hanedan; 1392'de Joseon.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Three_Kingdoms_of_Korea (okundu; yalniz aday kaynak, akademik kaynak okunamadi)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "goryeo",
+   "not": ""
+  }
+ },
+ {
+  "id": "oshu-fujiwara",
+  "ad": "Ōshū Fujiwara",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "1087-01-01",
+  "t": "1189-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Hiraizumi",
+  "etkin_bolge": "Kore/Japonya",
+  "sehirler": [
+   "Hiraizumi"
+  ],
+  "ozet": "Mutsu'da Fujiwara hanedanligi; 1189'da Yoritomo.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": " Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "oshu-fujiwara",
+   "not": ""
+  }
+ },
+ {
+  "id": "kamakura",
+  "ad": "Kamakura Şogunluğu",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "1185-01-01",
+  "t": "1333-07-04",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Kamakura",
+  "etkin_bolge": "Kore/Japonya",
+  "sehirler": [
+   "Kamakura"
+  ],
+  "ozet": "Minamoto no Yoritomo bakufu.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yoritomo'nun Kanto'daki fiili hakimiyeti 1180'de baslar; atlas 1185. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "kamakura",
+   "not": ""
+  }
+ },
+ {
+  "id": "abe-mutsu",
+  "ad": "Abe Klanı Mutsu Yönetimi (Oku no Rokugun)",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "1051-01-01",
+  "t": "1062-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Koromo-gawa",
+  "etkin_bolge": "Altı Mutsu ilçesi",
+  "sehirler": [
+   "Koromo-gawa"
+  ],
+  "ozet": "Abe klaninin Mutsu'yu fiilen bagimsiz yonetmesi (Zenkunen Savasi 1051-62).",
+  "oncul": [],
+  "ardil": [
+   "kiyohara-dewa"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Abe hakimiyeti 1051 oncesi; f savas basi. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kiyohara-dewa",
+  "ad": "Kiyohara Klanı Mutsu-Dewa Yönetimi",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "1062-01-01",
+  "t": "1087-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kanegasawa",
+  "etkin_bolge": "Mutsu ve Dewa",
+  "sehirler": [
+   "Kanegasawa"
+  ],
+  "ozet": "Zenkunen sonrasi Mutsu ve Dewa'da hakim Kiyohara; Gosannen (1083-87) sonrasi Fujiwara Kiyohira.",
+  "oncul": [
+   "abe-mutsu"
+  ],
+  "ardil": [
+   "oshu-fujiwara"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Gosannen Savasi 1083-87. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "taira-rejimi",
+  "ad": "Taira (Heike) Rejimi",
+  "tur": "hanedanlik",
+  "bolge": "dogu-asya",
+  "f": "1179-01-01",
+  "t": "1185-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Rokuhara -> Yashima",
+  "etkin_bolge": "Seto Ic Denizi ve Kinai",
+  "sehirler": [
+   "Rokuhara",
+   "Yashima"
+  ],
+  "ozet": "Taira no Kiyomori'nin 1179 darbesi ve rejimi; Dannoura'da 1185'te yikildi.",
+  "oncul": [],
+  "ardil": [
+   "kamakura"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kiyomori konumu 1167'den; fiilen 1179. Heian sarayi ayri kayit. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ryukyu-shunten-eiso",
+  "ad": "Ryukyu Shunten ve Eiso (Urasoe)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "1187-01-01",
+  "t": "1314-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Urasoe Gusuku",
+  "etkin_bolge": "Okinawa adasi",
+  "sehirler": [
+   "Urasoe",
+   "Shuri"
+  ],
+  "ozet": "1187'de Shunten ile Urasoe'de baslayan krallik; Eiso hanedani 1260; 1314 civari Sanzan.",
+  "oncul": [],
+  "ardil": [
+   "ryukyu-chuzan"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Ryukyu_Kingdom (kismen okundu; yalniz aday kaynak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Shunten donemi tartismali (yari efsane). Eiso infobox'ta 1349'a kadar. Sanzan (1314-1429) atlas disi (1281 sonrasi). Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "daewi-myocheong",
+  "ad": "Daewi Devleti (Myocheong)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "1135-01-01",
+  "t": "1136-02-01",
+  "kesinlik": {
+   "f": "ay",
+   "t": "ay"
+  },
+  "baskent": "Pyongyang",
+  "etkin_bolge": "Pyongyang",
+  "sehirler": [
+   "Pyongyang"
+  ],
+  "ozet": "Goryeo'da Myocheong isyani: Pyongyang'da Daewi devleti ilan edildi, 1136'da bastirildi.",
+  "oncul": [],
+  "ardil": [
+   "goryeo"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Gun/ay yaklasik. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "heungyo-guk",
+  "ad": "Heungyo Krallığı (Dae Yeonrim)",
+  "tur": "krallik",
+  "bolge": "dogu-asya",
+  "f": "1029-01-01",
+  "t": "1030-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Dongkyeong (Liaoyang)",
+  "etkin_bolge": "Liaodong",
+  "sehirler": [
+   "Liaoyang"
+  ],
+  "ozet": "Balhae soylusu Dae Yeonrim'in Liao'ya karsi kurdugu kisa omurlu devlet.",
+  "oncul": [
+   "balhae"
+  ],
+  "ardil": [
+   "liao-hanedani"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "kaynak okunamadi (hafizadan taslak)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Ayrintilar yaklasik. Akademik kaynak okunamadi; kayit dogrulanmamis taslaktir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ }
+]

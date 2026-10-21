@@ -1,0 +1,537 @@
+[
+ {
+  "id": "au-lac",
+  "ad": "Au Lac (Thuc Hanedani)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "-0256-01-01",
+  "t": "-0178-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Co Loa",
+  "etkin_bolge": "Kizil Nehir deltasi (Kuzey Vietnam)",
+  "sehirler": [
+   "Co Loa"
+  ],
+  "ozet": "Thuc Phan'in Van Lang'i alip Au Lac'i kurmasi (257 MO) ve Zhao Tuo'nun (Nanyue) fethi (179 MO).",
+  "oncul": [
+   "van-lang"
+  ],
+  "ardil": [
+   "nanyue"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Gelenege gore 257 MO; Zhao Tuo fethi 179 MO. Cin kaynaklari Nanyue'yi yazar; Au Lac'in tarihselligi Vietnam kroniklerine dayanir. Tarihler kroniklerden, iki yil kesinligi yok.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Nanyue mevcut (dogu-asya) Vietnam'a yayilir."
+  }
+ },
+ {
+  "id": "pyu-sehir-devletleri",
+  "ad": "Pyu Sehir Devletleri",
+  "tur": "konfederasyon",
+  "bolge": "guneydogu-asya",
+  "f": "-0199-01-01",
+  "t": "0832-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Halin → Sri Ksetra (Thayekhittaya)",
+  "etkin_bolge": "Irrawaddy vadisi (Orta Myanmar): Halin, Beikthano, Maingmaw, Sri Ksetra",
+  "sehirler": [
+   "Halin",
+   "Beikthano",
+   "Sri Ksetra",
+   "Maingmaw"
+  ],
+  "ozet": "Irrawaddy vadisinde birbirinden bagimsiz Pyu sehir devletleri; 832'de Nanzhao Halin'i yikti, 9.-11. yy'da Pagan'a eridi.",
+  "oncul": [],
+  "ardil": [
+   "pagan"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "UNESCO WHC 1444, Pyu Ancient Cities (2014) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "UNESCO donemi 200 MO - 900 MS; Halin'in yikimi 832 (Cin kaynaklari). f=-0199 (MO 200) yaklasik. Pyu birligi siyasi degil kulturel olabilir; sehir devletleri ayri kayitla.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "beikthano",
+  "ad": "Beikthano (Pyu)",
+  "tur": "sehir-devleti",
+  "bolge": "guneydogu-asya",
+  "f": "0001-01-01",
+  "t": "0500-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Beikthano",
+  "etkin_bolge": "Orta Myanmar (Magway)",
+  "sehirler": [
+   "Beikthano"
+  ],
+  "ozet": "Erken Pyu sehir devleti, UNESCO kaydina gore MS 1.-5. yy.",
+  "oncul": [],
+  "ardil": [
+   "sri-ksetra"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "UNESCO WHC 1444, Pyu Ancient Cities (2014) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "UNESCO: 1.-5. yy; t=0500 yuvarlak.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "halin",
+  "ad": "Halin (Pyu)",
+  "tur": "sehir-devleti",
+  "bolge": "guneydogu-asya",
+  "f": "-0199-01-01",
+  "t": "0832-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Halin",
+  "etkin_bolge": "Orta Myanmar (Shwebo yakini)",
+  "sehirler": [
+   "Halin"
+  ],
+  "ozet": "Pyu sehir devletlerinin en uzun yasayani; Nanzhao akinlarinda (832) yikildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "UNESCO WHC 1444, Pyu Ancient Cities (2014) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "UNESCO 2. yy MO - 9. yy MS araligini verir; f yaklasik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "sri-ksetra",
+  "ad": "Sri Ksetra (Thayekhittaya)",
+  "tur": "sehir-devleti",
+  "bolge": "guneydogu-asya",
+  "f": "0450-01-01",
+  "t": "0832-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Sri Ksetra",
+  "etkin_bolge": "Aşagi Irrawaddy / Pyay yoresi",
+  "sehirler": [
+   "Sri Ksetra"
+  ],
+  "ozet": "Pyu sehirlerinin en buyugu, 5.-9. yy; Burma geleneginde 638 MS donemi baslangici.",
+  "oncul": [
+   "beikthano"
+  ],
+  "ardil": [
+   "pagan"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "UNESCO WHC 1444, Pyu Ancient Cities (2014) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Hall, K. R., A History of Early Southeast Asia (Rowman & Littlefield, 2011) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "UNESCO: 5.-9. yy. Kronik gelenek 638 MS (Burma takviminin baslangici) verir; f=0450 yaklasik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kutai-martapura",
+  "ad": "Kutai Martapura",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0400-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": null
+  },
+  "baskent": "Muara Kaman (Martapura)",
+  "etkin_bolge": "Mahakam vadisi (Dogu Kalimantan)",
+  "sehirler": [
+   "Martapura"
+  ],
+  "ozet": "Endonezya'nin en eski Sanskrit yazitlarini (Mulawarman, ~4.-5. yy) birakan Hindu krallik.",
+  "oncul": [],
+  "ardil": [
+   "kutai-kartanegara"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yazitlar paleografik olarak ~400 MS; bitis yili bilinmiyor (Kutai Kartanegara ile 1635'te katildi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tarumanagara",
+  "ad": "Tarumanagara",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0400-01-01",
+  "t": "0669-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Sundapura? / Tarumanagara",
+  "etkin_bolge": "Bati Cava (Jakarta-Bogor-Banten)",
+  "sehirler": [
+   "Tugu",
+   "Ciaruteun"
+  ],
+  "ozet": "Purnavarman yazitlariyla bilinen Bati Cava krallıgı; 669'da Sunda ve Galuh'a bolundu.",
+  "oncul": [],
+  "ardil": [
+   "sunda-pajajaran",
+   "galuh"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Wangsakerta el yazmalari 358 verir, saglam kabul edilmez; yazit paleografisi 5. yy. f=0400 yaklasik. 669 Sunda'nin kurulus yili (Sunda mevcut kaydi).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "langkasuka",
+  "ad": "Langkasuka",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0100-01-01",
+  "t": "1400-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Langkasuka (Yarang?)",
+  "etkin_bolge": "Kuzey Malay Yarimadasi (Pattani-Kedah)",
+  "sehirler": [
+   "Yarang",
+   "Pattani"
+  ],
+  "ozet": "Cin kaynaklarinda 2. yy'dan bahsedilen yarimada krallıgi; Pattani'ye evrildi.",
+  "oncul": [],
+  "ardil": [
+   "pattani"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Goh Geok Yian et al., Ancient Southeast Asia (Routledge, 2019) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Liang shu (6. yy) Lang-ya-xiu; kuruluş ve bitis yillari kaynakta yok, her iki uc yaklasik (belirsiz). Konumu tartismali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "pan-pan",
+  "ad": "Pan Pan",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0424-01-01",
+  "t": "0649-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "bilinmiyor",
+  "etkin_bolge": "Kra Kıstagi (Surat Thani? / Tambralinga bolgesi)",
+  "sehirler": [
+   "Chaiya?"
+  ],
+  "ozet": "Cin Song/Liang/Tang kronikleri 424-649 arasi heyetleri kaydeden yarimada krallıgi.",
+  "oncul": [],
+  "ardil": [
+   "tambralinga"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yalniz Cin elci kayitlarindan bilinir; f/t ilk-son elci yili.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kantoli",
+  "ad": "Kantoli (Gantuoli)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0441-01-01",
+  "t": "0563-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "bilinmiyor",
+  "etkin_bolge": "Sumatra (Palembang/Jambi tartismali)",
+  "sehirler": [],
+  "ozet": "Cin kroniklerinde 441-563 arasi heyetleri gonderen Sumatra krallıgi; Srivijaya oncesi.",
+  "oncul": [],
+  "ardil": [
+   "srivijaya"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yer ve sureklilik tartismali; f/t ilk-son elci.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "si-thep",
+  "ad": "Si Thep",
+  "tur": "sehir-devleti",
+  "bolge": "guneydogu-asya",
+  "f": "0450-01-01",
+  "t": "1000-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Si Thep",
+  "etkin_bolge": "Pa Sak vadisi (Orta Tayland)",
+  "sehirler": [
+   "Si Thep"
+  ],
+  "ozet": "Dvaravati cagi oncesi/icinde 5.-11. yy gelismis sehir devleti (UNESCO 2023).",
+  "oncul": [],
+  "ardil": [
+   "lavo"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Goh Geok Yian et al., Ancient Southeast Asia (Routledge, 2019) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Wyatt, D. K., Thailand: A Short History (Yale UP, 2003) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Dvaravati ile iliskisi tartismali; bitis yaklasik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "trung-vuong",
+  "ad": "Trung Vuong (Trung Kız Kardesler)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0040-01-01",
+  "t": "0043-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Me Linh",
+  "etkin_bolge": "Kizil Nehir deltasi (Giao Chi)",
+  "sehirler": [
+   "Me Linh"
+  ],
+  "ozet": "Han yonetimine karsi 40'ta ayaklanan Trung kardesler 3 yil bagimsiz Giao Chi'yi yonetti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Ayaklanma 40, yenilgi 43 (Ma Yuan); devletlesme derecesi tartismali.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kedah-kadaram",
+  "ad": "Kedah (Kataha / Kadaram)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0400-01-01",
+  "t": "1136-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Sungai Mas / Bujang vadisi",
+  "etkin_bolge": "Kuzey bati Malay Yarimadasi",
+  "sehirler": [
+   "Bujang Valley"
+  ],
+  "ozet": "Hint ticaret limani krallıgi (Kataha/Kadaram); Chola akini 1025; 1136 Kedah sultanligi geleneksel baslangici.",
+  "oncul": [],
+  "ardil": [
+   "kedah-sultanligi"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Goh Geok Yian et al., Ancient Southeast Asia (Routledge, 2019) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kedah Annals (Hikayat Merong Mahawangsa) 1136 verir, efsanevi; f ~4. yy arkeolojik.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "dhanyawadi",
+  "ad": "Dhanyawadi (Arakan)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0300-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": null
+  },
+  "baskent": "Dhanyawadi",
+  "etkin_bolge": "Arakan (Rakhine)",
+  "sehirler": [
+   "Dhanyawadi"
+  ],
+  "ozet": "Arakan'in en eski arkeolojik sehir devleti, Vesali'den once.",
+  "oncul": [],
+  "ardil": [
+   "vesali-chandra"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Gutman, P., Ancient Arakan (Myanmar Historical Commission, 2001) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Efsanevi tarih 3325 MO (yok sayilir); arkeoloji ~1.-4. yy; f yaklasik, t bilinmiyor.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "funan",
+  "ad": "Funan",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0001-01-01",
+  "t": "0550-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Oc Eo / Vyadhapura",
+  "etkin_bolge": "Mekong deltasi",
+  "sehirler": [],
+  "ozet": "Kambocya-Vietnam Mekong deltasinda Hint kulturlu ilk devlet; Chenla ile cokus.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Tarling, N. (ed.), The Cambridge History of Southeast Asia, vol. 1 (Cambridge UP, 1992) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. ",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "funan",
+   "not": ""
+  }
+ },
+ {
+  "id": "linyi-champa",
+  "ad": "Linyi (Champa)",
+  "tur": "krallik",
+  "bolge": "guneydogu-asya",
+  "f": "0192-01-01",
+  "t": "0758-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Indrapura / Simhapura",
+  "etkin_bolge": "Orta Vietnam kiyisi",
+  "sehirler": [],
+  "ozet": "Han vilayeti Rinan'dan kopan Cham devleti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Taylor, K. W., A History of the Vietnamese (Cambridge UP, 2013) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]",
+   "Coedes, G., The Indianized States of Southeast Asia (Univ. of Hawaii Press, 1968) [okunmadi; aday kaynak, web'de acilip dogrulanmadi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Mevcut atlas kaydi ile eslesme icin yazildi; tarihler mevcut_once1281.tsv'den, kaynakla dogrulanmadi. Cin kaynaklari: Xianglin 192; 758 Huanwang adi.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "linyi-champa",
+   "not": "Cin kaynaklari: Xianglin 192; 758 Huanwang adi."
+  }
+ }
+]
