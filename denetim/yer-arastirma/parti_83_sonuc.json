@@ -1,0 +1,302 @@
+{
+ "parti": 83,
+ "sonuclar": [
+  {
+   "ad": "Sercihan",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "",
+   "ulke_modern": "İran (bölge: Kazvin çevresi, kaynaksız)",
+   "kaynak": "TDV MÜSÂFİRÎLER https://islamansiklopedisi.org.tr/musafiriler — Sercihan Kalesi'ni yalnız Kazvin'in ardından anar, modern konum vermez",
+   "gövde_okundu": true,
+   "not": "Sarjahan eşleşmesi TDV'de yok; kaynaksız genel bilgi."
+  },
+  {
+   "ad": "Hayderan",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Hayderan"
+   ],
+   "modern_ad": "Haydarân (Kâbis-Kayrevan arası)",
+   "ulke_modern": "Tunus",
+   "kaynak": "TDV ZÎRÎLER https://islamansiklopedisi.org.tr/ziriler — 'Kābis ile Kayrevan arasındaki Hayderan'da' 443/1052 Muiz yenilgisi",
+   "gövde_okundu": true,
+   "not": "Alias aynı addır; yer Kâbis-Kayrevan arası olarak teyitli. Modern ülke Tunus çıkarımı."
+  },
+  {
+   "ad": "Otrar",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Otrar",
+    "Farab"
+   ],
+   "modern_ad": "Otrar",
+   "ulke_modern": "Kazakistan",
+   "kaynak": "TDV FÂRÂBÎ https://islamansiklopedisi.org.tr/farabi — 'Fârâb şehri (bugünkü Kazakistan sınırları içinde eski bir şehir olan Otrar)'",
+   "gövde_okundu": true,
+   "not": "Otrar=Fârâb TDV'de açıkça."
+  },
+  {
+   "ad": "Uşnu",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "",
+   "ulke_modern": "İran (Urmiye çevresi, çıkarım)",
+   "kaynak": "TDV URMİYE https://islamansiklopedisi.org.tr/urmiye — Uşnu'yu Urmiye/Selmâs/Hoy ile birlikte anar, konumu açıkça vermez",
+   "gövde_okundu": true,
+   "not": "Ushnu/Oshnavieh/Ushnuyeh eşleşmesi TDV'de doğrulanamadı; kaynaksız genel bilgi."
+  },
+  {
+   "ad": "Cebele",
+   "alias_teyit": null,
+   "dogru_alias": [
+    "Jableh",
+    "Jabala"
+   ],
+   "modern_ad": "Cebele (Jableh)",
+   "ulke_modern": "Suriye",
+   "kaynak": "TDV CEBELE https://islamansiklopedisi.org.tr/cebele — 'Suriye'de Lazkiye'nin güneydoğusunda küçük bir liman şehri'; Arapça جبلة",
+   "gövde_okundu": true,
+   "not": "Gabala (antik ad) TDV'de geçmiyor; kaynaksız genel bilgi, o yüzden kayıt null. Jableh/Jabala teyitli."
+  },
+  {
+   "ad": "Şeyzer",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Shaizar",
+    "Shayzar"
+   ],
+   "modern_ad": "Şeyzer (Shayzar)",
+   "ulke_modern": "Suriye",
+   "kaynak": "TDV ŞEYZER https://islamansiklopedisi.org.tr/seyzer — Suriye'nin kuzeybatısında, Hama'nın ~20 km kuzeybatısı, Âsi sol kıyısı; kaynakçada 'Shayzar'",
+   "gövde_okundu": true,
+   "not": "Shaizar yazım varyantı."
+  },
+  {
+   "ad": "Lâride",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Lleida",
+   "ulke_modern": "İspanya",
+   "kaynak": "TDV'de madde bulunamadı (arama sonucu 0); kaynaksız genel bilgi",
+   "gövde_okundu": false,
+   "not": "Lerida/Lleida/Ilerda aynı yerdir (kaynaksız genel bilgi). TDV aramasında Lârida/Leride/Lleida sonuç yok."
+  },
+  {
+   "ad": "Lyndanise",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Tallinn",
+   "ulke_modern": "Estonya",
+   "kaynak": "TDV'de madde bulunamadı (arama sonucu 0); kaynaksız genel bilgi",
+   "gövde_okundu": false,
+   "not": "Lyndanise/Lindanisse Danimarka kaynaklarında Reval/Tallinn adıdır (kaynaksız genel bilgi); TDV'de yok."
+  },
+  {
+   "ad": "Mādā",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Medya (Mādā) bölgesi",
+   "ulke_modern": "İran",
+   "kaynak": "TDV'de madde bulunamadı (arama sonucu 0); kaynaksız genel bilgi; TDV HEMEDAN https://islamansiklopedisi.org.tr/hemedan 'Mada' adını anmıyor",
+   "gövde_okundu": true,
+   "not": "YER AYRIMI: Mādā Eski Farsça'da Med ülkesidir (bölge), Hamadan/Ekbatana ise başkent şehir. Alias şehre bağlanırsa kaba; onay verilmedi."
+  },
+  {
+   "ad": "Hamgmatāna = Ekbatana",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Hamadan",
+    "Ecbatana"
+   ],
+   "modern_ad": "Hemedan (Hamadan)",
+   "ulke_modern": "İran",
+   "kaynak": "TDV HEMEDAN https://islamansiklopedisi.org.tr/hemedan — Ekbatana/Hağmatana (Bisutun Eski Farsça) ile özdeş, Batı İran'da şehir",
+   "gövde_okundu": true,
+   "not": "Teyitli."
+  },
+  {
+   "ad": "Berdea",
+   "alias_teyit": null,
+   "dogru_alias": [
+    "Barda"
+   ],
+   "modern_ad": "Berde (Barda)",
+   "ulke_modern": "Azerbaycan",
+   "kaynak": "TDV ARRÂN https://islamansiklopedisi.org.tr/arran — Arrân'ın başşehri Berdea, harabeleri Berde köyü yakınında",
+   "gövde_okundu": true,
+   "not": "Barda yalnız yakınlık/ad benzerliğiyle (Berde köyü) destekli; Partav/Berdaa TDV'de geçmiyor. Ülke Azerbaycan çıkarım (TDV Karabağ/Azerbaycan'ı anıyor)."
+  },
+  {
+   "ad": "Belencer",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "",
+   "ulke_modern": "Rusya (Dağıstan)",
+   "kaynak": "TDV HAZARLAR https://islamansiklopedisi.org.tr/hazarlar — Hazarlar'ın VII. yy sonuna kadarki başşehri Dağıstan'daki Belencer",
+   "gövde_okundu": true,
+   "not": "Yer teyitli (Dağıstan); 'Balanjar' yazımı TDV'de geçmiyor, o yüzden null."
+  },
+  {
+   "ad": "Kânim",
+   "alias_teyit": null,
+   "dogru_alias": [
+    "Kanem"
+   ],
+   "modern_ad": "Kanem (Kânim)",
+   "ulke_modern": "Çad",
+   "kaynak": "TDV KÂNİM https://islamansiklopedisi.org.tr/kanim — Çad gölünün kuzey/kuzeydoğusunda IX-XIX. yy İslâm devleti; Çad'da idari bölge",
+   "gövde_okundu": true,
+   "not": "Njimi: TDV 'Şîmi' diye ilk merkezi anıyor; Njimi eşleşmesi çıkarım, null."
+  },
+  {
+   "ad": "Halep",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Aleppo"
+   ],
+   "modern_ad": "Halep (Aleppo)",
+   "ulke_modern": "Suriye",
+   "kaynak": "TDV HALEP https://islamansiklopedisi.org.tr/halep — 'Suriye'nin ikinci büyük şehri'",
+   "gövde_okundu": true,
+   "not": "Aleppo = Halep."
+  },
+  {
+   "ad": "Uvâl",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "",
+   "ulke_modern": "",
+   "kaynak": "TDV BEKİR b. VÂİL https://islamansiklopedisi.org.tr/bekir-b-vail-beni-bekir-b-vail — Üvâl'i yalnız bir put olarak anar",
+   "gövde_okundu": true,
+   "not": "TDV'de Üvâl yer olarak yok; Awal (Bahreyn adasının eski adı) kaynaksız genel bilgi. Put adı olabilir; eşleşme doğrulanamadı."
+  },
+  {
+   "ad": "Taberiye",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Tiberias"
+   ],
+   "modern_ad": "Taberiye (Tiberias)",
+   "ulke_modern": "İsrail",
+   "kaynak": "TDV TABERİYE https://islamansiklopedisi.org.tr/taberiye — Filistin'de Taberiye gölünün batı kıyısında tarihî şehir; 1948 sonrası İsrail",
+   "gövde_okundu": true,
+   "not": "Teyitli."
+  },
+  {
+   "ad": "Ahsâ",
+   "alias_teyit": null,
+   "dogru_alias": [
+    "Al Hasa",
+    "Al Ahsa"
+   ],
+   "modern_ad": "el-Ahsâ (Doğu Bölgesi)",
+   "ulke_modern": "Suudi Arabistan",
+   "kaynak": "TDV AHSÂ https://islamansiklopedisi.org.tr/ahsa ve LAHSÂ https://islamansiklopedisi.org.tr/lahsa — Suudi Arabistan'da coğrafî bölge/vaha; Hüfûf bölgenin büyük şehirlerinden",
+   "gövde_okundu": true,
+   "not": "YER AYRIMI: Hofuf şehir olarak ayrı yerdir (eski Ahsâ şehri Müberrez ile Hüfûf arasında). Al Hasa/Al Ahsa bölge olarak doğru; Hofuf alias'ı ayrı yer olduğu için onaylanmadı."
+  },
+  {
+   "ad": "Rhône-Saône",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Rhône-Saône vadisi",
+   "ulke_modern": "Fransa",
+   "kaynak": "TDV'de madde bulunamadı (arama sonucu 0); kaynaksız genel bilgi",
+   "gövde_okundu": false,
+   "not": "Nehir koridoru/bölge adı; Lyon iki nehrin birleşiminde ama aynı yer değil. Alias onaylanmadı."
+  },
+  {
+   "ad": "Selsey Bill",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Selsey Bill",
+   "ulke_modern": "Birleşik Krallık",
+   "kaynak": "TDV'de madde bulunamadı (arama sonucu 0); kaynaksız genel bilgi",
+   "gövde_okundu": false,
+   "not": "Selsey Bill burnu Selsey kasabasının yanındadır; aynı yerdir diye teyit yok."
+  },
+  {
+   "ad": "Ebbsfleet",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Ebbsfleet (Thanet, Kent)",
+   "ulke_modern": "Birleşik Krallık",
+   "kaynak": "TDV'de madde bulunamadı (arama sonucu 0); kaynaksız genel bilgi",
+   "gövde_okundu": false,
+   "not": "Alias aynı addır; kaynaksız."
+  },
+  {
+   "ad": "Carham",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Carham (Northumberland)",
+   "ulke_modern": "Birleşik Krallık",
+   "kaynak": "TDV'de madde bulunamadı (arama sonucu 0); kaynaksız genel bilgi",
+   "gövde_okundu": false,
+   "not": "Alias aynı addır; kaynaksız."
+  },
+  {
+   "ad": "Tinchebrai",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Tinchebray (Normandiya)",
+   "ulke_modern": "Fransa",
+   "kaynak": "TDV'de madde bulunamadı (arama sonucu 0); kaynaksız genel bilgi",
+   "gövde_okundu": false,
+   "not": "Tinchebrai/Tinchebray aynı yer (kaynaksız genel bilgi)."
+  },
+  {
+   "ad": "Arkona",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Kap Arkona (Rügen)",
+   "ulke_modern": "Almanya",
+   "kaynak": "TDV'de madde bulunamadı (arama sonucu 0); kaynaksız genel bilgi",
+   "gövde_okundu": false,
+   "not": "Alias aynı ad/aynı burun; kaynaksız genel bilgi."
+  },
+  {
+   "ad": "Muhi",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Muhi (Sajó nehri, 1241)",
+   "ulke_modern": "Macaristan",
+   "kaynak": "TDV'de madde bulunamadı (arama sonucu 0); kaynaksız genel bilgi",
+   "gövde_okundu": false,
+   "not": "Muhi/Mohi aynı yer (kaynaksız genel bilgi)."
+  },
+  {
+   "ad": "Fâzâz",
+   "alias_teyit": false,
+   "dogru_alias": [
+    "Fazaz"
+   ],
+   "modern_ad": "Fâzâz (Orta Atlas bölgesi)",
+   "ulke_modern": "Fas",
+   "kaynak": "TDV MERÎNÎLER https://islamansiklopedisi.org.tr/meriniler — Fâzâz'ı 620/1223'te Merînî Ebû Saîd Osman'ın aldığı yer olarak anar, Mağrib-i Aksâ bağlamı",
+   "gövde_okundu": true,
+   "not": "Azaz (Suriye) farklı yerdir; Merînî bağlamı Fas. Hazaz alias'ı da doğrulanamadı. Konumu TDV açıkça yazmıyor (bağlam + genel bilgi)."
+  },
+  {
+   "ad": "Cerdanya",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Cerdanya (Pireneler)",
+   "ulke_modern": "İspanya/Fransa",
+   "kaynak": "TDV'de madde bulunamadı (arama sonucu 0); kaynaksız genel bilgi",
+   "gövde_okundu": false,
+   "not": "Cerdanya bölge, Puigcerdà o bölgenin merkezi şehri; aynı yer değil (kaynaksız genel bilgi)."
+  },
+  {
+   "ad": "Svač",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Svač (Ulcinj yakını, ortaçağ şehri)",
+   "ulke_modern": "Karadağ",
+   "kaynak": "TDV'de madde bulunamadı (arama sonucu 0); kaynaksız genel bilgi",
+   "gövde_okundu": false,
+   "not": "Ulcinj ile aynı yer olduğu kaynaksız; Svač kaybolmuş ortaçağ şehri, Ulcinj'e yakın. Onaylanmadı."
+  }
+ ]
+}

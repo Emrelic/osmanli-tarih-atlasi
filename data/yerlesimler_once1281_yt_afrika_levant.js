@@ -8,4 +8,7 @@ window.YERLESIMLER_ONCE1281_YT_AFRIKA_LEVANT = [
   konum_kesinlik:"bolge",
   not:"YER-TANIMA: kronolojide Mısır adıyla geçer; eski adlar: -; modern: - (Mısır). ",
   kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Pleiades Ancient Egypt (region) 981503 https://pleiades.stoa.org/places/981503 (None, None) · TDV İslâm Ansiklopedisi, Mısır https://islamansiklopedisi.org.tr/misir (None, None) · denetim/yer-arastirma/parti_61_sonuc.json" },
+{ ad:"Feremâ", tur:"kale", lat:31.0426270897, lon:32.5471045497, g:0, k:0, s:[], d:[],
+  not:"YER-TANIMA: kronolojide Feremâ adıyla geçer; eski adlar: -; modern: - (Mısır). TDV'de ayrı Feremâ maddesi yok; Amr b. Âs/Mısır maddelerinde geçiyor. Bağımsızlık: DAI kaydı GeoNames kaynaklı olabilir, ama Pleiades koordinatından farklı.",
+  kaynak:"ÇİFT TANIK: Pleiades 727192 (Pelusium) Pleiades 727192 (31.0426270897, 32.5471045497) · DAI iDAI.gazetteer 2277773 Tall al-Faramā https://gazetteer.dainst.org/search.json?q=Farama (31.04259, 32.53998) · denetim/yer-arastirma/parti_72_sonuc.json" },
 ];

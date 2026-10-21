@@ -1,0 +1,338 @@
+{
+ "parti": 82,
+ "sonuclar": [
+  {
+   "ad": "Kao-ch'ang",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Gaochang",
+    "Qocho"
+   ],
+   "modern_ad": "Gaochang/Karakhoja (Turfan vahasi)",
+   "ulke_modern": "Çin (Sincan)",
+   "kaynak": "TDV Turfan https://islamansiklopedisi.org.tr/turfan — Kao-ch'ang adını ve Türk/müslümanlar arasında Koço (Kara-Hoca) adını verir, vahanın doğusundaki surlu yerleşim.",
+   "gövde_okundu": true,
+   "not": "Gaochang=pinyin, Qocho=Koço yazımı; TDV modern ad/ülke vermiyor (ülke genel bilgi)."
+  },
+  {
+   "ad": "Ebher",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Abhar"
+   ],
+   "modern_ad": "Abhar",
+   "ulke_modern": "İran",
+   "kaynak": "TDV Ebherî, Esîrüddin https://islamansiklopedisi.org.tr/ebheri-esiruddin — Zencan'a ve İsfahan'a bağlı iki Ebher köyünden söz eder.",
+   "gövde_okundu": true,
+   "not": "Aynı ad iki yer: Zencan'a bağlı olan Abhar'dır (Zencan eyaleti); İsfahan'a bağlı olan farklı. Hangisinin kastedildiği kronoloji bağlamından seçilmeli. Abhar eşlemesi kaynaksız genel bilgi."
+  },
+  {
+   "ad": "Şemîrân Kalesi",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Şemîrân/Shamiran (Târum)",
+   "ulke_modern": "İran (muhtemelen)",
+   "kaynak": "TDV Müsâfirîler https://islamansiklopedisi.org.tr/musafiriler — Şemîrân Kalesi'ni Kazvin'e bağlı Târum vilâyetinde verir.",
+   "gövde_okundu": true,
+   "not": "TDV modern yer vermiyor. Shemiran/Shimiran alias'ı Tahran'ın kuzeyindeki Şemîrân ile karışabilir; Târum'daki kale ayrı. Kaynaksız genel bilgi; teyit edilmedi."
+  },
+  {
+   "ad": "Katvân",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Qatwan"
+   ],
+   "modern_ad": "Qatwan çölü (Semerkant yakını)",
+   "ulke_modern": "Özbekistan",
+   "kaynak": "TDV Atsız b. Muhammed https://islamansiklopedisi.org.tr/atsiz-b-muhammed — Semerkant yakınlarındaki Katvân çölü, Sencer'in Karahıtaylar'a yenildiği yer (Safer 536/Eylül 1141).",
+   "gövde_okundu": true,
+   "not": "Qatwan yazım varyantı; ülke genel bilgi."
+  },
+  {
+   "ad": "Kosantîne",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Constantine"
+   ],
+   "modern_ad": "Constantine (Kostantîne)",
+   "ulke_modern": "Cezayir",
+   "kaynak": "TDV Kostantîne https://islamansiklopedisi.org.tr/kostantine — Cezayir'in doğusunda başşehir, üçüncü büyük şehir; Kosantîne maddesi buraya yönlendirir.",
+   "gövde_okundu": true,
+   "not": "Cirta (antik ad) ve Qacentina (Arapça ad) TDV gövdesinde okunmadı: kaynaksız genel bilgi, kabul edilmedi."
+  },
+  {
+   "ad": "Tmutorakan",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Tmutarakan/Taman yarımadası (genel bilgi)",
+   "ulke_modern": "Rusya",
+   "kaynak": "TDV Çerkezler https://islamansiklopedisi.org.tr/cerkezler — Tmutarakan Prensliği'ni Rusların kurduğunu söyler, yer vermez; ad aramasında madde yok.",
+   "gövde_okundu": true,
+   "not": "TDV konumu vermiyor. Tamatarkha/Taman kaynaksız genel bilgi; teyit edilmedi."
+  },
+  {
+   "ad": "Turtûşe",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Tortosa"
+   ],
+   "modern_ad": "Tortosa",
+   "ulke_modern": "İspanya",
+   "kaynak": "TDV Turtûşe https://islamansiklopedisi.org.tr/turtuse — Endülüs'ün kuzeydoğusunda Ebro deltası başında şehir; gövdede Turtûşe/Tartûşe/Tortosa.",
+   "gövde_okundu": true,
+   "not": "Dertosa (Latince) gövdede okunmadı: kaynaksız genel bilgi, kabul edilmedi."
+  },
+  {
+   "ad": "Trablusgarp",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Tripoli",
+    "Oea"
+   ],
+   "modern_ad": "Tripoli",
+   "ulke_modern": "Libya",
+   "kaynak": "TDV Trablusgarp https://islamansiklopedisi.org.tr/trablusgarp — Libya'nın başkenti; bugün merkezin bulunduğu yerdeki Oea adlı üç tarihî şehirden söz eder.",
+   "gövde_okundu": true,
+   "not": "Tarabulus alias'ı belirsiz (TDV Tarabulus'u hem Trablusgarp hem Trablusşam'a yönlendirir), kabul edilmedi."
+  },
+  {
+   "ad": "Meriye",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Almeria",
+    "Almería"
+   ],
+   "modern_ad": "Almería",
+   "ulke_modern": "İspanya",
+   "kaynak": "TDV Meriye https://islamansiklopedisi.org.tr/meriye — Endülüs'te Müslümanlarca kurulan şehir, bugünkü Almería, İspanya'nın güneydoğusu.",
+   "gövde_okundu": true,
+   "not": "Portus Magnus gövdede yok: kaynaksız genel bilgi, kabul edilmedi."
+  },
+  {
+   "ad": "Peremışl",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Przemyśl (genel bilgi)",
+   "ulke_modern": "Polonya",
+   "kaynak": "TDV'de ad aramasında sonuç yok.",
+   "gövde_okundu": false,
+   "not": "Kaynaksız genel bilgi; teyit edilmedi."
+  },
+  {
+   "ad": "Halkis",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Chalcis",
+    "Chalkida",
+    "Halkida"
+   ],
+   "modern_ad": "Chalcis/Halkida (Eğriboz)",
+   "ulke_modern": "Yunanistan",
+   "kaynak": "TDV Yunanistan https://islamansiklopedisi.org.tr/yunanistan — Eğriboz (Euboia/Evia) adasının merkezi, günümüzde Halkis/Khalkis.",
+   "gövde_okundu": true,
+   "not": "Chalcis/Chalkida/Halkida aynı adın yazım varyantları."
+  },
+  {
+   "ad": "Bianjing",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Kaifeng",
+   "ulke_modern": "Çin",
+   "kaynak": "TDV'de madde yok: ad araması sonuçsuz (Kaifeng yalnız Han Kitap'ta geçer).",
+   "gövde_okundu": false,
+   "not": "Kaynaksız genel bilgi. Kaifeng'in Kuzey Song adı (Dongjing/Bianjing) kaynaksız genel bilgi."
+  },
+  {
+   "ad": "Zhongjing",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "belirsiz",
+   "ulke_modern": "Çin",
+   "kaynak": "TDV'de madde yok: ad araması sonuçsuz (Kaifeng yalnız Han Kitap'ta geçer).",
+   "gövde_okundu": false,
+   "not": "Kaynaksız genel bilgi. ŞÜPHELİ: Kaifeng'in Zhongjing adı olduğu doğrulanamadı; Zhongjing birden çok hanedanda farklı şehirleri anar. Kaifeng eşlemesine güvenilmemeli."
+  },
+  {
+   "ad": "Jiangdu",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Yangzhou",
+   "ulke_modern": "Çin",
+   "kaynak": "TDV'de madde yok: ad araması sonuçsuz (Kaifeng yalnız Han Kitap'ta geçer).",
+   "gövde_okundu": false,
+   "not": "Kaynaksız genel bilgi. Jiangdu, Sui döneminde Yangzhou'nun adıdır (genel bilgi); alias kendi adıyla aynı."
+  },
+  {
+   "ad": "Menbic",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Manbij",
+    "Hierapolis Bambyce",
+    "Bambyce"
+   ],
+   "modern_ad": "Manbij",
+   "ulke_modern": "Suriye",
+   "kaynak": "TDV Menbic https://islamansiklopedisi.org.tr/menbic — Kuzey Suriye'de tarihî şehir (Halep); eski adı Bambyke (Süryânîce Mabbug) veya Hierapolis.",
+   "gövde_okundu": true,
+   "not": ""
+  },
+  {
+   "ad": "Nu‘mâniye",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "An Nu‘mâniyah (genel bilgi)",
+   "ulke_modern": "Irak",
+   "kaynak": "TDV'de ad aramasında şehir maddesi yok (yalnız Nu‘mâniyye mezhebi); Vâsıt maddesi anmıyor.",
+   "gövde_okundu": true,
+   "not": "Kaynaksız genel bilgi; teyit edilmedi."
+  },
+  {
+   "ad": "Hille-Vâsıt arası",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Hille ile Vâsıt arasındaki bölge",
+   "ulke_modern": "Irak",
+   "kaynak": "TDV Vâsıt https://islamansiklopedisi.org.tr/vasit — Vâsıt, Batîha bataklığı kuzeydoğusunda, Kûfe-Basra arası, Dicle'nin batı kıyısında; Hille'yi anmıyor.",
+   "gövde_okundu": true,
+   "not": "Bu bir nokta değil iki yer arası; alias'lar iki ucu gösteriyor, tek yer kimliği değil."
+  },
+  {
+   "ad": "Djenné-Djenno",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Djenné-Djenno (Djenné'ye ~3 km, genel bilgi)",
+   "ulke_modern": "Mali",
+   "kaynak": "TDV Cenne https://islamansiklopedisi.org.tr/cenne — Mali'de Bani nehri sol kıyısında şehir; Jenne-jeno'yu anmıyor.",
+   "gövde_okundu": true,
+   "not": "Djenné şehri ile antik höyük Djenné-Djenno ayrı yerler; birebir eşleme TDV ile doğrulanmadı."
+  },
+  {
+   "ad": "San José Mogote",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "San José Mogote",
+   "ulke_modern": "Meksika",
+   "kaynak": "TDV'de madde yok (ad araması).",
+   "gövde_okundu": false,
+   "not": "Kaynaksız genel bilgi; alias yazım varyantı."
+  },
+  {
+   "ad": "Ceibal",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Ceibal",
+   "ulke_modern": "Guatemala",
+   "kaynak": "TDV'de madde yok (ad araması).",
+   "gövde_okundu": false,
+   "not": "Kaynaksız genel bilgi; alias yazım varyantı."
+  },
+  {
+   "ad": "Caral-Supe",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Caral",
+   "ulke_modern": "Peru",
+   "kaynak": "TDV'de madde yok (ad araması).",
+   "gövde_okundu": false,
+   "not": "Kaynaksız genel bilgi; alias yazım varyantı."
+  },
+  {
+   "ad": "Gordion Tumulus MM",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Gordion (Yassıhöyük) MM tümülüsü",
+   "ulke_modern": "Türkiye",
+   "kaynak": "TDV Anadolu/Ankara/Kilim maddeleri (yalnız arama özeti) — Gordion, Ankara yakınında Frigya merkezi, Yassıhöyük.",
+   "gövde_okundu": false,
+   "not": "Madde gövdesi okunmadı; MM tümülüsü Gordion alanında (genel bilgi)."
+  },
+  {
+   "ad": "Midas Mound",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Gordion Tumulus MM",
+   "ulke_modern": "Türkiye",
+   "kaynak": "TDV'de Midas Mound maddesi yok; Gordion yalnız arama özetinde.",
+   "gövde_okundu": false,
+   "not": "Midas Mound = Tumulus MM, Gordion içinde (genel bilgi)."
+  },
+  {
+   "ad": "Nīnawā",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Nineveh",
+    "Ninive"
+   ],
+   "modern_ad": "Nineveh (Musul'un karşı yakası)",
+   "ulke_modern": "Irak",
+   "kaynak": "TDV Ninevâ https://islamansiklopedisi.org.tr/nineva — Asur başkenti, kalıntıları kuzey Irak'ta; Ninova vilayetinin merkezi Musul'dur.",
+   "gövde_okundu": true,
+   "not": "Mosul alias'ı REDDEDİLDİ: Ninevâ ayrı antik şehir, Musul vilayet merkezi; eşitlenemez."
+  },
+  {
+   "ad": "Badari",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "El-Bedari (Badari)",
+   "ulke_modern": "Mısır",
+   "kaynak": "TDV Kuyumculuk — Badari kültürü (yalnız arama özeti), yer maddesi yok.",
+   "gövde_okundu": false,
+   "not": "Kaynaksız genel bilgi."
+  },
+  {
+   "ad": "Atlah",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Talas",
+    "Atlakh"
+   ],
+   "modern_ad": "Talas nehri kıyısı, Atlah mevkii (Evliyaata/Taraz doğusu)",
+   "ulke_modern": "Kazakistan/Kırgızistan bölgesi (TDV ülke vermiyor)",
+   "kaynak": "TDV Talas Savaşı https://islamansiklopedisi.org.tr/talas-savasi — Talas (Tarâz) nehri kıyısında Atlah mevkii, bugünkü Evliyaata'nın doğusu.",
+   "gövde_okundu": true,
+   "not": "Taraz alias'ı REDDEDİLDİ: Taraz şehri (Evliyaata) Atlah'ın batısında ayrı yer; Atlah bir mevki."
+  },
+  {
+   "ad": "Manyakheta",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Malkhed (Rastrakuta başkenti, genel bilgi)",
+   "ulke_modern": "Hindistan",
+   "kaynak": "TDV'de ad araması sonuçsuz.",
+   "gövde_okundu": false,
+   "not": "Kaynaksız genel bilgi."
+  },
+  {
+   "ad": "Samye",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Samye Manastırı",
+   "ulke_modern": "Çin (Tibet)",
+   "kaynak": "TDV'de ad araması sonuçsuz.",
+   "gövde_okundu": false,
+   "not": "Kaynaksız genel bilgi."
+  },
+  {
+   "ad": "Tilbaşar",
+   "alias_teyit": null,
+   "dogru_alias": [],
+   "modern_ad": "Tilbeşar/Tell Bashir (genel bilgi)",
+   "ulke_modern": "Türkiye",
+   "kaynak": "TDV'de ad araması sonuçsuz.",
+   "gövde_okundu": false,
+   "not": "Kaynaksız genel bilgi."
+  },
+  {
+   "ad": "Kulumriye",
+   "alias_teyit": true,
+   "dogru_alias": [
+    "Coimbra"
+   ],
+   "modern_ad": "Coimbra",
+   "ulke_modern": "Portekiz",
+   "kaynak": "TDV Eftasîler https://islamansiklopedisi.org.tr/eftasiler — 456'da (1064) kuşatılıp alınan Kulumriye (Coimbra).",
+   "gövde_okundu": true,
+   "not": "Colimbria gövdede okunmadı: kaynaksız genel bilgi, kabul edilmedi."
+  }
+ ]
+}
