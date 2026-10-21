@@ -1,6 +1,6 @@
 # YER-TANIMA — insan inceleme kontrol listesi (21 Ekim 2026)
 
-Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARAC-YER-INCELEME-1021.py`. Toplam 180 kayıt: 103 yerleşim, 77 bölge temsilcisi.
+Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARAC-YER-INCELEME-1021.py`. Toplam 179 kayıt: 102 yerleşim, 77 bölge temsilcisi.
 
 ## Nasıl bakılır
 
@@ -13,11 +13,10 @@ Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARA
 
 - BÖLGE: modern/tek merkez; tarihî sınır değil: 77
 - Natural Earth son çare (çift tanık değil): 37
-- konum yaklaşık: 21
+- konum yaklaşık: 20
 - DAI/GeoNames aynı koordinat olabilir: 8
 - Pleiades türü yerleşim dışı olabilir: 2
 - alias TDV ile teyitli (gövde okundu): 1
-- tanık bağımsızlığı sınırlı: 1
 
 ## Kayıtlar
 
@@ -105,7 +104,6 @@ Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARA
 | Kartaca | sehir | 36.8531, 10.3231 | avrupa | ÇİFT TANIK: Pleiades 314921 https://pleiades.stoa.org/places/314921 (36.853056, 10.323056) · iDAI.gazetteer 2282702 https://gazetteer.dainst.org/place/2282702 (36.86667, 10.33333) · Getty TGN 7016143 http://vocab.getty.edu/tgn/7016143 (36.85, 10.3333) | — |
 | Dumbarton | kale | 55.945, -4.569 | avrupa | ÇİFT TANIK: Getty TGN http://vocab.getty.edu/tgn/1050618 (55.95, -4.566667) · GeoNames geonames.org/2650752 (55.94433, -4.57061) | — |
 | Barbastro | sehir | 42.0357, 0.1275 | avrupa | ÇİFT TANIK: Getty TGN http://vocab.getty.edu/tgn/1061813 (42.035573, 0.127019) · GeoNames geonames.org/3128795 (42.03565, 0.12686) | — |
-| Agaune (Saint-Maurice) | sehir | 46.213, 7.005 | avrupa | ÇİFT TANIK: Getty TGN http://vocab.getty.edu/tgn/7544518 (46.208435, 7.006196) · GeoNames geonames.org/2658051 (Saint-Maurice VS) (46.21826, 7.0032) | konum yaklaşık; tanık bağımsızlığı sınırlı |
 | Canterbury | sehir | 51.28, 1.08 | avrupa | ÇİFT TANIK: Getty TGN http://vocab.getty.edu/tgn/1100072 (51.2833, 1.0833) · iDAI.gazetteer gazetteer.dainst.org/place/2087953 (51.27904, 1.07992) | — |
 | Simancas | kale | 41.585, -4.82 | avrupa | ÇİFT TANIK: Getty TGN http://vocab.getty.edu/tgn/4010455 (41.583333, -4.816667) · GeoNames geonames.org/3109081 (41.59072, -4.82796) | — |
 | Gnezno (Gniezno) | sehir | 52.534, 17.55 | avrupa | ÇİFT TANIK: Getty TGN http://vocab.getty.edu/tgn/7007717 (52.5333, 17.5333) · GeoNames geonames.org/3099112 (52.53481, 17.58259) | — |
