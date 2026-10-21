@@ -755,6 +755,436 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "KAYNAK ZİNCİRİ: TDV 'Belgrad' (Djuric-Zamolo, 1992; Scordisci MÖ III. yy Karaburma, Roma lejyon kampı MS I. yy sonu, 441 Hun yıkımı, VII. yy başı Avar-Slav yıkımı, 878 piskoposluk, 1354 Duşan, 1403 Lazareviç); Treccani EI 'Belgrado' (1930; Romanelli-Novak-Pernice-Milone: Singidunum antik tarihi, Ptol. III,9,3, IV Flavia, colonia, 441, Iustinianos, Avarlar VII. yy başı, IX. yy sonrası Bulgar, XI-XII. yy Bizans stratejosu, 1124/1154/1180-83, Macar egemenliği); Treccani EAA 'Singidunum' (Novak 1966); Arkeoloji Enstitüsü Belgrad 'Singidunum–Belgrade' (2023, https://ai.ac.rs/en/7651/); Uzelac 2025 (Sırp Tarih Enstitüsü, hakemli). ÇİFT TEYİT: 441 Hun yıkımı (TDV + Treccani EAA/EI); Iustinianos surları (TDV + Treccani EAA/EI); VII. yy başı Avar-Slav yıkımı ve ardından haber yokluğu (TDV + Treccani EI); Ptolemaios ilk anılış (Arkeoloji Enstitüsü + Treccani EI, ikisi de Ptol. III,9,3 / 'Geography'). ÇELİŞKİ: colonia tarihi (239 EAA; Severus sonrası EI/Arkeoloji Enstitüsü; 287 ilk yazıt). Singidunum antik yeri (Kalemegdan kalesi, ~44.823, 20.45) atlas noktasına ~0,6 km (kendi hesabım): >3 km kuralı İHLAL YOK. Karaburma (Scordisci, ~44.815, 20.508) ~4 km => ayrı kayıt önerisi. AÇILAMAYAN: Livius Singidunum/Belgrade (zaman aşımı), Pleiades, Srpska enciklopedija, Istorija Beograda I (Sırp akademik monografi), Fine 'Late Medieval Balkans' (WebSearch yalnız Vikipedi dipnotu), Durham tezi PDF. Boşluklar: 441-565 __BOSLUK__; 601-878 __BILINMIYOR__ (Hun sonrası Got/Gepid/Herul ve Avar-Slav belirsizliği). Künye uyarıları: birinci-bulgar bitişi 1018 vs TDV 1014."
  },
  {
+  "id": "belh",
+  "ad": "Belh",
+  "atlas_ad": "Belh",
+  "lat": 36.758,
+  "lon": 66.897,
+  "kat1900": 3,
+  "adlar": [
+   "Bāxtriš / Bahdrî (Eski Farsça, Avesta)",
+   "Baktra / Bactra (Grekçe)",
+   "Zariaspa",
+   "Bakhl / Bahl (Orta Farsça)",
+   "Ümmü’l-Bilâd",
+   "Belh"
+  ],
+  "ilk": {
+   "t": "-0328-01-01",
+   "gun": "MÖ 329",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh (Belh, giriş bölümü)",
+   "tanik": "Persler’in (Ahamenîler) Bahtriş satraplığının merkezi olan Belh bu tarihte İskender’in eline geçti",
+   "ic_not": "İLK ANILIŞ = alt sınır (kuruluş DEĞİL; nicelik ilk_anilis). TDV: \"Milâttan önce 329’a kadar Persler’in ... satraplığının merkezi\" — Ahamenî merkez olarak varlığı daha eskidir ama TDV başlangıç vermez; Herodotos 1.153 Kyros'un Baktrialılar'ı henüz alamadığını söyler (Perseus Encyclopedia, \"Bactra\" md., bölge adı, tarihsiz), Behistun'da Bāxtriš ülke adıdır — şehir tarihi sayılmadı. İKİNCİ TANIK: Smith, Dictionary of Greek and Roman Geography (1854), BACTRA: \"Alexander the Great appears to have passed the winter of B.C. 328--327 there\" (Arrian 4.22; Perseus; 19. yy referans, ikincil). EFSANELER (kuruluş değil): Keyûmers/Tahmûras/Menûçihr (TDV), Kai Lohrasp (EI1 Hartmann; \"Kuşan döneminde doğmuş mit\"). Ahamenî evresi için sahip dönemi AÇILMADI (başlangıç tarihsiz; ilk.t alt sınırdır)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0328-01-01",
+    "t": "-0322-06-10",
+    "d": "iskender-imparatorlugu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "belirsiz"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "f: TDV \"Milâttan önce 329'a kadar ... bu tarihte İskender’in eline geçti\". t: TDV \"İskender’in ölümünden sonra Selevkos Krallığı sınırları içinde kaldı\" — ölüm günü TDV'de yok; künye sonu (-0322-06-10) kullanıldı, gün kaynaktan DEĞİL (beyan).",
+    "tanik": "Persler’in (Ahamenîler) Bahtriş satraplığının merkezi olan Belh bu tarihte İskender’in eline geçti"
+   },
+   {
+    "f": "-0322-06-10",
+    "t": "-0249-01-01",
+    "d": "selevkos",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "belirsiz"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "f: İskender künye sonu; künye selevkos -0311'de başlıyor ⇒ 11 yıl hayalet UYARISI (Diadokhlar dönemi; künye GENİŞLET önerisi). t: Grek-Baktria künye başı — TDV \"daha sonra Baktriana Krallığı’nın ... başşehri oldu\" tarih vermez; künye sınırı kullanıldı.",
+    "tanik": "İskender’in ölümünden sonra Selevkos Krallığı sınırları içinde kaldı"
+   },
+   {
+    "f": "-0249-01-01",
+    "t": "-0129-01-01",
+    "d": "greko-baktria",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "belirsiz"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "EI1 (Hartmann): \"As the seat of the Graeco-Bactrian kings, Balkh was a centre of Hellenic culture\". t: künye sonu; Strabon (aşağıda) göçebelerin Baktriana'yı Grekler'den aldığını söyler, yıl yok.",
+    "tanik": "daha sonra Baktriana Krallığı’nın ve Kuşanlar ile Eftalitler’in (Akhunlar) başşehri oldu"
+   },
+   {
+    "f": "-0129-01-01",
+    "t": "0050-01-01",
+    "d": "tohar-yuezhi",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "belirsiz"
+    },
+    "kaynak": "Strabon, Geographika 11.8.2 (Perseus, H. L. Jones çev.), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0198:book=11:chapter=8",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id \"tohar-yuezhi\" (Tohar/Yüe-çi, Asii-Pasiani-Tochari-Sacarauli göçebeleri; Strabon). Sınırlar künye sınırlarıdır (greko-baktria t, kusan f) — tarihler kaynaktan DEĞİL; Strabon yıl vermez. EI1: \"Balkh lost its historical importance in the following Tokhari, Kushan and Ephthalite periods\".",
+    "tanik": "those who took away Bactriana from the Greeks"
+   },
+   {
+    "f": "0050-01-01",
+    "t": "0350-01-01",
+    "d": "kusan",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "belirsiz"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "TDV: Belh \"Kuşanlar ... başşehri oldu\" (tarihsiz); sınırlar künye sınırları (kusan 0050-0350) — kaynaktan DEĞİL, beyanlı yaklaşıklık. EI1: Kuşan döneminde Budist merkez (Nawbahar).",
+    "tanik": "daha sonra Baktriana Krallığı’nın ve Kuşanlar ile Eftalitler’in (Akhunlar) başşehri oldu"
+   },
+   {
+    "f": "0350-01-01",
+    "t": "0457-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "belirsiz"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "Şehir VAR ama sahibi dönem olarak yazılamıyor: Kuşano-Sâsânî (0230-0360), Kidarit (0390-0467) ve Sâsânî (TDV: \"Sâsânîler döneminde (226-651) burada Horasan merzübânlarından biri kalırdı\") adayları çakışık ve Belh'e özgü tarihsiz. Kural: > 1 kuşak belirsizlikte __BOSLUK__.",
+    "tanik": "Sâsânîler döneminde (226-651) burada Horasan merzübânlarından biri kalırdı"
+   },
+   {
+    "f": "0457-01-01",
+    "t": "0560-01-01",
+    "d": "eftalit",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "belirsiz"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "TDV: Belh \"Eftalitler (Akhunlar) ... başşehri\"; sınırlar Eftalit künye sınırları (0457-0560), kaynaktan DEĞİL.",
+    "tanik": "daha sonra Baktriana Krallığı’nın ve Kuşanlar ile Eftalitler’in (Akhunlar) başşehri oldu"
+   },
+   {
+    "f": "0560-01-01",
+    "t": "0662-04-26",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "Şehir VAR; sahibi tarihsiz: Sâsânî merzübânı (TDV, 226-651), Batı Göktürk üst egemenliği ve Tohâristan yerel beylikleri (EI1: \"661 ... the Tokhari principalities were turned into Chinese provinces\"). t: TDV \"Belh 42 (662-63) veya 43’te (664) ... fethedildi\" ⇒ hicrî 42 ∩ 662 ilk günü.",
+    "tanik": "Sâsânîler döneminde (226-651) burada Horasan merzübânlarından biri kalırdı"
+   },
+   {
+    "f": "0662-04-26",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "f: TDV \"42 (662-63) veya 43’te (664)\" — iki yıllı hicrî aralık; hicrî 42 ∩ 662 ilk günü (662-04-26) güvenli UÇ DEĞİL (daha geç seçenek 43/664). Seçim ic_not'ta beyan: EI1 de \"Kais b. al-Haitham again took Balkh in 42 (663)\" der. Daha erken 32/653 Ahnef b. Kays seferi haraçla sınırlı kaldı (Hulefâ-yi Râşidîn, dönem açılmadı). Kuteybe 709: Tarhan Nîzek isyanı kısa. 725: Esed b. Abdullah şehri yeniden kurdu (harabe dönemi başlangıcı TDV'de yok ⇒ __YOK__ yazılmadı). t: Abbâsî künye başı (künye geçişi).",
+    "tanik": "Belh 42 (662-63) veya 43’te (664) Kays b. Heysem veya Abdurrahman b. Semüre tarafından fethedildi"
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0821-01-01",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "ic_not": "TDV Belh Abbâsî'nin ilk dönemlerinde şehir \"adı pek geçmeyen\"; Hârûnürreşîd (786-809) devrinde Ali b. Mâhân üs yaptı. t: Barthold: 821'de Tâhir Horasan valisi.",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "f": "0821-01-01",
+    "t": "0870-01-01",
+    "d": "tahiri-horasan",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "TDV: \"Tâhirîler’in eline geçen şehir bu dönemde Bânîcûrî emîrlerinin idaresinde kaldı\" (Dâvûd b. Abbas el-Bânîcûrî vali 847; Barthold: 848-870 Dâvûd Belh'te). Künye 0821-05-06'da başlar (f yıl düzeyi ⇒ 4 ay hayalet UYARISI). t: TDV \"870’te (veya 871) Ya‘kūb b. Leys\" ve Barthold \"870 Conquest of Balkh, Kabul, and Ghazna by Ya‘qub\".",
+    "tanik": "Sonraları Abbâsîler’den bağımsız olarak Horasan’da hüküm süren Tâhirîler’in eline geçen şehir"
+   },
+   {
+    "f": "0870-01-01",
+    "t": "0900-03-18",
+    "d": "saffari",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "f: TDV \"870’te (veya 871)\"; EI1 \"about 257 (870)\". Saffârî Amr b. Leys'in dönemi (Dâvûd'un varisi Ebû Dâvûd Belh'te kaldı, TDV 874). t: Barthold: belirleyici savaş Belh yakınında; Sallâmî'ye göre Rebîülevvel 287 ortası Salı = 18 Mart 900 (Barthold dipnotu: İbn Hallikân 17 Rebîülâhir/21 Nisan 900, \"Pazartesi\" olduğu için hatalı; ‘Utbî Nisan 900 başı). Gün SEÇİMİ: Sallâmî (18 Mart), çelişki beyanlı.",
+    "tanik": "Amr b. Leys’in Belh civarında Sâmânîler’e esir düşmesi üzerine burası da onların eline geçti"
+   },
+   {
+    "f": "0900-03-18",
+    "t": "0999-05-01",
+    "d": "samani",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "TDV: Sâmânîlerin son döneminde Fâik el-Hâssa, Alp Tegin ve Sebük Tegin vali olarak \"hemen hemen bağımsız idiler\". t: Barthold: Mansûr b. Nûh Mahmud'u Belh dahil valilikle uzlaştırmak istedi; Mahmud Mayıs 999'da Nîşâbur'u Begtuzun'a bırakıp \"Balkh and Herat for himself\" tuttu (ay düzeyi).",
+    "tanik": "Sâmânîler’in bu dönemlerinde buraya vali olarak tayin ettikleri Fâik el-Hâssa, Alp Tegin ve Sebük Tegin"
+   },
+   {
+    "f": "0999-05-01",
+    "t": "1043-01-01",
+    "d": "gazneli",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "ÇELİŞKİ BEYANI: Selçuklu geçişi TDV Belh: Dandanakan (1040) sonunda geçici, \"sürekli ... Mevdûd döneminde (1043)\"; EI1 (Hartmann): \"Balkh fell to the Seldjtiks in 432 (1040)\". TDV esas ⇒ t = 1043; 1040 Selçuklu ele geçirmesi geçici (süre belirsiz/kısa) ⇒ dönem açılmadı, olay.",
+    "tanik": "Sâmânî toprakları Gazneli Mahmud’la Karahanlılar arasında bölüşülünce Belh Mahmud’un payına düştü"
+   },
+   {
+    "f": "1043-01-01",
+    "t": "1152-01-01",
+    "d": "buyuk-selcuklu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "TDV: Alparslan Belh'i Kuzey Afganistan seferlerine üs yaptı; vali Ayaz (1072), Tekiş; Sencer devrinde (1118-1157) vali İmâdüddin Kamaç. t: TDV \"1152’de Gurlular’dan Alâeddin Hüseyin Belh’i aldı\". Büyük Selçuklu künyesi 1157'de bitiyor (t=1152 künye içinde).",
+    "tanik": "sürekli Selçuklu egemenliğine ise Gazneliler’den Mevdûd döneminde girdi (1043)"
+   },
+   {
+    "f": "1152-01-01",
+    "t": "1153-01-01",
+    "d": "gurlu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "TDV: \"1152’de Gurlular’dan Alâeddin Hüseyin Belh’i aldı. Ancak ikinci yıl Oğuzlar ... şehre girip yağmaladılar\" ⇒ t = 1153 (ikinci yıl; tek yıllık dönem).",
+    "tanik": "1152’de Gurlular’dan Alâeddin Hüseyin Belh’i aldı"
+   },
+   {
+    "f": "1153-01-01",
+    "t": "1198-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "ic_not": "Şehir VAR, sahibi tek dönem olarak yazılamıyor: TDV \"Oğuzlar ... Sencer’in yeğeni Karahanlı Mahmud Han’a itaatlerini arzederek burada kaldılar. Arkasından şehrin egemenliği Karahıtaylar’a geçti\" (geçiş tarihsiz); 1198'de ise \"Karahıtaylar’a bağlı Türk valisi\" ölünce Gurlu işgal etti. Önceki sahip son tanığı (1153) ile 1198 arası > 1 kuşak ⇒ __BOSLUK__; Karahıtay (künye karahitay 1130-1211) ya da Oğuz/Mahmud Han yaklaşıklığı BEYANSIZ yazılmadı.",
+    "tanik": "Arkasından şehrin egemenliği Karahıtaylar’a geçti"
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0328-01-01",
+    "gun": "MÖ 329",
+    "k": "fetih",
+    "b": "Belh (Bahtriş satraplığı merkezi) İskender'in eline geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "Persler’in (Ahamenîler) Bahtriş satraplığının merkezi olan Belh bu tarihte İskender’in eline geçti"
+   },
+   {
+    "t": "-0322-06-10",
+    "gun": "MÖ 323 (ölüm yılı; gün künyeden)",
+    "k": "diger",
+    "b": "künye geçişi: İskender'in ölümünden sonra Belh Selevkos Krallığı sınırlarında kalır (TDV tarihsiz).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "İskender’in ölümünden sonra Selevkos Krallığı sınırları içinde kaldı"
+   },
+   {
+    "t": "-0249-01-01",
+    "gun": "MÖ 250 civarı (künye sınırı)",
+    "k": "diger",
+    "b": "künye geçişi: Selevkos → Baktriana (Grek-Baktria) Krallığı; TDV tarih vermez.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "daha sonra Baktriana Krallığı’nın ve Kuşanlar ile Eftalitler’in (Akhunlar) başşehri oldu"
+   },
+   {
+    "t": "-0129-01-01",
+    "gun": "MÖ 2. yy (künye sınırı)",
+    "k": "kayip",
+    "b": "Göçebeler (Asii, Pasiani, Tochari, Sacarauli) Baktriana'yı Grekler'den alır.",
+    "kaynak": "Strabon, Geographika 11.8.2 (Perseus, H. L. Jones çev.), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0198:book=11:chapter=8",
+    "tanik": "those who took away Bactriana from the Greeks"
+   },
+   {
+    "t": "0050-01-01",
+    "gun": "1. yüzyıl (künye sınırı)",
+    "k": "diger",
+    "b": "künye geçişi: Kuşan hâkimiyeti (Belh Kuşanların başşehirlerinden); tarih TDV'de yok.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "daha sonra Baktriana Krallığı’nın ve Kuşanlar ile Eftalitler’in (Akhunlar) başşehri oldu"
+   },
+   {
+    "t": "0350-01-01",
+    "gun": "4. yüzyıl (künye sınırı)",
+    "k": "diger",
+    "b": "Kuşan sonrası: Kuşano-Sâsânî/Kidarit/Sâsânî evresi, Belh'e özgü tarih yok.",
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt I, \"BALKH\" md., s. 622",
+    "tanik": "Balkh lost its historical importance in the following Tokhari, Kushan and Ephthalite periods"
+   },
+   {
+    "t": "0457-01-01",
+    "gun": "5. yüzyıl (künye sınırı)",
+    "k": "diger",
+    "b": "künye geçişi: Eftalit (Akhun) hâkimiyeti; TDV tarih vermez.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "daha sonra Baktriana Krallığı’nın ve Kuşanlar ile Eftalitler’in (Akhunlar) başşehri oldu"
+   },
+   {
+    "t": "0560-01-01",
+    "gun": "6. yüzyıl (künye sınırı)",
+    "k": "diger",
+    "b": "Eftalit sonrası: Sâsânî merzübânı / Göktürk (tarihsiz).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "Sâsânîler döneminde (226-651) burada Horasan merzübânlarından biri kalırdı"
+   },
+   {
+    "t": "0653-01-01",
+    "gun": "32 H / 653",
+    "k": "fetih",
+    "b": "Ahnef b. Kays Belh'e sefer düzenler, halk 700.000 dirhem haraç öder (kalıcı fetih değil, dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "Ahnef b. Kays 32 (653) yılında Belh’e bir sefer düzenlemiş"
+   },
+   {
+    "t": "0662-04-26",
+    "gun": "42 H / 662-63",
+    "k": "fetih",
+    "b": "Belh Muâviye döneminde Emevî komutanlarınca fethedilir; Nevbahâr yıkılır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "Belh 42 (662-63) veya 43’te (664) Kays b. Heysem veya Abdurrahman b. Semüre tarafından fethedildi"
+   },
+   {
+    "t": "0709-01-01",
+    "gun": "709",
+    "k": "isyan",
+    "b": "Eftalit prensi Tarhan Nîzek Belh'i alır, sonra Kuteybe'nin kuvvetlerine yenilir (kısa; dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "Eftalit Prensi Tarhan Nîzek Belh’i aldıysa da daha sonra Kuteybe’nin gönderdiği kuvvetlere yenildi"
+   },
+   {
+    "t": "0725-01-01",
+    "gun": "725",
+    "k": "kurulus",
+    "b": "Esed b. Abdullah Belh'i yeniden inşa eder, ordugâhı oraya taşır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "Esed b. Abdullah el-Kasrî şehri yeniden inşa ederek ordugâhı buraya taşıdı"
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "t": "0821-01-01",
+    "gun": "821",
+    "k": "diger",
+    "b": "Tâhir b. Hüseyin Horasan valisi; Belh Tâhirî egemenliğinde (Bânîcûrî emîrleri).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, s. ~208-209",
+    "tanik": "in 821 Tahir was sent to Khurasan as governor"
+   },
+   {
+    "t": "0870-01-01",
+    "gun": "870 (veya 871)",
+    "k": "fetih",
+    "b": "Ya‘kūb b. Leys Dâvûd b. Abbas'ı Belh'ten çıkarır (Saffârî hâkimiyeti).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "Ancak 870’te (veya 871) Ya‘kūb b. Leys tarafından şehirden çıkarıldı"
+   },
+   {
+    "t": "0870-01-01",
+    "gun": "870 (çift teyit)",
+    "k": "fetih",
+    "b": "Barthold kronolojisi: Ya‘kūb Belh, Kabil ve Gazne'yi alır; 871'de Belh ve Tohâristan valiliği onaylanır.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 465",
+    "tanik": "Conquest of Balkh, Kabul, and Ghazna by Ya‘qub"
+   },
+   {
+    "t": "0900-03-18",
+    "gun": "18 Mart 900 (Sallâmî; çelişkili)",
+    "k": "fetih",
+    "b": "Belh yakınında Sâmânî İsmâil b. Ahmed Amr b. Leys'i yener ve esir alır; Belh Sâmânîlere geçer.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, s. ~226 (dipnot 3)",
+    "tanik": "‘Amr was taken prisoner and after some time sent to Baghdad"
+   },
+   {
+    "t": "0999-05-01",
+    "gun": "Mayıs 999",
+    "k": "antlasma",
+    "b": "Mahmud, Nîşâbur'u Begtuzun'a bırakıp Belh ve Herat'ı kendine alıkoyar.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), s. 266-267 (Bölüm IV)",
+    "tanik": "kept Balkh and Herat for himself"
+   },
+   {
+    "t": "1040-05-23",
+    "gun": "8 Ramazan 431 / 23 Mayıs 1040",
+    "k": "fetih",
+    "b": "Dandanakan zaferiyle Belh geçici olarak Selçuklu eline geçer (süre kısa; dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "Dandanakan Savaşı (1040) sonunda geçici bir süre için Selçuklular’ın elinde kaldı"
+   },
+   {
+    "t": "1043-01-01",
+    "gun": "434 H / 1043",
+    "k": "fetih",
+    "b": "Belh sürekli Selçuklu egemenliğine girer (Mevdûd döneminde Gazneli'den).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "sürekli Selçuklu egemenliğine ise Gazneliler’den Mevdûd döneminde girdi (1043)"
+   },
+   {
+    "t": "1152-01-01",
+    "gun": "1152",
+    "k": "fetih",
+    "b": "Gurlu Alâeddin Hüseyin Belh'i alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "1152’de Gurlular’dan Alâeddin Hüseyin Belh’i aldı"
+   },
+   {
+    "t": "1153-01-01",
+    "gun": "1153",
+    "k": "kayip",
+    "b": "Oğuzlar Belh'e girip yağmalar; Sencer'in yeğeni Karahanlı Mahmud Han'a itaat ederek şehirde kalır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "ikinci yıl Oğuzlar, Kamaç’a önerdikleri anlaşma kabul edilmeyince şehre girip yağmaladılar"
+   },
+   {
+    "t": "1198-01-01",
+    "gun": "594 H / 1198",
+    "k": "fetih",
+    "b": "Bahâeddin Sâm Karahıtay'a bağlı Türk valisi ölünce Belh'i işgal eder ve Gurlu topraklarına katar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/belh",
+    "tanik": "Karahıtaylar’a bağlı Türk valisi ölünce burayı işgal etti (1198)"
+   },
+   {
+    "t": "1198-01-01",
+    "gun": "594 H / 1198 (çift teyit)",
+    "k": "fetih",
+    "b": "EI1 (Hartmann): Gurlu Bahâ’ al-Dîn Sâm Belh'i alır.",
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt I, \"BALKH\" md. (R. Hartmann), s. 622-623",
+    "tanik": "in 594 (1198) the Ghorid Baha’ al-Din Sam of Bamiyan seized the town of Balkh"
+   }
+  ],
+  "ic_not": "AÇIK BORÇLAR: (1) Ahamenî evresi (TDV: 329'a kadar satraplık merkezi) tarihsiz başlangıç yüzünden zincire girmedi — Behistun ve Herodotos bölge adı verir, şehir tarihi vermez. (2) -0322 ile 1198 arası uzun dilimlerde (Kuşan-Eftalit-Sâsânî-Göktürk) sınırlar künye sınırlarıdır; kaynaklı olanlar: İskender MÖ 329, Arap 662-63, Esed 725, Ya‘kūb 870, Sâmânî 900 (Barthold gün), Gazneli Mayıs 999, Selçuklu 1043, Gurlu 1152/1198. (3) KÜNYE: atlas künyesi yok olanlar: tohar-yuezhi. (4) ÇELİŞKİ: EI1 1040/1206 (Selçuklu/Harezmşah) vs TDV 1043/1205; TDV esas; EI1 1227 Cengiz tahribi hatalı (TDV 1221). 3 KM: atlas noktası = modern Belh; eski şehir aynı alan (Bala Hisar) — mesafe ölçülmedi (OSM/Wikidata bu oturumda alınmadı)."
+ },
+ {
   "id": "berde-karabag",
   "ad": "Berde (Karabağ)",
   "atlas_ad": "Berde (Karabağ)",
@@ -1660,6 +2090,197 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "İlk anılış NİCELİĞİ: Livius'un metni Brixia'yı 'Cenomani'nin başı' olarak anar; olayın yılı (MÖ 197) metinden değil Treccani'nin 'Insubri debellati (197)' kaydından ÇIKARILDI (Livius 32.30 Cethegus'un MÖ 197 seferini anlatır; bu eşleme bu oturumda başka kaynakla çift doğrulanmadı). Livius'un yazım tarihi daha geç (MÖ 1. yy); Catullus 67 ('Brixia Veronae mater') de MÖ 1. yy tanığıdır (ölüm 'non prima del 54', Treccani). Kuruluş efsanesi: Livius 5.35 ('ubi nunc Brixia ac Verona urbes sunt') ve Treccani: Cenomani Alpleri aşınca kurdu — tarihsiz gelenek, yazılmadı. Treccani: 'Non si ha sicura notizia che siano avvenute nella città di Brescia scoperte dell'età neolitica e del bronzo' → ark yok. Çelişki: Treccani EI Brescia Strabon'un Brixia'yı Insubres'e verdiğini, öteki yazarların Cenomani'ye ait saydığını belirtir. Çift teyit yok."
  },
  {
+  "id": "buhara",
+  "ad": "Buhara",
+  "atlas_ad": "Buhara",
+  "lat": 39.7681,
+  "lon": 64.421,
+  "kat1900": 2,
+  "adlar": [
+   "Numijkat / Bûmickes (Çin kaynaklarında Numi; merkez yerleşimi)",
+   "Pu-ha (Hüang-Tsang)",
+   "Bukhārā / Buhara"
+  ],
+  "ilk": {
+   "t": "0630-01-01",
+   "gun": "630 civarı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buhara (Buhara, giriş bölümü)",
+   "tanik": "Buhara adı ilk defa Pu-ha şeklinde 630 yılı civarında Çinli seyyah Hüang-Tsang tarafından kullanılır",
+   "ic_not": "İLK ANILIŞ = alt sınır, kuruluş DEĞİL. TDV daha eskilerini de sayar: (a) V. yüzyıl Çin kaynaklarında \"Buhara’nın merkezi Nûmickes’ten (Bûmickes) Numi\" — Numijkat'ın bugünkü Buhara olduğu yer eşitlemesi (TDV: Buhara tarihi boyunca \"asla yerini değiştirmemiştir\") kesin tanıklık sayılmadı, ad eşitlemesi başlangıç yapılmadı (kural: yeri kesin olmayan ad eşitlemesi); (b) Çin kaynağına göre Buhar-hudât hânedanından bir bey 627'de atalarının 22 batındır bu şehirde hüküm sürdüğünü söyler (ikinci/dolaylı, tarihli ama şehir adı yok); (c) paralardaki \"Pwy’r ywB\" yazısından ad çok daha eski. İskender devrinde Zerefşân aşağı mecrasında başka bir şehir vardı, \"Buhara olup olmadığı bilinmemektedir\" (TDV). Çift teyit YOK (Hüang-Tsang tarihi tek TDV'den)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0630-01-01",
+    "t": "0709-01-01",
+    "d": "buharhudat",
+    "kesinlik": {
+     "f": "onyil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buhara",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id \"buharhudat\" (Buhar-hudât / Buharhudâtlar, yerel hânedan; TDV: \"Müslümanlar bu bölgeye geldikleri sırada şehrin hükümdarına Buhar-hudât denilirdi\"). Bu dönemde Arap akınları: 54 (674) Ubeydullah b. Ziyâd fethi + yıllık 1 milyon dirhem haraç, ama \"İslâm hâkimiyeti devamlı olmadı ve şehir zaman zaman müslümanların kontrolünden çıktı\" ⇒ haraç/vasal ilişkisi, dönem AÇILMADI (olay). Bîdûn Hatun \"Türk hakanının karısı\" (Taberî) — üst egemen Batı Göktürk olabilir, TDV açık söylemez. t: Kuteybe 87-90 (706-709) seferleri sonunda \"Arap garnizonu yerleştirdi\" — güvenli uç 709.",
+    "tanik": "şehrin hükümdarına Buhar-hudât (Buhar-hudah = Buhara sahibi) deniliyordu"
+   },
+   {
+    "f": "0709-01-01",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buhara",
+    "ic_not": "Emevî hâkimiyeti: Kuteybe 91 (710)'da Tuğşâde'yi Buhar-hudât tayin etti (yerel hânedan vasal olarak sürdü). 110 (728-29) Türkler \"bir ara Buhara’yı da işgal ettiler\" — süresi kısa, Barthold kronolojisi \"729 Restoration of Arab rule in Bukhara\" ⇒ dönem açılmadı. t: Abbâsî künye başı (28 Kasım 749, künye geçişi).",
+    "tanik": "Kuteybe b. Müslim 87-90 (706-709) yılları arasındaki seferleri sonunda"
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0821-01-01",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buhara",
+    "ic_not": "TDV: 133 (750-51) Şerîk b. Şeyh isyanı Ebû Müslim'in kumandanı Ziyâd b. Sâlih ve Buharhudât Kuteybe tarafından bastırıldı (Abbâsî egemenliği). t: Barthold: 821'de Tâhir Horasan valisi; TDV: \"260 (874) yılına kadar Buhara ... Tâhirîler’e bağlı bir valinin idaresindeydi\".",
+    "tanik": "Şerîk b. Şeyh’in Abbâsîler’e karşı isyanı üzerine Ebû Müslim’in kumandanı Ziyâd b. Sâlih"
+   },
+   {
+    "f": "0821-01-01",
+    "t": "0874-01-01",
+    "d": "tahiri-horasan",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buhara",
+    "ic_not": "Tâhirî künyesi 0821-05-06'da başlıyor (f yıl düzeyinde 821-01-01 ⇒ 4 ay hayalet UYARISI) ve 0873-01-01'de bitiyor (t 874-01-01 ⇒ 1 yıl taşma UYARISI). TDV: \"260 (874) yılına kadar Buhara Sâmânîler’e bağlı değildi. Doğrudan Horasan’daki Tâhirîler’e bağlı bir valinin idaresindeydi.\" Ya‘kūb b. Leys 873'te Tâhirîler'e son verince Buhara'da \"kısa bir müddet Horasan hükümdarı olarak tanındı ve adına hutbe okundu\" (Saffârî ele geçirme, süre kısa ⇒ dönem açılmadı). t: hicrî 260 ∩ 874 = 874-01-01.",
+    "tanik": "Doğrudan Horasan’daki Tâhirîler’e bağlı bir valinin idaresindeydi"
+   },
+   {
+    "f": "0874-01-01",
+    "t": "0999-10-23",
+    "d": "samani",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buhara",
+    "ic_not": "TDV: Buhara halkı ve ulemâ şehri Semerkant hâkimi Sâmânî Nasr b. Ahmed'e teslim etti, o da kardeşi İsmâil'i vali yaptı (260/874); 892'den İsmâil'in başşehri. t: Barthold: 23 Ekim 999 Pazartesi Ilak Buhara'yı işgal etti (Jülyen; gün hassasiyeti). TDV Buhara yalnız \"389 (999) yılına kadar\". Müntasır'ın 1000 (390 H) Buhara'ya kısa dönüşü dönem açmadı.",
+    "tanik": "Böylece Buhara 389 (999) yılına kadar Sâmânîler tarafından idare edildi"
+   },
+   {
+    "f": "0999-10-23",
+    "t": "1000-01-01",
+    "d": "karahanli",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), s. 268-269",
+    "ic_not": "Karahanlı = atlasın ilk sahibi (aynı sahip; dikiş). ATLAS DÜZELTME ÖNERİSİ: Buhara f 1000-01-01 → 999-10-23 (Barthold: Pazartesi, 23 Ekim 999; Pazartesi/Jülyen doğrulandı; TDV Karahanlılar: \"Ekim 999\" çift teyit).",
+    "tanik": "the Ilak occupied Bukhara without opposition and seized the Samanid treasury"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0630-01-01",
+    "gun": "630 civarı",
+    "k": "diger",
+    "b": "Hüang-Tsang \"Pu-ha\" adını kullanır (ilk anılış).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buhara",
+    "tanik": "Buhara adı ilk defa Pu-ha şeklinde 630 yılı civarında Çinli seyyah Hüang-Tsang tarafından kullanılır"
+   },
+   {
+    "t": "0674-01-01",
+    "gun": "54 H / 674",
+    "k": "fetih",
+    "b": "Ubeydullah b. Ziyâd Buhara'yı fetheder; hükümdar Bîdûn Hatun yıllık 1 milyon dirhem ve 2000 muharip vermeyi kabul eder (kalıcı değil).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buhara",
+    "tanik": "Şehir 54 (674) yılında Muâviye’nin Horasan Valisi Ubeydullah b. Ziyâd tarafından fethedilmiştir"
+   },
+   {
+    "t": "0709-01-01",
+    "gun": "87-90 H / 706-709",
+    "k": "fetih",
+    "b": "Kuteybe b. Müslim seferleri sonunda yerel direnişi kırar ve şehre Arap garnizonu yerleştirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buhara",
+    "tanik": "Kuteybe b. Müslim 87-90 (706-709) yılları arasındaki seferleri sonunda"
+   },
+   {
+    "t": "0728-01-01",
+    "gun": "110 H / 728-29",
+    "k": "kayip",
+    "b": "Türkler Tuğşâde zamanında bir ara Buhara'yı işgal eder (kısa; dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buhara",
+    "tanik": "110 (728-29) yılında bir ara Buhara’yı da işgal ettiler"
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Kûfe'de Ebü'l-Abbas'a biat).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "t": "0750-01-01",
+    "gun": "133 H / 750-51",
+    "k": "isyan",
+    "b": "Şerîk b. Şeyh'in Abbâsîler'e karşı Buhara isyanı bastırılır (Ziyâd b. Sâlih + Buharhudât Kuteybe).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buhara",
+    "tanik": "Şerîk b. Şeyh’in Abbâsîler’e karşı isyanı üzerine Ebû Müslim’in kumandanı Ziyâd b. Sâlih"
+   },
+   {
+    "t": "0821-01-01",
+    "gun": "821",
+    "k": "diger",
+    "b": "Tâhir b. Hüseyin Horasan valisi olarak gönderilir; Buhara Tâhirî valiliğine bağlanır (künye geçişi).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV (Central Asia down to the Twelfth Century), s. ~208-209",
+    "tanik": "in 821 Tahir was sent to Khurasan as governor"
+   },
+   {
+    "t": "0874-01-01",
+    "gun": "260 H / 874",
+    "k": "diger",
+    "b": "Buhara, Ya‘kūb b. Leys'in Tâhirîler'e son vermesinin ardından Nasr b. Ahmed'e (Sâmânî) teslim edilir; İsmâil vali.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/buhara",
+    "tanik": "Nasr da küçük kardeşi İsmâil’i Buhara valiliğine tayin etti"
+   },
+   {
+    "t": "0999-10-23",
+    "gun": "23 Ekim 999",
+    "k": "fetih",
+    "b": "İlig Han Nasr Buhara'yı hiçbir mukavemetle karşılaşmadan işgal eder; Sâmânî sülâlesi Özkent'e sürülür.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), s. 268-269 (Bölüm IV)",
+    "tanik": "the Ilak occupied Bukhara without opposition and seized the Samanid treasury"
+   },
+   {
+    "t": "0999-10-23",
+    "gun": "389 H / Ekim 999",
+    "k": "fetih",
+    "b": "TDV Karahanlılar: İlig Han Nasr Sâmânî başşehri Buhara'yı zaptetti (çift teyit).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "tanik": "İlig Han Nasr iki yıl sonra hiçbir mukavemetle karşılaşmadan Sâmânî başşehri Buhara’yı zaptetti"
+   },
+   {
+    "t": "1000-01-01",
+    "gun": "1000 (390 H)",
+    "k": "kayip",
+    "b": "Sâmânî Müntasır Buhara'ya döner (Barthold kronolojisi; kısa, dönem açılmadı).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 467",
+    "tanik": "Return of Isma‘11 Muntasir to Bukhara"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: Buhara f 1000-01-01 (ufuk işareti) → 999-10-23 (Barthold gün, TDV çift teyit). 3 KM: Buhara tarih boyunca yerinde (TDV), modern nokta = tarihî nokta. KAYNAK SINIRI: 630 öncesi zincir YOK (TDV Numi/V. yy eşitlemesi ve 627 Çin kaydı başlangıç sayılmadı); Alexander-devri başka kent. Iranica 403 (Cloudflare)."
+ },
+ {
   "id": "bukres",
   "ad": "Bükreş",
   "atlas_ad": "Bükreş",
@@ -2437,6 +3058,365 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ÜRETİM: Kayıt Roma castrum kuruluşundan (106) başlıyor; castrum 'bugünkü kalenin yerinde' (turism.apulum.ro) ⇒ atlas noktası (46.0678, 23.58) ile <1 km: antik Apulum bu noktaya yazıldı. Sivil Apulum (canabae/Colonia Aurelia Apulensis, Partoş) ve Dakya dönemi AYRI/yakın kayıt gerektirebilir; bu oturumda mesafeleri kaynakta ölçülmedi. PTOLEMAIOS 'Apoulon': Wikipedia modern tanımlama olarak Craiva/Piatra Craivii (~20 km kuzey) der (ikincil, doğrulanmadı) ⇒ Dakya döneminin Apulon'u bu noktaya yazılmadı; önerilen ayrı kayıt: 'Piatra Craivii (Apulon?)'. Ptolemaios'un kendi metni bu oturumda açılamadı (penelope Thayer sayfası boş). MKL: 'Ter-én Kr. e. 2-1. évezredi, kora vaskori erődítményt tártak föl' — yeri ayrıntısız olduğu için ark yazılmadı. DAKYA SAHİPLİĞİ: künye dakya (-0081..0106) bu nokta için kaynaklı tanık bulunamadığı için yazılmadı (ilk.t = 106). ARALIK: 275→896 __BILINMIYOR__ (bkz. sahip[1]); gepid/avar/birinci-bulgar künyeleri bölge düzeyinde TDV tanıklığı olduğu için KULLANILMADI. ATLAS 1281: atlas macaristan 1281-01-01 ile uyumlu; öneri yok. ŞEHİR İLK ANILIŞI (Roma sonrası): MKL 'Gyulafehérvár' adlarını sayar (Bălgrad, Alba Iulia, Weissenburg) ve ilk Orta Çağ tarihi olarak '1002-ig a Gyulák / 1009 piskoposluk' verir; 1009 piskoposluğu MKL'ye göre kesin (Wikipedia/Explore Carpathia ikincil). BULGAR İZİ: MKL 'az első dunai bolgár kagánok idején ismét benépesült' tarihsiz; Bălgrad adının kaynağı (Bulgar/Slav 'beyaz kale') ayrıca doğrulanmadı. Wikipedia/Explore Carpathia tek dayanak olmadığı için hiçbir tarih yalnızca onlardan alınmadı. Kaynak notu: MKL (Magyar Katolikus Lexikon, akademik Macar ansiklopedisi) açıldı; Kristó 'Korai magyar történeti lexikon' açılamadı."
  },
  {
+  "id": "hive",
+  "ad": "Hîve",
+  "atlas_ad": "Hîve",
+  "lat": 41.3783,
+  "lon": 60.3639,
+  "kat1900": 2,
+  "adlar": [
+   "Khīva / Khīwak (Hudud: \"Khw\")",
+   "Hîvak / Hayvak (Yâkūt)",
+   "Hîve (Khiva)"
+  ],
+  "ilk": {
+   "t": "0983-01-01",
+   "gun": "982-983",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hudud al-'Alam, çev. V. Minorsky, Londra 1937 (archive.org: in.ernet.dli.2015.281514), §25 (Khwarazm), madde 28 (eser 372/982-3'te derlendi; Minorsky önsözü)",
+   "tanik": "a small borough with a wall, belonging to Gurganj",
+   "ic_not": "İLK ANILIŞ = alt sınır. Hudud al-ʿĀlam 372/982-3 tarihli (\"compiled in 372/982-3\"), aralığın SON ucu (983) güvenli uç alındı. TDV: Hîve \"Arap coğrafyacılarının eserlerinde X. yüzyılda adına rastlanan\" (tarih aralığı yüzyıl düzeyinde; Hudud ile uyumlu). Le Strange: \"mentioned as a small town by the Arab geographers of the 4th (10th) century\"; Mukaddesî: kanalla sulanan, meydanı ve Cuma Camii olan kasaba (Le Strange). Kuruluş: TDV \"kuruluşu arkeolojik kalıntılara göre VI-VIII. asırlara kadar inen\" ⇒ ark; Tolstov/Kaçanova kazı yayınları bu oturumda AÇILAMADI (UNESCO/Iranica 403). Halk geleneği (Sam/Şem kuruluşu) tarihsiz, yazılmadı."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0800-01-01",
+   "gun": "6-8. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hive-hanligi (Hîve Hanlığı md., giriş)",
+   "tanik": "kuruluşu arkeolojik kalıntılara göre VI-VIII. asırlara kadar inen",
+   "ic_not": "Aralık 6.-8. yy ⇒ güvenli uç (en geç) 8. yüzyıl sonu."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0983-01-01",
+    "t": "0995-02-05",
+    "d": "samani",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Hudud al-'Alam, çev. V. Minorsky, Londra 1937 (archive.org: in.ernet.dli.2015.281514), §25 (Khwarazm), madde 28",
+    "ic_not": "ABİ MERKEZ: Gürgenç — Hudud: Hîve \"belonging to Gurganj\"; Gürgenç'in zinciri izlenir (TDV Gürgenç: \"Sâmânîler’e tâbi Gürgenç valisi\"). Hîve'ye özgü sahiplik tanığı YOK; \"zincir Gürgenç'ten devralındı\". t: hicrî 385 ∩ 995 (TDV Gürgenç).",
+    "tanik": "a small borough with a wall, belonging to Gurganj"
+   },
+   {
+    "f": "0995-02-05",
+    "t": "1017-05-30",
+    "d": "memuni-harezm",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc",
+    "ic_not": "zincir Gürgenç'ten devralındı (abi merkez: Gürgenç, Hudud). Künye boyasız (BOYALAR'da yok).",
+    "tanik": "Me’mûnîler’in Hârizm’deki hâkimiyetlerine son verdi"
+   },
+   {
+    "f": "1017-05-30",
+    "t": "1043-01-01",
+    "d": "gazneli",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc",
+    "ic_not": "zincir Gürgenç'ten devralındı. Altuntaş (1017-1032) ve oğlu Hârun Gazneli valisi; Şah Melik 12 Şubat 1041'de Gürgenç'e girip Sultan Mesud adına hutbe okuttu (TDV Harezm). t: TDV \"Çağrı Bey, 434’te (1043) ... Hezâresb ve Gürgenç’i Selçuklu topraklarına kattı\" (hicrî 434 ∩ 1043 = 1043-01-01).",
+    "tanik": "Gazneli Mahmud, 408’de (1017) Ebü’l-Hâris Muhammed b. Ali’yi azl ve hapsedip"
+   },
+   {
+    "f": "1043-01-01",
+    "t": "1097-01-01",
+    "d": "buyuk-selcuklu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc",
+    "ic_not": "zincir Gürgenç'ten devralındı. Alparslan Hârizm emirliğini oğlu Ayaz/Arslan Argun'a verdi (1066). t: TDV Harezm: Kutbüddin Muhammed'in hârizmşah unvanıyla vali tayini (490/1097).",
+    "tanik": "434’te (1043) Tuğrul Bey’le birlikte Hârizm üzerine yürüyerek Hezâresb ve Gürgenç’i Selçuklu topraklarına kattı"
+   },
+   {
+    "f": "1097-01-01",
+    "t": "1221-04-01",
+    "d": "harizmsah",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizm",
+    "ic_not": "zincir Gürgenç'ten devralındı. Hârizmşah hânedanı Gürgenç merkezli; Karahıtay vergisi (30.000 dinar) ve Gurlu kuşatması (600/1204) ana egemenliği değiştirmedi. t: TDV Harezm \"Safer 618 / Nisan 1221\" (Gürgenç düştü; Hîve'ye özgü tarih yok ⇒ gün komşudan: Gürgenç; ay hassasiyeti).",
+    "tanik": "Taştdâr Anuş Tegin’in oğlu Kutbüddin Muhammed’i hârizmşah unvanıyla Hârizm valiliğine getirdi (490/1097)"
+   },
+   {
+    "f": "1221-04-01",
+    "t": "1227-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizm",
+    "ic_not": "TDV Harezm: Gürgenç'in düşüşü \"Safer 618 / Nisan 1221\"; TDV Hîve: \"Hîve daha önce de 1221 yılından itibaren Moğol ... başkentlik yapmıştı\" (hanlık öncesi). t: TDV \"Cengiz Han’ın ölümünden (1227) sonra ... Hârizm toprakları ... Cuci’nin payına düştü\".",
+    "tanik": "Hîve daha önce de 1221 yılından itibaren Moğol"
+   },
+   {
+    "f": "1227-01-01",
+    "t": "1281-01-01",
+    "d": "altinorda",
+    "kesinlik": {
+     "f": "yil",
+     "t": "belirsiz"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizm",
+    "ic_not": "Cuci ulusu (TDV: \"Hârizm toprakları en büyük oğlu Cuci’nin payına düştü\"; Batu Han). Altın Orda künyesi 1242'de başlıyor ⇒ 15 yıl hayalet UYARISI (künye GENİŞLET/Cuci Ulusu künyesi önerisi). TDV: \"Daha sonraki ulus taksimatında Kuzey ve Batı Hârizm Cuci ulusuna, Kâs ve Hîve Çağatay ulusuna bırakıldı\" — taksimin YILI YOK; EI1 (Barthold, Khwarizm): Kath ve Khiwa Çağatay imparatorluğuna aitti (140 yıl Altın Orda'ya karşın). t = atlas dikişi (1281-01-01, Çağatay).",
+    "tanik": "Hârizm toprakları en büyük oğlu Cuci’nin payına düştü"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0983-01-01",
+    "gun": "982-983",
+    "k": "diger",
+    "b": "Hudud al-ʿĀlam Hîve'yi surlu küçük kasaba olarak, Gürgenç'e bağlı gösterir (ilk anılış).",
+    "kaynak": "Hudud al-'Alam, çev. V. Minorsky, Londra 1937 (archive.org: in.ernet.dli.2015.281514), §25 (Khwarazm), madde 28",
+    "tanik": "a small borough with a wall, belonging to Gurganj"
+   },
+   {
+    "t": "0995-02-05",
+    "gun": "385 H / 995",
+    "k": "diger",
+    "b": "Gürgenç valisi Me'mûn b. Muhammed bütün Hârizm'i alır (Me'mûnîler); Hîve Gürgenç'e bağlı olarak onların elinde.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc",
+    "tanik": "Emîr Me’mûn b. Muhammed, Kâs’ta hüküm süren Afrigoğulları’na son vererek 385’te (995)"
+   },
+   {
+    "t": "1017-05-30",
+    "gun": "408 H / 1017",
+    "k": "fetih",
+    "b": "Gazneli Mahmud Hârizm'i alır; Altuntaş el-Hâcib vali.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc",
+    "tanik": "Me’mûnîler’in Hârizm’deki hâkimiyetlerine son verdi"
+   },
+   {
+    "t": "1043-01-01",
+    "gun": "434 H / 1043",
+    "k": "fetih",
+    "b": "Çağrı Bey ve Tuğrul Bey Hârizm'i Selçuklu topraklarına katar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc",
+    "tanik": "434’te (1043) Tuğrul Bey’le birlikte Hârizm üzerine yürüyerek Hezâresb ve Gürgenç’i Selçuklu topraklarına kattı"
+   },
+   {
+    "t": "1097-01-01",
+    "gun": "490 H / 1097",
+    "k": "diger",
+    "b": "Berkyaruk'un Horasan valisi Kutbüddin Muhammed'i hârizmşah unvanıyla Hârizm valisi yapması; Hârizmşahlar hânedanı kurulur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizm",
+    "tanik": "Taştdâr Anuş Tegin’in oğlu Kutbüddin Muhammed’i hârizmşah unvanıyla Hârizm valiliğine getirdi (490/1097)"
+   },
+   {
+    "t": "1221-04-01",
+    "gun": "Safer 618 / Nisan 1221",
+    "k": "fetih",
+    "b": "Moğollar Gürgenç'i alır; Hârizm Moğol hâkimiyetine girer (Hîve için gün komşudan).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizm",
+    "tanik": "şehir birkaç ay sonra düştü (Safer 618 / Nisan 1221)"
+   },
+   {
+    "t": "1227-01-01",
+    "gun": "1227",
+    "k": "diger",
+    "b": "Cengiz Han ölür; Hârizm toprakları Cuci'nin payına düşer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizm",
+    "tanik": "Hârizm toprakları en büyük oğlu Cuci’nin payına düştü"
+   }
+  ],
+  "dikis_beyan": "Atlas Hîve f=1281-01-01 cagatay (kaynaksız). Aranan: Hîve'nin Çağatay ulusuna geçiş günü/yılı. Bulunan: TDV Harezm ve EI1 (Barthold, Khwarizm): \"Kâs ve Hîve Çağatay ulusuna bırakıldı\"/\"only the southern parts with Kath and Khiwa belonged to the Caghatai empire\" — TARİHSİZ (Cuci payı 1227'den sonra, \"daha sonraki ulus taksimatı\"). 1281 ne doğrulandı ne çürütüldü. Zincir 1281-01-01'e Altın Orda (Cuci ulusu) ile hizalandı; geçiş olayı yazılmadı (olay uydurulmaz).",
+  "ic_not": "ATLAS: Hîve çağatay 1281 ile Köhne Ürgenç altinorda 1242-1379 aynı vahada ÇELİŞİR gibi görünür; TDV Harezm: Kâs ve Hîve Çağatay ulusu, Gürgenç Cuci ulusu ⇒ ÇELİŞKİ DEĞİL (iki ulus aynı vahada), atlas doğru. TDV Hîve: \"1221'den itibaren Moğol, 1388'den itibaren Timur imparatorluklarına başkentlik yapmıştı\". 1512'de Hîve Hanlığı başlangıcı atlasta ayrı. Hîve noktasının Gürgenç zincirinden devralınması (abi merkez) kayıtlı; Hîve'ye özgü Hârezmşah-dönemi tanık YOK."
+ },
+ {
+  "id": "hokand",
+  "ad": "Hokand",
+  "atlas_ad": "Hokand",
+  "lat": 40.529,
+  "lon": 70.943,
+  "kat1900": 3,
+  "adlar": [
+   "Huvâkand / Huvâkend (İstahrî, İbn Havkal, Hudud)",
+   "Khuwakand / Khavakand (Le Strange)",
+   "Hukand",
+   "Hokand",
+   "Kökan (Özbekçe telaffuz)"
+  ],
+  "ilk": {
+   "t": "0983-01-01",
+   "gun": "982-983",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hudud al-'Alam, çev. V. Minorsky, Londra 1937 (archive.org: in.ernet.dli.2015.281514), §25 (Farghana), madde 54 (eser 372/982-3'te derlendi)",
+   "tanik": "KHUVAKAND, RISHTAN, ZANDARAMISH, densely populated (anbuh) boroughs with much cultivation",
+   "ic_not": "İLK ANILIŞ = alt sınır (kuruluş DEĞİL; TDV: \"Şehrin ne zaman kurulduğu hakkında bir bilgi bulunmamakla beraber\"). Hudud al-ʿĀlam 372/982-3 tarihli; aralığın SON ucu 983 güvenli uç. TDV: \"Huvâkend (İstahrî, s. 335; İbn Havkal, s. 461)\" ve \"adının X. yüzyıl Arap coğrafyacılarının eserlerinde geçmesi tarihinin daha da eskiye indiğini gösterir\"; İstahrî 340/951'de yazdı (Le Strange) ⇒ ilk anılış 951'e inebilir ama İstahrî'nin Hokand cümlesi bu oturumda DOĞRUDAN açılamadı (TDV atfı) — Hudud'a (açılan, tarihli) kalındı. Le Strange: \"Khiikand ... is only mentioned incidentally among the cities of upper Nasiyah\". Çin kaynaklarında Fergana'nın MÖ 2. yy'dan beri ~70 yerleşmesi (TDV): Hokand'ın bunlardan biri olabileceği SADECE tahmin ⇒ yazılmadı. \"Hokand muhtemelen Bâbür'ün Fergana hâkimiyeti dönemine (1494-1504) dek küçük bir şehir halinde kaldı\" (TDV)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0983-01-01",
+    "t": "0999-10-23",
+    "d": "samani",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/fergana",
+    "ic_not": "ABİ MERKEZ: Fergana bölgesi — TDV Fergana: \"Mâverâünnehir’in çeşitli yerleriyle birlikte Fergana’nın da yönetimi Vali Gassân b. Abbâd (819-820) tarafından Sâmânîler’e devredildi\"; \"Sâmânîler döneminde halkın refah içinde olduğu\"; Hokand'a özgü tanık yok (\"zincir Fergana'dan devralındı\"). t: TDV \"İlig Han Nasr’ın Ekim 999’da Buhara’yı zaptederek Sâmânî Hükümdarı Abdülmelik’i Özkent’e sürmesinden sonra Fergana Karahanlılar’ın eline geçti\" (alt sınır: gün komşudan Buhara, Barthold 23 Ekim 999; Fergana için yalnız \"sonra\" — Özkent zaten Karahanlı merkeziydi).",
+    "tanik": "Fergana’nın da yönetimi Vali Gassân b. Abbâd (819-820) tarafından Sâmânîler’e devredildi"
+   },
+   {
+    "f": "0999-10-23",
+    "t": "1041-08-31",
+    "d": "karahanli",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/fergana",
+    "ic_not": "zincir Fergana'dan devralındı. t: TDV Karahanlılar: Mâverâünnehir'in tamamında bağımsız devlet (433/1041-42); \"bu tarihten itibaren Karahanlılar Doğu ve Batı Karahanlılar olmak üzere ikiye ayrılmıştır\" (hicrî 433 ilk günü = 1041-08-31). Birleşik künye 1041-01-01'de bitiyor ⇒ 8 ay hayalet UYARISI.",
+    "tanik": "Fergana Karahanlılar’ın eline geçti ve idare merkezi Özkent’e taşındı"
+   },
+   {
+    "f": "1041-08-31",
+    "t": "1068-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "ic_not": "Fergana Doğu/Batı Karahanlılar arasında el değiştirir ve Selçuklu akını görür (1089 Melikşah Özkent'e geldi): TDV \"Tamgaç Han İbrâhim Fergana’yı tekrar zaptetti\" (≈1057-59), 451/1059 Fergana'da sikke; Hokand'a özgü tanık YOK ⇒ __BOSLUK__. t: TDV \"460’tan (1068) sonra ... bütün Fergana Doğu Karahanlılar’a bırakılıyordu\".",
+    "tanik": "Tamgaç Han Böri Tegin İbrâhim b. Nasr Fergana’yı tekrar zaptetti"
+   },
+   {
+    "f": "1068-01-01",
+    "t": "1141-09-09",
+    "d": "dogu-karahanli",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "ic_not": "zincir Fergana'dan devralındı. f: hicrî 460 ∩ 1068 (\"460’tan (1068) sonra\" ⇒ en erken; sınır antlaşması tarihi bu). t: TDV Fergana \"1141’de burası Karahıtaylar’ın hâkimiyeti altına girdi\" ⇒ en erken olası gün Katvân (5 Safer 536 / 9 Eylül 1141, TDV Karahıtaylar); XII. yy'da Fergana başşehri Endican, Mergīnân öne çıktı.",
+    "tanik": "bütün Fergana Doğu Karahanlılar’a bırakılıyordu"
+   },
+   {
+    "f": "1141-09-09",
+    "t": "1211-01-01",
+    "d": "karahitay",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahitaylar",
+    "ic_not": "zincir Fergana'dan devralındı (bölge cümlesi, şehre özgü değil — beyanlı yaklaşıklık): TDV Fergana \"1141’de burası Karahıtaylar’ın hâkimiyeti altına girdi\". t: TDV Karahıtaylar \"Küçlüğ ... bu devlete son verdi (1211)\".",
+    "tanik": "1141’de burası Karahıtaylar’ın hâkimiyeti altına girdi"
+   },
+   {
+    "f": "1211-01-01",
+    "t": "1220-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/fergana",
+    "ic_not": "Fergana \"1212’den 1217’ye kadar Hârizmşah Alâeddin Muhammed ile ... Küçlüğ Han arasında mücadele alanı haline geldi\"; Hârizmşah Muhammed Şâş, İsfîcâb, Fergana'yı elde tutamayacağını anlayıp tahrip ettirdi (TDV; Barthold). Hokand'a özgü sahip YOK ⇒ __BOSLUK__. t: Barthold kronolojisi \"1220 Conquest of Transoxania by the Mongols\".",
+    "tanik": "Fergana 1212’den 1217’ye kadar Hârizmşah Alâeddin Muhammed ile"
+   },
+   {
+    "f": "1220-01-01",
+    "t": "1281-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "belirsiz"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/fergana",
+    "ic_not": "TDV Fergana: \"Ahsîkes ve Kâsân emîrlerinin Moğollar’a tâbi olmaları eyaletin Moğollar’ın eline düşmesine yol açtı ve onlar adına XIII. yüzyılda uzun süre Mahmud ve onun oğlu Mesud Yalvaç tarafından yönetildi\". Moğol İmparatorluğu künyesi 1260'ta bitiyor ⇒ 21 yıl hayalet UYARISI (Çağatay/Kaydu ulusu künyesi önerisi). t = atlas dikişi (1281-01-01 Çağatay). \"Çağatay ulusu XIV. yüzyılda ikiye ayrılınca\" (TDV) — XIII. yy Çağatay iddiası TDV'de yok.",
+    "tanik": "Ahsîkes ve Kâsân emîrlerinin Moğollar’a tâbi olmaları eyaletin Moğollar’ın eline düşmesine yol açtı"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0983-01-01",
+    "gun": "982-983",
+    "k": "diger",
+    "b": "Hudud al-ʿĀlam Hokand'ı (Khuvakand) Fergana'nın sık nüfuslu kasabaları arasında sayar (ilk anılış).",
+    "kaynak": "Hudud al-'Alam, çev. V. Minorsky, Londra 1937 (archive.org: in.ernet.dli.2015.281514), §25 (Farghana), madde 54",
+    "tanik": "KHUVAKAND, RISHTAN, ZANDARAMISH, densely populated (anbuh) boroughs with much cultivation"
+   },
+   {
+    "t": "0999-10-23",
+    "gun": "Ekim 999",
+    "k": "fetih",
+    "b": "İlig Han Nasr Buhara'yı alır, Sâmânî hânedanını Özkent'e sürer; sonra Fergana Karahanlı olur, idare merkezi Özkent.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/fergana",
+    "tanik": "Fergana Karahanlılar’ın eline geçti ve idare merkezi Özkent’e taşındı"
+   },
+   {
+    "t": "1041-08-31",
+    "gun": "433 H / 1041-42",
+    "k": "diger",
+    "b": "künye geçişi: birleşik Karahanlı → Doğu/Batı Karahanlılar (Mâverâünnehir'de bağımsız devlet).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "tanik": "Karahanlılar Doğu ve Batı Karahanlılar olmak üzere ikiye ayrılmıştır"
+   },
+   {
+    "t": "1059-02-17",
+    "gun": "451 H / 1059",
+    "k": "fetih",
+    "b": "Batı Karahanlı Tamgaç Han İbrâhim Fergana'yı tekrar zaptedip sikke basar (geçici).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "tanik": "Tamgaç Han Böri Tegin İbrâhim b. Nasr Fergana’yı tekrar zaptetti"
+   },
+   {
+    "t": "1068-01-01",
+    "gun": "460 H sonrası / 1068",
+    "k": "antlasma",
+    "b": "Batı ve Doğu Karahanlılar arasındaki sınır antlaşması: bütün Fergana Doğu Karahanlılar'a bırakılır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "tanik": "bütün Fergana Doğu Karahanlılar’a bırakılıyordu"
+   },
+   {
+    "t": "1141-09-09",
+    "gun": "5 Safer 536 / 9 Eylül 1141",
+    "k": "fetih",
+    "b": "Katvân Savaşı; Karahıtaylar Mâverâünnehir'i alır, Fergana Karahıtay hâkimiyetine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/fergana",
+    "tanik": "1141’de burası Karahıtaylar’ın hâkimiyeti altına girdi"
+   },
+   {
+    "t": "1211-01-01",
+    "gun": "1211",
+    "k": "diger",
+    "b": "Karahıtay Devleti Küçlüğ Han tarafından sona erdirilir; Fergana 1212-1217 Hârizmşah-Küçlüğ mücadele alanı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahitaylar",
+    "tanik": "bu devlete son verdi (1211)"
+   },
+   {
+    "t": "1220-01-01",
+    "gun": "1220",
+    "k": "fetih",
+    "b": "Moğollar Mâverâünnehir'i alır; Ahsîkes ve Kâsân emirleri tâbi olur, Fergana Moğol idaresine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/fergana",
+    "tanik": "Ahsîkes ve Kâsân emîrlerinin Moğollar’a tâbi olmaları eyaletin Moğollar’ın eline düşmesine yol açtı"
+   }
+  ],
+  "dikis_beyan": "Atlas Hokand f=1281-01-01 cagatay (kaynaksız). Aranan: Fergana'nın Çağatay ulusuna geçişi. Bulunan: TDV Fergana \"XIII. yüzyılda uzun süre Mahmud ve Mesud Yalvaç Moğollar adına yönetti; Çağatay ulusu XIV. yüzyılda ikiye ayrılınca ...\" — XIII. yy Çağatay iddiası YOK; 1281 çürütülmedi/doğrulanmadı. Zincir 1281-01-01'e Moğol İmparatorluğu (künye sonu 1260) ile hizalandı.",
+  "ic_not": "ABİ MERKEZ KARARI: Hokand küçük kasaba (TDV: XVIII. yy ortasına dek küçük); 983-1281 arası zincir Fergana bölgesinin TDV zinciridir, Hokand'a özgü tek tanık Hudud 982/3'tür. ATLAS: Hokand 1281-1710 Çağatay/Timurlu/Buhara ayrı dilim. Hokand Hanlığı md. 1710 sonrası. Konum: atlas noktası = modern Kökan (Özbekistan), eski yerleşim aynı alan (TDV; mesafe ölçülmedi)."
+ },
+ {
   "id": "kamanice",
   "ad": "Kamaniçe",
   "atlas_ad": "Kamaniçe",
@@ -2483,6 +3463,173 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas 1281-1569 'polonya-erken' diyor; TDV Polonya'ya katılışı 1430 verir (öncesi Litvanya, XIV. yy). Podolya 1362 Mavi Sular sonrası Litvanya'ya geçer, öncesi Altın Orda (ikincil, Vikipedi-türü kaynak — kullanılmadı, tek dayanak olamaz). Kaynak sırası: TDV, ESBE okundu; İSAM/TTK/DergiPark ve Ukrayna akademik kaynakları (Encyclopedia of Ukraine siteyi açmadı) bu oturumda yetersiz."
+ },
+ {
+  "id": "karsi",
+  "ad": "Karşi (Nahşeb)",
+  "atlas_ad": "Karşi (Nahşeb)",
+  "lat": 38.86,
+  "lon": 65.795,
+  "kat1900": 3,
+  "adlar": [
+   "Nakhshab / Nahşeb (Soğdca-yerel ad)",
+   "Nasaf / Nesef (Arapça)",
+   "Karşi / Qarshi (\"saray\", Moğolca; 14. yy)"
+  ],
+  "ilk": {
+   "t": "0983-01-01",
+   "gun": "982-983",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hudud al-'Alam, çev. V. Minorsky, Londra 1937 (archive.org: in.ernet.dli.2015.281514), §25 (Basin of Kashka-darya / Sughd), madde 17 (eser 372/982-3'te derlendi)",
+   "tanik": "NAKHSHAB, a Very pleasant, prosperous town with cultivation",
+   "ic_not": "İLK ANILIŞ = alt sınır (kuruluş DEĞİL). Hudud al-ʿĀlam 372/982-3; aralığın SON ucu 983 güvenli uç. EI1 (Minorsky): \"In the time of Istakhri (p. 325) the town consisted only of one quarter (rabad) and a ruined citadel (kuhandiz)\" ⇒ İstahrî (340/951, Le Strange) Nasaf'ı bu adla anar, citadel o sırada VIRANE; 951 tarihli doğrudan satır bu oturumda açılmadı — Hudud'a kalındı. \"Nasaf\" adı Nahşeb'in Arapçalaşması (Barthold, s. 136). Daha önce: Barthold kronolojisinde 796-808 Ali b. İsa'nın Hamza'ya karşı ordusunda \"men of Nakhshab\" (tarih aralığı geniş, bölük adı, şehir sahibi değil). TDV Nahşeb/Nesef/Karşi şehir maddesi YOK (arama: Cemâl-i Karşî nisbe maddesi dışında bulunamadı). ⚠⚠ 3 KM İHLALİ OLASILIĞI: EI1 (Minorsky, Zimin'e dayanarak): \"The ruins of the ancient Nakhshab are around the hill of Shulluk-tepe ..., already in ruins in the xth century. As a result of the erection of the Mongol palaces somewhere to the south of the river, the town begins to shift southwards, and at the end of the xivth century when Timur built a citadel there it must have occupied in part the site of the modern Karshi.\" — Şulluktepe-modern Karşi mesafesi bu oturumda ÖLÇÜLEMEDİ (Wikidata/OSM Şulluktepe konumu bulunamadı); modern Karşi ŞEHRİ Kebek (1318-26) ve Kazan sarayları/Timur kalesi ile 14. yy'da doğar. Atlasın mevcut pratiği izlendi (Karşi noktasında Nahşeb zinciri)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0983-01-01",
+    "t": "0999-10-23",
+    "d": "samani",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Hudud al-'Alam, çev. V. Minorsky, Londra 1937 (archive.org: in.ernet.dli.2015.281514), §25 (Basin of Kashka-darya / Sughd), madde 17",
+    "ic_not": "ABİ MERKEZ: Buhara/Semerkant (Sogd; Nahşeb Buhara'ya bağlı eski vilâyet, Buhara-Belh yolu üzerinde — EI1). Nahşeb'e özgü Sâmânî sahiplik cümlesi bulunamadı (Barthold: İsmâilî dâî Muhammed b. Ahmed en-Nahşebî-Nesefî Nasr b. Ahmed'in sarayında 10. yy). t: Barthold: Ilak 23 Ekim 999'da Buhara'yı işgal etti ve \"leaving his own governors in Bukhara and Samarqand\"; Nahşeb için gün komşudan.",
+    "tanik": "NAKHSHAB, a Very pleasant, prosperous town with cultivation"
+   },
+   {
+    "f": "0999-10-23",
+    "t": "1041-08-31",
+    "d": "karahanli",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "ic_not": "zincir Buhara/Semerkant'tan devralındı (TDV Karahanlılar: \"bölgeye kendi valilerini tayin edip Özkent’e döndü\"). t: hicrî 433 ilk günü (birleşik Karahanlı → Doğu/Batı; künye 1041-01-01'de bitiyor ⇒ 8 ay hayalet UYARISI).",
+    "tanik": "bölgeye kendi valilerini tayin edip Özkent’e döndü"
+   },
+   {
+    "f": "1041-08-31",
+    "t": "1141-09-09",
+    "d": "bati-karahanli",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, s. ~319-320 (Arslan-Khan Muhammad dönemi)",
+    "ic_not": "Nahşeb Batı Karahanlı (Semerkant) payındadır: Barthold: Arslan-Khan Muhammad (1102-1130) Sencer'in yardımıyla Nahşeb yakınında Sagır-Beg isyancılarını yendi (≈1109). Batı Karahanlı künyesi 1041-1212. t: Katvân (5 Safer 536 / 9 Eylül 1141, TDV Karahıtaylar) — Karahıtay Mâverâünnehir'i Ceyhun'a kadar aldı; Nahşeb'e özgü gün YOK, güvenli uç.",
+    "tanik": "Arslan-Khan with the help of Sinjar defeated the rebels near Nakhshab"
+   },
+   {
+    "f": "1141-09-09",
+    "t": "1211-01-01",
+    "d": "karahitay",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahitaylar",
+    "ic_not": "bölge cümlesi (TDV Karahıtaylar: Ceyhun'un sağ kıyısına kadar bütün Mâverâünnehir), Nahşeb'e özgü değil — beyanlı yaklaşıklık. t: TDV \"Küçlüğ ... bu devlete son verdi (1211)\".",
+    "tanik": "Karahıtaylar, Ceyhun ırmağının sağ kıyısına kadar bütün Mâverâünnehir’i ele geçirdiler"
+   },
+   {
+    "f": "1211-01-01",
+    "t": "1220-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahitaylar",
+    "ic_not": "Şehir VAR; sahip: Hârizmşah Muhammed Mâverâünnehir'i 1207-1212'de ele geçirdi (Barthold kronolojisi: 1207 Buhara fethi, 1210 Semerkant'ın Karahıtaylarca alınışı, 1212 Semerkant ayaklanması) ama Nahşeb'e özgü tanık YOK ⇒ __BOSLUK__ (beyanlı). t: Barthold: \"1220 Conquest of Transoxania by the Mongols\".",
+    "tanik": "Hârizmşah Muhammed b. Tekiş önce Semerkant ve Buhara’yı ele geçirdi"
+   },
+   {
+    "f": "1220-01-01",
+    "t": "1281-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "belirsiz"
+    },
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt III, \"NAKHSHAB\" md. (V. Minorsky), s. ~840",
+    "ic_not": "EI1 (Minorsky): Moğollar Cengiz Han zamanından (1220) itibaren Nahşeb bölgesini yazlık ordugâh yaptı; Barthold: 1221'de Turbay ve Qabay-Ilçi \"who were stationed at Nakhshab (Nasaf)\". Moğol İmparatorluğu künyesi 1260'ta bitiyor ⇒ 21 yıl hayalet UYARISI (Çağatay ulusu önerisi). t = atlas dikişi (1281-01-01 Çağatay). Çağatay Kebek (1318-26) ve Kazan sarayları atlas sonrası; \"Karşi\" adı bunlardan (EI1).",
+    "tanik": "used the region of Nakhshab for their summer encampments"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0983-01-01",
+    "gun": "982-983",
+    "k": "diger",
+    "b": "Hudud al-ʿĀlam Nahşeb'i hoş, bakımlı, ırmağın geçtiği şehir olarak anar (ilk anılış).",
+    "kaynak": "Hudud al-'Alam, çev. V. Minorsky, Londra 1937 (archive.org: in.ernet.dli.2015.281514), §25 (Basin of Kashka-darya / Sughd), madde 17",
+    "tanik": "NAKHSHAB, a Very pleasant, prosperous town with cultivation"
+   },
+   {
+    "t": "0999-10-23",
+    "gun": "23 Ekim 999 (Buhara; Nahşeb komşudan)",
+    "k": "fetih",
+    "b": "İlig Han Nasr Buhara'yı alır, bölgeye kendi valilerini bırakır; Sâmânîlerin sonu.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "tanik": "bölgeye kendi valilerini tayin edip Özkent’e döndü"
+   },
+   {
+    "t": "1041-08-31",
+    "gun": "433 H / 1041-42",
+    "k": "diger",
+    "b": "künye geçişi: birleşik Karahanlı → Doğu/Batı Karahanlılar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "tanik": "Karahanlılar Doğu ve Batı Karahanlılar olmak üzere ikiye ayrılmıştır"
+   },
+   {
+    "t": "1109-01-01",
+    "gun": "1109 (Sagır-Beg ikinci isyanı)",
+    "k": "isyan",
+    "b": "Arslan-Khan Muhammed Sencer'in yardımıyla Nahşeb yakınında isyancıları yener.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, s. ~319-320",
+    "tanik": "Arslan-Khan with the help of Sinjar defeated the rebels near Nakhshab"
+   },
+   {
+    "t": "1141-09-09",
+    "gun": "5 Safer 536 / 9 Eylül 1141",
+    "k": "fetih",
+    "b": "Katvân Savaşı: Karahıtaylar Mâverâünnehir'i alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahitaylar",
+    "tanik": "Karahıtaylar, Ceyhun ırmağının sağ kıyısına kadar bütün Mâverâünnehir’i ele geçirdiler"
+   },
+   {
+    "t": "1211-01-01",
+    "gun": "1211",
+    "k": "diger",
+    "b": "Karahıtay Devleti sona erer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahitaylar",
+    "tanik": "bu devlete son verdi (1211)"
+   },
+   {
+    "t": "1220-01-01",
+    "gun": "1220",
+    "k": "fetih",
+    "b": "Moğollar Cengiz Han zamanından itibaren Nahşeb bölgesini yazlık ordugâh yapar.",
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt III, \"NAKHSHAB\" md. (V. Minorsky), s. ~840",
+    "tanik": "used the region of Nakhshab for their summer encampments"
+   },
+   {
+    "t": "1221-01-01",
+    "gun": "1221",
+    "k": "diger",
+    "b": "Turbay ve Qabay-Ilçi Nahşeb'de konuşlanmış Moğol komutanlar olarak anılır (Horasan seferi öncesi).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chingiz-Khan and the Mongols, s. ~449-450",
+    "tanik": "who were stationed at Nakhshab (Nasaf)"
+   }
+  ],
+  "dikis_beyan": "Atlas Karşi (Nahşeb) f=1281-01-01 cagatay (kaynaksız). Aranan: Nahşeb'in Çağatay ulusuna geçişi — bulunamadı (EI1: Çağatay Kebek 1318-1326 saray yaptırdı; ulus-ayrımı öncesi tanık yok). 1281 ne doğrulandı ne çürütüldü; zincir Moğol İmparatorluğu ile 1281-01-01'e hizalandı.",
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: (1) \"Karşi\" = 14. yy sarayı (Kebek 1318-26); ad ve modern şehir atlasın başlangıcından (1281) SONRA doğar ⇒ 1281 öncesi zincir ANTİK NAHŞEB (Şulluktepe) için geçerli; ayrı kayıt \"Nahşeb (Şulluktepe)\" önerilir. (2) ÇELİŞKİ yok: Barthold (İngilizce 2. bs.) ve EI1 aynı: Nasaf, Nahşeb'in Arapçalaşmış biçimi; Karşi adı 14. yy. (3) TDV şehir maddesi yok. (4) 3 km ölçülemedi."
  },
  {
   "id": "kasimov",
@@ -2849,6 +3996,135 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Klis atlasta k=2 (sancak, 1537-1648 Osmanlı). Atlas 1281'de 'macaristan' ile başlıyor; zincir aynı sahiple bitiyor. TDV maddesinde (kasaba) Osmanlı öncesi kayıt yok. kat1900: LISTE.tsv'de Klis yok; atlas k=2 esas alınarak 2 yazıldı (doğrulanmadı). LZMK tek (Hırvat ulusal) ansiklopedidir; ikinci bağımsız teyit bulunamadı."
+ },
+ {
+  "id": "kohne-urgenc",
+  "ad": "Köhne Ürgenç (Gürgenç)",
+  "atlas_ad": "Köhne Ürgenç (Gürgenç)",
+  "lat": 42.3417,
+  "lon": 59.15,
+  "kat1900": 3,
+  "adlar": [
+   "Yeu-gien / Yüe-kien (Çin; olası eşitleme, TDV \"kuvvetle muhtemel\")",
+   "Cürcâniye / Jurjāniyya (Arapça)",
+   "Gurgandj / Gürgenç (Farsça)",
+   "Hazret-i Hârizm",
+   "Ürgenç (Moğol-Türk, 1231 sonrası yeni şehir)",
+   "Köhne Ürgenç (Kunya-Urgench)"
+  ],
+  "ilk": {
+   "t": "0712-01-01",
+   "gun": "93 H / 712",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc (Gürgenç, giriş bölümü)",
+   "tanik": "Müslüman Araplar Gürgenç’i Emevîler zamanında fethettiler (93/712)",
+   "ic_not": "İLK ANILIŞ = alt sınır (kuruluş DEĞİL). EI1 (Barthold): \"Although the town is first mentioned by the Arabs, it was undoubtedly founded in the pre-Muhammadan period; the oldest Chinese name for Khwarizm (Yue-kien) is apparently to be traced to the name Gurgandj\" — yani şehir Arap fethinden ESKİ ama yazılı ilk tanık Arap fethidir (çift teyit: TDV + EI1). TDV: MÖ 138-126 Çian-Kien'in \"Yeu-gien eyaleti\"ni Amuderya üzerinde anması, burasının Gürgenç olması \"kuvvetle muhtemeldir\" — ad/yer eşitlemesi KESİN DEĞİL ⇒ başlangıç sayılmadı (kural). Hicrî 93 ∩ 712 ilk günü = 712-01-01 (hicrî 93: 711-10-19 → 712-10). Arkeoloji/UNESCO sayfaları (403) açılamadı. 3 KM: atlas noktası = Köneürgenç harabeleri (OSM 42.326/59.153 ≈ 1,8 km)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0712-01-01",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc",
+    "ic_not": "TDV: Araplar Hârizm'i ikiye ayırdı; Kâs'ı yerli Afrigoğulları'na bıraktılar, Gürgenç'i kendilerine hükümet merkezi yaptılar. (TDV Harezm: Kuteybe 93/712; Afrigoğlu Hârizmşah Eskecemûk yerinde bırakıldı — yerli vasal.) t: Abbâsî künye başı (künye geçişi; Hârizm'e özgü devrim günü yok).",
+    "tanik": "Kâs’ı yerli hânedan Afrigoğulları’na bırakırken Gürgenç’i kendilerine hükümet merkezi yaptılar"
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0943-09-04",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "ic_not": "Abbâsî egemenliği; Gürgenç'e özgü olay yok. Abbâsî son tanığı: İbn Fadlân 309 (921-22) Gürgenç'e uğradı; Ertehuşmisen kasabası Abbâsî veziri İbnü'l-Furât'ın çiftliği (TDV Harezm). t en geç tanıktan: TDV Harezm \"Hârizmşah Abdullah b. Eşkām 332’de (943-44) tâbi olduğu Sâmânî Hükümdarı I. Nûh’a isyan etti\" (hicrî 332 ∩ 943 = 943-09-04) — \"Sâmânîler IV. (X.) yüzyılın başlarında bölgeyi kendilerine bağladılar\" (yüzyıl-ölçekli); Abbâsî son tanığı (922) ile arası 21 yıl (< 1 kuşak) ⇒ Abbâsî dönemi 943'e uzatıldı (BEYAN).",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "f": "0943-09-04",
+    "t": "0995-02-05",
+    "d": "samani",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc",
+    "ic_not": "TDV Harezm: Sâmânîler Gürgenç'i \"bizzat kendilerine tâbi ayrı bir vilâyet haline getirdiler\"; ilk vali Ebü'l-Abbas Me'mûn b. Muhammed zamanla güçlendi. t: TDV Gürgenç \"Sâmânîler’e tâbi Gürgenç valisi ... Emîr Me’mûn b. Muhammed, Kâs’ta hüküm süren Afrigoğulları’na son vererek 385’te (995) bütün Hârizm’i\" (hicrî 385 ∩ 995 = 995-02-05).",
+    "tanik": "Emîr Me’mûn b. Muhammed, Kâs’ta hüküm süren Afrigoğulları’na son vererek 385’te (995)"
+   },
+   {
+    "f": "0995-02-05",
+    "t": "1017-05-30",
+    "d": "memuni-harezm",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc",
+    "ic_not": "Me'mûnîler (995-1017) başşehir Gürgenç (TDV Harezm). KÜNYE memuni-harezm VAR ama BOYALAR'da yok (boyasız; atlas notu: s: yazılırsa harita deliği) — renk istenmeli. t: TDV \"Gazneli Mahmud, 408’de (1017) Ebü’l-Hâris Muhammed b. Ali’yi azl ve hapsedip Me’mûnîler’in ... hâkimiyetlerine son verdi\" (hicrî 408 ∩ 1017 = 1017-05-30).",
+    "tanik": "Me’mûnîler’in Hârizm’deki hâkimiyetlerine son verdi"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0712-01-01",
+    "gun": "93 H / 712",
+    "k": "fetih",
+    "b": "Araplar (Kuteybe b. Müslim) Hârizm'i fetheder; Gürgenç Arap hükümet merkezi olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc",
+    "tanik": "Müslüman Araplar Gürgenç’i Emevîler zamanında fethettiler (93/712)"
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Kûfe'de Ebü'l-Abbas'a biat).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "t": "0921-01-01",
+    "gun": "309 H / 921-22",
+    "k": "diger",
+    "b": "İbn Fadlân Buhara'dan Hârizm'e gelir; Ertehuşmisen Abbâsî veziri İbnü'l-Furât'ın çiftliği (Abbâsî tanığı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizm",
+    "tanik": "Gürgenç’ten 14 fersah uzaklıktaki Ertehuşmisen kasabası Abbâsî Veziri İbnü’l-Furât’ın çiftliği idi"
+   },
+   {
+    "t": "0943-09-04",
+    "gun": "332 H / 943-44",
+    "k": "isyan",
+    "b": "Hârizmşah Abdullah b. Eşkām tâbi olduğu Sâmânî Nûh'a isyan eder (Sâmânî üst egemenliğinin en geç tanığı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizm",
+    "tanik": "Hârizmşah Abdullah b. Eşkām 332’de (943-44) tâbi olduğu Sâmânî Hükümdarı I. Nûh’a isyan etti"
+   },
+   {
+    "t": "0995-02-05",
+    "gun": "385 H / 995",
+    "k": "fetih",
+    "b": "Gürgenç valisi Me'mûn b. Muhammed Kâs'ı alır, Afrigoğulları'na son verir; Me'mûnîler dönemi başlar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc",
+    "tanik": "Emîr Me’mûn b. Muhammed, Kâs’ta hüküm süren Afrigoğulları’na son vererek 385’te (995)"
+   },
+   {
+    "t": "1017-05-30",
+    "gun": "408 H / 1017",
+    "k": "fetih",
+    "b": "Gazneli Mahmud Hezâresb'te kazandığı savaşla Me'mûnîler'e son verir; Altuntaş el-Hâcib'i hârizmşah/vali yapar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc",
+    "tanik": "Me’mûnîler’in Hârizm’deki hâkimiyetlerine son verdi"
+   }
+  ],
+  "ic_not": "ATLAS: Köhne Ürgenç ilk sahip gazneli 1017-05-30 ✔ (hicrî 408 ∩ 1017 ilk günü; TDV). Bu kayıt atlasın \"Me'mûnîler BOYALAR'da yok\" borcunu karşılar: memuni-harezm künyesi var (0995-02-05 – 1017-05-30), boyası YOK. AÇIK: Afrigoğulları (Kâs merkezli yerli hânedan, 305-995) Gürgenç'in kendi sahibi değil — TDV Harezm'e göre Kâs merkezli hârizmşah; Gürgenç Arap/Sâmânî valiliği. TDV iç çelişkisi (bu dilimle ilgisiz, beyan): Cuci md. Gürgenç'in yakılışını 1222 verir, Gürgenç/Harezm md. 1221 (Safer 618/Nisan 1221) — atlas 1221 ✔."
  },
  {
   "id": "krakov",
@@ -3605,6 +4881,357 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Şehir kuruluşu ile atlas başlangıcı aynıdır (Murâbıt) → sahiplik zinciri yok. Tek kaynak TDV (Treccani 'Marrākesh' maddesi bu oturumda açılamadı — slug bulunamadı). Çift teyit YOK. 1062 ↔ 1067 ↔ 1070 rivayet farkı beyan edildi."
  },
  {
+  "id": "merv",
+  "ad": "Merv (Mari)",
+  "atlas_ad": "Merv (Mari)",
+  "lat": 37.5936,
+  "lon": 61.8333,
+  "kat1900": 3,
+  "adlar": [
+   "Mouru / Margu (Avesta, ülke adı)",
+   "Margiana (Grekçe, bölge)",
+   "Alexandria Margiana",
+   "Antiocheia (Antiochia) Margiana",
+   "Merveşşâhicân / Marw al-Shāhijān",
+   "Merv",
+   "Mari (1884'ten modern şehir)"
+  ],
+  "ilk": {
+   "t": "-0327-01-01",
+   "gun": "MÖ 328",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Princeton Encyclopedia of Classical Sites (Stillwell, MacDonald, McAlister ed., 1976), \"Alexandrian Foundations\" md., madde 8 \"Alexandria Margiana\" (Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=alexandrian-foundations)",
+   "tanik": "Six towns were said to have been founded in 328 in this region",
+   "ic_not": "KURULUŞ = klasik gelenekte Alexandria Margiana'nın (Büyük İskender) kuruluşu, MÖ 328 (Curtius 7.10.15; Isidoros Kharaks 14; Strabon 11.516 atfıyla); Princeton Ansiklopedisi \"oasis of Merv\" der, tam şehir yerini söylemez (\"only this one is precisely recorded\"). Harper (1898): \"Antiochia Margiana, founded by Alexander the Great and rebuilt by Antiochus I\"; Smith DGRG (1854): \"ANTIOCHEIA MARGIANA (certainly the present Merv)\". Pers dönemi öncesi yerleşim ARKEOLOJİKTİR (TDV: \"3. binyıldan beri tarım ... Persler'in inşa ettiği sedd\") ama Erk Kala/Gyaur Kala tarihleri bu oturumda AÇILAMADI (Herrmann 1997 Archaeology International DOI 10.5334/ai.0110: sayfa JS gerektirir; Iranica 403). TDV: \"ne zaman kurulduğu kesin biçimde bilinmemektedir\". ⚠ 3 KM İHLALİ: atlas noktası = MODERN MARY (1884'te Ruslar), antik Merv 30 km doğuda (OSM \"Gadymy Merw\" 37.6676, 62.1697; atlasın 0930 bulgusu: 32 km). Kural gereği zincir antik noktaya yazılmalıdır; ATLAS DÜZELTME ÖNERİSİ: yeni nokta \"Merv (antik: Gyaur/Sultan Kala)\" 37.668, 62.170 ve Mary'ye yalnız 1884 sonrası. Bu kayıt atlasın MEVCUT pratiğini (Mary noktasında Merv zinciri) izleyerek yazıldı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0327-01-01",
+    "t": "-0311-01-01",
+    "d": "iskender-imparatorlugu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "belirsiz"
+    },
+    "kaynak": "Princeton Encyclopedia of Classical Sites (Stillwell, MacDonald, McAlister ed., 1976), \"Alexandrian Foundations\" md., madde 8 \"Alexandria Margiana\" (Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=alexandrian-foundations)",
+    "ic_not": "f: ilk.t. t: Selevkos künye başı (-0311); Diadokhlar dönemi için ayrı künye yok, İskender künyesi -0322-06-10'da bitiyor ⇒ 11 yıl hayalet UYARISI. Strabon'da Margiana tarihsiz.",
+    "tanik": "Six towns were said to have been founded in 328 in this region"
+   },
+   {
+    "f": "-0311-01-01",
+    "t": "-0246-01-01",
+    "d": "selevkos",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "belirsiz"
+    },
+    "kaynak": "Strabon, Geographika 11.10.2 (Perseus, H. L. Jones çev.), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0198:book=11:chapter=10",
+    "ic_not": "Strabon: Antiochos Soter Margiana'yı surla çevirip Antiocheia kurdu (yıl yok; Harper: \"rebuilt by Antiochus I\"). Sınırlar künye sınırlarıdır (selevkos -0311, part -0246): tarihler kaynaktan DEĞİL, beyanlı yaklaşıklık. Strabon 11.9.2: Arsakes Parthia'yı ele geçirip genişledi (Merv'e özgü yok).",
+    "tanik": "enclosed a circuit of fifteen hundred stadia with a wall and founded a city Antiocheia"
+   },
+   {
+    "f": "-0246-01-01",
+    "t": "0652-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/merv",
+    "ic_not": "Şehir VAR, sahibi dönem olarak yazılamıyor: Part (-0246/0224), Sâsânî (TDV: Persler seddi; \"müstahkem bir garnizon halindeki Merv’e sığındığı\" III. Yezdicerd, Taberî IV 298; Barthold: Horasan'ın dört merzübânından biri) ve Kuşan/Eftalit/Göktürk üst egemenlikleri — Merv'e özgü TARİHLİ tanık bulunamadı (TDV Merv md. bu dönemi tarihsiz anlatır). Uzun ve kuşaklar-ötesi belirsizlik ⇒ __BOSLUK__ (kural). t: Nîşâbur'dan komşu tarih (TDV 30 veya 31 / 651-652; güvenli uç 652) — TDV Merv Arap alımına yıl vermez, gün KOMŞUDAN.",
+    "tanik": "müstahkem bir garnizon halindeki Merv’e sığındığı"
+   },
+   {
+    "f": "0652-01-01",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/merv",
+    "ic_not": "TDV: Osman'ın Basra valisi Abdullah b. Âmir; Merv merzübânı 2.200.000 dirhem haraçla anlaştı; Benî Mâhân Camii ilk cami. t: Emevî künye başı. (Ayaklanmalar Muâviye dönemine kadar sürdü; Horasan karışıklığı — süre kısa değil ama Merv'e özgü ele geçirme yok.)",
+    "tanik": "Merv’in merzübânı 2.200.000 dirhemlik bir haraç karşılığında Araplar’la anlaşma yoluna gitmişti"
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0747-01-01",
+    "d": "emevi",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/merv",
+    "ic_not": "TDV: Ziyâd b. Ebîh Merv merkezli Horasan valiliğini kurdu (45/665); Mühelleb 78/697'den üç nesil Mühellebîler. t: TDV \"Ebû Müslim-i Horasânî 129’da (747) ... şehre girdiğinde Emevîler’in son Horasan valisi Nasr b. Seyyâr ... kaçmayı tercih etti\" (hicrî 129 ∩ 747 ilk günü).",
+    "tanik": "Emevîler’in son Horasan valisi Nasr b. Seyyâr ailesiyle birlikte kaçmayı tercih etti"
+   },
+   {
+    "f": "0747-01-01",
+    "t": "0821-01-01",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/merv",
+    "ic_not": "Ebû Müslim (Abbâsî dâvet ordusu) 747'de Merv'e girdi; Abbâsî künyesi 749-11-28'de başlıyor ⇒ f için 2 yıl hayalet UYARISI (Merv fiilen Abbâsî dâvetinin elindedir; 28 Kasım 749 Kûfe biatı hukukî başlangıç). Me'mûn Merv'i başşehir seçti (808-817, TDV; Barthold: 809-818 Me'mûn Horasan'da). t: Barthold \"821 ... Tahir was sent to Khurasan as governor\"; TDV \"Me’mûn ... Horasan Tâhir b. Hüseyin’e verildi. Merv de Tâhirî hânedanının idare merkezi oldu\".",
+    "tanik": "Merv’i kendisine başşehir olarak seçen Me’mûn’un"
+   },
+   {
+    "f": "0821-01-01",
+    "t": "0873-08-01",
+    "d": "tahiri-horasan",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/merv",
+    "ic_not": "Künye 0821-05-06'da başlar (4 ay hayalet UYARISI) ve 0873-01-01'de biter (7 ay taşma UYARISI). TDV: merkez sonradan Nîşâbur'a nakledildi (Abdullah b. Tâhir 830) ama \"III. yüzyıl sonlarında Tâhirî temsilcilerin Merv’de emirlik yaptığı bilinmektedir\". t: Barthold \"873 Conquest of Khurasan by Ya‘qub\" (gün komşudan: Ya‘kūb 1 Ağustos 873'te Nîşâbur'da; Merv'e özgü gün yok).",
+    "tanik": "Tâhir b. Hüseyin’e verildi"
+   },
+   {
+    "f": "0873-08-01",
+    "t": "0900-03-18",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 464-465",
+    "ic_not": "Şehir VAR; sahip: Saffârîler (Ya‘kūb 873, Amr b. Leys 879-900) ile Tâhirî varisi Hüseyin b. Tâhir arasında el değiştirme — Barthold kronolojisi: \"874 Husayn b. Tahir in Marw ar-Rudh. 876 Defeat of Ya‘qub ... 877 Husayn b. Tahir in Merv. 879-900 ‘Amr b. Layth. 892 Confirmation of ‘Amr as viceroy of Khurasan\". Merv'e özgü hangi tarafın ne zaman tuttuğu verilmiyor ⇒ __BOSLUK__ (beyanlı; Saffârî aday). t: Belh yakınında Amr esir (Barthold: 18 Mart 900 Sallâmî; gün komşudan).",
+    "tanik": "Husayn b. Tahir in Merv"
+   },
+   {
+    "f": "0900-03-18",
+    "t": "0999-05-16",
+    "d": "samani",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/merv",
+    "ic_not": "TDV: Merv Tâhirîlerden sonra Sâmânî hâkimiyetine girdi, başşehrin Buhara'ya taşınmasıyla önemini yitirdi. t: Barthold: savaş Merv yakınında Salı 3 Cumâdelûlâ 389 (16 Mayıs 999) — Mahmud'un kesin zaferi \"all Khurasan to his rule\".",
+    "tanik": "Merv, Sâmânîler’den sonra kurulan Gazneli hâkimiyeti döneminde de"
+   },
+   {
+    "f": "0999-05-16",
+    "t": "1040-05-23",
+    "d": "gazneli",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), s. 265-268 (Bölüm IV; dipnot 3: savaş günü)",
+    "ic_not": "TDV: \"Merv, Sâmânîler’den sonra kurulan Gazneli hâkimiyeti döneminde de Horasan’ın idaresinde ... Nîşâbur’un yanında ikinci planda kaldı\". t: Dandanakan, 8 Ramazan 431 Cuma / 23 Mayıs 1040 (TDV Selçuklular; Barthold \"in May 1040\") — savaş Merv yakınındaki Dandanakan Kalesi önünde.",
+    "tanik": "The battle took place near Merv on Tuesday, 3rd Jumada 1, 389 (16th May, 999)"
+   },
+   {
+    "f": "1040-05-23",
+    "t": "1153-07-25",
+    "d": "buyuk-selcuklu",
+    "kesinlik": {
+     "f": "gun",
+     "t": "ay"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "ic_not": "Çağrı Bey Merv'de kaldı (idare merkezi, sikke), Alparslan 455/1063, Melikşah surları yeniledi; Sencer 513/1119 Sâve savaşı sonrası Büyük Selçuklu başşehri (Yeni Merv/Sultan Kal‘a). Kısa ara: Katvân'dan (5 Safer 536 / 9 Eylül 1141) sonra \"yaklaşık bir yıl\" Hârizmşah Atsız hâkimiyeti (TDV Merv; dönem açılmadı: başlangıç/bitiş tarihsiz). t: Barthold: Cumâdelûlâ 548'de (Ağustos ya da Temmuz sonu 1153) Oğuzlar Merv'i yağmaladı; hicrî 548 Cumâdelûlâ başı = 1153-07-25 (ay hassasiyeti).",
+    "tanik": "Dandanakan zaferinden sonra Çağrı Bey Merv’de kaldı"
+   },
+   {
+    "f": "1153-07-25",
+    "t": "1181-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/merv",
+    "ic_not": "Şehir VAR (yağma ve su seddi tahribi sonrası eski şaşaaya dönmedi — TDV); sahip: Oğuz (1153-56 Sencer esaretinde), Rukn ad-Din Mahmud 1157-62, Mu’ayyid Ay-Aba 1162-74 (Barthold: \"in Khurasan\"; Merv'e özgü cümle YOK), 1172 Sultan Şah/Tekiş mücadelesi. 28 yıl, kuşak sınırı ⇒ __BOSLUK__. t: Barthold \"1181-1193 Sultan-Shah in Merv, Sarakhs, and Tus\".",
+    "tanik": "Murgāb nehri üzerindeki su seddinin tahribi büyük kuraklık yaşanmasına ve halkın bölgeyi terketmesine yol açtı"
+   },
+   {
+    "f": "1181-01-01",
+    "t": "1221-01-01",
+    "d": "harizmsah",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 469",
+    "ic_not": "Sultan Şah (Tekiş'in isyancı kardeşi, Karahıtay yardımıyla Merv-Tûs emirliği; Hârizmşah hânedanı kolu — künye \"harizmsah\" Anuştegin hânedanını kapsar) 1181-1193; ölümünden (1193) sonra Melikşah b. Tekiş Merv'de; Melikşah 1197'de ölür. Gurlu araları: TDV Merv \"kısa bir süre için Gurlular’ın ve tekrar Hârizmşahlar’ın\"; EI1: Muhammed 1202'de Merv ve Nîşâbur'u Gurlulardan aldı ⇒ Gurlu hâkimiyeti 1200-1202 arası tarihsiz kısa dilim (dönem açılmadı). Çelişki: TDV Harezmşahlar 1204. t = atlas dikişi 1221-01-01: GERÇEK Moğol alımı 25 Şubat 1221 (Barthold; Cüveynî 1 Muharrem 618) — atlas 55 gün erken.",
+    "tanik": "Sultan-Shah in Merv, Sarakhs, and Tus"
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0327-01-01",
+    "gun": "MÖ 328",
+    "k": "kurulus",
+    "b": "Alexandria Margiana: Büyük İskender'in Merv vahasındaki kuruluşu (Curtius 7.10.15).",
+    "kaynak": "Princeton Encyclopedia of Classical Sites (Stillwell, MacDonald, McAlister ed., 1976), \"Alexandrian Foundations\" md., madde 8 \"Alexandria Margiana\" (Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=alexandrian-foundations)",
+    "tanik": "Six towns were said to have been founded in 328 in this region"
+   },
+   {
+    "t": "-0311-01-01",
+    "gun": "MÖ 312 civarı (künye sınırı)",
+    "k": "diger",
+    "b": "künye geçişi: İskender/Diadokhlar → Selevkos; Strabon: Antiochos Soter Margiana'da surla çevirip Antiocheia kurar (yıl yok).",
+    "kaynak": "Strabon, Geographika 11.10.2 (Perseus, H. L. Jones çev.), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0198:book=11:chapter=10",
+    "tanik": "enclosed a circuit of fifteen hundred stadia with a wall and founded a city Antiocheia"
+   },
+   {
+    "t": "-0246-01-01",
+    "gun": "MÖ 247-246 civarı (künye sınırı)",
+    "k": "kayip",
+    "b": "künye geçişi: Arsakes Parthia'yı ele geçirir (Strabon 11.9.2); Merv'e özgü Part tarihi yok.",
+    "kaynak": "Strabon, Geographika 11.9.2 (Perseus, H. L. Jones çev.), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0198:book=11:chapter=9",
+    "tanik": "invaded Parthia and conquered it"
+   },
+   {
+    "t": "0652-01-01",
+    "gun": "30-31 H / 651-652 (Nîşâbur komşusu)",
+    "k": "fetih",
+    "b": "Basra valisi Abdullah b. Âmir Merv merzübânından haraç alır; Merv Arap hâkimiyetine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/merv",
+    "tanik": "Merv’in merzübânı 2.200.000 dirhemlik bir haraç karşılığında Araplar’la anlaşma yoluna gitmişti"
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "41 H / 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye \"birlik yılı\"nda ülkenin tamamını hâkimiyeti altında toplar; Merv'e özgü fetih günü yok).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/emeviler",
+    "tanik": "“birlik yılı” (âmü’l-cemâa) adı verilen 41 (661) yılında ülkenin tamamını hâkimiyeti altında topladı"
+   },
+   {
+    "t": "0747-01-01",
+    "gun": "129 H / 747",
+    "k": "diger",
+    "b": "Ebû Müslim Merv'e girer; Emevî Horasan valisi Nasr b. Seyyâr kaçar (Abbâsî dâvet ordusu).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/merv",
+    "tanik": "Emevîler’in son Horasan valisi Nasr b. Seyyâr ailesiyle birlikte kaçmayı tercih etti"
+   },
+   {
+    "t": "0808-01-01",
+    "gun": "808-817",
+    "k": "diger",
+    "b": "Me'mûn Merv'i başşehir seçer; Müşkân kapısı yakınında saray ve garnizon (Abbâsî dönemi, sahip değişmez).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/merv",
+    "tanik": "Merv’i kendisine başşehir olarak seçen Me’mûn’un"
+   },
+   {
+    "t": "0821-01-01",
+    "gun": "821",
+    "k": "diger",
+    "b": "Tâhir b. Hüseyin Horasan valisi; Merv Tâhirî idare merkezi.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, s. ~208-209",
+    "tanik": "in 821 Tahir was sent to Khurasan as governor"
+   },
+   {
+    "t": "0873-08-01",
+    "gun": "873",
+    "k": "fetih",
+    "b": "Ya‘kūb b. Leys Horasan'ı ele geçirir (Tâhirîlerin sonu; gün Nîşâbur komşusu).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 465",
+    "tanik": "Conquest of Khurasan by Ya‘qub"
+   },
+   {
+    "t": "0877-01-01",
+    "gun": "877",
+    "k": "diger",
+    "b": "Hüseyin b. Tâhir Merv'de (Tâhirî varisi; kısa dönem, Barthold kronolojisi).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 465",
+    "tanik": "Husayn b. Tahir in Merv"
+   },
+   {
+    "t": "0900-03-18",
+    "gun": "18 Mart 900 (komşudan, Belh savaşı)",
+    "k": "fetih",
+    "b": "Amr b. Leys Belh yakınında Sâmânî İsmâil'e esir düşer; Horasan (Merv dahil) Sâmânîlere geçer (901 onay).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, s. ~226 (dipnot 3)",
+    "tanik": "‘Amr was taken prisoner and after some time sent to Baghdad"
+   },
+   {
+    "t": "0999-05-16",
+    "gun": "3 Cumâdelûlâ 389 / 16 Mayıs 999",
+    "k": "fetih",
+    "b": "Merv yakınında Mahmud'un kesin zaferi: Horasan Gazneli hâkimiyetine geçer.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), s. 265-268 (Bölüm IV; dipnot 3)",
+    "tanik": "The battle took place near Merv on Tuesday, 3rd Jumada 1, 389 (16th May, 999)"
+   },
+   {
+    "t": "1040-05-23",
+    "gun": "8 Ramazan 431 / 23 Mayıs 1040",
+    "k": "fetih",
+    "b": "Dandanakan (Merv yakını): Selçuklular Gaznelileri yener; Çağrı Bey Merv'de kalır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Dandanakan zaferinden sonra Çağrı Bey Merv’de kaldı"
+   },
+   {
+    "t": "1119-04-14",
+    "gun": "513 H / 1119",
+    "k": "diger",
+    "b": "Sencer Sâve savaşı sonrası Selçuklu hâkimiyetini ele geçirir; Merv Büyük Selçuklu başşehri olur (sahip değişmez).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/merv",
+    "tanik": "Büyük Selçuklu İmparatorluğu’nun başşehri oldu"
+   },
+   {
+    "t": "1141-09-09",
+    "gun": "5 Safer 536 / 9 Eylül 1141",
+    "k": "kayip",
+    "b": "Katvân yenilgisinden sonra Merv yaklaşık bir yıl Hârizmşah Atsız hâkimiyetine girer (kısa; dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/merv",
+    "tanik": "Merv bu sırada Hârizmşah Atsız’ın hâkimiyetine girdi"
+   },
+   {
+    "t": "1153-07-25",
+    "gun": "Cumâdelûlâ 548 / Ağustos-Temmuz sonu 1153",
+    "k": "kayip",
+    "b": "Oğuzlar Merv'i yağmalar, ardından Sencer'i esir alır.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, dipnot (Oğuz isyanı kronolojisi)",
+    "tanik": "Merv was plundered by the Ghuzz"
+   },
+   {
+    "t": "1181-01-01",
+    "gun": "1181",
+    "k": "diger",
+    "b": "Sultan Şah Merv, Serahs ve Tûs'ta emirlik kurar (1181-1193).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 469",
+    "tanik": "Sultan-Shah in Merv, Sarakhs, and Tus"
+   },
+   {
+    "t": "1193-01-01",
+    "gun": "1193",
+    "k": "diger",
+    "b": "Sultan Şah ölür; Tekiş'in oğlu Melikşah Merv'de.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 469",
+    "tanik": "Death of Sultan-Shah; Malik-Shah in Merv"
+   },
+   {
+    "t": "1202-01-01",
+    "gun": "1202",
+    "k": "fetih",
+    "b": "Muhammed b. Tekiş Merv ve Nîşâbur'u Gurlu Gıyâseddin ve Şihâbeddin'den alır (EI1; TDV Harezmşahlar 1204, Barthold 1203: çelişki).",
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt III, \"NISHAPUR\" md. (E. Honigmann), s. 928-929",
+    "tanik": "took Marw and Nishapur in 1202 from Ghiyath al-Dln and his brother Shihab al-Dln"
+   },
+   {
+    "t": "1221-02-25",
+    "gun": "1 Muharrem 618 / 25 Şubat 1221",
+    "k": "fetih",
+    "b": "Tuluy Merv'i alır; 400 sanatkâr dışında halk kılıçtan geçirilir.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm \"Chingiz-Khan and the Mongols\", s. 447-448",
+    "tanik": "Merv was taken on February 25, 1221"
+   }
+  ],
+  "dikis_beyan": "Atlas Merv (Mari) f=1221-01-01 mogol-imparatorlugu (TDV: 1221, yıl düzeyi). Aranan: gün düzeyinde kaynak — BULUNDU: Merv 25 Şubat 1221 alındı (Barthold; Cüveynî i,125 \"1 Muharrem 618\", tablo takvimi 25 Şubat 1221 Jülyen ile birebir). Atlas başlangıcı 55 gün erken; zincir 1221-01-01'e hizalandı, gerçek geçiş olay[1221-02-25] ile kayıtlı. ATLAS DÜZELTME ÖNERİSİ: f 1221-01-01 → 1221-02-25 (ve harizmsah t aynı).",
+  "ic_not": "AÇIK BORÇLAR: (1) Pers/Part/Sâsânî dilimi -0246..652 BOŞLUK (Merv tarihli tanık yok; Behistun \"Margu\" ülke adı). (2) Gurlu 1200-1202 arası tarihsiz. (3) 3 KM sorunu (antik Merv 30 km): ilk.ic_not'ta. (4) ÇELİŞKİLER: Moğol alımı TDV 1221 / Barthold 25 Şubat 1221 (çift teyit gün: TDV Nîşâbur 10 Nisan 1221, Barthold 10 Nisan Cumartesi); Merv'in 1223 \"son yıkımı\" (Barthold kronolojisi: 1222 Kushtagin Merv'de, 1223 Moğollar yıkar) — atlas dışı."
+ },
+ {
   "id": "miknas",
   "ad": "Miknâs (Meknes)",
   "atlas_ad": "Miknâs (Meknes)",
@@ -4080,6 +5707,371 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK (şehir 1784'te kuruluyor; atlasın ilk günü 1784-01-01 'rusya', kur 1784 ile uyumlu). 1784 öncesi bölge sahipliği (Hacıbey/Özü Eyaleti Osmanlı, Kırım/Nogay) bu şehir için gerekmez; kuruluş yılı ikincil kaynaklarla 1788-89 arasında çelişir (bkz. ilk.ic_not) — atlasın 1784 başlangıcı ESBE'ye dayanır, Vikipedi/yerel kaynak 1788-89 diyor; ikinci akademik teyit gerekir. kat1900 değeri LISTE.tsv'de bulunmadı (3 tahmin)."
+ },
+ {
+  "id": "nisabur",
+  "ad": "Nîşâbur",
+  "atlas_ad": "Nîşâbur",
+  "lat": 36.2133,
+  "lon": 58.7958,
+  "kat1900": 3,
+  "adlar": [
+   "Nev-Şâpûr / Nīw-Šāpuhr (Pehlevîce, \"güzel Şâpûr\")",
+   "Niu-Şapuh (Ermenice)",
+   "Ebreşehr / Îranşehr (unvan)",
+   "Neysâbûr / Nîsâbur (Arapça)",
+   "Nîşâbur"
+  ],
+  "ilk": {
+   "t": "0457-01-01",
+   "gun": "438-457",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt III, \"NISHAPUR\" md. (E. Honigmann), s. 928-929 (Honigmann)",
+   "tanik": "Yazdadjird II (438-57) made Nlshapur his usual residence",
+   "ic_not": "İLK ANILIŞ = alt sınır, güvenli uç (aralığın SON ucu 457; \"(438-57)\" II. Yezdicerd'in saltanat aralığı). KURULUŞ yazılı tanıkla çıkarılamıyor — GELENEK: TDV \"kuruluşu I. Şâpûr’a (241-272) veya II. Şâpûr’a (309-379) dayandırılmaktadır (Taberî, II, 58; Yâkūt, V, 331)\"; EI1: Şâpûr I (Hamza el-İsfahânî; Şehristanhâ-yı Îrân §13) ya da II. Şâpûr (Taberî i. 840; Sa‘âlibî) — hepsi gelenek, tarihli tanık değil ⇒ kur YAZILMADI. Âteşkede Burzin-Mihr (TDV: Sâsânîlerin en önemli dinî merkezlerinden). Arkeoloji (Metropolitan Museum kazıları) bu oturumda açılamadı. ÇELİŞKİ yok (iki kaynak da gelenek). 3 KM: EI1 \"After each earthquake the inhabitants had rebuilt the town on a new site\"; TDV: 1405 depreminden sonra \"bugünkü yerinde yeniden kuruldu\" — Ortaçağ Nîşâbur'u (Şâdyâh) ile atlas noktasının mesafesi ÖLÇÜLEMEDİ."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0457-01-01",
+    "t": "0652-01-01",
+    "d": "sasani",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "ic_not": "f: ilk.t. Sâsânî dönemi boyunca Nîşâbur Abarşehr eyaletinin başkentidir (EI1, Marquart: Eranshahr). t: TDV \"Kanâreng’in teslim olmasıyla 30 veya 31 (651-652) yılında Basra Valisi Abdullah b. Âmir’in eline geçti\" — iki yıllı aralıkta güvenli uç 652 (hicrî 31 ∩ 652 = 652-01-01). Haraç 700.000 dirhem; âteşkede yıkılıp yerine cami yapıldı (TDV).",
+    "tanik": "Kanâreng’in teslim olmasıyla 30 veya 31 (651-652) yılında Basra Valisi Abdullah b. Âmir’in eline geçti"
+   },
+   {
+    "f": "0652-01-01",
+    "t": "0657-01-01",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "ic_not": "Hulefâ-yi Râşidîn (Osman döneminde Basra valisi Abdullah b. Âmir). t: TDV \"Hz. Ali-Muâviye mücadelesi sırasındaki bir isyanla şehir kontrolden çıktı\"; EI1 36-37 = 656-657 (güvenli uç = 657).",
+    "tanik": "Hz. Ali-Muâviye mücadelesi sırasındaki bir isyanla şehir kontrolden çıktıysa da"
+   },
+   {
+    "f": "0657-01-01",
+    "t": "0662-04-26",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "ic_not": "Şehir VAR, isyancı Horasan/Tohâristan (EI1: \"a rising in Khurasan and Tukharistan\"): sahibi künyelenemiyor ⇒ __BOSLUK__ (Ali'nin Huleyd b. Kays'ı gönderişi 37 H, EI1; sonuç yok). t: TDV \"Muâviye zamanında 42 (662) yılında yine Basra Valisi Abdullah b. Âmir tarafından itaat altına alındı\" (hicrî 42 ∩ 662 = 662-04-26).",
+    "tanik": "Hz. Ali-Muâviye mücadelesi sırasındaki bir isyanla şehir kontrolden çıktıysa da"
+   },
+   {
+    "f": "0662-04-26",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "ic_not": "TDV: \"Emevîler devrinde ve Abbâsî hâkimiyetinin başlarında Merv’in gerisinde kalan Nîşâbur\". 683'te Abdullah b. Hâzim Emevîlere isyan, 692'de Merv'de düşer (EI1; Emevî hâkimiyeti yeniden). t: Abbâsî künye başı = künye geçişi (Barthold: 747 Ebû Müslim Horasan'da, 748-755 Ebû Müslim valiliği; Nîşâbur'a özgü tarih yok).",
+    "tanik": "Emevîler devrinde ve Abbâsî hâkimiyetinin başlarında Merv’in gerisinde kalan Nîşâbur"
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0821-01-01",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "ic_not": "t: Barthold \"821 ... Tahir was sent to Khurasan as governor\". (Barthold: Nîşâbur'da Zerdüşt reformcusu Bih-Afarîd hareketi Ebû Müslim'in yardımıyla bastırıldı; sahip değişmedi.)",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "f": "0821-01-01",
+    "t": "0873-08-01",
+    "d": "tahiri-horasan",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "ic_not": "TDV: \"Tâhirîler’den Abdullah b. Tâhir’in (830-844) idare merkezini Merv’den buraya taşımasıyla\" gelişme başladı; EI1: \"prosperity ... from the time when Abu’l-Abbas Abdallah b. Tahir made it his capital\". Künye 0821-05-06'da başlıyor (f yıl düzeyinde ⇒ 4 ay hayalet UYARISI) ve 0873-01-01'de bitiyor (t 873-08-01 ⇒ 7 ay taşma UYARISI: Tâhirî Muhammed b. Tâhir Nîşâbur'da 2 Şevval 259'a kadar). t: Ya‘kūb b. Leys 2 Şevval 259 (1 Ağustos 873; EI1 gün) = TDV \"259 (873)\".",
+    "tanik": "Tâhirîler’den Abdullah b. Tâhir’in (830-844) idare merkezini Merv’den buraya taşımasıyla başladı"
+   },
+   {
+    "f": "0873-08-01",
+    "t": "0900-03-18",
+    "d": "saffari",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt III, \"NISHAPUR\" md. (E. Honigmann), s. 928-929",
+    "ic_not": "Saffârîler: Ya‘kūb (873-879), Amr b. Leys; 882'de Râfi‘ b. Harsame Nîşâbur'u Amr'dan alır, 885'te Muhammed b. Tâhir yeniden vali (EI1), 892'de Amr kesin vali (kısa ara; dönem açılmadı). t: Amr b. Leys Belh yakınında İsmâil b. Ahmed'e yenilip esir olur (Barthold: Sallâmî'ye göre 18 Mart 900); EI1 \"899-901 ... The town thus passed to the Samanids\" (Nîşâbur'a özgü gün yok, gün komşudan: Belh savaşı; Barthold kronolojisi: 901 İsmâil'in Horasan valiliğinin onayı).",
+    "tanik": "entered Nlshapur on the 2nd Shawwal 259 (Aug. 1, 873)"
+   },
+   {
+    "f": "0900-03-18",
+    "t": "0999-05-16",
+    "d": "samani",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt III, \"NISHAPUR\" md. (E. Honigmann), s. 928-929",
+    "ic_not": "EI1: Sâmânîler altında Nîşâbur \"greatest prosperity\"; sipahsâlâr (Horasan komutanı) ikametgâhı. t: Barthold: Mahmud 16 Mayıs 999 Merv yakınında kesin zafer, \"all Khurasan to his rule\" (Mahmud Mayıs 999 uzlaşmasında Nîşâbur'u Begtuzun'a bırakmıştı ⇒ Begtuzun/Sâmânî hâkimiyeti 999 baharına dek).",
+    "tanik": "The town thus passed to the Samanids, under whom it attained its greatest prosperity"
+   },
+   {
+    "f": "0999-05-16",
+    "t": "1038-06-20",
+    "d": "gazneli",
+    "kesinlik": {
+     "f": "gun",
+     "t": "belirsiz"
+    },
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), s. ~266-267 (Bölüm IV)",
+    "ic_not": "TDV: \"Gazneliler zamanında da Horasan’ın her hususta merkezi olma özelliğini koruyan Nîşâbur\". t: TDV \"429 (1038) yılı ilkbaharında Tuğrul Bey’in eline geçti\" — mevsim verilmiş, gün yok ⇒ ilkbaharın son günü (güvenli uç 1038-06-20).",
+    "tanik": "Mahmud succeeded in gaining a brilliant victory which delivered all Khurasan to his rule"
+   },
+   {
+    "f": "1038-06-20",
+    "t": "1040-01-16",
+    "d": "buyuk-selcuklu",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "ic_not": "TDV: 1038 ilkbaharı Tuğrul Bey; ertesi yıl Sultan Mesud geçici barış yaptı (Nesâ, Bâverd, Ferâve Selçuklu'da; Nîşâbur, Serahs, Merv Gazneli'de kalacak) ve 27 Rebîülâhir 431'de (16 Ocak 1040) Nîşâbur'a girdi. Gün: 16 Ocak 1040 (TDV, kendi çevirisi).",
+    "tanik": "429 (1038) yılı ilkbaharında Tuğrul Bey’in eline geçti"
+   },
+   {
+    "f": "1040-01-16",
+    "t": "1040-05-23",
+    "d": "gazneli",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "ic_not": "Mesud kışı Nîşâbur'da geçirdi; ilkbaharda Selçuklulara yürüdü. t: Dandanakan, 8 Ramazan 431 Cuma / 23 Mayıs 1040 (TDV Selçuklular); Barthold \"in May 1040\".",
+    "tanik": "27 Rebîülâhir 431’de (16 Ocak 1040) Nîşâbur’a girerek kışı orada geçirdi"
+   },
+   {
+    "f": "1040-05-23",
+    "t": "1157-01-01",
+    "d": "buyuk-selcuklu",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "ic_not": "Nîşâbur Tuğrul Bey'in idare merkezi; ilk Selçuklu sikkesi burada basıldı (TDV). Sencer 513/1119'da başkenti Merv'e taşıyınca önem kaybetti. Kısa aralar (dönem açılmadı): Arslan Argun isyanı 490/1097; Hârizmşah Atsız Şevval 536 / Mayıs 1142 (Barthold: 1142 Sencer hâkimiyeti yeniden kuruldu); Oğuzlar Sencer'i 548/1153'te tutsak alınca yağma. t: Sencer ölümü 1157 = Büyük Selçuklu künye sonu.",
+    "tanik": "Tuğrul Bey bir tahta oturdu ve Horasan emîri olarak selâmlandı"
+   },
+   {
+    "f": "1157-01-01",
+    "t": "1162-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 469",
+    "ic_not": "Şehir VAR; sahip: Barthold kronolojisi \"1157-1162 Rukn ad-Dln Mahmud in Khurasan\" (Sencer'in yeğeni Karahanlı Mahmud Han, Oğuz vasalı; Nîşâbur'a özgü cümle YOK). TDV: Oğuz yağması sonrası Nîşâbur 557 (1162)'de \"büyük ölçüde terkedildi\". Künyesiz kimlik ve şehre özgü tanık yok ⇒ __BOSLUK__.",
+    "tanik": "Rukn ad-Dln Mahmud in Khurasan"
+   },
+   {
+    "f": "1162-01-01",
+    "t": "1187-01-01",
+    "d": "muayyid-ayaba",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id \"muayyid-ayaba\" (Müeyyed Ay-aba ve halefleri Doğan/Tuğan Şah, Sencer Şah emirliği, Nîşâbur merkezli, Irak Selçuklu sultanından 1163 diplomalı; ömür 1162-1187). Tarihler Barthold kronolojisi: 1162-1174 Mu’ayyid, 1174-1185 Tughan-Shah, 1185-1187 Sinjar-Shah in Nlshapur; t: 1187 Takash fethi.",
+    "tanik": "Müeyyed Ay-aba ile halefleri Doğan Şah ve Sencer Şah, Nîşâbur’da hüküm sürdüler"
+   },
+   {
+    "f": "1187-01-01",
+    "t": "1202-01-01",
+    "d": "harizmsah",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 468-469",
+    "ic_not": "Harezmşah Tekiş'in 1187 fethi, oğlu Melikşah (1187), Kutbüddin Muhammed (1193) Nîşâbur'da; Tekiş ölümü 1200. Gurlu araları: TDV \"Hârizmşahlar’la Gurlular arasında birkaç defa el değiştiren şehir\"; EI1: Muhammed 1202'de Merv ve Nîşâbur'u Gıyâseddin ve Şihâbeddin'den aldı ⇒ Gurlu hâkimiyeti 1200-1202 arası (kısa/tarihsiz; dönem açılmadı). ÇELİŞKİ: TDV Harezmşahlar \"Alâeddin Nîşâbur, Merv ve Serahs’ı zaptetti (1204)\" (TDV kendi içinde: Nîşâbur md. 598/1202); Barthold 1203 ve 1208. TDV Nîşâbur md. ve EI1 (1202) esas; atlas 1202-01-01 ile aynı sahip ⇒ dikiş yok.",
+    "tanik": "Conquest of Nlshapur by Takash"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0457-01-01",
+    "gun": "438-457",
+    "k": "diger",
+    "b": "II. Yezdicerd Nîşâbur'u olağan ikametgâhı yapar (ilk güvenli anılış).",
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt III, \"NISHAPUR\" md. (E. Honigmann), s. 928-929",
+    "tanik": "Yazdadjird II (438-57) made Nlshapur his usual residence"
+   },
+   {
+    "t": "0652-01-01",
+    "gun": "30-31 H / 651-652",
+    "k": "fetih",
+    "b": "Basra valisi Abdullah b. Âmir Nîşâbur'u alır; vali Kanâreng teslim olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "tanik": "Kanâreng’in teslim olmasıyla 30 veya 31 (651-652) yılında Basra Valisi Abdullah b. Âmir’in eline geçti"
+   },
+   {
+    "t": "0657-01-01",
+    "gun": "36-37 H / 656-657",
+    "k": "isyan",
+    "b": "Ali-Muâviye mücadelesinde Horasan isyanıyla şehir Arap kontrolünden çıkar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "tanik": "Hz. Ali-Muâviye mücadelesi sırasındaki bir isyanla şehir kontrolden çıktıysa da"
+   },
+   {
+    "t": "0662-04-26",
+    "gun": "42 H / 662",
+    "k": "fetih",
+    "b": "Abdullah b. Âmir Muâviye adına şehri yeniden itaat altına alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "tanik": "Muâviye zamanında 42 (662) yılında yine Basra Valisi Abdullah b. Âmir tarafından itaat altına alındı"
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "t": "0821-01-01",
+    "gun": "821",
+    "k": "diger",
+    "b": "Tâhir b. Hüseyin Horasan valisi; Tâhirî vali sülâlesinin başlangıcı.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, s. ~208-209",
+    "tanik": "in 821 Tahir was sent to Khurasan as governor"
+   },
+   {
+    "t": "0830-01-01",
+    "gun": "830",
+    "k": "diger",
+    "b": "Abdullah b. Tâhir Tâhirî idare merkezini Merv'den Nîşâbur'a taşır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "tanik": "Tâhirîler’den Abdullah b. Tâhir’in (830-844) idare merkezini Merv’den buraya taşımasıyla başladı"
+   },
+   {
+    "t": "0873-08-01",
+    "gun": "2 Şevval 259 / 1 Ağustos 873",
+    "k": "fetih",
+    "b": "Ya‘kūb b. Leys Nîşâbur'a girer, Muhammed b. Tâhir'i tutsak eder.",
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt III, \"NISHAPUR\" md. (E. Honigmann), s. 928-929",
+    "tanik": "entered Nlshapur on the 2nd Shawwal 259 (Aug. 1, 873)"
+   },
+   {
+    "t": "0873-08-01",
+    "gun": "259 H / 873",
+    "k": "fetih",
+    "b": "TDV: şehir Saffârî Emîri Ya‘kūb b. Leys'in eline geçer (çift teyit).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "tanik": "Şehir 259 (873) yılında Saffârî Emîri Ya‘kūb b. Leys’in eline geçti"
+   },
+   {
+    "t": "0900-03-18",
+    "gun": "18 Mart 900 (komşudan, Belh savaşı)",
+    "k": "fetih",
+    "b": "Amr b. Leys İsmâil b. Ahmed'e esir düşer; Nîşâbur Sâmânîlere geçer (899-901).",
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt III, \"NISHAPUR\" md. (E. Honigmann), s. 928-929",
+    "tanik": "The town thus passed to the Samanids, under whom it attained its greatest prosperity"
+   },
+   {
+    "t": "0999-05-16",
+    "gun": "3 Cumâdelûlâ 389 / 16 Mayıs 999",
+    "k": "fetih",
+    "b": "Merv yakınında Mahmud'un kesin zaferi: bütün Horasan (Nîşâbur dahil) Gazneli hâkimiyetine geçer.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, s. ~266-267 (savaş günü: dipnot, s. 265)",
+    "tanik": "Mahmud succeeded in gaining a brilliant victory which delivered all Khurasan to his rule"
+   },
+   {
+    "t": "1038-06-20",
+    "gun": "429 H / 1038 ilkbahar",
+    "k": "fetih",
+    "b": "Serahs zaferinin ardından Nîşâbur Tuğrul Bey'in eline geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "tanik": "429 (1038) yılı ilkbaharında Tuğrul Bey’in eline geçti"
+   },
+   {
+    "t": "1040-01-16",
+    "gun": "27 Rebîülâhir 431 / 16 Ocak 1040",
+    "k": "fetih",
+    "b": "Sultan Mesud Nîşâbur'a girip kışı orada geçirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "tanik": "27 Rebîülâhir 431’de (16 Ocak 1040) Nîşâbur’a girerek kışı orada geçirdi"
+   },
+   {
+    "t": "1040-05-23",
+    "gun": "8 Ramazan 431 / 23 Mayıs 1040",
+    "k": "fetih",
+    "b": "Dandanakan: Selçuklular kesin zafer; Nîşâbur Selçuklu'ya geçer, Tuğrul Bey idare merkezi yapar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Tuğrul Bey bir tahta oturdu ve Horasan emîri olarak selâmlandı"
+   },
+   {
+    "t": "1142-05-01",
+    "gun": "Şevval 536 / Mayıs 1142",
+    "k": "fetih",
+    "b": "Hârizmşah Atsız Nîşâbur'u alır; aynı yıl Sencer hâkimiyeti yeniden kurulur (kısa; dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "tanik": "Hârizmşah Atsız b. Muhammed’in eline geçen şehir (Şevval 536 / Mayıs 1142)"
+   },
+   {
+    "t": "1157-01-01",
+    "gun": "1157",
+    "k": "diger",
+    "b": "Sultan Sencer ölür (Büyük Selçuklu künye sonu).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 469",
+    "tanik": "Death of Sultan Sinjar"
+   },
+   {
+    "t": "1162-01-01",
+    "gun": "1162",
+    "k": "diger",
+    "b": "Mu’ayyid ad-Dawla Ay-Aba Horasan'da (Nîşâbur) emirlik kurar; aynı yıl Nîşâbur \"büyük ölçüde terkedildi\" (TDV).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 469",
+    "tanik": "Mu’ayyid ad-Dawla Ay-Aba in Khurasan"
+   },
+   {
+    "t": "1187-01-01",
+    "gun": "1187",
+    "k": "fetih",
+    "b": "Harezmşah Tekiş Nîşâbur'u fetheder; oğlu Melikşah Nîşâbur'da.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 469",
+    "tanik": "Conquest of Nlshapur by Takash"
+   },
+   {
+    "t": "1202-01-01",
+    "gun": "598 H / 1202",
+    "k": "fetih",
+    "b": "Alâeddin Muhammed b. Tekiş Nîşâbur'u kesin olarak Harezmşah topraklarına katar (TDV 1202; EI1 1202; Barthold 1203).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/nisabur--iran",
+    "tanik": "Sultan Alâeddin Muhammed b. Tekiş tarafından kesin olarak Hârizmşah topraklarına katıldı"
+   }
+  ],
+  "ic_not": "ATLAS: Nîşâbur f=1202-01-01 harizmsah ✔ (TDV Nîşâbur 598/1202 + EI1 1202). Atlas dışı: 1221 Moğol: 10 Nisan 1221 Cumartesi (TDV 15 Safer 618; Barthold \"Saturday, April 10\" çift teyit). AÇIK BORÇLAR: kuruluş efsanesi (Şâpûr I/II) tarihli tanıksız; Sâsânî öncesi/erken dönem; Abbâsî dilimi içi (Ebû Müslim isyanları); Gurlu araları 1200-1202; \"muayyid-ayaba\" künyesi açılmalı (Müeyyed Ay-aba emirliği 1162-1187). Iranica 403 (Cloudflare). 3 km sınırı: ölçülemedi."
  },
  {
   "id": "nitra",
@@ -5334,6 +7326,416 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "KAYNAK: Iranica \"ŠAKKI\" (curl) + TDV Şeki/İlhanlılar/Muâviye/Emeviler. ÇİFT TEYİT yok. Zincirin 850-1100 dönemi künyesizdir (\"sakki-meliklik\" önerisi). ATLAS ÖNERİSİ: atlas Şeki'yi 1281'den başlatıyor; 655'e kadar uzayan zincir kaynaklı. Atlas noktası ile TDV'deki eski Şeki konumu farklı olabilir. kat1900=3 TAHMİNİ (1900 listesinde Nuha uyezd merkezi olarak yoktur; kontrol önerilir)."
  },
  {
+  "id": "semerkant",
+  "ad": "Semerkant",
+  "atlas_ad": "Semerkant",
+  "lat": 39.6542,
+  "lon": 66.9758,
+  "kat1900": 2,
+  "adlar": [
+   "Marakanda (Maracanda)",
+   "Efrâsiyâb (kalıntı alanının adı)",
+   "K’ang / Hsi-wan-chin (Çin kaynakları)",
+   "Semerkant"
+  ],
+  "ilk": {
+   "t": "-0534-01-01",
+   "gun": "MÖ 535",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant (Semerkant, tarih bölümü; arkeolojik kazı bulgularına dayanan kuruluş hükmü)",
+   "tanik": "milâttan önce 535 yılında Pers Hükümdarı Büyük Cyrus tarafından ileri bir karakol olarak kurulduğu",
+   "ic_not": "TDV kuruluşu \"XX. yüzyılda bölgede yapılan arkeolojik kazılardaki bulgularla ... birlikte değerlendirilmesinden\" çıkarır (kuruluş = TDV hükmü, güvenli uç = MÖ 535). ÇELİŞKİ: Pleiades (Marakanda) \"ca. 700 BC by the Sogdians\" kuruluş der (bkz. ark); TDV-dış kaynak çelişkisinde TDV esas (CLAUDE.md). Efrâsiyâb efsanesi (Alp Er Tonga, ~MÖ 7. yy) TDV'ye göre şehri değil bölgeyi egemenlik altına alma olarak okunmalıdır. Antik yer = Efrâsiyâb höyüğü, modern merkeze ~1,6 km (3 km eşiği altında; OSM Afrasiab Ruins 39.665/66.992)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-0699-01-01",
+   "gun": "MÖ 700",
+   "kesinlik": "belirsiz",
+   "kaynak": "Pleiades, Marakanda, https://pleiades.stoa.org/places/59915 (özet metni; ikincil dayanak — TDV ile çelişir)",
+   "tanik": "major ancient settlement founded ca. 700 BC by the Sogdians"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0534-01-01",
+    "t": "-0328-01-01",
+    "d": "ahamenis",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "ic_not": "f: ilk.t (kuruluş, TDV: Pers karakolu). t: TDV \"Milâttan önce 329 yılında Semerkant’ı Persler’den alan Büyük İskender\" (MÖ 329 = -0328). Künye Ahamenî -0329'da bitiyor (Darius III ölümü, MÖ 330); 1 yıl taşma = hayalet UYARISI, künye GENİŞLET/ardıl önerisi (Bessos dönemi).",
+    "tanik": "Milâttan önce 329 yılında Semerkant’ı Persler’den alan Büyük İskender"
+   },
+   {
+    "f": "-0328-01-01",
+    "t": "-0311-01-01",
+    "d": "iskender-imparatorlugu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "ic_not": "t: TDV \"Soğd-Baktria satraplığına bağlanan şehir kumandanlar arasında yapılan savaşlar sırasında Seleucos’un eline geçti (yaklaşık m.ö. 312)\" (MÖ 312 = -0311). Diadokhlar dönemi (İskender ölümü -0322'den sonra) ayrı künye açılmadığı için İskender künyesine yazıldı; künye -0322-06-10'da bitiyor ⇒ 11 yıl hayalet UYARISI (künye GENİŞLET/Diadokhlar künyesi önerisi).",
+    "tanik": "savaşlar sırasında Seleucos’un (Selevkos) eline geçti (yaklaşık m.ö. 312)"
+   },
+   {
+    "f": "-0311-01-01",
+    "t": "-0188-01-01",
+    "d": "selevkos",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "ic_not": "f: yaklaşık MÖ 312 (TDV, \"yaklaşık\"). t: TDV \"milâttan önce 189 yılında Grek-Baktria Krallığı’nın hükmü altına girdi\" (MÖ 189 = -0188).",
+    "tanik": "Semerkant milâttan önce 189 yılında Grek-Baktria Krallığı’nın hükmü altına girdi"
+   },
+   {
+    "f": "-0188-01-01",
+    "t": "-0129-01-01",
+    "d": "greko-baktria",
+    "kesinlik": {
+     "f": "yil",
+     "t": "belirsiz"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "ic_not": "t: Grek-Baktria künye sonu (-0129). TDV bitiş günü vermez (\"Ardından ... Yüe-çi\"); künye sınırı kullanıldı, tarih kaynaktan DEĞİL.",
+    "tanik": "Grekler şehirde küçük bir idareci sınıf olarak kaldı"
+   },
+   {
+    "f": "-0129-01-01",
+    "t": "0000-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "yuzyil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "ic_not": "Sahip BİLİNİYOR ama dönem sınırları tarihsiz: TDV \"Ardından Semerkant önce Yüe-çi Türkleri’nin, milâttan önce I. asırda K’ang-chü Türkleri’nin eline geçti\". Yüe-çi'nin başlangıcı ve Kang-chü'ye geçiş günü yok; ara dönem > 1 kuşak ⇒ __BOSLUK__ (kural: uzun belirsizlikte boşluk). Yüe-çi künyesi yok. t = \"MÖ I. asır\" güvenli ucu (MÖ 1 = 0000).",
+    "tanik": "önce Yüe-çi Türkleri’nin, milâttan önce I. asırda K’ang-chü Türkleri’nin eline geçti"
+   },
+   {
+    "f": "0000-01-01",
+    "t": "0050-01-01",
+    "d": "kangju",
+    "kesinlik": {
+     "f": "yuzyil",
+     "t": "belirsiz"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id \"kangju\" (K’ang-chü / Kangju Devleti, başşehir Semerkant; ömür ~MÖ 1. yy – MS 3. yy sonu, kaynak TDV). f: \"milâttan önce I. asırda\" güvenli uç. t: Kuşan künye başı (0050) — TDV \"I. yüzyılın ilk yarısında önce Hsiungnular’ın, ardından Kuşanlar’ın hâkimiyeti\" (Hsiung-nu aşaması tarihsiz, dönem AÇILMADI; künye sınırı kullanıldı).",
+    "tanik": "K’ang-chüler savaşlarda tahrip olan şehri yeniden imar ettiler"
+   },
+   {
+    "f": "0050-01-01",
+    "t": "0300-01-01",
+    "d": "kusan",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "yuzyil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "ic_not": "t: TDV \"Milâttan sonra III. yüzyılın ikinci yarısında tekrar bağımsızlıklarını kazandılar\" — güvenli uç 3. yy sonu (0300). f: Kuşan künye başı (tarihsiz, TDV \"I. yüzyılın ilk yarısında\"). Kuşan ağırlığı Semerkant'ta ne kadar derin: TDV \"hâkimiyeti altına girdiler\" (Kang-chü hânedanı başşehirde sürdü).",
+    "tanik": "ardından Kuşanlar’ın hâkimiyeti altına girdiler"
+   },
+   {
+    "f": "0300-01-01",
+    "t": "0375-01-01",
+    "d": "kangju",
+    "kesinlik": {
+     "f": "yuzyil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK (\"kangju\"). TDV: III. yy ikinci yarısında bağımsız; \"375 yılı civarında şehri ele geçiren Akhunlar\". (300 civarı Himyerî ele geçirme \"rivayetleri\" TDV'de rivayettir, dönem AÇILMADI.)",
+    "tanik": "Milâttan sonra III. yüzyılın ikinci yarısında tekrar bağımsızlıklarını kazandılar"
+   },
+   {
+    "f": "0375-01-01",
+    "t": "0457-01-01",
+    "d": "akhunlar",
+    "kesinlik": {
+     "f": "yil",
+     "t": "belirsiz"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id \"akhunlar\" (Akhun/Hiyon: Kidarit-Eftalit öncesi Hunlar; TDV ayrıca Belh için \"Eftalitler (Akhunlar)\" der — aynı mı belirsiz). f: TDV \"375 yılı civarında\". t: TDV \"yaklaşık altmış yetmiş yıl şehirde hüküm sürdüler\" (≈435-445) ve \"V. asrın ortalarına doğru ... Eftalitler\"; Eftalit künye başı (0457) kullanıldı — sınır kaynaktan DEĞİL.",
+    "tanik": "K’ang-chü kralını öldürüp yaklaşık altmış yetmiş yıl şehirde hüküm sürdüler"
+   },
+   {
+    "f": "0457-01-01",
+    "t": "0562-01-01",
+    "d": "eftalit",
+    "kesinlik": {
+     "f": "belirsiz",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "ic_not": "t: TDV \"562’de Semerkant’ı ele geçiren Göktürkler\" (Eftalit künyesi 0560'ta bitiyor: 2 yıl hayalet UYARISI). Eftalitler \"vergi almakla yetinip Mâverâünnehir’in idaresini K’ang-chü hânedanına bıraktı\" (TDV) — fiilî yerel yönetim Kang-chü.",
+    "tanik": "Eftalitler, vergi almakla yetinip Mâverâünnehir’in idaresini K’ang-chü hânedanına bıraktı"
+   },
+   {
+    "f": "0562-01-01",
+    "t": "0659-01-01",
+    "d": "bati-gokturk",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "ic_not": "f: TDV \"562’de Semerkant’ı ele geçiren Göktürkler\" — 562 Birinci Göktürk Kağanlığı çağıdır (künye gokturk-1 0552-0582); Batı Göktürk künyesi 0582'de başlıyor ⇒ 20 yıl hayalet UYARISI (künye GENİŞLET önerisi; iki Göktürk künyesi arası sınır tarihsiz). t: TDV \"659’da Batı Göktürk Devleti’nin yıkılması\".",
+    "tanik": "659’da Batı Göktürk Devleti’nin yıkılmasının ardından şehir Çinliler’in hâkimiyeti altına girdi"
+   },
+   {
+    "f": "0659-01-01",
+    "t": "0711-10-19",
+    "d": "sogd-yabgulugu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id \"sogd-yabgulugu\" (Soğd Yabguluğu / İhşîdliği, merkez Semerkant; TDV: \"sözde Çin’e bağlı olmakla birlikte neredeyse tam bağımsız\"). Nominal üst egemen Tang (künye tang 0618-0907). t: TDV 93/711 (hicrî 93 ∩ 711 ilk günü = 1 Muharrem 93 = 711-10-19, tablo takvimi, Jülyen). II. Göktürk Kağanı Kapağan 701'de Semerkant'ı bağladı ama \"bu uzun sürmedi\" (süresi belirsiz ⇒ dönem açılmadı, olay).",
+    "tanik": "Soğd Yabguluğu sözde Çin’e bağlı olmakla birlikte neredeyse tam bağımsız durumdaydı"
+   },
+   {
+    "f": "0711-10-19",
+    "t": "0735-01-31",
+    "d": "emevi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "ic_not": "f: TDV \"Kuteybe b. Müslim tarafından ... kesin biçimde fethedildi (93/711)\": hicrî 93 ∩ 711 → 711-10-19. (Barthold kronolojisi Semerkant fethini 712'ye koyar: \"712 ... Occupation of Samarqand by the Eastern Turks; 713 Retreat\" — TDV esas, çelişki beyanlıdır.) t: TDV \"Semerkant 117’de (735) ... Gûrek’in eline geçti\" (hicrî 117 ∩ 735 = 735-01-31).",
+    "tanik": "Kuteybe b. Müslim tarafından altı yıl süren şiddetli ve kanlı savaşların ardından kesin biçimde fethedildi"
+   },
+   {
+    "f": "0735-01-31",
+    "t": "0738-01-01",
+    "d": "sogd-yabgulugu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK (\"sogd-yabgulugu\"). Gûrek (Soğd İhşîdi) + Türgişler. t: TDV \"120 (738) ... Su-lu ve Gûrek’in ardı ardına ölümleri Emevîler’in işini kolaylaştırdı\" (hicrî 120 ∩ 738 = 738-01-01).",
+    "tanik": "Türgişler’in de yardımı ile Gûrek’in eline geçti ve şehirdeki İslâm garnizonu yok edildi"
+   },
+   {
+    "f": "0738-01-01",
+    "t": "0749-11-28",
+    "d": "emevi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "ic_not": "t: Abbâsî künye başı = künye geçişi (28 Kasım 749, Kûfe'de biat). Semerkant'a özgü devrim tarihi TDV'de yok; Barthold: Batı Asya'da devir 749 sonunda tamamlanmıştı.",
+    "tanik": "Türgiş Hakanı Su-lu ve Soğd İhşîdi Gûrek’in ardı ardına ölümleri Emevîler’in işini kolaylaştırdı"
+   },
+   {
+    "f": "0749-11-28",
+    "t": "0819-06-28",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "ic_not": "t: TDV \"Halife Me’mûn ... Nûh b. Esed’i 204 (819) yılında Semerkant ... vali tayin etti\" (hicrî 204 ∩ 819 = 819-06-28). Bu arada Mübeyyiza (775-76) ve Râfi‘ b. Leys (805-810) isyanları bastırıldı (süreli ele geçirme yok).",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "f": "0819-06-28",
+    "t": "0999-10-23",
+    "d": "samani",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "ic_not": "Sâmânî valileri (Nûh b. Esed vd.) önce Tâhirîler'e, 873'ten Saffârîler'e tâbi vali, 874-75'ten bağımsız Sâmânî (TDV: \"Mu‘temid-Alellah ... bütün Mâverâünnehir’i Nasr b. Ahmed’e verdi\"). 992'de Harun Buğra Han kısa süre ele geçirdi, II. Nûh geri aldı (süre kısa ⇒ dönem açılmadı). 996: Fâik Karahanlı isteğiyle Semerkant valisi. t: Barthold: Ilak 23 Ekim 999'da Buhara'yı işgal etti ve Buhara-Semerkant'a kendi valilerini bıraktı; gün komşudan (Buhara), TDV Semerkant yalnız \"389’da (999)\" der.",
+    "tanik": "Nûh b. Esed’i 204 (819) yılında Semerkant, diğer üç kardeşini de"
+   },
+   {
+    "f": "0999-10-23",
+    "t": "1000-01-01",
+    "d": "karahanli",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "ic_not": "Karahanlı = atlasın ilk sahibi (dikiş AYNI SAHİP). Atlas 1000-01-01'i \"ufuk sınır işareti\" olarak açıklar; gerçek geçiş 999-10-23 (Barthold) ⇒ ATLAS DÜZELTME ÖNERİSİ: Semerkant ve Buhara f 1000-01-01 → 999-10-23 (kaynaklı gün).",
+    "tanik": "Semerkant 389’da (999) tekrar Karahanlılar’ın eline geçti"
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0534-01-01",
+    "gun": "MÖ 535",
+    "k": "kurulus",
+    "b": "Semerkant, Büyük Cyrus'un ileri karakolu olarak kurulur (TDV arkeolojik değerlendirme).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "milâttan önce 535 yılında Pers Hükümdarı Büyük Cyrus tarafından ileri bir karakol olarak kurulduğu"
+   },
+   {
+    "t": "-0328-01-01",
+    "gun": "MÖ 329",
+    "k": "fetih",
+    "b": "Büyük İskender Semerkant'ı Persler'den alır; isyan bahanesiyle yakıp yıkar, sonra surla çevirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "Milâttan önce 329 yılında Semerkant’ı Persler’den alan Büyük İskender"
+   },
+   {
+    "t": "-0311-01-01",
+    "gun": "MÖ 312 (yaklaşık)",
+    "k": "fetih",
+    "b": "Diadokhlar savaşlarında şehir Selevkos'un eline geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "savaşlar sırasında Seleucos’un (Selevkos) eline geçti (yaklaşık m.ö. 312)"
+   },
+   {
+    "t": "-0188-01-01",
+    "gun": "MÖ 189",
+    "k": "kayip",
+    "b": "Semerkant Grek-Baktria Krallığı'nın hükmü altına girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "Semerkant milâttan önce 189 yılında Grek-Baktria Krallığı’nın hükmü altına girdi"
+   },
+   {
+    "t": "-0129-01-01",
+    "gun": "MÖ 2. yy sonu (belirsiz)",
+    "k": "kayip",
+    "b": "Grek-Baktria sonrası şehir Yüe-çi'lere geçer (tarihsiz); künye sınırı -0129.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "Ardından Semerkant önce Yüe-çi Türkleri’nin"
+   },
+   {
+    "t": "0000-01-01",
+    "gun": "MÖ 1. yüzyıl",
+    "k": "diger",
+    "b": "K’ang-chü (Kangju) şehri ele geçirir ve başşehir yapar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "milâttan önce I. asırda K’ang-chü Türkleri’nin eline geçti"
+   },
+   {
+    "t": "0050-01-01",
+    "gun": "1. yüzyılın ilk yarısı",
+    "k": "diger",
+    "b": "Kang-chü önce Hsiungnu, ardından Kuşan hâkimiyetine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "I. yüzyılın ilk yarısında önce Hsiungnular’ın, ardından Kuşanlar’ın hâkimiyeti altına girdiler"
+   },
+   {
+    "t": "0300-01-01",
+    "gun": "3. yüzyılın ikinci yarısı",
+    "k": "isyan",
+    "b": "Kang-chü bağımsızlığını yeniden kazanır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "Milâttan sonra III. yüzyılın ikinci yarısında tekrar bağımsızlıklarını kazandılar"
+   },
+   {
+    "t": "0375-01-01",
+    "gun": "375 civarı",
+    "k": "fetih",
+    "b": "Akhunlar şehri ele geçirir, Kang-chü kralını öldürür.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "375 yılı civarında şehri ele geçiren Akhunlar"
+   },
+   {
+    "t": "0457-01-01",
+    "gun": "5. yüzyılın ortaları",
+    "k": "fetih",
+    "b": "Eftalitler Semerkant'ı hâkimiyet altına alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "V. asrın ortalarına doğru Semerkant’ı hâkimiyetleri altına alan Eftalitler"
+   },
+   {
+    "t": "0562-01-01",
+    "gun": "562",
+    "k": "fetih",
+    "b": "Göktürkler Semerkant'ı ele geçirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "562’de Semerkant’ı ele geçiren Göktürkler"
+   },
+   {
+    "t": "0659-01-01",
+    "gun": "659",
+    "k": "fetih",
+    "b": "Batı Göktürk Devleti yıkılır; şehir sözde Çin'e bağlı Soğd Yabguluğu merkezi olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "659’da Batı Göktürk Devleti’nin yıkılmasının ardından şehir Çinliler’in hâkimiyeti altına girdi"
+   },
+   {
+    "t": "0701-01-01",
+    "gun": "701",
+    "k": "fetih",
+    "b": "II. Göktürk Kağanı Kapağan Semerkant ve çevresini bağlar; \"uzun sürmedi\" (süresi belirsiz ⇒ dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "II. Göktürk Devleti Kağanı Kapağan gönderdiği ordularla Semerkant ve çevresini kendine bağladı"
+   },
+   {
+    "t": "0711-10-19",
+    "gun": "93 H / 711",
+    "k": "fetih",
+    "b": "Kuteybe b. Müslim Semerkant'ı kesin olarak fetheder, vergiye bağlar, cami yaptırır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "Kuteybe b. Müslim tarafından altı yıl süren şiddetli ve kanlı savaşların ardından kesin biçimde fethedildi"
+   },
+   {
+    "t": "0735-01-31",
+    "gun": "117 H / 735",
+    "k": "kayip",
+    "b": "Semerkant, Hâris b. Süreyc ayaklanmasında Türgişler'in yardımıyla Gûrek'in eline geçer; İslâm garnizonu yok edilir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "Türgişler’in de yardımı ile Gûrek’in eline geçti ve şehirdeki İslâm garnizonu yok edildi"
+   },
+   {
+    "t": "0738-01-01",
+    "gun": "120 H / 738",
+    "k": "fetih",
+    "b": "Türgiş Hakanı Su-lu ve Gûrek ölür; Emevîler Semerkant'ta hâkimiyeti yeniden kurar (Nasr b. Seyyâr).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "Türgiş Hakanı Su-lu ve Soğd İhşîdi Gûrek’in ardı ardına ölümleri Emevîler’in işini kolaylaştırdı"
+   },
+   {
+    "t": "0749-11-28",
+    "gun": "28 Kasım 749",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Kûfe'de Ebü'l-Abbas es-Seffâh'a biat; Semerkant'a özgü fetih günü yok).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "28 Kasım 749 Cuma günü Kûfe Camii’nde Ebü’l-Abbas’a biat edildi"
+   },
+   {
+    "t": "0819-06-28",
+    "gun": "204 H / 819",
+    "k": "diger",
+    "b": "Me'mûn, Nûh b. Esed'i Semerkant valisi yapar (Sâmânî ailesi bölgeye yerleşir).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/semerkant",
+    "tanik": "Nûh b. Esed’i 204 (819) yılında Semerkant, diğer üç kardeşini de"
+   },
+   {
+    "t": "0999-10-23",
+    "gun": "23 Ekim 999 (Buhara; Semerkant komşudan)",
+    "k": "fetih",
+    "b": "İlig Han Nasr Buhara'yı işgal eder, Buhara ve Semerkant'a kendi valilerini bırakır; Sâmânîlerin sonu.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), s. 268-269 (Bölüm IV, \"Central Asia down to the Twelfth Century\")",
+    "tanik": "the Ilak occupied Bukhara without opposition and seized the Samanid treasury"
+   }
+  ],
+  "ic_not": "DOĞRULAMA: Semerkant = Efrâsiyâb höyüğü (şehristan) — TDV ve Barthold (Geographical Survey) ikisi de eski şehir ≈ bugünkü Efrâsiyâb. ATLAS DÜZELTME ÖNERİSİ: (1) f 1000-01-01 → 999-10-23 (Barthold: 23 Ekim 999 Pazartesi, Jülyen takvim tutarlı; TDV Karahanlılar \"Ekim 1999\" çift teyit). (2) Atlasın Karahanlı öncesi dilimi bu dosyada MÖ 535'e kadar uzatıldı. KAYNAK SINIRI: pre-İslâmî dönem sınırları (Yüe-çi/Kang-chü/Hsiungnu/Kuşan/Akhun/Eftalit) TDV'nin yüzyıl-ölçekli anlatısından alınmıştır; Çin ve Soğd birincil kaynakları (Chavannes) bu oturumda açılamadı, künye sınırı kullanılan her yer sahip.ic_not'ta beyanlı. Iranica 403 (Cloudflare) verdi."
+ },
+ {
   "id": "siena",
   "ad": "Siena",
   "atlas_ad": "Siena",
@@ -5491,6 +7893,122 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Atlas Siena 1147-01-01'de (ONCE1281-GERIYE, konsüllerin ilk anılışı) 'siena' ile başlar; zincir 1147'de biter ve son sahibi almanya, atlasın ilk sahibi siena (komün) — dikiş olayı 1147 (EI). Atlas düzeltme önerisi: atlasın Siena başlangıcı 1147 (konsül anılışı) EI ile uyumlu; künye siena f=1125 Treccani/EI'de doğrulanmadı (atlas kaydı zaten aynı notu taşır). TDV 'Siena' maddesi yok (arama: 2 içerik, madde yok). Roma dönemi 70 öncesi (ilk anılıştan önce) tarihsiz. -0026-01-13 olayı bu şehirde yok (ilk anılış MS 70, Roma İmparatorluğu künyesiyle başlar)."
  },
  {
+  "id": "signak",
+  "ad": "Sığnak (Sunak Kurgan)",
+  "atlas_ad": "Sığnak (Sunak Kurgan)",
+  "lat": 44.05,
+  "lon": 67.05,
+  "kat1900": 4,
+  "adlar": [
+   "Süğnak (Kâşgarlı)",
+   "Sığnâk / Siğnâk (TDV)",
+   "Sighnaq / Siqnaq (Barthold)",
+   "Sunak-kurgan / Sunak-ata (harabe adı)",
+   "Saganak (yerel ad)"
+  ],
+  "ilk": {
+   "t": "1100-01-01",
+   "gun": "11. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Geographical Survey of Transoxania, s. 179, dipnot 1",
+   "tanik": "The town is already mentioned under this name in the eleventh century",
+   "ic_not": "İLK ANILIŞ = alt sınır (kuruluş DEĞİL). Barthold: 11. yy'da bu adla anılır (Kâşgarlı Mahmud, Dîvânü lugāti't-Türk I, 393; \"Süğnak\"); yüzyıl hassasiyeti ⇒ güvenli uç 1100. TDV (Siğnâkī md.): \"X. yüzyılda Oğuz Yabgu Devleti’nin büyük şehirlerinden ve zaman zamanda idare merkezi olduğu anlaşılan Siğnâk (Barthold, Moğol İstilâsına Kadar Türkistan, s. 229; Togan, I, 35)\" — ÇIKARIM (\"anlaşılan\"), tarihli yazılı tanık değil; İngilizce Barthold (1928) s. 229 başka konu (Sâmânî idaresi) ⇒ atıf Türkçe/Rusça baskıya ait, kontrol EDİLEMEDİ. TDV esas kuralı gereği 10. yy Oğuz iddiası kaydedilir; ilk.t ona göre 1000 olabilir — kararı Emre'ye bırakıldı. Antik yer ≠ modern: TDV/Barthold \"Sunak-kurgan\" harabesi (Sır-Derya, Tumen-aryk istasyonunun 6-7 mil kuzeyi). ⚠ KONUM: atlas 44.05/67.05; Wikidata Q3826507 (Sighnaq) 44.157/66.964 ⇒ ~13,7 km fark (3 km kuralı için ölçüm gerekli; OSM sorgusu bu oturumda başarısız)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1100-01-01",
+    "t": "1220-01-01",
+    "d": "kipcak",
+    "kesinlik": {
+     "f": "yuzyil",
+     "t": "yil"
+    },
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Geographical Survey of Transoxania, s. 179",
+    "ic_not": "Barthold: Sighnaq \"non-Muslim Qipchaqs\" egemenliğinin merkezi (12. yy sonuna dek \"region of unbelievers\"). Kıpçak künyesi 1054-1239. Hârizmşah girişleri: 1152 Atsız Sighnaq'a sefer planı (Barthold), 1195 Tekiş'in Sighnaq seferi, \"The province of Sighnaq was united to the Khwarazm-shah’s kingdom\" (Muhammed, tarihsiz; hükümdarın iki oğlu Hârizm'de rehine) ⇒ süre/tarih belirsiz, dönem AÇILMADI (olay). t: Barthold kronolojisi \"1220 Conquest of Transoxania by the Mongols\"; Moğollar Sighnaq'ı Semerkant'tan (Mart 1220) sonra anlatılan Cuci seferinde aldı (gün yok).",
+    "tanik": "The centre of the dominion of the non-Muslim Qipchaqs"
+   },
+   {
+    "f": "1220-01-01",
+    "t": "1227-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chingiz-Khan and the Mongols, s. 413-415",
+    "ic_not": "Barthold: Cuci Sighnaq'ı yedi gün kuşatıp hücumla alır, bütün halkı kılıçtan geçirir; Hasan Hacı'nın oğlu bölge valisi bırakılır. t: Cuci ölümü 1227 (Barthold kronolojisi; TDV Batu Han 1227).",
+    "tanik": "besieged the town for seven days, finally took it by assault"
+   },
+   {
+    "f": "1227-01-01",
+    "t": "1281-01-01",
+    "d": "altinorda",
+    "kesinlik": {
+     "f": "yil",
+     "t": "belirsiz"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/batu-han",
+    "ic_not": "Cuci ulusu (Barthold: \"the north-western provinces of the empire were to form part of his appanage\"); Batu Han (1227-1256) Altın Orda'nın kurucusu (TDV). Altın Orda künyesi 1242'de başlıyor ⇒ 15 yıl hayalet UYARISI (künye GENİŞLET/Cuci Ulusu önerisi). t = atlas dikişi (aynı sahip: altinorda, atlas 1281). Atlas altinorda iddiası ile uyumlu; atlas 1281 kaynaksız başlangıç (1227/1242 olabilir).",
+    "tanik": "Altın Orda Hanlığı’nın kurucusu ve ilk hükümdarı (1227-1256)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1100-01-01",
+    "gun": "11. yüzyıl",
+    "k": "diger",
+    "b": "Süğnak adı Kâşgarlı Mahmud'da (Dîvânü lugāti't-Türk) anılır (ilk anılış).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Geographical Survey of Transoxania, s. 179, dipnot 1",
+    "tanik": "The town is already mentioned under this name in the eleventh century"
+   },
+   {
+    "t": "1152-01-01",
+    "gun": "1152 baharı (plan)",
+    "k": "diger",
+    "b": "Hârizmşah Atsız Karahanlı Kemâleddin ile Kıpçaklar'ın merkezi Sighnaq'a ortak sefer kararı alır; Cend'e gelince Kemâleddin çekilir (sefer yapılmadı).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), The Qara-Khitays and the Khwarazm-shahs, s. ~351-352",
+    "tanik": "the territories of the infidel Qipchaqs, whose centre was the town of Sighnaq or Siqnaq"
+   },
+   {
+    "t": "1195-01-01",
+    "gun": "1195",
+    "k": "diger",
+    "b": "Hârizmşah Tekiş Kayır-Tuku Han'a karşı Sighnaq'a sefer yapar (Kıpçak Uranlar tarafı).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chronological Summary of Events, s. 469",
+    "tanik": "Expedition of Takash to Sighnaq"
+   },
+   {
+    "t": "1218-01-01",
+    "gun": "1218 civarı (tarihsiz)",
+    "k": "fetih",
+    "b": "Sighnaq vilâyeti Hârizmşah krallığına katılır (hükümdarın iki oğlu Hârizm'de rehine) — Moğollardan önce; süre/tarih belirsiz ⇒ dönem açılmadı.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), The Qara-Khitays and the Khwarazm-shahs, s. 363-364",
+    "tanik": "The province of Sighnaq was united to the Khwarazm-shah’s kingdom"
+   },
+   {
+    "t": "1220-01-01",
+    "gun": "1220",
+    "k": "fetih",
+    "b": "Moğollar (Cuci) Sighnaq'ı yedi günlük kuşatmadan sonra alır.",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Chingiz-Khan and the Mongols, s. 413-415",
+    "tanik": "besieged the town for seven days, finally took it by assault"
+   },
+   {
+    "t": "1227-01-01",
+    "gun": "1227",
+    "k": "diger",
+    "b": "Cuci ölür (1227); Cuci ulusu Batu Han'a geçer (Altın Orda'nın temeli).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/batu-han",
+    "tanik": "Altın Orda Hanlığı’nın kurucusu ve ilk hükümdarı (1227-1256)"
+   }
+  ],
+  "ic_not": "AÇIK BORÇLAR: (1) 10. yy Oğuz Yabgu iddiası (TDV) doğrulanamadı; (2) 1100 öncesi kuruluş; (3) Hârizmşah ilhakının yılı; (4) Moğol alımı günü (Barthold tam gün vermez; Cüveynî'ye atıf yapar, metin açılmadı); (5) konum farkı 13,7 km. Barthold İngilizce 2. baskı sayfa atıfları OCR başlık işaretlerinden türetilmiş ±1-2 sayfa. TDV Sığnak'ı şehir maddesi olarak İÇERMEZ; yalnız Siğnâkī (Hanefî fakîhi) maddesi nisbe açıklaması taşır."
+ },
+ {
   "id": "sogut",
   "ad": "Söğüt",
   "atlas_ad": "Söğüt",
@@ -5639,6 +8157,259 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas Şuşa'yı 1752-01-01'de \"zend\" ile açıyor; TDV'ye göre 1752'de şehir Karabağ Hanlığı'ndadır (Zend ilişkisi 1750'lerin sonundadır, vasal/müttefik niteliğinde, tarihsiz). 1752 için Zend hâkimiyeti tanığı bulunamadı; yer tutucu olay yazılmadı.",
   "ic_not": "KAYNAK: TDV Karabağ (curl), Wikipedia \"Shusha\" (2. tanık). Hakemli Azeri/Ermeni/Rus akademik kaynak bu oturumda bulunamadı → çift teyit yok. ATLAS ÖNERİSİ: atlas 1752 ile başlıyor, TDV 1748-1750; ve ilk dönemi \"zend\" yazılmış, TDV'ye göre karabag-hanligi. kat1900=3 TAHMİNİ (1900 listesinde Şuşa yok; Elisavetpol guberniyası ilçe merkezi)."
+ },
+ {
+  "id": "taskent",
+  "ad": "Taşkent",
+  "atlas_ad": "Taşkent",
+  "lat": 41.311,
+  "lon": 69.28,
+  "kat1900": 2,
+  "adlar": [
+   "Çâç / Çö-çi / Şi (Çin kaynakları; ülke adı, başşehir Binkes)",
+   "Şâş (Arap kaynakları)",
+   "Binkes / Binkath (başşehir)",
+   "Terken (Kâşgarlı)",
+   "Taşkent"
+  ],
+  "ilk": {
+   "t": "0300-01-01",
+   "gun": "3. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt IV, \"TASHKENT\" md. (W. Barthold), s. 687-688 (aynı md.; Barthold: Çin kaynakları)",
+   "tanik": "the land of Cac and its capital, the circumference of which was about 10 li",
+   "ic_not": "İLK ANILIŞ = alt sınır (kuruluş DEĞİL). EI1 (Barthold): \"Nothing is known of the origin of the settlement\"; Çin kaynaklarında MÖ 2. yy'dan \"Yu-ni\" toprağından söz edilir, \"later identified with the territory of Tashkent\" — sonradan yapılan eşitleme, yeri kesin değil ⇒ başlangıç sayılmadı (kural). Çâç ülkesi ve başşehrinin ayrıntıları Çin kaynaklarında İLK KEZ MS 3. yüzyılda (güvenli uç = 0300). Başşehir Binkath'ın konumu \"roughly\" bugünkü Taşkent'e denk gelir (Barthold; Le Strange'in İski-Taşkent'i değil). TDV: \"tarihi milâttan önce II. binyıllara kadar iner\" — kaynaksız çıkarım, tanık sayılmadı; TDV: \"Milâdî ilk asırlardan itibaren Çâç bölgesinin başkenti\". ÇELİŞKİ YOK ama TDV ile EI1 tarih ölçeği farklı: TDV daha erken ifade eder (\"ilk asırlar\"), EI1 yazılı ilk ayrıntıyı 3. yy verir; EI1 esas alındı (ilk anılışta güvenli uç). Taşkent adı ilk Bîrûnî'de (XI. yy) görülür (TDV + EI1)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0300-01-01",
+    "t": "0630-01-01",
+    "d": "cac",
+    "kesinlik": {
+     "f": "yuzyil",
+     "t": "onyil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/taskent",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id \"cac\" (Çâç yerel hükümdarlığı / Çâç beyleri; ömür ~3. yy – 8. yy, kaynak TDV: \"IV-VIII. yüzyıllarda Çâç’ta basılan paraların üzerinde Çâç hükümdarları ve hanımlarının resimleri\"). t: EI1: Hüan-Çuan zamanında Çâç'ta bütün ülkeye egemen tek hükümdar yoktu, şehirler Türk üst egemenliğindeydi; Hüan-Çuan tarihi TDV Buhara'da 630 civarı.",
+    "tanik": "IV-VIII. yüzyıllarda Çâç’ta basılan paraların üzerinde Çâç hükümdarları ve hanımlarının resimleri"
+   },
+   {
+    "f": "0630-01-01",
+    "t": "0659-01-01",
+    "d": "bati-gokturk",
+    "kesinlik": {
+     "f": "onyil",
+     "t": "yil"
+    },
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt IV, \"TASHKENT\" md. (W. Barthold), s. 687-688",
+    "ic_not": "EI1: \"The separate towns were under the suzerainty of the Turks\" (Hüan-Çuan devri). TDV: \"VI-VIII. yüzyıllarda ... Türk hakanlığının egemenliğine girmesi\" (tarihsiz). t: Batı Göktürk'ün yıkılışı 659 (TDV Semerkant); Barthold: yıkılıştan sonra Çinliler Mâverâünnehir'de otorite kurmaya çalıştı. f en geç tanıktan (Hüan-Çuan ≈630) — Türk egemenliği muhtemelen daha eskidir, önceki dilim Çâç yerel dönemine yazıldı (beyan).",
+    "tanik": "The separate towns were under the suzerainty of the Turks"
+   },
+   {
+    "f": "0659-01-01",
+    "t": "0751-07-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt IV, \"TASHKENT\" md. (W. Barthold), s. 687-688",
+    "ic_not": "Şehir VAR; sahibi tek dönem olarak yazılamıyor: EI1 \"suzerainty of the Turkish Khans was at times replaced by that of the Chinese\"; TDV \"Mahallî Türk hükümdarlarının yönettiği şehir bir süre sonra Çinliler’in hâkimiyeti altına girdi\"; Türgiş Kağanlığı (717-766) ve Kuteybe'nin 94 (713) akını (TDV; tahrip, kalıcı değil). t: Talas, Zilhicce 133 (Temmuz 751).",
+    "tanik": "The suzerainty of the Turkish Khans was at times"
+   },
+   {
+    "f": "0751-07-01",
+    "t": "0819-06-28",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/taskent",
+    "ic_not": "TDV: \"Abbâsîler devrinde Şâş bölgesi Türkler’e karşı bir müdafaa hattı teşkil ediyordu\"; 159 (776) surla çevrildi. 191 (807) Karluklar hâkimiyeti: EI1 \"probably for a short period only\" ⇒ dönem açılmadı. t: hicrî 204 ∩ 819 (\"Şâş’ı Halife Me’mûn, Sâmânîler’den Yahyâ b. Esed’e verdi\").",
+    "tanik": "Abbâsîler devrinde Şâş bölgesi Türkler’e karşı bir müdafaa hattı teşkil ediyordu"
+   },
+   {
+    "f": "0819-06-28",
+    "t": "0996-01-25",
+    "d": "samani",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/taskent",
+    "ic_not": "Sâmânî valisi Yahyâ b. Esed (ö. Perşembe, Rebîülâhir 241 sonuna 5 gün kala = 12 Eylül 855, EI1), 225 (840) Nûh b. Esed İsfîcâb'ı alarak sınırı genişletti. t: TDV Karahanlılar: \"İlig Han Nasr 386’da (996) ... antlaşma ile Siriderya sahası Katvân’a kadar Karahanlılar’a bırakıldı\" (hicrî 386 ∩ 996 = 996-01-25); Barthold aynı. TDV Taşkent: \"IV. yüzyılın sonlarında ... Taşkent Karahanlı hâkimiyetine girmiş oldu\".",
+    "tanik": "Halife Me’mûn, Sâmânîler’den Yahyâ b. Esed’e verdi (204/819)"
+   },
+   {
+    "f": "0996-01-25",
+    "t": "1041-08-31",
+    "d": "karahanli",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "ic_not": "t: TDV Karahanlılar: Mâverâünnehir'in tamamına hâkim olup bağımsız devlet kurdular (433/1041-42); \"bu tarihten itibaren Karahanlılar Doğu ve Batı Karahanlılar olmak üzere ikiye ayrılmıştır\" (hicrî 433 ilk günü = 1041-08-31). Birleşik Karahanlı künyesi 1041-01-01'de bitiyor ⇒ 8 ay hayalet UYARISI.",
+    "tanik": "Siriderya sahası Katvân’a kadar Karahanlılar’a bırakıldı"
+   },
+   {
+    "f": "1041-08-31",
+    "t": "1141-09-09",
+    "d": "dogu-karahanli",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "ic_not": "Şâş Doğu Karahanlı payındadır (TDV: \"Doğu Karahanlılar’ın hâkimiyetindeki Şâş ve diğer bazı yerleri\"). 1057-59 Batı Karahanlı Tamgaç Han İbrâhim Şâş'ı zapteder, 451 (1059)'den sikkeler (kısa; dönem açılmadı). t: Karahıtay Katvân zaferi (5 Safer 536 / 9 Eylül 1141) — Karahıtay'ın doğu Karahanlı topraklarını Katvân'dan önce almış olması muhtemel (TDV Karahıtaylar: Yeh-lü Ta-şi 1130-1142 batıya yöneldi, 531/1137 Hucend yakınında Batı Karahanlı Mahmud'u yendi), Şâş'a özgü tarih yok ⇒ GÜVENLİ UÇ (en geç) 1141-09-09.",
+    "tanik": "Doğu Karahanlılar’ın hâkimiyetindeki Şâş ve diğer bazı yerleri de ele geçirdi"
+   },
+   {
+    "f": "1141-09-09",
+    "t": "1211-01-01",
+    "d": "karahitay",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahitaylar",
+    "ic_not": "TDV Karahıtaylar: Katvân'dan sonra \"Ceyhun ırmağının sağ kıyısına kadar bütün Mâverâünnehir’i ele geçirdiler\" (Şâş genel bölgeye dahil, şehre özgü cümle yok — bölge cümlesi, beyanlı). t: Karahıtaylar'a \"son darbeyi vuran Küçlüğ ... bu devlete son verdi (1211)\".",
+    "tanik": "Karahıtaylar, Ceyhun ırmağının sağ kıyısına kadar bütün Mâverâünnehir’i ele geçirdiler"
+   },
+   {
+    "f": "1211-01-01",
+    "t": "1220-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/taskent",
+    "ic_not": "Şehir VAR; sahibi dönem olarak yazılamıyor: TDV Taşkent \"XIII. yüzyılın başlarında Hârizmşahlar’ın eline geçen şehir\" (tarihsiz); TDV Fergana: 1212-1217 Hârizmşah ile Küçlüğ Han mücadele alanı (Şâş, İsfîcâb, Fergana) ve Hârizmşah Muhammed Şâş'ı \"tamamen tahrip ettirdi\"/ahaliyi göçe zorladı (Barthold: Isfijab ve Shash'ı elde tutamadığı için harap etti). Hârizmşah künyesi (1097-1231) uygun olsa da Taşkent'e özgü tarih yok, 9 yıl ⇒ __BOSLUK__ (beyanlı).",
+    "tanik": "(XIII.) yüzyılın başlarında Hârizmşahlar’ın eline geçen şehir 1220’de Cengiz Han tarafından istilâ edildi"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0300-01-01",
+    "gun": "3. yüzyıl",
+    "k": "diger",
+    "b": "Çin kaynakları Çâç ülkesini ve başşehrini (çevresi ~10 li) ilk kez ayrıntılı anlatır.",
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt IV, \"TASHKENT\" md. (W. Barthold), s. 687-688",
+    "tanik": "the land of Cac and its capital, the circumference of which was about 10 li"
+   },
+   {
+    "t": "0630-01-01",
+    "gun": "630 civarı (Hüan-Çuan)",
+    "k": "diger",
+    "b": "Hüan-Çuan devrinde Çâç'ta tek hükümdar yok, şehirler Türk üst egemenliğinde.",
+    "kaynak": "The Encyclopaedia of Islam, 1. bs. (Leiden 1913-1938; archive.org), cilt IV, \"TASHKENT\" md. (W. Barthold), s. 687-688",
+    "tanik": "The separate towns were under the suzerainty of the Turks"
+   },
+   {
+    "t": "0659-01-01",
+    "gun": "659",
+    "k": "diger",
+    "b": "Batı Göktürk yıkılır; Çinliler Mâverâünnehir'de otorite kurmaya çalışır (Taşkent için kesin devir yok).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, s. ~195",
+    "tanik": "make use of the fall of the Turks to assert their authority in Transoxania"
+   },
+   {
+    "t": "0713-01-01",
+    "gun": "94 H / 713",
+    "k": "fetih",
+    "b": "Kuteybe b. Müslim Şâş'ı ele geçirip tahrip eder (kalıcı değil).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/taskent",
+    "tanik": "Emevîler’in Horasan valisi Kuteybe b. Müslim tarafından ele geçirilip (94/713) tahrip edildi"
+   },
+   {
+    "t": "0751-07-01",
+    "gun": "Zilhicce 133 / Temmuz 751",
+    "k": "fetih",
+    "b": "Talas Savaşı: Ziyâd b. Sâlih Çinli Kau Seinçi'yi yener; Şâş bölgesi Abbâsî nüfuzuna girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/taskent",
+    "tanik": "Zilhicce 133 (Temmuz 751) tarihinde Talas nehri kenarında yapılan savaşta"
+   },
+   {
+    "t": "0807-01-01",
+    "gun": "191 H / 807",
+    "k": "fetih",
+    "b": "Karluk Türkleri Şâş'a hâkim olur; Abbâsî egemenliği geri döner (kısa; dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/taskent",
+    "tanik": "Şehir 191’de (807) Karluk Türkleri’nin hâkimiyetine girdi"
+   },
+   {
+    "t": "0819-06-28",
+    "gun": "204 H / 819",
+    "k": "diger",
+    "b": "Me'mûn Şâş'ı Sâmânî Yahyâ b. Esed'e verir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/taskent",
+    "tanik": "Halife Me’mûn, Sâmânîler’den Yahyâ b. Esed’e verdi (204/819)"
+   },
+   {
+    "t": "0996-01-25",
+    "gun": "386 H / 996",
+    "k": "antlasma",
+    "b": "Sabuktegin'in aracılığıyla Siriderya havzası Karahanlılara bırakılır; Taşkent Karahanlı olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "tanik": "Siriderya sahası Katvân’a kadar Karahanlılar’a bırakıldı"
+   },
+   {
+    "t": "0996-01-25",
+    "gun": "996 (çift teyit)",
+    "k": "antlasma",
+    "b": "Barthold: Siriderya havzasının tamamı Karahanlı egemenliğinde kalır (Sebüktegin barışı).",
+    "kaynak": "W. Barthold, Turkestan down to the Mongol Invasion, 2. bs., Londra 1928 (E. J. W. Gibb Memorial; archive.org/details/Barthold1928Turkestan), Bölüm IV, s. ~264-265",
+    "tanik": "the whole basin of the Syr-Darya remained under the rule of the Qara-Khanids"
+   },
+   {
+    "t": "1041-08-31",
+    "gun": "433 H / 1041-42",
+    "k": "diger",
+    "b": "künye geçişi: birleşik Karahanlı → Doğu ve Batı Karahanlılar (Taşkent Doğu payında).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "tanik": "Karahanlılar Doğu ve Batı Karahanlılar olmak üzere ikiye ayrılmıştır"
+   },
+   {
+    "t": "1059-02-17",
+    "gun": "451 H / 1059",
+    "k": "fetih",
+    "b": "Batı Karahanlı Tamgaç Han İbrâhim Şâş'ı zaptedip sikke basar (kısa; dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahanlilar",
+    "tanik": "Doğu Karahanlılar’ın hâkimiyetindeki Şâş ve diğer bazı yerleri de ele geçirdi"
+   },
+   {
+    "t": "1141-09-09",
+    "gun": "5 Safer 536 / 9 Eylül 1141",
+    "k": "fetih",
+    "b": "Katvân Savaşı: Karahıtaylar Sencer'i yener, Mâverâünnehir'i alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahitaylar",
+    "tanik": "Katvân savaşında ağır bir bozguna uğrattı (5 Safer 536 / 9 Eylül 1141)"
+   },
+   {
+    "t": "1211-01-01",
+    "gun": "1211",
+    "k": "diger",
+    "b": "Karahıtay Devleti sona erer (Küçlüğ Han Gürhan'ı tahttan indirir).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karahitaylar",
+    "tanik": "bu devlete son verdi (1211)"
+   },
+   {
+    "t": "1220-01-01",
+    "gun": "1220",
+    "k": "fetih",
+    "b": "Cengiz Han Taşkent'i istilâ eder (Barthold/EI1: Moğol anlatılarında Taşkent değil Banâket alınır).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/taskent",
+    "tanik": "şehir 1220’de Cengiz Han tarafından istilâ edildi"
+   }
+  ],
+  "ic_not": "ATLAS: Taşkent f=1220-01-01 mogol (TDV yıl düzeyi) ile uyumlu; ATLAS DÜZELTME ÖNERİSİ yok, ama gün/ay yok (EI1: Moğol anlatısında Banâket alınır, Taşkent anılmaz). Atlasta Taşkent 1227 çağatay: künye çağatay f=1227 kaynaksız gün. AÇIK: (1) 1211-1220 Hârizmşah mı Küçlüğ mü — tarihsiz; (2) MÖ 2. yy Yu-ni eşitlemesi; (3) 3-7. yy arası yerel/Hun/Türk evreleri. EI1 OCR'da \"386 [990]\" yazıyor (OCR hatası, hicrî 386=996); TDV+Barthold 996."
  },
  {
   "id": "temesvar",
@@ -6323,6 +9094,42 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK: şehir atlasın başlangıcından (1281-01-01) SONRA kuruldu; kural gereği 1281 öncesi sahip yazılmaz. ATLAS DÜZELTME ÖNERİSİ: atlas Yeni Saray (Tsarev)'i 1281'de altinorda ile açıyor; kaynaklara göre şehir 1334-1341 arasında kuruldu (Özbeg) — atlas başlangıcı ~1341'e çekilmeli ya da 1281-1341 arası dilim kırpılmalı. kat1900=3 (Tsarev uyezd merkezi, 1900 listesi)."
+ },
+ {
+  "id": "yeni-urgenc",
+  "ad": "Yeni Ürgenç",
+  "atlas_ad": "Yeni Ürgenç",
+  "lat": 41.55,
+  "lon": 60.6333,
+  "kat1900": 3,
+  "adlar": [
+   "Yeni Ürgenç (Hîve Hanlığı'nın kuzeydoğusunda, 17. yy)",
+   "Urgench / Urganç (modern)"
+  ],
+  "ilk": {
+   "t": "1646-01-01",
+   "gun": "1645’ten sonra (alt sınır; 1646)",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc (Gürgenç md., son paragraf)",
+   "tanik": "1645’ten sonra Hîve’nin kuzeydoğusunda (günümüzde Özbekistan’da) Yeni Ürgenç adıyla tekrar kuruldu",
+   "ic_not": "KURULUŞ (yeniden kuruluş) TDV: \"Arap Muhammed Han dönemine kadar Hîve hanlarının başşehri olan Ürgenç, 1645’ten sonra ... Yeni Ürgenç adıyla tekrar kuruldu\" — KESİN YIL YOK (alt sınır 1645). 1646-01-01 atlasın kendi kur değeridir (atlas referans değildir); bu kayıtta yalnız \"1645'den sonra\" beyanı kaynaklı, 1646 BEYANLI YAKLAŞIKLIK (kesinlik: belirsiz). EI1 (Barthold, Khwarizm): sol kol kuruyunca Ürgenç terk edildi; Hîve'nin ~20 mil KD'sinde Yeni Ürgenç kuruldu, eski ticaret şehrinin halkı oraya yerleştirildi; Han Anuşa (1663-1687) Kât'ı yeniden kurdu. Wikipedia (ikincil, kullanılmadı): modern Urgench 19. yy. KAYNAK ÇELİŞKİSİ olabilir (Rus ticaret noktası) ⇒ atlas sorusu \"1646 öncesi o NOKTA vahada mıydı\" (yerlesimler.js notu) bu oturumda YANITLANAMADI: 1281 öncesine ait HİÇBİR tanık yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1646-01-01",
+    "gun": "1645’ten sonra (alt sınır; 1646)",
+    "k": "kurulus",
+    "b": "Amuderya yatağı değişince terk edilen Köhne Ürgenç'in halkı Hîve'nin kuzeydoğusunda Yeni Ürgenç'i kurar (yıl kesin değil).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurgenc",
+    "tanik": "1645’ten sonra Hîve’nin kuzeydoğusunda (günümüzde Özbekistan’da) Yeni Ürgenç adıyla tekrar kuruldu"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK (kural): ilk.t atlasın başlangıcıyla (1646-01-01) aynı/sonra ⇒ 1281 öncesi sahip YAZILMADI. 1281 ÖNCESİ DURUM: Yeni Ürgenç noktasında bu oturumda yerleşim tanığı bulunamadı (TDV, EI1, Barthold, Hudud, Le Strange). ATLAS DÜZELTME ÖNERİSİ: atlas kur:1646 (kaynaksız yıl) → \"1645 sonrası\" aralığı; 1646-01-01 yerine kesin yıl için Bregel / Hîve Hanlığı tarihçileri (Munis-Agahi) gerekir."
  },
  {
   "id": "zadar",
