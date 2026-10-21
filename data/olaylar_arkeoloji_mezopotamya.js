@@ -30,24 +30,26 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "k": "kurulus",
   "b": "Yeni Babil Devleti: Yeni Babil: Nabopolassar tahta çıkar",
   "gun": "MÖ 626",
-  "yer": "Neo-Babylonian / Kaldean Babil",
+  "yer": "Neo-Babylonian / Kaldean Babil / Uruk / Ur / Sippar / Ur / Ur / Ur",
   "d": "Nabopolassar 626'da Babil tahtına oturur; Asur'u yıkan Babil devleti Nabonidus'un 17. yılında Kyros'a karşı düşer.",
   "kaynak": "ABC 2 (Early Years of Nabopolassar) aktaran Livius.org ABC 3 sayfası; Grayson 1975 çevirisi · https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «on the twenty-sixth day of Arahsamna Nabû-apla-usur sat upon the throne in Babylon». kur, devletin 'ilanı' değil Nabopolassar'ın tahta oturuşu (ABC 2). Takvim: Livius notu 23 Kasım 626. Bitişte 'Arahsamna' (8. ay) günü 3; Julian karşılığı kaynakta yok. Achaemenica.org (akademik olmayan) 29 Ekim 539 diyor, bu YALNIZ ikincil, çift teyit yok ⇒ atlas için yıl hassasiyeti (539) önerilir; gün ancak Parker & Dubberstein tablosu ya da Iranica ile (Iranica 403 verdi) doğrulanınca. Livius sayfasının '16. yıl'/'17. yıl' 539/538 etiketi tutarsız (aynı yıl iki kez), bu yüzden 17. yılın 539 olduğu ABC 7 sütun iii bağlamından (Opis, Sippar, Babil) alındı, sayfa notundan değil. Nabopolassar sonrası hükümdarlar (Nebukadnezar II vb.) bu oturumda kaynaklanmadı. [VERI-MO-ARKEO: Yeni Babil sonu (539) Ahameniş Babil fethi maddesinde (afrika-iran: ahamenis-babil-539) tutulur, mükerrer madde açılmadı.]"
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «on the twenty-sixth day of Arahsamna Nabû-apla-usur sat upon the throne in Babylon». kur, devletin 'ilanı' değil Nabopolassar'ın tahta oturuşu (ABC 2). Takvim: Livius notu 23 Kasım 626. Bitişte 'Arahsamna' (8. ay) günü 3; Julian karşılığı kaynakta yok. Achaemenica.org (akademik olmayan) 29 Ekim 539 diyor, bu YALNIZ ikincil, çift teyit yok ⇒ atlas için yıl hassasiyeti (539) önerilir; gün ancak Parker & Dubberstein tablosu ya da Iranica ile (Iranica 403 verdi) doğrulanınca. Livius sayfasının '16. yıl'/'17. yıl' 539/538 etiketi tutarsız (aynı yıl iki kez), bu yüzden 17. yılın 539 olduğu ABC 7 sütun iii bağlamından (Opis, Sippar, Babil) alındı, sayfa notundan değil. Nabopolassar sonrası hükümdarlar (Nebukadnezar II vb.) bu oturumda kaynaklanmadı. [VERI-MO-ARKEO: Yeni Babil sonu (539) Ahameniş Babil fethi maddesinde (afrika-iran: ahamenis-babil-539) tutulur, mükerrer madde açılmadı.]",
+  "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
   "t": "-1594-01-01",
   "k": "kayip",
   "b": "Eski Babil (Babil I Hanedanı, Hammurabi): Babil I Hanedanı sona erer (Samsuditana)",
   "gun": "MÖ 1595",
-  "yer": "Babilim / Babil",
+  "yer": "Babilim / Babil / Ur / Mari / Ur / Ur / Ur",
   "d": "Hammurabi (MC 1792-1750) Babil'i Güney ve Orta Mezopotamya'nın siyasî merkezi yapar; Babil I Hanedanı Samsuditana'nın son yılında (MC 1595/1597) biter.",
   "kaynak": "ARCANE III s. 5 ve 6: 'Samsuditana year 31, MC 1595/1597' (Babil I sonu); Tablo 39 '1595/1597' · http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
   "kesinlik": "onyil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Samsuditana year 31, MC 1595/1597». KRONOLOJİ OKULLARI (ARCANE III s.6, Venüs/Ammisaduqa levhaları): Yüksek (HC) Hammurabi 1848-1806, Babil I sonu 1651 · ORTA (MC, bu kayıtta esas) 1792-1750, sonu 1595 · MC II 1784-1742, sonu 1587 · Alçak/Kısa (LC) 1728-1686, sonu 1531 · Ultra-kısa 'Yeni Kronoloji' (NC) 1696-1654, sonu 1499. Yazarlar HC'yi 'artık olası değil' ve NC'yi tarihsel gerekçelerle geçersiz sayar; dendrokronoloji HC/NC'yi dışlar; MC–Alçak aralığını önerirler. Bu 'Hammurabi 1792' değeri hükümdarın çıkışıdır, Babil'in kuruluşu değil; Babil şehri MÖ 3. bin sonundan beri belgeli (tablo dışında, açılmadı). Eşnunna kaydının atlas bitiş değeri -1599 (Eşnunna'nın düşüşü) bu tablodan bağımsızdır."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Samsuditana year 31, MC 1595/1597». KRONOLOJİ OKULLARI (ARCANE III s.6, Venüs/Ammisaduqa levhaları): Yüksek (HC) Hammurabi 1848-1806, Babil I sonu 1651 · ORTA (MC, bu kayıtta esas) 1792-1750, sonu 1595 · MC II 1784-1742, sonu 1587 · Alçak/Kısa (LC) 1728-1686, sonu 1531 · Ultra-kısa 'Yeni Kronoloji' (NC) 1696-1654, sonu 1499. Yazarlar HC'yi 'artık olası değil' ve NC'yi tarihsel gerekçelerle geçersiz sayar; dendrokronoloji HC/NC'yi dışlar; MC–Alçak aralığını önerirler. Bu 'Hammurabi 1792' değeri hükümdarın çıkışıdır, Babil'in kuruluşu değil; Babil şehri MÖ 3. bin sonundan beri belgeli (tablo dışında, açılmadı). Eşnunna kaydının atlas bitiş değeri -1599 (Eşnunna'nın düşüşü) bu tablodan bağımsızdır.",
+  "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
   "t": "-1791-01-01",
@@ -90,12 +92,13 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "k": "kurulus",
   "b": "Ur III Hanedanı (Ur): Ur III Hanedanı: Ur-Nammu'nun 1. yılı",
   "gun": "MÖ 2110",
-  "yer": "Urim / Tell al-Muqayyar",
+  "yer": "Urim / Tell al-Muqayyar / Nippur / Umma / Uruk / Ur / Ur / Ur / Ur",
   "d": "Urnamma'nın kurduğu Ur III hanedanı Güney Mezopotamya'yı Şulgi döneminde merkezi bir devlete çevirir; son kral Ibbi-Suen ile hanedan sona erer.",
   "kaynak": "Sallaberger & Schrakamp 2015, ARCANE III, Giriş s. 5 (1.3) ve Tablo 39 s. 136 · http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
   "kesinlik": "onyil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «(Urnamma year 1, MC 2110)». Orta Kronoloji. MC: Urnamma 2110-2093, Şulgi 2092-2045, Amarsuena 2044-2036, Şusuen 2035-2027, Ibbi-Suen 2026-2003. MC II (rMC8): hepsi 8 yıl aşağı (Urnamma 2102-2085 ... Ibbi-Suen 2018-1995). Yazarlar Urnamma yıl1'den Babil I sonuna kadar göreli kronolojiyi ±1 yıl sağlam bulur (s.5). Egberts 2023 Tablo 1'de Ur III = '2100–2000 BC' (yuvarlak). Atlas dosyasında Ur için bit: MÖ 317 (-0316) (Brinkman) ayrı bir olgudur (yerleşimin yerel belge sonu)."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «(Urnamma year 1, MC 2110)». Orta Kronoloji. MC: Urnamma 2110-2093, Şulgi 2092-2045, Amarsuena 2044-2036, Şusuen 2035-2027, Ibbi-Suen 2026-2003. MC II (rMC8): hepsi 8 yıl aşağı (Urnamma 2102-2085 ... Ibbi-Suen 2018-1995). Yazarlar Urnamma yıl1'den Babil I sonuna kadar göreli kronolojiyi ±1 yıl sağlam bulur (s.5). Egberts 2023 Tablo 1'de Ur III = '2100–2000 BC' (yuvarlak). Atlas dosyasında Ur için bit: MÖ 317 (-0316) (Brinkman) ayrı bir olgudur (yerleşimin yerel belge sonu).",
+  "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
   "t": "-2141-01-01",
@@ -114,12 +117,13 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "k": "kurulus",
   "b": "Akad İmparatorluğu (Sargon): Akad İmparatorluğu: Sargon'un saltanatı başlar (Orta Kronoloji)",
   "gun": "MÖ 2324",
-  "yer": "Akkade / Agade (Sargonic period)",
+  "yer": "Akkade / Agade (Sargonic period) / Kiş / Kiş",
   "d": "Sargon'un (Šarru-kīn) Lugalzagesi'yi yenip Akkade merkezli ilk geniş Mezopotamya imparatorluğunu kurması; Naram-Suen döneminde zirve; son hükümdar Shudurul.",
   "kaynak": "Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III 'History & Philology' (Brepols), Giriş, Tablo 39 'Synopsis of main dynasties', s. 136; Orta Kronoloji (MC) sütunu · http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
   "kesinlik": "onyil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Sargon of Akkad 40 years 2324-2285±30». KRONOLOJİ: Orta Kronoloji (MC). ARCANE'in MC sütunu: Sargon 2324-2285±30, Rimush+Manishtushu 2284-2262, Naram-Suen 2261-2206, Shar-kali-sharri 2205-2181, Dudu 2177-2157, Shudurul 2156-2142 (hepsi ±30). MC II (rMC8) sütunu 8 yıl aşağı: Sargon 2316-2277, Shudurul 2148-2134; yazarlar MC II'yi 'daha makul' sayar (s.135). Aynı kitap RIME 2 başlığı olarak 'Sargonic and Gutian Periods (2334-2113 BC)' (Frayne 1993) anıyor: geleneksel 2334 başlangıcı ARCANE'in 2324'ünden 10 yıl yukarıdadır; iki ayrı konvansiyon, ortası alınmadı. Gutium dönemi (70 yıl, -10/+30) Akad'ı Ur III'e bağlar (MC 2180±30–2111). Sargonic dönem sonu 'MC 2142' bir yönetici-sonu, yer-terk tarihi değil. Bu satırdaki 'Sargon of Akkad 40 years 2324-2285' düz metin çıkarımıdır (pdftotext -raw s.152); sütun karışmaması için iki sütunlu tablo satır satır doğrulandı."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Sargon of Akkad 40 years 2324-2285±30». KRONOLOJİ: Orta Kronoloji (MC). ARCANE'in MC sütunu: Sargon 2324-2285±30, Rimush+Manishtushu 2284-2262, Naram-Suen 2261-2206, Shar-kali-sharri 2205-2181, Dudu 2177-2157, Shudurul 2156-2142 (hepsi ±30). MC II (rMC8) sütunu 8 yıl aşağı: Sargon 2316-2277, Shudurul 2148-2134; yazarlar MC II'yi 'daha makul' sayar (s.135). Aynı kitap RIME 2 başlığı olarak 'Sargonic and Gutian Periods (2334-2113 BC)' (Frayne 1993) anıyor: geleneksel 2334 başlangıcı ARCANE'in 2324'ünden 10 yıl yukarıdadır; iki ayrı konvansiyon, ortası alınmadı. Gutium dönemi (70 yıl, -10/+30) Akad'ı Ur III'e bağlar (MC 2180±30–2111). Sargonic dönem sonu 'MC 2142' bir yönetici-sonu, yer-terk tarihi değil. Bu satırdaki 'Sargon of Akkad 40 years 2324-2285' düz metin çıkarımıdır (pdftotext -raw s.152); sütun karışmaması için iki sütunlu tablo satır satır doğrulandı.",
+  "yer_id": "Kiş (Tell Uhaimir)"
  },
  {
   "t": "-3199-01-01",

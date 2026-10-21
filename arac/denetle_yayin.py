@@ -1301,6 +1301,8 @@ def main():
                                          "baglama: py denetim/arkeoloji_girdi_cikar_1020.py ekle (girdi_listesi + index.html)", 
         "data/yerlesimler_mo_levant_anadolu.js": "MO arkeoloji yerlesimleri (VERI-MO-ARKEO 21 Ekim 2026): PARK — s: kimliklerinin BOYALAR/KULTUR_DESEN girisleri bekleniyor (mo-motor); "
                                          "baglama: py denetim/arkeoloji_girdi_cikar_1020.py ekle (girdi_listesi + index.html)", 
+        "data/yerlesimler_mo_zincir.js": "MO arkeoloji yerlesimleri (VERI-MO-ARKEO 21 Ekim 2026): PARK — s: kimliklerinin BOYALAR/KULTUR_DESEN girisleri bekleniyor (mo-motor); "
+                                         "baglama: py denetim/arkeoloji_girdi_cikar_1020.py ekle (girdi_listesi + index.html)", 
         "data/sehir_tarihce_osm.js":     "241 sehir arastirma birikimi (OSM bolgesi); "
                                          "onkosul AKTARIM (MO motor destegi C4 + "
                                          "Emre kararlari, denetim/SEHIR-TARIHCE-OSM-1014)",

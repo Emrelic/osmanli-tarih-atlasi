@@ -21,12 +21,13 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "k": "fetih",
   "b": "Babil'in Kyros'a geçişi: başlar",
   "gun": "MÖ 539",
-  "yer": "Bābili",
+  "yer": "Bābili / Sippar / Uruk / Ur / Ur / Ur / Ur",
   "d": "Nabonidus'un 17. yilinda (539/538) Ugbaru ve Kyros'un ordusu savassiz Babil'e girer; Kyros 3 Arahsamna'da sehre girer.",
   "kaynak": "Grayson, ABC 7 (Nabonidus Chronicle), col. iii.18; Livius.org · https://livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «On the third day of the month Arahsamna, Cyrus entered Babylon.». Gun cevirisi (Arahsamna 3 = 29 Ekim 539 Jülyen) YAPILMADI; yalniz yil: 539. TDV 'Babil' maddesinden arama ozeti: 'Ahamenîler (İran hâkimiyeti, 539-332)' - madde sayfasi acilmadi, yalniz arama parcacigi. Ahamenis son 330/331/332 TDV parcaciklarinda tutarsiz (Erdeşîr: 559-330, Gîlân: 559-331, Bâbil: 539-332)."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «On the third day of the month Arahsamna, Cyrus entered Babylon.». Gun cevirisi (Arahsamna 3 = 29 Ekim 539 Jülyen) YAPILMADI; yalniz yil: 539. TDV 'Babil' maddesinden arama ozeti: 'Ahamenîler (İran hâkimiyeti, 539-332)' - madde sayfasi acilmadi, yalniz arama parcacigi. Ahamenis son 330/331/332 TDV parcaciklarinda tutarsiz (Erdeşîr: 559-330, Gîlân: 559-331, Bâbil: 539-332).",
+  "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
   "t": "-0549-01-01",

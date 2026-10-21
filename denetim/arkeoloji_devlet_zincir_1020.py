@@ -141,6 +141,7 @@ def main():
                       re.finditer(r'\{ ad:"([^"]+)"[^\n]*?lat:(-?[\d.]+), lon:(-?[\d.]+)', sumer)]
     MEV = mevcut_noktalar({"yerlesimler_mo_zincir.js", "yerlesimler_mo_sumer.js"})
     yeni, sumer_ek, red = [], {}, []
+    PT_AD = {}
     gecisler = {}                                   # (t, kimden, kime) -> dict(sehirler:set, kaynak, alinti, okul)
 
     for s in SK:
@@ -213,8 +214,12 @@ def main():
         # komşu aynı-sahip parçaları birleştir
         son = []
         for g in temiz:
-            if son and son[-1]["d"] == g["d"] and son[-1]["t"] == g["f"] and g["d"] != "__BOSLUK__":
+            if son and son[-1]["d"] == g["d"] and son[-1]["t"] == g["f"]:
                 son[-1]["t"] = g["t"]
+                if g["d"] == "__BOSLUK__" and g["kaynak"][:80] not in son[-1]["kaynak"]:
+                    son[-1]["kaynak"] = (son[-1]["kaynak"] + " || " + g["kaynak"])[:900]
+                    if g["p"] is not None and son[-1]["p"] is None:
+                        son[-1]["p"] = g["p"]
             else:
                 son.append(g)
         kur_t, bit_t = son[0]["f"], son[-1]["t"]
@@ -227,7 +232,9 @@ def main():
                 kd = (g["f"], kim, g["d"])
                 o = gecisler.setdefault(kd, dict(s=set(), kaynak=g["p"].get("gecis_kaynagi"), alinti=g["p"].get("alinti"), okul=g["p"].get("kronoloji_okulu"), sahip=g["p"]["sahip"]))
                 o["s"].add(s["sehir"])
-        for g in son:                                   # her uç için (künye ucu/boşluk ucu dahil) kayıt
+        for ix_, g in enumerate(son):                   # her uç için (künye ucu/boşluk ucu dahil) kayıt
+            if g["d"] == "__BOSLUK__" and 0 < ix_ < len(son) - 1:
+                continue                                # ARA boşlukların uçları komşu sahiplerin uçlarıyla AYNI gün (onlar kayıtlı); ilk/son boşluk ucu yalnız kendisine ait
             for uc, tip in ((g["f"], "b"), (g["t"], "s")):
                 kd = (uc, g["d"], tip)
                 gecisler.setdefault(("UC",) + kd, dict(s=set(), kaynak=None, alinti=None, okul=None, sahip=g["d"]))["s"].add(s["sehir"])
@@ -241,6 +248,7 @@ def main():
                    kaynak="denetim/arastirma/%s sehir_kontrol: %s" % (s["_dosya"], s["sehir"]), **{"not": notm})
         # Sümer noktası mı?
         sm = [a for (a, la, lo) in sumer_noktalar if km((s["lat"], s["lon"]), (la, lo)) < 3.0]
+        PT_AD[s["sehir"]] = sm[0] if sm else ad
         if sm:
             sumer_ek[sm[0]] = rec
             continue
@@ -251,12 +259,21 @@ def main():
         yeni.append(rec)
 
     # ── Sümer noktalarına s: ekle (yalnız s:[] olan; kur/bit korunur, dönemler onlara kırpılır)
+    #    VARSAYILAN: dosyaya YAZILMAZ (MÖ devlet künyelerinin BOYALAR girişi yok → 'HARİTA DELİĞİ' kapısı); denetim/arastirma/sumer-zincir-bekleyen.json'a dökülür.
+    #    BOYALAR gelince: --sumer-uygula
+    sumer_json = {}
     for a, rec in sumer_ek.items():
-        m = re.search(r'(\{ ad:"%s"[^\n]*?)s:\[\], d:\[\]' % re.escape(a), sumer)
-        if not m:
-            red.append((a, "Sümer dosyasında s:[] kalıbı bulunamadı"))
+        m0 = re.search(r'\{ ad:"%s"' % re.escape(a), sumer)
+        if not m0:
+            red.append((a, "Sümer dosyasında ad bulunamadı"))
             continue
-        blok = sumer[m.start():sumer.index("\n", sumer.index('kaynak:"', m.start()))]
+        sonr = sumer.find("\n{ ad:", m0.start() + 1)
+        sonr = sonr if sonr != -1 else sumer.index("\n];", m0.start())
+        blok = sumer[m0.start():sonr]
+        m = m0
+        if "s:[], d:[]" not in blok:
+            red.append((a, "Sümer girdisinde s:[] kalıbı yok (zaten dolu?)"))
+            continue
         kurm = re.search(r'kur:"([^"]+)"', blok)
         bitm = re.search(r'bit:"([^"]+)"', blok)
         segs = rec["s"]
@@ -271,6 +288,7 @@ def main():
         if not segs:
             red.append((a, "Sümer noktası: kur/bit penceresiyle örtüşen dönem yok"))
             continue
+        sumer_json[a] = segs
         ek_not = " ZİNCİR (21 Ekim 2026, VERI-MO-ARKEO): s: araştırma sehir_kontrol'dan (denetim/arastirma/3-mezopotamya-iran.json); dönemler nokta kur/bit penceresine ve künye ömrüne kırpıldı; boşluklar __BOSLUK__ beyanlı."
         yeni_blok = blok.replace("s:[], d:[]", "s:%s, d:[]" % jso(segs), 1)
         yeni_blok = yeni_blok.replace('SAHİPLİK (s:) YAZILMADI', 'SAHİPLİK s: ZİNCİRİ EKLENDİ (21 Ekim 2026)', 1)
@@ -288,7 +306,10 @@ def main():
                 f.write("{ " + ", ".join("%s:%s" % (k, jso(v)) for k, v in r.items()) + " },\n")
             f.write("];\n")
         print("yerlesimler_mo_zincir.js", len(yeni), "nokta")
-    open(sumer_yol, "w", encoding="utf-8", newline="").write(sumer)
+    json.dump(sumer_json, open(os.path.join(ARA, "sumer-zincir-bekleyen.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    if "--sumer-uygula" in sys.argv:
+        open(sumer_yol, "w", encoding="utf-8", newline="").write(sumer)
+        print("Sümer dosyasına s: YAZILDI")
 
     # ── olaylar: kaynaklı geçişler + uçlar
     dosyalar = olay_havuzu()
@@ -298,9 +319,32 @@ def main():
     def metin(o):
         return " ".join(str(o.get(a) or "") for a in ("b", "yer", "d")).lower()
 
-    def sozc(sehirler):
-        return {w for sh in sehirler for w in re.sub(r"[^\wçğıöşü]", " ", sh.lower()).split() if len(w) >= 4}
+    def sade(sh):
+        return re.sub(r"\s*\(.*?\)", "", sh).strip()
 
+    def sozc(sehirler):
+        # denetle YER kolu kısa adları (Ur) saymaz → 4 harften kısa adlar HİÇ "anılmış" sayılmaz (özel `yer_id` maddesi ister)
+        return {w for sh in sehirler for w in re.sub(r"[^\wçğıöşü]", " ", sade(sh).lower()).split() if len(w) >= 4}
+
+    def ev_kur(t, kid, tip, kim, kaynak_var, o, cities, yer_id=None):
+        ka = KU[kid][0] if kid in KU else ("sahipsiz aralık" if kid == "__BOSLUK__" else kid)
+        adl = ", ".join(cities)
+        if kaynak_var:
+            kimad = KU[kim][0] if kim in KU else ("sahipsiz aralık" if kim == "__BOSLUK__" else kim)
+            bas = "%s: %s → %s" % (adl, kimad, ka)
+            d = "%s noktalarında sahiplik %s'dan %s'ya geçer. Kaynak geçiş bilgisi: %s" % (adl, kimad, ka, (o["kaynak"] or "")[:500])
+            kay = (o["kaynak"] or "")[:700]
+        else:
+            bas = "%s: %s dönemi %s" % (adl, ka, "başlar" if tip == "b" else "sona erer")
+            d = "%s noktalarının s: dizisinde bu uç, sahip künyenin (%s) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2)." % (adl, ka)
+            kay = "künye %s — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js" % kid
+        e_ = {"t": t, "k": "diger", "b": bas, "gun": ("MÖ %d" % (1 - yil(t))) if yil(t) <= 0 else ("MS %d" % yil(t)), "yer": " / ".join(cities),
+              "d": d, "kaynak": kay, "kaynak_turu": "yazili", "kesinlik": "onyil" if (o.get("okul") or "").startswith("Orta") else "yil"}
+        if yer_id:
+            e_["yer_id"] = yer_id
+        return e_
+
+    kisa_ev = {}
     for kd, o in sorted(gecisler.items(), key=lambda kv: str(kv[0])):
         if kd[0] == "UC":
             _, t, kid, tip = kd
@@ -315,30 +359,33 @@ def main():
         kapsam = [w for w in sozc(sehirler)]
         eksik = [sh for sh in sehirler if not any(re.search(r"(?<!\w)" + re.escape(w) + r"(?!\w)", metin(e)) for (e, f) in yakin
                                                  for w in sozc([sh]))]
-        if not eksik:
+        kisa = [sh for sh in eksik if len(sade(sh)) < 4]
+        eksik = [sh for sh in eksik if len(sade(sh)) >= 4]
+        if not eksik and not kisa:
             continue
+        # kısa ad (Ur): denetle YER kolu yalnız `yer_id` TAM EŞİTLİĞİ ile kapatır → ilgili madde `yer_id`yi taşır (maddede TEK yer_id; aynı gün başka kısa ad yoksa yeterli)
+        yid = PT_AD.get(kisa[0], sade(kisa[0])) if kisa else None
+        eksik = eksik + [sade(sh) for sh in kisa]
         ka = KU[kid][0] if kid in KU else ("sahipsiz aralık" if kid == "__BOSLUK__" else kid)
         if yakin:
             # sahibi (künye adı/id parçası) anan madde varsa `yer`ine eklenir; yoksa yeni madde
-            ad_w = {w for w in re.sub(r"[^\wçğıöşü]", " ", (ka + " " + kid).lower()).split() if len(w) >= 5}
-            uyan = [(e, f) for (e, f) in yakin if any(w in metin(e) for w in ad_w)]
+            DUR = {"devleti", "krallığı", "krallik", "kralligi", "hanedanı", "hanedani", "dönemi", "donemi", "imparatorluğu", "imparatorlugu", "sehir", "şehir", "devlet", "sahipsiz", "aralık", "ve", "de"}
+            kim_ad = (KU[kim][0] + " " + kim.replace("-", " ")) if (kaynak_var and kim in KU) else ""
+            ad_w = {w for w in re.sub(r"[^\wçğıöşü]", " ", (ka + " " + kid.replace("-", " ") + " " + kim_ad).lower()).split() if len(w) >= 2 and w not in DUR}
+            uyan = [(e, f) for (e, f) in yakin if any(re.search(r"(?<!\w)" + re.escape(w) + r"(?!\w)", metin(e)) for w in ad_w)]
+            if yid:
+                uyan = [(e, f) for (e, f) in uyan if e.get("yer_id") in (None, yid)]
             if uyan:
                 e, f = min(uyan, key=lambda ef: abs(gn(t) - gn(ef[0]["t"])))
                 e["yer"] = ((e.get("yer") or "") + " / " + " / ".join(eksik)).strip(" /")
-                kirli.add(f)
+                if yid:
+                    e["yer_id"] = yid
+                if f is not None:
+                    kirli.add(f)
                 continue
-        if kaynak_var:
-            kimad = KU[kim][0] if kim in KU else ("sahipsiz aralık" if kim == "__BOSLUK__" else kim)
-            bas = "%s: %s → %s" % (", ".join(eksik), kimad, ka)
-            d = "%s noktalarında sahiplik %s'dan %s'ya geçer. Kaynak geçiş bilgisi: %s" % (", ".join(eksik), kimad, ka, (o["kaynak"] or "")[:500])
-            kay = (o["kaynak"] or "")[:700]
-        else:
-            bas = "%s: %s dönemi %s" % (", ".join(eksik), ka, "başlar" if tip == "b" else "sona erer")
-            d = "%s noktalarının s: dizisinde bu uç, sahip künyenin (%s) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2)." % (", ".join(eksik), ka)
-            kay = "künye %s — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js" % kid
-        yeni_ev.append({"t": t, "k": "diger", "b": bas, "gun": ("MÖ %d" % (1 - yil(t))) if yil(t) <= 0 else ("MS %d" % yil(t)), "yer": " / ".join(eksik),
-                        "d": d, "kaynak": kay, "kaynak_turu": "yazili", "kesinlik": "onyil" if (o.get("okul") or "").startswith("Orta") else "yil"})
-        havuz.append((yeni_ev[-1], None))
+        e_ = ev_kur(t, kid, tip, kim if kaynak_var else None, kaynak_var, o, eksik, yer_id=yid)
+        yeni_ev.append(e_)
+        havuz.append((e_, None))
     for f in kirli:
         on, L = dosyalar[f]
         with open(f, "w", encoding="utf-8", newline="\n") as fh:
