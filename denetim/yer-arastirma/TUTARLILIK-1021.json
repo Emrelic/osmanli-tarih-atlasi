@@ -377,6 +377,40 @@
   "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
  },
  {
+  "ad": "Carrhae (Harran)",
+  "kronoloji_adi": "Carrhae",
+  "lat": 36.8636,
+  "lon": 39.0307,
+  "devlet_bolgeleri": [
+   "italya"
+  ],
+  "durum": "UYUMSUZ",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Barbalissus",
+  "kronoloji_adi": "Barbalissus",
+  "lat": 35.987,
+  "lon": 38.111,
+  "devlet_bolgeleri": [
+   "iran",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Pozantı",
+  "kronoloji_adi": "Pozantı",
+  "lat": 37.4258,
+  "lon": 34.8912,
+  "devlet_bolgeleri": [
+   "mezopotamya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
   "ad": "Suriye",
   "kronoloji_adi": "Suriye",
   "lat": 35.023,
@@ -1192,6 +1226,145 @@
   "lon": -0.7333,
   "devlet_bolgeleri": [
    "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Châlons",
+  "kronoloji_adi": "Châlons",
+  "lat": 48.95393,
+  "lon": 4.36724,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Saint-Maurice",
+  "kronoloji_adi": "Saint-Maurice",
+  "lat": 46.2085,
+  "lon": 7.0044,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Doncaster",
+  "kronoloji_adi": "Doncaster",
+  "lat": 53.5228,
+  "lon": -1.1313,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Hexham",
+  "kronoloji_adi": "Hexham",
+  "lat": 54.9718,
+  "lon": -2.1009,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Oswestry",
+  "kronoloji_adi": "Oswestry",
+  "lat": 52.8606,
+  "lon": -3.0555,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Leeds",
+  "kronoloji_adi": "Leeds",
+  "lat": 53.8007,
+  "lon": -1.5503,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Whitby",
+  "kronoloji_adi": "Whitby",
+  "lat": 54.4851,
+  "lon": -0.6171,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Dunkeld",
+  "kronoloji_adi": "Dunkeld",
+  "lat": 56.5679,
+  "lon": -3.5857,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Vendôme",
+  "kronoloji_adi": "Vendôme",
+  "lat": 47.7995,
+  "lon": 1.0646,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Edington",
+  "kronoloji_adi": "Edington",
+  "lat": 51.2795,
+  "lon": -2.105,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "kuzey-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Talavera",
+  "kronoloji_adi": "Talavera",
+  "lat": 39.9601,
+  "lon": -4.8323,
+  "devlet_bolgeleri": [
+   "iberya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Monemvasia",
+  "kronoloji_adi": "Monemvasia",
+  "lat": 36.6884,
+  "lon": 23.0523,
+  "devlet_bolgeleri": [
+   "balkanlar"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Jaca",
+  "kronoloji_adi": "Jaca",
+  "lat": 42.5692,
+  "lon": -0.5495,
+  "devlet_bolgeleri": [
+   "iberya"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_avrupa.js"
@@ -2039,6 +2212,26 @@
    "suriye-filistin"
   ],
   "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Bisütun (Bisotun)",
+  "kronoloji_adi": "Bisütun",
+  "lat": 34.3881,
+  "lon": 47.4318,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Masada",
+  "kronoloji_adi": "Masada",
+  "lat": 31.3164,
+  "lon": 35.3537,
+  "devlet_bolgeleri": [
+   "italya"
+  ],
+  "durum": "UYUMSUZ",
   "dosya": "yerlesimler_once1281_yt_ortadogu.js"
  },
  {

@@ -1,6 +1,6 @@
 # YER-TANIMA — insan inceleme kontrol listesi (21 Ekim 2026)
 
-Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARAC-YER-INCELEME-1021.py`. Toplam 180 kayıt: 103 yerleşim, 77 bölge temsilcisi.
+Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARAC-YER-INCELEME-1021.py`. Toplam 198 kayıt: 121 yerleşim, 77 bölge temsilcisi.
 
 ## Nasıl bakılır
 
@@ -13,7 +13,7 @@ Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARA
 
 - BÖLGE: modern/tek merkez; tarihî sınır değil: 77
 - Natural Earth son çare (çift tanık değil): 37
-- konum yaklaşık: 21
+- konum yaklaşık: 28
 - DAI/GeoNames aynı koordinat olabilir: 8
 - Pleiades türü yerleşim dışı olabilir: 2
 - alias TDV ile teyitli (gövde okundu): 1
@@ -53,6 +53,9 @@ Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARA
 | Silvan | sehir | 38.1428, 41.0033 | anadolu_kafkas | ÇİFT TANIK: Pleiades 874573 https://pleiades.stoa.org/places/874573 (38.1427855, 41.003257) · GeoNames 300796 https://www.geonames.org/300796 (38.13708, 41.00817) · TDV İslâm Ansiklopedisi, MEYYAFARIKIN https://islamansiklopedisi.org.tr/meyyafarikin (None, Non | — |
 | Amorion (Amorium) | harabe | 39.0202, 31.2956 | anadolu_kafkas | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/609302 (39.0201829, 31.2955626) · Getty TGN http://vocab.getty.edu/tgn/6000247 (39.02, 31.289) · iDAI.gazetteer https://gazetteer.dainst.org/place/2284810 (39.02073, 31.29225) | — |
 | Ergani | kasaba | 38.269, 39.7545 | anadolu_kafkas | ÇİFT TANIK: GeoNames https://www.geonames.org/315468 (38.26899, 39.75446) · Getty TGN http://vocab.getty.edu/tgn/1086252 (38.2833, 39.7333) · Getty TGN http://vocab.getty.edu/tgn/7725480 (38.268986, 39.754457) | konum yaklaşık |
+| Carrhae (Harran) | sehir | 36.8636, 39.0307 | anadolu_kafkas | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/658427 (36.86359, 39.03075) · iDAI.gazetteer https://gazetteer.dainst.org/place/2280330 (36.86, 39.03139) | — |
+| Barbalissus | sehir | 35.987, 38.111 | anadolu_kafkas | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/668208 (35.98703, 38.11111) · iDAI.gazetteer https://gazetteer.dainst.org/place/2296409 (35.98718, 38.110435) | — |
+| Pozantı | kasaba | 37.4258, 34.8912 | anadolu_kafkas | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/648742 (37.425804, 34.891173) · iDAI.gazetteer https://gazetteer.dainst.org/place/Pozantı (37.42778, 34.87167) | konum yaklaşık |
 | Suriye | bolge | 35.023, 38.505 | anadolu_kafkas | TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson) Syria (35.023, 38.505) | BÖLGE: modern/tek merkez; tarihî sınır değil; Natural Earth son çare (çift tanık değil) |
 | Ermenistan | bolge | 40.289, 44.932 | anadolu_kafkas | TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson) Armenia (40.289, 44.932) | BÖLGE: modern/tek merkez; tarihî sınır değil; Natural Earth son çare (çift tanık değil) |
 | Pavia | sehir | 45.185899, 9.156562 | avrupa | ÇİFT TANIK: Pleiades pleiades.stoa.org/places/383798 (Ticinum, settlement, precise) (45.185899, 9.156562) · GeoNames geonames.org/3171366 (Pavia, IT) (45.19205, 9.15917) | — |
@@ -123,6 +126,19 @@ Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARA
 | Vienne | sehir | 45.52, 4.875 | avrupa | ÇİFT TANIK: geo.api.gouv.fr (IGN/INSEE) https://geo.api.gouv.fr/communes?nom=Vienne (45.5221, 4.8803) · iDAI.gazetteer https://gazetteer.dainst.org/place/2080717 (45.51667, 4.86667) | — |
 | Trogir | sehir | 43.5176, 16.2506 | avrupa | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/197555 (43.517639, 16.25063) · GeoNames https://www.geonames.org/3188763 (43.5125, 16.25167) · Getty TGN http://vocab.getty.edu/tgn/7015545 (43.5333, 16.25) | — |
 | Tinchebrai (Tinchebray) | kasaba | 48.7644, -0.7333 | avrupa | ÇİFT TANIK: GeoNames/TGN 7603254 https://www.geonames.org/2972555 (48.76437, -0.73333) · geo.api.gouv.fr https://geo.api.gouv.fr/communes?nom=Tinchebray (48.7283, -0.7337) | — |
+| Châlons | sehir | 48.95393, 4.36724 | avrupa | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/108944 (48.95516, 4.36065) · geo.api.gouv.fr (Fransa resmi komün) https://geo.api.gouv.fr/communes?nom=Ch%C3%A2lons-en-Champagne (48.9656, 4.3801) | konum yaklaşık |
+| Saint-Maurice | kasaba | 46.2085, 7.0044 | avrupa | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/177429 (46.21846, 7.00398) · swisstopo SearchServer https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Saint-Maurice (46.2078, 7.0071) | — |
+| Doncaster | sehir | 53.5228, -1.1313 | avrupa | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/79412 (53.52542, -1.1351) · OS Open Names (postcodes.io) https://api.postcodes.io/places?q=Doncaster (53.52272, -1.13235) | konum yaklaşık |
+| Hexham | kasaba | 54.9718, -2.1009 | avrupa | ÇİFT TANIK: OS Open Names (postcodes.io) https://api.postcodes.io/places?q=Hexham (54.97178, -2.10093) · GeoNames/Getty TGN (tek aile) TGN 7010009 (54.96666, -2.1) | konum yaklaşık |
+| Oswestry | kasaba | 52.8606, -3.0555 | avrupa | ÇİFT TANIK: OS Open Names (postcodes.io) https://api.postcodes.io/places?q=Oswestry (52.86061, -3.05553) · GeoNames/Getty TGN (tek aile) TGN 1030249 (52.85, -3.03333) | konum yaklaşık |
+| Leeds | sehir | 53.8007, -1.5503 | avrupa | ÇİFT TANIK: OS Open Names (postcodes.io) https://api.postcodes.io/places?q=Leeds (53.8007, -1.55026) · GeoNames parti 50 Leeds (53.79648, -1.54785) | konum yaklaşık |
+| Whitby | kasaba | 54.4851, -0.6171 | avrupa | ÇİFT TANIK: OS Open Names (postcodes.io) https://api.postcodes.io/places?q=Whitby (54.48507, -0.61707) · GeoNames/Getty TGN (tek aile) TGN 7010056 (54.48666, -0.630556) | — |
+| Dunkeld | kasaba | 56.5679, -3.5857 | avrupa | ÇİFT TANIK: OS Open Names (postcodes.io) https://api.postcodes.io/places?q=Dunkeld (56.56792, -3.58567) · GeoNames/Getty TGN (tek aile) TGN 7009742 (56.56666, -3.58333) | — |
+| Vendôme | sehir | 47.7995, 1.0646 | avrupa | ÇİFT TANIK: geo.api.gouv.fr (Fransa resmi komün) https://geo.api.gouv.fr/communes?nom=Vend%C3%B4me (47.7995, 1.0646) · GeoNames/Getty TGN (tek aile) GeoNames 2970110 (47.79292, 1.06556) | — |
+| Edington | kasaba | 51.2795, -2.105 | avrupa | ÇİFT TANIK: OS Open Names (postcodes.io) https://api.postcodes.io/places?q=Edington (51.27949, -2.10504) · GeoNames/Getty TGN (tek aile) TGN 7449510 (51.27583, -2.10638) | konum yaklaşık |
+| Talavera | sehir | 39.9601, -4.8323 | avrupa | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/265834 (39.96008, -4.8322732) · GeoNames/Getty TGN (tek aile) TGN 7008710 (39.95, -4.83333) | — |
+| Monemvasia | kale | 36.6884, 23.0523 | avrupa | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/109466300 (36.6884, 23.0523) · iDAI.gazetteer https://gazetteer.dainst.org/place/2306272 (36.68766, 23.05582) | — |
+| Jaca | sehir | 42.5692, -0.5495 | avrupa | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/246422 (42.5691992, -0.5495195) · iDAI.gazetteer https://gazetteer.dainst.org/place/2114905 (42.56898, -0.54987) | — |
 | Bulgaristan | bolge | 42.769, 25.218 | avrupa | TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson) Bulgaria (42.769, 25.218) | BÖLGE: modern/tek merkez; tarihî sınır değil; Natural Earth son çare (çift tanık değil) |
 | Dalmaçya | bolge | 43.799, 16.285 | avrupa | TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson) Dalmatia (43.799, 16.285) | BÖLGE: modern/tek merkez; tarihî sınır değil; Natural Earth son çare (çift tanık değil) |
 | Normandiya | bolge | 49.158, -0.122 | avrupa | TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson) Normandie (49.158, -0.122) | BÖLGE: modern/tek merkez; tarihî sınır değil; Natural Earth son çare (çift tanık değil) |
@@ -195,6 +211,8 @@ Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARA
 | Celûlâ (Jalula) | kasaba | 34.2667, 45.1667 | ortadogu | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/894013 (34.186388, 45.118333) · Getty TGN http://vocab.getty.edu/tgn/6002825 (34.2667, 45.1667) | konum yaklaşık |
 | Ebher (Abhar) | sehir | 36.1468, 49.218 | ortadogu | ÇİFT TANIK: GeoNames https://www.geonames.org/145034 (36.1468, 49.218) · Getty TGN http://vocab.getty.edu/tgn/1078953 (36.0833, 49.3) · iDAI.gazetteer https://gazetteer.dainst.org/place/2750098 (36.146667, 49.218056) | konum yaklaşık; DAI/GeoNames aynı koordinat olabilir |
 | Banyas | kale | 33.2475, 35.6935 | ortadogu | ÇİFT TANIK: Pleiades 678324 Paneas https://pleiades.stoa.org/places/678324 (33.2475255, 35.6934605) · Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu) http://vocab.getty.edu/tgn/7016212 (33.2333, 35.7) | konum yaklaşık |
+| Bisütun (Bisotun) | harabe | 34.3881, 47.4318 | ortadogu | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/903002 (34.3881, 47.4318) · iDAI.gazetteer https://gazetteer.dainst.org/place/2087505 (34.3996, 47.445) | — |
+| Masada | kale | 31.3164, 35.3537 | ortadogu | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/687968 (31.3164, 35.3537) · iDAI.gazetteer https://gazetteer.dainst.org/place/2119880 (31.31561, 35.35275) | — |
 | Yemen | bolge | 15.935, 47.542 | ortadogu | TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson) Yemen (15.935, 47.542) | BÖLGE: modern/tek merkez; tarihî sınır değil; Natural Earth son çare (çift tanık değil) |
 | Irak | bolge | 33.04, 43.745 | ortadogu | TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson) Iraq (33.04, 43.745) | BÖLGE: modern/tek merkez; tarihî sınır değil; Natural Earth son çare (çift tanık değil) |
 | Tihâme | bolge | 18.384, 41.746 | ortadogu | TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson) Tihāmah (18.384, 41.746) | BÖLGE: modern/tek merkez; tarihî sınır değil; Natural Earth son çare (çift tanık değil) |

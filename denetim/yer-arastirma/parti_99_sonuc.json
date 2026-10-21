@@ -1,0 +1,669 @@
+{
+ "parti": 99,
+ "sonuclar": [
+  {
+   "ad": "Sultanhanı",
+   "durum": "tek_tanik",
+   "lat": 38.2471,
+   "lon": 33.5496,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Sultanhani (Aksaray)",
+   "ulke_modern": "Turkiye",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/300197",
+     "lat": 38.2471,
+     "lon": 33.54961,
+     "not": "Aksaray Sultanhani"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2771815",
+     "lat": 38.2,
+     "lon": 33.5,
+     "not": "Sultan Han; GeoNames/DAI turev sayildi"
+    }
+   ],
+   "hesap": "",
+   "not": "Aksaray yakini, Anadolu ile uyumlu; ikinci bagimsiz tanik yok"
+  },
+  {
+   "ad": "Monemvasia",
+   "durum": "cift_tanik",
+   "lat": 36.6884,
+   "lon": 23.0523,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Monemvasia",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/109466300",
+     "lat": 36.6884,
+     "lon": 23.0523,
+     "not": "bagimsiz"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2306272",
+     "lat": 36.68766,
+     "lon": 23.05582,
+     "not": ""
+    }
+   ],
+   "hesap": "Pleiades-DAI farki ~0.3 km",
+   "not": "Mora (Peloponez) ile uyumlu"
+  },
+  {
+   "ad": "Alba",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "",
+   "ulke_modern": "Birlesik Krallik",
+   "tanik": [],
+   "hesap": "",
+   "not": "Alba = Iskocya (Gael adi); Pleiades Alba Fucens (Italya) yanlis eslesme. Maddede kral/kraliyet baglami"
+  },
+  {
+   "ad": "Strumitsa",
+   "durum": "tek_tanik",
+   "lat": 41.4376,
+   "lon": 22.6429,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Strumica",
+   "ulke_modern": "Kuzey Makedonya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/785380",
+     "lat": 41.43763,
+     "lon": 22.64288,
+     "not": "Strumica"
+    }
+   ],
+   "hesap": "",
+   "not": "Olay Kleidion (Belasica gecidi) savasi; Strumitsa bolge kasabasi, yalniz yaklasik. DAI kaydi yok"
+  },
+  {
+   "ad": "Clontarf",
+   "durum": "tek_tanik",
+   "lat": 53.3608,
+   "lon": -6.1969,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Clontarf, Dublin",
+   "ulke_modern": "Irlanda",
+   "tanik": [
+    {
+     "kaynak": "OSM Nominatim (kimlik/konum kontrolu)",
+     "url_veya_atif": "nominatim.openstreetmap.org Clontarf Dublin",
+     "lat": 53.3608,
+     "lon": -6.1969,
+     "not": "Dublin banliyosu; GeoNames Avustralya adaylari reddedildi"
+    }
+   ],
+   "hesap": "",
+   "not": "Brian Boru - Dublin/Leinster baglami; akademik ikinci tanik alinamadi"
+  },
+  {
+   "ad": "Essex",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "",
+   "ulke_modern": "Birlesik Krallik",
+   "tanik": [],
+   "hesap": "",
+   "not": "Essex kontlugu (DAI 51.833,0.583 bolge merkezi); olay yeri Ashingdon, Essex"
+  },
+  {
+   "ad": "Pereyaslav",
+   "durum": "tek_tanik",
+   "lat": 50.0674,
+   "lon": 31.4497,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Pereiaslav (Pereyaslav-Hmelnitskiy)",
+   "ulke_modern": "Ukrayna",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/697637",
+     "lat": 50.06739,
+     "lon": 31.44969,
+     "not": "Pereiaslav"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2069734",
+     "lat": null,
+     "lon": null,
+     "not": "DAI kaydi var, koordinat yok"
+    }
+   ],
+   "hesap": "",
+   "not": "Alta Irmagi Pereyaslav yakininda; Kiev tahti baglami uyumlu; yaklasik"
+  },
+  {
+   "ad": "Kamba",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "",
+   "ulke_modern": "Almanya",
+   "tanik": [],
+   "hesap": "",
+   "not": "GeoNames Kamba (Nijer/Nijerya, 11.85,3.65) KITA UYUMSUZ. Kamba = Ren uzerinde Oppenheim karsisi (tarihsel Kamba, yaklasik 49.85,8.35 civari) ama kaynakla dogrulanamadi"
+  },
+  {
+   "ad": "Ren",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "",
+   "ulke_modern": "Almanya",
+   "tanik": [],
+   "hesap": "",
+   "not": "Ren nehri (Rhein); Kamba Ren kiyisinda"
+  },
+  {
+   "ad": "Biograd",
+   "durum": "tek_tanik",
+   "lat": 43.94333,
+   "lon": 15.45194,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Biograd na Moru",
+   "ulke_modern": "Hirvatistan",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3204121",
+     "lat": 43.94333,
+     "lon": 15.45194,
+     "not": "Biograd na Moru"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2053471",
+     "lat": null,
+     "lon": null,
+     "not": "DAI kaydi var, koordinat yok"
+    }
+   ],
+   "hesap": "",
+   "not": "Kral taci tarihi merkezi; tek tanik"
+  },
+  {
+   "ad": "Vitry-aux-Loges",
+   "durum": "tek_tanik",
+   "lat": 47.93333,
+   "lon": 2.26667,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Vitry-aux-Loges",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2967864",
+     "lat": 47.93333,
+     "lon": 2.26667,
+     "not": "Vitry-aux-Loges (Loiret)"
+    }
+   ],
+   "hesap": "",
+   "not": "I. Henri burada oldu; Fransa kralligi ile uyumlu; DAI kaydi yok"
+  },
+  {
+   "ad": "Hastings",
+   "durum": "tek_tanik",
+   "lat": 50.8552,
+   "lon": 0.5729,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Hastings / Battle (sav.alani ~50.915,0.488, 10 km)",
+   "ulke_modern": "Birlesik Krallik",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/0",
+     "lat": 50.85568,
+     "lon": 0.58009,
+     "not": "Hastings"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2112415",
+     "lat": 50.85519,
+     "lon": 0.57292,
+     "not": "GeoNames/DAI turev"
+    }
+   ],
+   "hesap": "",
+   "not": "Savas Battle'da (Senlac) yapildi; kasaba koord. yaklasik"
+  },
+  {
+   "ad": "Misilmeri",
+   "durum": "tek_tanik",
+   "lat": 38.03183,
+   "lon": 13.44795,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Misilmeri",
+   "ulke_modern": "Italya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2524126",
+     "lat": 38.03183,
+     "lon": 13.44795,
+     "not": "Misilmeri"
+    }
+   ],
+   "hesap": "",
+   "not": "Palermo yakini savas; Sicilya uyumlu; DAI kaydi yok"
+  },
+  {
+   "ad": "Paun",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "",
+   "ulke_modern": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "GeoNames Paung (Myanmar) kita uyumsuz; Bodin-Makedonya ayaklanmasi baglaminda yer tanimlanamadi"
+  },
+  {
+   "ad": "Canossa",
+   "durum": "tek_tanik",
+   "lat": 44.5758,
+   "lon": 10.4557,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Canossa Kalesi",
+   "ulke_modern": "Italya",
+   "tanik": [
+    {
+     "kaynak": "OSM Nominatim (konum kontrolu)",
+     "url_veya_atif": "Canossa, Reggio Emilia",
+     "lat": 44.5758,
+     "lon": 10.4557,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2070651",
+     "lat": 44.608962,
+     "lon": 10.411555,
+     "not": "DAI 'Luceria' kaydi Canossa aramasinda; ~5 km"
+    }
+   ],
+   "hesap": "",
+   "not": "GeoNames Alberta kaydi reddedildi (kita). DAI 'Canossa' 44.906,10.646 baska yer, kullanilmadi"
+  },
+  {
+   "ad": "Dıraç",
+   "durum": "cift_tanik",
+   "lat": 41.3163,
+   "lon": 19.4474,
+   "tur": "liman",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Durres (Dyrrachium)",
+   "ulke_modern": "Arnavutluk",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/481818",
+     "lat": 41.3163425,
+     "lon": 19.447355,
+     "not": "bagimsiz"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2757945",
+     "lat": 41.32306,
+     "lon": 19.44139,
+     "not": ""
+    }
+   ],
+   "hesap": "Pleiades-DAI farki ~0.9 km",
+   "not": "Robert Guiscard 1081 Durazzo; GeoNames Dirac Fransa reddedildi"
+  },
+  {
+   "ad": "Duklja",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "",
+   "ulke_modern": "Karadag",
+   "tanik": [],
+   "hesap": "",
+   "not": "Duklja = ortacag devleti (Zeta); GeoNames Dukla (Polonya) kita uyumsuz"
+  },
+  {
+   "ad": "Algeciras",
+   "durum": "tek_tanik",
+   "lat": 36.13326,
+   "lon": -5.45051,
+   "tur": "liman",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Algeciras",
+   "ulke_modern": "Ispanya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/0",
+     "lat": 36.13326,
+     "lon": -5.45051,
+     "not": "Algeciras Cadiz"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2110706",
+     "lat": 36.13326,
+     "lon": -5.45051,
+     "not": "DAI birebir ayni, turev"
+    }
+   ],
+   "hesap": "",
+   "not": "Murabit gecisi 1086 Algeciras; Endulus baglami uyumlu"
+  },
+  {
+   "ad": "Konghelle",
+   "durum": "tek_tanik",
+   "lat": 57.87096,
+   "lon": 11.98054,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Kungalv (Konghelle)",
+   "ulke_modern": "Isvec",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2698739",
+     "lat": 57.87096,
+     "lon": 11.98054,
+     "not": "Kungalv"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2065380",
+     "lat": null,
+     "lon": null,
+     "not": "DAI Kungalv kaydi, koordinat yok"
+    }
+   ],
+   "hesap": "",
+   "not": "Konghelle = Kungalv, Gota Alv; uc iskandinav kral bulusmasi"
+  },
+  {
+   "ad": "Kungälv",
+   "durum": "tek_tanik",
+   "lat": 57.87096,
+   "lon": 11.98054,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Kungalv (Konghelle)",
+   "ulke_modern": "Isvec",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2698739",
+     "lat": 57.87096,
+     "lon": 11.98054,
+     "not": "Kungalv"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2065380",
+     "lat": null,
+     "lon": null,
+     "not": "DAI kaydi, koordinat yok"
+    }
+   ],
+   "hesap": "",
+   "not": "Konghelle esanlami"
+  },
+  {
+   "ad": "Biograd na Moru",
+   "durum": "tek_tanik",
+   "lat": 43.94333,
+   "lon": 15.45194,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Biograd na Moru",
+   "ulke_modern": "Hirvatistan",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3204121",
+     "lat": 43.94333,
+     "lon": 15.45194,
+     "not": "Biograd na Moru"
+    }
+   ],
+   "hesap": "",
+   "not": "Kalman 1102 taci"
+  },
+  {
+   "ad": "Worms",
+   "durum": "tek_tanik",
+   "lat": 49.6305,
+   "lon": 8.3617,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Worms",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2806142",
+     "lat": 49.63278,
+     "lon": 8.35916,
+     "not": "Worms"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2052675",
+     "lat": 49.630549,
+     "lon": 8.361692,
+     "not": "DAI; GeoNames turevi sayildi"
+    }
+   ],
+   "hesap": "",
+   "not": "Worms Konkordatosu; Pleiades Borbetomagus kaydi bulunamadi"
+  },
+  {
+   "ad": "Jaca",
+   "durum": "cift_tanik",
+   "lat": 42.5692,
+   "lon": -0.5495,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Jaca",
+   "ulke_modern": "Ispanya",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/246422",
+     "lat": 42.5691992,
+     "lon": -0.5495195,
+     "not": "bagimsiz"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2114905",
+     "lat": 42.56898,
+     "lon": -0.54987,
+     "not": ""
+    }
+   ],
+   "hesap": "Pleiades-DAI farki <0.1 km",
+   "not": "Aragon krallik merkezi; Aragon baglami uyumlu"
+  },
+  {
+   "ad": "Galluccio",
+   "durum": "tek_tanik",
+   "lat": 41.35232,
+   "lon": 13.95372,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Galluccio",
+   "ulke_modern": "Italya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3176353",
+     "lat": 41.35232,
+     "lon": 13.95372,
+     "not": "Galluccio (Caserta)"
+    }
+   ],
+   "hesap": "",
+   "not": "1139 Galluccio savasi, Kampanya; yaklasik; DAI kaydi yok"
+  },
+  {
+   "ad": "Ourique",
+   "durum": "tek_tanik",
+   "lat": 37.6539,
+   "lon": -8.2257,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Ourique",
+   "ulke_modern": "Portekiz",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2265386",
+     "lat": 37.6539,
+     "lon": -8.22569,
+     "not": "Ourique"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2410575",
+     "lat": 37.653157,
+     "lon": -8.224833,
+     "not": "DAI belediye; turev"
+    }
+   ],
+   "hesap": "",
+   "not": "Savas alani tartismali, kasaba yaklasik"
+  },
+  {
+   "ad": "Leinster",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "",
+   "ulke_modern": "Irlanda",
+   "tanik": [],
+   "hesap": "",
+   "not": "Leinster krallik/eyaleti; GeoNames Avustralya kaydi kita uyumsuz"
+  },
+  {
+   "ad": "Alnwick",
+   "durum": "tek_tanik",
+   "lat": 55.41318,
+   "lon": -1.70563,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Alnwick",
+   "ulke_modern": "Birlesik Krallik",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/0",
+     "lat": 55.41318,
+     "lon": -1.70563,
+     "not": "Alnwick"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2086522",
+     "lat": 55.41318,
+     "lon": -1.70563,
+     "not": "Alnwick Castle; GeoNames ile birebir ayni"
+    }
+   ],
+   "hesap": "",
+   "not": "Kanada adayi reddedildi"
+  },
+  {
+   "ad": "Northumberland",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tur": null,
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "",
+   "ulke_modern": "Birlesik Krallik",
+   "tanik": [],
+   "hesap": "",
+   "not": "Northumberland kontlugu (DAI 55.25,-2.0 bolge merkezi)"
+  },
+  {
+   "ad": "Falaise",
+   "durum": "tek_tanik",
+   "lat": 48.89217,
+   "lon": -0.19527,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Falaise",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3019113",
+     "lat": 48.89217,
+     "lon": -0.19527,
+     "not": "Falaise Calvados"
+    }
+   ],
+   "hesap": "",
+   "not": "Falaise Antlasmasi, Normandiya; DAI kaydi koordinatsiz"
+  },
+  {
+   "ad": "Bogolyubovo",
+   "durum": "tek_tanik",
+   "lat": 56.19052,
+   "lon": 40.52313,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Bogolyubovo (Vladimir yakini)",
+   "ulke_modern": "Rusya",
+   "tanik": [
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/575609",
+     "lat": 56.19052,
+     "lon": 40.52313,
+     "not": "Bogolyubovo Vladimir"
+    }
+   ],
+   "hesap": "",
+   "not": "Andrey Bogolyubski'nin sarayi/olum yeri"
+  }
+ ]
+}

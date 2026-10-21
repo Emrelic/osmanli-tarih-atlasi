@@ -370,6 +370,72 @@
    "neden": "3km"
   },
   {
+   "ad": "Geneva",
+   "atlas": "Cenevre",
+   "km": 0.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Tingis",
+   "atlas": "Tanca",
+   "km": 1.29,
+   "neden": "3km"
+  },
+  {
+   "ad": "Caesarea",
+   "atlas": "Şerşel (Cherchell)",
+   "km": 0.61,
+   "neden": "3km"
+  },
+  {
+   "ad": "Argentoratum",
+   "atlas": "Strazburg",
+   "km": 1.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Arbela",
+   "atlas": "Erbil",
+   "km": 0.0,
+   "neden": "ad"
+  },
+  {
+   "ad": "Vagarşapat",
+   "atlas": "Eçmiyadzin",
+   "km": 1.57,
+   "neden": "3km"
+  },
+  {
+   "ad": "Chrysopolis",
+   "atlas": "Üsküdar",
+   "km": 0.3,
+   "neden": "ad"
+  },
+  {
+   "ad": "Ctesiphon",
+   "atlas": "Ktesiphon",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Arîş",
+   "atlas": "El-Arîş",
+   "km": 2.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Durrës",
+   "atlas": "Draç",
+   "km": 0.98,
+   "neden": "3km"
+  },
+  {
+   "ad": "Dıraç",
+   "atlas": "Draç",
+   "km": 0.98,
+   "neden": "3km"
+  },
+  {
    "ad": "Mısır",
    "atlas": "(parti içi)",
    "km": 0,
@@ -409,18 +475,18 @@
  "yazilmadi": {
   "yok": 794,
   "belirsiz": 128,
-  "tek_tanik": 316,
+  "tek_tanik": 354,
   "dogal": 10,
   "bolge": 43,
   "bulunamadi": 12,
   "tek_kaynak": 55,
   "celiski": 20,
   "ikinci_tanik_yok": 18,
-  "bolge_adi": 38,
+  "bolge_adi": 50,
   "?": 87,
-  "cozulemedi": 36
+  "cozulemedi": 47
  },
- "yazilan": 180,
+ "yazilan": 198,
  "haric": [
   {
    "ad": "Lade",
