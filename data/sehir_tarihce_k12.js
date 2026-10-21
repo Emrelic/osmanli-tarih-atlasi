@@ -1899,6 +1899,152 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "SONUÇ: İlk anılış 1230 (MKL: 'okl. említi'; sk.wikipedia'nın atıf zinciri: Eğri/Jágerská kapitula'nın Ľubina belgesi, Villa Cassa, Šimon ve Peter'in arazi satışı, 9 hrivna). ÇELİŞKİ (beyan): Treccani, Enciclopedia Italiana (1933) 'Košice' maddesi 'ilk KESİN haber 1249' der; 1230 belgesini anmaz. MKL (belge yılı olarak 1230 veriyor, 'ilk KESİN haber' sınırlaması koymuyor) esas alındı; Treccani 1249 daha geç ve 1230'u dışlamaz. Sahiplik (Macaristan) iki tarihte de aynıdır, zincir etkilenmez; eğer 1230 çürütülürse ilk.t 1249'a iner. İlk anılış kuruluş DEĞİL: Treccani 'Verso la fine del sec. XIII divenne città' (XIII. yy sonu şehir hakkı, Alman kolonizasyonu), MKL geleneği: Géza I (1074-77) döneminde yerleştirilen Saksonlar Eski Kassa'nın yanında yerleşti (gelenek, tarihsiz; kur yazılmadı). Atlas dikişi: macaristan 1281'de sürüyor, düzeltme gerekmiyor. KAYNAK SINIRLARI: Encyclopaedia Beliana 'Košice' maddesi bulunamadı (404/madde yok); DergiPark/TDV'de Kassa şehri maddesi yok (TDV 'kaşa/košice/kaşau/kassa' aramaları: yalnız Kassâb vb.); Magdoško, 'Suburbs of Medieval Košice' (Mesto a dejiny 2023, doi 10.33542/cah2023-2-01) açık erişimli ama Zenodo PDF'i 403 verdi, açılamadı; Lexikon stredovekých miest na Slovensku (HÚ SAV 2010) ve Halaga'nın eserleri yalnız sk.wikipedia dipnotlarından biliniyor, doğrudan açılmadı => 1230 için ikinci bağımsız AKADEMİK kaynak yok (çift teyit değil). Kassa vs Košice adı: Slovak/Macar ad değişimi bu kayıtta adlar'da; atlas adı 'Kassa (Košice)'. 1290 (Jágerský biskup Andrej II Košice'yi Abaúj başdiyakozluğundan muaf etti; civitas terimi) 1281 sonrasıdır, bu kayda yazılmadı."
  },
  {
+  "id": "klis",
+  "ad": "Klis",
+  "atlas_ad": "Klis",
+  "lat": 43.559,
+  "lon": 16.519,
+  "kat1900": 2,
+  "adlar": [
+   "Klis"
+  ],
+  "ilk": {
+   "t": "0852-03-04",
+   "gun": "4 Mart 852",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Klis', https://www.enciklopedija.hr/clanak/klis; 'Trpimir I.', https://www.enciklopedija.hr/clanak/trpimir-i",
+   "tanik": "Prvi se put spominje u ispravi iz 852. kao dvor kneza Trpimira",
+   "ic_not": "İLK ANILIŞ, kuruluş değil. Trpimir Bağışı'nın (listina) geleneksel tarihi 4 Mart 852'dir (LZMK 'Trpimir I.': 'Tradicionalni joj je datum 4. III. 852.'); yeni yorumlar 840-844 (çoğunlukla 841) arasına çeker. İlk anılışta güvenli uç = aralığın SON ucu (852-03-04) alındı. Öncesi: LZMK 'U pretpovijesti gradinsko naselje, potom kasnorimski castrum' (tarihsiz) ve Krčine mağarasında neolitik izler (tarihsiz); yazılı tanık olduğu için arkeolojik katman başlangıç sayılmadı. TDV 'Klis' (N. Moačanin, 2002) yalnız Osmanlı dönemini (1537) verir; 852 TDV'de YOK. Çift teyit YOK."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0852-03-04",
+    "t": "1102-01-01",
+    "d": "hirvatistan-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "LZMK 'Trpimir I.' https://www.enciklopedija.hr/clanak/trpimir-i ('Središte vlasti bilo mu je na području Klisa i Solina'); LZMK 'Klis' ('Klis je bio središte starohrvatske županije'); LZMK 'Tomislav' https://www.enciklopedija.hr/clanak/tomislav",
+    "ic_not": "Künye hirvatistan-kralligi 925-01-01'de başlar; 852-925 arası Trpimir ('dux Chroatorum') ve ardılları aynı Hırvat siyasî yapısıdır (prenslik -> krallık): HAYALET uyarısı beklenir, öneri: künyeyi 852'ye GENİŞLET. Bitiş: Koloman 1102'de Biograd'da Hırvatistan ve Dalmaçya kralı olarak taçlandı (LZMK 'Koloman'). Klis'in 852-1102 arasında Hırvat hükümdar elinde kaldığı LZMK'nın 'Klis narodnih vladara središte županije' ifadesinden (X. yy, Porfirogennetos) çıkarılmıştır; yıllara göre tek tek tanık yok."
+   },
+   {
+    "f": "1102-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "LZMK 'Koloman' https://www.enciklopedija.hr/clanak/koloman; LZMK 'Klis'",
+    "ic_not": "Hırvat-Macar kral birliği (Koloman 1102). LZMK 'Klis': 'Od XII. st. Klis su držali različiti gospodari: splitski nadbiskup, templari, u XIII. st. splitski knez Domald' — kalenin fiilî sahipleri vasal/yerel; üst egemenlik Hırvat-Macar tacı olarak bırakıldı (beyanlı yaklaşıklık, dönem içi el değiştirme günleri kaynakta yok). Atlas 1281 'macaristan' ile aynı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0852-03-04",
+    "gun": "4 Mart 852",
+    "k": "diger",
+    "b": "Klis'in ilk yazılı anılışı: Trpimir'in sarayı (curtis); Trpimir Bağışı (tarih tartışmalı, 840-852)",
+    "kaynak": "LZMK 'Klis', https://www.enciklopedija.hr/clanak/klis",
+    "tanik": "Prvi se put spominje u ispravi iz 852. kao dvor kneza Trpimira"
+   },
+   {
+    "t": "1102-01-01",
+    "gun": "1102",
+    "k": "taht",
+    "b": "Koloman Biograd'da Hırvatistan ve Dalmaçya kralı taçlanır: Hırvat-Macar kral birliği",
+    "kaynak": "LZMK 'Koloman', https://www.enciklopedija.hr/clanak/koloman",
+    "tanik": "u Biogradu bio okrunjen za kralja Hrvatske i Dalmacije"
+   }
+  ],
+  "ic_not": "Klis atlasta k=2 (sancak, 1537-1648 Osmanlı). Atlas 1281'de 'macaristan' ile başlıyor; zincir aynı sahiple bitiyor. TDV maddesinde (kasaba) Osmanlı öncesi kayıt yok. kat1900: LISTE.tsv'de Klis yok; atlas k=2 esas alınarak 2 yazıldı (doğrulanmadı). LZMK tek (Hırvat ulusal) ansiklopedidir; ikinci bağımsız teyit bulunamadı."
+ },
+ {
+  "id": "krakov",
+  "ad": "Krakov",
+  "atlas_ad": "Krakov",
+  "lat": 50.065,
+  "lon": 19.945,
+  "kat1900": 2,
+  "adlar": [
+   "Krakov (Kraków)",
+   "Cracovia",
+   "Krakau"
+  ],
+  "ilk": {
+   "t": "0985-01-01",
+   "gun": "985",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Krakov', https://www.enciklopedija.hr/clanak/krakov",
+   "tanik": "Prvi se put spominje 985.",
+   "ic_not": "İLK ANILIŞ, kuruluş değil. EI 'Cracovia' (F. Kopera 1930; https://www.treccani.it/enciclopedia/cracovia_(Enciclopedia-Italiana)/): 'Il nome di Cracovia appare per la prima volta nel sec. X' (Ibrâhîm b. Yaʿkûb, al-Bekrî aracılığıyla) — yüzyıl hassasiyeti, LZMK'nın 985'i ile çelişmez. Başka literatürde Ibrâhîm b. Yaʿkûb seyahati ≈965-966 verilir; bu oturumda açılıp doğrulanamadığı için YAZILMADI (güvenli uç 985). Efsane (Krak, Wawel ejderhası) gelenektir (EI). Öncesi 'prapovijesno doba' ve Vislan (Wiślanie) merkezi (LZMK), tarihsiz."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0985-01-01",
+    "t": "0999-01-01",
+    "d": "bohemya",
+    "kesinlik": "yil",
+    "kaynak": "LZMK 'Krakov': 'Nakon vladavine češkog kneza Boleslava I. (od oko 955)'; https://www.enciklopedija.hr/clanak/krakov",
+    "ic_not": "LZMK Çek (Přemyslid) egemenliğini oko 955'ten itibaren verir. Künye bohemya 1000-01-01'de başlar: HAYALET uyarısı beklenir; aynı polity sürüyorsa künyeyi GENİŞLET (öneri: Přemyslid Bohemya Dükalığı, ≈955). Dönem başı ilk anılış yılıdır; Bohemya egemenliğinin başlangıcı (≈955) ilk anılıştan eski olduğu için dönem 985'te açıldı. Polonya/Čeh egemenliği tarihçesi literatürde tartışmalı (Jagiellonian Üniv. kaynakları açılmadı)."
+   },
+   {
+    "f": "0999-01-01",
+    "t": "1281-01-01",
+    "d": "polonya-erken",
+    "kesinlik": "yil",
+    "kaynak": "LZMK 'Krakov': 'Krakov je 999. osvojio poljski kralj Boleslav I. Hrabri'; EI 'Cracovia'",
+    "ic_not": "Bolesław Chrobry 999 (LZMK). Piast parçalanması: 'veliki knez' makamı 1138'den Kraków'dadır (LZMK); EI: 'Nelle lotte politiche tra i principi della dinastia dei Piasti ... Cracovia è fino al '200 oggetto di continue contese' — şehir dük düzeyinde el değiştirse de (örn. Silezya Piastları) hepsi Piast Polonyası içinde kalır; atlas 'polonya-erken' ile aynı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0985-01-01",
+    "gun": "985",
+    "k": "diger",
+    "b": "Kraków'un ilk yazılı anılışı (LZMK; EI: X. yüzyıl, Ibrâhîm b. Yaʿkûb)",
+    "kaynak": "LZMK 'Krakov', https://www.enciklopedija.hr/clanak/krakov",
+    "tanik": "Prvi se put spominje 985."
+   },
+   {
+    "t": "0999-01-01",
+    "gun": "999",
+    "k": "fetih",
+    "b": "Polonya kralı I. Boleslaw Chrobry Kraków'u Bohemya'dan alır",
+    "kaynak": "LZMK 'Krakov', https://www.enciklopedija.hr/clanak/krakov",
+    "tanik": "Krakov je 999. osvojio poljski kralj Boleslav I. Hrabri"
+   },
+   {
+    "t": "1138-01-01",
+    "gun": "1138",
+    "k": "idari",
+    "b": "Kraków 'büyük dük' (senior) makamının merkezi olur; Polonya Piast dükalıklarına bölünür",
+    "kaynak": "LZMK 'Krakov', https://www.enciklopedija.hr/clanak/krakov",
+    "tanik": "sjedište velikoga kneza (od 1138)"
+   },
+   {
+    "t": "1241-01-01",
+    "gun": "1241",
+    "k": "fetih",
+    "b": "Tatar (Moğol) istilasında Kraków neredeyse tamamen yıkılır; sahiplik değişmez",
+    "kaynak": "Treccani, 'Cracovia', https://www.treccani.it/enciclopedia/cracovia/",
+    "tanik": "Semidistrutta dai Tatari nel 1241"
+   },
+   {
+    "t": "1257-01-01",
+    "gun": "1257",
+    "k": "idari",
+    "b": "Bolesław Utangaç (Pudico) Magdeburg hukukuna dayalı ayrıcalıkları verir (kent özerkliği)",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Cracovia', https://www.treccani.it/enciclopedia/cracovia_(Enciclopedia-Italiana)/",
+    "tanik": "ottennero da Boleslao il Pudico (1257) privilegi speciali"
+   }
+  ],
+  "ic_not": "Atlas k=1 (1320-1569 başkent) ve 1281'de 'polonya-erken' ile başlıyor; zincir aynı sahiple bitiyor. Atlas 'Krakov' adı Lehçe Kraków'dur. kat1900: LISTE.tsv'de Kraków satırı yok; 2 yazıldı (doğrulanmadı). Atlas düzeltme önerisi: 1138-1281 arasında Kraków Silezya Piastlarının (Henryk Brodaty/Pobożny 1232-41) elinde de kalmıştır (EI 'contese'); bu oturumda gün tanığı açılmadı, atlasa dokunulmadı."
+ },
+ {
   "id": "lizbon",
   "ad": "Lizbon",
   "atlas_ad": "Lizbon",
@@ -2219,6 +2365,227 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Madrid'in kuruluşu (Müslüman kalesi) TDV/Himyerî'ye göre; Roma/Vizigot dönemi şehir kaydı yok. 1031-1083 arası sahiplik 'en erken olası' sınırlarla yazıldı: ZÜNNÛNÎ başlangıcı bulunamadı. Çift teyit YOK (yalnız TDV; Treccani 'Madrid' maddesi (https://www.treccani.it/enciclopedia/madrid_(Enciclopedia-Italiana)/) açıldı ama bu oturumda kuruluş/1083 için okunmadı). Zincir atlas ilk gününde (1281-01-01 Kastilya) biter."
  },
  {
+  "id": "mantova",
+  "ad": "Mantova",
+  "atlas_ad": "Mantova",
+  "lat": 45.156,
+  "lon": 10.791,
+  "kat1900": 2,
+  "adlar": [
+   "Mantua",
+   "Mantova"
+  ],
+  "ilk": {
+   "t": "-0213-01-01",
+   "gun": "MÖ 214",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, 'Mantova' (Enciclopedia on line), https://www.treccani.it/enciclopedia/mantova/",
+   "tanik": "Roma vi fondò una colonia, Mantua, ricordata già nel 214",
+   "ic_not": "İLK ANILIŞ (Treccani: 'ricordata già nel 214' a.C.; Treccani'nin dayandığı birincil metin bu oturumda açılmadı, tek kaynak). EI 'Mantova' (1934; https://www.treccani.it/enciclopedia/mantova_(Enciclopedia-Italiana)/) ayrıca 41 MÖ'de Sezar gazileri için toprak müsaderesini verir ('Nel periodo delle guerre civili, ebbe parte del territorio confiscato ... (41 a. C.)'); Etrüsk kökeni ve Kelt (Cenomani) işgali tarihsiz. Kuruluş tarihi bulunamadı (kur null): Treccani 'Fondata (6°-5° sec. a.C.) forse dagli Etruschi' yalnız tahminî aralık, yazılı tanık değil — ark olarak yazıldı."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-0499-01-01",
+   "gun": "MÖ 6.-5. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, 'Mantova', https://www.treccani.it/enciclopedia/mantova/: 'Fondata (6°-5° sec. a.C.) forse dagli Etruschi'"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0213-01-01",
+    "t": "-0026-01-13",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Mantova', https://www.treccani.it/enciclopedia/mantova/: 'Roma vi fondò una colonia, Mantua, ricordata già nel 214'; EI 'Mantova' (https://www.treccani.it/enciclopedia/mantova_(Enciclopedia-Italiana)/): 'Municipio, ebbe con la regione transpadana la cittadinanza romana'",
+    "ic_not": "Roma bağlılığı (Treccani 'colonia'; EI 'municipio'; 'restandole fedele durante l'insurrezione celtica') beyanlı yaklaşıklıktır: Roma Cumhuriyeti künyesi; öncesi Etrüsk/Kelt (Cenomani) tarihsiz."
+   },
+   {
+    "f": "-0026-01-13",
+    "t": "0476-01-01",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Ovidius, Fasti 1.587-590 (https://www.thelatinlibrary.com/ovid/ovid.fasti1.shtml); yıl (MÖ 27) bu oturumda yeniden doğrulanmadı",
+    "ic_not": "Ortak İtalya zinciri (şehre özgü tanık yok; İtalya genel çerçevesi, beyanlı yaklaşıklık). Künye roma-imp 395-01-17'de biter, bati-roma 476-08-28'e dek: bu şehirlerde toprak değişmediği için roma-imp 476'ya uzatıldı (hayalet uyarısı beklenir; öneri: roma-imp'i bati-roma'yı kapsayacak biçimde genişlet). 476/493/553 yıl hassasiyetli; künye odoakar 476-08-23, dogu-got 493-03-05'te başlar."
+   },
+   {
+    "f": "0476-01-01",
+    "t": "0493-01-01",
+    "d": "odoakar",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Odoacre', https://www.treccani.it/enciclopedia/odoacre/",
+    "ic_not": "Şehre özgü tanık yok; İtalya genel çerçevesi."
+   },
+   {
+    "f": "0493-01-01",
+    "t": "0553-01-01",
+    "d": "dogu-got",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ostrogoti', https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/",
+    "ic_not": "Şehre özgü tanık yok; İtalya genel çerçevesi."
+   },
+   {
+    "f": "0553-01-01",
+    "t": "0601-01-01",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Mantova', https://www.treccani.it/enciclopedia/mantova/: 'dal 601 passò ai Longobardi'; EI 'Longobardi': Mantova Bizans savunma hattında (569)",
+    "ic_not": "Bitiş 601 = Treccani 'Mantova' yılı. EI 'Mantova': 'fortificata dagli esarchi bizantini, presa, perduta e ripresa dai Longobardi' — Longobard-Bizans el değişimleri tarihsiz; dönem içi geçici kayıplar olay olarak yazılmadı."
+   },
+   {
+    "f": "0601-01-01",
+    "t": "0774-06-01",
+    "d": "langobard",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Mantova', https://www.treccani.it/enciclopedia/mantova/: 'dal 601 passò ai Longobardi'",
+    "ic_not": "Kalıcı Longobard hâkimiyeti 601 (Treccani), EI ile ('ripresa') uyumsuz ayrıntı: EI'ye göre bir kez kaybedilip geri alındı (tarihsiz). Bitiş: Pavia'nın düşüşü (haziran 774)."
+   },
+   {
+    "f": "0774-06-01",
+    "t": "0962-02-02",
+    "d": "karolenj-italya",
+    "kesinlik": "ay",
+    "kaynak": "Treccani, 'Longobardi', https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/",
+    "ic_not": "Şehre özgü tanık yok (Longobard krallığının Franklara geçişinden çıkarım, beyanlı). EI Mantova: piskoposluk 827'de (Laiulfo) mevcut."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "0977-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Ottone I (962); EI 'Mantova' (https://www.treccani.it/enciclopedia/mantova_(Enciclopedia-Italiana)/)",
+    "ic_not": "Dönem başı künye geçişi (Otto I). Bitiş: 'f en geç tanıktan' — Canossa'dan Atto Adalberto'nun Mantova kontu olarak ilk belgesi 977 (EI); 962-977 arası kısa, beyanlı."
+   },
+   {
+    "f": "0977-01-01",
+    "t": "1115-01-01",
+    "d": "canossa",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Mantova' (https://www.treccani.it/enciclopedia/mantova_(Enciclopedia-Italiana)/): 'Atto Adalberto è designato come conte di Mantova in un documento del 977'; 'dopo la morte di Matilde (1115)'",
+    "ic_not": "Künyesiz sahip: Canossa Markgraflığı/Kontluğu (önerilen id 'canossa'; ömür en geç ≈977-1115 Mantova'da; EI: 'possedimenti feudali dei Canossa'; Matilde ölümü 1115). Matilde ile Henry IV çatışmasında Mantova 'tra le città più infide per Matilde': 1091'de Henry IV'e teslim oldu (olay, dönem açılmadı).",
+    "kunye_yok": true
+   },
+   {
+    "f": "1115-01-01",
+    "t": "1272-07-04",
+    "d": "mantova-komunu",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Mantova' (https://www.treccani.it/enciclopedia/mantova_(Enciclopedia-Italiana)/): 'dopo la morte di Matilde (1115)' komün eğilimi; 'Un documento del 1126 reca per la prima volta l'indicazione di cinque consoli'",
+    "ic_not": "Künyesiz sahip: Mantova komünü (önerilen id 'mantova-komunu'). f=1115 BEYANLI yaklaşıklık: komün eğilimi Matilde ölümünden sonra, ilk konsül belgesi 1126 (EI; 1115-1126 arası fiilî durum belirsiz). Piskopos otoritesi 1235'te siyasi alandan çekildi (EI). Bitiş: Bonacolsi darbesi 4 Temmuz 1272.",
+    "kunye_yok": true
+   },
+   {
+    "f": "1272-07-04",
+    "t": "1281-01-01",
+    "d": "bonacolsi",
+    "kesinlik": "gun",
+    "kaynak": "EI 'Mantova' (https://www.treccani.it/enciclopedia/mantova_(Enciclopedia-Italiana)/): 'cacciò da Mantova il 4 luglio 1272 il podestà Guido da Correggio'",
+    "ic_not": "Künye bonacolsi 1273-01-01'de başlar (HAYALET uyarısı, ≈6 ay); EI ve Treccani Pinamonte Bonacolsi'yi 'primo signore' sayar, olay günü 1272-07-04. Atlas 1281'de 'mantua' harita anahtarını taşır (künye mantua 1328'de başlar) — künye bonacolsi esas alındı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0213-01-01",
+    "gun": "MÖ 214",
+    "k": "diger",
+    "b": "Mantua'nın ilk anılışı (Treccani: Roma'nın kurduğu koloni)",
+    "kaynak": "Treccani, 'Mantova', https://www.treccani.it/enciclopedia/mantova/",
+    "tanik": "Roma vi fondò una colonia, Mantua, ricordata già nel 214"
+   },
+   {
+    "t": "-0026-01-13",
+    "gun": "MÖ 27 (13 Ocak)",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti -> İmparatorluk (Octavianus'a Augustus adı)",
+    "kaynak": "Ovidius, Fasti 1.587-590 (https://www.thelatinlibrary.com/ovid/ovid.fasti1.shtml); yıl (MÖ 27) bu oturumda yeniden doğrulanmadı",
+    "tanik": "et tuus Augusto nomine dictus avus"
+   },
+   {
+    "t": "0476-01-01",
+    "gun": "476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma otoritesi sona erdi (Odoacer'in Romulus Augustulus'u devirmesi); İtalya Odoakar krallığına geçti",
+    "kaynak": "Treccani, 'Odoacre', https://www.treccani.it/enciclopedia/odoacre/",
+    "tanik": "fu a capo della ribellione che depose Romolo Augustolo (476)"
+   },
+   {
+    "t": "0493-01-01",
+    "gun": "493",
+    "k": "fetih",
+    "b": "Teodorik Odoacer'i yendi; İtalya Doğu Got krallığına geçti (künye dogu-got 493-03-05)",
+    "kaynak": "Treccani, 'Teodorico', https://www.treccani.it/enciclopedia/teodorico/",
+    "tanik": "sconfitto il re degli Eruli Odoacre (493)"
+   },
+   {
+    "t": "0553-01-01",
+    "gun": "553",
+    "k": "fetih",
+    "b": "Monte Lattaro'da Ostrogot direnişi kırıldı; İtalya Bizans yönetimine geçti",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ostrogoti', https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/",
+    "tanik": "Si spezzò con lui al Monte Lattaro (553) la resistenza degli Ostrogoti"
+   },
+   {
+    "t": "0601-01-01",
+    "gun": "601",
+    "k": "fetih",
+    "b": "Mantova Longobardların eline geçer (EI: bir kez daha kaybedilip geri alınır, tarihsiz)",
+    "kaynak": "Treccani, 'Mantova', https://www.treccani.it/enciclopedia/mantova/",
+    "tanik": "dal 601 passò ai Longobardi"
+   },
+   {
+    "t": "0774-06-01",
+    "gun": "Haziran 774",
+    "k": "fetih",
+    "b": "Pavia'nın düşmesiyle Longobard krallığı sona erdi; Frank (Karolenj İtalya) hâkimiyeti",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Longobardi', https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/",
+    "tanik": "Verona e poi Pavia, assediate, caddero (giugno 774, Pavia)."
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Otto I imparatorluk tacını aldı (Alman/Kutsal Roma İmparatorluğu)",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ottone I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "0977-01-01",
+    "gun": "977",
+    "k": "idari",
+    "b": "Canossa'dan Atto Adalberto Mantova kontu olarak ilk belgelenir",
+    "kaynak": "Enciclopedia Italiana, 'Mantova', https://www.treccani.it/enciclopedia/mantova_(Enciclopedia-Italiana)/",
+    "tanik": "Atto Adalberto è designato come conte di Mantova in un documento del 977"
+   },
+   {
+    "t": "1091-04-11",
+    "gun": "11 Nisan 1091",
+    "k": "kusatma",
+    "b": "Mantova Henry IV'e teslim olur, imtiyazları genişler (Matilde karşısında); sahiplik dönemi açılmadı",
+    "kaynak": "Enciclopedia Italiana, 'Mantova', https://www.treccani.it/enciclopedia/mantova_(Enciclopedia-Italiana)/",
+    "tanik": "Arresasi l'11 aprile 1091 a Enrico IV"
+   },
+   {
+    "t": "1115-01-01",
+    "gun": "1115",
+    "k": "diger",
+    "b": "Matilde di Canossa ölür; Mantova'da komün eğilimi güçlenir (ilk konsül belgesi 1126)",
+    "kaynak": "Enciclopedia Italiana, 'Mantova', https://www.treccani.it/enciclopedia/mantova_(Enciclopedia-Italiana)/",
+    "tanik": "dopo la morte di Matilde (1115)"
+   },
+   {
+    "t": "1272-07-04",
+    "gun": "4 Temmuz 1272",
+    "k": "taht",
+    "b": "Pinamonte Bonacolsi podestà Guido da Correggio'yu kovar: Bonacolsi senyörlüğü",
+    "kaynak": "Enciclopedia Italiana, 'Mantova', https://www.treccani.it/enciclopedia/mantova_(Enciclopedia-Italiana)/",
+    "tanik": "cacciò da Mantova il 4 luglio 1272 il podestà Guido da Correggio"
+   }
+  ],
+  "dikis_beyan": "Atlas 1281'de harita anahtarı 'mantua' (künye mantua 1328-01-01'de başlar) yazıyor; gerçek sahip bonacolsi (künye 1273-1328, harita anahtarı 'bonacolsi'). Atlasın 1281 'mantua' iddiası künyeyle uyumsuz (hayalet): önerilen düzeltme atlas dönemini 'bonacolsi' yapmak. 1281 tarihli ayrı olay YOK.",
+  "ic_not": "Atlas Mantova 1281'de 'mantua' ile başlıyor (bkz. dikis_beyan). EI ile Treccani çelişkisi: Longobard fethi Treccani 'dal 601', EI 'presa, perduta e ripresa' (tarihsiz) — Treccani yılı alındı. Çift teyit YOK (Treccani online + EI aynı kurum)."
+ },
+ {
   "id": "merakes",
   "ad": "Merakeş",
   "atlas_ad": "Merakeş",
@@ -2362,6 +2729,202 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Meknes: şehir kuruluşu TDV'de iki maddede tutarlı ama dolaylı (917 iskân + ≈bir asır → ≈1017; V/XI. yy); Treccani 'Murâbıtlar kurdu' der → çelişki beyan. Çift teyit YOK. ATLAS: 1150 Muvahhid başlangıcı TDV 'miknas' ile uyumlu; TDV 'murabitlar' 1147 Muvahhid ilerleyişini ima eder (TDV iç çelişkisi). Zincir atlas ilk gününde (1150-01-01) biter."
  },
  {
+  "id": "modena",
+  "ad": "Modena",
+  "atlas_ad": "Modena",
+  "lat": 44.647,
+  "lon": 10.925,
+  "kat1900": 2,
+  "adlar": [
+   "Mutina",
+   "Modena"
+  ],
+  "ilk": {
+   "t": "-0182-01-01",
+   "gun": "MÖ 183",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Enciclopedia Italiana, 'Modena', https://www.treccani.it/enciclopedia/modena_(Enciclopedia-Italiana)/; Livius 39.55 (https://www.thelatinlibrary.com/livy/liv.39.shtml)",
+   "tanik": "Colonia civium romanorum, insieme alla vicina Parma, nel 183",
+   "ic_not": "Roma vatandaş kolonisi Mutina MÖ 183 (EI; Livius 39.55: 'eodem anno Mutina et Parma coloniae ciuium Romanorum sunt deductae' — Livius yılı kendisi vermez, konsül yılı EI/Treccani'den: 183). KURULUŞ nicelik notu: aynı yerde daha eski Boii/Ligur merkezi var (EI: 'il centro fu occupato con la regione (ager Boicus) dai Boi'; Roma bölgeyi III. yy sonunda aldı ve 'ne fecero il luogo più fortificato'), Treccani 'Modena': Via Emilia (187 MÖ) sırasında Romalılar 'edificarono un centro (Mutina)'. Roma kolonisi tarihi yazılı tanıklı kuruluş olarak alındı; Boii katmanı tarihsiz. Çift teyit: EI + Livius (bağımsız birincil) ve Treccani online 'Modena' (187 Via Emilia, 183'ü vermez)."
+  },
+  "kur": {
+   "t": "-0182-01-01",
+   "gun": "MÖ 183",
+   "kesinlik": "yil",
+   "kaynak": "Enciclopedia Italiana, 'Modena', https://www.treccani.it/enciclopedia/modena_(Enciclopedia-Italiana)/; Livius 39.55",
+   "tanik": "Colonia civium romanorum, insieme alla vicina Parma, nel 183"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0182-01-01",
+    "t": "-0026-01-13",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Modena' (https://www.treccani.it/enciclopedia/modena_(Enciclopedia-Italiana)/): 'Colonia civium romanorum, insieme alla vicina Parma, nel 183'; Livius, Ab urbe condita 39.55 (https://www.thelatinlibrary.com/livy/liv.39.shtml)"
+   },
+   {
+    "f": "-0026-01-13",
+    "t": "0476-01-01",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Ovidius, Fasti 1.587-590 (https://www.thelatinlibrary.com/ovid/ovid.fasti1.shtml); yıl (MÖ 27) bu oturumda yeniden doğrulanmadı",
+    "ic_not": "Ortak İtalya zinciri (şehre özgü tanık yok; İtalya genel çerçevesi, beyanlı yaklaşıklık). Künye roma-imp 395-01-17'de biter, bati-roma 476-08-28'e dek: bu şehirlerde toprak değişmediği için roma-imp 476'ya uzatıldı (hayalet uyarısı beklenir; öneri: roma-imp'i bati-roma'yı kapsayacak biçimde genişlet). 476/493/553 yıl hassasiyetli; künye odoakar 476-08-23, dogu-got 493-03-05'te başlar."
+   },
+   {
+    "f": "0476-01-01",
+    "t": "0493-01-01",
+    "d": "odoakar",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Odoacre', https://www.treccani.it/enciclopedia/odoacre/: 'rex gentium'",
+    "ic_not": "Şehre özgü tanık yok; İtalya genel çerçevesi."
+   },
+   {
+    "f": "0493-01-01",
+    "t": "0553-01-01",
+    "d": "dogu-got",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ostrogoti', https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/",
+    "ic_not": "Şehre özgü tanık yok; İtalya genel çerçevesi. Gotlar İtalya'ya 489'da girdi (Treccani Ostrogoti)."
+   },
+   {
+    "f": "0553-01-01",
+    "t": "0569-09-03",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Ostrogoti' https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/; EI 'Longobardi' https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/",
+    "ic_not": "Modena'nın 553-569 Bizans sayılması İtalya genel çerçevesinden çıkarımdır (beyanlı); EI 'Modena': 'Nulla sappiamo di essa nell'età di Odoacre e dei Goti'."
+   },
+   {
+    "f": "0569-09-03",
+    "t": "0774-06-01",
+    "d": "langobard",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Longobardi' (https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/): 'impadronendosi di Parma, Reggio, Modena e Bologna'; EI 'Modena' (https://www.treccani.it/enciclopedia/modena_(Enciclopedia-Italiana)/)",
+    "ic_not": "Başlangıç Milano'nun alınış günü (569-09-03, EI); Alboin'in Modena'yı alışı şehre özgü gün vermez. EI 'Modena': Longobard-Bizans sürekli savaşı ('i Greci da Bologna e i Longobardi da Reggio'), 590'da Bizanslılar Frankların müttefiki olarak 'rioccupato' (süresi bilinmeyen kısa ele geçirme: dönem AÇILMADI)."
+   },
+   {
+    "f": "0774-06-01",
+    "t": "0962-02-02",
+    "d": "karolenj-italya",
+    "kesinlik": "ay",
+    "kaynak": "EI 'Longobardi' https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/; EI 'Modena' (https://www.treccani.it/enciclopedia/modena_(Enciclopedia-Italiana)/)",
+    "ic_not": "Şehre özgü tanık yok (Longobard krallığının Franklara geçişinden çıkarım); 891'de piskopos Leodoino'ya imparator Guido surlama hakkı verir (EI)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1135-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Modena' (https://www.treccani.it/enciclopedia/modena_(Enciclopedia-Italiana)/): 961'de Ottone I Canossa'lı Adalberto Azzo'ya kontluk verir; 'il primo sicuro ricordo con i consoli è del 1135'",
+    "ic_not": "Künye geçişi 962 (Otto I). Şehir piskoposun fiilî idaresinde, kontluk Canossa (961-1115). Bitiş: komün konsüllerinin ilk güvenli anılışı 1135 ('f en geç tanık'; EI: 'almeno nella sostanza, si può credere più antica')."
+   },
+   {
+    "f": "1135-01-01",
+    "t": "1281-01-01",
+    "d": "modena-komunu",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Modena' (https://www.treccani.it/enciclopedia/modena_(Enciclopedia-Italiana)/): 'L'età comunale che a Modena va dal 1135 al 1288 (prima signoria estense)'",
+    "ic_not": "Künyesiz sahip: Modena komünü (önerilen id 'modena-komunu'; ömür 1135-1288, EI). ÇELİŞKİ: atlas 1281'de 'ferrara' (Este) başlatıyor, EI ilk Este senyörlüğünü 1288 verir (bkz. dikis_beyan).",
+    "kunye_yok": true
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0182-01-01",
+    "gun": "MÖ 183",
+    "k": "kurulus",
+    "b": "Roma vatandaş kolonisi Mutina (Parma ile birlikte) kurulur; Boii'nin yenilgisi",
+    "kaynak": "Livius 39.55 (https://www.thelatinlibrary.com/livy/liv.39.shtml); EI 'Modena' https://www.treccani.it/enciclopedia/modena_(Enciclopedia-Italiana)/",
+    "tanik": "eodem anno Mutina et Parma coloniae ciuium Romanorum sunt deductae"
+   },
+   {
+    "t": "-0026-01-13",
+    "gun": "MÖ 27 (13 Ocak)",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti -> İmparatorluk (Octavianus'a Augustus adı)",
+    "kaynak": "Ovidius, Fasti 1.587-590 (https://www.thelatinlibrary.com/ovid/ovid.fasti1.shtml); yıl (MÖ 27) bu oturumda yeniden doğrulanmadı",
+    "tanik": "et tuus Augusto nomine dictus avus"
+   },
+   {
+    "t": "0476-01-01",
+    "gun": "476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma otoritesi sona erdi (Odoacer'in Romulus Augustulus'u devirmesi); İtalya Odoakar krallığına geçti",
+    "kaynak": "Treccani, 'Odoacre', https://www.treccani.it/enciclopedia/odoacre/",
+    "tanik": "fu a capo della ribellione che depose Romolo Augustolo (476)"
+   },
+   {
+    "t": "0493-01-01",
+    "gun": "493",
+    "k": "fetih",
+    "b": "Teodorik Odoacer'i yendi; İtalya Doğu Got krallığına geçti (künye dogu-got 493-03-05)",
+    "kaynak": "Treccani, 'Teodorico', https://www.treccani.it/enciclopedia/teodorico/",
+    "tanik": "sconfitto il re degli Eruli Odoacre (493)"
+   },
+   {
+    "t": "0553-01-01",
+    "gun": "553",
+    "k": "fetih",
+    "b": "Monte Lattaro'da Ostrogot direnişi kırıldı; İtalya Bizans yönetimine geçti",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ostrogoti', https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/",
+    "tanik": "Si spezzò con lui al Monte Lattaro (553) la resistenza degli Ostrogoti"
+   },
+   {
+    "t": "0569-09-03",
+    "gun": "3 Eylül 569",
+    "k": "fetih",
+    "b": "Longobardlar Milano'yu aldı (569; bazılarına göre 568); Alboin'in ordusu Po'nun güneyindeki şehirlere yayıldı (şehre özgü alınış günü kaynakta yok)",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Longobardi', https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/",
+    "tanik": "Il 3 settembre 569 (secondo alcuni 568), Milano apre loro le porte."
+   },
+   {
+    "t": "0590-01-01",
+    "gun": "590",
+    "k": "fetih",
+    "b": "Bizanslılar Frankların müttefiki olarak Mutina'yı yeniden işgal eder (süresi bilinmeyen kısa ele geçirme; dönem açılmadı)",
+    "kaynak": "EI 'Modena', https://www.treccani.it/enciclopedia/modena_(Enciclopedia-Italiana)/",
+    "tanik": "che nel 590 i Greci, alleati ai Franchi, avevano rioccupato con le armi"
+   },
+   {
+    "t": "0774-06-01",
+    "gun": "Haziran 774",
+    "k": "fetih",
+    "b": "Pavia'nın düşmesiyle Longobard krallığı sona erdi; Frank (Karolenj İtalya) hâkimiyeti",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Longobardi', https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/",
+    "tanik": "Verona e poi Pavia, assediate, caddero (giugno 774, Pavia)."
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Otto I imparatorluk tacını aldı (Alman/Kutsal Roma İmparatorluğu)",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ottone I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1135-01-01",
+    "gun": "1135",
+    "k": "diger",
+    "b": "Modena komünü konsüllerle ilk güvenli anılışı: piskopos/kont idaresinden komün yönetimine geçiş",
+    "kaynak": "EI 'Modena', https://www.treccani.it/enciclopedia/modena_(Enciclopedia-Italiana)/",
+    "tanik": "il cui primo sicuro ricordo con i consoli è del 1135"
+   },
+   {
+    "t": "1249-01-01",
+    "gun": "1249",
+    "k": "fetih",
+    "b": "Fossalta yenilgisi: Modena 10 yıl Bologna vesayeti ve Guelf partisi (sahiplik dönemi açılmadı)",
+    "kaynak": "EI 'Modena', https://www.treccani.it/enciclopedia/modena_(Enciclopedia-Italiana)/",
+    "tanik": "La sconfitta della Fossalta (1249) obbligò Modena a subire per 10 anni una tutela bolognese"
+   }
+  ],
+  "dikis_beyan": "Atlas Modena'yı 1281-01-01'de 'ferrara' (Este) ile başlatıyor (kaynaksız, ONCE1281 dönemi yok). EI 'Modena': 'L'età comunale che a Modena va dal 1135 al 1288 (prima signoria estense)' — Este egemenliği 1288'de başlar; 1281-1288 arası komün. Atlas 1281 iddiasını destekleyen tanık bulunamadı; atlasa dokunulmadı, düzeltme önerisi: 1281-1288 komün (künyesiz) ya da kaynak göster. 1281 tarihli olay YOK.",
+  "ic_not": "Çift teyit: Roma kolonisi 183 (EI + Livius). TDV 'Modena' arama sayfası (7 madde içeriği) yalnız arama sonucu; madde yok. Zincirde Longobard dönemi Bologna/Reggio savaş bölgesi olarak beyanlı yaklaşıklıktır."
+ },
+ {
   "id": "mora-tripolice",
   "ad": "Mora (Tripoliçe)",
   "atlas_ad": "Mora (Tripoliçe)",
@@ -2397,6 +2960,109 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "SONUÇ: Atlas noktası (37.51, 22.379) Tripoliçe kasabasıdır. TDV (M. Kiel): 'Bir şehir olarak Osmanlı döneminde ortaya çıkmış'; ad 900 öncesi Slavcadan; ilk yazılı anılış 1467 (Stefano Magno). 1467 > atlas başlangıcı (1281): ZİNCİR BOŞ bırakıldı, denetimin 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR. ATLAS DÜZELTME ÖNERİSİ: 'Mora (Tripoliçe)' noktasının 1281-1349 Bizans dönemi (ve sonraki mora-despotlugu dönemi) kaynaklı değildir; nokta 1467'den önce çizilmemeli (ya da, Emre'nin 'yarımada sahibi bölge sahibi + beyan' kuralıyla, yaklaşıklık olarak beyan edilmeli) — karar Emre'nindir. KANIT/SINIRLAR: (a) Tek akademik ilk anılış kaynağı TDV Tripoliçe (Kiel); ikinci bağımsız akademik kaynak AÇILAMADI (Treccani 'tripolitza' maddesi içerik vermedi, Treccani Enciclopedia Italiana 'Tripoli' maddesinde Arkadya Tripolitsa'sı geçmedi; OpenAlex 'Trobolitsa' araması sonuç vermedi; Yunanca arama yolu denenip sonuç alınamadı). en.wikipedia (tek dayanak sayılmadı, yalnız tutarlılık) da 1467'yi 'Bizans terk edilmiş yerler listesi' ile aynı anar. (b) TDV: önceki devirde Arkadya'nın başlıca şehri Muchli idi (antik Tegea'nın devamı), Tripoliçe'nin 12 km DOĞUSUNDA — 3 km'den uzak, bu kayıtta yazılmadı; ayrı kayıt önerisi: 'Muchli (Tegea)' ve antik Mantinea/Pallantion (TDV: antik üç şehir; Tripoli adı bunlara değil Slavca kökene dayanır) ayrı kayıt olarak araştırılmalı. (c) Ahaya Prinkepsliği künyesi (1205-1430) Tripoliçe'ye BAĞLANMADI: TDV Mora maddesi Peloponnesos genelinde 1204 sonrası Frank yönetimini (Achaea Prensliği) anlatır ama Trobolitsa'yı anmaz; kasabanın o devirde varlığı kaynakta yok => zincirde Frank/Bizans yazmak beyansız yaklaşıklık olurdu. BÖLGE (yarımada) ÇERÇEVESİ, yalnız bağlam (TDV 'Mora'; M. Kiel & J. Alexander, 2020): 1204 sonrası Mora Frank yönetimine girip Achaea Prensliği'nin parçası oldu; Pelagonia savaşı (Ekim 1259) sonrası Bizanslılar Monemvasia, Mistra, Mani, Geraki'yi ele geçirdi (1262); 1278 Villehardouin'in ölümüyle Frank Prensliği 1289'a kadar Anjou hânedanına geçti; 1349'da Kantakuzenos Mora Despotluğu'nu kurdu (Manuel); 1383-1407 Theodore Palaiologos döneminde 150.000'e varan Arnavut iskânı; Tripoliçe yöresi 1460'ta Osmanlı idaresine girdi (TDV Tripoliçe). Bu bölge olayları şehre değil yarımadaya aittir; Tripoliçe'nin kendi tanığı değildir. TDV'de Tripoliçe maddesi var (islamansiklopedisi.org.tr/tripolice) ve Mora maddesi var (/mora). Gün hassasiyeti yok: yıl (1467-01-01 kuralı)."
+ },
+ {
+  "id": "nitra",
+  "ad": "Nitra (Nyitra)",
+  "atlas_ad": "Nitra (Nyitra)",
+  "lat": 48.3069,
+  "lon": 18.0864,
+  "kat1900": 2,
+  "adlar": [
+   "Nitrava",
+   "Nitra",
+   "Neutra",
+   "Nyitra"
+  ],
+  "ilk": {
+   "t": "0828-01-01",
+   "gun": "828",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Enciclopedia Italiana, 'Nitra' (Migliorini-Kristen 1934), https://www.treccani.it/enciclopedia/nitra_(Enciclopedia-Italiana)/; Conversio Bagoariorum et Carantanorum (ed. Bartoňková, Magnae Moraviae fontes historici III, Praha 1969) — yıl: J. Poulík, World Archaeology 10(2) 1978, 158-171 (Wikipedia 'Christianization of Moravia' dipnotundan)",
+   "tanik": "Nitra viene ricordata già nel principio del sec. IX, come sede del principe Pribina",
+   "ic_not": "İLK ANILIŞ (Salzburg başpiskoposu Adalram'ın 'Nitrava'da Pribina'nın mülkünde kilise kutsaması, Conversio). EI yalnız 'principio del sec. IX' der (yüzyıl); 828 yılı Conversio'dan Wikipedia 'Christianization of Moravia' (Poulík 1978 atfıyla) üzerinden alındı — Conversio'nun kendisi ve Poulík bu oturumda AÇILMADI; bazı kaynaklar 827 verir (Adalram 821-836). Tek bağımsız yazılı tanık Conversio'dur; yıl tek dolaylı kaynağa dayanır. Nitrava = Nitra özdeşliği 'tam oybirliğiyle' değil (Wikipedia). Çift teyit YOK."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0828-01-01",
+    "t": "0833-01-01",
+    "d": "nitra-prensligi",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Nitra' https://www.treccani.it/enciclopedia/nitra_(Enciclopedia-Italiana)/: 'sede del principe Pribina'; EI 'Pribina': 'Principe (m. 861) di Nitra'",
+    "ic_not": "Künye nitra-prensligi 805-01-01 → 833-01-01 (Pribina Nitra Prensliği)."
+   },
+   {
+    "f": "0833-01-01",
+    "t": "0906-01-01",
+    "d": "buyuk-moravya",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Moravia' (https://www.treccani.it/enciclopedia/moravia_(Enciclopedia-Italiana)/): 'Già Mojmír estese il suo dominio anche sulla Slovacchia occidentale, donde cacciò il principe di Nitra, Pribina'",
+    "ic_not": "EI Mojmír'i 'circa 830-846' verir, Pribina'yı kovma yılı vermez; künye geçişi 833 künyeden (nitra-prensligi t, buyuk-moravya f) alındı (yıl). Bitiş EI 'verso il 906' (Macarlar merkezini yıktı); künye buyuk-moravya 907-01-01'de biter."
+   },
+   {
+    "f": "0906-01-01",
+    "t": "1001-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Moravia' (https://www.treccani.it/enciclopedia/moravia_(Enciclopedia-Italiana)/): 'verso il 906 ne distrussero il centro, e la tennero sotto il proprio dominio'; EI 'Nitra': 'nei primi anni del sec. XI S. Stefano d'Ungheria s'impadronì di Nitra'",
+    "ic_not": "Nitra'nın 906-1001 arası sahibi kaynakta YOK: EI 'Moravia' Macarların Moravya'yı 955 Lech'e dek elinde tuttuğunu söyler (Nitra'yı anmaz), EI 'Nitra' ise İstvan'ın XI. yy başında Nitra'yı 'ele geçirdiğini' (yani önceki sahip Macar değil) verir; çelişkiyi çözen tanık bulunamadı. Künye macar-prensligi (895-1000) önerilmedi (beyansız yaklaşıklık olurdu). Boşluk doldurma merdiveni: ①TDV (madde yok) ②EI ③Slovak/Macar akademik kaynaklar AÇILAMADI ④Nitra o devirde var mıydı: EI 'sede vescovile' (Svatopluk dönemi piskoposluk, Viching) — var; abi merkez adayı: Bratislava/Pozsony? (kaynak yok)."
+   },
+   {
+    "f": "1001-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Nitra' (https://www.treccani.it/enciclopedia/nitra_(Enciclopedia-Italiana)/): 'Quando nei primi anni del sec. XI S. Stefano d'Ungheria s'impadronì di Nitra'",
+    "ic_not": "f yüzyıl hassasiyeti ('primi anni del sec. XI'): 1001 = yüzyılın ilk yılı, en erken uç (künye macaristan 1000-01-01). Kral Bela IV 1248'de Nitra'yı 'libera città regia' yaptı; XIII. yy sonlarında şehir piskoposların dünyevi iktidarına verildi (EI) — üst egemenlik Macaristan Krallığı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0828-01-01",
+    "gun": "828",
+    "k": "diger",
+    "b": "Nitrava'da (Nitra) Pribina'nın mülkünde ilk Hristiyan kilise kutsanır: Nitra'nın ilk yazılı anılışı",
+    "kaynak": "EI 'Nitra', https://www.treccani.it/enciclopedia/nitra_(Enciclopedia-Italiana)/; Conversio Bagoariorum et Carantanorum",
+    "tanik": "Nitra viene ricordata già nel principio del sec. IX, come sede del principe Pribina"
+   },
+   {
+    "t": "0833-01-01",
+    "gun": "833 (EI: Mojmír circa 830-846)",
+    "k": "fetih",
+    "b": "Moravya prensi Mojmír Nitra prensi Pribina'yı kovar; Nitra Büyük Moravya'ya katılır",
+    "kaynak": "EI 'Moravia', https://www.treccani.it/enciclopedia/moravia_(Enciclopedia-Italiana)/",
+    "tanik": "cacciò il principe di Nitra, Pribina"
+   },
+   {
+    "t": "0906-01-01",
+    "gun": "906",
+    "k": "fetih",
+    "b": "Macarlar Büyük Moravya'nın merkezini yıkar ve bölgeyi hâkimiyetlerine alır (EI: Moravya; Nitra'ya özgü tanık yok)",
+    "kaynak": "EI 'Moravia', https://www.treccani.it/enciclopedia/moravia_(Enciclopedia-Italiana)/",
+    "tanik": "i quali verso il 906 ne distrussero il centro"
+   },
+   {
+    "t": "1001-01-01",
+    "gun": "1001 (11. yüzyıl başı)",
+    "k": "fetih",
+    "b": "Macar kralı İstvan (Aziz Stefan) Nitra'yı ele geçirir ve bölgenin müstahkem merkezi yapar",
+    "kaynak": "EI 'Nitra', https://www.treccani.it/enciclopedia/nitra_(Enciclopedia-Italiana)/",
+    "tanik": "Quando nei primi anni del sec. XI S. Stefano d'Ungheria s'impadronì di Nitra"
+   },
+   {
+    "t": "1248-01-01",
+    "gun": "1248",
+    "k": "idari",
+    "b": "Kral Bela IV Nitra'yı özgür kraliyet kenti ('libera città regia') yapar",
+    "kaynak": "EI 'Nitra', https://www.treccani.it/enciclopedia/nitra_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1248 fu elevata dal re Bela IV a libera città regia"
+   }
+  ],
+  "ic_not": "Atlas Nitra'yı 1281'de 'macaristan' ile başlatır (kaynak TDV nitra slug'ı yok); zincir aynı sahiple biter. TDV 'nitre' slug'ı 798 karakterlik boş sayfa; arama sayfası 7 madde içeriği (Nitra madde değil). Atlas ek öneri: künye nitra-prensligi (805-833) ve buyuk-moravya (833-907) boyalı/boyasız durumu bu oturumda ölçülmedi (DEVLETLER-1300-oncesi.json'da var). Nitra/Slovak akademik ansiklopedileri (Beliana) 404 verdi, Britannica 403."
  },
  {
   "id": "pamplona",
@@ -2554,6 +3220,610 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Pamplona: kuruluş MÖ 75 (Treccani) ↔ Princeton kazıları İmparatorluk öncesi veri vermiyor — çelişki beyan; en güçlü yazılı tanık Strabon'un 'Pompelo or Pompeiopolis' kaydı (tarihsiz). 711-850 BEYANLI BOŞLUK; 466-711 Vizigot sahipliği zayıf (Vaskon bağımsızlığı). ATLAS ÖNERİSİ: 'navarra' künyesi f=824 kaynaksız bulundu; kaynakta yalnız 'IX. yy ilk yarısı'. Çift teyit: Isidorus 466 ↔ Treccani 'Spagna' ≈470 (aynı olay, yıl farkı). Zincir atlas ilk gününde (1281-01-01 Navarra) biter."
+ },
+ {
+  "id": "parma",
+  "ad": "Parma",
+  "atlas_ad": "Parma",
+  "lat": 44.801,
+  "lon": 10.328,
+  "kat1900": 2,
+  "adlar": [
+   "Parma"
+  ],
+  "ilk": {
+   "t": "-0182-01-01",
+   "gun": "MÖ 183",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, 'Parma' (Enciclopedia on line), https://www.treccani.it/enciclopedia/parma/; Livius 39.55 (https://www.thelatinlibrary.com/livy/liv.39.shtml)",
+   "tanik": "Colonia romana fondata nel 183 a.C. nell’agro dei Boi",
+   "ic_not": "Roma vatandaş kolonisi Parma MÖ 183 (Treccani; Livius 39.55: 'eodem anno Mutina et Parma coloniae ciuium Romanorum sunt deductae', 2000 kişi, 8 iugera). Çift teyit: Treccani + Livius (Livius yılı vermez, konsül yılı Treccani/EI'den). Aynı yerde öncesi: Boii toprağı (Livius 'in agro qui proxime Boiorum, ante Tuscorum fuerat') — yerleşim tarihi yok; Terramare/arkeoloji bu oturumda bulunamadı."
+  },
+  "kur": {
+   "t": "-0182-01-01",
+   "gun": "MÖ 183",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, 'Parma', https://www.treccani.it/enciclopedia/parma/; Livius 39.55",
+   "tanik": "Colonia romana fondata nel 183 a.C. nell’agro dei Boi"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0182-01-01",
+    "t": "-0026-01-13",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Parma', https://www.treccani.it/enciclopedia/parma/: 'Colonia romana fondata nel 183 a.C. nell’agro dei Boi'; Livius, Ab urbe condita 39.55 (https://www.thelatinlibrary.com/livy/liv.39.shtml)"
+   },
+   {
+    "f": "-0026-01-13",
+    "t": "0476-01-01",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Ovidius, Fasti 1.587-590 (https://www.thelatinlibrary.com/ovid/ovid.fasti1.shtml); yıl (MÖ 27) bu oturumda yeniden doğrulanmadı",
+    "ic_not": "Ortak İtalya zinciri (şehre özgü tanık yok; İtalya genel çerçevesi, beyanlı yaklaşıklık). Künye roma-imp 395-01-17'de biter, bati-roma 476-08-28'e dek: bu şehirlerde toprak değişmediği için roma-imp 476'ya uzatıldı (hayalet uyarısı beklenir; öneri: roma-imp'i bati-roma'yı kapsayacak biçimde genişlet). 476/493/553 yıl hassasiyetli; künye odoakar 476-08-23, dogu-got 493-03-05'te başlar."
+   },
+   {
+    "f": "0476-01-01",
+    "t": "0493-01-01",
+    "d": "odoakar",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Odoacre', https://www.treccani.it/enciclopedia/odoacre/: 'rex gentium'",
+    "ic_not": "Şehre özgü tanık yok; İtalya genel çerçevesi."
+   },
+   {
+    "f": "0493-01-01",
+    "t": "0553-01-01",
+    "d": "dogu-got",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ostrogoti', https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/",
+    "ic_not": "Şehre özgü tanık yok; İtalya genel çerçevesi. Gotlar İtalya'ya 489'da girdi (Treccani Ostrogoti)."
+   },
+   {
+    "f": "0553-01-01",
+    "t": "0569-09-03",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Parma', https://www.treccani.it/enciclopedia/parma/: 'sotto la dominazione bizantina (dal 553)'",
+    "ic_not": "Bitiş Milano'nun Longobardlara açıldığı gün (EI 'Longobardi'); Parma'nın alınış günü kaynakta yok (en geç tanık: Alboin'in Po güneyinde 'Parma, Reggio, Modena e Bologna'yı aldığı, EI)."
+   },
+   {
+    "f": "0569-09-03",
+    "t": "0774-06-01",
+    "d": "langobard",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Longobardi' (https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/): 'impadronendosi di Parma, Reggio, Modena e Bologna'; Treccani 'Parma': 'Sotto i Longobardi P. fu sede di ducato'",
+    "ic_not": "Parma'ya özgü alınış günü yok; Milano günü (569-09-03) yaklaşıklık. EI: Autari döneminde Parma dükü Franklara geçmeyi dener (tarihsiz)."
+   },
+   {
+    "f": "0774-06-01",
+    "t": "0962-02-02",
+    "d": "karolenj-italya",
+    "kesinlik": "ay",
+    "kaynak": "Treccani, 'Parma' (https://www.treccani.it/enciclopedia/parma/): 'di contea dopo la conquista franca (774)'; EI 'Longobardi'",
+    "ic_not": "Haziran 774 = Pavia'nın düşüşü (EI); Treccani yalnız yıl (774) verir. IX.-XI. yy'da piskopos iktidarı öne çıktı (Treccani)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1104-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Parma' (https://www.treccani.it/enciclopedia/parma/): 'Scoppiato il conflitto fra Papato e Impero per le investiture, la chiesa di P. sostenne la parte imperiale'; Treccani 'Ottone I'",
+    "ic_not": "Künye geçişi 962 (Otto I). Bitiş: Matilde'nin fethi (1104)."
+   },
+   {
+    "f": "1104-01-01",
+    "t": "1106-01-01",
+    "d": "canossa",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Parma' (https://www.treccani.it/enciclopedia/parma/): 'Nel 1104 P. fu conquistata dalla contessa Matilde di Canossa'",
+    "ic_not": "Künyesiz sahip: Canossa (önerilen id 'canossa'). Kısa dönem; 1106'da piskopos seçimiyle şehir Kilise yanına geçti ('sanzionò il passaggio della diocesi e della città a fianco della Chiesa') — komün sürecinin başlangıcı (Treccani: komün XI. yy sonunda kuruldu).",
+    "kunye_yok": true
+   },
+   {
+    "f": "1106-01-01",
+    "t": "1281-01-01",
+    "d": "parma-komunu",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Parma' (https://www.treccani.it/enciclopedia/parma/): 'la pace fu stipulata (1149) non dal vescovo ma dai consoli di Parma'",
+    "ic_not": "Künyesiz sahip: Parma komünü (önerilen id 'parma-komunu'). f=1106 BEYANLI: Treccani komünün 'alla fine dell'11° sec.' kurulduğunu söyler, tek tarih yok; 1149 konsüller antlaşma yapar. 1254-1259 Ghiberto da Gente senyörlüğü (olay; komün biçimleri sürdü), 1298'de popolari. Atlas 1281'de __BOSLUK__ (bkz. dikis_beyan).",
+    "kunye_yok": true
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0182-01-01",
+    "gun": "MÖ 183",
+    "k": "kurulus",
+    "b": "Roma vatandaş kolonisi Parma (Mutina ile) kurulur; Boii toprağı",
+    "kaynak": "Livius 39.55 (https://www.thelatinlibrary.com/livy/liv.39.shtml); Treccani 'Parma' https://www.treccani.it/enciclopedia/parma/",
+    "tanik": "eodem anno Mutina et Parma coloniae ciuium Romanorum sunt deductae"
+   },
+   {
+    "t": "-0026-01-13",
+    "gun": "MÖ 27 (13 Ocak)",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti -> İmparatorluk (Octavianus'a Augustus adı)",
+    "kaynak": "Ovidius, Fasti 1.587-590 (https://www.thelatinlibrary.com/ovid/ovid.fasti1.shtml); yıl (MÖ 27) bu oturumda yeniden doğrulanmadı",
+    "tanik": "et tuus Augusto nomine dictus avus"
+   },
+   {
+    "t": "0476-01-01",
+    "gun": "476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma otoritesi sona erdi (Odoacer'in Romulus Augustulus'u devirmesi); İtalya Odoakar krallığına geçti",
+    "kaynak": "Treccani, 'Odoacre', https://www.treccani.it/enciclopedia/odoacre/",
+    "tanik": "fu a capo della ribellione che depose Romolo Augustolo (476)"
+   },
+   {
+    "t": "0493-01-01",
+    "gun": "493",
+    "k": "fetih",
+    "b": "Teodorik Odoacer'i yendi; İtalya Doğu Got krallığına geçti (künye dogu-got 493-03-05)",
+    "kaynak": "Treccani, 'Teodorico', https://www.treccani.it/enciclopedia/teodorico/",
+    "tanik": "sconfitto il re degli Eruli Odoacre (493)"
+   },
+   {
+    "t": "0553-01-01",
+    "gun": "553",
+    "k": "fetih",
+    "b": "Monte Lattaro'da Ostrogot direnişi kırıldı; İtalya Bizans yönetimine geçti",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ostrogoti', https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/",
+    "tanik": "Si spezzò con lui al Monte Lattaro (553) la resistenza degli Ostrogoti"
+   },
+   {
+    "t": "0569-09-03",
+    "gun": "3 Eylül 569",
+    "k": "fetih",
+    "b": "Longobardlar Milano'yu aldı (569; bazılarına göre 568); Alboin'in ordusu Po'nun güneyindeki şehirlere yayıldı (şehre özgü alınış günü kaynakta yok)",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Longobardi', https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/",
+    "tanik": "Il 3 settembre 569 (secondo alcuni 568), Milano apre loro le porte."
+   },
+   {
+    "t": "0774-06-01",
+    "gun": "Haziran 774",
+    "k": "fetih",
+    "b": "Pavia'nın düşmesiyle Longobard krallığı sona erdi; Frank (Karolenj İtalya) hâkimiyeti",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Longobardi', https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/",
+    "tanik": "Verona e poi Pavia, assediate, caddero (giugno 774, Pavia)."
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Otto I imparatorluk tacını aldı (Alman/Kutsal Roma İmparatorluğu)",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ottone I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1104-01-01",
+    "gun": "1104",
+    "k": "fetih",
+    "b": "Matilde di Canossa Parma'yı fetheder",
+    "kaynak": "Treccani, 'Parma', https://www.treccani.it/enciclopedia/parma/",
+    "tanik": "Nel 1104 P. fu conquistata dalla contessa Matilde di Canossa"
+   },
+   {
+    "t": "1106-01-01",
+    "gun": "1106",
+    "k": "diger",
+    "b": "Bernardo degli Uberti piskopos seçilir; şehir ve piskoposluk Kilise yanına geçer (komün dönemi)",
+    "kaynak": "Treccani, 'Parma', https://www.treccani.it/enciclopedia/parma/",
+    "tanik": "nel 1106 l’elezione a vescovo di Bernardo degli Uberti sanzionò il passaggio"
+   },
+   {
+    "t": "1149-01-01",
+    "gun": "1149",
+    "k": "antlasma",
+    "b": "Piacenza ile Pelavicino lehenleri anlaşması piskoposça değil Parma konsüllerince imzalanır (komün güvenli anılışı)",
+    "kaynak": "Treccani, 'Parma', https://www.treccani.it/enciclopedia/parma/",
+    "tanik": "la pace fu stipulata (1149) non dal vescovo ma dai consoli di Parma"
+   },
+   {
+    "t": "1254-01-01",
+    "gun": "1254-1259",
+    "k": "taht",
+    "b": "Ghiberto da Gente'nin senyörlüğü (komün kurumları sürdü; dönem açılmadı)",
+    "kaynak": "Treccani, 'Parma', https://www.treccani.it/enciclopedia/parma/",
+    "tanik": "Tra il 1254 e il 1259 P. fu sotto la signoria di Ghiberto da Gente"
+   }
+  ],
+  "dikis_beyan": "Atlas Parma'yı 1281-01-01'de '__BOSLUK__' ile başlatıyor (BEYAN AVRUPA-SINIR-0077: 1395 öncesi sahip künyesiz komün/senyörlük). Bu zincir 1106-1281 arası 'parma-komunu' (künyesiz) olarak aynı beyanı DESTEKLER: boşluk künye açılınca kapanır. 1281 tarihli olay YOK (dikiş beyanlı).",
+  "ic_not": "Çift teyit: kuruluş 183 (Treccani + Livius). TDV 'Parma' maddesi yok (arama 579 içerik / 4 başlık: Parma ile ilgili madde yok). EI 'Parma' (1935) ayrıca açılmadı; Treccani online yeterli. Zincirde Bizans/Longobard/Frank geçişleri İtalya genel çerçevesidir (beyanlı)."
+ },
+ {
+  "id": "pisa",
+  "ad": "Pisa",
+  "atlas_ad": "Pisa",
+  "lat": 43.716,
+  "lon": 10.397,
+  "kat1900": 2,
+  "adlar": [
+   "Pisae",
+   "Colonia Iulia Opsequens",
+   "Pisa"
+  ],
+  "ilk": {
+   "t": "-0217-01-01",
+   "gun": "MÖ 218",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Livius, Ab urbe condita 21.39 (https://www.thelatinlibrary.com/livy/liv.21.shtml); EI 'Pisa' (https://www.treccani.it/enciclopedia/pisa_(Enciclopedia-Italiana)/)",
+   "tanik": "cum Pisas navibus venisset",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Hannibal savaşı, Consul P. Cornelius Scipio gemilerle Pisae'ye gelir (MÖ 218; Livius'un yıl başlığı bu oturumda yeniden doğrulanmadı, Hannibal savaşı bağlamı EI 'fedeltà di Pisa nella guerra contro Annibale'). Daha eski ama TARİHSİZ anılışlar: Lykophron Alexandra 1241, Polybios 2.16.2, Cato (Servius'ta) — EI 'Fonti'. EI: 'Pisa deve però le sue origini di città ai Romani' (kuruluş Roma'ya atfedilir) ama aynı metin Etrüsk öncesi/sonrası 'popolazioni' ve 'Di antichissima origine' der — kuruluş tarihi bulunamadı (kur null). Arkeolojik: Treccani 'Pisa' (Arte): 'un tumulo circolare (8°-7° sec. a.C.), cenotafio di un principe etrusco' — yazılı tanık olduğundan ark olarak yazıldı, başlangıç değil. Çift teyit YOK (Livius + EI farklı olay dayanağı: EI Livius'a atıf yapar)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-0699-01-01",
+   "gun": "MÖ 8.-7. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, 'Pisa' (Enciclopedia on line, Arte), https://www.treccani.it/enciclopedia/pisa/: 'un tumulo circolare (8°-7° sec. a.C.), cenotafio di un principe etrusco'"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0217-01-01",
+    "t": "-0026-01-13",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "Livius, Ab urbe condita 21.39 (https://www.thelatinlibrary.com/livy/liv.21.shtml); EI 'Pisa' (https://www.treccani.it/enciclopedia/pisa_(Enciclopedia-Italiana)/): 'fedeltà di Pisa nella guerra contro Annibale'; Treccani 'Pisa': cittadinanza romana 89 a.C.",
+    "ic_not": "BEYANLI yaklaşıklık: EI 'si misero ben presto in relazione con essa forse mediante un foedus' (müttefik); Roma vatandaşlığı MÖ 89, Octavianus kolonisi 'Opsequens Iulia Pisana' (EI) — resmî toprak statüsü dönemlere göre değişir, hepsi Roma Cumhuriyeti künyesi altında."
+   },
+   {
+    "f": "-0026-01-13",
+    "t": "0476-01-01",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Ovidius, Fasti 1.587-590 (https://www.thelatinlibrary.com/ovid/ovid.fasti1.shtml); yıl (MÖ 27) bu oturumda yeniden doğrulanmadı",
+    "ic_not": "Ortak İtalya zinciri (şehre özgü tanık yok; İtalya genel çerçevesi, beyanlı yaklaşıklık). Künye roma-imp 395-01-17'de biter, bati-roma 476-08-28'e dek: bu şehirlerde toprak değişmediği için roma-imp 476'ya uzatıldı (hayalet uyarısı beklenir; öneri: roma-imp'i bati-roma'yı kapsayacak biçimde genişlet). 476/493/553 yıl hassasiyetli; künye odoakar 476-08-23, dogu-got 493-03-05'te başlar."
+   },
+   {
+    "f": "0476-01-01",
+    "t": "0493-01-01",
+    "d": "odoakar",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Odoacre', https://www.treccani.it/enciclopedia/odoacre/: 'rex gentium'",
+    "ic_not": "Şehre özgü tanık yok; İtalya genel çerçevesi."
+   },
+   {
+    "f": "0493-01-01",
+    "t": "0553-01-01",
+    "d": "dogu-got",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ostrogoti', https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/",
+    "ic_not": "Şehre özgü tanık yok; İtalya genel çerçevesi. Gotlar İtalya'ya 489'da girdi (Treccani Ostrogoti)."
+   },
+   {
+    "f": "0553-01-01",
+    "t": "0569-09-03",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Pisa' (https://www.treccani.it/enciclopedia/pisa_(Enciclopedia-Italiana)/): 'passa a Odoacre, agli Ostrogoti, ai Bizantini'",
+    "ic_not": "EI: Gregorius Magnus 603'te Pisa dromonlarını anar, 'autonoma rispetto a Longobardi e a Bizantini'; Bitiş Milano'nun düştüğü gün (EI 'Longobardi'); Pisa'ya özgü gün yok (beyanlı)."
+   },
+   {
+    "f": "0569-09-03",
+    "t": "0774-06-01",
+    "d": "langobard",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Pisa' (https://www.treccani.it/enciclopedia/pisa_(Enciclopedia-Italiana)/): 'Pisa fu soggetta poi ai Longobardi'; EI 'Longobardi': 'scende a Lucca'",
+    "ic_not": "Başlangıç yaklaşıklık: EI 'Longobardi' Alboin'in 'Lucca'ya inip belki Chiusi'ye ilerlediğini' söyler; Pisa'nın Longobard fethi tarihsiz. EI 'Pisa': 730 belgesinde 'duca di Pisa Gregorio'."
+   },
+   {
+    "f": "0774-06-01",
+    "t": "0962-02-02",
+    "d": "karolenj-italya",
+    "kesinlik": "ay",
+    "kaynak": "EI 'Pisa' (https://www.treccani.it/enciclopedia/pisa_(Enciclopedia-Italiana)/): 'Più tardi la città fece parte del regno d'Italia, compresa nella marca di Toscana'",
+    "ic_not": "Şehre özgü sahiplik günü yok (Frank fethi Haziran 774 genel çerçeve). EI: 808'de Pisa donanması Frank gemileriyle Bizans/Venedik'e karşı savaştı, 828'de Lucca markisi komutasında (Pisa Frank markalığında)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1050-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Pisa' (https://www.treccani.it/enciclopedia/pisa/): 'Compresa nella marca di Toscana'; 'Verso il 1050 compaiono nei documenti i consoli'",
+    "ic_not": "Künye geçişi 962. Bitiş: 'Verso il 1050' konsüllerin belgelerde ilk görünüşü (Treccani online); EI 'Pisa' ilk konsül anısını 1080-1085 (bir Sardinya belgesinde) verir — ÇELİŞKİ: daha erken uç (1050) alındı, künye piza 1000-01-01'de başlar. 1004'te Saracenler şehri kısa süre işgal etti (olay; dönem açılmadı)."
+   },
+   {
+    "f": "1050-01-01",
+    "t": "1281-01-01",
+    "d": "piza",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Pisa' (https://www.treccani.it/enciclopedia/pisa/): 'Verso il 1050 compaiono nei documenti i consoli'",
+    "ic_not": "Künye piza (Pisa Cumhuriyeti) 1000-01-01 → 1406-10-09. 1284 Meloria yenilgisi atlas sonrasıdır."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0217-01-01",
+    "gun": "MÖ 218",
+    "k": "diger",
+    "b": "Pisae'nin ilk tarihli anılışı: Roma konsülü P. Cornelius Scipio gemilerle Pisae'ye çıkar (Hannibal savaşı)",
+    "kaynak": "Livius, Ab urbe condita 21.39 (https://www.thelatinlibrary.com/livy/liv.21.shtml)",
+    "tanik": "cum Pisas navibus venisset"
+   },
+   {
+    "t": "-0026-01-13",
+    "gun": "MÖ 27 (13 Ocak)",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti -> İmparatorluk (Octavianus'a Augustus adı)",
+    "kaynak": "Ovidius, Fasti 1.587-590 (https://www.thelatinlibrary.com/ovid/ovid.fasti1.shtml); yıl (MÖ 27) bu oturumda yeniden doğrulanmadı",
+    "tanik": "et tuus Augusto nomine dictus avus"
+   },
+   {
+    "t": "0476-01-01",
+    "gun": "476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma otoritesi sona erdi (Odoacer'in Romulus Augustulus'u devirmesi); İtalya Odoakar krallığına geçti",
+    "kaynak": "Treccani, 'Odoacre', https://www.treccani.it/enciclopedia/odoacre/",
+    "tanik": "fu a capo della ribellione che depose Romolo Augustolo (476)"
+   },
+   {
+    "t": "0493-01-01",
+    "gun": "493",
+    "k": "fetih",
+    "b": "Teodorik Odoacer'i yendi; İtalya Doğu Got krallığına geçti (künye dogu-got 493-03-05)",
+    "kaynak": "Treccani, 'Teodorico', https://www.treccani.it/enciclopedia/teodorico/",
+    "tanik": "sconfitto il re degli Eruli Odoacre (493)"
+   },
+   {
+    "t": "0553-01-01",
+    "gun": "553",
+    "k": "fetih",
+    "b": "Monte Lattaro'da Ostrogot direnişi kırıldı; İtalya Bizans yönetimine geçti",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ostrogoti', https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/",
+    "tanik": "Si spezzò con lui al Monte Lattaro (553) la resistenza degli Ostrogoti"
+   },
+   {
+    "t": "0569-09-03",
+    "gun": "3 Eylül 569",
+    "k": "fetih",
+    "b": "Longobardlar Milano'yu aldı (569; bazılarına göre 568); Alboin'in ordusu Po'nun güneyindeki şehirlere yayıldı (şehre özgü alınış günü kaynakta yok)",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Longobardi', https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/",
+    "tanik": "Il 3 settembre 569 (secondo alcuni 568), Milano apre loro le porte."
+   },
+   {
+    "t": "0774-06-01",
+    "gun": "Haziran 774",
+    "k": "fetih",
+    "b": "Pavia'nın düşmesiyle Longobard krallığı sona erdi; Frank (Karolenj İtalya) hâkimiyeti",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Longobardi', https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/",
+    "tanik": "Verona e poi Pavia, assediate, caddero (giugno 774, Pavia)."
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Otto I imparatorluk tacını aldı (Alman/Kutsal Roma İmparatorluğu)",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ottone I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1004-01-01",
+    "gun": "1004",
+    "k": "fetih",
+    "b": "Saracenler Pisa'yı kısa süre işgal eder (süresi bilinmeyen kısa ele geçirme; dönem açılmadı)",
+    "kaynak": "Treccani, 'Pisa', https://www.treccani.it/enciclopedia/pisa/",
+    "tanik": "che nel 1004 occuparono la città per breve tempo"
+   },
+   {
+    "t": "1050-01-01",
+    "gun": "1050 (Verso il 1050)",
+    "k": "diger",
+    "b": "Belgelerde konsüllerin ilk görünüşü: komün yönetimi; Alman imparatorluk egemenliği fiilen sembolik kalır",
+    "kaynak": "Treccani, 'Pisa', https://www.treccani.it/enciclopedia/pisa/",
+    "tanik": "Verso il 1050 compaiono nei documenti i consoli"
+   }
+  ],
+  "ic_not": "Atlas Pisa 1281'de 'piza' ile başlar; zincir aynı sahiple biter. ÇELİŞKİ (komün/konsül yılı): Treccani online 'verso il 1050' vs EI 'fra il 1080 e il 1085 ... il primo ricordo dei consoli (carta sarda)'; erken uç alındı. TDV 'Pisa' maddesi yok (arama: 3 başlık/126 içerik, Pisa şehri maddesi yok; 'Piza' slug'ı da arama sayfasına döndü). Livius'un MÖ 218 yılı konsül yılından türetildi (bu oturumda doğrulanmadı)."
+ },
+ {
+  "id": "siena",
+  "ad": "Siena",
+  "atlas_ad": "Siena",
+  "lat": 43.319,
+  "lon": 11.331,
+  "kat1900": 2,
+  "adlar": [
+   "Saena (Sena Iulia)",
+   "Siena"
+  ],
+  "ilk": {
+   "t": "0070-01-01",
+   "gun": "MS 70",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Tacitus, Historiae 4.45 (https://www.thelatinlibrary.com/tacitus/tac.hist4.shtml); EI 'Siena' (https://www.treccani.it/enciclopedia/siena_(Enciclopedia-Italiana)/)",
+   "tanik": "Manlius Patruitus senator pulsatum se in colonia Seniensi coetu multitudinis",
+   "ic_not": "İLK ANILIŞ (kuruluş değil): Tacitus Hist. 4.45, Vespasianus dönemi (MS 70; yıl Historiae 4'ün kronolojik bağlamından, 4.45'in kendisi yıl vermez). EI: Siena 'è nominata assai di rado dagli scrittori antichi, in Plinio (Colonia Seniensis) e in Tolomeo' — Plinius ve Ptolemaios tarihsiz/daha geç. Kuruluş: EI 'nel nome stesso tradisce l'origine quale colonia militare di Cesare o più verosimilmente dei triumviri' — TARİHSİZ, kur YAZILMADI. Arkeoloji: EI 'tombe e ceramiche etrusche tarde, suppellettili preistoriche sporadiche' (tarihsiz). Çift teyit YOK."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0070-01-01",
+    "t": "0476-01-01",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Tacitus, Historiae 4.45 (https://www.thelatinlibrary.com/tacitus/tac.hist4.shtml); EI 'Siena' (https://www.treccani.it/enciclopedia/siena_(Enciclopedia-Italiana)/): 'Colonia Seniensis' (Plinius)",
+    "ic_not": "Sena Iulia Roma kolonisi (Sezar/triumvirler dönemi, tarihsiz). Ortak İtalya zinciri (şehre özgü tanık yok; İtalya genel çerçevesi, beyanlı yaklaşıklık). Künye roma-imp 395-01-17'de biter, bati-roma 476-08-28'e dek: bu şehirlerde toprak değişmediği için roma-imp 476'ya uzatıldı (hayalet uyarısı beklenir; öneri: roma-imp'i bati-roma'yı kapsayacak biçimde genişlet). 476/493/553 yıl hassasiyetli; künye odoakar 476-08-23, dogu-got 493-03-05'te başlar."
+   },
+   {
+    "f": "0476-01-01",
+    "t": "0493-01-01",
+    "d": "odoakar",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, 'Odoacre', https://www.treccani.it/enciclopedia/odoacre/",
+    "ic_not": "Şehre özgü tanık yok; İtalya genel çerçevesi."
+   },
+   {
+    "f": "0493-01-01",
+    "t": "0553-01-01",
+    "d": "dogu-got",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ostrogoti', https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/",
+    "ic_not": "Şehre özgü tanık yok; İtalya genel çerçevesi."
+   },
+   {
+    "f": "0553-01-01",
+    "t": "0569-09-03",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ostrogoti' https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/; EI 'Longobardi' https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/",
+    "ic_not": "Siena'nın 553-569 Bizans sayılması İtalya genel çerçevesinden çıkarım (beyanlı); Toskana'nın Longobard fethi tarihsiz."
+   },
+   {
+    "f": "0569-09-03",
+    "t": "0774-06-01",
+    "d": "langobard",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Siena' (https://www.treccani.it/enciclopedia/siena_(Enciclopedia-Italiana)/): 'fosse governata da gastaldi, di cui il più antico a noi noto è Willerad'",
+    "ic_not": "Başlangıç yaklaşıklık: Milano'nun alınış günü (EI 'Longobardi'); Siena'ya özgü tanık: gastald Willerad 678'de yaşıyor (en geç tanık). EI: Rotari döneminde piskoposluk 'restaurazione'/kuruluş."
+   },
+   {
+    "f": "0774-06-01",
+    "t": "0962-02-02",
+    "d": "karolenj-italya",
+    "kesinlik": "ay",
+    "kaynak": "EI 'Siena' (https://www.treccani.it/enciclopedia/siena_(Enciclopedia-Italiana)/): 'Con la conquista franca, l'autorità dei gastaldi passò nei conti'",
+    "ic_not": "Haziran 774 Pavia düşüşü (EI 'Longobardi'); Siena'ya özgü gün yok."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1147-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Siena' (https://www.treccani.it/enciclopedia/siena_(Enciclopedia-Italiana)/): 'Li troviamo nominati per la prima volta in un atto del 1147'; 'sotto la cui tutela il comune nasceva'",
+    "ic_not": "Künye geçişi 962 (Otto I). X. yy sonrası kont yetkisi yalnız kırsala, piskopos siyasî yetki kazandı (EI); komün XI. yy boyunca piskopos vesayetinde doğdu. Bitiş = atlasın başlangıcı (siena, 1147-01-01): konsüllerin ilk anılışı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0070-01-01",
+    "gun": "MS 70",
+    "k": "diger",
+    "b": "Siena'nın (colonia Seniensis) ilk yazılı anılışı: Senato'da Manlius Patruitus'un Sena'da dövülmesi",
+    "kaynak": "Tacitus, Historiae 4.45 (https://www.thelatinlibrary.com/tacitus/tac.hist4.shtml)",
+    "tanik": "Manlius Patruitus senator pulsatum se in colonia Seniensi coetu multitudinis"
+   },
+   {
+    "t": "0476-01-01",
+    "gun": "476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma otoritesi sona erdi (Odoacer'in Romulus Augustulus'u devirmesi); İtalya Odoakar krallığına geçti",
+    "kaynak": "Treccani, 'Odoacre', https://www.treccani.it/enciclopedia/odoacre/",
+    "tanik": "fu a capo della ribellione che depose Romolo Augustolo (476)"
+   },
+   {
+    "t": "0493-01-01",
+    "gun": "493",
+    "k": "fetih",
+    "b": "Teodorik Odoacer'i yendi; İtalya Doğu Got krallığına geçti (künye dogu-got 493-03-05)",
+    "kaynak": "Treccani, 'Teodorico', https://www.treccani.it/enciclopedia/teodorico/",
+    "tanik": "sconfitto il re degli Eruli Odoacre (493)"
+   },
+   {
+    "t": "0553-01-01",
+    "gun": "553",
+    "k": "fetih",
+    "b": "Monte Lattaro'da Ostrogot direnişi kırıldı; İtalya Bizans yönetimine geçti",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ostrogoti', https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/",
+    "tanik": "Si spezzò con lui al Monte Lattaro (553) la resistenza degli Ostrogoti"
+   },
+   {
+    "t": "0569-09-03",
+    "gun": "3 Eylül 569",
+    "k": "fetih",
+    "b": "Longobardlar Milano'yu aldı (569; bazılarına göre 568); Alboin'in ordusu Po'nun güneyindeki şehirlere yayıldı (şehre özgü alınış günü kaynakta yok)",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Longobardi', https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/",
+    "tanik": "Il 3 settembre 569 (secondo alcuni 568), Milano apre loro le porte."
+   },
+   {
+    "t": "0678-01-01",
+    "gun": "678",
+    "k": "idari",
+    "b": "Longobard gastaldı Willerad Siena'da anılır (en geç Longobard yönetim tanığı; sahiplik dönemi zaten Longobard)",
+    "kaynak": "EI 'Siena', https://www.treccani.it/enciclopedia/siena_(Enciclopedia-Italiana)/",
+    "tanik": "governata da gastaldi, di cui il più antico a noi noto è Willerad"
+   },
+   {
+    "t": "0774-06-01",
+    "gun": "Haziran 774",
+    "k": "fetih",
+    "b": "Pavia'nın düşmesiyle Longobard krallığı sona erdi; Frank (Karolenj İtalya) hâkimiyeti",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Longobardi', https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/",
+    "tanik": "Verona e poi Pavia, assediate, caddero (giugno 774, Pavia)."
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "2 Şubat 962",
+    "k": "diger",
+    "b": "künye geçişi: Otto I imparatorluk tacını aldı (Alman/Kutsal Roma İmparatorluğu)",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Ottone I il Grande', https://www.treccani.it/enciclopedia/ottone-i-il-grande-imperatore-e-re-di-germania_(Enciclopedia-Italiana)/",
+    "tanik": "Il 2 febbraio 962 O. ricevette dal papa la corona imperiale"
+   },
+   {
+    "t": "1147-01-01",
+    "gun": "1147",
+    "k": "diger",
+    "b": "Konsüller ilk kez bir belgede anılır: piskopos vesayetinden laik komün yönetimine geçiş (Siena komünü)",
+    "kaynak": "EI 'Siena', https://www.treccani.it/enciclopedia/siena_(Enciclopedia-Italiana)/",
+    "tanik": "Li troviamo nominati per la prima volta in un atto del 1147"
+   }
+  ],
+  "ic_not": "Atlas Siena 1147-01-01'de (ONCE1281-GERIYE, konsüllerin ilk anılışı) 'siena' ile başlar; zincir 1147'de biter ve son sahibi almanya, atlasın ilk sahibi siena (komün) — dikiş olayı 1147 (EI). Atlas düzeltme önerisi: atlasın Siena başlangıcı 1147 (konsül anılışı) EI ile uyumlu; künye siena f=1125 Treccani/EI'de doğrulanmadı (atlas kaydı zaten aynı notu taşır). TDV 'Siena' maddesi yok (arama: 2 içerik, madde yok). Roma dönemi 70 öncesi (ilk anılıştan önce) tarihsiz. -0026-01-13 olayı bu şehirde yok (ilk anılış MS 70, Roma İmparatorluğu künyesiyle başlar)."
+ },
+ {
+  "id": "temesvar",
+  "ad": "Temeşvar",
+  "atlas_ad": "Temeşvar",
+  "lat": 45.76,
+  "lon": 21.23,
+  "kat1900": 2,
+  "adlar": [
+   "Temesvár",
+   "Temeschwar",
+   "Temšvar",
+   "Tımışvar",
+   "Timişoara"
+  ],
+  "ilk": {
+   "t": "1212-01-01",
+   "gun": "1212",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tımışvar' (Mihai Maxim, 2012), https://islamansiklopedisi.org.tr/timisvar",
+   "tanik": "Adı tarihî kayıtlarda ilk defa 1212 ve 1266’da yer alır.",
+   "ic_not": "İLK ANILIŞ (TDV: '1212 ve 1266'). TDV ayrıca 'Şehir Macar Krallığı tarafından 1030’da ilhak edildi' der — bu iddia için birincil/akademik tanık bu oturumda bulunamadı ve ilk anılıştan (1212) 182 yıl önce olduğu için başlangıç YAPILMADI (güvenli uç: ilk adlı tanık). Kuruluş/arkeolojik katman: TDV 'Bega ırmağı kıyısında kurulmuştur' (tarihsiz); Roma/antik katman bu oturumda bulunamadı. Çift teyit YOK."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1212-01-01",
+    "t": "1281-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Tımışvar' https://islamansiklopedisi.org.tr/timisvar: 'Şehir Macar Krallığı tarafından 1030’da ilhak edildi'; 'Adı tarihî kayıtlarda ilk defa 1212'",
+    "ic_not": "Macaristan Krallığı (künye 1000-01-01). TDV 1030 ilhakını verir (1212'den eski); 1212-1281 arası tek sahip, el değiştirme yok (1241 Moğol istilası Banat'ı vurur; şehre özgü sahiplik değişimi tanığı bulunamadı). Atlas 1281 'macaristan' ile aynı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1212-01-01",
+    "gun": "1212",
+    "k": "diger",
+    "b": "Temeşvar'ın ilk yazılı anılışı (ikincisi 1266)",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Tımışvar', https://islamansiklopedisi.org.tr/timisvar",
+    "tanik": "Adı tarihî kayıtlarda ilk defa 1212 ve 1266’da yer alır."
+   }
+  ],
+  "ic_not": "TDV 'temesvar' slug'ı 'TEMEŞVAR bk. TIMIŞVAR' yönlendirmesidir; gövde 'timisvar' slug'ındadır. TDV: 1307'de Charles Robert krallık sarayı yaptırdı (atlas dönemi sonrası). Atlas düzeltme önerisi YOK; TDV'nin 1030 ilhakı ilk anılış dışı olduğundan zincire yazılmadı (aranırsa 1030'a çekilebilir, kaynak açılmalı)."
  },
  {
   "id": "toledo",
@@ -2806,6 +4076,358 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Valladolid için kuruluş ve 1079 öncesi tarihli tanık bulunamadı (Treccani: kökenler 'assai oscure'). TDV maddesi yok. Çift teyit YOK. Zincir atlas ilk gününde (1281-01-01 Kastilya) biter."
+ },
+ {
+  "id": "varsova",
+  "ad": "Varşova",
+  "atlas_ad": "Varşova",
+  "lat": 52.23,
+  "lon": 21.011,
+  "kat1900": 2,
+  "adlar": [
+   "Warszawa",
+   "Varšava",
+   "Varsavia",
+   "Varşova"
+  ],
+  "ilk": {
+   "t": "1224-01-01",
+   "gun": "1224",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Enciclopedia Italiana, 'Varsavia' (Treccani, 1937), https://www.treccani.it/enciclopedia/varsavia_(Enciclopedia-Italiana)/; Hrvatska enciklopedija 'Varšava' https://www.enciklopedija.hr/clanak/varsava",
+   "tanik": "Nel 1224 essa è menzionata quale villaggio",
+   "ic_not": "İLK ANILIŞ (EI: 1224'te 'villaggio' olarak). LZMK 'Varšava': 'u dokumentima prvi put spominje u XIII. st.' — yüzyıl düzeyinde uyumlu (kısmî teyit, tarih bağımsız değil). Kuruluş: LZMK 'Stare Miasto razvilo se znatno ranije kao predgrađe utvrde mazovskih knezova' (tarihsiz). Çift teyit YOK (yalnız yüzyıl uyumu). Polonya akademik ansiklopedileri (PWN) bu oturumda açılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1224-01-01",
+    "t": "1281-01-01",
+    "d": "polonya-erken",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Varsavia' (https://www.treccani.it/enciclopedia/varsavia_(Enciclopedia-Italiana)/): 'Nello stesso sec. XIII i principi di Masovia vi costruirono il loro castello'; 'in rapporto di vassallaggio' (Masovia-Polonya)",
+    "ic_not": "Sahip: Mazovya Dükalığı (Piast Mazovya prensleri; künyesiz alt-polity); EI: Mazovya 1526'ya dek Polonya krallığıyla 'vassallaggio' ilişkisinde. Atlas bu alanı 'polonya-erken' (966-1569) boyar: 1224-1281 için atlasla tutarlı yaklaşıklık, BEYANLI. Mazovya'nın siyasi bağımsızlık derecesi XIII. yy'da değişkendir, gün tanığı yok. Atlas 1281 'polonya-erken' ile aynı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1224-01-01",
+    "gun": "1224",
+    "k": "diger",
+    "b": "Varşova'nın ilk yazılı anılışı (köy olarak)",
+    "kaynak": "EI 'Varsavia', https://www.treccani.it/enciclopedia/varsavia_(Enciclopedia-Italiana)/",
+    "tanik": "Nel 1224 essa è menzionata quale villaggio"
+   }
+  ],
+  "ic_not": "kat1900: LISTE.tsv Varşova Rus İmp. 'Varshavskaya guberniya' kat 2. Mazovya dükleri XIII. yy'da kale yaptırdı (tarihsiz). 1339 şehir hakları (LZMK), atlas sonrası. Atlas Varşova'da 1281 polonya-erken ile başlıyor; atlas düzeltme önerisi yok."
+ },
+ {
+  "id": "zadar",
+  "ad": "Zadar (Zara)",
+  "atlas_ad": "Zadar (Zara)",
+  "lat": 44.124,
+  "lon": 15.232,
+  "kat1900": 2,
+  "adlar": [
+   "Idassa",
+   "Jader (Iader)",
+   "Diadora",
+   "Zara",
+   "Zadar"
+  ],
+  "ilk": {
+   "t": "-0383-01-01",
+   "gun": "MÖ 384",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Enciclopedia Italiana, 'Zara' (Treccani), https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/ (Faros/Lesina steli, Iadastinoi)",
+   "tanik": "che è la prima menzione storica degli abitanti di Zara",
+   "ic_not": "İLK ANILIŞ (şehir halkı 'Iadastinoi', Pharos/Hvar adalılarının MÖ 384 zaferi steli; kaynak EI 'Zara'): halk adı, yer adı değil — yer için en erken tarihli tanık budur. Pseudo-Skylax 21 'Idassa' (tarihsiz, EI) ve MÖ III. yy yazıtı ikinci tanık. Kuruluş/ark: Nin (Aenona) civarı Neolitik istasyon ('a pochi chilometri da Zara') ve Tunç/Demir Çağı mezarları (EI) — Nin Zadar'dan >3 km, antik Zadar yerleşimi için tarihsiz; Roma kolonisi 'Jader' MÖ 35-33 İlk Dalmaçya Savaşı sonrası (EI) kuruluş tarihi vermez. Eski Liburna yerleşimi modern Zadar noktasında olup olmadığı EI'de açık ('proprio in quei luoghi'). Çift teyit YOK."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0383-01-01",
+    "t": "-0128-01-01",
+    "d": "liburn-kabileleri",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Zara' (https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/): 'abitato da quella popolazione illirica ... Liburnia'",
+    "ic_not": "Künyesiz sahip: Liburn kabile birliği (önerilen id 'liburn-kabileleri'; ömür ≈-0383...-0128). EI: şehir Liburnia'nın başlıca şehri; İllirya birliğinden ayrılıp Roma'ya yönelme 129 MÖ'den sonra olası.",
+    "kunye_yok": true
+   },
+   {
+    "f": "-0128-01-01",
+    "t": "-0026-01-13",
+    "d": "roma-cumhuriyeti",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Zara' (https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/): 'dopo la marcia del console C. Sempronio Tuditano (129 a. C.)'",
+    "ic_not": "BEYANLI yaklaşıklık: EI Roma fethi yok, 'tributo da essi pagato' der; 'forse allora Zara divenne sede di conciliabula'. Bitiş künye geçişi; kolonya Jader MÖ 35-33 (EI)."
+   },
+   {
+    "f": "-0026-01-13",
+    "t": "0476-01-01",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Ovidius, Fasti 1.587-590 (https://www.thelatinlibrary.com/ovid/ovid.fasti1.shtml); yıl (MÖ 27) bu oturumda yeniden doğrulanmadı",
+    "ic_not": "Roma kolonisi Jader (duoviri, tribu Sergia). Ortak İtalya zinciri (şehre özgü tanık yok; İtalya genel çerçevesi, beyanlı yaklaşıklık). Künye roma-imp 395-01-17'de biter, bati-roma 476-08-28'e dek: bu şehirlerde toprak değişmediği için roma-imp 476'ya uzatıldı (hayalet uyarısı beklenir; öneri: roma-imp'i bati-roma'yı kapsayacak biçimde genişlet). 476/493/553 yıl hassasiyetli; künye odoakar 476-08-23, dogu-got 493-03-05'te başlar."
+   },
+   {
+    "f": "0476-01-01",
+    "t": "0493-01-01",
+    "d": "odoakar",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Zara' (https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/): 'sotto i regni italici di Odoacre e di Teodorico'",
+    "ic_not": "EI: 476 sonrası Zara çiçeklenir; Julius Nepos 'impero dalmatico' (480) — Odoacer Dalmaçya'yı 480-482'de aldı (bu oturumda kaynak AÇILMADI); 476-480 Nepos dönemi dönem açılmadı (beyanlı)."
+   },
+   {
+    "f": "0493-01-01",
+    "t": "0540-01-01",
+    "d": "dogu-got",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Zara' (https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/): 'Verso il 540 fu tolta ai Goti e restituita all'impero'",
+    "ic_not": "Bitiş yıl hassasiyeti ('verso il 540')."
+   },
+   {
+    "f": "0540-01-01",
+    "t": "0805-01-01",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Zara' (https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/): 'divenne il centro principale della Dalmazia bizantina e residenza dello stratego imperiale'; LZMK 'Zadar' https://www.enciklopedija.hr/clanak/zadar",
+    "ic_not": "615 Avar-Slav istilası ve Salona'nın yıkılışı sonrası Bizans Dalmaçyası merkezi; 751'de Ravenna'nın düşüşü ile ekzarhlık işlevlerini devraldı (EI). Bitiş: 805-806'da Charlemagne sarayında temsil (en erken Frank tanığı)."
+   },
+   {
+    "f": "0805-01-01",
+    "t": "0812-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Zara' (https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/): 'nell'805-806, quando alla corte di Carlomagno la provincia è rappresentata dal duca Paolo'; LZMK 'Zadar': 'Početkom IX. st. kratkotrajno je bio pod franačkom vlašću'",
+    "ic_not": "f yıl hassasiyeti: Frank hâkimiyeti başlangıç günü kaynakta yok; 805-806 en erken tanık (EI), LZMK 'IX. yy başı kısa süreli'. Bitiş Aachen Antlaşması 812."
+   },
+   {
+    "f": "0812-01-01",
+    "t": "1000-01-01",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "LZMK 'Zadar' (https://www.enciklopedija.hr/clanak/zadar): 'mirom u Aachenu (812) grad pripao Bizantu'; 'Godine 923. gradom je kao bizantski prokonzul upravljao hrvatski vladar Tomislav'",
+    "ic_not": "923'te Tomislav 'Bizans prokonsülü' sıfatıyla yönetir (LZMK), yani üst egemenlik Bizans'ta; X. yy'da Zadar 'političkim središtem bizantske Dalmacije' (LZMK). Bitiş: Venedik 'oko 998-1000' ilk fethi (LZMK; EI 'nel 1000 fa omaggio al doge') — aralığın son ucu 1000."
+   },
+   {
+    "f": "1000-01-01",
+    "t": "1024-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Zara' (https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/): 'nel 1000 fa omaggio al doge'",
+    "ic_not": "LZMK: Orseolo II 'oko 998-1000' fethi, 'nedugo potom' Hırvat hükümdar I. Stjepan'ı tanıdı; EI: 1000'de dojea haraç, 1024'te çözülme — ÇELİŞKİ (LZMK kısa süre sonra Hırvat tanıma der, EI 1024). Dönem EI'ye göre; LZMK farkı beyan."
+   },
+   {
+    "f": "1024-01-01",
+    "t": "1050-01-01",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Zara' (https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/): 'Ma già nel 1024 si scuote e, sotto l'alta sovranità bizantina, riprende il suo ruolo'",
+    "ic_not": "Bizans üst egemenliği altında özerk (EI); LZMK 1050'de Hırvat hükümdara 'samovoljno podvrgnuo' der."
+   },
+   {
+    "f": "1050-01-01",
+    "t": "1105-01-01",
+    "d": "hirvatistan-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "LZMK 'Zadar' (https://www.enciklopedija.hr/clanak/zadar): 'se 1050. grad samovoljno podvrgnuo vlasti hrvatskoga vladara'; 'Nakon polustoljetne vlasti hrvatskih vladara'",
+    "ic_not": "Künye hirvatistan-kralligi 925-1102: Zadar Koloman'ı 1105'te tanıdığı için dönem 1105'e uzatıldı (künye t 1102, +3 yıl; HAYALET uyarısı): öneri künyeyi 1105'e GENİŞLET. Petar Krešimir IV (rex Dalmatiae) bu dönemde (LZMK)."
+   },
+   {
+    "f": "1105-01-01",
+    "t": "1115-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "LZMK 'Zadar' (https://www.enciklopedija.hr/clanak/zadar): 'Zadar je 1105. priznao vlast hrvatsko-ugarskoga kralja Kolomana'",
+    "ic_not": "Hırvat-Macar kral birliği (Koloman)."
+   },
+   {
+    "f": "1115-01-01",
+    "t": "1180-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "LZMK 'Zadar' (https://www.enciklopedija.hr/clanak/zadar): '1115. zauzeo ga je mletački dužd Ordelafo Faliero'; 'Godine 1180. Zadrani su prihvatili vlast hrvatsko-ugarskoga kralja Bele III.'",
+    "ic_not": "BEYANLI yaklaşıklık: LZMK 'U XII. st. Venecija je stalno nastojala podvrgnuti grad'; EI 'il sec. XII ... è tutto un fluttuare tra la sovranità veneziana e ungherese' — 1115-1180 arası tek tek el değiştirme günleri kaynakta YOK; 1159-1180 dört isyan (LZMK). Dönem Venedik olarak yazıldı (en az iki kaynak: fetih 1115, 1180'de Macar tanıma)."
+   },
+   {
+    "f": "1180-01-01",
+    "t": "1202-01-01",
+    "d": "macaristan",
+    "kesinlik": "yil",
+    "kaynak": "LZMK 'Zadar' (https://www.enciklopedija.hr/clanak/zadar): 'Godine 1180. Zadrani su prihvatili vlast hrvatsko-ugarskoga kralja Bele III.'",
+    "ic_not": "Bitiş: IV. Haçlı Seferi'nde Dandolo'nun fethi 1202."
+   },
+   {
+    "f": "1202-01-01",
+    "t": "1242-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Zara' (https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/): 'Enrico Dandolo, coadiuvato dalle genti della IV crociata, non stabilisce definitivamente il dominio della Repubblica'; LZMK 'Zadar': 'Najteži napad pretrpio je 1202.'",
+    "ic_not": "Haçlı ordusuyla fetih (Kasım 1202; gün bu oturumda yok)."
+   },
+   {
+    "f": "1242-01-01",
+    "t": "1247-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Zara' (https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/): 'Altri brevi distacchi, come quelli del 1242-47, ... non pregiudicano in alcun modo la continuità del regime dei dogi'",
+    "ic_not": "1242-1247 'distacco' (Venedik'ten kopuş): sahibi EI'de adlandırılmaz (Macar-Hırvat kralı Bela IV'ün 1242'de Zadar'a sığınması bilgisi bu oturumda AÇILMADI). EI süreklilik der; dönem BOŞLUK + beyan. Boşluk doldurma merdiveni: ①TDV (Zara maddesi yok) ②LZMK 'Zadar' (yalnız 'XIII. i XIV. st. podignuto je više pobuna') ③Macar kaynakları AÇILAMADI. Abi merkez yok."
+   },
+   {
+    "f": "1247-01-01",
+    "t": "1281-01-01",
+    "d": "venedik",
+    "kesinlik": "yil",
+    "kaynak": "EI 'Zara' (https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/): 'come quelli del 1242-47'",
+    "ic_not": "Atlas Zadar'ı 1281-01-01'de 'venedik' (enklav) ile başlatır; aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0383-01-01",
+    "gun": "MÖ 384",
+    "k": "diger",
+    "b": "Pharos (Hvar) adalıları Iadastinoi'yi yener (stel): Zadar halkının ilk tarihî anılışı",
+    "kaynak": "EI 'Zara', https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/",
+    "tanik": "che è la prima menzione storica degli abitanti di Zara"
+   },
+   {
+    "t": "-0128-01-01",
+    "gun": "MÖ 129",
+    "k": "diger",
+    "b": "Konsül C. Sempronius Tuditanus'un Liburnia seferi: Liburnlar Roma'ya haraç öder (fetih değil; Zara Roma'ya yönelir)",
+    "kaynak": "EI 'Zara', https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/",
+    "tanik": "dopo la marcia del console C. Sempronio Tuditano (129 a. C.)"
+   },
+   {
+    "t": "-0026-01-13",
+    "gun": "MÖ 27 (13 Ocak)",
+    "k": "diger",
+    "b": "künye geçişi: Roma Cumhuriyeti -> İmparatorluk (Octavianus'a Augustus adı)",
+    "kaynak": "Ovidius, Fasti 1.587-590 (https://www.thelatinlibrary.com/ovid/ovid.fasti1.shtml); yıl (MÖ 27) bu oturumda yeniden doğrulanmadı",
+    "tanik": "et tuus Augusto nomine dictus avus"
+   },
+   {
+    "t": "0476-01-01",
+    "gun": "476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma'nın sonu (EI: Zara sonrasında çiçeklenmeye devam etti; Dalmaçya Julius Nepos'tan Odoacer'e)",
+    "kaynak": "EI 'Zara', https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/",
+    "tanik": "dopo il tramonto dell'Impero d'Occidente (476)"
+   },
+   {
+    "t": "0493-01-01",
+    "gun": "493",
+    "k": "fetih",
+    "b": "Doğu Got Teodorik İtalya'ya hâkim olur; Zara Odoacer'den Ostrogot krallığına geçer (EI: 'regni italici di Odoacre e di Teodorico')",
+    "kaynak": "EI 'Zara', https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/",
+    "tanik": "sotto i regni italici di Odoacre e di Teodorico"
+   },
+   {
+    "t": "0540-01-01",
+    "gun": "540 (verso il 540)",
+    "k": "fetih",
+    "b": "Zara Gotlardan alınıp imparatorluğa (Bizans) geri verilir",
+    "kaynak": "EI 'Zara', https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/",
+    "tanik": "Verso il 540 fu tolta ai Goti e restituita all'impero"
+   },
+   {
+    "t": "0805-01-01",
+    "gun": "805-806",
+    "k": "diger",
+    "b": "Charlemagne sarayında Dalmaçya'yı Zadar'lı dük Paolo ve piskopos Donato temsil eder: kısa Frank hâkimiyeti dönemi",
+    "kaynak": "EI 'Zara', https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/",
+    "tanik": "nell'805-806, quando alla corte di Carlomagno la provincia è rappresentata dal duca Paolo"
+   },
+   {
+    "t": "0812-01-01",
+    "gun": "812",
+    "k": "antlasma",
+    "b": "Aachen Antlaşması: Zadar Bizans'a bırakılır",
+    "kaynak": "LZMK 'Zadar', https://www.enciklopedija.hr/clanak/zadar",
+    "tanik": "mirom u Aachenu (812) grad pripao Bizantu"
+   },
+   {
+    "t": "1000-01-01",
+    "gun": "1000",
+    "k": "fetih",
+    "b": "Venedik dojesi Orseolo II Zadar'ı alır; Zadar dojeye haraç öder (doje 'Dalmaçya dükü' unvanını alır)",
+    "kaynak": "EI 'Zara', https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/",
+    "tanik": "nel 1000 fa omaggio al doge"
+   },
+   {
+    "t": "1024-01-01",
+    "gun": "1024",
+    "k": "isyan",
+    "b": "Zadar Venedik egemenliğinden çözülür ve Bizans üst egemenliğine döner",
+    "kaynak": "EI 'Zara', https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/",
+    "tanik": "Ma già nel 1024 si scuote"
+   },
+   {
+    "t": "1050-01-01",
+    "gun": "1050",
+    "k": "diger",
+    "b": "Zadar kendi isteğiyle Hırvat hükümdarının egemenliğini tanır",
+    "kaynak": "LZMK 'Zadar', https://www.enciklopedija.hr/clanak/zadar",
+    "tanik": "se 1050. grad samovoljno podvrgnuo vlasti hrvatskoga vladara"
+   },
+   {
+    "t": "1105-01-01",
+    "gun": "1105",
+    "k": "diger",
+    "b": "Zadar Hırvat-Macar kralı Koloman'ın egemenliğini tanır",
+    "kaynak": "LZMK 'Zadar', https://www.enciklopedija.hr/clanak/zadar",
+    "tanik": "Zadar je 1105. priznao vlast hrvatsko-ugarskoga kralja Kolomana"
+   },
+   {
+    "t": "1115-01-01",
+    "gun": "1115",
+    "k": "fetih",
+    "b": "Venedik dojesi Ordelafo Falier Zadar'ı alır",
+    "kaynak": "LZMK 'Zadar', https://www.enciklopedija.hr/clanak/zadar",
+    "tanik": "1115. zauzeo ga je mletački dužd Ordelafo Faliero"
+   },
+   {
+    "t": "1180-01-01",
+    "gun": "1180",
+    "k": "diger",
+    "b": "Zadar Hırvat-Macar kralı III. Bela'nın egemenliğini kabul eder",
+    "kaynak": "LZMK 'Zadar', https://www.enciklopedija.hr/clanak/zadar",
+    "tanik": "Godine 1180. Zadrani su prihvatili vlast hrvatsko-ugarskoga kralja Bele III."
+   },
+   {
+    "t": "1202-01-01",
+    "gun": "1202",
+    "k": "fetih",
+    "b": "IV. Haçlı Seferi ordusuyla Doje Enrico Dandolo Zadar'ı alıp yıkar; Venedik hâkimiyeti 'kesin' olarak kurulur",
+    "kaynak": "EI 'Zara', https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/",
+    "tanik": "Enrico Dandolo, coadiuvato dalle genti della IV crociata"
+   },
+   {
+    "t": "1242-01-01",
+    "gun": "1242-1247",
+    "k": "isyan",
+    "b": "Zadar Venedik'ten kopar ('distacco' 1242-47)",
+    "kaynak": "EI 'Zara', https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/",
+    "tanik": "come quelli del 1242-47"
+   },
+   {
+    "t": "1247-01-01",
+    "gun": "1242-1247 (1247)",
+    "k": "fetih",
+    "b": "Zadar Venedik'e geri döner (distacco sonu)",
+    "kaynak": "EI 'Zara', https://www.treccani.it/enciclopedia/zara_(Enciclopedia-Italiana)/",
+    "tanik": "come quelli del 1242-47"
+   }
+  ],
+  "ic_not": "Çok kaynaklı ama çoğu yıl hassasiyetinde. ÇELİŞKİLER: (1) LZMK Zadar 998-1000 Venedik fethini ve ardından Hırvat tanımayı yazar, EI 1000 omaggio + 1024 Bizans'a dönüş; dönem sınırları EI'ye göre. (2) 1115-1180 arası Venedik/Macar dönemi EI 'fluttuare', LZMK 1115 fetih + 1180 Macar tanıma: dönem Venedik. Atlas Zadar'ı 1281'de 'venedik' (enklav, 1281-1358) ile başlatır; zincir aynı sahiple biter. TDV 'Zadar'/'Zara': 'zara' slug'ı 1788 içerik/23 başlık arama sayfası (başka Zara'lar); şehir maddesi yok. Zadar kuruluşu (kolonya MÖ 35-33) kuruluş tarihi vermediği için kur null."
  },
  {
   "id": "zaragoza",
