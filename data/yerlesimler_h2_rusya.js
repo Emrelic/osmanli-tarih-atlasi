@@ -324,7 +324,7 @@ window.YERLESIMLER_H2_RUSYA = [
 // altinorda 1281→1438-01-01 · kazan →1552-10-02 · rusya →1923.
 // TDV: `bulgar` (200, İdil Bulgarları) · `kazan-hanligi` (200) · `tataristan` (200)
 { ad:"Bulgar (Bolgar)", tur:"sehir", lat:54.976, lon:49.030, g:0, k:3,
-  s:[{f:"1281-01-01", t:"1438-01-01", d:"altinorda"},
+  s:[{f:"1236-01-01",t:"1242-01-01",d:"mogol-imparatorlugu",kesinlik:"yil",kaynak:"TDV 'Altın Orda Hanlığı' (ham metin): Batu seferinde 'ilk olarak Volga Bulgarları ortadan kaldırıldı'. Altın Orda kuruluşuna kadar (künye f 1242; TDV 1241) Moğol İmparatorluğu (Cuci ulusu). BEYANLI YAKLAŞIKLIK: dilim sonu künye f'sine bağlı. · VERI-MS1-1281"},{f:"1242-01-01",t:"1281-01-01",d:"altinorda",kesinlik:"yil",kaynak:"TDV 'İdil Bulgar Hanlığı': Bulgarlar Altın Orda zamanında 'yarı bağımlı da olsa siyasî varlıklarını devam ettirdi'; Bulgar şehri Altın Orda şehirleri arasında anılır (TDV 'Altın Orda Hanlığı'). Mevcut ilk s ile aynı sahip -> birleştirilebilir. · VERI-MS1-1281"},{f:"1281-01-01", t:"1438-01-01", d:"altinorda"},
      {f:"1438-01-01", t:"1552-10-02", d:"kazan"},
      {f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-26",d:"sovyet-rusya"},{f:"1991-12-26",t:"2000-12-31",d:"rusya-federasyonu",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 // Sviyajsk — Korkunç İvan'ın Kazan seferi için 1551'de kurduğu ileri üs.
