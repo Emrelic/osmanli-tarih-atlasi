@@ -220,6 +220,73 @@ sys.exit(0)
 '''
 
 
+ONIZLE = r'''
+# ════ MO-MOTOR-1020: TEK-EPOK DÜNYA ÖNİZLEME — verilen tarihlerde A haritası (PNG + GeoJSON) ════
+# Tam koşuya GEREK YOK: petek_epok + gövde + puan kapısı + komşu çıkarma (yabancı gövde hattının çekirdeği) o gün için.
+import json as _js_z
+import matplotlib as _mpl; _mpl.use("Agg")
+import matplotlib.pyplot as _plt
+from matplotlib.patches import Polygon as _MPoly
+_cik = os.environ["MO_OLC_YOL"] + ".onizleme"
+os.makedirs(_cik, exist_ok=True)
+_ozet = []
+for _et, _a in __GUNLER__:
+    _t0 = time.time()
+    _dv = devir_kumesi(_a)
+    _sahip = {}
+    for _j, _y in enumerate(YERLER):
+        if _j in _dv:
+            continue
+        for _sp in _y["s"]:
+            if gn(_sp["f"]) <= gn(_a) < gn(_sp["t"]):
+                _sahip.setdefault(_sp["d"], set()).add(_j)
+    _feat, _km2 = [], {}
+    for _did, _ak in sorted(_sahip.items()):
+        if _did == "__BOSLUK__":
+            continue
+        try:
+            _g, _k, _t = _yabanci_govde_hesap(_did, frozenset(_ak), _a, sorted(_ak))
+            if _g.is_empty:
+                continue
+            _g = _komsu_toprak_cikar(_did, frozenset(_ak), _a, _g)
+        except Exception as _x:
+            print("  önizleme hata", _did, _x); continue
+        if _g is None or _g.is_empty:
+            continue
+        _renk = BOYALAR.get(_did, ("?", "#888888"))[1]
+        _km2[_did] = round(_ham_km2(_g))
+        _feat.append({"type": "Feature", "properties": {"id": _did, "renk": _renk, "km2": _km2[_did], "nokta": len(_ak)},
+                      "geometry": shapely.geometry.mapping(_g)})
+    with open(os.path.join(_cik, "%s_%s.geojson" % (_et, _a)), "w", encoding="utf-8") as _f:
+        _js_z.dump({"type": "FeatureCollection", "features": _feat}, _f, ensure_ascii=False)
+    _fig, _ax = _plt.subplots(figsize=(16, 8), dpi=110)
+    try:
+        for _p in (KARA.geoms if hasattr(KARA, "geoms") else [KARA]):
+            _x, _y2 = _p.exterior.xy
+            _ax.fill(_x, _y2, color="#e8dfc8", lw=0)
+    except Exception as _x:
+        print("  kara çizilemedi", _x)
+    for _ft in _feat:
+        _gm = shapely.geometry.shape(_ft["geometry"])
+        for _p in (_gm.geoms if hasattr(_gm, "geoms") else [_gm]):
+            if _p.geom_type != "Polygon":
+                continue
+            _ax.add_patch(_MPoly(list(_p.exterior.coords), closed=True, fc=_ft["properties"]["renk"], ec="#333333", lw=0.3, alpha=0.65))
+    for _j in range(len(YERLER)):
+        if _j not in _dv:
+            _ax.plot(YERLER[_j]["lon"], YERLER[_j]["lat"], "k.", ms=2)
+    _ax.set_xlim(-12, 130); _ax.set_ylim(-10, 62); _ax.set_aspect(1.25)
+    _ax.set_title("%s · %s · %d devlet/kültür · %d sahnedeki nokta · A (taban %g saat)" % (_et, _a, len(_feat), len(YERLER) - len(_dv), YURUYUS_SAAT))
+    _fig.savefig(os.path.join(_cik, "%s_%s.png" % (_et, _a))); _plt.close(_fig)
+    _ozet.append({"etiket": _et, "gun": _a, "devlet": len(_feat), "sahne": len(YERLER) - len(_dv), "toplam_km2": sum(_km2.values()),
+                  "sn": round(time.time() - _t0, 1)})
+    print("  🗺", _ozet[-1], flush=True)
+with open(os.path.join(_cik, "ozet.json"), "w", encoding="utf-8") as _f:
+    _js_z.dump(_ozet, _f, ensure_ascii=False, indent=1)
+sys.exit(0)
+'''
+
+
 def sha(yol):
     h = hashlib.sha256()
     with open(yol, "rb") as f:
@@ -254,7 +321,13 @@ def kos(a):
     olcum = OLCUM.replace("__GUNLER__", repr(SENARYO_GUNLER if not a.senaryo_yok else []))
     if not a.senaryo_yok:
         src = src.replace(isaret, isaret + ENJEKSIYON.replace("__SENARYO__", repr(SENARYO_NOKTALAR)))
-    if a.karsilastir:
+    if a.onizle:
+        anc = '_MOTOR_PARALEL_ISCI = int(os.environ.get("MOTOR_PARALEL_ISCI", "4"))\n'
+        if src.count(anc) != 1:
+            raise SystemExit("önizle çapası 1 kez yok")
+        _gl = [(("MO%d" % -int(g[:5]) if g.startswith("-") else "MS%s" % g[:4]), g) for g in a.onizle.split(",")]
+        src = src.replace(anc, ONIZLE.replace("__GUNLER__", repr(_gl)) + "\n" + anc)
+    elif a.karsilastir:
         anc = '_MOTOR_PARALEL_ISCI = int(os.environ.get("MOTOR_PARALEL_ISCI", "4"))\n'
         if src.count(anc) != 1:
             raise SystemExit("karşılaştır çapası 1 kez yok")
@@ -397,6 +470,7 @@ def main():
     k.add_argument("--ayikla", action="store_true")
     k.add_argument("--dunya-olc", action="store_true", dest="dunya_olc")
     k.add_argument("--karsilastir", action="store_true")
+    k.add_argument("--onizle", default="", help="virgüllü günler, örn. -2999-06-15,0001-01-01,0300-06-15,0500-06-15,0800-06-15,1000-06-15")
     k.add_argument("--sakla", action="store_true")
     k.add_argument("--kutu", required=True)
     k.add_argument("--ad", required=True)

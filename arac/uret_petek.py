@@ -1268,11 +1268,13 @@ YURUYUS_16 = os.environ.get("MOTOR_YURUYUS_16") == "1"
 #      (k0 = "kademe yazılmamış"; MÖ Sümer 21 noktasının hepsi k:0 — dışlansa
 #      MÖ haritası boşalırdı).
 MO_SINIR = os.environ.get("MOTOR_MO_SINIR", "1281-01-01")
-MO_YURUYUS_GUN = float(os.environ.get("MOTOR_MO_YURUYUS_GUN", "10"))
+# "AYNI PRENSİP" (Emre, 21 Ekim): varsayılan = üretim bütçesi (5 gün); 7/10 gün A gösterimi BANTLARDAN (MÖ günlerinde
+# bantlar da epok-duyarlı: bkz. bant döngüsü). Eski sabit 10 gün için MOTOR_MO_YURUYUS_GUN=10 verilir.
+MO_YURUYUS_GUN = float(os.environ.get("MOTOR_MO_YURUYUS_GUN") or (YURUYUS_SAAT / 8.0))
 MO_SAAT = MO_YURUYUS_GUN * 8.0
 MERKEZ_KURALI = os.environ.get("MOTOR_TARIH_BASI_MERKEZ", "mo")
 MERKEZ_K0 = os.environ.get("MOTOR_MERKEZ_K0", "1") != "0"
-MO_PUAN = os.environ.get("MOTOR_MO_PUAN_KAPISI", "0") == "1"      # 1: yoğunluk kapısı MÖ'de de açık
+MO_PUAN = os.environ.get("MOTOR_MO_PUAN_KAPISI", "1") == "1"      # "aynı prensip": kapı MÖ'de de açık (0 = atla)
 if MERKEZ_KURALI not in ("0", "1", "mo"):
     raise SystemExit(f"MOTOR_TARIH_BASI_MERKEZ '0'|'1'|'mo' olmalı — gelen: {MERKEZ_KURALI!r}")
 print(f"  🏺 MÖ katmanı: sınır {MO_SINIR} · tavan {MO_YURUYUS_GUN:g} gün ({MO_SAAT:g} saat) · "
@@ -5817,7 +5819,7 @@ def _olu_bilesenler(olu, hucre):
     return out
 
 
-def petek_epok(g):
+def petek_epok(g, bant=None):
     """g tarihinde geçerli petek listesi; kurulmamış/yok olmuş noktanın payı
     o tarihte sahnede olan komşulara **Voronoi kuralıyla PAYLAŞTIRILMIŞ** hâlde.
 
@@ -5830,16 +5832,17 @@ def petek_epok(g):
     _mo_t = _mo_tavanli(g)
     _taban = PETEK_D
     _butce = None
-    if _mo_t and abs(MO_SAAT - YURUYUS_SAAT) > 1e-9:
-        if MO_SAAT not in _BANT_HAM:
+    _saat = MO_SAAT if bant is None else bant       # bant: A gösterimi 7/10 gün (yalnız MÖ günleri, bant döngüsü)
+    if _mo_t and abs(_saat - YURUYUS_SAAT) > 1e-9:
+        if _saat not in _BANT_HAM:
             raise SystemExit(
-                f"🏺 MÖ tavanı {MO_SAAT:g} saat ama MOTOR_UFUK_BANT'ta bu bant YOK "
-                f"(bantlar: {sorted(_BANT_HAM)}) — MOTOR_UFUK_BANT'a {MO_SAAT:g} ekle ya da "
+                f"🏺 MÖ tavanı {_saat:g} saat ama MOTOR_UFUK_BANT'ta bu bant YOK "
+                f"(bantlar: {sorted(_BANT_HAM)}) — MOTOR_UFUK_BANT'a {_saat:g} ekle ya da "
                 f"MOTOR_MO_YURUYUS_GUN={YURUYUS_SAAT / 8:g} ver. Sessizce zayıf tavanla koşulmaz.")
         _taban = [(b if b is not None else PETEK_D[_i])
-                  for _i, b in enumerate(_BANT_HAM[MO_SAAT])]
-        _butce = MO_SAAT * NEHIR_KM_SAAT
-    _anah = ("MO", devir) if _mo_t else devir
+                  for _i, b in enumerate(_BANT_HAM[_saat])]
+        _butce = _saat * NEHIR_KM_SAAT
+    _anah = (("MO", devir) if bant is None else ("MO", devir, bant)) if _mo_t else devir
     if not devir and not _mo_t:
         return PETEK_D
     if _anah in _VARLIK_ONBELLEK:
@@ -9569,7 +9572,14 @@ if _BANT_HAM and len(_BANT_HAM) > 1:
         #    biçim maliyet yüzünden ertelenecek bir şey değil.
         _dk, _alan, _bos = [], 0.0, 0
         for _did, _f, _t, _ak in _BANT_AKTIF:
-            _par = [_pb[_j] for _j in _ak if _j < len(_pb) and _pb[_j] is not None]
+            if _mo_tavanli(_f):
+                # 🏺 "AYNI PRENSİP": MÖ/1281-öncesi dönemde bant, ham hücrelerden DEĞİL epok-duyarlı petekten
+                #    (ölü/hayalet noktaların payı yürüyüşle canlıya devredilmiş; bütçe = bant). Taban bant = üretim bütçesi.
+                _pe_b = petek_epok(_f, None if _onceki is None else _bs)
+                _par = [_pe_b[_j] for _j in _ak if _j < len(_pe_b) and _pe_b[_j] is not None
+                        and not _pe_b[_j].is_empty]
+            else:
+                _par = [_pb[_j] for _j in _ak if _j < len(_pb) and _pb[_j] is not None]
             if not _par:
                 _bos += 1
                 continue
