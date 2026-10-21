@@ -26,16 +26,16 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Oxford Dictionary of Byzantium s.v. Exarchate of Africa",
-   "Encyclopaedia of Islam s.v. Ifrikiya"
+   "Josephine Campbell, 'Exarchate of Africa', EBSCO Research Starter, 2014 (https://www.ebsco.com/research-starters/social-sciences-and-humanities/exarchate-africa) — kuruluş: VI. yy sonu, Maurikios; yıkılış 698 (okundu)",
+   "Walter Kaegi, Muslim Expansion and Byzantine Collapse in North Africa, Cambridge University Press, 2010 (Vikipedi 'Exarchate of Africa' atfıyla; kitap açılmadı)",
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Exarchate_of_Africa"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Prefektlikten eksarhlığa geçiş 580'ler/591; Kartaca'nın düşüşü 698 (kaynaklar 693-698 arası verir). 534-591 prefektlik dönemi ayrı kayıt gerekirse. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş yılı kaynakta değişir: Vikipedi bilgi kutusu 591, metin 585-590 arası (Maurikios), EBSCO 'VI. yy sonu'; 591 seçildi, kesin yıl doğrulanmadı. 534-585/591 Justinianus'un Afrika Praetorium Prefektliği ayrı dönem. Kartaca'nın düşüşü 698 (Hasan b. Nu'mân); 695-698 aralığı yalnız son exarch Ioannes'in görev süresidir. Taslak değeri: aynı (591-698).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Eksarhlık ayrı künyesi yok."
+   "not": "mevcut_once1281.tsv'de Afrika eksarhlığı yok; 'bizans' (balkanlar) ve 'vandal' (429-534) ayrı; ravenna-eksarhligi benzer tür olarak var."
   }
  },
  {
@@ -63,16 +63,16 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Altava yazıtı CIL VIII 9835 (508)",
-   "Brill's New Pauly"
+   "Courtot, P. 'Altava', Encyclopédie berbère, c. 4, Edisud 1987, s. 543-552 (Vikipedi 'Kingdom of Altava' atfıyla; açılmadı)",
+   "Merrills, A., Vandals, Romans and Berbers, Routledge 2017, s. 118; Martindale, PLRE II 1980 s. 734 ve III 1992 s. 1171-1172 (Vikipedi 'Masuna' atfıyla; açılmadı)",
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Masuna, /Kingdom_of_Altava"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "f ilk yazıt tarihi (508), kuruluş daha eski olabilir; t 578 çok belirsiz. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Vikipedi kendi içinde çelişir: Masuna 'fl. c. 508-535'; Mauro-Roma Krallığı c. 429-599 ya da 477-578; ardıl 'Altava Krallığı' 578-708 (Sekerdid, Caecilius; 708 Emevî ilhakı). f=508 Masuna'nın ilk tanıklı tarihi (Altava yazıtı 508); t=578 Garmul'un Bizans karşısında yenilgisi ve krallığın çöküşü. 578-708 Altava devamı ayrı dönem olarak değerlendirilebilir (aynı polity ise t=708'e genişler). Taslak değeri: 508-578.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mauri krallıkları için dayanak ikinci el."
+   "not": "'mauretania-krallik' (MÖ 109-MS 44) ile ilgisiz; Altava mevcut listede yok."
   }
  },
  {
@@ -81,7 +81,7 @@
   "tur": "emirlik",
   "bolge": "kuzey-afrika",
   "f": "0710-01-01",
-  "t": "1019-01-01",
+  "t": "1015-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -99,15 +99,17 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "TDV İslâm Ansiklopedisi s.v. Nekkûr"
+   "Ch. Pellat, 'Nakūr', Encyclopaedia of Islam, 2. bs., c. VII, Brill 1993, s. 941-943 (Vikipedi 'Emirate of Nekor' atfıyla; açılmadı)",
+   "P. Cressier, 'Nakur: un émirat rifain pro-omeyyade contemporain des Aghlabides', The Aghlabids and their Neighbors, Brill 2017 (atıf; açılmadı)",
+   "TDV İslâm Ansiklopedisi'nde Nekûr/Nekkûr maddesi aranarak bulunamadı (arama: 'nekkur' 0 sonuç, 'nekur' yalnız İbn Nâkiye/Kantar/Ritl maddeleri)",
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Emirate_of_Nekor"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "f 710 (bazı kaynaklar 709); t 1019 çok kaba. TDV'den doğrulanmalı. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri: 710-1019. Vikipedi: kurucu Sâlih b. Mansûr, 710 (Velîd b. Abdülmelik'in bahşi), başkent Temsaman (710-760) sonra Nekûr (760-1015), 'yaklaşık 1015'e kadar; Nekûr şehri 1080-81'de yıkıldı. f=710, t=1015 (Vikipedi) seçildi; 1019 hafızadan taslaktı. Kanonik EI2 'Nakūr' maddesi açılıp okunmadı. Vikinglerin 859 baskını ve Emevî-Ağlebî çağdaşlığı Cressier'de.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "TDV birinci başvuru."
+   "not": "Nekûr mevcut_once1281.tsv'de yok."
   }
  },
  {
@@ -115,10 +117,10 @@
   "ad": "Yıfrenîler (Benî Yıfren - Tilimsan/Sala)",
   "tur": "emirlik",
   "bolge": "kuzey-afrika",
-  "f": "0742-01-01",
+  "f": "0765-01-01",
   "t": "1066-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Tilimsan",
@@ -135,15 +137,15 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Encyclopaedia of Islam s.v. Ifrenids"
+   "Sabri Hizmetli, 'İFREN (Benî İfren)', TDV İslâm Ansiklopedisi (https://islamansiklopedisi.org.tr/ifren-beni-ifren) — Ebû Kurre 148/765'te imam ilan etti; Yaʿlâ b. Muhammed İfkân emirliği 958'de Cevher'in elinde öldü; Şâle emirliği 1066'da Murâbıtlar'ca sona erdi (okundu)",
+   "T. Lewicki, 'Banū Ifran', Encyclopaedia of Islam, 2. bs.; J. Abun-Nasr, A History of the Maghrib in the Islamic Period, Cambridge UP 1987, s. 42-43 (Vikipedi 'Banu Ifran' atfıyla; açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Sufrî Yıfrenîler (742) ile 10.-11. yy Tilimsan Yıfrenîleri (Yaʿlâ 987-1066) aynı polity sürekliliği olmayabilir; ayrı kayıt gerekebilir. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri: 742-1066. TDV: Ebû Kurre'nin Sufrî imamlığı 765 (Tilimsan merkezli, 767-776 Berberî isyanı); IX. yy'da Benî İfren İdrîsî hâkimiyetini kabul etti (kesintili); Yaʿlâ b. Muhammed (Fâtımî karşısında) İfkân emirliğini kurdu, 958'de öldürüldü; Şâle emirliği 1066 Murâbıt. Vikipedi: Tilimsan İfrenî hanedanı 950-1066 ya da 742-1066 diye çelişik; Ya'lâ'nın ölümü 954 (Ravdü'l-Kırtâs) / 958 (İbn Haldûn). Bu kayıt sürekli tek devlet değil, ardışık İfrenî emirliklerinin zarfıdır; 765-IX. yy ile 929-958 İfkân/Tilimsan emirliği ayrı dönemler olarak bölünebilir. Sala için ayrı kayıt eklendi.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Doğrulamada ikiye bölünebilir."
+   "not": "'zeyyani' (1235-) Tilimsan'ın sonraki hanedanı; Yıfrenîler mevcut listede yok."
   }
  },
  {
@@ -154,7 +156,7 @@
   "f": "0918-01-01",
   "t": "1172-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Zavîle",
@@ -168,15 +170,15 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Encyclopaedia of Islam s.v. Zawila"
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Banu_Khattab — Zavîle ve Fizzan vahaları, 918/919 - yaklaşık 1172-1177 (Karakuş fethi); atıf: Encyclopaedia of Islam, Encyclopédie berbère, J. R. Willis, Slaves and Slavery in Muslim Africa (açılmadı)",
+   "TDV'de 'Hattâbîler' hanedan maddesi yok (arama: 'hattabiler' yalnız Bid'at ve İbn Amîre maddelerinde, Endülüs'teki başka Hattâbîler anılır)"
   ],
   "dogrulama": "taslak",
-  "ic_not": "f hanedan başlangıcı (10. yy); t Şerefeddin Karakuş fethi 1172 (kaba). [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "ic_not": "Taslak değeri 918-1172. Vikipedi: Havvâre kökenli İbâdî hanedan, 918/919'dan Karakuş'un fethine (1172-1177 arası) kadar; Kanem sonra Fizzan'ı aldı. Akademik kaynak okunmadığından taslak kaldı. Bölge kenarı: kuzey-afrika/Libya.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Garamantes sonrası (666-918) Fizan boşluğunu doldurur."
+   "not": "Zavîle/Hattâbîler mevcut listede yok; 'garamant' (Fizzan, -499/666) çok daha erken."
   }
  },
  {
@@ -184,10 +186,10 @@
   "ad": "Wagadu (Gana) - Erken Dönem",
   "tur": "krallik",
   "bolge": "bati-afrika",
-  "f": "0790-01-01",
+  "f": "0701-01-01",
   "t": "1076-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yuzyil",
    "t": "yil"
   },
   "baskent": "Kumbî Sâlih?",
@@ -203,16 +205,15 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Levtzion, Ancient Ghana and Mali (1973)",
-   "Encyclopaedia of Islam s.v. Ghana"
+   "Abdülazîz el-Alevî, 'GĀNE', TDV İslâm Ansiklopedisi, c. 13, İstanbul 1996, s. 346-348 (https://islamansiklopedisi.org.tr/gane) — okundu: kuruluş tarihi bilinmiyor, 'milâttan sonra İlkçağlardan' siyasî varlık; VIII. yy'da Soninke ailesine geçiş, 469/1076-77'ye kadar; Murâbıtlar 1076'da Gâne şehrini aldı",
+   "Levtzion–Hopkins (eds.), Corpus of Early Arabic Sources for West Africa, Cambridge 1981 (Vikipedi/Awdaghust atfıyla; açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Soninke geleneği 4. yy; Fezârî ~790 ilk anılış. f anılma tarihi, kuruluş değil. Mevcut 'gane' f=1000. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri: 790-1076. TDV kuruluş yılı vermez; 'VIII. yüzyıl' Soninke yönetimine geçiş; Kumbi Salih = Gâne sanılır (tartışmalı). 1076: Murâbıt fethi (TDV), ardından Susu bağımsızlığı; devlet 1087 sonrası çözüldü. UYARI: mevcut 'gane' künyesi f=1000, TDV'ye göre aynı polity VIII. yüzyıldan beri var → künye f genişletilmeli (ayrı kayıt gerekmez). Erken 'Wagadu' adı 8. yy sonu el-Fezârî'ye (Vikipedi/Levtzion) dayanır, TDV metninde geçmez.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "gane",
-   "not": "Mevcut künyenin f'sini erkene çekme önerisi; ayrı kayıt gerekmez."
+   "not": "gane f=1000-01-01 → 8. yy'a genişletilmeli; t=1076 uyumlu."
   }
  },
  {
@@ -220,7 +221,7 @@
   "ad": "Tekrur - Erken Dönem",
   "tur": "krallik",
   "bolge": "bati-afrika",
-  "f": "0850-01-01",
+  "f": "0801-01-01",
   "t": "1000-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -239,15 +240,14 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Levtzion & Hopkins, Corpus of Early Arabic Sources for West African History (1981)"
+   "Hatice Uğur, 'TEKRÛR', TDV İslâm Ansiklopedisi, c. 40, 2011, s. 387-388 (islamansiklopedisi.org.tr/tekrur) — okundu: erken Tekrûr krallığı IX. yy'da Aşağı Senegal'de Tekrûr şehrinde kuruldu; İslâmlaşma V./XI. yy'ın ilk yarısında Vâr Câbî; XIII. yy'da Gâne sonra Mali himayesi"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Aynı polity; f genişletme önerisi. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri 850-1000. TDV 'IX. yüzyıl' der, kesin yıl yok (801 yalnız yüzyıl başı). t=1000 yapay sınırdır: aynı polity 'tekrur-kralligi' künyesinde 1281'e kadar sürer; ayrı kayıt gerekmez, mevcut künye f'si 1000→IX. yy'a çekilmeli. Vâr Câbî'nin İslâm'a girişi 1040 ('1040' TDV metninde yok).",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "tekrur-kralligi",
-   "not": "Ayrı kayıt gerekmez."
+   "not": "tekrur-kralligi f=1000 → IX. yy; t=1281 uyumlu."
   }
  },
  {
@@ -255,10 +255,10 @@
   "ad": "Kevkev (Gao) - Erken Dönem",
   "tur": "krallik",
   "bolge": "bati-afrika",
-  "f": "0872-01-01",
+  "f": "0801-01-01",
   "t": "1009-01-01",
   "kesinlik": {
-   "f": "yil",
+   "f": "yuzyil",
    "t": "yil"
   },
   "baskent": "Gao",
@@ -274,49 +274,14 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Levtzion & Hopkins, Corpus (1981)"
+   "Rıza Kurtuluş, 'GAO', TDV İslâm Ansiklopedisi, c. 13, 1996, s. 357 (islamansiklopedisi.org.tr/gao) — okundu: Kevkev Krallığı IX. yy'da ortaya çıktı; şehir 890'a doğru Songaylar'ın eline geçti; Zâ hanedanının 15. hükümdarı Kosoy İslâm'ı kabul edip merkezi Kukia'dan Gao'ya taşıdı (400/1009-10); 1324'te Mali'ye bağlandı"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Aynı polity; genişletme. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri 872-1009. TDV: IX. yy ortaya çıkış; 890 civarı Songay hâkimiyeti; 1009-10 İslâm + merkez Kukia→Gao. Aynı polity 'kevkev' künyesinde 1324'e kadar sürer; ayrı kayıt gerekmez (f 1000 → IX. yy). Kuruluş: Sorko-Faran balıkçılarına VII. yy sonu atfı yalnız şehir için.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "kevkev",
-   "not": "Ayrı kayıt gerekmez."
-  }
- },
- {
-  "id": "igbo-ukwu",
-  "ad": "Igbo-Ukwu Merkezi",
-  "tur": "sehir-devleti",
-  "bolge": "bati-afrika",
-  "f": "0850-01-01",
-  "t": "0950-01-01",
-  "kesinlik": {
-   "f": "onyil",
-   "t": "onyil"
-  },
-  "baskent": "Igbo-Ukwu",
-  "etkin_bolge": "Güneydoğu Nijerya",
-  "sehirler": [
-   "Igbo-Ukwu"
-  ],
-  "ozet": "9.-10. yy'da dökme bronz ve kral/rahip mezarı bulunan merkez; siyasî yapısı belirsiz.",
-  "oncul": [],
-  "ardil": [
-   "nri"
-  ],
-  "oncelik": "kucuk",
-  "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Shaw, Igbo-Ukwu (1970)"
-  ],
-  "dogrulama": "taslak",
-  "ic_not": "Yalnız arkeoloji; yöneten birimin adı bilinmiyor. [HAFIZADAN; web'de acilip okunmadi - taslak]",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Siyasî birim olup olmadığı belirsiz."
+   "not": "kevkev f=1000 → IX. yy; t=1324 TDV ile uyumlu."
   }
  },
  {
@@ -340,59 +305,26 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Levtzion & Hopkins Corpus (1981)"
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Zaghawa_people — Yakûbî (889-890) Kanem'de oturan Zağava'dan söz eder; atıf: Fage & Oliver, Cambridge History of Africa c. 2-3 (1975-77), s. 287-290; Shoup 2011 s. 333; Lobban 2021 (açılmadı)"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Siyasî birim mi etnik ad mı belirsiz; t bilinmiyor; misir-sudan oturumuyla çakışabilir. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "ic_not": "Siyasî birim mi etnik ad mı belirsiz; t bilinmiyor; misir-sudan oturumuyla çakışabilir. [HAFIZADAN; web'de acilip okunmadi - taslak] [2. tur] Vikipedi: Zağava Çad Gölü-Darfur arası Sahel'de çok sayıda küçük topluma hegemonya kurdu (tarihsiz); 11. yy'da Zağava krallarının Müslüman olduğu; Kanem yükselince Zağava'nın gücü kırıldı. Siyasî birim olarak sınırları belirsiz, taslak.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mısır oturumuna sorulmalı."
-  }
- },
- {
-  "id": "tadmekka",
-  "ad": "Tadmekka (Es-Sûk) Tuareg Şehri",
-  "tur": "sehir-devleti",
-  "bolge": "bati-afrika",
-  "f": "0850-01-01",
-  "t": null,
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "belirsiz"
-  },
-  "baskent": "Tadmekka",
-  "etkin_bolge": "Adrar des Ifoghas (Mali)",
-  "sehirler": [
-   "Tadmekka"
-  ],
-  "ozet": "Sahra ticaret yolunda Tuareg şehri; İbn Havkal/Bekrî anlatır.",
-  "oncul": [],
-  "ardil": [],
-  "oncelik": "kucuk",
-  "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Nixon, Tadmekka: Archaeology of an Early Saharan Trading Town (2017)"
-  ],
-  "dogrulama": "taslak",
-  "ic_not": "Siyasî birim mi bağımsız şehir mi belirsiz; t bilinmiyor. [HAFIZADAN; web'de acilip okunmadi - taslak]",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Doğrulama gerekir."
+   "not": "mevcut listede yok; 'kanem-bornu' (800-) komşu."
   }
  },
  {
   "id": "sahra-sanhaca",
-  "ad": "Sahra Sanhâcası Konfederasyonu (Kudâle-Lemtûne)",
+  "ad": "Sahra Sanhâceleri / Evdeguşt Emirliği",
   "tur": "konfederasyon",
   "bolge": "bati-afrika",
-  "f": "0800-01-01",
-  "t": "1040-01-01",
+  "f": "0889-01-01",
+  "t": "1054-01-01",
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "onyil"
+   "f": "yil",
+   "t": "yil"
   },
   "baskent": "Awdaghust?",
   "etkin_bolge": "Batı Sahra",
@@ -406,51 +338,87 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Levtzion, Ancient Ghana and Mali (1973)"
+   "Abdülazîz el-Alevî, 'GĀNE', TDV İslâm Ansiklopedisi c. 13, 1996 — 'Sanhâce Emirliği'nin eski başşehri Evdeguşt' 1054'te Murâbıtlar'ca alındı (okundu)",
+   "Mehmet Özdemir, 'SANHÂCE (Benî Sanhâce)', TDV İslâm Ansiklopedisi (islamansiklopedisi.org.tr/sanhace-beni-sanhace) — X-XII. yy'da en güçlü; Sanhâce siyasî gücü 1224 Muvahhid yenilgisiyle bitti (okundu)",
+   "E. A. McDougall, 'The view from Awdaghust', Journal of African History 26/1, 1985, s. 1-31; Levtzion-Hopkins Corpus (Vikipedi 'Awdaghust' atfıyla; açılmadı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Konfederasyonun dönemleri belirsiz; t Murâbıt hareketi başlangıcı (~1040). [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri: 800-1040. f=889: Yakûbî (889-890) Evdeguşt'ta bir Sanhâce kralından söz eder (Vikipedi aracılığıyla). 977 İbn Havkal: Evdeguşt kralı Gâne ile ilişkide ama bağımlı değil; X-XI. yy sonu Gâne'ye bağlanmış (McDougall); 1054-55 Murâbıt fethi. t=1040 taslağı yerine 1054 (TDV). Tinbarutan/Lemtûne konfederasyonu ayrı kayıt gerektirmez, Murâbıtlar'a evrilir (mevcut 'murabitlar' f=1056).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Murâbıt öncesi."
+   "not": "Mevcut 'murabitlar' 1056'da başlar; Evdeguşt/Sahra Sanhâce emirliği yok."
   }
  },
  {
-  "id": "toutswe-sefligi",
-  "ad": "Toutswe Şeflikleri",
-  "tur": "seflik",
-  "bolge": "guney-afrika",
-  "f": "0700-01-01",
-  "t": "1300-01-01",
+  "id": "sala-emirligi-benifren",
+  "ad": "Şâle (Salé) Emirliği — Benî İfren",
+  "tur": "emirlik",
+  "bolge": "kuzey-afrika",
+  "f": null,
+  "t": "1066-01-01",
   "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
+   "f": "belirsiz",
+   "t": "yil"
   },
-  "baskent": "Toutswe",
-  "etkin_bolge": "Botsvana doğu tepeleri",
+  "baskent": "Şâle (Salé)",
+  "etkin_bolge": "Atlantik Fas, Ebu Regreg ağzı, Tâdlâ",
   "sehirler": [
-   "Toutswe",
-   "Bosutswe"
+   "Şâle",
+   "Tâdlâ"
   ],
-  "ozet": "Sığırcılığa dayalı kademeli yerleşim hiyerarşisi.",
-  "oncul": [],
+  "ozet": "Benî İfren'in Fas Atlantik kıyısındaki emirliği; Tâmim b. Zîrî'nin Şâle'ye çekilmesi (1038-40 sonrası) ile bilinir, Murâbıtlar 1066'da sona erdirdi.",
+  "oncul": [
+   "ifraniler-tilimsan"
+  ],
   "ardil": [
-   "mapungubwe"
+   "murabitlar"
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Denbow, Toutswe tradition (1986)"
+   "Sabri Hizmetli, 'İFREN (Benî İfren)', TDV İslâm Ansiklopedisi (islamansiklopedisi.org.tr/ifren-beni-ifren) — 'Şâle emirliği 1066'da Murâbıtlar'ca sona erdirildi' (okundu)",
+   "Vikipedi 'Banu Ifran' (aracı): Tâmim b. Zîrî 1038-40'ta Fes'in Mağrâve'ce geri alınmasından sonra Şâle'ye çekildi; atıf Aknûş, Histoire politique du Maroc 1987"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kültür mü siyasî birim mi belirsiz. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç yılı kaynakta yok (TDV yalnız sonu verir; yıl bilinmiyor). Bu tür ardışık Zenâte emirliklerinden biri; ayrı polity olarak kalıp kalmayacağına 'ifraniler-tilimsan' zarfıyla birlikte karar verilmeli.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mapungubwe öncüsü sayılır."
+   "not": "Şâle emirliği mevcut listede yok; 'magrave-fas' komşu Zenâte hanedanı."
+  }
+ },
+ {
+  "id": "ibadi-imamlik-trablus",
+  "ad": "Trablus İbâdî İmamlığı (Ebü'l-Hattâb el-Maʿâfirî)",
+  "tur": "imamlik",
+  "tur_yeni": "Hâricî/İbâdî imamlık; sözlükte yoksa 'emirlik' veya 'hilafet' altına",
+  "bolge": "kuzey-afrika",
+  "f": "0757-01-01",
+  "t": "0761-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
   },
-  "tur_yeni": "Arkeolojik şeflik düzeyi; sözlükte yok."
+  "baskent": "Trablus → Kayrevan (758)",
+  "etkin_bolge": "Trablusgarp ve İfrîkıye",
+  "sehirler": [
+   "Trablus",
+   "Kayrevan"
+  ],
+  "ozet": "Ebü'l-Hattâb Abdülʿalâ b. es-Semh el-Maʿâfirî önderliğinde Trablus'ta ilan edilen ve kısa süre Kayrevan'ı da elinde tutan İbâdî imamlığı; Abbâsî ordusu 761'de sona erdirdi.",
+  "oncul": [],
+  "ardil": [
+   "rustemi",
+   "aglebi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler HAFIZADAN (Vikipedi sayfası bulunamadı, akademik kaynak okunmadı). Doğrulama adayı: Encyclopaedia of Islam 'Abu 'l-Khattab al-Ma'afiri'; TDV 'Ebü'l-Hattâb el-Maʿâfirî' maddesi (arandı, açılmadı).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "'rustemi' (777-) Tâhert İbâdîleri ardıl; Trablus imamlığı mevcut listede yok."
+  }
  }
 ]

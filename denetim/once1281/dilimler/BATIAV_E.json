@@ -383,7 +383,7 @@
   "tur": "taifa-emirligi",
   "bolge": "iberya",
   "f": "1022-01-01",
-  "t": "1094-01-01",
+  "t": "1095-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -395,9 +395,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Mehmet Özdemir, \"Eftasîler\", TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/eftasiler (baskı 1994): \"1022-1095 yılları arasında hüküm süren Berberî hânedanı\"; ABDULLAH b. EFTAS md.: kurucu, 1022-1045"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak | taslak t=1094 idi; TDV 1095 verir, TDV esas alındı. Başkent Batalyevs (Badajoz) — TDV Eftasîler'de Sağrülednâ/Vâdiiâne bölgesi.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -409,8 +411,8 @@
   "ad": "Daniye Taifesi (Mucahid)",
   "tur": "taifa-emirligi",
   "bolge": "iberya",
-  "f": "1010-01-01",
-  "t": "1076-01-01",
+  "f": "1014-07-02",
+  "t": "1076-08-05",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -422,9 +424,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Mücâhid el-Âmirî md., TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/mucahid-el-amiri: Dâniye Emirliği kuruluşu 405/1014 (kaynaklarda 400, 402, 403 de verilir), Balear adalarını içine alır",
+   "Mayurka md., TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/mayurka: Hûdîler 469 (1076-77) yılında Dâniye Emirliği'ne son verdi"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak | taslak f=1010 idi; TDV 405/1014. Hicrî 405 ∩ 1014 ilk günü (tablo hesabı, Jülyen, ±2 gün) 1014-07-02; 469 ∩ 1076 ilk günü 1076-08-05. Kaynak 400/402/403 (1009-1012) alternatiflerini de sayar. Kuruluşta Emevî halifeliğine ad olarak bağlılık sürdü (Mücâhid).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -436,7 +441,7 @@
   "ad": "Elmeriyye Taifesi",
   "tur": "taifa-emirligi",
   "bolge": "iberya",
-  "f": "1012-01-01",
+  "f": "1009-01-01",
   "t": "1091-01-01",
   "kesinlik": {
    "f": "yil",
@@ -449,9 +454,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Meriye md., TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/meriye: 399 (1009) Âmirî ailesi iktidardan uzaklaşınca Hayrân el-Âmirî ve ardından Züheyr Meriye yönetimini ele geçirdi; Tücîbî kolu Benî Sumâdıh dönemi 1042-1091",
+   "Tücîbîler md., TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/tucibiler"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | TDV 1009 \"yönetimi ele geçirme\" der (taslak f=1012, hukuken bağımsızlık sonrası olabilir); t=1091 Benî Sumâdıh dönemi sonu. Üç evre: Âmirî Hayrân/Züheyr (1009-1038?), Zuheyr sonrası Valensiya Âmirîsi, Tücîbî Sumâdıh 1042-1091 — evre sınırları TDV'den okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -463,8 +471,8 @@
   "ad": "Hammudiler (Malaga Taifesi)",
   "tur": "taifa-emirligi",
   "bolge": "iberya",
-  "f": "1026-01-01",
-  "t": "1057-01-01",
+  "f": "1023-01-01",
+  "t": "1057-03-10",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -476,9 +484,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Hammûdîler md., TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/hammudiler: hânedan 1016-1058; Mâleka'da 427'ye (1035) kadar Yahyâ, 449'a (1057) kadar halefleri hüküm sürdü"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | taslak f=1026 idi; TDV Yahyâ el-Muûtelî'nin Mâleka'dan 414/1023'te göründüğünü yazar (Mâleka tabanı 1021-23 arası başladı, kesin gün yok). t = hicrî 449 ∩ 1057 ilk günü (tablo, ±2 gün); TDV başlık 1058. Hammûdîler Kurtuba ve İşbîliye'de de (1016-1027) hüküm sürdü — bu kayıt yalnız Mâleka kolu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -491,10 +501,10 @@
   "tur": "taifa-emirligi",
   "bolge": "iberya",
   "f": "1021-01-01",
-  "t": "1065-01-01",
+  "t": "1065-11-10",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "gun"
   },
   "baskent": "Belensiye",
   "etkin_bolge": "",
@@ -503,9 +513,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Abdülkerim Özaydın, \"Âmirîler\", TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/amiriler (baskı 1991): Belensiye'de hânedan kuruldu (411/1021); Abdülmelik Zünnûnî Yahyâ el-Me'mûn tarafından tahttan uzaklaştırıldı (8 Zilhicce 457 / 10 Kasım 1065)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak | taslak t=1065 idi, gün 10 Kasım 1065 (TDV, Jülyen). TDV başlığı 1021-1094 hânedanın Belensiye'deki varlığını sayar; 1065 sonrası şehir Zünnûnî (Toledo) idaresine geçtiğinden polity sonu 1065. Hicrî 411 ∩ 1021 ilk günü 1021-01-01.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -517,11 +529,11 @@
   "ad": "Birzaliler (Karmuna Taifesi)",
   "tur": "taifa-emirligi",
   "bolge": "iberya",
-  "f": "1013-01-01",
-  "t": "1091-01-01",
+  "f": null,
+  "t": null,
   "kesinlik": {
-   "f": "yil",
-   "t": "yil"
+   "f": "belirsiz",
+   "t": "belirsiz"
   },
   "baskent": "Karmuna",
   "etkin_bolge": "",
@@ -530,9 +542,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Mülûkü't-tavâif md., TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/mulukut-tavaif: Birzâlîler (Karmûne) mülûkü't-tavâif listesinde, Bekrîler ve Birzâlîler'in daha sonra ortadan kaldırıldığı belirtilir (özne: komşu güçlü emirlikler; tarih yok)",
+   "Abbâdîler md., TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/abbadiler: Abbâd b. Muhammed (1042-1069) Karmûne'deki Muhammed b. Abdullah el-Birzâlî ve oğlu İshak ile mücadele etti"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | taslak f=1013, t=1091 idi; TDV bu tarihleri vermez (1091-92 Murâbıtlar'ın Karmûne'yi zaptıdır, Birzâlî sonu değil). Hanedanın varlığı doğrulandı, f/t okunamadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -544,7 +559,7 @@
   "ad": "Beni Razin (Albarrasin)",
   "tur": "taifa-emirligi",
   "bolge": "iberya",
-  "f": "1012-01-01",
+  "f": "1013-01-01",
   "t": "1104-01-01",
   "kesinlik": {
    "f": "yil",
@@ -557,9 +572,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Rezîn (Benî Rezîn) md., TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/rezin-beni-rezin: \"Endülüs'te hüküm süren mülûkü't-tavâiften biri (1013-1104)\"; Sehletü Benî Rezîn = Albarracín"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | taslak f=1012 idi, TDV 1013. Yalnız madde başlığı özeti ve giriş okundu; 1104 gün/ay okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -572,7 +589,7 @@
   "tur": "taifa-emirligi",
   "bolge": "iberya",
   "f": "1023-01-01",
-  "t": "1262-01-01",
+  "t": "1054-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -584,9 +601,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Yahsubîler md., TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/yahsubiler: \"Endülüs'te Leble ve civarında hüküm süren hânedan (1023-1054)\"; Ahmed b. Yahyâ Leble'de hüküm sürmeye başladı (414/1023-24)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak | KISALTILDI: taslak t=1262 idi (Niebla'nın sonraki Abbâdî/Murâbıt/İbn Mahfûz dönemleri bu kayıt değil). Yahsubî emirliği 1054'te Abbâdîler'e katıldı (TDV başlığı). 1054 sonrası Niebla'nın bağımsız evresi (İbn Mahfûz, 13. yy) ayrı kayıt adayı; kaynak okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -611,9 +630,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Hûdîler md., TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/hudiler: Hûdîler Lâride (Lérida), Tutîle ve Sarakusta'yı Tücîbîler'den aldı (1039); Âmirîler'in elindeki Turtûşe (Tortosa) ve Dâniye'yi Ahmed el-Muktedir topraklarına kattı"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | BİRLEŞİK/ŞÜPHELİ KAYIT: Tortosa (Âmirî/Saklebî) ile Lleida (Tücîbî → Hûdî) ayrı politiler; TDV Lâride'nin 1039'da Hûdîler'e geçtiğini, Turtûşe'nin sonradan Hûdî Sarakusta'ya katıldığını söyler (yıl yok). f/t doğrulanamadı; ayrı iki kayıt olarak yeniden kurulmalı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -625,7 +646,7 @@
   "ad": "Mayurka Taifesi (Murtada)",
   "tur": "taifa-emirligi",
   "bolge": "iberya",
-  "f": "1087-01-01",
+  "f": "1076-08-05",
   "t": "1115-01-01",
   "kesinlik": {
    "f": "yil",
@@ -638,9 +659,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Mayurka md., TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/mayurka: Hûdîler 469 (1076-77)'de Dâniye Emirliği'ne son verince Abdullah el-Murtazâ Balear'da bağımsız hareket etti; 509 (1115) Haçlı donanması adayı işgal etti, Mart 1116'da çekilmesinin ardından Murâbıt donanması geldi"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak | taslak f=1087 idi (Murtazâ sonrası), TDV bağımsızlığı 469 (1076-77) sonrasına koyar. t: Haçlı (Pisa-Katalan) işgali 1115; Murâbıt yönetimi Mart 1116 sonrası. Kaynak içinde 1114-15 kuşatma yılları belirsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,

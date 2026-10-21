@@ -26,11 +26,11 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Treccani, Enciclopedia on line, 'Longobardi' (https://www.treccani.it/enciclopedia/longobardi/): Alboino 569'da İtalya'ya girdi, Pavia 3 yıllık kuşatmadan sonra teslim oldu, kral Pavia'da oturur.",
+   "Enciclopedia Italiana (1930), 'Benevento' maddesi (https://www.treccani.it/enciclopedia/benevento_(Enciclopedia-Italiana)/): «Passato ai sovrani franchi il regno longobardo (774)»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas t=0774-01-01; Pavia'nın düşüşü Haziran 774.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas t=0774-01-01; Pavia'nın düşüşü Haziran 774. [Tur2] Giriş yılı: Treccani 569, Paulus Diaconus geleneği 568 (atlas 568). Son: 774 iki kaynakta okundu; ay (Haziran) bu turda okunmadı, Pavia'nın teslimi için gün/ay teyitsiz.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "langobard",
@@ -61,11 +61,11 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Enciclopedia Italiana (1930), 'Ravenna' (https://www.treccani.it/enciclopedia/ravenna_(Enciclopedia-Italiana)/): «Nel 751 Astolfo ... la caduta di Ravenna annunziò anche la fine del dominio bizantino in Italia»; kaynakça: Ch. Diehl, Études sur l'administration byzantine dans l'exarchat de Ravenne (568-751), 1888.",
+   "Treccani, Enciclopedia on line, 'Esarcato' (https://www.treccani.it/enciclopedia/esarcato/): Esarklık 6. yy sonunda kuruldu, 8. yy ortasına kadar sürdü."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kurulum 584-590 aralığında; atlas uyumlu.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kurulum 584-590 aralığında; atlas uyumlu. [Tur2] t=751 okundu. f=584: Treccani yalnız «6. yy sonu» diyor; 584 (ilk eksark) bu turda doğrulanmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "ravenna-eksarhligi",
@@ -95,11 +95,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Treccani, Enciclopedia on line, 'Friuli' (https://www.treccani.it/enciclopedia/friuli/): Cividale'de Lombardlar güçlü bir dukalık kurdu; Frank egemenliğine 794'te geçti ve marka olarak örgütlendi."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Frank Marka Friuli: bu kaydın devamıdır.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Frank Marka Friuli: bu kaydın devamıdır. [Tur2] Bu turda dukalığın varlığı okundu; 568 ve t=776 (Hrodgaud isyanı sonrası Frank dükü) okunmadı. Treccani Frank egemenliğini 794 verir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -111,10 +110,10 @@
   "ad": "Spoleto Dukalığı",
   "tur": "dukalik",
   "bolge": "italya",
-  "f": "0576-01-01",
+  "f": "0571-01-01",
   "t": "1198-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Spoleto",
@@ -133,11 +132,11 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Enciclopedia Italiana (1930), 'Spoleto' (https://www.treccani.it/enciclopedia/spoleto_(Enciclopedia-Italiana)/): «Quando nel 571 l'invasione longobarda ... si costituisce il ducato beneventano, è probabile che sia sorto anche il ducato di Spoleto»; dukalık Benevento'dan kısa ömürlü, Frank fethinden hemen sonra özerk bölge olarak sona erer; 1198-1213 Innocentius III ile Kilise'ye bağlanır.",
+   "Treccani, Enciclopedia on line, 'Spoleto' (https://www.treccani.it/enciclopedia/spoleto/): dukalık 570 - 1230 civarı; Gregorius IX ile Kilise hâkimiyeti (~1230)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş 570-576; bitiş 1198/1201 (Konrad von Urslingen); Spoleto dukaları arasında Guido (889-894) İmparator oldu.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş 570-576; bitiş 1198/1201 (Konrad von Urslingen); Spoleto dukaları arasında Guido (889-894) İmparator oldu. [Tur2: taslak f degeri: 0576-01-01] [Tur2] f: EI 571 'olası', Treccani 570, taslak 576. t=1198 taslakta; Treccani ~1230 verir, EI ise özerkliğin Frank fethinden kısa süre sonra bittiğini söyler: üç farklı 'son' var, polity'nin fiilî sonu ayrıca incelenmeli.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -152,7 +151,7 @@
   "f": "0571-01-01",
   "t": "1077-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Benevento",
@@ -173,11 +172,11 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Enciclopedia Italiana (1930), 'Benevento' (https://www.treccani.it/enciclopedia/benevento_(Enciclopedia-Italiana)/): «L'opinione più probabile ne pone l'origine al 570 o 571 ... Zottone»; 774'te Arichis II 'princeps gentis Langobardorum' unvanı; 1051'de Beneventolular prensleri kovup Kilise'ye bağlılık yemini etti, 1055'te prensler döndü ama papaya tabi; «La morte dello stesso Landolfo VI, avvenuta nel 1077, segnò l'estinzione della dinastia dei principi longobardi».",
+   "Treccani, Enciclopedia on line, 'Benevento': 571'de dukalığın merkezi oldu, sonra prensliğe dönüştü."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Papa enklavı 1051'den; son Lombard prens Landulf VI 1077'de Guiscard tarafından.",
+  "dogrulama": "okundu",
+  "ic_not": "Papa enklavı 1051'den; son Lombard prens Landulf VI 1077'de Guiscard tarafından. [Tur2] Dukalık (571) -> prenslik (Arichis II, 774 sonrası) tek polity. 1051/52'de şehir papalığa geçti (Benevento papalık enklavı 1860'a kadar); Lombard hanedanı 1077'de söndü. Atlas künyesi benevento-papalik 1000-1053 prenslik kapsıyor: 571-1077 genişletme + 1051'den sonrası papalık enklavı olarak ayrı düşünülmeli. Atlastaki 'benevento-papalik' adı Lombard prensliğine uymuyor.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "benevento-papalik",
@@ -190,10 +189,10 @@
   "tur": "prenslik",
   "bolge": "italya",
   "f": "0849-01-01",
-  "t": "1076-12-13",
+  "t": "1076-01-01",
   "kesinlik": {
    "f": "yil",
-   "t": "gun"
+   "t": "yil"
   },
   "baskent": "Salerno",
   "etkin_bolge": "Campania, Kalabria",
@@ -210,13 +209,12 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History",
-   "ADAY (okunmadi): Matthew, The Norman Kingdom of Sicily (1992); Loud, The Age of Robert Guiscard (2000)",
-   "ADAY (okunmadi): Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Salerno' (https://www.treccani.it/enciclopedia/salerno/): 849'da ducato iki bağımsız devlete bölününce Salerno birinin başkenti oldu; 1076'da Roberto il Guiscardo kuşatması sonrası prenslik sona erdi.",
+   "Enciclopedia Italiana (1930), 'Salerno' (https://www.treccani.it/enciclopedia/salerno_(Enciclopedia-Italiana)/): «Dall'839 fu capitale di un principato longobardo indipendente»; «Nel 1075, dopo lungo assedio, fu conquistata da Roberto il Guiscardo»; Siconolfo, aracı II. Ludovicus ile Salerno'yu bağımsız devletin başkenti yaptı.",
+   "Enciclopedia Italiana (1930), 'Capua': Benevento prensliğinin ikiye bölünmesi 847."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bölünme antlaşması 849 (II. Ludovicus arabulucu).",
+  "dogrulama": "okundu",
+  "ic_not": "Bölünme antlaşması 849 (II. Ludovicus arabulucu). [Tur2: taslak t degeri: 1076-12-13] [Tur2] Kuruluş: Treccani çevrimiçi 849 (seçildi), EI şehir maddesi 839, EI Capua maddesi 847: üç kaynak üç tarih. Son: 1076 (Treccani) vs 1075 (EI); atlasın 1076-12-13 günü bu turda okunmadı (yıl hassasiyetine indirildi). Atlas künyesi 1000-1076: f 849'a çekilmeli.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "salerno-prensligi",
@@ -249,13 +247,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History",
-   "ADAY (okunmadi): Matthew, The Norman Kingdom of Sicily (1992); Loud, The Age of Robert Guiscard (2000)",
-   "ADAY (okunmadi): Dictionary of the Middle Ages"
+   "Enciclopedia Italiana (1930), 'Capua' / Principato di Capua (https://www.treccani.it/enciclopedia/capua_(Enciclopedia-Italiana)/): gastaldato Benevento dukalığına bağlıydı, 847'de Salerno'ya; Atenolfo Benevento'yu ele geçirip prens unvanıyla Benevento ve Capua'yı yönetti (900-910); 1059'da Riccardo prens olarak tanındı, 1062'de son Lombard prensi kovuldu (Riccardo 1062-1078)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Capua gastaldatı 840'lardan; prenslik 860-900 arası; bitiş 1135-1156 tartışmalı.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Capua gastaldatı 840'lardan; prenslik 860-900 arası; bitiş 1135-1156 tartışmalı. [Tur2] f=900 EI ile uyumlu (Atenolfo I, Capua+Benevento'nun birleşimi). t=1135: EI'de okunan bölümde sonun yılı çıkmadı (Roberto II 1127'de Roger II ile Guiscard mirası; Capua'nın Roger II'ye geçişi 1134-1139 arası tartışmalı) - taslak değeri teyitsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -270,7 +265,7 @@
   "f": "0763-01-01",
   "t": "1139-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Napoli",
@@ -287,11 +282,11 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Enciclopedia Italiana (1930), 'Napoli' (https://www.treccani.it/enciclopedia/napoli_(Enciclopedia-Italiana)/): «negli anni di più spiccata floridezza del ducato autonomo (763-1139)»; Dük Stefano I (755-800) 763'te papa otoritesini tanıdı; 1077-78 Norman kuşatması; Sergio VII (1123?-1137) Normanlara boyun eğdi (1131/1137).",
+   "Treccani, Enciclopedia on line, 'Napoli' (https://www.treccani.it/enciclopedia/napoli/): Stefano II (755-800) dukalığı özerk yaptı; 1137'de Sergio VII Normanlara teslim oldu."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bizans dukluğu 661'e uzatılır; fiilen özerklik 8. yy.",
+  "dogrulama": "okundu",
+  "ic_not": "Bizans dukluğu 661'e uzatılır; fiilen özerklik 8. yy. [Tur2] EI özerk dukalık: 763-1139; Treccani çevrimiçi son olarak 1137 (Sergio VII'nin teslimi) verir. 1137 vs 1139 (Roger II'nin Innocentius II'den krallık onayı) farkı kaynak çelişkisi. Atlas künyesi napoli-dukaligi (1000-1137): f 763'e genişlet.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "napoli-dukaligi",
@@ -303,10 +298,10 @@
   "ad": "Gaeta Dükalığı",
   "tur": "dukalik",
   "bolge": "italya",
-  "f": "0839-01-01",
-  "t": "1140-01-01",
+  "f": null,
+  "t": "1032-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yuzyil",
    "t": "yil"
   },
   "baskent": "Gaeta",
@@ -322,11 +317,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Enciclopedia Italiana (1930), 'Gaeta' (https://www.treccani.it/enciclopedia/gaeta_(Enciclopedia-Italiana)/): 9. yy sonunda Napoli dukalığından kurtulup kendi dukalığının başkenti; bağımsızlık «un secolo e mezzo, dal fondatore Docibile I, all'ultimo erede della sua dinastia, Giovanni V (1032)»; 1066'da Capua'lı Riccardo'nun elinde; 1136'da Ruggiero II'ye geçti.",
+   "Treccani, Enciclopedia on line, 'Gaeta' (https://www.treccani.it/enciclopedia/gaeta/): 9. yy sonunda Napoli'den bağımsız dukalık; Norman fethiyle (1032) özerklik kaybı, 1136'da Sicilya Krallığı'na katıldı."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas 0836 ile uyumlu (≤25 yıl).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas 0836 ile uyumlu (≤25 yıl). [Tur2: taslak f degeri: 0839-01-01] [Tur2: taslak t degeri: 1140-01-01] [Tur2] f: iki kaynak da 'sonuna doğru 9. yy' der; yıl bu turda okunmadı (atlas 836, taslak 839 - desteklenmiyor) -> null. t: bağımsızlık sonu 1032 (iki kaynak), fiilî ilhak 1136 (EI, Treccani); atlas 1140 yok. Karar kuralı: polis t = bağımsızlığın sonu -> 1032; 1032-1136 arası Capua/Salerno vesayetinde ducato adı sürdü.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "gaeta-dukaligi",
@@ -359,11 +354,11 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Enciclopedia Italiana (1930), 'Amalfi' (https://www.treccani.it/enciclopedia/amalfi_(Enciclopedia-Italiana)/): «Dell'età gloriosa della repubblica (839-1131)»; Salerno prensi Sicardo'nun ölümü (839) üzerine Amalfililer ayaklandı, bağımsız oldu, başa comes Pietro; 839-859 comites (yıllık), 859-958 prefektler dönemi, sonra prens-hanedan tarzı.",
+   "Treccani, Enciclopedia on line, 'Amalfi' (https://www.treccani.it/enciclopedia/amalfi/): 9. yy ortasında Lombard işgalinden kurtulup bağımsız; Normanlara boyun eğdi, Ruggero II tarafından 1131'de Sicilya Krallığı'na katıldı; 1135'te Pisalılar yağmaladı."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "okundu",
+  "ic_not": " [Tur2] Atlas künyesi amalfi-cumhuriyeti 1000-1131: f 839'a genişlet. Bu turda 1073 Norman vesayeti (Guiscard) ve 1131 ilhak arası fiilî özerklik düzeyi araştırılmadı.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "amalfi-cumhuriyeti",
@@ -375,8 +370,8 @@
   "ad": "Sorrento Dükalığı",
   "tur": "dukalik",
   "bolge": "italya",
-  "f": "0900-01-01",
-  "t": "1133-01-01",
+  "f": null,
+  "t": "1137-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yil"
@@ -395,11 +390,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Enciclopedia Italiana (1930), 'Sorrento' (https://www.treccani.it/enciclopedia/sorrento_(Enciclopedia-Italiana)/): «governo quasi autonomo di arconti e di duchi»; «Il ducato sorrentino finì nel 1137 con la resa ai Normanni».",
+   "Treccani, Enciclopedia on line, 'Sorrento': 7. yy Bizans krizinde dukalık olarak özerklik kazandı; 1137'de Norman krallığına katıldı; önce Napoli dükleri, sonra kendi arkonları ve dükleri."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç yaklaşık (10. yy); bitiş 1133.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç yaklaşık (10. yy); bitiş 1133. [Tur2: taslak f degeri: 0900-01-01] [Tur2: taslak t degeri: 1133-01-01] [Tur2] f: Treccani 'Bizans krizi 7. yy' + önce Napoli üstünlüğü; kendi dükleri ve bağımsızlık yılı okunmadı -> null (taslak 900 desteklenmiyor). t 1137 iki kaynakta (taslak 1133).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -429,11 +424,10 @@
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Treccani, Enciclopedia on line, 'Venezia' (https://www.treccani.it/enciclopedia/venezia/): lagün adalarında Bizans'a bağlı dukalık (Ravenna eksarkına bağlı); 751 sonrası özerk dukalık; Treccani: «doge ... dux romano-bizantino dal 584 dipendente dall'esarca, poi, dopo la secessione del 726, designato dall'exercitus»; Venedik 1797'de Campoformio ile Avusturya'ya verildi."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Geleneksel 697; ilk belgeli dux Orso 726 (Ursus). Tarih tartışmalı.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Geleneksel 697; ilk belgeli dux Orso 726 (Ursus). Tarih tartışmalı. [Tur2] Atlas f=697 (geleneksel ilk doge Paoluccio Anafesto) Treccani'de okunmadı; Treccani 726 ayrılışı ve 751 sonrası özerklik verir. 697 vs 726 vs 751: kaynak çelişkisi, tek seçim yapılmadı. t=1797-05-12 (Maggior Consiglio'nun kendini feshi) bu turda gün olarak okunmadı; 1797 yıl olarak okundu.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "venedik",
@@ -465,11 +459,10 @@
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Treccani, Enciclopedia on line, 'Pontificio, Stato' (https://www.treccani.it/enciclopedia/stato-pontificio/): Patrimonium S. Petri'nin Bizans ducatus'u üzerine bindirilmesiyle doğdu; Quierzy antlaşması (Pipin ile) ve Karolus'un 774 bağışı; Kilise Devleti 1870'e kadar papanın yönetiminde."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Roma Dukalığı yoluyla 740'lar; 756 Pippin; 774 Charlemagne tasdiki.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Roma Dukalığı yoluyla 740'lar; 756 Pippin; 774 Charlemagne tasdiki. [Tur2] Bu turda 1870'in gün/ayı ve 756 (Pipin Bağışı) okunmadı; 756 geleneksel tarihtir (Sutri 728 bağışı daha eski). Ravenna ve Pentapolis 751-756 edinimi EI Ravenna maddesinde 756.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "papalik",
@@ -501,11 +494,12 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Enciclopedia Italiana (1930), 'Benevento': 774'te Lombard krallığı Frank hükümdarlara geçti.",
+   "Treccani, Enciclopedia on line, 'Berengario II re d'Italia' (https://www.treccani.it/enciclopedia/berengario-ii-re-d-italia/): Hugo (Provence) krallığı, Lothar 945-950, Berengar II 15 Aralık 950'de Pavia'da kral; Otto 951'de Pavia'da kral olarak taç giydi, Berengar'a krallığı 952'de Friuli markası eksik olarak fief verdi.",
+   "Enciclopedia Italiana (1930), 'Italia': «la rinnovazione dell'impero nel 962, in persona di Ottone I»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas f=0774-01-01 fakat Pavia 774 Haziran.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas f=0774-01-01 fakat Pavia 774 Haziran. [Tur2] t=962-02-02 imparatorluk tacı yılı 962 okundu (gün okunmadı); Regno Italico fiilen Otto'nun 951 tacıyla Germen krallığına bağlandı: polity sürekliliği (774 Karolenj -> Berengar/Wido/Hugo -> Otto) tek künye. Atlas künyesi 'Karolenj-Berengar' adı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "karolenj-italya",
@@ -518,9 +512,9 @@
   "tur": "emirlik",
   "bolge": "italya",
   "f": "0827-06-01",
-  "t": "1091-02-01",
+  "t": "1091-01-01",
   "kesinlik": {
-   "f": "yil",
+   "f": "ay",
    "t": "yil"
   },
   "baskent": "Palermo (Belerm)",
@@ -539,11 +533,10 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Brill Encyclopaedia of Islam, 'Sikilliya'; TDV Islam Ansiklopedisi 'Sicilya'",
-   "ADAY (okunmadi): Metcalfe, The Muslims of Medieval Italy (2009)"
+   "Enciclopedia Italiana (1937), 'Sicilia' (https://www.treccani.it/enciclopedia/sicilia_(Enciclopedia-Italiana)/): Esad bin el-Furat'ın ordusu Haziran 827'de Susa'dan yola çıkıp Mazara'ya indi; Palermo Ağustos-Eylül 831'de teslim oldu ve Arapların başkenti seçildi; Ağlabîler (800-909) -> 910'da Fâtımîlere bağlandı; 948'de el-Hasan b. Ali el-Kelbî ile Kelbîler (948-1040), emirlik 960'ta fiilen kalıtsal; Kelbî çöküşünden sonra ada mahallî emirliklere bölündü; Palermo 1072 başında Normanlara geçti; fetih 1091'de Butera ve Noto'nun düşmesiyle tamamlandı."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Aglebî emirliği 827/831-909, Fâtımî valileri 909-948, Kelbî 948-1053/1061, taife dönemi 1053-1091. TDV 'Sicilya' maddesi okunmalı.",
+  "dogrulama": "okundu",
+  "ic_not": "Aglebî emirliği 827/831-909, Fâtımî valileri 909-948, Kelbî 948-1053/1061, taife dönemi 1053-1091. TDV 'Sicilya' maddesi okunmalı. [Tur2: taslak t degeri: 1091-02-01] [Tur2] Atlas künyesi sicilya-emirligi 0947-1091 (Kelbîler): Ağlabî Sicilyası'nı (827-910) ve Fâtımî valiliğini (910-948) kapsamıyor; 827 (Haziran çıkarma), 831 (Palermo) iki aşama. Kelbî emirliğinin başlangıcı EI'de 948 (atlas 947). Palermo 1072'de düştü; 1072-1091 arası ada kısmen Müslüman mahallî emirliklerde (Ibn al-Ward vb.); 1091 'fetih tamam'. Künye genişletme ve ayrı Kelbî/ardıl evre kararı gerekir.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "sicilya-emirligi",
@@ -574,11 +567,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Brill Encyclopaedia of Islam, 'Sikilliya'; TDV Islam Ansiklopedisi 'Sicilya'",
-   "ADAY (okunmadi): Metcalfe, The Muslims of Medieval Italy (2009)"
+   "Treccani, Enciclopedia on line, 'Bari' (https://www.treccani.it/enciclopedia/bari/): «Nell'847 capitolò nelle mani dei Saraceni e fino all'871 fu capitale dell'Emirato di B., per passare poi per un breve periodo sotto i duchi di Benevento»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş 847/853 farklı aktarılır; bitiş Şubat 871.",
+  "dogrulama": "okundu",
+  "ic_not": "Kuruluş 847/853 farklı aktarılır; bitiş Şubat 871. [Tur2] f: Treccani 847;. t: 871 yıl okundu; Şubat ayı taslakta (II. Ludovicus kuşatma sonu) okunmadı -> ay hassasiyeti teyitsiz, yıl hassasiyetine in.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -678,11 +670,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Treccani, Enciclopedia on line, 'Bari' (https://www.treccani.it/enciclopedia/bari/): Bari 1002'de Venedik donanması tarafından kurtarıldı; Melo isyanı 1009-1018; «La dominazione bizantina cessò tuttavia solo nel 1071, quando la città, conquistata da Roberto il Guiscardo...»; Yunan 'catapano' hükümeti."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bizans yönetimi başka oturumda; kayıt Bizans oturumuyla çakışırsa orada birleştir. Kuruluş 965-975; Bari düşüşü 16 Nisan 1071.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Bizans yönetimi başka oturumda; kayıt Bizans oturumuyla çakışırsa orada birleştir. Kuruluş 965-975; Bari düşüşü 16 Nisan 1071. [Tur2] t=1071 okundu; 16 Nisan günü bu turda okunmadı (taslakta vardı, bilinen gün: kuşatma sonu). Katepanlık f=975 (bazı kaynaklar 970/975; ilk katepan Mariano Argyros 1010...) okunmadı: taslak. Atlas: katepanlık, Bizans (bizans) künyesinin eyaleti — bağımsız polity olmadığı için atlasta ayrı künye gerekçesi ana oturumda.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -716,11 +707,11 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Treccani, Enciclopedia on line, 'Toscana' (https://www.treccani.it/enciclopedia/toscana/): Karolenj kurumu olarak Lucca Lombard dukalığının devamı; ilk kont Bonifacio (812-823); Lucca kontu Adalberto I (845-898) Tuscia markisliğine atandı; 1197'de San Genesio birliği (VI. Henrik'in ölümü sonrası).",
+   "Enciclopedia Italiana (1937), 'Toscana' (https://www.treccani.it/enciclopedia/toscana_(Enciclopedia-Italiana)/): «Marca della Toscana ... data come contea al bavarese Bonifacio I (812). Unita alla marca lombardo-emiliana degli Attoni di Canossa da Corrado II, divenne il più potente organismo politico d'Italia»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Marka kuruluş tarihi belirsiz; 1197 Toskana Birliği San Genesio'da.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Marka kuruluş tarihi belirsiz; 1197 Toskana Birliği San Genesio'da. [Tur2] f=812 Bonifacio I'in kontluğu (Lucca) başlangıcı; markizlik unvanı Adalberto I (845-898) ile; 'marka' olarak kuruluş yılı seçimi: 812 (kont) vs ~845 (marki) - Emre kararı. t=1197-11-11: yıl 1197 (San Genesio) okundu, gün okunmadı; taslak değeri.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -750,11 +741,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Enciclopedia Italiana (1933), 'Ivrea' (https://www.treccani.it/enciclopedia/ivrea_(Enciclopedia-Italiana)/): «dall'888 fu il centro della marca d'Ivrea o d'Italia, data da Guido di Spoleto ad Anscario»; marka Adalberto I, Anscario II, Berengario II, Guido, Corrado Conone, Arduino'ya geçti; Arduino ile piskopos Warmondo çekişmesi.",
+   "Treccani, Dizionario Biografico / Enciclopedia on line 'Anscario' (https://www.treccani.it/enciclopedia/anscario/): Anscarici hanedanı."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş ve bitiş yaklaşık (Anscar I 888/891; Arduino'nun 1015'te ölümü).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş ve bitiş yaklaşık (Anscar I 888/891; Arduino'nun 1015'te ölümü). [Tur2] f=888 yıl okundu (atlas 888 uyumlu). t=1015: Arduino'nun ölümü EI'de okunan bölümde yıl olarak çıkmadı; taslak değeri teyitsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -788,11 +779,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Treccani, Enciclopedia on line, 'Torino' (https://www.treccani.it/enciclopedia/torino/): «Verso il 940, il re Ugo collocò a T. un nuovo conte, Arduino Glabrione, con il quale stabilì in città la dinastia degli Arduinici, che vi dominò per un secolo e mezzo e vi costituì la marca...»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç yaklaşık. [Tur2] f=~940 (Arduino Glabrione kont atandı; marka kuruluşu daha sonra); 'bir buçuk asır' -> ~1091 (Adelaide ölümü 1091). Gün 1091-12-19 okunmadı; yıl teyitli.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -825,11 +815,11 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Treccani, Enciclopedia on line, 'Canossa' (https://www.treccani.it/enciclopedia/canossa/): Canossa kalesi Attoni (Attonidler) tarafından 10. yy'da inşa edildi, markalarının stratejik noktası; 1077 Henrik IV'ün Gregorius VII önünde aşağılanması.",
+   "Treccani, Enciclopedia on line, 'Matilde di Canossa' (https://www.treccani.it/enciclopedia/matilde-di-canossa/): 1046-1115, Toscana markisi Bonifacio'nun kızı."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç 940-960; 1077 Canossa görüşmesi.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç 940-960; 1077 Canossa görüşmesi. [Tur2] Matilde 1115'te öldü (okundu); t=1115-07-24 gün okunmadı. f=950 taslak: Canossa kalesi '10. yy' (Attoni) denir, yıl yok; yıl teyitsiz. Canossa/Toscana (markası) 1027+ Conrad II ile birleşti (EI Toscana): ardıl-polity Toskana markizliği ile örtüşme.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -857,10 +847,11 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'San Marino' (https://www.treccani.it/enciclopedia/san-marino/): 'Avrupa'nın en eski cumhuriyeti'.",
+   "Enciclopedia Italiana (1936), 'San Marino' (https://www.treccani.it/enciclopedia/san-marino_(Enciclopedia-Italiana)/)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas 1000; sürüyor, t yok.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas 1000; sürüyor, t yok. [Tur2] 885 ve 301 (geleneksel kuruluş) bu turda sayfa içinde bulunamadı; tarih kaynakta okunmadı -> 885 taslak kalır (kismen = polity varlığı okundu, tarih değil).",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "san-marino",

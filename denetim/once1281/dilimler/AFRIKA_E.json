@@ -4,10 +4,10 @@
   "ad": "Kangaba (Manden) Krallığı",
   "tur": "krallik",
   "bolge": "bati-afrika",
-  "f": "1068-01-01",
+  "f": "1050-01-01",
   "t": "1235-01-01",
   "kesinlik": {
-   "f": "yil",
+   "f": "onyil",
    "t": "yil"
   },
   "baskent": "Kangaba",
@@ -22,15 +22,14 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Levtzion, Ancient Ghana and Mali (1973)"
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Kangaba — kuruluş 1050 (Mandinka), Gâne vasalı; başkentler Kiki 1050-1090, Dodu 1090-1200, Kangaba 1200-1237; atıf John Stewart, African States and Rulers, McFarland 2005, s. 128 (popüler referans; açılmadı); Kathryn L. Green, 'Mande Kaba, the Capital of Mali: A Recent Invention?', History in Africa 18, 1991, s. 127-135 (açılmadı)"
   ],
   "dogrulama": "taslak",
-  "ic_not": "f ilk anılış, kuruluş değil; t Kirina/Sundiata 1235. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "ic_not": "Taslak değeri f=1068. Vikipedi f=1050 verir ama kaynağı akademik değil (Stewart); Green 1991 Kangaba-Keita bağının sonradan icat olduğunu tartışır. Siyasî birim olarak ayrı kayıt şüphelidir; ELENEN adayı. 1235 Kirina → 'mali-imparatorlugu'.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Mali ile ilişki."
+   "not": "'mali-imparatorlugu' (1235-) ardıl; 'gane' üst vasal."
   }
  },
  {
@@ -56,15 +55,14 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Willett, Ife in the History of West African Sculpture (1967)"
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Ife — kraliyet hanedanı (Oduduwa Hanedanı) c. XI. yy; kent XII-XIV. yy'da büyük; heykel zirvesi 1200-1400; atıf: S. P. Blier, Art and Risk in Ancient Yoruba: Ife History, Politics, and Identity c. 1300, Cambridge UP 2015; J. K. Olupona, City of 201 Gods, UC Press 2011; A. Babalola et al., Antiquity 91(357), 2017, s. 732-750 (açılmadı)"
   ],
   "dogrulama": "taslak",
-  "ic_not": "f çok kaba; Oranmiyan efsanesiyle Benin ilişkisi; t yok (süren polity). [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "ic_not": "Taslak değeri f=1000. Kraliyet hanedanı c. XI. yy (Vikipedi bilgi kutusu). t: Ife Yoruba merkezi olarak Ooni hanedanıyla bugüne sürer → t null. Siyasî birim olarak 1281 öncesi için akademik kaynak (Blier, Ogundiran) okunmalı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "f doğrulanmalı."
+   "not": "Mevcut listede yok; 'benin-kralligi' (1180-) ve 'nri' (994-) komşu."
   }
  },
  {
@@ -92,15 +90,15 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Encyclopaedia of Islam s.v. Kabis"
+   "Vikipedi 'Zirid dynasty' (aracı): Kâbis valisi el-Muʿizz b. Muhammed b. Vâlmiyâ 1062'de bağımsızlığını ilan etti, sonra Hilâlî Riyâh kolu Benî Cami' altında bağımsız; atıf Amar S. Baadj, Saladin, the Almohads and the Banū Ghāniya, Brill 2015, s. 38-39 (açılmadı)",
+   "İsmail Yiğit, 'SEFÂKUS', TDV İslâm Ansiklopedisi EK-2, 2019: Hammû 493/1099'da Kâbis emirine sığındı (okundu) — Kâbis o sırada hâlâ ayrı emirlik"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bir okul 1015'i gösterebilir; belirsiz. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri 1062-1148. 1062 bağımsızlık Vikipedi/Baadj; Temîm b. Muʿizz 1097'de Kâbis'i geri aldı (Vikipedi); TDV Sefâkus 1099'da Kâbis emirinden söz eder; Benî Cami' sonra yeniden bağımsız; 1148 Norman. Kâbis'te kimin hangi yıl hâkim olduğu ikincil kaynakla çözülemedi, TDV'de Kâbis şehir maddesi bulunamadı ('kabis' aramasında yok). Süreklilik sorunu: 1097-1099 arası kesinti olabilir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Doğrulanmadı."
+   "not": "Kâbis mevcut listede yok; komşular 'trablus-benihazrun', 'tunus-benihorasan' var."
   }
  },
  {
@@ -108,11 +106,11 @@
   "ad": "Norman Afrika (İfrîkıye) Krallığı",
   "tur": "krallik",
   "bolge": "kuzey-afrika",
-  "f": "1148-06-01",
+  "f": "1148-01-01",
   "t": "1160-01-01",
   "kesinlik": {
-   "f": "ay",
-   "t": "yil"
+   "f": "yil",
+   "t": "ay"
   },
   "baskent": "Mehdiye",
   "etkin_bolge": "Tunus kıyı şeridi, Trablus",
@@ -130,15 +128,123 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Houben, Roger II of Sicily (2002)"
+   "Matt King, 'The Norman Kings of Africa?', The Haskins Society Journal c. 28, Boydell & Brewer 2017, s. 143-166; Cambridge Core özeti (cambridge.org/core/books/haskins-society-journal/norman-kings-of-africa/3969417AD267A0CD9B703ECC8679DF63) — okundu: 1148'de Roger II donanması Mehdiye'ye; 1156-57 karışıklığıyla Mehdiye dışında Norman yönetimi bitti; Mehdiye 1160'ta Muvahhidler'e düştü",
+   "'MEHDİYE', TDV İslâm Ansiklopedisi (islamansiklopedisi.org.tr/mehdiye--tunus): Normanlar 1148'de aldı, Muvahhidler 1160'ta geri aldı (okundu)",
+   "İsmail Yiğit, 'SEFÂKUS', TDV İslâm Ansiklopedisi EK-2, 2019, s. 483-486: Normanlar Sfaks'ı 543/1148'de aldı, yerel isyan 551/1156'da Norman yönetimine son verdi (okundu)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mehdiye 1148 Haziran; Muvahhid fethi 1160 başı (ay belirsiz). Ayrı polity mi Sicilya parçası mı tartışmalı. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri: 1148-06-01 → 1160-01-01. Ay (Haziran) okunan kaynakta yok, yıl 1148 yazıldı; t=1160 ay hassasiyeti (Ocak 1160 Fransızca bir site anar, King 1160 der). Vikipedi 'Kingdom of Africa' başlangıcı 1135 (ilk kalıcı fetih) ya da 1147 verir; King ve TDV 1148'i destekler. Rex Africe unvanı Roger II belgelerinde kullanılmadı (King). Sicilya Krallığı'nın denizaşırı bölgesidir; ayrı polity sayılıp sayılmayacağı karar noktasıdır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Sicilya Krallığı ile bağlantı."
+   "not": "'sicilya-kralligi' (1072-1282) Palermo merkezli; İfrîkıye kısmı ayrı yönetilen tabi bölge; ayrı künye önerilir ya da sicilya-kralligi ic_not'una yazılır."
+  }
+ },
+ {
+  "id": "sfaks-hammu-emirligi",
+  "ad": "Sfaks (Sefâkus) Emirliği — Hammû b. Mellîl el-Bargavâtî",
+  "tur": "emirlik",
+  "bolge": "kuzey-afrika",
+  "f": "1062-01-01",
+  "t": "1099-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sfaks (Sefâkus)",
+  "etkin_bolge": "Sfaks çevresi, Tunus doğu kıyısı",
+  "sehirler": [
+   "Sfaks"
+  ],
+  "ozet": "Zîrî valisi Hammû b. Mellîl 454/1062'de Sfaks'ta bağımsızlığını ilan etti; Temîm b. Muʿizz 493/1099'da şehri geri aldı.",
+  "oncul": [
+   "ziriler"
+  ],
+  "ardil": [
+   "ziriler"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "İsmail Yiğit, 'SEFÂKUS', TDV İslâm Ansiklopedisi, EK-2, 2019, s. 483-486 (islamansiklopedisi.org.tr/sefakus) — okundu: Hammû b. Mellîl 454/1062'de bağımsızlık, 36 yıl; Temîm 493/1099'da aldı"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Vikipedi 'Zirid dynasty': önce Mansûr el-Bargavâtî ilan etti, öldürüldü, ardından Hammû; 1063'te Mehdiye'yi kuşatmış. TDV tek isim (Hammû) verir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "'ziriler' (972-1148) içinde asi vali emirliği; mevcut künyede yok."
+  }
+ },
+ {
+  "id": "sfaks-firyani-emirligi",
+  "ad": "Sfaks Emirliği — Ömer b. Ebü'l-Hüseyin el-Firyânî (Norman sonrası)",
+  "tur": "emirlik",
+  "bolge": "kuzey-afrika",
+  "f": "1156-01-01",
+  "t": "1159-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sfaks",
+  "etkin_bolge": "Sfaks",
+  "sehirler": [
+   "Sfaks"
+  ],
+  "ozet": "551/1156'da yerel isyan Norman yönetimini sona erdirdi; Ömer el-Firyânî 554/1159'da Abdülmü'min el-Kûmî'ye bağlılık sundu.",
+  "oncul": [
+   "norman-ifrikiye"
+  ],
+  "ardil": [
+   "muvahhidler"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "İsmail Yiğit, 'SEFÂKUS', TDV İslâm Ansiklopedisi, EK-2, 2019, s. 483-486 — okundu"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Çok kısa (3 yıl); küçük şehir emirliği, polity eşiği tartışmalı. 1148-1156 Norman dönemi 'norman-ifrikiye' kaydındadır.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok."
+  }
+ },
+ {
+  "id": "kafsa-benirend-emirligi",
+  "ad": "Kafsa (Gafsa) Emirliği — Benî Rend",
+  "tur": "emirlik",
+  "bolge": "kuzey-afrika",
+  "f": "1053-01-01",
+  "t": "1159-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kafsa",
+  "etkin_bolge": "Cerîd bölgesi, Güney Tunus",
+  "sehirler": [
+   "Kafsa",
+   "Tozeur"
+  ],
+  "ozet": "Zîrî valisi Abdullah b. er-Rand 1053 civarında bağımsızlığını ilan etti; Benî Rend yüzyıldan uzun Kafsa'yı başkent tuttu; Muvahhidler 1159'da boyun eğdirdi, 1176-81'de Ali b. er-Rand ayaklandı.",
+  "oncul": [
+   "ziriler"
+  ],
+  "ardil": [
+   "muvahhidler"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "'KAFSA', TDV İslâm Ansiklopedisi (islamansiklopedisi.org.tr/kafsa) — okundu: Berberî Benî Rend hanedanı Kafsa'yı yüzyıldan fazla başkent yaptı; Muvahhidler 1180'de aldı (yazar/cilt künyesi çıktıda yoktu)",
+   "Vikipedi 'Banu al-Rand' (aracı): 1053-1159 (Muvahhid valileri 1159-1168), Ali b. er-Rand isyanı 1176-81; atıf Hadi R. İdris, The Sanhaja State, Dar al-Gharb al-Islami 1992, s. 263-264; Mohammad Al-Khliefat 2020, Journal of Humanities and Social Sciences 4, s. 140-143 (açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "TDV: Muvahhidler Kafsa'yı 1180'de aldı; Vikipedi: Muvahhid yönetimi 1159'dan. f=1053 Vikipedi (TDV yıl vermez). 1159/1180 çelişkisi: t=1159 seçildi (Muvahhid biat), 1176-81 isyanı ayrıca.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mevcut listede yok; komşu 'tunus-benihorasan', 'trablus-benihazrun', 'ziriler' var."
   }
  }
 ]

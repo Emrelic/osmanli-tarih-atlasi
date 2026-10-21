@@ -578,11 +578,12 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Cassius Dio, Roma Tarihi 53.16-17 (Loeb, Cary), LacusCurtius/Thayer metni (https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/53*.html): Caesar'a senato ve halk tarafından 'Augustus' unvanı verildi; 'bundan sonra katı anlamda bir monark vardı'.",
+   "Ovidius, Fasti 1.587-590 (https://www.thelatinlibrary.com/ovid/ovid.fasti1.shtml): «Idibus ... redditaque est omnis populo provincia nostro et tuus Augusto nomine dictus avus» (Ocak İdus'u).",
+   "Treccani, Enciclopedia on line, 'Principato' (https://www.treccani.it/enciclopedia/principato/): Prinkipat, Augustus'un MÖ 1. yy sonunda Cumhuriyet düzeni ile monarşik talepleri uzlaştırmasıyla doğdu."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Prinkipat -0026-01-16..0284-11-20 (Diocletianus), Dominat 0284..0395-01-17. 395 sonrası Doğu Roma (bizans) başka oturumda. Bati Roma'nın bolge alanı bati-avrupa; bu dilimde italya önerilir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Prinkipat -0026-01-16..0284-11-20 (Diocletianus), Dominat 0284..0395-01-17. 395 sonrası Doğu Roma (bizans) başka oturumda. Bati Roma'nın bolge alanı bati-avrupa; bu dilimde italya önerilir. [Tur2] Gün çelişkisi: Ovidius Ocak İdus'u (13 Ocak); atlasın -0026-01-16 (=16 Ocak 27 MÖ) günü Fasti Praenestini'ye dayanır, bu turda okunmadı. Dio 53.16 günü vermez. Yıl 27 MÖ iki kaynakla tutarlı (Dio konsüller listesi: MÖ 27 Caesar VII, Agrippa III). t=395-01-17 bu turda okunmadı (Treccani Arcadio: 395 ölüm). Dominat sınırı (284) okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "roma-imp",
@@ -742,10 +743,10 @@
   "tur": "krallik",
   "bolge": "italya",
   "f": "0476-08-23",
-  "t": "0493-03-05",
+  "t": "0493-01-01",
   "kesinlik": {
    "f": "gun",
-   "t": "gun"
+   "t": "yil"
   },
   "baskent": "Ravenna",
   "etkin_bolge": "İtalya",
@@ -763,11 +764,12 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "G. Scrofani, 'Odoacre', Dizionario Biografico degli Italiani, vol. 79 (2013), Treccani (https://www.treccani.it/enciclopedia/odoacre/): «il 23 agosto 476 [l'esercito riunito a Pavia] proclamò Odoacre rex»; Odoacre «fece il suo ingresso a Ravenna nei primi di settembre, depose Romolo Augusto»; Giulio Nepote'nin ölümü 480; 489 Teodorico İsonzo ve Verona'da yendi; Adda 490; «nel 493 l'arcivescovo Giovanni di Ravenna ... negoziare un accordo: dividere il governo»; üç yıl kuşatmadan sonra Teodorico şehre girdi.",
+   "Treccani, Enciclopedia on line, 'Odoacre' (https://www.treccani.it/enciclopedia/odoacre/): «n. circa 434 - m. Ravenna 493»; Romolo Augustolo'yu 476'da devirdi; rex gentium.",
+   "Treccani, Enciclopedia on line, 'Teodorico': Odoacre üç yıl direndikten sonra teslim oldu; Teodorico onu öldürdü."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas künyesi uyumlu.",
+  "dogrulama": "okundu",
+  "ic_not": "Atlas künyesi uyumlu. [Tur2: taslak t degeri: 0493-03-05] [Tur2] f=476-08-23 (rex ilanı, DBI) okundu; Romulus'un tahttan indirilmesi Eylül başı (DBI 'primi di settembre'). t: 493 yılı iki kaynakta; atlasın 493-03-05 günü bu turda okunmadı -> yıl hassasiyeti. Odoakar 480'e kadar Nepos'u meşru Augustus saydı ve Zenon adına vikar olarak yönetti.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "odoakar",
@@ -780,10 +782,10 @@
   "tur": "imparatorluk",
   "bolge": "italya",
   "f": "0395-01-17",
-  "t": "0476-09-04",
+  "t": "0476-09-01",
   "kesinlik": {
-   "f": "gun",
-   "t": "gun"
+   "f": "yil",
+   "t": "ay"
   },
   "baskent": "Mediolanum → Ravenna",
   "etkin_bolge": "İtalya, Galya (kısmen), İspanya, Kuzey Afrika (kısmen)",
@@ -801,11 +803,13 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Treccani, Enciclopedia on line, 'Arcadio' (https://www.treccani.it/enciclopedia/arcadio/): «alla morte di questo [Teodosio I] (395) ereditò solo la parte orientale dell'Impero, mentre l'occidentale spettò al fratello Onorio».",
+   "Treccani, Enciclopedia on line, 'Romolo Augustolo' (https://www.treccani.it/enciclopedia/romolo-augustolo/): «Ultimo imperatore romano d'Occidente (475-476 d. C.)»; Oreste'nin oğlu 475'te Augustus ilan edildi.",
+   "G. Scrofani, 'Odoacre', DBI 79 (2013): Odoacre Eylül başında Ravenna'ya girip Romolo Augusto'yu deposed etti.",
+   "Treccani, Enciclopedia on line, 'Giulio Nepote': Nepos 480'de öldürülene kadar unvanını korudu (Dalmaçya)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas t=0476-08-28; geleneksel 4 Eylül 476 (Romulus'un devrilmesi), 23 Ağustos 476 (Odoakar ilanı). Bolge: atlas bati-avrupa; İtalya merkezli oluşuna göre italya önerilir.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas t=0476-08-28; geleneksel 4 Eylül 476 (Romulus'un devrilmesi), 23 Ağustos 476 (Odoakar ilanı). Bolge: atlas bati-avrupa; İtalya merkezli oluşuna göre italya önerilir. [Tur2: taslak t degeri: 0476-09-04] [Tur2] Yeni tarih (t) Odoakar kaydıyla birlikte: Romulus'un indirilişi Eylül 476 başı (DBI 'primi di settembre'); geleneksel 4 Eylül bu turda okunmadı (taslak 09-04; atlas künyesi 08-28 hiçbir kaynakta yok, 23 Ağustos ise Odoakar'ın rex ilanıdır). Batı imparatorluğunun 'hukukî' sonu Nepos'un ölümü (480) sayılabilir (Treccani 'Giulio Nepote', DBI Odoacre): kaynakta çelişki, 480 alternatif son. f=395: yıl okundu (Treccani Arcadio), 17 Ocak günü okunmadı (Theodosius'un ölümü). Atlasta bolge=bati-avrupa: İtalya merkezli (Mediolanum/Ravenna), 'italya' önerilir.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "bati-roma",
@@ -817,11 +821,11 @@
   "ad": "Doğu Got (Ostrogot) Krallığı",
   "tur": "krallik",
   "bolge": "italya",
-  "f": "0493-03-05",
-  "t": "0553-01-01",
+  "f": "0493-01-01",
+  "t": "0552-10-01",
   "kesinlik": {
-   "f": "gun",
-   "t": "yil"
+   "f": "yil",
+   "t": "ay"
   },
   "baskent": "Ravenna",
   "etkin_bolge": "İtalya, Dalmaçya, Sicilya, Provence (kısmen)",
@@ -840,11 +844,12 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Treccani, Enciclopedia on line, 'Teodorico' (https://www.treccani.it/enciclopedia/teodorico/): 454 civarı - 526; 474'te babası Teodemiro'nun halefi; Odoacre'yi yenip (493) İtalya'daki Ostrogot krallığının hükümdarı oldu.",
+   "Treccani, Enciclopedia on line, 'Ostrogoti' (https://www.treccani.it/enciclopedia/ostrogoti/): başkentler Ravenna ve Pavia, Verona üçüncü merkez; Tagina (552) Totila ölümü; «nella battaglia del Monte Lattaio, presso il Vesuvio, nell'ottobre del 552: Teia, ultimo re degli O., cadde sul campo»; son garnizon Conza 555.",
+   "G. Scrofani, 'Odoacre', DBI 79: Teodorico 489'da İtalya'ya girdi; 493'te Ravenna'ya girdi."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Teia ölümü 552/553; direniş sürdü; bitiş yıl düzeyinde.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Teia ölümü 552/553; direniş sürdü; bitiş yıl düzeyinde. [Tur2: taslak f degeri: 0493-03-05] [Tur2: taslak t degeri: 0553-01-01] [Tur2] f: Teodorico'nun İtalya'ya girişi 488/489, Ravenna'ya girişi 493 (iki kaynak); atlas 493-03-05 günü okunmadı -> yıl. t: Monte Lattari Ekim 552'de Teia'nın düşmesi (Treccani) -> 0552-10-01; son garnizon Conza 555 (Treccani) ve Pragmatica Sanctio 554 seçilebilir: taslak 553 hiç desteklenmedi. Kuruluş tanımı: Teodorico'nun rex olarak tanınması (497, Anastasius) bu turda okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "dogu-got",

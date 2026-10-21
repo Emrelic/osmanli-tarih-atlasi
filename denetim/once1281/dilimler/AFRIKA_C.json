@@ -4,7 +4,7 @@
   "ad": "Masaesyli (Batı Numidya) Krallığı",
   "tur": "krallik",
   "bolge": "kuzey-afrika",
-  "f": "-0300-01-01",
+  "f": "-0399-01-01",
   "t": "-0202-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -22,16 +22,14 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Livius XXIV-XXX",
-   "Brill's New Pauly s.v. Numidia"
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Masaesyli — bilgi kutusu IV. yy MÖ - 175 MÖ (Numidya'ya bağlanma), Syphax MÖ ~203-202'de Masinissa'ya yenildi, başkent Siga; atıf: J. Desanges, 'Masaesyli', Encyclopédie berbère 30, 2010, s. 4630-4631; Y. Modéran, Les royaumes d'Afrique du Nord, EFR 2003; J. D. Fage & R. Oliver, Cambridge History of Africa c. 2, 1975, s. 184; Hoyos, Mastering the West, Oxford UP 2015, s. 277 (açılmadı)"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Kuruluşu belgesiz; t Syphax'ın esir düşmesi MÖ 203/202. 'numidia' künyesi MÖ 201'den başlıyor. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "ic_not": "Taslak değeri f=-0300. IV. yy MÖ (Vikipedi) kuruluş yüzyılı; ilk kral Aylimas(?) 344-310 MÖ (Vikipedi). t=-0202 (MÖ 203, Syphax'ın yenilgisi/esareti; Masinissa Zama MÖ 202'den sonra topraklarını birleştirdi → 'numidia' f=-0201). Vikipedi infobox 175 MÖ'ya uzatır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Birleşme öncesi ayrı krallık."
+   "not": "'numidia' (-0201/-0045) birleşik ardıl; Masaesyli ayrı künyesi yok."
   }
  },
  {
@@ -39,8 +37,8 @@
   "ad": "Massyli (Doğu Numidya) Krallığı",
   "tur": "krallik",
   "bolge": "kuzey-afrika",
-  "f": "-0300-01-01",
-  "t": "-0202-01-01",
+  "f": "-0399-01-01",
+  "t": "-0201-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yil"
@@ -57,15 +55,14 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Brill's New Pauly s.v. Massylii"
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Massyli — IV. yy MÖ'da kabilelerden doğan Berberî konfederasyon/krallık, Kartaca himayesi, Gaia (260-207), Oezalces, Masinissa; Zama (202 MÖ) sonrası Numidya; atıf Fage & Oliver, Cambridge History of Africa c. 2, 1975 (açılmadı)"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Birleşik Numidya mevcut künyede MÖ 201. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "ic_not": "Taslak değeri f=-0300, t=-0202. MÖ 202 Zama = -0201 astronomik; f IV. yy MÖ (yüzyıl hassasiyeti). Kralların tam dizisi Vikipedi'de çelişkili; Masinissa'nın MÖ 206'da Roma'ya dönüşü ve MÖ 202 birleşmesi. 'numidia' künyesi Massyli devamıdır (f=-0201): künye f'si Massyli'ye genişleyebilir (var-kisa).",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "numidia",
-   "not": "Birleşme öncesi iki ayrı krallık."
+   "not": "numidia f=-0201 Masinissa birleşimi; Massyli öncesi (IV. yy-202 MÖ) eklenebilir."
   }
  },
  {
@@ -73,8 +70,8 @@
   "ad": "Kirenayka Krallığı (Magas)",
   "tur": "krallik",
   "bolge": "kuzey-afrika",
-  "f": "-0276-01-01",
-  "t": "-0250-01-01",
+  "f": "-0275-01-01",
+  "t": "-0249-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -93,24 +90,23 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Brill's New Pauly s.v. Magas"
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Magas_of_Cyrene — vali ~MÖ 300, kral 276-250 MÖ, kendini kral ilan tarihi tartışmalı, ölüm 250; atıf: M. Clayman, Berenice II and the Golden Age of Ptolemaic Egypt, Oxford UP 2014, s. 30-36; B. van Oppen de Ruiter, Berenice II Euergetis, Springer 2016, s. 39; L. Kainz 2022 s. 79-91 (açılmadı)"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Magas kral ilanı MÖ 276/274, ölüm MÖ ~250 (kaynaklar çelişir). Apion krallığı (MÖ 116-96) ayrı aday. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "ic_not": "Taslak -0276/-0250 astronomik yıl hatalıydı: MÖ 276 = -0275, MÖ 250 = -0249. Kral ilan yılı tartışmalı (~MÖ 276-274). Mevcut 'kyrene' (-0630/-0095) bu dönemi zaten kapsıyor; ayrı künye gerekmez, Magas kralı dönemi künyede alt dönem olarak yazılabilir.",
   "esleme": {
-   "durum": "var-kisa",
+   "durum": "var",
    "mevcut_id": "kyrene",
-   "not": "'kyrene' tek künye; ara dönemler ayrı önerilebilir."
+   "not": "'kyrene' künyesi (-0630/-0095) bu dönemi kapsıyor; Ptolemaios'tan kopuş kronoloji maddesi olabilir."
   }
  },
  {
   "id": "auris-masties",
-  "ad": "Aurès (Masties) Berberî Krallığı",
+  "ad": "Aurès Krallığı (Masties, Iabdas, Dihya)",
   "tur": "krallik",
   "bolge": "kuzey-afrika",
-  "f": "0476-01-01",
-  "t": "0535-01-01",
+  "f": "0484-01-01",
+  "t": "0703-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -129,85 +125,14 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "Procopius, Wars IV",
-   "Brill's New Pauly s.v. Masties"
+   "Vikipedi (yalnız aracı; atıf verdiği eser ayrıca açılmadı): en.wikipedia.org/wiki/Kingdom_of_the_Aur%C3%A8s — c. 484-703; Masties c. 484-516, Iabdas c.516-539/548, Dihya (Kâhine) c.668-703; atıf: Y. Modéran, Les Maures et l'Afrique romaine, EFR 2003; Julien & Le Tourneau, Histoire de l'Afrique du Nord 1970; Merrills & Miles, The Vandals, 2009, s. 127-128; Procopius, Vandalic War (açılmadı)"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Masties yönetimi 476-535 (geleneksel); t Bizans fethi. Altava krallığıyla karıştırılmamalı. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "ic_not": "Taslak değeri 476-535. Vikipedi Aurès Krallığı'nı c. 484 (Huneric'e isyan)-703 (Dihya'nın ölümü) verir; 540-668 arası Bizans-Mauri dönemi boşluklu (Iabdas 539'da yenildi). TDV 'Kâhine' ile 701 (Hassân'ın zaferi); TDV 'İFREN' Kâhine isyanı 701'de bitti diyor (okundu) → t=703 yerine 701 de olabilir. Süreklilik belirsiz; 539-668 aralığı tek polity sayılamayabilir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": "Vandal'dan bağımsız Mauri krallığı."
-  }
- },
- {
-  "id": "sao-sehir-devletleri",
-  "ad": "Sao Şehir Devletleri (Çad Gölü)",
-  "tur": "sehir-devleti",
-  "bolge": "orta-afrika",
-  "f": "-0500-01-01",
-  "t": "1500-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "çeşitli (Logone-Birni, Makari)",
-  "etkin_bolge": "Çad Gölü güneyi, Şari-Logone",
-  "sehirler": [
-   "Logone-Birni",
-   "Makari"
-  ],
-  "ozet": "Çad Gölü güneyinde surlu yerleşimlerde şehir devletleri; sonunda Kanem-Bornu ve Bagirmi'ye katıldı.",
-  "oncul": [],
-  "ardil": [
-   "kanem-bornu"
-  ],
-  "oncelik": "kucuk",
-  "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "UNESCO General History of Africa vol. III"
-  ],
-  "dogrulama": "taslak",
-  "ic_not": "Birleşik siyasî birim olmayabilir; f/t çok kaba (arkeoloji MÖ 6. yy - MS 16. yy). Tür 'sehir-devleti' ağı. [HAFIZADAN; web'de acilip okunmadi - taslak]",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Kanem-Bornu ile örtüşür."
-  }
- },
- {
-  "id": "djenne-djenno",
-  "ad": "Djenné-Djenno Kent Merkezi (İç Nijer Deltası)",
-  "tur": "sehir-devleti",
-  "bolge": "bati-afrika",
-  "f": "-0250-01-01",
-  "t": "1400-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "Djenné-Djenno",
-  "etkin_bolge": "İç Nijer Deltası (Mali)",
-  "sehirler": [
-   "Djenné-Djenno"
-  ],
-  "ozet": "Erken demir çağında nüfuslu, uzmanlaşmış kent kümesi; çoğu araştırmacı merkezî devlet değil heterarşik kentleşme sayar.",
-  "oncul": [],
-  "ardil": [
-   "mali-imparatorlugu"
-  ],
-  "oncelik": "kucuk",
-  "kaynak": [
-   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
-   "McIntosh & McIntosh, Prehistoric Investigations in the Region of Jenne, Mali (1980)"
-  ],
-  "dogrulama": "taslak",
-  "ic_not": "Siyasî birim sayılıp sayılmayacağı tartışmalı; Emre karar versin. [HAFIZADAN; web'de acilip okunmadi - taslak]",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "Siyasî birim değilse kültür/yerleşim olarak kalsın."
+   "not": "Mevcut listede yok; 'vandal' ve 'bizans' komşu."
   }
  }
 ]

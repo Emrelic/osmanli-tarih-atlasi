@@ -1,0 +1,183 @@
+[
+ {
+  "id": "igbo-ukwu",
+  "ad": "Igbo-Ukwu Merkezi",
+  "tur": "sehir-devleti",
+  "bolge": "bati-afrika",
+  "f": "0850-01-01",
+  "t": "0950-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "onyil"
+  },
+  "baskent": "Igbo-Ukwu",
+  "etkin_bolge": "Güneydoğu Nijerya",
+  "sehirler": [
+   "Igbo-Ukwu"
+  ],
+  "ozet": "9.-10. yy'da dökme bronz ve kral/rahip mezarı bulunan merkez; siyasî yapısı belirsiz.",
+  "oncul": [],
+  "ardil": [
+   "nri"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Shaw, Igbo-Ukwu (1970)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Yalnız arkeoloji; yöneten birimin adı bilinmiyor. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Siyasî birim olup olmadığı belirsiz."
+  },
+  "elenme_gerekcesi": "Igbo-Ukwu bir arkeolojik tahnit/kültür buluntu alanıdır (IX-X. yy bronz); siyasî birim olduğuna dair yazılı veya ayakta ayrı kanıt yok; Nri Krallığı (994, mevcut 'nri') bölgenin polity kaydıdır. Kaynak okunmadı.",
+  "kaynak_dilim": "D"
+ },
+ {
+  "id": "tadmekka",
+  "ad": "Tadmekka (Es-Sûk) Tuareg Şehri",
+  "tur": "sehir-devleti",
+  "bolge": "bati-afrika",
+  "f": "0850-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Tadmekka",
+  "etkin_bolge": "Adrar des Ifoghas (Mali)",
+  "sehirler": [
+   "Tadmekka"
+  ],
+  "ozet": "Sahra ticaret yolunda Tuareg şehri; İbn Havkal/Bekrî anlatır.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Nixon, Tadmekka: Archaeology of an Early Saharan Trading Town (2017)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasî birim mi bağımsız şehir mi belirsiz; t bilinmiyor. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Doğrulama gerekir."
+  },
+  "elenme_gerekcesi": "Tadmekka ticaret şehri/entrepôt (Nixon 2009, Azania 44/2; Vikipedi 'Tadmekka' aracılığıyla okundu): sayfa onu krallık değil 'town' olarak anlatır, yöneticisi adlandırılmaz; siyasî birim kanıtı yok.",
+  "kaynak_dilim": "D"
+ },
+ {
+  "id": "toutswe-sefligi",
+  "ad": "Toutswe Şeflikleri",
+  "tur": "seflik",
+  "bolge": "guney-afrika",
+  "f": "0700-01-01",
+  "t": "1300-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Toutswe",
+  "etkin_bolge": "Botsvana doğu tepeleri",
+  "sehirler": [
+   "Toutswe",
+   "Bosutswe"
+  ],
+  "ozet": "Sığırcılığa dayalı kademeli yerleşim hiyerarşisi.",
+  "oncul": [],
+  "ardil": [
+   "mapungubwe"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "Denbow, Toutswe tradition (1986)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Kültür mü siyasî birim mi belirsiz. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Mapungubwe öncüsü sayılır."
+  },
+  "tur_yeni": "Arkeolojik şeflik düzeyi; sözlükte yok.",
+  "elenme_gerekcesi": "Toutswe arkeolojik gelenek (Zhizo sonrası, ~700-900 başlangıç, 7.-19. yy radyokarbon); 'bazı tarihçiler devlet/krallık dedi' (Vikipedi 'Toutswe' okundu; atıf Hall 1990, Huffman 2005 açılmadı) ama sınırlı kanıt; Kültür/tartışmalı olduğundan ELENEN. Emre isterse 'seflik' olarak geri alınabilir.",
+  "kaynak_dilim": "D"
+ },
+ {
+  "id": "sao-sehir-devletleri",
+  "ad": "Sao Şehir Devletleri (Çad Gölü)",
+  "tur": "sehir-devleti",
+  "bolge": "orta-afrika",
+  "f": "-0500-01-01",
+  "t": "1500-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "çeşitli (Logone-Birni, Makari)",
+  "etkin_bolge": "Çad Gölü güneyi, Şari-Logone",
+  "sehirler": [
+   "Logone-Birni",
+   "Makari"
+  ],
+  "ozet": "Çad Gölü güneyinde surlu yerleşimlerde şehir devletleri; sonunda Kanem-Bornu ve Bagirmi'ye katıldı.",
+  "oncul": [],
+  "ardil": [
+   "kanem-bornu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "UNESCO General History of Africa vol. III"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Birleşik siyasî birim olmayabilir; f/t çok kaba (arkeoloji MÖ 6. yy - MS 16. yy). Tür 'sehir-devleti' ağı. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Kanem-Bornu ile örtüşür."
+  },
+  "elenme_gerekcesi": "Sao: Vikipedi ('Sao civilisation', okundu): 'kültür/uygarlık, şehir devletlerinden oluşan, ortak maddî kültür; tek devlet değil'; M.Ö. 2000/500 - 16. yy; ardılları Kotoko prensliklerdir (Lebeuf 1969, açılmadı). Kronolojik süre 1281 sonrasına taşar, tek polity değil → ELENEN; Kotoko prenslikleri sonra ayrı ele alınır.",
+  "kaynak_dilim": "C"
+ },
+ {
+  "id": "djenne-djenno",
+  "ad": "Djenné-Djenno Kent Merkezi (İç Nijer Deltası)",
+  "tur": "sehir-devleti",
+  "bolge": "bati-afrika",
+  "f": "-0250-01-01",
+  "t": "1400-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Djenné-Djenno",
+  "etkin_bolge": "İç Nijer Deltası (Mali)",
+  "sehirler": [
+   "Djenné-Djenno"
+  ],
+  "ozet": "Erken demir çağında nüfuslu, uzmanlaşmış kent kümesi; çoğu araştırmacı merkezî devlet değil heterarşik kentleşme sayar.",
+  "oncul": [],
+  "ardil": [
+   "mali-imparatorlugu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hafizadan yazildi, sayfa acilip okunmadi; asagidaki yalniz dogrulama ADAYIDIR:",
+   "McIntosh & McIntosh, Prehistoric Investigations in the Region of Jenne, Mali (1980)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Siyasî birim sayılıp sayılmayacağı tartışmalı; Emre karar versin. [HAFIZADAN; web'de acilip okunmadi - taslak]",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Siyasî birim değilse kültür/yerleşim olarak kalsın."
+  },
+  "elenme_gerekcesi": "Djenné-Djenno: kentsel höyük kümesi (MÖ 250-MS 1400); McIntosh & McIntosh heterarşi modeli — 'zengin yönetici sınıf kanıtı yok' (Vikipedi 'Djenné-Djenno' okundu; atıf McIntosh 2005, Ancient Middle Niger, CUP; açılmadı). Siyasî birim kanıtı yok → ELENEN.",
+  "kaynak_dilim": "C"
+ }
+]

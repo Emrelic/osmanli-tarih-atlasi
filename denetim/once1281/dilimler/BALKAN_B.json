@@ -987,5 +987,740 @@
    "mevcut_id": null,
    "not": ""
   }
+ },
+ {
+  "id": "gortyn-polis",
+  "ad": "Gortyn Şehir Devleti (Girit)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0066-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Gortyn",
+  "etkin_bolge": "Mesara ovası (Orta Girit)",
+  "sehirler": [
+   "Gortyn"
+  ],
+  "ozet": "Girit'in başlıca Dor polisi; Gortyn Yasası (MÖ 5. yy), Hellenistik dönemde Girit'te üstünlük; MÖ 67-68 Roma ile ittifak, Girit-Kyrenaika eyaleti başkenti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "https://en.wikipedia.org/wiki/Gortyn (aracı: 220 MÖ Lyttos Savaşı iç çekişme; 2. yy MÖ Phaistos yıkımı sonrası Matala'ya genişleme; MÖ 68 Metellus istilasından kaçınma; atıf: Polybius IV.53, 55)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f=-0699 sayfada desteklenmedi (kuruluş tarihi yok). Okunan: 220 MÖ iç çekişme, Phaistos yıkımı sonrası genişleme, 68 MÖ Roma ile ittifak. t=-0066 Roma yönetiminin başlangıcı (Gortyn Roma müttefikiydi; bağımsızlığı fiilen 67 MÖ'da biter). Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "knossos-polis",
+  "ad": "Knossos Şehir Devleti (Girit)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0066-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Knossos",
+  "etkin_bolge": "Kuzey-Orta Girit",
+  "sehirler": [
+   "Knossos"
+  ],
+  "ozet": "Archaik-Klasik-Hellenistik Girit polisi; Gortyn ile rekabet; MÖ 67'de Roma fethi, Colonia Iulia Nobilis Cnossus.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "https://en.wikipedia.org/wiki/Knossos (aracı; atıf: Sanders, I.F. Roman Crete, 1982)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: 'c. 700-323 MÖ Girit şehir devleti olarak gelişme'; 67 MÖ Roma dönemi başlangıcı. f ~MÖ 700 tablo konvansiyonu, tek bir olay değil. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "lyttos-polis",
+  "ad": "Lyttos (Lyktos) Şehir Devleti (Girit)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0066-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Lyttos",
+  "etkin_bolge": "Doğu-Orta Girit (Pediada)",
+  "sehirler": [
+   "Lyttos"
+  ],
+  "ozet": "Dor polisi; 220 MÖ Knossos tarafından yıkıldı (Lyttos Savaşı), sonra Gortyn yardımıyla yeniden kuruldu; Metellus tarafından yağmalandı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "https://en.wikipedia.org/wiki/Lyttos (aracı; atıf: Polybius; Eckhel; Smith DGRG)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: 344 MÖ Phalaikos olayı; 220 MÖ yıkım; yeniden kuruluş (kaynak 'citation needed'); Roma sırasında Metellus yağması (tarihsiz). 220 MÖ'dan sonra aralık: yıkıntı -0219 ile yeniden kuruluş arasında polis yok (tarih bilinmiyor). t=-0066 taslak. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kydonia-polis",
+  "ad": "Kydonia Şehir Devleti (Girit)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0068-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Kydonia",
+  "etkin_bolge": "Batı Girit (Hanya)",
+  "sehirler": [
+   "Kydonia"
+  ],
+  "ozet": "Batı Girit'in başlıca polisi; Herodotos'a göre Samoslular c. MÖ 520'de kurdu; 220/219 Oreioi Birliği; MÖ 69'da Panares'in teslimiyle Roma'ya geçti; Actium sonrası Augustus 'özgür' ilan etti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "https://en.wikipedia.org/wiki/Kydonia (aracı; atıf: Chaniotis 1996, Hallager&Hallager 2003, Herodotos 3.44, Polybios 28.14)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: 429 MÖ Atina saldırısı, 343 Phalaikos kuşatması, 220/219 Oreioi Birliği, 69 MÖ teslim, 31 MÖ sonrası özgürlük. f=-0699 sayfada yok (Herodotos'a göre Samos yerleşimi c.520 MÖ ama eski Minos şehri). t=-0068 (69 MÖ). Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "polyrrhenia-polis",
+  "ad": "Polyrrhenia Şehir Devleti (Girit)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0066-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Polyrrhenia",
+  "etkin_bolge": "Batı Girit",
+  "sehirler": [
+   "Polyrrhenia"
+  ],
+  "ozet": "Archaik dönemden bilinen polis; 219 MÖ Knossos'u terk edip Lyttos'a yardım etti; Roma dönemi limanı Kisamos.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "https://en.wikipedia.org/wiki/Polyrrhenia (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: 'önemli Archaik yerleşim'; tarihli ilk olay MÖ 219. f ve t sayfada desteklenmedi (Roma fethi sayfada yok). Tur 2: ne Vikipedi ne başka okunabilir sayfa polis'in kuruluş tarihini verdi; f ve t hafızadan/geleneksel (Archaic polis ~MÖ 7.-6. yy; son = Roma fethi) => taslak. t=-0066 (MÖ 67 Roma Girit fethi, Metellus). Roma fethi: Eleutherna maddesi 68/67 MÖ, Kydonia maddesi 69 MÖ (Panares teslimi), Gortyn maddesi Roma müttefiki olduğundan istilaya uğramadı (68 MÖ).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "eleutherna-polis",
+  "ad": "Eleutherna Şehir Devleti (Girit)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0899-01-01",
+  "t": "-0066-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Eleutherna",
+  "etkin_bolge": "Rethymno bölgesi (Orta-Batı Girit)",
+  "sehirler": [
+   "Eleutherna"
+  ],
+  "ozet": "MÖ 9. yy'da Dorlarca kurulan polis; 220 MÖ'da Rodoslulara iddiasıyla Lyttos Savaşı'nı başlattı; 68/67 MÖ Roma fethi, Metellus'a para ödedi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "Kotsonas, Antonis (2008). BSA 103: 275-298 [Vikipedi atıf listesi]; Stampolidis (1990) BSA 85 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Eleutherna (aracı; Cassius Dio 36.18.2)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: 9. yy MÖ Dor yerleşimi (Geometrik), 220 MÖ Lyttos Savaşı, 68/67 MÖ Roma fethi. Bağımsızlık sonu sayfada açıkça yok, Dio'dan çıkarım. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "praisos-polis",
+  "ad": "Praisos Şehir Devleti (Eteokret, Girit)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0139-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Praisos",
+  "etkin_bolge": "Doğu Girit (Sitia)",
+  "sehirler": [
+   "Praisos"
+  ],
+  "ozet": "Eteokretlilerin merkezi; MÖ 140'ta Hierapytna tarafından yıkıldı (Gortyn+Hierapytna / Knossos savaşı).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "https://en.wikipedia.org/wiki/Praisos (aracı; atıf: Strabon 10.4, Athenaios 9.376, Talbert 2000)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: yıkım MÖ 140 (Hierapytna). 'c.145' (taslak) değil 140 MÖ okundu: t=-0139. f sayfada yok (Eteokret evresi tarihsiz). Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "hierapytna-polis",
+  "ad": "Hierapytna Şehir Devleti (Girit)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0066-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Hierapytna",
+  "etkin_bolge": "Güneydoğu Girit",
+  "sehirler": [
+   "Hierapytna"
+  ],
+  "ozet": "Hellenistik dönemde Praisos'u (c.140 MÖ) ilhak eden Güneydoğu Girit polisi; Priansos ile ittifak.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "https://en.wikipedia.org/wiki/Hierapytna (aracı; sayfada tarih yok) ; Praisos sayfasından 140 MÖ yıkım"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Hierapytna sayfası tarih vermedi; kuruluş/son hafızadan. Tur 2: ne Vikipedi ne başka okunabilir sayfa polis'in kuruluş tarihini verdi; f ve t hafızadan/geleneksel (Archaic polis ~MÖ 7.-6. yy; son = Roma fethi) => taslak. t=-0066 (MÖ 67 Roma Girit fethi, Metellus).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "itanos-polis",
+  "ad": "Itanos Şehir Devleti (Girit)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0066-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Itanos",
+  "etkin_bolge": "Doğu Girit",
+  "sehirler": [
+   "Itanos"
+  ],
+  "ozet": "Dor konuşan polis; 7.-8. yy MÖ kurulduğu söylenir.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "https://en.wikipedia.org/wiki/Itanos (aracı; atıf: Halbherr 1891; Bennet 2011)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: 'MÖ 7. veya 8. yy'da kuruldu' (sayfa kendi içinde tutarsız). t=-0066 hafızadan. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "aptera-polis",
+  "ad": "Aptera Şehir Devleti (Girit)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0066-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Aptera",
+  "etkin_bolge": "Batı Girit (Souda)",
+  "sehirler": [
+   "Aptera"
+  ],
+  "ozet": "Girit polisi; Kydonia ile 3. yy sonunda barış antlaşması; Oreioi Birliği.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "https://en.wikipedia.org/wiki/Kydonia (Aptera ile barış, 220/219)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Aptera için doğrudan sayfa okunamadı; Kydonia sayfasındaki anıştan. Tur 2: ne Vikipedi ne başka okunabilir sayfa polis'in kuruluş tarihini verdi; f ve t hafızadan/geleneksel (Archaic polis ~MÖ 7.-6. yy; son = Roma fethi) => taslak. t=-0066 (MÖ 67 Roma Girit fethi, Metellus).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "phalasarna-polis",
+  "ad": "Phalasarna Şehir Devleti (Girit)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0183-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Phalasarna",
+  "etkin_bolge": "Batı Girit kıyısı",
+  "sehirler": [
+   "Phalasarna"
+  ],
+  "ozet": "Batı Girit liman polisi; MÖ 184'te Kydonia tarafından alındı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "https://en.wikipedia.org/wiki/Kydonia (Phalasarna ele geçirilişi 184 MÖ; atıf Polybios)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kydonia sayfası: 'MÖ 184'te Phalasarna alındı'. f hafızadan. Phalasarna yeniden bağımsızlığı yok. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "lato-polis",
+  "ad": "Lato (Lato pros Kamara) Şehir Devleti (Girit)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0066-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Lato",
+  "etkin_bolge": "Doğu Girit (Mirabello)",
+  "sehirler": [
+   "Lato"
+  ],
+  "ozet": "Archaik dönemden itibaren polis (Dreros, Prinias çağdaşı).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "https://en.wikipedia.org/wiki/Polyrrhenia (Lato, Prinias çağdaşı olarak anılır)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Doğrudan sayfa okunmadı. Tur 2: ne Vikipedi ne başka okunabilir sayfa polis'in kuruluş tarihini verdi; f ve t hafızadan/geleneksel (Archaic polis ~MÖ 7.-6. yy; son = Roma fethi) => taslak. t=-0066 (MÖ 67 Roma Girit fethi, Metellus).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "phaistos-polis",
+  "ad": "Phaistos Şehir Devleti (Girit)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0699-01-01",
+  "t": "-0199-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Phaistos",
+  "etkin_bolge": "Mesara ovası",
+  "sehirler": [
+   "Phaistos"
+  ],
+  "ozet": "Gortyn tarafından yıkıldı (Gortyn maddesine göre 2. yy MÖ'da Phaistos yıkılmıştı).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "https://en.wikipedia.org/wiki/Gortyn (2. yy MÖ Phaistos'un yıkımı sonrası Gortyn Matala'ya genişledi)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: 'Phaistos yıkıldıktan sonra Gortyn 2. yy MÖ'da Matala'ya genişledi' — yıkım tarihi kesin değil (2. yy MÖ öncesi). t yuzyil hassasiyetli. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "paros-polis",
+  "ad": "Paros Şehir Devleti (Kyklades)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0145-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Paros",
+  "etkin_bolge": "Paros ve Antiparos",
+  "sehirler": [
+   "Paros"
+  ],
+  "ozet": "Kyklades'in büyük polislerinden; Thasos'u kolonize etti; Delos Birliği üyesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "Reger, G. 'Political History of the Kyklades 260-200 BC'. Historia 43 (1994) [arayan: Vikipedi League of the Islanders atıf listesi]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tur 2: ne Vikipedi ne başka okunabilir sayfa polis'in kuruluş tarihini verdi; f ve t hafızadan/geleneksel (Archaic polis ~MÖ 7.-6. yy; son = Roma fethi) => taslak. t=-0066 (MÖ 67 Roma Girit fethi, Metellus). t Roma Akhaia eyaleti (146 MÖ) olarak yaklaşık; Delos Birliği/Nesiotai koinon üyeliği bağımsızlığı sınırlandırdı.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "andros-polis",
+  "ad": "Andros Şehir Devleti (Kyklades)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0145-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Andros",
+  "etkin_bolge": "Andros Adası",
+  "sehirler": [
+   "Andros"
+  ],
+  "ozet": "Kyklades polisi; Delos Birliği üyesi; Hellenistik Nesiotai koinon üyesi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tur 2: ne Vikipedi ne başka okunabilir sayfa polis'in kuruluş tarihini verdi; f ve t hafızadan/geleneksel (Archaic polis ~MÖ 7.-6. yy; son = Roma fethi) => taslak. t=-0066 (MÖ 67 Roma Girit fethi, Metellus). t yaklaşık (146 MÖ).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "melos-polis",
+  "ad": "Melos Şehir Devleti (Kyklades)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0145-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Melos",
+  "etkin_bolge": "Melos Adası",
+  "sehirler": [
+   "Melos"
+  ],
+  "ozet": "Dor kolonisi polis; Atina fethi (MÖ 416, Peloponnesos Savaşı) sonrası kesinti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı",
+   "Thukydides V.84-116 (Melos Diyaloğu) [birincil, açılmadı]"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tur 2: ne Vikipedi ne başka okunabilir sayfa polis'in kuruluş tarihini verdi; f ve t hafızadan/geleneksel (Archaic polis ~MÖ 7.-6. yy; son = Roma fethi) => taslak. t=-0066 (MÖ 67 Roma Girit fethi, Metellus). 416 MÖ Atina fethi ve sakinlerin yok edilmesi: sonra Spartalı Lysandros 405 MÖ'da geri getirdi (hafızadan); polis sürekliliği kesintili.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "thera-polis",
+  "ad": "Thera (Santorini) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0145-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Thera",
+  "etkin_bolge": "Thera Adası",
+  "sehirler": [
+   "Thera"
+  ],
+  "ozet": "Dor polisi; Kyrene'nin ana kenti (c. MÖ 630); Ptolemaios deniz üssü (3. yy MÖ).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tur 2: ne Vikipedi ne başka okunabilir sayfa polis'in kuruluş tarihini verdi; f ve t hafızadan/geleneksel (Archaic polis ~MÖ 7.-6. yy; son = Roma fethi) => taslak. t=-0066 (MÖ 67 Roma Girit fethi, Metellus).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "siphnos-polis",
+  "ad": "Siphnos Şehir Devleti (Kyklades)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0145-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Siphnos",
+  "etkin_bolge": "Siphnos Adası",
+  "sehirler": [
+   "Siphnos"
+  ],
+  "ozet": "Altın-gümüş madenleriyle zengin Archaik polis (Delphoi Siphnos Hazinesi).",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tur 2: ne Vikipedi ne başka okunabilir sayfa polis'in kuruluş tarihini verdi; f ve t hafızadan/geleneksel (Archaic polis ~MÖ 7.-6. yy; son = Roma fethi) => taslak. t=-0066 (MÖ 67 Roma Girit fethi, Metellus).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "tenos-polis",
+  "ad": "Tenos Şehir Devleti (Kyklades)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0145-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Tenos",
+  "etkin_bolge": "Tenos Adası",
+  "sehirler": [
+   "Tenos"
+  ],
+  "ozet": "Archaik-Klasik polis; Nesiotai koinon üyesi; Poseidon-Amphitrite kutsal alanı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tur 2: ne Vikipedi ne başka okunabilir sayfa polis'in kuruluş tarihini verdi; f ve t hafızadan/geleneksel (Archaic polis ~MÖ 7.-6. yy; son = Roma fethi) => taslak. t=-0066 (MÖ 67 Roma Girit fethi, Metellus).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "keos-ioulis-polis",
+  "ad": "Keos (Ioulis) Şehir Devleti",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0145-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Ioulis",
+  "etkin_bolge": "Keos Adası (dört polis: Ioulis, Karthaia, Koressia, Poiessa)",
+  "sehirler": [
+   "Ioulis"
+  ],
+  "ozet": "Keos'ta dört polis vardı; Ioulis en önemlisi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Hansen, M.H.; Nielsen, T.H. (ed.). An Inventory of Archaic and Classical Poleis. Oxford UP, 2004 (ilgili bölge bölümü; bu oturumda ERİŞİLEMEDİ - OUP erişim duvarı) - OKUNMADI, doğrulama adayı"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Keos'un dört polisinin (Ioulis, Karthaia, Koressia, Poiessa) hepsi ayrı kayıt gerektirir; yalnız Ioulis yazıldı. Tur 2: ne Vikipedi ne başka okunabilir sayfa polis'in kuruluş tarihini verdi; f ve t hafızadan/geleneksel (Archaic polis ~MÖ 7.-6. yy; son = Roma fethi) => taslak. t=-0066 (MÖ 67 Roma Girit fethi, Metellus).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "akarnania-birligi",
+  "ad": "Akarnania Birliği (Koinon)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0499-01-01",
+  "t": "-0030-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Stratos / Thyrrheion",
+  "etkin_bolge": "Batı Orta Yunanistan (Akarnania)",
+  "sehirler": [
+   "Stratos / Thyrrheion"
+  ],
+  "ozet": "MÖ 5. yy'dan beri var; MÖ 375/4'te İkinci Atina Birliği'ne katıldı; MÖ 31 Actium sonrası Achaea eyaletine.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Schwahn, Walther. 'Sympoliteia'. RE IV A 1 (1931), cols. 1171-1266 (cols. 1194-1197) [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Acarnanian_League (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: 'MÖ 5. yy'dan beri'; yan çubuk 'c.500-31 MÖ'. Roma Akhaia eyaleti sonrası birlik sürdü, t=31 MÖ Actium sonrası dahil edilme. Baskent Stratos (4. yy MÖ), Thyrrheion; taslak. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "enchelei-krallik",
+  "ad": "Enchelei Krallığı (İlirya)",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": "-0799-01-01",
+  "t": "-0499-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "Lychnidos (Ohrid) çevresi",
+  "etkin_bolge": "Ohrid Gölü çevresi",
+  "sehirler": [
+   "Lychnidos (Ohrid) çevresi"
+  ],
+  "ozet": "Ohrid çevresinde en eski İlir krallıklarından; MÖ 8.-7. yy'da zirve, 6. yy'da gerileme, MÖ 5. yy'da yerini Dassaretii aldı.",
+  "oncul": [],
+  "ardil": [
+   "illyria-dassaretioi-bardylis"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Stipčević, A. 1989; Šašel Kos, M. 2004; Castiglioni, M.P. 2010 [Vikipedi 'Illyrians' atıf listesi]",
+   "https://en.wikipedia.org/wiki/Illyrians (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: 'en eski krallıklardan; zirve MÖ 8.-7. yy, 6. yy'da gerileme, 5. yy'da yeni bir krallığa emilmiş'. Rakamlar yüzyıl hassasiyetli; makale kısa künye veriyor, kaynaklar eser düzeyinde açılmadı. Efsanevî unsur (Kadmos-Harmonia) içerir. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "autariatai",
+  "ad": "Autariatai (Otaryatlar) Krallığı",
+  "tur": "sehir-devleti",
+  "bolge": "balkanlar",
+  "f": null,
+  "t": "-0309-01-01",
+  "kesinlik": {
+   "f": "belirsiz",
+   "t": "yil"
+  },
+  "baskent": "bilinmiyor",
+  "etkin_bolge": "Orta Balkanlar (Morava-Vardar yukarı)",
+  "sehirler": [
+   "bilinmiyor"
+  ],
+  "ozet": "MÖ 6.-4. yy'da birleşen İlir-Trak karışımı güçlü siyasi birlik; 5. yy zirve; MÖ 310 dolayında Kelt göçleriyle ani kayboluş.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Wilkes, J. The Illyrians. Blackwell, 1992 [Vikipedi atıf listesi]",
+   "Papazoglu, F. The Central Balkan Tribes in Pre-Roman Times. Hakkert, 1978 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Autariatae (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f yok: 'MÖ 6.-4. yy arası birleşme' (aralık) => f yazılmadı, yıl bilinmiyor. t=MÖ 310 Vikipedi (belirsizlik: 'ani kayboluş', Kelt göçü). Kronolojik ilk kaynak: Pseudo-Skylax (MÖ 4. yy ortası), Arrianos (335 MÖ Alexandros seferi). Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
  }
 ]

@@ -204,10 +204,10 @@
   "tur": "konfederasyon",
   "bolge": "balkanlar",
   "f": "-0313-01-01",
-  "t": "-0245-01-01",
+  "t": "-0166-01-01",
   "kesinlik": {
    "f": "yil",
-   "t": "onyil"
+   "t": "yil"
   },
   "baskent": "Delos",
   "etkin_bolge": "Kyklades",
@@ -221,10 +221,11 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "Oxford Classical Dictionary (4. bs., 2012), ilgili madde - OKUNMADI, dogrulama adayi"
+   "Billows, R.A. Antigonos the One-Eyed and the Creation of the Hellenistic State. 1990; Reger, G. 'The Political History of the Kyklades 260-200 BC'. Historia 43 (1994); Buraselis, K. 'Federalism and the sea', Federalism in Greek Antiquity, 2015 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/League_of_the_Islanders (aracı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak t=-0245 (246 MÖ). Kaynak (Vikipedi): kuruluş c. 314/3 MÖ Antigonos (Dioskurides), 306 MÖ yazıtı ikincil; c. 287/6 Ptolemaios hegemonyasına geçti (Meadows 2013: Ptolemaios II kuruluşu savunur); 3. yy MÖ ortasında çöktü (son belgeler yy ikinci çeyrek; c. 260 sonrası nesiarkhos yok); c. 200 MÖ Rodos İkinci Nesiotai Birliği'ni kurdu, c. 167 MÖ sona erdi. Tek kayıtta iki evre birleştirildi: 313-245 (birinci), 200-167 (ikinci). Bu kayıt t=-0166 ile ikinci evreyi kapsıyor, ARA (245-200) polity yok: ayrı kayıt gerekebilir. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -412,10 +413,12 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "J. Wilkes, The Illyrians (1992) - OKUNMADI, dogrulama adayi"
+   "Wilkes, J. The Illyrians. Blackwell, 1992/1996 [Vikipedi atıf listesi]",
+   "Hammond, N.G.L. 'The Kingdoms in Illyria circa 400-167 BC'. BSA 61 (1966) [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Illyrians (aracı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Agron öncesi Ardiaioi ve Taulantioi ayrı; kralın hükümdarlık tarihleri tahminî. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Agron öncesi Ardiaioi ve Taulantioi ayrı; kralın hükümdarlık tarihleri tahminî. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)). | Kaynak (Vikipedi): Ardiaioi krallığı MÖ 4. yy'dan MÖ 167'ye (Kotor Körfezi-Shkodër Gölü merkezli); Agron devleti c. 250 MÖ, Agron 231 MÖ öldü; Teuta naiplik, 229 MÖ I. İlirya Savaşı; Gentius 168 MÖ Shkodër'de yenildi (Wilkes 1995). t=-0167 ile uyumlu. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -444,10 +447,12 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "J. Wilkes, The Illyrians (1992) - OKUNMADI, dogrulama adayi"
+   "Wilkes, J. The Illyrians. Blackwell, 1992/1996 [Vikipedi atıf listesi]",
+   "Dzino, D. 2014; Mesihović&Šačić 2015 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Illyrians (aracı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)). | Kaynak (Vikipedi): Epidamnos/Dyrrachion çevresinde kıyı krallığı, MÖ 5.-3. yy; Glaukias döneminde zirve c. 335-302 MÖ. f=-0398 taslak (MÖ 399) sayfa desteklemiyor: 5. yy MÖ'dan beri; t=-0301 (302) Glaukias dönemi sonu. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -476,11 +481,12 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "J. Wilkes, The Illyrians (1992) - OKUNMADI, dogrulama adayi",
-   "Brill's New Pauly, ilgili madde - OKUNMADI, dogrulama adayi"
+   "Wilkes, J. The Illyrians. Blackwell, 1992/1996 [Vikipedi atıf listesi]",
+   "Papazoglu, F. 1978; Šašel Kos 2010; Petrović 2006,2019 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Dardani (aracı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bardylis Dardan mı İllyrian mı karşıt okul. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Bardylis Dardan mı İllyrian mı karşıt okul. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)). | Kaynak (Vikipedi): krallık 4. yy MÖ'da gelişti; Longaros 230/229 MÖ Bylazora'yı aldı; Paionia'yı emdi; Roma yenilgisi M. Antonius (39 MÖ) ya da M. Licinius Crassus (29/28 MÖ); sonra Moesia'ya. Taslak t=-0027 (28 MÖ) Crassus tarihiyle uyumlu, 39 MÖ alternatif. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -576,11 +582,11 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "Cambridge Ancient History (2. bs.), ilgili cilt/bolum - OKUNMADI, dogrulama adayi",
-   "M.H. Hansen - T.H. Nielsen (eds.), An Inventory of Archaic and Classical Poleis, OUP 2004 - OKUNMADI, dogrulama adayi"
+   "Chaniotis, A. 'Federalism on Crete', Federalism in Greek Antiquity, 2015; Ager, S.L. JHS 114 (1994); van der Mijnsbrugge, M. The Cretan Koinon, 1931 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Cretan_League (aracı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kaynak (Vikipedi): koinon 3. yy MÖ'da kuruldu (Makedon yayılmasına karşı), 'Kretaion' adı MÖ 1. yy sonunda kesinleşti; MÖ 67 Roma fethinden sonra eyalet birliği olarak yeniden kuruldu ve 4. yy sonuna dek sürdü. t=-0066 bağımsız evrenin sonu; Roma evresi (kretarkhes, arkhiereus) polity değil kült-temsil. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -774,6 +780,337 @@
   ],
   "dogrulama": "taslak",
   "ic_not": "Procopius BG ile tarih sıkıştırılmıştır. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "bardylis-krallik",
+  "ad": "Bardylis'in İlir Krallığı (Dassaretioi)",
+  "tur": "krallik",
+  "bolge": "balkanlar",
+  "f": "-0392-01-01",
+  "t": "-0357-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Lychnidos (Ohrid) çevresi",
+  "etkin_bolge": "Ohrid-Prespa gölleri, Pelagonia",
+  "sehirler": [
+   "Damastion",
+   "Daparria"
+  ],
+  "ozet": "Bardylis'in kurduğu ilk belgeli İlir hanedan devleti: 393 MÖ Makedonya'yı işgal, 359 MÖ III. Perdikkas'ı öldürdü, 358 MÖ Erigon Vadisi'nde II. Philippos'a yenildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Hammond, N.G.L. 1994 [Vikipedi atıf listesi]",
+   "Šašel Kos, M. 2004; Castiglioni 2010 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Bardylis (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f=-0392: 393 MÖ ilk tarihli eylem (Amyntas III'ü sürdü), hükümdarlığın başlangıcı değil (sayfa yaşam 'c. 448-358' diyor). t=-0357 (358 MÖ Erigon yenilgisi; Philippos Ohrid'e dek ilhak etti). Oğlu Kleitos 335 MÖ'da Alexandros'a karşı isyan etti; Grabaioi (Grabos II) sonrası en güçlü İlir devleti (Hammond). Dassaretii çevresi; azınlık görüş Dardan. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "illyria-dassaretioi-bardylis",
+  "ad": "Dassaretioi (Dassaretii) Krallığı",
+  "tur": "krallik",
+  "bolge": "balkanlar",
+  "f": "-0499-01-01",
+  "t": "-0357-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yil"
+  },
+  "baskent": "Lychnidos",
+  "etkin_bolge": "Ohrid Gölü çevresi",
+  "sehirler": [
+   "Lychnidos"
+  ],
+  "ozet": "MÖ 5. yy'dan Enchelei'nin yerini alan Dassaretii; Bardylis hanedanı bu çevreden sayılır.",
+  "oncul": [
+   "enchelei-krallik"
+  ],
+  "ardil": [
+   "bardylis-krallik"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Wilkes, J. The Illyrians. Blackwell, 1992/1996 [Vikipedi atıf listesi]",
+   "Šašel Kos 2004; Castiglioni 2010 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Illyrians (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: Dassaretii MÖ 5. yy'dan Lychnidos çevresinde Enchelei'yi değiştirdi; Bardylis hanedanı modern bilginlerce Dassaretan sayılır. Bardylis'ten ayrı polity mi aynı polity mi belirsiz: 'bardylis-krallik' ile aynı olabilir, çift kayıt riski veri oturumunda çözülmeli. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "delmatai-federasyon",
+  "ad": "Delmatai (Dalmatlar) Federasyonu",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "-0180-01-01",
+  "t": "-0032-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Delminium → Soetovio (Klis)",
+  "etkin_bolge": "Dalmaçya iç kesimi",
+  "sehirler": [
+   "Delminium",
+   "Soetovio"
+  ],
+  "ozet": "MÖ 181'de Gentius'u tanımayıp ayrılan Delmatai federasyonu; Dalmaçya Savaşları (156-155, 119-118, 78-76, 34-33 MÖ); Octavianus Soetovio'yu alınca MÖ 33'te Roma hâkimiyeti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Dzino, D. Illyricum in Roman Politics, 229 BC-AD 68. Cambridge UP, 2010 [Vikipedi atıf listesi]",
+   "Wilkes, J. The Illyrians. 1996 [Vikipedi atıf listesi]",
+   "Šašel Kos, M. Appian and Illyricum. 2005 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Delmatae (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f=-0180 (181 MÖ ilk anılış). t=-0032: Octavianus'un Soetovio'yu alışı (34-33 MÖ), Roma hâkimiyeti 33 MÖ'da; 12 MÖ Bato isyanı, 6-9 MS Büyük İlirya İsyanı (başarısız) sonrası tamamen sönümlendi (t alternatifi 0009). 'Krallık' değil 'federasyon, federal lider' (sayfa). Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "trakya-sapaioi-krallik",
+  "ad": "Trakya Sapaioi (Rhoemetalces) Roma Müşteri Krallığı",
+  "tur": "krallik",
+  "bolge": "balkanlar",
+  "f": "-0012-01-01",
+  "t": "0046-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Bizye / Kabyle (tartışmalı)",
+  "etkin_bolge": "Trakya (Odrysai hanedanlarının mirası)",
+  "sehirler": [
+   "Bizye",
+   "Kabyle"
+  ],
+  "ozet": "Sapaioi hanedanından Rhoemetalces I, MÖ 13'te Rhescuporis II'nin ölümüyle (Augustus müşterisi) Trakya'nın tek hükümdarı oldu; 12 MS bölüşüm (Cotys III - Rhescuporis II); Rhoemetalces III ölümüyle 46 MS'de Thracia eyaleti.",
+  "oncul": [
+   "odris"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Rhoemetalces_I (aracı; 12 MÖ/15 MÖ tarih çelişkisi sayfada var)",
+   "Tacitus, Annales (birincil, açılmadı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: Rhoemetalces I MÖ 13'te sole ruler (infobox/gövde 12 MÖ, lead 15 MÖ çelişir). t=46 MS Sapaei sayfasının kenar notundan; bu oturumda başka kaynakla doğrulanmadı => t taslak. Atlas 'odris' (-479..0046) bu evreyi içeriyor; ayrı kayıt gerekirse 'var' durumunu veri oturumu karar verir. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "ardil-var",
+   "mevcut_id": "odris",
+   "not": "Atlas künyesi 'odris' -0479..0046 olup Sapaioi evresini kapsıyor; Odrys hanedanı ile Sapaioi'nin aynı polity olup olmadığı veri oturumuna kalır."
+  }
+ },
+ {
+  "id": "euboia-koinon",
+  "ad": "Euboia Birliği (Koinon)",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "-0293-01-01",
+  "t": "0297-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Khalkis",
+  "etkin_bolge": "Euboia Adası",
+  "sehirler": [
+   "Khalkis",
+   "Eretria",
+   "Karystos"
+  ],
+  "ozet": "Euboia şehirlerinin sympoliteia tipi federasyonu; ilk Demetrios Poliorketes döneminde (294-288 MÖ) tanıklı, 194 MÖ ve 30 MS'de yeniden kuruldu; Diocletianus 297 MS'de dağıttı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Euboean_League (aracı; atıf listesi kısa okundu: atıf yok)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: 3. yy MÖ-3. yy sonu MS; ilk tanıklık Demetrios 294-288 MÖ; 194 MÖ ve 30 MS yeniden kuruluş; Diocletianus 297 MS dağıttı. 'Araya giren ara' (294-194, 194-30 MS) kayıtta sürekli sayılmadı; Roma döneminde siyasi bağımsızlık yok (federasyon kült/maddi işlev). Atlas'ta 'euboea-negroponte' Latin dönemi, farklı polity. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "phanagoria-polis",
+  "ad": "Phanagoria Şehir Devleti (Kuzey Karadeniz)",
+  "tur": "sehir-devleti",
+  "bolge": "dogu-avrupa",
+  "f": "-0539-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "onyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Phanagoria",
+  "etkin_bolge": "Taman Yarımadası (Bosporos Boğazı doğu yakası)",
+  "sehirler": [
+   "Phanagoria"
+  ],
+  "ozet": "Teos kolonisi (c. MÖ 540), Bosporos Krallığı'nın ikinci şehri; Spartokidlerce Bosporos'a katıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Bosporan_Kingdom (aracı; atıf: Hind, J. Cambridge Ancient History VI; Kozlovskaya 2017)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: 'Teos kolonisi c. MÖ 540; bölgenin ikinci şehri'. t: Bosporos'a katılış tarihi sayfada yok, bilinmiyor (null). Spartokid hanedanı MÖ 438/7'den sonra; bağımsız polity süresi belirsiz. Atlas 'bosporos-krallik' f=-0437. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "'bosporos-krallik' ardıl/üst yapı (-0437..0370)."
+  }
+ },
+ {
+  "id": "theodosia-polis",
+  "ad": "Theodosia Şehir Devleti (Kırım)",
+  "tur": "sehir-devleti",
+  "bolge": "dogu-avrupa",
+  "f": "-0599-01-01",
+  "t": "-0379-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "Theodosia",
+  "etkin_bolge": "Doğu Kırım (Feodosiya)",
+  "sehirler": [
+   "Theodosia"
+  ],
+  "ozet": "Milet kolonisi (MÖ 6. yy); Satyros kuşattı, oğlu Leukon Bosporos'a kattı (c. MÖ 380); buğday ihracat limanı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Bosporan_Kingdom (aracı; Theodosia: Satyros kuşatması, Leukon alışı; tarih sayfada yok)"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Sayfa tarih vermedi (Satyros/Leukon). f Milet kolonisi hafızadan; t Leukon I (389-349 MÖ) döneminin hafızadan bir yaklaşığı: onyil. Doğrulanmadı. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "nymphaion-polis",
+  "ad": "Nymphaion Şehir Devleti (Kırım)",
+  "tur": "sehir-devleti",
+  "bolge": "dogu-avrupa",
+  "f": "-0599-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Nymphaion",
+  "etkin_bolge": "Kerç Yarımadası batı yakası",
+  "sehirler": [
+   "Nymphaion"
+  ],
+  "ozet": "Atina ilişkili polis; 5. yy MÖ'da Delos Birliği üyesi; sonra Satyros tarafından Bosporos'a katıldı.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "https://en.wikipedia.org/wiki/Bosporan_Kingdom (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: 5. yy MÖ Delos Birliği üyesi; Satyros'un krallığına eklendi. f/t sayfada yok; f=yaklaşık, t=bilinmiyor. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "yazigler",
+  "ad": "Yazigler (Iazyges) Sarmat Konfederasyonu (Tisza-Tuna Ovası)",
+  "tur": "konfederasyon",
+  "bolge": "orta-avrupa",
+  "f": "0020-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Macar Ovası (Tuna-Tisza arası)",
+  "sehirler": [
+   "bilinmiyor"
+  ],
+  "ozet": "c. 20 MS'de Karpatlar boyunca batıya göçüp Tuna-Tisza arasına yerleşen Sarmat topluluğu; Roma müşteri kabilesi (Tiberius dönemi), 89-92 ve Markomann savaşları (175 sonrası sert antlaşma, 179 barış); 5. yy'da Gotlar ve Hunlar.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Mócsy 2014; Harmatta 1970; Bârcă 2013; Williams 1997 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Iazyges (aracı; sayfanın ilk 100k karakteri okundu)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f=c.20 MS yerleşme (Cunliffe 2015); t: 5. yy Gotlar/Hunlar tarafından emilme, kesin yıl yok (null). Prensler: Banadaspus (174'e dek), Zanticus; 470-471 'Benga ve Babaï' (Attila sonrası: tartışmalı). Siyasi birimin sürekliliği belirsiz: tek kabile konfederasyonu, Roma'nın 'socius et amicus' kralı var. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Pannonia sınırı: orta-avrupa kapsamı olabilir."
+  }
+ },
+ {
+  "id": "roksolanlar",
+  "ad": "Roksolanlar (Roxolani) Sarmat Konfederasyonu",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": "-0199-01-01",
+  "t": "0350-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "onyil"
+  },
+  "baskent": "belirsiz",
+  "etkin_bolge": "Don-Dinyeper bozkırı, sonra Bărăgan/Moldova",
+  "sehirler": [
+   "bilinmiyor"
+  ],
+  "ozet": "MÖ 2. yy'dan itibaren tanıklı Sarmat konfederasyonu; Tasius c. MÖ 100'de Kırım'a saldırdı (Palakos'a destek); MS 1. yy'da Tuna'ya kaydı, 101-102 Nicopolis ad Istrum yenilgisi; 4. yy ortasında Hunlarca fethedildi.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Vernadsky, G. The Origins of Russia. 1959; Brzezinski & Mielczarek, The Sarmatians 600 BC-AD 450. Osprey 2002 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Roxolani (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Sayfa: '2. yy MÖ-4. yy MS arası belgeli'; Tasius c.100 MÖ, 101-102 MS yenilgi, Hun fethi 'mid-4th c.' (t=350 onyil, kaynak aralık verdi). f=-0199 yuzyil hassasiyetli 'ilk tanıklık', kuruluş değil. Rasparaganus sayfada yok (hafızadan, kullanılmadı). Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); akademik eser açılmadı => kismen-okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,

@@ -4,11 +4,11 @@
   "ad": "Cenova Cumhuriyeti",
   "tur": "cumhuriyet",
   "bolge": "italya",
-  "f": "1099-01-01",
-  "t": "1797-06-14",
+  "f": "1098-01-01",
+  "t": "1797-06-01",
   "kesinlik": {
    "f": "yil",
-   "t": "gun"
+   "t": "ay"
   },
   "baskent": "Cenova",
   "etkin_bolge": "Liguria, Korsika, Kuzey Karadeniz",
@@ -20,10 +20,11 @@
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Enciclopedia Italiana (1932), 'Genova' (https://www.treccani.it/enciclopedia/genova_(Enciclopedia-Italiana)/): «il suo accenno che nel 1098, dopo 18 mesi di discordie, si fece una Compagna di tre anni con sei consoli, attesta il carattere temporaneo della Compagna, che però da questo momento è costantemente rinnovata»; ilk resmî haçlı seferi 1 Ağustos 1100'de konsüllerin başkanlığında çıktı; «La Compagna cioè è il Comune».",
+   "Treccani, Enciclopedia on line, 'Genova' (https://www.treccani.it/enciclopedia/genova/): komün 11. yy boyunca oluştu; «Nel maggio-giugno 1797 la Repubblica aristocratica finì sotto la pressione di Bonaparte»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas 1005; Compagna 1099.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas 1005; Compagna 1099. [Tur2: taslak f degeri: 1099-01-01] [Tur2: taslak t degeri: 1797-06-14] [Tur2] Atlas künyesi 1005 desteklenmiyor. Komünün doğuşu Treccani'de 'sec. 11 boyunca' süreç, EI: ilk (3 yıllık) Compagna 1098 (Caffaro'ya dayanır; başka yayınlarda 1099 da geçer, bu turda okunmadı). 1098 seçildi. 1100 ilk resmî haçlı seferi ve 1191 podestà Compagna'nın kalıcılaştığını gösterir. t: Haziran 1797 ay; gün (14 Haziran) okunmadı.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "cenova",
@@ -36,10 +37,10 @@
   "tur": "cumhuriyet",
   "bolge": "italya",
   "f": "1000-01-01",
-  "t": "1406-10-09",
+  "t": "1406-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "gun"
+   "t": "yil"
   },
   "baskent": "Pisa",
   "etkin_bolge": "Toskana, Sardinya, Korsika",
@@ -51,10 +52,11 @@
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Pisa' (https://www.treccani.it/enciclopedia/pisa/): ~1050'de belgelerde konsüller; komün 12. yy'da kurumlarını kurdu; «nel 1399 la città viene venduta a Gian Galeazzo Visconti (per poi tornare indipendente nel 1402), e conquistata nel 1406 da Firenze»; Sardegna 1015-16, Bona 1034, Palermo 1063 seferleri.",
+   "Enciclopedia Italiana (1935), 'Pisa' (https://www.treccani.it/enciclopedia/pisa_(Enciclopedia-Italiana)/): Pisa Tuscia'nın başı, marka Toscana içinde; Enrico IV 1081'de şehirle anlaşma; 1080-1085 arası Sardinya belgesinde ilk konsül anışı."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas uyumlu.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas uyumlu. [Tur2: taslak t degeri: 1406-10-09] [Tur2] f=1000 kaynakta 'başlangıç' olarak yer almıyor: Pisa X. yy'da Tuscia'nın başı, ~1050-1085 konsüllerle komün; bağımsız polity olarak başlangıç yılı seçilmedi, yüzyıl düzeyi. t: 1406 yıl okundu (gün 9 Ekim okunmadı); 1399-1402 Visconti'ye satış ara dönemi.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "piza",
@@ -86,11 +88,11 @@
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Treccani, Enciclopedia on line, 'Savoia' (https://www.treccani.it/enciclopedia/savoia/): hanedan 10-11. yy arasında doğdu; «Primo conte di S. fu Umberto I Biancamano ... che ingrandì i suoi possessi con le elargizioni dell'imperatore Corrado II»; Oddone+Adelaide ile Torino marka mirası; Amedeo VIII 1416'da dük unvanı (Sigismund); 'Il ducato di Savoia (1416-1720)'.",
+   "Enciclopedia Italiana (1936), 'Savoia' (https://www.treccani.it/enciclopedia/savoia_(Enciclopedia-Italiana)/): Umberto I'in kökeni tartışmalı; Amedeo I'in ölümü 10 Temmuz 1047 (veya 1048)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas 1032; Umberto I ilk anma 1003.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas 1032; Umberto I ilk anma 1003. [Tur2] f: Treccani/EI kontluğun başlangıç yılını vermiyor (Umberto I, imparator Corrado II zamanında; Corrado II saltanat yılları bu turda okunmadı); taslak 1003 ve atlas 1032 okunan kaynaklarda desteklenmiyor -> teyitsiz. t=1720: Treccani 'ducato di Savoia (1416-1720)' (yıl); gün (2 Ağustos) okunmadı. Savoya 1720'den sonra Sardinya Krallığı olarak sürer.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "savoya",
@@ -120,11 +122,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Matthew, The Norman Kingdom of Sicily (1992); Loud, The Age of Robert Guiscard (2000)",
-   "ADAY (okunmadi): Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Normanni' (https://www.treccani.it/enciclopedia/normanni/): «Rainolfo Drengot, che per primo (1030) ottenne la terra di Aversa»; Napoli dükü Sergio IV Aversa'yı ona verdi (Treccani 'Napoli': Aversa feudo 1030).",
+   "Enciclopedia Italiana (1930), 'Capua': Riccardo 1059'da prens olarak tanındı, 1062'de son Lombard prensini Capua'dan kovdu."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Aversa 1030; Capua prensliği 1058/1062.",
+  "dogrulama": "okundu",
+  "ic_not": "Aversa 1030; Capua prensliği 1058/1062. [Tur2] f=1030 iki kaynakta. t=1062 taslak: Riccardo I'in Aversa kontluğundan Capua prensliğine geçişi (1058-1062); Aversa'nın ayrı polity olarak sona ermesi Capua ile birleşmeyle (1062) örtüşür, tam gün okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -136,11 +138,11 @@
   "ad": "Apulya Kontluğu (Melfi)",
   "tur": "kontluk",
   "bolge": "italya",
-  "f": "1042-09-01",
-  "t": "1059-08-01",
+  "f": "1043-01-01",
+  "t": "1059-01-01",
   "kesinlik": {
-   "f": "ay",
-   "t": "ay"
+   "f": "yil",
+   "t": "yil"
   },
   "baskent": "Melfi",
   "etkin_bolge": "Apulya, Basilicata",
@@ -157,11 +159,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Matthew, The Norman Kingdom of Sicily (1992); Loud, The Age of Robert Guiscard (2000)",
-   "ADAY (okunmadi): Dictionary of the Middle Ages"
+   "Enciclopedia Italiana (1935), 'Puglia' (https://www.treccani.it/enciclopedia/puglia_(Enciclopedia-Italiana)/): «I Normanni, creando nel 1043 la contea di Puglia con capitale Melfi»",
+   "Treccani, Enciclopedia on line, 'Normanni': Guglielmo Braccio di Ferro conte di Melfi (1043); Roberto il Guiscardo papa tarafından Puglia ve Calabria dükü (1059)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler ay düzeyinde, gün yok.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler ay düzeyinde, gün yok. [Tur2: taslak f degeri: 1042-09-01] [Tur2: taslak t degeri: 1059-08-01] [Tur2] Taslak f=1042-09 yerine kaynaklarda 1043 (iki kaynak). Eylül 1042 ayını destekleyen kaynak bu turda okunmadı. t: 1059 (dukalığa yükseltme) yıl okundu, Ağustos ayı okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -173,10 +175,10 @@
   "ad": "Apulya ve Kalabria Dükalığı",
   "tur": "dukalik",
   "bolge": "italya",
-  "f": "1059-08-01",
+  "f": "1059-01-01",
   "t": "1128-01-01",
   "kesinlik": {
-   "f": "ay",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Melfi → Salerno",
@@ -195,11 +197,12 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Matthew, The Norman Kingdom of Sicily (1992); Loud, The Age of Robert Guiscard (2000)",
-   "ADAY (okunmadi): Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Normanni': «Roberto il Guiscardo fu riconosciuto dal papa duca di Puglia e Calabria (1059)»",
+   "Treccani, Enciclopedia on line, 'Ruggèro II re di Sicilia' (https://www.treccani.it/enciclopedia/ruggero-ii-re-di-sicilia/): papa ona dukalığı verdi (1128); 1130 Anacleto II'den kral unvanı.",
+   "Enciclopedia Italiana (1930), 'Capua': Roberto II 1127'de Guiscard mirasını Ruggero II'ye bıraktı (1127)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas uyumlu.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas uyumlu. [Tur2: taslak f degeri: 1059-08-01] [Tur2] f=1059 iki kaynakta. t=1128 yıl okundu (Treccani Ruggero II); Ruggero II 1127'de Apulya mirasını birleştirdi, 1128'de dukalık onayı: 1127/1128 iki ardışık olay, 'Apulya dukalığı' sona ermesi = Ruggero'nun duklukla birleşimi. Atlas künyesi 1059-1128 uyumlu.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "apulya-dukaligi",
@@ -211,10 +214,10 @@
   "ad": "Sicilya Krallığı (Norman, Hohenstaufen)",
   "tur": "krallik",
   "bolge": "italya",
-  "f": "1130-12-25",
+  "f": "1130-01-01",
   "t": "1282-03-30",
   "kesinlik": {
-   "f": "gun",
+   "f": "yil",
    "t": "gun"
   },
   "baskent": "Palermo",
@@ -231,11 +234,12 @@
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Matthew, The Norman Kingdom of Sicily (1992); Loud, The Age of Robert Guiscard (2000)",
-   "ADAY (okunmadi): Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Ruggèro II re di Sicilia' (https://www.treccani.it/enciclopedia/ruggero-ii-re-di-sicilia/): «Alla morte di Onorio parteggiò per l'antipapa Anacleto II, ottenendone (1130) il titolo di re di Sicilia, Puglia, Calabria, Capua».",
+   "Treccani, Enciclopedia on line, 'Sicilia, Regno di' (https://www.treccani.it/enciclopedia/regno-di-sicilia/): «Ruggero II ... a ottenere, nel 1130, dall'antipapa Anacleto II e poi, nel 1139, da Innocenzo II, la Corona di Sicilia»; Vespri Siciliani «iniziata il 31 marzo 1282», Pedro III d'Aragona.",
+   "Enciclopedia Italiana (1937), 'Sicilia': Ruggero I 1061-1091 fetih; Palermo 1072 başında Normanlara geçti; fetih 1091'de Butera ve Noto'nun düşmesiyle tamam."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas f=1072 (Roger I Palermo) – Kontluk 1071/72-1130; Krallık 1130. Napoli Krallığı anakarada 1282 sonrası sürer.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas f=1072 (Roger I Palermo) – Kontluk 1071/72-1130; Krallık 1130. Napoli Krallığı anakarada 1282 sonrası sürer. [Tur2: taslak f degeri: 1130-12-25] [Tur2] Kronoloji: atlas künyesi sicilya-kralligi f=1072 'Norman Sicilya Kontluğu dahil' (kontluk 1061/1072-1130; Palermo 1072 başı) - krallık 1130 (Anacleto II, yıl okundu; 25 Aralık günü bu turda okunmadı) ve 1139 (Innocentius II onayı). Künye genişletme/ayrım kararı gerekir (kontluk önceli: 1071/1072). t: Treccani Vespri 31 Mart 1282'de başladı diyor; atlas 30 Mart (taslak değeri) Paskalya akşamı geleneğine dayanır; tek kaynakla gün seçilmedi. Not: kayıt Norman kral dönemini aşıyor (1130-1194 Norman, 1194-1266 Hohenstaufen, 1266-1282 Anjou) - polity sürekli, ad 'Norman' sınırlayıcı.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "sicilya-kralligi",
@@ -247,11 +251,11 @@
   "ad": "Cagliari (Kalaris) Judikatı",
   "tur": "judikat",
   "bolge": "italya",
-  "f": "1000-01-01",
-  "t": "1258-01-01",
+  "f": null,
+  "t": "1258-07-20",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "yil"
+   "t": "gun"
   },
   "baskent": "Santa Igia (Cagliari)",
   "etkin_bolge": "Sardinya güney",
@@ -265,10 +269,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Enciclopedia Italiana (1936), 'Sardegna' (https://www.treccani.it/enciclopedia/sardegna_(Enciclopedia-Italiana)/): Sardinya 1000'den sonra dört yargıçlığa (Cagliari, Arborea, Logudoro/Torres, Gallura) bölündü; Pisa'nın Cagliari'yi ele geçirişi ve «la capitolazione di S. Igia, ultimo baluardo genovese (20 luglio 1258)»; Cagliari yargıçlığı Pisalı Capraia, Gherardesca, Visconti ailelerine üçe bölündü.",
+   "Enciclopedia Italiana, 'Giudicati' (https://www.treccani.it/enciclopedia/giudicati_(Enciclopedia-Italiana)/): dört partes (Cagliari, Torres, Arborea, Gallura), iudices de logu, 'reges'; aragon yatırımı sırasında Cagliari ve Torres yargıçlıkları zaten sönmüştü."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç 9.-11. yy; tarih belirsiz (yuzyil).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç 9.-11. yy; tarih belirsiz (yuzyil). [Tur2: taslak f degeri: 1000-01-01] [Tur2: taslak t degeri: 1258-01-01] [Tur2] f: EI 'dopo il 1000' ile yüzyıl düzeyi; kesin yıl okunmadı -> null (taslak 1000-01-01 yalnızca 'sonrası'). t=1258-07-20 Santa Igia teslimi (EI) = Cagliari yargıçlığının sonu (Pisa üçe böldü); taslak 1258-01-01 yerine gün okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -280,7 +285,7 @@
   "ad": "Torres (Logudoro) Judikatı",
   "tur": "judikat",
   "bolge": "italya",
-  "f": "1000-01-01",
+  "f": null,
   "t": "1259-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -298,10 +303,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Enciclopedia Italiana (1936), 'Sardegna': Sardinya 1000'den sonra dört yargıçlığa bölündü (Torres/Logudoro dahil).",
+   "Enciclopedia Italiana, 'Giudicati': Torres yargıçlığı Aragon yatırımından önce sönmüştü."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler yaklaşık. [Tur2: taslak f degeri: 1000-01-01] [Tur2] f: 'dopo il 1000' (yüzyıl). t=1259 (Adelasia'nın ölümü, Torres/Logudoro'nun sonu) bu turda okunmadı; EI yalnızca 'Cagliari ve Torres yargıçlıkları Aragon yatırımı (1297) öncesi söndü' diyor.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -313,7 +319,7 @@
   "ad": "Gallura Judikatı",
   "tur": "judikat",
   "bolge": "italya",
-  "f": "1000-01-01",
+  "f": null,
   "t": "1288-01-01",
   "kesinlik": {
    "f": "yuzyil",
@@ -331,10 +337,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Enciclopedia Italiana (1936), 'Sardegna': Gallura dört yargıçlıktan biri; 1205'te Pisalı Lamberto Visconti Elena di Gallura ile evlenip Gallura yargıcı oldu; Ubaldo Visconti Gallura'yı kuzeni Giovanni Visconti'ye bıraktı.",
+   "Enciclopedia Italiana, 'Giudicati': Gallura yargıçlığı 'poco dopo' Aragon yatırımından sonra söndü."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Son judika Giovanna 1308/1322; 1288 bir sınır tarihtir; belirsiz.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Son judika Giovanna 1308/1322; 1288 bir sınır tarihtir; belirsiz. [Tur2: taslak f degeri: 1000-01-01] [Tur2] f: 'dopo il 1000'; t=1288 okunmadı: EI 15 Nisan 1288 barışında Gallura'nın kaderini açık vermez; 'Aragon yatırımı sonrası kısa süre sonra söndü'. Teyitsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -346,8 +353,8 @@
   "ad": "Arborea Judikatı",
   "tur": "judikat",
   "bolge": "italya",
-  "f": "1000-01-01",
-  "t": "1420-01-01",
+  "f": null,
+  "t": "1410-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yil"
@@ -362,10 +369,11 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Enciclopedia Italiana (1936), 'Sardegna': Eleonora, Mariano, Ugone dönemleri; Sanluri muharebesi; «la resa di Oristano del 1410»; Alfonso 1420'de Sardinya'yı tek elde birleştirdi.",
+   "Enciclopedia Italiana, 'Giudicati': Arborea en dirençli yargıçlıktı; merkezi Oristano."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas 1070-1410; kaynak değişken.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas 1070-1410; kaynak değişken. [Tur2: taslak f degeri: 1000-01-01] [Tur2: taslak t degeri: 1420-01-01] [Tur2] t: EI 1410 (Oristano'nun teslimi), Alfonso'nun birleşmesi 1420; atlas künyesi 1410 ile uyumlu, taslak 1420 değil. f: 'dopo il 1000' ile yüzyıl düzeyi; atlasın 1070 değeri okunan kaynakta yok.",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "arborea",
@@ -377,10 +385,10 @@
   "ad": "Lombard Birliği (Lega Lombarda)",
   "tur": "konfederasyon",
   "bolge": "italya",
-  "f": "1167-04-07",
+  "f": "1167-01-01",
   "t": "1250-12-13",
   "kesinlik": {
-   "f": "gun",
+   "f": "yil",
    "t": "ay"
   },
   "baskent": "yok (Pontida, Cremona kurucu toplantılar)",
@@ -397,10 +405,10 @@
   "ardil": [],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Lombarda, lega' (https://www.treccani.it/enciclopedia/lega-lombarda/): «La prima fu conclusa nel 1167, per fronteggiare Barbarossa dopo la distruzione di Milano, tra Bergamo, Brescia, Verona, Cremona, Bologna, Modena, Mi[lano]...»; Legnano 1176, Costanza Barışı 1183; ikinci lig 1226 Mosio'da Federico II'ye karşı; Fossalta 1249'da imparatorun yenilgisi."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "1167 Mart/Nisan Cremona-Pontida; 1226 yenilenme. Bitiş açık (1250 Friedrich II ölümü).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "1167 Mart/Nisan Cremona-Pontida; 1226 yenilenme. Bitiş açık (1250 Friedrich II ölümü). [Tur2: taslak f degeri: 1167-04-07] [Tur2] f=1167 yıl; atlasın 7 Nisan günü (Pontida yemini geleneği) bu turda okunmadı. Lig iki aşamalı: 1167-1183 (Costanza), 1226-1249/50; t=1250-12-13 (Frederick II'nin ölümü) okunmadı; Treccani 1249 Fossalta ile 'savaş sürdü' der. Siyasî birim mi konfederatif ittifak mı: kararın Emre'de.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -413,7 +421,7 @@
   "tur": "komun",
   "bolge": "italya",
   "f": "1143-01-01",
-  "t": "1188-01-01",
+  "t": "1155-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -430,10 +438,12 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Senato' (https://www.treccani.it/enciclopedia/senato/): «A Roma le cose cambiarono di nuovo subito dopo la morte di Innocenzo II (1143), allorché a capo del comune costituitosi contro l'alta nobiltà fu istituita una magistratura collettiva, detta senato»; ~50 senatör yıllık seçilir, para basar, adalet yönetir; 1191'de tek senatör, 1194-95 56 üyeli senato, 1204'te papa tarafından tek senatör.",
+   "Treccani, Enciclopedia on line, 'Roma' (https://www.treccani.it/enciclopedia/roma/): «Nel 1144, sorretto dall'infiammata parola di Arnaldo da Brescia, riuscì a farsi valere un effimero governo comunale (connesso con la cosiddetta renovatio senatus ...), escludendo il dominio papale, ma nel 1155 Arnaldo fu abbandonato al suo destino e il comune fece atto di sottomissione al papato.»",
+   "Treccani, Enciclopedia on line, 'Arnaldo da Brescia': Arnaldo 1155'te Roma'da idam edildi; papa ile halk arasında barış (1155)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Papalık Devleti içinde; ayrı polity sayılması tartışmalı.",
+  "dogrulama": "okundu",
+  "ic_not": "Papalık Devleti içinde; ayrı polity sayılması tartışmalı. [Tur2: taslak t degeri: 1188-01-01] [Tur2] Kuruluş yılı çelişkisi: 1143 (Treccani Senato, Innocentius II'nin ölümü) vs 1144 (Treccani Roma). 1143 seçildi. Bitiş: Treccani Roma komünün 1155'te papalığa boyun eğdiğini söyler -> 1155 (atlas taslak 1188, Clemens III ile Roma halkı arasındaki 1188 antlaşması bu turda okunmadı). Senato 1191-1204'te aşamalı olarak papalığa bağlandı; komün-papalık ilişkisinin 1155-1204 arası düzeyi (özerk mi vasal mı) Emre kararı. Roma o dönemde papalık devleti (papalik, 756-1870) içinde de yer alır: örtüşme.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -445,7 +455,7 @@
   "ad": "Bologna Komünü",
   "tur": "sehir-devleti",
   "bolge": "italya",
-  "f": "1116-01-01",
+  "f": "1114-01-01",
   "t": "1506-11-11",
   "kesinlik": {
    "f": "yil",
@@ -465,10 +475,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Bologna' (https://www.treccani.it/enciclopedia/bologna/): «Quando, con il concilio di Guastalla (1106), la chiesa bolognese si rese autonoma da Ravenna, anche B. riuscì a costituirsi in Comune indipendente, lottando contro l'imperatore e abbattendo la rocca che era stata eretta ... (1114)»; konsüller (iki, dört ya da daha fazla) yürütme-yargı-askerî yetkili; Bentivoglio vb. 1376 isyanı, Visconti 1438."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Komün resmî doğuşu 1115/1116; aralarda signoria (Bentivoglio 1401-1506) aynı polity sayıldı.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Komün resmî doğuşu 1115/1116; aralarda signoria (Bentivoglio 1401-1506) aynı polity sayıldı. [Tur2: taslak f degeri: 1116-01-01] [Tur2] Taslak f=1116; kaynakta 1106 (Guastalla) ve 1114 (kale yıkımı) var, 1116 yok -> 1114 seçildi (belgeli eylem), alternatif 1106. t=1506 (Julius II) bu turda okunmadı; 1376, 1402, 1420, 1438, 1445... komün/signoria geçişleri çok.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -498,10 +508,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Padova' (https://www.treccani.it/enciclopedia/padova/): «dal 1138 fu almeno in parte esente da vincoli feudali, poiché la governavano anche i consoli, rappresentanti del libero Comune; nel 1164 P. fu la prima città dell'Italia settentrionale a cacciare il vicario imperiale e a promuovere ... la Lega veronese»; 1405'te Venedik'e geçti."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler yaklaşık. [Tur2] f=1138 okundu. t=1318 (Carraresi/Jacopo da Carrara) bu turda okunmadı; Treccani 1405 Venedik'e geçiş verir. Ezzelino III Verona, Vicenza ve Padova signoru idi (Treccani); Padova 20 Haziran 1256'da haçlı ordusuna düştü (DBI Ezzelino).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -531,10 +541,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Verona' (https://www.treccani.it/enciclopedia/verona/): feodal sınıf ve zengin tüccarlar işbirliğinden Komün doğdu; 1164'te Barbarossa'dan ayrılıp Veronese Marka Ligi; 1167'de Lombard ligine katıldı; «nel 1226 Ezzelino III da Romano divenne podestà di V. e dal 1236 signore di V., Vicenza e Padova. Alla sua morte (1259), il potere fu tenuto dalle Arti, con Mastino della Scala come capitano del popolo»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler yaklaşık. [Tur2] f=1136 okunmadı (Treccani yıl vermez). t=1259 yalnız Ezzelino'nun ölümüdür; Komün Ezzelino'nun 1236'dan beri fiilî signoria altındaydı. Ezzelino 1226 podestà, 1236 signore: komün 1226/1236 sonrası kesintili.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -546,11 +556,11 @@
   "ad": "Ezzelino da Romano Signoria'sı",
   "tur": "signoria",
   "bolge": "italya",
-  "f": "1236-01-01",
-  "t": "1259-09-01",
+  "f": "1236-11-01",
+  "t": "1259-10-01",
   "kesinlik": {
-   "f": "yil",
-   "t": "ay"
+   "f": "ay",
+   "t": "gun"
   },
   "baskent": "Verona / Padova",
   "etkin_bolge": "Marca Trevigiana",
@@ -569,10 +579,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Ezzelino III da Romano' (https://www.treccani.it/enciclopedia/ezzelino-iii-da-romano/): «Signore (n. 1194 - m. Soncino 1259) di Vicenza, Verona e Padova»; Federico II'nin birlikleri 1236'da konumunu güçlendirdi.",
+   "'Romano, Ezzelino III da', Dizionario Biografico degli Italiani (https://www.treccani.it/enciclopedia/ezzelino-iii-da-romano_(Dizionario-Biografico)/): Kasım 1236 - Mart 1237 beş ay belirleyici (Verona'nın alınması, Vicenza ve Treviso'nun kapıları); Cassano'da yaralanıp yakalandı, «morì ... forse il 1° ottobre 1259» ve Soncino'ya gömüldü."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Gün belirsiz: Eylül 1259, ay düzeyi.",
+  "dogrulama": "okundu",
+  "ic_not": "Gün belirsiz: Eylül 1259, ay düzeyi. [Tur2: taslak f degeri: 1236-01-01] [Tur2: taslak t degeri: 1259-09-01] [Tur2] Taslak t=1259-09 yerine DBI 'forse il 1° ottobre 1259' (güne 'belki' ile bağlı). f: Verona'yı Kasım 1236'da denetime alma (DBI); 1226'da podestà idi. Treviso kapıları Mart 1237 öncesi açıldı (DBI).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -585,10 +596,10 @@
   "tur": "cumhuriyet",
   "bolge": "italya",
   "f": "1100-01-01",
-  "t": "1532-09-01",
+  "t": "1532-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "ay"
+   "t": "yil"
   },
   "baskent": "Ancona",
   "etkin_bolge": "Marche",
@@ -602,10 +613,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Ancona' (https://www.treccani.it/enciclopedia/ancona/): Venedik ile 1150 onurlu barış; Barbarossa kuşatmasını (1167) ve Christian von Mainz kuşatmasını (1174) püskürttü; 1348 Malatesta işgali, 1355 Albornoz; «La libertà comunale di A. cessò nel 1532, allorché con Clemente VII entrò sotto la sovranità diretta del papato»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç yaklaşık; bitiş Eylül 1532.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç yaklaşık; bitiş Eylül 1532. [Tur2: taslak t degeri: 1532-09-01] [Tur2] t=1532 okundu (Eylül ayı/gün okunmadı). f=1100 desteklenmedi (kaynakta 12. yy ortası bağımsız).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -637,10 +648,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Pavia' (https://www.treccani.it/enciclopedia/pavia/): «nel 12° sec. si ebbero i primi consoli»; «costretta a sottomettersi allo Stato visconteo milanese nel 1359»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler yaklaşık. [Tur2] t=1359 okundu (yıl). f=1100: Treccani yalnız '12. yy'da ilk konsüller' der; 1100 teyitsiz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -670,10 +681,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Cremona' (https://www.treccani.it/enciclopedia/cremona/): «nel 1098 si costituì in Comune. Nel 1167 aderì alla lega delle città lombarde»; 1249'da Lombardiya ve Piyemonte'de bir signoria merkezi; Benevento (1266) yenilgisi sonrası Cavalcabò."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler yaklaşık. [Tur2] f=1098 okundu. t=1334 (Visconti) okunmadı; Treccani 1249 signoria (Oberto Pallavicino anılmaz) ve 1266 sonrası Cavalcabò dönemini verir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -686,7 +697,7 @@
   "tur": "sehir-devleti",
   "bolge": "italya",
   "f": "1100-01-01",
-  "t": "1335-01-01",
+  "t": "1303-01-01",
   "kesinlik": {
    "f": "onyil",
    "t": "yil"
@@ -703,10 +714,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Parma' (https://www.treccani.it/enciclopedia/parma/): «la pace fu stipulata (1149) non dal vescovo ma dai consoli di Parma»; Lombard ligi (1167), Legnano; 1254-1259 Ghiberto da Gente signoria; 1298 popolarlar; «con Giberto da Correggio si affermò il potere signorile (1303)»; 1310 imparatorluk vikarlığı; 1316 Visconti; 1322 Rossi; Visconti hâkimiyeti 1346."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler yaklaşık. [Tur2: taslak t degeri: 1335-01-01] [Tur2] f=1100 desteklenmedi: kaynakta konsüllerin 1149 barışı; komünün kuruluşu belirsiz. t=1303 (Correggio signoria) komün sona ermesi olarak seçildi; atlas 1335 taslak değeri Visconti/Della Scala dönemi karışımı, 1346 Luchino ile Visconti. Çok sayıda signoria geçişi.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -718,10 +729,10 @@
   "ad": "Piacenza Komünü",
   "tur": "sehir-devleti",
   "bolge": "italya",
-  "f": "1126-01-01",
+  "f": "1090-01-01",
   "t": "1313-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Piacenza",
@@ -736,10 +747,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Piacenza' (https://www.treccani.it/enciclopedia/piacenza/): «Nel 1090 dall'accordo dei nobili col popolo nacque il comune piacentino»; Barbarossa 1161; Landi (Guelf) ve Scotti (Gibelin) mücadelesi; Visconti Azzone ile doğrudan signoria (1335); 1418 Filippo Maria."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler yaklaşık. [Tur2: taslak f degeri: 1126-01-01] [Tur2] Taslak f=1126 yerine Treccani 1090. t=1313 (Treccani'de yok) yerine Visconti signoriası 1335; Scotti/Landi signoria ara dönemleri okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -771,10 +782,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Modena' (https://www.treccani.it/enciclopedia/modena/): piskoposluk yargı iddialarının sona ermesi (1227); «finì con lo sfociare nella signoria, affidata nel 1288 agli Estensi»; 1452'de Borso d'Este ile dukalık."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler yaklaşık. [Tur2] t=1288 yıl okundu (Obizzo II d'Este). f=1135 desteklenmedi.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -804,10 +815,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Perugia' (https://www.treccani.it/enciclopedia/perugia/): «Ottenne (1186) da Enrico VI imperatore la conferma del comune e del possesso del territorio»; Assisi (1194), papalık tanıması 1198; guelf-ghibelin mücadelesi 1393'e kadar, Biordo Michelotti ile signoria; Gian Galeazzo Visconti (1400), Ladislao (1408-14), Braccio (1416-24); «La signoria dei Baglioni terminò nel 1540, quando Paolo III iniziò la costruzione della rocca Paolina»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler yaklaşık. [Tur2] f=1139 desteklenmedi (komün belgesi 1186 imparatorluk onayı). Komün 1393'ten sonra signoriayla kesintiye uğradı; atlas t=1540 ile 1393-1540 arası signoria/yabancı hâkimiyet içeren bir polity gibi: ayrıştırma gerekir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -837,10 +848,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Asti' (https://www.treccani.it/enciclopedia/asti/): «ottenne l'autorità comitale nel 1094 per concessione dell'imperatore Enrico IV. Federico Barbarossa riconobbe nel 1159 l'autonomia del Comune»; 14. yy'da çekişmeler signoria'ya yol açtı: Monferrato markileri, Visconti."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler yaklaşık. [Tur2] f=1095 ~ 1094 (komital otorite). t=1387 okunmadı (Treccani yalnız '14. yy'da signoria').",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -870,10 +881,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Vercelli' (https://www.treccani.it/enciclopedia/vercelli/): 10. yy'da piskoposlar Arduino d'Ivrea ile mücadele; komün Lombard ligi yanında Barbarossa'ya karşı; «con Azzone Visconti ebbe termine nel 1335 il Comune indipendente»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler yaklaşık. [Tur2] t=1335 okundu. f=1141 desteklenmedi (kaynakta komünün kuruluş yılı yok).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -886,7 +897,7 @@
   "tur": "sehir-devleti",
   "bolge": "italya",
   "f": "1168-01-01",
-  "t": "1347-01-01",
+  "t": "1348-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -905,10 +916,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Alessandria' (https://www.treccani.it/enciclopedia/alessandria/): Barbarossa+Guglielmo (1174-75) kuşatma, Montebello uzlaşması sonrası kendi kaderine bırakıldı, Monferrato markisinden kaçmak için İmparatorluğa bağlandı (1183); «Fu comune libero, dal 1198 fino al 1348, quando fu presa dai Visconti»; 1707'de Savoia."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş 1168 (belgeli).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş 1168 (belgeli). [Tur2: taslak t degeri: 1347-01-01] [Tur2] Treccani: serbest komün 1198-1348; atlas taslak f=1168 (Lombard ligi tarafından kuruluş) bu turda okunmadı, t=1347 yerine 1348 (Treccani). 1183 Nüfuz: İmparatorluğa teslim - bağımsızlık düzeyi tartışmalı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -921,7 +932,7 @@
   "tur": "sehir-devleti",
   "bolge": "italya",
   "f": "1097-01-01",
-  "t": "1277-01-01",
+  "t": "1260-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -938,10 +949,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Milano' (https://www.treccani.it/enciclopedia/milano/): «portarono all'istituzione del Comune di Milano, un processo che si può credere concluso nel 1097»; Lodi (1107-11), Como (1127), Barbarossa 1155/58/62; Legnano 1176; Costanza (1183) ile konsüllük hukuken tanındı; 1198 commune populi, 1205 podestà; «Dal 1260 al 1277, Martino della Torre, suo fratello Filippo e Raimondo della Torre ... fecero di M. una signoria popolare guelfa»; Desio zaferi 1277."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas milano-dukaligi f=1097 (komün) – dük 1395; ayır.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas milano-dukaligi f=1097 (komün) – dük 1395; ayır. [Tur2: taslak t degeri: 1277-01-01] [Tur2] Atlas künyesi milano-dukaligi f=1097 aslında KOMÜN: komün 1097-1260; Della Torre signoria 1260-1277 (yeni kayıt); Visconti signoria 1277-1395; dukalık 11 Mayıs 1395 (Gian Galeazzo). Komün t: Treccani Della Torre signoriasını 1260'tan sayar, taslak 1277 hem Torriani'yi hem Visconti başlangıcını karıştırıyor.",
   "esleme": {
    "durum": "ardil-var",
    "mevcut_id": "milano-dukaligi",
@@ -954,10 +965,10 @@
   "tur": "signoria",
   "bolge": "italya",
   "f": "1277-01-01",
-  "t": "1395-01-01",
+  "t": "1395-05-11",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "gun"
   },
   "baskent": "Milano",
   "etkin_bolge": "Lombardiya",
@@ -974,10 +985,12 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Milano' (https://www.treccani.it/enciclopedia/milano/): «Dal 1260 al 1277 [Della Torre] ... essa fu sostituita (vittoria di Desio, 1277), con Ottone Visconti arcivescovo di Como [sic; Milano], dalla signoria nobiliare ghibellina viscontea. Con i Visconti (1278-1447) ...»; «L'11 maggio 1395 Gian Galeazzo ottenne il titolo di duca di M.».",
+   "T. Danelli, 'Visconti, Ottone', Dizionario Biografico degli Italiani, vol. 99 (2020) (https://www.treccani.it/enciclopedia/ottone-visconti_(Dizionario-Biografico)/): Della Torre ailesi 15 yıl (1277'ye kadar) arşidük Ottone'nın Milano'ya girişini engelledi.",
+   "Treccani, Enciclopedia on line, 'Visconti, Matteo I' (https://www.treccani.it/enciclopedia/matteo-i-visconti/): Matteo 1287'de capitano del popolo; 1311'de imparatorluk vikarlığı."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Ayrıntı: Desio savaşı Ocak 1277; 1395 Wenzel diploması.",
+  "dogrulama": "okundu",
+  "ic_not": "Ayrıntı: Desio savaşı Ocak 1277; 1395 Wenzel diploması. [Tur2: taslak t degeri: 1395-01-01] [Tur2] f: Treccani 1277 (Desio) ile 1278 (Visconti 1278-1447) iki ifade; signoria hukukî olarak Matteo I ile 1287/1311 de sayılabilir; 1277 (Ottone) seçildi, alternatifler yazıldı. t=1395-05-11 dük unvanı (gün Treccani'de okundu).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1007,10 +1020,10 @@
   "ardil": [],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Waley/Dean, The Italian City-Republics (4. bs. 2010); Dictionary of the Middle Ages"
+   "Treccani, Enciclopedia on line, 'Firenze' (https://www.treccani.it/enciclopedia/firenze/): «a Matilde di Canossa (m. 1115) la città dovette il primo riconoscimento dell'autonomia comunale»; «i primi consoli risalgono al 1138»; San Ginesio ligi (1197)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas uyumlu.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas uyumlu. [Tur2] f=1115: Matilde'nin ölümü komün özerkliğinin ilk tanınması (Treccani); ilk konsüllerin yılı 1138 -> iki alternatif, 1115 komün öncesi hazırlık. t=1532-05-01 bu turda okunmadı (Treccani yalnız Medici dönemi akışını verir).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "floransa",
@@ -1038,15 +1051,51 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Oxford Dictionary of Byzantium (1991); Dictionary of the Middle Ages (Strayer 1982-89)",
-   "ADAY (okunmadi): Wickham, Early Medieval Italy (1981); Cambridge Medieval History"
+   "Treccani, Enciclopedia on line, 'Bressanone' (https://www.treccani.it/enciclopedia/bressanone/): 901'de Ludwig çocuk tarafından Säben piskoposuna verildi, piskoposlar 992'de yerleşti; «Sede dell'omonimo principato vescovile dal 1027, ne seguì le sorti sino alla sua secolarizzazione nel Tirolo austriaco (1803)»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bolge: italya/orta-avrupa sınır.",
+  "dogrulama": "okundu",
+  "ic_not": "Bolge: italya/orta-avrupa sınır. [Tur2] f=1027 ve t=1803 yıl düzeyinde okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": ""
+  }
+ },
+ {
+  "id": "della-torre-signoria",
+  "ad": "Della Torre (Torriani) Signoria'sı (Milano)",
+  "ad_yerel": "Signoria dei Della Torre",
+  "tur": "signoria",
+  "bolge": "italya",
+  "f": "1260-01-01",
+  "t": "1277-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Milano",
+  "etkin_bolge": "Milano ve çevresi, Lombardiya",
+  "sehirler": [
+   "Milano"
+  ],
+  "ozet": "Martino della Torre'nin 1260'ta başlattığı Guelf halk signoriası; Desio zaferiyle (1277) yerini Ottone Visconti'nin soylu Gibelin signoriasına bıraktı.",
+  "oncul": [
+   "milano-komunu"
+  ],
+  "ardil": [
+   "visconti-signoria"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Treccani, Enciclopedia on line, 'Milano' (https://www.treccani.it/enciclopedia/milano/): «Dal 1260 al 1277, Martino della Torre, suo fratello Filippo e Raimondo della Torre vescovo di Como, fecero di M. una signoria popolare guelfa»; Desio zaferi 1277.",
+   "T. Danelli, 'Visconti, Ottone', DBI vol. 99 (2020): Della Torre ailesi Ottone'nın şehre girişini 15 yıl boyunca engelledi."
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Torriani'nin Milano'daki iktidar başlangıcı bazı yayınlarda 1240'lara indirilir (bu turda okunmadı); Treccani 1260'ı verir.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlasta milano-dukaligi f=1097 komün+Torriani+Visconti+dukalık karışımı"
   }
  }
 ]
