@@ -352,6 +352,24 @@
    "neden": "ad"
   },
   {
+   "ad": "Chalkis",
+   "atlas": "Eğriboz",
+   "km": 0.26,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kanauj",
+   "atlas": "Kannauc",
+   "km": 0.46,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kerek",
+   "atlas": "Kerak",
+   "km": 0.35,
+   "neden": "3km"
+  },
+  {
    "ad": "Mısır",
    "atlas": "(parti içi)",
    "km": 0,
@@ -398,11 +416,11 @@
   "tek_kaynak": 55,
   "celiski": 20,
   "ikinci_tanik_yok": 18,
-  "bolge_adi": 34,
+  "bolge_adi": 38,
   "?": 87,
-  "cozulemedi": 26
+  "cozulemedi": 36
  },
- "yazilan": 179,
+ "yazilan": 180,
  "haric": [
   {
    "ad": "Lade",
@@ -542,6 +560,90 @@
    "lon": 16.855,
    "dosya": "parti_95_sonuc.json",
    "not": "BAĞIMSIZLIK SINIRLI: GeoNames/DAI aynı alttan; TGN kendi (yuvarlak) koordinatını taşıyor, birebir kopya değil ama GNS kökenli olabilir."
+  },
+  {
+   "ad": "Mukaçevo",
+   "lat": 48.44,
+   "lon": 22.72,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Karpat-ötesi (Zakarpattia) bağlamıyla uyumlu."
+  },
+  {
+   "ad": "Lauffen am Neckar",
+   "lat": 49.0739,
+   "lon": 9.1461,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Ad tektir (Staufer Neckar kenti)."
+  },
+  {
+   "ad": "Thorn",
+   "lat": 53.015,
+   "lon": 18.59,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Thorn = Toruń; bağlam (Vistula, Kulm, Elbing, Balke 1231) Toruń ile uyumlu; GeoNames \"Thorn 51.16,5.84\" (Hollanda) bölge dışı elendi."
+  },
+  {
+   "ad": "Altenburg",
+   "lat": 50.9865,
+   "lon": 12.4356,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Pleißen Reichsland merkezi Altenburg (Türingiya); Aşağı Avusturya Altenburg 48.65,15.59 bağlam dışı elendi."
+  },
+  {
+   "ad": "Zwickau",
+   "lat": 50.73,
+   "lon": 12.49,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Pleißen Reichsland kenti Zwickau; Cvikov (Çekya) elendi."
+  },
+  {
+   "ad": "Alessandria",
+   "lat": 44.908,
+   "lon": 8.611,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Monferrato Markgrafı VII. Guglielmo bağlamı (Piemonte) Alessandria (AL) ile uyumlu; Mısır İskenderiyesi ve Calabria elendi."
+  },
+  {
+   "ad": "Bianjing",
+   "lat": 34.7833,
+   "lon": 114.3333,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Bianjing = Kaifeng (Jin 1214 başkenti); bu kimlik TGN kaydında doğrulanmadı, alan bilgisi — TDV/Kaifeng maddesiyle teyit edilmeli."
+  },
+  {
+   "ad": "Ponnani",
+   "lat": 10.767,
+   "lon": 75.9126,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik: Perumpadappu/Kochi hanedanının Ponnani'ye taşınması bağlamı Kerala ile uyumlu."
+  },
+  {
+   "ad": "Malazgirt",
+   "lat": 39.1465,
+   "lon": 42.5354,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Savaş alanı kasabanın çevresidir (savaş yeri kesin değil); koordinat Malazgirt ilçe merkezidir."
+  },
+  {
+   "ad": "Uşnu",
+   "lat": 37.045,
+   "lon": 45.09,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. Kimlik (Uşnu = Oshnavieh) TDV başlığıyla önceki turda teyit edilmemişti (alias_teyit:false); bölge (Azerbaycan/Merâga çevresi) uyumlu."
+  },
+  {
+   "ad": "Hârim",
+   "lat": 36.51,
+   "lon": 36.21,
+   "dosya": "parti_96_sonuc.json",
+   "not": "BAĞIMSIZLIK SINIRLI: TGN, GeoNames ve DAI büyük ölçüde NGA/GNS tabanını paylaşır; koordinatlar birbirine çok yakın, tek köken şüphesi var. İki kayıt DAI içinde; ikinci GeoNames ile birebir. Kimlik: Nûreddin Mahmud 1164 Hârim Haçlı kalesi = Qal'at Harim; çevre uyumlu."
+  },
+  {
+   "ad": "Katâi",
+   "lat": 30.0288,
+   "lon": 31.2496,
+   "dosya": "parti_96_sonuc.json",
+   "not": "Katâi için doğrudan koordinat kaydı bulunamadı; vekil (hesap). Katâi'nin yeri (Fustat'ın kuzeydoğusu, Camii İbn Tolun) bilinen konumdur ama tanıklar yerleşimi değil komşuyu gösterir — yaklaşık. İkinci tanık komşu Fustat olduğundan bağımsızlık sınırlı."
   }
  ]
 }

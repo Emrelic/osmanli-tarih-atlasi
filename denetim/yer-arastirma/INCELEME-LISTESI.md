@@ -1,6 +1,6 @@
 # YER-TANIMA — insan inceleme kontrol listesi (21 Ekim 2026)
 
-Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARAC-YER-INCELEME-1021.py`. Toplam 179 kayıt: 102 yerleşim, 77 bölge temsilcisi.
+Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARAC-YER-INCELEME-1021.py`. Toplam 180 kayıt: 103 yerleşim, 77 bölge temsilcisi.
 
 ## Nasıl bakılır
 
@@ -13,7 +13,7 @@ Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARA
 
 - BÖLGE: modern/tek merkez; tarihî sınır değil: 77
 - Natural Earth son çare (çift tanık değil): 37
-- konum yaklaşık: 20
+- konum yaklaşık: 21
 - DAI/GeoNames aynı koordinat olabilir: 8
 - Pleiades türü yerleşim dışı olabilir: 2
 - alias TDV ile teyitli (gövde okundu): 1
@@ -194,6 +194,7 @@ Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARA
 | Fihl (Pella) | harabe | 32.45, 35.614 | ortadogu | ÇİFT TANIK: TDV Islam Ansiklopedisi https://islamansiklopedisi.org.tr/arama/?q=fihl (None, None) · Pleiades https://pleiades.stoa.org/places/678326 (32.4495013, 35.6149158) · iDAI.gazetteer https://gazetteer.dainst.org/place/2298620 (32.45047, 35.61271) | — |
 | Celûlâ (Jalula) | kasaba | 34.2667, 45.1667 | ortadogu | ÇİFT TANIK: Pleiades https://pleiades.stoa.org/places/894013 (34.186388, 45.118333) · Getty TGN http://vocab.getty.edu/tgn/6002825 (34.2667, 45.1667) | konum yaklaşık |
 | Ebher (Abhar) | sehir | 36.1468, 49.218 | ortadogu | ÇİFT TANIK: GeoNames https://www.geonames.org/145034 (36.1468, 49.218) · Getty TGN http://vocab.getty.edu/tgn/1078953 (36.0833, 49.3) · iDAI.gazetteer https://gazetteer.dainst.org/place/2750098 (36.146667, 49.218056) | konum yaklaşık; DAI/GeoNames aynı koordinat olabilir |
+| Banyas | kale | 33.2475, 35.6935 | ortadogu | ÇİFT TANIK: Pleiades 678324 Paneas https://pleiades.stoa.org/places/678324 (33.2475255, 35.6934605) · Getty TGN (vocab.getty.edu/sparql.json, luc:term sorgusu) http://vocab.getty.edu/tgn/7016212 (33.2333, 35.7) | konum yaklaşık |
 | Yemen | bolge | 15.935, 47.542 | ortadogu | TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson) Yemen (15.935, 47.542) | BÖLGE: modern/tek merkez; tarihî sınır değil; Natural Earth son çare (çift tanık değil) |
 | Irak | bolge | 33.04, 43.745 | ortadogu | TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson) Iraq (33.04, 43.745) | BÖLGE: modern/tek merkez; tarihî sınır değil; Natural Earth son çare (çift tanık değil) |
 | Tihâme | bolge | 18.384, 41.746 | ortadogu | TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson) Tihāmah (18.384, 41.746) | BÖLGE: modern/tek merkez; tarihî sınır değil; Natural Earth son çare (çift tanık değil) |

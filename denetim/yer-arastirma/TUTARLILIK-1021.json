@@ -2030,6 +2030,18 @@
   "dosya": "yerlesimler_once1281_yt_ortadogu.js"
  },
  {
+  "ad": "Banyas",
+  "kronoloji_adi": "Banyas",
+  "lat": 33.2475,
+  "lon": 35.6935,
+  "devlet_bolgeleri": [
+   "mezopotamya",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
   "ad": "Yemen",
   "kronoloji_adi": "Yemen",
   "lat": 15.935,
