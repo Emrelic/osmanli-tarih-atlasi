@@ -243,6 +243,48 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS NOKTASI BÖLGE TEMSİLCİSİDİR (47.498, 19.040; Buda/Pest Tuna kıyısı). SAF AQUINCUM (Óbuda lejyon kampı ve kent) ~7 km kuzeyde (Óbuda ~47.56-47.57, 19.04; kendi hesabım) => >3 km kuralı gereği saf Aquincum bu kayda yazılmaz, AYRI KAYIT ÖNERİLİR: 'Aquincum (Óbuda)' (47.5625, 19.04 yakını), ilk yazılı tanık Ptolemaios Geogr. 2.15 (tp-online.ku.de arama özeti: Ακούϊγκον; sayfa 403, AÇILAMADI), lejyon kampı 89 (BHM Aquincum Müzesi), municipium ~124, colonia 194. Bu kayıt, ≤3 km içindeki yerleşimlerden (Víziváros Roma kalesi ~MS 49, ~1 km; Gellért-hegyi Eravisci oppidumu MÖ 1. yy, ~1,4 km; Contra-Aquincum/Pest) başlatıldı; hesaplar benim, kaynak değil. Dolayısıyla ilk.nicelik 'arkeolojik' (bu noktaya ait yazılı tanık bulunamadı); Treccani EI: 'Keltler Ó-Buda yerinde Akink adlı kenti kurdu' (tarihsiz) — kur yazılmadı. Buda KALESİ 1241-42 sonrasıdır (IV. Béla; TDV+Treccani çift teyit) ve bu nokta o kaleden >1000 yıl önce başlar; Ofen/Pest adları: Treccani EI (fırın/Ofen, Slavca Pest, Macarlar öncesi). KAYNAKLAR: BHM Aquincum Müzesi 'A short history of Aquincum' (kurumsal arkeoloji sitesi, hakemli değil); Munteán 2021 Hungarian Cultural Studies 14 (hakemli e-dergi; ikincil); Treccani EAA 1973 + EI 1930 (Aquincum madde slug'ı EI'de açılmadı); TDV Macaristan/Budin/Bizans/Avarlar. AÇILAMAYAN: Pleiades yer sayfası (arama alakasız), tp-online 403, Livius Singidunum/Belgrade zaman aşımı, Brill/Pauly, Budapest Régiségei tam metin, Acta Arch. Hung. 2021 PDF boş döndü. Unvan boşluk: 455-567 ve 796-900 __BOSLUK__. 1000 dikişi: atlas macaristan 1000-01-01 ile zincir sonu macar-prensligi; künye geçişi olayı yazıldı."
  },
  {
+  "id": "bahcesaray",
+  "ad": "Bahçesaray",
+  "atlas_ad": "Bahçesaray",
+  "lat": 44.753,
+  "lon": 33.861,
+  "kat1900": 4,
+  "adlar": [
+   "Bahçesaray",
+   "Bakhchysarai (Бахчисарай)"
+  ],
+  "ilk": {
+   "t": "1503-01-01",
+   "gun": "1503",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Bahçesaray', https://islamansiklopedisi.org.tr/bahcesaray (curl ile okundu)",
+   "tanik": "1503’te şimdi Han Sarayı adıyla bilinen sarayı yaptırarak Bahçesaray’ın temelini attı",
+   "ic_not": "TDV: I. Mengli Giray Han Çürüksu kıyısına 1503'te Han Sarayı'nı yaptırarak 'Bahçesaray’ın temelini attı'; XVI. yy'a kadar ormanlık, Altın Orda valileri/ilk Kırım hanları yazlık gelirdi (yerleşim yok). Yakındaki Kırk Yer / Eski Yurt ayrı yerleşimlerdir (≤3 km? Kırk Yer 'hemen güneyinde' — mükerrer taraması yapılmadı)."
+  },
+  "kur": {
+   "t": "1503-01-01",
+   "gun": "1503",
+   "kesinlik": "yil",
+   "kaynak": "TDV 'Bahçesaray', https://islamansiklopedisi.org.tr/bahcesaray",
+   "tanik": "1503’te şimdi Han Sarayı adıyla bilinen sarayı yaptırarak Bahçesaray’ın temelini attı"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1503-01-01",
+    "gun": "1503",
+    "k": "kurulus",
+    "b": "I. Mengli Giray Han Han Sarayı'nı yaptırarak Bahçesaray'ın temelini atar.",
+    "kaynak": "https://islamansiklopedisi.org.tr/bahcesaray",
+    "tanik": "1503’te şimdi Han Sarayı adıyla bilinen sarayı yaptırarak Bahçesaray’ın temelini attı"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK (şehir 1503'te kuruluyor; atlas da 1503'te başlıyor). ATLAS DÜZELTME ÖNERİSİ: atlasın ilk sahip günü 1503-01-01 'osmanli' görünüyor (atlas_ilk_gunleri çıktısı); 1503'te Bahçesaray Kırım Hanlığı topraklarındadır (TDV: I. Mengli Giray'ın yapısı; Osmanlı himayesi 1475'ten ama toprak hanlığındır) — ilk dönemin d: 'kirim' olması gerekir, 1503-1774 arası kayıt boş (atlas s: 1774'te başlıyor). Kırk Yer/Salaçık ayrı yerleşimler."
+ },
+ {
   "id": "barselona",
   "ad": "Barselona",
   "atlas_ad": "Barselona",
@@ -1835,6 +1877,125 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ÜRETİM: Kayıt Roma castrum kuruluşundan (106) başlıyor; castrum 'bugünkü kalenin yerinde' (turism.apulum.ro) ⇒ atlas noktası (46.0678, 23.58) ile <1 km: antik Apulum bu noktaya yazıldı. Sivil Apulum (canabae/Colonia Aurelia Apulensis, Partoş) ve Dakya dönemi AYRI/yakın kayıt gerektirebilir; bu oturumda mesafeleri kaynakta ölçülmedi. PTOLEMAIOS 'Apoulon': Wikipedia modern tanımlama olarak Craiva/Piatra Craivii (~20 km kuzey) der (ikincil, doğrulanmadı) ⇒ Dakya döneminin Apulon'u bu noktaya yazılmadı; önerilen ayrı kayıt: 'Piatra Craivii (Apulon?)'. Ptolemaios'un kendi metni bu oturumda açılamadı (penelope Thayer sayfası boş). MKL: 'Ter-én Kr. e. 2-1. évezredi, kora vaskori erődítményt tártak föl' — yeri ayrıntısız olduğu için ark yazılmadı. DAKYA SAHİPLİĞİ: künye dakya (-0081..0106) bu nokta için kaynaklı tanık bulunamadığı için yazılmadı (ilk.t = 106). ARALIK: 275→896 __BILINMIYOR__ (bkz. sahip[1]); gepid/avar/birinci-bulgar künyeleri bölge düzeyinde TDV tanıklığı olduğu için KULLANILMADI. ATLAS 1281: atlas macaristan 1281-01-01 ile uyumlu; öneri yok. ŞEHİR İLK ANILIŞI (Roma sonrası): MKL 'Gyulafehérvár' adlarını sayar (Bălgrad, Alba Iulia, Weissenburg) ve ilk Orta Çağ tarihi olarak '1002-ig a Gyulák / 1009 piskoposluk' verir; 1009 piskoposluğu MKL'ye göre kesin (Wikipedia/Explore Carpathia ikincil). BULGAR İZİ: MKL 'az első dunai bolgár kagánok idején ismét benépesült' tarihsiz; Bălgrad adının kaynağı (Bulgar/Slav 'beyaz kale') ayrıca doğrulanmadı. Wikipedia/Explore Carpathia tek dayanak olmadığı için hiçbir tarih yalnızca onlardan alınmadı. Kaynak notu: MKL (Magyar Katolikus Lexikon, akademik Macar ansiklopedisi) açıldı; Kristó 'Korai magyar történeti lexikon' açılamadı."
  },
  {
+  "id": "kamanice",
+  "ad": "Kamaniçe",
+  "atlas_ad": "Kamaniçe",
+  "lat": 48.674,
+  "lon": 26.574,
+  "kat1900": 2,
+  "adlar": [
+   "Kamaniçe",
+   "Kamieniec Podolski",
+   "Kam'janec'-Podil's'kyj (Кам'янець-Подільський)",
+   "Kamenets-Podolskiy (Каменец-Подольский)"
+  ],
+  "ilk": {
+   "t": "1100-01-01",
+   "gun": "11. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Dariusz Kołodziejczyk, 'Kamaniçe', TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kamanice (curl ile okundu)",
+   "tanik": "Tarihi XI. yüzyıla kadar iner.",
+   "ic_not": "TDV 'Tarihi XI. yüzyıla kadar iner' der: yerleşimin/anılışın neyi tarihlediği belirsiz (kuruluş mu, anılış mı, arkeolojik mi). Aralık XI. yy → güvenli uç 1100-01-01. ÇELİŞKİ: ESBE (Каменец-Подольск, V. R—v): 'Достоверные сведения о К.-Подольске восходят лишь к началу XIV в.' (Gedimin ele geçirir). Popüler/ikincil kaynaklar yazılı ilk belge olarak Yuri Koriatoviç'in Ocak 1374 Magdeburg hakkı belgesini gösterir (akademik teyit açılamadı: Khoptiar, Repertorium Podolskie makalesi PDF indirilemedi). Kaleyle ilgili XI-XII. yy yapı katmanları ikincil kaynaklarda geçer (teyitsiz). TDV esas alındı, çelişki beyan edildi; çift teyit YOK."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1100-01-01",
+    "t": "1281-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı (TDV: 'Tarihi XI. yüzyıla kadar iner'; ESBE: güvenilir bilgi XIV. yy başından)",
+    "ic_not": "Şehrin 1100-1281 arasında var olup olmadığı ve sahibi kaynakla gösterilemedi (kiev-rusu 882-1240 / galicya-volhinya 1199-1340 / altinorda adaydır ama TDV de ESBE de sahip vermez). Atlas 'polonya-erken' diyor: TDV 'XIV. yüzyılda Litvanyalılar tarafından alınan Kamaniçe 1430’da Polonya Krallığı’na dahil edildi' — Polonya 1281'de ÇELİŞİYOR."
+   }
+  ],
+  "dikis_beyan": "Atlas Kamaniçe'yi 1281-01-01'de 'polonya-erken' açıyor; TDV Kamaniçe: 'XIV. yüzyılda Litvanyalılar tarafından alınan Kamaniçe 1430’da Polonya Krallığı’na dahil edildi'; ESBE: güvenilir bilgi XIV. yy başından (Gedimin). 1281 Polonya iddiası için kaynak BULUNAMADI — atlas başlangıç sahibi çürük olabilir.",
+  "olay": [
+   {
+    "t": "1100-01-01",
+    "gun": "11. yüzyıl",
+    "k": "diger",
+    "b": "TDV: Kamaniçe'nin tarihi XI. yüzyıla kadar iner (tür belirsiz).",
+    "kaynak": "https://islamansiklopedisi.org.tr/kamanice",
+    "tanik": "Tarihi XI. yüzyıla kadar iner."
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas 1281-1569 'polonya-erken' diyor; TDV Polonya'ya katılışı 1430 verir (öncesi Litvanya, XIV. yy). Podolya 1362 Mavi Sular sonrası Litvanya'ya geçer, öncesi Altın Orda (ikincil, Vikipedi-türü kaynak — kullanılmadı, tek dayanak olamaz). Kaynak sırası: TDV, ESBE okundu; İSAM/TTK/DergiPark ve Ukrayna akademik kaynakları (Encyclopedia of Ukraine siteyi açmadı) bu oturumda yetersiz."
+ },
+ {
+  "id": "kasimov",
+  "ad": "Kasimov",
+  "atlas_ad": "Kasimov",
+  "lat": 54.945,
+  "lon": 41.393,
+  "kat1900": 3,
+  "adlar": [
+   "Городец Мещерский (Gorodets Meşçerskiy)",
+   "Meşçerskiy Gorodets",
+   "Han-Kirman",
+   "Kāsım",
+   "Касимов (Kasimov)"
+  ],
+  "ilk": {
+   "t": "1152-01-01",
+   "gun": "1152",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "ЭСБЕ 'Касимов, город' (А. Ф. Селиванов), https://ru.wikisource.org/wiki/ЭСБЕ/Касимов,_город (curl ile okundu)",
+   "tanik": "К. основан в 1152 г. вел. кн. суздальским Юрием Долгоруким",
+   "ic_not": "Kuruluş 1152 yalnız ESBE'de (Selivanov) ve Tatişçev geleneğine dayanır; vakayinamede 1152 kuruluşu için yazılı tanık YOK, kaynakta açık değil. ESBE: ilk adı Gorodets / Meşçerskiy Gorodets; 1376'da Moğollarca yıkılır, 600 sajen (~1,3 km) yukarıda yeniden kurulur ('Новый Низовой город'); 1452'de Tsarevich Kasım'a verilince Kasımov adı. TDV Kāsım Hanlığı (Taşağıl): Rusça kaynaklarda şehir Meşçerskiy/Gorodets, hanlık 1445[?]/1452-56. Yer 3 km içinde (yeni konum ~1,3 km). Bağımsız ikinci akademik tanık BULUNAMADI (çift teyit yok); tarih UYARISI: 1152 gelenek, ilk güvenilir yazılı anılış bu oturumda açılamadı (ESBE 1376 yıkımı)."
+  },
+  "kur": {
+   "t": "1152-01-01",
+   "gun": "1152",
+   "kesinlik": "yil",
+   "kaynak": "ЭСБЕ 'Касимов, город', https://ru.wikisource.org/wiki/ЭСБЕ/Касимов,_город",
+   "tanik": "К. основан в 1152 г. вел. кн. суздальским Юрием Долгоруким"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1152-01-01",
+    "t": "1157-01-01",
+    "d": "kiev-rusu",
+    "kesinlik": "yil",
+    "kaynak": "ЭСБЕ 'Касимов, город' (kurucu: Suzdal Büyük Knezi Yuri Dolgoruki); ЭСБЕ 'Андрей Юрьевич Боголюбский' (Yuri 1157'de ölür)",
+    "ic_not": "Kurucu Yuri Dolgoruki'nin Suzdal toprakları — Kiev Rus'u künyesi parçalanma dönemi knezliklerini kapsar (yaklaşık, beyanlı)."
+   },
+   {
+    "f": "1157-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı (ESBE 1157-1281 arası sahiplik tanığı vermez)",
+    "ic_not": "Şehir VAR (kuruluşu 1152, Aleksandr Nevski'nin ölümü 1263'te Gorodets Meşçerskiy'de — ESBE: 'считается местом смерти', yıl verilmez). Sahip bulunamadı: Murom-Ryazan/Meşçera kenarı; ryazan künyesi (1129-1521) ve vladimir-suzdal (1157-1281) adaydır ama kaynaksız — yaklaşıklık beyansız yazılmaz."
+   }
+  ],
+  "dikis_beyan": "Atlas Kasimov'u 1281-01-01'de 'altinorda', 1325'te 'moskova' açıyor; 1157-1281 sahibi ve 1281 devri için kaynak aranıp BULUNAMADI (ESBE yalnız kuruluş, 1263 Nevski ölümü [yılsız], 1376 yıkım, 1452 Kasım). Altın Orda sahipliği 1281 için doğrulanmadı.",
+  "olay": [
+   {
+    "t": "1152-01-01",
+    "gun": "1152",
+    "k": "kurulus",
+    "b": "Suzdal Büyük Knezi Yuri Dolgoruki Gorodets'i (Meşçerskiy Gorodets) kurar (Tatişçev geleneği).",
+    "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Касимов,_город",
+    "tanik": "К. основан в 1152 г. вел. кн. суздальским Юрием Долгоруким"
+   },
+   {
+    "t": "1157-01-01",
+    "gun": "1157",
+    "k": "diger",
+    "b": "künye geçişi: Kiev Rus'u → (sahip bulunamadı); Yuri Dolgoruki Kiev knezi olarak ölür.",
+    "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Андрей_Юрьевич_Боголюбский",
+    "tanik": "он овладел окончательно Киевом и † киевским князем (в 1157 г.)"
+   }
+  ],
+  "ic_not": "ATLAS UYARISI: atlas 1281-1325 'altinorda', 1325'ten 'moskova' (Gorodets'in Moskova'ya bağlanışı için bu oturumda kaynak açılmadı). TDV Kāsım Hanlığı: Kasım hanları Moskova'ya 'vasal'; hanlık 1445[?]/1452-1456."
+ },
+ {
   "id": "kassa-kosice",
   "ad": "Kassa (Košice)",
   "atlas_ad": "Kassa (Košice)",
@@ -1897,6 +2058,177 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "SONUÇ: İlk anılış 1230 (MKL: 'okl. említi'; sk.wikipedia'nın atıf zinciri: Eğri/Jágerská kapitula'nın Ľubina belgesi, Villa Cassa, Šimon ve Peter'in arazi satışı, 9 hrivna). ÇELİŞKİ (beyan): Treccani, Enciclopedia Italiana (1933) 'Košice' maddesi 'ilk KESİN haber 1249' der; 1230 belgesini anmaz. MKL (belge yılı olarak 1230 veriyor, 'ilk KESİN haber' sınırlaması koymuyor) esas alındı; Treccani 1249 daha geç ve 1230'u dışlamaz. Sahiplik (Macaristan) iki tarihte de aynıdır, zincir etkilenmez; eğer 1230 çürütülürse ilk.t 1249'a iner. İlk anılış kuruluş DEĞİL: Treccani 'Verso la fine del sec. XIII divenne città' (XIII. yy sonu şehir hakkı, Alman kolonizasyonu), MKL geleneği: Géza I (1074-77) döneminde yerleştirilen Saksonlar Eski Kassa'nın yanında yerleşti (gelenek, tarihsiz; kur yazılmadı). Atlas dikişi: macaristan 1281'de sürüyor, düzeltme gerekmiyor. KAYNAK SINIRLARI: Encyclopaedia Beliana 'Košice' maddesi bulunamadı (404/madde yok); DergiPark/TDV'de Kassa şehri maddesi yok (TDV 'kaşa/košice/kaşau/kassa' aramaları: yalnız Kassâb vb.); Magdoško, 'Suburbs of Medieval Košice' (Mesto a dejiny 2023, doi 10.33542/cah2023-2-01) açık erişimli ama Zenodo PDF'i 403 verdi, açılamadı; Lexikon stredovekých miest na Slovensku (HÚ SAV 2010) ve Halaga'nın eserleri yalnız sk.wikipedia dipnotlarından biliniyor, doğrudan açılmadı => 1230 için ikinci bağımsız AKADEMİK kaynak yok (çift teyit değil). Kassa vs Košice adı: Slovak/Macar ad değişimi bu kayıtta adlar'da; atlas adı 'Kassa (Košice)'. 1290 (Jágerský biskup Andrej II Košice'yi Abaúj başdiyakozluğundan muaf etti; civitas terimi) 1281 sonrasıdır, bu kayda yazılmadı."
+ },
+ {
+  "id": "kaunas",
+  "ad": "Kaunas",
+  "atlas_ad": "Kaunas",
+  "lat": 54.897,
+  "lon": 23.886,
+  "kat1900": 2,
+  "adlar": [
+   "Kaunas",
+   "Kovno (Ковно)",
+   "Kowno",
+   "Kawen"
+  ],
+  "ilk": {
+   "t": "1361-01-01",
+   "gun": "1361",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Algirdas Žalnierius, 'Kaunas Castle', Archaeological investigations in independent Lithuania (1990-2010), Vilnius 2012, s. 218-225, https://www.lituanistika.lt/content/50742 (özet, curl ile okundu)",
+   "tanik": "Kaunas castle was first mentioned in written sources in 1361.",
+   "ic_not": "Yazılı ilk anılış KALE: 1361 (ertesi yıl 1362'de Töton Tarikatı yıkar). Aynı özet: yerleşme X-XII. yy'a iner (Žalnierius 2002, Kauno istorijos metraštis 3, s. 7-36, https://www.vdu.lt/cris/entities/publication/2596f7b2-5f3c-4c68-aad9-ff64b23505e2: 'the settlement dates back to the Xth - XIIth century'): ark alanında. Kural: yazılı tanık varsa ilk o; arkeolojik yerleşme atlas 1281'den ÖNCE olduğu için ATLAS UYARISI aşağıda. Kuruluş tarihi yok; Wigand von Marburg (Yeni Prusya Vakayinamesi) birincil metni açılamadı (Vikipedi-türü kaynak Wigand ile Henry of Schöningen'i karıştırıyor, kullanılmadı)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0901-01-01",
+   "gun": "10.-12. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "A. Žalnierius, 'Pirmoji Kauno pilis', Kauno istorijos metraštis 2002, 3, s. 7-36, https://www.vdu.lt/cris/entities/publication/2596f7b2-5f3c-4c68-aad9-ff64b23505e2",
+   "tanik": "the settlement dates back to the Xth - XIIth century"
+  },
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1361-01-01",
+    "gun": "1361",
+    "k": "diger",
+    "b": "Kaunas kalesinin yazılı kaynaklarda ilk anılışı.",
+    "kaynak": "A. Žalnierius, Kaunas Castle (2012), https://www.lituanistika.lt/content/50742",
+    "tanik": "Kaunas castle was first mentioned in written sources in 1361."
+   },
+   {
+    "t": "1362-01-01",
+    "gun": "1362",
+    "k": "yikim",
+    "b": "Kaunas kalesi Töton Tarikatı ordusunca yıkılır.",
+    "kaynak": "A. Žalnierius, Kaunas Castle (2012), https://www.lituanistika.lt/content/50742",
+    "tanik": "During the following year, the Teutonic Order destroyed the castle."
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: ilk.t 1361 atlasın başlangıcından (1281-01-01) sonra. ATLAS UYARISI: atlas Kaunas'ı 1281'de 'litvanya-buyuk-dukalik' (künye 1236+) açıyor; yazılı tanık 1361 (kale), arkeolojik yerleşme X-XII. yy (ark) — 1281 yazılı kaynakla desteklenmiyor. Kaunas kalesinin inşası eski literatürde XIII. yy ikinci yarısı - XIV. yy başı sayılıyordu; Žalnierius (2012) buna karşı: taş kale 1350'lerin sonunda başlamış, XIII. yy ikinci yarısında inşa edilemezdi. Litvanya Büyük Dukalığı'nın Kaunas bölgesinde 1281 hâkimiyetine tanık BULUNAMADI (Visuotinė lietuvių enciklopedija vle.lt Cloudflare engelledi, Encyclopaedia Lituanica açılamadı)."
+ },
+ {
+  "id": "kefe",
+  "ad": "Kefe",
+  "atlas_ad": "Kefe",
+  "lat": 45.032,
+  "lon": 35.382,
+  "kat1900": 3,
+  "adlar": [
+   "Theudosia (Theodosia)",
+   "Caphum",
+   "Kaffa",
+   "Kefe",
+   "Feodosiya (Феодосия)"
+  ],
+  "ilk": {
+   "t": "-0500-01-01",
+   "gun": "MÖ 6. yüzyıl",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "Yücel Öztürk, 'Kefe', TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kefe (curl ile okundu)",
+   "tanik": "bir Milet kolonisi olarak ortaya çıktığı belirtilir",
+   "ic_not": "TDV: 'Kefe’nin kuruluş tarihi hakkında kesin bilgi bulunmamakla beraber buranın milâttan önce VI. yüzyıldan itibaren önem kazandığı, bir Milet kolonisi olarak ortaya çıktığı belirtilir' (kesin değil, 'belirtilir'). Aralık MÖ 600-501 → güvenli uç MÖ 501 = -0500. Demosthenes/Strabon Theodosia'yı bu yerle (Kaffa) aynı sayar (Perseus notu 'Theudosia (Kaffa), an ancient colony of Miletus'). TDV iç çelişki: 'Kepoi, Kapha veya Kafa ismi ilk defa Konstantinos Porfirogennetos’un eserinde geçer (m.ö. IV. yüzyıl)' — Porfirogennetos MS 10. yy'dır, TDV tarihi MÖ yazmış olgu hatası; kullanılmadı. Süreklilik: antik Theodosia ile ortaçağ Kefe arası kesinti/süreklilik kaynakla gösterilmedi (TDV tek şehir sayar). Bkz. ic_not."
+  },
+  "kur": {
+   "t": "-0500-01-01",
+   "gun": "MÖ 6. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV 'Kefe', https://islamansiklopedisi.org.tr/kefe",
+   "tanik": "bir Milet kolonisi olarak ortaya çıktığı belirtilir"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0500-01-01",
+    "t": "-0352-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı (sahip tanığı yok); bağlam: Strabon 7.4.4, https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/7D*.html",
+    "ic_not": "Milet kolonisi polis; Strabon: liman 'in earlier times was a boundary between the countries of the Bosporians and the Taurians' (Bosporos'a bağlı değil, tarihsiz). Ayrı polis künyesi yok; kuruluşundan Leukon dönemine sahip tanığı bulunamadı."
+   },
+   {
+    "f": "-0352-01-01",
+    "t": "0370-01-01",
+    "d": "bosporos-krallik",
+    "kesinlik": "yil",
+    "kaynak": "Demosthenes, Against Leptines 20.33 (Perseus perseus-eng2, https://cts.perseids.org/read/greekLit/tlg0014/tlg020/perseus-eng2/28-34); Strabon 7.4.4-5",
+    "ic_not": "f 'en geç tanıktan': Leukon (Bosporos hükümdarı, saltanat 393-353 Perseus notu) Theudosia'da depo açmıştır → şehir Bosporos Krallığı'ndadır; f = Leukon'un saltanat sonu (MÖ 353 = -0352, güvenli uç). Önceki dönem (boşluk) f'ye uzar, beyanlıdır. t=0370 künye ömründen (bosporos-krallik t 0370); Strabon sonrası (MÖ 1. yy - MS 4. yy) Theodosia/Bosporos bağı için ayrı tanık bu oturumda AÇILMADI — künye ömrü üzerinden BEYANLI yaklaşıklık (Pontus/Roma vassallığı ayrıştırılmadı)."
+   },
+   {
+    "f": "0370-01-01",
+    "t": "1242-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı; TDV 'Kefe': 'Kefe Bizans’a bağlı bir liman durumundaydı' (tarihsiz)",
+    "ic_not": "TDV, 'IV. yüzyıldan itibaren ... Türk devletleri zamanında ... Kefe Bizans’a bağlı bir liman durumundaydı' der ama süre/gün vermez; Bizans künyesi ile süreklilik yazılamaz (Hazar, Kıpçak/Kuman dönemleri ayrışmaz). Sahip aralığı için TDV dışı kaynak (Belleten, Vasiliev, Rus/Ukrayna akademik) bu oturumda açılamadı."
+   },
+   {
+    "f": "1242-01-01",
+    "t": "1266-01-01",
+    "d": "altinorda",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Batu Han', https://islamansiklopedisi.org.tr/batu-han; TDV 'Kefe'",
+    "ic_not": "Batu Han 1242'de yurduna döner, Saray'ı kurar; Kefe, Kerç, Sudak, Azak 'kısa zamanda tekrar eski ticarî canlılıklarını kazandılar' (Altın Orda idaresi). Künye altinorda f=1242-01-01 (TDV 'Altın Orda Hanlığı' 1241-1502)."
+   },
+   {
+    "f": "1266-01-01",
+    "t": "1281-01-01",
+    "d": "kefe-gazaria",
+    "kesinlik": "yil",
+    "kaynak": "TDV 'Kefe', https://islamansiklopedisi.org.tr/kefe",
+    "ic_not": "Cenevizliler Altın Orda'dan yerleşme izniyle 1266 civarı gelir, sonra 'buraya hâkim oldular' (hâkimiyet günü TDV'de yok). Künye kefe-gazaria f=1266 atlasın 1281 'ceneviz' dönemine kesintisiz bağlanır; 1266-1281 arası egemenlik fiilen Altın Orda'da olabilir (TDV tarihlemez)."
+   }
+  ],
+  "dikis_beyan": "Dikiş 'ayrı sahip' değil etiket farkıdır: atlas 'ceneviz' (BOYALAR anahtarı), zincirin son dönemi 'kefe-gazaria' (Ceneviz Gazaria, TDV: Cenevizliler 1266 civarı yerleşir) — aynı polity; devletler.js'te kefe-gazaria künyesinin harita: alanı yok, denetim bu yüzden ayrı sahip sayıyor. 1281-01-01 için ayrı devir olayı YOK (kaynak aranmadı çünkü devir değil). Önerim: künyeye harita:\"ceneviz\" eklenmesi.",
+  "olay": [
+   {
+    "t": "-0500-01-01",
+    "gun": "MÖ 6. yüzyıl",
+    "k": "kurulus",
+    "b": "Theodosia, Milet kolonisi olarak ortaya çıkar (TDV: kesin tarih bilinmiyor).",
+    "kaynak": "https://islamansiklopedisi.org.tr/kefe",
+    "tanik": "bir Milet kolonisi olarak ortaya çıktığı belirtilir"
+   },
+   {
+    "t": "-0352-01-01",
+    "gun": "MÖ 353",
+    "k": "diger",
+    "b": "Bosporos hükümdarı Leukon (saltanat 393-353) Theudosia'da depo açmıştır: şehir en geç bu tarihte Bosporos Krallığı'nda.",
+    "kaynak": "Demosthenes, Against Leptines 20.33 + Perseus notu (https://cts.perseids.org/read/greekLit/tlg0014/tlg020/perseus-eng2/28-34)",
+    "tanik": "he has opened another depot at Theudosia"
+   },
+   {
+    "t": "0370-01-01",
+    "gun": "4. yüzyıl",
+    "k": "diger",
+    "b": "künye geçişi: Bosporos Krallığı → (sahip bulunamadı); IV. yy'dan itibaren Asya'dan gelen Türk yayılması (yalnız yüzyıl hassasiyetinde).",
+    "kaynak": "https://islamansiklopedisi.org.tr/kefe",
+    "tanik": "IV. yüzyıldan itibaren Asya’dan Avrupa istikametinde vuku bulan Türk yayılması"
+   },
+   {
+    "t": "1242-01-01",
+    "gun": "1242",
+    "k": "diger",
+    "b": "künye geçişi: Batu Han Eflak ve Boğdan üzerinden dönüp Cuci ulusunun/Altın Orda'nın merkezini Saray'da kurar; Kefe Altın Orda idaresine girer.",
+    "kaynak": "https://islamansiklopedisi.org.tr/batu-han",
+    "tanik": "Eflak ve Boğdan üzerinden 1242 yılında yurduna döndü"
+   },
+   {
+    "t": "1266-01-01",
+    "gun": "1266 civarı",
+    "k": "kurulus",
+    "b": "Cenevizliler Altın Orda'dan izin alarak Kefe'ye yerleşir (Ceneviz kolonisi başlangıcı).",
+    "kaynak": "https://islamansiklopedisi.org.tr/kefe",
+    "tanik": "Altın Orda’dan yerleşme izni almak suretiyle Kefe’ye gelen Cenevizliler (1266 yılı civarı)"
+   }
+  ],
+  "ic_not": "Atlas 'ceneviz' 1281 (enklav) ile dikiş aynı polity (bkz. dikis_beyan). ATLAS DÜZELTME ÖNERİSİ: atlasın Kefe zinciri 1281 öncesini kapsamıyor; 1281 'Ceneviz' tarihi TDV'ye göre egemenlik Altın Orda'dadır, Cenevizliler yalnız izinli yerleşimcidir (hâkimiyet sonradan) — atlasın 1281 'ceneviz' iddiası künyenin f=1266'sına dayanır, hâkimiyet günü TDV'de yok. TDV iç tutarsızlıkları: Kalka 1239 (gerçek 1223). Antik Theodosia ile Kefe aynı yer (Perseus notu). Rusça akademik kaynak (Rus Biyografi, Yanin vb.) bu yer için açılamadı; Strabon 7.4.4: liman 'in earlier times was a boundary between the countries of the Bosporians and the Taurians'."
  },
  {
   "id": "klis",
@@ -2962,6 +3294,157 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "SONUÇ: Atlas noktası (37.51, 22.379) Tripoliçe kasabasıdır. TDV (M. Kiel): 'Bir şehir olarak Osmanlı döneminde ortaya çıkmış'; ad 900 öncesi Slavcadan; ilk yazılı anılış 1467 (Stefano Magno). 1467 > atlas başlangıcı (1281): ZİNCİR BOŞ bırakıldı, denetimin 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR. ATLAS DÜZELTME ÖNERİSİ: 'Mora (Tripoliçe)' noktasının 1281-1349 Bizans dönemi (ve sonraki mora-despotlugu dönemi) kaynaklı değildir; nokta 1467'den önce çizilmemeli (ya da, Emre'nin 'yarımada sahibi bölge sahibi + beyan' kuralıyla, yaklaşıklık olarak beyan edilmeli) — karar Emre'nindir. KANIT/SINIRLAR: (a) Tek akademik ilk anılış kaynağı TDV Tripoliçe (Kiel); ikinci bağımsız akademik kaynak AÇILAMADI (Treccani 'tripolitza' maddesi içerik vermedi, Treccani Enciclopedia Italiana 'Tripoli' maddesinde Arkadya Tripolitsa'sı geçmedi; OpenAlex 'Trobolitsa' araması sonuç vermedi; Yunanca arama yolu denenip sonuç alınamadı). en.wikipedia (tek dayanak sayılmadı, yalnız tutarlılık) da 1467'yi 'Bizans terk edilmiş yerler listesi' ile aynı anar. (b) TDV: önceki devirde Arkadya'nın başlıca şehri Muchli idi (antik Tegea'nın devamı), Tripoliçe'nin 12 km DOĞUSUNDA — 3 km'den uzak, bu kayıtta yazılmadı; ayrı kayıt önerisi: 'Muchli (Tegea)' ve antik Mantinea/Pallantion (TDV: antik üç şehir; Tripoli adı bunlara değil Slavca kökene dayanır) ayrı kayıt olarak araştırılmalı. (c) Ahaya Prinkepsliği künyesi (1205-1430) Tripoliçe'ye BAĞLANMADI: TDV Mora maddesi Peloponnesos genelinde 1204 sonrası Frank yönetimini (Achaea Prensliği) anlatır ama Trobolitsa'yı anmaz; kasabanın o devirde varlığı kaynakta yok => zincirde Frank/Bizans yazmak beyansız yaklaşıklık olurdu. BÖLGE (yarımada) ÇERÇEVESİ, yalnız bağlam (TDV 'Mora'; M. Kiel & J. Alexander, 2020): 1204 sonrası Mora Frank yönetimine girip Achaea Prensliği'nin parçası oldu; Pelagonia savaşı (Ekim 1259) sonrası Bizanslılar Monemvasia, Mistra, Mani, Geraki'yi ele geçirdi (1262); 1278 Villehardouin'in ölümüyle Frank Prensliği 1289'a kadar Anjou hânedanına geçti; 1349'da Kantakuzenos Mora Despotluğu'nu kurdu (Manuel); 1383-1407 Theodore Palaiologos döneminde 150.000'e varan Arnavut iskânı; Tripoliçe yöresi 1460'ta Osmanlı idaresine girdi (TDV Tripoliçe). Bu bölge olayları şehre değil yarımadaya aittir; Tripoliçe'nin kendi tanığı değildir. TDV'de Tripoliçe maddesi var (islamansiklopedisi.org.tr/tripolice) ve Mora maddesi var (/mora). Gün hassasiyeti yok: yıl (1467-01-01 kuralı)."
  },
  {
+  "id": "moskova",
+  "ad": "Moskova",
+  "atlas_ad": "Moskova",
+  "lat": 55.756,
+  "lon": 37.617,
+  "kat1900": 2,
+  "adlar": [
+   "Москва (Moskva)",
+   "Moskov",
+   "Moskova"
+  ],
+  "ilk": {
+   "t": "1147-01-01",
+   "gun": "1147",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "ЭСБЕ (Брокгауз-Ефрон) 'Москва', A. Ф. Селиванов vd., https://ru.wikisource.org/wiki/ЭСБЕ/Москва (curl ile okundu); aynı metin Brockhaus: booksite.ru/fulltext/bro/kga/3/3036.htm",
+   "tanik": "Первое летописное слово о М. относится к 1147 г.",
+   "ic_not": "İlk anılış (İpatiev vakayinamesi, Yuri Dolgoruki'nin Svyatoslav Olgoviç'i ziyafete çağırması: 'Приди ко мне брате в М.') kuruluş DEĞİL, alt sınırdır. Yıl 1147 (6655 AM); gün/ay kaynakta yok (4 Nisan 1147 yalnız popüler sitelerde, kullanılmadı). Tver Vakayinamesi'ne atfedilen 1156 'şehrin kurulması' ESBE'de de geçer (olay). Moskova kuruluşuna ilişkin gelenek: 880/1117/1140/1147/1156 (popüler derleme; akademik teyit yok). İpatiev/Tver vakayinamesi ve PSRL birincil metni bu oturumda AÇILAMADI; Kuçkin/Rybakov/Yanin yayınları açılamadı — tek ikincil dayanak ESBE (ikinci bağımsız akademik tanık BULUNAMADI, çift teyit yok)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0850-01-01",
+   "gun": "9. yüzyıl ortası",
+   "kesinlik": "yuzyil",
+   "kaynak": "ЭСБЕ 'Москва' (1890-1907), https://ru.wikisource.org/wiki/ЭСБЕ/Москва",
+   "tanik": "арабских монет половины IX в. вблизи Кремля"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1147-01-01",
+    "t": "1157-01-01",
+    "d": "kiev-rusu",
+    "kesinlik": "yil",
+    "kaynak": "ЭСБЕ 'Москва' (Суздальская земля, Юрий Долгорукий); ЭСБЕ 'Андрей Юрьевич Боголюбский' (Юрий † киевским князем 1157)",
+    "ic_not": "Moskova Rostov-Suzdal topraklarında (Yuri Dolgoruki'nin vatanı). Ayrı Rostov-Suzdal künyesi 1157'den önce yok; kiev-rusu (882-1240) künyesi parçalanma dönemi knezliklerini kapsar — yaklaşık, beyanlıdır."
+   },
+   {
+    "f": "1157-01-01",
+    "t": "1281-01-01",
+    "d": "vladimir-suzdal",
+    "kesinlik": "yil",
+    "kaynak": "ЭСБЕ 'Москва': 'передовой пригородом Владимира'; 1238 sonrası Suzdal knez paylaşımları (1246 Mihail, 1271 Daniil)",
+    "ic_not": "ESBE: Moskova Vladimir'in 'передовой пригород'u (1156 duvarlanma), 1238'de Batu tarafından yağmalanır (olay), 1246'da Yaroslav Vsevolodoviç'in Suzdal şehirlerini paylaştırması ile Mihail'e düşer, 1271'de Daniil bağımsız vâris knezliği başlatır. Altın Orda üst-egemenliği (vergi: TDV Altın Orda 'bağımlı Rus knezliklerinden alınan vergiler') bu künyeyle kodlanamaz; vassallık atlas künyesinde 1242 sonrası ayrı yazılmadı. Künye t=1281-01-01 ile atlas dikişi: dikis_beyan."
+   }
+  ],
+  "dikis_beyan": "Atlas Moskova'yı 1281-01-01'de 'altinorda' açıyor (1283'te moskova). 1281-01-01 için olay/tanık BULUNAMADI: ESBE Moskova'yı 1246'dan 1271'e Suzdal-Vladimir hanedanının knezliği (Mihail Horobrit, Aleksandr Nevski, Daniil) sayıyor; Altın Orda tahakkümü (1238 yağma sonrası) künyesiz vassallık, 1281 tarihli bir devir kaydı değil. TDV Altın Orda: devletin gelirleri 'bağımlı Rus knezliklerinden' alınır.",
+  "olay": [
+   {
+    "t": "1147-01-01",
+    "gun": "1147",
+    "k": "diger",
+    "b": "Moskova'nın İpatiev vakayinamesinde ilk anılışı: Yuri Dolgoruki, Svyatoslav Olgoviç'i 'Moskov'a çağırır.",
+    "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Москва",
+    "tanik": "Первое летописное слово о М. относится к 1147 г."
+   },
+   {
+    "t": "1156-01-01",
+    "gun": "1156",
+    "k": "kurulus",
+    "b": "Moskova knez çiftliği Andrey Bogolyubski'nin Vladimir knezliği sırasında duvarlarla çevrilerek şehir (grad) olur.",
+    "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Москва",
+    "tanik": "моск. княжеская усадьба тотчас же построилась городом (в 1156 г.)"
+   },
+   {
+    "t": "1157-01-01",
+    "gun": "1157",
+    "k": "diger",
+    "b": "künye geçişi: Kiev Rus'u → Vladimir-Suzdal; Yuri Dolgoruki Kiev knezi olarak ölür, oğlu Andrey Suzdal-Vladimir'de kalıcı olarak yönetir.",
+    "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Андрей_Юрьевич_Боголюбский",
+    "tanik": "он овладел окончательно Киевом и † киевским князем (в 1157 г.)"
+   },
+   {
+    "t": "1213-01-01",
+    "gun": "1213",
+    "k": "diger",
+    "b": "Yuri Vsevolodoviç'in kardeşi Vladimir Moskova'da ayrı knezlik kurmaya çalışır, kısa sürede Pereyaslavl'a gönderilir.",
+    "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Москва",
+    "tanik": "В 1213 г. в нем засел было на княжение брат вел. кн. Юрия Всеволодовича, Владимир"
+   },
+   {
+    "t": "1238-02-01",
+    "gun": "Şubat 1238",
+    "k": "kayip",
+    "b": "Batu Han'ın ordusu Moskova'yı yağmalar ve yakar (Vladimir Yuryeviç esir).",
+    "kaynak": "https://islamansiklopedisi.org.tr/batu-han",
+    "tanik": "Pek çok şehir ele geçirildikten sonra 1238 Şubatında Moskova"
+   },
+   {
+    "t": "1246-01-01",
+    "gun": "1246",
+    "k": "idari",
+    "b": "Yaroslav Vsevolodoviç'in ölümü sonrası Suzdal şehirlerinin paylaşımında Moskova oğlu Mihail Horobrit'e düşer.",
+    "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Москва",
+    "tanik": "Ярослава Всеволодовича (1246 г.), по его разделу городов Суздальского княжества"
+   },
+   {
+    "t": "1271-01-01",
+    "gun": "1271",
+    "k": "idari",
+    "b": "Daniil Aleksandroviç, Tver knezi Yaroslav'ın ölümü üzerine kendi başına Moskova'da hüküm sürmeye başlar (vâris knezliğin başlangıcı).",
+    "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Москва",
+    "tanik": "По смерти Ярослава в 1271 г. десятилетний моск. князь Даниил стал княжить самостоятельно"
+   }
+  ],
+  "ic_not": "ÇELİŞKİ (Moskova'nın yağma tarihi): TDV Batu Han maddesi 1238 Şubat'ı verir (esas alındı, 'ay'); ESBE yalnız '1238 г.' der; İngilizce Vikipedi 'Siege of Moscow (1238)' 15-20 Ocak 1238 (tek dayanak olamaz, kullanılmadı). Dikiş: dikis_beyan. KİLİTLİ BORÇ: Moskova'nın 1157'de vladimir-suzdal künyesine geçmesi künye f=1157-01-01'e dayanır; Yuri ölüm yılı 1157 (ESBE), gün yok. Yanin/Kuçkin/Sedov monografileri ve PSRL açılamadı."
+ },
+ {
+  "id": "nikolayev",
+  "ad": "Nikolayev (Mikolayiv)",
+  "atlas_ad": "Nikolayev (Mikolayiv)",
+  "lat": 46.975,
+  "lon": 31.9946,
+  "kat1900": 3,
+  "adlar": [
+   "Nikolayev (Николаев)",
+   "Mykolaiv (Миколаїв)"
+  ],
+  "ilk": {
+   "t": "1784-01-01",
+   "gun": "1784",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "ЭСБЕ 'Николаев, город Херсонской губернии', https://ru.wikisource.org/wiki/ЭСБЕ/Николаев,_город_Херсонской_губернии (curl ile okundu)",
+   "tanik": "Основан, в виде укрепления, кн. Потемкиным в 1784 г.",
+   "ic_not": "ESBE: Potemkin 1784'te tahkimat olarak kurdu. ÇELİŞKİ: ikincil kaynaklar (Vikipedi-türü, kullanılamaz) tersane 1788, resmî ad 27 Ağustos 1789 verir. ESBE esas alındı; ikinci akademik tanık (Ukrayna Tarihi Ansiklopedisi, Rus Biyografi) BULUNAMADI. Antik Olbia ≤3 km değil (yaklaşık 40 km). Yer Bug-Ingul birleşimi (ESBE)."
+  },
+  "kur": {
+   "t": "1784-01-01",
+   "gun": "1784",
+   "kesinlik": "yil",
+   "kaynak": "ЭСБЕ 'Николаев, город Херсонской губернии'",
+   "tanik": "Основан, в виде укрепления, кн. Потемкиным в 1784 г."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1784-01-01",
+    "gun": "1784",
+    "k": "kurulus",
+    "b": "Knez Potemkin Nikolayev'i tahkimat olarak kurar.",
+    "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Николаев,_город_Херсонской_губернии",
+    "tanik": "Основан, в виде укрепления, кн. Потемкиным в 1784 г."
+   }
+  ],
+  "ic_not": "ZİNCİR YOK (şehir 1784'te kuruluyor; atlasın ilk günü 1784-01-01 'rusya', kur 1784 ile uyumlu). 1784 öncesi bölge sahipliği (Hacıbey/Özü Eyaleti Osmanlı, Kırım/Nogay) bu şehir için gerekmez; kuruluş yılı ikincil kaynaklarla 1788-89 arasında çelişir (bkz. ilk.ic_not) — atlasın 1784 başlangıcı ESBE'ye dayanır, Vikipedi/yerel kaynak 1788-89 diyor; ikinci akademik teyit gerekir. kat1900 değeri LISTE.tsv'de bulunmadı (3 tahmin)."
+ },
+ {
   "id": "nitra",
   "ad": "Nitra (Nyitra)",
   "atlas_ad": "Nitra (Nyitra)",
@@ -3063,6 +3546,116 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Atlas Nitra'yı 1281'de 'macaristan' ile başlatır (kaynak TDV nitra slug'ı yok); zincir aynı sahiple biter. TDV 'nitre' slug'ı 798 karakterlik boş sayfa; arama sayfası 7 madde içeriği (Nitra madde değil). Atlas ek öneri: künye nitra-prensligi (805-833) ve buyuk-moravya (833-907) boyalı/boyasız durumu bu oturumda ölçülmedi (DEVLETLER-1300-oncesi.json'da var). Nitra/Slovak akademik ansiklopedileri (Beliana) 404 verdi, Britannica 403."
+ },
+ {
+  "id": "novgorod",
+  "ad": "Novgorod",
+  "atlas_ad": "Novgorod",
+  "lat": 58.521,
+  "lon": 31.271,
+  "kat1900": 2,
+  "adlar": [
+   "Новгород (Novgorod)",
+   "Veliky Novgorod",
+   "Novgorod-Rus",
+   "Holmgard"
+  ],
+  "ilk": {
+   "t": "0862-01-01",
+   "gun": "862",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "P. S. Stefanovich, 'Сказание о призвании варягов или origo gentis Russorum?', Древнейшие государства Восточной Европы 33, https://dgve.igh.ru/issues/33/articles/708/download (PDF, pdftotext ile okundu)",
+   "tanik": "В ПВЛ Сказание изложено под 6370 (862) г.",
+   "ic_not": "Povest vremennykh let (PVL) 6370 (862) maddesi: Rurik (İpatiev/Radziwill/Mosk. Akad. listelerinde önce Ladoga'da, sonra Sineus ve Truvor'un ölümüyle 'сруби город над Волховом, и прозваша и Новъгород'; Lavrentiev'de yer adı eksik, Troitsk'ta 'сѣде Новѣгородѣ'). Stefanovich: 862 PVL yazarının 'самых приблизительных прикидок' hesabıdır — yıl bir tahmin; legend ('призвание варягов'), kuruluş değil ilk anılış olarak işaretlendi. Gün/ay yok. PVL 6367 (859) maddesinde Novgorod adı geçmez (varyag haracı). ESBE: 'в IX в. около Ильменя ... имевшее город Н.' (yüzyıl). PSRL birincil metni açılamadı; Yanin/Sedov/Kuçkin monografileri açılamadı (yalnız Tolochko'nun Yanin atfı ve Tarabardina dendro özeti). Çift teyit YOK."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0901-01-01",
+   "gun": "10. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "O. A. Tarabardina, 'Dendrochronological Studies of Medieval Novgorod (Based on the Findings of Archaeological Excavations 1991-2006)', Archaeology, Ethnology & Anthropology of Eurasia 37(1), 2009, https://archaeology.nsc.ru/en/publications/jr-aeae-en/09-37-1/annot-09/",
+   "tanik": "between the 10th and 15th cent."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0862-01-01",
+    "t": "0882-01-01",
+    "d": "rurik-novgorod",
+    "kesinlik": "yil",
+    "kaynak": "Stefanovich, DGVE 33 (PVL 6370/862); ESBE 'Новгород Великий'",
+    "kunye_yok": true,
+    "ic_not": "Rurik'in Novgorod'u (PVL: Rurik Sineus ve Truvor'un ölümünden sonra yönetimi tek elde toplar). Künye ÖNERİSİ: 'Rurik Knezliği (Novgorod), 862-882'; kiev-rusu künyesi 882'de başlar. Yıl PVL hesabı (yaklaşık)."
+   },
+   {
+    "f": "0882-01-01",
+    "t": "1136-01-01",
+    "d": "kiev-rusu",
+    "kesinlik": "yil",
+    "kaynak": "Stefanovich, DGVE 33 (Oleg'in Kiev'e gelişi 6390); ESBE 'Новгород Великий' (Oleg Novgorod'dan güneye gider, haraç)",
+    "ic_not": "Künye kiev-rusu f=0882-01-01; Oleg 6390 (=882 AM hesabı 6390−5508) Kiev'e gelir. ESBE: Novgorod Kiev knezlerine bağlı, haraç öder (Vladimir, Yaroslav). Yıl PVL hesabı."
+   },
+   {
+    "f": "1136-01-01",
+    "t": "1281-01-01",
+    "d": "novgorod",
+    "kesinlik": "yil",
+    "kaynak": "P. P. Tolochko, 'О новгородских «вольностях в князьях»', Vertograd 2018 (inslav.ru); V. L. Yanin'e atıf",
+    "ic_not": "Novgorod Cumhuriyeti künyesi f=1136-01-01; Tolochko: Vsevolod Mstislaviç'in 1136'da kovulması; gün/ay (28 Mayıs) kaynakta yok (popüler sitelerde var, kullanılmadı). ESBE: Moğol istilası Novgorod'a ulaşmaz ('до Крестца и поворотили назад')."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0862-01-01",
+    "gun": "862",
+    "k": "diger",
+    "b": "PVL: Rurik Novgorod'u yönetim merkezi yapar ('Волхов üzerinde şehir kurar'; Novgorod adı; yıl PVL hesabı).",
+    "kaynak": "Stefanovich, DGVE 33 (https://dgve.igh.ru/issues/33/articles/708/download)",
+    "tanik": "сруби город над Волховом, и прозваша и Новъгород"
+   },
+   {
+    "t": "0882-01-01",
+    "gun": "882",
+    "k": "diger",
+    "b": "künye geçişi: Rurik Knezliği → Kiev Rus'u; Oleg Novgorod'dan güneye (Kiev'e) gider, Novgorodlulara 300 grivna haraç koyar.",
+    "kaynak": "ESBE 'Новгород Великий'; Stefanovich DGVE 33 (6390)",
+    "tanik": "Олег ушел из Н. на Ю, обложив новгородцев данью в 300 гривен"
+   },
+   {
+    "t": "1136-01-01",
+    "gun": "1136",
+    "k": "isyan",
+    "b": "Novgorodlular knez Vsevolod Mstislaviç'i kovar; 'knezde özgürlük' ilkesi yerleşir (Yanin).",
+    "kaynak": "P. P. Tolochko, Vertograd 2018, https://inslav.ru/sites/default/files/2018_vertograd_tolochko_p.pdf",
+    "tanik": "изгнанием из Новгорода Всеволода Мстиславича в 1136 г."
+   },
+   {
+    "t": "1169-01-01",
+    "gun": "1169",
+    "k": "kusatma",
+    "b": "Andrey Bogolyubski'nin Novgorod kuşatması başarısız kalır.",
+    "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Новгород_Великий",
+    "tanik": "потерпел полную неудачу при осаде Н. в 1169 г."
+   },
+   {
+    "t": "1236-01-01",
+    "gun": "1236",
+    "k": "taht",
+    "b": "Yaroslav Vsevolodoviç'in oğlu Aleksandr (sonradan Nevski) Novgorod'a knez olur.",
+    "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Новгород_Великий",
+    "tanik": "В 1236 г. в Н. вокняжился сын Ярослава Всеволодовича Александр."
+   },
+   {
+    "t": "1242-01-01",
+    "gun": "1242",
+    "k": "savas",
+    "b": "Aleksandr Nevski Livonyalı Almanları Çud Gölü buzunda yener (Buz Savaşı).",
+    "kaynak": "https://ru.wikisource.org/wiki/ЭСБЕ/Новгород_Великий",
+    "tanik": "разбитыми им на льду Чудского оз. (Ледовое побоище 1242 г.)"
+   }
+  ],
+  "ic_not": "Dikiş kesintisiz: son dönem 'novgorod' atlasın ilk sahibi 'novgorod' (1281). Boyalı künye: novgorod (boyali). 862-882 'rurik-novgorod' künyesiz (kunye_yok). Novgorod'un Moğol vergisi: TDV Berke Han maddesi '1259’da Novgorod Rostov, Suzdal ve Yaroslav…' ifadesi tam metni açılamadı (nüfus sayımı/haraç; olay yazılmadı). Yanin 'Я послал тебе бересту' dendro 953 iddiası doğrulanamadı: Tarabardina yalnız '10th-15th' der; en erken dendro 920-930'lar ikincil (Vikipedi) — yazılmadı."
  },
  {
   "id": "pamplona",
@@ -3776,6 +4369,43 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Atlas Siena 1147-01-01'de (ONCE1281-GERIYE, konsüllerin ilk anılışı) 'siena' ile başlar; zincir 1147'de biter ve son sahibi almanya, atlasın ilk sahibi siena (komün) — dikiş olayı 1147 (EI). Atlas düzeltme önerisi: atlasın Siena başlangıcı 1147 (konsül anılışı) EI ile uyumlu; künye siena f=1125 Treccani/EI'de doğrulanmadı (atlas kaydı zaten aynı notu taşır). TDV 'Siena' maddesi yok (arama: 2 içerik, madde yok). Roma dönemi 70 öncesi (ilk anılıştan önce) tarihsiz. -0026-01-13 olayı bu şehirde yok (ilk anılış MS 70, Roma İmparatorluğu künyesiyle başlar)."
+ },
+ {
+  "id": "sogut",
+  "ad": "Söğüt",
+  "atlas_ad": "Söğüt",
+  "lat": 40.019,
+  "lon": 30.181,
+  "kat1900": 4,
+  "adlar": [
+   "Söğüt",
+   "Söğüd",
+   "Bey Söğüdü"
+  ],
+  "ilk": {
+   "t": "1300-01-01",
+   "gun": "13. yüzyılın ikinci yarısı",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "İlhan Şahin, 'Söğüt', TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sogut (curl ile okundu)",
+   "tanik": "XIII. yüzyılın ikinci yarısında gerçekleşmiş olmalıdır",
+   "ic_not": "TDV: 'Söğüt’ün tarihî süreç içinde bir yerleşme yeri halinde ne zaman ortaya çıktığı kesin olarak bilinmemektedir'; yerleşme olarak ortaya çıkışı Osmanlı Beyliği'nin kurulma aşaması olan XIII. yy'ın ikinci yarısına konuyor ('olmalıdır' = tahmin, tanıklık değil). Aralık 1250-1300, güvenli uç = 1300-01-01. Sagouados eşitlemesi TDV'ye göre 'ispat edilememiştir' → başlangıç sayılmadı. Yazılı ilk anılış (Osman/Ertuğrul dönemi tarihlenmiş belge) bu oturumda bulunamadı. nicelik 'kurulus' tanıklık değil TDV'nin tahmini kuruluş aralığıdır."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1300-01-01",
+    "gun": "13. yüzyılın ikinci yarısı",
+    "k": "kurulus",
+    "b": "TDV: Söğüt'ün yerleşme yeri olarak ortaya çıkışı XIII. yy ikinci yarısında gerçekleşmiş olmalı (tahmin).",
+    "kaynak": "https://islamansiklopedisi.org.tr/sogut",
+    "tanik": "XIII. yüzyılın ikinci yarısında gerçekleşmiş olmalıdır"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: güvenli uç ilk.t=1300 atlasın başlangıcından (1281-01-01) SONRA; kural gereği 1281 öncesi sahip yazılmaz. ATLAS DÜZELTME ÖNERİSİ: atlas Söğüt'ü 1281'de Osmanlı olarak açıyor ('miras', künyesiz); TDV yerleşmenin ortaya çıkışını 'XIII. yüzyılın ikinci yarısı' (1250-1300) aralığına koyar, 1281 bu aralığa düşer ama gün/yıl teyidi yok. Ertuğrul'un Söğüt'ü Alâeddin'den aldığı (Selçuklu) rivayeti TDV'de tarihsizdir → olay yazılmadı."
  },
  {
   "id": "temesvar",
