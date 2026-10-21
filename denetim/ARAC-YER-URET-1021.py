@@ -104,6 +104,10 @@ for f in sorted(glob.glob(os.path.join(KL, "parti_*_sonuc.json")), key=lambda p:
 def jstr(s):
     return json.dumps(s, ensure_ascii=False)
 
+SAHIP = {}
+_sy = os.path.join(KL, "SAHIP-YAZILAN-1021.json")
+if os.path.exists(_sy):
+    SAHIP = json.load(open(_sy, encoding="utf-8")).get("yazilan", {})
 gruplar = collections.defaultdict(list)
 for r in aday:
     gruplar[bolge_kutusu(float(r["lat"]), float(r["lon"]))].append(r)
@@ -111,7 +115,8 @@ for ad in sorted(gruplar):
     yol = os.path.join(KOK, "data", "yerlesimler_once1281_yt_%s.js" % ad)
     satir = ["// yerlesimler_once1281_yt_%s.js — 1281 öncesi kronoloji maddelerinde geçen yerlerin nokta adayları (YER-TANIMA, Ekim 2026)" % ad,
              "// Kaynak: denetim/yer-arastirma/parti_*_sonuc.json (ÇİFT TANIK şartı) · üreten: denetim/ARAC-YER-URET-1021.py",
-             "// s:/d: BOŞ — sahip/zincir DEVLET-LISTESI ile koordineli yazılır (bağlama + s: işi era oturumlarında).",
+             "// s: yalnız KAYNAKLI başkentlik dönemleri (denetim/ARAC-YER-SAHIP-YAZ-1021.py); aralar __BOSLUK__ beyanı; kur:/bit: = ilk/son başkentlik dönemi.",
+             "// Sahibi bulunamayan yerler: s:[] + bos:\"veri-yok\" (savaşta TARAF olmak sahiplik sayılmadı). Sınır kaymaları için ±30 gün madde işi VERI-MS1-1281'de.",
              "// Mükerrer tarama: normalleştirilmiş ad (30 km) + 3 km. BAĞLAMA YAPILMADI (girdi_listesi/index.html'e dokunulmadı).",
              "window.YERLESIMLER_ONCE1281_YT_%s = [" % ad.upper(), ""]
     for r in gruplar[ad]:
@@ -120,7 +125,19 @@ for ad in sorted(gruplar):
         modern = re.split(r"[(,/;]", r.get("esanlam_modern") or "")[0].strip()
         ad_yaz = r["ad"] if (not modern or N(modern) == N(r["ad"]) or N(modern) in N(r["ad"]) or N(r["ad"]) in N(modern)) else "%s (%s)" % (r["ad"], modern)
         ad_yaz = re.sub(r"\s+", " ", ad_yaz)
-        satir.append('{ ad:%s, tur:%s, lat:%s, lon:%s, g:0, k:0, s:[], d:[],' % (jstr(ad_yaz), jstr(r.get("tur") or "sehir"), r["lat"], r["lon"]))
+        per = SAHIP.get(ad_yaz)
+        if per and any(p.get("t") is None for p in per):
+            per = None
+        if per:
+            parcalar = []
+            for j, p in enumerate(per):
+                if j and p["f"] > per[j - 1]["t"]:
+                    parcalar.append('{f:%s,t:%s,d:"__BOSLUK__",kaynak:%s}' % (jstr(per[j - 1]["t"]), jstr(p["f"]), jstr("BEYAN: iki başkentlik dönemi arası; bu aralıkta yerin sahibi kaynakta bulunamadı (YER-TANIMA, 22 Ekim 2026)")))
+                parcalar.append('{f:%s,t:%s,d:%s,kaynak:%s}' % (jstr(p["f"]), jstr(p["t"]), jstr(p["d"]), jstr("BAŞKENT: yer bu devletin başkenti; " + p["kaynak"])))
+            sahip_s = "s:[%s], d:[], kur:%s, bit:%s," % (",\n    ".join(parcalar), jstr(per[0]["f"]), jstr(per[-1]["t"]))
+        else:
+            sahip_s = 's:[], d:[], bos:"veri-yok",'
+        satir.append('{ ad:%s, tur:%s, lat:%s, lon:%s, g:0, k:0, %s' % (jstr(ad_yaz), jstr(r.get("tur") or "sehir"), r["lat"], r["lon"], sahip_s))
         if r.get("konum_kesinligi") in ("yaklasik", "bolge"):
             satir.append('  konum_kesinlik:"%s",' % r["konum_kesinligi"])
         satir.append('  not:%s,' % jstr("YER-TANIMA: kronolojide %s adıyla geçer; eski adlar: %s; modern: %s (%s). %s" % (r["ad"], ", ".join(r.get("eski_adlar") or []) or "-", r.get("esanlam_modern") or "-", r.get("ulke_modern") or "-", r.get("not") or "")))

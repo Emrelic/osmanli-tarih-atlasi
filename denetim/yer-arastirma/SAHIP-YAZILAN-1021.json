@@ -1,0 +1,278 @@
+{
+ "yazilan": {
+  "Ahlat": [
+   {
+    "f": "1100-01-01",
+    "t": "1208-01-01",
+    "d": "ahlatsahlar",
+    "kaynak": "künye ahlatsahlar (devletler.js) f/t; kaynak: TDV: ahlatsahlar (AHLATŞAHLAR) — gövde okundu, HTTP 200"
+   }
+  ],
+  "Sis (Kozan)": [
+   {
+    "f": "1092-01-01",
+    "t": "1199-01-06",
+    "d": "rupeniler",
+    "kaynak": "künye rupeniler (devletler.js) f/t; kaynak: Britannica 'Rubenid dynasty', 'Levon I'"
+   },
+   {
+    "f": "1199-01-06",
+    "t": "1375-04-14",
+    "d": "kilikya-ermeni",
+    "kaynak": "künye kilikya-ermeni (devletler.js) f/t; kaynak: bulunamadı — TDV'de müstakil maddesi yok (kili, sis alakasız konular), dayanak: George A. Bournoutian, 'A Concise History of the Armenian People', 5. bs. (Mazda Publishers, 2006)"
+   }
+  ],
+  "Meyyâfârikīn": [
+   {
+    "f": "0983-01-01",
+    "t": "1085-08-30",
+    "d": "mervani",
+    "kaynak": "künye mervani (devletler.js) f/t; kaynak: TDV: mervaniler--diyarbakir (MERVÂNÎLER, çift tireli slug; 'mervaniler' 302 ÖLÜ) — gövde okundu, HTTP 200. Ek: TDV meyyafarikin, TDV nasruddevle"
+   },
+   {
+    "f": "1185-01-01",
+    "t": "1260-01-01",
+    "d": "eyyubi-meyyafarikin",
+    "kaynak": "künye eyyubi-meyyafarikin (devletler.js) f/t; kaynak: TDV: eyyubiler (hükümdar listesi, \"4. Meyyâfârikīn, Cebel ve Sincar Kolu (Diyarbekir)\"); meyyafarikin"
+   }
+  ],
+  "Şeyzer": [
+   {
+    "f": "1081-01-01",
+    "t": "1157-01-01",
+    "d": "munkizogullari",
+    "kaynak": "künye munkizogullari (devletler.js) f/t; kaynak: TDV: seyzer (ŞEYZER); ibn-munkiz"
+   }
+  ],
+  "Ani": [
+   {
+    "f": "0885-06-18",
+    "t": "1045-01-01",
+    "d": "ani-bagratli-kralligi",
+    "kaynak": "künye ani-bagratli-kralligi (devletler.js) f/t; kaynak: Encyclopaedia Iranica, C. Toumanoff, 'BAGRATIDS' — https://www.iranicaonline.org/articles/bagratids-dynasty/ ; TDV: kars (KARS) Ani'ye taşınma. TDV'de 'ani' maddesi yok (slug 302; ani--sehir, ani-sehri, ani--kars, ani--kale 302; arama isabetsiz)."
+   },
+   {
+    "f": "1064-01-01",
+    "t": "1175-01-01",
+    "d": "seddadiler-ani",
+    "kaynak": "künye seddadiler-ani (devletler.js) f/t; kaynak: TDV: seddadiler (ŞEDDÂDÎLER); Encyclopaedia Iranica, A. Peacock, 'SHADDADIDS'"
+   }
+  ],
+  "Laon": [
+   {
+    "f": "0843-01-01",
+    "t": "0987-01-01",
+    "d": "bati-francia",
+    "kaynak": "künye bati-francia (devletler.js) f/t; kaynak: Britannica 'Francia Occidentalis' (britannica.com/place/Francia-Occidentalis)"
+   }
+  ],
+  "Saluzzo": [
+   {
+    "f": "1142-01-01",
+    "t": "1548-02-23",
+    "d": "saluzzo-markizligi",
+    "kaynak": "künye saluzzo-markizligi (devletler.js) f/t; kaynak: Wikipedia 'Marquisate of Saluzzo', 'Franco-Savoyard War'; British Library kataloğu (17 Ocak 1601). ic_not: t 1548-02-23 Vikipedi bilgi kutusu tek kaynak; Fransız işgali 1548-1588, Savoya 1588-1601 duraklar."
+   }
+  ],
+  "Sarmizegetusa": [
+   {
+    "f": "-0081-01-01",
+    "t": "0106-01-01",
+    "d": "dakya",
+    "kaynak": "künye dakya (devletler.js) f/t; kaynak: Britannica 'Dacia' (britannica.com/place/Dacia; print/article/149413)"
+   }
+  ],
+  "Dumbarton": [
+   {
+    "f": "0450-01-01",
+    "t": "1018-01-01",
+    "d": "strathclyde",
+    "kaynak": "künye strathclyde (devletler.js) f/t; kaynak: Britannica 'Strathclyde' (britannica.com/place/Strathclyde)"
+   }
+  ],
+  "Canterbury": [
+   {
+    "f": "0455-01-01",
+    "t": "0825-01-01",
+    "d": "kent-kralligi",
+    "kaynak": "künye kent-kralligi (devletler.js) f/t; kaynak: H. Loyn, 'Kent, kingdom of', Oxford Companion to British History (encyclopedia.com/history/modern-europe/british-and-irish-history/kingdom-kent)"
+   }
+  ],
+  "Tamworth": [
+   {
+    "f": "0527-01-01",
+    "t": "0918-01-01",
+    "d": "mercia",
+    "kaynak": "künye mercia (devletler.js) f/t; kaynak: World History Encyclopedia 'Kingdom of Mercia'; Britannica 'Aethelflaed'"
+   }
+  ],
+  "Kançipuram (Kanchipuram)": [
+   {
+    "f": "0350-01-01",
+    "t": "0897-01-01",
+    "d": "pallava",
+    "kaynak": "künye pallava (devletler.js) f/t; kaynak: https://www.britannica.com/topic/Pallava-dynasty ; https://www.britannica.com/biography/Samudra-Gupta"
+   }
+  ],
+  "Badami": [
+   {
+    "f": "0543-01-01",
+    "t": "0757-01-01",
+    "d": "badami-calukya",
+    "kaynak": "künye badami-calukya (devletler.js) f/t; kaynak: https://kids.britannica.com/kids/article/Rashtrakuta-dynasty/62750/related/main?page=1 ; https://www.britannica.com/place/India/Southern-India"
+   }
+  ],
+  "Gaochang": [
+   {
+    "f": "0501-01-01",
+    "t": "0640-01-01",
+    "d": "gaochang",
+    "kaynak": "künye gaochang (devletler.js) f/t; kaynak: Britannica 'Gaochang' (britannica.com/place/Gaochang); WHE 'Emperor Taizong of Tang'"
+   }
+  ],
+  "Zafâr": [
+   {
+    "f": "-0109-01-01",
+    "t": "0525-01-01",
+    "d": "himyar",
+    "kaynak": "künye himyar (devletler.js) f/t; kaynak: Wikipedia Himyar / Timeline of Yemeni history (ipucu); Met Museum toah wap (MO 2. yy – MS 6. yy); Robin; Beeston"
+   }
+  ],
+  "Hîre": [
+   {
+    "f": "0268-01-01",
+    "t": "0602-01-01",
+    "d": "lahmi",
+    "kaynak": "künye lahmi (devletler.js) f/t; kaynak: TDV 'Lahmiler' https://islamansiklopedisi.org.tr/lahmiler ; KURE 'Amr b. Adi', 'Numan b. Munzir'"
+   }
+  ],
+  "Petra": [
+   {
+    "f": "-0167-01-01",
+    "t": "0106-01-01",
+    "d": "nabatiye",
+    "kaynak": "künye nabatiye (devletler.js) f/t; kaynak: worldhistory.org/Kingdom_of_Nabatea; books.openedition.org/ifpo/4896; Hackl-Jenni-Schneider 2003"
+   }
+  ]
+ },
+ "atlanan": {
+  "Hatra (Al Ḩaḑar)": [
+   "yerin kronolojideki ilk yılı (117) hiçbir başkentlik döneminde değil"
+  ],
+  "Harran": [
+   "yerin kronolojideki ilk yılı (217) hiçbir başkentlik döneminde değil"
+  ],
+  "Ani": [
+   "devlet zakarid listede ama devredilebilir/okundu değil"
+  ],
+  "Pavia": [
+   "devlet dönemleri çakışıyor: odoakar, dogu-got, langobard, karolenj-italya, pavia-komunu, visconti-signoria"
+  ],
+  "Kartaca": [
+   "yerin kronolojideki ilk yılı (439) hiçbir başkentlik döneminde değil"
+  ],
+  "Gnezno (Gniezno)": [
+   "yerin kronolojideki ilk yılı (1000) hiçbir başkentlik döneminde değil"
+  ],
+  "Jaca": [
+   "yerin kronolojideki ilk yılı (1134) hiçbir başkentlik döneminde değil"
+  ],
+  "Kançipuram (Kanchipuram)": [
+   "devlet pallava-ref listede ama devredilebilir/okundu değil"
+  ],
+  "Beşbalık": [
+   "devlet basmil listede ama devredilebilir/okundu değil",
+   "yerin kronolojideki ilk yılı (840) hiçbir başkentlik döneminde değil"
+  ],
+  "Deybül (Debal)": [
+   "devlet arap-sind listede ama devredilebilir/okundu değil",
+   "devlet cac-sind listede ama devredilebilir/okundu değil"
+  ],
+  "Mahoba": [
+   "devlet candela-ref listede ama devredilebilir/okundu değil"
+  ],
+  "Badami": [
+   "devlet badami-ref listede ama devredilebilir/okundu değil"
+  ],
+  "Kalyani (Basavakalyan)": [
+   "devlet kalyani-kalacuri listede ama devredilebilir/okundu değil"
+  ],
+  "Remle (Ramla)": [
+   "yerin kronolojideki ilk yılı (524) hiçbir başkentlik döneminde değil"
+  ],
+  "Fihl (Pella)": [
+   "yerin kronolojideki ilk yılı (635) hiçbir başkentlik döneminde değil"
+  ],
+  "Banyas": [
+   "yerin kronolojideki ilk yılı (1133) hiçbir başkentlik döneminde değil"
+  ]
+ },
+ "bekleyen_kunye_devletler_jsde_yok": {
+  "Taormina": [
+   {
+    "f": "0827-06-01",
+    "t": "1091-01-01",
+    "d": "sicilya-emirligi-aglebi-kalbi",
+    "kaynak": "künye sicilya-emirligi-aglebi-kalbi (DEVLET-LISTESI, okundu) f/t; kaynak: Enciclopedia Italiana (1937), 'Sicilia' (https://www.treccani.it/enciclopedia/sicilia_(Enciclopedia-Italiana)/): Esad bin el-Furat'ın ordusu Haziran 827'de Susa'dan yola çıkıp Mazara'ya indi; Palermo Ağustos-Eylül 831'de teslim oldu ve Arapların başkenti seçildi; Ağlabîler (800-909) -> 910'da Fâtımî"
+   }
+  ],
+  "Soissons": [
+   {
+    "f": "0461-01-01",
+    "t": "0486-01-01",
+    "d": "soissons-devleti",
+    "kaynak": "künye soissons-devleti (DEVLET-LISTESI, okundu) f/t; kaynak: Enciclopedia Italiana Treccani, treccani.it/enciclopedia/egidio/ (\"dopo il 461 d.C. costituì un dominio autonomo nella zona di Soissons\") | Enciclopedia Italiana Treccani, treccani.it/enciclopedia/siagrio/ (464'te Soissons'da yönetimi aldı; Clovis'e 486'da Soissons'ta yenildi) | 1911 Encyclopædia Br"
+   },
+   {
+    "f": "0511-01-01",
+    "t": "0751-01-01",
+    "d": "neustria",
+    "kaynak": "künye neustria (DEVLET-LISTESI, kismen-okundu) f/t; kaynak: 1911 Encyclopædia Britannica, \"Neustria\" (Christian Pfister), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Neustria | Enciclopedia Italiana Treccani, treccani.it/enciclopedia/neustria/"
+   }
+  ],
+  "Asti": [
+   {
+    "f": "0940-01-01",
+    "t": "1091-12-19",
+    "d": "torino-markizligi",
+    "kaynak": "künye torino-markizligi (DEVLET-LISTESI, kismen-okundu) f/t; kaynak: Treccani, Enciclopedia on line, 'Torino' (https://www.treccani.it/enciclopedia/torino/): «Verso il 940, il re Ugo collocò a T. un nuovo conte, Arduino Glabrione, con il quale stabilì in città la dinastia degli Arduinici, che vi dominò per un secolo e mezzo e vi costituì la marca...»."
+   },
+   {
+    "f": "1095-01-01",
+    "t": "1387-01-01",
+    "d": "asti-komunu",
+    "kaynak": "künye asti-komunu (DEVLET-LISTESI, kismen-okundu) f/t; kaynak: Treccani, Enciclopedia on line, 'Asti' (https://www.treccani.it/enciclopedia/asti/): «ottenne l'autorità comitale nel 1094 per concessione dell'imperatore Enrico IV. Federico Barbarossa riconobbe nel 1159 l'autonomia del Comune»; 14. yy'da çekişmeler signoria'ya yol açtı: Monferrato markileri, Visco"
+   }
+  ],
+  "Boulogne": [
+   {
+    "f": "0286-01-01",
+    "t": "0296-01-01",
+    "d": "britanya-imparatorlugu-carausius",
+    "kaynak": "künye britanya-imparatorlugu-carausius (DEVLET-LISTESI, okundu) f/t; kaynak: Treccani, Enciclopedia on line, 'Carausio' (https://www.treccani.it/enciclopedia/carausio/): «Usurpatore dell'Impero romano in Britannia dal 286 al 293 ... nel 289 sconfisse le truppe di Massimiano ... Nel 293 fu assassinato da Allecto» | Treccani, 'Allecto' (https://www.treccani.it/enciclopedia/all"
+   }
+  ],
+  "Vienne": [
+   {
+    "f": "0879-10-15",
+    "t": "0933-01-01",
+    "d": "asagi-burgundia-provence",
+    "kaynak": "künye asagi-burgundia-provence (DEVLET-LISTESI, kismen-okundu) f/t; kaynak: 1911 Encyclopædia Britannica, \"Burgundy\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Burgundy"
+   },
+   {
+    "f": "0933-01-01",
+    "t": "1032-09-06",
+    "d": "arles-kralligi",
+    "kaynak": "künye arles-kralligi (devletler.js) f/t; kaynak: Encyclopaedia Britannica — 'Burgundy summary' — https://www.britannica.com/summary/Burgundy ; 'Rudolf III' — https://www.britannica.com/biography/Rudolf-III-king-of-Burgundy"
+   }
+  ],
+  "Trogir": [
+   {
+    "f": "1000-01-01",
+    "t": "1358-01-01",
+    "d": "venedik-dalmacya",
+    "kaynak": "künye venedik-dalmacya (DEVLET-LISTESI, kismen-okundu) f/t; kaynak: Zadar maddesi (Vikipedi, aracı); aktarılan akademik atıflar: Klaić, Nada; Petricioli, Ivo [eser künyesi okunmadı] | Ragusa maddesi (Vikipedi, aracı)"
+   }
+  ]
+ }
+}
