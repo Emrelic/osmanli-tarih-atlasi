@@ -269,5 +269,11 @@
   "bolge_adi": 3,
   "?": 87
  },
- "yazilan": 128
+ "yazilan": 127,
+ "haric": [
+  {
+   "ad": "Lade",
+   "neden": "Kronoloji Norveç Lade'si (Håkon jarl, 970); Pleiades 599746 İyonya'daki Lade adası (37.52K 27.18D) — kıtalar arası ad çakışması."
+  }
+ ]
 }

@@ -47,6 +47,7 @@ for y in Y:
     for ad in [y["ad"], re.sub(r"\s*\(.*?\)", "", y["ad"])] + re.findall(r"\(([^)]*)\)", y["ad"]):
         mevcut_tum.setdefault(N(ad), []).append((y["lat"], y["lon"], y["ad"]))
 
+HARIC = {h["ad"]: h["neden"] for h in json.load(open(os.path.join(KL, "HARIC.json"), encoding="utf-8"))["haric"]}
 ALIAS_TEYIT = {}      # ad -> kaynak metni (yalnız gerçekten TDV ile teyit edilenler)
 for f in glob.glob(os.path.join(KL, "parti_8*_sonuc.json")):
     for r in json.load(open(f, encoding="utf-8")).get("sonuclar", []):
@@ -60,6 +61,9 @@ for f in sorted(glob.glob(os.path.join(KL, "parti_*_sonuc.json")), key=lambda p:
         bolge_mi = r.get("durum") in ("bolge_temsilci", "bolge_nokta")
         if (r.get("durum") != "cift_tanik" and not bolge_mi) or r.get("lat") is None:
             rapor["yazilmadi"][r.get("durum", "?")] += 1
+            continue
+        if r["ad"] in HARIC:
+            rapor.setdefault("haric", []).append({"ad": r["ad"], "neden": HARIC[r["ad"]]})
             continue
         if r.get("alias"):
             if r["ad"] in ALIAS_TEYIT:

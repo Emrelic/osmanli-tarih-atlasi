@@ -1,0 +1,1512 @@
+[
+ {
+  "ad": "Libya",
+  "kronoloji_adi": "Libya",
+  "lat": 27.03,
+  "lon": 18.01,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_afrika.js"
+ },
+ {
+  "ad": "Mısır",
+  "kronoloji_adi": "Mısır",
+  "lat": 30.0,
+  "lon": 31.23,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "iran",
+   "italya",
+   "mezopotamya",
+   "misir-sudan",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_afrika_levant.js"
+ },
+ {
+  "ad": "Feremâ",
+  "kronoloji_adi": "Feremâ",
+  "lat": 31.0426270897,
+  "lon": 32.5471045497,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "balkanlar"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_afrika_levant.js"
+ },
+ {
+  "ad": "Hatra (Al Ḩaḑar)",
+  "kronoloji_adi": "Hatra",
+  "lat": 35.587884,
+  "lon": 42.718342,
+  "devlet_bolgeleri": [
+   "iran",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Harran",
+  "kronoloji_adi": "Harran",
+  "lat": 36.8635943094,
+  "lon": 39.0307496505,
+  "devlet_bolgeleri": [
+   "anadolu",
+   "iran",
+   "mezopotamya",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Osrhoene",
+  "kronoloji_adi": "Osrhoene",
+  "lat": 37.25,
+  "lon": 38.25,
+  "devlet_bolgeleri": [
+   "iran",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Misis (Yakapınar)",
+  "kronoloji_adi": "Misis",
+  "lat": 36.9580404953,
+  "lon": 35.6223738026,
+  "devlet_bolgeleri": [
+   "anadolu",
+   "balkanlar",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Ahlat",
+  "kronoloji_adi": "Ahlat",
+  "lat": 38.752777,
+  "lon": 42.494444,
+  "devlet_bolgeleri": [
+   "anadolu",
+   "misir-sudan"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Sart",
+  "kronoloji_adi": "Sart",
+  "lat": 38.488314,
+  "lon": 28.040286,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Nīnawā (Mosul)",
+  "kronoloji_adi": "Nīnawā",
+  "lat": 36.3607615238,
+  "lon": 43.1599368897,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Adiabene",
+  "kronoloji_adi": "Adiabene",
+  "lat": 36.1913213311,
+  "lon": 44.0093823647,
+  "devlet_bolgeleri": [
+   "iran",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Bâlis (Maskanah)",
+  "kronoloji_adi": "Bâlis",
+  "lat": 35.9870271966,
+  "lon": 38.1111142153,
+  "devlet_bolgeleri": [
+   "iran",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Yakapınar",
+  "kronoloji_adi": "Yakapınar",
+  "lat": 36.9580404953,
+  "lon": 35.6223738026,
+  "devlet_bolgeleri": [
+   "anadolu"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Sis (Kozan)",
+  "kronoloji_adi": "Sis",
+  "lat": 37.4488715,
+  "lon": 35.8163535,
+  "devlet_bolgeleri": [
+   "anadolu"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Mezopotamya",
+  "kronoloji_adi": "Mezopotamya",
+  "lat": 37.5,
+  "lon": 40.7,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "iran",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Kapadokya",
+  "kronoloji_adi": "Kapadokya",
+  "lat": 38.65,
+  "lon": 35.65,
+  "devlet_bolgeleri": [
+   "anadolu",
+   "balkanlar",
+   "italya",
+   "mezopotamya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Kilikya",
+  "kronoloji_adi": "Kilikya",
+  "lat": 37.05,
+  "lon": 35.15,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "italya",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Meyyâfârikīn",
+  "kronoloji_adi": "Meyyâfârikīn",
+  "lat": 38.1428,
+  "lon": 41.0033,
+  "devlet_bolgeleri": [
+   "anadolu",
+   "iran",
+   "misir-sudan"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Şeyzer",
+  "kronoloji_adi": "Şeyzer",
+  "lat": 35.2663435,
+  "lon": 36.5664463,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "iran",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Kınnesrin",
+  "kronoloji_adi": "Kınnesrin",
+  "lat": 36.007956,
+  "lon": 37.009719,
+  "devlet_bolgeleri": [
+   "mezopotamya",
+   "misir-sudan",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Kadıköy",
+  "kronoloji_adi": "Kadıköy",
+  "lat": 40.983393,
+  "lon": 29.025789,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "dogu-afrika",
+   "iran",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Suriye",
+  "kronoloji_adi": "Suriye",
+  "lat": 35.023,
+  "lon": 38.505,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "balkanlar",
+   "iran",
+   "italya",
+   "mezopotamya",
+   "misir-sudan",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Ermenistan",
+  "kronoloji_adi": "Ermenistan",
+  "lat": 40.289,
+  "lon": 44.932,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "iran",
+   "italya",
+   "kafkasya",
+   "mezopotamya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Pavia",
+  "kronoloji_adi": "Pavia",
+  "lat": 45.185899,
+  "lon": 9.156562,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Taormina",
+  "kronoloji_adi": "Taormina",
+  "lat": 37.852391,
+  "lon": 15.292123,
+  "devlet_bolgeleri": [
+   "italya",
+   "kuzey-afrika"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Cirencester",
+  "kronoloji_adi": "Cirencester",
+  "lat": 51.71138,
+  "lon": -1.971806,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Lusitania",
+  "kronoloji_adi": "Lusitania",
+  "lat": 37.5,
+  "lon": -7.5,
+  "devlet_bolgeleri": [
+   "iberya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Baetica",
+  "kronoloji_adi": "Baetica",
+  "lat": 37.5,
+  "lon": -7.5,
+  "devlet_bolgeleri": [
+   "iberya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Agri Decumates",
+  "kronoloji_adi": "Agri Decumates",
+  "lat": 48.5,
+  "lon": 8.5,
+  "devlet_bolgeleri": [
+   "italya",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Oderzo",
+  "kronoloji_adi": "Oderzo",
+  "lat": 45.781212,
+  "lon": 12.493677,
+  "devlet_bolgeleri": [
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Mazara del Vallo",
+  "kronoloji_adi": "Mazara del Vallo",
+  "lat": 37.650881,
+  "lon": 12.590812,
+  "devlet_bolgeleri": [
+   "italya",
+   "kuzey-afrika"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Sason",
+  "kronoloji_adi": "Sason",
+  "lat": 40.5,
+  "lon": 19.283333,
+  "devlet_bolgeleri": [
+   "anadolu"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Carcassonne",
+  "kronoloji_adi": "Carcassonne",
+  "lat": 43.205842,
+  "lon": 2.364076,
+  "devlet_bolgeleri": [
+   "iberya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Meaux",
+  "kronoloji_adi": "Meaux",
+  "lat": 48.9576983333,
+  "lon": 2.88036466667,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Kırım",
+  "kronoloji_adi": "Kırım",
+  "lat": 45.398822,
+  "lon": 35.819354,
+  "devlet_bolgeleri": [
+   "anadolu",
+   "sibirya-bozkir"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Soissons",
+  "kronoloji_adi": "Soissons",
+  "lat": 49.380839,
+  "lon": 3.3258515,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Falkirk",
+  "kronoloji_adi": "Falkirk",
+  "lat": 55.999104,
+  "lon": -3.784948,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Senlis",
+  "kronoloji_adi": "Senlis",
+  "lat": 49.2051355,
+  "lon": 2.585975,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Auxerre",
+  "kronoloji_adi": "Auxerre",
+  "lat": 47.7978475,
+  "lon": 3.573539,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Laon",
+  "kronoloji_adi": "Laon",
+  "lat": 49.56409,
+  "lon": 3.6245035,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Almuñécar",
+  "kronoloji_adi": "Almuñécar",
+  "lat": 36.734589,
+  "lon": -3.690755,
+  "devlet_bolgeleri": [
+   "iberya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Cerami",
+  "kronoloji_adi": "Cerami",
+  "lat": 37.809495,
+  "lon": 14.508204,
+  "devlet_bolgeleri": [
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Cassel",
+  "kronoloji_adi": "Cassel",
+  "lat": 50.799218,
+  "lon": 2.486896,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Solin",
+  "kronoloji_adi": "Solin",
+  "lat": 43.539561,
+  "lon": 16.483426,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Uclés",
+  "kronoloji_adi": "Uclés",
+  "lat": 39.98188,
+  "lon": -2.86232,
+  "devlet_bolgeleri": [
+   "iberya",
+   "kuzey-afrika"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Enns",
+  "kronoloji_adi": "Enns",
+  "lat": 48.22176695,
+  "lon": 14.47483505,
+  "devlet_bolgeleri": [
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Béziers",
+  "kronoloji_adi": "Béziers",
+  "lat": 43.3416765,
+  "lon": 3.217941,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Millau",
+  "kronoloji_adi": "Millau",
+  "lat": 44.089894277,
+  "lon": 3.11066731599,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Apulia",
+  "kronoloji_adi": "Apulia",
+  "lat": 41.1197243031,
+  "lon": 16.1735916107,
+  "devlet_bolgeleri": [
+   "italya",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Asti",
+  "kronoloji_adi": "Asti",
+  "lat": 44.900895,
+  "lon": 8.206756,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Pannonia",
+  "kronoloji_adi": "Pannonia",
+  "lat": 47.5,
+  "lon": 17.5,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "bati-avrupa",
+   "italya",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Gallaecia",
+  "kronoloji_adi": "Gallaecia",
+  "lat": 42.1308685419,
+  "lon": -8.25359799148,
+  "devlet_bolgeleri": [
+   "iberya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Dacia",
+  "kronoloji_adi": "Dacia",
+  "lat": 47.5,
+  "lon": 22.5,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "italya",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Britannia",
+  "kronoloji_adi": "Britannia",
+  "lat": 53.826,
+  "lon": -2.422,
+  "devlet_bolgeleri": [
+   "italya"
+  ],
+  "durum": "UYUMSUZ",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Sicilya",
+  "kronoloji_adi": "Sicilya",
+  "lat": 37.65,
+  "lon": 14.1,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "bati-avrupa",
+   "italya",
+   "kuzey-afrika",
+   "kuzey-amerika",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "İfrîkıye",
+  "kronoloji_adi": "İfrîkıye",
+  "lat": 35.68,
+  "lon": 10.1,
+  "devlet_bolgeleri": [
+   "italya",
+   "kuzey-afrika",
+   "mezopotamya",
+   "misir-sudan"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "İtalya",
+  "kronoloji_adi": "İtalya",
+  "lat": 42.8,
+  "lon": 12.5,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "italya",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Endülüs",
+  "kronoloji_adi": "Endülüs",
+  "lat": 37.89,
+  "lon": -4.78,
+  "devlet_bolgeleri": [
+   "bati-afrika",
+   "mezopotamya"
+  ],
+  "durum": "UYUMSUZ",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Trakya",
+  "kronoloji_adi": "Trakya",
+  "lat": 41.6,
+  "lon": 26.8,
+  "devlet_bolgeleri": [
+   "balkanlar"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Makedonya",
+  "kronoloji_adi": "Makedonya",
+  "lat": 41.5,
+  "lon": 21.7,
+  "devlet_bolgeleri": [
+   "balkanlar"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Toskana",
+  "kronoloji_adi": "Toskana",
+  "lat": 43.5,
+  "lon": 11.1,
+  "devlet_bolgeleri": [
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Mora",
+  "kronoloji_adi": "Mora",
+  "lat": 37.2,
+  "lon": 22.3,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "misir-sudan"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Saluzzo",
+  "kronoloji_adi": "Saluzzo",
+  "lat": 44.6465,
+  "lon": 7.4896,
+  "devlet_bolgeleri": [
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Haliç",
+  "kronoloji_adi": "Haliç",
+  "lat": 49.1177,
+  "lon": 24.7245,
+  "devlet_bolgeleri": [
+   "dogu-asya",
+   "dogu-avrupa",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Sarmizegetusa",
+  "kronoloji_adi": "Sarmizegetusa",
+  "lat": 45.62289,
+  "lon": 23.31041,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Melun",
+  "kronoloji_adi": "Melun",
+  "lat": 48.5457,
+  "lon": 2.65356,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Legnano",
+  "kronoloji_adi": "Legnano",
+  "lat": 45.59788,
+  "lon": 8.91506,
+  "devlet_bolgeleri": [
+   "italya",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Bulgaristan",
+  "kronoloji_adi": "Bulgaristan",
+  "lat": 42.769,
+  "lon": 25.218,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "dogu-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Dalmaçya",
+  "kronoloji_adi": "Dalmaçya",
+  "lat": 43.799,
+  "lon": 16.285,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Normandiya",
+  "kronoloji_adi": "Normandiya",
+  "lat": 49.158,
+  "lon": -0.122,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "kuzey-amerika",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Bretanya",
+  "kronoloji_adi": "Bretanya",
+  "lat": 48.031,
+  "lon": -2.597,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Kafkasya",
+  "kronoloji_adi": "Kafkasya",
+  "lat": 43.014,
+  "lon": 43.753,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "iran",
+   "italya",
+   "mezopotamya",
+   "orta-avrupa",
+   "sibirya-bozkir",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Hırvatistan",
+  "kronoloji_adi": "Hırvatistan",
+  "lat": 45.156,
+  "lon": 16.419,
+  "devlet_bolgeleri": [
+   "balkanlar"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Karpat havzası",
+  "kronoloji_adi": "Karpat havzası",
+  "lat": 47.45,
+  "lon": 22.98,
+  "devlet_bolgeleri": [
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Macaristan",
+  "kronoloji_adi": "Macaristan",
+  "lat": 47.163,
+  "lon": 19.397,
+  "devlet_bolgeleri": [
+   "orta-avrupa",
+   "sibirya-bozkir"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Britanya",
+  "kronoloji_adi": "Britanya",
+  "lat": 53.93,
+  "lon": -2.49,
+  "devlet_bolgeleri": [
+   "bati-avrupa",
+   "italya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Norveç",
+  "kronoloji_adi": "Norveç",
+  "lat": 64.239,
+  "lon": 14.022,
+  "devlet_bolgeleri": [
+   "kuzey-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Balkanlar",
+  "kronoloji_adi": "Balkanlar",
+  "lat": 42.356,
+  "lon": 22.004,
+  "devlet_bolgeleri": [
+   "dogu-avrupa",
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Danimarka",
+  "kronoloji_adi": "Danimarka",
+  "lat": 56.227,
+  "lon": 9.375,
+  "devlet_bolgeleri": [
+   "kuzey-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "İspanya",
+  "kronoloji_adi": "İspanya",
+  "lat": 40.39,
+  "lon": -3.563,
+  "devlet_bolgeleri": [
+   "suriye-filistin"
+  ],
+  "durum": "UYUMSUZ",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Gürcistan",
+  "kronoloji_adi": "Gürcistan",
+  "lat": 42.169,
+  "lon": 43.508,
+  "devlet_bolgeleri": [
+   "kafkasya",
+   "sibirya-bozkir"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Litvanya",
+  "kronoloji_adi": "Litvanya",
+  "lat": 55.327,
+  "lon": 23.894,
+  "devlet_bolgeleri": [
+   "dogu-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Almanya",
+  "kronoloji_adi": "Almanya",
+  "lat": 51.087,
+  "lon": 10.371,
+  "devlet_bolgeleri": [
+   "orta-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Hollanda",
+  "kronoloji_adi": "Hollanda",
+  "lat": 52.282,
+  "lon": 5.639,
+  "devlet_bolgeleri": [
+   "bati-avrupa"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Moğolistan",
+  "kronoloji_adi": "Moğolistan",
+  "lat": 46.826,
+  "lon": 103.056,
+  "devlet_bolgeleri": [
+   "dogu-asya",
+   "orta-asya",
+   "sibirya-bozkir"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js"
+ },
+ {
+  "ad": "Tayland",
+  "kronoloji_adi": "Tayland",
+  "lat": 15.137,
+  "lon": 101.009,
+  "devlet_bolgeleri": [
+   "guneydogu-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js"
+ },
+ {
+  "ad": "Japonya",
+  "kronoloji_adi": "Japonya",
+  "lat": 36.651,
+  "lon": 137.972,
+  "devlet_bolgeleri": [
+   "dogu-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js"
+ },
+ {
+  "ad": "Kamboçya",
+  "kronoloji_adi": "Kamboçya",
+  "lat": 12.718,
+  "lon": 104.905,
+  "devlet_bolgeleri": [
+   "guneydogu-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js"
+ },
+ {
+  "ad": "Kore yarımadası",
+  "kronoloji_adi": "Kore yarımadası",
+  "lat": 37.962,
+  "lon": 127.153,
+  "devlet_bolgeleri": [
+   "dogu-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js"
+ },
+ {
+  "ad": "Sumatra",
+  "kronoloji_adi": "Sumatra",
+  "lat": -0.447,
+  "lon": 101.514,
+  "devlet_bolgeleri": [
+   "guneydogu-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js"
+ },
+ {
+  "ad": "Vietnam",
+  "kronoloji_adi": "Vietnam",
+  "lat": 16.658,
+  "lon": 106.301,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_dogu_gd_asya.js"
+ },
+ {
+  "ad": "Kançipuram (Kanchipuram)",
+  "kronoloji_adi": "Kançipuram",
+  "lat": 12.836393,
+  "lon": 79.7053304,
+  "devlet_bolgeleri": [
+   "guney-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_hint.js"
+ },
+ {
+  "ad": "Hindistan",
+  "kronoloji_adi": "Hindistan",
+  "lat": 20.6,
+  "lon": 79.5,
+  "devlet_bolgeleri": [
+   "dogu-asya"
+  ],
+  "durum": "UYUMSUZ",
+  "dosya": "yerlesimler_once1281_yt_hint.js"
+ },
+ {
+  "ad": "Beşbalık",
+  "kronoloji_adi": "Beşbalık",
+  "lat": 44.069,
+  "lon": 89.19,
+  "devlet_bolgeleri": [
+   "orta-asya",
+   "sibirya-bozkir"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_hint.js"
+ },
+ {
+  "ad": "Tibet",
+  "kronoloji_adi": "Tibet",
+  "lat": 33.375,
+  "lon": 90.304,
+  "devlet_bolgeleri": [
+   "dogu-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_hint.js"
+ },
+ {
+  "ad": "Bactria",
+  "kronoloji_adi": "Bactria",
+  "lat": 37.4104997452,
+  "lon": 67.1536516955,
+  "devlet_bolgeleri": [
+   "iran",
+   "orta-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
+ },
+ {
+  "ad": "Tirmiz",
+  "kronoloji_adi": "Tirmiz",
+  "lat": 37.2642696871,
+  "lon": 67.1924807471,
+  "devlet_bolgeleri": [
+   "iran",
+   "orta-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
+ },
+ {
+  "ad": "Soğd",
+  "kronoloji_adi": "Soğd",
+  "lat": 38.9571055737,
+  "lon": 66.8077372132,
+  "devlet_bolgeleri": [
+   "orta-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
+ },
+ {
+  "ad": "Cürcân",
+  "kronoloji_adi": "Cürcân",
+  "lat": 37.1,
+  "lon": 56.3,
+  "devlet_bolgeleri": [
+   "iran",
+   "orta-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
+ },
+ {
+  "ad": "Deylem",
+  "kronoloji_adi": "Deylem",
+  "lat": 37.2300116507,
+  "lon": 48.8437981194,
+  "devlet_bolgeleri": [
+   "iran",
+   "mezopotamya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
+ },
+ {
+  "ad": "Azerbaycan",
+  "kronoloji_adi": "Azerbaycan",
+  "lat": 38.0,
+  "lon": 46.3,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "dogu-asya",
+   "iran",
+   "kafkasya",
+   "mezopotamya",
+   "sibirya-bozkir",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
+ },
+ {
+  "ad": "Tohâristân",
+  "kronoloji_adi": "Tohâristân",
+  "lat": 36.75,
+  "lon": 67.0,
+  "devlet_bolgeleri": [
+   "dogu-asya",
+   "iran",
+   "orta-asya",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
+ },
+ {
+  "ad": "Fergana",
+  "kronoloji_adi": "Fergana",
+  "lat": 40.644,
+  "lon": 71.643,
+  "devlet_bolgeleri": [
+   "dogu-asya",
+   "suriye-filistin"
+  ],
+  "durum": "UYUMSUZ",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
+ },
+ {
+  "ad": "Pakistan",
+  "kronoloji_adi": "Pakistan",
+  "lat": 29.949,
+  "lon": 69.341,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_iran_orta_asya.js"
+ },
+ {
+  "ad": "Rey",
+  "kronoloji_adi": "Rey",
+  "lat": 35.594267,
+  "lon": 51.447163,
+  "devlet_bolgeleri": [
+   "iran",
+   "kafkasya",
+   "orta-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Elam",
+  "kronoloji_adi": "Elam",
+  "lat": 31.6995707721,
+  "lon": 49.6181605827,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Bostra (Buşrá ash Shām)",
+  "kronoloji_adi": "Bostra",
+  "lat": 32.5204513362,
+  "lon": 36.4813007519,
+  "devlet_bolgeleri": [
+   "italya",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Media",
+  "kronoloji_adi": "Media",
+  "lat": 35.0482414358,
+  "lon": 48.9193312443,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Elymais",
+  "kronoloji_adi": "Elymais",
+  "lat": 32.3274812687,
+  "lon": 48.503006879,
+  "devlet_bolgeleri": [
+   "iran",
+   "mezopotamya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Havran",
+  "kronoloji_adi": "Havran",
+  "lat": 32.7335787681,
+  "lon": 36.5348059738,
+  "devlet_bolgeleri": [
+   "iran",
+   "italya",
+   "mezopotamya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Akrabâ (‘Aqrabā)",
+  "kronoloji_adi": "Akrabâ",
+  "lat": 33.110675,
+  "lon": 36.007157,
+  "devlet_bolgeleri": [
+   "arabistan"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Alamut",
+  "kronoloji_adi": "Alamut",
+  "lat": 36.4447,
+  "lon": 50.5862,
+  "devlet_bolgeleri": [
+   "iran",
+   "orta-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Filistin",
+  "kronoloji_adi": "Filistin",
+  "lat": 31.93,
+  "lon": 34.87,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "balkanlar",
+   "iran",
+   "mezopotamya",
+   "misir-sudan",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Fars",
+  "kronoloji_adi": "Fars",
+  "lat": 29.62,
+  "lon": 52.53,
+  "devlet_bolgeleri": [
+   "iran",
+   "mezopotamya",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Cibâl",
+  "kronoloji_adi": "Cibâl",
+  "lat": 34.8,
+  "lon": 48.5,
+  "devlet_bolgeleri": [
+   "iran",
+   "mezopotamya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Hûzistan",
+  "kronoloji_adi": "Hûzistan",
+  "lat": 32.27,
+  "lon": 48.5,
+  "devlet_bolgeleri": [
+   "mezopotamya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Hadramut",
+  "kronoloji_adi": "Hadramut",
+  "lat": 15.95,
+  "lon": 48.75,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "mezopotamya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Necran",
+  "kronoloji_adi": "Necran",
+  "lat": 17.485,
+  "lon": 44.153,
+  "devlet_bolgeleri": [
+   "arabistan"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Zafâr",
+  "kronoloji_adi": "Zafâr",
+  "lat": 14.211704,
+  "lon": 44.400794,
+  "devlet_bolgeleri": [
+   "arabistan"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Dînever",
+  "kronoloji_adi": "Dînever",
+  "lat": 34.617525,
+  "lon": 47.462217,
+  "devlet_bolgeleri": [
+   "iran"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Yemen",
+  "kronoloji_adi": "Yemen",
+  "lat": 15.935,
+  "lon": 47.542,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "balkanlar",
+   "dogu-afrika",
+   "iran",
+   "mezopotamya",
+   "misir-sudan"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Irak",
+  "kronoloji_adi": "Irak",
+  "lat": 33.04,
+  "lon": 43.745,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "iran",
+   "mezopotamya",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Tihâme",
+  "kronoloji_adi": "Tihâme",
+  "lat": 18.384,
+  "lon": 41.746,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "mezopotamya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Ürdün",
+  "kronoloji_adi": "Ürdün",
+  "lat": 31.246,
+  "lon": 36.771,
+  "devlet_bolgeleri": [
+   "arabistan",
+   "balkanlar",
+   "suriye-filistin"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "İran",
+  "kronoloji_adi": "İran",
+  "lat": 32.577,
+  "lon": 54.276,
+  "devlet_bolgeleri": [
+   "iran",
+   "orta-asya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Lübnan",
+  "kronoloji_adi": "Lübnan",
+  "lat": 33.92,
+  "lon": 35.88,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Hicaz",
+  "kronoloji_adi": "Hicaz",
+  "lat": 25.999,
+  "lon": 37.745,
+  "devlet_bolgeleri": [
+   "mezopotamya"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ }
+]

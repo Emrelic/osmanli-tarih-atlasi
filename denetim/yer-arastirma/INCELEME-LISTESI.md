@@ -1,6 +1,6 @@
 # YER-TANIMA — insan inceleme kontrol listesi (21 Ekim 2026)
 
-Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARAC-YER-INCELEME-1021.py`. Toplam 128 kayıt: 50 yerleşim, 78 bölge temsilcisi.
+Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARAC-YER-INCELEME-1021.py`. Toplam 127 kayıt: 50 yerleşim, 77 bölge temsilcisi.
 
 ## Nasıl bakılır
 
@@ -11,7 +11,7 @@ Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARA
 
 ## Risk özeti
 
-- BÖLGE: modern/tek merkez; tarihî sınır değil: 78
+- BÖLGE: modern/tek merkez; tarihî sınır değil: 77
 - Natural Earth son çare (çift tanık değil): 37
 - konum yaklaşık: 6
 - DAI/GeoNames aynı koordinat olabilir: 5
@@ -33,7 +33,6 @@ Kaynak: `data/yerlesimler_once1281_yt_*.js` (BAĞLANMADI). Üreten: `denetim/ARA
 | Sart | sehir | 38.488314, 28.040286 | anadolu_kafkas | ÇİFT TANIK: Pleiades pleiades.stoa.org/places/550867 ( Sardis/Hyde?, settlement, precise) (38.488314, 28.040286) · GeoNames geonames.org/301496 (Sartmahmut, TR) (38.49736, 28.04239) | — |
 | Nīnawā (Mosul) | sehir | 36.3607615238, 43.1599368897 | anadolu_kafkas | ÇİFT TANIK: Pleiades pleiades.stoa.org/places/874621 (Nineveh/Ninos, settlement, archaeological-site, precise) (36.3607615238, 43.1599368897) · GeoNames geonames.org/99072 (Mosul, IQ) (36.335, 43.11889) | alias TDV ile teyitli (gövde okundu) |
 | Adiabene | bolge | 36.1913213311, 44.0093823647 | anadolu_kafkas | TEMSİLCİ NOKTA (çift tanık değil, bölge): Pleiades pleiades.stoa.org/places/893935 (36.1913213311, 44.0093823647) | BÖLGE: modern/tek merkez; tarihî sınır değil |
-| Lade | bolge | 37.5234882513, 27.177045886 | anadolu_kafkas | TEMSİLCİ NOKTA (çift tanık değil, bölge): Pleiades pleiades.stoa.org/places/599746 (37.5234882513, 27.177045886) | BÖLGE: modern/tek merkez; tarihî sınır değil |
 | Bâlis (Maskanah) | sehir | 35.9870271966, 38.1111142153 | anadolu_kafkas | ÇİFT TANIK: Pleiades pleiades.stoa.org/places/668208 (Barbalissus, settlement, archaeological-site, precise) (35.9870271966, 38.1111142153) · GeoNames geonames.org/167080 (Maskanah, SY) (35.96577, 38.04165) | — |
 | Yakapınar | sehir | 36.9580404953, 35.6223738026 | anadolu_kafkas | ÇİFT TANIK: Pleiades pleiades.stoa.org/places/658538 (Mopsou(h)estia/Seleukeia pros to Pyramo, settlement, precise) (36.9580404953, 35.6223738026) · GeoNames geonames.org/297882 (Yakapınar, TR) (36.97342, 35.62043) | — |
 | Sis (Kozan) | sehir | 37.4488715, 35.8163535 | anadolu_kafkas | ÇİFT TANIK: Pleiades pleiades.stoa.org/places/34546779 (Sissû, settlement, precise) (37.4488715, 35.8163535) · GeoNames geonames.org/306112 (Kozan, TR) (37.45517, 35.81573) | — |
