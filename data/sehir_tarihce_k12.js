@@ -243,6 +243,49 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS NOKTASI BÖLGE TEMSİLCİSİDİR (47.498, 19.040; Buda/Pest Tuna kıyısı). SAF AQUINCUM (Óbuda lejyon kampı ve kent) ~7 km kuzeyde (Óbuda ~47.56-47.57, 19.04; kendi hesabım) => >3 km kuralı gereği saf Aquincum bu kayda yazılmaz, AYRI KAYIT ÖNERİLİR: 'Aquincum (Óbuda)' (47.5625, 19.04 yakını), ilk yazılı tanık Ptolemaios Geogr. 2.15 (tp-online.ku.de arama özeti: Ακούϊγκον; sayfa 403, AÇILAMADI), lejyon kampı 89 (BHM Aquincum Müzesi), municipium ~124, colonia 194. Bu kayıt, ≤3 km içindeki yerleşimlerden (Víziváros Roma kalesi ~MS 49, ~1 km; Gellért-hegyi Eravisci oppidumu MÖ 1. yy, ~1,4 km; Contra-Aquincum/Pest) başlatıldı; hesaplar benim, kaynak değil. Dolayısıyla ilk.nicelik 'arkeolojik' (bu noktaya ait yazılı tanık bulunamadı); Treccani EI: 'Keltler Ó-Buda yerinde Akink adlı kenti kurdu' (tarihsiz) — kur yazılmadı. Buda KALESİ 1241-42 sonrasıdır (IV. Béla; TDV+Treccani çift teyit) ve bu nokta o kaleden >1000 yıl önce başlar; Ofen/Pest adları: Treccani EI (fırın/Ofen, Slavca Pest, Macarlar öncesi). KAYNAKLAR: BHM Aquincum Müzesi 'A short history of Aquincum' (kurumsal arkeoloji sitesi, hakemli değil); Munteán 2021 Hungarian Cultural Studies 14 (hakemli e-dergi; ikincil); Treccani EAA 1973 + EI 1930 (Aquincum madde slug'ı EI'de açılmadı); TDV Macaristan/Budin/Bizans/Avarlar. AÇILAMAYAN: Pleiades yer sayfası (arama alakasız), tp-online 403, Livius Singidunum/Belgrade zaman aşımı, Brill/Pauly, Budapest Régiségei tam metin, Acta Arch. Hung. 2021 PDF boş döndü. Unvan boşluk: 455-567 ve 796-900 __BOSLUK__. 1000 dikişi: atlas macaristan 1000-01-01 ile zincir sonu macar-prensligi; künye geçişi olayı yazıldı."
  },
  {
+  "id": "astrahan",
+  "ad": "Astrahan",
+  "atlas_ad": "Astrahan",
+  "lat": 46.348,
+  "lon": 48.033,
+  "kat1900": 2,
+  "adlar": [
+   "Hacıtarhan / Ḥāǰǰī Tarḵān (eski Astrahan, ~11 km yukarıda — ayrı kayıt önerisi)",
+   "Citracano (Ceneviz)",
+   "Astrahan / Astrakhan (şimdiki yer)"
+  ],
+  "ilk": {
+   "t": "1557-01-01",
+   "gun": "1556-57 (güvenli uç 1557)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica, \"ASTRAKHAN\" (B. Spuler, 1987), https://www.iranicaonline.org/articles/astrakhan",
+   "tanik": "Since then the town has stood on the present site.",
+   "ic_not": "BU NOKTA ESKİ HACITARHAN DEĞİL: Iranica \"Astrakhan\" (Spuler): Hacıtarhan \"bir tepede, bugünkü şehir merkezinin ~11 km yukarısındaydı\"; Rus fethinden (1554, nihai 1556-57) sonra \"şehir şimdiki yerde durmaktadır\". Wikipedia (2. tanık): ruins 12 km yukarıda, Korkunç İvan Kremlin'i 1558'de şimdiki yerde kurdu — \"modern şehrin kuruluşu 1558 sayılır\" (Iranica 1556-57 ile 1 yıl fark; Iranica esas, güvenli uç 1557). Emre kuralı (antik/eski yer >3 km → ayrı kayıt) gereği Hacıtarhan BURADA yazılmadı; AYRI KAYIT ÖNERİLİR: \"Hacıtarhan (Astarhan Eski)\" ~46.27 K, 48.0 D civarı (kendi tahminim, ölçülmedi), ilk anılış: Iranica \"İbn Battûta 1333'te şehri ilk kez anar\" (hacı tarhan efsanesi); Wikipedia \"13. yy başında seyyahlarca Xacitarxan diye anıldı\" (kaynaksız, Iranica ile çelişir → Iranica esas); zincir: Altın Orda (1333'te) → Timur yıkımı 1395 → Astarhan Hanlığı 1466 → Rus 1554/1556-57 (Iranica) — bu zincir eski Hacıtarhan'ın."
+  },
+  "kur": {
+   "t": "1557-01-01",
+   "gun": "1556-57 (güvenli uç 1557)",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica, \"ASTRAKHAN\" (B. Spuler, 1987), https://www.iranicaonline.org/articles/astrakhan",
+   "tanik": "Since then the town has stood on the present site."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1557-01-01",
+    "gun": "1557 (1556-57)",
+    "k": "fetih",
+    "b": "Astarhan Hanlığı Rusya'ya geçer (1554 ilk, 1556-57 nihai); şehir şimdiki yerde kurulur.",
+    "kaynak": "Encyclopaedia Iranica, \"ASTRAKHAN\" (B. Spuler, 1987), https://www.iranicaonline.org/articles/astrakhan",
+    "tanik": "fell into Russian hands, first in 1554 and finally in 1556-57"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: şimdiki Astrahan 1281'den sonra kurulmuştur. ATLAS DÜZELTME ÖNERİSİ: atlas bu noktayı 1281'de altinorda, 1502'de astarhan ile açıyor; bu dilimler eski Hacıtarhan'a ait ve ~11 km farklı bir yerdir — ya atlas noktası eski Hacıtarhan'a taşınmalı (1333/1281 öncesi) ya da 1281-1557 dilimi kırpılıp Hacıtarhan ayrı nokta olmalı. kat1900=2 (Astrahan guberniyası merkezi)."
+ },
+ {
   "id": "bahcesaray",
   "ad": "Bahçesaray",
   "atlas_ad": "Bahçesaray",
@@ -710,6 +753,230 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas Belgrad'ı 1281-01-01'de d:sirbistan ile başlatıyor; kaynak YOK. Uzelac 2025 (Crkvene studije 22, Sırp Tarih Enstitüsü): 1281'de Mačva/Belgrad Macar denetiminde (1280-84 Kraliçe-anne Elizabeth), Dragutin'e devir 1284'ün ikinci yarısında (11 Haziran 1284'ten sonra, Danilo II'ye göre güzden önce). ÖNERİ: atlasta Belgrad 1281-1284 macaristan, 1284 (ikinci yarı) sonrası Dragutin'in 'Sremski kralj' yönetimi (künye sirbistan-nemanjic 1166-1402 Nemanjić hanedanı olarak uygun, ayrı 'Sırmiya/Dragutin' künyesi gerekmez ama Macar fief statüsü beyan edilmeli); sonra 1316 (Dragutin ölümü) ve 1354 (TDV: Stefan Duşan alır) kontrol edilmeli. Atlas iddiası 1281-01-01 için yer tutucu olay YAZILMADI.",
   "ic_not": "KAYNAK ZİNCİRİ: TDV 'Belgrad' (Djuric-Zamolo, 1992; Scordisci MÖ III. yy Karaburma, Roma lejyon kampı MS I. yy sonu, 441 Hun yıkımı, VII. yy başı Avar-Slav yıkımı, 878 piskoposluk, 1354 Duşan, 1403 Lazareviç); Treccani EI 'Belgrado' (1930; Romanelli-Novak-Pernice-Milone: Singidunum antik tarihi, Ptol. III,9,3, IV Flavia, colonia, 441, Iustinianos, Avarlar VII. yy başı, IX. yy sonrası Bulgar, XI-XII. yy Bizans stratejosu, 1124/1154/1180-83, Macar egemenliği); Treccani EAA 'Singidunum' (Novak 1966); Arkeoloji Enstitüsü Belgrad 'Singidunum–Belgrade' (2023, https://ai.ac.rs/en/7651/); Uzelac 2025 (Sırp Tarih Enstitüsü, hakemli). ÇİFT TEYİT: 441 Hun yıkımı (TDV + Treccani EAA/EI); Iustinianos surları (TDV + Treccani EAA/EI); VII. yy başı Avar-Slav yıkımı ve ardından haber yokluğu (TDV + Treccani EI); Ptolemaios ilk anılış (Arkeoloji Enstitüsü + Treccani EI, ikisi de Ptol. III,9,3 / 'Geography'). ÇELİŞKİ: colonia tarihi (239 EAA; Severus sonrası EI/Arkeoloji Enstitüsü; 287 ilk yazıt). Singidunum antik yeri (Kalemegdan kalesi, ~44.823, 20.45) atlas noktasına ~0,6 km (kendi hesabım): >3 km kuralı İHLAL YOK. Karaburma (Scordisci, ~44.815, 20.508) ~4 km => ayrı kayıt önerisi. AÇILAMAYAN: Livius Singidunum/Belgrade (zaman aşımı), Pleiades, Srpska enciklopedija, Istorija Beograda I (Sırp akademik monografi), Fine 'Late Medieval Balkans' (WebSearch yalnız Vikipedi dipnotu), Durham tezi PDF. Boşluklar: 441-565 __BOSLUK__; 601-878 __BILINMIYOR__ (Hun sonrası Got/Gepid/Herul ve Avar-Slav belirsizliği). Künye uyarıları: birinci-bulgar bitişi 1018 vs TDV 1014."
+ },
+ {
+  "id": "berde-karabag",
+  "ad": "Berde (Karabağ)",
+  "atlas_ad": "Berde (Karabağ)",
+  "lat": 40.3747,
+  "lon": 47.1281,
+  "kat1900": 3,
+  "adlar": [
+   "Pʿartaw / Partav (Ermenice)",
+   "Pērōzabād / Pērōzāpāt, Pērōzkavād (Sasani)",
+   "Bardaʿa / Barḏaʿa (Arapça)",
+   "Bardavi (Gürcüce)",
+   "Berde / Barda"
+  ],
+  "ilk": {
+   "t": "0462-01-01",
+   "gun": "462 (459-462 aralığının son ucu)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica, \"ALBANIA\", https://www.iranicaonline.org/articles/albania",
+   "tanik": "Pʿartaw was rebuilt by Pērōz under the name of Pērōzabād",
+   "ic_not": "Yeniden inşa tanığıdır, KURULUŞ DEĞİL: Iranica \"Pʿartaw, a former Armenian town ... was set up as the capital of Albania perhaps at the end of the 4th century\" (Hübschmann, Trever; \"perhaps\" = varsayım, tarihli yazılı tanık yok). Pērōz'ün Sasani tahtına çıkışı 459 (Iranica Albania), Vače kralken inşa; Wikipedia (ikinci tanık) Vache II r. 440-462 verir → güvenli uç 462. Wikipedia \"Barda, Azerbaijan\" Perozapat'ın Peroz'un doğrudan kurduğunu söyler (Gadjiev/Perikhanian ad kökeni tartışması) — Iranica ile çelişir (Iranica: eski Ermeni kasabası); Iranica esas."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0462-01-01",
+    "t": "0645-01-01",
+    "d": "sasani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"ALBANIA\", https://www.iranicaonline.org/articles/albania; Encyclopaedia Iranica, \"ARRĀN\" (C. E. Bosworth), https://www.iranicaonline.org/articles/arran",
+    "ic_not": "Sasani marzbân'ının merkezi Pʿartaw/Pērōzabād/Pērōzkavād (Iranica Albania). Albania kralları Sasani vasalı. f: ilk.t. t: Iranica Arrān \"ca. 24/645\"te Partaw'ın Arap fethi (hicrî 24 = 644-11-07'de başlar; kaynak miladî 645 verdiği için 645-01-01 alındı, \"ca.\"); Iranica Barḏaʿa maddesi \"muhtemelen 32/652'den önce, Osman'ın halifeliğinde\" der — iki ucu arası ~7 yıl, Arrān maddesinin ucu seçildi."
+   },
+   {
+    "f": "0645-01-01",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"ARRĀN\" (C. E. Bosworth), https://www.iranicaonline.org/articles/arran; Encyclopaedia Iranica, \"BARḎAʿA\" (C. E. Bosworth), https://iranicaonline.org/articles/bardaa-or-bardaa-arm",
+    "ic_not": "Arab denetimi \"hafif ve belirsiz\", Arrān Mihrânî yerli prenslere haraç şartıyla bırakıldı (Iranica Arrān) — fiilî sahip Mihrânî prensleri, ama Halifelik'e bağlı olduğu için hulefa künyesi alındı (beyanlı yaklaşıklık). t: Hulefâ-yi Râşidîn → Emevî künye geçişi 29 Temmuz 661 (TDV Muâviye)."
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0750-08-05",
+    "d": "emevi",
+    "kesinlik": "gun",
+    "kaynak": "Encyclopaedia Iranica, \"ARRĀN\" (C. E. Bosworth), https://www.iranicaonline.org/articles/arran",
+    "ic_not": "Emevîler döneminde Berde Ermenistan/Arrân valisinin tahkim ettiği sınır kalesi (Iranica Barḏaʿa: Hazar akınlarına karşı; Abdülmelik döneminde tahkim). Arrân prensleri aynı anda Arap, Bizans ve Hazarlara haraç ödedi (Varaz-Trdat I, ö. 705, Iranica Arrān) — çoklu üstünlük, Emevî alındı."
+   },
+   {
+    "f": "0750-08-05",
+    "t": "0941-09-26",
+    "d": "abbasi",
+    "kesinlik": "gun",
+    "kaynak": "Encyclopaedia Iranica, \"ARRĀN\" (C. E. Bosworth), https://www.iranicaonline.org/articles/arran",
+    "ic_not": "Abbâsîler Arrān'da 145/762'den itibaren \"Arrān\" darphanesinden (Berde ya da Beylekān) para bastı (Iranica Arrān). 861-62'de halife Bagratuni Aşot'u bölgenin başı tanıdı; Sajîler (889-929) ve Mosaferîler'in Arrān'ı ele alışı yıl vermeyen cümlelerle anlatılır — Sajî dönemi ayrı dönem AÇILMADI (Berde'ye özgü tanık yok). t: Mosaferî Marzobân'ın Arrān'daki hükmü \"330-46/941-57\"; hicrî 330 ∩ 941 → 941-09-26."
+   },
+   {
+    "f": "0941-09-26",
+    "t": "0993-02-26",
+    "d": "musafiri",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"ARRĀN\" (C. E. Bosworth), https://www.iranicaonline.org/articles/arran; Encyclopaedia Iranica, \"BARḎAʿA\" (C. E. Bosworth), https://iranicaonline.org/articles/bardaa-or-bardaa-arm",
+    "ic_not": "Mosaferî (Sellârî/Kengerî) Marzobân b. Muhammed 330-46/941-57; oğlu İbrâhim. Rus akını (943) Mosaferî Marzobân tarafından atlatıldı (Iranica Barḏaʿa). Iranica: Mosaferîler Azerbaycan ve Arrân'da Revvâdîler baskısıyla konumlarını koruyamadı — bitiş yılı yok. t: Şeddâdîler'in Berde'yi alışı 383/993; hicrî 383 ∩ 993 → 993-02-26."
+   },
+   {
+    "f": "0993-02-26",
+    "t": "1075-08-16",
+    "d": "seddadiler-gence",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"BARḎAʿA\" (C. E. Bosworth), https://iranicaonline.org/articles/bardaa-or-bardaa-arm; Encyclopaedia Iranica, \"ARRĀN\" (C. E. Bosworth), https://www.iranicaonline.org/articles/arran; TDV İslâm Ansiklopedisi, \"Şeddâdîler\", https://islamansiklopedisi.org.tr/seddadiler",
+    "ic_not": "Gence Şeddâdîleri 360/970'ten Gence'de (Iranica Arrān); Berde 383/993'te alındı (Iranica Barḏaʿa). t: TDV Şeddâdîler \"Savtegin'in Arrân'ı zaptetmesi (468/1075-76) ... Gence kolu sona erdi\"; hicrî 468 = 1075-08-16'da başlar, 1075-76 ile kesişimin ilk günü. KÜNYE AŞIMI: seddadiler-gence künyesi 1075-01-01'de bitiyor, dönem ~7,5 ay uzıyor (hayalet uyarısı) — künye GENİŞLET önerisi. TDV Gence ise 1076'da Melikşah'ın Gence'yi geçici aldığını, 1088'de kesin Selçuklu hâkimiyetini söyler (çelişki: Şeddâdîler maddesi seçildi, bölgenin Selçuklu idaresine girişini vermesi nedeniyle)."
+   },
+   {
+    "f": "1075-08-16",
+    "t": "1137-01-01",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Şeddâdîler\", https://islamansiklopedisi.org.tr/seddadiler; TDV İslâm Ansiklopedisi, \"Gence\", https://islamansiklopedisi.org.tr/gence",
+    "ic_not": "Selçuklu valisi Savtegin; 1093 Gence ve çevresi Muhammed Tapar'a iktâ; 1127'de Gence ve Arrân Selçuklu valileri Karasungur ve Çavlı'nın idaresinde (TDV Gence). Irak Selçukluları (künye 1118-) ayrımı Berde'ye özgü kaynak olmadığı için yapılmadı. t: TDV Gence \"Şemseddin İldeniz (1137-1175)\"."
+   },
+   {
+    "f": "1137-01-01",
+    "t": "1225-01-01",
+    "d": "ildenizli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Gence\", https://islamansiklopedisi.org.tr/gence",
+    "ic_not": "İldenizliler Gence merkezli Arrân/Azerbaycan atabegleri; künye f=1148 iken TDV Şemseddin İldeniz'i 1137'den başlatır (hayalet uyarısı: künye GENİŞLET). Berde'ye özgü tanık yok — Arrân abi merkezi Gence (ABİ MERKEZ: Gence — TDV Gence). t: Celâleddin Hârizmşah 1225 Gence'yi Cemâleddin'den teslim aldı."
+   },
+   {
+    "f": "1225-01-01",
+    "t": "1231-01-01",
+    "d": "harizmsah",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Gence\", https://islamansiklopedisi.org.tr/gence",
+    "ic_not": "Abi merkez Gence'nin akıbetine bağlandı (TDV Gence). t: 1231'de Gence ahalisi Hârizm garnizonunu bastı (künye 1231'de biter)."
+   },
+   {
+    "f": "1231-01-01",
+    "t": "1235-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Gence\", https://islamansiklopedisi.org.tr/gence",
+    "ic_not": "Hârizm garnizonu ayaklanmayla yok edildi (1231), Moğollar Gence'yi 1235'te aldı; arada Berde/Gence'nin sahibi kaynakta YOK. Boşluk doldurma merdiveni: TDV (Gence, Arrân, Şeddâdîler, Azerbaycan, Celâleddin) ve Iranica (Arrān, Barḏaʿa) tarandı; komşu büyük devlet kaynakları (Gürcü) bu oturumda bulunamadı. Abi merkez Gence de boşluk — zincir devralınamadı."
+   },
+   {
+    "f": "1235-01-01",
+    "t": "1256-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Gence\", https://islamansiklopedisi.org.tr/gence",
+    "ic_not": "TDV Gence: Moğollar 1235'te Gence'yi aldı; Berde Arrân'dadır (abi merkez Gence). t: İlhanlı kuruluşu 1256 (TDV İlhanlılar)."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"BARḎAʿA\" (C. E. Bosworth), https://iranicaonline.org/articles/bardaa-or-bardaa-arm; TDV İlhanlılar",
+    "ic_not": "Iranica Barḏaʿa: Moğol döneminde İlhanlı ailesi üyeleri ve valileri Berde'de sikke bastı (756/1355'e kadar) — Berde İlhanlı malı. Atlas 1281'de ilhanli ile açıyor (dikiş sorunsuz)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0462-01-01",
+    "gun": "459-462 (güvenli uç 462)",
+    "k": "kurulus",
+    "b": "Perozapat/Pērōzabād: Sasani Şahı Pērōz (acc. 459) Albania kralı Vačē döneminde Partaw'ı yeniden inşa eder; Kavād sonradan tahkim edip Pērōzkavād der.",
+    "kaynak": "Encyclopaedia Iranica, \"ALBANIA\", https://www.iranicaonline.org/articles/albania",
+    "tanik": "Pʿartaw was rebuilt by Pērōz under the name of Pērōzabād"
+   },
+   {
+    "t": "0645-01-01",
+    "gun": "ca. 24 H / 645",
+    "k": "fetih",
+    "b": "Arap komutanlar Salmân b. Rebîa ve Habîb b. Mesleme Arrân'ın başkenti Partaw'ı (Berde'a) fetheder.",
+    "kaynak": "Encyclopaedia Iranica, \"ARRĀN\" (C. E. Bosworth), https://www.iranicaonline.org/articles/arran",
+    "tanik": "conquered the chief town of Arrān, Partaw (Arabic Bardaʿa, q.v.)"
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'nin biat alması, 25 Rebîülevvel 41).",
+    "kaynak": "TDV, Muâviye b. Ebû Süfyân, https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)"
+   },
+   {
+    "t": "0750-08-05",
+    "gun": "5 Ağustos 750",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (II. Mervân Mısır'da öldürülür).",
+    "kaynak": "TDV, Emeviler, https://islamansiklopedisi.org.tr/emeviler",
+    "tanik": "Mısır’da öldürüldü (26 Zilhicce 132 / 5 Ağustos 750)"
+   },
+   {
+    "t": "0941-09-26",
+    "gun": "330 H / 941",
+    "k": "diger",
+    "b": "Mosaferîler (Daylemî) Arrân'da Marzobân b. Muhammed b. Mosâfer ile hükmetmeye başlar (330-46/941-57).",
+    "kaynak": "Encyclopaedia Iranica, \"ARRĀN\" (C. E. Bosworth), https://www.iranicaonline.org/articles/arran",
+    "tanik": "ruled in Arrān under Marzobān b. Moḥammad b. Mosāfer (330-46/941-57)"
+   },
+   {
+    "t": "0993-02-26",
+    "gun": "383 H / 993",
+    "k": "fetih",
+    "b": "Gence Şeddâdîleri Berde ve Beylekān'ı ele geçirir.",
+    "kaynak": "Encyclopaedia Iranica, \"BARḎAʿA\" (C. E. Bosworth), https://iranicaonline.org/articles/bardaa-or-bardaa-arm",
+    "tanik": "who in 383/993, for instance, took possession of Barḏaʿa and Baylaqān"
+   },
+   {
+    "t": "1075-08-16",
+    "gun": "468 H / 1075-76",
+    "k": "fetih",
+    "b": "Melikşah'ın emiri Savtegin Arrân'ı zaptedip bölgeyi Selçuklu idaresine sokar; Şeddâdîler'in Gence kolu sona erer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Şeddâdîler\", https://islamansiklopedisi.org.tr/seddadiler",
+    "tanik": "Savtegin’in Arrân’ı zaptetmesi üzerine (468/1075-76) bölge Selçuklu idaresine girdi"
+   },
+   {
+    "t": "1137-01-01",
+    "gun": "1137",
+    "k": "idari",
+    "b": "Şemseddin İldeniz dönemi (1137-1175) başlar: Gence merkezli İldenizli atabeglik.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Gence\", https://islamansiklopedisi.org.tr/gence",
+    "tanik": "Şemseddin İldeniz (1137-1175)"
+   },
+   {
+    "t": "1225-01-01",
+    "gun": "1225",
+    "k": "fetih",
+    "b": "Celâleddin Hârizmşah Azerbaycan'a yürüyüp Gence'yi Cemâleddin'den teslim alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Gence\", https://islamansiklopedisi.org.tr/gence",
+    "tanik": "Celâleddin Hârizmşah Azerbaycan’a yürüyerek (1225) Gence Hâkimi Cemâleddin’den şehri teslim aldı."
+   },
+   {
+    "t": "1231-01-01",
+    "gun": "1231",
+    "k": "isyan",
+    "b": "Gence ahalisi ayaklanıp Hârizm garnizonunu basar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Gence\", https://islamansiklopedisi.org.tr/gence",
+    "tanik": "1231’de Gence ahalisi ayaklanarak şehirde bulunan Hârizm Garnizonu’nu basıp askerleri öldürdüler."
+   },
+   {
+    "t": "1235-01-01",
+    "gun": "1235",
+    "k": "fetih",
+    "b": "Moğollar Gence'yi alır (Arrân Moğol egemenliğine girer).",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Gence\", https://islamansiklopedisi.org.tr/gence",
+    "tanik": "Moğollar 1235’te Gence’yi aldılar"
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → İlhanlı Devleti.",
+    "kaynak": "TDV, İlhanlılar, https://islamansiklopedisi.org.tr/ilhanlilar",
+    "tanik": "başşehri Tebriz olmak üzere İran’da kurulan (1256)"
+   }
+  ],
+  "ic_not": "KAYNAK ZİNCİRİ: Iranica Albania/Arrān/Barḏaʿa (curl ile okundu, tam tarayıcı başlığı gerekti), TDV Gence/Şeddâdîler/Muâviye/Emeviler/İlhanlılar. Wikipedia \"Barda, Azerbaijan\" yalnız ikinci tanık. ÇİFT TEYİT yok (Wikipedia 552 Albanya katolikosluğu vb. ek). 1281 öncesi 914/943 Rus akınları ve Hazar akınları dönem açmaz. kat1900 Berde için 1900 listesinde yoktur: 3 TAHMİNİ. Sajîler (889-929) ve Revvâdîler Berde'ye özgü tanık bulunamadığı için dönem açılmadı. ATLAS ÖNERİSİ: atlas Berde'yi 1281'den başlatıyor — 1281 öncesi bu zincir kullanılabilir."
  },
  {
   "id": "bergamo",
@@ -1440,6 +1707,299 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ATLAS ÇELİŞKİSİ (1281 başlangıcı): ilk yazılı tanık 1459-09-20 > atlas başlangıcı 1281-01-01. Atlas Bükreş noktasını macaristan 1281-01-01 → 1330, eflak 1330-1462 olarak açıyor; kaynak bunu desteklemiyor (1281-1459 arasında yazılı tanık yok). Bu yüzden sahip zinciri BOŞ bırakıldı (denetim 'ilk.t atlas başlangıcından sonra' uyarısı beklenir). Öneri: Bükreş noktası 1459-09-20 öncesinde gösterilmesin (motor kur/bit penceresi = ilk.t'den başlasın); macaristan 1281-1330 dönemi kaynaksız (Bükreş bölgesi Macar krallığı toprağı olduğuna dair tanık bulunamadı: Eflak/Basarab devleti 1330 Posada öncesi 'Terra Transalpina' Macar nominal egemenliği olabilir ama bu oturumda açılmadı); eflak dönemi nokta ilk.t'den itibaren geçerli. KAYNAK SEÇİMİ: TDV 1368 'Cetatea Dâmboviţei' ismiyle geçtiğini yazar, ancak (a) bu ad Bükreş'in kendi adı değildir, yeri kesin olmayan ad eşitlemesidir (VERI-YAPISI kuralı: başlangıç sayılmaz), (b) Treccani 'Bucarest' (Enciclopedia on line): 'L'origine di B. e l'etimologia del nome sono incerte', (c) Constantin 2011: 'Cetatea Dâmboviţa' adı 1458-59'da Vlad Ţepeş'in inşa ettiği Bükreş kalesinin yan adıdır. Bu yüzden adı kesin taşıyan en eski belge (1459-09-20) alındı; TDV-esas kuralı ile çelişki beyan edilir ve karar Emre'ye bırakılır (alternatif ilk: TDV 1368, yıl hassasiyeti, yer eşitlemesi belirsiz). 1459 tarihi için ikinci akademik tanık bulunamadı (Newsweek RO ve Wikipedia 20.09.1459'u aktarır ama popüler/ikincil olduğu için kaynak sayılmadı; Wikipedia 13 Haziran 1458 tarihli Latince bir belgeden de söz eder — bu oturumda doğrulanmadı). Tanik metni PDF OCR çıktısından birebir alındı ('20septembrie1459' bitişik). ARKEOLOJİ: Curtea Veche kazılarında XIV. yy ikinci yarısına ait kule/tahkimat var (ark alanı); yazılı tanık (1459) mevcut olduğundan arkeolojik katman ilk olmadı; arkeolojik tarih (XIV. yy ikinci yarısı, 1350-1399) yazılı tanıktan eskidir ama o da 1281'den sonradır — atlas başlangıcı 1281 ile ÇELİŞİR: arkeolojik bulgu da 1281'de şehir olduğunu göstermez. Treccani: 'Residenza invernale dei principi di Valacchia alla metà del 15° sec.'. Bükreş modern noktası (44.427, 26.103) ile Curtea Veche (~44.4318, 26.1018) arası < 1 km."
+ },
+ {
+  "id": "eski-van-tuspa",
+  "ad": "Eski Van (Tuşpa)",
+  "atlas_ad": "Eski Van (Tuşpa)",
+  "lat": 38.5015,
+  "lon": 43.3385,
+  "kat1900": 2,
+  "adlar": [
+   "Tuşpa / Turuspa (Urartu, Akadca)",
+   "Biainili (Urartu ülke adı)",
+   "Halde (Pers dönemi bölge adı, TDV)",
+   "Van (Tosp, Ermenice)"
+  ],
+  "ilk": {
+   "t": "-0849-01-01",
+   "gun": "MÖ 9. yüzyılın ortası (≈850)",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Iranica, \"URARTU IN IRAN\" (W. Kleiss, 2008), https://www.iranicaonline.org/articles/urartu; TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+   "tanik": "King Sarduri established the Urartian kingdom and began to construct a capital city",
+   "ic_not": "Kuruluş: Iranica ve TDV, Urartu Kralı I. Sardur'un devleti kurup başkent Tuşpa'yı (Van Kalesi) inşa etmeye başladığını söyler; kesin yıl yok, \"MÖ 9. yy ortası\" (Iranica \"political unity in the middle of the 9th century B.C.E.\"). Sardur I'in kendi yılları bu oturumda kaynakla bulunamadı (TDV yalnız İspuini MÖ 830-810 ve II. Sardur MÖ 764-735 verir); hafızadan değer yazılmadı. ark: Van ilinde yerleşim en az MÖ 5000'e iner (Wikipedia, ikinci tanık) — ama Tuşpa kalesine özgü değil, Van Tilkitepe höyüğü kaleden birkaç km güneyde; bu kayıtta ark YAZILMADI."
+  },
+  "kur": {
+   "t": "-0849-01-01",
+   "gun": "MÖ 9. yüzyılın ortası (≈850)",
+   "kesinlik": "yuzyil",
+   "kaynak": "Encyclopaedia Iranica, \"URARTU IN IRAN\" (W. Kleiss, 2008), https://www.iranicaonline.org/articles/urartu; TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+   "tanik": "Urartu Kralı I. Sardur, Urartu Devleti’ni kurmayı başardı ve başşehri Tuşpa (bugünkü Van Kalesi) oldu"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0849-01-01",
+    "t": "-0589-01-01",
+    "d": "urartu",
+    "kesinlik": "yuzyil",
+    "kaynak": "Encyclopaedia Iranica, \"URARTU IN IRAN\" (W. Kleiss, 2008), https://www.iranicaonline.org/articles/urartu; TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "ic_not": "Urartu Krallığı'nın başkenti Tuşpa (Van Kalesi). t: Iranica \"Urartu vanished around 590 B.C.E.\" (MÖ 590 = -0589). TDV Van: Urartu hâkimiyeti MÖ VII. yy başına kadar, 609'dan hemen sonra İskitler ele geçirdi — iki ayrı ifade, Iranica'nın sonu esas alındı; TDV'deki İskit/Med sırası tarihsiz olduğu için İskit dönemi AÇILMADI."
+   },
+   {
+    "f": "-0589-01-01",
+    "t": "-0549-01-01",
+    "d": "medya",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"URARTU IN IRAN\" (W. Kleiss, 2008), https://www.iranicaonline.org/articles/urartu; Encyclopaedia Iranica, \"CYRUS iii. Cyrus II The Great\", https://www.iranicaonline.org/articles/cyrus-iii",
+    "ic_not": "Iranica Urartu: toprağı önce Media'nın, sonunda Ahameniş İmparatorluğu'nun (Armina satraplığı, Bisotun yazıtı) parçası oldu. t: Kyros'un Astyages'e zaferi, Nabonid'in 6. yılı = MÖ 550 (-0549) — Iranica \"may thus have occurred\", bazı bilginler tarihi belirsiz sayar."
+   },
+   {
+    "f": "-0549-01-01",
+    "t": "-0330-01-01",
+    "d": "ahamenis",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"URARTU IN IRAN\" (W. Kleiss, 2008), https://www.iranicaonline.org/articles/urartu; TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van; TDV İslâm Ansiklopedisi, \"İskender\", https://islamansiklopedisi.org.tr/iskender",
+    "ic_not": "TDV Van: \"Persler zamanında Van yöresine uzun müddet Halde denildi\". t: Gaugamela (331 baharı sonrası) → MÖ 331 = -0330 (TDV İskender). Ahameniş künyesi -0329'da biter (uyumlu)."
+   },
+   {
+    "f": "-0330-01-01",
+    "t": "-0322-01-01",
+    "d": "iskender-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"İskender\", https://islamansiklopedisi.org.tr/iskender; TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "ic_not": "TDV Van: \"Büyük İskender'in Pers İmparatorluğu'nu ele geçirmesi ve MÖ 323'te ölmesi üzerine bölge ... Selevkus'un idaresine geçti\". Van'a özgü tanık yok; imparatorluk sahipliği beyanlı yaklaşıklık. t: MÖ 323 = -0322."
+   },
+   {
+    "f": "-0322-01-01",
+    "t": "-0065-01-01",
+    "d": "selevkos",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "ic_not": "TDV Van: bölge Selevkus'un idaresine geçti; ardından \"Van yıllarca Bizans ile İran arasında ... sürekli biçimde el değiştirdi\". t: \"Milâttan önce 66'da Roma idaresi kuruldu\" (-0065). KALAN SORUN: Wikipedia \"Tushpa\" (ikinci tanık) MÖ 2. yy başında Van'ın Ermenistan Krallığı içinde olduğunu söyler (Orontid/Artaksiad); TDV bunu anmaz ve \"Bizans\" gibi anakronik ifadeler kullanır — TDV'nin kendi içindeki çelişki nedeniyle akademik alternatif (Armenia: ermenistan-yervantuni / artaksiad künyeleri) Emre kararına bırakıldı. Selevkos künyesi -0311'de başlıyor: ilk 11 yıl uzatma beyanlı (hayalet uyarısı)."
+   },
+   {
+    "f": "-0065-01-01",
+    "t": "0226-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "ic_not": "TDV Van: MÖ 66'da Roma idaresi kuruldu ama şehir \"Roma ve Part arasında tampon bölge\" kaldı; \"MS 200 yıllarına kadar Partlar ve Bizanslılar arasında sürekli el değiştirdi\" — sahip tek bir devlet olarak yazılamıyor. Merdiven: TDV ① tarandı (Van, Urartular, Selevkos, Medler); Iranica Armenia maddeleri bu oturumda açılamadı (iranicaonline slug 404) ② ; Ermeni/Roma/Part akademik kaynak ③ bulunamadı; yerleşim (Van Kalesi) VAR → kırpılmadı. t: Sâsânî Devleti'nin kurucusu I. Erdeşîr (226-240, TDV Şirvanşahlar)."
+   },
+   {
+    "f": "0226-01-01",
+    "t": "0700-01-01",
+    "d": "sasani",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van; TDV İslâm Ansiklopedisi, \"Şirvanşahlar\", https://islamansiklopedisi.org.tr/sirvansahlar",
+    "ic_not": "TDV Van: \"II-VII. yüzyıllar arasında Sâsânî idaresinde kaldı\" (II. yy başlangıcı Sâsânî'nin kuruluşundan (226, TDV Şirvanşahlar) önce olduğu için 226'ya çekildi). Bizans-Sâsânî mücadeleleri ve 625 Hazar gelişi (Van bölgesine) süresiz → dönem açılmadı. t: VII. yy sonu (son uç 700); Arap fethinin Van için yılı TDV'de yok."
+   },
+   {
+    "f": "0700-01-01",
+    "t": "0800-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "ic_not": "Sâsânî idaresinin bitişi ile Abbâsî idaresinin kurulduğu \"tahmin edilen\" VIII. yy sonu arasında Van sahibi TDV'de yok; Emevî (661-750) sahipliği TDV'de hiç anılmaz. Beyanlı BOŞLUK. Merdiven ①-③ yukarıdaki gibi; Ermeni (Arşakuni/Mamikonyan) ve Bizans kaynakları bulunamadı."
+   },
+   {
+    "f": "0800-01-01",
+    "t": "0885-01-01",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "ic_not": "TDV: Hazarların VIII. yy sonunda halifeyi kabul etmesinden sonra bölgede Abbâsî idaresi \"tesis edildiği tahmin edilmektedir\"; IX. yy ilk yarısı Abbâsî-Bizans ve Abbâsî-Ermeni mücadelesi; 852'de Boğa el-Kebîr Ermeniye vilâyetini (Van dahil) fethetti. t: 885, Bagratlı Aşot'un halife ve Bizans imparatoru tarafından Ermenistan kralı tanınması."
+   },
+   {
+    "f": "0885-01-01",
+    "t": "1021-01-01",
+    "d": "vaspurakan-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "ic_not": "TDV: 885'te Aşot kral tanındı ve \"Vaspurakan prensleri de bunlara bağlandı\"; X. yy'da Van Sâcid, Vaspurakan Ermeni Prensliği, Mervânîler ve Bizanslılar arasında paylaşılıyordu (süreler yok: dönem açılmadı); IX. yy sonu Sâcid Afşin geçici işgali. KÜNYE: vaspurakan-kralligi künyesi 908'de başlıyor; 885-908 arası aynı Artsruni prensliği → künye GENİŞLET önerisi (hayalet uyarısı). t: TDV \"1021'de Bizanslılar'ın Van ve yöresini ele geçirmesi\"."
+   },
+   {
+    "f": "1021-01-01",
+    "t": "1064-01-01",
+    "d": "bizans",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "ic_not": "TDV: 1021'den sonra Ermeni ailelerin göçü, XI. yy başında bölgenin hâkimi Bizanslılar. Çağrı Bey'in akınları (409/1018) Van gölü havzasının büyük kısmını denetime aldı ama \"kale\" 1064'te fethedildi. t: 1064."
+   },
+   {
+    "f": "1064-01-01",
+    "t": "1100-01-01",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "ic_not": "TDV: kale 1064'te Melikşah tarafından fethedildi (TDV \"Alparslan'ın oğlu Melikşah\" der); Alparslan yönetimi vasal emirlere bıraktı (Nahcivan Emiri Sakaroğlu Ebû Dülef). t: 493/1100, hicrî 493 ∩ 1100 → 1100-01-01."
+   },
+   {
+    "f": "1100-01-01",
+    "t": "1207-01-01",
+    "d": "ahlatsahlar",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "ic_not": "Sökmenliler (Ahlatşahlar) \"Malazgirt, Ahlat, Erciş, Adilcevaz, Eleşkirt, Van, Tatvan, Silvan ve Muş\" yerleşmelerini içine alan hâkimiyet kurdu. t: TDV \"1207'de ... Ahlatşah hâkimiyeti son buldu\". Künye ahlatsahlar 1208'de bitiyor (uyumlu)."
+   },
+   {
+    "f": "1207-01-01",
+    "t": "1230-01-01",
+    "d": "eyyubi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "ic_not": "Eyyûbî Hükümdarı el-Melikü'l-Âdil'in oğlu Necmeddin Eyyûb (el-Melikü'l-Evhad) Ahlat'a yerleşti; TDV: \"Eyyûbîler'in bölgedeki hâkimiyeti uzun sürmedi\". Meyyâfârikîn Eyyûbîleri kolu (künye eyyubi-meyyafarikin, boyasız) daha doğru olabilir; genel eyyubi alındı (beyan). t: 627 (1230) Celâleddin Hârizmşah Ahlat ile Van'ı aldı."
+   },
+   {
+    "f": "1230-01-01",
+    "t": "1232-01-01",
+    "d": "harizmsah",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "ic_not": "Celâleddin Hârizmşah 627/1230'da Van'ı alır. KÜNYE AŞIMI: Hârizmşah künyesi 1231'de biter (Celâleddin 1231'de öldü, TDV Celâleddin) — TDV Van'ın 1232 Selçuklu hâkimiyeti arası tek yılın sahibi yazılmıyor; ardıl yapı yok, dönem 1232'ye uzatıldı (beyanlı). t: TDV \"Van 1232'de Selçuklu hâkimiyetine girdi\" = atlas başlangıcı (aynı gün)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0849-01-01",
+    "gun": "MÖ 9. yüzyılın ortası (≈850)",
+    "k": "kurulus",
+    "b": "Urartu Kralı I. Sardur Urartu Devleti'ni kurar; başşehir Tuşpa (Van Kalesi).",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van; Encyclopaedia Iranica, \"URARTU IN IRAN\" (W. Kleiss, 2008), https://www.iranicaonline.org/articles/urartu",
+    "tanik": "Urartu Kralı I. Sardur, Urartu Devleti’ni kurmayı başardı ve başşehri Tuşpa (bugünkü Van Kalesi) oldu"
+   },
+   {
+    "t": "-0589-01-01",
+    "gun": "MÖ 590",
+    "k": "yikim",
+    "b": "Urartu Devleti ortadan kalkar; toprağı Media'ya geçer.",
+    "kaynak": "Encyclopaedia Iranica, \"URARTU IN IRAN\" (W. Kleiss, 2008), https://www.iranicaonline.org/articles/urartu",
+    "tanik": "Urartu vanished around 590 B.C.E."
+   },
+   {
+    "t": "-0549-01-01",
+    "gun": "MÖ 550",
+    "k": "fetih",
+    "b": "Kyros Medya Kralı Astyages'i yener; Medya toprakları Ahameniş yönetimine geçer.",
+    "kaynak": "Encyclopaedia Iranica, \"CYRUS iii. Cyrus II The Great\", https://www.iranicaonline.org/articles/cyrus-iii",
+    "tanik": "Cyrus’ victory over Astyages may thus have occurred in Nabonidus’ sixth year, 550 B.C.E."
+   },
+   {
+    "t": "-0330-01-01",
+    "gun": "MÖ 331",
+    "k": "fetih",
+    "b": "İskender Gaugamela'da Darius III'ü yener; Pers İmparatorluğu çöker.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"İskender\", https://islamansiklopedisi.org.tr/iskender",
+    "tanik": "Gaugamela ovasında Dârâ ile tekrar karşılaştıysa da Dârâ yine kaçmak zorunda kaldı"
+   },
+   {
+    "t": "-0322-01-01",
+    "gun": "MÖ 323",
+    "k": "taht",
+    "b": "İskender ölür; Van bölgesi TDV'ye göre Selevkus'un idaresine geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "tanik": "ölmesi üzerine bölge onun generallerinden Selevkius’un idaresine geçti"
+   },
+   {
+    "t": "-0065-01-01",
+    "gun": "MÖ 66",
+    "k": "fetih",
+    "b": "Roma idaresi kurulur; şehir Roma ile Part arasında tampon bölge kalır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "tanik": "Milâttan önce 66’da Roma idaresi kuruldu"
+   },
+   {
+    "t": "0226-01-01",
+    "gun": "226",
+    "k": "kurulus",
+    "b": "künye geçişi: Sâsânî Devleti'nin kurulması (I. Erdeşîr, 226-240).",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Şirvanşahlar\", https://islamansiklopedisi.org.tr/sirvansahlar",
+    "tanik": "Sâsânî Devleti’nin kurucusu I. Erdeşîr (226-240)"
+   },
+   {
+    "t": "0700-01-01",
+    "gun": "7. yüzyılın sonu (son uç)",
+    "k": "diger",
+    "b": "Sâsânî idaresi sona erer (TDV: II-VII. yüzyıllar arasında Sâsânî idaresinde kaldı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "tanik": "II-VII. yüzyıllar arasında Sâsânî idaresinde kaldı"
+   },
+   {
+    "t": "0800-01-01",
+    "gun": "8. yüzyılın sonu (son uç)",
+    "k": "idari",
+    "b": "Hazarların Müslümanlığı kabulünden sonra bölgede Abbâsî idaresi kurulur (tahmin).",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "tanik": "bu yörede Abbâsî idaresinin tesis edildiği tahmin edilmektedir"
+   },
+   {
+    "t": "0852-01-01",
+    "gun": "852",
+    "k": "fetih",
+    "b": "Boğa el-Kebîr, içinde Van'ın da bulunduğu Ermeniye vilâyetini fetheder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "tanik": "Boğa el-Kebîr tarafından fethedildi"
+   },
+   {
+    "t": "0885-01-01",
+    "gun": "885",
+    "k": "idari",
+    "b": "Bagratlı Aşot Ermenistan kralı tanınır; Vaspurakan prensleri ona bağlanır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "tanik": "Vaspurakan prensleri de bunlara bağlandı"
+   },
+   {
+    "t": "1021-01-01",
+    "gun": "1021",
+    "k": "fetih",
+    "b": "Bizanslılar Van ve yöresini ele geçirir; 40.000 Ermeni ailesi göç eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "tanik": "1021’de Bizanslılar’ın Van ve yöresini ele geçirmesinden sonra"
+   },
+   {
+    "t": "1064-01-01",
+    "gun": "1064",
+    "k": "fetih",
+    "b": "Van Kalesi Selçuklu Melikşah tarafından fethedilir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "tanik": "kale 1064 yılında Sultan Alparslan’ın oğlu Melikşah tarafından etrafındaki birçok kale ve şehirle birlikte fethedildi"
+   },
+   {
+    "t": "1100-01-01",
+    "gun": "493 H / 1100",
+    "k": "kurulus",
+    "b": "Muhammed Tapar Ahlat ve yöresini Sökmen'e verir; Sökmenliler (Ahlatşahlar) beyliği doğar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "tanik": "Ahlat ve yöresini halkın da isteği üzerine Selçuklu emîrlerinden Sökmen’e verdi"
+   },
+   {
+    "t": "1207-01-01",
+    "gun": "1207",
+    "k": "fetih",
+    "b": "Eyyûbî Necmeddin Eyyûb Ahlat'a yerleşir; Ahlatşah hâkimiyeti sona erer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "tanik": "Ahlatşah hâkimiyeti son buldu"
+   },
+   {
+    "t": "1230-01-01",
+    "gun": "627 H / 1230",
+    "k": "fetih",
+    "b": "Celâleddin Hârizmşah Ahlat ve Van'ı ele geçirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "tanik": "627 (1230) yılında Celâleddin Hârizmşah, Ahlat ile Van’ı ele geçirdi"
+   },
+   {
+    "t": "1232-01-01",
+    "gun": "1232",
+    "k": "fetih",
+    "b": "I. Alâeddin Keykubad'ın doğu siyaseti sonucu Van Selçuklu hâkimiyetine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Van\", https://islamansiklopedisi.org.tr/van",
+    "tanik": "Van 1232’de Selçuklu hâkimiyetine girdi"
+   }
+  ],
+  "ic_not": "KAYNAK: TDV Van (curl), Iranica Urartu/Cyrus, TDV İskender/Şirvanşahlar/İlhanlılar. ZİNCİR ZAYIFLIĞI: -0065..226 arası ve 700..800 arası BOŞLUK (beyanlı); Ermeni krallıkları (Orontid, Artaksiad, Arşakuni) ve Roma/Part/Bizans ayrımı için akademik kaynak bu oturumda bulunamadı. ATLAS ÖNERİSİ: atlas Eski Van (Tuşpa)'yı 1232'de selçuklu ile başlatıyor; TDV bunu doğrular (1232). Atlasta ayrı \"Van\" noktası da var (38.502, 43.393 — 1915 sonrası yeni Van, kurulu 1918-04-02): Eski Van ile aralarında ~4,7 km, kendi hesabım. kat1900=2 (Van vilayeti)."
  },
  {
   "id": "ferrara",
@@ -2375,6 +2935,83 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Atlas k=1 (1320-1569 başkent) ve 1281'de 'polonya-erken' ile başlıyor; zincir aynı sahiple bitiyor. Atlas 'Krakov' adı Lehçe Kraków'dur. kat1900: LISTE.tsv'de Kraków satırı yok; 2 yazıldı (doğrulanmadı). Atlas düzeltme önerisi: 1138-1281 arasında Kraków Silezya Piastlarının (Henryk Brodaty/Pobożny 1232-41) elinde de kalmıştır (EI 'contese'); bu oturumda gün tanığı açılmadı, atlasa dokunulmadı."
+ },
+ {
+  "id": "kutaisi",
+  "ad": "Kutaisi",
+  "atlas_ad": "Kutaisi",
+  "lat": 42.268,
+  "lon": 42.695,
+  "kat1900": 2,
+  "adlar": [
+   "Aia (Kolhis, Argonaut geleneği; eşitleme tartışmalı)",
+   "Kutatisi / Kutaia",
+   "Kutais",
+   "Kutaisi"
+  ],
+  "ilk": {
+   "t": "0900-01-01",
+   "gun": "9. yüzyıl (en geç uç)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Treccani, Enciclopedia Italiana (1933), \"Kutais\" (G. Pullè - S. Puskarev), https://www.treccani.it/enciclopedia/kutais_(Enciclopedia-Italiana)/",
+   "tanik": "La città esisteva già nel sec. IX d. C.",
+   "ic_not": "İlk anılış alt sınırdır, kuruluş DEĞİL (Treccani yıl/olay vermez; güvenli uç 900). Daha eski YAZILI tanık aranan: Wikipedia ve bir arama özeti Prokopios'u (\"Kytaia\"/\"Kutatisi\") anıyor; Prokopios, De aedificiis III kitabı LacusCurtius'tan curl ile okundu, Kutaisi adı BULUNAMADI (Wars VIII açılamadı) → hafızadan değer yazılmadı. Wikipedia \"Aia/Argonautika\" eşitlemesi ve \"MÖ 6.-5. yy Kolhis başkenti\" kaynaksız (arkeolojik doğrulama Krukowski Merkezi'nde yalnız Proto-Kolhis yerleşmesi: aşağıda ark)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-1399-01-01",
+   "gun": "MÖ 1400 (ca. 1700-1400 aralığının son ucu)",
+   "kesinlik": "belirsiz",
+   "kaynak": "Krukowski Center for Mediterranean Archaeology, Univ. of Warsaw, \"Kutaisi MORE\" (Polish-Georgian KALP kazıları, 2021-2023), https://www.krukowski-center.uw.edu.pl/research/kutaisi-more",
+   "tanik": "these objects date back from ca. 1700 to ca. 1400 BC"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0900-01-01",
+    "t": "1003-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), \"Kutais\" (G. Pullè - S. Puskarev), https://www.treccani.it/enciclopedia/kutais_(Enciclopedia-Italiana)/",
+    "ic_not": "Treccani: şehir IX. yy'da vardı, X-XI. yy'da önemli refaha ulaştı — sahibi söylenmez. TDV Gürcistan/Gürcüler: VII-X. yy Gürcistan Arap hâkimiyetinde (Tiflis emiri), batıdaki sahip dağınık. Wikipedia \"Kutaisi\" (YALNIZ ikinci tanık, kaynak göstermiyor): Leon II c.786'da Abhazya krallığının başkentini Kutaisi'ye taşıdı — tek dayanak olamaz, Abhazya Krallığı künyesi bu kaynakla AÇILMADI. Merdiven: TDV ① (Gürcüler/Gürcistan/Tiflis) tarandı: Kutaisi anılmıyor; ② Treccani Kutais/Georgia/Abkhazia tarandı: sahip yok; ③ Gürcü/Abhaz akademik kaynak bu oturumda açılamadı; ④ yerleşim o devirde VAR; ⑤ abi merkez devralınamadı (Tiflis emirliği Arap, batı Gürcistan Abhaz — Kutaisi'nin bağı kanıtlanamadı). Beyanlı BOŞLUK; f = ilk anılış güvenli ucu."
+   },
+   {
+    "f": "1003-01-01",
+    "t": "1008-01-01",
+    "d": "orta-gurcistan-bagrati",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), \"Kutais\" (G. Pullè - S. Puskarev), https://www.treccani.it/enciclopedia/kutais_(Enciclopedia-Italiana)/; TDV İslâm Ansiklopedisi, \"Gürcüler\", https://islamansiklopedisi.org.tr/gurculer",
+    "ic_not": "f: \"en geç tanıktan\" — Treccani: Kutaisi'deki katedral 1003'te Kral III. Bagrat tarafından yaptırıldı (şehrin Bagratlı hükümdarın elinde olduğunun en eski tarihli tanığı). Önceki dönem BOŞLUK olduğu için uzatılmadı. III. Bagrat 975'ten Abhazya tahtında (Wikipedia, ikinci tanık) olmasına rağmen tarihli kaynakla yalnız 1003 kanıtlandı. t: TDV Gürcüler \"İberya Kralı III. Bagrat 1008'de Gürcistan kralı unvanını aldı\"."
+   },
+   {
+    "f": "1008-01-01",
+    "t": "1281-01-01",
+    "d": "gurcistan",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Gürcüler\", https://islamansiklopedisi.org.tr/gurculer; Treccani, Enciclopedia Italiana (1933), \"Kutais\" (G. Pullè - S. Puskarev), https://www.treccani.it/enciclopedia/kutais_(Enciclopedia-Italiana)/",
+    "ic_not": "Gürcistan Krallığı (Bagratlılar). Treccani: şehir XIII. yy'da İmeret krallığının başkenti, Moğollarca ve Türklerce defalarca yağmalandı. TDV Gürcistan: 1243'te Kraliçe Rusudan Moğol Büyük Han'ı metbû tanıdı (vasal; sahiplik Gürcü kaldı). Atlas 1281'de \"gurcistan\" ile açıyor — dikiş sorunsuz."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1003-01-01",
+    "gun": "1003",
+    "k": "kurulus",
+    "b": "Kral III. Bagrat Kutaisi'de katedral (Bagrati) yaptırır — şehir Bagratlı hükümdarın elinde.",
+    "kaynak": "Treccani, Enciclopedia Italiana (1933), \"Kutais\" (G. Pullè - S. Puskarev), https://www.treccani.it/enciclopedia/kutais_(Enciclopedia-Italiana)/",
+    "tanik": "fatta erigere nel 1003 dal re Bagrat III"
+   },
+   {
+    "t": "1008-01-01",
+    "gun": "1008",
+    "k": "taht",
+    "b": "İberya Kralı III. Bagrat \"Gürcistan kralı\" unvanını alır; birleşik Gürcü krallığı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Gürcüler\", https://islamansiklopedisi.org.tr/gurculer",
+    "tanik": "İberya Kralı III. Bagrat 1008’de Gürcistan kralı unvanını aldı."
+   }
+  ],
+  "ic_not": "KAYNAK: Treccani EI 1933 \"Kutais\", TDV Gürcüler/Gürcistan, Krukowski Merkezi (Varşova Üniv. - Gürcü ortak kazısı, Bagrati tepesi, 2021-23 sezonları: Geç Tunç/Erken Demir Çağı ahşap-sıva yapılar 13.-10. yy MÖ, altta Proto-Kolhis II ~1700-1400 MÖ). ARK ZİNCİRİ: arkeolojik katman (MÖ ~1700) ile yazılı ilk anılış (IX. yy) arası Kolhis/Pers/Roma/Lazika/Bizans/Abhazya sahipliği Kutaisi'ye özgü kaynaklı olarak BULUNAMADI: zincir IX. yy'dan başlatıldı. ATLAS ÖNERİSİ: atlas 1281'den başlıyor; 1008 öncesi kaynaklı zincir yok. kat1900=2 (Kutaisi guberniyası merkezi; 1900 listesi)."
  },
  {
   "id": "lizbon",
@@ -4214,6 +4851,489 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Atlas Pisa 1281'de 'piza' ile başlar; zincir aynı sahiple biter. ÇELİŞKİ (komün/konsül yılı): Treccani online 'verso il 1050' vs EI 'fra il 1080 e il 1085 ... il primo ricordo dei consoli (carta sarda)'; erken uç alındı. TDV 'Pisa' maddesi yok (arama: 3 başlık/126 içerik, Pisa şehri maddesi yok; 'Piza' slug'ı da arama sayfasına döndü). Livius'un MÖ 218 yılı konsül yılından türetildi (bu oturumda doğrulanmadı)."
  },
  {
+  "id": "revan",
+  "ad": "Revan",
+  "atlas_ad": "Revan",
+  "lat": 40.183,
+  "lon": 44.515,
+  "kat1900": 2,
+  "adlar": [
+   "Erebuni (Urartu kalesi; ayrı kayıt önerisi)",
+   "Ryβʾn / Hērewan / Erevan",
+   "Revân / İrevân",
+   "Erivan",
+   "Yerevan"
+  ],
+  "ilk": {
+   "t": "0607-01-01",
+   "gun": "607",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica, \"EREVAN i. Ancient and medieval\", https://www.iranicaonline.org/articles/erevan",
+   "tanik": "in the year 607 C.E., was one Daniel of Erevan",
+   "ic_not": "İLK ANILIŞ alt sınırdır, KURULUŞ DEĞİL. Iranica: Mani'nin öğrencisi Mār Gabryab'ın 3. yy ikinci yarısında Ermenistan'a Manihaizm getirişini anlatan Soğdca metindeki ryβʾn (Revān) \"muhtemelen\" Erevan'dır (Sundermann 1981) — eşitleme kesin değil, Emre kuralı gereği başlangıç SAYILMADI; Armenian kaynaklarda ilk anılış 607 (\"Book of the Letters\"), Sebeos 650 (Hērewan; metin bozulması tartışması). Kilise (Sts Paul & Peter) o sırada mevcut: \"oldest archeological evidence for Armenian Erevan\". ANTİK YER >3 km: Erebuni (Arin-Berd, MÖ ~782, Argišti I; Iranica + TDV \"milâttan önce 782'de Urartular'ın kurduğu Erebuni Kalesi\") Erevan'ın güneydoğu kenarında, atlas noktasına ~6 km (kendi hesabım; 40.131 K, 44.537 D yaklaşık) → BURADA yazılmadı; AYRI KAYIT ÖNERİLİR: \"Erebuni (Arin-Berd)\", ilk=kurulus MÖ 782 (Iranica Erevan i.). Teišebaïni (Karmir Blur, Rusa II, 7. yy MÖ) de ayrı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0607-01-01",
+    "t": "0640-10-06",
+    "d": "sasani",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"DVIN\" (E. Kettenhofen, 1996), https://www.iranicaonline.org/articles/dvin; Encyclopaedia Iranica, \"EREVAN i. Ancient and medieval\", https://www.iranicaonline.org/articles/erevan",
+    "ic_not": "ABİ MERKEZ: Dvin (Debîl; Erevan'ın ~35 km güneyi, bölgenin Sasani/Arap idari merkezi) — Encyclopaedia Iranica, \"DVIN\" (E. Kettenhofen, 1996), https://www.iranicaonline.org/articles/dvin. Dvin 591'den sonra Sasani-Bizans sınırında ama \"hâlâ Pers topraklarında\" (Iranica Dvin); Sasani Armenia'sının idari merkezi Dvin'di (428'den itibaren marzbân). Erevan'ın 591 bölüşümünde hangi tarafa düştüğü kaynakta açık değil: Wikipedia \"Yerevan\" 587'de Roma idaresi der (ikinci tanık, Iranica ile uyuşmaz) — Dvin akıbetine bağlandı, BEYANLI YAKLAŞIKLIK. Dönem kaynak gereği yıl hassasiyetinde (Dvin'in Müslümanlarca alınışı: 17 Şavval 19 / 6 Ekim 640)."
+   },
+   {
+    "f": "0640-10-06",
+    "t": "0661-07-29",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"EREVAN i. Ancient and medieval\", https://www.iranicaonline.org/articles/erevan",
+    "ic_not": "Dvin (abi merkez) 640'ta Müslümanlarca alındı ama Iranica Erevan: Sebeos Ağustos 650'de \"Ishmaelites\" Hērewan kalesini kuşattı, ALAMADI — yani 650'de Erevan Arap malı değil. Samuel of Ani 660'ta Erevan'da bir isyan anar (kaynakları kayıp). Aradaki yıllarda şehrin sahibi (Ermeni prensleri/Bizans/Arap) kaynakta yok → abi merkez zinciri devralınamadı; TDV Revan: \"Şehrin Ortaçağ'lara kadarki tarihi hakkında bilgi yoktur\". Merdiven: ① TDV Revan/Ermeniyye ② Iranica Erevan/Dvin/Arrān ③ Wikipedia (658 Arap fethi iddiası, Iranica ile uyuşmaz) tarandı; ④ yerleşim o devirde VAR (607, 650 tanıkları) → ⑤ abi merkez devralınamadı."
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0750-08-05",
+    "d": "emevi",
+    "kesinlik": "gun",
+    "kaynak": "Encyclopaedia Iranica, \"EREVAN i. Ancient and medieval\", https://www.iranicaonline.org/articles/erevan; Encyclopaedia Iranica, \"DVIN\" (E. Kettenhofen, 1996), https://www.iranicaonline.org/articles/dvin",
+    "ic_not": "Iranica Erevan: Akopyan'a göre şehir \"Arap valisinin ikametgâhlarından biri\" oldu (tarihsiz; Emevî/Abbâsî Arap dönemi). Dvin 640'tan 173/789'a kadar halife valisinin (ostikan) merkezi (Iranica Dvin). Beyanlı yaklaşıklık: Erevan'a özgü sahiplik tanığı Samuel of Ani'nin 660 isyanı ve Akopyan çıkarımıdır."
+   },
+   {
+    "f": "0750-08-05",
+    "t": "0789-05-31",
+    "d": "abbasi",
+    "kesinlik": "gun",
+    "kaynak": "Encyclopaedia Iranica, \"DVIN\" (E. Kettenhofen, 1996), https://www.iranicaonline.org/articles/dvin",
+    "ic_not": "Dvin Abbâsî valisinin merkezi 173/789'a kadar (hicrî 173 ∩ 789 → 789-05-31, tablo, Jülyen). Erevan'a özgü tanık yok (abi merkez Dvin devralındı)."
+   },
+   {
+    "f": "0789-05-31",
+    "t": "1225-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"DVIN\" (E. Kettenhofen, 1996), https://www.iranicaonline.org/articles/dvin; Encyclopaedia Iranica, \"EREVAN i. Ancient and medieval\", https://www.iranicaonline.org/articles/erevan",
+    "ic_not": "Iranica Dvin: 9.-10. yy'da Ermeni Bagratlıları ile Arap emirleri arasında çatışma, \"hiçbir hükümdar uzun süre hâkim olamadı\"; 990-1020 Gagik I yarı bağımsız; Kürt ve Deylemî emirleri; 1100 sonrası kısa süre Türkler; 1200 sonrası Zakʿarîler. Iranica Erevan: Lewond (7.-8. yy) ve Aristakes (11. yy) Erevan'dan hiç söz etmez; Akopyan \"modern\" Erevan yerleşiminin XII-XIII. yy'da olduğunu düşünür (TDV Revan de XII-XIII. yy diye tahmin eder). Wikipedia (ikinci tanık) Bagratlı Krallığı (885-1045), Bizans (1045-64), Selçuklu (1064-), Zakarîler (1201, Gürcü himayesi) sırasını verir ama bunlar Erevan'a özgü birincil/akademik tanıkla DOĞRULANAMADI. TDV Gürcistan: Gürcüler 1161'de Ani, 1162'de Kars ve Duvin'e akın yaptı ve Tiflis'e döndü (akın = sahiplik DEĞİL). Beyansız yaklaşıklık yerine beyanlı BOŞLUK bırakıldı. Sınır: t = Celâleddin Hârizmşah'ın Duvin'i zaptı (622/1225, TDV Gürcistan) — abi merkez Dvin'in bilinen ilk sahibi."
+   },
+   {
+    "f": "1225-01-01",
+    "t": "1231-01-01",
+    "d": "harizmsah",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Gürcistan\", https://islamansiklopedisi.org.tr/gurcistan",
+    "ic_not": "ABİ MERKEZ: Dvin (Debîl; Erevan'ın ~35 km güneyi, bölgenin Sasani/Arap idari merkezi) — Encyclopaedia Iranica, \"DVIN\" (E. Kettenhofen, 1996), https://www.iranicaonline.org/articles/dvin. TDV Gürcistan: Celâleddin 622'de (1225) Duvin'i zaptetti. Erevan'a özgü tanık yok → BEYANLI YAKLAŞIKLIK. t: Celâleddin 1231'de Moğollarca Âmid önünde bozguna uğratıldı/öldü (TDV Celâleddin Hârizmşah)."
+   },
+   {
+    "f": "1231-01-01",
+    "t": "1236-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"DVIN\" (E. Kettenhofen, 1996), https://www.iranicaonline.org/articles/dvin",
+    "ic_not": "Celâleddin'in çöküşünden Moğolların Dvin'i yıkışına (1233-36, Iranica Dvin) kadar sahip kaynakta yok. t: aralığın son ucu 1236 (\"f en geç tanıktan\" benzeri güvenli uç)."
+   },
+   {
+    "f": "1236-01-01",
+    "t": "1256-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"DVIN\" (E. Kettenhofen, 1996), https://www.iranicaonline.org/articles/dvin",
+    "ic_not": "Iranica Dvin: Moğollar şehri 1233-1236 arasında yıktı (Dvin, Erevan'ın abi merkezi); Wikipedia: Ani 1236'da Moğollarca alındıktan sonra Ermenistan Moğol himayesine girdi. Beyanlı yaklaşıklık. t: İlhanlı kuruluşu 1256 (TDV İlhanlılar)."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İlhanlılar; Encyclopaedia Iranica, \"EREVAN i. Ancient and medieval\", https://www.iranicaonline.org/articles/erevan",
+    "ic_not": "Atlas 1281'de ilhanli ile açıyor — dikiş sorunsuz. Zakarîler Moğol himayesinde vasal (Wikipedia, ikinci tanık)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0607-01-01",
+    "gun": "607",
+    "k": "diger",
+    "b": "Erevan'ın (Dawitʿ Erewanay) Ermenice kaynaklardaki ilk anılışı: Katolikos Abraham'ın emriyle Kadıköy kararını reddeden din adamları arasında \"Erevanlı Daniel\".",
+    "kaynak": "Encyclopaedia Iranica, \"EREVAN i. Ancient and medieval\", https://www.iranicaonline.org/articles/erevan",
+    "tanik": "in the year 607 C.E., was one Daniel of Erevan"
+   },
+   {
+    "t": "0640-10-06",
+    "gun": "17 Şavval 19 / 6 Ekim 640",
+    "k": "fetih",
+    "b": "Dvin (Erevan'ın abi merkezi) Müslümanlarca fethedilir.",
+    "kaynak": "Encyclopaedia Iranica, \"DVIN\" (E. Kettenhofen, 1996), https://www.iranicaonline.org/articles/dvin",
+    "tanik": "The city was conquered by the Muslims on 17 Šawwāl 19/6 October 640"
+   },
+   {
+    "t": "0650-08-01",
+    "gun": "Ağustos 650",
+    "k": "kusatma",
+    "b": "Sebeos: \"İsmailîler\" Hērewan kalesini kuşatır, alamaz (tarih tartışmalı).",
+    "kaynak": "Encyclopaedia Iranica, \"EREVAN i. Ancient and medieval\", https://www.iranicaonline.org/articles/erevan",
+    "tanik": "had marched on Hērewan and besieged the fortress, without being able to take it"
+   },
+   {
+    "t": "0660-01-01",
+    "gun": "660",
+    "k": "isyan",
+    "b": "Samuel of Ani, kaybolmuş kaynaklara dayanarak Erevan'da bir isyan anar.",
+    "kaynak": "Encyclopaedia Iranica, \"EREVAN i. Ancient and medieval\", https://www.iranicaonline.org/articles/erevan",
+    "tanik": "mentioned a revolt in Erevan in the year 660"
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'nin biat alması, 25 Rebîülevvel 41).",
+    "kaynak": "TDV, Muâviye b. Ebû Süfyân, https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)"
+   },
+   {
+    "t": "0750-08-05",
+    "gun": "5 Ağustos 750",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (II. Mervân Mısır'da öldürülür).",
+    "kaynak": "TDV, Emeviler, https://islamansiklopedisi.org.tr/emeviler",
+    "tanik": "Mısır’da öldürüldü (26 Zilhicce 132 / 5 Ağustos 750)"
+   },
+   {
+    "t": "0789-05-31",
+    "gun": "173 H / 789",
+    "k": "idari",
+    "b": "Dvin'in halife valisi (ostikan) merkezi olma durumu sona erer.",
+    "kaynak": "Encyclopaedia Iranica, \"DVIN\" (E. Kettenhofen, 1996), https://www.iranicaonline.org/articles/dvin",
+    "tanik": "of the caliph’s governor and remained so until 173/789"
+   },
+   {
+    "t": "1225-01-01",
+    "gun": "622 H / 1225",
+    "k": "fetih",
+    "b": "Celâleddin Hârizmşah Dvin'i (Duvîn) zaptedip Azerbaycan'a döner.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Gürcistan\", https://islamansiklopedisi.org.tr/gurcistan",
+    "tanik": "622’de (1225) Duvîn’i zaptetti"
+   },
+   {
+    "t": "1231-01-01",
+    "gun": "1231",
+    "k": "diger",
+    "b": "Celâleddin Hârizmşah Âmid önünde Moğolların baskınına uğrar, kaçarken öldürülür; Hârizmşah hâkimiyeti sona erer.",
+    "kaynak": "TDV, Celâleddin Hârizmşah, https://islamansiklopedisi.org.tr/celaleddin-harizmsah",
+    "tanik": "Âmid önüne geldi (1231)"
+   },
+   {
+    "t": "1236-01-01",
+    "gun": "1233-1236 (güvenli uç)",
+    "k": "yikim",
+    "b": "Moğollar Dvin'i yıkar (Dvin'in kesin çöküşü); bölge Moğol egemenliğine girer.",
+    "kaynak": "Encyclopaedia Iranica, \"DVIN\" (E. Kettenhofen, 1996), https://www.iranicaonline.org/articles/dvin",
+    "tanik": "until the Mongol conquerors again destroyed the city, between 1233 and 1236"
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → İlhanlı Devleti.",
+    "kaynak": "TDV, İlhanlılar, https://islamansiklopedisi.org.tr/ilhanlilar",
+    "tanik": "başşehri Tebriz olmak üzere İran’da kurulan (1256)"
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica (tam tarayıcı başlığıyla curl'le okundu) + TDV Revan/Gürcistan/Celâleddin/İlhanlılar; Wikipedia \"Yerevan\" yalnız ikinci tanık. Revan'ın 607-1225 zinciri zayıf: Erevan'a özgü sahiplik tanığı yok, iki uzun BOŞLUK/abi-merkez dönemi beyanlıdır. TDV: \"Şehrin Ortaçağ'lara kadarki tarihi hakkında bilgi yoktur ... süreklilik gösteren yerleşimin XII-XIII. yüzyıllarda gerçekleşmiş olması mümkündür.\" ATLAS ÖNERİSİ: atlas 1281'de ilhanli ile açıyor; 1281 öncesinde yerleşimin Erevan olarak sürekliliği (Akopyan) tartışmalı. kat1900=2 (Erivan guberniyası merkezi, 1900 listesi)."
+ },
+ {
+  "id": "samahi",
+  "ad": "Şamahı",
+  "atlas_ad": "Şamahı",
+  "lat": 40.632,
+  "lon": 48.641,
+  "kat1900": 3,
+  "adlar": [
+   "Kamachia (Ptolemaios; eşitleme kesin değil)",
+   "Šammāḵa / Šammāḵiya / Şemmâhiyye",
+   "Yezîdiye (geçici, 306/918)",
+   "Şemâhî",
+   "Şamahı / Shamakhi"
+  ],
+  "ilk": {
+   "t": "0809-01-01",
+   "gun": "809 (Hârûnürreşîd'in ölümü 24 Mart 809: güvenli uç)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, \"Şirvanşahlar\", https://islamansiklopedisi.org.tr/sirvansahlar; Encyclopaedia Iranica, \"ŠERVĀN\" (C. E. Bosworth, 2011), https://www.iranicaonline.org/articles/servan; TDV Hârûnürreşîd https://islamansiklopedisi.org.tr/harunurresid",
+   "tanik": "Şemmâh b. Şücâ‘ın Şirvan emîri olduğunu ve Şemâhî şehrinin adını ondan aldığını kaydeder",
+   "ic_not": "Belâzürî (Fütûh s. 301, TDV üzerinden; Iranica Šervān aynı olguyu \"Šammāḵ b. Šojāʿ, Hârûn dönemi Saʿîd b. Salm Bâhilî'nin astı\" diye verir) şehrin adının Arap emîri Şemmâh'tan geldiğini kaydeder. Saîd b. Selm'in görev yılı kaynaklarda verilmez; Hârûnürreşîd halifeliği 170-193 (786-809, TDV: 3 Cemâziyelâhir 193 / 24 Mart 809 vefat) → ilk anılışın GÜVENLİ ucu 809. İlk anılış alt sınırdır, kuruluş DEĞİL. Wikipedia \"Shamakhi\" şehri Ptolemaios'un Kamachia'sı (MS 1.-2. yy) ile eşler (ikinci tanık, kaynak göstermez, tek dayanak olamaz); Ptolemaios metni bu oturumda açılamadı, yeri kesin olmayan eşitleme sayıldı → başlangıç yapılmadı. Iranica \"Šervān\": Šammāḵa kısa süre sonra Yazîd b. Mezyed Şeybânî'nin (ö. 185/801) başkenti oldu — 801 daha sıkı bir üst sınır olabilir ama \"kısa süre sonra\" tarihsiz."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0809-01-01",
+    "t": "0861-03-17",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Şirvanşahlar\", https://islamansiklopedisi.org.tr/sirvansahlar; Encyclopaedia Iranica, \"ŠERVĀN\" (C. E. Bosworth, 2011), https://www.iranicaonline.org/articles/servan",
+    "ic_not": "Abbâsî halifelerinin atadığı valiler (Mezyedî ailesi: Hâlid b. Yezîd 205/820-21, 227/842, Muhammed 242/856; ara valiler Huzeyme b. Hâzim, Haydar b. Kâvûs el-Afşin) — TDV Şirvanşahlar. Şirvanşah künyesi (799-) hânedanın temellerini Yezîd b. Mezyed'in 183/799 atanmasına bağlar; fiilî bağımsızlık TDV'ye göre 247/861'de başlar, bu yüzden 861 öncesi Abbâsî alındı (beyanlı yaklaşıklık; künye f ile örtüşebilir). t: hicrî 247 ∩ 861, ilk gün 1 Muharrem 247 = 861-03-17 (tablo, Jülyen)."
+   },
+   {
+    "f": "0861-03-17",
+    "t": "1000-01-01",
+    "d": "sirvansah",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Şirvanşahlar\", https://islamansiklopedisi.org.tr/sirvansahlar; Encyclopaedia Iranica, \"ŠERVĀN\" (C. E. Bosworth, 2011), https://www.iranicaonline.org/articles/servan",
+    "ic_not": "Heysem b. Hâlid Şirvanşah unvanıyla bağımsızlığını ilân eder (247/861); Ebû Tâhir Yezîd 305/917-18'de Şemâhî yakınlarındaki Yezîdiye'yi başşehir yapar; Iranica: Yezîdî Şervânşâhlar Şammâkha'da oturdu. Atlas Şamahı'yı 1000-01-01'de sirvansah ile açıyor — zincirin son sahibi atlasın ilk sahibi (dikiş sorunsuz). Mosaferîler/Şeddâdîler Şirvan'ı baskıladı (Iranica Arrān) ama Şamahı'yı almadı (kaynak yok)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0861-03-17",
+    "gun": "247 H / 861",
+    "k": "diger",
+    "b": "Heysem b. Hâlid, Mütevekkil'in öldürülmesiyle çıkan karışıklıkta Şirvanşah unvanıyla bağımsızlığını ilân eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Şirvanşahlar\", https://islamansiklopedisi.org.tr/sirvansahlar",
+    "tanik": "Şirvanşah unvanıyla bağımsızlığını ilân etti"
+   },
+   {
+    "t": "0917-06-24",
+    "gun": "305 H / 917-18",
+    "k": "kurulus",
+    "b": "Ebû Tâhir Yezîd, Şemâhî yakınlarında kurduğu Yezîdiye şehrini başşehir edinir (Iranica: 306/918'de Şemâhî geçici olarak Yezîdiye adını aldı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Şirvanşahlar\", https://islamansiklopedisi.org.tr/sirvansahlar",
+    "tanik": "Ebû Tâhir, Şemâhî yakınlarında kurduğu Yezîdiye şehrini başşehir edindi"
+   },
+   {
+    "t": "1192-01-18",
+    "gun": "588 H / 1192",
+    "k": "yikim",
+    "b": "Büyük deprem Şemâhî'yi yıkar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Şirvanşahlar\", https://islamansiklopedisi.org.tr/sirvansahlar",
+    "tanik": "588 (1192) depreminde Şemâhî büyük tahribata mâruz kaldı"
+   }
+  ],
+  "ic_not": "KAYNAK: TDV Şirvanşahlar/Şirvan (curl), Iranica Šervān, Wikipedia (ikinci tanık). Britannica \"Samaxi\" 403. ATLAS ÖNERİSİ: atlas 1000-01-01'de sirvansah ile açıyor; kaynaklara göre şehir ilk anılışından (809) 1000'e kadar zaten vardır → atlas başlangıcı 809'a çekilebilir. Atlas künye sirvansah f=799-02-12 = hicrî 183 ilk günü (TDV: Yezîd b. Mezyed 183/799 ataması) — hicrî tablo karşılığı doğrulandı. kat1900=3 TAHMİNİ (1900 listesinde Şamahı yok; Bakü guberniyası ilçe merkezi)."
+ },
+ {
+  "id": "saray-selitrennoye",
+  "ad": "Saray (Selitrennoye)",
+  "atlas_ad": "Saray (Selitrennoye)",
+  "lat": 47.183,
+  "lon": 47.7,
+  "kat1900": 3,
+  "adlar": [
+   "Sarāy-i Bātū / Saray-Batu / Eski Saray (Old Sarai)",
+   "Saray",
+   "Selitrennoye (modern gorodişçe adı)"
+  ],
+  "ilk": {
+   "t": "1241-01-01",
+   "gun": "1241",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, \"Altın Orda Hanlığı\", https://islamansiklopedisi.org.tr/altin-orda-hanligi; Encyclopaedia Iranica, \"GOLDEN HORDE\" (P. Jackson, 2001), https://www.iranicaonline.org/?p=2785",
+   "tanik": "1241 yılında İdil nehrinin aşağı mecrasına dönerek “Orda” merkezini kurdu",
+   "ic_not": "TDV kuruluşu \"Orda merkezi\" olarak 1241'e koyar ve \"Saray adı verilen şehir\"i buna bağlar; Iranica: \"Sarai, the city built by Batu on the lower Volga\". ÇELİŞKİ/İNCE NOKTA: Rubruck 1253'te Sarai'yi \"yeni inşa edilen kasaba\" diye anar (şehir 1241'de orda çadır merkezi, 1253'te yerleşme) — TDV esas, çelişki beyan edilir; ilk yazılı tanık 1253. YER SORUNU: Sarai'nin arkeolojik kalıntıyla (Selitrennoye) eşleşmesi tartışmalıdır (Wikipedia \"Sarai (city)\": \"considerable disagreement\"; Archaeology Magazine 2024: Rus arkeologların çoğu Eski Saray'ı Selitrennoye'ye koyar, bazıları Eski+Yeni Saray'ın ikisini Selitrennoye sayar, bazıları daha güneye). Atlas noktası (47.183 K, 47.7 D) Selitrennoye gorodişçesiyle çakışıp çakışmadığı bu oturumda koordinatla doğrulanamadı."
+  },
+  "kur": {
+   "t": "1241-01-01",
+   "gun": "1241",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, \"Altın Orda Hanlığı\", https://islamansiklopedisi.org.tr/altin-orda-hanligi",
+   "tanik": "1241 yılında İdil nehrinin aşağı mecrasına dönerek “Orda” merkezini kurdu"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1241-01-01",
+    "t": "1281-01-01",
+    "d": "altinorda",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Altın Orda Hanlığı\", https://islamansiklopedisi.org.tr/altin-orda-hanligi; Encyclopaedia Iranica, \"GOLDEN HORDE\" (P. Jackson, 2001), https://www.iranicaonline.org/?p=2785",
+    "ic_not": "TDV Altın Orda Hanlığı \"1241-1502\" aralığını verir (atlas künyesi f=1242-01-01: 1 yıl hayalet uyarısı — künye GENİŞLET/düzelt önerisi). Saray Batu'nun merkezi, Berke ve ardıllarının oturduğu yer (Iranica Golden Horde; Wikipedia \"Sarai (city)\": Berke 1266'da \"Batu'nun Sarayı\"nda gömüldü). Atlas 1281'de altinorda ile açıyor — dikiş sorunsuz."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1241-01-01",
+    "gun": "1241",
+    "k": "kurulus",
+    "b": "Batu Han İdil (Volga) aşağı mecrasına dönüp \"Orda\" merkezini kurar; Saray adı verilen şehir kısa zamanda gelişir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Altın Orda Hanlığı\", https://islamansiklopedisi.org.tr/altin-orda-hanligi",
+    "tanik": "1241 yılında İdil nehrinin aşağı mecrasına dönerek “Orda” merkezini kurdu"
+   },
+   {
+    "t": "1253-01-01",
+    "gun": "1253",
+    "k": "diger",
+    "b": "Rubruck, Batu'nun inşa ettiği yeni kasaba Sarai'yi anar — şehrin ilk yazılı tanığı (Rubruck 1253 Haziran'da yola çıktı, Ağustos 1253'te Batu'ya vardı).",
+    "kaynak": "William of Rubruck, Itinerarium (1253-55), Rockhill çevirisi, https://depts.washington.edu/silkroad/texts/rubruck.html",
+    "tanik": "Sarai, the new town that Baatu is making on the Etilia"
+   }
+  ],
+  "ic_not": "KAYNAK: TDV Altın Orda Hanlığı (curl), Iranica Golden Horde (P. Jackson), Rubruck (Rockhill, UW Silk Road), Archaeology Magazine (2. tanık), Wikipedia \"Sarai (city)\" (2. tanık). ATLAS ÖNERİSİ: altinorda künyesi f 1242 → TDV 1241. kat1900=3 TAHMİNİ (1900 yerleşimi değil, harabe)."
+ },
+ {
+  "id": "seki-nuha",
+  "ad": "Şeki (Nuha)",
+  "atlas_ad": "Şeki (Nuha)",
+  "lat": 41.1919,
+  "lon": 47.1706,
+  "kat1900": 3,
+  "adlar": [
+   "Šakkan / Šakkī / Šakʿē (Ermenice)",
+   "Şeki / Shaki",
+   "Nuha / Nukha (1772'den itibaren yeni yerleşim; 1968'e kadar)"
+  ],
+  "ilk": {
+   "t": "0655-01-01",
+   "gun": "655 (23-35 H / 644-55 aralığının son ucu)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica, \"ŠAKKI\" (C. E. Bosworth, 2000), https://www.iranicaonline.org/articles/sakki-district",
+   "tanik": "a peace treaty with the chiefs of Šakkan and Qamibarān in the region of Šakki",
+   "ic_not": "İlk anılış alt sınırdır, kuruluş DEĞİL: Belâzürî (Fütûh s. 203, Iranica üzerinden) Şakkan ve Kamibarân reisleri; Şakkan bir yerleşmeden çok Şakki bölgesindeki bir yer adı da olabilir (kesin değil). Kuruluş: TDV \"Ne zaman ortaya çıktığı bilinmeyen şehir\"; IV. yy'da Kafkasya Albanyası'nın önemli şehri/Hıristiyan merkezi diye belirtilir (tarihsiz). Wikipedia \"Shaki\" (\"founded in the 8th century B.C.\", Saka yerleşimi) KAYNAKSIZ ve ikinci tanık olduğundan kullanılmadı. YER SORUNU: TDV — \"Günümüzde yerinde olmayan Şeki yerleşmesinin Kiş çayının Eğri çayına döküldüğü yerde şimdiki Karadağ yakınında olduğu tahmin edilmektedir\"; Wikipedia: eski Şeki Kiş çayı sol yakasındaydı, 1772 selinden sonra bugünkü yere (Nukha köyü yanı) taşındı. Atlas noktası bugünkü Şeki/Nuha'dır; eski yerleşimle atlas noktası arası mesafe kaynakta yok → >3 km ise (Emre kuralı) bu zincir eski Şeki kaydı olarak AYRI yazılmalı: kontrol gerekir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0655-01-01",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"ŠAKKI\" (C. E. Bosworth, 2000), https://www.iranicaonline.org/articles/sakki-district",
+    "ic_not": "Selmân b. Rebîa Bâhilî Osman halifeliğinde (23-35/644-55) Kabele'yi alıp Şakkan ve Kamibarân reisleriyle barış yapar (Belâzürî s. 203, Iranica). Arap otoritesi \"yüzyıllarca hafif kaldı, yerel güç yerli reislerdeydi\" (Iranica) → nominal üstünlük; beyanlı yaklaşıklık. t: Hulefâ-yi Râşidîn → Emevî künye geçişi 29 Temmuz 661."
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0750-08-05",
+    "d": "emevi",
+    "kesinlik": "gun",
+    "kaynak": "Encyclopaedia Iranica, \"ŠAKKI\" (C. E. Bosworth, 2000), https://www.iranicaonline.org/articles/sakki-district; TDV İslâm Ansiklopedisi, \"Şeki\", https://islamansiklopedisi.org.tr/seki",
+    "ic_not": "TDV Şeki: VII. yy'da Arap akınlarına maruz kaldı. Iranica: Arap otoritesi bu bölgede hafif, yerel reisler elde. Nominal Emevî sahipliği (beyanlı yaklaşıklık)."
+   },
+   {
+    "f": "0750-08-05",
+    "t": "0850-01-01",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"ŠAKKI\" (C. E. Bosworth, 2000), https://www.iranicaonline.org/articles/sakki-district; TDV İslâm Ansiklopedisi, \"Şeki\", https://islamansiklopedisi.org.tr/seki",
+    "ic_not": "Nominal Abbâsî üstünlüğü. t: \"f en geç tanıktan\" — Iranica: 3./9. yy'ın ilk yarısında Şakki ve Arrân yerli reis Sahl b. Sonbât'ın elindeydi (Minorsky 1953); TDV: Arap hilâfetinin zayıfladığı IX. yy'dan itibaren Şeki bağımsız meliklik. Aralığın en geç ucu 850 alındı ve önceki dönem (Abbâsî) 850'ye uzatıldı; Sahl'in başlangıç yılı kaynakta yok."
+   },
+   {
+    "f": "0850-01-01",
+    "t": "1100-01-01",
+    "d": "sakki-meliklik",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"ŠAKKI\" (C. E. Bosworth, 2000), https://www.iranicaonline.org/articles/sakki-district; TDV İslâm Ansiklopedisi, \"Şeki\", https://islamansiklopedisi.org.tr/seki",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id \"sakki-meliklik\" (Şakki/Şeki Meliklikleri: Sahl b. Sonbât 9. yy, Âḏar-narseh b. Hammâm ve Ešjāniq 10. yy (344/955-56'da Mosaferî Marzobân'a haraç), Kakheti lordu Aksartan II 11. yy ortası — Iranica). TDV: \"IX. yüzyıldan itibaren Şeki bağımsız meliklik haline geldi\", \"XI. yüzyılda Şirvanşahlar'ın hâkimiyetine girdi\". t: XI. yy aralığının SON ucu 1100 (güvenli uç, \"f en geç tanıktan\"); Iranica 460/1068'de Kakheti lordu Aksartan'ın Müslüman olup Selçuklu karşısında konumunu korumaya çalıştığını söyler (Selçuklu/Gürcü nominal üstünlüğü ayrı dönem AÇILMADI). Wikipedia (ikinci tanık) Şirvanşah dönemini 1038-1105 verir — TDV ile uyumlu, tek dayanak olmadığı için kullanılmadı."
+   },
+   {
+    "f": "1100-01-01",
+    "t": "1225-01-13",
+    "d": "sirvansah",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Şeki\", https://islamansiklopedisi.org.tr/seki; Encyclopaedia Iranica, \"ŠAKKI\" (C. E. Bosworth, 2000), https://www.iranicaonline.org/articles/sakki-district",
+    "ic_not": "TDV: XI. yy'da Şirvanşahlar'ın hâkimiyetine girdi (aralık sonu). Iranica: bu dönemde Şakki Yezîdî Şirvanşahlar ile Gürcü krallar arasında \"kontrolü tartışmalı\" bölge. t: Şirvanşah Fariborz III, Celâleddin Hârizmşah'a Şakki ve Kabele'nin Gürcülere kaybedildiğini 622/1225'te şikâyet eder → hicrî 622 ∩ 1225 ilk günü 1225-01-13 (tablo)."
+   },
+   {
+    "f": "1225-01-13",
+    "t": "1229-01-01",
+    "d": "gurcistan",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"ŠAKKI\" (C. E. Bosworth, 2000), https://www.iranicaonline.org/articles/sakki-district",
+    "ic_not": "Iranica: Şirvanşah, Şakki ve Kabele'nin Gürcülere KAYBEDİLDİĞİNİ 622/1225'te bildirir ve ~626/1229'da geri alır. Başlangıç \"kayıp 622/1225'te zaten gerçekleşmişti\" anlamında en geç tanıktır; asıl alış yılı bilinmiyor."
+   },
+   {
+    "f": "1229-01-01",
+    "t": "1256-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica, \"ŠAKKI\" (C. E. Bosworth, 2000), https://www.iranicaonline.org/articles/sakki-district; TDV İslâm Ansiklopedisi, \"Şeki\", https://islamansiklopedisi.org.tr/seki",
+    "ic_not": "Şirvanşah ~626/1229'da Şakki'yi geri alır (Iranica), ardından Moğol istilası (TDV \"ardından Moğol istilâsına uğradı\", tarihsiz). Şirvanşahlar'ın Şakki'yi Moğol istilası sonrasında ne zaman yitirdiği/vasal olduğu kaynakta YOK. Merdiven: TDV Şeki/Şirvan ① Iranica Šakki/Šervān ② tarandı; Gürcü/Rus/Azerî akademik kaynaklar (③) bu oturumda bulunamadı. Şakki o devirde VAR (Iranica 1225-1229 tanıkları) → dönem kırpılmadı. Sınır: t = İlhanlı kuruluşu 1256 (TDV İlhanlılar; TDV Şeki \"İlhanlılar devrinde yeniden gelişmeye başladı\")."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Şeki\", https://islamansiklopedisi.org.tr/seki; TDV İlhanlılar",
+    "ic_not": "TDV Şeki: İlhanlılar devrinde yeniden gelişmeye başladı. Atlas 1281'de ilhanli ile açıyor (dikiş sorunsuz)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0655-01-01",
+    "gun": "655 (23-35 H / 644-55 aralığının son ucu)",
+    "k": "diger",
+    "b": "Selmân b. Rebîa Kabele'yi alıp Şakkan ve Kamibarân reisleriyle barış yapar: Şakki bölgesiyle Müslüman Arapların ilk temasları.",
+    "kaynak": "Encyclopaedia Iranica, \"ŠAKKI\" (C. E. Bosworth, 2000), https://www.iranicaonline.org/articles/sakki-district",
+    "tanik": "The Muslim Arabs appeared in Šakki during the caliphate of ʿOṯmān (r. 23-35/644-55)"
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'nin biat alması, 25 Rebîülevvel 41).",
+    "kaynak": "TDV, Muâviye b. Ebû Süfyân, https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)"
+   },
+   {
+    "t": "0750-08-05",
+    "gun": "5 Ağustos 750",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (II. Mervân Mısır'da öldürülür).",
+    "kaynak": "TDV, Emeviler, https://islamansiklopedisi.org.tr/emeviler",
+    "tanik": "Mısır’da öldürüldü (26 Zilhicce 132 / 5 Ağustos 750)"
+   },
+   {
+    "t": "0850-01-01",
+    "gun": "3./9. yy ilk yarısı (güvenli uç 850)",
+    "k": "idari",
+    "b": "Şakki ve Arrân yerli reis Sahl b. Sonbât'ın elinde; Şeki bağımsız meliklik hâline gelir (TDV).",
+    "kaynak": "Encyclopaedia Iranica, \"ŠAKKI\" (C. E. Bosworth, 2000), https://www.iranicaonline.org/articles/sakki-district; TDV İslâm Ansiklopedisi, \"Şeki\", https://islamansiklopedisi.org.tr/seki",
+    "tanik": "Šakki and Arrān were in the hands of the indigenous chief Sahl b. Sonbāṭ"
+   },
+   {
+    "t": "1100-01-01",
+    "gun": "11. yy (aralığın son ucu)",
+    "k": "fetih",
+    "b": "Şeki Şirvanşahlar'ın hâkimiyetine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Şeki\", https://islamansiklopedisi.org.tr/seki",
+    "tanik": "XI. yüzyılda Şirvanşahlar’ın hâkimiyetine girdi"
+   },
+   {
+    "t": "1225-01-13",
+    "gun": "622 H / 1225",
+    "k": "kayip",
+    "b": "Şirvanşah Celâleddin Hârizmşah'a Şakki ve Kabele'nin Gürcülere kaybedildiğini şikâyet eder.",
+    "kaynak": "Encyclopaedia Iranica, \"ŠAKKI\" (C. E. Bosworth, 2000), https://www.iranicaonline.org/articles/sakki-district",
+    "tanik": "about the loss of Šakki and Qabala to the Georgians"
+   },
+   {
+    "t": "1229-01-01",
+    "gun": "626 H / ~1229",
+    "k": "fetih",
+    "b": "Şirvanşah Şakki ve Kabele'yi Gürcülerden geri alır.",
+    "kaynak": "Encyclopaedia Iranica, \"ŠAKKI\" (C. E. Bosworth, 2000), https://www.iranicaonline.org/articles/sakki-district",
+    "tanik": "the Šarvānšāh came and retook them in about 626/1229"
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → İlhanlı Devleti (TDV İlhanlılar).",
+    "kaynak": "TDV, İlhanlılar, https://islamansiklopedisi.org.tr/ilhanlilar",
+    "tanik": "başşehri Tebriz olmak üzere İran’da kurulan (1256)"
+   }
+  ],
+  "ic_not": "KAYNAK: Iranica \"ŠAKKI\" (curl) + TDV Şeki/İlhanlılar/Muâviye/Emeviler. ÇİFT TEYİT yok. Zincirin 850-1100 dönemi künyesizdir (\"sakki-meliklik\" önerisi). ATLAS ÖNERİSİ: atlas Şeki'yi 1281'den başlatıyor; 655'e kadar uzayan zincir kaynaklı. Atlas noktası ile TDV'deki eski Şeki konumu farklı olabilir. kat1900=3 TAHMİNİ (1900 listesinde Nuha uyezd merkezi olarak yoktur; kontrol önerilir)."
+ },
+ {
   "id": "siena",
   "ad": "Siena",
   "atlas_ad": "Siena",
@@ -4408,6 +5528,119 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ZİNCİR YOK: güvenli uç ilk.t=1300 atlasın başlangıcından (1281-01-01) SONRA; kural gereği 1281 öncesi sahip yazılmaz. ATLAS DÜZELTME ÖNERİSİ: atlas Söğüt'ü 1281'de Osmanlı olarak açıyor ('miras', künyesiz); TDV yerleşmenin ortaya çıkışını 'XIII. yüzyılın ikinci yarısı' (1250-1300) aralığına koyar, 1281 bu aralığa düşer ama gün/yıl teyidi yok. Ertuğrul'un Söğüt'ü Alâeddin'den aldığı (Selçuklu) rivayeti TDV'de tarihsizdir → olay yazılmadı."
  },
  {
+  "id": "stavropol-kafkas",
+  "ad": "Stavropol (Kafkas)",
+  "atlas_ad": "Stavropol (Kafkas)",
+  "lat": 45.0448,
+  "lon": 41.9691,
+  "kat1900": 2,
+  "adlar": [
+   "Moskovskaya (krepost' №8, ilk ad)",
+   "Stavropolskaya krepost' (22 Kasım 1777 O.S. sonrası)",
+   "Stavropol (1935-43: Voroşilovsk)"
+  ],
+  "ilk": {
+   "t": "1777-11-02",
+   "gun": "22 Ekim 1777 (Jülyen) = 2 Kasım 1777 (Gregoryen)",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "Stavropol Şehri Pasportu (şehir yönetimi resmî belgesi, 2026), https://stavropol-r07.gosweb.gosuslugi.ru/netcat_files/47/307/Pasport_goroda_Stavropolya_2026.pdf; Wikipedia \"Stavropol\" (22 Ekim 1777, 2. tanık)",
+   "tanik": "22 октября 1777 года по старому стилю (4 ноября) была заложена крепость № 8",
+   "ic_not_takvim": "Kaynak \"22 Ekim 1777 eski üslup (4 Kasım)\" der; 1777'de Jülyen→Gregoryen farkı 11 gündür → 2 Kasım (kaynağın \"4 Kasım\"ı 13 günlük modern farkı kullanıyor, hatalıdır). Çevrilen gün yazıldı.",
+   "ic_not": "Kuruluş ASKERÎ KALE: Azov-Mozdok hattı krepost' №8 (Potemkin planı, Yakobi ordueri; 5 Ekim 1777'de Vladimir Ejderha Alayı Taşla'ya yürüdü); 22 Kasım 1777 (O.S.) №7 ve \"Stavropolskaya\" adı. Yalnız resmî şehir pasportu + Wikipedia + Treccani (\"In origine luogo fortificato\", yıl vermez) bulundu; hakemli akademik makale (DergiPark/Rus) bu oturumda açılamadı → ÇİFT TEYİT yok, kaynak zayıf (resmî belge). Şehir statüsü 1785 (Wikipedia; pasportta 1783 Potemkin \"şehir\" der)."
+  },
+  "kur": {
+   "t": "1777-11-02",
+   "gun": "22 Ekim 1777 (Jülyen) = 2 Kasım 1777 (Gregoryen)",
+   "kesinlik": "gun",
+   "kaynak": "Stavropol Şehri Pasportu (şehir yönetimi resmî belgesi, 2026), https://stavropol-r07.gosweb.gosuslugi.ru/netcat_files/47/307/Pasport_goroda_Stavropolya_2026.pdf",
+   "tanik": "22 октября 1777 года по старому стилю (4 ноября) была заложена крепость № 8"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1777-11-02",
+    "gun": "22 Ekim 1777 (Jülyen)",
+    "k": "kurulus",
+    "b": "Azov-Mozdok hattında 8 numaralı kale (sonra Stavropolskaya) atılır.",
+    "kaynak": "Stavropol Şehri Pasportu (şehir yönetimi resmî belgesi, 2026), https://stavropol-r07.gosweb.gosuslugi.ru/netcat_files/47/307/Pasport_goroda_Stavropolya_2026.pdf",
+    "tanik": "22 октября 1777 года по старому стилю (4 ноября) была заложена крепость № 8"
+   },
+   {
+    "t": "1777-12-03",
+    "gun": "22 Kasım 1777 (Jülyen) = 3 Aralık 1777",
+    "k": "idari",
+    "b": "General Yakobi'nin emriyle kale 7 numara ve \"Stavropolskaya\" adını alır.",
+    "kaynak": "Stavropol Şehri Pasportu (şehir yönetimi resmî belgesi, 2026), https://stavropol-r07.gosweb.gosuslugi.ru/netcat_files/47/307/Pasport_goroda_Stavropolya_2026.pdf",
+    "tanik": "с 22 ноября 1777 года получила номер 7 и название «Ставропольская»"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: şehir atlasın başlangıcından SONRA kuruldu; bu bölgede 1777 öncesi yerleşim kaynağı bulunamadı (Wikipedia/pasport yok). ATLAS DÜZELTME ÖNERİSİ: atlas 1777-01-01 diyor; kaynaklara göre kale 1777-11-02 (Gregoryen) kuruldu → atlas kur/başlangıcı 1777-11-02 olmalı (10 ay erken). Not: ayrı atlas noktası \"Stavropol–Kuma bozkırı\" (44.85 K, 42.6 D) ile 25 km fark. kat1900=2 (Stavropol guberniyası merkezi)."
+ },
+ {
+  "id": "susa",
+  "ad": "Şuşa",
+  "atlas_ad": "Şuşa",
+  "lat": 39.7558,
+  "lon": 46.7492,
+  "kat1900": 3,
+  "adlar": [
+   "Şuşikala / Şoş (Ermeni geleneği; tartışmalı)",
+   "Penahâbâd (Penah Ali Han adına)",
+   "Şuşa / Shushi"
+  ],
+  "ilk": {
+   "t": "1750-01-01",
+   "gun": "1748-1750 (aralığın son ucu)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, \"Karabağ\", https://islamansiklopedisi.org.tr/karabag",
+   "tanik": "1748-1750 yıllarında Bayat, Şahbulak, Eskeran ve Şuşa (Penahâbâd) kalelerini yaptırarak",
+   "ic_not": "TDV: Penah Ali Han Karabağ Hanlığı'nı kurdu (Nâdir Şah'ın 1747 ölümünden sonra), \"1748-1750 yıllarında Bayat, Şahbulak, Eskeran ve Şuşa (Penahâbâd) kalelerini yaptırarak\" — aralığın son ucu 1750 alındı. ÇELİŞKİ: Wikipedia \"Shusha\" (2. tanık): Mirza Cemal Cavanşir, Adıgözel-bey, Bakıhanov ve Nersesov şehrin kuruluşunu 1750-1752, diğer kaynaklar 1756-57 verir; Azerbaycan resmî kaynakları 1752. TDV esas, çelişki beyan edilir (atlas 1752-01-01). TARTIŞMA: Wikipedia ayrıca bölgede Ermeni Melik Şahnazar'ın Varanda'daki Şuşikala/Şoş köyünden gelen yerleşimden söz eder (\"origin of the city is disputed\") — Penah Ali'nin kalesinden ÖNCEKİ yerleşme kanıtı bu oturumda hakemli kaynaktan alınamadı (ark/ilk anılış yazılmadı)."
+  },
+  "kur": {
+   "t": "1750-01-01",
+   "gun": "1748-1750 (aralığın son ucu)",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, \"Karabağ\", https://islamansiklopedisi.org.tr/karabag",
+   "tanik": "1748-1750 yıllarında Bayat, Şahbulak, Eskeran ve Şuşa (Penahâbâd) kalelerini yaptırarak"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1750-01-01",
+    "t": "1752-01-01",
+    "d": "karabag-hanligi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Karabağ\", https://islamansiklopedisi.org.tr/karabag",
+    "ic_not": "Penah Ali Han Karabağ Hanlığı'nı Nâdir Şah'ın ölümünden (1747) sonra kurdu (TDV). Atlas Şuşa'yı 1752-01-01'de \"zend\" ile açıyor ama Karabağ Hanlığı künyesi (f 1747) ayrıdır: TDV 1755'te Afşarlı Feth Ali Han'ın kuşatması ve Penah Ali'nin tâbi oluşunu, ardından Kerim Han Zend ile işbirliğini anlatır (1752'de Zend hâkimiyeti YOK)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1750-01-01",
+    "gun": "1748-1750 (son uç)",
+    "k": "kurulus",
+    "b": "Penah Ali Han Bayat, Şahbulak, Eskeran ve Şuşa (Penahâbâd) kalelerini yaptırır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, \"Karabağ\", https://islamansiklopedisi.org.tr/karabag",
+    "tanik": "1748-1750 yıllarında Bayat, Şahbulak, Eskeran ve Şuşa (Penahâbâd) kalelerini yaptırarak"
+   },
+   {
+    "t": "1750-01-01",
+    "gun": "1750-1752",
+    "k": "diger",
+    "b": "Wikipedia (2. tanık): Cavanşir, Bakıhanov vb. şehrin kuruluşunu 1750-1752 verir.",
+    "kaynak": "Wikipedia \"Shusha\" (2. tanık)",
+    "tanik": "attest to the foundation of the town in 1750–1752"
+   }
+  ],
+  "dikis_beyan": "Atlas Şuşa'yı 1752-01-01'de \"zend\" ile açıyor; TDV'ye göre 1752'de şehir Karabağ Hanlığı'ndadır (Zend ilişkisi 1750'lerin sonundadır, vasal/müttefik niteliğinde, tarihsiz). 1752 için Zend hâkimiyeti tanığı bulunamadı; yer tutucu olay yazılmadı.",
+  "ic_not": "KAYNAK: TDV Karabağ (curl), Wikipedia \"Shusha\" (2. tanık). Hakemli Azeri/Ermeni/Rus akademik kaynak bu oturumda bulunamadı → çift teyit yok. ATLAS ÖNERİSİ: atlas 1752 ile başlıyor, TDV 1748-1750; ve ilk dönemi \"zend\" yazılmış, TDV'ye göre karabag-hanligi. kat1900=3 TAHMİNİ (1900 listesinde Şuşa yok; Elisavetpol guberniyası ilçe merkezi)."
+ },
+ {
   "id": "temesvar",
   "ad": "Temeşvar",
   "atlas_ad": "Temeşvar",
@@ -4454,6 +5687,300 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "TDV 'temesvar' slug'ı 'TEMEŞVAR bk. TIMIŞVAR' yönlendirmesidir; gövde 'timisvar' slug'ındadır. TDV: 1307'de Charles Robert krallık sarayı yaptırdı (atlas dönemi sonrası). Atlas düzeltme önerisi YOK; TDV'nin 1030 ilhakı ilk anılış dışı olduğundan zincire yazılmadı (aranırsa 1030'a çekilebilir, kaynak açılmalı)."
+ },
+ {
+  "id": "tiflis",
+  "ad": "Tiflis",
+  "atlas_ad": "Tiflis",
+  "lat": 41.716,
+  "lon": 44.783,
+  "kat1900": 2,
+  "adlar": [
+   "Tphilisi/Thbilisi (Gürcüce; \"tbili\" = sıcak)",
+   "Tiflis",
+   "Tbilisi (1936'dan sonra)"
+  ],
+  "ilk": {
+   "t": "0400-01-01",
+   "gun": "4. yüzyıl (en geç uç)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+   "tanik": "İlk defa IV. yüzyılda Pers hâkimiyeti altında iken bir belgede adı geçer.",
+   "ic_not": "İlk anılış alt sınırdır, kuruluş DEĞİL; TDV belgeyi adlandırmaz (aralığın son ucu 400 alındı). TDV: \"Tiflis’in ne zaman kurulduğuna dair kesin bilgi yoktur.\" Wahtang Gorgaslani geleneği (5. yy; 455/458/469) olay olarak yazıldı, kur null. Iranica/Britannica \"Tbilisi\" maddesi bu oturumda açılamadı."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-1999-01-01",
+   "gun": "MÖ 2000 (MÖ IV-III. binlerin son ucu)",
+   "kesinlik": "belirsiz",
+   "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+   "tanik": "Arkeolojik kazılar milâttan önce IV-III. binlerde bir yerleşim yeri olduğunu gösterir."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0400-01-01",
+    "t": "0523-01-01",
+    "d": "kartli-iberya",
+    "kesinlik": "yuzyil",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK: önerilen id \"kartli-iberya\" (Kartli/İberya Krallığı, Sasani üstünlüğü altında Gürcü krallığı). TDV iki ifade verir: IV. yy'da \"Pers hâkimiyeti altında iken\" ilk anılış ve 523'te \"Gurgeni'nin Persliler'e yenilmesiyle onların idaresine giriş\" (yani 523 öncesi Gürcü kralı şehrin sahibi). Çelişki Sasani üstünlüğü (suzerenlik) ile Kartli krallığının doğrudan sahipliği diye uzlaştırıldı; devlet öncesi künyesi atlasta yok. f: ilk.t (IV. yy son ucu), t: 523 (yıl)."
+   },
+   {
+    "f": "0523-01-01",
+    "t": "0645-10-28",
+    "d": "sasani",
+    "kesinlik": "yil",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "ic_not": "f: TDV \"523\" (yalnız yıl). t: TDV \"25/645-46\" (hicrî 25 ∩ 645-46); hicrî 25'in ilk günü 1 Muharrem 25 = 645-10-28 (tablo takvimi, Jülyen) alındı. Araya giren Herakleios ele geçirişi (628) ve Hazar yağması (629) süresi/bitişi verilmediği için dönem AÇMADI, olay yazıldı (zincir Sasani ile sürer)."
+   },
+   {
+    "f": "0645-10-28",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "gun",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis; Muâviye b. Ebû Süfyân maddesi, https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "ic_not": "t: Hasan'ın feragatiyle Muâviye'nin Kûfe'de biat alışı, 25 Rebîülevvel 41 / 29 Temmuz 661 (TDV, günü kaynakta yazılı)."
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0750-08-05",
+    "d": "emevi",
+    "kesinlik": "gun",
+    "kaynak": "TDV \"Emeviler\" https://islamansiklopedisi.org.tr/emeviler; Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "ic_not": "TDV Tiflis: Emevî komutanlarından Mervân b. Muhammed bölgede İslâm hâkimiyetini pekiştirdi; 683-764 Hazar akınları sırasında Tiflis \"bir ara\" Hazarlar'ın eline geçti (süresi/yılı verilmedi: dönem açılmadı). Wikipedia (ikinci tanık, tek dayanak değil) emirliğin 736'da kurulduğunu söyler; TDV bunu tarihlemez."
+   },
+   {
+    "f": "0750-08-05",
+    "t": "0833-01-01",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis; TDV Emeviler",
+    "ic_not": "f: II. Mervân'ın Mısır'da öldürülüşü (26 Zilhicce 132 / 5 Ağustos 750, TDV Emeviler) = Emevî'den Abbâsî'ye künye geçişi. t: TDV \"Abbâsîler'in ilk döneminde ... İshak b. İsmâil ... (833-852)\" — yıl; 833-01-01 alındı."
+   },
+   {
+    "f": "0833-01-01",
+    "t": "0852-06-23",
+    "d": "tiflis-emirligi",
+    "kesinlik": "yil",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "ic_not": "İshak b. İsmâil emirliği (833-852). t: \"238/852\" — hicrî 238 ∩ 852, kesişimin ilk günü 1 Muharrem 238 = 852-06-23 (tablo, Jülyen). Bu emirlik künyesi (650-1122) atlasta hazır; Wikipedia emirliğin başlangıcını 736 gösterir — TDV esas, çelişki beyan edilir."
+   },
+   {
+    "f": "0852-06-23",
+    "t": "1046-01-01",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "ic_not": "TDV: Boğa el-Kebîr İshak'ı öldürttü, \"Tiflis'te İslâm emirliği sona erdi\"; sonra Benî Ca‘fer valileri \"Abbâsî halifeleri adına para bastırdı ve onları metbû tanıdı\" (IX-X. yy, günü yok). Fiilî özerk valiler nedeniyle bu aralık künye \"tiflis-emirligi\" ile de yazılabilir; TDV Abbâsî metbûluğunu söylediği için abbasi alındı (Emre kararı gerektirir). t: TDV \"1046'da Tiflis Emîri Ca‘fer'in ölümü üzerine ... IV. Bagrat'a teslim\" (yıl). ÇELİŞKİ: Wikipedia (Tbilisi Emirate) emirliğin 1080/1122'ye kadar sürdüğünü söyler; TDV esas alındı."
+   },
+   {
+    "f": "1046-01-01",
+    "t": "1068-01-01",
+    "d": "gurcistan",
+    "kesinlik": "yil",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "ic_not": "Gürcü Kralı IV. Bagrat (TDV). 1063'te Alparslan Gürcistan'ı ele geçirdi, Bagrat kalelerin çoğunu geri aldı (şehir için bitiş verilmedi). t: TDV \"1068'de Alparslan ve müttefikleri Tiflis ve Kartli'yi yerle bir ettiler\"."
+   },
+   {
+    "f": "1068-01-01",
+    "t": "1089-01-01",
+    "d": "tiflis-emirligi",
+    "kesinlik": "yil",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "ic_not": "TDV: Alparslan Tiflis'i Gence Sultanı Fazlûn'a verdi; Bagrat Fazlûn'u yenip Tiflis'e girdi ve şehri \"vergi ödemek şartıyla emirin mirasçılarına bıraktı\" (yıl yok). Yerel Müslüman emirlik (künye tiflis-emirligi 650-1122) alındı; Fazlûn Şeddâdî (Gence) emiridir ama şehri tutanlar mirasçılardır. t: TDV \"II. Giorgi zamanında (1072-1089) Kartli tekrar Selçuklu hâkimiyetine girdi\" — aralığın SON ucu 1089 (\"f en geç tanıktan\": önceki dönem 1089'a uzatıldı; Selçuklu hâkimiyeti şehre ne zaman girdi bilinmiyor)."
+   },
+   {
+    "f": "1089-01-01",
+    "t": "1121-01-01",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "ic_not": "f: TDV \"II. Giorgi zamanında (1072-1089)\" aralığının son ucu (beyanlı en-geç). t: TDV \"1121'de Tiflis'teki Selçuklu hâkimiyetine son verdi\" (II. David). ÇELİŞKİ: Wikipedia \"Siege of Tbilisi (1122)\" Şubat 1122 diyor (ikinci tanık, tek dayanak değil); atlas tiflis-emirligi künyesi 1122'de bitiyor. TDV esas alındı, gün/ay TDV'de yok."
+   },
+   {
+    "f": "1121-01-01",
+    "t": "1230-01-01",
+    "d": "gurcistan",
+    "kesinlik": "yil",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "ic_not": "Kraliçe Tamara dönemi en görkemli dönem (TDV). 1227'de (Rebîülâhir 624, Nisan 1227) Celâleddin Hârizmşah Tiflis'i aldı ama \"hâkimiyeti kısa sürdü\" — bitişi yok, dönem açılmadı, olay yazıldı."
+   },
+   {
+    "f": "1230-01-01",
+    "t": "1231-01-01",
+    "d": "harizmsah",
+    "kesinlik": "yil",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "ic_not": "f: TDV \"627'de (1230) tekrar zaptetti\" (hicrî 627 ∩ 1230 → 1230-01-01). t: TDV \"1231'de şehirde Moğol idaresi kuruldu\". Hârizmşah künyesi 1231'de biter (uyumlu)."
+   },
+   {
+    "f": "1231-01-01",
+    "t": "1256-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "ic_not": "TDV: \"1231'de şehirde Moğol idaresi kuruldu\". t: künye geçişi — İlhanlı Devleti'nin kuruluşu 1256 (TDV İlhanlılar)."
+   },
+   {
+    "f": "1256-01-01",
+    "t": "1281-01-01",
+    "d": "ilhanli",
+    "kesinlik": "yil",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis; TDV İlhanlılar, https://islamansiklopedisi.org.tr/ilhanlilar",
+    "ic_not": "TDV Tiflis: \"İlhanlılar döneminde buranın hâkimiyeti Gürcüler'e bırakıldı\" (tarihsiz). Atlas 1281'de \"gurcistan\" ile açıyor; Moğol/İlhanlı üstünlüğünden Gürcü doğrudan idaresine geçiş için günü olan tanık BULUNAMADI — dikiş beyanlı borç (dikis_beyan)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0469-01-01",
+    "gun": "469 (455/458/469 ihtilâfı, güvenli uç)",
+    "k": "kurulus",
+    "b": "Kral Wahtang Gorgaslani'nin Tiflis kale şehrini tesis ettiği geleneği; TDV kuruluş yılını 455, 458 ve 469 olarak ihtilâflı verir (güvenli uç 469 alındı). TDV aynı maddede \"kuruluşuna dair kesin bilgi yoktur\" der — gelenek kaydıdır, kur olarak YAZILMADI.",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "Şehrin kuruluş tarihi ihtilâflı olup 455, 458 ve 469 yılları öne sürülür."
+   },
+   {
+    "t": "0514-01-01",
+    "gun": "514 (Daçi 499-514, aralığın son ucu)",
+    "k": "idari",
+    "b": "Wahtang'ın oğlu Daçi Tiflis surlarını tamamlayıp başşehri Mtsheta'dan Tiflis'e taşır.",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "başşehri Mtsheta’dan Tiflis’e taşıdı"
+   },
+   {
+    "t": "0523-01-01",
+    "gun": "523",
+    "k": "fetih",
+    "b": "Gürcü Kralı Gurgeni'nin Persler'e yenilmesiyle Tiflis Sasani idaresine girer.",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "Tiflis, Gürcü Kralı Gurgeni’nin 523’te Persliler’e yenilmesiyle onların idaresine girdi."
+   },
+   {
+    "t": "0628-01-01",
+    "gun": "628",
+    "k": "fetih",
+    "b": "Bizans İmparatoru Herakleios Türklerle ittifak ederek Tiflis'i kuşatıp ele geçirir (süre/bitiş yok: dönem açılmadı).",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "Türkler’le ittifak yaparak şehri kuşatıp ele geçirdi (628)"
+   },
+   {
+    "t": "0629-01-01",
+    "gun": "629",
+    "k": "diger",
+    "b": "Hazarlar Tiflis'i yağmalar (ele geçirme olarak değil, yağma olarak anılır).",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "Bir yıl sonra Hazarlar’ca yağmalandı."
+   },
+   {
+    "t": "0645-10-28",
+    "gun": "25 H / 645-46",
+    "k": "fetih",
+    "b": "Habîb b. Mesleme'nin antlaşmasıyla Tiflis İslâm hâkimiyetine girer (tarih: hicrî 25'in ilk günü, bkz. sahip ic_not).",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "Böylece Tiflis İslâm hâkimiyetine girdi (25/645-46)."
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye'nin Kûfe'de biat alması, 25 Rebîülevvel 41).",
+    "kaynak": "TDV, Muâviye b. Ebû Süfyân, https://islamansiklopedisi.org.tr/muaviye-b-ebu-sufyan",
+    "tanik": "Kûfe’ye giderek ondan ve halktan biat aldı (25 Rebîülevvel 41 / 29 Temmuz 661)"
+   },
+   {
+    "t": "0750-08-05",
+    "gun": "5 Ağustos 750",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (son Emevî halifesi II. Mervân Mısır'da öldürülür).",
+    "kaynak": "TDV, Emeviler, https://islamansiklopedisi.org.tr/emeviler",
+    "tanik": "Mısır’da öldürüldü (26 Zilhicce 132 / 5 Ağustos 750)"
+   },
+   {
+    "t": "0833-01-01",
+    "gun": "833",
+    "k": "kurulus",
+    "b": "İshak b. İsmâil Tiflis'te Abbâsîler'e karşı fiilen bağımsız İslâm emirliğini kurar (833-852).",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "Tiflis’te İshak b. İsmâil bir İslâm emirliği kurdu"
+   },
+   {
+    "t": "0852-06-23",
+    "gun": "238 H / 852",
+    "k": "fetih",
+    "b": "Boğa el-Kebîr İshak ve oğlunu esir alıp öldürtür; Tiflis yakılır, İslâm emirliği sona erer.",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "Böylece Tiflis’te İslâm emirliği sona erdi"
+   },
+   {
+    "t": "1046-01-01",
+    "gun": "1046",
+    "k": "diger",
+    "b": "Emîr Ca‘fer ölünce Tiflisliler IV. Bagrat'ı çağırıp şehri ona teslim eder.",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "1046’da Tiflis Emîri Ca‘fer’in ölümü üzerine Tiflisliler IV. Bagrat’ı çağırarak şehri ona teslim ettiler."
+   },
+   {
+    "t": "1068-01-01",
+    "gun": "1068",
+    "k": "fetih",
+    "b": "Alparslan ve müttefikleri Tiflis ve Kartli'yi yerle bir eder; Tiflis Gence Sultanı Fazlûn'a verilir.",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "1068’de Alparslan ve müttefikleri Tiflis ve Kartli’yi yerle bir ettiler."
+   },
+   {
+    "t": "1089-01-01",
+    "gun": "1072-1089 (aralığın son ucu)",
+    "k": "fetih",
+    "b": "II. Giorgi döneminde Kartli (Tiflis dahil) tekrar Selçuklu hâkimiyetine girer.",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "II. Giorgi zamanında (1072-1089) Kartli tekrar Selçuklu hâkimiyetine girdi."
+   },
+   {
+    "t": "1121-01-01",
+    "gun": "1121",
+    "k": "fetih",
+    "b": "II. David Kıpçak yardımıyla Tiflis'teki Selçuklu hâkimiyetine son verir (Wikipedia: Şubat 1122).",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "1121’de Tiflis’teki Selçuklu hâkimiyetine son verdi"
+   },
+   {
+    "t": "1227-04-01",
+    "gun": "Nisan 1227 (Rebîülâhir 624)",
+    "k": "isgal",
+    "b": "Celâleddin Hârizmşah Tiflis'i ele geçirir; hâkimiyeti \"kısa sürer\" (bitiş verilmedi, dönem açılmadı).",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "Rebîülâhir 624’te (Nisan 1227) Tiflis’i ele geçirdiyse de hâkimiyeti kısa sürdü"
+   },
+   {
+    "t": "1230-01-01",
+    "gun": "627 H / 1230",
+    "k": "fetih",
+    "b": "Celâleddin Hârizmşah Tiflis'i ikinci kez zapteder.",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "ancak 627’de (1230) tekrar şehri zaptetti."
+   },
+   {
+    "t": "1231-01-01",
+    "gun": "1231",
+    "k": "fetih",
+    "b": "Tiflis'te Moğol idaresi kurulur.",
+    "kaynak": "Mustafa Aydın, \"Tiflis\", TDV İslâm Ansiklopedisi (2012), https://islamansiklopedisi.org.tr/tiflis",
+    "tanik": "1231’de şehirde Moğol idaresi kuruldu."
+   },
+   {
+    "t": "1256-01-01",
+    "gun": "1256",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → İlhanlı Devleti (Hülâgû'nun İran'da ilhanlığı kurması).",
+    "kaynak": "TDV, İlhanlılar, https://islamansiklopedisi.org.tr/ilhanlilar",
+    "tanik": "başşehri Tebriz olmak üzere İran’da kurulan (1256)"
+   }
+  ],
+  "dikis_beyan": "Atlas Tiflis'i 1281-01-01'de \"gurcistan\" olarak açıyor. TDV İlhanlı döneminde yönetimin Gürcüler'e bırakıldığını söyler ama tarih vermez; 1281 civarında günü olan bir devir tanığı (Georgian Chronicle / Brosset / Rapp) bu oturumda bulunamadı. Zincir ilhanli ile 1281'de biter; yer tutucu olay yazılmadı.",
+  "ic_not": "KAYNAKLAR: TDV Tiflis (curl ile okundu) birincil; Wikipedia \"Tbilisi\", \"Tbilisi Emirate\", \"Siege of Tbilisi (1122)\" yalnız ikinci tanık; Treccani Enciclopedia Italiana \"Tiflis\" (1937) (\"Dal 570 al 580 fu in potere dei Persiani; nel 626 venne presa dai Bizantini\") TDV 628 ile 626/627 farkı: TDV esas. ATLAS ÖNERİSİ: 1121/1122 farkı (TDV 1121, atlas künye tiflis-emirligi t=1122, Wikipedia Şubat 1122): atlas künyesi TDV'ye göre 1121'e çekilebilir ya da çelişki beyan edilmeli. 852-1046 aralığı için \"tiflis-emirligi\" mi \"abbasi\" mi kararı Emre'nindir."
  },
  {
   "id": "toledo",
@@ -4556,11 +6083,11 @@ window.SEHIR_TARIHCE_K12 = [
    },
    {
     "f": "1036-01-01",
-    "t": "1085-01-01",
+    "t": "1085-05-25",
     "d": "toledo-zunnunler",
     "kesinlik": "yil",
     "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tuleytula ('Zünnûnîler 427’de (1036) Tuleytula’ya girdiler')",
-    "ic_not": "f: hicrî 427 ∩ 1036 = 1036-01-01. t: atlas dikişi 1085-01-01 (yıl). Gerçek teslim günü Treccani'ye göre 25 Mayıs 1085 (olay aşağıda); künye t=1085-05-08. ATLAS DÜZELTME ÖNERİSİ: Toledo'nun Kastilya başlangıcı 1085-01-01 yerine 1085-05-25 (Treccani EI 'Toledo') olmalı."
+    "ic_not": "f: hicrî 427 ∩ 1036 = 1036-01-01. t: atlas dikişi 1085-01-01 (yıl). Gerçek teslim günü Treccani'ye göre 25 Mayıs 1085 (olay aşağıda); künye t=1085-05-08. ATLAS DÜZELTME ÖNERİSİ: Toledo'nun Kastilya başlangıcı 1085-01-01 yerine 1085-05-25 (Treccani EI 'Toledo') olmalı. | KURULUS-GERI-1021: t 1085-01-01 -> 1085-05-25 (atlas Toledo Kastilya f 1085-05-25'e düzeltildi; Treccani 'il 25 maggio 1085 Alfonso VI entrava in Toledo'). Künye toledo-zunnunler 1085-05-08'de biter; 17 gün künye aşımı beyanlı."
    }
   ],
   "olay": [
@@ -4753,6 +6280,49 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "kat1900: LISTE.tsv Varşova Rus İmp. 'Varshavskaya guberniya' kat 2. Mazovya dükleri XIII. yy'da kale yaptırdı (tarihsiz). 1339 şehir hakları (LZMK), atlas sonrası. Atlas Varşova'da 1281 polonya-erken ile başlıyor; atlas düzeltme önerisi yok."
+ },
+ {
+  "id": "yeni-saray-tsarev",
+  "ad": "Yeni Saray (Tsarev)",
+  "atlas_ad": "Yeni Saray (Tsarev)",
+  "lat": 48.688,
+  "lon": 45.383,
+  "kat1900": 3,
+  "adlar": [
+   "Sarāy al-Jadīd / Sarā-ye jadid (Yeni Saray)",
+   "Saray-Berke (yanıltıcı ad, Iranica)",
+   "Tsarevskoe gorodişçe (Tsarev)"
+  ],
+  "ilk": {
+   "t": "1341-01-01",
+   "gun": "1341 (Özbeg saltanatının son yılı)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica, \"GOLDEN HORDE\" (P. Jackson, 2001), https://www.iranicaonline.org/?p=2785",
+   "tanik": "New Sarai (Sarā-ye jadid, sometimes misleadingly called Sarā-ye baraka), was founded by Özbeg",
+   "ic_not": "Iranica \"Golden Horde\": Yeni Saray Özbeg (1312-1341) tarafından kuruldu — kesin yıl yok, saltanatın son ucu 1341 alındı. Wikipedia \"Sarai (city)\" (2. tanık, bilimsel özet): ilk açık anış Mart-Nisan 1341 (Özbeg'in ölümü, Memlük yazar); İbn Arabşah'ın \"Saray'ın inşası ile yıkımı arası 63 yıl\" ifadesi Timur'un 1395-96 yıkımına göre 1334-35 verir (çıkarım). Wikipedia: \"Yeni Saray\" Berke'nin kurduğu \"Saray-Berke\" ile özdeş değildir. YER: Rus arkeologların çoğu Yeni Saray'ı Tsarevskoe gorodişçesine koyar; bazıları Tsarevskoe'yi darphane, Selitrennoye'yi Eski+Yeni Saray sayar (Archaeology Magazine 2024). Atlas noktası (48.688 K, 45.383 D) Tsarevskoe ile uyumlu görünür."
+  },
+  "kur": {
+   "t": "1341-01-01",
+   "gun": "1341 (Özbeg saltanatının son yılı)",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica, \"GOLDEN HORDE\" (P. Jackson, 2001), https://www.iranicaonline.org/?p=2785",
+   "tanik": "New Sarai (Sarā-ye jadid, sometimes misleadingly called Sarā-ye baraka), was founded by Özbeg"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1341-01-01",
+    "gun": "1312-1341 (Özbeg saltanatı; güvenli uç 1341)",
+    "k": "kurulus",
+    "b": "Özbeg Han Yeni Saray'ı (Sarāy al-Jadīd) kurar; Wikipedia (2. tanık): Memlük yazarı Özbeg'in Yeni Saray'da ölümünü Mart-Nisan 1341'de anar, İbn Arabşah'ın \"63 yıl\" hesabı ~1334-35 verir.",
+    "kaynak": "Encyclopaedia Iranica, \"GOLDEN HORDE\" (P. Jackson, 2001), https://www.iranicaonline.org/?p=2785",
+    "tanik": "New Sarai (Sarā-ye jadid, sometimes misleadingly called Sarā-ye baraka), was founded by Özbeg"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: şehir atlasın başlangıcından (1281-01-01) SONRA kuruldu; kural gereği 1281 öncesi sahip yazılmaz. ATLAS DÜZELTME ÖNERİSİ: atlas Yeni Saray (Tsarev)'i 1281'de altinorda ile açıyor; kaynaklara göre şehir 1334-1341 arasında kuruldu (Özbeg) — atlas başlangıcı ~1341'e çekilmeli ya da 1281-1341 arası dilim kırpılmalı. kat1900=3 (Tsarev uyezd merkezi, 1900 listesi)."
  },
  {
   "id": "zadar",
