@@ -1,0 +1,2177 @@
+{
+ "aciklama": "MÖ (yıl<0) kronoloji adları; çevrimdışı Pleiades+GeoNames ile çift tanık çıkmadı. VERI-MO-ARKEO'ya devir.",
+ "adlar": [
+  {
+   "ad": "Olmek",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    -1199,
+    -399
+   ],
+   "ornek_maddeler": [
+    "-0999-01-01 Nakbe: başlar",
+    "-1199-01-01 Chavín de Huántar: başlar",
+    "-0399-01-01 Anuradhapura - en erken tarihli Brahmi yazısı: Brahmi yazılı çanak çöm"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Lagaş devletinin merkezi",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    -2474,
+    -2143
+   ],
+   "ornek_maddeler": [
+    "-2143-01-01 Girsu (Lagaş devletinin merkezi): sahipsiz aralık → Lagaş II. Dönemi (",
+    "-2349-01-01 Girsu (Lagaş devletinin merkezi): Lagas I. Hanedan (sehir devleti) → s",
+    "-2474-01-01 Girsu (Lagaş devletinin merkezi): Lagas I. Hanedan (sehir devleti) dön"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Pınarbaşı Höyüğü",
+   "durum_cevrimdisi": "belirsiz",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -9599,
+    -7999
+   ],
+   "ornek_maddeler": [
+    "-7999-01-01 Pınarbaşı (Konya havzası, Karaman): iskân sona erer",
+    "-9599-01-01 Pınarbaşı (Konya havzası, Karaman): Neolitik iskân başlar (ilk kanıtlı"
+   ],
+   "tek_tanik_koord": null,
+   "not": "GeoNames 4 aday: Pınarbaşı 36.7034,34.3627; Pınarbaşı 38.72285,36.39314; Pınarbaşı 37.21383,41.88915; Pınarbaşı 41.60388,33.11099"
+  },
+  {
+   "ad": "Karnataka",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -1399,
+    -1199
+   ],
+   "ornek_maddeler": [
+    "-1199-01-01 Sanganakallu-Kupgal: terk edilir (yaklaşık)",
+    "-1399-01-01 Sanganakallu-Kupgal: tepe köyü genişlemesi (Geç Neolitik–Megalitik geç"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Khok Phanom Di",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -1999,
+    -1499
+   ],
+   "ornek_maddeler": [
+    "-1499-01-01 Khok Phanom Di: iskân sona erer",
+    "-1999-01-01 Khok Phanom Di: Neolitik iskân başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Tappe Yahya",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -5499,
+    -199
+   ],
+   "ornek_maddeler": [
+    "-0199-01-01 Tepe Yahya: Dönem I (son iskân evresi) sona erer",
+    "-5499-01-01 Tepe Yahya: Dönem VII başlar (Iranica; geçici tablo)"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Hakhamanishiya",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -558,
+    -329
+   ],
+   "ornek_maddeler": [
+    "-0329-01-01 Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı: Ahameniş Devlet",
+    "-0558-01-01 Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı: Kyros II Pers t"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Achaemenid",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -558,
+    -329
+   ],
+   "ornek_maddeler": [
+    "-0329-01-01 Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı: Ahameniş Devlet",
+    "-0558-01-01 Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı: Kyros II Pers t"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Elam",
+   "durum_cevrimdisi": "bolge_nokta",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2399,
+    -538
+   ],
+   "ornek_maddeler": [
+    "-0538-01-01 Elam (Eski Elam - Yeni Elam): Yeni Elam dönemi sona erer",
+    "-2399-01-01 Elam (Eski Elam - Yeni Elam): Awan hanedanı (ilk Elam hanedanı) başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": "Pleiades bölge/temsilci noktası (Elam, tip: region, label); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta"
+  },
+  {
+   "ad": "Haltamti",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2399,
+    -538
+   ],
+   "ornek_maddeler": [
+    "-0538-01-01 Elam (Eski Elam - Yeni Elam): Yeni Elam dönemi sona erer",
+    "-2399-01-01 Elam (Eski Elam - Yeni Elam): Awan hanedanı (ilk Elam hanedanı) başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Dzheitun",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -6098,
+    -5926
+   ],
+   "ornek_maddeler": [
+    "-5926-01-01 Jeitun: Jeitun yerleşimi sona erer (Bayes)",
+    "-6098-01-01 Jeitun: Jeitun yerleşimi başlar (Bayes)"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Ahal",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -6098,
+    -5926
+   ],
+   "ornek_maddeler": [
+    "-5926-01-01 Jeitun: Jeitun yerleşimi sona erer (Bayes)",
+    "-6098-01-01 Jeitun: Jeitun yerleşimi başlar (Bayes)"
+   ],
+   "tek_tanik_koord": {
+    "lat": 38.21978,
+    "lon": 58.01605,
+    "kaynak": "GeoNames 162121 Ahal"
+   },
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Antas",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2199,
+    -1549
+   ],
+   "ornek_maddeler": [
+    "-1549-01-01 El Argar (Argar kültürü, Antas): kültür sona erer (yaklaşık)",
+    "-2199-01-01 El Argar (Argar kültürü, Antas): kültür başlar (yaklaşık)"
+   ],
+   "tek_tanik_koord": {
+    "lat": 39.3923602,
+    "lon": 8.4976672,
+    "kaynak": "Pleiades 786551142"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Baranya",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -5331,
+    -5186
+   ],
+   "ornek_maddeler": [
+    "-5186-01-01 Szederkény-Kukorica-dűlő (Vinča/LBK sınır yerleşimi): Neolitik yerleşi",
+    "-5331-01-01 Szederkény-Kukorica-dűlő (Vinča/LBK sınır yerleşimi): Neolitik yerleşi"
+   ],
+   "tek_tanik_koord": {
+    "lat": 48.57561,
+    "lon": 22.32729,
+    "kaynak": "GeoNames 712846 Baranyntsi"
+   },
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Tell Mureybet",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -10149,
+    -7949
+   ],
+   "ornek_maddeler": [
+    "-10149-01-01 Mureybet: başlar",
+    "-7949-01-01 Mureybet: sona erer"
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.068333,
+    "lon": 38.090556,
+    "kaynak": "Pleiades 10236664"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Mureybit",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -10149,
+    -7949
+   ],
+   "ornek_maddeler": [
+    "-10149-01-01 Mureybet: başlar",
+    "-7949-01-01 Mureybet: sona erer"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Tell Abu Hureyra",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -11219,
+    -7099
+   ],
+   "ornek_maddeler": [
+    "-11219-01-01 Ebu Hureyre (Abu Hureyra): başlar",
+    "-7099-01-01 Ebu Hureyre (Abu Hureyra): sona erer"
+   ],
+   "tek_tanik_koord": {
+    "lat": 35.866,
+    "lon": 38.4,
+    "kaynak": "Pleiades 456814175"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "‘Ayn Ghazāl",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -8399,
+    -6699
+   ],
+   "ornek_maddeler": [
+    "-6699-01-01 Ayn Gazal (‘Ain Ghazal): sona erer",
+    "-8399-01-01 Ayn Gazal (‘Ain Ghazal): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Qalʿat Sherqat",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -1971,
+    -613
+   ],
+   "ornek_maddeler": [
+    "-0613-01-01 Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur şehr",
+    "-1971-01-01 Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur: Esk"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Urim",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2109,
+    -2002
+   ],
+   "ornek_maddeler": [
+    "-2002-01-01 Ur III Hanedanı (Ur): Ur III Hanedanı sona erer (Ibbi-Suen'in son yılı",
+    "-2109-01-01 Ur III Hanedanı (Ur): Ur III Hanedanı: Ur-Nammu'nun 1. yılı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 30.9613179466,
+    "lon": 46.1054198117,
+    "kaynak": "Pleiades 912985"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Akkade",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2323,
+    -2141
+   ],
+   "ornek_maddeler": [
+    "-2141-01-01 Akad İmparatorluğu (Sargon): Akad İmparatorluğu: son kral Şudurul'un s",
+    "-2323-01-01 Akad İmparatorluğu (Sargon): Akad İmparatorluğu: Sargon'un saltanatı b"
+   ],
+   "tek_tanik_koord": {
+    "lat": 32.5,
+    "lon": 44.5,
+    "kaynak": "Pleiades 63806066"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Agade",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2323,
+    -2141
+   ],
+   "ornek_maddeler": [
+    "-2141-01-01 Akad İmparatorluğu (Sargon): Akad İmparatorluğu: son kral Şudurul'un s",
+    "-2323-01-01 Akad İmparatorluğu (Sargon): Akad İmparatorluğu: Sargon'un saltanatı b"
+   ],
+   "tek_tanik_koord": {
+    "lat": 32.5,
+    "lon": 44.5,
+    "kaynak": "Pleiades 63806066"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Sargonic period",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2323,
+    -2141
+   ],
+   "ornek_maddeler": [
+    "-2141-01-01 Akad İmparatorluğu (Sargon): Akad İmparatorluğu: son kral Şudurul'un s",
+    "-2323-01-01 Akad İmparatorluğu (Sargon): Akad İmparatorluğu: Sargon'un saltanatı b"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Unug",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -3349,
+    -3199
+   ],
+   "ornek_maddeler": [
+    "-3199-01-01 Uruk IV–III (yazının ortaya çıkışı): Uruk III evresi sona erer",
+    "-3349-01-01 Uruk IV–III (yazının ortaya çıkışı): Uruk IVa evresi: yazının ortaya ç"
+   ],
+   "tek_tanik_koord": {
+    "lat": 31.3233750109,
+    "lon": 45.6390521574,
+    "kaynak": "Pleiades 912986"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "ʿUbaid",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -6499,
+    -3799
+   ],
+   "ornek_maddeler": [
+    "-3799-01-01 Ubaid kültürü (güney Mezopotamya): Ubaid dönemi sona erer (Carter & Ph",
+    "-6499-01-01 Ubaid kültürü (güney Mezopotamya): Ubaid kültürü: güney Mezopotamya'da"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Kerma culture",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2499,
+    -1449
+   ],
+   "ornek_maddeler": [
+    "-1449-01-01 Kerma (Kush) krallığı/kültürü: sona erer",
+    "-2499-01-01 Kerma (Kush) krallığı/kültürü: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Kingdom of Kush",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2499,
+    -1449
+   ],
+   "ornek_maddeler": [
+    "-1449-01-01 Kerma (Kush) krallığı/kültürü: sona erer",
+    "-2499-01-01 Kerma (Kush) krallığı/kültürü: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Middle Kingdom of Egypt",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2050,
+    -1811
+   ],
+   "ornek_maddeler": [
+    "-1811-01-01 Orta Krallık: sona erer",
+    "-2050-01-01 Orta Krallık: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "First Intermediate Period",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2242,
+    -2050
+   ],
+   "ornek_maddeler": [
+    "-2050-01-01 Birinci Ara Dönem: sona erer",
+    "-2242-01-01 Birinci Ara Dönem: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Old Kingdom of Egypt",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -2662,
+    -2242
+   ],
+   "ornek_maddeler": [
+    "-2242-01-01 Eski Krallık (Piramit Çağı): sona erer",
+    "-2662-01-01 Eski Krallık (Piramit Çağı): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Naqada culture",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -3755,
+    -3125
+   ],
+   "ornek_maddeler": [
+    "-3125-01-01 Nakade (Naqada) kültürü: sona erer",
+    "-3755-01-01 Nakade (Naqada) kültürü: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Naqada I–III",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -3755,
+    -3125
+   ],
+   "ornek_maddeler": [
+    "-3125-01-01 Nakade (Naqada) kültürü: sona erer",
+    "-3755-01-01 Nakade (Naqada) kültürü: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Takarkori rock shelter",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -8219,
+    -3949
+   ],
+   "ornek_maddeler": [
+    "-3949-01-01 Takarkori kaya sığınağı (Tadrart Acacus): sona erer",
+    "-8219-01-01 Takarkori kaya sığınağı (Tadrart Acacus): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Tadrart Acacus",
+   "durum_cevrimdisi": "dogal",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -8219,
+    -3949
+   ],
+   "ornek_maddeler": [
+    "-3949-01-01 Takarkori kaya sığınağı (Tadrart Acacus): sona erer",
+    "-8219-01-01 Takarkori kaya sığınağı (Tadrart Acacus): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": "Tadrart Acacus (mountain, monument)"
+  },
+  {
+   "ad": "Pakistan",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -5049,
+    -3299
+   ],
+   "ornek_maddeler": [
+    "-5049-01-01 Mehrgarh (Belucistan): aseramik Neolitik mezarlık dizisi başlar",
+    "-3299-01-01 Harappa: Ravi evresi (Dönem 1) başlar — Hint vadisi öncesi dönem"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "фаза I-II",
+   "durum_cevrimdisi": "belirsiz",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -6119,
+    -5974
+   ],
+   "ornek_maddeler": [
+    "-5974-01-01 Lepenski Vir trapez yapılı yerleşim evresi (Mezolitik-Neolitik geçiş, ",
+    "-6119-01-01 Lepenski Vir trapez yapılı yerleşim evresi (Mezolitik-Neolitik geçiş, "
+   ],
+   "tek_tanik_koord": null,
+   "not": "Pleiades adayları yerleşim değil (I͡Asinovskiĭ III Kurgan:tumulus)"
+  },
+  {
+   "ad": "Gobero",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -7699,
+    -2834
+   ],
+   "ornek_maddeler": [
+    "-2834-01-01 Gobero (Tenere cemberi, Nijer): en genç Tenerean mezarı",
+    "-7699-01-01 Gobero (Tenere cemberi, Nijer): Erken Holosen (Kiffian) iskânı başlar"
+   ],
+   "tek_tanik_koord": {
+    "lat": 17.083333,
+    "lon": 9.516667,
+    "kaynak": "Pleiades 218046074"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Boncuklu Höyük",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -8299,
+    -8099
+   ],
+   "ornek_maddeler": [
+    "-8099-01-01 Boncuklu Höyük (Konya havzası, Çumra): iskân sona erer (geç evre)",
+    "-8299-01-01 Boncuklu Höyük (Konya havzası, Çumra): Neolitik iskân başlar (erken ev"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Tappa Hesar",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -3921,
+    -2169
+   ],
+   "ornek_maddeler": [
+    "-2169-01-01 Tepe Hissar: IIIC evresi sona erer",
+    "-3921-01-01 Tepe Hissar: IC/IIA evresi (en eski 14C'li evre) başlar"
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.1545,
+    "lon": 54.3851,
+    "kaynak": "Pleiades 942329"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Brochtorff Circle",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -3511,
+    -2419
+   ],
+   "ornek_maddeler": [
+    "-2419-01-01 Xağra Brochtorff Çemberi (Gozo, Malta): son gömüler",
+    "-3511-01-01 Xağra Brochtorff Çemberi (Gozo, Malta): kayaya oyulmuş mezarda gömüler"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Ix-Xagħra",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -3511,
+    -2419
+   ],
+   "ornek_maddeler": [
+    "-2419-01-01 Xağra Brochtorff Çemberi (Gozo, Malta): son gömüler",
+    "-3511-01-01 Xağra Brochtorff Çemberi (Gozo, Malta): kayaya oyulmuş mezarda gömüler"
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.05003,
+    "lon": 14.26421,
+    "kaynak": "GeoNames 2562280 Xagħra"
+   },
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Late Harappan",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -1899,
+    -1599
+   ],
+   "ornek_maddeler": [
+    "-1599-01-01 Geç Harappa dönemi: sona erer",
+    "-1899-01-01 Geç Harappa dönemi: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Localization Era",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -1899,
+    -1599
+   ],
+   "ornek_maddeler": [
+    "-1599-01-01 Geç Harappa dönemi: sona erer",
+    "-1899-01-01 Geç Harappa dönemi: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Babilim",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -1791,
+    -1594
+   ],
+   "ornek_maddeler": [
+    "-1594-01-01 Eski Babil (Babil I Hanedanı, Hammurabi): Babil I Hanedanı sona erer (",
+    "-1791-01-01 Eski Babil (Babil I Hanedanı, Hammurabi): Eski Babil (Babil I): Hammur"
+   ],
+   "tek_tanik_koord": {
+    "lat": 32.53729695,
+    "lon": 44.42497815,
+    "kaynak": "Pleiades 893951"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Tell Halaf",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -5899,
+    -5499
+   ],
+   "ornek_maddeler": [
+    "-5499-01-01 Halaf kültürü: Halaf döneminin en geç tarihi (üst sınır)",
+    "-5899-01-01 Halaf kültürü: Halaf kültürü: yükseliş başlar (tarihli en erken uç)"
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.8267304,
+    "lon": 40.0396765667,
+    "kaynak": "Pleiades 874739"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Guzana",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -5899,
+    -5499
+   ],
+   "ornek_maddeler": [
+    "-5499-01-01 Halaf kültürü: Halaf döneminin en geç tarihi (üst sınır)",
+    "-5899-01-01 Halaf kültürü: Halaf kültürü: yükseliş başlar (tarihli en erken uç)"
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.8267304,
+    "lon": 40.0396765667,
+    "kaynak": "Pleiades 874739"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Fayum depression",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -7349,
+    -4849
+   ],
+   "ornek_maddeler": [
+    "-4849-01-01 Fayum (Karun Gölü çevresi) Holosen iskânı: sona erer",
+    "-7349-01-01 Fayum (Karun Gölü çevresi) Holosen iskânı: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Lake Qarun",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -7349,
+    -4849
+   ],
+   "ornek_maddeler": [
+    "-4849-01-01 Fayum (Karun Gölü çevresi) Holosen iskânı: sona erer",
+    "-7349-01-01 Fayum (Karun Gölü çevresi) Holosen iskânı: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Early Khartoum",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -8799,
+    -4999
+   ],
+   "ornek_maddeler": [
+    "-4999-01-01 Erken Hartum (Khartoum Mezolitik): sona erer",
+    "-8799-01-01 Erken Hartum (Khartoum Mezolitik): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Khartoum Mesolithic",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -8799,
+    -4999
+   ],
+   "ornek_maddeler": [
+    "-4999-01-01 Erken Hartum (Khartoum Mezolitik): sona erer",
+    "-8799-01-01 Erken Hartum (Khartoum Mezolitik): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Libya",
+   "durum_cevrimdisi": "belirsiz",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -8219,
+    -3949
+   ],
+   "ornek_maddeler": [
+    "-3949-01-01 Takarkori kaya sığınağı (Tadrart Acacus): sona erer",
+    "-8219-01-01 Takarkori kaya sığınağı (Tadrart Acacus): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": "Pleiades adayları yerleşim değil (Qaryat ad Dawā’irah, Libya:archaeological-site)"
+  },
+  {
+   "ad": "Konya Ovası",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    -7099,
+    -5999
+   ],
+   "ornek_maddeler": [
+    "-7099-01-01 Çatalhöyük Doğu Höyük'te yerleşim başlar",
+    "-5999-01-01 Çatalhöyük Doğu Höyük'te yerleşim faaliyeti sona erer"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Djenné-Djenno",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -299,
+    -299
+   ],
+   "ornek_maddeler": [
+    "-0299-01-01 Cenne-Ceno (Jenne-jeno): başlar"
+   ],
+   "tek_tanik_koord": {
+    "lat": 13.90608,
+    "lon": -4.55332,
+    "kaynak": "GeoNames 2458589 Djenné"
+   },
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Djenné, Jenne-Jeno, Djenne; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+  },
+  {
+   "ad": "Bābili",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -538,
+    -538
+   ],
+   "ornek_maddeler": [
+    "-0538-01-01 Babil'in Kyros'a geçişi: başlar"
+   ],
+   "tek_tanik_koord": {
+    "lat": 32.53729695,
+    "lon": 44.42497815,
+    "kaynak": "Pleiades 893951"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Hagmatāna",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -549,
+    -549
+   ],
+   "ornek_maddeler": [
+    "-0549-01-01 Ekbatana (Hamedan): Kyros'un Med başkentini alması: başlar"
+   ],
+   "tek_tanik_koord": {
+    "lat": 34.80555515,
+    "lon": 48.51640575,
+    "kaynak": "Pleiades 903021"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Teouma",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -944,
+    -944
+   ],
+   "ornek_maddeler": [
+    "-0944-01-01 Teouma (Lapita mezarligi), Efate: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Efate",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -944,
+    -944
+   ],
+   "ornek_maddeler": [
+    "-0944-01-01 Teouma (Lapita mezarligi), Efate: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Vanuatu",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -944,
+    -944
+   ],
+   "ornek_maddeler": [
+    "-0944-01-01 Teouma (Lapita mezarligi), Efate: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Kuk Swamp Phase 2",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -4744,
+    -4744
+   ],
+   "ornek_maddeler": [
+    "-4744-01-01 Kuk: hoyuk (mound) tarimi, Evre 2: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Monte Verde",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -12599,
+    -12599
+   ],
+   "ornek_maddeler": [
+    "-12599-01-01 Monte Verde II: başlar"
+   ],
+   "tek_tanik_koord": {
+    "lat": 41.4984103881,
+    "lon": 14.6303317973,
+    "kaynak": "Pleiades 432970"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Chupacigarro",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2301,
+    -2301
+   ],
+   "ornek_maddeler": [
+    "-2301-01-01 Caral: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Norte Chico",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2999,
+    -2999
+   ],
+   "ornek_maddeler": [
+    "-2999-01-01 Norte Chico (Caral-Supe) Geç Arkaik kompleksi: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Caral-Supe",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2999,
+    -2999
+   ],
+   "ornek_maddeler": [
+    "-2999-01-01 Norte Chico (Caral-Supe) Geç Arkaik kompleksi: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": " [ALIAS eşlemesi: Caral; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+  },
+  {
+   "ad": "Stonehenge",
+   "durum_cevrimdisi": "dogal",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2871,
+    -2871
+   ],
+   "ornek_maddeler": [
+    "-2871-01-01 Stonehenge (Aşama 1: hendek ve set): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": "Stonehenge (cultural-landscape, archaeological-site, monument)"
+  },
+  {
+   "ad": "Complexe mégalithique de Carnac",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -4790,
+    -4790
+   ],
+   "ornek_maddeler": [
+    "-4790-01-01 Carnac megalitik kompleksi, Le Plasker bölümü (Plouharnel): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Le Plasker",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -4790,
+    -4790
+   ],
+   "ornek_maddeler": [
+    "-4790-01-01 Carnac megalitik kompleksi, Le Plasker bölümü (Plouharnel): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Plouharnel",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -4790,
+    -4790
+   ],
+   "ornek_maddeler": [
+    "-4790-01-01 Carnac megalitik kompleksi, Le Plasker bölümü (Plouharnel): başlar"
+   ],
+   "tek_tanik_koord": {
+    "lat": 47.59856,
+    "lon": -3.11442,
+    "kaynak": "GeoNames 2986657 Plouharnel"
+   },
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "San Martin Tilcajete",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -374,
+    -374
+   ],
+   "ornek_maddeler": [
+    "-0374-01-01 San Martin Tilcajete ilk meydaninin Monte Alban tarafindan yakilmasi: "
+   ],
+   "tek_tanik_koord": {
+    "lat": 16.85991,
+    "lon": -96.69547,
+    "kaynak": "GeoNames 3515582 San Martín Tilcajete"
+   },
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "San José Mogote",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -659,
+    -659
+   ],
+   "ornek_maddeler": [
+    "-0659-01-01 San Jose Mogote: yanmis tapinak (Yapi 28): Yapı 28 tapınağı yanar"
+   ],
+   "tek_tanik_koord": null,
+   "not": " [ALIAS eşlemesi: San Jose Mogote; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+  },
+  {
+   "ad": "Ceibal",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -999,
+    -999
+   ],
+   "ornek_maddeler": [
+    "-0999-01-01 Ceibal (Seibal, Pasion, Guatemala): Real 1 evresi: ilk yerleşik toplul"
+   ],
+   "tek_tanik_koord": null,
+   "not": " [ALIAS eşlemesi: Ceibal, Seibal; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+  },
+  {
+   "ad": "Kerma Ancien",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2549,
+    -2549
+   ],
+   "ornek_maddeler": [
+    "-2549-01-01 Eski Kerma (Kerma Ancien): Eski Kerma başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Early Kerma",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2549,
+    -2549
+   ],
+   "ornek_maddeler": [
+    "-2549-01-01 Eski Kerma (Kerma Ancien): Eski Kerma başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Lothagam North Pillar Site",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -3001,
+    -3001
+   ],
+   "ornek_maddeler": [
+    "-3001-01-01 Lothagam North Pillar Site (Turkana Gölü, Kenya): anıtsal mezarlık pla"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Los Morteros",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -3749,
+    -3749
+   ],
+   "ornek_maddeler": [
+    "-3749-01-01 Los Morteros (Chao Vadisi, Peru) - en eski kerpic anit mimarisi: Ameri"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Salihli",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -546,
+    -546
+   ],
+   "ornek_maddeler": [
+    "-0546-01-01 Sardes — Pers'in ele geçirmesi: Pers kralı Kyros Sardes'i alır (Lidya'"
+   ],
+   "tek_tanik_koord": {
+    "lat": 38.48258,
+    "lon": 28.14774,
+    "kaynak": "GeoNames 302043 Salihli"
+   },
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Gordion Tumulus MM",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -739,
+    -739
+   ],
+   "ornek_maddeler": [
+    "-0739-01-01 Gordion — Tümülüs MM (Midas Höyüğü): Midas Tümülüsü (MM): mezar odası "
+   ],
+   "tek_tanik_koord": {
+    "lat": 39.6503052703,
+    "lon": 31.9784831233,
+    "kaynak": "Pleiades 609393"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Gordion; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+  },
+  {
+   "ad": "Midas Mound",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -739,
+    -739
+   ],
+   "ornek_maddeler": [
+    "-0739-01-01 Gordion — Tümülüs MM (Midas Höyüğü): Midas Tümülüsü (MM): mezar odası "
+   ],
+   "tek_tanik_koord": {
+    "lat": 39.6503052703,
+    "lon": 31.9784831233,
+    "kaynak": "Pleiades 609393"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Gordion; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+  },
+  {
+   "ad": "Media",
+   "durum_cevrimdisi": "bolge_nokta",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -699,
+    -699
+   ],
+   "ornek_maddeler": [
+    "-0699-01-01 Med Devleti (Hegmatana merkezli): Med devleti: Deioces dönemi başlar ("
+   ],
+   "tek_tanik_koord": null,
+   "not": "Pleiades bölge/temsilci noktası (Media/Mad(aya) (region), tip: region, label); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta"
+  },
+  {
+   "ad": "Anau IA",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -4299,
+    -4299
+   ],
+   "ornek_maddeler": [
+    "-4299-01-01 Anau IA ve Meana Ufku (Kopet Dağ, İlk Kalkolitik): Anau Ia evresi (en "
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Meana Horizon",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -4299,
+    -4299
+   ],
+   "ornek_maddeler": [
+    "-4299-01-01 Anau IA ve Meana Ufku (Kopet Dağ, İlk Kalkolitik): Anau Ia evresi (en "
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Gadachrili Gora",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -5919,
+    -5919
+   ],
+   "ornek_maddeler": [
+    "-5919-01-01 Gadaçrili Gora: Şulaveri-Şomu: höyüğün ilk katmanları"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Trypillia A1-2",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -4648,
+    -4648
+   ],
+   "ornek_maddeler": [
+    "-4648-01-01 Erken Trypillia (Cucuteni-Trypillia, A1-2 evresi): Erken Trypillia gen"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Precucuteni II",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -4648,
+    -4648
+   ],
+   "ornek_maddeler": [
+    "-4648-01-01 Erken Trypillia (Cucuteni-Trypillia, A1-2 evresi): Erken Trypillia gen"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Formative LBK",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -5499,
+    -5499
+   ],
+   "ornek_maddeler": [
+    "-5499-01-01 Formatif Linearbandkeramik (Transdanubia): Transdanubia'da Formatif LB"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Transdanubien",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -5499,
+    -5499
+   ],
+   "ornek_maddeler": [
+    "-5499-01-01 Formatif Linearbandkeramik (Transdanubia): Transdanubia'da Formatif LB"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Natufian",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -12649,
+    -12649
+   ],
+   "ornek_maddeler": [
+    "-12649-01-01 Natufiyen Kültürü: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Ayn Gazal",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -6749,
+    -6749
+   ],
+   "ornek_maddeler": [
+    "-6749-01-01 Kfar HaHoresh: sona erer"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Little Petra",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -7499,
+    -7499
+   ],
+   "ornek_maddeler": [
+    "-7499-01-01 Ba‘ja: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Hallan Çemi Tepesi",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -9659,
+    -9659
+   ],
+   "ornek_maddeler": [
+    "-9659-01-01 Hallan Çemi: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Pre-Pottery Neolithic A",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -9699,
+    -9699
+   ],
+   "ornek_maddeler": [
+    "-9699-01-01 PPNA (Çömlekten Önceki Neolitik A) — Güney Levant: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Ninua",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -611,
+    -611
+   ],
+   "ornek_maddeler": [
+    "-0611-01-01 Ninova'nın düşüşü (Yeni Asur'un sonu): Ninova düşer (Yeni Asur'un sonu"
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.3607615238,
+    "lon": 43.1599368897,
+    "kaynak": "Pleiades 874621"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Neo-Babylonian",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -625,
+    -625
+   ],
+   "ornek_maddeler": [
+    "-0625-01-01 Yeni Babil Devleti: Yeni Babil: Nabopolassar tahta çıkar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Kaldean Babil",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -625,
+    -625
+   ],
+   "ornek_maddeler": [
+    "-0625-01-01 Yeni Babil Devleti: Yeni Babil: Nabopolassar tahta çıkar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Napatan period of Kush",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -1069,
+    -1069
+   ],
+   "ornek_maddeler": [
+    "-1069-01-01 Kush krallığı — Napata dönemi: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Napata",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -1499,
+    -1499
+   ],
+   "ornek_maddeler": [
+    "-1499-01-01 Napata (Cebel Barkal): başlar"
+   ],
+   "tek_tanik_koord": {
+    "lat": 18.565952,
+    "lon": 31.853738,
+    "kaynak": "Pleiades 805634"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Jebel Barkal",
+   "durum_cevrimdisi": "dogal",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -1499,
+    -1499
+   ],
+   "ornek_maddeler": [
+    "-1499-01-01 Napata (Cebel Barkal): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": "Jebel Barkal (mountain)"
+  },
+  {
+   "ad": "New Kingdom of Egypt",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -1556,
+    -1556
+   ],
+   "ornek_maddeler": [
+    "-1556-01-01 Yeni Krallık (XVIII. Hanedan başı: I. Ahmose): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "accession of Ahmose I",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -1556,
+    -1556
+   ],
+   "ornek_maddeler": [
+    "-1556-01-01 Yeni Krallık (XVIII. Hanedan başı: I. Ahmose): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Badari",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -4376,
+    -4376
+   ],
+   "ornek_maddeler": [
+    "-4376-01-01 Mısır: Badari kültürü başlar (Nil Vadisi, Yukarı Mısır)"
+   ],
+   "tek_tanik_koord": {
+    "lat": 26.99306,
+    "lon": 31.41605,
+    "kaynak": "GeoNames 361478 Al Badārī"
+   },
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: El-Badari, Badari; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+  },
+  {
+   "ad": "Aşağı Mısır",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -3125,
+    -3125
+   ],
+   "ornek_maddeler": [
+    "-3125-01-01 Mısır birleşir: Aha'nın tahta çıkışı (arkeolojik-radyokarbon tarihleme"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Kuk Swamp",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -8114,
+    -8114
+   ],
+   "ornek_maddeler": [
+    "-8114-01-01 Kuk Bataklığı (erken tarım alanı): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Kuk Early Agricultural Site",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -8114,
+    -8114
+   ],
+   "ornek_maddeler": [
+    "-8114-01-01 Kuk Bataklığı (erken tarım alanı): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Cultura Valdivia",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -4499,
+    -4499
+   ],
+   "ornek_maddeler": [
+    "-4499-01-01 Valdivia kültürü (Loma Alta / Real Alto): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Stonehenge sarsen circle",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2526,
+    -2526
+   ],
+   "ornek_maddeler": [
+    "-2526-01-01 Stonehenge sarsen halkası ve trilitonlar (Aşama 2): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Yuchanyan",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -14914,
+    -14914
+   ],
+   "ornek_maddeler": [
+    "-14914-01-01 Yuchanyan Mağarası: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Xianrendong",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -17549,
+    -17549
+   ],
+   "ornek_maddeler": [
+    "-17549-01-01 Xianrendong Mağarası: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Kotosh Religious Tradition",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2799,
+    -2799
+   ],
+   "ornek_maddeler": [
+    "-2799-01-01 Kotosh Dini Gelenegi (Kotosh, Peru): Kotosh Dini Geleneği başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Cueva San Marcos",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -3184,
+    -3184
+   ],
+   "ornek_maddeler": [
+    "-3184-01-01 Tehuacan Vadisi, San Marcos Magarasi - en eski misir (partial domestik"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Valle de Tehuacan",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -3184,
+    -3184
+   ],
+   "ornek_maddeler": [
+    "-3184-01-01 Tehuacan Vadisi, San Marcos Magarasi - en eski misir (partial domestik"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "大平山元I遺跡",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -13799,
+    -13799
+   ],
+   "ornek_maddeler": [
+    "-13799-01-01 Ōdai Yamamoto I (Aomori) — Japonya'nın en eski çanak-çömlek yerleşimle"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Anuradhapura Salgaha Watta 2",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -399,
+    -399
+   ],
+   "ornek_maddeler": [
+    "-0399-01-01 Anuradhapura - en erken tarihli Brahmi yazısı: Brahmi yazılı çanak çöm"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Brahmi sherds",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -399,
+    -399
+   ],
+   "ornek_maddeler": [
+    "-0399-01-01 Anuradhapura - en erken tarihli Brahmi yazısı: Brahmi yazılı çanak çöm"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Non Nok Tha",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -999,
+    -999
+   ],
+   "ornek_maddeler": [
+    "-0999-01-01 Non Nok Tha: Tunç Çağı evresi (kısa kronoloji)"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Ban Chiang",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -1509,
+    -1509
+   ],
+   "ornek_maddeler": [
+    "-1509-01-01 Ban Chiang: ilk tarihli gömü (kemik kolajeni, kısa kronoloji)"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Ban Non Wat",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -1799,
+    -1799
+   ],
+   "ornek_maddeler": [
+    "-1799-01-01 Ban Non Wat: Neolitik 1 evresi: pirinç çiftçileri yerleşir"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Man Bac",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -1955,
+    -1955
+   ],
+   "ornek_maddeler": [
+    "-1955-01-01 Man Bac: tarım dönemi iskânı"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Southern Neolithic",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2999,
+    -2999
+   ],
+   "ornek_maddeler": [
+    "-2999-01-01 Güney Hint Neolitiği (Ashmound geleneği, Deccan): Güney Hint: Kodekal'"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Ashmound Tradition",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2999,
+    -2999
+   ],
+   "ornek_maddeler": [
+    "-2999-01-01 Güney Hint Neolitiği (Ashmound geleneği, Deccan): Güney Hint: Kodekal'"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Karnataka-Andhra",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2999,
+    -2999
+   ],
+   "ornek_maddeler": [
+    "-2999-01-01 Güney Hint Neolitiği (Ashmound geleneği, Deccan): Güney Hint: Kodekal'"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Proto-Elamite script",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -3199,
+    -3199
+   ],
+   "ornek_maddeler": [
+    "-3199-01-01 Proto-Elam yazı sistemi (Susa): Proto-Elam yazısı ortaya çıkar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Liangzhu Kültürü",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2049,
+    -2049
+   ],
+   "ornek_maddeler": [
+    "-2049-01-01 Liangzhu: sahip dönemi sona erer — Liangzhu Kültürü"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Hemudu Kültürü",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -3249,
+    -3249
+   ],
+   "ornek_maddeler": [
+    "-3249-01-01 Hemudu: sahip dönemi sona erer — Hemudu Kültürü"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Eş-Şeheynab Neolitiği",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -4199,
+    -4199
+   ],
+   "ornek_maddeler": [
+    "-4199-01-01 Esh-Shaheinab: sahip dönemi sona erer — Shaheinab Neolitiği (Orta Suda"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Shaheinab",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -4199,
+    -4199
+   ],
+   "ornek_maddeler": [
+    "-4199-01-01 Esh-Shaheinab: sahip dönemi sona erer — Shaheinab Neolitiği (Orta Suda"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Kuahuqiao Kültürü",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -5249,
+    -5249
+   ],
+   "ornek_maddeler": [
+    "-5249-01-01 Kuahuqiao: sahip dönemi sona erer — Kuahuqiao Kültürü"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Rakhigarhi",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2549,
+    -2549
+   ],
+   "ornek_maddeler": [
+    "-2549-01-01 Rakhigarhi: başlar"
+   ],
+   "tek_tanik_koord": {
+    "lat": 29.2913230728,
+    "lon": 76.111482218,
+    "kaynak": "Pleiades 168523099"
+   },
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Mature Harappan",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2599,
+    -2599
+   ],
+   "ornek_maddeler": [
+    "-2599-01-01 Olgun Harappa (İndus Uygarlığı kent dönemi): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Harappa Phase",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2599,
+    -2599
+   ],
+   "ornek_maddeler": [
+    "-2599-01-01 Olgun Harappa (İndus Uygarlığı kent dönemi): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Integration Era",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2599,
+    -2599
+   ],
+   "ornek_maddeler": [
+    "-2599-01-01 Olgun Harappa (İndus Uygarlığı kent dönemi): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Burzahom",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2899,
+    -2899
+   ],
+   "ornek_maddeler": [
+    "-2899-01-01 Burzahom: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Burzahama",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -2899,
+    -2899
+   ],
+   "ornek_maddeler": [
+    "-2899-01-01 Burzahom: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Early Harappan",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -3199,
+    -3199
+   ],
+   "ornek_maddeler": [
+    "-3199-01-01 Erken Harappa dönemi (Pre-urban / Early Harappan): başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Bhirrana",
+   "durum_cevrimdisi": "belirsiz",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -6433,
+    -6433
+   ],
+   "ornek_maddeler": [
+    "-6433-01-01 Bhirrana: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": "Pleiades adayları yerleşim değil (Bhirrana:archaeological-site)"
+  },
+  {
+   "ad": "Bhirdana",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -6433,
+    -6433
+   ],
+   "ornek_maddeler": [
+    "-6433-01-01 Bhirrana: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Final PPNB",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -6749,
+    -6749
+   ],
+   "ornek_maddeler": [
+    "-6749-01-01 PPNC (Son PPNB) — Güney Levant: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "PPNC",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -6749,
+    -6749
+   ],
+   "ornek_maddeler": [
+    "-6749-01-01 PPNC (Son PPNB) — Güney Levant: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Pre-Pottery Neolithic B",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -8649,
+    -8649
+   ],
+   "ornek_maddeler": [
+    "-8649-01-01 PPNB (Çömlekten Önceki Neolitik B) — Güney Levant: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Meroitic period",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -299,
+    -299
+   ],
+   "ornek_maddeler": [
+    "-0299-01-01 Kush krallığı — Meroe dönemi: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Meroe",
+   "durum_cevrimdisi": "belirsiz",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -299,
+    -299
+   ],
+   "ornek_maddeler": [
+    "-0299-01-01 Kush krallığı — Meroe dönemi: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": "2 ayrı Pleiades kümesi: Meroe 36.250,36.262; Meroe 16.937,33.712"
+  },
+  {
+   "ad": "Pre-Kerma",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -3499,
+    -3499
+   ],
+   "ornek_maddeler": [
+    "-3499-01-01 Ön-Kerma (Pre-Kerma) kültürü: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Shaheinab Neolithic",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -4699,
+    -4699
+   ],
+   "ornek_maddeler": [
+    "-4699-01-01 Eş-Şeheynab (Shaheinab) Neolitiği: başlar"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Hulah Vadisi",
+   "durum_cevrimdisi": "yok",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -12154,
+    -12154
+   ],
+   "ornek_maddeler": [
+    "-12154-01-01 Ain Mallaha (Eynan): Erken Natufiyen yerleşiminin ilk tarihli kanıtı"
+   ],
+   "tek_tanik_koord": null,
+   "not": null
+  },
+  {
+   "ad": "Vietnam",
+   "durum_cevrimdisi": "tek_tanik",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    -1955,
+    -1955
+   ],
+   "ornek_maddeler": [
+    "-1955-01-01 Man Bac: tarım dönemi iskânı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 50.46933,
+    "lon": 30.60044,
+    "kaynak": "GeoNames 13680668 Voskresenskyi-1"
+   },
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  }
+ ]
+}

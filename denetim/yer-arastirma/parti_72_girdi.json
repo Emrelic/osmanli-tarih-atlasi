@@ -1,0 +1,547 @@
+{
+ "sinif": "ikinci_tanik",
+ "adlar": [
+  {
+   "ad": "Tel İfrîn",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    1119,
+    1119
+   ],
+   "ornek_maddeler": [
+    "1119-01-01 İlgazi ve Togan Arslan Tel İfrîn'de Antakya Prinkepsi Roger'i yok etti",
+    "1119-06-28 Kanlı Meydan Savaşı: Artuklu İlgazi Antakya ordusunu yok etti, Ruggero",
+    "1119-06-28 Kanlı Meydan (Ager Sanguinis): İlgazi Antakya ordusunu yok etti"
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.51194,
+    "lon": 36.86954,
+    "kaynak": "GeoNames 174186 ‘Afrīn"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Şeyzer",
+   "madde_sayisi": 3,
+   "yil_araligi": [
+    1111,
+    1138
+   ],
+   "ornek_maddeler": [
+    "1111-01-01 Mevdûd ve Tuğtegin Şeyzer önünde Antakya Haçlılarını yendi",
+    "1128-01-01 Şeyzer emîri Sultan b. Ali Zengî'nin himayesini kabul etti",
+    "1138-04-29 Bizans İmparatoru Ioannes Komnenos Şeyzer'i kuşattı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 35.2663435,
+    "lon": 36.5664463,
+    "kaynak": "Pleiades 668292"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Shaizar, Shayzar; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+  },
+  {
+   "ad": "Deybül",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    712,
+    712
+   ],
+   "ornek_maddeler": [
+    "0712-01-01 Muhammed b. Kāsım üç ay süren kuşatmanın ardından Deybül'ü alır (93/71",
+    "0712-01-01 Muhammed b. Kāsım Deybül'ü alarak Sind fethini başlattı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 24.7516906818,
+    "lon": 67.5214984622,
+    "kaynak": "Pleiades 91371094"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Debal, Banbhore, Bhanbhore; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+  },
+  {
+   "ad": "Lorraine",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    870,
+    925
+   ],
+   "ornek_maddeler": [
+    "0870-01-01 Alman Louis'in topraklarının Almanya'nın ortaçağ sınırına ulaşması",
+    "0925-01-01 I. Henry Lotharingia'yı yeniden Alman egemenliğine kattı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 45.68338,
+    "lon": -73.78249,
+    "kaynak": "GeoNames 6060407 Lorraine"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Feremâ",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    640,
+    640
+   ],
+   "ornek_maddeler": [
+    "0640-01-01 Amr b. Âs Mısır'a girdi ve Feremâ'yı aldı",
+    "0640-01-02 Amr b. Âs Mısır seferine çıktı; sınır kasabası Feremâ alındı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 31.0426270897,
+    "lon": 32.5471045497,
+    "kaynak": "Pleiades 727192"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Pelusium, Tell el-Farama, Farama; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+  },
+  {
+   "ad": "İdil",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    732,
+    1236
+   ],
+   "ornek_maddeler": [
+    "0732-01-01 Mervân b. Muhammed Derbend’i aşıp Belencer’e girdi; Hazarlarla İslâm ş",
+    "1236-01-01 Batu Han İdil Bulgar ülkesini yakıp yıktı; Bulgar şehri yağmalandı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 37.33481,
+    "lon": 41.88944,
+    "kaynak": "GeoNames 311704 İdil"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Afyonkarahisar",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    838,
+    1277
+   ],
+   "ornek_maddeler": [
+    "0838-08-12 Amorion (Ammûriye) Abbâsîler'e geçti",
+    "1277-01-01 İnançoğlu Ali Bey'in bağımsızlık girişimi yakalanıp sürgünle bitti"
+   ],
+   "tek_tanik_koord": {
+    "lat": 38.75667,
+    "lon": 30.54333,
+    "kaynak": "GeoNames 325303 Afyonkarahisar"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Kūmis",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    873,
+    1157
+   ],
+   "ornek_maddeler": [
+    "0873-01-01 Hasan b. Zeyd Elburz'u aşıp Kūmis'i işgal etti",
+    "1157-01-01 Şah Gazi Rüstem Alamut'u tahrip etti, Cürcân ve Kūmis'i aldı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.166666,
+    "lon": 54.349998,
+    "kaynak": "Pleiades 942260"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Duvîn",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    894,
+    987
+   ],
+   "ornek_maddeler": [
+    "0894-03-13 I. Smbat Duvîn (Dvin) şehrini ele geçirdi",
+    "0987-05-03 Ebü'l-Heycâ Duvîn'i Ebû Dülef eş-Şeybânî'den aldı; Ani Kralı II. Smbat"
+   ],
+   "tek_tanik_koord": {
+    "lat": 40.01185995,
+    "lon": 44.58079045,
+    "kaynak": "Pleiades 863780"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Vengi",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    624,
+    1070
+   ],
+   "ornek_maddeler": [
+    "0624-01-01 II. Pulakeşin Vengi'yi Vişnukundinlerden alır, kardeşi Kubja Vişnuvard",
+    "1070-01-01 I. Kulottunga Çola ve Doğu Çalukya taçlarını birleştirdi"
+   ],
+   "tek_tanik_koord": {
+    "lat": 47.49654,
+    "lon": 8.95325,
+    "kaynak": "GeoNames 2658051 Wängi"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Burma",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    832,
+    900
+   ],
+   "ornek_maddeler": [
+    "0832-01-01 Nanzhao Myanmar'ın derinliklerine sefer yaptı",
+    "0900-01-01 Khmer krallığı bugünkü Burma, Laos ve Tayland'ın geniş alanlarını kaps"
+   ],
+   "tek_tanik_koord": {
+    "lat": 32.2193,
+    "lon": 35.78507,
+    "kaynak": "GeoNames 249849 Burmā"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Beşbalık",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    840,
+    840
+   ],
+   "ornek_maddeler": [
+    "0840-01-01 Uygur boyları dağılır: bir kısmı Beşbalık, Turfan, Hoço ve Kâşgar'a ye",
+    "0840-01-01 Uygur boylarından bir kısmı Turfan-Beşbalık'ta Mengli'yi kağan seçip y"
+   ],
+   "tek_tanik_koord": {
+    "lat": 43.99747,
+    "lon": 89.18976,
+    "kaynak": "GeoNames 1529419 Jimsar"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Bishbaliq, Beshbaliq, Jimsar; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+  },
+  {
+   "ad": "Hoa Lu",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    968,
+    1005
+   ],
+   "ornek_maddeler": [
+    "0968-01-01 Dinh Bo Linh 11 beyi yenip imparator ilan ediyor; ülke Dai Co Viet",
+    "1005-01-01 Lê Hoàn öldü — veraset kavgasından Lê Long Đĩnh galip çıktı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 20.25809,
+    "lon": 105.97965,
+    "kaynak": "GeoNames 1571968 Hoa Lư"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Zafâr",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    522,
+    1279
+   ],
+   "ornek_maddeler": [
+    "0522-01-01 Zûnüvâs Himyer tahtına geçti; Yemen'deki Habeş hâkimiyetine karşı Yahu",
+    "1279-01-01 Resûlîler Zafâr'ı aldı (ertesi yıl Şibâm ve Hadramut)"
+   ],
+   "tek_tanik_koord": {
+    "lat": 14.211704,
+    "lon": 44.400794,
+    "kaynak": "Pleiades 39423"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Kınnesrin",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    554,
+    945
+   ],
+   "ornek_maddeler": [
+    "0554-01-01 III. Münzir Gassânîler'le savaşırken Kınnesrin'de öldürüldü",
+    "0945-01-01 Seyfüddevle Dımaşk'ı aldı, kısa sürede kaybetti: Kuzey Suriye Hamdânîl"
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.007956,
+    "lon": 37.009719,
+    "kaynak": "Pleiades 668226"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Barbastro",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1064,
+    1137
+   ],
+   "ornek_maddeler": [
+    "1064-01-01 Aragon öncülüğünde Haçlı ordusu Barbastro'yu aldı; Coimbra da düştü",
+    "1137-01-01 Barbastro'da Peronella ile Ramon Berenguer IV nişanlandı; Aragon hüküm"
+   ],
+   "tek_tanik_koord": {
+    "lat": 42.03565,
+    "lon": 0.12686,
+    "kaynak": "GeoNames 3128795 Barbastro"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Mahoba",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1165,
+    1182
+   ],
+   "ornek_maddeler": [
+    "1165-01-01 Paramardi Çandela tahtına çıktı",
+    "1182-01-01 III. Pritvirac Çandela ülkesini istilâ edip Mahoba'yı yağmaladı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 25.2905,
+    "lon": 79.87533,
+    "kaynak": "GeoNames 1264359 Mahobā"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Badami",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    610,
+    757
+   ],
+   "ornek_maddeler": [
+    "0610-01-01 II. Pulakeşin Badami Çalukya tahtında (yak. 610-642); Gujarat ve Malwa",
+    "0757-01-01 Badami Çalukya kralı II. Kirtivarman'ın yerini Raştrakuta alır (757)"
+   ],
+   "tek_tanik_koord": {
+    "lat": 15.91495,
+    "lon": 75.67683,
+    "kaynak": "GeoNames 1278017 Bādāmi"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Yanmen",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    615,
+    615
+   ],
+   "ornek_maddeler": [
+    "0615-01-01 Yangdi Yanmen’de Türkler tarafından kuşatıldı",
+    "0615-01-01 Doğu Göktürk kağanı Shih-pi Çin imparatorunu Yen-men Kalesi'nde kuşatt"
+   ],
+   "tek_tanik_koord": {
+    "lat": 27.855,
+    "lon": 109.74028,
+    "kaynak": "GeoNames 1787131 Yanmen"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Sarmizegetusa",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    102,
+    106
+   ],
+   "ornek_maddeler": [
+    "0102-01-01 Decebalus Roma işgal garnizonlarını kabul etmeye zorlandı",
+    "0106-01-01 Trajan Sarmizegetusa'yı ikinci kez aldı; Decebalus intihar etti, Dak K"
+   ],
+   "tek_tanik_koord": {
+    "lat": 45.669615,
+    "lon": 23.323961,
+    "kaynak": "Pleiades 207425"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Pliska",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    864,
+    889
+   ],
+   "ornek_maddeler": [
+    "0864-01-01 Han Boris Hıristiyanlığı kabul etti",
+    "0889-01-01 Boris tahttan çekildi; ağabey Vladimir kısa süre tahta çıktı (889-893)"
+   ],
+   "tek_tanik_koord": {
+    "lat": 43.36667,
+    "lon": 27.11667,
+    "kaynak": "GeoNames 728199 Pliska"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Meşan",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    116,
+    150
+   ],
+   "ornek_maddeler": [
+    "0116-01-01 Traianus Dicle'den inerken Karakene (Meşan) hükümdarı Attambelos geçic",
+    "0150-01-01 III. Vologases, Meşan'da Pacoros'un oğlu isyancı Mithridates'i yendi"
+   ],
+   "tek_tanik_koord": {
+    "lat": 6.99865,
+    "lon": 35.58879,
+    "kaynak": "GeoNames 330534 Mīzan Teferī"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Efes",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    431,
+    449
+   ],
+   "ornek_maddeler": [
+    "0431-01-01 Efes Konsili: Nestorius mahkûm edildi ve Mısır'a sürüldü",
+    "0449-01-01 II. Efes Konsili ('haydutlar konsili'): İskenderiye Patriği Dioskoros "
+   ],
+   "tek_tanik_koord": {
+    "lat": 37.940164272,
+    "lon": 27.342402982,
+    "kaynak": "Pleiades 599612"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Kadıköy",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    451,
+    626
+   ],
+   "ornek_maddeler": [
+    "0451-01-01 Kalkedon Konsili: Dioskoros aforoz edildi; Kıptî (Mısır) kilisesi Biza",
+    "0626-01-01 Sâsânîler Khalkedon'a (Kadıköy) kadar ilerledi"
+   ],
+   "tek_tanik_koord": {
+    "lat": 40.983393,
+    "lon": 29.025789,
+    "kaynak": "Pleiades 520988"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Mansûriye",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    947,
+    953
+   ],
+   "ornek_maddeler": [
+    "0947-08-13 Fâtımîler Ebû Yezîd en-Nükkârî isyanını bastırdı; Mansûriye (Sabra) ba",
+    "0953-03-19 Muiz-Lidînillâh Fâtımî halifesi oldu"
+   ],
+   "tek_tanik_koord": {
+    "lat": 41.16966,
+    "lon": 30.22714,
+    "kaynak": "GeoNames 743558 Kefken"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Gnezno",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1000,
+    1025
+   ],
+   "ornek_maddeler": [
+    "1000-01-01 Gnezno başpiskoposluğu kuruldu — Polonya kendi kilise eyaletine kavuşt",
+    "1025-01-01 I. Bolesław Chrobry kral olarak taç giydi"
+   ],
+   "tek_tanik_koord": {
+    "lat": 52.53481,
+    "lon": 17.58259,
+    "kaynak": "GeoNames 3099112 Gniezno"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Melun",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1031,
+    1108
+   ],
+   "ornek_maddeler": [
+    "1031-07-20 II. Robert ölür; I. Henri Fransa'nın tek kralı",
+    "1108-07-30 I. Philippe ölür; VI. Louis Fransa kralı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 48.5457,
+    "lon": 2.65356,
+    "kaynak": "GeoNames 2994651 Melun"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Székesfehérvár",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1038,
+    1222
+   ],
+   "ornek_maddeler": [
+    "1038-01-01 I. István öldü — Árpád hanedanında taht kavgaları başladı",
+    "1222-01-01 II. András Altın Bulla'yı (altın mühürlü ferman) çıkardı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 47.18995,
+    "lon": 18.41034,
+    "kaynak": "GeoNames 3044774 Székesfehérvár"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Legnano",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1176,
+    1176
+   ],
+   "ornek_maddeler": [
+    "1176-05-29 Legnano Savaşı: Lombard Birliği Barbarossa'yı yener",
+    "1176-05-29 Legnano Savaşı: Lombard Birliği Barbarossa'yı yendi"
+   ],
+   "tek_tanik_koord": {
+    "lat": 45.59788,
+    "lon": 8.91506,
+    "kaynak": "GeoNames 3174921 Legnano"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Gur",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1010,
+    1066
+   ],
+   "ornek_maddeler": [
+    "1010-01-01 Mahmud'un Gur seferi: Muhammed b. Sûrî esir alındı",
+    "1066-01-01 Gazneli İbrâhim Emîr Muhammed'i Gur'un başına getirdi"
+   ],
+   "tek_tanik_koord": {
+    "lat": 28.8528648953,
+    "lon": 52.5326816606,
+    "kaynak": "Pleiades 922617"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  }
+ ]
+}

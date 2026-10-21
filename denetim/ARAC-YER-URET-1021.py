@@ -49,7 +49,7 @@ for y in Y:
 
 aday, rapor = [], {"mukerrer": [], "yazilmadi": collections.Counter(), "yazilan": 0}
 gorulen = set()
-for f in sorted(glob.glob(os.path.join(KL, "parti_*_sonuc.json")), key=lambda p: (os.path.basename(p) == "parti_51_sonuc.json", p)):   # Natural Earth (51) son çare: sona
+for f in sorted(glob.glob(os.path.join(KL, "parti_*_sonuc.json")), key=lambda p: (os.path.basename(p) == "parti_51_sonuc.json", os.path.basename(p) != "parti_50_sonuc.json", p)):   # Natural Earth (51) son çare: sona
     for r in json.load(open(f, encoding="utf-8")).get("sonuclar", []):
         bolge_mi = r.get("durum") in ("bolge_temsilci", "bolge_nokta")
         if (r.get("durum") != "cift_tanik" and not bolge_mi) or r.get("lat") is None:

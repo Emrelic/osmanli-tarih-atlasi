@@ -1,0 +1,59 @@
+{
+ "sinif": "ikinci_tanik",
+ "adlar": [
+  {
+   "ad": "Dînever",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1132,
+    1132
+   ],
+   "ornek_maddeler": [
+    "1132-01-01 Dînever Savaşı'na Bâvendî kuvvetleri de katıldı",
+    "1132-05-25 Dînever Savaşı: Sencer yeğenlerini yendi, Tuğrul'u tahta çıkardı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 34.617525,
+    "lon": 47.462217,
+    "kaynak": "Pleiades 903012"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Champa",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1203,
+    1220
+   ],
+   "ornek_maddeler": [
+    "1203-01-01 Champa doğrudan Kmer yönetimine alındı",
+    "1220-01-01 Kmer Champa'dan çekildi — Cham krallığı bağımsızlığını geri aldı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 22.03532,
+    "lon": 82.64234,
+    "kaynak": "GeoNames 1274837 Chāmpa"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  },
+  {
+   "ad": "Slesvig",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    804,
+    808
+   ],
+   "ornek_maddeler": [
+    "0804-01-01 Gudfred, Danimarka kralı olarak ilk kez anılır; Charlemagne ile çatışm",
+    "0808-01-01 Gudfred tüccarları Reric'ten Slesvig'e taşıdı, Dannevirke'yi güçlendir"
+   ],
+   "tek_tanik_koord": {
+    "lat": 54.52021,
+    "lon": 9.56829,
+    "kaynak": "GeoNames 2838634 Schleswig"
+   },
+   "ilk_tanik_not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+  }
+ ]
+}
