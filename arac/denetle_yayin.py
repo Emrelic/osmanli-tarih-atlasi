@@ -1256,6 +1256,11 @@ def main():
         # yazilamiyor (C4) ve yeni nokta zincirsiz eklenemiyor (Degismez 1);
         # aktarim (yerlesimler s:/d:/kur:/bit: + olaylar) ayri istir.
         # Sema VERI-YAPISI.md son bolum · denetci arac/sehir_tarihce.py.
+        # ── 21 EKIM 2026 — KURULUS-GERI: k<=3 sehirlerin 1281 oncesi tarihcesi (sehir_tarihce_osm.js ile AYNI statu) ──
+        "data/sehir_tarihce_k3_g1.js": "k<=3 sehir tarihcesi grup 1 (KURULUS-GERI, 21 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (s:/olaylar) + Emre",
+        "data/sehir_tarihce_k3_g2.js": "k<=3 sehir tarihcesi grup 2 (KURULUS-GERI, 21 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (s:/olaylar) + Emre",
         # ── 20 EKIM 2026 — ARKEOLOJI KATMANI (MO) yerlesim birikimi: sehir_tarihce_osm.js ile AYNI statu ──
         "data/sehir_tarihce_arkeoloji.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
                                          "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
