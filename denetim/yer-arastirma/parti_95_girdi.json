@@ -1,0 +1,663 @@
+{
+ "sinif": "tur2",
+ "adlar": [
+  {
+   "ad": "Besalú",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1111,
+    1111
+   ],
+   "ornek_maddeler": [
+    "1111-01-01 Besalú kontluğu Barselona'ya katıldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 42.19893,
+      "lon": 2.69953,
+      "kaynak": "GeoNames 3128096 Besalú"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Cerdanya",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1118,
+    1118
+   ],
+   "ornek_maddeler": [
+    "1118-01-01 Cerdanya kontluğu Barselona'ya katıldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 42.4316,
+      "lon": 1.92819,
+      "kaynak": "GeoNames 3112680 Puigcerdà"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Cerdanya, Puigcerda; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Trablusgarp",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1146,
+    1146
+   ],
+   "ornek_maddeler": [
+    "1146-01-01 Sicilya Krallığı Trablusgarp'ı alır"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "2 ayrı Pleiades kümesi: Oea 32.898,13.175; Tripolis 34.449,35.812 [ALIAS eşlemesi: Tripoli, Oea, Tarabulus; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Meriye",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1147,
+    1147
+   ],
+   "ornek_maddeler": [
+    "1147-01-01 Kastilya, Aragon, Piza ve Cenova'nın Haçlı ordusu Meriye'yi (Almería) "
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "2 ayrı Pleiades kümesi: Portus Magnus 35.808,-0.266; (Flavium) Brigantium/Portus Magnus? 43.371,-8.396 [ALIAS eşlemesi: Almeria, Almería, Portus Magnus; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Üşbûne",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1147,
+    1147
+   ],
+   "ornek_maddeler": [
+    "1147-10-24 Afonso Henriques Haçlı donanmasının yardımıyla Lizbon'u (Üşbûne) aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 38.707166,
+      "lon": -9.135507,
+      "kaynak": "Pleiades 256338"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Turtûşe",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1148,
+    1148
+   ],
+   "ornek_maddeler": [
+    "1148-01-01 Barselona kontu Turtûşe'yi (Tortosa) aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "Aynı ad birden çok uzak yerde (GeoNames): Tortosa 40.81249,0.5216; Tortosa 10.93294,123.09; Ţarţūs 34.88902,35.88659 [ALIAS eşlemesi: Tortosa, Dertosa; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Pontida",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1167,
+    1167
+   ],
+   "ornek_maddeler": [
+    "1167-01-01 Lombard Birliği kurulur"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 45.73129,
+      "lon": 9.51141,
+      "kaynak": "GeoNames 3170198 Pontida"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Windsor",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1175,
+    1175
+   ],
+   "ornek_maddeler": [
+    "1175-01-01 Windsor Antlaşması: Ruaidrí Ua Conchobair II. Henry'yi senyör tanır, y"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 20 aday: Windsor -33.61309,150.81416; Windsor -37.85344,144.99241; Windsor -27.43631,153.02882; Windsor 44.98345,-64.13204"
+    }
+   ]
+  },
+  {
+   "ad": "Ulcinj",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1186,
+    1186
+   ],
+   "ornek_maddeler": [
+    "1186-01-01 Stefan Nemanja Duklja'nın (Zeta) fethini tamamladı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 41.92936,
+      "lon": 19.22436,
+      "kaynak": "GeoNames 3188516 Ulcinj"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Svač",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1186,
+    1186
+   ],
+   "ornek_maddeler": [
+    "1186-01-01 Stefan Nemanja Duklja'nın (Zeta) fethini tamamladı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 41.92936,
+      "lon": 19.22436,
+      "kaynak": "GeoNames 3188516 Ulcinj"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Svac, Ulcinj; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Bonifacio",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1195,
+    1195
+   ],
+   "ornek_maddeler": [
+    "1195-01-01 Cenova Korsika'da Bonifacio'yu işgal eder"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "Pleiades adayları yerleşim değil (Gallicum/Taphros Fretum:water-open)"
+    }
+   ]
+  },
+  {
+   "ad": "Château-Gaillard",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1204,
+    1204
+   ],
+   "ornek_maddeler": [
+    "1204-01-01 Philippe Auguste Normandiya'yı fetheder ve Fransa'ya ilhak eder"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 45.97239,
+      "lon": 5.30436,
+      "kaynak": "GeoNames 3026280 Château-Gaillard"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Muret",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1213,
+    1213
+   ],
+   "ornek_maddeler": [
+    "1213-09-12 Muret Muharebesi: Simon de Montfort, Aragon kralı II. Pedro ile VI. Ra"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 43.45998,
+      "lon": 1.32541,
+      "kaynak": "GeoNames 2991153 Muret"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Peremışl",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1214,
+    1214
+   ],
+   "ornek_maddeler": [
+    "1214-01-01 Macar kralı II. Andras ve Leszek Peremışl ile Haliç'i işgal etti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 49.78498,
+      "lon": 22.76728,
+      "kaynak": "GeoNames 761168 Przemyśl"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Przemysl, Przemyśl; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Viljandi",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1217,
+    1217
+   ],
+   "ornek_maddeler": [
+    "1217-01-01 Viljandi (Fellin) Savaşı: Eston önderi Lembitu öldürüldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 58.36319,
+      "lon": 25.59159,
+      "kaynak": "GeoNames 587577 Viljandi"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Fellin",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1217,
+    1217
+   ],
+   "ornek_maddeler": [
+    "1217-01-01 Viljandi (Fellin) Savaşı: Eston önderi Lembitu öldürüldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 58.36319,
+      "lon": 25.59159,
+      "kaynak": "GeoNames 587577 Viljandi"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Lyndanise",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1219,
+    1219
+   ],
+   "ornek_maddeler": [
+    "1219-06-15 Lyndanise (Tallinn) Savaşı: II. Valdemar Kuzey Estonya'yı fethetti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Tallinn 59.43696,24.75353; Rewal 54.0812,15.01471 [ALIAS eşlemesi: Tallinn, Reval; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Bornhöved",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1227,
+    1227
+   ],
+   "ornek_maddeler": [
+    "1227-07-22 Bornhöved Savaşı: Danimarka'nın Baltık hâkimiyeti sona erdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 54.06798,
+      "lon": 10.2279,
+      "kaynak": "GeoNames 2946100 Bornhöved"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Muhi",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1241,
+    1241
+   ],
+   "ornek_maddeler": [
+    "1241-01-01 Muhi (Şayó ırmağı) Savaşı: Moğollar IV. Béla'yı bozguna uğrattı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 9.04306,
+      "lon": -7.62722,
+      "kaynak": "GeoNames 2284270 Mohi-Moussadougou"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Muhi, Mohi; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Yaroslav",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1245,
+    1245
+   ],
+   "ornek_maddeler": [
+    "1245-08-17 Yaroslav Muharebesi: Danilo, Çernigov-Macar-Polonya koalisyonunu yendi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 50.01623,
+      "lon": 22.67776,
+      "kaynak": "GeoNames 770380 Jarosław"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Jarosław",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1245,
+    1245
+   ],
+   "ornek_maddeler": [
+    "1245-08-17 Yaroslav Muharebesi: Danilo, Çernigov-Macar-Polonya koalisyonunu yendi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Jarosław 50.01623,22.67776; Yaroslavl 57.62987,39.87368"
+    }
+   ]
+  },
+  {
+   "ad": "Ceyyân",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1246,
+    1246
+   ],
+   "ornek_maddeler": [
+    "1246-01-01 Ceyyân (Jaén) Antlaşması: Gırnata emîri Kastilya'ya tâbi oldu, Jaén'i "
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 37.7728858,
+      "lon": -3.7883289,
+      "kaynak": "Pleiades 302942693"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Häme",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1249,
+    1249
+   ],
+   "ornek_maddeler": [
+    "1249-01-01 Birger Jarl'ın Finlandiya seferi: Häme (Tavastland) İsveç'e bağlandı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 51.09822,
+      "lon": 4.13705,
+      "kaynak": "GeoNames 2796637 Hamme"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Tavastehus",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1249,
+    1249
+   ],
+   "ornek_maddeler": [
+    "1249-01-01 Birger Jarl'ın Finlandiya seferi: Häme (Tavastland) İsveç'e bağlandı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 60.99596,
+      "lon": 24.46434,
+      "kaynak": "GeoNames 659180 Hämeenlinna"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Stockholm",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1252,
+    1252
+   ],
+   "ornek_maddeler": [
+    "1252-01-01 Stockholm ilk kez yazılı kaynakta anıldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 59.32938,
+      "lon": 18.06871,
+      "kaynak": "GeoNames 2673730 Stockholm"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Soli",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1253,
+    1253
+   ],
+   "ornek_maddeler": [
+    "1253-01-01 IV. Béla Bosna'yı boyun eğdirip böldü; Usora ve Soli ayrı banlık oldu"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Tuzla 44.53842,18.66709; Jishou 28.31925,109.73346; Mezitli 36.74541,34.52256"
+    }
+   ]
+  },
+  {
+   "ad": "Grönland",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1261,
+    1261
+   ],
+   "ornek_maddeler": [
+    "1261-01-01 Grönland Norse yerleşimleri Norveç krallığına bağlandı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 13.25808,
+      "lon": -59.57763,
+      "kaynak": "GeoNames 3373831 Greenland"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Languedoc",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1271,
+    1271
+   ],
+   "ornek_maddeler": [
+    "1271-01-01 Alphonse de Poitiers ve Jeanne mirasçısız ölür; Toulouse Fransa tacına"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": -33.8973,
+      "lon": 18.96726,
+      "kaynak": "GeoNames 12718865 Languedoc"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Dürnkrut",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1278,
+    1278
+   ],
+   "ornek_maddeler": [
+    "1278-08-26 Dürnkrut (Marchfeld) Savaşı: II. Ottokar yenilip öldürüldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 48.47315,
+      "lon": 16.85062,
+      "kaynak": "GeoNames 2780607 Dürnkrut"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Jedenspeigen",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1278,
+    1278
+   ],
+   "ornek_maddeler": [
+    "1278-08-26 Dürnkrut (Marchfeld) Savaşı: II. Ottokar yenilip öldürüldü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 48.49807,
+      "lon": 16.87225,
+      "kaynak": "GeoNames 2775102 Jedenspeigen"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  }
+ ]
+}

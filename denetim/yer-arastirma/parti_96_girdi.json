@@ -1,0 +1,655 @@
+{
+ "sinif": "tur2",
+ "adlar": [
+  {
+   "ad": "Mukaçevo",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1280,
+    1280
+   ],
+   "ornek_maddeler": [
+    "1280-01-01 Lev Daniloviç Macarlardan Mukaçevo dahil Karpat-ötesinin bir kısmını a"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 48.44248,
+      "lon": 22.718,
+      "kaynak": "GeoNames 700646 Mukachevo"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "San Genesio",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1162,
+    1162
+   ],
+   "ornek_maddeler": [
+    "1162-07-01 San Genesio dietinde Lucca komününün imparatorluk onayı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: San Genesio Atesino 46.5346,11.32971; San Genesio 46.658,11.92456"
+    }
+   ]
+  },
+  {
+   "ad": "Chalkis",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1204,
+    1204
+   ],
+   "ornek_maddeler": [
+    "1204-01-01 Bonifacio di Monferrato Eğriboz'u fethetti ve Jacques d'Avesnes'e fief"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "2 ayrı Pleiades kümesi: Chalcis ad Belum 36.008,37.010; (Hypo)Chalkis 38.354,21.631"
+    }
+   ]
+  },
+  {
+   "ad": "Lauffen am Neckar",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1219,
+    1219
+   ],
+   "ornek_maddeler": [
+    "1219-01-01 Kral II. Friedrich Lauffen gibi Staufer şehirlerini V. Hermann'a devre"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 49.0734,
+      "lon": 9.14567,
+      "kaynak": "GeoNames 2880111 Lauffen am Neckar"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Thorn",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1231,
+    1231
+   ],
+   "ornek_maddeler": [
+    "1231-01-01 Balke Vistula'yı Thorn'da geçti; Kulm, Marienwerder, Rheden ve Elbing "
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Thorn 51.16167,5.84167; Toruń 53.01375,18.59814"
+    }
+   ]
+  },
+  {
+   "ad": "Altenburg",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1243,
+    1243
+   ],
+   "ornek_maddeler": [
+    "1243-01-01 Pleißen Reichsland'ı Meißen Markgrafı Heinrich'e rehin verildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Altenburg 48.64765,15.59295; Altenburg 50.98763,12.43684; Mosonmagyaróvár 47.86789,17.26994"
+    }
+   ]
+  },
+  {
+   "ad": "Zwickau",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1243,
+    1243
+   ],
+   "ornek_maddeler": [
+    "1243-01-01 Pleißen Reichsland'ı Meißen Markgrafı Heinrich'e rehin verildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Cvikov 50.77668,14.63298; Zwickau 50.72724,12.48839"
+    }
+   ]
+  },
+  {
+   "ad": "Alessandria",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1278,
+    1278
+   ],
+   "ornek_maddeler": [
+    "1278-05-02 Alessandria komünü VII. Guglielmo'ya şehrin kaptanlığını önermek üzere"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Alexandria 31.20176,29.91582; Alessandria del Carretto 39.95874,16.37963; Alessandria 44.90924,8.61007"
+    }
+   ]
+  },
+  {
+   "ad": "Zhongjing",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1122,
+    1122
+   ],
+   "ornek_maddeler": [
+    "1122-01-01 Jin, Liao'nun orta ve güney başkentlerini aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 34.7986,
+      "lon": 114.30742,
+      "kaynak": "GeoNames 1804879 Kaifeng"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Kaifeng; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Bianjing",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1214,
+    1214
+   ],
+   "ornek_maddeler": [
+    "1214-01-01 Jin sarayı Zhongdu'yu bırakıp Kaifeng'e çekildi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 34.7986,
+      "lon": 114.30742,
+      "kaynak": "GeoNames 1804879 Kaifeng"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Kaifeng, Bianliang; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Kahuripan",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1037,
+    1037
+   ],
+   "ornek_maddeler": [
+    "1037-01-01 Airlangga Doğu Cava'yı yeniden birleştirdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": -7.3471,
+      "lon": 108.2281,
+      "kaynak": "GeoNames 8024174 Kahuripan"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Ponnani",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1102,
+    1102
+   ],
+   "ornek_maddeler": [
+    "1102-01-01 Kulasekhara (Çera) devletinin çözülmesiyle Kochi (Perumpadappu) haneda"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 10.76695,
+      "lon": 75.92523,
+      "kaynak": "GeoNames 1259411 Ponnāni"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Kalinga",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1028,
+    1028
+   ],
+   "ornek_maddeler": [
+    "1028-01-01 Doğu Ganga kralı III. Vajrahasta 'üç Kalinga'nın hükümdarı' unvanını a"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": -27.40957,
+      "lon": 153.05061,
+      "kaynak": "GeoNames 11703908 Kalinga"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Kanauj",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1018,
+    1018
+   ],
+   "ornek_maddeler": [
+    "1018-12-20 Kannevc'in fethi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 27.05524,
+      "lon": 79.9188,
+      "kaynak": "GeoNames 1268011 Kannauj"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Sîrvân Kalesi",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1046,
+    1046
+   ],
+   "ornek_maddeler": [
+    "1046-01-01 Ebü'ş-Şevk Sîrvân Kalesi'nde öldü; Selçuklu baskısı arttı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Şirvan 39.93778,48.929; Şirvan 38.06251,42.02517"
+    }
+   ]
+  },
+  {
+   "ad": "Malazgirt",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1071,
+    1071
+   ],
+   "ornek_maddeler": [
+    "1071-08-26 Malazgirt Savaşı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "Pleiades adayları yerleşim değil (Malazgirt:findspot)"
+    }
+   ]
+  },
+  {
+   "ad": "Uşnu",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1205,
+    1205
+   ],
+   "ornek_maddeler": [
+    "1205-01-01 Ahmedîlî Alâeddin Merâga'yı İldenizli Ebû Bekir'e bıraktı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 37.0397,
+      "lon": 45.0983,
+      "kaynak": "GeoNames 121795 Oshnavīyeh"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Ushnu, Oshnavieh, Ushnuyeh; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Otrar",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1219,
+    1219
+   ],
+   "ornek_maddeler": [
+    "1219-01-01 Cengiz Han Otrar'ı aldı; Moğol istilâsı başladı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 39.17037,
+      "lon": 63.61165,
+      "kaynak": "GeoNames 1219431 Farap"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Otrar, Farab; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Tel Sultan",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1094,
+    1094
+   ],
+   "ornek_maddeler": [
+    "1094-05-27 Tutuş Nehriseb'în'de Aksungur'u yendi, Halep ve Urfa'yı aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 3 aday: Sulţān 31.09396,20.22329; Sultan 41.0254,26.45235; Sultan 47.8626,-121.81651"
+    }
+   ]
+  },
+  {
+   "ad": "Nu‘mâniye",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1108,
+    1108
+   ],
+   "ornek_maddeler": [
+    "1108-03-04 Nu‘mâniye Savaşı: Sultan Muhammed Tapar Mezyedî Sadaka'yı yendi ve öld"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 32.55621,
+      "lon": 45.41293,
+      "kaynak": "GeoNames 98846 An Nu‘mānīyah"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: An Numaniyah, Numaniyah; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Hille-Vâsıt arası",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1108,
+    1108
+   ],
+   "ornek_maddeler": [
+    "1108-03-04 Nu‘mâniye Savaşı: Sultan Muhammed Tapar Mezyedî Sadaka'yı yendi ve öld"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 32.46367,
+      "lon": 44.41963,
+      "kaynak": "GeoNames 99347 Al Hillah"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Wasit, Hillah; alias_teyit:false — TDV başlığı teyidi bekliyor]"
+    }
+   ]
+  },
+  {
+   "ad": "Banyas",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1133,
+    1133
+   ],
+   "ornek_maddeler": [
+    "1133-01-01 Şemsülmülûk İsmâil Banyas ve Hama'yı geri aldı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 35.18188,
+      "lon": 35.94871,
+      "kaynak": "GeoNames 171830 Bāniyās"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Hârim",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1164,
+    1164
+   ],
+   "ornek_maddeler": [
+    "1164-08-10 Nûreddin Mahmud, Musul ve Artuklu kuvvetleriyle Hârim'i Haçlılar'dan g"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 36.21176,
+      "lon": 36.52078,
+      "kaynak": "GeoNames 169866 Ḩārim"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Habur",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1174,
+    1174
+   ],
+   "ornek_maddeler": [
+    "1174-01-01 II. Seyfeddin Gazi el-Cezîre'deki eski Musul topraklarını geri aldı; H"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 37.5,
+      "lon": 42.5,
+      "kaynak": "Pleiades 211425278"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Hıttîn",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1187,
+    1187
+   ],
+   "ornek_maddeler": [
+    "1187-07-04 Hıttîn Savaşı: Selâhaddin Kudüs Krallığı ordusunu yok etti"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 32.75,
+      "lon": 35.25,
+      "kaynak": "Pleiades 211425277"
+     },
+     "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+    }
+   ]
+  },
+  {
+   "ad": "Târût",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1244,
+    1244
+   ],
+   "ornek_maddeler": [
+    "1244-01-01 Salgurlu Atabegi Ebû Bekir Katîf'i alıp Ukaylî emîrini öldürdü"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 26.5733,
+      "lon": 50.04028,
+      "kaynak": "GeoNames 101554 Tārūt"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Kerek",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1263,
+    1263
+   ],
+   "ornek_maddeler": [
+    "1263-01-01 Baybars Kerek ve Humus'taki Eyyûbî hâkimiyetine son verdi"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": -6.8951,
+      "lon": 111.8866,
+      "kaynak": "GeoNames 1640239 Kerek"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Katâi",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    870,
+    870
+   ],
+   "ornek_maddeler": [
+    "0870-01-01 Ahmed b. Tolun Katâi'yi kurup idare merkezini oraya taşıdı"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 19.31734,
+      "lon": 73.05973,
+      "kaynak": "GeoNames 8468820 Khoni"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  },
+  {
+   "ad": "Tisa",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    602,
+    602
+   ],
+   "ornek_maddeler": [
+    "0602-01-01 Bizans'ta Fokas isyanı Avarların imdadına yetişir"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "belirsiz",
+     "koord": null,
+     "not": "GeoNames 2 aday: Tipasa 36.58972,2.44889; Tisa 47.94844,23.95768"
+    }
+   ]
+  },
+  {
+   "ad": "Angkor Borei",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    612,
+    612
+   ],
+   "ornek_maddeler": [
+    "0612-01-01 Angkor Borei'de Khmer dilindeki ilk yazıt oyuluyor"
+   ],
+   "onceki_denemeler": [
+    {
+     "parti": "50",
+     "durum": "tek_tanik",
+     "koord": {
+      "lat": 10.99497,
+      "lon": 104.97477,
+      "kaynak": "GeoNames 1829924 Phumĭ Ângkôr Borei"
+     },
+     "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+    }
+   ]
+  }
+ ]
+}
