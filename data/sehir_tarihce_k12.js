@@ -2,6 +2,51 @@
 // Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_K12 = [
  {
+  "id": "amsterdam",
+  "ad": "Amsterdam",
+  "atlas_ad": "Amsterdam",
+  "lat": 52.373,
+  "lon": 4.893,
+  "kat1900": 1,
+  "adlar": [
+   "Amestelledamme",
+   "Aemstelredamme",
+   "Amsterdam"
+  ],
+  "ilk": {
+   "t": "1275-10-27",
+   "gun": "27 Ekim 1275",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "Stadsarchief Amsterdam, 'Tolprivilege' (Floris V'nin 27.10.1275 tarihli gümrük muafiyeti, en eski belge; amsterdam.nl/stadsarchief — curl bot duvarına takıldı, WebSearch özetiyle doğrulandı); ikinci tanık: Vikipedi EN 'History of Amsterdam' (Toponymy)",
+   "tanik": "a document dated 27 October 1275"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1275-10-27",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "gun",
+    "kaynak": "Vikipedi EN 'History of Amsterdam' (Toponymy; Floris V'nin Holland Kontluğu içindeki muafiyeti); Utrecht/Amstel bağı kaynaklanamadı",
+    "ic_not": "Nominal egemen: Kutsal Roma-Cermen İmparatorluğu (atlas 1281'de 'almanya'). Amstelland'in Heren van Amstel (Utrecht piskoposluğu vasalı) elinde olduğu ve Holland kontlarına 1296 sonrası geçtiği iddiası bu oturumda AKADEMİK kaynakla açılamadı — ara sahip yazılmadı. Utrecht piskoposluğu (utrecht-piskoposlugu, 1024-1528) künyesi boyasız."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1275-10-27",
+    "gun": "27 Ekim 1275",
+    "k": "idari",
+    "b": "Kont Floris V, Amstel barajı yakınında oturanlara Holland'da tol muafiyeti verir; Amsterdam adının bilinen en eski belgesi.",
+    "kaynak": "Stadsarchief Amsterdam, Tolprivilege; Vikipedi EN 'History of Amsterdam'",
+    "tanik": "exempted from paying a bridge toll in the County of Holland"
+   }
+  ],
+  "ic_not": "Kuruluş tarihi bulunamadı (kur=null). Şehir hakları 1300/1306 (Utrecht piskoposu Gwijde van Avesnes) ve 1342 (Willem IV) — yalnızca WebSearch özeti (webwoordenboek.nl), akademik kaynakla doğrulanmadı. Çift teyit YOK: Stadsarchief sayfaları (amsterdam.nl) bot duvarı ile curl'e kapalı, patrimoine/dbnl/OpenEdition erişilemedi. Vikipedi tek başına dayanak değildir; kaynak=Stadsarchief özeti."
+ },
+ {
   "id": "aquincum-obuda-pest",
   "ad": "Aquincum-Óbuda-Pest",
   "atlas_ad": "Aquincum-Óbuda-Pest",
@@ -2090,6 +2135,76 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "İlk anılış NİCELİĞİ: Livius'un metni Brixia'yı 'Cenomani'nin başı' olarak anar; olayın yılı (MÖ 197) metinden değil Treccani'nin 'Insubri debellati (197)' kaydından ÇIKARILDI (Livius 32.30 Cethegus'un MÖ 197 seferini anlatır; bu eşleme bu oturumda başka kaynakla çift doğrulanmadı). Livius'un yazım tarihi daha geç (MÖ 1. yy); Catullus 67 ('Brixia Veronae mater') de MÖ 1. yy tanığıdır (ölüm 'non prima del 54', Treccani). Kuruluş efsanesi: Livius 5.35 ('ubi nunc Brixia ac Verona urbes sunt') ve Treccani: Cenomani Alpleri aşınca kurdu — tarihsiz gelenek, yazılmadı. Treccani: 'Non si ha sicura notizia che siano avvenute nella città di Brescia scoperte dell'età neolitica e del bronzo' → ark yok. Çelişki: Treccani EI Brescia Strabon'un Brixia'yı Insubres'e verdiğini, öteki yazarların Cenomani'ye ait saydığını belirtir. Çift teyit yok."
  },
  {
+  "id": "bruksel",
+  "ad": "Brüksel",
+  "atlas_ad": "Brüksel",
+  "lat": 50.847,
+  "lon": 4.352,
+  "kat1900": 1,
+  "adlar": [
+   "Bruocsella",
+   "Brosele",
+   "Bruxelles/Brussel"
+  ],
+  "ilk": {
+   "t": "0966-01-01",
+   "gun": "966",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Centre d'Études d'Histoire de Bruxelles (CEHIBRUX), 'Histoire de Bruxelles — Notes de cours, chap. 01', https://www.cehibrux.be/images/histoire_de_bruxelles_chap_01.pdf — Otto I diploması (966; 15. yy kopyası), Nivelles Manastırı bağışı",
+   "tanik": "stadium unum in BRUOCSELLA super fluvium Brana mansas septem ecclesiam matriciam",
+   "ic_not": "CEHIBRUX: 'On y reconnaîtrait Bruxelles' (özdeşleme temkinli) ama 'lieu habité appelé Bruocsella, situé sur la Senne' diyor. Daha sağlam ikinci tanık: c.1050 'pons Senne in Brosele' (Angèle bağışı). 695 'Brosella' (Vindicianus, 11. yy anonim kronikçi) geç kaynak, kullanılmadı. 979 'Charles de France kuruluşu' geleneğine kanıt yok (aynı kaynak) — kuruluş değildir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0966-01-01",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Centre d'Études d'Histoire de Bruxelles (CEHIBRUX), 'Histoire de Bruxelles — Notes de cours, chap. 01', https://www.cehibrux.be/images/histoire_de_bruxelles_chap_01.pdf; Otto I/II dönemi Aşağı Lotharingia (Kutsal Roma-Cermen)",
+    "ic_not": "Nominal egemen Kutsal Roma-Cermen İmparatorluğu (atlas 1281 'almanya'). Aşağı Lotharingia dükü/Leuven-Brabant kontları (1190'dan Brabant dükleri; brabant-dukaligi künyesi 1190-1795 boyasız) yerel hükümdardır; ayrı dönem açılmadı — atlas zinciri almanya."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0966-01-01",
+    "gun": "966",
+    "k": "diger",
+    "b": "Otto I diplomasında Bruocsella adı (Nivelles bağışı) — bilinen ilk anılış.",
+    "kaynak": "Centre d'Études d'Histoire de Bruxelles (CEHIBRUX), 'Histoire de Bruxelles — Notes de cours, chap. 01', https://www.cehibrux.be/images/histoire_de_bruxelles_chap_01.pdf",
+    "tanik": "stadium unum in BRUOCSELLA super fluvium Brana mansas septem"
+   },
+   {
+    "t": "0977-01-01",
+    "gun": "977",
+    "k": "diger",
+    "b": "Otto II Uccle (Bruxelles?) kontluğunu Karolenj Charles de France'a verir; kuruluş geleneği buna dayanır, kanıtı yok.",
+    "kaynak": "Centre d'Études d'Histoire de Bruxelles (CEHIBRUX), 'Histoire de Bruxelles — Notes de cours, chap. 01', https://www.cehibrux.be/images/histoire_de_bruxelles_chap_01.pdf",
+    "tanik": "Otton II confie le comté d'Uccle (ou de Bruxelles ?)"
+   },
+   {
+    "t": "1050-01-01",
+    "gun": "c. 1050",
+    "k": "diger",
+    "b": "'Angèle bağışı' belgesi: Senne üzerindeki köprü / portus Brosele'de hububat aktarımı.",
+    "kaynak": "Centre d'Études d'Histoire de Bruxelles (CEHIBRUX), 'Histoire de Bruxelles — Notes de cours, chap. 01', https://www.cehibrux.be/images/histoire_de_bruxelles_chap_01.pdf",
+    "tanik": "pons Senne in Brosele"
+   },
+   {
+    "t": "1190-01-01",
+    "gun": "1190",
+    "k": "idari",
+    "b": "Aşağı Lotharingia dükalığı çözülür; Henri I Brabant dükü unvanını ilk kullanan olur.",
+    "kaynak": "Centre d'Études d'Histoire de Bruxelles (CEHIBRUX), 'Histoire de Bruxelles — Notes de cours, chap. 01', https://www.cehibrux.be/images/histoire_de_bruxelles_chap_01.pdf",
+    "tanik": "le premier à utiliser le titre de duc de Brabant"
+   }
+  ],
+  "ic_not": "Kuruluş (kur) bulunamadı; 979 geleneği çürütülüyor (CEHIBRUX). Vikipedi EN 'History of Brussels' ilk güvenilir anılışı c.1015-1020 'portus' dedi (patrimoine.brussels kaynağı 503 bakımda — açılamadı); CEHIBRUX 966'yı veriyor, ikisi arasındaki fark ic_not'ta; yazılı tanığı daha eski olan 966 alındı. Çift teyit YOK. Atlas 1281-1430 almanya (düzeltme gerekmez)."
+ },
+ {
   "id": "buhara",
   "ad": "Buhara",
   "atlas_ad": "Buhara",
@@ -2328,6 +2443,328 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ATLAS ÇELİŞKİSİ (1281 başlangıcı): ilk yazılı tanık 1459-09-20 > atlas başlangıcı 1281-01-01. Atlas Bükreş noktasını macaristan 1281-01-01 → 1330, eflak 1330-1462 olarak açıyor; kaynak bunu desteklemiyor (1281-1459 arasında yazılı tanık yok). Bu yüzden sahip zinciri BOŞ bırakıldı (denetim 'ilk.t atlas başlangıcından sonra' uyarısı beklenir). Öneri: Bükreş noktası 1459-09-20 öncesinde gösterilmesin (motor kur/bit penceresi = ilk.t'den başlasın); macaristan 1281-1330 dönemi kaynaksız (Bükreş bölgesi Macar krallığı toprağı olduğuna dair tanık bulunamadı: Eflak/Basarab devleti 1330 Posada öncesi 'Terra Transalpina' Macar nominal egemenliği olabilir ama bu oturumda açılmadı); eflak dönemi nokta ilk.t'den itibaren geçerli. KAYNAK SEÇİMİ: TDV 1368 'Cetatea Dâmboviţei' ismiyle geçtiğini yazar, ancak (a) bu ad Bükreş'in kendi adı değildir, yeri kesin olmayan ad eşitlemesidir (VERI-YAPISI kuralı: başlangıç sayılmaz), (b) Treccani 'Bucarest' (Enciclopedia on line): 'L'origine di B. e l'etimologia del nome sono incerte', (c) Constantin 2011: 'Cetatea Dâmboviţa' adı 1458-59'da Vlad Ţepeş'in inşa ettiği Bükreş kalesinin yan adıdır. Bu yüzden adı kesin taşıyan en eski belge (1459-09-20) alındı; TDV-esas kuralı ile çelişki beyan edilir ve karar Emre'ye bırakılır (alternatif ilk: TDV 1368, yıl hassasiyeti, yer eşitlemesi belirsiz). 1459 tarihi için ikinci akademik tanık bulunamadı (Newsweek RO ve Wikipedia 20.09.1459'u aktarır ama popüler/ikincil olduğu için kaynak sayılmadı; Wikipedia 13 Haziran 1458 tarihli Latince bir belgeden de söz eder — bu oturumda doğrulanmadı). Tanik metni PDF OCR çıktısından birebir alındı ('20septembrie1459' bitişik). ARKEOLOJİ: Curtea Veche kazılarında XIV. yy ikinci yarısına ait kule/tahkimat var (ark alanı); yazılı tanık (1459) mevcut olduğundan arkeolojik katman ilk olmadı; arkeolojik tarih (XIV. yy ikinci yarısı, 1350-1399) yazılı tanıktan eskidir ama o da 1281'den sonradır — atlas başlangıcı 1281 ile ÇELİŞİR: arkeolojik bulgu da 1281'de şehir olduğunu göstermez. Treccani: 'Residenza invernale dei principi di Valacchia alla metà del 15° sec.'. Bükreş modern noktası (44.427, 26.103) ile Curtea Veche (~44.4318, 26.1018) arası < 1 km."
+ },
+ {
+  "id": "chambery",
+  "dikis_beyan": "Atlas Chambéry'yi 1281'de 'sardinya' diye başlatıyor; zincirin kaynaklı son sahibi savoya (Savoy Kontluğu, künye 1032-1720). 'sardinya' (Sardinya Krallığı) 1720'de doğar → atlas başlangıç etiketi savoya olmalı; 1281'de kaynaklı bir el değiştirme aranıp bulunamadı, yer tutucu olay yazılmadı.",
+  "ad": "Chambéry",
+  "atlas_ad": "Chambéry",
+  "lat": 45.564,
+  "lon": 5.918,
+  "kat1900": 2,
+  "adlar": [
+   "Camberiacum",
+   "Chambéry"
+  ],
+  "ilk": {
+   "t": "1015-01-01",
+   "gun": "1015",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Enciclopedia Italiana, 'Chambéry', https://www.treccani.it/enciclopedia/chambery_(Enciclopedia-Italiana)/",
+   "tanik": "la donazione che ne fece nel 1015 Rodolfo III, ultimo re di Borgogna",
+   "ic_not": "Treccani: 'Il ricordo più antico di questa terra' = Rodolfo III'ün 1015 bağışı (toprak, şehir adı değil). Fr. Vikipedi toponimi: Camefriacum 1016, Camberiaco 1029 (Vikipedi tek dayanak olamaz, kaynak açılamadı) — 1015 en eski olup yer özdeşliği Treccani'ye dayanır."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1015-01-01",
+    "t": "1032-01-01",
+    "d": "arles-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Chambéry', https://www.treccani.it/enciclopedia/chambery_(Enciclopedia-Italiana)/; Britannica 1911 'Burgundy'",
+    "ic_not": "Burgonya (Arles) Krallığı, Rodolfo III. Künye arles-kralligi boyasız (b).",
+    "boyasiz": true
+   },
+   {
+    "f": "1032-01-01",
+    "t": "1120-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Burgundy', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Burgundy",
+    "ic_not": "Rodolfo III ölünce krallık İmparator Conrad II'ye kalır (almanya). Savoy vikontları/kontları imparatorluk vasalı; Chambéry vikontları (Goffredo 'De-Chambéry') yerel — Treccani."
+   },
+   {
+    "f": "1120-01-01",
+    "t": "1281-01-01",
+    "d": "savoya",
+    "kesinlik": "onyil",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Chambéry', https://www.treccani.it/enciclopedia/chambery_(Enciclopedia-Italiana)/ (circa il 1120)",
+    "ic_not": "'circa il 1120' → onyil kesinliği; 1120-01-01 uç seçimi (Savoy kontu Amedeo III egemenliğini tanıma)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1015-01-01",
+    "gun": "1015",
+    "k": "diger",
+    "b": "Burgonya kralı Rodolfo III, Chambéry toprağını karısı Ermengarda'ya bağışlar.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Chambéry', https://www.treccani.it/enciclopedia/chambery_(Enciclopedia-Italiana)/",
+    "tanik": "la donazione che ne fece nel 1015 Rodolfo III, ultimo re di Borgogna"
+   },
+   {
+    "t": "1032-01-01",
+    "gun": "1032",
+    "k": "diger",
+    "b": "künye geçişi: Burgonya (Arles) Krallığı → Kutsal Roma-Cermen İmparatorluğu (Rodolfo III ölür, mirası Conrad II'ye).",
+    "kaynak": "Britannica 1911 'Burgundy' (Wikisource)",
+    "tanik": "died without issue, bequeathing his lands to the emperor Conrad II"
+   },
+   {
+    "t": "1120-01-01",
+    "gun": "c. 1120",
+    "k": "diger",
+    "b": "künye geçişi: Chambéry vikontu Berlione I Savoy kontu Amedeo III'ün egemenliğini tanır.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Chambéry', https://www.treccani.it/enciclopedia/chambery_(Enciclopedia-Italiana)/",
+    "tanik": "circa il 1120 riconobbe la sovranità di Amedeo III conte di Savoia"
+   },
+   {
+    "t": "1232-01-01",
+    "gun": "1232",
+    "k": "idari",
+    "b": "Berlione III Chambéry'yi Savoy kontu Tommaso'ya devreder (egemen aynı: savoya); Tommaso halka franchise verir.",
+    "kaynak": "Treccani, Enciclopedia Italiana, 'Chambéry', https://www.treccani.it/enciclopedia/chambery_(Enciclopedia-Italiana)/; Treccani Dizionario Biografico, 'Tommaso I conte di Savoia'",
+    "tanik": "Berlione III nel 1232 cedette al conte Tommaso di Savoia questa nuova Chambéry"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. 1232 alımının günü: Fr. Vikipedi '15 mars 1232' (Mariotte-Löber, Ville et seigneurie, Droz 1973, s.123 — kitap açılamadı); Treccani yalnız yıl veriyor. 1295 başkent/şato alımı (Amedeo V) kaynaksız. HLS/Persée/Académie de Savoie açılamadı. Çift teyit YOK. 1120 'circa'; 1032-1120 arası ayrıntı bulunamadı."
+ },
+ {
+  "id": "dijon",
+  "ad": "Dijon",
+  "atlas_ad": "Dijon",
+  "lat": 47.322,
+  "lon": 5.041,
+  "kat1900": 2,
+  "adlar": [
+   "Divionense castrum",
+   "Dijon"
+  ],
+  "ilk": {
+   "t": "0600-01-01",
+   "gun": "6. yy",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Gregorius Turonensis, Historiae III.19, https://www.thelatinlibrary.com/gregorytours/gregorytours3.shtml; Britannica 1911 'Dijon', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Dijon",
+   "tanik": "Est autem castrum firmissimis muris in media planitiae",
+   "ic_not": "Gregorius 6. yy'da yazdı (EB1911: 'Gregory of Tours, in the 6th century'); aralığın güvenli ucu 600. Hist. II.23'te Langres piskoposu Aprunculus ~470'lerde Burgundlar şüphesiyle 'a castro Divionensi' kaçar (anlatı, çağdaş tanık değil); II.32'de Clovis-Gundobad savaşı Dijon'da (500); Burgund krallığı 534'te biter (EB1911 Burgundy). Bunlar anlatısal → ilk anılış 6. yy sonu alındı. EB1911: Aurelianus 274 surları iddiası kaynaksız."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0600-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Dijon', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Dijon; Burgundy https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Burgundy",
+    "ic_not": "Merovenj Frank (561-613 Burgonya alt krallığı dahil)."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0987-07-01",
+    "d": "bati-francia",
+    "kesinlik": "ay",
+    "kaynak": "Britannica 1911 'Verdun' ve 'Hugh Capet' (Wikisource)",
+    "ic_not": "Verdun 843: Dijon Kel Charles'ın Batı Francia'sında. Sınır 987 Temmuz."
+   },
+   {
+    "f": "0987-07-01",
+    "t": "1032-01-01",
+    "d": "fransa",
+    "kesinlik": "ay",
+    "kaynak": "Britannica 1911 'Burgundy' (Wikisource)",
+    "ic_not": "Burgonya dükalığı Carolingian dönemden (Richard le Justicier) Duke Henry'nin 1002 ölümüne; 1015'te Robert II ile krallığa katılır; 1032'de Henri I kardeşi Robert'e verir."
+   },
+   {
+    "f": "1032-01-01",
+    "t": "1281-01-01",
+    "d": "burgonya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Burgundy' (Wikisource)",
+    "ic_not": "Capet Burgonya dükalığı (burgonya künyesi 1032)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "antlasma",
+    "b": "künye geçişi: Verdun Antlaşması — Frank imparatorluğu bölünür, Dijon Batı Francia'da kalır.",
+    "kaynak": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Verdun",
+    "tanik": "In 843 the famous treaty was signed here by the sons of Louis the Pious"
+   },
+   {
+    "t": "0987-07-01",
+    "gun": "Temmuz 987",
+    "k": "taht",
+    "b": "künye geçişi: Batı Francia → Fransa Krallığı (Hugh Capet seçilip taçlandırılır).",
+    "kaynak": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hugh_Capet",
+    "tanik": "crowned him, probably at Noyon, in July 987"
+   },
+   {
+    "t": "1015-01-01",
+    "gun": "1015",
+    "k": "fetih",
+    "b": "Kral Robert II, 13 yıllık savaştan sonra Burgonya dükalığını krallığa yeniden bağlar.",
+    "kaynak": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Burgundy",
+    "tanik": "the French king Robert II. reunited the duchy to his kingdom"
+   },
+   {
+    "t": "1032-01-01",
+    "gun": "1032",
+    "k": "idari",
+    "b": "künye geçişi: Fransa kralı Henri I Burgonya dükalığını kardeşi Robert'e verir (Capet Burgonya hanedanı).",
+    "kaynak": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Burgundy",
+    "tanik": "in 1032 bestowed the duchy upon his brother Robert"
+   },
+   {
+    "t": "1182-01-01",
+    "gun": "1182",
+    "k": "idari",
+    "b": "Dük Hugues III şehre komün imtiyazları verir; Philippe Auguste 1183'te onaylar.",
+    "kaynak": "Britannica 1911 'Dijon', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Dijon",
+    "tanik": "The communal privileges, conferred on the town in 1182 by Hugh III., duke of Burgundy"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. Zincir ilk anılış (6. yy) ile başlar; Roma ve Burgund (burgund 443-534) dönemleri çağdaş yazılı tanıkla bağlanamadı — ilk anılıştan geriye sahiplik üretilmedi. Vikipedi kullanılmadı. Çift teyit YOK. Atlas Dijon 1281'de burgonya (enklav) — dikiş uyumlu."
+ },
+ {
+  "id": "dublin",
+  "ad": "Dublin",
+  "atlas_ad": "Dublin",
+  "lat": 53.35,
+  "lon": -6.26,
+  "kat1900": 2,
+  "adlar": [
+   "Áth Cliath",
+   "Duiblinn",
+   "Dublin"
+  ],
+  "ilk": {
+   "t": "0790-01-01",
+   "gun": "790",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "The Annals of Ulster (CELT T100001A; Mac Airt & Mac Niocaill çevirisi ≤1131, Hennessy & Mac Carthy çevirisi 1155-1201), https://celt.ucc.ie/published/T100001A.html — U790.2 (CELT yıl başlığı 'AD 789')",
+   "tanik": "Siadal, abbot of Duiblinn",
+   "ic_not": "AU'da en eski iki ad: U770.10 'Áth Cliath' (geçit/ford yer adı; 'overthrow of the Uí Téig ... at Áth Cliath') ve U790.2 'abbot of Duiblinn' (manastır yerleşimi); yıl etiketi CELT'te 'AD 789', entry U790 → 790 (geç uç). Ptolemaios 'Eblana' özdeşleştirmesi tartışmalı olduğundan başlangıç sayılmadı (bu oturumda açılmadı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0790-01-01",
+    "t": "0841-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "The Annals of Ulster (CELT T100001A; Mac Airt & Mac Niocaill çevirisi ≤1131, Hennessy & Mac Carthy çevirisi 1155-1201), https://celt.ucc.ie/published/T100001A.html",
+    "ic_not": "790 (manastır) ile Viking üssü (841) arası şehrin siyasi sahibi (Leinster/Brega/Ciannacht) kaynakta yazılı değil; beyanlı boşluk."
+   },
+   {
+    "f": "0841-01-01",
+    "t": "1170-01-01",
+    "d": "dublin-krallik",
+    "kesinlik": "yil",
+    "kaynak": "The Annals of Ulster (CELT T100001A; Mac Airt & Mac Niocaill çevirisi ≤1131, Hennessy & Mac Carthy çevirisi 1155-1201), https://celt.ucc.ie/published/T100001A.html U841.4; U917.4; U1170.5",
+    "ic_not": "Hiberno-Norse Dublin Krallığı (künye dublin-krallik 841-1170, boyasız).",
+    "boyasiz": true
+   },
+   {
+    "f": "1170-01-01",
+    "t": "1171-01-01",
+    "d": "leinster-krallik",
+    "kesinlik": "yil",
+    "kaynak": "The Annals of Ulster (CELT T100001A; Mac Airt & Mac Niocaill çevirisi ≤1131, Hennessy & Mac Carthy çevirisi 1155-1201), https://celt.ucc.ie/published/T100001A.html U1170.5, U1171.1",
+    "ic_not": "Diarmait Mac Murchadha (Leinster kralı) ve 'transmarine men' Dublin'i alır; Diarmait 1171'de ölür. Künye yok: önerilen id leinster-krallik (ömür kaynaklanmadı).",
+    "kunye_yok": true
+   },
+   {
+    "f": "1171-01-01",
+    "t": "1281-01-01",
+    "d": "ingiltere",
+    "kesinlik": "yil",
+    "kaynak": "The Annals of Ulster (CELT T100001A; Mac Airt & Mac Niocaill çevirisi ≤1131, Hennessy & Mac Carthy çevirisi 1155-1201), https://celt.ucc.ie/published/T100001A.html U1171.10",
+    "ic_not": "Henry II Dublin'e gelir, Leinster rehinlerini alır (1171)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0841-01-01",
+    "gun": "841",
+    "k": "kurulus",
+    "b": "Duiblinn'de Viking donanma üssü (longphort) — Hiberno-Norse Dublin'in başlangıcı.",
+    "kaynak": "The Annals of Ulster (CELT T100001A; Mac Airt & Mac Niocaill çevirisi ≤1131, Hennessy & Mac Carthy çevirisi 1155-1201), https://celt.ucc.ie/published/T100001A.html U841.4",
+    "tanik": "There was a naval camp at Duiblinn"
+   },
+   {
+    "t": "1170-01-01",
+    "gun": "1170",
+    "k": "fetih",
+    "b": "Diarmait Mac Murchadha ve denizaşırı adamları Dublin'i yıkıp ele geçirir.",
+    "kaynak": "The Annals of Ulster (CELT T100001A; Mac Airt & Mac Niocaill çevirisi ≤1131, Hennessy & Mac Carthy çevirisi 1155-1201), https://celt.ucc.ie/published/T100001A.html U1170.5",
+    "tanik": "Ath-cliath was destroyed by Diarmait Mac Murchadha"
+   },
+   {
+    "t": "1171-01-01",
+    "gun": "1171",
+    "k": "idari",
+    "b": "Henry II Dublin'e gelir, Leinster, Meath, Ulidia rehinlerini alır (Anglo-Norman üstünlüğü).",
+    "kaynak": "The Annals of Ulster (CELT T100001A; Mac Airt & Mac Niocaill çevirisi ≤1131, Hennessy & Mac Carthy çevirisi 1155-1201), https://celt.ucc.ie/published/T100001A.html U1171.10",
+    "tanik": "He came after that to Ath-cliath and received the pledges of Leinster"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı (kur=null). 917: 'Sitriuc grandson of Ímar entered Áth Cliath' (U917.4); 1014 Clontarf ayrıca doğrulanmadı. 1170 gün: AU yıl veriyor, Eylül 1170/Kasım 1171 günleri açılmadı (yıl hassasiyeti). dublin-krallik künyesi 1170-01-01'de biter (uyumlu). İrlanda yüksek krallığı (Brian Bóruma 1000 vb.) Dublin'i kısa süre vergiye bağladı — sahiplik sayılmadı. Çift teyit YOK (yalnız AU)."
+ },
+ {
+  "id": "edinburg",
+  "ad": "Edinburg",
+  "atlas_ad": "Edinburg",
+  "lat": 55.953,
+  "lon": -3.189,
+  "kat1900": 2,
+  "adlar": [
+   "Edwinesburch",
+   "Dunedin",
+   "Edinburgh"
+  ],
+  "ilk": {
+   "t": "1128-01-01",
+   "gun": "1128",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Anderson, A.O., Early Sources of Scottish History A.D. 500 to 1286, c. II (Edinburgh 1922; Chronicle of Melrose, s.a. 1128), https://archive.org/details/earlysourcesofsc02ande",
+   "tanik": "the church of the Holy Rood at Edinburgh began to be founded",
+   "ic_not": "Daha eski ad eşitlemeleri YERİ KESİN DEĞİL (Anderson 1922 ESSH I, s.a. ca.640 ve s.a.962 notları şüphe belirtir): AU U638.1 'the siege of Etin' (Etin = Edinburgh mi, Carriden mi — Skene 'need not be doubted', Anderson 'some doubt'); Chronicle of the Kings of Scotland 954-962 'fortress of Eden' (Anderson: Carriden/Cair-Eden olabilir). Edgar'ın 1107'de Edinburgh'ta ölümü ve Margaret'ın 1093 ölümü yalnız geç (Fordun, Chronicle version F) kronikçilerce. Y Gododdin 'Din Eidyn' (~600) açılamadı; Canmore/HES kazı raporları (Driscoll & Yeoman 1997) bot duvarı → ark=null."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1128-01-01",
+    "t": "1281-01-01",
+    "d": "iskocya",
+    "kesinlik": "yil",
+    "kaynak": "Anderson, A.O., Early Sources of Scottish History A.D. 500 to 1286, c. II (Edinburgh 1922; Chronicle of Melrose, s.a. 1128), https://archive.org/details/earlysourcesofsc02ande",
+    "ic_not": "İskoçya Krallığı (David I). 1174 Falaise: Edinburgh şatosu İngiliz garnizonu (ESSH II, 'Roxburgh, [Berwick, and Edinburgh] ... rendered up') ve 1186 iadesi — Scots'a göre yalnız Lothian homage'ı, kaynak çelişkili, süre kesin değil → dönem AÇILMADI (kısa ele geçirme kuralı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1128-01-01",
+    "gun": "1128",
+    "k": "kurulus",
+    "b": "Edinburgh'ta Holy Rood (Holyrood) kilisesinin kuruluşu başlar.",
+    "kaynak": "Anderson, A.O., Early Sources of Scottish History A.D. 500 to 1286, c. II (Edinburgh 1922; Chronicle of Melrose, s.a. 1128), https://archive.org/details/earlysourcesofsc02ande",
+    "tanik": "the church of the Holy Rood at Edinburgh began to be founded"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. EB1911 'Edinburgh': Edwin 617/629 ve 'Edwinesburch' (Symeon of Durham) — eski; Anderson şüpheli buluyor. Atlas zinciri iskocya 1281'de aynı sahip → dikiş uyumlu. Çift teyit YOK. 1128: Melrose Kroniği (13. yy derleme) — çağdaş değil ama bu oturumda açılan en eski tarihli tanık."
  },
  {
   "id": "erdebil",
@@ -5648,6 +6085,59 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Fenike geleneği (Treccani 'Alis Ubbo') ilk anılış sayılmadı. TDV 'Roma, Alanlar ve Vizigotlar' ifadesindeki Alan dönemi ve Svev sırası kaynak tarihi vermediği için dönem açılmadı. Çift teyit: Roma işgali MÖ 138 (Princeton) ↔ Strabon (Brutus Callaicus kampanyası); Lizbon 1147-10-24 (TDV, atlas künyesi) — Treccani yalnız 'Alfonso Henrique conquistò definitivamente' der. Zincir atlas ilk gününde (1147-10-24) biter. Atlas notu: atlas Lizbon 'Murâbıt 1147-03-23→10-24 künyesiz YAZILMADI' demişti; bu dosyada o aralık 'lizbon-ozerk-meclis' (TDV) olarak yazıldı."
  },
  {
+  "id": "luksemburg",
+  "ad": "Lüksemburg",
+  "atlas_ad": "Lüksemburg",
+  "lat": 49.611,
+  "lon": 6.132,
+  "kat1900": 1,
+  "adlar": [
+   "Lucilinburhuc",
+   "Lüksemburg"
+  ],
+  "ilk": {
+   "t": "0963-01-01",
+   "gun": "963",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "J. Vannerus, c.r. de J.-P. Koltz 'Baugeschichte der Stadt und Festung Luxemburg', Revue belge de philologie et d'histoire 26/3 (1948) s.625-629, https://www.persee.fr/doc/rbph_0035-0818_1948_num_26_3_1794_t1_0625_0000_4 (Persée arama-bağlamı OCR'ı); ikinci tanık Vikipedi EN 'History of Luxembourg City'",
+   "tanik": "qu'elle céda en 963, sous le nom de castellum quod dicitur Lucilinburhuc",
+   "ic_not": "Şato (castellum) Trier St. Maximin manastırınca 8.-9. yy'da inşa edilmiş (OCR bozuk: 'v:îi3 ou au îxe siècle'), 963'te Kont Sigefroid'e devredilmiş; 963 devir/ilk adlı anılış tarihidir, kuruluş değildir. 963 ay-gün bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0963-01-01",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "J. Vannerus, c.r. de J.-P. Koltz 'Baugeschichte der Stadt und Festung Luxemburg', Revue belge de philologie et d'histoire 26/3 (1948) s.625-629, https://www.persee.fr/doc/rbph_0035-0818_1948_num_26_3_1794_t1_0625_0000_4 (Persée arama-bağlamı OCR'ı)",
+    "ic_not": "Nominal egemen Kutsal Roma-Cermen İmparatorluğu; yerel: Lüksemburg Kontları (luksemburg-kontlugu 963-1354, boyasız). Atlas 1281 'almanya' ile dikiş için almanya yazıldı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0963-01-01",
+    "gun": "963",
+    "k": "diger",
+    "b": "Trier St. Maximin manastırı Lucilinburhuc şatosunu Kont Sigefroid'e devreder (ilk anılış).",
+    "kaynak": "J. Vannerus, c.r. de J.-P. Koltz 'Baugeschichte der Stadt und Festung Luxemburg', Revue belge de philologie et d'histoire 26/3 (1948) s.625-629, https://www.persee.fr/doc/rbph_0035-0818_1948_num_26_3_1794_t1_0625_0000_4 (Persée arama-bağlamı OCR'ı)",
+    "tanik": "qu'elle céda en 963, sous le nom de castellum quod dicitur Lucilinburhuc"
+   },
+   {
+    "t": "0963-01-01",
+    "gun": "963",
+    "k": "diger",
+    "b": "İkinci tanık: St. Maximin ile değişim antlaşması, Ardennes'li Siegfried.",
+    "kaynak": "Vikipedi EN 'History of Luxembourg City' (ikinci tanık)",
+    "tanik": "through an exchange treaty with the abbey of Saint Maximin in Trier"
+   }
+  ],
+  "ic_not": "Çift teyit YOK (Vikipedi tek bağımsız akademik tanık sayılmaz; Zimmer 2002 'Aux origines de la ville de Luxembourg' ve HLS/Historisches Lexikon açılamadı). EB1911 Luxemburg maddesi Wikisource'ta yok."
+ },
+ {
   "id": "madrid",
   "ad": "Madrid",
   "atlas_ad": "Madrid",
@@ -6907,6 +7397,132 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ÇELİŞKİ (Moskova'nın yağma tarihi): TDV Batu Han maddesi 1238 Şubat'ı verir (esas alındı, 'ay'); ESBE yalnız '1238 г.' der; İngilizce Vikipedi 'Siege of Moscow (1238)' 15-20 Ocak 1238 (tek dayanak olamaz, kullanılmadı). Dikiş: dikis_beyan. KİLİTLİ BORÇ: Moskova'nın 1157'de vladimir-suzdal künyesine geçmesi künye f=1157-01-01'e dayanır; Yuri ölüm yılı 1157 (ESBE), gün yok. Yanin/Kuçkin/Sedov monografileri ve PSRL açılamadı."
  },
  {
+  "id": "nantes",
+  "ad": "Nantes",
+  "atlas_ad": "Nantes",
+  "lat": 47.218,
+  "lon": -1.554,
+  "kat1900": 2,
+  "adlar": [
+   "Condivincum",
+   "Portus Namnetum",
+   "Nantes"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yy",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ptolemaios, Geographia II.7 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html; Ptolemaios'un son kayıtlı gözlemi MS 151 (Britannica 1911 'Ptolemy'): eser 2. yy",
+   "tanik": "are the Namnetae, whose town is Condivincum",
+   "ic_not": "Condivincum = Nantes özdeşliği EB1911'e göre ('Condovicnum' + Portus Namnetum). Caesar BG III.9 ve Plinius NH IV.107 yalnız Namnetes KAVMİNİ anar, şehir değil. Ptolemaios 2. yy (güvenli uç 200)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Ptolemaios, Geographia II.7 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html",
+    "ic_not": "Lugdunensis (Ptolemaios) — Roma İmparatorluğu; EB1911 Nantes 'Under the Romans it became a great commercial and administrative centre'."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0560-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "bulunamadı",
+    "ic_not": "476 sonrası ~84 yıl: şehrin sahibi bu oturumda kaynaklanamadı (kuşak üstü boşluk → __BOSLUK__)."
+   },
+   {
+    "f": "0560-01-01",
+    "t": "0843-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Nantes', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Nantes",
+    "ic_not": "'f en geç tanıktan': EB1911 Nantes — Clotaire I 560'ta şehri alır. Nominoë 842'de (Karl'ın tarafını tuttuğu için) surları yıktırdı — Breton egemenliği süresi kaynaklanamadı, dönem açılmadı."
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0936-01-01",
+    "d": "loire-vikingleri",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Nantes', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Nantes",
+    "ic_not": "Normandiya künyesi (911) DEĞİL: Loire Vikingleri/'Normans' 843-936. Künye yok: önerilen id loire-vikingleri.",
+    "kunye_yok": true
+   },
+   {
+    "f": "0936-01-01",
+    "t": "1281-01-01",
+    "d": "bretanya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Brittany', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Brittany",
+    "ic_not": "Alain Barbetorte Normanları yener (EB Brittany); künye bretanya 939 (3 yıl uyarı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk Arcadius/Honorius arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma biter — Romulus Augustulus tahttan çekilmeye zorlanır (Odoacer); şehrin sonraki sahibi kaynaklanamadı.",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0560-01-01",
+    "gun": "560",
+    "k": "fetih",
+    "b": "Frank kralı Clotaire I Nantes'ı alır, Piskopos Félix'e emanet eder.",
+    "kaynak": "Britannica 1911 'Nantes', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Nantes",
+    "tanik": "Clotaire I. got possession of the city in 560"
+   },
+   {
+    "t": "0842-01-01",
+    "gun": "842",
+    "k": "isyan",
+    "b": "Breton Nominoë, Karl'ın tarafını tutan Nantes'ın surlarını yıktırır.",
+    "kaynak": "Britannica 1911 'Nantes', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Nantes",
+    "tanik": "ordered the fortifications of Nantes to be razed"
+   },
+   {
+    "t": "0843-01-01",
+    "gun": "843",
+    "k": "fetih",
+    "b": "künye geçişi: Normanlar (Loire Vikingleri) Nantes'ı 843'ten itibaren tutar.",
+    "kaynak": "Britannica 1911 'Nantes', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Nantes",
+    "tanik": "The Normans held the town from 843 to 936"
+   },
+   {
+    "t": "0936-01-01",
+    "gun": "936",
+    "k": "fetih",
+    "b": "Normanların Nantes hâkimiyeti 936'da biter; Breton kontlar (Alain Barbetorte) şehre sahip olur.",
+    "kaynak": "Britannica 1911 'Nantes', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Nantes",
+    "tanik": "The Normans held the town from 843 to 936"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. 476-560 arası boşluk; 842 Breton muhasarası/surların yıkımı sahiplik değişimi yazılmadı (süre yok). Atlas bretanya 1281 → dikiş uyumlu. Çift teyit YOK (Ptolemaios + EB1911 özdeşleme)."
+ },
+ {
   "id": "nikolayev",
   "ad": "Nikolayev (Mikolayiv)",
   "atlas_ad": "Nikolayev (Mikolayiv)",
@@ -8081,6 +8697,114 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Atlas Pisa 1281'de 'piza' ile başlar; zincir aynı sahiple biter. ÇELİŞKİ (komün/konsül yılı): Treccani online 'verso il 1050' vs EI 'fra il 1080 e il 1085 ... il primo ricordo dei consoli (carta sarda)'; erken uç alındı. TDV 'Pisa' maddesi yok (arama: 3 başlık/126 içerik, Pisa şehri maddesi yok; 'Piza' slug'ı da arama sayfasına döndü). Livius'un MÖ 218 yılı konsül yılından türetildi (bu oturumda doğrulanmadı)."
+ },
+ {
+  "id": "rennes",
+  "ad": "Rennes",
+  "atlas_ad": "Rennes",
+  "lat": 48.114,
+  "lon": -1.68,
+  "kat1900": 2,
+  "adlar": [
+   "Condate",
+   "Rennes"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yy",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ptolemaios, Geographia II.7 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html; Ptolemaios'un son kayıtlı gözlemi MS 151 (Britannica 1911 'Ptolemy'): eser 2. yy",
+   "tanik": "are the Rhedones, whose town is Condate",
+   "ic_not": "Condate = Rennes özdeşliği EB1911 'Rennes' ('Redones, was formerly ... called Condate'). Redones kavmi Plinius NH IV.107'de (Riedones) yalnız kavim olarak."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yuzyil",
+    "kaynak": "Ptolemaios, Geographia II.7 (Stevenson çev., Dover 1991; LacusCurtius), https://penelope.uchicago.edu/Thayer/E/Gazetteer/Periods/Roman/_Texts/Ptolemy/2/7*.html",
+    "ic_not": "Lugdunensis Tertia (EB1911 Rennes)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0600-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-6. yy sonu: şehrin sahibi kaynaklanamadı (>1 kuşak). Gregorius X.9 (≤6. yy): Frank kralı Guntram Rennes/Nantes'ı korumak için ordu gönderir → Frank en geç 600."
+   },
+   {
+    "f": "0600-01-01",
+    "t": "0846-01-01",
+    "d": "frank",
+    "kesinlik": "yil",
+    "kaynak": "Gregorius Turonensis, Hist. X.9, https://www.thelatinlibrary.com/gregorytours/gregorytours10.shtml; Britannica 1911 'Brittany', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Brittany",
+    "ic_not": "'f en geç tanıktan'. Frank künyesi 843'te biter; 846 Breton bağımsızlığı → hayalet uyarısı beklenir (3 yıl)."
+   },
+   {
+    "f": "0846-01-01",
+    "t": "1281-01-01",
+    "d": "bretanya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Brittany', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Brittany; Catholic Encyclopedia 1913 'Archdiocese of Rennes'",
+    "ic_not": "Breton krallık/dükalık (Nomenoë 845-846; 874 sonrası Rennes kontları, 992 Geoffroy dük). Künye bretanya 939 → 846-939 'künyeyi GENİŞLET' önerisi (aynı polity). Rennes'in Nomenoë krallığına dahil olduğu doğrudan yazılı değil (Angers 851 anlaşması açılmadı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk Arcadius/Honorius arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma biter — Romulus Augustulus tahttan çekilmeye zorlanır (Odoacer); şehrin sonraki sahibi kaynaklanamadı.",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0600-01-01",
+    "gun": "6. yy sonu",
+    "k": "kusatma",
+    "b": "Kral Guntram, Rennes/Nantes çevresinde saldıran Bretonlara karşı ordu gönderir — Frank egemenliği kanıtı.",
+    "kaynak": "Gregorius Turonensis, Hist. X.9",
+    "tanik": "Gunthchramnus rex exercitum contra eos conmoverii iussit"
+   },
+   {
+    "t": "0846-01-01",
+    "gun": "846",
+    "k": "antlasma",
+    "b": "künye geçişi: Nomenoë, Kel Karl'ı yenip Bretanya'nın bağımsızlığını tanıtır (Rennes Breton dünyasında).",
+    "kaynak": "Britannica 1911 'Brittany', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Brittany",
+    "tanik": "forced him, in 846, to recognize the independence of Brittany"
+   },
+   {
+    "t": "0992-01-01",
+    "gun": "992",
+    "k": "taht",
+    "b": "Rennes kontu Geoffroy Bretanya dükü unvanını alır.",
+    "kaynak": "Britannica 1911 'Brittany', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Brittany",
+    "tanik": "Geoffrey, son of Conan, took the title of duke of Brittany in 992"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. 476-600 boşluk beyanlı. 846 sınırı Rennes için doğrudan tanık değil — Breton krallığı sınırları (Rennes/Nantes'ın 851'de Erispoë'ye bırakılması geleneği) açılamadı; bu yüzden 846 'yaklaşık'. Atlas bretanya 1281 → dikiş uyumlu. Çift teyit YOK."
  },
  {
   "id": "revan",
@@ -10369,6 +11093,205 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ilk_anilis: Livy/Princeton MÖ 193; kuruluş tanığı yok (TDV: Tunç devri, tarihsiz). Çelişkiler: (1) TDV 'milâttan sonra 193’te Roma hâkimiyeti' ↔ Princeton/Livy MÖ 193; (2) Treccani Toledo bağımsızlığı 886'dan ≈ ↔ TDV 896-932; (3) Toledo günü: TDV yalnız 478/1085, Treccani 25 Mayıs 1085, künye 1085-05-08, atlas 1085-01-01. Çift teyit: Vizigot başşehri (TDV + Treccani aynı yüzyıl), Müslüman fethi 711/712 (TDV 93/712 ↔ Treccani 711: yıl çelişkisi, TDV esas). Zincir atlas ilk gününde (1085-01-01 Kastilya) biter."
+ },
+ {
+  "id": "torino",
+  "dikis_beyan": "Atlas Torino'yu 1281'de 'sardinya' diye başlatıyor; zincirin kaynaklı son sahibi savoya (Treccani: 1280'de Tommaso III Torino'yu geri aldı). 'sardinya' künyesi 1720'de doğar → atlas başlangıç etiketi savoya olmalı; 1281-01-01'de ayrı el değiştirme yok, yer tutucu olay yazılmadı.",
+  "ad": "Torino",
+  "atlas_ad": "Torino",
+  "lat": 45.07,
+  "lon": 7.687,
+  "kat1900": 2,
+  "adlar": [
+   "Augusta Taurinorum",
+   "Torino"
+  ],
+  "ilk": {
+   "t": "0079-01-01",
+   "gun": "79",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Plinius, Naturalis Historia III.123, https://www.thelatinlibrary.com/pliny.nh3.html; Plinius'un NH'yi Titus'a ithafı MS 77, ölümü MS 79 (Britannica 1911 'Pliny the Elder')",
+   "tanik": "coloniae ab Alpium radicibus Augusta Taurinorum",
+   "ic_not": "'Taurasia = Torino' özdeşliği Treccani'de 'forse' (belki), EB1911 Hannibal 218 MÖ kuşatmasını Torino'ya bağlar ama Polybios 3.60/Livius 21.39 bu oturumda açılmadı → yeri kesin olmayan eşitleme, başlangıç sayılmadı. Roma kolonisi kuruluşu 'triumvirler ya da Augustus' (EB1911) — yıl yok, kur=null. Güvenli uç 79."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0079-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kesinlik": "yil",
+    "kaynak": "Plinius, Naturalis Historia III.123, https://www.thelatinlibrary.com/pliny.nh3.html",
+    "ic_not": "Roma kolonisi (Regio XI Transpadana)."
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kesinlik": "gun",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/"
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0569-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "bulunamadı",
+    "ic_not": "476-569: Odoacer/Ostrogot/Bizans dönemleri bu şehir için kaynaklanamadı (Treccani yalnız 'sede di un duca bizantino' der, tarihsiz)."
+   },
+   {
+    "f": "0569-01-01",
+    "t": "0773-01-01",
+    "d": "langobard",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "ic_not": "Treccani: 'Già probabilmente nel 569' — tahminli uç."
+   },
+   {
+    "f": "0773-01-01",
+    "t": "0962-02-02",
+    "d": "karolenj-italya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/; Britannica 1911 'Italy', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Italy",
+    "ic_not": "Franklar, Karolenj İtalya Krallığı; ~940 Hugo kont Arduino Glabrione'yi atar (Arduinici, Torino markizliği)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1251-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Britannica 1911 'Italy', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Italy; Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "ic_not": "Kutsal Roma-Cermen. Arduinici (~940-1091) ve piskoposluk/komün imparatorluk himayesinde; 1136 Lothar III; 1159 Barbarossa piskoposa kont yetkisi; 1237-1248 imp. kaptanı."
+   },
+   {
+    "f": "1251-01-01",
+    "t": "1255-01-01",
+    "d": "savoya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "ic_not": "Tommaso di Savoia 1248'de feodal verilen şehri 1251'de işgal eder."
+   },
+   {
+    "f": "1255-01-01",
+    "t": "1270-01-01",
+    "d": "torino-komunu",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "ic_not": "Libero comune, Asti'nin hegemonyası altında. Künye yok: önerilen id torino-komunu (1255-1270).",
+    "kunye_yok": true
+   },
+   {
+    "f": "1270-01-01",
+    "t": "1276-01-01",
+    "d": "provence-kontlugu",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "ic_not": "Carlo d'Angiò (Provence kontu ve Sicilya kralı) hâkimiyeti. İkili unvan: provence-kontlugu ↔ sicilya-kralligi (Anjou) seçimi yoruma açık; Provence seçildi."
+   },
+   {
+    "f": "1276-01-01",
+    "t": "1280-01-01",
+    "d": "montferrat-markizligi",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "ic_not": "Guglielmo VII, Monferrato markisi. Künye montferrat-markizligi boyasız.",
+    "boyasiz": true
+   },
+   {
+    "f": "1280-01-01",
+    "t": "1281-01-01",
+    "d": "savoya",
+    "kesinlik": "yil",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "ic_not": "Tommaso III Torino'yu geri alır."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0395-01-17",
+    "gun": "17 Ocak 395",
+    "k": "diger",
+    "b": "künye geçişi: Roma İmparatorluğu → Batı Roma (Theodosius I ölür, imparatorluk Arcadius/Honorius arasında bölünür).",
+    "kaynak": "Livius.org (J. Lendering), 'Theodosius I', https://www.livius.org/articles/person/theodosius-i/",
+    "tanik": "17 January 395: natural death"
+   },
+   {
+    "t": "0476-08-31",
+    "gun": "31 Ağustos 476",
+    "k": "diger",
+    "b": "künye geçişi: Batı Roma biter — Romulus Augustulus tahttan çekilmeye zorlanır (Odoacer); şehrin sonraki sahibi kaynaklanamadı.",
+    "kaynak": "Livius.org (J. Lendering), 'Romulus Augustulus', https://www.livius.org/articles/person/romulus-augustulus/",
+    "tanik": "31 August 476: forced to resign"
+   },
+   {
+    "t": "0569-01-01",
+    "gun": "c. 569",
+    "k": "fetih",
+    "b": "Lombardlar Torino'yu alır (Treccani: 'probabilmente').",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "tanik": "Già probabilmente nel 569 cadde nelle mani dei Longobardi"
+   },
+   {
+    "t": "0773-01-01",
+    "gun": "773",
+    "k": "fetih",
+    "b": "Charlemagne Lombardları yener, Torino'ya girer, Frank kontlar yerleştirir.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "tanik": "Nel 773 Carlomagno, sconfitti i Longobardi, entrò a T."
+   },
+   {
+    "t": "0962-02-02",
+    "gun": "962",
+    "k": "taht",
+    "b": "künye geçişi: Karolenj İtalya Krallığı → Kutsal Roma-Cermen (Otto I İtalya'yı Germanya'ya bağlar, 962'de imparator ilan edilir).",
+    "kaynak": "Britannica 1911 'Italy', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Italy",
+    "tanik": "in 962 was proclaimed Saxon and Franconian emperors"
+   },
+   {
+    "t": "1251-01-01",
+    "gun": "1251",
+    "k": "fetih",
+    "b": "Tommaso di Savoia, imparatorun feodal verdiği Torino'yu işgal eder.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "tanik": "Tommaso di Savoia, fratello di Amedeo IV, che nel 1251 occupò la città"
+   },
+   {
+    "t": "1255-01-01",
+    "gun": "1255",
+    "k": "isyan",
+    "b": "Montebruno yenilgisi sonrası Savoy karşıtları komünü yeniden kurar.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "tanik": "nel 1255 fu sconfitto a Montebruno"
+   },
+   {
+    "t": "1270-01-01",
+    "gun": "1270",
+    "k": "fetih",
+    "b": "Asti'nin çöküşüyle Torino Anjou hâkimiyetini tanımak zorunda kalır.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "tanik": "anche T. fu costretta a riconoscere la signoria angioina"
+   },
+   {
+    "t": "1276-01-01",
+    "gun": "1276",
+    "k": "diger",
+    "b": "Torino Anjou'dan Monferrato markisi Guglielmo VII'ye geçer.",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "tanik": "dalla quale nel 1276 passò a quella di Guglielmo VII marchese di Monferrato"
+   },
+   {
+    "t": "1280-01-01",
+    "gun": "1280",
+    "k": "fetih",
+    "b": "Tommaso III di Savoia Monferrato markisini Torino'yu geri vermeye zorlar (atlas 1281 sardinya/savoya).",
+    "kaynak": "Treccani, Enciclopedia on line, 'Torino', https://www.treccani.it/enciclopedia/torino/",
+    "tanik": "Nel 1280 Tommaso III di Savoia costrinse il marchese di Monferrato a restituirgli Torino"
+   }
+  ],
+  "ic_not": "Kuruluş bulunamadı. Polybios 3.60 / Livius 21.38-39 (Hannibal, Taurini başkenti) açılamadı. Treccani Torino'da 1136 Lothar III'ün Amedeo III'ü kovması, 1159 piskopos, 1235 barış, 1237 imp. kaptan, 1248 Federico II'nin Savoy'a feodal vermesi; 1285 Savoy-Acaia. Atlas sardinya=savoya ile 1281 dikişi. Çift teyit YOK."
  },
  {
   "id": "urmiye",
