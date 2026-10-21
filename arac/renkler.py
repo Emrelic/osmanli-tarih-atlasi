@@ -179,6 +179,36 @@ KOVA = {
 }
 
 BOYALAR = {
+    # ═══ 🏺 KURULUŞ ZİNCİRİ RENKLERİ (MO-MOTOR · KURULUS-GERI isteği 21 Ekim: 25 kimlik; komşu+zaman örtüşen BOYALAR'a göre ΔE maksimize, L* ≥ 59,8) ═══
+    "roma-imp": ("Roma İmparatorluğu (Prinkipat-Dominat, birleşik)", "#3684fa"),
+    "emevi": ("Emevî Hilâfeti (Benî Ümeyye)", "#8dc7fc"),
+    "hulefa-yi-rasidin": ("Hulefâ-yi Râşidîn Devri (Medine Hilâfeti)", "#ffaec9"),
+    "sasani": ("Sâsânî İmparatorluğu", "#7bdcb8"),
+    "roma-cumhuriyeti": ("Roma Cumhuriyeti", "#c9542c"),
+    "aglebi": ("Ağlebîler", "#c4d361"),
+    "tolunogullari": ("Tolunoğulları", "#9d9be8"),
+    "ihsidi": ("İhşîdîler", "#49b0db"),
+    "endulus-tavaif": ("Mülûkü't-tavâif (Endülüs tâife emirlikleri)", "#88e0e9"),
+    "tunus-benihorasan": ("Benî Horasan (Tunus) Emirliği", "#f17ff0"),
+    "hamdani-halep": ("Hamdânîler (Halep kolu)", "#72c457"),
+    "medine-devleti": ("Medine Islam Devleti (Hz. Muhammed donemi)", "#e3366e"),
+    "endulus-emevi": ("Endülüs Emevîleri (Kurtuba Emirliği / Hilâfeti)", "#7773a2"),
+    "vandal": ("Vandal Krallığı", "#fdb56d"),
+    "roma-kralligi": ("Roma Krallığı", "#767e4c"),
+    "sicilya-emirligi": ("Sicilya Emirliği (Kelbîler ve ardıl mahallî emirlikler)", "#faa4f8"),
+    "napoli-dukaligi": ("Napoli Dükalığı", "#009262"),
+    "makedonya-krallik": ("Makedonya Krallığı (Argead-Antigonid)", "#01d4eb"),
+    "girit-emirligi": ("Girit Emirliği (Ebû Hafs Hânedanı)", "#b55c66"),
+    "girit-venedik": ("Girit (Candia) Krallığı - Venedik", "#698c02"),
+    "pontus": ("Pontus (Mithridates) Krallığı", "#cc700b"),
+    "karmati": ("Bahreyn Karmatî Devleti", "#65a256"),
+    "mirdasi": ("Mirdâsîler", "#6da1fb"),
+    "zubeyri": ("Abdullah b. Zubeyr Hilafeti (Mekke)", "#be9f0e"),
+    "hamdani-musul": ("Hamdânîler (Musul kolu)", "#a6708d"),
+    "aksum": ("Aksum Krallığı", "#7e7c19"),
+    "yufiri": ("Yu'firiler (Yemen)", "#3c9085"),
+    "sacogullari": ("Sâcoğulları (Azerbaycan)", "#fc849b"),
+
     # ═══ 🏺 MÖ 2. DALGA BOYALARI (MO-MOTOR-1020 · veri-mo-arkeo yerleşimlerinin `s:` kimlikleri; renkler yakın-coğrafya ΔE ≥ 12,5, L* ≥ 59,8) ═══
     "akad": ("Akad Imparatorlugu", "#cc6b1c"),
     "gutium": ("Gutium (Gutiler) Hakimiyeti", "#02d3f9"),
@@ -4460,6 +4490,7 @@ _aciklik_tavani_dogrula()
 DESEN_TURLERI = ("serit", "capraz", "nokta", "dikey")
 KULTUR_OPAKLIK_ARALIK = (0.20, 0.65)
 KULTUR_DESEN = {
+
 
     "aseramik-kuzey-levant-anadolu": ("serit", 0.45),
     "dadiwan-laoguantai": ("serit", 0.45),
