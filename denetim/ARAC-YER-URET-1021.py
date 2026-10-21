@@ -1,0 +1,104 @@
+# -*- coding: utf-8 -*-
+"""parti_*_sonuc.json -> data/yerlesimler_once1281_<bolge>.js adayları + mükerrer raporu.
+Kullanım: py denetim/ARAC-YER-URET-1021.py   (yazar: data/yerlesimler_once1281_*.js, denetim/yer-arastirma/URET-RAPOR.json)
+Kurallar: yalnız durum=cift_tanik yazılır; mükerrer (normalleştirilmiş ad ya da 3 km içinde aynı-ad-benzeri) atlanır ve rapora yazılır.
+s:/d: BOŞ bırakılır (sahip yazımı DEVLET-LISTESI + era oturumlarıyla koordineli; öneri s_oneri sidecar'ında)."""
+import sys, io, os, re, json, math, glob, collections
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(KOK, "arac"))
+import girdi
+from ad_esanlam import sadelestir as N
+
+KL = os.path.join(KOK, "denetim", "yer-arastirma")
+
+
+def km(a, b):
+    p = math.pi / 180
+    h = math.sin((b[0] - a[0]) * p / 2) ** 2 + math.cos(a[0] * p) * math.cos(b[0] * p) * math.sin((b[1] - a[1]) * p / 2) ** 2
+    return 12742 * math.asin(math.sqrt(h))
+
+
+def bolge_kutusu(lat, lon):
+    """dosya adı bölümü: kaba coğrafi kutu."""
+    if lat > 35 and -12 <= lon <= 45 and not (lon > 26 and lat < 42 and lon < 45 and lat < 41):
+        return "avrupa" if lon < 40 else "avrupa"
+    if 35 <= lat <= 42.5 and 26 <= lon <= 45:
+        return "anadolu_kafkas"
+    if lat < 36 and -20 <= lon < 34 and lat > -35:
+        return "afrika_levant" if lon > 25 and lat > 28 else "afrika"
+    if 12 <= lat <= 37 and 34 <= lon <= 60:
+        return "ortadogu"
+    if 25 <= lat <= 50 and 44 <= lon <= 75:
+        return "iran_orta_asya"
+    if lat >= 0 and 60 <= lon <= 100:
+        return "hint"
+    if lon >= 95 and lat > -15:
+        return "dogu_gd_asya"
+    if lon < -30:
+        return "amerika"
+    return "diger"
+
+
+Y = girdi.yukle(sessiz=True)
+mevcut = [(N(re.sub(r"\s*\(.*?\)", "", y["ad"])), (y["lat"], y["lon"]), y["ad"]) for y in Y]
+mevcut_tum = {}
+for y in Y:
+    for ad in [y["ad"], re.sub(r"\s*\(.*?\)", "", y["ad"])] + re.findall(r"\(([^)]*)\)", y["ad"]):
+        mevcut_tum.setdefault(N(ad), []).append((y["lat"], y["lon"], y["ad"]))
+
+aday, rapor = [], {"mukerrer": [], "yazilmadi": collections.Counter(), "yazilan": 0}
+gorulen = set()
+for f in sorted(glob.glob(os.path.join(KL, "parti_*_sonuc.json"))):
+    for r in json.load(open(f, encoding="utf-8")).get("sonuclar", []):
+        if r.get("durum") != "cift_tanik" or r.get("lat") is None:
+            rapor["yazilmadi"][r.get("durum", "?")] += 1
+            continue
+        pt = (float(r["lat"]), float(r["lon"]))
+        adlar_aday = [r["ad"]] + [r.get("esanlam_modern") or ""] + list(r.get("eski_adlar") or [])
+        ceki = None
+        for a in adlar_aday:
+            for (la, lo, mad) in mevcut_tum.get(N(a), []):
+                if km(pt, (la, lo)) <= 30:     # aynı ad 30 km içinde = aynı yer
+                    ceki = (mad, round(km(pt, (la, lo)), 1), "ad")
+        if not ceki:
+            for n, p, mad in mevcut:
+                if km(pt, p) <= 3:
+                    ceki = (mad, round(km(pt, p), 2), "3km")
+                    break
+        if ceki or N(r["ad"]) in gorulen:
+            rapor["mukerrer"].append({"ad": r["ad"], "atlas": ceki[0] if ceki else "(parti içi)", "km": ceki[1] if ceki else 0, "neden": ceki[2] if ceki else "parti"})
+            continue
+        gorulen.add(N(r["ad"]))
+        r["_dosya"] = os.path.basename(f)
+        aday.append(r)
+
+def jstr(s):
+    return json.dumps(s, ensure_ascii=False)
+
+gruplar = collections.defaultdict(list)
+for r in aday:
+    gruplar[bolge_kutusu(float(r["lat"]), float(r["lon"]))].append(r)
+for ad in sorted(gruplar):
+    yol = os.path.join(KOK, "data", "yerlesimler_once1281_%s.js" % ad)
+    satir = ["// yerlesimler_once1281_%s.js — 1281 öncesi kronoloji maddelerinde geçen yerlerin nokta adayları (YER-TANIMA, Ekim 2026)" % ad,
+             "// Kaynak: denetim/yer-arastirma/parti_*_sonuc.json (ÇİFT TANIK şartı) · üreten: denetim/ARAC-YER-URET-1021.py",
+             "// s:/d: BOŞ — sahip/zincir DEVLET-LISTESI ile koordineli yazılır (bağlama + s: işi era oturumlarında).",
+             "// Mükerrer tarama: normalleştirilmiş ad (30 km) + 3 km. BAĞLAMA YAPILMADI (girdi_listesi/index.html'e dokunulmadı).",
+             "window.YERLESIMLER_ONCE1281_%s = [" % ad.upper(), ""]
+    for r in gruplar[ad]:
+        tan = " · ".join("%s %s (%s, %s)" % (t.get("kaynak", ""), t.get("url_veya_atif", ""), t.get("lat"), t.get("lon")) for t in r.get("tanik", []))
+        kes = {"kesin": "yil", "yaklasik": "belirsiz"}.get(r.get("konum_kesinligi"), "belirsiz")
+        ad_yaz = r["ad"] if not r.get("esanlam_modern") or N(r["esanlam_modern"]) == N(r["ad"]) else "%s (%s)" % (r["ad"], r["esanlam_modern"])
+        satir.append('{ ad:%s, tur:%s, lat:%s, lon:%s, g:0, k:0, s:[], d:[],' % (jstr(ad_yaz), jstr(r.get("tur") or "sehir"), r["lat"], r["lon"]))
+        if r.get("konum_kesinligi") == "yaklasik":
+            satir.append('  konum_kesinlik:"yaklasik",')
+        satir.append('  not:%s,' % jstr("YER-TANIMA: kronolojide %s adıyla geçer; eski adlar: %s; modern: %s (%s). %s" % (r["ad"], ", ".join(r.get("eski_adlar") or []) or "-", r.get("esanlam_modern") or "-", r.get("ulke_modern") or "-", r.get("not") or "")))
+        satir.append('  kaynak:%s },' % jstr("ÇİFT TANIK: " + tan + " · denetim/yer-arastirma/" + r["_dosya"]))
+    satir.append("];")
+    open(yol, "w", encoding="utf-8").write("\n".join(satir) + "\n")
+    rapor["yazilan"] += len(gruplar[ad])
+    print(yol, len(gruplar[ad]))
+rapor["yazilmadi"] = dict(rapor["yazilmadi"])
+json.dump(rapor, open(os.path.join(KL, "URET-RAPOR.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(json.dumps({"yazilan": rapor["yazilan"], "mukerrer": len(rapor["mukerrer"]), "yazilmadi": rapor["yazilmadi"]}, ensure_ascii=False))

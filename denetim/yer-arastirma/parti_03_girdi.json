@@ -1,0 +1,285 @@
+{
+ "sinif": "bolge",
+ "adlar": [
+  {
+   "ad": "Mısır",
+   "madde_sayisi": 25,
+   "yil_araligi": [
+    -3125,
+    969
+   ],
+   "ornek_maddeler": [
+    "0116-01-01 Diaspora İsyanı: Kirenaika'dan Suriye ve Mısır'a yayılan Yahudi ayakla",
+    "0175-01-01 Avidius Cassius Marcus Aurelius'a karşı doğuda isyan etti; Temmuzda su",
+    "0270-01-01 Zeyneb 70.000 kişilik orduyla Mısır'a girip Roma kuvvetlerini yendi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Azerbaycan",
+   "madde_sayisi": 22,
+   "yil_araligi": [
+    226,
+    1224
+   ],
+   "ornek_maddeler": [
+    "0799-01-01 Hazarlar İslâm topraklarına yeni bir akın düzenler",
+    "0226-01-01 Atropatene (Azerbaycan) Ardeşîr'e az dirençle boyun eğdi",
+    "0717-01-01 Hazarlar İstanbul kuşatması sırasında Bizans’ın isteğiyle Kafkaslar’ı "
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Ermenistan",
+   "madde_sayisi": 19,
+   "yil_araligi": [
+    35,
+    998
+   ],
+   "ornek_maddeler": [
+    "0035-01-01 Ermenistan vârisliği krizi: Roma adayı Tiridates Ktesifon'da Part kral",
+    "0053-01-01 I. Vologases kardeşi Tiridates'i Ermenistan kralı yaptı",
+    "0114-01-01 Traianus Ermenistan'a girdi; Osroes'un atadığı Parthamasiris öldürüldü"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Suriye",
+   "madde_sayisi": 16,
+   "yil_araligi": [
+    1,
+    1075
+   ],
+   "ornek_maddeler": [
+    "0001-01-01 Roma-Part antlaşması: Part Ermenistan üzerindeki iddiadan vazgeçti, Ro",
+    "0164-01-01 Roma Partları Suriye'den çıkardı; Avidius Cassius Mezopotamya'ya yürüd",
+    "0175-01-01 Avidius Cassius Marcus Aurelius'a karşı doğuda isyan etti; Temmuzda su"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Taberistan",
+   "madde_sayisi": 15,
+   "yil_araligi": [
+    716,
+    1173
+   ],
+   "ornek_maddeler": [
+    "0716-08-25 Yezîd b. Mühelleb Taberistan ispehbedi ile haraç karşılığı sulh yaptı",
+    "0822-05-27 Me'mûn Mâzyâr'ı Taberistan, Rûyân ve Demâvend valiliğine tayin etti; '",
+    "0839-01-01 Mâzyâr b. Kārin Mu'tasım'a karşı isyan edip Taberistan halkından zorla"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Moğolistan",
+   "madde_sayisi": 14,
+   "yil_araligi": [
+    48,
+    1251
+   ],
+   "ornek_maddeler": [
+    "0734-01-01 Bilge Kağan’ın ölümüyle Türk kuvvetinin sonu hızlandı",
+    "0744-01-01 Uygur Kağanlığı kuruldu",
+    "0048-01-01 Hun (Xiongnu) devleti Kuzey ve Güney olarak ikiye bölündü"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Horasan",
+   "madde_sayisi": 12,
+   "yil_araligi": [
+    226,
+    1205
+   ],
+   "ornek_maddeler": [
+    "0226-01-01 Sâsânî I. Ardeşir Kuşan topraklarına saldırdı; batı eyaletleri Sâsânîl",
+    "0747-06-15 Ebû Müslim Horasan'da siyah bayrağı açtı: Abbâsî ihtilâli başladı",
+    "0748-01-15 Nasr b. Seyyâr Merv'i terk etti; Horasan Abbâsî ihtilâlcilerinin eline"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Yemen",
+   "madde_sayisi": 12,
+   "yil_araligi": [
+    525,
+    1247
+   ],
+   "ornek_maddeler": [
+    "0525-01-01 Habeş Kralı Kaleb Himyer'i yendi; Himyerî Devleti sona erdi",
+    "0525-01-01 Aksum Kralı Kaleb'in ordusu Yemen'e çıktı; Zûnüvâs Zâtülaber'de yenild",
+    "0525-01-01 Himyer Krallığı sona erdi; Yemen Aksum'a bağlandı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Cürcân",
+   "madde_sayisi": 11,
+   "yil_araligi": [
+    871,
+    1157
+   ],
+   "ornek_maddeler": [
+    "0871-01-01 Hasan b. Zeyd Cürcân'ı aldı ve Tâhirî Horasan valisinin ordusunu yendi",
+    "0928-02-25 Merdâvîc b. Ziyâr bağımsızlığını ilân edip Cürcân merkezli Ziyârî hâne",
+    "0967-12-07 Ziyârî Veşmgîr bir av sırasında öldü; oğulları Kâbûs ve Bihistûn arası"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Tohâristân",
+   "madde_sayisi": 10,
+   "yil_araligi": [
+    457,
+    1059
+   ],
+   "ornek_maddeler": [
+    "0457-01-01 Eftalit hanı Kün-han, Fîrûz'u Sâsânî tahtına çıkarır",
+    "0457-01-01 Eftalitler Kidarit hâkimiyetine karşı ayaklandı; Kün-han Fîrûz'u Sâsân",
+    "0467-01-01 Kidaritler başkentleri Balkh'tan sürüldü; Tohâristan Eftalitler'e geçt"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Irak",
+   "madde_sayisi": 10,
+   "yil_araligi": [
+    636,
+    1225
+   ],
+   "ornek_maddeler": [
+    "0715-01-01 Muhammed b. Kāsım Irak'a zincirle gönderilir ve öldürülür (96/715); Ka",
+    "0636-01-01 Kâdisiye Savaşı: Müslümanlar Sâsânî ordusunu yendi, Rüstem öldü",
+    "0637-01-02 Celûlâ Savaşı: Sâsânî ordusu bir kez daha yenildi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Tibet",
+   "madde_sayisi": 9,
+   "yil_araligi": [
+    629,
+    889
+   ],
+   "ornek_maddeler": [
+    "0629-01-01 Songtsen Gampo Tibet kralı olarak taç giydi (629); yazı ve Lhasa merke",
+    "0650-01-01 Songtsen Gampo öldü",
+    "0747-01-01 Padmasambhava Kral Trisong Detsen tarafından Tibet'e davet edildi"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Japonya",
+   "madde_sayisi": 9,
+   "yil_araligi": [
+    669,
+    940
+   ],
+   "ornek_maddeler": [
+    "0669-01-01 Nakatomi Kamatari'ye Fujiwara soyadı verildi; Fujiwara klanı doğdu",
+    "0669-11-14 Fujiwara (Nakatomi) Kamatari öldü",
+    "0753-01-01 Çinli keşiş Ganjin altıncı denemede Nara'ya ulaştı; Ritsu mezhebini ku"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Wessex",
+   "madde_sayisi": 8,
+   "yil_araligi": [
+    645,
+    924
+   ],
+   "ornek_maddeler": [
+    "0645-01-01 Penda Cenwalh'i Wessex'ten sürdü (645–648)",
+    "0685-01-01 Caedwalla Wessex tahtını aldı",
+    "0688-01-01 Ine Wessex kralı oldu; ilk Batı Sakson kanunları"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kent",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    455,
+    757
+   ],
+   "ornek_maddeler": [
+    "0455-01-01 Geleneğe göre Hengist Kent'te hüküm sürmeye başladı",
+    "0560-01-01 Aethelberht Kent kralı oldu",
+    "0595-01-01 Aethelberht Humber'in güneyindeki krallıkların hâkimi oldu"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Sussex",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    477,
+    1066
+   ],
+   "ornek_maddeler": [
+    "0477-01-01 Aelle Selsey Bill yakınına çıkıp Britonları yendi; Güney Saksonların g",
+    "0685-01-01 Caedwalla Sussex'e acımasız bir akın yaptı",
+    "0710-01-01 Sussex kralı Nunna Wessex'e Cornwall Britonlarına karşı yardım etti"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Mercia",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    657,
+    924
+   ],
+   "ornek_maddeler": [
+    "0657-01-01 Mercialılar Oswiu üstünlüğünü attı; Wulfhere kral oldu",
+    "0716-01-01 Aethelbald Mercia kralı oldu; Humber-Manş arası krallıkların baskın hü",
+    "0757-01-01 Offa Aethelbald'in öldürülmesinin ardından Mercia'da iktidarı aldı"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Sicilya",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    535,
+    1194
+   ],
+   "ornek_maddeler": [
+    "0535-01-01 Justinianos Ostrogotlar'a savaş açtı; İtalya'nın geri alınması başladı",
+    "0826-01-01 Bizans donanma komutanı Euphemios Sicilya valisine isyan edip Ağlebîle",
+    "0909-03-18 Fâtımîler Ağlebîler'i ortadan kaldırdı; Sicilya Fâtımî yönetimine geçt"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Fergana",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    285,
+    715
+   ],
+   "ornek_maddeler": [
+    "0285-01-01 Jin sarayı Fergana hükümdarına kral unvanı vermek üzere elçi gönderdi",
+    "0705-01-02 Sâlih b. Müslim Kâşân ve Fergana'yı fethetti",
+    "0715-01-01 Kuteybe'nin son seferi: Kâşgar yönünde Çin sınırına ilerleyiş"
+   ],
+   "kronolojide_yer_kon": null
+  },
+  {
+   "ad": "Kafkasya",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    134,
+    708
+   ],
+   "ornek_maddeler": [
+    "0558-01-01 Avarlar Bizans'a elçi gönderip yerleşecek toprak ister",
+    "0134-01-01 Alanlar Part egemenliğindeki Albania, Medya ve Ermenistan'a saldırıp K",
+    "0561-01-01 Bizans-Sâsânî barışı (Lazika savaşı sonrası); Gassânî ve Lahmîler de b"
+   ],
+   "kronolojide_yer_kon": null
+  }
+ ]
+}

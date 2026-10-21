@@ -1,0 +1,46 @@
+{
+ "mukerrer": [
+  {
+   "ad": "Şanlıurfa",
+   "atlas": "Urfa",
+   "km": 1.4,
+   "neden": "ad"
+  },
+  {
+   "ad": "Ekbatana",
+   "atlas": "Hemedan",
+   "km": 0.74,
+   "neden": "3km"
+  },
+  {
+   "ad": "Negroponte",
+   "atlas": "Eğriboz",
+   "km": 0.8,
+   "neden": "ad"
+  },
+  {
+   "ad": "Sarakusta",
+   "atlas": "Zaragoza",
+   "km": 1.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Belensiye",
+   "atlas": "Valensiya",
+   "km": 0.01,
+   "neden": "3km"
+  },
+  {
+   "ad": "Mürsiye",
+   "atlas": "Murcia",
+   "km": 0.4,
+   "neden": "ad"
+  }
+ ],
+ "yazilmadi": {
+  "bolge": 12,
+  "tek_tanik": 17,
+  "bulunamadi": 2
+ },
+ "yazilan": 3
+}
