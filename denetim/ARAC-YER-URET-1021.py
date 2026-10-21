@@ -47,7 +47,13 @@ for y in Y:
     for ad in [y["ad"], re.sub(r"\s*\(.*?\)", "", y["ad"])] + re.findall(r"\(([^)]*)\)", y["ad"]):
         mevcut_tum.setdefault(N(ad), []).append((y["lat"], y["lon"], y["ad"]))
 
-aday, rapor = [], {"mukerrer": [], "yazilmadi": collections.Counter(), "yazilan": 0}
+ALIAS_TEYIT = {}      # ad -> kaynak metni (yalnız gerçekten TDV ile teyit edilenler)
+for f in glob.glob(os.path.join(KL, "parti_8*_sonuc.json")):
+    for r in json.load(open(f, encoding="utf-8")).get("sonuclar", []):
+        m = (r.get("kaynak") or "") + " " + (r.get("not") or "")
+        if r.get("alias_teyit") is True and "TDV" in (r.get("kaynak") or "") and not re.search("kaynaksız|bilgi tabanı|genel bilgi|okunmadı|özet", m, re.I) and r.get("gövde_okundu", True):
+            ALIAS_TEYIT[r["ad"]] = r["kaynak"]
+aday, rapor = [], {"alias_teyitsiz_yazilmadi": [],"mukerrer": [], "yazilmadi": collections.Counter(), "yazilan": 0}
 gorulen = set()
 for f in sorted(glob.glob(os.path.join(KL, "parti_*_sonuc.json")), key=lambda p: (os.path.basename(p) == "parti_51_sonuc.json", os.path.basename(p) != "parti_50_sonuc.json", p)):   # Natural Earth (51) son çare: sona
     for r in json.load(open(f, encoding="utf-8")).get("sonuclar", []):
@@ -55,6 +61,12 @@ for f in sorted(glob.glob(os.path.join(KL, "parti_*_sonuc.json")), key=lambda p:
         if (r.get("durum") != "cift_tanik" and not bolge_mi) or r.get("lat") is None:
             rapor["yazilmadi"][r.get("durum", "?")] += 1
             continue
+        if r.get("alias"):
+            if r["ad"] in ALIAS_TEYIT:
+                r["not"] = (r.get("not") or "").replace("alias_teyit:false — TDV başlığı teyidi bekliyor", "alias_teyit:true — " + ALIAS_TEYIT[r["ad"]])
+            else:
+                rapor["alias_teyitsiz_yazilmadi"].append(r["ad"])
+                continue
         pt = (float(r["lat"]), float(r["lon"]))
         adlar_aday = [r["ad"]] + [r.get("esanlam_modern") or ""] + list(r.get("eski_adlar") or [])
         ceki = None

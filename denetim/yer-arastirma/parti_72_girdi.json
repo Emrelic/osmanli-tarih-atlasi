@@ -542,6 +542,24 @@
     "kaynak": "Pleiades 922617"
    },
    "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
+  },
+  {
+   "ad": "Dînever",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1132,
+    1132
+   ],
+   "ornek_maddeler": [
+    "1132-01-01 Dînever Savaşı'na Bâvendî kuvvetleri de katıldı",
+    "1132-05-25 Dînever Savaşı: Sencer yeğenlerini yendi, Tuğrul'u tahta çıkardı"
+   ],
+   "tek_tanik_koord": {
+    "lat": 34.617525,
+    "lon": 47.462217,
+    "kaynak": "Pleiades 903012"
+   },
+   "ilk_tanik_not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
   }
  ]
 }
