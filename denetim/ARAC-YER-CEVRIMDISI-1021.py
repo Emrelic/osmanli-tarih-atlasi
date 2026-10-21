@@ -58,7 +58,8 @@ with open(os.path.join(GAZ, "gaz-pleiades", "pleiades-names-latest.csv"), encodi
 # ---- GeoNames ----
 gidx = collections.defaultdict(list)
 gsay = 0
-with open(os.path.join(GAZ, "gaz-geonames", "cities15000.txt"), encoding="utf-8") as f:
+GEO = sys.argv[3] if len(sys.argv) > 3 else os.path.join(GAZ, "gaz-geonames", "cities15000.txt")
+with open(GEO, encoding="utf-8") as f:
     for ln in f:
         a = ln.rstrip("\n").split("\t")
         if len(a) < 15:
@@ -70,6 +71,7 @@ with open(os.path.join(GAZ, "gaz-geonames", "cities15000.txt"), encoding="utf-8"
             if len(n) >= 3 and g not in gidx[n]:
                 gidx[n].append(g)
 
+ALIAS = json.load(open(os.path.join(KOK, "denetim", "yer-arastirma", "ALIAS-ORTACAG.json"), encoding="utf-8"))["alias"]
 BOLGE_TIP = re.compile(r"region|province|people|island|archipelago|territory|district")
 DOGAL_TIP = re.compile(r"river|mountain|lake|sea|bay|strait|pass|cape|channel|plain|valley|cave|road|bridge")
 
@@ -81,6 +83,7 @@ def adaylar_adlar(ad):
         s.update(x.strip() for x in re.split(r"[;,/]", i))
     s.add(re.sub(r"\s+(Kalesi|Kale|Şehri|Kenti|şehri|kenti|Höyük|Höyüğü|Harabeleri)$", "", ad))
     s.add(re.sub(r"^(Tell|Tel|Tappe|Tepe)\s+", "", ad))
+    s.update(ALIAS.get(ad, []))
     return [x for x in s if x]
 
 
@@ -110,7 +113,8 @@ def esle(r):
     if pl and not yerlesim and not bolgemi and not dogalmi:
         sonuc.update(durum="belirsiz", not_="Pleiades adayları yerleşim değil (%s)" % "; ".join(p["title"] + ":" + (p["tip"] or "") for p in pl[:3]))
         return sonuc
-    gl_yayili = len(gl) > 1 and any(km((a["lat"], a["lon"]), (b["lat"], b["lon"])) > 50 for a in gl for b in gl)
+    gbuyuk = [g for g in gl if g["nufus"] >= 20000]
+    gl_yayili = len(gbuyuk) > 1 and any(km((a["lat"], a["lon"]), (b["lat"], b["lon"])) > 50 for a in gbuyuk for b in gbuyuk)
     if pl and len(bolgemi) == len(pl):
         p = bolgemi[0]
         sonuc.update(durum="bolge_nokta", lat=p["lat"], lon=p["lon"], tanik=[{"kaynak": "Pleiades", "url_veya_atif": "pleiades.stoa.org/places/" + p["id"], "lat": p["lat"], "lon": p["lon"]}],
@@ -156,7 +160,7 @@ def esle(r):
         if gy:
             g = gy[0]
             tanik.append({"kaynak": "GeoNames", "url_veya_atif": "geonames.org/" + g["id"] + " (" + g["ad"] + ", " + g["ulke"] + ")", "lat": g["lat"], "lon": g["lon"]})
-            sonuc.update(durum="cift_tanik")
+            sonuc.update(durum="cift_tanik", esanlam_modern=g["ad"], ulke_modern=g["ulke"])
         else:
             sonuc.update(durum="tek_tanik", tek_tanik_koord={"lat": p["lat"], "lon": p["lon"], "kaynak": "Pleiades " + p["id"]})
         sonuc.update(lat=p["lat"], lon=p["lon"], tanik=tanik, konum_kesinligi="kesin" if p["prec"] == "precise" else "yaklasik",
@@ -172,6 +176,10 @@ for sinif in ("yok", "bolge"):
     for r in env[sinif]:
         s = esle(r)
         s["sinif"] = sinif
+        if r["ad"] in ALIAS and ALIAS[r["ad"]]:
+            s["alias"] = ALIAS[r["ad"]]
+            s["not_"] = (s.get("not_") or s.get("not") or "") + " [ALIAS eşlemesi: %s; alias_teyit:false — TDV başlığı teyidi bekliyor]" % ", ".join(ALIAS[r["ad"]])
+            s.pop("not", None)
         sonuclar.append(s)
 for s in sonuclar:
     if "not_" in s:

@@ -4,15 +4,19 @@
 // Mükerrer tarama: normalleştirilmiş ad (30 km) + 3 km. BAĞLAMA YAPILMADI (girdi_listesi/index.html'e dokunulmadı).
 window.YERLESIMLER_ONCE1281_YT_HINT = [
 
-{ ad:"Kançipuram", tur:"sehir", lat:12.836393, lon:79.7053304, g:0, k:0, s:[], d:[],
-  not:"YER-TANIMA: kronolojide Kançipuram adıyla geçer; eski adlar: -; modern: - (-). Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. ",
+{ ad:"Kançipuram (Kanchipuram)", tur:"sehir", lat:12.836393, lon:79.7053304, g:0, k:0, s:[], d:[],
+  not:"YER-TANIMA: kronolojide Kançipuram adıyla geçer; eski adlar: -; modern: Kanchipuram (IN). Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. ",
   kaynak:"ÇİFT TANIK: Pleiades pleiades.stoa.org/places/839190400 (Kanchipuram, settlement, settlement-modern, precise) (12.836393, 79.7053304) · GeoNames geonames.org/1268159 (Kanchipuram, IN) (12.83515, 79.70006) · denetim/yer-arastirma/parti_50_sonuc.json" },
+{ ad:"Seylan", tur:"bolge", lat:7.98139972411, lon:80.574678177, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Seylan adıyla geçer; eski adlar: -; modern: - (-). Pleiades bölge/temsilci noktası (Sri Lanka, tip: island); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta [ALIAS eşlemesi: Sri Lanka; alias_teyit:false — TDV başlığı teyidi bekliyor]",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Pleiades pleiades.stoa.org/places/50298 (7.98139972411, 80.574678177) · denetim/yer-arastirma/parti_50_sonuc.json" },
+{ ad:"Hindistan", tur:"bolge", lat:20.6, lon:79.5, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Hindistan adıyla geçer; eski adlar: -; modern: - (Hindistan). ",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Pleiades https://pleiades.stoa.org/places/50004 (None, None) · TDV İslâm Ansiklopedisi https://islamansiklopedisi.org.tr/hindistan (None, None) · denetim/yer-arastirma/parti_63_sonuc.json" },
 { ad:"Tibet", tur:"bolge", lat:33.375, lon:90.304, g:0, k:0, s:[], d:[],
   konum_kesinlik:"bolge",
   not:"YER-TANIMA: kronolojide Tibet adıyla geçer; eski adlar: -; modern: - (PLATEAU OF TIBET). BÖLGE TEMSİLCİSİ: yer bilinmiyor, Tibet bölgesi kaynakta. Nokta = Natural Earth 'PLATEAU OF TIBET' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir).",
   kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson) PLATEAU OF TIBET (33.375, 90.304) · denetim/yer-arastirma/parti_51_sonuc.json" },
-{ ad:"Hindistan", tur:"bolge", lat:22.854, lon:77.796, g:0, k:0, s:[], d:[],
-  konum_kesinlik:"bolge",
-  not:"YER-TANIMA: kronolojide Hindistan adıyla geçer; eski adlar: -; modern: - (INDIA). BÖLGE TEMSİLCİSİ: yer bilinmiyor, Hindistan bölgesi kaynakta. Nokta = Natural Earth 'INDIA' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir).",
-  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson) INDIA (22.854, 77.796) · denetim/yer-arastirma/parti_51_sonuc.json" },
 ];

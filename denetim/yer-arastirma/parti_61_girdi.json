@@ -1,0 +1,911 @@
+{
+ "sinif": "bolge_pleiades",
+ "adlar": [
+  {
+   "ad": "Mısır",
+   "madde_sayisi": 25,
+   "yil_araligi": [
+    -3125,
+    969
+   ],
+   "ornek_maddeler": [
+    "0116-01-01 Diaspora İsyanı: Kirenaika'dan Suriye ve Mısır'a yayılan Yahudi ayakla",
+    "0175-01-01 Avidius Cassius Marcus Aurelius'a karşı doğuda isyan etti; Temmuzda su",
+    "0270-01-01 Zeyneb 70.000 kişilik orduyla Mısır'a girip Roma kuvvetlerini yendi"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "981503",
+     "title": "Ancient Egypt (region)",
+     "tip": "region",
+     "lat": 16.1010829332,
+     "lon": 31.4591482445,
+     "bbox": "29.331389, -2.282222, 33.9877188, 30.1711573",
+     "donem": [
+      "-1000",
+      "640"
+     ],
+     "kesinlik": "related"
+    },
+    {
+     "pleiades": "766",
+     "title": "Aegyptus (Roman imperial province)",
+     "tip": "province-2",
+     "lat": 31.201435,
+     "lon": 29.909773,
+     "bbox": "29.909773, 31.201435, 29.909773, 31.201435",
+     "donem": [
+      "-30",
+      "2100"
+     ],
+     "kesinlik": "related"
+    }
+   ]
+  },
+  {
+   "ad": "Azerbaycan",
+   "madde_sayisi": 22,
+   "yil_araligi": [
+    226,
+    1224
+   ],
+   "ornek_maddeler": [
+    "0799-01-01 Hazarlar İslâm topraklarına yeni bir akın düzenler",
+    "0226-01-01 Atropatene (Azerbaycan) Ardeşîr'e az dirençle boyun eğdi",
+    "0717-01-01 Hazarlar İstanbul kuşatması sırasında Bizans’ın isteğiyle Kafkaslar’ı "
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "874597",
+     "title": "Media Atropatene",
+     "tip": "region, label",
+     "lat": 38.0994972073,
+     "lon": 46.2170003377,
+     "bbox": "44.7884865512, 37.4233428575, 47.5618635025, 38.5828530118",
+     "donem": [
+      "-330",
+      "640"
+     ],
+     "kesinlik": "precise"
+    }
+   ]
+  },
+  {
+   "ad": "Ermenistan",
+   "madde_sayisi": 19,
+   "yil_araligi": [
+    35,
+    998
+   ],
+   "ornek_maddeler": [
+    "0035-01-01 Ermenistan vârisliği krizi: Roma adayı Tiridates Ktesifon'da Part kral",
+    "0053-01-01 I. Vologases kardeşi Tiridates'i Ermenistan kralı yaptı",
+    "0114-01-01 Traianus Ermenistan'a girdi; Osroes'un atadığı Parthamasiris öldürüldü"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "981507",
+     "title": "Armenia (Roman province)",
+     "tip": "province-2",
+     "lat": 37.5,
+     "lon": 42.5,
+     "bbox": "40.0, 35.0, 45.0, 40.0",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "rough"
+    },
+    {
+     "pleiades": "884120",
+     "title": "Armenia",
+     "tip": "region",
+     "lat": 39.5,
+     "lon": 46.5,
+     "bbox": "46.0, 39.0, 47.0, 40.0",
+     "donem": [
+      "-550",
+      "640"
+     ],
+     "kesinlik": "rough"
+    },
+    {
+     "pleiades": "874350",
+     "title": "Armenia (region)",
+     "tip": "region, label",
+     "lat": 38.7401436819,
+     "lon": 42.1670167182,
+     "bbox": "39.267738, 37.9756532, 44.5812475, 39.8871706",
+     "donem": [
+      "-550",
+      "640"
+     ],
+     "kesinlik": "related"
+    }
+   ]
+  },
+  {
+   "ad": "Suriye",
+   "madde_sayisi": 16,
+   "yil_araligi": [
+    1,
+    1075
+   ],
+   "ornek_maddeler": [
+    "0001-01-01 Roma-Part antlaşması: Part Ermenistan üzerindeki iddiadan vazgeçti, Ro",
+    "0164-01-01 Roma Partları Suriye'den çıkardı; Avidius Cassius Mezopotamya'ya yürüd",
+    "0175-01-01 Avidius Cassius Marcus Aurelius'a karşı doğuda isyan etti; Temmuzda su"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "29492",
+     "title": "Assyria (kingdom)",
+     "tip": "region",
+     "lat": 36.2059929072,
+     "lon": 43.2705015728,
+     "bbox": "43.1413339, 35.4480751, 43.4096993, 36.510535",
+     "donem": [
+      "-2000",
+      "640"
+     ],
+     "kesinlik": "related"
+    },
+    {
+     "pleiades": "981550",
+     "title": "Syria (Roman imperial province)",
+     "tip": "province-2",
+     "lat": 37.5,
+     "lon": 37.5,
+     "bbox": "35.0, 35.0, 40.0, 40.0",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "rough"
+    },
+    {
+     "pleiades": "569131178",
+     "title": "(As)Syria (region) ",
+     "tip": "region",
+     "lat": 36.1051141008,
+     "lon": 43.2451891492,
+     "bbox": "43.2451891492, 36.1051141008, 43.2451891492, 36.1051141008",
+     "donem": [
+      "-750",
+      "2100"
+     ],
+     "kesinlik": "precise"
+    }
+   ]
+  },
+  {
+   "ad": "Kirman",
+   "madde_sayisi": 16,
+   "yil_araligi": [
+    967,
+    1252
+   ],
+   "ornek_maddeler": [
+    "0967-01-01 Adudüddevle Umân'a hâkim oldu; sonra Kirman'ı ve Mekrân'ı da aldı",
+    "1048-01-01 Kavurd Kirman'daki Büveyhî hâkimiyetine son verdi",
+    "1067-01-01 Alparslan Kirman'a yürüdü; Kavurd Bey itaat etti"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "29517",
+     "title": "Carmania",
+     "tip": "region",
+     "lat": 27.4992930482,
+     "lon": 57.0291406073,
+     "bbox": "56.8823146, 27.0092415, 57.15222, 27.96833",
+     "donem": [
+      "-550",
+      "640"
+     ],
+     "kesinlik": "related"
+    }
+   ]
+  },
+  {
+   "ad": "Taberistan",
+   "madde_sayisi": 15,
+   "yil_araligi": [
+    716,
+    1173
+   ],
+   "ornek_maddeler": [
+    "0716-08-25 Yezîd b. Mühelleb Taberistan ispehbedi ile haraç karşılığı sulh yaptı",
+    "0822-05-27 Me'mûn Mâzyâr'ı Taberistan, Rûyân ve Demâvend valiliğine tayin etti; '",
+    "0839-01-01 Mâzyâr b. Kārin Mu'tasım'a karşı isyan edip Taberistan halkından zorla"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "942333",
+     "title": "Varkana/Hyrcania/Gurgan",
+     "tip": "region",
+     "lat": 37.1,
+     "lon": 56.3,
+     "bbox": "56.0, 37.1, 56.6, 37.1",
+     "donem": [
+      "-330",
+      "1599"
+     ],
+     "kesinlik": "related"
+    }
+   ]
+  },
+  {
+   "ad": "Yemen",
+   "madde_sayisi": 12,
+   "yil_araligi": [
+    525,
+    1247
+   ],
+   "ornek_maddeler": [
+    "0525-01-01 Habeş Kralı Kaleb Himyer'i yendi; Himyerî Devleti sona erdi",
+    "0525-01-01 Aksum Kralı Kaleb'in ordusu Yemen'e çıktı; Zûnüvâs Zâtülaber'de yenild",
+    "0525-01-01 Himyer Krallığı sona erdi; Yemen Aksum'a bağlandı"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "746710",
+     "title": "Arabia Eudaemon",
+     "tip": "peninsula, region, label",
+     "lat": 28.9596989664,
+     "lon": 35.349796568,
+     "bbox": "35.1344705603, 28.5097967893, 35.5227985964, 29.3906732536",
+     "donem": [
+      "-330",
+      "1599"
+     ],
+     "kesinlik": "precise"
+    }
+   ]
+  },
+  {
+   "ad": "Horasan",
+   "madde_sayisi": 12,
+   "yil_araligi": [
+    226,
+    1205
+   ],
+   "ornek_maddeler": [
+    "0226-01-01 Sâsânî I. Ardeşir Kuşan topraklarına saldırdı; batı eyaletleri Sâsânîl",
+    "0747-06-15 Ebû Müslim Horasan'da siyah bayrağı açtı: Abbâsî ihtilâli başladı",
+    "0748-01-15 Nasr b. Seyyâr Merv'i terk etti; Horasan Abbâsî ihtilâlcilerinin eline"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "952097",
+     "title": "Parthyene/Parthia",
+     "tip": "region",
+     "lat": 38.5,
+     "lon": 57.5,
+     "bbox": "57.0, 38.0, 58.0, 39.0",
+     "donem": [
+      "-900",
+      "300"
+     ],
+     "kesinlik": "rough"
+    },
+    {
+     "pleiades": "59692",
+     "title": "Arachosia",
+     "tip": "region, label",
+     "lat": 30.8882580772,
+     "lon": 67.2698968361,
+     "bbox": "64.9896053467, 30.7108987468, 69.5522218254, 31.0380746351",
+     "donem": [
+      "-330",
+      "640"
+     ],
+     "kesinlik": "precise"
+    }
+   ]
+  },
+  {
+   "ad": "Cürcân",
+   "madde_sayisi": 11,
+   "yil_araligi": [
+    871,
+    1157
+   ],
+   "ornek_maddeler": [
+    "0871-01-01 Hasan b. Zeyd Cürcân'ı aldı ve Tâhirî Horasan valisinin ordusunu yendi",
+    "0928-02-25 Merdâvîc b. Ziyâr bağımsızlığını ilân edip Cürcân merkezli Ziyârî hâne",
+    "0967-12-07 Ziyârî Veşmgîr bir av sırasında öldü; oğulları Kâbûs ve Bihistûn arası"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "942333",
+     "title": "Varkana/Hyrcania/Gurgan",
+     "tip": "region",
+     "lat": 37.1,
+     "lon": 56.3,
+     "bbox": "56.0, 37.1, 56.6, 37.1",
+     "donem": [
+      "-330",
+      "1599"
+     ],
+     "kesinlik": "related"
+    }
+   ]
+  },
+  {
+   "ad": "Tohâristân",
+   "madde_sayisi": 10,
+   "yil_araligi": [
+    457,
+    1059
+   ],
+   "ornek_maddeler": [
+    "0457-01-01 Eftalit hanı Kün-han, Fîrûz'u Sâsânî tahtına çıkarır",
+    "0457-01-01 Eftalitler Kidarit hâkimiyetine karşı ayaklandı; Kün-han Fîrûz'u Sâsân",
+    "0467-01-01 Kidaritler başkentleri Balkh'tan sürüldü; Tohâristan Eftalitler'e geçt"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "971705",
+     "title": "Bactria (region)",
+     "tip": "region",
+     "lat": 37.4104997452,
+     "lon": 67.1536516955,
+     "bbox": "61.8760451, 34.9528864, 67.1565297, 37.5616804",
+     "donem": [
+      "-550",
+      "640"
+     ],
+     "kesinlik": "related"
+    }
+   ]
+  },
+  {
+   "ad": "Irak",
+   "madde_sayisi": 10,
+   "yil_araligi": [
+    636,
+    1225
+   ],
+   "ornek_maddeler": [
+    "0715-01-01 Muhammed b. Kāsım Irak'a zincirle gönderilir ve öldürülür (96/715); Ka",
+    "0636-01-01 Kâdisiye Savaşı: Müslümanlar Sâsânî ordusunu yendi, Rüstem öldü",
+    "0637-01-02 Celûlâ Savaşı: Sâsânî ordusu bir kez daha yenildi"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "912816",
+     "title": "Babylonia",
+     "tip": "region, label",
+     "lat": 31.6283443083,
+     "lon": 45.4954067714,
+     "bbox": "44.8401784133, 31.2186015185, 46.2031336775, 32.1189895631",
+     "donem": [
+      "-1600",
+      "640"
+     ],
+     "kesinlik": "precise"
+    }
+   ]
+  },
+  {
+   "ad": "Tibet",
+   "madde_sayisi": 9,
+   "yil_araligi": [
+    629,
+    889
+   ],
+   "ornek_maddeler": [
+    "0629-01-01 Songtsen Gampo Tibet kralı olarak taç giydi (629); yazı ve Lhasa merke",
+    "0650-01-01 Songtsen Gampo öldü",
+    "0747-01-01 Padmasambhava Kral Trisong Detsen tarafından Tibet'e davet edildi"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Japonya",
+   "madde_sayisi": 9,
+   "yil_araligi": [
+    669,
+    940
+   ],
+   "ornek_maddeler": [
+    "0669-01-01 Nakatomi Kamatari'ye Fujiwara soyadı verildi; Fujiwara klanı doğdu",
+    "0669-11-14 Fujiwara (Nakatomi) Kamatari öldü",
+    "0753-01-01 Çinli keşiş Ganjin altıncı denemede Nara'ya ulaştı; Ritsu mezhebini ku"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Wessex",
+   "madde_sayisi": 8,
+   "yil_araligi": [
+    645,
+    924
+   ],
+   "ornek_maddeler": [
+    "0645-01-01 Penda Cenwalh'i Wessex'ten sürdü (645–648)",
+    "0685-01-01 Caedwalla Wessex tahtını aldı",
+    "0688-01-01 Ine Wessex kralı oldu; ilk Batı Sakson kanunları"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Mercia",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    657,
+    924
+   ],
+   "ornek_maddeler": [
+    "0657-01-01 Mercialılar Oswiu üstünlüğünü attı; Wulfhere kral oldu",
+    "0716-01-01 Aethelbald Mercia kralı oldu; Humber-Manş arası krallıkların baskın hü",
+    "0757-01-01 Offa Aethelbald'in öldürülmesinin ardından Mercia'da iktidarı aldı"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Bosna",
+   "madde_sayisi": 7,
+   "yil_araligi": [
+    1081,
+    1253
+   ],
+   "ornek_maddeler": [
+    "1081-01-01 Bosna Duklja kralı Bodin'in yönetimine girdi",
+    "1154-01-01 Macar vasalı Ban Borić Bosna'ya atandı, Bizans'a karşı savaştı",
+    "1166-01-01 Bosna kısa süreli Bizans hâkimiyetine girdi"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Fergana",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    285,
+    715
+   ],
+   "ornek_maddeler": [
+    "0285-01-01 Jin sarayı Fergana hükümdarına kral unvanı vermek üzere elçi gönderdi",
+    "0705-01-02 Sâlih b. Müslim Kâşân ve Fergana'yı fethetti",
+    "0715-01-01 Kuteybe'nin son seferi: Kâşgar yönünde Çin sınırına ilerleyiş"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Pannonia",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    454,
+    907
+   ],
+   "ornek_maddeler": [
+    "0568-01-01 Longobardlar İtalya'ya çekilir; Macaristan toprakları Avarlara kalır",
+    "0454-01-01 Nedao Irmağı'nda Gepidler ve müttefikleri Hunlar'ı kesin olarak yendi",
+    "0536-01-01 Gepid-Lombard savaşları başladı (536 - yaklaşık 567)"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "1001905",
+     "title": "Pannonia",
+     "tip": "province-2",
+     "lat": 47.5,
+     "lon": 17.5,
+     "bbox": "15.0, 45.0, 20.0, 50.0",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "rough"
+    },
+    {
+     "pleiades": "197425",
+     "title": "Pannonia",
+     "tip": "region, label",
+     "lat": 45.7490406431,
+     "lon": 16.6030583846,
+     "bbox": "15.2451108235, 45.4200858069, 17.9874396327, 46.1696160238",
+     "donem": [
+      "-550",
+      "640"
+     ],
+     "kesinlik": "precise"
+    }
+   ]
+  },
+  {
+   "ad": "Moravya",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    846,
+    1029
+   ],
+   "ornek_maddeler": [
+    "0846-01-01 Rostislav Moravya prensi oldu",
+    "0863-01-01 Kiril ve Metodyos Bizans'tan Moravya'ya geldi",
+    "0870-01-01 Svatopluk Moravya'da iktidara geldi"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Mezopotamya",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    116,
+    532
+   ],
+   "ornek_maddeler": [
+    "0116-01-01 Diaspora İsyanı: Kirenaika'dan Suriye ve Mısır'a yayılan Yahudi ayakla",
+    "0164-01-01 Roma Partları Suriye'den çıkardı; Avidius Cassius Mezopotamya'ya yürüd",
+    "0199-01-01 Severus Osrhoene ve Mezopotamya eyaletlerini kurarak Part sınırını güv"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "981534",
+     "title": "Mesopotamia",
+     "tip": "province",
+     "lat": 37.5,
+     "lon": 37.5,
+     "bbox": "35.0, 35.0, 40.0, 40.0",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "rough"
+    },
+    {
+     "pleiades": "991405",
+     "title": "Mesopotamia",
+     "tip": "province",
+     "lat": 37.5,
+     "lon": 37.5,
+     "bbox": "35.0, 35.0, 40.0, 40.0",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "rough"
+    },
+    {
+     "pleiades": "874602",
+     "title": "Mesopotamia (region)",
+     "tip": "region, label",
+     "lat": 37.6989364006,
+     "lon": 40.6516947125,
+     "bbox": "39.4893436101, 37.5443372558, 41.8450100059, 37.9922707902",
+     "donem": [
+      "-750",
+      "640"
+     ],
+     "kesinlik": "precise"
+    },
+    {
+     "pleiades": "1001936",
+     "title": "Mesopotamia",
+     "tip": "province",
+     "lat": 37.5,
+     "lon": 37.5,
+     "bbox": "35.0, 35.0, 40.0, 40.0",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "rough"
+    }
+   ]
+  },
+  {
+   "ad": "Sicilya",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    535,
+    1194
+   ],
+   "ornek_maddeler": [
+    "0535-01-01 Justinianos Ostrogotlar'a savaş açtı; İtalya'nın geri alınması başladı",
+    "0826-01-01 Bizans donanma komutanı Euphemios Sicilya valisine isyan edip Ağlebîle",
+    "0909-03-18 Fâtımîler Ağlebîler'i ortadan kaldırdı; Sicilya Fâtımî yönetimine geçt"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "991353",
+     "title": "Sicilia (late Roman province - deprecated)",
+     "tip": "province",
+     "lat": 37.99808,
+     "lon": 14.262968,
+     "bbox": "14.262968, 37.99808, 14.262968, 37.99808",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "related"
+    },
+    {
+     "pleiades": "981549",
+     "title": "Sicilia (Roman province)",
+     "tip": "province-2",
+     "lat": 37.502959,
+     "lon": 15.088142,
+     "bbox": "15.088142, 37.502959, 15.088142, 37.502959",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "related"
+    },
+    {
+     "pleiades": "462492",
+     "title": "Sicilia (island)",
+     "tip": "island",
+     "lat": 37.592530586,
+     "lon": 14.0465172229,
+     "bbox": "8.59403546877, 36.683441, 15.6530796, 38.2678505",
+     "donem": [
+      "-750",
+      "2100"
+     ],
+     "kesinlik": "related"
+    },
+    {
+     "pleiades": "462492",
+     "title": "Sicilia (island)",
+     "tip": "island",
+     "lat": 37.592530586,
+     "lon": 14.0465172229,
+     "bbox": "8.59403546877, 36.683441, 15.6530796, 38.2678505",
+     "donem": [
+      "-750",
+      "2100"
+     ],
+     "kesinlik": "related"
+    }
+   ]
+  },
+  {
+   "ad": "Kafkasya",
+   "madde_sayisi": 6,
+   "yil_araligi": [
+    134,
+    708
+   ],
+   "ornek_maddeler": [
+    "0558-01-01 Avarlar Bizans'a elçi gönderip yerleşecek toprak ister",
+    "0134-01-01 Alanlar Part egemenliğindeki Albania, Medya ve Ermenistan'a saldırıp K",
+    "0561-01-01 Bizans-Sâsânî barışı (Lazika savaşı sonrası); Gassânî ve Lahmîler de b"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Filistin",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    -9299,
+    1105
+   ],
+   "ornek_maddeler": [
+    "0628-01-01 Herakleios Suriye'yi geri aldı; Sâsânîler Suriye, Filistin ve Mısır'ı ",
+    "0634-07-30 Ecnâdeyn Savaşı: Müslümanlar Theodoros'un Bizans ordusunu yendi",
+    "0878-01-01 Ahmed b. Tolun Suriye'ye yürüdü: Fırat'ın batısındaki vilâyetler Tolun"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "991396",
+     "title": "Palaestina (province)",
+     "tip": "province-2",
+     "lat": 32.5,
+     "lon": 32.5,
+     "bbox": "30.0, 30.0, 35.0, 35.0",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "rough"
+    },
+    {
+     "pleiades": "687995",
+     "title": "Palaestina (region)",
+     "tip": "region",
+     "lat": 31.25,
+     "lon": 34.75,
+     "bbox": "34.5, 31.0, 35.0, 31.5",
+     "donem": [
+      "-330",
+      "640"
+     ],
+     "kesinlik": "rough"
+    }
+   ]
+  },
+  {
+   "ad": "Bulgaristan",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    -4555,
+    1277
+   ],
+   "ornek_maddeler": [
+    "0811-07-26 Krum Bizans ordusunu ezdi, İmparator I. Nikephoros öldü",
+    "1241-01-01 Bulgaristan Tatar saldırısına uğradı",
+    "1277-01-01 İvaylo Ayaklanması başladı"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Bretanya",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    857,
+    1213
+   ],
+   "ornek_maddeler": [
+    "0857-01-01 Salomon Bretanya'da iktidara geldi (857-874)",
+    "0874-06-25 Salomon'un trajik ölümü; Bretanya'da karışıklık ve Norman istilası",
+    "1166-01-01 Bretanya dükü IV. Conan düklüğü II. Henry'ye (oğlu Geoffroi adına) bır"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "69467",
+     "title": "Ar(e)morica",
+     "tip": "region, label",
+     "lat": 48.3144537407,
+     "lon": -2.01903544349,
+     "bbox": "-3.37249221293, 48.2927134669, -0.665855318801, 48.3194824032",
+     "donem": [
+      "-330",
+      "640"
+     ],
+     "kesinlik": "precise"
+    }
+   ]
+  },
+  {
+   "ad": "İfrîkıye",
+   "madde_sayisi": 5,
+   "yil_araligi": [
+    910,
+    1123
+   ],
+   "ornek_maddeler": [
+    "0978-01-01 Trablus ve Sicilya dışındaki İfrîkıye ve Mağrib valilikleri Bulukkîn'e",
+    "0910-01-15 Ubeydullah el-Mehdî Rakkāde'de halife ilân edildi: Fâtımî hilâfeti kur",
+    "0953-03-19 Muiz-Lidînillâh Fâtımî halifesi oldu"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "991341",
+     "title": "Africa Proconsularis (late Roman province)",
+     "tip": "province-2",
+     "lat": 36.450148,
+     "lon": 9.106753,
+     "bbox": "9.106753, 36.450148, 9.106753, 36.450148",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "related"
+    },
+    {
+     "pleiades": "981504",
+     "title": "Africa Proconsularis (Roman province)",
+     "tip": "province-2",
+     "lat": 32.5,
+     "lon": 12.5,
+     "bbox": "10.0, 30.0, 15.0, 35.0",
+     "donem": [
+      "-30",
+      "300"
+     ],
+     "kesinlik": "rough"
+    },
+    {
+     "pleiades": "775",
+     "title": "Africa (region)",
+     "tip": "region",
+     "lat": 32.5,
+     "lon": 7.5,
+     "bbox": "5.0, 30.0, 10.0, 35.0",
+     "donem": [
+      "-30",
+      "300"
+     ],
+     "kesinlik": "rough"
+    }
+   ]
+  },
+  {
+   "ad": "Thüringen",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    1247,
+    1264
+   ],
+   "ornek_maddeler": [
+    "1247-02-16 Landgraf Heinrich Raspe çocuksuz öldü: Ludowinger hanedanı Thüringen'd",
+    "1249-01-01 Thüringen ileri gelenleri Heinrich der Erlauchte'yi Landgraf olarak on",
+    "1263-01-01 Heinrich der Erlauchte topraklarını oğulları arasında paylaştırdı"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Dalmaçya",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    480,
+    1074
+   ],
+   "ornek_maddeler": [
+    "0480-01-01 Odoacer Dalmaçya'yı işgal edip iki yılda fethetti",
+    "0914-01-01 Tomislav 914'te 'knez' olarak anılıyor (yazılı kaynaktaki tek kesin ve",
+    "1000-01-01 Venedik Dükü II. Pietro Orseolo'nun Dalmaçya seferi"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "981522",
+     "title": "Dalmatia (province)",
+     "tip": "province-2",
+     "lat": 43.539561,
+     "lon": 16.483426,
+     "bbox": "16.483426, 43.539561, 16.483426, 43.539561",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "related"
+    },
+    {
+     "pleiades": "991360",
+     "title": "Dalmatia",
+     "tip": "province",
+     "lat": 42.5,
+     "lon": 17.5,
+     "bbox": "15.0, 40.0, 20.0, 45.0",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "rough"
+    },
+    {
+     "pleiades": "197240",
+     "title": "Dalmatia (region)",
+     "tip": "region",
+     "lat": 43.539561,
+     "lon": 16.483426,
+     "bbox": "16.483426, 43.539561, 16.483426, 43.539561",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "related"
+    }
+   ]
+  },
+  {
+   "ad": "Çin",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    -6999,
+    758
+   ],
+   "ornek_maddeler": [
+    "0638-01-01 Khmer devletlerinden ve Dvaravati'den Çin'e elçilikler",
+    "0758-01-01 Uygur kağanı Moyen-çor isyan içindeki Tang'a yardım etti",
+    "-6999-01-01 Jiahu (Henan): yerleşim başlar"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Normandiya",
+   "madde_sayisi": 4,
+   "yil_araligi": [
+    942,
+    1144
+   ],
+   "ornek_maddeler": [
+    "0942-01-01 Richard I Normandiya dükü oldu (942-996); IV. Louis'in hırslarını boşa",
+    "0996-01-01 II. Richard Normandiya dükü oldu (996-1027); Kapet ittifakı sürdü",
+    "1106-09-28 Tinchebrai Muharebesi: İngiltere kralı I. Henry Normandiya'yı alır"
+   ],
+   "pleiades_adaylari": []
+  }
+ ]
+}

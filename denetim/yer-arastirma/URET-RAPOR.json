@@ -49,10 +49,22 @@
    "neden": "ad"
   },
   {
+   "ad": "Hatra",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
+   "ad": "Harran",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
    "ad": "Gırnata",
    "atlas": "Granada",
-   "km": 0.11,
-   "neden": "3km"
+   "km": 0.1,
+   "neden": "ad"
   },
   {
    "ad": "Kerman",
@@ -63,8 +75,20 @@
   {
    "ad": "Nisibis",
    "atlas": "Nusaybin",
-   "km": 1.06,
+   "km": 1.1,
+   "neden": "ad"
+  },
+  {
+   "ad": "Taberiye",
+   "atlas": "Tiberya (Tabariyye / Tiberias)",
+   "km": 1.16,
    "neden": "3km"
+  },
+  {
+   "ad": "Rhône-Saône",
+   "atlas": "Lyon",
+   "km": 1.3,
+   "neden": "ad"
   },
   {
    "ad": "Heraklion",
@@ -81,7 +105,31 @@
   {
    "ad": "Kālîkalâ",
    "atlas": "Erzurum",
-   "km": 0.92,
+   "km": 0.9,
+   "neden": "ad"
+  },
+  {
+   "ad": "Kosantîne",
+   "atlas": "Konstantin",
+   "km": 0.38,
+   "neden": "3km"
+  },
+  {
+   "ad": "Lâride",
+   "atlas": "Lleida",
+   "km": 0.5,
+   "neden": "ad"
+  },
+  {
+   "ad": "Halkis",
+   "atlas": "Eğriboz",
+   "km": 1.83,
+   "neden": "3km"
+  },
+  {
+   "ad": "Karystos",
+   "atlas": "Karistos (Kızılhisar)",
+   "km": 2.26,
    "neden": "3km"
   },
   {
@@ -91,21 +139,39 @@
    "neden": "3km"
   },
   {
+   "ad": "Menbic",
+   "atlas": "Münbiç",
+   "km": 0.2,
+   "neden": "3km"
+  },
+  {
    "ad": "Tyrus",
    "atlas": "Sûr (Tyre) — Lübnan",
-   "km": 0.22,
+   "km": 0.2,
+   "neden": "ad"
+  },
+  {
+   "ad": "Mādā",
+   "atlas": "Hemedan",
+   "km": 0.74,
+   "neden": "3km"
+  },
+  {
+   "ad": "Hamgmatāna = Ekbatana",
+   "atlas": "Hemedan",
+   "km": 0.74,
+   "neden": "3km"
+  },
+  {
+   "ad": "Shush",
+   "atlas": "Susa",
+   "km": 0.0,
    "neden": "3km"
   },
   {
    "ad": "Emesa",
    "atlas": "Humus",
    "km": 1.2,
-   "neden": "3km"
-  },
-  {
-   "ad": "Caesarea",
-   "atlas": "Kayseri",
-   "km": 0.98,
    "neden": "3km"
   },
   {
@@ -123,17 +189,60 @@
   {
    "ad": "Nikomedia",
    "atlas": "İzmit",
-   "km": 0.26,
-   "neden": "3km"
+   "km": 0.3,
+   "neden": "ad"
+  },
+  {
+   "ad": "Cürcân",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
+   "ad": "Mısır",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
+   "ad": "Azerbaycan",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
+   "ad": "Mezopotamya",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
+   "ad": "Sicilya",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
+   "ad": "İtalya",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
+  },
+  {
+   "ad": "Hindistan",
+   "atlas": "(parti içi)",
+   "km": 0,
+   "neden": "parti"
   }
  ],
  "yazilmadi": {
   "bolge": 43,
-  "tek_tanik": 219,
+  "tek_tanik": 316,
   "bulunamadi": 12,
   "dogal": 10,
-  "yok": 975,
-  "belirsiz": 56
+  "yok": 794,
+  "belirsiz": 128,
+  "tek_kaynak": 55
  },
- "yazilan": 88
+ "yazilan": 117
 }

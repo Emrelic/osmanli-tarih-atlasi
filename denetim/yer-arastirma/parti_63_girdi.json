@@ -1,0 +1,657 @@
+{
+ "sinif": "bolge_pleiades",
+ "adlar": [
+  {
+   "ad": "Slesvig",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    804,
+    808
+   ],
+   "ornek_maddeler": [
+    "0804-01-01 Gudfred, Danimarka kralı olarak ilk kez anılır; Charlemagne ile çatışm",
+    "0808-01-01 Gudfred tüccarları Reric'ten Slesvig'e taşıdı, Dannevirke'yi güçlendir"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Dacia",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    536,
+    567
+   ],
+   "ornek_maddeler": [
+    "0536-01-01 Gepid-Lombard savaşları başladı (536 - yaklaşık 567)",
+    "0567-01-01 Lombardlar ve Avarlar Gepidler'i ezdi; Kral Cunimund öldürüldü, Gepid "
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "207065",
+     "title": "Dacia",
+     "tip": "region",
+     "lat": 47.2589561116,
+     "lon": 23.2751830515,
+     "bbox": "22.7311816746, 47.0164057178, 23.8933104298, 47.4232935498",
+     "donem": [
+      "-330",
+      "300"
+     ],
+     "kesinlik": "related"
+    },
+    {
+     "pleiades": "981518",
+     "title": "Dacia (province)",
+     "tip": "province",
+     "lat": 47.5,
+     "lon": 22.5,
+     "bbox": "20.0, 45.0, 25.0, 50.0",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "rough"
+    }
+   ]
+  },
+  {
+   "ad": "Cibâl",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    835,
+    897
+   ],
+   "ornek_maddeler": [
+    "0835-06-03 Mu'tasım, Afşin'i Cibâl ve Azerbaycan valisi olarak Bâbek'in üzerine g",
+    "0897-02-08 Ebû Leylâ Hâris'in ölümüyle Dülefî toprakları Abbâsî valilerine geçti"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "903080",
+     "title": "Media/Mad(aya) (region)",
+     "tip": "region, label",
+     "lat": 35.0482414358,
+     "lon": 48.9193312443,
+     "bbox": "46.5059448765, 34.6227377488, 51.3600453284, 35.2699511424",
+     "donem": [
+      "-750",
+      "640"
+     ],
+     "kesinlik": "precise"
+    }
+   ]
+  },
+  {
+   "ad": "Gürcistan",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    989,
+    1118
+   ],
+   "ornek_maddeler": [
+    "0989-01-01 Şeddâdî Fazl Gürcü topraklarına yürüdü, yenildi",
+    "1118-01-01 Gürcü kralı Kıpçaklardan 40.000 kişilik atlı ordu kurdu"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "863770",
+     "title": "Colchis/Lazike (region)",
+     "tip": "region, label",
+     "lat": 42.2017552029,
+     "lon": 42.4540654257,
+     "bbox": "42.2131449989, 42.0989624875, 42.6949858526, 42.3045479184",
+     "donem": [
+      "-750",
+      "640"
+     ],
+     "kesinlik": "precise"
+    }
+   ]
+  },
+  {
+   "ad": "Kastilya",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1035,
+    1157
+   ],
+   "ornek_maddeler": [
+    "1035-01-01 III. Sancho'nun ölümü: Aragon krallık olarak I. Ramiro'ya, Kastilya I.",
+    "1157-01-01 VII. Alfonso'nun vasiyetiyle León ile Kastilya yeniden ayrıldı"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Litvanya",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    1251,
+    1263
+   ],
+   "ornek_maddeler": [
+    "1251-01-01 Mindaugas vaftiz oldu — papalık taç giymesini onayladı",
+    "1263-01-01 Mindaugas ve oğulları suikastle öldürüldü — Litvanya'da taht kavgası"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Necid",
+   "madde_sayisi": 2,
+   "yil_araligi": [
+    480,
+    632
+   ],
+   "ornek_maddeler": [
+    "0480-01-01 Kinde Devleti Necid'de Hucr b. Amr tarafından Himyerîler'e tâbi olarak",
+    "0632-09-19 Ridde Savaşları: Hâlid b. Velîd Tuleyha'ya karşı yürüdü (Büzâha)"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Northumbria",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    944,
+    944
+   ],
+   "ornek_maddeler": [
+    "0944-01-01 Edmund Northumbria'yı yeniden aldı"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Slavonya",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1091,
+    1091
+   ],
+   "ornek_maddeler": [
+    "1091-01-01 Slavonya Macaristan'a bağlandı"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Zeta",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1186,
+    1186
+   ],
+   "ornek_maddeler": [
+    "1186-01-01 Stefan Nemanja Duklja'nın (Zeta) fethini tamamladı"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Holstein",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1227,
+    1227
+   ],
+   "ornek_maddeler": [
+    "1227-07-22 Bornhöved Savaşı: Danimarka'nın Baltık hâkimiyeti sona erdi"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Lübnan",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1124,
+    1124
+   ],
+   "ornek_maddeler": [
+    "1124-07-07 Kudüs Krallığı Venedik donanmasıyla Sûr'u aldı"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Hûzistan",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1195,
+    1195
+   ],
+   "ornek_maddeler": [
+    "1195-01-01 Irak Selçukluları'nın çöküşünden sonra halife Hûzistan'ı ve bazı İran "
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "912843",
+     "title": "Elymais/Susiana",
+     "tip": "region, label",
+     "lat": 32.3274812687,
+     "lon": 48.503006879,
+     "bbox": "47.8976978875, 32.0865333241, 49.0949818974, 32.5275096204",
+     "donem": [
+      "-30",
+      "640"
+     ],
+     "kesinlik": "precise"
+    }
+   ]
+  },
+  {
+   "ad": "Hindistan",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    629,
+    629
+   ],
+   "ornek_maddeler": [
+    "0629-01-01 Xuanzang Hindistan’a gitti (645’te döndü)"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "50004",
+     "title": "India",
+     "tip": "region, label",
+     "lat": 20.6367379616,
+     "lon": 79.5332605032,
+     "bbox": "75.2930356235, 20.6084969505, 83.7734346483, 20.6513272486",
+     "donem": [
+      "-330",
+      "300"
+     ],
+     "kesinlik": "precise"
+    }
+   ]
+  },
+  {
+   "ad": "Annam",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    858,
+    858
+   ],
+   "ornek_maddeler": [
+    "0858-01-01 Nanzhao ile Annam–Sichuan savaşı (858–866)"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Galya",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    263,
+    263
+   ],
+   "ornek_maddeler": [
+    "0263-01-01 Gallienus Postumus'u yendi ama Postumus devletini sürdürdü"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "993",
+     "title": "Gallia",
+     "tip": "region",
+     "lat": 46.3609533058,
+     "lon": 1.67061448931,
+     "bbox": "-19.665682, 31.937048, 9.6708805, 51.9019",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "related"
+    }
+   ]
+  },
+  {
+   "ad": "Trakya",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    717,
+    717
+   ],
+   "ornek_maddeler": [
+    "0717-01-01 Han Tervel Arap İstanbul kuşatmasını kaldırtmak için Bizans'a yardım e"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "501638",
+     "title": "Thracia",
+     "tip": "region, label",
+     "lat": 41.5178303653,
+     "lon": 26.9624137954,
+     "bbox": "25.5219105655, 41.2312059042, 28.3811456853, 41.6517744447",
+     "donem": [
+      "-750",
+      "1999"
+     ],
+     "kesinlik": "precise"
+    },
+    {
+     "pleiades": "981552",
+     "title": "Thracia (province)",
+     "tip": "province-2",
+     "lat": 42.5,
+     "lon": 22.5,
+     "bbox": "20.0, 40.0, 25.0, 45.0",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "rough"
+    },
+    {
+     "pleiades": "991371",
+     "title": "Thracia",
+     "tip": "province",
+     "lat": 42.5,
+     "lon": 22.5,
+     "bbox": "20.0, 40.0, 25.0, 45.0",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "rough"
+    },
+    {
+     "pleiades": "992078",
+     "title": "Thracia",
+     "tip": "province",
+     "lat": 42.5,
+     "lon": 22.5,
+     "bbox": "20.0, 40.0, 25.0, 45.0",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "rough"
+    }
+   ]
+  },
+  {
+   "ad": "Saksonya",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    933,
+    933
+   ],
+   "ornek_maddeler": [
+    "0933-03-15 Riade Savaşı: I. Henry Macarları bozguna uğrattı"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Britannia",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    306,
+    306
+   ],
+   "ornek_maddeler": [
+    "0306-07-25 Konstantin'in Britannia'daki askerlerce imparator ilan edilmesi (306)"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "20419",
+     "title": "Britannia/Albion (island)",
+     "tip": "island",
+     "lat": 53.826,
+     "lon": -2.422,
+     "bbox": "-2.422, 53.826, -2.422, 53.826",
+     "donem": [
+      "-30",
+      "2100"
+     ],
+     "kesinlik": "precise"
+    },
+    {
+     "pleiades": "981513",
+     "title": "Britannia (province)",
+     "tip": "province-2",
+     "lat": 52.5,
+     "lon": -2.5,
+     "bbox": "-5.0, 50.0, 0.0, 55.0",
+     "donem": [
+      "-330",
+      "300"
+     ],
+     "kesinlik": "rough"
+    }
+   ]
+  },
+  {
+   "ad": "Yemâme",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    633,
+    633
+   ],
+   "ornek_maddeler": [
+    "0633-01-01 Yemâme Savaşı: Hâlid b. Velîd Müseylimetülkezzâb'ı yendi"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Ordos",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    679,
+    679
+   ],
+   "ornek_maddeler": [
+    "0679-01-01 Göktürk prensi Ni-shih-fu Ordos'ta isyan etti, yenilip Çin başkentinde"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Hicaz",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    762,
+    762
+   ],
+   "ornek_maddeler": [
+    "0762-01-01 Muhammed en-Nefsüzzekiyye Mansûr'a karşı ayaklandı ve idam edildi; kar"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Aragon",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1035,
+    1035
+   ],
+   "ornek_maddeler": [
+    "1035-01-01 III. Sancho'nun ölümü: Aragon krallık olarak I. Ramiro'ya, Kastilya I."
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Makedonya",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1072,
+    1072
+   ],
+   "ornek_maddeler": [
+    "1072-01-01 Makedonya ayaklanması: Bodin 'Bulgar çarı Petar' ilan edildi"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "491656",
+     "title": "Macedonia (region)",
+     "tip": "region, label",
+     "lat": 40.9691152478,
+     "lon": 22.4920786436,
+     "bbox": "21.4597626681, 40.7885770322, 23.5394115872, 41.0360409768",
+     "donem": [
+      "-550",
+      "640"
+     ],
+     "kesinlik": "precise"
+    },
+    {
+     "pleiades": "991368",
+     "title": "Macedonia",
+     "tip": "province",
+     "lat": 42.5,
+     "lon": 22.5,
+     "bbox": "20.0, 40.0, 25.0, 45.0",
+     "donem": [
+      "",
+      ""
+     ],
+     "kesinlik": "rough"
+    },
+    {
+     "pleiades": "981531",
+     "title": "Macedonia (Roman province)",
+     "tip": "province-2",
+     "lat": 40.7823947449,
+     "lon": 22.3435014057,
+     "bbox": "21.342, 40.1389841776, 24.2880601, 41.5545738",
+     "donem": [
+      "-330",
+      "-30"
+     ],
+     "kesinlik": "related"
+    }
+   ]
+  },
+  {
+   "ad": "Raşka",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1172,
+    1172
+   ],
+   "ornek_maddeler": [
+    "1172-01-01 Bizans müdahalesiyle Stefan Nemanja Manuel Komnenos'a vasal oldu"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Silezya",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1241,
+    1241
+   ],
+   "ornek_maddeler": [
+    "1241-04-09 Legnica (Liegnitz) Savaşı: Moğollar Silezya-Alman ordusunu yendi"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Toskana",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1197,
+    1197
+   ],
+   "ornek_maddeler": [
+    "1197-11-11 Lucca ilk Toskana Guelf Birliği'ne katıldı"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "413122",
+     "title": "Etruria/Tuscia (region)",
+     "tip": "region",
+     "lat": 42.6734380491,
+     "lon": 11.5337751287,
+     "bbox": "10.488999, 42.001036, 12.390519, 43.6941505",
+     "donem": [
+      "-750",
+      "640"
+     ],
+     "kesinlik": "related"
+    },
+    {
+     "pleiades": "413122",
+     "title": "Etruria/Tuscia (region)",
+     "tip": "region",
+     "lat": 42.6734380491,
+     "lon": 11.5337751287,
+     "bbox": "10.488999, 42.001036, 12.390519, 43.6941505",
+     "donem": [
+      "-750",
+      "640"
+     ],
+     "kesinlik": "related"
+    }
+   ]
+  },
+  {
+   "ad": "Liaodong",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1216,
+    1216
+   ],
+   "ornek_maddeler": [
+    "1216-01-01 Doğu Xia hükümdarı Puxian Wannu Moğollara geçici olarak boyun eğdi"
+   ],
+   "pleiades_adaylari": []
+  },
+  {
+   "ad": "Hadramut",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    757,
+    757
+   ],
+   "ornek_maddeler": [
+    "0757-01-01 Mansûr Hadramut'a Ma‘n b. Zâide komutasında ordu gönderdi; İbâzî ve Hâ"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "39273",
+     "title": "Adramiton Chora",
+     "tip": "region",
+     "lat": 16.380801252,
+     "lon": 50.4971591205,
+     "bbox": "49.4900417576, 15.6448660776, 51.6091435507, 16.9477045734",
+     "donem": [
+      "-550",
+      "2099"
+     ],
+     "kesinlik": "precise"
+    },
+    {
+     "pleiades": "39273",
+     "title": "Adramiton Chora",
+     "tip": "region",
+     "lat": 16.380801252,
+     "lon": 50.4971591205,
+     "bbox": "49.4900417576, 15.6448660776, 51.6091435507, 16.9477045734",
+     "donem": [
+      "-550",
+      "2099"
+     ],
+     "kesinlik": "precise"
+    }
+   ]
+  },
+  {
+   "ad": "Mora",
+   "madde_sayisi": 1,
+   "yil_araligi": [
+    1264,
+    1264
+   ],
+   "ornek_maddeler": [
+    "1264-01-01 Makryplagi Savaşı: Frank-Türk ordusu Bizanslıları yendi"
+   ],
+   "pleiades_adaylari": [
+    {
+     "pleiades": "570577",
+     "title": "Peloponnesus/Peloponnesos/Peloponnese",
+     "tip": "peninsula, region",
+     "lat": 37.092784642,
+     "lon": 22.3359574955,
+     "bbox": "21.143869, 36.3852463, 24.0, 38.4497385",
+     "donem": [
+      "-550",
+      "2100"
+     ],
+     "kesinlik": "related"
+    }
+   ]
+  }
+ ]
+}

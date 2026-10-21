@@ -2,7 +2,7 @@
  "parti": 50,
  "yontem": "cevrimdisi Pleiades+GeoNames",
  "pleiades_yer": 42511,
- "geonames_sehir": 34174,
+ "geonames_sehir": 171503,
  "sonuclar": [
   {
    "ad": "Ötüken",
@@ -14,13 +14,10 @@
   {
    "ad": "Rey",
    "n_pleiades": 1,
-   "n_geonames": 0,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 35.594267,
-    "lon": 51.447163,
-    "kaynak": "Pleiades 903104"
-   },
+   "n_geonames": 2,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Rey",
+   "ulke_modern": "IR",
    "lat": 35.594267,
    "lon": 51.447163,
    "tanik": [
@@ -29,6 +26,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/903104 (Rhaga(i)/Europos/Arsakia/Ray, settlement, precise)",
      "lat": 35.594267,
      "lon": 51.447163
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/9533872 (Rey, IR)",
+     "lat": 35.59354,
+     "lon": 51.43997
     }
    ],
    "konum_kesinligi": "kesin",
@@ -46,22 +49,20 @@
    "n_geonames": 0,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "2 ayrı Pleiades kümesi: Ctesiphon 33.095,44.581; Medain 31.558,45.513"
+   "alias": [
+    "Ctesiphon",
+    "Al-Mada'in",
+    "Madain"
+   ],
+   "not": "2 ayrı Pleiades kümesi: Ctesiphon 33.095,44.581; Medain 31.558,45.513 [ALIAS eşlemesi: Ctesiphon, Al-Mada'in, Madain; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Silvan",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 38.13708,
-    "lon": 41.00817,
-    "kaynak": "GeoNames 300796 Silvan"
-   },
-   "lat": 38.13708,
-   "lon": 41.00817,
+   "n_geonames": 2,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 2 aday: Silvan -37.81667,145.41667; Silvan 38.13708,41.00817"
   },
   {
    "ad": "Doğu Anglia",
@@ -72,18 +73,45 @@
   },
   {
    "ad": "Ktesifon",
-   "n_pleiades": 0,
+   "n_pleiades": 1,
    "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 33.094703,
+    "lon": 44.5812226667,
+    "kaynak": "Pleiades 893976"
+   },
+   "lat": 33.094703,
+   "lon": 44.5812226667,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/893976 (Ctesiphon, urban, settlement, precise)",
+     "lat": 33.094703,
+     "lon": 44.5812226667
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "urban, settlement",
+   "pleiades_donem": [
+    -540.0,
+    2000.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Ctesiphon",
+    "Seleucia Ctesiphon",
+    "Taq Kisra"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Ctesiphon, Seleucia Ctesiphon, Taq Kisra; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Ani",
    "n_pleiades": 2,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "2 ayrı Pleiades kümesi: Ani 40.506,43.571; Ani 39.603,39.036"
+   "not": "2 ayrı Pleiades kümesi: Ani 39.603,39.036; Ani 40.506,43.571"
   },
   {
    "ad": "Kannauj",
@@ -161,8 +189,10 @@
   {
    "ad": "Pavia",
    "n_pleiades": 1,
-   "n_geonames": 1,
+   "n_geonames": 2,
    "durum": "cift_tanik",
+   "esanlam_modern": "Pavia",
+   "ulke_modern": "IT",
    "lat": 45.185899,
    "lon": 9.156562,
    "tanik": [
@@ -234,9 +264,15 @@
   {
    "ad": "Berdea",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Barda",
+    "Partav",
+    "Berdaa"
+   ],
+   "not": "GeoNames 2 aday: Barda 40.37577,47.12619; Barda 56.92724,55.59163 [ALIAS eşlemesi: Barda, Partav, Berdaa; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Meißen",
@@ -263,16 +299,32 @@
   {
    "ad": "Haliç",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 49.12374,
+    "lon": 24.72748,
+    "kaynak": "GeoNames 709034 Halych"
+   },
+   "lat": 49.12374,
+   "lon": 24.72748,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Polonnaruva",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 7.93965,
+    "lon": 81.00274,
+    "kaynak": "GeoNames 1229901 Polonnaruwa"
+   },
+   "lat": 7.93965,
+   "lon": 81.00274,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Kuzey Kafkasya",
@@ -284,13 +336,10 @@
   {
    "ad": "Hatra",
    "n_pleiades": 1,
-   "n_geonames": 0,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 35.587884,
-    "lon": 42.718342,
-    "kaynak": "Pleiades 894004"
-   },
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Al Ḩaḑar",
+   "ulke_modern": "IQ",
    "lat": 35.587884,
    "lon": 42.718342,
    "tanik": [
@@ -299,6 +348,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/894004 (Hatra, settlement, precise)",
      "lat": 35.587884,
      "lon": 42.718342
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/99413 (Al Ḩaḑar, IQ)",
+     "lat": 35.5729,
+     "lon": 42.73395
     }
    ],
    "konum_kesinligi": "kesin",
@@ -313,13 +368,10 @@
   {
    "ad": "Harran",
    "n_pleiades": 1,
-   "n_geonames": 0,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 36.8635943094,
-    "lon": 39.0307496505,
-    "kaynak": "Pleiades 658427"
-   },
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Harran",
+   "ulke_modern": "TR",
    "lat": 36.8635943094,
    "lon": 39.0307496505,
    "tanik": [
@@ -328,6 +380,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/658427 (Harran/Carrhae, settlement, archaeological-site, precise)",
      "lat": 36.8635943094,
      "lon": 39.0307496505
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/312531 (Harran, TR)",
+     "lat": 36.86,
+     "lon": 39.03139
     }
    ],
    "konum_kesinligi": "kesin",
@@ -393,9 +451,17 @@
   {
    "ad": "Alamut",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 37.8085,
+    "lon": 28.29227,
+    "kaynak": "GeoNames 324221 Alamut"
+   },
+   "lat": 37.8085,
+   "lon": 28.29227,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Batı Türkistan",
@@ -424,7 +490,11 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Balanjar"
+   ],
+   "not": " [ALIAS eşlemesi: Balanjar; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Kommagene",
@@ -436,9 +506,17 @@
   {
    "ad": "Preslav",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 43.16667,
+    "lon": 26.81667,
+    "kaynak": "GeoNames 727987 Veliki Preslav"
+   },
+   "lat": 43.16667,
+   "lon": 26.81667,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Hârizm",
@@ -456,10 +534,16 @@
   },
   {
    "ad": "Kartaca",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 2,
+   "n_geonames": 14,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Carthage",
+    "Karthago",
+    "Tunis"
+   ],
+   "not": "2 ayrı Pleiades kümesi: Carthago 36.853,10.323; Tunes 36.799,10.172 [ALIAS eşlemesi: Carthage, Karthago, Tunis; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Orta Yangtze",
@@ -470,10 +554,37 @@
   },
   {
    "ad": "Deybül",
-   "n_pleiades": 0,
+   "n_pleiades": 1,
    "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 24.7516906818,
+    "lon": 67.5214984622,
+    "kaynak": "Pleiades 91371094"
+   },
+   "lat": 24.7516906818,
+   "lon": 67.5214984622,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/91371094 (Banbhore, settlement, port, precise)",
+     "lat": 24.7516906818,
+     "lon": 67.5214984622
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement, port",
+   "pleiades_donem": [
+    null,
+    null
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Debal",
+    "Banbhore",
+    "Bhanbhore"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Debal, Banbhore, Bhanbhore; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Orhon-Selenge",
@@ -513,20 +624,25 @@
   {
    "ad": "Lorraine",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 45.68338,
+    "lon": -73.78249,
+    "kaynak": "GeoNames 6060407 Lorraine"
+   },
+   "lat": 45.68338,
+   "lon": -73.78249,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Taormina",
    "n_pleiades": 1,
-   "n_geonames": 0,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 37.852391,
-    "lon": 15.292123,
-    "kaynak": "Pleiades 462506"
-   },
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Taormina",
+   "ulke_modern": "IT",
    "lat": 37.852391,
    "lon": 15.292123,
    "tanik": [
@@ -535,6 +651,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/462506 (Tauromenium, settlement, theatre, precise)",
      "lat": 37.852391,
      "lon": 15.292123
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2522975 (Taormina, IT)",
+     "lat": 37.85358,
+     "lon": 15.28851
     }
    ],
    "konum_kesinligi": "kesin",
@@ -577,17 +699,50 @@
   },
   {
    "ad": "Feremâ",
-   "n_pleiades": 0,
+   "n_pleiades": 1,
    "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 31.0426270897,
+    "lon": 32.5471045497,
+    "kaynak": "Pleiades 727192"
+   },
+   "lat": 31.0426270897,
+   "lon": 32.5471045497,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/727192 (Pelusium, fort-2, church-2, temple-2, archaeological-site, settlement, port, fort, precise)",
+     "lat": 31.0426270897,
+     "lon": 32.5471045497
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "fort-2, church-2, temple-2, archaeological-site, settlement, port, fort",
+   "pleiades_donem": [
+    -2670.0,
+    2100.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Pelusium",
+    "Tell el-Farama",
+    "Farama"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Pelusium, Tell el-Farama, Farama; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Eski Kahire",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 2,
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Fustat",
+    "Old Cairo",
+    "Babylon"
+   ],
+   "not": "2 ayrı Pleiades kümesi: Babylon/al-Fusṭāṭ/Old Cairo 30.006,31.230; Babylon 32.537,44.425 [ALIAS eşlemesi: Fustat, Old Cairo, Babylon; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "İdil",
@@ -689,13 +844,20 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Kanem",
+    "Njimi"
+   ],
+   "not": " [ALIAS eşlemesi: Kanem, Njimi; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Gırnata",
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Granada",
+   "ulke_modern": "ES",
    "lat": 37.176484,
    "lon": -3.597934,
    "tanik": [
@@ -732,7 +894,7 @@
   {
    "ad": "Baden",
    "n_pleiades": 1,
-   "n_geonames": 4,
+   "n_geonames": 10,
    "durum": "belirsiz",
    "sinif": "yok",
    "not": "Pleiades adayları yerleşim değil (Aquae Helveticae:bath)"
@@ -757,7 +919,13 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Kalinjar",
+    "Kalinjar Fort",
+    "Kalanjar"
+   ],
+   "not": " [ALIAS eşlemesi: Kalinjar, Kalinjar Fort, Kalanjar; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Merkezî Irak",
@@ -771,14 +939,19 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Awal"
+   ],
+   "not": " [ALIAS eşlemesi: Awal; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Pınarbaşı Höyüğü",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 4,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 4 aday: Pınarbaşı 36.7034,34.3627; Pınarbaşı 38.72285,36.39314; Pınarbaşı 37.21383,41.88915; Pınarbaşı 41.60388,33.11099"
   },
   {
    "ad": "Karnataka",
@@ -804,8 +977,10 @@
   {
    "ad": "Kerman",
    "n_pleiades": 1,
-   "n_geonames": 1,
+   "n_geonames": 2,
    "durum": "cift_tanik",
+   "esanlam_modern": "Kerman",
+   "ulke_modern": "IR",
    "lat": 30.273015,
    "lon": 57.068581,
    "tanik": [
@@ -895,7 +1070,7 @@
   {
    "ad": "Antas",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 2,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 39.3923602,
@@ -924,9 +1099,17 @@
   {
    "ad": "Baranya",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 48.57561,
+    "lon": 22.32729,
+    "kaynak": "GeoNames 712846 Baranyntsi"
+   },
+   "lat": 48.57561,
+   "lon": 22.32729,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Tell Mureybet",
@@ -1211,10 +1394,10 @@
   {
    "ad": "Verdun",
    "n_pleiades": 0,
-   "n_geonames": 2,
+   "n_geonames": 6,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 2 aday: Verdun 45.46005,-73.57058; Verdun 49.15964,5.3829"
+   "not": "GeoNames 6 aday: Verdun 45.46005,-73.57058; Verdun 41.44273,2.17564; Verdun 49.15964,5.3829; Verdun-sur-le-Doubs 46.89692,5.02127"
   },
   {
    "ad": "Goguryeo",
@@ -1228,6 +1411,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Kanchipuram",
+   "ulke_modern": "IN",
    "lat": 12.836393,
    "lon": 79.7053304,
    "tanik": [
@@ -1256,17 +1441,10 @@
   {
    "ad": "Dekan",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 42.54018,
-    "lon": 20.28793,
-    "kaynak": "GeoNames 791580 Deçan"
-   },
-   "lat": 42.54018,
-   "lon": 20.28793,
+   "n_geonames": 2,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 2 aday: Dekan 24.70638,75.1044; Deçan 42.54018,20.28793"
   },
   {
    "ad": "Batı Francia",
@@ -1277,24 +1455,63 @@
   },
   {
    "ad": "Nehrevân",
-   "n_pleiades": 0,
+   "n_pleiades": 2,
    "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 33.431926,
+    "lon": 44.583522,
+    "kaynak": "Pleiades 894138"
+   },
+   "lat": 33.431926,
+   "lon": 44.583522,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/894138 (Tell Isheiri/Nahrawan?, settlement, precise)",
+     "lat": 33.431926,
+     "lon": 44.583522
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    -30.0,
+    640.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Nahrawan",
+    "Nahrawan Canal"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Nahrawan, Nahrawan Canal; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Beykend",
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Paykand",
+    "Baykand"
+   ],
+   "not": " [ALIAS eşlemesi: Paykand, Baykand; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Yucatán",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 32.60464,
+    "lon": -115.09332,
+    "kaynak": "GeoNames 4011403 Ejido Yucatán"
+   },
+   "lat": 32.60464,
+   "lon": -115.09332,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Olmek",
@@ -1320,9 +1537,17 @@
   {
    "ad": "Vengi",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 47.49654,
+    "lon": 8.95325,
+    "kaynak": "GeoNames 2658051 Wängi"
+   },
+   "lat": 47.49654,
+   "lon": 8.95325,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Orta Java",
@@ -1341,16 +1566,37 @@
   {
    "ad": "Burma",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 32.2193,
+    "lon": 35.78507,
+    "kaynak": "GeoNames 249849 Burmā"
+   },
+   "lat": 32.2193,
+   "lon": 35.78507,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Beşbalık",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 43.99747,
+    "lon": 89.18976,
+    "kaynak": "GeoNames 1529419 Jimsar"
+   },
+   "lat": 43.99747,
+   "lon": 89.18976,
+   "sinif": "yok",
+   "alias": [
+    "Bishbaliq",
+    "Beshbaliq",
+    "Jimsar"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Bishbaliq, Beshbaliq, Jimsar; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Hoa Lu",
@@ -1377,17 +1623,10 @@
   {
    "ad": "Dumbarton",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 55.94433,
-    "lon": -4.57061,
-    "kaynak": "GeoNames 2650802 Dumbarton"
-   },
-   "lat": 55.94433,
-   "lon": -4.57061,
+   "n_geonames": 2,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 2 aday: Dumbarton 55.94433,-4.57061; Dumbarton 37.60376,-77.49137"
   },
   {
    "ad": "Tuna Bulgaristanı",
@@ -1399,7 +1638,7 @@
   {
    "ad": "Cangas de Onís",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "dogal",
    "sinif": "yok",
    "not": "Cangas de Onís (bridge)"
@@ -1428,7 +1667,7 @@
   {
    "ad": "Petra",
    "n_pleiades": 8,
-   "n_geonames": 0,
+   "n_geonames": 5,
    "durum": "belirsiz",
    "sinif": "yok",
    "not": "3 ayrı Pleiades kümesi: Petra/Fundus Petrensis 36.521,4.625; Petra 30.345,35.383; Petra 39.327,26.176"
@@ -1474,6 +1713,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Nusaybin",
+   "ulke_modern": "TR",
    "lat": 37.0675116667,
    "lon": 41.2154466667,
    "tanik": [
@@ -1574,17 +1815,22 @@
   {
    "ad": "Talas",
    "n_pleiades": 0,
-   "n_geonames": 4,
+   "n_geonames": 5,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 4 aday: Talas 42.52256,72.2417; Taraz 42.89799,71.37334; Talas 38.6908,35.5538; Dallas 32.78306,-96.80667"
+   "not": "GeoNames 5 aday: Talas 42.52256,72.2417; Talas 42.35473,72.65678; Taraz 42.89799,71.37334; Talas 38.6908,35.5538"
   },
   {
    "ad": "Rakkāde",
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Raqqada",
+    "Raqqadah"
+   ],
+   "not": " [ALIAS eşlemesi: Raqqada, Raqqadah; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Târum",
@@ -1603,13 +1849,10 @@
   {
    "ad": "Misis",
    "n_pleiades": 1,
-   "n_geonames": 0,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 36.9580404953,
-    "lon": 35.6223738026,
-    "kaynak": "Pleiades 658538"
-   },
+   "n_geonames": 2,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Yakapınar",
+   "ulke_modern": "TR",
    "lat": 36.9580404953,
    "lon": 35.6223738026,
    "tanik": [
@@ -1618,6 +1861,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/658538 (Mopsou(h)estia/Seleukeia pros to Pyramo, settlement, precise)",
      "lat": 36.9580404953,
      "lon": 35.6223738026
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/297882 (Yakapınar, TR)",
+     "lat": 36.97342,
+     "lon": 35.62043
     }
    ],
    "konum_kesinligi": "kesin",
@@ -1689,10 +1938,10 @@
   {
    "ad": "Zhongxing",
    "n_pleiades": 0,
-   "n_geonames": 2,
+   "n_geonames": 3,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 2 aday: Zhongxing 33.70389,118.67917; Zhongxing New Village 23.95908,120.68516"
+   "not": "GeoNames 3 aday: Zhongxing 33.70389,118.67917; Zhongxing 22.57674,113.93861; Zhongxing New Village 23.95908,120.68516"
   },
   {
    "ad": "Bình Định",
@@ -1703,10 +1952,24 @@
   },
   {
    "ad": "Seylan",
-   "n_pleiades": 0,
+   "n_pleiades": 1,
    "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "durum": "bolge_nokta",
+   "lat": 7.98139972411,
+   "lon": 80.574678177,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/50298",
+     "lat": 7.98139972411,
+     "lon": 80.574678177
+    }
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Sri Lanka"
+   ],
+   "not": "Pleiades bölge/temsilci noktası (Sri Lanka, tip: island); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta [ALIAS eşlemesi: Sri Lanka; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Bundelkhand",
@@ -1739,17 +2002,75 @@
   },
   {
    "ad": "Ahsâ",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 1,
+   "n_geonames": 2,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Al Hufūf",
+   "ulke_modern": "SA",
+   "lat": 25.357277,
+   "lon": 49.685377,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/932459 (Hofuf, settlement, precise)",
+     "lat": 25.357277,
+     "lon": 49.685377
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/109571 (Al Hufūf, SA)",
+     "lat": 25.36467,
+     "lon": 49.58764
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    -1200.0,
+    2000.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Al Hasa",
+    "Hofuf",
+    "Al Ahsa"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Al Hasa, Hofuf, Al Ahsa; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Taberiye",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 1,
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Tiberias",
+   "ulke_modern": "IL",
+   "lat": 32.787692,
+   "lon": 35.542294,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/678431 (Tiberias, settlement, precise)",
+     "lat": 32.787692,
+     "lon": 35.542294
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/293322 (Tiberias, IL)",
+     "lat": 32.79396,
+     "lon": 35.53152
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    -30.0,
+    640.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Tiberias"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Tiberias; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Kuzey Yemen",
@@ -1761,7 +2082,7 @@
   {
    "ad": "фаза I-II",
    "n_pleiades": 1,
-   "n_geonames": 2,
+   "n_geonames": 4,
    "durum": "belirsiz",
    "sinif": "yok",
    "not": "Pleiades adayları yerleşim değil (I͡Asinovskiĭ III Kurgan:tumulus)"
@@ -1841,9 +2162,17 @@
   {
    "ad": "Ix-Xagħra",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 36.05003,
+    "lon": 14.26421,
+    "kaynak": "GeoNames 2562280 Xagħra"
+   },
+   "lat": 36.05003,
+   "lon": 14.26421,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Late Harappan",
@@ -2028,7 +2357,7 @@
   {
    "ad": "Silla",
    "n_pleiades": 1,
-   "n_geonames": 1,
+   "n_geonames": 2,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 37.5,
@@ -2064,10 +2393,10 @@
   {
    "ad": "Daxing",
    "n_pleiades": 0,
-   "n_geonames": 3,
+   "n_geonames": 4,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 3 aday: Daxing 39.74025,116.32693; Daxing 27.26369,100.86387; Daxing 29.55605,106.16002"
+   "not": "GeoNames 4 aday: Daxing 22.96916,102.40611; Daxing 39.74025,116.32693; Daxing 27.26369,100.86387; Daxing 29.55605,106.16002"
   },
   {
    "ad": "Doğu Andhra",
@@ -2100,9 +2429,17 @@
   {
    "ad": "Tang",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 38.74669,
+    "lon": 114.98009,
+    "kaynak": "GeoNames 1797196 Renhou"
+   },
+   "lat": 38.74669,
+   "lon": 114.98009,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Batı Yunnan",
@@ -2116,7 +2453,12 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Samye",
+    "Samye Monastery"
+   ],
+   "not": " [ALIAS eşlemesi: Samye, Samye Monastery; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Bengal-Bihar",
@@ -2214,17 +2556,43 @@
   {
    "ad": "Boulogne",
    "n_pleiades": 0,
-   "n_geonames": 2,
+   "n_geonames": 3,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 2 aday: Boulogne-sur-Mer 50.72485,1.61373; Boulogne-Billancourt 48.83545,2.24128"
+   "not": "GeoNames 3 aday: Boulogne-sur-Mer 50.72485,1.61373; Boulogne-sur-Gesse 43.28825,0.64797; Boulogne-Billancourt 48.83545,2.24128"
   },
   {
    "ad": "Silchester",
-   "n_pleiades": 0,
+   "n_pleiades": 1,
    "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 51.3572048631,
+    "lon": -1.08239136468,
+    "kaynak": "Pleiades 79368"
+   },
+   "lat": 51.3572048631,
+   "lon": -1.08239136468,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/79368 (Calleva, settlement, precise)",
+     "lat": 51.3572048631,
+     "lon": -1.08239136468
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    -30.0,
+    2100.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Calleva Atrebatum",
+    "Silchester"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Calleva Atrebatum, Silchester; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Kuzey Britanya",
@@ -2245,21 +2613,64 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Ebbsfleet"
+   ],
+   "not": " [ALIAS eşlemesi: Ebbsfleet; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Rhône-Saône",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 1,
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Lyon",
+   "ulke_modern": "FR",
+   "lat": 45.758866,
+   "lon": 4.8194815,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/167717 (Col. Lugdunum, settlement, precise)",
+     "lat": 45.758866,
+     "lon": 4.8194815
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2996944 (Lyon, FR)",
+     "lat": 45.74906,
+     "lon": 4.84789
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    -550.0,
+    2100.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Lyon"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Lyon; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Selsey Bill",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 50.73501,
+    "lon": -0.78979,
+    "kaynak": "GeoNames 2638219 Selsey"
+   },
+   "lat": 50.73501,
+   "lon": -0.78979,
+   "sinif": "yok",
+   "alias": [
+    "Selsey"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Selsey; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Kintyre",
@@ -2273,20 +2684,30 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Dyrham"
+   ],
+   "not": " [ALIAS eşlemesi: Dyrham; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Dyrham",
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Dyrham"
+   ],
+   "not": " [ALIAS eşlemesi: Dyrham; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Cirencester",
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Cirencester",
+   "ulke_modern": "GB",
    "lat": 51.71138,
    "lon": -1.971806,
    "tanik": [
@@ -2322,52 +2743,86 @@
   {
    "ad": "Rochester",
    "n_pleiades": 2,
-   "n_geonames": 5,
+   "n_geonames": 18,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "Aynı ad birden çok uzak yerde (GeoNames): Rochester 51.38764,0.50546; Rochester 44.02163,-92.4699; Rochester 43.30453,-70.97562; Rochester 43.15478,-77.61556"
+   "not": "2 ayrı Pleiades kümesi: Bremenium 55.281,-2.265; Durobrivae 51.390,0.503"
   },
   {
    "ad": "Nechtanesmere",
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Dunnichen"
+   ],
+   "not": " [ALIAS eşlemesi: Dunnichen; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Forfar",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 56.64382,
+    "lon": -2.89001,
+    "kaynak": "GeoNames 2649207 Forfar"
+   },
+   "lat": 56.64382,
+   "lon": -2.89001,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Dunadd",
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Dunadd"
+   ],
+   "not": " [ALIAS eşlemesi: Dunadd; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Bensington",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 5,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Benson"
+   ],
+   "not": "GeoNames 5 aday: Benson 51.62073,-1.10979; Benson 35.38211,-78.54862; Benson 45.315,-95.6025; Benson 31.96786,-110.29452 [ALIAS eşlemesi: Benson; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Repton",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 52.83983,
+    "lon": -1.55061,
+    "kaynak": "GeoNames 2639489 Repton"
+   },
+   "lat": 52.83983,
+   "lon": -1.55061,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Saint-Maurice d'Agaune",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 13,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Saint-Maurice",
+    "Agaunum",
+    "Agaune"
+   ],
+   "not": "GeoNames 13 aday: Saint-Maurice 46.21826,7.0032; Saint-Maurice-sur-Moselle 47.85889,6.82477; Saint-Maurice-sur-Fessard 47.99231,2.62157; Saint-Maurice-Montcouronne 48.58288,2.12504 [ALIAS eşlemesi: Saint-Maurice, Agaunum, Agaune; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Saint-Clair-sur-Epte",
@@ -2379,10 +2834,10 @@
   {
    "ad": "Tamworth",
    "n_pleiades": 0,
-   "n_geonames": 2,
+   "n_geonames": 3,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 2 aday: Tamworth -31.09048,150.92905; Tamworth 52.63399,-1.69587"
+   "not": "GeoNames 3 aday: Tamworth -31.09048,150.92905; Tamworth 52.63399,-1.69587; Tamworth 43.8598,-71.26313"
   },
   {
    "ad": "Gothie",
@@ -2425,43 +2880,51 @@
    "n_pleiades": 3,
    "n_geonames": 0,
    "durum": "bolge_nokta",
-   "lat": 38.7950192018,
-   "lon": -8.0135603148,
+   "lat": 37.5,
+   "lon": -7.5,
    "tanik": [
     {
      "kaynak": "Pleiades",
-     "url_veya_atif": "pleiades.stoa.org/places/1101",
-     "lat": 38.7950192018,
-     "lon": -8.0135603148
+     "url_veya_atif": "pleiades.stoa.org/places/981529",
+     "lat": 37.5,
+     "lon": -7.5
     }
    ],
    "sinif": "yok",
-   "not": "Pleiades bölge/temsilci noktası (Lusitania (region), tip: region, label); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta"
+   "not": "Pleiades bölge/temsilci noktası (Lusitania, tip: province-2); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta"
   },
   {
    "ad": "Baetica",
    "n_pleiades": 3,
    "n_geonames": 0,
    "durum": "bolge_nokta",
-   "lat": 39.2857297309,
-   "lon": -2.36361320345,
+   "lat": 37.5,
+   "lon": -7.5,
    "tanik": [
     {
      "kaynak": "Pleiades",
-     "url_veya_atif": "pleiades.stoa.org/places/862",
-     "lat": 39.2857297309,
-     "lon": -2.36361320345
+     "url_veya_atif": "pleiades.stoa.org/places/991318",
+     "lat": 37.5,
+     "lon": -7.5
     }
    ],
    "sinif": "yok",
-   "not": "Pleiades bölge/temsilci noktası (Baetica, tip: label, province-2); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta"
+   "not": "Pleiades bölge/temsilci noktası (Baetica, tip: province); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta"
   },
   {
    "ad": "Cerme",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": -7.7772,
+    "lon": 114.0487,
+    "kaynak": "GeoNames 1647169 Cermee"
+   },
+   "lat": -7.7772,
+   "lon": 114.0487,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Musâre",
@@ -2473,16 +2936,34 @@
   {
    "ad": "Tâfîlâlt",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 31.28318,
+    "lon": -4.26565,
+    "kaynak": "GeoNames 2538027 Reçani"
+   },
+   "lat": 31.28318,
+   "lon": -4.26565,
+   "sinif": "yok",
+   "alias": [
+    "Sijilmasa",
+    "Tafilalt",
+    "Rissani"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Sijilmasa, Tafilalt, Rissani; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Bobastro",
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Bobastro",
+    "Mesas de Villaverde"
+   ],
+   "not": " [ALIAS eşlemesi: Bobastro, Mesas de Villaverde; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Zâb",
@@ -2511,6 +2992,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Irákleion",
+   "ulke_modern": "GR",
    "lat": 35.3375376667,
    "lon": 25.1332724333,
    "tanik": [
@@ -2546,7 +3029,7 @@
   {
    "ad": "Germania",
    "n_pleiades": 2,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 42.289175,
@@ -2646,6 +3129,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Oderzo",
+   "ulke_modern": "IT",
    "lat": 45.781212,
    "lon": 12.493677,
    "tanik": [
@@ -2683,6 +3168,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Mazara del Vallo",
+   "ulke_modern": "IT",
    "lat": 37.650881,
    "lon": 12.590812,
    "tanik": [
@@ -2718,9 +3205,17 @@
   {
    "ad": "Elbe",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 52.08333,
+    "lon": 10.28333,
+    "kaynak": "GeoNames 3208598 Elbe"
+   },
+   "lat": 52.08333,
+   "lon": 10.28333,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Ren ötesi",
@@ -2781,13 +3276,10 @@
   {
    "ad": "Bostra",
    "n_pleiades": 1,
-   "n_geonames": 0,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 32.5204513362,
-    "lon": 36.4813007519,
-    "kaynak": "Pleiades 678073"
-   },
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Buşrá ash Shām",
+   "ulke_modern": "SY",
    "lat": 32.5204513362,
    "lon": 36.4813007519,
    "tanik": [
@@ -2796,6 +3288,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/678073 (Bostra/Col. Nova Traiana Alexandriana, settlement, mosque, temple-2, precise)",
      "lat": 32.5204513362,
      "lon": 36.4813007519
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/171126 (Buşrá ash Shām, SY)",
+     "lat": 32.5174,
+     "lon": 36.48163
     }
    ],
    "konum_kesinligi": "kesin",
@@ -2833,6 +3331,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Balkh",
+   "ulke_modern": "AF",
    "lat": 36.7679408775,
    "lon": 66.9010967796,
    "tanik": [
@@ -2932,10 +3432,36 @@
   },
   {
    "ad": "Destgird",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 1,
+   "n_geonames": 3,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 33.897044,
+    "lon": 44.652757,
+    "kaynak": "Pleiades 894188"
+   },
+   "lat": 33.897044,
+   "lon": 44.652757,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/894188 (Zindan/Dastagird?, settlement, precise)",
+     "lat": 33.897044,
+     "lon": 44.652757
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    300.0,
+    640.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Dastagird",
+    "Dastgerd"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Dastagird, Dastgerd; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Ecnâdeyn",
@@ -2947,16 +3473,50 @@
   {
    "ad": "Yedisu",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 39.43277,
+    "lon": 40.53368,
+    "kaynak": "GeoNames 297286 Yedisu"
+   },
+   "lat": 39.43277,
+   "lon": 40.53368,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Fihl",
-   "n_pleiades": 0,
+   "n_pleiades": 1,
    "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 32.4495013404,
+    "lon": 35.6149158139,
+    "kaynak": "Pleiades 678326"
+   },
+   "lat": 32.4495013404,
+   "lon": 35.6149158139,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/678326 (Pella/Berenice/Philippeia, settlement, archaeological-site, precise)",
+     "lat": 32.4495013404,
+     "lon": 35.6149158139
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement, archaeological-site",
+   "pleiades_donem": [
+    -10000.0,
+    2100.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Tabaqat Fahl",
+    "Pella of the Decapolis"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Tabaqat Fahl, Pella of the Decapolis; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Kâdisiye",
@@ -2996,22 +3556,73 @@
   },
   {
    "ad": "Celûlâ",
-   "n_pleiades": 0,
+   "n_pleiades": 1,
    "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 34.186388,
+    "lon": 45.118333,
+    "kaynak": "Pleiades 894013"
+   },
+   "lat": 34.186388,
+   "lon": 45.118333,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/894013 ([Jalula], settlement, precise)",
+     "lat": 34.186388,
+     "lon": 45.118333
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    300.0,
+    640.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Jalula",
+    "Jalulaa"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Jalula, Jalulaa; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Peluzyum",
-   "n_pleiades": 0,
+   "n_pleiades": 1,
    "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 31.0426270897,
+    "lon": 32.5471045497,
+    "kaynak": "Pleiades 727192"
+   },
+   "lat": 31.0426270897,
+   "lon": 32.5471045497,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/727192 (Pelusium, fort-2, church-2, temple-2, archaeological-site, settlement, port, fort, precise)",
+     "lat": 31.0426270897,
+     "lon": 32.5471045497
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "fort-2, church-2, temple-2, archaeological-site, settlement, port, fort",
+   "pleiades_donem": [
+    -2670.0,
+    2100.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Pelusium"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Pelusium; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Gaochang",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 42.8550461114,
@@ -3069,16 +3680,32 @@
   {
    "ad": "Babilon Kalesi",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 40.69566,
+    "lon": -73.32568,
+    "kaynak": "GeoNames 5107612 Babylon"
+   },
+   "lat": 40.69566,
+   "lon": -73.32568,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Babilon",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 40.69566,
+    "lon": -73.32568,
+    "kaynak": "GeoNames 5107612 Babylon"
+   },
+   "lat": 40.69566,
+   "lon": -73.32568,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Partav",
@@ -3100,6 +3727,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Erzurum",
+   "ulke_modern": "TR",
    "lat": 39.907998654,
    "lon": 41.2760046426,
    "tanik": [
@@ -3181,7 +3810,13 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Suyab",
+    "Ak-Beshim",
+    "Ak Beshim"
+   ],
+   "not": " [ALIAS eşlemesi: Suyab, Ak-Beshim, Ak Beshim; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "el-Asker",
@@ -3193,14 +3828,26 @@
   {
    "ad": "Nezvâ",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 22.93333,
+    "lon": 57.53333,
+    "kaynak": "GeoNames 286987 Nizwá"
+   },
+   "lat": 22.93333,
+   "lon": 57.53333,
+   "sinif": "yok",
+   "alias": [
+    "Nizwa",
+    "Nazwa"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Nizwa, Nazwa; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Safsâf",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 32.777725,
@@ -3257,17 +3904,70 @@
   },
   {
    "ad": "Koço",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 1,
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 42.8550461114,
+    "lon": 89.5285986529,
+    "kaynak": "Pleiades 999273476"
+   },
+   "lat": 42.8550461114,
+   "lon": 89.5285986529,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/999273476 (Gaochang, settlement, precise)",
+     "lat": 42.8550461114,
+     "lon": 89.5285986529
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    2000.0,
+    2099.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Gaochang",
+    "Qocho",
+    "Karakhoja"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Gaochang, Qocho, Karakhoja; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Kao-ch'ang",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 1,
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 42.8550461114,
+    "lon": 89.5285986529,
+    "kaynak": "Pleiades 999273476"
+   },
+   "lat": 42.8550461114,
+   "lon": 89.5285986529,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/999273476 (Gaochang, settlement, precise)",
+     "lat": 42.8550461114,
+     "lon": 89.5285986529
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    2000.0,
+    2099.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Gaochang",
+    "Qocho"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Gaochang, Qocho; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Kartli",
@@ -3286,43 +3986,58 @@
   {
    "ad": "Ebher",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 36.1468,
+    "lon": 49.218,
+    "kaynak": "GeoNames 145034 Abhar"
+   },
+   "lat": 36.1468,
+   "lon": 49.218,
+   "sinif": "yok",
+   "alias": [
+    "Abhar"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Abhar; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Şemîrân Kalesi",
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Shemiran",
+    "Shimiran"
+   ],
+   "not": " [ALIAS eşlemesi: Shemiran, Shimiran; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Büst",
    "n_pleiades": 2,
    "n_geonames": 1,
-   "durum": "cift_tanik",
-   "lat": 31.5081,
-   "lon": 64.3566,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 31.5024985794,
+    "lon": 64.3566157195,
+    "kaynak": "Pleiades 310634609"
+   },
+   "lat": 31.5024985794,
+   "lon": 64.3566157195,
    "tanik": [
     {
      "kaynak": "Pleiades",
-     "url_veya_atif": "pleiades.stoa.org/places/59747 (Bigis/Bestia Desolata/Parabeste, settlement, archaeological-site, precise)",
-     "lat": 31.5081,
-     "lon": 64.3566
-    },
-    {
-     "kaynak": "GeoNames",
-     "url_veya_atif": "geonames.org/1134720 (Lashkar Gāh, AF)",
-     "lat": 31.59382,
-     "lon": 64.37161
+     "url_veya_atif": "pleiades.stoa.org/places/310634609 (Qa`la Bost, fortified-settlement, fort-2, settlement, archaeological-site, citadel, precise)",
+     "lat": 31.5024985794,
+     "lon": 64.3566157195
     }
    ],
    "konum_kesinligi": "kesin",
-   "pleiades_tip": "settlement, archaeological-site",
+   "pleiades_tip": "fortified-settlement, fort-2, settlement, archaeological-site, citadel",
    "pleiades_donem": [
-    -1000.0,
-    2099.0
+    -540.0,
+    2100.0
    ],
    "sinif": "yok",
    "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 2 kayıt. "
@@ -3339,7 +4054,11 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Qatwan"
+   ],
+   "not": " [ALIAS eşlemesi: Qatwan; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Dakūkā",
@@ -3358,9 +4077,21 @@
   {
    "ad": "Fâzâz",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 36.58662,
+    "lon": 37.04628,
+    "kaynak": "GeoNames 172082 I‘zāz"
+   },
+   "lat": 36.58662,
+   "lon": 37.04628,
+   "sinif": "yok",
+   "alias": [
+    "Azaz",
+    "Hazaz"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Azaz, Hazaz; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Orta Atlas",
@@ -3387,23 +4118,65 @@
   {
    "ad": "Rif",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 38.77247,
+    "lon": -112.08409,
+    "kaynak": "GeoNames 5545710 Richfield"
+   },
+   "lat": 38.77247,
+   "lon": -112.08409,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Kosantîne",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 2,
+   "n_geonames": 4,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Constantine",
+   "ulke_modern": "DZ",
+   "lat": 36.3681146667,
+   "lon": 6.61330266667,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/305064 (Cirta/Constantina, settlement, precise)",
+     "lat": 36.3681146667,
+     "lon": 6.61330266667
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2501152 (Constantine, DZ)",
+     "lat": 36.365,
+     "lon": 6.61472
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    -330.0,
+    640.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Constantine",
+    "Cirta",
+    "Qacentina"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. Birden çok Pleiades kümesi; GeoNames ile eşleşen seçildi. [ALIAS eşlemesi: Constantine, Cirta, Qacentina; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Hayderan",
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Hayderan"
+   ],
+   "not": " [ALIAS eşlemesi: Hayderan; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Kābis ile Kayrevan arası",
@@ -3487,9 +4260,17 @@
   {
    "ad": "Alabama",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 43.09645,
+    "lon": -78.39086,
+    "kaynak": "GeoNames 5106870 Alabama"
+   },
+   "lat": 43.09645,
+   "lon": -78.39086,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Mississippi",
@@ -3501,7 +4282,7 @@
   {
    "ad": "Derbent",
    "n_pleiades": 2,
-   "n_geonames": 1,
+   "n_geonames": 3,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 38.2216,
@@ -3554,6 +4335,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Ahlat",
+   "ulke_modern": "TR",
    "lat": 38.752777,
    "lon": 42.494444,
    "tanik": [
@@ -3599,12 +4382,17 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Tell Bashir",
+    "Til Bashir"
+   ],
+   "not": " [ALIAS eşlemesi: Tell Bashir, Til Bashir; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Sason",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "bolge_nokta",
    "lat": 40.5,
    "lon": 19.283333,
@@ -3646,7 +4434,11 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Carham"
+   ],
+   "not": " [ALIAS eşlemesi: Carham; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Bautzen",
@@ -3667,9 +4459,15 @@
   {
    "ad": "Tmutorakan",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 4,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Tmutarakan",
+    "Tamatarkha",
+    "Taman"
+   ],
+   "not": "GeoNames 4 aday: Taman -6.91391,109.41045; Daman 20.41431,72.83236; Tamán 21.23216,-98.87945; Taman 45.2117,36.71609 [ALIAS eşlemesi: Tmutarakan, Tamatarkha, Taman; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Berbeşter",
@@ -3681,9 +4479,14 @@
   {
    "ad": "Kulumriye",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Coimbra",
+    "Colimbria"
+   ],
+   "not": "GeoNames 2 aday: Coimbra -20.85667,-42.80278; Coimbra 40.20686,-8.41996 [ALIAS eşlemesi: Coimbra, Colimbria; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Petrova gora",
@@ -3716,29 +4519,58 @@
   {
    "ad": "Trogir",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 43.5125,
+    "lon": 16.25167,
+    "kaynak": "GeoNames 3188763 Trogir"
+   },
+   "lat": 43.5125,
+   "lon": 16.25167,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Tinchebrai",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 48.76437,
+    "lon": -0.73333,
+    "kaynak": "GeoNames 2972555 Tinchebray"
+   },
+   "lat": 48.76437,
+   "lon": -0.73333,
+   "sinif": "yok",
+   "alias": [
+    "Tinchebray"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Tinchebray; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Besalú",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 42.19893,
+    "lon": 2.69953,
+    "kaynak": "GeoNames 3128096 Besalú"
+   },
+   "lat": 42.19893,
+   "lon": 2.69953,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Carcassonne",
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Carcassonne",
+   "ulke_modern": "FR",
    "lat": 43.205842,
    "lon": 2.364076,
    "tanik": [
@@ -3767,23 +4599,47 @@
   {
    "ad": "Cerdanya",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 42.4316,
+    "lon": 1.92819,
+    "kaynak": "GeoNames 3112680 Puigcerdà"
+   },
+   "lat": 42.4316,
+   "lon": 1.92819,
+   "sinif": "yok",
+   "alias": [
+    "Cerdanya",
+    "Puigcerda"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Cerdanya, Puigcerda; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Trablusgarp",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 2,
+   "n_geonames": 6,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Tripoli",
+    "Oea",
+    "Tarabulus"
+   ],
+   "not": "2 ayrı Pleiades kümesi: Oea 32.898,13.175; Tripolis 34.449,35.812 [ALIAS eşlemesi: Tripoli, Oea, Tarabulus; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Meriye",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 3,
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Almeria",
+    "Almería",
+    "Portus Magnus"
+   ],
+   "not": "2 ayrı Pleiades kümesi: Portus Magnus 35.808,-0.266; (Flavium) Brigantium/Portus Magnus? 43.371,-8.396 [ALIAS eşlemesi: Almeria, Almería, Portus Magnus; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Üşbûne",
@@ -3816,31 +4672,79 @@
   },
   {
    "ad": "Turtûşe",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 1,
+   "n_geonames": 3,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Tortosa",
+    "Dertosa"
+   ],
+   "not": "Aynı ad birden çok uzak yerde (GeoNames): Tortosa 40.81249,0.5216; Tortosa 10.93294,123.09; Ţarţūs 34.88902,35.88659 [ALIAS eşlemesi: Tortosa, Dertosa; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Lâride",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 1,
+   "n_geonames": 2,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Lleida",
+   "ulke_modern": "ES",
+   "lat": 41.6159535,
+   "lon": 0.625938,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/246431 (Ilerda, settlement, precise)",
+     "lat": 41.6159535,
+     "lon": 0.625938
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3118514 (Lleida, ES)",
+     "lat": 41.61674,
+     "lon": 0.62218
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    -330.0,
+    2100.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Lerida",
+    "Lleida",
+    "Ilerda"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Lerida, Lleida, Ilerda; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Pontida",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 45.73129,
+    "lon": 9.51141,
+    "kaynak": "GeoNames 3170198 Pontida"
+   },
+   "lat": 45.73129,
+   "lon": 9.51141,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Arkona",
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Arkona",
+    "Kap Arkona"
+   ],
+   "not": " [ALIAS eşlemesi: Arkona, Kap Arkona; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Osraige",
@@ -3852,10 +4756,10 @@
   {
    "ad": "Windsor",
    "n_pleiades": 0,
-   "n_geonames": 5,
+   "n_geonames": 20,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 5 aday: Windsor 42.30008,-83.01654; Windsor 51.48333,-0.6; Windsor 41.8526,-72.6437; Windsor 38.54713,-122.81638"
+   "not": "GeoNames 20 aday: Windsor -33.61309,150.81416; Windsor -37.85344,144.99241; Windsor -27.43631,153.02882; Windsor 44.98345,-64.13204"
   },
   {
    "ad": "Kosova",
@@ -3874,16 +4778,36 @@
   {
    "ad": "Ulcinj",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 41.92936,
+    "lon": 19.22436,
+    "kaynak": "GeoNames 3188516 Ulcinj"
+   },
+   "lat": 41.92936,
+   "lon": 19.22436,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Svač",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 41.92936,
+    "lon": 19.22436,
+    "kaynak": "GeoNames 3188516 Ulcinj"
+   },
+   "lat": 41.92936,
+   "lon": 19.22436,
+   "sinif": "yok",
+   "alias": [
+    "Svac",
+    "Ulcinj"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Svac, Ulcinj; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Artois",
@@ -3902,7 +4826,7 @@
   {
    "ad": "Bonifacio",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 3,
    "durum": "belirsiz",
    "sinif": "yok",
    "not": "Pleiades adayları yerleşim değil (Gallicum/Taphros Fretum:water-open)"
@@ -3910,9 +4834,17 @@
   {
    "ad": "Château-Gaillard",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 45.97239,
+    "lon": 5.30436,
+    "kaynak": "GeoNames 3026280 Château-Gaillard"
+   },
+   "lat": 45.97239,
+   "lon": 5.30436,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Muret",
@@ -3932,9 +4864,21 @@
   {
    "ad": "Peremışl",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 49.78498,
+    "lon": 22.76728,
+    "kaynak": "GeoNames 761168 Przemyśl"
+   },
+   "lat": 49.78498,
+   "lon": 22.76728,
+   "sinif": "yok",
+   "alias": [
+    "Przemysl",
+    "Przemyśl"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Przemysl, Przemyśl; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Viljandi",
@@ -3969,9 +4913,14 @@
   {
    "ad": "Lyndanise",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Tallinn",
+    "Reval"
+   ],
+   "not": "GeoNames 2 aday: Tallinn 59.43696,24.75353; Rewal 54.0812,15.01471 [ALIAS eşlemesi: Tallinn, Reval; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Ösel",
@@ -3990,9 +4939,17 @@
   {
    "ad": "Bornhöved",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 54.06798,
+    "lon": 10.2279,
+    "kaynak": "GeoNames 2946100 Bornhöved"
+   },
+   "lat": 54.06798,
+   "lon": 10.2279,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Extremadura",
@@ -4006,6 +4963,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Meaux",
+   "ulke_modern": "FR",
    "lat": 48.9576983333,
    "lon": 2.88036466667,
    "tanik": [
@@ -4062,9 +5021,21 @@
   {
    "ad": "Muhi",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 9.04306,
+    "lon": -7.62722,
+    "kaynak": "GeoNames 2284270 Mohi-Moussadougou"
+   },
+   "lat": 9.04306,
+   "lon": -7.62722,
+   "sinif": "yok",
+   "alias": [
+    "Muhi",
+    "Mohi"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Muhi, Mohi; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Sajó",
@@ -4194,10 +5165,10 @@
   {
    "ad": "Soli",
    "n_pleiades": 0,
-   "n_geonames": 2,
+   "n_geonames": 3,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 2 aday: Tuzla 44.53842,18.66709; Jishou 28.31925,109.73346"
+   "not": "GeoNames 3 aday: Tuzla 44.53842,18.66709; Jishou 28.31925,109.73346; Mezitli 36.74541,34.52256"
   },
   {
    "ad": "Samland",
@@ -4244,9 +5215,17 @@
   {
    "ad": "Grönland",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 13.25808,
+    "lon": -59.57763,
+    "kaynak": "GeoNames 3373831 Greenland"
+   },
+   "lat": 13.25808,
+   "lon": -59.57763,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Norse yerleşimleri",
@@ -4272,9 +5251,17 @@
   {
    "ad": "Languedoc",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": -33.8973,
+    "lon": 18.96726,
+    "kaynak": "GeoNames 12718865 Languedoc"
+   },
+   "lat": -33.8973,
+   "lon": 18.96726,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Gwynedd",
@@ -4293,16 +5280,32 @@
   {
    "ad": "Dürnkrut",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 48.47315,
+    "lon": 16.85062,
+    "kaynak": "GeoNames 2780607 Dürnkrut"
+   },
+   "lat": 48.47315,
+   "lon": 16.85062,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Jedenspeigen",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 48.49807,
+    "lon": 16.87225,
+    "kaynak": "GeoNames 2775102 Jedenspeigen"
+   },
+   "lat": 48.49807,
+   "lon": 16.87225,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Mukaçevo",
@@ -4343,16 +5346,47 @@
   {
    "ad": "San Genesio",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: San Genesio Atesino 46.5346,11.32971; San Genesio 46.658,11.92456"
   },
   {
    "ad": "Halkis",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 1,
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Chalkída",
+   "ulke_modern": "GR",
+   "lat": 38.457139,
+   "lon": 23.621937,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/540703 (Chalcis, settlement, precise)",
+     "lat": 38.457139,
+     "lon": 23.621937
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/260133 (Chalkída, GR)",
+     "lat": 38.46354,
+     "lon": 23.60284
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    -750.0,
+    640.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Chalcis",
+    "Chalkida",
+    "Halkida"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Chalcis, Chalkida, Halkida; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Chalkis",
@@ -4360,7 +5394,7 @@
    "n_geonames": 1,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "2 ayrı Pleiades kümesi: (Hypo)Chalkis 38.354,21.631; Chalcis ad Belum 36.008,37.010"
+   "not": "2 ayrı Pleiades kümesi: Chalcis ad Belum 36.008,37.010; (Hypo)Chalkis 38.354,21.631"
   },
   {
    "ad": "Niederlausitz",
@@ -4372,9 +5406,17 @@
   {
    "ad": "Lauffen am Neckar",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 49.0734,
+    "lon": 9.14567,
+    "kaynak": "GeoNames 2880111 Lauffen am Neckar"
+   },
+   "lat": 49.0734,
+   "lon": 9.14567,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Pinzgau",
@@ -4400,40 +5442,26 @@
   {
    "ad": "Thorn",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 53.01375,
-    "lon": 18.59814,
-    "kaynak": "GeoNames 3083271 Toruń"
-   },
-   "lat": 53.01375,
-   "lon": 18.59814,
+   "n_geonames": 2,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 2 aday: Thorn 51.16167,5.84167; Toruń 53.01375,18.59814"
   },
   {
    "ad": "Altenburg",
    "n_pleiades": 0,
-   "n_geonames": 2,
+   "n_geonames": 3,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 2 aday: Altenburg 50.98763,12.43684; Mosonmagyaróvár 47.86789,17.26994"
+   "not": "GeoNames 3 aday: Altenburg 48.64765,15.59295; Altenburg 50.98763,12.43684; Mosonmagyaróvár 47.86789,17.26994"
   },
   {
    "ad": "Zwickau",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 50.72724,
-    "lon": 12.48839,
-    "kaynak": "GeoNames 2803560 Zwickau"
-   },
-   "lat": 50.72724,
-   "lon": 12.48839,
+   "n_geonames": 2,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 2 aday: Cvikov 50.77668,14.63298; Zwickau 50.72724,12.48839"
   },
   {
    "ad": "Hessen",
@@ -4445,13 +5473,10 @@
   {
    "ad": "Karystos",
    "n_pleiades": 1,
-   "n_geonames": 0,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 38.0347996071,
-    "lon": 24.431394121,
-    "kaynak": "Pleiades 570336"
-   },
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Kárystos",
+   "ulke_modern": "GR",
    "lat": 38.0347996071,
    "lon": 24.431394121,
    "tanik": [
@@ -4460,6 +5485,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/570336 (Karystos, fort-2, settlement, precise)",
      "lat": 38.0347996071,
      "lon": 24.431394121
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/260935 (Kárystos, GR)",
+     "lat": 38.01333,
+     "lon": 24.41611
     }
    ],
    "konum_kesinligi": "kesin",
@@ -4474,24 +5505,47 @@
   {
    "ad": "Alessandria",
    "n_pleiades": 0,
-   "n_geonames": 2,
+   "n_geonames": 3,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 2 aday: Alexandria 31.20176,29.91582; Alessandria 44.90924,8.61007"
+   "not": "GeoNames 3 aday: Alexandria 31.20176,29.91582; Alessandria del Carretto 39.95874,16.37963; Alessandria 44.90924,8.61007"
   },
   {
    "ad": "Zhongjing",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 34.7986,
+    "lon": 114.30742,
+    "kaynak": "GeoNames 1804879 Kaifeng"
+   },
+   "lat": 34.7986,
+   "lon": 114.30742,
+   "sinif": "yok",
+   "alias": [
+    "Kaifeng"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Kaifeng; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Bianjing",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 34.7986,
+    "lon": 114.30742,
+    "kaynak": "GeoNames 1804879 Kaifeng"
+   },
+   "lat": 34.7986,
+   "lon": 114.30742,
+   "sinif": "yok",
+   "alias": [
+    "Kaifeng",
+    "Bianliang"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Kaifeng, Bianliang; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "kuzeydoğu Kore",
@@ -4524,16 +5578,25 @@
   {
    "ad": "Bagan",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 3,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 3 aday: Kampung Bagan 1.8481,102.8588; Bagan 6.92556,124.42028; Bagan 54.09949,77.66691"
   },
   {
    "ad": "Kahuripan",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": -7.3471,
+    "lon": 108.2281,
+    "kaynak": "GeoNames 8024174 Kahuripan"
+   },
+   "lat": -7.3471,
+   "lon": 108.2281,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Doğu Cava",
@@ -4574,9 +5637,17 @@
   {
    "ad": "Kalinga",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": -27.40957,
+    "lon": 153.05061,
+    "kaynak": "GeoNames 11703908 Kalinga"
+   },
+   "lat": -27.40957,
+   "lon": 153.05061,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Çandavar",
@@ -4604,14 +5675,24 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Chaco Canyon",
+    "Chaco Culture"
+   ],
+   "not": " [ALIAS eşlemesi: Chaco Canyon, Chaco Culture; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Pueblo Bonito",
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Pueblo Bonito",
+    "Chaco Canyon"
+   ],
+   "not": " [ALIAS eşlemesi: Pueblo Bonito, Chaco Canyon; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Kannevc",
@@ -4640,7 +5721,11 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Sarjahan"
+   ],
+   "not": " [ALIAS eşlemesi: Sarjahan; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Hisâr-ı Tâk",
@@ -4654,6 +5739,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Kermanshah",
+   "ulke_modern": "IR",
    "lat": 34.3189707,
    "lon": 47.06924455,
    "tanik": [
@@ -4682,17 +5769,10 @@
   {
    "ad": "Sîrvân Kalesi",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 39.93778,
-    "lon": 48.929,
-    "kaynak": "GeoNames 148565 Şirvan"
-   },
-   "lat": 39.93778,
-   "lon": 48.929,
+   "n_geonames": 2,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 2 aday: Şirvan 39.93778,48.929; Şirvan 38.06251,42.02517"
   },
   {
    "ad": "Kinkever",
@@ -4725,7 +5805,7 @@
   {
    "ad": "Malazgirt",
    "n_pleiades": 1,
-   "n_geonames": 1,
+   "n_geonames": 2,
    "durum": "belirsiz",
    "sinif": "yok",
    "not": "Pleiades adayları yerleşim değil (Malazgirt:findspot)"
@@ -4735,6 +5815,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Tirmiz",
+   "ulke_modern": "UZ",
    "lat": 37.2642696871,
    "lon": 67.1924807471,
    "tanik": [
@@ -4777,9 +5859,10 @@
   {
    "ad": "Rûyân",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Rūyān 36.35038,55.0025; Rūyān 36.56892,51.96305"
   },
   {
    "ad": "Belh-Cûzcân",
@@ -4791,9 +5874,22 @@
   {
    "ad": "Uşnu",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 37.0397,
+    "lon": 45.0983,
+    "kaynak": "GeoNames 121795 Oshnavīyeh"
+   },
+   "lat": 37.0397,
+   "lon": 45.0983,
+   "sinif": "yok",
+   "alias": [
+    "Ushnu",
+    "Oshnavieh",
+    "Ushnuyeh"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Ushnu, Oshnavieh, Ushnuyeh; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Beşbalık-Turfan",
@@ -4812,9 +5908,21 @@
   {
    "ad": "Otrar",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 39.17037,
+    "lon": 63.61165,
+    "kaynak": "GeoNames 1219431 Farap"
+   },
+   "lat": 39.17037,
+   "lon": 63.61165,
+   "sinif": "yok",
+   "alias": [
+    "Otrar",
+    "Farab"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Otrar, Farab; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Kırım",
@@ -4850,10 +5958,40 @@
   },
   {
    "ad": "Menbic",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 1,
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Manbij",
+   "ulke_modern": "SY",
+   "lat": 36.526222,
+   "lon": 37.9555335,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/658480 (Hierapolis/Bambyke, settlement, precise)",
+     "lat": 36.526222,
+     "lon": 37.9555335
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/167357 (Manbij, SY)",
+     "lat": 36.52815,
+     "lon": 37.95495
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    -1600.0,
+    2000.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Manbij",
+    "Hierapolis Bambyce",
+    "Bambyce"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Manbij, Hierapolis Bambyce, Bambyce; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Nehriseb'în",
@@ -4865,43 +6003,126 @@
   {
    "ad": "Tel Sultan",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 3,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 3 aday: Sulţān 31.09396,20.22329; Sultan 41.0254,26.45235; Sultan 47.8626,-121.81651"
   },
   {
    "ad": "Cebele",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 1,
+   "n_geonames": 3,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Jablah",
+   "ulke_modern": "SY",
+   "lat": 35.378062,
+   "lon": 35.922327,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/668250 (Gabala, settlement, precise)",
+     "lat": 35.378062,
+     "lon": 35.922327
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/169304 (Jablah, SY)",
+     "lat": 35.36211,
+     "lon": 35.92759
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    -550.0,
+    640.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Jableh",
+    "Gabala",
+    "Jabala"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Jableh, Gabala, Jabala; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Nu‘mâniye",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 32.55621,
+    "lon": 45.41293,
+    "kaynak": "GeoNames 98846 An Nu‘mānīyah"
+   },
+   "lat": 32.55621,
+   "lon": 45.41293,
+   "sinif": "yok",
+   "alias": [
+    "An Numaniyah",
+    "Numaniyah"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: An Numaniyah, Numaniyah; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Hille-Vâsıt arası",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 32.46367,
+    "lon": 44.41963,
+    "kaynak": "GeoNames 99347 Al Hillah"
+   },
+   "lat": 32.46367,
+   "lon": 44.41963,
+   "sinif": "yok",
+   "alias": [
+    "Wasit",
+    "Hillah"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Wasit, Hillah; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Şeyzer",
-   "n_pleiades": 0,
+   "n_pleiades": 1,
    "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 35.2663435,
+    "lon": 36.5664463,
+    "kaynak": "Pleiades 668292"
+   },
+   "lat": 35.2663435,
+   "lon": 36.5664463,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/668292 (Larissa/Sizara, settlement, settlement-modern, precise)",
+     "lat": 35.2663435,
+     "lon": 36.5664463
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement, settlement-modern",
+   "pleiades_donem": [
+    -1344.0,
+    2100.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Shaizar",
+    "Shayzar"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Shaizar, Shayzar; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Tyrus",
    "n_pleiades": 2,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Tyre",
+   "ulke_modern": "LB",
    "lat": 33.2693355,
    "lon": 35.201829,
    "tanik": [
@@ -4945,9 +6166,17 @@
   {
    "ad": "Hârim",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 36.21176,
+    "lon": 36.52078,
+    "kaynak": "GeoNames 169866 Ḩārim"
+   },
+   "lat": 36.21176,
+   "lon": 36.52078,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "İb",
@@ -4959,7 +6188,7 @@
   {
    "ad": "Habur",
    "n_pleiades": 2,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 37.5,
@@ -4988,7 +6217,7 @@
   {
    "ad": "Hıttîn",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 32.75,
@@ -5032,16 +6261,37 @@
   {
    "ad": "Kerek",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": -6.8951,
+    "lon": 111.8866,
+    "kaynak": "GeoNames 1640239 Kerek"
+   },
+   "lat": -6.8951,
+   "lon": 111.8866,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Djenné-Djenno",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 13.90608,
+    "lon": -4.55332,
+    "kaynak": "GeoNames 2458589 Djenné"
+   },
+   "lat": 13.90608,
+   "lon": -4.55332,
+   "sinif": "yok",
+   "alias": [
+    "Djenné",
+    "Jenne-Jeno",
+    "Djenne"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: Djenné, Jenne-Jeno, Djenne; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Bābili",
@@ -5132,7 +6382,7 @@
   {
    "ad": "Monte Verde",
    "n_pleiades": 2,
-   "n_geonames": 0,
+   "n_geonames": 5,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 41.4984103881,
@@ -5177,7 +6427,11 @@
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Caral"
+   ],
+   "not": " [ALIAS eşlemesi: Caral; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Stonehenge",
@@ -5204,30 +6458,55 @@
   {
    "ad": "Plouharnel",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 47.59856,
+    "lon": -3.11442,
+    "kaynak": "GeoNames 2986657 Plouharnel"
+   },
+   "lat": 47.59856,
+   "lon": -3.11442,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "San Martin Tilcajete",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 16.85991,
+    "lon": -96.69547,
+    "kaynak": "GeoNames 3515582 San Martín Tilcajete"
+   },
+   "lat": 16.85991,
+   "lon": -96.69547,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "San José Mogote",
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "San Jose Mogote"
+   ],
+   "not": " [ALIAS eşlemesi: San Jose Mogote; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Ceibal",
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Ceibal",
+    "Seibal"
+   ],
+   "not": " [ALIAS eşlemesi: Ceibal, Seibal; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Kerma Ancien",
@@ -5260,13 +6539,10 @@
   {
    "ad": "Sart",
    "n_pleiades": 1,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 38.488314,
-    "lon": 28.040286,
-    "kaynak": "Pleiades 550867"
-   },
+   "n_geonames": 2,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Sartmahmut",
+   "ulke_modern": "TR",
    "lat": 38.488314,
    "lon": 28.040286,
    "tanik": [
@@ -5275,6 +6551,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/550867 ( Sardis/Hyde?, settlement, precise)",
      "lat": 38.488314,
      "lon": 28.040286
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/301496 (Sartmahmut, TR)",
+     "lat": 38.49736,
+     "lon": 28.04239
     }
    ],
    "konum_kesinligi": "kesin",
@@ -5303,29 +6585,108 @@
   },
   {
    "ad": "Gordion Tumulus MM",
-   "n_pleiades": 0,
+   "n_pleiades": 1,
    "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 39.6503052703,
+    "lon": 31.9784831233,
+    "kaynak": "Pleiades 609393"
+   },
+   "lat": 39.6503052703,
+   "lon": 31.9784831233,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/609393 (Gordion/Vindia?, settlement, precise)",
+     "lat": 39.6503052703,
+     "lon": 31.9784831233
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    -750.0,
+    2100.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Gordion"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Gordion; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Midas Mound",
-   "n_pleiades": 0,
+   "n_pleiades": 1,
    "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 39.6503052703,
+    "lon": 31.9784831233,
+    "kaynak": "Pleiades 609393"
+   },
+   "lat": 39.6503052703,
+   "lon": 31.9784831233,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/609393 (Gordion/Vindia?, settlement, precise)",
+     "lat": 39.6503052703,
+     "lon": 31.9784831233
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    -750.0,
+    2100.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Gordion"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Gordion; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Mādā",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 1,
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Hamadān",
+   "ulke_modern": "IR",
+   "lat": 34.80555515,
+   "lon": 48.51640575,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/903021 (Ecbatana/Hagmatana/Achmeta/Epiphaneia/Ahmadan, settlement, archaeological-site, precise)",
+     "lat": 34.80555515,
+     "lon": 48.51640575
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/132144 (Hamadān, IR)",
+     "lat": 34.79922,
+     "lon": 48.51456
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement, archaeological-site",
+   "pleiades_donem": [
+    -1200.0,
+    2100.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Hamadan",
+    "Ecbatana"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Hamadan, Ecbatana; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Media",
    "n_pleiades": 1,
-   "n_geonames": 2,
+   "n_geonames": 3,
    "durum": "bolge_nokta",
    "lat": 35.0482414358,
    "lon": 48.9193312443,
@@ -5342,18 +6703,71 @@
   },
   {
    "ad": "Hamgmatāna = Ekbatana",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 1,
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Hamadān",
+   "ulke_modern": "IR",
+   "lat": 34.80555515,
+   "lon": 48.51640575,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/903021 (Ecbatana/Hagmatana/Achmeta/Epiphaneia/Ahmadan, settlement, archaeological-site, precise)",
+     "lat": 34.80555515,
+     "lon": 48.51640575
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/132144 (Hamadān, IR)",
+     "lat": 34.79922,
+     "lon": 48.51456
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement, archaeological-site",
+   "pleiades_donem": [
+    -1200.0,
+    2100.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Hamadan",
+    "Ecbatana"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt.  [ALIAS eşlemesi: Hamadan, Ecbatana; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Shush",
    "n_pleiades": 1,
    "n_geonames": 2,
-   "durum": "belirsiz",
+   "durum": "cift_tanik",
+   "esanlam_modern": "Shūsh",
+   "ulke_modern": "IR",
+   "lat": 32.1899344716,
+   "lon": 48.2535370543,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/912936 (Susa/Seleucia ad Eulaeum, findspot, settlement, archaeological-site, palace-complex, precise)",
+     "lat": 32.1899344716,
+     "lon": 48.2535370543
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/114593 (Shūsh, IR)",
+     "lat": 32.1942,
+     "lon": 48.2436
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "findspot, settlement, archaeological-site, palace-complex",
+   "pleiades_donem": [
+    -6200.0,
+    2100.0
+   ],
    "sinif": "yok",
-   "not": "Aynı ad birden çok uzak yerde (GeoNames): Shūsh 32.1942,48.2436; Shushenskoye 53.32361,91.93614"
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. "
   },
   {
    "ad": "Anau IA",
@@ -5470,10 +6884,40 @@
   },
   {
    "ad": "Nīnawā",
-   "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_pleiades": 2,
+   "n_geonames": 3,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Mosul",
+   "ulke_modern": "IQ",
+   "lat": 36.3607615238,
+   "lon": 43.1599368897,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/874621 (Nineveh/Ninos, settlement, archaeological-site, precise)",
+     "lat": 36.3607615238,
+     "lon": 43.1599368897
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/99072 (Mosul, IQ)",
+     "lat": 36.335,
+     "lon": 43.11889
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement, archaeological-site",
+   "pleiades_donem": [
+    -2335.0,
+    2100.0
+   ],
+   "sinif": "yok",
+   "alias": [
+    "Nineveh",
+    "Ninive",
+    "Mosul"
+   ],
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 2 kayıt.  [ALIAS eşlemesi: Nineveh, Ninive, Mosul; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Neo-Babylonian",
@@ -5550,9 +6994,21 @@
   {
    "ad": "Badari",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 26.99306,
+    "lon": 31.41605,
+    "kaynak": "GeoNames 361478 Al Badārī"
+   },
+   "lat": 26.99306,
+   "lon": 31.41605,
+   "sinif": "yok",
+   "alias": [
+    "El-Badari",
+    "Badari"
+   ],
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok) [ALIAS eşlemesi: El-Badari, Badari; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Aşağı Mısır",
@@ -5573,6 +7029,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Soissons",
+   "ulke_modern": "FR",
    "lat": 49.380839,
    "lon": 3.3258515,
    "tanik": [
@@ -5615,10 +7073,10 @@
   {
    "ad": "Sui",
    "n_pleiades": 0,
-   "n_geonames": 2,
+   "n_geonames": 3,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 2 aday: Suizhou 31.71111,113.36306; Sokhumi 43.00697,40.9893"
+   "not": "GeoNames 3 aday: Suizhou 31.71111,113.36306; Sui Xian Chengguanzhen 34.44797,115.04439; Sokhumi 43.00697,40.9893"
   },
   {
    "ad": "Badami",
@@ -5638,31 +7096,37 @@
   {
    "ad": "Yanmen",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 27.855,
+    "lon": 109.74028,
+    "kaynak": "GeoNames 1787131 Yanmen"
+   },
+   "lat": 27.855,
+   "lon": 109.74028,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Jiangdu",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Yangzhou",
+    "Jiangdu"
+   ],
+   "not": "GeoNames 2 aday: Yangzhou 32.39722,119.43583; Yangzhou 33.22192,107.54267 [ALIAS eşlemesi: Yangzhou, Jiangdu; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Yamato",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 35.47276,
-    "lon": 139.45101,
-    "kaynak": "GeoNames 11611478 Yamato"
-   },
-   "lat": 35.47276,
-   "lon": 139.45101,
+   "n_geonames": 3,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 3 aday: Yamatohama 28.36077,129.39413; Yamada 32.69678,130.96469; Yamato 35.47276,139.45101"
   },
   {
    "ad": "Demirkapı",
@@ -5688,16 +7152,27 @@
   {
    "ad": "Atlah",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 5,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Talas",
+    "Taraz",
+    "Atlakh"
+   ],
+   "not": "GeoNames 5 aday: Talas 42.52256,72.2417; Talas 42.35473,72.65678; Taraz 42.89799,71.37334; Talas 38.6908,35.5538 [ALIAS eşlemesi: Talas, Taraz, Atlakh; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Manyakheta",
    "n_pleiades": 0,
    "n_geonames": 0,
    "durum": "yok",
-   "sinif": "yok"
+   "sinif": "yok",
+   "alias": [
+    "Malkhed",
+    "Manyakheta"
+   ],
+   "not": " [ALIAS eşlemesi: Malkhed, Manyakheta; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Kyushu",
@@ -5717,24 +7192,22 @@
   {
    "ad": "Agaune",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 13,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "alias": [
+    "Saint-Maurice",
+    "Agaunum"
+   ],
+   "not": "GeoNames 13 aday: Saint-Maurice 46.21826,7.0032; Saint-Maurice-sur-Moselle 47.85889,6.82477; Saint-Maurice-sur-Fessard 47.99231,2.62157; Saint-Maurice-Montcouronne 48.58288,2.12504 [ALIAS eşlemesi: Saint-Maurice, Agaunum; alias_teyit:false — TDV başlığı teyidi bekliyor]"
   },
   {
    "ad": "Canterbury",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 51.27904,
-    "lon": 1.07992,
-    "kaynak": "GeoNames 2653877 Canterbury"
-   },
-   "lat": 51.27904,
-   "lon": 1.07992,
+   "n_geonames": 5,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 5 aday: Canterbury -33.91192,151.11862; Canterbury -37.8247,145.08476; Canterbury 51.27904,1.07992; Canterbury 43.33702,-71.56535"
   },
   {
    "ad": "Degsastan",
@@ -5767,7 +7240,7 @@
   {
    "ad": "Sarmizegetusa",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 45.669615,
@@ -5803,24 +7276,25 @@
   {
    "ad": "Pliska",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 43.36667,
+    "lon": 27.11667,
+    "kaynak": "GeoNames 728199 Pliska"
+   },
+   "lat": 43.36667,
+   "lon": 27.11667,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Simancas",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 40.43533,
-    "lon": -3.6251,
-    "kaynak": "GeoNames 11550027 Simancas"
-   },
-   "lat": 40.43533,
-   "lon": -3.6251,
+   "n_geonames": 2,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 2 aday: Simancas 41.59072,-4.82796; Simancas 40.43533,-3.6251"
   },
   {
    "ad": "Doğu Francia",
@@ -5847,10 +7321,10 @@
   {
    "ad": "Palmira",
    "n_pleiades": 0,
-   "n_geonames": 4,
+   "n_geonames": 13,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 4 aday: Palmira 3.53479,-76.29774; Palmira 22.24217,-80.39164; Tadmur 34.5624,38.28402; Palmira 7.8375,-72.22794"
+   "not": "GeoNames 13 aday: Palmira 3.53479,-76.29774; Palmira 22.24217,-80.39164; Palmira -2.08155,-78.73106; Oppido Lucano 40.76174,15.98818"
   },
   {
    "ad": "Medya",
@@ -5882,6 +7356,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Homs",
+   "ulke_modern": "SY",
    "lat": 34.7376565,
    "lon": 36.719319,
    "tanik": [
@@ -5946,7 +7422,7 @@
   {
    "ad": "Kadıköy",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 5,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 40.983393,
@@ -6070,9 +7546,17 @@
   {
    "ad": "Mansûriye",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 41.16966,
+    "lon": 30.22714,
+    "kaynak": "GeoNames 743558 Kefken"
+   },
+   "lat": 41.16966,
+   "lon": 30.22714,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Câmiayn",
@@ -6165,24 +7649,18 @@
   {
    "ad": "Ras",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 37.27611,
-    "lon": 49.58862,
-    "kaynak": "GeoNames 118743 Rasht"
-   },
-   "lat": 37.27611,
-   "lon": 49.58862,
+   "n_geonames": 3,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 3 aday: Rās 26.30577,74.19525; Rasht 37.27611,49.58862; Ross 39.31228,-84.6505"
   },
   {
    "ad": "Montferrat",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Montferrat 45.48481,5.5902; Montferrat 43.61196,6.48093"
   },
   {
    "ad": "Avusturya",
@@ -6208,7 +7686,7 @@
   {
    "ad": "Gur",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 28.8528648953,
@@ -6407,17 +7885,10 @@
   {
    "ad": "Tisa",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 36.58972,
-    "lon": 2.44889,
-    "kaynak": "GeoNames 2476028 Tipasa"
-   },
-   "lat": 36.58972,
-   "lon": 2.44889,
+   "n_geonames": 2,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 2 aday: Tipasa 36.58972,2.44889; Tisa 47.94844,23.95768"
   },
   {
    "ad": "Vatapi",
@@ -6429,16 +7900,32 @@
   {
    "ad": "Angkor Borei",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 10.99497,
+    "lon": 104.97477,
+    "kaynak": "GeoNames 1829924 Phumĭ Ângkôr Borei"
+   },
+   "lat": 10.99497,
+   "lon": 104.97477,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Danyang",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 26.35102,
+    "lon": 119.4803,
+    "kaynak": "GeoNames 1813803 Danyang"
+   },
+   "lat": 26.35102,
+   "lon": 119.4803,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Yarlung",
@@ -6485,9 +7972,17 @@
   {
    "ad": "Qinghai",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 35.61893,
+    "lon": 139.7791,
+    "kaynak": "GeoNames 10958444 Aomi"
+   },
+   "lat": 35.61893,
+   "lon": 139.7791,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Xinjiang sınır kuşağı",
@@ -6664,7 +8159,7 @@
   {
    "ad": "Geneva",
    "n_pleiades": 1,
-   "n_geonames": 2,
+   "n_geonames": 12,
    "durum": "belirsiz",
    "sinif": "yok",
    "not": "Pleiades adayları yerleşim değil (La Temple de la Madeleine, Geneva:church-2)"
@@ -6686,9 +8181,10 @@
   {
    "ad": "Saint-Maurice",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 13,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 13 aday: Saint-Maurice 46.21826,7.0032; Saint-Maurice-sur-Moselle 47.85889,6.82477; Saint-Maurice-sur-Fessard 47.99231,2.62157; Saint-Maurice-Montcouronne 48.58288,2.12504"
   },
   {
    "ad": "Güney İngiltere",
@@ -6722,9 +8218,17 @@
   {
    "ad": "Hexham",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 54.96986,
+    "lon": -2.104,
+    "kaynak": "GeoNames 2647007 Hexham"
+   },
+   "lat": 54.96986,
+   "lon": -2.104,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Maserfeld",
@@ -6760,6 +8264,8 @@
    "n_pleiades": 2,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Falkirk",
+   "ulke_modern": "GB",
    "lat": 55.999104,
    "lon": -3.784948,
    "tanik": [
@@ -6795,32 +8301,18 @@
   {
    "ad": "Leeds",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 53.79648,
-    "lon": -1.54785,
-    "kaynak": "GeoNames 2644688 Leeds"
-   },
-   "lat": 53.79648,
-   "lon": -1.54785,
+   "n_geonames": 4,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 4 aday: Leeds 53.79648,-1.54785; Leeds 33.54816,-86.54443; Hoopeston 40.46726,-87.66836; Leeds 44.3034,-70.1195"
   },
   {
    "ad": "Whitby",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 43.88342,
-    "lon": -78.93287,
-    "kaynak": "GeoNames 6180170 Whitby"
-   },
-   "lat": 43.88342,
-   "lon": -78.93287,
+   "n_geonames": 3,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 3 aday: Whitby 43.88342,-78.93287; Whitby 54.48774,-0.61498; Whitby -41.10827,174.8902"
   },
   {
    "ad": "Nechtansmere",
@@ -6839,9 +8331,17 @@
   {
    "ad": "Angus",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 44.31681,
+    "lon": -79.88295,
+    "kaynak": "GeoNames 5885280 Angus"
+   },
+   "lat": 44.31681,
+   "lon": -79.88295,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Mugdock",
@@ -6874,9 +8374,17 @@
   {
    "ad": "Dunkeld",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 56.5655,
+    "lon": -3.58559,
+    "kaynak": "GeoNames 2650716 Dunkeld"
+   },
+   "lat": 56.5655,
+   "lon": -3.58559,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Forteviot",
@@ -6888,9 +8396,17 @@
   {
    "ad": "Ballon",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 48.1755,
+    "lon": 0.23488,
+    "kaynak": "GeoNames 3035211 Ballon"
+   },
+   "lat": 48.1755,
+   "lon": 0.23488,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Aclea",
@@ -6902,17 +8418,10 @@
   {
    "ad": "Surrey",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 49.10635,
-    "lon": -122.82509,
-    "kaynak": "GeoNames 6159905 Surrey"
-   },
-   "lat": 49.10635,
-   "lon": -122.82509,
+   "n_geonames": 3,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 3 aday: Surrey 49.10635,-122.82509; Omega 31.34102,-83.5935; Surrey 48.2364,-101.13349"
   },
   {
    "ad": "Vendôme",
@@ -6932,8 +8441,10 @@
   {
    "ad": "Senlis",
    "n_pleiades": 1,
-   "n_geonames": 1,
+   "n_geonames": 2,
    "durum": "cift_tanik",
+   "esanlam_modern": "Senlis",
+   "ulke_modern": "FR",
    "lat": 49.2051355,
    "lon": 2.585975,
    "tanik": [
@@ -6964,6 +8475,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Auxerre",
+   "ulke_modern": "FR",
    "lat": 47.7978475,
    "lon": 3.573539,
    "tanik": [
@@ -7013,9 +8526,10 @@
   {
    "ad": "Edington",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Edington 51.27583,-2.10639; Eddington 40.08456,-74.94489"
   },
   {
    "ad": "Ethandun",
@@ -7029,6 +8543,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Laon",
+   "ulke_modern": "FR",
    "lat": 49.56409,
    "lon": 3.6245035,
    "tanik": [
@@ -7086,9 +8602,17 @@
   {
    "ad": "Fitjar",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 59.91803,
+    "lon": 5.31674,
+    "kaynak": "GeoNames 3157436 Fitjar"
+   },
+   "lat": 59.91803,
+   "lon": 5.31674,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Lade",
@@ -7132,9 +8656,17 @@
   {
    "ad": "Melhus",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 63.28555,
+    "lon": 10.27806,
+    "kaynak": "GeoNames 3146125 Melhus"
+   },
+   "lat": 63.28555,
+   "lon": 10.27806,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Transkafkasya",
@@ -7175,32 +8707,10 @@
   {
    "ad": "Caesarea",
    "n_pleiades": 4,
-   "n_geonames": 1,
-   "durum": "cift_tanik",
-   "lat": 38.72640055,
-   "lon": 35.4743607,
-   "tanik": [
-    {
-     "kaynak": "Pleiades",
-     "url_veya_atif": "pleiades.stoa.org/places/629035 (Mazaka/Eusebeia/Caesarea, settlement, findspot, precise)",
-     "lat": 38.72640055,
-     "lon": 35.4743607
-    },
-    {
-     "kaynak": "GeoNames",
-     "url_veya_atif": "geonames.org/308464 (Kayseri, TR)",
-     "lat": 38.73222,
-     "lon": 35.48528
-    }
-   ],
-   "konum_kesinligi": "kesin",
-   "pleiades_tip": "settlement, findspot",
-   "pleiades_donem": [
-    -1200.0,
-    2000.0
-   ],
+   "n_geonames": 4,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. Birden çok Pleiades kümesi; GeoNames ile eşleşen seçildi."
+   "not": "4 ayrı Pleiades kümesi: Stratonos Pyrgos/Caesarea 32.502,34.892; Sexi/Saxetanum 36.735,-3.691; Mazaka/Eusebeia/Caesarea 38.726,35.474; Anazarbos/Caesarea/Ioustin(ian)oupolis 37.256,35.898"
   },
   {
    "ad": "Garamant ülkesi",
@@ -7221,6 +8731,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Almuñécar",
+   "ulke_modern": "ES",
    "lat": 36.734589,
    "lon": -3.690755,
    "tanik": [
@@ -7264,17 +8776,10 @@
   {
    "ad": "Talavera",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 15.5883,
-    "lon": 120.9192,
-    "kaynak": "GeoNames 1684016 Talavera"
-   },
-   "lat": 15.5883,
-   "lon": 120.9192,
+   "n_geonames": 2,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 2 aday: Talavera -13.65306,-73.42917; Talavera 15.5883,120.9192"
   },
   {
    "ad": "Valdejunquera",
@@ -7323,6 +8828,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Strasbourg",
+   "ulke_modern": "FR",
    "lat": 48.582416,
    "lon": 7.747407,
    "tanik": [
@@ -7366,17 +8873,10 @@
   {
    "ad": "Forchheim",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 49.71754,
-    "lon": 11.05877,
-    "kaynak": "GeoNames 2925910 Forchheim"
-   },
-   "lat": 49.71754,
-   "lon": 11.05877,
+   "n_geonames": 2,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 2 aday: Forchheim 49.71754,11.05877; Forchheim 48.16667,7.7"
   },
   {
    "ad": "Franconia",
@@ -7403,9 +8903,17 @@
   {
    "ad": "Fritzlar",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 51.13181,
+    "lon": 9.27557,
+    "kaynak": "GeoNames 2924326 Fritzlar"
+   },
+   "lat": 51.13181,
+   "lon": 9.27557,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Riade",
@@ -7591,6 +9099,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Peshawar",
+   "ulke_modern": "PK",
    "lat": 34.0123846,
    "lon": 71.5787458,
    "tanik": [
@@ -7658,7 +9168,7 @@
    "n_geonames": 2,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "5 ayrı Pleiades kümesi: Arbēla 32.750,35.250; Arbela 32.807,35.505; Arbela 32.556,35.849; Arbela/Arba-ilu 36.191,44.009; ʿĂfulȧ 32.250,35.250"
+   "not": "5 ayrı Pleiades kümesi: ʿĂfulȧ 32.250,35.250; Arbela 32.807,35.505; Arbēla 32.750,35.250; Arbela/Arba-ilu 36.191,44.009; Arbela 32.556,35.849"
   },
   {
    "ad": "Carrhae",
@@ -7760,13 +9270,10 @@
   {
    "ad": "Bâlis",
    "n_pleiades": 1,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 35.9870271966,
-    "lon": 38.1111142153,
-    "kaynak": "Pleiades 668208"
-   },
+   "n_geonames": 2,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Maskanah",
+   "ulke_modern": "SY",
    "lat": 35.9870271966,
    "lon": 38.1111142153,
    "tanik": [
@@ -7775,6 +9282,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/668208 (Barbalissus, settlement, archaeological-site, precise)",
      "lat": 35.9870271966,
      "lon": 38.1111142153
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/167080 (Maskanah, SY)",
+     "lat": 35.96577,
+     "lon": 38.04165
     }
    ],
    "konum_kesinligi": "kesin",
@@ -7798,6 +9311,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "İzmit",
+   "ulke_modern": "TR",
    "lat": 40.7651905,
    "lon": 29.919887,
    "tanik": [
@@ -7864,7 +9379,7 @@
   {
    "ad": "Havran",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "bolge_nokta",
    "lat": 32.7335787681,
    "lon": 36.5348059738,
@@ -7953,7 +9468,7 @@
   {
    "ad": "Soba",
    "n_pleiades": 1,
-   "n_geonames": 1,
+   "n_geonames": 3,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 34.7376565,
@@ -8017,9 +9532,10 @@
   {
    "ad": "Mûte",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Moutier 47.27818,7.36951; Moûtiers 45.48459,6.53146"
   },
   {
    "ad": "Huneyn",
@@ -8038,9 +9554,17 @@
   {
    "ad": "Arafat",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 18.04639,
+    "lon": -15.97194,
+    "kaynak": "GeoNames 9222766 Arafat"
+   },
+   "lat": 18.04639,
+   "lon": -15.97194,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Büzâha",
@@ -8052,10 +9576,34 @@
   {
    "ad": "Akrabâ",
    "n_pleiades": 3,
-   "n_geonames": 0,
-   "durum": "belirsiz",
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "‘Aqrabā",
+   "ulke_modern": "SY",
+   "lat": 33.110675,
+   "lon": 36.007157,
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "pleiades.stoa.org/places/678011 (Akraba, settlement, precise)",
+     "lat": 33.110675,
+     "lon": 36.007157
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/173126 (‘Aqrabā, SY)",
+     "lat": 33.10925,
+     "lon": 36.00722
+    }
+   ],
+   "konum_kesinligi": "kesin",
+   "pleiades_tip": "settlement",
+   "pleiades_donem": [
+    -30.0,
+    640.0
+   ],
    "sinif": "yok",
-   "not": "2 ayrı Pleiades kümesi: Akraba 33.111,36.007; Akraba 32.127,35.343"
+   "not": "Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. Birden çok Pleiades kümesi; GeoNames ile eşleşen seçildi."
   },
   {
    "ad": "Aynişems",
@@ -8067,10 +9615,10 @@
   {
    "ad": "Heliopolis",
    "n_pleiades": 2,
-   "n_geonames": 2,
+   "n_geonames": 3,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "Aynı ad birden çok uzak yerde (GeoNames): Héliopolis 36.50361,7.44278; Baalbek 34.00583,36.21806"
+   "not": "Aynı ad birden çok uzak yerde (GeoNames): Heliópolis -10.68333,-38.28611; Héliopolis 36.50361,7.44278; Baalbek 34.00583,36.21806"
   },
   {
    "ad": "Orta Asya bozkırı",
@@ -8174,9 +9722,10 @@
   {
    "ad": "Orhon",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 3,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 3 aday: Nart 49.145,105.38833; Mandal 48.63111,103.52917; Orhon 49.8325,106.13639"
   },
   {
    "ad": "Rusâfe",
@@ -8262,7 +9811,7 @@
    "n_geonames": 0,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "2 ayrı Pleiades kümesi: Tell Wilaya 32.313,45.660; Tell Abu Salabikh 32.253,45.054"
+   "not": "2 ayrı Pleiades kümesi: Tell Abu Salabikh 32.253,45.054; Tell Wilaya 32.313,45.660"
   },
   {
    "ad": "Mâsebezân",
@@ -8310,16 +9859,32 @@
   {
    "ad": "Pozantı",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 37.42778,
+    "lon": 34.87167,
+    "kaynak": "GeoNames 302482 Pozantı"
+   },
+   "lat": 37.42778,
+   "lon": 34.87167,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Bez",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 50.38256,
+    "lon": 24.00789,
+    "kaynak": "GeoNames 712471 Belz"
+   },
+   "lat": 50.38256,
+   "lon": 24.00789,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Karabalgasun",
@@ -8359,9 +9924,10 @@
   {
    "ad": "Şirak",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Shirak 40.84042,43.91582; Szirák 47.83095,19.53105"
   },
   {
    "ad": "Güney Irak",
@@ -8380,10 +9946,10 @@
   {
    "ad": "Arîş",
    "n_pleiades": 1,
-   "n_geonames": 2,
+   "n_geonames": 3,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "Aynı ad birden çok uzak yerde (GeoNames): Arīsh 31.13159,33.79844; Arys 42.43015,68.8087"
+   "not": "Aynı ad birden çok uzak yerde (GeoNames): Arīsh 31.13159,33.79844; Áris 37.0992,22.00443; Arys 42.43015,68.8087"
   },
   {
    "ad": "Lücûn",
@@ -8458,9 +10024,17 @@
   {
    "ad": "Kât",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": -35.11485,
+    "lon": 173.26366,
+    "kaynak": "GeoNames 6228827 Kaitaia"
+   },
+   "lat": -35.11485,
+   "lon": 173.26366,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Madru Mûy",
@@ -8494,16 +10068,25 @@
   {
    "ad": "Aztlán",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Barrio Aztlán 20.46562,-98.08553; Aztlán 16.76919,-92.92316"
   },
   {
    "ad": "Chapultepec",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 19.20216,
+    "lon": -99.56176,
+    "kaynak": "GeoNames 3518280 Chapultepec"
+   },
+   "lat": 19.20216,
+   "lon": -99.56176,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Kuzey Karolina",
@@ -8551,13 +10134,10 @@
   {
    "ad": "Yakapınar",
    "n_pleiades": 1,
-   "n_geonames": 0,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 36.9580404953,
-    "lon": 35.6223738026,
-    "kaynak": "Pleiades 658538"
-   },
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Yakapınar",
+   "ulke_modern": "TR",
    "lat": 36.9580404953,
    "lon": 35.6223738026,
    "tanik": [
@@ -8566,6 +10146,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/658538 (Mopsou(h)estia/Seleukeia pros to Pyramo, settlement, precise)",
      "lat": 36.9580404953,
      "lon": 35.6223738026
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/297882 (Yakapınar, TR)",
+     "lat": 36.97342,
+     "lon": 35.62043
     }
    ],
    "konum_kesinligi": "kesin",
@@ -8608,8 +10194,10 @@
   {
    "ad": "Sis",
    "n_pleiades": 1,
-   "n_geonames": 1,
+   "n_geonames": 3,
    "durum": "cift_tanik",
+   "esanlam_modern": "Kozan",
+   "ulke_modern": "TR",
    "lat": 37.4488715,
    "lon": 35.8163535,
    "tanik": [
@@ -8646,17 +10234,10 @@
   {
    "ad": "Kemalpaşa",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 38.42621,
-    "lon": 27.41731,
-    "kaynak": "GeoNames 308224 Kemalpaşa"
-   },
-   "lat": 38.42621,
-   "lon": 27.41731,
+   "n_geonames": 2,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 2 aday: Kemalpaşa 38.42621,27.41731; Kemalpaşa 41.48336,41.5275"
   },
   {
    "ad": "Nymphaion",
@@ -8690,9 +10271,17 @@
   {
    "ad": "Sultanhanı",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 38.2471,
+    "lon": 33.54961,
+    "kaynak": "GeoNames 300197 Sultanhanı"
+   },
+   "lat": 38.2471,
+   "lon": 33.54961,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Menekşe",
@@ -8740,7 +10329,7 @@
   {
    "ad": "Alba",
    "n_pleiades": 3,
-   "n_geonames": 2,
+   "n_geonames": 4,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 42.0799043722,
@@ -8784,9 +10373,10 @@
   {
    "ad": "Clontarf",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Clontarf -33.80554,151.25367; Clontarf -27.25341,153.07835"
   },
   {
    "ad": "Prespa",
@@ -8805,17 +10395,10 @@
   {
    "ad": "Essex",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 39.30927,
-    "lon": -76.47496,
-    "kaynak": "GeoNames 4354428 Essex"
-   },
-   "lat": 39.30927,
-   "lon": -76.47496,
+   "n_geonames": 3,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 3 aday: Essex 42.17509,-82.82483; Essex 39.30927,-76.47496; Essex 42.63204,-70.78283"
   },
   {
    "ad": "Pereyaslav",
@@ -8879,27 +10462,40 @@
   {
    "ad": "Biograd",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 43.94333,
+    "lon": 15.45194,
+    "kaynak": "GeoNames 3204121 Biograd na Moru"
+   },
+   "lat": 43.94333,
+   "lon": 15.45194,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Vitry-aux-Loges",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 47.93333,
+    "lon": 2.26667,
+    "kaynak": "GeoNames 2967864 Vitry-aux-Loges"
+   },
+   "lat": 47.93333,
+   "lon": 2.26667,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Cerami",
    "n_pleiades": 1,
-   "n_geonames": 0,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 37.809495,
-    "lon": 14.508204,
-    "kaynak": "Pleiades 462155"
-   },
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Cerami",
+   "ulke_modern": "IT",
    "lat": 37.809495,
    "lon": 14.508204,
    "tanik": [
@@ -8908,6 +10504,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/462155 (Cerami, settlement, precise)",
      "lat": 37.809495,
      "lon": 14.508204
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2525031 (Cerami, IT)",
+     "lat": 37.80953,
+     "lon": 14.5066
     }
    ],
    "konum_kesinligi": "kesin",
@@ -8922,10 +10524,10 @@
   {
    "ad": "Hastings",
    "n_pleiades": 0,
-   "n_geonames": 5,
+   "n_geonames": 13,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 5 aday: Hastings 50.85568,0.58009; Hastings -39.6381,176.84918; Hastings 44.7433,-92.85243; Hastings 40.58612,-98.38839"
+   "not": "GeoNames 13 aday: Hastings -38.3,145.18333; Hastings 13.07513,-59.59688; Hastings 50.85568,0.58009; Hastings -39.6381,176.84918"
   },
   {
    "ad": "Misilmeri",
@@ -8945,13 +10547,10 @@
   {
    "ad": "Cassel",
    "n_pleiades": 1,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 50.799218,
-    "lon": 2.486896,
-    "kaynak": "Pleiades 108865"
-   },
+   "n_geonames": 2,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Cassel",
+   "ulke_modern": "FR",
    "lat": 50.799218,
    "lon": 2.486896,
    "tanik": [
@@ -8960,6 +10559,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/108865 (Castellum Menapiorum, settlement, precise)",
      "lat": 50.799218,
      "lon": 2.486896
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/3028440 (Cassel, FR)",
+     "lat": 50.80109,
+     "lon": 2.48527
     }
    ],
    "konum_kesinligi": "kesin",
@@ -8991,6 +10596,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Solin",
+   "ulke_modern": "HR",
    "lat": 43.539561,
    "lon": 16.483426,
    "tanik": [
@@ -9019,9 +10626,17 @@
   {
    "ad": "Canossa",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 53.634,
+    "lon": -113.52036,
+    "kaynak": "GeoNames 7626868 Canossa"
+   },
+   "lat": 53.634,
+   "lon": -113.52036,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Emilia",
@@ -9033,16 +10648,32 @@
   {
    "ad": "Dıraç",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 45.6043,
+    "lon": 0.24755,
+    "kaynak": "GeoNames 3021330 Dirac"
+   },
+   "lat": 45.6043,
+   "lon": 0.24755,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Duklja",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 49.55554,
+    "lon": 21.68317,
+    "kaynak": "GeoNames 772857 Dukla"
+   },
+   "lat": 49.55554,
+   "lon": 21.68317,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Cezîretülhadrâ",
@@ -9054,17 +10685,10 @@
   {
    "ad": "Algeciras",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 36.13326,
-    "lon": -5.45051,
-    "kaynak": "GeoNames 2522013 Algeciras"
-   },
-   "lat": 36.13326,
-   "lon": -5.45051,
+   "n_geonames": 3,
+   "durum": "belirsiz",
    "sinif": "yok",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 3 aday: Algeciras 2.52385,-75.31733; Algeciras 36.13326,-5.45051; Algeciras 11.4154,120.8168"
   },
   {
    "ad": "St. Alban kilisesi",
@@ -9120,9 +10744,17 @@
   {
    "ad": "Biograd na Moru",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 43.94333,
+    "lon": 15.45194,
+    "kaynak": "GeoNames 3204121 Biograd na Moru"
+   },
+   "lat": 43.94333,
+   "lon": 15.45194,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Uklîş",
@@ -9134,13 +10766,10 @@
   {
    "ad": "Uclés",
    "n_pleiades": 1,
-   "n_geonames": 0,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 39.98188,
-    "lon": -2.86232,
-    "kaynak": "Pleiades 265983"
-   },
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Uclés",
+   "ulke_modern": "ES",
    "lat": 39.98188,
    "lon": -2.86232,
    "tanik": [
@@ -9149,6 +10778,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/265983 (Ocules, settlement, precise)",
      "lat": 39.98188,
      "lon": -2.86232
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2510106 (Uclés, ES)",
+     "lat": 39.97938,
+     "lon": -2.86143
     }
    ],
    "konum_kesinligi": "kesin",
@@ -9185,16 +10820,32 @@
   {
    "ad": "Jaca",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 42.56898,
+    "lon": -0.54987,
+    "kaynak": "GeoNames 3120211 Jaca"
+   },
+   "lat": 42.56898,
+   "lon": -0.54987,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Galluccio",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 41.35232,
+    "lon": 13.95372,
+    "kaynak": "GeoNames 3176353 Galluccio"
+   },
+   "lat": 41.35232,
+   "lon": 13.95372,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Garigliano",
@@ -9207,9 +10858,17 @@
   {
    "ad": "Ourique",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 37.6539,
+    "lon": -8.22569,
+    "kaynak": "GeoNames 2265386 Ourique"
+   },
+   "lat": 37.6539,
+   "lon": -8.22569,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Grathe Hede",
@@ -9221,37 +10880,63 @@
   {
    "ad": "Leinster",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": -27.92028,
+    "lon": 120.6967,
+    "kaynak": "GeoNames 8310729 Leinster"
+   },
+   "lat": -27.92028,
+   "lon": 120.6967,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Alnwick",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Alnwick 47.21568,-65.18062; Alnwick 55.41318,-1.70563"
   },
   {
    "ad": "Northumberland",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 3,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 3 aday: Northumberland 44.56339,-71.5587; Northumberland 43.1273,-73.58817; Northumberland 40.89175,-76.79747"
   },
   {
    "ad": "Falaise",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 48.89217,
+    "lon": -0.19527,
+    "kaynak": "GeoNames 3019113 Falaise"
+   },
+   "lat": 48.89217,
+   "lon": -0.19527,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Bogolyubovo",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 56.19052,
+    "lon": 40.52313,
+    "kaynak": "GeoNames 575609 Bogolyubovo"
+   },
+   "lat": 56.19052,
+   "lon": 40.52313,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Fimreite",
@@ -9270,20 +10955,18 @@
   {
    "ad": "Georgenberg",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Georgenberg 47.63333,13.15; Georgenberg 49.70297,12.42082"
   },
   {
    "ad": "Enns",
    "n_pleiades": 1,
-   "n_geonames": 0,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 48.22176695,
-    "lon": 14.47483505,
-    "kaynak": "Pleiades 118802"
-   },
+   "n_geonames": 1,
+   "durum": "cift_tanik",
+   "esanlam_modern": "Enns",
+   "ulke_modern": "AT",
    "lat": 48.22176695,
    "lon": 14.47483505,
    "tanik": [
@@ -9292,6 +10975,12 @@
      "url_veya_atif": "pleiades.stoa.org/places/118802 (Lauriacum, fort-2, settlement, fort, precise)",
      "lat": 48.22176695,
      "lon": 14.47483505
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "geonames.org/2780048 (Enns, AT)",
+     "lat": 48.21346,
+     "lon": 14.47612
     }
    ],
    "konum_kesinligi": "kesin",
@@ -9342,9 +11031,17 @@
   {
    "ad": "Zawichost",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 50.80743,
+    "lon": 21.85408,
+    "kaynak": "GeoNames 753611 Zawichost"
+   },
+   "lat": 50.80743,
+   "lon": 21.85408,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Vistül",
@@ -9358,6 +11055,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Béziers",
+   "ulke_modern": "FR",
    "lat": 43.3416765,
    "lon": 3.217941,
    "tanik": [
@@ -9457,9 +11156,17 @@
   {
    "ad": "Cortenuova",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 45.53898,
+    "lon": 9.78786,
+    "kaynak": "GeoNames 6535165 Cortenuova"
+   },
+   "lat": 45.53898,
+   "lon": 9.78786,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Örlygsstaðir",
@@ -9507,15 +11214,18 @@
   {
    "ad": "Fossalta",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Fossalta di Portogruaro 45.79329,12.90998; Fossalta di Piave 45.64497,12.50902"
   },
   {
    "ad": "Millau",
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Millau",
+   "ulke_modern": "FR",
    "lat": 44.089894277,
    "lon": 3.11066731599,
    "tanik": [
@@ -9544,7 +11254,7 @@
   {
    "ad": "Castel Fiorentino",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "belirsiz",
    "sinif": "yok",
    "not": "Pleiades adayları yerleşim değil (Castel Fiorentino:castle, archaeological-site)"
@@ -9552,7 +11262,7 @@
   {
    "ad": "Apulia",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "bolge_nokta",
    "lat": 41.1197243031,
    "lon": 16.1735916107,
@@ -9577,9 +11287,17 @@
   {
    "ad": "Lavello",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 41.04769,
+    "lon": 15.78915,
+    "kaynak": "GeoNames 3175009 Lavello"
+   },
+   "lat": 41.04769,
+   "lon": 15.78915,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Potenza",
@@ -9606,9 +11324,10 @@
   {
    "ad": "Largs",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Largs -32.7,151.6; Largs 55.79629,-4.86337"
   },
   {
    "ad": "Mindaugas'ın domeni",
@@ -9620,16 +11339,32 @@
   {
    "ad": "Scurcola Marsicana",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 42.06313,
+    "lon": 13.33919,
+    "kaynak": "GeoNames 3166856 Scurcola Marsicana"
+   },
+   "lat": 42.06313,
+   "lon": 13.33919,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Tagliacozzo",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 42.06933,
+    "lon": 13.25469,
+    "kaynak": "GeoNames 3165991 Tagliacozzo"
+   },
+   "lat": 42.06933,
+   "lon": 13.25469,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Karuse",
@@ -9677,9 +11412,17 @@
   {
    "ad": "Hova",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 58.85363,
+    "lon": 14.21914,
+    "kaynak": "GeoNames 2704716 Hova"
+   },
+   "lat": 58.85363,
+   "lon": 14.21914,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Västergötland",
@@ -9706,16 +11449,32 @@
   {
    "ad": "Aizkraukle",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 56.60477,
+    "lon": 25.25534,
+    "kaynak": "GeoNames 461615 Aizkraukle"
+   },
+   "lat": 56.60477,
+   "lon": 25.25534,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Ascheraden",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 56.60477,
+    "lon": 25.25534,
+    "kaynak": "GeoNames 461615 Aizkraukle"
+   },
+   "lat": 56.60477,
+   "lon": 25.25534,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Letonya",
@@ -9757,9 +11516,17 @@
   {
    "ad": "Gurk",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 46.87389,
+    "lon": 14.29167,
+    "kaynak": "GeoNames 2777237 Gurk"
+   },
+   "lat": 46.87389,
+   "lon": 14.29167,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Festungsberg",
@@ -9799,16 +11566,25 @@
   {
    "ad": "Payerne",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 46.82192,
+    "lon": 6.93817,
+    "kaynak": "GeoNames 2659243 Payerne"
+   },
+   "lat": 46.82192,
+   "lon": 6.93817,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Lauterberg",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Bad Lauterberg im Harz 51.63272,10.47031; Lauterbourg 48.97515,8.17846"
   },
   {
    "ad": "Petersberg bei Halle",
@@ -9820,24 +11596,26 @@
   {
    "ad": "Laufen",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Laufen 47.42193,7.49946; Laufen 47.93568,12.92856"
   },
   {
    "ad": "Freiberg",
    "n_pleiades": 0,
-   "n_geonames": 2,
+   "n_geonames": 3,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 2 aday: Freiberg am Neckar 48.93196,9.2024; Freiberg 50.91089,13.33881"
+   "not": "GeoNames 3 aday: Příbor 49.64094,18.14499; Freiberg am Neckar 48.93196,9.2024; Freiberg 50.91089,13.33881"
   },
   {
    "ad": "Wartburg",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Wartburg 36.1048,-84.59716; Wartburg -29.43184,30.57567"
   },
   {
    "ad": "Burg Döben",
@@ -9856,9 +11634,17 @@
   {
    "ad": "Nossen",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 51.05798,
+    "lon": 13.29652,
+    "kaynak": "GeoNames 2861788 Nossen"
+   },
+   "lat": 51.05798,
+   "lon": 13.29652,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Herrenchiemsee",
@@ -9877,17 +11663,25 @@
   {
    "ad": "Franeker",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 53.18546,
+    "lon": 5.54123,
+    "kaynak": "GeoNames 2755845 Franeker"
+   },
+   "lat": 53.18546,
+   "lon": 5.54123,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Kulm",
    "n_pleiades": 0,
-   "n_geonames": 2,
+   "n_geonames": 6,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 2 aday: Khulm 36.69736,67.69826; Chełmno 53.34855,18.4251"
+   "not": "GeoNames 6 aday: Khulm 36.69736,67.69826; Kulm am Zirbitz 47.05814,14.48702; Unterkulm 47.30998,8.11371; Chlumec 50.69972,13.93964"
   },
   {
    "ad": "Chełmno",
@@ -9914,16 +11708,32 @@
   {
    "ad": "Friesach",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 46.95528,
+    "lon": 14.40583,
+    "kaynak": "GeoNames 2779229 Friesach"
+   },
+   "lat": 46.95528,
+   "lon": 14.40583,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Worringen",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 51.065,
+    "lon": 6.85936,
+    "kaynak": "GeoNames 2806107 Worringen"
+   },
+   "lat": 51.065,
+   "lon": 6.85936,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Štayermark",
@@ -9935,16 +11745,18 @@
   {
    "ad": "Busca",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Busca 44.51625,7.47662; Bușca 44.11166,24.80238"
   },
   {
    "ad": "Westkapelle",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 2,
+   "durum": "belirsiz",
+   "sinif": "yok",
+   "not": "GeoNames 2 aday: Westkapelle 51.31511,3.3017; Westkapelle 51.52917,3.44028"
   },
   {
    "ad": "Walcheren",
@@ -9963,14 +11775,22 @@
   {
    "ad": "Hoogwoud",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 52.71583,
+    "lon": 4.93889,
+    "kaynak": "GeoNames 2753663 Hoogwoud"
+   },
+   "lat": 52.71583,
+   "lon": 4.93889,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Cassano",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 2,
    "durum": "tek_tanik",
    "tek_tanik_koord": {
     "lat": 39.785357,
@@ -9999,9 +11819,17 @@
   {
    "ad": "Soncino",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 45.40033,
+    "lon": 9.86845,
+    "kaynak": "GeoNames 3166399 Soncino"
+   },
+   "lat": 45.40033,
+   "lon": 9.86845,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Sambiya",
@@ -10015,6 +11843,8 @@
    "n_pleiades": 1,
    "n_geonames": 1,
    "durum": "cift_tanik",
+   "esanlam_modern": "Asti",
+   "ulke_modern": "IT",
    "lat": 44.900895,
    "lon": 8.206756,
    "tanik": [
@@ -10043,9 +11873,17 @@
   {
    "ad": "Kurland",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": -33.94489,
+    "lon": 23.49272,
+    "kaynak": "GeoNames 11203982 Kurland"
+   },
+   "lat": -33.94489,
+   "lon": 23.49272,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Montaperti",
@@ -10057,10 +11895,10 @@
   {
    "ad": "Landsberg",
    "n_pleiades": 0,
-   "n_geonames": 2,
+   "n_geonames": 5,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 2 aday: Landsberg am Lech 48.04819,10.88282; Gorzów Wielkopolski 52.73371,15.22505"
+   "not": "GeoNames 5 aday: Landsberg 51.52698,12.16076; Landsberg am Lech 48.04819,10.88282; Górowo Iławeckie 54.28559,20.48886; Gorzów Wielkopolski 52.73371,15.22505"
   },
   {
    "ad": "Heilo",
@@ -10095,9 +11933,17 @@
   {
    "ad": "Roccavione",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 44.31355,
+    "lon": 7.47845,
+    "kaynak": "GeoNames 3169122 Roccavione"
+   },
+   "lat": 44.31355,
+   "lon": 7.47845,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Chanyuan",
@@ -10145,9 +11991,17 @@
   {
    "ad": "Ningjiang",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 45.16997,
+    "lon": 124.82369,
+    "kaynak": "GeoNames 12483507 Ningjiang"
+   },
+   "lat": 45.16997,
+   "lon": 124.82369,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Xingqing",
@@ -10275,9 +12129,17 @@
   {
    "ad": "Chi Lăng",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 21.57356,
+    "lon": 106.50258,
+    "kaynak": "GeoNames 8522285 Chi Lăng"
+   },
+   "lat": 21.57356,
+   "lon": 106.50258,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Cibadak",
@@ -10353,10 +12215,10 @@
   {
    "ad": "Bihar",
    "n_pleiades": 0,
-   "n_geonames": 2,
+   "n_geonames": 3,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "GeoNames 2 aday: Bihār Sharīf 25.20084,85.52389; Baihar 22.10133,80.54967"
+   "not": "GeoNames 3 aday: Bihār Sharīf 25.20084,85.52389; Baihar 22.10133,80.54967; Biharia 47.15,21.91667"
   },
   {
    "ad": "Gangaikondaçolapuram",
@@ -10375,7 +12237,7 @@
   {
    "ad": "Mâlva",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 2,
    "durum": "dogal",
    "sinif": "yok",
    "not": "Moulouya (river) (river)"
@@ -10447,9 +12309,17 @@
   {
    "ad": "Mesa Verde",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "yok"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 33.60586,
+    "lon": -114.73107,
+    "kaynak": "GeoNames 5372433 Mesa Verde"
+   },
+   "lat": 33.60586,
+   "lon": -114.73107,
+   "sinif": "yok",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Ceyhun",
@@ -11062,7 +12932,7 @@
    "n_geonames": 0,
    "durum": "belirsiz",
    "sinif": "yok",
-   "not": "2 ayrı Pleiades kümesi: Meroe 16.937,33.712; Meroe 36.250,36.262"
+   "not": "2 ayrı Pleiades kümesi: Meroe 36.250,36.262; Meroe 16.937,33.712"
   },
   {
    "ad": "Pre-Kerma",
@@ -11199,7 +13069,7 @@
   {
    "ad": "Kent",
    "n_pleiades": 1,
-   "n_geonames": 3,
+   "n_geonames": 8,
    "durum": "belirsiz",
    "sinif": "bolge",
    "not": "Pleiades adayları yerleşim değil (Roman Bath-House at Little Chart, Kent:bath)"
@@ -11207,9 +13077,10 @@
   {
    "ad": "Sussex",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "bolge"
+   "n_geonames": 5,
+   "durum": "belirsiz",
+   "sinif": "bolge",
+   "not": "GeoNames 5 aday: Sussex 45.72266,-65.50663; Sussex 36.91515,-77.27914; Newton 41.05815,-74.75267; Sussex 41.20982,-74.60766"
   },
   {
    "ad": "Filistin",
@@ -11275,9 +13146,17 @@
   {
    "ad": "Thüringen",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "bolge"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 47.2,
+    "lon": 9.76667,
+    "kaynak": "GeoNames 2763658 Thüringen"
+   },
+   "lat": 47.2,
+   "lon": 9.76667,
+   "sinif": "bolge",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Tibet",
@@ -11324,31 +13203,40 @@
   {
    "ad": "Hebei",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "bolge"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 39.15954,
+    "lon": 117.20338,
+    "kaynak": "GeoNames 8411565 Wanghailou"
+   },
+   "lat": 39.15954,
+   "lon": 117.20338,
+   "sinif": "bolge",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Çin",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "bolge"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 42.06582,
+    "lon": -94.86693,
+    "kaynak": "GeoNames 4850478 Carroll"
+   },
+   "lat": 42.06582,
+   "lon": -94.86693,
+   "sinif": "bolge",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Henan",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 26.88946,
-    "lon": 112.61888,
-    "kaynak": "GeoNames 1808370 Hengyang"
-   },
-   "lat": 26.88946,
-   "lon": 112.61888,
+   "n_geonames": 2,
+   "durum": "belirsiz",
    "sinif": "bolge",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 2 aday: Hengyang 26.88946,112.61888; Henån 58.23848,11.67598"
   },
   {
    "ad": "Wiltshire",
@@ -11469,24 +13357,25 @@
   {
    "ad": "Fars",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "bolge"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 56.77276,
+    "lon": 9.33925,
+    "kaynak": "GeoNames 2622310 Farsø"
+   },
+   "lat": 56.77276,
+   "lon": 9.33925,
+   "sinif": "bolge",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Şirvan",
    "n_pleiades": 0,
-   "n_geonames": 1,
-   "durum": "tek_tanik",
-   "tek_tanik_koord": {
-    "lat": 39.93778,
-    "lon": 48.929,
-    "kaynak": "GeoNames 148565 Şirvan"
-   },
-   "lat": 39.93778,
-   "lon": 48.929,
+   "n_geonames": 2,
+   "durum": "belirsiz",
    "sinif": "bolge",
-   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
+   "not": "GeoNames 2 aday: Şirvan 39.93778,48.929; Şirvan 38.06251,42.02517"
   },
   {
    "ad": "Champa",
@@ -11655,9 +13544,17 @@
   {
    "ad": "Arrân",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "bolge"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 55.58145,
+    "lon": -5.21233,
+    "kaynak": "GeoNames 8299836 Isle of Arran"
+   },
+   "lat": 55.58145,
+   "lon": -5.21233,
+   "sinif": "bolge",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Hârezm",
@@ -11968,7 +13865,7 @@
   {
    "ad": "Holstein",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 2,
    "durum": "belirsiz",
    "sinif": "bolge",
    "not": "Pleiades adayları yerleşim değil (Hölstein:villa)"
@@ -12069,7 +13966,7 @@
   {
    "ad": "Tuna",
    "n_pleiades": 1,
-   "n_geonames": 0,
+   "n_geonames": 1,
    "durum": "belirsiz",
    "sinif": "bolge",
    "not": "Pleiades adayları yerleşim değil (Tuna:cemetery)"
@@ -12256,9 +14153,17 @@
   {
    "ad": "Annam",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "bolge"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 36.3568,
+    "lon": 127.67282,
+    "kaynak": "GeoNames 6884833 Annam"
+   },
+   "lat": 36.3568,
+   "lon": 127.67282,
+   "sinif": "bolge",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Shandong",
@@ -12485,9 +14390,17 @@
   {
    "ad": "Aragon",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "bolge"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 34.04565,
+    "lon": -85.05606,
+    "kaynak": "GeoNames 4180114 Aragon"
+   },
+   "lat": 34.04565,
+   "lon": -85.05606,
+   "sinif": "bolge",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Tamarón vadisi",
@@ -12520,9 +14433,17 @@
   {
    "ad": "Raşka",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "bolge"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 43.28722,
+    "lon": 20.61528,
+    "kaynak": "GeoNames 793790 Raška"
+   },
+   "lat": 43.28722,
+   "lon": 20.61528,
+   "sinif": "bolge",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   },
   {
    "ad": "Kurtuba'nın kuzeyi",
@@ -12625,9 +14546,17 @@
   {
    "ad": "Vietnam",
    "n_pleiades": 0,
-   "n_geonames": 0,
-   "durum": "yok",
-   "sinif": "bolge"
+   "n_geonames": 1,
+   "durum": "tek_tanik",
+   "tek_tanik_koord": {
+    "lat": 50.46933,
+    "lon": 30.60044,
+    "kaynak": "GeoNames 13680668 Voskresenskyi-1"
+   },
+   "lat": 50.46933,
+   "lon": 30.60044,
+   "sinif": "bolge",
+   "not": "yalnız GeoNames (Pleiades eşleşmesi yok)"
   }
  ]
 }
