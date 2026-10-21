@@ -120,7 +120,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Ferdinand ile Zápolya János arasında yapılan anlaşma, Macaristan'ı iki kral arasında paylaştırdı ve Zápolya'nın ölümünden sonra tacın Habsburglara geçmesini öngördü. Anlaşma tutmadı; Zápolya'nın oğlunun doğması Budin'in Osmanlı eline geçmesine giden krizi başlattı.",
   kaynak:"gün komşudan: kronoloji_macaristan.js · akademik: Engel (2001), s. 364-365 (Nagyvárad Antlaşması, 24 Şubat 1538) — TDV bu anlaşmayı müstakil maddede işlemiyor; önceki yıl damgası (1538-01-01) KRONO-ORTA-AVRUPA-0929 ile komşu günüyle değiştirildi", yer_id:"Varad (Oradea)" },
 
-{ t:"1541-08-29", b:"Budin'in fethi — Macaristan üçe bölündü", tur:"bolunme", onem:4, dunya:3, kapsam:"dis", yer_id:"Budin",
+{ t:"1541-08-29", b:"Budin'in fethi — Macaristan üçe bölündü", tur:"bolunme", onem:4, dunya:3, kapsam:"dis", yer_id:"Aquincum-Óbuda-Pest",
   etiket:["askeri","toprak-kayip","konu-askeri","konu-siyasi"],
   d:"Budin'in Osmanlı idaresine geçmesiyle Macaristan üç parçaya ayrıldı: Osmanlı Macaristanı, kuzey-batıda Habsburg Kraliyet Macaristanı ve tâbi Erdel. Bu bölünme 1699'a kadar sürdü ve Habsburg siyasetinin merkezine Macaristan'ı geri alma hedefini yerleştirdi.", ic_not_d:"eski kaynak: devletler.js `habsburg` künyesinden devralındı · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihidir, bu oturumda bağımsız kaynakla sınanmadı)",
   kaynak:"TDV suleyman-i: ordu 26 Ağustos 1541'de Budin önüne vardı, padişah 2 Eylül'de şehre girdi · budin: eyalet 948/1541 — 29 Ağustos günü bu iki maddede YOK" },
@@ -292,7 +292,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Papalığın aracılığıyla Habsburg, Lehistan ve Venedik Osmanlı'ya karşı ittifak kurdu; Rusya 1686'da katıldı. Habsburg ilk kez Osmanlı'ya karşı çok cepheli ve sürekli bir koalisyonun içindeydi.",
   kaynak:"bulunamadı — gün DOĞRULANMADI", yer_kon:[48.3069,14.2858] },
 
-{ t:"1686-09-02", b:"Budin'in geri alınışı", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Budin",
+{ t:"1686-09-02", b:"Budin'in geri alınışı", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Aquincum-Óbuda-Pest",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Yüz kırk beş yıllık Osmanlı idaresinden sonra Budin imparatorluk ordusunun eline geçti. Avusturya ve Macar anlatılarında bu, Macaristan'ın geri alınışının simgesel anıdır; 1541'de açılan defterin kapanışıdır.",
   kaynak:"TDV `budin` (gövdesi okundu): \"1686'da muazzam bir ordu kalenin muhasarasına başlayıp şiddetli savaşlardan sonra 2 Eylül'de yapılan genel hücum sonunda Budin zaptedildi ve Osmanlı hâkimiyeti sona erdi\" — GÜN DOĞRULANDI · TDV `avusturya`" },

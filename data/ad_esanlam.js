@@ -46,7 +46,7 @@ window.AD_ESANLAM = {
 
   // ─── ÇÖZÜLEBİLİR: atlas adı ← öteki yazımlar ───────────────────────
   "esanlam": {
-    "Budin":                  ["Buda"],
+    "Aquincum-Óbuda-Pest":    ["Budin", "Buda"],
     "Semendire":              ["Smederevo"],
     "Üsküp":                  ["Skopje"],
     "Yaş":                    ["Iaşi", "Jassy"],

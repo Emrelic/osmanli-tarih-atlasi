@@ -64,7 +64,7 @@ window.KORIDOR_HALKA2_DUGUM = [
 {id:"h2-osek",ad:"Ösek (Osijek)",y:"Ösek (Osijek)",boyar:true,tip:"yerlesim",lat:45.554,lon:18.695,kol:["halka2/avusturya#2"],kaynak:"bulunamadı"},
 {id:"h2-mohac",ad:"Mohaç",y:"Mohaç",boyar:true,tip:"yerlesim",lat:45.993,lon:18.692,kol:["halka2/avusturya#3"],kaynak:"bulunamadı"},
 {id:"h2-simontorna",ad:"Şimontorna",y:"Şimontorna",boyar:true,tip:"yerlesim",lat:46.75,lon:18.551,kol:["halka2/avusturya#4"],kaynak:"bulunamadı"},
-{id:"h2-budin",ad:"Budin",y:"Budin",boyar:true,tip:"yerlesim",lat:47.498,lon:19.04,kol:["halka2/avusturya#5"],kaynak:"bulunamadı"},
+{id:"h2-budin",ad:"Aquincum-Óbuda-Pest",y:"Aquincum-Óbuda-Pest",boyar:true,tip:"yerlesim",lat:47.498,lon:19.04,kol:["halka2/avusturya#5"],kaynak:"bulunamadı"},
 {id:"h2-estergon",ad:"Estergon",y:"Estergon",boyar:true,tip:"yerlesim",lat:47.795,lon:18.74,kol:["halka2/avusturya#6"],kaynak:"bulunamadı"},
 
 // ───── HABSBURG KESİMİ (Komárom → Viyana) ─────

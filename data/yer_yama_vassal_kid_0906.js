@@ -64,7 +64,7 @@ window.YER_YAMA_VASSAL_KID_0906 = [
   { ad:"Kalas (Galatz)", v:[{f:"1456-06-01",t:"1878-07-13",k:"Boğdan Voyvodalığı",statu:"vassal"}] },
   { ad:"İbrail", v:[{f:"1462-06-01",t:"1538-09-01",k:"Eflak Voyvodalığı",statu:"vassal",kid:"eflak"}] },
   { ad:"Erdel (Kaloşvar)", v:[{f:"1541-08-29",t:"1687-08-12",k:"Erdel Prensliği",statu:"vassal"},{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)",statu:"vassal"}] },
-  { ad:"Budin", v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)",statu:"vassal"}] },
+  { ad:"Aquincum-Óbuda-Pest", v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)",statu:"vassal"}] },
   { ad:"Kandiye (Girit)", v:[{f:"1830-11-01",t:"1841-02-25",statu:"vassal"},{f:"1898-12-01",t:"1913-05-30",statu:"vassal"}] },
   { ad:"Hanya", v:[{f:"1830-11-01",t:"1841-02-25",statu:"vassal"},{f:"1898-12-01",t:"1913-05-30",statu:"vassal"}] },
   { ad:"Sisam", v:[{f:"1832-12-10",t:"1912-03-13",statu:"vassal"}] },

@@ -90,7 +90,7 @@ window.OLAYLAR_EK12 = [
 { t:"1527-09-23", k:"kayip", etiket:["toprak-kaybi","konu-askeri"],
   b:"Ferdinand Budin'i ele geçirdi — Szapolyai başşehirden çıkarıldı",
   gun:"23 Eylül 1527", ic_not_gun:"TDV kendi içinde çelişiyor: suleyman-i '23 Eylül 1527', budin '1527 Ağustosu'. Günü veren tek cümle suleyman-i'deki olduğu için o alındı.",
-  yer:"Budin (Buda), Peşte", yer_id:"Budin", kisiler:"I. Ferdinand, János Szapolyai, Kanûnî Sultan Süleyman",
+  yer:"Budin (Buda), Peşte", yer_id:"Aquincum-Óbuda-Pest", kisiler:"I. Ferdinand, János Szapolyai, Kanûnî Sultan Süleyman",
   d:"Mohaç'tan sonra Macar tahtında iki kral çıkmıştı: soyluların bir kısmı János Szapolyai'yi, bir kısmı Habsburg Ferdinand'ı seçmişti. Ferdinand 1527'de Budin'i ele geçirip Szapolyai'yi başşehirden çıkardı; Szapolyai Sultan Süleyman'dan yardım istedi. Bu, 1529 Viyana seferinin ilk hedefinin Budin olmasının sebebidir.",
   kaynak:"TDV suleyman-i AYNEN: '23 Eylül 1527'de Ferdinand, Szapolyai'yi Budin'den çıkarınca içerideki ağır krize rağmen Kanûnî Sultan Süleyman ve İbrâhim Paşa bütün dikkatlerini buraya yöneltti.' · TDV budin AYNEN: '1527 Ağustosunda Buda'yı ele geçiren Ferdinand'a karşı János Szapolyai Sultan Süleyman'dan yardım istedi.'" },
 

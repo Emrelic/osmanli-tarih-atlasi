@@ -312,7 +312,7 @@ window.SEHIRLER = [
   tarihce:"Sırp Despotu Curac Brankoviç'in elindeyken Osmanlı 1439'da fethetti; sonraki yüzyıllarda Osmanlı, Macar ve Avusturya arasında sık sık el değiştirdi.",
   yapilar:"Despot Đurađ Sarayı, Yahyâpaşazâde Bâlî Bey Türbesi, Kızlar Ağası Hamamı, otuz kuleli kale surları.",
   kaynak:"semendire" },
-{ ad:"Budin",      tur:"sehir", lat:47.498, lon:19.040,
+{ ad:"Aquincum-Óbuda-Pest",      tur:"sehir", lat:47.498, lon:19.040,
   k:[{f:"1541-08-29",t:"1686-09-02",d:2,y:"antlasma"}],
   koken:"Bugünkü Budapeşte'nin Tuna'nın sağ kıyısındaki 'Buda' kesimi için Osmanlı dönemi adı.",
   onem:"Macaristan'ın kuzeyinde, Tuna'nın sağ kıyısında, önemli ticaret yolları üzerinde bir eyalet merkezi ve ileri karakoluydu.",

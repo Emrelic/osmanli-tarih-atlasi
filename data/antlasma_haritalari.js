@@ -46,7 +46,7 @@ window.ANTLASMA_HARITALARI = [
     // Macaristan-Erdel çekirdeği, TDV karlofca'nın "Temeşvar hariç Erdel dahil bütün Macaristan
     // Avusturya'da kaldı" hükmünden, atlastaki yerleşim koordinatlarıyla zarf olarak çizilir.
     { taraf: "habsburg", etiket: "Avusturya'da kalan (Temeşvar hariç Erdel dahil Macaristan)", zarf: true, noktalar: [
-        { ad: "Budin", lat: 47.498, lon: 19.040,
+        { ad: "Aquincum-Óbuda-Pest", lat: 47.498, lon: 19.040,
           kaynak: "TDV karlofca: Temeşvar dışında Erdel dahil bütün Macaristan Avusturya'da kaldı — Budin Macaristan'ın merkezi olarak TEMSİLÎ nokta (metin şehir saymaz); koordinat data/yerlesimler.js" },
         { ad: "Eğri", lat: 47.902, lon: 20.377,
           kaynak: "TDV karlofca (aynı hüküm) — kuzey Macaristan'ın TEMSİLÎ noktası; koordinat data/yerlesimler.js" },

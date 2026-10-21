@@ -543,7 +543,7 @@ window.KRONOLOJI_RUSYA = [
   kaynak:"Riasanovsky & Steinberg, A History of Russia" },
 { t:"1849-06-01", b:"Rus ordusu Macar İhtilali'ni bastırmaya yardım etti", tur:"savas", onem:3, dunya:3, kapsam:"dis",
   etiket:["askeri","siyaset","konu-askeri","konu-siyasi","konu-isyan"],
-  yer_id:"Budin",
+  yer_id:"Aquincum-Óbuda-Pest",
   d:"I. Nikolay, Avusturya İmparatoru'nun çağrısı üzerine büyük bir orduyu Macaristan'a göndererek 1848 Macar bağımsızlık hareketini bastırmasına yardım etti. Bu müdahale, Rusya'nın \"Avrupa'nın jandarması\" olarak anıldığı muhafazakâr dış politikanın en açık göstergelerinden biridir.",
   kaynak:"Riasanovsky & Steinberg, A History of Russia" },
 { t:"1853-10-04", b:"Kırım Savaşı'nda yenildi (1856'ya dek)", tur:"savas", onem:4, dunya:4, kapsam:"dis",

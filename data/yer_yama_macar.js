@@ -40,7 +40,7 @@ window.YER_YAMA_MACAR = [
 { dosya:"kronoloji_macaristan.js", t:"1396-09-25", b:"Niğbolu Savaşı — Haçlı ordusunun bozgunu", yer_id:"Niğbolu",
   kaynak:"TDV `nigbolu` — madde başlığında da adı geçiyor, havuzda birebir nokta var" },
 
-{ dosya:"kronoloji_macaristan.js", t:"1408-12-12", b:"Ejderha Nişanı'nın (Societas Draconistarum) kurulması", yer_id:"Budin",
+{ dosya:"kronoloji_macaristan.js", t:"1408-12-12", b:"Ejderha Nişanı'nın (Societas Draconistarum) kurulması", yer_id:"Aquincum-Óbuda-Pest",
   kaynak:"Zsigmond'un kraliyet merkezinde (Budin) kurdurduğu bir nişan; madde metninde şehir adı yok, saray merkezi olarak Budin makul kabul edildi — kesin tören yeri TDV/Engel'de ayrıca doğrulanmadı" },
 
 { dosya:"kronoloji_macaristan.js", t:"1410-09-20", b:"Zsigmond'un Kutsal Roma Kralı seçilmesi", yer_id:"Frankfurt",
@@ -58,7 +58,7 @@ window.YER_YAMA_MACAR = [
 { dosya:"kronoloji_macaristan.js", t:"1437-07-06", b:"Bobâlna Köylü Ayaklanması ve Erdel'de Üç Millet İttifakı'nın (Unio Trium Nationum) kurulması", kapsam_genis:true,
   not:"Bileşik bir madde: köylü ayaklanması Bobâlna'da bastırıldı, soylu-Székely-Sas ittifakı ise Kolozsvár yakınında (Kolozsmonostor/Kápolna) ayrı bir toplantıyla kuruldu — iki farklı yer, tek noktaya sığmaz", kaynak:"akademik: Engel (2001), s. 288-290 — madde metninde iki ayrı olay tek başlıkta" },
 
-{ dosya:"kronoloji_macaristan.js", t:"1441-01-01", b:"Hunyadi János'un Erdel voyvodalığına ve Güney sınırı kumandanlığına atanması", yer_id:"Budin",
+{ dosya:"kronoloji_macaristan.js", t:"1441-01-01", b:"Hunyadi János'un Erdel voyvodalığına ve Güney sınırı kumandanlığına atanması", yer_id:"Aquincum-Óbuda-Pest",
   kaynak:"atama kraliyet meclisi kararıyla oldu; kesin tören yeri metinde yok, kraliyet merkezi Budin makul kabul edildi — TDV/Engel'de ayrıca doğrulanmadı" },
 
 { dosya:"kronoloji_macaristan.js", t:"1443-01-01", b:"Uzun Sefer'in (Long Campaign) başlaması", kapsam_genis:true,
@@ -73,7 +73,7 @@ window.YER_YAMA_MACAR = [
 { dosya:"kronoloji_macaristan.js", t:"1456-08-11", b:"Hunyadi János'un veba salgınında ölümü", yer_id:"Belgrad",
   kaynak:"madde metninde 'Belgrad zaferinden üç hafta sonra... kuşatma sırasında ordugâhta' — aynı kuşatma cephesi, Belgrad ile aynı sayılır" },
 
-{ dosya:"kronoloji_macaristan.js", t:"1457-03-16", b:"László Hunyadi'nin idamı — V. László'nun tertibi", yer_id:"Budin",
+{ dosya:"kronoloji_macaristan.js", t:"1457-03-16", b:"László Hunyadi'nin idamı — V. László'nun tertibi", yer_id:"Aquincum-Óbuda-Pest",
   kaynak:"idam kraliyet sarayında (Budin) gerçekleşti — standart tarihi olgu, TDV/Engel'de ayrıca doğrulanmadı" },
 
 { dosya:"kronoloji_macaristan.js", t:"1490-04-06", b:"Mátyás Corvinus'un ölümü", yer_id:"Viyana",
@@ -139,7 +139,7 @@ window.YER_YAMA_MACAR = [
 { dosya:"kronoloji_macaristan.js", t:"1735-06-22", b:"Selmecbánya Maden Akademisi'nin kurulması",
   eksik_nokta:{ ad:"Selmecbánya (Banská Štiavnica)", enlem:48.459, boylam:18.895, kaynak:"yer adı madde başlığında ve metninde ('bugünkü Banská Štiavnica, Slovakya'); koordinat: bilinen yerleşim konumu" } },
 
-{ dosya:"kronoloji_macaristan.js", t:"1795-05-20", b:"Martinovics Ignác ve Macar Yakobenlerinin idamı", yer_id:"Budin",
+{ dosya:"kronoloji_macaristan.js", t:"1795-05-20", b:"Martinovics Ignác ve Macar Yakobenlerinin idamı", yer_id:"Aquincum-Óbuda-Pest",
   kaynak:"madde metninde 'Budin yakınlarında idam edildi' geçiyor — infaz yeri Vérmező, Budin'in hemen dışında" },
 
 { dosya:"kronoloji_macaristan.js", t:"1830-01-01", b:"Széchenyi'nin 'Hitel' (Kredi) adlı eserinin yayımlanması", yer_id:"Peşte",
