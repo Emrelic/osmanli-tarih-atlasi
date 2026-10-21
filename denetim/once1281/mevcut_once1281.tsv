@@ -1,0 +1,759 @@
+id	ad	tur	bolge	f	t	baskent
+orta-anadolu-neolitik	Orta Anadolu Aseramik–Seramik Neolitik toplulukları (Konya Ovası, Kapadokya)	kultur	anadolu	-8399-01-01	-5999-01-01	yok (kültür; merkez tanımsız)
+hitit-eski	Eski Hitit Krallığı (Hattusa)	krallik	anadolu	-1649-01-01	-1499-01-01	Hattusa
+hitit	Hitit Krallığı ve İmparatorluğu (Hatti)	imparatorluk	anadolu	-1649-01-01	-1179-01-01	Hattuşa
+kizzuwatna	Kizzuwatna Krallığı	krallik	anadolu	-1499-01-01	-1399-01-01	Kummanni / Adaniya
+hayasa-azzi	Hayaşa-Azzi Konfederasyonu	kabile-konfederasyonu	anadolu	-1499-01-01	-1199-01-01	
+hitit-imp	Hitit Imparatorlugu (Yeni Krallik)	imparatorluk	anadolu	-1399-01-01	-1179-01-01	Hattusa
+yeni-hitit	Yeni Hitit (Luvi-Arami) Sehir Devletleri (Karkamis, Melid, Hamat, Gurgum, Kummuh, Tabal vb.)	devlet	anadolu	-1179-01-01	-0707-01-01	Karkamis
+urartu	Urartu Krallığı	krallik	anadolu	-0859-01-01	-0589-01-01	Tuspa (Van)
+lidya	Lidya Krallığı	krallik	anadolu	-0679-01-01	-0545-01-01	Sardes
+sakiz-polis	Sakız (Khios) Şehir Devleti	devlet	anadolu	-0599-01-01	0079-06-23	Khios
+midilli-polis	Midilli (Mytilene) Şehir Devleti	devlet	anadolu	-0584-01-01	-0079-01-01	Mytilene
+karya-hekatomnid	Karya Hekatomnid Satrap-Hanedanlığı	hanedanlik	anadolu	-0390-01-01	-0333-01-01	Mylasa, sonra Halikarnassos
+antigonos	Antigonos Monophthalmos Krallığı (Asya)	krallik	anadolu	-0305-01-01	-0300-01-01	Antigoneia
+antigonos-krallik	Antigonos ve Demetrios Krallığı (Antigonos Monophthalmos – Demetrios Poliorketes)	krallik	anadolu	-0305-01-01	-0282-01-01	Kelainai → Antigoneia (Orontes)
+bitinya	Bitinya Krallığı	krallik	anadolu	-0296-01-01	-0073-01-01	Nikomedia
+bergama	Bergama (Attalos) Krallığı	krallik	anadolu	-0281-01-01	-0132-01-01	Bergama
+pontus	Pontus (Mithridates) Krallığı	krallik	anadolu	-0280-01-01	-0062-01-01	Amaseia -> Sinope
+galatya-keltleri	Galatia (Kelt) Tetrarşileri	kabile-devletleri	anadolu	-0277-01-01	-0024-01-01	Ankyra / Tavium / Pessinus
+kapadokya-krallik	Kapadokya Krallığı	krallik	anadolu	-0254-01-01	0017-01-01	Mazaka
+sofene	Sofene (Tsopk) Krallığı	krallik	anadolu	-0188-01-01	-0092-01-01	belirsiz
+likya-birligi	Likya Birligi (Roma himayesinde)	birlik	anadolu	-0166-01-01	0043-01-01	Patara
+kommagene	Kommagene Krallığı	krallik	anadolu	-0162-01-01	0072-01-01	Samosata
+tigran-imp	Büyük Tigran'ın İmparatorluğu	imparatorluk	anadolu	-0094-01-01	-0065-01-01	Tigranokerta
+mervani	Mervânîler (Mervanoğulları)	emirlik	anadolu	0983-01-01	1085-08-30	Meyyâfârikīn (Silvan)
+danismendli	Dânişmendliler	beylik	anadolu	1071-01-01	1178-10-25	Sivas / Niksar → Kayseri; Malatya kolu: Malatya
+saltuklu	Saltuklular (Saltukoğulları)	beylik	anadolu	1071-01-01	1202-06-25	Erzurum
+malatya-ermeni-beyligi	Malatya Ermeni Beyliği (Philaretos ve valileri)	beylik	anadolu	1074-01-01	1102-09-18	Malatya
+selcuklu	Anadolu (Türkiye) Selçuklu Devleti	devlet	anadolu	1075-01-01	1308-01-01	İznik → Konya
+filaretos-devleti	Filaretos Brakamios Devleti	devlet	anadolu	1077-01-01	1085-01-12	bulunamadı (kaynak merkez vermiyor)
+caka-beyligi	Çaka Bey (İzmir) Beyliği	beylik	anadolu	1081-01-01	1095-01-01	İzmir (Smyrna)
+artuklu	Artukoğulları (Artuklu Beyliği)	beylik	anadolu	1085-01-01	1409-01-01	Hasankeyf / Mardin / Harput
+dilmacogullari	Dilmaçoğulları (Bitlis-Erzen)	beylik	anadolu	1085-01-01	1394-01-01	Bitlis → Erzen
+cubukogullari	Çubukoğulları (Harput)	beylik	anadolu	1085-01-01	1119-01-01	Harput
+rupeniler	Rupenî (Ermeni) Prensliği	prenslik	anadolu	1092-01-01	1199-01-06	Vahga / Sis
+inalogullari	İnaloğulları (Âmid)	beylik	anadolu	1095-01-01	1183-04-29	Âmid (Diyarbekir)
+ahlatsahlar	Ahlatşahlar (Sökmenliler, Şâh-i Ermenler)	beylik	anadolu	1100-01-01	1208-01-01	Ahlat
+mengucuklu	Mengücüklüler (Mengücekoğulları)	beylik	anadolu	1118-01-01	1228-01-01	Kemah → Erzincan (Divriği ve Şebinkarahisar kolları)
+eyyubi-meyyafarikin	Meyyâfârikîn Eyyûbîleri (Cebel ve Sincar kolu)	hanedanlik	anadolu	1185-01-01	1260-01-01	Meyyâfârikîn (Silvan)
+kibris-isaakios	Kıbrıs (İsaakios Dukas Komnenos Hâkimiyeti)	devlet	anadolu	1185-01-01	1191-05-01	Lefkoşa
+kibris-krallik	Kıbrıs Krallığı (Lüzinyan)	krallik	anadolu	1192-01-01	1489-02-26	Lefkoşa
+kilikya-ermeni	Kilikya Ermeni Krallığı	krallik	anadolu	1199-01-06	1375-04-14	Sis
+trabzon-rum	Trabzon Rum İmparatorluğu	imparatorluk	anadolu	1204-01-01	1461-08-15	Trabzon
+iznik-imparatorlugu	İznik (Laskaris) İmparatorluğu	imparatorluk	anadolu	1204-04-13	1261-07-25	İznik
+cobanogullari	Çobanoğulları	beylik	anadolu	1211-01-01	1309-01-01	Kastamonu
+eyyubi-hisnikeyfa	Hısnıkeyfâ Eyyûbîleri	beylik	anadolu	1232-01-01	1462-01-01	Hısnıkeyfâ (Hasankeyf)
+karaman	Karamanoğulları	beylik	anadolu	1256-01-01	1487-01-01	Ermenek → Konya (1366-67) / Larende
+inancogullari	İnançoğulları (Denizli/Lâdik Beyliği)	beylik	anadolu	1261-01-01	1368-01-01	Isparta-Alâiye → Denizli
+sahibata	Sâhib Ataoğulları	beylik	anadolu	1275-01-01	1341-01-01	Afyonkarahisar
+pervane	Pervâneoğulları (Sinop)	beylik	anadolu	1277-01-01	1322-01-01	Sinop
+esrefogullari	Eşrefoğulları	beylik	anadolu	1277-01-01	1326-01-01	Beyşehir
+mentese	Menteşeoğulları	beylik	anadolu	1280-01-01	1424-01-01	Milas / Beçin
+dilmun	Dilmun	krallik-ticaret-devleti	arabistan	-1999-01-01		Kala'at al-Bahrain
+saba	Saba Krallığı	krallik	arabistan	-0799-01-01	0275-01-01	Marib
+hadramavt	Hadramavt Krallığı	krallik	arabistan	-0449-01-01	0300-01-01	Sabva
+ma-in	Ma'in Krallığı (Minai)	krallik	arabistan	-0399-01-01	-0099-01-01	Karna
+kataban	Kataban Krallığı	krallik	arabistan	-0399-01-01	0199-01-01	Timna
+himyar	Himyar Krallığı	krallik	arabistan	-0109-01-01	0525-01-01	Zafar
+kinde	Kinde Krallığı	kabile-kralligi	arabistan	0480-01-01	0528-01-01	Kariyat el-Fav
+medine-devleti	Medine Islam Devleti (Hz. Muhammed donemi)	devlet	arabistan	0622-09-24	0632-06-08	Medine
+hulefa-yi-rasidin	Hulefâ-yi Râşidîn Devri (Medine Hilâfeti)	devlet	arabistan	0632-06-08	0661-07-29	Medine → Kûfe
+zubeyri	Abdullah b. Zubeyr Hilafeti (Mekke)	hilafet	arabistan	0683-01-01	0692-10-01	Mekke
+uman-ibadi	Uman Ibadi Imamligi (I. imamlik)	imamlik	arabistan	0750-01-01		Nezva
+ziyadi	Ziyâdîler (Yemen Tihâmesi)	hanedanlik	arabistan	0818-01-01	1017-01-01	Zebîd
+yufiri	Yu'firiler (Yemen)	emirlik	arabistan	0847-01-01	0963-01-01	San'a / Sibam Kevkeban
+ukaydir	Ukaydirîler (Yemâme)	hanedan	arabistan	0866-01-01		Hadarim / Ukhaydir (Yemâme)
+yemen-zeydi	Yemen Zeydî İmamlığı	devlet	arabistan	0897-01-01	1962-09-26	Sa'da → San'a
+karmati	Bahreyn Karmatî Devleti	devlet	arabistan	0899-01-01	1076-01-01	Lahsâ (Ahsâ)
+mekke-serifligi	Mekke Şerifliği		arabistan	0969-01-01	1919-05-08	
+medine-emirligi	Medine Emirliği (Hüseynî emîrler)	emirlik	arabistan	0969-01-01	1517-01-01	Medine
+necahi	Necâhîler (Benî Necâh)	hanedanlik	arabistan	1022-01-01	1159-08-01	Zebîd
+suleyhi	Suleyhîler	hanedanlik	arabistan	1047-01-01	1138-01-01	San‘a → Zûcible
+uyuni	Uyûnîler	emirlik	arabistan	1076-01-01	1236-01-01	Lahsâ (Ahsâ); son dönemde Katîf ve Uvâl (Bahreyn adası)
+zureyi	Zürey‘îler	hanedanlik	arabistan	1080-01-01	1175-01-01	Aden
+hamdani-yemen	Yemen Hemdânîleri (San‘a)	hanedanlik	arabistan	1098-01-01	1174-01-01	San‘a
+benu-mehdi-zebid	Mehdîler (Benî Mehdî, Zebîd)	hanedanlik	arabistan	1159-08-01	1174-01-01	Zebîd
+eyyubi-yemen	Yemen Eyyûbîleri	hanedan	arabistan	1174-01-01	1229-01-01	Zebîd → Taiz
+usfuri	Usfûrîler (Benî Usfûr)	devlet	arabistan	1229-01-01	1417-01-01	Katîf / Lahsâ
+resuli	Resûlîler	sultanlik	arabistan	1229-01-01	1454-01-01	Taiz / Zebîd (sultanlar Cened, Taiz, Zebîd arasında)
+lepenski-vir-kultur	Lepenski Vir (Proto-LV → Mezolitik-Neolitik geçiş → Erken Neolitik, Demir Kapılar)	kultur	balkanlar	-9589-01-01	-5779-01-01	yok (kültür; merkez tanımsız)
+lepenski-vir-trapez	Lepenski Vir — trapez yapılı Mezolitik-Neolitik geçiş evresi	kultur	balkanlar	-6119-01-01	-5974-01-01	yok (kültür; merkez tanımsız)
+vinca-kultur	Vinča Kültürü (Belo Brdo dizisi)	kultur	balkanlar	-4586-01-01	-4514-01-01	yok (kültür; merkez tanımsız)
+minos	Minos (Minos Saray) Uygarlığı	uygarlik-saray-devletleri-siyasi-birlik-tartismali	balkanlar	-1899-01-01	-1449-01-01	Knossos
+miken	Miken (Mykene) Saray Devletleri	saray-devletleri	balkanlar	-1399-01-01	-1099-01-01	Miken / Pylos / Tiryns / Teb
+sparta	Sparta (Lakedaimon)	devlet	balkanlar	-0799-01-01	-0191-01-01	Sparta
+korint	Korint	devlet	balkanlar	-0799-01-01	-0145-01-01	Korint
+makedonya-krallik	Makedonya Krallığı (Argead-Antigonid)	krallik	balkanlar	-0699-01-01	-0167-01-01	Aigai / Pella
+byzantion-polis	Byzantion Şehir Devleti	devlet	balkanlar	-0658-01-01	0073-01-01	Byzantion
+peloponnes-birligi	Peloponnes Birliği	ittifak	balkanlar	-0549-01-01	-0365-01-01	Sparta
+odessos-polis	Odessos (Varna) Şehir Devleti	devlet	balkanlar	-0549-01-01	-0070-01-01	Odessos
+atina-demokrasisi	Atina (bagimsiz demokratik polis)	devlet	balkanlar	-0507-01-01	-0337-01-01	Atina
+odris	Odris (Trakya) Krallığı	krallik	balkanlar	-0479-01-01	0046-01-01	Seuthopolis / Kabyle
+delos-birligi	Delos (Atina Deniz) Birliği	ittifak	balkanlar	-0477-01-01	-0403-01-01	Delos -> Atina
+rodos-polis	Rodos Şehir Devleti	devlet	balkanlar	-0406-01-01	0079-06-23	Rodos
+boiotia-birligi	Boiotia (Teb) Birliği	birlik	balkanlar	-0378-01-01	-0337-01-01	Teb (Thebai)
+ikinci-atina-birligi	İkinci Atina Birliği	ittifak	balkanlar	-0377-01-01	-0354-01-01	Atina
+epir	Epir (Molossia) Krallığı	krallik	balkanlar	-0369-01-01	-0231-01-01	Dodona -> Ambrakia
+aitolia-birligi	Aitolia Birliği	konfederasyon	balkanlar	-0366-01-01	-0188-01-01	Thermon
+korint-birligi	Korint (Hellen) Birliği	ittifak	balkanlar	-0336-01-01	-0321-01-01	Korint
+lizimakhos	Lizimakhos (Trakya) Krallığı	krallik	balkanlar	-0305-01-01	-0280-01-01	Lysimacheia
+akhaia-birligi	Akhaia Birliği	konfederasyon	balkanlar	-0279-01-01	-0145-01-01	Aigion
+antigonid-makedonya	Antigonid Makedonya Krallığı	krallik	balkanlar	-0275-01-01	-0167-01-01	Pella
+makedon-merisleri	Makedon Merisleri (Dört Makedon Cumhuriyeti)	cumhuriyet	balkanlar	-0166-01-01	-0147-01-01	Amphipolis · Thessalonike · Pella · Pelagonia (Herakleia Lynkestis)
+dakya	Dakya (Burebista-Decebalus) Krallığı	krallik	balkanlar	-0081-01-01	0106-01-01	Sarmizegetusa
+bizans	Bizans (Doğu Roma) İmparatorluğu	imparatorluk	balkanlar	0330-05-11	1461-08-15	Konstantinopolis
+gepid	Gepid Krallığı	krallik	balkanlar	0455-01-01	0567-01-01	Sirmium
+birinci-bulgar	Birinci Bulgar Devleti (Tuna Bulgar Devleti; Samuil dönemi)	devlet	balkanlar	0681-01-01	1018-01-01	Pliska → Preslav; 971 sonrası Sredets → Prespa → Ohri
+dubrovnik	Dubrovnik (Ragusa) Cumhuriyeti	cumhuriyet	balkanlar	0700-01-01	1808-01-31	Dubrovnik
+girit-emirligi	Girit Emirliği (Ebû Hafs Hânedanı)	devlet	balkanlar	0827-04-02	0961-03-06	Rabazulhandak (Kandiye)
+hirvatistan-kralligi	Hırvatistan Krallığı	krallik	balkanlar	0925-01-01	1102-01-01	Knin · Biograd (kaynak sabit başkent vermez; HE 'Petar': 'Prijestolnica mu je bila u Kninu')
+duklja	Duklja (Zeta) Prensliği/Krallığı	krallik	balkanlar	1036-01-01	1186-01-01	bulunamadı (kaynak başkent adı vermez; HE: merkez Skadar gölü çevresi kıyı bölgesi, 1089'dan metropolitlik Bar'da)
+raska-buyuk-prensligi	Raşka Büyük Prensliği (Vukanoviç)	prenslik	balkanlar	1091-01-01	1166-01-01	Ras
+sirbistan-nemanjic	Sırbistan Krallığı (Nemanjić Hanedanı)	krallik	balkanlar	1166-01-01	1402-01-01	Ras → Skopje → Serez (Duşan döneminde)
+bosna-kralligi	Bosna Krallığı	krallik	balkanlar	1180-01-01	1463-05-01	Jajce
+bulgar-carligi	İkinci Bulgar İmparatorluğu	imparatorluk	balkanlar	1185-01-01	1396-01-01	Tırnova → Vidin
+kefalonya-palatin	Kefalonya-Zakintos Palatin Kontluğu (Orsini→Tocco)	kontluk	balkanlar	1194-01-01	1479-01-01	Kefalonya
+epir-despotlugu	Epir (Yanya) Despotluğu — Tocco dönemi dâhil	prenslik	balkanlar	1204-04-13	1430-10-01	
+latin-imparatorlugu	Latin İstanbul İmparatorluğu	imparatorluk	balkanlar	1204-04-13	1261-07-25	Konstantinopolis (İstanbul)
+euboea-negroponte	Negroponte (Eğriboz) — Venedik Krallığı	venedik-koloni-kralligi	balkanlar	1204-01-01	1470-07-12	Halkis
+girit-venedik	Girit (Candia) Krallığı - Venedik	somurge	balkanlar	1204-08-12	1669-09-27	Candia (Kandiye)
+atina-dukaligi	Atina Dukalığı	dukalik	balkanlar	1205-01-01	1458-06-04	Atina
+ahaya-prinkepsligi	Ahaya (Mora) Prinkepsliği	prenslik	balkanlar	1205-01-01	1430-01-01	Andravida
+selanik-kralligi	Latin Selânik Krallığı	krallik	balkanlar	1205-01-01	1225-01-01	Selânik
+naksa-dukaligi	Naxos (Nakşa) Dukalığı	dukalik	balkanlar	1207-01-01	1579-01-01	Naxos
+selanik-imparatorlugu	Selânik İmparatorluğu (Komnenos Dukas kolu)	imparatorluk	balkanlar	1225-01-01	1246-01-01	Selânik
+galata-pera	Galata (Pera) Ceneviz Kolonisi	ceneviz-kolonisi	balkanlar	1267-01-01	1453-05-29	Galata
+nri	Nri Krallığı (İgbo)	krallik	bati-afrika	0994-01-01	1911-01-01	Agukwu Nri
+hausa-sehir-devletleri	Hausa Şehir Devletleri	devlet	bati-afrika	1000-01-01	1808-01-01	Kano, Katsina, Zaria, Gobir (çeşitli merkezler)
+gane	Gāne (Gana) Devleti	devlet	bati-afrika	1000-01-01	1076-01-01	Gāne (Kumbîsâlih harabeleri sanılıyor)
+tekrur-kralligi	Tekrûr Krallığı (Senegal vadisi)	krallik	bati-afrika	1000-01-01	1281-01-01	Tekrûr
+kevkev	Kevkev (Gao) Krallığı — Songay Zâ Hânedanı	krallik	bati-afrika	1000-01-01	1324-01-01	Kukia → Gao (1009-10)
+susu-kralligi	Susu (Sosso) Krallığı	krallik	bati-afrika	1076-01-01	1235-01-01	Susu (yeri kaynakta yok)
+benin-kralligi	Benin Krallığı (Nijerya)	krallik	bati-afrika	1180-01-01	1897-02-18	Benin Şehri
+mali-imparatorlugu	Mali İmparatorluğu	imparatorluk	bati-afrika	1235-01-01	1670-01-01	Niani
+orkney-gec-neolitik	Orkney Geç Neolitik / Grooved Ware (Skara Brae)	kultur	bati-avrupa	-2901-01-01	-2491-01-01	yok (kültür; merkez tanımsız)
+massalia	Massalia (Marsilya)	devlet	bati-avrupa	-0599-01-01	-0048-01-01	Massalia
+catuvellauni-krallik	Catuvellauni-Trinovantes Krallığı (Cunobelinus)	krallik	bati-avrupa	0005-01-01	0043-01-01	Verulamium, sonra Camulodunum (Colchester)
+galya-imp	Galya İmparatorluğu (Postumus)	ayrilikci-imparatorluk	bati-avrupa	0260-01-01	0274-01-01	Augusta Treverorum (Trier)
+britanya-imp	Britanya İmparatorluğu (Carausius-Allectus)	ayrilikci-imparatorluk	bati-avrupa	0286-01-01	0296-01-01	Londinium
+piktler	Pikt (Fortriu) Krallığı	krallik	bati-avrupa	0297-01-01	0843-01-01	Fortriu / Forteviot
+bati-roma	Batı Roma İmparatorluğu	imparatorluk	bati-avrupa	0395-01-17	0476-08-28	Mediolanum -> Ravenna
+burgund	Burgund Krallığı	krallik	bati-avrupa	0443-01-01	0534-01-01	Worms -> Lyon / Cenevre
+strathclyde	Strathclyde (Alt Clut) Krallığı	krallik	bati-avrupa	0450-01-01	1018-01-01	Dumbarton (Alclut)
+kent-kralligi	Kent Krallığı (Anglosakson)	krallik	bati-avrupa	0455-01-01	0825-01-01	Canterbury
+sussex-kralligi	Sussex (Güney Sakson) Krallığı	krallik	bati-avrupa	0477-01-01	0825-01-01	Selsey / Chichester
+frank	Frank Krallığı/İmparatorluğu (Merovenj-Karolenj)	krallik	bati-avrupa	0481-01-01	0843-01-01	Tournai -> Paris/Soissons -> Aachen
+dal-riata	Dál Riata Krallığı	krallik	bati-avrupa	0500-01-01	0843-01-01	Dunadd
+wessex	Wessex Krallığı	krallik	bati-avrupa	0519-01-01	0927-01-01	Winchester
+mercia	Mercia Krallığı	krallik	bati-avrupa	0527-01-01	0918-01-01	Tamworth
+northumbria	Northumbria Krallığı	krallik	bati-avrupa	0604-01-01	0954-01-01	York / Bamburgh
+dogu-anglia	Doğu Anglia Krallığı (Anglosakson)	krallik	bati-avrupa	0616-01-01	0927-01-01	Rendlesham / Dunwich (Suffolk)
+dublin-krallik	Dublin (Norse) Krallığı	krallik	bati-avrupa	0841-01-01	1170-01-01	Dublin
+iskocya	İskoçya Krallığı	krallik	bati-avrupa	0843-01-01	1707-05-01	Scone → Edinburgh
+bati-francia	Batı Francia	krallik	bati-avrupa	0843-01-01	0987-01-01	Laon / Paris
+toulouse	Toulouse Kontluğu	kontluk	bati-avrupa	0849-01-01	1271-01-01	Toulouse
+powys	Powys Krallığı	krallik	bati-avrupa	0850-01-01	1283-01-01	Mathrafal
+orta-francia-lotharingia	Lotharingia (II. Lothar Krallığı / Lorraine Dukalığı)	krallik	bati-avrupa	0855-01-01	0925-01-01	Aachen
+flandre	Flandre Kontluğu	kontluk	bati-avrupa	0862-01-01	1384-01-30	Brugge (Bruges)
+jorvik	Jorvik (Viking York) Krallığı	krallik	bati-avrupa	0866-01-01	0954-01-01	York
+danelaw	Danelaw (Guthrum'un Doğu Anglia'sı ve Danimarkalı Bölge)	krallik	bati-avrupa	0878-01-01	0918-01-01	Doğu Anglia (belirli başkent yok)
+normandiya	Normandiya Dükalığı	dukalik	bati-avrupa	0911-01-01	1204-01-01	Rouen
+deheubarth	Deheubarth Krallığı (Güney Galler)	krallik	bati-avrupa	0920-01-01	1197-04-28	Dinefwr
+ingiltere	İngiltere / Büyük Britanya	krallik	bati-avrupa	0927-01-01		Londra
+arles-kralligi	Burgonya (Arles) Krallığı	krallik	bati-avrupa	0933-01-01	1032-09-06	Arles / Vienne
+bretanya	Bretanya Dükalığı	dukalik	bati-avrupa	0939-01-01	1532-08-13	Rennes / Nantes
+luksemburg-kontlugu	Lüksemburg Kontluğu	kontluk	bati-avrupa	0963-01-01	1354-03-13	Lüksemburg
+fransa	Fransa Krallığı	krallik	bati-avrupa	0987-01-01	1792-09-22	Paris
+irlanda	İrlanda (Gal Beylikleri ve Krallığı)	krallik	bati-avrupa	1000-01-01	1603-03-30	(çok merkezli Gal beylikleri) → Dublin
+gwynedd	Gwynedd Krallığı / Galler Prensliği	prenslik	bati-avrupa	1000-01-01	1283-10-03	Aberffraw / Garth Celyn
+akitanya-dukaligi	Akitanya (Guyenne) Dükalığı	dukalik	bati-avrupa	1000-01-01	1453-01-01	Poitiers → Bordeaux
+anjou-kontlugu	Anjou Kontluğu	kontluk	bati-avrupa	1000-01-01	1204-01-01	Angers
+provence-kontlugu	Provence Kontluğu	kontluk	bati-avrupa	1000-01-01	1481-12-11	Aix-en-Provence
+franche-comte	Burgonya Kontluğu (Franche-Comté)	kontluk	bati-avrupa	1000-01-01	1678-01-01	Dole / Besançon
+lorraine-dukaligi	Lorraine Dükalığı	dukalik	bati-avrupa	1000-01-01	1766-02-23	Nancy
+liege-piskoposlugu	Liège Prens-Piskoposluğu	piskoposluk	bati-avrupa	1000-01-01	1795-10-01	Liège
+hollanda-kontlugu	Hollanda Kontluğu	kontluk	bati-avrupa	1000-01-01	1433-01-01	Haarlem / Lahey
+man-ve-adalar-krallik	Man ve Adalar Krallığı	norse-krallik	bati-avrupa	1000-01-01	1266-01-01	Peel / Castletown
+utrecht-piskoposlugu	Utrecht Prens-Piskoposluğu (Nedersticht)	kilise-devleti	bati-avrupa	1024-01-01	1528-10-20	Utrecht
+burgonya	Burgonya Dükalığı (Valois)	dukalik	bati-avrupa	1032-01-01	1482-03-27	Dijon
+foix-kontlugu	Foix Kontluğu	kontluk	bati-avrupa	1064-01-01	1607-01-01	Foix
+hainaut-kontlugu	Hainaut Kontluğu	kontluk	bati-avrupa	1071-01-01	1795-10-01	Mons
+frizya-ozgurlugu	Frizya (Friesland) Özgürlüğü	koylu-konfederasyonu	bati-avrupa	1101-01-01	1498-01-01	belirsiz
+champagne-kontlugu	Champagne Kontluğu	kontluk	bati-avrupa	1125-01-01	1314-01-01	Troyes
+dauphine-viennois	Dauphiné (Viennois Dofenliği)	prenslik	bati-avrupa	1133-01-01	1349-07-16	Grenoble
+orange-prensligi	Orange Prensliği	prenslik	bati-avrupa	1163-01-01	1713-01-01	Orange
+brabant-dukaligi	Brabant Dükalığı	dukalik	bati-avrupa	1190-01-01	1795-10-01	Leuven / Brüksel
+kanal-adalari	Kanal Adaları (Jersey ve Guernsey Bailiwick'leri)	bagimlilik	bati-avrupa	1204-01-01		Saint Helier / Saint Peter Port
+avignon-venaissin	Avignon-Comtat Venaissin (Papalık eksklavı)	eksklav	bati-avrupa	1274-01-01	1791-09-14	Carpentras (Comtat; 1320'den) / Avignon
+aksum	Aksum Krallığı	krallik-imparatorluk	dogu-afrika	0100-01-01		Aksum
+suve-emirligi	Şüve (Shoa) Mahzûmî Emirliği	beylik	dogu-afrika	0896-01-01	1285-01-01	Doğu Şüve (kaynakta şehir adı yok)
+svahili-sehirleri	Svahili Şehir Devletleri (Kıyı)	devlet	dogu-afrika	1000-01-01	1698-12-13	Kilwa, Mombasa, Zengibar (çeşitli merkezler)
+kilva-sultanligi	Kilve (Kilwa Kisiwani) Sultanlığı	sultanlik	dogu-afrika	1000-01-01	1505-01-01	Kilwa Kisiwani
+dahlak-sultanligi	Dahlak Sultanlığı (Dehlek)	sultanlik	dogu-afrika	1093-01-01	1557-04-02	Dahlak Kebir
+zagve	Zague (Zagwe) Hânedanı — Etiyopya	hanedanlik	dogu-afrika	1137-01-01	1270-01-01	Roha (Lalibela)
+makdisu-sultanligi	Makdişu (Mogadişu) Sultanlığı (Ebû Bekir b. Fahreddin Hanedanı)	sultanlik	dogu-afrika	1269-01-01	1500-01-01	Makdişu (Mogadişu)
+habesistan	Habeşistan İmparatorluğu	imparatorluk	dogu-afrika	1270-01-01	1974-09-12	Gondar → Addis Ababa
+shangshan	Shangshan Kültürü	kultur	dogu-asya	-8849-01-01	-6649-01-01	yok (kültür; merkez tanımsız)
+peiligang	Peiligang Kültürü	kultur	dogu-asya	-7049-01-01	-5049-01-01	yok (kültür; merkez tanımsız)
+jiahu-kultur	Jiahu Kültürü (Henan)	kultur	dogu-asya	-6999-01-01	-5699-01-01	yok (kültür; merkez tanımsız)
+kuahuqiao	Kuahuqiao Kültürü	kultur	dogu-asya	-5949-01-01	-5249-01-01	yok (kültür; merkez tanımsız)
+dadiwan-laoguantai	Dadiwan I / Laoguantai (Gansu, Yangshao öncesi)	kultur	dogu-asya	-5849-01-01	-2949-01-01	yok (kültür; merkez tanımsız)
+hemudu	Hemudu Kültürü	kultur	dogu-asya	-5149-01-01	-3249-01-01	yok (kültür; merkez tanımsız)
+yangshao	Yangshao Kültürü	kultur	dogu-asya	-4999-01-01	-2899-01-01	yok (kültür; merkez tanımsız)
+liangzhu	Liangzhu Kültürü	kultur	dogu-asya	-3549-01-01	-2049-01-01	yok (kültür; merkez tanımsız)
+taosi-kultur	Taosi Kültürü (Longshan sonu, Shanxi)	kultur	dogu-asya	-2299-01-01	-1899-01-01	yok (kültür; merkez tanımsız)
+shimao-kultur	Shimao Kültürü (Shaanxi)	kultur	dogu-asya	-2299-01-01	-1799-01-01	yok (kültür; merkez tanımsız)
+erlitou-kultur	Erlitou Kültürü (Henan)	kultur	dogu-asya	-1749-01-01	-1519-01-01	yok (kültür; merkez tanımsız)
+shang	Shang Hanedanı	krallik	dogu-asya	-1599-01-01	-1045-01-01	Erligang -> Anyang
+sanxingdui-kultur	Sanxingdui Kültürü (Sichuan)	kultur	dogu-asya	-1599-01-01	-1049-01-01	yok (kültür; merkez tanımsız)
+bati-zhou	Batı Zhou	krallik	dogu-asya	-1045-01-01	-0770-01-01	Haojing
+qi-devleti	Qi Devleti (Jiang Qi ve Tian Qi)	krallik	dogu-asya	-1045-01-01	-0220-01-01	Yingqiu → Linzi (Shandong)
+dogu-zhou	Doğu Zhou (Bahar-Güz ve Savaşan Devletler dönemi hanedanı)	krallik	dogu-asya	-0769-01-01	-0255-01-01	Luoyi
+qin-devleti	Qin Devleti	devlet	dogu-asya	-0769-01-01	-0220-01-01	Yong -> Xianyang
+chu-devleti	Chu Devleti (Zhou donemi; wang unvanli krallik)	krallik	dogu-asya	-0703-01-01	-0222-01-01	Danyang → Ying (Jingzhou/Hubei) → Shouchun
+han-devleti-zhou	Han Devleti (Savasan Devletler; Han hanedanindan ayri)	devlet	dogu-asya	-0402-01-01	-0229-01-01	Xinzheng
+zhao-devleti	Zhao Devleti (Savasan Devletler)	devlet	dogu-asya	-0402-01-01	-0221-01-01	Handan
+wei-devleti-zhou	Wei Devleti (Savasan Devletler; Cao Wei'den ayri)	devlet	dogu-asya	-0402-01-01	-0224-01-01	Anyi → Daliang
+dian	Dian Krallığı (Yunnan)	krallik	dogu-asya	-0278-01-01	-0108-01-01	Dian golu cevresi (Shizhaishan / Kunming)
+qin-hanedani	Qin Hanedanı (birleşik İmparatorluk)	imparatorluk	dogu-asya	-0220-01-01	-0206-01-01	Xianyang
+bati-han	Bati Han Hanedani	imparatorluk	dogu-asya	-0205-01-01	0008-01-01	Chang'an
+nanyue	Nanyue (Nam Viet) Krallığı (Zhao hanedani)	krallik	dogu-asya	-0203-01-01	-0110-01-01	Panyu (Guangzhou)
+wiman-joseon	Wiman Joseon	krallik	dogu-asya	-0193-01-01	-0107-01-01	Wanggeom
+silla	Silla Krallığı (Birlesik Silla dahil)	krallik	dogu-asya	-0056-01-01	0935-01-01	Gyeongju
+goguryeo	Goguryeo Krallığı	krallik	dogu-asya	-0036-01-01	0668-01-01	Jolbon → Gungnae → Pyeongyang
+baekje	Baekje Krallığı	krallik	dogu-asya	-0017-01-01	0660-01-01	Wiryeseong → Ungjin → Sabi
+xin	Xin Hanedani (Wang Mang)	hanedan	dogu-asya	0009-01-10	0023-01-01	Chang'an
+dogu-han	Dogu Han Hanedani	imparatorluk	dogu-asya	0025-01-01	0220-01-01	Luoyang
+cao-wei	Cao Wei	imparatorluk	dogu-asya	0220-01-01	0265-01-01	Luoyang
+shu-han	Shu Han	krallik	dogu-asya	0221-01-01	0263-01-01	Chengdu
+sun-wu	Wu (Sun Wu)	krallik	dogu-asya	0222-01-01	0280-01-01	Jianye
+yamato	Yamato Devleti (Kofun)	devlet	dogu-asya	0250-01-01	0710-01-01	Yamato (Asuka'ya kadar)
+bati-jin	Bati Jin Hanedani	imparatorluk	dogu-asya	0265-01-01	0316-01-01	Luoyang
+han-zhao	Han-Zhao (Onceki Zhao / Kuzey Han)	krallik	dogu-asya	0304-01-01	0329-01-01	Pingyang → Chang'an
+tuyuhun	Tuyuhun (Tuguhun) Hanlığı	hanlik	dogu-asya	0313-01-01	0663-01-01	Fuqi / Qinghai Gölü çevresi
+dai-tuoba	Dai Prensligi (Tuoba/Tabgac)	prenslik	dogu-asya	0315-01-01	0376-01-01	Shengle
+dogu-jin	Dogu Jin Hanedani	imparatorluk	dogu-asya	0317-01-01	0420-01-01	Jiankang
+kuzey-wei	Kuzey Wei (Tuoba/Tabgaç) Hanedanı	hanedanlik	dogu-asya	0386-01-01	0534-01-01	Datong (sonra Luoyang)
+liu-song	Liu Song	imparatorluk	dogu-asya	0420-01-01	0479-01-01	Jiankang
+guney-qi	Guney Qi	imparatorluk	dogu-asya	0479-01-01	0502-01-01	Jiankang
+liang-guney	Liang (Guney Hanedani)	imparatorluk	dogu-asya	0502-01-01	0557-01-01	Jiankang
+dogu-wei	Doğu Wei Hanedanı	hanedanlik	dogu-asya	0534-01-01	0550-01-01	Ye
+bati-wei	Batı Wei Hanedanı	hanedanlik	dogu-asya	0535-01-01	0557-01-01	Chang'an
+kuzey-qi	Kuzey Qi Hanedanı	hanedanlik	dogu-asya	0550-01-01	0577-01-01	Ye
+chen	Chen Hanedani	imparatorluk	dogu-asya	0557-01-01	0589-01-01	Jiankang
+kuzey-zhou	Kuzey Zhou Hanedanı	hanedanlik	dogu-asya	0557-01-01	0581-01-01	Chang'an
+sui	Sui Hanedani	imparatorluk	dogu-asya	0581-01-01	0618-01-01	Daxing / Luoyang
+tang	Tang Hanedani	imparatorluk	dogu-asya	0618-01-01	0907-01-01	Chang'an
+tibet-imparatorlugu	Tibet İmparatorluğu (Tubo / Yarlung)	imparatorluk	dogu-asya	0629-01-01	0842-01-01	Lhasa
+tubo-tibet-imparatorlugu	Tibet (Tubo/Tufan) İmparatorluğu — Yarlung hanedanı	imparatorluk	dogu-asya	0629-01-01	0842-01-01	Lhasa (Songtsen Gampo'dan beri)
+wu-zhou	Wu Zhou (Wu Zetian)	imparatorluk	dogu-asya	0690-01-01	0705-01-01	Luoyang
+balhae	Balhae (Bohai/Parhae) Krallığı	krallik	dogu-asya	0698-01-01	0926-01-01	Dongmozu / Sanggyeong
+nara-japonya	Japonya - Nara Donemi Imparatorluk Sarayi	devlet	dogu-asya	0710-01-01	0793-12-31	Heijo-kyo
+nanzhao	Nanzhao Krallığı	krallik	dogu-asya	0729-01-01	0902-01-01	Taihe / Dali
+heian-japonya	Japonya — Heian Dönemi İmparatorluk Sarayı	imparatorluk	dogu-asya	0794-01-01	1185-01-01	Heian-kyō (Kyoto)
+guiyi-jun-dunhuang	Guiyi Jun (Dunhuang/Shazhou Askerî Valiliği)	prenslik	dogu-asya	0848-01-01	1036-01-01	Shazhou (Dunhuang)
+hubaekje	Sonraki Baekje (Hubaekje)	krallik	dogu-asya	0892-01-01	0936-01-01	Wansan (Jeonju)
+taebong	Sonraki Goguryeo (Majin / Taebong)	krallik	dogu-asya	0901-01-01	0918-01-01	
+yang-wu	Wu (Yang Wu) Krallığı	krallik	dogu-asya	0902-01-01	0937-01-01	
+sonraki-liang-5hanedan	Sonraki Liang (Bes Hanedan)	hanedan	dogu-asya	0907-01-01	0923-01-01	Kaifeng
+onceki-shu	Önceki Shu (Qian Shu) Krallığı	krallik	dogu-asya	0907-01-01	0925-01-01	
+wuyue	Wuyue Krallığı	krallik	dogu-asya	0907-01-01	0978-01-01	
+min-krallik	Min Krallığı	krallik	dogu-asya	0909-01-01	0945-01-01	
+liao-hanedani	Liao Hanedanı (Kitan / Hıtay)	hanedanlik	dogu-asya	0916-01-01	1125-01-01	Shangjing (Linhuang) · beş başkent sistemi (Nanjing = Pekin dahil)
+guney-han-10krallik	Güney Han (Nan Han) Krallığı	krallik	dogu-asya	0917-01-01	0971-01-01	
+goryeo	Goryeo Hanedanı (Kore)	hanedanlik	dogu-asya	0918-01-01	1392-07-17	Kaesong
+sonraki-tang-5hanedan	Sonraki Tang (Shatuo, Bes Hanedan)	hanedan	dogu-asya	0923-01-01	0936-01-01	Luoyang
+nan-ping-jingnan	Nan Ping (Jingnan) Krallığı	krallik	dogu-asya	0924-01-01	0963-01-01	
+chu-ma	Chu (Ma Chu) Krallığı	krallik	dogu-asya	0927-01-01	0951-01-01	
+sonraki-shu	Sonraki Shu (Hou Shu) Krallığı	krallik	dogu-asya	0934-01-01	0965-01-01	
+sonraki-jin-5hanedan	Sonraki Jin (Shatuo, Bes Hanedan)	hanedan	dogu-asya	0936-01-01	0947-01-01	Kaifeng
+dali-kralligi	Dali Krallığı (Yunnan)	krallik	dogu-asya	0937-01-01	1253-01-01	Dali (Yangjümie)
+guney-tang	Güney Tang (Nan Tang) Krallığı	krallik	dogu-asya	0937-01-01	0975-01-01	
+sonraki-han-5hanedan	Sonraki Han (Shatuo, Bes Hanedan)	hanedan	dogu-asya	0947-01-01	0951-01-01	Kaifeng
+sonraki-zhou-5hanedan	Sonraki Zhou (Bes Hanedan)	hanedan	dogu-asya	0951-01-01	0960-01-01	Kaifeng
+kuzey-han-10krallik	Kuzey Han (Bei Han) Krallığı	krallik	dogu-asya	0951-01-01	0979-01-01	
+song	Song Hanedanı (Çin)	hanedanlik	dogu-asya	0960-01-01	1279-03-19	Bianjing (Kaifeng) → Lin'an (Hangzhou)
+guge	Guge Krallığı (Batı Tibet)	krallik	dogu-asya	1000-01-01	1630-01-01	Tsaparang · Tholing
+tsongkha	Tsongkha (Qingtang, Gusiluo) Krallığı	krallik	dogu-asya	1008-01-01	1104-01-01	Qingtang (1032'den; önce Kuozhou)
+bati-xia	Batı Xia (Tangut) Devleti	imparatorluk	dogu-asya	1038-01-01	1227-01-01	Xingqing (Zhongxing; bugün Yinchuan)
+oshu-fujiwara	Ōshū Fujiwara (Kuzey Fujiwara) Hanedanlığı	hanedanlik	dogu-asya	1087-01-01	1189-01-01	Hiraizumi
+jin-hanedani	Jin Hanedanı (Jurchen, Kuzey Çin)	hanedanlik	dogu-asya	1115-01-01	1234-02-09	Zhongdu (Pekin)
+kamakura	Kamakura Şogunluğu (Japonya)	devlet	dogu-asya	1185-01-01	1333-07-04	Kamakura
+mogol-imparatorlugu	Moğol İmparatorluğu (bölünmemiş)	imparatorluk	dogu-asya	1206-01-01	1260-01-01	Karakurum
+dongxia	Doğu Xia (Dongxia / Dazhen) Devleti	devlet	dogu-asya	1215-01-01	1233-01-01	Nanjing (Mançurya doğusu; bugün Yanji yöresi — kesin yer tartışmalı)
+yuan-hanedani	Yuan Hanedanı (Moğol Çin)	hanedanlik	dogu-asya	1260-01-01	1368-09-14	Hanbalık (Pekin)
+sakya	Sakya Yönetimi (Moğol-Yuan himayesinde Tibet)	devlet	dogu-asya	1264-01-01	1354-01-01	Sakya
+skit-krallik	İskit (Pontus Bozkırı) Devletleri	gocebe-konfederasyon	dogu-avrupa	-0699-01-01	-0199-01-01	belirsiz / İskit Neapolis
+bosporos-krallik	Bosporos (Kırım) Krallığı	krallik	dogu-avrupa	-0437-01-01	0370-01-01	Pantikapaion
+hun-avrupa	Avrupa Hun İmparatorluğu (Attila)	konfederasyon	dogu-avrupa	0370-01-01	0455-01-01	belirsiz (Pannonia)
+buyuk-bulgaristan	Büyük Bulgaristan (Kubrat)	kabile-devleti	dogu-avrupa	0635-01-01	0680-01-01	Phanagoria
+kiev-rusu	Kiev Rus'u (Kiev Büyük Knezliği)	knezlik	dogu-avrupa	0882-01-01	1240-12-06	Kiev
+pecenek-konfederasyonu	Peçenek Konfederasyonu	bozkir-konfederasyonu	dogu-avrupa	0889-01-01	1122-01-01	
+polonya-erken	Polonya Krallığı (Birlik Öncesi)	krallik	dogu-avrupa	0966-01-01	1569-07-01	Krakov
+polotsk-knezligi	Polotsk Knezliği	knezlik	dogu-avrupa	0978-01-01	1307-01-01	Polotsk
+cernigov-knezligi	Çernigov Knezliği	knezlik	dogu-avrupa	1024-01-01	1239-10-18	Çernigov
+smolensk-knezligi	Smolensk Knezliği	knezlik	dogu-avrupa	1054-01-01	1404-01-01	Smolensk
+pereyaslavl-knezligi	Pereyaslavl (Güney) Knezliği	knezlik	dogu-avrupa	1054-01-01	1239-03-03	Pereyaslavl
+ryazan	Ryazan Knezliği	prenslik	dogu-avrupa	1129-01-01	1521-01-01	Ryazan (Stara Ryazan → Pereyaslavl-Ryazanski)
+novgorod	Novgorod Cumhuriyeti	cumhuriyet	dogu-avrupa	1136-01-01	1478-01-15	Novgorod
+mazovya-dukaligi	Mazovya Dükalığı	dukalik	dogu-avrupa	1138-01-01	1526-03-10	Płock / Varşova
+vladimir-suzdal	Vladimir-Suzdal Büyük Knezliği	knezlik	dogu-avrupa	1157-01-01	1281-01-01	Vladimir
+galicya-volhinya	Galiçya-Volhinya Knezliği (Rus Krallığı)	knezlik	dogu-avrupa	1199-01-01	1340-01-01	Halych → Kholm (1241 sonrası) → Lviv (1272)
+livonya-tarikati	Kılıç Kardeşleri / Livonya Tarikatı	tarikat-devleti	dogu-avrupa	1202-01-01	1561-11-28	Riga / Wenden (Cēsis) — merkez bu turda kaynakla ölçülmedi
+rostov-knezligi	Rostov Knezliği (Vladimir bağlısı)	knezlik	dogu-avrupa	1207-01-01	1474-01-01	Rostov
+yaroslavl-knezligi	Yaroslavl Knezliği	knezlik	dogu-avrupa	1218-01-01	1463-01-01	Yaroslavl
+teuton-sovalyeleri	Töton Tarikatı Devleti (Prusya'da)	devlet	dogu-avrupa	1230-01-01	1525-04-08	Marienburg (Malbork) → Königsberg
+litvanya-buyuk-dukalik	Litvanya Büyük Dükalığı	dukalik	dogu-avrupa	1236-01-01	1569-07-01	Vilnius
+beloozero-knezligi	Beloozero Knezliği	knezlik	dogu-avrupa	1238-01-01	1389-01-01	Beloozero
+tver	Tver Büyük Knezliği	prenslik	dogu-avrupa	1246-01-01	1485-09-12	Tver
+riga-baspiskoposlugu	Riga Başpiskoposluğu	piskoposluk-prensligi	dogu-avrupa	1255-01-01	1562-01-01	Riga
+mapungubwe	Mapungubwe Krallığı	krallik	guney-afrika	0900-01-01	1300-01-01	Mapungubwe (Limpopo-Shashe birleşimi)
+zimbabve-kralligi	Büyük Zimbabve Krallığı	krallik	guney-afrika	1100-01-01	1450-01-01	Büyük Zimbabve
+caral-norte-chico	Norte Chico (Caral-Supe) Uygarligi	uygarlik	guney-amerika	-2999-01-01	-1999-01-01	Caral
+chavin	Chavin Kulturu	kultur	guney-amerika	-0899-01-01	-0199-01-01	Chavin de Huantar
+nazca	Nazca Kulturu	kultur	guney-amerika	-0199-01-01	0599-01-01	Cahuachi
+moche	Moche (Mochica) Devletleri	devlet	guney-amerika	0001-01-01	0799-12-31	Huacas de Moche
+tiwanaku-devleti	Tiwanaku Devleti	imparatorluk	guney-amerika	0500-01-01	1010-01-01	Tiwanaku
+tiwanaku	Tiwanaku Devleti	krallik	guney-amerika	0500-01-01	1150-01-01	Tiwanaku
+wari	Wari (Huari) Imparatorlugu	imparatorluk	guney-amerika	0600-01-01	0800-01-01	Huari
+sican	Sicán (Lambayeque) Devleti	devlet	guney-amerika	0750-01-01	1375-01-01	Batán Grande → Túcume
+tairona	Tairona Şeflikleri	seflikler	guney-amerika	0800-01-01	1600-01-01	Ciudad Perdida (Teyuna)
+chimu-krallik	Chimu Krallığı (Chimor)	krallik	guney-amerika	1000-01-01	1470-01-01	Chan Chan
+chimu	Chimu (Chimor) Krallığı	krallik	guney-amerika	1000-01-01	1470-01-01	Chan Chan
+mehrgarh-neolitik	Mehrgarh Neolitiği (Kaççi Ovası, Belucistan)	kultur	guney-asya	-5049-01-01	-4723-01-01	yok (kültür; merkez tanımsız)
+erken-harappa	Erken Harappa Dönemi	kultur	guney-asya	-3199-01-01	-2599-01-01	yok (kültür; merkez tanımsız)
+harappa	Harappa (Indus) Uygarlığı (Olgun evre)	uygarlik-devlet-duzeyi-tartismali	guney-asya	-2599-01-01	-1899-01-01	
+gec-harappa	Geç Harappa Dönemi	kultur	guney-asya	-1899-01-01	-1599-01-01	yok (kültür; merkez tanımsız)
+guney-hint-neolitik-megalitik	Güney Hint Neolitiği → Megalitik geçiş (Sanganakallu-Kupgal)	kultur	guney-asya	-1399-01-01	-1199-01-01	yok (kültür; merkez tanımsız)
+magadha	Magadha (Haryanka-Sisunaga-Nanda)	krallik	guney-asya	-0542-01-01	-0320-01-01	Rajagriha → Pataliputra
+maurya	Maurya Imparatorlugu	imparatorluk	guney-asya	-0320-01-01	-0184-01-01	Pataliputra
+sunga	Sunga Hanedani	hanedan	guney-asya	-0184-01-01	-0072-01-01	Pataliputra → Vidisha
+indo-grek	Hint-Grek (Indo-Greek) Krallıkları	krallik	guney-asya	-0179-01-01	0010-01-01	Taksila → Sagala (Sialkot)
+kanva	Kanva Hanedani	hanedan	guney-asya	-0071-01-01	-0027-01-01	Pataliputra
+satavahana	Satavahana Hanedanı (Andhra)	hanedanlik	guney-asya	-0029-01-01	0220-01-01	Pratishthana (Paithan) / Amaravati
+sakalar-bati-satraplar	İndo-İskit Batı Kşatrapaları	krallik	guney-asya	0035-01-01	0405-01-01	Ujjain
+gupta	Gupta Imparatorlugu	imparatorluk	guney-asya	0320-01-01	0540-01-01	Pataliputra
+bati-ganga	Batı Ganga (Talakad Gangaları) Hanedanı	hanedanlik	guney-asya	0350-01-01	1004-01-01	Talakad
+pallava	Pallava Hanedanı (Kançipuram)	hanedanlik	guney-asya	0350-01-01	0897-01-01	Kançipuram
+kamarupa	Kamarupa Krallığı (Varman, Mleccha, Pala hanedanları)	krallik	guney-asya	0350-01-01	1150-01-01	Pragjyotishapura (Guwahati)
+badami-calukya	Badami (Erken) Calukya	imparatorluk	guney-asya	0543-01-01	0757-01-01	Badami (Vatapi)
+pandya-1	Birinci Pandya Imparatorlugu	hanedan	guney-asya	0601-01-01		Madurai
+harsha	Harsa'nin Imparatorlugu (Pushyabhuti)	imparatorluk	guney-asya	0606-01-01	0647-01-01	Kannauj / Thanesar
+dogu-calukya	Doğu Çalukya (Vengi Çalukyaları)	hanedanlik	guney-asya	0624-01-01	1070-01-01	Vengi
+karkota	Karkota Hanedanı (Keşmir)	hanedanlik	guney-asya	0626-01-01	0855-01-01	
+pala	Pâla Hanedanı (Bengal-Bihar)	hanedanlik	guney-asya	0750-01-01	1120-01-01	Mudgagiri (Munger)
+rastrakuta	Rastrakuta Hanedani	imparatorluk	guney-asya	0755-01-01	0975-01-01	Manyakheta
+gurjara-pratihara	Gürcara-Pratihâra Hanedanı (Kannauj)	hanedanlik	guney-asya	0783-01-01	1027-01-01	Kannauj
+kulasekhara-cera	Kulasekhara (İkinci Çera / Çera Perumallar) Krallığı	krallik	guney-asya	0800-01-01	1102-01-01	Mahodayapuram (Kodungallur)
+cola	Çola (Chola) İmparatorluğu	imparatorluk	guney-asya	0850-01-01	1279-01-01	Tancavur (Thanjavur) → Gangaikondaçolapuram
+hindu-sahiler	Hindu Şâhîler (Udabhandapura / Vahand)	hanedan	guney-asya	0850-01-01	1026-01-01	Kâbil → Udabhandapura → Nandana → Lahor
+kalacuri-tripuri	Kalaçuri (Tripuri/Çedi) Hanedanı	hanedan	guney-asya	0850-01-01		Tripuri (Tewar)
+utpala-kesmir	Utpala Hanedanı (Keşmir)	hanedanlik	guney-asya	0855-01-01	1003-01-01	Keşmir vadisi (başkent adı kaynakta teyit edilmedi)
+bati-calukya	Batı Çalukya (Kalyani Çalukyaları)	hanedanlik	guney-asya	0975-01-01	1189-01-01	Manyakheta → Kalyani
+racput	Racput Devletleri (Mevar, Mârvâr, Amber, Bikaner)	devlet	guney-asya	1000-01-01	1947-08-15	Çitor/Udeypûr · Codhpûr · Caypûr (çok merkezli)
+orissa	Orissa (Doğu Ganga ve Gacapati Krallığı)	krallik	guney-asya	1000-01-01	1568-01-01	Kattak
+kesmir	Keşmir Sultanlığı (Şah Mîr Hânedanı)	sultanlik	guney-asya	1000-01-01	1586-10-01	Srinagar
+nepal	Nepal (Malla Krallıkları → Gorkha/Şah Hânedanı)	krallik	guney-asya	1000-01-01		Katmandu
+cahamana	Çavhan (Çâhamâna) Hanedanı — Şakambhari/Ecmîr	hanedanlik	guney-asya	1000-01-01	1192-01-01	Şakambhari → Ecmîr (Ajayameru) · Delhi
+paramara	Paramâra Hanedanı (Mâlva)	hanedanlik	guney-asya	1000-01-01	1305-01-01	Dhâr · Ujjain
+caulukya	Çaulukya (Solanki) Hanedanı — Gucerat	hanedanlik	guney-asya	1000-01-01	1297-01-01	Anahilapataka (Patan)
+candela	Çandela (Candella) Hanedanı — Bundelkhand	hanedanlik	guney-asya	1000-01-01	1203-01-01	Khajuraho → Mahoba · Kâlincar
+hoysala	Hoysala Hanedanı	hanedanlik	guney-asya	1026-01-01	1343-01-01	Belur → Halebidu
+seylan-sinhala	Seylan Sinhala Krallıkları (Portekiz Öncesi)	krallik	guney-asya	1070-01-01	1518-01-01	Dambadeniya → Gampola → Kotte (ardışık merkezler)
+gahadavala	Gâhadavâla Hanedanı (Kannauj-Varanasi)	hanedanlik	guney-asya	1089-01-01	1197-01-01	Kannauj · Varanasi
+sena	Sena Hanedanı (Bengal)	hanedanlik	guney-asya	1095-01-01	1202-01-01	Nadia (Navadvipa)
+kalikut	Kalikut Zamorinliği	krallik	guney-asya	1100-01-01	1766-01-01	Kalikut
+kocin	Kochi (Cochin) Krallığı — Portekiz Öncesi	krallik	guney-asya	1102-01-01	1503-01-01	Kochi
+maldivler-sultanligi	Maldiv Sultanlığı (İngiliz himayesi 1887-1965)	sultanlik	guney-asya	1153-01-01	1968-11-11	Malé
+kakatiya	Kakatiya Hanedanı (Warangal)	hanedanlik	guney-asya	1163-01-01	1323-01-01	Warangal
+yadava	Yadava Hanedanı (Devagiri)	hanedanlik	guney-asya	1187-01-01	1318-01-01	Devagiri
+pandya	Pandya Hanedanı (İkinci İmparatorluk)	hanedanlik	guney-asya	1190-01-01	1323-01-01	Madurai
+delhi-sultanligi	Delhi Sultanlığı	devlet	guney-asya	1206-01-01	1526-04-21	Delhi
+kabace	Nâsırüddin Kabâce Devleti (Mültan-Uç-Sind)	devlet	guney-asya	1206-01-01	1228-01-01	Mültan · Uç
+funan	Funan Krallığı	krallik	guneydogu-asya	0001-01-01	0550-01-01	Vyadhapura
+linyi-champa	Linyi (Champa'nin Ilk Donemi)	krallik	guneydogu-asya	0192-01-01	0999-12-31	Indrapura
+van-xuan	Van Xuan (Erken Ly)	krallik	guneydogu-asya	0544-01-01	0603-01-01	Long Bien
+chenla	Chenla (Zhenla) Krallığı	krallik	guneydogu-asya	0550-01-01	0802-01-01	Ishanapura
+dvaravati	Dvaravati Mon Krallıkları	krallik	guneydogu-asya	0551-01-01	1100-01-01	Nakhon Pathom
+sunda-pajajaran	Sunda Krallığı (Pajajaran)	krallik	guneydogu-asya	0669-01-01	1527-06-22	Pakuan Pajajaran
+srivijaya	Srivicaya (Śrīvijaya) Krallığı	krallik	guneydogu-asya	0683-01-01	1275-01-01	Palembang → Jambi (Melayu)
+medang	Medang (Mataram) Krallığı (Cava)	krallik	guneydogu-asya	0732-01-01	1016-01-01	Orta Cava (Mataram) → Doğu Cava (Watugaluh, 929 sonrası)
+angkor-kmer	Kmer (Angkor) İmparatorluğu	imparatorluk	guneydogu-asya	0802-01-01	1431-01-01	Angkor (Yasodharapura)
+pagan	Pagan Krallığı (Burma) — Son Dönem	krallik	guneydogu-asya	0849-01-01	1297-01-01	Pagan (Bagan)
+bali-warmadewa	Bali Krallığı (Warmadewa Hanedanı)	krallik	guneydogu-asya	0914-01-01	1284-01-01	Bedulu–Pejeng yöresi
+dinh	Dinh Hanedani (Dai Co Viet)	krallik	guneydogu-asya	0968-01-01	0979-01-01	Hoa Lu
+poni	Po-ni (Poni) Krallığı	krallik	guneydogu-asya	0977-01-01	1405-01-01	— (Brunei bölgesi, kesin merkez standart kaynakta belirtilmemiş)
+tien-le-hanedani	Erken Lê Hanedanı (Đại Cồ Việt)	hanedanlik	guneydogu-asya	0980-01-01	1009-01-01	Hoa Lư
+campa	Champa Krallığı	krallik	guneydogu-asya	1000-01-01	1832-01-01	Vijaya → Panduranga
+hariphunchai	Hariphunchai (Haripuñjaya) Krallığı	krallik	guneydogu-asya	1000-01-01	1292-01-01	Lamphun
+filipin-racaliklari	Filipin Racalıkları (Tondo, Maynila, Cebu, Butuan)	beylik	guneydogu-asya	1001-01-01	1571-06-24	(çok merkezli barangay ve racalıklar)
+ly-hanedani	Lý Hanedanı (Đại Việt)	hanedanlik	guneydogu-asya	1009-01-01	1225-01-01	Thăng Long (Hanoi)
+kahuripan	Kahuripan Krallığı (Airlangga, Doğu Cava)	krallik	guneydogu-asya	1019-01-01	1042-01-01	Kahuripan
+kediri	Kediri (Panjalu) Krallığı (Doğu Cava)	krallik	guneydogu-asya	1042-01-01	1222-01-01	Daha (Kediri)
+sipsong-panna	Sipsong Panna (Çiang Rung, Tai Lü) Krallığı	krallik	guneydogu-asya	1180-01-01	1950-01-01	Chiang Rung (Jinghong)
+singhasari	Singhasari Krallığı (Cava)	krallik	guneydogu-asya	1222-01-01	1292-01-01	Singhasari
+tran-hanedani	Trần Hanedanı (Vietnam)	hanedanlik	guneydogu-asya	1225-01-01	1400-03-01	Thăng Long (Hanoi)
+sukhothai	Sukhothai Krallığı (Siyam)	krallik	guneydogu-asya	1238-01-01	1438-01-01	Sukhothai
+lan-na	Lan Na Krallığı	krallik	guneydogu-asya	1262-01-01	1558-04-02	Chiang Mai
+los-millares-kultur	Los Millares Bakır Çağı topluluğu (Almería)	kultur	iberya	-3139-01-01	-2166-01-01	yok (kültür; merkez tanımsız)
+el-argar-kultur	El Argar Kültürü (Güneydoğu İberya)	kultur	iberya	-2199-01-01	-1549-01-01	yok (kültür; merkez tanımsız)
+suev	Suev Krallığı (Galicia)	krallik	iberya	0409-01-01	0585-01-01	Braga
+vizigot	Vizigot (Batı Got) Krallığı (Tolosa -> Toledo)	krallik	iberya	0418-01-01	0711-01-01	Tolosa -> Toledo
+asturias	Asturias Krallığı	krallik	iberya	0718-01-01	0910-01-01	Cangas -> Oviedo
+endulus-emevi	Endülüs Emevîleri (Kurtuba Emirliği / Hilâfeti)	hilafet	iberya	0756-05-15	1031-01-01	Kurtuba (Córdoba)
+barselona-kontlugu	Barselona Kontluğu (Katalan kontlukları)	kontluk	iberya	0801-01-01	1164-01-01	Barselona
+navarra	Navarra Krallığı	krallik	iberya	0824-01-01	1620-10-19	Pamplona
+leon-kralligi	León Krallığı	krallik	iberya	0910-01-01	1230-09-23	León
+endulus-tavaif	Mülûkü't-tavâif (Endülüs tâife emirlikleri)	emirlik	iberya	1009-01-01	1110-01-01	yok (toplu künye) — başlıca merkezler: İşbîliye, Tuleytula, Sarakusta, Batalyevs, Gırnata, Belensiye, Kurtuba
+granada-ziriler	Zîrîler (Gırnata Taifası)	taife-emirligi	iberya	1013-01-01	1090-01-01	Gırnata (Granada)
+sevilla-abbadiler	Abbâdîler (Sevilla Taifası)	taifa-emirligi	iberya	1023-01-01	1091-01-01	Sevilla
+kastilya	Kastilya Tacı	krallik	iberya	1035-01-01	1479-01-19	Toledo → Valladolid
+aragon	Aragon Tacı	krallik	iberya	1035-01-01	1479-01-19	Zaragoza → Barselona
+toledo-zunnunler	Zünnûnîler (Toledo Taifası)	taifa-emirligi	iberya	1036-01-01	1085-05-08	Toledo
+zaragoza-hudiler	Hûdîler (Saragosa Taifası)	taifa-emirligi	iberya	1039-01-01	1110-01-01	Saragosa
+cid-valensiya	Valensiya (El Cid) Prensliği	prenslik	iberya	1094-06-17	1102-05-05	Valensiya
+portekiz	Portekiz Krallığı	krallik	iberya	1097-01-01		Lizbon
+murcia-ibn-merdenis	Murcia/Valensiya Emirliği (İbn Merdenîş)	emirlik	iberya	1147-01-01	1172-01-01	Murcia
+granada	Gırnata (Nasrî) Emirliği	devlet	iberya	1238-05-12	1492-01-02	Gırnata
+valensiya-kralligi	Valensiya Krallığı (Aragon Tacı)	krallik	iberya	1238-09-28	1707-01-01	Valensiya
+mayorka	Mayorka Krallığı	krallik	iberya	1276-07-27	1349-10-25	
+andorra	Andorra Eş-Prensliği	prenslik	iberya	1278-01-01		Andorra la Vella
+yahya-donemleri	Tepe Yahya Dönemleri VII–I (Kirman)	kultur	iran	-5499-01-01	-0199-01-01	yok (kültür; merkez tanımsız)
+hissar-kultur	Hissar I–III (Damghan, İran platosu)	kultur	iran	-3921-01-01	-2169-01-01	yok (kültür; merkez tanımsız)
+awan	Awan Krallığı (Elam, Erken Elam)	krallik	iran	-2499-01-01	-2099-01-01	Awan (yeri bilinmiyor)
+elam-simaski	Elam — Simaski Hanedani	krallik	iran	-2099-01-01	-1899-01-01	Susa
+elam-sukkalmah	Elam — Sukkalmah (Eparti) Hanedani	krallik	iran	-1899-01-01	-1499-01-01	Susa
+elam-orta	Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid)	krallik	iran	-1499-01-01	-1099-01-01	Susa / Cogha Zanbil
+elam-yeni	Yeni Elam Krallığı	krallik	iran	-1099-01-01	-0538-01-01	Susa
+manna	Manna (Mannea) Krallığı	krallik	iran	-0828-01-01	-0599-01-01	Izirtu (Zirta)
+medya	Medya (Med) Krallığı	krallik	iran	-0677-01-01	-0549-01-01	Ekbatana (Hegmatana)
+ahamenis	Ahamenis (Pers) Imparatorlugu	imparatorluk	iran	-0549-01-01	-0329-01-01	Pasargad / Persepolis / Susa
+iskender-imparatorlugu	Buyuk Iskender Imparatorlugu	imparatorluk	iran	-0335-01-01	-0322-06-10	Pella → Babil
+part	Part (Arsakid) Imparatorlugu	imparatorluk	iran	-0246-01-01	0224-04-28	Nisa → Ktesiphon
+elymais	Elymais Krallığı	vasal-krallik	iran	-0146-01-01	0224-01-01	Susa
+sasani	Sâsânî İmparatorluğu	imparatorluk	iran	0224-04-28	0651-01-01	Medâin (Ktesifon)
+bavendi	Bâvendîler	hanedanlik	iran	0665-01-01	1349-04-17	Firîm / Şehriyârkûh (Keyûsiyye) · Sârî (İspehbediyye) · Âmül (Kinhâriyye)
+badusbani	Bâdüsbânîler (Rûyân üstândârları)	hanedanlik	iran	0665-01-01	1598-01-01	Rûyân · (sonra) Kucur ve Nur
+tahiri-horasan	Tâhirîler (Horasan)	hanedanlik	iran	0821-05-06	0873-01-01	Merv → Nîşâbur
+dulefi	Dülefîler (Delefîler / Dulafidler)	emirlik	iran	0825-01-01	0897-01-01	Kerec
+saffari	Saffârîler	hanedanlik	iran	0861-01-01	1003-01-01	Zerenc
+taberistan-zeydi	Taberistan Zeydileri (Aleviler) — I. donem	emirlik	iran	0864-02-13	0900-01-07	Amul
+taberistan-zeydi-ii	Taberistan Zeydîleri (Hüseynî kolu) — II. dönem	emirlik	iran	0914-01-01	0928-11-10	Âmül
+ziyari	Ziyârîler	hanedanlik	iran	0928-01-01	1090-01-01	Cürcân (Gürgân) · Esterâbâd
+buveyhi	Büveyhîler	hanedanlik	iran	0932-01-01	1062-01-01	Şîraz (Fars) · Rey / İsfahan / Hemedan (Cibâl) · Bağdat (Irak kolu)
+musafiri	Müsâfirîler (Sellârîler, Kengerîler)	hanedanlik	iran	0942-01-01	1062-01-01	Şemîrân Kalesi (Târum) · Erdebil (Azerbaycan kolu, 979/980'e dek)
+revvadi	Revvâdîler	hanedanlik	iran	0979-01-01	1071-01-01	Tebriz
+annazi	Annâzîler	hanedanlik	iran	0991-01-01	1117-01-01	Hulvân · Sîrvân Kalesi
+kakuyi	Kâkûyîler (Kâkeveyhîler)	hanedanlik	iran	1007-01-01	1141-01-01	İsfahan (1051'e dek) · Yezd (1051-1141)
+buyuk-selcuklu	Büyük Selçuklu Devleti	sultanlik	iran	1038-01-01	1157-01-01	Nîşâbur → Rey → İsfahan → Merv
+kirman-selcuklu	Kirman Selçukluları	sultanlik	iran	1048-01-01	1187-01-01	Berdesîr (Kirman) → Nermâsîr (son dönem)
+alamut-nizari	Nizârî İsmâilî Devleti (Alamut)	devlet	iran	1090-09-04	1256-11-19	Alamut Kalesi (Rûdbâr)
+ahmedili	Ahmedîlîler (Merâga Atabegleri)	atabeglik	iran	1116-01-01	1227-01-01	Merâga · (sonra) Revândiz Kalesi
+irak-selcuklu	Irak Selçukluları	sultanlik	iran	1118-05-06	1194-01-01	İsfahan → Hemedan
+yezd-atabegligi	Yezd Atabegleri	atabeglik	iran	1141-01-01	1318-01-01	Yezd
+salgurlu	Salgurlular (Fars Atabegleri)	atabeglik	iran	1148-01-01	1286-12-29	Şîraz
+ildenizli	İldenizliler (Azerbaycan Atabegleri)	atabeglik	iran	1148-01-01	1225-07-25	Nahcıvan · Tebriz · Hemedan
+lur-i-buzurg	Lür-i Büzürg Atabegliği (Hazaraspîler)	devlet	iran	1155-01-01	1424-01-01	İzeh (Mâlemîr)
+lur-i-kucek	Lür-i Küçek Atabegliği	devlet	iran	1184-01-01	1597-01-01	— (TDV'de belirtilmemiş)
+kutlughanli	Kutluğhanlılar	devlet	iran	1222-01-01	1306-01-01	Kirman
+kert	Kertler (Herat)	hanedanlik	iran	1244-01-01	1389-01-01	Herat
+ilhanli	İlhanlı Devleti	devlet	iran	1256-01-01	1353-01-01	Meraga → Tebriz → Sultaniye
+malta-gantija-tarxien	Malta Neolitiği: Ġgantija ve Tarxien evreleri	kultur	italya	-3511-01-01	-2419-01-01	yok (kültür; merkez tanımsız)
+roma-kralligi	Roma Krallığı	krallik	italya	-0752-01-01	-0508-01-01	Roma
+sirakuza	Sirakuza (Syrakousai)	devlet	italya	-0733-01-01	-0210-01-01	Sirakuza
+etrusk-sehir-devletleri	Etrüsk Şehir Devletleri (Oniki Şehir Birliği)	devlet	italya	-0574-01-01	-0088-01-01	Tarquinia / Fanum Voltumnae (birlik toplantı yeri)
+roma-cumhuriyeti	Roma Cumhuriyeti	cumhuriyet	italya	-0508-01-01	-0026-01-16	Roma
+roma-imp	Roma İmparatorluğu (Prinkipat-Dominat, birleşik)	imparatorluk	italya	-0026-01-16	0395-01-17	Roma (330'dan itibaren Konstantinopolis)
+odoakar	Odoakar'ın İtalya Krallığı	krallik	italya	0476-08-23	0493-03-05	Ravenna
+dogu-got	Doğu Got (Ostrogot) Krallığı	krallik	italya	0493-03-05	0553-01-01	Ravenna
+langobard	Lombard (Langobard) Krallığı	krallik	italya	0568-01-01	0774-01-01	Pavia
+ravenna-eksarhligi	Ravenna Eksarhlığı (Bizans İtalyası)	eksarhlik	italya	0584-01-01	0751-01-01	Ravenna
+venedik	Venedik Cumhuriyeti	cumhuriyet	italya	0697-01-01	1797-05-12	Venedik
+papalik	Papalık Devleti	devlet	italya	0756-01-01	1870-09-20	Roma
+karolenj-italya	İtalya Krallığı (Karolenj-Berengar dönemi)	krallik	italya	0774-01-01	0962-02-02	Pavia
+gaeta-dukaligi	Gaeta Dükalığı	dukalik	italya	0836-01-01	1140-01-01	Gaeta
+sicilya-emirligi	Sicilya Emirliği (Kelbîler ve ardıl mahallî emirlikler)	emirlik	italya	0947-01-01	1091-01-01	Palermo (Belerm)
+piza	Pisa Cumhuriyeti	cumhuriyet	italya	1000-01-01	1406-10-09	Pisa
+amalfi-cumhuriyeti	Amalfi Cumhuriyeti/Dükalığı	denizci-cumhuriyet	italya	1000-01-01	1131-01-01	Amalfi
+napoli-dukaligi	Napoli Dükalığı	dukalik	italya	1000-01-01	1137-01-01	Napoli
+salerno-prensligi	Salerno Prensliği	prenslik	italya	1000-01-01	1076-12-13	Salerno
+benevento-papalik	Benevento Prensliği	prenslik	italya	1000-01-01	1053-01-01	Benevento
+montferrat-markizligi	Montferrat Markizliği	markizlik	italya	1000-01-01	1708-01-01	Casale
+san-marino	San Marino Cumhuriyeti	cumhuriyet	italya	1000-01-01		San Marino
+como-komunu	Como Komünü	sehir-devleti	italya	1001-01-01	1335-01-01	Como
+cenova	Cenova Cumhuriyeti	cumhuriyet	italya	1005-01-01	1797-06-14	Cenova
+trento-piskoposlugu	Trento Prens-Piskoposluğu	kilise-devleti	italya	1027-01-01	1803-01-01	Trento
+savoya	Savoya Kontluğu / Dükalığı	dukalik	italya	1032-01-01	1720-08-02	Chambéry → Torino
+apulya-dukaligi	Apulya ve Calabria Dükalığı (Norman)	dukalik	italya	1059-01-01	1128-01-01	Melfi, sonra Salerno
+arborea	Arborea Yargıçlığı (Sardinya)	krallik	italya	1070-01-01	1410-01-01	
+sicilya-kralligi	Sicilya Krallığı (Norman Sicilya Kontluğu dahil)	krallik	italya	1072-01-01	1282-03-30	Palermo
+aquileia-patrikligi	Aquileia Patrikhanesi (Friuli)	kilise-devleti	italya	1077-01-01	1420-01-01	Udine / Cividale
+taranto-prensligi	Taranto Prensliği	prenslik	italya	1088-01-01	1465-03-30	Taranto
+milano-dukaligi	Milano Dükalığı	dukalik	italya	1097-01-01	1859-11-10	Milano
+bergamo-komunu	Bergamo Komünü	sehir-devleti	italya	1112-01-01	1333-09-20	Bergamo
+floransa	Floransa Cumhuriyeti	cumhuriyet	italya	1115-01-01	1532-05-01	Floransa
+brescia-komunu	Brescia Komünü	sehir-devleti	italya	1120-01-01	1332-06-01	Brescia
+siena	Siena Cumhuriyeti	cumhuriyet	italya	1125-01-01	1555-04-17	Siena
+saluzzo-markizligi	Saluzzo Markizliği	markizlik	italya	1142-01-01	1548-02-23	Saluzzo
+lucca-cumhuriyeti	Lucca Cumhuriyeti (Komünü)	cumhuriyet	italya	1162-01-01	1799-01-01	Lucca
+ferrara	Este Devleti (Ferrara / Modena)	dukalik	italya	1240-01-01	1859-01-01	Ferrara → Modena (1598 sonrası)
+verona-scaliger	Verona (Della Scala) Signoria'sı	signoria	italya	1262-01-01	1387-10-19	Verona
+bonacolsi	Bonacolsi Senyörlüğü (Mantova)	devlet	italya	1273-01-01	1328-08-16	Mantova
+della-scala	Della Scala (Scaligeri) Senyörlüğü (Verona)	devlet	italya	1277-01-01	1387-10-18	Verona
+ermenistan-yervantuni	Yervandit (Orontid) Ermenistan	krallik	kafkasya	-0599-01-01	-0199-01-01	Armavir -> Yervandaşat
+atropatene	Atropatene (Med Atropatene) Krallığı	krallik	kafkasya	-0320-01-01	0226-01-01	Gazaka (Ganzak)
+artaksiad	Artaksiad Ermenistan	krallik	kafkasya	-0188-01-01	0012-01-01	Artaksata
+arsakuni-ermenistan	Arşakuni Ermenistan (Part dalı)	krallik	kafkasya	0063-01-01	0428-01-01	Artaksata -> Vagarşapat
+tiflis-emirligi	Tiflis Emirliği	emirlik	kafkasya	0650-01-01	1122-01-01	Tiflis
+sirvansah	Şirvanşahlar	devlet	kafkasya	0799-02-12	1538-10-01	Şamahı
+babek-hurremi	Bâbek'in Hürremî isyanı (Bezz, Azerbaycan)	isyan	kafkasya	0816-01-01	0838-01-04	Bezz
+alania-krallik	Alan (Alania) Krallığı (Kuzey Kafkasya)	krallik	kafkasya	0850-01-01	1090-01-01	bilinmiyor
+derbent-hasimi-emirligi	Derbend (Bâbülebvâb) Hâşimî Emirliği	emirlik	kafkasya	0869-01-01	1065-01-01	Derbend (Bâbülebvâb)
+ani-bagratli-kralligi	Ani Bagratlı Ermeni Krallığı	krallik	kafkasya	0885-06-18	1045-01-01	Ani (962'den; önce Bagaran, Kars)
+orta-gurcistan-bagrati	Orta Gürcistan (Kartli) Bagratlı Krallığı (Kuropalat Bagratlıları)	krallik	kafkasya	0888-01-01	1008-01-01	bilinmiyor
+sacogullari	Sâcoğulları (Azerbaycan)	hanedanlik	kafkasya	0889-01-01	0929-09-09	Merâga → Erdebîl
+vaspurakan-kralligi	Vaspurakan Ermeni Krallığı (Artsruni)	krallik	kafkasya	0908-01-01	1021-01-01	Van / Akdamar
+seddadiler-gence	Şeddâdîler (Gence/Arrân kolu)	emirlik	kafkasya	0951-01-01	1075-01-01	Dvin, 971'den Gence
+kars-vanand-kralligi	Kars (Vanand) Ermeni Krallığı	krallik	kafkasya	0962-01-01	1064-01-01	Kars
+lori-kralligi	Taşir-Dzoraget (Lori) Ermeni Krallığı	krallik	kafkasya	0982-01-01	1101-01-01	Lori
+gurcistan	Gürcistan Krallığı/Krallıkları	krallik	kafkasya	1008-01-01	1801-09-12	Tiflis
+seddadiler-ani	Şeddâdîler (Ani kolu)	emirlik	kafkasya	1064-01-01	1175-01-01	Ani
+samtshe-atabegligi	Samçhe (Meskheti, Ahıska/Çıldır) Atabekliği	devlet	kafkasya	1268-01-01	1578-08-09	
+kartaca	Kartaca (Pön) Devleti	sehir-devleti-imparatorluk	kuzey-afrika	-0813-01-01	-0145-01-01	Kartaca
+kyrene	Kyrene (Kirene) Devleti	devlet	kuzey-afrika	-0630-01-01	-0095-01-01	Kyrene
+garamant	Garamantes Krallığı	krallik	kuzey-afrika	-0499-01-01	0666-03-13	Garama (Germa)
+numidia	Numidya Krallığı (Massyli-Masaesyli birlesik)	krallik	kuzey-afrika	-0201-01-01	-0045-01-01	Cirta
+mauretania-krallik	Mauretania Krallığı (Mauri)	krallik	kuzey-afrika	-0109-01-01	0044-01-01	Volubilis / Iol
+vandal	Vandal Krallığı	krallik	kuzey-afrika	0429-05-01	0534-01-01	Hippo Regius -> Kartaca
+berqavata	Bergavata Devleti	devlet	kuzey-afrika	0744-01-01	1149-01-01	Tamesna
+midrari	Midrârîler (Sicilmâse)	hanedanlik	kuzey-afrika	0772-01-01	0976-08-30	Sicilmâse
+rustemi	Rüstemîler	hanedanlik	kuzey-afrika	0777-01-01	0909-07-01	Tâhert
+idrisi	İdrîsîler	hanedanlik	kuzey-afrika	0789-01-01	0985-01-01	Velîlâ → Fas → Hacerünnesr
+aglebi	Ağlebîler	hanedanlik	kuzey-afrika	0800-01-01	0909-03-18	Kayrevan → Rakkāde
+magrave-fas	Mağrâve Emirliği (Fes)	emirlik	kuzey-afrika	0955-04-27	1070-01-01	Fes
+ziriler	Zîrîler (Kuzey Afrika)	hanedanlik	kuzey-afrika	0972-10-02	1148-01-01	Kayrevan → Mehdiye
+magrave-sicilmase	Mağrâve Emirliği (Sicilmâse)	beylik	kuzey-afrika	0976-08-30	1053-01-01	Sicilmâse
+trablus-benihazrun	Benî Hazrun (Trablus) Emirliği	emirlik	kuzey-afrika	1001-01-01	1146-01-01	Trablus
+hammadiler	Hammâdîler	hanedanlik	kuzey-afrika	1015-01-01	1152-04-08	Kal‘atü Benî Hammâd → Bicâye
+murabitlar	Murâbıtlar Devleti	devlet	kuzey-afrika	1056-01-01	1147-03-23	Ağmât → Merakeş
+tunus-benihorasan	Benî Horasan (Tunus) Emirliği	emirlik	kuzey-afrika	1058-01-01	1159-01-01	Tunus
+ganiyeler	Gâniyeoğulları (Benî Gâniye)	hanedan	kuzey-afrika	1126-01-01	1233-01-01	Mayorka, sonra İfrîkıye
+muvahhidler	Muvahhidler Devleti	devlet	kuzey-afrika	1130-01-01	1269-01-01	Tinmel → Merakeş
+merini	Merînî ve Vattâsî Fas Krallığı	krallik	kuzey-afrika	1196-01-01	1549-01-01	Fas (Fez)
+hafsi	Hafsîler (Tunus)	sultanlik	kuzey-afrika	1229-01-01	1574-09-13	Tunus
+zeyyani	Zeyyânîler (Tilimsan)	sultanlik	kuzey-afrika	1235-01-01	1553-01-01	Tilimsan (Tlemcen)
+poverty-point-kultur	Poverty Point Kültürü (Geç Arkaik, Louisiana)	kultur	kuzey-amerika	-1649-01-01	-1149-01-01	yok (kültür; merkez tanımsız)
+hohokam	Hohokam Kültürü (son evre)	kultur	kuzey-amerika	0300-01-01	1450-01-01	Snaketown / Casa Grande
+spiro	Spiro	devlet	kuzey-amerika	0850-01-01	1450-01-01	Spiro
+ata-pueblo	Ata Pueblo Kültürü (Anasazi) — Chaco ve Mesa Verde	devlet	kuzey-amerika	0850-01-01	1300-01-01	Chaco Kanyonu (Pueblo Bonito)
+norse-gronland	Norse Grönland (Vestribygð–Eystribygð)	devlet	kuzey-amerika	0985-01-01	1450-01-01	
+inuit	İnuit	devlet	kuzey-amerika	1000-01-01	1880-09-01	Iglulik
+cahokia	Cahokia (Mississippi Kültürü)	devlet	kuzey-amerika	1050-01-01	1350-01-01	Cahokia
+etowah	Etowah	devlet	kuzey-amerika	1100-01-01	1550-01-01	Etowah
+moundville	Moundville	devlet	kuzey-amerika	1120-01-01	1450-01-01	Moundville
+natchez	Natchez (Grand Village)	devlet	kuzey-amerika	1250-01-01	1731-01-01	—
+danimarka-erken	Danimarka Krallari (Godfred donemi, Erken Dani Krallik)	krallik	kuzey-avrupa	0804-01-01	0950-01-01	Hedeby/Sliesthorp (Guney Jutland)
+norvec-kralligi	Norveç Krallığı (Birlik Öncesi ve Kalmar Dönemi)	krallik	kuzey-avrupa	0872-01-01	1537-01-01	Bergen → Oslo
+izlanda-serbest-devleti	İzlanda Serbest Devleti (Althing dönemi)	devlet	kuzey-avrupa	0930-01-01	1262-01-01	Þingvellir (Althing; başkent yok)
+danimarka	Danimarka Krallığı (1814'e kadar Danimarka-Norveç)	krallik	kuzey-avrupa	0950-01-01		Kopenhag
+isvec-birlik-oncesi	İsveç Krallığı (Kalmar Birliği Öncesi ve Dönemi)	krallik	kuzey-avrupa	1000-01-01	1523-06-06	Stockholm
+orkney-kontlugu	Orkney Kontluğu	kontluk	kuzey-avrupa	1000-01-01	1468-01-01	Kirkwall
+izlanda-norvec-danimarka	İzlanda (Norveç/Danimarka tacı altında)	koloni-ozerk-bolge	kuzey-avrupa	1262-01-01	1918-12-01	Reykjavik
+ubaid-kultur	Ubaid Kültürü (Güney Mezopotamya)	kultur	mezopotamya	-6499-01-01	-3799-01-01	yok (kültür; merkez tanımsız)
+halaf-kultur	Halaf Kültürü	kultur	mezopotamya	-5899-01-01	-5399-01-01	yok (kültür; merkez tanımsız)
+uruk-gec-kultur	Geç Uruk Kültürü (Uruk IV–III, yazının ortaya çıkışı)	kultur	mezopotamya	-3349-01-01	-3199-01-01	yok (kültür; merkez tanımsız)
+kis-egemenlik	Kiş Şehir Devleti ve Egemenliği (Erken Hanedan III)	devlet	mezopotamya	-2599-01-01	-2333-01-01	Kiş
+uruk-erken-hanedan	Uruk Şehir Devleti (Erken Hanedan; Gılgameş'ten Lugalzagesi'ye)	devlet	mezopotamya	-2599-01-01	-2333-01-01	Uruk
+ur-1-hanedan	Ur I. Hanedanı (Kraliyet Mezarlığı dönemi)	hanedanlik	mezopotamya	-2599-01-01	-2333-01-01	Ur
+umma-erken-hanedan	Umma Şehir Devleti (Erken Hanedan; Lugalzagesi)	devlet	mezopotamya	-2549-01-01	-2333-01-01	Umma
+sumer-lagas-1	Lagas I. Hanedan (sehir devleti)	devlet	mezopotamya	-2499-01-01	-2349-01-01	Lagas (Girsu)
+akad	Akad Imparatorlugu	imparatorluk	mezopotamya	-2333-01-01	-2153-01-01	Agade (konum bilinmiyor)
+gutium	Gutium (Gutiler) Hakimiyeti	kabile-hakimiyeti	mezopotamya	-2153-01-01	-2111-01-01	belirsiz (Adab olasi)
+lagas-2	Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)	devlet	mezopotamya	-2143-01-01	-2111-01-01	Girsu/Lagaş
+ur-3	Ur III (Ucuncu Ur Hanedani)	imparatorluk	mezopotamya	-2111-01-01	-2003-01-01	Ur
+larsa	Larsa Krallığı	devlet	mezopotamya	-2024-01-01	-1762-01-01	Larsa
+eski-asur	Eski Asur Devleti (Assur sehir devleti)	sehir-devleti-krallik	mezopotamya	-2024-01-01	-1749-01-01	Assur
+isin	Isin Krallığı (I. Hanedan)	devlet	mezopotamya	-2016-01-01	-1793-01-01	Isin
+esnunna	Esnunna Krallığı	krallik	mezopotamya	-1999-01-01	-1761-01-01	Esnunna (Tell Asmar)
+babil-eski	Eski Babil (Amorit) Krallığı	krallik	mezopotamya	-1893-01-01	-1594-01-01	Babil
+samsi-adad	Ust Mezopotamya Krallığı (Samsi-Adad I)	krallik	mezopotamya	-1807-01-01	-1775-01-01	Subat-Enlil
+sealand-1	Birinci Deniz Ulkesi Hanedani	krallik	mezopotamya	-1731-01-01	-1474-01-01	belirsiz (guney bataklik)
+kassit-babil	Kassit Babil Krallığı	krallik	mezopotamya	-1594-01-01	-1154-01-01	Babil / Dur-Kurigalzu
+mitanni	Mitanni (Hanigalbat) Krallığı	krallik	mezopotamya	-1499-01-01	-1259-01-01	Vassukanni (konum belirsiz)
+orta-asur	Orta Asur Imparatorlugu	imparatorluk	mezopotamya	-1362-01-01	-0910-01-01	Assur
+isin-2	Isin II. Hanedan (Babil, Nabukudurusur I)	krallik	mezopotamya	-1154-01-01	-1029-01-01	Babil
+yeni-asur	Yeni Asur Imparatorlugu	imparatorluk	mezopotamya	-0910-01-01	-0608-01-01	Assur, Kalhu (Nimrud), Ninova
+yeni-babil	Yeni Babil (Keldani) Imparatorlugu	imparatorluk	mezopotamya	-0625-01-01	-0538-10-12	Babil
+karakene	Karakene (Mesene) Krallığı	vasal-krallik	mezopotamya	-0140-01-01	0222-01-01	Charax Spasinou
+lahmi	Lahmiler (Hire)	krallik	mezopotamya	0268-01-01	0602-01-01	Hire
+abbasi	Abbâsî Hilâfeti	hilafet	mezopotamya	0749-11-28	1258-02-10	Kûfe → Bağdat
+hamdani-musul	Hamdânîler (Musul kolu)	hanedanlik	mezopotamya	0905-11-02	0979-07-29	Musul
+ukayli	Ukaylîler	emirlik	mezopotamya	0990-03-31	1096-01-01	Musul
+numeyri	Nümeyrîler (Nümeyroğulları)	emirlik	mezopotamya	0991-01-01	1083-01-01	Harran
+mezyedi	Mezyedîler	emirlik	mezopotamya	0997-01-14	1163-01-01	Nîl / Câmiayn → Hille (1102)
+urfa-toros-beyligi	Urfa Ermeni Beyliği (Kuropalat Toros)	beylik	mezopotamya	1095-01-01	1098-03-10	Urfa
+urfa-kontlugu	Urfa (Edessa) Haçlı Kontluğu	kontluk	mezopotamya	1098-03-10	1150-01-01	Urfa (1098-1144) → Tel Bâşir (1144-1150)
+zengi-musul	Zengîler (Musul Atabegliği)	atabeglik	mezopotamya	1127-01-01	1233-01-01	Musul
+begteginli	Begteginliler (Erbil Atabegliği)	beylik	mezopotamya	1144-01-01	1232-06-29	Erbil
+zengi-cizre	Zengîler (Cezîre-i İbn Ömer / Cizre kolu)	atabeglik	mezopotamya	1180-01-01	1251-01-01	Cezîre-i İbn Ömer (Cizre)
+lului	Lü'lü' Hânedanı (Musul)	sultanlik	mezopotamya	1233-01-01	1262-01-01	Musul
+erken-hartum	Erken Hartum Mezolitiği (Orta Sudan)	kultur	misir-sudan	-8799-01-01	-8499-01-01	yok (kültür; merkez tanımsız)
+fayum-neolitik	Fayum Neolitiği ve Erken Holosen İskânı	kultur	misir-sudan	-7349-01-01	-4849-01-01	yok (kültür; merkez tanımsız)
+shaheinab-neolitik	Shaheinab Neolitiği (Orta Sudan)	kultur	misir-sudan	-4699-01-01	-4199-01-01	yok (kültür; merkez tanımsız)
+naqada-kultur	Naqada Kültürü (Yukarı Mısır)	kultur	misir-sudan	-3755-01-01	-3125-01-01	yok (kültür; merkez tanımsız)
+pre-kerma	Pre-Kerma Kültürü (Nubya)	kultur	misir-sudan	-3499-01-01	-2499-01-01	yok (kültür; merkez tanımsız)
+misir-erken-hanedan	Misir Erken Hanedan Donemi (1.-2. Hanedan)	krallik	misir-sudan	-3099-01-01	-2685-01-01	Thinis → Memfis
+misir-eski-krallik	Misir Eski Krallik (3.-6. Hanedan)	krallik	misir-sudan	-2685-01-01	-2180-01-01	Memfis
+herakleopolis	Herakleopolis Krallığı (9.-10. Hanedan, 1. Ara Donem)	krallik	misir-sudan	-2159-01-01	-2054-01-01	Herakleopolis (Ehnasya)
+tebai-11-hanedan	Tebai 11. Hanedan (birlesme oncesi)	krallik	misir-sudan	-2124-01-01	-2054-01-01	Tebai (Teb)
+misir-orta-krallik	Misir Orta Krallik (11.-13. Hanedan)	krallik	misir-sudan	-2054-01-01	-1649-01-01	Itj-tawy / Tebai
+kerma	Kerma Krallığı (Klasik Kerma)	krallik	misir-sudan	-1749-01-01	-1499-01-01	Kerma
+hiksos-15	Hiksos (15. Hanedan)	krallik	misir-sudan	-1649-01-01	-1549-01-01	Avaris
+tebai-17-hanedan	Tebai 17. Hanedan	krallik	misir-sudan	-1649-01-01	-1549-01-01	Tebai
+misir-yeni-krallik	Misir Yeni Krallik (18.-20. Hanedan)	imparatorluk	misir-sudan	-1549-01-01	-1068-01-01	Tebai / Pi-Ramesses
+misir-3-ara	Misir 3. Ara Donem (21.-25. Hanedan: Tanis, Libya, Kus)	krallik-lar	misir-sudan	-1068-01-01	-0663-01-01	Tanis / Bubastis
+kush-krallik	Kus (Napata–Meroe) Krallığı	krallik	misir-sudan	-0749-01-01	0349-01-01	Napata → Meroe
+kush-25-hanedan	Kusi 25. Hanedan (Misir)	krallik	misir-sudan	-0724-01-01	-0652-01-01	Napata / Memfis
+sait-26-hanedan	Sait (26.) Hanedan	krallik	misir-sudan	-0663-01-01	-0524-01-01	Sais
+ahamenis-misir	Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi)	eyalet	misir-sudan	-0524-01-01	-0403-01-01	Memfis
+misir-28-30-hanedan	Misir 28.-30. Hanedan (son yerli firavunlar)	krallik	misir-sudan	-0403-01-01	-0342-01-01	Sais / Mendes / Sebennytos
+ahamenis-misir-2	Ahamenis Misir'i (31. Hanedan, 2. Pers egemenligi)	eyalet	misir-sudan	-0342-01-01	-0331-01-01	Memfis
+ptolemai	Ptolemai (Lagid) Krallığı	krallik	misir-sudan	-0322-06-10	-0029-08-01	Iskenderiye
+nube	Nûbe Krallıkları (Makurya-Alve)	krallik	misir-sudan	0543-01-01	1504-01-01	Dongola (Makurya) / Soba (Alve)
+tolunogullari	Tolunoğulları	hanedanlik	misir-sudan	0868-09-15	0905-01-11	Fustat → Katâi
+fatimi	Fâtımî Devleti	hilafet	misir-sudan	0909-01-01	1171-09-13	Rakkāde → Mehdiye → Sabra (Mansûriye) → Kahire
+ihsidi	İhşîdîler	hanedanlik	misir-sudan	0935-01-01	0969-07-06	Fustat
+eyyubi	Eyyûbî Sultanlığı	sultanlik	misir-sudan	1171-09-13	1250-04-30	Kahire (Dımaşk ile birlikte; el-Melikü'l-Kâmil'den itibaren Kahire)
+dacu	Dâcû (Daju) Hanedanlığı	hanedanlik	misir-sudan	1200-01-01	1400-01-01	— (TDV'de belirtilmemiş)
+memluk	Memlûk Sultanlığı (Mısır-Suriye)	sultanlik	misir-sudan	1250-01-01	1517-04-13	Kahire
+chamorro	Chamorro (Mariana) Toplulukları	topluluklar	okyanusya	0800-01-01	1695-01-01	—
+tui-tonga-imparatorlugu	Tuʻi Tonga İmparatorluğu	imparatorluk	okyanusya	1000-01-01	1845-12-04	Muʻa (Lapaha)
+tahiti	Tahiti ve Cemiyet Adaları Şeflikleri (→ Pomare Krallığı)	devlet	okyanusya	1025-01-01	1842-09-09	Papeete (Pomare dönemi)
+saudeleur	Saudeleur Hanedanı (Nan Madol)	hanedanlik	okyanusya	1100-01-01	1628-01-01	Nan Madol
+hawaii-seflikleri	Hawaii Şeflikleri (Birleşme Öncesi)	devlet	okyanusya	1190-01-01	1795-01-01	—
+rapa-nui	Rapa Nui (Paskalya Adası) Soyları	devlet	okyanusya	1200-01-01	1888-09-09	Anakena
+rarotonga	Rarotonga ve Cook Adaları Şeflikleri/Krallığı	seflikler	okyanusya	1250-01-01	1888-01-01	Avarua
+kanem-bornu	Kanem-Bornu İmparatorluğu	imparatorluk	orta-afrika	0800-01-01	1905-01-01	Njimi → Ngazargamu
+olmek	Olmek Kulturu (San Lorenzo-La Venta)	kultur	orta-amerika	-1199-01-01	-0399-01-01	San Lorenzo → La Venta
+maya-orta-preklasik	Orta Preklasik Maya (Mirador Havzası ve Petén)	kultur	orta-amerika	-0999-01-01	-0399-01-01	yok (kültür; merkez tanımsız)
+monte-alban-zapotek	Monte Albán Zapotek Devleti	devlet	orta-amerika	-0499-01-01	0700-01-01	Monte Albán
+zapotek-monte-alban	Zapotek Devleti (Monte Alban)	devlet	orta-amerika	-0499-01-01	0700-01-01	Monte Alban
+teotihuacan	Teotihuacan Şehir Devleti	devlet	orta-amerika	-0099-01-01	0550-01-01	Teotihuacan
+tikal-mutal	Tikal (Mutal) Krallığı	devlet	orta-amerika	0090-01-01	0869-01-01	Tikal
+tikal-mutul	Mutul (Tikal) Krallığı	krallik	orta-amerika	0090-01-01	0869-08-13	Tikal (Yax Mutal)
+maya-klasik	Klasik Maya Sehir Devletleri (genel cati)	devlet	orta-amerika	0250-01-01	0900-01-01	cok merkezli
+caracol-maya	Caracol Krallığı	devlet	orta-amerika	0331-01-01	0859-01-01	Caracol
+copan	Copan (Oxwitik)	devlet	orta-amerika	0426-01-01	0820-01-01	Copan
+palenque-baak	Palenque (Bakʼ) Krallığı	devlet	orta-amerika	0431-01-01	0799-01-01	Palenque
+xochicalco	Xochicalco	devlet	orta-amerika	0700-01-01	0900-01-01	Xochicalco
+toltek	Toltek Devleti (Tollan/Tula)	devlet	orta-amerika	0900-01-01	1150-01-01	Tollan (Tula, Hidalgo)
+maya-sehir-devletleri	Maya Şehir Devletleri (Post-Klasik)	devlet	orta-amerika	1000-01-01	1697-03-13	Mayapán, Nojpetén (çeşitli merkezler)
+mayapan-birligi	Mayapan Birligi (Mayapan Ligi)	konfederasyon	orta-amerika	1100-01-01	1450-01-01	Mayapan
+jeitun-kultur	Jeitun Kültürü (Kopet Dağ, Türkmenistan)	kultur	orta-asya	-6098-01-01	-5926-01-01	yok (kültür; merkez tanımsız)
+greko-baktria	Greko-Baktriya Krallığı	krallik	orta-asya	-0249-01-01	-0129-01-01	Baktra / Ay Hanum
+hunnu-xiongnu	Xiongnu (Hunnu) Konfederasyonu	konfederasyon	orta-asya	-0208-01-01	0155-01-01	Longcheng / Ötüken
+kusan	Kuşan İmparatorluğu	imparatorluk	orta-asya	0050-01-01	0350-01-01	Bagram -> Peşaver
+xianbei	Xianbei Konfederasyonu (Tanşihuai)	konfederasyon	orta-asya	0155-01-01	0235-01-01	belirsiz
+kusan-sasani	Kuşano-Sasani Krallığı (Kuşanşahlar)	vasal-krallik	orta-asya	0230-01-01	0360-01-01	Balh
+hivite-afrigid	Hârezm Afrigîleri	hanedanlik	orta-asya	0305-01-01	0995-02-05	Kâs (Kath)
+kidarit	Kidarit Hunlar	krallik	orta-asya	0390-01-01	0467-01-01	Balh -> Peşaver
+rouran	Rouran Kağanlığı	kaganlik	orta-asya	0402-01-01	0552-01-01	Mumo
+eftalit	Eftalit (Beyaz Hun) Krallığı	krallik	orta-asya	0457-01-01	0560-01-01	belirsiz (Tohâristân; Prokopios'un 'Gorgo'su)
+gaochang	Gaochang (Turfan) Krallığı - Qu hanedanı	krallik	orta-asya	0501-01-01	0640-01-01	Gaochang
+gokturk-1	Birinci Göktürk Kağanlığı	kaganlik	orta-asya	0552-01-01	0582-01-01	Ötüken
+dogu-gokturk	Doğu Göktürk Kağanlığı (I)	kaganlik	orta-asya	0582-01-01	0630-01-01	Ötüken
+bati-gokturk	Batı Göktürk Kağanlığı	kaganlik	orta-asya	0582-01-01	0659-01-01	
+xueyantuo-kaganligi	Xueyantuo (Sir-Tardus) Kaganligi	kaganlik	orta-asya	0627-01-01	0646-01-01	Tola vadisi (Kuzey Mogolistan)
+dogu-gokturk-2	Doğu Göktürk Kağanlığı (II, İkinci Göktürk)	kaganlik	orta-asya	0682-01-01	0745-01-01	Ötüken
+turges	Türgiş Kağanlığı	kaganlik	orta-asya	0717-01-01	0766-01-01	Suyab
+karluk	Karluk Devleti (Yabgu -> Kara-ordu)	yabgu-devleti	orta-asya	0766-01-01	0840-01-01	Kara-ordu (Balasagun yakını)
+samani	Sâmânîler	emirlik	orta-asya	0819-01-01	1005-01-01	Buhara
+karahanli	Karahanlılar (bölünme öncesi birleşik devlet)	hanlik	orta-asya	0840-01-01	1041-01-01	Balasagun / Kâşgar (Talas); batıda Özkent, Semerkant, Buhara
+kirgiz-yenisey	Yenisey Kırgız Kağanlığı	kaganlik	orta-asya	0840-01-01	0920-01-01	Ötüken
+koco-uygur	Koço (Turfan) Uygur Devleti — İdikutlar	devlet	orta-asya	0911-01-01	1209-01-01	Koço (yazlık) · Beşbalık (kışlık)
+gazneli	Gazneliler (Gazneli Devleti)	sultanlik	orta-asya	0963-01-01	1186-01-01	Gazne → Lahor
+memuni-harezm	Me'mûnîler (Gürgenç Hârezmşahları)	hanedanlik	orta-asya	0995-02-05	1017-05-30	Gürgenç (Köhne Ürgenç)
+gurlu	Gurlular (Şensebânîler)	sultanlik	orta-asya	1000-01-01	1215-01-01	Estiyâ → Fîrûzkûh (Gazne ikinci merkez, 1173'ten)
+dogu-karahanli	Doğu Karahanlılar	hanlik	orta-asya	1041-01-01	1210-01-01	Balasagun → Kâşgar
+bati-karahanli	Batı Karahanlılar	hanlik	orta-asya	1041-01-01	1212-01-01	Özkent → Semerkant
+harizmsah	Hârizmşahlar (Anuştegin hânedanı)	sultanlik	orta-asya	1097-01-01	1231-01-01	Gürgenç → Semerkant (1212) → Tebriz (Celâleddin, 1225)
+karahitay	Karahıtaylar (Batı Liao)	devlet	orta-asya	1130-01-01	1211-01-01	Balasagun
+kerayit	Kerâyitler (Ong Han ülkesi)	hanlik	orta-asya	1199-01-01	1203-01-01	bulunamadı
+nayman	Naymanlar	hanlik	orta-asya	1199-01-01	1204-01-01	bulunamadı
+cagatay	Çağatay Hanlığı	hanlik	orta-asya	1227-01-01	1370-01-01	Almalık / Karşi
+ogedey-ulusu	Ögedey Ulusu (Ögedeyîler)	hanlik	orta-asya	1267-01-01	1309-01-01	Tarbagatay-Kara Irtış çevresi (şehir adı bulunamadı)
+ogedey-ulusu-kaydu	Ögedey Ulusu (Kaydu Devleti, Orta Asya)	hanlik	orta-asya	1271-01-01	1309-01-01	Talas/Isık Göl çevresi (kaynakta teyit edilmedi)
+lbk-szederkeny	Formatif/Erken LBK ve Vinča-Ražište karışık Neolitik (Transdanubia)	kultur	orta-avrupa	-5331-01-01	-5186-01-01	yok (kültür; merkez tanımsız)
+alamanlar	Alamanlar (Alemanni) Konfederasyonu	kabile-devleti	orta-avrupa	0213-01-01	0496-01-01	belirsiz
+avar	Avar Kağanlığı	kaganlik	orta-avrupa	0567-01-01	0822-01-01	Pannonia (Ring)
+samo-devleti	Samo'nun Slav Krallığı	krallik	orta-avrupa	0623-01-01	0658-01-01	bilinmiyor
+nitra-prensligi	Nitra Prensliği (bağımsız dönem)	prenslik	orta-avrupa	0805-01-01	0833-01-01	Nitra
+buyuk-moravya	Büyük Moravya	prenslik	orta-avrupa	0833-01-01	0907-01-01	Mikulcice? / Nitra
+dogu-francia	Doğu Francia (Alman Krallığı, Sakson öncesi dahil)	krallik	orta-avrupa	0843-01-01	0962-01-01	Regensburg / Frankfurt
+macar-prensligi	Macar (Magyar) Prensliği	konfederasyon	orta-avrupa	0895-01-01	1000-01-01	belirsiz
+schwaben-dukaligi	Schwaben (Swabia) Dükalığı	dukalik-hre	orta-avrupa	0915-01-01	1268-10-29	belirsiz
+almanya	Almanya (Kutsal Roma 962-1806)	imparatorluk	orta-avrupa	0962-02-02	1945-06-05	— (seçimli) → Berlin
+magdeburg-basepiskoposlugu	Magdeburg Başpiskoposluğu	kilise-devleti	orta-avrupa	0968-01-01	1680-01-01	Magdeburg
+macaristan	Macaristan Krallığı (bağımsız dönem)	krallik	orta-avrupa	1000-01-01	1527-01-01	Buda
+bohemya	Bohemya Krallığı	krallik	orta-avrupa	1000-01-01	1526-08-29	Prag
+karintiya-dukaligi	Karintiya Dükalığı	dukalik	orta-avrupa	1000-01-01	1335-01-01	Klagenfurt / St. Veit
+salzburg-prens-basepiskoposlugu	Salzburg Prens-Başpiskoposluğu	piskoposluk	orta-avrupa	1000-01-01	1803-02-25	Salzburg
+baden	Baden (Markgraflık → Büyük Dükalık)	prenslik	orta-avrupa	1112-01-01	1918-11-22	Baden-Baden → Durlach → Karlsruhe
+pomeranya-dukaligi	Pomeranya Dükalığı	dukalik	orta-avrupa	1121-01-01	1637-03-10	Stettin (Szczecin)
+saksonya	Saksonya (Wettin: Meissen Markgraflığı → Elektörlük → Krallık)	prenslik	orta-avrupa	1123-01-01	1918-11-13	Meissen → Wittenberg → Dresden
+thuringia-landgrafligi	Thüringen Landgraflığı (Ludowinger dönemi)	landgraflik	orta-avrupa	1131-01-01	1247-01-01	Wartburg
+silezya-piast	Silezya (Piast) Dükalıkları	dukalik-lar	orta-avrupa	1138-01-01	1335-08-24	Wrocław
+avusturya-dukaligi	Avusturya Dükalığı (Babenberg ve II. Ottokar dönemi)	dukalik	orta-avrupa	1156-09-17	1276-11-21	Viyana
+stiriya-dukaligi	Stiriya (Steiermark) Dükalığı (Otakar evresi)	dukalik	orta-avrupa	1180-01-01	1192-01-01	Graz
+moravya-markgraflik	Moravya Markgraflığı	markgraflik	orta-avrupa	1182-01-01	1918-10-28	Olomouc / Brno
+pfalz	Ren Pfalzı (Kurpfalz — Wittelsbach Elektörlüğü)	prenslik	orta-avrupa	1214-01-01	1803-12-31	Heidelberg → Mannheim
+bern-cumhuriyeti	Bern Cumhuriyeti (Şehir-Devleti)	devlet	orta-avrupa	1218-01-01	1798-03-05	Bern
+lubeck-sehri	Lübeck Özgür İmparatorluk Şehri	devlet	orta-avrupa	1226-01-01	1937-04-01	Lübeck
+teuton-devleti	Töton Şövalyeleri Devleti (Prusya)	tarikat-devleti	orta-avrupa	1230-01-01	1525-04-08	Kulm → Marienburg (1309) → Königsberg (1457)
+braunschweig-luneburg-dukaligi	Braunschweig-Lüneburg Dükalığı (Welf)	dukalik	orta-avrupa	1235-01-01	1692-03-22	Braunschweig
+hessen-landgrafligi	Hessen Landgraflığı	landgraflik	orta-avrupa	1264-01-01	1567-01-01	Kassel
+hazar-kaganligi	Hazar Kağanlığı	hanlik	sibirya-bozkir	0630-01-01	0965-01-01	Belencer → İtil
+uygur-kaganligi	Uygur Kağanlığı (Ötüken)	hanlik	sibirya-bozkir	0744-01-01	0840-01-01	Ordu-Balık (Ötüken)
+yenisey-kirgiz	Yenisey Kırgızları (Kırgız Kağanlığı)	kaganlik	sibirya-bozkir	0840-01-01	1207-01-01	—
+idil-bulgar	İdil (Volga) Bulgar Hanlığı	hanlik	sibirya-bozkir	0920-01-01	1236-01-01	Bulgar
+kipcak	Kıpçaklar (Kumanlar) — Deşt-i Kıpçak	boylar-birligi	sibirya-bozkir	1054-01-01	1239-01-01	yok (başbuğ yurtları: Orta Asya, İtil-Yayık, Don-Donets, Aşağı Dinyeper, Tuna)
+altinorda	Altın Orda (Deşt-i Kıpçak Hanlığı)	hanlik	sibirya-bozkir	1242-01-01	1502-01-01	Saray
+kefe-gazaria	Ceneviz Gazaria (Kefe)	ceneviz-kolonisi	sibirya-bozkir	1266-01-01	1475-06-06	Kefe
+natufiyen	Natufiyen Kültürü (Levant)	kultur	suriye-filistin	-12649-01-01	-9549-01-01	yok (kültür; merkez tanımsız)
+aseramik-kuzey-levant-anadolu	Epipaleolitik–Çanak Öncesi Neolitik toplulukları (Kuzey Levant, Fırat, Güneydoğu Anadolu)	kultur	suriye-filistin	-11219-01-01	-7099-01-01	yok (kültür; merkez tanımsız)
+ppna-guney-levant	PPNA — Çanak Öncesi Neolitik A (Güney Levant)	kultur	suriye-filistin	-9699-01-01	-8649-01-01	yok (kültür; merkez tanımsız)
+ppnb-guney-levant	PPNB — Çanak Öncesi Neolitik B (Güney Levant)	kultur	suriye-filistin	-8649-01-01	-6749-01-01	yok (kültür; merkez tanımsız)
+ppnc-guney-levant	PPNC — Çanak Öncesi Neolitik C (Güney Levant)	kultur	suriye-filistin	-6749-01-01	-6399-01-01	yok (kültür; merkez tanımsız)
+mari-erken	Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad)	krallik	suriye-filistin	-2549-01-01	-2219-01-01	Mari
+ebla-1	Ebla Birinci Krallığı	krallik	suriye-filistin	-2399-01-01	-2299-01-01	Ebla (Tell Mardikh)
+ebla-orta-tunc	Ebla (II.-III. Krallık, Orta Tunç)	krallik	suriye-filistin	-2299-01-01	-1599-01-01	Ebla
+mari-sakkanakku	Mari Şakkanakku Hanedanı	hanedanlik	suriye-filistin	-2219-01-01	-1809-01-01	Mari
+mari-lim	Mari Lim Hanedani (Yahdun-Lim–Zimri-Lim)	krallik	suriye-filistin	-1809-01-01	-1760-01-01	Mari (Tell Hariri)
+yamhad	Yamhad (Halep) Krallığı	krallik	suriye-filistin	-1799-01-01	-1599-01-01	Halep (Halab)
+ugarit	Ugarit Krallığı	krallik	suriye-filistin	-1349-01-01	-1189-01-01	Ugarit (Ras Şamra)
+fenike-sehirleri	Fenike Sehir Devletleri (Sur, Sayda, Cubeyl, Arvad)	devlet	suriye-filistin	-1199-01-01	-0331-01-01	Sur / Sayda
+filistin-pentapolis	Filisti Sehir Devletleri	devlet	suriye-filistin	-1174-01-01	-0603-01-01	Askelon/Ekron/Gat/Asdod/Gazze
+aram-sam	Aram-Sam (Dimask) Krallığı	krallik	suriye-filistin	-0939-01-01	-0731-01-01	Dimask
+israil-krallik	Israil Krallığı (Samiriye)	krallik	suriye-filistin	-0929-01-01	-0721-01-01	Sekem → Tirsa → Samiriye
+yahuda	Yahuda Krallığı	krallik	suriye-filistin	-0929-01-01	-0585-01-01	Kudus
+selevkos	Selevkos Imparatorlugu	imparatorluk	suriye-filistin	-0311-01-01	-0062-01-01	Selevkeia → Antakya
+nabatiye	Nabatiye Krallığı	krallik	suriye-filistin	-0167-01-01	0106-01-01	Petra
+hasmoni	Hasmoni Devleti (Yahudiye)	krallik	suriye-filistin	-0140-01-01	-0036-01-01	Kudus
+herodes-krallik	Herodes Hanedani Krallığı (Roma vasali)	vasal-krallik	suriye-filistin	-0036-01-01	0093-01-01	Kudus
+gassani	Gassaniler	krallik-filarkhlik	suriye-filistin	0200-01-01	0636-08-20	belirsiz (Cabiye)
+palmira	Palmira (Odaenathus-Zenobia) Imparatorlugu	imparatorluk	suriye-filistin	0260-01-01	0273-01-01	Palmira
+emevi	Emevî Hilâfeti (Benî Ümeyye)	devlet	suriye-filistin	0661-07-29	0750-08-05	Dımaşk
+hamdani-halep	Hamdânîler (Halep kolu)	emirlik	suriye-filistin	0944-10-29	1004-01-01	Halep
+mirdasi	Mirdâsîler	emirlik	suriye-filistin	1024-01-01	1080-06-18	Halep
+beni-ammar-trablussam	Ammâroğulları (Trablusşam Benî Ammâr Kadıları)	emirlik	suriye-filistin	1070-01-01	1109-07-23	Trablusşam
+atsiz-beyligi	Atsız b. Uvak Beyliği (Filistin - Dımaşk)	beylik	suriye-filistin	1071-01-01	1079-01-01	Kudüs → Dımaşk
+suriye-selcuklu	Suriye Selçukluları	sultanlik	suriye-filistin	1079-01-01	1117-01-01	Dımaşk → Halep (1095 sonrası iki melik: Halep ve Dımaşk)
+munkizogullari	Şeyzer Münkızoğulları Emirliği	emirlik	suriye-filistin	1081-01-01	1157-01-01	Şeyzer
+antakya-prinkipsligi	Antakya Prinkepsliği	prenslik	suriye-filistin	1098-06-03	1268-05-18	Antakya
+kudus-kralligi	Kudüs Haçlı Krallığı	krallik	suriye-filistin	1099-07-15	1291-07-14	Kudüs (1099-1187) → Akkâ (1191-1291; 1229-1244 Kudüs yeniden elde)
+boriler	Dımaşk Atabegliği (Tuğteginliler / Börîler)	atabeglik	suriye-filistin	1104-06-06	1154-04-25	Dımaşk
+trablus-kontlugu	Trablus Haçlı Kontluğu	kontluk	suriye-filistin	1109-07-12	1289-04-26	Trablusşam
+zengi-halep	Zengîler (Halep kolu – Nûreddin Mahmud)	atabeglik	suriye-filistin	1146-01-01	1183-06-12	Halep (1154'ten sonra Dımaşk da)
+eyyubi-hama	Hama Eyyûbîleri	beylik	suriye-filistin	1178-01-01	1342-01-01	Hama
+eyyubi-halep	Halep Eyyûbîleri	hanedanlik	suriye-filistin	1186-01-01	1260-09-03	Halep (1250-1260 Dımaşk da)
