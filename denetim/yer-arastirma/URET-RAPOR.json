@@ -35,12 +35,25 @@
    "atlas": "Murcia",
    "km": 0.4,
    "neden": "ad"
+  },
+  {
+   "ad": "Qalʿat Sherqat",
+   "atlas": "Aşşur",
+   "km": 0.45,
+   "neden": "3km"
+  },
+  {
+   "ad": "Unug",
+   "atlas": "Uruk (Warka)",
+   "km": 0.7,
+   "neden": "ad"
   }
  ],
  "yazilmadi": {
-  "bolge": 12,
-  "tek_tanik": 17,
-  "bulunamadi": 2
+  "bolge": 43,
+  "tek_tanik": 33,
+  "bulunamadi": 12,
+  "dogal": 1
  },
  "yazilan": 3
 }

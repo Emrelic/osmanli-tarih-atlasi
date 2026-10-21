@@ -26,6 +26,8 @@ ESKI = {
  "Kyoto":["Heian-kyō","Heian"],"Delhi":["Dilli","Indraprastha"],"Mekke":["Mecca","Makka"],"Medine":["Yathrib","Medina"],"Kufe":["Kufa"],
  "Semerkant":["Samarkand","Marakanda","Samarqand"],"Buhara":["Bukhara"],"Merv":["Marw"],"Nişabur":["Nishapur","Neyşâbûr"],"Rey":["Rayy","Ray"],
  "Kartaca":["Carthage","Karthago"],"Tunus":["Tunis"],"Kayrevan":["Kairouan","Qayrawan"],"Kurtuba":["Cordoba","Córdoba"],
+ "Urfa":["Şanlıurfa"],"Hemedan":["Ekbatana","Ecbatana","Hamadan"],"Eğriboz":["Negroponte","Halkida","Chalcis"],"Zaragoza":["Sarakusta","Saragossa"],
+ "Valensiya":["Belensiye","Valencia"],"Murcia":["Mürsiye","Mursiya"],
  "Sevilla":["Hispalis","Ishbiliya","İşbiliye"],"Toledo":["Toletum","Tuleytula"],"Lizbon":["Olisipo","Lisbon"],
 }
 # bölge sözlüğü (yerleşim değil; temsilci nokta gerektirir)
@@ -180,6 +182,10 @@ for it in maddeler:
         gordu.add(n)
         r = tekil.setdefault(n, {"ad": ad, "n": 0, "ornek": [], "alanlar": set(), "yillar": [], "kon": None})
         r["n"] += 1
+        etk = it.get("etiket") or []
+        if it.get("k") in ("kurulus", "fetih", "kayip") or it.get("tur") in ("kurulus", "fetih", "toprak-kazanc", "toprak-kayip") \
+                or "toprak-kazanc" in etk or "toprak-kayip" in etk:
+            r["devlet_olay"] = r.get("devlet_olay", 0) + 1
         r["alanlar"].add(alan)
         if len(r["ornek"]) < 3:
             r["ornek"].append(it["t"] + " " + it["b"][:70])
@@ -191,7 +197,7 @@ sonuc = {"atlasta": [], "bolge": [], "dogal_nesne": [], "yok": []}
 for n, r in tekil.items():
     hedef, k = coz(r["ad"], r["kon"])
     bolge_mi = (n in BOLGE_N) or bool(BOLGE_EK.search(r["ad"])) or any(N(t) in BOLGE_N for t in re.split(r"\s+", r["ad"]) if len(t) > 3 and BOLGE_EK.search(r["ad"]))
-    kayit = {"ad": r["ad"], "n": r["n"], "yil_min": min(y for y in r["yillar"] if y is not None),
+    kayit = {"ad": r["ad"], "n": r["n"], "devlet_olay": r.get("devlet_olay", 0), "oncelik": r["n"] + 2 * r.get("devlet_olay", 0),"yil_min": min(y for y in r["yillar"] if y is not None),
              "yil_maks": max(y for y in r["yillar"] if y is not None),
              "alanlar": sorted(r["alanlar"]), "ornek": r["ornek"], "yer_kon": r["kon"]}
     if hedef:
@@ -207,7 +213,7 @@ for n, r in tekil.items():
     else:
         sonuc["yok"].append(kayit)
 for k in sonuc:
-    sonuc[k].sort(key=lambda r: -r["n"])
+    sonuc[k].sort(key=lambda r: -r.get("oncelik", r["n"]))
 
 mo = sum(1 for it in maddeler if (yil(it["t"]) or 0) < 0)
 ozet = {"madde_1281_oncesi": len(maddeler), "madde_MO": mo, "madde_MS": len(maddeler) - mo,

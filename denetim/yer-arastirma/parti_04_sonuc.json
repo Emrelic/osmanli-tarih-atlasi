@@ -1,0 +1,283 @@
+{
+ "parti": 4,
+ "sonuclar": [
+  {
+   "ad": "Pınarbaşı Höyüğü",
+   "durum": "bulunamadi",
+   "not": "Karaman/Konya havzası Pınarbaşı; kayıt sayfası bulunamadı (dainst boş, Wikipedia 404). TDV/İSAM/Baird yayını gerekir."
+  },
+  {
+   "ad": "Karnataka",
+   "durum": "bolge",
+   "not": "Hint eyaleti; yer Sanganakallu-Kupgal (Ballari) ayrı aranmalı."
+  },
+  {
+   "ad": "Khok Phanom Di",
+   "durum": "tek_tanik",
+   "tur": "koy",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": null,
+   "eski_adlar": [],
+   "ulke_modern": "Tayland",
+   "tek_tanik_koord": {
+    "lat": 13.575,
+    "lon": 101.148,
+    "kaynak": "Wikipedia (bağımsız ikinci tanık bulunamadı; dainst boş)"
+   },
+   "not": "Chonburi, Bang Pakong."
+  },
+  {
+   "ad": "Tappe Yahya",
+   "durum": "tek_tanik",
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tepe Yahya",
+   "eski_adlar": [],
+   "ulke_modern": "İran",
+   "tek_tanik_koord": {
+    "lat": 28.3308,
+    "lon": 56.8675,
+    "kaynak": "Wikipedia Tepe Yahya (dainst boş)"
+   },
+   "not": "Kerman Eyaleti, Kerman şehrinin ~220 km güneyi, Jiroft ~90 km GB."
+  },
+  {
+   "ad": "Kerman",
+   "durum": "bolge",
+   "not": "Madde Tepe Yahya'nın eyaletini kastediyor; Kerman şehri ayrı yerleşim olarak aranmadı."
+  },
+  {
+   "ad": "Hakhamanishiya",
+   "durum": "bolge",
+   "not": "Ahameniş Eski Farsça adı; devlet adı."
+  },
+  {
+   "ad": "Achaemenid",
+   "durum": "bolge",
+   "not": "Devlet/hanedan adı."
+  },
+  {
+   "ad": "Elam",
+   "durum": "bolge",
+   "not": "Bölge/devlet."
+  },
+  {
+   "ad": "Haltamti",
+   "durum": "bolge",
+   "not": "Elam'ın yerel adı; bölge/devlet."
+  },
+  {
+   "ad": "Dzheitun",
+   "durum": "tek_tanik",
+   "tur": "koy",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Jeitun",
+   "eski_adlar": [
+    "Jeitun"
+   ],
+   "ulke_modern": "Türkmenistan",
+   "tek_tanik_koord": {
+    "lat": 38.188,
+    "lon": 58.349,
+    "kaynak": "Wikipedia Jeitun (ikinci tanık aranmadı)"
+   },
+   "not": "Aşkabat ~30 km K, Kopet Dağ eteği."
+  },
+  {
+   "ad": "Ahal",
+   "durum": "bolge",
+   "not": "Türkmenistan vilayeti."
+  },
+  {
+   "ad": "Antas",
+   "durum": "bulunamadi",
+   "not": "El Argar kültürü bağlamında; Antas (Almería) belediyesi ile kültür merkezi aynılığı teyit edilemedi; El Argar sit yeri ayrı aranmalı."
+  },
+  {
+   "ad": "Baranya",
+   "durum": "bolge",
+   "not": "Macaristan/Hırvatistan bölgesi (county); yer Szederkény ayrı aranmalı."
+  },
+  {
+   "ad": "Tell Mureybet",
+   "durum": "tek_tanik",
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Mureybet",
+   "eski_adlar": [
+    "Mureybit"
+   ],
+   "ulke_modern": "Suriye",
+   "tek_tanik_koord": {
+    "lat": 36.0333,
+    "lon": 38.1333,
+    "kaynak": "iDAI.gazetteer 2299694 (Mureybet)"
+   },
+   "not": "Wikipedia 36.0434,38.1287 (~1.3 km fark; bağımsız sayılmaz). Tabqa/Esad Gölü altında."
+  },
+  {
+   "ad": "Mureybit",
+   "durum": "tek_tanik",
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Mureybet",
+   "eski_adlar": [],
+   "ulke_modern": "Suriye",
+   "tek_tanik_koord": {
+    "lat": 36.0333,
+    "lon": 38.1333,
+    "kaynak": "iDAI.gazetteer 2299694 (Mureybet)"
+   },
+   "not": "Tell Mureybet ile aynı yer."
+  },
+  {
+   "ad": "Tell Abu Hureyra",
+   "durum": "tek_tanik",
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Abu Hureyra",
+   "eski_adlar": [],
+   "ulke_modern": "Suriye",
+   "tek_tanik_koord": {
+    "lat": 35.8667,
+    "lon": 38.4003,
+    "kaynak": "Wikipedia/GeoNames-listesi 35.8667,38.4"
+   },
+   "not": "UYARI: iDAI.gazetteer 2299689 35.873N,38.576E veriyor (~15 km doğuda, Tabqa Barajı yakını) - tutarsız; çift tanık sağlanamadı. İSAM/akademik teyit (Moore 2000) gerek."
+  },
+  {
+   "ad": "‘Ayn Ghazāl",
+   "durum": "tek_tanik",
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Ain Ghazal",
+   "eski_adlar": [],
+   "ulke_modern": "Ürdün",
+   "tek_tanik_koord": {
+    "lat": 31.9877,
+    "lon": 35.9763,
+    "kaynak": "iDAI.gazetteer 2043531"
+   },
+   "not": "Amman yakını; ikinci tanık bulunamadı."
+  },
+  {
+   "ad": "Qalʿat Sherqat",
+   "durum": "cift_tanik",
+   "lat": 35.4596,
+   "lon": 43.2612,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Aşşur (Assur)",
+   "eski_adlar": [],
+   "ulke_modern": "Irak",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2283157 Assur",
+     "url_veya_atif": "gazetteer.dainst.org",
+     "lat": 35.4596,
+     "lon": 43.2612
+    },
+    {
+     "kaynak": "Pleiades Assur (Assur Archive 51 konumu)",
+     "url_veya_atif": "https://pleiades.stoa.org/places/637947000",
+     "lat": 35.4595,
+     "lon": 43.2615
+    }
+   ],
+   "not": "Madde Aşşur'dur; Kal'at Şerkat modern adı. Pleiades konumu Assur Archive yerleşkesinden, ana Assur kaydı ayrıca doğrulanmadı."
+  },
+  {
+   "ad": "Urim",
+   "durum": "tek_tanik",
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Ur",
+   "eski_adlar": [
+    "Ur"
+   ],
+   "ulke_modern": "Irak",
+   "tek_tanik_koord": {
+    "lat": 30.9616,
+    "lon": 46.1047,
+    "kaynak": "Pleiades 912985 Ur (Tall al-Muqayyar)"
+   },
+   "not": "Urim=Ur'un Sümerce adı; ikinci tanık dainst aramasında bulunamadı."
+  },
+  {
+   "ad": "Akkade",
+   "durum": "bulunamadi",
+   "not": "Agade/Akkad şehri henüz tanımlanamamış (yeri bilinmiyor); Pleiades/dainst'te kesin konum yok."
+  },
+  {
+   "ad": "Agade",
+   "durum": "bulunamadi",
+   "not": "Akkade ile aynı; şehrin yeri bilinmiyor."
+  },
+  {
+   "ad": "Sargonic period",
+   "durum": "bolge",
+   "not": "Dönem adı."
+  },
+  {
+   "ad": "Unug",
+   "durum": "cift_tanik",
+   "lat": 31.32,
+   "lon": 45.645,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Uruk (Warka)",
+   "eski_adlar": [],
+   "ulke_modern": "Irak",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2283179 Uruk",
+     "url_veya_atif": "gazetteer.dainst.org",
+     "lat": 31.31667,
+     "lon": 45.65
+    },
+    {
+     "kaynak": "Pleiades 912986 Uruk (CIGS Warka)",
+     "url_veya_atif": "https://pleiades.stoa.org/places/912986",
+     "lat": 31.3234,
+     "lon": 45.6394
+    }
+   ],
+   "not": "Unug=Uruk Sümerce adı; iki tanık ~1 km içinde."
+  },
+  {
+   "ad": "ʿUbaid",
+   "durum": "bolge",
+   "not": "Ubaid kültürü; madde kültürü kastediyor."
+  },
+  {
+   "ad": "Kerma culture",
+   "durum": "bolge",
+   "not": "Kültür; Kerma sit yeri ayrı aranmalı."
+  },
+  {
+   "ad": "Kingdom of Kush",
+   "durum": "bolge",
+   "not": "Krallık/devlet."
+  },
+  {
+   "ad": "Middle Kingdom of Egypt",
+   "durum": "bolge",
+   "not": "Dönem."
+  },
+  {
+   "ad": "First Intermediate Period",
+   "durum": "bolge",
+   "not": "Dönem."
+  },
+  {
+   "ad": "Old Kingdom of Egypt",
+   "durum": "bolge",
+   "not": "Dönem."
+  },
+  {
+   "ad": "Naqada culture",
+   "durum": "bolge",
+   "not": "Kültür; Naqada sit yeri ayrı aranmalı."
+  }
+ ]
+}
