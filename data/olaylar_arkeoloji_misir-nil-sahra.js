@@ -369,7 +369,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   "k": "ilk_anilis",
   "b": "Fayum (Karun Gölü çevresi) Holosen iskânı: başlar",
   "gun": "MÖ 7350 civarı",
-  "yer": "Fayum depression, Lake Qarun",
+  "yer": "Fayum depression, Lake Qarun / Aşıklı Höyük",
   "d": "Fayum'da MÖ ~7350'den itibaren Holosen balıkçı-avcı iskânı; evcil bitki-hayvan yaklaşık MÖ 5400'den itibaren; Kom K/W Neolitik yerleşimleri MÖ 4850–4250.",
   "kaynak": "Linseele V, Van Neer W, Thys S, Phillipps R, Cappers R, Wendrich W, Holdaway S. 2014. New archaeozoological data from the Fayum 'Neolithic' with a critical assessment of the evidence for early stock keeping in Egypt. PLoS ONE 9(10):e108517 (özet; metindeki tüm tarihler kalibre). doi:10.1371/journal.pone.0108517 · https://pmc.ncbi.nlm.nih.gov/articles/PMC4195595/",
   "kesinlik": "yuzyil",

@@ -59,19 +59,55 @@ Gövdeyle örtüşme (A'ya dokunma kanıtı): dolgu∩gövde = 688 (5 gün) – 
 yapısal garanti "A dosyası yazılmaz" tutuyor, ama "dolgu A'yı alan olarak hiç örtmez" iddiası
 **kesin değil** — ölçülen küçük bir taşma var. Çare (öneri): çıktıdan A birleşimini çıkarma.
 
-## 4 · 1281-01-01 tam kesit (261 gövde, 10 gün)
-**ÖLÇÜLEMEDİ — ve sebebi bir bulgu.** Aynı alet, aynı kural; 1281-01-01'de kapanış aşaması
-(261 gövde) ~10 dk'da bitti (tek tek 4–38 sn), ama ardından çekişme/cins aşaması **40 dakikada
-bitmedi** ve süreç **10,7 GB RAM**'e çıktı (makine paylaşımlı; geçmişte `bad allocation`
-çökmeleri oldu) — kendi PID'imi (1292) kapattım. 1000-01-01'de aynı aşama 1–2 sn idi; 261
-gövdede deniz+r≈202 km ile çekişme alanı patlıyor (komşu talepler artık geniş çakışıyor,
-`B-GORUNUM-0072-OLCUM.md` §2'nin "çekişme O(n²) maliyeti" bulgusu 2× yarıçapta daha da ağır).
-⇒ **Varsayılan 10 gün/r≈202 km tam koşuya HAZIR DEĞİL**; üretimden önce çekişme adımı bölgeye
-yerelleştirilmeli ya da r kademeli denenmeli (5 gün: kapanış 40 sn, çekişme 0,2 sn, 1000'de).
-Bu, "çalışır" değil "tehlikeli" ölçümüdür: tam koşuya bu hâliyle geçilirse RAM çökmesi riski var.
+## 4 · Tam kesitler (10 gün, deniz+koridor açık) — 21 Ekim 2026 turu
+
+DÜZELTME: §4'ün ilk sürümü "1281 çekişme adımı 40 dk'da bitmedi, 10,7 GB" diyordu. Bu YİNELENMEDİ:
+ilk koşu paylaşımlı makinede ve eşzamanlı süreçle koşmuştu. İzli koşuda (`MOTOR_DOLGU_IZ=1`,
+devlet başına süre + RSS) RSS tepesi **4,7 GB** (A yüklü dahil), çekişme zaten DEVLET BAŞINA
+yerel (1 sıçrama komşuluğu; "yerelleştirme" yeni yazılacak bir şey değil, vardı).
+
+| Kesit | Gövde | Soğuk/ılık süre | Parça | Dolgu km² | Gövde km² | Tek kesit js |
+|---|---|---|---|---|---|---|
+| 1000-01-01 | 23 | 64 sn | 79 | 2,9 M | 0,57 M | — |
+| 1281-01-01 | 261 | **2.845 sn (47 dk)** soğuk | 885 | 12,1 M | 45,5 M | 833 KB |
+| 1285-01-01 | 261 | 1.546 sn (4 gövde değişti) | 877 | — | 45,5 M | — |
+| 1286-01-01 | 261 | **33 sn** (önbellek tam sıcak; 15 sn'si JSON okuma) | — | — | — | — |
+| 1500-01-01 | 276 | 1.825 sn (30 dk) soğuk-kısmi | 1.012 | 9,6 M | 47,4 M | 900 KB |
+| 1900-01-01 | 161 | **3.519 sn (59 dk)**; çekişme 1.502 · cins 568 · kapanış 503 | 1.130 | 17,9 M | 98,6 M | 1,01 MB |
+
+Okunuşu:
+- **Maliyet kesitten kesite 33 sn ↔ 59 dk oynuyor** (değişmeyen kesit ↔ komşusu değişen kesit).
+  Tam koşu süresi 3 noktadan TAHMİN EDİLEMEZ; üst sınır kaba: değişen kesit sayısı × 25–60 dk.
+  Bu yüzden "tam koşuya hazır" demiyorum. Önbellek artımlı çalışıyor (1286: 33 sn) — ilk
+  geçiş uzun, sonrası kısa; ilk geçiş HAVVA'da, ayrı süreçte, bayrak açıkken yapılmalı.
+- **Boyut:** tek kesit 0,83–1,0 MB (halka havuzu dahil). Dosya `kayıt × kesit` ile büyür;
+  ilk 12 kesitte 566 KB idi. Tam dosya 2.849 kesitte onlarca MB olabilir → `index.html`e
+  koşulsuz yüklenemez; tembel yükleme (ufuk bantlarındaki gibi) şart. Gerçek boyut TAM
+  koşuda ölçülmeli (burada ölçülmedi).
+- **Görsel (`z_1500.png`, scratchpad):** dolgu Kuzey Amerika'daki kopuk adacıkların arasını,
+  Orta Asya/Çin kenarlarını, Sahra çevresini kapatıyor; Avrasya gövdesini örtmüyor. Kıyıdan
+  denize taşma görülmedi. Beyaz kalan: Amazon, iç Kanada, Sibirya iç kesimi, Avustralya iç
+  kesimi — 400 km'den uzak, kuralın doğal sonucu. Piksel doğruluğunu (yanlış devlete yazılan
+  alan) ben ölçmedim; gözle bakıldı, Emre'nin gözü gerekir.
+- **A'ya örtüşme:** dolgu∩gövde 1281'de 7,8 bin km² (dolgunun %0,06'sı), 1900'de 14,8 bin km²
+  (%0,08): sadeleştirme taşması. Küçük ama sıfır değil.
+- `cins` dağılımı (1281): bosluk 507 · paylasim 364 · koridor 14 · enklav-bag 0; 1500/1900'de
+  enklav-bag 1 — yani enklav bağı ilk kez 1500'de ateşledi (0072 raporundaki "ölçülemedi"
+  kalemi kapandı: enklav-bag nadir ama sıfır değil).
+
+### MÖ / MS 500 / sonrası
+A verisi 1000'de başlıyor; MÖ 9500 · MÖ 3000 · MS 500 **ölçülemedi** (boş girdi). A gelince
+aynı komut (`kesit.py <tarih> 10`) koşar.
+
+### Çalıştırma biçimi (Emre kararı: B koşuya GÖMÜLMEZ)
+`py arac/dolgu.py` zaten bağımsızdır: `donemler.js` + `devletler_harita.js`i OKUR (A'ya
+yazmaz), `data/dolgu.js` yazar. `MOTOR_B_DOLGU` varsayılan KAPALI kaldı; `uret_petek.py`
+yaması GEREKMİYOR (önceki yama belgesi geçersiz sayılsın). Ortam: `MOTOR_DOLGU_UFUK_GUN=10`
+(varsayılan). İzleme: `MOTOR_DOLGU_IZ=1`. Önbellek `_motor_onbellek/` (tuza modül özeti
+girer: dolgu.py her değiştiğinde TÜM önbellek düşer — koşu sürerken dosyayı düzenlemeyin).
 
 ## 5 · Emre'ye sorular
-1. Dolgu **ufuk gününe göre ayrı dosya** mı (5/7/10 → 3 geometri) yoksa yalnız 10 gün mü?
+1. (Karar verildi: yalnız 10 gün, tek dosya; 5/7 sonra.)
    Statik sitede ufuk seçici dolguyu yeniden hesaplayamaz.
 2. MÖ 12000 ↔ MS 1000 arası A'da gövde yok: B için önce A'nın o devirlere uzanması gerekir
    (ONCE1281 kampanyası). B o zamana kadar yalnız ≥1000 kesitlerde anlamlı.

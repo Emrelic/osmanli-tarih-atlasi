@@ -602,8 +602,15 @@ def _yol_devlet(govdeler, ham, rapor, kara_oz, r_km, g_agac, g_liste):
             rapor["talep_km2"] += km2t
             continue
 
+        _t0 = time.time()
         ps, eng, km2t = _devlet_hesap(i, kim, g, ham, govdeler, kb, kt,
                                       g_liste, rapor)
+        if os.environ.get("MOTOR_DOLGU_IZ") == "1":
+            import psutil
+            print("      [devlet] %-30s %6.1f sn · komşu gövde %3d talep %3d · "
+                  "RSS %.1f GB" % (kim, time.time() - _t0, len(kb), len(kt),
+                                   psutil.Process().memory_info().rss / 2**30),
+                  flush=True)
         _ONB.yaz("dolgu2_devlet", an, (ps, eng, km2t))
         parcalar.extend(ps)
         rapor["engellendi"].extend(eng)

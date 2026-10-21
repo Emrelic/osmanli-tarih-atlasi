@@ -33,7 +33,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   "k": "kayip",
   "b": "Elam (Eski Elam - Yeni Elam): Yeni Elam dönemi sona erer",
   "gun": "MÖ 539 civarı",
-  "yer": "Elam / Haltamti",
+  "yer": "Elam / Haltamti / Susa",
   "d": "Awan hanedanı (c. MO 2400-2100), Şimaşki, Epartid/sukkalmah (Eski Babil çağdaşı); Orta Elam (Untaş-Napirişa c. 1340-1300, Çoğa Zanbil); Yeni Elam (1100-539). Elam adı kaynakta ilk kez Kiş kralı Enmebaragesi (c. MO 2650) metninde geçer; Yeni Elam II c. 770-646 (Asur ile çatışma).",
   "kaynak": "Vallat 1998, Iranica 'Elam i' (Yeni Elam donemi sonu) · https://www.iranicaonline.org/articles/elam-i",
   "kesinlik": "yuzyil",
