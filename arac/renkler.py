@@ -180,6 +180,41 @@ KOVA = {
 
 BOYALAR = {
     # ═══ 🏺 KURULUŞ ZİNCİRİ RENKLERİ (MO-MOTOR · KURULUS-GERI isteği 21 Ekim: 25 kimlik; komşu+zaman örtüşen BOYALAR'a göre ΔE maksimize, L* ≥ 59,8) ═══
+    "bati-roma": ("Batı Roma İmparatorluğu", "#f1c1fa"),
+    "odoakar": ("Odoakar'ın İtalya Krallığı", "#10a0ed"),
+    "dogu-got": ("Doğu Got (Ostrogot) Krallığı", "#995ace"),
+    "karolenj-italya": ("İtalya Krallığı (Karolenj-Berengar dönemi)", "#95e0a6"),
+    "tigran-imp": ("Büyük Tigran'ın İmparatorluğu", "#388e10"),
+    "frank": ("Frank Krallığı/İmparatorluğu (Merovenj-Karolenj)", "#26e8f6"),
+    "langobard": ("Lombard (Langobard) Krallığı", "#da3858"),
+    "atina-demokrasisi": ("Atina (bagimsiz demokratik polis)", "#26eba3"),
+    "yahuda": ("Yahuda Krallığı", "#fd9f86"),
+    "hasmoni": ("Hasmoni Devleti (Yahudiye)", "#6277a7"),
+    "herodes-krallik": ("Herodes Hanedani Krallığı (Roma vasali)", "#8fdefa"),
+    "ptolemai": ("Ptolemai (Lagid) Krallığı", "#5b83fd"),
+    "byzantion-polis": ("Byzantion Şehir Devleti", "#b8d95f"),
+    "sparta": ("Sparta (Lakedaimon)", "#178799"),
+    "misir-yeni-krallik": ("Misir Yeni Krallik (18.-20. Hanedan)", "#7f7e42"),
+    "aram-sam": ("Aram-Sam (Dimask) Krallığı", "#fe70cf"),
+    "nabatiye": ("Nabatiye Krallığı", "#fbce79"),
+    "ebla-1": ("Ebla Birinci Krallığı", "#b06486"),
+    "yamhad": ("Yamhad (Halep) Krallığı", "#d34f31"),
+    "hitit-imp": ("Hitit Imparatorlugu (Yeni Krallik)", "#7d880a"),
+    "yeni-hitit": ("Yeni Hitit (Luvi-Arami) Sehir Devletleri (Karkamis, Melid, Hamat, Gurgum, Kummuh, Tabal vb.)", "#6adb73"),
+    "makedon-merisleri": ("Makedon Merisleri (Dört Makedon Cumhuriyeti)", "#149c76"),
+    "galatya-keltleri": ("Galatia (Kelt) Tetrarşileri", "#9cbbff"),
+    "bergama": ("Bergama (Attalos) Krallığı", "#a26c53"),
+    "bati-francia": ("Batı Francia", "#3b873e"),
+    "mercia": ("Mercia Krallığı", "#a383d5"),
+    "wessex": ("Wessex Krallığı", "#58e9ca"),
+    "orta-francia-lotharingia": ("Lotharingia (II. Lothar Krallığı / Lorraine Dukalığı)", "#f792cb"),
+    "dogu-francia": ("Doğu Francia (Alman Krallığı, Sakson öncesi dahil)", "#e7cf42"),
+    "hun-avrupa": ("Avrupa Hun İmparatorluğu (Attila)", "#b56512"),
+    "bohemya": ("Bohemya Krallığı", "#49b0db"),
+    "kiev-rusu": ("Kiev Rus'u (Kiev Büyük Knezliği)", "#fc8ea2"),
+    "kartaca": ("Kartaca (Pön) Devleti", "#64b9a6"),
+
+    # ═══ 🏺 KURULUŞ ZİNCİRİ RENKLERİ (MO-MOTOR · KURULUS-GERI isteği 21 Ekim: 25 kimlik; komşu+zaman örtüşen BOYALAR'a göre ΔE maksimize, L* ≥ 59,8) ═══
     "roma-imp": ("Roma İmparatorluğu (Prinkipat-Dominat, birleşik)", "#3684fa"),
     "emevi": ("Emevî Hilâfeti (Benî Ümeyye)", "#8dc7fc"),
     "hulefa-yi-rasidin": ("Hulefâ-yi Râşidîn Devri (Medine Hilâfeti)", "#ffaec9"),
@@ -4490,6 +4525,7 @@ _aciklik_tavani_dogrula()
 DESEN_TURLERI = ("serit", "capraz", "nokta", "dikey")
 KULTUR_OPAKLIK_ARALIK = (0.20, 0.65)
 KULTUR_DESEN = {
+
 
 
     "aseramik-kuzey-levant-anadolu": ("serit", 0.45),
