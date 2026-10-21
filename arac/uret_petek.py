@@ -1254,7 +1254,8 @@ YURUYUS_16 = os.environ.get("MOTOR_YURUYUS_16") == "1"
 #      Tavanı aşan toprak SAHİPSİZ kalır = "veri yok" (kültürsüz DEĞİL). Bütçe
 #      MOTOR_UFUK_BANT'ta bant olarak bulunmak ZORUNDA (80 → "40,56,80"); yoksa
 #      koşu SESSİZCE zayıf bir tavanla değil GÜRÜLTÜYLE durur.
-#   ② MOTOR_MO_SINIR (varsayılan "0001-01-01"): g bundan ÖNCE ise MÖ kuralları.
+#   ② MOTOR_MO_SINIR (varsayılan "1281-01-01" — Emre 21 Ekim: VERI_UFKU başı; 1281 öncesi
+#      TÜM tarihler): g bundan ÖNCE ise MÖ kuralları (tavan · sahne · puan kapısı atlanır).
 #      MÖ sahnesi: kur:'u olan nokta kur ≤ g < bit; kur:'u OLMAYAN nokta ancak
 #      EN ERKEN yazılı sahiplik kaydı g'yi geçmişse (örtük kuruluş); ne kur: ne
 #      sahiplik varsa MÖ'de sahnede DEĞİL (varlığına tanıklık yok).
@@ -1266,7 +1267,7 @@ YURUYUS_16 = os.environ.get("MOTOR_YURUYUS_16") == "1"
 #      MOTOR_MERKEZ_K0 (varsayılan "1"): derecesiz (k:0) nokta merkez SAYILIR
 #      (k0 = "kademe yazılmamış"; MÖ Sümer 21 noktasının hepsi k:0 — dışlansa
 #      MÖ haritası boşalırdı).
-MO_SINIR = os.environ.get("MOTOR_MO_SINIR", "0001-01-01")
+MO_SINIR = os.environ.get("MOTOR_MO_SINIR", "1281-01-01")
 MO_YURUYUS_GUN = float(os.environ.get("MOTOR_MO_YURUYUS_GUN", "10"))
 MO_SAAT = MO_YURUYUS_GUN * 8.0
 MERKEZ_KURALI = os.environ.get("MOTOR_TARIH_BASI_MERKEZ", "mo")
@@ -1762,6 +1763,151 @@ if os.environ.get("MOTOR_BOGAZ_KAPALI") != "1":
           f"(ÖNGÖRÜ ~101.000 = 2 × 50.617, 8 komşuda; 16 komşuda daha çok)")
 else:
     print("  🔴 BOĞAZ YASAĞI KAPALI (MOTOR_BOGAZ_KAPALI=1) — adımlar suyu atlayabilir")
+
+# ═══ 🌉 KISTAK KÖPRÜSÜ — post-it #80 (Aden), 18 Ekim 2026, Emre onayı ═════════
+# Kıstak/burun/lagün kentinin tohum hücresi ızgarada ADA kalabiliyor: komşu
+# hücrelerin merkezi denize düşüyor, çapraz adımı boğaz yasağı kesiyor ⇒ tohum
+# kendi hücresinden ÇIKAMIYOR, gerçek karada bağlı olduğu anakarayı başka
+# tohum alıyor. Ölçüldü (KOŞU 27 KARA'sı, denetim/MOTOR-KISTAK-KOPRU-1018.md):
+# 194 hapis tohum, 39'u taşınır — Aden (1 hücre; 1538'de 10 km kuzeyi
+# Taiz'e/yemen'e gitti), Sinop, Cádiz, Özi, Kılburun, Lagos, Koçin, Masavva…
+# Küçük adadaki tohum (Santorini, Malta…) hedef bulamaz, OLDUĞU GİBİ kalır.
+# ÇARE: böyle bir tohum, GERÇEK KARADAN yürünerek (≤ KISTAK_YOL_KM) varılan
+# ve ızgarada hapsolmamış en yakın kara hücresine TAŞINIR (yukarıdaki "su
+# hücresine düşen tohum en yakın kara hücresine kaydırılır" kuralının aynısı,
+# bir adım ötesi). Tek sözlük (`_kvtohum`) değiştiği için bütün Dijkstra'lar
+# (üretim, iki etiket, epok devri, saat matrisi) tutarlı kalır. Boğaz yasağı
+# AYNEN durur: hedefe ince ızgarada karadan yürünmeli ⇒ boğazın, limanın öte
+# yakasına taşıma YOK. Eski hücre sahipsiz kalır ⇒ "karar dışı" ⇒ Voronoi
+# sahibi (en yakın nokta = tohumun kendisi) — kent hücresini kaybetmez.
+# MOTOR_KISTAK_KOPRU=1 değilse HİÇBİR ŞEY değişmez.
+KISTAK_KOPRU = os.environ.get("MOTOR_KISTAK_KOPRU") == "1"
+KISTAK_PENCERE = 6                 # hücre — yerel bileşen bu kutudan taşarsa hapis YOK
+KISTAK_ARAMA = 4                   # hücre — taşıma hedefi bu yarıçapta aranır
+KISTAK_INCE = 0.005                # ° — gerçek kara yürüyüşü sınaması (~0,5 km)
+KISTAK_YOL_KM = 16.0               # hedefe karadan en çok bu kadar yürünür (Koçin 15,6;
+                                   # 30 km'de Sakız/Korfu/İbiza ada içinde 18-20 km kayıyordu)
+_kvkopru = []                      # (ad, eski hücre, yeni hücre, km)
+
+
+def _kv_adim_serbest(h, yi):
+    """h'den yi yönündeki adım Dijkstra'da serbestse hedef hücre, değilse -1
+    (`_kv_dijkstra`nın adım şartlarının AYNISI)."""
+    j, i = divmod(h, _kvnx)
+    di, dj = _KV_YON[yi]
+    a, b = i + di, j + dj
+    if not (0 <= a < _kvnx and 0 <= b < _kvny):
+        return -1
+    k = b * _kvnx + a
+    if not _kvkara[k]:
+        return -1
+    if YURUYUS_16 and not _kv_ara_kara(i, j, di, dj):
+        return -1
+    if _KVSU and (h * _KV_YS + yi) in _KVSU:
+        return -1
+    return k
+
+
+def _kv_hapis(h):
+    """h hücresinden boğaz yasağına uyarak ±KISTAK_PENCERE kutusunun dışına
+    çıkılamıyorsa True (tohum ızgarada adacık)."""
+    j0, i0 = divmod(h, _kvnx)
+    gor, yig = {h}, [h]
+    while yig:
+        c = yig.pop()
+        for yi in range(_KV_YS):
+            k = _kv_adim_serbest(c, yi)
+            if k < 0 or k in gor:
+                continue
+            kj, ki = divmod(k, _kvnx)
+            if abs(ki - i0) > KISTAK_PENCERE or abs(kj - j0) > KISTAK_PENCERE:
+                return False
+            gor.add(k); yig.append(k)
+    return True
+
+
+def _kk_kara_yolu(lon, lat):
+    """Tohum noktasından GERÇEK karada (KISTAK_INCE° ince ızgara, 8 komşu,
+    iki ucu kara) yürüme mesafesi. Döner f(x, y) → km ya da None (suyla
+    ayrılmış / pencere dışı). Kıstak geçilir, liman/boğaz geçilmez: Kılburun
+    burnu Özi yakasına taşınmaz (ölçüldü: parça sınaması ikisini aynı
+    hücreye taşıyordu — kıta tek parça olduğu için parça şartı boştur)."""
+    r = (KISTAK_ARAMA + 1) * KV_ADIM
+    n = int(round(2 * r / KISTAK_INCE)) + 1
+    xs = lon - r + _np.arange(n) * KISTAK_INCE
+    ys = lat - r + _np.arange(n) * KISTAK_INCE
+    gx, gy = _np.meshgrid(xs, ys)
+    m = shapely.contains_xy(KARA, gx.ravel(), gy.ravel()).reshape(n, n)
+    c = n // 2
+    bas = None
+    for rr in range(0, 4):
+        for jj in range(c - rr, c + rr + 1):
+            for ii in range(c - rr, c + rr + 1):
+                if 0 <= jj < n and 0 <= ii < n and m[jj, ii]:
+                    bas = (jj, ii); break
+            if bas: break
+        if bas: break
+    if bas is None:
+        return None
+    ky = KISTAK_INCE * 111.32
+    kx = ky * math.cos(math.radians(lat))
+    uz = _np.full((n, n), _np.inf)
+    uz[bas] = 0.0
+    q = [(0.0, bas)]
+    while q:
+        d, (jj, ii) = _heapq.heappop(q)
+        if d > uz[jj, ii] or d > KISTAK_YOL_KM:
+            continue
+        for dj, di in _KV_YON[:8]:
+            b, a = jj + dj, ii + di
+            if 0 <= b < n and 0 <= a < n and m[b, a]:
+                nd = d + math.hypot(kx * di, ky * dj)
+                if nd < uz[b, a]:
+                    uz[b, a] = nd; _heapq.heappush(q, (nd, (b, a)))
+
+    def f(x, y):
+        ii = int(round((x - xs[0]) / KISTAK_INCE)); jj = int(round((y - ys[0]) / KISTAK_INCE))
+        if not (0 <= jj < n and 0 <= ii < n) or not _np.isfinite(uz[jj, ii]):
+            return None
+        return float(uz[jj, ii])
+    return f
+
+
+if KISTAK_KOPRU:
+    asama("Kara-kısıtlı sahiplik: kıstak köprüsü (ızgarada hapis tohum)")
+    for _h in list(_kvtohum.keys()):
+        if not _kv_hapis(_h):
+            continue
+        for _idx in list(_kvtohum[_h]):
+            _y = YERLER[_idx]
+            _yol = _kk_kara_yolu(_y["lon"], _y["lat"])
+            if _yol is None:
+                continue
+            _hj, _hi = divmod(_h, _kvnx)
+            _en, _ed = None, 9e9
+            for _dj in range(-KISTAK_ARAMA, KISTAK_ARAMA + 1):
+                for _di in range(-KISTAK_ARAMA, KISTAK_ARAMA + 1):
+                    _a, _b = _hi + _di, _hj + _dj
+                    if not (0 <= _a < _kvnx and 0 <= _b < _kvny):
+                        continue
+                    _k = _b * _kvnx + _a
+                    if _k == _h or not _kvkara[_k]:
+                        continue
+                    _km = _yol(_kvx0 + (_a + 0.5) * KV_ADIM, _kvy0 + (_b + 0.5) * KV_ADIM)
+                    if _km is None or _km >= _ed or _km > KISTAK_YOL_KM:
+                        continue
+                    if _kv_hapis(_k):
+                        continue
+                    _en, _ed = _k, _km
+            if _en is None:
+                continue
+            _kvtohum[_h].remove(_idx)
+            _kvtohum.setdefault(_en, []).append(_idx)
+            _kvkopru.append((_y["ad"], _h, _en, _ed))
+        if not _kvtohum[_h]:
+            del _kvtohum[_h]
+    print(f"  🌉 KISTAK KÖPRÜSÜ: {len(_kvkopru)} tohum ızgarada hapisten "
+          f"anakaraya taşındı: " + ", ".join(f"{a} ({k:.1f} km)" for a, _, _, k in _kvkopru))
 asama("Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)")
 
 
@@ -2378,7 +2524,33 @@ def _yr_etiket_poligon(L, i0, j0):
 _YR_SAHIP_SIRA = None
 
 
-def _yr_epok_onar(olu, butce=None):
+_KV_TOHUM_TERS = None
+
+
+def _yr_canli_pencere(D, canli, tavan):
+    """🏺 MO-MOTOR-1020 (dünya ölçeği): `D` (ölü hücreler, düz indis) içinden yalnız CANLI
+    tohumların erişebileceği hücreleri döndürür. Sürtünme ≥ 1 ve nehir bedeli ≥ 0 olduğu için
+    yürüyüş bedeli kuş uçuşundan KÜÇÜK olamaz ⇒ tohumdan `tavan` km'den uzak hücreye varılamaz;
+    pencere (tavan/_KVDY + 4 satır, enleme göre genişleyen sütun) kesin üst kümedir. Eskiden
+    MÖ epokunda ~6 M ölü hücrenin hepsi Python döngüsüne giriyordu: 540 sn · 8,8 GB (ölçüldü)."""
+    global _KV_TOHUM_TERS
+    if _KV_TOHUM_TERS is None:
+        _KV_TOHUM_TERS = {idx: h for h, l in _kvtohum.items() for idx in l}
+    ny, nx = _YR_SAHIP.shape
+    ry = int(math.ceil(tavan / _KVDY)) + 4
+    W = _np.zeros((ny, nx), dtype=bool)
+    for idx in canli:
+        h = _KV_TOHUM_TERS.get(idx)
+        if h is None:
+            continue
+        j0, i0 = divmod(h, nx)
+        lat_uc = min(89.0, abs(_kvy0 + (j0 + 0.5) * KV_ADIM) + ry * KV_ADIM)
+        rx = int(math.ceil(ry / max(0.05, math.cos(math.radians(lat_uc))))) + 4
+        W[max(0, j0 - ry):j0 + ry + 1, max(0, i0 - rx):i0 + rx + 1] = True
+    return D[W.ravel()[D]]
+
+
+def _yr_epok_onar(olu, butce=None, canli=None):
     """🚶 EPOK DEVRİ (b) — `olu` tohumlarının ızgara hücreleri, CANLI komşu
     hücrelerden (kendi üretim bedelleriyle) tohumlanan kısıtlı Dijkstra ile
     yeniden dağıtılır. Canlı bir hücrenin mesafesi ölü tohumun silinmesinden
@@ -2400,11 +2572,17 @@ def _yr_epok_onar(olu, butce=None):
     _sr, _sv = _YR_SAHIP_SIRA
     _parca = []
     for _o in olu:
-        _l = _np.searchsorted(_sv, _o, side="left")
-        _r = _np.searchsorted(_sv, _o, side="right")
+        # ⚡ MO-MOTOR-1020: `_sv` int32; Python int ile aranınca numpy 20,9 M öğeyi int64'e
+        #    KOPYALIYOR (çağrı başına ~2 ms · dünya ölçeğinde epok başına ~540 sn ve +8 GB —
+        #    cProfile ile bulundu). Skaleri dizinin dtype'ına çevirmek sonucu DEĞİŞTİRMEZ.
+        _oo = _sv.dtype.type(_o)
+        _l = _np.searchsorted(_sv, _oo, side="left")
+        _r = _np.searchsorted(_sv, _oo, side="right")
         if _r > _l:
             _parca.append(_sr[_l:_r])
     D = _np.sort(_np.concatenate(_parca)) if _parca else _np.zeros(0, dtype=_np.intp)
+    if canli is not None and D.size:        # 🏺 yalnız canlı tohumların erişim penceresi
+        D = _yr_canli_pencere(D, canli, _YR_BUTCE if butce is None else butce)
     if D.size == 0:
         return D, _np.zeros(0, dtype=_np.int32)
     _nyy, _nxx = _YR_SAHIP.shape
@@ -2440,7 +2618,10 @@ def _yr_epok_onar(olu, butce=None):
     for k in ((_hr + _r0) * _nxx + (_hc + _c0)).tolist():
         d = _kvuzak[k]
         if d <= _tavan:
-            kaynak.append((d, k, int(_YR_SAHIP.flat[k])))
+            _sk_sahip = int(_YR_SAHIP.flat[k])
+            if canli is not None and _sk_sahip in olu:
+                continue            # pencere kenarındaki ÖLÜ hücre kaynak olamaz
+            kaynak.append((d, k, _sk_sahip))
     en = _yr_yerel_dijkstra(kaynak, Dset | {k for _, k, _ in kaynak}, _tavan)
     yeni = _np.array([en[h][1] if h in en else -2 for h in D.tolist()], dtype=_np.int32)
     return D, yeni
@@ -5677,8 +5858,30 @@ def petek_epok(g):
     if MOTOR_YURUYUS and _YR_SAHIP is not None:
         _pay["yuruyus"] = 0
         _pay["butce_disi_km2"] = 0.0
-        _yr_D, _yr_Y = _yr_epok_onar(frozenset(devir), _butce)
+        _yr_D, _yr_Y = _yr_epok_onar(frozenset(devir), _butce, sahne if _mo_t else None)
     olu = [i for i in sorted(devir) if not hucre[i].is_empty]
+    if _mo_t and _yr_D is not None:
+        # 🏺 Dünya ölçeği: canlı tohumların erişim penceresine hiç hücresi düşmeyen ölü petek
+        #    alıcı bulamaz ⇒ birleşim/bitişiklik hesabına SOKULMADAN sahipsiz bırakılır.
+        #    Eleme POLİGON penceresiyle (ızgara sahipliğiyle DEĞİL): bant poligonları yaslama/Chaikin
+        #    yüzünden ızgara sahipliğinden taşar; ızgaraya göre elemek ~%0,7 payı düşürüyordu (ölçüldü).
+        _rd = (_butce if _butce is not None else _YR_BUTCE) / _KVDY * KV_ADIM + 0.6
+        _kut = []
+        for _si in sahne:
+            _px, _py = noktalar[_si].x, noktalar[_si].y
+            _rx = _rd / max(0.05, math.cos(math.radians(min(89.0, abs(_py) + _rd))))
+            _kut.append(box(_px - _rx, _py - _rd, _px + _rx, _py + _rd))
+        _pen = unary_union(_kut) if _kut else Polygon()
+        _yakin = set()
+        if olu and not _pen.is_empty:
+            _ag_o = STRtree([hucre[i] for i in olu])
+            _yakin = {olu[int(q)] for q in _ag_o.query(_pen, predicate="intersects")}
+        _uzak = [i for i in olu if i not in _yakin]
+        for i in _uzak:
+            kayit.append((YERLER[i]["ad"], "—", 0.0, "MÖ pencere dışı: SAHİPSİZ"))
+            hucre[i] = Polygon()
+        _pay["mo_pencere_disi"] = len(_uzak)
+        olu = [i for i in olu if i in _yakin]
     for grup in _olu_bilesenler(olu, hucre):
         alan = poligonal(unary_union([hucre[i] for i in grup]))
         if alan.is_empty:

@@ -157,6 +157,69 @@ sys.exit(0)
 '''
 
 
+DUNYA_OLC = r'''
+# ════ MO-MOTOR-1020 DÜNYA ÖLÇEĞİ: tek epok / dolgu / gövde süresi + RAM (tüm yerleşimler) ════
+import psutil as _ps_d, json as _js_d2
+_pr = _ps_d.Process()
+_zirve = lambda: round(_pr.memory_info().peak_wset / 2**30, 2)
+_dun = {"baslangic_zirve_gb": _zirve(), "nokta": len(YERLER), "olcum": []}
+for _et, _a in __GUNLER__:
+    _o = {"etiket": _et, "gun": _a, "oncesi_rss_gb": round(_pr.memory_info().rss / 2**30, 2), "oncesi_zirve_gb": _zirve()}
+    try:
+        _t0 = time.time(); _dv = devir_kumesi(_a); _o["devir_sn"] = round(time.time() - _t0, 2); _o["devir_n"] = len(_dv)
+        import cProfile as _cpf, pstats as _pst, io as _io_p
+        _prof = _cpf.Profile(); _t0 = time.time(); _prof.enable(); _pe = petek_epok(_a); _prof.disable()
+        _o["petek_epok_sn"] = round(time.time() - _t0, 2)
+        _sio = _io_p.StringIO(); _pst.Stats(_prof, stream=_sio).sort_stats("cumulative").print_stats(28)
+        with open(os.environ["MO_OLC_YOL"] + ".prof_" + _et + ".txt", "w", encoding="utf-8") as _pf:
+            _pf.write(_sio.getvalue())
+        _o["epok_sonrasi_zirve_gb"] = _zirve(); _o["epok_sonrasi_rss_gb"] = round(_pr.memory_info().rss / 2**30, 2)
+        _o["petek_n"] = sum(1 for i in range(len(YERLER)) if i not in _dv and _pe[i] is not None and not _pe[i].is_empty)
+        _t0 = time.time(); _dk = _dolgu_kumesi(_a); _o["dolgu_kumesi_sn"] = round(time.time() - _t0, 2)
+        _o["dolgu_devlet_n"] = len(_dk); _o["dolgu_nokta_n"] = sum(len(v) for v in _dk.values())
+        _o["dolgu_sonrasi_zirve_gb"] = _zirve()
+        _ak = frozenset(j for j, y in enumerate(YERLER) if j not in _dv and any(sp["d"] == "bizans" and gn(sp["f"]) <= gn(_a) < gn(sp["t"]) for sp in y["s"]))
+        if _ak:
+            _t0 = time.time(); _g, _k, _t = _yabanci_govde_hesap("bizans", _ak, _a, sorted(_ak)); _o["govde_sn"] = round(time.time() - _t0, 2)
+            _o["govde_km2"] = round(_ham_km2(_g)); _o["govde_zirve_gb"] = _zirve()
+    except BaseException as _x:
+        _o["hata"] = "%s: %s" % (type(_x).__name__, _x)
+    _dun["olcum"].append(_o)
+    print("  🌍", _o, flush=True)
+_dun["son_zirve_gb"] = _zirve()
+with open(os.environ["MO_OLC_YOL"] + ".dunya.json", "w", encoding="utf-8") as _f:
+    _js_d2.dump(_dun, _f, ensure_ascii=False, indent=1)
+sys.exit(0)
+'''
+
+
+KARSILASTIR = r'''
+# ════ MO-MOTOR-1020: pencereli epok devri ↔ tam epok devri (aynı süreçte, hücre hücre) ════
+import json as _js_k
+_kar = []
+for _et, _a in __GUNLER__:
+    _dv = devir_kumesi(_a)
+    _sahne = [i for i in range(len(YERLER)) if i not in _dv]
+    _b = MO_SAAT * NEHIR_KM_SAAT
+    _t0 = time.time(); _D0, _Y0 = _yr_epok_onar(frozenset(_dv), _b, None); _s0 = round(time.time() - _t0, 1)
+    _t0 = time.time(); _D1, _Y1 = _yr_epok_onar(frozenset(_dv), _b, _sahne); _s1 = round(time.time() - _t0, 1)
+    _m0 = dict(zip(_D0.tolist(), _Y0.tolist())); _m1 = dict(zip(_D1.tolist(), _Y1.tolist()))
+    _ulas0 = {h for h, y in _m0.items() if y >= 0}; _ulas1 = {h for h, y in _m1.items() if y >= 0}
+    _fark = [h for h in _ulas0 | _ulas1 if _m0.get(h, -9) != _m1.get(h, -9)]
+    _ornek = []
+    for h in _fark[:6]:
+        j, i = divmod(h, _kvnx)
+        _ornek.append({"lat": round(_kvy0 + (j + .5) * KV_ADIM, 2), "lon": round(_kvx0 + (i + .5) * KV_ADIM, 2),
+                       "tam": _m0.get(h), "pencere": _m1.get(h), "pencerede_mi": h in _m1})
+    _kar.append({"etiket": _et, "D_tam": int(_D0.size), "D_pencere": int(_D1.size), "ulasilan_tam": len(_ulas0),
+                 "ulasilan_pencere": len(_ulas1), "fark_hucre": len(_fark), "sn_tam": _s0, "sn_pencere": _s1, "ornek": _ornek})
+    print("  🔬", _kar[-1], flush=True)
+with open(os.environ["MO_OLC_YOL"] + ".karsilastir.json", "w", encoding="utf-8") as _f:
+    _js_k.dump(_kar, _f, ensure_ascii=False, indent=1)
+sys.exit(0)
+'''
+
+
 def sha(yol):
     h = hashlib.sha256()
     with open(yol, "rb") as f:
@@ -191,7 +254,20 @@ def kos(a):
     olcum = OLCUM.replace("__GUNLER__", repr(SENARYO_GUNLER if not a.senaryo_yok else []))
     if not a.senaryo_yok:
         src = src.replace(isaret, isaret + ENJEKSIYON.replace("__SENARYO__", repr(SENARYO_NOKTALAR)))
-    if a.ayikla:
+    if a.karsilastir:
+        anc = '_MOTOR_PARALEL_ISCI = int(os.environ.get("MOTOR_PARALEL_ISCI", "4"))\n'
+        if src.count(anc) != 1:
+            raise SystemExit("karşılaştır çapası 1 kez yok")
+        src = src.replace(anc, KARSILASTIR.replace("__GUNLER__", repr(
+            [("MO9500", "-9499-06-15"), ("MO6000", "-5999-06-15"), ("MS500", "0500-06-15")])) + "\n" + anc)
+    elif a.dunya_olc:
+        anc = '_MOTOR_PARALEL_ISCI = int(os.environ.get("MOTOR_PARALEL_ISCI", "4"))\n'
+        if src.count(anc) != 1:
+            raise SystemExit("dünya çapası 1 kez yok")
+        src = src.replace(anc, DUNYA_OLC.replace("__GUNLER__", repr(
+            [("MO9500", "-9499-06-15"), ("MO3000", "-2999-06-15"), ("MS500", "0500-06-15"),
+             ("MS1100", "1100-06-15"), ("CE1500", "1500-06-15")])) + "\n" + anc)
+    elif a.ayikla:
         anc = '_MOTOR_PARALEL_ISCI = int(os.environ.get("MOTOR_PARALEL_ISCI", "4"))\n'
         if src.count(anc) != 1:
             raise SystemExit("ayıkla çapası 1 kez yok")
@@ -319,6 +395,8 @@ def main():
     k.add_argument("--senaryo-yok", action="store_true", dest="senaryo_yok")
     k.add_argument("--hizli", action="store_true")
     k.add_argument("--ayikla", action="store_true")
+    k.add_argument("--dunya-olc", action="store_true", dest="dunya_olc")
+    k.add_argument("--karsilastir", action="store_true")
     k.add_argument("--sakla", action="store_true")
     k.add_argument("--kutu", required=True)
     k.add_argument("--ad", required=True)

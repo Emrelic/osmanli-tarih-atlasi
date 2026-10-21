@@ -179,6 +179,35 @@ KOVA = {
 }
 
 BOYALAR = {
+    # ═══ 🏺 MÖ KÜLTÜR BOYALARI (MO-MOTOR-1020 · 24 künye `tur:"kultur"`, `harita:` YOK ⇒ boya anahtarı = künye id) ═══
+    # Renkler bilgisayar aramasıyla seçildi (MO-MOTOR k3): bindirilmiş L* ≥ 59,8 · altlıktan ΔE ≥ 16 · AYNI BÖLGE grubu (yakın-doğu /
+    # Çin / Amerika) içinde ikili ΔE ≥ 12,5. Gruplar arası ayrışma istenmedi (coğrafyada karşılaşmazlar). Desen: KULTUR_DESEN (aşağıda).
+    # Komşuluk ölçümü (`renk_olc`) bu kimliklere s: dönemi gelince gerçek veriyle yapılır — bugün 'ölçülemedi', 'temiz' değil.
+    "natufiyen": ("Natufiyen Kültürü (Levant)", "#c97d7a"),
+    "ppna-guney-levant": ("PPNA — Çanak Öncesi Neolitik A (Güney Levant)", "#0cd084"),
+    "ppnb-guney-levant": ("PPNB — Çanak Öncesi Neolitik B (Güney Levant)", "#0a87f4"),
+    "ppnc-guney-levant": ("PPNC — Çanak Öncesi Neolitik C (Güney Levant)", "#8f9302"),
+    "ubaid-kultur": ("Ubaid Kültürü (Güney Mezopotamya)", "#c48cf9"),
+    "halaf-kultur": ("Halaf Kültürü", "#70c5cf"),
+    "uruk-gec-kultur": ("Geç Uruk Kültürü (Uruk IV–III, yazının ortaya çıkışı)", "#dc3e83"),
+    "erken-harappa": ("Erken Harappa Dönemi", "#a3da8b"),
+    "gec-harappa": ("Geç Harappa Dönemi", "#fea647"),
+    "naqada-kultur": ("Naqada Kültürü (Yukarı Mısır)", "#7179ab"),
+    "pre-kerma": ("Pre-Kerma Kültürü (Nubya)", "#877936"),
+    "erken-hartum": ("Erken Hartum Mezolitiği (Orta Sudan)", "#2a8923"),
+    "fayum-neolitik": ("Fayum Neolitiği ve Erken Holosen İskânı", "#0cdeea"),
+    "peiligang": ("Peiligang Kültürü", "#d460b2"),
+    "yangshao": ("Yangshao Kültürü", "#08e29b"),
+    "shangshan": ("Shangshan Kültürü", "#be7e07"),
+    "kuahuqiao": ("Kuahuqiao Kültürü", "#1fabf7"),
+    "hemudu": ("Hemudu Kültürü", "#5d8966"),
+    "liangzhu": ("Liangzhu Kültürü", "#ff9e8a"),
+    "lepenski-vir-trapez": ("Lepenski Vir — trapez yapılı Mezolitik-Neolitik geçiş evresi", "#179170"),
+    "chavin": ("Chavin Kulturu", "#bb7fbd"),
+    "hohokam": ("Hohokam Kültürü (son evre)", "#06e7a5"),
+    "nazca": ("Nazca Kulturu", "#b8960f"),
+    "olmek": ("Olmek Kulturu (San Lorenzo-La Venta)", "#00a6f1"),
+
 
     # ═══ HAYALET DÖNEM YAMASININ AÇTIĞI DÖRT KİMLİK ═══════════════════
     # OPUS HAZIR KITA 87 · 25 Ağustos 2026 · dayanak:
@@ -4377,7 +4406,32 @@ _aciklik_tavani_dogrula()
 #    BOYALAR + KULTUR_DESEN'e BİRLİKTE, tek tuz değişikliğiyle girer.
 DESEN_TURLERI = ("serit", "capraz", "nokta", "dikey")
 KULTUR_OPAKLIK_ARALIK = (0.20, 0.65)
-KULTUR_DESEN = {}
+KULTUR_DESEN = {
+    "natufiyen": ("serit", 0.45),
+    "ppna-guney-levant": ("serit", 0.45),
+    "ppnb-guney-levant": ("serit", 0.45),
+    "ppnc-guney-levant": ("serit", 0.45),
+    "ubaid-kultur": ("capraz", 0.45),
+    "halaf-kultur": ("capraz", 0.45),
+    "uruk-gec-kultur": ("capraz", 0.45),
+    "erken-harappa": ("nokta", 0.45),
+    "gec-harappa": ("nokta", 0.45),
+    "naqada-kultur": ("dikey", 0.45),
+    "pre-kerma": ("dikey", 0.45),
+    "erken-hartum": ("dikey", 0.45),
+    "fayum-neolitik": ("dikey", 0.45),
+    "peiligang": ("serit", 0.45),
+    "yangshao": ("serit", 0.45),
+    "shangshan": ("serit", 0.45),
+    "kuahuqiao": ("serit", 0.45),
+    "hemudu": ("serit", 0.45),
+    "liangzhu": ("serit", 0.45),
+    "lepenski-vir-trapez": ("nokta", 0.45),
+    "chavin": ("capraz", 0.45),
+    "hohokam": ("capraz", 0.45),
+    "nazca": ("capraz", 0.45),
+    "olmek": ("capraz", 0.45),
+}
 
 
 def kultur_desen_dogrula(desen=None, boyalar=None):

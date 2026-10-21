@@ -589,7 +589,7 @@ peteğe emiliyor. Üç ayar (hepsi ortamdan; varsayılanlar koşu bayrağı gere
 | Ayar | Varsayılan | Ne yapar |
 |---|---|---|
 | `MOTOR_MO_YURUYUS_GUN` | **10** (80 saat; 1 gün = 8 saat, 5 gün = 40 saat üretim bütçesi) | MÖ günlerinde petek yarıçap tavanı. Taban `_BANT_HAM[80]`, epok devri 80 saatlik bütçeyle. Tavanı aşan toprak **sahipsiz = "veri yok"** (kültürsüz değil). Bant `MOTOR_UFUK_BANT`ta olmak zorunda — yoksa koşu GÜRÜLTÜYLE durur. |
-| `MOTOR_MO_SINIR` | `0001-01-01` | g bundan önceyse MÖ kuralları. **Öneri: MS 1–1281 verisi inince `1281-01-01`** (aynı hayalet sorunu orada da var; bkz. rapor). |
+| `MOTOR_MO_SINIR` | **`1281-01-01`** (Emre, 21 Ekim) | g bundan önceyse "MÖ kuralları" (tavan 10 gün · sahne kuralı · puan kapısı atlanır) — yani 1281 ÖNCESİ TÜM tarihler. |
 | `MOTOR_MO_PUAN_KAPISI` | `0` | Yoğunluk (PUAN) kapısı MÖ'de atlanır: tek nokta ≈200 km disk bırakır ⇒ 10 günlük tavan kapının arkasında kalırdı. `1` kapıyı MÖ'de açık tutar. |
 | `MOTOR_TARIH_BASI_MERKEZ` | `mo` | `0` kapalı · `mo` yalnız MÖ günleri · `1` her tarih (Emre 19 Ekim kuralı — Osmanlı çağını da değiştirir, koşu emri ister). k≥4 nokta bölge almaz. `MOTOR_MERKEZ_K0=0` k:0 noktaları da dışlar (**önerilmez**). |
 
