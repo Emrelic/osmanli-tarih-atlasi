@@ -1,0 +1,41 @@
+// yerlesimler_once1281_yt_iran_orta_asya.js — 1281 öncesi kronoloji maddelerinde geçen yerlerin nokta adayları (YER-TANIMA, Ekim 2026)
+// Kaynak: denetim/yer-arastirma/parti_*_sonuc.json (ÇİFT TANIK şartı) · üreten: denetim/ARAC-YER-URET-1021.py
+// s:/d: BOŞ — sahip/zincir DEVLET-LISTESI ile koordineli yazılır (bağlama + s: işi era oturumlarında).
+// Mükerrer tarama: normalleştirilmiş ad (30 km) + 3 km. BAĞLAMA YAPILMADI (girdi_listesi/index.html'e dokunulmadı).
+window.YERLESIMLER_ONCE1281_YT_IRAN_ORTA_ASYA = [
+
+{ ad:"Bactria", tur:"bolge", lat:37.4104997452, lon:67.1536516955, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Bactria adıyla geçer; eski adlar: -; modern: - (-). Pleiades bölge/temsilci noktası (Bactria (region), tip: region); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Pleiades pleiades.stoa.org/places/971705 (37.4104997452, 67.1536516955) · denetim/yer-arastirma/parti_50_sonuc.json" },
+{ ad:"Büst", tur:"sehir", lat:31.5081, lon:64.3566, g:0, k:0, s:[], d:[],
+  not:"YER-TANIMA: kronolojide Büst adıyla geçer; eski adlar: -; modern: - (-). Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 2 kayıt. ",
+  kaynak:"ÇİFT TANIK: Pleiades pleiades.stoa.org/places/59747 (Bigis/Bestia Desolata/Parabeste, settlement, archaeological-site, precise) (31.5081, 64.3566) · GeoNames geonames.org/1134720 (Lashkar Gāh, AF) (31.59382, 64.37161) · denetim/yer-arastirma/parti_50_sonuc.json" },
+{ ad:"Tirmiz", tur:"sehir", lat:37.2642696871, lon:67.1924807471, g:0, k:0, s:[], d:[],
+  not:"YER-TANIMA: kronolojide Tirmiz adıyla geçer; eski adlar: -; modern: - (-). Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. ",
+  kaynak:"ÇİFT TANIK: Pleiades pleiades.stoa.org/places/971886 (Tarmita/Termez, settlement, precise) (37.2642696871, 67.1924807471) · GeoNames geonames.org/1215957 (Tirmiz, UZ) (37.22417, 67.27833) · denetim/yer-arastirma/parti_50_sonuc.json" },
+{ ad:"Soğd", tur:"bolge", lat:38.9571055737, lon:66.8077372132, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Soğd adıyla geçer; eski adlar: -; modern: - (-). Pleiades bölge/temsilci noktası (Sogdiana, tip: region, label); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Pleiades pleiades.stoa.org/places/60058 (38.9571055737, 66.8077372132) · denetim/yer-arastirma/parti_50_sonuc.json" },
+{ ad:"Cürcân", tur:"bolge", lat:37.1, lon:56.3, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Cürcân adıyla geçer; eski adlar: -; modern: - (-). Pleiades bölge/temsilci noktası (Varkana/Hyrcania/Gurgan, tip: region); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Pleiades pleiades.stoa.org/places/942333 (37.1, 56.3) · denetim/yer-arastirma/parti_50_sonuc.json" },
+{ ad:"Deylem", tur:"bolge", lat:37.2300116507, lon:48.8437981194, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Deylem adıyla geçer; eski adlar: -; modern: - (-). Pleiades bölge/temsilci noktası (Delaman, tip: region, label); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Pleiades pleiades.stoa.org/places/884140 (37.2300116507, 48.8437981194) · denetim/yer-arastirma/parti_50_sonuc.json" },
+{ ad:"Azerbaycan", tur:"bolge", lat:40.346, lon:47.66, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Azerbaycan adıyla geçer; eski adlar: -; modern: - (Azerbaijan). BÖLGE TEMSİLCİSİ: yer bilinmiyor, Azerbaycan bölgesi kaynakta. Nokta = Natural Earth 'Azerbaijan' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir).",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson) Azerbaijan (40.346, 47.66) · denetim/yer-arastirma/parti_51_sonuc.json" },
+{ ad:"Fergana", tur:"bolge", lat:40.644, lon:71.643, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Fergana adıyla geçer; eski adlar: -; modern: - (Fergana Valley). BÖLGE TEMSİLCİSİ: yer bilinmiyor, Fergana bölgesi kaynakta. Nokta = Natural Earth 'Fergana Valley' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir).",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson) Fergana Valley (40.644, 71.643) · denetim/yer-arastirma/parti_51_sonuc.json" },
+{ ad:"Pakistan", tur:"bolge", lat:29.949, lon:69.341, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Pakistan adıyla geçer; eski adlar: -; modern: - (Pakistan). BÖLGE TEMSİLCİSİ: yer bilinmiyor, Pakistan bölgesi kaynakta. Nokta = Natural Earth 'Pakistan' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir).",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson) Pakistan (29.949, 69.341) · denetim/yer-arastirma/parti_51_sonuc.json" },
+];

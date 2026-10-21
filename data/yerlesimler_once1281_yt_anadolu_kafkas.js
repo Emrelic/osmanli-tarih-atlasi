@@ -1,0 +1,39 @@
+// yerlesimler_once1281_yt_anadolu_kafkas.js — 1281 öncesi kronoloji maddelerinde geçen yerlerin nokta adayları (YER-TANIMA, Ekim 2026)
+// Kaynak: denetim/yer-arastirma/parti_*_sonuc.json (ÇİFT TANIK şartı) · üreten: denetim/ARAC-YER-URET-1021.py
+// s:/d: BOŞ — sahip/zincir DEVLET-LISTESI ile koordineli yazılır (bağlama + s: işi era oturumlarında).
+// Mükerrer tarama: normalleştirilmiş ad (30 km) + 3 km. BAĞLAMA YAPILMADI (girdi_listesi/index.html'e dokunulmadı).
+window.YERLESIMLER_ONCE1281_YT_ANADOLU_KAFKAS = [
+
+{ ad:"Hatra (el-Hadr (Hatra), Ninova)", tur:"harabe", lat:35.5879, lon:42.7183, g:0, k:0, s:[], d:[],
+  not:"YER-TANIMA: kronolojide Hatra adıyla geçer; eski adlar: Hatris, el-Hadr, Al-Hadr; modern: el-Hadr (Hatra), Ninova (Irak). Üç nokta <300 m içinde.",
+  kaynak:"ÇİFT TANIK: Pleiades 894004 https://pleiades.stoa.org/places/894004 (35.587884, 42.718342) · Syriaca.org place 93 https://syriaca.org/place/93 (35.58806, 42.71833) · Vici.org 34963 https://vici.org/vici/34963 (35.588585, 42.716572) · denetim/yer-arastirma/parti_01_sonuc.json" },
+{ ad:"Harran (Harran (Carrhae), Şanlıurfa)", tur:"harabe", lat:36.864, lon:39.031, g:0, k:0, s:[], d:[],
+  not:"YER-TANIMA: kronolojide Harran adıyla geçer; eski adlar: Carrhae, Karrhai, Harran; modern: Harran (Carrhae), Şanlıurfa (Türkiye). Syriaca'nın tercihli noktası 36.8775 (≈1,5 km kuzey, modern kasaba); höyük/antik yer Pleiades ile uyumlu.",
+  kaynak:"ÇİFT TANIK: Pleiades 658427 https://pleiades.stoa.org/places/658427 (36.8635943, 39.0307497) · Syriaca.org place 216 (alternatif nokta) https://www.syriaca.org/place/216 (36.8646, 39.0312) · denetim/yer-arastirma/parti_01_sonuc.json" },
+{ ad:"Osrhoene", tur:"bolge", lat:37.25, lon:38.25, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Osrhoene adıyla geçer; eski adlar: -; modern: - (-). Pleiades bölge/temsilci noktası (Osrhoene, tip: region, label); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Pleiades pleiades.stoa.org/places/658561 (37.25, 38.25) · denetim/yer-arastirma/parti_50_sonuc.json" },
+{ ad:"Ahlat", tur:"sehir", lat:38.752777, lon:42.494444, g:0, k:0, s:[], d:[],
+  not:"YER-TANIMA: kronolojide Ahlat adıyla geçer; eski adlar: -; modern: - (-). Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. ",
+  kaynak:"ÇİFT TANIK: Pleiades pleiades.stoa.org/places/874409 (Calata, settlement, precise) (38.752777, 42.494444) · GeoNames geonames.org/325103 (Ahlat, TR) (38.7489, 42.48007) · denetim/yer-arastirma/parti_50_sonuc.json" },
+{ ad:"Adiabene", tur:"bolge", lat:36.1913213311, lon:44.0093823647, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Adiabene adıyla geçer; eski adlar: -; modern: - (-). Pleiades bölge/temsilci noktası (Adiabene, tip: region, label); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Pleiades pleiades.stoa.org/places/893935 (36.1913213311, 44.0093823647) · denetim/yer-arastirma/parti_50_sonuc.json" },
+{ ad:"Lade", tur:"bolge", lat:37.5234882513, lon:27.177045886, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Lade adıyla geçer; eski adlar: -; modern: - (-). Pleiades bölge/temsilci noktası (Lade (island), tip: island, label); BÖLGE TEMSİLCİSİ: yer bilinmiyor, bölge kaynakta",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Pleiades pleiades.stoa.org/places/599746 (37.5234882513, 27.177045886) · denetim/yer-arastirma/parti_50_sonuc.json" },
+{ ad:"Sis", tur:"sehir", lat:37.4488715, lon:35.8163535, g:0, k:0, s:[], d:[],
+  not:"YER-TANIMA: kronolojide Sis adıyla geçer; eski adlar: -; modern: - (-). Çevrimdışı eşleme: Pleiades CSV + GeoNames cities15000 (ad+10 km). Pleiades kümesi 1 kayıt. ",
+  kaynak:"ÇİFT TANIK: Pleiades pleiades.stoa.org/places/34546779 (Sissû, settlement, precise) (37.4488715, 35.8163535) · GeoNames geonames.org/306112 (Kozan, TR) (37.45517, 35.81573) · denetim/yer-arastirma/parti_50_sonuc.json" },
+{ ad:"Suriye", tur:"bolge", lat:35.023, lon:38.505, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Suriye adıyla geçer; eski adlar: -; modern: - (Syria). BÖLGE TEMSİLCİSİ: yer bilinmiyor, Suriye bölgesi kaynakta. Nokta = Natural Earth 'Syria' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir).",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson) Syria (35.023, 38.505) · denetim/yer-arastirma/parti_51_sonuc.json" },
+{ ad:"Ermenistan", tur:"bolge", lat:40.289, lon:44.932, g:0, k:0, s:[], d:[],
+  konum_kesinlik:"bolge",
+  not:"YER-TANIMA: kronolojide Ermenistan adıyla geçer; eski adlar: -; modern: - (Armenia). BÖLGE TEMSİLCİSİ: yer bilinmiyor, Ermenistan bölgesi kaynakta. Nokta = Natural Earth 'Armenia' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir).",
+  kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_admin_0_countries.geojson) Armenia (40.289, 44.932) · denetim/yer-arastirma/parti_51_sonuc.json" },
+];

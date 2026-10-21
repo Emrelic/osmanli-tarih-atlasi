@@ -51,7 +51,8 @@ aday, rapor = [], {"mukerrer": [], "yazilmadi": collections.Counter(), "yazilan"
 gorulen = set()
 for f in sorted(glob.glob(os.path.join(KL, "parti_*_sonuc.json"))):
     for r in json.load(open(f, encoding="utf-8")).get("sonuclar", []):
-        if r.get("durum") != "cift_tanik" or r.get("lat") is None:
+        bolge_mi = r.get("durum") in ("bolge_temsilci", "bolge_nokta")
+        if (r.get("durum") != "cift_tanik" and not bolge_mi) or r.get("lat") is None:
             rapor["yazilmadi"][r.get("durum", "?")] += 1
             continue
         pt = (float(r["lat"]), float(r["lon"]))
@@ -61,7 +62,7 @@ for f in sorted(glob.glob(os.path.join(KL, "parti_*_sonuc.json"))):
             for (la, lo, mad) in mevcut_tum.get(N(a), []):
                 if km(pt, (la, lo)) <= 30:     # aynı ad 30 km içinde = aynı yer
                     ceki = (mad, round(km(pt, (la, lo)), 1), "ad")
-        if not ceki:
+        if not ceki and not bolge_mi:
             for n, p, mad in mevcut:
                 if km(pt, p) <= 3:
                     ceki = (mad, round(km(pt, p), 2), "3km")
@@ -71,6 +72,9 @@ for f in sorted(glob.glob(os.path.join(KL, "parti_*_sonuc.json"))):
             continue
         gorulen.add(N(r["ad"]))
         r["_dosya"] = os.path.basename(f)
+        if bolge_mi:
+            r["tur"] = "bolge"
+            r["konum_kesinligi"] = "bolge"
         aday.append(r)
 
 def jstr(s):
@@ -80,21 +84,21 @@ gruplar = collections.defaultdict(list)
 for r in aday:
     gruplar[bolge_kutusu(float(r["lat"]), float(r["lon"]))].append(r)
 for ad in sorted(gruplar):
-    yol = os.path.join(KOK, "data", "yerlesimler_once1281_%s.js" % ad)
-    satir = ["// yerlesimler_once1281_%s.js — 1281 öncesi kronoloji maddelerinde geçen yerlerin nokta adayları (YER-TANIMA, Ekim 2026)" % ad,
+    yol = os.path.join(KOK, "data", "yerlesimler_once1281_yt_%s.js" % ad)
+    satir = ["// yerlesimler_once1281_yt_%s.js — 1281 öncesi kronoloji maddelerinde geçen yerlerin nokta adayları (YER-TANIMA, Ekim 2026)" % ad,
              "// Kaynak: denetim/yer-arastirma/parti_*_sonuc.json (ÇİFT TANIK şartı) · üreten: denetim/ARAC-YER-URET-1021.py",
              "// s:/d: BOŞ — sahip/zincir DEVLET-LISTESI ile koordineli yazılır (bağlama + s: işi era oturumlarında).",
              "// Mükerrer tarama: normalleştirilmiş ad (30 km) + 3 km. BAĞLAMA YAPILMADI (girdi_listesi/index.html'e dokunulmadı).",
-             "window.YERLESIMLER_ONCE1281_%s = [" % ad.upper(), ""]
+             "window.YERLESIMLER_ONCE1281_YT_%s = [" % ad.upper(), ""]
     for r in gruplar[ad]:
         tan = " · ".join("%s %s (%s, %s)" % (t.get("kaynak", ""), t.get("url_veya_atif", ""), t.get("lat"), t.get("lon")) for t in r.get("tanik", []))
         kes = {"kesin": "yil", "yaklasik": "belirsiz"}.get(r.get("konum_kesinligi"), "belirsiz")
         ad_yaz = r["ad"] if not r.get("esanlam_modern") or N(r["esanlam_modern"]) == N(r["ad"]) else "%s (%s)" % (r["ad"], r["esanlam_modern"])
         satir.append('{ ad:%s, tur:%s, lat:%s, lon:%s, g:0, k:0, s:[], d:[],' % (jstr(ad_yaz), jstr(r.get("tur") or "sehir"), r["lat"], r["lon"]))
-        if r.get("konum_kesinligi") == "yaklasik":
-            satir.append('  konum_kesinlik:"yaklasik",')
+        if r.get("konum_kesinligi") in ("yaklasik", "bolge"):
+            satir.append('  konum_kesinlik:"%s",' % r["konum_kesinligi"])
         satir.append('  not:%s,' % jstr("YER-TANIMA: kronolojide %s adıyla geçer; eski adlar: %s; modern: %s (%s). %s" % (r["ad"], ", ".join(r.get("eski_adlar") or []) or "-", r.get("esanlam_modern") or "-", r.get("ulke_modern") or "-", r.get("not") or "")))
-        satir.append('  kaynak:%s },' % jstr("ÇİFT TANIK: " + tan + " · denetim/yer-arastirma/" + r["_dosya"]))
+        satir.append('  kaynak:%s },' % jstr(("TEMSİLCİ NOKTA (çift tanık değil, bölge): " if r.get("konum_kesinligi") == "bolge" else "ÇİFT TANIK: ") + tan + " · denetim/yer-arastirma/" + r["_dosya"]))
     satir.append("];")
     open(yol, "w", encoding="utf-8").write("\n".join(satir) + "\n")
     rapor["yazilan"] += len(gruplar[ad])

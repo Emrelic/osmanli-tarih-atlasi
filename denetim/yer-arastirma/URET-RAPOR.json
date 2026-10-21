@@ -47,13 +47,93 @@
    "atlas": "Uruk (Warka)",
    "km": 0.7,
    "neden": "ad"
+  },
+  {
+   "ad": "Gırnata",
+   "atlas": "Granada",
+   "km": 0.11,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kerman",
+   "atlas": "Kirman",
+   "km": 1.34,
+   "neden": "3km"
+  },
+  {
+   "ad": "Nisibis",
+   "atlas": "Nusaybin",
+   "km": 1.06,
+   "neden": "3km"
+  },
+  {
+   "ad": "Heraklion",
+   "atlas": "Kandiye (Girit)",
+   "km": 0.16,
+   "neden": "3km"
+  },
+  {
+   "ad": "Balkh",
+   "atlas": "Belh",
+   "km": 1.16,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kālîkalâ",
+   "atlas": "Erzurum",
+   "km": 0.92,
+   "neden": "3km"
+  },
+  {
+   "ad": "Karmîsîn",
+   "atlas": "Kirmanşah",
+   "km": 0.68,
+   "neden": "3km"
+  },
+  {
+   "ad": "Tyrus",
+   "atlas": "Sûr (Tyre) — Lübnan",
+   "km": 0.22,
+   "neden": "3km"
+  },
+  {
+   "ad": "Emesa",
+   "atlas": "Humus",
+   "km": 1.2,
+   "neden": "3km"
+  },
+  {
+   "ad": "Caesarea",
+   "atlas": "Kayseri",
+   "km": 0.98,
+   "neden": "3km"
+  },
+  {
+   "ad": "Strasbourg",
+   "atlas": "Strazburg",
+   "km": 1.1,
+   "neden": "3km"
+  },
+  {
+   "ad": "Peshawar",
+   "atlas": "Peşâver",
+   "km": 0.49,
+   "neden": "3km"
+  },
+  {
+   "ad": "Nikomedia",
+   "atlas": "İzmit",
+   "km": 0.26,
+   "neden": "3km"
   }
  ],
  "yazilmadi": {
   "bolge": 43,
-  "tek_tanik": 33,
+  "tek_tanik": 219,
   "bulunamadi": 12,
-  "dogal": 1
+  "dogal": 10,
+  "yok": 975,
+  "belirsiz": 56
  },
- "yazilan": 3
+ "yazilan": 88
 }
