@@ -237,14 +237,21 @@ AD = {  # görünen ad (yerel/yaygın), yoksa sehir_tarihce adı
 
 # ───────────────────────────── çekirdek
 BIT_EK = {   # kaynaklı ama sehir_tarihce'de bulunmayan bitişler: site → (iso, etiket)
+    "anau-ia-meana": ("-3819-01-01", "olay", "Heit 2019, Looking Closely cilt 1: 'Anau Ia is dated 4300-3820 cal BCE' — EVRE SONU (yerleşim terk edilmedi, Anau Ib'ye geçti); ARASTIRMA7-bitis.json"),
+    "lothagam-north-turkana": ("-2203-01-01", "olay", "Hildebrand vd. 2018 PNAS: platform kullanımı sonu 4154 cal BP = MÖ 2204 (BP-1950); ARASTIRMA7-bitis.json"),
+    "kotosh-dini-gelenegi": ("-0549-01-01", "olay", "Mesia-Montenegro & Sánchez-Borjas 2023 Antiquity: 'Late Archaic and Formative periods (2800–550 BC)' — DÖNEM TOPLAMI sonu (geleneğin hâkim olduğu dönemin sonu; sitenin kendi terk tarihi DEĞİL; yalnız Cambridge özet sayfasından okundu); ARASTIRMA7-bitis.json"),
+    "ban-chiang": ("0001-01-01", "olay", "Higham, Douka & Higham 2015 PLoS ONE (PMC4575132): 'Two burials from the late Iron Age are dated to the first two centuries AD' — SON TARİHLİ KANIT (terk yılı kaynakta yok), alt sınır MS 1; ARASTIRMA7-bitis.json"),
     "mehrgarh": ("-4723-01-01", "olay"),   # Mutin vd. 2025: Dönem I mezarlığı 4769–4679 cal BCE'de sona erdi (orta nokta MÖ 4724; denetim/arastirma/2-hint-guneydogu.json)
 }
+
+
+BIT_NOT = {k: v[2] for k, v in BIT_EK.items() if len(v) > 2}
 
 
 def site_bit(y, r):
     """(bit_t, etiket) ya da (None, None). Öncelik: sehir_tarihce bit → araştırma kur bloğunun dönem-sonu."""
     if y["id"] in BIT_EK:
-        return BIT_EK[y["id"]]
+        return BIT_EK[y["id"]][:2]
     if y.get("bit"):
         return y["bit"]["t"], "olay"
     kur = (r or {}).get("kur") or {}
@@ -338,7 +345,7 @@ def main():
                     gecis.append((uc_, ad, sg["d"], tip_, y["ad"]))
             notm = ("MÖ ARKEOLOJİ KAYDI (21 Ekim 2026). kur: KURULUŞ DEĞİL, İLK TARİHLİ KANIT (%s; %s). " % (y["ilk"]["gun"], y["ilk"]["nicelik"]) +
                     ("bit: TÜRETİLMİŞ = sahip künyenin sonu (ölçüm/terk günü DEĞİL). " if turetilmis else
-                     ("bit: kaynak bitişi (%s). " % (y["bit"]["gun"] if y.get("bit") else "Mutin vd. 2025: Dönem I mezarlığı 4769–4679 cal BCE'de sona erdi; orta nokta MÖ 4724") if bit_et == "olay" else "bit: kaynaktaki kur bloğunun dönem-sonu ucu (dönem toplamı). ")) +
+                     ("bit: kaynak bitişi (%s). " % (y["bit"]["gun"] if y.get("bit") else (BIT_NOT.get(sid) or "Mutin vd. 2025: Dönem I mezarlığı 4769–4679 cal BCE'de sona erdi; orta nokta MÖ 4724")) if bit_et == "olay" else "bit: kaynaktaki kur bloğunun dönem-sonu ucu (dönem toplamı). ")) +
                     "Koordinat: %s " % y["konum_teyit"][:300] + "Sahiplik: kültür künyesi (sahip kavramı yok); bos:'veri-yok'. Kaynak/alıntı/uç aralıkları: olaylar_arkeoloji_*.js ic_not_d ve denetim/arastirma/*.json.")
             rec = dict(ad=ad, tur="sehir", lat=y["lat"], lon=y["lon"], g=0, k=0, kur=kur_t, bit=bit_t,
                        kesinlik={"f": y["ilk"]["kesinlik"], "t": (y["bit"]["kesinlik"] if y.get("bit") else "belirsiz")},

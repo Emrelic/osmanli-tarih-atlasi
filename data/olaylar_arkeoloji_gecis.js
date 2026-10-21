@@ -1,6 +1,17 @@
 // MÖ KÜNYE GEÇİŞLERİ — s: dönem sınırlarını destekleyen künye-geçişi maddeleri (Değişmez 2). denetim/arkeoloji_yerlesim_1020.py üretir.
 window.OLAYLAR_ARKEOLOJI_GECIS = [
  {
+  "t": "-2203-01-01",
+  "k": "diger",
+  "b": "Lothagam North: sahip dönemi sona erer — Turkana Pastoral Neolitiği ('pillar sites' geleneği)",
+  "gun": "MÖ 2204 (dönem ucu)",
+  "yer": "Lothagam North / Lothagam North Pillar Site (Turkana Gölü, Kenya)",
+  "d": "Lothagam North noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Turkana Pastoral Neolitiği ('pillar sites' geleneği)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
+  "kaynak": "künye turkana-pastoral-neolitik — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yuzyil"
+ },
+ {
   "t": "-3249-01-01",
   "k": "diger",
   "b": "Hemudu: sahip dönemi sona erer — Hemudu Kültürü",
@@ -8,6 +19,17 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "yer": "Hemudu / Hemudu Kültürü",
   "d": "Hemudu noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Hemudu Kültürü) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
   "kaynak": "künye hemudu — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yuzyil"
+ },
+ {
+  "t": "-3819-01-01",
+  "k": "diger",
+  "b": "Anau: sahip dönemi sona erer — Anau IA (Namazga öncesi/Meana evresi, Kopet Dağ)",
+  "gun": "MÖ 3820 (dönem ucu)",
+  "yer": "Anau / Anau IA ve Meana Ufku (Kopet Dağ, İlk Kalkolitik)",
+  "d": "Anau noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Anau IA (Namazga öncesi/Meana evresi, Kopet Dağ)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
+  "kaynak": "künye anau-ia-kultur — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
   "kaynak_turu": "yazili",
   "kesinlik": "yuzyil"
  },
@@ -74,6 +96,17 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "yer": "Ain Mallaha (Eynan)",
   "d": "Ain Mallaha (Eynan) noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Natufiyen Kültürü (Levant)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
   "kaynak": "künye natufiyen — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yuzyil"
+ },
+ {
+  "t": "0001-01-01",
+  "k": "diger",
+  "b": "Ban Chiang: sahip dönemi sona erer — Ban Chiang Kültürü (Kuzeydoğu Tayland)",
+  "gun": "MS 1 (dönem ucu)",
+  "yer": "Ban Chiang",
+  "d": "Ban Chiang noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Ban Chiang Kültürü (Kuzeydoğu Tayland)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
+  "kaynak": "künye ban-chiang-kultur — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
   "kaynak_turu": "yazili",
   "kesinlik": "yuzyil"
  },

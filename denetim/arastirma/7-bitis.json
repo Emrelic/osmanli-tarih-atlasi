@@ -1,0 +1,103 @@
+{
+ "sonuclar": [
+  {
+   "id": "monte-verde-ii",
+   "bit": {
+    "aralik_turu": "kalibre-14C",
+    "bas_mo": 12650,
+    "son_mo": 12550,
+    "orta_mo": 12600,
+    "kesinlik": "onyil",
+    "kaynak": "Pino M. & Dillehay T.D. 2023, Monte Verde II: an assessment of new radiocarbon dates and their sedimentological context, Antiquity 97(393), doi:10.15184/aqy.2023.32 (okundu, tam metin)",
+    "url": "https://doi.org/10.15184/aqy.2023.32",
+    "alinti": "basal deposits of stratum MV-5, which immediately overlies the cultural use-surface, average c. 14 500-14 600 cal BP (at 95.4% probability)",
+    "kronoloji_okulu": "kalibre 14C (IntCal), Pino-Dillehay; MV-II 'kisa yerlesim' kabulu",
+    "ic_not": "Terk tarihi dogrudan verilmiyor; kamp yuzeyini muhurleyen turba (MV-5) tabani 14 500-14 600 cal BP, kaynak 'yerlesim turbadan hemen once' der. -> MO 12650-12550 (BP-1950, benim cevirim); orta 14 550 -> MO 12600. Kamp kisa sureli. Kur araligi (14 900-14 200 cal BP) bu dar degerle ic ice; atlas t icin 12600 kullanabilir. Bazi arastirmacilar sitenin daha genc oldugunu savunur (Taylor, Fiedel 2022)."
+   }
+  },
+  {
+   "id": "anau-ia-meana",
+   "bit": {
+    "aralik_turu": "tabaka-donem",
+    "bas_mo": 3820,
+    "son_mo": 3820,
+    "kesinlik": "yuzyil",
+    "kaynak": "Heit I. 2019, Chap. 3, in Pollock S., Bernbeck R., Ogut B. (eds), Looking Closely vol.1, Sidestone Press (okundu, PDF metni)",
+    "url": "https://www.sidestone.com/openaccess/9789088907654.pdf",
+    "alinti": "Anau Ia is dated 4300-3820 cal BCE, as represented by the lowermost layers at Anau North.",
+    "kronoloji_okulu": "OxCal Bayes modeli (kalibre cal BCE), Heit",
+    "ic_not": "Bitis = Anau Ia evresinin sonu (3820 cal BCE; araligin yeni ucu = kur kaydiyla ayni kaynak/model). Yerlesim terk edilmedi, Anau Ib'ye gecti; 'kulturun sonu' degil evre sonu. Ayni kitapta eski tahminler 4000/3800/3800 (Hiebert); en yeni model secildi. Meana Ufku'nun ayri bitisi (4340 cal BCE) monjukli.net'ten, okunmadi; bu kayit icin Anau Ia sonu kullanilir."
+   }
+  },
+  {
+   "id": "yuchanyan-magarasi",
+   "bit": {
+    "aralik_turu": "kalibre-14C",
+    "bas_mo": 11850,
+    "son_mo": 11850,
+    "kesinlik": "yuzyil",
+    "kaynak": "Boaretto E. vd. 2009, PNAS 106(24):9595-9600, doi:10.1073/pnas.0900539106 (okundu, PMC tam metin)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2689310/",
+    "alinti": "the upper part of each section contains sediments from around 14,600-13,800 cal BP",
+    "kronoloji_okulu": "kalibre 14C (IntCal04/OxCal), PNAS",
+    "ic_not": "Kaynak mağaranın 'terk'ini bildirmez; en genc tarihli birikinti ~13 800 cal BP -> MO 11850 (BP-1950, benim cevirim). Ozette 'dates range from around 21,000 to 13,800 cal BP'. Bu, kullanimin sona erdigi kesin tarih degil, tarihlenen tabakalarin en genc ucu (terminus: en az o tarihe kadar). Kesinlik zayif; yuzyil."
+   }
+  },
+  {
+   "id": "ban-chiang",
+   "bit": {
+    "aralik_turu": "kalibre-14C",
+    "bas_mo": -200,
+    "son_mo": -1,
+    "kesinlik": "yuzyil",
+    "kaynak": "Higham C.F.W., Douka K., Higham T.F.G. 2015, A new chronological framework for prehistoric Southeast Asia, based on a Bayesian model from Ban Non Wat, PLoS ONE 10(9):e0137542 (PMC4575132) (okundu; Ban Chiang bolumu)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4575132/",
+    "alinti": "Two burials from the late Iron Age are dated to the first two centuries AD.",
+    "kronoloji_okulu": "kisa kronoloji (Higham, Bayes kalibre 14C); uzun kronoloji (White) yalniz baslangici etkiler",
+    "ic_not": "MO pozitif kuralina gore MS yillar negatif yazildi: bit araligi MS 1-200 (bas_mo -200 = MS 200 ... son_mo -1 = MS 1; yani en gec tarihli gomu 'ilk iki yuzyil MS'). Rule: yerlesim-suresi => t = en eski uc = MS ~1 (kaynak: gec Demir Cagi gomuleri). Kaynak yerlesimin terkini degil, en gec tarihli gomuleri tarihler; Ban Chiang'in terk yili kaynakta YOK. (JIPA 2019 ayrintisi okunmadi.)"
+   }
+  },
+  {
+   "id": "bhirrana",
+   "bit": {
+    "aralik_turu": "donem-toplami",
+    "bas_mo": 850,
+    "son_mo": 850,
+    "kesinlik": "yuzyil",
+    "kaynak": "Sarkar A. vd. 2016, Oxygen isotope in archaeological bioapatites from India: Implications to climate change and decline of Bronze Age Harappan civilization, Sci Rep 6:26555, doi:10.1038/srep26555 (okundu, PMC tam metin)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4879637/",
+    "alinti": "Early mature Harappan (~6.5-5 ka BP) and mature Harappan (~5-2.8 ka BP)",
+    "kronoloji_okulu": "yuksek/uzun kronoloji (Sarkar-Rao; Hakra 9.5-8 ka BP); ana akim Harappa kronolojisinden (Olgun ~2600-1900 MO) cok farkli",
+    "ic_not": "Kaynak en son kulturel seviyeyi 'mature Harappan ~5-2.8 ka BP' diye adlandirir: 2.8 ka BP = MO ~850 (BP-1950, benim cevirim; 'ka' yuvarlak). Bu, evre etiketi (tahmini, 14C degil) ve ana akim kronolojiyle celisir (Olgun Harappan ~1900 MO'da biter, Gec Harappan sonrasi). Orijinal Rao vd. raporu okunmadi. Tartismali; atlasta beyanla kullanilmali. Kaynak ayrica Gec Harappan'da 'abandonment of many settlements' soyler ama Bhirrana'ya ozgu terk tarihi vermez."
+   }
+  },
+  {
+   "id": "lothagam-north-turkana",
+   "bit": {
+    "aralik_turu": "kalibre-14C",
+    "bas_mo": 2204,
+    "son_mo": 2204,
+    "kesinlik": "yuzyil",
+    "kaynak": "Hildebrand E.A. vd. 2018, A monumental cemetery built by eastern Africa's first herders near Lake Turkana, Kenya, PNAS 115(36):8942-8947, doi:10.1073/pnas.1721975115 (okundu, PMC tam metin)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6130363/",
+    "alinti": "The minimum period of platform use is 4,871-4,154 cal. BP (466 y), and the maximum period is from 5,033 to 4,154 cal. BP",
+    "kronoloji_okulu": "OxCal 4.3.2 / IntCal13 modeli (kalibre 14C)",
+    "ic_not": "Platform kullaniminin sonu 4,154 cal BP -> MO 2204 (BP-1950, benim cevirim); hem min hem max modelde ayni uc (en erken kullanim ucu 4871/5033 ise kur). Mevcut kayitla ayni; metinden dogrulandi (alinti ortak cumleden)."
+   }
+  },
+  {
+   "id": "kotosh-dini-gelenegi",
+   "bit": {
+    "aralik_turu": "donem-toplami",
+    "bas_mo": 550,
+    "son_mo": 550,
+    "kesinlik": "yuzyil",
+    "kaynak": "Mesia-Montenegro C. & Sanchez-Borjas A. 2023, Embedded religiousness and the Kotosh Religious Tradition in highland Peru: the site of La Seductora, Antiquity (ozet sayfasi okundu)",
+    "url": "https://www.cambridge.org/core/journals/antiquity/article/embedded-religiousness-and-the-kotosh-religious-tradition-in-highland-peru-the-site-of-la-seductora/A51FFFE6B42064C38B0862CDB4D2E3CE",
+    "alinti": "dominated the central Andes during the Late Archaic and Formative periods (2800-550 BC)",
+    "kronoloji_okulu": "And Arkaik/Formatif donem kronolojisi (MO takvim yili, kalibre)",
+    "ic_not": "Ozetten (tam metin okunmadi): gelenegin hakimiyet donemi 2800-550 MO; 550 MO bitis. Donem-toplami kuralina gore t=550. Mevcut kayitla ayni; sayfa metniyle dogrulandi. Kotosh sitesinin kendi terk tarihi degil, 'gelenegin' hakim oldugu donemin sonu."
+   }
+  }
+ ]
+}
