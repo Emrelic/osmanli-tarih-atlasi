@@ -15,3 +15,12 @@ değişirse yalnız ilgili kayıtların `t`/`aralik` alanı yeniden üretilir (�
 | 7 | Yerleşim noktaları motora girsin mi? | **Hayır** — `sehir_tarihce_arkeoloji*.js` (motor/site okumaz). Yerleşim dosyası `GIRDI_DOSYALARI`'na girerse motor tuzu değişir/koşu etkilenir | CLAUDE.md «Motor dondurma»; MÖ-MOTOR işi | MÖ-MOTOR hazır olunca bu dosyalardan `yerlesimler_mo_*.js` üretilir |
 | 8 | Kaynak çelişkisinde seçim | **Tek kaynak, gerekçeli**; ortası alınmaz (şartname §3.2) | Hiçbir ölçüm olmayan ortalama | — |
 | 9 | Kronoloji okulu (yazılı dönem) | **Orta kronoloji** (Mezopotamya), Shaw 2000 / Dee 2013 farkı kayıtta açıkça yazılı | Alandaki en yaygın okul | Kayıtlarda yıl kayması; `ic_not_d` karşılığı verir |
+
+## Emre devretti, bilimsel gerekçe (21 Ekim 2026, VERI-MO-ARKEO gözden geçirmesi)
+
+Dokuz varsayılan gözden geçirildi; 1–6 ve 8 olduğu gibi kalır. Değişen ya da netleşen:
+
+- **#7 güncellendi:** yerleşim noktaları artık motora girer — `yerlesimler_mo_*.js` dosyaları `GIRDI_DOSYALARI`'nda ve BOYALAR hazır (MO-MOTOR). Yalnız BOYALAR'ı olmayan künyeli noktalar `yerlesimler_mo_boya_bekleyen.js`te park edilir. `sehir_tarihce_arkeoloji*.js` hâlâ motora girmez.
+- **#9 netleşti (kronoloji okulu, alan bazlı):** Mezopotamya'da orta kronoloji esas; çelişkili okul değerleri `ic_not`ta iki kaynağıyla beyan edilir, ortalanmaz. **Mısır Erken Hanedan'da Dee vd. 2013 (radyokarbon + Bayes) esas:** Aha tahta çıkışı MÖ 3126 (astronomik -3125) → `misir-erken-hanedan` f = `-3125-01-01`, Naqada t ile uç uca (çakışma yok, sıfır uzunluk yok). Gerekçe: ölçüme dayanan, %95 aralığı yayımlanmış tek model; Shaw 2000 (~3100) ve AIC/EES (~3000) kronolojik gelenektir, aralığın içinde kalır ve künye metninde beyanlıdır.
+- **İki kaynaklı uç / okullar arası çelişki kuralı (yeni, genel):** kaynaklar farklı uç verirse **iki değer `ic_not`ta iki kaynağıyla yazılır, seçim yapılacaksa gerekçesi yazılır, aradaki boşluk zorla kapatılmaz** (Hicrî yıl kuralının ilkesi). Çelişkili (`celiskili:true`) şehir dönemleri zincir üreticisine ALINMAZ.
+- **Künye ucu önerileri (Eski Krallık t, Hitit t, Kush 25. Hanedan t, Ahameniş Mısır t) mevcut değerle kalır:** ajan raporu fark gösteriyor (Eski Krallık 2181 ↔ Erdil 2025 aralığı 2283–2158; Hitit 1180 ↔ Manning 2023 ~1198–1196; Kush 653 ↔ 672/664/656; Ahameniş Mısır 404 ↔ 402/408) ama farkın bir kısmı aralık içinde; değişiklik için ikinci bağımsız teyit gerekir. Bu uçlar `denetim/arastirma/4-misir-hitit-levant.json` `kunye_karsilastirma`'dadır.
