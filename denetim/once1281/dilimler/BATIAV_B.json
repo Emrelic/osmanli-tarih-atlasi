@@ -4,26 +4,34 @@
   "ad": "Tartessos",
   "tur": "krallik",
   "bolge": "iberya",
-  "f": "-0799-01-01",
+  "f": null,
   "t": "-0499-01-01",
   "kesinlik": {
-   "f": "yuzyil",
+   "f": "belirsiz",
    "t": "yuzyil"
   },
-  "baskent": "Tartessos (yeri tartisili)",
-  "etkin_bolge": "",
-  "sehirler": [],
-  "ozet": "Guadalquivir vadisinde Fenike/Yunan kaynaklarinda adi gecen maden zengini krallik (Arganthonios).",
+  "baskent": "Tartessos (yeri tartışmalı; Guadalquivir ağzı)",
+  "etkin_bolge": "Sierra Morena'nın güneyi: Guadalquivir ve Odiel-Tinto havzası (Strabon 3.2.11'e göre doğu sınırı Mastia Tartessiorum)",
+  "sehirler": [
+   "Tartessos",
+   "Huelva",
+   "Mastia Tartessiorum"
+  ],
+  "ozet": "Güneybatı İberya'da Guadalquivir ağzında metal (gümüş, kalay) ve sığır ekonomisine dayalı krallık; Herodotos'a göre kralı Arganthonios 80 yıl hüküm sürdü, Fokaialılarla dost oldu; kültür MÖ 5. yy başında yok oldu.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Baslangic ve son yuzyil duzeyinde; siyasi yapisi tartisili. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "PECS: Stillwell, MacDonald, McAlister (eds.), The Princeton Encyclopedia of Classical Sites, Princeton UP 1976, s.v. Tartessos, SW Spain (J. M. Blázquez), http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=tartessos",
+   "Herodotos, Historiai 1.163 ve 4.152 (A. D. Godley çev., Harvard UP 1920), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book=1:chapter=163",
+   "Pleiades 256468 (Tartessos), https://pleiades.stoa.org/places/256468"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri: f=-0799-01-01, t=-0499-01-01 (hafızadan). Okunan kaynaklar: PECS (Blázquez) \"Tartessian culture disappeared in the beginning of the 5th c. B.C.\" -> t=-0499 (yüzyıl hassasiyeti) desteklendi. Başlangıç için okunan hiçbir kaynak yıl vermedi (PECS: Tartessos bölgesinde Fenike etkisi MÖ 1100'den, yazı ~MÖ 700; Herodotos 1.163: Fokaialılar Pers fethinden önce Kral Arganthonios ile dost oldu) -> f yıl bilinmiyor, null. Siyasî yapı (tek krallık mı, kültür bölgesi mi) tartışmalı; Pleiades \"semi-mythical\" kültür/liman kenti diye sınıflar.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "mevcut_once1281.tsv'de Tartessos/Tartesos yok (tarandı)."
   }
  },
  {
@@ -31,26 +39,37 @@
   "ad": "Gadir (Gades, Fenike sehir devleti)",
   "tur": "sehir-devleti",
   "bolge": "iberya",
-  "f": "-0799-01-01",
+  "f": "-1099-01-01",
   "t": "-0205-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yil"
   },
-  "baskent": "Gadir (Kadiz)",
-  "etkin_bolge": "",
-  "sehirler": [],
-  "ozet": "Fenike kolonisi; gelenek MO 1104, arkeoloji MO 8. yy. MO 206/5te Roma'ya gecti.",
+  "baskent": "Gadir (Gadeira/Gades, bugünkü Cádiz)",
+  "etkin_bolge": "Cádiz adası ve körfezi, Guadalquivir ağzı çevresi",
+  "sehirler": [
+   "Gadir",
+   "Gadeira",
+   "Gades"
+  ],
+  "ozet": "Tyros'lu Fenikelilerin Cebelitarık Boğazı ötesindeki ilk büyük kolonisi; Kartaca'ya MÖ 3. yy'da bağlandı; Scipio MÖ 206'da Gades'i alınca Roma'ya geçti (Roma ile foedus/ittifak, MÖ 49'da Caesar vatandaşlık verdi).",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Gelenek MO 1104; arkeoloji MO 8. yy (f buna gore). Kartaca'ya bagliligi donemden doneme degisir. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Encyclopaedia Britannica 11. basım (1911), \"Spain\" (Earliest Historic Period), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Spain",
+   "Encyclopaedia Britannica 11. basım (1911), \"Scipio\" (Publius Cornelius Scipio Africanus; MÖ 206 Ilipa ve Gades'in alınması), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Scipio",
+   "W. Smith, Dictionary of Greek and Roman Geography, 1854, \"Gades\", Perseus: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064:alphabetic+letter=G:entry+group=1:entry=gades-geo",
+   "Stillwell, MacDonald, McAlister (eds.), The Princeton Encyclopedia of Classical Sites, Princeton UP 1976, s.v. Tartessos (Cádiz'in Fenikeli tüccarlarca MÖ 1100'de kurulduğu geleneği)",
+   "Strabon, Geographika 3.5.5 (Gades'in kuruluş hikâyesi), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0239:book=3:chapter=5:section=5",
+   "Pleiades 256177 (Gadeira/Gades), https://pleiades.stoa.org/places/256177"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri: f=-0799-01-01 (MÖ 8. yy arkeolojisi, hafızadan), t=-0205-01-01. Kaynaklar: EB1911 Spain \"Fenikeliler İberya'ya belki MÖ 11. yy'da ulaştı; Gades en eski yerleşim\"; PECS Tartessos: Cádiz MÖ 1100'de kuruldu (gelenek). Bu yüzden f gelenek tarihine (-1099, yüzyıl hassasiyeti) çekildi; arkeolojik MÖ 8. yy değeri okunan kaynakta YOK, kurucu gelenek ile arkeoloji arasındaki fark çözülmedi. t: EB1911 Scipio \"MÖ 206'da Gades'in alınmasıyla İspanya'nın Roma işgali sağlandı\" (-0205 doğrulandı). Smith 1854: Roma ile ittifak MÖ 212 (gelenek) / MÖ 78 teyit; MÖ 49'da Caesar tüm vatandaşlara Roma vatandaşlığı verdi; EB1911 Spain: Gades Caesar'ın lütfuyla municipium. Kartaca'ya bağlılık: Smith, Hamilcar fethinden (MÖ 237) sonra boyun eğdi; tarihler dönemden döneme değişir. Tartessos'a ilişkin Herodotos 4.8 Gadira adını anar.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "Tabloda yalnız kartaca (Kartaca Devleti, kuzey-afrika) var; Gadir ayrı şehir devleti."
   }
  },
  {
@@ -58,26 +77,33 @@
   "ad": "Emporion (Empuries, Yunan sehir devleti)",
   "tur": "sehir-devleti",
   "bolge": "iberya",
-  "f": "-0574-01-01",
+  "f": "-0599-01-01",
   "t": "-0217-01-01",
   "kesinlik": {
    "f": "onyil",
-   "t": "onyil"
+   "t": "yil"
   },
-  "baskent": "Emporion",
-  "etkin_bolge": "",
-  "sehirler": [],
-  "ozet": "Massalia kolonisi; MO 218den sonra Roma ittifaki/hegemonyasi altinda.",
+  "baskent": "Emporion (Palaiapolis adası ve ana kara; Ampurias/Empúries)",
+  "etkin_bolge": "Katalonya kıyısı, Ampurdán; Fluvià ağzı",
+  "sehirler": [
+   "Emporion",
+   "Palaiapolis",
+   "Indika"
+  ],
+  "ozet": "Massalia'nın (Fokaia) MÖ 600 sonrası kurduğu Yunan ticaret kolonisi; MÖ 3. yy'da Roma müttefiki, MÖ 218'de Cn. Scipio'nun ilk Roma ordusuyla karaya çıktığı yer; MÖ 2. yy'da Romalılaştı, Caesar zamanında kolonisi kuruldu.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "t Roma ittifaki baslangici; tam bagimsizlik sonu belirsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Stillwell, MacDonald, McAlister (eds.), The Princeton Encyclopedia of Classical Sites, Princeton UP 1976, s.v. Emporion or Emporiae (La Escala or Ampurias), Perseus: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=emporion",
+   "Pleiades 246382 (Emporiae), https://pleiades.stoa.org/places/246382"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri: f=-0574-01-01, t=-0217-01-01 (hafızadan). PECS: \"kasaba MÖ 600 (Massalia'nın kuruluş tarihi) civarından biraz sonra kuruldu\"; MÖ 3. yy'da İtalya'daki Yunan kentleriyle bağları nedeniyle Roma müttefiki; MÖ 218'de Cn. Scipio ilk Roma ordusunu Hispania'ya Emporion'a çıkardı; para sistemi Massalia'dan ayrıydı \"Roma'ya katılana kadar (MÖ 2. yy)\"; MÖ 195'te Cato kasaba yakınında kamp kurdu, Tarraco'ya idari merkez geçince Emporion önemini yitirdi; sonra municipium, Caesar zamanında veteran kolonisi. f: kaynak \"600'den biraz sonra\" dediği için -0599 (onyıl); taslak -0574 kaynakta yok. t=MÖ 218 Roma ittifakı/Roma ordusu başlangıcı (taslak değeri korundu, PECS bağımsızlığın bitişi için kesin yıl vermiyor: Romalılaşma 2. yy, MÖ 195 Cato).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "massalia (devlet, Massalia) mevcut; Emporion Massalia'nın kolonisi ama ayrı şehir devleti."
   }
  }
 ]

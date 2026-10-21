@@ -1,0 +1,38 @@
+[
+ {
+  "id": "golasecca-kulturu",
+  "ad": "Golasecca Kültürü",
+  "tur": "kultur",
+  "bolge": "italya",
+  "f": "-1198-01-01",
+  "t": "-0398-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "yuzyil"
+  },
+  "baskent": "yok",
+  "etkin_bolge": "Maggiore-Como gölleri",
+  "sehirler": [
+   "Sesto Calende",
+   "Como"
+  ],
+  "ozet": "Lombardiya'da Final Tunç/Demir Çağı kültürü; Kelt (Insubres) yerleşmesiyle sonlandı. Siyasî birim değil.",
+  "oncul": [],
+  "ardil": [
+   "insubres-kabile-devleti"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+  ],
+  "dogrulama": "taslak",
+  "ic_not": "Tarihler yaklaşık; devlet saymak için gerekçe zayıf.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  },
+  "elenme_gerekce": "Arkeolojik kültür, siyasî birim değil: Treccani 'Cultura di Golasecca' (https://www.treccani.it/enciclopedia/golasecca/): Protogolasecca 12.-10. yy, üç faz (10.-7., 6., 5.-4. yy), '4. yy başı Kelt istilasıyla topraklar Insubres'e geçti'. Bkz. insubres-kabile-devleti."
+ }
+]

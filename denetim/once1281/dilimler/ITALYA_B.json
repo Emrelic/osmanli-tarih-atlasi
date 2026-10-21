@@ -96,11 +96,11 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Etruschi' (https://www.treccani.it/enciclopedia/etruschi/): «all'inizio del 9° sec. a.C. fiorì la civiltà del Ferro in molti centri dell'Etruria storica»; ordinamento «a base monarchica in origine, aristocratica dal 5° sec.»; 8. yy'dan genişleme; 6. yy sonunda Latinlerin Aricia yenilgisiyle Tiber güneyi hâkimiyeti sona erdi; Cumae 474.",
+   "Treccani, Enciclopedia on line, 'Cerveteri': Caere 'Etrüsk konfederasyonunun 12 şehrinden biri'."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas künyesi f=-0574 görünüyor; 'Dodekapolis' birliği tarihi belirsiz, şehirleşme MÖ ~700. Bireysel şehirler aşağıda ayrı kayıtlı.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Atlas künyesi f=-0574 görünüyor; 'Dodekapolis' birliği tarihi belirsiz, şehirleşme MÖ ~700. Bireysel şehirler aşağıda ayrı kayıtlı. [Tur2] Konfederasyonun kuruluş tarihi kaynakta yok: atlas f=-0574 ve taslak f=-0699 desteklenmiyor (Treccani: MÖ 9. yy başı Demir Çağı merkezleri). t=-0087 (88 MÖ) Sosyal Savaş/Lex Iulia dönemi okunmadı; Tarquinia 281, Vulci 280, Caere 4. yy Roma'ya tabi (ayrı kayıtlar).",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "etrusk-sehir-devletleri",
@@ -113,10 +113,10 @@
   "tur": "sehir-devleti",
   "bolge": "italya",
   "f": "-0699-01-01",
-  "t": "-0307-01-01",
+  "t": "-0280-01-01",
   "kesinlik": {
    "f": "yuzyil",
-   "t": "onyil"
+   "t": "yil"
   },
   "baskent": "Tarquinia",
   "etkin_bolge": "Orta Tirren kıyısı",
@@ -133,11 +133,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Tarquinia' (https://www.treccani.it/enciclopedia/tarquinia/): «Dalla metà dell'8° sec. a.C. si registra una decisa crescita demografica e culturale»; «Dopo l'inizio del 5° sec. la sua potenza cominciò a declinare»; Roma ile 358-51 savaşları, «dopo una definitiva sconfitta nel 281 a.C., entrò nell'orbita di Roma, come stato federato»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bitiş kesinleşmedi: MÖ 351 ateşkes, MÖ 311-308 savaş, MÖ 308 barış. MÖ ~281'e kadar kısmi özerklik de savunulur.",
+  "dogrulama": "okundu",
+  "ic_not": "Bitiş kesinleşmedi: MÖ 351 ateşkes, MÖ 311-308 savaş, MÖ 308 barış. MÖ ~281'e kadar kısmi özerklik de savunulur. [Tur2: taslak t degeri: -0307-01-01] [Tur2] Taslak t=-0307 (308 MÖ) yerine Treccani 281 MÖ (=-0280). 351 MÖ'deki 40 yıllık ateşkes bu turda okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -170,11 +169,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Cerveteri' (https://www.treccani.it/enciclopedia/cerveteri/): «L'antica Caere fu una delle 12 città della confederazione etrusca»; «Si sottomise a Roma nel 4° sec. a.C. e ottenne la cittadinanza senza suffragio e poi pieni diritti»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "MÖ 353 yarı-vatandaşlık ve MÖ 273 topraklarının alınması; bitiş tarihi tartışmalı.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "MÖ 353 yarı-vatandaşlık ve MÖ 273 topraklarının alınması; bitiş tarihi tartışmalı. [Tur2] t: Treccani yalnız '4. yy' der; atlas t=-0272 (273 MÖ) desteklenmiyor (yüzyıl düzeyi: -0399..-0300 arası). f=-0699 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -206,11 +204,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Veio' (https://www.treccani.it/enciclopedia/veio/): «Dell'abitato etrusco, fiorente soprattutto fra l'8° e il 6° sec. a.C.», sur 6. yy."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Geleneksel düşüş MÖ 396 (Livius); astronomik -0395.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Geleneksel düşüş MÖ 396 (Livius); astronomik -0395. [Tur2] Treccani Veii'nin düşüşünü (396 MÖ geleneksel, Livius 5) bu sayfada vermiyor; t=-0395 geleneksel tarih okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -242,11 +239,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Vulci' (https://www.treccani.it/enciclopedia/vulci/): «fiorente in età villanoviana e, soprattutto, tra il 7° e 5° sec. a.C.»; «Vinta dai Romani nel 280 a.C., fu privata di parte del territorio, in cui nel 273 fu fondata Cosa»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Zafer kutlaması MÖ 280/279; tarih yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Zafer kutlaması MÖ 280/279; tarih yaklaşık. [Tur2] t=280 MÖ (-0279) okundu, atlas taslak uyumlu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -314,11 +310,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Chiusi' (https://www.treccani.it/enciclopedia/chiusi/): nekropol, 7. yy oda mezarları; Final Bronz Çağı'ndan iskan; cratere François (6. yy ortası)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bitiş çok belirsiz (MÖ 295 Sentinum çevresi).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Bitiş çok belirsiz (MÖ 295 Sentinum çevresi). [Tur2] Polity olarak bitiş (t=-0294) okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -350,11 +345,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Volterra' (https://www.treccani.it/enciclopedia/volterra/): Etrüsk surlar 6.-5. yy ve 4. yy; Nekropol 4.-2. yy; Komün 13. yy'da piskoposluk yargısının yerine geçti."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "MÖ 3. yy'dan beri Roma müttefiki; bitiş yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "MÖ 3. yy'dan beri Roma müttefiki; bitiş yaklaşık. [Tur2] Roma'ya tabi olma/Sulla kuşatması (t=-0087) bu turda okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -386,11 +380,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Populonia' (https://www.treccani.it/enciclopedia/populonia/): «L'origine di P. è incerta: già in piena fioritura nel 7° sec. a.C.»; «All'inizio del 3° sec. passò sotto l'influenza diretta di Roma divenendo, al tempo della guerra sociale, municipio»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bitiş yaklaşık (Roma müttefikliğine geçiş MÖ 4.-3. yy).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Bitiş yaklaşık (Roma müttefikliğine geçiş MÖ 4.-3. yy). [Tur2] Treccani 'erken 3. yy' ile Roma etkisi: atlas t=-0299 (300 MÖ) ile uyumlu sayılabilir, yıl düzeyi kesin değil.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -460,11 +453,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Cuma' (https://www.treccani.it/enciclopedia/cuma/): «Colonia euboica, fu fondata alla fine dell'8° sec. a.C.»; Dauni, Aurunci ve Etrüsklere karşı zafer; «nella seconda metà del 5° sec. cadde sotto il dominio sannita»; Cumae 474'te Etrüskleri yendi (Treccani 'Etruschi')."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş MÖ ~750-725 (Pithekoussai ile birlikte); bitiş MÖ 421/420.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş MÖ ~750-725 (Pithekoussai ile birlikte); bitiş MÖ 421/420. [Tur2] f: geleneksel -0749 (750 MÖ); Treccani 'sekizinci yüzyıl sonu' (daha geç). t: Treccani 5. yy ikinci yarısı; atlas -0419 (420 MÖ) ile uyumlu, kesin yıl okunmadı (Livius 4.44 sayfası açılamadı).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -477,7 +469,7 @@
   "tur": "sehir-devleti",
   "bolge": "italya",
   "f": "-0599-01-01",
-  "t": "-0324-01-01",
+  "t": "-0325-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yil"
@@ -497,11 +489,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Napoli' (https://www.treccani.it/enciclopedia/napoli/): Rodoslu Yunan yerleşimi Megaride adasında, ardından Cumae'lilerin 7.-6. yy yerleşimi (Pizzofalcone); 474 MÖ Hieron'un Etrüsk donanmasını yenmesinden sonra yeni yerleşim (Neapolis); «Implicata nella seconda guerra sannitica ... N. aprì le porte ai Romani che con essa conclusero (326) un foedus aequum»; 90 MÖ'de Roma vatandaşlığı; 82 MÖ Sulla'ya karşı Marius yanlısı."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Palaiopolis/Parthenope ayrımı karışık; Neapolis MÖ ~470.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Palaiopolis/Parthenope ayrımı karışık; Neapolis MÖ ~470. [Tur2: taslak t degeri: -0324-01-01] [Tur2] Taslak t=-0324 (325 MÖ) yerine 326 MÖ foedus aequum (=-0325): kaynak 'özerk müttefik' statüsüne geçişi yazar, tam bağımsızlığın sonu tartışılır (Neapolis foedus ile özerk müttefik kaldı; polis t = bağımsızlığın sonu kuralı ile 326). f=-0599 (600 MÖ) Treccani'de yok: Cumae kolonisi 7.-6. yy. Oyun alanı: 'Neapolis' adı 474 sonrası yeni şehir için; Parthenope eski çekirdek.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -565,11 +556,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Paestum' (https://www.treccani.it/enciclopedia/paestum/): «fondata, secondo Strabone, dagli Achei di Sibari ... al principio del 6° sec. a.C.»; Büyük Iskender'in amcası Alexandros Molossos seferiyle kısa süre Yunanlıların elinde; «fu recuperata dai Lucani nel 331-30 a.C.»; 273 MÖ'de Latin kolonisi.",
+   "Treccani, 'Lucani': Lucani 5.-4. yy'da Posidonia'yı fethetti."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bitiş yaklaşık (Lukan işgali MÖ ~400).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Bitiş yaklaşık (Lukan işgali MÖ ~400). [Tur2] f=-0599 (600 MÖ) 'principio del 6° sec.' ile uyumlu. t: Lucani fethi tarihi kaynaklarda çelişkili (5.-4. yy; Treccani Paestum 331-30'da yeniden Lucani'ye döndü); atlas -0399 doğrulanmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -601,11 +592,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Sibari' (https://www.treccani.it/enciclopedia/sibari/): «Antica colonia fondata nella seconda metà dell'8° sec. a.C. dagli Achei del Peloponneso»; «una famosa battaglia (510 ca. a.C.) sul fiume Traente i Sibariti furono sconfitti dai Crotoniati. La città non fu completamente distrutta»; 444/3 Turi kuruldu."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş geleneksel MÖ 720; yıkım MÖ 510.",
+  "dogrulama": "okundu",
+  "ic_not": "Kuruluş geleneksel MÖ 720; yıkım MÖ 510. [Tur2] f=-0719 (720 MÖ) geleneksel; Treccani 8. yy ikinci yarı. t=-0509 (510 MÖ, 'ca.').",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -618,7 +608,7 @@
   "tur": "sehir-devleti",
   "bolge": "italya",
   "f": "-0708-01-01",
-  "t": "-0275-01-01",
+  "t": "-0276-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -635,11 +625,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Crotone' (https://www.treccani.it/enciclopedia/crotone/): «Fu fondata da coloni achei e corinzi nella seconda metà dell'8° sec. a.C.»; Sagra yenilgisi; 510'da Sibari'yi aldı; «finché nel 277 fu conquistata dai Romani»; 194 MÖ'de Roma kolonisi."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bitiş yaklaşık (Pyrrhos savaşları MÖ 277; Roma kolonisi MÖ 194).",
+  "dogrulama": "okundu",
+  "ic_not": "Bitiş yaklaşık (Pyrrhos savaşları MÖ 277; Roma kolonisi MÖ 194). [Tur2: taslak t degeri: -0275-01-01] [Tur2] Taslak t=-0275 (276 MÖ) yerine Treccani 277 MÖ (=-0276).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -669,11 +658,12 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Taranto' (https://www.treccani.it/enciclopedia/taranto/): «Fu fondata da coloni spartani probabilmente verso la metà dell'8° sec. a.C.»; Pyrrhus savaşı «si concluse (272) con la sottomissione della città greca e il suo ingresso nell'alleanza romana».",
+   "Treccani, Enciclopedia on line, 'Messapi': «La fondazione di Taranto (706-705 a.C., secondo la cronologia di Eusebio)».",
+   "Enciclopedia Italiana (1937), 'Taranto' (https://www.treccani.it/enciclopedia/taranto_(Enciclopedia-Italiana)/): Milone'nin garnizonu 272'de Taranto'yu Romalılara teslim etti."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Geleneksel kuruluş MÖ 706 (Eusebius); düşüş MÖ 272.",
+  "dogrulama": "okundu",
+  "ic_not": "Geleneksel kuruluş MÖ 706 (Eusebius); düşüş MÖ 272. [Tur2] f: Eusebius 706/705 (=-0705) vs Treccani 'metà dell'8° sec.' (daha eski); atlas Eusebius'a dayanır. t=272 MÖ (=-0271) iki kaynakta.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -737,11 +727,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Metaponto' (https://www.treccani.it/enciclopedia/metaponto/): «Secondo la cronologia tradizionale ... fondata nel 773 a.C. dagli Achei. L'indagine archeologica tende, però, ad abbassare di circa un secolo tale data»; Sibari ve Crotone müttefiki; 510'dan sonra Crotone baskısı; Pyrrhus savaşından sonra Roma müttefiki; İkinci Pön Savaşı'nda Hannibal'ın tarafına geçti, 210 sonrası karargâh; sonra foederata, municipium."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bitiş yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Bitiş yaklaşık. [Tur2] f: geleneksel 773 MÖ vs arkeolojik ~700 (atlas -0699 arkeolojik düşük tarihle uyumlu). t=-0211 (212 MÖ) Hannibal'e geçiş: Treccani yıl vermez ('dopo il 210' karargâh).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -754,7 +743,7 @@
   "tur": "sehir-devleti",
   "bolge": "italya",
   "f": "-0719-01-01",
-  "t": "-0269-01-01",
+  "t": "-0281-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yil"
@@ -771,11 +760,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Reggio di Calabria' (https://www.treccani.it/enciclopedia/reggio-di-calabria/): «fondata da Calcidesi di Eubea nella seconda metà dell'8° sec. a.C.»; Dionysios I ile mücadele (404-387 yıkım); Alexandros Molossos (334-331); «dovette accogliere un presidio romano (282) e i Romani l'aiutarono contro Pirro. Da allora R. fu fedele a Roma»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kampan askerleri MÖ 280'den 270'e işgal etti.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kampan askerleri MÖ 280'den 270'e işgal etti. [Tur2: taslak t degeri: -0269-01-01] [Tur2] Taslak t=-0269 (270 MÖ) yerine 282 MÖ Roma garnizonu (=-0281): bağımsızlığın sonu. (Campanian paralı askerlerin 280'de şehri ele geçirmesi bu turda okunmadı.)",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -788,7 +776,7 @@
   "tur": "sehir-devleti",
   "bolge": "italya",
   "f": "-0729-01-01",
-  "t": "-0287-01-01",
+  "t": "-0288-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -806,11 +794,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Messina' (https://www.treccani.it/enciclopedia/messina/): «fondata nell'8° sec. a.C. dai Calcidesi»; Zancle ('orak') adı; 4. yy Dione, Ippone, Timoleonte, Agatocle; «alla morte di quest'ultimo (289) cadde in mano dei Mamertini»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Mamertin işgali MÖ ~289-288.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Mamertin işgali MÖ ~289-288. [Tur2: taslak t degeri: -0287-01-01] [Tur2] Taslak t=-0287 (288 MÖ) yerine Treccani 289 MÖ (=-0288). Zankle->Messana ad değişimi (Anaxilas ~490) ayrı olay.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -840,11 +827,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Thucydides 6.3.1 (Perseus Digital Library, Perseus:text:1999.01.0200:book=6:chapter=3): «Of the Hellenes, the first to arrive were Chalcidians from Euboea with Thucles ... They founded Naxos»; Syracuse ertesi yıl kuruldu."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": " [Tur2] f=-0733 (734 MÖ) Thukydides'e göre Syracuse'tan 1 yıl önce (Syracuse'un kuruluşu 734-33, Treccani). t=-0402 (403 MÖ Dionysios'un yıkımı) bu turda okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -876,11 +862,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Lentini' (https://www.treccani.it/enciclopedia/lentini/): «Fu fondata dai Calcidesi di Nasso nel 729 a.C., in una località già abitata da Siculi».",
+   "Thucydides 6.3.3 (Perseus): Naxos'tan çıkan Thucles ve Khalkisliler Syracuse'un kuruluşundan beş yıl sonra Leontini'yi kurdu (Sikelleri sürerek); 5.4: Leontini demosu ve yeni yurttaşlar, kentin yıkılıp halkın Syracuse'a göç etmesiyle sonuçlanan çekişme."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bitiş MÖ 423/422.",
+  "dogrulama": "okundu",
+  "ic_not": "Bitiş MÖ 423/422. [Tur2] f: Treccani 729 MÖ (=-0728), atlas ile eşit. t=-0422 (423 MÖ) Thukydides 5.4 olay sırası (Atina'nın 424'te Sicilya'dan ayrılmasından sonra) ile uyumlu, yıl yazılı değil.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -912,11 +898,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Catania' (https://www.treccani.it/enciclopedia/catania/): «Probabilmente di origine sicula, nella seconda metà dell'8° sec. a.C. fu colonizzata dai Calcidesi di Nasso»; Thucydides 6.3.3: Catana Leontini'den sonra, Evarchus'u kurucu seçen Catanalılarla."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": " [Tur2] t=-0402 (403 MÖ) Dionysios yıkımı okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -947,11 +932,12 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Thucydides 6.4.1-2 (Perseus:text:1999.01.0200:book=6:chapter=4): Lamis'in Megara'lıları Hyblaean Megara'yı kurdu; «Here they lived two hundred and forty-five years; after which they were expelled ... by the Syracusan tyrant Gelo»; yüz yıl sonra Selinus'u kurdular.",
+   "Herodotos 7.156 (Perseus:text:1999.01.0126:book=7:chapter=156): Gelon kuşatmadan sonra Megaralıları teslim aldı, zenginleri Syracuse'a yerleştirdi, halkı köle olarak sattı.",
+   "Treccani, Enciclopedia on line, 'Megara iblea': 214 MÖ'de yok edildi (ikinci/son yıkım)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "okundu",
+  "ic_not": " [Tur2] f=-0727 (728 MÖ) ve t=-0482 (483 MÖ) Thukydides'in '245 yıl' hesabıyla birebir uyumlu (728-245=483). Şehir Timoleon sonrası yeniden iskân edildi, 214 MÖ Marcellus yıkımı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -982,11 +968,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Gela' (https://www.treccani.it/enciclopedia/gela/): «Secondo la tradizione, G. fu fondata da coloni di Rodi e di Creta nel 688 a.C.»",
+   "Thucydides 6.4.3: Gela, Syracuse'un kuruluşundan sonraki 45. yılda Antiphemus (Rodos) ve Entimus (Girit) tarafından kuruldu."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bitiş yaklaşık (MÖ 282).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Bitiş yaklaşık (MÖ 282). [Tur2] f=-0687 (688 MÖ). t=-0281 (282 MÖ Phintias tarafından yıkım) bu turda okunmadı. 5. yy başında Dinomenid Gelon Syracuse'a geçti (Treccani 'Siracusa'; Herodotos 7.156).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1018,11 +1004,11 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Thucydides 6.4.4: «Near one hundred and eight years after the foundation of Gela, the Geloans founded Acragas».",
+   "Treccani, Enciclopedia on line, 'Agrigento' (https://www.treccani.it/enciclopedia/agrigento/): «A. fu fondata ufficialmente dagli abitanti di Gela solo nel 583-82 a.C.»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "MÖ 406 yıkımı sonrası zayıf yeniden kuruluşlar; Roma düşüşü MÖ 210/209.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "MÖ 406 yıkımı sonrası zayıf yeniden kuruluşlar; Roma düşüşü MÖ 210/209. [Tur2] f: Thukydides hesabı 688-108=580 MÖ (=-0579, atlas) vs Treccani 583/82. t=-0209 (210 MÖ) Roma fethi bu turda okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1054,11 +1040,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Selinunte' (https://www.treccani.it/enciclopedia/selinunte/): «Antica colonia di Megara Iblea ... Fondata nel 650 o 627 a.C., fu distrutta dai Cartaginesi prima nel 409 e poi nel 250 a.C.»",
+   "Thucydides 6.4.2: Megara'lılar yerleştikten yüz yıl sonra Pamillus'u gönderip Selinus'u kurdular."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "okundu",
+  "ic_not": " [Tur2] f çelişkisi: Diodoros-Treccani 650, Thukydides hesabı 728-100=628 (atlas -0627=628 MÖ), Treccani'nin ikinci seçeneği 627. t=409 MÖ (=-0408) Treccani ile birebir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1090,11 +1076,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Imera' (https://www.treccani.it/enciclopedia/imera/): «Fondata (metà 7° sec. a.C.) da coloni di Zancle e fuoriusciti di Siracusa ... fu vassalla di altri Stati, e in particolare di Agrigento. Nel 409 a.C., fu quasi completamente distrutta dai Cartaginesi»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş geleneksel MÖ 648.",
+  "dogrulama": "okundu",
+  "ic_not": "Kuruluş geleneksel MÖ 648. [Tur2] t=-0408 (409 MÖ) okundu. f=-0647 (648 MÖ) Treccani 'metà 7° sec.' ile uyumlu, kesin yıl okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1106,8 +1091,8 @@
   "ad": "Sirakuza (Syrakousai)",
   "tur": "sehir-devleti",
   "bolge": "italya",
-  "f": "-0732-01-01",
-  "t": "-0210-01-01",
+  "f": "-0733-01-01",
+  "t": "-0211-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -1126,11 +1111,10 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Siracusa' (https://www.treccani.it/enciclopedia/siracusa/): «S. fu fondata nel 734-33 a.C. da coloni greci di Corinto nell'isola di Ortigia»; Gelone 5. yy'da Syracuse'u ele geçirdi, Himera (480), Cumae (474); Dionysios I 406-367; Timoleon 344; Agathokles 317-289; Hieron II kral unvanı; «la conquista romana (212): assediata da Marcello»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas künyesi -0733..-0210; düşüş 212/211 (Marcellus). Tiran/kral dönemleri aynı polity.",
+  "dogrulama": "okundu",
+  "ic_not": "Atlas künyesi -0733..-0210; düşüş 212/211 (Marcellus). Tiran/kral dönemleri aynı polity. [Tur2: taslak f degeri: -0732-01-01] [Tur2: taslak t degeri: -0210-01-01] [Tur2] f: Treccani 734-33 (kesin yıl yok); B kaydı -0732 (733 MÖ), mevcut atlas -0733 (734 MÖ): -0733 seçildi. t: Treccani 212 MÖ (=-0211) Marcellus; atlas -0210 yerine -0211. Atlas künyesi sirakuza -0733/-0210.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "sirakuza",
@@ -1143,7 +1127,7 @@
   "tur": "sehir-devleti",
   "bolge": "italya",
   "f": "-0749-01-01",
-  "t": "-0395-01-01",
+  "t": "-0396-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yil"
@@ -1160,11 +1144,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Mozia' (https://www.treccani.it/enciclopedia/mozia/): «Fondata dai Fenici (8° sec. a.C.), fu distrutta nel 397 a.C.»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç MÖ 8. yy (arkeolojik).",
+  "dogrulama": "okundu",
+  "ic_not": "Başlangıç MÖ 8. yy (arkeolojik). [Tur2: taslak t degeri: -0395-01-01] [Tur2] Taslak t=-0395 (396 MÖ) yerine Treccani 397 MÖ (=-0396). f=8. yy (Treccani) vs taslak -0749 (750 MÖ).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1194,11 +1177,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Herodotos 1.166 (Perseus:text:1999.01.0126:book=1:chapter=166): Phokaialılar Kyrnos'ta (Korsika) beş yıl yerleşik yaşadı, komşuları yağmaladı; Tyrrhenoi ve Karthaginoi her biri 60 gemiyle saldırdı; Sardonia denizinde deniz savaşı, Phokaialılar 'Kadmeia zaferi' kazandı (40 gemi kaybı)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Savaş MÖ 540-535.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Savaş MÖ 540-535. [Tur2] Herodotos mutlak tarih vermez; atlas -0564/-0534 (565/535 MÖ) bu turda kaynakla doğrulanmadı. Alalia 'polity' sayılması tartışmalı (sürgün koloni).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1265,11 +1247,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Alba Longa' (https://www.treccani.it/enciclopedia/alba-longa/): «Antichissima città del Lazio sui Colli Albani, fondata, secondo la leggenda, dal figlio di Enea ...»; «La città fu distrutta dai Romani nel 7° sec. a.C. e non più ricostruita»",
+   "Treccani, 'Roma': Latium'da Alba'nın üstünlüğü; «in seguito a lotte, delle quali si hanno solo notizie leggendarie, Alba fu distrutta e Roma divenne la città egemone della Lega latina»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş efsanevi (yıl bilinmiyor); varlığı tartışmalı.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş efsanevi (yıl bilinmiyor); varlığı tartışmalı. [Tur2] Yarı efsanevi; f bilinmiyor (null kalır). t=-0639 (640 MÖ): Treccani yalnız '7. yy'; geleneksel Tullus Hostilius (yaklaşık 673-642). Polity niteliği tartışmalı (efsane/proto-Latin merkez).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1300,11 +1282,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Falisci' (https://www.treccani.it/enciclopedia/falisci/): «Popolo dell'Etruria meridionale ... assoggettato da Roma nel 3° sec. a.C. Esisteva già nella prima età del Ferro (9° sec.)»; Fidene ile 437-36'da Roma'ya karşı; «nel 395 sarebbe stata distrutta da Camillo»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Yıkım MÖ 241 (astronomik -0240).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Yıkım MÖ 241 (astronomik -0240). [Tur2] t=-0240 (241 MÖ) Treccani '3. yy' ile uyumlu, yıl okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1317,7 +1298,7 @@
   "tur": "sehir-devleti",
   "bolge": "italya",
   "f": "-0598-01-01",
-  "t": "-0209-01-01",
+  "t": "-0210-01-01",
   "kesinlik": {
    "f": "yuzyil",
    "t": "yil"
@@ -1336,11 +1317,11 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Capua' (https://www.treccani.it/enciclopedia/capua/): «Fondata probabilmente intorno all'800 a.C., restò a lungo nell'orbita della cultura etrusca; passò sotto dominio sannitico nel 424 e si alleò coi Romani nel 340. Dopo la battaglia di Canne (216), si dette ad Annibale ... Costretta ad arrendersi senza condizioni (211), fu duramente trattata dai Romani e privata dell'autonomia politica».",
+   "Enciclopedia Italiana (1930), 'Capua': civitas sine suffragio."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş Etrüsk MÖ ~600 (efsane: 800); bağımsızlık sonu MÖ 211/210.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş Etrüsk MÖ ~600 (efsane: 800); bağımsızlık sonu MÖ 211/210. [Tur2: taslak t degeri: -0209-01-01] [Tur2] t: Treccani 211 MÖ (=-0210); atlas -0209. f: Treccani 'yaklaşık MÖ 800' (Etrüsk etkisi) ve 424 Samnit hâkimiyeti; atlas -0598 (599 MÖ) desteklenmiyor. Samnit fethi 424 sonrası Campani devleti (özerk) 340'a dek.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1372,11 +1353,11 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Veneti' (https://www.treccani.it/enciclopedia/veneti/): 9.-8. yy Este ve Padova nekropolleri; 6. yy proto-kentleşme (Este, Padova); yazı; 5.-1. yy Padova stel atölyeleri.",
+   "Treccani, 'Latini': «La Gallia transpadana ebbe nell'89 ... il diritto latino ... trasformato ... da Cesare nel 49 a.C.»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç Este kültürü (Demir Çağı) yaklaşık; bitiş MÖ 49 (Lex Roscia) ya da MÖ 89 (Latin hakkı).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç Este kültürü (Demir Çağı) yaklaşık; bitiş MÖ 49 (Lex Roscia) ya da MÖ 89 (Latin hakkı). [Tur2] Veneti tek devlet değil kültürel/etnik birlik (şehirler Este, Padova, Altino, Adria); t=-0048 (49 MÖ) Transpadana vatandaşlığı (Treccani 'Latini'). f=-0899 arkeolojik (9. yy), polity başlangıcı değil.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1408,46 +1389,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Liguri' (https://www.treccani.it/enciclopedia/liguri/): «si scontrarono per la prima volta con Roma nel 238-235 a.C.»; «La conquista romana avvenne mediante reiterate campagne nel corso del 2° sec. a.C.»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç bilinmiyor (yıl bilinmiyor).",
-  "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": ""
-  }
- },
- {
-  "id": "golasecca-kulturu",
-  "ad": "Golasecca Kültürü",
-  "tur": "kultur",
-  "bolge": "italya",
-  "f": "-1198-01-01",
-  "t": "-0398-01-01",
-  "kesinlik": {
-   "f": "yuzyil",
-   "t": "yuzyil"
-  },
-  "baskent": "yok",
-  "etkin_bolge": "Maggiore-Como gölleri",
-  "sehirler": [
-   "Sesto Calende",
-   "Como"
-  ],
-  "ozet": "Lombardiya'da Final Tunç/Demir Çağı kültürü; Kelt (Insubres) yerleşmesiyle sonlandı. Siyasî birim değil.",
-  "oncul": [],
-  "ardil": [
-   "insubres-kabile-devleti"
-  ],
-  "oncelik": "kucuk",
-  "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
-  ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler yaklaşık; devlet saymak için gerekçe zayıf.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç bilinmiyor (yıl bilinmiyor). [Tur2] Tek polity değil, çok sayıda kabile; f belirsiz (null). t=-0177 (178 MÖ) Treccani 2. yy fetih kampanyaları ile uyumlu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1515,11 +1460,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Messapi' (https://www.treccani.it/enciclopedia/messapi/): «7. yy'da Iapyg birliğinin parçalanması Messap kimliğini çıkarır»; Taranto'ya karşı 5. yy başı savaşlar, «battuti intorno al 500, riportarono una vittoria nel 473 o 471»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç yaklaşık. [Tur2] Messap 'birliği' siyasi bir federasyon mu belirsiz (şehir kümeleri); t=-0264 (265 MÖ Roma fethi) bu turda okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1585,11 +1529,10 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Roma' (https://www.treccani.it/enciclopedia/roma/): «La tradizione annalistica romana faceva risalire la fondazione di Roma da parte di Romolo al 754 o 753 a.C.»; «Di Roma nei tempi dell'età regia (date tradizionali: 754 o 753-509) ... non si dispone di informazioni attendibili»; 6. yy'da bir Etrüsk hanedanı tahtı işgal etti; Tarquinio il Superbo'nun kovulması 509."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Atlas -0752..-0508 uyumlu; geleneksel tarih, tarihsel çekirdek belirsiz.",
+  "dogrulama": "okundu",
+  "ic_not": "Atlas -0752..-0508 uyumlu; geleneksel tarih, tarihsel çekirdek belirsiz. [Tur2] Tarihler geleneksel (Varro 753, Treccani 754/753); yedi kral dizisi geç bir kurgu. Atlas künyesi roma-kralligi -0752/-0508 (753/509 MÖ) Treccani ile uyumlu.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "roma-kralligi",
@@ -1621,11 +1564,11 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Roma' (https://www.treccani.it/enciclopedia/roma/): «La tradizione pone la cacciata di Tarquinio il Superbo nel 509»; Augustus ve prinkipat «(27 a.C. - 14 d.C.)».",
+   "Cassius Dio 53.16-17 ve Ovidius Fasti 1.587-590: bkz. roma-imp (Augustus unvanı)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bitiş MÖ 27 Ocak 16 (Senato Augustus'a unvanı verdi) -0026-01-16; alternatif MÖ 31 Actium (-0030) veya MÖ 44 (-0043).",
+  "dogrulama": "okundu",
+  "ic_not": "Bitiş MÖ 27 Ocak 16 (Senato Augustus'a unvanı verdi) -0026-01-16; alternatif MÖ 31 Actium (-0030) veya MÖ 44 (-0043). [Tur2] f=509 MÖ geleneksel; t Prinkipat'ın başlangıcı (27 MÖ) - atlas -0026-01-16 gün çelişkisi roma-imp kaydında (Ovidius 13 Ocak İdus'u vs 16 Ocak).",
   "esleme": {
    "durum": "var",
    "mevcut_id": "roma-cumhuriyeti",

@@ -5,25 +5,32 @@
   "tur": "konfederasyon",
   "bolge": "bati-avrupa",
   "f": null,
-  "t": "-0120-01-01",
+  "t": "-0051-01-01",
   "kesinlik": {
    "f": "belirsiz",
    "t": "yil"
   },
-  "baskent": "Gergovia / Nemetum",
-  "etkin_bolge": "",
-  "sehirler": [],
-  "ozet": "Orta Galya'nin guclu Kelt konfederasyonu; Bituitus MO 121de Roma'ya yenildi (Vercingetorix isyani MO 52).",
+  "baskent": "Gergovia / Nemetum (Nemossus)",
+  "etkin_bolge": "Auvergne ve Loire yukarı havzası; Strabon'a göre egemenlikleri bir dönem Narbonne'a, Pireneler'e ve Ren'e uzandı",
+  "sehirler": [
+   "Gergovia",
+   "Nemossus (Nemetum)"
+  ],
+  "ozet": "Orta Galya'nın en güçlü kabile devletlerinden biri; Aedui ile hegemonya çekişmesi, Kral Luernius/Bituitus dönemi; MÖ 52'de Vercingetorix kral ilan edilip Galya ayaklanmasının başına geçti, Alesia'da yenilince Sezar'a boyun eğdi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f yil bilinmiyor. t = Bituitus yenilgisi (MO 121); Vercingetorix donemi (MO 52) ikinci evre. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Encyclopaedia Britannica, 11. basım (1911), \"Arverni\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Arverni",
+   "Strabon, Geographika 4.2.3 (H. C. Hamilton & W. Falconer çev.), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0239:book=4:chapter=2:section=3",
+   "C. Julius Caesar, Commentarii de bello Gallico (W. A. McDevitte & W. S. Bohn çev.), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=1:chapter=31 (Arverni-Aedui hegemonya çekişmesi), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=7:chapter=4 (Vercingetorix \"kral\" ilan edilir), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=7:chapter=90 (Alesia sonrası Arverni elçileri)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri: t=-0120-01-01 (hafızadan; Bituitus'un MÖ 121 yenilgisi). Okunan kaynaklar: Strabon 4.2.3: Arverni Fabius Maximus (Allobroges ile birlikte, İsère-Rhône) ve Domitius Ahenobarbus karşısında yenildi, \"eski güçleri\" büyüktü; Luerius'un oğlu Bituitus; MÖ 52 savaşı Gergovia ve Alesia'da bitti. Caesar BG 7.4: Vercingetorix'in babası Celtillus tüm Galya üzerinde hâkimiyet kurmak isterken öldürülmüştü; Vercingetorix \"kral\" ilan edildi. BG 7.90: Alesia sonrası Arverni elçileri itaat sözü verdi, Sezar rehine istedi. Bu yüzden t Alesia yılına (MÖ 52 = -0051) çekildi: MÖ 121 yenilgisi krallığı/hegemonyayı kırdı ama kabile devleti MÖ 52'ye kadar özerk (foedus-benzeri bağımsız) kaldı. Yıl rakamları (52) EB1911 Sequani/Belgae maddelerinde de geçer, BG metni yıl vermez. Başlangıç tarihi okunan hiçbir kaynakta yok -> f null.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "mevcut_once1281.tsv'de Gallia/Arverni yok (tarandı)."
   }
  },
  {
@@ -37,20 +44,28 @@
    "f": "belirsiz",
    "t": "yil"
   },
-  "baskent": "Bibracte",
-  "etkin_bolge": "",
-  "sehirler": [],
-  "ozet": "Roma muttefiki Burgonya Kelt konfederasyonu; vergobret yonetimli; MO 52-51 Galya isyanindan sonra Roma'ya baglandi.",
+  "baskent": "Bibracte (Mont Beuvray)",
+  "etkin_bolge": "Saône ile Loire arası: Saône-et-Loire, Côte-d'Or, Nièvre",
+  "sehirler": [
+   "Bibracte",
+   "Cabillonum",
+   "Matisco"
+  ],
+  "ozet": "Roma'nın \"kardeş ve akraba\" saydığı Galya kabile devleti; Sequani/Ariovistus ile savaşta yenildi, MÖ 58'de Sezar bağımsızlığını geri verdi; MÖ 52 ayaklanmasına katıldı, Alesia'dan sonra Roma'ya döndü; Augustus Bibracte'yi kaldırıp Augustodunum'u kurdu.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f yil bilinmiyor; t Galya Savasi sonu (MO 51). Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Encyclopaedia Britannica, 11. basım (1911), \"Aedui\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Aedui",
+   "C. Julius Caesar, Commentarii de bello Gallico (W. A. McDevitte & W. S. Bohn çev.), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=1:chapter=31 (Divitiacus: Galya'da iki parti, Aedui/Arverni), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=7:chapter=90 (Alesia sonrası Aedui topraklarına dönüş)",
+   "Pleiades 177473 (Bibracte), https://pleiades.stoa.org/places/177473"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri: t=-0051-01-01 (kaynakla doğrulandı). EB1911 Aedui: MÖ 58'de Sezar bağımsızlığı geri verdi; kabile ayaklanmaya katıldı, Vercingetorix Alesia'da teslim olunca \"sadakate döndü\"; Augustus Bibracte'yi tahrip edip Augustodunum'u kurdu; MS 21 ayaklanması (Julius Sacrovir, Tacitus Ann. 3.43-46). Statü: Aedui \"foederati\" olarak Roma yönetimi altında özerk kaldı; t = bağımsız ayaklanmanın sonu (BG 7.90). Başlangıç tarihi (Livius'un MÖ 6. yy efsanesi hariç) kaynaklarda yok -> f null. Not: EB1911'in \"A.D. 21\" Sacrovir ayaklanması Roma yönetimi içinde, devleti uzatmaz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "mevcut_once1281.tsv'de yok."
   }
  },
  {
@@ -59,25 +74,30 @@
   "tur": "konfederasyon",
   "bolge": "bati-avrupa",
   "f": null,
-  "t": "-0057-01-01",
+  "t": "-0051-01-01",
   "kesinlik": {
    "f": "belirsiz",
    "t": "yil"
   },
-  "baskent": "Vesontio",
-  "etkin_bolge": "",
-  "sehirler": [],
-  "ozet": "Franche-Comte Kelt halki; Ariovistus ittifaki; Caesar MO 58-57.",
+  "baskent": "Vesontio (Besançon)",
+  "etkin_bolge": "Saône yukarı havzası: Franche-Comté ve Burgonya'nın bir kısmı",
+  "sehirler": [
+   "Vesontio"
+  ],
+  "ozet": "Saône yukarı havzasında Kelt kabile devleti; Aedui'ye karşı Germen Ariovistus'u çağırdı (MÖ 71); MÖ 58'de Sezar Germenleri sürdü; MÖ 52'de Vercingetorix ayaklanmasına katılıp Alesia'da yenildi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f yil bilinmiyor; t yaklasik. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Encyclopaedia Britannica, 11. basım (1911), \"Sequani\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sequani",
+   "C. Julius Caesar, Commentarii de bello Gallico (W. A. McDevitte & W. S. Bohn çev.), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=1:chapter=31 (Sequani ve Arverni Germenleri ücretle çağırdı)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri: t=-0057-01-01 (MÖ 58 Sezar'ın Ariovistus'u sürmesi). EB1911 Sequani: MÖ 58'de Sezar Germenleri geri attı ama Sequani'yi de Aedui'den aldıklarını iade etmeye zorladı; Sequani MÖ 52'de Vercingetorix ayaklanmasına katıldı, Alesia yenilgisini paylaştı; Augustus altında Belgica'ya bağlı Sequania. Bu yüzden t Alesia yılına (-0051) çekildi (BG 1.31 Sequani'nin Ariovistus ile ilişkisini doğrular). f: ilk tarihli olay MÖ 71 (Ariovistus'un çağrılması), kabile devletinin başlangıcı bilinmiyor -> null.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "mevcut_once1281.tsv'de yok."
   }
  },
  {
@@ -91,20 +111,27 @@
    "f": "belirsiz",
    "t": "yil"
   },
-  "baskent": "Bibrax / Noviodunum (Remi)",
-  "etkin_bolge": "",
-  "sehirler": [],
-  "ozet": "Kuzey Galya Belga kabileleri; Caesar MO 57-56da boyun egdirdi.",
+  "baskent": "Bibrax / Noviodunum (Remi); ortak başkent yok (konfederasyon)",
+  "etkin_bolge": "Seine-Marne'den Ren'e kadar kuzey Galya (Belgica); Britanya güneyine yerleşen kollar",
+  "sehirler": [
+   "Bibrax",
+   "Noviodunum",
+   "Samarobriva"
+  ],
+  "ozet": "Sezar'ın Galya'nın üçte biri saydığı Belgae kabileleri MÖ 57'de Roma'ya karşı konfederasyon kurdu (BG 2.1) ve yenildi; MÖ 52'de genel ayaklanmaya katıldılar.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Konfederasyon niteligi sinirda. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Encyclopaedia Britannica, 11. basım (1911), \"Belgae\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Belgae",
+   "C. Julius Caesar, Commentarii de bello Gallico (W. A. McDevitte & W. S. Bohn çev.), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=2:chapter=1 (tüm Belgae Roma'ya karşı ittifak yapıyor), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=2:chapter=35 (\"tüm Galya boyun eğdirildi\")"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri: t=-0056-01-01 (57 BC; kaynakla doğrulandı: BG 2.1 / 2.35, EB1911 \"In 57 B.C. ... the Belgae formed a coalition against Caesar\"). Tek devlet değil, 15 kabilelik konfederasyon (Strabon 4 p.196 aktarımı EB'de); EB1911: MÖ 52'de de ayaklanmaya katıldılar, sonra Gallia Comata'da birleştirildi. Başlangıç bilinmiyor -> f null. Konfederasyonun siyasî birliği sınırlı; Remi gibi üyeleri ayrı özerk. Karar: tek kayıt, t = MÖ 57 yenilgisi.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "mevcut_once1281.tsv'de yok."
   }
  },
  {
@@ -118,20 +145,26 @@
    "f": "belirsiz",
    "t": "yil"
   },
-  "baskent": "Darioritum",
-  "etkin_bolge": "",
-  "sehirler": [],
-  "ozet": "Armorica kiyi deniz ticaret halki; MO 56da Caesar'a yenildi.",
+  "baskent": "Darioritum (Vannes çevresi)",
+  "etkin_bolge": "Armorica (Brittany) güney kıyısı, Morbihan Körfezi; Britanya ile deniz ticareti",
+  "sehirler": [
+   "Darioritum"
+  ],
+  "ozet": "Armorica kıyısının deniz gücü kabile devleti; Caesar'a göre kıyıdaki öteki kabileleri haraca bağlıyordu; MÖ 56'da Sezar'ın donanması karşısında yok edildi, halk teslim oldu.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Siyasi birim sinirda. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Encyclopaedia Britannica, 11. basım (1911), \"Veneti\" (Robert Seymour Conway; Galya Veneti bölümü), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Veneti",
+   "C. Julius Caesar, Commentarii de bello Gallico (W. A. McDevitte & W. S. Bohn çev.), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=3:chapter=8 (Veneti'nin kıyıdaki nüfuzu ve gemileri), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=3:chapter=16 (deniz savaşından sonra teslim)",
+   "Encyclopaedia Britannica, 11. basım (1911), \"Armorica\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Armorica"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri: t=-0055-01-01 (MÖ 56; EB1911 Veneti: \"in 56 [B.C.] decisively defeated in a naval engagement\" doğruladı). BG 3.8: Veneti kıyıdaki neredeyse tüm kabileleri vergiye bağlamıştı; BG 3.16: deniz savaşı Veneti ile bütün kıyı savaşını bitirdi, hayatta kalanlar kendilerini ve mallarını Sezar'a teslim etti (Sezar senatörleri idam, halkı köle yaptı). EB1911 Brittany: Armorica'da MÖ 52 ayaklanması, MÖ 51'de Sezar tarafından kesin boyun eğdirildi. Not: EB \"Veneti\" maddesi İtalya (Este) Venetlerini de içerir; burada yalnız Galya Veneti. Başlangıç bilinmiyor -> f null.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "mevcut_once1281.tsv'de yok."
   }
  },
  {
@@ -145,20 +178,27 @@
    "f": "belirsiz",
    "t": "yil"
   },
-  "baskent": "Vienna",
-  "etkin_bolge": "",
-  "sehirler": [],
-  "ozet": "Rhone-Isere Kelt halki; MO 121de Roma'ya yenildi.",
+  "baskent": "Vienna (Vienne)",
+  "etkin_bolge": "Rhône, Isère ve Alp'ler arası \"ada\": Dauphiné ve Savoie; Vienna, Genava, Cularo",
+  "sehirler": [
+   "Vienna",
+   "Genava",
+   "Cularo"
+  ],
+  "ozet": "Rhône-Isère-Alp çevresinde Kelt kabile devleti; Hannibal ile birlikte Roma'ya karşı çıktı; Salluvii kralını barındırdığı için MÖ 121'de Q. Fabius Maximus tarafından yenildi (Roma eyaleti Narbonensis'e katıldı).",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f yil bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Encyclopaedia Britannica, 11. basım (1911), \"Allobroges\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Allobroges",
+   "Strabon, Geographika 4.2.3 (Fabius Maximus ve Domitius ile yapılan savaşlar), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0239:book=4:chapter=2:section=3"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri: t=-0120-01-01 (MÖ 121; doğrulandı: EB1911 \"attacked and finally defeated (August 8, 121) at the junction of the Rhodanus and Isara by Q. Fabius Maximus\"). Yenilgiden sonra bölge Roma kontrolüne girdi; yine de MÖ 63 Catilina olayında ve MÖ 61'de Catugnatus ayaklanması (Pomptinus tarafından bastırıldı) görüldü (EB1911). Augustus altında Gallia Narbonensis'e katıldı. f: Hannibal ile birlikte ilk anılış (MÖ 218) tarih verir ama devletin başlangıcı değildir -> null.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "mevcut_once1281.tsv'de yok."
   }
  },
  {
@@ -172,20 +212,26 @@
    "f": "belirsiz",
    "t": "yil"
   },
-  "baskent": "Entremont",
-  "etkin_bolge": "",
-  "sehirler": [],
-  "ozet": "Provence Kelt-Ligur konfederasyonu; MO 123-122 Roma fethi.",
+  "baskent": "Entremont (Aquae Sextiae yakını)",
+  "etkin_bolge": "Durance'ın güneyi, Rhône ile Alpler arası düzlük (Provence)",
+  "sehirler": [
+   "Entremont",
+   "Arelate (çevresi)"
+  ],
+  "ozet": "Provence'ta Kelt-Ligur karışık kabile birliği (Salyes/Salluvii); Massalia'nın yardım istemesiyle Roma MÖ 154'te ve 125-122 arasında savaştı; C. Sextius Calvinus başkentlerini yıkıp Aquae Sextiae'yı kurdu; Kral Tutomotulus Allobroges'e sığındı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f yil bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Encyclopaedia Britannica, 11. basım (1911), \"Salyes\" (Salluvii), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Salyes",
+   "Strabon, Geographika 4 (Salluvii/Ligyes), W. Smith'in aktarımıyla EB1911"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri: t=-0121-01-01 (MÖ 122). EB1911 Salyes: MÖ 154'te Oxybii/Deciates (belki Salyes'in iki kabilesi) Q. Opimius tarafından yenildi; MÖ 125-124 M. Fulvius Flaccus, MÖ 123-122 C. Sextius Calvinus \"kesin olarak boyun eğdirdi, başkentlerini yıktı ve harabelerinin yanında Aquae Sextiae kolonisini kurdu\"; \"bu tarihten sonra Salyes tarihten silinir\". -0121 (MÖ 122) Calvinus kampanyasının sonu olarak korundu; EB MÖ 123-122 aralığı verir. Başlangıç bilinmiyor -> f null. \"Kral Tutomotulus\" kaynakta kral olarak anılır, devlet yapısı gevşek kabile birliği.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "mevcut_once1281.tsv'de yok."
   }
  },
  {
@@ -200,19 +246,29 @@
    "t": "yil"
   },
   "baskent": "Numantia",
-  "etkin_bolge": "",
-  "sehirler": [],
-  "ozet": "Merkez Hispania Kelt-Iber kabilesi; Numantia MO 133te dustu.",
+  "etkin_bolge": "Yukarı Duero (Soria) ve Tagus kaynakları; Celtiberia'nın kuzeyi",
+  "sehirler": [
+   "Numantia",
+   "Segontia",
+   "Uxama",
+   "Termes",
+   "Clunia"
+  ],
+  "ozet": "Kelt-İber Arevaci kabile devleti; Numantia ana kenti; MÖ 143-133 Numantia Savaşı'nda Roma'ya direndi, Scipio Aemilianus 15 aylık kuşatmadan (134-133) sonra Numantia'yı açlıkla düşürdü.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Siyasi birim sinirda; Lusitani (Viriathus) benzer. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Encyclopaedia Britannica, 11. basım (1911), \"Numantia\" (Francis John Haverfield), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Numantia",
+   "W. Smith, Dictionary of Greek and Roman Geography, 1854, \"Arevaci\", Perseus: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064:entry=arevaci-geo",
+   "Pleiades 246523 (Numantia), https://pleiades.stoa.org/places/246523"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri: t=-0132-01-01 (MÖ 133; doğrulandı). EB1911 Numantia: Roma-İspanyol mücadelesi MÖ 154-133, Numantia'nın payı özellikle 144'ten itibaren; MÖ 137 Mancinus'un teslimi; Scipio Aemilianus 15 ay kuşatma (134-133). Smith 1854: Arevaci \"Celtiberian or Numantine war (B.C. 143-133)\" ile ünlü; Pliny Numantia'yı Pelendones'e verir, öteki yazarlar Arevaci'nin ana kenti sayar -> kabile ait­liği tartışmalı. f bilinmiyor -> null. \"Celtiberi\" topluluğunun tamamı değil, yalnız Arevaci polity'si.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
-   "not": ""
+   "not": "mevcut_once1281.tsv'de yok."
   }
  },
  {
@@ -220,26 +276,35 @@
   "ad": "Barkid (Kartaca) Ispanyasi",
   "tur": "imparatorluk",
   "bolge": "iberya",
-  "f": "-0236-01-01",
+  "f": "-0235-01-01",
   "t": "-0205-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Qart Hadasht (Cartagena)",
-  "etkin_bolge": "",
-  "sehirler": [],
-  "ozet": "Hamilcar Barca MO 237/6da Iberya'ya cikti; Ilipa MO 206 sonrasi Roma.",
+  "baskent": "Qart Hadasht (Carthago Nova, Cartagena)",
+  "etkin_bolge": "Güney ve doğu İberya kıyısı; Ebro nehrine kadar (Ebro antlaşması)",
+  "sehirler": [
+   "Carthago Nova",
+   "Gades",
+   "Akra Leuke"
+  ],
+  "ozet": "Hamilcar Barca'nın Birinci Pön Savaşı sonrası Kartaca adına İspanya'da kurduğu hâkimiyet; Hasdrubal Carthago Nova'yı başkent yaptı, Ebro sınırı Roma ile antlaşmayla belirlendi; Scipio'nun Carthago Nova (209) ve Ilipa (206) zaferleriyle Kartacalılar İspanya'dan çıkarıldı.",
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Hamilcar'in cikisi MO 237 (yaklasik). Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Encyclopaedia Britannica, 11. basım (1911), \"Hamilcar Barca\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hamilcar_Barca",
+   "Encyclopaedia Britannica, 11. basım (1911), \"Hasdrubal\" (no.1 Hamilcar'ın damadı), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hasdrubal",
+   "Encyclopaedia Britannica, 11. basım (1911), \"Punic Wars\" ve \"Scipio\" (Africanus), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Punic_Wars ; Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Scipio",
+   "Polybios, Historiai 2.1 ve 2.13, Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234:book=2:chapter=13 (sayfa açıldı; yıl rakamı için kullanılmadı)"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Taslak değeri: f=-0236-01-01 (MÖ 237, hafızadan), t=-0205-01-01. EB1911 Hamilcar Barca: \"İspanya seferi (236) ... sekiz yılda geniş toprak edindi, ölümü (228)\"; f -0235 (MÖ 236) kaynağa göre düzeltildi (başka okullar MÖ 237 der; Polybios 2.1 yılı sayfa metninde doğrulanmadı). EB1911 Hasdrubal: Hamilcar ölümü 228 sonrası komutayı devraldı, Carthago Nova'yı başkent olarak kurdu, Roma ile Ebro sınırı antlaşması, 221'de suikast. EB1911 Punic Wars: \"206 sonunda Kartacalılar yarımadadan tamamen çıkarıldı\" (Ilipa); EB Scipio: 209 Carthago Nova'yı aldı; 206'da Gades'in alınmasıyla Roma işgali güvenceye alındı. Siyasî statü: Kartaca'nın ayrı polity'si değil, onun bir Barkid yarı-özerk dominyonu; atlasın `kartaca` künyesi (-0813..-0145) ile örtüşür, ayrı toprak parçası (İspanya) olarak yazıldı.",
   "esleme": {
-   "durum": "eksik",
-   "mevcut_id": null,
-   "not": "kartaca (kuzey-afrika) ana devlet; Iberya kolu ayri polity sayildi, karar ana oturumda."
+   "durum": "ardil-var",
+   "mevcut_id": "kartaca",
+   "not": "Aynı polity (Kartaca) ülke dışı İspanya dominyonu; `kartaca` künyesi f=-0813 t=-0145 içinde; ayrı kayıt gerekli mi karar Emre'nin. f/t kaynakla uyumlu (kartaca içinde)."
   }
  },
  {
@@ -328,7 +393,7 @@
   "ad": "Soissons Devleti (Aegidius-Syagrius)",
   "tur": "krallik",
   "bolge": "bati-avrupa",
-  "f": "0457-01-01",
+  "f": "0461-01-01",
   "t": "0486-01-01",
   "kesinlik": {
    "f": "yil",
@@ -341,9 +406,13 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f Aegidius'un yonetimi (457) yaklasik; Syagrius 464/5ten. t 486 (Soissons Muharebesi). Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "Enciclopedia Italiana Treccani, treccani.it/enciclopedia/egidio/ (\"dopo il 461 d.C. costituì un dominio autonomo nella zona di Soissons\")",
+   "Enciclopedia Italiana Treccani, treccani.it/enciclopedia/siagrio/ (464'te Soissons'da yönetimi aldı; Clovis'e 486'da Soissons'ta yenildi)",
+   "1911 Encyclopædia Britannica, \"Syagrius\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Syagrius: 464-486 Maas, Schelde ve Seine arası; 487'de idam edildi"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "f Aegidius'un yonetimi (457) yaklasik; Syagrius 464/5ten. t 486 (Soissons Muharebesi) | taslak f=457 idi; Treccani 461 sonrası Egidius'un özerk bölgesi, Siagrius 464'ten. Egidius dönemi 461-464 + Siagrius 464-486 tek polity sayıldı. atlasta künye yok (frank = 481-843).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -395,9 +464,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f Clodio (428 civari) taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Franks\" (Christian Pfister), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Franks",
+   "1911 Encyclopædia Britannica, \"Clovis\" (Christian Pfister), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Clovis"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f Clodio (428 civari) taslak | EB11: Tournai Salian Franklarının başkenti; Childerik I 481'de öldü, oğlu Clovis tahta çıktı (t=481 ve frank künyesinin f=481'i ile uyumlu). f=428 okunmadı.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "frank",

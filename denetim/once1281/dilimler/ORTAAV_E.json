@@ -5,10 +5,10 @@
   "tur": "markgraflik",
   "bolge": "orta-avrupa",
   "f": "0976-01-01",
-  "t": "1156-09-17",
+  "t": "1156-09-01",
   "kesinlik": {
    "f": "yil",
-   "t": "gun"
+   "t": "ay"
   },
   "baskent": "Melk → Klosterneuburg → Viyana",
   "etkin_bolge": "Aşağı Avusturya (Wachau, Donau)",
@@ -21,9 +21,12 @@
    "avusturya-dukaligi"
   ],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Mark kuruluşu 976 (Leopold I); 996 'Ostarrichi' ilk yazılı anılış. Dukalık 17 Eylül 1156 Privilegium Minus. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Österreich'; Lechner 'Die Babenberger']",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Austria», https://www.treccani.it/enciclopedia/austria_(Enciclopedia-Italiana)/",
+   "Neue Deutsche Biographie, «Heinrich II. (Jasomirgott)», https://www.deutsche-biographie.de/sfz70077.html"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Mark kuruluşu 976 (Leopold I); 996 'Ostarrichi' ilk yazılı anılış. Dukalık 17 Eylül 1156 Privilegium Minus. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Österreich'; Lechner 'Die Babenberger'] || TUR2: taslak değeri: f=0976-01-01 t=1156-09-17. Treccani Austria: Marka «divenne ducato ... nel 1156»; NDB Heinrich II.: Bavyera sorununun çözümü «im September 1156 in Regensburg» yazıya geçti -> t = Eylül 1156 (ay hassasiyeti) OKUNDU; 17 Eylül günü okunmadı. f=976 (Babenberg Liutpold) okunmadı. Treccani: dükalık 1192'de Stiria ile büyüdü.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "avusturya-dukaligi",
@@ -64,10 +67,10 @@
   "ad": "Brandenburg Markgraflığı (Askanier, Elektörlük)",
   "tur": "markgraflik",
   "bolge": "orta-avrupa",
-  "f": "1157-06-11",
+  "f": "1157-01-01",
   "t": "1701-01-01",
   "kesinlik": {
-   "f": "gun",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Brandenburg an der Havel → Berlin-Cölln",
@@ -80,9 +83,11 @@
   ],
   "ardil": [],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Gün 11 Haziran 1157 hafızadan (Kuruluş belgesi tarihlendirmesi tartışmalı); bitiş = 1701 Prusya Krallığı (Brandenburg elektörlüğü formel olarak 1806'ya kadar sürdü). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Brandenburg'; Schultze 'Die Mark Brandenburg']",
+  "kaynak": [
+   "Neue Deutsche Biographie, «Albrecht der Bär», https://www.deutsche-biographie.de/sfz69314.html"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Gün 11 Haziran 1157 hafızadan (Kuruluş belgesi tarihlendirmesi tartışmalı); bitiş = 1701 Prusya Krallığı (Brandenburg elektörlüğü formel olarak 1806'ya kadar sürdü). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Brandenburg'; Schultze 'Die Mark Brandenburg'] || TUR2: taslak değeri: f=1157-06-11 t=1701-01-01. NDB Albrecht der Bär: 1134 Lothar III Nordmark (Altmark) lehen verdi; Pribislaw-Heinrich'in ölümünden sonra Havelland ve Brandenburg'u aldı, «seit dieser Zeit» Markgraf von Brandenburg unvanı; NDB 1157 Polonya seferini anar (kuruluş değil). 11 Haziran 1157 günü NDB'de YOK -> yıl hassasiyetine indirildi; asıl kuruluş (1150 Pribislaw ölümü sonrası) ile 1157 arasında kaynak aralığı vardır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -109,9 +114,11 @@
   ],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Pribislav 1167 yeniden onaylandı (Henry the Lion); 14 Kasım 1918 Friedrich Franz IV feragat. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Mecklenburg'; Helmold]",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Meclemburgo», https://www.treccani.it/enciclopedia/meclemburgo_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Pribislav 1167 yeniden onaylandı (Henry the Lion); 14 Kasım 1918 Friedrich Franz IV feragat. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Mecklenburg'; Helmold] || TUR2: Treccani Meclemburgo: Niklot 1160'ta düştü, Pribislav I Henry the Lion'dan lehen aldı («nel 116…» - sayfa metninde son hane okunamadı); f=1167 doğrulanamadı. t=1918 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -165,9 +172,11 @@
   ],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "1081 (şato) / 1135 (kontluk) çelişkisi; 30 Kasım 1918 II. Wilhelm feragat. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Württemberg']",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Wurttemberg», https://www.treccani.it/enciclopedia/wurttemberg_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "1081 (şato) / 1135 (kontluk) çelişkisi; 30 Kasım 1918 II. Wilhelm feragat. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Württemberg'] || TUR2: taslak değeri: f=1135-01-01 t=1918-11-01. Treccani Wurttemberg: «primo conte risulta nel 1135 un certo Ludovico» -> ilk belgeli kont 1135 OKUNDU (polity başlangıcı değil, ilk anılma). t=1918 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -192,9 +201,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "1140 civarı kontluk adı belirir; 26 Ocak 1363 Habsburg devri (Tirol Habsburg Land olarak sürdü). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Tirol']",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Tirolo», https://www.treccani.it/enciclopedia/tirolo_(Enciclopedia-Italiana)/",
+   "Enciclopedia Italiana (Treccani, 1929-37), «Austria», https://www.treccani.it/enciclopedia/austria_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "1140 civarı kontluk adı belirir; 26 Ocak 1363 Habsburg devri (Tirol Habsburg Land olarak sürdü). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Tirol'] || TUR2: Treccani Tirolo: «i conti ghibellini di Tirolo sono ricordati nel 1140 come conti di Venosta e di Tirolo» -> f=1140 (ilk anılma) OKUNDU. Treccani Austria: Habsburg «contea del Tirolo (1363)» -> t=1363 OKUNDU. Hanedan: Appiano'dan ayrı, 1248 Andechs-Meran ölümüyle Brixen mirası.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -280,9 +292,11 @@
    "stiriya-dukaligi"
   ],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Mark kuruluşu 1056 (Otakar II); 1180 Dukalık. Atlasta stiriya künyesinin t=1192 muhtemel hata: Stiriya Dukalığı Habsburg yönetiminde sürdü. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Steiermark']",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Stiria», https://www.treccani.it/enciclopedia/stiria_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Mark kuruluşu 1056 (Otakar II); 1180 Dukalık. Atlasta stiriya künyesinin t=1192 muhtemel hata: Stiriya Dukalığı Habsburg yönetiminde sürdü. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Steiermark'] || TUR2: Treccani Stiria: Ottokar'lar Steyr'dan «Steyermark»; «Il quarto Ottocaro, creato duca nel 1180» -> t=1180 OKUNDU. f=1056 okunmadı. NOT: stiriya-dukaligi (mevcut 1180-1192) Otakar evresidir: Treccani «legò nel 1186 col trattato di Georgenberg ... ai Babenberg, che ne entrarono in possesso nel 1192» -> 1192 SONU DEĞİL, Babenberg/Habsburg altında dükalık 1918'e dek sürer; t=1192 yalnız Otakar hanedanının sonudur (künye ardıl/aynı polity: genişlet).",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "stiriya-dukaligi",
@@ -435,10 +449,10 @@
   "tur": "knezlik",
   "bolge": "dogu-avrupa",
   "f": "1263-01-01",
-  "t": "1547-01-16",
+  "t": "1547-01-01",
   "kesinlik": {
    "f": "yil",
-   "t": "gun"
+   "t": "yil"
   },
   "baskent": "Moskova",
   "etkin_bolge": "Moskova, Oka-Volga, Vladimir ve Kuzey Rus",
@@ -447,9 +461,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Moskova'nın ilk anılışı 1147 (Yuri Dolgoruki); Daniil 1263/1272 tahmini; 1547 Çarlık. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Martin 'Medieval Russia 980-1584'; Cambridge History of Russia I]",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Mosca», https://www.treccani.it/enciclopedia/mosca_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Moskova'nın ilk anılışı 1147 (Yuri Dolgoruki); Daniil 1263/1272 tahmini; 1547 Çarlık. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Martin 'Medieval Russia 980-1584'; Cambridge History of Russia I] || TUR2: taslak değeri: f=1263-01-01 t=1547-01-16. Treccani Mosca: «già nel 1547 il gran principe Ivan IV aveva assunto il titolo di zar» -> unvan yılı 1547 OKUNDU; 16 Ocak günü okunmadı. f=1263 (Daniil Aleksandroviç) okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -625,9 +641,11 @@
    "polonya-erken"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "1138 Vasiyetname (Gallus ve Kadłubek); parçalanma sonrası sınırlar değişkendi. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Gallus Anonymus Chronica; Lexikon des Mittelalters 'Polen']",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Polonia», https://www.treccani.it/enciclopedia/polonia_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "1138 Vasiyetname (Gallus ve Kadłubek); parçalanma sonrası sınırlar değişkendi. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Gallus Anonymus Chronica; Lexikon des Mittelalters 'Polen'] || TUR2: Treccani Polonia: 1138 parçalanma OKUNDU (f); Büyük Polonya dükü Przemysław II 1295'te kral olarak taçlandı; Łokietek 1320 -> t=1314 okunmadı, Treccani 1320 birleşmeyi verir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -654,9 +672,11 @@
    "polonya-erken"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Parçalanma dönemi: bu kayıtlar polonya-erken ile örtüşür; ana oturum karar versin. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Polen']",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Polonia», https://www.treccani.it/enciclopedia/polonia_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Parçalanma dönemi: bu kayıtlar polonya-erken ile örtüşür; ana oturum karar versin. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Polen'] || TUR2: Treccani Polonia: «Con l'anno 1138, la Polonia si divise in una serie di ducati particolari» (Boleslao III Boccatorta 1102-1138) -> f=1138 OKUNDU; «Dall'incoronazione di Ladislao Łokietek (1320)» Krakov -> t=1320 (krallığın yeniden birleşmesi) OKUNDU. Not: Krakov Dükalığı (senior prensliği) mevcut polonya-erken (966-1569) ile örtüşür; ayrı polity olarak mı alt dilim olarak mı kalacağı karar bekler.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "polonya-erken",
@@ -853,13 +873,123 @@
   ],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Batı Kumanları ayrı hanlar altında; tek devlet değil, konfederasyon. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Golden 'Introduction to the History of the Turkic Peoples'; Spinei 'The Great Migrations in the East and South East of Europe']",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Cumani», https://www.treccani.it/enciclopedia/cumani_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Batı Kumanları ayrı hanlar altında; tek devlet değil, konfederasyon. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Golden 'Introduction to the History of the Turkic Peoples'; Spinei 'The Great Migrations in the East and South East of Europe'] || TUR2: Treccani Cumani: Moğol istilasından sonra (XIII. yy) Qïpčāq «cessarono di formare un'unità etnico-politica distinta» -> ortak devlet sonu OKUNDU (yıl verilmedi); t=1239 okunmadı.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "kipcak",
    "not": "kipcak (1054-1239) Deşt-i Kıpçak genelinde; batı bölümü (Doğu Avrupa) kapsıyor."
+  }
+ },
+ {
+  "id": "silezya-piast",
+  "ad": "Silezya (Piast) Dükalıkları",
+  "tur": "dukalik-lar",
+  "bolge": "orta-avrupa",
+  "f": "1138-01-01",
+  "t": "1335-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Wrocław",
+  "etkin_bolge": "Yukarı ve Aşağı Silezya",
+  "sehirler": [
+   "Wrocław",
+   "Opole",
+   "Legnica",
+   "Głogów"
+  ],
+  "ozet": "III. Boleslaw'un 1138 vasiyetiyle bölünen Polonya'nın Silezya kolu; 1327-1335 Bohemya Krallığı'na bağlandı.",
+  "oncul": [
+   "polonya-erken"
+  ],
+  "ardil": [
+   "bohemya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Polonia», https://www.treccani.it/enciclopedia/polonia_(Enciclopedia-Italiana)/",
+   "Enciclopedia Italiana (Treccani, 1929-37), «Slesia», https://www.treccani.it/enciclopedia/slesia_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Treccani Polonia: 1138 ducati particolari (f OKUNDU). Treccani Slesia: Piast dükleri 1327-1335 Bohemya egemenliğini tanıdı; «Nel 1335 (trattato di Trentschin) Casimiro di Polonia...» vazgeçti -> t=1335 OKUNDU (24 Ağustos günü okunmadı; mevcut künyede 1335-08-24 var).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "silezya-piast",
+   "not": "mevcut künyeyle yıl düzeyinde uyumlu."
+  }
+ },
+ {
+  "id": "cernigov-knezligi",
+  "ad": "Çernigov Knezliği",
+  "tur": "knezlik",
+  "bolge": "dogu-avrupa",
+  "f": "1026-01-01",
+  "t": "1239-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Çernigov",
+  "etkin_bolge": "Orta Dinyeper doğusu, Desna",
+  "sehirler": [
+   "Çernigov",
+   "Novgorod-Seversk"
+  ],
+  "ozet": "Rus Knezliği; 1026'da Mstislav'ın başkenti, 1239'da Tatarlarca alındı.",
+  "oncul": [
+   "kiev-rusu"
+  ],
+  "ardil": [],
+  "oncelik": "orta",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Cernigov», https://www.treccani.it/enciclopedia/cernigov_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Treccani Cernigov: «Nel 992 sede episcopale; nel 1026 diventa capitale del principe Mstislav Tmutarakan'skij; ... Nel 1239 Černigov ... occupata dai Tartari» -> yıllar OKUNDU. Treccani 1024'ü Kurtarıcı Katedrali inşaatı olarak verir (kuruluş değil); mevcut künye f=1024 (Mstislav'ın Çernigov'u alışı - kronik) okunmadı. Gün (18 Ekim 1239) okunmadı.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "cernigov-knezligi",
+   "not": "f 1024->1026 (Treccani), t 1239-10-18 -> 1239 yıl."
+  }
+ },
+ {
+  "id": "smolensk-knezligi",
+  "ad": "Smolensk Knezliği",
+  "tur": "knezlik",
+  "bolge": "dogu-avrupa",
+  "f": "1127-01-01",
+  "t": "1395-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Smolensk",
+  "etkin_bolge": "Üst Dinyeper",
+  "sehirler": [
+   "Smolensk"
+  ],
+  "ozet": "Rostislav (1127-1160) döneminde Kiev'le yarışan Rus knezliği; 1395'te Litvanya'ya teslim.",
+  "oncul": [
+   "kiev-rusu"
+  ],
+  "ardil": [
+   "litvanya-buyuk-dukalik"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Smolensk», https://www.treccani.it/enciclopedia/smolensk_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Treccani Smolensk: «principe Rostislav (1127-1160)», bağımsız piskoposluk 1137, «Nel 1395 Smolensk si arrese al granduca lituano Vitoldo» -> Treccani t=1395; mevcut künye t=1404 (Vytautas'ın fethi) - iki tarih beyan, 1395 teslim/1404 ilhak yorumu okunmadı. f=1127 kaynakta okunan ilk knez yılıdır, knezliğin hukukî doğuşu (Mstislav'ın oğluna verilmesi) değil; mevcut 1054 okunmadı.",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "smolensk-knezligi",
+   "not": "f 1054->1127; t 1404->1395 (Treccani); gerekçe ic_not."
   }
  }
 ]

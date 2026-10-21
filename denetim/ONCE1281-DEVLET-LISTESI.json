@@ -215,6 +215,42 @@
    "elen_gerekce": "1281 sonrası başlıyor, kapsam dışı. TDV Hamîdoğulları (okundu): Hamîd Bey 1240'ta Isparta-Burdur yöresini aldı, 1291 Moğol karşıtı isyan, ~1297'de bağımsızlık (Uluborlu), Dündar Bey Eğirdir'e taşıdı (1326 öldü), Murad I'e kasaba satışı 1381-82, Bayezid I ~1390-91. 1280 sınırında polity yok. Atlas çekirdeğine aday: f 1297 (yıl), t 1391."
   },
   {
+   "id": "golasecca-kulturu",
+   "ad": "Golasecca Kültürü",
+   "tur": "kultur",
+   "bolge": "italya",
+   "f": "-1198-01-01",
+   "t": "-0398-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "yuzyil"
+   },
+   "baskent": "yok",
+   "etkin_bolge": "Maggiore-Como gölleri",
+   "sehirler": [
+    "Sesto Calende",
+    "Como"
+   ],
+   "ozet": "Lombardiya'da Final Tunç/Demir Çağı kültürü; Kelt (Insubres) yerleşmesiyle sonlandı. Siyasî birim değil.",
+   "oncul": [],
+   "ardil": [
+    "insubres-kabile-devleti"
+   ],
+   "oncelik": "kucuk",
+   "kaynak": [
+    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
+    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   ],
+   "dogrulama": "taslak",
+   "ic_not": "Tarihler yaklaşık; devlet saymak için gerekçe zayıf.",
+   "esleme": {
+    "durum": "eksik",
+    "mevcut_id": null,
+    "not": ""
+   },
+   "elenme_gerekce": "Arkeolojik kültür, siyasî birim değil: Treccani 'Cultura di Golasecca' (https://www.treccani.it/enciclopedia/golasecca/): Protogolasecca 12.-10. yy, üç faz (10.-7., 6., 5.-4. yy), '4. yy başı Kelt istilasıyla topraklar Insubres'e geçti'. Bkz. insubres-kabile-devleti."
+  },
+  {
    "id": "dekapolis",
    "ad": "Dekapolis (On Sehir Birligi)",
    "ad_yerel": null,
@@ -539,7 +575,7 @@
   }
  ],
  "uretim": "denetim/once1281/birlestir.py",
- "kayit_sayisi": 1232,
+ "kayit_sayisi": 1240,
  "kayitlar": [
   {
    "id": "utica",
@@ -11190,31 +11226,39 @@
    "ad": "Tartessos",
    "tur": "krallik",
    "bolge": "iberya",
-   "f": "-0799-01-01",
+   "f": null,
    "t": "-0499-01-01",
    "kesinlik": {
-    "f": "yuzyil",
+    "f": "belirsiz",
     "t": "yuzyil"
    },
-   "baskent": "Tartessos (yeri tartisili)",
-   "etkin_bolge": "",
-   "sehirler": [],
-   "ozet": "Guadalquivir vadisinde Fenike/Yunan kaynaklarinda adi gecen maden zengini krallik (Arganthonios).",
+   "baskent": "Tartessos (yeri tartışmalı; Guadalquivir ağzı)",
+   "etkin_bolge": "Sierra Morena'nın güneyi: Guadalquivir ve Odiel-Tinto havzası (Strabon 3.2.11'e göre doğu sınırı Mastia Tartessiorum)",
+   "sehirler": [
+    "Tartessos",
+    "Huelva",
+    "Mastia Tartessiorum"
+   ],
+   "ozet": "Güneybatı İberya'da Guadalquivir ağzında metal (gümüş, kalay) ve sığır ekonomisine dayalı krallık; Herodotos'a göre kralı Arganthonios 80 yıl hüküm sürdü, Fokaialılarla dost oldu; kültür MÖ 5. yy başında yok oldu.",
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Baslangic ve son yuzyil duzeyinde; siyasi yapisi tartisili. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "PECS: Stillwell, MacDonald, McAlister (eds.), The Princeton Encyclopedia of Classical Sites, Princeton UP 1976, s.v. Tartessos, SW Spain (J. M. Blázquez), http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=tartessos",
+    "Herodotos, Historiai 1.163 ve 4.152 (A. D. Godley çev., Harvard UP 1920), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book=1:chapter=163",
+    "Pleiades 256468 (Tartessos), https://pleiades.stoa.org/places/256468"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Taslak değeri: f=-0799-01-01, t=-0499-01-01 (hafızadan). Okunan kaynaklar: PECS (Blázquez) \"Tartessian culture disappeared in the beginning of the 5th c. B.C.\" -> t=-0499 (yüzyıl hassasiyeti) desteklendi. Başlangıç için okunan hiçbir kaynak yıl vermedi (PECS: Tartessos bölgesinde Fenike etkisi MÖ 1100'den, yazı ~MÖ 700; Herodotos 1.163: Fokaialılar Pers fethinden önce Kral Arganthonios ile dost oldu) -> f yıl bilinmiyor, null. Siyasî yapı (tek krallık mı, kültür bölgesi mi) tartışmalı; Pleiades \"semi-mythical\" kültür/liman kenti diye sınıflar.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
-    "not": ""
+    "not": "mevcut_once1281.tsv'de Tartessos/Tartesos yok (tarandı)."
    },
    "_dilim": "BATIAV_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11222,31 +11266,42 @@
    "ad": "Gadir (Gades, Fenike sehir devleti)",
    "tur": "sehir-devleti",
    "bolge": "iberya",
-   "f": "-0799-01-01",
+   "f": "-1099-01-01",
    "t": "-0205-01-01",
    "kesinlik": {
     "f": "yuzyil",
     "t": "yil"
    },
-   "baskent": "Gadir (Kadiz)",
-   "etkin_bolge": "",
-   "sehirler": [],
-   "ozet": "Fenike kolonisi; gelenek MO 1104, arkeoloji MO 8. yy. MO 206/5te Roma'ya gecti.",
+   "baskent": "Gadir (Gadeira/Gades, bugünkü Cádiz)",
+   "etkin_bolge": "Cádiz adası ve körfezi, Guadalquivir ağzı çevresi",
+   "sehirler": [
+    "Gadir",
+    "Gadeira",
+    "Gades"
+   ],
+   "ozet": "Tyros'lu Fenikelilerin Cebelitarık Boğazı ötesindeki ilk büyük kolonisi; Kartaca'ya MÖ 3. yy'da bağlandı; Scipio MÖ 206'da Gades'i alınca Roma'ya geçti (Roma ile foedus/ittifak, MÖ 49'da Caesar vatandaşlık verdi).",
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Gelenek MO 1104; arkeoloji MO 8. yy (f buna gore). Kartaca'ya bagliligi donemden doneme degisir. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "Encyclopaedia Britannica 11. basım (1911), \"Spain\" (Earliest Historic Period), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Spain",
+    "Encyclopaedia Britannica 11. basım (1911), \"Scipio\" (Publius Cornelius Scipio Africanus; MÖ 206 Ilipa ve Gades'in alınması), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Scipio",
+    "W. Smith, Dictionary of Greek and Roman Geography, 1854, \"Gades\", Perseus: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064:alphabetic+letter=G:entry+group=1:entry=gades-geo",
+    "Stillwell, MacDonald, McAlister (eds.), The Princeton Encyclopedia of Classical Sites, Princeton UP 1976, s.v. Tartessos (Cádiz'in Fenikeli tüccarlarca MÖ 1100'de kurulduğu geleneği)",
+    "Strabon, Geographika 3.5.5 (Gades'in kuruluş hikâyesi), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0239:book=3:chapter=5:section=5",
+    "Pleiades 256177 (Gadeira/Gades), https://pleiades.stoa.org/places/256177"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Taslak değeri: f=-0799-01-01 (MÖ 8. yy arkeolojisi, hafızadan), t=-0205-01-01. Kaynaklar: EB1911 Spain \"Fenikeliler İberya'ya belki MÖ 11. yy'da ulaştı; Gades en eski yerleşim\"; PECS Tartessos: Cádiz MÖ 1100'de kuruldu (gelenek). Bu yüzden f gelenek tarihine (-1099, yüzyıl hassasiyeti) çekildi; arkeolojik MÖ 8. yy değeri okunan kaynakta YOK, kurucu gelenek ile arkeoloji arasındaki fark çözülmedi. t: EB1911 Scipio \"MÖ 206'da Gades'in alınmasıyla İspanya'nın Roma işgali sağlandı\" (-0205 doğrulandı). Smith 1854: Roma ile ittifak MÖ 212 (gelenek) / MÖ 78 teyit; MÖ 49'da Caesar tüm vatandaşlara Roma vatandaşlığı verdi; EB1911 Spain: Gades Caesar'ın lütfuyla municipium. Kartaca'ya bağlılık: Smith, Hamilcar fethinden (MÖ 237) sonra boyun eğdi; tarihler dönemden döneme değişir. Tartessos'a ilişkin Herodotos 4.8 Gadira adını anar.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
-    "not": ""
+    "not": "Tabloda yalnız kartaca (Kartaca Devleti, kuzey-afrika) var; Gadir ayrı şehir devleti."
    },
    "_dilim": "BATIAV_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11254,31 +11309,38 @@
    "ad": "Emporion (Empuries, Yunan sehir devleti)",
    "tur": "sehir-devleti",
    "bolge": "iberya",
-   "f": "-0574-01-01",
+   "f": "-0599-01-01",
    "t": "-0217-01-01",
    "kesinlik": {
     "f": "onyil",
-    "t": "onyil"
+    "t": "yil"
    },
-   "baskent": "Emporion",
-   "etkin_bolge": "",
-   "sehirler": [],
-   "ozet": "Massalia kolonisi; MO 218den sonra Roma ittifaki/hegemonyasi altinda.",
+   "baskent": "Emporion (Palaiapolis adası ve ana kara; Ampurias/Empúries)",
+   "etkin_bolge": "Katalonya kıyısı, Ampurdán; Fluvià ağzı",
+   "sehirler": [
+    "Emporion",
+    "Palaiapolis",
+    "Indika"
+   ],
+   "ozet": "Massalia'nın (Fokaia) MÖ 600 sonrası kurduğu Yunan ticaret kolonisi; MÖ 3. yy'da Roma müttefiki, MÖ 218'de Cn. Scipio'nun ilk Roma ordusuyla karaya çıktığı yer; MÖ 2. yy'da Romalılaştı, Caesar zamanında kolonisi kuruldu.",
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "t Roma ittifaki baslangici; tam bagimsizlik sonu belirsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "Stillwell, MacDonald, McAlister (eds.), The Princeton Encyclopedia of Classical Sites, Princeton UP 1976, s.v. Emporion or Emporiae (La Escala or Ampurias), Perseus: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=emporion",
+    "Pleiades 246382 (Emporiae), https://pleiades.stoa.org/places/246382"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Taslak değeri: f=-0574-01-01, t=-0217-01-01 (hafızadan). PECS: \"kasaba MÖ 600 (Massalia'nın kuruluş tarihi) civarından biraz sonra kuruldu\"; MÖ 3. yy'da İtalya'daki Yunan kentleriyle bağları nedeniyle Roma müttefiki; MÖ 218'de Cn. Scipio ilk Roma ordusunu Hispania'ya Emporion'a çıkardı; para sistemi Massalia'dan ayrıydı \"Roma'ya katılana kadar (MÖ 2. yy)\"; MÖ 195'te Cato kasaba yakınında kamp kurdu, Tarraco'ya idari merkez geçince Emporion önemini yitirdi; sonra municipium, Caesar zamanında veteran kolonisi. f: kaynak \"600'den biraz sonra\" dediği için -0599 (onyıl); taslak -0574 kaynakta yok. t=MÖ 218 Roma ittifakı/Roma ordusu başlangıcı (taslak değeri korundu, PECS bağımsızlığın bitişi için kesin yıl vermiyor: Romalılaşma 2. yy, MÖ 195 Cato).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
-    "not": ""
+    "not": "massalia (devlet, Massalia) mevcut; Emporion Massalia'nın kolonisi ama ayrı şehir devleti."
    },
    "_dilim": "BATIAV_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11287,30 +11349,37 @@
    "tur": "konfederasyon",
    "bolge": "bati-avrupa",
    "f": null,
-   "t": "-0120-01-01",
+   "t": "-0051-01-01",
    "kesinlik": {
     "f": "belirsiz",
     "t": "yil"
    },
-   "baskent": "Gergovia / Nemetum",
-   "etkin_bolge": "",
-   "sehirler": [],
-   "ozet": "Orta Galya'nin guclu Kelt konfederasyonu; Bituitus MO 121de Roma'ya yenildi (Vercingetorix isyani MO 52).",
+   "baskent": "Gergovia / Nemetum (Nemossus)",
+   "etkin_bolge": "Auvergne ve Loire yukarı havzası; Strabon'a göre egemenlikleri bir dönem Narbonne'a, Pireneler'e ve Ren'e uzandı",
+   "sehirler": [
+    "Gergovia",
+    "Nemossus (Nemetum)"
+   ],
+   "ozet": "Orta Galya'nın en güçlü kabile devletlerinden biri; Aedui ile hegemonya çekişmesi, Kral Luernius/Bituitus dönemi; MÖ 52'de Vercingetorix kral ilan edilip Galya ayaklanmasının başına geçti, Alesia'da yenilince Sezar'a boyun eğdi.",
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f yil bilinmiyor. t = Bituitus yenilgisi (MO 121); Vercingetorix donemi (MO 52) ikinci evre. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "Encyclopaedia Britannica, 11. basım (1911), \"Arverni\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Arverni",
+    "Strabon, Geographika 4.2.3 (H. C. Hamilton & W. Falconer çev.), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0239:book=4:chapter=2:section=3",
+    "C. Julius Caesar, Commentarii de bello Gallico (W. A. McDevitte & W. S. Bohn çev.), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=1:chapter=31 (Arverni-Aedui hegemonya çekişmesi), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=7:chapter=4 (Vercingetorix \"kral\" ilan edilir), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=7:chapter=90 (Alesia sonrası Arverni elçileri)"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "Taslak değeri: t=-0120-01-01 (hafızadan; Bituitus'un MÖ 121 yenilgisi). Okunan kaynaklar: Strabon 4.2.3: Arverni Fabius Maximus (Allobroges ile birlikte, İsère-Rhône) ve Domitius Ahenobarbus karşısında yenildi, \"eski güçleri\" büyüktü; Luerius'un oğlu Bituitus; MÖ 52 savaşı Gergovia ve Alesia'da bitti. Caesar BG 7.4: Vercingetorix'in babası Celtillus tüm Galya üzerinde hâkimiyet kurmak isterken öldürülmüştü; Vercingetorix \"kral\" ilan edildi. BG 7.90: Alesia sonrası Arverni elçileri itaat sözü verdi, Sezar rehine istedi. Bu yüzden t Alesia yılına (MÖ 52 = -0051) çekildi: MÖ 121 yenilgisi krallığı/hegemonyayı kırdı ama kabile devleti MÖ 52'ye kadar özerk (foedus-benzeri bağımsız) kaldı. Yıl rakamları (52) EB1911 Sequani/Belgae maddelerinde de geçer, BG metni yıl vermez. Başlangıç tarihi okunan hiçbir kaynakta yok -> f null.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
-    "not": ""
+    "not": "mevcut_once1281.tsv'de Gallia/Arverni yok (tarandı)."
    },
    "_dilim": "BATIAV_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11324,25 +11393,33 @@
     "f": "belirsiz",
     "t": "yil"
    },
-   "baskent": "Bibracte",
-   "etkin_bolge": "",
-   "sehirler": [],
-   "ozet": "Roma muttefiki Burgonya Kelt konfederasyonu; vergobret yonetimli; MO 52-51 Galya isyanindan sonra Roma'ya baglandi.",
+   "baskent": "Bibracte (Mont Beuvray)",
+   "etkin_bolge": "Saône ile Loire arası: Saône-et-Loire, Côte-d'Or, Nièvre",
+   "sehirler": [
+    "Bibracte",
+    "Cabillonum",
+    "Matisco"
+   ],
+   "ozet": "Roma'nın \"kardeş ve akraba\" saydığı Galya kabile devleti; Sequani/Ariovistus ile savaşta yenildi, MÖ 58'de Sezar bağımsızlığını geri verdi; MÖ 52 ayaklanmasına katıldı, Alesia'dan sonra Roma'ya döndü; Augustus Bibracte'yi kaldırıp Augustodunum'u kurdu.",
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f yil bilinmiyor; t Galya Savasi sonu (MO 51). Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "Encyclopaedia Britannica, 11. basım (1911), \"Aedui\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Aedui",
+    "C. Julius Caesar, Commentarii de bello Gallico (W. A. McDevitte & W. S. Bohn çev.), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=1:chapter=31 (Divitiacus: Galya'da iki parti, Aedui/Arverni), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=7:chapter=90 (Alesia sonrası Aedui topraklarına dönüş)",
+    "Pleiades 177473 (Bibracte), https://pleiades.stoa.org/places/177473"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "Taslak değeri: t=-0051-01-01 (kaynakla doğrulandı). EB1911 Aedui: MÖ 58'de Sezar bağımsızlığı geri verdi; kabile ayaklanmaya katıldı, Vercingetorix Alesia'da teslim olunca \"sadakate döndü\"; Augustus Bibracte'yi tahrip edip Augustodunum'u kurdu; MS 21 ayaklanması (Julius Sacrovir, Tacitus Ann. 3.43-46). Statü: Aedui \"foederati\" olarak Roma yönetimi altında özerk kaldı; t = bağımsız ayaklanmanın sonu (BG 7.90). Başlangıç tarihi (Livius'un MÖ 6. yy efsanesi hariç) kaynaklarda yok -> f null. Not: EB1911'in \"A.D. 21\" Sacrovir ayaklanması Roma yönetimi içinde, devleti uzatmaz.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
-    "not": ""
+    "not": "mevcut_once1281.tsv'de yok."
    },
    "_dilim": "BATIAV_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11351,30 +11428,35 @@
    "tur": "konfederasyon",
    "bolge": "bati-avrupa",
    "f": null,
-   "t": "-0057-01-01",
+   "t": "-0051-01-01",
    "kesinlik": {
     "f": "belirsiz",
     "t": "yil"
    },
-   "baskent": "Vesontio",
-   "etkin_bolge": "",
-   "sehirler": [],
-   "ozet": "Franche-Comte Kelt halki; Ariovistus ittifaki; Caesar MO 58-57.",
+   "baskent": "Vesontio (Besançon)",
+   "etkin_bolge": "Saône yukarı havzası: Franche-Comté ve Burgonya'nın bir kısmı",
+   "sehirler": [
+    "Vesontio"
+   ],
+   "ozet": "Saône yukarı havzasında Kelt kabile devleti; Aedui'ye karşı Germen Ariovistus'u çağırdı (MÖ 71); MÖ 58'de Sezar Germenleri sürdü; MÖ 52'de Vercingetorix ayaklanmasına katılıp Alesia'da yenildi.",
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f yil bilinmiyor; t yaklasik. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "Encyclopaedia Britannica, 11. basım (1911), \"Sequani\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sequani",
+    "C. Julius Caesar, Commentarii de bello Gallico (W. A. McDevitte & W. S. Bohn çev.), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=1:chapter=31 (Sequani ve Arverni Germenleri ücretle çağırdı)"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "Taslak değeri: t=-0057-01-01 (MÖ 58 Sezar'ın Ariovistus'u sürmesi). EB1911 Sequani: MÖ 58'de Sezar Germenleri geri attı ama Sequani'yi de Aedui'den aldıklarını iade etmeye zorladı; Sequani MÖ 52'de Vercingetorix ayaklanmasına katıldı, Alesia yenilgisini paylaştı; Augustus altında Belgica'ya bağlı Sequania. Bu yüzden t Alesia yılına (-0051) çekildi (BG 1.31 Sequani'nin Ariovistus ile ilişkisini doğrular). f: ilk tarihli olay MÖ 71 (Ariovistus'un çağrılması), kabile devletinin başlangıcı bilinmiyor -> null.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
-    "not": ""
+    "not": "mevcut_once1281.tsv'de yok."
    },
    "_dilim": "BATIAV_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11388,25 +11470,32 @@
     "f": "belirsiz",
     "t": "yil"
    },
-   "baskent": "Bibrax / Noviodunum (Remi)",
-   "etkin_bolge": "",
-   "sehirler": [],
-   "ozet": "Kuzey Galya Belga kabileleri; Caesar MO 57-56da boyun egdirdi.",
+   "baskent": "Bibrax / Noviodunum (Remi); ortak başkent yok (konfederasyon)",
+   "etkin_bolge": "Seine-Marne'den Ren'e kadar kuzey Galya (Belgica); Britanya güneyine yerleşen kollar",
+   "sehirler": [
+    "Bibrax",
+    "Noviodunum",
+    "Samarobriva"
+   ],
+   "ozet": "Sezar'ın Galya'nın üçte biri saydığı Belgae kabileleri MÖ 57'de Roma'ya karşı konfederasyon kurdu (BG 2.1) ve yenildi; MÖ 52'de genel ayaklanmaya katıldılar.",
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Konfederasyon niteligi sinirda. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "Encyclopaedia Britannica, 11. basım (1911), \"Belgae\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Belgae",
+    "C. Julius Caesar, Commentarii de bello Gallico (W. A. McDevitte & W. S. Bohn çev.), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=2:chapter=1 (tüm Belgae Roma'ya karşı ittifak yapıyor), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=2:chapter=35 (\"tüm Galya boyun eğdirildi\")"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "Taslak değeri: t=-0056-01-01 (57 BC; kaynakla doğrulandı: BG 2.1 / 2.35, EB1911 \"In 57 B.C. ... the Belgae formed a coalition against Caesar\"). Tek devlet değil, 15 kabilelik konfederasyon (Strabon 4 p.196 aktarımı EB'de); EB1911: MÖ 52'de de ayaklanmaya katıldılar, sonra Gallia Comata'da birleştirildi. Başlangıç bilinmiyor -> f null. Konfederasyonun siyasî birliği sınırlı; Remi gibi üyeleri ayrı özerk. Karar: tek kayıt, t = MÖ 57 yenilgisi.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
-    "not": ""
+    "not": "mevcut_once1281.tsv'de yok."
    },
    "_dilim": "BATIAV_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11420,25 +11509,31 @@
     "f": "belirsiz",
     "t": "yil"
    },
-   "baskent": "Darioritum",
-   "etkin_bolge": "",
-   "sehirler": [],
-   "ozet": "Armorica kiyi deniz ticaret halki; MO 56da Caesar'a yenildi.",
+   "baskent": "Darioritum (Vannes çevresi)",
+   "etkin_bolge": "Armorica (Brittany) güney kıyısı, Morbihan Körfezi; Britanya ile deniz ticareti",
+   "sehirler": [
+    "Darioritum"
+   ],
+   "ozet": "Armorica kıyısının deniz gücü kabile devleti; Caesar'a göre kıyıdaki öteki kabileleri haraca bağlıyordu; MÖ 56'da Sezar'ın donanması karşısında yok edildi, halk teslim oldu.",
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Siyasi birim sinirda. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "Encyclopaedia Britannica, 11. basım (1911), \"Veneti\" (Robert Seymour Conway; Galya Veneti bölümü), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Veneti",
+    "C. Julius Caesar, Commentarii de bello Gallico (W. A. McDevitte & W. S. Bohn çev.), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=3:chapter=8 (Veneti'nin kıyıdaki nüfuzu ve gemileri), https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=3:chapter=16 (deniz savaşından sonra teslim)",
+    "Encyclopaedia Britannica, 11. basım (1911), \"Armorica\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Armorica"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "Taslak değeri: t=-0055-01-01 (MÖ 56; EB1911 Veneti: \"in 56 [B.C.] decisively defeated in a naval engagement\" doğruladı). BG 3.8: Veneti kıyıdaki neredeyse tüm kabileleri vergiye bağlamıştı; BG 3.16: deniz savaşı Veneti ile bütün kıyı savaşını bitirdi, hayatta kalanlar kendilerini ve mallarını Sezar'a teslim etti (Sezar senatörleri idam, halkı köle yaptı). EB1911 Brittany: Armorica'da MÖ 52 ayaklanması, MÖ 51'de Sezar tarafından kesin boyun eğdirildi. Not: EB \"Veneti\" maddesi İtalya (Este) Venetlerini de içerir; burada yalnız Galya Veneti. Başlangıç bilinmiyor -> f null.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
-    "not": ""
+    "not": "mevcut_once1281.tsv'de yok."
    },
    "_dilim": "BATIAV_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11452,25 +11547,32 @@
     "f": "belirsiz",
     "t": "yil"
    },
-   "baskent": "Vienna",
-   "etkin_bolge": "",
-   "sehirler": [],
-   "ozet": "Rhone-Isere Kelt halki; MO 121de Roma'ya yenildi.",
+   "baskent": "Vienna (Vienne)",
+   "etkin_bolge": "Rhône, Isère ve Alp'ler arası \"ada\": Dauphiné ve Savoie; Vienna, Genava, Cularo",
+   "sehirler": [
+    "Vienna",
+    "Genava",
+    "Cularo"
+   ],
+   "ozet": "Rhône-Isère-Alp çevresinde Kelt kabile devleti; Hannibal ile birlikte Roma'ya karşı çıktı; Salluvii kralını barındırdığı için MÖ 121'de Q. Fabius Maximus tarafından yenildi (Roma eyaleti Narbonensis'e katıldı).",
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f yil bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "Encyclopaedia Britannica, 11. basım (1911), \"Allobroges\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Allobroges",
+    "Strabon, Geographika 4.2.3 (Fabius Maximus ve Domitius ile yapılan savaşlar), Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0239:book=4:chapter=2:section=3"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "Taslak değeri: t=-0120-01-01 (MÖ 121; doğrulandı: EB1911 \"attacked and finally defeated (August 8, 121) at the junction of the Rhodanus and Isara by Q. Fabius Maximus\"). Yenilgiden sonra bölge Roma kontrolüne girdi; yine de MÖ 63 Catilina olayında ve MÖ 61'de Catugnatus ayaklanması (Pomptinus tarafından bastırıldı) görüldü (EB1911). Augustus altında Gallia Narbonensis'e katıldı. f: Hannibal ile birlikte ilk anılış (MÖ 218) tarih verir ama devletin başlangıcı değildir -> null.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
-    "not": ""
+    "not": "mevcut_once1281.tsv'de yok."
    },
    "_dilim": "BATIAV_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11484,25 +11586,31 @@
     "f": "belirsiz",
     "t": "yil"
    },
-   "baskent": "Entremont",
-   "etkin_bolge": "",
-   "sehirler": [],
-   "ozet": "Provence Kelt-Ligur konfederasyonu; MO 123-122 Roma fethi.",
+   "baskent": "Entremont (Aquae Sextiae yakını)",
+   "etkin_bolge": "Durance'ın güneyi, Rhône ile Alpler arası düzlük (Provence)",
+   "sehirler": [
+    "Entremont",
+    "Arelate (çevresi)"
+   ],
+   "ozet": "Provence'ta Kelt-Ligur karışık kabile birliği (Salyes/Salluvii); Massalia'nın yardım istemesiyle Roma MÖ 154'te ve 125-122 arasında savaştı; C. Sextius Calvinus başkentlerini yıkıp Aquae Sextiae'yı kurdu; Kral Tutomotulus Allobroges'e sığındı.",
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f yil bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "Encyclopaedia Britannica, 11. basım (1911), \"Salyes\" (Salluvii), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Salyes",
+    "Strabon, Geographika 4 (Salluvii/Ligyes), W. Smith'in aktarımıyla EB1911"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "Taslak değeri: t=-0121-01-01 (MÖ 122). EB1911 Salyes: MÖ 154'te Oxybii/Deciates (belki Salyes'in iki kabilesi) Q. Opimius tarafından yenildi; MÖ 125-124 M. Fulvius Flaccus, MÖ 123-122 C. Sextius Calvinus \"kesin olarak boyun eğdirdi, başkentlerini yıktı ve harabelerinin yanında Aquae Sextiae kolonisini kurdu\"; \"bu tarihten sonra Salyes tarihten silinir\". -0121 (MÖ 122) Calvinus kampanyasının sonu olarak korundu; EB MÖ 123-122 aralığı verir. Başlangıç bilinmiyor -> f null. \"Kral Tutomotulus\" kaynakta kral olarak anılır, devlet yapısı gevşek kabile birliği.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
-    "not": ""
+    "not": "mevcut_once1281.tsv'de yok."
    },
    "_dilim": "BATIAV_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11517,24 +11625,34 @@
     "t": "yil"
    },
    "baskent": "Numantia",
-   "etkin_bolge": "",
-   "sehirler": [],
-   "ozet": "Merkez Hispania Kelt-Iber kabilesi; Numantia MO 133te dustu.",
+   "etkin_bolge": "Yukarı Duero (Soria) ve Tagus kaynakları; Celtiberia'nın kuzeyi",
+   "sehirler": [
+    "Numantia",
+    "Segontia",
+    "Uxama",
+    "Termes",
+    "Clunia"
+   ],
+   "ozet": "Kelt-İber Arevaci kabile devleti; Numantia ana kenti; MÖ 143-133 Numantia Savaşı'nda Roma'ya direndi, Scipio Aemilianus 15 aylık kuşatmadan (134-133) sonra Numantia'yı açlıkla düşürdü.",
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Siyasi birim sinirda; Lusitani (Viriathus) benzer. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "Encyclopaedia Britannica, 11. basım (1911), \"Numantia\" (Francis John Haverfield), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Numantia",
+    "W. Smith, Dictionary of Greek and Roman Geography, 1854, \"Arevaci\", Perseus: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064:entry=arevaci-geo",
+    "Pleiades 246523 (Numantia), https://pleiades.stoa.org/places/246523"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "Taslak değeri: t=-0132-01-01 (MÖ 133; doğrulandı). EB1911 Numantia: Roma-İspanyol mücadelesi MÖ 154-133, Numantia'nın payı özellikle 144'ten itibaren; MÖ 137 Mancinus'un teslimi; Scipio Aemilianus 15 ay kuşatma (134-133). Smith 1854: Arevaci \"Celtiberian or Numantine war (B.C. 143-133)\" ile ünlü; Pliny Numantia'yı Pelendones'e verir, öteki yazarlar Arevaci'nin ana kenti sayar -> kabile ait­liği tartışmalı. f bilinmiyor -> null. \"Celtiberi\" topluluğunun tamamı değil, yalnız Arevaci polity'si.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
-    "not": ""
+    "not": "mevcut_once1281.tsv'de yok."
    },
    "_dilim": "BATIAV_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11542,31 +11660,40 @@
    "ad": "Barkid (Kartaca) Ispanyasi",
    "tur": "imparatorluk",
    "bolge": "iberya",
-   "f": "-0236-01-01",
+   "f": "-0235-01-01",
    "t": "-0205-01-01",
    "kesinlik": {
     "f": "yil",
     "t": "yil"
    },
-   "baskent": "Qart Hadasht (Cartagena)",
-   "etkin_bolge": "",
-   "sehirler": [],
-   "ozet": "Hamilcar Barca MO 237/6da Iberya'ya cikti; Ilipa MO 206 sonrasi Roma.",
+   "baskent": "Qart Hadasht (Carthago Nova, Cartagena)",
+   "etkin_bolge": "Güney ve doğu İberya kıyısı; Ebro nehrine kadar (Ebro antlaşması)",
+   "sehirler": [
+    "Carthago Nova",
+    "Gades",
+    "Akra Leuke"
+   ],
+   "ozet": "Hamilcar Barca'nın Birinci Pön Savaşı sonrası Kartaca adına İspanya'da kurduğu hâkimiyet; Hasdrubal Carthago Nova'yı başkent yaptı, Ebro sınırı Roma ile antlaşmayla belirlendi; Scipio'nun Carthago Nova (209) ve Ilipa (206) zaferleriyle Kartacalılar İspanya'dan çıkarıldı.",
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Hamilcar'in cikisi MO 237 (yaklasik). Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "Encyclopaedia Britannica, 11. basım (1911), \"Hamilcar Barca\", Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hamilcar_Barca",
+    "Encyclopaedia Britannica, 11. basım (1911), \"Hasdrubal\" (no.1 Hamilcar'ın damadı), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hasdrubal",
+    "Encyclopaedia Britannica, 11. basım (1911), \"Punic Wars\" ve \"Scipio\" (Africanus), Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Punic_Wars ; Wikisource: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Scipio",
+    "Polybios, Historiai 2.1 ve 2.13, Perseus: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234:book=2:chapter=13 (sayfa açıldı; yıl rakamı için kullanılmadı)"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "Taslak değeri: f=-0236-01-01 (MÖ 237, hafızadan), t=-0205-01-01. EB1911 Hamilcar Barca: \"İspanya seferi (236) ... sekiz yılda geniş toprak edindi, ölümü (228)\"; f -0235 (MÖ 236) kaynağa göre düzeltildi (başka okullar MÖ 237 der; Polybios 2.1 yılı sayfa metninde doğrulanmadı). EB1911 Hasdrubal: Hamilcar ölümü 228 sonrası komutayı devraldı, Carthago Nova'yı başkent olarak kurdu, Roma ile Ebro sınırı antlaşması, 221'de suikast. EB1911 Punic Wars: \"206 sonunda Kartacalılar yarımadadan tamamen çıkarıldı\" (Ilipa); EB Scipio: 209 Carthago Nova'yı aldı; 206'da Gades'in alınmasıyla Roma işgali güvenceye alındı. Siyasî statü: Kartaca'nın ayrı polity'si değil, onun bir Barkid yarı-özerk dominyonu; atlasın `kartaca` künyesi (-0813..-0145) ile örtüşür, ayrı toprak parçası (İspanya) olarak yazıldı.",
    "esleme": {
-    "durum": "eksik",
-    "mevcut_id": null,
-    "not": "kartaca (kuzey-afrika) ana devlet; Iberya kolu ayri polity sayildi, karar ana oturumda."
+    "durum": "ardil-var",
+    "mevcut_id": "kartaca",
+    "not": "Aynı polity (Kartaca) ülke dışı İspanya dominyonu; `kartaca` künyesi f=-0813 t=-0145 içinde; ayrı kayıt gerekli mi karar Emre'nin. f/t kaynakla uyumlu (kartaca içinde)."
    },
    "_dilim": "BATIAV_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11670,7 +11797,7 @@
    "ad": "Soissons Devleti (Aegidius-Syagrius)",
    "tur": "krallik",
    "bolge": "bati-avrupa",
-   "f": "0457-01-01",
+   "f": "0461-01-01",
    "t": "0486-01-01",
    "kesinlik": {
     "f": "yil",
@@ -11683,18 +11810,22 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f Aegidius'un yonetimi (457) yaklasik; Syagrius 464/5ten. t 486 (Soissons Muharebesi). Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "Enciclopedia Italiana Treccani, treccani.it/enciclopedia/egidio/ (\"dopo il 461 d.C. costituì un dominio autonomo nella zona di Soissons\")",
+    "Enciclopedia Italiana Treccani, treccani.it/enciclopedia/siagrio/ (464'te Soissons'da yönetimi aldı; Clovis'e 486'da Soissons'ta yenildi)",
+    "1911 Encyclopædia Britannica, \"Syagrius\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Syagrius: 464-486 Maas, Schelde ve Seine arası; 487'de idam edildi"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "f Aegidius'un yonetimi (457) yaklasik; Syagrius 464/5ten. t 486 (Soissons Muharebesi) | taslak f=457 idi; Treccani 461 sonrası Egidius'un özerk bölgesi, Siagrius 464'ten. Egidius dönemi 461-464 + Siagrius 464-486 tek polity sayıldı. atlasta künye yok (frank = 481-843).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "BATIAV_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11747,18 +11878,21 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f Clodio (428 civari) taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Franks\" (Christian Pfister), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Franks",
+    "1911 Encyclopædia Britannica, \"Clovis\" (Christian Pfister), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Clovis"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "f Clodio (428 civari) taslak | EB11: Tournai Salian Franklarının başkenti; Childerik I 481'de öldü, oğlu Clovis tahta çıktı (t=481 ve frank künyesinin f=481'i ile uyumlu). f=428 okunmadı.",
    "esleme": {
     "durum": "var-kisa",
     "mevcut_id": "frank",
     "not": "frank kunyesi 481de basliyor; oncul Salian krallik ayri yonetilen polity."
    },
    "_dilim": "BATIAV_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -11843,18 +11977,21 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Bolunmeler cok kez birlesti; sureklilik kismen. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Neustria\" (Christian Pfister), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Neustria",
+    "Enciclopedia Italiana Treccani, treccani.it/enciclopedia/neustria/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Bolunmeler cok kez birlesti; sureklilik kismen | EB11: ad sonradan (Fredegar) kullanılmış, Clovis II krallığı için; Treccani: Merovenj hanedanı sonuna (Childerik III) kadar. Takvim: 511 bölünmesi EB Austrasia ile uyumlu; t=751 (Pippin) kaynakta gün/yıl okunmadı, Treccani 754 der. frank (481-843) şemsiyesinin alt krallığı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": "frank 481-843 umbrella."
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -11875,18 +12012,21 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Austrasia\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Austrasia",
+    "Enciclopedia Italiana Treccani, treccani.it/enciclopedia/austrasia/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "EB11: Theuderich I (511-534), Theudebert (534-548), Theudebald (548-555), Sigebert (561-575), Childebert (575-597) — \"retrospektif\" ad. f=511 doğrulandı; t=751 okunmadı. Başkent genelde Metz.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -11971,18 +12111,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f 602 Frank-Vasklar catismasi. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Gascony\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Gascony"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "f 602 Frank-Vasklar catismasi | EB11: Vascones 580/587'de Pireneleri geçti; 602'de dük Genialis; Dük II. Lupus 819'da boyun eğdi (taslak t=778 yerine 819 de savunulabilir). f=602 destekli.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": "gaskonya (E) ardil."
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12023,10 +12165,10 @@
    "tur": "imparatorluk",
    "bolge": "bati-avrupa",
    "f": "0800-12-25",
-   "t": "0888-01-01",
+   "t": "0887-11-01",
    "kesinlik": {
     "f": "gun",
-    "t": "yil"
+    "t": "ay"
    },
    "baskent": "Aachen",
    "etkin_bolge": "",
@@ -12035,18 +12177,21 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "cekirdek",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f imparatorluk taci gunu. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Charles III. (Roman Emperor)\" (Charles III the Fat, EB11), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Charles_III._(Roman_Emperor)",
+    "Louis the German, Lothair I. maddeleri, EB11"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "f imparatorluk taci gunu | t: III. Charles (Şişman) Frankfurt/Tribur meclisince Kasım 887'de tahttan indirildi, 18 Ocak 888'de öldü (EB11; başka kaynaklar 13 Ocak) — imparatorluk fiilen Kasım 887'de dağıldı; taslak t=888-01-01 idi. f=800-12-25 (Charlemagne taç) bu oturumda okunmadı. frank künyesi 481-843'te biter; 843-887 arası Frank şehir zincirleri bu kayıt + dogu-francia/bati-francia/orta-francia ile kapanır.",
    "esleme": {
     "durum": "var-kisa",
     "mevcut_id": "frank",
     "not": "frank kunyesi 481-843; imparatorluk sureklilgi 888e uzanir."
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12067,18 +12212,21 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Verdun Agustos 843; gun teyitsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Lothair I.\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Lothair_I.",
+    "1911 Encyclopædia Britannica, \"Louis the German\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Louis_the_German"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "Verdun Agustos 843; gun teyitsiz | EB11: Verdun antlaşması Ağustos 843; I. Lothar 23 Eylül 855'te Prüm manastırına girdi, altı gün sonra (29 Eylül 855) öldü, ülkesini üç oğluna böldü. Mevcut `orta-francia-lotharingia` künyesi (855-925) 855'ten başlar: 843-855 Orta Francia künyesi EKSİK; ayrı künye ya da o künyenin f'sini 843'e çekmek gerekir (Lotharingia = II. Lothar 855 mirası, EB11 Lorraine/Poupardin).",
    "esleme": {
     "durum": "var-f-t-farkli",
     "mevcut_id": "orta-francia-lotharingia",
     "not": "kunye f 855."
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12099,18 +12247,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f Mantaille meclisi 15 Ekim 879 (taslak, gun teyitsiz). Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Burgundy\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Burgundy"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "f Mantaille meclisi 15 Ekim 879 (taslak, gun teyitsiz) | EB11: 879 Boso Provence krallığını kurdu (f ~879 destekli); t=933 okunmadı.",
    "esleme": {
     "durum": "ardil-var",
     "mevcut_id": "arles-kralligi",
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12131,18 +12281,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Orta Avrupa/Italya siniri. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Burgundy\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Burgundy"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Orta Avrupa/Italya siniri | EB11: 879 Boso Provence krallığını kurdu; 888 ve 933 tarihleri bu oturumda okunmadı.",
    "esleme": {
     "durum": "ardil-var",
     "mevcut_id": "arles-kralligi",
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12163,18 +12315,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f belirsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Frisians\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Frisians"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "f belirsiz | EB11: Pippin II Dorestad 689'da Batı Frizya'yı aldı; Charles Martel 734'te kesin yenilgi verdi, Frizya'nın tam boyun eğişi Charlemagne dönemi (785). t=734 destekli (ya da 689 kısmî); f=600 kaynakta yok.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": "frizya-ozgurlugu (1101) farkli donem."
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12195,18 +12349,21 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f gelenek. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Mercia\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Mercia",
+    "1911 Encyclopædia Britannica, \"Wessex\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Wessex"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "f gelenek | EB11 Mercia: Essex 825'ten sonra Wessex'e katıldı; Wessex: Ecgberht 825'te Beornwulf'u yenince Sussex, Surrey, Kent ve Essex'i ilhak etti. t=825 destekli; f=527 okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": "Heptarsi: kent, sussex, wessex, mercia, northumbria, dogu-anglia mevcut."
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12215,10 +12372,10 @@
    "tur": "krallik",
    "bolge": "bati-avrupa",
    "f": "0547-01-01",
-   "t": "0654-01-01",
+   "t": "0605-01-01",
    "kesinlik": {
     "f": "yil",
-    "t": "yuzyil"
+    "t": "yil"
    },
    "baskent": "Bamburgh",
    "etkin_bolge": "",
@@ -12227,18 +12384,21 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Northumbria kunyesi 604. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Bernicia\" (Frederick George Meeson), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Bernicia",
+    "1911 Encyclopædia Britannica, \"Northumbria\" (Frederick George Meeson), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Northumbria"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Northumbria kunyesi 604 | EB11: ilk kral Ida ~547 (f destekli); Æthelfrith Deira'yı ~605'te birleştirdi (taslak t=654 idi; 633-34 Eanfrith ve Oswiu dönemindeki kısa ayrılıklar alt-krallık). atlas `northumbria` (604-954) künyesi birleşik krallığı kapsar.",
    "esleme": {
     "durum": "var-kisa",
     "mevcut_id": "northumbria",
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12247,10 +12407,10 @@
    "tur": "krallik",
    "bolge": "bati-avrupa",
    "f": "0560-01-01",
-   "t": "0654-01-01",
+   "t": "0605-01-01",
    "kesinlik": {
     "f": "onyil",
-    "t": "yuzyil"
+    "t": "yil"
    },
    "baskent": "York",
    "etkin_bolge": "",
@@ -12259,18 +12419,21 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Deira\" (Frederick George Meeson), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Deira",
+    "1911 Encyclopædia Britannica, \"Northumbria\" (Frederick George Meeson), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Northumbria"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "EB11: ilk bilinen kral Ælle ~585'te hüküm sürüyor (taslak f=560 kaynakta yok; yerleşim tarihi \"bilinmiyor\"); ~605 Bernicia ile birleşti, Edwin 616/617'de ikisini birlikte yönetti; sonra kısa süreli ayrı krallar (Oswiu dönemi).",
    "esleme": {
     "durum": "var-kisa",
     "mevcut_id": "northumbria",
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12451,18 +12614,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f belirsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), Galler bölümü (c. XIV/XV): Wales tribal units, Deheubarth"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "f belirsiz | Wales yarım adasındaki aşiret \"krallıklar\": Gwynedd, Powys, Ceredigion, Dyfed, Ystrad Tywi, Brycheiniog, Morgannwg; Seisyll (Ceredigion) Dyfed/Ystrad Tywi/Brycheiniog'u birleştirerek Deheubarth'in öncülünü kurdu. t=920 (Deheubarth künyesi 920) uyumlu fikir; kesin tarih okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": "deheubarth (920)"
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12515,18 +12680,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), Galler bölümü: Morgannwg"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Tarihler bilinmiyor | Kaynakta Morgannwg (Glamorgan) aşiret krallığı olarak anılır; Glywysing/Gwent adları aynı bölgeyi kapsar; tarih okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12547,18 +12714,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), Galler bölümü: tribal units"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Tarihler bilinmiyor | Aynı kaynakta Brycheiniog 7 Galler aşiret krallığı arasında; tarihi okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12579,18 +12748,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), Galler bölümü: Seisyll of Ceredigion"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Tarihler bilinmiyor | Aynı kaynakta Ceredigion aşiret krallığı; Seisyll ile Deheubarth'e yol açtı. Tarih okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12643,18 +12814,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XIII: \"The Orkneys, Shetlands, Western Islands, and Man\"; Vikinglerin 795/798 baskınları"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "f taslak | Kaynak Orkney, Shetland, Batı Adaları ve Man'daki İskandinav yerleşimlerini ve 795-798 baskınlarını (Skye 795, Man 798) doğrular; 850/1266 tarihleri okunmadı.",
    "esleme": {
     "durum": "var-kisa",
     "mevcut_id": "man-ve-adalar-krallik",
     "not": "kunye 1000den."
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12675,18 +12848,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XIII: Clontarf 1014, Orkney earl Sigurðr"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Orkney Jarlı Sigurðr, 1014 Clontarf'ta Dublin tarafında savaşıp öldü (kaynağa göre); jarllık varlığı doğrulanır, f=875/t=1000 okunmadı.",
    "esleme": {
     "durum": "var-kisa",
     "mevcut_id": "orkney-kontlugu",
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12707,18 +12882,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XIII Vikingler: İrlanda Norse merkezleri"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "taslak | Norse Dublin, Waterford, Limerick, Cork 9. yy ortasında merkezlerdir (866 Olaf); 914/1170 okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": "dublin-krallik mevcut."
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12739,18 +12916,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XIII: Limerick ve Dublin Norse yönetimi, Clontarf 1014"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "taslak | Limerick Vikingleri Clontarf (1014) öncesi Brian Boru'ya tâbi (1014 savaşında Limerick Vikingleri anılır); f=922/t=1014 okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -12982,7 +13161,7 @@
    "ad": "Bretanya Prensligi/Kralligi (Nominoe - Salomon)",
    "tur": "krallik",
    "bolge": "bati-avrupa",
-   "f": "0845-01-01",
+   "f": "0846-01-01",
    "t": "0939-01-01",
    "kesinlik": {
     "f": "yil",
@@ -12995,18 +13174,21 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire): Ballon savaşı (Kasım 845), ertesi yaz Kel Charles Nominoë ile Bretanya bağımsızlığını tanıyan antlaşmayı imzaladı",
+    "1911 Encyclopædia Britannica, \"Brittany\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Brittany"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "taslak | taslak f=845 idi; Ballon savaşı Kasım 845, bağımsızlığın tanınması 846 yazı (CMH III; EB11 de 846). t=939 (Alain Barbetorte) okunmadı. atlas `bretanya` künyesi 939'da başlar: 846-939 dilimi künyeyle örtüşmez, künye öne çekilebilir.",
    "esleme": {
     "durum": "var-kisa",
     "mevcut_id": "bretanya",
     "not": "kunye 939 dukalik."
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -13027,18 +13209,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI: Tamarón 1037"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Taslak değer korundu (t=1071). CMH III: Bermudo III Galicia'da hüküm sürdü, 1037 Tamarón'da Ferdinand'a yenildi; Bermudo León kralı sayıldığından ayrı bir Galicia krallığı olarak 910-1071 kaynakla doğrulanmadı. f=910 okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": "suev 409-585 oncul."
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -13091,18 +13275,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI: 1035 Sancho'nun ölümü, 1037 Tamarón"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "taslak | t=1035: Sancho Mayor ölümüyle (1035) Kastilya Ferdinand'a geçti; atlas `kastilya` künyesi 1035'te başlar (uyumlu, kontluk=öncül). f=850 okunmadı.",
    "esleme": {
     "durum": "var-kisa",
     "mevcut_id": "kastilya",
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -13123,18 +13309,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI: Sobrarbe-Ribagorza-Aragon üç kontluk, 1035 paylaşımı"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "taslak | t=1035: Sancho Mayor'un ölümüyle Aragon Ramiro'ya geçti (atlas `aragon` künyesi 1035 başlar, uyumlu). f=809 okunmadı.",
    "esleme": {
     "durum": "var-kisa",
     "mevcut_id": "aragon",
     "not": "kunye 1035."
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -13155,18 +13343,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI: Sobrarbe/Ribagorza 724 ve 1035 anlatısı"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "taslak | Sobrarbe: García Jiménez 724'te Aínsa'yı alarak direniş merkezi kurdu (efsanevi/çelişkili anlatım); Sancho Mayor 1035'te Sobrarbe ve Ribagorza'yı oğlu Gonzalo'ya bıraktı (t=1035 destekli). f=872 okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -13187,18 +13377,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI (Altamira): Barselona kontları 9. yy sonuna kadar Marka'nın bütün kontluklarını (Gerona, Ampurias, Peralada, Besalú, Ausona, Berga, Cerdanya, Urgel, Pallars, Ribagorza) ele geçirdi; Rosellón/Conflent'e de üstünlük kurdu"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "taslak | Pallars Barselona kontluk şemsiyesinde sayılır; f/t okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": "barselona-kontlugu ile iliski."
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -13219,18 +13411,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI (Altamira): Barselona kontları 9. yy sonuna kadar Marka'nın bütün kontluklarını (Gerona, Ampurias, Peralada, Besalú, Ausona, Berga, Cerdanya, Urgel, Pallars, Ribagorza) ele geçirdi; Rosellón/Conflent'e de üstünlük kurdu"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "taslak | Urgel kontu Armengol 1010'da Kurtuba seferinde Barselona kontu Raymond ile müttefik görünür (c. XVI). Kontluk hanedanı ayrı; f=798/t=1314 okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -13251,18 +13445,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI (Altamira): Barselona kontları 9. yy sonuna kadar Marka'nın bütün kontluklarını (Gerona, Ampurias, Peralada, Besalú, Ausona, Berga, Cerdanya, Urgel, Pallars, Ribagorza) ele geçirdi; Rosellón/Conflent'e de üstünlük kurdu"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "taslak | Ampurias Barselona kontlarının elindeki kontluklardandır (9. yy sonu); f=819/t=1402 okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -13283,18 +13479,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI (Altamira): Barselona kontları 9. yy sonuna kadar Marka'nın bütün kontluklarını (Gerona, Ampurias, Peralada, Besalú, Ausona, Berga, Cerdanya, Urgel, Pallars, Ribagorza) ele geçirdi; Rosellón/Conflent'e de üstünlük kurdu"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "taslak | Kaynak kontluğun varlığını ve Barselona hanedanının elinde olduğunu doğrular (9. yy sonu). f=878/t=1111 okunmadı; Barselona kontluğu (atlas `barselona-kontlugu` 801-1164) ile aynı hanedan — bağımsız polity mi, alt kontluk mu karar bekler.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -13315,18 +13513,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Roussillon\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Roussillon"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "taslak | EB11 Roussillon: Septimania Sarazenler elinde 719'dan Pippin'in 756 yenilgisine kadar; 759 (Narbonne) okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -13347,18 +13547,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "f bilinmiyor; taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/kasi-beni-kasi (\"Kasî\", TDV): hânedan Kurtuba emirliğine bağlı kalıp fırsatta isyan/bağımsızlık kazandı; Muhammed b. Lübb 317'de (929) öldürüldü"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "f bilinmiyor; taslak | t=929: son Kasî hükümdarı Muhammed 317/929'da öldürüldü (TDV). f belirsiz: hânedan 172/788-89 Mûsâ b. Fürtûn'dan beri anılır, kalıcı bağımsızlık evreleri (Mûsâ b. Mûsâ 9. yy, Lübb 283/896-898) TDV'de dönemlere dağılır; tek bir f okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -13366,11 +13568,11 @@
    "ad": "Bobastro (Ibn Hafsun Emirligi)",
    "tur": "emirlik",
    "bolge": "iberya",
-   "f": "0880-01-01",
-   "t": "0928-01-01",
+   "f": "0880-08-12",
+   "t": "0928-01-19",
    "kesinlik": {
     "f": "yil",
-    "t": "yil"
+    "t": "gun"
    },
    "baskent": "Bobastro",
    "etkin_bolge": "",
@@ -13379,18 +13581,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+   "kaynak": [
+    "TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/omer-b-hafsun (\"Ömer b. Hafsûn\", TDV): Bübeşter'e (Bobastro) yerleşip isyan başlattı (267/880); Abdurrahman III'ün kuşattığı Bübeşter 23 Zilkade 315 (19 Ocak 928) tarihinde ele geçirilip yıktırıldı; Ömer 16 Şaban 305 (1 Şubat 918) öldü"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "taslak | f: hicrî 267 ∩ 880 ilk günü (tablo, Jülyen, ±2 gün), kaynak yalnız \"267/880\" der; t gün kaynakta (19 Ocak 928, Jülyen). Bobastro bağımsız emirlik sayılır; Endülüs Emevîlerine zaman zaman biat/af talebi (303/916) var.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "BATIAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -13519,6 +13723,76 @@
    "taslak": true,
    "f_t_durum": "dogrulanmadi",
    "devredilebilir": false,
+   "devir_tarafi": "VERI-MS1-1281"
+  },
+  {
+   "ad_yerel": null,
+   "etkin_bolge": "",
+   "sehirler": [],
+   "oncul": [],
+   "ardil": [],
+   "kaynak": [
+    "1911 Encyclopædia Britannica, \"Nevers\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Nevers"
+   ],
+   "ic_not": "EB11: kontluk 987'de Dük Henri I tarafından Otto-Guillaume'a verildi, beş yıl sonra Landri'ye (992). İlk kontlar hanedanı Agnes'in ölümüyle 1192'de sona erdi (Pierre de Courtenay), 1272'de Dampierre. t: kontluk 1281 sonrası sürer (Fransa krallığına/dukalığa geçişi bu oturumda okunmadı). Kontluk Burgonya dukalığından ayrıldığı için polity; Capet vasalı.",
+   "id": "nevers-kontlugu",
+   "ad": "Nevers Kontluğu (Nivernais)",
+   "tur": "kontluk",
+   "bolge": "bati-avrupa",
+   "f": "0987-01-01",
+   "t": null,
+   "kesinlik": {
+    "f": "yil",
+    "t": "belirsiz"
+   },
+   "baskent": "Nevers",
+   "ozet": "Burgonya dükü I. Henri 987'de kontluğu üvey oğlu Otto-Guillaume'a verdi; 992'de damadı Landri'ye geçti, ilk hanedan 1192'de bitti.",
+   "oncelik": "kucuk",
+   "dogrulama": "okundu",
+   "esleme": {
+    "durum": "eksik",
+    "mevcut_id": null,
+    "not": ""
+   },
+   "_dilim": "BATIAV_D",
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
+   "devir_tarafi": "VERI-MS1-1281"
+  },
+  {
+   "ad_yerel": null,
+   "etkin_bolge": "",
+   "sehirler": [],
+   "oncul": [],
+   "ardil": [],
+   "kaynak": [
+    "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire): Maine tartışmaları (846 antlaşması, 856 Maine Dükalığı); The Cambridge Medieval History vol. V \"Contest of Empire and Papacy\", Normandy ch.: 1051 Geoffroy Martel Maine kontu Herbert'i kovup topraklarını Anjou'ya kattı; 1063-64 William Maine kontu unvanını aldı"
+   ],
+   "ic_not": "Kaynak OCR metni (archive.org djvu) gürültülü; yalnız yıllar okundu: 846 (kont Lambert), 856 (Prens Louis için Maine Dükalığı marka), 1051 (Anjou ilhakı), 1063-64 (William Maine kontu). f=846 \"ilk kaynakta görünüş\" — kontluğun başlangıç günü değil. t (Anjou'ya kalıcı katılım) okunmadı: null.",
+   "id": "maine-kontlugu",
+   "ad": "Maine Kontluğu",
+   "tur": "kontluk",
+   "bolge": "bati-avrupa",
+   "f": "0846-01-01",
+   "t": null,
+   "kesinlik": {
+    "f": "yil",
+    "t": "belirsiz"
+   },
+   "baskent": "Le Mans",
+   "ozet": "Carolingian marka/kontluk; 846'da Lambert'in elinde bırakıldı; 1051'de Geoffroy Martel Anjou'ya kattı, 1063-64 Normandiya'nın üstünlüğü.",
+   "oncelik": "kucuk",
+   "dogrulama": "kismen-okundu",
+   "esleme": {
+    "durum": "eksik",
+    "mevcut_id": null,
+    "not": ""
+   },
+   "_dilim": "BATIAV_D",
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -31373,20 +31647,20 @@
    ],
    "oncelik": "cekirdek",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Etruschi' (https://www.treccani.it/enciclopedia/etruschi/): «all'inizio del 9° sec. a.C. fiorì la civiltà del Ferro in molti centri dell'Etruria storica»; ordinamento «a base monarchica in origine, aristocratica dal 5° sec.»; 8. yy'dan genişleme; 6. yy sonunda Latinlerin Aricia yenilgisiyle Tiber güneyi hâkimiyeti sona erdi; Cumae 474.",
+    "Treccani, Enciclopedia on line, 'Cerveteri': Caere 'Etrüsk konfederasyonunun 12 şehrinden biri'."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Atlas künyesi f=-0574 görünüyor; 'Dodekapolis' birliği tarihi belirsiz, şehirleşme MÖ ~700. Bireysel şehirler aşağıda ayrı kayıtlı.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Atlas künyesi f=-0574 görünüyor; 'Dodekapolis' birliği tarihi belirsiz, şehirleşme MÖ ~700. Bireysel şehirler aşağıda ayrı kayıtlı. [Tur2] Konfederasyonun kuruluş tarihi kaynakta yok: atlas f=-0574 ve taslak f=-0699 desteklenmiyor (Treccani: MÖ 9. yy başı Demir Çağı merkezleri). t=-0087 (88 MÖ) Sosyal Savaş/Lex Iulia dönemi okunmadı; Tarquinia 281, Vulci 280, Caere 4. yy Roma'ya tabi (ayrı kayıtlar).",
    "esleme": {
     "durum": "var-f-t-farkli",
     "mevcut_id": "etrusk-sehir-devletleri",
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -31395,10 +31669,10 @@
    "tur": "sehir-devleti",
    "bolge": "italya",
    "f": "-0699-01-01",
-   "t": "-0307-01-01",
+   "t": "-0280-01-01",
    "kesinlik": {
     "f": "yuzyil",
-    "t": "onyil"
+    "t": "yil"
    },
    "baskent": "Tarquinia",
    "etkin_bolge": "Orta Tirren kıyısı",
@@ -31415,20 +31689,19 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Tarquinia' (https://www.treccani.it/enciclopedia/tarquinia/): «Dalla metà dell'8° sec. a.C. si registra una decisa crescita demografica e culturale»; «Dopo l'inizio del 5° sec. la sua potenza cominciò a declinare»; Roma ile 358-51 savaşları, «dopo una definitiva sconfitta nel 281 a.C., entrò nell'orbita di Roma, come stato federato»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Bitiş kesinleşmedi: MÖ 351 ateşkes, MÖ 311-308 savaş, MÖ 308 barış. MÖ ~281'e kadar kısmi özerklik de savunulur.",
+   "dogrulama": "okundu",
+   "ic_not": "Bitiş kesinleşmedi: MÖ 351 ateşkes, MÖ 311-308 savaş, MÖ 308 barış. MÖ ~281'e kadar kısmi özerklik de savunulur. [Tur2: taslak t degeri: -0307-01-01] [Tur2] Taslak t=-0307 (308 MÖ) yerine Treccani 281 MÖ (=-0280). 351 MÖ'deki 40 yıllık ateşkes bu turda okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -31457,20 +31730,19 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Cerveteri' (https://www.treccani.it/enciclopedia/cerveteri/): «L'antica Caere fu una delle 12 città della confederazione etrusca»; «Si sottomise a Roma nel 4° sec. a.C. e ottenne la cittadinanza senza suffragio e poi pieni diritti»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "MÖ 353 yarı-vatandaşlık ve MÖ 273 topraklarının alınması; bitiş tarihi tartışmalı.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "MÖ 353 yarı-vatandaşlık ve MÖ 273 topraklarının alınması; bitiş tarihi tartışmalı. [Tur2] t: Treccani yalnız '4. yy' der; atlas t=-0272 (273 MÖ) desteklenmiyor (yüzyıl düzeyi: -0399..-0300 arası). f=-0699 okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -31498,20 +31770,19 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Veio' (https://www.treccani.it/enciclopedia/veio/): «Dell'abitato etrusco, fiorente soprattutto fra l'8° e il 6° sec. a.C.», sur 6. yy."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Geleneksel düşüş MÖ 396 (Livius); astronomik -0395.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Geleneksel düşüş MÖ 396 (Livius); astronomik -0395. [Tur2] Treccani Veii'nin düşüşünü (396 MÖ geleneksel, Livius 5) bu sayfada vermiyor; t=-0395 geleneksel tarih okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -31539,20 +31810,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Vulci' (https://www.treccani.it/enciclopedia/vulci/): «fiorente in età villanoviana e, soprattutto, tra il 7° e 5° sec. a.C.»; «Vinta dai Romani nel 280 a.C., fu privata di parte del territorio, in cui nel 273 fu fondata Cosa»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Zafer kutlaması MÖ 280/279; tarih yaklaşık.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Zafer kutlaması MÖ 280/279; tarih yaklaşık. [Tur2] t=280 MÖ (-0279) okundu, atlas taslak uyumlu.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -31621,20 +31891,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Chiusi' (https://www.treccani.it/enciclopedia/chiusi/): nekropol, 7. yy oda mezarları; Final Bronz Çağı'ndan iskan; cratere François (6. yy ortası)."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Bitiş çok belirsiz (MÖ 295 Sentinum çevresi).",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Bitiş çok belirsiz (MÖ 295 Sentinum çevresi). [Tur2] Polity olarak bitiş (t=-0294) okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -31662,20 +31931,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Volterra' (https://www.treccani.it/enciclopedia/volterra/): Etrüsk surlar 6.-5. yy ve 4. yy; Nekropol 4.-2. yy; Komün 13. yy'da piskoposluk yargısının yerine geçti."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "MÖ 3. yy'dan beri Roma müttefiki; bitiş yaklaşık.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "MÖ 3. yy'dan beri Roma müttefiki; bitiş yaklaşık. [Tur2] Roma'ya tabi olma/Sulla kuşatması (t=-0087) bu turda okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -31703,20 +31971,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Populonia' (https://www.treccani.it/enciclopedia/populonia/): «L'origine di P. è incerta: già in piena fioritura nel 7° sec. a.C.»; «All'inizio del 3° sec. passò sotto l'influenza diretta di Roma divenendo, al tempo della guerra sociale, municipio»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Bitiş yaklaşık (Roma müttefikliğine geçiş MÖ 4.-3. yy).",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Bitiş yaklaşık (Roma müttefikliğine geçiş MÖ 4.-3. yy). [Tur2] Treccani 'erken 3. yy' ile Roma etkisi: atlas t=-0299 (300 MÖ) ile uyumlu sayılabilir, yıl düzeyi kesin değil.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -31787,20 +32054,19 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Cuma' (https://www.treccani.it/enciclopedia/cuma/): «Colonia euboica, fu fondata alla fine dell'8° sec. a.C.»; Dauni, Aurunci ve Etrüsklere karşı zafer; «nella seconda metà del 5° sec. cadde sotto il dominio sannita»; Cumae 474'te Etrüskleri yendi (Treccani 'Etruschi')."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Kuruluş MÖ ~750-725 (Pithekoussai ile birlikte); bitiş MÖ 421/420.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Kuruluş MÖ ~750-725 (Pithekoussai ile birlikte); bitiş MÖ 421/420. [Tur2] f: geleneksel -0749 (750 MÖ); Treccani 'sekizinci yüzyıl sonu' (daha geç). t: Treccani 5. yy ikinci yarısı; atlas -0419 (420 MÖ) ile uyumlu, kesin yıl okunmadı (Livius 4.44 sayfası açılamadı).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -31809,7 +32075,7 @@
    "tur": "sehir-devleti",
    "bolge": "italya",
    "f": "-0599-01-01",
-   "t": "-0324-01-01",
+   "t": "-0325-01-01",
    "kesinlik": {
     "f": "yuzyil",
     "t": "yil"
@@ -31829,20 +32095,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Napoli' (https://www.treccani.it/enciclopedia/napoli/): Rodoslu Yunan yerleşimi Megaride adasında, ardından Cumae'lilerin 7.-6. yy yerleşimi (Pizzofalcone); 474 MÖ Hieron'un Etrüsk donanmasını yenmesinden sonra yeni yerleşim (Neapolis); «Implicata nella seconda guerra sannitica ... N. aprì le porte ai Romani che con essa conclusero (326) un foedus aequum»; 90 MÖ'de Roma vatandaşlığı; 82 MÖ Sulla'ya karşı Marius yanlısı."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Palaiopolis/Parthenope ayrımı karışık; Neapolis MÖ ~470.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Palaiopolis/Parthenope ayrımı karışık; Neapolis MÖ ~470. [Tur2: taslak t degeri: -0324-01-01] [Tur2] Taslak t=-0324 (325 MÖ) yerine 326 MÖ foedus aequum (=-0325): kaynak 'özerk müttefik' statüsüne geçişi yazar, tam bağımsızlığın sonu tartışılır (Neapolis foedus ile özerk müttefik kaldı; polis t = bağımsızlığın sonu kuralı ile 326). f=-0599 (600 MÖ) Treccani'de yok: Cumae kolonisi 7.-6. yy. Oyun alanı: 'Neapolis' adı 474 sonrası yeni şehir için; Parthenope eski çekirdek.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -31907,20 +32172,20 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Paestum' (https://www.treccani.it/enciclopedia/paestum/): «fondata, secondo Strabone, dagli Achei di Sibari ... al principio del 6° sec. a.C.»; Büyük Iskender'in amcası Alexandros Molossos seferiyle kısa süre Yunanlıların elinde; «fu recuperata dai Lucani nel 331-30 a.C.»; 273 MÖ'de Latin kolonisi.",
+    "Treccani, 'Lucani': Lucani 5.-4. yy'da Posidonia'yı fethetti."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Bitiş yaklaşık (Lukan işgali MÖ ~400).",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Bitiş yaklaşık (Lukan işgali MÖ ~400). [Tur2] f=-0599 (600 MÖ) 'principio del 6° sec.' ile uyumlu. t: Lucani fethi tarihi kaynaklarda çelişkili (5.-4. yy; Treccani Paestum 331-30'da yeniden Lucani'ye döndü); atlas -0399 doğrulanmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -31948,20 +32213,19 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Sibari' (https://www.treccani.it/enciclopedia/sibari/): «Antica colonia fondata nella seconda metà dell'8° sec. a.C. dagli Achei del Peloponneso»; «una famosa battaglia (510 ca. a.C.) sul fiume Traente i Sibariti furono sconfitti dai Crotoniati. La città non fu completamente distrutta»; 444/3 Turi kuruldu."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Kuruluş geleneksel MÖ 720; yıkım MÖ 510.",
+   "dogrulama": "okundu",
+   "ic_not": "Kuruluş geleneksel MÖ 720; yıkım MÖ 510. [Tur2] f=-0719 (720 MÖ) geleneksel; Treccani 8. yy ikinci yarı. t=-0509 (510 MÖ, 'ca.').",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -31970,7 +32234,7 @@
    "tur": "sehir-devleti",
    "bolge": "italya",
    "f": "-0708-01-01",
-   "t": "-0275-01-01",
+   "t": "-0276-01-01",
    "kesinlik": {
     "f": "yil",
     "t": "yil"
@@ -31987,20 +32251,19 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Crotone' (https://www.treccani.it/enciclopedia/crotone/): «Fu fondata da coloni achei e corinzi nella seconda metà dell'8° sec. a.C.»; Sagra yenilgisi; 510'da Sibari'yi aldı; «finché nel 277 fu conquistata dai Romani»; 194 MÖ'de Roma kolonisi."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Bitiş yaklaşık (Pyrrhos savaşları MÖ 277; Roma kolonisi MÖ 194).",
+   "dogrulama": "okundu",
+   "ic_not": "Bitiş yaklaşık (Pyrrhos savaşları MÖ 277; Roma kolonisi MÖ 194). [Tur2: taslak t degeri: -0275-01-01] [Tur2] Taslak t=-0275 (276 MÖ) yerine Treccani 277 MÖ (=-0276).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32026,20 +32289,21 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Taranto' (https://www.treccani.it/enciclopedia/taranto/): «Fu fondata da coloni spartani probabilmente verso la metà dell'8° sec. a.C.»; Pyrrhus savaşı «si concluse (272) con la sottomissione della città greca e il suo ingresso nell'alleanza romana».",
+    "Treccani, Enciclopedia on line, 'Messapi': «La fondazione di Taranto (706-705 a.C., secondo la cronologia di Eusebio)».",
+    "Enciclopedia Italiana (1937), 'Taranto' (https://www.treccani.it/enciclopedia/taranto_(Enciclopedia-Italiana)/): Milone'nin garnizonu 272'de Taranto'yu Romalılara teslim etti."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Geleneksel kuruluş MÖ 706 (Eusebius); düşüş MÖ 272.",
+   "dogrulama": "okundu",
+   "ic_not": "Geleneksel kuruluş MÖ 706 (Eusebius); düşüş MÖ 272. [Tur2] f: Eusebius 706/705 (=-0705) vs Treccani 'metà dell'8° sec.' (daha eski); atlas Eusebius'a dayanır. t=272 MÖ (=-0271) iki kaynakta.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32104,20 +32368,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Metaponto' (https://www.treccani.it/enciclopedia/metaponto/): «Secondo la cronologia tradizionale ... fondata nel 773 a.C. dagli Achei. L'indagine archeologica tende, però, ad abbassare di circa un secolo tale data»; Sibari ve Crotone müttefiki; 510'dan sonra Crotone baskısı; Pyrrhus savaşından sonra Roma müttefiki; İkinci Pön Savaşı'nda Hannibal'ın tarafına geçti, 210 sonrası karargâh; sonra foederata, municipium."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Bitiş yaklaşık.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Bitiş yaklaşık. [Tur2] f: geleneksel 773 MÖ vs arkeolojik ~700 (atlas -0699 arkeolojik düşük tarihle uyumlu). t=-0211 (212 MÖ) Hannibal'e geçiş: Treccani yıl vermez ('dopo il 210' karargâh).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32126,7 +32389,7 @@
    "tur": "sehir-devleti",
    "bolge": "italya",
    "f": "-0719-01-01",
-   "t": "-0269-01-01",
+   "t": "-0281-01-01",
    "kesinlik": {
     "f": "yuzyil",
     "t": "yil"
@@ -32143,20 +32406,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Reggio di Calabria' (https://www.treccani.it/enciclopedia/reggio-di-calabria/): «fondata da Calcidesi di Eubea nella seconda metà dell'8° sec. a.C.»; Dionysios I ile mücadele (404-387 yıkım); Alexandros Molossos (334-331); «dovette accogliere un presidio romano (282) e i Romani l'aiutarono contro Pirro. Da allora R. fu fedele a Roma»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Kampan askerleri MÖ 280'den 270'e işgal etti.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Kampan askerleri MÖ 280'den 270'e işgal etti. [Tur2: taslak t degeri: -0269-01-01] [Tur2] Taslak t=-0269 (270 MÖ) yerine 282 MÖ Roma garnizonu (=-0281): bağımsızlığın sonu. (Campanian paralı askerlerin 280'de şehri ele geçirmesi bu turda okunmadı.)",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32165,7 +32427,7 @@
    "tur": "sehir-devleti",
    "bolge": "italya",
    "f": "-0729-01-01",
-   "t": "-0287-01-01",
+   "t": "-0288-01-01",
    "kesinlik": {
     "f": "yil",
     "t": "yil"
@@ -32183,20 +32445,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Messina' (https://www.treccani.it/enciclopedia/messina/): «fondata nell'8° sec. a.C. dai Calcidesi»; Zancle ('orak') adı; 4. yy Dione, Ippone, Timoleonte, Agatocle; «alla morte di quest'ultimo (289) cadde in mano dei Mamertini»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Mamertin işgali MÖ ~289-288.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Mamertin işgali MÖ ~289-288. [Tur2: taslak t degeri: -0287-01-01] [Tur2] Taslak t=-0287 (288 MÖ) yerine Treccani 289 MÖ (=-0288). Zankle->Messana ad değişimi (Anaxilas ~490) ayrı olay.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32222,20 +32483,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Thucydides 6.3.1 (Perseus Digital Library, Perseus:text:1999.01.0200:book=6:chapter=3): «Of the Hellenes, the first to arrive were Chalcidians from Euboea with Thucles ... They founded Naxos»; Syracuse ertesi yıl kuruldu."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "",
+   "dogrulama": "kismen-okundu",
+   "ic_not": " [Tur2] f=-0733 (734 MÖ) Thukydides'e göre Syracuse'tan 1 yıl önce (Syracuse'un kuruluşu 734-33, Treccani). t=-0402 (403 MÖ Dionysios'un yıkımı) bu turda okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32263,20 +32523,20 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Lentini' (https://www.treccani.it/enciclopedia/lentini/): «Fu fondata dai Calcidesi di Nasso nel 729 a.C., in una località già abitata da Siculi».",
+    "Thucydides 6.3.3 (Perseus): Naxos'tan çıkan Thucles ve Khalkisliler Syracuse'un kuruluşundan beş yıl sonra Leontini'yi kurdu (Sikelleri sürerek); 5.4: Leontini demosu ve yeni yurttaşlar, kentin yıkılıp halkın Syracuse'a göç etmesiyle sonuçlanan çekişme."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Bitiş MÖ 423/422.",
+   "dogrulama": "okundu",
+   "ic_not": "Bitiş MÖ 423/422. [Tur2] f: Treccani 729 MÖ (=-0728), atlas ile eşit. t=-0422 (423 MÖ) Thukydides 5.4 olay sırası (Atina'nın 424'te Sicilya'dan ayrılmasından sonra) ile uyumlu, yıl yazılı değil.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32304,20 +32564,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Catania' (https://www.treccani.it/enciclopedia/catania/): «Probabilmente di origine sicula, nella seconda metà dell'8° sec. a.C. fu colonizzata dai Calcidesi di Nasso»; Thucydides 6.3.3: Catana Leontini'den sonra, Evarchus'u kurucu seçen Catanalılarla."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "",
+   "dogrulama": "kismen-okundu",
+   "ic_not": " [Tur2] t=-0402 (403 MÖ) Dionysios yıkımı okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32344,20 +32603,21 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Thucydides 6.4.1-2 (Perseus:text:1999.01.0200:book=6:chapter=4): Lamis'in Megara'lıları Hyblaean Megara'yı kurdu; «Here they lived two hundred and forty-five years; after which they were expelled ... by the Syracusan tyrant Gelo»; yüz yıl sonra Selinus'u kurdular.",
+    "Herodotos 7.156 (Perseus:text:1999.01.0126:book=7:chapter=156): Gelon kuşatmadan sonra Megaralıları teslim aldı, zenginleri Syracuse'a yerleştirdi, halkı köle olarak sattı.",
+    "Treccani, Enciclopedia on line, 'Megara iblea': 214 MÖ'de yok edildi (ikinci/son yıkım)."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "",
+   "dogrulama": "okundu",
+   "ic_not": " [Tur2] f=-0727 (728 MÖ) ve t=-0482 (483 MÖ) Thukydides'in '245 yıl' hesabıyla birebir uyumlu (728-245=483). Şehir Timoleon sonrası yeniden iskân edildi, 214 MÖ Marcellus yıkımı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32384,20 +32644,20 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Gela' (https://www.treccani.it/enciclopedia/gela/): «Secondo la tradizione, G. fu fondata da coloni di Rodi e di Creta nel 688 a.C.»",
+    "Thucydides 6.4.3: Gela, Syracuse'un kuruluşundan sonraki 45. yılda Antiphemus (Rodos) ve Entimus (Girit) tarafından kuruldu."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Bitiş yaklaşık (MÖ 282).",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Bitiş yaklaşık (MÖ 282). [Tur2] f=-0687 (688 MÖ). t=-0281 (282 MÖ Phintias tarafından yıkım) bu turda okunmadı. 5. yy başında Dinomenid Gelon Syracuse'a geçti (Treccani 'Siracusa'; Herodotos 7.156).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32425,20 +32685,20 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Thucydides 6.4.4: «Near one hundred and eight years after the foundation of Gela, the Geloans founded Acragas».",
+    "Treccani, Enciclopedia on line, 'Agrigento' (https://www.treccani.it/enciclopedia/agrigento/): «A. fu fondata ufficialmente dagli abitanti di Gela solo nel 583-82 a.C.»"
    ],
-   "dogrulama": "taslak",
-   "ic_not": "MÖ 406 yıkımı sonrası zayıf yeniden kuruluşlar; Roma düşüşü MÖ 210/209.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "MÖ 406 yıkımı sonrası zayıf yeniden kuruluşlar; Roma düşüşü MÖ 210/209. [Tur2] f: Thukydides hesabı 688-108=580 MÖ (=-0579, atlas) vs Treccani 583/82. t=-0209 (210 MÖ) Roma fethi bu turda okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32466,20 +32726,20 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Selinunte' (https://www.treccani.it/enciclopedia/selinunte/): «Antica colonia di Megara Iblea ... Fondata nel 650 o 627 a.C., fu distrutta dai Cartaginesi prima nel 409 e poi nel 250 a.C.»",
+    "Thucydides 6.4.2: Megara'lılar yerleştikten yüz yıl sonra Pamillus'u gönderip Selinus'u kurdular."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "",
+   "dogrulama": "okundu",
+   "ic_not": " [Tur2] f çelişkisi: Diodoros-Treccani 650, Thukydides hesabı 728-100=628 (atlas -0627=628 MÖ), Treccani'nin ikinci seçeneği 627. t=409 MÖ (=-0408) Treccani ile birebir.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32507,20 +32767,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Imera' (https://www.treccani.it/enciclopedia/imera/): «Fondata (metà 7° sec. a.C.) da coloni di Zancle e fuoriusciti di Siracusa ... fu vassalla di altri Stati, e in particolare di Agrigento. Nel 409 a.C., fu quasi completamente distrutta dai Cartaginesi»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Kuruluş geleneksel MÖ 648.",
+   "dogrulama": "okundu",
+   "ic_not": "Kuruluş geleneksel MÖ 648. [Tur2] t=-0408 (409 MÖ) okundu. f=-0647 (648 MÖ) Treccani 'metà 7° sec.' ile uyumlu, kesin yıl okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32528,8 +32787,8 @@
    "ad": "Sirakuza (Syrakousai)",
    "tur": "sehir-devleti",
    "bolge": "italya",
-   "f": "-0732-01-01",
-   "t": "-0210-01-01",
+   "f": "-0733-01-01",
+   "t": "-0211-01-01",
    "kesinlik": {
     "f": "yil",
     "t": "yil"
@@ -32548,20 +32807,19 @@
    ],
    "oncelik": "cekirdek",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Siracusa' (https://www.treccani.it/enciclopedia/siracusa/): «S. fu fondata nel 734-33 a.C. da coloni greci di Corinto nell'isola di Ortigia»; Gelone 5. yy'da Syracuse'u ele geçirdi, Himera (480), Cumae (474); Dionysios I 406-367; Timoleon 344; Agathokles 317-289; Hieron II kral unvanı; «la conquista romana (212): assediata da Marcello»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Atlas künyesi -0733..-0210; düşüş 212/211 (Marcellus). Tiran/kral dönemleri aynı polity.",
+   "dogrulama": "okundu",
+   "ic_not": "Atlas künyesi -0733..-0210; düşüş 212/211 (Marcellus). Tiran/kral dönemleri aynı polity. [Tur2: taslak f degeri: -0732-01-01] [Tur2: taslak t degeri: -0210-01-01] [Tur2] f: Treccani 734-33 (kesin yıl yok); B kaydı -0732 (733 MÖ), mevcut atlas -0733 (734 MÖ): -0733 seçildi. t: Treccani 212 MÖ (=-0211) Marcellus; atlas -0210 yerine -0211. Atlas künyesi sirakuza -0733/-0210.",
    "esleme": {
     "durum": "var",
     "mevcut_id": "sirakuza",
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32570,7 +32828,7 @@
    "tur": "sehir-devleti",
    "bolge": "italya",
    "f": "-0749-01-01",
-   "t": "-0395-01-01",
+   "t": "-0396-01-01",
    "kesinlik": {
     "f": "yuzyil",
     "t": "yil"
@@ -32587,20 +32845,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Mozia' (https://www.treccani.it/enciclopedia/mozia/): «Fondata dai Fenici (8° sec. a.C.), fu distrutta nel 397 a.C.»"
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Başlangıç MÖ 8. yy (arkeolojik).",
+   "dogrulama": "okundu",
+   "ic_not": "Başlangıç MÖ 8. yy (arkeolojik). [Tur2: taslak t degeri: -0395-01-01] [Tur2] Taslak t=-0395 (396 MÖ) yerine Treccani 397 MÖ (=-0396). f=8. yy (Treccani) vs taslak -0749 (750 MÖ).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32626,20 +32883,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Herodotos 1.166 (Perseus:text:1999.01.0126:book=1:chapter=166): Phokaialılar Kyrnos'ta (Korsika) beş yıl yerleşik yaşadı, komşuları yağmaladı; Tyrrhenoi ve Karthaginoi her biri 60 gemiyle saldırdı; Sardonia denizinde deniz savaşı, Phokaialılar 'Kadmeia zaferi' kazandı (40 gemi kaybı)."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Savaş MÖ 540-535.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Savaş MÖ 540-535. [Tur2] Herodotos mutlak tarih vermez; atlas -0564/-0534 (565/535 MÖ) bu turda kaynakla doğrulanmadı. Alalia 'polity' sayılması tartışmalı (sürgün koloni).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32707,20 +32963,20 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Alba Longa' (https://www.treccani.it/enciclopedia/alba-longa/): «Antichissima città del Lazio sui Colli Albani, fondata, secondo la leggenda, dal figlio di Enea ...»; «La città fu distrutta dai Romani nel 7° sec. a.C. e non più ricostruita»",
+    "Treccani, 'Roma': Latium'da Alba'nın üstünlüğü; «in seguito a lotte, delle quali si hanno solo notizie leggendarie, Alba fu distrutta e Roma divenne la città egemone della Lega latina»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Kuruluş efsanevi (yıl bilinmiyor); varlığı tartışmalı.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Kuruluş efsanevi (yıl bilinmiyor); varlığı tartışmalı. [Tur2] Yarı efsanevi; f bilinmiyor (null kalır). t=-0639 (640 MÖ): Treccani yalnız '7. yy'; geleneksel Tullus Hostilius (yaklaşık 673-642). Polity niteliği tartışmalı (efsane/proto-Latin merkez).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32747,20 +33003,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Falisci' (https://www.treccani.it/enciclopedia/falisci/): «Popolo dell'Etruria meridionale ... assoggettato da Roma nel 3° sec. a.C. Esisteva già nella prima età del Ferro (9° sec.)»; Fidene ile 437-36'da Roma'ya karşı; «nel 395 sarebbe stata distrutta da Camillo»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Yıkım MÖ 241 (astronomik -0240).",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Yıkım MÖ 241 (astronomik -0240). [Tur2] t=-0240 (241 MÖ) Treccani '3. yy' ile uyumlu, yıl okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32769,7 +33024,7 @@
    "tur": "sehir-devleti",
    "bolge": "italya",
    "f": "-0598-01-01",
-   "t": "-0209-01-01",
+   "t": "-0210-01-01",
    "kesinlik": {
     "f": "yuzyil",
     "t": "yil"
@@ -32788,20 +33043,20 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Capua' (https://www.treccani.it/enciclopedia/capua/): «Fondata probabilmente intorno all'800 a.C., restò a lungo nell'orbita della cultura etrusca; passò sotto dominio sannitico nel 424 e si alleò coi Romani nel 340. Dopo la battaglia di Canne (216), si dette ad Annibale ... Costretta ad arrendersi senza condizioni (211), fu duramente trattata dai Romani e privata dell'autonomia politica».",
+    "Enciclopedia Italiana (1930), 'Capua': civitas sine suffragio."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Kuruluş Etrüsk MÖ ~600 (efsane: 800); bağımsızlık sonu MÖ 211/210.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Kuruluş Etrüsk MÖ ~600 (efsane: 800); bağımsızlık sonu MÖ 211/210. [Tur2: taslak t degeri: -0209-01-01] [Tur2] t: Treccani 211 MÖ (=-0210); atlas -0209. f: Treccani 'yaklaşık MÖ 800' (Etrüsk etkisi) ve 424 Samnit hâkimiyeti; atlas -0598 (599 MÖ) desteklenmiyor. Samnit fethi 424 sonrası Campani devleti (özerk) 340'a dek.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32829,20 +33084,20 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Veneti' (https://www.treccani.it/enciclopedia/veneti/): 9.-8. yy Este ve Padova nekropolleri; 6. yy proto-kentleşme (Este, Padova); yazı; 5.-1. yy Padova stel atölyeleri.",
+    "Treccani, 'Latini': «La Gallia transpadana ebbe nell'89 ... il diritto latino ... trasformato ... da Cesare nel 49 a.C.»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Başlangıç Este kültürü (Demir Çağı) yaklaşık; bitiş MÖ 49 (Lex Roscia) ya da MÖ 89 (Latin hakkı).",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Başlangıç Este kültürü (Demir Çağı) yaklaşık; bitiş MÖ 49 (Lex Roscia) ya da MÖ 89 (Latin hakkı). [Tur2] Veneti tek devlet değil kültürel/etnik birlik (şehirler Este, Padova, Altino, Adria); t=-0048 (49 MÖ) Transpadana vatandaşlığı (Treccani 'Latini'). f=-0899 arkeolojik (9. yy), polity başlangıcı değil.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32870,60 +33125,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Liguri' (https://www.treccani.it/enciclopedia/liguri/): «si scontrarono per la prima volta con Roma nel 238-235 a.C.»; «La conquista romana avvenne mediante reiterate campagne nel corso del 2° sec. a.C.»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Başlangıç bilinmiyor (yıl bilinmiyor).",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Başlangıç bilinmiyor (yıl bilinmiyor). [Tur2] Tek polity değil, çok sayıda kabile; f belirsiz (null). t=-0177 (178 MÖ) Treccani 2. yy fetih kampanyaları ile uyumlu.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
-   "devir_tarafi": "VERI-MO-ARKEO"
-  },
-  {
-   "id": "golasecca-kulturu",
-   "ad": "Golasecca Kültürü",
-   "tur": "kultur",
-   "bolge": "italya",
-   "f": "-1198-01-01",
-   "t": "-0398-01-01",
-   "kesinlik": {
-    "f": "yuzyil",
-    "t": "yuzyil"
-   },
-   "baskent": "yok",
-   "etkin_bolge": "Maggiore-Como gölleri",
-   "sehirler": [
-    "Sesto Calende",
-    "Como"
-   ],
-   "ozet": "Lombardiya'da Final Tunç/Demir Çağı kültürü; Kelt (Insubres) yerleşmesiyle sonlandı. Siyasî birim değil.",
-   "oncul": [],
-   "ardil": [
-    "insubres-kabile-devleti"
-   ],
-   "oncelik": "kucuk",
-   "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
-   ],
-   "dogrulama": "taslak",
-   "ic_not": "Tarihler yaklaşık; devlet saymak için gerekçe zayıf.",
-   "esleme": {
-    "durum": "eksik",
-    "mevcut_id": null,
-    "not": ""
-   },
-   "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -32992,20 +33206,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Messapi' (https://www.treccani.it/enciclopedia/messapi/): «7. yy'da Iapyg birliğinin parçalanması Messap kimliğini çıkarır»; Taranto'ya karşı 5. yy başı savaşlar, «battuti intorno al 500, riportarono una vittoria nel 473 o 471»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Başlangıç yaklaşık.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Başlangıç yaklaşık. [Tur2] Messap 'birliği' siyasi bir federasyon mu belirsiz (şehir kümeleri); t=-0264 (265 MÖ Roma fethi) bu turda okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33072,20 +33285,19 @@
    ],
    "oncelik": "cekirdek",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Roma' (https://www.treccani.it/enciclopedia/roma/): «La tradizione annalistica romana faceva risalire la fondazione di Roma da parte di Romolo al 754 o 753 a.C.»; «Di Roma nei tempi dell'età regia (date tradizionali: 754 o 753-509) ... non si dispone di informazioni attendibili»; 6. yy'da bir Etrüsk hanedanı tahtı işgal etti; Tarquinio il Superbo'nun kovulması 509."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Atlas -0752..-0508 uyumlu; geleneksel tarih, tarihsel çekirdek belirsiz.",
+   "dogrulama": "okundu",
+   "ic_not": "Atlas -0752..-0508 uyumlu; geleneksel tarih, tarihsel çekirdek belirsiz. [Tur2] Tarihler geleneksel (Varro 753, Treccani 754/753); yedi kral dizisi geç bir kurgu. Atlas künyesi roma-kralligi -0752/-0508 (753/509 MÖ) Treccani ile uyumlu.",
    "esleme": {
     "durum": "var",
     "mevcut_id": "roma-kralligi",
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33113,20 +33325,20 @@
    ],
    "oncelik": "cekirdek",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Roma' (https://www.treccani.it/enciclopedia/roma/): «La tradizione pone la cacciata di Tarquinio il Superbo nel 509»; Augustus ve prinkipat «(27 a.C. - 14 d.C.)».",
+    "Cassius Dio 53.16-17 ve Ovidius Fasti 1.587-590: bkz. roma-imp (Augustus unvanı)."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Bitiş MÖ 27 Ocak 16 (Senato Augustus'a unvanı verdi) -0026-01-16; alternatif MÖ 31 Actium (-0030) veya MÖ 44 (-0043).",
+   "dogrulama": "okundu",
+   "ic_not": "Bitiş MÖ 27 Ocak 16 (Senato Augustus'a unvanı verdi) -0026-01-16; alternatif MÖ 31 Actium (-0030) veya MÖ 44 (-0043). [Tur2] f=509 MÖ geleneksel; t Prinkipat'ın başlangıcı (27 MÖ) - atlas -0026-01-16 gün çelişkisi roma-imp kaydında (Ovidius 13 Ocak İdus'u vs 16 Ocak).",
    "esleme": {
     "durum": "var",
     "mevcut_id": "roma-cumhuriyeti",
     "not": ""
    },
    "_dilim": "ITALYA_B",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33175,7 +33387,7 @@
    "ad": "Thourioi",
    "tur": "sehir-devleti",
    "bolge": "italya",
-   "f": "-0442-01-01",
+   "f": "-0443-01-01",
    "t": "-0279-01-01",
    "kesinlik": {
     "f": "yil",
@@ -33195,20 +33407,20 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Turi' (https://www.treccani.it/enciclopedia/turi/): «Città della Magna Grecia fondata sul sito della distrutta Sibari nel 444 a.C. come colonia panellenica sotto gli auspici di Pericle»",
+    "Treccani, 'Sibari': Periklesin müdahalesiyle (444/3) Turi kuruldu; kent planı Hippodamos'a atfedilir."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Bitiş yaklaşık (MÖ 282-278).",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Bitiş yaklaşık (MÖ 282-278). [Tur2: taslak f degeri: -0442-01-01] [Tur2] Taslak f=-0442 (443 MÖ) yerine Treccani 444 MÖ (=-0443). t=-0279 (280 MÖ) Roma'ya geçiş bu turda okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33239,20 +33451,19 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Latini' (https://www.treccani.it/enciclopedia/latini/): Latium vetus; «Nelle guerre del 5° sec. l'iniziativa si andò sempre più concentrando nelle mani di Roma ... sul principio del 4° sec. aveva una posizione egemonica nella lega»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Geleneksel tarih; Cassius antlaşması tarihlenmesi tartışmalı.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Geleneksel tarih; Cassius antlaşması tarihlenmesi tartışmalı. [Tur2] Latin Savaşı sonu (338 MÖ, atlas t=-0337) Treccani Latini sayfasında bulunamadı; f=-0492 (493 MÖ Foedus Cassianum) okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33280,20 +33491,19 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Sanniti' (https://www.treccani.it/enciclopedia/sanniti/): Roma'yla «tre conflitti successivi, le cd. guerre sannitiche (343-341; 326-304; 298-290 a.C.)»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Birlik yapısı tartışmalı; siyasî bağımsızlık MÖ 290'da fiilen kırıldı (Aquilonia/Curius), son direniş Sosyal Savaş.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Birlik yapısı tartışmalı; siyasî bağımsızlık MÖ 290'da fiilen kırıldı (Aquilonia/Curius), son direniş Sosyal Savaş. [Tur2] f=-0449 (450 MÖ) ve t=-0081 (82 MÖ Sosyal Savaş/Sulla) bu turda okunmadı; Treccani yalnız savaşların yıllarını verir.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33321,20 +33531,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Lucani' (https://www.treccani.it/enciclopedia/lucani/): «Popolazione italica di origine sannitica, stanziata nella regione ... dal 5° sec. a.C. Tra il 5° e il 4° sec. a.C. conquistarono Posidonia, Pixunte, Lao»; 2. yy başında Bussento, Copia kolonileri."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Kuruluş yaklaşık.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Kuruluş yaklaşık. [Tur2] f 5. yy (atlas -0429 uyumlu), t=-0270 (271 MÖ) okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33364,20 +33573,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Bruzi' (https://www.treccani.it/enciclopedia/bruzi/): «durante il 4° sec. a.C. si stabilì nel territorio dell'attuale Calabria ... Formarono una confederazione di città (Consentia, Aufugum, Bergae, Besidiae, Ocriculum ...), che nel 3° sec. a.C. raggiunsero grande potenza»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Kuruluş MÖ 356/355.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Kuruluş MÖ 356/355. [Tur2] f=-0355 (356 MÖ) ve t=-0202 (203 MÖ) bu turda okunmadı; 4. yy yerleşim ve 3. yy gücü okundu.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33405,20 +33613,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Umbri' (https://www.treccani.it/enciclopedia/umbri/): Sentinum 295 MÖ; 283 Sena, 268 Ariminum, 266'da Sarsina yenildi; 4. yy'dan itibaren yazı, para, kentleşme."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Başlangıç yıl bilinmiyor.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Başlangıç yıl bilinmiyor. [Tur2] Tek devlet değil; f null. t=-0264 (265 MÖ): Treccani 266 Sarsina fethi ile yakın.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33447,20 +33654,20 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Polybios 2.17 (Perseus:text:1999.01.0234:book=2:chapter=17): «the Insubres settled in the country, the largest tribe of all; and next them ... the Cenomani»; 2.34 (Evelyn Shuckburgh çevirisi, 'B. C. 222'): Marcellus ve Gnaeus Cornelius Scipio, Acerrae kuşatması, Insubres'in başkenti Mediolanum'a çekilmesi.",
+    "Treccani, Enciclopedia on line, 'Insubri' (https://www.treccani.it/enciclopedia/insubri/): «Popolazione celtica ... stanziatasi nell'Italia settentrionale, tra il Ticino e il Lago di Como, sullo scorcio del 5° sec. a.C.»; 225'te Talamone'de yenildiler, «sottomessi da Marco Claudio Marcello dopo la battaglia di Clastidio (222)»; 49 MÖ'de Roma vatandaşlığı."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Livius'a göre MÖ ~600 efsanesi; arkeolojiye göre MÖ 4. yy. Bitiş MÖ 222.",
+   "dogrulama": "okundu",
+   "ic_not": "Livius'a göre MÖ ~600 efsanesi; arkeolojiye göre MÖ 4. yy. Bitiş MÖ 222. [Tur2] f=-0399 (400 MÖ): Treccani '5. yy sonu' ile uyumlu. t=222 MÖ (=-0221) iki kaynakta okundu.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33489,20 +33696,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Boi' (https://www.treccani.it/enciclopedia/boi/): «un nucleo dalla Gallia transalpina invase l'Italia settentrionale (5° sec. a.C.) e si stabilì fra Modena e Felsina»; 283'te Vadimone gölünde ve 224'te Telamon'da yenildiler; «furono definitivamente assoggettati nel 191»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "",
+   "dogrulama": "kismen-okundu",
+   "ic_not": " [Tur2] t=191 MÖ (=-0190) Treccani ile birebir. f 5. yy (atlas -0399, 4. yy başı).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33529,20 +33735,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Senoni' (https://www.treccani.it/enciclopedia/senoni/): «Popolazione celtica stanziata sull'Adriatico tra Ancona e Rimini (inizi 4° sec. a.C.) ... Nel 283 a.C. furono sottomessi dai Romani che stabilirono nel territorio le colonie di Sena (Gallica) e Ariminum»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "",
+   "dogrulama": "kismen-okundu",
+   "ic_not": " [Tur2] t=283 MÖ (=-0282) okundu. f '4. yy başı' (atlas -0399 uyumlu).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33570,20 +33775,20 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Polybios 2.17: Insubres'in yanında Cenomani Po boyunda.",
+    "Treccani, Enciclopedia on line, 'Cenomani': Roma-Insubres savaşında Romalıları destekledi (Marcellus zaferi, 222)."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "",
+   "dogrulama": "kismen-okundu",
+   "ic_not": " [Tur2] t=-0196 (197 MÖ) bu turda okunmadı; Cenomani 222'de Roma müttefikiydi.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33610,20 +33815,19 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-    "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+    "Treccani, Enciclopedia on line, 'Siculi' (https://www.treccani.it/enciclopedia/siculi/): «I tentativi di affrancamento, come quello guidato da Ducezio nel 5° sec., non ebbero esito duraturo»."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Tarihler Diodoros'a dayanır, ±5 yıl.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Tarihler Diodoros'a dayanır, ±5 yıl. [Tur2] -0457..-0438 (458-439 MÖ) yılları Treccani'de yok; Ducetius yalnız '5. yy'.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33788,7 +33992,7 @@
     "Treccani, Enciclopedia on line, 'Principato' (https://www.treccani.it/enciclopedia/principato/): Prinkipat, Augustus'un MÖ 1. yy sonunda Cumhuriyet düzeni ile monarşik talepleri uzlaştırmasıyla doğdu."
    ],
    "dogrulama": "kismen-okundu",
-   "ic_not": "Prinkipat -0026-01-16..0284-11-20 (Diocletianus), Dominat 0284..0395-01-17. 395 sonrası Doğu Roma (bizans) başka oturumda. Bati Roma'nın bolge alanı bati-avrupa; bu dilimde italya önerilir. [Tur2] Gün çelişkisi: Ovidius Ocak İdus'u (13 Ocak); atlasın -0026-01-16 (=16 Ocak 27 MÖ) günü Fasti Praenestini'ye dayanır, bu turda okunmadı. Dio 53.16 günü vermez. Yıl 27 MÖ iki kaynakla tutarlı (Dio konsüller listesi: MÖ 27 Caesar VII, Agrippa III). t=395-01-17 bu turda okunmadı (Treccani Arcadio: 395 ölüm). Dominat sınırı (284) okunmadı.",
+   "ic_not": "Prinkipat -0026-01-16..0284-11-20 (Diocletianus), Dominat 0284..0395-01-17. 395 sonrası Doğu Roma (bizans) başka oturumda. Bati Roma'nın bolge alanı bati-avrupa; bu dilimde italya önerilir. [Tur2] Gün çelişkisi: Ovidius Ocak İdus'u (13 Ocak); atlasın -0026-01-16 (=16 Ocak 27 MÖ) günü Fasti Praenestini'ye dayanır, bu turda okunmadı. Dio 53.16 günü vermez. Yıl 27 MÖ iki kaynakla tutarlı (Dio konsüller listesi: MÖ 27 Caesar VII, Agrippa III). t=395-01-17 bu turda okunmadı (Treccani Arcadio: 395 ölüm). Dominat sınırı (284) okunmadı. [Tur2] Treccani, 'Roma' (https://www.treccani.it/enciclopedia/roma/): «Il compito cui Ottaviano, poi Augusto, attese nei primi anni del principato (27 a.C. - 14 d.C.)» - 27 MÖ yıl düzeyinde üçüncü kaynak.",
    "esleme": {
     "durum": "var",
     "mevcut_id": "roma-imp",
@@ -33806,7 +34010,7 @@
    "tur": "imparatorluk",
    "bolge": "italya",
    "f": "0260-01-01",
-   "t": "0274-01-01",
+   "t": "0273-01-01",
    "kesinlik": {
     "f": "yil",
     "t": "yil"
@@ -33827,20 +34031,21 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Tetrico' (https://www.treccani.it/enciclopedia/tetrico/): «Ultimo degli usurpatori della dignità imperiale in Gallia ... (270 d. C.) fu scelto come successore di Vittorino ... l'imperatore Aureliano marciò contro di lui e nella battaglia ai Campi Catalaunici lo fece prigioniero (273 circa)»",
+    "Treccani, 'Aureliano' (https://www.treccani.it/enciclopedia/aureliano/): «passò in Gallia e sgominò le legioni di Esuvio Tetrico ai Campi Catalauni; nel 274 celebrò il trionfo»",
+    "Treccani, 'Gallieno': Gallieno 253-260 Valerianus ile birlikte hüküm sürdü."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Postumus başlangıcı 260 (sonbahar); bitiş Aurelianus zaferi 274. bolge sözlük: bati-avrupa (önerilen). Ayrılıkçı bölge, Roma tekliği ile çakışır.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Postumus başlangıcı 260 (sonbahar); bitiş Aurelianus zaferi 274. bolge sözlük: bati-avrupa (önerilen). Ayrılıkçı bölge, Roma tekliği ile çakışır. [Tur2: taslak t degeri: 0274-01-01] [Tur2] Taslak t=274 (Aurelianus'un zafer töreni) yerine fiilî son 273 civarı (Catalaunian Fields, Treccani). Postumus ile f=260 ve Gallia İmparatorluğu'nun kuruluşu bu turda okunmadı (Treccani 'Postumo' maddesi tıbbi 'postumo' çıktı).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33870,20 +34075,20 @@
    ],
    "oncelik": "orta",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Palmira' (https://www.treccani.it/enciclopedia/palmira/): «nel 259-60 circa, l'esercito di P. fu in grado di intervenire ... Autore della vittoria fu Odenato, sotto il quale la città assunse una progressiva potenza»; Odenato 267'de öldü, oğlu Vaballato ve Zenobia; Roma otoritesi tanınmaz (271); «nel 272, presso Emesa, [Aureliano] inflisse all'esercito palmireno una decisiva disfatta».",
+    "Treccani, 'Zenobia' (https://www.treccani.it/enciclopedia/zenobia/): Odenato'nun ölümü (266-67) sonrası iktidar; 270'te Aureliano ile anlaşma; kendi parası, Vaballato 'Imperator Caesar Augustus'."
    ],
-   "dogrulama": "taslak",
-   "ic_not": "Başlangıç 260 (Odaenathus) ya da 267/270 (Zenobia ayrılışı). Bitiş 272 (Zenobia esir), Palmira isyanı 273. bolge önerisi: suriye-filistin.",
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Başlangıç 260 (Odaenathus) ya da 267/270 (Zenobia ayrılışı). Bitiş 272 (Zenobia esir), Palmira isyanı 273. bolge önerisi: suriye-filistin. [Tur2] t=272 (Emesa) okundu, atlas uyumlu. f=260: Odenato'nun 259-60 Pers zaferi (Treccani) Palmira'nın fiilî özerkliğinin başlangıcı; ayrı 'imparatorluk' ilanı 271 (Vaballato). Seçim: 260 mu 267 mi 271 mi - 'kuruluş' tanımı kararı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -33912,20 +34117,20 @@
    ],
    "oncelik": "kucuk",
    "kaynak": [
-    "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-    "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+    "Treccani, Enciclopedia on line, 'Carausio' (https://www.treccani.it/enciclopedia/carausio/): «Usurpatore dell'Impero romano in Britannia dal 286 al 293 ... nel 289 sconfisse le truppe di Massimiano ... Nel 293 fu assassinato da Allecto»",
+    "Treccani, 'Allecto' (https://www.treccani.it/enciclopedia/allecto/): «Usurpatore ... in Britannia dal 293 sino al 296 d. C., quando fu vinto e ucciso dalle truppe di Costanzo Cloro, presso Londra»"
    ],
-   "dogrulama": "taslak",
-   "ic_not": "bolge önerisi bati-avrupa. Atlas çekirdeğinde olmayabilir.",
+   "dogrulama": "okundu",
+   "ic_not": "bolge önerisi bati-avrupa. Atlas çekirdeğinde olmayabilir. [Tur2] f=286 (Carausius), t=296 (Allectus'un yenilişi): iki Treccani maddesi birebir uyumlu.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ITALYA_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -44810,18 +45015,20 @@
     "burgund"
    ],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "443 Sapaudia yerleşmesi ile süreklilik: Burgund Krallığı tek polity sayılabilir. Burada 'Ren dönemi' ayrı kayıt; BATIAV ile birleştirme kararı ana oturumda. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Prosper Tiro; Brill's New Pauly 'Burgundiones'; Wood 'Merovingian Kingdoms']",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Burgundi», https://www.treccani.it/enciclopedia/burgundi_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "443 Sapaudia yerleşmesi ile süreklilik: Burgund Krallığı tek polity sayılabilir. Burada 'Ren dönemi' ayrı kayıt; BATIAV ile birleştirme kararı ana oturumda. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Prosper Tiro; Brill's New Pauly 'Burgundiones'; Wood 'Merovingian Kingdoms'] || TUR2: Treccani Burgundi: Burgundlar Worms ve Mainz çevresine yerleşti; kral Guntiar (Gundahar) 411'de Jovinus'un imparator ilanında rol aldı -> f=411 OKUNDU. t=436 (Hun yıkımı) bu sayfada okunmadı.",
    "esleme": {
     "durum": "ardil-var",
     "mevcut_id": "burgund",
     "not": "Burgund Krallığı (Sapaudia/Lyon, 443) ardıl."
    },
    "_dilim": "ORTAAV_C",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
@@ -44966,6 +45173,44 @@
    "devir_tarafi": "VERI-MO-ARKEO"
   },
   {
+   "id": "hun-avrupa",
+   "ad": "Avrupa Hun İmparatorluğu",
+   "tur": "konfederasyon",
+   "bolge": "dogu-avrupa",
+   "f": "0370-01-01",
+   "t": "0454-01-01",
+   "kesinlik": {
+    "f": "onyil",
+    "t": "yil"
+   },
+   "baskent": "belirsiz (Pannonia)",
+   "etkin_bolge": "Don - Tuna - Pannonia",
+   "sehirler": [
+    "Pannonia"
+   ],
+   "ozet": "Balamber'in Don'u geçmesiyle (c.370) başlayan, Attila'nın ölümü (453) ve Nedao (454) sonrası çöken Hun hâkimiyeti.",
+   "oncul": [],
+   "ardil": [
+    "gepid-krallik"
+   ],
+   "oncelik": "cekirdek",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Unni», https://www.treccani.it/enciclopedia/unni_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "Treccani Unni: «Intorno al 370 ... guidati da Balamber, passano il Don»; Attila 453'te öldü, «il grande regno degli Unni crollò»; «Ellac ... perì nella battaglia del Netao (454)»; Dengizico 468 veya 469'da öldürüldü. f=370 (yaklaşık) ve t=454 OKUNDU; Hun kalıntıları 468/469'a dek sürdü. Mevcut künye 0370-0455 ile uyumlu.",
+   "esleme": {
+    "durum": "var",
+    "mevcut_id": "hun-avrupa",
+    "not": "yıl düzeyinde uyumlu; t 455->454 (Nedao)."
+   },
+   "_dilim": "ORTAAV_C",
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
+   "devir_tarafi": "VERI-MO-ARKEO"
+  },
+  {
    "id": "bavyera-agilolfing",
    "ad": "Bavyera Dükalığı (Agilolfinger)",
    "tur": "dukalik",
@@ -44987,18 +45232,20 @@
     "bavyera"
    ],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Başlangıç: Garibald I yaklaşık 548-555 (Jordanes Getica 280; Paulus Diaconus); 788 Ingelheim kararı. İki uç yaklaşık. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Jahn 'Ducatus Baiuvariorum'; Wolfram; Brill's New Pauly Baiuvarii]",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Baviera», https://www.treccani.it/enciclopedia/baviera_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Başlangıç: Garibald I yaklaşık 548-555 (Jordanes Getica 280; Paulus Diaconus); 788 Ingelheim kararı. İki uç yaklaşık. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Jahn 'Ducatus Baiuvariorum'; Wolfram; Brill's New Pauly Baiuvarii] || TUR2: Treccani Baviera: ducato retto da duchi Agilolfingi; Tassilone deposto da Carlo Magno nel 788 -> t=788 (yıl) OKUNDU. f=555 bu sayfada yok (başlangıç okunmadı).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ORTAAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -45055,18 +45302,20 @@
     "saksonya-dukaligi"
    ],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Başlangıç: Sakson adının ilk anılışı (Ptolemaios, 2. yy); polity olarak 'Altsachsen' 3.-4. yy kabile birliği. 804 Charlemagne'ın son sürgünleri. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Saxones'; Hägermann 'Karl der Große']",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Sassonia», https://www.treccani.it/enciclopedia/sassonia_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Başlangıç: Sakson adının ilk anılışı (Ptolemaios, 2. yy); polity olarak 'Altsachsen' 3.-4. yy kabile birliği. 804 Charlemagne'ın son sürgünleri. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Saxones'; Hägermann 'Karl der Große'] || TUR2: Treccani Sassonia: Carlo Magno 32 yıl savaştı; Widukind 785 Attigny vaftizi; «non prima dell'804 la Sassonia poté dirsi del tutto pacificata» -> t=804 OKUNDU (fetih tamamlanması). f=300 (Sakson birliği) okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ORTAAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -45092,18 +45341,20 @@
     "saksonya"
    ],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Dukalık başlangıcı Liudolf (dux in Saxonia ~ 850) ile Otto (880) arasında belirsiz; 1180 Gelnhausen Belgesi. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Sachsen']",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Sassonia», https://www.treccani.it/enciclopedia/sassonia_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Dukalık başlangıcı Liudolf (dux in Saxonia ~ 850) ile Otto (880) arasında belirsiz; 1180 Gelnhausen Belgesi. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Sachsen'] || TUR2: Treccani Sassonia: Enrico il Leone'nin devleti Federico Barbarossa tarafından 1180'de elinden alındı ve bölündü -> t=1180 OKUNDU. f=880 okunmadı (Liudolfinger dükü Otto «Erlauchte» c.880).",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": "braunschweig-luneburg-dukaligi (1235) ve saksonya (Wettin, 1123) ardıl benzeri."
    },
    "_dilim": "ORTAAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -45232,18 +45483,20 @@
     "bohemya"
    ],
    "oncelik": "cekirdek",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Borivoj'un vaftizi ~883, saltanatı 870; 1198 Philip II / 1212 Altın Bülten unvan kararlılığı. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Böhmen'; Wolverton 'Cosmas of Prague']",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Boemia», https://www.treccani.it/enciclopedia/boemia_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Borivoj'un vaftizi ~883, saltanatı 870; 1198 Philip II / 1212 Altın Bülten unvan kararlılığı. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Böhmen'; Wolverton 'Cosmas of Prague'] || TUR2: Treccani Boemia: Bořivoj (Přemyslid) ve ardılları Çek kabilelerini Prag yönetiminde birleştirdi (X. yy), Václav I 920-929; kalıtsal kraliyet tacı Filip (Svevia) tarafından 1198'de verildi (1204 Innocentius III teyit), Sicilya Altın Bulla'sı Basel 1212 -> t=1198 (dükalık->krallık) OKUNDU; Mevcut künye bohemya f=1000 (krallık); Treccani 1198 öncesini dükalık anlatır -> künye 870 dükalık + 1198/1212 krallık ayrımı önerilir (f=870 okunmadı).",
    "esleme": {
     "durum": "var-kisa",
     "mevcut_id": "bohemya",
     "not": "bohemya (1000...) f=870'e genişlet; 1198 kral unvanı."
    },
    "_dilim": "ORTAAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -45334,18 +45587,20 @@
     "polonya-erken"
    ],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Efsanevî Piast ve Siemowit adları (Gallus Anonymus) tarihsel doğrulama zayıf; 9. yy tarihleri arkeolojik. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Labuda 'Mieszko I'; Gallus Anonymus Chronica; Brill's New Pauly]",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Polonia», https://www.treccani.it/enciclopedia/polonia_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Efsanevî Piast ve Siemowit adları (Gallus Anonymus) tarihsel doğrulama zayıf; 9. yy tarihleri arkeolojik. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Labuda 'Mieszko I'; Gallus Anonymus Chronica; Brill's New Pauly] || TUR2: Treccani Polonia: «probabilmente sino dalla metà del sec. IX la dinastia dei Piasti, assunto il potere sulla tribù dei Polani (Gniezno-Poznań)» -> f=850 (yüzyıl ortası) OKUNDU; Mieszko I 963'te Wichmann'a yenildi, sonra Otto I'in egemenliğini tanıdı. t=966 (vaftiz) okunmadı.",
    "esleme": {
     "durum": "ardil-var",
     "mevcut_id": "polonya-erken",
     "not": "polonya-erken f=966; Mieszko öncesi künye yok."
    },
    "_dilim": "ORTAAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -45606,18 +45861,20 @@
     "mecklenburg"
    ],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "789 Charlemagne Wilzi seferi; Obotritler bazen kral/dük (Thrasco, Gottschalk, Niklot). 1160 Niklot ölümü (1160 Werle). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Annales regni Francorum; Helmold Chronica Slavorum; Brill's New Pauly]",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Meclemburgo», https://www.treccani.it/enciclopedia/meclemburgo_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "789 Charlemagne Wilzi seferi; Obotritler bazen kral/dük (Thrasco, Gottschalk, Niklot). 1160 Niklot ölümü (1160 Werle). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Annales regni Francorum; Helmold Chronica Slavorum; Brill's New Pauly] || TUR2: taslak değeri: f=0789-01-01 t=1160-01-01. Treccani Meclemburgo: «Nel 1160 cadde l'ultimo principe degli Obodriti pagani, Niklot» -> pagan Obotrit prensliğinin sonu 1160 OKUNDU (t=1160 önerilir; Pribislav I Henry the Lion'dan lehen aldı, hanedan sürdü). f=789 (Karlomagno ittifakı) okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ORTAAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -45742,18 +45999,20 @@
     "brandenburg-markgrafligi"
    ],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "965 Gero'nun ölümü ve mark bölünmesi (Widukind, Thietmar). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Nordmark']",
+   "kaynak": [
+    "Neue Deutsche Biographie, «Albrecht der Bär», https://www.deutsche-biographie.de/sfz69314.html"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "965 Gero'nun ölümü ve mark bölünmesi (Widukind, Thietmar). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Nordmark'] || TUR2: NDB Albrecht der Bär: 1134 Lothar III Nordmark'ı (Altmark) Albrecht'e lehen verdi -> Nordmark Markgrafı Albrecht; 1134 sonrası Nordmark Askanier eline geçti, Brandenburg'a evrildi. f=965 (Nordmark kuruluşu, Gero ölümünden sonra) ve t=1157 okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ORTAAV_D",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -45791,15 +46050,137 @@
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
+   "id": "kiev-rusu",
+   "ad": "Kiev Rus'u (Rus Devleti) — kaynak doğrulaması",
+   "tur": "knezlik",
+   "bolge": "dogu-avrupa",
+   "f": "0882-01-01",
+   "t": "1240-12-01",
+   "kesinlik": {
+    "f": "yil",
+    "t": "ay"
+   },
+   "baskent": "Novgorod -> Kiev",
+   "etkin_bolge": "Orta Dinyeper, Novgorod, Smolensk, Polotsk, Çernigov",
+   "sehirler": [
+    "Kiev",
+    "Novgorod",
+    "Smolensk",
+    "Çernigov"
+   ],
+   "ozet": "Rurikid Varyag knezi Oleg'in Kiev'i merkez yapmasıyla kurulan; 1240'ta Batu Han'ın Kiev'i almasıyla sonlanan Doğu Slav devleti.",
+   "oncul": [],
+   "ardil": [
+    "vladimir-suzdal",
+    "galicya-volhinya"
+   ],
+   "oncelik": "cekirdek",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Russia», https://www.treccani.it/enciclopedia/russia_(Enciclopedia-Italiana)/",
+    "Enciclopedia Italiana (Treccani, 1929-37), «Kiev», https://www.treccani.it/enciclopedia/kiev_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Treccani Russia: Rjurik 862-879, Oleg 879-912 (Treccani tarihi 879; kronik geleneği PVL 6390 = 882 yazılı kaynakta OKUNMADI, archive.org PVL tam metni 401). Treccani Kiev: Oleg tarafından kurulan Varyag-Rus krallığının merkezi; «Nel 1240 ... invasione dei mongoli: dopo un assedio ... presa dagli eserciti del khān Batyj» -> t yılı OKUNDU (1240); 6 Aralık günü bu sayfada yok. Mevcut künye f=882 (PVL), 879 ile 3 yıl fark: var (≤25 yıl).",
+   "esleme": {
+    "durum": "var",
+    "mevcut_id": "kiev-rusu",
+    "not": "f=882 mevcut künyeyle uyumlu; Treccani Oleg 879; gün 6 Aralık 1240 okunmadı (yalnız yıl)."
+   },
+   "_dilim": "ORTAAV_D",
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
+   "devir_tarafi": "VERI-MS1-1281"
+  },
+  {
+   "id": "arles-kralligi",
+   "ad": "Burgonya (Arles) Krallığı",
+   "tur": "krallik",
+   "bolge": "bati-avrupa",
+   "f": "0933-01-01",
+   "t": "1032-09-06",
+   "kesinlik": {
+    "f": "yil",
+    "t": "gun"
+   },
+   "baskent": "Arles / Vienne",
+   "etkin_bolge": "Alt ve Yukarı Burgonya (Provence, Cenevre-Savoy, Franche-Comté)",
+   "sehirler": [
+    "Arles",
+    "Vienne",
+    "Lyon"
+   ],
+   "ozet": "Alt (Provence) ve Yukarı Burgonya'nın 933'te birleşmesiyle oluşan krallık; III. Rudolf'un ölümüyle imparatorluğa geçti.",
+   "oncul": [],
+   "ardil": [
+    "almanya"
+   ],
+   "oncelik": "orta",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Borgogna», https://www.treccani.it/enciclopedia/borgogna_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Treccani Borgogna: «Borgogna cisgiurana (Provenza) e transgiurana ... uniti dal 933, formarono ... il regno di Borgogna o di Arles, dal 1038 in debole soggezione feudale all'Impero» -> f=933 OKUNDU. t: Treccani 1038'den itibaren imparatorluğa gevşek bağlılık der; mevcut künye t=1032-09-06 (III. Rudolf'un ölümü) okunmadı; krallık adı imparatorluk içinde 1378'e dek sürdüğünden (okunmadı) sönme tarihi hanedanın sonu mu polity sonu mu — ayrı beyan gerekir.",
+   "esleme": {
+    "durum": "var",
+    "mevcut_id": "arles-kralligi",
+    "not": "f=933 mevcut künyeyle uyumlu; t farkı beyanlı."
+   },
+   "_dilim": "ORTAAV_D",
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
+   "devir_tarafi": "VERI-MS1-1281"
+  },
+  {
+   "id": "polotsk-knezligi",
+   "ad": "Polotsk Knezliği",
+   "tur": "knezlik",
+   "bolge": "dogu-avrupa",
+   "f": "0900-01-01",
+   "t": "1307-01-01",
+   "kesinlik": {
+    "f": "yuzyil",
+    "t": "belirsiz"
+   },
+   "baskent": "Polotsk",
+   "etkin_bolge": "Batı Dvina",
+   "sehirler": [
+    "Polotsk",
+    "Vitebsk"
+   ],
+   "ozet": "Doğu Slav Krivich yurdunda IX. yy'dan itibaren bağımsız prenslik; sonra Litvanya'ya bağlandı.",
+   "oncul": [],
+   "ardil": [
+    "litvanya-buyuk-dukalik"
+   ],
+   "oncelik": "orta",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Polock», https://www.treccani.it/enciclopedia/polock_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Treccani Polock: «Dal sec. IX Polock si afferma come una delle più antiche piazzeforti rutene e capitale di un principato indipendente»; XIV. yy Litvanya birliğine girdi, 1563'te Moskova aldı. Mevcut künye f=978 (Rogvolod), t=1307 okunmadı; knezliğin kronik doğuşu Treccani'de yıl vermiyor (yüzyıl).",
+   "esleme": {
+    "durum": "var-f-t-farkli",
+    "mevcut_id": "polotsk-knezligi",
+    "not": "f 978 (mevcut) ile Treccani IX. yy farkı >25 yıl; kronik kaynak (PVL 980) okunmadı."
+   },
+   "_dilim": "ORTAAV_D",
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
+   "devir_tarafi": "VERI-MS1-1281"
+  },
+  {
    "id": "avusturya-marki",
    "ad": "Avusturya Markı (Babenberg Ostarrichi)",
    "tur": "markgraflik",
    "bolge": "orta-avrupa",
    "f": "0976-01-01",
-   "t": "1156-09-17",
+   "t": "1156-09-01",
    "kesinlik": {
     "f": "yil",
-    "t": "gun"
+    "t": "ay"
    },
    "baskent": "Melk → Klosterneuburg → Viyana",
    "etkin_bolge": "Aşağı Avusturya (Wachau, Donau)",
@@ -45812,18 +46193,21 @@
     "avusturya-dukaligi"
    ],
    "oncelik": "cekirdek",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Mark kuruluşu 976 (Leopold I); 996 'Ostarrichi' ilk yazılı anılış. Dukalık 17 Eylül 1156 Privilegium Minus. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Österreich'; Lechner 'Die Babenberger']",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Austria», https://www.treccani.it/enciclopedia/austria_(Enciclopedia-Italiana)/",
+    "Neue Deutsche Biographie, «Heinrich II. (Jasomirgott)», https://www.deutsche-biographie.de/sfz70077.html"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Mark kuruluşu 976 (Leopold I); 996 'Ostarrichi' ilk yazılı anılış. Dukalık 17 Eylül 1156 Privilegium Minus. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Österreich'; Lechner 'Die Babenberger'] || TUR2: taslak değeri: f=0976-01-01 t=1156-09-17. Treccani Austria: Marka «divenne ducato ... nel 1156»; NDB Heinrich II.: Bavyera sorununun çözümü «im September 1156 in Regensburg» yazıya geçti -> t = Eylül 1156 (ay hassasiyeti) OKUNDU; 17 Eylül günü okunmadı. f=976 (Babenberg Liutpold) okunmadı. Treccani: dükalık 1192'de Stiria ile büyüdü.",
    "esleme": {
     "durum": "var-kisa",
     "mevcut_id": "avusturya-dukaligi",
     "not": "avusturya-dukaligi 1156-09-17 öncesini kapsamıyor; genişlet f=976 veya ardil künye."
    },
    "_dilim": "ORTAAV_E",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -45865,10 +46249,10 @@
    "ad": "Brandenburg Markgraflığı (Askanier, Elektörlük)",
    "tur": "markgraflik",
    "bolge": "orta-avrupa",
-   "f": "1157-06-11",
+   "f": "1157-01-01",
    "t": "1701-01-01",
    "kesinlik": {
-    "f": "gun",
+    "f": "yil",
     "t": "yil"
    },
    "baskent": "Brandenburg an der Havel → Berlin-Cölln",
@@ -45881,18 +46265,20 @@
    ],
    "ardil": [],
    "oncelik": "cekirdek",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Gün 11 Haziran 1157 hafızadan (Kuruluş belgesi tarihlendirmesi tartışmalı); bitiş = 1701 Prusya Krallığı (Brandenburg elektörlüğü formel olarak 1806'ya kadar sürdü). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Brandenburg'; Schultze 'Die Mark Brandenburg']",
+   "kaynak": [
+    "Neue Deutsche Biographie, «Albrecht der Bär», https://www.deutsche-biographie.de/sfz69314.html"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Gün 11 Haziran 1157 hafızadan (Kuruluş belgesi tarihlendirmesi tartışmalı); bitiş = 1701 Prusya Krallığı (Brandenburg elektörlüğü formel olarak 1806'ya kadar sürdü). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Brandenburg'; Schultze 'Die Mark Brandenburg'] || TUR2: taslak değeri: f=1157-06-11 t=1701-01-01. NDB Albrecht der Bär: 1134 Lothar III Nordmark (Altmark) lehen verdi; Pribislaw-Heinrich'in ölümünden sonra Havelland ve Brandenburg'u aldı, «seit dieser Zeit» Markgraf von Brandenburg unvanı; NDB 1157 Polonya seferini anar (kuruluş değil). 11 Haziran 1157 günü NDB'de YOK -> yıl hassasiyetine indirildi; asıl kuruluş (1150 Pribislaw ölümü sonrası) ile 1157 arasında kaynak aralığı vardır.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ORTAAV_E",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -45915,18 +46301,20 @@
    ],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Pribislav 1167 yeniden onaylandı (Henry the Lion); 14 Kasım 1918 Friedrich Franz IV feragat. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Mecklenburg'; Helmold]",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Meclemburgo», https://www.treccani.it/enciclopedia/meclemburgo_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Pribislav 1167 yeniden onaylandı (Henry the Lion); 14 Kasım 1918 Friedrich Franz IV feragat. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Mecklenburg'; Helmold] || TUR2: Treccani Meclemburgo: Niklot 1160'ta düştü, Pribislav I Henry the Lion'dan lehen aldı («nel 116…» - sayfa metninde son hane okunamadı); f=1167 doğrulanamadı. t=1918 okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ORTAAV_E",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -45981,18 +46369,20 @@
    ],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "1081 (şato) / 1135 (kontluk) çelişkisi; 30 Kasım 1918 II. Wilhelm feragat. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Württemberg']",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Wurttemberg», https://www.treccani.it/enciclopedia/wurttemberg_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "1081 (şato) / 1135 (kontluk) çelişkisi; 30 Kasım 1918 II. Wilhelm feragat. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Württemberg'] || TUR2: taslak değeri: f=1135-01-01 t=1918-11-01. Treccani Wurttemberg: «primo conte risulta nel 1135 un certo Ludovico» -> ilk belgeli kont 1135 OKUNDU (polity başlangıcı değil, ilk anılma). t=1918 okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ORTAAV_E",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -46013,18 +46403,21 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "1140 civarı kontluk adı belirir; 26 Ocak 1363 Habsburg devri (Tirol Habsburg Land olarak sürdü). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Tirol']",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Tirolo», https://www.treccani.it/enciclopedia/tirolo_(Enciclopedia-Italiana)/",
+    "Enciclopedia Italiana (Treccani, 1929-37), «Austria», https://www.treccani.it/enciclopedia/austria_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "1140 civarı kontluk adı belirir; 26 Ocak 1363 Habsburg devri (Tirol Habsburg Land olarak sürdü). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Tirol'] || TUR2: Treccani Tirolo: «i conti ghibellini di Tirolo sono ricordati nel 1140 come conti di Venosta e di Tirolo» -> f=1140 (ilk anılma) OKUNDU. Treccani Austria: Habsburg «contea del Tirolo (1363)» -> t=1363 OKUNDU. Hanedan: Appiano'dan ayrı, 1248 Andechs-Meran ölümüyle Brixen mirası.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ORTAAV_E",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -46116,18 +46509,20 @@
     "stiriya-dukaligi"
    ],
    "oncelik": "kucuk",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Mark kuruluşu 1056 (Otakar II); 1180 Dukalık. Atlasta stiriya künyesinin t=1192 muhtemel hata: Stiriya Dukalığı Habsburg yönetiminde sürdü. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Steiermark']",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Stiria», https://www.treccani.it/enciclopedia/stiria_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Mark kuruluşu 1056 (Otakar II); 1180 Dukalık. Atlasta stiriya künyesinin t=1192 muhtemel hata: Stiriya Dukalığı Habsburg yönetiminde sürdü. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Steiermark'] || TUR2: Treccani Stiria: Ottokar'lar Steyr'dan «Steyermark»; «Il quarto Ottocaro, creato duca nel 1180» -> t=1180 OKUNDU. f=1056 okunmadı. NOT: stiriya-dukaligi (mevcut 1180-1192) Otakar evresidir: Treccani «legò nel 1186 col trattato di Georgenberg ... ai Babenberg, che ne entrarono in possesso nel 1192» -> 1192 SONU DEĞİL, Babenberg/Habsburg altında dükalık 1918'e dek sürer; t=1192 yalnız Otakar hanedanının sonudur (künye ardıl/aynı polity: genişlet).",
    "esleme": {
     "durum": "var-kisa",
     "mevcut_id": "stiriya-dukaligi",
     "not": "stiriya-dukaligi (1180-1192): f/t hatalı görünür; Stiriya Dukalığı 1180-1918."
    },
    "_dilim": "ORTAAV_E",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -46301,10 +46696,10 @@
    "tur": "knezlik",
    "bolge": "dogu-avrupa",
    "f": "1263-01-01",
-   "t": "1547-01-16",
+   "t": "1547-01-01",
    "kesinlik": {
     "f": "yil",
-    "t": "gun"
+    "t": "yil"
    },
    "baskent": "Moskova",
    "etkin_bolge": "Moskova, Oka-Volga, Vladimir ve Kuzey Rus",
@@ -46313,18 +46708,20 @@
    "oncul": [],
    "ardil": [],
    "oncelik": "cekirdek",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Moskova'nın ilk anılışı 1147 (Yuri Dolgoruki); Daniil 1263/1272 tahmini; 1547 Çarlık. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Martin 'Medieval Russia 980-1584'; Cambridge History of Russia I]",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Mosca», https://www.treccani.it/enciclopedia/mosca_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Moskova'nın ilk anılışı 1147 (Yuri Dolgoruki); Daniil 1263/1272 tahmini; 1547 Çarlık. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Martin 'Medieval Russia 980-1584'; Cambridge History of Russia I] || TUR2: taslak değeri: f=1263-01-01 t=1547-01-16. Treccani Mosca: «già nel 1547 il gran principe Ivan IV aveva assunto il titolo di zar» -> unvan yılı 1547 OKUNDU; 16 Ocak günü okunmadı. f=1263 (Daniil Aleksandroviç) okunmadı.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ORTAAV_E",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -46521,18 +46918,20 @@
     "polonya-erken"
    ],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "1138 Vasiyetname (Gallus ve Kadłubek); parçalanma sonrası sınırlar değişkendi. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Gallus Anonymus Chronica; Lexikon des Mittelalters 'Polen']",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Polonia», https://www.treccani.it/enciclopedia/polonia_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "1138 Vasiyetname (Gallus ve Kadłubek); parçalanma sonrası sınırlar değişkendi. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Gallus Anonymus Chronica; Lexikon des Mittelalters 'Polen'] || TUR2: Treccani Polonia: 1138 parçalanma OKUNDU (f); Büyük Polonya dükü Przemysław II 1295'te kral olarak taçlandı; Łokietek 1320 -> t=1314 okunmadı, Treccani 1320 birleşmeyi verir.",
    "esleme": {
     "durum": "eksik",
     "mevcut_id": null,
     "not": ""
    },
    "_dilim": "ORTAAV_E",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -46555,18 +46954,20 @@
     "polonya-erken"
    ],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Parçalanma dönemi: bu kayıtlar polonya-erken ile örtüşür; ana oturum karar versin. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Polen']",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Polonia», https://www.treccani.it/enciclopedia/polonia_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "Parçalanma dönemi: bu kayıtlar polonya-erken ile örtüşür; ana oturum karar versin. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Polen'] || TUR2: Treccani Polonia: «Con l'anno 1138, la Polonia si divise in una serie di ducati particolari» (Boleslao III Boccatorta 1102-1138) -> f=1138 OKUNDU; «Dall'incoronazione di Ladislao Łokietek (1320)» Krakov -> t=1320 (krallığın yeniden birleşmesi) OKUNDU. Not: Krakov Dükalığı (senior prensliği) mevcut polonya-erken (966-1569) ile örtüşür; ayrı polity olarak mı alt dilim olarak mı kalacağı karar bekler.",
    "esleme": {
     "durum": "var-kisa",
     "mevcut_id": "polonya-erken",
     "not": "polonya-erken (966-1569) 1138-1320 parçalanmayı tek polity olarak tutar."
    },
    "_dilim": "ORTAAV_E",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   },
   {
@@ -46789,18 +47190,143 @@
    ],
    "ardil": [],
    "oncelik": "orta",
-   "kaynak": [],
-   "dogrulama": "taslak",
-   "ic_not": "Batı Kumanları ayrı hanlar altında; tek devlet değil, konfederasyon. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Golden 'Introduction to the History of the Turkic Peoples'; Spinei 'The Great Migrations in the East and South East of Europe']",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Cumani», https://www.treccani.it/enciclopedia/cumani_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Batı Kumanları ayrı hanlar altında; tek devlet değil, konfederasyon. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Golden 'Introduction to the History of the Turkic Peoples'; Spinei 'The Great Migrations in the East and South East of Europe'] || TUR2: Treccani Cumani: Moğol istilasından sonra (XIII. yy) Qïpčāq «cessarono di formare un'unità etnico-politica distinta» -> ortak devlet sonu OKUNDU (yıl verilmedi); t=1239 okunmadı.",
    "esleme": {
     "durum": "var",
     "mevcut_id": "kipcak",
     "not": "kipcak (1054-1239) Deşt-i Kıpçak genelinde; batı bölümü (Doğu Avrupa) kapsıyor."
    },
    "_dilim": "ORTAAV_E",
-   "taslak": true,
-   "f_t_durum": "dogrulanmadi",
-   "devredilebilir": false,
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
+   "devir_tarafi": "VERI-MS1-1281"
+  },
+  {
+   "id": "silezya-piast",
+   "ad": "Silezya (Piast) Dükalıkları",
+   "tur": "dukalik-lar",
+   "bolge": "orta-avrupa",
+   "f": "1138-01-01",
+   "t": "1335-01-01",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "baskent": "Wrocław",
+   "etkin_bolge": "Yukarı ve Aşağı Silezya",
+   "sehirler": [
+    "Wrocław",
+    "Opole",
+    "Legnica",
+    "Głogów"
+   ],
+   "ozet": "III. Boleslaw'un 1138 vasiyetiyle bölünen Polonya'nın Silezya kolu; 1327-1335 Bohemya Krallığı'na bağlandı.",
+   "oncul": [
+    "polonya-erken"
+   ],
+   "ardil": [
+    "bohemya"
+   ],
+   "oncelik": "orta",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Polonia», https://www.treccani.it/enciclopedia/polonia_(Enciclopedia-Italiana)/",
+    "Enciclopedia Italiana (Treccani, 1929-37), «Slesia», https://www.treccani.it/enciclopedia/slesia_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "okundu",
+   "ic_not": "Treccani Polonia: 1138 ducati particolari (f OKUNDU). Treccani Slesia: Piast dükleri 1327-1335 Bohemya egemenliğini tanıdı; «Nel 1335 (trattato di Trentschin) Casimiro di Polonia...» vazgeçti -> t=1335 OKUNDU (24 Ağustos günü okunmadı; mevcut künyede 1335-08-24 var).",
+   "esleme": {
+    "durum": "var",
+    "mevcut_id": "silezya-piast",
+    "not": "mevcut künyeyle yıl düzeyinde uyumlu."
+   },
+   "_dilim": "ORTAAV_E",
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
+   "devir_tarafi": "VERI-MS1-1281"
+  },
+  {
+   "id": "cernigov-knezligi",
+   "ad": "Çernigov Knezliği",
+   "tur": "knezlik",
+   "bolge": "dogu-avrupa",
+   "f": "1026-01-01",
+   "t": "1239-01-01",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "baskent": "Çernigov",
+   "etkin_bolge": "Orta Dinyeper doğusu, Desna",
+   "sehirler": [
+    "Çernigov",
+    "Novgorod-Seversk"
+   ],
+   "ozet": "Rus Knezliği; 1026'da Mstislav'ın başkenti, 1239'da Tatarlarca alındı.",
+   "oncul": [
+    "kiev-rusu"
+   ],
+   "ardil": [],
+   "oncelik": "orta",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Cernigov», https://www.treccani.it/enciclopedia/cernigov_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Treccani Cernigov: «Nel 992 sede episcopale; nel 1026 diventa capitale del principe Mstislav Tmutarakan'skij; ... Nel 1239 Černigov ... occupata dai Tartari» -> yıllar OKUNDU. Treccani 1024'ü Kurtarıcı Katedrali inşaatı olarak verir (kuruluş değil); mevcut künye f=1024 (Mstislav'ın Çernigov'u alışı - kronik) okunmadı. Gün (18 Ekim 1239) okunmadı.",
+   "esleme": {
+    "durum": "var-f-t-farkli",
+    "mevcut_id": "cernigov-knezligi",
+    "not": "f 1024->1026 (Treccani), t 1239-10-18 -> 1239 yıl."
+   },
+   "_dilim": "ORTAAV_E",
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
+   "devir_tarafi": "VERI-MS1-1281"
+  },
+  {
+   "id": "smolensk-knezligi",
+   "ad": "Smolensk Knezliği",
+   "tur": "knezlik",
+   "bolge": "dogu-avrupa",
+   "f": "1127-01-01",
+   "t": "1395-01-01",
+   "kesinlik": {
+    "f": "yil",
+    "t": "yil"
+   },
+   "baskent": "Smolensk",
+   "etkin_bolge": "Üst Dinyeper",
+   "sehirler": [
+    "Smolensk"
+   ],
+   "ozet": "Rostislav (1127-1160) döneminde Kiev'le yarışan Rus knezliği; 1395'te Litvanya'ya teslim.",
+   "oncul": [
+    "kiev-rusu"
+   ],
+   "ardil": [
+    "litvanya-buyuk-dukalik"
+   ],
+   "oncelik": "orta",
+   "kaynak": [
+    "Enciclopedia Italiana (Treccani, 1929-37), «Smolensk», https://www.treccani.it/enciclopedia/smolensk_(Enciclopedia-Italiana)/"
+   ],
+   "dogrulama": "kismen-okundu",
+   "ic_not": "Treccani Smolensk: «principe Rostislav (1127-1160)», bağımsız piskoposluk 1137, «Nel 1395 Smolensk si arrese al granduca lituano Vitoldo» -> Treccani t=1395; mevcut künye t=1404 (Vytautas'ın fethi) - iki tarih beyan, 1395 teslim/1404 ilhak yorumu okunmadı. f=1127 kaynakta okunan ilk knez yılıdır, knezliğin hukukî doğuşu (Mstislav'ın oğluna verilmesi) değil; mevcut 1054 okunmadı.",
+   "esleme": {
+    "durum": "var-f-t-farkli",
+    "mevcut_id": "smolensk-knezligi",
+    "not": "f 1054->1127; t 1404->1395 (Treccani); gerekçe ic_not."
+   },
+   "_dilim": "ORTAAV_E",
+   "taslak": false,
+   "f_t_durum": "kaynakli",
+   "devredilebilir": true,
    "devir_tarafi": "VERI-MS1-1281"
   }
  ],
@@ -47221,66 +47747,6 @@
    "sorun": "dilim C ama f devri B"
   },
   {
-   "dilim": "BATIAV_B",
-   "id": "tartessos",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_B",
-   "id": "gadir",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_B",
-   "id": "emporion",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_C",
-   "id": "arverni",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_C",
-   "id": "aedui",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_C",
-   "id": "sequani",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_C",
-   "id": "belgae",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_C",
-   "id": "veneti",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_C",
-   "id": "allobroges",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_C",
-   "id": "salluvii",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_C",
-   "id": "keltiber-arevaci",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_C",
-   "id": "kartaca-ispanya",
-   "sorun": "kaynak boş"
-  },
-  {
    "dilim": "BATIAV_C",
    "id": "iceni",
    "sorun": "kaynak boş"
@@ -47297,17 +47763,7 @@
   },
   {
    "dilim": "BATIAV_C",
-   "id": "soissons-devleti",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_C",
    "id": "dumnonia",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_C",
-   "id": "salian-frank-tournai",
    "sorun": "kaynak boş"
   },
   {
@@ -47322,16 +47778,6 @@
   },
   {
    "dilim": "BATIAV_D",
-   "id": "neustria",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "austrasia",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
    "id": "frank-burgundia",
    "sorun": "kaynak boş"
   },
@@ -47342,52 +47788,7 @@
   },
   {
    "dilim": "BATIAV_D",
-   "id": "vasconia",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
    "id": "akitanya-karolenj",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "karolenj-imparatorlugu",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "orta-francia",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "asagi-burgundia-provence",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "yukari-burgundia",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "friz-krallik",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "essex",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "bernicia",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "deira",
    "sorun": "kaynak boş"
   },
   {
@@ -47417,52 +47818,12 @@
   },
   {
    "dilim": "BATIAV_D",
-   "id": "dyfed",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
    "id": "gwent",
    "sorun": "kaynak boş"
   },
   {
    "dilim": "BATIAV_D",
-   "id": "glywysing",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "brycheiniog",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "ceredigion",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
    "id": "alba",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "adalar-kralligi",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "orkney-jarllik-erken",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "waterford-norse",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "limerick-norse",
    "sorun": "kaynak boş"
   },
   {
@@ -47502,67 +47863,7 @@
   },
   {
    "dilim": "BATIAV_D",
-   "id": "bretanya-nominoe",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "galicia-kralligi",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
    "id": "portucale",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "kastilya-kontlugu",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "aragon-kontlugu",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "sobrarbe-ribagorza",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "pallars",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "urgell",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "empuries",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "besalu",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "septimania-gotia",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "beni-kasi",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "BATIAV_D",
-   "id": "bobastro",
    "sorun": "kaynak boş"
   },
   {
@@ -48492,11 +48793,6 @@
   },
   {
    "dilim": "ORTAAV_C",
-   "id": "burgund-worms",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_C",
    "id": "thuringen-krallik",
    "sorun": "kaynak boş"
   },
@@ -48522,11 +48818,6 @@
   },
   {
    "dilim": "ORTAAV_D",
-   "id": "bavyera-agilolfing",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_D",
    "id": "bavyera",
    "sorun": "kaynak boş"
   },
@@ -48539,16 +48830,6 @@
    "dilim": "ORTAAV_D",
    "id": "saksonya-eski",
    "sorun": "dilim D ama f devri C"
-  },
-  {
-   "dilim": "ORTAAV_D",
-   "id": "saksonya-eski",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_D",
-   "id": "saksonya-dukaligi",
-   "sorun": "kaynak boş"
   },
   {
    "dilim": "ORTAAV_D",
@@ -48567,22 +48848,12 @@
   },
   {
    "dilim": "ORTAAV_D",
-   "id": "bohemya-dukaligi",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_D",
    "id": "libice-slavnik",
    "sorun": "kaynak boş"
   },
   {
    "dilim": "ORTAAV_D",
    "id": "visla-devleti",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_D",
-   "id": "polan-gniezno",
    "sorun": "kaynak boş"
   },
   {
@@ -48622,11 +48893,6 @@
   },
   {
    "dilim": "ORTAAV_D",
-   "id": "obotrit-prensligi",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_D",
    "id": "velet-lutic-birligi",
    "sorun": "kaynak boş"
   },
@@ -48642,11 +48908,6 @@
   },
   {
    "dilim": "ORTAAV_D",
-   "id": "nordmark",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_D",
    "id": "dogu-mark-pannonia",
    "sorun": "kaynak boş"
   },
@@ -48657,11 +48918,6 @@
   },
   {
    "dilim": "ORTAAV_E",
-   "id": "avusturya-marki",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_E",
    "id": "meissen-markgrafligi",
    "sorun": "dilim E ama f devri D"
   },
@@ -48672,22 +48928,7 @@
   },
   {
    "dilim": "ORTAAV_E",
-   "id": "brandenburg-markgrafligi",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_E",
-   "id": "mecklenburg",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_E",
    "id": "anhalt-prensligi",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_E",
-   "id": "wurttemberg",
    "sorun": "kaynak boş"
   },
   {
@@ -48697,22 +48938,12 @@
   },
   {
    "dilim": "ORTAAV_E",
-   "id": "tirol-kontlugu",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_E",
    "id": "habsburg-kontlugu",
    "sorun": "kaynak boş"
   },
   {
    "dilim": "ORTAAV_E",
    "id": "zahringen-dukaligi",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_E",
-   "id": "stiriya-markgrafligi",
    "sorun": "kaynak boş"
   },
   {
@@ -48743,11 +48974,6 @@
   {
    "dilim": "ORTAAV_E",
    "id": "gyula-erdel",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_E",
-   "id": "moskova",
    "sorun": "kaynak boş"
   },
   {
@@ -48792,16 +49018,6 @@
   },
   {
    "dilim": "ORTAAV_E",
-   "id": "buyuk-polonya-dukaligi",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_E",
-   "id": "krakov-dukaligi",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_E",
    "id": "pomerelya",
    "sorun": "kaynak boş"
   },
@@ -48828,11 +49044,6 @@
   {
    "dilim": "ORTAAV_E",
    "id": "danimarka-estonya",
-   "sorun": "kaynak boş"
-  },
-  {
-   "dilim": "ORTAAV_E",
-   "id": "kuman-bati",
    "sorun": "kaynak boş"
   },
   {
@@ -48884,6 +49095,11 @@
    "dilim": "*",
    "id": "alkhon",
    "sorun": "mükerrer id x2: BOZKIR_C,HINT_C"
+  },
+  {
+   "dilim": "*",
+   "id": "hun-avrupa",
+   "sorun": "mükerrer id x2: BOZKIR_C,ORTAAV_C"
   },
   {
    "dilim": "*",
@@ -48965,7 +49181,6 @@
   "byzantion-polis",
   "caka-beyligi",
   "catuvellauni-krallik",
-  "cernigov-knezligi",
   "champagne-kontlugu",
   "chimu-krallik",
   "cid-valensiya",
@@ -49085,7 +49300,6 @@
   "karintiya-dukaligi",
   "karmati",
   "kars-vanand-kralligi",
-  "kartaca",
   "karya-hekatomnid",
   "kassit-babil",
   "kataban",
@@ -49095,7 +49309,6 @@
   "kert",
   "kibris-isaakios",
   "kibris-krallik",
-  "kiev-rusu",
   "kilikya-ermeni",
   "kinde",
   "kirman-selcuklu",
@@ -49199,7 +49412,6 @@
   "pervane",
   "pfalz",
   "piktler",
-  "polotsk-knezligi",
   "pomeranya-dukaligi",
   "pontus",
   "powys",
@@ -49240,10 +49452,8 @@
   "sena",
   "sevilla-abbadiler",
   "siena",
-  "silezya-piast",
   "sirbistan-nemanjic",
   "sirvansah",
-  "smolensk-knezligi",
   "sofene",
   "sparta",
   "strathclyde",

@@ -17,9 +17,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Bolunmeler cok kez birlesti; sureklilik kismen. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Neustria\" (Christian Pfister), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Neustria",
+   "Enciclopedia Italiana Treccani, treccani.it/enciclopedia/neustria/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Bolunmeler cok kez birlesti; sureklilik kismen | EB11: ad sonradan (Fredegar) kullanılmış, Clovis II krallığı için; Treccani: Merovenj hanedanı sonuna (Childerik III) kadar. Takvim: 511 bölünmesi EB Austrasia ile uyumlu; t=751 (Pippin) kaynakta gün/yıl okunmadı, Treccani 754 der. frank (481-843) şemsiyesinin alt krallığı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -44,9 +47,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Austrasia\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Austrasia",
+   "Enciclopedia Italiana Treccani, treccani.it/enciclopedia/austrasia/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "EB11: Theuderich I (511-534), Theudebert (534-548), Theudebald (548-555), Sigebert (561-575), Childebert (575-597) — \"retrospektif\" ad. f=511 doğrulandı; t=751 okunmadı. Başkent genelde Metz.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -125,9 +131,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f 602 Frank-Vasklar catismasi. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Gascony\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Gascony"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f 602 Frank-Vasklar catismasi | EB11: Vascones 580/587'de Pireneleri geçti; 602'de dük Genialis; Dük II. Lupus 819'da boyun eğdi (taslak t=778 yerine 819 de savunulabilir). f=602 destekli.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -167,10 +175,10 @@
   "tur": "imparatorluk",
   "bolge": "bati-avrupa",
   "f": "0800-12-25",
-  "t": "0888-01-01",
+  "t": "0887-11-01",
   "kesinlik": {
    "f": "gun",
-   "t": "yil"
+   "t": "ay"
   },
   "baskent": "Aachen",
   "etkin_bolge": "",
@@ -179,9 +187,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f imparatorluk taci gunu. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Charles III. (Roman Emperor)\" (Charles III the Fat, EB11), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Charles_III._(Roman_Emperor)",
+   "Louis the German, Lothair I. maddeleri, EB11"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f imparatorluk taci gunu | t: III. Charles (Şişman) Frankfurt/Tribur meclisince Kasım 887'de tahttan indirildi, 18 Ocak 888'de öldü (EB11; başka kaynaklar 13 Ocak) — imparatorluk fiilen Kasım 887'de dağıldı; taslak t=888-01-01 idi. f=800-12-25 (Charlemagne taç) bu oturumda okunmadı. frank künyesi 481-843'te biter; 843-887 arası Frank şehir zincirleri bu kayıt + dogu-francia/bati-francia/orta-francia ile kapanır.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "frank",
@@ -206,9 +217,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Verdun Agustos 843; gun teyitsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Lothair I.\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Lothair_I.",
+   "1911 Encyclopædia Britannica, \"Louis the German\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Louis_the_German"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Verdun Agustos 843; gun teyitsiz | EB11: Verdun antlaşması Ağustos 843; I. Lothar 23 Eylül 855'te Prüm manastırına girdi, altı gün sonra (29 Eylül 855) öldü, ülkesini üç oğluna böldü. Mevcut `orta-francia-lotharingia` künyesi (855-925) 855'ten başlar: 843-855 Orta Francia künyesi EKSİK; ayrı künye ya da o künyenin f'sini 843'e çekmek gerekir (Lotharingia = II. Lothar 855 mirası, EB11 Lorraine/Poupardin).",
   "esleme": {
    "durum": "var-f-t-farkli",
    "mevcut_id": "orta-francia-lotharingia",
@@ -233,9 +247,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f Mantaille meclisi 15 Ekim 879 (taslak, gun teyitsiz). Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Burgundy\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Burgundy"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f Mantaille meclisi 15 Ekim 879 (taslak, gun teyitsiz) | EB11: 879 Boso Provence krallığını kurdu (f ~879 destekli); t=933 okunmadı.",
   "esleme": {
    "durum": "ardil-var",
    "mevcut_id": "arles-kralligi",
@@ -260,9 +276,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Orta Avrupa/Italya siniri. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Burgundy\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Burgundy"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Orta Avrupa/Italya siniri | EB11: 879 Boso Provence krallığını kurdu; 888 ve 933 tarihleri bu oturumda okunmadı.",
   "esleme": {
    "durum": "ardil-var",
    "mevcut_id": "arles-kralligi",
@@ -287,9 +305,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f belirsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Frisians\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Frisians"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f belirsiz | EB11: Pippin II Dorestad 689'da Batı Frizya'yı aldı; Charles Martel 734'te kesin yenilgi verdi, Frizya'nın tam boyun eğişi Charlemagne dönemi (785). t=734 destekli (ya da 689 kısmî); f=600 kaynakta yok.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -314,9 +334,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f gelenek. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Mercia\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Mercia",
+   "1911 Encyclopædia Britannica, \"Wessex\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Wessex"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f gelenek | EB11 Mercia: Essex 825'ten sonra Wessex'e katıldı; Wessex: Ecgberht 825'te Beornwulf'u yenince Sussex, Surrey, Kent ve Essex'i ilhak etti. t=825 destekli; f=527 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -329,10 +352,10 @@
   "tur": "krallik",
   "bolge": "bati-avrupa",
   "f": "0547-01-01",
-  "t": "0654-01-01",
+  "t": "0605-01-01",
   "kesinlik": {
    "f": "yil",
-   "t": "yuzyil"
+   "t": "yil"
   },
   "baskent": "Bamburgh",
   "etkin_bolge": "",
@@ -341,9 +364,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Northumbria kunyesi 604. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Bernicia\" (Frederick George Meeson), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Bernicia",
+   "1911 Encyclopædia Britannica, \"Northumbria\" (Frederick George Meeson), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Northumbria"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Northumbria kunyesi 604 | EB11: ilk kral Ida ~547 (f destekli); Æthelfrith Deira'yı ~605'te birleştirdi (taslak t=654 idi; 633-34 Eanfrith ve Oswiu dönemindeki kısa ayrılıklar alt-krallık). atlas `northumbria` (604-954) künyesi birleşik krallığı kapsar.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "northumbria",
@@ -356,10 +382,10 @@
   "tur": "krallik",
   "bolge": "bati-avrupa",
   "f": "0560-01-01",
-  "t": "0654-01-01",
+  "t": "0605-01-01",
   "kesinlik": {
    "f": "onyil",
-   "t": "yuzyil"
+   "t": "yil"
   },
   "baskent": "York",
   "etkin_bolge": "",
@@ -368,9 +394,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Deira\" (Frederick George Meeson), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Deira",
+   "1911 Encyclopædia Britannica, \"Northumbria\" (Frederick George Meeson), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Northumbria"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "EB11: ilk bilinen kral Ælle ~585'te hüküm sürüyor (taslak f=560 kaynakta yok; yerleşim tarihi \"bilinmiyor\"); ~605 Bernicia ile birleşti, Edwin 616/617'de ikisini birlikte yönetti; sonra kısa süreli ayrı krallar (Oswiu dönemi).",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "northumbria",
@@ -530,9 +559,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f belirsiz. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), Galler bölümü (c. XIV/XV): Wales tribal units, Deheubarth"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f belirsiz | Wales yarım adasındaki aşiret \"krallıklar\": Gwynedd, Powys, Ceredigion, Dyfed, Ystrad Tywi, Brycheiniog, Morgannwg; Seisyll (Ceredigion) Dyfed/Ystrad Tywi/Brycheiniog'u birleştirerek Deheubarth'in öncülünü kurdu. t=920 (Deheubarth künyesi 920) uyumlu fikir; kesin tarih okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -584,9 +615,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), Galler bölümü: Morgannwg"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler bilinmiyor | Kaynakta Morgannwg (Glamorgan) aşiret krallığı olarak anılır; Glywysing/Gwent adları aynı bölgeyi kapsar; tarih okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -611,9 +644,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), Galler bölümü: tribal units"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler bilinmiyor | Aynı kaynakta Brycheiniog 7 Galler aşiret krallığı arasında; tarihi okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -638,9 +673,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler bilinmiyor. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), Galler bölümü: Seisyll of Ceredigion"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler bilinmiyor | Aynı kaynakta Ceredigion aşiret krallığı; Seisyll ile Deheubarth'e yol açtı. Tarih okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -692,9 +729,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XIII: \"The Orkneys, Shetlands, Western Islands, and Man\"; Vikinglerin 795/798 baskınları"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f taslak | Kaynak Orkney, Shetland, Batı Adaları ve Man'daki İskandinav yerleşimlerini ve 795-798 baskınlarını (Skye 795, Man 798) doğrular; 850/1266 tarihleri okunmadı.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "man-ve-adalar-krallik",
@@ -719,9 +758,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XIII: Clontarf 1014, Orkney earl Sigurðr"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Orkney Jarlı Sigurðr, 1014 Clontarf'ta Dublin tarafında savaşıp öldü (kaynağa göre); jarllık varlığı doğrulanır, f=875/t=1000 okunmadı.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "orkney-kontlugu",
@@ -746,9 +787,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XIII Vikingler: İrlanda Norse merkezleri"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | Norse Dublin, Waterford, Limerick, Cork 9. yy ortasında merkezlerdir (866 Olaf); 914/1170 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -773,9 +816,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XIII: Limerick ve Dublin Norse yönetimi, Clontarf 1014"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | Limerick Vikingleri Clontarf (1014) öncesi Brian Boru'ya tâbi (1014 savaşında Limerick Vikingleri anılır); f=922/t=1014 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -976,7 +1021,7 @@
   "ad": "Bretanya Prensligi/Kralligi (Nominoe - Salomon)",
   "tur": "krallik",
   "bolge": "bati-avrupa",
-  "f": "0845-01-01",
+  "f": "0846-01-01",
   "t": "0939-01-01",
   "kesinlik": {
    "f": "yil",
@@ -989,9 +1034,12 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire): Ballon savaşı (Kasım 845), ertesi yaz Kel Charles Nominoë ile Bretanya bağımsızlığını tanıyan antlaşmayı imzaladı",
+   "1911 Encyclopædia Britannica, \"Brittany\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Brittany"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak | taslak f=845 idi; Ballon savaşı Kasım 845, bağımsızlığın tanınması 846 yazı (CMH III; EB11 de 846). t=939 (Alain Barbetorte) okunmadı. atlas `bretanya` künyesi 939'da başlar: 846-939 dilimi künyeyle örtüşmez, künye öne çekilebilir.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "bretanya",
@@ -1016,9 +1064,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI: Tamarón 1037"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değer korundu (t=1071). CMH III: Bermudo III Galicia'da hüküm sürdü, 1037 Tamarón'da Ferdinand'a yenildi; Bermudo León kralı sayıldığından ayrı bir Galicia krallığı olarak 910-1071 kaynakla doğrulanmadı. f=910 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1070,9 +1120,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI: 1035 Sancho'nun ölümü, 1037 Tamarón"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | t=1035: Sancho Mayor ölümüyle (1035) Kastilya Ferdinand'a geçti; atlas `kastilya` künyesi 1035'te başlar (uyumlu, kontluk=öncül). f=850 okunmadı.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "kastilya",
@@ -1097,9 +1149,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI: Sobrarbe-Ribagorza-Aragon üç kontluk, 1035 paylaşımı"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | t=1035: Sancho Mayor'un ölümüyle Aragon Ramiro'ya geçti (atlas `aragon` künyesi 1035 başlar, uyumlu). f=809 okunmadı.",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "aragon",
@@ -1124,9 +1178,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI: Sobrarbe/Ribagorza 724 ve 1035 anlatısı"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | Sobrarbe: García Jiménez 724'te Aínsa'yı alarak direniş merkezi kurdu (efsanevi/çelişkili anlatım); Sancho Mayor 1035'te Sobrarbe ve Ribagorza'yı oğlu Gonzalo'ya bıraktı (t=1035 destekli). f=872 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1151,9 +1207,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI (Altamira): Barselona kontları 9. yy sonuna kadar Marka'nın bütün kontluklarını (Gerona, Ampurias, Peralada, Besalú, Ausona, Berga, Cerdanya, Urgel, Pallars, Ribagorza) ele geçirdi; Rosellón/Conflent'e de üstünlük kurdu"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | Pallars Barselona kontluk şemsiyesinde sayılır; f/t okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1178,9 +1236,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI (Altamira): Barselona kontları 9. yy sonuna kadar Marka'nın bütün kontluklarını (Gerona, Ampurias, Peralada, Besalú, Ausona, Berga, Cerdanya, Urgel, Pallars, Ribagorza) ele geçirdi; Rosellón/Conflent'e de üstünlük kurdu"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | Urgel kontu Armengol 1010'da Kurtuba seferinde Barselona kontu Raymond ile müttefik görünür (c. XVI). Kontluk hanedanı ayrı; f=798/t=1314 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1205,9 +1265,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI (Altamira): Barselona kontları 9. yy sonuna kadar Marka'nın bütün kontluklarını (Gerona, Ampurias, Peralada, Besalú, Ausona, Berga, Cerdanya, Urgel, Pallars, Ribagorza) ele geçirdi; Rosellón/Conflent'e de üstünlük kurdu"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | Ampurias Barselona kontlarının elindeki kontluklardandır (9. yy sonu); f=819/t=1402 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1232,9 +1294,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire), c. XVI (Altamira): Barselona kontları 9. yy sonuna kadar Marka'nın bütün kontluklarını (Gerona, Ampurias, Peralada, Besalú, Ausona, Berga, Cerdanya, Urgel, Pallars, Ribagorza) ele geçirdi; Rosellón/Conflent'e de üstünlük kurdu"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | Kaynak kontluğun varlığını ve Barselona hanedanının elinde olduğunu doğrular (9. yy sonu). f=878/t=1111 okunmadı; Barselona kontluğu (atlas `barselona-kontlugu` 801-1164) ile aynı hanedan — bağımsız polity mi, alt kontluk mu karar bekler.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1259,9 +1323,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Roussillon\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Roussillon"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "taslak | EB11 Roussillon: Septimania Sarazenler elinde 719'dan Pippin'in 756 yenilgisine kadar; 759 (Narbonne) okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1286,9 +1352,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "f bilinmiyor; taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/kasi-beni-kasi (\"Kasî\", TDV): hânedan Kurtuba emirliğine bağlı kalıp fırsatta isyan/bağımsızlık kazandı; Muhammed b. Lübb 317'de (929) öldürüldü"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f bilinmiyor; taslak | t=929: son Kasî hükümdarı Muhammed 317/929'da öldürüldü (TDV). f belirsiz: hânedan 172/788-89 Mûsâ b. Fürtûn'dan beri anılır, kalıcı bağımsızlık evreleri (Mûsâ b. Mûsâ 9. yy, Lübb 283/896-898) TDV'de dönemlere dağılır; tek bir f okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1300,11 +1368,11 @@
   "ad": "Bobastro (Ibn Hafsun Emirligi)",
   "tur": "emirlik",
   "bolge": "iberya",
-  "f": "0880-01-01",
-  "t": "0928-01-01",
+  "f": "0880-08-12",
+  "t": "0928-01-19",
   "kesinlik": {
    "f": "yil",
-   "t": "yil"
+   "t": "gun"
   },
   "baskent": "Bobastro",
   "etkin_bolge": "",
@@ -1313,9 +1381,11 @@
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "kaynak": [
+   "TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/omer-b-hafsun (\"Ömer b. Hafsûn\", TDV): Bübeşter'e (Bobastro) yerleşip isyan başlattı (267/880); Abdurrahman III'ün kuşattığı Bübeşter 23 Zilkade 315 (19 Ocak 928) tarihinde ele geçirilip yıktırıldı; Ömer 16 Şaban 305 (1 Şubat 918) öldü"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "taslak | f: hicrî 267 ∩ 880 ilk günü (tablo, Jülyen, ±2 gün), kaynak yalnız \"267/880\" der; t gün kaynakta (19 Ocak 928, Jülyen). Bobastro bağımsız emirlik sayılır; Endülüs Emevîlerine zaman zaman biat/af talebi (303/916) var.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -1424,6 +1494,66 @@
   "kaynak": [],
   "dogrulama": "taslak",
   "ic_not": "taslak. Kaynak OKUNMADI (web'de sayfa acilmadi); hafizadan taslak. Dogrulama icin aday: Dictionary of the Middle Ages, Brill's New Pauly, Cambridge Medieval History, Oxford Classical Dictionary, Pleiades.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "ad_yerel": null,
+  "etkin_bolge": "",
+  "sehirler": [],
+  "oncul": [],
+  "ardil": [],
+  "kaynak": [
+   "1911 Encyclopædia Britannica, \"Nevers\" (yazar belirtilmemiş), en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Nevers"
+  ],
+  "ic_not": "EB11: kontluk 987'de Dük Henri I tarafından Otto-Guillaume'a verildi, beş yıl sonra Landri'ye (992). İlk kontlar hanedanı Agnes'in ölümüyle 1192'de sona erdi (Pierre de Courtenay), 1272'de Dampierre. t: kontluk 1281 sonrası sürer (Fransa krallığına/dukalığa geçişi bu oturumda okunmadı). Kontluk Burgonya dukalığından ayrıldığı için polity; Capet vasalı.",
+  "id": "nevers-kontlugu",
+  "ad": "Nevers Kontluğu (Nivernais)",
+  "tur": "kontluk",
+  "bolge": "bati-avrupa",
+  "f": "0987-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": "belirsiz"
+  },
+  "baskent": "Nevers",
+  "ozet": "Burgonya dükü I. Henri 987'de kontluğu üvey oğlu Otto-Guillaume'a verdi; 992'de damadı Landri'ye geçti, ilk hanedan 1192'de bitti.",
+  "oncelik": "kucuk",
+  "dogrulama": "okundu",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "ad_yerel": null,
+  "etkin_bolge": "",
+  "sehirler": [],
+  "oncul": [],
+  "ardil": [],
+  "kaynak": [
+   "The Cambridge Medieval History, c. III \"Germany and the Western Empire\", Cambridge 1922 (archive.org: TheCambridgeMedievalHistoryVolIiiGermanyAndTheWesternEmpire): Maine tartışmaları (846 antlaşması, 856 Maine Dükalığı); The Cambridge Medieval History vol. V \"Contest of Empire and Papacy\", Normandy ch.: 1051 Geoffroy Martel Maine kontu Herbert'i kovup topraklarını Anjou'ya kattı; 1063-64 William Maine kontu unvanını aldı"
+  ],
+  "ic_not": "Kaynak OCR metni (archive.org djvu) gürültülü; yalnız yıllar okundu: 846 (kont Lambert), 856 (Prens Louis için Maine Dükalığı marka), 1051 (Anjou ilhakı), 1063-64 (William Maine kontu). f=846 \"ilk kaynakta görünüş\" — kontluğun başlangıç günü değil. t (Anjou'ya kalıcı katılım) okunmadı: null.",
+  "id": "maine-kontlugu",
+  "ad": "Maine Kontluğu",
+  "tur": "kontluk",
+  "bolge": "bati-avrupa",
+  "f": "0846-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "yil",
+   "t": "belirsiz"
+  },
+  "baskent": "Le Mans",
+  "ozet": "Carolingian marka/kontluk; 846'da Lambert'in elinde bırakıldı; 1051'de Geoffroy Martel Anjou'ya kattı, 1063-64 Normandiya'nın üstünlüğü.",
+  "oncelik": "kucuk",
+  "dogrulama": "kismen-okundu",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,

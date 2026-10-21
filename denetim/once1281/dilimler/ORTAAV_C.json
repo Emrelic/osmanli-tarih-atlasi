@@ -671,9 +671,11 @@
    "burgund"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "443 Sapaudia yerleşmesi ile süreklilik: Burgund Krallığı tek polity sayılabilir. Burada 'Ren dönemi' ayrı kayıt; BATIAV ile birleştirme kararı ana oturumda. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Prosper Tiro; Brill's New Pauly 'Burgundiones'; Wood 'Merovingian Kingdoms']",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Burgundi», https://www.treccani.it/enciclopedia/burgundi_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "443 Sapaudia yerleşmesi ile süreklilik: Burgund Krallığı tek polity sayılabilir. Burada 'Ren dönemi' ayrı kayıt; BATIAV ile birleştirme kararı ana oturumda. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Prosper Tiro; Brill's New Pauly 'Burgundiones'; Wood 'Merovingian Kingdoms'] || TUR2: Treccani Burgundi: Burgundlar Worms ve Mainz çevresine yerleşti; kral Guntiar (Gundahar) 411'de Jovinus'un imparator ilanında rol aldı -> f=411 OKUNDU. t=436 (Hun yıkımı) bu sayfada okunmadı.",
   "esleme": {
    "durum": "ardil-var",
    "mevcut_id": "burgund",
@@ -799,6 +801,39 @@
    "durum": "ardil-var",
    "mevcut_id": "alamanlar",
    "not": "alamanlar (213-496) devamı; sonraki Schwaben (915) ardıl."
+  }
+ },
+ {
+  "id": "hun-avrupa",
+  "ad": "Avrupa Hun İmparatorluğu",
+  "tur": "konfederasyon",
+  "bolge": "dogu-avrupa",
+  "f": "0370-01-01",
+  "t": "0454-01-01",
+  "kesinlik": {
+   "f": "onyil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Pannonia)",
+  "etkin_bolge": "Don - Tuna - Pannonia",
+  "sehirler": [
+   "Pannonia"
+  ],
+  "ozet": "Balamber'in Don'u geçmesiyle (c.370) başlayan, Attila'nın ölümü (453) ve Nedao (454) sonrası çöken Hun hâkimiyeti.",
+  "oncul": [],
+  "ardil": [
+   "gepid-krallik"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Unni», https://www.treccani.it/enciclopedia/unni_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "okundu",
+  "ic_not": "Treccani Unni: «Intorno al 370 ... guidati da Balamber, passano il Don»; Attila 453'te öldü, «il grande regno degli Unni crollò»; «Ellac ... perì nella battaglia del Netao (454)»; Dengizico 468 veya 469'da öldürüldü. f=370 (yaklaşık) ve t=454 OKUNDU; Hun kalıntıları 468/469'a dek sürdü. Mevcut künye 0370-0455 ile uyumlu.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "hun-avrupa",
+   "not": "yıl düzeyinde uyumlu; t 455->454 (Nedao)."
   }
  }
 ]

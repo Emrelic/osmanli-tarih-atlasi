@@ -21,9 +21,11 @@
    "bavyera"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç: Garibald I yaklaşık 548-555 (Jordanes Getica 280; Paulus Diaconus); 788 Ingelheim kararı. İki uç yaklaşık. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Jahn 'Ducatus Baiuvariorum'; Wolfram; Brill's New Pauly Baiuvarii]",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Baviera», https://www.treccani.it/enciclopedia/baviera_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç: Garibald I yaklaşık 548-555 (Jordanes Getica 280; Paulus Diaconus); 788 Ingelheim kararı. İki uç yaklaşık. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Jahn 'Ducatus Baiuvariorum'; Wolfram; Brill's New Pauly Baiuvarii] || TUR2: Treccani Baviera: ducato retto da duchi Agilolfingi; Tassilone deposto da Carlo Magno nel 788 -> t=788 (yıl) OKUNDU. f=555 bu sayfada yok (başlangıç okunmadı).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -79,9 +81,11 @@
    "saksonya-dukaligi"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç: Sakson adının ilk anılışı (Ptolemaios, 2. yy); polity olarak 'Altsachsen' 3.-4. yy kabile birliği. 804 Charlemagne'ın son sürgünleri. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Saxones'; Hägermann 'Karl der Große']",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Sassonia», https://www.treccani.it/enciclopedia/sassonia_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç: Sakson adının ilk anılışı (Ptolemaios, 2. yy); polity olarak 'Altsachsen' 3.-4. yy kabile birliği. 804 Charlemagne'ın son sürgünleri. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Brill's New Pauly 'Saxones'; Hägermann 'Karl der Große'] || TUR2: Treccani Sassonia: Carlo Magno 32 yıl savaştı; Widukind 785 Attigny vaftizi; «non prima dell'804 la Sassonia poté dirsi del tutto pacificata» -> t=804 OKUNDU (fetih tamamlanması). f=300 (Sakson birliği) okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -111,9 +115,11 @@
    "saksonya"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Dukalık başlangıcı Liudolf (dux in Saxonia ~ 850) ile Otto (880) arasında belirsiz; 1180 Gelnhausen Belgesi. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Sachsen']",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Sassonia», https://www.treccani.it/enciclopedia/sassonia_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Dukalık başlangıcı Liudolf (dux in Saxonia ~ 850) ile Otto (880) arasında belirsiz; 1180 Gelnhausen Belgesi. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Sachsen'] || TUR2: Treccani Sassonia: Enrico il Leone'nin devleti Federico Barbarossa tarafından 1180'de elinden alındı ve bölündü -> t=1180 OKUNDU. f=880 okunmadı (Liudolfinger dükü Otto «Erlauchte» c.880).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -231,9 +237,11 @@
    "bohemya"
   ],
   "oncelik": "cekirdek",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Borivoj'un vaftizi ~883, saltanatı 870; 1198 Philip II / 1212 Altın Bülten unvan kararlılığı. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Böhmen'; Wolverton 'Cosmas of Prague']",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Boemia», https://www.treccani.it/enciclopedia/boemia_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Borivoj'un vaftizi ~883, saltanatı 870; 1198 Philip II / 1212 Altın Bülten unvan kararlılığı. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Böhmen'; Wolverton 'Cosmas of Prague'] || TUR2: Treccani Boemia: Bořivoj (Přemyslid) ve ardılları Çek kabilelerini Prag yönetiminde birleştirdi (X. yy), Václav I 920-929; kalıtsal kraliyet tacı Filip (Svevia) tarafından 1198'de verildi (1204 Innocentius III teyit), Sicilya Altın Bulla'sı Basel 1212 -> t=1198 (dükalık->krallık) OKUNDU; Mevcut künye bohemya f=1000 (krallık); Treccani 1198 öncesini dükalık anlatır -> künye 870 dükalık + 1198/1212 krallık ayrımı önerilir (f=870 okunmadı).",
   "esleme": {
    "durum": "var-kisa",
    "mevcut_id": "bohemya",
@@ -318,9 +326,11 @@
    "polonya-erken"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "Efsanevî Piast ve Siemowit adları (Gallus Anonymus) tarihsel doğrulama zayıf; 9. yy tarihleri arkeolojik. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Labuda 'Mieszko I'; Gallus Anonymus Chronica; Brill's New Pauly]",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Polonia», https://www.treccani.it/enciclopedia/polonia_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Efsanevî Piast ve Siemowit adları (Gallus Anonymus) tarihsel doğrulama zayıf; 9. yy tarihleri arkeolojik. [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Labuda 'Mieszko I'; Gallus Anonymus Chronica; Brill's New Pauly] || TUR2: Treccani Polonia: «probabilmente sino dalla metà del sec. IX la dinastia dei Piasti, assunto il potere sulla tribù dei Polani (Gniezno-Poznań)» -> f=850 (yüzyıl ortası) OKUNDU; Mieszko I 963'te Wichmann'a yenildi, sonra Otto I'in egemenliğini tanıdı. t=966 (vaftiz) okunmadı.",
   "esleme": {
    "durum": "ardil-var",
    "mevcut_id": "polonya-erken",
@@ -550,9 +560,11 @@
    "mecklenburg"
   ],
   "oncelik": "orta",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "789 Charlemagne Wilzi seferi; Obotritler bazen kral/dük (Thrasco, Gottschalk, Niklot). 1160 Niklot ölümü (1160 Werle). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Annales regni Francorum; Helmold Chronica Slavorum; Brill's New Pauly]",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Meclemburgo», https://www.treccani.it/enciclopedia/meclemburgo_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "789 Charlemagne Wilzi seferi; Obotritler bazen kral/dük (Thrasco, Gottschalk, Niklot). 1160 Niklot ölümü (1160 Werle). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Annales regni Francorum; Helmold Chronica Slavorum; Brill's New Pauly] || TUR2: taslak değeri: f=0789-01-01 t=1160-01-01. Treccani Meclemburgo: «Nel 1160 cadde l'ultimo principe degli Obodriti pagani, Niklot» -> pagan Obotrit prensliğinin sonu 1160 OKUNDU (t=1160 önerilir; Pribislav I Henry the Lion'dan lehen aldı, hanedan sürdü). f=789 (Karlomagno ittifakı) okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -666,9 +678,11 @@
    "brandenburg-markgrafligi"
   ],
   "oncelik": "kucuk",
-  "kaynak": [],
-  "dogrulama": "taslak",
-  "ic_not": "965 Gero'nun ölümü ve mark bölünmesi (Widukind, Thietmar). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Nordmark']",
+  "kaynak": [
+   "Neue Deutsche Biographie, «Albrecht der Bär», https://www.deutsche-biographie.de/sfz69314.html"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "965 Gero'nun ölümü ve mark bölünmesi (Widukind, Thietmar). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Nordmark'] || TUR2: NDB Albrecht der Bär: 1134 Lothar III Nordmark'ı (Altmark) Albrecht'e lehen verdi -> Nordmark Markgrafı Albrecht; 1134 sonrası Nordmark Askanier eline geçti, Brandenburg'a evrildi. f=965 (Nordmark kuruluşu, Gero ölümünden sonra) ve t=1157 okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -702,6 +716,113 @@
    "durum": "eksik",
    "mevcut_id": null,
    "not": ""
+  }
+ },
+ {
+  "id": "kiev-rusu",
+  "ad": "Kiev Rus'u (Rus Devleti) — kaynak doğrulaması",
+  "tur": "knezlik",
+  "bolge": "dogu-avrupa",
+  "f": "0882-01-01",
+  "t": "1240-12-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "ay"
+  },
+  "baskent": "Novgorod -> Kiev",
+  "etkin_bolge": "Orta Dinyeper, Novgorod, Smolensk, Polotsk, Çernigov",
+  "sehirler": [
+   "Kiev",
+   "Novgorod",
+   "Smolensk",
+   "Çernigov"
+  ],
+  "ozet": "Rurikid Varyag knezi Oleg'in Kiev'i merkez yapmasıyla kurulan; 1240'ta Batu Han'ın Kiev'i almasıyla sonlanan Doğu Slav devleti.",
+  "oncul": [],
+  "ardil": [
+   "vladimir-suzdal",
+   "galicya-volhinya"
+  ],
+  "oncelik": "cekirdek",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Russia», https://www.treccani.it/enciclopedia/russia_(Enciclopedia-Italiana)/",
+   "Enciclopedia Italiana (Treccani, 1929-37), «Kiev», https://www.treccani.it/enciclopedia/kiev_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Treccani Russia: Rjurik 862-879, Oleg 879-912 (Treccani tarihi 879; kronik geleneği PVL 6390 = 882 yazılı kaynakta OKUNMADI, archive.org PVL tam metni 401). Treccani Kiev: Oleg tarafından kurulan Varyag-Rus krallığının merkezi; «Nel 1240 ... invasione dei mongoli: dopo un assedio ... presa dagli eserciti del khān Batyj» -> t yılı OKUNDU (1240); 6 Aralık günü bu sayfada yok. Mevcut künye f=882 (PVL), 879 ile 3 yıl fark: var (≤25 yıl).",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "kiev-rusu",
+   "not": "f=882 mevcut künyeyle uyumlu; Treccani Oleg 879; gün 6 Aralık 1240 okunmadı (yalnız yıl)."
+  }
+ },
+ {
+  "id": "arles-kralligi",
+  "ad": "Burgonya (Arles) Krallığı",
+  "tur": "krallik",
+  "bolge": "bati-avrupa",
+  "f": "0933-01-01",
+  "t": "1032-09-06",
+  "kesinlik": {
+   "f": "yil",
+   "t": "gun"
+  },
+  "baskent": "Arles / Vienne",
+  "etkin_bolge": "Alt ve Yukarı Burgonya (Provence, Cenevre-Savoy, Franche-Comté)",
+  "sehirler": [
+   "Arles",
+   "Vienne",
+   "Lyon"
+  ],
+  "ozet": "Alt (Provence) ve Yukarı Burgonya'nın 933'te birleşmesiyle oluşan krallık; III. Rudolf'un ölümüyle imparatorluğa geçti.",
+  "oncul": [],
+  "ardil": [
+   "almanya"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Borgogna», https://www.treccani.it/enciclopedia/borgogna_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Treccani Borgogna: «Borgogna cisgiurana (Provenza) e transgiurana ... uniti dal 933, formarono ... il regno di Borgogna o di Arles, dal 1038 in debole soggezione feudale all'Impero» -> f=933 OKUNDU. t: Treccani 1038'den itibaren imparatorluğa gevşek bağlılık der; mevcut künye t=1032-09-06 (III. Rudolf'un ölümü) okunmadı; krallık adı imparatorluk içinde 1378'e dek sürdüğünden (okunmadı) sönme tarihi hanedanın sonu mu polity sonu mu — ayrı beyan gerekir.",
+  "esleme": {
+   "durum": "var",
+   "mevcut_id": "arles-kralligi",
+   "not": "f=933 mevcut künyeyle uyumlu; t farkı beyanlı."
+  }
+ },
+ {
+  "id": "polotsk-knezligi",
+  "ad": "Polotsk Knezliği",
+  "tur": "knezlik",
+  "bolge": "dogu-avrupa",
+  "f": "0900-01-01",
+  "t": "1307-01-01",
+  "kesinlik": {
+   "f": "yuzyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Polotsk",
+  "etkin_bolge": "Batı Dvina",
+  "sehirler": [
+   "Polotsk",
+   "Vitebsk"
+  ],
+  "ozet": "Doğu Slav Krivich yurdunda IX. yy'dan itibaren bağımsız prenslik; sonra Litvanya'ya bağlandı.",
+  "oncul": [],
+  "ardil": [
+   "litvanya-buyuk-dukalik"
+  ],
+  "oncelik": "orta",
+  "kaynak": [
+   "Enciclopedia Italiana (Treccani, 1929-37), «Polock», https://www.treccani.it/enciclopedia/polock_(Enciclopedia-Italiana)/"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Treccani Polock: «Dal sec. IX Polock si afferma come una delle più antiche piazzeforti rutene e capitale di un principato indipendente»; XIV. yy Litvanya birliğine girdi, 1563'te Moskova aldı. Mevcut künye f=978 (Rogvolod), t=1307 okunmadı; knezliğin kronik doğuşu Treccani'de yıl vermiyor (yüzyıl).",
+  "esleme": {
+   "durum": "var-f-t-farkli",
+   "mevcut_id": "polotsk-knezligi",
+   "not": "f 978 (mevcut) ile Treccani IX. yy farkı >25 yıl; kronik kaynak (PVL 980) okunmadı."
   }
  }
 ]

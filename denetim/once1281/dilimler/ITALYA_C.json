@@ -40,7 +40,7 @@
   "ad": "Thourioi",
   "tur": "sehir-devleti",
   "bolge": "italya",
-  "f": "-0442-01-01",
+  "f": "-0443-01-01",
   "t": "-0279-01-01",
   "kesinlik": {
    "f": "yil",
@@ -60,11 +60,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Turi' (https://www.treccani.it/enciclopedia/turi/): «Città della Magna Grecia fondata sul sito della distrutta Sibari nel 444 a.C. come colonia panellenica sotto gli auspici di Pericle»",
+   "Treccani, 'Sibari': Periklesin müdahalesiyle (444/3) Turi kuruldu; kent planı Hippodamos'a atfedilir."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Bitiş yaklaşık (MÖ 282-278).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Bitiş yaklaşık (MÖ 282-278). [Tur2: taslak f degeri: -0442-01-01] [Tur2] Taslak f=-0442 (443 MÖ) yerine Treccani 444 MÖ (=-0443). t=-0279 (280 MÖ) Roma'ya geçiş bu turda okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -99,11 +99,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Latini' (https://www.treccani.it/enciclopedia/latini/): Latium vetus; «Nelle guerre del 5° sec. l'iniziativa si andò sempre più concentrando nelle mani di Roma ... sul principio del 4° sec. aveva una posizione egemonica nella lega»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Geleneksel tarih; Cassius antlaşması tarihlenmesi tartışmalı.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Geleneksel tarih; Cassius antlaşması tarihlenmesi tartışmalı. [Tur2] Latin Savaşı sonu (338 MÖ, atlas t=-0337) Treccani Latini sayfasında bulunamadı; f=-0492 (493 MÖ Foedus Cassianum) okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -135,11 +134,10 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Sanniti' (https://www.treccani.it/enciclopedia/sanniti/): Roma'yla «tre conflitti successivi, le cd. guerre sannitiche (343-341; 326-304; 298-290 a.C.)»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Birlik yapısı tartışmalı; siyasî bağımsızlık MÖ 290'da fiilen kırıldı (Aquilonia/Curius), son direniş Sosyal Savaş.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Birlik yapısı tartışmalı; siyasî bağımsızlık MÖ 290'da fiilen kırıldı (Aquilonia/Curius), son direniş Sosyal Savaş. [Tur2] f=-0449 (450 MÖ) ve t=-0081 (82 MÖ Sosyal Savaş/Sulla) bu turda okunmadı; Treccani yalnız savaşların yıllarını verir.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -171,11 +169,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Lucani' (https://www.treccani.it/enciclopedia/lucani/): «Popolazione italica di origine sannitica, stanziata nella regione ... dal 5° sec. a.C. Tra il 5° e il 4° sec. a.C. conquistarono Posidonia, Pixunte, Lao»; 2. yy başında Bussento, Copia kolonileri."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş yaklaşık.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş yaklaşık. [Tur2] f 5. yy (atlas -0429 uyumlu), t=-0270 (271 MÖ) okunmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -209,11 +206,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Bruzi' (https://www.treccani.it/enciclopedia/bruzi/): «durante il 4° sec. a.C. si stabilì nel territorio dell'attuale Calabria ... Formarono una confederazione di città (Consentia, Aufugum, Bergae, Besidiae, Ocriculum ...), che nel 3° sec. a.C. raggiunsero grande potenza»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Kuruluş MÖ 356/355.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş MÖ 356/355. [Tur2] f=-0355 (356 MÖ) ve t=-0202 (203 MÖ) bu turda okunmadı; 4. yy yerleşim ve 3. yy gücü okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -245,11 +241,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Umbri' (https://www.treccani.it/enciclopedia/umbri/): Sentinum 295 MÖ; 283 Sena, 268 Ariminum, 266'da Sarsina yenildi; 4. yy'dan itibaren yazı, para, kentleşme."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç yıl bilinmiyor.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç yıl bilinmiyor. [Tur2] Tek devlet değil; f null. t=-0264 (265 MÖ): Treccani 266 Sarsina fethi ile yakın.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -282,11 +277,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Polybios 2.17 (Perseus:text:1999.01.0234:book=2:chapter=17): «the Insubres settled in the country, the largest tribe of all; and next them ... the Cenomani»; 2.34 (Evelyn Shuckburgh çevirisi, 'B. C. 222'): Marcellus ve Gnaeus Cornelius Scipio, Acerrae kuşatması, Insubres'in başkenti Mediolanum'a çekilmesi.",
+   "Treccani, Enciclopedia on line, 'Insubri' (https://www.treccani.it/enciclopedia/insubri/): «Popolazione celtica ... stanziatasi nell'Italia settentrionale, tra il Ticino e il Lago di Como, sullo scorcio del 5° sec. a.C.»; 225'te Talamone'de yenildiler, «sottomessi da Marco Claudio Marcello dopo la battaglia di Clastidio (222)»; 49 MÖ'de Roma vatandaşlığı."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Livius'a göre MÖ ~600 efsanesi; arkeolojiye göre MÖ 4. yy. Bitiş MÖ 222.",
+  "dogrulama": "okundu",
+  "ic_not": "Livius'a göre MÖ ~600 efsanesi; arkeolojiye göre MÖ 4. yy. Bitiş MÖ 222. [Tur2] f=-0399 (400 MÖ): Treccani '5. yy sonu' ile uyumlu. t=222 MÖ (=-0221) iki kaynakta okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -319,11 +314,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Boi' (https://www.treccani.it/enciclopedia/boi/): «un nucleo dalla Gallia transalpina invase l'Italia settentrionale (5° sec. a.C.) e si stabilì fra Modena e Felsina»; 283'te Vadimone gölünde ve 224'te Telamon'da yenildiler; «furono definitivamente assoggettati nel 191»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": " [Tur2] t=191 MÖ (=-0190) Treccani ile birebir. f 5. yy (atlas -0399, 4. yy başı).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -354,11 +348,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Senoni' (https://www.treccani.it/enciclopedia/senoni/): «Popolazione celtica stanziata sull'Adriatico tra Ancona e Rimini (inizi 4° sec. a.C.) ... Nel 283 a.C. furono sottomessi dai Romani che stabilirono nel territorio le colonie di Sena (Gallica) e Ariminum»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": " [Tur2] t=283 MÖ (=-0282) okundu. f '4. yy başı' (atlas -0399 uyumlu).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -390,11 +383,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Polybios 2.17: Insubres'in yanında Cenomani Po boyunda.",
+   "Treccani, Enciclopedia on line, 'Cenomani': Roma-Insubres savaşında Romalıları destekledi (Marcellus zaferi, 222)."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "",
+  "dogrulama": "kismen-okundu",
+  "ic_not": " [Tur2] t=-0196 (197 MÖ) bu turda okunmadı; Cenomani 222'de Roma müttefikiydi.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -425,11 +418,10 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi, hafizadan): Brill's New Pauly (Der Neue Pauly), ilgili madde",
-   "ADAY (okunmadi): Pleiades (pleiades.stoa.org) yer kaydi; Barrington Atlas (Talbert 2000)"
+   "Treccani, Enciclopedia on line, 'Siculi' (https://www.treccani.it/enciclopedia/siculi/): «I tentativi di affrancamento, come quello guidato da Ducezio nel 5° sec., non ebbero esito duraturo»."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Tarihler Diodoros'a dayanır, ±5 yıl.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tarihler Diodoros'a dayanır, ±5 yıl. [Tur2] -0457..-0438 (458-439 MÖ) yılları Treccani'de yok; Ducetius yalnız '5. yy'.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -583,7 +575,7 @@
    "Treccani, Enciclopedia on line, 'Principato' (https://www.treccani.it/enciclopedia/principato/): Prinkipat, Augustus'un MÖ 1. yy sonunda Cumhuriyet düzeni ile monarşik talepleri uzlaştırmasıyla doğdu."
   ],
   "dogrulama": "kismen-okundu",
-  "ic_not": "Prinkipat -0026-01-16..0284-11-20 (Diocletianus), Dominat 0284..0395-01-17. 395 sonrası Doğu Roma (bizans) başka oturumda. Bati Roma'nın bolge alanı bati-avrupa; bu dilimde italya önerilir. [Tur2] Gün çelişkisi: Ovidius Ocak İdus'u (13 Ocak); atlasın -0026-01-16 (=16 Ocak 27 MÖ) günü Fasti Praenestini'ye dayanır, bu turda okunmadı. Dio 53.16 günü vermez. Yıl 27 MÖ iki kaynakla tutarlı (Dio konsüller listesi: MÖ 27 Caesar VII, Agrippa III). t=395-01-17 bu turda okunmadı (Treccani Arcadio: 395 ölüm). Dominat sınırı (284) okunmadı.",
+  "ic_not": "Prinkipat -0026-01-16..0284-11-20 (Diocletianus), Dominat 0284..0395-01-17. 395 sonrası Doğu Roma (bizans) başka oturumda. Bati Roma'nın bolge alanı bati-avrupa; bu dilimde italya önerilir. [Tur2] Gün çelişkisi: Ovidius Ocak İdus'u (13 Ocak); atlasın -0026-01-16 (=16 Ocak 27 MÖ) günü Fasti Praenestini'ye dayanır, bu turda okunmadı. Dio 53.16 günü vermez. Yıl 27 MÖ iki kaynakla tutarlı (Dio konsüller listesi: MÖ 27 Caesar VII, Agrippa III). t=395-01-17 bu turda okunmadı (Treccani Arcadio: 395 ölüm). Dominat sınırı (284) okunmadı. [Tur2] Treccani, 'Roma' (https://www.treccani.it/enciclopedia/roma/): «Il compito cui Ottaviano, poi Augusto, attese nei primi anni del principato (27 a.C. - 14 d.C.)» - 27 MÖ yıl düzeyinde üçüncü kaynak.",
   "esleme": {
    "durum": "var",
    "mevcut_id": "roma-imp",
@@ -596,7 +588,7 @@
   "tur": "imparatorluk",
   "bolge": "italya",
   "f": "0260-01-01",
-  "t": "0274-01-01",
+  "t": "0273-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
@@ -617,11 +609,12 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Tetrico' (https://www.treccani.it/enciclopedia/tetrico/): «Ultimo degli usurpatori della dignità imperiale in Gallia ... (270 d. C.) fu scelto come successore di Vittorino ... l'imperatore Aureliano marciò contro di lui e nella battaglia ai Campi Catalaunici lo fece prigioniero (273 circa)»",
+   "Treccani, 'Aureliano' (https://www.treccani.it/enciclopedia/aureliano/): «passò in Gallia e sgominò le legioni di Esuvio Tetrico ai Campi Catalauni; nel 274 celebrò il trionfo»",
+   "Treccani, 'Gallieno': Gallieno 253-260 Valerianus ile birlikte hüküm sürdü."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Postumus başlangıcı 260 (sonbahar); bitiş Aurelianus zaferi 274. bolge sözlük: bati-avrupa (önerilen). Ayrılıkçı bölge, Roma tekliği ile çakışır.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Postumus başlangıcı 260 (sonbahar); bitiş Aurelianus zaferi 274. bolge sözlük: bati-avrupa (önerilen). Ayrılıkçı bölge, Roma tekliği ile çakışır. [Tur2: taslak t degeri: 0274-01-01] [Tur2] Taslak t=274 (Aurelianus'un zafer töreni) yerine fiilî son 273 civarı (Catalaunian Fields, Treccani). Postumus ile f=260 ve Gallia İmparatorluğu'nun kuruluşu bu turda okunmadı (Treccani 'Postumo' maddesi tıbbi 'postumo' çıktı).",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -655,11 +648,11 @@
   ],
   "oncelik": "orta",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Palmira' (https://www.treccani.it/enciclopedia/palmira/): «nel 259-60 circa, l'esercito di P. fu in grado di intervenire ... Autore della vittoria fu Odenato, sotto il quale la città assunse una progressiva potenza»; Odenato 267'de öldü, oğlu Vaballato ve Zenobia; Roma otoritesi tanınmaz (271); «nel 272, presso Emesa, [Aureliano] inflisse all'esercito palmireno una decisiva disfatta».",
+   "Treccani, 'Zenobia' (https://www.treccani.it/enciclopedia/zenobia/): Odenato'nun ölümü (266-67) sonrası iktidar; 270'te Aureliano ile anlaşma; kendi parası, Vaballato 'Imperator Caesar Augustus'."
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Başlangıç 260 (Odaenathus) ya da 267/270 (Zenobia ayrılışı). Bitiş 272 (Zenobia esir), Palmira isyanı 273. bolge önerisi: suriye-filistin.",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Başlangıç 260 (Odaenathus) ya da 267/270 (Zenobia ayrılışı). Bitiş 272 (Zenobia esir), Palmira isyanı 273. bolge önerisi: suriye-filistin. [Tur2] t=272 (Emesa) okundu, atlas uyumlu. f=260: Odenato'nun 259-60 Pers zaferi (Treccani) Palmira'nın fiilî özerkliğinin başlangıcı; ayrı 'imparatorluk' ilanı 271 (Vaballato). Seçim: 260 mu 267 mi 271 mi - 'kuruluş' tanımı kararı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -692,11 +685,11 @@
   ],
   "oncelik": "kucuk",
   "kaynak": [
-   "ADAY (okunmadi): Cambridge Ancient History cilt 7.2-8; Oxford Classical Dictionary (4. bs. 2012)",
-   "ADAY (okunmadi): Pleiades; Brill's New Pauly"
+   "Treccani, Enciclopedia on line, 'Carausio' (https://www.treccani.it/enciclopedia/carausio/): «Usurpatore dell'Impero romano in Britannia dal 286 al 293 ... nel 289 sconfisse le truppe di Massimiano ... Nel 293 fu assassinato da Allecto»",
+   "Treccani, 'Allecto' (https://www.treccani.it/enciclopedia/allecto/): «Usurpatore ... in Britannia dal 293 sino al 296 d. C., quando fu vinto e ucciso dalle truppe di Costanzo Cloro, presso Londra»"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "bolge önerisi bati-avrupa. Atlas çekirdeğinde olmayabilir.",
+  "dogrulama": "okundu",
+  "ic_not": "bolge önerisi bati-avrupa. Atlas çekirdeğinde olmayabilir. [Tur2] f=286 (Carausius), t=296 (Allectus'un yenilişi): iki Treccani maddesi birebir uyumlu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
