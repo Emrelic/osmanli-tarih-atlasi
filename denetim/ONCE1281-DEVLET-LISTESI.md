@@ -1,7 +1,7 @@
 # 1281 ÖNCESİ DEVLET LİSTESİ — ÖZET
 
 Üretim: `py denetim/once1281/birlestir.py` · makine okur: `ONCE1281-DEVLET-LISTESI.json` · dilim dosyaları: `denetim/once1281/dilimler/`
-Kayıt: **1156** · sorun: **503** · atlasta olup listede eşleşmeyen (kültür hariç): **420**
+Kayıt: **1198** · sorun: **424** · atlasta olup listede eşleşmeyen (kültür hariç): **419**
 
 ## Bölge × devir (kayıt sayısı)
 
@@ -9,8 +9,8 @@ Kayıt: **1156** · sorun: **503** · atlasta olup listede eşleşmeyen (kültü
 |---|---|---|---|---|---|---|
 | AFRIKA | 0 | 2 | 6 | 13 | 4 | 25 |
 | AMERIKA | 0 | 9 | 20 | 25 | 16 | 70 |
-| ANAKAF | 0 | 26 | 11 | 11 | 6 | 54 |
-| BALKAN | 0 | 30 | 24 | 10 | 14 | 78 |
+| ANAKAF | 0 | 30 | 14 | 12 | 5 | 61 |
+| BALKAN | 0 | 30 | 24 | 14 | 27 | 95 |
 | BATIAV | 0 | 3 | 17 | 53 | 29 | 102 |
 | BOZKIR | 0 | 8 | 41 | 34 | 14 | 97 |
 | CIN | 0 | 29 | 71 | 50 | 10 | 160 |
@@ -18,25 +18,25 @@ Kayıt: **1156** · sorun: **503** · atlasta olup listede eşleşmeyen (kültü
 | HINT | 0 | 19 | 30 | 36 | 20 | 105 |
 | ITALYA | 0 | 46 | 23 | 24 | 31 | 124 |
 | KOJA | 0 | 1 | 16 | 10 | 9 | 36 |
-| LEVARAP | 0 | 25 | 10 | 3 | 13 | 51 |
-| MEZOIR | 2 | 24 | 8 | 9 | 5 | 48 |
-| MISIR | 4 | 12 | 6 | 5 | 4 | 31 |
-| OKYANUS | 3 | 1 | 0 | 2 | 10 | 16 |
+| LEVARAP | 0 | 25 | 10 | 8 | 17 | 60 |
+| MEZOIR | 2 | 25 | 7 | 10 | 6 | 50 |
+| MISIR | 4 | 12 | 5 | 11 | 11 | 43 |
+| OKYANUS | 0 | 0 | 0 | 2 | 9 | 11 |
 | ORTAAV | 0 | 5 | 27 | 24 | 30 | 86 |
-| **TOPLAM** | 9 | 241 | 326 | 343 | 237 | 1156 |
+| **TOPLAM** | 6 | 245 | 327 | 360 | 260 | 1198 |
 
 ## Atlas eşlemesi
 
 | durum | sayı |
 |---|---|
-| var | 196 |
-| var-f-t-farkli | 37 |
-| var-kisa | 92 |
+| var | 195 |
+| var-f-t-farkli | 38 |
+| var-kisa | 93 |
 | ardil-var | 19 |
-| eksik | 812 |
+| eksik | 853 |
 
-Devredilebilir (taslak değil): 0 · doğrulama bekleyen taslak: 1156
-Doğrulama: okundu 0 · kismen-okundu 0 · taslak 1156
+Devredilebilir (okundu/kismen-okundu + kaynak dolu): 165 · doğrulama bekleyen taslak: 1033
+Doğrulama: okundu 5 · kismen-okundu 160 · taslak 1033
 
 ## Bölge × eşleme
 
@@ -44,8 +44,8 @@ Doğrulama: okundu 0 · kismen-okundu 0 · taslak 1156
 |---|---|---|---|---|---|
 | AFRIKA | 0 | 3 | 2 | 0 | 20 |
 | AMERIKA | 22 | 7 | 0 | 0 | 41 |
-| ANAKAF | 0 | 0 | 4 | 0 | 50 |
-| BALKAN | 1 | 1 | 7 | 0 | 69 |
+| ANAKAF | 0 | 0 | 4 | 0 | 57 |
+| BALKAN | 1 | 1 | 7 | 0 | 86 |
 | BATIAV | 0 | 1 | 11 | 5 | 85 |
 | BOZKIR | 33 | 5 | 2 | 0 | 57 |
 | CIN | 63 | 0 | 1 | 0 | 96 |
@@ -53,10 +53,10 @@ Doğrulama: okundu 0 · kismen-okundu 0 · taslak 1156
 | HINT | 23 | 5 | 16 | 1 | 60 |
 | ITALYA | 15 | 7 | 5 | 1 | 96 |
 | KOJA | 12 | 1 | 0 | 0 | 23 |
-| LEVARAP | 0 | 0 | 7 | 0 | 44 |
-| MEZOIR | 0 | 0 | 3 | 2 | 43 |
-| MISIR | 1 | 2 | 11 | 0 | 17 |
-| OKYANUS | 3 | 2 | 1 | 0 | 10 |
+| LEVARAP | 0 | 0 | 8 | 0 | 52 |
+| MEZOIR | 0 | 0 | 3 | 2 | 45 |
+| MISIR | 1 | 2 | 11 | 0 | 29 |
+| OKYANUS | 2 | 3 | 1 | 0 | 5 |
 | ORTAAV | 1 | 0 | 9 | 10 | 66 |
 
 ## EKSİK devletler (atlasta künyesi yok)
@@ -159,34 +159,42 @@ Doğrulama: okundu 0 · kismen-okundu 0 · taslak 1156
 - `kibris-sehir-krallik` Kıbrıs Şehir Krallıkları (Salamis, Kition, Paphos, Soloi...) (sehir-devleti) -0708-01-01 … -0308-01-01 [taslak] orta
 - `kyzikos-polis` Kyzikos Şehir Devleti (sehir-devleti) -0675-01-01 … 0025-01-01 [taslak] kucuk
 - `sinope-polis` Sinope Şehir Devleti (sehir-devleti) -0630-01-01 … -0181-01-01 [taslak] orta
-- `kolkhis-krallik` Kolkhis Krallığı (krallik) -0598-01-01 … -0108-01-01 [taslak] orta
+- `kolkhis-krallik` Kolkhis Krallığı (krallik) -0598-01-01 … -0064-01-01 [kismen-okundu] orta
 - `kilikya-siennesis` Kilikya Krallığı (Siennesis hanedanı) (krallik) -0584-01-01 … -0332-01-01 [taslak] kucuk
 - `herakleia-pontika` Herakleia Pontika Şehir Devleti (sehir-devleti) -0559-01-01 … -0069-01-01 [taslak] kucuk
 - `likya-dinastileri` Likya Dinastlıkları (Ksanthos, Limyra; Pers vasalı) (hanedanlik) -0545-01-01 … -0332-01-01 [taslak] kucuk
+- `karya-lygdamid-halikarnassos` Halikarnassos Lygdamid Tiranlığı (Karya) (hanedanlik) -0519-01-01 … -0449-01-01 [taslak] kucuk
+- `misya-gongylid-pergamon` Gongylid Hanedanı (Pergamon, Gambrion, Myrina, Grynion) (hanedanlik) -0469-01-01 … None [taslak] kucuk
 - `assuwa` Assuwa Konfederasyonu (konfederasyon) None … -1429-01-01 [taslak] kucuk
 - `wilusa` Wilusa (Troya?) Krallığı (krallik) None … None [taslak] kucuk
 - `iyonya-birligi` İyonya Dodekapolisi / Panionion Birliği (konfederasyon) None … -0544-01-01 [taslak] orta
+- `pisidya-toplulugu` Pisidya Bağımsız Toplulukları (Termessos, Selge, Sagalassos) (sehir-devleti) None … -0024-01-01 [taslak] kucuk
+- `kibyra-tetrapolisi` Kibyra Tetrapolisi (Kibyra, Bubon, Balbura, Oinoanda) (konfederasyon) None … -0082-01-01 [taslak] kucuk
 
 ### ANAKAF_C
 - `paflagonya` Paflagonya Dinastlıkları / Krallığı (krallik) -0398-01-01 … -0003-01-01 [taslak] kucuk
+- `iberya-kartli` İberya (Kartli) Krallığı (krallik) -0301-01-01 … 0580-01-01 [kismen-okundu] cekirdek
 - `olba-rahip-krallik` Olba (Teukrid) Rahip-Krallığı (krallik) -0298-01-01 … 0072-01-01 [taslak] kucuk
-- `kafkas-arnavutlugu` Kafkas Arnavutluğu (Albania) Krallığı (krallik) -0298-01-01 … 0705-01-01 [taslak] orta
-- `iberya-kartli` İberya (Kartli) Krallığı (krallik) -0297-01-01 … 0580-01-01 [taslak] cekirdek
+- `kafkas-arnavutlugu` Kafkas Arnavutluğu (Albania) Krallığı (krallik) -0298-01-01 … 0705-01-01 [kismen-okundu] orta
 - `kucuk-ermenistan` Küçük Ermenistan (Armenia Minor) Krallığı (krallik) -0188-01-01 … 0072-01-01 [taslak] kucuk
 - `tarkondimotid` Hierapolis-Kastabala Tarkondimotid Krallığı (krallik) -0062-01-01 … 0017-01-01 [taslak] kucuk
 - `polemon-pontus` Pontus Polemoniakus Krallığı (krallik) -0035-01-01 … 0064-01-01 [taslak] kucuk
-- `lazika` Lazika (Egrisi) Krallığı (krallik) 0100-01-01 … 0697-01-01 [taslak] orta
+- `kafkas-hun-krallik` Kafkas Hunları (Alp İlitver) Krallığı (krallik) None … None [taslak] kucuk
+- `sabir-birligi` Sabir (Savir) Birliği (konfederasyon) None … 0599-01-01 [taslak] kucuk
+- `taron-bagratuni` Taron Bagratuni Prensliği (prenslik) None … 0967-01-01 [taslak] kucuk
+- `lazika` Lazika (Egrisi) Krallığı (krallik) 0201-01-01 … 0701-01-01 [kismen-okundu] orta
 
 ### ANAKAF_D
+- `layzan-dagistan` Layzan (Lakz, Gümük, Zerihgeran) Dağıstan Beylikleri (beylik) None … None [taslak] kucuk
 - `sarir` Sarir (Avar) Krallığı (krallik) 0500-01-01 … 1239-01-01 [taslak] kucuk
 - `kartli-erismtavari` Kartli Erismtavarlığı (Gürcü Prensliği) (prenslik) 0580-01-01 … 0888-01-01 [taslak] orta
-- `mihranid-gardman` Mihranidler (Gardman/Arran) (hanedanlik) 0630-01-01 … 0822-01-01 [taslak] kucuk
+- `mihranid-gardman` Mihranidler (Gardman/Arran) (hanedanlik) 0630-01-01 … 0822-01-01 [kismen-okundu] kucuk
 - `ermeni-ishhan` Ermenistan Ishkhanlığı (Arap vasalı Ermeni Prensliği) (prenslik) 0653-01-01 … 0884-01-01 [taslak] orta
-- `abhazya-krallik` Abhazya Krallığı (krallik) 0786-01-01 … 1008-01-01 [taslak] orta
+- `abhazya-krallik` Abhazya Krallığı (krallik) 0786-01-01 … 1008-01-01 [kismen-okundu] orta
 - `kaheti-hereti-prensligi` Kaheti–Hereti Korepiskoposluğu / Prensliği (prenslik) 0787-01-01 … 1010-01-01 [taslak] kucuk
 - `malatya-emirlik` Malatya (Melitene) Emirliği (emirlik) 0835-01-01 … 0934-01-01 [taslak] orta
-- `tefrike` Tefrike Pavlikan Devleti (devlet) 0843-01-01 … 0872-01-01 [taslak] kucuk
-- `tarsus-emirlik` Tarsus Tuğur Emirliği (emirlik) 0878-01-01 … 0965-01-01 [taslak] orta
+- `tefrike` Tefrike Pavlikan Devleti (devlet) 0850-01-01 … 0872-01-01 [kismen-okundu] kucuk
+- `tarsus-emirlik` Tarsus Tuğur Emirliği (emirlik) 0878-01-01 … 0965-01-01 [kismen-okundu] orta
 - `siunik-krallik` Sünik (Syunik) Krallığı (krallik) 0987-01-01 … 1170-01-01 [taslak] kucuk
 
 ### ANAKAF_E
@@ -195,7 +203,6 @@ Doğrulama: okundu 0 · kismen-okundu 0 · taslak 1156
 - `gabras-trabzon` Gabras Hanedanı Trabzon Dukalığı (dukalik) 1075-01-01 … 1140-01-01 [taslak] kucuk
 - `kogh-vasil` Koğ Vasil Prensliği (prenslik) 1086-01-01 … 1112-01-01 [taslak] kucuk
 - `zakarid` Zakarid Ermenistan (prenslik) 1201-01-01 … 1360-01-01 [taslak] kucuk
-- `hamidogullari` Hamidoğulları (beylik) 1280-01-01 … 1391-01-01 [taslak] kucuk
 
 ### BALKAN_B
 - `atina-arkaik` Atina (Arkaik polis: monarşi, aristokrasi, tiranlık) (sehir-devleti) -0799-01-01 … -0506-01-01 [taslak] cekirdek
@@ -252,25 +259,42 @@ Doğrulama: okundu 0 · kismen-okundu 0 · taslak 1156
 - `lombard-pannonia` Lombard Pannonia Krallığı (krallik) 0546-01-01 … 0568-01-01 [taslak] kucuk
 - `sklaviniai` Sklaviniai (Slav Boy Birlikleri - Balkan) (konfederasyon) 0550-01-01 … 0850-01-01 [taslak] orta
 - `karantanya` Karantanya (Carantania) Prensliği (prenslik) 0658-01-01 … 0828-01-01 [taslak] kucuk
-- `hirvat-dukalik` Hırvat Dükalığı (Dalmaçya) (dukalik) 0800-01-01 … 0925-01-01 [taslak] cekirdek
+- `kuber-bulgarlari` Kuber'in Bulgarları (Sermesianoi, Keramisyan Ovası) (konfederasyon) 0680-01-01 … None [taslak] kucuk
+- `donja-panonija-vojnomir-ljudevit` Aşağı Pannonia Dukalığı (Vojnomir–Ljudevit dönemi) (dukalik) 0795-01-01 … 0823-01-01 [kismen-okundu] kucuk
+- `hirvat-dukalik` Hırvat Dükalığı (Dalmaçya) (dukalik) 0810-01-01 … 0925-01-01 [kismen-okundu] cekirdek
+- `donja-panonija-ratimir` Aşağı Pannonia Dukalığı (Ratimir dönemi) (dukalik) 0829-01-01 … 0838-01-01 [kismen-okundu] kucuk
 - `sirp-prensligi` Sırp Prensliği (Vlastimirović) (prenslik) 0830-01-01 … 0960-01-01 [taslak] orta
-- `neretva-prensligi` Neretva (Pagania) Prensliği (prenslik) 0830-01-01 … 1000-01-01 [taslak] kucuk
-- `balaton-prensligi` Balaton (Pribina-Kocel) Prensliği (prenslik) 0840-01-01 … 0876-01-01 [taslak] kucuk
-- `travunija` Travunija (Trebinje) Prensliği (prenslik) 0900-01-01 … 1040-01-01 [taslak] kucuk
-- `zahumlje` Zahumlje Prensliği (prenslik) 0910-01-01 … 1030-01-01 [taslak] kucuk
+- `neretva-prensligi` Neretva (Pagania) Prensliği (prenslik) 0839-01-01 … 1000-01-01 [kismen-okundu] kucuk
+- `balaton-prensligi` Balaton (Pribina-Kocel) Prensliği (prenslik) 0846-01-01 … 0876-01-01 [kismen-okundu] kucuk
+- `donja-panonija-braslav` Aşağı Pannonia Dukalığı (Braslav dönemi) (dukalik) 0882-01-01 … 0896-01-01 [kismen-okundu] kucuk
+- `travunija` Travunija (Trebinje) Prensliği (prenslik) 0900-01-01 … 1040-01-01 [kismen-okundu] kucuk
+- `zahumlje` Zahumlje Prensliği (prenslik) 0910-01-01 … 1054-01-01 [kismen-okundu] kucuk
 
 ### BALKAN_E
+- `venedik-dalmacya` Venedik Dalmaçyası (Zara ve Dalmaçya şehirleri) (somurge) 1000-01-01 … 1358-01-01 [kismen-okundu] kucuk
 - `aynaroz` Aynaroz (Athos) Manastır Yönetimi (kilise-devleti) 1060-01-01 … None [taslak] kucuk
 - `arbanon` Arbanon (Arbër) Prensliği (prenslik) 1190-01-01 … 1255-01-01 [taslak] orta
 - `dobromir-hrisos` Dobromir Chrysos (Strumica) (despotluk) 1196-01-01 … 1202-01-01 [taslak] kucuk
-- `bodonitsa` Bodonitsa Markizliği (markizlik) 1204-01-01 … 1414-01-01 [taslak] kucuk
+- `bodonitsa` Bodonitsa Markizliği (markizlik) 1204-01-01 … 1414-01-01 [kismen-okundu] kucuk
 - `thebai-baronluk` Thebai Baronluğu (baronluk) 1204-01-01 … 1311-01-01 [taslak] kucuk
 - `rodos-gabalas` Rodos Lordluğu (Gabalas) (lordluk) 1204-01-01 … 1248-01-01 [taslak] kucuk
-- `salona-lordluk` Salona (Amfissa) Lordluğu (lordluk) 1205-01-01 … 1410-01-01 [taslak] kucuk
-- `argos-nauplia` Argos ve Nauplia Lordluğu (lordluk) 1205-01-01 … 1388-01-01 [taslak] kucuk
+- `salona-lordluk` Salona (Amfissa) Lordluğu (lordluk) 1205-01-01 … 1410-01-01 [kismen-okundu] kucuk
 - `strez-despotlugu` Strez (Prosek) Despotluğu (despotluk) 1207-01-01 … 1214-01-01 [taslak] kucuk
+- `navigajoso-lemnos` Lemnos Navigajoso Lordluğu (lordluk) 1207-01-01 … 1278-01-01 [kismen-okundu] kucuk
+- `ghisi-tinos-mykonos` Ghisi Lordluğu (Tinos, Mykonos, Kuzey Sporadlar) (lordluk) 1207-01-01 … 1390-01-01 [kismen-okundu] kucuk
 - `melnik-despotlugu` Melnik Despotluğu (Aleksios Slav) (despotluk) 1208-01-01 … 1230-01-01 [taslak] kucuk
+- `karytaina-baronluk` Karytaina Baronluğu (baronluk) 1209-01-01 … 1320-01-01 [kismen-okundu] kucuk
+- `veligosti-damala-baronluk` Veligosti-Damala Baronluğu (baronluk) 1209-01-01 … 1300-01-01 [kismen-okundu] kucuk
+- `akova-matagrifon-baronluk` Akova (Matagrifon) Baronluğu (baronluk) 1209-01-01 … 1320-01-01 [kismen-okundu] kucuk
+- `patras-baronluk` Patras Baronluğu (baronluk) 1209-01-01 … 1429-01-01 [kismen-okundu] kucuk
+- `chalandritsa-baronluk` Chalandritsa Baronluğu (baronluk) 1209-01-01 … 1429-01-01 [kismen-okundu] kucuk
+- `vostitsa-baronluk` Vostitsa Baronluğu (baronluk) 1209-01-01 … 1428-01-01 [kismen-okundu] kucuk
+- `kalavryta-baronluk` Kalavryta Baronluğu (baronluk) 1209-01-01 … 1272-01-01 [kismen-okundu] kucuk
+- `nikli-baronluk` Nikli Baronluğu (baronluk) 1209-01-01 … 1302-01-01 [kismen-okundu] kucuk
+- `geraki-baronluk` Geraki Baronluğu (baronluk) 1209-01-01 … 1269-01-01 [kismen-okundu] kucuk
+- `argos-nauplia` Argos ve Nauplia Lordluğu (lordluk) 1212-01-01 … 1388-01-01 [kismen-okundu] kucuk
 - `litovoi-voyvodalik` Litovoi Voyvodalığı (Oltenia) (voyvodalik) 1247-01-01 … 1277-01-01 [taslak] kucuk
+- `arkadia-baronluk` Arkadia (Kyparissia) Baronluğu (baronluk) 1261-01-01 … 1432-01-01 [kismen-okundu] kucuk
 - `tesalya-neopatras` Tesalya (Büyük Vlahia, Neopatras) Dukalığı (dukalik) 1268-01-01 … 1318-01-01 [taslak] orta
 - `arnavutluk-krallik` Arnavutluk Krallığı (Anjou) (krallik) 1272-01-01 … 1368-01-01 [taslak] orta
 
@@ -783,144 +807,158 @@ Doğrulama: okundu 0 · kismen-okundu 0 · taslak 1156
 - `ryukyu-shunten-eiso` Ryukyu Shunten ve Eiso (Urasoe) (krallik) 1187-01-01 … 1314-01-01 [taslak] kucuk
 
 ### LEVARAP_B
-- `nagar` Nagar (Tell Brak) Krallıgi (sehir-devleti) -2599-01-01 … -2199-01-01 [taslak] orta
-- `magan` Magan (Umman) Krallıgı (krallik) -2299-01-01 … -0599-01-01 [taslak] kucuk
-- `katna` Katna (Qatna) Krallıgi (krallik) -1799-01-01 … -1339-01-01 [taslak] orta
-- `kenan-sehir-devletleri` Kenan Sehir Devletleri (Hasor, Megiddo, Lakis, Gezer, Sikem, Urusalim) (sehir-devleti) -1799-01-01 … -1174-01-01 [taslak] orta
-- `hana-terqa` Hana (Terqa) Krallıgi (krallik) -1758-01-01 … -1499-01-01 [taslak] kucuk
-- `kades` Kades (Qadesh) Krallıgi (krallik) -1499-01-01 … -1199-01-01 [taslak] kucuk
-- `mukis-alalah` Mukis (Alalah) Krallıgi (krallik) -1499-01-01 … -1339-01-01 [taslak] kucuk
-- `nuhasse` Nuhasse Krallıgı (krallik) -1499-01-01 … -1339-01-01 [taslak] kucuk
-- `amurru` Amurru Krallıgi (krallik) -1349-01-01 … -1174-01-01 [taslak] orta
-- `moab` Moab Krallıgi (krallik) -1299-01-01 … -0579-01-01 [taslak] orta
-- `ammon` Ammon Krallıgi (krallik) -1199-01-01 … -0579-01-01 [taslak] orta
-- `edom` Edom Krallıgi (krallik) -1199-01-01 … -0549-01-01 [taslak] orta
-- `aram-soba` Aram-Soba (Zova) Krallıgi (krallik) -1049-01-01 … -0949-01-01 [taslak] kucuk
-- `patina-unqi` Patina (Unqi) Krallıgi (krallik) -0999-01-01 … -0737-01-01 [taslak] kucuk
-- `arpad` Arpad (Bit-Agusi) Krallıgi (krallik) -0899-01-01 … -0739-01-01 [taslak] orta
-- `bit-adini` Bit-Adini Krallıgi (krallik) -0899-01-01 … -0854-01-01 [taslak] kucuk
-- `kedar` Kedar (Qedar) Arap Krallıgi (kabile-kralligi) -0799-01-01 … -0399-01-01 [taslak] kucuk
-- `awsan` Awsan (Ausan) Krallıgi (krallik) -0799-01-01 … -0679-01-01 [taslak] orta
-- `lihyan` Dedan–Lihyan Krallıgi (krallik) -0599-01-01 … -0099-01-01 [taslak] orta
+- `nagar` Nagar (Tell Brak) Şehir Devleti (sehir-devleti) -2599-01-01 … -2299-01-01 [kismen-okundu] orta
+- `magan` Magan (Umman) Ülkesi (krallik) -2299-01-01 … -0549-01-01 [kismen-okundu] kucuk
+- `katna` Katna (Qatna) Krallığı (krallik) -1799-01-01 … -1339-01-01 [kismen-okundu] orta
+- `kenan-sehir-devletleri` Kenan Şehir Devletleri (Hasor, Megiddo, Lakiş, Gezer, Şekem, Kudüs) (sehir-devleti) -1799-01-01 … -1174-01-01 [taslak] orta
+- `hana-terqa` Hana (Terqa) Krallığı (krallik) -1759-01-01 … -1449-01-01 [kismen-okundu] kucuk
+- `kades` Kades (Kadeş) Krallığı (krallik) -1499-01-01 … -1199-01-01 [taslak] kucuk
+- `mukis-alalah` Mukiş (Alalah) Krallığı (krallik) -1499-01-01 … -1339-01-01 [kismen-okundu] kucuk
+- `nuhasse` Nuhaşşe Krallığı (krallik) -1499-01-01 … -1339-01-01 [kismen-okundu] kucuk
+- `amurru` Amurru Krallığı (krallik) -1349-01-01 … -1199-01-01 [kismen-okundu] orta
+- `moab` Moab Krallığı (krallik) -1299-01-01 … -0581-01-01 [kismen-okundu] orta
+- `edom` Edom Krallığı (krallik) -1299-01-01 … -0552-01-01 [kismen-okundu] orta
+- `ammon` Ammon Krallığı (krallik) -1099-01-01 … -0581-01-01 [kismen-okundu] orta
+- `aram-soba` Aram-Soba (Zova) Krallığı (krallik) -1049-01-01 … -0949-01-01 [kismen-okundu] kucuk
+- `bit-adini` Bit-Adini Krallığı (krallik) -0999-01-01 … -0854-01-01 [kismen-okundu] kucuk
+- `patina-unqi` Patina (Unqi) Krallığı (krallik) -0999-01-01 … -0737-01-01 [kismen-okundu] kucuk
+- `arpad` Arpad (Bit-Agusi) Krallığı (krallik) -0899-01-01 … -0739-01-01 [kismen-okundu] orta
+- `awsan` Avsan (Awsan) Krallığı (krallik) -0799-01-01 … -0679-01-01 [kismen-okundu] orta
+- `kedar` Kedar Arap Krallığı (konfederasyonu) (kabile-kralligi) -0737-01-01 … -0399-01-01 [kismen-okundu] kucuk
+- `lihyan` Dedan-Lihyan Krallığı (krallik) -0499-01-01 … -0099-01-01 [kismen-okundu] orta
 
 ### LEVARAP_C
-- `gerrha` Cerha (Gerrha) Krallıgi (sehir-devleti) -0399-01-01 … 0100-01-01 [taslak] kucuk
-- `fenike-ozerk-sehirleri` Fenike Ozerk Sehirleri (Helenistik-Roma) (sehir-devleti) -0258-01-01 … -0062-01-01 [taslak] kucuk
-- `iturya` Iturya (Itureans) Krallıgi (krallik) -0099-01-01 … 0092-01-01 [taslak] orta
-- `emesa` Emesa (Hims) Krallıgi (vasal-krallik) -0089-01-01 … 0078-01-01 [taslak] orta
-- `dekapolis` Dekapolis (On Sehir Birligi) (konfederasyon) -0062-01-01 … 0200-01-01 [taslak] kucuk
-- `abilene` Abilene Tetrarsisi (prenslik) -0039-01-01 … 0053-01-01 [taslak] kucuk
-- `bar-kohba` Bar Kohba Devleti (Israil) (devlet) 0132-01-01 … 0135-01-01 [taslak] orta
-- `tenuh` Tenuh (Tanukh) Konfederasyonu (konfederasyon) 0200-01-01 … 0630-01-01 [taslak] kucuk
-- `salihid` Salih (Salihid) Arap Krallıgi (kabile-kralligi) 0380-01-01 … 0500-01-01 [taslak] kucuk
-- `mekke-kureys` Mekke Kureys Sehir Yonetimi (sehir-devleti) 0450-01-01 … 0630-01-01 [taslak] orta
+- `gerrha` Gerrha Krallığı (Cerha) (sehir-devleti) -0649-01-01 … 0299-01-01 [kismen-okundu] kucuk
+- `fenike-ozerk-sehirleri` Fenike Özerk Şehirleri (Helenistik-Roma) (sehir-devleti) -0258-01-01 … -0062-01-01 [kismen-okundu] kucuk
+- `tryphon-devleti` Diodotos Tryphon Devleti (Seleukos iç Suriye) (krallik) -0141-01-01 … -0137-01-01 [kismen-okundu] kucuk
+- `iturya` Itureia (İturealılar) Krallığı (krallik) -0099-01-01 … 0049-01-01 [kismen-okundu] orta
+- `emesa` Emesa (Hims) Krallığı (vasal-krallik) -0063-01-01 … 0078-01-01 [kismen-okundu] orta
+- `abilene` Abilene Tetrarşisi (prenslik) -0039-01-01 … 0053-01-01 [kismen-okundu] kucuk
+- `bar-kohba` Bar Kohba Devleti (İsrail Hürriyeti) (devlet) 0132-01-01 … 0135-01-01 [kismen-okundu] orta
+- `tenuh` Tenûh (Tanûh) Konfederasyonu (konfederasyon) 0200-01-01 … 0630-01-01 [kismen-okundu] kucuk
+- `salihid` Salîhîler (Banû Salîh / Zokomidler) (kabile-kralligi) 0380-01-01 … 0502-01-01 [kismen-okundu] kucuk
+- `mekke-kureys` Mekke Kureyş Şehir Yönetimi (sehir-devleti) 0450-01-01 … 0630-01-01 [kismen-okundu] orta
 
 ### LEVARAP_D
-- `habes-yemen` Habes Yemen (Abraha) Krallıgi (krallik) 0525-01-01 … 0575-01-01 [taslak] orta
-- `tulunoglu` Tulunoglulari (Misir-Suriye) (hanedanlik) 0868-01-01 … 0905-01-01 [taslak] orta
-- `cerrahi` Cerrahiler (Tay, Ramle Emirligi) (emirlik) 0980-01-01 … 1029-01-01 [taslak] kucuk
+- `culenda-umman` Cülendâ Emirliği (Umman) (emirlik) None … 0705-01-01 [kismen-okundu] kucuk
+- `abna-yemen` Ebnâ (Sasani Yemen Valiliği) (valilik) 0575-01-01 … 0628-01-01 [kismen-okundu] kucuk
+- `yemame-museylime` Yemâme (Müseylime / Benî Hanîfe) (kabile-kralligi) 0631-01-01 … 0633-01-01 [kismen-okundu] kucuk
+- `esved-ansi-yemen` Esved el-Ansî Yemen Yönetimi (devlet) 0632-01-01 … 0632-06-03 [okundu] kucuk
+- `tulunoglu` Tolunoğulları (Mısır-Suriye) (hanedanlik) 0868-01-01 … 0905-01-01 [okundu] orta
+- `antakya-dukaligi` Antakya Dukalığı (Bizans Katepanlığı) (dukalik) 0969-10-28 … 1084-12-01 [kismen-okundu] kucuk
+- `cerrahi` Cerrâhîler (Tay, Remle Emirliği) (emirlik) 0979-01-01 … 1071-01-01 [kismen-okundu] kucuk
 
 ### LEVARAP_E
-- `lulu-halep` Lu'lu'iler (Halep, Fatimi vassali) (emirlik) 1004-01-01 … 1015-01-01 [taslak] kucuk
-- `cebele-kadilari` Cebele (Cabala) Beni Sulayha Kadilari (emirlik) 1060-01-01 … 1109-01-01 [taslak] kucuk
-- `sur-kadilari` Tire (Sur) Kadilari Emirligi (emirlik) 1063-01-01 … 1089-01-01 [taslak] kucuk
-- `celile-prensligi` Celile (Tiberya) Prensligi (prenslik) 1099-01-01 … 1187-01-01 [taslak] kucuk
-- `sayda-lordlugu` Sayda (Sidon) Lordlugu (lordluk) 1110-01-01 … 1291-01-01 [taslak] kucuk
-- `beyrut-lordlugu` Beyrut Lordlugu (lordluk) 1110-01-01 … 1291-01-01 [taslak] kucuk
-- `oltre-urdun` Outrejourdain (Kerek-Şavbak) Lordlugu (lordluk) 1118-01-01 … 1189-01-01 [taslak] kucuk
-- `nizari-suriye` Suriye Nizari Ismaililer (Haşşaşin Kaleleri) (devlet) 1132-01-01 … 1273-01-01 [taslak] orta
-- `yafa-askalan` Yafa ve Askalan Kontlugu (kontluk) 1151-01-01 … 1268-01-01 [taslak] kucuk
-- `nebhani-umman` Nebhaniler (Umman Meliklesi) (hanedanlik) 1154-01-01 … 1624-01-01 [taslak] orta
-- `eyyubi-humus` Humus Eyyubileri (Şirkuh kolu) (beylik) 1174-01-01 … 1262-01-01 [taslak] kucuk
-- `eyyubi-kerek` Kerek (Karak) Eyyubileri (emirlik) 1227-01-01 … 1263-01-01 [taslak] kucuk
+- `lulu-halep` Lü'lü'iler (Halep Lü'lü' Naipliği) (emirlik) 1002-01-01 … 1015-01-01 [kismen-okundu] kucuk
+- `cebele-kadilari` Cebele (Jabala) Kadıları Emirliği (emirlik) 1060-01-01 … 1109-07-23 [kismen-okundu] kucuk
+- `sur-kadilari` Sûr (Tire) Kadıları Emirliği (İbn Ebî Akīl) (emirlik) 1063-01-01 … 1089-01-01 [kismen-okundu] kucuk
+- `filaretos-prensligi` Philaretos Brachamios Prensliği (Antakya-Marmaraş-Urfa) (prenslik) 1078-01-01 … 1087-01-01 [kismen-okundu] kucuk
+- `celile-prensligi` Celile (Tiberya) Prensliği (prenslik) 1099-01-01 … 1187-01-01 [kismen-okundu] kucuk
+- `yafa-askalan` Yafa ve Askalan Kontluğu (kontluk) 1100-01-01 … 1268-01-01 [kismen-okundu] kucuk
+- `sayda-lordlugu` Sayda (Sidon) Lordluğu (lordluk) 1110-12-01 … 1268-01-01 [kismen-okundu] kucuk
+- `beyrut-lordlugu` Beyrut Lordluğu (lordluk) 1110-01-01 … 1291-01-01 [kismen-okundu] kucuk
+- `oltre-urdun` Outrejourdain (Kerek-Şavbak) Lordluğu (lordluk) 1118-01-01 … 1189-05-01 [kismen-okundu] kucuk
+- `nizari-suriye` Suriye Nizârî İsmâilîleri (Haşşâşîn Kaleleri) (devlet) 1132-01-01 … 1273-01-01 [kismen-okundu] orta
+- `hospitaller-krak` Hospitaller Krak des Chevaliers Palatinliği (Trablus Kontluğu içinde) (kontluk) 1142-01-01 … 1271-04-08 [kismen-okundu] kucuk
+- `nebhani-umman` Nebhânîler (Umman Meliklikleri) (hanedanlik) 1154-01-01 … 1624-01-01 [kismen-okundu] orta
+- `eyyubi-humus` Humus Eyyûbîleri (Şîrkûh kolu) (beylik) 1179-01-01 … 1262-01-01 [kismen-okundu] kucuk
+- `hospitaller-margat` Hospitaller Margat (Markab) Lordluğu (lordluk) 1186-01-01 … 1285-05-23 [kismen-okundu] kucuk
+- `tevton-montfort` Tevton Şövalyeleri Montfort Lordluğu (lordluk) 1220-01-01 … 1271-01-01 [kismen-okundu] kucuk
+- `eyyubi-kerek` Kerek Eyyûbîleri (en-Nâsır Dâvûd) (emirlik) 1229-01-01 … 1249-01-01 [kismen-okundu] kucuk
 
 ### MEZOIR_A
-- `proto-elam-susa` Proto-Elam Susa (Susa II-III; Proto-Elam yazi alani) (sehir-devleti) -3199-01-01 … -2699-01-01 [taslak] kucuk
+- `proto-elam-susa` Proto-Elam Susa (Susa II-III; Proto-Elam yazi alani) (sehir-devleti) -3099-01-01 … -2699-01-01 [kismen-okundu] kucuk
 
 ### MEZOIR_B
-- `surupak` Şuruppak Sehir Devleti (sehir-devleti) -2899-01-01 … -2333-01-01 [taslak] kucuk
-- `eridu-sehir-devleti` Eridu Sehir Devleti (sehir-devleti) -2899-01-01 … -2333-01-01 [taslak] kucuk
-- `adab` Adab Sehir Devleti (sehir-devleti) -2599-01-01 … -2333-01-01 [taslak] kucuk
-- `aksak` Akşak Sehir Devleti (sehir-devleti) -2599-01-01 … -2333-01-01 [taslak] kucuk
-- `hamazi` Hamazi Krallığı (krallik) -2599-01-01 … -2333-01-01 [taslak] kucuk
-- `lullubi` Lullubi (Lullubum) Kabile Devleti (kabile-hakimiyeti) -2299-01-01 … -0999-01-01 [taslak] kucuk
-- `simurrum` Simurrum Krallığı (krallik) -2299-01-01 … -1699-01-01 [taslak] kucuk
-- `anshan` Anşan Krallığı (Elam-Pers baglantili) (krallik) -2299-01-01 … -0549-01-01 [taslak] orta
-- `marhasi` Marhaşi (Paraşi) Krallığı (krallik) -2299-01-01 … -1699-01-01 [taslak] kucuk
+- `eridu-sehir-devleti` Eridu Sehir Devleti (sehir-devleti) -2899-01-01 … -2333-01-01 [kismen-okundu] kucuk
+- `adab` Adab Sehir Devleti (sehir-devleti) -2599-01-01 … -2333-01-01 [kismen-okundu] kucuk
+- `surupak` Şuruppak Sehir Devleti (sehir-devleti) -2599-01-01 … -2333-01-01 [kismen-okundu] kucuk
+- `hamazi` Hamazi Krallığı (krallik) -2529-01-01 … -2009-01-01 [kismen-okundu] kucuk
+- `aksak` Akşak Sehir Devleti (sehir-devleti) -2458-01-01 … -2359-01-01 [kismen-okundu] kucuk
+- `lullubi` Lullubi (Lullubum) Kabile Devleti (kabile-hakimiyeti) -2399-01-01 … -0668-01-01 [kismen-okundu] kucuk
+- `simurrum` Simurrum Krallığı (krallik) -2333-01-01 … -1699-01-01 [kismen-okundu] kucuk
+- `marhasi` Marhaşi (Paraşi) Krallığı (krallik) -2333-01-01 … -1762-01-01 [kismen-okundu] kucuk
+- `anshan` Anşan Krallığı (Elam-Pers baglantili) (krallik) -2299-01-01 … -0549-01-01 [kismen-okundu] orta
 - `uruk-v-utuhengal` Uruk V. Hanedani (Utuhengal) (hanedanlik) -2118-01-01 … -2111-01-01 [taslak] kucuk
-- `kazallu` Kazallu Sehir Devleti (sehir-devleti) -1999-01-01 … -1849-01-01 [taslak] kucuk
-- `kisurra` Kisurra Sehir Devleti (sehir-devleti) -1999-01-01 … -1799-01-01 [taslak] kucuk
+- `kazallu` Kazallu Sehir Devleti (sehir-devleti) -1999-01-01 … -1849-01-01 [kismen-okundu] kucuk
 - `der-krallik` Der Krallığı (krallik) -1999-01-01 … -0699-01-01 [taslak] kucuk
+- `kisurra` Kisurra Sehir Devleti (sehir-devleti) -1922-01-01 … -1802-01-01 [kismen-okundu] kucuk
 - `kutha-krallik` Kutha Sehir Devleti (sehir-devleti) -1899-01-01 … -1699-01-01 [taslak] kucuk
-- `bit-yakin` Bit-Yakin Keldani Kabile Devleti (kabile-hakimiyeti) -0899-01-01 … -0599-01-01 [taslak] kucuk
-- `bit-amukani` Bit-Amukani Keldani Kabile Devleti (kabile-hakimiyeti) -0899-01-01 … -0599-01-01 [taslak] kucuk
-- `musasir` Muşaşir Krallığı (krallik) -0899-01-01 … -0713-01-01 [taslak] kucuk
-- `ellipi` Ellipi Krallığı (krallik) -0849-01-01 … -0639-01-01 [taslak] kucuk
-- `parsua` Parsua (Parsumaş) Krallığı (krallik) -0849-01-01 … -0639-01-01 [taslak] kucuk
+- `musasir` Muşaşir Krallığı (krallik) -0899-01-01 … -0713-01-01 [kismen-okundu] kucuk
+- `parsua` Parsua (Parsumaş) Krallığı (krallik) -0859-01-01 … -0599-01-01 [kismen-okundu] kucuk
+- `bit-yakin` Bit-Yakin Keldani Kabile Devleti (kabile-hakimiyeti) -0851-01-01 … -0599-01-01 [kismen-okundu] kucuk
+- `bit-amukani` Bit-Amukani Keldani Kabile Devleti (kabile-hakimiyeti) -0851-01-01 … -0599-01-01 [kismen-okundu] kucuk
+- `bit-dakkuri` Bit-Dakkuri (Keldani kabile devleti) (kabile-devleti) -0851-01-01 … -0599-01-01 [kismen-okundu] kucuk
 - `zikirtu` Zikirtu Krallığı (krallik) -0749-01-01 … -0669-01-01 [taslak] kucuk
+- `ellipi` Ellipi Krallığı (krallik) -0713-01-01 … -0639-01-01 [kismen-okundu] kucuk
 
 ### MEZOIR_C
-- `persis` Persis (Fars) Krallığı — Frataraka ve Darayan hanedanlari (krallik) -0299-01-01 … 0224-01-01 [taslak] orta
-- `gordyene` Gordyene (Kordue) Krallığı (krallik) -0189-01-01 … 0400-01-01 [taslak] kucuk
-- `hatra` Hatra Krallığı (krallik) -0149-01-01 … 0241-01-01 [taslak] orta
-- `part-persis-diger-yok` Medya-Part ara vasal krallari (Media Magna; Elam-Mesene dahil) (vasal-krallik) -0139-01-01 … 0224-01-01 [taslak] kucuk
-- `osrhoene` Osrhoene (Edessa) Krallığı (krallik) -0131-01-01 … 0244-01-01 [taslak] orta
-- `sakastan-indo-part` Sakastan / Indo-Part (Suren) Krallığı (krallik) -0019-01-01 … 0050-01-01 [taslak] kucuk
-- `adiabene` Adiabene Krallığı (krallik) -0014-01-01 … 0116-01-01 [taslak] orta
-- `tanuhiler` Tanuhiler (Tanukh) Konfederasyonu (konfederasyon) 0196-01-01 … 0500-01-01 [taslak] kucuk
+- `gordyene` Gordyene (Kordue) Krallığı (krallik) -0164-01-01 … -0069-01-01 [kismen-okundu] kucuk
+- `adiabene` Adiabene Krallığı (krallik) -0163-01-01 … 0116-01-01 [kismen-okundu] orta
+- `persis` Persis (Fars) Krallığı — Frataraka ve Darayan hanedanlari (krallik) -0131-01-01 … 0224-01-01 [kismen-okundu] orta
+- `osrhoene` Osrhoene (Edessa) Krallığı (krallik) -0131-01-01 … 0244-01-01 [kismen-okundu] orta
+- `sakastan-indo-part` Sakastan / Indo-Part (Suren) Krallığı (krallik) 0019-01-01 … 0226-01-01 [kismen-okundu] kucuk
+- `hatra` Hatra Krallığı (krallik) 0155-01-01 … 0241-01-01 [kismen-okundu] orta
+- `tanuhiler` Tanuhiler (Tanukh) Konfederasyonu (konfederasyon) 0196-01-01 … 0500-01-01 [kismen-okundu] kucuk
 
 ### MEZOIR_D
-- `karenid` Kârenîler (Kârin) Hanedani (hanedanlik) 0550-01-01 … 1000-01-01 [taslak] kucuk
-- `dabuyiler` Dâbûyîler (Gîlânşâhlar / Dabuyid İsbehbedleri) (hanedanlik) 0642-01-01 … 0760-01-01 [taslak] orta
+- `karenid` Kârenîler (Kârin) Hanedani (hanedanlik) 0550-01-01 … 1106-01-01 [kismen-okundu] kucuk
+- `dabuyiler` Dâbûyîler (Gîlânşâhlar / Dabuyid İsbehbedleri) (hanedanlik) 0642-01-01 … 0760-01-01 [kismen-okundu] orta
 - `masmugan` Masmugânlar (Dünbâvend) (hanedanlik) 0650-01-01 … 0840-01-01 [taslak] kucuk
-- `custanid` Cüstânîler (Delem, Rûdbâr) (hanedanlik) 0791-01-01 … 1004-01-01 [taslak] kucuk
-- `zenc-devleti` Zenc Devleti (Basra Zenc isyani) (devlet) 0869-01-01 … 0883-01-01 [taslak] kucuk
-- `ferigunid` Ferîgûnîler (Cüzcan) (emirlik) 0900-01-01 … 1000-01-01 [taslak] kucuk
-- `simcurid` Simcûrîler (Horasan) (emirlik) 0900-01-01 … 1000-01-01 [taslak] kucuk
-- `bataih` Bataih Emirliği (Imran b. Şâhin) (emirlik) 0923-01-01 … 0983-01-01 [taslak] kucuk
-- `hasanuya` Hasanûyîler (Hasanveyhîler) (emirlik) 0959-01-01 … 1015-01-01 [taslak] orta
+- `custanid` Cüstânîler (Delem, Rûdbâr) (hanedanlik) 0791-01-01 … 1004-01-01 [kismen-okundu] kucuk
+- `ferigunid` Ferîgûnîler (Cüzcan) (emirlik) 0801-01-01 … 1010-01-01 [kismen-okundu] kucuk
+- `zenc-devleti` Zenc Devleti (Basra Zenc isyani) (devlet) 0869-09-01 … 0883-08-01 [kismen-okundu] kucuk
+- `sacilar` Sâcîler (Ebu's-Sâc oğulları) (hanedanlik) 0889-01-01 … 0929-01-01 [kismen-okundu] orta
+- `simcurid` Simcûrîler (Horasan) (emirlik) 0913-01-01 … 1002-01-01 [kismen-okundu] kucuk
+- `bataih` Bataih Emirliği (Imran b. Şâhin) (emirlik) 0940-01-01 … 1018-01-01 [kismen-okundu] kucuk
+- `hasanuya` Hasanûyîler (Hasanveyhîler) (emirlik) 0959-01-01 … 1015-01-01 [kismen-okundu] orta
 
 ### MEZOIR_E
-- `nasri-sistan` Sistan Nasrîleri / Hâlefîler (hanedanlik) 1029-01-01 … 1225-01-01 [taslak] orta
-- `sebankare` Şebânkâreler (emirlik) 1060-01-01 … 1355-01-01 [taslak] kucuk
-- `hurmuz` Hürmüz Krallığı (krallik) 1100-01-01 … 1623-01-01 [taslak] orta
+- `hurmuz` Hürmüz Krallığı (krallik) 1001-01-01 … 1622-01-01 [kismen-okundu] orta
+- `nasri-sistan` Sistan Nasrîleri / Hâlefîler (hanedanlik) 1029-01-01 … 1236-01-01 [kismen-okundu] orta
+- `sebankare` Şebânkâreler (emirlik) 1030-01-01 … 1355-01-01 [kismen-okundu] kucuk
 - `kays` Kays (Kis) Emirliği (emirlik) 1135-01-01 … 1229-01-01 [taslak] kucuk
-- `ardalan` Erdelân Emirliği (emirlik) 1169-01-01 … 1867-01-01 [taslak] orta
+- `ardalan` Erdelân Emirliği (emirlik) 1169-01-01 … 1867-01-01 [kismen-okundu] orta
+- `mihrabani-sistan` Mihrâbânîler (Nimruz/Sistan Melikleri) (hanedanlik) 1236-01-01 … 1537-01-01 [kismen-okundu] orta
 
 ### MISIR_A
 - `ta-seti-a-grubu` Ta-Seti / A-Grubu Nubya Krallığı (Qustul) (krallik) -3699-01-01 … -3249-01-01 [taslak] kucuk
-- `hierakonpolis-krallik` Hierakonpolis (Nekhen) Krallığı (krallik) -3499-01-01 … -3199-01-01 [taslak] kucuk
-- `naqada-ombos-krallik` Naqada (Nubt/Ombos) Krallığı (krallik) -3499-01-01 … -3299-01-01 [taslak] kucuk
+- `hierakonpolis-krallik` Hierakonpolis (Nekhen) Krallığı (krallik) -3499-01-01 … -3199-01-01 [kismen-okundu] kucuk
+- `naqada-ombos-krallik` Naqada (Nubt/Ombos) Krallığı (krallik) -3499-01-01 … -3299-01-01 [kismen-okundu] kucuk
 
 ### MISIR_B
+- `punt` Punt Ülkesi (krallik) -2499-01-01 … None [kismen-okundu] kucuk
 - `yam-krallik` Yam (Irtjet-Setju-Yam) Nubya Krallığı (krallik) -2399-01-01 … -2199-01-01 [taslak] kucuk
-- `misir-14-hanedan` 14. Hanedan (Avaris/Xois) (hanedanlik) -1804-01-01 … -1649-01-01 [taslak] kucuk
-- `abydos-hanedani` Abydos Hanedanı (hanedanlik) -1649-01-01 … -1599-01-01 [taslak] kucuk
-- `dmt` Dʿmt (Da'amat) Krallığı (krallik) -0979-01-01 … -0399-01-01 [taslak] orta
-- `punt` Punt Ülkesi (krallik) None … None [taslak] kucuk
+- `misir-14-hanedan` 14. Hanedan (Avaris/Xois) (hanedanlik) -1804-01-01 … -1649-01-01 [kismen-okundu] kucuk
+- `abydos-hanedani` Abydos Hanedanı (hanedanlik) -1649-01-01 … -1599-01-01 [kismen-okundu] kucuk
+- `dmt` Dʿmt (Da'amat) Krallığı (krallik) -0799-01-01 … -0399-01-01 [kismen-okundu] orta
 
 ### MISIR_C
-- `tebai-ayaklanma-krallik` Tebai Ayaklanma Krallığı (Horwennefer-Ankhwennefer) (krallik) -0204-01-01 … -0185-01-01 [taslak] kucuk
-- `aegyptus-roma-bizans` Roma ve Doğu Roma (Bizans) Mısır'ı (Aegyptus) (eyalet) -0029-08-01 … 0641-01-01 [taslak] orta
-- `blemmyes` Blemmyes (Beja) Krallığı (krallik) 0300-01-01 … 0600-01-01 [taslak] kucuk
+- `tebai-ayaklanma-krallik` Tebai Ayaklanma Krallığı (Horwennefer-Ankhwennefer) (krallik) -0204-01-01 … -0185-08-27 [kismen-okundu] kucuk
+- `blemmyes` Blemmyes (Beja) Krallığı (krallik) 0400-01-01 … None [kismen-okundu] kucuk
 
 ### MISIR_D
-- `beja-krallik` Beja Krallıkları (Hadariba/Baqlin vb.) (krallik) 0600-01-01 … 1300-01-01 [taslak] kucuk
-- `zenc-kiyi` Zenc Kıyı Şehirleri (Mogadişu-Kilwa-Sofala öncesi) (sehir-devleti) 0800-01-01 … 1000-01-01 [taslak] kucuk
+- `beja-krallik` Beja Krallıkları (Hadariba/Baqlin vb.) (krallik) 0800-01-01 … None [kismen-okundu] kucuk
+- `beja-bazin` Bazin Krallığı (Beja) (krallik) 0800-01-01 … None [taslak] kucuk
+- `beja-jarin` Jarin Krallığı (Beja) (krallik) 0800-01-01 … None [taslak] kucuk
+- `beja-baqlin` Baqlin (Belgin/Baqulin) Krallığı (Beja) (krallik) 0800-01-01 … None [taslak] kucuk
+- `beja-nagash` Nagash/Naqis Krallığı (Beja) (krallik) 0800-01-01 … None [taslak] kucuk
+- `beja-qita` Qita'a (Qat'a) Krallığı (Beja) (krallik) 0800-01-01 … None [taslak] kucuk
+- `mogadisu-erken` Makdişu Erken Dönem Birliği (Mukri/Kahtânî öncesi sultanlık) (konfederasyon) 0900-01-01 … 1269-01-01 [kismen-okundu] kucuk
+- `sofala-sehir-devleti` Sofala Şehir Devleti (sehir-devleti) 0900-01-01 … None [taslak] kucuk
 
 ### MISIR_E
-- `kenzu-ddevle` Kenzü'd-devle (Benî Kenz) Emirliği (Asvan) (emirlik) None … None [taslak] kucuk
-- `damot` Damot Krallığı (krallik) None … None [taslak] kucuk
-- `zeyla-emirlik` Zeyla Emirliği (emirlik) None … None [taslak] kucuk
-- `dotawo` Dotawo Krallığı (krallik) 1100-01-01 … 1500-01-01 [taslak] kucuk
-
-### OKYANUS_A
-- `kuk-erken-tarim` Kuk Erken Tarım Alanı (Yeni Gine yaylaları) (kultur) -5000-01-01 … None [taslak] kucuk
-- `budj-bim-gunditjmara` Budj Bim — Gunditjmara Su Ürünleri Peyzajı (kultur) -4600-01-01 … None [taslak] kucuk
-- `aborijin-ulusal-birimleri` Avustralya Aborijin Ulusları (Yolngu vb.) (kultur) None … None [taslak] kucuk
-
-### OKYANUS_B
-- `lapita-kulturu` Lapita Kültürü (kultur) -1599-01-01 … -0499-01-01 [taslak] kucuk
+- `damot` Damot Krallığı (krallik) None … None [kismen-okundu] kucuk
+- `mombasa-sehir-devleti` Mombasa Şehir Devleti (sehir-devleti) None … None [taslak] kucuk
+- `hadiya` Hadiya Sultanlığı (sultanlik) None … None [taslak] kucuk
+- `dawaro` Dâvaro (Dawaro) Sultanlığı (sultanlik) None … None [taslak] kucuk
+- `sharkha` Şerhâ (Sharkha) Sultanlığı (sultanlik) None … None [taslak] kucuk
+- `arabini` Erâbînî (Arabini) Sultanlığı (sultanlik) None … None [taslak] kucuk
+- `kenzu-ddevle` Kenzü'd-devle (Benî Kenz) Emirliği (Asvan) (emirlik) 1006-01-01 … 1174-01-01 [kismen-okundu] kucuk
+- `zeyla-emirlik` Zeyla Emirliği (emirlik) 1050-01-01 … 1285-01-01 [kismen-okundu] kucuk
+- `pate-nabhani` Pate (Nabhânî) Şehir Devleti (sehir-devleti) 1203-01-01 … None [taslak] kucuk
+- `al-abwab` el-Abvâb Krallığı (Alodia'dan ayrılan) (krallik) 1268-01-01 … 1367-01-01 [kismen-okundu] kucuk
+- `ifat-sultanligi` Ifat (Evfât) Sultanlığı (Veleşma/Walasma Hanedanı) (sultanlik) 1285-01-01 … 1415-01-01 [okundu] orta
 
 ### OKYANUS_E
 - `yap-sawei` Yap Sawei Haraç Sistemi (konfederasyon) None … None [taslak] kucuk
@@ -928,7 +966,6 @@ Doğrulama: okundu 0 · kismen-okundu 0 · taslak 1156
 - `samoa-tui-manua` Sāmoa Şeflikleri (Tuʻi Manuʻa) (seflikler) None … None [taslak] orta
 - `fiji-seflikleri` Fiji Şeflikleri (Bau, Lau, Rewa) (seflikler) None … None [taslak] kucuk
 - `marquesas-seflikleri` Marquesas Kabile Şeflikleri (seflikler) None … None [taslak] kucuk
-- `aotearoa-maori-oncesi` Aotearoa Erken Māori Yerleşimi (kultur) 1250-01-01 … None [taslak] kucuk
 
 ### ORTAAV_B
 - `kimmer-konfederasyonu` Kimmerler (Cimmerian) Kabile Birligi (konfederasyon) -0799-01-01 … -0599-01-01 [taslak] kucuk
@@ -1100,32 +1137,34 @@ Doğrulama: okundu 0 · kismen-okundu 0 · taslak 1156
 - `sicilya-kralligi` atlas 1072-01-01…1282-03-30 ↔ liste 1130-12-25…1282-03-30 (var-f-t-farkli): 
 - `arborea` atlas 1070-01-01…1410-01-01 ↔ liste 1000-01-01…1420-01-01 (var-f-t-farkli): 
 - `kamakura` atlas 1185-01-01…1333-07-04 ↔ liste 1185-01-01…1333-07-04 (var-f-t-farkli): 
-- `fenike-sehirleri` atlas -1199-01-01…-0331-01-01 ↔ liste -2999-01-01…-0331-01-01 (var-kisa): 
-- `fenike-sehirleri` atlas -1199-01-01…-0331-01-01 ↔ liste -1199-01-01…-0331-01-01 (var-kisa): 
-- `fenike-sehirleri` atlas -1199-01-01…-0331-01-01 ↔ liste -1199-01-01…-0331-01-01 (var-kisa): 
-- `fenike-sehirleri` atlas -1199-01-01…-0331-01-01 ↔ liste -1199-01-01…-0331-01-01 (var-kisa): 
-- `israil-krallik` atlas -0929-01-01…-0721-01-01 ↔ liste -1029-01-01…-0929-01-01 (var-kisa): 
-- `yeni-hitit` atlas -1179-01-01…-0707-01-01 ↔ liste -0999-01-01…-0719-01-01 (var-kisa): 
-- `eyyubi` atlas 1171-09-13…1250-04-30 ↔ liste 1193-03-04…1260-03-01 (var-kisa): 
+- `fenike-sehirleri` atlas -1199-01-01…-0331-01-01 ↔ liste -2999-01-01…-0331-01-01 (var-kisa): Atlas birleşik Fenike künyesi MÖ 1200-331; Byblos EBA'dan beri ayrı krallık, künye başlangıçta kısa.
+- `fenike-sehirleri` atlas -1199-01-01…-0331-01-01 ↔ liste -1199-01-01…-0331-01-01 (var-kisa): Birleşik künye; Tire ayrı kral listeli.
+- `fenike-sehirleri` atlas -1199-01-01…-0331-01-01 ↔ liste -1199-01-01…-0331-01-01 (var-kisa): Birleşik künye.
+- `fenike-sehirleri` atlas -1199-01-01…-0331-01-01 ↔ liste -1199-01-01…-0258-01-01 (var-kisa): Birleşik künye.
+- `israil-krallik` atlas -0929-01-01…-0721-01-01 ↔ liste -1046-01-01…-0929-01-01 (var-kisa): 
+- `yeni-hitit` atlas -1179-01-01…-0707-01-01 ↔ liste -0999-01-01…-0719-01-01 (var-kisa): Atlas yeni-hitit künyesi bölge anadolu ve Hamat'ı sayıyor; Hamat ayrı krallık.
+- `himyar` atlas -0109-01-01…0525-01-01 ↔ liste 0525-01-01…0575-01-01 (var-kisa): Himyar künyesi 525'te bitiyor; Habeş vasalı/Abraha dönemi 525-575 Himyar topraklarında sürüyor.
+- `eyyubi` atlas 1171-09-13…1250-04-30 ↔ liste 1193-01-01…1260-01-01 (var-kisa): Atlas eyyubi (Mısır/Kahire, 1171-1250) Dımaşk'ı Selâhaddîn'den ayrı göstermiyor; 1193 sonrası Dımaşk kolu.
 - `uruk-gec-kultur` atlas -3349-01-01…-3199-01-01 ↔ liste -3399-01-01…-3000-01-01 (var-kisa): Mevcut yalniz kultur kaydi (-3349/-3199); sehir devleti olarak ayri kayit onerilir.
 - `isin-2` atlas -1154-01-01…-1029-01-01 ↔ liste -1025-01-01…-0979-01-01 (var-kisa): isin-2 sonu -1029.
 - `elam-yeni` atlas -1099-01-01…-0538-01-01 ↔ liste -0645-01-01…-0539-01-01 (var-kisa): elam-yeni -538'de biter.
-- `misir-erken-hanedan` atlas -3099-01-01…-2685-01-01 ↔ liste -3199-01-01…-3099-01-01 (var-kisa): 
+- `misir-erken-hanedan` atlas -3099-01-01…-2685-01-01 ↔ liste -3299-01-01…-3099-01-01 (var-kisa): 
 - `kerma` atlas -1749-01-01…-1499-01-01 ↔ liste -2499-01-01…-1749-01-01 (var-kisa): 
-- `tebai-17-hanedan` atlas -1649-01-01…-1549-01-01 ↔ liste -1649-01-01…-1581-01-01 (var-kisa): 
-- `misir-3-ara` atlas -1068-01-01…-0663-01-01 ↔ liste -1079-01-01…-0944-01-01 (var-kisa): 
+- `tebai-17-hanedan` atlas -1649-01-01…-1549-01-01 ↔ liste -1649-01-01…-1581-01-01 (var-kisa): Atlas künyesi Tebai'nin 16. hanedan evresini içeriyorsa ayrı kayıt gerekmez; 17. Hanedan'ın başlangıç tarihi (-1649) Ryholt'un 16. Hanedan dönemi ile çakışıyor.
+- `misir-3-ara` atlas -1068-01-01…-0663-01-01 ↔ liste -1076-01-01…-0944-01-01 (var-kisa): 
 - `misir-3-ara` atlas -1068-01-01…-0663-01-01 ↔ liste -1068-01-01…-0944-01-01 (var-kisa): 
-- `misir-3-ara` atlas -1068-01-01…-0663-01-01 ↔ liste -0944-01-01…-0714-01-01 (var-kisa): 
-- `misir-3-ara` atlas -1068-01-01…-0663-01-01 ↔ liste -0837-01-01…-0734-01-01 (var-kisa): 
-- `misir-3-ara` atlas -1068-01-01…-0663-01-01 ↔ liste -0732-01-01…-0720-01-01 (var-kisa): 
-- `aksum` atlas 0100-01-01…None ↔ liste 0100-01-01…0940-01-01 (var-f-t-farkli): 
-- `nube` atlas 0543-01-01…1504-01-01 ↔ liste 0350-01-01…0650-01-01 (var-kisa): 
-- `nube` atlas 0543-01-01…1504-01-01 ↔ liste 0500-01-01…1312-01-01 (var-kisa): 
-- `nube` atlas 0543-01-01…1504-01-01 ↔ liste 0550-01-01…1504-01-01 (var-kisa): 
-- `kilva-sultanligi` atlas 1000-01-01…1505-01-01 ↔ liste 0975-01-01…1505-01-01 (var-f-t-farkli): 
-- `tui-tonga-imparatorlugu` atlas 1000-01-01…1845-12-04 ↔ liste 0950-01-01…1845-12-04 (var-f-t-farkli): Atlas künyesi f=1000; gelenekte ~950 (50 yıl fark; ayrı kayıt açılmayacak, künyenin f'si gözden geçirilsin).
-- `saudeleur` atlas 1100-01-01…1628-01-01 ↔ liste 1180-01-01…1628-01-01 (var-f-t-farkli): Mevcut künye f=1100; kaynak ~1180 (80 yıl fark).
-- `tahiti` atlas 1025-01-01…1842-09-09 ↔ liste 1025-01-01…None (var-kisa): Tahiti kaydının parçası; ayrı kayıt gerekmez.
+- `misir-3-ara` atlas -1068-01-01…-0663-01-01 ↔ liste -0942-01-01…-0714-01-01 (var-kisa): 
+- `misir-3-ara` atlas -1068-01-01…-0663-01-01 ↔ liste -0836-01-01…-0734-01-01 (var-kisa): 
+- `misir-3-ara` atlas -1068-01-01…-0663-01-01 ↔ liste -0731-01-01…-0719-01-01 (var-kisa): 
+- `aksum` atlas 0100-01-01…None ↔ liste 0100-01-01…0960-01-01 (var-f-t-farkli): Atlas aksum f=0100, t boş; t=~960 ile doldurulmalı.
+- `nube` atlas 0543-01-01…1504-01-01 ↔ liste 0400-01-01…0652-01-01 (var-kisa): 
+- `nube` atlas 0543-01-01…1504-01-01 ↔ liste 0500-01-01…1365-01-01 (var-kisa): nube künyesi Makuria+Alodia'yı tek blokta tutuyor; Makuria ayrı polity.
+- `nube` atlas 0543-01-01…1504-01-01 ↔ liste 0350-01-01…1504-01-01 (var-kisa): 
+- `kilva-sultanligi` atlas 1000-01-01…1505-01-01 ↔ liste 0975-01-01…1505-01-01 (var-f-t-farkli): Atlas f=1000, TDV 975 (fark 25 yıl); Chittick ~1200.
+- `tui-tonga-imparatorlugu` atlas 1000-01-01…1845-12-04 ↔ liste 0950-01-01…1845-12-04 (var-f-t-farkli): Atlas f=1000/t=1845-12-04; gelenek f=950; t kaynakta 1865. Künye için karar: f=1000 korunabilir (gelenek ≈ yuvarlama), t gözden geçirilsin.
+- `chamorro` atlas 0800-01-01…1695-01-01 ↔ liste 0900-01-01…1695-01-01 (var-f-t-farkli): Künye f=800; Carson 2012: latte 900-1700; f tarihleme farkı 100 yıl.
+- `saudeleur` atlas 1100-01-01…1628-01-01 ↔ liste 1180-01-01…1628-01-01 (var-f-t-farkli): Künye f=1100; kaynak ~1180 (80 yıl fark). Dinastik kuruluş geleneksel olarak daha eskidir.
+- `tahiti` atlas 1025-01-01…1842-09-09 ↔ liste None…None (var-kisa): Tahiti kaydının parçası; ayrı kayıt gerekmez.
 - `skit-krallik` atlas -0699-01-01…-0199-01-01 ↔ liste -0228-01-01…0275-01-01 (var-kisa): skit-krallik (-0699...-0199) Kirim evresini kapsamiyor: t -0199 -> ~0275 genislet veya ardil kunye ac.
 - `vizigot` atlas 0418-01-01…0711-01-01 ↔ liste 0291-01-01…0376-01-01 (var-kisa): vizigot (418...) Terving oncelini kapsamiyor: oncul olarak ekle.
 - `dogu-got` atlas 0493-03-05…0553-01-01 ↔ liste 0350-01-01…0376-01-01 (var-kisa): dogu-got (493, Italya) oncul olarak ekle.
@@ -1138,7 +1177,7 @@ Doğrulama: okundu 0 · kismen-okundu 0 · taslak 1156
 
 ## Atlasta olup listede eşleşmeyen künyeler (kültür hariç)
 
-`abbasi`, `aglebi`, `ahamenis-misir`, `ahamenis-misir-2`, `ahaya-prinkepsligi`, `ahlatsahlar`, `ahmedili`, `aitolia-birligi`, `akad`, `akhaia-birligi`, `alamut-nizari`, `almanya`, `andorra`, `ani-bagratli-kralligi`, `anjou-kontlugu`, `annazi`, `antakya-prinkipsligi`, `antigonid-makedonya`, `antigonos`, `antigonos-krallik`, `aquileia-patrikligi`, `aram-sam`, `arsakuni-ermenistan`, `artaksiad`, `artuklu`, `asturias`, `atina-demokrasisi`, `atina-dukaligi`, `atropatene`, `atsiz-beyligi`, `avignon-venaissin`, `awan`, `babek-hurremi`, `babil-eski`, `baden`, `badusbani`, `barselona-kontlugu`, `bati-calukya`, `bati-francia`, `bati-karahanli`, `bavendi`, `begteginli`, `beloozero-knezligi`, `beni-ammar-trablussam`, `benin-kralligi`, `benu-mehdi-zebid`, `bergama`, `bergamo-komunu`, `bern-cumhuriyeti`, `berqavata`, `birinci-bulgar`, `bizans`, `boiotia-birligi`, `bonacolsi`, `boriler`, `bosporos-krallik`, `brabant-dukaligi`, `braunschweig-luneburg-dukaligi`, `brescia-komunu`, `britanya-imp`, `bulgar-carligi`, `burgonya`, `buveyhi`, `buyuk-moravya`, `buyuk-selcuklu`, `byzantion-polis`, `caka-beyligi`, `catuvellauni-krallik`, `cernigov-knezligi`, `champagne-kontlugu`, `chimu-krallik`, `cid-valensiya`, `cobanogullari`, `como-komunu`, `cubukogullari`, `dacu`, `dahlak-sultanligi`, `dakya`, `dal-riata`, `danelaw`, `danimarka`, `danimarka-erken`, `danismendli`, `dauphine-viennois`, `deheubarth`, `della-scala`, `delos-birligi`, `derbent-hasimi-emirligi`, `dilmacogullari`, `dilmun`, `dogu-anglia`, `dogu-francia`, `dogu-karahanli`, `dublin-krallik`, `dubrovnik`, `dulefi`, `ebla-1`, `ebla-orta-tunc`, `elam-orta`, `elam-simaski`, `elam-sukkalmah`, `elymais`, `emevi`, `endulus-emevi`, `endulus-tavaif`, `epir-despotlugu`, `ermenistan-yervantuni`, `eski-asur`, `esnunna`, `esrefogullari`, `euboea-negroponte`, `eyyubi-halep`, `eyyubi-hama`, `eyyubi-hisnikeyfa`, `eyyubi-meyyafarikin`, `eyyubi-yemen`, `fatimi`, `ferrara`, `filaretos-devleti`, `filistin-pentapolis`, `flandre`, `foix-kontlugu`, `franche-comte`, `fransa`, `frizya-ozgurlugu`, `gahadavala`, `galata-pera`, `galya-imp`, `ganiyeler`, `garamant`, `gassani`, `gepid`, `girit-emirligi`, `girit-venedik`, `granada`, `granada-ziriler`, `gurcistan`, `gutium`, `gwynedd`, `habesistan`, `hadramavt`, `hafsi`, `hainaut-kontlugu`, `hamdani-halep`, `hamdani-musul`, `hamdani-yemen`, `hammadiler`, `harappa`, `hasmoni`, `hausa-sehir-devletleri`, `hayasa-azzi`, `herakleopolis`, `herodes-krallik`, `hessen-landgrafligi`, `hiksos-15`, `himyar`, `hirvatistan-kralligi`, `hitit`, `hitit-eski`, `hitit-imp`, `hivite-afrigid`, `hollanda-kontlugu`, `hulefa-yi-rasidin`, `idrisi`, `ihsidi`, `ikinci-atina-birligi`, `ildenizli`, `ilhanli`, `inalogullari`, `inancogullari`, `irak-selcuklu`, `irlanda`, `isin`, `iskender-imparatorlugu`, `izlanda-norvec-danimarka`, `izlanda-serbest-devleti`, `iznik-imparatorlugu`, `jorvik`, `kabace`, `kakuyi`, `kalacuri-tripuri`, `kalikut`, `kanal-adalari`, `kanem-bornu`, `karakene`, `karaman`, `karintiya-dukaligi`, `karmati`, `kars-vanand-kralligi`, `kartaca`, `karya-hekatomnid`, `kassit-babil`, `kataban`, `kefalonya-palatin`, `kefe-gazaria`, `kent-kralligi`, `kert`, `kibris-isaakios`, `kibris-krallik`, `kiev-rusu`, `kilikya-ermeni`, `kinde`, `kirman-selcuklu`, `kis-egemenlik`, `kizzuwatna`, `kocin`, `kommagene`, `korint`, `korint-birligi`, `kudus-kralligi`, `kusan-sasani`, `kush-25-hanedan`, `kutlughanli`, `lagas-2`, `lahmi`, `larsa`, `latin-imparatorlugu`, `leon-kralligi`, `lidya`, `liege-piskoposlugu`, `likya-birligi`, `litvanya-buyuk-dukalik`, `livonya-tarikati`, `lizimakhos`, `lori-kralligi`, `lorraine-dukaligi`, `lubeck-sehri`, `lucca-cumhuriyeti`, `luksemburg-kontlugu`, `lului`, `lur-i-buzurg`, `lur-i-kucek`, `ma-in`, `macaristan`, `magdeburg-basepiskoposlugu`, `magrave-fas`, `magrave-sicilmase`, `makdisu-sultanligi`, `makedon-merisleri`, `makedonya-krallik`, `malatya-ermeni-beyligi`, `maldivler-sultanligi`, `mali-imparatorlugu`, `manna`, `mapungubwe`, `mari-erken`, `mari-lim`, `mari-sakkanakku`, `massalia`, `mauretania-krallik`, `maya-klasik`, `maya-sehir-devletleri`, `mayorka`, `mazovya-dukaligi`, `medine-devleti`, `medine-emirligi`, `medya`, `mekke-serifligi`, `memluk`, `memuni-harezm`, `mengucuklu`, `mentese`, `mercia`, `merini`, `mervani`, `mezyedi`, `midilli-polis`, `midrari`, `mirdasi`, `misir-28-30-hanedan`, `misir-eski-krallik`, `misir-orta-krallik`, `misir-yeni-krallik`, `mitanni`, `montferrat-markizligi`, `moravya-markgraflik`, `munkizogullari`, `murabitlar`, `murcia-ibn-merdenis`, `musafiri`, `muvahhidler`, `nabatiye`, `naksa-dukaligi`, `navarra`, `necahi`, `nepal`, `nitra-prensligi`, `normandiya`, `norvec-kralligi`, `novgorod`, `nri`, `numeyri`, `odessos-polis`, `odris`, `ogedey-ulusu-kaydu`, `orange-prensligi`, `orta-asur`, `palmira`, `part`, `peloponnes-birligi`, `pereyaslavl-knezligi`, `pervane`, `pfalz`, `piktler`, `polotsk-knezligi`, `pomeranya-dukaligi`, `pontus`, `powys`, `provence-kontlugu`, `ptolemai`, `rarotonga`, `raska-buyuk-prensligi`, `resuli`, `revvadi`, `riga-baspiskoposlugu`, `rodos-polis`, `rostov-knezligi`, `rupeniler`, `rustemi`, `ryazan`, `saba`, `sacogullari`, `saffari`, `sahibata`, `sait-26-hanedan`, `sakiz-polis`, `salgurlu`, `saltuklu`, `saluzzo-markizligi`, `salzburg-prens-basepiskoposlugu`, `samo-devleti`, `samsi-adad`, `samtshe-atabegligi`, `sasani`, `schwaben-dukaligi`, `sealand-1`, `seddadiler-ani`, `seddadiler-gence`, `selanik-imparatorlugu`, `selanik-kralligi`, `selcuklu`, `selevkos`, `sena`, `sevilla-abbadiler`, `siena`, `silezya-piast`, `sirbistan-nemanjic`, `sirvansah`, `smolensk-knezligi`, `sofene`, `sparta`, `strathclyde`, `suev`, `suleyhi`, `sumer-lagas-1`, `suriye-selcuklu`, `sussex-kralligi`, `susu-kralligi`, `suve-emirligi`, `svahili-sehirleri`, `taberistan-zeydi`, `taberistan-zeydi-ii`, `tahiri-horasan`, `taranto-prensligi`, `tebai-11-hanedan`, `teuton-devleti`, `teuton-sovalyeleri`, `tiflis-emirligi`, `tigran-imp`, `tikal-mutal`, `tiwanaku`, `toledo-zunnunler`, `tolunogullari`, `toulouse`, `trablus-benihazrun`, `trablus-kontlugu`, `trabzon-rum`, `trento-piskoposlugu`, `tubo-tibet-imparatorlugu`, `tunus-benihorasan`, `tver`, `ugarit`, `ukaydir`, `ukayli`, `uman-ibadi`, `umma-erken-hanedan`, `ur-1-hanedan`, `ur-3`, `urartu`, `urfa-kontlugu`, `urfa-toros-beyligi`, `uruk-erken-hanedan`, `usfuri`, `utrecht-piskoposlugu`, `uyuni`, `valensiya-kralligi`, `vaspurakan-kralligi`, `verona-scaliger`, `vladimir-suzdal`, `wessex`, `yahuda`, `yamhad`, `yaroslavl-knezligi`, `yemen-zeydi`, `yeni-asur`, `yezd-atabegligi`, `yufiri`, `zagve`, `zapotek-monte-alban`, `zaragoza-hudiler`, `zengi-cizre`, `zengi-halep`, `zengi-musul`, `zeyyani`, `zimbabve-kralligi`, `ziriler`, `ziyadi`, `ziyari`, `zubeyri`, `zureyi`
+`abbasi`, `aglebi`, `ahamenis-misir`, `ahamenis-misir-2`, `ahaya-prinkepsligi`, `ahlatsahlar`, `ahmedili`, `aitolia-birligi`, `akad`, `akhaia-birligi`, `alamut-nizari`, `almanya`, `andorra`, `ani-bagratli-kralligi`, `anjou-kontlugu`, `annazi`, `antakya-prinkipsligi`, `antigonid-makedonya`, `antigonos`, `antigonos-krallik`, `aquileia-patrikligi`, `aram-sam`, `arsakuni-ermenistan`, `artaksiad`, `artuklu`, `asturias`, `atina-demokrasisi`, `atina-dukaligi`, `atropatene`, `atsiz-beyligi`, `avignon-venaissin`, `awan`, `babek-hurremi`, `babil-eski`, `baden`, `badusbani`, `barselona-kontlugu`, `bati-calukya`, `bati-francia`, `bati-karahanli`, `bavendi`, `begteginli`, `beloozero-knezligi`, `beni-ammar-trablussam`, `benin-kralligi`, `benu-mehdi-zebid`, `bergama`, `bergamo-komunu`, `bern-cumhuriyeti`, `berqavata`, `birinci-bulgar`, `bizans`, `boiotia-birligi`, `bonacolsi`, `boriler`, `bosporos-krallik`, `brabant-dukaligi`, `braunschweig-luneburg-dukaligi`, `brescia-komunu`, `britanya-imp`, `bulgar-carligi`, `burgonya`, `buveyhi`, `buyuk-moravya`, `buyuk-selcuklu`, `byzantion-polis`, `caka-beyligi`, `catuvellauni-krallik`, `cernigov-knezligi`, `champagne-kontlugu`, `chimu-krallik`, `cid-valensiya`, `cobanogullari`, `como-komunu`, `cubukogullari`, `dacu`, `dahlak-sultanligi`, `dakya`, `dal-riata`, `danelaw`, `danimarka`, `danimarka-erken`, `danismendli`, `dauphine-viennois`, `deheubarth`, `della-scala`, `delos-birligi`, `derbent-hasimi-emirligi`, `dilmacogullari`, `dilmun`, `dogu-anglia`, `dogu-francia`, `dogu-karahanli`, `dublin-krallik`, `dubrovnik`, `dulefi`, `ebla-1`, `ebla-orta-tunc`, `elam-orta`, `elam-simaski`, `elam-sukkalmah`, `elymais`, `emevi`, `endulus-emevi`, `endulus-tavaif`, `epir-despotlugu`, `ermenistan-yervantuni`, `eski-asur`, `esnunna`, `esrefogullari`, `euboea-negroponte`, `eyyubi-halep`, `eyyubi-hama`, `eyyubi-hisnikeyfa`, `eyyubi-meyyafarikin`, `eyyubi-yemen`, `fatimi`, `ferrara`, `filaretos-devleti`, `filistin-pentapolis`, `flandre`, `foix-kontlugu`, `franche-comte`, `fransa`, `frizya-ozgurlugu`, `gahadavala`, `galata-pera`, `galya-imp`, `ganiyeler`, `garamant`, `gassani`, `gepid`, `girit-emirligi`, `girit-venedik`, `granada`, `granada-ziriler`, `gurcistan`, `gutium`, `gwynedd`, `habesistan`, `hadramavt`, `hafsi`, `hainaut-kontlugu`, `hamdani-halep`, `hamdani-musul`, `hamdani-yemen`, `hammadiler`, `harappa`, `hasmoni`, `hausa-sehir-devletleri`, `hayasa-azzi`, `herakleopolis`, `herodes-krallik`, `hessen-landgrafligi`, `hiksos-15`, `hirvatistan-kralligi`, `hitit`, `hitit-eski`, `hitit-imp`, `hivite-afrigid`, `hollanda-kontlugu`, `hulefa-yi-rasidin`, `idrisi`, `ihsidi`, `ikinci-atina-birligi`, `ildenizli`, `ilhanli`, `inalogullari`, `inancogullari`, `irak-selcuklu`, `irlanda`, `isin`, `iskender-imparatorlugu`, `izlanda-norvec-danimarka`, `izlanda-serbest-devleti`, `iznik-imparatorlugu`, `jorvik`, `kabace`, `kakuyi`, `kalacuri-tripuri`, `kalikut`, `kanal-adalari`, `kanem-bornu`, `karakene`, `karaman`, `karintiya-dukaligi`, `karmati`, `kars-vanand-kralligi`, `kartaca`, `karya-hekatomnid`, `kassit-babil`, `kataban`, `kefalonya-palatin`, `kefe-gazaria`, `kent-kralligi`, `kert`, `kibris-isaakios`, `kibris-krallik`, `kiev-rusu`, `kilikya-ermeni`, `kinde`, `kirman-selcuklu`, `kis-egemenlik`, `kizzuwatna`, `kocin`, `kommagene`, `korint`, `korint-birligi`, `kudus-kralligi`, `kusan-sasani`, `kush-25-hanedan`, `kutlughanli`, `lagas-2`, `lahmi`, `larsa`, `latin-imparatorlugu`, `leon-kralligi`, `lidya`, `liege-piskoposlugu`, `likya-birligi`, `litvanya-buyuk-dukalik`, `livonya-tarikati`, `lizimakhos`, `lori-kralligi`, `lorraine-dukaligi`, `lubeck-sehri`, `lucca-cumhuriyeti`, `luksemburg-kontlugu`, `lului`, `lur-i-buzurg`, `lur-i-kucek`, `ma-in`, `macaristan`, `magdeburg-basepiskoposlugu`, `magrave-fas`, `magrave-sicilmase`, `makdisu-sultanligi`, `makedon-merisleri`, `makedonya-krallik`, `malatya-ermeni-beyligi`, `maldivler-sultanligi`, `mali-imparatorlugu`, `manna`, `mapungubwe`, `mari-erken`, `mari-lim`, `mari-sakkanakku`, `massalia`, `mauretania-krallik`, `maya-klasik`, `maya-sehir-devletleri`, `mayorka`, `mazovya-dukaligi`, `medine-devleti`, `medine-emirligi`, `medya`, `mekke-serifligi`, `memluk`, `memuni-harezm`, `mengucuklu`, `mentese`, `mercia`, `merini`, `mervani`, `mezyedi`, `midilli-polis`, `midrari`, `mirdasi`, `misir-28-30-hanedan`, `misir-eski-krallik`, `misir-orta-krallik`, `misir-yeni-krallik`, `mitanni`, `montferrat-markizligi`, `moravya-markgraflik`, `munkizogullari`, `murabitlar`, `murcia-ibn-merdenis`, `musafiri`, `muvahhidler`, `nabatiye`, `naksa-dukaligi`, `navarra`, `necahi`, `nepal`, `nitra-prensligi`, `normandiya`, `norvec-kralligi`, `novgorod`, `nri`, `numeyri`, `odessos-polis`, `odris`, `ogedey-ulusu-kaydu`, `orange-prensligi`, `orta-asur`, `palmira`, `part`, `peloponnes-birligi`, `pereyaslavl-knezligi`, `pervane`, `pfalz`, `piktler`, `polotsk-knezligi`, `pomeranya-dukaligi`, `pontus`, `powys`, `provence-kontlugu`, `ptolemai`, `rarotonga`, `raska-buyuk-prensligi`, `resuli`, `revvadi`, `riga-baspiskoposlugu`, `rodos-polis`, `rostov-knezligi`, `rupeniler`, `rustemi`, `ryazan`, `saba`, `sacogullari`, `saffari`, `sahibata`, `sait-26-hanedan`, `sakiz-polis`, `salgurlu`, `saltuklu`, `saluzzo-markizligi`, `salzburg-prens-basepiskoposlugu`, `samo-devleti`, `samsi-adad`, `samtshe-atabegligi`, `sasani`, `schwaben-dukaligi`, `sealand-1`, `seddadiler-ani`, `seddadiler-gence`, `selanik-imparatorlugu`, `selanik-kralligi`, `selcuklu`, `selevkos`, `sena`, `sevilla-abbadiler`, `siena`, `silezya-piast`, `sirbistan-nemanjic`, `sirvansah`, `smolensk-knezligi`, `sofene`, `sparta`, `strathclyde`, `suev`, `suleyhi`, `sumer-lagas-1`, `suriye-selcuklu`, `sussex-kralligi`, `susu-kralligi`, `suve-emirligi`, `svahili-sehirleri`, `taberistan-zeydi`, `taberistan-zeydi-ii`, `tahiri-horasan`, `taranto-prensligi`, `tebai-11-hanedan`, `teuton-devleti`, `teuton-sovalyeleri`, `tiflis-emirligi`, `tigran-imp`, `tikal-mutal`, `tiwanaku`, `toledo-zunnunler`, `tolunogullari`, `toulouse`, `trablus-benihazrun`, `trablus-kontlugu`, `trabzon-rum`, `trento-piskoposlugu`, `tubo-tibet-imparatorlugu`, `tunus-benihorasan`, `tver`, `ugarit`, `ukaydir`, `ukayli`, `uman-ibadi`, `umma-erken-hanedan`, `ur-1-hanedan`, `ur-3`, `urartu`, `urfa-kontlugu`, `urfa-toros-beyligi`, `uruk-erken-hanedan`, `usfuri`, `utrecht-piskoposlugu`, `uyuni`, `valensiya-kralligi`, `vaspurakan-kralligi`, `verona-scaliger`, `vladimir-suzdal`, `wessex`, `yahuda`, `yamhad`, `yaroslavl-knezligi`, `yemen-zeydi`, `yeni-asur`, `yezd-atabegligi`, `yufiri`, `zagve`, `zapotek-monte-alban`, `zaragoza-hudiler`, `zengi-cizre`, `zengi-halep`, `zengi-musul`, `zeyyani`, `zimbabve-kralligi`, `ziriler`, `ziyadi`, `ziyari`, `zubeyri`, `zureyi`
 
 ## Sorunlar (şema/ölçüm)
 
@@ -1215,6 +1254,7 @@ Doğrulama: okundu 0 · kismen-okundu 0 · taslak 1156
 - AMERIKA_E `culhuacan`: kaynak boş
 - AMERIKA_E `tenayuca-chichimeca`: kaynak boş
 - AMERIKA_E `azcapotzalco-tepanek`: kaynak boş
+- ANAKAF_B `misya-gongylid-pergamon`: dilim B ama f devri C
 - BALKAN_B `chersonesos-polis`: dilim B ama f devri C
 - BALKAN_B `hellen-birligi-481`: dilim B ama f devri C
 - BALKAN_B `paionia`: dilim B ama f devri C
@@ -1441,108 +1481,107 @@ Doğrulama: okundu 0 · kismen-okundu 0 · taslak 1156
 - HINT_E `pandya-ikinci-ref`: kaynak boş
 - HINT_E `delhi-ref`: kaynak boş
 - KOJA_E `goryeo`: dilim E ama f devri D
-- MEZOIR_A `proto-elam-susa`: kaynak boş
+- LEVARAP_B `lihyan`: dilim B ama f devri C
+- LEVARAP_C `gerrha`: dilim C ama f devri B
 - MEZOIR_A `uruk-iv-sehir-devleti`: kaynak boş
-- MEZOIR_B `adab`: kaynak boş
-- MEZOIR_B `aksak`: kaynak boş
-- MEZOIR_B `surupak`: kaynak boş
-- MEZOIR_B `eridu-sehir-devleti`: kaynak boş
-- MEZOIR_B `hamazi`: kaynak boş
-- MEZOIR_B `kazallu`: kaynak boş
-- MEZOIR_B `kisurra`: kaynak boş
 - MEZOIR_B `uruk-v-utuhengal`: kaynak boş
-- MEZOIR_B `lullubi`: kaynak boş
-- MEZOIR_B `simurrum`: kaynak boş
-- MEZOIR_B `anshan`: kaynak boş
-- MEZOIR_B `marhasi`: kaynak boş
-- MEZOIR_B `kutha-krallik`: kaynak boş
 - MEZOIR_B `der-krallik`: kaynak boş
 - MEZOIR_B `babil-isin2-sonrasi`: kaynak boş
 - MEZOIR_B `babil-asur-egemenliginde`: kaynak boş
-- MEZOIR_B `bit-yakin`: kaynak boş
-- MEZOIR_B `bit-amukani`: kaynak boş
-- MEZOIR_B `ellipi`: kaynak boş
-- MEZOIR_B `parsua`: kaynak boş
-- MEZOIR_B `musasir`: kaynak boş
 - MEZOIR_B `zikirtu`: kaynak boş
 - MEZOIR_B `susa-elam-sonrasi`: kaynak boş
-- MEZOIR_B `teispid-pers`: kaynak boş
-- MEZOIR_C `persis`: kaynak boş
-- MEZOIR_C `hatra`: kaynak boş
-- MEZOIR_C `osrhoene`: kaynak boş
-- MEZOIR_C `adiabene`: kaynak boş
-- MEZOIR_C `gordyene`: kaynak boş
-- MEZOIR_C `tanuhiler`: kaynak boş
-- MEZOIR_C `sakastan-indo-part`: kaynak boş
-- MEZOIR_C `part-persis-diger-yok`: kaynak boş
-- MEZOIR_D `dabuyiler`: kaynak boş
-- MEZOIR_D `karenid`: kaynak boş
 - MEZOIR_D `masmugan`: kaynak boş
-- MEZOIR_D `custanid`: kaynak boş
-- MEZOIR_D `zenc-devleti`: kaynak boş
-- MEZOIR_D `bataih`: kaynak boş
-- MEZOIR_D `hasanuya`: kaynak boş
-- MEZOIR_D `ferigunid`: kaynak boş
-- MEZOIR_D `simcurid`: kaynak boş
-- MEZOIR_E `nasri-sistan`: kaynak boş
-- MEZOIR_E `hurmuz`: kaynak boş
-- MEZOIR_E `sebankare`: kaynak boş
-- MEZOIR_E `ardalan`: kaynak boş
 - MEZOIR_E `kays`: kaynak boş
-- MISIR_A `hierakonpolis-krallik`: kaynak boş
-- MISIR_A `naqada-ombos-krallik`: kaynak boş
-- MISIR_A `abydos-thinis-0-hanedan`: kaynak boş
 - MISIR_A `ta-seti-a-grubu`: kaynak boş
-- MISIR_B `kerma-erken`: kaynak boş
 - MISIR_B `yam-krallik`: kaynak boş
-- MISIR_B `punt`: kaynak boş
-- MISIR_B `dmt`: kaynak boş
-- MISIR_B `misir-14-hanedan`: kaynak boş
-- MISIR_B `abydos-hanedani`: kaynak boş
-- MISIR_B `misir-16-hanedan`: kaynak boş
-- MISIR_B `tebai-amon-rahip-devleti`: kaynak boş
-- MISIR_B `misir-21-hanedan`: kaynak boş
-- MISIR_B `misir-22-hanedan`: kaynak boş
-- MISIR_B `misir-23-hanedan`: kaynak boş
-- MISIR_B `misir-24-hanedan`: kaynak boş
-- MISIR_C `aksum-uzun`: kaynak boş
 - MISIR_C `meroe-krallik`: dilim C ama f devri B
-- MISIR_C `meroe-krallik`: kaynak boş
-- MISIR_C `tebai-ayaklanma-krallik`: kaynak boş
-- MISIR_C `aegyptus-roma-bizans`: kaynak boş
-- MISIR_C `blemmyes`: kaynak boş
-- MISIR_C `nobatia`: kaynak boş
-- MISIR_D `makuria`: kaynak boş
-- MISIR_D `alodia`: kaynak boş
-- MISIR_D `beja-krallik`: kaynak boş
-- MISIR_D `kilwa-uzun`: kaynak boş
-- MISIR_D `zenc-kiyi`: kaynak boş
-- MISIR_E `dotawo`: kaynak boş
-- MISIR_E `kenzu-ddevle`: kaynak boş
-- MISIR_E `damot`: kaynak boş
-- MISIR_E `zeyla-emirlik`: kaynak boş
-- OKYANUS_A `kuk-erken-tarim`: kaynak boş
-- OKYANUS_A `budj-bim-gunditjmara`: kaynak boş
-- OKYANUS_A `aborijin-ulusal-birimleri`: kaynak boş
-- OKYANUS_B `lapita-kulturu`: kaynak boş
-- OKYANUS_D `tui-tonga-gelenek-baslangici`: kaynak boş
-- OKYANUS_D `mariana-latte`: kaynak boş
-- OKYANUS_E `saudeleur-pohnpei`: kaynak boş
-- OKYANUS_E `yap-sawei`: kaynak boş
-- OKYANUS_E `palau-koy-seflikleri`: kaynak boş
-- OKYANUS_E `tahiti-taputapuatea`: kaynak boş
-- OKYANUS_E `samoa-tui-manua`: kaynak boş
-- OKYANUS_E `fiji-seflikleri`: kaynak boş
-- OKYANUS_E `marquesas-seflikleri`: kaynak boş
-- OKYANUS_E `aotearoa-maori-oncesi`: kaynak boş
-- OKYANUS_E `hawaii-erken`: kaynak boş
-- OKYANUS_E `rapa-nui-erken`: kaynak boş
+- MISIR_D `alodia`: dilim D ama f devri C
+- MISIR_E `ifat-sultanligi`: f >= 1281 (kapsam dışı)
 - ORTAAV_B `heuneburg-prensligi`: kaynak boş
 - ORTAAV_B `kimmer-konfederasyonu`: kaynak boş
 - ORTAAV_B `olbia-polisi`: kaynak boş
 - ORTAAV_B `tyras-polisi`: kaynak boş
 - ORTAAV_B `savromat-birligi`: kaynak boş
-- … 103 sorun daha (JSON `sorunlar`)
+- ORTAAV_C `boii-bohemya`: kaynak boş
+- ORTAAV_C `noricum-kralligi`: kaynak boş
+- ORTAAV_C `helvet-kabile-devleti`: kaynak boş
+- ORTAAV_C `ariovist-sueb`: kaynak boş
+- ORTAAV_C `markoman-kralligi-marbod`: kaynak boş
+- ORTAAV_C `vannius-krallik`: kaynak boş
+- ORTAAV_C `markoman-kuadi-krallik`: kaynak boş
+- ORTAAV_C `cheruski-konfederasyonu`: kaynak boş
+- ORTAAV_C `lugii-birligi`: kaynak boş
+- ORTAAV_C `bastarn-krallik`: kaynak boş
+- ORTAAV_C `karp-kabile-birligi`: kaynak boş
+- ORTAAV_C `skit-kirim-neapolis`: kaynak boş
+- ORTAAV_C `sarmat-aorslar`: kaynak boş
+- ORTAAV_C `sarmat-roksolanlar`: kaynak boş
+- ORTAAV_C `sarmat-yaziglar`: kaynak boş
+- ORTAAV_C `alan-konfederasyonu`: kaynak boş
+- ORTAAV_C `terving-got`: kaynak boş
+- ORTAAV_C `greutung-got`: kaynak boş
+- ORTAAV_C `got-pannonia`: kaynak boş
+- ORTAAV_C `rugi-kralligi`: kaynak boş
+- ORTAAV_C `heruli-krallik`: kaynak boş
+- ORTAAV_C `skiri-krallik`: kaynak boş
+- ORTAAV_C `burgund-worms`: kaynak boş
+- ORTAAV_C `thuringen-krallik`: kaynak boş
+- ORTAAV_C `langobard-pannonia`: kaynak boş
+- ORTAAV_C `hasding-vandal`: kaynak boş
+- ORTAAV_C `alamannia-dukaligi`: dilim C ama f devri D
+- ORTAAV_C `alamannia-dukaligi`: kaynak boş
+- ORTAAV_D `bavyera-agilolfing`: kaynak boş
+- ORTAAV_D `bavyera`: kaynak boş
+- ORTAAV_D `bavyera`: esleme=eksik ama id atlasta var
+- ORTAAV_D `saksonya-eski`: dilim D ama f devri C
+- ORTAAV_D `saksonya-eski`: kaynak boş
+- ORTAAV_D `saksonya-dukaligi`: kaynak boş
+- ORTAAV_D `frankonya-dukaligi`: kaynak boş
+- ORTAAV_D `karantanya-prensligi`: kaynak boş
+- ORTAAV_D `balaton-prensligi`: kaynak boş
+- ORTAAV_D `bohemya-dukaligi`: kaynak boş
+- ORTAAV_D `libice-slavnik`: kaynak boş
+- ORTAAV_D `visla-devleti`: kaynak boş
+- ORTAAV_D `polan-gniezno`: kaynak boş
+- ORTAAV_D `anta-birligi`: kaynak boş
+- ORTAAV_D `dulebe-birligi`: kaynak boş
+- ORTAAV_D `kutrigur-hanligi`: kaynak boş
+- ORTAAV_D `utigur-hanligi`: kaynak boş
+- ORTAAV_D `rus-kaganligi`: kaynak boş
+- ORTAAV_D `drevlyan-prensligi`: kaynak boş
+- ORTAAV_D `macar-etelkoz`: kaynak boş
+- ORTAAV_D `obotrit-prensligi`: kaynak boş
+- ORTAAV_D `velet-lutic-birligi`: kaynak boş
+- ORTAAV_D `sorb-prensligi`: kaynak boş
+- ORTAAV_D `hevelli-prensligi`: kaynak boş
+- ORTAAV_D `nordmark`: kaynak boş
+- ORTAAV_D `dogu-mark-pannonia`: kaynak boş
+- ORTAAV_E `avusturya-marki`: dilim E ama f devri D
+- ORTAAV_E `avusturya-marki`: kaynak boş
+- ORTAAV_E `meissen-markgrafligi`: dilim E ama f devri D
+- ORTAAV_E `meissen-markgrafligi`: kaynak boş
+- ORTAAV_E `brandenburg-markgrafligi`: kaynak boş
+- ORTAAV_E `mecklenburg`: kaynak boş
+- ORTAAV_E `anhalt-prensligi`: kaynak boş
+- ORTAAV_E `wurttemberg`: kaynak boş
+- ORTAAV_E `wurttemberg`: esleme=eksik ama id atlasta var
+- ORTAAV_E `tirol-kontlugu`: kaynak boş
+- ORTAAV_E `habsburg-kontlugu`: kaynak boş
+- ORTAAV_E `zahringen-dukaligi`: kaynak boş
+- ORTAAV_E `stiriya-markgrafligi`: kaynak boş
+- ORTAAV_E `meran-dukaligi`: kaynak boş
+- ORTAAV_E `ermland-piskoposlugu`: kaynak boş
+- ORTAAV_E `tevtonik-burzenland`: kaynak boş
+- ORTAAV_E `ajtony-prensligi`: kaynak boş
+- ORTAAV_E `gyula-erdel`: dilim E ama f devri D
+- ORTAAV_E `gyula-erdel`: kaynak boş
+- ORTAAV_E `moskova`: kaynak boş
+- ORTAAV_E `moskova`: esleme=eksik ama id atlasta var
+- ORTAAV_E `tmutarakan`: kaynak boş
+- ORTAAV_E `turov-pinsk`: dilim E ama f devri D
+- ORTAAV_E `turov-pinsk`: kaynak boş
+- ORTAAV_E `volhinya-knezligi`: dilim E ama f devri D
+- … 24 sorun daha (JSON `sorunlar`)
 
 ## Dilim raporları
 

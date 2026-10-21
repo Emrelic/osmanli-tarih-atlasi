@@ -26,9 +26,13 @@ def devir(y):
 
 mevcut = json.load(open('denetim/once1281/mevcut_kunyeler.json', encoding='utf-8'))
 MEV = {d['id']: d for d in mevcut}
-kayitlar, sorunlar, rapor_dosyalari = [], [], []
+kayitlar, sorunlar, rapor_dosyalari, elenen = [], [], [], []
 for yol in sorted(glob.glob('denetim/once1281/dilimler/*.json')):
     ad = os.path.basename(yol)[:-5]
+    if ad.endswith('_ELENEN'):          # elenen kayıtlar (polity değil) listeye girmez; sayısı özette
+        try: elenen.extend(json.load(open(yol, encoding='utf-8')))
+        except Exception: pass
+        continue
     try:
         veri = json.load(open(yol, encoding='utf-8'))
     except Exception as e:
@@ -63,6 +67,9 @@ for yol in sorted(glob.glob('denetim/once1281/dilimler/*.json')):
         # taslak (okunmamış kaynak): f/t DOĞRULANMADI — aday listesidir, era oturumlarına devredilmez
         k['taslak'] = k.get('dogrulama') == 'taslak'
         k['f_t_durum'] = 'dogrulanmadi' if k['taslak'] else 'kaynakli'
+        # devredilebilir: kaynak sayfası bu oturumlarda açılıp okunmuş ve kaynak künyesi dolu
+        k['devredilebilir'] = (k.get('dogrulama') in ('okundu', 'kismen-okundu')) and bool(k.get('kaynak'))
+        k['devir_tarafi'] = ('VERI-MS1-1281' if dil in 'DE' else 'VERI-MO-ARKEO') if dil in 'BCDE' else 'MO-ARKEO-A'
         kayitlar.append(k)
     r = yol[:-len(f'_{dil}.json')] + '_RAPOR.md'
     if r not in rapor_dosyalari: rapor_dosyalari.append(r)
@@ -78,7 +85,7 @@ esl_id = {(k.get('esleme') or {}).get('mevcut_id') for k in kayitlar}
 yetim = sorted(d['id'] for d in mevcut if yil(d.get('f')) is not None and yil(d['f']) < 1281
                and d['id'] not in esl_id and d['id'] not in sayac and d.get('tur') != 'kultur')
 
-tam = {'uretim': 'denetim/once1281/birlestir.py', 'kayit_sayisi': len(kayitlar), 'kayitlar': kayitlar,
+tam = {'elenen': elenen, 'uretim': 'denetim/once1281/birlestir.py', 'kayit_sayisi': len(kayitlar), 'kayitlar': kayitlar,
        'sorunlar': [{'dilim': a, 'id': b, 'sorun': c} for a, b, c in sorunlar],
        'atlasta_olup_listede_eslesmeyen': yetim}
 json.dump(tam, open('denetim/ONCE1281-DEVLET-LISTESI.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
@@ -101,7 +108,7 @@ ec = collections.Counter((k.get('esleme') or {}).get('durum') for k in kayitlar)
 for d in ['var', 'var-f-t-farkli', 'var-kisa', 'ardil-var', 'eksik']:
     L.append(f'| {d} | {ec[d]} |')
 dc = collections.Counter(k.get('dogrulama') for k in kayitlar)
-L += ['', f"Devredilebilir (taslak değil): {sum(1 for k in kayitlar if not k['taslak'])} · doğrulama bekleyen taslak: {sum(1 for k in kayitlar if k['taslak'])}", f"Doğrulama: okundu {dc['okundu']} · kismen-okundu {dc['kismen-okundu']} · taslak {dc['taslak']}", '']
+L += ['', f"Devredilebilir (okundu/kismen-okundu + kaynak dolu): {sum(1 for k in kayitlar if k['devredilebilir'])} · doğrulama bekleyen taslak: {sum(1 for k in kayitlar if k['taslak'])}", f"Doğrulama: okundu {dc['okundu']} · kismen-okundu {dc['kismen-okundu']} · taslak {dc['taslak']}", '']
 L += ['## Bölge × eşleme', '', '| bölge kodu | var | f/t farklı | kısa | ardıl | eksik |', '|---|---|---|---|---|---|']
 bg = collections.defaultdict(collections.Counter)
 for k in kayitlar:

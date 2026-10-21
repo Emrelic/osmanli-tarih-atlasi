@@ -102,7 +102,7 @@
   "ad": "Hırvat Dükalığı (Dalmaçya)",
   "tur": "dukalik",
   "bolge": "balkanlar",
-  "f": "0800-01-01",
+  "f": "0810-01-01",
   "t": "0925-01-01",
   "kesinlik": {
    "f": "onyil",
@@ -122,11 +122,14 @@
   ],
   "oncelik": "cekirdek",
   "kaynak": [
-   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi",
-   "Constantine Porphyrogenitus, De Administrando Imperio (Moravcsik-Jenkins, Dumbarton Oaks 1967) - OKUNMADI, dogrulama adayi"
+   "Fine, J.V.A. The Early Medieval Balkans. Michigan UP, 1983/1991 [Vikipedi atıf listesi]",
+   "Budak, Neven. Hrvatska povijest od 550. do 1100. 2018 [Vikipedi atıf listesi]",
+   "Goldstein, Ivo. Hrvatski rani srednji vijek. 1995 [Vikipedi atıf listesi]",
+   "Curta, Florin. Southeastern Europe in the Middle Ages, 500-1250. Cambridge UP, 2006 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Duchy_of_Croatia (aracı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Dükalığın başlangıcı DAI'ye göre Heraklios dönemi (7. yy). Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak f=0800. Kaynak (Vikipedi): ilk bilinen dük Borna c. 810 (Frank vasalı, 'Dalmaçya ve Liburnia Dükü'); infobox başlangıcı '7./8. yy'; Branimir (879) Papa VIII. Ioannes tanıması Frank üstünlüğünü bitirdi; Tomislav 925 belgelerinde 'kral' (t=925 yaklaşık). Pannonya Hırvatistan'ı ayrı (donja-panonija). Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik eserlere dayanır, eserler açılmadı => kismen-okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -175,10 +178,10 @@
   "tur": "prenslik",
   "bolge": "balkanlar",
   "f": "0910-01-01",
-  "t": "1030-01-01",
+  "t": "1054-01-01",
   "kesinlik": {
-   "f": "onyil",
-   "t": "yuzyil"
+   "f": "yuzyil",
+   "t": "yil"
   },
   "baskent": "Ston",
   "etkin_bolge": "Hersek",
@@ -191,10 +194,11 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "Constantine Porphyrogenitus, De Administrando Imperio (Moravcsik-Jenkins, Dumbarton Oaks 1967) - OKUNMADI, dogrulama adayi"
+   "Fine 1991, 1994; Živković 2006; Ćirković 2004 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Zachlumia (aracı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak t=1030. Kaynak (Vikipedi): kuruluş '9. yy' (infobox), bilinen ilk prens Mihailo Višević 910-c.935/940; Duklja fethi 1054, son bağımsız prens Ljutovid (1039-1054). f=910 ilk bilinen hükümdar, kuruluş değil. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik eserlere dayanır, eserler açılmadı => kismen-okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -222,10 +226,11 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "Constantine Porphyrogenitus, De Administrando Imperio (Moravcsik-Jenkins, Dumbarton Oaks 1967) - OKUNMADI, dogrulama adayi"
+   "Fine 1991, 1994; Živković 2006 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Travunia (aracı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak 900-1040. Kaynak (Vikipedi): Belojević ailesi Vlastimirović Sırbistanı'na bağlı yönetti; Časlav Klonimirović 927-960; 1034'te Vojislav isyanıyla Duklja'ya; 12. yy Sırbistan'a katıldı. Tamamen bağımsız polity olup olmadığı tartışmalı (Sırp/Duklja vasalı); tarihler taslak değerinde bırakıldı. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik eserlere dayanır, eserler açılmadı => kismen-okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -237,11 +242,11 @@
   "ad": "Neretva (Pagania) Prensliği",
   "tur": "prenslik",
   "bolge": "balkanlar",
-  "f": "0830-01-01",
+  "f": "0839-01-01",
   "t": "1000-01-01",
   "kesinlik": {
-   "f": "onyil",
-   "t": "yuzyil"
+   "f": "yil",
+   "t": "yil"
   },
   "baskent": "Mokro",
   "etkin_bolge": "Neretva deltası",
@@ -253,10 +258,10 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "Constantine Porphyrogenitus, De Administrando Imperio (Moravcsik-Jenkins, Dumbarton Oaks 1967) - OKUNMADI, dogrulama adayi"
+   "https://en.wikipedia.org/wiki/Narentines (aracı; atıf: Dvornik et al. 1962 DAI Commentary, Fine 1991, Curta 2006)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak f=0830. Kaynak (Vikipedi): Narona 639'da yıkıldı, Slavlar Neretva'ya yerleşti; 839 Venedik seferi (ilk tarihli olay), 846 Venedik civarı akın, 887 Doge I. Pietro Candiano ölümü, 998-1000 Orseolo seferi (Korčula, Lastovo); 11. yy'da Hırvat Krallığı'na katıldı. f=839 ilk tarihli tanıklık, kuruluş değil; t=1000 Orseolo sonrası çöküş. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik eserlere dayanır, eserler açılmadı => kismen-okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -300,10 +305,10 @@
   "ad": "Balaton (Pribina-Kocel) Prensliği",
   "tur": "prenslik",
   "bolge": "orta-avrupa",
-  "f": "0840-01-01",
+  "f": "0846-01-01",
   "t": "0876-01-01",
   "kesinlik": {
-   "f": "onyil",
+   "f": "yil",
    "t": "yil"
   },
   "baskent": "Mosaburg",
@@ -316,10 +321,156 @@
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "J.V.A. Fine, The Early Medieval Balkans (1983) ve The Late Medieval Balkans (1987) - OKUNMADI, dogrulama adayi"
+   "Szőke, Béla M. (2007), Mosapurc/Zalavár [Vikipedi atıf listesi]",
+   "Bowlus, Charles R. Franks, Moravians, and Magyars. 1995 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Duchy_of_Lower_Pannonia (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak 0840-0876. Kaynak (Vikipedi, tablo): Pribina c. 846-861, Kocel c. 861-876; Ratimir 838'de Radbod tarafından devrildi, Pribina sonra yerleştirildi. Statü tartışmalı (Frank vasalı prenslik mı, sınır comitatus'u mu; Kocel 'Slavların Kontu'). Bölge sınır: Mosaburg Zalavár (Macaristan) => orta-avrupa. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik eserlere dayanır, eserler açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "donja-panonija-vojnomir-ljudevit",
+  "ad": "Aşağı Pannonia Dukalığı (Vojnomir–Ljudevit dönemi)",
+  "tur": "dukalik",
+  "bolge": "balkanlar",
+  "f": "0795-01-01",
+  "t": "0823-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Sisak (Siscia)",
+  "etkin_bolge": "Drava-Sava arası (Aşağı Pannonia)",
+  "sehirler": [
+   "Sisak"
+  ],
+  "ozet": "Frank vasalı Vojnomir (c. 790-810) ve isyancı Ljudevit (c. 810-823) dönemi Slav dukalığı; 819-822 Frank savaşları; 823 Ljudevit'in ölümü; 827 Omurtag Bulgarları bölgeyi aldı.",
+  "oncul": [
+   "avar"
+  ],
+  "ardil": [
+   "donja-panonija-ratimir"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Gračanin, Hrvoje (2008, 2016, 2021) [Vikipedi atıf listesi]",
+   "Bowlus, Franks, Moravians, and Magyars (1995); Budak 2018; Curta 2006 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Principality_of_Lower_Pannonia ve .../Ljudevit_Posavski (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f=795: Royal Frankish Annals'ta Vojnomir'in anıldığı yıl (kuruluş değil; tablo c.790). Ljudevit'in isyanı 811/819-822 (kaynaklar 811 ve 819 verir; çelişki ic_not'ta: tablo 811-822, Ljudevit maddesi 819 başlangıç), 822'de Sisak'tan kaçış, 823 ölüm (Ljudemisl'in elinde). 'Pannonya Hırvatistanı' terimi anakronik sayılıyor. Ratimir ve Braslav dönemleri süreklilik taşımıyor (tablo: aynı hanedan değil) => ayrı kayıtlar. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik eserlere dayanır, eserler açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "donja-panonija-ratimir",
+  "ad": "Aşağı Pannonia Dukalığı (Ratimir dönemi)",
+  "tur": "dukalik",
+  "bolge": "balkanlar",
+  "f": "0829-01-01",
+  "t": "0838-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Aşağı Pannonia)",
+  "etkin_bolge": "Drava-Sava arası",
+  "sehirler": [
+   "bilinmiyor"
+  ],
+  "ozet": "Ljudevit sonrası Omurtag Bulgarları (827) bölgeyi aldıktan sonra Ratimir (c. 829-838); Frank kontu Radbod 838'de devirdi.",
+  "oncul": [
+   "donja-panonija-vojnomir-ljudevit"
+  ],
+  "ardil": [
+   "balaton-prensligi"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Bowlus 1995; Curta 2006; Gračanin 2008 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Principality_of_Lower_Pannonia (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Bulgar hâkimiyeti 827 ile Ratimir'in bağımsız/vasal statüsü kaynakta net değil. Tablo ca.; Ratimir'in devrilmesi 838. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik eserlere dayanır, eserler açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "donja-panonija-braslav",
+  "ad": "Aşağı Pannonia Dukalığı (Braslav dönemi)",
+  "tur": "dukalik",
+  "bolge": "balkanlar",
+  "f": "0882-01-01",
+  "t": "0896-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "belirsiz (Drava-Sava arası)",
+  "etkin_bolge": "Drava-Sava arası",
+  "sehirler": [
+   "bilinmiyor"
+  ],
+  "ozet": "Frank Arnulf'un 895/896'da Pannonia'yı Braslav'a bıraktığı son bilinen duk; Macar fethi (c. 900-907) sonrası biter.",
+  "oncul": [
+   "balaton-prensligi"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Gračanin 2008, 2016; Bowlus 1995 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Principality_of_Lower_Pannonia (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Tablo ca. 882-896; kronolojide 895/896'da Arnulf'un devri geçiyor (başlangıç 882 ile çelişir: iki kayıt ya 'bölgeyi yönetme' ya 'Arnulf'tan devralma'). t=896; Macar fethi 900/907. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik eserlere dayanır, eserler açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kuber-bulgarlari",
+  "ad": "Kuber'in Bulgarları (Sermesianoi, Keramisyan Ovası)",
+  "tur": "konfederasyon",
+  "bolge": "balkanlar",
+  "f": "0680-01-01",
+  "t": null,
+  "kesinlik": {
+   "f": "onyil",
+   "t": "belirsiz"
+  },
+  "baskent": "Keramisyan Ovası (Pelagonia?)",
+  "etkin_bolge": "Pelagonia/Prilep-Bitola ovası (tartışmalı)",
+  "sehirler": [
+   "Pelagonia (olası)"
+  ],
+  "ozet": "Avarlarca Syrmia'ya yerleştirilen karma Bulgar-Bizans nüfusu 670'ler/680 başında Kuber önderliğinde isyan edip Keramisyan Ovası'na yerleşti; Selanik kuşatması için Miracles of St Demetrius.",
+  "oncul": [
+   "avar"
+  ],
+  "ardil": [
+   "birinci-bulgar"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Curta 2006 / Fine 1983 / Szádeczky-Kardoss [Vikipedi ve arama sonuçlarında önerilen, açılmadı]",
+   "https://en.wikipedia.org/wiki/Kuber (aracı, okunamadı: 404 .../Kuber_(Bulgar); arama özetinden)",
+   "Miracles of Saint Demetrius, kitap II (680'ler) [arama özeti]"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Başlangıç tarih tahmini. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "ic_not": "Yıl bilinmiyor: isyan '670'ler veya 680 başı' (Maurus mührü 684-685). t yok (Kuber'in sonu kaynakta yok; sonradan I. Bulgaristan'a karışmış olabilir). Keramisyan ovasının yeri tartışmalı (Prilep-Bitola-Lerin ovası en yaygın; Mikulčić: Batı Makedonya-Doğu Arnavutluk). Siyasi birim olup olmadığı sınırda: kendi önderi (Kuber) ve toprağı var. Sayfa (Wikipedia Kuber) WebSearch özetinden okundu, WebFetch yapılamadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,

@@ -24,7 +24,7 @@
    "Oxford Dictionary of Byzantium (1991), ilgili madde - OKUNMADI, dogrulama adayi"
   ],
   "dogrulama": "taslak",
-  "ic_not": "t yok (süren özerk yapı); siyasî egemenlik tartışmalı. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "ic_not": "t yok (süren özerk yapı); siyasî egemenlik tartışmalı. Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)). | Tur 2: doğrulanmadı.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -140,25 +140,27 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Bodonitsa",
+  "baskent": "Bodonitsa (Mendenitsa)",
   "etkin_bolge": "Orta Yunanistan",
   "sehirler": [
    "Bodonitsa"
   ],
-  "ozet": "Pallavicini.",
+  "ozet": "Boniface of Montferrat'ın Guy Pallavicini'ye 1204'te verdiği Termopilai-Bodonitsa markizliği; 1248'de Ahaya'ya tâbi; Cornaro (1335'e dek) ve Zorzi ailesi; 1414'te Osmanlı'ya kaybedildi.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "Longnon, L'Empire latin de Constantinople et la principaute de Moree (1949); Bon, La Moree franque (1969) - OKUNMADI, dogrulama adayi"
+   "Miller, William. 'The Marquisate of Boudonitza (1204-1414)'. Journal of Hellenic Studies 28 (1908) [Vikipedi atıf listesi]; Setton, K.M. Athens in the Middle Ages. Variorum, 1975",
+   "https://en.wikipedia.org/wiki/Marquisate_of_Bodonitsa (aracı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "f 1204 ve t 1414 (Zorzi'nin Osmanlı'ya kaybı) Vikipedi/Miller 1908'e göre; resmî sonlanma tarihi kaynakta yok (Nicholas III unvanı 1436'ya dek kullandı). Rakam hafızadan değil sayfadan: taslak değeriyle aynı. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": ""
-  }
+  },
+  "esl_not": "Atlas yok; Ahaya (ahaya-prinkepsligi) 1248'den sonra üst hâkim — ayrı polity olarak kaldı."
  },
  {
   "id": "salona-lordluk",
@@ -171,20 +173,21 @@
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Salona",
+  "baskent": "Salona (Amfissa)",
   "etkin_bolge": "Phokis",
   "sehirler": [
    "Salona"
   ],
-  "ozet": "De la Roche.",
+  "ozet": "Thomas d'Autremencourt'un 1205'te Salona'da kurduğu lordluk; 1311'den Katalan Fadrique hanedanı (1318'den Salona Kontluğu); 1394'te Osmanlı/Navarra karışımı kayıp, 1404-1410 son evre.",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "Longnon, L'Empire latin de Constantinople et la principaute de Moree (1949); Bon, La Moree franque (1969) - OKUNMADI, dogrulama adayi"
+   "Fine, J.V.A. The Late Medieval Balkans. Michigan UP, 1994; Longnon, J. 'Les Autremencourt, seigneurs de Salona en Grèce (1204-1311)'. Bull. Soc. hist. Haute-Picardie 15 (1937); Setton, Athens in the Middle Ages (1975) [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Lordship_of_Salona (aracı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kaynak (Vikipedi): 1205-1210, 1212-1394, 1404-1410 aralıklı. Taslak t=1410 aynen bırakıldı (son evre sonu). Taslak 'De la Roche' ailesi bilgisi YANLIŞTI: ilk lordlar d'Autremencourt (de Stromoncourt), 1311'den Katalanlar. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -215,7 +218,7 @@
    "Longnon, L'Empire latin de Constantinople et la principaute de Moree (1949); Bon, La Moree franque (1969) - OKUNMADI, dogrulama adayi"
   ],
   "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)). | Tur 2'de Thebai için okunabilir akademik kaynak bulunamadı; taslak kalır.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
@@ -227,31 +230,33 @@
   "ad": "Argos ve Nauplia Lordluğu",
   "tur": "lordluk",
   "bolge": "balkanlar",
-  "f": "1205-01-01",
+  "f": "1212-01-01",
   "t": "1388-01-01",
   "kesinlik": {
    "f": "yil",
    "t": "yil"
   },
-  "baskent": "Argos",
+  "baskent": "Nauplia",
   "etkin_bolge": "Argolis",
   "sehirler": [
    "Nauplia"
   ],
-  "ozet": "De la Roche.",
+  "ozet": "Otto de la Roche'un 1212'de Atina lordluğuna bağlı olarak aldığı Argos-Nauplia; 1388'de Venedik'e satıldı (Argos 1394'e dek Bizans elinde).",
   "oncul": [],
   "ardil": [],
   "oncelik": "kucuk",
   "kaynak": [
-   "Longnon, L'Empire latin de Constantinople et la principaute de Moree (1949); Bon, La Moree franque (1969) - OKUNMADI, dogrulama adayi"
+   "Longnon, J. 'The Frankish States in Greece, 1204-1311'; Luttrell, A. 'The Latins of Argos and Nauplia: 1311-1394'. Papers of the British School at Rome 34 (1966); Topping, 'The Morea 1311-1364' (1975); Bon, La Morée franque (1969) [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Lordship_of_Argos_and_Nauplia (aracı)"
   ],
-  "dogrulama": "taslak",
-  "ic_not": "Hafizadan yazildi; web'de okunmadi, tarihler dogrulanmali. MO yillar astronomik (MO N = -(N-1)).",
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Taslak değeri: f 1205, başkent Argos. Kaynak (Vikipedi): lordluk 1212'de kuruldu, 1388'de Venedik'e satıldı, Argos 1394'e dek Bizans'ta. Atina dukaları (de la Roche, Brienne) 1212-1356 arası lord: bağımsız polity mi Atina dukalığının parçası mı kararı veri oturumunda (atina-dukaligi mevcut). Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
   "esleme": {
    "durum": "eksik",
    "mevcut_id": null,
    "not": ""
-  }
+  },
+  "esl_not": "Atlas'ta ayrı kayıt yok; atina-dukaligi ile ilişkili (1212-1356 Atina dukalarının elinde)."
  },
  {
   "id": "rodos-gabalas",
@@ -437,6 +442,465 @@
    "durum": "var-f-t-farkli",
    "mevcut_id": "bosna-kralligi",
    "not": "Atlas f=1180; krallık 1377."
+  }
+ },
+ {
+  "id": "karytaina-baronluk",
+  "ad": "Karytaina Baronluğu",
+  "tur": "baronluk",
+  "bolge": "balkanlar",
+  "f": "1209-01-01",
+  "t": "1320-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Karytaina",
+  "etkin_bolge": "Skorta bölgesi, Arkadia (Peloponnes)",
+  "sehirler": [
+   "Karytaina"
+  ],
+  "ozet": "Ahaya Prinkepsliği'nin 1209 dolayında kurulan baronluğu; 1275/1289'da bölündü/yeniden birleşti; 1320'de Andronikos Asen'in Bizans kuvvetlerince alındı.",
+  "oncul": [
+   "ahaya-prinkepsligi"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Bon, Antoine. La Morée franque. Paris: De Boccard, 1969 [Vikipedi atıf listesi]",
+   "Evergates, Theodore. 'The Origin of the Lords of Karytaina in the Frankish Morea'. Medieval Prosopography (1994) [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Barony_of_Karytaina (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kuruluş 1209 Sapienza Antlaşması'nda ilk tanıklıkla (Renaud de Briel/Brières olası ilk baron). Vikipedi infobox 1275/89 (baronluk bölünmesi) verir; fiilî Frank sonu 1320 (Bizans fethi) alındı. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok; Ahaya vasalı. Veri oturumu ayrı polity mi Ahaya içinde mi karar verir."
+  }
+ },
+ {
+  "id": "veligosti-damala-baronluk",
+  "ad": "Veligosti-Damala Baronluğu",
+  "tur": "baronluk",
+  "bolge": "balkanlar",
+  "f": "1209-01-01",
+  "t": "1300-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yuzyil"
+  },
+  "baskent": "Veligosti, sonra Damala",
+  "etkin_bolge": "Arkadia/Argolis kuzeyi (Peloponnes)",
+  "sehirler": [
+   "Veligosti",
+   "Damala"
+  ],
+  "ozet": "Ahaya'da 1209'da Hugh of Mons ile anılan baronluk; Veligosti c. 1300'de Bizans'a kaybedildi, Damala Zaccaria elinden 1382 sonrası çıktı.",
+  "oncul": [
+   "ahaya-prinkepsligi"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Bon, Antoine. La Morée franque. Paris: De Boccard, 1969 [Vikipedi atıf listesi]",
+   "Topping, Peter. 'The Morea, 1311-1364' ve 'The Morea, 1364-1460', Setton-Hazard (ed.), A History of the Crusades III. Wisconsin UP, 1975",
+   "https://en.wikipedia.org/wiki/Barony_of_Veligosti (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kaynak (Vikipedi): 'c. 1300 veya 1380'ler' — iki bitiş belirsizliği; t=1300 (Veligosti kaybı) seçildi, Damala kalıntısı 1380'lere dek sürmüş olabilir. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "akova-matagrifon-baronluk",
+  "ad": "Akova (Matagrifon) Baronluğu",
+  "tur": "baronluk",
+  "bolge": "balkanlar",
+  "f": "1209-01-01",
+  "t": "1320-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Akova (Matagrifon)",
+  "etkin_bolge": "Tropaia/Arkadia bölgesi (Peloponnes)",
+  "sehirler": [
+   "Akova"
+  ],
+  "ozet": "de Rosières ailesinin elindeki Ahaya baronluğu; 1320'de Bizans'a geçti.",
+  "oncul": [
+   "ahaya-prinkepsligi"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Bon, Antoine. La Morée franque. Paris: De Boccard, 1969 [Vikipedi atıf listesi]",
+   "Miller, William. Essays on the Latin Orient. Cambridge UP, 1921 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Barony_of_Akova (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "c. 1209-1320 Vikipedi infobox/gövde; ilk baron Walter of Rosières. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "patras-baronluk",
+  "ad": "Patras Baronluğu",
+  "tur": "baronluk",
+  "bolge": "balkanlar",
+  "f": "1209-01-01",
+  "t": "1429-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Patras",
+  "etkin_bolge": "Kuzeybatı Peloponnes",
+  "sehirler": [
+   "Patras"
+  ],
+  "ozet": "Aleman ailesinin 1209 dolayında kurduğu Ahaya baronluğu; Latin başpiskoposluk fiilen bağımsız hareket etti; 1429/30'da Bizans Mora Despotluğu'na geçti.",
+  "oncul": [
+   "ahaya-prinkepsligi"
+  ],
+  "ardil": [
+   "mora-despotlugu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Bon, Antoine. La Morée franque. Paris: De Boccard, 1969 [Vikipedi atıf listesi]",
+   "Schabel, Chris. 'Antelm the Nasty, First Latin Archbishop of Patras'. Brill, 2008 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Barony_of_Patras (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "1429/30 çelişkisi: Vikipedi '1429-30'; t=1429-01-01. Başpiskoposluk-baron ayrımı (Latin Kilisesi) polity sınırını bulandırır. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "chalandritsa-baronluk",
+  "ad": "Chalandritsa Baronluğu",
+  "tur": "baronluk",
+  "bolge": "balkanlar",
+  "f": "1209-01-01",
+  "t": "1429-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Chalandritsa",
+  "etkin_bolge": "Patras güneyi (Kuzey Peloponnes)",
+  "sehirler": [
+   "Chalandritsa"
+  ],
+  "ozet": "Dramelay ailesinin baronluğu; sonra Ghisi ve Zaccaria (Martino, Centurione); 1429'da Thomas Palaiologos'a devredildi.",
+  "oncul": [
+   "ahaya-prinkepsligi"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Bon, Antoine. La Morée franque. Paris: De Boccard, 1969 [Vikipedi atıf listesi]",
+   "Topping, Peter. 'The Morea, 1311-1364' ve 'The Morea, 1364-1460', Setton-Hazard (ed.), A History of the Crusades III. Wisconsin UP, 1975",
+   "https://en.wikipedia.org/wiki/Barony_of_Chalandritsa (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "1209-1429 Vikipedi; Zaccaria 1361'de tamamını elinde tuttu. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "vostitsa-baronluk",
+  "ad": "Vostitsa Baronluğu",
+  "tur": "baronluk",
+  "bolge": "balkanlar",
+  "f": "1209-01-01",
+  "t": "1428-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Vostitsa (Aigio)",
+  "etkin_bolge": "Kuzey Peloponnes kıyısı",
+  "sehirler": [
+   "Vostitsa (Aigio)"
+  ],
+  "ozet": "Ahaya baronluğu, 1209-1428.",
+  "oncul": [
+   "ahaya-prinkepsligi"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Bon, Antoine. La Morée franque. Paris: De Boccard, 1969 [Vikipedi atıf listesi]",
+   "Loenertz, R.-J. Les Ghisi, dynastes vénitiens dans l'Archipel (1207-1390). 1975 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Barony_of_Vostitsa (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Yalnızca tarih aralığı Vikipedi'den; hükümdar zinciri okunmadı. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "kalavryta-baronluk",
+  "ad": "Kalavryta Baronluğu",
+  "tur": "baronluk",
+  "bolge": "balkanlar",
+  "f": "1209-01-01",
+  "t": "1272-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Kalavryta",
+  "etkin_bolge": "Kuzey Peloponnes dağlık iç",
+  "sehirler": [
+   "Kalavryta"
+  ],
+  "ozet": "Ahaya baronluğu; 1270'lerin başında Bizans'a düştü (1278 Venedik belgesi Bizans elinde gösterir).",
+  "oncul": [
+   "ahaya-prinkepsligi"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Bon, Antoine. La Morée franque. Paris: De Boccard, 1969 [Vikipedi atıf listesi]",
+   "Miller, William. Essays on the Latin Orient. Cambridge UP, 1921 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Barony_of_Kalavryta (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "t=1272: 'muhtemelen 1270'lerin başı'; kesin yıl yok, onyıl hassasiyetli. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "nikli-baronluk",
+  "ad": "Nikli Baronluğu",
+  "tur": "baronluk",
+  "bolge": "balkanlar",
+  "f": "1209-01-01",
+  "t": "1302-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Nikli (Tegea)",
+  "etkin_bolge": "Arkadia (Peloponnes)",
+  "sehirler": [
+   "Nikli"
+  ],
+  "ozet": "Morlay ailesinin Ahaya baronluğu; 1296/1302'de Bizans fethi.",
+  "oncul": [
+   "ahaya-prinkepsligi"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Bon, Antoine. La Morée franque. Paris: De Boccard, 1969 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Barony_of_Nikli (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kaynak 1296/1302 verir; 1302'de kesin Bizans elinde: t=1302. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "geraki-baronluk",
+  "ad": "Geraki Baronluğu",
+  "tur": "baronluk",
+  "bolge": "balkanlar",
+  "f": "1209-01-01",
+  "t": "1269-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "onyil"
+  },
+  "baskent": "Geraki",
+  "etkin_bolge": "Lakonya (Peloponnes)",
+  "sehirler": [
+   "Geraki"
+  ],
+  "ozet": "Ahaya baronluğu; 1260'larda (c. 1268-70) Bizans'a geçti.",
+  "oncul": [
+   "ahaya-prinkepsligi"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Bon, Antoine. La Morée franque. Paris: De Boccard, 1969 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Barony_of_Geraki (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Kaynak: 'tam bilinmiyor, muhtemelen 1268-70'. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "arkadia-baronluk",
+  "ad": "Arkadia (Kyparissia) Baronluğu",
+  "tur": "baronluk",
+  "bolge": "balkanlar",
+  "f": "1261-01-01",
+  "t": "1432-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Arkadia (Kyparissia)",
+  "etkin_bolge": "Batı Peloponnes",
+  "sehirler": [
+   "Kyparissia"
+  ],
+  "ozet": "II. William de Villehardouin'in 1261 sonrası Aulnay'lı Vilain'e verdiği baronluk; Zaccaria'ya 1388'de geçti; Thomas Palaiologos 1432'de ilhak etti.",
+  "oncul": [
+   "ahaya-prinkepsligi"
+  ],
+  "ardil": [
+   "mora-despotlugu"
+  ],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Bon, Antoine. La Morée franque. Paris: De Boccard, 1969 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Barony_of_Arcadia (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Yalnız Vikipedi. 'Yaklaşık 1261' kesinlik: yil. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "navigajoso-lemnos",
+  "ad": "Lemnos Navigajoso Lordluğu",
+  "tur": "lordluk",
+  "bolge": "balkanlar",
+  "f": "1207-01-01",
+  "t": "1278-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Kastro (Myrina)",
+  "etkin_bolge": "Lemnos Adası",
+  "sehirler": [
+   "Kastro",
+   "Moudros",
+   "Kotsinos"
+  ],
+  "ozet": "Filocalo Navigajoso'nun Latin İmparatorluğu megadükü olarak 1207'de aldığı Lemnos; 1214'te miras bölüştü; aile egemenliği 1278'e dek sürdü.",
+  "oncul": [
+   "latin-imparatorlugu"
+  ],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Saint-Guillain, Guillaume. 'Deux îles grecques au temps de l'Empire latin: Andros et Lemnos au XIIIe siècle'. MEFRM 113/1 (2001): 579-620 [Vikipedi atıf listesi]",
+   "Hendrickx, Benjamin. 'Les duchés de l'Empire latin de Constantinople après 1204'. RBPH 93/2 (2015): 303-328 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Filocalo_Navigajoso (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Filocalo 1207-1214; aile 1278'e dek. Bitiş (1278) tek aracı sayfadan; Saint-Guillain 2001 doğrudan açılıp okunmalı. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "ghisi-tinos-mykonos",
+  "ad": "Ghisi Lordluğu (Tinos, Mykonos, Kuzey Sporadlar)",
+  "tur": "lordluk",
+  "bolge": "balkanlar",
+  "f": "1207-01-01",
+  "t": "1390-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Tinos",
+  "etkin_bolge": "Tinos, Mykonos, Skiathos, Skopelos",
+  "sehirler": [
+   "Tinos",
+   "Mykonos",
+   "Skopelos"
+  ],
+  "ozet": "Andrea ve Geremia Ghisi'nin Naxos dükünden bağımsız (doğrudan Latin imparatoruna bağlı) Kyklades-Sporades lordluğu; 1390'da Venedik'e geçti.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Loenertz, R.-J. Les Ghisi, dynastes vénitiens dans l'Archipel (1207-1390). 1975 [Vikipedi atıf listesi]",
+   "Setton, K.M. The Papacy and the Levant I (1976) s. 19 n. 78 [Vikipedi atıf listesi]",
+   "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago (aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Duchy of the Archipelago maddesi Ghisi'nin doğrudan imparatora bağlı olduğunu ve Mykonos/Tinos'un 1390'da Venedik'e geçtiğini yazar; 1207 başlangıcı Loenertz başlığından (1207-1390). Ghisi bağımsızlığı tartışmalı (Longnon vasal sayar). Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": ""
+  }
+ },
+ {
+  "id": "venedik-dalmacya",
+  "ad": "Venedik Dalmaçyası (Zara ve Dalmaçya şehirleri)",
+  "tur": "somurge",
+  "bolge": "balkanlar",
+  "f": "1000-01-01",
+  "t": "1358-01-01",
+  "kesinlik": {
+   "f": "yil",
+   "t": "yil"
+  },
+  "baskent": "Zara (Zadar)",
+  "etkin_bolge": "Dalmaçya kıyı şehirleri (Zara, Trogir, Split)",
+  "sehirler": [
+   "Zara",
+   "Trogir",
+   "Split",
+   "Šibenik"
+  ],
+  "ozet": "Doge II. Pietro Orseolo'nun Dalmaçya seferinden (998/1000) 1358 Zara Antlaşması'na dek aralıklı Venedik hâkimiyeti; Macar-Hırvat (1105/1114-1116, 1161, 1183-1202, 1242-43, 1357-58) ve IV. Haçlı (1202) kesintileriyle.",
+  "oncul": [],
+  "ardil": [],
+  "oncelik": "kucuk",
+  "kaynak": [
+   "Zadar maddesi (Vikipedi, aracı); aktarılan akademik atıflar: Klaić, Nada; Petricioli, Ivo [eser künyesi okunmadı]",
+   "Ragusa maddesi (Vikipedi, aracı)"
+  ],
+  "dogrulama": "kismen-okundu",
+  "ic_not": "Zadar maddesi: 998 (Orseolo himayesi), 1049-50 isyan, 1105/1114 Macar, 1116-18 Venedik, 1161 kısa Macar, 1183 Béla III, 1202 IV. Haçlı ele geçirmesi, 1242-43 isyan ve Venedik fethi, 1357-58 Macar fethi ve Zara Antlaşması (1358). Kesintiler çok; tek kayıt için t=1358 (Venedik iddialarının resmî sonu). 1409 geri dönüş (Ladislas'ın satışı) E dilimi dışı. Venedik Dalmaçyası tek polity mi (yönetim: Dalmaçya dükü) yoksa şehir bazlı mı karar veri oturumunda; Dubrovnik ayrı (dubrovnik mevcut). Akademik kaynak okunmadı: Venedik/Dalmaçya için Fine, Early Medieval Balkans (1983) okunmalı. Tur 2: Vikipedi maddesi bu oturumda okundu (yalnız aracı); tarihler maddenin atıf verdiği akademik esere dayanır, eserin kendisi açılmadı => kismen-okundu.",
+  "esleme": {
+   "durum": "eksik",
+   "mevcut_id": null,
+   "not": "Atlas'ta yok; dubrovnik ayrı polity."
   }
  }
 ]
