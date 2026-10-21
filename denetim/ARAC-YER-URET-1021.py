@@ -86,6 +86,11 @@ for f in sorted(glob.glob(os.path.join(KL, "parti_*_sonuc.json")), key=lambda p:
                 if km(pt, p) <= 3:
                     ceki = (mad, round(km(pt, p), 2), "3km")
                     break
+        if not ceki and not bolge_mi:
+            for a in aday:
+                if a.get("tur") != "bolge" and a.get("lat") is not None and km(pt, (float(a["lat"]), float(a["lon"]))) <= 3:
+                    ceki = (a["ad"], round(km(pt, (float(a["lat"]), float(a["lon"]))), 2), "parti-3km")
+                    break
         if ceki or N(r["ad"]) in gorulen:
             rapor["mukerrer"].append({"ad": r["ad"], "atlas": ceki[0] if ceki else "(parti içi)", "km": ceki[1] if ceki else 0, "neden": ceki[2] if ceki else "parti"})
             continue

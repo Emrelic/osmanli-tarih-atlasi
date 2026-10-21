@@ -58,54 +58,6 @@
   "dosya": "yerlesimler_once1281_yt_afrika_levant.js"
  },
  {
-  "ad": "Peluzyum (Pelusium)",
-  "kronoloji_adi": "Peluzyum",
-  "lat": 31.0426,
-  "lon": 32.544,
-  "devlet_bolgeleri": [
-   "arabistan",
-   "balkanlar"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_afrika_levant.js"
- },
- {
-  "ad": "Pelusium",
-  "kronoloji_adi": "Pelusium",
-  "lat": 31.0426,
-  "lon": 32.544,
-  "devlet_bolgeleri": [
-   "arabistan",
-   "balkanlar"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_afrika_levant.js"
- },
- {
-  "ad": "Babilon Kalesi (Babylon Fortress)",
-  "kronoloji_adi": "Babilon Kalesi",
-  "lat": 30.0058,
-  "lon": 31.2301,
-  "devlet_bolgeleri": [
-   "arabistan",
-   "balkanlar"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_afrika_levant.js"
- },
- {
-  "ad": "Babilon (Babylon Fortress)",
-  "kronoloji_adi": "Babilon",
-  "lat": 30.0058,
-  "lon": 31.2301,
-  "devlet_bolgeleri": [
-   "arabistan",
-   "balkanlar"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_afrika_levant.js"
- },
- {
   "ad": "Hatra (Al Ḩaḑar)",
   "kronoloji_adi": "Hatra",
   "lat": 35.587884,
@@ -206,17 +158,6 @@
   "devlet_bolgeleri": [
    "iran",
    "italya"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
- },
- {
-  "ad": "Yakapınar",
-  "kronoloji_adi": "Yakapınar",
-  "lat": 36.9580404953,
-  "lon": 35.6223738026,
-  "devlet_bolgeleri": [
-   "anadolu"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
@@ -341,18 +282,6 @@
   "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
  },
  {
-  "ad": "Silvan",
-  "kronoloji_adi": "Silvan",
-  "lat": 38.1428,
-  "lon": 41.0033,
-  "devlet_bolgeleri": [
-   "anadolu",
-   "iran"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
- },
- {
   "ad": "Amorion (Amorium)",
   "kronoloji_adi": "Amorion",
   "lat": 39.0202,
@@ -372,29 +301,6 @@
   "devlet_bolgeleri": [
    "anadolu",
    "mezopotamya"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
- },
- {
-  "ad": "Carrhae (Harran)",
-  "kronoloji_adi": "Carrhae",
-  "lat": 36.8636,
-  "lon": 39.0307,
-  "devlet_bolgeleri": [
-   "italya"
-  ],
-  "durum": "UYUMSUZ",
-  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
- },
- {
-  "ad": "Barbalissus",
-  "kronoloji_adi": "Barbalissus",
-  "lat": 35.987,
-  "lon": 38.111,
-  "devlet_bolgeleri": [
-   "iran",
-   "italya"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
@@ -1161,18 +1067,6 @@
   "dosya": "yerlesimler_once1281_yt_avrupa.js"
  },
  {
-  "ad": "Zülpich",
-  "kronoloji_adi": "Zülpich",
-  "lat": 50.693,
-  "lon": 6.651,
-  "devlet_bolgeleri": [
-   "bati-avrupa",
-   "orta-avrupa"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_avrupa.js"
- },
- {
   "ad": "Gainsborough",
   "kronoloji_adi": "Gainsborough",
   "lat": 53.39,
@@ -1238,17 +1132,6 @@
   "devlet_bolgeleri": [
    "bati-avrupa",
    "italya"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_avrupa.js"
- },
- {
-  "ad": "Saint-Maurice",
-  "kronoloji_adi": "Saint-Maurice",
-  "lat": 46.2085,
-  "lon": 7.0044,
-  "devlet_bolgeleri": [
-   "bati-avrupa"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_avrupa.js"
@@ -1772,30 +1655,6 @@
   "dosya": "yerlesimler_once1281_yt_hint.js"
  },
  {
-  "ad": "Koço (Gaochang = Qocho)",
-  "kronoloji_adi": "Koço",
-  "lat": 42.855,
-  "lon": 89.5286,
-  "devlet_bolgeleri": [
-   "orta-asya",
-   "sibirya-bozkir"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_hint.js"
- },
- {
-  "ad": "Kao-ch'ang (Gaochang = Qocho)",
-  "kronoloji_adi": "Kao-ch'ang",
-  "lat": 42.855,
-  "lon": 89.5286,
-  "devlet_bolgeleri": [
-   "orta-asya",
-   "sibirya-bozkir"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_hint.js"
- },
- {
   "ad": "Tibet",
   "kronoloji_adi": "Tibet",
   "lat": 33.375,
@@ -2122,6 +1981,17 @@
   "kronoloji_adi": "Dînever",
   "lat": 34.617525,
   "lon": 47.462217,
+  "devlet_bolgeleri": [
+   "iran"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Hulvân (Hulwan)",
+  "kronoloji_adi": "Hulvân",
+  "lat": 34.465114,
+  "lon": 45.85589,
   "devlet_bolgeleri": [
    "iran"
   ],

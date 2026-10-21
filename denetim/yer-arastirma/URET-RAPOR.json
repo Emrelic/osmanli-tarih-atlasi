@@ -118,6 +118,12 @@
    "neden": "ad"
   },
   {
+   "ad": "Yakapınar",
+   "atlas": "Misis",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
    "ad": "Şanlıurfa",
    "atlas": "Urfa",
    "km": 1.4,
@@ -125,15 +131,15 @@
   },
   {
    "ad": "Hatra",
-   "atlas": "(parti içi)",
-   "km": 0,
-   "neden": "parti"
+   "atlas": "Hatra",
+   "km": 0.0,
+   "neden": "parti-3km"
   },
   {
    "ad": "Harran",
-   "atlas": "(parti içi)",
-   "km": 0,
-   "neden": "parti"
+   "atlas": "Harran",
+   "km": 0.05,
+   "neden": "parti-3km"
   },
   {
    "ad": "Ekbatana",
@@ -238,6 +244,12 @@
    "neden": "3km"
   },
   {
+   "ad": "Silvan",
+   "atlas": "Meyyâfârikīn",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
    "ad": "Tancavur",
    "atlas": "Tancûr (Thanjavur)",
    "km": 0.53,
@@ -310,16 +322,58 @@
    "neden": "3km"
   },
   {
+   "ad": "Zülpich",
+   "atlas": "Tolbiacum",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
    "ad": "Yesrib",
    "atlas": "Medine",
    "km": 0.4,
    "neden": "ad"
   },
   {
+   "ad": "Peluzyum",
+   "atlas": "Feremâ",
+   "km": 0.3,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Pelusium",
+   "atlas": "Feremâ",
+   "km": 0.3,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Babilon Kalesi",
+   "atlas": "Eski Kahire",
+   "km": 0.18,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Babilon",
+   "atlas": "Eski Kahire",
+   "km": 0.18,
+   "neden": "parti-3km"
+  },
+  {
    "ad": "Partav",
    "atlas": "Berde (Karabağ)",
    "km": 0.9,
    "neden": "3km"
+  },
+  {
+   "ad": "Koço",
+   "atlas": "Gaochang",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Kao-ch'ang",
+   "atlas": "Gaochang",
+   "km": 0.0,
+   "neden": "parti-3km"
   },
   {
    "ad": "Tmutorakan",
@@ -376,6 +430,12 @@
    "neden": "ad"
   },
   {
+   "ad": "Saint-Maurice",
+   "atlas": "Saint-Maurice d'Agaune",
+   "km": 0.61,
+   "neden": "parti-3km"
+  },
+  {
    "ad": "Tingis",
    "atlas": "Tanca",
    "km": 1.29,
@@ -398,6 +458,18 @@
    "atlas": "Erbil",
    "km": 0.0,
    "neden": "ad"
+  },
+  {
+   "ad": "Carrhae",
+   "atlas": "Harran",
+   "km": 0.0,
+   "neden": "parti-3km"
+  },
+  {
+   "ad": "Barbalissus",
+   "atlas": "Bâlis",
+   "km": 0.01,
+   "neden": "parti-3km"
   },
   {
    "ad": "Vagarşapat",
@@ -475,18 +547,18 @@
  "yazilmadi": {
   "yok": 794,
   "belirsiz": 128,
-  "tek_tanik": 354,
+  "tek_tanik": 399,
   "dogal": 10,
   "bolge": 43,
   "bulunamadi": 12,
   "tek_kaynak": 55,
   "celiski": 20,
   "ikinci_tanik_yok": 18,
-  "bolge_adi": 50,
+  "bolge_adi": 55,
   "?": 87,
-  "cozulemedi": 47
+  "cozulemedi": 50
  },
- "yazilan": 198,
+ "yazilan": 187,
  "haric": [
   {
    "ad": "Lade",
