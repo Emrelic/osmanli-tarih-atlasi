@@ -306,7 +306,8 @@ def main():
                 f.write("{ " + ", ".join("%s:%s" % (k, jso(v)) for k, v in r.items()) + " },\n")
             f.write("];\n")
         print("yerlesimler_mo_zincir.js", len(yeni), "nokta")
-    json.dump(sumer_json, open(os.path.join(ARA, "sumer-zincir-bekleyen.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    if sumer_json:                                  # Sümer dosyasında s: zaten uygulanmışsa (boş sözlük) bekleyen kaydı ezilmez
+        json.dump(sumer_json, open(os.path.join(ARA, "sumer-zincir-bekleyen.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     if "--sumer-uygula" in sys.argv:
         open(sumer_yol, "w", encoding="utf-8", newline="").write(sumer)
         print("Sümer dosyasına s: YAZILDI")
@@ -377,7 +378,8 @@ def main():
                 uyan = [(e, f) for (e, f) in uyan if e.get("yer_id") in (None, yid)]
             if uyan:
                 e, f = min(uyan, key=lambda ef: abs(gn(t) - gn(ef[0]["t"])))
-                e["yer"] = ((e.get("yer") or "") + " / " + " / ".join(eksik)).strip(" /")
+                mevcut_yer = [x.strip() for x in (e.get("yer") or "").split(" / ") if x.strip()]
+                e["yer"] = " / ".join(mevcut_yer + [x for x in eksik if x not in mevcut_yer])    # idempotent: aynı ad iki kez eklenmez
                 if yid:
                     e["yer_id"] = yid
                 if f is not None:
