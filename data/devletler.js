@@ -22133,4 +22133,18 @@ window.DEVLETLER = [
     { t:"-0887-01-01", tur:"kurulus", b:"Tonga Lapita iskânı (Nukuleka): ilk tarihli kanıt", kaynak:"Burley D, Edinborough K, Weisler M, Zhao J-X 2015, 'Bayesian modeling and chronological precision for Polynesian settlement of Tonga', PLoS ONE 10(3): e0120795 (Ingilizce, PMC acik metin); U/Th 11-36 mercan eseri (Burley, Weisler," },
     { t:"-0742-01-01", tur:"son", b:"Tonga Lapita iskânı (Nukuleka): son kaynaklı uç", kaynak:"Burley D, Edinborough K, Weisler M, Zhao J-X 2015, 'Bayesian modeling and chronological precision for Polynesian settlement of Tonga', PLoS ONE 10(3): e0120795 (Ingilizce, PMC acik metin); U/Th 11-36 mercan eseri (Burley, Weisler," }
   ] },
+
+// =========== ARKEOLOJİ KÜLTÜRLERİ 2 — yerleşim sahipleri (VERI-MO-ARKEO 21 Ekim 2026; denetim/arkeoloji_yerlesim_1020.py üretir) ===========
+{ id:"khok-phanom-di-neolitik", ad:"Khok Phanom Di Neolitiği (Orta Tayland kıyısı)", tur:"kultur", bolge:"guneydogu-asya", f:"-1999-01-01", t:"-1499-01-01", baskent:"yok (kültür; merkez tanımsız)", ozet:"Arkeolojik KÜLTÜR/DÖNEM — siyasî devlet değil, sahip kavramı yok; haritada boyanmaz (veri-yok). f/t = üye yerleşimlerin kaynaklı kur/bit uçları (Khok Phanom Di). f = ilk tarihli kanıt, t = üyelerin son kaynaklı ucu — kültürün gerçek başlangıç/bitişi DEĞİL.", kaynak:"Higham C., Higham T., Douka K. 2019, 'Dating the Bronze Age of Southeast Asia. Why does it matter?', Journal of Indo-Pacific Archaeology 43: 43-67 (Sonuç bölümü)",
+  kronoloji:[
+    { t:"-1999-01-01", tur:"kurulus", b:"Khok Phanom Di Neolitiği (Orta Tayland kıyısı): ilk tarihli kanıt", kaynak:"Higham C., Higham T., Douka K. 2019, 'Dating the Bronze Age of Southeast Asia. Why does it matter?', Journal of Indo-Pacific Archaeology 43: 43-67 (Sonuç bölümü)" },
+    { t:"-1499-01-01", tur:"son", b:"Khok Phanom Di Neolitiği (Orta Tayland kıyısı): son kaynaklı uç", kaynak:"Higham C., Higham T., Douka K. 2019, 'Dating the Bronze Age of Southeast Asia. Why does it matter?', Journal of Indo-Pacific Archaeology 43: 43-67 (Sonuç bölümü)" }
+  ] },
+
+// =========== ARKEOLOJİ KÜLTÜRLERİ 2 — yerleşim sahipleri (VERI-MO-ARKEO 21 Ekim 2026; denetim/arkeoloji_yerlesim_1020.py üretir) ===========
+{ id:"gobero-kultur", ad:"Gobero Holosen yerleşimi (Kiffian–Tenerian, Ténéré)", tur:"kultur", bolge:"sahra", f:"-7699-01-01", t:"-2834-01-01", baskent:"yok (kültür; merkez tanımsız)", ozet:"Arkeolojik KÜLTÜR/DÖNEM — siyasî devlet değil, sahip kavramı yok; haritada boyanmaz (veri-yok). f/t = üye yerleşimlerin kaynaklı kur/bit uçları (Gobero (Tenere cemberi, Nijer)). f = ilk tarihli kanıt, t = üyelerin son kaynaklı ucu — kültürün gerçek başlangıç/bitişi DEĞİL.", kaynak:"Sereno vd. 2008, Lakeside cemeteries in the Sahara: 5000 years of Holocene population and environmental change, PLoS ONE 3(8):e2995, Faz 2 'Early Holocene Occupation', Tablo 2 (Cal BC 95%); kalibre 14C, OSL tarihleri ayri (kalibre",
+  kronoloji:[
+    { t:"-7699-01-01", tur:"kurulus", b:"Gobero Holosen yerleşimi (Kiffian–Tenerian, Ténéré): ilk tarihli kanıt", kaynak:"Sereno vd. 2008, Lakeside cemeteries in the Sahara: 5000 years of Holocene population and environmental change, PLoS ONE 3(8):e2995, Faz 2 'Early Holocene Occupation', Tablo 2 (Cal BC 95%); kalibre 14C, OSL tarihleri ayri (kalibre" },
+    { t:"-2834-01-01", tur:"son", b:"Gobero Holosen yerleşimi (Kiffian–Tenerian, Ténéré): son kaynaklı uç", kaynak:"Sereno vd. 2008, Lakeside cemeteries in the Sahara: 5000 years of Holocene population and environmental change, PLoS ONE 3(8):e2995, Faz 2 'Early Holocene Occupation', Tablo 2 (Cal BC 95%); kalibre 14C, OSL tarihleri ayri (kalibre" }
+  ] },
 ];

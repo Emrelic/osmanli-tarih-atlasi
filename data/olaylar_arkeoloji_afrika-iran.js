@@ -21,7 +21,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "k": "fetih",
   "b": "Babil'in Kyros'a geçişi: başlar",
   "gun": "MÖ 539",
-  "yer": "Bābili / Sippar / Uruk / Ur / Ur / Ur / Ur",
+  "yer": "Bābili / Sippar / Uruk / Ur",
   "d": "Nabonidus'un 17. yilinda (539/538) Ugbaru ve Kyros'un ordusu savassiz Babil'e girer; Kyros 3 Arahsamna'da sehre girer.",
   "kaynak": "Grayson, ABC 7 (Nabonidus Chronicle), col. iii.18; Livius.org · https://livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/",
   "kesinlik": "yil",

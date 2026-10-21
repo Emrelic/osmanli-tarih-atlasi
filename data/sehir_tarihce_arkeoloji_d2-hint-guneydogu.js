@@ -50,6 +50,60 @@ window.SEHIR_TARIHCE_ARKEOLOJI_D2_HINT_GUNEYDOGU = [
   "ic_not": "ARALIK→ORTA NOKTA: MÖ 1545–1475 (kaynağın verdiği uçlar); orta nokta MÖ 1510 = astronomik -1509. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz."
  },
  {
+  "id": "khok-phanom-di",
+  "ad": "Khok Phanom Di",
+  "atlas_ad": null,
+  "lat": 13.58,
+  "lon": 101.14,
+  "kat1900": 3,
+  "adlar": [
+   "Khok Phanom Di",
+   "Khok Phanom Di (Chonburi, Tayland)"
+  ],
+  "konum_teyit": "KOORDİNAT TEYİTLİ 20 Ekim 2026: Wikidata Q1740652 (P625) https://www.wikidata.org/wiki/Q1740652 (13.5800,101.1400) ↔ OSM Nominatim Khok Phanom Di Chonburi (attraction) https://nominatim.openstreetmap.org/ (13.5851,101.1403) · Koordinat YER-TANIMA devrinden (5-mo-devir.json, 21 Ekim 2026), ≥2 bağımsız tanık; seçilen nokta 13.5800,101.1400. Tha Kham, Phanat Nikhom, Chonburi",
+  "ilk": {
+   "t": "-1999-01-01",
+   "gun": "MÖ 2000 civarı",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "Higham C., Higham T., Douka K. 2019, 'Dating the Bronze Age of Southeast Asia. Why does it matter?', Journal of Indo-Pacific Archaeology 43: 43-67 (Sonuç bölümü)",
+   "kaynak_turu": "arkeoloji"
+  },
+  "kur": null,
+  "ark": {
+   "t": "-1999-01-01",
+   "gun": "MÖ 2000 civarı",
+   "kesinlik": "yuzyil",
+   "kaynak": "Higham C., Higham T., Douka K. 2019, 'Dating the Bronze Age of Southeast Asia. Why does it matter?', Journal of Indo-Pacific Archaeology 43: 43-67 (Sonuç bölümü)"
+  },
+  "bit": {
+   "t": "-1499-01-01",
+   "gun": "MÖ 1500 civarı",
+   "kesinlik": "yuzyil",
+   "kaynak": "Higham C., Higham T., Douka K. 2019, 'Dating the Bronze Age of Southeast Asia. Why does it matter?', Journal of Indo-Pacific Archaeology 43: 43-67 (Sonuç bölümü)"
+  },
+  "sahip": [
+   {
+    "f": "-1999-01-01",
+    "t": "-1499-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Higham C., Higham T., Douka K. 2019, 'Dating the Bronze Age of Southeast Asia. Why does it matter?', Journal of Indo-Pacific Archaeology 43: 43-67 (Sonuç bölümü)",
+    "ic_not": "Devlet öncesi/kültür dönemi: siyasî sahip kavramı YOK → __BOSLUK__ = «sahip kavramı henüz yok», «kültürsüz» DEĞİL. bos:\"veri-yok\" (veri yok ≠ kimse yok; MÖ katmanı beyanı). Kaynaktaki kültür/dönem adı: Khok Phanom Di Neolitiği (yerel adlandırma)."
+   },
+   {
+    "f": "-1499-01-01",
+    "t": "1900-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı",
+    "ic_not": "Bu bölge oturumunun penceresi dışı: yerin sonraki durumu ARAŞTIRILMADI — uydurma süreklilik/kesinti yazılmaz."
+   }
+  ],
+  "olay": [],
+  "ic_not": "TEK DEĞER MÖ 2000 (kaynak aralık vermiyor) → orta nokta uygulanmaz."
+ },
+ {
   "id": "ban-non-wat",
   "ad": "Ban Non Wat",
   "atlas_ad": null,

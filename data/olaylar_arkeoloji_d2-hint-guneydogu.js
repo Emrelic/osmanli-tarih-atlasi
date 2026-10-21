@@ -6,7 +6,7 @@ window.OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU = [
   "k": "ilk_anilis",
   "b": "Anuradhapura - en erken tarihli Brahmi yazısı: Brahmi yazılı çanak çömleğin en erken tarihleri",
   "gun": "MÖ 400 civarı",
-  "yer": "Anuradhapura Salgaha Watta 2 (Citadel) - Brahmi sherds / Aguada Fénix / El Mirador / La Venta (Olmek) / Nakbe",
+  "yer": "Anuradhapura Salgaha Watta 2 (Citadel) - Brahmi sherds / Aguada Fénix / El Mirador / La Venta (Olmek) / Nakbe / Ceibal (Seibal, Pasion, Guatemala)",
   "d": "Anuradhapura kazısında bulunan Brahmi yazılı çanak parçaları, Hint alt kıtasında yazının en erken tarihli örnekleridir (4. yüzyıl başı MÖ).",
   "kaynak": "Coningham R.A.E., Allchin F.R., Batt C.M., Lucy D. 1996, 'Passage to India? Anuradhapura and the Early Use of the Brahmi Script', Cambridge Archaeological Journal 6(1): 73-97, doi:10.1017/S0959774300001608 (yalnız özet okundu) · https://doi.org/10.1017/S0959774300001608",
   "kesinlik": "yuzyil",

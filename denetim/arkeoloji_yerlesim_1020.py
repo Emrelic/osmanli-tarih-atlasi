@@ -151,6 +151,12 @@ NEW = {
  "la-blanca-formatif": dict(ad="La Blanca (Pasifik kıyısı Guatemala) Orta Formatif anıtsal merkez", bolge="orta-amerika", uyeler=["la-blanca-san-marcos-conchas"]),
  "kaminaljuyu-providencia": dict(ad="Kaminaljuyú Providencia evresi", bolge="orta-amerika", uyeler=["kaminaljuyu-providencia-fazi"]),
  "tonga-lapita": dict(ad="Tonga Lapita iskânı (Nukuleka)", bolge="okyanusya", uyeler=["nukuleka-tonga-lapita"]),
+ "monte-verde-kultur": dict(ad="Monte Verde II (Güney Şili, Pleistosen sonu yerleşimi)", bolge="guney-amerika", uyeler=["monte-verde-ii"]),
+ "gobero-kultur": dict(ad="Gobero Holosen yerleşimi (Kiffian–Tenerian, Ténéré)", bolge="sahra", uyeler=["gobero-nijer"]),
+ "anau-ia-kultur": dict(ad="Anau IA (Namazga öncesi/Meana evresi, Kopet Dağ)", bolge="orta-asya", uyeler=["anau-ia-meana"]),
+ "yuchanyan-kultur": dict(ad="Yuchanyan Mağarası toplulukları (Hunan)", bolge="dogu-asya", uyeler=["yuchanyan-magarasi"]),
+ "ban-chiang-kultur": dict(ad="Ban Chiang Kültürü (Kuzeydoğu Tayland)", bolge="guneydogu-asya", uyeler=["ban-chiang"]),
+ "bhirrana-hakra": dict(ad="Bhirrana / Hakra evresi (Haryana, Harappa öncesi)", bolge="guney-asya", uyeler=["bhirrana"]),
  "guney-hint-neolitik-megalitik": dict(ad="Güney Hint Neolitiği → Megalitik geçiş (Sanganakallu-Kupgal)", bolge="guney-asya", uyeler=["sanganakallu-kupgal"]),
 }
 
@@ -194,18 +200,22 @@ TABLO = {
  "kaminaljuyu-providencia-fazi": ["kaminaljuyu-providencia"], "nukuleka-tonga-lapita": ["tonga-lapita"],
  "dholavira": ["erken-harappa", "harappa", "gec-harappa"], "lothal": ["harappa", "gec-harappa"],
  "banpo-yerlesimi-3": ["yangshao"], "jiangzhai-yerlesimi-3": ["yangshao"], "hierakonpolis-hk11c-iskan": ["naqada-kultur"],
+ "monte-verde-ii": ["monte-verde-kultur"], "gobero-nijer": ["gobero-kultur"], "anau-ia-meana": ["anau-ia-kultur"],
+ "yuchanyan-magarasi": ["yuchanyan-kultur"], "ban-chiang": ["ban-chiang-kultur"], "bhirrana": ["bhirrana-hakra", "erken-harappa", "harappa"],
+ "rakhigarhi": ["erken-harappa", "harappa", "gec-harappa"], "ceibal-guatemala": ["maya-orta-preklasik"],
+ "napata": ["kush-krallik"], "meroe-donemi-kush": ["kush-krallik"],
  "monte-alban": ["zapotek-monte-alban"], "teotihuacan-baslangic": ["teotihuacan"], "kotosh-dini-gelenegi": ["kotosh-dini-gelenek"],
 }
 GRUP = {  # site → dosya grubu
  "levant-anadolu": ["ain-mallaha", "eriha", "kfar-hahoresh", "ain-ghazal", "baja", "abu-hureyra", "mureybet", "nevali-cori", "cayonu-tepesi", "hallan-cemi",
                     "jerf-el-ahmar", "gobekli-tepe", "asikli-hoyuk", "catalhoyuk", "boncuklu-konya", "halaf-kulturu"],
- "iran-asya": ["jeitun", "tepe-hissar", "tepe-yahya", "mehrgarh", "harappa", "sanganakallu-kupgal", "khok-phanom-di", "dholavira", "lothal"],
+ "iran-asya": ["jeitun", "tepe-hissar", "tepe-yahya", "mehrgarh", "harappa", "sanganakallu-kupgal", "khok-phanom-di", "dholavira", "lothal", "anau-ia-meana", "ban-chiang", "bhirrana", "rakhigarhi"],
  "dogu-asya": ["jiahu", "hemudu-kulturu", "liangzhu-kulturu", "kuahuqiao-kulturu", "dadiwan", "taosi", "shimao", "erlitou-2-liton-arkeolojik", "sanxingdui-medeniyet", "yinxu-anyang",
-               "banpo-yerlesimi-3", "jiangzhai-yerlesimi-3"],
+               "banpo-yerlesimi-3", "jiangzhai-yerlesimi-3", "yuchanyan-magarasi"],
  "avrupa": ["lepenski-vir", "vinca-belo-brdo", "skara-brae", "xaghra-brochtorff-circle", "los-millares", "el-argar", "szederkeny-kukorica-dulo"],
- "afrika": ["naqada-kulturu", "esh-shaheinab", "lothagam-north-turkana", "hierakonpolis-hk11c-iskan"],
+ "afrika": ["naqada-kulturu", "esh-shaheinab", "lothagam-north-turkana", "hierakonpolis-hk11c-iskan", "gobero-nijer", "napata", "meroe-donemi-kush"],
  "amerika": ["caral", "chavin-de-huantar", "poverty-point", "san-lorenzo-tenochtitlan", "la-venta", "nakbe", "el-mirador", "aguada-fenix", "monte-alban",
-             "teotihuacan-baslangic", "kotosh-dini-gelenegi"],
+             "teotihuacan-baslangic", "kotosh-dini-gelenegi", "monte-verde-ii", "ceibal-guatemala"],
  # BOYALAR girişi henüz OLMAYAN yeni künyelerin noktaları (casma-sechin, paracas-kultur, oaxaca-formatif, la-blanca-formatif, kaminaljuyu-providencia, tonga-lapita):
  # ayrı dosya → girdi/index'e BAĞLANMAZ (denetle_yayin BEKLEYEN); MO-MOTOR boya yazınca: py denetim/arkeoloji_girdi_cikar_1020.py ekle yerlesimler_mo_boya_bekleyen.js
  "boya-bekleyen": ["sechin-bajo", "cerro-sechin", "sechin-alto", "paracas-kulturu-ica", "san-jose-mogote-ilk-koy-ve-terk",
@@ -221,7 +231,7 @@ AD = {  # görünen ad (yerel/yaygın), yoksa sehir_tarihce adı
  "dadiwan": "Dadiwan", "ain-ghazal": "Ain Ghazal", "tepe-hissar": "Tepe Hissar", "tepe-yahya": "Tepe Yahya", "chavin-de-huantar": "Chavín de Huántar",
  "monte-alban": "Monte Albán", "caral": "Caral", "la-venta": "La Venta", "aguada-fenix": "Aguada Fénix", "el-mirador": "El Mirador",
  "poverty-point": "Poverty Point", "mehrgarh": "Mehrgarh", "harappa": "Harappa", "jiahu": "Jiahu", "jeitun": "Jeitun", "sanganakallu-kupgal": "Sanganakallu-Kupgal",
- "khok-phanom-di": "Khok Phanom Di", "taosi": "Taosi", "shimao": "Shimao", "el-argar": "El Argar", "skara-brae": "Skara Brae",
+ "khok-phanom-di": "Khok Phanom Di", "monte-verde-ii": "Monte Verde", "gobero-nijer": "Gobero", "anau-ia-meana": "Anau", "yuchanyan-magarasi": "Yuchanyan", "ban-chiang": "Ban Chiang", "bhirrana": "Bhirrana", "rakhigarhi": "Rakhigarhi", "ceibal-guatemala": "Ceibal", "napata": "Napata (Cebel Barkal)", "meroe-donemi-kush": "Meroe", "taosi": "Taosi", "shimao": "Shimao", "el-argar": "El Argar", "skara-brae": "Skara Brae",
 }
 
 

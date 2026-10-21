@@ -157,6 +157,38 @@ def yer_uret(r, bolge, pencere_son_mo):
     return y
 
 
+DEVIR_AD = {   # kayıt id → denetim/arastirma/5-mo-devir.json adı (21 Ekim 2026: YER-TANIMA devrinden, ≥2 bağımsız tanık)
+    "khok-phanom-di": "Khok Phanom Di", "gobero-nijer": "Gobero", "boncuklu-konya": "Boncuklu Höyük",
+    "stonehenge-sarsen-halkasi": "Stonehenge", "stonehenge-hendek-ve-set": "Stonehenge", "ceibal-guatemala": "Ceibal",
+    "lothagam-north-turkana": "Lothagam North Pillar Site", "anau-ia-meana": "Anau IA", "yuchanyan-magarasi": "Yuchanyan",
+    "ban-chiang": "Ban Chiang", "rakhigarhi": "Rakhigarhi", "bhirrana": "Bhirrana", "kotosh-dini-gelenegi": "Kotosh Religious Tradition",
+    "monte-verde-ii": "Monte Verde", "napata": "Napata", "napata-donemi-kush": "Napata", "meroe-donemi-kush": "Meroe",
+}
+_DEVIR = {}
+
+
+def devir_koord(r):
+    ad = DEVIR_AD.get(r.get("id"))
+    if not ad:
+        return
+    if not _DEVIR:
+        yol = os.path.join(os.path.dirname(os.path.abspath(__file__)), "arastirma", "5-mo-devir.json")
+        if os.path.exists(yol):
+            for x in json.load(open(yol, encoding="utf-8"))["siniflar"]:
+                if x.get("sinif") == "gercek_yer" and not x.get("tek_tanik"):
+                    _DEVIR[x["ad"]] = x
+    x = _DEVIR.get(ad)
+    if not x:
+        return
+    k = x["koordinat"]
+    tn = [t for t in k["tanik"] if t.get("lat") is not None]
+    if len(tn) < 2:
+        return
+    r["lat"], r["lon"] = k["lat"], k["lon"]
+    r["konum_tanik"] = [dict(kaynak=t["kaynak"] + " " + (t.get("url") or ""), lat=t["lat"], lon=t["lon"]) for t in tn]
+    r["konum_not"] = ("Koordinat YER-TANIMA devrinden (5-mo-devir.json, 21 Ekim 2026), ≥2 bağımsız tanık; seçilen nokta %.4f,%.4f. %s" % (k["lat"], k["lon"], x.get("not") or ""))[:400]
+
+
 def main(argv):
     sys.stdout.reconfigure(encoding="utf-8")
     if len(argv) < 2:
@@ -177,6 +209,8 @@ def main(argv):
                 r[ad_] = None
         if not r.get("kur") and not r.get("bit"):
             continue
+        if len([x for x in (r.get("konum_tanik") or []) if x.get("lat") is not None]) < 2:
+            devir_koord(r)                        # 5-mo-devir.json: YER-TANIMA devri, çift tanıklı koordinat
         if len([x for x in (r.get("konum_tanik") or []) if x.get("lat") is not None]) < 2:
             r["lat"] = r["lon"] = None            # koordinat tek tanıklı: konum YAZILMAZ, olay kalır
         if r.get("id") in haric:

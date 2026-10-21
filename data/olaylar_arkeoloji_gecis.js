@@ -1,17 +1,6 @@
 // MÖ KÜNYE GEÇİŞLERİ — s: dönem sınırlarını destekleyen künye-geçişi maddeleri (Değişmez 2). denetim/arkeoloji_yerlesim_1020.py üretir.
 window.OLAYLAR_ARKEOLOJI_GECIS = [
  {
-  "t": "-1149-01-01",
-  "k": "diger",
-  "b": "Poverty Point: sahip dönemi sona erer — Poverty Point Kültürü (Geç Arkaik, Louisiana)",
-  "gun": "MÖ 1150 (dönem ucu)",
-  "yer": "Poverty Point",
-  "d": "Poverty Point noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Poverty Point Kültürü (Geç Arkaik, Louisiana)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
-  "kaynak": "künye poverty-point-kultur — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
-  "kaynak_turu": "yazili",
-  "kesinlik": "yuzyil"
- },
- {
   "t": "-3249-01-01",
   "k": "diger",
   "b": "Hemudu: sahip dönemi sona erer — Hemudu Kültürü",
@@ -85,6 +74,17 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "yer": "Ain Mallaha (Eynan)",
   "d": "Ain Mallaha (Eynan) noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Natufiyen Kültürü (Levant)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
   "kaynak": "künye natufiyen — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
+  "kaynak_turu": "yazili",
+  "kesinlik": "yuzyil"
+ },
+ {
+  "t": "0349-01-01",
+  "k": "diger",
+  "b": "Meroe: sahip dönemi sona erer — Kus (Napata–Meroe) Krallığı",
+  "gun": "MS 349 (dönem ucu)",
+  "yer": "Kush krallığı — Meroe dönemi / Meroe",
+  "d": "Meroe noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Kus (Napata–Meroe) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
+  "kaynak": "künye kush-krallik — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
   "kaynak_turu": "yazili",
   "kesinlik": "yuzyil"
  },

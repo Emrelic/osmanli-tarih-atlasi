@@ -820,7 +820,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "k": "diger",
   "b": "Nippur: sahipsiz aralık dönemi sona erer",
   "gun": "MÖ 1150",
-  "yer": "Nippur",
+  "yer": "Nippur / Poverty Point",
   "d": "Nippur noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
