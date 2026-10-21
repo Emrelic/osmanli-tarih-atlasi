@@ -3233,7 +3233,7 @@ window.YERLESIMLER_ASYA = [
 // 1767'de Birmanya şehri yaktı ve Ayutthaya bir daha başkent olmadı.
 
 { ad:"Sukhothai", tur:"sehir", lat:17.0200, lon:99.7030, g:1, k:2,kd:[{f:"1281-01-01",t:"1438-01-01",k:1,m:"Sukhothai"}], d:[],
-  s:[{f:"1281-01-01", t:"1438-01-01", d:"sukhothai"},
+  s:[{f:"1000-01-01",t:"1238-01-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BEYANLI BOŞLUK (arandı, bulunamadı): Sukhothai 1000-1238 sahibi: TDV tayland Tay, Mon, Khmer ve Malay kökenli topluluklar yaşamaktaydı ve bunlar küçük krallık yönetimleri altında Khmer İmparatorluğu’na bağlıydı bölge cümlesidir (Sukhothai adı yok), angkor-kmer'e bağlanmadı f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). · VERI-MS1-1281"},{f:"1238-01-01",t:"1281-01-01",d:"sukhothai",kesinlik:"yil",kaynak:"TDV tayland: «Budist Sukothai Krallığı diye bilinen bu ilk Tay devleti 1238’de Angkor’u alıp gücünü arttırdı» ; «Kral Rama Khamheng döneminde (1275-1317) Sukothai Krallığı idarî, hukukî ve içtimaî alanda önemli yapılanmalar gerçekleştirdi». BEYANLI YAKLAŞIKLIK: TDV 1238 yılının neyi tarihlediği (devletleşme/Angkor) belirsiz; başlangıç yıl hassasiyeti; 1238 künye f ile uyumlu. · VERI-MS1-1281"},{f:"1281-01-01", t:"1438-01-01", d:"sukhothai"},
      {f:"1438-01-01", t:"1767-04-07", d:"ayutthaya"},
      {f:"1767-04-07", t:"1782-04-06", d:"tonburi"},
      {f:"1782-04-06", t:"2000-12-31", d:"siyam-chakri"}] },

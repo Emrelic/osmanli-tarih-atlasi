@@ -366,7 +366,7 @@ window.YERLESIMLER_EK29 = [
 // kaynak: TDV `uskudar` (HTTP 200, gövdesi okundu)
 
 { ad:"Üsküdar", tur:"sehir", lat:41.0227, lon:29.0153, g:0, k:3, m:"İzmit",
-  s:[{f:"1281-01-01",t:"1329-06-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1410-05-06",d:"suleyman-celebi"},{f:"1410-05-06",t:"1413-07-05",d:"mehmed-celebi",kesinlik:{f:"yil"}},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
+  s:[{f:"1000-01-01",t:"1281-01-01",d:"bizans",kesinlik:"yuzyil",kaynak:"TDV uskudar: «Bizans döneminde Üsküdar, Kadıköy’ün gölgesinde önemsiz bir kasaba görünümündeydi» ; «Malazgirt zaferinin ardından Selçuklular, Kutalmışoğlu Süleyman Şah’ın kumandasında 1078 ve 1080 yıllarında Üsküdar’a ulaştılar». BEYANLI YAKLAŞIKLIK: Selçuklu 1078/1080 ulaşması akın, hâkimiyet değil; 1204-1261 Latin dönemi şehir adıyla TDV'de anılmaz, Bizans süreklilik kabul edildi. f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). · VERI-MS1-1281"},{f:"1281-01-01",t:"1329-06-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1410-05-06",d:"suleyman-celebi"},{f:"1410-05-06",t:"1413-07-05",d:"mehmed-celebi",kesinlik:{f:"yil"}},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],
   d:[{f:"1329-06-01",t:"1402-07-28"},{f:"1413-07-05",t:"1920-04-23"}], v:[] },
 
 // ───────── ANADOLU KOLU ─────────
