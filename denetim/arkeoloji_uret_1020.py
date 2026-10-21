@@ -37,6 +37,7 @@ def km(a, b):
 def uc(blk, tur_yazili):
     """kur/bit bloğu -> (mo_t, kesinlik, aralik|None, gun, ic_not_parca, kaynak_turu_gerekir)"""
     A, B, tur = blk["bas_mo"], blk.get("son_mo"), blk["aralik_turu"]
+    tur = {"tek-olay": "kalibre-14C", "yazili-celiskili": "yazili", "yazili-turetilmis": "yazili"}.get(tur, tur)    # ajanların serbest tür adları → şema
     if tur == "yazili":
         kes = blk.get("kesinlik") or "yil"
         return A, kes, None, "MÖ %d" % A, "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir.", "yazili"

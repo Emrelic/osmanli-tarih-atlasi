@@ -12,17 +12,6 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kesinlik": "yuzyil"
  },
  {
-  "t": "-2049-01-01",
-  "k": "diger",
-  "b": "Liangzhu: sahip dönemi sona erer — Liangzhu Kültürü",
-  "gun": "MÖ 2050 (dönem ucu)",
-  "yer": "Liangzhu / Liangzhu Kültürü",
-  "d": "Liangzhu noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Liangzhu Kültürü) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
-  "kaynak": "künye liangzhu — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
-  "kaynak_turu": "yazili",
-  "kesinlik": "yuzyil"
- },
- {
   "t": "-3249-01-01",
   "k": "diger",
   "b": "Hemudu: sahip dönemi sona erer — Hemudu Kültürü",

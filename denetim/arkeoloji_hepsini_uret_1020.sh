@@ -16,4 +16,13 @@ py denetim/arkeoloji_dalga2_kur_1020.py
 for b in anadolu-ege italya-avrupa hint-guneydogu cin-dogu-asya afrika-amerika iran-orta-asya; do
   py $U denetim/arastirma/d2-$b.json d2-$b
 done
+# ── 3. dalga (kürasyon: denetim/arkeoloji_dalga3_kur_1020.py → d3-*.json) ──
+py denetim/arkeoloji_dalga3_kur_1020.py
+for b in anadolu-ege italya-avrupa misir-afrika hint-cin amerika-pasifik; do
+  py $U denetim/arastirma/d3-$b.json d3-$b
+done
+# ── sıra: kunye → yerleşim (sehir_tarihce'den) → devlet-şehir zinciri (3-mezopotamya-iran sehir_kontrol) ──
+py denetim/arkeoloji_kunye_1020.py
+py denetim/arkeoloji_yerlesim_1020.py
+py denetim/arkeoloji_devlet_zincir_1020.py
 exit 0

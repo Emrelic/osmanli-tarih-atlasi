@@ -1296,6 +1296,19 @@ def main():
         # ── 20 EKIM 2026 — ARKEOLOJI KATMANI (MO) yerlesim birikimi: sehir_tarihce_osm.js ile AYNI statu ──
         "data/sehir_tarihce_arkeoloji_d2-iran-orta-asya.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
                                          "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        # ── 20 EKIM 2026 — ARKEOLOJI KATMANI (MO) yerlesim birikimi: sehir_tarihce_osm.js ile AYNI statu ──
+        "data/sehir_tarihce_arkeoloji_d3-amerika-pasifik.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_d3-anadolu-ege.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_d3-hint-cin.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_d3-italya-avrupa.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/sehir_tarihce_arkeoloji_d3-misir-afrika.js": "MO arkeoloji katmani yerlesim birikimi (VERI-MO-ARKEO, 20 Ekim 2026); "
+                                         "kasitli YUKLENMEZ: sehir_tarihce semasi, motor/site okumaz; onkosul AKTARIM (MO-MOTOR) + Emre", 
+        "data/yerlesimler_mo_boya_bekleyen.js": "MO arkeoloji yerlesimleri (VERI-MO-ARKEO 21 Ekim 2026): PARK — s: kimliklerinin BOYALAR/KULTUR_DESEN girisleri bekleniyor (mo-motor); "
+                                         "baglama: py denetim/arkeoloji_girdi_cikar_1020.py ekle (girdi_listesi + index.html)", 
         "data/sehir_tarihce_osm.js":     "241 sehir arastirma birikimi (OSM bolgesi); "
                                          "onkosul AKTARIM (MO motor destegi C4 + "
                                          "Emre kararlari, denetim/SEHIR-TARIHCE-OSM-1014)",

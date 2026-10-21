@@ -75,6 +75,8 @@ def arastirma():
         if n.startswith("2-") or n.startswith("3-"):
             continue
         d = json.load(open(f, encoding="utf-8"))
+        if "kayitlar" not in d:
+            continue
         for r in d["kayitlar"]:
             out[r["id"]] = r
     return out
@@ -143,6 +145,12 @@ NEW = {
  "turkana-pastoral-neolitik": dict(ad="Turkana Pastoral Neolitiği ('pillar sites' geleneği)", bolge="dogu-afrika", uyeler=["lothagam-north-turkana"]),
  "shaheinab-neolitik": dict(ad="Shaheinab Neolitiği (Orta Sudan)", bolge="misir-sudan", uyeler=["esh-shaheinab"]),
  "khok-phanom-di-neolitik": dict(ad="Khok Phanom Di Neolitiği (Orta Tayland kıyısı)", bolge="guneydogu-asya", uyeler=["khok-phanom-di"]),
+ "casma-sechin": dict(ad="Casma Vadisi Geç Arkaik–Formatif toplulukları (Sechín Bajo, Cerro Sechín, Sechín Alto)", bolge="guney-amerika", uyeler=["sechin-bajo", "cerro-sechin", "sechin-alto"]),
+ "paracas-kultur": dict(ad="Paracas Kültürü (Ica, Güney Peru kıyısı)", bolge="guney-amerika", uyeler=["paracas-kulturu-ica"]),
+ "oaxaca-formatif": dict(ad="Oaxaca Vadisi Formatif köyleri (San José Mogote, Rosario evresine dek)", bolge="orta-amerika", uyeler=["san-jose-mogote-ilk-koy-ve-terk"]),
+ "la-blanca-formatif": dict(ad="La Blanca (Pasifik kıyısı Guatemala) Orta Formatif anıtsal merkez", bolge="orta-amerika", uyeler=["la-blanca-san-marcos-conchas"]),
+ "kaminaljuyu-providencia": dict(ad="Kaminaljuyú Providencia evresi", bolge="orta-amerika", uyeler=["kaminaljuyu-providencia-fazi"]),
+ "tonga-lapita": dict(ad="Tonga Lapita iskânı (Nukuleka)", bolge="okyanusya", uyeler=["nukuleka-tonga-lapita"]),
  "guney-hint-neolitik-megalitik": dict(ad="Güney Hint Neolitiği → Megalitik geçiş (Sanganakallu-Kupgal)", bolge="guney-asya", uyeler=["sanganakallu-kupgal"]),
 }
 
@@ -181,17 +189,27 @@ TABLO = {
  "caral": ["caral-norte-chico"], "chavin-de-huantar": ["chavin"], "poverty-point": ["poverty-point-kultur"],
  "san-lorenzo-tenochtitlan": ["olmek"], "la-venta": ["olmek"],
  "nakbe": ["maya-orta-preklasik"], "el-mirador": ["maya-orta-preklasik"], "aguada-fenix": ["maya-orta-preklasik"],
+ "sechin-bajo": ["casma-sechin"], "cerro-sechin": ["casma-sechin"], "sechin-alto": ["casma-sechin"], "paracas-kulturu-ica": ["paracas-kultur"],
+ "san-jose-mogote-ilk-koy-ve-terk": ["oaxaca-formatif"], "la-blanca-san-marcos-conchas": ["la-blanca-formatif"],
+ "kaminaljuyu-providencia-fazi": ["kaminaljuyu-providencia"], "nukuleka-tonga-lapita": ["tonga-lapita"],
+ "dholavira": ["erken-harappa", "harappa", "gec-harappa"], "lothal": ["harappa", "gec-harappa"],
+ "banpo-yerlesimi-3": ["yangshao"], "jiangzhai-yerlesimi-3": ["yangshao"], "hierakonpolis-hk11c-iskan": ["naqada-kultur"],
  "monte-alban": ["zapotek-monte-alban"], "teotihuacan-baslangic": ["teotihuacan"], "kotosh-dini-gelenegi": ["kotosh-dini-gelenek"],
 }
 GRUP = {  # site → dosya grubu
  "levant-anadolu": ["ain-mallaha", "eriha", "kfar-hahoresh", "ain-ghazal", "baja", "abu-hureyra", "mureybet", "nevali-cori", "cayonu-tepesi", "hallan-cemi",
                     "jerf-el-ahmar", "gobekli-tepe", "asikli-hoyuk", "catalhoyuk", "boncuklu-konya", "halaf-kulturu"],
- "iran-asya": ["jeitun", "tepe-hissar", "tepe-yahya", "mehrgarh", "harappa", "sanganakallu-kupgal", "khok-phanom-di"],
- "dogu-asya": ["jiahu", "hemudu-kulturu", "liangzhu-kulturu", "kuahuqiao-kulturu", "dadiwan", "taosi", "shimao", "erlitou-2-liton-arkeolojik", "sanxingdui-medeniyet", "yinxu-anyang"],
+ "iran-asya": ["jeitun", "tepe-hissar", "tepe-yahya", "mehrgarh", "harappa", "sanganakallu-kupgal", "khok-phanom-di", "dholavira", "lothal"],
+ "dogu-asya": ["jiahu", "hemudu-kulturu", "liangzhu-kulturu", "kuahuqiao-kulturu", "dadiwan", "taosi", "shimao", "erlitou-2-liton-arkeolojik", "sanxingdui-medeniyet", "yinxu-anyang",
+               "banpo-yerlesimi-3", "jiangzhai-yerlesimi-3"],
  "avrupa": ["lepenski-vir", "vinca-belo-brdo", "skara-brae", "xaghra-brochtorff-circle", "los-millares", "el-argar", "szederkeny-kukorica-dulo"],
- "afrika": ["naqada-kulturu", "esh-shaheinab", "lothagam-north-turkana"],
+ "afrika": ["naqada-kulturu", "esh-shaheinab", "lothagam-north-turkana", "hierakonpolis-hk11c-iskan"],
  "amerika": ["caral", "chavin-de-huantar", "poverty-point", "san-lorenzo-tenochtitlan", "la-venta", "nakbe", "el-mirador", "aguada-fenix", "monte-alban",
              "teotihuacan-baslangic", "kotosh-dini-gelenegi"],
+ # BOYALAR girişi henüz OLMAYAN yeni künyelerin noktaları (casma-sechin, paracas-kultur, oaxaca-formatif, la-blanca-formatif, kaminaljuyu-providencia, tonga-lapita):
+ # ayrı dosya → girdi/index'e BAĞLANMAZ (denetle_yayin BEKLEYEN); MO-MOTOR boya yazınca: py denetim/arkeoloji_girdi_cikar_1020.py ekle yerlesimler_mo_boya_bekleyen.js
+ "boya-bekleyen": ["sechin-bajo", "cerro-sechin", "sechin-alto", "paracas-kulturu-ica", "san-jose-mogote-ilk-koy-ve-terk",
+                   "la-blanca-san-marcos-conchas", "kaminaljuyu-providencia-fazi", "nukuleka-tonga-lapita"],
 }
 AD = {  # görünen ad (yerel/yaygın), yoksa sehir_tarihce adı
  "teotihuacan-baslangic": "Teotihuacan", "cayonu-tepesi": "Çayönü Tepesi", "boncuklu-konya": "Boncuklu Höyük", "halaf-kulturu": "Tell Halaf",
