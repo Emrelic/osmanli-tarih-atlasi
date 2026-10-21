@@ -220,6 +220,78 @@
    "neden": "3km"
   },
   {
+   "ad": "Medâin",
+   "atlas": "Ktesiphon",
+   "km": 0.0,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kirman",
+   "atlas": "Kirman",
+   "km": 0.4,
+   "neden": "ad"
+  },
+  {
+   "ad": "Kannauj",
+   "atlas": "Kannauc",
+   "km": 0.32,
+   "neden": "3km"
+  },
+  {
+   "ad": "Tancavur",
+   "atlas": "Tancûr (Thanjavur)",
+   "km": 0.53,
+   "neden": "3km"
+  },
+  {
+   "ad": "Berdea",
+   "atlas": "Berde (Karabağ)",
+   "km": 1.36,
+   "neden": "3km"
+  },
+  {
+   "ad": "Baden",
+   "atlas": "Baden-Baden",
+   "km": 0.28,
+   "neden": "3km"
+  },
+  {
+   "ad": "Derbent",
+   "atlas": "Derbend",
+   "km": 1.09,
+   "neden": "3km"
+  },
+  {
+   "ad": "Bagan",
+   "atlas": "Pagan",
+   "km": 0.53,
+   "neden": "3km"
+  },
+  {
+   "ad": "Afyonkarahisar",
+   "atlas": "Karahisâr-ı Sâhib (Afyon)",
+   "km": 0.03,
+   "neden": "3km"
+  },
+  {
+   "ad": "Kaliningrad",
+   "atlas": "Königsberg",
+   "km": 2.23,
+   "neden": "3km"
+  },
+  {
+   "ad": "Talas",
+   "atlas": "Taraz (Evliya-Ata)",
+   "km": 0.24,
+   "neden": "3km"
+  },
+  {
+   "ad": "Palmira",
+   "atlas": "Tedmür (Palmyra)",
+   "km": 0.5,
+   "neden": "3km"
+  },
+  {
    "ad": "Mısır",
    "atlas": "(parti içi)",
    "km": 0,
@@ -266,10 +338,11 @@
   "tek_kaynak": 55,
   "celiski": 20,
   "ikinci_tanik_yok": 18,
-  "bolge_adi": 3,
-  "?": 87
+  "bolge_adi": 16,
+  "?": 87,
+  "cozulemedi": 14
  },
- "yazilan": 127,
+ "yazilan": 148,
  "haric": [
   {
    "ad": "Lade",

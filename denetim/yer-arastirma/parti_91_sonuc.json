@@ -1,0 +1,825 @@
+{
+ "parti": 91,
+ "sonuclar": [
+  {
+   "ad": "Medâin",
+   "durum": "cift_tanik",
+   "lat": 33.0947,
+   "lon": 44.5812,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Ktesifon (Taysefûn)",
+   "ulke_modern": "Irak",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 893976",
+     "url_veya_atif": "https://pleiades.stoa.org/places/893976",
+     "lat": 33.0947,
+     "lon": 44.5812,
+     "not": "Ctesiphon"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2733316",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2733316",
+     "lat": 33.1,
+     "lon": 44.6,
+     "not": "Ctesiphon, yuvarlak koordinat"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, MEDAIN",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/medain",
+     "lat": null,
+     "lon": null,
+     "not": "Bugünkü Bağdat'ın 30 km kadar güneydoğusunda, Dicle'nin iki yakasında; Ktesifon doğu yakada; Seleukeia/Veh Erdeşîr batı yakada (~5 km)"
+    }
+   ],
+   "hesap": "Bağdat DAI 33.3213,44.3683; 30 km GD ≈ 33.10,44.58: Pleiades/DAI ile uyumlu",
+   "not": "Medâin yedi şehir kümesi; temsilci nokta Ktesifon (Sasani başkenti). Seleukeia ~33.094,44.522 (5 km batı)."
+  },
+  {
+   "ad": "Kirman",
+   "durum": "cift_tanik",
+   "lat": 30.2832,
+   "lon": 57.0788,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Kirman (Kermân) şehri",
+   "ulke_modern": "İran",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 29802",
+     "url_veya_atif": "https://pleiades.stoa.org/places/29802",
+     "lat": 30.273015,
+     "lon": 57.068581,
+     "not": "Veh Ardashir/Bardasir/Govasir; adlar arasında Kermān"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2109678",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2109678",
+     "lat": 30.28321,
+     "lon": 57.07879,
+     "not": "Kerman populated place"
+    },
+    {
+     "kaynak": "Getty TGN 7002134",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7002134",
+     "lat": 30.3,
+     "lon": 57.0833,
+     "not": "Kermān"
+    }
+   ],
+   "hesap": "",
+   "not": "Ad hem eyalet hem şehir; maddelerde ağırlıkla eyalet (Umân/Mekrân yanında). Koordinat eyalet merkezi Kirman şehridir; boyama için eyalet düzeyi ayrıca ele alınmalı."
+  },
+  {
+   "ad": "Kannauj",
+   "durum": "cift_tanik",
+   "lat": 27.0533,
+   "lon": 79.9186,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Kannauj (Kanyakubja)",
+   "ulke_modern": "Hindistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 59862",
+     "url_veya_atif": "https://pleiades.stoa.org/places/59862",
+     "lat": 27.053262,
+     "lon": 79.918632,
+     "not": "Kanogiza (Ptolemaios), BAtlas 6 D4"
+    },
+    {
+     "kaynak": "GeoNames 1268011",
+     "url_veya_atif": "https://www.geonames.org/1268011",
+     "lat": 27.05524,
+     "lon": 79.9188,
+     "not": "Kannauj"
+    }
+   ],
+   "hesap": "",
+   "not": "Kanogiza=Kannauj eşlemesi standart kabul; Pleiades kaydı adını Kanogiza/Kanagora verir. İki koordinat 0.3 km içinde."
+  },
+  {
+   "ad": "Ani",
+   "durum": "cift_tanik",
+   "lat": 40.5063,
+   "lon": 43.5706,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Ani harabeleri (Ocaklı köyü yanı)",
+   "ulke_modern": "Türkiye (Kars)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 863739",
+     "url_veya_atif": "https://pleiades.stoa.org/places/863739",
+     "lat": 40.506295,
+     "lon": 43.570558,
+     "not": "Ani ruined Armenian city"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2043315",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2043315",
+     "lat": 40.5075,
+     "lon": 43.572778,
+     "not": "Ani archaeological-site"
+    },
+    {
+     "kaynak": "Getty TGN 7002350",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7002350",
+     "lat": null,
+     "lon": null,
+     "not": "TGN kaydı: Bagrat başkenti Ani (koordinatsız); komşu Ocaklı TGN 40.518,43.5658"
+    }
+   ],
+   "hesap": "",
+   "not": "Pleiades kaydı Vikipedi türevi olabilir; DAI ile 0.3 km. Kendi dokümanlarım UNESCO WHC 1518'e 403 verdi. Kayıt iki bağımsız veritabanıdır ama tam bağımsızlık garanti değil."
+  },
+  {
+   "ad": "Hîre",
+   "durum": "cift_tanik",
+   "lat": 32.0,
+   "lon": 44.41,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Hîre (Kûfe'nin 5 km güneyi)",
+   "ulke_modern": "Irak (Necef)",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2419900",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2419900",
+     "lat": 32.0,
+     "lon": 44.4,
+     "not": "al-Hira archaeological site"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, HIRE",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/hire",
+     "lat": null,
+     "lon": null,
+     "not": "Kûfe'nin 5 km güneyinde, Fırat kenarında, Kinîdre höyüğünün güneydoğusunda"
+    },
+    {
+     "kaynak": "GeoNames 99343",
+     "url_veya_atif": "https://www.geonames.org/99343",
+     "lat": 31.98,
+     "lon": 44.39,
+     "not": "Al-Hirah"
+    }
+   ],
+   "hesap": "Kûfe DAI 32.0511,44.4402; 5 km güney = 32.006,44.440; TGN Kûfe 32.0167,44.3833 → Hîre ≈ 31.97-32.01,44.38-44.44; ortalama 32.0,44.41",
+   "not": "Pleiades 912800 (31.883,44.450) bu tarifin ~13 km güneyinde, reddedildi (BAtlas '?' tahmini)."
+  },
+  {
+   "ad": "Bosna",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2066432",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2066432",
+     "lat": 44.0,
+     "lon": 18.0,
+     "not": "Bosnien, bölge"
+    }
+   ],
+   "hesap": "",
+   "not": "Bosna Banlığı/Krallığı: ülke-bölge adı (DAI 2066432 Bosnien ~44.0,18.0). Tek şehir yok; Bobovac/Visoki/Sutjeska gibi merkezler dönemine göre değişir."
+  },
+  {
+   "ad": "Silvan",
+   "durum": "cift_tanik",
+   "lat": 38.1428,
+   "lon": 41.0033,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Silvan (Meyyâfârikīn, Martyropolis)",
+   "ulke_modern": "Türkiye (Diyarbakır)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 874573",
+     "url_veya_atif": "https://pleiades.stoa.org/places/874573",
+     "lat": 38.1427855,
+     "lon": 41.003257,
+     "not": "Maipa/Martyropolis/Ioustinianopolis"
+    },
+    {
+     "kaynak": "GeoNames 300796",
+     "url_veya_atif": "https://www.geonames.org/300796",
+     "lat": 38.13708,
+     "lon": 41.00817,
+     "not": "Silvan"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, MEYYAFARIKIN",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/meyyafarikin",
+     "lat": null,
+     "lon": null,
+     "not": "Meyyâfârikīn: Diyarbakır'a bağlı Silvan ilçe merkezinin eski adı; Grekçe Martyropolis"
+    }
+   ],
+   "hesap": "",
+   "not": "Maddedeki 'Silvan' = Meyyâfârikīn (TDV)."
+  },
+  {
+   "ad": "Kerec",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tanik": [
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, DULEFILER",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/dulefiler",
+     "lat": null,
+     "lon": null,
+     "not": "Hemedan-İsfahan arası, ~10 km yayılım; sayısal konum yok"
+    }
+   ],
+   "hesap": "",
+   "not": "Kerec (Karac-ı Ebî Dülef) için sayısal ikinci kaynak bulunamadı. TDV Dülefîler: Hemedan ile İsfahan arasında verimli arazide, yüksekçe bir mevkide dağınık, evler ~10 km'lik sahaya yayılmış (koordinatsız). TGN Karaj 35.8,50.97 ve GeoNames Karaj 35.83,50.99 Tahran-Karac'tır, YANLIŞ eşleşme. İranica Arak yakını (Âstâne/Kadamgâh) diyordu ama Iranica 403 verdi."
+  },
+  {
+   "ad": "Tancavur",
+   "durum": "cift_tanik",
+   "lat": 10.7839,
+   "lon": 79.1417,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Thanjavur (Tanjore)",
+   "ulke_modern": "Hindistan (Tamil Nadu)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 50303",
+     "url_veya_atif": "https://pleiades.stoa.org/places/50303",
+     "lat": 10.783937,
+     "lon": 79.141673,
+     "not": "Thanjavur, BAtlas 5 D4"
+    },
+    {
+     "kaynak": "GeoNames 1254649",
+     "url_veya_atif": "https://www.geonames.org/1254649",
+     "lat": 10.78523,
+     "lon": 79.13909,
+     "not": "Thanjavur"
+    },
+    {
+     "kaynak": "Getty TGN 7016825",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7016825",
+     "lat": 10.8,
+     "lon": 79.15,
+     "not": "Thanjavur; varyant Tanjore/Tanjāvūr"
+    }
+   ],
+   "hesap": "",
+   "not": "Çola başkenti Tancavur=Thanjavur."
+  },
+  {
+   "ad": "Belencer",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 8711774",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/8711774",
+     "lat": 43.151009,
+     "lon": 46.857508,
+     "not": "Balanjar; tek tanık"
+    }
+   ],
+   "hesap": "",
+   "not": "Hazar şehri; konumu tartışmalı. TGN 8711774 'Balanjar' 43.151,46.8575 (Sulak/Chir-Yurt çevresi) tek tanık; öteki öneriler Buynaksk ve Mahaçkale güneyi. Uzlaşı yok; çift tanık yok."
+  },
+  {
+   "ad": "Preslav",
+   "durum": "cift_tanik",
+   "lat": 43.1459,
+   "lon": 26.8135,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Veliki Preslav (Büyük Preslav) harabeleri",
+   "ulke_modern": "Bulgaristan (Şumen)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 731893155",
+     "url_veya_atif": "https://pleiades.stoa.org/places/731893155",
+     "lat": 43.14593,
+     "lon": 26.81345,
+     "not": "Veliki Preslav, Simeon başkenti, tahkimli saha"
+    },
+    {
+     "kaynak": "Getty TGN 7017005",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7017005",
+     "lat": 43.15,
+     "lon": 26.8333,
+     "not": "Preslav; varyant Great Preslav"
+    },
+    {
+     "kaynak": "GeoNames 727987",
+     "url_veya_atif": "https://www.geonames.org/727987",
+     "lat": 43.16667,
+     "lon": 26.81667,
+     "not": "Veliki Preslav kasabası"
+    }
+   ],
+   "hesap": "",
+   "not": "Harabe kasabanın ~2 km güneyinde."
+  },
+  {
+   "ad": "Polonnaruva",
+   "durum": "cift_tanik",
+   "lat": 7.9475,
+   "lon": 81.0013,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Polonnaruwa antik şehri",
+   "ulke_modern": "Sri Lanka",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 348371058",
+     "url_veya_atif": "https://pleiades.stoa.org/places/348371058",
+     "lat": 7.94751,
+     "lon": 81.00134,
+     "not": "Polonnaruwa, ca. AD 1070 başkent, UNESCO"
+    },
+    {
+     "kaynak": "GeoNames 1229901",
+     "url_veya_atif": "https://www.geonames.org/1229901",
+     "lat": 7.93965,
+     "lon": 81.00274,
+     "not": "Polonnaruwa"
+    },
+    {
+     "kaynak": "Getty TGN 7002544",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7002544",
+     "lat": 7.9333,
+     "lon": 81.0333,
+     "not": "Polonnaruwa"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Remle",
+   "durum": "cift_tanik",
+   "lat": 31.93,
+   "lon": 34.868,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Ramla",
+   "ulke_modern": "İsrail",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 7001366",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7001366",
+     "lat": 31.929228,
+     "lon": 34.865633,
+     "not": "Ramla; varyant Remle"
+    },
+    {
+     "kaynak": "GeoNames 293768",
+     "url_veya_atif": "https://www.geonames.org/293768",
+     "lat": 31.9275,
+     "lon": 34.8625,
+     "not": "Ramla"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2043636",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2043636",
+     "lat": 31.931566,
+     "lon": 34.872938,
+     "not": "Ramla, Israel"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, REMLE",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/remle",
+     "lat": null,
+     "lon": null,
+     "not": "Yafa-Kudüs yolu üstünde Şefelah ovasında, Kudüs'e yaklaşık 45 km"
+    }
+   ],
+   "hesap": "Ramla-Kudüs doğrusal ≈ 37 km (DAI Kudüs 31.77,35.21); TDV 45 km yol mesafesi, uyumlu",
+   "not": "524 'Remle antlaşması' (III. Münzir/Bizans) bu Ramla olmayabilir (Suriye çölü); 940 ve 971 maddeleri Filistin Remle'sidir. Pleiades 678356 (32.93,35.37) yanlış eşleşme."
+  },
+  {
+   "ad": "Berdea",
+   "durum": "cift_tanik",
+   "lat": 40.3833,
+   "lon": 47.1167,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Barda (Berdaa, Partav)",
+   "ulke_modern": "Azerbaycan",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 1052540",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1052540",
+     "lat": 40.3833,
+     "lon": 47.1167,
+     "not": "Bərdə; varyant Barda"
+    },
+    {
+     "kaynak": "GeoNames None",
+     "url_veya_atif": "https://www.geonames.org/None",
+     "lat": 40.37577,
+     "lon": 47.12619,
+     "not": "Barda"
+    },
+    {
+     "kaynak": "Old World Trade (WHG owtrad)",
+     "url_veya_atif": "whgazetteer.org",
+     "lat": 40.3844,
+     "lon": 47.1239,
+     "not": "Barda"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, ARRAN",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/arran",
+     "lat": null,
+     "lon": null,
+     "not": "Berdea Arrân'ın başşehri; modern ad TDV'de verilmez"
+    }
+   ],
+   "hesap": "",
+   "not": "Kimlik Berdea=Barda; akademik ortamda yerleşik kabul (örn. Voprosy Istorii 2019, 'Barda city materials'). Tarif sayısal değil, koordinat TGN+GeoNames."
+  },
+  {
+   "ad": "Berdesîr",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tanik": [
+    {
+     "kaynak": "Pleiades 29802",
+     "url_veya_atif": "https://pleiades.stoa.org/places/29802",
+     "lat": 30.273015,
+     "lon": 57.068581,
+     "not": "Bardasir adı Kirman şehrine bağlı"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2750086",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2750086",
+     "lat": 29.9275,
+     "lon": 56.572222,
+     "not": "Bardsir kasabası"
+    }
+   ],
+   "hesap": "",
+   "not": "Bardasîr iki adaydır: (1) Kirman şehri — Pleiades 29802 'Veh Ardashir/Bardasir/Govasir' adları altında 30.273,57.0686; (2) modern Bardsir kasabası — DAI 2750086 29.9275,56.5722. TDV Kirman maddesi Berdsîr'i Kirman ostanının ayrı şehristanı sayar. Hangisi olduğu kaynakla belirlenemedi (1079 'Melikşah Kirman seferi' Kirman şehrini düşündürür)."
+  },
+  {
+   "ad": "Baden",
+   "durum": "cift_tanik",
+   "lat": 48.7606,
+   "lon": 8.2398,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Baden-Baden (Hohenbaden)",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2045408",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2045408",
+     "lat": 48.7606,
+     "lon": 8.23975,
+     "not": "Baden-Baden"
+    },
+    {
+     "kaynak": "Getty TGN 7005172",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7005172",
+     "lat": 48.75,
+     "lon": 8.25,
+     "not": "Baden-Baden; varyant Baden, Aquae Aureliae"
+    },
+    {
+     "kaynak": "Truhart (WHG)",
+     "url_veya_atif": "whgazetteer.org",
+     "lat": 48.7619,
+     "lon": 8.2408,
+     "not": "Baden"
+    }
+   ],
+   "hesap": "",
+   "not": "Baden Markgraflığı adını Baden-Baden/Hohenbaden'den alır. Kimlik sayısal kaynaklarla değil, TGN varyantıyla kuruldu."
+  },
+  {
+   "ad": "Girit",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2404005",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2404005",
+     "lat": 35.34194,
+     "lon": 25.14238,
+     "not": "Kreta island"
+    }
+   ],
+   "hesap": "",
+   "not": "Ada; Girit Emirliği'nin merkezi Handak (Kandiye, Heraklion) idi. DAI 2404005 Kreta [35.34194,25.14238]. Ada adı bölge düzeyi."
+  },
+  {
+   "ad": "Bahreyn",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "İslâm kaynaklarında Bahreyn doğu Arabistan kıyı bölgesidir (Katîf, Hasâ, Hecer), modern ada ülke değil. Karmatîlerin merkezi Ahsâ/Müminiyye. Bölge adı."
+  },
+  {
+   "ad": "Verdun",
+   "durum": "cift_tanik",
+   "lat": 49.1595,
+   "lon": 5.3838,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Verdun-sur-Meuse",
+   "ulke_modern": "Fransa",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 109435",
+     "url_veya_atif": "https://pleiades.stoa.org/places/109435",
+     "lat": 49.1592415,
+     "lon": 5.383154,
+     "not": "Viriodunum, BAtlas 11 F3"
+    },
+    {
+     "kaynak": "GeoNames 2969963",
+     "url_veya_atif": "https://www.geonames.org/2969963",
+     "lat": 49.15964,
+     "lon": 5.3829,
+     "not": "Verdun (HCED/GeoNames)"
+    }
+   ],
+   "hesap": "",
+   "not": "Verdun Antlaşması 843. TGN Verdun-sur-Garonne kaydı 'Verdun-sur-Meuse' varyantını yanlışlıkla taşır, reddedildi."
+  },
+  {
+   "ad": "Dekan",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Dekkan platosu: coğrafi bölge adı (Rashtrakuta egemenlik alanı), nokta yok."
+  },
+  {
+   "ad": "Nehrevân",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tanik": [
+    {
+     "kaynak": "Pleiades 894138",
+     "url_veya_atif": "https://pleiades.stoa.org/places/894138",
+     "lat": 33.431926,
+     "lon": 44.583522,
+     "not": "Tell Isheiri/Nahrawan?, soru işaretli"
+    }
+   ],
+   "hesap": "",
+   "not": "Nehrevân Savaşı yeri: Pleiades 894138 'Tell Isheiri/Nahrawan?' 33.4319,44.5835 (soru işaretli, tek tanık). GeoNames'te Nahr Nahrawân al-Qadîm kanalı 33.59,44.63 (kanal). DAI ve TGN'de kayıt yok; TDV konum vermiyor."
+  },
+  {
+   "ad": "Dazaifu",
+   "durum": "cift_tanik",
+   "lat": 33.5128,
+   "lon": 130.5239,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Dazaifu",
+   "ulke_modern": "Japonya (Fukuoka)",
+   "tanik": [
+    {
+     "kaynak": "GeoNames 7422816",
+     "url_veya_atif": "https://www.geonames.org/7422816",
+     "lat": 33.512778,
+     "lon": 130.523889,
+     "not": "Dazaifu-shi"
+    },
+    {
+     "kaynak": "Getty TGN 1100552",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1100552",
+     "lat": 33.5167,
+     "lon": 130.5167,
+     "not": "Dazaifu"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Derbent",
+   "durum": "cift_tanik",
+   "lat": 42.0678,
+   "lon": 48.2899,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Derbent (Bâbülebvâb)",
+   "ulke_modern": "Rusya (Dağıstan)",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2733233",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2733233",
+     "lat": 42.0678,
+     "lon": 48.28987,
+     "not": "Derbent"
+    },
+    {
+     "kaynak": "Getty TGN 7012248",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7012248",
+     "lat": 42.05,
+     "lon": 48.3,
+     "not": "Derbent"
+    },
+    {
+     "kaynak": "Bregel Historical Atlas (WHG)",
+     "url_veya_atif": "whgazetteer.org",
+     "lat": 42.0692,
+     "lon": 48.2958,
+     "not": "Derbend"
+    }
+   ],
+   "hesap": "",
+   "not": "Pleiades 962627 (Demirkapı, Özbekistan) yanlış eşleşme. Hâşimî emirleri Derbent'te (Dağıstan)."
+  },
+  {
+   "ad": "Tel İfrîn",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Tel İfrîn için sayısal kaynak bulunamadı (TGN: yalnız Afrin Suyu/Kanalı; GeoNames Afrin kasabası 36.51,36.87 tel değil; DAI'de yok). Kanlı Meydan (Ager Sanguinis) Sarmada/Balat çevresi; Tel İfrîn ile ilişki teyitsiz."
+  },
+  {
+   "ad": "Bagan",
+   "durum": "cift_tanik",
+   "lat": 21.17,
+   "lon": 94.855,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Pagan (Eski Bagan)",
+   "ulke_modern": "Myanmar",
+   "tanik": [
+    {
+     "kaynak": "Getty TGN 7002172",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7002172",
+     "lat": 21.1667,
+     "lon": 94.85,
+     "not": "Bagan; varyant Pagan, Old Bagan"
+    },
+    {
+     "kaynak": "GeoNames None",
+     "url_veya_atif": "https://www.geonames.org/None",
+     "lat": 21.17163,
+     "lon": 94.85856,
+     "not": "Old Bagan"
+    }
+   ],
+   "hesap": "",
+   "not": ""
+  },
+  {
+   "ad": "Rûyân",
+   "durum": "bolge_adi",
+   "lat": null,
+   "lon": null,
+   "tanik": [],
+   "hesap": "",
+   "not": "Taberistan'ın batı dağlık bölgesi (Rûyân/Kelâr-Çâlûs); bölge adı. Kaynaklarda şehir olarak nokta yok."
+  },
+  {
+   "ad": "Kartaca",
+   "durum": "cift_tanik",
+   "lat": 36.8531,
+   "lon": 10.3231,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Kartaca (Carthage)",
+   "ulke_modern": "Tunus",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 314921",
+     "url_veya_atif": "https://pleiades.stoa.org/places/314921",
+     "lat": 36.853056,
+     "lon": 10.323056,
+     "not": "Carthago"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2282702",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2282702",
+     "lat": 36.86667,
+     "lon": 10.33333,
+     "not": "Carthage"
+    },
+    {
+     "kaynak": "Getty TGN 7016143",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7016143",
+     "lat": 36.85,
+     "lon": 10.3333,
+     "not": "Carthage"
+    }
+   ],
+   "hesap": "",
+   "not": "Pleiades Tunes (36.80,10.17) farklı yerdir."
+  },
+  {
+   "ad": "Deybül",
+   "durum": "cift_tanik",
+   "lat": 24.7516,
+   "lon": 67.5214,
+   "tur": "liman",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Debal / Banbhore",
+   "ulke_modern": "Pakistan (Sind)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 91371094",
+     "url_veya_atif": "https://pleiades.stoa.org/places/91371094",
+     "lat": 24.7517,
+     "lon": 67.5215,
+     "not": "Debal/Banbhore"
+    },
+    {
+     "kaynak": "Getty TGN 8060351",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/8060351",
+     "lat": 24.7514,
+     "lon": 67.5213,
+     "not": "Debal; varyant Banbhore, Daybul"
+    },
+    {
+     "kaynak": "TDV İslâm Ansiklopedisi, DEYBUL",
+     "url_veya_atif": "https://islamansiklopedisi.org.tr/deybul",
+     "lat": null,
+     "lon": null,
+     "not": "İndus nehrinin batısındaki koy ağzında"
+    }
+   ],
+   "hesap": "",
+   "not": "Deybül=Banbhore kimliği literatürde tartışmalıdır; iki veritabanı Banbhore'yi gösterir."
+  },
+  {
+   "ad": "Ellendune",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tanik": [
+    {
+     "kaynak": "HCED (WHG)",
+     "url_veya_atif": "whgazetteer.org",
+     "lat": 51.5558,
+     "lon": -1.7797,
+     "not": "Ellandun"
+    },
+    {
+     "kaynak": "Getty TGN 1031239",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/1031239",
+     "lat": 51.5167,
+     "lon": -1.7833,
+     "not": "Wroughton"
+    }
+   ],
+   "hesap": "",
+   "not": "Ellandun savaş yeri geleneksel olarak Wroughton (Wiltshire) kabul edilir: HCED 51.5558,-1.7797; TGN Wroughton 51.5167,-1.7833. Savaş alanı kesin değil, kimlik kaynakla belgelenemedi; çift tanık verilmedi."
+  },
+  {
+   "ad": "Eski Kahire",
+   "durum": "cift_tanik",
+   "lat": 30.006,
+   "lon": 31.232,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Babilon Kalesi / Fustat (Mısır Atîka)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 727082",
+     "url_veya_atif": "https://pleiades.stoa.org/places/727082",
+     "lat": 30.005783,
+     "lon": 31.2301075,
+     "not": "Babylon/al-Fusṭāṭ/Old Cairo"
+    },
+    {
+     "kaynak": "Getty TGN 7024441",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7024441",
+     "lat": 30.007366,
+     "lon": 31.239267,
+     "not": "Miṣr al-Qadīmah; varyant Al-Fustat"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2771819",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2771819",
+     "lat": 30.02303,
+     "lon": 31.244602,
+     "not": "al-Qahira al-Qadima, semt noktası"
+    }
+   ],
+   "hesap": "",
+   "not": "Babilon Kalesi (Pleiades 758514868) 30.0059,31.2299; Fustat 30.005-30.007,31.238; 1 km içinde."
+  }
+ ]
+}

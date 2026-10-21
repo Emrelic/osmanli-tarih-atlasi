@@ -4,6 +4,9 @@
 // Mükerrer tarama: normalleştirilmiş ad (30 km) + 3 km. BAĞLAMA YAPILMADI (girdi_listesi/index.html'e dokunulmadı).
 window.YERLESIMLER_ONCE1281_YT_DOGU_GD_ASYA = [
 
+{ ad:"Dazaifu", tur:"sehir", lat:33.5128, lon:130.5239, g:0, k:0, s:[], d:[],
+  not:"YER-TANIMA: kronolojide Dazaifu adıyla geçer; eski adlar: -; modern: Dazaifu (Japonya (Fukuoka)). ",
+  kaynak:"ÇİFT TANIK: GeoNames 7422816 https://www.geonames.org/7422816 (33.512778, 130.523889) · Getty TGN 1100552 http://vocab.getty.edu/tgn/1100552 (33.5167, 130.5167) · denetim/yer-arastirma/parti_91_sonuc.json" },
 { ad:"Moğolistan", tur:"bolge", lat:46.826, lon:103.056, g:0, k:0, s:[], d:[],
   konum_kesinlik:"bolge",
   not:"YER-TANIMA: kronolojide Moğolistan adıyla geçer; eski adlar: -; modern: - (Mongolia). BÖLGE TEMSİLCİSİ: yer bilinmiyor, Moğolistan bölgesi kaynakta. Nokta = Natural Earth 'Mongolia' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir).",
