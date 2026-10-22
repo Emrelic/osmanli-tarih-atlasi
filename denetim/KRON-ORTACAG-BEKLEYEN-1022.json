@@ -3072,5 +3072,127 @@
 "kaynak": "TDV: meyyafarikin",
 "_dosya": "ortadogu",
 "_neden": "mukerrer-tavan"
+},
+{
+"t": "0909-01-01",
+"kesinlik": "yil",
+"b": "Fâtımî halifeliği İfrîkıye'de kuruldu (Ubeydullah el-Mehdî)",
+"tur": "kurulus",
+"onem": 3,
+"dunya": 2,
+"kapsam": "dis",
+"etiket": [
+"siyaset",
+"konu-siyasi"
+],
+"d": "Fâtımî halifeliği İfrîkıye'de kuruldu (Ubeydullah el-Mehdî)",
+"kaynak": "TDV: fatimiler",
+"_dosya": "ortadogu",
+"_neden": "odaksiz"
+},
+{
+"t": "0935-01-01",
+"kesinlik": "yil",
+"b": "Muhammed b. Tuğç yeniden Mısır valiliğine atandı; İhşîdî dönemi başladı (Ağustos 935)",
+"tur": "kurulus",
+"onem": 3,
+"dunya": 2,
+"kapsam": "dis",
+"etiket": [
+"siyaset",
+"konu-siyasi"
+],
+"d": "Muhammed b. Tuğç yeniden Mısır valiliğine atandı; İhşîdî dönemi başladı (Ağustos 935)",
+"kaynak": "TDV: ihsidiler: '(Ramazan 323 / Ağustos 935)'",
+"_dosya": "ortadogu",
+"_neden": "odaksiz"
+},
+{
+"t": "1109-07-23",
+"kesinlik": "gun",
+"b": "Haçlılar Cebele'yi aldı; Ammâroğulları hânedanı sona erdi",
+"tur": "son",
+"onem": 3,
+"dunya": 2,
+"kapsam": "dis",
+"etiket": [
+"siyaset",
+"konu-siyasi"
+],
+"d": "Haçlılar Cebele'yi aldı; Ammâroğulları hânedanı sona erdi",
+"kaynak": "TDV: ibn-ammar-fahrulmulk",
+"_dosya": "ortadogu",
+"_neden": "odaksiz"
+},
+{
+"t": "1150-01-01",
+"kesinlik": "yil",
+"b": "II. Josselin Nûreddin'e esir düştü; kontluğun Fırat batısındaki kalıntısı Bizans'a satılıp dağıldı",
+"tur": "son",
+"onem": 3,
+"dunya": 2,
+"kapsam": "dis",
+"etiket": [
+"siyaset",
+"konu-siyasi"
+],
+"d": "II. Josselin Nûreddin'e esir düştü; kontluğun Fırat batısındaki kalıntısı Bizans'a satılıp dağıldı",
+"kaynak": "TDV: haclilar",
+"_dosya": "ortadogu",
+"_neden": "odaksiz"
+},
+{
+"t": "0789-01-01",
+"kesinlik": "yil",
+"b": "I. İdrîs'e Velîlâ'da Evrebe kabilesince biat edildi; İdrîsî devleti kuruldu",
+"tur": "kurulus",
+"onem": 2,
+"dunya": 2,
+"kapsam": "dis",
+"etiket": [
+"kurulus",
+"konu-siyasi"
+],
+"d": "I. İdrîs'e Velîlâ'da Evrebe kabilesince biat edildi; İdrîsî devleti kuruldu",
+"kaynak": "TDV: idrisiler: '(172/789)'",
+"ic_not_d": "Devlet künyesi kronolojisinden (idrisi) aynen taşındı; kaynak alanı korundu.",
+"_dosya": "iberya_magrib",
+"_neden": "odaksiz"
+},
+{
+"t": "0985-01-01",
+"kesinlik": "yil",
+"b": "Son İdrîsî II. Hasan, Hâcib el-Mansûr'un adamlarınca öldürüldü; hânedan sona erdi",
+"tur": "son",
+"onem": 2,
+"dunya": 2,
+"kapsam": "dis",
+"etiket": [
+"son",
+"konu-siyasi"
+],
+"d": "Son İdrîsî II. Hasan, Hâcib el-Mansûr'un adamlarınca öldürüldü; hânedan sona erdi",
+"kaynak": "TDV: idrisiler: '(375/985)'",
+"ic_not_d": "Devlet künyesi kronolojisinden (idrisi) aynen taşındı; kaynak alanı korundu.",
+"_dosya": "iberya_magrib",
+"_neden": "odaksiz"
+},
+{
+"t": "1130-01-01",
+"kesinlik": "yil",
+"b": "İbn Tûmert'in ölümünün ardından Abdülmü'min el-Kûmî devleti resmen kurdu",
+"tur": "kurulus",
+"onem": 2,
+"dunya": 2,
+"kapsam": "dis",
+"etiket": [
+"kurulus",
+"konu-siyasi"
+],
+"d": "İbn Tûmert'in ölümünün ardından Abdülmü'min el-Kûmî devleti resmen kurdu",
+"kaynak": "TDV: muvahhidler — «Devletin resmen teşekkülü ise dokuz yıl sonra, onun ölümünün (14 Ramazan 524 / 21 Ağustos 1130) ardından Abdülmü’min el-Kûmî tarafından gerçekleştirildi»",
+"ic_not_d": "Devlet künyesi kronolojisinden (muvahhidler) aynen taşındı; kaynak alanı korundu.",
+"_dosya": "iberya_magrib",
+"_neden": "odaksiz"
 }
 ]
