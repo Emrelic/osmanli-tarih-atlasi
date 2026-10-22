@@ -139,6 +139,48 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Agra'yı kur:1504 ile açıyor ('Sikandar kurdu'); TDV/Iranica'ya göre şehir 1081'de zaten kaleli yerleşim, Sikandar yalnız yeniden inşa/başkent (TDV 1495, Iranica 1505 yeni kale). Atlas başlangıcı 1504 → 1081'e çekilebilir, ama 1099-1206 BOŞLUK ve 1206-1504 'Biyâna'ya bağlı Delhi Sultanlığı' beyanlıdır. Kaynak çelişkisi: Sikandar'ın taşınma yılı TDV 1495 / Iranica 898/1492 kuşatma + 911/1505 kale / Britannica 1911 ≈1500 / atlas 1504. Hindi/Urduca ve ASI kaynakları açılamadı. Britannica 1911 yalnız ikinci tanık."
  },
  {
+  "id": "ahmedabad",
+  "ad": "Ahmedâbâd",
+  "atlas_ad": "Ahmedâbâd",
+  "lat": 23.023,
+  "lon": 72.571,
+  "kat1900": 3,
+  "adlar": [
+   "Asâval (Asaval, yakın eski yerleşim; eşitleme belirsiz)",
+   "Ahmedâbâd"
+  ],
+  "ilk": {
+   "t": "1411-03-04",
+   "gun": "4 Mart 1411",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "Gazetteer of the Bombay Presidency vol. IV Ahmedabad (1879), Section I History (archive.org dli.csl.3354); yıl çift teyit: TDV İslâm Ansiklopedisi, AHMEDÂBÂD (M. Oğuz), https://islamansiklopedisi.org.tr/ahmedabad",
+   "tanik": "In 1411 (March 4th) Sultan Ahmad I.",
+   "ic_not": "Gazetteer dipnotu: 'Zi Kâdah 7th, 813 H' (Blochmann, Ain-i-Akbari I.507); tablo takvimiyle 7 Zilkade 813 = 1411-03-03 (Jülyen, ±1 gün) — Gazetteer'in 4 Mart'ıyla uyumlu. Ferishta 1413 verir (Gazetteer). TDV yalnız yıl: 'Asâval şehrinin yakınında kuruldu (1411)'."
+  },
+  "kur": {
+   "t": "1411-03-04",
+   "gun": "4 Mart 1411",
+   "kesinlik": "gun",
+   "kaynak": "Gazetteer of the Bombay Presidency vol. IV Ahmedabad (1879), Section I History (archive.org dli.csl.3354)",
+   "tanik": "In 1411 (March 4th) Sultan Ahmad I."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1411-03-04",
+    "gun": "4 Mart 1411",
+    "k": "kurulus",
+    "b": "Gucerât Sultanı I. Ahmed Şah Asâval yakınında Ahmedâbâd'ı başşehir olarak kurar.",
+    "kaynak": "Gazetteer of the Bombay Presidency vol. IV Ahmedabad (1879), Section I History (archive.org dli.csl.3354)",
+    "tanik": "In 1411 (March 4th) Sultan Ahmad I."
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: ilk.t atlas başlangıcından (1411-02-26) 6 gün SONRA. ATLAS DÜZELTME ÖNERİSİ: atlasın 1411-02-26 günü bu oturumda kaynaklanamadı; Gazetteer 4 Mart 1411 (7 Zilkade 813) verir, TDV yalnız 1411 — 26 Şubat'ın kaynağı gösterilmeli ya da 1411-03-04'e çekilmeli (karar Emre'nin). ÖNCEKİ YERLEŞİM (eşitleme belirsiz, başlangıç sayılmadı): Asâval/Asawal. Yazılı tanıklar bu oturumda okundu: (a) Elliot & Dowson I, 'Rashidu-d Din from Al Biruni' (Elliot: Biruni 970-1039): 'to Asawal, two days’ journey' (Biruni, ~11. yy ilk yarısı); (b) Elliot I, Idrisi (1154): Asawal 'populous, commercial, rich' kent; (c) Bombay Gazetteer IV Section I History, dipnot 1: Karan (1072-1094) Asaval'ı başşehir yapıp Karnâvati adını verdi, 'Karan was not its founder'; Idrisi 1150'de zengin kent. TDV: Ahmedâbâd Asâval'ın 'yakınında' kuruldu; Gazetteer: Ahmed Şah 'Asaval'ın' yerini seçti — aynı nokta mı bilinmez (Elliot: 'Asawal is an old name of Ahmadabad'). Asaval ayrı kayıt olarak önerilir (ilk anılış Biruni, güvenli uç 1039 [Elliot'un ölüm yılı]; sahipler: Caulukya 1000-1297 künyeli → 1299-1300 Delhi → Gucerât 1407); aktarım Emre kararıyla."
+ },
+ {
   "id": "ahmednagar",
   "ad": "Ahmednagar",
   "atlas_ad": "Ahmednagar",
@@ -6119,6 +6161,62 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "SONUÇ: Çitor için 1281 öncesi tek okunmuş tanıklar Tod (1829-32) ve IG (1908); ikisi de zayıf ve birbiriyle çelişiyor (Bapa 728/734; Rahup 1201/14. yy). Modern epigrafik kaynaklar (Epigraphia Indica, Man Mori kitabesi MS 713; Kumarapâla Çitor yazıtı VS 1207; Jaitrasimha dönemi) AÇILAMADI. 1303 kuşatması (Alâüddin Halacî; IG 'sack of Chitor 1303'), 1567 Ekber kuşatması atlasın kapsamında, dokunulmadı. ATLAS DÜZELTME ÖNERİSİ: atlas 1281'de 'racput' ile açıyor — 1201-1281 Guhila varlığı kaynaklı değil; IG'ye göre Rahup 1303 sonrası. Atlas 1281-1303 'racput' dönemi için TDV/İSAM/Rajasthan Gazetteer ile ayrı teyit gerek. Antik: Nagari/Madhyamika (Chitorgarh'a ~15 km) ayrı kayıt önerisi."
  },
  {
+  "id": "cinci",
+  "ad": "Cinci (Gingee)",
+  "atlas_ad": "Cinci (Gingee)",
+  "lat": 12.252,
+  "lon": 79.397,
+  "kat1900": 3,
+  "adlar": [
+   "Senji",
+   "Sengi",
+   "Jinji",
+   "Gingee",
+   "Cinci"
+  ],
+  "ilk": {
+   "t": "1135-01-01",
+   "gun": "Vikrama Cola dönemi (1118-c.1135)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "K. A. Nilakanta Sastri, The Colas (1955), archive.org acc.-no.-16079-the-colas-1955, s.347 ve n.37 (Vikramasolan-ula)",
+   "tanik": "Lord of the Sefijiyar of the strong embattled fortress",
+   "ic_not": "Sastri n.37: 'This is perhaps the earliest mention of the fortress of Gingee'. Kaynak, Vikrama Cola'nın feodal beylerini sayan ula pasajı; ula'nın kesin yılı verilmez. Vikrama Cola 1133 Mayıs-Temmuz'da Kulottunga II'yi veliaht seçti, 'Vikramacola's rule continued for a period of about two years thereafter' → güvenli uç 1135. 'Perhaps' (belki) — ihtiyatlı ifade; Wikipedia'daki 1123 ('Moovarula') ikinci tanık olarak kullanılmadı, kaynaksız bırakıldı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1135-01-01",
+    "t": "1279-01-01",
+    "d": "cola",
+    "kesinlik": "yil",
+    "kaynak": "K. A. Nilakanta Sastri, The Colas (1955), archive.org acc.-no.-16079-the-colas-1955, s.347-348, Ch. XV-XVI",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Senji beyi (Kadava/Sengeni-Sambuvaraya hattı) Cola vassalı olarak sayılır; Kadava Kopperunjinga (1216-1242) fiilen yarı bağımsız ve Pandya/Hoysala baskısı altında (Sastri Ch. XVI); 1250'lerden Sundara Pandya Kancipuram'ı alır. Cola sürdürüldü."
+   },
+   {
+    "f": "1279-01-01",
+    "t": "1281-01-01",
+    "d": "pandya",
+    "kesinlik": "yil",
+    "kaynak": "K. A. Nilakanta Sastri, The Colas (1955), archive.org acc.-no.-16079-the-colas-1955, Ch. XVI",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Cola çöküşünde (c.1279) Pandya üstünlüğü; Gingee'ye özgü tanık okunmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1279-01-01",
+    "gun": "c. 1279",
+    "k": "fetih",
+    "b": "Pandya Maravarman Kulasekhara Cola'yı yener; Cola ülkesi Pandya üstünlüğüne girer.",
+    "kaynak": "K. A. Nilakanta Sastri, The Colas (1955), archive.org acc.-no.-16079-the-colas-1955, Ch. XVI",
+    "tanik": "They were both defeated in battle about 1279 by Maravarman Kulasekhara"
+   }
+  ],
+  "ic_not": "Atlas 1281-1311 pandya ile dikiş. kat1900 satırı LISTE'de bulunamadı (3 varsayıldı). Çift teyit YOK."
+ },
+ {
   "id": "colonia-del-sacramento",
   "ad": "Colonia del Sacramento",
   "atlas_ad": "Colonia del Sacramento",
@@ -6279,6 +6377,101 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK (kural): ilk.t 1719-04-08 atlas başlangıcıyla (1719-04-08, portekiz-brezilyasi) aynı → sahip yazılmaz; atlas kur'u KAYNAKLI (IBGE + UFU akademik makalesi, ikisi 8 Nisan 1719 der; çift teyit sayılır ama UFU IBGE 2007'ye atıf yapar, bağımsızlığı sınırlı). Denetim 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR. ATLAS DÜZELTME ÖNERİSİ: gün doğru; ancak (a) YER FARKI: 8 Nisan 1719 tutanağı Forquilha'da (Coxipó kıyısı) düzenlendi; bugünkü kent merkezi (atlas koordinatı) Miguel Sutil'in 1722'de Prainha deresi kıyısında kurduğu 'Lavra do Sutil' mevkiidir — IBGE: 'A mudança de Cuiabá para o sítio atual se deve ao sorocabano Miguel Sutil de Oliveira'; UFU makalesi (Bezerra de Sá'ya atıfla) Sutil'in yeni madenlere 1722'de geldiğini yazar. Forquilha–merkez mesafesi kaynakta verilmedi, ÖLÇÜLMEDİ (>3 km ise kural gereği modern nokta kendi kuruluşundan başlamalı: 1722 günü bulunamadı; öneri Forquilha'yı ayrı kayıt + merkez için 1722 araştırması). (b) vila: Vila Real do Senhor Bom Jesus de Cuiabá 'instalado em 01-01-1727' (IBGE; 'erigida' yılı IBGE'de 1726, UFU 1 Ocak 1727 yazar — Cuiabá şehir 17-09-1818 carta de lei). Öncül: IBGE yerli ad kökeni 'lugar em que os bororós costumavam pescar' (Albisetti) ve Pascoal'ın 'aldeamentos de índios coxiponés' haberi aldığı (IBGE); UFU'ya göre Manoel de Campos Bicudo 1673/1682'de Coxipó–Cuiabá birleşiminde São Gonçalo povoado'sunu kurmuş, Pascoal 1718'de terk edilmiş halde bulmuş (IBGE 2007 atfıyla). Bu yazılı öncüllerin gün/sahip kaydı yok → zincir yazılmadı. Arkeolojik kayıt (Cuiabá bölgesi) aranmadı/bulunamadı. Ata'nın birincil neşri (Anais da Biblioteca Nacional / Documentos Históricos) bu oturumda açılamadı: bulunamadı. kat1900 2 (eyalet merkezi Mato Grosso, 1835'ten)."
+ },
+ {
+  "id": "cunagadh",
+  "ad": "Cûnâgadh",
+  "atlas_ad": "Cûnâgadh",
+  "lat": 21.522,
+  "lon": 70.457,
+  "kat1900": 3,
+  "adlar": [
+   "Girinagara (eşitleme: 'Junagadh or its ancient representative')",
+   "Jirnadurga/Jirangadh",
+   "Junagadh",
+   "Cûnâgadh"
+  ],
+  "ilk": {
+   "t": "0152-01-01",
+   "gun": "MS 151-152",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "G. Kielhorn, 'Junagadh Rock Inscription of Rudradaman', Epigraphia Indica VIII (1905-06), s.36-49, archive.org in.ernet.dli.2015.56654",
+   "tanik": "Girinagara, ‘ the hill-city/ as was recognized already by Prof. liagsen",
+   "ic_not": "Rudradaman yazıtı (Saka çağı 72. yıl = 18 Ekim veya 16 Kasım MS 150 olay günü; Kielhorn: 'our inscription may be assumed to have been composed about A.D. 151 or 152') → güvenli uç 152. EŞİTLEME UYARISI (başlangıç sayılması Emre kararına bağlı): EI: Girinagara 'the earlier name of the town of Junagadh or its ancient representative'; Fleet CII III s.57: eski şehir 'not where the modern town stands, but closer up to the mountain' olabilir; Bombay Gazetteer VIII: 'In this inscription Jundgad is called Girinagar' ve 'Uparkot is the ancient Junagad'. Mesafe ölçülmedi; kabul edilmezse ilk = Chudasama dönemi (aşağıdaki racput 875) kalır. Mauryaların (Pushyagupta/Tushaspha, Sudarsana gölü) bu yerde olduğu yazıtta geçer ama gün/yıl yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0152-01-01",
+    "t": "0405-01-01",
+    "d": "sakalar-bati-satraplar",
+    "kesinlik": "yil",
+    "kaynak": "G. Kielhorn, 'Junagadh Rock Inscription of Rudradaman', Epigraphia Indica VIII (1905-06), s.36-49, archive.org in.ernet.dli.2015.56654",
+    "ic_not": "Yazıtta mahâkshatrapa Rudradaman Anarta-Surashtra'yı yönetir ('Surashtra' valisi Suvisakha atanır). t künye sonudur (0405); gerçek Kshatrapa sonu için Junagadh'a özgü tanık okunmadı."
+   },
+   {
+    "f": "0405-01-01",
+    "t": "0455-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "yil",
+    "kaynak": "bulunamadı (Kshatrapa sonu → Gupta; Junagadh'a özgü tarihli tanık yok)",
+    "ic_not": "Gazetteer VIII: Kumâragupta'nın fethi 'yerel gelenek'; Junagadh'ta Kshatrapa son tanığı ile Skandagupta yazıtı (455) arası 50 yıl; uydurma sahip yazılmadı."
+   },
+   {
+    "f": "0455-01-01",
+    "t": "0457-01-01",
+    "d": "gupta",
+    "kesinlik": "yil",
+    "kaynak": "J. F. Fleet, Corpus Inscr. Indic. III (Inscriptions of the Early Gupta Kings), No. 14, s.56-57, archive.org in.ernet.dli.2015.463254",
+    "ic_not": "Skandagupta yazıtı: Parnadatta 'Surashtra'yı yönetmek üzere atandı, oğlu Chakrapalita şehri yönetir; tarih 'one hundred and thirty-six (A.D. 455-56)'. t=457: 137/138. yıl yazıtlarını okumadım, yalnız 136 tanıklı; f..t dar tutuldu."
+   },
+   {
+    "f": "0457-01-01",
+    "t": "0875-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "yil",
+    "kaynak": "bulunamadı (Valabhi/Chavada/Caulukya Junagadh'a özgü tarihli tanık okunamadı)",
+    "ic_not": "Bombay Gazetteer VIII: Guptaların yerine Valabhi hanedanı geçti, sonra Anhilvada Chavadaları 'possibly'; kesin değil."
+   },
+   {
+    "f": "0875-01-01",
+    "t": "1281-01-01",
+    "d": "racput",
+    "kesinlik": "onyil",
+    "kaynak": "Gazetteer of the Bombay Presidency VIII Kathiawar (1884), archive.org in.ernet.dli.2015.281422, Ch. VII",
+    "ic_not": "Chudasama (Racput, Jadav soyundan) hanedanı: Gazetteer 'established themselves at Vanthli and Jundgad'; bölüm başlığı 'about A.D. 875' (OCR bozuk, okunabilirliği zayıf). Anhilvada (Caulukya, künye 1000-1297) üstünlüğü 942'den (Mularaj) sonra anlatılır ama Ra Junagadh'ta kalır; Sidhraj 1125 fethi süresi belirsiz kısa ele geçirme (dönem açılmadı). racput künyesi f=1000 → hayalet uyarısı beklenir; künye GENİŞLET önerisi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0150-11-16",
+    "gun": "MS 150",
+    "k": "diger",
+    "b": "Sudarsana gölü fırtınada yarılır (Rudradaman'ın 72. yılı); gölün Mauryalar zamanında yapıldığı yazıtta geçer.",
+    "kaynak": "G. Kielhorn, 'Junagadh Rock Inscription of Rudradaman', Epigraphia Indica VIII (1905-06), s.36-49, archive.org in.ernet.dli.2015.56654",
+    "tanik": "Girinagara, ‘ the hill-city/ as was recognized already by Prof. liagsen"
+   },
+   {
+    "t": "0455-01-01",
+    "gun": "MS 455-56",
+    "k": "diger",
+    "b": "Skandagupta'nın Junagadh yazıtı: Parnadatta Surashtra valisi, oğlu Chakrapalita şehir valisi.",
+    "kaynak": "Fleet, CII III No.14, s.56-57",
+    "tanik": "making the calculation in the reckoning of the Guptas"
+   },
+   {
+    "t": "1125-01-01",
+    "gun": "1125",
+    "k": "fetih",
+    "b": "Sidhraj Jayasingh (Anhilvada) Junagadh'ı alır, vali bırakır; halk valiyi kovar, Ra Noghan III tahta çıkar (Gazetteer 1125; süre belirsiz).",
+    "kaynak": "Gazetteer of the Bombay Presidency VIII Kathiawar (1884), archive.org in.ernet.dli.2015.281422, Ch. VII",
+    "tanik": "Sidhraj left behind him a viceroy at Junagad"
+   }
+  ],
+  "ic_not": "ATLAS: 1281 'racput' ile uyumlu (Chudasama). Atlas 1281-1472 racput, 1472 Gucerât (Mahmud Begada) — Gazetteer 1472 ile aynı. kat1900 LISTE'de satır bulunamadı (3 varsayıldı). Gazetteer VIII 1884 derlemesidir (bard geleneği + yazıt); tarihler modern akademiyle teyit edilmedi, çift teyit YOK."
  },
  {
   "id": "cuttack",
@@ -6771,6 +6964,59 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Kuruluş bulunamadı. Zincir ilk anılış (6. yy) ile başlar; Roma ve Burgund (burgund 443-534) dönemleri çağdaş yazılı tanıkla bağlanamadı — ilk anılıştan geriye sahiplik üretilmedi. Vikipedi kullanılmadı. Çift teyit YOK. Atlas Dijon 1281'de burgonya (enklav) — dikiş uyumlu."
+ },
+ {
+  "id": "diu",
+  "ad": "Diu",
+  "atlas_ad": "Diu",
+  "lat": 20.714,
+  "lon": 70.985,
+  "kat1900": 2,
+  "adlar": [
+   "Dio",
+   "Diû",
+   "Diu"
+  ],
+  "ilk": {
+   "t": "1299-01-01",
+   "gun": "1299 (698 H; kaynak 1298-99)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, DİÛ (K. A. Nizami), https://islamansiklopedisi.org.tr/diu",
+   "tanik": "Cudasâmalar’ın elinde iken 698’de (1298-99) Sultan Alâeddin Halacî tarafından alınarak",
+   "ic_not": "TDV hicrî 698'i '1298-99' diye verir; aralığın SON ucu 1299 alındı (hicrî 698 ≈ 1298-10..1299-09, tablo takvimi). Bu, ADIN ilk anılışı değil, 1281 sonrasındaki ilk TARİHLİ tanıktır; 1281 öncesine ait tanık bulunamadı (Elliot-Dowson I'de 'Diu' yok; Bombay Gazetteer I.1 'Diu' geçişleri yalnız Kshatrapa/Sindan bağlamında, yeri belirsiz)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1299-01-01",
+    "gun": "1299 (698 H; kaynak 1298-99)",
+    "k": "fetih",
+    "b": "Delhi Sultanı Alâeddin Halacî, Cudasâma elindeki Diû'yu alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, DİÛ (K. A. Nizami), https://islamansiklopedisi.org.tr/diu",
+    "tanik": "Cudasâmalar’ın elinde iken 698’de (1298-99) Sultan Alâeddin Halacî tarafından alınarak"
+   },
+   {
+    "t": "1349-01-01",
+    "gun": "1349",
+    "k": "fetih",
+    "b": "Tekrar Hindu eline geçen Diû'yu Muhammed b. Tuğluk yeniden fetheder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, DİÛ (K. A. Nizami), https://islamansiklopedisi.org.tr/diu",
+    "tanik": "tekrar Hindular’ın eline geçen şehri 1349’da Sultan Muhammed b. Tuğluk yeniden fetheddi"
+   },
+   {
+    "t": "1537-02-13",
+    "gun": "13 Şubat 1537",
+    "k": "kayip",
+    "b": "Bahadır Şah Portekiz gemisinde öldürülür; Nuno da Cunha ertesi dönemde adayı ele geçirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, DİÛ (K. A. Nizami), https://islamansiklopedisi.org.tr/diu",
+    "tanik": "Nuno da Cunha adayı kolaylıkla ele geçirdi"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: ilk.t (1299) atlas başlangıcından (1281) SONRA; kural gereği 1281 öncesi sahip yazılmaz. ATLAS DÜZELTME ÖNERİSİ: atlas 1281-1304 'racput' kaynaksız (TDV 'Cudasâmalar', yani Racput, ama gün yok); atlas Delhi 1304-1407 sürekli — TDV: 1298-99 Alâeddin alır, Delhi bunu 'uzun süre koruyamadı', Hindular geri aldı, 1349'da Tuğluk yeniden fethetti (aradaki Hindu dönemi atlasta yok); 1407'de Gucerât Sultanlığı, 1431 liman büyütülür; atlas Portekiz 1535-10-25: TDV 1535'te Portekiz'in kale yapma izni, 13 Şubat 1537'de Bahadır Şah ölümü + adanın Portekiz'e geçişi der — 1537 sonrası; atlas günü bu oturumda doğrulanamadı. Cudasâma = Chudasama (Junagadh Ra hanedanı); 'racput' künyesi ≥1000."
  },
  {
   "id": "dublin",
@@ -9699,6 +9945,48 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "1281-1591 arası şehir yok; atlas başlangıcı (1591 'golkonda') kuruluşla aynı gün — zincir yazılmaz. Atlas düzeltmesi yok."
  },
  {
+  "id": "haydarabad-sind",
+  "ad": "Haydarâbâd (Sind)",
+  "atlas_ad": "Haydarâbâd (Sind)",
+  "lat": 25.396,
+  "lon": 68.377,
+  "kat1900": 3,
+  "adlar": [
+   "Nerankot (eşitleme: 'is supposed')",
+   "Haydarâbâd"
+  ],
+  "ilk": {
+   "t": "1768-01-01",
+   "gun": "1768",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "A Gazetteer of the Province of Sind (1876), archive.org dli.ernet.235914",
+   "tanik": "In 1768 he founded the city of Hyderabad (the ancient Nerankot)",
+   "ic_not": "Aynı Gazetteer ikinci pasaj: 'in a.d. 1768, the present town of Hyderabad was founded by Ghulam Shah Kalhora'. Kalhora Ghulam Shah. 'Nerankot' (711-12 Muhammed b. Kasım; 'Upon the site of the present citadel ... is supposed to have stood') eşitlemesi 'supposed' → başlangıç sayılmadı; Elliot-Dowson I Ek: Nirun'u Haydarâbâd'a değil Helaya'ya yerleştirir (eşitleme tartışmalı). Tek kaynak (Gazetteer 1876, iki pasaj); bağımsız ikinci akademik kaynak açılamadı."
+  },
+  "kur": {
+   "t": "1768-01-01",
+   "gun": "1768",
+   "kesinlik": "yil",
+   "kaynak": "A Gazetteer of the Province of Sind (1876), archive.org dli.ernet.235914",
+   "tanik": "In 1768 he founded the city of Hyderabad (the ancient Nerankot)"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1768-01-01",
+    "gun": "1768",
+    "k": "kurulus",
+    "b": "Kalhora hükümdarı Ghulam Shah Haydarâbâd şehrini kurar.",
+    "kaynak": "A Gazetteer of the Province of Sind (1876), archive.org dli.ernet.235914",
+    "tanik": "In 1768 he founded the city of Hyderabad (the ancient Nerankot)"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: ilk.t = atlas başlangıcı (1768-01-01); atlas kur ile uyumlu, kaynak desteği sağlandı. Eski Nirun/Nerankot: Arap coğrafyacılar (İbn Hurdâzbih/İdrîsî, Elliot I) Nirun'u Debal-Mansura arasında anar; konumu Haydarâbâd'dan farklı olabilir → ayrı kayıt gerekirse Emre kararı. kat1900 satırı LISTE'de 'Hyderabad (Sindh)' kat 3."
+ },
+ {
   "id": "helsinki",
   "ad": "Helsinki",
   "atlas_ad": "Helsinki",
@@ -12182,6 +12470,42 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ZİNCİR YOK: ilk.t 1361 atlasın başlangıcından (1281-01-01) sonra. ATLAS UYARISI: atlas Kaunas'ı 1281'de 'litvanya-buyuk-dukalik' (künye 1236+) açıyor; yazılı tanık 1361 (kale), arkeolojik yerleşme X-XII. yy (ark) — 1281 yazılı kaynakla desteklenmiyor. Kaunas kalesinin inşası eski literatürde XIII. yy ikinci yarısı - XIV. yy başı sayılıyordu; Žalnierius (2012) buna karşı: taş kale 1350'lerin sonunda başlamış, XIII. yy ikinci yarısında inşa edilemezdi. Litvanya Büyük Dukalığı'nın Kaunas bölgesinde 1281 hâkimiyetine tanık BULUNAMADI (Visuotinė lietuvių enciklopedija vle.lt Cloudflare engelledi, Encyclopaedia Lituanica açılamadı)."
  },
  {
+  "id": "kazan",
+  "ad": "Kazan",
+  "atlas_ad": "Kazan",
+  "lat": 55.796,
+  "lon": 49.106,
+  "kat1900": 2,
+  "adlar": [
+   "Kazan",
+   "Eski Kazan (45 km yukarıda, ayrı yer)"
+  ],
+  "ilk": {
+   "t": "1445-01-01",
+   "gun": "1437 (bazı tarihçilere göre 1445)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, KAZAN (İ. Türkoğlu), https://islamansiklopedisi.org.tr/kazan",
+   "tanik": "Uluğ Muhammed tarafından 1437 (bazı tarihçilere göre 1445) yılında kurulan Kazan Hanlığı’nın",
+   "ic_not": "TDV Kazan Hanlığı'nın başşehri olarak 1437 (ya da 1445) verir; bu şehrin KURULUŞU değil, hanlık başşehri olduğu tarihtir (alt sınır). Aralığın son ucu 1445. TDV: Âlimbek ve Altınbek 'Eski Kazan'ı kurdu, şehir 'daha sonraki tarihlerde' Volga ağzına taşındı (tarihsiz; Eski Kazan 45 km, ayrı kayıt). ru.wikipedia (tek dayanak olamaz, kullanılmadı): arkeolojik tarih 1004-05 (Kremlin'de çıkan Çek parası), yazılı ilk anılış Rogozhsky letopisets 6899 (1391) — birincil metin ve akademik teyit bu oturumda açılamadı (OpenAlex/Semantic Scholar kota, Britannica/UNESCO 403) → bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1445-01-01",
+    "gun": "1437-1445",
+    "k": "kurulus",
+    "b": "Uluğ Muhammed Kazan Hanlığı'nı kurar; Kazan başşehir olur (TDV: 1437, bazılarına göre 1445).",
+    "kaynak": "TDV İslâm Ansiklopedisi, KAZAN (İ. Türkoğlu), https://islamansiklopedisi.org.tr/kazan",
+    "tanik": "Uluğ Muhammed tarafından 1437 (bazı tarihçilere göre 1445) yılında kurulan Kazan Hanlığı’nın"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: ilk.t atlas başlangıcından (1281) SONRA. ATLAS DÜZELTME ÖNERİSİ: atlas 1281-1438 'altinorda' için TDV Kazan şehri tanığı vermez; ru.wikipedia'ya göre şehir 1391'de anılır ve Altın Orda'dadır (kabul edilirse 1281-1391 arası kaynaksız), akademik teyit gerekir. Atlas 'kazan' 1438-1552 ile TDV 1437/1445 uyumlu (1438'in kaynağı: ru.wikipedia 'Улу-Мухаммед 1438 yılında zapt etti' — tek dayanak değil, doğrulama bekler); 1552 Rus fethi TDV: 'şehir 1552 yılında Ruslar’ın eline geçti' (gün yok)."
+ },
+ {
   "id": "kazvin",
   "ad": "Kazvin",
   "atlas_ad": "Kazvin",
@@ -14349,6 +14673,50 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Çift teyit YOK (Vikipedi tek bağımsız akademik tanık sayılmaz; Zimmer 2002 'Aux origines de la ville de Luxembourg' ve HLS/Historisches Lexikon açılamadı). EB1911 Luxemburg maddesi Wikisource'ta yok."
+ },
+ {
+  "id": "madras",
+  "ad": "Madras (Chennai)",
+  "atlas_ad": "Madras (Chennai)",
+  "lat": 13.083,
+  "lon": 80.27,
+  "kat1900": 2,
+  "adlar": [
+   "Madraspatam",
+   "Chennapatnam",
+   "Madras",
+   "Chennai"
+  ],
+  "ilk": {
+   "t": "1639-08-31",
+   "gun": "Ağustos 1639",
+   "nicelik": "kurulus",
+   "kesinlik": "ay",
+   "kaynak": "Imperial Gazetteer of India XVI (1908), 'Madras City', s.364, archive.org in.ernet.dli.2015.117105",
+   "tanik": "Madras was founded in 1639 in the reign of Charles I.",
+   "ic_not": "IG: 'In August, 1639, Francis Day ... obtained ... a grant of half the revenues of Madraspatam and permission to build a fort'. Ay kesinliğinde aralığın son ucu (31 Ağustos). Atlas 1639-08-22: o günün kaynağı bu oturumda bulunamadı (Love, Vestiges ve Madras in the Olden Time metinlerinde '22 Ağustos' satırı okunamadı). TDV: İngilizlerden önce 'önemsiz'; İbn Battûta anmaz."
+  },
+  "kur": {
+   "t": "1639-08-31",
+   "gun": "Ağustos 1639",
+   "kesinlik": "ay",
+   "kaynak": "Imperial Gazetteer of India XVI (1908), 'Madras City', s.364, archive.org in.ernet.dli.2015.117105",
+   "tanik": "Madras was founded in 1639 in the reign of Charles I."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1639-08-31",
+    "gun": "Ağustos 1639",
+    "k": "kurulus",
+    "b": "Francis Day, Chandragiri rajasının naibinden Madraspatam topraklarını ve kale izni alır; Fort St. George kurulur.",
+    "kaynak": "Imperial Gazetteer of India XVI (1908), 'Madras City', s.364, archive.org in.ernet.dli.2015.117105",
+    "tanik": "Madras was founded in 1639 in the reign of Charles I."
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: yerleşim 1639'da kuruluyor, atlas da 1639'da başlıyor. TDV Madras (A. Özcan): 'Chandragiri racasından kiralayarak ... küçük bir kale' ve İngiliz öncesi önemsiz. Madraspatnam köyü İngiliz öncesi vardı (IG: 'the place was known as Madraspatam before ever the English arrived') ama tarihli bir tanık okunmadı → öncesi bulunamadı."
  },
  {
   "id": "madrid",
@@ -22985,6 +23353,78 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Atlas Tallinn'i 1219-01-01'den (danimarka) başlatıyor; 1219 öncesi için kaynaklı sahip BULUNAMADI (Estonya Rävala vilayeti, künye yok): zincir boş, denetim 'atlas başlangıcı' uyarısı verir. Atlasın 1219-01-01 günü yıl hassasiyetinde; gerçek çıkarma gelenekte 15 Haziran 1219 (tarihsiz kaynak yok). Atlasın 1227-1238 Livonya Tarikatı ve 1238 Danimarka dönemleri lex.dk ile uyumlu. Tallinn Şehir Arşivi, Estonya akademik kaynakları (Eesti ajalugu) bu oturumda açılmadı."
  },
  {
+  "id": "tancur",
+  "ad": "Tancûr (Thanjavur)",
+  "atlas_ad": "Tancûr (Thanjavur)",
+  "lat": 10.787,
+  "lon": 79.138,
+  "kat1900": 3,
+  "adlar": [
+   "Tañjai",
+   "Tanjavur",
+   "Tanjawar (Biruni)",
+   "Tancûr"
+  ],
+  "ilk": {
+   "t": "0750-01-01",
+   "gun": "8. yüzyılın ilk yarısı",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "K. A. Nilakanta Sastri, The Colas (1955), archive.org acc.-no.-16079-the-colas-1955, s.112 ve n.14 (Epigraphia Indica XIII s.134 vd. Sendalai yazıtları)",
+   "tanik": "where these records are tentatively referred to the first half of the 8th century",
+   "ic_not": "Sastri: Muttaraiyar yazıtları (Sendalai) 'clearly describe them as ruling Tanjore also'; n.14: 'Tanjaik-kon; Tanjai narpugalelan' ifadeleri bu kayıtlarda; tarih 8. yy ilk yarısı (EI XIII, ihtiyatlı). Yarım yüzyılın son ucu 750 alındı. Daha eski anılış (Sangam/Tevaram) bu oturumda okunmadı. Biruni (Rashidu-d Din aracılığıyla, Elliot-Dowson I): 'In its neighbourhood is Tanjawar, which is in ruins' (Biruni 970-1039, Elliot; Chola Brihadisvara dönemine denk, ayrı yorum gerekir)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0750-01-01",
+    "t": "0850-01-01",
+    "d": "muttaraiyar",
+    "kunye_yok": true,
+    "kesinlik": "onyil",
+    "kaynak": "K. A. Nilakanta Sastri, The Colas (1955), archive.org acc.-no.-16079-the-colas-1955, s.112",
+    "ic_not": "KÜNYE YOK: önerilen id 'muttaraiyar' (Sendalai merkezli Muttaraiyar beyleri; Pallava/Pandya vassalı; ömür ~8. yy - c.850, kaynak Sastri s.112). Pallava ve Pandya üstünlüğü arasında gidip gelmişler. t Vijayalaya'nın alışı (bkz. olay)."
+   },
+   {
+    "f": "0850-01-01",
+    "t": "1279-01-01",
+    "d": "cola",
+    "kesinlik": "onyil",
+    "kaynak": "K. A. Nilakanta Sastri, The Colas (1955), archive.org acc.-no.-16079-the-colas-1955, s.111-113",
+    "ic_not": "Sastri: Vijayalaya'nın hükümdarlığı 'sometime before A.D. 850' başlamış olabilir; Tanjore'yu Muttaraiyar'dan Pallavalar adına aldı. Başlangıç 'en geç/yaklaşık' (künye f=0850 ile örtüşür). Rastrakuta III. Krişna'nın Tanjore'yu alması (c.949-) süresi belirsiz kısa ele geçirme: bu oturumda okunmadı, dönem açılmadı. 1250'lerden sonra Pandya (Sundara Pandya) üstünlüğü Cola'yı fiilen vassal yaptı (Sastri); kent Cola çekirdeğinde olduğundan Cola sürdürüldü."
+   },
+   {
+    "f": "1279-01-01",
+    "t": "1281-01-01",
+    "d": "pandya",
+    "kesinlik": "yil",
+    "kaynak": "K. A. Nilakanta Sastri, The Colas (1955), archive.org acc.-no.-16079-the-colas-1955, Ch. XVI",
+    "ic_not": "'about 1279' III. Rajendra ve Vira Ramanatha Maravarman Kulasekhara'ya yenildi; Rajendra'nın son yılı 33. yıl ≈ 1279. Atlas 1281 'pandya' ile dikiş: aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0850-01-01",
+    "gun": "c. 850",
+    "k": "fetih",
+    "b": "Vijayalaya Tanjore'yu Muttaraiyar'dan alır (Pallava adına) ve Durga tapınağı kurar.",
+    "kaynak": "K. A. Nilakanta Sastri, The Colas (1955), archive.org acc.-no.-16079-the-colas-1955, s.112",
+    "tanik": "they lost Tanjore, which was captured by Vijayalaya"
+   },
+   {
+    "t": "1279-01-01",
+    "gun": "c. 1279",
+    "k": "fetih",
+    "b": "Pandya Maravarman Kulasekhara, Cola III. Rajendra ve müttefikini yener; Cola devleti sona erer.",
+    "kaynak": "K. A. Nilakanta Sastri, The Colas (1955), archive.org acc.-no.-16079-the-colas-1955, Ch. XVI",
+    "tanik": "They were both defeated in battle about 1279 by Maravarman Kulasekhara"
+   }
+  ],
+  "ic_not": "Atlas 1281-1311 pandya ile uyumlu. Atlas 1311 Delhi, 1335 Madurai, 1378 Vijayanagara vb. bu dosyanın kapsamı dışı. Çift teyit YOK (tek kaynak: Sastri; Imperial Gazetteer 'Tanjore' maddesi açılmadı)."
+ },
+ {
   "id": "taskent",
   "ad": "Taşkent",
   "atlas_ad": "Taşkent",
@@ -23236,6 +23676,42 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ATLAS: Taşkent f=1220-01-01 mogol (TDV yıl düzeyi) ile uyumlu; ATLAS DÜZELTME ÖNERİSİ yok, ama gün/ay yok (EI1: Moğol anlatısında Banâket alınır, Taşkent anılmaz). Atlasta Taşkent 1227 çağatay: künye çağatay f=1227 kaynaksız gün. AÇIK: (1) 1211-1220 Hârizmşah mı Küçlüğ mü — tarihsiz; (2) MÖ 2. yy Yu-ni eşitlemesi; (3) 3-7. yy arası yerel/Hun/Türk evreleri. EI1 OCR'da \"386 [990]\" yazıyor (OCR hatası, hicrî 386=996); TDV+Barthold 996."
+ },
+ {
+  "id": "tatta",
+  "ad": "Tatta (Thatta)",
+  "atlas_ad": "Tatta (Thatta)",
+  "lat": 24.747,
+  "lon": 67.924,
+  "kat1900": 3,
+  "adlar": [
+   "Thatta",
+   "Tatta"
+  ],
+  "ilk": {
+   "t": "1351-03-20",
+   "gun": "20 Mart 1351 (21 Muharrem 752)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "Shams-i Siraj 'Afif, Tarikh-i Firoz Shahi, çev. Elliot & Dowson, History of India as told by its own Historians III (archive.org xfgf_the-history-of-india-...-vol-iii)",
+   "tanik": "awaiting the royal command to take Thatta, and to crush the Súmras of Thatta",
+   "ic_not": "'Afif: 'On the 21st Muharram, 752 H. (1350 A.D.) Sultán Muhammad bin Tughlik departed this life ... at fourteen kos from Thatta' (çevirmen '1350' yazar, hata; 752 H = 1351). Hicrî→mîlâdî: tablo takvimi 21 Muharrem 752 = 1351-03-20 (Jülyen, ±1 gün; tarih tarihçilerce 20 Mart 1351). 'Thatta' burada Sumra yönetiminde (Sumras of Thatta) ve Taghi'nin sığındığı Jam'ın merkezi olarak geçer; bu yerin atlas noktasıyla aynı yer olduğu açıkça yazılmaz (kale/şehir adı) — ad eşitlemesi kabul edilir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1351-03-20",
+    "gun": "20 Mart 1351 (21 Muharrem 752)",
+    "k": "diger",
+    "b": "Muhammed b. Tuğluk Thatta'ya 14 kos kala İndus kıyısında ölür; Sumra'lar ve Taghi'ye karşı sefer yarım kalır.",
+    "kaynak": "Shams-i Siraj 'Afif, Tarikh-i Firoz Shahi, çev. Elliot & Dowson, History of India as told by its own Historians III (archive.org xfgf_the-history-of-india-...-vol-iii)",
+    "tanik": "Sultán Muhammad bin Tughlik departed this life on the banks of the Indus"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: ilk.t (1351) atlas başlangıcından (1281) SONRA. ÇELİŞKİ: Tarikh-i Tahiri (Elliot I): Jam Nanda Salı'da otururken 'where now stands the city of Tatta' yeni bir şehrin temelini attı (Samma, 15. yy; kuruluş günü yok) — 'Afif'in 1351 Thatta'sı bu yerleşimle aynı mı bilinmez; TDV 'Sind': Semmâ kabilesi Sind'i 1351'de aldı ('zaptedildi (1351)'). ATLAS DÜZELTME ÖNERİSİ: atlas 1281-1592 'sind' sürekli — TDV: Sind 1206'dan Delhi Sultanlığı'nda, 1221-23 Celâleddin Harizmşah işgali, 1351 Semmâ; 1281'de Tatta'nın var olduğuna tanık bulunamadı. Idrisi listesindeki 'Tatta' (Elliot I) aynı yer değil sayıldı."
  },
  {
   "id": "temesvar",
@@ -23809,6 +24285,47 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: Timbuktu Mali sahipliği 1281 değil ~1324/25 (Sa‘dî/Hunwick). Ad: Sa‘dî’ye göre kölenin adı “Tinbuktu”; TDV: İbn Battûta 754/1353’te adı Tinbûktû yazar, Katalan Atlası 1376 “Tenbuch”. Sa‘dî’nin hicrî 737/1336-7 (Mali hâkimiyeti başı) ile Mansa Mûsâ 1325 tarihleri çelişir; Hunwick dipnot 12 “Sa‘dî iki olayı karıştırmış” der."
  },
  {
+  "id": "tobolsk",
+  "ad": "Tobolsk (İsker)",
+  "atlas_ad": "Tobolsk (İsker)",
+  "lat": 58.199,
+  "lon": 68.256,
+  "kat1900": 2,
+  "adlar": [
+   "Tobolsk"
+  ],
+  "ilk": {
+   "t": "1587-01-01",
+   "gun": "1587",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, ASYA, https://islamansiklopedisi.org.tr/asya; TDV İslâm Ansiklopedisi, KÜÇÜM HAN, https://islamansiklopedisi.org.tr/kucum-han",
+   "tanik": "ardından Tobolsk (1587), Tomsk (1604), Irkutsk (1652)",
+   "ic_not": "TDV Küçüm Han: Ruslar 'bölgede kalıcı olmak için Tümen ve Tobolsk şehirlerini kurdular' (yıl yok); TDV Asya: 'Tobolsk (1587)'. Bağımsız ikinci akademik kaynak açılamadı (Britannica 403). Han başkenti İsker (Sibir/Kaşlık) 'bugünkü Tobolsk yakınlarında' ayrı yerleşim (TDV Küçüm Han) — mesafe bu oturumda ölçülmedi; ayrı kayıt önerisi."
+  },
+  "kur": {
+   "t": "1587-01-01",
+   "gun": "1587",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, ASYA, https://islamansiklopedisi.org.tr/asya",
+   "tanik": "ardından Tobolsk (1587), Tomsk (1604), Irkutsk (1652)"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1587-01-01",
+    "gun": "1587",
+    "k": "kurulus",
+    "b": "Ruslar Tobolsk'u kurar (TDV Asya).",
+    "kaynak": "TDV İslâm Ansiklopedisi, ASYA, https://islamansiklopedisi.org.tr/asya",
+    "tanik": "ardından Tobolsk (1587), Tomsk (1604), Irkutsk (1652)"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: ilk.t atlas başlangıcından (1281) SONRA. ATLAS DÜZELTME ÖNERİSİ: atlas 1281-1430 'altinorda', 1430-1598 'sibir-hanligi' dönemlerini Tobolsk noktası için çiziyor; şehir 1587'de Rusya tarafından kuruldu (TDV), 1587 öncesi nokta ya silinmeli ya da İsker'i temsil ediyorsa 'yaklaşıklık' olarak beyan edilmeli (karar Emre'nin). Atlas Rusya geçişi 1598-08-20 (Küçüm yenilgisi); 1587 kuruluşuyla çelişir."
+ },
+ {
   "id": "toledo",
   "ad": "Toledo",
   "atlas_ad": "Toledo",
@@ -24377,6 +24894,48 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Yalnız Coedès. Çift teyit YOK."
  },
  {
+  "id": "tumen",
+  "ad": "Tümen (Çimgi-Tura)",
+  "atlas_ad": "Tümen (Çimgi-Tura)",
+  "lat": 57.153,
+  "lon": 65.5343,
+  "kat1900": 3,
+  "adlar": [
+   "Çimga-Tura/Çinki (Tatar kenti, eşitleme belirsiz)",
+   "Tümen"
+  ],
+  "ilk": {
+   "t": "1586-01-01",
+   "gun": "1586",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, KÜÇÜM HAN, https://islamansiklopedisi.org.tr/kucum-han",
+   "tanik": "Ruslar bölgede kalıcı olmak için Tümen ve Tobolsk şehirlerini kurdular",
+   "ic_not": "TDV: 'Rus askerleri, 29 Temmuz 1586'da ... eskiden Tatarlar’ın Çinki adını verdikleri şehrin yakınına yerleşti. Ruslar ... Tümen ve Tobolsk şehirlerini kurdular.' Yıl 1586 bağlamdan; 29 Temmuz'un Tümen'in kuruluş günü olduğu metinde açık değil (cümle 'Tara'ya yakın' yer söyler) → gün yazılmadı. Tatar Çimga-Tura/Çinki'nin Tümen noktasıyla aynı olduğu TDV'de 'yakınına' denerek belirsiz → başlangıç sayılmadı. TDV Sibir Hanlığı: 'Tümen Hanlığı', merkez Çimga-Tura (1420'ler-1493), sonra Sibir/İsker."
+  },
+  "kur": {
+   "t": "1586-01-01",
+   "gun": "1586",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, KÜÇÜM HAN, https://islamansiklopedisi.org.tr/kucum-han",
+   "tanik": "Ruslar bölgede kalıcı olmak için Tümen ve Tobolsk şehirlerini kurdular"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1586-01-01",
+    "gun": "1586",
+    "k": "kurulus",
+    "b": "Ruslar Tümen kalesini kurar (TDV Küçüm Han).",
+    "kaynak": "TDV İslâm Ansiklopedisi, KÜÇÜM HAN, https://islamansiklopedisi.org.tr/kucum-han",
+    "tanik": "Ruslar bölgede kalıcı olmak için Tümen ve Tobolsk şehirlerini kurdular"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: ilk.t atlas başlangıcından (1281) SONRA. ATLAS DÜZELTME ÖNERİSİ: atlas 1281-1430 'altinorda', 1430-1598 'sibir-hanligi' sürekli; TDV'ye göre Rus Tümeni 1586'da kuruldu. Çimga-Tura (Sibir/Tümen Hanlığı merkezi, TDV: hanlık 1420'lerden) ayrı Tatar şehri olarak ayrı kayıt gerektirebilir; 1281 öncesi/ Altın Orda dönemi için tanık bulunamadı."
+ },
+ {
   "id": "turfan",
   "ad": "Turfan",
   "atlas_ad": "Turfan",
@@ -24544,6 +25103,47 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK (kural): ilk.t atlas başlangıcıyla (1559-01-01) aynı. ARK notu: Ahar köyü (24.587, 73.722; Vikipedi koordinatı) Udaipur noktasına ~0,9 km; Ahar–Banas kültürü tip yerleşimi — nicelik 'arkeolojik' YALNIZ yazılı tanık yokken esastır, burada yazılı (kuruluş 1559) var; ark ayrı alanda tutuldu, zayıf. Tod (Annals I, Personal Narrative) Ahar'ı 'ancient Ahar … destroyed by volcanic eruption' rivayetiyle anar (efsane, tarihsiz). Bapa/Nagda (IG: 'Nagda, a few miles north of Udaipur city') ayrı merkez. ATLAS DÜZELTME ÖNERİSİ: yok (atlas kur 1559 IG ile uyumlu; 'in or about' beyanı eklenebilir)."
+ },
+ {
+  "id": "ufa",
+  "ad": "Ufa",
+  "atlas_ad": "Ufa",
+  "lat": 54.738,
+  "lon": 55.972,
+  "kat1900": 2,
+  "adlar": [
+   "Ufa"
+  ],
+  "ilk": {
+   "t": "1574-01-01",
+   "gun": "1574",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, UFA (İ. Kemaloğlu), https://islamansiklopedisi.org.tr/ufa",
+   "tanik": "Bu tarih çeşitli kaynaklarda Ufa’nın kuruluş tarihi olarak kabul edilir.",
+   "ic_not": "TDV: Başkırtlar 1573'te Çar IV. İvan'dan kale istedi; 'bir yıl sonra da kalenin yapımı tamamlandı' (1574). Ayrıca 'arkeolojik kazılar, Ufa’nın olduğu yerde 1574’ten önce bir yerleşim yerinin varlığına açık biçimde işaret eder' ve İbn Haldûn Başkırt şehrinden söz eder — tarihsiz, aynı yer olduğu belirsiz; başlangıç sayılmadı."
+  },
+  "kur": {
+   "t": "1574-01-01",
+   "gun": "1574",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, UFA (İ. Kemaloğlu), https://islamansiklopedisi.org.tr/ufa",
+   "tanik": "Bu tarih çeşitli kaynaklarda Ufa’nın kuruluş tarihi olarak kabul edilir."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1574-01-01",
+    "gun": "1574",
+    "k": "kurulus",
+    "b": "Ufa kalesi Rus Çarı IV. İvan'ın izniyle tamamlanır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, UFA (İ. Kemaloğlu), https://islamansiklopedisi.org.tr/ufa",
+    "tanik": "bir yıl sonra da kalenin yapımı tamamlandı"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK: ilk.t = atlas başlangıcı (1574-01-01); atlas kur ile uyumlu. 1574 öncesi arkeolojik yerleşim için tarihli akademik kaynak bulunamadı. Bağımsız ikinci kaynak açılamadı."
  },
  {
   "id": "ulundi-zululand",
