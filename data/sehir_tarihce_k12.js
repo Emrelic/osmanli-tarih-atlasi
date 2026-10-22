@@ -616,6 +616,48 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Atlas başlangıcı (1537-08-15) ile tutuyor. Kaynak yalnız Vikipedi; RAH DBE (dbe.rah.es) sayfaları boş döndü. 1281 öncesi: yok."
  },
  {
+  "id": "bahawalpur",
+  "ad": "Bahâvelpûr",
+  "atlas_ad": "Bahâvelpûr",
+  "lat": 29.395,
+  "lon": 71.684,
+  "kat1900": 2,
+  "adlar": [
+   "Bağdâdulcedîd (Yeni Bağdat)",
+   "Bahâvelpûr"
+  ],
+  "ilk": {
+   "t": "1748-01-01",
+   "gun": "1748",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Bahâvelpûr', https://islamansiklopedisi.org.tr/bahavelpur; Imperial Gazetteer of India, Provincial Series, Punjab Vol. II (Calcutta 1908), 'Bahawalpur Town'; archive.org dli.csl.2922",
+   "tanik": "Sutlej ırmağı kıyısında Emîr Muhammed Bahâvel tarafından 1748’de kurulmuştur",
+   "ic_not": "ÇİFT TEYİT: TDV 'Emîr Muhammed Bahâvel tarafından 1748’de' ve Imperial Gazetteer (Punjab II) 'Founded in 1748 by Nawab Bahawal Khan I, it replaced Derawar as the capital of the State'. (Not: Nevvâblığın kuruluşu TDV'de I. Mübârek Han Abbâsî (1702-1723) zamanına konur; şehir 1748'dir; başkent önce Derawar'dı — IGI.)"
+  },
+  "kur": {
+   "t": "1748-01-01",
+   "gun": "1748",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Bahâvelpûr', https://islamansiklopedisi.org.tr/bahavelpur; Imperial Gazetteer of India, Provincial Series, Punjab Vol. II (Calcutta 1908), 'Bahawalpur Town'; archive.org dli.csl.2922",
+   "tanik": "Founded in 1748 by Nawab Bahawal Khan I"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1748-01-01",
+    "gun": "1748",
+    "k": "kurulus",
+    "b": "Bahâvelpûr şehri Emîr Muhammed Bahâvel (Nawab Bahawal Khan I) tarafından kurulur; Derawar'ın yerine devlet başkenti olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Bahâvelpûr', https://islamansiklopedisi.org.tr/bahavelpur; Imperial Gazetteer of India, Provincial Series, Punjab Vol. II (Calcutta 1908), 'Bahawalpur Town'; archive.org dli.csl.2922",
+    "tanik": "Founded in 1748 by Nawab Bahawal Khan I"
+   }
+  ],
+  "ic_not": "Atlas başlangıcı (1748-01-01 'bahavelpur') kuruluşla örtüşür; 1748 öncesi zincir YOK (şehir yok). Aynı yerde 3 km içinde eski yerleşim bulunamadı. Bahâvelpûr Nevvâblığı'nın başkenti Derawar'dır (IGI) — ayrı kayıt önerisi yok (atlasta Derawar var mı bakılmadı)."
+ },
+ {
   "id": "bahcesaray",
   "ad": "Bahçesaray",
   "atlas_ad": "Bahçesaray",
@@ -5713,6 +5755,69 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ZİNCİR YOK (kural): ilk.t 1727-01-01 atlas başlangıcıyla (1727-01-01) aynı → 1281 öncesi sahip yazılmaz; denetim 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR. 1727 öncesi bu noktada şehir yok (Britannica 1911 'comparatively recent date'); ark/öncül yerleşim bulunamadı. ATLAS DÜZELTME ÖNERİSİ: atlas kur:1727-01-01 yıl hassasiyetinde; kaynak çelişkisi 1727/1728 — atlas 'racput' (Kachhwaha) sahibi uyumlu. Gün için ikincil kaynak yok."
  },
  {
+  "id": "jammu",
+  "ad": "Cammû (Jammu)",
+  "atlas_ad": "Cammû (Jammu)",
+  "lat": 32.734,
+  "lon": 74.869,
+  "kat1900": 2,
+  "adlar": [
+   "Jambu",
+   "Cammû"
+  ],
+  "ilk": {
+   "t": "1187-01-01",
+   "gun": "1160-1187 (Hüsrev Melik saltanatı, güvenli uç 1187)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Cammû', https://islamansiklopedisi.org.tr/cammu",
+   "tanik": "Pencap’ta hüküm süren son Gazneli Sultanı Hüsrev Melik’in (1160-1187) ordusudur",
+   "ic_not": "TDV: 'Buraya giren ilk müslüman güç … Hüsrev Melik’in (1160-1187) ordusudur; Gazneliler şehri yağmalamış, fakat idareleri altına alamamışlardır.' Tarih saltanat aralığı (1160-1187): GÜVENLİ (son) uç 1187. Kuruluş: bulunamadı; TDV 'çok eski bir yerleşim merkezi' der (tarihsiz). Rajatarangini Jammu'yu bilmez (Minorsky, Hudud notu: 'the Rajatarangini does not know either Durgara or Jammu'); Durgara adı 11. yy'da iki bağış belgesinde geçer (bölge adı, şehir değil). Stein'a/ Hutchison-Vogel'e atfen Minorsky: 'in the town of Jammu there are no ancient remains'."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1187-01-01",
+    "t": "1281-01-01",
+    "d": "cammu-dogra-racalari",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Cammû', https://islamansiklopedisi.org.tr/cammu; TDV İslâm Ansiklopedisi, 'Gurlular', https://islamansiklopedisi.org.tr/gurlular",
+    "ic_not": "TDV: Gazneliler yağmaladı ama idareye alamadı; Gurlular'ın (Muizzüddin) eline geçmişse de onun ölümü (602/1206) üzerine 'yine yerli Hindu racaların yönetiminde kalmıştır'. Gurlu ele geçirişinin başlangıcı/süresi TDV'de tarihsiz → dönem AÇILMADI (süresi bilinmeyen kısa ele geçirme kuralı), yerli Hindu raca (Dogra/Jammu) yönetimi 1187-1281 boyunca nominal sahip olarak yazıldı. Künye önerisi: 'cammu-dogra-racalari' (Jammu Hindu racalıkları, Durgara; sonradan Dogra). 1398'de Timur Jammu racasını esir alır (E&D III) — hâlâ yerli raca."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1187-01-01",
+    "gun": "1160-1187 (Hüsrev Melik zamanı)",
+    "k": "isgal",
+    "b": "Son Gazneli sultanı Hüsrev Melik'in ordusu Cammû'ya girip yağmalar (şehre giren ilk müslüman güç); şehir idareye alınamaz.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Cammû', https://islamansiklopedisi.org.tr/cammu",
+    "tanik": "Pencap’ta hüküm süren son Gazneli Sultanı Hüsrev Melik’in (1160-1187) ordusudur"
+   },
+   {
+    "t": "1206-01-01",
+    "gun": "602 H / 1206",
+    "k": "diger",
+    "b": "Muizzüddin Muhammed'in öldürülmesi (602/1206) üzerine Cammû yine yerli Hindu racaların yönetiminde kalır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Cammû', https://islamansiklopedisi.org.tr/cammu; TDV İslâm Ansiklopedisi, 'Gurlular', https://islamansiklopedisi.org.tr/gurlular",
+    "tanik": "yine yerli Hindu racaların yönetiminde kalmıştır"
+   },
+   {
+    "t": "1398-01-01",
+    "gun": "1398 (Timur'un Hindistan seferi)",
+    "k": "sefer",
+    "b": "Timur Cammû kalesine/şehrine saldırır, Cammû racası esir alınır (E&D 'Conquest of Jammu'; hicrî tarihi metinde 802 yazılı — seferin 1398-99 kronolojisiyle uyuşmuyor, TDV 1398 der).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Cammû', https://islamansiklopedisi.org.tr/cammu; Elliot & Dowson, The History of India as told by its own Historians, III (Londra 1871; Malfûzât-ı Timûrî), archive.org historyofindiaas03elli",
+    "tanik": "determined to carry my arms against the infidels of Jammu"
+   }
+  ],
+  "dikis_beyan": "Atlas Cammû'yu 1281-01-01'de 'kesmir' (Şah Mîr Sultanlığı) ile başlatır; kaynak aranıp bulunamadı: TDV Cammû'nun 1206'dan sonra yerli Hindu racaların yönetiminde kaldığını, Keşmir sultanlarıyla ilişkilerinin ancak 15. yy'da (Zeynelâbidîn evlilikleri) anıldığını söyler; Şah Mîr Sultanlığı 1338-42'de kurulur (TDV Keşmir). Atlas 1281 'kesmir' başlangıcı kaynaksız → YER TUTUCU OLAY YAZILMADI.",
+  "ic_not": "Atlas düzeltme önerisi: Cammû için 1281-1586 'kesmir' iddiası doğrulanmadı (Keşmir Sultanlığı künyesi 1338'den; Cammû hep Hindu raca elinde). TDV 'Genellikle tarihte Keşmir’e hâkim olan güçler Cammû’ya da hâkim olmuşlardır' der (genel). 1187 öncesi için tarihli kaynak bulunamadı."
+ },
+ {
   "id": "jodhpur",
   "ad": "Codhpûr (Jodhpur)",
   "atlas_ad": "Codhpûr (Jodhpur)",
@@ -7079,6 +7184,57 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Çift teyit: Kotobank «高知市» (aynı Heibonsha) 'Yamauchi Kazutoyo kale yapar' ile uyumlu, bağımsız değil. 1601 öncesi tanık bulunamadı. Atlas başlangıcı = ilk (1601-01-01), zincir gerekmiyor (uyarı beklenir, düzeltme gerekmez)."
  },
  {
+  "id": "kochi-kerala",
+  "ad": "Koçin (Kochi)",
+  "atlas_ad": "Koçin (Kochi)",
+  "lat": 9.9551,
+  "lon": 76.2505,
+  "kat1900": 1,
+  "adlar": [
+   "Kocchi ('küçük')",
+   "Cochin",
+   "Koçin"
+  ],
+  "ilk": {
+   "t": "1341-01-01",
+   "gun": "1341 (Puduveypu çağı)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Imperial Gazetteer of India, Vol. X (Oxford 1908), 'Cochin Town'; archive.org TheImperialGazetteerOfIndia-Volume10; C. Achyuta Menon, The Cochin State Manual (Ernakulam 1911), Ch. II; archive.org in.ernet.dli.2015.22142",
+   "tanik": "it was swept away in 1341 by violent floods",
+   "ic_not": "Gelenek+çağ tabanlı (çağdaş belge yok): IGI 'Cochin was originally a small town on the bank of a small river (Kocchi), and … swept away in 1341 by violent floods, which changed the whole face of the neighbourhood, forming the present harbour and the island of Vypin. Tradition is supported by the fact that the term Pudiya Veppu (new deposit) is used to denote an era beginning in 1341'. Cochin State Manual: Cochin adı 1341'de liman oluştuktan sonra doğan kasabaya verilmiştir; 'No mention of Cochin is therefore found in the earlier notices of Malabar' (Plinius, Ptolemaios, Periplus, Marco Polo, İbn Battûta anmaz). İlk yazılı anış: Ma Huan (Çeng Ho'nun elçi heyeti, ≈1400-1433; Manual: liman oluşumundan ~60 yıl sonra), sonra Niccolò Conti (1440). 1341 selin tarihi çağdaş yazıtla DOĞRULANMADI."
+  },
+  "kur": {
+   "t": "1341-01-01",
+   "gun": "1341",
+   "kesinlik": "yil",
+   "kaynak": "Imperial Gazetteer of India, Vol. X (Oxford 1908), 'Cochin Town'; archive.org TheImperialGazetteerOfIndia-Volume10; C. Achyuta Menon, The Cochin State Manual (Ernakulam 1911), Ch. II; archive.org in.ernet.dli.2015.22142",
+   "tanik": "No mention of Cochin is therefore found in the earlier notices of Malabar"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1341-01-01",
+    "gun": "1341",
+    "k": "kurulus",
+    "b": "Periyar selleri kıyı şeklini değiştirir, Kochi limanı/adası (Vypin) oluşur; Kochi kasabası liman oluşunca doğar (gelenek; Puduveypu çağı).",
+    "kaynak": "Imperial Gazetteer of India, Vol. X (Oxford 1908), 'Cochin Town'; archive.org TheImperialGazetteerOfIndia-Volume10; C. Achyuta Menon, The Cochin State Manual (Ernakulam 1911), Ch. II; archive.org in.ernet.dli.2015.22142",
+    "tanik": "it was swept away in 1341 by violent floods"
+   },
+   {
+    "t": "1401-01-01",
+    "gun": "≈1401 (liman oluşumundan ~60 yıl sonra; Ma Huan)",
+    "k": "diger",
+    "b": "Kochi'nin bilinen ilk yazılı anışı: Çinli Müslüman Ma Huan (Çeng Ho elçi heyeti).",
+    "kaynak": "C. Achyuta Menon, The Cochin State Manual (Ernakulam 1911), Ch. II; archive.org in.ernet.dli.2015.22142",
+    "tanik": "The first mention of Cochin, so far as known at present"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Koçin'i 1281-01-01'de 'kocin' (Kochi Krallığı, künye f=1102) ile başlatıyor, ama şehir 1341'den önce yok (kasaba selden sonra doğmuş; önceki tüm gezginler Kochi'yi anmaz). Denetim 'atlas noktası 1281'de başlıyor, şehir 1341' uyarısı verir. Kochi KRALLIĞI'nın merkezi başka yerdi (Perumpadappu/Vannēri vb.) — künye 1102 bu krallığı kapsıyor, şehri değil; Kochi şehri noktası 1341'e çekilmeli ya da 1281-1341 arası başka bir merkeze bağlanmalı."
+ },
+ {
   "id": "kohne-urgenc",
   "ad": "Köhne Ürgenç (Gürgenç)",
   "atlas_ad": "Köhne Ürgenç (Gürgenç)",
@@ -7306,6 +7462,43 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Tek akademik/ansiklopedik kaynak: lex.dk (Den Store Danske). Dansk biografisk leksikon ve Saxo'nun kendi metni bu oturumda açılmadı: 1043 'Havn' iddiasına (Saxo) tanık BULUNAMADI. Kopenhag'ın 1186 öncesi sahibi için yazılı tanık yok; zincir ilk anılıştan başlar. Ark 1020-1050, ilk yazılı tanıktan 140 yıl önce bir yerleşime işaret eder ama yazılı tanık varlığından 'ark' esas alınmadı (kural)."
+ },
+ {
+  "id": "kozhikode",
+  "ad": "Kalikut (Kozhikode)",
+  "atlas_ad": "Kalikut (Kozhikode)",
+  "lat": 11.259,
+  "lon": 75.78,
+  "kat1900": 1,
+  "adlar": [
+   "Kolikod / Kozhikode ('horoz-kale')",
+   "Calicut",
+   "Kalikut"
+  ],
+  "ilk": {
+   "t": "1300-01-01",
+   "gun": "13. yüzyıl (Arap yazarlar; güvenli uç 1300)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Imperial Gazetteer of India, Vol. IX (Oxford 1908), 'Calicut City'; archive.org TheImperialGazetteerOfIndia-Volume09",
+   "tanik": "The Arab writers of the thirteenth century describe Calicut as one of the great ports",
+   "ic_not": "ZAYIF: IGI (1908) yazarsız '13. yy Arap yazarları'nı anar, kimin/hangi tarihte olduğunu vermez; aralığın SON ucu (1300) güvenli uç alındı. Kuruluş: bulunamadı. Gelenek (IGI): 'Cheraman Perumal, the last of the kings of Malabar, retired to Mecca in the ninth century' ve Zamorin'e horoz sesi duyulan kadar toprak verdi (Kolikod = 'horoz-kale') — gelenek, kullanılmadı; Malabar Gazetteer (Innes 1908) aynı Perumal rivayetinin 'confusion of two distinct traditions' olabileceğini söyler. İbn Battûta Kalikut'u 1342-47 arasında ziyaret etmiştir (Malabar Gazetteer, Innes 1908) — yazılı tanık olarak daha geç ve atlas başlangıcından sonradır."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1300-01-01",
+    "gun": "13. yüzyıl",
+    "k": "diger",
+    "b": "13. yy Arap yazarları Kalikut'u batı kıyısının büyük limanlarından biri olarak anar (ilk anılış, yıl belirsiz).",
+    "kaynak": "Imperial Gazetteer of India, Vol. IX (Oxford 1908), 'Calicut City'; archive.org TheImperialGazetteerOfIndia-Volume09",
+    "tanik": "The Arab writers of the thirteenth century describe Calicut as one of the great ports"
+   }
+  ],
+  "ic_not": "Atlas düzeltme/uyarı: atlas Kalikut'u 1281-01-01'de 'kalikut' (Zamorinlik; künye f=1100) ile başlatıyor; bu kayıtla bulunan en iyi (zayıf) tanık '13. yy' olduğundan 1281 başlangıcı ne doğrulanabildi ne çürütüldü (ilk.t güvenli uç 1300 > 1281 → zincir YAZILMADI, denetim 'atlas başlangıcı düzeltilmeli' uyarısı verir — bu uyarı veri eksikliğidir, kanıt değil). Zamorin hânedanının 12. yy başında Çera dağılışıyla (≈1124) yükseldiği iddiası yalnız web aramasında Vikipedi/ikincil sitelerde göründü; akademik/birincil kaynakta doğrulanamadı, kullanılmadı. Aranacak: Zhao Rukuo 1225 (Hirth-Rockhill), Ibn Battûta, Cairo Geniza (Ben Yijū), Logan Malabar Manual (indirilemedi)."
  },
  {
   "id": "krakov",
@@ -7594,6 +7787,138 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "KAYNAK: Iranica LĀHIJĀN (C. Bromberger), TDV Lâhîcân, TDV Hudûdü'l-âlem, TDV Olcaytu Han. 983-1281 arası şehre özgü tek bir tarihli sahiplik olgusu bulunamadı (merdiven: TDV → Iranica → Hudûdü'l-âlem erişilemedi → EI2 'Lāhidjān' erişilemedi). Hülâgû olayı 1265 = Hülâgû'nun ölüm yılı (aralık sonu); 1256-1265 aralık. ATLAS ÖNERİSİ: 1281 'ilhanli' başlangıcı yerine kaynaklı 1307 (Gîlân fethi) ya da __BOSLUK__ / yerel Nâsırvend."
+ },
+ {
+  "id": "lahore",
+  "ad": "Lahor",
+  "atlas_ad": "Lahor",
+  "lat": 31.549,
+  "lon": 74.343,
+  "kat1900": 2,
+  "adlar": [
+   "Labokla (olası; Ptolemaios, tanımlama kesin değil)",
+   "Lohavar / Lahavar",
+   "Lahor"
+  ],
+  "ilk": {
+   "t": "0983-06-14",
+   "gun": "372 H / 982-983 (Hudud al-‘Alam yazımı)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hudud al-‘Alam (anonim, 372/982-83), V. Minorsky çevirisi, Londra 1937, §10 India no.36; archive.org in.ernet.dli.2015.281514",
+   "tanik": "LAHOR, a town with numerous districts.",
+   "ic_not": "Hudud al-‘Alam 372 H'de başlanıp yazılmış (Minorsky: 26.vi.982 - 14.vi.983 arası); aralıkta GÜVENLİ (son) uç 14.vi.983 alındı. Kuruluş değil ilk anılış (alt sınır). Kuruluş tarihi bulunamadı: TDV 'adın nereden geldiği bilinmemektedir'. Daha eski anılış iddiaları DOĞRULANMADI: (1) TDV Belâzürî'ye dayanarak 664'te Mühelleb'in 'Bennah ve el-Ahvar'a (Lahor'un Arapça şekli)' seferini anar, ama Lahor eşitlemesi TDV'de parantez içi yoruma dayanır; (2) Cunningham Ptolemaios'un Labokla'sını Lahor sayar ('which I believe to be correct') ve IGI 'may possibly be the Labokla' der — yeri kesin olmayan ad eşitlemesi, başlangıç sayılmadı; (3) IGI Hiuen Tsiang'ın 630'da Lahor'u 'large Brahmanical city' diye anmasını 'ilk kesin kayıt' sayar, ama Beal (I. cilt) ve Watters (II. cilt) taramasında Lahore/Lohara/Labokla geçmedi (öteki ciltler taranmadı) ve Cunningham'a göre Hiuen Tsiang'ın Lahor'u anması yok (kontrol edilmedi); doğrulanamadığı için kullanılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0983-06-14",
+    "t": "0991-01-01",
+    "d": "multan-sama-emirligi",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "Hudud al-‘Alam (anonim, 372/982-83), V. Minorsky çevirisi, Londra 1937, §10 India no.36; archive.org in.ernet.dli.2015.281514",
+    "ic_not": "Hudud: 'Its government (sultan) is on behalf of the chief (mir) of Multan.' Multan emîri Kureyşî (Sâm soyundan) yerel hânedandır (aynı eserde Multan maddesi). Künye önerisi: 'multan-sama-emirligi' (Multan Kureyşî/Sâmî emirliği; ömür kabaca 712-sonrası yerel hânedan → 1006). Künye yok olduğu için kunye_yok. Bitiş TDV'ye göre: 'Şehir 991’den sonra Hindûşâhîler’in … eline geçti' — 991 ALT SINIRdır, gerçek geçiş günü 991 sonrası bilinmiyor (f/t en erken uç yazıldı, beyanlı yaklaşıklık). ÇELİŞKİ: IGI Punjab II, 988'de 'reigning monarch' Jai Pal'ı Sabuktagin'in yendiğini ve 10. yy sonunda Lahor krallığının Brahman krallarda olduğunu söyler (Hindu Şâhî egemenliği 988'den önce de olabilir); TDV esas alındı."
+   },
+   {
+    "f": "0991-01-01",
+    "t": "1013-01-01",
+    "d": "hindu-sahiler",
+    "kesinlik": "yil",
+    "boyasiz": true,
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Lahor' (S. A. A. Rızvî), https://islamansiklopedisi.org.tr/lahor; Imperial Gazetteer of India, Provincial Series, Punjab Vol. II (Calcutta 1908), 'Lahore City'; archive.org dli.csl.2922",
+    "ic_not": "TDV: 'Şehir 991’den sonra Hindûşâhîler’in, 1013-1014’te Gazneli Mahmud’un eline geçti.' IGI: 'the kingdom of Lahore was in the hands of a line of Brahman kings'. Künye 'hindu-sahiler' (850-1026) BOYASIZ (renk istenecek). f = TDV alt sınırı (991 SONRASI); bitiş atlas dikişi (atlas Gazneli'yi 1013-01-01'de başlatır; TDV aralığı 1013-1014)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0983-06-14",
+    "gun": "372 H / 982-983",
+    "k": "diger",
+    "b": "Hudud al-‘Alam Lahor'u Multan emîrinin hükmü altında 'çok bölgeli bir kent' olarak anar (ilk anılış).",
+    "kaynak": "Hudud al-‘Alam (anonim, 372/982-83), V. Minorsky çevirisi, Londra 1937, §10 India no.36; archive.org in.ernet.dli.2015.281514",
+    "tanik": "LAHOR, a town with numerous districts."
+   },
+   {
+    "t": "0988-01-01",
+    "gun": "988",
+    "k": "savas",
+    "b": "Hindu Şâhî (Brahman) kralı Jai Pal, Sebüktigin'e yenilir (Lahor krallığı Brahman krallarda).",
+    "kaynak": "Imperial Gazetteer of India, Provincial Series, Punjab Vol. II (Calcutta 1908), 'Lahore City'; archive.org dli.csl.2922",
+    "tanik": "in a.d. 988 Jai Pal, the reigning monarch, was decisively beaten by Sabuktagin"
+   },
+   {
+    "t": "0991-01-01",
+    "gun": "991 sonrası (TDV alt sınır)",
+    "k": "diger",
+    "b": "künye geçişi: Multan emirliği → Hindu Şâhîler (TDV: 991'den sonra; gün yok).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Lahor' (S. A. A. Rızvî), https://islamansiklopedisi.org.tr/lahor",
+    "tanik": "Şehir 991’den sonra Hindûşâhîler’in, 1013-1014’te Gazneli Mahmud’un eline geçti."
+   },
+   {
+    "t": "1013-01-01",
+    "gun": "1013-1014 (aralık; atlas başı 1013)",
+    "k": "fetih",
+    "b": "Gazneli Mahmud Lahor'u Hindu Şâhîler'den alır; kaleyi tahkim edip Horasan'dan getirdiği garnizonu yerleştirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Lahor' (S. A. A. Rızvî), https://islamansiklopedisi.org.tr/lahor",
+    "tanik": "1013-1014’te Gazneli Mahmud’un eline geçti"
+   }
+  ],
+  "ic_not": "Kuruluş: bulunamadı (TDV: ad kaynağı bilinmiyor). Gelenek: Hindu tarihçiler adı Râma'nın oğlu Lava'ya bağlar (TDV) — gelenek, kullanılmadı. Atlas Lahor 1013-01-01 Gazneli ile başlıyor; 1013 öncesi 982/3-1013 arası zincir bu kayıtla dolduruldu. Künye önerisi: multan-sama-emirligi (kunye_yok). Atlas düzeltme önerisi yok."
+ },
+ {
+  "id": "leh",
+  "ad": "Leh (Ladakh)",
+  "atlas_ad": "Leh (Ladakh)",
+  "lat": 34.164,
+  "lon": 77.585,
+  "kat1900": 1,
+  "adlar": [
+   "Leh"
+  ],
+  "ilk": {
+   "t": "0950-01-01",
+   "gun": "950 civarı (Ladakh kronikleri, Francke)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "A. H. Francke, A History of Western Tibet (Londra 1907), archive.org historyofwestern00ahfr",
+   "tanik": "At Leh there reigned a dynasty of kings who derived their origin",
+   "ic_not": "ZAYIF: Francke 'about 950 A.D.' durumu için Ladakh kroniklerinden aktarır: 'At that time Upper Ladakh was held by the descendants of Gesar (Kesar)'; Leh'te Kesar soyundan krallar yönetmiş (yerel gelenek + yazıtlar). Kroniğin kendisi sonradan derlenmiştir (Francke: ilk bölüm 900-1400 'mere names'); Leh'in çağdaş yazılı/yazıtlı tanığı bulunamadı. Kuruluş tarihi: bulunamadı. Francke'nin kendi tarihlemeleri çelişkili: 'advent of the Central Tibetan dynasty in 1000 A.D.' / harita 975-1000 / bölüm başlığı 'about 900-1400'."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0950-01-01",
+    "t": "1281-01-01",
+    "d": "ladak",
+    "kesinlik": "onyil",
+    "kaynak": "A. H. Francke, A History of Western Tibet (Londra 1907), archive.org historyofwestern00ahfr",
+    "ic_not": "Leh krallarının soy kütüğü kronikte Lhasa krallarına bağlanır (Francke); Kesar soyundan Üst Ladakh krallığı → Merkezî Tibet (Nyima-gon) hânedanı (≈975-1000) → ... Namgyal'a kadar süreklilik kronik iddiasıdır. Künye 'ladak' f=1281 → HAYALET UYARISI beklenir: önerilen künye genişletmesi: 'ladak' (Maryul/Ladakh krallığı) f ≈ 950'ye açılsın ya da 'ladak-erken' ayrı künye. Atlas 1281 başlangıcıyla aynı id (dikiş yok)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0950-01-01",
+    "gun": "950 civarı",
+    "k": "diger",
+    "b": "Ladakh kroniğine göre Üst Ladakh (Leh) Kesar'ın torunlarının elindedir; Alt Ladakh küçük bağımsız beyliklere bölünmüştür (ilk anılış).",
+    "kaynak": "A. H. Francke, A History of Western Tibet (Londra 1907), archive.org historyofwestern00ahfr",
+    "tanik": "At that time Upper Ladakh was held by the descendants of Gesar"
+   },
+   {
+    "t": "1000-01-01",
+    "gun": "1000 civarı (Merkezî Tibet hânedanı)",
+    "k": "siyaset",
+    "b": "Francke'ye göre Merkezî Tibet (Nyima-gon) hânedanı Batı Tibet'te iktidara gelir; Leh kralları krallığın tamamı üzerinde üstünlük iddia eder.",
+    "kaynak": "A. H. Francke, A History of Western Tibet (Londra 1907), archive.org historyofwestern00ahfr",
+    "tanik": "till the advent of the Central Tibetan dynasty in 1000 A.D."
+   }
+  ],
+  "ic_not": "Leh'in yazılı/arkeolojik çağdaş ilk tanığı bulunamadı (Francke 1907 + kronikler tek kaynak; Cunningham 1854 'Ladak' indirildi, bu turda taranmadı). Atlas düzeltme önerisi: yok; 'ladak' künyesi erken dönemi de kapsayacak şekilde genişletilmeli."
  },
  {
   "id": "lizbon",
@@ -8004,6 +8329,124 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Madrid'in kuruluşu (Müslüman kalesi) TDV/Himyerî'ye göre; Roma/Vizigot dönemi şehir kaydı yok. 1031-1083 arası sahiplik 'en erken olası' sınırlarla yazıldı: ZÜNNÛNÎ başlangıcı bulunamadı. Çift teyit YOK (yalnız TDV; Treccani 'Madrid' maddesi (https://www.treccani.it/enciclopedia/madrid_(Enciclopedia-Italiana)/) açıldı ama bu oturumda kuruluş/1083 için okunmadı). Zincir atlas ilk gününde (1281-01-01 Kastilya) biter."
+ },
+ {
+  "id": "madurai",
+  "ad": "Madurai",
+  "atlas_ad": "Madurai",
+  "lat": 9.925,
+  "lon": 78.119,
+  "kat1900": 1,
+  "adlar": [
+   "Modiera (Plinius)",
+   "Madhura / Madura",
+   "Madurai"
+  ],
+  "ilk": {
+   "t": "0077-01-01",
+   "gun": "77 (Plinius, Naturalis Historia VI; 73-77 arası yayın)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "W. H. Schoff, The Periplus of the Erythraean Sea (New York 1912), Ek: Plinius VI.26 alıntısı ve §54 notu; archive.org periplusoferythr00scho",
+   "tanik": "at a city known as Modiera",
+   "ic_not": "Plinius (NH VI.26): 'Here king Pandion used to reign, … at a city known as Modiera' — Schoff Periplus ekinde Modiera = Madura (9°55'K 78°7'D) ve 'The capital had been removed, as Pliny states, to Madura' (Korkai'den). Plinius eseri 73-77 arasında yayımlanmış, 77'de ithaf edilmiştir (Schoff) → güvenli uç 77. Aralık beyanı: Plinius'un sağlığı 79'a kadar. DAHA ESKİ ADAYLAR (kullanılmadı): Kautilya Arthaśāstra 'Madhuram' pamuk türü ve Pandyakavataka — Sastri 'references are clearly to the Pandyas … and their capital Madura' der ama metnin yaşı/özgünlüğü tartışmalı ('importance … will depend upon the view taken of the age and authenticity of the text'); Aşoka fermanları Pandya KRALLIĞINI anar (şehri değil; Sastri: 'earliest indubitable reference to the Pandyan kingdom'); Ptolemaios 'Modoura' (McCrindle: 'second capital of the Southern Pandyas') — OCR metninde alıntı doğrulanamadı. Kuruluş: bulunamadı (Sthala Purana mitik; IGI 'mists … hardly lift until the fourteenth century')."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0077-01-01",
+    "t": "0590-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "K. A. Nilakanta Sastri, The Pandyan Kingdom (Londra 1929); archive.org dli.csl.5955; W. H. Schoff, The Periplus of the Erythraean Sea (New York 1912), Ek: Plinius VI.26 alıntısı ve §54 notu; archive.org periplusoferythr00scho",
+    "ic_not": "Başlangıçta sahip bilinir (Plinius: kral Pandion Modiera'da oturur — Pandya, Sangam çağı) ama Sastri'nin 'Kalabhra interregnum'u (Pandya restorasyonundan Kadungon'dan önce) tarihsiz; Kalabhra işgalinin başlangıç ve bitiş yılları kaynakta yok → aralıkta sahip dilimlemesi yapılamaz, __BOSLUK__ (beyanlı). Künye önerisi (ileride): 'pandya-sangam' (≈MÖ 3. yy-MS ≈3. yy) ve 'kalabhra' (kunye_yok, tarihsiz)."
+   },
+   {
+    "f": "0590-01-01",
+    "t": "0910-01-01",
+    "d": "pandya-1",
+    "kesinlik": "yil",
+    "kaynak": "K. A. Nilakanta Sastri, The Pandyan Kingdom (Londra 1929); archive.org dli.csl.5955",
+    "ic_not": "Birinci Pandya İmparatorluğu (Kadungon 590-620, Sastri tablosu; 'Even the end of the sixth century may be accepted as possible'). Künye pandya-1 f=601 → hayalet uyarısı (11 yıl). Bitiş: Parantaka I'in 'Maduraikonda' unvanı en geç 910 (üçüncü yıl) — Madurai'nin Çola eline düşüşü en geç 910; kesin gün/yıl yok (beyanlı, 'f en geç tanıktan' simetriği)."
+   },
+   {
+    "f": "0910-01-01",
+    "t": "0994-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "K. A. Nilakanta Sastri, The Pandyan Kingdom (Londra 1929); archive.org dli.csl.5955",
+    "ic_not": "Çola (Parantaka I, Madhurantaka/Maduraikonda, 907-955), Pandya (Vira Pandya, II. Rajasimha), Seylan yardımı ve Rashtrakuta (Krishna III) arasında kesintili el değiştirme; Sastri: ‘the Chola power was not fully restored in the Pandya country’ (Aditya II zamanına kadar), Raja Raja I (985) ile kalıcı. Tek tek geçişlerin tarihleri/süreleri kaynakta yok → __BOSLUK__ (beyanlı)."
+   },
+   {
+    "f": "0994-01-01",
+    "t": "1190-01-01",
+    "d": "cola",
+    "kesinlik": "yil",
+    "kaynak": "K. A. Nilakanta Sastri, The Pandyan Kingdom (Londra 1929); archive.org dli.csl.5955",
+    "ic_not": "f 'en geç tanıktan': Raja Raja I (acc. 985) sekizinci yılında (≈993-994) yazıtlarda Pandya fethi 'far advanced'. Dönem boyunca Pandya hânedanları Çola egemenliği altında yerel hüküm sürdü; 1070 sonrası Jatavarman Sri Vallabha gibi Pandyalar güç kazandı (Sastri Ch.IX); Çola ordusu Madurai'yi ≈1182'den sonra (Kulottunga III, 4. yıl) alıp Vikrama Pandya'yı tahta çıkarır. Bitiş = Pandya İkinci İmparatorluğu (1190)."
+   },
+   {
+    "f": "1190-01-01",
+    "t": "1281-01-01",
+    "d": "pandya",
+    "kesinlik": "yil",
+    "kaynak": "K. A. Nilakanta Sastri, The Pandyan Kingdom (Londra 1929); archive.org dli.csl.5955",
+    "ic_not": "Pandya İkinci İmparatorluğu (künye pandya 1190-1323). Atlas 1281'de 'pandya' ile aynı id → dikişte olay gerekmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0077-01-01",
+    "gun": "77 (Plinius)",
+    "k": "diger",
+    "b": "Plinius Pandion'un Modiera'da (Madurai) oturduğunu yazar (ilk anılış).",
+    "kaynak": "W. H. Schoff, The Periplus of the Erythraean Sea (New York 1912), Ek: Plinius VI.26 alıntısı ve §54 notu; archive.org periplusoferythr00scho",
+    "tanik": "at a city known as Modiera"
+   },
+   {
+    "t": "0590-01-01",
+    "gun": "590-620 (Kadungon)",
+    "k": "taht",
+    "b": "Kadungon Kalabhra egemenliğini sona erdirir, Birinci Pandya İmparatorluğu başlar (Sastri tablosu: Kadungon A.D. 590-620).",
+    "kaynak": "K. A. Nilakanta Sastri, The Pandyan Kingdom (Londra 1929); archive.org dli.csl.5955",
+    "tanik": "Kadungon a.d. 590-620"
+   },
+   {
+    "t": "0910-01-01",
+    "gun": "910 (en geç)",
+    "k": "fetih",
+    "b": "Parantaka I (Çola) Madurai'yi alır ('Maduraikonda' unvanı üçüncü yılında, 910); Pandya kralı II. Rajasimha Seylan'a kaçar.",
+    "kaynak": "K. A. Nilakanta Sastri, The Pandyan Kingdom (Londra 1929); archive.org dli.csl.5955",
+    "tanik": "This title of Parantaka appears as early as the third year of his reign"
+   },
+   {
+    "t": "0994-01-01",
+    "gun": "993-994 (Raja Raja I, 8. yıl)",
+    "k": "fetih",
+    "b": "I. Raja Raja Pandya ülkesini fethetmiş; fetih bu tarihte 'far advanced'.",
+    "kaynak": "K. A. Nilakanta Sastri, The Pandyan Kingdom (Londra 1929); archive.org dli.csl.5955",
+    "tanik": "the conquest of the south may be taken to have far advanced by that time"
+   },
+   {
+    "t": "1182-01-01",
+    "gun": "1182 sonrası (Kulottunga III, tarihsiz yazıt)",
+    "k": "fetih",
+    "b": "Çola ordusu Madurai'yi alır, Pandya tahtına el koyar (Vira Pandya Seylanlı müttefikleriyle yenilir).",
+    "kaynak": "K. A. Nilakanta Sastri, The Pandyan Kingdom (Londra 1929); archive.org dli.csl.5955",
+    "tanik": "the Chola army took possession of the Pandya throne"
+   },
+   {
+    "t": "1190-01-01",
+    "gun": "1190",
+    "k": "diger",
+    "b": "künye geçişi: Çola → Pandya İkinci İmparatorluğu — III. Kulottunga Vikrama Pandya'yı Madurai tahtına geri oturtur.",
+    "kaynak": "K. A. Nilakanta Sastri, The Pandyan Kingdom (Londra 1929); archive.org dli.csl.5955",
+    "tanik": "by Kulottunga III of Vikrama Pandya to the throne of Madura"
+   }
+  ],
+  "ic_not": "Çok eski kronoloji (Sangam) için tarihli kaynak yok; Sastri tek ana kaynak (OCR). Sahiplik dilimleri iki __BOSLUK__ taşıyor (Kalabhra; 910-994 çekişmeli). Atlas Madurai'yi 1281'de 'pandya' ile başlatır — kaynakla uyumlu (Pandya İkinci İmparatorluğu 1190'dan)."
  },
  {
   "id": "mantova",
@@ -9312,6 +9755,108 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Çift teyit yok. Han dönemi Houcheng bağı akademik raporla doğrulanamadı (bkz. ilk.ic_not). Takvim: ganzhi gün sütunu → Jülyen dönüşümü kendi hesabım (gz tablosu) ve ortalama yeni ay; NAOJ/Academia Sinica tablosuyla doğrulanmadı. Atlas: Mukden 1281 yuan ile başlar; bu dosya Shenzhou 921'e kadar iner; atlas kd 1636 (Qing başkenti). Atlas düzeltme: yok."
+ },
+ {
+  "id": "multan",
+  "ad": "Multan",
+  "atlas_ad": "Multan",
+  "lat": 30.198,
+  "lon": 71.475,
+  "kat1900": 2,
+  "adlar": [
+   "Mulasthana (Mûlasthâna)",
+   "Multan (Mültan)"
+  ],
+  "ilk": {
+   "t": "0712-10-07",
+   "gun": "94 H / 712 (Arap fethi)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mültan' (Azmi Özcan, 2020), https://islamansiklopedisi.org.tr/multan; Elliot & Dowson, The History of India as told by its own Historians, I (Londra 1867; Chach-nâma özeti), archive.org historyofindiaas01elli",
+   "tanik": "fethi 94 (712) yılında Sind fâtihi Muhammed b. Kāsım es-Sekafî tarafından gerçekleştirildi",
+   "ic_not": "Hicrî 94 = 7.x.712 - 25.ix.713 (tablo takvimi, Jülyen); 712 ∩ 94H kesişiminin ilk günü 712-10-07 alındı. TDV: 'Bilinen tarihi milâttan önce 326’da burayı istilâ eden Makedonyalı İskender’le başlamaktadır' — İskender'in Malli kalesinin Multan olduğu Gazetteer'de 'Tradition identifies' diye geçer (yeri kesin olmayan eşitleme), bu yüzden MÖ 326 başlangıç alınmadı; ayrıca TDV 'V. yüzyıldan sonra Hindu Rai hânedanı' der (tarihsiz). Cunningham/Chach-nâma geleneğine göre Brahman Chach'ın Multan'ı alışı 7. yy ortası (Cunningham: 'in the middle of the seventh century'); tarihsiz, kullanılmadı. Xuanzang'ın 'Mou-lo-san-pu-lu'su Watters'a göre Multan DEĞİL ('an impossible restoration'). Multan'ı anan en eski kesin tarihli kayıt bu bulunan: 712 Arap fethi."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0712-10-07",
+    "t": "0750-08-05",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Mültan' (Azmi Özcan, 2020), https://islamansiklopedisi.org.tr/multan; TDV İslâm Ansiklopedisi, 'Emevîler' (İ. Yiğit), https://islamansiklopedisi.org.tr/emeviler",
+    "ic_not": "Fetihten sonra Emevî valisi (Nâsır b. Velîd Ammânî) atanır. TDV: 'Ancak Hindular bir müddet sonra ayaklanıp aralıklarla sürdürdükleri savaşlar sonunda şehre tekrar hâkim oldular' — Hindu yeniden ele geçirme(ler)in tarihi/süresi bilinmiyor (kısa/aralıklı → dönem AÇILMADI, beyan). Bitiş: Emevî künyesinin sonu (II. Mervân öldürüldü, 5 Ağustos 750)."
+   },
+   {
+    "f": "0750-08-05",
+    "t": "0968-11-25",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Mültan' (Azmi Özcan, 2020), https://islamansiklopedisi.org.tr/multan; Elliot & Dowson, The History of India as told by its own Historians, I (Londra 1867; Chach-nâma özeti), archive.org historyofindiaas01elli",
+    "ic_not": "Şehir VAR, bu aralıkta tarihli sahip tanığı bulunamadı. Tanıklar tarihsiz/yerel: TDV Mes‘ûdî'nin 313 (925) civarında Vali Ebû Leheb Mürebbih b. Esed'ini anar; E&D (Mes‘ûdî): 'The crown of Multan has been hereditary in the family which rules at present, since ancient times, from the beginning of Islam' (Kureyşî yerel hânedan); E&D (Istahrî): vali 'reads the khutba in the name of the khalifa'. Bunlar sahibi (Abbâsî nominal / yerel Kureyşî emir) tarihli olarak ayırmaya yetmez (> 1 kuşak) → __BOSLUK__ (beyanlı)."
+   },
+   {
+    "f": "0968-11-25",
+    "t": "0983-06-14",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Mültan' (Azmi Özcan, 2020), https://islamansiklopedisi.org.tr/multan",
+    "ic_not": "f 'en erken tarihli tanık'tan: TDV 'İbn Havkal de 358’de (968-69) … Mültan’ın Abbâsî hâkimiyeti altında bulunduğunu söyler' (358 H = 25.xi.968 - 13.xi.969; ilk gün alındı). Gerçek geçiş çok daha eski olabilir. Bitiş: Hudud'daki Fâtımî hutbesi tanığı (aşağıda); Minorsky: 'Shi'ite coup d'état … took place after Ibn Hauqal and before Maqdisi' — geçiş 969-983 arası, en geç uç 983 alındı (beyanlı)."
+   },
+   {
+    "f": "0983-06-14",
+    "t": "1006-01-01",
+    "d": "multan-ismaili-emirligi",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "Hudud al-‘Alam (anonim, 372/982-83), V. Minorsky çevirisi, Londra 1937, §10 India no.36; archive.org in.ernet.dli.2015.281514; TDV İslâm Ansiklopedisi, 'Mültan' (Azmi Özcan, 2020), https://islamansiklopedisi.org.tr/multan",
+    "ic_not": "Hudud al-‘Alam: Multan'ın valisi 'a Quraishite from the descendants of Sam', hutbeyi 'Western One' (Fâtımî halife — Minorsky: 'The Fatimid caliph is meant here') adına okur; TDV: Mukaddesî 375 (985) 'İsmâilîler’in hâkim bulunduğunu … hutbelerde Fâtımî halifesinin adının okunduğunu'. 1006'da şehrin hâkimi 'Karmatî Ebü’l-Fütûh Dâvûd b. Nasr'. Künye önerisi: 'multan-ismaili-emirligi' (Fâtımî hutbeli İsmâilî/Karmatî Multan emirliği, ≈969/983-1006; 'karmati' künyesi Bahreyn Karmatîleri içindir, Multan değil). Atlasın not ettiği 'Karmatî künyesi BOYALAR'da yok' borcuna denk gelir."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0712-10-07",
+    "gun": "94 H / 712",
+    "k": "fetih",
+    "b": "Muhammed b. Kāsım Multan'ı fetheder, halkla anlaşır, cami yaptırır, Nâsır b. Velîd'i vali atar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Mültan' (Azmi Özcan, 2020), https://islamansiklopedisi.org.tr/multan; Elliot & Dowson, The History of India as told by its own Historians, I (Londra 1867; Chach-nâma özeti), archive.org historyofindiaas01elli",
+    "tanik": "Muhammad Kasim makes terms with the people of Multan"
+   },
+   {
+    "t": "0750-08-05",
+    "gun": "26 Zilhicce 132 / 5 Ağustos 750",
+    "k": "diger",
+    "b": "künye geçişi: Emevî hâkimiyeti sona erer (II. Mervân Mısır'da öldürülür); Multan için sonraki tarihli sahip tanığı yok → __BOSLUK__.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Emevîler' (İ. Yiğit), https://islamansiklopedisi.org.tr/emeviler",
+    "tanik": "Mervân en sonunda Mısır’da öldürüldü (26 Zilhicce 132 / 5 Ağustos 750)"
+   },
+   {
+    "t": "0968-11-25",
+    "gun": "358 H / 968",
+    "k": "diger",
+    "b": "İbn Havkal: Multan Abbâsî hâkimiyeti altında (en erken tarihli Abbâsî tanığı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Mültan' (Azmi Özcan, 2020), https://islamansiklopedisi.org.tr/multan",
+    "tanik": "Mültan’ın Abbâsî hâkimiyeti altında bulunduğunu söyler"
+   },
+   {
+    "t": "0983-06-14",
+    "gun": "372 H / 982-983",
+    "k": "diger",
+    "b": "Hudud: Multan hutbesi Fâtımî halifesi adına okunuyor (İsmâilî/Fâtımî hutbeli emirlik).",
+    "kaynak": "Hudud al-‘Alam (anonim, 372/982-83), V. Minorsky çevirisi, Londra 1937, §10 India no.36; archive.org in.ernet.dli.2015.281514",
+    "tanik": "The Fatimid caliph is meant here"
+   },
+   {
+    "t": "1006-01-01",
+    "gun": "396 H / 1006 (396 H = 8.x.1005 - 26.ix.1006)",
+    "k": "fetih",
+    "b": "Gazneli Mahmud Multan'ı yedi günlük kuşatmayla alır; Karmatî hâkim Ebü’l-Fütûh Dâvûd Serendib'e kaçar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Mültan' (Azmi Özcan, 2020), https://islamansiklopedisi.org.tr/multan",
+    "tanik": "Gazneli Mahmud Mültan’ı yedi günlük bir muhasaradan sonra zaptetti (396/1006)"
+   }
+  ],
+  "ic_not": "Kuruluş: bulunamadı. Mülâhaza: 'Rashtpur, Hanspur, Bagpur, Sanabpur, Mulasthan' eski adları IGI-Punjab II'de sayılır, tarihsiz. Mulasthana'yı anan Jain Harivamsa (783) ve Harisena Brhatkathakosa (931) kaydı Cunningham 1979 baskısının ek notunda anılır ama asıl metin görülmedi (ikincil, kullanılmadı). Kuşan/Eftalit/Hindu Rai dönemi (712 öncesi) tarihli tanık bulunamadığından zincire alınmadı. Atlas dikişi: atlas Gazneli'yi 1006-01-01'de başlatır = TDV 396/1006."
  },
  {
   "id": "nantes",
@@ -12019,6 +12564,84 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "DOĞRULAMA: Semerkant = Efrâsiyâb höyüğü (şehristan) — TDV ve Barthold (Geographical Survey) ikisi de eski şehir ≈ bugünkü Efrâsiyâb. ATLAS DÜZELTME ÖNERİSİ: (1) f 1000-01-01 → 999-10-23 (Barthold: 23 Ekim 999 Pazartesi, Jülyen takvim tutarlı; TDV Karahanlılar \"Ekim 1999\" çift teyit). (2) Atlasın Karahanlı öncesi dilimi bu dosyada MÖ 535'e kadar uzatıldı. KAYNAK SINIRI: pre-İslâmî dönem sınırları (Yüe-çi/Kang-chü/Hsiungnu/Kuşan/Akhun/Eftalit) TDV'nin yüzyıl-ölçekli anlatısından alınmıştır; Çin ve Soğd birincil kaynakları (Chavannes) bu oturumda açılamadı, künye sınırı kullanılan her yer sahip.ic_not'ta beyanlı. Iranica 403 (Cloudflare) verdi."
  },
  {
+  "id": "seringapatam",
+  "ad": "Seringapatam (Şrirangapatnam)",
+  "atlas_ad": "Seringapatam (Şrirangapatnam)",
+  "lat": 12.412,
+  "lon": 76.694,
+  "kat1900": 2,
+  "adlar": [
+   "Sri-Rangapura / Sri-Rangapattana",
+   "Seringapatam"
+  ],
+  "ilk": {
+   "t": "0894-01-01",
+   "gun": "894",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Imperial Gazetteer of India, Vol. XXII (Oxford 1908), 'Seringapatam Town'; archive.org TheImperialGazetteerOfIndia-Volume22; B. L. Rice, Mysore: a Gazetteer compiled for Government, rev. ed., Vol. II (Westminster 1897); archive.org india.history.resource.89057",
+   "tanik": "one Tirumalayya appears to have founded the temples of Ranganatha and Tirumala",
+   "ic_not": "IGI: 'In 894, during the reign of the Ganga kings, one Tirumalayya appears to have founded the temples of Ranganatha and Tirumala on the island, then overrun with jungle, and, enclosing them with a wall, called the place Sri-Rangapura.' Rice (Mysore Gazetteer) aynı anlatımı verir — iki kaynak BAĞIMSIZ DEĞİL (IGI Rice'a dayanır); 894 tarihinin dayandığı Epigraphia Carnatica yazıtı bu turda açılmadı. Tapınak vakfı/adlandırma kuruluşa kanıt sayılmadı → ilk_anılış. 'appears to' ifadesi ihtiyat ister. Kuruluş: bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0894-01-01",
+    "t": "1004-01-01",
+    "d": "bati-ganga",
+    "kesinlik": "yil",
+    "boyasiz": true,
+    "kaynak": "Imperial Gazetteer of India, Vol. XXII (Oxford 1908), 'Seringapatam Town'; archive.org TheImperialGazetteerOfIndia-Volume22; B. L. Rice, Mysore: a Gazetteer compiled for Government, rev. ed., Vol. II (Westminster 1897); archive.org india.history.resource.89057",
+    "ic_not": "Batı Ganga (Talakad Gangaları), 'during the reign of the Ganga kings' (IGI). Künye bati-ganga 350-1004 (boyasız). Rice: Ganga gücü 'about 1004' Çolalar tarafından yıkıldı."
+   },
+   {
+    "f": "1004-01-01",
+    "t": "1117-01-01",
+    "d": "cola",
+    "kesinlik": "yil",
+    "kaynak": "B. L. Rice, Mysore: a Gazetteer compiled for Government, rev. ed., Vol. II (Westminster 1897); archive.org india.history.resource.89057",
+    "ic_not": "Rice: Rajendra Chola komutasındaki Çola istilası 'about 1004' Talakad'ı alır, 'Seringapatam'ın doğusundaki ülke' dahil Mysore'un Kaveri güneyini ele geçirir (Rice: 'south of the Kavéri, together with that east from Seringapatam' — Seringapatam adada, yer doğrudan adlandırılmadı: beyanlı çıkarım). Bitiş: Hoysala (Bitti Deva/Vishnuvardhana) 1104 sonrası Talakad'ı alıp Çolaları Mysore'dan atar; Seringapatam bölgesinin Hoysala elinde olduğunun en geç tanığı ≈1117 (Ramanuja'ya bağış) → f 'en geç tanıktan' 1117 (önceki dönem 1104-1117 arası uzar, 13 yıl, beyanlı)."
+   },
+   {
+    "f": "1117-01-01",
+    "t": "1281-01-01",
+    "d": "hoysala",
+    "kesinlik": "yil",
+    "kaynak": "Imperial Gazetteer of India, Vol. XXII (Oxford 1908), 'Seringapatam Town'; archive.org TheImperialGazetteerOfIndia-Volume22",
+    "ic_not": "IGI: ≈1117'de Kaveri'nin iki yakası 'bestowed by the Hoysala king on the reformer Ramanuja' (Ashtagrama). Atlas 1281'de 'hoysala' ile aynı id → dikişte olay gerekmez. (Künye hoysala f=1026 → hayalet yok.)"
+   }
+  ],
+  "olay": [
+   {
+    "t": "0894-01-01",
+    "gun": "894",
+    "k": "kurulus",
+    "b": "Ganga hükümdarları zamanında Tirumalayya, ormanla kaplı adada Ranganatha ve Tirumala tapınaklarını yaptırıp surla çevirir; yere Sri-Rangapura adı verilir.",
+    "kaynak": "Imperial Gazetteer of India, Vol. XXII (Oxford 1908), 'Seringapatam Town'; archive.org TheImperialGazetteerOfIndia-Volume22",
+    "tanik": "one Tirumalayya appears to have founded the temples of Ranganatha and Tirumala"
+   },
+   {
+    "t": "1004-01-01",
+    "gun": "1004 civarı",
+    "k": "fetih",
+    "b": "Rajendra Chola komutasındaki Çola ordusu Talakad'ı alır, Ganga gücünü yıkar.",
+    "kaynak": "B. L. Rice, Mysore: a Gazetteer compiled for Government, rev. ed., Vol. II (Westminster 1897); archive.org india.history.resource.89057",
+    "tanik": "a formidable invasion by the Cholas took place"
+   },
+   {
+    "t": "1117-01-01",
+    "gun": "1104 sonrası - 1117 (Hoysala)",
+    "k": "fetih",
+    "b": "Hoysala Bitti Deva (Vishnuvardhana) Talakad'ı alıp Çolaları Mysore'dan atar; ≈1117'de Kaveri iki yakasındaki ülkeyi Ramanuja'ya bağışlar.",
+    "kaynak": "B. L. Rice, Mysore: a Gazetteer compiled for Government, rev. ed., Vol. II (Westminster 1897); archive.org india.history.resource.89057; Imperial Gazetteer of India, Vol. XXII (Oxford 1908), 'Seringapatam Town'; archive.org TheImperialGazetteerOfIndia-Volume22",
+    "tanik": "retook Talakad and drove the Cholas out of Mysore"
+   }
+  ],
+  "ic_not": "Atlas Seringapatam'ı 1281'de 'hoysala' ile başlatır (kale tipi); yerleşim 894'ten (tapınak kenti) var. 894 öncesi için kaynak bulunamadı (Gautama Rishi efsanesi). Kronoloji 1004/1104/1117 gün bazında değil, yıl bazında (colonial gazetteer). Epigraphia Carnatica III açılırsa 894, 1004 ve 1117 yazıtla çift teyit edilebilir."
+ },
+ {
   "id": "seul",
   "ad": "Seul (Hanyang)",
   "atlas_ad": "Seul (Hanyang)",
@@ -12494,6 +13117,116 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK: güvenli uç ilk.t=1300 atlasın başlangıcından (1281-01-01) SONRA; kural gereği 1281 öncesi sahip yazılmaz. ATLAS DÜZELTME ÖNERİSİ: atlas Söğüt'ü 1281'de Osmanlı olarak açıyor ('miras', künyesiz); TDV yerleşmenin ortaya çıkışını 'XIII. yüzyılın ikinci yarısı' (1250-1300) aralığına koyar, 1281 bu aralığa düşer ama gün/yıl teyidi yok. Ertuğrul'un Söğüt'ü Alâeddin'den aldığı (Selçuklu) rivayeti TDV'de tarihsizdir → olay yazılmadı."
+ },
+ {
+  "id": "srinagar",
+  "ad": "Srinagar (Keşmir)",
+  "atlas_ad": "Srinagar (Keşmir)",
+  "lat": 34.084,
+  "lon": 74.797,
+  "kat1900": 1,
+  "adlar": [
+   "Pravarapura (Pravarasenapura)",
+   "Srinagari / Srinagara",
+   "Srinagar"
+  ],
+  "ilk": {
+   "t": "0550-01-01",
+   "gun": "6. yüzyıl ortası (Stein tahmini)",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "M. A. Stein, Kalhana's Rajatarangini (Westminster 1900), Introduction + Ancient Geography of Kasmir; archive.org xnrk_kalhanas-rajatarangini…",
+   "tanik": "Kalhana attributes the foundation of this capital to King",
+   "ic_not": "Kalhana (Râjataranginî III.336-349) Pravarapura'nın (bugünkü Srinagar) kuruluşunu Pravarasena II'ye bağlar; Stein: 'Pravarasena II … we must recognize … the founder of S'rinagar'. Pravarasena II'nin tarihi KESİN DEĞİL: Stein 'make it probable that he ruled about the middle of the sixth century' (sikke+kronoloji göstergeleri) → kesinlik yüzyıl, tarih 0550 yalnız yaklaşık. Çağdaş ilk yazılı tanık Hiuen Tsiang ≈631 (aşağıda). 'Eski şehir' Puranadhisthana (Pandrethan, Aşoka'ya atfedilen 'Srinagari' geleneği) ayrı yerleşimdir (Stein: bugünkü Srinagar'ın eski şehri, Pandrethan; mesafe ölçülmedi), burada kullanılmadı — antik yer ayrı kayıt önerisi: Pandrethan."
+  },
+  "kur": {
+   "t": "0550-01-01",
+   "gun": "6. yüzyıl ortası (Stein tahmini)",
+   "kesinlik": "yuzyil",
+   "kaynak": "M. A. Stein, Kalhana's Rajatarangini (Westminster 1900), Introduction + Ancient Geography of Kasmir; archive.org xnrk_kalhanas-rajatarangini…",
+   "tanik": "make it probable that he ruled about the middle of the sixth century"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0550-01-01",
+    "t": "0631-01-01",
+    "d": "kesmir-gonandiya",
+    "kunye_yok": true,
+    "kesinlik": "yuzyil",
+    "kaynak": "M. A. Stein, Kalhana's Rajatarangini (Westminster 1900), Introduction + Ancient Geography of Kasmir; archive.org xnrk_kalhanas-rajatarangini…",
+    "ic_not": "Gonanda/Gonandiya hânedanının Pravarasena II dalı (Kalhana). Künye önerisi: 'kesmir-gonandiya' (Keşmir Hindu krallığı, Gonandiya hânedanı, ≈VI. yy-VII. yy başı; kaynak Kalhana/Stein). t = 'en geç tanıktan': Stein indeksi Hiuen Tsiang'ın (≈631) ziyaretini Karkota Durlabhavardhana'nın zamanına koyar → Karkota en geç 631'de iktidarda; önceki dönemin uzunluğu belirsiz (beyanlı yaklaşıklık)."
+   },
+   {
+    "f": "0631-01-01",
+    "t": "0855-01-01",
+    "d": "karkota",
+    "kesinlik": "yil",
+    "kaynak": "M. A. Stein, Kalhana's Rajatarangini (1900), Index; archive.org xnrk_kalhanas-rajatarangini…; TDV İslâm Ansiklopedisi, 'Keşmir', https://islamansiklopedisi.org.tr/kesmir",
+    "ic_not": "f 'en geç tanıktan' (Hiuen Tsiang ≈631, Durlabhavardhana zamanı); künye karkota 626-855. TDV: Karkota Lalitaditya Muktapide (724-761). Bitiş: Stein 'Avantivarman (A.D. 855-883)' Utpala hânedanını başlatır; künye utpala-kesmir 855-1003 (boyasız)."
+   },
+   {
+    "f": "0855-01-01",
+    "t": "1003-01-01",
+    "d": "utpala-kesmir",
+    "kesinlik": "yil",
+    "boyasiz": true,
+    "kaynak": "M. A. Stein, Kalhana's Rajatarangini (Westminster 1900), Introduction + Ancient Geography of Kasmir; archive.org xnrk_kalhanas-rajatarangini…",
+    "ic_not": "Utpala hânedanı (Avantivarman 855-883; Stein). Künye boyasız. TDV: 'Bunun ardından Keşmir sırasıyla Utpala ve Lahora hânedanları tarafından yönetildi.' Bitiş: Stein 'accession of the house of Lohara (a.p. 1003)'."
+   },
+   {
+    "f": "1003-01-01",
+    "t": "1281-01-01",
+    "d": "kesmir",
+    "kesinlik": "yil",
+    "kaynak": "M. A. Stein, Kalhana's Rajatarangini (Westminster 1900), Introduction + Ancient Geography of Kasmir; archive.org xnrk_kalhanas-rajatarangini…; TDV İslâm Ansiklopedisi, 'Keşmir', https://islamansiklopedisi.org.tr/kesmir",
+    "ic_not": "Lohara hânedanı (Hindu), Samgramaraja'dan (1003-28) itibaren. DİKKAT: 'kesmir' künyesi 'Keşmir Sultanlığı (Şah Mîr)' adıdır (TDV: Şah Mîr 1338-42'de sultan; Hindu idaresi 1320'de Zulcu akınıyla sarsıldı) — künye f=1000'e açılmış, yani künye bu Hindu dönemi de taşıyor (aynı bölge); künye adı/tanımı genişletilmeli ya da 'kesmir-lohara' ayrı künye önerilir. Atlas 1281 başlangıcı ile aynı id → dikişte olay gerekmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0550-01-01",
+    "gun": "6. yüzyıl ortası",
+    "k": "kurulus",
+    "b": "Pravarasena II dönüşünde yeni başkent Pravarapura'yı (Srinagar) kurar; ilk yapı Pravareśvara tapınağı (Kalhana III.336-349).",
+    "kaynak": "M. A. Stein, Kalhana's Rajatarangini (Westminster 1900), Introduction + Ancient Geography of Kasmir; archive.org xnrk_kalhanas-rajatarangini…",
+    "tanik": "Kalhana attributes the foundation of this capital to King"
+   },
+   {
+    "t": "0631-01-01",
+    "gun": "631 civarı",
+    "k": "diger",
+    "b": "Hiuen Tsiang Keşmir başkentini ziyaret eder: 'yeni şehir' bugünkü Srinagar konumundadır (çağdaş ilk yazılı tanık). Künye geçişi: Gonandiya → Karkota (en geç tanık).",
+    "kaynak": "M. A. Stein, Kalhana's Rajatarangini (Westminster 1900), Introduction + Ancient Geography of Kasmir; archive.org xnrk_kalhanas-rajatarangini…; M. A. Stein, Kalhana's Rajatarangini (1900), Index; archive.org xnrk_kalhanas-rajatarangini…",
+    "tanik": "found it already in the position of the present Srinagar"
+   },
+   {
+    "t": "0855-01-01",
+    "gun": "855",
+    "k": "diger",
+    "b": "künye geçişi: Karkota → Utpala (Avantivarman, 855-883; Avantipura kurulur).",
+    "kaynak": "M. A. Stein, Kalhana's Rajatarangini (Westminster 1900), Introduction + Ancient Geography of Kasmir; archive.org xnrk_kalhanas-rajatarangini…",
+    "tanik": "founded by King Avantivarman (A.D. 855-883)"
+   },
+   {
+    "t": "1003-01-01",
+    "gun": "1003",
+    "k": "diger",
+    "b": "künye geçişi: Utpala → Lohara hânedanı (Samgramaraja).",
+    "kaynak": "M. A. Stein, Kalhana's Rajatarangini (Westminster 1900), Introduction + Ancient Geography of Kasmir; archive.org xnrk_kalhanas-rajatarangini…",
+    "tanik": "the house of Lohara (a.p. 1003)"
+   },
+   {
+    "t": "1015-01-01",
+    "gun": "1015 ve 1021",
+    "k": "sefer",
+    "b": "Gazneli Mahmud Keşmir'i iki kez (1015, 1021) ele geçirmeye çalışır, vadiye giremeden döner.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Keşmir', https://islamansiklopedisi.org.tr/kesmir",
+    "tanik": "Gazneli Mahmud 1015 ve 1021’de iki defa burayı zaptetme girişiminde bulunduysa da"
+   }
+  ],
+  "ic_not": "Atlas Srinagar'ı 1281'de 'kesmir' ile başlatır. Pravarasena II tarihi yalnız yaklaşık (Stein); Karkota başlangıcı için tarihli günlük kaynak bulunamadı (Stein Kronolojik Tablo OCR'da okunamadı) — 631 'en geç' tanık. Antik 'eski şehir' Pandrethan ayrı yerleşim önerisi."
  },
  {
   "id": "stavropol-kafkas",
@@ -13811,6 +14544,70 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Kuruluş bulunamadı. Polybios 3.60 / Livius 21.38-39 (Hannibal, Taurini başkenti) açılamadı. Treccani Torino'da 1136 Lothar III'ün Amedeo III'ü kovması, 1159 piskopos, 1235 barış, 1237 imp. kaptan, 1248 Federico II'nin Savoy'a feodal vermesi; 1285 Savoy-Acaia. Atlas sardinya=savoya ile 1281 dikişi. Çift teyit YOK."
+ },
+ {
+  "id": "trivandrum",
+  "ad": "Trivandrum (Thiruvananthapuram)",
+  "atlas_ad": "Trivandrum (Thiruvananthapuram)",
+  "lat": 8.524,
+  "lon": 76.936,
+  "kat1900": 1,
+  "adlar": [
+   "Tiru-Anantapuram",
+   "Thiruvananthapuram",
+   "Trivandrum"
+  ],
+  "ilk": {
+   "t": "0900-01-01",
+   "gun": "9. yüzyıl (Nammâlvâr)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Kerala District Gazetteers: Trivandrum (A. Sreedhara Menon, 1962), History ch.; archive.org dli.ministry.08408; Imperial Gazetteer of India, Vol. XXIV (Oxford 1908), 'Trivandrum'; archive.org TheImperialGazetteerOfIndia-Volume24",
+   "tanik": "has sung hymns in praise of Sri Padmanabha",
+   "ic_not": "Kerala District Gazetteer (Trivandrum): 'The great Vaishnava saint Nammalwar who flourished in the 9th century A.D., has sung hymns in praise of Sri Padmanabha' — Padmanabhaswami tapınağı (Tiruvananthapuram) 9. yy Alvar ilahilerinde; yüzyılın SON ucu (900) güvenli uç. IGI: şehir tapınağın etrafında büyümüş ve adını ondan almış ('the town has really grown up about the shrine and owes its name to it'). Şehrin kuruluş tarihi: bulunamadı. Periplus/Ptolemaios bölge anışları (Paralia, Aioi) şehir değil. Nammâlvâr'ın 9. yy tarihi ikincil kaynaktan (Gazetteer), birincil ilahi metni açılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0900-01-01",
+    "t": "0926-01-01",
+    "d": "ay-hanedani",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "Kerala District Gazetteers: Trivandrum (A. Sreedhara Menon, 1962), History ch.; archive.org dli.ministry.08408",
+    "ic_not": "Gazetteer: 'Tiruvattar, Vizhinjam, Trivandrum and several other places in the south belonged to the Ay dominion'; Ay kralı Vikramaditya Varaguna (885-926; Paliyam levhası Kollam 101 = 29.xii.925). Künye önerisi: 'ay-hanedani' (Ay krallığı, Güney Kerala; Sangam çağından ≈10. yy başına; Vizhinjam başkent). t = Varaguna'nın saltanat sonu (Gazetteer iki yerde 926 ve 925 verir; 926 alındı)."
+   },
+   {
+    "f": "0926-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Kerala District Gazetteers: Trivandrum (A. Sreedhara Menon, 1962), History ch.; archive.org dli.ministry.08408",
+    "ic_not": "Gazetteer: 'The disappearance of the Ays as a major political power in the 10th century A.D., synchronised with the emergence of the rulers of Venad'; Çera gücü Güney Travancore'a 'only in the beginning of the 12th century' uzanır; Venad (Quilon merkezli, Çera valisi) ancak 14. yy'da Trivandrum bölgesine hâkim kollar kurar. Trivandrum'un bu aralıktaki sahibi (Çera / Çola / Venad / yerel) TARİHLİ olarak ayrılamadı → __BOSLUK__ (beyanlı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0900-01-01",
+    "gun": "9. yüzyıl",
+    "k": "diger",
+    "b": "Nammâlvâr Sri Padmanabha (Tiruvananthapuram) için ilahiler söyler (ilk anılış).",
+    "kaynak": "Kerala District Gazetteers: Trivandrum (A. Sreedhara Menon, 1962), History ch.; archive.org dli.ministry.08408",
+    "tanik": "has sung hymns in praise of Sri Padmanabha"
+   },
+   {
+    "t": "0926-01-01",
+    "gun": "925-926",
+    "k": "kayip",
+    "b": "Ay kralı Vikramaditya Varaguna'nın saltanatı sona erer; Ay krallığı 10. yy'da büyük güç olmaktan çıkar.",
+    "kaynak": "Kerala District Gazetteers: Trivandrum (A. Sreedhara Menon, 1962), History ch.; archive.org dli.ministry.08408",
+    "tanik": "The disappearance of the Ays as a major political power in the 10th century A.D."
+   }
+  ],
+  "dikis_beyan": "Atlas Trivandrum'u 1281-01-01'de 'travankur' (Venad) ile başlatır; kaynak aranıp bulunamadı: Gazetteer Venad'ın 10. yy'dan beri Quilon merkezli küçük bir beylik olduğunu, Trivandrum'u (tapınak kenti) ancak 14. yy'da Elayadathu/Venad bölünmesiyle 'Venad’ın manevi başkenti' saydığını söyler; 1281'de Trivandrum'un Venad'a geçtiğine dair tarihli tanık yok → YER TUTUCU OLAY YAZILMADI.",
+  "ic_not": "Atlas 1281 'travankur' başlangıcı Trivandrum için kaynaksız. 926-1281 arası sahip tarihli bulunamadı (Çera/Çola/Venad). Kollam Çağı yazıtları (Varkala 1252) Venad kralı Padmanabha Marthanda Varma'yı anar ama Trivandrum'u doğrudan bağlamaz."
  },
  {
   "id": "turfan",
