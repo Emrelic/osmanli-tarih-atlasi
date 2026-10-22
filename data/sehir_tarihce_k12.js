@@ -3333,6 +3333,200 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Zincir BOŞ: ilk.t (1723-09-10) atlas başlangıcından (1707-01-01) sonra; denetim 'atlas başlangıcı düzeltilmeli' uyarısı verir. Köy 'Bhupal' öncesi Ginnorgarh Gond krallığı (Rani Kamlavati) topraklarındaydı (Raisen Gazetteer); Gond devleti için künye/kaynak bu oturumda aranmadı → öncesi BULUNAMADI."
  },
  {
+  "id": "bicapur",
+  "ad": "Bîcâpur (Bijapur)",
+  "atlas_ad": "Bîcâpur (Bijapur)",
+  "lat": 16.827,
+  "lon": 75.71,
+  "kat1900": 3,
+  "adlar": [
+   "Vijayapura",
+   "Bîcâpûr",
+   "Bijapur",
+   "Badyapur (İbrâhim II denemesi)",
+   "Muhammedapur (Sultan Muhammed denemesi)",
+   "Vidyapur (Ibrahim Roza kitabesi)"
+  ],
+  "ilk": {
+   "t": "1036-01-01",
+   "gun": "1036",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Mysore State Gazetteer: Bijapur District (Govt of Mysore, 1966), Ch. I-II, https://archive.org/details/dli.ministry.08520 (Bijapur ad ve tarih: Nandimath, J. Karnatak Univ. 3/2, 1959'a atfen)",
+   "tanik": "was current from as early a period as 1036 A.D.",
+   "ic_not": "Gazetteer: Jayasimha II (1018-1042) dönemi bir kitabe 'Vijayapura' Narasimha Deva'ya bağış kaydeder; kitabe 'Bijapur civarında' bulunmuş (kesin bulunduğu yer metinde verilmez) — Vijayapura = Bijapur eşitlemesi gazetteer ve R. Narasimhachar'ın (Mallinatha Purana c.1100) görüşüne dayanır. Daha sağlam yerinde tanık: Ingaleshwara kitabesi (Someshvara, 1167-1175) 'Vijayapura'daki Svayambhu Keteshvara tapınağı'nı anar. Ad 'zafer şehri' anlamında; ne zaman verildiği bilinmiyor. Tek gazetteer kaynağı; ikinci bağımsız tanık bu oturumda açılmadı (TDV yalnız 'eski Vicayapura' der, tarih vermez)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0700-01-01",
+   "gun": "7. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "Mysore State Gazetteer: Bijapur District (Govt of Mysore, 1966), Ch. I-II, https://archive.org/details/dli.ministry.08520",
+   "tanik": "suggests that the pillar may be of not later than the seventh century",
+   "ic_not": "Arka kale (Ark-killa) doğusunda bulunan olası zafer sütunu (mimari tarihleme, kitabesiz); 'en geç' ucu 700 alındı. Yazılı tanık (1036) bulunduğu için ilk.t bu değil."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1036-01-01",
+    "t": "1162-01-01",
+    "d": "bati-calukya",
+    "kesinlik": "yil",
+    "kaynak": "Mysore State Gazetteer: Bijapur District (Govt of Mysore, 1966), Ch. I-II, https://archive.org/details/dli.ministry.08520 (Jayasimha II 1018-1042, Someshvara I-III, Jagadekamalla II, Taila III; Bijapur vassalları Sinda/Kalaçuri)",
+    "ic_not": "Batı Çalukya künyesi 975-1189. Bijapur'daki Sinda mahâmandaleşvaraları Çalukya vassalıdır; 1162'de Bijjala'nın Kalyâna'yı almasıyla sınır."
+   },
+   {
+    "f": "1162-01-01",
+    "t": "1184-01-01",
+    "d": "kalacuri-kalyani",
+    "kesinlik": "yil",
+    "kaynak": "Mysore State Gazetteer: Bijapur District (Govt of Mysore, 1966), Ch. I-II, https://archive.org/details/dli.ministry.08520: Kalaçuri kitabeleri; Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "ic_not": "Kalyâni Kalaçurileri (Bijjala hânedanı), 1162 - c. 1184; künye henüz yok (atlas devletler.js'te 'kalacuri-tripuri' Çedi kolu, bu hânedan DEĞİL). Kaynak: Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395 (Bijjala 1162'de Kalyâna tahtına oturur; rejim c. 1184'te biter). Bijapur ilçesinde Kalaçuri hâkimiyeti kitabelerle (Bijjala 'Kuntala'nın tamamını aldı') belgelenir; kesin bitiş günü yok, c.1184 Kalyâna için.",
+    "kunye_yok": true
+   },
+   {
+    "f": "1184-01-01",
+    "t": "1190-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Mysore State Gazetteer: Bijapur District (Govt of Mysore, 1966), Ch. I-II, https://archive.org/details/dli.ministry.08520",
+    "ic_not": "Gazetteer: Someshvara IV 1182'de Çalukya egemenliğini yeniden kurar ama 'kitabeleri yalnız Dharwar'da, Bijapur'u elinde tuttuğunu göstermez'; Yadava Bhillama 1185'te tahta çıkar, Bijapur'da kitabeleri var ama günleri verilmez. Sahip bu 6 yılda belirsiz — beyanlı boşluk."
+   },
+   {
+    "f": "1190-01-01",
+    "t": "1281-01-01",
+    "d": "yadava",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, BÎCÂPÛR (Arif Naim, 1992), https://islamansiklopedisi.org.tr/bicapur",
+    "ic_not": "TDV 1190'ı verir; Gazetteer 'Çalukya hanedanının toprakları 1189'dan kısa süre sonra Hoysala ve Yadava arasında bölündü' der. Yadava künyesi f=1187. Hoysala Ballala II'nin Bijapur'a uzanma girişimleri gazetteerde anılır (hiçbiri dönem açacak tarih verilmedi)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1036-01-01",
+    "gun": "1036",
+    "k": "diger",
+    "b": "İlk anılış: 'Vijayapura' adı kitabede (Çalukya Jayasimha II dönemi).",
+    "kaynak": "Mysore State Gazetteer: Bijapur District (Govt of Mysore, 1966), Ch. I-II, https://archive.org/details/dli.ministry.08520",
+    "tanik": "was current from as early a period as 1036 A.D."
+   },
+   {
+    "t": "1162-01-01",
+    "gun": "1162",
+    "k": "taht",
+    "b": "Kalaçuri Bijjala Kalyâna tahtına oturur; Bijapur Çalukya'dan Kalaçuri'ye geçer.",
+    "kaynak": "Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "tanik": "He occupied the imperial throne at Kalyana in 1162 A.D."
+   },
+   {
+    "t": "1184-01-01",
+    "gun": "c. 1184",
+    "k": "kayip",
+    "b": "Kalaçuri rejimi sona erer (Kalyâna); Bijapur'da sahip belirsizleşir.",
+    "kaynak": "Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "tanik": "After their short-lived regime ended about 1184 A.D."
+   },
+   {
+    "t": "1190-01-01",
+    "gun": "1190",
+    "k": "fetih",
+    "b": "Bölge Yadava (Devagiri) yönetimine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, BÎCÂPÛR (Arif Naim, 1992), https://islamansiklopedisi.org.tr/bicapur",
+    "tanik": "1190 yılından itibaren bir asır süreyle Yadava Krallığı’nın yönetimi altında kalan bölge"
+   }
+  ],
+  "ic_not": "Atlas 1281'de zaten 'yadava' — dikiş sorunsuz. TDV'nin 1294 'Alâeddin fethi' tarihi (asıl 1296 Devagiri) atlasın 1318 sınırından bağımsız, bu dosyanın dışında. Atlas düzeltme önerisi: yok. Kalaçuri/Kalyâni künyesi açılırsa 1162-1184 dilimi boyanır."
+ },
+ {
+  "id": "bidar",
+  "ad": "Bîdar",
+  "atlas_ad": "Bîdar",
+  "lat": 17.913,
+  "lon": 77.52,
+  "kat1900": 3,
+  "adlar": [
+   "Bidarooru (Bidare)",
+   "Muhammedâbâd (1429'dan)",
+   "Bîder",
+   "Bidar"
+  ],
+  "ilk": {
+   "t": "1000-01-01",
+   "gun": "10. yüzyıl",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "G. Yazdani, Bidar: Its History and Monuments (OUP 1947), https://archive.org/details/in.ernet.dli.2015.279710, s. 1-2 (Tarih bölümü)",
+   "tanik": "some sculptures and broken tablets bearing inscriptions have been found in the Bidar fort",
+   "ic_not": "Yazdani: kale içindeki kitabeli levha parçaları ve heykeller 'yerin tarihini 10. yüzyıldan önceye götürmez'; yer o sırada 'görünüşe göre' Geç Çalukya (974-1190) krallığındaydı. Aralık/‘en geç’ ucu (10. yy sonu = 1000) alındı. Kitabe metninin Bidar adını geçirdiği söylenmiyor; bu yüzden 'arkeolojik'. Ada göre ilk YAZILI tanık: 1321-22 Uluğ Han'ın kuşatması (Barani, Tarih-i Firuz Şahi'ye atfen Yazdani; EI1 'BIDAR'; Karnataka Gazetteer) ve Behmenî öncesi 'eski Hindu şehri' (EI1). Ferishta (Briggs) Bidar'ın kuruluşunu Büyük İskender'e bağlayan 'Raca Bidur' efsanesini anlatır — gelenek, tarih değil. Gazetteer: ad 'bidaru'(bambu)+'ooru'; Bidar adı 15. yy Shivatatva Chintamani'de."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1000-01-01",
+    "t": "1162-01-01",
+    "d": "bati-calukya",
+    "kesinlik": "yuzyil",
+    "kaynak": "G. Yazdani, Bidar: Its History and Monuments (OUP 1947), https://archive.org/details/in.ernet.dli.2015.279710 ('apparently included in the kingdom of the later Chalukyas (a.d. 974-1190)'); Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "ic_not": "Yazdani 'görünüşe göre'. Gazetteer: Sinda feodal beyleri Attali-nâdu'yu (Ranjol) Çalukya adına yönetir; Kalyâna (Basavakalyan) 40 km'dir."
+   },
+   {
+    "f": "1162-01-01",
+    "t": "1184-01-01",
+    "d": "kalacuri-kalyani",
+    "kesinlik": "yil",
+    "kaynak": "Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "ic_not": "Kalyâni Kalaçurileri (Bijjala hânedanı), 1162 - c. 1184; künye henüz yok (atlas devletler.js'te 'kalacuri-tripuri' Çedi kolu, bu hânedan DEĞİL). Kaynak: Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395 (Bijjala 1162'de Kalyâna tahtına oturur; rejim c. 1184'te biter).",
+    "kunye_yok": true
+   },
+   {
+    "f": "1184-01-01",
+    "t": "1200-01-01",
+    "d": "bati-calukya",
+    "kesinlik": "yil",
+    "kaynak": "Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "ic_not": "Gazetteer: Kalaçuri rejimi bitince Çalukya 'bir gölge güç' olarak 1200'e kadar yaşar (Someshvara IV)."
+   },
+   {
+    "f": "1200-01-01",
+    "t": "1281-01-01",
+    "d": "yadava",
+    "kesinlik": "yil",
+    "kaynak": "Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "ic_not": "Gazetteer: Bidar tract Sevuna (Yadava) kontrolünde c.1200-1312. ATLAS ÇELİŞKİSİ: atlas Bîdar'ı 1281'de 'kakatiya' gösteriyor; Gazetteer Kakatiya'nın Bidar'ı Yadava'nın zayıflamasıyla (1296 sonrası) işgal ettiğini söyler. Bkz. dikis_beyan."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1162-01-01",
+    "gun": "1162",
+    "k": "taht",
+    "b": "Kalaçuri Bijjala Kalyâna tahtına oturur; Bidar bölgesi Kalaçuri'ye geçer.",
+    "kaynak": "Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "tanik": "He occupied the imperial throne at Kalyana in 1162 A.D."
+   },
+   {
+    "t": "1184-01-01",
+    "gun": "c. 1184",
+    "k": "kayip",
+    "b": "Kalaçuri rejimi sona erer; Çalukya gölge güç olarak döner.",
+    "kaynak": "Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "tanik": "After their short-lived regime ended about 1184 A.D."
+   },
+   {
+    "t": "1200-01-01",
+    "gun": "c. 1200",
+    "k": "fetih",
+    "b": "Yadava (Sevuna) ordusu Bidar ve Gulbarga'yı da kapsayarak Çalukya topraklarını işgal eder.",
+    "kaynak": "Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "tanik": "Thereafter, the territory was overrun and occupied by the Sevunas (Yadavas) of Devagiri."
+   }
+  ],
+  "dikis_beyan": "Atlas Bîdar 1281-01-01'de 'kakatiya' diyor; kaynak (Karnataka State Gazetteer Bidar 1977, Ch.II) Bidar tract'ın c.1200-1312 Sevuna (Yadava) kontrolünde olduğunu, Prataparudra Kakatiya'nın Medak, Bidar, Gulbarga ve Raichur'u 1296 sonrası işgal ettiğini söyler. Atlasın 1281 Kakatiya iddiasına tanık bulunamadı; yer tutucu olay yazılmadı. Ek tanık: Bidar 1321-22'de Kakatiya krallığının parçası (Yazdani, Gazetteer).",
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: Bîdar s: 1281-1322 'kakatiya' yerine 1281-c.1296 'yadava', sonra 1296 sonrası 'kakatiya' (ters sınır: The Bidar tract was under the control of the Sevunas). Kakatiya künyesi 1323'te biter; atlas 1322 (Uluğ Han, Gazetteer 1321-22) — kabul. Bidar'ın 1424/1429'da Behmenî başkenti olması TDV 'muhammedabad' maddesindendir (atlasın alanı)."
+ },
+ {
   "id": "birni-ngazargamu",
   "ad": "Birni N'gazargamu",
   "atlas_ad": "Birni N'gazargamu",
@@ -8020,6 +8214,43 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Kaynaklar: TDV 'Gazne' (Nukçu), TDV 'Gurlular', TDV 'Hârizmşahlar', Iranica Ḡaznī i (de Planhol) — hepsi curl ile okundu. AÇILAMAYAN: Iranica 'GHAZNAVIDS' makalesi 90K'lık sayfa olarak geldi ama kent bilgisi çıkarılmadı; Bosworth 'The Ghaznavids' (archive.org) bu oturumda açılmadı; Farsça kaynak (Beyhakî, Tabakât-ı Nâsırî) açılmadı. ATLAS ÖNERİLERİ: (1) Atlas 1281-1370 'cagatay' başlangıcı kaynaksız; TDV Çağatay'ı sıralı ama tarihsiz verir. (2) TDV Gazne metni 'Moğollar Ögedey Han kumandasında Gazne önlerine geldiler' der (1221); komutan adı bağımsız kaynakla doğrulanmadı. (3) TDV 'Gazne Yıkıldı 1150-51' ile Gazneli dönemi devam eder (EIr 'return of last Ghaznavids')."
  },
  {
+  "id": "golkonda",
+  "ad": "Golkonda",
+  "atlas_ad": "Golkonda",
+  "lat": 17.383,
+  "lon": 78.401,
+  "kat1900": 3,
+  "adlar": [
+   "Gûlkünde",
+   "Golkonda",
+   "Muhammednagar (Behmenî dönemi)"
+  ],
+  "ilk": {
+   "t": "1363-01-01",
+   "gun": "1363",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, GÛLKÜNDE/GOLKONDA, https://islamansiklopedisi.org.tr/gulkunde",
+   "tanik": "1363 yılında Behmenî Sultanı I. Muhammed Şah’ın önünden kaçan raca Kanhayya",
+   "ic_not": "TDV 'eski bir Hindu kalesi' ve Varangal Racalığı'nın merkezi der; 1363'te raca Kanhayya Behmenîlere bırakır. IG Hyderabad ve Ferishta/Briggs-Şerif Rahmân 'After the Kakatiyas' 1364-65 verir (TDV esas, çelişki beyanlı). Kale 'Varangal Racası tarafından yapıldı' (IG) ama inşa tarihi hiçbir açılan kaynakta yok. Bu nedenle ilk.t ATLAS BAŞLANGICINDAN (1281) SONRADIR — denetim uyarısı beklenir: şehir/kale ilk yazılı anılıştan eskidir, 1281 öncesi tanık BULUNAMADI. Kakatiya künyesi 1163'te açılır; Varangal egemenliği (TDV, IG) kale için 1281 öncesine uzanır ama tarihsiz."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1363-01-01",
+    "gun": "1363",
+    "k": "kayip",
+    "b": "Varangal racası Kanhayya Gûlkünde'yi Behmenîlere bırakır (IG ve Briggs: 1364 antlaşması).",
+    "kaynak": "TDV İslâm Ansiklopedisi, GÛLKÜNDE/GOLKONDA, https://islamansiklopedisi.org.tr/gulkunde",
+    "tanik": "1363 yılında Behmenî Sultanı I. Muhammed Şah’ın önünden kaçan raca Kanhayya"
+   }
+  ],
+  "ic_not": "1281 öncesi: bulunamadı. Atlas 1281-1323 'kakatiya' ile uyumlu (IG: kale Varangal racasınca yapıldı) ama kaynaksız bir gün/dönem değil; atlas düzeltmesi önerilmez. Haydarâbâd 8-9 km uzakta (TDV)."
+ },
+ {
   "id": "gondar",
   "ad": "Gondar",
   "atlas_ad": "Gondar",
@@ -8203,6 +8434,43 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Granada'nın kaynaklı yazılı tarihi 712 fethinden başlıyor; öncesi (İber Turdulos, Roma Iliberis/Elvira) modern nokta ile aynı yer olduğu kaynakta gösterilmedi (Treccani: öncesinde şehir izi yok). Çift teyit: Nasrî kuruluş yılı 1238 (TDV günlü; Treccani 'Granata (1238)' yıl). Zincir atlas ilk gününde (1238-05-12) biter."
+ },
+ {
+  "id": "gulberge",
+  "ad": "Gülberge (Gulbarga)",
+  "atlas_ad": "Gülberge (Gulbarga)",
+  "lat": 17.33,
+  "lon": 76.834,
+  "kat1900": 2,
+  "adlar": [
+   "Kalburgi (Kalaburagi)",
+   "Ahsenâbâd (Behmenî)",
+   "Gulbarga"
+  ],
+  "ilk": {
+   "t": "1345-01-01",
+   "gun": "1345",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395, s. 62 (Bidar/Gulbarga işgali); Ferishta (Briggs 1829, c. I) 'Koolburga' hicrî 746",
+   "tanik": "But this officer organised an army and occupied Bidar and Gulbarga on his own.",
+   "ic_not": "Gazetteer yıl olarak 1345 bağlamında (Nusrat Han isyanı 1345) verir; Ferishta hicrî 746 (miladi 1345-46) — gün yok, YYYY-01-01. Yer çok eskidir: IG 'Gulbarga was formerly a Hindu city ... Raja of Warangal'ın topraklarının parçasıydı' (OCR bozuk, birebir alıntı alınmadı); Gazetteer kale 'Raja Gulchand' (gelenek) yaptı, Rashtrakuta Malkhed 22 mil, Çalukya mimarisi tapınak kale içinde (tarihsiz). EI2: 1347'ye kadar 'önemsiz kasaba'. 1281 öncesi YAZILI/TARİHLİ tanık BULUNAMADI. İlk.t atlas başlangıcından sonradır — denetim uyarısı beklenir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1345-01-01",
+    "gun": "1345",
+    "k": "isgal",
+    "b": "Delhi'nin Devletâbâd emîri Emîr Ali Bidar ve Gulbarga'yı kendi adına işgal eder (Kutluğ Han bastırır).",
+    "kaynak": "Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "tanik": "But this officer organised an army and occupied Bidar and Gulbarga on his own."
+   }
+  ],
+  "ic_not": "Atlas 1281 'yadava': Gazetteer Bidar Yadava'nın Gulbarga'yı da işgal ettiğini (c.1200) söyler — uyumlu ('Sevunas overran ... Bidar and Gulbarga', Ch.II). 1281 öncesi sahip zinciri için Çalukya/Kalaçuri dönem tanığı (Revarasa 1033 Gulbarga bölgesinin yönetimi, Bidar Gazetteer) şehir değil BÖLGE tanığıdır, yazılmadı. Kaynak aranacak: ASI/Karnataka Kalaburagi kitabeleri."
  },
  {
   "id": "gulca",
@@ -8623,6 +8891,47 @@ window.SEHIR_TARIHCE_K12 = [
   "sahip": [],
   "olay": [],
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Harar'ı 1281'den itibaren 'adal' sahibine bağlıyor; 'adal' künyesi (Adal Sultanlığı/Harar Emirliği) f=1415. Şehrin ilk yazılı anılışı 1520, arkeolojik köken muhtemelen 16. yy. 1281-1520 aralığı için şehir YOKTUR (kaynak: Insoll 2017, TDV); yerel bölge sahipleri (Evfât 1285-1415, Zeyla‘ Emirliği) şehrin kendisi değil bölgenin sahibidir. Zincir bu dosyada boş (ilk.t atlas başlangıcından sonra)."
+ },
+ {
+  "id": "haydarabad-dekken",
+  "ad": "Haydarâbâd (Dekken)",
+  "atlas_ad": "Haydarâbâd (Dekken)",
+  "lat": 17.385,
+  "lon": 78.487,
+  "kat1900": 1,
+  "adlar": [
+   "Haydarâbâd (Hyderabad)"
+  ],
+  "ilk": {
+   "t": "1591-01-01",
+   "gun": "1591 (1590-1591 aralığının son ucu)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, GÛLKÜNDE/GOLKONDA, https://islamansiklopedisi.org.tr/gulkunde",
+   "tanik": "8 km. uzağa Haydarâbâd’ı kurup devletin merkezini buraya taşımasına (1590-1591)",
+   "ic_not": "Muhammed Kulı Kutubşah (beşinci Kutubşâhî) Golkonda'dan 8 km uzağa kurar. TDV aralık verir (1590-1591); güvenli uç (son) alındı, atlas kur 1591 ile uyumlu. Antik/öncül yerleşim kaynağı bulunamadı; Golkonda ayrı kayıt (9 km)."
+  },
+  "kur": {
+   "t": "1591-01-01",
+   "gun": "1591 (1590-1591)",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, GÛLKÜNDE/GOLKONDA, https://islamansiklopedisi.org.tr/gulkunde",
+   "tanik": "8 km. uzağa Haydarâbâd’ı kurup devletin merkezini buraya taşımasına (1590-1591)"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1591-01-01",
+    "gun": "1590-1591",
+    "k": "kurulus",
+    "b": "Muhammed Kulı Kutubşah Haydarâbâd'ı kurar ve başkenti Golkonda'dan buraya taşır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, GÛLKÜNDE/GOLKONDA, https://islamansiklopedisi.org.tr/gulkunde",
+    "tanik": "8 km. uzağa Haydarâbâd’ı kurup devletin merkezini buraya taşımasına (1590-1591)"
+   }
+  ],
+  "ic_not": "1281-1591 arası şehir yok; atlas başlangıcı (1591 'golkonda') kuruluşla aynı gün — zincir yazılmaz. Atlas düzeltmesi yok."
  },
  {
   "id": "helsinki",
@@ -22692,6 +23001,69 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Valladolid için kuruluş ve 1079 öncesi tarihli tanık bulunamadı (Treccani: kökenler 'assai oscure'). TDV maddesi yok. Çift teyit YOK. Zincir atlas ilk gününde (1281-01-01 Kastilya) biter."
  },
  {
+  "id": "varangal",
+  "ad": "Varangal (Warangal)",
+  "atlas_ad": "Varangal (Warangal)",
+  "lat": 17.978,
+  "lon": 79.594,
+  "kat1900": 2,
+  "adlar": [
+   "Armakonda / Anumakonda / Hanumakonda",
+   "Orugallu (Kakatiya başkenti)",
+   "Sultanpûr (1323, Muhammed b. Tuğluk)",
+   "Varangal / Warangal"
+  ],
+  "ilk": {
+   "t": "1079-12-26",
+   "gun": "26 Aralık 1079",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "Epigraphia Telanganica Vol. II, Imperial Kakatiyas (2023), https://archive.org/details/epigraphia-telanganica-volume-2, no. 9 (Hanamkonda, Beta II, Saka 1001, Siddharthi; ASI Catalogue of Inscriptions to 1964, s.108)",
+   "tanik": "Records the gift of 12 manigas of ghee for a Nandadivipa",
+   "ic_not": "Yerinde (Hanumakonda, Kazipet yolu kenarı sütun) TARİHLİ kitabe. Daha eski ama tarihi paleografik ve yeri dolaylı olan tanıklar: (1) Kondaparthi tank kayasındaki IX-X. yy Telugu kitabe 'Armakonda' anar, Indian Archaeology 1973-74 bunu bugünkü Hanumakonda ile özdeşleştirir (Epigraphia Telanganica I, no.24) — eşitleme beyanlı, tarih aralık: YAZILMADI; (2) Prola I'in Anumakonda'yı Çalukya Someshvara I'den ikta aldığı (c.1053-1068). MESAFE: atlas noktası (17.978,79.594) Orugallu kalesine 3.4 km, Hanamkonda tapınağına ~3.6 km — kesin değil; Warangal bileşik kentin Hanamkonda ucu esas alındı, Orugallu kalesine ilk tarihli tanık bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1079-12-26",
+    "t": "1163-01-19",
+    "d": "bati-calukya",
+    "kesinlik": "gun",
+    "kaynak": "Epigraphia Telanganica Vol. I, Pre-Kakatiya Telangana (Govt of Telangana, 2023), https://archive.org/details/vol-i ('Trailokyamalla Somesvara offered Anumakonda as fief'); Epigraphia Telanganica Vol. II, Imperial Kakatiyas (2023), https://archive.org/details/epigraphia-telanganica-volume-2",
+    "ic_not": "Kakatiya Prola I, II ve Beta II Çalukya feodalidir; Anumakonda ikta olarak Someshvara I'e (1042-1068) bağlanır. 1163'te Rudradeva bağımsızlığını ilân eder."
+   },
+   {
+    "f": "1163-01-19",
+    "t": "1281-01-01",
+    "d": "kakatiya",
+    "kesinlik": "gun",
+    "kaynak": "Epigraphia Telanganica Vol. II, Imperial Kakatiyas (2023), https://archive.org/details/epigraphia-telanganica-volume-2, Rudradeva Hanamkonda kitabesi 19 Ocak 1163; The Kakatiyas and Their Times (1975), https://archive.org/details/the-kakatiyas-and-their-times",
+    "ic_not": "Kakatiya künyesi f=1163-01-01. Yadava Jaitugi I Kakatiya hükümdarını öldürüp Ganapati'yi tutsak aldı (Bijapur Gazetteer, c.1190'lar) — dönem açılacak kadar kaynak yok, Kakatiya sürer."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1079-12-26",
+    "gun": "26 Aralık 1079",
+    "k": "diger",
+    "b": "İlk tarihli yerinde kitabe: Hanumakonda'da Prolesvara/Betesvara tapınağına bağış (Beta).",
+    "kaynak": "Epigraphia Telanganica Vol. II, Imperial Kakatiyas (2023), https://archive.org/details/epigraphia-telanganica-volume-2",
+    "tanik": "Records the gift of 12 manigas of ghee for a Nandadivipa"
+   },
+   {
+    "t": "1163-01-19",
+    "gun": "19 Ocak 1163",
+    "k": "taht",
+    "b": "Rudradeva Hanamkonda Bin Direk Tapınağı kitabesinde bağımsız hükümdar olarak anılır; Kakatiya egemenliği başlar.",
+    "kaynak": "Epigraphia Telanganica Vol. II, Imperial Kakatiyas (2023), https://archive.org/details/epigraphia-telanganica-volume-2 no. 18 (Place: Hanamkonda); The Kakatiyas and Their Times (1975), https://archive.org/details/the-kakatiyas-and-their-times",
+    "tanik": "he established himself as an independent ruler"
+   }
+  ],
+  "ic_not": "Orugallu 1150-1323 Kakatiya başkenti (Kakatiyas and Their Times). Atlas Varangal bitişi 1323 (Delhi) — ölçülmedi. TDV 'Sultanpûr' adı değil Yazdani (Early History of the Deccan): Muhammed b. Tuğluk 1323'te alıp Sultanpur adını verdi. Atlas kronolojisi ile uyumlu; düzeltme önerisi yok."
+ },
+ {
   "id": "varsova",
   "ad": "Varşova",
   "atlas_ad": "Varşova",
@@ -22924,6 +23296,141 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Tek ana kaynak Coedès (ANU Press baskısı, tam metin OCR; diyakritikler düzeltildi) + Schweyer BEFEO 1999 özeti. Persée PDF'leri captcha ile korunuyor (açılmadı). Çift teyit: 1000 başkent taşıması (Coedès iki ayrı yerde: Böl. VIII ve IX; Schweyer yalnız 'sonra Vijaya'ya çekildi' der). Dönem sınırları yıl hassasiyetinde. ATLAS: atlas 1281-01-01 campa (tutarlı); 1471-03-02 le-hanedani (Vijaya'nın düşmesi) atlasta zaten."
+ },
+ {
+  "id": "vijayanagara-hampi",
+  "ad": "Vijayanagara (Hampi)",
+  "atlas_ad": "Vijayanagara (Hampi)",
+  "lat": 15.335,
+  "lon": 76.462,
+  "kat1900": 3,
+  "adlar": [
+   "Hampe / Pampa-kshetra",
+   "Anegondi (kuzey yaka)",
+   "Vijayanagara",
+   "Hampi"
+  ],
+  "ilk": {
+   "t": "0200-01-01",
+   "gun": "2. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "Inscriptions at Vijayanagara (Hampi) Vol. I, ASI Series 8 (1995), https://archive.org/details/damh.inscriptionsatvi0000chan_vol_I_ser_8, Introduction (Political)",
+   "tanik": "Three Brahmi inscriptions of about Ist-2nd centuries A.D.",
+   "ic_not": "'Saray yerleşkesi (Royal Enclosure) içinde ve çevresinde' bulunan üç Brahmi kitabeden No. 374 parçalı, bir bağıştan söz eder. Tarih paleografik 1.-2. yy aralığı: güvenli uç (2. yy sonu = 200). Atlas noktası saray yerleşkesine ~2.8 km. Sonraki tarihli ilk kitabe: No. 45, 13 Kasım 988 (Ahavamalla, Pampa gölü basamak taşı) — girişte 998 yazılmış ama katalogda 'Saka 910 = A.D. 988', katalog esas."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": {
+   "t": "1565-01-26",
+   "gun": "26 Ocak 1565",
+   "kesinlik": "gun",
+   "kaynak": "atlas yerlesimler_asya.js (Talikota); bu oturumda yeniden doğrulanmadı",
+   "ic_not": "Atlas notu aynen; araştırma kapsamı dışı (1281 sonrası)."
+  },
+  "sahip": [
+   {
+    "f": "0200-01-01",
+    "t": "0988-11-13",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Inscriptions at Vijayanagara (Hampi) Vol. I, ASI Series 8 (1995), https://archive.org/details/damh.inscriptionsatvi0000chan_vol_I_ser_8",
+    "ic_not": "Brahmi kitabe (c. 1.-2. yy) ile Ahavamalla kitabesi (988) arasında bu oturumda açılan kaynakta ne varlık ne sahip bilgisi var; Satavahana/Badami Çalukya/Rashtrakuta dönemleri için yerinde tanık BULUNAMADI (Mysore Gazetteer Gulbarga/Bijapur bölgesel tarihleri şehir tanığı değil)."
+   },
+   {
+    "f": "0988-11-13",
+    "t": "1162-01-01",
+    "d": "bati-calukya",
+    "kesinlik": "gun",
+    "kaynak": "Inscriptions at Vijayanagara (Hampi) Vol. I, ASI Series 8 (1995), https://archive.org/details/damh.inscriptionsatvi0000chan_vol_I_ser_8, No. 45 (988), No. 375 (1076, Vikramaditya VI)",
+    "ic_not": "İki Kalyâni Çalukya kitabesi yerinde. Künye f=975."
+   },
+   {
+    "f": "1162-01-01",
+    "t": "1184-01-01",
+    "d": "kalacuri-kalyani",
+    "kesinlik": "yil",
+    "kaynak": "Inscriptions at Vijayanagara (Hampi) Vol. I, ASI Series 8 (1995), https://archive.org/details/damh.inscriptionsatvi0000chan_vol_I_ser_8: 'This region was under the rule of the Kalachuris in 12th century'; Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "ic_not": "Kalyâni Kalaçurileri (Bijjala hânedanı), 1162 - c. 1184; künye henüz yok (atlas devletler.js'te 'kalacuri-tripuri' Çedi kolu, bu hânedan DEĞİL). Kaynak: Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395 (Bijjala 1162'de Kalyâna tahtına oturur; rejim c. 1184'te biter). Hampi'de Bijjala unvanlı No. 419 (tarihsiz).",
+    "kunye_yok": true
+   },
+   {
+    "f": "1184-01-01",
+    "t": "1236-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Inscriptions at Vijayanagara (Hampi) Vol. I, ASI Series 8 (1995), https://archive.org/details/damh.inscriptionsatvi0000chan_vol_I_ser_8",
+    "ic_not": "1199 tarihli No. 97: Sinda kralı Kalidevarasa Kurugodu'dan Ballakunde-nâdu'yu yönetir (üst hükümdar belirtilmez; yerel Sinda); 1236'daki Hoysala bağışına kadar ~50 yıl tanık yok. Beyanlı boşluk."
+   },
+   {
+    "f": "1236-01-01",
+    "t": "1301-01-01",
+    "d": "hoysala",
+    "kesinlik": "yuzyil",
+    "kaynak": "Inscriptions at Vijayanagara (Hampi) Vol. I, ASI Series 8 (1995), https://archive.org/details/damh.inscriptionsatvi0000chan_vol_I_ser_8, No. 98 (1236)",
+    "ic_not": "'f en geç tanıktan': Hoysala Someshvara'nın Virupaksha'ya bağışı 1236; 13. yy boyunca Hoysala egemenliği (Hampi Corpus giriş) — bitiş 14. yy başı Kampiladeva ile."
+   },
+   {
+    "f": "1301-01-01",
+    "t": "1336-01-01",
+    "d": "kampili",
+    "kesinlik": "yuzyil",
+    "kaynak": "Inscriptions at Vijayanagara (Hampi) Vol. I, ASI Series 8 (1995), https://archive.org/details/damh.inscriptionsatvi0000chan_vol_I_ser_8, No. 113 (Kampiladeva)",
+    "ic_not": "Kampili beyliği (Mummadi Singeya-nâyaka oğlu Kampiladeva; başkentler Hosamaledurga ve Kummata) — 'künyesi yok': önerilen id 'kampili', ömür ~1301-c.1327 (Delhi'nin Kampli/Anegundi'yi alışı Sewell'e göre '1336'dan biraz önce'); kaynak Hampi Corpus + Sewell. Delhi valisi Malik Nâib dönemi süresi bilinmeyen kısa ele geçirmedir, dönem AÇILMADI.",
+    "kunye_yok": true
+   }
+  ],
+  "olay": [
+   {
+    "t": "0988-11-13",
+    "gun": "13 Kasım 988",
+    "k": "diger",
+    "b": "İlk tarihli kitabe: Çalukya Ahavamalla başbakanı Mannamayya'ya arazi bağışı (Pampa gölü).",
+    "kaynak": "Inscriptions at Vijayanagara (Hampi) Vol. I, ASI Series 8 (1995), https://archive.org/details/damh.inscriptionsatvi0000chan_vol_I_ser_8",
+    "tanik": "Chalukya of Kalyana; Ahavamalla Saka 910, Sarvadhari, Margasira Su. 1 = A.D. 988, November 13."
+   },
+   {
+    "t": "1162-01-01",
+    "gun": "1162",
+    "k": "taht",
+    "b": "Kalaçuri Bijjala Kalyâna tahtına oturur; Hampi bölgesi Kalaçuri'ye geçer.",
+    "kaynak": "Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "tanik": "He occupied the imperial throne at Kalyana in 1162 A.D."
+   },
+   {
+    "t": "1184-01-01",
+    "gun": "c. 1184",
+    "k": "kayip",
+    "b": "Kalaçuri rejimi sona erer; Hampi'de sahip belirsiz.",
+    "kaynak": "Karnataka State Gazetteer: Bidar District (Govt of Karnataka, 1977), Ch. II, https://archive.org/details/dli.ministry.08395",
+    "tanik": "After their short-lived regime ended about 1184 A.D."
+   },
+   {
+    "t": "1236-01-01",
+    "gun": "1236",
+    "k": "diger",
+    "b": "Hoysala kralı Someshvara Virupaksha tapınağına bağış yapar (No. 98).",
+    "kaynak": "Inscriptions at Vijayanagara (Hampi) Vol. I, ASI Series 8 (1995), https://archive.org/details/damh.inscriptionsatvi0000chan_vol_I_ser_8",
+    "tanik": "the Hoysala king Soméévara made a gift to the Viripaksha temple"
+   },
+   {
+    "t": "1301-01-01",
+    "gun": "14. yy başı (1301)",
+    "k": "diger",
+    "b": "Kampiladeva Hampi bölgesini Hosamaledurga ve Kummata'dan yönetir.",
+    "kaynak": "Inscriptions at Vijayanagara (Hampi) Vol. I, ASI Series 8 (1995), https://archive.org/details/damh.inscriptionsatvi0000chan_vol_I_ser_8",
+    "tanik": "Kampiladéva son of Mummadi-Singeyanayaka was ruling over Hampi region"
+   },
+   {
+    "t": "1336-01-01",
+    "gun": "1336",
+    "k": "kurulus",
+    "b": "Vijayanagara şehri ve krallığı kurulur.",
+    "kaynak": "R. Sewell, A Forgotten Empire (Vijayanagar), 1900, https://archive.org/details/a-forgotten-empire",
+    "tanik": "This event was the foundation of the city"
+   }
+  ],
+  "ic_not": "Atlas kur=1336 Sewell ile uyumlu. Bu kayıtta Hampi/Pampa-kshetra'nın Vijayanagara öncesi olduğu kitabelerle gösterilir (yerleşim Vijayanagara'dan çok eski) — atlas 'kur:1336' ŞEHİR kuruluşu olarak yorumlanmamalı, kaynak 'city and kingdom' der. Hampi Corpus ile Sewell arası Delhi alımı tarihi çelişir (Sewell: '1336'dan biraz önce' / 1334): dönem açılmadı."
  },
  {
   "id": "vila-bela",
