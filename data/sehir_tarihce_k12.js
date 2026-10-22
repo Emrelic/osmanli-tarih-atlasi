@@ -2619,6 +2619,206 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Zincir MÖ 8. yy'dan atlasın 1281 başlangıcına kesintisiz; iki büyük BEYANLI BOŞLUK var (Kâşî/Kosala dilimi ve MÖ 183-MS 1033). 1193 fethi TDV + Smith ile çift teyitli (Elliot II 1194 verir). Atlas 1281'de Delhi ile başlar: kaynakla uyumlu (Delhi 1206'dan beri). Atlas düzeltme önerisi yok."
  },
  {
+  "id": "bender-abbas",
+  "ad": "Bender Abbas (Gamrûn)",
+  "atlas_ad": "Bender Abbas (Gamrûn)",
+  "lat": 27.2,
+  "lon": 56.274,
+  "kat1900": 2,
+  "adlar": [
+   "Šahrū / Šahrūvā (Eṣṭaḵrī, Ḥudūd al-ʿālam)",
+   "Sūrū / Sīrū (Ebn Ḥawqal, Moqaddasī)",
+   "Gomrū / Gombroon / Combru (Portekiz-Avrupa)",
+   "Bender Abbas (Bandar-e ʿAbbās; 1615/1622)"
+  ],
+  "ilk": {
+   "t": "0983-01-01",
+   "gun": "983",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "X. de Planhol, 'BANDAR-E ʿABBĀS i. The City', Encyclopaedia Iranica III/7 (1988), https://www.iranicaonline.org/articles/bandar-e-abbas; 'ḤODUD AL-ʿĀLAM', Encyclopaedia Iranica XII/4 (2004), https://www.iranicaonline.org/articles/hodud-al-alam",
+   "tanik": "which was known as Šahrū (Eṣṭaḵrī, p. 67) and Sūrū (Ebn Ḥawqal, p. 220",
+   "ic_not": "İranica (De Planhol): 'Bandar-e ʿAbbās' bugünkü limanın öncülü 'Šahrū' (Eṣṭaḵrī p.67 — c.951-52), 'Sūrū' (Ebn Ḥawqal p.220 — 977), 'Sīrū' (Moqaddasī p.454), 'Šahrūvā' (Ḥudūd al-ʿālam). En eski dated kaynak: Ḥudūd al-ʿālam 'begun in 372/982-83' (begun in 372/982-83 by an unknown author); 372 H 982-06-26'da başlar → güvenli uç 983 (yıl). Eṣṭaḵrī (c.951-52'ye kadar; İranica: 'latest event ... about 340/951-52') daha eski olabilir ama tam tarihi belirsiz (ilk resension 309/921-22 öncesi, De Goeje) → yazılmadı. YER EŞİTLEMESİ: Šahrū = Bender Abbas İranica'nın (De Planhol) iddiasıdır; Soru köyü 'bugünkü limanın GD'sında' (aynı yer ≤3 km mi belirsiz) → eşitleme beyan edilir. Kuruluş tarihi bulunamadı; 'Bender Abbas' liman adı 1615/1622 (Şah Abbas)."
+  },
+  "kur": {
+   "t": "1622-05-01",
+   "gun": "1622",
+   "kesinlik": "yil",
+   "kaynak": "X. de Planhol, 'BANDAR-E ʿABBĀS i. The City', Encyclopaedia Iranica III/7 (1988), https://www.iranicaonline.org/articles/bandar-e-abbas",
+   "tanik": "renamed the site of Šahrū after himself",
+   "ic_not": "Yeniden kuruluş/yeniden adlandırma: Şah Abbas I limanı anakaraya taşıdı ve Šahrū'nun yerini kendi adıyla adlandırdı (İranica); İranica Portekiz kalesinin 1615'te Safevîlere geçtiğini, Hürmüz'ün 'yaklaşık yedi yıl sonra' (1622) alındığını yazar. kur.t == atlas kur (1622-05-01) yalnız bilgi amaçlı; ilk.t ayrıdır."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0983-01-01",
+    "t": "1048-06-16",
+    "d": "buveyhi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "invaded Kerman in 357/968",
+    "ic_not": "ABİ MERKEZ: Kirman eyaleti (Hürmüz Kirman'ın limanı — İranica Bandar: 'the seaport of Kermān and Sejestān'; Kirman Hürmüz kazasını içerir: 'Ebn Rosta (p. 106) has given this list with the additional district of Hormuz') — Kirman zinciri devralındı (İranica Kerman v.). BEYANLI YAKLAŞIKLIK. Büveyhîler Kirman'ı 357/968'den (Adudüddevle) 80 yıl 'Fars'tan Umman'a uzanan güney Büveyhî emirliği' içinde tuttu; 983'te Hürmüz limanı Kirman kazasıdır."
+   },
+   {
+    "f": "1048-06-16",
+    "t": "1186-03-24",
+    "d": "kirman-selcuklu",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest; W. M. Floor, 'HORMUZ ii. Islamic Period', Encyclopaedia Iranica XII/5 (2004), https://www.iranicaonline.org/articles/hormuz-ii",
+    "tanik": "shortly before the Buyid amir’s death in 440/1048-49, Kerman passed definitively into Qāvord’s hands",
+    "ic_not": "ABİ MERKEZ: Kirman eyaleti (Hürmüz Kirman'ın limanı — İranica Bandar: 'the seaport of Kermān and Sejestān'; Kirman Hürmüz kazasını içerir: 'Ebn Rosta (p. 106) has given this list with the additional district of Hormuz') — Kirman zinciri devralındı (İranica Kerman v.). BEYANLI YAKLAŞIKLIK. Floor (İranica Hormuz ii): 'From about 1100, Hormuz was the seat of a petty dynasty of princes ... or of the rulers of Kermān, depending on the political situation' — Hürmüz prensleri Fars atabegleri ya da Kirman yöneticilerinin tâbisi."
+   },
+   {
+    "f": "1186-03-24",
+    "t": "1213-05-23",
+    "d": "kirman-oguz",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "Malek Dinār (r. 582-91/1186-95)",
+    "ic_not": "ABİ MERKEZ: Kirman eyaleti (Hürmüz Kirman'ın limanı — İranica Bandar: 'the seaport of Kermān and Sejestān'; Kirman Hürmüz kazasını içerir: 'Ebn Rosta (p. 106) has given this list with the additional district of Hormuz') — Kirman zinciri devralındı (İranica Kerman v.). BEYANLI YAKLAŞIKLIK. İranica Kerman v.: Malik Dinâr 'making the amirs of Hormuz and of the island of Kiš/Qays his tributaries' — Hürmüz emirleri Malik Dinâr'ın haraçgüzarı.",
+    "kunye_yok": true
+   },
+   {
+    "f": "1213-05-23",
+    "t": "1222-02-15",
+    "d": "harezmsahlar",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "Moʾayyed-al-Molk seized power in 610/1213 at Jiroft, Bam, and Bardsir",
+    "ic_not": "ABİ MERKEZ: Kirman eyaleti (Hürmüz Kirman'ın limanı — İranica Bandar: 'the seaport of Kermān and Sejestān'; Kirman Hürmüz kazasını içerir: 'Ebn Rosta (p. 106) has given this list with the additional district of Hormuz') — Kirman zinciri devralındı (İranica Kerman v.). BEYANLI YAKLAŞIKLIK. ",
+    "kunye_yok": true
+   },
+   {
+    "f": "1222-02-15",
+    "t": "1296-01-01",
+    "d": "kutlughanli",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest; W. M. Floor, 'HORMUZ ii. Islamic Period', Encyclopaedia Iranica XII/5 (2004), https://www.iranicaonline.org/articles/hormuz-ii",
+    "tanik": "in 619/1222, Amir Barāq Ḥājeb",
+    "ic_not": "ABİ MERKEZ: Kirman eyaleti (Hürmüz Kirman'ın limanı — İranica Bandar: 'the seaport of Kermān and Sejestān'; Kirman Hürmüz kazasını içerir: 'Ebn Rosta (p. 106) has given this list with the additional district of Hormuz') — Kirman zinciri devralındı (İranica Kerman v.). BEYANLI YAKLAŞIKLIK. t: Hürmüz Emîri Bahâeddin Ayâz'ın 1296'da yönetimi alıp halkı Jarun adasına taşıması (Floor); Šahrū/Sūrū bu adanın anakara limanı oldu."
+   },
+   {
+    "f": "1296-01-01",
+    "t": "1507-09-01",
+    "d": "hurmuz-sultanligi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "W. M. Floor, 'HORMUZ ii. Islamic Period', Encyclopaedia Iranica XII/5 (2004), https://www.iranicaonline.org/articles/hormuz-ii; X. de Planhol, 'BANDAR-E ʿABBĀS i. The City', Encyclopaedia Iranica III/7 (1988), https://www.iranicaonline.org/articles/bandar-e-abbas",
+    "tanik": "took over the government of Hormuz in 1296 with help from Fārs",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: İranica Bandar: 'Bandar-e ʿAbbās ... was a fishing village and ferry terminal for Hormoz island'; 'Šahrū ... benefited in turn as a source of the island’s provisions and as its principal outlet to the mainland'. Fiilî sahiplik (Hürmüz prensleri Kirman/Fars/Çağatay tâbisi, 1296-) Šahrū için doğrudan tanıklı değil. Künye hurmuz-sultanligi 1281-1514 ✓."
+   },
+   {
+    "f": "1507-09-01",
+    "t": "1615-01-01",
+    "d": "portekiz",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "W. M. Floor, 'HORMUZ ii. Islamic Period', Encyclopaedia Iranica XII/5 (2004), https://www.iranicaonline.org/articles/hormuz-ii; X. de Planhol, 'BANDAR-E ʿABBĀS i. The City', Encyclopaedia Iranica III/7 (1988), https://www.iranicaonline.org/articles/bandar-e-abbas",
+    "tanik": "Shortly after they took Hormoz in 1507, the Portuguese built a fort at Šahrū",
+    "ic_not": "f: 'Eylül 1507 sonunda Albuquerque Hürmüz'ü saldırdı' (At the end of September 1507, a Portuguese fleet under Alfonso de Albuquerque); kale Šahrū'da 'kısa süre sonra' (yıl 1507 sonrası; Portekiz egemenliğinin tam yerleşmesi Mart 1515). t: 1615 'the Portuguese fort passed into the hands of the Safavid Shah ʿAbbās I'."
+   },
+   {
+    "f": "1615-01-01",
+    "t": "1622-05-01",
+    "d": "safevi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "X. de Planhol, 'BANDAR-E ʿABBĀS i. The City', Encyclopaedia Iranica III/7 (1988), https://www.iranicaonline.org/articles/bandar-e-abbas",
+    "tanik": "In 1615, the Portuguese fort passed into the hands of the Safavid Shah ʿAbbās I",
+    "ic_not": "Portekiz kalesi 1615'te Şah Abbas'a geçti (İranica); t atlas başlangıcı 1622-05-01 (limanın yeniden adlandırılması/Hürmüz'ün alınışı). Aynı sahip atlasın ilk sahibi (safevi) → dikiş yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0983-01-01",
+    "gun": "983 (372 H / 982-83)",
+    "k": "diger",
+    "b": "Ḥudūd al-ʿālam (372/982-83'te yazılmaya başlanır) Šahrūvā'yı anar: Šahrū/Sūrū = bugünkü Bender Abbas'ın öncülü (İranica eşitlemesi).",
+    "kaynak": "'ḤODUD AL-ʿĀLAM', Encyclopaedia Iranica XII/4 (2004), https://www.iranicaonline.org/articles/hodud-al-alam; X. de Planhol, 'BANDAR-E ʿABBĀS i. The City', Encyclopaedia Iranica III/7 (1988), https://www.iranicaonline.org/articles/bandar-e-abbas",
+    "tanik": "Šahrūvā ( Ḥodūd al-ʿālam , tr. Minorsky, p. 124)"
+   },
+   {
+    "t": "1048-06-16",
+    "gun": "440 H / 1048-49",
+    "k": "fetih",
+    "b": "Kirman Selçuklu Kavurd'un eline geçer (Kirman'ın limanı Hürmüz dahil).",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "shortly before the Buyid amir’s death in 440/1048-49, Kerman passed definitively into Qāvord’s hands"
+   },
+   {
+    "t": "1186-03-24",
+    "gun": "582 H / 1186",
+    "k": "taht",
+    "b": "Oğuz Malik Dinâr Kirman'da; Hürmüz ve Kays emirlerini haraçgüzar yapar.",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "Malek Dinār (r. 582-91/1186-95)"
+   },
+   {
+    "t": "1213-05-23",
+    "gun": "610 H / 1213",
+    "k": "fetih",
+    "b": "Hârezmşâh amiri Kirman'ı alır.",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "Moʾayyed-al-Molk seized power in 610/1213 at Jiroft, Bam, and Bardsir"
+   },
+   {
+    "t": "1222-02-15",
+    "gun": "619 H / 1222",
+    "k": "idari",
+    "b": "Berâk Hâcib Kutluğhanlı hânedanını kurar.",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "in 619/1222, Amir Barāq Ḥājeb"
+   },
+   {
+    "t": "1296-01-01",
+    "gun": "1296",
+    "k": "idari",
+    "b": "Hürmüz Emîri Bahâeddin Ayâz yönetimi alır, Eski Hürmüz halkını Jarun adasına taşır; Jarun adı anakaradaki Soru köyüne (Bender Abbas) geçer.",
+    "kaynak": "W. M. Floor, 'HORMUZ ii. Islamic Period', Encyclopaedia Iranica XII/5 (2004), https://www.iranicaonline.org/articles/hormuz-ii",
+    "tanik": "took over the government of Hormuz in 1296 with help from Fārs"
+   },
+   {
+    "t": "1507-09-01",
+    "gun": "Eylül 1507",
+    "k": "fetih",
+    "b": "Albuquerque'nin Portekiz filosu Hürmüz'ü saldırır; Portekizliler 'kısa süre sonra' Šahrū'da kale kurar.",
+    "kaynak": "W. M. Floor, 'HORMUZ ii. Islamic Period', Encyclopaedia Iranica XII/5 (2004), https://www.iranicaonline.org/articles/hormuz-ii; X. de Planhol, 'BANDAR-E ʿABBĀS i. The City', Encyclopaedia Iranica III/7 (1988), https://www.iranicaonline.org/articles/bandar-e-abbas",
+    "tanik": "At the end of September 1507, a Portuguese fleet under Alfonso de Albuquerque"
+   },
+   {
+    "t": "1615-01-01",
+    "gun": "1615",
+    "k": "fetih",
+    "b": "Šahrū'daki Portekiz kalesi Safevî Şah Abbas I'in eline geçer.",
+    "kaynak": "X. de Planhol, 'BANDAR-E ʿABBĀS i. The City', Encyclopaedia Iranica III/7 (1988), https://www.iranicaonline.org/articles/bandar-e-abbas",
+    "tanik": "In 1615, the Portuguese fort passed into the hands of the Safavid Shah ʿAbbās I"
+   }
+  ],
+  "ic_not": "SONUÇ: Bender Abbas'ın atlas kuruluşu (1622-05-01) 'yeniden adlandırma/liman taşıma'dır; yer 983'ten (Ḥudūd al-ʿālam) önce Šahrū adıyla vardı (İranica). Zincir 983 → 1622 Kirman zinciri (abi merkez) ile bağlandı — Šahrū'ya özel sahip tanığı yalnız 1507 (Portekiz kalesi) ve 1615'ten itibaren vardır; öncesi BEYANLI YAKLAŞIKLIK. Sasani/antik öncül aranmadı. Eski Hürmüz (Mînâb yakınında, 80 km D) AYRI kayıt adayı. ATLAS NOTU: atlas kur 1622-05-01 İranica ile uyumlu (Hürmüz'ün alınışı da 1622)."
+ },
+ {
   "id": "benin-sehri",
   "ad": "Benin Şehri (Edo)",
   "atlas_ad": "Benin Şehri (Edo)",
@@ -4541,6 +4741,204 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ATLAS ÇELİŞKİSİ (1281 başlangıcı): ilk yazılı tanık 1459-09-20 > atlas başlangıcı 1281-01-01. Atlas Bükreş noktasını macaristan 1281-01-01 → 1330, eflak 1330-1462 olarak açıyor; kaynak bunu desteklemiyor (1281-1459 arasında yazılı tanık yok). Bu yüzden sahip zinciri BOŞ bırakıldı (denetim 'ilk.t atlas başlangıcından sonra' uyarısı beklenir). Öneri: Bükreş noktası 1459-09-20 öncesinde gösterilmesin (motor kur/bit penceresi = ilk.t'den başlasın); macaristan 1281-1330 dönemi kaynaksız (Bükreş bölgesi Macar krallığı toprağı olduğuna dair tanık bulunamadı: Eflak/Basarab devleti 1330 Posada öncesi 'Terra Transalpina' Macar nominal egemenliği olabilir ama bu oturumda açılmadı); eflak dönemi nokta ilk.t'den itibaren geçerli. KAYNAK SEÇİMİ: TDV 1368 'Cetatea Dâmboviţei' ismiyle geçtiğini yazar, ancak (a) bu ad Bükreş'in kendi adı değildir, yeri kesin olmayan ad eşitlemesidir (VERI-YAPISI kuralı: başlangıç sayılmaz), (b) Treccani 'Bucarest' (Enciclopedia on line): 'L'origine di B. e l'etimologia del nome sono incerte', (c) Constantin 2011: 'Cetatea Dâmboviţa' adı 1458-59'da Vlad Ţepeş'in inşa ettiği Bükreş kalesinin yan adıdır. Bu yüzden adı kesin taşıyan en eski belge (1459-09-20) alındı; TDV-esas kuralı ile çelişki beyan edilir ve karar Emre'ye bırakılır (alternatif ilk: TDV 1368, yıl hassasiyeti, yer eşitlemesi belirsiz). 1459 tarihi için ikinci akademik tanık bulunamadı (Newsweek RO ve Wikipedia 20.09.1459'u aktarır ama popüler/ikincil olduğu için kaynak sayılmadı; Wikipedia 13 Haziran 1458 tarihli Latince bir belgeden de söz eder — bu oturumda doğrulanmadı). Tanik metni PDF OCR çıktısından birebir alındı ('20septembrie1459' bitişik). ARKEOLOJİ: Curtea Veche kazılarında XIV. yy ikinci yarısına ait kule/tahkimat var (ark alanı); yazılı tanık (1459) mevcut olduğundan arkeolojik katman ilk olmadı; arkeolojik tarih (XIV. yy ikinci yarısı, 1350-1399) yazılı tanıktan eskidir ama o da 1281'den sonradır — atlas başlangıcı 1281 ile ÇELİŞİR: arkeolojik bulgu da 1281'de şehir olduğunu göstermez. Treccani: 'Residenza invernale dei principi di Valacchia alla metà del 15° sec.'. Bükreş modern noktası (44.427, 26.103) ile Curtea Veche (~44.4318, 26.1018) arası < 1 km."
+ },
+ {
+  "id": "buraymi",
+  "ad": "Buraymî",
+  "atlas_ad": "Buraymî",
+  "lat": 24.25,
+  "lon": 55.7931,
+  "kat1900": 2,
+  "adlar": [
+   "Tuâm (Tu'am)",
+   "Büreymî (al-Buraymī)"
+  ],
+  "ilk": {
+   "t": "0840-01-01",
+   "gun": "840",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Mustafa L. Bilge, 'Büreymî', TDV İslâm Ansiklopedisi (1992), https://islamansiklopedisi.org.tr/bureymi",
+   "tanik": "Büreymî’yi ele geçiren Benî Cülendâ ile imamın valisi arasındaki mücadelede vali öldürülmüştü (840)",
+   "ic_not": "TDV: 'Büreymî vaha bölgesinden eski kaynaklarda çok az bahsedilir'; 'İlk İslâm coğrafyacıları Büreymî’den Tuâm adıyla ... bahseder' (tarihsiz, yazılmadı); dated en eski: 840. TDV 629'da Amr b. Âs'ın Umman kabilelerine mektup götürdüğünü anar ama Büreymî'ye özel değil. Büreymî BÖLGESİ (Büreymî-Ayn-Hîlî vahası) kastedilir; atlas noktası (24.25, 55.79) Büreymî kasabasıdır, Hîlî (UNESCO sit) ~3 km yakındadır."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-2499-01-01",
+   "gun": "MÖ 2500",
+   "kesinlik": "yuzyil",
+   "kaynak": "UNESCO World Heritage Centre, 'Cultural Sites of Al Ain (Hafit, Hili, Bidaa Bint Saud and Oases Areas)', https://whc.unesco.org/en/list/1343/ (ikinci tanık; akademik birincil kaynak açılamadı)",
+   "tanik": "circular stone tombs (ca 2500 B.C.)",
+   "ic_not": "UNESCO (ikinci tanık sınıfı): Al Ain/Hili sit alanı 'dairesel taş mezarlar (ca. MÖ 2500)', Hafit-Hili-Umm an-Nar kültürleri. Büreymî kasabasının kendi iskân tarihi için akademik birincil kaynak (Potts, Cleuziou, Hili kazıları) AÇILAMADI; ark yalnız vaha bölgesi düzeyindedir."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0840-01-01",
+    "t": "0893-01-01",
+    "d": "culenda",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Mustafa L. Bilge, 'Büreymî', TDV İslâm Ansiklopedisi (1992), https://islamansiklopedisi.org.tr/bureymi",
+    "tanik": "Büreymî’yi ele geçiren Benî Cülendâ ile imamın valisi arasındaki mücadelede vali öldürülmüştü (840)",
+    "ic_not": "Benî Cülendâ (Umman'ın İbâzî imamlığı dönemi yerel hânedanı; TDV Uman: Abd ve Ceyfer b. Cülendâ, Cülendâ b. Mes‘ûd imam 132/750) — künye yok. Önerilen id 'culenda' (Cülendâ oğulları, ~7.-9. yy Umman; kaynak TDV Uman/Büreymî). ELE GEÇİRME tarihi 'imam Mühennâ devri, vali öldürüldü (840)': 840 tanık yılı.",
+    "kunye_yok": true
+   },
+   {
+    "f": "0893-01-01",
+    "t": "0930-02-03",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Mustafa L. Bilge, 'Büreymî', TDV İslâm Ansiklopedisi (1992), https://islamansiklopedisi.org.tr/bureymi",
+    "tanik": "Büreymî bölgesi Abbâsî Halifesi Mu‘tazıd-Billâh’ın Bahreyn’den gönderdiği ordu tarafından işgal edilmiştir (893)",
+    "ic_not": "TDV Büreymî yalnız yıl (893) verir; Nizva için hicrî 280 ilk günü 893-03-23 (TDV Uman) — farklı şehirler, aynı Bahreyn harekâtı; burada yıl hassasiyeti. ABİ MERKEZ: Nizva (İbrî/Nizve yoluyla bağlı, TDV Büreymî: 'Dübey’den Uman Devleti topraklarına girerek İbrî, Nizve gibi şehirlere ulaşır') ve aynı Bahreyn-Abbâsî harekâtı (TDV Büreymî 893 / TDV Uman 280/893) — Nizva zinciri devralındı; BEYANLI YAKLAŞIKLIK. "
+   },
+   {
+    "f": "0930-02-03",
+    "t": "0943-01-01",
+    "d": "karmati",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "Uman 318’de (930) Bahreyn Karmatîleri’nin lideri Ebû Tâhir el-Cennâbî tarafından ele geçirildi",
+    "ic_not": "ABİ MERKEZ: Nizva (İbrî/Nizve yoluyla bağlı, TDV Büreymî: 'Dübey’den Uman Devleti topraklarına girerek İbrî, Nizve gibi şehirlere ulaşır') ve aynı Bahreyn-Abbâsî harekâtı (TDV Büreymî 893 / TDV Uman 280/893) — Nizva zinciri devralındı; BEYANLI YAKLAŞIKLIK. "
+   },
+   {
+    "f": "0943-01-01",
+    "t": "0967-01-01",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "943 yılında tekrar Abbâsî hâkimiyetine girmekle birlikte imamlar vasıtasıyla yönetildi",
+    "ic_not": "ABİ MERKEZ: Nizva (İbrî/Nizve yoluyla bağlı, TDV Büreymî: 'Dübey’den Uman Devleti topraklarına girerek İbrî, Nizve gibi şehirlere ulaşır') ve aynı Bahreyn-Abbâsî harekâtı (TDV Büreymî 893 / TDV Uman 280/893) — Nizva zinciri devralındı; BEYANLI YAKLAŞIKLIK. "
+   },
+   {
+    "f": "0967-01-01",
+    "t": "1062-01-01",
+    "d": "buveyhi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "356’da (967) Büveyhîler’in ardından Selçuklular’ın hâkimiyetine geçti",
+    "ic_not": "ABİ MERKEZ: Nizva (İbrî/Nizve yoluyla bağlı, TDV Büreymî: 'Dübey’den Uman Devleti topraklarına girerek İbrî, Nizve gibi şehirlere ulaşır') ve aynı Bahreyn-Abbâsî harekâtı (TDV Büreymî 893 / TDV Uman 280/893) — Nizva zinciri devralındı; BEYANLI YAKLAŞIKLIK. "
+   },
+   {
+    "f": "1062-01-01",
+    "t": "1160-01-01",
+    "d": "kirman-selcuklu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "remained an outpost of Saljuq power for nearly a century",
+    "ic_not": "ABİ MERKEZ: Nizva (İbrî/Nizve yoluyla bağlı, TDV Büreymî: 'Dübey’den Uman Devleti topraklarına girerek İbrî, Nizve gibi şehirlere ulaşır') ve aynı Bahreyn-Abbâsî harekâtı (TDV Büreymî 893 / TDV Uman 280/893) — Nizva zinciri devralındı; BEYANLI YAKLAŞIKLIK. t hesaplanmış (1062 + ~98 yıl)."
+   },
+   {
+    "f": "1160-01-01",
+    "t": "1230-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "Mustafa L. Bilge, 'Büreymî', TDV İslâm Ansiklopedisi (1992), https://islamansiklopedisi.org.tr/bureymi",
+    "tanik": "Bundan sonra XVII. yüzyıl başlarına kadar bölge hakkında kaynaklarda herhangi bir bilgiye rastlanmamaktadır.",
+    "ic_not": "Büreymî için 893'ten XVII. yy başına dek kaynakta hiçbir bilgi yok (TDV); 1160-1230 Nizva zincirinde de BOŞLUK (bkz. Nizva). Abi merkez zinciri de burada kopar."
+   },
+   {
+    "f": "1230-01-01",
+    "t": "1281-01-01",
+    "d": "salgurlu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "627’de (1230) Benî Kayser’i ortadan kaldıran Salgurlular, Portekiz işgaline kadar Uman’ı yönettiler",
+    "ic_not": "ABİ MERKEZ: Nizva (İbrî/Nizve yoluyla bağlı, TDV Büreymî: 'Dübey’den Uman Devleti topraklarına girerek İbrî, Nizve gibi şehirlere ulaşır') ve aynı Bahreyn-Abbâsî harekâtı (TDV Büreymî 893 / TDV Uman 280/893) — Nizva zinciri devralındı; BEYANLI YAKLAŞIKLIK. TDV Umman'ın tamamını Salgurlulara verir; Büreymî'ye özel tanık yok."
+   }
+  ],
+  "dikis_beyan": "Atlas Büreymî'yi 1281-01-01'de 'nebhani' gösteriyor; kaynak bulunamadı (TDV Büreymî 893-XVII. yy arası sessiz; TDV Uman Salgurluları 1230'dan sahip yazar). ATLAS DÜZELTME ÖNERİSİ: bkz. Nizva.",
+  "olay": [
+   {
+    "t": "0840-01-01",
+    "gun": "840",
+    "k": "isyan",
+    "b": "Benî Cülendâ Büreymî'yi imamın valisinden alır; mücadelede imamın valisi öldürülür.",
+    "kaynak": "Mustafa L. Bilge, 'Büreymî', TDV İslâm Ansiklopedisi (1992), https://islamansiklopedisi.org.tr/bureymi",
+    "tanik": "Büreymî’yi ele geçiren Benî Cülendâ ile imamın valisi arasındaki mücadelede vali öldürülmüştü (840)"
+   },
+   {
+    "t": "0893-01-01",
+    "gun": "893",
+    "k": "fetih",
+    "b": "Abbâsî Halifesi Mu‘tazıd-Billâh'ın Bahreyn'den gönderdiği ordu Büreymî bölgesini işgal eder.",
+    "kaynak": "Mustafa L. Bilge, 'Büreymî', TDV İslâm Ansiklopedisi (1992), https://islamansiklopedisi.org.tr/bureymi",
+    "tanik": "Büreymî bölgesi Abbâsî Halifesi Mu‘tazıd-Billâh’ın Bahreyn’den gönderdiği ordu tarafından işgal edilmiştir (893)"
+   },
+   {
+    "t": "0930-02-03",
+    "gun": "318 H / 930",
+    "k": "fetih",
+    "b": "Bahreyn Karmatîleri'nin lideri Ebû Tâhir el-Cennâbî Umman'ı ele geçirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "Uman 318’de (930) Bahreyn Karmatîleri’nin lideri Ebû Tâhir el-Cennâbî tarafından ele geçirildi"
+   },
+   {
+    "t": "0943-01-01",
+    "gun": "943",
+    "k": "fetih",
+    "b": "Umman tekrar Abbâsî hâkimiyetine girer (imamlar aracılığıyla yönetilmeye devam).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "943 yılında tekrar Abbâsî hâkimiyetine girmekle birlikte imamlar vasıtasıyla yönetildi"
+   },
+   {
+    "t": "0967-01-01",
+    "gun": "356 H / 967",
+    "k": "diger",
+    "b": "Umman Büveyhîlerin hâkimiyetine geçer (TDV'nin 'ardından Selçuklular' ifadesi karışık).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "356’da (967) Büveyhîler’in ardından Selçuklular’ın hâkimiyetine geçti"
+   },
+   {
+    "t": "1062-01-01",
+    "gun": "1053-1062",
+    "k": "fetih",
+    "b": "Kirman Selçuklu Kavurd Bey Hürmüz emîri Bedr Îsâ'nın yardımıyla deniz aşırı seferle Umman'ı zaptetmiştir (tarih aralığı; üst uç alındı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman; C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "1053-1062 yılları arasındaki bir tarihte gerçekleştirdiği deniz aşırı seferle"
+   },
+   {
+    "t": "1160-01-01",
+    "gun": "yaklaşık 1160",
+    "k": "diger",
+    "b": "Umman'ın Kirman Selçuklu üssü olarak 'yaklaşık bir yüzyıl' sürmesinden hesaplanan uç (1062 + ~98 yıl); bitiş günü kaynakta YOK.",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "remained an outpost of Saljuq power for nearly a century"
+   },
+   {
+    "t": "1230-01-01",
+    "gun": "627 H / 1230",
+    "k": "fetih",
+    "b": "Salgurlular Kays'taki Benî Kayser'i ortadan kaldırır; Umman'ı yönetmeye başlarlar (TDV).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "627’de (1230) Benî Kayser’i ortadan kaldıran Salgurlular, Portekiz işgaline kadar Uman’ı yönettiler"
+   }
+  ],
+  "ic_not": "Çok dilli akademik: TDV 'Büreymî' (Mustafa L. Bilge, 1992; dayanak EI2 'al-Buraymī', Rentz–Mulligan) tek ana kaynak; EI2 maddesi açılamadı. Hili 8/Hili sit arkeolojisi için UNESCO ikinci tanık. Büreymî'nin 893-1625 arası sessizliği (TDV) nedeniyle zincir Nizva'dan 'abi merkez' ile devralındı — Emre kuralına uygun BEYANLI YAKLAŞIKLIK; kabul edilmezse 893 sonrası __BOSLUK__ yapılmalı."
  },
  {
   "id": "burhanpur",
@@ -6722,6 +7120,193 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "KAYNAK: TDV Erdebil, Iranica ARDABĪL i (curl, tam Chrome UA ile açıldı), TDV Sâcoğulları/Müsâfirîler/Revvâdîler, Le Strange 1905 (Erdebil 'Azerbaycan'ın başkenti' tespiti). KURULUŞ: bulunamadı (Pîrûz geleneği ayrı). Hazar akını 112/730-31 (Iranica) ve Hürremî/Bâbek dönemi (816-838) sahipliği değiştirmeyen olay olarak yazılmadı. Atlas düzeltme: yok (1281 İlhanlı uyumlu). Atlasta Erdebil'in Osmanlı d: dönemi (1725-1730) mevcut; bu dosya ona karışmaz."
+ },
+ {
+  "id": "eski-basra",
+  "ad": "Eski Basra (Zübeyr)",
+  "atlas_ad": "Eski Basra (Zübeyr)",
+  "lat": 30.39213,
+  "lon": 47.70175,
+  "kat1900": 2,
+  "adlar": [
+   "Vehiştâbâd Erdeşîr (Sasani; Hureybe/Ḵorayba harabesi)",
+   "Basra (Baṣra)",
+   "Zübeyr (Zobayr)"
+  ],
+  "ilk": {
+   "t": "0638-01-23",
+   "gun": "17 H / 638",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "F. M. Donner, 'BASRA', Encyclopaedia Iranica III/8 (1988), https://www.iranicaonline.org/articles/basra; TDV İslâm Ansiklopedisi, 'Basra', https://islamansiklopedisi.org.tr/basra",
+   "tanik": "Basra was initially established in about 17/638 as an encampment and garrison",
+   "ic_not": "Kuruluş yılı kaynaklarda ÇELİŞKİLİ: TDV üç rivayet verir ('14 (635), 16 (637) veya 17 (638) yıllarında kurulmuştur'; Mes‘ûdî 14/635 veya 16/Nisan-Mayıs 637; Basra-Kûfe rekabeti) — TDV rivayetleri ayrı ayrı beyan edilir; İranica 'about 17/638'. Güvenli uç olarak SON uç (17/638) alındı; 17 H 638-01-23'te başlar (tablo takvimi, Jülyen) → 638-01-23 (yıl hassasiyeti). ÇİFT TEYİT: 17/638 hem TDV'nin üç adaydan biri hem İranica; bağımsız iki akademik ansiklopedi. Şehir 'Hureybe' harabesi üzerine ('İranica: an old Persian settlement called Vaheštābāḏ Ardašīr'; TDV: Keldânîler zamanında Teredon, Sâsânîler devrinde Vehiştâbâd Erdeşîr) kuruldu — o öncül yerleşimin tarihi bulunamadı (arkeolojik/yazılı tanık yok), ark null."
+  },
+  "kur": {
+   "t": "0638-01-23",
+   "gun": "17 H / 638",
+   "kesinlik": "yil",
+   "kaynak": "F. M. Donner, 'BASRA', Encyclopaedia Iranica III/8 (1988), https://www.iranicaonline.org/articles/basra",
+   "tanik": "Basra was initially established in about 17/638 as an encampment and garrison"
+  },
+  "ark": null,
+  "bit": {
+   "t": "1494-10-02",
+   "gun": "900 H / 1494-95",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Basra', https://islamansiklopedisi.org.tr/basra; F. M. Donner, 'BASRA', Encyclopaedia Iranica III/8 (1988), https://www.iranicaonline.org/articles/basra",
+   "tanik": "Bu yeni sahaya intikal 900’de (1494-95) tamamlandı."
+  },
+  "sahip": [
+   {
+    "f": "0638-01-23",
+    "t": "0661-07-01",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "F. M. Donner, 'BASRA', Encyclopaedia Iranica III/8 (1988), https://www.iranicaonline.org/articles/basra; TDV İslâm Ansiklopedisi, 'Basra', https://islamansiklopedisi.org.tr/basra",
+    "tanik": "Basra was initially established in about 17/638 as an encampment and garrison",
+    "ic_not": "Basra valisi Ebû Mûsâ el-Eş‘arî (17/638, TDV), Abdullah b. Âmir (29/650); Cemel Vak‘ası 36/656. TDV Basra Muâviye'nin otoritesini '41 (662)' yazar, TDV Emevîler 'Temmuz 661' — Emevîler maddesi alındı."
+   },
+   {
+    "f": "0661-07-01",
+    "t": "0750-08-01",
+    "d": "emevi",
+    "kesinlik": {
+     "f": "ay",
+     "t": "ay"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Basra', https://islamansiklopedisi.org.tr/basra; TDV İslâm Ansiklopedisi, 'Emevîler', https://islamansiklopedisi.org.tr/emeviler",
+    "tanik": "41 yılı Rebîülevvel ayının sonlarında (Temmuz 661) İslâm dünyasının tamamını hâkimiyeti altına aldı",
+    "ic_not": "Zübeyrî kesinti: TDV Basra 'Ubeydullah b. Ziyâd’ın 67 (686) ölümünden sonra ... Abdullah b. Zübeyr’e bağlı birlikler Basra’nın kontrolünü ... 72 (691)' (Basra’nın kontrolünü ellerine geçirdiler ve 72 (691) yılına kadar şehir onların idaresinde kaldı). Başlangıcı anarşi dönemine bağlı belirsiz (686-691 içinde) olduğundan ayrı dönem AÇILMADI (süresi bilinmeyen kesinti kuralı), olay olarak yazıldı."
+   },
+   {
+    "f": "0750-08-01",
+    "t": "0923-01-01",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Basra', https://islamansiklopedisi.org.tr/basra; TDV İslâm Ansiklopedisi, 'Abbâsîler', https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "Abbâsîler ihtilâlden sonra ciddi bir mukavemetle karşılaşmadan Basra’yı ele geçirdiler.",
+    "ic_not": "Zutlar 820-835 'şehre hâkim oldular' (Zutlar 820-835 yılları arasında şehre hâkim oldular.) — Zutt isyancıları devlet değil, dönem açılmadı. Zenc ayaklanması (255-69/869-83) Basra'yı 'seized and plundered' (İranica) — dönem açılmadı. Karmatîler 899-945 defalarca saldırdı, 923'te yağmaladı (TDV/İranica) — dönem açılmadı."
+   },
+   {
+    "f": "0923-01-01",
+    "t": "0947-07-23",
+    "d": "baridi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Basra', https://islamansiklopedisi.org.tr/basra; F. M. Donner, 'BASRA', Encyclopaedia Iranica III/8 (1988), https://www.iranicaonline.org/articles/basra",
+    "tanik": "Basra 923’te Berîdîler’in, 947 yılında da Büveyhîler’in egemenliği altına girdi.",
+    "ic_not": "Berîdîler (Basra-Hûzistan'da yerel hânedan, önce Abbâsî valisi sonra bağımsız emîr, İranica) — künye yok: önerilen id 'baridi' (Berîdîler, 923-947; kaynak TDV Basra/İranica). t: 336 H ilk günü 947-07-23 (İranica '336/947'; TDV '947' — ÇİFT TEYİT yıl).",
+    "kunye_yok": true
+   },
+   {
+    "f": "0947-07-23",
+    "t": "1055-12-18",
+    "d": "buveyhi",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "F. M. Donner, 'BASRA', Encyclopaedia Iranica III/8 (1988), https://www.iranicaonline.org/articles/basra",
+    "tanik": "various Buyid princes more or less loyal to the great Buyid prince in Baghdad",
+    "ic_not": "Basra'ya özel son Büveyhî tanığı: İranica 'attack (unsuccessfully) against the city in the 370s/980s' (launching an attack (unsuccessfully) against the city in the 370s/980s) — Büveyhî egemenliği 980'lerde sürüyor. 980-1055 arası ve t = ABİ MERKEZ (Bağdat): Basra'yı yöneten Büveyhî prensleri Bağdat'taki büyük Büveyhî prensine bağlı ('various Buyid princes more or less loyal to the great Buyid prince in Baghdad', İranica); Bağdat'ta Büveyhî hâkimiyeti Tuğrul'un girişiyle biter (TDV Selçuklular: 'Tuğrul Bey, Halife Kāim-Biemrillâh’ın davetiyle Bağdat’a gitti (25 Ramazan 447 / 18 Aralık 1055)'). BEYANLI YAKLAŞIKLIK."
+   },
+   {
+    "f": "1055-12-18",
+    "t": "1258-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Basra', https://islamansiklopedisi.org.tr/basra; F. M. Donner, 'BASRA', Encyclopaedia Iranica III/8 (1988), https://www.iranicaonline.org/articles/basra; TDV İslâm Ansiklopedisi, 'Selçuklular', https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Selçuklular devrinde Basra, şehrin iktâ edildiği bir emîr (mukta‘) tarafından yönetiliyordu.",
+    "ic_not": "1055-1258 Basra sahibi dönem dönem tanıksız: TDV 'Selçuklular devrinde Basra, şehrin iktâ edildiği bir emîr (mukta‘) tarafından yönetiliyordu'; İranica: 'the first Saljuqs combined Basra with Ḵūzestān' (geç 5./11. yy); Hafâce (11.-12. yy) ve Müntefik (11.-14. yy) kabileleri Basra'yı 'virtual rulers' olarak zorladı; İbn Havkal'ın 537/1142 notu: şehir harap. Selçuklu/Abbâsî/yerel Arap kabile egemenliği dönemleri tarihlenemedi. Abi merkez Bağdat (Büyük Selçuklu 1055 → Irak Selçukluları → Abbâsî halife 1194+) zinciri uygulanmadı: Basra'ya özel bağ-ve-tarih tanığı yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0638-01-23",
+    "gun": "17 H / 638",
+    "k": "kurulus",
+    "b": "Utbe b. Gazvân Hureybe harabesi yanında Basra ordugâhını kurar (17/638 'about').",
+    "kaynak": "F. M. Donner, 'BASRA', Encyclopaedia Iranica III/8 (1988), https://www.iranicaonline.org/articles/basra; TDV İslâm Ansiklopedisi, 'Basra', https://islamansiklopedisi.org.tr/basra",
+    "tanik": "Basra was initially established in about 17/638 as an encampment and garrison"
+   },
+   {
+    "t": "0661-07-01",
+    "gun": "Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Emevîler', https://islamansiklopedisi.org.tr/emeviler",
+    "tanik": "41 yılı Rebîülevvel ayının sonlarında (Temmuz 661) İslâm dünyasının tamamını hâkimiyeti altına aldı"
+   },
+   {
+    "t": "0691-06-04",
+    "gun": "72 H / 691",
+    "k": "diger",
+    "b": "Zübeyrî (Abdullah b. Zübeyr) denetimi 72/691'de sona erer; Haccâc Basra'yı Emevîler adına alır (Zübeyrî dönem açılmadı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Basra', https://islamansiklopedisi.org.tr/basra",
+    "tanik": "Basra’nın kontrolünü ellerine geçirdiler ve 72 (691) yılına kadar şehir onların idaresinde kaldı"
+   },
+   {
+    "t": "0750-08-01",
+    "gun": "Ağustos 750",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (Basra Abbâsîlerin eline 'ciddi bir mukavemetle karşılaşmadan' geçer).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Abbâsîler', https://islamansiklopedisi.org.tr/abbasiler; TDV İslâm Ansiklopedisi, 'Basra', https://islamansiklopedisi.org.tr/basra",
+    "tanik": "Abbâsîler ihtilâlden sonra ciddi bir mukavemetle karşılaşmadan Basra’yı ele geçirdiler."
+   },
+   {
+    "t": "0820-01-01",
+    "gun": "820-835",
+    "k": "isyan",
+    "b": "Zutlar şehre hâkim oldular (820-835).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Basra', https://islamansiklopedisi.org.tr/basra",
+    "tanik": "Zutlar 820-835 yılları arasında şehre hâkim oldular."
+   },
+   {
+    "t": "0923-01-01",
+    "gun": "923",
+    "k": "idari",
+    "b": "Basra Berîdîlerin egemenliğine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Basra', https://islamansiklopedisi.org.tr/basra",
+    "tanik": "Basra 923’te Berîdîler’in, 947 yılında da Büveyhîler’in egemenliği altına girdi."
+   },
+   {
+    "t": "0947-07-23",
+    "gun": "336 H / 947",
+    "k": "fetih",
+    "b": "Berîdîler Basra'dan Büveyhîler tarafından atılır.",
+    "kaynak": "F. M. Donner, 'BASRA', Encyclopaedia Iranica III/8 (1988), https://www.iranicaonline.org/articles/basra",
+    "tanik": "until they were expelled in 336/947 by the first Buyids"
+   },
+   {
+    "t": "1055-12-18",
+    "gun": "25 Ramazan 447 / 18 Aralık 1055",
+    "k": "fetih",
+    "b": "Tuğrul Bey Bağdat'a girer; Büveyhî hâkimiyeti biter (Basra için ABİ MERKEZ olayı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Selçuklular', https://islamansiklopedisi.org.tr/selcuklular",
+    "tanik": "Tuğrul Bey, Halife Kāim-Biemrillâh’ın davetiyle Bağdat’a gitti (25 Ramazan 447 / 18 Aralık 1055)"
+   },
+   {
+    "t": "1258-01-08",
+    "gun": "656 H / 1258",
+    "k": "fetih",
+    "b": "Basra Hülâgû ordularına direnmeden teslim olur / Irak Moğolların eline geçer.",
+    "kaynak": "F. M. Donner, 'BASRA', Encyclopaedia Iranica III/8 (1988), https://www.iranicaonline.org/articles/basra; TDV İslâm Ansiklopedisi, 'Basra', https://islamansiklopedisi.org.tr/basra",
+    "tanik": "it surrendered without a struggle to the armies of Hülegü (Holāgū) Khan in 656/1258"
+   }
+  ],
+  "ic_not": "SONUÇ: kuruluş yılı üç rivayet (TDV) ↔ İranica 17/638; atlas 'Eski Basra' kaydı bit 1494-10-02'de TDV/İranica ile uyumlu (900 H başı). ATLAS NOTU: atlas eski Basra'yı 1258-01-01'de ilhanli ile açıyor; TDV Basra ise 'Basra daha sonra sırasıyla 1335’te İlhanlılar’ ... ' der (Boğatimur Kûfe-Vâsıt-Basra için TDV Hülâgû'yu atlas notu anıyor); İranica 656/1258 'surrendered without a struggle' der → 1258 başlangıcı İranica ile tutarlı, TDV Basra'daki 1335 İlhanlı tarihiyle ÇELİŞİR (beyan). Sasani öncülü (Vehiştâbâd Erdeşîr) ve Teredon (Keldânî) tarihsiz → yazılmadı. Sahiplik 1055-1258 BOŞLUK (Basra için sahip tanığı bulunamadı; 'Selçuklu iktâ'sı olay düzeyi)."
  },
  {
   "id": "eski-kandehar",
@@ -13688,6 +14273,63 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Çok eski kronoloji (Sangam) için tarihli kaynak yok; Sastri tek ana kaynak (OCR). Sahiplik dilimleri iki __BOSLUK__ taşıyor (Kalabhra; 910-994 çekişmeli). Atlas Madurai'yi 1281'de 'pandya' ile başlatır — kaynakla uyumlu (Pandya İkinci İmparatorluğu 1190'dan)."
  },
  {
+  "id": "manama",
+  "ad": "Manama (Bahreyn)",
+  "atlas_ad": "Manama (Bahreyn)",
+  "lat": 26.228,
+  "lon": 50.586,
+  "kat1900": 2,
+  "adlar": [
+   "Menâme (al-Manāma)"
+  ],
+  "ilk": {
+   "t": "1345-01-01",
+   "gun": "1345",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Vikipedi 'Manama' (Founded 1345 or earlier; aktarılan kaynak: Dumper & Stanley, Cities of the Middle East and North Africa, ABC-CLIO 2007, s.243 — KİTAP AÇILAMADI), https://en.wikipedia.org/wiki/Manama",
+   "tanik": "The town of Manama was mentioned by name for the first time in a manuscript",
+   "ic_not": "ZAYIF TEK DAYANAK: Vikipedi (Dumper & Stanley 2007 s.243'e dayanır) 'manuscript dating to 1345 AD' der; kitap/el yazması açılamadı, Vikipedi TEK DAYANAK OLAMAZ (CLAUDE.md) → bu madde Emre/teyit kampanyası kararı ister. Lorimer (cilt I/II) Manama'yı yalnız 18.-20. yy olaylarında anar; TDV 'Bahreyn' Menâme'yi yalnız modern başşehir olarak anar. Dilmun/Tylos merkezleri (Qal‘at el-Bahreyn ~6,5 km) 3 km'den uzak → bu kayıtta yazılmaz; TDV 'Bahreyn': adadaki ~150.000 mezar MÖ 2800-1800 (ada düzeyi)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1345-01-01",
+    "t": "1417-01-01",
+    "d": "hurmuz-sultanligi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "W. M. Floor, 'HORMUZ ii. Islamic Period', Encyclopaedia Iranica XII/5 (2004), https://www.iranicaonline.org/articles/hormuz-ii",
+    "tanik": "He also took Bahrain",
+    "ic_not": "Floor (İranica Hormuz ii): 1320'de Mir Qutbüddin Tahamtan Kays'ı aldı, 'He also took Bahrain'. Bahreyn 1320'den Hürmüz egemenliğinde → 1345'te de Hürmüz (BEYANLI YAKLAŞIKLIK: Hürmüz'ün sonraki durumu; Cervâni/Cerrâvân (Jarwanid) tâbi hânedan Vikipedi'ye göre — kaynak sınıfı yetersiz, yazılmadı). t: ATLAS başlangıcı 1417 (Cebrî); TDV Bahreyn Cebrîlerin başlangıç yılını vermez, atlas kaynağı 'olaylar_ek13' (TDV bahreyn gövdesi). Künye hurmuz-sultanligi: 1281-1514 ✓."
+   }
+  ],
+  "dikis_beyan": "Atlas Manama'yı 1417-01-01'de 'cebri' (Cebrîler) gösteriyor; TDV 'Bahreyn' adanın Uyûnîler, Salgurlular, Tâbîler, Cebrîler idaresinde kaldığını yazar ama tarih vermez. Hürmüz → Cebrî geçişi için 1417 günü/yılı tanığı bulunamadı.",
+  "olay": [
+   {
+    "t": "1320-01-01",
+    "gun": "1320",
+    "k": "fetih",
+    "b": "Hürmüz'ün Mir Qutbüddin Tahamtan'ı Kays'ı ve Bahreyn'i alır.",
+    "kaynak": "W. M. Floor, 'HORMUZ ii. Islamic Period', Encyclopaedia Iranica XII/5 (2004), https://www.iranicaonline.org/articles/hormuz-ii",
+    "tanik": "In 1320, Mir Qoṭb-al-Din Tahamtan captured the island of Qays ... He also took Bahrain"
+   },
+   {
+    "t": "1345-01-01",
+    "gun": "1345",
+    "k": "diger",
+    "b": "Menâme adının bilinen ilk yazılı anılışı (el yazması; ikincil aktarım).",
+    "kaynak": "Vikipedi 'Manama' (Founded 1345 or earlier; aktarılan kaynak: Dumper & Stanley, Cities of the Middle East and North Africa, ABC-CLIO 2007, s.243 — KİTAP AÇILAMADI), https://en.wikipedia.org/wiki/Manama",
+    "tanik": "The town of Manama was mentioned by name for the first time in a manuscript"
+   }
+  ],
+  "ic_not": "SONUÇ: Menâme'nin 1345 öncesi kaynaklı iskân tarihi BULUNAMADI. Denenen: TDV Bahreyn/Menâme (Menâme maddesi yok), Lorimer I/II (ilk anılış yok), İranica Bahrain (i Geography, iii History of Political Relations — 1500 öncesi yok), Vikipedi (tek dayanak). 1345 ve Hürmüz egemenliği iki farklı kaynaktan (Vikipedi ↔ İranica). Atlas Cebrî başlangıcı 1417 kaynaksız (TDV tarih vermiyor)."
+ },
+ {
   "id": "mandalay",
   "ad": "Mandalay",
   "atlas_ad": "Mandalay",
@@ -15203,6 +15845,48 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "SONUÇ: Mrauk U 1433'te kurulan bir şehirdir (Harvey 1925). Atlas noktayı 1281-01-01'den arakan sahibiyle çiziyor; 1433 > 1281 → ZİNCİR BOŞ, denetimin 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR. ATLAS DÜZELTME ÖNERİSİ: 1281-1433 arası dilim kaldırılmalı (nokta 1433'ten başlamalı; 'arakan' künyesi 1281'den sürer ama başkent Launggyet'tir — Launggyet ayrı bir yerleşim (bu noktadan > 3 km), ayrı kayıt olarak önerilir). 1281 öncesi: Harvey Arakan'ın Pagan'a nominal haraç ödediğini söyler (yer değil bölge bilgisi). Kaynak sınırı: tek akademik kaynak."
  },
  {
+  "id": "muhammere",
+  "ad": "Muhammere",
+  "atlas_ad": "Muhammere",
+  "lat": 30.4392,
+  "lon": 48.1664,
+  "kat1900": 2,
+  "adlar": [
+   "Muhammere (Moḥammara)",
+   "Hürremşehr (Ḵorramšahr)"
+  ],
+  "ilk": {
+   "t": "1812-01-01",
+   "gun": "1812",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "J. G. Lorimer, Gazetteer of the Persian Gulf, 'Oman and Central Arabia, Vol. I Historical, Part II (Calcutta 1915; archive.org in.ernet.dli.2015.206963)",
+   "tanik": "The foundation of the town of Muhammareh, which is assigned to the year 1812",
+   "ic_not": "Lorimer: Muhammere 1812'de Ka‘b Şeyhi Ghaith'in emriyle Türklere/Osmanlı yanlısı Arap kabilelerine karşı askerî karakol olarak kuruldu ('assigned to the year 1812': kuruluş tarihi yıl hassasiyetinde ve 'atfedilir'). Atlas kur 1812-01-01 ile AYNI. İranica (KHORRAMSHAHR ana maddesi): 'formerly known as Moḥammara' (ad eşitlemesi). 1812 öncesi aynı noktada (≤3 km) yerleşim tanığı bulunamadı."
+  },
+  "kur": {
+   "t": "1812-01-01",
+   "gun": "1812",
+   "kesinlik": "yil",
+   "kaynak": "J. G. Lorimer, Gazetteer of the Persian Gulf, 'Oman and Central Arabia, Vol. I Historical, Part II (Calcutta 1915; archive.org in.ernet.dli.2015.206963)",
+   "tanik": "The foundation of the town of Muhammareh, which is assigned to the year 1812"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1812-01-01",
+    "gun": "1812",
+    "k": "kurulus",
+    "b": "Muhammere kasabası Ka‘b Şeyhi Ghaith'in emriyle askerî karakol olarak kurulur (yıl 'atfedilir').",
+    "kaynak": "J. G. Lorimer, Gazetteer of the Persian Gulf, 'Oman and Central Arabia, Vol. I Historical, Part II (Calcutta 1915; archive.org in.ernet.dli.2015.206963)",
+    "tanik": "The foundation of the town of Muhammareh, which is assigned to the year 1812"
+   }
+  ],
+  "ic_not": "SONUÇ: 1812 ≥ atlas başlangıcı (1812-01-01) → zincir BOŞ; denetim 'atlas başlangıcı düzeltilmeli' uyarısı vermez ya da eşit tarih gereği uyarı verir (kasıtlı, ilk.t = atlas başlangıcı). Atlas başlangıcı kaynakla örtüşüyor. 1281 öncesi: bu noktada yerleşim yok; bölgedeki antik/orta çağ merkezler (Mesene/Charax, Hureybe-Basra) > 3 km, ayrı kayıtlar. Lorimer metni (archive.org OCR) birebir doğrulandı."
+ },
+ {
   "id": "mukden",
   "ad": "Mukden (Şenyang)",
   "atlas_ad": "Mukden (Şenyang)",
@@ -16637,6 +17321,195 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Atlas Nitra'yı 1281'de 'macaristan' ile başlatır (kaynak TDV nitra slug'ı yok); zincir aynı sahiple biter. TDV 'nitre' slug'ı 798 karakterlik boş sayfa; arama sayfası 7 madde içeriği (Nitra madde değil). Atlas ek öneri: künye nitra-prensligi (805-833) ve buyuk-moravya (833-907) boyalı/boyasız durumu bu oturumda ölçülmedi (DEVLETLER-1300-oncesi.json'da var). Nitra/Slovak akademik ansiklopedileri (Beliana) 404 verdi, Britannica 403."
+ },
+ {
+  "id": "nizva",
+  "ad": "Nizva",
+  "atlas_ad": "Nizva",
+  "lat": 22.933,
+  "lon": 57.533,
+  "kat1900": 2,
+  "adlar": [
+   "Nizvâ (Nizwa)"
+  ],
+  "ilk": {
+   "t": "0794-01-01",
+   "gun": "177 H / 794",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+   "tanik": "177’de (794) Nizvâ’da toplanan şûrada imam seçilen Ezd kabilesine mensup Muhammed b. Abdullah b. Affân",
+   "ic_not": "177 H 793-04-18'de başlar ∩ 794 → 794-01-01 (yıl). TDV Nizvâ adını 794'ten önce 'bu yerleşimciler kuzeye Nizvâ bölgesine yayılmaya başladıkça Sâsânîler ile çatışmaya girdiler' diye de anar (Ezd kabilesi, 'MS 1. yy sonlarından' göçler) ama TARİHSİZ — yazılmadı. Kuruluş ve arkeolojik (ark) tarih: bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0794-01-01",
+    "t": "0893-03-23",
+    "d": "uman-ibadi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "177’de (794) Nizvâ’da toplanan şûrada imam seçilen Ezd kabilesine mensup Muhammed b. Abdullah b. Affân",
+    "ic_not": "II. İbâzî imamlığı (TDV: 'ikinci İbâzî imamlığı'); künye 'uman-ibadi' (I. imamlık 750-) ile aynı yapı sürekliliği kabul edildi. TDV 'Uman' ve İranica 'Kerman v.' Umman düzeyinde anlatır; Nizva için şehre özel tanık yoktur — BEYANLI YAKLAŞIKLIK (bölge sahibi). "
+   },
+   {
+    "f": "0893-03-23",
+    "t": "0930-02-03",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "280’de (893) Abbâsîler’in Bahreyn Valisi Muhammed b. Nûr, Nizvâ’yı itaat altına aldı",
+    "ic_not": "f: 280 H ilk günü. TDV: 'Bu dönem 320 (932) yılında Ebü’l-Kāsım Saîd b. Abdullah’ın imam seçilmesine kadar devam etti' (ÇELİŞKİ: aynı madde 318/930 Karmatî işgalini de yazar; ikisi beyan edilir, 930 alındı). Abbâsî denetimi imamlar yanında sembolik/yer yer."
+   },
+   {
+    "f": "0930-02-03",
+    "t": "0943-01-01",
+    "d": "karmati",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "Uman 318’de (930) Bahreyn Karmatîleri’nin lideri Ebû Tâhir el-Cennâbî tarafından ele geçirildi",
+    "ic_not": "f: 318 H ilk günü. t: TDV '943'."
+   },
+   {
+    "f": "0943-01-01",
+    "t": "0967-01-01",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "943 yılında tekrar Abbâsî hâkimiyetine girmekle birlikte imamlar vasıtasıyla yönetildi",
+    "ic_not": "Abbâsî hâkimiyeti 'imamlar vasıtasıyla' (TDV)."
+   },
+   {
+    "f": "0967-01-01",
+    "t": "1062-01-01",
+    "d": "buveyhi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "356’da (967) Büveyhîler’in ardından Selçuklular’ın hâkimiyetine geçti",
+    "ic_not": "f: 356 H (966-12-17 başlar) ∩ 967 → 967-01-01. t: 'en geç' tanık — Kavurd'un Umman seferi 1053-1062 arası; üst uç 1062 (künye buveyhi t 1062-01-01 ile aynı). Büveyhî önceki sahibin dönemi 1062'ye uzatıldı (beyan; erken uç 1053)."
+   },
+   {
+    "f": "1062-01-01",
+    "t": "1160-01-01",
+    "d": "kirman-selcuklu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest; TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "remained an outpost of Saljuq power for nearly a century",
+    "ic_not": "t: HESAPLANMIŞ — İranica 'nearly a century' (1053-1062 + ~98 yıl); gün kaynakta yok, BEYANLI YAKLAŞIKLIK. Künye kirman-selcuklu t 1187: ömre uyar."
+   },
+   {
+    "f": "1160-01-01",
+    "t": "1230-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "Bir süre Nebhânîler’in hâkimiyetinde kalan Uman",
+    "ic_not": "1160-1230 arası sahip kaynakta BULUNAMADI. TDV: 'Bir süre Nebhânîler’in hâkimiyetinde kalan Uman, V. (XI.) yüzyılın ilk yarısında Kays adasında hüküm süren Benî Kayser’in nüfuz alanına girdi' (kronoloji karışık; Selçuklu sonrası Nebhânî/Benî Kayser sırası ve tarihleri verilmiyor). Nebhânî başlangıcı için Lorimer: 'whose influence first became predominant about the year 1566' (Nabahinah). Abi merkez adayı: Hürmüz/Kays (Hürmüz Prensliği 1100'den, Kays 1228'de Salgurlulara — İranica Hormuz ii)."
+   },
+   {
+    "f": "1230-01-01",
+    "t": "1281-01-01",
+    "d": "salgurlu",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "627’de (1230) Benî Kayser’i ortadan kaldıran Salgurlular, Portekiz işgaline kadar Uman’ı yönettiler",
+    "ic_not": "f: 627 H (1229-11-20 başlar) ∩ 1230 → 1230-01-01. İranica 'Hormuz ii': 'In 1228, the Hormuz ruler conquered Qays (the present-day Kiš) Island for the Atābaks, to whom it was transferred in 1230' — TDV'nin Salgurlu/Kays 1230'u ile çift teyit (yıl). Salgurlu künyesi 1286-12-29'a dek. TDV Umman'ın tamamını Portekiz işgaline dek Salgurlulara verir — iç Umman'da (Nizva) fiilî hâkimiyet şüpheli; BEYANLI."
+   }
+  ],
+  "dikis_beyan": "Atlas Nizva'yı 1281-01-01'de 'nebhani' (Nebhânîler) gösteriyor; bu iddia için kaynak bulunamadı: TDV Uman Salgurluları 1230'dan Portekiz işgaline dek sahip yazar, Lorimer Nabahinah'ın ancak ~1566'da güçlendiğini yazar (Q: 'whose influence first became predominant about the year 1566'). ATLAS DÜZELTME ÖNERİSİ: nebhani 1281-1515 dönemi kaynaksız; Salgurlu/İbâzî imamlığı ile çelişir.",
+  "olay": [
+   {
+    "t": "0794-01-01",
+    "gun": "177 H / 794",
+    "k": "taht",
+    "b": "Nizvâ'da toplanan şûrada Ezd'den Muhammed b. Abdullah b. Affân imam seçilir: Umman'da ikinci İbâzî imamlığı kurulur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "177’de (794) Nizvâ’da toplanan şûrada imam seçilen Ezd kabilesine mensup Muhammed b. Abdullah b. Affân"
+   },
+   {
+    "t": "0893-03-23",
+    "gun": "280 H / 893",
+    "k": "fetih",
+    "b": "Abbâsîlerin Bahreyn valisi Muhammed b. Nûr Nizvâ'yı itaat altına alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "280’de (893) Abbâsîler’in Bahreyn Valisi Muhammed b. Nûr, Nizvâ’yı itaat altına aldı"
+   },
+   {
+    "t": "0930-02-03",
+    "gun": "318 H / 930",
+    "k": "fetih",
+    "b": "Bahreyn Karmatîleri'nin lideri Ebû Tâhir el-Cennâbî Umman'ı ele geçirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "Uman 318’de (930) Bahreyn Karmatîleri’nin lideri Ebû Tâhir el-Cennâbî tarafından ele geçirildi"
+   },
+   {
+    "t": "0943-01-01",
+    "gun": "943",
+    "k": "fetih",
+    "b": "Umman tekrar Abbâsî hâkimiyetine girer (imamlar aracılığıyla yönetilmeye devam).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "943 yılında tekrar Abbâsî hâkimiyetine girmekle birlikte imamlar vasıtasıyla yönetildi"
+   },
+   {
+    "t": "0967-01-01",
+    "gun": "356 H / 967",
+    "k": "diger",
+    "b": "Umman Büveyhîlerin hâkimiyetine geçer (TDV'nin 'ardından Selçuklular' ifadesi karışık).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "356’da (967) Büveyhîler’in ardından Selçuklular’ın hâkimiyetine geçti"
+   },
+   {
+    "t": "1062-01-01",
+    "gun": "1053-1062",
+    "k": "fetih",
+    "b": "Kirman Selçuklu Kavurd Bey Hürmüz emîri Bedr Îsâ'nın yardımıyla deniz aşırı seferle Umman'ı zaptetmiştir (tarih aralığı; üst uç alındı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman; C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "1053-1062 yılları arasındaki bir tarihte gerçekleştirdiği deniz aşırı seferle"
+   },
+   {
+    "t": "1160-01-01",
+    "gun": "yaklaşık 1160",
+    "k": "diger",
+    "b": "Umman'ın Kirman Selçuklu üssü olarak 'yaklaşık bir yüzyıl' sürmesinden hesaplanan uç (1062 + ~98 yıl); bitiş günü kaynakta YOK.",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "remained an outpost of Saljuq power for nearly a century"
+   },
+   {
+    "t": "1230-01-01",
+    "gun": "627 H / 1230",
+    "k": "fetih",
+    "b": "Salgurlular Kays'taki Benî Kayser'i ortadan kaldırır; Umman'ı yönetmeye başlarlar (TDV).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Uman', https://islamansiklopedisi.org.tr/uman",
+    "tanik": "627’de (1230) Benî Kayser’i ortadan kaldıran Salgurlular, Portekiz işgaline kadar Uman’ı yönettiler"
+   }
+  ],
+  "ic_not": "Nizva için TDV'de ayrı madde YOK (arama: madde içeriklerinde 3 eşleşme: Büreymî, Ebûzabî, Faysal b. Türkî). Zincirin tamamı TDV 'Uman' (Umman düzeyi) + İranica 'Kerman v.' + İranica 'Hormuz ii.'den. Kaynaklar arası çelişki: TDV Uman 893 Abbâsî fethini 280/893 verir; aynı madde 'Bu dönem 320/932'ye kadar sürdü' der. Wilkinson/Bandar akademik literatür (Nebhânî 1154) açılamadı. EI2 'Nabhān' madde erişimi denenmedi/açılmadı. Arkeoloji (Nizva kalesi) bulunamadı."
  },
  {
   "id": "novgorod",
@@ -18377,6 +19250,57 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Pune atlasta 1674-06-06'da 'sehir' kd ile başlıyor ama yerleşim noktası 1281'den Yadava; bu dosya 768'e kadar geri götürür. Sahiplik dilimlerinin ikisi (973-1187 Batı Çalukya, 1187-1281 Yadava) Gazetteer 'probable' çıkarımıdır; Punaka'ya özel yazıt (Jejuri levhası 687 Vinayaditya Palayatthana-vişaya'yı Punaka'nın alt bölümü sayar: Deccan College tezi, Badami Çalukya 687 — ilk iskân değil bölge tanığı) → 768 öncesi Badami Çalukya sahipliği için kaynak yetersiz, dilim açılmadı. TDV'de Pune/Poona maddesi bulunamadı."
  },
  {
+  "id": "ras-el-hayme",
+  "ad": "Ras el-Hayme (Cülfâr)",
+  "atlas_ad": "Ras el-Hayme (Cülfâr)",
+  "lat": 25.7896,
+  "lon": 55.9417,
+  "kat1900": 1,
+  "adlar": [
+   "Kush (Şimal; Sasani sonu-13. yy, 'ayrı yer')",
+   "Cülfâr (Jolfār/Julfar)",
+   "Ras el-Hayme (Raʾs al-Ḵayma)"
+  ],
+  "ilk": {
+   "t": "1350-01-01",
+   "gun": "14. yüzyılın başı-ortası",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "R. A. Carter, B. Zhao, K. Lane & C. Velde, 'The rise and ruin of a medieval port town: A reconsideration of the development of Julfar', Arabian Archaeology and Epigraphy (2020), DOI 10.1111/aae.12162 (https://discovery.ucl.ac.uk/10114859/1/aae.12162.pdf)",
+   "tanik": "not until the early or mid-fourteenth century that the archaeological site known now as Julfar",
+   "ic_not": "Kaynak 'early or mid-fourteenth century' der; arkeolojik tarihlemede aralığın SON ucu (orta 14. yy = 1350) alındı. 'Julfar' ADI yazılı kaynaklarda daha erken geçer (j1: 'Historical sources first mention it in the early tenth century (Tabari)', 7. yy olayları hakkında; Makdisî, İdrisî, Yâkūt 8.-13. yy) ama bu anılışlar bugünkü Julfar (Mataf/Nudud) yerleşimi için KANITLANAMAZ: makale 'Some kind of centre was previously located at the nearby mounded site of Kush' der — Kush (Sasani sonu-13. yy) atlas noktasından > 3 km. Kural gereği yeri kesin olmayan ad eşitlemesi başlangıç sayılmadı; arkeolojik tarih esas alındı."
+  },
+  "kur": null,
+  "ark": {
+   "t": "1350-01-01",
+   "gun": "14. yüzyılın başı-ortası",
+   "kesinlik": "yuzyil",
+   "kaynak": "R. A. Carter, B. Zhao, K. Lane & C. Velde, 'The rise and ruin of a medieval port town: A reconsideration of the development of Julfar', Arabian Archaeology and Epigraphy (2020), DOI 10.1111/aae.12162 (https://discovery.ucl.ac.uk/10114859/1/aae.12162.pdf)",
+   "tanik": "from the early or mid-fourteenth century, with the building of the Mudbrick Town"
+  },
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1350-01-01",
+    "gun": "14. yüzyılın başı-ortası",
+    "k": "kurulus",
+    "b": "Al-Nudud'da Çamur Tuğla Şehir (Mudbrick Town) ile en eski kentsel Julfar; kentin yaratıcı çekirdeği Mataf-Nudud kıyı ağzının iki yakası.",
+    "kaynak": "R. A. Carter, B. Zhao, K. Lane & C. Velde, 'The rise and ruin of a medieval port town: A reconsideration of the development of Julfar', Arabian Archaeology and Epigraphy (2020), DOI 10.1111/aae.12162 (https://discovery.ucl.ac.uk/10114859/1/aae.12162.pdf)",
+    "tanik": "from the early or mid-fourteenth century, with the building of the Mudbrick Town"
+   },
+   {
+    "t": "0933-01-01",
+    "gun": "10. yüzyıl başı (Taberî)",
+    "k": "diger",
+    "b": "'Julfar' adının ilk yazılı anılışı (Taberî, 7. yy olayları hakkında) — yer eşitlemesi (Kush mı Julfar mı) belirsiz.",
+    "kaynak": "R. A. Carter, B. Zhao, K. Lane & C. Velde, 'The rise and ruin of a medieval port town: A reconsideration of the development of Julfar', Arabian Archaeology and Epigraphy (2020), DOI 10.1111/aae.12162 (https://discovery.ucl.ac.uk/10114859/1/aae.12162.pdf)",
+    "tanik": "Historical sources first mention it in the early tenth century (Tabari)"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas 'Ras el-Hayme (Cülfâr)' noktasını 1281-01-01'den 'nebhani' gösteriyor; kentsel Julfar arkeolojik olarak ancak ~14. yy başı-ortasında doğuyor (Carter vd. 2020). Ayrıca Floor (İranica Hormuz ii): 'Jolfār (present-day Raʾs al-Ḵayma) was tributary to Hormuz.' (Barbosa'ya atfen) — Hürmüz Sultanlığı'nın tâbisi; atlasta nebhani yazılıdır. Zincir BOŞ bırakıldı (ilk.t atlas başlangıcından sonra — denetim uyarısı beklenir). Ayrı kayıt önerisi: 'Kush' (Şimal, Sasani sonu-13. yy; Carter vd.: 'between the late Sasanian period and the thirteenth century'). Erişim: UCL discovery PDF (açık erişim) açıldı; İranica 'Hormuz ii' açıldı; TDV'de 'Cülfâr' ayrı madde yok (arama: 'İbn Mâcid', 'Çadır' vb. içinde geçiyor)."
+ },
+ {
   "id": "rennes",
   "ad": "Rennes",
   "atlas_ad": "Rennes",
@@ -18830,6 +19754,85 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Çift teyit (olgu: Albert kurdu, 1201/1200): Zirne & Lūsēna 2025 + Brundage 1961. Henry'nin kendi Latince/İngilizce metninde kuruluş cümlesi OCR'dan çıkarılamadı (yalnız çevirmenin girişi okundu). VLE (vle.lt) 403, vestnesis.lv ve Riga City Museum açılamadı. Kuruluş öncesi sahip: Liv kabile yerleşimi, künye yok → zincir kuruluşta başlar."
+ },
+ {
+  "id": "riyad",
+  "ad": "Riyad",
+  "atlas_ad": "Riyad",
+  "lat": 24.713,
+  "lon": 46.675,
+  "kat1900": 1,
+  "adlar": [
+   "Hacr (Hajr al-Yamama; Yemâme merkezi)",
+   "Riyad (Riyadh)"
+  ],
+  "ilk": {
+   "t": "1639-05-04",
+   "gun": "1049 H / 1639",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Riyadh Municipality (Hamad Al-Jasser'e atfen, İbn Bişr'i aktarır), https://www.alriyadh.gov.sa/en/about-alriyadh",
+   "tanik": "In the year 1049 AH / 1639 CE, the judge of Riyadh passed away.",
+   "ic_not": "Riyad ADININ ilk anılışı: İbn Bişr (Unvânü'l-mecd) 1049/1639'da 'Riyad kadısının ölümü'nü yazar (Riyad Belediyesi, Hamad el-Casir'e atfen). 1049 H 1639-05-04'te başlar (tablo takvimi) ∩ 1639 → 1639-05-04. NOT: TDV 'Yemâme': 'XVII. yüzyılda eski Hacr şehrinin kalıntıları üzerine Riyad kuruldu' ve TDV 'Riyad': 'Eski Hacrülyemâme şehrinin kalıntıları üzerine kurulan Riyad’ın sürekli bir yerleşim merkezi' — yani Hacr aynı mevkide (Riyad Belediyesi: Hacr 'Riyad'ın küçük bir kısmı ve bir kuyu' olarak yaşadı). Hacr (Yemâme merkezi) için TDV'deki en eski TARİHLİ tanık 'Hacr valiliğine tayin edilen Sümâme ... (8/630)' (Hacr valiliğine tayin edilen Sümâme, Hevze el-Hanefî’nin ölümünün (8/630) ardından Yemâme hâkimi oldu.), ve 12/633 Akrabâ savaşı: ayrı kayıt olarak Hacr'ı Riyad'ın öncülü sayıp zinciri 630'a götürmek Emre kararıdır; yer eşitlemesi (Hacr = atlas noktası) 3 km kuralı gereği DOĞRULANMADI → başlangıç 1639 alındı. Hacr zinciri (Hanife, Râşidîn, Emevî-Necedât 61/680-72/691, Ühaydırî 3./9. yy ortası, Karmatî 4./10. yy, Zeydî emirleri 11. yy Nâsır-ı Hüsrev, İbn Battûta 732/1332) ayrı kaydın konusudur."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1639-05-04",
+    "t": "1688-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Riyad', https://islamansiklopedisi.org.tr/riyad",
+    "tanik": "In the year 1049 AH / 1639 CE, the judge of Riyadh passed away.",
+    "ic_not": "1639-1688 Riyad sahibi kaynakta bulunamadı: TDV 'Riyad' XVII. yy ikinci yarısına dek Osmanlı'nın Lahsâ beylerbeyileri yerine Benî Hâlid'in 'devlet adına hüküm sürmesi' ilkesini anar (Riyad'a özel değil). Atlas kararı (CLAUDE.md §3): 'Necid 1744 öncesi devletsiz' ile uyumlu."
+   },
+   {
+    "f": "1688-01-01",
+    "t": "1744-01-01",
+    "d": "ebu-zera",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Riyad', https://islamansiklopedisi.org.tr/riyad",
+    "tanik": "Riyad ise 1099’dan (1688) itibaren Benî Hanîfe’den Ebû Zer‘a ailesinin yönetimindeydi.",
+    "ic_not": "Benî Hanîfe'den Ebû Zer‘a ailesi emirliği (Riyad emirliği). f: 1099 H (1687-11-07 başlar) ∩ 1688 → 1688-01-01. t: ATLAS başlangıcı; TDV Riyad'ın Suûdîlere geçişini 1746-1773 arasına koyar, atlas 1744-01-01 diyor (bkz. dikis_beyan). Dir‘iye 1136/1724 (ya da 1139/1727) Suûdîlerin oldu (TDV).",
+    "kunye_yok": true
+   }
+  ],
+  "dikis_beyan": "Atlas Riyad'ı 1744-01-01'den 'suud' gösteriyor; TDV 'Riyad': 'Dir‘iye Emirliği 1136 (1724) (veya 1139/1727) yılında Suûdîler’in eline geçti', Riyad ise Ebû Zer‘a emirliğindeydi (1688'den), 1746-1773 arası 35 çatışmanın sonunda Suûdîlerin oldu ('Riyad Suûdîler’in eline geçti', 1773). ATLAS DÜZELTME ÖNERİSİ: Riyad'ın suud dönemi 1744 değil ~1773 (yıl hassasiyeti: 1746-1773 aralığı, son uç 1773); 1744-1773 Ebû Zer‘a (Dehhâm b. Devvâs). 1744 tarihi için tanık bulunamadı.",
+  "olay": [
+   {
+    "t": "1639-05-04",
+    "gun": "1049 H / 1639",
+    "k": "diger",
+    "b": "Riyad adının İbn Bişr'de ilk anılışı: 'Riyad kadısı vefat etti'.",
+    "kaynak": "Riyadh Municipality (Hamad Al-Jasser'e atfen, İbn Bişr'i aktarır), https://www.alriyadh.gov.sa/en/about-alriyadh",
+    "tanik": "In the year 1049 AH / 1639 CE, the judge of Riyadh passed away."
+   },
+   {
+    "t": "1688-01-01",
+    "gun": "1099 H / 1688",
+    "k": "idari",
+    "b": "Riyad Benî Hanîfe'den Ebû Zer‘a ailesinin yönetimine girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Riyad', https://islamansiklopedisi.org.tr/riyad",
+    "tanik": "Riyad ise 1099’dan (1688) itibaren Benî Hanîfe’den Ebû Zer‘a ailesinin yönetimindeydi."
+   },
+   {
+    "t": "1724-01-01",
+    "gun": "1136 H / 1724 (veya 1139/1727)",
+    "k": "fetih",
+    "b": "Riyad'ın yakınındaki Dir‘iye Emirliği Suûdîlerin eline geçer (Riyad değil).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Riyad', https://islamansiklopedisi.org.tr/riyad",
+    "tanik": "Riyad’ın yakınında bulunan Dir‘iye Emirliği 1136 (1724) (veya 1139/1727) yılında Suûdîler’in eline geçti."
+   }
+  ],
+  "ic_not": "KAYNAK: TDV 'Riyad' ve 'Yemâme' (açıldı), Riyad Belediyesi sayfası (İbn Bişr alıntısı). Akademik ikinci kaynak (Facey, Riyadh: the Old City, 1992; EI2 'Riyāḍ') AÇILAMADI. Çelişki yok. Hacr önceki yerleşimi için bkz. ilk.ic_not."
  },
  {
   "id": "ryazan",
@@ -20429,6 +21432,258 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "KAYNAK: TDV Simnân + Iranica DĀMḠĀN (C. Adle; Semnān için ayrı madde yok) + TDV Selçuklular. 1040-1221 arası Simnân'a özgü sahiplik tanığı bulunamadı. Simnân atlasta 1221 Moğol ile başlar; kayıt Moğol alışına dikişlidir (BOSLUK → mogol-imparatorlugu, olay 618/1221). Atlas öneri: 1221-01-01 yıl düzeyinde TDV 618 (1221) ile uyumlu."
+ },
+ {
+  "id": "sircan",
+  "ad": "Sircân",
+  "atlas_ad": "Sircân",
+  "lat": 29.45,
+  "lon": 55.68,
+  "kat1900": 2,
+  "adlar": [
+   "Sirjān (Sīrjān)",
+   "Sircân"
+  ],
+  "ilk": {
+   "t": "0644-01-01",
+   "gun": "644 (Ömer halifeliği, 634-644)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+   "tanik": "He conquered Sirjān and made a peace treaty with the people of Bam",
+   "ic_not": "Ömer halifeliği 13-23 H / 634-644 aralığı verir; ilk anılış için aralığın SON ucu (644) alındı. Fetih günü kaynakta yok. İranica ayrıca Sircân'ın 'Sasani devrinde de Kirman'ın başlıca kenti olduğunu' söyler (Q: 'Its chief town in the author’s time was Sirjān, as it had been in Sasanian times'; Armenian geography, 8. yy ikinci yarı) — Sasani varlığına YIL/GÜN veren tanık bulunamadı, bu yüzden zincir 644'ten başlar, Sasani dönemi (224-651) yazılmadı; ilk iskân/kuruluş tarihi bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0644-01-01",
+    "t": "0661-07-01",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest; TDV İslâm Ansiklopedisi, 'Emevîler', https://islamansiklopedisi.org.tr/emeviler",
+    "tanik": "He conquered Sirjān and made a peace treaty with the people of Bam",
+    "ic_not": "Kirman eyaleti düzeyinde kanıt (Sircân eyaletin başkenti: İranica 'continued to be its capital till the 4th/10th century'). Fetih Ömer devrinde; Osman devrinde Ya‘kūbî'ye göre Abdurrahman b. Semure seferi (haraç 2 milyon dirhem + 2000 köle) — Kirman'ın kesin teslimi uzun sürdü (İranica: 'The difficult terrain clearly made the conquest an arduous one'). t: künye geçişi Emevî, ay hassasiyeti."
+   },
+   {
+    "f": "0661-07-01",
+    "t": "0750-08-01",
+    "d": "emevi",
+    "kesinlik": {
+     "f": "ay",
+     "t": "ay"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest; TDV İslâm Ansiklopedisi, 'Emevîler', https://islamansiklopedisi.org.tr/emeviler; TDV İslâm Ansiklopedisi, 'Abbâsîler', https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "The Omayyads regained control of the province and held it until the ʿAbbasid Revolution.",
+    "ic_not": "Kirman düzeyi. Hâricî Katarî b. Füce'e Ciruft merkezli isyan (75/694) ve Abdullah b. Mu‘âviye (128-29/745-46) geçici kesintileri olay değil dönem sayılmadı (İranica: 'The Omayyads regained control'). f: TDV Emevîler 'Temmuz 661' (ay); künye f 661-07-29 (28 gün fark, pencere içinde). t: TDV Abbâsîler 'Ağustos 750' (Mervân öldürüldü, gün yok)."
+   },
+   {
+    "f": "0750-08-01",
+    "t": "0869-01-01",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest; TDV İslâm Ansiklopedisi, 'Abbâsîler', https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "In early ʿAbbasid times, governors were specially appointed for Kerman",
+    "ic_not": "Abbâsî valileri; Tâhirîler (205-59/821-73) devrinde Kirman 'Horasan'ın idarî bağımlısı sayıldı' (İranica) — Tâhirî dönemi AYRI dönem açılmadı (fiilî değil nominal bağlılık; İranica 'In practice, communications ... were difficult'). t: Saffârî genişlemesi 255/869."
+   },
+   {
+    "f": "0869-01-01",
+    "t": "0910-09-09",
+    "d": "saffari",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "retained by the Saffarids or their commanders until the time of the fifth Saffarid amir",
+    "ic_not": "f: 255 H (868-12-20 başlar) ∩ 869 → 869-01-01 (yıl). t: 298 H ∩ 910-11 → kesişimin ilk günü 910-09-09 (tablo takvimi, Jülyen); İranica 'Saffarids or their commanders until the time of the fifth Saffarid amir (298/910-11)'. Dönem sonu sahipliği belirsizdir (Saffârîlerin kendisi mi komutanları mı)."
+   },
+   {
+    "f": "0910-09-09",
+    "t": "0932-01-13",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "Kerman was restored only briefly to caliphate control, for in 320 / 932 it fell",
+    "ic_not": "İranica: 'Kerman was restored only briefly to caliphate control' — süre tanıkta yok; f ve t komşu tanıklardan (910-09-09 Saffârî sonu, 932-01-13 = 320 H'nin 1. günü)."
+   },
+   {
+    "f": "0932-01-13",
+    "t": "0968-01-01",
+    "d": "samani",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "Kerman was restored only briefly to caliphate control, for in 320 / 932 it fell",
+    "ic_not": "Yerel komutan Muhammed b. Elyâs fiilen bağımsız, halifeden doğrudan icâzet alır, Sâmânîlere 'nominal bağlılık' (İranica) — BEYANLI YAKLAŞIKLIK: Elyâsîler (Ål-i Elyâs) ayrı künye değil, Sâmânî künyesine bağlandı. ~30 yıl hüküm sürdü, oğulları dönemi çöktü. t: Adudüddevle işgali 357/968."
+   },
+   {
+    "f": "0968-01-01",
+    "t": "1048-06-16",
+    "d": "buveyhi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "invaded Kerman in 357/968",
+    "ic_not": "f: 357 H (967-12-07 başlar) ∩ 968 → 968-01-01. t: 440 H'nin 1. günü (1048-06-16, kaynak '440/1048-49'; Büveyhî emîrinin ölümünden kısa süre önce); gün seçimi kesişimin ilk günü kuralı, tablo takvimi."
+   },
+   {
+    "f": "1048-06-16",
+    "t": "1186-03-24",
+    "d": "kirman-selcuklu",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "shortly before the Buyid amir’s death in 440/1048-49, Kerman passed definitively into Qāvord’s hands",
+    "ic_not": "Künye f 1048-01-01 / t 1187-01-01. f: 440 H ilk günü. t: Malik Dinâr'ın iktidarı '582-91/1186-95' (582 H ilk günü 1186-03-24); aynı makale başka yerde Turanşah II'nin Kirman'ı Oğuz lideri Malik Dinâr'a ca. 584/1188'de bıraktığını yazar — iki uç ('582' ve '584/1188') beyan edilir, erken olan alındı. Oğuz istilâsı Turanşah II döneminde (572-ca.579/1177-1183) başlamıştı."
+   },
+   {
+    "f": "1186-03-24",
+    "t": "1213-05-23",
+    "d": "kirman-oguz",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "Malek Dinār (r. 582-91/1186-95)",
+    "ic_not": "Oğuz beyi Malik Dinâr (r. 582-91/1186-95) ve ardıllar. İranica: 597/1200'de Şebânkâre amirleri Berdesîr'i kısa süre aldı, 600/1203'te Fars atabegi Sa‘d b. Zengî müdahale etti — kısa kesintiler dönem açılmadı. Künye yok: önerilen id 'kirman-oguz' (Kirman Oğuzları, 1186-1213; kaynak İranica Kerman v).",
+    "kunye_yok": true
+   },
+   {
+    "f": "1213-05-23",
+    "t": "1222-02-15",
+    "d": "harezmsahlar",
+    "kesinlik": {
+     "f": "gun",
+     "t": "gun"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "Moʾayyed-al-Molk seized power in 610/1213 at Jiroft, Bam, and Bardsir",
+    "ic_not": "Hârezmşâh Alâeddin Muhammed b. Tekiş adına Mü'eyyidülmülk (610/1213). Künye yok: önerilen id 'harezmsahlar' (Büyük Hârezmşâhlar, ~1077-1231 — künye ömrü kaynaklı doğrulanmadı, açılırken teyit edilmeli). t: Berâk Hâcib 619/1222.",
+    "kunye_yok": true
+   },
+   {
+    "f": "1222-02-15",
+    "t": "1281-01-01",
+    "d": "kutlughanli",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "in 619/1222, Amir Barāq Ḥājeb",
+    "ic_not": "Künye f 1222-01-01 / t 1306-01-01. f: 619 H ilk günü 1222-02-15. Atlas Sircân'ı 1281-01-01'de İlhanlı gösterir; İranica Kutluğhanlıların 'Moğol hâkimiyeti altında' ~bir yüzyıl sürdüğünü yazar (Q: 'which endured, under Mongol suzerainty, for almost a century') — atlas başlangıcı ile dikiş için bkz. dikis_beyan."
+   }
+  ],
+  "dikis_beyan": "Atlas Sircân'ı 1281-01-01'de İlhanlı'ya veriyor; Kirman'da 1281 civarı el değiştirme/olay tanığı bulunamadı (İranica Kirman v. Kutluğhanlıları Moğol egemenliği altında ~1 yüzyıl sürdürür, 1222 sonrası). Zincir bu yüzden son dönemi Kutluğhanlı olarak 1281-01-01'de keser; İlhanlı üst egemenliğinin başlangıcı için ayrı kaynak (Hülâgû/Abaka dönemi Kirman) aranmalı.",
+  "olay": [
+   {
+    "t": "0644-01-01",
+    "gun": "644 (Ömer dönemi, 634-644)",
+    "k": "fetih",
+    "b": "Ebû Mûsâ el-Eş‘arî'nin gönderdiği Rebî‘ b. Ziyâd Sircân'ı fetheder, Bam halkıyla barış yapar (Ömer halifeliği).",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "He conquered Sirjān and made a peace treaty with the people of Bam"
+   },
+   {
+    "t": "0661-07-01",
+    "gun": "Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (Muâviye bütün İslâm dünyasının hâkimi olur).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Emevîler', https://islamansiklopedisi.org.tr/emeviler",
+    "tanik": "41 yılı Rebîülevvel ayının sonlarında (Temmuz 661) İslâm dünyasının tamamını hâkimiyeti altına aldı"
+   },
+   {
+    "t": "0750-08-01",
+    "gun": "Ağustos 750",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (II. Mervân Ağustos 750'de öldürülür, Emevî hilâfeti sona erer).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Abbâsîler', https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "Ağustos 750’de cereyan eden çarpışmada Mervân öldürüldü."
+   },
+   {
+    "t": "0869-01-01",
+    "gun": "255 H / 869",
+    "k": "fetih",
+    "b": "Saffârî Ya‘kūb b. Leys Sistan'dan Kirman ve Fars'a genişler.",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "In the mid-3rd/9th century, Kerman and Fārs were incorporated into the vast military empire"
+   },
+   {
+    "t": "0910-09-09",
+    "gun": "298 H / 910-11",
+    "k": "diger",
+    "b": "Kirman'ın Saffârî ya da komutanlarınca elde tutulması 5. Saffârî emîri Muhammed b. Ali b. Leys'e (298/910-11) kadar sürer; Kirman kısa süre halife denetimine döner.",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "retained by the Saffarids or their commanders until the time of the fifth Saffarid amir"
+   },
+   {
+    "t": "0932-01-13",
+    "gun": "320 H / 932",
+    "k": "idari",
+    "b": "Kirman, Sâmânîlerin yerel komutanı Muhammed b. Elyâs'ın (Ål-i Elyâs) denetimine girer.",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "Kerman was restored only briefly to caliphate control, for in 320 / 932 it fell"
+   },
+   {
+    "t": "0968-01-01",
+    "gun": "357 H / 968",
+    "k": "fetih",
+    "b": "Büveyhî emîri Adudüddevle Kirman'ı işgal eder; 80 yıl sürecek Büveyhî hâkimiyeti başlar.",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "invaded Kerman in 357/968"
+   },
+   {
+    "t": "1048-06-16",
+    "gun": "440 H / 1048-49",
+    "k": "fetih",
+    "b": "Kirman, Büveyhî emîrinin ölümünden kısa süre önce kesin olarak Selçuklu Kavurd'un eline geçer (Kirman Selçukluları).",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "shortly before the Buyid amir’s death in 440/1048-49, Kerman passed definitively into Qāvord’s hands"
+   },
+   {
+    "t": "1186-03-24",
+    "gun": "582 H / 1186",
+    "k": "taht",
+    "b": "Oğuz lideri Malik Dinâr Kirman'da iktidarı alır (r. 582-91/1186-95); Kirman Selçuklu hânedanı sona erer.",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "Malek Dinār (r. 582-91/1186-95)"
+   },
+   {
+    "t": "1213-05-23",
+    "gun": "610 H / 1213",
+    "k": "fetih",
+    "b": "Hârezmşâh amiri Mü'eyyidülmülk Ciruft, Bam ve Berdesîr'de Alâeddin Muhammed Hârezmşâh adına iktidarı ele geçirir.",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "Moʾayyed-al-Molk seized power in 610/1213 at Jiroft, Bam, and Bardsir"
+   },
+   {
+    "t": "1222-02-15",
+    "gun": "619 H / 1222",
+    "k": "idari",
+    "b": "Berâk Hâcib Kirman'da yerleşir, Kutluğhanlı hânedanını kurar.",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "in 619/1222, Amir Barāq Ḥājeb"
+   }
+  ],
+  "ic_not": "SONUÇ: Sircân adının bilinen en eski yazılı tanığı bu oturumda İranica Kerman v. içindeki Ömer devri fethidir (634-644, güvenli uç 644). Sasani dönemi varlığı (İranica/Ermeni coğrafyası) tarihsiz — yazılmadı. KAYNAK ERİŞİMİ: Iranica (tam Chrome UA ile curl) AÇILDI; 'SIRJAN' için ayrı İranica maddesi bulunamadı (slug 404); iic.ihss.ac.ir (Farsça hakemli makale: 'Spatial Developments of Sirjan During Islamic Period') açıldı — eski Sircân'ın Selçuklu sonunda terk edilip Kal‘a-yi Seng'e kaydığını söyler (ayrı kayıt/yer değişimi önerisi: Şehr-i Kadîm ↔ Kal‘a-yi Seng). Zincir Kirman eyaleti düzeyindedir (Sircân eyalet başkenti 10. yy'a dek). TDV'de ayrı 'Sircân' maddesi yok (arama: madde içeriklerinde geçiyor)."
  },
  {
   "id": "sivasagar-rangpur",
@@ -24981,6 +26236,192 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK (kural): ilk.t atlasın başlangıcıyla (1646-01-01) aynı/sonra ⇒ 1281 öncesi sahip YAZILMADI. 1281 ÖNCESİ DURUM: Yeni Ürgenç noktasında bu oturumda yerleşim tanığı bulunamadı (TDV, EI1, Barthold, Hudud, Le Strange). ATLAS DÜZELTME ÖNERİSİ: atlas kur:1646 (kaynaksız yıl) → \"1645 sonrası\" aralığı; 1646-01-01 yerine kesin yıl için Bregel / Hîve Hanlığı tarihçileri (Munis-Agahi) gerekir."
+ },
+ {
+  "id": "yezd",
+  "ad": "Yezd",
+  "atlas_ad": "Yezd",
+  "lat": 31.9,
+  "lon": 54.37,
+  "kat1900": 2,
+  "adlar": [
+   "Kese / Katha (Kathah)",
+   "Yezd (Yazd)"
+  ],
+  "ilk": {
+   "t": "0656-01-01",
+   "gun": "656 (Osman halifeliği, 644-656)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd",
+   "tanik": "Yezd, Hz. Osman devrinde fethedilince halkı İslâm dinini kabul etmeye başladı",
+   "ic_not": "TDV: Osman halifeliği 23-35 H / 644-656; ilk anılış için aralığın SON ucu (656). Kuruluş tarihi bulunamadı: TDV 'İskender tarafından bir kale ve hapishane olarak kurulduğu rivayet edilir' (Ahmed b. Hüseyin Kâtib) — GELENEK, yazılmadı; EI2 'Yazd': 'Details of the pre-Islamic history of Yazd are sparse' (+ eski adı Katha/Kese). Yezd'in Sasani devrinde kurulduğu iddiası (üçüncü sınıf web) KULLANILMADI."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0656-01-01",
+    "t": "0661-07-01",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": {
+     "f": "yil",
+     "t": "ay"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd; TDV İslâm Ansiklopedisi, 'Emevîler', https://islamansiklopedisi.org.tr/emeviler",
+    "tanik": "Yezd, Hz. Osman devrinde fethedilince halkı İslâm dinini kabul etmeye başladı",
+    "ic_not": "EI2 'Yazd': Osman halifeliği boyunca Ömer b. Mugîre'nin vali atandığı ve Temîm'den kişilerin yerleştirildiği 'alleged' (iddia edilir) — kaynağın kendisi (Ahmed b. Hüseyin Kâtib) geç ve kronolojisi güvenilmez."
+   },
+   {
+    "f": "0661-07-01",
+    "t": "0750-08-01",
+    "d": "emevi",
+    "kesinlik": {
+     "f": "ay",
+     "t": "ay"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd; TDV İslâm Ansiklopedisi, 'Emevîler', https://islamansiklopedisi.org.tr/emeviler",
+    "tanik": "41 yılı Rebîülevvel ayının sonlarında (Temmuz 661) İslâm dünyasının tamamını hâkimiyeti altına aldı",
+    "ic_not": "TDV: 'Emevîler devrinde Fars’a bağlanan Yezd vilâyeti'; son Emevî Yezd valisi Abbâsî ihtilâli sırasında öldürülür. f ve t gün tanığı yok (Temmuz 661 / Ağustos 750 genel hilâfet geçişi)."
+   },
+   {
+    "f": "0750-08-01",
+    "t": "0869-01-01",
+    "d": "abbasi",
+    "kesinlik": {
+     "f": "ay",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd; EI2 'Yazd' (bahai-library.com/pdf/e/encyclopedia_islam_yazd.pdf)",
+    "tanik": "Abbâsî ihtilâli sırasında öldürülünce şehir Abbâsîler’in idaresi altına girmiş oldu",
+    "ic_not": "EI2: 'Little, however, is known of the history of Yazd under the early ʿAbbasids' — dönem kaynağı zayıf (hükümsüz sahip değil, bölgenin sahibi). Yezd Abbâsî döneminin ilk yüzyıllarında Fars'ın İstahr bölgesine bağlıydı (EI2). t: Saffârî genişlemesi."
+   },
+   {
+    "f": "0869-01-01",
+    "t": "0910-09-09",
+    "d": "saffari",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest; EI2 'Yazd'",
+    "tanik": "retained by the Saffarids or their commanders until the time of the fifth Saffarid amir",
+    "ic_not": "BEYANLI YAKLAŞIKLIK (bölge düzeyi çıkarım): İranica Fars ve Kirman'ın Saffârîlere katıldığını yazar; Yezd EI2'ye göre Fars/İstahr'a bağlı → Saffârî. Yezd'e özel tanık bulunamadı."
+   },
+   {
+    "f": "0910-09-09",
+    "t": "1030-01-09",
+    "d": "__BOSLUK__",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd",
+    "tanik": "Uzun, karışık ve karanlık bir dönemin ardından",
+    "ic_not": "Yezd'in 910-1030 sahibi kaynakta bulunamadı: TDV 'Uzun, karışık ve karanlık bir dönemin ardından Kâkûyî ...'; EI2: 'it is not until the Saldjuk period that more detail is available'. Ibn Havkal (10. yy ortası) Yezd'i iki demir kapılı bir kale-şehir olarak anlatır (EI2) ama sahip vermez. Fars'ın Büveyhî (934+) olması muhtemel — ÇIKARIM yazılmadı (Büveyhî/Elyâsî zincirine bağlı Yezd tanığı yok). Abi merkez adayı: Şîraz (Fars)."
+   },
+   {
+    "f": "1030-01-09",
+    "t": "1177-01-01",
+    "d": "kakuyi",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd; S. C. Fairbanks, 'ATĀBAKĀN-E YAZD', Encyclopaedia Iranica II/8 (1987), https://www.iranicaonline.org/articles/atabakan-e-yazd",
+    "tanik": "Yezd’i ele geçirerek kendi adına para bastırdı (421/1030)",
+    "ic_not": "f: 421 H ∩ 1030 → 1030-01-09. Künye kakuyi f 1007-01-01 / t 1141-01-01: t 1141'de Gerşâsb ölür; erkek vâris yok, kızları 'Yezd'i idare ediyor' (TDV, Arslanşah devri) ve atabeg ataması ancak 1161-1177 (TDV) / 556-571 H = 1161-1176 (İranica) arasında → dönem 'en geç tanıktan' 1177-01-01'e uzatıldı (36 yıl, ≤ 1 kuşak): KÜNYE GENİŞLET önerisi (kakuyi t 1141 → 1177) ya da yezd-atabegligi f=1141 künyesi düzeltilmeli (hayalet uyarısı beklenir). Bir ara Kirman Selçukluları da Yezd'e sahip oldu (TDV, tarihsiz) — dönem açılmadı."
+   },
+   {
+    "f": "1177-01-01",
+    "t": "1281-01-01",
+    "d": "yezd-atabegligi",
+    "kesinlik": {
+     "f": "yil",
+     "t": "yil"
+    },
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd; S. C. Fairbanks, 'ATĀBAKĀN-E YAZD', Encyclopaedia Iranica II/8 (1987), https://www.iranicaonline.org/articles/atabakan-e-yazd",
+    "tanik": "Daha sonra Rükneddin Sâm b. Lenger atabeg tayin edilip",
+    "ic_not": "f: 'en geç' tanık: Sâm'ın ataması Arslanşah b. Tuğrul'un hükümdarlığı (TDV 1161-1177; İranica 556-71/1161-1176) içinde; üst uç 1177. t: atlas başlangıcı (İlhanlı 1281-01-01). Yezd Atabegleri 1318'e dek sürdü (TDV: 'Yezd Atabegleri hânedanı Hacı Şah döneminde 718’de (1318) Muzafferîler tarafından yıkıldı'); İlhanlılar'a tâbi (TDV: 'Hülâgû ... onu yerinde bıraktı'; İranica: 'tributaries to the Saljuqs and Il-khans')."
+   }
+  ],
+  "dikis_beyan": "Atlas Yezd'i 1281-01-01'de İlhanlı'ya veriyor; TDV ve İranica Yezd Atabegleri'ni 1318'e dek İlhanlı vassalı olarak gösterir (Salgurşah'ın Hülâgû'ya itaati tarihsiz). 1281'de el değiştirme tanığı bulunamadı → ATLAS DÜZELTME ÖNERİSİ: 1281-1318 Yezd Atabegleri (İlhanlı tâbi) olarak çizilmeli ya da İlhanlı 'v:' (vassal) yazılmalı.",
+  "olay": [
+   {
+    "t": "0656-01-01",
+    "gun": "656 (Osman dönemi, 644-656)",
+    "k": "fetih",
+    "b": "Yezd Osman devrinde fethedilir; halk İslâm'ı kabul etmeye başlar, Temîm'den bir grup yerleştirilir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd",
+    "tanik": "Yezd, Hz. Osman devrinde fethedilince halkı İslâm dinini kabul etmeye başladı"
+   },
+   {
+    "t": "0661-07-01",
+    "gun": "Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Emevîler', https://islamansiklopedisi.org.tr/emeviler",
+    "tanik": "41 yılı Rebîülevvel ayının sonlarında (Temmuz 661) İslâm dünyasının tamamını hâkimiyeti altına aldı"
+   },
+   {
+    "t": "0750-08-01",
+    "gun": "Ağustos 750",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî; son Emevî Yezd valisi Ebü'l-Alâ et-Tevkī öldürülür.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd; TDV İslâm Ansiklopedisi, 'Abbâsîler', https://islamansiklopedisi.org.tr/abbasiler",
+    "tanik": "Abbâsî ihtilâli sırasında öldürülünce şehir Abbâsîler’in idaresi altına girmiş oldu"
+   },
+   {
+    "t": "0869-01-01",
+    "gun": "255 H / 869",
+    "k": "fetih",
+    "b": "Saffârî Ya‘kūb b. Leys Kirman ve Fars'a genişler (Yezd Fars/İstahr bölgesinde).",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "In the mid-3rd/9th century, Kerman and Fārs were incorporated into the vast military empire"
+   },
+   {
+    "t": "0910-09-09",
+    "gun": "298 H / 910-11",
+    "k": "diger",
+    "b": "Fars ve Kirman'ın Saffârîlerde ya da komutanlarında kalışı 5. Saffârî emîrine (298/910-11) kadar sürer; sonrası Yezd için tanık yok.",
+    "kaynak": "C. E. Bosworth, 'KERMAN v. History from the Islamic Conquest to the Coming of the Mongols', Encyclopaedia Iranica XVI/3 (2017), https://www.iranicaonline.org/articles/kerman-05-islamic-conquest",
+    "tanik": "retained by the Saffarids or their commanders until the time of the fifth Saffarid amir"
+   },
+   {
+    "t": "1030-01-09",
+    "gun": "421 H / 1030",
+    "k": "fetih",
+    "b": "Kâkûyî Alâüddevle Muhammed b. Rüstem Düşmenziyâr Yezd'i ele geçirip kendi adına para bastırır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd",
+    "tanik": "Yezd’i ele geçirerek kendi adına para bastırdı (421/1030)"
+   },
+   {
+    "t": "1051-05-15",
+    "gun": "443 H / Mayıs-Haziran 1051",
+    "k": "idari",
+    "b": "Tuğrul Bey İsfahan'ı alınca Yezd ve Eberkûh Kâkûyî Ferâmurz'a iktâ edilir: Kâkûyî Selçuklu himayesinde sürer (dönem değişimi değil).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd",
+    "tanik": "Yezd ve Eberkûh şehirleri Ferâmurz’a iktâ edildi"
+   },
+   {
+    "t": "1141-08-06",
+    "gun": "536 H / 1141",
+    "k": "diger",
+    "b": "Kâkûyî Gerşâsb Katvân savaşında ölür, erkek vâris bırakmaz; iki kızı Yezd'i idare eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd; S. C. Fairbanks, 'ATĀBAKĀN-E YAZD', Encyclopaedia Iranica II/8 (1987), https://www.iranicaonline.org/articles/atabakan-e-yazd",
+    "tanik": "Katvân savaşında öldü (536/1141)"
+   },
+   {
+    "t": "1177-01-01",
+    "gun": "1161-1177",
+    "k": "idari",
+    "b": "Irak Selçuklu Sultanı Arslanşah b. Tuğrul devrinde Rükneddin Sâm b. Lenger Gerşâsb'ın kızlarına atabeg atanır: Yezd Atabegleri başlar (en geç 1177).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Yezd', https://islamansiklopedisi.org.tr/yezd; S. C. Fairbanks, 'ATĀBAKĀN-E YAZD', Encyclopaedia Iranica II/8 (1987), https://www.iranicaonline.org/articles/atabakan-e-yazd",
+    "tanik": "Irak Selçuklu Sultanı Arslanşah b. Tuğrul zamanında (1161-1177) Yezd’i Gerşâsb’ın iki kızı idare etmekteydi"
+   }
+  ],
+  "ic_not": "KAYNAK: TDV 'Yezd', İranica 'ATĀBAKĀN-E YAZD', EI2 'Yazd' (bahai-library.com PDF mirror'ı açıldı); İranica'nın 'YAZD' ana maddesi yalnızca başlık sayfasıdır (alt maddeler 404) — şehrin kuruluş/erken tarihi için birincil akademik ikinci tanık bulunamadı. ÇİFT TEYİT: Kâkûyî Yezd'i alışı 421/1030 — TDV ve EI2 (Bosworth, Iran 8, 1970 dirhem) aynı; Tuğrul'un Yezd'i Ferâmurz'a iktâsı 443/1051 — TDV ve EI2 aynı. Atabeg başlangıcı çelişkisi: İranica metni '556/1116-571/1176' yazar (556 H = 1161, '1116' bariz basım hatası), TDV 1161-1177."
  },
  {
   "id": "zadar",
