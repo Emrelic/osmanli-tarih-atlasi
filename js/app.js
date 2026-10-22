@@ -1620,7 +1620,10 @@ function dolguGuncelle(t) {
   if (!dolgular.length) return;
   var acik = true;
   try {
-    acik = harita.getLayoutProperty("dolgu-b-alan", "visibility") !== "none";
+    // Katman stil yüklenmeden önce yoktur; `getLayoutProperty` o hâlde konsola
+    // hata yazar (veri artık var olduğu için bu yola ilk kez giriliyor).
+    acik = !!harita.getLayer("dolgu-b-alan") &&
+           harita.getLayoutProperty("dolgu-b-alan", "visibility") !== "none";
   } catch (e) { acik = false; }
   if (!acik) { dolguImza = null; return; }
   var fs = [], imza = "";
@@ -1637,7 +1640,21 @@ function dolguGuncelle(t) {
     harita.getSource("dolgu").setData({ type: "FeatureCollection", features: fs });
   } catch (e) { /* kaynak henüz kurulmadı — stil geç yüklenebilir */ }
   var rozet = document.getElementById("kat-sayi-dolgu");
-  if (rozet) rozet.textContent = fs.length ? fs.length : "0";
+  if (rozet) {
+    rozet.textContent = fs.length ? fs.length : "0";
+    // 🔴 22 Ekim 2026 — dolgu YALNIZ üretildiği tarih aralığını kapsar (şimdilik
+    // 1281 öncesi). Kapsam dışında "0" yazmak "dolgu gerek yok" sanılırdı;
+    // oysa veri HENÜZ ÜRETİLMEDİ. Kapsamın sonunu veri söyler (azami `ti`).
+    var kapsamSon = 0, kapsamYazi = "";
+    for (var ki = 0; ki < dolgular.length; ki++) {
+      if (dolgular[ki].ti > kapsamSon) { kapsamSon = dolgular[ki].ti; kapsamYazi = dolgular[ki].t; }
+    }
+    if (!fs.length && t >= kapsamSon) {
+      rozet.textContent = "—";
+      rozet.title = "Bu tarih için dolgu henüz hazırlanmadı (şimdilik yalnız " +
+        kapsamYazi + " öncesi)";
+    } else { rozet.title = ""; }
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════════════
@@ -18920,6 +18937,11 @@ function katmanSeciciKur() {
       // ARAYUZ-0077 H-78:1 — veri yokken rozet KATMAN sayısını ("2") yazıp
       // yukarıdaki "—"yi eziyordu: ayar çalışıyormuş gibi görünüyordu.
       if (a === "dolgu" && !dolgular.length) say = null;
+      // 22 Ekim 2026: veri VARKEN de bu genel yazıcı rozeti ezmemeli — rozeti
+      // `dolguGuncelle` yönetir (aktif parça sayısı ya da "—: kapsam dışı").
+      // Aksi hâlde düğme açılınca kova uzunluğu ("2") yazılıp gerçek sayının
+      // yerine geçiyordu.
+      if (a === "dolgu") say = null;
       if (say) {
         say.textContent = (a === "yerlesim")
           ? document.querySelectorAll(".maplibregl-marker").length

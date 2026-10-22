@@ -169,3 +169,45 @@ Aynı 4 kesit: 1.094 sn (soğuk) · 155 · 122 · 370 sn (her biri bir komşu de
   `paylasim` cinsini kesit yerine dönem değişiminde hesapla) ve dar kesitle süre/görünüm farkını ölç;
   (2) HAVVA'da `MOTOR_DOLGU_TARIH_BAS`/`KESIT` ile dilim dilim (örn. 100 kesit) üretim, çıktıları birleştir
   ya da `py arac/dolgu.py` tam koşu, önbellek `_motor_onbellek/`; (3) boyut gerçekleşince yükleyici satırı.
+
+## 7 · 22 Ekim (öğleden sonra) — 1281 ÖNCESİ üretim, hızlandırma deneyi, tarih hatası, arayüz
+
+### 7.1 🔴 Tarih karşılaştırma hatası (bulundu, düzeltildi)
+`dolgu.py` ve kesit araçlarım tarihleri DİZGİ olarak sıralıyor/karşılaştırıyordu (`f <= a < t`,
+`sorted`). Negatif yılda bu TERS çıkar (`arac/gun.py` başlığı tam bunu yasaklıyor). Belirti:
+üretim logunda -9449 kesiti -9528'den ÖNCE işleniyordu; MÖ 3000 kesidinde gövde 5 sanılırken
+gerçekte **7**. Düzeltme: `_gk = lru_cache(gun.gun)`; sıralama ve bütün aralık/filtre
+karşılaştırmaları gün sayısıyla. ⚠️ Bu turdan ÖNCE yazdığım MÖ 3000 / MS 500 sayıları (§6.1)
+MÖ 3000 için GEÇERSİZDİR; yeni değerler: MÖ 3000 → 7 gövde · 21 parça · 238 bin km²;
+MÖ 499 → 5 gövde · 21 parça · 458 bin km² (MS 500 pozitif yıl olduğundan etkilenmedi).
+
+### 7.2 Çekişme hızlandırma deneyi (paylaşım nokta tavanı 400 → 100): OLUMSUZ
+| Kesit | Süre 400 | Süre 100 | Çekişme sn 400→100 | Dolgu km² 400→100 | Devlet başına simetrik fark |
+|---|---|---|---|---|---|
+| 1000 | 96 sn | 124 sn | 17 → 22 | 2.148.320 → 2.148.313 | 323 km² (%0,02) |
+| 1281 | 1.134 sn | 1.317 sn | 308 → 372 | 12.293.563 → 12.293.485 | 11.964 km² (%0,10) |
+Süre AZALMADI (gürültü içinde, hatta biraz arttı); alan farkı ihmal edilebilir (en büyük 4 fark
+Norveç/İsveç/Dene/İnuit ≈ 2.300–2.900 km²). Sonuç: darboğaz nokta sayısı DEĞİL; çekişmede
+`t.intersection(hj)` / `difference(union)` geometri işleri. Varsayılan 400 KALDI.
+
+### 7.3 1281 ÖNCESİ ÜRETİM (`py arac/dolgu.py`, MOTOR_DOLGU_TARIH_SON=1281-01-01)
+- **319 kesit** (MÖ 12000 → 1281-01-01 dışlayıcı) · toplam **3.777 sn (63 dk)** · kesit başına ek süre 11,6 sn
+- **RSS zirvesi 4,87 GB** (A yüklü dahil; tavan 6,5) · çıktı **3,04 MB** (3.918 kayıt, 3.572 halka)
+- Girdi: KOŞU 29 çıktısı, yalnız okundu. Önbellek geçici dizinde.
+- "Tenha erken devirler ucuz" öngörüsü DOĞRULANDI: 319 kesit 1 saatte bitti; 1281+ ise kesit
+  başına ~215 sn ⇒ ~2.688 kesit ≈ 160 saat (ayrı koşu, henüz yok).
+- Ek bulgu: 1281 öncesinde de enklav 10.092 "engellenen" adayı raporlandı (gerçek enklav ölçütü
+  henüz daraltılmadı — §5 OLCUM-0072; liste kullanılmamalı).
+
+### 7.4 Arayüz (yükleyici satırı eklendi)
+- `data/dolgu_once1281.js` (3,0 MB) + `index.html` yükleyici satırı (sürüm damgası `surum_damgala.py`).
+  Varsayılan ad alanı `window.DOLGU*`; 1281+ dosyası gelince adlar AYRILMALI (şimdilik tek dosya).
+- `js/app.js` `dolguGuncelle`: (a) `getLayer` kapısı (stil yüklenmeden `getLayoutProperty` konsola
+  hata yazıyordu — veri artık var olduğu için bu yola ilk kez girildi); (b) rozet: kapsam sonu
+  (azami `ti`) ve sonrası için "—" + ipucu "şimdilik yalnız <gün> öncesi" (yanılgı önleme);
+  (c) düğme açılırken genel katman-sayacı rozeti artık EZMİYOR.
+- **Tarayıcıda ölçülen:** 3.918 kayıt yüklendi; rozet 1000-01-01'de **141**, 1234-03-03'te **184**
+  (ikisi de veriyle birebir), 1281 ve sonrası 0.
+- 🔴 **ÖLÇÜLEMEDİ:** (b) "—" ipucunun ekranda görünmesi ve dolgunun haritadaki GÖRÜNTÜSÜ.
+  Yerel Browser bölmesi bu turda yanıt vermedi (sayfa ağır, bölme gizli; bir yüklemede
+  "forEach" hatası, nedeni ayrıştırılamadı). Yayın sonrası gözle bakılmalı.

@@ -11,7 +11,7 @@ if len(sys.argv) > 1 and sys.argv[1] == "--hazirla":
     ar, tar, d, y = dolgu._kesitler()
     canli = {}
     for ai, (f, t, kim, kaynak, idx) in enumerate(ar):
-        if f <= tarih < t:
+        if dolgu._gk(f) <= dolgu._gk(tarih) < dolgu._gk(t):
             canli.setdefault((kim, kaynak), [[], []])
             canli[(kim, kaynak)][0].extend(idx)
             canli[(kim, kaynak)][1].append(ai)

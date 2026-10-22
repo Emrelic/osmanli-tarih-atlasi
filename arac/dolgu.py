@@ -49,6 +49,9 @@ from shapely.ops import unary_union, voronoi_diagram
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import motor_onbellek as _mob        # noqa: E402
+import gun as _gun                       # noqa: E402 — TEK tarih otoritesi (dizge karşılaştırması YASAK)
+from functools import lru_cache as _lru       # noqa: E402
+_gk = _lru(maxsize=None)(_gun.gun)            # tarih dizgisi → gün sayısı (önbellekli)
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASEMAPS = os.path.join(KOK, "veri-kaynak")
@@ -1067,7 +1070,7 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0):
     """
     t0 = time.time()
     kara_hazir = KaraIndeks(kara) if kara is not None else None
-    tarihler = sorted({a[0] for a in araliklar})
+    tarihler = sorted({a[0] for a in araliklar}, key=_gk)
     if kesit_sinir:
         tarihler = tarihler[:kesit_sinir]
     havuz, kayitlar = Havuz(), []
@@ -1076,7 +1079,7 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0):
     for n, a in enumerate(tarihler, 1):
         # Önbellek anahtarı = aralık indeksi (bkz. `_TALEP_ONB` başlığı).
         govdeler = [(kim, g, _ai) for _ai, (f, t, kim, g)
-                    in enumerate(araliklar) if f <= a < t]
+                    in enumerate(araliklar) if _gk(f) <= _gk(a) < _gk(t)]
         parcalar, _rapor = kesit_dolgu(govdeler, kara, kara_hazir)
         bitis = tarihler[n] if n < len(tarihler) else "9999-12-31"
         yeni = [{"f": a, "t": bitis, "k": pc["kim"], "c": pc["cins"],
@@ -1198,7 +1201,7 @@ def _kesitler():
         for p in dev.get("dnm", []):
             if p.get("g"):
                 araliklar.append((p["f"], p["t"], dev["id"], "y", p["g"]))
-    tarihler = sorted({a[0] for a in araliklar})
+    tarihler = sorted({a[0] for a in araliklar}, key=_gk)
     return araliklar, tarihler, d, y
 
 
@@ -1226,7 +1229,14 @@ def _ana():
     # o günden başlayan kesitleri alır, MOTOR_DOLGU_KESIT=<n> n tanesiyle keser.
     _bas = os.environ.get("MOTOR_DOLGU_TARIH_BAS", "")
     if _bas:
-        tarihler = [t for t in tarihler if t >= _bas]
+        tarihler = [t for t in tarihler if _gk(t) >= _gk(_bas)]
+    # MOTOR_DOLGU_TARIH_SON=<gün>: bu günden ÖNCEKİ kesitler (dışlayıcı) — 1281 öncesi
+    # ayrı dosya üretimi için (`MOTOR_DOLGU_TARIH_SON=1281-01-01`). Son kayıt `t`si
+    # bu günle kapanır (sonraki kesit ayrı koşuda üretilir).
+    _son = os.environ.get("MOTOR_DOLGU_TARIH_SON", "")
+    _bitis_son = _son or "9999-12-31"
+    if _son:
+        tarihler = [t for t in tarihler if _gk(t) < _gk(_son)]
     if sinir:
         tarihler = tarihler[:sinir]
 
@@ -1245,7 +1255,7 @@ def _ana():
         #    kesitte BİREBİR aynıdır (bkz. _TALEP_ONB başlığındaki ölçüm).
         canli = {}
         for _ai, (f, t, kim, kaynak, idx) in enumerate(araliklar):
-            if f <= a < t:
+            if _gk(f) <= _gk(a) < _gk(t):
                 canli.setdefault((kim, kaynak), [[], []])
                 canli[(kim, kaynak)][0].extend(idx)
                 canli[(kim, kaynak)][1].append(_ai)
@@ -1280,7 +1290,7 @@ def _ana():
         for kim, km2 in rapor["engellendi"]:
             engelli.append((a, kim, km2))
         olcum.append((a, len(govdeler), len(parcalar), round(sure, 2)))
-        bitis = tarihler[n] if n < len(tarihler) else "9999-12-31"
+        bitis = tarihler[n] if n < len(tarihler) else _bitis_son
         yeni = []
         for pc in parcalar:
             yeni.append({"f": a, "t": bitis, "k": pc["kim"], "c": pc["cins"],
