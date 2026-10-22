@@ -139,6 +139,56 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Agra'yı kur:1504 ile açıyor ('Sikandar kurdu'); TDV/Iranica'ya göre şehir 1081'de zaten kaleli yerleşim, Sikandar yalnız yeniden inşa/başkent (TDV 1495, Iranica 1505 yeni kale). Atlas başlangıcı 1504 → 1081'e çekilebilir, ama 1099-1206 BOŞLUK ve 1206-1504 'Biyâna'ya bağlı Delhi Sultanlığı' beyanlıdır. Kaynak çelişkisi: Sikandar'ın taşınma yılı TDV 1495 / Iranica 898/1492 kuşatma + 911/1505 kale / Britannica 1911 ≈1500 / atlas 1504. Hindi/Urduca ve ASI kaynakları açılamadı. Britannica 1911 yalnız ikinci tanık."
  },
  {
+  "id": "ahmednagar",
+  "ad": "Ahmednagar",
+  "atlas_ad": "Ahmednagar",
+  "lat": 19.095,
+  "lon": 74.748,
+  "kat1900": 3,
+  "adlar": [
+   "Ahmednagar (kurucusu Ahmed Nizâmşâh'a nisbetle)",
+   "Ahmadnagar"
+  ],
+  "ilk": {
+   "t": "1495-01-01",
+   "gun": "1495",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ahmednagar (Mustafa L. Bilge, 1989)",
+   "tanik": "1495’te Behmenîler’in bölge valisi Ahmed Nizamşah tarafından tesis edildi",
+   "ic_not": "KURULUŞ (TDV 'tesis edildi'). ÇELİŞKİ (beyan): Gazetteer of the Bombay Presidency XVII Ahmadnagar (1884, Ferishta III.197'ye dayanır): 'In 1494 he laid the foundation of a city close to the Bagh Nizám' (1493'te Bhingar'da karar, 1494'te temel); IG 1908 V: 'Ahmadnagar was founded about 1490'; aynı Gazetteer: Ahmed Nizâm 28 Mayıs 1490'da Bahmanî ordusunu 'Bağ zaferi'nde yendi ve zafer yerine saray/bahçe yaptı (şehirden önce). TDV esas (CLAUDE.md): 1495. Atlas başlangıcı 1490-01-01: ATLAS DÜZELTME ÖNERİSİ — TDV'ye göre şehir 1495'te kuruldu (1490 şehir değil zafer yılı); 1490-1495 arası noktayı çizmek 'var olmayan şehir'dir. Bhingar köyü (≈ 3 km KD) önceden vardı (Gazetteer: 'encamped at Bhingar about two miles north-east of the future site'). Önceki sahiplik: bulunamadı (Behmenî toprağı; bu dosya yazmaz)."
+  },
+  "kur": {
+   "t": "1495-01-01",
+   "gun": "1495",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ahmednagar (Mustafa L. Bilge, 1989)",
+   "tanik": "1495’te Behmenîler’in bölge valisi Ahmed Nizamşah tarafından tesis edildi"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1490-05-28",
+    "gun": "28 Mayıs 1490",
+    "k": "savas",
+    "b": "Ahmed Nizâm, Bahmanî komutanı Cihangir Han'ı Bhingar yakınında yener ('Bağ zaferi'); zafer yerinde saray ve bahçe yaptırır (şehir henüz yok).",
+    "kaynak": "Gazetteer of the Bombay Presidency XVII Ahmadnagar (1884), tarih bölümü (archive.org wbsl.17015)",
+    "tanik": "made a night attack on the 28th of May 1490"
+   },
+   {
+    "t": "1494-01-01",
+    "gun": "1494",
+    "k": "kurulus",
+    "b": "Ahmed Nizâm, Ferishta'ya göre Bağ Nizâm yakınında şehrin temelini atar ve ona kendi adını verir (TDV: 1495).",
+    "kaynak": "Gazetteer of the Bombay Presidency XVII Ahmadnagar (1884), Places of Interest bölümü",
+    "tanik": "In 1494 he laid the foundation of a city close to the"
+   }
+  ],
+  "ic_not": "Zincir BOŞ: ilk.t (1495) atlas başlangıcından (1490-01-01) SONRA; denetim 'atlas başlangıcı düzeltilmeli' uyarısı verir (yukarıda öneri). TDV Ahmednagar maddesi şehir öncesini içermez. IG 1908 V ('Ahmadnagar City') ikinci tanık: 'founded about 1490 by Ahmad Nizam Shah' — yıl yaklaşık."
+ },
+ {
   "id": "aksu",
   "ad": "Aksu (Tarım)",
   "atlas_ad": "Aksu (Tarım)",
@@ -946,6 +996,43 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Aseb'i 1281-1882 'adal'a bağlıyor; 1869 öncesi için yerleşim/sahip tanığı BULUNAMADI. Atlasın 'adal' iddiası kaynaksız ve künye (f=1415) 1281'i kapsamıyor. Zincir boş."
  },
  {
+  "id": "asirgarh",
+  "ad": "Asirgarh",
+  "atlas_ad": "Asîrgarh",
+  "lat": 21.43,
+  "lon": 76.27,
+  "kat1900": 3,
+  "adlar": [
+   "Asîr (Asir)",
+   "Asirgad",
+   "Asîrgarh"
+  ],
+  "ilk": {
+   "t": "1295-01-01",
+   "gun": "1295",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Central Provinces District Gazetteers: Nimar District, vol. A, Allahabad 1908, tarih bölümü (archive.org bk1285); IG 1908 VI 'Asirgarh' (archive.org the-imperial-gazetteer-of-india-volume-6)",
+   "tanik": "In 1295 Asirgarh was held by the Chauhan Rajputs",
+   "ic_not": "İLK ANILIŞ (tarihli tek olay): II. Ala-ud-dîn Hâlacî Dekken akınından dönüşte kaleyi basar (IG: 'In 1295 Asirgarh was a stronghold of the Chauhan Rajputs, and was stormed by Ala-ud-din'). Yazılı daha eski TARİHLİ tanık bulunamadı: Mahabharata'ya (Aşvatthâma) atfı ve Çand destanında (12. yy) 'Asir' adının geçmesi tarihsiz ya da geç gelenektir (Nimar Gazetteer: 'repeatedly mentioned by the Rajput poet Chand'; Ferishta'nın 'Asa Ahîr' kuruculuğu: 'purely speculative'/IG 'probably incorrect'); Khandesh Gazetteer (1880) Tâk Racputları 9.-12. yy, sonra Çauhan (13. yy başı, gelenek). TDV 'Fârûkîler': 'Asîrgarh, Satpura dağlarının doğu ucunda Hindu racalarının ve onların emrindeki Racpûtlar'ın oturduğu müstahkem mevki' (tarihsiz) ve Nasîr Han 'Asîrgarh’ı Racpûtlar’dan aldı' (Melik Ahmed'in 1399 ölümünden sonra). TDV'de müstakil 'Asîrgarh' maddesi bulunamadı. ATLAS DÜZELTME ÖNERİSİ: atlas 1281-1370 'delhi-sultanligi', 1370'ten 'farukiler' diyor — kaynak yok: Delhi hâkimiyeti 1295 akınından öte tanıklı değil (IG: akın sonrası kale 'subsequently held by the last of the Faruki kings'); TDV/Gazetteer: Fârûkî hanedanı 1370'te kurulur ama kale Racpûtlardan Nasîr Han'ca (1399 sonrası) alınır → 1281-≈1399 sahibi Racput (Çauhan) olmalı; atlas başlangıcı 1295 olabilir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1295-01-01",
+    "gun": "1295",
+    "k": "kusatma",
+    "b": "Ala-ud-dîn Hâlacî, ilk Dekken akınından dönerken Çauhan Racputlarının elindeki Asirgarh'ı basar.",
+    "kaynak": "Imperial Gazetteer of India, 1908 (archive.org the-imperial-gazetteer-of-india-volume-6), 'Asirgarh'",
+    "tanik": "In 1295 Asirgarh was a stronghold of the Chauhan Rajputs"
+   }
+  ],
+  "ic_not": "Zincir BOŞ: ilk.t (1295) atlas başlangıcından (1281-01-01) sonra; denetim 'atlas başlangıcı düzeltilmeli' uyarısı verir. Kale 'başlangıçtan' önce de vardı (tarihsiz gelenek) — kuruluş tarihi BULUNAMADI."
+ },
+ {
   "id": "asmara",
   "ad": "Asmara",
   "atlas_ad": "Asmara",
@@ -1451,6 +1538,76 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "SONUÇ: Bangkok/Thonburi'nin 1281 öncesi ya da 1687 öncesi kaynaklı zinciri BULUNAMADI (Ayutthaya kroniklerinin Thonburi'si bu oturumda açılamadı). Zincir yalnız 1687 → 1767-12-28 (atlas başlangıcı). ATLAS NOTLARI: (1) atlas 'tonburi' künyesini 1767-12-28'de başlatır ve nokta kur=1767-12-28 alır; Taksin Thonburi'yi daha önce (Ekim-Kasım 1767) aldı ve Wood Bangkok'u (Thonburi) 1687'de kale olarak anar — kur 'Thonburi şehir kuruluşu' değil Taksin başkentliğidir. (2) 1767-04'ten Taksin'e kadar Birmanya vali yönetimi atlasta yok. (3) Wood'un 'T'anaburi=Bangkok' notu: bugünkü Bangkok'un resmî kuruluşu 1782 (Rama I; ayrı kayıt, nehrin öte yakası). Çift teyit: Wood tek akademik kaynak; Wikipedia (yalnız tutarlılık) Thonburi'yi Ayutthaya dönemi garnizon kasabası olarak niteler."
+ },
+ {
+  "id": "baroda",
+  "ad": "Baroda (Vadodara)",
+  "atlas_ad": "Baroda (Vadodara)",
+  "lat": 22.3072,
+  "lon": 73.1812,
+  "kat1900": 2,
+  "adlar": [
+   "Ankottaka (Akota — batıdaki büyük komşu yerleşim)",
+   "Vadapadraka (Vatapadraka)",
+   "Vatapadrapura",
+   "Baroda",
+   "Vadodara"
+  ],
+  "ilk": {
+   "t": "0813-01-01",
+   "gun": "Saka 734 (MS 812/813)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Baroda through the Ages: Report of an Excavation conducted in the Baroda Area 1951-1952, M. S. University of Baroda 1953 (archive.org dli.csl.8236); A. S. Altekar, Ancient Towns and Cities of Gujarat, 1926, madde 39 (archive.org altekar1926)",
+   "tanik": "was issued by the Rashtrakuta King Karkasuvarnavarsha",
+   "ic_not": "İLK ANILIŞ (alt sınır, KURULUŞ DEĞİL): Rastrakuta (Gucerât kolu) II. Karka Suvarnavarşa'nın Baroda bakır levhası — 'Vadapadraka' köyünü ('village', Altekar: 'the whole revenues of Vatapadra' bağışlandı; yani 9. yy'da yalnızca köy) Ankottaka (Akota) bir Brahmana bağışlar; Subbarao raporu tarihi '813 A.D.' verir, Altekar 1926 'Saka 734' (= 812/13), British Museum kataloğu 812/13 → güvenli uç 813. Altekar 1934'te levha 'dated 881-2' diye OCR'lanmıştır (okuma güvenilmez, 811-2'nin bozuk okuması olabilir) — beyan. Yer: Vadapadraka = bugünkü Kothi/Tıp Fakültesi höyüğü, atlas noktasıyla aynı yer; Ankottaka = Akota (≈ 2 km batı, 3 km içinde → aynı şehir sayıldı). ARKEOLOJİ (ark): Vishvamitri kıyısında mikrolitik yerleşim 'en geç MÖ 1000' (Maheshwar karşılaştırması), MS başlarında Akota'da kasaba (Kshatrapa sikkeleri, Roma ithali), Kothi/Vadapadraka höyüğünde yerleşim ≈ MS 600'den ('approximately about 600 A.D.') — yazılı tanık varken ark başlangıç yazılmadı. Çift teyit yok (yalnız Altekar 1926 + 1953 raporu, ikisi de levhayı okur)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-0999-01-01",
+   "gun": "MÖ 1000 (en geç)",
+   "kesinlik": "belirsiz",
+   "kaynak": "Baroda through the Ages (1953), Akota kazı özeti: 'this culture could not be later than 1000 B.C.' (OCR 'looo')"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0813-01-01",
+    "t": "0973-01-01",
+    "d": "rastrakuta",
+    "kesinlik": "yil",
+    "kaynak": "A. S. Altekar, The Rashtrakutas and Their Times, Poona 1934 (Poona Oriental Series 36), archive.org in.ernet.dli.2015.283667 s. 85-86, 125-126; Altekar, Ancient Towns and Cities of Gujarat (1926) madde 39",
+    "ic_not": "813 tanığı: Gucerât kolu II. Karka (Baroda levhası). Altekar: Gucerât kolu '888 A.D.'den kısa süre sonra' sona erdi ('Soon after 888 A.D., the Gujrat branch came to an end'); sonra 'Krshna II and Indra III were directly administering Southern Gujrat' (Begumra levhası 914-5) — Rastrakuta ana kolu. 913-973 arası Baroda'ya özel tanık BULUNAMADI; Rastrakuta imparatorluğunun sonu (973) hanedan-seviyesinde alındı → dönem UZATMASI, beyan: dönem sonu Baroda-özel tanık değil. Künye f=0755, t=0975."
+   },
+   {
+    "f": "0973-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Altekar, Ancient Towns and Cities of Gujarat (1926) madde 39; Baroda through the Ages (1953)",
+    "ic_not": "BEYANLI BOŞLUK (şehir VAR, sahibi tarihsiz): Vadapadraka höyüğünde 'kesintisiz iskân yaklaşık bin yıl' (kazı); Altekar: 12. yy'da Merutunga Kumârapâla'nın Cambay'dan Bharuch'a kaçışında 'Vatapadrapura'da durduğunu' söyler (pura = kasaba; tarihsiz anekdot; Kumârapâla = Çaulukya) ve 13. yy'da 'Vatapadrapura tüccarları Pattana'da Aditya tapınağını finanse etti' ('Kumârapâla zamanı'). Bunlar Çaulukya (Solanki; künye 'caulukya' f=1000, t=1297) bağını DÜŞÜNDÜRÜR ama sahiplik günü/dilimi vermez; Lata Çalukyaları ve Solanki fethi tarihli bulunamadı. Atlas 1281 'racput' diyor: kaynak yok. TDV'de Baroda/Vadodara maddesi bulunamadı (TDV 'Gucerât' Gucerât Sultanlığı öncesi için Baroda anmaz)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0813-01-01",
+    "gun": "Saka 734 (MS 812/813)",
+    "k": "diger",
+    "b": "Karka Suvarnavarşa'nın Baroda bakır levhası: Vadapadraka köyü Ankottaka'lı bir Brahmana bağışlanır — Baroda adının ilk yazılı anılışı.",
+    "kaynak": "Baroda through the Ages (1953), özet bölümü",
+    "tanik": "This grant defined the boundaries of ancient Vadapadraka"
+   },
+   {
+    "t": "0973-01-01",
+    "gun": "973 (sonbahar/kış)",
+    "k": "diger",
+    "b": "künye geçişi: Rastrakuta imparatorluğu çöker (II. Karka, II. Taila'ca yenilir); Baroda'nın sonraki sahibi tarihsiz → beyanlı boşluk.",
+    "kaynak": "A. S. Altekar, The Rashtrakutas and Their Times, Poona 1934 (Poona Oriental Series 36), archive.org in.ernet.dli.2015.283667 s. 125-126",
+    "tanik": "we may reasonably conclude that he was defeated in the autumn or winter of 973"
+   }
+  ],
+  "dikis_beyan": "Atlas 1281-01-01'de 'racput' yazıyor (kaynak yok); Baroda'nın 973-1281 arası sahibi kaynakta tarihli gösterilemedi. 12. yy Merutunga/Kumârapâla anılışı Çaulukya'yı düşündürür ('caulukya' künyesi 1000-1297); ATLAS ÖNERİSİ: 1281-1304 için 'racput' yerine kaynak taranmalı (Vaghela/Çaulukya).",
+  "ic_not": "TDV, Vikipedi dışı akademik kaynak: Baroda Through the Ages (M.S. Üniversitesi 1953) ve Altekar 1926. 'Ankottaka' (Akota) daha eski büyük yerleşimdir; atlas noktası Vadapadraka'dadır. Rastrakuta dilimi 813-973 uzatma beyanlıdır (yukarıda)."
  },
  {
   "id": "barselona",
@@ -3125,6 +3282,57 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ZİNCİR YOK (kural): ilk.t atlas başlangıcıyla (1733-01-01) aynı. Bu noktada 1733 öncesi sahiplik (Jat Sogar şefliği, Mughal) kaynaklı değil; 'old fort' varlığının tarihi bulunamadı. ATLAS DÜZELTME ÖNERİSİ: yok. Not: IG 1722'yi 'Badan Singh Dig Racası, Bharatpur'un ayrı devlet olarak tanınması' sayar (State article) — şehirden ayrı olgu."
  },
  {
+  "id": "bhopal",
+  "ad": "Bhopal",
+  "atlas_ad": "Bhopâl",
+  "lat": 23.259,
+  "lon": 77.413,
+  "kat1900": 3,
+  "adlar": [
+   "Bhupal (Bhopal, küçük köy)",
+   "Bhojpal (halk etimolojisi, Raca Bhoj'a atfı)",
+   "Bhopâl"
+  ],
+  "ilk": {
+   "t": "1723-09-10",
+   "gun": "9 Zilhicce 1135 (30 Ağustos 1723 Jülyen = 10 Eylül 1723 Gregoryen)",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "Madhya Pradesh District Gazetteers: Raisen, Bhopal 1979 (archive.org dli.csl.3389), tarih bölümü; IG 1908 VIII 'Bhopal City' + 'Bhopal State'",
+   "tanik": "on Friday, 30th August, 1723 (9th Zilhij, 1135 A. H.) at Bhopal",
+   "ic_not": "KURULUŞ (şehir: Dost Muhammed Han'ın Fatehgarh kalesinin temeli; surla çevrilen alanda 'founded a city', IG: 'founded the towns of Islamnagar and Bhopal'). TAKVİM: Raisen Gazetteer'in 30 Ağustos 1723'ü Jülyen (Old Style) tarihtir; hicrî 9 Zilhicce 1135 (tablo takvimi) ile Cuma gününü tutan Gregoryen karşılık 10 Eylül 1723'tür (30 Ağu 1723 Gregoryen Pazartesi, 10 Eyl Cuma — kaynaktaki 'Friday' ile uyum) → Gregoryen 1723-09-10 alındı (ic_not_takvim: Jülyen kaynak çevrildi). ÇELİŞKİ: Bhopal State Gazetteer 1908 (s. 10-11) '9 Zilhicce 1135 = 6 Temmuz 1722' der (çeviri hatası: 9 Zilhicce 1135 = 1723-09-10); IG 1908 VIII 'In 1728 Dost Muhammad built the Fatehgarh fort' ve ölüm tarihlerini karıştırır; IG 'Bhopal State': 1709'da Berasia kirası, Bhopal'ın kuruluşu tarihsiz. KÖY ÖNCESİ: Raisen Gazetteer: Gond Rani Kamlavati 'Bhupal' adlı küçük köyü (yıllık geliri 10.000 rupi) Dost Muhammed'e bağışladı (≈1723, Ginnorgarh olayları) — köy yazılı olarak ≈1723 öncesidir, tarihsiz. Raca Bhoj (1010-53) efsanesi (IG: 'Tradition relates ...'): aynı IG 'It is, however, certain that there was never a town of any size here' → alınmadı, gelenek. TDV'de Bhopal maddesi bulunamadı. ATLAS DÜZELTME ÖNERİSİ: atlas 1707-01-01 'bhopal' devleti ve 1708 şehir başlangıcı erken — Dost Muhammed 1708'de Delhi'ye ilk gelişte iş aradı, 1709'da Berasia kirası (IG); Bhopal'ın kendisi 1723'te Gond Rani'den aldığı köy; devlet 'Nawab' unvanını ≈1723'ten sonra aldı (Raisen: 'Dost Muhammad Khan now assumed the title of Nawab') → 1723-09-10 (şehir), devlet başlangıcı 1707 için kaynak gerekli."
+  },
+  "kur": {
+   "t": "1723-09-10",
+   "gun": "9 Zilhicce 1135 (30 Ağustos 1723 Jülyen = 10 Eylül 1723 Gregoryen)",
+   "kesinlik": "gun",
+   "kaynak": "Madhya Pradesh District Gazetteers: Raisen (1979), tarih bölümü",
+   "tanik": "on Friday, 30th August, 1723 (9th Zilhij, 1135 A. H.) at Bhopal"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1723-01-01",
+    "gun": "1723",
+    "k": "diger",
+    "b": "Gond Rani Kamlavati, Dost Muhammed Han'a 'Bhupal' adlı küçük köyü bağışlar (Ginnorgarh olayları, Raisen Gazetteer).",
+    "kaynak": "Madhya Pradesh District Gazetteers: Raisen (1979), tarih bölümü",
+    "tanik": "the small village of Bhupal"
+   },
+   {
+    "t": "1723-09-10",
+    "gun": "10 Eylül 1723 (Gregoryen)",
+    "k": "kurulus",
+    "b": "Dost Muhammed Han Fatehgarh kalesinin temelini atar; kale Raca Bhoj'un eski kalesine surla bağlanıp şehir (Shahr-i-khas) kurulur.",
+    "kaynak": "Madhya Pradesh District Gazetteers: Raisen (1979)",
+    "tanik": "on Friday, 30th August, 1723 (9th Zilhij, 1135 A. H.) at Bhopal"
+   }
+  ],
+  "ic_not": "Zincir BOŞ: ilk.t (1723-09-10) atlas başlangıcından (1707-01-01) sonra; denetim 'atlas başlangıcı düzeltilmeli' uyarısı verir. Köy 'Bhupal' öncesi Ginnorgarh Gond krallığı (Rani Kamlavati) topraklarındaydı (Raisen Gazetteer); Gond devleti için künye/kaynak bu oturumda aranmadı → öncesi BULUNAMADI."
+ },
+ {
   "id": "birni-ngazargamu",
   "ad": "Birni N'gazargamu",
   "atlas_ad": "Birni N'gazargamu",
@@ -3375,6 +3583,115 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "NİCELİK KARARI: yazılı tanık (Livius 37.57'ye atıfla MÖ 189 Latin kolonisi) varken ark yazılı tanığa öncelik veremez → ilk = kuruluş MÖ 189 (Roma Bononia'sı). Aynı yerde daha eski yerleşim ARKEOLOJİK: tunç çağı sonu (MÖ 2. binyıl sonu), Villanova kulübeleri (MÖ VII. yy'a kadar), Etrüsk Felsina (EI: 'inizio verso la fine del sec. VI' MÖ), Felsina'nın MÖ IV. yy ortasında Galya Boii tarafından yıkılması. Atlas başlangıcını MÖ 2. binyıl sonuna çekme kararı Emre'nindir; o durumda Etrüsk (etrusk-sehir-devletleri) ve Boii (künyesiz) dönemleri kaynaklı eklenebilir (Treccani 'Bologna'); bu oturumda yazılmadı. Çift teyit: 189 Bononia kolonisi iki ayrı Treccani EI maddesinde (Bologna, Gallia Cisalpina). Atlas: Bolonya 1281'de papalik ile başlıyor; EI 1274'ü verir, 1274-1281 beyanlı. Dikişte olay gerekmedi çünkü zincir papalik ile bitiyor. 395 bölünmesi, Ostrogot-Bizans geçişinin şehre özgü günü ve Bizans-Longobard sınır savaşları (Bologna'nın Longobard eline kalıcı geçmemesi) EI'nin dediği kadarıyla yazıldı."
+ },
+ {
+  "id": "bombay",
+  "ad": "Bombay",
+  "atlas_ad": "Bombay",
+  "lat": 18.9418,
+  "lon": 72.8265,
+  "kat1900": 2,
+  "adlar": [
+   "Mumbai (Mumbâdevî'den)",
+   "Mahikavati (yalnız Mahim kesimi; Bimb, ≈1294 geleneği)",
+   "Bombay"
+  ],
+  "ilk": {
+   "t": "0500-01-01",
+   "gun": "5. yüzyıl (güvenli uç MS 500)",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "S. M. Edwardes, The Rise of Bombay: A Retrospect, Bombay 1902, s. 11-12 (archive.org risebombayaretr00edwagoog); Gazetteer of Bombay City and Island, II, Bombay 1909, s. 3-14 (archive.org in.ernet.dli.2015.55899) s. 8",
+   "tanik": "The coins, which were found at Cavel in our island and in Salsette",
+   "ic_not": "ARKEOLOJİK (numismatik) başlangıç — modern noktadan ≤ 3 km içinde (Cavel = Kâlbâdevî, adanın içi) yazılı, tarihli tanık bulunamadı. Krishnarâja gümüş drammaları Bombay adasında (Cavel) ve Salsette'de çıkmış; Gazetteer 1909: bu Krishnarâja 'bir Kalaçuri/Traikûtaka soyundan' büyük olasılıkla ve Traikûtaka hanedanı 5. yüzyıla ait (Kanheri'de 494 tarihli Traikûtaka bağışı bulunmuş, Salsette). Edwardes 1902 aynı sikkeleri MS 375-400'e koymuştu; Gazetteer 1909 (aynı yazar, sonraki) 5. yüzyıl dedi → aralığın SON ucu (MS 500) alındı. ÇELİŞKİ beyan: 1902 → 375-400, 1909 → 5. yy. YAZILI TANIK ADAYLARI ve neden alınmadı: (1) Ptolemaios'un 'Heptanesia'sı (MS 150): Edwardes onu yedi ada sayar ama Gazetteer 1909 aynı sayfalarda 'Bombay still unknown to the master-builders ... of the Satavahana epoch' der; ad eşitlemesi yeri kesin değil → başlangıç sayılmaz (Emre, 13 Ekim). (2) Parel taş kitabesi (Silahara II. Aparâditya, Saka 1107 = MS 1185/86; Corpus Inscriptionum Indicarum VI, 1977, kitabe listesi): Parel atlas noktasından ≈ 7 km — 3 km kuralına göre BURADA yazılmaz; Parel'i aynı şehir sayma kararı Emre'nindir, sayılırsa ilk anılış 1185/86 olur ve Silahara zinciri bundan başlar. (3) Bimb/Mahikavati (Mahim) ≈ Saka 1216 = 1294 (Bimbakhyan geleneği): atlas başlangıcından (1281) sonra; kuruluş değil kolonileşme geleneği. Mumbâdevî tapınağı adın kaynağı (Gazetteer II s. 3 dipnot). Atlas düzeltme önerisi YOK (1281 'yadava' Gazetteer ile uyumlu: Yadava 1265'ten beri)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0500-01-01",
+   "gun": "5. yüzyıl (güvenli uç MS 500)",
+   "kesinlik": "yuzyil",
+   "kaynak": "Edwardes, The Rise of Bombay (1902) s. 11-12; Gazetteer of Bombay City and Island II (1909) s. 8: Krishnarâja sikkeleri (Bombay'da ve Nasik'te)"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0500-01-01",
+    "t": "0610-01-01",
+    "d": "konkan-maurya",
+    "kesinlik": "yil",
+    "kunye_yok": true,
+    "kaynak": "Gazetteer of Bombay City and Island, II, Bombay 1909, s. 3-14 (archive.org in.ernet.dli.2015.55899) s. 8-9",
+    "ic_not": "KÜNYE YOK: önerilen id 'konkan-maurya' (Kuzey Konkan Mauryaları — 'local rulers were princes of the Maurya family', Vada kitabesi Suketuvarma; Kalyan ≈ 530 Kosmas). Ömür ≈ 500 (5. yy sonu, Traikûtaka'nın çöküşü) – 610 (Çalukya'nın Puri'yi alışı); 'well-nigh a century'. f = ilk.t'nin güvenli ucu; Traikûtaka (5. yy, sikke tanığı) bu dilimden ÖNCEDİR, süresi bilinmediği için dönem açılmadı. Künye açılırsa işaret kalkar."
+   },
+   {
+    "f": "0610-01-01",
+    "t": "0757-01-01",
+    "d": "badami-calukya",
+    "kesinlik": "yil",
+    "kaynak": "Gazetteer of Bombay City and Island, II, Bombay 1909, s. 3-14 (archive.org in.ernet.dli.2015.55899) s. 9",
+    "ic_not": "Gazetteer: Çalukyalar 610'da Mauryaların Puri'sini aldı; 'In all probability' (büyük olasılıkla) Bombay Nasik Çalukya valisine bağlı; 757'ye kadar sürdü — çıkarım ifadesi (doğrudan yazıt yok): 'we have no direct evidence'. Edwardes 1902 ise 'Silahara 810'a dek' der; 1909 Gazetteer esas alındı."
+   },
+   {
+    "f": "0757-01-01",
+    "t": "0810-01-01",
+    "d": "rastrakuta",
+    "kesinlik": "yil",
+    "kaynak": "Gazetteer of Bombay City and Island, II, Bombay 1909, s. 3-14 (archive.org in.ernet.dli.2015.55899) s. 9-10",
+    "ic_not": "Rastrakuta 'about 757'; ilk elli yıl Mayurakhandi (Markinda, Nasik) kalesinden 'Konkan fourteen hundred' doğrudan yönetildi. Künye f=0755."
+   },
+   {
+    "f": "0810-01-01",
+    "t": "1265-01-01",
+    "d": "silahara-konkan",
+    "kesinlik": "yil",
+    "kunye_yok": true,
+    "kaynak": "Gazetteer of Bombay City and Island, II, Bombay 1909, s. 3-14 (archive.org in.ernet.dli.2015.55899) s. 10-12; Edwardes, Rise of Bombay (1902) s. 14-15",
+    "ic_not": "KÜNYE YOK: önerilen id 'silahara-konkan' (Kuzey Konkan Silaharaları, Tagarapuravaradhîşvara; Thana/Puri başkent). Ömür 810 – 1265 (Gazetteer: 'maintained their superiority for more than four centuries (810-1260)'; son kral Someşvar'ın Mahadev'e yenilgisi 'the year 1265'; Edwardes 1902 ve Gazetteer metni 1260 de der — 1265 ve 1260 arası tutarsızlık BEYAN, son dönem sonu için Gazetteer'in 'final scene' cümlesi alındı). Silaharalar önce Rastrakuta, 973'ten sonra Batı Çalukya (Tailapa), ≈1161'den kısa süre Çaulukya (Solanki; Kumârapâla generali Mallikârjuna'yı öldürdü) üstünlüğü altındaydı; 1187'de II. Aparâditya bağımsızlık unvanları aldı — üstünlük değişimleri sahiplik dönemi sayılmadı, 'yerel hanedan' sahibi yazıldı. Kabul edilen: Bombay adası Silahara toprağının parçasıdır ('together with Bombay')."
+   },
+   {
+    "f": "1265-01-01",
+    "t": "1281-01-01",
+    "d": "yadava",
+    "kesinlik": "yil",
+    "kaynak": "Gazetteer of Bombay City and Island, II, Bombay 1909, s. 3-14 (archive.org in.ernet.dli.2015.55899) s. 12-14",
+    "ic_not": "Gazetteer: Silaharaların çöküşünden sonra 'the country was governed by a Brahman officer of the Deogiri Yadavas down to at least 1290'. Atlas 1281 'yadava' ile dikiş sahibi aynı; Edwardes 1902: Salsette'de Ramdev'in valisi Acyuta Nâyaka 1272'de (Fleet)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0610-01-01",
+    "gun": "MS 610",
+    "k": "fetih",
+    "b": "Badami Çalukyaları 'yüzlerce gemiyle' Mauryaların Puri'sini alır; Konkan Çalukya yönetimine geçer.",
+    "kaynak": "Gazetteer of Bombay City and Island, II, Bombay 1909, s. 3-14 (archive.org in.ernet.dli.2015.55899) s. 9",
+    "tanik": "it was not until 610 A.D. that the Chalukyas"
+   },
+   {
+    "t": "0757-01-01",
+    "gun": "yaklaşık MS 757",
+    "k": "diger",
+    "b": "künye geçişi: Badami Çalukya → Rastrakuta (Dekkan'ın Çalukya hâkimiyeti Rastrakutalarca yıkılır).",
+    "kaynak": "Gazetteer of Bombay City and Island, II, Bombay 1909, s. 3-14 (archive.org in.ernet.dli.2015.55899) s. 9",
+    "tanik": "mastery of the Deccan was shattered by the Rashtrakutas about 757 A.D."
+   },
+   {
+    "t": "0810-01-01",
+    "gun": "MS 810",
+    "k": "diger",
+    "b": "Konkan'ın Silahara ailesinin (Rastrakuta valisi olarak) yönetimine girişi; yerel hanedan dönemi başlar.",
+    "kaynak": "S. M. Edwardes, The Rise of Bombay (1902) s. 14",
+    "tanik": "Twenty Silahara kings ruled in the North Konkan from A.D. 810 to A.D. 1260"
+   },
+   {
+    "t": "1265-01-01",
+    "gun": "MS 1265",
+    "k": "fetih",
+    "b": "Devagiri kralı Mahadev son Silahara kralı Someşvar'ı yener; Kuzey Konkan (Bombay dahil) Yadava'ya geçer.",
+    "kaynak": "Gazetteer of Bombay City and Island, II, Bombay 1909, s. 3-14 (archive.org in.ernet.dli.2015.55899) s. 12",
+    "tanik": "The final scene of Silahara sovereignty dates from the year 1265 A.D."
+   }
+  ],
+  "ic_not": "Atlas Bombay noktası 1281'de 'yadava' ile başlıyor — Gazetteer 1909 ile uyumlu. Zincirin 500-1265 arası dilimleri 1909 Gazetteer'in (S. M. Edwardes, hükûmet yayını) anlatısına dayanır; tarihleri yazıt değil anlatıdır ('about', 'in all probability') → kesinlik yıl/yüzyıl. TDV 'Bombay' (Sayyid Maqbul Ahmad, 1992) ilk iskân/kuruluş vermez; yalnız 'Tâna Limanı Marco Polo'da Thoma', Râştrakûta idarecileri ve 1348 Tuğluk fethi (atlas: 1318 delhi-sultanligi; TDV 1348, Gazetteer 1318 Gucerât'lı 'Mubârek Şah' diyor — 1281 sonrası, bu dosyada dokunulmadı, atlas için kontrol önerisi)."
  },
  {
   "id": "bonga-kaffa",
@@ -4030,6 +4347,56 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ATLAS ÇELİŞKİSİ (1281 başlangıcı): ilk yazılı tanık 1459-09-20 > atlas başlangıcı 1281-01-01. Atlas Bükreş noktasını macaristan 1281-01-01 → 1330, eflak 1330-1462 olarak açıyor; kaynak bunu desteklemiyor (1281-1459 arasında yazılı tanık yok). Bu yüzden sahip zinciri BOŞ bırakıldı (denetim 'ilk.t atlas başlangıcından sonra' uyarısı beklenir). Öneri: Bükreş noktası 1459-09-20 öncesinde gösterilmesin (motor kur/bit penceresi = ilk.t'den başlasın); macaristan 1281-1330 dönemi kaynaksız (Bükreş bölgesi Macar krallığı toprağı olduğuna dair tanık bulunamadı: Eflak/Basarab devleti 1330 Posada öncesi 'Terra Transalpina' Macar nominal egemenliği olabilir ama bu oturumda açılmadı); eflak dönemi nokta ilk.t'den itibaren geçerli. KAYNAK SEÇİMİ: TDV 1368 'Cetatea Dâmboviţei' ismiyle geçtiğini yazar, ancak (a) bu ad Bükreş'in kendi adı değildir, yeri kesin olmayan ad eşitlemesidir (VERI-YAPISI kuralı: başlangıç sayılmaz), (b) Treccani 'Bucarest' (Enciclopedia on line): 'L'origine di B. e l'etimologia del nome sono incerte', (c) Constantin 2011: 'Cetatea Dâmboviţa' adı 1458-59'da Vlad Ţepeş'in inşa ettiği Bükreş kalesinin yan adıdır. Bu yüzden adı kesin taşıyan en eski belge (1459-09-20) alındı; TDV-esas kuralı ile çelişki beyan edilir ve karar Emre'ye bırakılır (alternatif ilk: TDV 1368, yıl hassasiyeti, yer eşitlemesi belirsiz). 1459 tarihi için ikinci akademik tanık bulunamadı (Newsweek RO ve Wikipedia 20.09.1459'u aktarır ama popüler/ikincil olduğu için kaynak sayılmadı; Wikipedia 13 Haziran 1458 tarihli Latince bir belgeden de söz eder — bu oturumda doğrulanmadı). Tanik metni PDF OCR çıktısından birebir alındı ('20septembrie1459' bitişik). ARKEOLOJİ: Curtea Veche kazılarında XIV. yy ikinci yarısına ait kule/tahkimat var (ark alanı); yazılı tanık (1459) mevcut olduğundan arkeolojik katman ilk olmadı; arkeolojik tarih (XIV. yy ikinci yarısı, 1350-1399) yazılı tanıktan eskidir ama o da 1281'den sonradır — atlas başlangıcı 1281 ile ÇELİŞİR: arkeolojik bulgu da 1281'de şehir olduğunu göstermez. Treccani: 'Residenza invernale dei principi di Valacchia alla metà del 15° sec.'. Bükreş modern noktası (44.427, 26.103) ile Curtea Veche (~44.4318, 26.1018) arası < 1 km."
+ },
+ {
+  "id": "burhanpur",
+  "ad": "Burhanpur",
+  "atlas_ad": "Burhânpûr",
+  "lat": 21.3,
+  "lon": 76.23,
+  "kat1900": 3,
+  "adlar": [
+   "Burhânpûr (Şeyh Burhâneddîn-i Garîb'e nisbetle)",
+   "Brampour"
+  ],
+  "ilk": {
+   "t": "1398-09-13",
+   "gun": "1 Muharrem 801 (Jülyen 13 Eylül 1398) – 801 yılı (1398-99)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/burhanpur (A. S. Bazmee Ansari, 1992)",
+   "tanik": "Nasîr Han el-Fârûkī tarafından 801 (1398-99) yılı civarında devletin yeni merkezi olarak kurulmuş",
+   "ic_not": "KURULUŞ (TDV). TDV 'civarında' der → yıl hassasiyeti. Hicrî 801 ∩ mîlâdî 1398-99 = hicrî 801'in tamamı; kesişimin ilk günü: 1 Muharrem 801 = Jülyen 13 Eylül 1398 (tablo takvimi, civil epoch; çevrilmedi). TDV KENDİ İÇİNDE ÇELİŞİR: 'Fârûkîler' maddesi Nasîr Han'ın Melik Ahmed'in 1399'daki ölümünden SONRA tahta geçtiğini ve 'ardından Tapti nehrine yakın bir yerde Burhânpûr’u inşa edip surlarla tahkim ettirdi' der (→ 1399 sonrası). DIŞ KAYNAKLAR: IG 1908 IX: 'Burhanpur was founded about 1400 by Nasir Khan'; Bombay Gazetteer XII Khandesh (1880): 'founded, about 1400, by Nasir Khan Faruki'; Meadows Taylor, A Student's Manual (1870/1906): Asa Ahîr'in Asirgarh'ta öldürülmesinin ardından Zeinabad ile aynı anda kuruldu, Nasîr'in saltanatı 40 yıl, ölümü 19 Eylül 1437 (→ 1397'den). Seçim: TDV 'Burhânpûr' maddesi (madde bu şehre özel, 1398-99); Fârûkîler maddesindeki ve IG'deki ≈1400 beyan edildi. Atlas başlangıcı 1398-01-01: dokuz ay fark → ATLAS DÜZELTME ÖNERİSİ: 1398-09-13 (ya da yıl hassasiyetinde 1398-99 / ≈1400 çelişkisi için üst uç)."
+  },
+  "kur": {
+   "t": "1398-09-13",
+   "gun": "1 Muharrem 801 (Jülyen 13 Eylül 1398) – 801 yılı (1398-99)",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/burhanpur (A. S. Bazmee Ansari, 1992)",
+   "tanik": "Nasîr Han el-Fârûkī tarafından 801 (1398-99) yılı civarında devletin yeni merkezi olarak kurulmuş"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1399-01-01",
+    "gun": "1399",
+    "k": "taht",
+    "b": "Fârûkî kurucusu Melik Ahmed ölür, yerine Nasîr Han geçer; TDV 'Fârûkîler' maddesine göre Burhânpûr'u bundan sonra inşa ettirir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/farukiler",
+    "tanik": "Fârûkīler’in kurucusu Melik Ahmed’in 1399’da ölümünden sonra yerine Nasîr Han geçti"
+   },
+   {
+    "t": "1400-01-01",
+    "gun": "yaklaşık 1400",
+    "k": "kurulus",
+    "b": "IG 1908'e göre Burhanpur ≈1400'de Fârûkî hükümdarı Nasîr Han tarafından, ünlü Şeyh Burhâneddîn'in adıyla kurulur (Zeinabad aynı anda).",
+    "kaynak": "Imperial Gazetteer of India, 1908 (archive.org the-imperial-gazetteer-of-india-volume-9), 'Burhanpur Town'",
+    "tanik": "Burhanpur was founded about 1400 by Nasir Khan"
+   }
+  ],
+  "ic_not": "Zincir BOŞ: ilk.t (1398-09-13) atlas başlangıcından (1398-01-01) sonra. Kuruluştan önceki yerde Burhânpûr adlı yerleşim BULUNAMADI; Şeyh Burhâneddîn-i Garîb (ö. 738/1337) Devletâbâd'da yatar (Burhânpûr adının kaynağı). Önceki sahiplik: bu dosyada yazılmaz (şehir yok)."
  },
  {
   "id": "cao-bang",
@@ -5487,6 +5854,52 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "SONUÇ: ilk anılış kaydı ZAYIF (ikincil); 1170-1192 Çahamana, 1192 Gurlu (atlasla dikiş). KAYNAK ÇİFT TEYİDİ: 1192 için iki bağımsız kaynak (Minhâc, TDV). HİCRÎ: Minhâc '588 h. (1192 a.d.)' verir; hicrî 588 = 1192-01-18 … 1193-01-06 (tablo takvimi, Jülyen); kesişimin ilk günü 1192-01-18 alındı — GERÇEK II. Terâin tarihi yılın ilerisindedir (savaşın ayı/günü kaynakta yok), atlasın 1192-01-01'i ile ±17 gün uyumludur. Minhâc aynı cümlede Delhi alımını 'Terâin'den sonra aynı yıl' verir; E&D Cilt II s.297. AÇILAMAYAN: Epigraphia Indica XXVI (Bijolia), Indian Antiquary XIX (Delhi-Shivalik sütunu 1164), Cohen JAOS 1989, Imperial Gazetteer XI (Delhi; archive.org 404). ANTİK YERLEŞİM >3 KM: Purana Qila / İndraprastha (28.61, 77.24; atlas noktasına ~4,4 km) ve Lâlkot/Mehrauli (28.52, 77.18; ~14 km) ayrı kayıt olarak önerilir; Kızıl Kale çevresinde OCP (~MÖ 2000) ve PGW (~MÖ 1200) verisi yalnız Vikipedi 'History of Delhi' (ikincil, atıfsız) — yazılmadı. ATLAS DÜZELTME ÖNERİSİ: yok (atlas Delhi'yi 1192 Gurlu ile açıyor, TDV/Minhâc ile uyumlu; 1192 öncesi 1170'e kadar Çavhan zinciri eklenebilir)."
  },
  {
+  "id": "devagiri",
+  "ad": "Devagiri (Devletâbâd)",
+  "atlas_ad": "Devagiri (Devletâbâd)",
+  "lat": 19.943,
+  "lon": 75.22,
+  "kat1900": 3,
+  "adlar": [
+   "Devagiri (Deogiri, 'Tanrı dağı')",
+   "Kutbâbâd (1318 sonrası, TDV)",
+   "Devletâbâd"
+  ],
+  "ilk": {
+   "t": "1192-01-01",
+   "gun": "1192",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "V. B. Ritti, The Seunas (The Yadavas of Devagiri), Dharwar 1973, Appendix 'The Capital of the Seunas' (archive.org seuna_ritti)",
+   "tanik": "earliest reference to it is found in an inscription of 1192",
+   "ic_not": "İLK ANILIŞ alt sınırdır; KURULUŞ yazılı olarak Hemadri'ye dayanır ama TARİHSİZDİR: Ritti 1973 'Hemadri states that Bhillama founded the city of Dévagiri' ve Tasgaon levhaları 'Bhillama built the fort of Dévagiri'; Bhillama V'in saltanatı: en eski yazıtı 1187 (Fleet: Saka 1109 = 1187/88, Muttigi 1189-90), ölümü ≈1191/92 → kuruluş 1187-1192 aralığında (Sevunas of Devagiri/Ramamurthy: 'about 1190'); IG 1908: Bhillama V 'about 1187' bağımsızlaşır, 'Hemadri'ye göre Deogiri'yi kurdu'. Kuruluştan kur TÜRETİLMEDİ (gün yok); güvenli uç = ilk anılış (Ritti: 1192'de Jaitugi bu başkentten yönetiyordu). ÇELİŞKİ: Fleet 1882 (Dynasties of the Kanarese Districts): 'in Saka 1182 [≈1260] that we first have Devagiri mentioned as the capital' — daha eski/farklı okuma; Ritti 1973 (sonraki) alındı. Devagiri, Rastrakuta döneminde Ellora'ya (Elapura) komşu kayalık olarak yazıtlarda aranırsa bulunamadı: Bhillama V öncesi 'Dévagiri' tanığı yok (Sevunas: 'Béta I'in Dévagiri'si 994-1030 anakronizmdir'). TDV 'Devletâbâd' (Khaliq Ahmad Nizami, 1994): 'asıl adı Devâgirî (Tanrı dağı) ... Yadava hânedanının başşehri' — kuruluş tarihi vermez, 1296 Ala-ud-dîn kuşatması vb. atlas sonrası."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1192-01-01",
+    "t": "1281-01-01",
+    "d": "yadava",
+    "kesinlik": "yil",
+    "kaynak": "Ritti, The Seunas (1973), Appendix; IG 1908 XI 'Daulatabad (or Deogiri)'",
+    "ic_not": "Yadava (Seuna) Devagiri'yi başkent yapar (Jaitugi I). Atlas 1281 'yadava' ile dikiş sahibi aynı; künye f=1187."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1192-01-01",
+    "gun": "1192",
+    "k": "diger",
+    "b": "Devagiri'nin ilk anılışı: Seuna kralı Jaitugi I bu başkenttan yönetmektedir (kurucu Bhillama V, Hemadri'ye göre, tarihsiz).",
+    "kaynak": "V. B. Ritti, The Seunas (1973), Appendix",
+    "tanik": "Hemadri states that Bhillama founded the city of"
+   }
+  ],
+  "ic_not": "Atlas 1281'de Yadava ile başlıyor — kaynaklarla uyumlu; zincir yalnızca 1192-1281 (kuruluştan atlas başlangıcına). 'Devletâbâd' adı Muhammed b. Tuğluk (TDV: 'Ṣubḥu’l-aʿşâ'ya göre') — atlas sonrası."
+ },
+ {
   "id": "dijon",
   "ad": "Dijon",
   "atlas_ad": "Dijon",
@@ -5821,6 +6234,84 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Çift teyit yok. Bakufu çökmesi (Genkō 3/5/22) için kaynak Nitta Yoshisada maddesi, 5/22 günü hesaplı Jülyen. 1180 öncesi tarihli tanık bulunamadı (Edo-gō arkeolojisi bu oturumda aranmadı)."
+ },
+ {
+  "id": "elicpur",
+  "ad": "Elicpûr (Achalpur)",
+  "atlas_ad": "Elicpûr (Achalpur)",
+  "lat": 21.257,
+  "lon": 77.512,
+  "kat1900": 3,
+  "adlar": [
+   "Acalapura (Achalapura)",
+   "Elicpûr (Ellichpur, Ilichpur)",
+   "Achalpur"
+  ],
+  "ilk": {
+   "t": "0632-01-01",
+   "gun": "Saka 553 (MS 631/632)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "A. S. Altekar, The Rashtrakutas and Their Times, Poona 1934 (Poona Oriental Series 36), archive.org in.ernet.dli.2015.283667 s. 8-10, 15 (Nannarâja'nın Tivarkhed levhaları); archive.org in.ernet.dli.2015.283667",
+   "tanik": "were issued from Achalapura, which is the",
+   "ic_not": "İLK ANILIŞ (alt sınır). Nannarâja Yudhâsura'nın Tivarkhed bakır levhaları Achalapura'dan (Altekar: 'the same as Elichpur in Berar') verilmiştir; Altekar: levhalar 'Saka 553 or 631-2 A.D.' tarihli (aynı yazar Multai levhasını 709-10 ve şüpheli sayar). Saka 553 ≈ MS 631/32 → güvenli uç 632. Achalapura = Elicpûr eşitlemesi yaygın ve Altekar tarafından savunulur ('Tivarkhed itself ... only 35 miles from Elichpur'); Venkataramanayya (Eastern Calukyas of Vengi, 1950) da Acalapura'yı 'modern Ellichpur' sayar (Gunaga Vijayaditya'nın generali Pandaranga'nın Krşna II ile savaşında Acalapura'yı yakması, ≈878-891 arası, kesin gün yok) → ikinci bağımsız tanık (sonraki). ÇELİŞKİ/uyarı: IG 1908 XII 'Ellichpur Town': 'Local legend ascribes its foundation to the eponymous Raja II ... Samvat 1115, corresponding to A.D. 1058' ama aynı IG: 'the first mention of Ellichpur in authentic history is made by Barani ... towards the end of the thirteenth century' → IG eski (Tivarkhed levhası IG'den sonra çözüldü); gelenek reddedildi. KURULUŞ: BULUNAMADI. TDV'de Elicpûr maddesi bulunamadı; TDV 'Devletâbâd' Ramçandra'nın 'Eliçpûr gelirlerini' (1296-1307) gönderdiğini söyler (atlas sonrası)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0632-01-01",
+    "t": "0973-01-01",
+    "d": "rastrakuta",
+    "kesinlik": "yil",
+    "kaynak": "A. S. Altekar, The Rashtrakutas and Their Times, Poona 1934 (Poona Oriental Series 36), archive.org in.ernet.dli.2015.283667 s. 8-10, 125-126",
+    "ic_not": "KÜNYE GENİŞLET ÖNERİSİ: 'rastrakuta' künyesi f=0755 (Dantidurga); Altekar'a göre Dantidurga'nın atalarının 'Berar'da hüküm sürdüğü, başkentin büyük olasılıkla Elicpûr olduğu' ve Nannarâja Yudhâsura'nın soyuna ya doğrudan ya da yan kol olarak bağlı olduğu 'extremely probable, if not almost certain' (Altekar, atalar tablosu: Dantivarman 650-670, Indra 670-690, Govindarâja 690-710, Karka I 710-730, Indra I 730-745, Dantidurga 745-756). Elicpûr'a özel tanıklar: 631/2 Tivarkhed (Nannarâja) ve 709-10 Multai (şüpheli). 632-973 arası tek hanedan sürekliliği çıkarım — uzun boşluk > 1 kuşak: kural __BOSLUK__ tercih eder, ancak Altekar'ın hanedan-sürekliliği argümanı ve Berar'ın Rastrakuta çekirdek toprağı olması nedeniyle BEYANLI UZATMA yazıldı; künye aşımı UYARISI (hayalet 632-755) beklenir. Rastrakuta sonu (973): Altekar."
+   },
+   {
+    "f": "0973-01-01",
+    "t": "1187-01-01",
+    "d": "bati-calukya",
+    "kesinlik": "yil",
+    "kaynak": "Imperial Gazetteer of India, 1908 (archive.org the-imperial-gazetteer-of-india-volume-12), 'Ellichpur Town'; Imperial Gazetteer of India, 1908 (archive.org the-imperial-gazetteer-of-india-volume-11), 'Daulatabad'",
+    "ic_not": "ÇIKARIM: IG 1908 XII: 'from all that is known of the history of Berar at this period it seems that the province formed part of the kingdom of Somesvara I, of the restored Chalukya dynasty' (1058 için). Elicpûr'a özel yazıt bulunamadı. Dönem sonu: Yadava'nın bağımsızlığı 'about 1187' (IG XI), Elicpûr'un Yadava'ya geçiş günü yok. f: künye 'bati-calukya' f=0975, Altekar 973 (UYARI beklenir)."
+   },
+   {
+    "f": "1187-01-01",
+    "t": "1281-01-01",
+    "d": "yadava",
+    "kesinlik": "yil",
+    "kaynak": "Fleet, Dynasties of the Kanarese Districts (1882) 'The Yadavas of Devagiri' (archive.org dynastieskanare00fleegoog); TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/devletabad",
+    "ic_not": "ÇIKARIM (ileriye doğru): Yadava'nın Elicpûr'daki ilk TANIĞI 1294-1307: Fleet — Ala-ud-dîn 1294'te Narmada'yı geçerek 'proceeded by way of Ellichpur' (Narmada Devagiri krallığının kuzey sınırı); TDV Devletâbâd: Ramçandra'nın 'Eliçpûr gelirleri'; IG: 1294'ten sonra Elicpûr Ala-ud-dîn'e tahsis edilir ama 'Hindu administration' altında kalır. 1187-1294 için Yadava Elicpûr'unu gösteren yazıt BULUNAMADI; atlas 1281 'yadava' ile dikiş aynı sahip olduğu için çıkarımla bağlandı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0973-01-01",
+    "gun": "973 (sonbahar/kış)",
+    "k": "diger",
+    "b": "künye geçişi: Rastrakuta → Batı Çalukya (II. Taila, II. Karka'yı yener; Rastrakuta imparatorluğu çöker).",
+    "kaynak": "A. S. Altekar, The Rashtrakutas and Their Times, Poona 1934 (Poona Oriental Series 36), archive.org in.ernet.dli.2015.283667 s. 125-126",
+    "tanik": "we may reasonably conclude that he was defeated in the autumn or winter of 973"
+   },
+   {
+    "t": "1187-01-01",
+    "gun": "yaklaşık 1187",
+    "k": "diger",
+    "b": "künye geçişi: Batı Çalukya → Yadava (Devagiri) — Bhillama Çalukya bağlılığını atar (Elicpûr'a geçiş günü yok, çıkarım).",
+    "kaynak": "Imperial Gazetteer of India, 1908 (archive.org the-imperial-gazetteer-of-india-volume-11), 'Daulatabad (or Deogiri)'",
+    "tanik": "Bhillama I, who threw off allegiance about 1187"
+   },
+   {
+    "t": "0632-01-01",
+    "gun": "Saka 553 (MS 631/632)",
+    "k": "diger",
+    "b": "Nannarâja Yudhâsura'nın Tivarkhed levhaları Achalapura'dan (Elicpûr) verilir — ilk yazılı anılış.",
+    "kaynak": "A. S. Altekar, The Rashtrakutas and Their Times, Poona 1934 (Poona Oriental Series 36), archive.org in.ernet.dli.2015.283667 s. 9",
+    "tanik": "were issued from Achalapura, which is the"
+   }
+  ],
+  "ic_not": "Elicpûr (Ellichpur) ile komşu Achalpur çift-şehirdir; Acalapura eşitlemesi yeri tam kesin değil (Elicpûr kuzeyindeki Achalpur dahil) ama Tivarkhed'e 35 mil. Atlas başlangıcı 1281 'yadava'; zincirde yalnız 1187-1281 dilimi atlas ile aynı sahip. Venkataramanayya 1950: Acalapura ≈ 878-891 (Gunaga Vijayaditya, 891'de öldü; Krşna II 878'den): Elicpûr'a ikinci tanık (gün yok)."
  },
  {
   "id": "erdebil",
@@ -12937,6 +13428,69 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "SONUÇ: Mandalay 1857-02-13'te kurulan planlı başkenttir. Atlas kur=1857-01-01 → düzeltme önerisi 1857-02-13 (gün kaynaklı). Atlas 1857-01-01'de başladığından ilk.t atlas başlangıcından SONRA: ZİNCİR BOŞ, 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR (43 gün). 1857 öncesi aynı yerde şehir yok (Mandalay Tepesi kutsal alan; yerleşim değil)."
  },
  {
+  "id": "mandu",
+  "ad": "Mandu (Mândû)",
+  "atlas_ad": "Mandu (Mândû)",
+  "lat": 22.336,
+  "lon": 75.403,
+  "kat1900": 3,
+  "adlar": [
+   "Mandapa-durga (Maṇḍapadurga)",
+   "Mândû (Mandogarh)",
+   "Şâdîâbâd (Hûşeng Şah, ≈1405 sonrası)"
+  ],
+  "ilk": {
+   "t": "1211-01-01",
+   "gun": "V.S. 1267 (MS 1211)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "C. E. Luard, The Paramaras of Dhar and Malwa, 1908, Arjunavarman bölümü (archive.org india.history.resource.90911)",
+   "tanik": "was issued from Mandapadurga or Mandu",
+   "ic_not": "İLK ANILIŞ (alt sınır): Paramara kralı Arjunavarman'ın üç bağış levhasından 'en erken olanı' (V.S. 1267 = MS 1211) 'Maṇḍapadurga ya da Mandu'dan' verilmiştir (Luard 1908; Luard: 'The earliest is dated in V.S. 1267 or 1211 A.D.'). Chaitrâdi V.S. 1267 = Mart 1210–Mart 1211; Luard 1211 dedi, güvenli uç 1211. Daha eski YAZILI tanık bulunamadı: IG 1908 XVII: 'practically nothing is known of its history previous to Muhammadan times'; Yazdani, Mandu: The City of Joy (1929): 'history of Mandu ... is unknown prior to the rule of the Paramaras (8th-13th centuries)'; Bhoja'nın surlar ve medrese yaptırması (Luard 1908) GELENEK (tarihsiz). Maṇḍapa-durga'nın 'Sanskrit plates of the Paramara period' içinde geçtiği Annual Report ASI 1903-4 s. 30'a dayanılarak Yazdani'de anılır (ASI raporu bu oturumda açılamadı). TDV'de Mandu/Mândû maddesi bulunamadı; TDV 'Mâlvâ' (Delhi fethi 1305) ve Mândû'nun başşehir inşası Hûşeng Şah (1405 sonrası). Kuruluş: BULUNAMADI."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1211-01-01",
+    "t": "1281-01-01",
+    "d": "paramara",
+    "kesinlik": "yil",
+    "kaynak": "Luard, The Paramaras of Dhar and Malwa (1908); Annual Report on Indian Epigraphy 1958-59 (archive.org annual-report-on-indian-epigraphy-1958-1959), Mandhata levhası V.S. 1331",
+    "ic_not": "Paramara hükümdarları Mandapa-durga'dan ferman verir: Arjunavarman V.S. 1267 (1211); II. Jayavarman (Jayasimha) Mandapa-durga'dan Mandhata levhası V.S. 1317 (7 Kasım 1260 ve 12 Mayıs 1261, Luard) ve V.S. 1331 (10 Ağustos 1274; ARIE 1958-59 'ayrıca Sâdhanika Anayasimhadeva Mandapa-durga'da iken'). Atlas 1281'de 'racput' diyor; Paramara künyesi (f=1000, t=1305) var ve TDV 'Mâlvâ' Mâlvâ'nın Delhi fethini 1305'e koyar (IG 1908: Mandu 1304'te Ain-ul-mulk'ça alındı) → 1281-1305 için 'paramara' tanıklıdır."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1211-01-01",
+    "gun": "V.S. 1267 (MS 1211)",
+    "k": "diger",
+    "b": "Paramara kralı Arjunavarman'ın bağış levhası Mandapadurga'dan (Mandu) verilir — Mandu'nun ilk yazılı anılışı.",
+    "kaynak": "Luard, The Paramaras of Dhar and Malwa (1908)",
+    "tanik": "was issued from Mandapadurga or Mandu"
+   },
+   {
+    "t": "1260-11-07",
+    "gun": "7 Kasım 1260 (V.S. 1317)",
+    "k": "diger",
+    "b": "II. Jayavarman'ın Mandapadurga'dan verdiği Mandhata bakır levhası (iki tarihli: 7 Kasım 1260 ve 12 Mayıs 1261).",
+    "kaynak": "Luard, The Paramaras of Dhar and Malwa (1908)",
+    "tanik": "Another grant issued by this king from Mandapadurga or Mandu was found at Mandhata"
+   },
+   {
+    "t": "1274-08-10",
+    "gun": "10 Ağustos 1274 (V.S. 1331)",
+    "k": "diger",
+    "b": "Mandhata levhası: Sâdhanika Anayasimhadeva, Paramara kralı Jayavarman alias Jayasimha'nın izniyle Mandapa-durga'da bulunurken bağış yapar.",
+    "kaynak": "Annual Report on Indian Epigraphy 1958-59 (Epigraphia Indica XXXII)",
+    "tanik": "while he was staying at Mandapa-durga"
+   }
+  ],
+  "dikis_beyan": "Atlas 1281-01-01'de 'racput' yazıyor (kaynak yok); 'racput' künyesi (Mevar-Mârvâr-Amber-Bikaner) Paramara'yı içermiyor. Kaynaklı tanık: Paramara kralı 1274'te Mandu'da ('paramara' künyesi f=1000, t=1305). 1281'de el değiştirme tanığı bulunamadı; öneri: atlas 1281-1305 'paramara'.",
+  "ic_not": "Zincir 1211'den başlar; 1211 öncesi Paramara-dönemi (Bhoja 1010-53 gelenekle) tarihsiz. Mandu, Delhi'ye 1305 (TDV) / 1304 (IG) geçer — atlasla (1305 delhi-sultanligi) uyumlu."
+ },
+ {
   "id": "mantova",
   "ad": "Mantova",
   "atlas_ad": "Mantova",
@@ -17433,6 +17987,85 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ilk_anilis 903 (PVL). Çift teyit YOK (tek birincil metin + ESBE tarihsiz 'призвание князей' dönemi). Arkeolojik ilk iskân (Pskov Kremlin/Krom) kaynağı açılamadı → bulunamadı. ATLAS ÖNERİSİ: atlas Pskov 1281'de novgorod ile uyumlu; 1348 'pskov' künyesi ESBE Bolotovo (1348) ile uyumlu. Kiev-rus künyesi boyasız."
+ },
+ {
+  "id": "pune",
+  "ad": "Pune",
+  "atlas_ad": "Pûne (Poona)",
+  "lat": 18.52,
+  "lon": 73.856,
+  "kat1900": 3,
+  "adlar": [
+   "Punaka (Punaka-vişaya / Punya-vişaya)",
+   "Punyapur (halk etimolojisi)",
+   "Poona",
+   "Pune"
+  ],
+  "ilk": {
+   "t": "0768-01-01",
+   "gun": "MS 768 (Saka 690)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "S. Bhattacharyya, The Geographical Dictionary: Ancient and Early Medieval India (1999), 'Bhamaropara' maddesi (archive.org the-geographical-dictionary-ancient-and-early-medieval-india-bhattacharyya); A. S. Altekar, The Rashtrakutas and Their Times, Poona 1934 (Poona Oriental Series 36), archive.org in.ernet.dli.2015.283667 s. 44-45; K. V. Subrahmanya Aiyar, Three Lectures, Dharwar 1941 (archive.org in.ernet.dli.2015.283896)",
+   "tanik": "A village in the Punaka Visaya (Poona district)",
+   "ic_not": "İLK ANILIŞ alt sınırdır, KURULUŞ DEĞİL. Tanık: I. Krişna'nın (Rastrakuta) Talegaon bakır levhaları — Altekar: levhalar onu '768 A.D.'de Manne'de (Mysore) karargâhta gösterir ('show him encamped in 768 A.D. at Manne'); Aiyar 1941: 'Talegaon plates of Krishna I dated in A. D. 768'; Bhattacharyya: 'Talegaon copper plate of S.690' (Saka 690 = 768/69). Levha Punaka-vişaya'daki Kumârigrâma ve köyleri (Bhamaropara ≈ Bhavarapura) bağışlar; vişaya = İDARİ BÖLGE, adını 'Punaka'dan aldığı (Pune) Bhattacharyya'da ('Same as Poona') ve Deccan College tezinde ('Punaka (i.e. Pune)', Historical and Cultural Geography of the Western Deccan 6th-10th c., archive.org) belirtilir ama bölge adı ≠ şehir noktası kanıtı: yer kesinliği sınırlı. ÇELİŞKİ: Altekar'ın OCR'lı tablosu levha tarihlerini 758/770/774 diye sayar ve başka bir yerde 'Talegaon ... 23 June 772' der (iç tutarsızlık; Aiyar, Bhattacharyya ve Altekar'ın 'encamped in 768' cümlesi 768'de birleşir) → 768 alındı (çift teyit: Aiyar 1941 + Bhattacharyya/Altekar). Yaygın '758' (popüler) tarihi bu oturumda akademik kaynakta Talegaon/Pune levhasına bağlanamadı (Altekar'da 758 'Bharata Itihasa Samshodhaka Mandala levhaları' için, Eylül 758). ESKİ KAYNAK ÇELİŞKİSİ: IG 1908 'Poona City': 'The first mention of Poona in history seems to be in 1604' — Rastrakuta levhaları bunu aşar (IG eski). 1885 Gazetteer (Poona III s. 402-3): yerel gelenek MS 618 'on beş kulübelik köy' — yazılı değil, alınmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0768-01-01",
+    "t": "0973-01-01",
+    "d": "rastrakuta",
+    "kesinlik": "yil",
+    "kaynak": "A. S. Altekar, The Rashtrakutas and Their Times, Poona 1934 (Poona Oriental Series 36), archive.org in.ernet.dli.2015.283667 s. 44-45, 126; Poona Gazetteer XVIII Part II (1885) tarih bölümü",
+    "ic_not": "Tek tanık Talegaon levhası (768). 768 ile Rastrakuta sonu (973) arası 205 yıl: Punaka için başka tanık bulunamadı → 'önceki sahibin son tanığı ile X arası uzunsa (> 1 kuşak) __BOSLUK__ tercih edilir' kuralı gereği boşluk düşünüldü; ANCAK Rastrakuta hanedan-seviyesinde Dekkan'a hâkim (Altekar) ve 1885 Gazetteer 'the Rastrakutas to 973' ('it is probable' diye çıkarım) dediği için DÖNEM UZATMASI yazıldı ve BEYAN edildi: dönem sonu (973) Punaka-özel tanık değil, hanedanın sonudur."
+   },
+   {
+    "f": "0973-01-01",
+    "t": "1187-01-01",
+    "d": "bati-calukya",
+    "kesinlik": "yil",
+    "kaynak": "Poona Gazetteer XVIII Part II (1885) tarih bölümü (archive.org wbsl.16344); IG 1908 XI ('Daulatabad')",
+    "ic_not": "ÇIKARIM: 1885 Gazetteer 'Not a single stone or copperplate inscription has been found in the Poona district ... Still, as inscribed stones ... in neighbouring districts ... it is probable that ... the Western Chalukyas to 1184'. Punaka'ya özel yazıt bulunamadı. Dönem sonu: 1885 Gazetteer 1184, IG 1908 'Bhillama I, who threw off allegiance about 1187' (Fleet: Bhillama saltanatı Saka 1109 = 1187/88) → Yadava künyesi f=1187 ile uyum için 1187 alındı; 3 yıl fark beyan. f=973: künye 'bati-calukya' f=0975, Altekar 973 (UYARI beklenir: künye f 973'e çekilmeli, Rastrakuta t de)."
+   },
+   {
+    "f": "1187-01-01",
+    "t": "1281-01-01",
+    "d": "yadava",
+    "kesinlik": "yil",
+    "kaynak": "Poona Gazetteer XVIII Part II (1885) s. 214 (OCR '21-4') tarih bölümü; IG 1908 XI",
+    "ic_not": "Gazetteer: 'the Devgiri Yadavs till the Musalman conquest of the Deccan about 1300' (çıkarım). Pune'ye özel Yadava tanığı bulunamadı. Gazetteer Pune'nin 1290'da ('Poona seems to have been taken by the troops of Ala-ud-din', gelenek) Hâlacî'ye geçtiğini söyler — atlas sonrası. Atlas 1281 'yadava' ile dikiş aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0768-01-01",
+    "gun": "MS 768",
+    "k": "diger",
+    "b": "Talegaon bakır levhaları: I. Krişna (Rastrakuta), Manne karargâhında, Punaka-vişaya'da köy bağışlar — Pune adının ilk yazılı anılışı.",
+    "kaynak": "A. S. Altekar, The Rashtrakutas and Their Times, Poona 1934 (Poona Oriental Series 36), archive.org in.ernet.dli.2015.283667 s. 45",
+    "tanik": "show him encamped in 768 A.D. at Manne in Mysore state"
+   },
+   {
+    "t": "0973-01-01",
+    "gun": "973 (sonbahar/kış)",
+    "k": "diger",
+    "b": "künye geçişi: Rastrakuta → Batı Çalukya (II. Taila, II. Karka'yı yener; Rastrakuta imparatorluğu çöker).",
+    "kaynak": "A. S. Altekar, The Rashtrakutas and Their Times, Poona 1934 (Poona Oriental Series 36), archive.org in.ernet.dli.2015.283667 s. 125-126",
+    "tanik": "we may reasonably conclude that he was defeated in the autumn or winter of 973"
+   },
+   {
+    "t": "1187-01-01",
+    "gun": "yaklaşık 1187",
+    "k": "diger",
+    "b": "künye geçişi: Batı Çalukya → Yadava (Devagiri) — Bhillama Çalukya bağlılığını atar.",
+    "kaynak": "Imperial Gazetteer of India, 1908 (archive.org the-imperial-gazetteer-of-india-volume-11), 'Daulatabad (or Deogiri)'",
+    "tanik": "Bhillama I, who threw off allegiance about 1187"
+   }
+  ],
+  "ic_not": "Pune atlasta 1674-06-06'da 'sehir' kd ile başlıyor ama yerleşim noktası 1281'den Yadava; bu dosya 768'e kadar geri götürür. Sahiplik dilimlerinin ikisi (973-1187 Batı Çalukya, 1187-1281 Yadava) Gazetteer 'probable' çıkarımıdır; Punaka'ya özel yazıt (Jejuri levhası 687 Vinayaditya Palayatthana-vişaya'yı Punaka'nın alt bölümü sayar: Deccan College tezi, Badami Çalukya 687 — ilk iskân değil bölge tanığı) → 768 öncesi Badami Çalukya sahipliği için kaynak yetersiz, dilim açılmadı. TDV'de Pune/Poona maddesi bulunamadı."
  },
  {
   "id": "rennes",
