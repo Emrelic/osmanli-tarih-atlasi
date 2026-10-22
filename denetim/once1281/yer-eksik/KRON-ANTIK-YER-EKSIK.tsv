@@ -1,0 +1,138 @@
+ad	modern_ad	lat	lon	ilgili_devlet	ilk_kaynak	koordinat_durumu
+Mikene (Mycenae)	Mykines (Argolis)	37.73	22.76	miken	Dickinson, The Aegean Bronze Age (1994)	yaklaşık; Pleiades ile doğrulanmadı
+Pylos (Ano Englianos)	Pylos / Chora	37.03	21.70	miken	Cline, 1177 B.C. (2014)	yaklaşık; Pleiades ile doğrulanmadı
+Tiryns	Tiryns (Argolis)	37.60	22.80	miken	Cline, 1177 B.C. (2014)	yaklaşık
+Knossos	Knossos (Girit)	35.30	25.16	minos	Dickinson (1994)	yaklaşık
+Sparta	Sparti	37.07	22.43	sparta	Pausanias 4.5-13	yaklaşık
+Messene (Ithome)	Mavromati	37.18	21.92	sparta	Diodoros 15.66	yaklaşık
+Tegea	Alea Tegea	37.45	22.42	peloponnes-birligi	Herodotos 1.65-68	yaklaşık
+Megalopolis	Megalopoli	37.40	22.14	peloponnes-birligi	Xenophon, Hellenika 6.5	yaklaşık
+Korint (Korinthos)	Archaia Korinthos	37.91	22.88	korint	Livius.org Corinth	yaklaşık; atlasta Korint yok
+Thebai (Teb)	Thiva	38.32	23.32	boiotia-birligi	Xenophon, Hellenika 5.4	yaklaşık
+Leuktra	Lefktra (Boiotia)	38.2	23.2	sparta	Xenophon, Hellenika 6.4	konum tartışmalı
+Mantineia	Mantineia (Arkadia)	37.62	22.38	boiotia-birligi	Xenophon, Hellenika 7.5	yaklaşık
+Plataia	Plataies	38.22	23.27	atina-demokrasisi	Livius.org Plataea	yaklaşık
+Marathon	Marathonas	38.15	23.96	atina-demokrasisi	Livius.org Marathon	yaklaşık
+Salamis (boğaz)	Salamina	37.96	23.50	atina-demokrasisi	Livius.org Salamis	yaklaşık
+Aigospotamoi	Çanakkale Boğazı Trakya yakası (Gelibolu)	40.4	26.6	delos-birligi	Livius.org Aigospotamoi	konum tartışmalı
+Thasos	Thasos	40.78	24.70	delos-birligi	Thucydides 1.100	yaklaşık
+Amphipolis	Amfipoli	40.82	23.84	makedonya-krallik	Diodoros 16.8	yaklaşık
+Olynthos	Olynthos (Khalkidiki)	40.29	23.36	makedonya-krallik	Diodoros 16.53	yaklaşık
+Pella	Pella	40.76	22.52	antigonid-makedonya	Livy 45.29	yaklaşık
+Aigai (Vergina)	Vergina	40.48	22.32	makedonya-krallik	Diodoros 16.91	yaklaşık
+Khaironeia	Chaironeia	38.49	22.85	makedonya-krallik	Livius.org Chaeronea	yaklaşık
+Krannon	Krannon (Tesalya)	39.6	22.4	atina-demokrasisi	Livius.org Diadochi chronology	konum tartışmalı
+Granikos	Biga Çayı (Çanakkale)	40.2	27.3	iskender-imparatorlugu	Livius.org Granicus	konum tartışmalı
+Sardes	Sart (Salihli)	38.49	28.04	iskender-imparatorlugu	Arrianos 1.17	yaklaşık
+Halikarnassos	Bodrum	37.04	27.43	iskender-imparatorlugu	Arrianos 1.20-23	atlasta "Bodrum" yerleşimi var; birebir antik ad yok
+Miletos	Miletos (Söke/Balat)	37.53	27.28	iskender-imparatorlugu	Arrianos 1.18-19	yaklaşık
+Efes (Ephesos)	Selçuk	37.94	27.34	iskender-imparatorlugu	Arrianos 1.17	atlasta Selçuk/Efes birebir ad olarak aranmalı
+Issos	Kinet Höyük / İskenderun Körfezi	36.8	36.2	iskender-imparatorlugu	Livius.org Issus	konum tartışmalı
+Tyros (Sur)	Sour (Lübnan)	33.27	35.20	iskender-imparatorlugu	Arrianos 2.15-27	yaklaşık
+Gazze (Gaza)	Gazze	31.50	34.47	iskender-imparatorlugu	Arrianos 2.26-27	atlasta Gazze var (yer_id verilmedi: olay Tyros odaklı)
+Memphis	Mit Rahine	29.85	31.25	iskender-imparatorlugu	Arrianos 3.1	yaklaşık
+Gaugamela	Tel Gomel (Kuzey Irak)	36.4	43.3	iskender-imparatorlugu	Livius.org Gaugamela	konum tartışmalı
+Hydaspes (Jhelum) / Taksila	Jhelum / Taxila (Pakistan)	32.93	73.73	iskender-imparatorlugu	Livius.org Hydaspes	konum tartışmalı
+Triparadeisos	Suriye (kesin yer bilinmiyor)	-	-	antigonos	Livius.org Diadochi chronology	bilinmiyor
+Gabiene	İran (kesin yer bilinmiyor)	-	-	antigonos	Diodoros 19.40	bilinmiyor
+Ipsos	Afyon-Sipsin yakını (tartışmalı)	38.6	30.5	antigonos	Livius.org Ipsus	konum tartışmalı
+Lysimacheia	Hexamilion / Bolayır (Gelibolu)	40.5	26.7	lizimakhos	Diodoros 20.29	yaklaşık
+Korupedion	Lidya (Salihli yakını, tartışmalı)	38.5	28.0	lizimakhos	Livius.org Corupedium	konum tartışmalı
+Kynoskephalai	Tesalya (Farsala-Larissa arası)	39.4	22.5	antigonid-makedonya	Livius.org Cynoscephalae	konum tartışmalı
+Pydna	Kitros (Pieria)	40.4	22.6	antigonid-makedonya	Livius.org Pydna	yaklaşık
+Sellasia	Lakonia (Sellasia)	37.2	22.4	antigonid-makedonya	Polybios 2.65	konum tartışmalı
+Delphi	Delphi	38.48	22.50	aitolia-birligi	Pausanias 10.19	yaklaşık
+Ambrakia	Arta	39.15	20.99	aitolia-birligi	Livy 38.3	yaklaşık
+Sikyon	Sikyon (Korint körfezi)	37.98	22.72	akhaia-birligi	Polybios 2.43	yaklaşık
+Leukopetra	Isthmos yakını	37.9	22.9	akhaia-birligi	Pausanias 7.15	konum tartışmalı
+Apameia (Kibotos)	Dinar (Afyon)	38.07	30.16	bergama	Polybios 21.43	yaklaşık
+Dardanos	Çanakkale (Dardanos)	40.03	26.4	pontus	Appianos, Mithridatika 54	yaklaşık
+Nikopolis (Lykos ovası)	Koyulhisar/Sivas	40.3	37.9	pontus	Plutarkhos, Pompeius 32	konum tartışmalı
+Nikomedeia	İzmit	40.77	29.92	bitinya	Memnon FGrH 434 F9	atlasta İzmit var (yer_id İzmit kullanıldı)
+Zela	Zile (Tokat)	40.30	35.89	pontus	Livius.org Zela	atlasta Zile varsa kullanılabilir
+Emporion	Empúries (Katalonya)	42.13	3.12	roma-cumhuriyeti	Livy 21.60	yaklaşık
+Numantia	Garray (Soria)	41.81	-2.45	roma-cumhuriyeti	Appianos, Iberike 97	yaklaşık
+Narbo Martius	Narbonne	43.18	3.00	roma-cumhuriyeti	Velleius 1.15.5	atlasta Narbonne var mı kontrol edilmeli
+Capua	Santa Maria Capua Vetere	41.09	14.26	roma-cumhuriyeti	Livy 26.12	yaklaşık
+Kartaca (Carthago)	Tunus yakını (Kartaca)	36.85	10.33	kartaca	Livius.org Carthage	atlasta "Tunus" var, Kartaca ayrı yerleşim değil
+Utica	Utique (Tunus)	37.06	10.06	roma-cumhuriyeti	Appianos, Punika 75	yaklaşık
+Saguntum	Sagunto	39.68	-0.28	kartaca	Polybios 3.17	atlasta Sagunto var; birebir antik ad yok
+Ilipa	Alcalá del Río (Sevilla)	37.52	-5.98	roma-cumhuriyeti	Livy 28.12	konum tartışmalı
+Cannae	Canne della Battaglia (Apulia)	41.30	16.13	kartaca	Polybios 3.107	yaklaşık
+Zama	Tunus (konum bilinmiyor)	-	-	roma-cumhuriyeti	Livius.org Carthage	bilinmiyor
+Veii	Isola Farnese (Roma)	42.0	12.4	etrusk-sehir-devletleri	Livy 5.19	yaklaşık
+Sentinum	Sassoferrato (Marche)	43.43	12.86	etrusk-sehir-devletleri	Livy 10.27	yaklaşık
+Volsinii	Orvieto	42.72	12.11	etrusk-sehir-devletleri	Zonaras 8.7	yaklaşık
+Alalia	Aléria (Korsika)	42.1	9.5	etrusk-sehir-devletleri	Herodotos 1.165	yaklaşık
+Cumae (Kyme)	Cuma (Kampanya)	40.85	14.05	etrusk-sehir-devletleri	Diodoros 11.51	yaklaşık
+Himera	Termini Imerese (Sicilya)	37.97	13.82	kartaca	Livius.org Himera	yaklaşık
+Selinus	Selinunte	37.58	12.83	kartaca	Diodoros 13.54	yaklaşık
+Kyrene (Cyrene)	Shahhat (Libya)	32.82	21.86	kyrene	Livius.org Cyrene	atlasta "Beyzâ (Kirene)" ayrı kayıt
+Cirta	Konstantine (Cezayir)	36.37	6.61	numidia	Livius.org Jugurtha	yaklaşık
+Thapsus	Ras Dimas (Tunus)	35.64	11.03	numidia	Bellum Africum	konum tartışmalı
+Massalia	Marsilya	43.30	5.37	massalia	Thucydides 1.13	atlasta "Marsilya" yer_id olarak kullanıldı
+Pantikapaion	Kerç	45.35	36.47	bosporos-krallik	Diodoros 12.31	atlasta "Kerç" yer_id olarak kullanıldı
+Sarmizegetusa Regia	Grădiștea de Munte (Romanya)	45.62	23.31	dakya	Dion Kassios 68.8	yaklaşık
+Singidunum	Belgrad	44.82	20.45	hun-avrupa	Priskos fr. 2	atlasta Belgrad yer_id olarak kullanıldı
+Aquileia	Aquileia (Friuli)	45.77	13.37	hun-avrupa	Jordanes, Getica 219	yaklaşık
+Soissons (Noviodunum)	Soissons	49.38	3.33	frank	Gregory of Tours 2.27	yaklaşık
+Salona	Solin (Hırvatistan)	43.54	16.48	bati-roma	Marcellinus Comes s.a. 480	yaklaşık
+Camulodunum	Colchester	51.89	0.90	roma-imp	Dion Kassios 60.19	yaklaşık
+Teutoburg Ormanı (Kalkriese)	Kalkriese (Aşağı Saksonya)	52.4	8.1	roma-imp	Dion Kassios 56.18	konum tartışmalı
+Palmyra	Tedmür	34.55	38.27	roma-imp	Livius.org Aurelian	atlasta Tedmür/Palmira var mı kontrol edilmeli
+Catalaunum (Châlons)	Châlons-en-Champagne	48.96	4.37	roma-imp	Jordanes, Getica 191	yaklaşık
+Toxandria	Brabant (Hollanda-Belçika)	51.5	5.0	frank	Ammianus 17.8	bölge adı
+Tuna (Margus)	Požarevac yakını (Sırbistan)	44.7	21.1	hun-avrupa	Priskos fr. 2	yaklaşık
+ad	modern_ad	lat	lon	ilgili_devlet	ilk_kaynak
+Memphis (Men-nefer / İneb-hedj)	Mit Rahina (Kahire güneyi)	29.8495	31.2551	misir-erken-hanedan, misir-eski-krallik, ptolemai (başkent)	Pleiades 736963 (Memphis)
+Giza	Giza Nekropolü	29.9701	31.1267	misir-eski-krallik	Pleiades 442962448 (Giza)
+Herakleopolis Magna (Henen-nesut)	Ihnasya el-Medine (Beni Suef)	29.0787	30.9347	herakleopolis	Pleiades araması sonuç vermedi; koordinat genel coğrafya bilgisi, doğrulanmalı
+Itj-tawy	Lisht (el-Lisht)	29.5675	31.2232	misir-orta-krallik	Pleiades 797229144 (Lisht; Itj-tawy'nin tam yeri bilinmiyor, Lisht yakını)
+Avaris / Pi-Ramesse	Tell el-Dab'a / Qantir	30.7863	31.8229	hiksos-15, misir-yeni-krallik	Pleiades 727080 (Avaris/Ramesses)
+Şaruhen (Sharuhen)	Tell el-Ajjul (önerilen, tartışmalı)	31.4667	34.4000	misir-yeni-krallik (Hiksos son kalesi)	yeri tartışmalı; Tell el-Ajjul özdeşleştirmesi Vikipedi «Hyksos» aktarımı, Pleiades'ten doğrulanamadı
+Megiddo (Tel Megiddo)	Tel Megiddo (İsrail)	32.5850	35.1846	misir-yeni-krallik (III. Thutmose, Megiddo savaşı)	Pleiades araması sonuç vermedi; koordinat genel coğrafya bilgisi, doğrulanmalı
+Kadeş (Qadesh)	Tell Nebi Mend (Hums yakını, Suriye)	34.5703	36.5192	misir-yeni-krallik (Kadeş savaşı), Hatti	Pleiades araması sonuç vermedi; koordinat genel coğrafya bilgisi, doğrulanmalı
+Akhetaton (Amarna)	Tell el-Amarna	27.6441	30.8982	misir-yeni-krallik	Pleiades 149576487 (Amarna)
+Tanis (Cane)	San el-Hagar (Doğu Delta)	30.9775	31.8800	misir-3-ara (XXI. Hanedan başkenti)	Pleiades #737069 yanlış nesneye (29.39N 31.03E) işaret etti; koordinat genel bilgi, doğrulanmalı
+Bubastis (Per-Bast)	Tell Basta (Zagazig)	30.5742	31.5120	misir-3-ara (XXII. Hanedan)	Pleiades araması sonuç vermedi; koordinat genel coğrafya bilgisi, doğrulanmalı
+Sais (Sa el-Hagar)	Sa el-Hagar (Batı Delta)	30.7744	30.9671	sait-26-hanedan	Pleiades 727217 (Sais)
+Momemphis	Kom el-Hisn yakını (Batı Delta)	30.6005	30.7951	sait-26-hanedan	Pleiades 727165 (Momemphis)
+Naukratis	Kom Gieif (el-Nibeyra, Batı Delta)	30.5919	30.9005	sait-26-hanedan	Pleiades 727169 (Naucratis)
+Pelusium	Tell el-Farama (Port Said doğusu)	31.0426	32.5471	ahamenis-misir, ptolemai, iskender	Pleiades 727192 (Pelusium)
+Heroonpolis (Pithom çevresi)	Tell el-Maskhuta (Vadi Tumilat)	30.5500	32.0900	ptolemai, roma-misir	Pleiades araması yapılmadı; koordinat yaklaşık genel bilgi, doğrulanmalı
+Napata (Cebel Barkal)	Karima (Sudan)	18.5660	31.8537	kush-krallik, kush-25-hanedan	Pleiades 805634 (Napata); Atlas'taki 'Merevî' (18.55N 31.85E) aynı bölgededir ama Meroe değil Marawi'dir
+Meroe	Begrawiya piramitleri (Sudan)	16.9373	33.7503	kush-krallik	Pleiades 97711900 (Pyramids of Meroe)
+Pselkis (Dakka)	Dakka (Aşağı Nubya)	23.1957	32.7494	kush-krallik, roma-misir	Pleiades 795846 (Pselchis)
+Hiera Sykaminos (Maharraqa)	Maharraqa (Aşağı Nubya)	23.0613	32.7032	roma-misir (Roma-Kush sınırı MÖ 21/20 - MS ~298)	Pleiades 795815 (Hierasykaminos); Pleiades 'Temple of Maharraqa' 151986836 başka bir koordinat verir (22.8007N 32.5476E)
+Kirene (Cyrene)	Shahhat (Libya)	32.8245	21.8508	ptolemai	Pleiades 534059885 (Theater of Cyrene)
+Seleukeia Pieria	Çevlik / Samandağ yakını (Hatay)	36.1217	35.9425	ptolemai, seleukos	Pleiades araması sonuç vermedi; koordinat genel bilgi, doğrulanmalı
+Paneion (Paneas)	Banyas (Golan eteği)	33.2475	35.6935	ptolemai, seleukos	Pleiades 678324 (Paneas/Caesarea Philippi)
+Syene	Asvan (Atlas'ta 'Asvan' olarak var)	24.0886	32.9015	roma-misir, kush-krallik	Pleiades 786123 (Syene) — Atlas'ta var (yer_id: Asvan)
+Aktion (Actium)	Aktio / Preveza yakını (Yunanistan)	39.0277	20.7357	ptolemai (son savaş)	Pleiades 495850428 (Actium Victory Monument)
+Eleusis (İskenderiye yakını)	İskenderiye doğusu (Nikopolis yakını)			ptolemai	konum belirsiz (koordinat verilmedi)
+Salamis (Kıbrıs)	Famagusta yakını (Atlas'ta Magosa var)			ptolemai	Atlas'taki 'Magosa' yakın; Salamis ayrı nokta olarak yok
+ad	modern_ad	lat	lon	ilgili_devlet	ilk_kaynak	not
+Hattuşa	Boğazkale (Çorum)	40.0198	34.6153	hitit-eski/hitit-imp	Pleiades 'Hattusa'	koordinat genel bilgi, sayfa açılmadı
+Kaneş (Neşa)	Kültepe (Kayseri)	38.8514	35.6309	eski-asur/hitit-eski	Veenhof & Eidem 2008	koordinat genel bilgi
+Kalhu (Nimrud)	Nimrud (Musul)	36.0986	43.3281	orta-asur/yeni-asur	Livius 'Kalhu (Nimrud)'	koordinat genel bilgi
+Karkemiş	Cerablus (Gaziantep/Halep sınırı)	36.8283	38.0147	hitit-imp/yeni-hitit	Livius 'Karchemish'	koordinat genel bilgi
+Samiriye (Samaria)	Sebastiya (Batı Şeria)	32.2756	35.1939	israil-krallik	Livius 'Israel'	koordinat genel bilgi
+Karkar (Qarqar)	Tell Qarqur (Hama)	35.8167	36.3667	yeni-asur	Livius 'Qarqar (853 BCE)'	konum tartışmalı (Hamat yakını)
+Megiddo	Tel Megiddo	32.5851	35.1807	yahuda	Livius 'Megiddo'	koordinat genel bilgi
+Aşkelon	Aşkelon (İsrail)	31.6583	34.5469	filistin-pentapolis	ABC 5	koordinat genel bilgi
+Teymâ (Tayma)	Teymâ (Suudi Arabistan)	27.6286	38.5451	yeni-babil	ABC 7	koordinat genel bilgi
+Opis	Dicle kıyısı, Bağdat güneyi (Tell Mohammed?)	33.1	44.3	yeni-babil	ABC 7	konum yaklaşık, kesin değil
+Memfis (Menfe/Mit Rahina)	Mit Rahina (Mısır)	29.8447	31.2511	yeni-asur/ahamenis-misir	Livius 'Memphis'	atlastaki 'Memphis' ABD kentidir
+Teb (Waset)	Luksor	25.7188	32.6573	yeni-asur	Livius 'Assyria'	koordinat genel bilgi
+Pelusion	Tell el-Farama	31.0434	32.5469	ahamenis-misir	Livius 'Cambyses II'	koordinat genel bilgi
+Harran	Harran (Şanlıurfa)	36.8625	39.0267	yeni-asur	ABC 3	atlasta 'Harran' yok; Carrhae aynı yer
+Sardes (Sart)	Sart (Salihli, Manisa)	38.4880	28.0400	lidya/ahamenis	Livius 'Lydia'	atlasta yok
+Ekbatana (Hegmatane)	Hamedan	34.7983	48.5148	medya/ahamenis	Livius 'Ecbatana (Hamadan)'	atlasta yok
+Hekatompylos	Şehr-i Kumis (Damgan)	36.18	54.37	part	Livius 'Parthian Empire'	konum tartışmalı
+Paneion (Banyas)	Banyas (Golan)	33.2481	35.6942	selevkos	Polybios XVI.18	koordinat genel bilgi
+Hatra	Al-Hadr (Irak)	35.5886	42.7217	sasani	Dodgeon & Lieu 1991	koordinat genel bilgi
+Kadeş	Tell Nebi Mend (Humus)	34.5694	36.5136	hitit-imp	Kitchen 1982	koordinat genel bilgi
+Arpad	Tell Rifaat (Halep)	36.4806	36.8172	urartu	Tadmor 1994	koordinat genel bilgi
+Musasir	Mudjesir (Irak-İran sınırı)	36.9	44.4	urartu	Livius 'Urartu'	konum tartışmalı
+Pteria	Kerkenes Dağ? (Yozgat)	39.749	35.253	lidya	Herodotos I.76	konum tartışmalı
+Dur-Untaş (Çoğa Zanbil)	Çoğa Zanbil (Huzistan)	32.0094	48.5222	elam-orta	Livius 'Dur Untaš'	koordinat genel bilgi
