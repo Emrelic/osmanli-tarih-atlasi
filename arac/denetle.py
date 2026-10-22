@@ -4680,6 +4680,9 @@ def _bilinen_ayri(cift):
     return None
 
 
+MUKERRER_YER_AYIRT = True       # sınav için kapatılabilir (eski ölçütle kıyas)
+
+
 def mukerrer_maddeler(O):
     """İki ölçüt: (1) başlık benzerliği + ±400 gün, (2) ortak kişi + ±3 gün."""
     S = sorted(O, key=lambda o: gn(o["t"]))
@@ -4690,6 +4693,14 @@ def mukerrer_maddeler(O):
             fark = _gun_no(S[j]["t"]) - gi
             if fark > MUKERRER_GUN:
                 break                       # sıralı: bundan sonrası daha da uzak
+            # 🆕 22 Ekim 2026 (Emre onaylı): iki maddenin yer_id'si İKİSİNDE DE dolu ve FARKLIysa
+            # çift mükerrer sayılmaz — farklı şehirdeki aynı-gün aynı-devir maddeleri (İskender,
+            # Persepolis, 1118 Irak Selçuklu, 1204-04-13 Bizans→İznik/Latin, 1097 Haçlı) sahici
+            # mükerrer değil. yer_id boş/aynıysa eski ölçüt aynen geçerli.
+            if MUKERRER_YER_AYIRT:
+                _yi, _yj = S[i].get("yer_id"), S[j].get("yer_id")
+                if _yi and _yj and _yi != _yj:
+                    continue
             istisna = _bilinen_ayri((S[i]["b"], S[j]["b"]))
             a, b = _kelimeler(S[i]["b"]), _kelimeler(S[j]["b"])
             oran = 0.0
@@ -7534,7 +7545,12 @@ def main():
     # yarin dogacak GERCEK bir mukerrer "114 <= 114" diye gecer.
     # 6 EKIM 2026: 113 -> 95. MUKERRER-OLCUT-1006 ile ayni commit'te (3.4-2);
     # olcut daraldi, 112 -> 95 olculdu (yazmadan hemen once, makine/umit).
-    BEKLENEN_MUKERRER = 95
+    # 22 EKIM 2026: 95 -> 70 (IYILESME). Olcut duzeltildi: yer_id ikisinde de dolu ve FARKLI cift
+    # artik mukerrer sayilmaz (25 cift dustu; hepsi farkli sehirdeki ayni gun ayni devir maddesi:
+    # Trianon/Bukres/Londra/Lozan/Tartu-Riga siniri vb.; sinav denetim/ARAC-MUKERRER-YER-SINAV-1022.py).
+    # Emre onayiyla bekleyen veri dallari icin GECICI 135 istenmisti; olcut duzelince tavan GERCEK olcume
+    # indi (tavan yalniz iyilesince iner kurali). Yeni veri bunu asarsa yeni sayi gerekceyle yazilir.
+    BEKLENEN_MUKERRER = 70
     durum5 = "✓" if len(mk) <= BEKLENEN_MUKERRER else "✗"
     if len(mk) > BEKLENEN_MUKERRER:
         ihlal = True
