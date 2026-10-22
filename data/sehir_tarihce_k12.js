@@ -489,6 +489,73 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Kuruluş tarihi bulunamadı (kur=null). Şehir hakları 1300/1306 (Utrecht piskoposu Gwijde van Avesnes) ve 1342 (Willem IV) — yalnızca WebSearch özeti (webwoordenboek.nl), akademik kaynakla doğrulanmadı. Çift teyit YOK: Stadsarchief sayfaları (amsterdam.nl) bot duvarı ile curl'e kapalı, patrimoine/dbnl/OpenEdition erişilemedi. Vikipedi tek başına dayanak değildir; kaynak=Stadsarchief özeti."
  },
  {
+  "id": "angkor",
+  "ad": "Angkor (Siem Reap)",
+  "atlas_ad": "Angkor (Siem Reap)",
+  "lat": 13.412,
+  "lon": 103.867,
+  "kat1900": 3,
+  "adlar": [
+   "Yaśodharapura (Yasodharapura)",
+   "Angkor"
+  ],
+  "ilk": {
+   "t": "0889-01-01",
+   "gun": "889",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. VIII 'The Kingdom of Angkor (877-1001)' (Sdok Kak Thom steli aktarımı, Yaśovarman I)",
+   "tanik": "the king founded the city of Yasodharapura",
+   "ic_not": "Kuruluş TARİHİ kaynakta verilmiyor: Coedès şehri Yaśovarman I'e atfeder, soyağacı tablosunda saltanatı 889-900; 'tahta çıktığı yıl 889' (Coedès: 'The very year of his accession, 889') ALT SINIR alındı (kuruluş saltanat içinde, 889-900; güvenli uç değil, belirsiz). İkinci tanık Vikipedi (en 'Angkor'): 'In 889 AD, Yasovarman ascended to the throne ... constructed a new city, Yasodharapura' (bağımsız değil). Britannica/Persée-PDF açılamadı (403/captcha). Şehrin merkezi Phnom Bakheng'dir (Coedès); atlas noktası Angkor Wat'a denk gelir, Phnom Bakheng'e uzaklığı bu oturumda ölçülmedi (yakın, ≤ ~1 km varsayımı kanıtsız). OCR notu: alıntıda Coedès OCR'ındaki bozuk diyakritikler düzeltildi."
+  },
+  "kur": {
+   "t": "0889-01-01",
+   "gun": "889",
+   "kesinlik": "belirsiz",
+   "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. VIII",
+   "tanik": "the king founded the city of Yasodharapura"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0889-01-01",
+    "t": "1000-01-01",
+    "d": "angkor-kmer",
+    "kesinlik": "yil",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR); Yaśovarman I (889-900) ... Jayavarman V (968-1001) soyağacı tablosu",
+    "ic_not": "Koh Ker dönemi (928-944): başkent Angkor'dan Koh Ker'e taşındı (Coedès), şehir 'uzun süre terk edilmiş' kaldı, 944'te Rajendravarman geri döndü; devlet (Khmer) değişmedi, bu yüzden sahiplik dönemi bölünmedi, taşıma olay olarak yazıldı. Atlas Angkor sahipliği 1000-01-01'de angkor-kmer ile başlıyor (aynı sahip, dikiş sorunsuz)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0889-01-01",
+    "gun": "889",
+    "k": "kurulus",
+    "b": "Yaśovarman I Yaśodharapura'yı (Phnom Bakheng merkezli) kurar; Devaraja kültünü Hariharalaya (Roluos)'tan buraya taşır.",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "the king founded the city of Yasodharapura"
+   },
+   {
+    "t": "0928-01-01",
+    "gun": "928",
+    "k": "diger",
+    "b": "Jayavarman IV başkenti Koh Ker'e taşır; Yaśodharapura bir süre başkent olmaktan çıkar (Khmer devleti aynı).",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "Jayavarman IV built his new residence on the present-day site of Koh Ker"
+   },
+   {
+    "t": "0944-01-01",
+    "gun": "944",
+    "k": "diger",
+    "b": "Rajendravarman (944-968) Yaśodharapura'ya döner, Devaraja'yı geri getirir ('terk edilmiş' şehri onarır).",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "he restored the sacred city of"
+   }
+  ],
+  "ic_not": "ilk=kurulus (alt sınır 889; gün/ay yok). Kaynaklar: Coedès (ANU Press baskısı, tam metin) + Vikipedi (ikincil). Britannica 'Angkor' 403 verdi; Persée PDF'leri captcha ile korunuyor (açılmadı). Atlas düzeltme önerisi YOK: atlas s: zaten 1000-01-01'de başlıyor (daha önce 'ONCE1281-GERIYE' ile 1000'e çekilmiş); bu dosya 889-1000 arası boşluğu kaynaklı doldurur ve atlas başlangıcını 889'a çekmeyi önerir (angkor-kmer künyesi 802'de başlar). Hariharalaya (Roluos grubu) ve Mahendraparvata (Kulen) Yaśodharapura'dan ayrı yerlerdir (Coedès: Yaśovarman başkenti Hariharalaya'dan taşıdı); uzaklıkları ölçülmedi, burada yazılmadı."
+ },
+ {
   "id": "aquincum-obuda-pest",
   "ad": "Aquincum-Óbuda-Pest",
   "atlas_ad": "Aquincum-Óbuda-Pest",
@@ -3350,6 +3417,91 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS ÇELİŞKİSİ (1281 başlangıcı): ilk yazılı tanık 1459-09-20 > atlas başlangıcı 1281-01-01. Atlas Bükreş noktasını macaristan 1281-01-01 → 1330, eflak 1330-1462 olarak açıyor; kaynak bunu desteklemiyor (1281-1459 arasında yazılı tanık yok). Bu yüzden sahip zinciri BOŞ bırakıldı (denetim 'ilk.t atlas başlangıcından sonra' uyarısı beklenir). Öneri: Bükreş noktası 1459-09-20 öncesinde gösterilmesin (motor kur/bit penceresi = ilk.t'den başlasın); macaristan 1281-1330 dönemi kaynaksız (Bükreş bölgesi Macar krallığı toprağı olduğuna dair tanık bulunamadı: Eflak/Basarab devleti 1330 Posada öncesi 'Terra Transalpina' Macar nominal egemenliği olabilir ama bu oturumda açılmadı); eflak dönemi nokta ilk.t'den itibaren geçerli. KAYNAK SEÇİMİ: TDV 1368 'Cetatea Dâmboviţei' ismiyle geçtiğini yazar, ancak (a) bu ad Bükreş'in kendi adı değildir, yeri kesin olmayan ad eşitlemesidir (VERI-YAPISI kuralı: başlangıç sayılmaz), (b) Treccani 'Bucarest' (Enciclopedia on line): 'L'origine di B. e l'etimologia del nome sono incerte', (c) Constantin 2011: 'Cetatea Dâmboviţa' adı 1458-59'da Vlad Ţepeş'in inşa ettiği Bükreş kalesinin yan adıdır. Bu yüzden adı kesin taşıyan en eski belge (1459-09-20) alındı; TDV-esas kuralı ile çelişki beyan edilir ve karar Emre'ye bırakılır (alternatif ilk: TDV 1368, yıl hassasiyeti, yer eşitlemesi belirsiz). 1459 tarihi için ikinci akademik tanık bulunamadı (Newsweek RO ve Wikipedia 20.09.1459'u aktarır ama popüler/ikincil olduğu için kaynak sayılmadı; Wikipedia 13 Haziran 1458 tarihli Latince bir belgeden de söz eder — bu oturumda doğrulanmadı). Tanik metni PDF OCR çıktısından birebir alındı ('20septembrie1459' bitişik). ARKEOLOJİ: Curtea Veche kazılarında XIV. yy ikinci yarısına ait kule/tahkimat var (ark alanı); yazılı tanık (1459) mevcut olduğundan arkeolojik katman ilk olmadı; arkeolojik tarih (XIV. yy ikinci yarısı, 1350-1399) yazılı tanıktan eskidir ama o da 1281'den sonradır — atlas başlangıcı 1281 ile ÇELİŞİR: arkeolojik bulgu da 1281'de şehir olduğunu göstermez. Treccani: 'Residenza invernale dei principi di Valacchia alla metà del 15° sec.'. Bükreş modern noktası (44.427, 26.103) ile Curtea Veche (~44.4318, 26.1018) arası < 1 km."
  },
  {
+  "id": "cao-bang",
+  "ad": "Cao Bằng",
+  "atlas_ad": "Cao Bằng",
+  "lat": 22.666,
+  "lon": 106.258,
+  "kat1900": 3,
+  "adlar": [
+   "Quảng Nguyên (廣源州)",
+   "Cao Bình / Cao Bằng"
+  ],
+  "ilk": {
+   "t": "1038-01-01",
+   "gun": "1038",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之二 (MediaWiki API ile okundu) (1038 sonu, 12. ay: '廣源州儂存福叛')",
+   "tanik": "十二月，廣源州儂存福叛",
+   "ic_not": "BÖLGE DÜZEYİ — KURAL İSTİSNASI (BEYANLI): Toàn thư'de Cao Bằng çevresinin ilk anılışı 'Quảng Nguyên châu' (廣源州) olarak: Nùng Tồn Phúc (儂存福) 1038'in 12. ayında isyan eder ('皆屬廣源州，歲輸土貢' = çevre boyları Quảng Nguyên'e haraç öder). Vikipedi (en 'Cao Bằng Province'): Quảng Nguyên (bugünkü Cao Bằng+Lạng Sơn) 1039'da Lý Thái Tông Nùng Trí Cao'yu sürünce Đại Việt'e katıldı. Quảng Nguyên'in merkezinin atlas Cao Bằng noktasına göre yeri bu oturumda DOĞRULANMADI (YER EŞİTLEMESİ KANITLANMADI). Kural gereği 'yeri kesin olmayan ad eşitlemesi' başlangıç sayılmaz; Cao Bằng kentine bağlı 1281 öncesi şehir düzeyi yazılı tanık BULUNAMADI (Toàn thư zh sayfalarında 本紀卷之七-十二 '高平' araması 0 sonuç; sayfalar eksik olabilir). Kayıt 'bölge zinciri' olarak ÖNERİ statüsündedir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1038-01-01",
+    "t": "1225-01-01",
+    "d": "ly-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之二 (MediaWiki API ile okundu); Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之三 (MediaWiki API ile okundu)",
+    "ic_not": "Lý hanedanı Quảng Nguyên'i 1039'da (Tồn Phúc'u yakalayarak) kontrol eder. KISA/BELİRSİZ SÜRELİ ayrılıklar dönem AÇILMADAN olay olarak yazıldı: Tồn Phúc 'Trường Sinh quốc' (1038), Nùng Trí Cao 'Đại Lịch quốc' (1041), 'Đại Nam' (1052) — Nùng bölgesi Quảng Nguyên'i ne kadar tuttuğu ve Cao Bằng noktasını kapsayıp kapsamadığı belirsiz. Lý–Song çatışması: Song 1076-77 Quảng Nguyên'i alır, 1084 iade (Toàn thư 甲子 '宋以六縣三洞還我')."
+   },
+   {
+    "f": "1225-01-01",
+    "t": "1281-01-01",
+    "d": "tran-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之五 (MediaWiki API ile okundu)",
+    "ic_not": "Trần hanedanı (1225-1400). Atlas Cao Bằng: 1281-01-01 tran-hanedani (aynı sahip). 1225 devri Çin lunisolar 12. ay (Gregoryen çevrim: Ocak 1226 olabilir) → yıl."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1038-01-01",
+    "gun": "1038 (Çin 12. ay)",
+    "k": "isyan",
+    "b": "Quảng Nguyên'li Nùng Tồn Phúc isyan eder, 'Chiêu Thánh hoàng đế' unvanı alır, ülkesine 'Trường Sinh quốc' adını verir.",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之二 (MediaWiki API ile okundu)",
+    "tanik": "十二月，廣源州儂存福叛"
+   },
+   {
+    "t": "1039-01-01",
+    "gun": "1039",
+    "k": "fetih",
+    "b": "Lý Thái Tông Quảng Nguyên'i fetheder, Tồn Phúc ve oğlu Trí Thông esir alınır (Trí Cao ve annesi kaçar).",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之二 (MediaWiki API ile okundu)",
+    "tanik": "擭存福及智聰等五人"
+   },
+   {
+    "t": "1041-01-01",
+    "gun": "1041",
+    "k": "isyan",
+    "b": "Nùng Trí Cao annesiyle Đảng Do châu'yu yeniden ele geçirir, adını 'Đại Lịch quốc' yapar; Lý ordusu onu esir alır (sonra bağışlanır).",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之二 (MediaWiki API ile okundu)",
+    "tanik": "改其州曰大曆國"
+   },
+   {
+    "t": "1052-01-01",
+    "gun": "1052",
+    "k": "isyan",
+    "b": "Nùng Trí Cao yeniden isyan eder, 'Nhân Huệ hoàng đế', ülke adı 'Đại Nam', Song sınırlarına saldırır.",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之三 (MediaWiki API ile okundu)",
+    "tanik": "儂智髙叛，僣稱仁惠皇帝。國號大南"
+   },
+   {
+    "t": "1225-01-01",
+    "gun": "1225",
+    "k": "diger",
+    "b": "Lý Chiêu Hoàng tahtı Trần Cảnh'e devreder (Trần Thái Tông, Çin 12. ay).",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "乙酉冬十二月十二日戊寅受昭皇禅"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Cao Bằng 'kale' kd:1527-06-15→1677-01-01 (Mạc) — Vikipedi: Mạc Cao Bằng'daki yerleşimi, kentin ~12 km KUZEYİNDEKİ CAO BÌNH'dir ('ruins of a temple ... palace of the Mạc Kings ... Cao Bình ... about 12 kilometres north of Cao Bằng'); atlas noktası (22.666, 106.258) Cao Bằng kent merkezidir (Mạc sarayı DEĞİL) → Mạc dönemi için ayrı 'Cao Bình' noktası önerilir (Vikipedi tek dayanak; Toàn thư zh sayfalarında '高平' 15. yy sayfalarında bulunmadı). Kuruluş: Cao Bằng kentinin kuruluş tarihi BULUNAMADI. Çift teyit YOK."
+ },
+ {
   "id": "chambery",
   "dikis_beyan": "Atlas Chambéry'yi 1281'de 'sardinya' diye başlatıyor; zincirin kaynaklı son sahibi savoya (Savoy Kontluğu, künye 1032-1720). 'sardinya' (Sardinya Krallığı) 1720'de doğar → atlas başlangıç etiketi savoya olmalı; 1281'de kaynaklı bir el değiştirme aranıp bulunamadı, yer tutucu olay yazılmadı.",
   "ad": "Chambéry",
@@ -3435,6 +3587,39 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Kuruluş bulunamadı. 1232 alımının günü: Fr. Vikipedi '15 mars 1232' (Mariotte-Löber, Ville et seigneurie, Droz 1973, s.123 — kitap açılamadı); Treccani yalnız yıl veriyor. 1295 başkent/şato alımı (Amedeo V) kaynaksız. HLS/Persée/Académie de Savoie açılamadı. Çift teyit YOK. 1120 'circa'; 1032-1120 arası ayrıntı bulunamadı."
+ },
+ {
+  "id": "champasak",
+  "ad": "Champasak",
+  "atlas_ad": "Champasak",
+  "lat": 14.892,
+  "lon": 105.876,
+  "kat1900": 3,
+  "adlar": [
+   "Bassac",
+   "Champasak (Champassak)"
+  ],
+  "ilk": {
+   "t": "1713-01-01",
+   "gun": "1713",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Vikipedi (en) 'Kingdom of Champasak', https://en.wikipedia.org/wiki/Kingdom_of_Champasak (curl ile okundu; bilgi kutusu year_start 1713) — TEK DAYANAK, akademik teyit bulunamadı (OpenAlex → sonuç yok)",
+   "tanik": "1713–1904 kingdom in modern-day southern Laos and eastern Thailand",
+   "ic_not": "Krallık (ve onunla kent merkezi olarak) 1713 (Lan Xang'ın parçalanması, Nokasad ilk kral 1713-1737 — Vikipedi). Kuruluş nicelik: krallığın kuruluşu, şehrin ayrı kuruluşu değil; başkent Champasak kenti olduğu için atlas kur=1713 ile uyumlu. Antik Khmer/Chenla yerleşimi Wat Phu (Vat Phou) atlas noktasından ~7,7 km GB'dadır (hesaplandı; koordinatlar bu oturumda başka kaynaktan doğrulanmadı) → kural: antik yer >3 km ise burada yazılmaz, 'Wat Phu / Shrestapura' ayrı kayıt olarak ÖNERİLİR. Akademik ikinci tanık (LAJ 2020, Champasak Cultural Landscape): 'Khmer culture in the 5th to 13th centuries' ve 16. yy'da Lao yerleşimi."
+  },
+  "kur": {
+   "t": "1713-01-01",
+   "gun": "1713",
+   "kesinlik": "yil",
+   "kaynak": "Vikipedi (en) 'Kingdom of Champasak' (tek dayanak)",
+   "tanik": "1713–1904 kingdom in modern-day southern Laos and eastern Thailand"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "ATLAS: kur 1713 ve s: 1713-01-01 'laos-kralliklari' ile başlıyor — Vikipedi ile uyumlu; 1281 öncesi nokta için sahip zinciri YOK (şehir 1713). Journal of Landscape Architecture & Planning 21 (2020) 'Water Element in the Champasak Cultural Landscape' (Khmer 5.-13. yy peyzajı, Lao yerleşimi 16. yy) pdftotext ile okundu; 1713 tarihi içermiyor. Wat Phu için öneri: ayrı kayıt (UNESCO listesi ve Coedès Chenla bölümleri kaynak olarak taranmalı; bu oturumda açılmadı)."
  },
  {
   "id": "changsha",
@@ -6460,6 +6645,223 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ÜRETİM: Kayıt Roma castrum kuruluşundan (106) başlıyor; castrum 'bugünkü kalenin yerinde' (turism.apulum.ro) ⇒ atlas noktası (46.0678, 23.58) ile <1 km: antik Apulum bu noktaya yazıldı. Sivil Apulum (canabae/Colonia Aurelia Apulensis, Partoş) ve Dakya dönemi AYRI/yakın kayıt gerektirebilir; bu oturumda mesafeleri kaynakta ölçülmedi. PTOLEMAIOS 'Apoulon': Wikipedia modern tanımlama olarak Craiva/Piatra Craivii (~20 km kuzey) der (ikincil, doğrulanmadı) ⇒ Dakya döneminin Apulon'u bu noktaya yazılmadı; önerilen ayrı kayıt: 'Piatra Craivii (Apulon?)'. Ptolemaios'un kendi metni bu oturumda açılamadı (penelope Thayer sayfası boş). MKL: 'Ter-én Kr. e. 2-1. évezredi, kora vaskori erődítményt tártak föl' — yeri ayrıntısız olduğu için ark yazılmadı. DAKYA SAHİPLİĞİ: künye dakya (-0081..0106) bu nokta için kaynaklı tanık bulunamadığı için yazılmadı (ilk.t = 106). ARALIK: 275→896 __BILINMIYOR__ (bkz. sahip[1]); gepid/avar/birinci-bulgar künyeleri bölge düzeyinde TDV tanıklığı olduğu için KULLANILMADI. ATLAS 1281: atlas macaristan 1281-01-01 ile uyumlu; öneri yok. ŞEHİR İLK ANILIŞI (Roma sonrası): MKL 'Gyulafehérvár' adlarını sayar (Bălgrad, Alba Iulia, Weissenburg) ve ilk Orta Çağ tarihi olarak '1002-ig a Gyulák / 1009 piskoposluk' verir; 1009 piskoposluğu MKL'ye göre kesin (Wikipedia/Explore Carpathia ikincil). BULGAR İZİ: MKL 'az első dunai bolgár kagánok idején ismét benépesült' tarihsiz; Bălgrad adının kaynağı (Bulgar/Slav 'beyaz kale') ayrıca doğrulanmadı. Wikipedia/Explore Carpathia tek dayanak olmadığı için hiçbir tarih yalnızca onlardan alınmadı. Kaynak notu: MKL (Magyar Katolikus Lexikon, akademik Macar ansiklopedisi) açıldı; Kristó 'Korai magyar történeti lexikon' açılamadı."
  },
  {
+  "id": "hanoi",
+  "ad": "Hanoi (Thăng Long)",
+  "atlas_ad": "Hanoi (Thăng Long)",
+  "lat": 21.028,
+  "lon": 105.834,
+  "kat1900": 2,
+  "adlar": [
+   "La Thành / Đại La (羅城, 大羅城)",
+   "Thăng Long (昇龍)",
+   "Hà Nội"
+  ],
+  "ilk": {
+   "t": "0767-01-01",
+   "gun": "767",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu) (唐大曆二年 = 767 maddesi); konum ve tarih teyidi: Đại Việt sử ký toàn thư, Mạc Bảo Thần çevirisi (Tân Việt 1945), Tập II, Cuốn thứ năm 'Đời thuộc Tùy và Đường', https://vi.wikisource.org/wiki/Đại_Việt_sử_ký_toàn_thư/Tập_II/Cuốn_thứ_năm/Đời_thuộc_Tùy_và_Đường (K.Đ.V.S. dipnotu: 'Đại La-Thành, Trương Bá Nghi đắp từ năm thứ 2 hiệu Đại-Lịch')",
+   "tanik": "伯儀更築羅城",
+   "ic_not": "İLK ANILIŞ (kuruluş değil), alt sınır. Toàn thư (zh) 767: 'Kunlun ve Java saldırıp vilayet şehrini aldı; Zhang Boyi La şehrini yeniden inşa etti' ('更築' = yeniden/ek inşa; yani surlu Tang koruyuculuk şehri daha eskidir). Konum: Mạc Bảo Thần çevirisindeki K.Đ.V.S. (Khâm định Việt sử) notları La Thành'ı bugünkü Hà Nội surlarıyla özdeşler ('Nay ngoài tỉnh thành Hà Nội, bốn mặt có lũy đất'). Daha erken adaylar YAZILMADI çünkü yeri kesin değil: Long Biên (Toàn thư: Lý Bí 541-544 'Vạn Xuân' başkenti, çeviri notu Thanh Trì/Vạn Phúc gölü diyor), Tống Bình ilçesi (5. yy, Toàn thư notunda yeri belirsiz), Han Giao Chỉ komutanlık merkezi Liên Lâu/Luy Lâu (Toàn thư notu: Bắc Ninh'te, Hanoi'ye ~30 dặm) — kural: yeri kesin olmayan ad eşitlemesi başlangıç sayılmaz. Cổ Loa (Toàn thư: An Dương Vương / Ngô Quyền 'Loa thành') Hanoi dışındaki ayrı yerdir (uzaklık ölçülmedi), burada yazılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0767-01-01",
+    "t": "0863-01-01",
+    "d": "tang",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu); Đại Việt sử ký toàn thư, Mạc Bảo Thần çevirisi (Tân Việt 1945), Tập II, Cuốn thứ năm 'Đời thuộc Tùy và Đường', https://vi.wikisource.org/wiki/Đại_Việt_sử_ký_toàn_thư/Tập_II/Cuốn_thứ_năm/Đời_thuộc_Tùy_và_Đường",
+    "ic_not": "Tang An Nam Koruyuculuğu merkezi (Đô hộ phủ): Toàn thư'nin Tang bölümü (622 'An Nam đô hộ phủ'). Merkez 824'te Tô Lịch kıyısına taşındı (李元嘉 '移撫治於蘇歷江', Trường Khánh 4) ve 866'da Cao Biền Đại La'yı genişletti — aynı bölge."
+   },
+   {
+    "f": "0863-01-01",
+    "t": "0866-01-01",
+    "d": "nanzhao",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "ic_not": "Nanzhao (南詔) 863'te Tang koruyuculuk şehrini aldı, vali Duan Qiuqian (段酋遷) yönetti; 866'da Cao Biền geri aldı. Ay/gün Çin lunisolar takvimi (咸通四年 正月庚午; Gregoryen çevrimi yapılmadı) → yıl hassasiyeti."
+   },
+   {
+    "f": "0866-01-01",
+    "t": "0907-01-01",
+    "d": "tang",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "ic_not": "Cao Biền Jinghai (靜海) askerî valiliğinin ilk valisi; yıl hassasiyeti (lunisolar 10-11. ay 866)."
+   },
+   {
+    "f": "0907-01-01",
+    "t": "0930-01-01",
+    "d": "tinh-hai-ozerk",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu) (丁卯 唐天祐四年 = 907)",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK — önerilen id 'tinh-hai-ozerk' (Tĩnh Hải/Jinghai askerî vali yönetimi, fiilî özerk: Khúc Hạo → Khúc Thừa Mỹ). Önerilen ömür: 907-01-01 (Tang'ın düşüşü / Khúc Hạo'nun 'tiết độ sứ' unvanı) – 930. Toàn thư (zh) Khúc Thừa Mỹ'nin Güney Han tarafından yakalanmasını 923'e (癸未) koyar; ZZTJ 277 ve Xin Wudai shi 930'a (長興元年/大有三年) — ÇELİŞKİ, iki bağımsız Çin kaynağı 930 dediği için 930 alındı. Aynı id 931-938 için de kullanıldı (Dương Đình Nghệ, Kiều Công Tiễn). Künye açılırsa kunye_yok kalkar."
+   },
+   {
+    "f": "0930-01-01",
+    "t": "0931-01-01",
+    "d": "guney-han-10krallik",
+    "kesinlik": "yil",
+    "kaynak": "Sima Guang, Zizhi Tongjian (資治通鑑) j.277 (後唐紀六, 長興元年 = 930), https://zh.wikisource.org/wiki/資治通鑑/卷277; Ouyang Xiu, Xin Wudai shi (新五代史) j.65 (南漢世家), https://zh.wikisource.org/wiki/新五代史/卷65",
+    "ic_not": "Güney Han (Nan Han) Giao Châu'yu aldı, 931'de Dương Đình Nghệ geri aldı (ZZTJ 277 ve Toàn thư 辛卯). Yıl hassasiyeti."
+   },
+   {
+    "f": "0931-01-01",
+    "t": "0938-01-01",
+    "d": "tinh-hai-ozerk",
+    "kesinlik": "yil",
+    "kaynak": "Sima Guang, Zizhi Tongjian (資治通鑑) j.277 (後唐紀六, 長興元年 = 930), https://zh.wikisource.org/wiki/資治通鑑/卷277; Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK — 'tinh-hai-ozerk' (bkz. önceki dönem): Dương Đình Nghệ (931-937), Kiều Công Tiễn (937-938, ZZTJ 281: 皎公羨). Kısa ardıl yönetimler ayrı dönem açılmadı (aynı Tĩnh Hải yapısı)."
+   },
+   {
+    "f": "0938-01-01",
+    "t": "0966-01-01",
+    "d": "ngo-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Sima Guang, Zizhi Tongjian (資治通鑑) j.281 (後晉紀二, 天福二-三年 = 937-938), https://zh.wikisource.org/wiki/資治通鑑/卷281; Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK — önerilen id 'ngo-hanedani' (Ngô hanedanı: Ngô Quyền 939 krallık unvanı, Cổ Loa başkent 'Loa thành'; Dương Tam Kha 944-950, Nam Tấn vương Ngô Xương Văn 950-965). Önerilen ömür 938-01-01 (Ngô Quyền Giao Châu'yu ele geçirir; ZZTJ 281, Bạch Đằng) – 966-01-01 (Toàn thư: 丙寅 '南吳亡'). Not: unvan 939'da alındı (己亥元年); fiilî kontrol 938."
+   },
+   {
+    "f": "0966-01-01",
+    "t": "0968-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "ic_not": "12 Sứ Quân dönemi (十二使君, 966-968): Toàn thư (zh) ele geçirenlerin üslerini listeler (Bình Kiều, Phong Châu, Tam Đái, Đường Lâm/Cầu Liễu, Đỗ Động Giang, Siêu Loại, Tiên Du, Tế Giang, Tây Phù Liệt, Hồi Hồ, Đằng Châu, Bố Hải Khẩu); Hanoi'yi (La Thành) kimin tuttuğu SAYILMIYOR → sahibi belirsiz (beyanlı boşluk)."
+   },
+   {
+    "f": "0968-01-01",
+    "t": "0980-01-01",
+    "d": "dinh",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之一 (MediaWiki API ile okundu)",
+    "ic_not": "Đinh hanedanı (968-980, Toàn thư: '右丁朝二帝，起戊辰，終庚辰'). Başkent Hoa Lư; La Thành ayrı sahibi belirtilmez, ülke egemenliği. Künye 'dinh' 968-979 (Đinh Tiên Hoàng ölümü); Đinh Phế Đế 979-980 (çocuk) — 980'e kadar uzatıldı (künye GENİŞLET önerisi: aynı hanedan sürdü)."
+   },
+   {
+    "f": "0980-01-01",
+    "t": "1009-01-01",
+    "d": "tien-le-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之一 (MediaWiki API ile okundu)",
+    "ic_not": "Erken Lê (Tiền Lê): Lê Hoàn (Lê Đại Hành) 980 (Toàn thư 庚辰 '七月以後，黎大行天福元年'); Lê Long Đĩnh (Lê Ngọa Triều) 1005-1009. Başkent Hoa Lư. Yıl hassasiyeti."
+   },
+   {
+    "f": "1009-01-01",
+    "t": "1010-01-01",
+    "d": "ly-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之一 (MediaWiki API ile okundu); Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之二 (MediaWiki API ile okundu)",
+    "ic_not": "Lý hanedanı: Lý Công Uẩn Lê Ngọa Triều ölümünden sonra (10. lunisolar ay 1009) tahta çıktı; künye sınırı 1009-01-01 ile hizalandı (gerçek tahta çıkış 1009'un sonlarında, Gregoryen çevrimi yapılmadı → yıl hassasiyeti; 1009-01-01 – ~Kasım 1009 arası Lê'ye ait). 1010'da (Thuận Thiên 1) başkent Hoa Lư'dan Đại La'ya taşındı ve şehir 'Thăng Long' adını aldı. Atlas Hanoi s: 1010-01-01'de ly-hanedani ile başlar (aynı sahip)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0767-01-01",
+    "gun": "767",
+    "k": "diger",
+    "b": "Tang vali Zhang Boyi (張伯儀) Kunlun/Java saldırısını püskürttükten sonra La Şehri'ni (羅城, Đại La) yeniden inşa eder; ilk anılış.",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "伯儀更築羅城"
+   },
+   {
+    "t": "0863-01-01",
+    "gun": "863",
+    "k": "fetih",
+    "b": "Nanzhao Tang koruyuculuk şehrini (Giao Châu merkezi) alır; vali Cai Xi (蔡襲) ölür. (Çin 1. ay, ay/gün çevrilmedi.)",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "春正月庚午，南詔陷府城"
+   },
+   {
+    "t": "0866-01-01",
+    "gun": "866",
+    "k": "fetih",
+    "b": "Gao Pian (高駢, Cao Biền) Nanzhao'yu yener, Duan Qiuqian'ı öldürür; Jinghai (靜海軍) askerî valiliği kurulur, Cao Biền La Thành'ı genişletir.",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "殺酋遷及士蠻為南詔向道者朱古道"
+   },
+   {
+    "t": "0907-01-01",
+    "gun": "907",
+    "k": "kayip",
+    "b": "Tang düşer; Giao Châu'lu Khúc Hạo (曲顥) vilayet merkezini tutar, 'tiết độ sứ' unvanı alır (fiilî özerklik).",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "交州人曲顥據州治，稱節度使"
+   },
+   {
+    "t": "0930-01-01",
+    "gun": "930",
+    "k": "fetih",
+    "b": "Güney Han komutanları Liang Kezhen/Li Shouyong Giao Châu'yu alır, Jinghai valisi Khúc Thừa Mỹ (曲承美) esir alınır. (Toàn thư 923 der; ZZTJ+Xin Wudai shi 930.)",
+    "kaynak": "Sima Guang, Zizhi Tongjian (資治通鑑) j.277 (後唐紀六, 長興元年 = 930), https://zh.wikisource.org/wiki/資治通鑑/卷277; Ouyang Xiu, Xin Wudai shi (新五代史) j.65 (南漢世家), https://zh.wikisource.org/wiki/新五代史/卷65",
+    "tanik": "漢主遣其將梁克貞、李守鄜攻交州，拔之，執靜海節度使曲承美以歸"
+   },
+   {
+    "t": "0931-01-01",
+    "gun": "931",
+    "k": "fetih",
+    "b": "Ái Châu'lu Dương Đình Nghệ (楊廷藝) 3000 evlatlık ile Giao Châu'yu kuşatır, şehir düşer; Güney Han'ı çıkarır, tiết độ sứ olur.",
+    "kaynak": "Sima Guang, Zizhi Tongjian (資治通鑑) j.277 (後唐紀六, 長興元年 = 930), https://zh.wikisource.org/wiki/資治通鑑/卷277; Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "是歲，廷藝舉兵圍交州"
+   },
+   {
+    "t": "0938-01-01",
+    "gun": "938",
+    "k": "fetih",
+    "b": "Ngô Quyền (吳權) Kiều Công Tiễn'i öldürür, Giao Châu'yu tutar; Güney Han donanmasını Bạch Đằng'da yener (Hoằng Tháo ölür). 939'da krallık unvanı.",
+    "kaynak": "Sima Guang, Zizhi Tongjian (資治通鑑) j.281 (後晉紀二, 天福二-三年 = 937-938), https://zh.wikisource.org/wiki/資治通鑑/卷281; Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "權已殺公羨，據交州，引兵逆戰"
+   },
+   {
+    "t": "0966-01-01",
+    "gun": "966",
+    "k": "diger",
+    "b": "Ngô hanedanı sona erer, '12 sứ quân' dönemi başlar (ülke bölünür).",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "南吳亡。羣䧺竟起，各據郡邑自守"
+   },
+   {
+    "t": "0968-01-01",
+    "gun": "968",
+    "k": "kurulus",
+    "b": "Đinh Bộ Lĩnh imparator olur, ülke adı Đại Cồ Việt (大瞿越), başkent Hoa Lư; 12 sứ quân bastırılır.",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之一 (MediaWiki API ile okundu)",
+    "tanik": "帝即位，建國號大瞿越"
+   },
+   {
+    "t": "0980-01-01",
+    "gun": "980",
+    "k": "diger",
+    "b": "Lê Hoàn (黎桓, Ái Châu'lu) Đinh'in yerine geçer (Thiên Phúc 1); Tiền Lê başlar, başkent Hoa Lư.",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之一 (MediaWiki API ile okundu)",
+    "tanik": "黎大行天福元年"
+   },
+   {
+    "t": "1009-01-01",
+    "gun": "1009",
+    "k": "diger",
+    "b": "Lê Ngọa Triều ölür, Lý Công Uẩn (李公蘊) kendini imparator ilan eder (Lý hanedanı başlar). (Çin 10. ay 1009, çevrilmedi.)",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之一 (MediaWiki API ile okundu)",
+    "tanik": "是月癸丑日，李公蘊自立為帝"
+   },
+   {
+    "t": "1010-01-01",
+    "gun": "1010",
+    "k": "diger",
+    "b": "Lý Thái Tổ başkenti Hoa Lư'dan Đại La'ya taşır; ejder görüldüğü için şehrin adı 'Thăng Long' olur (Toàn thư: 7. ay, Thuận Thiên 1; Chiếu dời đô ilkbaharda).",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之二 (MediaWiki API ile okundu)",
+    "tanik": "秋七月，帝自華閭城徙都于京府大羅城"
+   }
+  ],
+  "ic_not": "ilk_anilis 767 (Toàn thư zh+vi). TÜM SAHİPLİK dönem sınırları yıl hassasiyetindedir: Toàn thư gün yerine lunisolar ay/gün verir (Gregoryen çevrim tablosu bu oturumda uygulanmadı) → kural: yıl/ay hassasiyeti + beyan. ÇELİŞKİ (beyanlı): Khúc Thừa Mỹ'nin yakalanması Toàn thư 923, ZZTJ 277 (長興元年) ve Xin Wudai shi (大有三年) 930 → 930 alındı (iki bağımsız Çin kaynağı = çift teyit). Künye önerileri: 'tinh-hai-ozerk' (907-938, Khúc/Dương/Kiều), 'ngo-hanedani' (938-966). Vietnam ikincil/akademik: Taylor, The Birth of Vietnam (1983) archive.org'da ödünç kitap (401) — açılamadı; Persée BEFEO makaleleri yalnız özet. ATLAS DÜZELTME ÖNERİSİ: atlas s: Hanoi'yi 1010-01-01'de 'ly-hanedani' ile başlatıyor — Toàn thư'ye göre Lý 1009'da iktidarda (Lê Ngọa Triều'nün ölümü, 10. ay), başkent taşınması Thuận Thiên 1 (1010) 7. ay; yani atlas 1010-01-01'i 'sahip değişimi' olarak değil 'başkent taşınması' olarak doğru kılabilir, ama Hanoi'nin Lý'ye geçişi 1009'dur (yıl hassasiyeti); atlasın 1010 öncesi Hanoi için dönemi yok (bu dosya 767-1010 aralığını doldurur)."
+ },
+ {
   "id": "harar",
   "ad": "Harar",
   "atlas_ad": "Harar",
@@ -7271,6 +7673,59 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas Hokand f=1281-01-01 cagatay (kaynaksız). Aranan: Fergana'nın Çağatay ulusuna geçişi. Bulunan: TDV Fergana \"XIII. yüzyılda uzun süre Mahmud ve Mesud Yalvaç Moğollar adına yönetti; Çağatay ulusu XIV. yüzyılda ikiye ayrılınca ...\" — XIII. yy Çağatay iddiası YOK; 1281 çürütülmedi/doğrulanmadı. Zincir 1281-01-01'e Moğol İmparatorluğu (künye sonu 1260) ile hizalandı.",
   "ic_not": "ABİ MERKEZ KARARI: Hokand küçük kasaba (TDV: XVIII. yy ortasına dek küçük); 983-1281 arası zincir Fergana bölgesinin TDV zinciridir, Hokand'a özgü tek tanık Hudud 982/3'tür. ATLAS: Hokand 1281-1710 Çağatay/Timurlu/Buhara ayrı dilim. Hokand Hanlığı md. 1710 sonrası. Konum: atlas noktası = modern Kökan (Özbekistan), eski yerleşim aynı alan (TDV; mesafe ölçülmedi)."
+ },
+ {
+  "id": "hue",
+  "ad": "Huế (Phú Xuân)",
+  "atlas_ad": "Huế (Phú Xuân)",
+  "lat": 16.463,
+  "lon": 107.585,
+  "kat1900": 2,
+  "adlar": [
+   "Ô-Lý (烏、里 → Thuận Hóa, Hóa Châu)",
+   "Phú Xuân",
+   "Huế"
+  ],
+  "ilk": {
+   "t": "1285-01-01",
+   "gun": "1285",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之五 (MediaWiki API ile okundu) (乙酉 元至元二十二年 = 1285)",
+   "tanik": "與元人會于烏里州",
+   "ic_not": "ZAYIF / BÖLGE DÜZEYİ: Toàn thư'de Huế bölgesinin ilk anılışı Champa'ya ait 'Ô châu / Lý châu' (烏、里二州) olarak: 1285'te Moğol komutan Sogetu Champa'dan gelip Ô Lý châu'da Moğol ordusuyla buluşur. Ô-Lý = sonradan Thuận-Hóa = Huế çevresi; ad eşitlemesi (Toàn thư 1307: '改烏、里二州為順州、化州') kesin yer vermiyor (şehir değil, vilayet). Vikipedi (ikincil): Hóa Châu harabesi 9. yy ('the ancient city of Hoa Chau is dated back to the 9th century'), Kandarpapura (Long Thọ tepesi) 'three kilometers to the west of the city' — Hóa Châu'nun atlas noktasına uzaklığı ölçülmedi, Kandarpapura ~3 km (Vikipedi) sınırda; ikisi de ikincil tek dayanak olduğundan BURADA yazılmadı. 1281 öncesi Huế noktasına bağlı yazılı tanık BULUNAMADI. Kural gereği ilk tanık atlas başlangıcından (1281) sonra olduğundan 1281 öncesi sahip zinciri YAZILMADI."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1285-01-01",
+    "gun": "1285",
+    "k": "diger",
+    "b": "Moğol (Yuan) ordusu ve Sogetu Champa üzerinden Ô-Lý (Huế bölgesi) châu'sunda buluşur (Trần'a karşı).",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "與元人會于烏里州"
+   },
+   {
+    "t": "1306-01-01",
+    "gun": "1306",
+    "k": "antlasma",
+    "b": "Trần Anh Tông kızı Huyền Trân'ı Champa kralı Chế Mân'a verir (evlilik; Ô-Lý bu evlilik hediyesi olarak devredilir).",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之六 (MediaWiki API ile okundu)",
+    "tanik": "下嫁玄珍公主于占城主制旻"
+   },
+   {
+    "t": "1307-01-01",
+    "gun": "1307",
+    "k": "diger",
+    "b": "Ô ve Lý châu'ları Thuận châu ve Hóa châu olarak yeniden adlandırılır, Đại Việt'e katılır.",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之六 (MediaWiki API ile okundu)",
+    "tanik": "改烏、里二州為順州、化州"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME / UYARI: atlas Huế'yi 1281-01-01'de 'campa' ile başlatıyor; bölgenin Champa'ya ait olduğu (Ô-Lý châu) 1285 Toàn thư'sinde kanıtlı, ancak Huế ŞEHRİ/noktası için 1281-1306 tanığı yok (bölge düzeyi). Devir: Toàn thư 1306 evlilik, 1307 yeniden adlandırma (atlas Thuận Hóa'yı 1306'da devrediyor olabilir; atlasın kendi 1306 dönemi için bkz. Vikipedi 'ceded by Champa to Đại Việt in 1306'). Phú Xuân'ın kuruluşu/Nguyễn dönemi atlas kd'sinde zaten var (1558). Tek ikincil kaynak Vikipedi (en 'Huế'): 'ceded by Champa to Đại Việt in 1306'."
  },
  {
   "id": "isfahan",
@@ -13858,6 +14313,135 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "TDV'de 'Pekin' maddesi YOK (islamansiklopedisi.org.tr/pekin boş arama listesi verir); TDV 'BALIK' maddesi Karakorum ve Pekin'in 'Hanbalık' adıyla tanındığını söyler (kuruluş tarihi yok). Britannica/Iranica açılmadı. Atlas başlangıcı 1281 (global başlangıç) — şehir 1267'de kurulur, atlas başlangıcı değişmez, ama atlas Pekin noktasının 1281 öncesi 14 yıl daha olduğu not edilir."
  },
  {
+  "id": "phan-rang",
+  "ad": "Phan Rang (Panduranga)",
+  "atlas_ad": "Phan Rang (Panduranga)",
+  "lat": 11.564,
+  "lon": 108.988,
+  "kat1900": 3,
+  "adlar": [
+   "Virapura / Pāṇḍuraṅga (Panduranga)",
+   "Phan Rang"
+  ],
+  "ilk": {
+   "t": "0787-01-01",
+   "gun": "787",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. VI-VII (Panduranga bölümü; not 137)",
+   "tanik": "located west of the capital Virapura, near modern Phan-rang",
+   "ic_not": "İLK ANILIŞ (alt sınır). Coedès: Cham krallığının ağırlık merkezi 8. yy ortasında güneye, 'Panduranga (Phan-rang) ve Kauthara (Nha-trang)'ya kayar (yaklaşık 750'ler; 758'de Çinliler Lin-yi yerine 'Huan-wang' der) — yüzyıl ortası kesin yıl vermediği için kullanılmadı. Kesin yıllı tanık: Cava baskını (Indravarman dönemi, 787) 'başkent Virapura'nın batısındaki Bhadradhipatiśvara tapınağını' yaktı; Virapura = 'bugünkü Phan-rang yakınında' (Coedès). 'near' ifadesi ≤ 3 km kanıtlamıyor; atlas noktası Phan Rang kent merkezidir (Po Klaung Garai tepesi vb. Cham kuleleriyle uzaklığı ölçülmedi). Yeri tam kesin değil (UYARI), ancak Coedès Virapura'yı Phan-rang'a eşitler."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0787-01-01",
+    "t": "1000-01-01",
+    "d": "linyi-champa",
+    "kesinlik": "yil",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. VI, VII, VIII",
+    "ic_not": "Champa'nın erken dönemi: Lin-yi (192-758) → Huan-wang (758-875) → Chan-ch'eng 'Champapura' (875-). Künye 'linyi-champa' 192-999; bu dönem güney (Panduranga/Kauthara) hanedanı."
+   },
+   {
+    "f": "1000-01-01",
+    "t": "1203-01-01",
+    "d": "campa",
+    "kesinlik": "yil",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. IX-XI",
+    "ic_not": "Panduranga Champa'nın güney eyaleti: ' always in revolt against their sovereign' (1050, Coedès: Po Klaung Garai zafer sütunu); 1086 özerklik girişimi; 1147 Jaya Harivarman I Panduranga'da tahta çıkar (Khmer işgaline karşı, kuzey 1145-1149 Khmer'de). 1190-1192: Prens Vidyanandana Khmer himayesinde Panduranga'da kral olur ('enfeoffed to him'), sonra bağımsızlaşır — kısa/belirsiz süreli, ayrı dönem AÇILMADI (olay + not)."
+   },
+   {
+    "f": "1203-01-01",
+    "t": "1220-01-01",
+    "d": "angkor-kmer",
+    "kesinlik": "yil",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. XI 'Cambodia at the Height of Its Power'",
+    "ic_not": "Coedès: '1203-1220 Champa Khmer eyaletiydi' (Yuvaraja ong Dhanapatigrama yönetimi) — tüm Champa, Panduranga dahil."
+   },
+   {
+    "f": "1220-01-01",
+    "t": "1281-01-01",
+    "d": "campa",
+    "kesinlik": "yil",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. XI (1220-57)",
+    "ic_not": "Khmer'ler çekildi, 1226'da Jaya Paramesvaravarman II kral. Atlas Phan Rang: 1281-01-01 'campa' (aynı sahip)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0787-01-01",
+    "gun": "787",
+    "k": "diger",
+    "b": "Cava (Java) filosu Panduranga'daki Bhadradhipatiśvara tapınağını yakar; Virapura (Phan Rang yakını) başkent olarak anılır.",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "the one during Indravarman's reign occurred in 787"
+   },
+   {
+    "t": "1000-01-01",
+    "gun": "1000",
+    "k": "diger",
+    "b": "künye geçişi: linyi-champa → campa; Champa başkenti Indrapura'dan (Quang Nam) Vijaya'ya (Bình Định) taşınır; Panduranga güney eyaleti olarak kalır.",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "finally abandoned this extremely vulnerable capital in the year 1000"
+   },
+   {
+    "t": "1203-01-01",
+    "gun": "1203",
+    "k": "fetih",
+    "b": "Khmer yanlısı Yuvaraja ong Dhanapatigrama Vidyanandana'yı sürer; Champa 1203-1220 Khmer eyaleti olur.",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "It was not until 1203 that the Cham king's paternal uncle"
+   },
+   {
+    "t": "1220-01-01",
+    "gun": "1220",
+    "k": "diger",
+    "b": "Khmer'ler Champa'dan çekilir; Cham halkı Vijaya'ya döner (Khmer işgali sona erer).",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "became clear in Champa as early as 1220"
+   }
+  ],
+  "ic_not": "Tek ana kaynak Coedès (tam metin, OCR; alıntıda OCR diyakritikleri düzeltildi). Persée BEFEO makalelerinin PDF'leri captcha ile korunuyor (açılmadı); yalnız özetler. Çift teyit YOK. 1147 Panduranga'da Jaya Harivarman I tahta çıkması ('established himself in 1147 in the south at Panduranga') Khmer işgaline karşı, ayrı dönem açılmadı (Panduranga Cham elinde kaldı). ATLAS: Phan Rang 1281'de 'campa' ile başlıyor — tutarlı."
+ },
+ {
+  "id": "phnom-penh",
+  "ad": "Phnom Penh",
+  "atlas_ad": "Phnom Penh",
+  "lat": 11.562,
+  "lon": 104.888,
+  "kat1900": 2,
+  "adlar": [
+   "Chaktomuk / Catumukha",
+   "Phnom Penh"
+  ],
+  "ilk": {
+   "t": "1431-01-01",
+   "gun": "1431",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Martin Stuart-Fox & Paul Reeve, 'Symbolism in City Planning in Cambodia from Angkor to Phnom Penh', Journal of the Siam Society 99 (2011), s. 105 vd., https://so06.tci-thaijo.org/index.php/pub_jss/article/download/158381/114740 (özet, pdftotext ile okundu)",
+   "tanik": "Phnom Penh was a trading port when Angkor Thom fell",
+   "ic_not": "En geç tanık: Stuart-Fox & Reeve özeti Phnom Penh'in Angkor Thom'un Siyam ordusuna düştüğü 1431'de zaten bir ticaret limanı olduğunu söyler (EN GEÇ varlık; ilk anılış değil, kuruluş yılı değil). Kuruluş/başkent olarak seçim: Khmer vakayinameleri 'Lady Penh' efsanesini anlatır (JSS makalesi: 'The Khmer chronicles relate a legend explaining how the phnom got its name' — gelenek, tarih içermez, KULLANILMADI). Atlas kur=1434 (Ponhea Yat başkent taşıması; Coedès not 14: 'La fondation de Phnom Penh', BEFEO 13, tek tek açılmadı). Çift teyit YOK."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1431-01-01",
+    "t": "1434-01-01",
+    "d": "kamboc-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Stuart-Fox & Reeve, JSS 99 (2011) özeti",
+    "ic_not": "SAHİP DOLAYLI: kaynak limanın sahibini yazmaz; Angkor'un 1431'de Ayutthaya'ya düşmesinden sonra Khmer devleti (güneye çekilen kral, Phnom Penh 1434'te başkent seçilir) — künye 'kamboc-kralligi' 1431'den sürer; atlas Phnom Penh'i 1434'te aynı sahiple başlatır. Beyanlı yaklaşıklık: 1431-1434 arası limanın Khmer elinde olduğu doğrudan yazılı değil (yalnız 'başkent seçimi 1434' çıkarımı)."
+   }
+  ],
+  "olay": [],
+  "ic_not": "ATLAS: kur 1434 (kaynaklı başkent tarihi); bu dosya var oluşu 1431'e (en geç) çeker. Önerilir: kur 1434 korunur, kd penceresi 1431'e açılabilir (limanın varlığı) — sahiplik tanığı olmadığı için yalnız ilk_anilis notu. Akademik tam metin (OpenAlex → JSS) okundu; Coedès'in ilgili bölümü (Böl. XIV) OCR'da 'Phnom Penh' yalnız indekste/notlarda geçer."
+ },
+ {
   "id": "pisa",
   "ad": "Pisa",
   "atlas_ad": "Pisa",
@@ -14777,6 +15361,42 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "KAYNAK: TDV Altın Orda Hanlığı (curl), Iranica Golden Horde (P. Jackson), Rubruck (Rockhill, UW Silk Road), Archaeology Magazine (2. tanık), Wikipedia \"Sarai (city)\" (2. tanık). ATLAS ÖNERİSİ: altinorda künyesi f 1242 → TDV 1241. kat1900=3 TAHMİNİ (1900 yerleşimi değil, harabe)."
+ },
+ {
+  "id": "saygon",
+  "ad": "Saygon (Gia Định)",
+  "atlas_ad": "Saygon (Gia Định)",
+  "lat": 10.823,
+  "lon": 106.63,
+  "kat1900": 2,
+  "adlar": [
+   "Baigaur (Cham)",
+   "Prey Nokor (Khmer)",
+   "Sài Gòn (柴棍)",
+   "Gia Định (嘉定)",
+   "Saigon"
+  ],
+  "ilk": {
+   "t": "1698-01-01",
+   "gun": "1698",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Vikipedi (en) 'Ho Chi Minh City', https://en.wikipedia.org/wiki/Ho_Chi_Minh_City (curl ile okundu) — TEK DAYANAK: akademik teyit bulunamadı (OpenAlex taraması yalnız kentsel miras makaleleri verdi)",
+   "tanik": "it became part of the Vietnamese Nguyễn lords in 1698",
+   "ic_not": "Vikipedi bilgi kutusu 'Founded 1698' (Nguyễn Hữu Cảnh, Gia Định phủ). Aynı sayfa ESKİ İSKÂN iddiaları da taşır ama KAYNAĞI AKADEMİK DEĞİL (dipnot [27]) ve yer eşitlemesi belirsiz: 'Phụng Sơn Buddhist temple Funan 4. yy', 'Cham Baigaur 11. yy', 'Khmer Prey Nokor ~1145' — bu oturumda akademik teyit bulunamadı, başlangıç sayılmadı. Atlas noktası (10.823, 106.630) bugünkü HCMC merkezinin (10.776, 106.702) ~9 km KB'sındadır (Vikipedi koordinatı 10.77556, 106.70194); Gia Định'in 1698 kuruluş noktası ve Prey Nokor yeri belirsiz."
+  },
+  "kur": {
+   "t": "1698-01-01",
+   "gun": "1698",
+   "kesinlik": "yil",
+   "kaynak": "Vikipedi (en) 'Ho Chi Minh City' (tek dayanak)",
+   "tanik": "it became part of the Vietnamese Nguyễn lords in 1698"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ (BEYANLI): atlas Saygon'a 1281-01-01'den itibaren 'angkor-kmer' (→1431) ve 'kamboc-kralligi' (→1698) sahipliği yazıyor; Vikipedi 'initially part of Cambodian polities' (1698'e dek) diyor ama 1281 öncesine (ve zaten 1281-1698'e) dair akademik tanık BULUNAMADI. 1281 öncesi: Champa/Funan/Khmer sahiplik kanıtı yazılmadı (Coedès'te Prei Nokor yalnız 'Banteay Prei Nokor' adıyla Thbong Khmum'da, bu Saygon DEĞİL). 1698 Gia Định kuruluşu için Đại Nam thực lục / Toàn thư devamı (Phạm vi dışı) açılamadı. Günlük tanık yok."
  },
  {
   "id": "seki-nuha",
@@ -16748,6 +17368,180 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "TDV 'temesvar' slug'ı 'TEMEŞVAR bk. TIMIŞVAR' yönlendirmesidir; gövde 'timisvar' slug'ındadır. TDV: 1307'de Charles Robert krallık sarayı yaptırdı (atlas dönemi sonrası). Atlas düzeltme önerisi YOK; TDV'nin 1030 ilhakı ilk anılış dışı olduğundan zincire yazılmadı (aranırsa 1030'a çekilebilir, kaynak açılmalı)."
  },
  {
+  "id": "thanh-hoa",
+  "ad": "Thanh Hoa",
+  "atlas_ad": "Thanh Hoa",
+  "lat": 19.81,
+  "lon": 105.78,
+  "kat1900": 3,
+  "adlar": [
+   "Cửu Chân (九真)",
+   "Ái Châu (愛州)",
+   "Thanh Hóa (清化)"
+  ],
+  "ilk": {
+   "t": "-0999-01-01",
+   "gun": "MÖ 1000",
+   "nicelik": "arkeolojik",
+   "kesinlik": "belirsiz",
+   "kaynak": "Vikipedi (en) 'Đông Sơn culture', https://en.wikipedia.org/wiki/%C4%90%C3%B4ng_S%C6%A1n_culture (curl ile okundu) — TEK DAYANAK; Pajot 1924 kazısı (EFEO) Vikipedi aktarımı",
+   "tanik": "named for modern village Đông Sơn, a village in Thanh Hóa, Vietnam",
+   "ic_not": "ZAYIF (Beyanlı): arkeolojik tarih = Đông Sơn kültürünün başlangıcı ('from 1000 BC until the first century AD', Vikipedi); kültür 'Đông Sơn köyü, Thanh Hóa'dan adlandırıldı', ancak KÖYÜN atlas noktasına (Thanh Hóa şehir merkezi) mesafesi bu oturumda DOĞRULANAMADI (≤3 km olduğu varsayımı kanıtsız). Yazılı tanık da var ama yer eşitlemesi kesin değil (Han Cửu Chân komutanlığı 111 BC: Toàn thư 'Triều Triệu' bölümünde '持交趾、九真、日南三郡戶籍迎降' — merkezi Thanh Hóa'da olduğu çeviri notlarında 'Cư-phong ... nay thuộc tỉnh Thanh-Hóa' deniyor, şehir düzeyinde değil), bu yüzden yazılı kayıt başlangıç sayılmadı. Kaynak kalitesi: akademik teyit (Higham/Bellwood/Goloubew) açılamadı."
+  },
+  "kur": null,
+  "ark": {
+   "t": "-0999-01-01",
+   "gun": "MÖ 1000",
+   "kesinlik": "belirsiz",
+   "kaynak": "Vikipedi (en) 'Đông Sơn culture' (tek dayanak)",
+   "tanik": "from 1000 BC until the first century AD"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0999-01-01",
+    "t": "0622-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之一 (MediaWiki API ile okundu) ... Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "ic_not": "BEYANLI BOŞLUK (bölge düzeyi var, bu oturumda işlenmedi): Toàn thư'ye göre bölge Văn Lang/Âu Lạc geleneği (efsanevî), Nanyue/Triệu (MÖ 181: '西甌貉（即交趾、九真）皆從屬焉'), Han (MÖ 111: '持交趾、九真、日南三郡戶籍迎降', Cửu Chân komutanlığı), Trưng Kardeşler (40-43), Doğu Han, Wu, Jin, Liu Song, Qi, Liang, Vạn Xuân (544-602), Sui... sahipliklerinden geçti; ancak her sınırın tarih+alıntı eşlemesi ve şehir (Thanh Hóa) düzeyi bağlantısı çıkarılmadığı için dönem AÇILMADI. Bu bir boşluk beyanıdır, 'kimsenin' değil; ilgili Toàn thư çıkarımı yapılırsa künye id'leri: nanyue (-0180 → -0110), bati-han, dogu-han, sun-wu, bati-jin, liu-song, guney-qi, liang-guney, van-xuan, sui."
+   },
+   {
+    "f": "0622-01-01",
+    "t": "0907-01-01",
+    "d": "tang",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu); Đại Việt sử ký toàn thư, Mạc Bảo Thần çevirisi (Tân Việt 1945), Tập II, Cuốn thứ năm 'Đời thuộc Tùy và Đường', https://vi.wikisource.org/wiki/Đại_Việt_sử_ký_toàn_thư/Tập_II/Cuốn_thứ_năm/Đời_thuộc_Tùy_và_Đường",
+    "ic_not": "Tang An Nam Koruyuculuğu (622: Jiaozhi → An Nam đô hộ phủ). Ái Châu (Thanh Hóa) Tang coğrafya bölümünde 6 ilçe ile Giao Châu'nun yanında (Địa lý chí đời Đường, çeviri notu). Yıl hassasiyeti."
+   },
+   {
+    "f": "0907-01-01",
+    "t": "0938-01-01",
+    "d": "tinh-hai-ozerk",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK — 'tinh-hai-ozerk' (bkz. Hanoi kaydı). Ái Châu bu dönemde Khúc ve Dương Đình Nghệ'nin (Ái Châu'lu) kontrolünde: '曲顥將愛州人楊廷藝'. Güney Han 930-931 Giao Châu şehrini aldı ama Ái Châu'yu tuttuğuna dair tanık yok → ayrı dönem AÇILMADI."
+   },
+   {
+    "f": "0938-01-01",
+    "t": "0966-01-01",
+    "d": "ngo-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "kunye_yok": true,
+    "ic_not": "KÜNYE YOK — 'ngo-hanedani' (bkz. Hanoi). Ngô Quyền Ái Châu valisiydi ('權管愛州') ve oradan Kiều Công Tiễn'e/ Hoằng Tháo'ya karşı yürüdü."
+   },
+   {
+    "f": "0966-01-01",
+    "t": "0968-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "ic_not": "12 Sứ Quân dönemi: Toàn thư'nin sıraladığı üsler arasında Thanh Hóa/Ái Châu YOK → sahip belirsiz."
+   },
+   {
+    "f": "0968-01-01",
+    "t": "0980-01-01",
+    "d": "dinh",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之一 (MediaWiki API ile okundu)",
+    "ic_not": "Đinh hanedanı (968-980); künye 979'da biter, 980'e kadar uzatıldı (aynı hanedan: Đinh Phế Đế)."
+   },
+   {
+    "f": "0980-01-01",
+    "t": "1009-01-01",
+    "d": "tien-le-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之一 (MediaWiki API ile okundu)",
+    "ic_not": "Tiền Lê: kurucusu Lê Hoàn 'Ái Châu'lu' (愛州人也) — Thanh Hóa."
+   },
+   {
+    "f": "1009-01-01",
+    "t": "1225-01-01",
+    "d": "ly-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之二 (MediaWiki API ile okundu); Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之四 (MediaWiki API ile okundu)",
+    "ic_not": "Lý hanedanı (1009-1225)."
+   },
+   {
+    "f": "1225-01-01",
+    "t": "1281-01-01",
+    "d": "tran-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之五 (MediaWiki API ile okundu)",
+    "ic_not": "Trần hanedanı (1225-1400). Lý Chiêu Hoàng Trần Cảnh'e tahtı devretti (12. ay 1225, Gregoryen çevrim: Ocak 1226 olabilir → künye sınırı yıl hassasiyeti). Atlas Thanh Hoa 1281-01-01'de tran-hanedani ile başlıyor (aynı sahip)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0622-01-01",
+    "gun": "622",
+    "k": "diger",
+    "b": "Tang Giao Chỉ'yi An Nam đô hộ phủ olarak yeniden adlandırır (Tang yönetimi).",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "是歳唐改交趾曰安南都護府"
+   },
+   {
+    "t": "0907-01-01",
+    "gun": "907",
+    "k": "kayip",
+    "b": "Tang düşer; Giao Châu'lu Khúc Hạo vilayet merkezini tutar (fiilî özerklik); Ái Châu'lu Dương Đình Nghệ onun generali.",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "交州人曲顥據州治，稱節度使"
+   },
+   {
+    "t": "0938-01-01",
+    "gun": "938",
+    "k": "fetih",
+    "b": "Ái Châu'dan Ngô Quyền Kiều Công Tiễn'e karşı ordu çıkarır, Giao Châu'yu alır, Güney Han donanmasını yener.",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "廷藝牙将吳權自愛州舉兵攻公羡"
+   },
+   {
+    "t": "0966-01-01",
+    "gun": "966",
+    "k": "diger",
+    "b": "Ngô hanedanı sona erer, 12 sứ quân dönemi.",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/外紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "南吳亡。羣䧺竟起，各據郡邑自守"
+   },
+   {
+    "t": "0968-01-01",
+    "gun": "968",
+    "k": "kurulus",
+    "b": "Đinh Bộ Lĩnh imparator olur (Đại Cồ Việt).",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之一 (MediaWiki API ile okundu)",
+    "tanik": "帝即位，建國號大瞿越"
+   },
+   {
+    "t": "0980-01-01",
+    "gun": "980",
+    "k": "diger",
+    "b": "Lê Hoàn (Ái Châu'lu) tahta çıkar (Thiên Phúc 1).",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之一 (MediaWiki API ile okundu)",
+    "tanik": "姓黎，諱桓，愛州人也"
+   },
+   {
+    "t": "1009-01-01",
+    "gun": "1009",
+    "k": "diger",
+    "b": "Lý Công Uẩn tahta çıkar (Lý hanedanı).",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之二 (MediaWiki API ile okundu)",
+    "tanik": "及卧朝崩，遂即帝位，改元順天"
+   },
+   {
+    "t": "1225-01-01",
+    "gun": "1225",
+    "k": "diger",
+    "b": "Lý Chiêu Hoàng'ın tahtı Trần Cảnh'e devri (Trần Thái Tông, 12. ay 12. gün Çin takvimi).",
+    "kaynak": "Đại Việt sử ký toàn thư (大越史記全書), https://zh.wikisource.org/wiki/大越史記全書/本紀卷之五 (MediaWiki API ile okundu)",
+    "tanik": "乙酉冬十二月十二日戊寅受昭皇禅"
+   }
+  ],
+  "ic_not": "ATLAS UYARI: atlas Thanh Hoa kd: 1400-03-01→1407-06-17 (Hồ hanedanı) yazıyor — Hồ başkenti 'Tây Đô' (西都; Toàn thư 本紀卷之八: '築西都城'), Thanh Hóa şehir noktasıyla aynı yer mi bu oturumda DOĞRULANMADI (Tây Đô'nun şehir merkezinden ayrı bir yer olduğu bilgisi hafızadandır, kaynaklanmadı) — atlas kd'si kontrol edilmeli. ilk=arkeolojik (zayıf, Vikipedi tek dayanak); ilk yazılı kaydın şehre eşitlemesi kesin olmadığından yazılmadı (Cửu Chân/Ái Châu bölge düzeyindedir). Son dönem 1281'e kadar aynı sahip (tran). Toàn thư (zh) sayfaları kullanıldı: 外紀卷之五, 本紀卷之一-五. Çift teyit: 938 (ZZTJ 281 + Toàn thư)."
+ },
+ {
   "id": "tiflis",
   "ad": "Tiflis",
   "atlas_ad": "Tiflis",
@@ -17970,6 +18764,193 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "kat1900: LISTE.tsv Varşova Rus İmp. 'Varshavskaya guberniya' kat 2. Mazovya dükleri XIII. yy'da kale yaptırdı (tarihsiz). 1339 şehir hakları (LZMK), atlas sonrası. Atlas Varşova'da 1281 polonya-erken ile başlıyor; atlas düzeltme önerisi yok."
+ },
+ {
+  "id": "vientiane",
+  "ad": "Vientiane",
+  "atlas_ad": "Vientiane",
+  "lat": 17.975,
+  "lon": 102.63,
+  "kat1900": 2,
+  "adlar": [
+   "Văn Đan (文單, tartışmalı)",
+   "Wiangchan (Viang Chan)",
+   "Vientiane"
+  ],
+  "ilk": {
+   "t": "1292-01-01",
+   "gun": "1292",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. XII 'Rama Khamhaeng' (Sukhothai steli aktarımı; stelin 'olası tarihi 1292')",
+   "tanik": "and beyond to Wiangchan and Wiangkham that mark the border",
+   "ic_not": "ZAYIF / TARİHİ SINIRDA: Coedès'in aktardığı Rama Khamhaeng steli (olası tarih 1292) Siyam fetihlerini sayarken Mekong ötesinde 'Wiangchan ve Wiangkham sınırı belirler' der. Stelin tarihi/özgünlüğü bu oturumda doğrulanmadı (tartışmalı olabilir; literatür açılmadı). Daha erken adaylar KULLANILMADI: (1) Vikipedi: Đỗ Anh Vũ 1159 yazıtı '1135'te Zhenla vasalı Văn Đan (Vientiane) Nghệ An'a saldırdı' — ama Coedès 'Wen-tan'ı Kara Chenla'nın (Land Chenla, bütün Laos) Çince adı sayar (Böl. VII), yani 'Văn Đan = Vientiane şehri' eşitlemesi kesin değil (kural: yeri kesin olmayan ad eşitlemesi başlangıç sayılmaz); (2) Sai Fong yazıtı 1186 (Jayavarman VII, Mekong'un karşı yakası, Wiangchan'ın karşısı) şehir anılışı değil, yakınlık tanığıdır. Ilk tanık atlas başlangıcından (1281) sonra olduğundan 1281 öncesi sahip zinciri YAZILMADI."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1186-01-01",
+    "gun": "1186",
+    "k": "diger",
+    "b": "Jayavarman VII dönemine ait Sai Fong yazıtı (Mekong kıyısı, Wiangchan'ın karşısı) bölgenin Khmer imparatorluğunun kuzey sınırı olduğunu gösterir (şehir anılışı değil).",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "that of Sai Fong, on the Mekong across from Wiangchan, dated 1186"
+   },
+   {
+    "t": "1292-01-01",
+    "gun": "1292",
+    "k": "diger",
+    "b": "Sukhothai kralı Rama Khamhaeng steli Wiangchan'ı Mekong ötesindeki sınır noktalarından biri olarak anar.",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "and beyond to Wiangchan and Wiangkham that mark the border"
+   }
+  ],
+  "ic_not": "ATLAS UYARI: atlas Vientiane'e 1281-1353 arası __BOSLUK__ (sahip belirsiz) yazıyor — tutarlı: 1281 öncesi/sonrası Khmer-Sukhothai-Lan Xang geçişi belirsiz. Önerilen sıra: Khmer sınırı 1186'da Vientiane yakınında (Sai Fong, Coedès). Şehrin gerçek ilk anılışı büyük olasılıkla daha erkendir (Vikipedi Văn Đan 1135; Toàn thư zh sayfaları 文單 aramasında sonuç vermedi, sayfalar eksik olabilir). Akademik kaynak (Stuart-Fox, A History of Laos) archive.org'da ödünç kitap (401) — açılamadı; Google Books kotası doldu."
+ },
+ {
+  "id": "vijaya",
+  "ad": "Vijaya (Quy Nhơn)",
+  "atlas_ad": "Vijaya (Quy Nhơn)",
+  "lat": 13.9,
+  "lon": 109.1,
+  "kat1900": 3,
+  "adlar": [
+   "Vijaya",
+   "Chà Bàn / Đồ Bàn (Cham başkenti)",
+   "Quy Nhơn (bölge)"
+  ],
+  "ilk": {
+   "t": "0988-01-01",
+   "gun": "988",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. VIII 'The Cham Dynasty of Indrapura' (Vijaya, 988); ikinci tanık: A.-V. Schweyer, 'La vaisselle en argent de la dynastie d'Indrapura (Quàng Nam, Việt Nam). Études d'épigraphie cam II', BEFEO 86 (1999), s. 345-355, https://www.persee.fr/doc/befeo_0336-1519_1999_num_86_1_3416 (özet)",
+   "tanik": "They placed him on the throne at Vijaya, in modern Binh-dinh",
+   "ic_not": "İLK ANILIŞ: Coedès 988: Cham'lar Hanoi'dan gelen Viet Lưu Kế Tông'a karşı 'kendilerinden birini Vijaya'da (bugünkü Bình Định) tahta çıkarır'; ertesi yıl Harivarman II ilan edilir; 999-1000 başkent Indrapura'dan Vijaya'ya kesin taşınır. Schweyer (BEFEO 1999) özeti aynı akışı doğrular: 982'de Dai Viet saldırısından sonra Champa 'gücünü Vijaya'ya çekmek zorunda kaldı'. İlk anılış 988 alt sınırdır, kuruluş DEĞİL (Vijaya adı bölge olarak daha erken olabilir; Persée arama özeti bir BEFEO/Piot makalesinde 'ces interprétations ne sont recevables qu'à condition de considérer l'actuelle province de Bình Định comme l'ancienne Vijaya' der — Vijaya≈Bình Định eşitlemesi tartışmalı). Atlas noktası Chà Bàn/Đồ Bàn kalesi (13.9, 109.1)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0988-01-01",
+    "t": "1000-01-01",
+    "d": "linyi-champa",
+    "kesinlik": "yil",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. VIII",
+    "ic_not": "Champa (Indrapura hanedanı sonu): Vijaya 988'de Cham tahtı merkezlerinden biri; 1000'de resmî başkent."
+   },
+   {
+    "f": "1000-01-01",
+    "t": "1145-01-01",
+    "d": "campa",
+    "kesinlik": "yil",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. VIII-X; Schweyer BEFEO 86 (1999)",
+    "ic_not": "Vijaya 1000'den Cham başkenti. 1044'te Lý Thái Tông Vijaya'yı alıp harem'i götürdü — kısa baskın, dönem AÇILMADI (olay)."
+   },
+   {
+    "f": "1145-01-01",
+    "t": "1149-01-01",
+    "d": "angkor-kmer",
+    "kesinlik": "yil",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. X",
+    "ic_not": "Khmer işgali (Suryavarman II): 'Khmer occupation of the northern part of Champa, with its capital at Vijaya, lasted until 1149'."
+   },
+   {
+    "f": "1149-01-01",
+    "t": "1203-01-01",
+    "d": "campa",
+    "kesinlik": "yil",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. X-XI",
+    "ic_not": "Jaya Harivarman I Vijaya'ya girer, 1149'da taç giyer. 1190'da Khmer yanlısı prens Vidyanandana Vijaya'yı alır, Khmer akrabası Prens In'i kral yapar (Suryajayavarmadeva); bir isyan onu hemen sürer (Rashupati) — süresi belirsiz kısa Khmer vesayeti, dönem AÇILMADI (olay)."
+   },
+   {
+    "f": "1203-01-01",
+    "t": "1220-01-01",
+    "d": "angkor-kmer",
+    "kesinlik": "yil",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. XI",
+    "ic_not": "'From 1203 to 1220, Champa was a Khmer province'."
+   },
+   {
+    "f": "1220-01-01",
+    "t": "1281-01-01",
+    "d": "campa",
+    "kesinlik": "yil",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR), Böl. XI (1220-57)",
+    "ic_not": "Khmer çekilmesi; 'people of Champa came to Vijaya'. Atlas Vijaya: 1281-01-01 campa (aynı sahip)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0988-01-01",
+    "gun": "988",
+    "k": "diger",
+    "b": "Cham'lar kendi liderlerini Vijaya'da tahta çıkarır (ertesi yıl Harivarman II).",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "They placed him on the throne at Vijaya, in modern Binh-dinh"
+   },
+   {
+    "t": "1000-01-01",
+    "gun": "1000",
+    "k": "diger",
+    "b": "künye geçişi: linyi-champa → campa; Yang Pu Ku Vijaya Sri başkenti Indrapura'dan Vijaya'ya taşır.",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "established himself at Vijaya, in the region of Binh-dinh"
+   },
+   {
+    "t": "1044-01-01",
+    "gun": "1044",
+    "k": "fetih",
+    "b": "Lý Thái Tông Vijaya'yı alır, kraliyet haremini götürür (geçici baskın; Jaya Simhavarman II ölür).",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "Ly Thai-tong pushed on to Vijaya, seized it"
+   },
+   {
+    "t": "1145-01-01",
+    "gun": "1145",
+    "k": "fetih",
+    "b": "Khmer kralı Suryavarman II Champa'yı işgal eder, Vijaya'yı alır.",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "In 1145 he invaded Champa, seized Vijaya, and made himself master of the kingdom"
+   },
+   {
+    "t": "1149-01-01",
+    "gun": "1149",
+    "k": "fetih",
+    "b": "Jaya Harivarman I Vijaya'ya girer ve orada taç giyer; Khmer işgali biter.",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "The Cham king entered Vijaya and was crowned there in 1149"
+   },
+   {
+    "t": "1190-01-01",
+    "gun": "1190",
+    "k": "fetih",
+    "b": "Khmer yanlısı Cham prensi Vidyanandana Vijaya'yı alır, kralı esir götürür (kısa süreli vesayet).",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "This prince seized the capital Vijaya"
+   },
+   {
+    "t": "1203-01-01",
+    "gun": "1203",
+    "k": "fetih",
+    "b": "Yuvaraja ong Dhanapatigrama (Khmer maaşlısı) Cham kralını sürer; Champa 1203-1220 Khmer eyaleti.",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "It was not until 1203 that the Cham king's paternal uncle"
+   },
+   {
+    "t": "1220-01-01",
+    "gun": "1220",
+    "k": "diger",
+    "b": "Khmer'ler Champa'yı boşaltır, halk Vijaya'ya gelir.",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia (ed. W. F. Vella, çev. S. B. Cowing), Honolulu: East-West Center Press 1968; tam metin https://archive.org/details/theindianizedstatesofsoutheastasia (curl ile okundu, OCR)",
+    "tanik": "became clear in Champa as early as 1220"
+   }
+  ],
+  "ic_not": "Tek ana kaynak Coedès (ANU Press baskısı, tam metin OCR; diyakritikler düzeltildi) + Schweyer BEFEO 1999 özeti. Persée PDF'leri captcha ile korunuyor (açılmadı). Çift teyit: 1000 başkent taşıması (Coedès iki ayrı yerde: Böl. VIII ve IX; Schweyer yalnız 'sonra Vijaya'ya çekildi' der). Dönem sınırları yıl hassasiyetinde. ATLAS: atlas 1281-01-01 campa (tutarlı); 1471-03-02 le-hanedani (Vijaya'nın düşmesi) atlasta zaten."
  },
  {
   "id": "vila-bela",
