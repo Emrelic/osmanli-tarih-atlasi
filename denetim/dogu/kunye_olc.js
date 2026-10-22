@@ -27,7 +27,7 @@ function dilim(ad, p) {
 const dogu = yukle(path.join(KOK, 'data/yerlesimler_dogu_500_1281.js')).YERLESIMLER_DOGU_500_1281 || [];
 for (const y of dogu) for (const p of y.s || []) dilim(y.ad, p);
 // yama dilimleri: yamalı mevcut dosyalar (kaynak damgası)
-const girdi = fs.readFileSync(path.join(KOK, 'denetim/_gecici_girdi.txt'), 'utf8').split('\n').map(s => s.trim()).filter(Boolean);
+const girdi = fs.readFileSync(path.join(KOK, 'denetim/dogu/_log/girdi.txt'), 'utf8').split('\n').map(s => s.trim()).filter(Boolean);
 for (const f of girdi) {
   const p = path.join(KOK, 'data', f); if (!fs.existsSync(p)) continue;
   const w = yukle(p);

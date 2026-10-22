@@ -14,6 +14,19 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 KOK = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 YAZ = '--yaz' in sys.argv
 
+# BOYA SÜZGECİ: boyası olmayan sahip kimliği (BOYALAR'da / harita: takma adıyla boyalı künyede yok) dilimde __BOSLUK__ + BOŞLUK BEYANI olur
+# (proje kuralı; yayın kapısı 'harita deliği' tavanı 0). Gerçek kimlik kaynak metninde kalır; boya eklenince geri yazılır.
+_BOYALI = set(json.load(open(os.path.join(KOK, 'denetim', 'dogu', '_log', 'boyalar.json'), encoding='utf-8')))
+
+
+def boya_suz(z):
+    if z['d'] == '__BOSLUK__' or z['d'] in _BOYALI:
+        return z
+    y = dict(z)
+    y['kaynak'] = ("BOŞLUK BEYANI: sahip %s (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"%s\" geri yazılır) · " % (z['d'], z['d'])) + z['kaynak']
+    y['d'] = '__BOSLUK__'
+    return y
+
 
 def gun_sayisi(s):
     m = re.match(r'^([+-]?)(\d{1,6})-(\d{2})-(\d{2})$', s)
@@ -240,7 +253,7 @@ def main():
                 ek = ''.join('{f:%s,t:%s,d:%s,kesinlik:%s,kaynak:%s},' % (
                     json.dumps(z['f']), json.dumps(z['t']), json.dumps(z['d']),
                     json.dumps(z.get('kesinlik', 'yil'), ensure_ascii=False),
-                    json.dumps(z['kaynak'] + ' · DOGU-500-1281', ensure_ascii=False)) for z in s)
+                    json.dumps(z['kaynak'] + ' · DOGU-500-1281', ensure_ascii=False)) for z in [boya_suz(q) for q in s])
                 edits.append((pos, pos, ek))
                 if ke:
                     edits.append((ke[0], ke[1], ke[2]))

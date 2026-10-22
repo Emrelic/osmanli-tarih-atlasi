@@ -3880,14 +3880,11 @@ def degismez3z(Y):
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
     # ==== DOGU-500-1281 BILINEN_AYRI BAŞI (denetim/dogu/istisna_yaz.py üretir; elle düzenleme) ====
-    # 9 çift: DOĞU 500-1281 — aynı şablon/olay, AYRI yer ve/veya AYRI gün (her çift okundu; istisna_yaz.py docstring).
-    ('Sanggyeong (Longquanfu): Balhae son kralı Yi Zhen Hulhan’da Liao’ya teslim oldu', 'Sanggyeong (Longquanfu): Liao Balhae’yi Dongdan adıyla vasal krallığa çevirdi; Hulhan Tianfu oldu'),
+    # 6 çift: DOĞU 500-1281 — aynı şablon/olay, AYRI yer ve/veya AYRI gün (her çift okundu; istisna_yaz.py docstring).
     ('Herat: Gazneli hâkimiyeti sona erdi, Selçuklu hâkimiyeti başladı', "Dandanakan Savaşı: Selçuklular Gazneli ordusunu bozguna uğrattı; Horasan Gazneliler'in elinden çıktı"),
     ('Kumbî Sâlih: Ebû Bekir b. Ömer öldü; Gāne dört küçük krallığa bölündü, devlet kimliği yok', 'Ebû Bekir b. Ömer öldü (480, 1087).'),
     ("Lahor Gazneliler'den Gurlular'a geçti (Hüsrev Melik teslim)", "Gurlular hileyle Lahor'da Hüsrev Melik'i esir alarak Gazneli Devleti'ne son verdi"),
     ('Liaoyang: sahip Jin (Curçen) → Doğu Xia (Pu-xian Wannu)', 'Liaoyang: sahip Doğu Xia (Pu-xian Wannu) → Moğol İmparatorluğu'),
-    ('Kertanagara öldürüldü, Singhasari Krallığı sona erdi', "Kediri Daha'yi Singhasari'dan devraldı — Daha"),
-    ("Kediri Daha'yi Singhasari'dan devraldı — Daha", "Majapahit Daha'yi Kediri'dan devraldı — Daha"),
     ("Phagmodrupa mezhebi iç savaşı kazanıp Tibet'in idaresini ele geçirdi", 'Tibet (Phagmodrupa · Rinpungpa · Tsangpa) egemenliğine geçti — Yarlung'),
     ('Antonio de Mendoza ilk Yeni İspanya valisi (viceroy) olarak göreve başladı — Tilantongo', 'İlk genel vali Antonio de Mendoza atanıp Yeni İspanya resmen kuruldu'),
     # ==== DOGU-500-1281 BILINEN_AYRI SONU ====

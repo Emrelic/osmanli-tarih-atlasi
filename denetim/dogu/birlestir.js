@@ -248,6 +248,17 @@ for (const [ad, { y }] of yerAdlari) {
   for (const a of ['bit_kaynak', 'bit_kesinlik', 'bit_aralik', 'kisalt_gerekli', 'kuyruk_neden', 'ic_not', 'ic_not_takvim', 'kume']) delete y[a];
   yerler.push(y);
 }
+// BOYA SÜZGECİ (proje kuralı: boyası olmayan sahip = __BOSLUK__ + BOŞLUK BEYANI; yayın kapısı 'harita deliği' tavanı 0):
+// BOYALAR'da (ya da harita: takma adıyla boyalı künyede) olmayan `d:` kimliği dilimde __BOSLUK__ olur, gerçek kimlik kaynak metninde
+// kalır (boya eklenince geri yazılır: kaynak 'BOŞLUK BEYANI: sahip <id> (renkler.py BOYALAR'da yok').
+const BOYALI = new Set(JSON.parse(fs.readFileSync(path.join(__dirname, '_log', 'boyalar.json'), 'utf8')));
+function boyaSuz(z) {
+  if (z.d === '__BOSLUK__' || BOYALI.has(z.d)) return z;
+  return Object.assign({}, z, { d: '__BOSLUK__', kaynak: "BOŞLUK BEYANI: sahip " + z.d + " (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"" + z.d + "\" geri yazılır) · " + (z.kaynak || '') });
+}
+let boyasizDilim = 0;
+for (const y of yerler) y.s = (y.s || []).map(z => { const r = boyaSuz(z); if (r !== z) boyasizDilim++; return r; });
+sayac.boyasiz_dilim_bosluga = boyasizDilim;
 // YENİ yerleşimlerin zincir başı (kur) = "kazanç" kırılması: ±30 gün içinde o yeri anan madde yoksa dilimin kaynağından madde türet
 {
   let u = 0;
@@ -262,6 +273,17 @@ for (const [ad, { y }] of yerAdlari) {
     u++;
   }
   sayac.yeni_yerlesim_zincir_basi_madde = u;
+}
+// ODAK ATFI: sınır maddesinin yer_id'si atlasta (taban ∪ yeni yerleşimlerimiz) bulunmayan bir yerleşimse düşer
+// (yayın kapısı 'çözülmeyen odak atfı'; dışarıda bırakılan kuyruk_gerekli yerleşimlerin maddeleri bu yüzden beklemeye).
+{
+  const taban = new Set(JSON.parse(fs.readFileSync(path.join(__dirname, '_log', 'yer_indeks_taban.json'), 'utf8')).map(x => x.ad));
+  for (const y of yerler) taban.add(y.ad);
+  const kalan = [], dusen = [];
+  for (const m of sinir) (m.yer_id && !taban.has(m.yer_id) ? dusen : kalan).push(m);
+  sinir.length = 0; for (const m of kalan) sinir.push(m);
+  sayac.sinir_yeri_olmayan_dusen = dusen.length;
+  fs.writeFileSync(path.join(__dirname, '_log', 'sinir_bekleyen.json'), JSON.stringify(dusen));
 }
 // künye: mevcut id'leri atla
 const devPath = path.join(KOK, 'data/devletler.js');
@@ -283,7 +305,7 @@ console.log(JSON.stringify({ kumeler, yaz: YAZ, kunye_yeni: yeniK.length, kunye_
 if (!YAZ) process.exit(0);
 // künyeleri ekle (önceki DOGU bloğu varsa önce çıkar: idempotent)
 const son = dev.lastIndexOf('];');
-const blok = BLOK_BAS + yeniK.map(d => JSON.stringify(d, null, 2).replace(/\n/g, '\r\n') + ',\r\n').join('') + BLOK_SON;
+const blok = BLOK_BAS + yeniK.map(d => JSON.stringify(d, null, 2).replace(/^(\s*)"([A-Za-z_][A-Za-z0-9_]*)":/gm, '$1$2:').replace(/\n/g, '\r\n') + ',\r\n').join('') + BLOK_SON;
 dev = dev.slice(0, son) + blok + dev.slice(son);
 fs.writeFileSync(devPath, dev);
 fs.writeFileSync(path.join(KOK, 'data/kronoloji_cok_dogu_500_1281.js'), jsDosya('KRONOLOJI_COK_DOGU_500_1281', cok, 'DOĞU 500-1281 anlatı kronolojisi (künyelere taraflar: ile eklenir)'));
