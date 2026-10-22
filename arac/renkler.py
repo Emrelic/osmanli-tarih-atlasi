@@ -179,6 +179,32 @@ KOVA = {
 }
 
 BOYALAR = {
+    # ═══ 🏺 MS 500-1281 YENİ KÜNYELER (VERI-MS1-1281 · DEVLET-LISTESI devri; `boya_gerekli:true` + zincirlerde __BOSLUK__ bırakan boyasız mevcut künyeler) ═══
+    # Seçim: bindirilmiş L* ≥ 59,8 · altlıktan ΔE ≥ 16 · zaman örtüşen + ≤3000 km (bölgesiz = yakın, korumacı) BOYALAR'a göre ΔE maksimize. Gerçek komşuluk renk_olc ile koşu sonrası.
+    "ahamenis-misir": ("Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi)", "#6b7bab"),
+    "anau-ia-kultur": ("Anau IA (Namazga öncesi/Meana evresi, Kopet Dağ)", "#1ca4f3"),
+    "ban-chiang-kultur": ("Ban Chiang Kültürü (Kuzeydoğu Tayland)", "#84bff7"),
+    "casma-sechin": ("Casma Vadisi Geç Arkaik–Formatif toplulukları (Sechín Bajo, Cerro Sechín, Sechín Alto)", "#f5c4f2"),
+    "ebla-1": ("Ebla Birinci Krallığı", "#6b7bab"),
+    "etrusk-sehir-devletleri": ("Etrüsk Şehir Devletleri (Oniki Şehir Birliği)", "#6c75e6"),
+    "gobero-kultur": ("Gobero Holosen yerleşimi (Kiffian–Tenerian, Ténéré)", "#8ce5aa"),
+    "hitit": ("Hitit Krallığı ve İmparatorluğu (Hatti)", "#6b7bab"),
+    "israil-krallik": ("Israil Krallığı (Samiriye)", "#6b7bab"),
+    "kaminaljuyu-providencia": ("Kaminaljuyú Providencia evresi", "#de9bff"),
+    "kartaca": ("Kartaca (Pön) Devleti", "#a673af"),
+    "khok-phanom-di-neolitik": ("Khok Phanom Di Neolitiği (Orta Tayland kıyısı)", "#0e8cc8"),
+    "korint": ("Korint", "#e271d9"),
+    "kotosh-dini-gelenek": ("Kotosh Dini Geleneği (Orta And)", "#5da8f9"),
+    "kush-krallik": ("Kus (Napata–Meroe) Krallığı", "#68ec93"),
+    "la-blanca-formatif": ("La Blanca (Pasifik kıyısı Guatemala) Orta Formatif anıtsal merkez", "#de9bff"),
+    "mari-erken": ("Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad)", "#68ec93"),
+    "nabatiye": ("Nabatiye Krallığı", "#6b7bab"),
+    "oaxaca-formatif": ("Oaxaca Vadisi Formatif köyleri (San José Mogote, Rosario evresine dek)", "#8b6e96"),
+    "paracas-kultur": ("Paracas Kültürü (Ica, Güney Peru kıyısı)", "#a07159"),
+    "tonga-lapita": ("Tonga Lapita iskânı (Nukuleka)", "#1385f2"),
+    "turkana-pastoral-neolitik": ("Turkana Pastoral Neolitiği ('pillar sites' geleneği)", "#995dc0"),
+    "ugarit": ("Ugarit Krallığı", "#68ec93"),
+
     # ═══ 🏺 KURULUŞ ZİNCİRİ RENKLERİ (MO-MOTOR · KURULUS-GERI isteği 21 Ekim: 25 kimlik; komşu+zaman örtüşen BOYALAR'a göre ΔE maksimize, L* ≥ 59,8) ═══
     "roma-imp": ("Roma İmparatorluğu (Prinkipat-Dominat, birleşik)", "#3684fa"),
     "emevi": ("Emevî Hilâfeti (Benî Ümeyye)", "#8dc7fc"),
@@ -4490,6 +4516,7 @@ _aciklik_tavani_dogrula()
 DESEN_TURLERI = ("serit", "capraz", "nokta", "dikey")
 KULTUR_OPAKLIK_ARALIK = (0.20, 0.65)
 KULTUR_DESEN = {
+
 
 
     "aseramik-kuzey-levant-anadolu": ("serit", 0.45),
