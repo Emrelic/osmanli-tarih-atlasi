@@ -1,0 +1,472 @@
+{
+ "yerlesim_sayisi": 4764,
+ "s_bos_yerlesim": 169,
+ "s_bos_k_le_3": 169,
+ "s_bos_k_le_3_adlar": [
+  "Tamanrasset",
+  "Rub'ul Hâlî doğusu",
+  "Nûbe çölü",
+  "Gilf el-Kebîr",
+  "Selîme (Nûbe çölü batısı)",
+  "Tibesti",
+  "Hoggar",
+  "Karakum",
+  "Somali çölü",
+  "Ogaden",
+  "Uzboy",
+  "Üstyurt platosu (batı)",
+  "Üstyurt platosu (doğu)",
+  "Askalân",
+  "Dvin",
+  "Vâdî Sirhân",
+  "Hamâd (Bâdiyetü'ş-Şâm içi)",
+  "Widyân (el-Widyân)",
+  "Nuhayb (Nukhayb)",
+  "Aleşki Seçi",
+  "Serîr",
+  "Tâzirbû",
+  "Hamâde-i Hamrâ (Hamada al-Hamra)",
+  "Rebyâne",
+  "Vâv el-Kebîr",
+  "İdehân Murzuk",
+  "Kufra (el-Cûf)",
+  "İdehân Ubârî",
+  "Ramletü Murzuk",
+  "Vâdî Tanezzûft",
+  "Serîr Kalanşû",
+  "Ramletü Zellâf",
+  "Ma'tan es-Sarra",
+  "Tâsîlî n'Accer",
+  "Svalbard",
+  "Franz Josef Toprağı",
+  "Severnaya Zemlya",
+  "Yeni Sibirya Adaları",
+  "Oraibi (Hopi, Üçüncü Mesa)",
+  "Büyük Ovalar (orta kesim)",
+  "Rub'ul Hâlî güneybatısı",
+  "Bîr Natrûn",
+  "Merga vahası",
+  "Lakiye Arbaîn",
+  "Vâdî Hovâr",
+  "Cebel Ûveynât",
+  "Zolat el-Hammâd",
+  "Kordofan kuzeybatı çölü",
+  "Umman iç çölü",
+  "Vâdî el-Milk",
+  "Bayûda çölü",
+  "Atbay çölü",
+  "Yeni Gine İç Yaylaları (Merkez — Mount Hagen)",
+  "Yeni Gine İç Yaylaları (Batı — Baliem Vadisi)",
+  "Yeni Gine İç Kesimi (Kuzey — Sepik Havzası)",
+  "Yeni Gine İç Kesimi (Güney — Fly Nehri Bataklıkları)",
+  "Yakut toprakları (Orta Lena)",
+  "Koryak toprakları",
+  "Anadır (Anadyrsk)",
+  "Çukotka merkezi",
+  "Doğu Grönland",
+  "Kuzeydoğu Grönland",
+  "Avustralya İç Kesimi (Orta — Arrernte bölgesi)",
+  "Aotearoa Māori Yerleşimi (Kuzey Adası içi)",
+  "Yap",
+  "Rapa Nui (Paskalya Adası)",
+  "Hawaii Adaları (Birleşme Öncesi — moku/aliʻi sistemi)",
+  "Bau (Fiji Konfederasyonları)",
+  "Te Waipounamu Māori Yerleşimi (Güney Ada içi)",
+  "Avustralya İç Kesimi (Kuzeybatı — Kimberley)",
+  "Avustralya İç Kesimi (Kuzey — Arnhem Land)",
+  "Avustralya İç Kesimi (Kuzeydoğu — Cape York)",
+  "Avustralya İç Kesimi (Güney — Nullarbor/Güneybatı)",
+  "Tazmanya (Aborijin Tazmanyalılar)",
+  "Kamçatka (İtelmen toprakları)",
+  "Kolıma havzası (Yukagir toprakları)",
+  "Doğu Sibirya kıyısı (Çuvan-Yukagir)",
+  "Penjina havzası (kuzey Koryak)",
+  "İfe (Ile-Ife)",
+  "Upemba (Kisale) havzası",
+  "Malebo Havuzu (Teke)",
+  "Kasai havzası",
+  "Ubangi-Uele havzası",
+  "Mapungubwe",
+  "Gibson Çölü",
+  "Tanami Çölü",
+  "Büyük Victoria Çölü",
+  "Büyük Victoria Çölü 2",
+  "Gibson Çölü 2",
+  "Simpson Çölü",
+  "Büyük Victoria Çölü 3",
+  "Küçük Kum Çölü",
+  "Büyük Kum Çölü",
+  "Büyük Kum Çölü 2",
+  "Küçük Kum Çölü 2",
+  "Büyük Kum Çölü 3",
+  "Gibson Çölü 3",
+  "Arnhem Land",
+  "Büyük Kum Çölü 4",
+  "Yeni Gine Merkezî Yaylaları",
+  "Büyük Victoria Çölü 4",
+  "Gibson Çölü 4",
+  "Büyük Kum Çölü 5",
+  "Cape York Yarımadası",
+  "Eyre Yarımadası kuzeyi / Gawler",
+  "Büyük Victoria Çölü 5",
+  "Yeni Gine Merkezî Yaylaları 2",
+  "Büyük Victoria Çölü 6",
+  "Büyük Kum Çölü 6",
+  "Simpson Çölü 2",
+  "Cape York Yarımadası 2",
+  "Kimberley iç kesimi",
+  "Louisiade-Milne takımadası",
+  "Murchison-Gascoyne iç kesimi",
+  "Büyük Victoria Çölü 7",
+  "Simpson Çölü 3",
+  "Murchison-Gascoyne iç kesimi 2",
+  "Pilbara iç kesimi",
+  "Büyük Kum Çölü 7",
+  "Yeni Kaledonya iç kesimi",
+  "Aru-Tanimbar adaları",
+  "Yeni Gine Merkezî Yaylaları 3",
+  "Aru-Tanimbar adaları 2",
+  "Yeni Gine Merkezî Yaylaları 4",
+  "Yeni Britanya iç kesimi",
+  "Yeni Gine Batı (Kuş Başı / Vogelkop)",
+  "Yeni Gine Merkezî Yaylaları 5",
+  "Yeni Gine Batı (Kuş Başı / Vogelkop) 2",
+  "Beyan K7.5 B62.5",
+  "Beyan K7.5 B60.5",
+  "Beyan K4.5 B62.5",
+  "Beyan K4.5 B59.5",
+  "Beyan K3.5 B56.5",
+  "Beyan K3.5 B54.5",
+  "Beyan K2.5 B52.5",
+  "Beyan K1.5 B63.5",
+  "Beyan K1.5 B60.5",
+  "Beyan K1.5 B57.5",
+  "Beyan K1.5 B54.5",
+  "Beyan G4.5 B52.5",
+  "Beyan G7.5 B62.5",
+  "Beyan G7.5 B56.5",
+  "Beyan G7.5 B50.5",
+  "Beyan G7.5 B47.5",
+  "Beyan G9.5 B65.5",
+  "Beyan G10.5 B68.5",
+  "Beyan G10.5 B61.5",
+  "Beyan G10.5 B58.5",
+  "Beyan G10.5 B52.5",
+  "Mushuau-nipi (Indian House Lake)",
+  "Wintu (Yukarı Sacramento)",
+  "Pecos Pueblo (Cicuye)",
+  "Paquimé (Casas Grandes)",
+  "Tocobaga (Safety Harbor)",
+  "Vâdi'd-Devâsir",
+  "Bîşe",
+  "Bad-tibira (Tell al-Madinah)",
+  "Zabalam (Tell Ibzeikh)",
+  "Marad (Tell Wannat es-Sadum)",
+  "Kisurra (Tell Abu Hatab)",
+  "Isin (Ishan al-Bahriyat)",
+  "Nina (Tell Zurghul)",
+  "Dilbat (Tell ed-Duleym)",
+  "Kutha (Tell Ibrahim)",
+  "Tell al-Ubaid",
+  "Eşnunna (Tell Asmar)",
+  "Lagaş (Tell al-Hiba)",
+  "Şuruppak (Tell Fara)",
+  "Larsa (Tell as-Senkereh)"
+ ],
+ "kunyesiz_d": {
+  "suleyman-celebi": {
+   "yerlesim_sayisi": 158,
+   "ornek": [
+    "Absu (Hypsu)",
+    "Adranos (Orhaneli)",
+    "Ahtapolu (Ahtopol)",
+    "Akhisar (Pamukova)",
+    "Akyazı",
+    "Alasonya (Elassona)",
+    "Anadolu Hisarı",
+    "Ankara"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "avusturya": {
+   "yerlesim_sayisi": 145,
+   "ornek": [
+    "Anvers (Antwerpen)",
+    "Arlon",
+    "Banaluka",
+    "Bastogne",
+    "Belluno",
+    "Bergamo",
+    "Bihaç (Bihać)",
+    "Bormio"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "musa-celebi": {
+   "yerlesim_sayisi": 89,
+   "ornek": [
+    "Alasonya (Elassona)",
+    "Aydos (Aytos)",
+    "Bolayır",
+    "Debre (Dibra)",
+    "Demirköy",
+    "Dereköy (Kırklareli)",
+    "Dimetoka",
+    "Doyran"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "mehmed-celebi": {
+   "yerlesim_sayisi": 75,
+   "ornek": [
+    "Absu (Hypsu)",
+    "Adranos (Orhaneli)",
+    "Akhisar (Pamukova)",
+    "Akyazı",
+    "Amasya",
+    "Anadolu Hisarı",
+    "Ankara",
+    "Armutlu"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "isa-celebi": {
+   "yerlesim_sayisi": 63,
+   "ornek": [
+    "Absu (Hypsu)",
+    "Adranos (Orhaneli)",
+    "Akhisar (Pamukova)",
+    "Akyazı",
+    "Anadolu Hisarı",
+    "Armutlu",
+    "Aydos Kalesi",
+    "Ayvalık"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "sirbistan": {
+   "yerlesim_sayisi": 35,
+   "ornek": [
+    "Alacahisar (Kruševac)",
+    "Belgrad",
+    "Belgrad Kalesi (Kalemegdan)",
+    "Debre (Dibra)",
+    "Doyran",
+    "Drama",
+    "Gevgili (Gevgelija)",
+    "Karaferye (Veria)"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "sardinya": {
+   "yerlesim_sayisi": 34,
+   "ornek": [
+    "Ancona",
+    "Annemasse",
+    "Aosta",
+    "Bergamo",
+    "Bolonya",
+    "Bormio",
+    "Bourg-Saint-Maurice",
+    "Brescia"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "bulgaristan": {
+   "yerlesim_sayisi": 28,
+   "ornek": [
+    "Aydos (Aytos)",
+    "Babadağı (Babadag)",
+    "Balçık (Balchik)",
+    "Burgaz (Burgas)",
+    "Elhova (Elhovo)",
+    "Eski Zağra (Stara Zagora)",
+    "Filibe",
+    "Hasköy (Haskovo)"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "ceneviz": {
+   "yerlesim_sayisi": 24,
+   "ornek": [
+    "Aluşta",
+    "Amasra",
+    "Ayacyo (Ajaccio)",
+    "Azak",
+    "Balaklava (Cembalo)",
+    "Bastia (Korsika)",
+    "Cenova",
+    "Enez"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "suud": {
+   "yerlesim_sayisi": 19,
+   "ornek": [
+    "Bedir",
+    "Buraydâ (Kasîm)",
+    "Cübeyl",
+    "Dir'iye (Necid)",
+    "Hayber",
+    "Hâil",
+    "Katîf",
+    "Kunfüze (el-Kunfüze)"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "sovalye": {
+   "yerlesim_sayisi": 16,
+   "ornek": [
+    "Aydın",
+    "Batnoz (Patmos)",
+    "Bodrum",
+    "Herke (Halki)",
+    "Kelemez (Kalimnos)",
+    "Lindos",
+    "Malta",
+    "Rodos"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "hicaz": {
+   "yerlesim_sayisi": 16,
+   "ornek": [
+    "Bedir",
+    "Cidde",
+    "Hayber",
+    "Hurma (Tâif doğusu)",
+    "Kunfüze (el-Kunfüze)",
+    "Maan",
+    "Medine",
+    "Medâin-i Sâlih (el-Hicr)"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "milanoduka": {
+   "yerlesim_sayisi": 13,
+   "ornek": [
+    "Bellinzona",
+    "Bergamo",
+    "Bormio",
+    "Brescia",
+    "Chiavenna",
+    "Como",
+    "Locarno",
+    "Lugano"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "yemen": {
+   "yerlesim_sayisi": 12,
+   "ornek": [
+    "Aden",
+    "Ebha (Asir)",
+    "Ferasan (Farasan)",
+    "Hudeyde",
+    "Kemeran (Kamaran)",
+    "Kevkebân",
+    "Moha",
+    "Sa'de"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "bosna": {
+   "yerlesim_sayisi": 11,
+   "ornek": [
+    "Foça (Foča)",
+    "Herseknovi (Herceg Novi)",
+    "Koniçe (Konjic)",
+    "Livno (İhlevne)",
+    "Srebrenik",
+    "Travnik",
+    "Trebinye",
+    "Visoko"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "lusignan": {
+   "yerlesim_sayisi": 6,
+   "ornek": [
+    "Baf (Paphos)",
+    "Girne (Kyrenia)",
+    "Lefkoşa",
+    "Limasol",
+    "Magosa",
+    "Tuzla (Larnaka)"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "atinadukaligi": {
+   "yerlesim_sayisi": 4,
+   "ornek": [
+    "Atina",
+    "Kulluk (Salamis)",
+    "Livadya",
+    "İstefe (Tebai)"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "arnavutluk": {
+   "yerlesim_sayisi": 2,
+   "ornek": [
+    "Akçahisar (Kruja)",
+    "Mat (Mati)"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "kaffa": {
+   "yerlesim_sayisi": 2,
+   "ornek": [
+    "Bonga (Kaffa)",
+    "Cimma (Jiren)"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "cimma": {
+   "yerlesim_sayisi": 1,
+   "ornek": [
+    "Cimma (Jiren)"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "vollayta": {
+   "yerlesim_sayisi": 1,
+   "ornek": [
+    "Sodo (Vollayta)"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  },
+  "sidamo": {
+   "yerlesim_sayisi": 1,
+   "ornek": [
+    "Yirgalem (Sidamo)"
+   ],
+   "devlet_listesinde_aday_var": false,
+   "aday_dogrulama": null
+  }
+ },
+ "boyasiz_kunye_d": {},
+ "bosluk_yerlesim_sayisi": 139,
+ "bosluk_dilim_sayisi": 167
+}
