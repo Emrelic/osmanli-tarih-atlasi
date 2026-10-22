@@ -1540,6 +1540,34 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "SONUÇ: Bangkok/Thonburi'nin 1281 öncesi ya da 1687 öncesi kaynaklı zinciri BULUNAMADI (Ayutthaya kroniklerinin Thonburi'si bu oturumda açılamadı). Zincir yalnız 1687 → 1767-12-28 (atlas başlangıcı). ATLAS NOTLARI: (1) atlas 'tonburi' künyesini 1767-12-28'de başlatır ve nokta kur=1767-12-28 alır; Taksin Thonburi'yi daha önce (Ekim-Kasım 1767) aldı ve Wood Bangkok'u (Thonburi) 1687'de kale olarak anar — kur 'Thonburi şehir kuruluşu' değil Taksin başkentliğidir. (2) 1767-04'ten Taksin'e kadar Birmanya vali yönetimi atlasta yok. (3) Wood'un 'T'anaburi=Bangkok' notu: bugünkü Bangkok'un resmî kuruluşu 1782 (Rama I; ayrı kayıt, nehrin öte yakası). Çift teyit: Wood tek akademik kaynak; Wikipedia (yalnız tutarlılık) Thonburi'yi Ayutthaya dönemi garnizon kasabası olarak niteler."
  },
  {
+  "id": "banten",
+  "ad": "Banten",
+  "atlas_ad": "Banten",
+  "lat": -6.036,
+  "lon": 106.15,
+  "kat1900": 3,
+  "adlar": [
+   "Bantam",
+   "Bentem",
+   "Banten"
+  ],
+  "ilk": {
+   "t": "1515-01-01",
+   "gun": "1515",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Tomé Pires, Suma Oriental (written Malacca/India 1512-1515), çev. A. Cortesão, Hakluyt Society 2nd ser. 89, London 1944; archive.org McGillLibrary-136385-182 (djvu metni curl ile okundu) (Sunda krallığı limanları)",
+   "tanik": "the town and lands and port of Bantam",
+   "ic_not": "Pires 1512-1515: Bantam Sunda krallığının limanı ('good city on the river', ana liman); aralığın son ucu 1515. Daha eski yer: Banten Girang (Wahanten, ~10 km içeride, > 3 km; Guillot-Nurhakim-Wibisono arkeolojisi 11-12. yy) — bu oturumda açılmadı, ayrı kayıt olarak önerilir. Banten Lama için 1515 öncesi tanık bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "Zincir BOŞ: ilk.t 1515 > atlas başlangıcı 1281 (atlas 'sunda-pajajaran' 1281'de başlatıyor; Banten Lama 1281'de var mıydı kaynaksız → atlas başlangıcı düzeltilmeli/uyarı). Banten'in Demak/Cirebon tarafından alınışı: TDV demak 'Şeyh İbn Mevlânâ buradaki Bentem ve Cirebon limanlarını ele geçirdi' (yıl yok; künye 1527-06-22) — olay tarihi bulunamadı."
+ },
+ {
   "id": "baroda",
   "ad": "Baroda (Vadodara)",
   "atlas_ad": "Baroda (Vadodara)",
@@ -1791,6 +1819,71 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Kuruluş tarihi bulunamadı: Barcino kolonisi Augustus'a atfedilir ama tarih yok; ilk yazılı tanık (sikke efsanesi) MÖ 3. yy sonu. TDV'nin MÖ 237 Hamilcar rivayeti Princeton ve Treccani'ce reddedilir (beyan). Çift teyit: 415 Vizigot girişi (TDV + Treccani), 801 Frank fethi (Treccani gün; TDV yıl), Aragon birleşmesi 1137 (Treccani yıl; TDV yıl vermez). Fetih yılı çelişkisi: TDV 715, Treccani 'Spagna' ≈718. Zincir atlas ilk gününde (1281-01-01 Aragon) biter."
+ },
+ {
+  "id": "batavia-cakarta",
+  "ad": "Batavia (Cakarta)",
+  "atlas_ad": "Batavia (Cakarta)",
+  "lat": -6.175,
+  "lon": 106.827,
+  "kat1900": 1,
+  "adlar": [
+   "Sunda Kalapa",
+   "Calapa",
+   "Jayakarta (Jajakarta)",
+   "Batavia",
+   "Cakarta"
+  ],
+  "ilk": {
+   "t": "1515-01-01",
+   "gun": "1515",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Tomé Pires, Suma Oriental (written Malacca/India 1512-1515), çev. A. Cortesão, Hakluyt Society 2nd ser. 89, London 1944; archive.org McGillLibrary-136385-182 (djvu metni curl ile okundu) (Sunda limanları sayımı)",
+   "tanik": "the port of Calapa, the port of Chi Manuk",
+   "ic_not": "Pires Suma Oriental 1512-1515 arasında yazıldı: aralığın SON ucu 1515 alındı. Pires Calapa'yı Sunda krallığının ana limanı sayar (Cortesão notu: Calapa = Batavia). TDV: 'Cakarta’nın ne zaman kurulduğu hakkında kesin bilgi yoktur'; kuruluş tarihi bulunamadı. Daha eski anılış var olabilir: Tarumanagara Tugu yazıtı (Tugu ~9 km doğuda, > 3 km → burada yazılmaz; ayrı kayıt olarak önerilir); Sunda Kalapa için 12. yy Çin (Zhufanzhi 'Sin-t'o') genel Sunda limanından söz eder, Kalapa'yı adıyla anmaz — Chau Ju-kua metni bu oturumda yalnız indirildi, Kalapa eşitlemesi doğrulanmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1515-01-01",
+    "t": "1527-01-01",
+    "d": "sunda-pajajaran",
+    "kesinlik": "yil",
+    "kaynak": "Tomé Pires, Suma Oriental (written Malacca/India 1512-1515), çev. A. Cortesão, Hakluyt Society 2nd ser. 89, London 1944; archive.org McGillLibrary-136385-182 (djvu metni curl ile okundu); TDV İslâm Ansiklopedisi, CAKARTA, S. Erinç (1993), https://islamansiklopedisi.org.tr/cakarta",
+    "ic_not": "Pires Calapa'yı Sunda krallığının limanı sayar; TDV 1522'de Portekiz-Pajajaran antlaşmasını anar. Bitiş: TDV 'beş yıl sonra' (1522+5=1527), gün yok; künye sunda-pajajaran t=1527-06-22 — dönem künyeden ~172 gün erken bitiyor (hayalet değil, kısa kesme)."
+   },
+   {
+    "f": "1527-01-01",
+    "t": "1619-05-30",
+    "d": "banten-sultanligi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, CAKARTA (1993), https://islamansiklopedisi.org.tr/cakarta",
+    "ic_not": "TDV: Sunda Kalapa Bentem (Banten) Sultanlığı tarafından işgal edilip Jajakarta adını alır; Pangeran Wijayakrama Bentem'e bağlı yönetir; '1619 yılına kadar böylece kaldı'. Künye banten-sultanligi f=1527-06-22: dönem 172 gün erken başlıyor (hayalet uyarısı beklenir; TDV yalnız yıl veriyor, 22 Haziran günü için kaynak açılmadı)."
+   }
+  ],
+  "dikis_beyan": "Atlas 1619-05-30'da 'hollanda-dogu-hint' ile başlatıyor; TDV (CAKARTA) yalnız '1619 yılına kadar' ve 'yüksek surlarla çevrilmesi 1619’da biten yeni bir kale-şehir' der, 30 Mayıs günü için akademik kaynak bu oturumda açılmadı; yer tutucu olay yazılmadı.",
+  "olay": [
+   {
+    "t": "1522-01-01",
+    "gun": "1522",
+    "k": "antlaşma",
+    "b": "Portekizliler Pajajaran (Sunda) Krallığı ile Ciliwung ağzında yerleşme için anlaşma yapar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, CAKARTA (1993), https://islamansiklopedisi.org.tr/cakarta",
+    "tanik": "Pajajaran Krallığı’yla bir anlaşma yaparak ülkelerine döndüler (1522)"
+   },
+   {
+    "t": "1527-01-01",
+    "gun": "1527",
+    "k": "fetih",
+    "b": "Sunda Kalapa Bentem (Banten) Sultanlığı'nca işgal edilir, Jajakarta adını alır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, CAKARTA (1993), https://islamansiklopedisi.org.tr/cakarta",
+    "tanik": "Sunda Kalapa’nın müslüman Bentem Sultanlığı tarafından işgal edildiğini"
+   }
+  ],
+  "ic_not": "Yalnız Pires + TDV açıldı. 1527 yılı TDV'de 'beş yıl sonra' ifadesinden türetildi (1522+5); Banten'in fethi için gün/ikinci kaynak (Hageman, Djajadiningrat, Guillot) bulunamadı."
  },
  {
   "id": "belgrad",
@@ -6504,6 +6597,33 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "SONUÇ: ilk anılış kaydı ZAYIF (ikincil); 1170-1192 Çahamana, 1192 Gurlu (atlasla dikiş). KAYNAK ÇİFT TEYİDİ: 1192 için iki bağımsız kaynak (Minhâc, TDV). HİCRÎ: Minhâc '588 h. (1192 a.d.)' verir; hicrî 588 = 1192-01-18 … 1193-01-06 (tablo takvimi, Jülyen); kesişimin ilk günü 1192-01-18 alındı — GERÇEK II. Terâin tarihi yılın ilerisindedir (savaşın ayı/günü kaynakta yok), atlasın 1192-01-01'i ile ±17 gün uyumludur. Minhâc aynı cümlede Delhi alımını 'Terâin'den sonra aynı yıl' verir; E&D Cilt II s.297. AÇILAMAYAN: Epigraphia Indica XXVI (Bijolia), Indian Antiquary XIX (Delhi-Shivalik sütunu 1164), Cohen JAOS 1989, Imperial Gazetteer XI (Delhi; archive.org 404). ANTİK YERLEŞİM >3 KM: Purana Qila / İndraprastha (28.61, 77.24; atlas noktasına ~4,4 km) ve Lâlkot/Mehrauli (28.52, 77.18; ~14 km) ayrı kayıt olarak önerilir; Kızıl Kale çevresinde OCP (~MÖ 2000) ve PGW (~MÖ 1200) verisi yalnız Vikipedi 'History of Delhi' (ikincil, atıfsız) — yazılmadı. ATLAS DÜZELTME ÖNERİSİ: yok (atlas Delhi'yi 1192 Gurlu ile açıyor, TDV/Minhâc ile uyumlu; 1192 öncesi 1170'e kadar Çavhan zinciri eklenebilir)."
+ },
+ {
+  "id": "demak",
+  "ad": "Demak",
+  "atlas_ad": "Demak",
+  "lat": -6.89,
+  "lon": 110.639,
+  "kat1900": 3,
+  "adlar": [
+   "Demaa",
+   "Demak"
+  ],
+  "ilk": {
+   "t": "1515-01-01",
+   "gun": "1515",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Tomé Pires, Suma Oriental (written Malacca/India 1512-1515), çev. A. Cortesão, Hakluyt Society 2nd ser. 89, London 1944; archive.org McGillLibrary-136385-182 (djvu metni curl ile okundu) (Cava kıyısı sayımı)",
+   "tanik": "all along the land of Demak (Demaa) and Japara",
+   "ic_not": "Pires 1512-1515: 'land of Demak' Cava kıyı ülkeleri arasında; Pate Rodim 'lord of Demak' (Cambi, Palembang'ı bile boyunduruk altına almış). Son uç 1515. TDV: Demak hükümdarlarının atası Cek Ko-po 'XV. yüzyılın son çeyreğinde' bölgeye yerleşir (kuruluş değil; 'Cava geleneği'). Demak'ın kuruluş günü ve 1281-1478 arası sahibi (atlas: singhasari 1281, majapahit 1292) için kaynak bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "Zincir BOŞ: ilk.t 1515 > atlas başlangıcı 1281. Atlas Demak'ı 1281'den (Singasari) başlatıyor ama 1515 öncesi yerleşim tanığı bulunamadı → atlas başlangıcı düzeltilmeli/kaynaklandırılmalı. Demak Sultanlığı künyesi 1478 (TDV Raden Patah 'son Majapahit kralından doğan Çinli prensesin oğlu' - tarihsiz)."
  },
  {
   "id": "devagiri",
@@ -14465,6 +14585,66 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Çok eski kronoloji (Sangam) için tarihli kaynak yok; Sastri tek ana kaynak (OCR). Sahiplik dilimleri iki __BOSLUK__ taşıyor (Kalabhra; 910-994 çekişmeli). Atlas Madurai'yi 1281'de 'pandya' ile başlatır — kaynakla uyumlu (Pandya İkinci İmparatorluğu 1190'dan)."
  },
  {
+  "id": "malaka",
+  "ad": "Malaka",
+  "atlas_ad": "Malaka",
+  "lat": 2.196,
+  "lon": 102.25,
+  "kat1900": 3,
+  "adlar": [
+   "Melaka",
+   "Malacca",
+   "Malaka"
+  ],
+  "ilk": {
+   "t": "1395-01-01",
+   "gun": "1395 (1390'ların ortası)",
+   "nicelik": "kurulus",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, MALAKA, İ. H. Göksoy (2003), https://islamansiklopedisi.org.tr/malaka",
+   "tanik": "tarafından bir liman şehri olarak kurulmuştur",
+   "ic_not": "TDV: 'Malaka 1390’lı yılların ortalarında ... Prens Parameśvara tarafından bir liman şehri olarak kurulmuştur' (Parameśvara önce Singapur'da hüküm sürdü). Atlas Malaka'yı 1400-01-01'de başlatıyor; TDV'ye göre kuruluş ~1395 → atlas başlangıcı 1395'e çekilebilir (yalnız TDV bu oturumda açıldı; Wolters/Wang Gungwu/Sandhu-Wheatley TDV bibliyografyasında anılır, açılmadı; Sejarah Melayu'nun tarihi farklı olabilir). Yıl = 1390'lı yılların ortası → 1395-01-01 (onyıl hassasiyeti)."
+  },
+  "kur": {
+   "t": "1395-01-01",
+   "gun": "1395 (1390'ların ortası)",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, MALAKA (2003), https://islamansiklopedisi.org.tr/malaka",
+   "tanik": "tarafından bir liman şehri olarak kurulmuştur"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1395-01-01",
+    "t": "1400-01-01",
+    "d": "malaka-sultanligi",
+    "kesinlik": "onyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, MALAKA (2003), https://islamansiklopedisi.org.tr/malaka",
+    "ic_not": "Parameśvara'nın kurduğu 'Malaka Sultanlığı denilen küçük bir devlet' (TDV). Künye 'malaka-sultanligi' f=1400-01-01; dönem künyeden ~5 yıl erken başlıyor (hayalet uyarısı beklenir) — künye f 1395'e çekilebilir. Aynı sahip atlasın ilk sahibi, dikiş sorunu yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1395-01-01",
+    "gun": "1395 (1390'ların ortası)",
+    "k": "kurulus",
+    "b": "Parameśvara Malaka'yı liman şehri olarak kurar (TDV: 1390'ların ortası).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MALAKA (2003), https://islamansiklopedisi.org.tr/malaka",
+    "tanik": "tarafından bir liman şehri olarak kurulmuştur"
+   },
+   {
+    "t": "1403-01-01",
+    "gun": "1403",
+    "k": "diger",
+    "b": "Malaka'ya ilk Çin heyeti gelir (kuruluştan birkaç yıl sonra).",
+    "kaynak": "TDV İslâm Ansiklopedisi, MALAKA (2003), https://islamansiklopedisi.org.tr/malaka",
+    "tanik": "1403 yılında bir Çin heyetinin ziyarete gelmesi"
+   }
+  ],
+  "ic_not": "Yalnız TDV açıldı. Bulunamadı: kuruluş için ikinci bağımsız akademik tanık (Wolters 1970, Wang Gungwu 1964 TDV kaynakçasında; açılmadı). Çift teyit YOK."
+ },
+ {
   "id": "manama",
   "ad": "Manama (Bahreyn)",
   "atlas_ad": "Manama (Bahreyn)",
@@ -18251,6 +18431,70 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "SONUÇ: Pagan'ın yazılı kuruluş tanığı kronik geleneğidir (849); yazıt/arkeoloji tarihi bu oturumda araştırılmadı/açılmadı (Hudson, UNESCO adaylık dosyası, Luce 'Old Burma-Early Pagán' bakılmadı). Atlas 1000-01-01'de pagan olarak başlıyor; bu zincir 849→1000 arasını tek sahiple (pagan) doldurur. ATLAS DÜZELTME ÖNERİSİ: Pagan'ın başlangıcı 849-01-01 olabilir (kronik tabanlı; beyanla) — karar Emre'nin. kat1900: Pagan 1900 şehir listesinde yok (null)."
  },
  {
+  "id": "palembang",
+  "ad": "Palembang",
+  "atlas_ad": "Palembang",
+  "lat": -2.976,
+  "lon": 104.775,
+  "kat1900": 3,
+  "adlar": [
+   "Srivijaya (Śrīvijaya)",
+   "Pa-lin-feng",
+   "Palimbam",
+   "Palembang"
+  ],
+  "ilk": {
+   "t": "0682-04-23",
+   "gun": "23 Nisan 682",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "G. Coedès, The Indianized States of Southeast Asia, ed. W. Vella, çev. S. B. Cowing, East-West Center Press, Honolulu 1968; archive.org george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, s. 82-83 (Kedukan Bukit yazıtı, Seguntang tepesi eteği, Palembang)",
+   "tanik": "a king began an expedition (siddhayatra) by boat",
+   "ic_not": "Kedukan Bukit kitabesi Palembang'da (Seguntang eteği) bulunmuştur; Coedès: kitabe 23 Nisan 682'de başlayan seferi (19 Mayıs'ta yola çıkış, 'bir ay sonra' zafer) anlatır — kitabe en erken bu tarihten SONRA yazıldı (yaklaşık Haziran 682), gün = kitabedeki tarih. Yazıt 'Palembang' adını değil Śrīvijaya'yı anar; Śrīvijaya = Palembang eşitlemesi Coedès'in (ve Beal 1886'dan beri literatürün) kabulüdür ('kabul edilir'), alternatif tez Malayu-Jambi'dir (Coedès bunu 'çok kırılgan hipotez' sayar). Yerinde kitabe yazılı tanıktır (VERI-YAPISI kuralı). Daha eski: Seguntang Buda heykeli (Amarâvatî üslubu, 4-5. yy?) arkeolojik, tarihsiz — başlangıç alınmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0682-04-23",
+    "t": "1281-01-01",
+    "d": "srivijaya",
+    "kesinlik": "yil",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia, ed. W. Vella, çev. S. B. Cowing, East-West Center Press, Honolulu 1968; archive.org george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, s. 82-83, 130-132 (Kedukan Bukit 682, Talang Tuwo 684, Çola akını 1025), s. 203-204 (1275 Cava seferi)",
+    "ic_not": "Srivijaya künyesi f=0683-01-01 t=1275-01-01: dönem başı künyeden 1 yıl erken (kitabe 682), sonu 6 yıl geç (hayalet uyarısı beklenir). Coedès Palembang'ın merkezliğinin Malayu/Jambi lehine zayıfladığını söyler (12. yy) ama Chau Ju-kua hâlâ Palembang'ı (Pa-lin-feng) San-fo-ch'i ülkesi olarak sayar; 'imparatorluğun 13. yy sonunda' Srivijaya mirasçısı elinde olduğunu yazar. 1275 Cava seferi Malayu'yu (Jambi) hedefler, Palembang'ın el değiştirdiğine dair yazılı tanık yok → Srivijaya mirasçısı atlas başına (1281) kadar uzatıldı; beyanlı yaklaşıklık. Künye 'srivijaya' t'sini 1275 yerine 1281+ olarak uzatmak ya da bu aralık için ayrı künye gerekebilir."
+   }
+  ],
+  "dikis_beyan": "Atlas Palembang'ı 1281-01-01'de 'palembang-sultanligi' (f=1281-01-01) ile başlatıyor; Palembang Sultanlığı gerçekte 17. yy başı kurulur (atlas künyesi anakronik görünür, bu oturumda kaynak açılmadı); 1281-01-01 için kaynaklı olay yok, yer tutucu yazılmadı.",
+  "olay": [
+   {
+    "t": "0682-04-23",
+    "gun": "23 Nisan 682",
+    "k": "diger",
+    "b": "Kedukan Bukit kitabesi: Śrīvijaya kralı sefere (siddhayatra) çıkar, zaferle Śrīvijaya'ya iner (ilk yazılı tanık).",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia, ed. W. Vella, çev. S. B. Cowing, East-West Center Press, Honolulu 1968; archive.org george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968",
+    "tanik": "a king began an expedition (siddhayatra) by boat"
+   },
+   {
+    "t": "1025-01-01",
+    "gun": "1025",
+    "k": "kusatma",
+    "b": "Çola kralı Rajendra Palembang'ı (adadaki Srivijaya başkenti) basar, kralı esir alır; sahiplik değişmez (akın, fetih değil).",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia, ed. W. Vella, çev. S. B. Cowing, East-West Center Press, Honolulu 1968; archive.org george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968",
+    "tanik": "the prelude to the great raid of 1025"
+   },
+   {
+    "t": "1275-01-01",
+    "gun": "1275",
+    "k": "kusatma",
+    "b": "Singasari kralı Kṛtanagara batıya sefer yollar (Pamalayu); Malayu üstünde Cava egemenliği kurulur — Palembang'ın el değiştirdiği yazılı değil.",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia, ed. W. Vella, çev. S. B. Cowing, East-West Center Press, Honolulu 1968; archive.org george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968",
+    "tanik": "In 1275, taking advantage of the decline of Srivijaya, he sent a military expedition"
+   }
+  ],
+  "ic_not": "Çift teyit YOK (yalnız Coedès; Telaga Batu/Talang Tuwo 684 yazıtları ayrıca Coedès'te; ikinci bağımsız akademik kaynak -Wolters, Manguin, Hirth-Rockhill Chau Ju-kua- bu oturumda tam okunmadı). Atlas düzeltme önerisi: Palembang atlasta 1281'den başlıyor ama yerleşim 682'den beri tanıklı."
+ },
+ {
   "id": "pamplona",
   "ad": "Pamplona",
   "atlas_ad": "Pamplona",
@@ -21698,6 +21942,70 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "KAYNAK: TDV Simnân + Iranica DĀMḠĀN (C. Adle; Semnān için ayrı madde yok) + TDV Selçuklular. 1040-1221 arası Simnân'a özgü sahiplik tanığı bulunamadı. Simnân atlasta 1221 Moğol ile başlar; kayıt Moğol alışına dikişlidir (BOSLUK → mogol-imparatorlugu, olay 618/1221). Atlas öneri: 1221-01-01 yıl düzeyinde TDV 618 (1221) ile uyumlu."
  },
  {
+  "id": "singapur",
+  "ad": "Singapur",
+  "atlas_ad": "Singapur",
+  "lat": 1.29,
+  "lon": 103.852,
+  "kat1900": 2,
+  "adlar": [
+   "Tumasik",
+   "Temasek",
+   "Singapura",
+   "Singapur"
+  ],
+  "ilk": {
+   "t": "1365-10-01",
+   "gun": "Saka 1287 (Eylül-Ekim 1365)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "Th. G. Th. Pigeaud, Java in the 14th Century III: Translations (Nagara-Kertagama), KITLV Translation Series 4, 3rd ed., The Hague 1960; archive.org java-in-the-14th-century-vol.3-third-ed-revised, Canto 14 st. 2 (Tumasik); Canto 94 st. 2 (eserin tamamlanış tarihi)",
+   "tanik": "Dungun, Tumasik, Sanghyang Hujung",
+   "ic_not": "Nagara-Kertagama (Prapañca) Canto 14.2 Tumasik'i Pahang'a bağlı yerler listesinde anar; eser Canto 94.2'ye göre Saka 1287 Ashwayuj ayında (Eylül-Ekim 1365) tamamlandı: aralığın SON ucu (Ekim 1365) alındı. Daha eski yazılı tanıklar var olabilir (TDV: 'XIV. yüzyıldan itibaren' Majapahit; Çin kaynakları - Wang Dayuan c. 1330'lar - bu oturumda açılmadı, 'bulunamadı'); bu yüzden gerçek ilk anılış daha erken olabilir. Coedès (s. 203-204): Cava'lıların Tumasik'e yerleşmesi 'belki' 1275 dolayı — kesin değil, başlangıç alınmadı. Singapur'un kuruluşu için kaynak bulunamadı (TDV: 'tarihi hakkında çok az bilgi'); arkeolojik tarihleme (Miksic) açılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1365-10-01",
+    "t": "1377-01-01",
+    "d": "majapahit",
+    "kesinlik": "yil",
+    "kaynak": "Th. G. Th. Pigeaud, Java in the 14th Century III: Translations (Nagara-Kertagama), KITLV Translation Series 4, 3rd ed., The Hague 1960; archive.org java-in-the-14th-century-vol.3-third-ed-revised Canto 14.2; TDV İslâm Ansiklopedisi, SİNGAPUR II. Tarih, İ. H. Göksoy (2009), https://islamansiklopedisi.org.tr/singapur",
+    "ic_not": "Nagara-Kertagama Canto 14 Majapahit'in bağımlı yerlerini sayar; Tumasik 'Pahang'a ait olanlar' içindedir. TDV: 'XIV. yüzyıldan itibaren Cava’daki Macapahit devletlerinin hâkimiyeti altında'. Bitiş 1377 = TDV'nin Majapahit'in limanı tahrip yılı. UYARI: TDV anlatısı iç çelişkili (ada 'XIV. yüzyıl ortasında Malaka Krallığı'nın eline geçti', sonra Majapahit tahrip etti); Malaka ancak ~1395'te kurulduğundan (TDV malaka) bu cümle anakronik görünür, sahiplik Majapahit olarak bırakıldı ve beyan edildi."
+   },
+   {
+    "f": "1377-01-01",
+    "t": "1819-01-29",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "TDV İslâm Ansiklopedisi, SİNGAPUR II. Tarih (2009), https://islamansiklopedisi.org.tr/singapur",
+    "ic_not": "1377 Majapahit tahribinden Raffles'a (1819) kadar kaynakta sahip YOK: TDV yalnız 'Portekiz ve Hollanda sömürgecilik dönemlerinde yine ticaret gemileri uğramaya devam etmiştir' der, sahip vermez. Merdiven: ① TDV sahip vermiyor; ②-③ Malay Annals/Johor kaynakları (C. C. Brown çevirisi archive.org'da var) bu oturumda okunmadı; ④ yerleşim 'var' (TDV: ticaret gemileri uğradı); ⑤ abi merkez Malaka (→ 1511 Portekiz) sonra Johor (1528): bulunamadı/okunmadı, kaynaksız yazılmadı. Johor 1819'da egemen olarak antlaşma yapıyor (TDV: 'Johor (Cohor) Hükümdarı Sultan Hüseyin') — atlasta zincirin Johor'dan devralınması gerekçelendirilebilir ama bu oturumda yazılı tanık yok."
+   }
+  ],
+  "dikis_beyan": "Atlas 1819-01-29'da 'ingiltere' ile başlatıyor; TDV (SİNGAPUR II. Tarih) yalnız yıl veriyor ('1818 ... Raffles ... ertesi yıl Johor Hükümdarı Sultan Hüseyin ile antlaşma'); 29 Ocak günü için bu oturumda akademik kaynak açılmadı, yer tutucu olay yazılmadı.",
+  "olay": [
+   {
+    "t": "1365-10-01",
+    "gun": "Saka 1287 (Eylül-Ekim 1365)",
+    "k": "diger",
+    "b": "Nagara-Kertagama tamamlanır; Tumasik Majapahit'in bağımlı yerleri arasında sayılır (ilk yazılı anılış).",
+    "kaynak": "Th. G. Th. Pigeaud, Java in the 14th Century III: Translations (Nagara-Kertagama), KITLV Translation Series 4, 3rd ed., The Hague 1960; archive.org java-in-the-14th-century-vol.3-third-ed-revised",
+    "tanik": "Dungun, Tumasik, Sanghyang Hujung"
+   },
+   {
+    "t": "1377-01-01",
+    "gun": "1377",
+    "k": "diger",
+    "b": "Majapahit, Tumasik/Singapur limanını tahrip eder (TDV).",
+    "kaynak": "TDV İslâm Ansiklopedisi, SİNGAPUR II. Tarih (2009), https://islamansiklopedisi.org.tr/singapur",
+    "tanik": "1377’de Macapahitler tarafından tahrip edilmesi"
+   }
+  ],
+  "ic_not": "Uyarı: sahip[1] __BOSLUK__ 1377-1819 beyanlıdır. Atlas düzeltme önerisi yok (atlas 1819'da başlıyor), ama atlas 1819 öncesini boş bırakıyor: Singapur 1365'ten beri anılıyor."
+ },
+ {
   "id": "sircan",
   "ad": "Sircân",
   "atlas_ad": "Sircân",
@@ -24022,6 +24330,51 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas Trivandrum'u 1281-01-01'de 'travankur' (Venad) ile başlatır; kaynak aranıp bulunamadı: Gazetteer Venad'ın 10. yy'dan beri Quilon merkezli küçük bir beylik olduğunu, Trivandrum'u (tapınak kenti) ancak 14. yy'da Elayadathu/Venad bölünmesiyle 'Venad’ın manevi başkenti' saydığını söyler; 1281'de Trivandrum'un Venad'a geçtiğine dair tarihli tanık yok → YER TUTUCU OLAY YAZILMADI.",
   "ic_not": "Atlas 1281 'travankur' başlangıcı Trivandrum için kaynaksız. 926-1281 arası sahip tarihli bulunamadı (Çera/Çola/Venad). Kollam Çağı yazıtları (Varkala 1252) Venad kralı Padmanabha Marthanda Varma'yı anar ama Trivandrum'u doğrudan bağlamaz."
+ },
+ {
+  "id": "trowulan-majapahit",
+  "ad": "Trowulan (Majapahit)",
+  "atlas_ad": "Trowulan (Majapahit)",
+  "lat": -7.545,
+  "lon": 112.383,
+  "kat1900": 3,
+  "adlar": [
+   "Majapahit",
+   "Trowulan"
+  ],
+  "ilk": {
+   "t": "1293-03-03",
+   "gun": "3 Mart 1293",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "G. Coedès, The Indianized States of Southeast Asia, ed. W. Vella, çev. S. B. Cowing, East-West Center Press, Honolulu 1968; archive.org george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968, s. 'Java: The End of the Kingdom of Singhasari ... Foundation of the Kingdom of Majapahit' (Yuan-shi anlatısı)",
+   "tanik": "rescuing Majapahit on March 3, 1293",
+   "ic_not": "Coedès (Yuan-shi'ye dayanarak): Çinliler Jayakatwang'ı durdurur ve 3 Mart 1293'te Majapahit'i kurtarır → yer 1293 Mart'ta Vijaya'nın elinde ve adıyla anılıyor. 'Majapahit' = Trowulan eşitlemesi (yer) bu oturumda arkeolojik kaynakla doğrulanmadı ('kabul edilir'). Atlas 1293-11-10'da (taç giyme) başlıyor: Majapahit yerleşimi bundan ~8 ay önce anılıyor. Kuruluş günü kaynaklı değil (Pararaton/Nagara-Kertagama'da Tarik ormanı anlatısı bu oturumda okunmadı). Vijaya, Majapahit Krallığı'nın kurucusu (Coedès)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1293-03-03",
+    "t": "1293-11-10",
+    "d": "majapahit",
+    "kesinlik": "gun",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia, ed. W. Vella, çev. S. B. Cowing, East-West Center Press, Honolulu 1968; archive.org george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968 (Majapahit Vijaya'nın elinde; Vijaya = krallığın kurucusu)",
+    "ic_not": "Künye majapahit f=1293-01-01; atlasın ilk sahibi aynı künye, dikiş sorunu yok. Dönem sonu atlasın başlangıç günü (1293-11-10, taç giyme) — bu gün için bu oturumda kaynak açılmadı, atlasa güvenildi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1293-03-03",
+    "gun": "3 Mart 1293",
+    "k": "diger",
+    "b": "Çin-Mongol seferi Jayakatwang'ın Majapahit'e ilerleyişini durdurur; yer Vijaya'nın elinde kalır.",
+    "kaynak": "G. Coedès, The Indianized States of Southeast Asia, ed. W. Vella, çev. S. B. Cowing, East-West Center Press, Honolulu 1968; archive.org george-coedes-the-indianized-states-of-southeast-asia-east-west-center-press-1968",
+    "tanik": "rescuing Majapahit on March 3, 1293"
+   }
+  ],
+  "ic_not": "Yalnız Coedès. Çift teyit YOK."
  },
  {
   "id": "turfan",
