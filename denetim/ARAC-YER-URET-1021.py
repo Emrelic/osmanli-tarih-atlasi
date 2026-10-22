@@ -112,7 +112,8 @@ gruplar = collections.defaultdict(list)
 for r in aday:
     gruplar[bolge_kutusu(float(r["lat"]), float(r["lon"]))].append(r)
 for ad in sorted(gruplar):
-    yol = os.path.join(KOK, "data", "yerlesimler_once1281_yt_%s.js" % ad)
+    os.makedirs(os.path.join(KL, "aday"), exist_ok=True)
+    yol = os.path.join(KL, "aday", "yerlesimler_once1281_yt_%s.js" % ad)     # data/ DEĞİL: bağlanmayan data dosyası denetle_yayin'de 'yetim' ihlali
     satir = ["// yerlesimler_once1281_yt_%s.js — 1281 öncesi kronoloji maddelerinde geçen yerlerin nokta adayları (YER-TANIMA, Ekim 2026)" % ad,
              "// Kaynak: denetim/yer-arastirma/parti_*_sonuc.json (ÇİFT TANIK şartı) · üreten: denetim/ARAC-YER-URET-1021.py",
              "// s: yalnız KAYNAKLI başkentlik dönemleri (denetim/ARAC-YER-SAHIP-YAZ-1021.py); aralar __BOSLUK__ beyanı; kur:/bit: = ilk/son başkentlik dönemi.",

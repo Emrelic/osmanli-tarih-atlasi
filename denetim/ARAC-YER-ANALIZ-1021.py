@@ -46,7 +46,7 @@ print("alias:", len(liste))
 
 # (d) yt_ kayıtları: hafif otomatik tarama
 sorun = []
-for f in sorted(glob.glob(os.path.join(KOK, "data", "yerlesimler_once1281_yt_*.js"))):
+for f in sorted(glob.glob(os.path.join(KL, "aday", "yerlesimler_once1281_yt_*.js"))):
     s = open(f, encoding="utf-8").read()
     for m in re.finditer(r'\{ ad:"([^"]*)", tur:"([^"]*)", lat:(-?[\d.]+), lon:(-?[\d.]+)', s):
         ad, tur, lat, lon = m.group(1), m.group(2), float(m.group(3)), float(m.group(4))

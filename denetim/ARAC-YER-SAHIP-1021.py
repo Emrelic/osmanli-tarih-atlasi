@@ -66,7 +66,7 @@ for k, v in w.items():
                                 tarafli[n].append((it["t"], i, it["b"][:80]))
 
 out = []
-for f in sorted(glob.glob(os.path.join(KOK, "data", "yerlesimler_once1281_yt_*.js"))):
+for f in sorted(glob.glob(os.path.join(KL, "aday", "yerlesimler_once1281_yt_*.js"))):
     s = open(f, encoding="utf-8").read()
     for b in re.split(r"\n(?=\{ ad:)", s)[1:]:
         m = re.match(r'\{ ad:"([^"]*)", tur:"([^"]*)", lat:(-?[\d.]+), lon:(-?[\d.]+)', b)
