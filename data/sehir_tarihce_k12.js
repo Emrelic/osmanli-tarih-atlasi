@@ -2,6 +2,101 @@
 // Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_K12 = [
  {
+  "id": "agra",
+  "ad": "Agra",
+  "atlas_ad": "Agra",
+  "lat": 27.177,
+  "lon": 78.008,
+  "kat1900": 1,
+  "adlar": [
+   "Agra",
+   "Ekberâbâd (Akbarabad)"
+  ],
+  "ilk": {
+   "t": "1081-01-01",
+   "gun": "1081",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/agra (Idris Bostan, İA/DİA 1988, güncelleme 2024); Encyclopaedia Iranica 'AGRA' (G. Hambly), https://www.iranicaonline.org/articles/agra",
+   "tanik": "oğlu Seyfüddevle Mahmud tarafından 1081’de Çavhanlar’dan alındı",
+   "ic_not": "TDV: Mes'ûd-i Sa'd-i Selmân'a (ö. 1121) göre Agra, Gazneli İbrâhim b. Mes'ûd (1059-1099) zamanında oğlu Seyfüddevle Mahmud tarafından 1081'de Çavhanlar'dan alındı; 'tuğladan müstahkem kale' vardı. Iranica (bağımsız madde) 'Agra'dan yerel merkez olarak Gazneli devrinde (5./11. yy) söz edilir' der — çift teyit (iki ansiklopedi; ortak dayanak büyük olasılıkla Mes'ûd-i Sa'd şiiri, bu yüzden tam bağımsız sayılmaz). Kuruluş değil ilk anılış: Agra 1081'de zaten kaleli yerleşimdir (Çavhan elinden alınıyor). Efsanevî/eski: TDV 'bölge Sûrisana (Şûrasena) Devleti'nin parçasıydı' — tarihsiz."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1081-01-01",
+    "t": "1099-01-01",
+    "d": "gazneli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/agra",
+    "tanik": "Gazneli Hükümdarı İbrâhim b. Mes‘ûd zamanında (1059-1099)",
+    "ic_not": "f: TDV 1081 (alış yılı; günü yok). t: Sultan İbrâhim'in saltanat sonu 1099 — Agra'nın Gaznelide kaldığına dair 1099 sonrası tanık YOK; t BEYANLI SINIRDIR (Gazneli künyesi 963-1186, uzatılmadı). 1081 öncesi sahip Çavhan (TDV 'Çavhanlar'dan alındı'); ama Çavhan künyesi 1000'de başlayıp bu yer için tanık yalnız bu cümle — dönem AÇILMADI."
+   },
+   {
+    "f": "1099-01-01",
+    "t": "1206-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı (TDV agra, Iranica AGRA, Cambridge History of India III bu aralık için Agra sahibini vermiyor)",
+    "ic_not": "Agra VAR (Iranica/TDV: yerel merkez) ama 1099-1206 arası sahibi kaynakta yok. Aday sahipler (HİÇBİRİ kaynaklı değil): Gazneli devamı (≤1186), Gâhadavâla, Çâhamâna, Gurlu (Tabakât-i Nâsırî Biyâna/Thankar'ın Gurlu komutanlarınca alındığını anar — Agra'yı anmaz). Boşluk doldurma merdiveni ③-⑤ (Hint kaynakları, abi merkez Biyana) bu oturumda yürütülmedi. Atlas bu aralığı çizmiyor (atlas 1504'te başlıyor)."
+   },
+   {
+    "f": "1206-01-01",
+    "t": "1504-01-01",
+    "d": "delhi-sultanligi",
+    "kesinlik": "yil",
+    "kaynak": "Encyclopaedia Iranica 'AGRA' (G. Hambly); TDV İslâm Ansiklopedisi agra (ilişkili madde Delhi Sultanlığı 1206-1526); Cambridge History of India III (Haig/Burn 1928), s.~246-289",
+    "tanik": "throughout the period of the Delhi sultanate as a dependency of nearby Bīāna",
+    "ic_not": "Iranica: Delhi Sultanlığı boyunca (künye 1206-1526) Agra Biyâne'ye bağlı yerel bir merkez; TDV: 'Alâeddin Şah zamanında Biyâna eyaletine bağlandı' (günü yok). Sultanlık içindeki hanedan değişimleri (Halacî, Tuğluk, Seyyid, Lûdî) Agra için olay gerektirmez (aynı künye). ⚠️ Cavnpur (Şarkî) Sultanlığı 1394-1483 Agra'yı tuttu mu? Kaynak bulunamadı; CHI III Agra'yı 1490'larda Biyâna valisi Şeref'in bağımlısı Haibat Han'ın elinde gösterir (Sikandar Lûdî kuşatıp alır) — Delhi'ye bağlı (asi) fief olarak yorumlandı. Zincir atlas başlangıcı 1504 (aynı künye) ile dikilidir."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1081-01-01",
+    "gun": "1081",
+    "k": "fetih",
+    "b": "Gazneli şehzâde Seyfüddevle Mahmud, Agra'yı Çavhanlar'dan alır (Mes'ûd-i Sa'd-i Selmân'a göre).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/agra",
+    "tanik": "oğlu Seyfüddevle Mahmud tarafından 1081’de Çavhanlar’dan alındı"
+   },
+   {
+    "t": "1099-01-01",
+    "gun": "1099 (İbrâhim b. Mes'ûd'un saltanat sonu)",
+    "k": "diger",
+    "b": "Sınır olayı (BEYANLI): Sultan İbrâhim b. Mes'ûd'un saltanatı biter (1059-1099); sonrası Agra için tanık yok → __BOSLUK__.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/agra",
+    "tanik": "Gazneli Hükümdarı İbrâhim b. Mes‘ûd zamanında (1059-1099)"
+   },
+   {
+    "t": "1206-01-01",
+    "gun": "1206",
+    "k": "diger",
+    "b": "künye geçişi: Delhi Sultanlığı başlar (1206); Iranica'ya göre Agra bu devirde Biyâna'ya bağlı bir yerdir.",
+    "kaynak": "TDV İslâm Ansiklopedisi agra (ilişkili madde 'Delhi Sultanlığı (1206-1526)'); Iranica AGRA",
+    "tanik": "çoğu Türk asıllı hânedanlar tarafından idare edilen sultanlık (1206-1526)"
+   },
+   {
+    "t": "1492-10-23",
+    "gun": "898 H / 1492 (hicrî 898 ∩ 1492 ilk günü)",
+    "k": "kusatma",
+    "b": "Sultan Sikandar Lûdî'nin orduları surlu kasaba Agra'yı kuşatır (Agra Biyâna valisi Şeref'in bağımlısı Haibat Han'ın elinde).",
+    "kaynak": "Encyclopaedia Iranica AGRA (Hambly); Cambridge History of India III s.~288-289",
+    "tanik": "in 898/1492 when Agra was besieged by the troops of Sultan Sekandar Lōdī of Delhi"
+   },
+   {
+    "t": "1495-01-01",
+    "gun": "1495",
+    "k": "diger",
+    "b": "İskender-i Lûdî Agra'yı yeniden inşa ederek hükümet merkezi yapar (TDV 1495; Iranica yeni kale temeli 911/1505-06-04; Britannica 1911 ≈1500; atlas kur 1504).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/agra",
+    "tanik": "İskender-i Lûdî tarafından yeniden inşa edilerek (1495) hükümet merkezi oldu"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Agra'yı kur:1504 ile açıyor ('Sikandar kurdu'); TDV/Iranica'ya göre şehir 1081'de zaten kaleli yerleşim, Sikandar yalnız yeniden inşa/başkent (TDV 1495, Iranica 1505 yeni kale). Atlas başlangıcı 1504 → 1081'e çekilebilir, ama 1099-1206 BOŞLUK ve 1206-1504 'Biyâna'ya bağlı Delhi Sultanlığı' beyanlıdır. Kaynak çelişkisi: Sikandar'ın taşınma yılı TDV 1495 / Iranica 898/1492 kuşatma + 911/1505 kale / Britannica 1911 ≈1500 / atlas 1504. Hindi/Urduca ve ASI kaynakları açılamadı. Britannica 1911 yalnız ikinci tanık."
+ },
+ {
   "id": "amsterdam",
   "ad": "Amsterdam",
   "atlas_ad": "Amsterdam",
@@ -1801,6 +1896,47 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "berlin.de ile entwicklungsstadt.de (popüler, ikinci tanık) aynı 1237/1244 yıllarını verir; BLHA (Schich, Ersterwähnungen) PDF'si 503 verdi, açılamadı: akademik çift teyit YOK. 1171 dendro tarihi (BLHA'dan arama özeti) kaynak sayfası açılamadığı için YAZILMADI."
  },
  {
+  "id": "bharatpur",
+  "ad": "Bharatpûr",
+  "atlas_ad": "Bharatpûr",
+  "lat": 27.217,
+  "lon": 77.49,
+  "kat1900": 2,
+  "adlar": [
+   "Bharatpur (Bhurtpore)"
+  ],
+  "ilk": {
+   "t": "1733-01-01",
+   "gun": "1733",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Imperial Gazetteer of India (1908) VIII 'Bharatpur City' ve 'Bharatpur State'",
+   "tanik": "The city and fort are said to have been founded about 1733",
+   "ic_not": "IG: Suraj Mal 1733'te 'eski Bharatpur kalesini rakip Jat şefi Khem/Kherti Karan'dan aldı ve şimdiki başkentin temelini attı' → 1733 'bugünkü şehrin/kalenin' kuruluşu; ESKİ KALE (Sogar/Khem Karan) öncesi vardır, tarihi kaynakta yok. Atlas sahip künyesi 'bharatpur-cat' 1733 ile uyumlu."
+  },
+  "kur": {
+   "t": "1733-01-01",
+   "gun": "1733 (about)",
+   "kesinlik": "yil",
+   "kaynak": "Imperial Gazetteer of India (1908) VIII 'Bharatpur City'",
+   "tanik": "The city and fort are said to have been founded about 1733"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1733-01-01",
+    "gun": "1733",
+    "k": "kurulus",
+    "b": "Suraj Mal, rakip Jat şefi Khem Karan'ın eski Bharatpur kalesini alır ve bugünkü başkentin temelini atar.",
+    "kaynak": "Imperial Gazetteer of India (1908) VIII 'Bharatpur State'",
+    "tanik": "captured the old fort of Bharatpur from Kherti Karan, the rival Jat chief"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK (kural): ilk.t atlas başlangıcıyla (1733-01-01) aynı. Bu noktada 1733 öncesi sahiplik (Jat Sogar şefliği, Mughal) kaynaklı değil; 'old fort' varlığının tarihi bulunamadı. ATLAS DÜZELTME ÖNERİSİ: yok. Not: IG 1722'yi 'Badan Singh Dig Racası, Bharatpur'un ayrı devlet olarak tanınması' sayar (State article) — şehirden ayrı olgu."
+ },
+ {
   "id": "bolonya",
   "ad": "Bolonya",
   "atlas_ad": "Bolonya",
@@ -2689,6 +2825,168 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Kuruluş bulunamadı. 1232 alımının günü: Fr. Vikipedi '15 mars 1232' (Mariotte-Löber, Ville et seigneurie, Droz 1973, s.123 — kitap açılamadı); Treccani yalnız yıl veriyor. 1295 başkent/şato alımı (Amedeo V) kaynaksız. HLS/Persée/Académie de Savoie açılamadı. Çift teyit YOK. 1120 'circa'; 1032-1120 arası ayrıntı bulunamadı."
+ },
+ {
+  "id": "chittorgarh",
+  "ad": "Çitor (Chittorgarh)",
+  "atlas_ad": "Çitor (Chittorgarh)",
+  "lat": 24.879,
+  "lon": 74.629,
+  "kat1900": 1,
+  "adlar": [
+   "Cheetore (Tod)",
+   "Chitor",
+   "Khizrabad (Alâüddin Halacî'den sonra kısa süre, IG)"
+  ],
+  "ilk": {
+   "t": "0714-01-01",
+   "gun": "S. 770 = MS 713/714 (Tod)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "ZAYIF: Tod, Annals and Antiquities of Rajasthan I (Mori yazıtı tercümesi + 'Introduction'; archive.org b29351686_0001) — yazıt Man Mori'nin yaptırdığı gölün kitabesidir, Çitor yeri Tod'un yorumudur; modern epigrafik teyit (Epigraphia Indica) açılamadı",
+   "tanik": "establishes the fact of the Mori dynasty being in possession of Cheetore in S. 770",
+   "ic_not": "Tod: Man Mori yazıtı Samvat 770 (kitabe 'Seventy had elapsed beyond seven hundred years'), Tod bunu MS 713 (bir yerde) ve 714 (başka yerde) çevirir → güvenli uç 714 alındı. Tod yazıtın bulunduğu göl/yeri metinde açıkça 'Çitor' diye vermez, 'Cheetore'un Mori prensi' diye yorumlar (Not 16-17). Imperial Gazetteer 1908 'Chitor, where Raja Man Singh of the Mori clan of Rajputs was ruling' (Bapa'nın geldiği sırada). Çitor'un daha erken (Chitrangada/Chitrakuta MS 7. yy, Maurya efsanesi) kuruluşu gelenektir, tanık bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0714-01-01",
+    "t": "0734-01-01",
+    "d": "mori-chittor",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "Tod I (Mori kitabesi S.770); Imperial Gazetteer of India (1908) XXIV 'Udaipur State' (Bapa 734'te Mori Man Singh'i tahttan indirir)",
+    "tanik": "ousted Man Singh in 734 and ruled in his stead, taking the title of Rawal",
+    "ic_not": "KÜNYE YOK: önerilen id 'mori-chittor' (Mori/Maurya klanı, Çitor, ~7.-8. yy; kaynak Tod I + IG). Ömür: f=kitabe 714 (güvenli uç), t=734 (IG; Tod'un Mevar yıllıkları Bapa'nın tahta çıkışını S.784 = 728 verir — çelişki beyan edildi; modern tarihçiler Guhilaların Çitor'u bu kadar erken aldığını da sorgular, WebSearch özeti, curl ile okunmadı)."
+   },
+   {
+    "f": "0734-01-01",
+    "t": "1150-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı (IG: 'Little, however, is known of the history of the State till the early part of the fourteenth century')",
+    "ic_not": "Bapa (Guhila) 734'te Çitor'u alır (IG hikâyesi) ama Guhilaların kesintisiz tuttuğuna, Pratihâra (Gürcara) / Paramâra (Mâlva, künye 'paramara' 1000-1305) hâkimiyetine dair bu oturumda okunmuş tanık yok. Tod Siddharaja Jayasimha'nın 'Çitor'u gerçekten fethettiğini' tarihsiz anar. Bu aralık için TDV/İSAM/Rajasthan epigrafi kaynakları açılamadı."
+   },
+   {
+    "f": "1150-01-01",
+    "t": "1201-01-01",
+    "d": "caulukya",
+    "kesinlik": "yil",
+    "kaynak": "Tod I (Annals of Mewar, Çitor'da bulduğu Kumarapâla tableti)",
+    "tanik": "placed there by his- successor, Komarpal, bearing the date S. 1206",
+    "ic_not": "ZAYIF: Tod'un 'Cheetore'da Komarpal (Kumarapâla) tarafından konmuş, S.1206 tarihli tablet' bulgusu (S.1206 ≈ MS 1149/50; modern literatür VS 1207'yi anar — açılamadı). f 'en geç tanıktan' (1150-01-01). t: aşağıdaki Rahup olayı (Tod S.1257 = 1201; IG ile ÇELİŞİR, bkz olay)."
+   },
+   {
+    "f": "1201-01-01",
+    "t": "1281-01-01",
+    "d": "racput",
+    "kesinlik": "yil",
+    "kaynak": "Tod I ('Rahup obtained Cheetore in S. 1257'); çelişki: Imperial Gazetteer of India (1908) XXIV",
+    "tanik": "Rahup obtained Cheetore in S. 1257 (A. D. 1201)",
+    "ic_not": "ZAYIF/ÇELİŞKİLİ: Tod Rahup'u 1201'de Çitor'a oturtur; IG 1908 ise Rahup'u 1303 kuşatmasından SONRA Ratan Singh'in halefi Karan Singh'in oğlu ve Mevar'ın ilk Rana'sı sayar (yani 14. yy). Modern Guhila kronolojisi (Jaitrasimha 1213-53) bu oturumda kaynaktan açılmadı. 1201-1281 'racput' (Guhila/Mevar) beyanlı yaklaşıklıktır; racput künyesi 1000-1947. Atlasın ilk sahibi racput (1281) ile dikiş: aynı sahip, olay gerekmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0714-01-01",
+    "gun": "S. 770 = MS 713/714",
+    "k": "diger",
+    "b": "Man Mori'nin yaptırdığı göl kitabesi (S.770): Tod'a göre Mori hanedanı Çitor'u elinde tutuyor.",
+    "kaynak": "Tod, Annals and Antiquities of Rajasthan I",
+    "tanik": "establishes the fact of the Mori dynasty being in possession of Cheetore in S. 770"
+   },
+   {
+    "t": "0734-01-01",
+    "gun": "734 (Tod: S.784 = 728)",
+    "k": "fetih",
+    "b": "Bapa Rawal (Guhila), Mori Man Singh'i tahttan indirip Çitor'a hükmeder (rivayet; Tod 728, IG 734).",
+    "kaynak": "Imperial Gazetteer of India (1908) XXIV 'Udaipur State'",
+    "tanik": "ousted Man Singh in 734 and ruled in his stead, taking the title of Rawal"
+   },
+   {
+    "t": "1150-01-01",
+    "gun": "S. 1206 = MS 1150 (1149/50)",
+    "k": "diger",
+    "b": "Çaulukya Kumarapâla'nın Çitor'daki tableti: Çaulukya hâkimiyetinin tanığı.",
+    "kaynak": "Tod, Annals and Antiquities of Rajasthan I",
+    "tanik": "placed there by his- successor, Komarpal, bearing the date S. 1206"
+   },
+   {
+    "t": "1201-01-01",
+    "gun": "S. 1257 = 1201 (Tod)",
+    "k": "fetih",
+    "b": "Tod: Guhila Rahup Çitor'u alır (ZAYIF; IG ile çelişir).",
+    "kaynak": "Tod, Annals and Antiquities of Rajasthan I",
+    "tanik": "Rahup obtained Cheetore in S. 1257 (A. D. 1201)"
+   }
+  ],
+  "ic_not": "SONUÇ: Çitor için 1281 öncesi tek okunmuş tanıklar Tod (1829-32) ve IG (1908); ikisi de zayıf ve birbiriyle çelişiyor (Bapa 728/734; Rahup 1201/14. yy). Modern epigrafik kaynaklar (Epigraphia Indica, Man Mori kitabesi MS 713; Kumarapâla Çitor yazıtı VS 1207; Jaitrasimha dönemi) AÇILAMADI. 1303 kuşatması (Alâüddin Halacî; IG 'sack of Chitor 1303'), 1567 Ekber kuşatması atlasın kapsamında, dokunulmadı. ATLAS DÜZELTME ÖNERİSİ: atlas 1281'de 'racput' ile açıyor — 1201-1281 Guhila varlığı kaynaklı değil; IG'ye göre Rahup 1303 sonrası. Atlas 1281-1303 'racput' dönemi için TDV/İSAM/Rajasthan Gazetteer ile ayrı teyit gerek. Antik: Nagari/Madhyamika (Chitorgarh'a ~15 km) ayrı kayıt önerisi."
+ },
+ {
+  "id": "delhi",
+  "ad": "Delhi",
+  "atlas_ad": "Delhi",
+  "lat": 28.644,
+  "lon": 77.216,
+  "kat1900": 1,
+  "adlar": [
+   "Dhillikā (Dhillī)",
+   "Dehlü / Dehlî",
+   "Qila Rai Pithora (Lâlkot çevresi)",
+   "Delhi"
+  ],
+  "ilk": {
+   "t": "1170-01-01",
+   "gun": "1170 (Bijolia yazıtı, VS 1226 civarı)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "ZAYIF (yalnız ikincil): Vikipedi 'Tomaras of Delhi' + 'Vigraharaja IV' (Bijolia kaya yazıtına atıf); yazıt metni (Epigraphia Indica XXVI) açılamadı",
+   "tanik": "his brother Vigraharaja IV had captured Dhillika (Delhi) and Ashika (Hansi)",
+   "ic_not": "Bijolia yazıtı Someshvara dönemindendir (Vikipedi: Someshvara yazıtları 1169-1177 CE arası); Dhillika adının bilinen İLK yazılı geçişi olduğu iddiası (WebSearch özeti, curl ile DOĞRULANAMADI) ve yazıt yılı '1170' birincil metinden okunmadı. Aralığın güvenli ucu 1170-01-01 alındı. Vikipedi aynı sayfada 'eski bir bahi: Visaladeva Delhi'yi Tomaralardan VS 1209 = 1152 CE'de aldı' der (zayıf, bahi). Cohen, JAOS 109/4 (1989) 513-519 'An Early Attestation of the Toponym Dhillī' (doi 10.2307/604073) bu konudaki akademik kaynak adayıdır — makale metni açılamadı (JSTOR). Bunlar çözülürse ilk.t geriye gidebilir. Efsanevî/gelenek katmanı (kayıt dışı): TDV 'Dehlü' adını MÖ 1. yy Raca Dhilu'ya ve Mahabharata'daki Indraprastha'yı (MÖ ~1500) anar ('sanılmaktadır'); Tomara Anangpal 736/1052 kuruluşu bardik gelenektir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1170-01-01",
+    "t": "1192-01-01",
+    "d": "cahamana",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/delhi (Khaliq Ahmad Nizami, 1994); Vikipedi 'Vigraharaja IV' (Bijolia: Delhi fethi)",
+    "tanik": "Delhi müslümanların eline geçmeden önce Çavhanlar’ın başşehriydi",
+    "ic_not": "f 'en geç tanıktan' (Bijolia 1170, ZAYIF ikincil); Çahamana (Vigraharaja IV, r. ~1150-1164) Delhi'yi Tomaralardan aldı, Tomaralar 'birkaç on yıl daha Çahamana vasalı' kaldı (Vikipedi, R.B. Singh / D. Sharma'ya atıf). TDV: Delhi Müslümanlara geçmeden önce Çavhanların başşehriydi. t = atlas başlangıcı 1192-01-01 (Gurlu). 1170 öncesi (Tomara 736?-1152?, Gürcara-Pratihâra vasallığı) için tanık YAZILMADI: Tomara için devletler.js künyesi yok (öneri: 'tomara', ~736?-1152?/1160'lar, kaynak Vikipedi 'Tomaras of Delhi'; Pehowa yazıtı Pratihâra Mahendrapâla I (~885-910) dönemi Tomara Gogga'yı anar ama Delhi'yi anmaz — Kielhorn Delhi'ye bağlar, tartışmalı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1170-01-01",
+    "gun": "1170 (Bijolia, ZAYIF)",
+    "k": "fetih",
+    "b": "Bijolia yazıtı: Çahamana Vigraharaja IV Dhillika'yı (Delhi) ve Hansi'yi almış; alış günü yazıtta yok (Vikipedi: eski bahi VS 1209 = 1152 der).",
+    "kaynak": "Vikipedi 'Tomaras of Delhi' (ikincil; Bijolia kaya yazıtına atıf)",
+    "tanik": "his brother Vigraharaja IV had captured Dhillika (Delhi) and Ashika (Hansi)"
+   },
+   {
+    "t": "1180-01-01",
+    "gun": "1180 civarı",
+    "k": "diger",
+    "b": "Çavhan hükümdarı Pritvi Râc, Müslüman akınlarına karşı Delhi'yi surlarla çevirtir (Lâlkot → Kal'a-i Râ'y Pithorâ).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/delhi",
+    "tanik": "hükümdar Pritvi Râc 1180 civarında müslüman akınlarından korunmak için etrafını surlarla çevirtmişti"
+   },
+   {
+    "t": "1192-01-18",
+    "gun": "588 H / 1192 (hicrî 588 ∩ 1192 ilk günü)",
+    "k": "fetih",
+    "b": "II. Terâin savaşı: Gurlu Sultanı Mu'izzüddin Muhammed b. Sâm, Çahamana Pritviraca'yı yener; Kutbüddin Aybeg Meerut'u ve Delhi'yi ele geçirir (Delhi hükümdarı/valisi Gobind Rai savaşta ölür).",
+    "kaynak": "Minhâc-i Sirâc, Tabakât-i Nâsırî (Elliot & Dowson, History of India as told by its own historians, II, s. 297, archive.org historyofindiaas02elli); TDV Delhi (Aybeg 1192, Kuvvetü'l-İslâm Mescidi)",
+    "tanik": "this chief advancing to Mirat conquered that town, and took possession of Dehli"
+   }
+  ],
+  "ic_not": "SONUÇ: ilk anılış kaydı ZAYIF (ikincil); 1170-1192 Çahamana, 1192 Gurlu (atlasla dikiş). KAYNAK ÇİFT TEYİDİ: 1192 için iki bağımsız kaynak (Minhâc, TDV). HİCRÎ: Minhâc '588 h. (1192 a.d.)' verir; hicrî 588 = 1192-01-18 … 1193-01-06 (tablo takvimi, Jülyen); kesişimin ilk günü 1192-01-18 alındı — GERÇEK II. Terâin tarihi yılın ilerisindedir (savaşın ayı/günü kaynakta yok), atlasın 1192-01-01'i ile ±17 gün uyumludur. Minhâc aynı cümlede Delhi alımını 'Terâin'den sonra aynı yıl' verir; E&D Cilt II s.297. AÇILAMAYAN: Epigraphia Indica XXVI (Bijolia), Indian Antiquary XIX (Delhi-Shivalik sütunu 1164), Cohen JAOS 1989, Imperial Gazetteer XI (Delhi; archive.org 404). ANTİK YERLEŞİM >3 KM: Purana Qila / İndraprastha (28.61, 77.24; atlas noktasına ~4,4 km) ve Lâlkot/Mehrauli (28.52, 77.18; ~14 km) ayrı kayıt olarak önerilir; Kızıl Kale çevresinde OCP (~MÖ 2000) ve PGW (~MÖ 1200) verisi yalnız Vikipedi 'History of Delhi' (ikincil, atıfsız) — yazılmadı. ATLAS DÜZELTME ÖNERİSİ: yok (atlas Delhi'yi 1192 Gurlu ile açıyor, TDV/Minhâc ile uyumlu; 1192 öncesi 1170'e kadar Çavhan zinciri eklenebilir)."
  },
  {
   "id": "dijon",
@@ -4980,6 +5278,89 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "KAYNAK: Iranica ISFAHAN iv (pre-Islamic, J. Hansman), ii (hist. geography, X. de Planhol), vi (medieval, H. Kamaly), GABAE (R. Schmitt); TDV İsfahan; TDV Kâkûyîler/Büveyhîler/Ziyârîler. Isfahan zincirinin 913-935 ve 1231-1235 boşlukları beyanlıdır. ATLAS ÖNERİSİ: atlasın 1235-01-01 başlangıcı TDV'nin '1235-1236' aralığının ilk ucu; güvenli uç 1236 (kaynak aralık veriyor)."
  },
  {
+  "id": "jaipur",
+  "ad": "Caypûr (Jaipur)",
+  "atlas_ad": "Caypûr (Jaipur)",
+  "lat": 26.912,
+  "lon": 75.787,
+  "kat1900": 1,
+  "adlar": [
+   "Jaipur",
+   "Jeypore"
+  ],
+  "ilk": {
+   "t": "1727-01-01",
+   "gun": "1727",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica 'JAIPUR' (C. B. Asher, 2008), https://www.iranicaonline.org/articles/jaipur; çelişki: Imperial Gazetteer of India (1908) XIII 'Jaipur State/City' = 1728",
+   "tanik": "city in northwestern India, founded in 1727 by the Kachhwaha prince",
+   "ic_not": "Iranica 1727; Imperial Gazetteer 1908 (ikisinde de 'Jaipur city … founded in 1728') ve Britannica 1911 ('founded it in 1728') 1728 der. ÇELİŞKİ beyan edildi: kesin gün kaynaklarda yok (Vikipedi 18 Kasım 1727 der — atıfsız, YAZILMADI). Yıl aralığı 1727-1728; güvenli uç kuruluş için 'erken yıl' değil, Iranica (Asher, akademik) esas alındı → 1727-01-01. Şehir Kachhwaha (Kuşvâha) Racputlarına ait; Amber/Amer ~10 km önce başkent (Iranica: 'replaced the older one of Amber'), 3 km'den uzak → ayrı kayıt önerisi: Amber (Amer) — kuruluş/sahiplik zinciri araştırılmalı."
+  },
+  "kur": {
+   "t": "1727-01-01",
+   "gun": "1727",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica 'JAIPUR' (Asher)",
+   "tanik": "city in northwestern India, founded in 1727 by the Kachhwaha prince"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1727-01-01",
+    "gun": "1727 (Iranica) / 1728 (IG 1908)",
+    "k": "kurulus",
+    "b": "Sawai Jai Singh II (Kachhwaha), başkenti Amber'den taşıyarak Jaipur'u ızgara planlı sur kuşatmalı yeni şehir olarak kurar.",
+    "kaynak": "Encyclopaedia Iranica JAIPUR (Asher); Imperial Gazetteer of India (1908) XIII (1728)",
+    "tanik": "city in northwestern India, founded in 1727 by the Kachhwaha prince"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK (kural): ilk.t 1727-01-01 atlas başlangıcıyla (1727-01-01) aynı → 1281 öncesi sahip yazılmaz; denetim 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR. 1727 öncesi bu noktada şehir yok (Britannica 1911 'comparatively recent date'); ark/öncül yerleşim bulunamadı. ATLAS DÜZELTME ÖNERİSİ: atlas kur:1727-01-01 yıl hassasiyetinde; kaynak çelişkisi 1727/1728 — atlas 'racput' (Kachhwaha) sahibi uyumlu. Gün için ikincil kaynak yok."
+ },
+ {
+  "id": "jodhpur",
+  "ad": "Codhpûr (Jodhpur)",
+  "atlas_ad": "Codhpûr (Jodhpur)",
+  "lat": 26.288,
+  "lon": 73.019,
+  "kat1900": 1,
+  "adlar": [
+   "Jodhpur"
+  ],
+  "ilk": {
+   "t": "1459-01-01",
+   "gun": "1459",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Imperial Gazetteer of India (1908) XIV 'Jodhpur State' (history); Tod, Annals and Antiquities of Rajasthan II (Marwar, ch.3 'Jodha'), archive.org mlbd.annalsantiquitie0002jame",
+   "tanik": "laid the foundation of Jodhpur, to which he transferred the seat of government from Mandor",
+   "ic_not": "Tod: 'Jeth ayında S.1515 (A.D. 1459)' — Rao Jodha Mandor'dan başkenti taşıyarak Jodhpur'un temelini atar. Imperial Gazetteer 1908: 'Rao Jodha, who, after annexing Sojat in 1455, laid the foundation of Jodhpur city in 1459'. Ay (Jeth ≈ Mayıs-Haziran) Tod'da var ama Vikram takvimi (Chaitradi/Kartikadi) 1458/1459 belirsizliği olduğu için yıl hassasiyeti yazıldı (Vikipedi 12 Mayıs 1459 der — atıfsız, YAZILMADI). Eski başkent Mandor (~9 km KB) 3 km'den uzak → ayrı kayıt önerisi; Tod: Mandor 'for ages the capital'. Rathor sahip: atlas 'racput'."
+  },
+  "kur": {
+   "t": "1459-01-01",
+   "gun": "1459",
+   "kesinlik": "yil",
+   "kaynak": "Imperial Gazetteer of India (1908) XIV; Tod II",
+   "tanik": "laid the foundation of Jodhpur city in 1459"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1459-01-01",
+    "gun": "Jeth S.1515 = 1459",
+    "k": "kurulus",
+    "b": "Rao Jodha Jodhpur'un temelini atar ve hükümet merkezini Mandor'dan buraya taşır.",
+    "kaynak": "Tod, Annals and Antiquities of Rajasthan II (Marwar); Imperial Gazetteer of India (1908) XIV",
+    "tanik": "laid the foundation of Jodhpur, to which he transferred the seat of government from Mandor"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK (kural): ilk.t atlas başlangıcıyla (1459-01-01) aynı. 1459 öncesi bu noktada yerleşim tanığı bulunamadı (Mehrangarh tepesi/'Bhurchiriya' rivayeti bu oturumda kaynaktan açılmadı). Çelişki yok: Tod ve IG 1459. ATLAS DÜZELTME ÖNERİSİ: yok (atlas kur 1459, 'racput' uyumlu); gün/ay kaynakla netleşirse (Marwar khyatları) güncellenir."
+ },
+ {
   "id": "kaesong",
   "ad": "Kaesong",
   "atlas_ad": "Kaesong",
@@ -6807,6 +7188,43 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Fenike geleneği (Treccani 'Alis Ubbo') ilk anılış sayılmadı. TDV 'Roma, Alanlar ve Vizigotlar' ifadesindeki Alan dönemi ve Svev sırası kaynak tarihi vermediği için dönem açılmadı. Çift teyit: Roma işgali MÖ 138 (Princeton) ↔ Strabon (Brutus Callaicus kampanyası); Lizbon 1147-10-24 (TDV, atlas künyesi) — Treccani yalnız 'Alfonso Henrique conquistò definitivamente' der. Zincir atlas ilk gününde (1147-10-24) biter. Atlas notu: atlas Lizbon 'Murâbıt 1147-03-23→10-24 künyesiz YAZILMADI' demişti; bu dosyada o aralık 'lizbon-ozerk-meclis' (TDV) olarak yazıldı."
+ },
+ {
+  "id": "lucknow",
+  "ad": "Leknev (Lucknow)",
+  "atlas_ad": "Leknev (Lucknow)",
+  "lat": 26.847,
+  "lon": 80.947,
+  "kat1900": 2,
+  "adlar": [
+   "Lachhmanpur (gelenek)",
+   "Likhna / Qila Likhna (gelenek)",
+   "Lucknow (Leknev)"
+  ],
+  "ilk": {
+   "t": "1526-04-21",
+   "gun": "1517-1526 (İbrâhîm Lûdî saltanatı; güvenli uç 21 Nisan 1526)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Cambridge History of India III: Turks and Afghans (Haig/Burn, 1928), s.~248-249, archive.org cambridgehistory03wols",
+   "tanik": "marched to Lucknow, which they held as a fief",
+   "ic_not": "A'zam-i Humâyun Lûdî ile Sa'îd Han Lûdî, İbrâhîm Lûdî'ye isyanda 'Lucknow'a gidip burayı ikta olarak tuttular' (1517-26 arası; kesin yıl metinde yok). Aralığın güvenli ucu = İbrâhîm'in ölümü (Pânipet) 1526-04-21 alındı. Daha erken tarihli yazılı tanık BULUNAMADI: Gazetteer of the Province of Oudh II (1877, archive.org cu31924073057345): ilk yerleşimciler Brahman/Kayasth, 'Lachhman Tila … the site of the original Lachhmanpur' (Lakshman efsanesi, tarihsiz); Şeyhler Qila Likhna'yı kurdu, ad 'Akbar'dan önce' kullanılıyordu; Hümâyûn'un 1540'ta Lucknow'da dört saat durduğu rivayeti. 'Oudh Subahdarı unvanı 1280'de' (Gazetteer) Lucknow'u anmaz. Elliot & Dowson II/III'te (Minhâc, Camiu't-Tevârih) Lucknow geçmedi (yalnız Awadh/'Iwaz). Hintçe/Urduca akademik kaynak, TDV (slug yok), Iranica (404) açılamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1526-04-21",
+    "gun": "1517-1526 (İbrâhîm Lûdî dönemi)",
+    "k": "diger",
+    "b": "Lûdî soyluları A'zam-i Humâyun ve Sa'îd Han, İbrâhîm'e isyanda Lucknow'a çekilir; şehri ikta olarak tutarlar (Lucknow'un tarihlenebilir en erken anılışı bu oturumda).",
+    "kaynak": "Cambridge History of India III (Haig/Burn 1928), İbrâhîm Lûdî bölümü",
+    "tanik": "marched to Lucknow, which they held as a fief"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK (kural): güvenli uç ilk.t 1526 atlasın başlangıcından (1281-01-01) SONRA. ATLAS DÜZELTME ÖNERİSİ: atlas Lucknow'u 1281'den Delhi Sultanlığı (sonra Cavnpur, yine Delhi) olarak çiziyor; 1281-1517 arası Lucknow'un varlığına tanık bu oturumda bulunamadı (CHI III 'Daryabad, Lucknow ile Gonda arasında' coğrafi tarifini Şarkî Barbak Şah'ın ~1480'leri için kullanır — çağdaş anış değil, yazarın modern konum tarifidir; Lucknow'u anan Şarkî/Lûdî çağdaş kaynak metni açılamadı). Nokta ya 1518-1526'dan önce çizilmemeli ya da 'Awadh (Oudh) bölgesinin sahibi + beyan' kuralıyla yaklaşıklık olarak işaretlenmeli — karar Emre'nin. Gazetteer of Oudh: 'Not much was added to the city till the middle of the sixteenth century'. Lakshman efsanesi tarih içermiyor, kayda alınmadı. Nawab/Awadh başkenti (atlas kd 1722-1856) bu dosyanın dışındadır."
  },
  {
   "id": "luksemburg",
@@ -12709,6 +13127,54 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Kuruluş bulunamadı. Polybios 3.60 / Livius 21.38-39 (Hannibal, Taurini başkenti) açılamadı. Treccani Torino'da 1136 Lothar III'ün Amedeo III'ü kovması, 1159 piskopos, 1235 barış, 1237 imp. kaptan, 1248 Federico II'nin Savoy'a feodal vermesi; 1285 Savoy-Acaia. Atlas sardinya=savoya ile 1281 dikişi. Çift teyit YOK."
+ },
+ {
+  "id": "udaipur",
+  "ad": "Udeypûr (Udaipur)",
+  "atlas_ad": "Udeypûr (Udaipur)",
+  "lat": 24.585,
+  "lon": 73.712,
+  "kat1900": 1,
+  "adlar": [
+   "Udaipur (Udeypûr)",
+   "Ahar / Aghatapura (yakın eski merkez)"
+  ],
+  "ilk": {
+   "t": "1559-01-01",
+   "gun": "1559 (veya civarı)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Imperial Gazetteer of India (1908) XXIV 'Udaipur State' ve 'Udaipur City'",
+   "tanik": "who founded it in or about 1559",
+   "ic_not": "IG 1908 iki yerde: Udai Singh (1537-72) 'founded Udaipur city in 1559' ve 'founded it in or about 1559'. Kesin yıl/gün birincil kaynakta (Mevar vakanüvisleri, Kaviraj Shyamaldas 'Vir Vinod') açılamadı → 'yaklaşık'. Çitor 1567'de Ekber'e düşünce Udaipur kalıcı başkent oldu (IG)."
+  },
+  "kur": {
+   "t": "1559-01-01",
+   "gun": "1559 (veya civarı)",
+   "kesinlik": "yil",
+   "kaynak": "Imperial Gazetteer of India (1908) XXIV 'Udaipur City'",
+   "tanik": "who founded it in or about 1559"
+  },
+  "ark": {
+   "t": "-2999-01-01",
+   "gun": "MÖ 3000 (c. 3000-1500)",
+   "kesinlik": "belirsiz",
+   "kaynak": "ZAYIF (yalnız ikincil): Vikipedi 'Ahar–Banas culture' (c. 3000 – c. 1500 BCE; tip yerleşim Ahar, atlas noktasına ~0,9 km); birincil kazı raporu (Sankalia ve ark., Deccan College 1969) açılamadı",
+   "tanik": "Dates c. 3000 – c. 1500 BCE"
+  },
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1559-01-01",
+    "gun": "1559 (IG: 'in or about')",
+    "k": "kurulus",
+    "b": "Mevar Rana'sı II. Udai Singh Udaipur şehrini kurar; Çitor'un yerine yeni başkent.",
+    "kaynak": "Imperial Gazetteer of India (1908) XXIV 'Udaipur State' / 'Udaipur City'",
+    "tanik": "who founded it in or about 1559"
+   }
+  ],
+  "ic_not": "ZİNCİR YOK (kural): ilk.t atlas başlangıcıyla (1559-01-01) aynı. ARK notu: Ahar köyü (24.587, 73.722; Vikipedi koordinatı) Udaipur noktasına ~0,9 km; Ahar–Banas kültürü tip yerleşimi — nicelik 'arkeolojik' YALNIZ yazılı tanık yokken esastır, burada yazılı (kuruluş 1559) var; ark ayrı alanda tutuldu, zayıf. Tod (Annals I, Personal Narrative) Ahar'ı 'ancient Ahar … destroyed by volcanic eruption' rivayetiyle anar (efsane, tarihsiz). Bapa/Nagda (IG: 'Nagda, a few miles north of Udaipur city') ayrı merkez. ATLAS DÜZELTME ÖNERİSİ: yok (atlas kur 1559 IG ile uyumlu; 'in or about' beyanı eklenebilir)."
  },
  {
   "id": "urmiye",
