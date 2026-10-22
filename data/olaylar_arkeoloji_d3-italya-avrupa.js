@@ -46,7 +46,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «founded Rome, in the beginning of the first year of the seventh Olympiad». GELENEK beyanı: bu kayıt arkeolojik başlangıç DEĞİLDİR. Arkeolojik başlangıç için bkz. wave-2 'latium-vetus-roma-colli-albani', 'roma-forum-nekropolu', 'fidene-kulubesi'. Palatino kulübeleri / Carandini (2. çeyrek 8. yy duvar iddiası) yalnız popüler/ikincil sayfalarda görüldü ve ALINMADI; Carandini 'La nascita di Roma' ve Cornell 1995 kütüphane_gerekli'de."
  },
- {
+ { "odak_yer":["Karthago","Kartaca"], 
   "t": "-0759-01-01",
   "k": "kurulus",
   "b": "Karthago - kuruluş geleneği 814/813 vs arkeolojik ~760: Kartaca: kesintisiz iskânın başı (arkeolojik)",

@@ -67,7 +67,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «The reign of the last known king, Suppiluliuma II, began around 1207 bc». ÇELİŞKİ (iki kaynak): Manning vd. 2023 ~1207; Kaniewski vd. 2011 (PLoS One 6:e20232, tablo) II. Şuppiluliuma'nın ilk saltanat yılı = 1210. Fark 3 yıl; ikisi de Orta Kronoloji çerçevesi. Manning 2023'te Ramses II tahta çıkışı 'eski şemada 1279', 'revize şemada 1290' (aynı makalenin Yöntem bölümü) — Mısır kronolojisine bağlı kayma ~11 yıl. Tek seçilmedi; atlas Manning 2023'ü (hakemli Nature) esas alabilir, Kaniewski ikinci tanık."
  },
- {
+ { "odak_yer":["Santorini"], 
   "t": "-1583-01-01",
   "k": "kayip",
   "b": "Thera (Santorini) Minos patlaması — güncel Bayes modelleri: Thera (Santorini) patlaması — Manning 2022 modeli",

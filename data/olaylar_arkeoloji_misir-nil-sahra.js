@@ -31,7 +31,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1070 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «principal urban center of the Kushite dynasty during much of the Napatan period (1070 to 300 BCE)». Dönem sınırları arkeolojik/dönemsel anlatımdır (1070–300 MÖ, 'much of' ifadesi); 1070 değeri tek sayıdır, 'Egypt'in Üçüncü Ara Dönemi başlangıcı' ile ilgisi bu kaynakta açıklanmadı. 300 MÖ 'around' (yaklaşık). Kuraklık nedenli kayma önerisi (climate-induced desiccation 'may have contributed') — yorumdur, kanıtlı değildir. [VERI-MO-ARKEO: bitiş, ardıl dönemin başlangıcıyla aynı sınırdır; mükerrer madde açılmadı, geçiş ardıl dönem maddesinde tutulur.]"
  },
- {
+ { "odak_yer":["Kerma"], 
   "t": "-1449-01-01",
   "k": "kayip",
   "b": "Kerma (Kush) krallığı/kültürü: sona erer",
@@ -193,7 +193,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2283–2204 (kaynağın verdiği uçlar); orta nokta MÖ 2243 = astronomik -2242. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Start of FIP 2267 2228 2283 2204». Başlangıç (95%, MÖ): P1 2283–2204, P2 2236–2158, P3 2262–2197. Bitiş = MK başı (95%): P1 2065–2037, P2 2064–2038, P3 2070–2040. Dönem süresi bu iki ucun farkıdır; kaynak kendisi 'FIP süresi' vermedi — fark hesabı bana aittir ve ~150–200 yıl düzeyindedir (kanıtlı değildir, kullanmayın; uç değerler esastır). 4.2 ka olayı metinde 'c. 2250 BCE' diye geçer."
  },
- {
+ { "odak_yer":["Kerma"], 
   "t": "-2499-01-01",
   "k": "kurulus",
   "b": "Kerma (Kush) krallığı/kültürü: başlar",
@@ -229,7 +229,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2698–2629 (kaynağın verdiği uçlar); orta nokta MÖ 2663 = astronomik -2662. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Start of OK 2679 2642 2698 2629 2695 2652 2750 2635 2686 2648 2704 2632». Üç varyant (95% hpd, MÖ). OK başı: P1 Hornung vd. 2698–2629; P2 Kitchen 2750–2635; P3 Shaw 2704–2632. FIP başı: P1 2283–2204; P2 2236–2158; P3 2262–2197. 68% hpd: OK başı P1 2679–2642, P2 2695–2652, P3 2686–2648; FIP başı P1 2267–2228, P2 2220–2183, P3 2247–2217. P1 'tek seçim' olarak alındı çünkü Hornung-Krauss-Warburton 2006 standart akademik başvurudur (gerekçe: çelişkide ortalama yok; üç varyant da yukarıda). Makale OK başının hangi hükümdarla (III. Hanedan başı) tanımlandığını bu oturumda okunan metinde açıkça belirtmiyor (yalnız 'Dynasty III and IV' etrafında modellerin 'cantilevered' olduğunu söylüyor) — hanedan eşlemesi AYRICA teyit gerekir. Brifteki Shaw 2000 / Hornung 2006 kitaplarının kendisi bu oturumda AÇILMADI; yalnız Erdil'in onlara atfettiği varyantlar kullanıldı."
  },
- {
+ { "odak_yer":["Naqada"], 
   "t": "-3125-01-01",
   "k": "kayip",
   "b": "Nakade (Naqada) kültürü: sona erer",
@@ -250,7 +250,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3218–3035 (kaynağın verdiği uçlar); orta nokta MÖ 3126 = astronomik -3125. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «The duration of the Naqada period is taken to be the time from the end of the Badarian to the accession of Aha.». Başlangıç = Badarian'ın BİTİŞİ (Dee 2013 tanımı), 95% hpd 3896–3616 MÖ (tablo satırı 'end 3800 3667 3896 3616' = 68% 3800–3667, 95% 3896–3616). Bitiş = Aha'nın tahta çıkışı 95% 3218–3035 (68%: 3111–3045). Alt evre geçişleri (95% hpd, MÖ): Naqada IB/IC 3731–3550 (68%: 3690, 3605 = 3690–3605); IIB/IIC 3562–3367; IID/IIIA 3377–3238. 'Naqada IIIA başlangıcı geç 34. yy' (yazının ilk görüldüğü evre, Dee 2013 metni). Kronoloji okulu: Dee 2013 Bayes modeli (Yüksek/Kısa okul değil; radyokarbon+saltanat sırası). Aha bitişi ve Badari başlangıcı brif gereği ayrıca kaydedilmedi. Not: tablo 68% sütunlarında 'from' büyük/küçük sırası kaynakta '3690 3605 | 3731 3550' biçimindedir (68 from-to, 95 from-to)."
  },
- {
+ { "odak_yer":["Kerma"], 
   "t": "-3499-01-01",
   "k": "gelisme",
   "b": "Ön-Kerma (Pre-Kerma) kültürü: başlar",
@@ -265,7 +265,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 3500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «associated with the later pre-Kerma period (3500–2500 BCE)». 'later pre-Kerma period (3500–2500 BCE)' ifadesi, daha ERKEN Pre-Kerma evresi olduğunu ima eder; erken evrenin başlangıcı bu kaynakta verilmiyor. Yani 3500 'geç Pre-Kerma' başlangıcıdır, kültürün ilk görünümü değildir. Aynı makale: 'first complex Nile Valley polities (Naqada, A-Group and pre-Kerma cultures)'. Honegger 2005 (Genava 53): Kerma'da Neolitik iskân MÖ ~4650, ~4500 civarı tabakalar (OCR'li tablo, k99/Genava 1999 s.78: 'vers 3000 av. J.-C.' / 'vers 4500' / 'vers 4650') — OCR güvensiz, kullanılmadı. [VERI-MO-ARKEO: bitiş, ardıl dönemin başlangıcıyla aynı sınırdır; mükerrer madde açılmadı, geçiş ardıl dönem maddesinde tutulur.]"
  },
- {
+ { "odak_yer":["Naqada"], 
   "t": "-3755-01-01",
   "k": "kurulus",
   "b": "Nakade (Naqada) kültürü: başlar",
@@ -349,7 +349,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   },
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 4850–4250) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «large faunal datasets from new excavations at Kom K and Kom W (4850–4250 BC)». 7350 yalnız TEK değer ('starting ca. 7350 BC'); kaynak metnin hangi laboratuvar tarihine dayandığını özette belirtmiyor (tam metin sayfası açılıp ilgili tablolar ayrıca okunmalı). 'bit' alanı BİTİŞ DEĞİL: Kom K/W yerleşim süresidir, Fayum iskânının sonu değildir (daha sonra A/B kültür fazları yok sayıldı). Evcil bitki/hayvanlar 'first from approximately 5400 BC'. Kaynak Wendrich-Taylor-Southon 2010 (NIM B 268:999) 'fifth millennium BCE' ile uyumludur ama o makale açılmadı. 'Fayum A / Fayum B' etiketleri bu kaynakta kullanılmıyor, TARİHLEME YAPILMADI. Kaynaktaki 'Epipalaeolithic phase (7700–6700 BC)' ifadesi Djara'ya (Batı Çölü) ait, Fayum'a değil — KULLANILMADI."
  },
- {
+ { "odak_yer":["Hartum"], 
   "t": "-4999-01-01",
   "k": "kayip",
   "b": "Erken Hartum (Khartoum Mezolitik): sona erer",
@@ -400,7 +400,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 8220–7450) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Late Acacus (LA) LA1 8900–8500 10170–9400 Hunter-gatherer-fishers». Tablo notu: 'The calibrated dates express the maximum chronological range and overlaps are statistically possible' — aralıklar maksimum kalibre aralığıdır, evre sınırı değil. Faz tablosu (cal BP): LA1 10170–9400; LA2 9500–8600; LA3 9000–8000; EP1 8300–7600; EP2 7800–7300; MP1 7100–6200; MP2 6400–5600; LP1 5900–4300. Rotunno & Crema 2025 (Nat Commun, PMC12494898) pottery-bearing layers 'dated to 10,200 cal BP' der; Eramo vd. 2020 başlığı '10,200–4650 cal BP' (başlıkta; makale açılmadı). Uan Afuda için ayrı kayıt AÇILMADI (aşağıya bak). Yeşil Sahra aDNA makalesi (Nature 2025) bu oturumda açılmadı."
  },
- {
+ { "odak_yer":["Hartum"], 
   "t": "-8799-01-01",
   "k": "gelisme",
   "b": "Erken Hartum (Khartoum Mezolitik): başlar",

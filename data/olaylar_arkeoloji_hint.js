@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Hint alt kıtası MÖ 9000–MÖ 300 (hint) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/hint.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_HINT = [
- {
+ { "odak_yer":["Harappa"], 
   "t": "-1599-01-01",
   "k": "kayip",
   "b": "Geç Harappa dönemi: sona erer",
@@ -16,7 +16,7 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1600 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Late Harappan periods (1900–1600 BC)». Bitiş çelişkili: Parikh & Petrie 1900–1600 BC; Sarkar 2016 (geleneksel) 'Geç/PGW 3.9–3.3 ka BP' yaklaşık 1950–1350 MÖ; Possehl'e atfedilen eski kronolojide 3–2.5 ka BP. Parikh&Petrie metni dönemleme için Shaffer 1992/Kenoyer 1998'e 'contra' notu veriyor (Geç Harappa'yı ayrı dönem saymayan görüş). 1600 'dönem sonu' olup oluş-zamanı değildir."
  },
- {
+ { "odak_yer":["Harappa"], 
   "t": "-1899-01-01",
   "k": "gelisme",
   "b": "Geç Harappa dönemi: başlar",
@@ -52,7 +52,7 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2800–2300 (kaynağın verdiği uçlar); orta nokta MÖ 2550 = astronomik -2549. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «seven dates from charcoal at depths of 9–23 meters have point estimates of 2800–2300 BCE». 2800–2300, 7 kömür tarihinin NOKTA tahminlerinin dağılımıdır (yerleşim süresi değil); 'kur' = en eski/en genç nokta tahmin. Aynı grubun PLoS One 2018 makalesi (Shinde, Kim, Woo vd., doi:10.1371/journal.pone.0192299): 20,6 m 2616±73 BCE, 9,1 m 2273±38 BCE (IUAC AMS, kalibre); mezarlık 'Olgun Harappa, 2500–2000 BCE'. UYARI: Sarkar vd. 2016 Rakhigarhi'nin Hakra/Erken evreleri de içerdiğini söylüyor ('recent excavations ... all the cultural levels') ama sayısal tarih vermiyor; yerleşimin gerçek başlangıcı BULUNAMADI. Haritada 'ilk anılış' olarak kullanılacaksa yerleşim başlangıcı değil, kömür tarihi olarak beyan edilmeli."
  },
- {
+ { "odak_yer":["Harappa"], 
   "t": "-2599-01-01",
   "k": "gelisme",
   "b": "Olgun Harappa (İndus Uygarlığı kent dönemi): başlar",
@@ -82,7 +82,7 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2900 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Spanning from around 2900 BCE to around fifth century CE, Burzahom archeological site exhibits four phases of human habitation». '2900 MÖ' kaynağın tek değerli, yaklaşık beyanı (alt 14C serisi verilmedi); makale Keşmir Neolitik çanağını 'dördüncü bin yılın son çeyreği' (Kanispur) olarak da anıyor, yani 2900'den eski olabilir. Aynı makale bir Neolitik bireyin AMS tarihini 2009–2002 calBCE veriyor (tek birey, yerleşim süresi DEĞİL). Eski ham 14C listesi (Tata Institute, TF-129 ham 3670±90 BP) kalibre değil, yazılmadı. Dönem I/II tabaka tarihleri için orijinal kazı raporu (Khazanchi/ASI) bulunamadı."
  },
- {
+ { "odak_yer":["Harappa"], 
   "t": "-3199-01-01",
   "k": "gelisme",
   "b": "Erken Harappa dönemi (Pre-urban / Early Harappan): başlar",

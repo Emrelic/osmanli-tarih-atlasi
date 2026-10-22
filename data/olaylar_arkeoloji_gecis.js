@@ -121,7 +121,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kaynak_turu": "yazili",
   "kesinlik": "yuzyil"
  },
- {
+ { "odak_yer":["Meroe"], 
   "t": "0349-01-01",
   "k": "diger",
   "b": "Meroe: sahip dönemi sona erer — Kus (Napata–Meroe) Krallığı",

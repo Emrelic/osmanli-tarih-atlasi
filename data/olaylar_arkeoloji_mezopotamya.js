@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Mezopotamya MÖ 7000–MS 1 (Ubaid/Halaf, Eridu, Uruk, Akad, Ur III, Eski Babil, Aşşur, Yeni Babil, Ahameniş fethi) (mezopotamya) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/mezopotamya.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
- {
+ { "odak_yer":["Ninova"], 
   "t": "-0611-01-01",
   "k": "kayip",
   "b": "Ninova'nın düşüşü (Yeni Asur'un sonu): Ninova düşer (Yeni Asur'un sonu)",
@@ -51,7 +51,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Samsuditana year 31, MC 1595/1597». KRONOLOJİ OKULLARI (ARCANE III s.6, Venüs/Ammisaduqa levhaları): Yüksek (HC) Hammurabi 1848-1806, Babil I sonu 1651 · ORTA (MC, bu kayıtta esas) 1792-1750, sonu 1595 · MC II 1784-1742, sonu 1587 · Alçak/Kısa (LC) 1728-1686, sonu 1531 · Ultra-kısa 'Yeni Kronoloji' (NC) 1696-1654, sonu 1499. Yazarlar HC'yi 'artık olası değil' ve NC'yi tarihsel gerekçelerle geçersiz sayar; dendrokronoloji HC/NC'yi dışlar; MC–Alçak aralığını önerirler. Bu 'Hammurabi 1792' değeri hükümdarın çıkışıdır, Babil'in kuruluşu değil; Babil şehri MÖ 3. bin sonundan beri belgeli (tablo dışında, açılmadı). Eşnunna kaydının atlas bitiş değeri -1599 (Eşnunna'nın düşüşü) bu tablodan bağımsızdır.",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {
+ { "odak_yer":["Babil"], 
   "t": "-1791-01-01",
   "k": "gelisme",
   "b": "Eski Babil (Babil I Hanedanı, Hammurabi): Eski Babil (Babil I): Hammurabi'nin saltanatı başlar (Orta Kronoloji)",

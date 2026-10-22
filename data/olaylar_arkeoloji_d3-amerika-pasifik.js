@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Amerikalar, Pasifik/Okyanusya, Avustralya, Sibirya/Mogolistan (d3-amerika-pasifik) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/d3-amerika-pasifik.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
- {
+ { "odak_yer":["Paracas"], 
   "t": "-0039-01-01",
   "k": "kayip",
   "b": "Paracas kültürü (Paracas/Ica alt bölgesi): Geç Paracas sona erer",
@@ -154,7 +154,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 750–300) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «capital of a kingdom during the second half of the Middle Formative period (750-300 cal b.c.)». Yalniz Cambridge ozet sayfasi okundu (tam metin kapali; Unpaywall oa_status=closed). Escalon 750-500, Guillen 300-100, Escalon+Frontera+Guillen toplam 750-100 cal BC; Frontera icin ayri aralik ozette yok; Cuadros/Jocotal/Ocos (Erken Formatif) fazlari ozette yok, o yuzden Izapa'nin Erken Formatif iskani YAZILMADI. Terminal Formatif Itstapa MS 100-300 cal. 'bit' yok: Izapa Terminal Formatif ve sonrasinda surer. Ikinci kaynak (Latin American Antiquity, Izapa Formatif-Klasik gecis kronolojisi) yalniz arama ozeti, okunmadi."
  },
- {
+ { "odak_yer":["Paracas"], 
   "t": "-0789-01-01",
   "k": "gelisme",
   "b": "Paracas kültürü (Paracas/Ica alt bölgesi): Paracas kültürü (Ica) yerleşik düzeyine ulaşır",
@@ -169,7 +169,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 790 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «the Paracas culture was established ca. 900 BCE and cultural development was first focused in the north and then spread south». ÖNCEKİ DALGA 'bulunamadı'sını (Paracas) çözer. bas_mo=790: Paracas/Ica alt bölgesi Early Paracas 95% HPDI başlangıcı (790-440 BCE); bit=40: Late Paracas HPDI üst ucu (600-40 BCE). Yazarlar HPDI'ların 'dönem sınırı önerisi DEĞİL', tarihli üretim/kullanım örneklerinin en erken-en geç aralığı olduğunu söyler. ALT BÖLGE ÇELİŞKİSİ: Palpa Early Paracas 1150-350 BCE, Middle 520-370, Late 380-170 BCE (Early Paracas Palpa'da daha erken); Ica'da Middle Paracas 790-420 BCE. Özet cümlesi 'ca. 900 BCE' kuruluşu verir (Palpa'ya dayalı). Tek değer seçilemez; üç kaydı birlikte oku. Cavernas/Necrópolis ayrımı için Wari Kayan (Necropolis) ayrı kayıtta."
  },
- {
+ { "odak_yer":["Tikal"], 
   "t": "-0799-01-01",
   "k": "ilk_anilis",
   "b": "Tikal: Eb seramik kompleksi (en erken iskan izi): Tikal: Eb seramik kompleksi (ilk iskân)",
@@ -445,7 +445,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1500–1400 (kaynağın verdiği uçlar); orta nokta MÖ 1450 = astronomik -1449. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz (kaynak '2 sigma' CALIB 5.0.1 kalibrasyonuna dayanan gozden gecirilmis tarih araligi; yuzde verilmiyor). Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «offer a revised date of 3450-3350 cal. BP for the appearance of Lapita pottery that replaces the 3300-3200 cal. BP date». Tarih tartismalidir ve kaynaktan kaynaga degisir: Specht 2007 ozel olarak ESKI 3300-3200 cal BP tarihini 3450-3350 cal BP'ye cekiyor; ayni metin Kirch ve Hunt 1988'in 3550 cal BP, Green/Summerhayes'in ~3500 cal BP onerdigini aktariyor (ikincil aktarim, birincil makaleye ulasilamadi - kutuphane_gerekli). Cochrane vd. 2021 Bayesci modeli (Mussau ECA, %95.4) 3460-3010 cal BP veriyor, yani Specht araligi ile cakisiyor. Horrocks vd. 2024 (J Helminthology 98:e8) 'Erken Lapita' birinci yerlesme evresini 3300-3000 cal BP diye anar (Summerhayes 2010'dan aktarma) - evre toplami. Haritada tek bir yil degil ~MO 1500-1100 'bulaniklik' olarak kullanilmali. Kayit 'tek olay' degil, 'ortaya cikis tahmini araligi'dir. cal BP->MO: BP-1950, bu oturumda."
  },
- {
+ { "odak_yer":["Krasnoyarsk"], 
   "t": "-14961-01-01",
   "k": "ilk_anilis",
   "b": "Afontova Gora-2 (AG-2), Yenisey, Krasnoyarsk yakini: Afontova Gora-2: Üst Paleolitik Sibirya iskânı (ufuk dışı)",

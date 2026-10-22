@@ -15,7 +15,7 @@ window.KRONOLOJI_COK_MS1_1000_DUNYA = [
   kaynak:"TDV: hazarlar — '626 yılında Sâsânîler’le Avarlar’ın İstanbul’u kuşatmaları üzerine' Herakleios'a 40.000 kişilik yardım",
   gun:"626 — TDV yıl verir; gün yok" },
 
-{ t:"0652-08-12", b:"Selmân b. Rebîa komutasındaki ordu Derbend'i geçip Belencer'e ulaştı ve yenildi; Araplar'ın Hazar ülkesine ilk önemli hücumu", tur:"savas", onem:2, dunya:1, kapsam:"ic",
+{ odak_yer:["Derbend"], t:"0652-08-12", b:"Selmân b. Rebîa komutasındaki ordu Derbend'i geçip Belencer'e ulaştı ve yenildi; Araplar'ın Hazar ülkesine ilk önemli hücumu", tur:"savas", onem:2, dunya:1, kapsam:"ic",
   etiket:["savas","konu-askeri"], yer:"Belencer (Kuzey Kafkasya)", taraflar:["hazar-kaganligi","emevi"],
   d:"Hz. Ömer döneminde başlayan Arap-Hazar çatışmasının ilk önemli saldırısı 32 (652-53) yılında Selmân b. Rebîa'nın ordusuyla yapıldı; ordu Bâbülebvâb (Derbend) geçidini aşıp Belencer'e kadar ilerledi, ancak Hazarlar karşısında yenilgiye uğradı.",
   kaynak:"TDV: hazarlar — 'ilk önemli hücum ise 32 (652-53) yılında Selmân b. Rebîa kumandasındaki ordu tarafından yapılmıştır'",
@@ -39,7 +39,7 @@ window.KRONOLOJI_COK_MS1_1000_DUNYA = [
   kaynak:"TDV: hazarlar — 'Mesleme b. Abdülmelik ... 714'te Derbend geçidini'",
   gun:"714 — TDV yıl verir; gün yok" },
 
-{ t:"0732-01-01", b:"Mervân b. Muhammed Derbend'i geçip Belencer'de 40.000 kişilik Hazar kuvvetini yendi; barış yapıldı", tur:"savas", onem:3, dunya:1, kapsam:"ic",
+{ odak_yer:["Derbend"], t:"0732-01-01", b:"Mervân b. Muhammed Derbend'i geçip Belencer'de 40.000 kişilik Hazar kuvvetini yendi; barış yapıldı", tur:"savas", onem:3, dunya:1, kapsam:"ic",
   etiket:["savas","antlasma","konu-askeri"], yer:"Belencer (Kuzey Kafkasya)", taraflar:["emevi","hazar-kaganligi"],
   d:"732'de Azerbaycan-İrmîniye valiliğine getirilen Mervân b. Muhammed Derbend'i aşıp Belencer'e girdi; 40.000 kişilik Hazar kuvvetinden 10.000'i öldü, 7.000'i esir düştü. Ardından yapılan antlaşmayla kağan başkent İtil'e döndü.",
   kaynak:"TDV: hazarlar — '732’de Azerbaycan-İrmîniye valiliğine getirilen Mervân b. Muhammed' (Belencer; 40.000 kişilik Hazar kuvveti)",
@@ -57,7 +57,7 @@ window.KRONOLOJI_COK_MS1_1000_DUNYA = [
   kaynak:"TDV: hazarlar — '799’da Hazarlar İslâm topraklarına yeni bir akın düzenlediler'",
   gun:"799 — TDV yıl verir; gün yok" },
 
-{ t:"0968-01-01", b:"Rus seferleri Hazar şehri Semender'i yıktı (968'den sonra)", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"ic",
+{ odak_yer:["Kiev"], t:"0968-01-01", b:"Rus seferleri Hazar şehri Semender'i yıktı (968'den sonra)", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"ic",
   etiket:["toprak-kayip","konu-askeri"], yer:"Semender (Kuzey Kafkasya)", taraflar:["hazar-kaganligi","kiev-rusu"],
   d:"Hazar siyasî varlığının sona ermesine giden süreçte, Ruslar'ın 968'den sonra bu bölgeye düzenlediği seferler Hazar şehri Semender'i yıktı. Kağanın 965'te Hârizmliler'e sığınması Hazar merkezî otoritesinin çöktüğünü gösterir.",
   kaynak:"TDV: hazarlar — 'Ruslar’ın 968’den sonra bu civara yaptıkları seferler' ; '965’te hakanın Hârizmliler’e sığınması'",

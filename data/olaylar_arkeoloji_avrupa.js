@@ -85,7 +85,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2920–2885 (kaynağın verdiği uçlar); orta nokta MÖ 2902 = astronomik -2901. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Boundary parameter estimating the start of the activity associated with the first phase of settlement in the central area». Rakamlar 'central area' (merkez alan) için ve model henüz tam yayımlanmamış monografiye dayanır (ek tabloda özet). Faz 1 sonu 2870–2815 (92%) / 2795–2760 (3%). Ness of Brodgar sitesi popüler özetleri 3300/2900 BC gibi başka başlangıçlar anar; bunlar akademik kaynak değil, kullanılmadı. 'Tabaka-donem' sınırı. [VERI-MO-ARKEO: kaynaktaki 'boundary' parametresi bir oluş zamanının modelli tahminidir → orta nokta uygulandı.]"
  },
- {
+ { "odak_yer":["Vinča-Belo Brdo"], 
   "t": "-4514-01-01",
   "k": "kayip",
   "b": "Vinča-Belo Brdo: sona erer",
@@ -106,7 +106,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4545–4485 (kaynağın verdiği uçlar); orta nokta MÖ 4515 = astronomik -4514. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Vinca culture occupation at Belo Brdo ended in 4545–4485 cal BC (95% probability; end Belo Brdo». DİKKAT: bu rakamlar yazarların 'duyarlılık analizi' (alternatif) modelindendir (Şekil S1); yazarlar bitiş tarihinin tercih edilen modelle (ana metin Şekil 8) neredeyse aynı olduğunu söyler, ama ana metin okunmadı. Başlangıç yalnız SEKTÖR II dizisinin başıdır, bütün tell'in kuruluşu DEĞİLDİR (Vinča yerleşmesi daha erken olabilir). Dönem/tabaka sınırı türüdür."
  },
- {
+ { "odak_yer":["Vinča-Belo Brdo"], 
   "t": "-4586-01-01",
   "k": "kurulus",
   "b": "Vinča-Belo Brdo: başlar",
@@ -148,7 +148,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 4791–4640) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «phase 3 mound with cist, standing stones and first activities in the sector, 4791–4640 cal BC, 95.4% probability». Bölümün (Le Plasker) tarihidir; ünlü Kermario/Ménec sıralarının KENDİ radyokarbon tarihi bu kaynakta yok. Makale/AÇIK haber (Gothenburg Üniv.) 'alignmanlar 4600–4300' der (olasılık belirtilmemiş); makale metninde Faz 4 = 4668–4368 (95.4). Faz 3 tek tek 4791–4686 (kist içi kömür, birleşik). Tür: faz sınırı (Bayes modeli, 49 yeni 14C)."
  },
- {
+ { "odak_yer":["Lepenski Vir"], 
   "t": "-5779-01-01",
   "k": "kayip",
   "b": "Lepenski Vir: sona erer",
@@ -169,7 +169,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 5900–5660 (kaynağın verdiği uçlar); orta nokta MÖ 5780 = astronomik -5779. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Early Neolithic LV III End 5,870–5,490 | 5,900–5,660 | 5,850–5,610 (Model 1 | Model 2 | Model 3)». Başlangıç (9900–9280) ve evre sonu (Proto-LV bitişi 7480–6860) AYRI modelleme sınırlarıdır; aralıklar geniş (ardışık stratigrafik bağlam az). Proto-LV ile trapez yapılı evre arasında en az 700 yıl hiatus var (makale). Model 1 ve 3 başlangıçları 10360–9350 / 10530–8620; Model 2 (kullanılan) kısa ömürlü örnekleri esas alır. Tür 'sehir' yaklaşık; sahip/devlet kavramı yoktur."
  },
- {
+ { "odak_yer":["Lepenski Vir"], 
   "t": "-5974-01-01",
   "k": "kayip",
   "b": "Lepenski Vir trapez yapılı yerleşim evresi (Mezolitik-Neolitik geçiş, LV I-II): sona erer",
@@ -190,7 +190,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 6010–5940 (kaynağın verdiği uçlar); orta nokta MÖ 5975 = astronomik -5974. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Mesolithic-Neolithic Transition LV I-II End 5,980–5,930 | 6,010–5,940 | 6,020–5,860». Tür: dönem/evre sınırları (model sınırı), tek olay değil. Süre tahmini Model 2: 80–210 yıl (95). Geçiş evresini Neolitik başlangıç (LV III) izler; Erken Neolitik başlangıcı 5990–5900 (Model 2)."
  },
- {
+ { "odak_yer":["Lepenski Vir"], 
   "t": "-6119-01-01",
   "k": "gelisme",
   "b": "Lepenski Vir trapez yapılı yerleşim evresi (Mezolitik-Neolitik geçiş, LV I-II): başlar",
@@ -232,7 +232,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 6810–6590 (kaynağın verdiği uçlar); orta nokta MÖ 6700 = astronomik -6699. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «weighted mean of c. 6800–6600 BC (6710–6610 BC at 68.2%, or 6810–6590 BC at 95.4% probability)». Tek seçilen: iki bağımsız dizinin (Evans kazıları Merkez Avlu, 1997 kazısı seviye 39) birleşik başlangıcı 6810–6590. Ayrı ayrı: seviye 39 başlangıcı 6970–6590 (95.4); Merkez Avlu 6910–6480. Makalenin özet cümlesi 6900–6600 (95.4) yuvarlar. Aseramik evre sonu verilmedi; makale 1000–1500 yıllık boşluk (yeniden iskân EN I başlangıcı 5500–5080 BC, 95.4, seviye 37, 1997 kazısı; Evans dizisi 6240–5030 ve 5890–4860 gibi daha geniş). Minos SARAYI (Tunç Çağı) tarihleri bu kayıtta YOK, bulunamadı listesine bakınız. Örnek ham 14C: IntCal13 ile kalibre."
  },
- {
+ { "odak_yer":["Lepenski Vir"], 
   "t": "-9589-01-01",
   "k": "kurulus",
   "b": "Lepenski Vir: başlar",

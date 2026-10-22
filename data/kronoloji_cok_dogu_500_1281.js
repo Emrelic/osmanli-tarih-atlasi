@@ -2,7 +2,7 @@
 // DOĞU 500-1281 anlatı kronolojisi (künyelere taraflar: ile eklenir)
 // Kaynak: denetim/dogu/<küme>/ (DOĞU 500-1281 işçileri) · 2026-10-22
 window.KRONOLOJI_COK_DOGU_500_1281 = [
- {
+ { "odak_yer":["Datong"], 
   "t": "0523-03-31",
   "b": "Altı Garnizon isyanı: Wuyuan'da Poluohan Bailing ayaklandı",
   "tur": "isyan",
@@ -22,7 +22,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti: Çin 3. ayının başı (ortalama yeni ay hesabı). Yıl: satır 4. yıl başlığı (正光四年) altında; Anagui'nin 523 akını ile aynı yıl."
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0526-10-06",
   "b": "Ge Rong \"Qi\" devletini ilan etti (Hebei'de isyancı devlet)",
   "tur": "isyan",
@@ -42,7 +42,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Yıl başlığı (孝昌二年=526) satır bağlamından çıkarıldı, satırın kendisinde yıl yazmıyor."
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0528-05-17",
   "b": "Heyin katliamı: Erzhu Rong imparatoriçe dul ve ~2000 saray mensubunu öldürttü",
   "tur": "isyan",
@@ -62,7 +62,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Metin katliam gününü ayrıca vermez; 庚子 olay sırası içindeki gündür (戊戌 tahta çıkış, 庚子 巡河-katliam, 辛丑 saraya giriş)."
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0530-11-01",
   "b": "Xiaozhuang, Erzhu Rong'u ve Yuan Tianmu'yu saray içinde öldürdü",
   "tur": "isyan",
@@ -82,7 +82,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Yıl (永安三年=530) satır bağlamı; satır yıl yazmıyor."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0534-08-21",
   "b": "Xiaowu Luoyang'dan kaçıp Chang'an'a yöneldi; Gao Huan Luoyang'a girdi",
   "tur": "bolunme",
@@ -125,7 +125,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Artık (閏) 12. ay: ortalama yeni ay + zhongqi modelinde artık ay farklı yerde çıktığı için (534 için model artığı başka aya koyuyor) ganzhi 癸巳 en yakın 60 günlük döngü adayıyla seçildi; 535-02-03 (癸巳). Wen Di'nin tahta çıkış günü kaynakta yok."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0534-12-02",
   "b": "Doğu Wei sarayı Ye'ye vardı; Ye başkent oldu, Luoyang'dan göç ettirilen halk Ye çevresine yerleştirildi",
   "tur": "kurulus",
@@ -145,7 +145,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙子 → 534-11-18 (10. ay), 庚寅 → 534-12-02 (11. ay). Wei shu satırı ay adını \"一月\" yazıyor (十一月'in \"十\" harfi düşmüş); bağlam 11. ay."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0543-01-01",
   "b": "Mangshan Savaşı: Gao Huan, Yuwen Tai ve Batı Wei ordusunu Luoyang yakınında yendi",
   "tur": "savas",
@@ -229,7 +229,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti: Çin 10. ayının başı; Chen cephesinden gün okunmadı."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0575-08-21",
   "b": "Zhou ordusu Luoyang önüne indi, Mang Dağı'nda ordugah kurdu; Qi karşı sefere çıkınca çekildi",
   "tur": "savas",
@@ -395,7 +395,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 甲子 → 580-07-07."
  },
- {
+ { "odak_yer":["Anyang"], 
   "t": "0580-09-11",
   "b": "Wei Xiaokuan Ye'de Yuchi Jiong'u yendi; Ye şehri yıkıldı, Xiangzhou Anyang'a taşındı",
   "tur": "savas",
@@ -416,7 +416,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 庚午 → 580-09-11."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0583-01-05",
   "b": "Sui Wen Di yeni başkentin adını \"Daxing Şehri\" koydu",
   "tur": "kurulus",
@@ -436,7 +436,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙子 → 583-01-05 (Jülyen); Çin 12. ayı Jülyen yıl sonuna taşıyor."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0583-04-15",
   "b": "Sui sarayı Daxing'e taşındı",
   "tur": "kurulus",
@@ -456,7 +456,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙辰 → 583-04-15."
  },
- {
+ { "odak_yer":["Taiyuan"], 
   "t": "0617-06-23",
   "b": "Li Yuan Taiyuan'da Sui'ye karşı ayaklandı",
   "tur": "isyan",
@@ -477,7 +477,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 甲子 → 617-06-23 (çift teyit: Jiu Tang shu ve Sui shu aynı ganzhi gününü verir)."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0617-12-12",
   "b": "Li Yuan Daxing'i (Chang'an) ele geçirdi; Sui küçük hükümdarı Yang You tahta çıkarıldı",
   "tur": "savas",
@@ -518,7 +518,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙辰 → 618-04-11 (Jülyen)."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0589-03-21",
   "b": "Chen Hou Zhu Chang'an'a götürüldü; Chen devleti tarihe karıştı",
   "tur": "son",
@@ -664,7 +664,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. «五年五月» ibaresinde \"5. yıl\" Sui Kaihuang 5 (585) varsayıldı; metin yıl çerçevesini açıkça yazmıyor."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0587-10-26",
   "b": "Sui, Hou Liang'i ilga etti; Xiao Cong Chang'an'a götürüldü",
   "tur": "son",
@@ -747,7 +747,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "武成 yıl adı Ağustos 559 - 560 arası; \"初\" belirsizliği nedeniyle 559 yılı seçildi."
  },
- {
+ { "odak_yer":["Fuzhou"], 
   "t": "0566-01-01",
   "b": "Tuyuhun'un Longhe prensi Mochang teslim oldu; toprakları Fuzhou yapıldı",
   "tur": "birlesme",
@@ -788,7 +788,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 癸酉 → 578-01-28."
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0503-12-14",
   "b": "Wei, Wuxing Yang Shaoxian'ı \"Wuxing Kralı\" olarak onayladı",
   "tur": "ittifak",
@@ -809,7 +809,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 己未 → 503-12-14. Yıl başlığı (景明四年=503) satır sırasından çıkarıldı."
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0506-02-14",
   "b": "Wei, Wuxing'i kuşatıp aldı; Yang Jiqi ve kardeşleri teslim oldu",
   "tur": "savas",
@@ -891,7 +891,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "«末» → 556 seçildi (Gong Di 554-556)."
  },
- {
+ { "odak_yer":["Yarlung"], 
   "t": "0629-01-01",
   "b": "Songtsen Gampo tahta çıktı: Yarlung krallığı Tibet İmparatorluğu'na dönüşmeye başladı",
   "tur": "hukumdar",
@@ -993,7 +993,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙午 → 705-02-23. Yıl: Zhongzong ji, 神龍元年 (705). 乙巳/丙午 zinciri 正月 içinde."
  },
- {
+ { "odak_yer":["Lanzhou"], 
   "t": "0617-01-01",
   "b": "Xue Ju Jincheng'de Sui'ye isyan edip \"Batı Qin Hegemonu\" oldu",
   "tur": "kurulus",
@@ -1013,7 +1013,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yıl: «十三年秋七月，舉僭號於蘭州» ibaresinden geriye (isyan o yıl içinde, 617). Başlangıç ayı kaynakta yok."
  },
- {
+ { "odak_yer":["Lanzhou"], 
   "t": "0617-08-07",
   "b": "Xue Ju Lanzhou'da imparator ilan etti",
   "tur": "hukumdar",
@@ -1136,7 +1136,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti. Wei (Li Mi) devleti fiilen burada bitti; künyedeki t (0618-01-01) yıl tahminidir, öneri t = bu ay."
  },
- {
+ { "odak_yer":["Leshou"], 
   "t": "0617-02-10",
   "b": "Dou Jiande Leshou yakınında sunak kurup \"Changle Kralı\" oldu",
   "tur": "kurulus",
@@ -1156,7 +1156,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. Ay hassasiyeti: Çin 1. ayının başı."
  },
- {
+ { "odak_yer":["Leshou"], 
   "t": "0618-01-01",
   "b": "Dou Jiande devletin adını \"Xia\" yaptı ve yıl adını \"Wufeng\" ilan etti",
   "tur": "hukumdar",
@@ -1198,7 +1198,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 己未 → 621-05-28. Ay çelişkisi iç içe: juan 1 ve juan 2 五月 der, juan 54 三月 yazıyor; ganzhi ve sıra (丙寅 sonra Luoyang teslimi) 五月 ile uyumlu."
  },
- {
+ { "odak_yer":["Xiazhou"], 
   "t": "0617-01-01",
   "b": "Liang Shidu Shuofang'da isyan edip \"Liang\" imparatorluğunu ilan etti, Türklere bağlandı",
   "tur": "kurulus",
@@ -1239,7 +1239,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Weiqiao akını 626 (Taizong'un tahta çıkışı); metin tarih vermez, yıl çıkarımı."
  },
- {
+ { "odak_yer":["Xiazhou"], 
   "t": "0628-05-28",
   "b": "Liang Shidu amcaoğlu Luoren tarafından öldürüldü; Shuofang Tang'a geçti, Xiazhou kuruldu",
   "tur": "son",
@@ -1260,7 +1260,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 丙申 → 628-05-28; olay satırı 丙申'den sonra ve 5. aydan önce; 628-05-28 alt sınır olarak kullanıldı (hassasiyet ay)."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0619-05-25",
   "b": "Wang Shichong Yue Wang Tong'u tahttan indirip Zheng devletini ilan etti",
   "tur": "kurulus",
@@ -1281,7 +1281,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Çin ay-gün ganzhi (sexagenary) günü Jülyen takvimine hesapla çevrildi (JDN algoritması; ay sınırı ortalama yeni ay + zhongqi kuralıyla; sınama: 甲子=618-06-18, 乙亥=557-11-16, 丙寅=502-04-30, 丙寅=534-11-08 bilinen günlerle örtüştü). 1582 öncesi Jülyen kalır. 乙巳 → 619-05-25 (artık 4. ay modeli; 619-03-26 adayı bir ay önce, 60 gün farkla; metin 夏 = yaz, 5. ay sonu seçildi). Çift teyit (juan 1 ve 54)."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0621-06-04",
   "b": "Wang Shichong Luoyang'ı teslim etti; Zheng sona erdi",
   "tur": "son",
@@ -1340,7 +1340,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "義寧二年/武德元年 = 618 (ay/gün yok)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Jingzhou"], 
   "t": "0621-11-10",
   "b": "Li Xiaogong Jingzhou'yu (Jiangling) alıp Xiao Xian'ı esir etti",
   "tur": "savas",
@@ -1569,7 +1569,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Qianning 3 = 896; ay yok."
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "0897-01-01",
   "b": "Nanzhao kralı Longshun suikastla öldürüldü; Meng Shunhua tahta çıktı",
   "tur": "hukumdar",
@@ -1631,7 +1631,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Qianning 4 = 897; 10. ay gün adı yok (YYYY-01-01 kuralı)."
  },
- {
+ { "odak_yer":["Fuzhou"], 
   "t": "0897-01-01",
   "b": "Wang Shenzhi Fuzhou’da Weiwu Jun valisi oldu",
   "tur": "hukumdar",
@@ -1652,7 +1652,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Qianning 4 = 897; ay yok. Aynı kaynak sonda Fuzhou’nun fiilî Wang egemenliğini «景福元年» (892) diye de sayar (ayrı sayım)."
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "0898-01-01",
   "b": "Nanzhao Shunhua \"Zhongxing\" dönemini başlattı, Tang’a barış elçisi gönderdi",
   "tur": "siyaset",
@@ -1673,7 +1673,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yıl 898: dönem adı yılı (Theobald tablosu); Xin Tang shu yıl vermez."
  },
- {
+ { "odak_yer":["Hangzhou"], 
   "t": "0898-01-01",
   "b": "Qian Liu Zhenhai karargâhını Hangzhou’ya taşıdı",
   "tur": "baskent",
@@ -1736,7 +1736,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Tianfu 2 = 902 (aynı sayfada «天復二年» ile bağlı); ay/gün kaynakta yok."
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "0902-01-01",
   "b": "Zheng Maisi Meng hanedanını devirdi: Büyük Changhe (Da Changhe) kuruldu",
   "tur": "kurulus",
@@ -1799,7 +1799,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Künye f=0917-01-01 (Jiu Wudai shi sayımı); Xin Wudai 905’ten sayar — künye ic_not’a eklenmeli (öneri)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0907-01-01",
   "b": "Liu Shouguang babasını hapsedip Lulong (Youzhou) valiliğini ele geçirdi",
   "tur": "isyan",
@@ -1820,7 +1820,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Kaiping 1 = 907; ay yok."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0907-06-01",
   "b": "Gao Jixing Jingnan valisi atandı: Jiangling yalnız tek kent",
   "tur": "siyaset",
@@ -1841,7 +1841,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "\"自梁開平元年鎮荊南，至皇朝乾德元年國除，凡五十七年\" (aynı kaynak). Nominal Liang egemenliği BEYANLI YAKLAŞIKLIK; 907-06-01 devir günü."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0907-06-01",
   "b": "Li Maozhen Liang kurulunca imparatorluk ilan etmedi, \"Qi Kralı\" kaldı",
   "tur": "siyaset",
@@ -1862,7 +1862,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Qi’nin kuruluş yılı (künye f=0901-01-01): «封岐王» günü/yılı Xin Wudai 40’ta okunmadı; Fengxiang yerleşimi bu kümede yazılamadı (aşağıda rapor)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0907-06-01",
   "b": "Liang Ma Yin’e Chu Kralı unvanı verdi",
   "tur": "siyaset",
@@ -1883,7 +1883,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Unvanın günü kaynakta yok; 907-06-01 devir günü. Künye f=0927-01-01 (Tianqing 2, Mingzong: «天成二年…封殷楚國王») Chu’nun 907 egemenliğini kapsamaz: künye f 0907-06-01 olmalı (öneri; Changsha 907–927 yoksa sahipsiz kalır)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0907-06-01",
   "b": "Liang Qian Liu’ya Wuyue Kralı unvanı verdi",
   "tur": "siyaset",
@@ -1904,7 +1904,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Unvanın günü kaynakta yok; Liang’ın kuruluş günü (907-06-01) devir günü olarak alındı. Kaynak aynı sayfada «自唐乾寧二年為鎮海、鎮東軍節度使兼有兩浙，至皇朝太平興國三年國除，凡八十四年» der: Qian Liu’nun fiilî egemenliği 895’ten."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0907-06-01",
   "b": "Liang Wang Shenzhi’ye Min Kralı unvanı verdi",
   "tur": "siyaset",
@@ -1925,7 +1925,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Unvanın günü kaynakta yok; 907-06-01 devir günü olarak alındı. Künye f=0909-01-01 ise 0907-06-01 olmalı (öneri; Min kaynağı «唐亡» diyor)."
  },
- {
+ { "odak_yer":["Luoyang","Kaifeng"], 
   "t": "0907-06-01",
   "b": "Zhu Wen imparator ilan etti; Kaifeng Doğu Başkent, Luoyang Batı Başkent",
   "tur": "kurulus",
@@ -1967,7 +1967,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Künye f=0907-01-01: gerçek imparatorluk ilanı 907-11-03; ama Shu Tang’ın düşüşünden (907-06-01) beri bağımsızdı. Kaynak notu: Jiu Wudai shi «龍紀元年入成都, 天祐五年建號» der — Ouyang «繆» (yanlış) diyerek reddeder.",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 907 9. ay 己亥 = 907-11-03 (Gregoryen 907-11-08)."
  },
- {
+ { "odak_yer":["Taiyuan"], 
   "t": "0908-02-05",
   "b": "Li Cunxu Taiyuan’da \"Jin Kralı\" oldu (Li Keyong’un ölümü)",
   "tur": "hukumdar",
@@ -1988,7 +1988,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Tianyou 5 1. ay ilk günü = 908-02-05 (Gregoryen 908-02-10)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0909-01-01",
   "b": "Liang Liu Yin’e \"Nanping Kralı\" unvanı verdi",
   "tur": "siyaset",
@@ -2029,7 +2029,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yıl 909 tablo (reign başı); kaynak ansiklopedik, birincil kaynak bulunamadı."
  },
- {
+ { "odak_yer":["Xiazhou"], 
   "t": "0909-04-23",
   "b": "Dingnan Jun: Li Yichang öldürüldü, Li Renfu Xiazhou valisi oldu",
   "tur": "hukumdar",
@@ -2050,7 +2050,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Kaiping 3 4. ay ilk günü = 909-04-23 (Gregoryen 909-04-28)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0910-01-01",
   "b": "Zhao Prensi Wang Rong Liang’a karşı Jin’den yardım istedi",
   "tur": "ittifak",
@@ -2072,7 +2072,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Tianyou 7 = 910; ay yok (kış)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0911-01-01",
   "b": "Liu Yin \"Nanhai Wang\" (Güney Deniz Kralı) oldu ve öldü; kardeşi Liu Yan geçti",
   "tur": "hukumdar",
@@ -2093,7 +2093,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Qianhua 1 = 911; ay yok."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0911-02-02",
   "b": "Baixiang Savaşı: Jin ve Zhao Liang ordusunu yendi",
   "tur": "savas",
@@ -2115,7 +2115,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Tianyou 8 1. ay ilk günü = 911-02-02 (Gregoryen 911-02-07)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0911-09-08",
   "b": "Liu Shouguang imparator ilan etti: Büyük Yan (Da Yan), Yingtian dönemi",
   "tur": "kurulus",
@@ -2137,7 +2137,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen (1582 öncesi Jülyen kalır): 911 8. ay 甲子 = 911-09-08 (Gregoryen 911-09-13); iki kaynak ay (8. ay) konusunda uyumlu, gün adı yalnız ZZTJ’de."
  },
- {
+ { "odak_yer":["Taiyuan"], 
   "t": "0913-11-01",
   "b": "Jin ordusu Youzhou’yu aldı; Liu Shouguang kaçarken yakalandı, Yan sona erdi",
   "tur": "son",
@@ -2159,7 +2159,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Tianyou 10 (913) 10. ay: ay ilk günü (Çin ay-güneş takvimi → Jülyen (1582 öncesi Jülyen kalır): 913-11-01); kaynak kent düşüş gününü vermiyor. Künye t=0913-01-01 yanlış görünür: 0913-11-01 (ay) olmalı (öneri).",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Tianyou 10 10. ay ilk günü = 913-11-01 (Gregoryen 913-11-06)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0915-01-01",
   "b": "Weibo (Weizhou–Bozhou) Liang’dan Jin’e geçti; Li Cunxu Weizhou’ya girdi",
   "tur": "siyaset",
@@ -2200,7 +2200,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Zhenming 3 = 917; ay/gün kaynakta yok."
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0918-04-03",
   "b": "Abaoji Huangdu’yu (Linhuang, Üst Başkent) inşa ettirdi",
   "tur": "baskent",
@@ -2241,7 +2241,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Wuyi 1 4. ay ilk günü = 919-05-03 (Gregoryen 919-05-08)."
  },
- {
+ { "odak_yer":["Taiyuan"], 
   "t": "0921-02-11",
   "b": "Zhang Wenli Zhao Prensi Wang Rong’u öldürüp Zhenzhou’yu ele geçirdi",
   "tur": "isyan",
@@ -2263,7 +2263,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Tianyou 18 (921) 1. ay: ay ilk günü seçildi (Çin ay-güneş takvimi → Jülyen (1582 öncesi Jülyen kalır): 921-02-11); tam gün kaynakta yok. Künye t=0921-01-01 ise 0921-02-11’e (ya da öldürme günü bulunursa) düzeltilmeli.",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Tianyou 18 1. ay ilk günü = 921-02-11 (Gregoryen 921-02-16)."
  },
- {
+ { "odak_yer":["Taiyuan"], 
   "t": "0922-10-23",
   "b": "Jin Zhenzhou’yu (Zhang Wenli rejimini) ele geçirdi",
   "tur": "savas",
@@ -2285,7 +2285,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Zhengding zincirinde 921-02-11’den itibaren Jin nominal egemen yazıldı; fiilî Jin kontrolü bu tarihte (BEYANLI YAKLAŞIKLIK).",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Tianyou 19 10. ay ilk günü = 922-10-23 (Gregoryen 922-10-28)."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0923-05-13",
   "b": "Li Cunxu imparator ilan etti: Sonraki Tang kuruldu",
   "tur": "kurulus",
@@ -2306,7 +2306,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen (1582 öncesi Jülyen kalır): 4. ay 己巳 = 923-05-13 (Gregoryen 923-05-18)."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0923-11-18",
   "b": "Son Liang imparatoru Zhu Zhen öldü; Sonraki Liang sona erdi",
   "tur": "son",
@@ -2328,7 +2328,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Künye t=0923-01-01 (devletler.js) / 0923-10-01 (DEVLET_LISTESI): gerçek son 0923-11-18 (ya da şehrin düşüşü 11-19); künye t düzeltilmeli (öneri).",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen (1582 öncesi Jülyen kalır): 10. ay 己卯 = 923-11-19, 戊寅 = 923-11-18 (Gregoryen 923-11-24). Luoyang’a imparator girişi (11. ay 甲子) 924-01-03; Luoyang devri düşüşün ilk günü sayıldı (BEYANLI YAKLAŞIKLIK)."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0924-01-01",
   "b": "Li Maozhen Sonraki Tang’a bağlandı, Qin Kralı oldu",
   "tur": "siyaset",
@@ -2349,7 +2349,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Tongguang 2 = 924; ay/gün yok. Künye t=0924-01-01 ile uyumlu (yıl sonu olabilir)."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0924-01-01",
   "b": "Li Maozhen öldü; Qi devleti sona erdi",
   "tur": "son",
@@ -2370,7 +2370,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Tongguang 2 = 924; ay/gün yok."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0924-01-03",
   "b": "Zhuangzong Luoyang’a girdi; Tang başkenti Luoyang oldu",
   "tur": "baskent",
@@ -2390,7 +2390,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Tongguang 1 11. ay 甲子 = 924-01-03 (Gregoryen 924-01-08). Ayın 庚午朔 12. ay çapası: 924-01-09 hesapla ±2 gün sapma (Tang takvimi)."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0925-01-01",
   "b": "Sonraki Tang Gao Jixing’e \"Nanping Kralı\" unvanı verdi",
   "tur": "siyaset",
@@ -2411,7 +2411,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Tongguang 3 = 925; ay yok. Künye f=0924-01-01 (girdi) bu unvandan önce başlar."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0925-12-08",
   "b": "Sonraki Tang Sichuan’ı fethetti; Wang Yan Chengdu’da teslim oldu, Önceki Shu sona erdi",
   "tur": "son",
@@ -2433,7 +2433,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Çin ay-güneş takvimi → Jülyen (1582 öncesi Jülyen kalır): Tongguang 3 (925) 11. ay 己酉 = 925-12-08 (Gregoryen 925-12-13). Künye t=0925-01-01 ise 0925-12-08 olmalı.",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen (1582 öncesi Jülyen kalır): Tongguang 3 (925) 11. ay 己酉 = 925-12-08 (Gregoryen 925-12-13). Künye t=0925-01-01 ise 0925-12-08 olmalı."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0925-12-08",
   "b": "Tang Sichuan’ı fethetti: Wei Prensi Li Jiji ve Guo Chongtao Chengdu’ya girdi",
   "tur": "savas",
@@ -2474,7 +2474,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yıl 926 tablo (reign başı); birincil kaynak bulunamadı."
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0926-02-17",
   "b": "Liao ordusu Balhae’nin Fuyu kalesini aldı",
   "tur": "savas",
@@ -2495,7 +2495,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Tianxian 1 1. ay 庚申 = 926-02-17 (Gregoryen 926-02-22); Liao 4. ay 丁亥朔 = 926-05-15 çapasıyla ay doğrulandı."
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0926-02-26",
   "b": "Hulhan kuşatması: Balhae kralı Da Yinzhuan teslim istedi",
   "tur": "savas",
@@ -2516,7 +2516,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Tianxian 1 1. ay 己巳 = 926-02-26 (Gregoryen 926-03-03). Astronomik tabloda 1. ay \"artık ay\" görünür; Liao shi’nin 丁亥朔 çapası kullanıldı."
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0926-04-04",
   "b": "Liao Balhae’yi Dongdan adıyla vasal krallığa çevirdi",
   "tur": "kurulus",
@@ -2538,7 +2538,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen (1582 öncesi Jülyen kalır): 丙午 = 926-04-04 (Gregoryen 926-04-09); DEVLET_LISTESI de 4 Nisan 926 verir (bağımsız çevrim). Balhae’nin 辛未 teslimi ile 丙午 arası 35 gün Liao askerî işgalidir (BEYANLI: liao-hanedani)."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0926-05-15",
   "b": "Wang Yan ve ailesi Luoyang yolunda Qinchuan’da öldürüldü",
   "tur": "hukumdar",
@@ -2559,7 +2559,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Tongguang 4 4. ay ilk günü 丁亥朔 = 926-05-15 (Gregoryen 926-05-20); Xin Wudai 5 de «夏四月丁亥朔，皇帝崩»."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0926-05-15",
   "b": "Zhuangzong Guo Congqian’ın isyanında öldü; Mingzong tahta çıktı",
   "tur": "hukumdar",
@@ -2579,7 +2579,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Tongguang 4 4. ay 丁亥朔 = 926-05-15 (Gregoryen 926-05-20)."
  },
- {
+ { "odak_yer":["Changsha"], 
   "t": "0927-01-01",
   "b": "Sonraki Tang Ma Yin’e \"Chu Guowang\" unvanı verdi; Tanzhou Changsha Fu oldu",
   "tur": "siyaset",
@@ -2620,7 +2620,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Shunyi 7 11. ay 庚戌 = 927-11-29 (Gregoryen 927-12-04)."
  },
- {
+ { "odak_yer":["Liaoyang"], 
   "t": "0928-01-01",
   "b": "Dongdan halkı Dongping’e (Liaoyang) taşındı; Hulhan (Tianfu) terk edildi",
   "tur": "siyaset",
@@ -2682,7 +2682,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yıl 933: Longqi 1 dönem tablosundan (kaynak sayfa yıl vermiyor; ZZTJ 278 okunmadı). Ay/gün yok."
  },
- {
+ { "odak_yer":["Xiazhou"], 
   "t": "0934-04-16",
   "b": "Li Renfu öldü; Tang oğlu Li Yichao’yu başka yere atamaya kalktı, Yichao Xiazhou’yu savunup görevi korudu",
   "tur": "savas",
@@ -2704,7 +2704,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Metin Xiazhou’yu \"Helian Bobo’nun ördürdüğü toprakla yapılmış surlu kent\" (Tongwan Şehri) diye tanımlar: Xiazhou = Tongwancheng kimliği için kaynak.",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Changxing 4 3. ay ilk günü = 934-04-16 (Gregoryen 934-04-21)."
  },
- {
+ { "odak_yer":["Taiyuan"], 
   "t": "0936-05-23",
   "b": "Taiyuan valisi Shi Jingtang Sonraki Tang’a isyan etti",
   "tur": "isyan",
@@ -2725,7 +2725,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Qingtai 3 5. ay ilk günü = 936-05-23 (Gregoryen 936-05-28)."
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0936-11-28",
   "b": "Shi Jingtang Kitan’a On Altı Vilayet’i bıraktı (Yanyun)",
   "tur": "antlasma",
@@ -2746,7 +2746,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen (1582 öncesi Jülyen kalır): 11. ay 丁酉 = 936-11-28. Bildiri (936-11-28) devri başlatır; harita-belge teslimi Liao shi 4’e göre 938-11 (bkz. kronoloji). Devir günü Xin Wudai’yi izledi (BEYANLI: fiilî teslim 936–938 arası)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0937-01-11",
   "b": "Son Tang imparatoru kendini yaktı; Sonraki Tang sona erdi",
   "tur": "son",
@@ -2790,7 +2790,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Tianzuo 3 (937) 10. ay: ay ilk günü seçildi (Çin ay-güneş takvimi → Jülyen (1582 öncesi Jülyen kalır): 937-11-06); künye t=0937-10-01 ile 36 gün fark → künye t=0937-11-06 olmalı (öneri).",
   "ic_not_takvim": "Tianzuo 3 (937) 10. ay: ay ilk günü seçildi (Çin ay-güneş takvimi → Jülyen (1582 öncesi Jülyen kalır): 937-11-06); künye t=0937-10-01 ile 36 gün fark → künye t=0937-11-06 olmalı (öneri)."
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0938-11-25",
   "b": "Jin On Altı Vilayet’in harita-belgelerini sundu; Youzhou \"Nanjing\" oldu",
   "tur": "antlasma",
@@ -2833,7 +2833,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: Xin Wudai 946 (Kaiyun 3 = Baoda 4), Jiangnan lu 945 (Baoda 3); Xin Wudai ikincisini \"yanlış\" der, yani 946. Künye t=0945-01-01. Seçim: künye (945) korundu; Fuzhou’nun fiilî Güney Tang’a geçişi Jianzhou’nun düşüşünden sonradır."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0955-01-01",
   "b": "Sonraki Zhou Cao Yuanzhong’a Guiyi Jun valiliği ve unvanlar verdi",
   "tur": "siyaset",
@@ -2854,7 +2854,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Xiande 2 = 955; ay/gün yok. Aynı kaynak Zhang hanedanının sonunu ve Cao Yijin’in başa geçişini «朱梁時» (907–923) diye yaylı verir (devir yılı belirsiz, atlas künyesi 914)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0971-02-28",
   "b": "Song Güney Han’ı yıktı; Liu Chang teslim oldu",
   "tur": "son",
@@ -2876,7 +2876,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Kaibao 4 (971) 2. ay: ay ilk günü seçildi (Çin ay-güneş takvimi → Jülyen (1582 öncesi Jülyen kalır): 971-02-28); kentin düşüş günü kaynakta yok. DEVLET_LISTESI künye t=0971-02-01 → 0971-02-28 (ay ilk günü, takvim çevrimi) olmalı.",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Kaibao 4 2. ay ilk günü = 971-02-28 (Gregoryen 971-03-06)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0977-01-01",
   "b": "Song, Ganzhou ve Shazhou Uygur kağanına elçi gönderdi",
   "tur": "siyaset",
@@ -2897,7 +2897,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Taiping Xingguo 2 = 977; ay/gün kaynakta yok (kış; bu yılın 12. ayı olabilir)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0980-01-01",
   "b": "Ganzhou ve Shazhou Uygur kağanı Yeluo Hemi Liye Song’a elçi gönderdi",
   "tur": "siyaset",
@@ -2918,7 +2918,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Taiping Xingguo 5 = 980; ay/gün yok."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0985-02-22",
   "b": "Li Jiqian Yinzhou’yu aldı: Dangxiang ayaklanması",
   "tur": "isyan",
@@ -2939,7 +2939,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Yongxi 2 2. ay ilk günü = 985-02-22 (Gregoryen 985-02-27)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "1001-01-01",
   "b": "Ganzhou Uygur kağanı Lusheng Song’a Li Jiqian’a karşı ittifak önerdi",
   "tur": "ittifak",
@@ -2961,7 +2961,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Xianping 4 = 1001; ay/gün yok. «小郡數百» abartılı olabilir (kağanın kendi beyanı)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "1023-06-21",
   "b": "Song Ganzhou Uygur kağanı Yeluoge Tongshun’a \"Guizhong Baoshun Kağan Wang\" unvanı verdi",
   "tur": "siyaset",
@@ -2982,7 +2982,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: Tiansheng 1 6. ay ilk günü = 1023-06-21 (Gregoryen 1023-06-27)."
  },
- {
+ { "odak_yer":["Pekin"], 
   "t": "1116-01-01",
   "b": "Gao Yongchang Liao’nun Doğu Başkenti Liaoyang’da ayaklandı",
   "tur": "isyan",
@@ -3043,7 +3043,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Astronomik yıl: MÖ 703 → -0702. Kuruluş tarihi bulunamadı."
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "0928-01-01",
   "b": "Zhao Shanzheng Dali'de Da Tianxing devletini ilan etti",
   "tur": "kurulus",
@@ -3063,7 +3063,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yıl: 滇載記/讀史方輿紀要/萬曆雲南通志üçü Tiancheng 3 (928) der; 萬曆雲南通志 ayrıca Tiancheng 1 (926)'da Zheng Long'un öldürülüp Zhao'nun dikildiğini söyler (devlet adı 3. yılda). Kaynaklar Ming-Qing derlemesidir."
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "0929-01-01",
   "b": "Yang Ganzhen Zhao Shanzheng'i devirdi; Da Tianxing sona erdi",
   "tur": "son",
@@ -3103,7 +3103,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Aynı olayı 讀史方輿紀要「明年稱大義寧」 da 929 verir."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0934-03-16",
   "b": "Meng Zhixiang Chengdu'da imparator ilan etti: Sonraki Shu",
   "tur": "kurulus",
@@ -3125,7 +3125,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Künye iskeleti 934-01-01 (yıl) diyor; Zizhi tongjian 278 günü 己巳 verir: 十二月癸卯朔 (933-12-20) + 閏正月 hizasıyla 934-03-16. 閏月 ay hizası kaynakta açık yazılmadığı için hesap: BEYAN — alternatif 己巳 934-01-15 (閏月 öncesi) bu ay aralığına düşmez.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 己巳 → Jülyen 0934-03-16 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0934-03-21; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Tonghai"], 
   "t": "0936-01-01",
   "b": "Tonghai valisi Duan Siping Yang Ganzhen'e karşı harekete geçti",
   "tur": "isyan",
@@ -3146,7 +3146,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "滇略「天福元年通海節度使段思平討楊干貞，干貞走死」; 南詔野史「後晉髙祖丙申天福元年，干貞索捕思平」. Yang'ın ölümü ile devletin sonu arasındaki süre kaynaklarda belirsizdir."
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0936-11-28",
   "b": "Shi Jingtang Kitan'a on altı vilayeti bıraktı",
   "tur": "antlasma",
@@ -3168,7 +3168,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "丁酉 = 936-11-28 JDN hesabı (Gregoryen 936-12-03). Youzhou/Yunzhou için atlas yerleşim kaydı olmadığı için tur toprak değil «antlasma».",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 丁酉 → Jülyen 0936-11-28 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0936-12-03; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "0937-01-01",
   "b": "Duan Siping Dali Krallığı'nı kurdu; Da Yining sona erdi",
   "tur": "son",
@@ -3189,7 +3189,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Dali künyesinin kuruluş maddesi (937-01-01) ile aynı olay; burada Da Yining'in sonu."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0937-01-11",
   "b": "Sonraki Tang'ın son imparatoru Luoyang'da kendini yaktı; Shi Jingtang yönetimi devraldı",
   "tur": "son",
@@ -3211,7 +3211,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Atlas künyesi sonraki-tang t=0936-01-01 ve CIN_RAPOR2 sonraki-tang t=937-01-11 hesaplar: düzeltme ÖNERİLİR (sonraki-tang-5hanedan künyesi bu kümenin değil).",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 辛巳 → Jülyen 0937-01-11 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0937-01-16; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Luoyang","Kaifeng"], 
   "t": "0938-11-01",
   "b": "Sonraki Jin başkenti Kaifeng'e taşıdı: Kaifeng «Doğu Başkent», Luoyang «Batı Başkent»",
   "tur": "siyaset",
@@ -3232,7 +3232,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "tur:\"siyaset\" mevcut dosyalarda kullanılıyor (şartname sözlüğünde yok).",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 庚辰 → Jülyen 0938-11-01 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0938-11-06; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0947-01-10",
   "b": "Kitanlar Sonraki Jin'i yıktı: Zhang Yanze Kaifeng'e girdi",
   "tur": "isgal",
@@ -3254,7 +3254,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "İKİ GÜN VAR (beyan): Xin Wudai 9 «壬申…契丹滅晉» = 947-01-10 (ay başı 丁巳朔 = 946-12-26 ile örtüşür); Zizhi tongjian 286 Liao imparatorunun şehre girişini 開運四年 正月丁亥朔 = 947-01-25 verir. Sahiplik değişim günü olarak Xin Wudai'nin «Jin'in yok oluşu» günü seçildi.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 壬申 → Jülyen 0947-01-10 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0947-01-15; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Taiyuan"], 
   "t": "0947-03-10",
   "b": "Liu Zhiyuan Taiyuan'da imparator ilan etti: Sonraki Han",
   "tur": "kurulus",
@@ -3275,7 +3275,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Künye iskeletindeki «0947-01-01 kurulus» günsüzdür; 辛未 = 947-03-10 (girdi f ile aynı).",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 辛未 → Jülyen 0947-03-10 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0947-03-15; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0947-07-05",
   "b": "Liu Zhiyuan ülke adını «Han» yaptı; Kaifeng yeniden «Doğu Başkent»",
   "tur": "siyaset",
@@ -3296,7 +3296,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Kaifeng'e giriş günü 甲子 = 947-07-01 sinir dosyasında.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 戊辰 → Jülyen 0947-07-05 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0947-07-10; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0951-02-13",
   "b": "Guo Wei Kaifeng'de imparator ilan etti: Sonraki Zhou",
   "tur": "kurulus",
@@ -3318,7 +3318,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Künye iskeleti «gün kaynakta kesin değil» diyor; 丁卯 = 951-02-13 JDN hesabıyla bulundu (girdi f ile aynı).",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 丁卯 → Jülyen 0951-02-13 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0951-02-18; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0959-04-08",
   "b": "Zhou Shizong Kitan'ın elindeki Hebei sınır geçitlerini aldı (Waqiao, Yijin, Ningzhou, Yingzhou)",
   "tur": "savas",
@@ -3340,7 +3340,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Günler: 壬辰 = 959-03-28, 辛丑 = 04-06, 癸卯 = 04-08, 五月乙巳朔 = 04-10 (ay hizası: 五月朔 乙巳). Atlas yerleşim kaydı olmadığı için tur toprak-kazanc değil «savas»; madde tarihi Waqiao günü.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 癸卯 → Jülyen 0959-04-08 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0959-04-13; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0960-02-03",
   "b": "Sonraki Zhou çocuk imparatoru tahttan çekildi; Song kuruldu",
   "tur": "son",
@@ -3362,7 +3362,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Künye t=960-02-04 (Song kuruluş günü); çocuk imparatorun tahttan çekilmesi 甲辰 = 960-02-03 (ertesi 乙巳). ±1 gün çelişkisi değil: iki ayrı olay.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 甲辰 → Jülyen 0960-02-03 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0960-02-08; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0965-02-06",
   "b": "Song ordusu Jiange Geçidi'ni aldı; Shu'nun savunması çöktü",
   "tur": "savas",
@@ -3384,7 +3384,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "癸酉朔 = 965-02-05 ve 乙酉 = 965-02-17 JDN hesabı.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 甲戌 → Jülyen 0965-02-06 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0965-02-11; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0965-02-17",
   "b": "Meng Chang Song'a teslim oldu; Sonraki Shu sona erdi",
   "tur": "son",
@@ -3406,7 +3406,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Künye t=0965-01-01 (yıl); gün kaynaklarla 乙酉 = 965-02-17.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 乙酉 → Jülyen 0965-02-17 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0965-02-22; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0970-01-01",
   "b": "Dingan kralı Lie Wanhua Çürçetler aracılığıyla Song'a bağlılık mektubu gönderdi",
   "tur": "ittifak",
@@ -3427,7 +3427,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Song shi 491 kuruluş yılı vermez; ms1 künyesindeki f=0938 bu sayfada doğrulanmadı — 970 ilk tarihli tanıktır."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0976-01-01",
   "b": "Song ordusu Jinling'i aldı; Güney Tang sona erdi",
   "tur": "son",
@@ -3449,7 +3449,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Künye t=0975-01-01 bir yıl erken: 開寶八年十一月乙未 = 976-01-01 (Jülyen). 十月己亥朔 = 975-11-06 ile ay hizası sınandı.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 乙未 → Jülyen 0976-01-01 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0976-01-06; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0978-06-09",
   "b": "Wuyue kralı Qian Chu Zhejiang vilayetlerini Song'a bıraktı",
   "tur": "birlesme",
@@ -3471,7 +3471,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Güney Song'un 1127'de Hangzhou'yu başkent yapması ayrı bir olay.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 乙酉 → Jülyen 0978-06-09 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0978-06-14; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0979-06-03",
   "b": "Liu Jiyuan Song'a teslim oldu; Kuzey Han sona erdi",
   "tur": "son",
@@ -3493,7 +3493,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Künye t=0979-01-01 yıl düzeyinde; gün 甲申 = 979-06-03.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 甲申 → Jülyen 0979-06-03 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0979-06-08; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Taiyuan"], 
   "t": "0979-06-15",
   "b": "Song, Taiyuan şehrini yaktı ve halkı Yuci'deki yeni Bingzhou'ya taşıdı",
   "tur": "isgal",
@@ -3515,7 +3515,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Surların yıkımı: Song shi 4, Taiping Xingguo 5. yıl (980): 「夏四月癸未，……壅汾河晉祠水灌太原，隳其故城。」 Taiyuan yerleşiminin ESKİ noktası yıkıldı; atlas noktası (37.870, 112.548) bugünkü Taiyuan'dır ve Song Yangqu/Pingjin kurulumuna (982) yakındır — sahiplik zinciri Song'a geçişle kesintisiz yazıldı.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 丙申 → Jülyen 0979-06-15 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0979-06-20; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0981-01-01",
   "b": "Dingan kralı Wu Xuanming Song'dan Kitan'a karşı destek istedi",
   "tur": "ittifak",
@@ -3536,7 +3536,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Metinde yıl «太平興國中…六年»; 太平興國 6 = 981."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "0989-01-01",
   "b": "Dingan prensi Çürçet elçisiyle Song'a at ve ok gönderdi",
   "tur": "ittifak",
@@ -3576,7 +3576,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Xia devleti 1038'de başlar (künye f). Xingqing'in 1023-1038 sahibi Li Deming'in «Xia Prensi» yönetimidir; künye f genişletme önerisi RAPOR'da."
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "1076-01-01",
   "b": "Dali, Song'a ilk haraç heyetini gönderdi",
   "tur": "ittifak",
@@ -3597,7 +3597,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Mevcut künye iskeleti 982 haraç ilişkisini anar; Song shi 488 en erken tarihli Song kaydı olarak 1076'yı verir — iki kayıt çelişmez, ikisi de yıl düzeyindedir."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "1099-10-06",
   "b": "Song ordusu Qingtang'ı aldı; Longza teslim oldu (kısa süreli işgal)",
   "tur": "isgal",
@@ -3619,7 +3619,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Mevcut künye iskeleti 1099 işgal, 1102 ilhak ve t=1104-01-01 verir; Song shi 18/19/492'ye göre kalıcı Song hâkimiyeti 1104'tedir (aşağıdaki iki madde).",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 己未 → Jülyen 1099-10-06 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 1099-10-12; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "1104-05-08",
   "b": "Song Qingtang'ı yeniden aldı; Tsongkha sona erdi",
   "tur": "son",
@@ -3641,7 +3641,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Künye iskeleti t=1104-01-01 yıl düzeyinde, 1102 ilhak maddesi Song shi ile örtüşmez (kaynakta 1102 yok; 崇寧元年 yalnız bir ölüm kaydı). Gün 乙卯 = 1104-05-08 (ay hizası: 五月甲申 = 1104-06-06 ile sınandı).",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 乙卯 → Jülyen 1104-05-08 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 1104-05-15; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Xining"], 
   "t": "1104-06-06",
   "b": "Shanzhou (Qingtang) «Xining» adını aldı",
   "tur": "siyaset",
@@ -3661,7 +3661,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 甲申 → Jülyen 1104-06-06 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 1104-06-13; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "1117-01-01",
   "b": "Song, Duan Heyu'yu «Dali Kralı ve Yunnan askeri valisi» olarak tanıdı",
   "tur": "antlasma",
@@ -3682,7 +3682,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Çin ay-güneş takvimi: 2. ayın Jülyen karşılığı ay başı bilinmediği için YYYY-01-01 + beyan (yıl hassasiyeti)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "1127-04-20",
   "b": "Jin, Zhang Bangchang'ı Kaifeng'de «Da Chu» imparatoru ilan etti",
   "tur": "kurulus",
@@ -3704,7 +3704,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "MS1 künyesindeki f=1127-03-01 «ay» düzeyinde ve lunar 3. ayı Jülyen mart sanıyor; ganzhi→Jülyen hesabında 3. ay başı (辛卯朔) 1127-04-14, 丁酉 = 1127-04-20. Ay hizası, Gaozong'un 庚寅 = 1127-06-12 günüyle sınandı.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 丁酉 → Jülyen 1127-04-20 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 1127-04-27; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "1127-05-16",
   "b": "Zhang Bangchang, Yuanyou İmparatoriçesi'ni Song İmparatoriçe Anası ilan ederek Chu imparatorluğunu bıraktı",
   "tur": "son",
@@ -3726,7 +3726,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Song shi 475 Li Gang metni «異姓建邦四十餘日» der (ay-hesabı); gün hesabıyla 04-20→05-16 = 26 gün — iki ifade çelişir; seçilen son günü Gaozong ben ji'deki 癸亥 (邦昌尊元祐皇后為宋太后) tarihine dayanır, 06-12 (Gaozong tahta çıkışı) bitiş olarak ALINMADI.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 癸亥 → Jülyen 1127-05-16 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 1127-05-23; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kang"], 
   "t": "1127-06-12",
   "b": "Kang Wang Zhao Gou Nanjing'de (Yingtianfu) tahta çıktı: Güney Song",
   "tur": "hukumdar",
@@ -3747,7 +3747,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Yer alanı, madde Kaifeng'deki kriz sürecinin parçası olduğu için Kaifeng; olay yeri Yingtianfu (Song Nanjing, bugünkü Shangqiu).",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 庚寅 → Jülyen 1127-06-12 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 1127-06-19; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Pekin"], 
   "t": "1130-09-01",
   "b": "Jin, Liu Yu'yu «Da Qi» imparatoru olarak atadı; başkent Daming",
   "tur": "kurulus",
@@ -3769,7 +3769,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Ay hizası Song shi 26'daki ay başlarından kuruldu (建炎四年 正月甲辰朔=1130-02-10; 六月辛未朔, 八月辛未朔 ⇒ 七月朔 辛丑 = 1130-08-06; 丁卯 = 7. ayın 27. günü). MS1 künyesi yalnız f=1130-01-01 verir.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 丁卯 → Jülyen 1130-09-01 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 1130-09-08; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "1130-10-12",
   "b": "Liu Yu Daming'de Qi tahtına oturdu",
   "tur": "hukumdar",
@@ -3790,7 +3790,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "九月朔=辛丑 (1130-10-05) varsayımı 8. ayın 辛未朔 + 30 gün; 戊申 = 9. ayın 8. günü = 1130-10-12.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 戊申 → Jülyen 1130-10-12 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 1130-10-19; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "1132-04-22",
   "b": "Liu Yu başkenti Daming'den Kaifeng'e taşıdı",
   "tur": "baskent",
@@ -3811,7 +3811,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "tur:\"baskent\" mevcut kronoloji dosyalarında kullanılıyor (şartname sözlüğünde yok) — yeni tür önerisi olarak raporlandı.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 丙寅 → Jülyen 1132-04-22 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 1132-04-29; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Pekin"], 
   "t": "1138-01-02",
   "b": "Jin, Qi devletini kaldırdı; Liu Yu «Shu Prensi» oldu",
   "tur": "son",
@@ -3833,7 +3833,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Song shi 28 (本紀) 丁未 = 1138-01-02; Song shi 475 (傳) 丙午 = 1138-01-01 — bir gün çelişki, 本紀 tercih edildi. Jin shi 77 yılı «天會十五年» (1137) verir; ay-güneş 11. ayı Jülyen 1138 başına denk gelir. MS1 künyesi t=1137-01-01 yıl düzeyinde ve bu nedenle bir yıl erken kalıyor. 11. ay hizası: 十月朔 庚寅 = 1137-10-17 (Song shi 28), 閏10 ay arası.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 丁未 → Jülyen 1138-01-02 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 1138-01-09; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Karakurum"], 
   "t": "1233-01-01",
   "b": "Moğollar Güyük ve Alçıday komutasında Doğu Xia'ya sefer açtı",
   "tur": "savas",
@@ -3875,7 +3875,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yuan shi 202'de Phagpa 15 yaşında («年十有五»); mekân «潛邸» (Kubilay'ın gizli konağı) genel olarak verilir, kaynakta il adı yok."
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "1254-01-02",
   "b": "Moğollar Dali şehrini aldı; Duan hanedanı Moğol hâkimiyetine girdi",
   "tur": "son",
@@ -3897,7 +3897,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Yuan shi 4'teki ay başları Song takvimiyle (寶祐元年 十月丙午朔, 十一月丙子朔) sınandı: 九月壬寅 = 十月朔−4, 十二月丙辰 = 十二月朔 (乙巳)+11 → 1254-01-02. Mevcut künye t=1253-01-01 (yıl) 1254-01-02'ye düzeltilmeli. Yuan shi'nin Mogol takvimi ile Song takvimi arasında ±1 gün fark olabilir.",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 丙辰 → Jülyen 1254-01-02 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 1254-01-09; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { "odak_yer":["Pekin"], 
   "t": "1260-01-01",
   "b": "Kubilay Phagpa'ya «Devlet Hocası» unvanı ve mühür verdi",
   "tur": "hukumdar",
@@ -3939,7 +3939,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Mevcut 0527-01-01 «Iwai isyanı» maddesi (yıl hassasiyeti) isyanın başlangıcıdır; bu madde sonuç gününü ekler. Nihon Shoki Yamato sarayının sonradan derlenmiş (720) resmî kroniğidir; Iwai olayının Nihon Shoki dışında çağdaş yazılı kaynağı yoktur.",
   "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (甲子) ile ay başı (ortalama yeniay hesabı: 528-11-27, ±1) kesiştirilerek Jülyen 528-12-07 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
  },
- {
+ { "odak_yer":["Hakata"], 
   "t": "0536-06-05",
   "b": "Senka: Chikushi'de Nanotsu (Hakata) limanına devlet ambarı yapılması emri",
   "tur": "siyaset",
@@ -4044,7 +4044,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Fermanın metni Nihon Shoki'de sonradan düzenlenmiş olabilir (Taihō-sonrası idari terimler); gün işareti kaynaktadır.",
   "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (甲子 (ay başı)) ile ay başı (ortalama yeniay hesabı: 646-01-22, ±1) kesiştirilerek Jülyen 646-01-22 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
  },
- {
+ { "odak_yer":["Nara"], 
   "t": "0710-04-13",
   "b": "İmparatoriçe Genmei sarayı Heijō-kyō'ya (Nara) taşıdı",
   "tur": "baskent",
@@ -4126,7 +4126,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (壬子 = 9. ay 18. gün) ile ay başı (ortalama yeniay hesabı: 764-09-30, ±1) kesiştirilerek Jülyen 764-10-17 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
  },
- {
+ { "odak_yer":["Nara"], 
   "t": "0784-12-27",
   "b": "Kammu sarayı Nara'dan Nagaoka-kyō'ya taşıdı",
   "tur": "baskent",
@@ -4147,7 +4147,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "KOJA_RAPOR2 madde 4: Nagaoka (784-794) ayrı polity/dönem mi sorusu Emre kararıdır; bu madde yalnız taşınma gününü verir. Nagaoka-kyō atlasta yerleşim kaydı olmadığından sinir maddesi yazılmadı.",
   "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (戊申 = 戊戌朔 + 10) ile ay başı (ortalama yeniay hesabı: 784-12-17, ±1) kesiştirilerek Jülyen 784-12-27 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
  },
- {
+ { "odak_yer":["Kyoto"], 
   "t": "0794-11-18",
   "b": "Kammu sarayı Heian-kyō'ya (Kyoto) taşıdı; Heian dönemi başladı",
   "tur": "baskent",
@@ -4168,7 +4168,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Mevcut 0794-01-01 maddesinin gün düzeltmesi. Aynı kaynakta 794-12-04 (11. ay 丁丑) «Heian-kyō» adı verildi.",
   "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (辛酉 (10. ay içi; ≈ 21-22. gün)) ile ay başı (ortalama yeniay hesabı: 794-10-29, ±1) kesiştirilerek Jülyen 794-11-18 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
  },
- {
+ { "odak_yer":["Kyoto"], 
   "t": "0794-12-04",
   "b": "Yamashiro eyaletinin adı değişti, yeni başkent «Heian-kyō» adını aldı",
   "tur": "siyaset",
@@ -4188,7 +4188,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (丁丑 (11. ay içi; 11. ay 辛未 = 794-11-28)) ile ay başı (ortalama yeniay hesabı: 794-11-27, ±1) kesiştirilerek Jülyen 794-12-04 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
  },
- {
+ { "odak_yer":["Kyoto"], 
   "t": "0866-04-28",
   "b": "Ōtenmon Olayı: Heian sarayının Ōtenmon kapısı yandı",
   "tur": "siyaset",
@@ -4209,7 +4209,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Mevcut kayıtlarda bu olay yoktur (858-872 Fujiwara maddesi yıl hassasiyetli). Suçluluk soruşturması Sandai jitsuroku j.13'te (8. ay) kayıtlıdır.",
   "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (乙卯 = 閏3. ay 10. gün (丙午朔=866-04-19)) ile ay başı (ortalama yeniay hesabı: 866-04-19, ±1) kesiştirilerek Jülyen 866-04-28 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
  },
- {
+ { "odak_yer":["Kyoto"], 
   "t": "0866-10-01",
   "b": "Fujiwara no Yoshifusa fiilen naipliğe (sesshō) getirildi",
   "tur": "hukumdar",
@@ -4230,7 +4230,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Mevcut 0858-01-01 maddesi Yoshifusa hâkimiyetini yıl hassasiyetiyle verir; bu madde naipliğin resmî atanma gününü ekler. «Sesshō» terimi kaynakta geçmez; ifade 攝行天下之政'dir.",
   "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (辛卯 = 癸酉朔 + 18) ile ay başı (ortalama yeniay hesabı: 866-09-13, ±1) kesiştirilerek Jülyen 866-10-01 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
  },
- {
+ { "odak_yer":["Kamakura"], 
   "t": "1180-11-04",
   "b": "Minamoto no Yoritomo Kamakura'ya girdi",
   "tur": "isyan",
@@ -4251,7 +4251,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "KOJA_RAPOR2 madde 3: Kamakura (şogunluk) f için 1180-11-04 «fiilî», 1185-12-22 «kurumsal» başlangıç öneridir; Emre kararı bekler. Yerleşim zinciri bu madde için de Heian ile açılır (BEYAN: Yoritomo'nun Kantō yönetimi hukuken saray yetkisine dayanıyordu; kamakura künyesi 1185'ten önce yoktur).",
   "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (甲午 = 10. ay 15. gün (ay başı 1180-10-21)) ile ay başı (ortalama yeniay hesabı: 1180-10-21, ±1) kesiştirilerek Jülyen 1180-11-04 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
  },
- {
+ { "odak_yer":["Kamakura"], 
   "t": "1185-12-22",
   "b": "Yoritomo'ya ülke çapında shugo ve jitō atama yetkisi tanındı",
   "tur": "siyaset",
@@ -4273,7 +4273,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "KOJA_REF.json: heian-japonya t = kamakura f = 1185-12-22 önerisinin kaynak maddesi. Saray bu günden sonra da 1868'e kadar sürer (RAPOR2 madde 2): atlasta Kyoto/Nara/Osaka/Hakata'nın 1185-12-22'den sonraki sahibi «kamakura» yazılması BEYANLI YAKLAŞIKLIKTIR.",
   "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (戊申 = 11. ay 29. gün (ay başı 1185-11-24)) ile ay başı (ortalama yeniay hesabı: 1185-11-24, ±1) kesiştirilerek Jülyen 1185-12-22 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
  },
- {
+ { "odak_yer":["Kyoto"], 
   "t": "0940-01-01",
   "b": "Masakado Shimotsuke ve Kōzuke valiliklerini ele geçirdi, kendi valilerini atadı",
   "tur": "siyaset",
@@ -4295,7 +4295,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Tengyō 2/12 Jülyen Ocak 940'a düşer (12. ay başı ≈ 940-01-12; 11. gün ≈ 01-22, 15. gün ≈ 01-26, ±1). Gün işareti verilmediğinden ay hassasiyeti: 0940-01-01. Fusō ryakki ham Shōmonki alıntısıdır; Shōmonki'nin kendi metni açılmadı. Aynı satırların başındaki «十二月廿一日» Hitachi çatışması satırı 11. ay yerine yanlış yazılmış görünür; kullanılmadı.",
   "ic_not_takvim": "Mevcut ay-güneş ay numaraları, ayrıntı ay başı ortalama yeniay hesabıyla (940-01-12, 02-11, 03-12) sınandı; 2. ay 8. gün 甲辰 = 940-03-19 çapasıyla tutarlı (aynı kaynak)."
  },
- {
+ { "odak_yer":["Kyoto"], 
   "t": "0940-03-19",
   "b": "Sarayın Fujiwara no Tadafumi'yi doğu seferi başkomutanı atayıp kılıç verdi",
   "tur": "siyaset",
@@ -4316,7 +4316,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Kaynaktaki sexagenary gün işareti (甲辰 = 2. ay 8. gün (2. ay başı 940-03-12; 3/9 乙亥 ile tutarlı)) ile ay başı (ortalama yeniay hesabı: 940-03-12, ±1) kesiştirilerek Jülyen 940-03-19 bulundu (gün indeksi=(JDN+49)%60, 2000-01-01=戊午 ile sınandı; aynı ayın başka günleriyle iç tutarlılık denetlendi)."
  },
- {
+ { "odak_yer":["Kyoto"], 
   "t": "0940-03-25",
   "b": "Masakado Taira no Sadamori ve Fujiwara no Hidesato tarafından öldürüldü",
   "tur": "son",
@@ -4485,7 +4485,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok: yıl. 'Paegang' kimliği tartışmalıdır (Taedong/Yesong); kaynak 浿江以南 der, nehir adı verilmez."
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "0936-01-08",
   "b": "Silla Kralı Gyeongsun Goryeo'ya teslim oldu; Silla sona erdi",
   "tur": "son",
@@ -4551,7 +4551,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "BEYANLI YAKLAŞIKLIK: Jangan-seong'un Pyongyang'la özdeşliği bu kaynakta açık değil (Pyongyang 427'de başkent: Jangsu 15 «移都平壤»); Pyongyang bölgesi içinde yeni şehir kabul edildi. Gün yok: yıl."
  },
- {
+ { "odak_yer":["Pyongyang"], 
   "t": "0668-10-22",
   "b": "Pyongyang düştü, Kral Bojang esir edildi; Goguryeo sona erdi",
   "tur": "son",
@@ -4731,7 +4731,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Künye t = 0683-10-01 (ay, ms1). Bu kayıt 684'ü gösterir: künye t'si yaklaşık bir yıl erken olabilir (RAPOR). Gün yok: yıl."
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0926-04-04",
   "b": "Balhae'nin yerine Dongdan Krallığı kuruldu; Hulhan-seong Tianfu oldu",
   "tur": "kurulus",
@@ -4755,7 +4755,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Liao shi 2 Tianxian 1 (926): 1. ay 辛未 (926-02-28) Dae Inseon teslim oldu; 2. ay 丙午 (926-04-04) ülke Dongdan, Hulhan-seong Tianfu oldu. Künye t = 0926-04-03 / Dongdan f = 0926-04-04 (KOJA_RAPOR2). KOJA_RAPOR2 ve KOJA_REF 'teslim günü mü, ad değişikliği mi' kararını Emre'ye bırakır.",
   "ic_not_takvim": "Jülyen: 天顯元年 2. ay 丙午 = 926-04-04 (925-12'den sonra artık ay: Liao shi 2 «閏月壬辰»; 1. ay başı ≈ 926-02-15); Jülyen; sexagenary gün işareti + ortalama yeniay hesabı (±1 gün), KOJA_RAPOR2.md ile aynı sonuç"
  },
- {
+ { "odak_yer":["Datong"], 
   "t": "0930-01-01",
   "b": "Dongdan'ın hükümdarı Yelü Bei Tang'a (Sonraki Tang) kaçtı",
   "tur": "siyaset",
@@ -4777,7 +4777,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün çevrilmedi (artık ay belirsiz): yıl hassasiyeti."
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "1030-01-12",
   "b": "Heungyo Goryeo'dan yardım istedi; Goryeo reddetti, Liao ile yolu kesti",
   "tur": "siyaset",
@@ -4800,7 +4800,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Goryeosa Hyeonjong 20 yılı 12. ay; gün çevirisi artık ay varsayımına bağlı (aşağıya bak).",
   "ic_not_takvim": "Jülyen: 顯宗二十年 12. ay 庚寅 = 1030-01-12 (1029'da 8. aydan önce artık ay varsayımıyla; Liao shi 8. ay 己丑 = 1029-09-13 ve Goryeosa 9. ay 戊午 = 1029-10-12 ile tutarlı); Jülyen; sexagenary gün işareti + ortalama yeniay hesabı (±1 gün), KOJA_RAPOR2.md ile aynı sonuç"
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "1029-10-12",
   "b": "Heungyo elçisi Goryeo'ya yeni devletin kurulduğunu bildirip yardım istedi",
   "tur": "siyaset",
@@ -4844,7 +4844,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok: yıl. Cheorwon yerleşimi koordinat tanığı yetersizliğinden yazılamadı (RAPOR)."
  },
- {
+ { "odak_yer":["Pyongyang"], 
   "t": "0905-01-01",
   "b": "Pyongyang kale komutanı Geom Yong Gung Ye'ye teslim oldu; Paeseo on üç kalesi kuruldu",
   "tur": "siyaset",
@@ -4865,7 +4865,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok: yıl. Pyongyang'ın kırpılan dönemiyle (676-918) çelişmez: kale komutanı var, şehir kaynakta 'otlarla kaplı' (901)."
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "0918-07-24",
   "b": "Wang Geon'un generalleri Gung Ye'yi devirdi; Taebong sona erdi",
   "tur": "son",
@@ -4888,7 +4888,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Goryeosa j.1: 6. ay 乙卯 gecesi (918-07-24) Gung Ye kaçtı, 丙辰 (918-07-25) Wang Geon tahta çıktı.",
   "ic_not_takvim": "Jülyen: 乙卯 = 918-07-24 (丙辰 = 918-07-25); Jülyen; sexagenary gün işareti + ortalama yeniay hesabı (±1 gün), KOJA_RAPOR2.md ile aynı sonuç"
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "0919-01-01",
   "b": "Wang Geon başkenti Songak'a (Kaesong) kurdu",
   "tur": "baskent",
@@ -4909,7 +4909,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok: yıl."
  },
- {
+ { "odak_yer":["Pyongyang"], 
   "t": "0919-01-01",
   "b": "Wang Geon Pyongyang'ı yeniden iskân etti ve surlarını yaptırdı",
   "tur": "siyaset",
@@ -4930,7 +4930,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok: yıl."
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "0936-09-26",
   "b": "Iljecheon Savaşı: Goryeo Sonraki Baekje'yi yendi, Kore'yi birleştirdi",
   "tur": "birlesme",
@@ -5149,7 +5149,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ (tarih): Zizhi tongjian j.201 olayı «九月，戊午» altında verir; Nihon Shoki 8. ay 27-28 (戊申) verir (mevcut 0663-10-04 maddesi, yamato). Ay-güneş takvim farkı (Tang/Silla ve Yamato takvimleri) nedeniyle gün seçilmedi: yıl hassasiyeti. Künye t 0663-01-01 ile çelişir: olay 663 yılının sonbaharındadır, yani künye t'si yıl başı olamaz (RAPOR)."
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "1135-01-22",
   "b": "Goryeo, Kim Bu-sik'i başkomutan atayıp Seogyeong isyanının üzerine gönderdi",
   "tur": "savas",
@@ -5171,7 +5171,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 辛亥 -> Jülyen 1135-01-22 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1135-01-29"
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "1135-02-05",
   "b": "Seogyeong halkı Myocheong ve Yu Cham'ı öldürüp teslim olmak istedi",
   "tur": "isyan",
@@ -5194,7 +5194,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Cümle 乙丑 (1135-02-05) ve 辛未 (1135-02-11) girişleri arasında yer alır ve kendi günü yoktur; tarih ilk sınır olan 02-05'e konmuştur (kesinlik ay). Bu olaydan sonra 辛未'de Jo Gwang'ın yeniden isyanı yazılıdır: Daewi/Seogyeong isyan rejimi kesintisiz sürmüş sayılmıştır.",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 乙丑 -> Jülyen 1135-02-05 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1135-02-12"
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "1135-02-11",
   "b": "Jo Gwang Seogyeong'de yeniden isyan etti",
   "tur": "isyan",
@@ -5216,7 +5216,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 辛未 -> Jülyen 1135-02-11 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1135-02-18"
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "1136-05-05",
   "b": "Kim Bu-sik Seogyeong'i aldıktan sonra Kaesong'a zaferle döndü",
   "tur": "savas",
@@ -5237,7 +5237,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 庚子 -> Jülyen 1136-05-05 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1136-05-12"
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "1136-06-13",
   "b": "Goryeo Seogyeong'in yatıştırılması üzerine genel af ilan etti",
   "tur": "siyaset",
@@ -5303,7 +5303,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Taraf kimliği «kamakura»: Azuma Kagami'de Minamoto cephesi Yoritomo adına savaşır; Kamakura künye f (1185-12-22) kurumsal tarihtir, fiilî iktidar 1180'den (KOJA_REF.json).",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 丙寅 -> Jülyen 1184-03-20 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1184-03-27"
  },
- {
+ { "odak_yer":["Hiraizumi"], 
   "t": "1180-11-10",
   "b": "Minamoto no Yoshitsune Hidehira'nın himayesinden ayrılıp Yoritomo'ya katıldı",
   "tur": "siyaset",
@@ -5326,7 +5326,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Giriş gün işareti bu okumada ayrıca doğrulanmadı: aynı kitapta 10. ay (küçük) 15. gün = 甲午 (= 1180-11-04), 21. gün = +6 gün = 庚子 = 1180-11-10 (Jülyen). Yoshitsune'nin Yoritomo ile buluşma günü olarak 10/21 giriş metninden okundu (kayıt aynı gün Mishima bağış belgesini içerir); tek kaynak, çift teyit yok.",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 庚子 -> Jülyen 1180-11-10 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1180-11-17"
  },
- {
+ { "odak_yer":["Hiraizumi"], 
   "t": "1181-09-23",
   "b": "Taira sarayı Fujiwara no Hidehira'ya Yoritomo'yu yok etme görevi verdi",
   "tur": "siyaset",
@@ -5348,7 +5348,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 丁巳 -> Jülyen 1181-09-23 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1181-09-30"
  },
- {
+ { "odak_yer":["Hiraizumi"], 
   "t": "1181-09-25",
   "b": "Hidehira Mutsu-no-kami (Mutsu valisi) ünvanını aldı",
   "tur": "siyaset",
@@ -5392,7 +5392,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "KOJA_REF.json: Kamakura'nın fiilî başlangıcı 1180-11-04, kurumsal başlangıcı 1185-12-22. Künye f=1185-12-22; bu madde fiilî erken tarihi kaydeder.",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 甲午 -> Jülyen 1180-11-04 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1180-11-11"
  },
- {
+ { "odak_yer":["Kamakura"], 
   "t": "1185-12-05",
   "b": "Ōe no Hirotomo Yoritomo'ya her eyalete shugo ve jitō atamayı önerdi",
   "tur": "siyaset",
@@ -5413,7 +5413,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 辛卯 -> Jülyen 1185-12-05 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1185-12-12"
  },
- {
+ { "odak_yer":["Kyoto"], 
   "t": "1185-12-21",
   "b": "Hōjō Tokimasa Kyoto'da ülke çapında shugo-jitō atanması için dilekçe verdi",
   "tur": "siyaset",
@@ -5435,7 +5435,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 丁未 -> Jülyen 1185-12-21 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1185-12-28"
  },
- {
+ { "odak_yer":["Kamakura"], 
   "t": "1185-12-22",
   "b": "Saray, Kamakura'nın ülke çapında shugo ve jitō atama talebini kabul etti",
   "tur": "siyaset",
@@ -5501,7 +5501,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: Goryeosa j.57 aynı olayı «新羅文武王元年» (661) verir: «百濟旣滅，新羅文武王元年，耽羅國主佐平徒冬音律，來降.» Samguk sagi j.6 ise olayı Munmu-wang 2. yıl bölümünde (662) anlatır. İki kaynak da yıl düzeyindedir; Silla'nın kendi kroniği olan Samguk sagi tercih edildi (662). TDV bu oturumda bakılmadı (Kore tarihi dışı ilk başvuru kaynağı)."
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "0938-01-01",
   "b": "Tamna veliahdı Malno Goryeo sarayına geldi; Goryeo ona «Seongju» ve «Wangja» unvanlarını verdi",
   "tur": "siyaset",
@@ -5523,7 +5523,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "12. ay Jülyen'de 938 sonu/939 başına düşebilir; ay-gün çevrilemedi, yıl düzeyinde (938-01-01, kesinlik yil)."
  },
- {
+ { "odak_yer":["Jindo"], 
   "t": "1270-09-05",
   "b": "Samseongbyeolcho isyancıları Jindo'ya yerleşip bölgeyi yağmalamaya başladı",
   "tur": "isgal",
@@ -5545,7 +5545,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 丙戌 -> Jülyen 1270-09-05 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1270-09-12"
  },
- {
+ { "odak_yer":["Jindo"], 
   "t": "1271-06-23",
   "b": "Kim Bang-gyeong ve Moğol orduları Jindo'yu aldı; sahte kral Seunghwa-hu On öldürüldü",
   "tur": "savas",
@@ -5567,7 +5567,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 丁丑 -> Jülyen 1271-06-23 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1271-06-30"
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "1270-11-17",
   "b": "Samseongbyeolcho Jeju'yu (Tamna) ele geçirdi",
   "tur": "isgal",
@@ -5590,7 +5590,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Giriş «十一月己亥»: 己亥 günü ay içinde 11. ayın ilk günlerine düşer (ay başı yaklaşık 1270-11-14); ganzhi ile 1270-11-17. Kaynak «賊» der, Kim Tong-jeong adını Jiri-ji verir; iki kayıt birleştirilmiştir (1270 yılı Jiri-ji'de «元宗十一年»).",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 己亥 -> Jülyen 1270-11-17 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1270-11-24"
  },
- {
+ { "odak_yer":["Kaesong"], 
   "t": "1273-05-16",
   "b": "Kim Bang-gyeong, Hindu ve Hong Da-gu Jeju'da Samseongbyeolcho'yu bozguna uğrattı",
   "tur": "savas",
@@ -5612,7 +5612,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 庚戌 -> Jülyen 1273-05-16 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1273-05-23"
  },
- {
+ { "odak_yer":["Pekin"], 
   "t": "1273-07-21",
   "b": "Yuan, Jeju'ya darugachi (Mongol valisi) atadı",
   "tur": "siyaset",
@@ -5635,7 +5635,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "«元置達魯花赤于耽羅» cümlesi 閏月丙辰 ve 己未 girişleri arasındaki kayıtta günsüz geçer; tarih ilk sınır olan 丙辰 (1273-07-21) günüdür, gerçek gün 己未 (3 gün sonrası) ile arasında olabilir (kesinlik ay). Jiri-ji'ye göre Chungnyeol 20'de (1294) Tamna Goryeo'ya iade edilmiştir; mevcut atlas zinciri (yuan 1281-1356) bununla çelişir: ÖNERİ bkz. RAPOR.md.",
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 丙辰 -> Jülyen 1273-07-21 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1273-07-28"
  },
- {
+ { "odak_yer":["Urasoe Gusuku"], 
   "t": "1238-01-01",
   "b": "Shunbajunki Ryukyu tahtına çıktı",
   "tur": "hukumdar",
@@ -5656,7 +5656,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Tek kaynak 1650'de yazılmış resmî Ryukyu kroniğidir; çağdaş doğrulama yok. Chūzan Seikan hükümdar sürelerini ve yılları sonradan hesaplamıştır."
  },
- {
+ { "odak_yer":["Urasoe Gusuku"], 
   "t": "1249-01-01",
   "b": "Gihon (Giben) Ryukyu tahtına çıktı",
   "tur": "hukumdar",
@@ -5677,7 +5677,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Tek kaynak Chūzan Seikan (1650)."
  },
- {
+ { "odak_yer":["Urasoe Gusuku"], 
   "t": "1260-01-01",
   "b": "Eiso Ryukyu tahtına çıktı (Chūzan hanedanı)",
   "tur": "hukumdar",
@@ -5698,7 +5698,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Tek kaynak Chūzan Seikan (1650); Eiso'nun tarihselliği akademik literatürde (Smits 1999; Kerr 1958) kabul görür ancak bu oturumda açılmadı."
  },
- {
+ { "odak_yer":["Urasoe Gusuku"], 
   "t": "1300-01-01",
   "b": "Taisei Ryukyu tahtına çıktı",
   "tur": "hukumdar",
@@ -5719,7 +5719,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Kroniğin yılları Çin yıl adlarıyla verilir; Jülyen yıla karşılık yıl düzeyinde. Tek kaynak."
  },
- {
+ { "odak_yer":["Urasoe Gusuku"], 
   "t": "1309-01-01",
   "b": "Eiji Ryukyu tahtına çıktı",
   "tur": "hukumdar",
@@ -5760,7 +5760,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "'around 400'",
   "kesinlik": "onyil"
  },
- {
+ { "odak_yer":["Songkhla"], 
   "t": "0450-01-01",
   "b": "Buddhagupta yazıtı: Kızıl Toprak (Raktamrittika) gemi kaptanı (5. yy ortası)",
   "tur": "kurulus",
@@ -5820,7 +5820,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Pencere öncesi (484); Funan künyesinin yaşadığı son yarım yüzyılı çerçevelemek için yazıldı."
  },
- {
+ { "odak_yer":["Indrapura"], 
   "t": "0492-01-01",
   "b": "Chu Nong Champa'da gaspçı Fan Tang-ken-ch'un'u devirdi (492)",
   "tur": "hukumdar",
@@ -5989,7 +5989,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Annotation'lar çıkarılarak alıntılandı."
  },
- {
+ { "odak_yer":["Indrapura"], 
   "t": "0543-01-01",
   "b": "Champa'nın Lý Bí ordusuna karşı kuzey akını Jiude'de yenildi (543)",
   "tur": "savas",
@@ -6075,7 +6075,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Mongkolborei Battambang ilindedir; Bhavapura (Bhavavarman'ın başkenti) Kompong Thom'un 30 km KB'sında Ampil Rolum yöresi (Coedès)."
  },
- {
+ { "odak_yer":["Nakhon Pathom"], 
   "t": "0600-01-01",
   "b": "Phra Pathom'da (Nakhon Pathom) arkaik Mon dilli en eski yazıt (≈600)",
   "tur": "kurulus",
@@ -6096,7 +6096,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "'c. 600' → 0600-01-01 (kesinlik onyil)."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0605-01-01",
   "b": "Sui generali Liu Fang Linyi başkentini aldı; Kral Fan Zhi denize kaçtı (605)",
   "tur": "isgal",
@@ -6117,7 +6117,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Ay biliniyor, gün yok. Geçici işgaldir (çekilme); sahiplik değişimi sayılmadı."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0607-01-01",
   "b": "Chitu (Kızıl Toprak) ile ilk Çin teması (607)",
   "tur": "siyaset",
@@ -6138,7 +6138,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "607 = Çin kaynaklarında ilk anış; Chitu'nun kendisi en az bir buçuk yüzyıl daha eskidir (bkz. 0450 maddesi)."
  },
- {
+ { "odak_yer":["Luoyang"], 
   "t": "0616-01-01",
   "b": "Isanavarman'ın Çin'e ilk elçiliği (616-17)",
   "tur": "siyaset",
@@ -6199,7 +6199,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "635 (yıl); gün yok",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Takeo"], 
   "t": "0639-01-01",
   "b": "Bhavavarman II'nin Takeo yazıtı (639)",
   "tur": "hukumdar",
@@ -6219,7 +6219,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "639 (yıl); gün yok",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Indrapura"], 
   "t": "0645-01-01",
   "b": "Prabhasadharma bir bakanı tarafından öldürüldü (645)",
   "tur": "hukumdar",
@@ -6340,7 +6340,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hall: dates provisional; U Aung Thaw'un Saka çağı (MS 78) okuması farklı yıllar verir — çift tarih çelişkisi."
  },
- {
+ { "odak_yer":["Palembang"], 
   "t": "0689-01-01",
   "b": "Malayu Srivijaya tarafından yutuldu (689-692 aralığı)",
   "tur": "birlesme",
@@ -6382,7 +6382,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Kesin yıl yok; 'shortly after 706' → 706 alt sınır (kesinlik yil)."
  },
- {
+ { "odak_yer":["Angkor"], 
   "t": "0713-01-01",
   "b": "Kraliçe Jayadevi'nin Angkor yazıtı (713)",
   "tur": "hukumdar",
@@ -6442,7 +6442,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "717 ve 722 (yıl); gün yok",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Mataram"], 
   "t": "0732-01-01",
   "b": "Sanjaya'nın Changal yazıtı (732): Orta Cava'da Kunjarakunja ülkesinde linga dikildi",
   "tur": "hukumdar",
@@ -6463,7 +6463,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Ho-ling/Walaing ile Sanjaya hattının ilişkisi Coedès'te belirtilmiyor; bu madde Ho-ling'in Orta Cava'daki çağdaş siyasî ortamını gösterir."
  },
- {
+ { "odak_yer":["Mataram"], 
   "t": "0742-01-01",
   "b": "Ho-ling başkenti She-p'o'dan P'o-lu-chia-ssu'ya taşındı (742-755 arası)",
   "tur": "siyaset",
@@ -6483,7 +6483,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "742-755 aralığı; ilk yıl alındı",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "0753-01-01",
   "b": "Kara Chenla Çin'e elçi gönderdi (753); 754'te Çin ordusuyla Doğu Nanzhao'ya karşı",
   "tur": "ittifak",
@@ -6504,7 +6504,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "753-754 (yıl); gün yok",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "0757-01-01",
   "b": "Nanzhao kralı Ko-lo-feng Yukarı Irrawaddy vadisini fethetti (757-763)",
   "tur": "isgal",
@@ -6526,7 +6526,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hall: Kolofeng (748-79) üst Irrawaddy'yi denetlemek için kale yaptırdı, Pyu'yu 'may have subdued'."
  },
- {
+ { "odak_yer":["Indrapura"], 
   "t": "0758-01-01",
   "b": "Çinliler Lin-yi adını bırakıp Huan-wang diyor; Champa'nın ağırlık merkezi güneye (Panduranga/Kauthara) kayıyor",
   "tur": "siyaset",
@@ -6546,7 +6546,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "758 (yıl); gün yok",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Mataram"], 
   "t": "0774-01-01",
   "b": "Yabancı gemiciler Nha-trang'daki Po Nagar tapınağını yaktı (774); Cham kralı Satyavarman denizde yendi",
   "tur": "savas",
@@ -6588,7 +6588,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "791 (yıl); gün yok",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "0801-01-01",
   "b": "Pyu kralı Tang sarayına resmî elçilik gönderdi (801-2); Nanzhao 800'de Pyu müzisyenleri hediye etti",
   "tur": "siyaset",
@@ -6609,7 +6609,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "800 ve 801-2 (yıl); gün yok",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "t": "0802-01-01",
   "b": "Jayavarman II'nin efektif hükümdarlığı başladı; Kamboçya Java'ya bağımlılıktan kurtuluyor",
   "tur": "hukumdar",
@@ -6631,7 +6631,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Mevcut Angkor-Kmer künyesi f=0802-01-01 ile uyumlu. Chenla künyesi t=0802; Coedès'e göre Chenla ile Angkor arasında net bir son gün yok — Jayavarman II ülkeyi aşamalı fethetti."
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "0805-01-01",
   "b": "Pyu bağlısı Mi-ch'en'in Çin elçiliği (805); 835'te Nanzhao Mi-ch'en'i yok etti",
   "tur": "siyaset",
@@ -6653,7 +6653,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hall/Coedès çift teyit."
  },
- {
+ { "odak_yer":["Dali"], 
   "t": "0832-01-01",
   "b": "Nanzhao Halin'i yağmalayıp 3000 Pyu esiri Yunnan'a götürdü (832)",
   "tur": "isgal",
@@ -6697,7 +6697,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Pagan künyesi (devletler.js) f=0849; bu madde yalnız Pyu çözülüşünün sonrasını bağlar."
  },
- {
+ { "odak_yer":["Indrapura"], 
   "t": "0875-01-01",
   "b": "İndravarman II Indrapura hanedanını kurdu (875)",
   "tur": "hukumdar",
@@ -6717,7 +6717,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "875 (yıl); gün yok",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "t": "0950-01-01",
   "b": "Khmer akını Nha-trang'da püskürtüldü (≈950); Rajendravarman ordusu yenildi",
   "tur": "savas",
@@ -6739,7 +6739,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "'around 950': tahmini yıl."
  },
- {
+ { "odak_yer":["Indrapura"], 
   "t": "0982-01-01",
   "b": "Le Hoan Champa başkenti Indrapura'yı yıktı (982)",
   "tur": "savas",
@@ -6761,7 +6761,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Başkent yıkımı geçici akındır; Cham kralı güneye kaçtı, Vietnamlı Lưu Kế Tông kuzeyi ele geçirdi (983-989) — sahiplik değişimi bu kümede yazılmadı."
  },
- {
+ { "odak_yer":["Vijaya"], 
   "t": "1000-01-01",
   "b": "Champa başkenti Indrapura bırakılıp Vijaya'ya (Binh-dinh) taşındı (1000)",
   "tur": "siyaset",
@@ -6783,7 +6783,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Linyi-Champa (t=0999-12-31) ve Campa (f=1000-01-01) aynı polity'dir; künye ayrımı Vijaya'ya taşınmaya denk düşürülmüş. Yerleşim zincirleri bu günde 'linyi-champa'→'campa' olarak kırılır."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "t": "1017-01-01",
   "b": "Kadaram'dan Çin'e elçilik (1017), kral 'Haji Sumatrabhumi'",
   "tur": "siyaset",
@@ -6805,7 +6805,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Majumdar Kadaram=Kedah özdeşliğini kabul eden Coedès/Blagden çizgisini izler; bazı Çin elçiliklerinin Kadaram'dan mı Srivijaya'dan mı geldiği belirsizdir."
  },
- {
+ { "odak_yer":["Lopburi"], 
   "t": "1022-01-01",
   "b": "Lopburi yazıtı: Suryavarman I döneminde Lavo'da Khmer varlığı (1022-25)",
   "tur": "siyaset",
@@ -6827,7 +6827,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Khmer yönetiminin başladığı kesin gün kaynakta yok; yazıt 'en geç' tanığıdır (BEYANLI YAKLAŞIKLIK: yerleşim zinciri 1022'de lavo → angkor-kmer kırılır)."
  },
- {
+ { "odak_yer":["Kançipuram (Kanchipuram)"], 
   "t": "1025-01-01",
   "b": "Rajendra Chola Kadaram'ı aldı: kral Sangramavijayottungavarman esir (MS 1024-5)",
   "tur": "isgal",
@@ -6849,7 +6849,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Majumdar: 'none of the records ... gives any specific date for any of his conquests'. Akın süreklilik kesmedi: Kadaram ayrı devlet kaldı (aşağıdaki 1068-70 ve 1089 maddeleri)."
  },
- {
+ { "odak_yer":["Kançipuram (Kanchipuram)"], 
   "t": "1069-01-01",
   "b": "Virarajendra Chola Kadaram'ı yeniden fethedip kralı eski yerine koydu (≈1069-70'ten önce)",
   "tur": "isgal",
@@ -6871,7 +6871,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Kesin yıl yok ('some time before 1069-70'): 1069 'en geç' sınırı."
  },
- {
+ { "odak_yer":["Kançipuram (Kanchipuram)"], 
   "t": "1089-01-01",
   "b": "Kadaram'dan Chola kralına elçilik (MS 1089-90)",
   "tur": "siyaset",
@@ -6892,7 +6892,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1089-90 (yıl); gün yok",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "t": "1100-01-01",
   "b": "Dvaravati'nin sonu: 11. yy'da Khmer genişlemesi, Mon bölgesi Khmer altında (künye t=1100)",
   "tur": "son",
@@ -6914,7 +6914,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "Dvaravati'nin 1100'de bittiği kaynakta açıkça yazılmaz; mevcut künye t değeri (devletler.js) ile uyum için yazıldı, BEYAN: kaynaklı son gün yok."
  },
- {
+ { "odak_yer":["Jambi"], 
   "t": "1286-01-01",
   "b": "Dharmasraya'da Amoghapasa heykeli dikildi (1286): Malayu kralı Tribhuvanaraja Maulivarmadeva",
   "tur": "siyaset",
@@ -6935,7 +6935,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Pencere sonrası (1286); Malayu'nun 1281 civarındaki durumunu (Çin'in 1281'de Malayu'ya Müslüman elçi göndermesi) çerçeveler."
  },
- {
+ { "odak_yer":["Trowulan"], 
   "t": "1347-01-01",
   "b": "Adityavarman Malayupura'da Amoghapasa heykelinin arkasına yazıt kazıttı (1347)",
   "tur": "hukumdar",
@@ -6956,7 +6956,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Pencere sonrası (1347); künye t=1347 bu son tanığa dayanır."
  },
- {
+ { "odak_yer":["Trowulan"], 
   "t": "1365-01-01",
   "b": "Nagarakritagama Langkasuka'yı Majapahit bağlıları arasında sayar (1365)",
   "tur": "siyaset",
@@ -6978,7 +6978,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Pencere sonrası (1365): künyenin son tanığı olduğu için yazıldı; 'bağlı' sayılması Cava vassallığının efektifliğini kanıtlamaz."
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -6999,7 +6999,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Karışık dönem; sınır tanımı 886 Ubon yazıtına dayanır."
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7020,7 +7020,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Sonraki metin IV. Jayavarman'ın cülusunu 928 verir (Coedès)."
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7040,7 +7040,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "968 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7061,7 +7061,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Suryavarman kendi cülusunu sonradan 1002 gösterdi (Coedès IX-1); 1010 mevcut madde (atlas) ile örtüşür."
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7081,7 +7081,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1050 (yıl başı)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7101,7 +7101,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1051 ve 1065 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7121,7 +7121,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1066 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7143,7 +7143,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yıl aralığı: Coedès \"between 1074 and 1080\" (Harivarman IV 1074'te kral oldu); 1074-01-01 aralığın başı. Kalıcı işgal değil, akın."
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7163,7 +7163,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1080 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7183,7 +7183,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1107 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7204,7 +7204,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1128 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7225,7 +7225,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1150 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7245,7 +7245,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1165 dolayı",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Battambang"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7266,7 +7266,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yazıt isyanın tam yılını vermez; 1182 prensin gelişi."
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7287,7 +7287,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1207 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7308,7 +7308,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1216 ve 1218 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7329,7 +7329,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Liste kısmen 1178 Ling-wai Tai-ta'dan alınmadır (Coedès XI-4); Pagan iddiası nominal."
  },
- {
+ { "odak_yer":["Sukhothai"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7351,7 +7351,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: Coedès 'around 1220' (Indraditya'nın taç giyişi, Bölüm XII-5) verir; Hall 1238. Mevcut sukhothai künyesi f=1238 (Hall ile uyumlu). İki tarih de beyan."
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7371,7 +7371,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1243 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7392,7 +7392,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1021 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7412,7 +7412,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1050 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7432,7 +7432,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1074 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7454,7 +7454,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1076 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7474,7 +7474,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1086 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7495,7 +7495,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1103 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7515,7 +7515,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1139 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7535,7 +7535,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1147 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7556,7 +7556,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1148 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7577,7 +7577,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Panduranga adı Coedès metninde OCR bozuk; \"1160 after five years of battle\" cümlesi yalnız bölümün bu bağlamındadır."
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7597,7 +7597,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1167 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Angkor"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7618,7 +7618,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1192 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7638,7 +7638,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1226 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7659,7 +7659,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1252 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7680,7 +7680,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Coedès krala \"Jaya Indravarman (VI)\" der; XII-3'te yeğen Harideva Jaya Simhavarman adıyla geçer."
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7700,7 +7700,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1266 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Pekin"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7743,7 +7743,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Akıncıların Sailendra devletine bağı Coedès'te çıkarımdır (\"marked ... by incursions of the Sailendras\")."
  },
- {
+ { "odak_yer":["Nha Trang"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7804,7 +7804,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "824 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Mataram"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7825,7 +7825,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "863 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Mataram"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7845,7 +7845,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "913 dolayı",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Bali"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7866,7 +7866,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "989 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Bali"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7886,7 +7886,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1178 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Pegu"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7908,7 +7908,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Pagan-Pegu ilişkisinin kronik anlatımı kısmen efsanevidir (Coedès)."
  },
- {
+ { "odak_yer":["Pagan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7930,7 +7930,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Efsanevi anlatımın tarihi; yalnız yıl."
  },
- {
+ { "odak_yer":["Palembang"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7951,7 +7951,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1230 (yıl)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Nakhon Si Thammarat"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -7992,7 +7992,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Pencere (1281) dışı; kronik/TDV'deki 840 kuruluş tarihi kaynakta teyit edilmedi (ms1 künyesi)."
  },
- {
+ { "odak_yer":["Thaton","Pegu"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8014,7 +8014,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Kronik tarihi; Coedès 'preferable' der (başka kronikler daha erken/geç tarih verir). Kuruluş yılı kesin değil."
  },
- {
+ { "odak_yer":["Thaton","Pagan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8036,7 +8036,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hall (6): Shin Arahan'ın asıl etkisinin Kyanzittha döneminde olduğu savı; Coedès geleneksel anlatıyı aktarır. Çelişki beyanı: sefer nedeni."
  },
- {
+ { "odak_yer":["Thaton","Pagan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8079,7 +8079,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yer yalnız bölge düzeyinde (Pegu adayı); 'yer' alanı yaklaşık."
  },
- {
+ { "odak_yer":["Dali"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8101,7 +8101,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Çelişki: Coedès 'saldırı', Hall 'yıkım'. Yeni Tang Tarihi özgün metni açılmadı."
  },
- {
+ { "odak_yer":["Butuan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8124,7 +8124,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Gün tek kaynakta (Scott); Song Shih özgün metni açılmadı.",
   "ic_not_takvim": "Çin takvimi tarihi Batı karşılığıyla Scott verir; Jülyen/Gregoryen belirtilmemiş, çeviri tarafımızdan yapılmadı."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8147,7 +8147,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Sung Hui Yao Kao yalnız ay verir; gün Scott'ta.",
   "ic_not_takvim": "Batı karşılığı Scott'a aittir; çeviri tarafımızdan yapılmadı."
  },
- {
+ { "odak_yer":["Butuan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8170,7 +8170,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Sung Hui Yao Kao: 'Ekim ya da Kasım' (yasak önerisi); gün yok → yıl hassasiyeti.",
   "ic_not_takvim": "Aylar Scott'un Batı karşılığıdır."
  },
- {
+ { "odak_yer":["Butuan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8194,7 +8194,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Ay Sung Hui Yao Kao'dan (Temmuz/Ağustos); gün yok.",
   "ic_not_takvim": "Aylar Scott'un Batı karşılığıdır."
  },
- {
+ { "odak_yer":["Bata"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8217,7 +8217,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Adı Scott 'Indianized name or title' sayar; hükümdar ya da unvan belirsiz.",
   "ic_not_takvim": "Aylar Scott'un Batı karşılığıdır."
  },
- {
+ { "odak_yer":["Cebu"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8238,7 +8238,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Cebu'ya varış günü bu oturumda okunan kaynaklarda yok."
  },
- {
+ { "odak_yer":["Legazpi","Cebu"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8260,7 +8260,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8283,7 +8283,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Ma-i'nin Mindoro olması Scott'un yorumudur (Sung Shih ch.139; dipnot 4). Yer Mindoro için atlasta yerleşim noktası yok; toprak maddesi değil.",
   "ic_not_takvim": "Çin dönem yılı → 972 Scott'un çevirisidir."
  },
- {
+ { "odak_yer":["Kanton"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8305,7 +8305,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Scott: Ma-i = Mindoro (yorum)."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8327,7 +8327,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Akıncıların kimliği Scott'un çıkarımıdır ('more likely Filipino Visayans'); Vali Wang Ta-yu ve Chao Ju-kua Pescadores/Taiwan der. Toprak değişimi yok."
  },
- {
+ { "odak_yer":["Mataram"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8349,7 +8349,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Srivijaya'nın rolü kesin değil (Coedès: yalnız kışkırtmış/desteklemiş olabilir). Medang künyesi t=1016 ile uyumlu."
  },
- {
+ { "odak_yer":["Surabaya","Pasuruan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8370,7 +8370,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok."
  },
- {
+ { "odak_yer":["Surabaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8391,7 +8391,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Coedès 'Airlanga' yazımını kullanır."
  },
- {
+ { "odak_yer":["Vijaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8412,7 +8412,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Madde yıl düzeyindedir."
  },
- {
+ { "odak_yer":["Surabaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8435,7 +8435,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: bölme tarihi Coedès'te yok ('ölümünden önce', ölüm 1049, Belahan kronogramı saka 971); Hall ölümden 'yaklaşık dört yıl önce' (≈1045) der; Majumdar 1042'yi dolaylı çıkarır. 1042 alındı (atlas künyeleri de 1042), kesin değil."
  },
- {
+ { "odak_yer":["Tidore"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8457,7 +8457,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok."
  },
- {
+ { "odak_yer":["Surabaya"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8478,7 +8478,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Tarih hasarlı; Majumdar 'makul biçimde' 982 okur. 1053 bakır levha aynı yazarca 'çok bozuk kopya, özgünlüğü şüpheli' sayılır → yazılmadı."
  },
- {
+ { "odak_yer":["Tidore"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8499,7 +8499,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Majumdar 'probably' der; Kadiri atfı kesin değil."
  },
- {
+ { "odak_yer":["Bojonegoro"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8521,7 +8521,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Coedès savaşı 1221, düşüşü 1222 verir (bölüm başlığı da 1222). 1222-01-01 alındı (atlas künye f/t = 1222)."
  },
- {
+ { "odak_yer":["Bojonegoro"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8542,7 +8542,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Pararaton/Nagarakritagama'ya dayanan Cava kronik geleneği."
  },
- {
+ { "odak_yer":["Bojonegoro"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8563,7 +8563,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok."
  },
- {
+ { "odak_yer":["Bojonegoro"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8584,7 +8584,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Coedès 'by 1254' der: en geç 1254."
  },
- {
+ { "odak_yer":["Bojonegoro"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8606,7 +8606,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Eser tarihi 1225; liste tarihleri karışık (Coedès). Wu-nu-ku = Moluccas = Ternate adayı (Majumdar işareti); Tidore ayrıca anılmaz."
  },
- {
+ { "odak_yer":["Tidore"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8627,7 +8627,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Atlas Kediri künyesinde 1135 maddesi zaten var (tekrar etmemek için bu madde hükümdar sırasını Coedès'e bağlar); Majumdar 1135/1136 belgeleri."
  },
- {
+ { "odak_yer":["Sukhothai"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8649,7 +8649,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: Coedès olayı kesin tarihlemez; Indraditya'nın taç giymesini Rama Khamhaeng'in saltanatından geriye giderek 'around 1220' hesaplar (XII-5); Hall 1238. Hall alındı (sukhothai künyesi f=1238 ile tutarlı), Coedès ic_not'ta."
  },
- {
+ { "odak_yer":["Sukhothai"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8670,7 +8670,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: atlasta mevcut madde '1275 Ramkhamhaeng Sukhothai tahtına çıktı' var; Coedès tahta çıkış yılını bilmez, Hall 1283 verir, stel yalnız 1283 yazısını ve 1285/1292'yi tarihler. 1275'in kaynağı bulunamadı → mevcut maddenin düzeltilmesi/kaynaklanması önerilir."
  },
- {
+ { "odak_yer":["Phayao"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8693,7 +8693,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Çift teyit: Coedès ve Hall aynı yılı verir (ikisi de ikincil sentez; ortak kaynak eski Tay metnidir)."
  },
- {
+ { "odak_yer":["Sukhothai"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8714,7 +8714,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yazıtın kendisi pencere sonrası (1292); fetih yılları kaynakta ayrıca verilmez. Suphan Buri/Suphannaphum yerleşim zinciri için bu madde gün/yıl bağlamaz."
  },
- {
+ { "odak_yer":["Chiang Mai"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8735,7 +8735,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Coedès 1261 (babanın yerine geçiş) + 'ertesi yıl' → 1262. Lan Na künyesi f=1262 ile aynı yıl."
  },
- {
+ { "odak_yer":["Phayao"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8756,7 +8756,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "'As early as': alt sınır/ilk tanık, kuruluş yılı kesin değil. Hall konumu Raheng kuzeyi ve nehir birleşimi diye verir; Coedès Phayao'yu Ing nehri yukarısında anar — konum tarifi tutarsız."
  },
- {
+ { "odak_yer":["Kaifeng"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8778,7 +8778,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Taylor 'a year later' der (1240 sonu + bir yıl); gün yok. Toprak değişimi yok (haydut inlerini temizleme seferi)."
  },
- {
+ { "odak_yer":["Karakurum"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8801,7 +8801,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Taylor 'the last month of the year' der; Vietnam takvim yılının son ayı Batı takvimine göre Ocak 1258'e düşebilir (çevrilmedi); yıl hassasiyeti, YYYY-01-01. ic_not_takvim: yıl sonu aylar belirsiz.",
   "ic_not_takvim": "Annam yılı sonu → Batı karşılığı (Ocak 1258 olasılığı) tablo ile çevrilmedi; yıl hassasiyeti."
  },
- {
+ { "odak_yer":["Hanoi"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8844,7 +8844,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Yıl kaynakta yok; 1223/1229 olaylarının çevresi → on yıllık hassasiyet (1230-01-01 yalnız işaret). Sipsong Panna künyesindeki f=1180 (Phanya Coeng) bu oturumda doğrulanamadı: Hall/Coedès Chiang Rung şefinin varlığını 13. yy ilk yarısı için gösterir, 1180 yok."
  },
- {
+ { "odak_yer":["Samudra Pasai"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8866,7 +8866,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Pasai künyesi (atlas) f=1281; Majumdar kuruluşu 1292-97 aralığına koyar, TDV kuruluşu 1280'ler der → çelişki beyanı: künye f için gözden geçirilmeli."
  },
- {
+ { "odak_yer":["Samudra Pasai"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8908,7 +8908,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Kronik tarihi, yazıtla doğrulanmadı; Hall yalnız listeyi aktarır. Launggyet künyesi (ms1) f=1237 ile uyumlu."
  },
- {
+ { "odak_yer":["Pagan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -8950,7 +8950,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "Yüzyıl hassasiyeti: 0401-01-01 yalnız '5. yüzyıl' demektir; gerçek yıl bilinmiyor."
  },
- {
+ { "odak_yer":["Banavasi"], 
   "t": "0497-01-01",
   "b": "Ravivarman rakip kolu yenip Banavasi tahtını aldı",
   "tur": "hukumdar",
@@ -9129,7 +9129,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Madhavavarman'ın kimliği (tek mi iki kral mı) tartışmalı; Majumdar tek kral sayar."
  },
- {
+ { "odak_yer":["Banavasi"], 
   "t": "0537-01-01",
   "b": "Harivarman döneminde Pulakesin I Badami'de bağımsız hanedan kurdu",
   "tur": "bolunme",
@@ -9149,7 +9149,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Olayın yılı kaynakta yoktur; saltanat başı yazıldı."
  },
- {
+ { "odak_yer":["Banavasi"], 
   "t": "0540-01-01",
   "b": "Küçük kol Krishnavarman II Banavasi'nin büyük kolunu devirdi",
   "tur": "birlesme",
@@ -9250,7 +9250,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Sri Lanka krallık sıralamaları Mahavamsa/Culavamsa'ya dayanır; Majumdar sıralamayı Geiger'den alır. Yıl hassasiyeti."
  },
- {
+ { "odak_yer":["Banavasi"], 
   "t": "0565-01-01",
   "b": "Ajavarman Chalukya I. Kirtivarman'a bağlandı",
   "tur": "siyaset",
@@ -9270,7 +9270,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Bağlanma yılı kaynakta açıkça verilmez, Ajavarman saltanat başı yazıldı."
  },
- {
+ { "odak_yer":["Serahs"], 
   "t": "0565-01-01",
   "b": "Türk-Pers birliği Oksus'taki Hun merkezini ezdi",
   "tur": "savas",
@@ -9351,7 +9351,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Ganga çağı başlangıcı 496-498 arası değişir; yıl hassasiyeti."
  },
- {
+ { "odak_yer":["Kançipuram"], 
   "t": "0590-01-01",
   "b": "Kadungon (Pandya) ve Simhavishnu (Pallava) Kalabhra egemenliğini kırdı",
   "tur": "son",
@@ -9473,7 +9473,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Çağ yorumu tartışmalı: Levi 595 başlangıçlı Tibet kökenli çağ, Basak Harşa çağı (638-651) öne sürer; Majumdar Saka çağını tercih eder."
  },
- {
+ { "odak_yer":["Banavasi"], 
   "t": "0610-01-01",
   "b": "Pulakesin II Banavasi'yi kuşattı; Bhogivarman öldü",
   "tur": "son",
@@ -9636,7 +9636,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Majumdar: 'by A.D. 643' — fetih yılı belli değil, 643 üst sınır."
  },
- {
+ { "odak_yer":["Lhasa"], 
   "t": "0643-01-01",
   "b": "Narendradeva Tibet desteğiyle Nepal tahtında",
   "tur": "hukumdar",
@@ -9657,7 +9657,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "İkinci alıntı Amsuvarman için (Tibet vasallığının başlangıcı); Narendradeva'nın vasallığı aynı bölümde ve 'Nepal after Amsuvarman' bölümünde (Levi'ye dayanarak) anlatılır."
  },
- {
+ { "odak_yer":["Ahar"], 
   "t": "0646-01-01",
   "b": "Sila (Siladitya) ve Aparajita'nın tarihli yazıtları (VS 703 ve 718)",
   "tur": "hukumdar",
@@ -9759,7 +9759,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Çaç-nâme Kikan'ı Sind'in merkezî bölümü sayar."
  },
- {
+ { "odak_yer":["Kâbil"], 
   "t": "0664-04-04",
   "b": "Araplar Kâbil'e ulaştı ve Türk Şâhî hükümdarını haraca bağladı (44/664)",
   "tur": "savas",
@@ -9781,7 +9781,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "ic_not_takvim: hicrî 44 (aritmetik sivil takvim, ±2 gün) 664-04-04…665-03-23 aralığındadır, miladî 664 ile kesişimin ilk günü alındı. Künye f=0665: TDV'ye göre Türk Şâhî hükümdarı 664'te zaten Kâbil'dedir → künye f ≤ 0664 olmalı (düzeltme önerisi).",
   "ic_not_takvim": "hicrî 44 = 664-04-04…665-03-23 (aritmetik, ±2 gün); kesişimin ilk günü 0664-04-04"
  },
- {
+ { "odak_yer":["Kançipuram"], 
   "t": "0668-01-01",
   "b": "Manavarman Pallava ordusuyla Anuradhapura tahtını aldı",
   "tur": "isgal",
@@ -9842,7 +9842,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Önceki kral IV. Indravarman'la (son tarih 650) ilişki belirsiz."
  },
- {
+ { "odak_yer":["Kâbil"], 
   "t": "0683-01-01",
   "b": "Kâbil isyan etti; Junzah savaşında Arap ordusu bozguna uğradı",
   "tur": "savas",
@@ -9863,7 +9863,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Majumdar Kâbil hükümdarını 'Türk Şâhî' olarak adlandırmaz; Türk Şâhî ile özdeşlik TDV Kâbil maddesinden (7. yy'da Türkşâhîler dönemi) çıkarılır (BEYANLI YAKLAŞIKLIK)."
  },
- {
+ { "odak_yer":["Kâbil"], 
   "t": "0697-03-30",
   "b": "Haccâc'ın gönderdiği İbn Ebû Bekre başarısız oldu (78/697); Kâbil ve Zabul kralları Arapları bozdu",
   "tur": "savas",
@@ -9905,7 +9905,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Kaynak Çaç-nâme (13. yy); Majumdar ayrıntıların hep güvenilir olmadığını söyler."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "t": "0708-01-01",
   "b": "Haccâc'la savaş yeniden başladı: Debal korsanları ve Ubeydullah'ın yenilgisi",
   "tur": "savas",
@@ -9926,7 +9926,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Majumdar bu olayın düşmanlığın kökeni olduğu görüşünü reddeder."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "t": "0712-01-01",
   "b": "Muhammed b. Kâsım Debil'i aldı",
   "tur": "savas",
@@ -9948,7 +9948,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "ic_not_takvim: hicrî 93 yılı (aritmetik sivil takvim, ±2 gün) 711-10-19 ile 712-10-06 arasıdır; TDV'nin miladî 712'siyle kesişimin ilk günü 712-01-01 alındı. Debal'in yeri belirsiz (Thatta ya da Bhambor — Majumdar III).",
   "ic_not_takvim": "hicrî 93 = 711-10-19…712-10-06 (aritmetik, ±2 gün); kesişimin ilk günü 0712-01-01"
  },
- {
+ { "odak_yer":["Kûfe"], 
   "t": "0712-06-20",
   "b": "Rawar (Raor) savaşı: Dahar öldürüldü (10 Ramazan 93)",
   "tur": "savas",
@@ -9969,7 +9969,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "TDV Dahir'in öldüğü savaşı tarihler; Majumdar'a göre Alor (Aror) bu savaştan sonra Brahmanabad'ın altı aylık kuşatmasının ardından teslim oldu (713'e sarkar). TDV esastır; Aror sınır maddesi bu güne bağlandı (çelişki beyanı)."
  },
- {
+ { "odak_yer":["Kâbil"], 
   "t": "0714-01-01",
   "b": "Haccâc'ın ölümüyle Türkşâhîler haraç vermeyi bıraktı (95/714)",
   "tur": "siyaset",
@@ -9990,7 +9990,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "ic_not_takvim: hicrî 95 (aritmetik, ±2 gün) 713-09-26…714-09-15; miladî 714 ile kesişimin ilk günü 0714-01-01.",
   "ic_not_takvim": "hicrî 95 = 713-09-26…714-09-15 (aritmetik, ±2 gün); kesişimin ilk günü 0714-01-01"
  },
- {
+ { "odak_yer":["Kûfe"], 
   "t": "0724-01-01",
   "b": "Jaisimha'nın isyanı bastırıldı: Sind'in Hindu hanedanı sona erdi",
   "tur": "son",
@@ -10051,7 +10051,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Majumdar IV 'Jayadeva II' adını kullanır; aynı kişi olduğu varsayıldı."
  },
- {
+ { "odak_yer":["Çitor"], 
   "t": "0738-01-01",
   "b": "Bappa Rawal Çitor'u Mori kralından aldı (geleneksel)",
   "tur": "isgal",
@@ -10071,7 +10071,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "ÇELİŞKİ BEYANI: Tod 728, Ojha 734, Majumdar kuşkulu; tarih 738 onyil hassasiyetiyle yazıldı. Çitor'un Guhila başkenti olduğu 10. yüzyıldan önce belgelenmemiştir (Majumdar IV)."
  },
- {
+ { "odak_yer":["Chamba"], 
   "t": "0750-01-01",
   "b": "Chamba'da Mushana hanedanından Ajitavarman (8. yüzyıl ortası)",
   "tur": "hukumdar",
@@ -10091,7 +10091,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Brahmapura yerleşimi çift tanık bulunamadığı için yazılmadı (tek tanık: OSM)."
  },
- {
+ { "odak_yer":["Ahar"], 
   "t": "0753-01-01",
   "b": "Bappa tahtı bıraktı (yaklaşık)",
   "tur": "hukumdar",
@@ -10131,7 +10131,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yıkımın nedeni (Arap akını vs.) kaynakta çözülmemiştir; girdi t=0766 ile uyumlu."
  },
- {
+ { "odak_yer":["Kâbil"], 
   "t": "0795-03-27",
   "b": "Abbâsî komutanı İbrâhim b. Cibrâîl Kâbil'e girdi; Türkşâhî hükümdarı Müslüman olup haraç verdi (179/795)",
   "tur": "savas",
@@ -10153,7 +10153,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "ic_not_takvim: hicrî 179 (aritmetik, ±2 gün) 795-03-27…796-03-15; kesişimin ilk günü alındı. Haraç ödeyen ve Müslüman olan hükümdar hâlâ Kâbil'de oturur; yerleşim sahibi turk-sahi olarak kaldı (haracgüzar).",
   "ic_not_takvim": "hicrî 179 = 795-03-27…796-03-15 (aritmetik, ±2 gün); kesişimin ilk günü 0795-03-27"
  },
- {
+ { "odak_yer":["Kâbil","Gazne"], 
   "t": "0869-01-01",
   "b": "Ya‘kūb b. Leys Gazne'yi aldı ve Kâbil'e kadar ilerledi (255/869)",
   "tur": "isgal",
@@ -10195,7 +10195,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Prensliklerin tarihi kaynakta verilmez; 10. yüzyıl."
  },
- {
+ { "odak_yer":["Ahar"], 
   "t": "0943-01-01",
   "b": "Bhartripatta II'nin Ahar yazıtı: Aghata (Ahar) Medapata başkenti",
   "tur": "baskent",
@@ -10215,7 +10215,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Ahar (24.5899, 73.7066) ile Udeypûr (24.585, 73.712) arası ≈0,7 km: mükerrer taraması gereği yama konusu (Udeypûr 'kur:1559' ile çelişir) — RAPOR."
  },
- {
+ { "odak_yer":["Chamba"], 
   "t": "0950-01-01",
   "b": "Sajjanavarman Chanpaka'yı (Chamba) kurup başkenti taşıdı; Sahilla-varman dönemi 10. yüzyıl ortasında bitti",
   "tur": "baskent",
@@ -10235,7 +10235,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Chanpaka'nın kuruluş yılı kaynakta yok: Chamba yerleşimi s: zinciri Sahilla-varman sonrası onyil işareti 950'den başlatıldı (BEYANLI YAKLAŞIKLIK)."
  },
- {
+ { "odak_yer":["Kannauc"], 
   "t": "0951-01-01",
   "b": "Allata, Pratihara Devapala'yı savaşta öldürdü",
   "tur": "savas",
@@ -10256,7 +10256,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Devapala'nın kimliği Majumdar tarafından 'olabilir' diye verilir."
  },
- {
+ { "odak_yer":["Ahar"], 
   "t": "0977-01-01",
   "b": "Atpur yazıtı: Guhila soy kütüğünün ilk tam listesi",
   "tur": "hukumdar",
@@ -10333,7 +10333,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "A.D. 1078 (Majumdar V)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Chamba"], 
   "t": "1087-01-01",
   "b": "Chamba kralı Asata Keşmir kralı Kalasa'nın sarayında toplanan sekiz tepe kralından biri",
   "tur": "siyaset",
@@ -10394,7 +10394,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Taraf olarak 'delhi-sultanligi' alındı (Bahtiyar Hilcî Delhi valisiydi; 'bengal-sultanligi' kimliği 1281 sonrasına ait olabilir)."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1244-04-01",
   "b": "I. Narasimha Katasingh'te Tuğrıl Tuğan Han'ın ordusunu bozguna uğrattı",
   "tur": "savas",
@@ -10415,7 +10415,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not": "Gün kaynakta verilmez; ay hassasiyeti: 1244-04-01."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1245-03-01",
   "b": "Orissa ordusu Lakhnawati'yi kuşattı",
   "tur": "savas",
@@ -10436,7 +10436,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not": "Gün kaynakta verilmez; ay hassasiyeti: 1245-03-01. 'Gaur (Lakhnautî)' atlas yerleşimi var ama bu küme zincirini yazmadı."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "0736-01-01",
   "b": "Tomara (Tuar) hanedanı geleneğe göre Delhi'yi kurdu",
   "tur": "kurulus",
@@ -10456,7 +10456,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "GELENEK TARİHİ: Majumdar yalnız \"tradition\" der; en eski belge Pratihara I. Mahendrapala dönemi Pehowa yazıtıdır (9. yy sonu). f yüzyıl hassasiyetli."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "t": "0739-01-01",
   "b": "Arap Sind valileri Saindhava ülkesini işgal etti (en geç 739)",
   "tur": "savas",
@@ -10497,7 +10497,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Majumdar \"yaklaşık 756\" der; çıkarım (zafer iddiası yok) Majumdar'ındır."
  },
- {
+ { "odak_yer":["Mansûre"], 
   "t": "0759-05-04",
   "b": "Abbâsî valisi Ömer b. Hafs Mansûre isyanını on bir aylık kuşatmadan sonra barışla bitirdi",
   "tur": "isyan",
@@ -10577,7 +10577,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hanedan sınırları: Majumdar tüm soyu yaklaşık iki yüzyıla sığdırır ama başlangıç/bitiş yıllarını vermez; girdi f=0750, t=0950 doğrulanamadı. Başkent Guhadeva-pataka (Guhesvara-pataka) konumu bu oturumda bulunamadı."
  },
- {
+ { "odak_yer":["Kannauc"], 
   "t": "0801-01-01",
   "b": "Pratihara II. Nagabhata Saurashtra'ya seferle Saindhavaları yendi (9. yy ilk çeyreği)",
   "tur": "savas",
@@ -10598,7 +10598,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "0801-01-01 yalnız \"9. yüzyılın ilk çeyreği\" demektir (801-825); gerçek yıl bilinmiyor."
  },
- {
+ { "odak_yer":["Wadhwan"], 
   "t": "0801-01-01",
   "b": "Vardhamana (Wadhwan) Chapa kolunun bilinen ilk kralı Vikramarka",
   "tur": "kurulus",
@@ -10678,7 +10678,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yıl astronomik çıkarımdır (Majumdar: \"appear to suggest\")."
  },
- {
+ { "odak_yer":["Mansûre"], 
   "t": "0861-03-17",
   "b": "Abbâsî valisi Ömer b. Abdülazîz el-Hebbârî Mansûre'de bağımsızlığını ilan etti",
   "tur": "bolunme",
@@ -10739,7 +10739,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "ÇELİŞKİ: dönemin kralı Raghavadeva (Prinsep/Cunningham) mı, yoksa takvim Saka yılının 800'süz sayımı mı (Lévi); bu kayıt yalnız takvimin başlangıç GÜNÜNÜ verir, hanedan kuruluşu olarak yorumlama BEYANLIDIR. Jülyen (1582 öncesi)."
  },
- {
+ { "odak_yer":["Wadhwan"], 
   "t": "0899-01-01",
   "b": "Chalukya II. Avanivarman Chapa kralı Dharanivaraha'yı yendi (899 dolayı)",
   "tur": "savas",
@@ -10781,7 +10781,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: TDV Sind Hebbârîleri 861'den itibaren sayar ve Saffârî dönemini \"verilme\" olarak anar; Majumdar 872-903'te Sind'i Saffârî topraklarına dahil sayar. TDV esas: Mansûre zincirinde Habbârî 861'den 1010'a kesintisiz yazıldı."
  },
- {
+ { "odak_yer":["Multan"], 
   "t": "0903-01-01",
   "b": "Multan Saffârîlerden ayrılıp bağımsız emirlik oldu",
   "tur": "bolunme",
@@ -10801,7 +10801,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Saffârî sonu 903 (Majumdar VI); ilk tanıkta kuruluş günü yok."
  },
- {
+ { "odak_yer":["Wadhwan"], 
   "t": "0914-01-01",
   "b": "Dharanivaraha 914'te Pratihara Mahipala'nın vasalı; Chalukya Avanivarman'a boyun eğdi",
   "tur": "siyaset",
@@ -10840,7 +10840,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Bitiş yılı \"son bilinen tarih\"tir (üst/alt sınır belirsiz); Abhira Graharipu'nun devri 10. yy ikinci yarısı (Majumdar)."
  },
- {
+ { "odak_yer":["Multan"], 
   "t": "0925-03-29",
   "b": "Mes'ûdî Multan'ın valisi Ebû Leheb Mürebbih b. Esed'i anar (313/925 dolayı)",
   "tur": "siyaset",
@@ -10861,7 +10861,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Olay tarihi \"civarı\"; hicrî çeviri izi:",
   "ic_not_takvim": "Hicrî 313 yılı (0925-03-29 … 0926-03-18 Jülyen, aritmetik sivil takvim, ±2 gün) ∩ milâdî 925: kesişimin ilk günü 0925-03-29 alındı; kaynak günü vermiyor."
  },
- {
+ { "odak_yer":["Patan"], 
   "t": "0942-01-01",
   "b": "Gujarat Chaulukyası Mularaja Chapa egemenliğine son verdi; Addanaka-desa Chaulukyalara geçti",
   "tur": "toprak-kayip",
@@ -10883,7 +10883,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Çelişki/Beyan: 941-42 Anahilapataka kolunun sonu için verilir; Vardhamana kolunun düşüş yılı ayrıca belirtilmez, aynı olay olarak alınmıştır (BEYANLI YAKLAŞIKLIK). Hikâyenin ayrıntıları efsanevi sayılır, Mularaja'nın Chapaları bitirmesi kesin."
  },
- {
+ { "odak_yer":["Ecmîr"], 
   "t": "0951-01-01",
   "b": "Chahamana Simharaja Tomara önderi Salavana'yı yendi (10. yy 3. çeyrek)",
   "tur": "savas",
@@ -10904,7 +10904,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "0951-01-01 yalnız \"10. yüzyılın 3. çeyreği\" (951-975) demektir."
  },
- {
+ { "odak_yer":["Kannauc"], 
   "t": "0977-01-01",
   "b": "Vajradaman Gopadri (Gwalior) üzerindeki üstünlüğünü Pratihara Vijayapala'yı yenerek kurdu (en geç 977)",
   "tur": "kurulus",
@@ -10925,7 +10925,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Üst sınır: kuruluş 977'de ya da daha önce."
  },
- {
+ { "odak_yer":["Multan"], 
   "t": "0985-05-24",
   "b": "Makdisî Multan'da İsmâilî hâkimiyeti ve Fâtımî hutbesi gördü (375/985)",
   "tur": "siyaset",
@@ -10946,7 +10946,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Hicrî çeviri izi:",
   "ic_not_takvim": "Hicrî 375 yılı (0985-05-24 … 0986-05-12 Jülyen, aritmetik sivil takvim, ±2 gün) ∩ milâdî 985: kesişimin ilk günü 0985-05-24 alındı; kaynak günü vermiyor."
  },
- {
+ { "odak_yer":["Kalyani"], 
   "t": "0997-01-01",
   "b": "Chalukya VI. Satyasraya Silahara Aparajita'yı sıkıştırıp Amsunagara'yı yaktı",
   "tur": "savas",
@@ -11025,7 +11025,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "c. 1000-1015",
   "kesinlik": "onyil"
  },
- {
+ { "odak_yer":["Tripuri"], 
   "t": "1001-01-01",
   "b": "Kalingaraja Dakshina-Kosala'yı fethedip Tummana'da Kalachuri vasal krallığını kurdu (11. yy başı)",
   "tur": "kurulus",
@@ -11046,7 +11046,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "1001-01-01 yalnız \"11. yy ilk yılları\" demektir."
  },
- {
+ { "odak_yer":["Srinagar"], 
   "t": "1003-01-01",
   "b": "Didda öldü, Lohara'lı Samgramaraja Keşmir tahtına çıktı (Lohara hanedanı)",
   "tur": "kurulus",
@@ -11066,7 +11066,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok; Majumdar yalnız \"A.D. 1003\"."
  },
- {
+ { "odak_yer":["Multan"], 
   "t": "1006-01-01",
   "b": "Gazneli Mahmud Multan'ı yedi günlük kuşatmayla aldı; Karmatî Ebü'l-Fütûh Serendib'e kaçtı (396/1006)",
   "tur": "toprak-kayip",
@@ -11089,7 +11089,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "ÇELİŞKİ: Majumdar VI Mahmud'un Multan üzerindeki otoritesini 1010'a koyar; TDV 396/1006 ilk zapt, 398/1008 ve 400/1010 yeniden zapt: TDV esas, s: kırılması 1006-01-01. MS1 künye t=1010 (son yeniden zapt) bu nedenle Multan zincirinde 1006'ya çekildi.",
   "ic_not_takvim": "Hicrî 396 yılı (1005-10-08 … 1006-09-26 Jülyen, aritmetik sivil takvim, ±2 gün) ∩ milâdî 1006: kesişimin ilk günü 1006-01-01 alındı; kaynak günü vermiyor."
  },
- {
+ { "odak_yer":["Gazne"], 
   "t": "1010-01-01",
   "b": "Gazneli Mahmud Sind'i tamamen ele geçirdi; Habbârî Emirliği bitti",
   "tur": "toprak-kayip",
@@ -11111,7 +11111,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ (iki kaynak): TDV Sind 1010 (esas); Majumdar V Mansûre hükümdarı Khafif'in Mahmud tarafından 1025-26'da yenildiğini yazar. Habbârî t=1010 TDV'ye göre alındı, 1026 alternatifi burada beyan edilir."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1011-01-01",
   "b": "Mahmud Taneşvar'a yürürken Delhi Racası Hindu şeflerini savunmaya çağırdı",
   "tur": "savas",
@@ -11132,7 +11132,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Majumdar V dipnot: Utbî 1013-14, İbnü'l-Esîr 1014, çağdaş Gardîzî 1011 verir; Majumdar 1011'i benimser. \"Delhi Racası\"nın Tomara olduğu Majumdar'ın çıkarımıdır (aynı yüzyıl Delhi'de bağımsız Tomaralar)."
  },
- {
+ { "odak_yer":["Gazne"], 
   "t": "1021-01-01",
   "b": "Gazneli Mahmud Gwalior kalesine saldırdı; Kachchhapaghata Kirttiraja fil armağan edip barış yaptı",
   "tur": "savas",
@@ -11153,7 +11153,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Majumdar V 1021, Majumdar bölüm anlatısı 1021-22 yazar; gün yok. Kaynak: Majumdar V, Ch. I (Ghaznavid Invasion)."
  },
- {
+ { "odak_yer":["Kançipuram (Kanchipuram)"], 
   "t": "1023-01-01",
   "b": "Çolalar Yayatinagara savaşında Somavamsi kralı Indraratha'yı tutsak aldı, Odra ve Kosala'yı ele geçirdi",
   "tur": "savas",
@@ -11193,7 +11193,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "c. 1025-1055",
   "kesinlik": "onyil"
  },
- {
+ { "odak_yer":["Srinagar"], 
   "t": "1028-01-01",
   "b": "Samgramaraja'nın ardından Hariraja 21 gün, sonra Ananta tahtta",
   "tur": "hukumdar",
@@ -11212,7 +11212,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1028",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Gazne"], 
   "t": "1030-01-01",
   "b": "Sumralar Gazneli Mes'ud devrinde isyan edip kendi kabilelerinden birini tahta çıkardı",
   "tur": "isyan",
@@ -11273,7 +11273,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Yayati-nagara/Suvarnapura merkez konumu bu oturumda iki bağımsız koordinat tanığıyla doğrulanamadı: yerleşim yazılmadı."
  },
- {
+ { "odak_yer":["Srinagar"], 
   "t": "1063-01-01",
   "b": "Ananta oğlu Kalasa lehine tahttan çekildi",
   "tur": "hukumdar",
@@ -11292,7 +11292,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1063",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Kançipuram (Kanchipuram)"], 
   "t": "1070-01-01",
   "b": "I. Vijayabahu Seylan'ı Çola boyunduruğundan kurtardı; Polonnaruva (Vijayarajapura) başkent",
   "tur": "kurulus",
@@ -11314,7 +11314,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Majumdar \"about A.D. 1070\"; gün yok. Çola üssü olarak Polonnaruva: Majumdar IV, Ceylon."
  },
- {
+ { "odak_yer":["Kalyani"], 
   "t": "1071-01-01",
   "b": "Goa Kadambası I. Jayakesin Batı Chalukya VI. Vikramaditya'ya bağlılığını sürdürdü (en az 1071)",
   "tur": "siyaset",
@@ -11354,7 +11354,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1079 (bilinen tarih)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Patan"], 
   "t": "1081-01-01",
   "b": "Patan Thakurisi Vamadeva Nayakot Thakurilerini devirdi (11. yy sonu)",
   "tur": "hukumdar",
@@ -11374,7 +11374,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Devrilme yılı bilinmez (\"11. yy son çeyreği\"); 1081 Vamadeva'nın bilinen tarihidir."
  },
- {
+ { "odak_yer":["Srinagar"], 
   "t": "1089-01-01",
   "b": "Kalasa'nın ölümü: Utkarsha Lohara'dan getirilip tahta oturtuldu",
   "tur": "hukumdar",
@@ -11452,7 +11452,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "\"some time about A.D. 1097\"",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Kalyani"], 
   "t": "1098-01-01",
   "b": "Guvaladeva II 1098'de Goa'da hükümdar; ardılı Vijayaditya Chalukyalara isyan etti, Sinda Acha Gove'yi yaktı",
   "tur": "siyaset",
@@ -11473,7 +11473,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gove'nin yakılma yılı belirtilmez (VI. Vikramaditya 1076-1126)."
  },
- {
+ { "odak_yer":["Srinagar"], 
   "t": "1101-01-01",
   "b": "Kral Harsha Uchchala ve Sussala'nın isyanında öldü; ikinci Lohara hanedanı başladı",
   "tur": "hukumdar",
@@ -11492,7 +11492,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1101",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Polonnaruwa"], 
   "t": "1110-01-01",
   "b": "Vijayabahu I öldü (c.1110); Jayabahu Polonnaruva'da tahta çıkarıldı, Kuzey-Güney Lanka çatışması başladı",
   "tur": "hukumdar",
@@ -11511,7 +11511,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "c. 1110",
   "kesinlik": "onyil"
  },
- {
+ { "odak_yer":["Srinagar"], 
   "t": "1111-01-01",
   "b": "Uchchala öldürüldü; kısa süre Radda, sonra Salhana tahta çıkarıldı",
   "tur": "hukumdar",
@@ -11530,7 +11530,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1111",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Srinagar"], 
   "t": "1112-01-01",
   "b": "Sussala Keşmir başkentini alıp Salhana'yı tutsak etti",
   "tur": "hukumdar",
@@ -11549,7 +11549,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1112",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Tripuri"], 
   "t": "1114-01-01",
   "b": "I. Jajalladeva Tripuri Kalachurilerinden bağımsız oldu (1114 tarihli yazıt)",
   "tur": "bolunme",
@@ -11589,7 +11589,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1118-1123",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Kalyani"], 
   "t": "1125-01-01",
   "b": "II. Jayakesin (bilinen saltanat yılları 1125, 1147) Vikramaditya'nın kızıyla evlendi",
   "tur": "hukumdar",
@@ -11609,7 +11609,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1125, 1147",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Srinagar"], 
   "t": "1128-01-01",
   "b": "Sussala suikastla öldü; oğlu Jayasimha Keşmir'i yönetti",
   "tur": "hukumdar",
@@ -11628,7 +11628,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1128",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1153-01-01",
   "b": "Chahamana IV. Vigraharaja Delhi'yi Tomaralardan aldı",
   "tur": "toprak-kayip",
@@ -11650,7 +11650,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "BEYANLI YAKLAŞIKLIK: Majumdar fetih yılını vermez, yalnız hükümdarın bilinen tarihleri 1153-1163. 1153-01-01 saltanatın alt sınırıdır. Majumdar IV \"III. Vigraharaja\" der, Majumdar V \"IV. Vigraharaja (Visaladeva)\": hükümdar numarası çelişkisi."
  },
- {
+ { "odak_yer":["Kalyani"], 
   "t": "1156-01-01",
   "b": "Bijjala Batı Chalukya tahtını ele geçirdi (Kalyani Kalachurileri)",
   "tur": "kurulus",
@@ -11671,7 +11671,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Majumdar metninde \"A D. 1156\" yazımı."
  },
- {
+ { "odak_yer":["Lahor"], 
   "t": "1157-01-01",
   "b": "Hüsrev Şah Gazne'yi Oğuzlara kaptırıp Lahor'a çekildi",
   "tur": "siyaset",
@@ -11692,7 +11692,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "f=1157-01-01 alt sınırdır (\"shortly after\"). Lahor, Gazneli ailesinin merkezi olarak 11. yy sonundan beri fiilen öne çıkmıştı (Majumdar V)."
  },
- {
+ { "odak_yer":["Lahor"], 
   "t": "1160-01-01",
   "b": "Hüsrev Melik Lahor'da tahta çıktı (son Gazneli)",
   "tur": "hukumdar",
@@ -11711,7 +11711,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1160",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Kalyani"], 
   "t": "1160-01-01",
   "b": "Bijjala Kalyana'yı işgal etti (en geç 1160)",
   "tur": "toprak-kayip",
@@ -11733,7 +11733,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "BEYANLI YAKLAŞIKLIK: işgal yılı verilmez, \"1160'tan önce\"; 1160-01-01 üst sınır olarak alındı."
  },
- {
+ { "odak_yer":["Ratanpur"], 
   "t": "1161-01-01",
   "b": "II. Jajalla (1161-1167); ardılları III. Ratnadeva ve Pratapamalla",
   "tur": "hukumdar",
@@ -11752,7 +11752,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1161-1167",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Kalyani"], 
   "t": "1168-01-01",
   "b": "Bijjala tahtı oğlu II. Somesvara'ya bıraktı (1168)",
   "tur": "hukumdar",
@@ -11772,7 +11772,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: geç dönem Basavapurana'ya göre Bijjala Basava'nın adamlarınca öldürüldü; Majumdar çağdaş yazıtların tahttan çekilmeyi gösterdiğini söyler."
  },
- {
+ { "odak_yer":["Srinagar"], 
   "t": "1172-01-01",
   "b": "Lohara hanedanının son kralı Vantideva'nın saltanatı bitti; halk Vuppadeva'yı kral seçti",
   "tur": "son",
@@ -11792,7 +11792,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Girdi künye t=1320 \"Lohara\" adı altında Suhadeva'ya dek uzanır; Majumdar V Lohara hanedanını Vantideva'da (1172) bitirir, sonrası \"elected\" Vuppadeva soyu (aynı Keşmir devleti). Künye t=1172 yazıldı; 1172-1320 `kesmir` kimliğine bırakıldı."
  },
- {
+ { "odak_yer":["Kalyani"], 
   "t": "1177-01-01",
   "b": "II. Somesvara'nın bilinen son yılı; kardeşi II. Sankama tahtta",
   "tur": "hukumdar",
@@ -11811,7 +11811,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1177",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Patan"], 
   "t": "1178-01-01",
   "b": "Chaulukya II. Bhimadeva Sumra Pithu'ya (Pithadeva) karşı ordu gönderdi",
   "tur": "savas",
@@ -11832,7 +11832,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Sefer yılı bilinmez; 1178-01-01 Bhimadeva'nın tahta çıkışıdır (alt sınır). Pithu ≡ Pithadeva özdeşliği Bühler'indir (Majumdar aktarır)."
  },
- {
+ { "odak_yer":["Lahor"], 
   "t": "1181-01-01",
   "b": "Gurlu Muizzeddin Lahor kapısına dayandı; Hüsrev Melik antlaşma yapıp oğlunu rehin verdi",
   "tur": "antlasma",
@@ -11852,7 +11852,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1181",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Kalyani"], 
   "t": "1181-01-01",
   "b": "Chalukya IV. Somesvara Kalyana tahtını Kalachurilerden geri aldı (1181-82)",
   "tur": "toprak-kazanc",
@@ -11874,7 +11874,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok; Kalachuri künye t=1181 ile uyumlu. Majumdar Kalachuri sonunu 1181-82'ye koyar."
  },
- {
+ { "odak_yer":["Lahor"], 
   "t": "1186-01-01",
   "b": "Gurlu Muizzeddin Lahor'u aldı, Hüsrev Melik'i tutsak etti; Gazneli hanedanı bitti",
   "tur": "toprak-kayip",
@@ -11896,7 +11896,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Majumdar gün vermez (Pencap Gazneli kolunun sonu 1186)."
  },
- {
+ { "odak_yer":["Devagiri"], 
   "t": "1189-01-01",
   "b": "Yadava Bhillama Kalyana'yı IV. Somesvara'dan aldı (en geç 1189)",
   "tur": "toprak-kayip",
@@ -11918,7 +11918,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Üst sınır: 1189'da ya da öncesinde (1189 Majumdar'ın Bellary/Shimoga için son bilinen Chalukya tarihidir)."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1192-01-01",
   "b": "II. Tarain: Prithviraja yenildi, Delhi Gurlu hâkimiyetine girdi",
   "tur": "savas",
@@ -11940,7 +11940,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün bu kaynakta yok (TDV/başka kaynak taranmadı); Delhi'de Gurlu hâkimiyeti 1193 fethiyle pekişir."
  },
- {
+ { "odak_yer":["Multan"], 
   "t": "1196-01-01",
   "b": "Müslümanlar bir yıl süren saldırılardan sonra Gwalior'u aldı (1196)",
   "tur": "toprak-kayip",
@@ -11962,7 +11962,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Fetih yılı: Majumdar V 1196 (kuşatma 1195'te başlar). Gün kaynakta yok."
  },
- {
+ { "odak_yer":["Goa"], 
   "t": "1198-01-01",
   "b": "III. Jayakesin Chalukya IV. Somesvara'ya sığınma ve üstünlük tanıdı (en az 1198)",
   "tur": "siyaset",
@@ -11983,7 +11983,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Goa'nın 1281 sonrası Yadava zinciri (mevcut atlas kaydı: yadava 1281-1318) ile Goa Kadambalarının Yadava VASALI olarak sürmesi ARASINDA çelişki var (BEYAN): mevcut zincir suzeren sahibi, MS1 künye ise t=1310 ile vasal devleti sayıyor. Majumdar Goa Kadambalarının sonunu vermez."
  },
- {
+ { "odak_yer":["Katmandu"], 
   "t": "1201-01-01",
   "b": "Arimalladeva: Malla hanedanının kurucusu olması muhtemel kral (1201-1216)",
   "tur": "hukumdar",
@@ -12003,7 +12003,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "BEYANLI YAKLAŞIKLIK: hanedan değişim günü bilinmez; 1201 Arimalla'nın bilinen ilk tarihidir. Girdi künye t=1200; `nepal` kimliğine devir 1201-01-01."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1210-01-01",
   "b": "Aram Şah devrinde Pratihara (Parihar) reisi Vigraha Müslümanları yenip Gwalior'u aldı (1210-11)",
   "tur": "toprak-kayip",
@@ -12025,7 +12025,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Pratihara (Parihar) Gwalior kolu için atlasta devlet kimliği yok: 1210-1281 dilimleri yazılmadı (yama devam_gerekli)."
  },
- {
+ { "odak_yer":["Polonnaruwa"], 
   "t": "1210-01-01",
   "b": "Lokesvara Güney Hindistan'dan gelip Polonnaruva'da dokuz ay hüküm sürdü (c.1210-11)",
   "tur": "isgal",
@@ -12044,7 +12044,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "c. 1210-11",
   "kesinlik": "onyil"
  },
- {
+ { "odak_yer":["Polonnaruwa"], 
   "t": "1211-01-01",
   "b": "Parakrama Pandya Pandya ordusuyla Lilavati'yi indirip üç yıl hüküm sürdü (c.1211-14)",
   "tur": "isgal",
@@ -12063,7 +12063,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "c. 1211-14",
   "kesinlik": "onyil"
  },
- {
+ { "odak_yer":["Polonnaruwa"], 
   "t": "1214-01-01",
   "b": "Kalinga'dan gelen Magha Parakrama Pandya'yı devirdi, Polonnaruva'da hüküm sürdü (c.1214-35)",
   "tur": "isgal",
@@ -12083,7 +12083,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Girdi künye t=1214 (Magha'nın gelişi); Majumdar Polonnaruva çağını Magha ile (1235) bitirir. Künye t=1235-01-01 yazıldı."
  },
- {
+ { "odak_yer":["Ratanpur"], 
   "t": "1218-01-01",
   "b": "Pratapamalla en az 1218'e dek hüküm sürdü; ardılı kaynaklarda bilinmiyor",
   "tur": "hukumdar",
@@ -12103,7 +12103,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Majumdar 1218'den sonrası için tanık vermez: Ratanpur zincirinin 1218-1281 aralığı BEYANLI SÜREKLİLİK varsayımıdır (ardıl kayıt yok)."
  },
- {
+ { "odak_yer":["Katmandu"], 
   "t": "1223-01-01",
   "b": "Abhayamalla (1223-1252) döneminde depremler ve kıtlık; oğulları Bhaktapura'yı kurdu",
   "tur": "hukumdar",
@@ -12122,7 +12122,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1223-1252",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Dambadeniya"], 
   "t": "1236-01-01",
   "b": "II. Parakramabahu Polonnaruva'yı geçici olarak işgal etti (c.1236-71); IV. Vijayabahu oradan hüküm sürdü (c.1271-73)",
   "tur": "hukumdar",
@@ -12142,7 +12142,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "BEYANLI YAKLAŞIKLIK: 1235-1281 arası Polonnaruva zincirinde `seylan-sinhala` genel Sinhala kimliği kullanıldı; şehrin fiilî sahibi kimi zaman Tamil/Magha yönetimiydi (Majumdar: hiçbir kral adaya tam hâkim değil)."
  },
- {
+ { "odak_yer":["Devagiri"], 
   "t": "1271-01-01",
   "b": "Yadava Mahadeva Kuzey Konkan'ı ilhak etti, Silahara Somesvara deniz savaşında öldü",
   "tur": "toprak-kayip",
@@ -12184,7 +12184,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: iki tarih (1314 Chandesvara'nın kendi beyanı, 1324 gelenek); Majumdar ikisini de verir."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1324-01-01",
   "b": "Gıyaseddin Tuğluk Tirhut'a girdi; Harisimha Simraon'u terk edip Bhatgaon'a çekildi",
   "tur": "savas",
@@ -12225,7 +12225,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok; Majumdar yalnız \"14. yy ortası\"."
  },
- {
+ { "odak_yer":["Alor"], 
   "t": "0600-01-01",
   "b": "Sahiras Nimruz kralıyla savaşta öldü; oğlu II. Sahasi Rai tahta çıktı",
   "tur": "hukumdar",
@@ -12245,7 +12245,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "Yıl yok; Majumdar 'probably' der."
  },
- {
+ { "odak_yer":["Alor"], 
   "t": "0600-01-01",
   "b": "Sind (Sindhu) 7. yüzyıl başından itibaren geniş ve güçlü bir krallıktı; başkent Alor",
   "tur": "siyaset",
@@ -12286,7 +12286,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "ÇELİŞKİ (üç tarih): Çaç-nâme 602 ('palpably wrong'), Arap kroniği 622, Majumdar'ın değerlendirmesi 640 sonrası (Hiuen Tsang'ın 'Sudra kral' tanığı; oğlunun 708'de tahtta olması da 640 sonrasına uyar). 640 alındı (ONYIL hassasiyetli)."
  },
- {
+ { "odak_yer":["Lahor"], 
   "t": "0991-01-01",
   "b": "Lahor Mültan emirliğinden Hindu Şâhîlere geçti (991'den sonra)",
   "tur": "toprak-kazanc",
@@ -12307,7 +12307,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "BEYANLI YAKLAŞIKLIK: TDV '991’den sonra' der; kesin yıl yok (alt sınır)."
  },
- {
+ { "odak_yer":["Kançipuram (Kanchipuram)"], 
   "t": "1014-01-01",
   "b": "I. Rajaraja Çola Maldiv adalarını fethetti",
   "tur": "isgal",
@@ -12408,7 +12408,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Yıl yok; çeyrek sonu için 1125 temsilî yıl (ONYIL hassasiyeti)."
  },
- {
+ { "odak_yer":["Nadia"], 
   "t": "1150-01-01",
   "b": "Sena Vijayasena Doğu Bengal'i fethetti; Varman Bhojavarman devrildi",
   "tur": "toprak-kayip",
@@ -12429,7 +12429,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Majumdar 'Bhojavarman ya da halefi' der; yıl yok, 1150 temsilî yıl."
  },
- {
+ { "odak_yer":["Malé"], 
   "t": "1153-07-07",
   "b": "Maldiv Budist kralı Şeyh Yûsuf Şemseddin et-Tebrîzî eliyle müslüman oldu",
   "tur": "siyaset",
@@ -12451,7 +12451,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "ÇELİŞKİ (iki kaynak): Kâdî Hasan Tâceddin (18. yy) 548/1153 ve Tebrizli Yûsuf Şemseddin; İbn Battûta Mağribli Ebü'l-Berekât ve kral adı Ahmed — TDV ikincisini bugün genel kabul olarak anar ama günü yalnız birincisinden verir.",
   "ic_not_takvim": "TDV 12 Rebîülâhir 548 = 7 Temmuz 1153 verir; aritmetik sivil takvimle (Jülyen) 12 Rebîülâhir 548 = 1153-07-07 çıkar — uyumlu."
  },
- {
+ { "odak_yer":["Kannauc"], 
   "t": "1158-01-01",
   "b": "Pratapadhavala'nın Shahabad yazıtları (1158): Japila Mahanayakası Gahadavala Vijayachandra'nın vasalı",
   "tur": "siyaset",
@@ -12472,7 +12472,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "En erken tarihli yazıt 1158; hanedanın kuruluşu ve Sadhava/Ranadhavala'nın yılları kaynakta yok. Japila'nın yeri Majumdar'da yalnız 'Shahabad Bölgesi' olarak verilir; Rohtasgarh özdeşleştirmesi bu oturumda kaynaklanamadı."
  },
- {
+ { "odak_yer":["Multan"], 
   "t": "1175-07-22",
   "b": "Muizzüddin Muhammed Mültan ve Yukarı Sind'deki Karmatî Krallığı'nı aldı",
   "tur": "toprak-kazanc",
@@ -12494,7 +12494,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "TDV yalnız hicrî yıl ve milâdî yıl çifti verir; gün yok.",
   "ic_not_takvim": "Hicrî 571 yılı (1175-07-22 … 1176-07-09 Jülyen, aritmetik sivil takvim, ±2 gün) ∩ kaynağın milâdî yılı: kesişimin ilk günü alındı; kaynak günü vermiyor."
  },
- {
+ { "odak_yer":["Multan"], 
   "t": "1178-06-19",
   "b": "Muizzüddin Gucerât seferinde yenildi (Kasahrada)",
   "tur": "savas",
@@ -12516,7 +12516,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "TDV hicrî 574 (1178-79); Majumdar V Nadol'un yağması ve Kasahrada yenilgisini 1178'e koyar — uyumlu. Gün yok; hicrî ∩ milâdî 1178 kesişiminin ilk günü alındı.",
   "ic_not_takvim": "Hicrî 574 yılı (1178-06-19 … 1179-06-08 Jülyen, aritmetik sivil takvim, ±2 gün) ∩ kaynağın milâdî yılı: kesişimin ilk günü alındı; kaynak günü vermiyor."
  },
- {
+ { "odak_yer":["Deybül"], 
   "t": "1182-01-01",
   "b": "Muizzüddin Aşağı Sind'i (Deybül dahil) Karmatîler'den temizledi",
   "tur": "toprak-kazanc",
@@ -12535,7 +12535,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1182 (TDV)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Lahor"], 
   "t": "1186-01-01",
   "b": "Gurlular Lahor'u aldı; son Gazneli hükümdar Hüsrev Melik teslim oldu",
   "tur": "toprak-kazanc",
@@ -12556,7 +12556,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "TDV Lahor maddesi de 582/1186'yı verir; gün yok (YYYY-01-01)."
  },
- {
+ { "odak_yer":["Multan"], 
   "t": "1191-01-01",
   "b": "Birinci Tarain: Muizzüddin Çavhan Prithivi Raj'a yenildi",
   "tur": "savas",
@@ -12576,7 +12576,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1191 (TDV)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Ecmîr"], 
   "t": "1192-01-01",
   "b": "Tarain'den sonra Ranthambhor kolu direnişi sürdürdü",
   "tur": "kurulus",
@@ -12597,7 +12597,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Govindaraja'nın iktidara geliş yılı kaynakta yok; 1192 direniş çağının başlangıç yılıdır (onyıl hassasiyeti)."
  },
- {
+ { "odak_yer":["Ecmîr"], 
   "t": "1192-01-01",
   "b": "İkinci Tarain: Prithivi Raj yenilip öldürüldü; Ecmîr Gurlular'a geçti",
   "tur": "toprak-kazanc",
@@ -12618,7 +12618,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hint kaynaklı rivayetlerde ikinci Tarain 1192'dir; gün yok."
  },
- {
+ { "odak_yer":["Multan"], 
   "t": "1193-01-01",
   "b": "Gurlular Gahadavala Cayaçandra'yı Çandavar'da yendi",
   "tur": "savas",
@@ -12678,7 +12678,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Aralığın başı yazıldı."
  },
- {
+ { "odak_yer":["Gaur"], 
   "t": "1203-01-01",
   "b": "Muhammed Bahtiyâr Halacî Bengal'i fethetti (Gaur/Lakhnautî)",
   "tur": "toprak-kazanc",
@@ -12720,7 +12720,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Üç sefer tek cümlede; 1205 ilk seferin yılıdır. Majumdar V Yuzbak'ın seferini OCR'da '1207' yazar (VI: 1257)."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1206-01-01",
   "b": "Muizzüddin Muhammed Demyek'te öldürüldü; Gurlu Hindistan toprakları Aybeg'e kaldı",
   "tur": "son",
@@ -12762,7 +12762,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Atlasın `ahom` künyesi f=1281 ve ic_not'taki 'geleneksel 1228' bu oturumda Majumdar V-VI ile doğrulanamadı; Majumdar kuruluşu 1215 (yola çıkış) / 1253 (Charaideo) verir → künye düzeltme önerisi: f=1253 (yerleşim) ya da 1215 (hareket)."
  },
- {
+ { "odak_yer":["Sadiya"], 
   "t": "1215-01-01",
   "b": "Chutiyalar Sadiya'da hüküm sürerken Ahomlar vilayete girdi",
   "tur": "siyaset",
@@ -12783,7 +12783,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Chutiya'nın Sadiya'daki en erken tanığı 'beginning of the 13th century' (yıl yok); 1215 Ahomların Maulung'dan yola çıkış yılıdır (alt sınır işareti). Chutiya künye f=1187 (Birpal) kaynakta yok."
  },
- {
+ { "odak_yer":["Dambadeniya"], 
   "t": "1220-01-01",
   "b": "III. Vijayabâhu başkenti Dambadeniya'ya kurdu",
   "tur": "baskent",
@@ -12823,7 +12823,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Majumdar 'might have been' der; hanedanın sona erişi bu tarihten sonra bilinmiyor (t alt sınırdır)."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1226-01-01",
   "b": "Iltutmish Ranthambhor'u fethetti",
   "tur": "toprak-kayip",
@@ -12844,7 +12844,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok (YYYY-01-01). Majumdar aynı sayfada Hammira-Mahakavya ile Müslüman kaynakların uzlaştırılmasının güç olduğunu söyler."
  },
- {
+ { "odak_yer":["Devagiri"], 
   "t": "1231-01-01",
   "b": "Lavanaprasada Yadava Singhana ile antlaşma yaptı; ardından Viradhavala fiilî hükümdar oldu",
   "tur": "antlasma",
@@ -12887,7 +12887,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "BEYANLI YAKLAŞIKLIK: Majumdar 'seems to have' der; devir günü yok. 1234 Damodara'nın ilk tarihli yazıtı (üst sınır): Pattikera'nın Deva'ya geçişi 1219 (Harikaladeva'nın son tarihi) ile 1234 arasında olmalı."
  },
- {
+ { "odak_yer":["Dambadeniya"], 
   "t": "1236-01-01",
   "b": "II. Parâkramabâhu tahta çıktı; Diş Emâneti başkent Dambadeniya'ya getirildi",
   "tur": "hukumdar",
@@ -12907,7 +12907,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Codrington Pujâvaliya'ya göre saltanatın 1234'ten başladığını, taç giymenin 1236'da olduğunu söyler; 1236 alındı."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1236-01-01",
   "b": "Iltutmish'in ölümü sonrası Hindular Ranthambhor'u kuşattı; Müslüman ordu kaleyi yıkıp Delhi'ye döndü",
   "tur": "toprak-kazanc",
@@ -12928,7 +12928,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "BEYANLI YAKLAŞIKLIK: kale el değiştirme günü kaynakta yok; Majumdar Müslüman kaynakla Hammira-Mahakavya'yı uzlaştırmanın güç olduğunu ve Jalal-ud-din hikâyesinin kuşkulu olduğunu söyler. 1236-01-01 Iltutmish'in ölüm yılıdır (üst-alt sınır)."
  },
- {
+ { "odak_yer":["Patan"], 
   "t": "1243-01-01",
   "b": "Visaladeva Anahilapataka'da kral oldu (Cain geleneği)",
   "tur": "hukumdar",
@@ -12949,7 +12949,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "BEYANLI: Majumdar Sundha yazıtı (1261) ve Cain edebiyatı arasındaki çelişkiyi 'authenticity cannot be verified' olarak bırakır; 1243 Cain geleneğidir."
  },
- {
+ { "odak_yer":["Polonnaruwa"], 
   "t": "1244-01-01",
   "b": "II. Parâkramabâhu Polonnaruwa'yı Tamillerden geri aldı (1244'e kadar)",
   "tur": "savas",
@@ -12969,7 +12969,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "'by 1244' üst sınırdır; Polonnaruwa'nın kesin el değiştirme günü kaynakta yok."
  },
- {
+ { "odak_yer":["Dambadeniya"], 
   "t": "1244-01-01",
   "b": "Javalı Candrabhânu Seylan'a ilk saldırısını yaptı",
   "tur": "isgal",
@@ -12989,7 +12989,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Codrington '1244/5' verir; ilk yıl alındı."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1248-01-01",
   "b": "Balban'ın Ranthambhor seferleri (1248 ve 1253) ganimetle sonuçlandı",
   "tur": "savas",
@@ -13051,7 +13051,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok. Charaideo için yalnız bir bağımsız koordinat tanığı bulundu (Wikidata Q5073874) → yerleşim kaydı yazılmadı."
  },
- {
+ { "odak_yer":["Madurai"], 
   "t": "1254-01-01",
   "b": "Büyük Pandya istilâsı: Seylan krallarından biri öldürüldü, öteki haraca bağlandı",
   "tur": "isgal",
@@ -13072,7 +13072,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Aralığın başı yazıldı; kaynak 'seems to have' der (kronikler sessizdir)."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1257-01-01",
   "b": "Yuzbak Tuğrul Han Kamarupa'ya girdi, Gauhati'yi aldı ama su baskınıyla bozguna uğradı",
   "tur": "savas",
@@ -13094,7 +13094,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gün yok. Majumdar kralın adını bilmediğini söyler; Kamata'nın eski Kamarupa'nın devamı mı yeni hanedan mı olduğu belirsizdir."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1259-01-01",
   "b": "Cayatrasimha Nâsırüddin'in ordusunca yenildi (Minhaj)",
   "tur": "savas",
@@ -13115,7 +13115,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Özdeşleştirme 'probably' ile verilir."
  },
- {
+ { "odak_yer":["Nadia"], 
   "t": "1260-01-01",
   "b": "Danujamadhava Dasarathadeva Vanga'yı Sena'dan aldı (13. yüzyıl ortasından kısa süre sonra)",
   "tur": "toprak-kazanc",
@@ -13136,7 +13136,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "BEYANLI YAKLAŞIKLIK: kesin yıl yok; 1260 Minhaj'ın Sena için verdiği en geç yıldır (yaklaşıklık işareti)."
  },
- {
+ { "odak_yer":["Patan"], 
   "t": "1261-01-01",
   "b": "Visala tahtı yeğeni Arjuna'ya bıraktı",
   "tur": "hukumdar",
@@ -13156,7 +13156,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Aralığın başı yazıldı."
  },
- {
+ { "odak_yer":["Dambadeniya"], 
   "t": "1268-01-01",
   "b": "Candrabhânu Yapahu önünde yenildi",
   "tur": "savas",
@@ -13176,7 +13176,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Yıl kaynakta yok; Codrington olayı IV. Vijayabâhu saltanatına koyar (c. 1267/8-1270): 1268 yaklaşık işaretidir."
  },
- {
+ { "odak_yer":["Dambadeniya"], 
   "t": "1269-01-01",
   "b": "II. Parâkramabâhu Dambadeniya'da öldü",
   "tur": "hukumdar",
@@ -13196,7 +13196,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Codrington iki olasılığı verir; ilk yıl alındı."
  },
- {
+ { "odak_yer":["Dambadeniya"], 
   "t": "1271-01-01",
   "b": "I. Bhuvanaikabâhu 1271 başında taç giydi; birkaç yıl Dambadeniya'da kalıp Yapahuva'ya geçti",
   "tur": "hukumdar",
@@ -13216,7 +13216,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yapahuva'ya geçiş yılı kaynakta yok ('a few years' sonra)."
  },
- {
+ { "odak_yer":["Patan"], 
   "t": "1274-01-01",
   "b": "Sarangadeva Vaghela tahtına çıktı",
   "tur": "hukumdar",
@@ -13235,7 +13235,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "A.D. 1274 (Majumdar V)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Sibsâgar (Rangpûr)"], 
   "t": "1281-01-01",
   "b": "Suteupha öldü; Subinpha Ahom tahtına çıktı",
   "tur": "hukumdar",
@@ -13254,7 +13254,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "A.D. 1281 (Majumdar V)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1283-01-01",
   "b": "Balban Sonargaon'da Deva Danujamadhava ile Tuğrul'un su yolu kaçışını kesmek için anlaştı",
   "tur": "ittifak",
@@ -13275,7 +13275,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ/BEYAN: Majumdar V'in iki bölümü Balban'ın Sonargaon'daki buluşmasını farklı anlatır (Bengal bölümü: 1283; Memlûk bölümü Tuğrul'un öldürülmesini ve Balban'ın üç yıl sonra dönüşünü anlatır, yıl vermez); 1283 Bengal bölümünün yılıdır. Atlas 1281'den Sonârgâon'u 'delhi-sultanligi' sayar, Majumdar o tarihte Deva'yı 'yerel hükümdar' olarak anar."
  },
- {
+ { "odak_yer":["Kahire"], 
   "t": "1283-01-01",
   "b": "Bhuvanaikabâhu Yapahu'dan Mısır sultanına ittifak elçisi gönderdi",
   "tur": "ittifak",
@@ -13315,7 +13315,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "A D. 1283 (Majumdar V)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Madurai"], 
   "t": "1284-01-01",
   "b": "Pandya generali Ârya Cakravarti Yapahu'yu alıp Diş Emâneti'ni götürdü",
   "tur": "isgal",
@@ -13356,7 +13356,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "Yıl yok (YÜZYIL hassasiyeti); 1290 temsilî yıldır. Kamatapur'un başkent oluş tarihi kaynakta verilmez."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1291-06-03",
   "b": "Celâleddin Fîrûz Halacî Ranthambhor'u kuşatmadan Delhi'ye döndü",
   "tur": "savas",
@@ -13377,7 +13377,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Majumdar'ın verdiği gün; takvim belirtilmemiş (Jülyen varsayıldı)."
  },
- {
+ { "odak_yer":["Sibsâgar (Rangpûr)"], 
   "t": "1293-01-01",
   "b": "Ahom-Kamata uzun savaşı antlaşmayla bitti; Sukhangpha Kamata prensesiyle evlendi",
   "tur": "antlasma",
@@ -13398,7 +13398,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Antlaşma günü yok; 1293 Sukhangpha'nın cülus yılıdır (üst sınır). Prensesin adı V'te Rajani, VI'da Bhajani yazılır."
  },
- {
+ { "odak_yer":["Sibsâgar (Rangpûr)"], 
   "t": "1293-01-01",
   "b": "Sukhangpha Ahom tahtına çıktı",
   "tur": "hukumdar",
@@ -13417,7 +13417,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "A.D. 1293 (Majumdar V)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Patan"], 
   "t": "1296-01-01",
   "b": "Karna Vaghela tahtına çıktı (son Vaghela kralı)",
   "tur": "hukumdar",
@@ -13436,7 +13436,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "AD. 1296 (Majumdar V)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1299-01-01",
   "b": "Alâeddin Halacî'nin generalleri Anahilvâra'yı aldı; Karna kaçtı",
   "tur": "toprak-kayip",
@@ -13457,7 +13457,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: Majumdar V 1299; Majumdar VI seferi '1298'in ikinci yarısı' (OCR \"12 98\") diye anlatır. V'in yılı alındı; iki ayrı cildin (V ve VI) farkı."
  },
- {
+ { "odak_yer":["Delhi"], 
   "t": "1301-07-11",
   "b": "Alâeddin Halacî Ranthambhor'u aldı; Hammiradeva ölünce hanedan sona erdi",
   "tur": "toprak-kayip",
@@ -13478,7 +13478,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Majumdar VI Ranthambhor kuşatmasının başka bir yerde (Mithila bölümü) 1300 olarak anıldığını, Barani'nin ise 699 H (1299-1300) verdiğini aktarır; teslim günü VI'nın ana anlatısından alındı."
  },
- {
+ { "odak_yer":["Sibsâgar (Rangpûr)"], 
   "t": "1332-01-01",
   "b": "Sukhangpha'nın ölümünden sonra üç oğlunun saltanatında Chutiyalarla uzun düşmanlık",
   "tur": "savas",
@@ -13499,7 +13499,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Aralığın başı yazıldı (Sukhangpha'nın ölüm yılı)."
  },
- {
+ { "odak_yer":["Yafna"], 
   "t": "1344-01-01",
   "b": "İbn Battûta Seylan'ın kuzeyini (Puttalam dahil) Yafna kralının elinde buldu",
   "tur": "siyaset",
@@ -13520,7 +13520,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Pencere dışı (1281 sonrası) ama Yafna krallığının en erken kaynaklı tanıklarındandır; Yafna künyesindeki 1215 kuruluşu bu oturumda doğrulanamadı (Majumdar V yalnız 'the Tamils founded the kingdom of Jaffna' der)."
  },
- {
+ { "odak_yer":["Pandua"], 
   "t": "1498-01-01",
   "b": "Bengal Sultanı Hüseyin Şah Kamata Krallığı'nı ortadan kaldırdı (1498-1502)",
   "tur": "toprak-kayip",
@@ -13541,7 +13541,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Aralığın başı yazıldı; Majumdar Bengal bölümünde seferi 'presumably 1499-1502' ve Malda yazıtının 1502'de fethi ilân ettiğini söyler. Kamata künyesi t=1581 (okunmadı) ile çelişir: öneri t=1498-1502."
  },
- {
+ { "odak_yer":["Sibsâgar (Rangpûr)"], 
   "t": "1523-01-01",
   "b": "Ahom-Chutiya savaşı (1513-1523) Chutiya ülkesinin ilhakıyla bitti",
   "tur": "toprak-kayip",
@@ -13562,7 +13562,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Savaşın bitiş yılı (1523) alındı; Majumdar kronoloji tablosunda 'End of the Ahom-Chutiya war' 1523'tür. Chutiya künyesi t=1501 ('16. yy başı' yüzyıl hassasiyetli) ile çelişir: öneri t=1523."
  },
- {
+ { "odak_yer":["Sibsâgar (Rangpûr)"], 
   "t": "1527-01-01",
   "b": "Chutiyalar 1527 ve 1529'da bağımsızlık için ayaklandı; bastırıldı",
   "tur": "isyan",
@@ -13583,7 +13583,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "İlk ayaklanmanın yılı alındı."
  },
- {
+ { "odak_yer":["Lizbon"], 
   "t": "1558-01-01",
   "b": "Portekiz Maldivleri işgal etti (965-981 / 1558-1573)",
   "tur": "isgal",
@@ -13605,7 +13605,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Gün yok; hicrî 965 (1557-10-24 … 1558-10-13 Jülyen, aritmetik sivil takvim, ±2 gün) ∩ milâdî 1558: kesişimin ilk günü 1558-01-01 alındı.",
   "ic_not_takvim": "Hicrî 965 yılı (1557-10-24 … 1558-10-13 Jülyen, aritmetik sivil takvim, ±2 gün) ∩ milâdî 1558: kesişimin ilk günü 1558-01-01."
  },
- {
+ { "odak_yer":["Lizbon"], 
   "t": "1573-05-03",
   "b": "Portekizliler Maldivlerden çıkarıldı; Muhammed Takurufânu sultan ilân edildi",
   "tur": "toprak-kazanc",
@@ -13627,7 +13627,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Gün yok; hicrî 981 yılının ilk günü 1573-05-03 (milâdî 1573 ile kesişimin ilk günü), aritmetik sivil takvim ±2 gün.",
   "ic_not_takvim": "Hicrî 981 yılı (1573-05-03 … 1574-04-22 Jülyen, aritmetik sivil takvim, ±2 gün) ∩ milâdî 1573: kesişimin ilk günü 1573-05-03."
  },
- {
+ { "odak_yer":["Londra"], 
   "t": "1887-01-01",
   "b": "Maldivler İngiltere'nin himayesini resmen kabul etti",
   "tur": "antlasma",
@@ -14092,7 +14092,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Jiu Tang 3 ay verir (gün yok); ay başı hesaplandı. Jiu Tang 199 xia ayrıca Ashina Sheer ve Li Daozong’un Xueyantuo kalıntısını Gobi’de bozduğunu anlatır (tarihsiz).",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 貞觀二十年六月 ayı başı → Jülyen 0646-07-18 (Gregoryen 0646-07-21); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, 640-12-19 甲子朔 = kış gündönümü ve cin1 534-11-08 丙寅 örnekleriyle sınandı), ±1 gün; Jülyen kalır (1582 öncesi)."
  },
- {
+ { "odak_yer":["Medine"], 
   "onem": 3,
   "dunya": 2,
   "kapsam": "dis",
@@ -14154,7 +14154,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "661",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Karabiga"], 
   "onem": 3,
   "dunya": 2,
   "kapsam": "dis",
@@ -14175,7 +14175,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Esperih’in devleti buyuk-bulgaristan kimliğine bağlanmamıştır (ardıl: Tuna Bulgarları, başka küme); taraflara yalnız köken devlet yazıldı."
  },
- {
+ { "odak_yer":["Semerkant"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -14196,7 +14196,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Semerkant yaması 701’i ayrı dilim yapmadı (TDV yalnız «Semerkant ve çevresi» der; hâkimiyetin süresi/yeri belirsiz); bu madde yerleşim zincirine bağlı değildir, bu yüzden tur=toprak-kazanc yerine ayrı tutuldu (aşağıda `tur` düzeltmesi)."
  },
- {
+ { "odak_yer":["Belh"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -14217,7 +14217,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ: TDV Tohâristan «91/710», TDV Belh «709». İki TDV maddesi yılı ayrı verir (TDV esastır, çelişki beyan edilir); hicrî 91 ∩ 710 kesişimi 710-01-01’de başlar, 709 seçeneği 709 içinde kalır. 0710-01-01 seçildi. ic_not_takvim: hicrî 91 (kaynağın mîlâdî yılı 710) ∩ 710 kesişiminin ilk günü = Jülyen 0710-01-01 (aritmetik hicrî tablo, ±1-2 gün); hicrî yıl başı (1 Muharrem 91) = Jülyen 0709-11-09."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -14239,7 +14239,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not_takvim": "hicrî 93 (kaynağın mîlâdî yılı 712) ∩ 712 kesişiminin ilk günü = Jülyen 0712-01-01 (aritmetik hicrî tablo, ±1-2 gün); hicrî yıl başı (1 Muharrem 93) = Jülyen 0711-10-19.",
   "ic_not": "Kât/Kâs yerleşim kaydı yok (tek tanık; RAPOR); madde toprak-kazanc değildir."
  },
- {
+ { "odak_yer":["Derbend"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -14280,7 +14280,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "718",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Semerkant"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -14322,7 +14322,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "729",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Kûfe"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -14343,7 +14343,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Belencer’in fethi yılı TDV’de verilmez; mağlubiyet 730. Yıl hassasiyeti."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "onem": 4,
   "dunya": 2,
   "kapsam": "dis",
@@ -14445,7 +14445,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "759",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Tiflis"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -14466,7 +14466,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Tiflis atlas zincirine bağlı sınır maddesi yazılmadı (Tiflis zincirini 764 öncesi/sonrası başka kümeler tutar; toprak-kazanç statüsü sahipliğin kalıcılığı gösterilmeden verilmedi). Tiflis’in 629 Hazar kuşatması TDV’de var (okundu), pencere dışı."
  },
- {
+ { "odak_yer":["Karabiga"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -14508,7 +14508,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Jiu Tang 195 «開成» yılları arasında olduğunu (gün ve ay vermez) gösterir; TDV 840. Kırgız komutanının adı Jiu Tang’da «句錄末賀» (Julumohe) — metin PUA karakterli aktarım (Wikisource), yıl 840 TDV’den. Jiu Tang 195’te «Kırgız» yerine «黠戛斯» yazılır."
  },
- {
+ { "odak_yer":["Buhara"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -14690,7 +14690,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1204 (ay-gün yok)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Balasagun"], 
   "t": "1208-01-01",
   "b": "Nayman Küçlüğ Karahıtay Gürhanı'na sığındı",
   "tur": "siyaset",
@@ -14735,7 +14735,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "TDV hicrî 607 yılını «1210-11» diye verir; hicrî 607 ∩ (1210-1211) = tüm hicrî yıl, ilk günü alındı (yıl hassasiyeti). Atlas künyesi dogu-karahanli t=1210-01-01 ve Kâşgar zincirinde __BOSLUK__ 1211-1218 (kuclug-karahitay künyesi hazır) — düzeltme önerisi RAPOR.md.",
   "ic_not_takvim": "Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı."
  },
- {
+ { "odak_yer":["Nîşâbur","Serahs","Merv"], 
   "t": "1200-01-01",
   "b": "Gurlular Tekiş'in ölümü üzerine Hârizmşahlara savaş açıp Nîşâbur, ertesi yıl Merv ve Serahs'ı aldı",
   "tur": "savas",
@@ -14756,7 +14756,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ/ATLAS: TDV Hârizmşahlar md. Alâeddin Muhammed'in Nîşâbur, Merv ve Serahs'ı 1204'te zaptettiğini yazar (kronolojide 1204 maddesi var); TDV Gurlular md. Gurlu işgalini 1200-1201 verir. Atlas Nîşâbur zinciri harizmsah 1202-01-01'de başlar (bu işçinin dışındaki bir kümenin kaydı) — Nîşâbur/Merv/Serahs 1200/01-1204 gurlu önerisi RAPOR.md'de; zincire dokunulmadı çünkü iki TDV maddesi arası şehir-düzeyi gün yok."
  },
- {
+ { "odak_yer":["Karakurum"], 
   "t": "1217-01-01",
   "b": "Yenisey Kırgızları Moğollara karşı direnmeye kalkıştı",
   "tur": "isyan",
@@ -14776,7 +14776,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1217 (ay-gün yok)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Karakurum"], 
   "t": "1218-01-01",
   "b": "Cuci Kırgızları yenip yeniden imparatorluğa bağladı",
   "tur": "savas",
@@ -14819,7 +14819,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Hicrî 276 ∩ 889: tüm hicrî yılın ilk günü alındı (yıl hassasiyeti). TDV Peçenekler md. başka yerde «898»de Oğuz-Hazar hücumuyla İdil-Yayık yurdunun terk edildiğini söyler (md. içi 889/898 farkı beyan edilir).",
   "ic_not_takvim": "Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı."
  },
- {
+ { "odak_yer":["Preslav"], 
   "t": "0895-03-02",
   "b": "Peçenekler Simeon'un müttefiki olarak Macarları Pannonia'ya sürdü, Don-Tuna bozkırına hâkim oldu",
   "tur": "savas",
@@ -14841,7 +14841,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not_takvim": "Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı."
  },
- {
+ { "odak_yer":["Karabiga"], 
   "t": "0972-01-01",
   "b": "Peçenek başbuğu Küre Bizans müttefiki olarak Svyatoslav'ı yenip öldürdü",
   "tur": "savas",
@@ -14862,7 +14862,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "972 (ay-gün yok)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Karabiga"], 
   "t": "1035-01-01",
   "b": "Peçenekler ilk kez Tuna'yı geçip Bizans topraklarını yağmaladı",
   "tur": "savas",
@@ -14882,7 +14882,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1035 (ay-gün yok)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Karabiga"], 
   "t": "1048-01-01",
   "b": "Peçenek akını Bulgaristan'ı yakıp yıktı, Balkanlar yağmalandı",
   "tur": "savas",
@@ -14902,7 +14902,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1048 (ay-gün yok)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Edirne"], 
   "t": "1049-01-01",
   "b": "Turak komutasındaki Peçenekler Bizans ordusunu yenip Edirne'ye ulaştı",
   "tur": "savas",
@@ -14941,7 +14941,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1064-1065",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Silistre"], 
   "t": "1087-01-01",
   "b": "Peçenekler Macarlarla birleşip Bizans topraklarına girdi, Silistre yakınında Bizans'ı yendi",
   "tur": "savas",
@@ -14962,7 +14962,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1087 (ertesi yıl; ay-gün yok)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Karabiga"], 
   "t": "1197-01-01",
   "b": "Peçeneklerin Bizans topraklarına son akını",
   "tur": "savas",
@@ -14982,7 +14982,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1197 (ay-gün yok)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Kuça"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15004,7 +15004,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "貞觀四年 (gün kaynakta yok)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Kuça"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15027,7 +15027,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Jiu Tang 3 yol adını «琯山道», Jiu Tang 198 «昆山道» verir (yazım farkı).",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 貞觀二十一年十二月戊寅 → Jülyen 0648-01-26 (12. ay başı 0648-01-01 癸丑); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
  },
- {
+ { "odak_yer":["Kuça"], 
   "onem": 4,
   "dunya": 1,
   "kapsam": "dis",
@@ -15051,7 +15051,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Ayın başı alındı (gün bilinmiyor). Jiu Tang 198 kralı «訶黎布失畢», Xin Tang 221 shang «訶黎布失畢»; Xin Tang fethi şöyle anlatır: «社爾立王弟葉護王其國». Kaynaklar fetih ayını (閏十二月) birbirine uydurur.",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 貞觀二十二年閏十二月丁丑朔 → Jülyen 0649-01-19; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
  },
- {
+ { "odak_yer":["Kuça"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15073,7 +15073,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 貞觀二十二年閏十二月丁丑朔 = 0649-01-19 + 辛亥 (34. gün) → Jülyen 0649-02-22; gz sayacı); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
  },
- {
+ { "odak_yer":["Kuça"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15095,7 +15095,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Xin Tang shu 221 shang başka bir anlatı verir (Gaozong'un Helibushibi'yi «復封» ettiği, sonra Nali'nin olayları ve Yang Zhou'nun Kuça valiliği kurması); yıl hassasiyeti."
  },
- {
+ { "odak_yer":["Kuça"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15117,7 +15117,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Çelişki: Jiu Tang shu 198 Taizong'un Kuça'yı aldıktan hemen sonra Anxi'yi buraya taşıdığını, Gaozong'un sonra Dört Garnizon'u bıraktığını (「棄龜茲等四鎮」) söyler; Jiu Tang 4 yeniden kuruluşu 顯慶三年 (658) altında anar. Yıl hassasiyeti, ay/gün verilmedi."
  },
- {
+ { "odak_yer":["Kuça"], 
   "onem": 4,
   "dunya": 1,
   "kapsam": "dis",
@@ -15141,7 +15141,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "ÇELİŞKİ: Xin Tang shu 221 shang «儀鳳時 (676-679), 吐蕃攻焉耆以西，四鎮皆沒» der; Jiu Tang 5 ise 675-676'da Kuça kralı Bai Suji'nin (庚午) ve Hotan'ın (上元二年) Tang'a bağlı elçi gönderdiğini yazar. Tibet'in Dört Garnizon'u 670'te mi 676-679'da mı aldığı iki Çin kaynağı arasında çelişkilidir; Jiu Tang 5 (gün-ay verdiği) esas alındı. Hotan'ın Tibet'le «合眾» ifadesi Jiu Tang 5'te geçer, 675'te Tang yanında Tibet'le savaşan olarak anılır — kaynaklar çelişkili, `ic_not`ta beyan.",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 咸亨元年夏四月 ayı başı → Jülyen 0670-04-25; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
  },
- {
+ { "odak_yer":["Hotan","Kuça"], 
   "onem": 4,
   "dunya": 1,
   "kapsam": "dis",
@@ -15163,7 +15163,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 長壽元年冬十月 ayı başı → Jülyen 0692-11-14; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
  },
- {
+ { "odak_yer":["Hotan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15184,7 +15184,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "貞觀六年",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Hotan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15205,7 +15205,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "貞觀十三年",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Hotan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15228,7 +15228,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Jiu Tang 198 komutanın adını «薛萬備», Jiu Tang 3 «薛萬徹» verir (aynı kişi/yazım farkı). Ay başı alındı.",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 貞觀二十二年閏十二月丁丑朔 → 0649-01-19; astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
  },
- {
+ { "odak_yer":["Hotan"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15251,7 +15251,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 上元二年正月丙寅 → Jülyen 0675-02-21 (1. ay başı 0675-01-31 乙巳 + 丙寅 = 21. gün); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
  },
- {
+ { "odak_yer":["Hotan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15272,7 +15272,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "垂拱三年",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Hotan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15293,7 +15293,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "天授三年",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Hotan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15314,7 +15314,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "開元十六年",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Balasagun"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15337,7 +15337,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "1128'deki ilk girişte Doğu Karahanlı Arslan Han Ahmed Karahıtay'ı yendi (TDV Karahıtaylar). Hotan bu pencerede Karahanlı hakimiyetindeydi (1006 üst sınır)."
  },
- {
+ { "odak_yer":["Datong"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15380,7 +15380,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "貞觀九年",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Hotan","Kuça"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15429,7 +15429,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "«入朝請降» ifadesi: krallar saraya gelip tâbiiyet/teslimiyet istedi; Tibet hâkimiyeti (670) altındayken Tang'a döndüklerine mi, Tang'a ilk biat mı olduğu metinden kesin okunmaz. Kâşgar'ın 670-692 Tibet hâkimiyeti yamada bu çelişkiyle beyanlı.",
   "ic_not_takvim": "Çin ay-güneş takvimi → Jülyen: 咸亨四年十二月丙午 → Jülyen 0674-02-06 (12. ay başı 0674-01-13); astronomik ay/zhongqi hesabı (denetim/dogu/cin2/_cal.py işlevleri, gün-sayacı gz() ile), ±1-2 gün; Jülyen kalır (1582 öncesi)."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15496,7 +15496,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "TDV Karluklar md. Karluk devletinin 766'da kurulduğunu söyler (atlas künyesi `karluk` f=0766); Çin kaynakları (Xin Tang 221 shang) 天寶十二載 (753) hâlâ Pei Guoliang'ın Tang unvanı aldığını yazar. Üç kaynak çelişkili: atlas yamasında (yama_bozkir3.js) Kâşgar 0692-11-14 → 0766-01-01 `tang`, 0766 sonrası `karluk` yazıldı; TDV Kâşgar'ın 750'si beyandır, `karluk` f künye düzeltme önerisi (0750) RAPOR.md'de."
  },
- {
+ { "odak_yer":["Datong"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15562,7 +15562,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Başka bir kaynakla (Jiu Tang 4, 顯慶三年 = 658: «賀魯走石國») Batı Göktürk'ün çöküş yılı 658 teyit; bozkir1 raporu bati-gokturk t=0659 önerir (Fergana dilimi 658 başlar, fark 1 yıl)."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15584,7 +15584,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not_takvim": "Hicrî 94 başı (tablo) 0712-10-07; TDV mîlâdî yılı 712-13 verir, kesişimin ilk günü; ±2 gün."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15604,7 +15604,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "96 (715)",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Buhara"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15626,7 +15626,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "TDV 819-820 verir; kesişim/ilk gün 0819-01-01."
  },
- {
+ { "odak_yer":["Buhara"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15648,7 +15648,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not": "TDV Karahanlılar md.: Buhara 389 (999) alındı; ay (Ekim) TDV Fergana'dan; gün yok, ayın ilk günü alındı."
  },
- {
+ { "odak_yer":["Semerkant"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15670,7 +15670,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "TDV Karahıtaylar: Katvan savaşı 5 Safer 536 / 9 Eylül 1141; Fergana'nın geçişi yıl hassasiyetiyle TDV Fergana'dan."
  },
- {
+ { "odak_yer":["Semerkant"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15692,7 +15692,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "TDV Endican/Fergana Hârizmşah hâkimiyetini 1210'a (İlâmış sahrası) dayandırır; Küçlüğ 1211 tarihli Karahıtay darbesi için bkz. TDV Karahıtaylar. Üç tarih (1210/1211/1212) arasında kalan boşluk yamada Hârizmşah 1210'dan başlatılarak beyan edildi."
  },
- {
+ { "odak_yer":["Taşkent"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15714,7 +15714,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hicrî 94 (712-10-07/713-09-26) ∩ 713 → ilk gün 0713-01-01. Akın/yağma; kalıcı Emevî hâkimiyeti TDV'de yok, yerli hükümdar sürer."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "onem": 4,
   "dunya": 3,
   "kapsam": "dis",
@@ -15738,7 +15738,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not": "ÇELİŞKİ: Jiu Tang shu 104 (Gao Xianzhi) Şâş seferini 天寶九載 (750) olarak anar; TDV hicrî 133/751. Hicrî 133 Zilhicce başı (tablo) 0751-06-30; Temmuz 751 ile kesişim ilk günü alındı. Jiu Tang shu 104 (Gao Xianzhi) Talas savaşını anmaz, Gao Xianzhi'yi 天寶十四載 (755) Aralığında An Lushan isyanı karşısında Shaanzhou'da komutan olarak gösterir — yani TDV'nin «Kau Sein-çi savaşta öldü» ifadesi Çin birincil metniyle uyuşmaz (Gao Xianzhi Talas'tan sonra da yaşar); olay TDV'ye göre yazıldı, bu ayrıntı çelişki olarak burada beyan edildi."
  },
- {
+ { "odak_yer":["Taşkent"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15781,7 +15781,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Karluk'un Abbâsî'ye dönüş yılı TDV Taşkent'te verilmez. TDV Karluklar IX. yüzyıl için «Taşkent, Fergana ve Kâşgar’ı ilhak ederek» der (tarihsiz)."
  },
- {
+ { "odak_yer":["Taşkent"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15804,7 +15804,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not_takvim": "Hicrî 204 başı (tablo) 0819-06-28; TDV mîlâdî yılı 819 → kesişimin ilk günü; ±2 gün."
  },
- {
+ { "odak_yer":["Taşkent"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15826,7 +15826,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "BEYANLI YAKLAŞIKLIK: TDV Taşkent yalnız «X. yüzyılın sonlarında» der; Ali Arslan Han'ın ölümü 388 Muharrem sonu (Ocak 998) TDV Karahanlılar, İsfîcâb 990, Siriderya Katvan'a dek 996 anlaşması. 990 (Hârun Buğra'nın İsfîcâb'ı alması) çıpa olarak seçildi; gerçek yıl 990-998 aralığındadır. Yıl TDV'de bulunamadı."
  },
- {
+ { "odak_yer":["Balasagun"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15849,7 +15849,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Hicrî 451 başı tabloyla 1059-02-17; yıl hassasiyeti. «Doğu Karahanlıların hâkimiyetindeki Şâş» ifadesi Şâş'ın 1041-1059 arası Doğu'da olduğu anlamına gelir, TDV bu aralığı ayrıca belirtmez (çıkarım, beyanlı).",
   "ic_not_takvim": "Hicrî 451 başı (tablo) 1059-02-17 (1059-02); TDV mîlâdî 1059 → kesişim ilk günü 1059-02 içinde, yıl hassasiyetiyle 1059-01-01 yazıldı."
  },
- {
+ { "odak_yer":["Nîşâbur"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15872,7 +15872,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Katvan 9 Eylül 1141 savaş günüdür; Şâş'ın Karahıtay'a geçiş günü TDV Taşkent'te verilmez (yıl hassasiyeti, TDV Endican/Fergana Mâverâünnehir genel cümlesi). BEYANLI YAKLAŞIKLIK: Şâş'a özel Karahıtay tanığı bulunamadı."
  },
- {
+ { "odak_yer":["Balasagun"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15916,7 +15916,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Çin kaynağı TDV'de adlandırılmaz (Jiu/Xin Tang 'Anguo' bölümü bu oturumda okunmadı)."
  },
- {
+ { "odak_yer":["Buhara"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15938,7 +15938,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hicrî 54 = 673-12-16 → 674-12-04; 674 ile kesişim ilk günü 0674-01-01 (yıl hassasiyeti)."
  },
- {
+ { "odak_yer":["Buhara"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -15960,7 +15960,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Seferlerin sonu 90 H (708-11-20 → 709-11-08) ∩ 709 → 0709-01-01 alındı."
  },
- {
+ { "odak_yer":["Buhara"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -15982,7 +15982,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Nerşahî Bîdûn Hatun'un oğlu Tuğşâde adına 15 yıl naibelik yaptığını söyler; Taberî'nin 91 (710) tayini ile çelişir (TDV iki rivayeti birlikte verir)."
  },
- {
+ { "odak_yer":["Buhara"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -16004,7 +16004,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hicrî 110 başı (tablo) 0728-04-16; TDV mîlâdî 728-29 verir, kesişimin ilk günü."
  },
- {
+ { "odak_yer":["Semerkant","Buhara"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -16026,7 +16026,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not_takvim": "Hicrî 121 Ramazan başı (tablo) 0739-08-11; TDV Ağustos 739 → ayın içinde, ±2 gün; gün TDV'de yok."
  },
- {
+ { "odak_yer":["Buhara"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -16048,7 +16048,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "TDV iki tarih verir (166/782 Fazl b. Süleyman; 168/784 Nerşahî sur başlangıcı); 168 H başı (tablo) 0784-07-24."
  },
- {
+ { "odak_yer":["Buhara"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -16071,7 +16071,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hicrî 260 (873-10-27 → 874-10-16) ∩ 874 → ilk gün 0874-01-01. Ya'kūb b. Leys'in Tâhirî sonrası kısa Buhara hutbesi TDV'de tarihsiz."
  },
- {
+ { "odak_yer":["Buhara"], 
   "onem": 4,
   "dunya": 1,
   "kapsam": "dis",
@@ -16180,7 +16180,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "758",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Almalık"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -16201,7 +16201,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Çağatay'ın ölüm yılı TDV Çağatay Hanlığı md.'sinde verilmez; TDV Altın Orda md. «Çağatay Han ve Ögedey Kağan’ın 1241 yılında birbiri ardınca ölmeleri» der."
  },
- {
+ { "odak_yer":["Almalık"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -16221,7 +16221,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1246",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Donets bozkırı"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -16243,7 +16243,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "TDV fetih yıllarını ayrı vermez; Algu'nun hanlık yılları 1260-1266 (hükümdarlık başlangıcı yıl). `yer` tek yerleşim değil bölgedir (Çu ve Yedisu havzası), bu yüzden tur `toprak-kazanc` yazılmadı (Değişmez 2 sınır maddesi gerektirmesin); tek şehirle bağlanabilecek s: kırılması bu kümede yok."
  },
- {
+ { "odak_yer":["Almalık"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -16263,7 +16263,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "1266",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Almalık"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -16285,7 +16285,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Çağatay kaynakta `ogedey-ulusu` künyesi (f=1267) ile örtüşür: Çağatay hanlığı bu dönemde Kaydu hegemonyasındadır; Almalık yaması dilimi 1227-1281 `cagatay` yazıldı, Kaydu hakimiyeti (İli havzası) için bkz. RAPOR.md."
  },
- {
+ { "odak_yer":["Karakurum"], 
   "onem": 4,
   "dunya": 1,
   "kapsam": "dis",
@@ -16307,7 +16307,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ÇELİŞKİ (yıl): TDV Altın Orda 1241 verir; atlas künyesi altinorda f=1242 (künye düzeltme önerisi f=1241, RAPOR.md). TDV Saray md.: Saray'ın adını ilk kez 1254'te Rubrucklu William anar."
  },
- {
+ { "odak_yer":["Donets bozkırı"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -16329,7 +16329,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Berke'nin tahta çıkışı kronoloji_cok_once1281_iran.js'te zaten var (1256-01-01); buradaki madde Galiçya itaatini ekler. TDV Batu'nun doğrudan ardılını «oğulları Sertak ve Ulakçı» olarak verir."
  },
- {
+ { "odak_yer":["Donets bozkırı"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "dis",
@@ -16392,7 +16392,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce)."
  },
- {
+ { "odak_yer":["Karakurum"], 
   "t": "1209-01-01",
   "b": "Moğollar Merkit hükümdarını öldürdü; kardeşleri ve çocukları Uygur ülkesine kaçtı",
   "tur": "son",
@@ -16413,7 +16413,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "TDV «1208 yılının kış mevsiminde» der; kış Aralık 1208–Şubat 1209’a düşebildiğinden gün tek gün olarak 1209-01-01 seçildi (yıl hassasiyeti). taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce)."
  },
- {
+ { "odak_yer":["Karakurum"], 
   "t": "1217-01-01",
   "b": "Cengiz Han Subutay ve Toğaçar’ı Merkit kalıntılarına gönderdi",
   "tur": "savas",
@@ -16500,7 +16500,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce). TDV 1206 maddesinde Tayang Han’ı hâlâ anar (aynı md.: «1206 yılında, Nayman Tayang Han, Ong Han ve Kutuku-Beki başta olmak üzere bütün bozkır hükümdarlarını hâkimiyeti altında toplamıştı») — Tayang’ın 1204’te mi 1206’ya kadar mı ayakta kaldığı TDV’de iç çelişkidir; künye t=1204 (savaş yılı) seçildi."
  },
- {
+ { "odak_yer":["Karakurum"], 
   "t": "1208-01-01",
   "b": "Nayman Güçlüg Merkitler’le ittifak yaptı, yenilince Karahıtay’a sığındı",
   "tur": "siyaset",
@@ -16522,7 +16522,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Naiman künyesi (t=1204) bitmiştir; Güçlüg’ün 1211 sonrası Karahıtay’daki rejimi ayrı polity (kuclug-karahitay, bozkir2 önerisi). taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce)."
  },
- {
+ { "odak_yer":["Balasagun"], 
   "t": "1211-01-01",
   "b": "Nayman Küçlüg Karahıtay Gürhan’ını esir alıp devlete son verdi",
   "tur": "siyaset",
@@ -16627,7 +16627,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "taraflar: 1206 öncesi Timuçin’in Moğol birliği için atlasta ayrı kimlik yok; ardıl «mogol-imparatorlugu» kimliği kullanıldı (1206 künye başlangıcıdır, madde ondan önce)."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "t": "0775-01-01",
   "b": "Oğuzlar Aşağı Seyhun boylarına ve Mâverâünnehir’e geldi",
   "tur": "siyaset",
@@ -16689,7 +16689,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hicrî 375 = 985-86; yıl iki mîlâdî yıla yayılır, ilk yıl alındı."
  },
- {
+ { "odak_yer":["Buhara"], 
   "t": "1002-01-01",
   "b": "Son Sâmânî emîri İsmâil b. Nûh Oğuz yabgusuyla ittifak etti, yabgu Müslüman oldu",
   "tur": "ittifak",
@@ -16730,7 +16730,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "t bir ÜST SINIRDIR (en geç), gerçek yıkılış günü bilinmiyor. Mangışlak’taki ayrı Oğuz Yabgu kolu (Atsız’ın 1128’den önce yıkması, TDV) bu künyenin dışındadır."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "t": "0680-01-01",
   "b": "Araplar Üsrûşene’ye ilk seferlerini yaptı; bölge Türk soylu Afşin ailesinin elindeydi",
   "tur": "siyaset",
@@ -16751,7 +16751,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Afşin ailesinin başlangıcı kaynakta TARİHLENMEMİŞ; f=0680 yalnız ilk TARİHLİ Arap teması (Selm b. Ziyâd 680-81), kuruluş değildir. Hicrî 61 = 680-81, ilk yıl alındı."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "t": "0739-01-01",
   "b": "Nasr b. Seyyâr Üsrûşene’yi kısmen itaat altına aldı; Afşin ailesi bağlılık yemini etti",
   "tur": "siyaset",
@@ -16772,7 +16772,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "«Kısmen itaat»: yerleşim sahipliği bu maddeyle değişmiş sayılmadı; Cizzah yamasında 0680-0893 arası Afşin yönetimi tek dilim olarak yazıldı (beyan). Hicrî 121 = 738-39."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "t": "0819-01-01",
   "b": "Abbâsîler Üsrûşene’ye vali olarak Yahyâ b. Esed’i gönderdi",
   "tur": "isgal",
@@ -16793,7 +16793,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hicrî 204 = 819-20; gün yok."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "t": "0822-01-01",
   "b": "Üsrûşene tamamen İslâm hâkimiyetine girdi; Afşinler Abbâsîler’e bağlı yönetmeyi sürdürdü",
   "tur": "siyaset",
@@ -16814,7 +16814,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hicrî 207 = 822-23. Cizzah yamasında 0680-0893 tek dilim Afşin (vasal) olarak yazıldı."
  },
- {
+ { "odak_yer":["Buhara"], 
   "t": "0893-01-01",
   "b": "Üsrûşene Sâmânî topraklarına katıldı; Afşin emirliği sona erdi",
   "tur": "son",
@@ -16835,7 +16835,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hicrî 280 = 893-94; ay/gün yok."
  },
- {
+ { "odak_yer":["Karabiga"], 
   "t": "0482-01-01",
   "b": "Kutrigurlar Utigurlar’a yenildi; 2000 aile Bizans’a sığındı",
   "tur": "savas",
@@ -16856,7 +16856,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Künye f=0482 ilk TARİHLİ tanıktır (kuruluş değil; TDV Hunlar’ın 453’te dağılmasından sonra birliklerin kurulduğunu söyler, gün/yıl yok). Pencere 500-1281: Utigur ömrünün 500-559 kısmı pencerededir."
  },
- {
+ { "odak_yer":["Karabiga"], 
   "t": "0548-01-01",
   "b": "Abasg elçileri Utigur Hunları’ndan korktukları için Justinianus’a gizlice başvurdu",
   "tur": "siyaset",
@@ -16877,7 +16877,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yıl çevirmenin dipnotundan (Dewing: «548 A.D.»); Procopius metni yıl yazmaz."
  },
- {
+ { "odak_yer":["Karabiga"], 
   "t": "0550-01-01",
   "b": "Utigur kralı Sandil Justinianus’un kışkırtmasıyla kuzenleri Kutrigurlar’a saldırdı",
   "tur": "savas",
@@ -16919,7 +16919,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "TDV «Bulgarlar» der, Utigur adını anmaz; Utigur künye t=0559 bu genel ifadeden alındı (beyanlı çıkarım)."
  },
- {
+ { "odak_yer":["Serahs"], 
   "t": "0530-01-01",
   "b": "Sabir Hunları’ndan 3000 savaşçı Pers ordusuyla Roma Ermenistan’ına yürüdü",
   "tur": "savas",
@@ -16940,7 +16940,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Procopius yıl yazmaz; olay Dara savaşı sonrası Pers-Roma savaşında (I.xii-xv, 530 yılı sıralaması) yer alır — onyıl hassasiyeti; 0530-01-01 yaklaşıktır. Sabir künyesi f=0530 bu maddedir (ilk TARİHLİ tanık; kuruluş değil)."
  },
- {
+ { "odak_yer":["Karabiga"], 
   "t": "0550-01-01",
   "b": "Sabeiri Hunları Lazlar ve Alanlar’la birlikte Bizans tarafında ittifak yaptı",
   "tur": "ittifak",
@@ -17093,7 +17093,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Zhenguan 14 = 640. Gaochang’ın düşüş günü 0640-09-19 (bozkir1 yerleşim zinciri) ile uyumlu.",
   "ic_not_takvim": "貞觀 yıl adı → Jülyen: 627+13 = 640."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "t": "0696-04-10",
   "b": "Kâhine Hassân b. Nu‘mân’ı yendi",
   "tur": "savas",
@@ -17116,7 +17116,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Yıl kaynağında hicrî+miladî; gün yok.",
   "ic_not_takvim": "Hicrî 77 yılı (Jülyen 0696-04-10 … 0697-03-29; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 696 → kesişimin ilk günü 0696-04-10; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Kartaca"], 
   "t": "0697-03-30",
   "b": "Bizanslılar Kartaca’yı yeniden ele geçirdi",
   "tur": "savas",
@@ -17139,7 +17139,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "TDV berberiler yalnız «Şehir tekrar Bizans’ın eline geçti» der, yıl vermez; ifrikiye 78/697 verir. Kartaca zincirine yazılmadı (kısa kesinti, 697-698).",
   "ic_not_takvim": "Hicrî 78 yılı (Jülyen 0697-03-30 … 0698-03-19; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 697 → kesişimin ilk günü 0697-03-30; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Kayrevan"], 
   "t": "0758-05-14",
   "b": "Ebü’l-Hattâb el-Meâfirî Kayrevan’ı ele geçirdi",
   "tur": "isgal",
@@ -17162,7 +17162,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Kayrevan atlas zincirinde 0745-0761 BEYANLI BOŞLUK: öneri → 0758 ibadi-imamlik-trablus, 0761-08 abbasi (yama Kayrevan için YAZILMADI: yerleşim mevcut, bu dilimler çakışır).",
   "ic_not_takvim": "Hicrî 141 yılı (Jülyen 0758-05-14 … 0759-05-03; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 758 → kesişimin ilk günü 0758-05-14; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Kayrevan"], 
   "t": "0761-08-01",
   "b": "Muhammed b. Eş‘as Kayrevan’ı zaptetti; Ebü’l-Hattâb öldürüldü",
   "tur": "savas",
@@ -17184,7 +17184,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "ay",
   "ic_not": "Ay hassasiyeti; gün yok."
  },
- {
+ { "odak_yer":["Kumbî Sâlih"], 
   "t": "0950-01-01",
   "b": "Gāne’nin en parlak dönemi (950-1050)",
   "tur": "siyaset",
@@ -17204,7 +17204,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Aralık verilmiş; aralığın başı onyıl hassasiyetiyle yazıldı."
  },
- {
+ { "odak_yer":["Merakeş"], 
   "t": "1076-01-01",
   "b": "Gāne’nin düşüşü üzerine Susu hâkimleri bağımsızlıklarını ilân etti",
   "tur": "bolunme",
@@ -17225,7 +17225,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "TDV gane/mali düşüş yılını 1076 (469/1076-77) verir."
  },
- {
+ { "odak_yer":["Niani"], 
   "t": "1240-01-01",
   "b": "Mali İmparatorluğu Gāne topraklarının tamamını ele geçirdi",
   "tur": "siyaset",
@@ -17312,7 +17312,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "ZAYIF KAYNAK: yalnız ikincil özet üzerinden atıf; yıl çevirisi (858/859) çelişkili — 859 işaret değeri. TDV berberiler Nekor’u yalnız «Rif’te Nakūr Emirliği» diye anar. Nekor yerleşimi çift tanık bulunamadığı için YAZILMADI."
  },
- {
+ { "odak_yer":["Kûfe"], 
   "t": "0765-02-27",
   "b": "Yıfrenî Ebû Kurre kendisini imam ilân etti",
   "tur": "isyan",
@@ -17335,7 +17335,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Kaynak hicrî+miladî; gün yok.",
   "ic_not_takvim": "Hicrî 148 yılı (Jülyen 0765-02-27 … 0766-02-15; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 765 → kesişimin ilk günü 0765-02-27; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Trablus"], 
   "t": "0772-01-01",
   "b": "Berberîler Trablus yakınında Yezîd b. Hâtim’e yenildi (155/772)",
   "tur": "savas",
@@ -17358,7 +17358,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Gün yok.",
   "ic_not_takvim": "Hicrî 155 yılı (Jülyen 0771-12-13 … 0772-12-01; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 772 → kesişimin ilk günü 0772-01-01; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Tilimsan"], 
   "t": "0949-07-01",
   "b": "Yıfrenî Ya‘lâ b. Muhammed İfkân şehrini kurup emirliğini ilân etti",
   "tur": "kurulus",
@@ -17380,7 +17380,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Kaynak iki miladî yıl verir; hicrî 338 ∩ 949 ilk günü.",
   "ic_not_takvim": "Hicrî 338 yılı (Jülyen 0949-07-01 … 0950-06-19; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 949 → kesişimin ilk günü 0949-07-01; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Kahire"], 
   "t": "0954-05-07",
   "b": "Ya‘lâ b. Muhammed Vehrân’ı ele geçirdi ve Fâtımîler’e karşı ayaklandı",
   "tur": "siyaset",
@@ -17403,7 +17403,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Vehrân bu kümenin yerleşimi değildir (zincir yazılmadı); bu yüzden madde tipi toprak-kazanc değil `siyaset` seçildi (Değişmez 2 yer eşleşmesi aranmasın). TDV iki miladî yıl (954-55) verir; hicrî 343 ∩ 954 ilk günü alındı.",
   "ic_not_takvim": "Hicrî 343 yılı (Jülyen 0954-05-07 … 0955-04-26; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 954 → kesişimin ilk günü 0954-05-07; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Kurtuba"], 
   "t": "0991-03-20",
   "b": "Yıfrenî Yeddû Endülüs Emevîleri’ne itaati bırakıp Fas’ı ele geçirdi",
   "tur": "isyan",
@@ -17426,7 +17426,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Fas (Fez) atlas yerleşiminin 1070 öncesi zinciri bu kümede yazılmadı; madde tipi isyan (Değişmez 2 evreni dışı).",
   "ic_not_takvim": "Hicrî 381 yılı (Jülyen 0991-03-20 … 0992-03-08; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 991 → kesişimin ilk günü 0991-03-20; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Merakeş"], 
   "t": "1066-01-01",
   "b": "Murâbıtlar Şâle Benî İfren Emirliği’ni ortadan kaldırdı",
   "tur": "son",
@@ -17449,7 +17449,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Şâle emirliğinin kuruluşu (Hammâme, 991 sonrası) TDV’de yıllandırılmaz → sala-emirligi-benifren için künye YAZILMADI (f bulunamadı).",
   "ic_not_takvim": "Hicrî 458 yılı (Jülyen 1065-12-03 … 1066-11-21; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 1066 → kesişimin ilk günü 1066-01-01; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Kayrevan"], 
   "t": "1063-01-04",
   "b": "Hammû b. Mellîl Mehdiye önünde Temîm’e yenildi",
   "tur": "savas",
@@ -17472,7 +17472,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Gün yok.",
   "ic_not_takvim": "Hicrî 455 yılı (Jülyen 1063-01-04 … 1063-12-24; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 1063 → kesişimin ilk günü 1063-01-04; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Sfaks"], 
   "t": "1081-06-11",
   "b": "Temîm’in Sfaks’ı almak için gönderdiği ilk ordu başarısız oldu (474/1081)",
   "tur": "savas",
@@ -17495,7 +17495,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Kaynak 474/1081 ve 488/1095 iki seferi birlikte verir; ikincisi aşağıda ayrı madde.",
   "ic_not_takvim": "Hicrî 474 yılı (Jülyen 1081-06-11 … 1082-05-31; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 1081 → kesişimin ilk günü 1081-06-11; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Sfaks"], 
   "t": "1095-01-11",
   "b": "Temîm’in Sfaks’a ikinci ordusu da başarısız oldu (488/1095)",
   "tur": "savas",
@@ -17518,7 +17518,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Gün yok.",
   "ic_not_takvim": "Hicrî 488 yılı (Jülyen 1095-01-11 … 1095-12-30; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 1095 → kesişimin ilk günü 1095-01-11; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Sfaks"], 
   "t": "1099-11-17",
   "b": "Sfaks’tan kaçan Hammû Kâbis emirine sığındı",
   "tur": "siyaset",
@@ -17541,7 +17541,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Kâbis emirliğinin başlangıç ve bitiş yılları TDV’de yok (MS1 künyesi 1062-1148, ikincil).",
   "ic_not_takvim": "Hicrî 493 yılı (Jülyen 1099-11-17 … 1100-11-05; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 1099 → kesişimin ilk günü 1099-11-17; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Kafsa"], 
   "t": "1180-05-28",
   "b": "Benî Rend’den Ali b. Abdülazîz’in Kafsa isyanı Muvahhid kuşatmasıyla bastırıldı (576/1180)",
   "tur": "isyan",
@@ -17564,7 +17564,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Kafsa zincirinde Muvahhid kesintisiz yazıldı (kısa isyan modele alınmadı, BEYANLI).",
   "ic_not_takvim": "Hicrî 576 yılı (Jülyen 1180-05-28 … 1181-05-16; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 1180 → kesişimin ilk günü 1180-05-28; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Kafsa"], 
   "t": "1187-03-13",
   "b": "Karakuş ve Boz-aba Umre’de Muvahhidler’i yenip Kafsa’yı aldı (583/1187); Muvahhid üç ay sonra geri aldı",
   "tur": "savas",
@@ -17587,7 +17587,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "TDV içi: «üç ay sonra … (Eylül 1187)» iç tutarlılığı: TDV’nin Eylül 1187 ve «583 Receb ortaları» ifadesi Gregoryen/Jülyen ve tablo farkı taşır; Kafsa zincirine Gāniye kesintisi yazılmadı.",
   "ic_not_takvim": "Hicrî 583 yılı (Jülyen 1187-03-13 … 1188-03-01; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 1187 → kesişimin ilk günü 1187-03-13; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Merakeş"], 
   "t": "1056-03-21",
   "b": "Tekrûr kralı Labbi Murâbıt komutanına asker gönderdi",
   "tur": "ittifak",
@@ -17609,7 +17609,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Gün yok.",
   "ic_not_takvim": "Hicrî 448 yılı (Jülyen 1056-03-21 … 1057-03-09; sivil tablo hesabı, ±1-2 gün) ∩ kaynağın miladî yılı 1056 → kesişimin ilk günü 1056-03-21; gün KAYNAKTA YOK, alt sınırdır"
  },
- {
+ { "odak_yer":["Gao"], 
   "t": "0890-01-01",
   "b": "Gao Songaylar’ın eline geçti",
   "tur": "siyaset",
@@ -17653,7 +17653,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Gao’nun mevcut atlas zinciri 1324-01-01’de mali-imparatorlugu ile başlar (yama bu uca eşit)."
  },
- {
+ { "odak_yer":["Tırgan (Traghan)"], 
   "t": "1075-01-01",
   "b": "Hummay Benî Dûkû hânedanının yerine Kânim’de Seyfiyye (Benî Hummay) hânedanını başlattı",
   "tur": "hukumdar",
@@ -17780,7 +17780,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Vikipedi 'Piedras Negras (Maya site)' aynı olayı '727' (Sharer & Traxler 2006) verir; M&G 726 → M&G esas."
  },
- {
+ { "odak_yer":["Teotihuacan"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "ic",
@@ -17889,7 +17889,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Yaxchilán 0808 'son' maddesiyle aynı olay (taraflar iki yönden)."
  },
- {
+ { "odak_yer":["Quiriguá","Copán"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "ic",
@@ -17911,7 +17911,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "OCR'da 'under the supervision of Waxaklajuun Ub'aah K'awiil' cümlesi iki satırda bozuk; 'the current ruler of Copan' birebir okundu, ardıl cümle (aynı bölüm)."
  },
- {
+ { "odak_yer":["Quiriguá","Copán"], 
   "onem": 4,
   "dunya": 1,
   "kapsam": "ic",
@@ -17933,7 +17933,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Atlasın mevcut Copán kaydı 0738-05-03 (idam günü, Vikipedi/Looper); Vikipedi 'Quiriguá' yakalanma günü 27 Nisan 738 (Looper 2003 s.78; açılmadı). M&G yalnız 'April 738' — yıl hassasiyeti. Quiriguá yerleşiminin sahibi bu olayda DEĞİŞMEZ (zaten kendi kralı vardı; Copán'a tâbi müşteri, bkz. künye ic_not) — haritada toprak devri yok."
  },
- {
+ { "odak_yer":["Quiriguá"], 
   "onem": 2,
   "dunya": 1,
   "kapsam": "ic",
@@ -17955,7 +17955,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not_takvim": "ic_not_takvim: M&G'nin verdiği gün olduğu gibi yazıldı (Uzun Sayım → Jülyen, GMT korelasyonu 584285 ile uyumlu: 9.4.11.8.16 = 11 Şubat 526, 8.19.10.11.0 = 8 Eylül 426 elle hesapla sınandı; 584283 ile 2 gün önce); Gregoryen'e çevrilmedi.",
   "ic_not": "OCR 'came tà an end an 27 July 785' bozuk; '27 July 785' birebir okundu."
  },
- {
+ { "odak_yer":["Palenque"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "ic",
@@ -18020,7 +18020,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "OCR'da 'El Perú' devamı okunamayacak biçimde bozuk; cümlenin 'recorded by both El Perú and Dos Pilas' kısmı birebir okunmadı (yukarıdaki alıntı kesildi)."
  },
- {
+ { "odak_yer":["Tikal"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "ic",
@@ -18041,7 +18041,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "8.12.14.8.15 → GMT 584283 ile 6 Temmuz 292 (Jülyen, elle hesapla); başka kaynaklar korelasyona göre 8/9 Temmuz verir (Cambridge 9 Temmuz Gregoryen); M&G günü vermez → yıl hassasiyeti."
  },
- {
+ { "odak_yer":["Palenque"], 
   "onem": 3,
   "dunya": 1,
   "kapsam": "ic",
@@ -18110,7 +18110,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kaynak_turu": "arkeoloji",
   "ic_not": "Nash & Williams (2017) Cerro Baul'u ~1050'de terk edilmis verir (arama ozeti; makale acilmadi, kullanilmadi). Kaynaklar 1000 / 1050 arasinda; Moseley 2005 esas alindi."
  },
- {
+ { "odak_yer":["Bonito"], 
   "t": "0850-01-01",
   "b": "Pueblo Bonito, Una Vida ve Peñasco Blanco büyük evleri inşa edilir (800'lerin ortası-sonu)",
   "tur": "siyaset",
@@ -18214,7 +18214,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   },
   "ic_not": "donem-toplami: ORTA NOKTA ALINMADI, t = en eski uc. Atlas kunyesi f=0700 (Hirth 1984/1995, Epiklasik 700-900; kunye kaynagi, acilmadi) <-> UNESCO 650: CELISKI beyan; UNESCO 'donem' der, sehrin kendi kurulusu degil."
  },
- {
+ { "odak_yer":["El Tajín"], 
   "t": "0800-01-01",
   "b": "El Tajín'in tek evreli iskânı başlar (800-1200)",
   "tur": "kurulus",
@@ -18295,7 +18295,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   },
   "ic_not": "donem-toplami: ORTA NOKTA ALINMADI, t = en eski uc. UNESCO ayrica yerlesimin kurulusunu yerel kaynaklara gore 415-35 ya da 455 verir (anlatisal, tarihlenmemis gelenek) - kullanilmadi."
  },
- {
+ { "odak_yer":["Chichén Itzá"], 
   "t": "0967-01-01",
   "b": "Toltek kralı Ce Acatl Topiltzin Quetzalcoatl (Kukulkan) Chichén Itzá'yı alır (967-987 arası; 'en yaygın anlatı')",
   "tur": "isgal",
@@ -18346,7 +18346,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   },
   "ic_not": "donem-toplami: ORTA NOKTA ALINMADI, t = en eski uc. CELISKI: ms1 kunyesi f=0800 (Martin & Grube, atif; acilmadi); UNESCO ES 700; EN 8.-10. yy; Chilam Balam gelenegi 10. yy sonu. Kunye f=0800 ile 0700 arasinda yuzyil farki - atlas kunyesi icin duzeltme ONERISI (f<=0700) degil, beyan."
  },
- {
+ { "odak_yer":["Ceibal"], 
   "t": "0735-01-01",
   "b": "Dos Pilas-Aguateca hanedanı Ceibal'i yener (735)",
   "tur": "isgal",
@@ -18494,7 +18494,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "Yüzyıl hassasiyeti: 1101-01-01 yalnız '12. yüzyıl' demektir. Nedenler efsane anlatılarına dayanır, arkeolojik olarak doğrulanmamıştır (kaynak kendisi söylüyor). Künyedeki 1150 sonu ile çelişmez (aynı yüzyıl)."
  },
- {
+ { "odak_yer":["Chichén Itzá","Mayapán"], 
   "t": "1050-01-01",
   "b": "Chichén Itzá devleti çöker, Mayapán bölgesel başkent olarak yükselir (1000–1100 cal. CE)",
   "tur": "siyaset",
@@ -18524,7 +18524,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not_d": "ARALIK→ORTA NOKTA: kaynak 'demise of Chichen Itza between 1000 and 1100 cal. CE' der (oluş zamanı belirsizliği; güven düzeyi verilmedi: 'belirsiz'); orta nokta 1050-01-01 alındı. Aralığın ham 14C mi kalibre mi olduğu kaynakta 'cal. CE' ile kalibre.",
   "ic_not": "Aynı makale Mayapán'ın hüküm sürdüğü aralığı başka yerde 'en az 1100–1450', başka yerde '1200–1450 cal. CE' verir (iç çelişki; künye f=1100 bu kaynağın 'at least 1100' ifadesine dayanır)."
  },
- {
+ { "odak_yer":["Mayapán"], 
   "t": "1100-01-01",
   "b": "Mayapán en az 1100–1450 cal. CE arasında doğar ve yönetir",
   "tur": "kurulus",
@@ -18616,7 +18616,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Etiket iklimdir; doğrudan siyasî olay değildir. 1257 aralığın ilk yılı alındı. Kaynağın bu cümlesi Miller 2012 ve Lavigne 2013'e dayanır (onlar açılmadı)."
  },
- {
+ { "odak_yer":["Chan Chan"], 
   "t": "1200-01-01",
   "b": "Chimú İmparatorluğu (1200–1470 CE): Moche ve Sicán'ın ardılı, başkent Chan Chan",
   "tur": "kurulus",
@@ -18645,7 +18645,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not_d": "ARALIK→EN ESKİ UÇ: 1200–1470 polity süresidir (yerlesim-suresi); orta nokta ALINMADI, t = 1200-01-01. Güven düzeyi verilmedi (tarih kaynağın alıntıladığı 53,54,115 numaralı eserlere dayanır, açılmadı).",
   "ic_not": "ÇELİŞKİ: main künyesi f=1000 (Store norske leksikon 'ca. 1000–1470'); bu kaynak 1200. İkisi de yuvarlak. Künye düzeltmesi önerisi RAPOR'da. Sicán ardıllığı: atlasta sican künyesi t=1375."
  },
- {
+ { "odak_yer":["Etowah"], 
   "t": "1101-01-01",
   "b": "Etowah'ta höyüklü kasaba 12. yüzyılda iskân edilmişti",
   "tur": "kurulus",
@@ -18665,7 +18665,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "'by the twelfth century' üst sınırdır (en geç); kaynak daha erken tarihi (en az iki yüzyıl önce = ~10. yy) de anar. Künye f=1100 yüzyıl hassasiyetinde en temkinli değerdir; erken tarihler için çelişki beyanı. Kaynak bir bölgesel ansiklopedidir (yardımcı); birincil kazı yayını: Adam King, Etowah: The Political History of a Chiefdom Capital (2003) — atıf; açılmadı."
  },
- {
+ { "odak_yer":["Moundville"], 
   "t": "1120-01-01",
   "b": "Moundville yaklaşık 1120'de kuruldu; üç yüzyıldan uzun iskân",
   "tur": "kurulus",
@@ -18685,7 +18685,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "Atlas künyesi t=1450 ('merkez boşaldı'); bu kaynak 'terk 16. yüzyıl başına kadar' der (alt/üst sınır farkı, çelişki değil: 1450 höyük faaliyetinin sonu, tam terk daha geç olabilir). Kaynak halk yayını (Alabama Public Television); birincil: Steponaitis, Ceramics, Chronology and Community Patterns (1983) — atıf; açılmadı."
  },
- {
+ { "odak_yer":["Cahokia"], 
   "t": "1050-01-01",
   "b": "Cahokia kentsel dönemi 1050–1200 CE",
   "tur": "kurulus",
@@ -18714,7 +18714,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not_d": "ARALIK→EN ESKİ UÇ: 1050–1200 CE 'urban period' sürenin kendisidir (donem-toplami); orta nokta ALINMADI, t = 1050-01-01. Güven düzeyi yok.",
   "ic_not": "Atlasta mevcut 1050 maddesiyle aynı yıl, ama bu madde yeni bağımsız kaynaklıdır (çift teyit değildir: Kessler [1,2] numaralı atıflara dayanır)."
  },
- {
+ { "odak_yer":["Cahokia"], 
   "t": "1100-01-01",
   "b": "Cahokia, Mississippi orta kıtasının önde gelen siyasî-idari merkezi (≈1100); 1200'den önce gerilemeye başlar",
   "tur": "siyaset",
@@ -18754,7 +18754,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "'by AD 1200 or earlier' üst sınırdır; polity ('Natchez şefliği') için değil yerleşim yeri için geçerlidir. Atlas künyesi f=1250 kaynaksızdır (bu kaynakta 1250 yok). Natchez şefliğinin başkenti olarak Grand Village yalnız ~1680'den ('Beginning around AD 1680, the site was the principal town and capital of the Natchez chiefdom')."
  },
- {
+ { "odak_yer":["Natchez"], 
   "t": "1350-01-01",
   "b": "Natchez Grand Village höyükleri Plaquemine döneminde ≈1350'de yapılmaya başlar",
   "tur": "siyaset",
@@ -18821,7 +18821,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not_d": "TEK DEĞER: kaynak 'shortly after AD 1000' der; aralık yok. aralik yazılmadı.",
   "ic_not": "'shortly after AD 1000' alt sınır olarak 1000-01-01 yazıldı (daha erken görünmemek için tam 1000 değil 'sonrası'; yüzyıl hassasiyeti). ms1 künyesi kuzco-krallik f=1200 (Killke Cuzco'nun 'young señorío' olması, bölüm 9, bu oturumda açılamadı)."
  },
- {
+ { "odak_yer":["Cusco"], 
   "t": "1363-01-01",
   "b": "Inka imparatorluk üslubu sanat ve mimari ≈1350–75'te biçimlenir",
   "tur": "siyaset",
@@ -18870,7 +18870,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "HESAPLANMIŞ TARİH: kaynak 1063 doğum yılını ve '18 yaşında ayrıldı'yı verir; 1081 bu toplamdır (kodeks yılı kaynak metinde yok). Arkeolojik kuruluş (≈1100) ile çelişki beyanı: kodeks 1081 ↔ arkeoloji 1100."
  },
- {
+ { "odak_yer":["Tututepec"], 
   "t": "1101-01-01",
   "b": "Río Viejo çöküşü: 12. yüzyıl başında kıyı bölgesi dış fethe açık kaldı",
   "tur": "siyaset",
@@ -18893,7 +18893,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not_d": "TEK DEĞER: kaynak '12th century' (yüzyıl) der; aralık yok. aralik yazılmadı.",
   "ic_not": "Yüzyıl hassasiyeti. Tututepec'in 1100 öncesi 'neredeyse boş' olması: Yucu Dzaa yerleşiminin sahibi 1100 öncesi yok → yamada zincir 1100'den başlar."
  },
- {
+ { "odak_yer":["Tututepec"], 
   "t": "1100-01-01",
   "b": "Yüksek yayla Mixtekleri aşağı Río Verde'ye gelir; Tututepec yeni siyasi merkez olarak kurulur (≈1100)",
   "tur": "kurulus",

@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Sahra-alti Afrika, Okyanusya/Avustralya, Orta Asya/Iran platosu, MO 12000-MS 1 (afrika-iran) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/afrika-iran.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
- {
+ { "odak_yer":["Cenne"], 
   "t": "-0299-01-01",
   "k": "kurulus",
   "b": "Cenne-Ceno (Jenne-jeno): başlar",

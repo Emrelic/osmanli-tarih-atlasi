@@ -33,7 +33,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"Encyclopaedia Iranica, C. Cahen, 'ĀL-E HĀŠEM' (tarayıcıda açıldı)",
   alinti:"Laškarī b. Maymūn (d. 392/1002). Manṣūr b. Maymūn (d. 425/1034)" },
 
-{ t:"1003-01-01",
+{ odak_yer:["Dvin"], t:"1003-01-01",
   tur:"toprak-kazanc",
   b:"Şeddâdî Fazl, Parisos prensi Filip'i zincire vurup Şaşvaş ve Sotk'u topraklarına kattı",
   gun:"1003 (TDV yıl verir)",
@@ -48,7 +48,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: seddadiler (ŞEDDÂDÎLER)",
   alinti:"1003 yılında Parisos Prensi Grigor’un ölümünün ardından yerine geçen oğlu Filip’i davet ederek zincire vurduran Fazl, Şaşvaş ve Sotk’u topraklarına kattı" },
 
-{ t:"1014-01-01",
+{ odak_yer:["Karabiga"], t:"1014-01-01",
   tur:"fetih",
   b:"II. Basileios Bulgar Devleti'ni yıkıp topraklarını Bizans'a kattı",
   gun:"1014 (TDV yıl verir)",
@@ -95,7 +95,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Nasrüddevle 415’te (1024) Âmid’i, ertesi yıl Urfa’yı emirliğin topraklarına kattı.",
   ic_not:"Alıntı mervaniler--diyarbakir'den; nasruddevle de 415/1024 der." },
 
-{ t:"1026-01-01",
+{ odak_yer:["Tiflis"], t:"1026-01-01",
   tur:"savas",
   b:"Şeddâdî Fazl, Şemkûr'u kuşatan Gürcü Kralı Giorgi'yi yendi",
   gun:"1026 (TDV yıl verir)",
@@ -127,7 +127,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Nasrüddevle Muharrem 418’de (Şubat-Mart 1027) Urfa’yı ele geçirdi.",
   ic_not:"🟡 TDV İÇ ÇELİŞKİ: mervaniler--diyarbakir Urfa'yı Âmid'in (1024) 'ertesi yıl'ına (=1025) koyar; nasruddevle Muharrem 418/Şubat-Mart 1027 der. Kişi maddesi ayı verdiği için 1027 seçildi." },
 
-{ t:"1030-01-01",
+{ odak_yer:["Tiflis"], t:"1030-01-01",
   tur:"savas",
   b:"Gürcistan seferinden dönen Fazl, Gürcü baskınında 10.000 askerini kaybetti; oğlu Askereveyh Beylekān'da isyan etti",
   gun:"1030 (TDV yıl verir)",
@@ -142,7 +142,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: seddadiler (ŞEDDÂDÎLER)",
   alinti:"Gürcü kralı ile müttefiklerinin baskınına uğrayan Fazl aldığı bütün ganimetlerin yanı sıra 10.000 askerini kaybetti (1030)" },
 
-{ t:"1030-01-01",
+{ odak_yer:["Şamahı"], t:"1030-01-01",
   tur:"savas",
   b:"Rus gemileri Şirvan'a çıkıp Şirvanşah Menûçihr'i ağır yenilgiye uğrattı",
   gun:"1030 (Iranica yıl verir)",
@@ -217,7 +217,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"Encyclopaedia Iranica, C. Cahen, 'ĀL-E HĀŠEM' (tarayıcıda açıldı)",
   alinti:"Manṣūr b. Maymūn (d. 425/1034). ʿAbd-al-Malek b. Manṣūr (d. 434/1043)" },
 
-{ t:"1040-01-01",
+{ odak_yer:["Dvin"], t:"1040-01-01",
   tur:"savas",
   b:"Dvin hâkimi Ebü'l-Esvâr, Taşir kralı David Anhoghin'e saldırdı, başarısız oldu",
   gun:"yaklaşık 1040 (Iranica 'Around 1040' der)",
@@ -247,7 +247,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: sirvansahlar (ŞİRVANŞAHLAR)",
   alinti:"Ali’nin 435’te (1043-44) ölümü üzerine yerine kardeşi Kubad geçti" },
 
-{ t:"1043-01-01",
+{ odak_yer:["Derbend"], t:"1043-01-01",
   tur:"hukumdar",
   b:"Abdülmelik b. Mansûr öldü; son Hâşimî emîri Mansûr b. Abdülmelik başa geçti",
   gun:"1043 (Iranica 434/1043 verir)",
@@ -262,7 +262,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"Encyclopaedia Iranica, C. Cahen, 'ĀL-E HĀŠEM' (tarayıcıda açıldı)",
   alinti:"ʿAbd-al-Malek b. Manṣūr (d. 434/1043). Manṣūr b. ʿAbd-al-Malek (revolts; killed 457/1065)" },
 
-{ t:"1045-01-01",
+{ odak_yer:["Karabiga"], t:"1045-01-01",
   tur:"toprak-kazanc",
   b:"Ani (Ermeni Bagratlı) toprakları Bizans'a ilhak edildi",
   gun:"1045 (TDV yıl verir)",
@@ -341,7 +341,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Arslan b. Selçuk’un oğlu Kutalmış 1049 ve 1053 yıllarında düzenlediği iki seferde de Kars’ı ele geçiremedi",
   ic_not:"İki kuşatma tek maddede (TDV tek cümlede verir); 1053 ayrı madde istenirse aynı alıntı." },
 
-{ t:"1053-01-01",
+{ odak_yer:["Tiflis"], t:"1053-01-01",
   tur:"toprak-kazanc",
   b:"Ebü'l-Esvâr Gürcülere ait bazı sınır kalelerini ele geçirdi",
   gun:"1053 (TDV 445/1053 verir)",
@@ -355,7 +355,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: seddadiler (ŞEDDÂDÎLER)",
   alinti:"445 (1053) yılında Gürcüler’e ait bazı sınır kalelerini ele geçirip buraları tahkim etti" },
 
-{ t:"1057-01-01",
+{ odak_yer:["Karabiga"], t:"1057-01-01",
   tur:"hanedan",
   b:"Askerî darbe İsaakios Komnenos'u Bizans tahtına çıkardı",
   gun:"1057 (TDV yıl verir)",
@@ -384,7 +384,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: kars (KARS)",
   alinti:"450’de (1058) Çağrı Bey’in oğlu Yâkūtî’nin emrindeki Selçuklu kuvvetleri Kars’ın kenar mahallelerini ele geçirip yağmaladı" },
 
-{ t:"1061-01-01",
+{ odak_yer:["Meyyâfârikīn"], t:"1061-01-01",
   tur:"hukumdar",
   b:"Nasrüddevle öldü, yerine oğlu Nizâmeddin Nasr geçti",
   gun:"453/1061 (TDV yıl verir)",
@@ -429,7 +429,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"Encyclopaedia Iranica, A. Peacock, 'SHADDADIDS' (tarayıcıda açıldı)",
   alinti:"in 1063 and 1064, he was able to launch a series of major expeditions against Shirvan" },
 
-{ t:"1064-01-01",
+{ odak_yer:["Tiflis"], t:"1064-01-01",
   tur:"tabi",
   b:"Gürcü Kralı IV. Bagrat, Alparslan'ın seferi sonunda Selçuklulara tâbi oldu",
   gun:"1064 (TDV 456/1064 verir)",
@@ -458,7 +458,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"Encyclopaedia Iranica, A. Peacock, 'SHADDADIDS' (tarayıcıda açıldı); TDV: seddadiler (ŞEDDÂDÎLER)",
   alinti:"Abu’l-Aswār died in Ganja in 1067, and his son Fażl II succeeded in his place" },
 
-{ t:"1068-01-01",
+{ odak_yer:["Şamahı"], t:"1068-01-01",
   tur:"tabi",
   b:"Şirvanşah Ferîburz, Gürcistan seferindeki Alparslan'a itaat arzetti",
   gun:"1068 (TDV yıl verir)",
@@ -473,7 +473,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"1068’de Gürcistan seferi sırasında Sultan Alparslan’a itaat arzeden Ferîburz",
   ic_not:"TDV gurcistan seferi 1065'te başlatıp 'Beş ay süren seferden 1068’de geri döndü' der; itaatin yılı TDV sirvansahlar'da 1068." },
 
-{ t:"1068-01-01",
+{ odak_yer:["Tiflis"], t:"1068-01-01",
   tur:"savas",
   b:"Alparslan'ın ikinci Gürcistan seferi: Şekkî alındı, Bagrat'tan bazı yerler fethedildi",
   gun:"1065-1068 (TDV sefere 1065'te çıkıldığını, 1068'de dönüldüğünü verir)",
@@ -503,7 +503,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"Encyclopaedia Iranica, A. Peacock, 'SHADDADIDS' (tarayıcıda açıldı)",
   alinti:"Fażlun b. Fażl (Fażl III), who usurped the emirate from his father in 1073" },
 
-{ t:"1076-01-01",
+{ odak_yer:["Tiflis"], t:"1076-01-01",
   tur:"savas",
   b:"Melikşah Gürcistan'a sefer düzenledi, bölgeyi Savtegin'e bıraktı",
   gun:"1076 (TDV yıl verir)",
@@ -533,7 +533,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"İznik başşehir olmak üzere Anadolu’da ilk Türk devletini (Anadolu Selçuklu Devleti) kurmuştur (1078).",
   ic_not:"ÇELİŞKİ: selcuklu künyesi f=1075-01-01 (TDV selcuklular); TDV bizans kuruluşu 1078 der. Bildirilir, selcuklu künyesine dokunulmadı." },
 
-{ t:"1080-01-01",
+{ odak_yer:["Meyyâfârikīn"], t:"1080-01-01",
   tur:"hukumdar",
   b:"Son Mervânî emîri Nâsırüddevle Mansûr başa geçti",
   gun:"472/1080 (TDV yıl verir)",
@@ -626,7 +626,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: antakya (ANTAKYA)",
   alinti:"1083’te Alparslan’ın oğlu Tutuş Antakya üzerine yürüdü, ancak şehri alamadı" },
 
-{ t:"1086-01-01",
+{ odak_yer:["Tiflis"], t:"1086-01-01",
   tur:"tabi",
   b:"Melikşah Kafkaslar'a son seferini yaptı, bölgeyi tamamen itaat altına aldı",
   gun:"1086 (TDV yıl verir)",
@@ -656,7 +656,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Emîr Çubuk’un askerleriyle birlikte Tutuş tarafına geçmesi ve Tutuş’un ordusuna kumanda eden Artuk Bey’in ustaca manevraları sonucunda Süleyman Şah’ın ordusu bozguna uğradı",
   ic_not:"Gün TDV'de: 18 Safer 479 / 4 Haziran 1086. Tutuş (Suriye Selçukluları) kapsam dışı, taraf yazılmadı. Çubuk Bey 1085 iktâsıyla künye içinde." },
 
-{ t:"1091-04-29",
+{ odak_yer:["Karabiga"], t:"1091-04-29",
   tur:"savas",
   b:"Levunion Savaşı: Aleksios, Kumanlarla birlikte Peçenekleri yendi",
   gun:"29 Nisan 1091",
@@ -795,7 +795,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"497/1104 yılında, Büyük Selçuklu ülkesinin iki kardeş arasında taksimi vesilesi ile söz edilmektedir.",
   ic_not:"buyuk-selcuklu: taraf künyesi başka oturumdan (IRAN) bekleniyor. Aynı gün (1104-01-01) Dânişmendli maddesiyle çakışır ama farklı olay." },
 
-{ t:"1104-05-07",
+{ odak_yer:["Antakya","Harran","Urfa"], t:"1104-05-07",
   tur:"savas",
   b:"Harran Savaşı: Artukoğlu Sökmen ve Çökürmüş, Urfa ve Antakya Haçlılarını yendi; Baudouin du Bourg ve Josselin esir düştü",
   gun:"7 Mayıs 1104 (TDV gün verir)",
@@ -827,7 +827,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Dânişmendli Gümüştegin Gazi’nin ölümünün ardından doğunun en mâmur şehirlerinden olan Malatya’yı ele geçirdi (1 Muharrem 500 / 2 Eylül 1106).",
   ic_not:"🟡 danismendliler '2 Eylül 1105 veya 1106' der; selcuklular 1 Muharrem 500 = 2 Eylül 1106. selcuklular esas alındı." },
 
-{ t:"1107-06-14",
+{ odak_yer:["İznik"], t:"1107-06-14",
   tur:"hukumdar",
   b:"I. Kılıcarslan Habur çayında boğuldu; Güneydoğu Anadolu beyleri onu terk etmişti",
   gun:"14 Haziran 1107",
@@ -843,7 +843,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"esir düşmemek için karşıya geçmek amacıyla atını Habur çayına sürdü ve sulara gömülerek hayatını kaybetti (500/1107).",
   ic_not:"Gün yalnız Belleten'de: '(19 Şevval 590/14 Haziran 1107)' — hicrî '590' makaledeki DİZGİ HATASI (500 olmalı), milâdî gün tutarlı. Muhammed b. Çubuk'un terk edenler arasında olduğu Belleten'in ÇIKARIMIDIR ('anlaşılmaktadır')." },
 
-{ t:"1108-01-01",
+{ odak_yer:["Antakya"], t:"1108-01-01",
   tur:"tabi",
   b:"Bohemund, Antakya için Bizans imparatoruna vasallık yemini etmek zorunda kaldı",
   gun:"1108 (TDV yıl verir)",
@@ -858,7 +858,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: haclilar (HAÇLILAR)",
   alinti:"1108’de imparatora Antakya için vasallık yemini etmeye mecbur kaldı" },
 
-{ t:"1109-01-01",
+{ odak_yer:["Meyyâfârikīn"], t:"1109-01-01",
   tur:"toprak-kazanc",
   b:"Sökmen el-Kutbî Meyyâfârikīn'ı aldı; Âmid'in İnaloğulları ona tâbi oldu",
   gun:"Mayıs 1109 (Şevval 502; gün bilinmiyor)",
@@ -874,7 +874,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Meyyâfârikīn, Şevval 502’de (Mayıs 1109) Ahlatşahlar’ın kurucusu Sökmen el-Kutbî tarafından ele geçirildi.",
   ic_not:"inalogullari İbrâhim'in tâbiiyetini 502/1108-1109 diye verir." },
 
-{ t:"1110-01-01",
+{ odak_yer:["Bitlis"], t:"1110-01-01",
   tur:"toprak-kazanc",
   b:"Dilmaçoğlu Togan Arslan Silvan'a bağlı köyleri aldı, sonra bağımsızlığını ilan etti",
   gun:"504/1110-11 (TDV hicrî yılı iki milâdî yıla yayar)",
@@ -905,7 +905,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: haclilar (HAÇLILAR)",
   alinti:"Musul Valisi Mevdûd’un 1110’da başlayıp daha sonra devam eden üç seferi Urfa Kontluğu’nun geleceği bakımından dönüm noktası oldu" },
 
-{ t:"1110-01-01",
+{ odak_yer:["Gence"], t:"1110-01-01",
   tur:"savas",
   b:"Muhammed Tapar, Gence'ye kadar gelen IV. David'in ordusunu bozguna uğrattı",
   gun:"1110 (TDV 503/1110 verir)",
@@ -1016,7 +1016,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Yeni hükümdar da Urfa Kontluğu’nun idaresini kuzeni Josselin de Courtenay’a bıraktı",
   ic_not:"Yıl bir önceki cümleden: '1118’de Kral I. Baudouin’in ölümü üzerine'." },
 
-{ t:"1119-01-01",
+{ odak_yer:["Antakya"], t:"1119-01-01",
   tur:"savas",
   b:"İlgazi ve Togan Arslan Tel İfrîn'de Antakya Prinkepsi Roger'i yok etti",
   gun:"Haziran 1119 (Rebîülevvel 513; gün bilinmiyor)",
@@ -1032,7 +1032,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"İlgazi, Togan Arslan’ın yardımıyla Antakya Haçlı Prensi Roger’i Tel İfrîn’de ağır bir yenilgiye uğrattı",
   ic_not:"taraf antakya-prinkipsligi (devletler.js mevcut künye). İki TDV maddesi de ay verir (Haziran 1119)." },
 
-{ t:"1119-06-28",
+{ odak_yer:["Hasankeyf"], t:"1119-06-28",
   tur:"savas",
   b:"Kanlı Meydan Savaşı: Artuklu İlgazi Antakya ordusunu yok etti, Ruggero di Salerno öldü",
   gun:"28 Haziran 1119 (TDV 17 Rebîülevvel 513 / 28 Haziran 1119 verir)",
@@ -1079,7 +1079,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"İlgazi’nin ordusu, Kıpçaklar’dan da yardım gören Gürcüler karşısında ağır bir yenilgiye uğradı (Cemâziyelâhir 515 / Ağustos 1121).",
   ic_not:"Savaşın adı (Didgori) TDV'de geçmez, yazılmadı. Meyyâfârikīn'ın aynı yıl İlgazi'ye iktâsı ayrı maddede." },
 
-{ t:"1121-01-01",
+{ odak_yer:["Meyyâfârikīn"], t:"1121-01-01",
   tur:"toprak-kazanc",
   b:"Irak Selçuklu Sultanı Mahmud Meyyâfârikīn'ı Artuklu İlgazi'ye iktâ etti",
   gun:"515/1121 (TDV yıl verir)",
@@ -1110,7 +1110,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: haclilar (HAÇLILAR)",
   alinti:"Josselin 1122’de Artuklu Beyi Belek b. Behrâm’a esir düştü ve Harput Kalesi’nde hapsedildi" },
 
-{ t:"1122-11-19",
+{ odak_yer:["Hasankeyf"], t:"1122-11-19",
   tur:"bolunme",
   b:"İlgazi öldü; Artuklu toprakları oğulları ve yeğenleri arasında bölündü",
   gun:"19 Kasım 1122",
@@ -1171,7 +1171,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Malatya’ya hücum etti (13 Haziran 1124), uzun süren bir kuşatmadan sonra şehri teslim aldı.",
   ic_not:"🟡 Gün HÜCUMUN günüdür, teslim ('uzun süren bir kuşatmadan sonra') daha geçtir. selcuklular: 'Belek’in 518’de (1124) ölümünden sonra şehir Dânişmendliler’in eline geçti'." },
 
-{ t:"1126-01-01",
+{ odak_yer:["Tiflis"], t:"1126-01-01",
   tur:"toprak-kazanc",
   b:"IV. Fazl Ani'yi Gürcülerden geri aldı",
   gun:"1126 (Iranica yıl verir; TDV yıl vermez, 'bir yıl kadar süren kuşatma')",
@@ -1187,7 +1187,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"in 1126 Abu’l-Aswār II’s son Fażlun IV",
   ic_not:"Iranica alıntısı cümlenin tarih taşıyan parçası; cümle '... retook the city' ile sürer. Gürcü teslimini Iranica 1124, TDV 1123 verir (iskelette 1123)." },
 
-{ t:"1128-01-01",
+{ odak_yer:["Ahlat"], t:"1128-01-01",
   tur:"hukumdar",
   b:"Altı yaşındaki II. Sökmen Ahlatşah oldu",
   gun:"1128 (TDV yıl verir)",
@@ -1234,7 +1234,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Ancak Erzen Emîri Kurti’nin Dvin’i geri almak için giriştiği savaşta öldü (524/1130)",
   ic_not:"Iranica yılı 'around 1030' diye basar — açık dizgi hatası (1130 olmalı)." },
 
-{ t:"1130-01-01",
+{ odak_yer:["Sivas"], t:"1130-01-01",
   tur:"hukumdar",
   b:"II. Bohemund Dânişmendlilerle savaşta öldü",
   gun:"1130 (TDV yıl verir)",
@@ -1357,7 +1357,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Kurtî’nin 538 (1143) yılında ölümü üzerine yerine kardeşi Yâkut Arslan geçtiyse de kısa süre sonra o da vefat etti.",
   ic_not:"Togan Arslan'ın ölümü '(1134) veya 532 (1137)' — TDV kararsız, madde açılmadı." },
 
-{ t:"1144-01-01",
+{ odak_yer:["Diyarbakır"], t:"1144-01-01",
   tur:"toprak-kayip",
   b:"Zengî İnaloğullarından Ergani, Hâlâr, Tulhum ve Çermük'ü aldı",
   gun:"538/1144 (TDV yıl verir)",
@@ -1389,7 +1389,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Zengî’nin Ca‘ber Kalesi muhasarasında öldürülmesiyle rahatlayan Kara Arslan, Gerger ve Harput’u ele geçirdi (1150).",
   ic_not:"🟡 İki TDV maddesi 1150'de Gerger'i iki ayrı el-birliği fatihine verir (artuklular: Kara Arslan; danismendliler: 'Artuklu Kara Arslan ile beraber ... Aynüddevle ... Gerger, Kâhta, Adıyaman ve Palu’yu ele geçirip'). Ortak sefer olarak tek madde yazıldı; Gerger'in sahibi ölçülemedi. TDV artuklular 1124-1185 arası Harput'u zaten Hısnıkeyfâ kolunda sayar — 1150 'Harput' kaydı bununla da gerilim içinde." },
 
-{ t:"1151-01-01",
+{ odak_yer:["Urfa"], t:"1151-01-01",
   tur:"fetih",
   b:"Urfa kontluğunun Bizans'a satılan son toprakları Türkler arasında paylaşıldı",
   gun:"1151 (TDV yıl verir)",
@@ -1405,7 +1405,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"1151’de Râvendân ve Tel Bâşir Nûreddin, Ayıntab ve Dülûk Mesud, Samsat ve Birecik Artuklu Beyi Timurtaş tarafından zaptedildi",
   ic_not:"Urfa künyesinin t'sinden (1150) SONRA; eski kontluk topraklarının akıbeti için. taraf künyesi başka oturumdan bekleniyor: 'zengiler'" },
 
-{ t:"1154-01-01",
+{ odak_yer:["Tiflis"], t:"1154-01-01",
   tur:"savas",
   b:"Saltuklu II. İzzeddin Saltuk Ani'de Gürcülere esir düştü",
   gun:"548/1153-54 (TDV hicrî yılı iki milâdî yıla yayar)",
@@ -1421,7 +1421,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Ani’de baskına uğrayan Saltuklular mağlûp oldu. İzzeddin Saltuk ve çok sayıda asker esir düştü.",
   ic_not:"Yıl: saltuklular 548 (1153-54) · ahlatsahlar 'Gürcü Kralı Giorgi, 1154 yılında Saltuklu Hükümdarı İzzeddin Saltuk’u ağır bir yenilgiye uğrattıktan sonra' — 1154 seçildi. Kral adı iki maddede farklı (Dimitri / Giorgi)." },
 
-{ t:"1155-01-01",
+{ odak_yer:["Tiflis"], t:"1155-01-01",
   tur:"hukumdar",
   b:"Ermeni rahiplerin isyanıyla Fahreddin Şeddâd yerine kardeşi V. Fazl getirildi",
   gun:"1155 (TDV 550/1155 verir)",
@@ -1437,7 +1437,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Saltuk’un yerine kardeşi V. Fazl’ın geçirilmesini sağladılar (550/1155)",
   ic_not:"TDV cümlesi 'Saltuk'un yerine' diyor; bağlam Fahreddin Şeddâd'ın yerine olduğunu gösteriyor — TDV'nin kendi metninde ad karışıklığı (D211 ⑥). Iranica olayı 1154 evlilik girişimiyle başlatır." },
 
-{ t:"1161-01-01",
+{ odak_yer:["Tiflis"], t:"1161-01-01",
   tur:"savas",
   b:"Türk beylerinin Ani kuşatması Gürcülere karşı ağır yenilgiyle bitti",
   gun:"Ağustos 1161 (Şâban 556; gün bilinmiyor) — ahlatsahlar: Ağustos 1162",
@@ -1468,7 +1468,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Renaud’nun hâkimiyeti de 1161’de Nûreddin’e esir düşmesiyle son buldu. Yerine Konstance’ın ilk kocası Raimond’dan olan oğlu III. Bohemund geçti",
   ic_not:"taraf künyesi başka oturumdan bekleniyor: 'zengiler'" },
 
-{ t:"1162-01-01",
+{ odak_yer:["İznik"], t:"1162-01-01",
   tur:"savas",
   b:"Bizans destekli Dânişmendli Yağıbasan II. Kılıcarslan'ı yendi",
   gun:"1162 (TDV yıl verir)",
@@ -1514,7 +1514,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Erzen ve Bitlis Emîri Fahreddin Devletşah ile birlikte yeniden harekete geçip Sivas üzerine yürüdü ve şehri zaptetti (1163).",
   ic_not:"🟡 TDV dilmacogullari aynı seferi 'Sivas’a kadar ilerlediyse de sonradan barış yapıldı ve herhangi bir çarpışma olmadı' diye anlatır — iki madde sonuçta ÇELİŞİR. Sivas 1172'de Zünnûn'la yine Dânişmendli; zapt geçici olmalı." },
 
-{ t:"1163-01-01",
+{ odak_yer:["Tiflis"], t:"1163-01-01",
   tur:"savas",
   b:"Türk-İslam ittifakı Lukri yakınında Gürcüleri yendi",
   gun:"Temmuz 1163 (gün bilinmiyor)",
@@ -1546,7 +1546,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"damadı Fahreddin Karaarslan kuşatmayı kaldırıp memleketine dönmeye mecbur oldu (Şâban 558 / Temmuz 1163).",
   ic_not:"Aynı yıl üç madde (1163-01-01) — ay düzeyinde sıralama gün alanında." },
 
-{ t:"1164-08-04",
+{ odak_yer:["Sivas"], t:"1164-08-04",
   tur:"hukumdar",
   b:"Dânişmendli Yağıbasan öldü; hânedan taht kavgasına düştü",
   gun:"4 Ağustos 1164",
@@ -1606,7 +1606,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Zünnûn, Nûreddin’in yardımıyla Sivas’a ulaşıp Dânişmendli tahtına çıktı (567/1172).",
   ic_not:"zengi: taraf künyesi başka oturumdan bekleniyor." },
 
-{ t:"1174-08-11",
+{ odak_yer:["Ahlat"], t:"1174-08-11",
   tur:"toprak-kazanc",
   b:"Ahlatşah II. Sökmen Sasun kalelerini üç yıllık kuşatmadan sonra aldı",
   gun:"11 Ağustos 1174",
@@ -1621,7 +1621,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: ahlatsahlar (AHLATŞAHLAR)",
   alinti:"Fakat Sökmen çok sonraları Sasunlular’ın kalelerini üç yıl kuşatarak ele geçirdi (11 Ağustos 1174)" },
 
-{ t:"1183-01-01",
+{ odak_yer:["Hasankeyf"], t:"1183-01-01",
   tur:"diplomasi",
   b:"Ahlatşah, Artuklu ve Dilmaçoğlu Selâhaddin'e karşı birleşik orduya katıldı",
   gun:"579/1183 (TDV yıl verir)",
@@ -1683,7 +1683,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: bizans (BİZANS)",
   alinti:"İktidara kısa ömürlü yeni bir hânedanın ilk temsilcisi İsaakios Angelos getirildi." },
 
-{ t:"1185-07-10",
+{ odak_yer:["Meyyâfârikīn"], t:"1185-07-10",
   tur:"hukumdar",
   b:"Ahlatşah II. Sökmen öldü; Meyyâfârikīn Selâhaddin'e geçti",
   gun:"10 Temmuz 1185",
@@ -1715,7 +1715,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Trablus Kontluğu ile Antakya Prinkepsliği sadece başşehirle birkaç kasabadan ibaret kaldı",
   ic_not:"Eyyûbî (Mısır-Suriye) künyesi yok; taraf yazılmadı. Yıl bir önceki cümleden ('Selâhaddin 1188 yılında fetihlerine devam ederek')." },
 
-{ t:"1193-05-18",
+{ odak_yer:["Ahlat"], t:"1193-05-18",
   tur:"hanedan",
   b:"Ahlatşah Begtemür öldürüldü, damadı Hezâr Dînârî tahtı aldı",
   gun:"18 Mayıs 1193",
@@ -1746,7 +1746,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Neticede Eyyûbîler mağlûp olarak Mardin’den çekildiler (1199).",
   ic_not:"eyyubi: taraf künyesi başka oturumdan (ORTADOGU) bekleniyor." },
 
-{ t:"1199-01-01",
+{ odak_yer:["Misis"], t:"1199-01-01",
   tur:"tabi",
   b:"Misis, Anadolu Selçuklu Sultanı II. Süleyman Şah'a tâbi oldu",
   gun:"1199 (TDV yıl verir)",
@@ -1762,7 +1762,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Misis 1199’da Anadolu Selçuklu Sultanı II. Süleyman Şah’a tâbi oldu",
   ic_not:"İskeletteki 1199-01-06 taç maddesiyle AYNI olay değil (ayrı cümle, ayrı konu); gün bilinmiyor. · kilikya-ermeni tarafı çıkarıldı: 1199-01-01 künye f 1199-01-06 öncesi (TDV taç yılı 1198 — künye günü koordinatörde)" },
 
-{ t:"1202-01-01",
+{ odak_yer:["Tiflis"], t:"1202-01-01",
   tur:"savas",
   b:"II. Süleyman Şah'ın Gürcistan seferi Micingerd'de yenilgiyle bitti; Mengücüklü Behram Şah esir düştü",
   gun:"Temmuz sonları 1202 (598 Zilkade başları; gün bilinmiyor)",
@@ -1857,7 +1857,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Gıyâseddin Keyhusrev’in ikinci sultanlığı döneminde Denizli ve Antalya yöreleri ele geçirildi (603/1207).",
   ic_not:"Antalya'yı elinde tutan taraf TDV cümlesinde yok — taraf yazılmadı. Ermeni Krallığı'nın bağlanması yılsız, madde açılmadı." },
 
-{ t:"1211-01-01",
+{ odak_yer:["İznik"], t:"1211-01-01",
   tur:"savas",
   b:"Antiokhia (Menderes) Savaşı: I. Gıyâseddin Keyhusrev, Laskaris'e karşı savaşta öldü",
   gun:"Haziran 1211 (gün bilinmiyor)",
@@ -1904,7 +1904,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Theodore signed a treaty (c. 1214) defining the frontiers between the Greek empire of Nicaea and the Latin empire of Constantinople.",
   ic_not:"'Nymphaion' adı kaynakta YOK (yalnız 'a treaty'); başlıktaki parantez kaldırılabilir. 'c. 1214' — yıl yaklaşık." },
 
-{ t:"1214-01-01",
+{ odak_yer:["Trabzon"], t:"1214-01-01",
   tur:"toprak-kazanc",
   b:"Theodoros Laskaris Trabzon Rum İmparatorluğu'nun batı topraklarının çoğunu ilhak etti",
   gun:"yaklaşık 1214 (Britannica, antlaşmadan sonra)",
@@ -1949,7 +1949,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Trabzon’daki Komnenoslar’ın egemenliğine giren Sinop, I. İzzeddin Keykâvus tarafından fethedildi (26 Cemâziyelâhir 611 / 2 Kasım 1214).",
   ic_not:"tâbilik aralığı TDV trabzon: 'Selçuklular 1214-1243'." },
 
-{ t:"1215-01-01",
+{ odak_yer:["Yanya"], t:"1215-01-01",
   tur:"hukumdar",
   b:"Theodoros Angelos Epir'in başına geçti",
   gun:"1215 (TDV yıl verir)",
@@ -1964,7 +1964,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Epiros Devleti, kurucusunun kardeşi Theodoros Angelos’un (1215-1230) idaresinde en parlak dönemini yaşıyordu",
   ic_not:"Britannica 'half brother' der, TDV 'kardeşi'." },
 
-{ t:"1216-01-01",
+{ odak_yer:["İstanbul"], t:"1216-01-01",
   tur:"hukumdar",
   b:"Latin İmparatoru Henri öldü",
   gun:"1216 (Britannica yıl verir)",
@@ -1979,7 +1979,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"After Henry’s death (1216), Theodore strengthened his ties to the Latin empire by taking as his third wife Maria, daughter of the empress Yolande",
   ic_not:"'Edirne yenilgisinden sonra toparlayan' ifadesi kaynakta yok — d'den çıkarılabilir." },
 
-{ t:"1216-01-01",
+{ odak_yer:["Sis"], t:"1216-01-01",
   tur:"savas",
   b:"I. İzzeddin Keykâvus Kilikya'ya sefer düzenledi",
   gun:"1216 (TDV yıl verir)",
@@ -1994,7 +1994,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: misis (MİSİS)",
   alinti:"I. İzzeddin Keykâvus 1216’da Kilikya üzerine bir sefer düzenledi ve zengin ganimetlerle geri döndü" },
 
-{ t:"1219-01-01",
+{ odak_yer:["Sis"], t:"1219-01-01",
   tur:"hanedan",
   b:"I. Hethum dönemi başladı (1219-1270); Hetumî hânedanı Rubenîlerin yerini aldı",
   gun:"1219 (TDV dönem aralığı 1219-1270 verir)",
@@ -2152,7 +2152,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"İlk defa 1220’de Gürcüler’i bozguna uğratan Moğollar 1231’de Gürcistan’a girdiler",
   ic_not:"İskeletteki 1220 'Moğol istilaları başladı' maddesinden ayrı olay." },
 
-{ t:"1232-01-01",
+{ odak_yer:["Tiflis"], t:"1232-01-01",
   tur:"savas",
   b:"Selçuklu kumandanları Gürcistan'a sefer yaptı; Rusudan barış isteyip kızını Selçuklu şehzadesine nikâhladı",
   gun:"1232 (TDV yıl verir)",
@@ -2198,7 +2198,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Allied with the Bulgarian tsar John Asen II, John III defeated Theodore in battle (1230) and besieged Constantinople in 1235.",
   ic_not:"Britannica aynı cümlede Klokotnica'yı (1230) Vatatzis'e yazar; TDV bizans ve Britannica 'Despotate of Epirus' Theodoros'u II. İvan Asen'in yendiğini söyler — Britannica kendi içinde tutarsız; 1230 bu maddeye alınmadı. 'barış 1237' Britannica: 'A peace was arranged in 1237'." },
 
-{ t:"1236-01-01",
+{ odak_yer:["Yanya"], t:"1236-01-01",
   tur:"hukumdar",
   b:"II. Mikail Epir'in başına geçti",
   gun:"1236 (Britannica yıl verir)",
@@ -2275,7 +2275,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"vasal statüsünü kabul etme arzuları da (Selçuklular 1214-1243, 1243’ten sonra Moğollar",
   ic_not:"Kösedağ bağlantısı TDV trabzon cümlesinde yok (TDV sinop'ta 'Kösedağ Savaşı (1243)' geçer) — d'deki bağ yorum sayılabilir." },
 
-{ t:"1243-01-01",
+{ odak_yer:["Sis"], t:"1243-01-01",
   tur:"tabi",
   b:"Kilikya Ermeni Krallığı Moğollara tâbi oldu",
   gun:"1243 (TDV yıl verir)",
@@ -2290,7 +2290,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"1243’ten itibaren Kilikya İlhanlılar’a tâbiiyet arzetti",
   ic_not:"İskeletteki 1247 ittifak maddesinden ayrı olay (tâbiiyetin başlangıcı). 'İlhanlılar' TDV'nin sözü; 1243'te İlhanlı künyesi yok (f 1256)." },
 
-{ t:"1243-01-01",
+{ odak_yer:["Tiflis"], t:"1243-01-01",
   tur:"tabi",
   b:"Kraliçe Rusudan Büyük Moğol Hanı'nı resmen metbû tanıdı",
   gun:"1243 (TDV yıl verir)",
@@ -2304,7 +2304,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: gurcistan (GÜRCİSTAN)",
   alinti:"haraç ödeyerek onlara tâbi olmayı kabul etti ve 1243’te Büyük Han’ı resmen metbû tanıdı" },
 
-{ t:"1246-01-01",
+{ odak_yer:["Balyabadra (Patras)"], t:"1246-01-01",
   tur:"hukumdar",
   b:"II. Guillaume de Villehardouin Ahaya prinkepsi oldu",
   gun:"1246 (Britannica yıl verir)",
@@ -2349,7 +2349,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: selcuklular (SELÇUKLULAR)",
   alinti:"Böylece Anadolu Selçuklu Devleti tarihinde müşterek saltanat devri başladı (1249-1254)." },
 
-{ t:"1254-11-03",
+{ odak_yer:["İznik"], t:"1254-11-03",
   tur:"hukumdar",
   b:"III. İoannis Vatatzis öldü; II. Theodoros Laskaris İznik tahtına geçti",
   gun:"3 Kasım 1254",
@@ -2428,7 +2428,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Gradually usurping more and more authority, Michael seized the throne and early in 1259 was crowned emperor",
   ic_not:"TDV '(1258-1282)' müşterek imparatorluk; hükümdar listesi 'VIII. Mikhail Palaiologos 1259-1282'. Britannica 'co-emperor with John in 1258' da der. İznik iskeletindeki 1259 Pelagonia maddesi ayrı olaydır." },
 
-{ t:"1259-01-01",
+{ odak_yer:["İznik"], t:"1259-01-01",
   tur:"toprak-kayip",
   b:"Epir'in büyük kısmı İznik denetimine geçti",
   gun:"1259 (Britannica yıl verir)",
@@ -2551,7 +2551,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Bir rivayete göre de Ermeni Krallığı ile yaptığı bir savaşta aldığı yaralar yüzünden ölmüştür (1263).",
   ic_not:"⚠️ Yıl ve sebep TDV'de 'bir rivayete göre' — tek rivayete dayanır. kilikya-ermeni taraflığı da aynı rivayete bağlı." },
 
-{ t:"1263-01-01",
+{ odak_yer:["Karabiga"], t:"1263-01-01",
   tur:"savas",
   b:"VIII. Mihail Mora'ya 6000 Selçuklu paralı askeri getirdi",
   gun:"1263 baharı (gün bilinmiyor)",
@@ -2613,7 +2613,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Yaklaşık bir yıl süreyle karadan ve denizden kuşattığı şehri 664 (1266) yılında ele geçirdi.",
   ic_not:"pervane künyesi 1277'de başladığı için taraf yazılmadı (künye aşımı olurdu). Aynı yıl IV. Kılıcarslan'ın Pervâne tarafından öldürtülmesi (664/1266) anlatıda anılmadı; ayrı madde açılmadı (Selçuklu tavanı). · mükerrer birleştirildi: B36 (Muînüddin Süleyman Pervâne Sinop'u Trabzon Rumlarından geri aldı)" },
 
-{ t:"1266-08-24",
+{ odak_yer:["Tarsus","Adana","Misis"], t:"1266-08-24",
   tur:"savas",
   b:"Mari Savaşı: Memlükler Ermenileri yendi, Sis'i yağmaladı; Misis, Adana, Ayas ve Tarsus'u ele geçirdi",
   gun:"24 Ağustos 1266 (TDV gün verir)",
@@ -2644,7 +2644,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: bizans (BİZANS) · Britannica 'Michael VIII Palaeologus'",
   alinti:"Lyon Konsili’nde (1274) papanın üstünlüğünü tanımak zorunda kaldı." },
 
-{ t:"1276-01-01",
+{ odak_yer:["Ermenek"], t:"1276-01-01",
   tur:"isyan",
   b:"Karamanoğulları Beylerbeyi Hatiroğlu'nun Moğollara karşı isyanına katıldı",
   gun:"675/1276 (TDV yıl verir)",
@@ -2674,7 +2674,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Elbistan ovasında meydana gelen savaşta Moğollar ağır bir yenilgiye uğradı (Zilkade 675 / Nisan 1277).",
   ic_not:"Pervâne'nin öldürülüşü pervane künyesinin kuruluşunu tetikledi (pervane iskeleti 1277-01-01) — o madde tekrarlanmadı." },
 
-{ t:"1277-01-01",
+{ odak_yer:["Ermenek"], t:"1277-01-01",
   tur:"savas",
   b:"Sâhib Ataoğulları Altuntaş'ta Karamanoğlu ve Cimri'ye yenildi, iki kardeş öldü",
   gun:"Mayıs 1277 (Zilhicce 675; gün bilinmiyor)",
@@ -2690,7 +2690,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Akşehir yakınlarındaki Altuntaş köyünde meydana gelen savaşta Tâceddin Hüseyin ve Nusretüddin Hasan hayatlarını kaybettiler (Zilhicce 675 / Mayıs 1277).",
   ic_not:"Konya'nın alınışı (karaman iskeleti 1277-05-13) ile aynı ay; Altuntaş Konya'dan SONRADIR ama gün yok." },
 
-{ t:"1277-01-01",
+{ odak_yer:["İznik"], t:"1277-01-01",
   tur:"toprak-kayip",
   b:"İnançoğlu Ali Bey'in bağımsızlık girişimi yakalanıp sürgünle bitti",
   gun:"1277 (TDV yıl verir)",
@@ -2706,7 +2706,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Ancak 1277’de yakalanarak Karahisarısâhib’e (Afyonkarahisar) sürüldü ve orada üzüntüden öldü.",
   ic_not:"Kimin yakaladığı TDV cümlesinde yok; selcuklu taraflığı bağlamdan ('Selçuklular’a bağlı kalan Ali Bey'). Hânedan 1292'ye kadar İnanç Bey'le yeniden görünmüyor." },
 
-{ t:"1277-01-01",
+{ odak_yer:["Ermenek"], t:"1277-01-01",
   tur:"hukumdar",
   b:"Karamanoğlu Mehmed Bey Moğol öncülerince öldürüldü, yerine Güneri Bey geçti",
   gun:"Kasım 1277 (Cemâziyelâhir 676; gün bilinmiyor) — TDV selcuklular: 20 Haziran 1277",

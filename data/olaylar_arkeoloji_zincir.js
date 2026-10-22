@@ -44,7 +44,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Seleukeia","Babil","Uruk"], 
   "t": "-0140-01-01",
   "k": "diger",
   "b": "Babil, Seleukeia (Dicle üzerinde), Uruk: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu",
@@ -77,7 +77,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Babil","Uruk"], 
   "t": "-0310-01-01",
   "k": "diger",
   "b": "Babil, Uruk: sahipsiz aralık → Selevkos Imparatorlugu",
@@ -99,7 +99,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Pasargad","Babil","Uruk"], 
   "t": "-0322-06-10",
   "k": "diger",
   "b": "Babil, Ekbatana, Pasargad, Uruk: Buyuk Iskender Imparatorlugu → sahipsiz aralık",
@@ -133,7 +133,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {
+ { "odak_yer":["Babil","Uruk"], 
   "t": "-0330-01-01",
   "k": "diger",
   "b": "Babil, Uruk: Ahamenis (Pers) Imparatorlugu → Buyuk Iskender Imparatorlugu",
@@ -177,7 +177,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Babil"], 
   "t": "-0709-01-01",
   "k": "diger",
   "b": "Babil: sahipsiz aralık → Yeni Asur Imparatorlugu",
@@ -188,7 +188,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Samiriye"], 
   "t": "-0721-01-01",
   "k": "diger",
   "b": "Samiriye (Samaria / Sebaste): Israil Krallığı (Samiriye) → Yeni Asur Imparatorlugu",
@@ -222,7 +222,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Susa"], 
   "t": "-1099-01-01",
   "k": "diger",
   "b": "Susa: Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid) → Yeni Elam Krallığı",
@@ -245,7 +245,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {
+ { "odak_yer":["Babil"], 
   "t": "-1209-01-01",
   "k": "diger",
   "b": "Babil: Orta Asur Imparatorlugu → sahipsiz aralık",
@@ -256,7 +256,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Babil"], 
   "t": "-1219-01-01",
   "k": "diger",
   "b": "Babil: Kassit Babil Krallığı → Orta Asur Imparatorlugu",
@@ -290,7 +290,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Kerma"], 
   "t": "-1499-01-01",
   "k": "diger",
   "b": "Kerma (Kerma / Doukki Gel): Kerma Krallığı (Klasik Kerma) → sahipsiz aralık",
@@ -312,7 +312,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Babil"], 
   "t": "-1760-01-01",
   "k": "diger",
   "b": "Mari: sahipsiz aralık → Eski Babil (Amorit) Krallığı",
@@ -357,7 +357,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Susa"], 
   "t": "-1899-01-01",
   "k": "diger",
   "b": "Susa: Elam — Simaski Hanedani → Elam — Sukkalmah (Eparti) Hanedani",
@@ -380,7 +380,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "onyil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {
+ { "odak_yer":["Susa"], 
   "t": "-2023-01-01",
   "k": "diger",
   "b": "Susa: Ur III (Ucuncu Ur Hanedani) → Elam — Simaski Hanedani",
@@ -526,7 +526,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Bergama"], 
   "t": "-0281-01-01",
   "k": "diger",
   "b": "Pergamon: Bergama (Attalos) Krallığı dönemi başlar",
@@ -637,7 +637,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Kudüs"], 
   "t": "-0585-01-01",
   "k": "diger",
   "b": "Kudüs: Yahuda Krallığı dönemi sona erer",
@@ -659,7 +659,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Marsilya"], 
   "t": "-0599-01-01",
   "k": "diger",
   "b": "Massalia: Massalia (Marsilya) dönemi başlar",
@@ -682,7 +682,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Şam"
  },
- {
+ { "odak_yer":["Babil"], 
   "t": "-0626-01-01",
   "k": "diger",
   "b": "Babil: Yeni Asur Imparatorlugu dönemi sona erer",
@@ -704,7 +704,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Sirakuza"], 
   "t": "-0733-01-01",
   "k": "diger",
   "b": "Syrakusai: Sirakuza (Syrakousai) dönemi başlar",
@@ -759,7 +759,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Kudüs"], 
   "t": "-0929-01-01",
   "k": "diger",
   "b": "Kudüs: Yahuda Krallığı dönemi başlar",
@@ -804,7 +804,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Anyang","Yinxu"], 
   "t": "-1196-01-01",
   "k": "diger",
   "b": "Anyang / Yinxu (殷墟): sahipsiz aralık dönemi sona erer",
@@ -815,7 +815,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Anyang","Yinxu"], 
   "t": "-1253-01-01",
   "k": "diger",
   "b": "Anyang / Yinxu (殷墟): sahipsiz aralık dönemi başlar",
@@ -859,7 +859,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Babil"], 
   "t": "-1893-01-01",
   "k": "diger",
   "b": "Babil: Eski Babil (Amorit) Krallığı dönemi başlar",
@@ -994,7 +994,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
- {
+ { "odak_yer":["Dura-Europos","Seleukeia","Ktesiphon","Babil"], 
   "t": "0224-04-28",
   "k": "diger",
   "b": "Babil, Dura-Europos, Ekbatana, Ktesiphon, Seleukeia (Dicle üzerinde), Uruk: Part (Arsakid) Imparatorlugu dönemi sona erer",

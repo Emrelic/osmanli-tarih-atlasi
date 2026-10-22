@@ -28,7 +28,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   kaynak:"Marius B. Jansen, The Making of Modern Japan (Harvard UP, 2000) · John Whitney Hall (ed.), The Cambridge History of Japan, cilt 4 (Cambridge UP, 1991). Sayfa verilmedi.",
   taraflar:["edo-bakufu"], etiket:["konu-siyasi","konu-idari"] },
 
-{ t:"1638-01-01", k:"askeri",tur:"askeri", b:"Shimabara İsyanı bastırıldı — Hıristiyanlık yasağı ve ülkenin kapanması pekişti",
+{ odak_yer:["Kyoto"], t:"1638-01-01", k:"askeri",tur:"askeri", b:"Shimabara İsyanı bastırıldı — Hıristiyanlık yasağı ve ülkenin kapanması pekişti",
   gun:"Nisan 1638 (Japon ay takvimi; isyan 1637 sonunda başlamıştı, Gregoryen çevrim sınanmadı)", yer:"Shimabara",
   kisiler:"Amakusa Shirō, Matsukura Katsuie",
   d:"Kyushu'da Shimabara ve Amakusa'da ağır vergi ve Hıristiyan baskısına karşı köylüler ve rōnin 1637 sonunda ayaklandı, Hara Kalesi'ne kapandı. Şogunluk, Hollanda gemilerinin desteğini de alarak kaleyi 1638 baharında aldı ve isyancıları topluca öldürdü. Portekizlilerin ülkeden çıkarılması ve dış ticaretin Hollanda ile Çin'e sınırlanması bu olayın ardından geldi.",
@@ -63,7 +63,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["timor-beylikleri","hollanda-dogu-hint"], etiket:["konu-siyasi","konu-askeri"] },
 
 // ── KAMBOÇYA (POST-ANGKOR) ─────────────────────────────────────────
-{ t:"1594-01-01", k:"askeri",tur:"askeri", b:"Siyam kuvvetleri Lovek'i aldı — Kmer başkenti yıkıldı",
+{ odak_yer:["Ayutthaya"], t:"1594-01-01", k:"askeri",tur:"askeri", b:"Siyam kuvvetleri Lovek'i aldı — Kmer başkenti yıkıldı",
   gun:"1594 (yıl)", yer:"Lovek", kisiler:"Naresuan",
   d:"Angkor'un terkinden sonra Kmer devletinin başkenti olan Lovek, Ayutthaya Kralı Naresuan'ın ordusuna 1594'te düştü. Şehir yağmalandı, kraliyet ailesi tutsak edildi, krallık uzun süre Siyam'a bağımlı hale geldi. Kamboçya bundan sonra başkentini Oudong dolayına taşıdı.",
   kaynak:"David Chandler, A History of Cambodia (Westview Press, 4. bs., 2008) · David P. Chandler, Michael Vickery. Sayfa verilmedi.",
@@ -95,21 +95,21 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["malay-sultanliklari","hollanda-dogu-hint","ingiltere"], etiket:["konu-diplomasi","konu-siyasi"] },
 
 // ── MAJAPAHIT ──────────────────────────────────────────────────────
-{ t:"1357-01-01", k:"siyasi",tur:"siyasi", b:"Bubat Olayı — Majapahit ile Sunda Krallığı arasında kalıcı husumet doğdu",
+{ odak_yer:["Trowulan"], t:"1357-01-01", k:"siyasi",tur:"siyasi", b:"Bubat Olayı — Majapahit ile Sunda Krallığı arasında kalıcı husumet doğdu",
   gun:"1357 (yıl; Pararaton anlatısı)", yer:"Bubat", kisiler:"Hayam Wuruk, Gajah Mada, Linggabuana",
   d:"Geleneksel anlatıya göre Hayam Wuruk, Sunda Kralı'nın kızıyla evlenmek üzere gelen Sunda heyetini Bubat meydanında, Gajah Mada'nın onları tâbi saymasıyla patlayan bir anlaşmazlıkta yok etti. Olay yalnız geç dönem metinlerinden (Pararaton, Kidung Sundayana) bilinir, ayrıntıları tartışmalıdır. Sunda ile Cava arasındaki çatışma bu anlatıyla kökenlendirilir.",
   kaynak:"Theodore G. Th. Pigeaud, Java in the Fourteenth Century (Martinus Nijhoff, 1960–63) · M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Stanford UP, 4. bs., 2008). Sayfa verilmedi.",
   taraflar:["majapahit","sunda-pajajaran"], etiket:["konu-siyasi","konu-askeri"],
   ic_not_d:"Olay geç kaynaklı (Pararaton); tarihselliği ve yılı tartışmalı. Yıl 1357 geleneksel sayıdır." },
 
-{ t:"1389-01-01", k:"olum",tur:"olum", b:"Hayam Wuruk öldü — Majapahit'in altın çağı sona erdi",
+{ odak_yer:["Trowulan"], t:"1389-01-01", k:"olum",tur:"olum", b:"Hayam Wuruk öldü — Majapahit'in altın çağı sona erdi",
   gun:"1389 (yıl)", yer:"Majapahit", kisiler:"Hayam Wuruk",
   d:"Majapahit'in zirvesini yaşatan Hayam Wuruk 1389'da öldü. Ardılları arasında çıkan Paregreg (taht kavgası) savaşı imparatorluğu zayıflattı ve dış eyaletler kopmaya başladı.",
   kaynak:"Theodore G. Th. Pigeaud, Java in the Fourteenth Century (Martinus Nijhoff, 1960–63) · M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Stanford UP, 4. bs., 2008). Sayfa verilmedi.",
   taraflar:["majapahit"], etiket:["konu-siyasi"] },
 
 // ── KONBAUNG (BİRMANYA) ───────────────────────────────────────────
-{ t:"1826-02-24", k:"siyasi",tur:"siyasi", b:"Yandabo Antlaşması — Birinci Anglo-Birman Savaşı sona erdi, Arakan ve Tenasserim İngiltere'ye geçti",
+{ odak_yer:["Kalküta"], t:"1826-02-24", k:"siyasi",tur:"siyasi", b:"Yandabo Antlaşması — Birinci Anglo-Birman Savaşı sona erdi, Arakan ve Tenasserim İngiltere'ye geçti",
   gun:"24 Şubat 1826", yer:"Yandabo",
   d:"Konbaung Hanedanı, yenilgisinin ardından imzaladığı antlaşmayla Arakan ve Tenasserim kıyılarını, Assam'daki ve Manipur üzerindeki iddialarını bıraktı ve büyük bir tazminat ödemeyi kabul etti. Bu, Birmanya'nın İngiliz Hindistanı tarafından parça parça kuşatılmasının ilk aşamasıdır.",
   kaynak:"Htin Aung, A History of Burma (Columbia UP, 1967) · Michael Aung-Thwin & Maitrii Aung-Thwin, A History of Myanmar since Ancient Times (Reaktion, 2012). Sayfa verilmedi.",
@@ -137,7 +137,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   ic_not_t:"1694 mü 1695 mi kaynakta değişiyor; yıl ölçülemedi — 1694 alındı." },
 
 // ── NGUYỄN (VİETNAM) ───────────────────────────────────────────────
-{ t:"1862-06-05", k:"siyasi",tur:"siyasi", b:"Saigon Antlaşması — Fransa Cochinchina'nın üç eyaletini aldı",
+{ odak_yer:["Huế"], t:"1862-06-05", k:"siyasi",tur:"siyasi", b:"Saigon Antlaşması — Fransa Cochinchina'nın üç eyaletini aldı",
   gun:"5 Haziran 1862", yer:"Saigon", kisiler:"Tự Đức",
   d:"Fransız-İspanyol seferinin ardından imzalanan antlaşmayla Nguyễn devleti Gia Định, Định Tường ve Biên Hòa eyaletlerini Fransa'ya bıraktı, Fransız misyonerlere serbestlik tanıdı ve ağır bir tazminat ödemeyi kabul etti. Bu, Vietnam'ın Fransız sömürgeleşmesinin ilk toprak kaybıdır; Vĩnh Long da 1867'de alındı.",
   kaynak:"Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, cilt 2 (Cambridge UP, 1992). Sayfa verilmedi.",
@@ -156,7 +156,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["nguyen-hanedani"], etiket:["konu-siyasi"] },
 
 // ── CHAMPA ─────────────────────────────────────────────────────────
-{ t:"1611-01-01", k:"askeri",tur:"askeri", b:"Nguyễn Hoàng Phú Yên'i aldı — Champa'nın kuzey yakası Vietnam'a geçti",
+{ odak_yer:["Vijaya"], t:"1611-01-01", k:"askeri",tur:"askeri", b:"Nguyễn Hoàng Phú Yên'i aldı — Champa'nın kuzey yakası Vietnam'a geçti",
   gun:"1611 (yıl)", yer:"Phú Yên", kisiler:"Nguyễn Hoàng",
   d:"Đàng Trong'un kurucusu Nguyễn Hoàng 1611'de Champa'dan Phú Yên bölgesini aldı. Güneye doğru ilerleyiş (Nam tiến) Champa'yı Panduranga'ya doğru daralttı; krallık 1697'de tâbi beylik oldu, 1832'de Minh Mạng tarafından ilhak edildi.",
   kaynak:"Georges Coedès, The Indianized States of Southeast Asia (East-West Center, 1968) · Nicholas Tarling (ed.), The Cambridge History of Southeast Asia, cilt 1 (Cambridge UP, 1992). Sayfa verilmedi.",
@@ -191,7 +191,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["pagaruyung","hollanda-dogu-hint"], etiket:["konu-siyasi","konu-diplomasi"] },
 
 // ── GORYEO ─────────────────────────────────────────────────────────
-{ t:"1170-01-01", k:"siyasi",tur:"siyasi", b:"Subay darbesi — Goryeo'da askerî rejim başladı",
+{ odak_yer:["Kaesong"], t:"1170-01-01", k:"siyasi",tur:"siyasi", b:"Subay darbesi — Goryeo'da askerî rejim başladı",
   gun:"1170 (yıl; eylül)", yer:"Gaegyeong", kisiler:"Jeong Jung-bu",
   d:"1170'te Jeong Jung-bu önderliğindeki subaylar sarayda sivil memurları katletti, Kral Uijong'u tahttan indirdi. Sonraki yüzyılın büyük kısmında gerçek iktidar askerî liderlerde kaldı; en uzun süre hüküm süren Choe ailesidir (1196-1258).",
   kaynak:"Ki-baik Lee, A New History of Korea (Harvard UP, 1984) · John B. Duncan, The Origins of the Chosŏn Dynasty (University of Washington Press, 2000). Sayfa verilmedi.",
@@ -203,7 +203,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   kaynak:"Ki-baik Lee, A New History of Korea (Harvard UP, 1984) · John B. Duncan, The Origins of the Chosŏn Dynasty (University of Washington Press, 2000). Sayfa verilmedi.",
   taraflar:["goryeo","mogol-imparatorlugu"], etiket:["konu-siyasi","konu-diplomasi"] },
 
-{ t:"1388-01-01", k:"askeri",tur:"askeri", b:"Yi Seong-gye Wihwa Adası'ndan geri döndü — Goryeo'yu devirmenin eşiği",
+{ odak_yer:["Pekin"], t:"1388-01-01", k:"askeri",tur:"askeri", b:"Yi Seong-gye Wihwa Adası'ndan geri döndü — Goryeo'yu devirmenin eşiği",
   gun:"1388 (yıl; Haziran)", yer:"Wihwa", kisiler:"Yi Seong-gye, Choe Yeong",
   d:"Ming'e karşı sefer için gönderilen General Yi Seong-gye, Yalu Nehri'ndeki Wihwa Adası'nda ordusunu geri döndürüp başkente yürüdü, Choe Yeong'u devirdi ve iktidarı ele aldı. Dört yıl sonra tahtı alıp Joseon'u kuracaktı (künyenin bitiş günü).",
   kaynak:"Ki-baik Lee, A New History of Korea (Harvard UP, 1984) · John B. Duncan, The Origins of the Chosŏn Dynasty (University of Washington Press, 2000). Sayfa verilmedi.",
@@ -225,14 +225,14 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   ic_not_t:"Yıl kaynaklı; gün ay takvimidir, çevrim uydurulmadı." },
 
 // ── TAY SƠN ────────────────────────────────────────────────────────
-{ t:"1771-01-01", k:"siyasi",tur:"siyasi", b:"Tây Sơn kardeşler ayaklandı — Nguyễn beyliğinin çöküşü başladı",
+{ odak_yer:["Huế"], t:"1771-01-01", k:"siyasi",tur:"siyasi", b:"Tây Sơn kardeşler ayaklandı — Nguyễn beyliğinin çöküşü başladı",
   gun:"1771 (yıl)", yer:"Tây Sơn",
   d:"Nguyễn Nhạc, Nguyễn Huệ ve Nguyễn Lữ kardeşler 1771'de Quy Nhơn yakınındaki Tây Sơn köyünde vergi ve yolsuzluğa karşı köylü isyanı başlattı. İsyan hızla Đàng Trong'un büyük kısmına yayıldı ve Nguyễn lordlarını devirdi.",
   kaynak:"George Dutton, The Tây Sơn Uprising: Society and Rebellion in Eighteenth-Century Vietnam (University of Hawai'i Press, 2006). Sayfa verilmedi.",
   taraflar:["nguyen-beyligi"], etiket:["konu-siyasi","konu-askeri"],
   ic_not_t:"tay-son künyesi 1778'de başlıyor; 1771 isyanı ondan önce, bu yüzden yalnız nguyen-beyligi taraf." },
 
-{ t:"1785-01-01", k:"askeri",tur:"askeri", b:"Rạch Gầm–Xoài Mút Savaşı — Tây Sơn Siyam ordusunu bozguna uğrattı",
+{ odak_yer:["Bangkok"], t:"1785-01-01", k:"askeri",tur:"askeri", b:"Rạch Gầm–Xoài Mút Savaşı — Tây Sơn Siyam ordusunu bozguna uğrattı",
   gun:"1785 (yıl; ocak)", yer:"Mekong deltası", kisiler:"Nguyễn Huệ",
   d:"Nguyễn Ánh'ın yardım çağrısıyla Mekong deltasına giren Siyam ordusu ve donanması, Nguyễn Huệ'nin pususunda Rạch Gầm ve Xoài Mút'ta büyük kayba uğradı. Zafer Tây Sơn'un güneydeki üstünlüğünü pekiştirdi.",
   kaynak:"George Dutton, The Tây Sơn Uprising (University of Hawai'i Press, 2006). Sayfa verilmedi.",
@@ -253,13 +253,13 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   ic_not_t:"Fetih yılı 1778 mi 1779 mu kaynakta değişiyor; 1778 alındı." },
 
 // ── HAWAII KRALLIĞI ────────────────────────────────────────────────
-{ t:"1810-01-01", k:"siyasi",tur:"siyasi", b:"Kauai ve Niihau Kamehameha'nın egemenliğini kabul etti — adalar birleşti",
+{ odak_yer:["Honolulu"], t:"1810-01-01", k:"siyasi",tur:"siyasi", b:"Kauai ve Niihau Kamehameha'nın egemenliğini kabul etti — adalar birleşti",
   gun:"1810 (yıl)", yer:"Kauai", kisiler:"Kamehameha I, Kaumualii",
   d:"Kamehameha'nın Kauai'yi işgal girişimleri başarısız kalınca Kauai Kralı Kaumualii 1810'da müzakereyle Kamehameha'nın üstünlüğünü kabul etti. Böylece bütün Hawaii adaları tek bir devletin çatısı altında birleşmiş oldu.",
   kaynak:"Ralph S. Kuykendall, The Hawaiian Kingdom, cilt 1 (University of Hawaii Press, 1938). Sayfa verilmedi.",
   taraflar:["hawaii-kralligi"], etiket:["konu-siyasi"] },
 
-{ t:"1819-05-08", k:"olum",tur:"olum", b:"Kamehameha I öldü — Kapu sistemi yıkılmaya doğru gitti",
+{ odak_yer:["Honolulu"], t:"1819-05-08", k:"olum",tur:"olum", b:"Kamehameha I öldü — Kapu sistemi yıkılmaya doğru gitti",
   gun:"8 Mayıs 1819", yer:"Kailua-Kona", kisiler:"Kamehameha I, Kamehameha II, Kaahumanu",
   d:"Hawaii'yi birleştiren Kamehameha I 1819'da öldü; oğlu Liholiho (Kamehameha II) tahta çıktı. Kaahumanu'nun desteğiyle aynı yıl kapu (yasaklar) sistemi yıkıldı ve 1820'de Protestan misyonerler geldi.",
   kaynak:"Ralph S. Kuykendall, The Hawaiian Kingdom, cilt 1 (University of Hawaii Press, 1938). Sayfa verilmedi.",
@@ -278,7 +278,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   taraflar:["hawaii-kralligi"], etiket:["konu-siyasi"] },
 
 // ── RYUKYU KRALLIĞI ────────────────────────────────────────────────
-{ t:"1609-01-01", k:"askeri",tur:"askeri", b:"Satsuma Ryukyu'yu işgal etti — Krallık Japon ve Çin çifte tâbiliğine girdi",
+{ odak_yer:["Kyoto"], t:"1609-01-01", k:"askeri",tur:"askeri", b:"Satsuma Ryukyu'yu işgal etti — Krallık Japon ve Çin çifte tâbiliğine girdi",
   gun:"1609 (yıl; ilkbahar)", yer:"Shuri", kisiler:"Shimazu Iehisa, Shō Nei",
   d:"Satsuma han'ı (Shimazu ailesi) Edo şogunluğunun onayıyla 1609'da Ryukyu'ya asker çıkarıp kralı Shō Nei'yi esir aldı. Krallık adıyla bağımsız kaldı ama Satsuma'ya vergi verdi; aynı zamanda Ming ve sonra Qing'e bağlılığını sürdürerek iki devlete birden tâbi oldu.",
   kaynak:"Gregory Smits, Visions of Ryukyu: Identity and Ideology in Early-Modern Thought and Politics (University of Hawai'i Press, 1999) · George H. Kerr, Okinawa: The History of an Island People (Tuttle, 1958). Sayfa verilmedi.",
@@ -294,7 +294,7 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   ic_not_d:"`gova-makassar` künyesi t:1667-11-18 (Bungaya) ile bitiyor ama Somba Opu 1669'da düştü; künye penceresi iki yıl erken bitmiş olabilir — bu yüzden taraf olarak yalnız bugis + hollanda yazıldı, Gova künyeye bağlanamadı." },
 
 // ── BANJAR ─────────────────────────────────────────────────────────
-{ t:"1787-01-01", k:"siyasi",tur:"siyasi", b:"Banjar Sultanı VOC ile antlaşma yaptı — sultanlık Hollanda'ya vasal oldu",
+{ odak_yer:["Batavia"], t:"1787-01-01", k:"siyasi",tur:"siyasi", b:"Banjar Sultanı VOC ile antlaşma yaptı — sultanlık Hollanda'ya vasal oldu",
   gun:"1787 (yıl)", yer:"Banjarmasin", kisiler:"Tahmidullah II",
   d:"Sultan Tahmidullah II, Hollanda Doğu Hindistan Şirketi ile 1787'de yaptığı antlaşmayla tahtını Hollanda'nın korumasına bıraktı, bazı bölgeleri ve ticaret tekelini Şirket'e devretti. Sultanlık bu tarihten sonra Hollanda'ya tâbi bir devlet olarak kaldı; 1860'ta ilga edildi (künyenin bitişi).",
   kaynak:"M. C. Ricklefs, A History of Modern Indonesia since c. 1200 (Stanford UP, 4. bs., 2008). Sayfa verilmedi.",

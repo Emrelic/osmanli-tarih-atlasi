@@ -226,7 +226,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2627–1977 (kaynağın verdiği uçlar); orta nokta MÖ 2302 = astronomik -2301. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. Kaynaktan okunan: «began in the Americas by 4090 years before the present (2627 calibrated years B.C.) to 3640 years before the present (1977 calibrated years B.C.)». UYARI: Özet, anıtsal mimarinin/kentleşmenin '4090 BP'den (2627 cal BC) 3640 BP'ye (1977 cal BC) kadar' başladığını söyler; bu, Caral'daki tarihlenmiş örnek kümesinin (özete göre alan örnekleri; bir ikincil kaynak 18 örnek der, doğrulanmadı) kapsadığı aralıktır, tek bir kuruluş-yıkılış çifti değildir. Uçlar kaynakta cal BC olarak verilir, çeviri yok. Bit yok. Güven düzeyi özette belirtilmemiş."
  },
- {
+ { "odak_yer":["Caral"], 
   "t": "-2999-01-01",
   "k": "kurulus",
   "b": "Norte Chico (Caral-Supe) Geç Arkaik kompleksi: başlar",

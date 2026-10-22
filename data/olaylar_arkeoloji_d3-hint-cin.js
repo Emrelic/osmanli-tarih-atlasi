@@ -85,7 +85,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «from 722 B .C. to 481 B.C.». 722 SİYASİ BİR GEÇİŞ DEĞİL, Chunqiu METNİNİN başlangıcıdır; Doğu Zhou (770) ile 48 yıl fark vardır (Ning 2023: 722'de 'tianxia wudao' safhasına gerçek giriş). Milburn 2016 ve Tong 2025 Bahar-Güz dönemini 771/770'den başlatır (Tong 2025: 'Spring and Autumn period (c. 770-481 BCE)'). Bitiş için 481 dışında 464/476/475/453 aday dönem-sonları kaynaklarda dolaşır (arama özeti, dayanak değil). Hakemli İngilizce dergi makalesi bulunamadı; Eno ders metnidir (zayıf ikincil). Çift teyit: Ning 2023 (zh) + Eno (en) bağımsız iki kaynak ama ikisi de ikincil."
  },
- {
+ { "odak_yer":["Cambridge"], 
   "t": "-0482-01-01",
   "k": "ilk_anilis",
   "b": "Buda'nın parinirvana tarihi (kronoloji dayanağı): Buda'nın parinirvanası (Cambridge History tarihi)",
@@ -178,7 +178,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1500–1450) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «Stage VII (c. 1500-1450 BCE) shows the arrival of a new settler after 300 years of vacancy». AŞAMA TABLOSU (ICOMOS/UNESCO, ASI kaynaklı): I-III 3000-2500 (I: ~3000-2900, II: ~2900-2800, III: ~2800-2500); IV 2500-2100; V 2100-2000 (deprem, kısa terk); VI 1950-1800; VII 1500-1450; boşluklar 2000-1950 ve 1800-1500 MÖ. ÇELİŞKİ 1: Sengupta vd. (JQS, doi:10.1002/jqs.3178, Crossref özeti okundu, TAM METİN kapalı) yedi kültürel aşamadan arkeolojik karbonatların 14C tarihlemesiyle iskânın başlangıcını '~5500 yıl BP (pre-Harappan)', devamını '~3800 yıl BP'ye (Geç Harappa başı)' kadar verir: alıntı 'suggests the beginning of occupation at ~5500 years BP (pre-Harappan), continuation until ~3800 years BP'. Özette kalibre mi ham mı belirtilmemiş; kalibre varsayılırsa BP-1950 ile ~MÖ 3550 ve ~MÖ 1850 (bu oturumda hesap, onaylı değil). Bu, UNESCO c.3000'den ~550 yıl eski bir başlangıçtır ve haritaya yazılmadan tam metinle (Tablo) çözülmelidir. ÇELİŞKİ 2: Bisht'in orijinal ASI tablosu (Aşama I 2650-2550 ... VII 1650-1450) ve 'Aşama I 3500-3200' yeniden tarihlemesi yalnız Vikipedi/arama özeti aktarımıyla görüldü, dayanak yapılmadı. Çift teyit YOK: UNESCO dosyası ile Sengupta özeti uyuşmuyor."
  },
- {
+ { "odak_yer":["Yinxu"], 
   "t": "-1499-01-01",
   "k": "kurulus",
   "b": "Shang hanedan/dönem sınırları (Erligang-Yinxu çerçevesi): Shang dönemi başlar (14C modeli)",
@@ -253,7 +253,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 3000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «7, Niuheliang (4500–3000 BCE)». ZAYIF: site/kültür dönem aralığıdır (derleme şekil altyazısı), kalibre 14C tablosu DEĞİL. Başka akademik değer: Jeong (Korece dergi, Barun Academy of History, J. Korean History & Culture 2024, doi:10.55793/jkhc.2024.19.191, özet) Hongshan '4700 BCE - 3000 BCE' - makale Hongshan'ı Kore tarihine bağlayan yorum içerir, yalnız aralık değeri not edilir, dayanak sayılmadı. Hongshan Baiyinchanghan sitesi 4300-3900 (Liu & Reid 2020, Tablo 1). Niuheliang kalibre 14C tablosu (Drennan vd. Antiquity 2017; Zhang vd. J World Prehist 2013) açık erişimde değil -> kutuphane_gerekli."
  },
- {
+ { "odak_yer":["Jiangzhai (Yangshao, Banpo evresi halka hendekli köy)"], 
   "t": "-3999-01-01",
   "k": "kayip",
   "b": "Jiangzhai (Yangshao, Banpo evresi halka hendekli köy): sona erer",
@@ -268,7 +268,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 4000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Jiangzhai 24 A Shaanxi Yangshao 4900–4000». ZAYIF/İKİNCİL (Banpo ile aynı uyarı): derleme tablosundaki tahmini tarih; Jiangzhai kazı raporunun kalibre 14C tablosu bu oturumda okunamadı. Aynı sütunda PLOS ONE kümesinde Banpo 4800-4300. Gedachuan (Frontiers Plant Sci 2022, PMC9362993) 'Banpo evresi batı Les Platosu'nda ~5600 BP'ye dek sürdü' der - Banpo/Jiangzhai değil, ayrı alan; yazılmadı."
  },
- {
+ { "odak_yer":["Banpo (Yangshao, Banpo evresi)"], 
   "t": "-4299-01-01",
   "k": "kayip",
   "b": "Banpo (Yangshao, Banpo evresi): sona erer",
@@ -298,7 +298,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 4500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «7, Niuheliang (4500–3000 BCE)». ZAYIF: site/kültür dönem aralığıdır (derleme şekil altyazısı), kalibre 14C tablosu DEĞİL. Başka akademik değer: Jeong (Korece dergi, Barun Academy of History, J. Korean History & Culture 2024, doi:10.55793/jkhc.2024.19.191, özet) Hongshan '4700 BCE - 3000 BCE' - makale Hongshan'ı Kore tarihine bağlayan yorum içerir, yalnız aralık değeri not edilir, dayanak sayılmadı. Hongshan Baiyinchanghan sitesi 4300-3900 (Liu & Reid 2020, Tablo 1). Niuheliang kalibre 14C tablosu (Drennan vd. Antiquity 2017; Zhang vd. J World Prehist 2013) açık erişimde değil -> kutuphane_gerekli."
  },
- {
+ { "odak_yer":["Banpo (Yangshao, Banpo evresi)"], 
   "t": "-4799-01-01",
   "k": "gelisme",
   "b": "Banpo (Yangshao, Banpo evresi): Banpo yerleşimi (Yangshao)",
@@ -313,7 +313,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 4800 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Banpo 20 A Shaanxi Yangshao 4800–4300». ZAYIF/İKİNCİL. Değer, bir beslenme-izotopu derlemesinin tablosundaki 'tahmini tarih'tir (alt kaynak [42], bu oturumda açılmadı); Banpo'ya özgü kalibre 14C tablosu DEĞİLDİR. Önceki dalganın Frontiers Earth Sci 2021 'erken Yangshao 5000-4200' değeriyle çelişmez ama çift teyit sayılmaz. Aynı derlemede Jiangzhai (Yangshao) 4900-4000. Doğrulama için Banpo kazı raporu 14C tablosu gerekir (kutuphane_gerekli)."
  },
- {
+ { "odak_yer":["Jiangzhai (Yangshao, Banpo evresi halka hendekli köy)"], 
   "t": "-4899-01-01",
   "k": "gelisme",
   "b": "Jiangzhai (Yangshao, Banpo evresi halka hendekli köy): Jiangzhai yerleşimi (Yangshao)",

@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Misir/Nubya, Sahra-alti Afrika, Amerikalar (MO 10000 - MS 1) - 2. dalga (d2-afrika-amerika) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/d2-afrika-amerika.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
- {
+ { "odak_yer":["Monte Albán"], 
   "t": "-0374-01-01",
   "k": "fetih",
   "b": "San Martin Tilcajete ilk meydaninin Monte Alban tarafindan yakilmasi: meydan yakılır (Monte Albán saldırısı)",
@@ -64,7 +64,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1000–850) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Real 1 (1000–850 B.C.), Real 2 (850–800 B.C.), and Real 3 (800–700 B.C.)». Nature 2013 (Inomata vd., 'Emergence of the Maya', Archaeology dergisi ozeti: MO ~1000) orijinal Nature makalesi OKUNMADI. Arama ozeti: 2022'de Pasion bolgesi tatli su rezervuar etkisi bulundu, Ceibal insan kemiklerinde Orta Preklasik tarihleri 92-179 yil degistirdi - METIN OKUNMADI, uyari olarak not. 'Pre-Klasik cokus MS 150-300', 'savasin yogunlasmasi MO 75/MS 735'."
  },
- {
+ { "odak_yer":["Kerma"], 
   "t": "-2549-01-01",
   "k": "kurulus",
   "b": "Eski Kerma (Kerma Ancien): Eski Kerma başlar",
@@ -79,7 +79,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2550 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «between 2550 and 2050 BC». FARKLI KAYNAKLAR: (1) Honegger 2014: Eski Kerma 2550-2050 MO (okudum). (2) Le Moyne vd. 2023, PLoS ONE 18(2):e0280347 (Kadruka, Orta Nil): 'Kerma period (2500-1450 BCE)' (Ozet; PMC9894462) - tum Kerma kulturu (Ancien+Moyen+Classique), Eski Kerma degil. (3) Bonnet/Honegger/Genava (arama ozeti; sayfa AÇILMADI): Bonnet'ye gore Kerma Ancien 2400-2050, Moyen 2050-1750 MO; Honegger 2550'ye geri ceker; CE27 sektorunden iki 14C tarihi 2500-2400 MO. Bu uc deger arama motoru ozetidir, KAYNAK OKUNMADI - atlasa yazma, Genava/Kerma raporu bulunmadan kullanma. Kerma Moyen/Classique iki ucu icin kaynaklı sayisal aralik BULUNAMADI."
  },
- {
+ { "odak_yer":["Kotosh"], 
   "t": "-2799-01-01",
   "k": "gelisme",
   "b": "Kotosh Dini Gelenegi (Kotosh, Peru): Kotosh Dini Geleneği başlar",
@@ -115,7 +115,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2910–2760 (kaynağın verdiği uçlar); orta nokta MÖ 2835 = astronomik -2834. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «2910–2760 B.C.E., midpoint 2835 B.C.E.». Kaynak ic tutarsizligi: Sonuc bolumu Faz 2 sonunu 6300, ana metin 6200 veriyor (her ikisi kaynakta). Faz 3 'Orta Holosen' 5200-2500 MO donem toplami, en genc gomu 2910-2760 MO; geç Tenerean cömlek/ocak 390-190 cal MO (Faz 4 malzemesi). Hiatus 6200-5200 MO 'olasi bir bin yil'. En eski gomu 7730-7580 (orta 7655); en genc Kiffian gomu 6380-6210. OSL tarihleri BP-2000 ile yaklasik MO'ya cevrilmis - kalibre degildir."
  },
- {
+ { "odak_yer":["Lothagam North"], 
   "t": "-3001-01-01",
   "k": "kurulus",
   "b": "Lothagam North Pillar Site (Turkana Gölü, Kenya): anıtsal mezarlık platformu kullanımı başlar",

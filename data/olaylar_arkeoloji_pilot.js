@@ -110,7 +110,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "kesinlik": "yuzyil",
   "ic_not_d": "TEK DEĞER (aralık yok): «hemen sonrası» = en erken sınır MÖ 6000 yazıldı (bit için EN ERKEN uç, gerçek bitiş birkaç on yıl geç olabilir)."
  },
- {
+ { "odak_yer":["Jiahu"], 
   "t": "-6999-01-01",
   "k": "kurulus",
   "etiket": [
@@ -131,7 +131,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   },
   "ic_not_d": "Kaynak yerleşimin TOPLAM süresini (7000–5700) verir; orta nokta alınmaz, başlangıç ucu yazılır. Kalibre mi ham 14C mi belirsiz → «kalibrasyon belirsiz» beyanı."
  },
- {
+ { "odak_yer":["Jiahu"], 
   "t": "-5699-01-01",
   "k": "kayip",
   "etiket": [
@@ -146,7 +146,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "kesinlik": "yuzyil",
   "ic_not_d": "TEK DEĞER (aralık yok): Bitiş için iki kaynak çelişir (5700 / 5500); Nature 1999 esas alındı."
  },
- {
+ { "odak_yer":["Mehrgarh"], 
   "t": "-5049-01-01",
   "k": "kurulus",
   "etiket": [
@@ -167,7 +167,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 5200–4900 (kaynağın verdiği uçlar); orta nokta MÖ 5050 = astronomik -5049. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. ÇELİŞKİ: Jarrige-dönemi yayınlarda Dönem I «MÖ 7000 öncesi–5500» (aynı kaynak özeti); 2025 çalışması bunu kök kütlesi bozulmasıyla çarpık sayıyor. Burada yerleşimin kuruluşu değil, mezarlığın tarihli ilk kanıtı yazıldı (yerleşim daha eski olabilir)."
  },
- {
+ { "odak_yer":["Harappa"], 
   "t": "-3299-01-01",
   "k": "kurulus",
   "etiket": [
@@ -182,7 +182,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "kesinlik": "yuzyil",
   "ic_not_d": "TEK DEĞER (aralık yok): KAYNAK ÇELİŞKİSİ: en sık anılan MÖ 3300 yazıldı; alternatifler 3700 / >3500 (aynı site, farklı yayın). Tek değer; orta nokta alınmaz."
  },
- {
+ { "odak_yer":["Varna"], 
   "t": "-4555-01-01",
   "k": "kurulus",
   "etiket": [
@@ -203,7 +203,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4596–4516 (kaynağın verdiği uçlar); orta nokta MÖ 4556 = astronomik -4555. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Başlangıç belirsizliği için kaynağın %95,4 aralığı kullanıldı."
  },
- {
+ { "odak_yer":["Varna"], 
   "t": "-4383-01-01",
   "k": "kayip",
   "etiket": [

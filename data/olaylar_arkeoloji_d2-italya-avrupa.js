@@ -16,7 +16,7 @@ window.OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1550 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «El Argar developed over three phases from ca. 2200 to 1550 cal BCE». Evre 2 ≈ 2000-1750, Evre 3 ≈ 1750-1550 cal BCE (La Almoloya yerel stratigrafisi, aynı makale). 'ca.' yuvarlak donem-toplamıdır. Birincil kronoloji (Lull vd., Castro vd.) AÇILMADI. Bu tarih kültürün başlangıcıdır, El Argar höyüğünün kuruluşu değildir."
  },
- {
+ { "odak_yer":["Los Millares"], 
   "t": "-2166-01-01",
   "k": "kayip",
   "b": "Los Millares: yerleşim sona erer",
@@ -52,7 +52,7 @@ window.OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2200 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «El Argar developed over three phases from ca. 2200 to 1550 cal BCE». Evre 2 ≈ 2000-1750, Evre 3 ≈ 1750-1550 cal BCE (La Almoloya yerel stratigrafisi, aynı makale). 'ca.' yuvarlak donem-toplamıdır. Birincil kronoloji (Lull vd., Castro vd.) AÇILMADI. Bu tarih kültürün başlangıcıdır, El Argar höyüğünün kuruluşu değildir."
  },
- {
+ { "odak_yer":["Malta"], 
   "t": "-2419-01-01",
   "k": "kayip",
   "b": "Xağra Brochtorff Çemberi (Gozo, Malta): son gömüler",
@@ -73,7 +73,7 @@ window.OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2490–2350 (kaynağın verdiği uçlar); orta nokta MÖ 2420 = astronomik -2419. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «continued until 2490-2350 cal BC (95% probability), probably until 2475-2405 cal BC (68% probability)». MÖ 3640-3385 'kayaya oyulmuş mezarda gömü BAŞLANGICI'nın oluş-zamanı belirsizliğidir (kalibre tek olay: %95 = 3640-3500 veya 3465-3385); Ġgantija TAPINAĞININ inşa tarihi DEĞİLDİR. Mezar 3355-3115'e kadar kullanılmış (95%, Fig. 9 end); sonra yüzyıllar boşluk, 30. yy MÖ'de Tarxien ile yeniden gömü. 'bit' son gömüdür, yerleşimin sonu değil. Tapınak dönemi için McLaughlin, Parkinson, Reimer, Malone 'Dating Maltese prehistory' (Temple Places) önerilir ama içeriği okunamadı. Okunan metin yayımlanmış sürüm değil el yazması: şekil numaraları yayınla eşleşmeyebilir."
  },
- {
+ { "odak_yer":["Los Millares"], 
   "t": "-3139-01-01",
   "k": "kurulus",
   "b": "Los Millares: yerleşim ve kaleler başlar",
@@ -94,7 +94,7 @@ window.OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3345–2935 (kaynağın verdiği uçlar); orta nokta MÖ 3140 = astronomik -3139. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Los Millares (settlement and forts) started in 3345-2935 cal BC (95% probability), probably between 3155 and 2975 cal BC (68% probability)». Mezar etkinliği yerleşimden 55-235 yıl önce başlar (nekropol modeli 3390-3105 %95 [Model 1 Fig.3] ve 3330-3100 [Fig.7]; özet: 3219-3124 %68). Gömü etkinliği sonu 2430-2180 (%95). Bu tarihler Bayes olay tahminidir, 'kuruluş yılı' değil. Makale terkin 'ca. 2200 cal BC öncesi' olduğunu söyler."
  },
- {
+ { "odak_yer":["Malta"], 
   "t": "-3511-01-01",
   "k": "ilk_anilis",
   "b": "Xağra Brochtorff Çemberi (Gozo, Malta): kayaya oyulmuş mezarda gömüler başlar",
