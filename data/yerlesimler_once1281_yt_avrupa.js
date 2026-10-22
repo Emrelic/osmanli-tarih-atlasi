@@ -201,7 +201,7 @@ window.YERLESIMLER_ONCE1281_YT_AVRUPA = [
   konum_kesinlik:"bolge",
   not:"YER-TANIMA: kronolojide Toskana adıyla geçer; eski adlar: -; modern: - (İtalya). ",
   kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Pleiades https://pleiades.stoa.org/places/413122 (None, None) · TDV İslâm Ansiklopedisi https://islamansiklopedisi.org.tr/toskana (None, None) · denetim/yer-arastirma/parti_63_sonuc.json" },
-{ ad:"Sarmizegetusa", tur:"harabe", lat:45.62289, lon:23.31041, g:0, k:0, s:[], d:[], bos:"veri-yok", bit:"1281-01-01",
+{ ad:"Sarmizegetusa", tur:"harabe", lat:45.62289, lon:23.31041, g:0, k:0, s:[{f:"-0081-01-01",t:"0106-01-01",d:"dakya",kaynak:"BAŞKENT: yer bu devletin başkenti; künye dakya (devletler.js) f/t; kaynak: Britannica 'Dacia' (britannica.com/place/Dacia; print/article/149413)"}], d:[], kur:"-0081-01-01", bit:"0106-01-01",
   konum_kesinlik:"yaklasik",
   not:"YER-TANIMA: kronolojide Sarmizegetusa adıyla geçer; eski adlar: -; modern: - (Romanya). 102/106 maddeleri Dak başkenti Regia içindir. Tavsiye edilen koordinat DAI'nin Regia kaydı; Pleiades noktası ~5 km sapmalıdır.",
   kaynak:"ÇİFT TANIK: Pleiades 207425 Pleiades 207425 (45.669615, 23.323961) · DAI iDAI.gazetteer 2067440 Sarmizegetusa Regia https://gazetteer.dainst.org/search.json?q=Sarmizegetusa (45.62289, 23.31041) · denetim/yer-arastirma/parti_72_sonuc.json" },
