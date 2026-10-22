@@ -114,12 +114,8 @@ MEVCUT_AD = {y["ad"] for y in Y}
 YAZILAN_AD = set()
 SAHIP = {}
 _sy = os.path.join(KL, "SAHIP-YAZILAN-1021.json")
-_sec = [a.split("=", 1)[1] for a in sys.argv if a.startswith("--sahip=")]      # --sahip=Ad1,Ad2 : yalnız bu yerlerin zinciri (virgülle)
-if os.path.exists(_sy) and ("--sahip" in sys.argv or _sec):      # s: zincirleri VARSAYILAN KAPALI: her sınır Değişmez 2s'de yeni 'yabancı kırılma' (6 yerleşim: +10 kırılma, +2 AÇIK → tavan 188 aşıldı); ±30 gün maddeler yazılınca --sahip ile açılır
+if os.path.exists(_sy) and "--sahip" in sys.argv:      # s: zincirleri VARSAYILAN KAPALI: her sınır Değişmez 2s'de yeni 'yabancı kırılma' (6 yerleşim: +10 kırılma, +2 AÇIK → tavan 188 aşıldı); ±30 gün maddeler yazılınca --sahip ile açılır
     SAHIP = json.load(open(_sy, encoding="utf-8")).get("yazilan", {})
-    if _sec:
-        _izin = {x.strip() for x in ",".join(_sec).split(",") if x.strip()}
-        SAHIP = {k: v for k, v in SAHIP.items() if k in _izin}
 gruplar = collections.defaultdict(list)
 for r in aday:
     gruplar[bolge_kutusu(float(r["lat"]), float(r["lon"]))].append(r)
