@@ -4991,6 +4991,66 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Zincir BOŞ: ilk.t (1398-09-13) atlas başlangıcından (1398-01-01) sonra. Kuruluştan önceki yerde Burhânpûr adlı yerleşim BULUNAMADI; Şeyh Burhâneddîn-i Garîb (ö. 738/1337) Devletâbâd'da yatar (Burhânpûr adının kaynağı). Önceki sahiplik: bu dosyada yazılmaz (şehir yok)."
  },
  {
+  "id": "buyuk-zimbabve",
+  "ad": "Büyük Zimbabve",
+  "atlas_ad": "Büyük Zimbabve",
+  "lat": -20.267,
+  "lon": 30.933,
+  "kat1900": 1,
+  "adlar": [
+   "Dzimba dza mabwe ('taş evler', Shona)",
+   "Symbaoe (Pegado, 1531 — Vikipedi aktarımı)",
+   "Great Zimbabwe"
+  ],
+  "ilk": {
+   "t": "1100-01-01",
+   "gun": "11. yüzyıl",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "UNESCO, General History of Africa IV: Africa from the Twelfth to the Sixteenth Century, 1984 (archive.org general-history-of-africa-vol-4, djvu metni curl ile okundu), ch.21 B. M. Fagan 'The Zambezi and Limpopo basins: 1100-1500', s.535",
+   "tanik": "The most intensive occupation began in about the eleventh century",
+   "ic_not": "ARKEOLOJİK, yazılı tanık bu oturumda yok (en erken yazılı kayıt Pegado 1531 — yalnız Vikipedi aktarımından biliniyor, birincil okunmadı; zaten atlas başlangıcından (1281) sonra). 'Yoğun iskân ≈ 11. yy' aralık: yüzyıl düzeyi, GÜVENLİ UÇ 1100 alındı (11. yy'ın sonu) — künye zimbabve-kralligi f:1100 ile aynı (künyenin kendi notu UNESCO 'built between 1100 and 1450' ve 'founded in the 11th century' diyor; UNESCO sayfası bu oturumda 403 verdi, açılamadı). TAŞ DUVAR ayrı tarihtir: GHA IV 'no stone walls were built until the thirteenth century'; Chirikure vd. 2013 Bayesyen kronoloji: 'Construction of the stone walls probably began at the end of the twelfth' (yy sonu/13. yy başı). Muhafazakâr okuma (Huffman): Great Zimbabwe CE 1300-1450 (Chirikure vd. 2014 PLoS ONE 9(10):e111224'te 'orthodoxy' diye anılır), Huffman & Woodborne 2020: Dönem IVa AD 1285±10-1395±10 'linked to the growth of the Zimbabwe state'. Yani KAYNAKLAR ARASI ÇELİŞKİ VAR: ilk iskân 11. yy (GHA IV; Chirikure 2018 özet: 'Great Zimbabwe (AD 1000–1700)') ↔ 'devlet/taş merkez' 13. yy. Bu kayıt ilk iskânı (1100) alır, devlet statüsü sahip[0]'da beyanlıdır."
+  },
+  "kur": null,
+  "ark": {
+   "t": "1100-01-01",
+   "gun": "11. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "UNESCO GHA IV (1984), ch.21 Fagan, s.535 (djvu)",
+   "tanik": "The most intensive occupation began in about the eleventh century"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1100-01-01",
+    "t": "1281-01-01",
+    "d": "zimbabve-kralligi",
+    "kesinlik": "yuzyil",
+    "kaynak": "UNESCO GHA IV (1984), önsöz/ch.21 (s.535): 'powerful kingdoms which reached their greatest heights between the eleventh and fourteenth centuries'; Chirikure, Pollard, Manyanga & Bandama 2013, Antiquity 87(337):854-872, doi:10.1017/S0003598X00049516 (özet: Crossref API + Cambridge sayfası curl)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: künye zimbabve-kralligi f:1100 ile hizalı; 1100-1281 arasında 'Büyük Zimbabve devleti'nin YAZILI ya da doğrudan arkeolojik tanığı bu oturumda bulunamadı. Huffman & Woodborne 2020: devlet büyümesi Dönem IVa'ya (AD 1285±10) bağlanır — atlas başlangıcından 4 yıl sonra; Chirikure vd. 2013: 'Great Zimbabwe was already a place of importance when Mapungubwe collapsed' (UP repository özeti, ~1290) ve çok-merkezli (polycentric) model: Mapungubwe (künye 900-1300) ile eş zamanlı. Alternatif okuma: 1100-~1285 dilimi __BILINMIYOR__/devlet öncesi iskân olarak da yazılabilir — karar Emre'nin."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1100-01-01",
+    "gun": "11. yüzyıl",
+    "k": "kurulus",
+    "b": "Büyük Zimbabve'de yoğun iskân başlar (Akropolis; henüz taş duvar yok, kil-ahşap kulübeler).",
+    "kaynak": "UNESCO GHA IV (1984), ch.21 Fagan, s.535",
+    "tanik": "The most intensive occupation began in about the eleventh century"
+   },
+   {
+    "t": "1200-01-01",
+    "gun": "12. yüzyıl sonu–13. yüzyıl başı",
+    "k": "diger",
+    "b": "Taş duvar yapımının başlangıcı (Bayesyen modele göre olası).",
+    "kaynak": "Chirikure, Pollard, Manyanga & Bandama 2013, Antiquity 87(337):854-872, doi:10.1017/S0003598X00049516 (özet)",
+    "tanik": "Construction of the stone walls probably began at the end of the twelfth"
+   }
+  ],
+  "ic_not": "ATLAS: nokta 1281'de zimbabve-kralligi ile başlıyor; zincir bu güne kesintisiz bağlandı, dikiş olayı gerekmez (aynı sahip). Koordinat (-20.267, 30.933) Vikipedi bilgi kutusuyla uyumlu (-20.2674, 30.9338 dolayı; tek dayanak olmaz, yalnız tutarlılık). ÇİFT TEYİT (yüzyıl düzeyi): ilk iskân 11. yy / taş merkez 12.-13. yy — GHA IV (Fagan) ile Chirikure vd. 2013 aynı pencerede, ama 'ilk iskân'ı doğrudan veren ikinci bağımsız kaynak yok. Açılamayan: UNESCO WHC 364 (403), Chirikure 2013 tam metin (Cambridge paywall; yalnız özet), Huffman & Woodborne 2020 tam metin (Brill; yalnız Crossref özeti), Huffman & Vogel 1991 (JSTOR). Tanım dışı bırakılan: Gokomere/Ziwa Erken Demir Çağı iskânı (4.-7. yy) yalnız Vikipedi'de, tek dayanak olmaz."
+ },
+ {
   "id": "cao-bang",
   "ad": "Cao Bằng",
   "atlas_ad": "Cao Bằng",
@@ -10805,6 +10865,43 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ZİNCİR YOK (kural): ilk.t atlas başlangıcıyla (1459-01-01) aynı. 1459 öncesi bu noktada yerleşim tanığı bulunamadı (Mehrangarh tepesi/'Bhurchiriya' rivayeti bu oturumda kaynaktan açılmadı). Çelişki yok: Tod ve IG 1459. ATLAS DÜZELTME ÖNERİSİ: yok (atlas kur 1459, 'racput' uyumlu); gün/ay kaynakla netleşirse (Marwar khyatları) güncellenir."
  },
  {
+  "id": "kabasa",
+  "ad": "Kabasa (Cabaça / Cabazo)",
+  "atlas_ad": "Kabasa",
+  "lat": -9.3,
+  "lon": 15.15,
+  "kat1900": 1,
+  "adlar": [
+   "Cabazo (Pigafetta/Lopes, 1591)",
+   "Cabaça",
+   "Kabasa"
+  ],
+  "ilk": {
+   "t": "1578-01-01",
+   "gun": "1578",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Lopes, D. & Pigafetta, F., Relatione del Reame di Congo (1591), İng. çeviri A Report of the Kingdom of Congo, ed. Hutchinson, Londra 1881 (archive.org reportofkingdomo00lope, djvu metni curl ile okundu), 'History of the Kingdom of Congo' — Angola krallığı bölümü; yıl: aynı metnin Book I ch.I'i ('In the year 1578, when Don Sebastian ... set sail for the conquest of the Kingdom of Morocco') ile eşzamanlılık",
+   "tanik": "Cabazo, a place where the Lord of Angola lived",
+   "ic_not": "İLK ANILIŞ alt sınırdır; KURULUŞ BULUNAMADI. Yıl DOLAYLI: metin Portekizli tüccarların Cabazo'da öldürülmesini 'aynı yıl Kral Sebastian Berberistan'da yenildi' diye tarihler (the same year that King Don Sebastian was defeated in Barbary); metnin başında 'In the year 1578, when Don Sebastian ... set sail' — yıl 1578 olarak okunur (olay yılı, Cabazo'nun ilk var olduğu yıl DEĞİL: yerin 'Angola Lordu'nun oturduğu yer' olduğu zaten o tarihte anılır). Daha erken yazılı tanık: António Mendes'in 1559-60 Ngola elçilik mektupları (Lima 2014, Afriques, doi:10.4000/afriques.1682 — YALNIZ özet açıldı, OpenEdition Anubis engeli); özet yer adı vermiyor, Cabaça'ya bağlanamadı. Ndongo/Kabasa arkeolojisi bulunamadı (Crossref 'Kabasa Ndongo archaeology': sonuç yok). ATLAS: ndongo künyesi f:1500; şehir için kaynaklı tarih 1578 > 1500 → zincir BOŞ (denetle uyarısı beklenir); Pigafetta ayrıca Ndongo'nun 'formerly ruled by a governor under the King of Congo' (Kongo vassalı) olduğunu söyler — 1500 öncesi sahip için doğrudan tanık yok."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1578-01-01",
+    "gun": "1578",
+    "k": "diger",
+    "b": "Angola (Ndongo) Lordu Cabazo'da Portekizli tüccarları öldürtür ve mallarına el koyar; bunun üzerine Paulo Dias Kongo yardımıyla Angola Kralı'na karşı silaha sarılır.",
+    "kaynak": "Lopes & Pigafetta 1591 / Hutchinson 1881 (archive.org reportofkingdomo00lope), Angola bölümü; yıl 'aynı yıl Sebastian yenildi' bağlantısıyla (dolaylı)",
+    "tanik": "the same year that King Don Sebastian was defeated in Barbary"
+   }
+  ],
+  "ic_not": "⚠ YER KİMLİĞİ RİSKİ: (1) Cavazzi (Fransızca çeviri 1732, archive.org relationhistoriq04cava, t.IV) 'Cabazzo'yu MATAMBA başkenti diye anar: 'Elle partit de Cabazzo, Capitale du Royaume de Matamba' — Ndongo Cabaça'sından ayrı bir yer olabilir (ya da aynı addan iki yer). (2) Pigafetta/Hutchinson 1881 notu (Carneiro 1861'e atıfla) Ndongo sarayını Pungo Andongo çevresine ('Cadanza ou NBanza-ia-cabaça') bağlar; atlas koordinatı (-9.30, 15.15) bununla (≈-9.7, 15.6) uyuşmayabilir — bu oturumda ölçülmedi, UYARI. ÖNERİ: Emre kararı — Kabasa'nın koordinatı/yeri akademik kaynaktan (Heintze 1977 Anthropos 72; Miller 1976 'Kings and Kinsmen'; Birmingham 1966 — archive.org'da kısıtlı, açılamadı) doğrulanana dek bu kaydın zinciri 'yer belirsiz' sayılmalı. Açılamayan: Birmingham 1966, Miller 1976, Vansina Kingdoms of the Savanna (archive.org 401), Heywood Njinga 2017 (Harvard UP, Crossref başlık)."
+ },
+ {
   "id": "kaesong",
   "ad": "Kaesong",
   "atlas_ad": "Kaesong",
@@ -11159,6 +11256,65 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ATLAS: Kano “1281 Hausa şehir devletleri” başlangıcı ile çelişen bir tanık yok. Ancak şehrin kuruluş tarihi gelenekseldir (±100 yıl)."
+ },
+ {
+  "id": "kap-cape-town",
+  "ad": "Kap (Cape Town)",
+  "atlas_ad": "Kap (Cape Town)",
+  "lat": -33.925,
+  "lon": 18.424,
+  "kat1900": 1,
+  "adlar": [
+   "Agoada de Saldanha / Tafelbaai (Table Bay)",
+   "Kaap de Goede Hoop (Cabo de Boa Esperança)",
+   "Cape Town / Kaapstad"
+  ],
+  "ilk": {
+   "t": "1652-04-06",
+   "gun": "6 Nisan 1652",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "Dagverhaal van Jan van Riebeek, Commandeur aan de Kaap de Goede Hoop, c.I, 1884 (archive.org dagverhaalvanjan01rieb, djvu metni curl ile okundu) — 6 Nisan 1652 girdisi; 'Zondag den 7 dito' sonraki gün",
+   "tanik": "even na zons ondergang, nevens het jagt de Goede Hoop, in de Tafelbaai",
+   "ic_not": "KURULUŞ = VOC çıkarmasının Tafelbaai'ye demirlediği gün. Günlük: 5 Nisan 1652'de Tafelberg görülür, 6 Nisan (editör notu: 'vroeg in den morgen van den 6 April') akşamı Dromedaris Tafelbaai'ye demirler, 7 Nisan Reiger gelir, 9-10 Nisan'da kale (fort) için çalışma başlar. DİKKAT: tarih 'kuruluş' olarak alınmıştır (yerleşim kararı o gün değil, aynı hafta; toprak işleri 8-10 Nisan). ATLAS: atlas noktası 1652-01-01'de (hollanda) başlıyor; günlük 6 Nisan 1652 → atlas başlangıcı 95 gün ERKEN; ÖNERİ: atlas 1652-04-06'ya çekilmeli (yılın ilk günü varsayılan, kaynak 'YYYY-01-01' yazımı). Bu yüzden zincir BOŞ."
+  },
+  "kur": {
+   "t": "1652-04-06",
+   "gun": "6 Nisan 1652",
+   "kesinlik": "gun",
+   "kaynak": "Dagverhaal van Jan van Riebeek (1884; archive.org dagverhaalvanjan01rieb), 6 Nisan 1652",
+   "tanik": "even na zons ondergang, nevens het jagt de Goede Hoop, in de Tafelbaai"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1503-01-01",
+    "gun": "1503",
+    "k": "diger",
+    "b": "Antonio de Saldanha Tafelbaai'ye (sonradan 'Agoada de Saldanha') demirler, Tafelberg'e tırmanır ve ona adını verir; Khoikhoi'lerden bir inek ve iki koyun satın alınır. (Bağlam: yer = körfez/dağ, atlas noktası değil.)",
+    "kaynak": "Theal, G. M., History and Ethnography of South Africa before 1795, c.I, Londra 1909 (archive.org historyethnograp01gmth, djvu metni curl ile okundu), 1503 Saldanha seferi",
+    "tanik": "some Hottentots made their appearance, from whom a cow and two sheep were purchased"
+   },
+   {
+    "t": "1510-03-01",
+    "gun": "1 Mart 1510",
+    "k": "savas",
+    "b": "Hindistan eski valisi Dom Francisco de Almeida, Tafelbaai'nin ucunda (Salt River ağzı yakını) bir Khoikhoi kraal'ına yapılan baskında öldürülür (≈ 60 yaşında).",
+    "kaynak": "Theal 1909 (archive.org historyethnograp01gmth), Almeida'nın ölümü, s.256-258",
+    "tanik": "before dawn of the morning of the 1st of March 1510"
+   },
+   {
+    "t": "1652-04-06",
+    "gun": "6 Nisan 1652",
+    "k": "kurulus",
+    "b": "Jan van Riebeeck'in filosu (Dromedaris, Goede Hoop; ertesi gün Reiger) Tafelbaai'ye demirler — Hollandalı Kap Kolonisi'nin başlangıcı.",
+    "kaynak": "Dagverhaal van Jan van Riebeek (1884; archive.org dagverhaalvanjan01rieb)",
+    "tanik": "even na zons ondergang, nevens het jagt de Goede Hoop, in de Tafelbaai"
+   }
+  ],
+  "ic_not": "KAPSAM KARARI (Emre kuralı 13 Ekim: yer modern noktadan uzaksa burada yazılmaz): 1503 Saldanha ve 1510 Almeida tanıkları Tafelbaai'nin ucuna/Salt River ağzına ve 'Tafelberg'e aittir; Theal kraal'ın yerini kesin veremez ('cannot be fixed more accurately than as being close to the sandy beach near the mouth of Salt River'). Atlas noktası (-33.925, 18.424) ile mesafe bu oturumda ÖLÇÜLMEDİ; bu nedenle 1503-1652 arası Khoikhoi (Goringhaiqua vb.) sahipliği için ZİNCİR YAZILMADI (künye de yok — 'devletsiz Khoekhoe grupları'); olaylar bağlam olarak tutuldu. Arkeolojik ilk iskân (Khoekhoe/LSA, Peninsula) bu oturumda NOKTAYA bağlanamadı: WebSearch yalnız Kasteelberg/Die Kelders (Kuzey/Güney Batı Kap) döndü, Kap Yarımadası için tarihli kaynak bulunamadı. Hollandaca kaynak açıldı (Dagverhaal); Portekizce birincil (Barros, Castanheda) açılmadı — Theal ikincildir. TDV'de Cape Town/Kap Kolonisi maddesi ölçülmedi (ilgisiz). ÇİFT TEYİT YOK."
  },
  {
   "id": "karakurum",
@@ -13904,6 +14060,42 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Fenike geleneği (Treccani 'Alis Ubbo') ilk anılış sayılmadı. TDV 'Roma, Alanlar ve Vizigotlar' ifadesindeki Alan dönemi ve Svev sırası kaynak tarihi vermediği için dönem açılmadı. Çift teyit: Roma işgali MÖ 138 (Princeton) ↔ Strabon (Brutus Callaicus kampanyası); Lizbon 1147-10-24 (TDV, atlas künyesi) — Treccani yalnız 'Alfonso Henrique conquistò definitivamente' der. Zincir atlas ilk gününde (1147-10-24) biter. Atlas notu: atlas Lizbon 'Murâbıt 1147-03-23→10-24 künyesiz YAZILMADI' demişti; bu dosyada o aralık 'lizbon-ozerk-meclis' (TDV) olarak yazıldı."
  },
  {
+  "id": "loango-buali",
+  "ad": "Loango (Buali)",
+  "atlas_ad": "Loango (Buali)",
+  "lat": -4.6546,
+  "lon": 11.805,
+  "kat1900": 1,
+  "adlar": [
+   "Buali (Mbanza Loango)",
+   "Loango"
+  ],
+  "ilk": {
+   "t": "1591-01-01",
+   "gun": "1591",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Lopes, D. & Pigafetta, F., Relatione del Reame di Congo, Roma, 7 Ağustos 1591 (adanmış mektup tarihi), İng. çeviri A Report of the Kingdom of Congo, ed. Hutchinson, Londra 1881 (archive.org reportofkingdomo00lope, djvu metni curl ile okundu), Book I",
+   "tanik": "now known as the Kingdom of Loango, and their king is called Maniloango",
+   "ic_not": "İLK ANILIŞ alt sınırdır, KURULUŞ DEĞİL; yer 'Loango Krallığı' (başkent Buali/Mbanza Loango adıyla bu metinde geçmiyor). Metin tarihi 1591 (yayın), gözlem Lopes'in 1578 sonrası Kongo/Loango bilgisidir — yani en erken yazılı tanık olmayabilir (Phyllis Martin 1972 'External Trade of the Loango Coast 1576-1870' Crossref başlığı: kıyı ticareti 1576'dan beri). KURULUŞ: GHA IV (UNESCO 1984, Vansina, s.571-573): 'It seems probable that these kingdoms were founded between the thirteenth and fourteenth centuries'; Kongo hanedanı Loango hanedanından uzak olmayan kuzeyde doğmuş; 'only excavation ... can supply a date'. ARKEOLOJİ: Denbow 2012 (Antiquity 86:332) Loango kıyısında '3300 years of prehistoric settlement' (Crossref özeti) — Buali/Mbanza Loango'ya özgü tarih BULUNAMADI. ATLAS: loango künyesi f:1550; kaynaklı tarih 1591 > 1550 → zincir BOŞ (denetle uyarısı beklenir). Metin: 'The King of Loango is at amity with the King of Congo, but it is said was formerly his vassal' (1591) — 1550 öncesi sahiplik için dolaylı, tarihsiz."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1591-01-01",
+    "gun": "1591",
+    "k": "diger",
+    "b": "Loango Krallığı (Maniloango) Pigafetta/Lopes derlemesinde Kongo'nun kuzey komşusu olarak anılır; eskiden Kongo vasalı olduğu söylenir.",
+    "kaynak": "Lopes & Pigafetta 1591 / Hutchinson 1881 (archive.org reportofkingdomo00lope), Book I",
+    "tanik": "now known as the Kingdom of Loango, and their king is called Maniloango"
+   }
+  ],
+  "ic_not": "Yer kimliği: atlas koordinatı (-4.6546, 11.8050) Buali/Mbanza Loango'ya (Diosso civarı) uyar mı BU OTURUMDA ÖLÇÜLMEDİ; Loango Arkeoloji Projesi (Denbow, 1987-93) Met Müzesi sayfası bot engeli/boş döndü. Açılamayan: Martin 1972 tam metin, Vansina 1973 JAH incelemesi, Dapper (17. yy). ÇİFT TEYİT YOK."
+ },
+ {
   "id": "luang-prabang",
   "ad": "Luang Prabang",
   "atlas_ad": "Luang Prabang",
@@ -14661,6 +14853,42 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas 1281'de harita anahtarı 'mantua' (künye mantua 1328-01-01'de başlar) yazıyor; gerçek sahip bonacolsi (künye 1273-1328, harita anahtarı 'bonacolsi'). Atlasın 1281 'mantua' iddiası künyeyle uyumsuz (hayalet): önerilen düzeltme atlas dönemini 'bonacolsi' yapmak. 1281 tarihli ayrı olay YOK.",
   "ic_not": "Atlas Mantova 1281'de 'mantua' ile başlıyor (bkz. dikis_beyan). EI ile Treccani çelişkisi: Longobard fethi Treccani 'dal 601', EI 'presa, perduta e ripresa' (tarihsiz) — Treccani yılı alındı. Çift teyit YOK (Treccani online + EI aynı kurum)."
+ },
+ {
+  "id": "mbanza-kongo",
+  "ad": "Mbanza Kongo (São Salvador)",
+  "atlas_ad": "Mbanza-Kongo (São Salvador)",
+  "lat": -6.27,
+  "lon": 14.24,
+  "kat1900": 1,
+  "adlar": [
+   "Mbanza Kongo (Banza, 'saray/divan')",
+   "São Salvador (San Salvador)"
+  ],
+  "ilk": {
+   "t": "1491-01-01",
+   "gun": "1491",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Lopes, D. & Pigafetta, F., Relatione del Reame di Congo (Roma 1591), İng. çeviri: A Report of the Kingdom of Congo, ed. M. Hutchinson, Londra 1881 (archive.org reportofkingdomo00lope, djvu metni curl ile okundu; uzun-s OCR'ı düzeltildi), Book I, ch. 'Of the province of Pemba' ve ch. 'History of the Kingdom of Congo'",
+   "tanik": "This city is called San Salvador, and was formerly known as Banza",
+   "ic_not": "İLK ANILIŞ alt sınırdır, KURULUŞ DEĞİL. 1491: Pigafetta/Lopes'e göre Portekiz gemileri 1491'de Zaire ağzına gelir, Soyo prensi vaftiz edilir, ardından Portekizliler kralı vaftiz etmek için saraya (Mbanza) gider ('which was in the year 1491 of our era, and anchored at the mouth'); anlatı 1591 tarihlidir, yani İKİNCİL (olaydan ~100 yıl sonra, Lopes'in 1578 sonrası derlemesi). Daha erken yazılı tanık (Diogo Cão teması 1482-83, MMA I) bu oturumda şehrin kendisine bağlanamadı. KURULUŞ: GHA IV (UNESCO 1984, Vansina, s.571-573) geleneğe göre 'Lukeni Nimi ... went on to conquer the Ambundu chiefdom of Mbanza Kongo' — yani Mbanza Kongo krallıktan ÖNCE bir Ambundu şeflik merkezidir, tarihsiz; krallıklar için 'between the thirteenth and fourteenth centuries'. Aynı kaynak: 'Only excavation of the earliest known burial grounds of the Kongo, Vili and Tio ... and of Mbanza Kongo (San Salvador) can supply a date' — arkeolojik tarihleme BULUNAMADI (Crossref/UNESCO araması: yalnız Kindoki/Mbanza Nsundi kazısı bulundu, Clist vd. 2015, Afr. Archaeol. Rev. 32:369-412, ayrı yer). ATLAS: atlas noktası 1390'da (kongo-kralligi künyesi f) başlar; şehir için kaynaklı tarih 1491 > 1390 olduğundan zincir BOŞ bırakıldı (denetle uyarısı beklenir). Atlas başlangıcının şehir için kaynağı yok; künye düzeyinde GHA IV '13.-14. yy' diyor (çelişki yok, kesin gün yok)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1491-01-01",
+    "gun": "1491",
+    "k": "diger",
+    "b": "Portekiz heyeti Zaire ağzına gelir; Soyo prensi vaftiz edilir, ardından Portekizliler kralı vaftiz için Mbanza'ya (Banza, sonradan São Salvador) gider.",
+    "kaynak": "Lopes & Pigafetta 1591 / Hutchinson çevirisi 1881 (archive.org reportofkingdomo00lope), 'History of the Kingdom of Congo'",
+    "tanik": "which was in the year 1491 of our era, and anchored at the mouth"
+   }
+  ],
+  "ic_not": "Kaynak durumu: TDV'de Kongo/Mbanza Kongo maddesi yok (slug'lar ölü: kongo, angola, bantu — atlasın kendi notu, yeniden ölçülmedi). Açılan: archive.org (Pigafetta/Lopes 1881; UNESCO GHA IV djvu), Crossref. Açılamayan: JSTOR (Clist/de Maret/Bostoen 2018 'L'histoire du royaume Kongo revisitée par l'archéologie' — Client Challenge), UNESCO WHC 1511 (403). ÇİFT TEYİT YOK. Ad: Pigafetta 'formerly known as Banza'; São Salvador adı kilisenin adından (Pigafetta: 'from it the royal city takes the name ... San Salvador'); tarihi bu oturumda birincilden okunmadı. 1491 sonrası olaylar kapsam dışı."
  },
  {
   "id": "mendoza",
@@ -16160,6 +16388,42 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas kur:1704-01-01 'kuruluş' diyor ama yer 1704'ten çok önce vardır (Makhsusabad, 1621'de tanıklı); 1704-05 olayı isim değişikliği/eyalet merkezi taşınmasıdır (Banglapedia 'Murshid Quli Khan' 1702 diwani, 1717 nizamat). kur: kaldırılmalı ya da 'ad değişimi' beyanıyla yeniden yazılmalı; atlas zinciri 1621'den kaynaklı bağlanabilir. 1621 öncesi tanık BULUNAMADI (Bhavisya Purana 'Morasudabad' tarihsiz)."
+ },
+ {
+  "id": "musumba",
+  "ad": "Musumba (Mussumba, Mwata Yamvo başkenti)",
+  "atlas_ad": "Musumba",
+  "lat": -8.3,
+  "lon": 22.42,
+  "kat1900": 1,
+  "adlar": [
+   "Mussumba (Pogge, 1880)",
+   "Musumba / Musumbu"
+  ],
+  "ilk": {
+   "t": "1875-12-09",
+   "gun": "9 Aralık 1875",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "Pogge, P., Im Reiche des Muata Jamwo: Tagebuch meiner ... Reise in die Lunda-Staaten, Berlin 1880 (archive.org imreichedesmuata00pogg, djvu metni curl ile okundu), III. Teil 'Mussumba und der Hof des Muata Jamwo'",
+   "tanik": "erfolgte an demselben Tage (9. December) unsere Ankunft in Mussumba",
+   "ic_not": "İLK ANILIŞ alt sınırdır, KURULUŞ DEĞİL: bu, Avrupalı gözlemcinin (Pogge) Muata Jamwo başkentine varış günüdür; içindekiler tablosu 'Ankunft in Mussumba am 9. December 1875'. Daha erken yazılı tanık (Portekizli tüccar/pombeiro 1800'ler, Lacerda 1798 vb.) bu oturumda bulunamadı. Lunda devleti için: GHA IV (Vansina, s.568-570; Miller 1976 atfıyla) 'one Lunda state is known to have existed from before 1450'; Macola 2015 (Encyclopedia of Empire, Crossref özeti): Luba-Lunda merkezî devlet sistemleri 'at least 1700'den beri'. Atlas künyesi lunda-imparatorlugu f:1665. Musumba'nın KENDİSİ için kuruluş/arkeoloji tarihi BULUNAMADI. ATLAS: şehir için kaynaklı tarih 1875 > 1665 → zincir BOŞ (denetle uyarısı beklenir)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1875-12-09",
+    "gun": "9 Aralık 1875",
+    "k": "diger",
+    "b": "Paul Pogge (Alman Ekvatoral Afrika Keşif Derneği) Muata Jamwo'nun başkenti Mussumba'ya varır.",
+    "kaynak": "Pogge 1880 (archive.org imreichedesmuata00pogg), III. Teil",
+    "tanik": "erfolgte an demselben Tage (9. December) unsere Ankunft in Mussumba"
+   }
+  ],
+  "ic_not": "⚠ KONUM RİSKİ: Vikipedi bilgi kutusu (tek dayanak olmaz, yalnız uyarı) Musumba'yı -8.361, 22.642 verir; atlas -8.30, 22.42 (~25 km fark). Pogge'nin Mussumba'sı ile atlas noktası aynı yer mi, bu oturumda DOĞRULANAMADI (Lunda başkentlerinin her yeni Mwaant Yav'la yer değiştirdiği yönündeki literatür bilgisi okunan kaynaklarda doğrulanmadı, hafızadan yazılmadı). Açılamayan: Vansina 'Kingdoms of the Savanna' (archive.org 401), Miller 'Kings and Kinsmen' (401), Dias de Carvalho 1890 (archive.org'da var, bu oturumda okunmadı), Heywood/Thornton. ÇİFT TEYİT YOK."
  },
  {
   "id": "nanking",
@@ -23927,6 +24191,42 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK (kural): ilk.t atlas başlangıcıyla (1559-01-01) aynı. ARK notu: Ahar köyü (24.587, 73.722; Vikipedi koordinatı) Udaipur noktasına ~0,9 km; Ahar–Banas kültürü tip yerleşimi — nicelik 'arkeolojik' YALNIZ yazılı tanık yokken esastır, burada yazılı (kuruluş 1559) var; ark ayrı alanda tutuldu, zayıf. Tod (Annals I, Personal Narrative) Ahar'ı 'ancient Ahar … destroyed by volcanic eruption' rivayetiyle anar (efsane, tarihsiz). Bapa/Nagda (IG: 'Nagda, a few miles north of Udaipur city') ayrı merkez. ATLAS DÜZELTME ÖNERİSİ: yok (atlas kur 1559 IG ile uyumlu; 'in or about' beyanı eklenebilir)."
+ },
+ {
+  "id": "ulundi-zululand",
+  "ad": "Ulundi (oNdini)",
+  "atlas_ad": "Ulundi (Zululand)",
+  "lat": -28.313,
+  "lon": 31.416,
+  "kat1900": 1,
+  "adlar": [
+   "oNdini (Cetshwayo'nun kraal'ı)",
+   "Ulundi"
+  ],
+  "ilk": {
+   "t": "1873-01-01",
+   "gun": "1873",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Colenso, F. E. & Durnford, E., History of the Zulu War and its Origin, Londra 1880 (archive.org historyofzuluwar00colerich, djvu metni curl ile okundu), ch.XX (Durnford biyografisi)",
+   "tanik": "having been at Ulundi in 1873",
+   "ic_not": "İLK ANILIŞ alt sınırdır, KURULUŞ DEĞİL: Albay Durnford 1873'te Ulundi'de bulunmuştur (Colenso 1880). Crossref başlığı: 'oNdini, the Zulu royal capital of King Cetshwayo ka Mpande (1873–1879)' (The Constructed Past, Routledge 2003, doi:10.4324/9780203205822-25) — yalnız BAŞLIK okundu (tam metin açılamadı), ama 1873'ün Cetshwayo başkentinin başlangıcı olduğunu güçlü biçimde düşündürür. ATLAS: ulundi künyesi/nokta kur:1816 'Zulu Krallığı' kuruluşudur (atlasın kendi notu: 'SEHRIN degil KRALLIGIN kurulusudur'); şehir için kaynaklı tarih 1873 > 1816 → zincir BOŞ (denetle uyarısı beklenir). ÖNERİ: atlas Ulundi noktası 1816 yerine ≥1873'te (kaynak: Colenso & Durnford 1880 + oNdini kazı literatürü) başlamalı; 1816-1873 arasında Zulu krallığının başkentleri başka yerlerdeydi (kwaNodwengu: Colenso 1880 metninde 'Nodwengu' 1861'de Mpande'nin yeri olarak geçer, ayrı kayıt)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1873-01-01",
+    "gun": "1873",
+    "k": "diger",
+    "b": "Albay Durnford 1873'te Ulundi'de bulunur (ziyaretin nedeni bu oturumda okunmadı). Ulundi'nin Cetshwayo başkenti olarak 1873'te başlaması yalnız bir Crossref kitap-bölümü başlığına dayanır.",
+    "kaynak": "Colenso & Durnford 1880 (archive.org historyofzuluwar00colerich), ch.XX",
+    "tanik": "having been at Ulundi in 1873"
+   }
+  ],
+  "ic_not": "Atlas koordinatı (-28.313, 31.416) Ulundi kasabasına yakın; oNdini kraal'ı (Ulundi savaşı alanı) tam konumunu bu oturumda ölçmedim. Arkeolojik tarihleme (oNdini kazıları) bulunamadı/açılamadı. 1873 öncesi için bu yerde yerleşim tanığı BULUNAMADI. ÇİFT TEYİT YOK. Zulu Savaşı (4 Temmuz 1879, künye t) kapsam dışı."
  },
  {
   "id": "urga-ulan-batur",
