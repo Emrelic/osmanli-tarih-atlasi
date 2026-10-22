@@ -27,8 +27,8 @@ window.YERLESIMLER_ONCE1281_YT_HINT = [
   konum_kesinlik:"yaklasik",
   not:"YER-TANIMA: kronolojide Tokmok adıyla geçer; eski adlar: -; modern: Tokmok (Suyab/Ak-Besim yakini) (Kırgızistan). Bagimsizlik sinirli (GeoNames/TGN GNS turevi); Suyab=Ak-Besim 9 km uzakta, Tang baglami uyumlu.",
   kaynak:"ÇİFT TANIK: GeoNames https://www.geonames.org/1527199 (42.84194, 75.30149) · Getty TGN http://vocab.getty.edu/tgn/1060352 (42.8667, 75.3) · Getty TGN http://vocab.getty.edu/tgn/8711887 (42.805, 75.199) · denetim/yer-arastirma/parti_94_sonuc.json" },
-{ ad:"Tibet", tur:"bolge", lat:33.375, lon:90.304, g:0, k:0, s:[], d:[], bos:"veri-yok", bit:"1281-01-01",
+{ ad:"Tibet", tur:"bolge", lat:33.3614, lon:90.3119, g:0, k:0, s:[], d:[], bos:"veri-yok", bit:"1281-01-01",
   konum_kesinlik:"bolge",
-  not:"YER-TANIMA: kronolojide Tibet adıyla geçer; eski adlar: -; modern: - (PLATEAU OF TIBET). BÖLGE TEMSİLCİSİ: yer bilinmiyor, Tibet bölgesi kaynakta. Nokta = Natural Earth 'PLATEAU OF TIBET' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir).",
+  not:"YER-TANIMA: kronolojide Tibet adıyla geçer; eski adlar: -; modern: - (PLATEAU OF TIBET). BÖLGE TEMSİLCİSİ: yer bilinmiyor, Tibet bölgesi kaynakta. Nokta = Natural Earth 'PLATEAU OF TIBET' çokgeninin en büyük halkasının ağırlık merkezi (MODERN çokgen; tarihî sınır değildir). [koordinat kara maskesine çekildi: 33.375,90.304 → 33.3614,90.3119 (denetle 'konum' kapısı)]",
   kaynak:"TEMSİLCİ NOKTA (çift tanık değil, bölge): Natural Earth 10m (veri-kaynak/ne_10m_geography_regions_polys.geojson) PLATEAU OF TIBET (33.375, 90.304) · denetim/yer-arastirma/parti_51_sonuc.json" },
 ];

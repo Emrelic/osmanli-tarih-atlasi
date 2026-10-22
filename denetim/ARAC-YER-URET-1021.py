@@ -108,6 +108,7 @@ def jstr(s):
     return json.dumps(s, ensure_ascii=False)
 
 DATA = "--data" in sys.argv
+MASKE_DUZELT = {"Tibet": (33.3614, 90.3119), "Trogir": (43.5092, 16.2530)}
 EPOK = "1281-01-01"
 MEVCUT_AD = {y["ad"] for y in Y}
 YAZILAN_AD = set()
@@ -163,6 +164,10 @@ for ad in sorted(gruplar):
             sahip_s = "s:[%s], d:[], kur:%s, bit:%s," % (",\n    ".join(parcalar), jstr(per[0]["f"]), jstr(per[-1]["t"]))
         else:
             sahip_s = 's:[], d:[], bos:"veri-yok", bit:"1281-01-01",'      # varlık ucu 1281: motor penceresinde canlı DEĞİL (MO nokta dosyalarının emsali) — sahipsiz hücre deliği açmaz
+        if r["ad"] in MASKE_DUZELT:      # denetle 'konum' kapısı: nokta kara maskesinin dışındaydı → kapının verdiği koordinat
+            eski = (r["lat"], r["lon"])
+            r["lat"], r["lon"] = MASKE_DUZELT[r["ad"]]
+            r["not"] = (r.get("not") or "") + " [koordinat kara maskesine çekildi: %s,%s → %s,%s (denetle 'konum' kapısı)]" % (eski[0], eski[1], r["lat"], r["lon"])
         satir.append('{ ad:%s, tur:%s, lat:%s, lon:%s, g:0, k:0, %s' % (jstr(ad_yaz), jstr(r.get("tur") or "sehir"), r["lat"], r["lon"], sahip_s))
         if r.get("konum_kesinligi") in ("yaklasik", "bolge"):
             satir.append('  konum_kesinlik:"%s",' % r["konum_kesinligi"])
