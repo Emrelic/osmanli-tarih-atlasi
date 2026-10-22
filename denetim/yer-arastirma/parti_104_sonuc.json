@@ -1,0 +1,658 @@
+{
+ "parti": 104,
+ "sonuclar": [
+  {
+   "ad": "Heroonpolis (Pithom çevresi)",
+   "durum": "tek_tanik",
+   "lat": 30.5534,
+   "lon": 32.0996,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Tell el-Maskhuta (Pithom/Heroonpolis, Vadi Tumilat)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 727124",
+     "url_veya_atif": "https://pleiades.stoa.org/places/727124",
+     "lat": 30.5534,
+     "lon": 32.0996,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2751425",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2751425",
+     "lat": 30.6,
+     "lon": 32.1,
+     "not": "Pithom (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    }
+   ],
+   "not": "Pleiades+iDAI tek aile. Bagimsiz arkeoloji/UNESCO tanigi bulunamadi."
+  },
+  {
+   "ad": "Meroe",
+   "durum": "cift_tanik",
+   "lat": 16.9369,
+   "lon": 33.7119,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Meroe (Begrawiya)",
+   "ulke_modern": "Sudan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 805630",
+     "url_veya_atif": "https://pleiades.stoa.org/places/805630",
+     "lat": 16.9369,
+     "lon": 33.7119,
+     "not": ""
+    },
+    {
+     "kaynak": "UNESCO WHC 1336",
+     "url_veya_atif": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no=%221336%22",
+     "lat": 16.9333,
+     "lon": 33.7167,
+     "not": "Meroe 1; Meroe 2 = 16.9333,33.75"
+    }
+   ],
+   "not": "UNESCO 'Archaeological Sites of the Island of Meroe' ile Pleiades <3 km uyumlu. TSV ipucu 33.7503 = UNESCO Meroe 2 (piramitler); sehir kalintisi 33.712."
+  },
+  {
+   "ad": "Pselkis (Dakka)",
+   "durum": "tek_tanik",
+   "lat": 23.2,
+   "lon": 32.75,
+   "tur": "kale",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Dakka (Pselkis, Asagi Nubya)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2751438",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2751438",
+     "lat": 23.2,
+     "lon": 32.75,
+     "not": "Quban / ad-Dakka 2768112 = 23.2,32.75 (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    }
+   ],
+   "not": "Pleiades eslesmesi yok. Dakka tapinagi Nasser golu icin tasindi; antik yer 23.2,32.75 civari. Ikinci bagimsiz kaynak bulunamadi (UNESCO Nubian Monuments 88 bilesen listesinde Dakka gorulmedi)."
+  },
+  {
+   "ad": "Hiera Sykaminos (Maharraqa)",
+   "durum": "tek_tanik",
+   "lat": 23.0613,
+   "lon": 32.7032,
+   "tur": "kale",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Maharraqa (Hierasykaminos, Asagi Nubya)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 795815",
+     "url_veya_atif": "https://pleiades.stoa.org/places/795815",
+     "lat": 23.0613,
+     "lon": 32.7032,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2751328",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2751328",
+     "lat": 23.0,
+     "lon": 32.7,
+     "not": " (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    }
+   ],
+   "not": "Tek aile. Yapi Wadi es-Sebua'ya tasindi; antik koordinat. Bagimsiz tanik yok."
+  },
+  {
+   "ad": "Seleukeia Pieria",
+   "durum": "tek_tanik",
+   "lat": 36.1213,
+   "lon": 35.9286,
+   "tur": "liman",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Seleukeia Pieria (Çevlik, Samandağ)",
+   "ulke_modern": "Türkiye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 658483",
+     "url_veya_atif": "https://pleiades.stoa.org/places/658483",
+     "lat": 36.1213,
+     "lon": 35.9286,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2266704",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2266704",
+     "lat": 36.12221,
+     "lon": 35.92205,
+     "not": " (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    }
+   ],
+   "not": "Tek aile; bagimsiz tanik bulunamadi."
+  },
+  {
+   "ad": "Paneion (Paneas)",
+   "durum": "tek_tanik",
+   "lat": 33.2475,
+   "lon": 35.6935,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Banyas (Paneas)",
+   "ulke_modern": "Suriye (Golan, Israil kontrolunde)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 678324",
+     "url_veya_atif": "https://pleiades.stoa.org/places/678324",
+     "lat": 33.2475,
+     "lon": 35.6935,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2043149",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2043149",
+     "lat": 33.24606,
+     "lon": 35.69283,
+     "not": "Baniyas (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    }
+   ],
+   "not": "Tek aile. Bagimsiz arkeoloji kaynagi alinmadi."
+  },
+  {
+   "ad": "Aktion (Actium)",
+   "durum": "tek_tanik",
+   "lat": 38.95,
+   "lon": 20.7667,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Aktio burnu (Preveza karsisi)",
+   "ulke_modern": "Yunanistan",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2070092",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2070092",
+     "lat": 38.95,
+     "lon": 20.76667,
+     "not": "Actium (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2298528",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2298528",
+     "lat": 39.0089,
+     "lon": 20.7336,
+     "not": "Nikopolis (savas sonrasi zafer sehri, Aktion degil) (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    }
+   ],
+   "not": "Aktion burnu 38.95,20.767. TSV ipucu 39.0277,20.7357 Nikopolis'e yakin, Aktion'a ~9 km; savas Ambrakia korfezi agzinda. Ikinci bagimsiz kaynak bulunamadi (arama ozetleri Wikipedia kokenli)."
+  },
+  {
+   "ad": "Eleusis (İskenderiye yakını)",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "",
+   "ulke_modern": "Mısır",
+   "tanik": [],
+   "not": "Iskenderiye yakini Eleusis: iDAI'de ayirt edilebilir kayit yok, TSV ipucu yok. Uydurma yapilmadi."
+  },
+  {
+   "ad": "Salamis (Kıbrıs)",
+   "durum": "tek_tanik",
+   "lat": 35.1792,
+   "lon": 33.9,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Salamis (Famagusta'nin ~6-9 km kuzeyi)",
+   "ulke_modern": "Kıbrıs (KKTC yönetiminde)",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2095778",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2095778",
+     "lat": 35.17917,
+     "lon": 33.9,
+     "not": " (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    },
+    {
+     "kaynak": "Herts Univ. Heritage Hub (tarif)",
+     "url_veya_atif": "https://herts.ac.uk/heritage-hub/history-on-the-move/articles/salamis",
+     "lat": null,
+     "lon": null,
+     "not": "Gazimagusa'nin ~6-9 km kuzeyi; iDAI ile uyumlu ama koordinatsiz"
+    }
+   ],
+   "not": "Tarifle uyumlu; ikinci kaynak koordinatsiz, hakemli degil -> tek_tanik."
+  },
+  {
+   "ad": "Kaneş (Neşa)",
+   "durum": "tek_tanik",
+   "lat": 38.8511,
+   "lon": 35.6353,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Kültepe (Kayseri)",
+   "ulke_modern": "Türkiye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 628923",
+     "url_veya_atif": "https://pleiades.stoa.org/places/628923",
+     "lat": 38.8511,
+     "lon": 35.6353,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2043986",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2043986",
+     "lat": 38.85,
+     "lon": 35.63333,
+     "not": " (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    }
+   ],
+   "not": "Tek aile; UNESCO kaydi bulunamadi. Kazi haberleri Kayseri'nin 12-25 km KD'si (kaba)."
+  },
+  {
+   "ad": "Kalhu (Nimrud)",
+   "durum": "tek_tanik",
+   "lat": 36.09998,
+   "lon": 43.3315,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Nimrud (Kalhu)",
+   "ulke_modern": "Irak",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 894019",
+     "url_veya_atif": "https://pleiades.stoa.org/places/894019",
+     "lat": 36.09998,
+     "lon": 43.3315,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2283161",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2283161",
+     "lat": 36.09622,
+     "lon": 43.32925,
+     "not": " (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    }
+   ],
+   "not": "Tek aile (~0.4 km uyumlu)."
+  },
+  {
+   "ad": "Karkemiş",
+   "durum": "cift_tanik",
+   "lat": 36.8175,
+   "lon": 38.0111,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Cerablus / Karkamış",
+   "ulke_modern": "Türkiye/Suriye sınırı",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2118628",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2118628",
+     "lat": 36.8175,
+     "lon": 38.01111,
+     "not": "Jarablus (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2101633",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2101633",
+     "lat": 36.8,
+     "lon": 38.0,
+     "not": "Karkemis (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    },
+    {
+     "kaynak": "Antiquity Project Gallery (Wilkinson), Land of Carchemish Project",
+     "url_veya_atif": "https://www.antiquity.ac.uk/projgall/wilkinson329",
+     "lat": null,
+     "lon": null,
+     "not": "Tarif: Aleppo'nun ~100 km KD'si, Gaziantep'in ~60 km GD'si; hesaplanan 100/63 km ile uyumlu"
+    }
+   ],
+   "not": "Pleiades'te eslesme yok. Akademik konum tarifi iDAI ile uyumlu; ikinci tanik koordinatsiz tarif (arama ozeti). Yaklasik 36.82,38.01."
+  },
+  {
+   "ad": "Karkar (Qarqar)",
+   "durum": "cift_tanik",
+   "lat": 35.7431,
+   "lon": 36.3211,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tell Qarqur (Cisr es-Sugur guneyi)",
+   "ulke_modern": "Suriye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 995604669",
+     "url_veya_atif": "https://pleiades.stoa.org/places/995604669",
+     "lat": 35.7421,
+     "lon": 36.3308,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2043190",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2043190",
+     "lat": 35.74313,
+     "lon": 36.32109,
+     "not": " (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    },
+    {
+     "kaynak": "Univ. of Toronto CRANE Tell Qarqur",
+     "url_veya_atif": "https://crane.utoronto.ca/tell-qarqur.html",
+     "lat": null,
+     "lon": null,
+     "not": "Cisr es-Sugur'un ~5 km guneyi (kazi projesi Dornemann/Casana)"
+    }
+   ],
+   "not": "Karkar=Tell Qarqur tanimi genel kabul. TSV ipucu 35.8167,36.3667 ~9 km sapiyor."
+  },
+  {
+   "ad": "Megiddo",
+   "durum": "cift_tanik",
+   "lat": 32.585,
+   "lon": 35.1842,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tel Megiddo",
+   "ulke_modern": "İsrail",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 26356565",
+     "url_veya_atif": "https://pleiades.stoa.org/places/26356565",
+     "lat": 32.5838,
+     "lon": 35.1837,
+     "not": ""
+    },
+    {
+     "kaynak": "UNESCO WHC 1108",
+     "url_veya_atif": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no=%221108%22",
+     "lat": 32.585,
+     "lon": 35.1841666666,
+     "not": "Biblical Tels - Tel Megiddo"
+    }
+   ],
+   "not": "UNESCO ve Pleiades <0.2 km."
+  },
+  {
+   "ad": "Aşkelon",
+   "durum": "tek_tanik",
+   "lat": 31.6648,
+   "lon": 34.5505,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Aşkelon (Tel Ashkelon / National Park)",
+   "ulke_modern": "İsrail",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 687839",
+     "url_veya_atif": "https://pleiades.stoa.org/places/687839",
+     "lat": 31.6648,
+     "lon": 34.5505,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2283151",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2283151",
+     "lat": 31.66926,
+     "lon": 34.57149,
+     "not": "Aschkelon (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    }
+   ],
+   "not": "Tek aile; iDAI ~2 km farkli. Leon Levy kazi sayfalari yalniz 'Tel Aviv'in 40 mil guneyi, Gazze kuzeyi, kiyi'."
+  },
+  {
+   "ad": "Opis",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Opis (Dicle, Bağdat çevresi)",
+   "ulke_modern": "Irak",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 894178",
+     "url_veya_atif": "https://pleiades.stoa.org/places/894178",
+     "lat": 33.0952,
+     "lon": 44.521,
+     "not": "Bu kayit Seleucia on the Tigris / Veh Ardashir, Opis DEGIL"
+    }
+   ],
+   "not": "Pleiades 894178 Seleukeia; Opis'in yeri tartismali. Dogrulanamadi; uydurma yok."
+  },
+  {
+   "ad": "Memfis (Menfe/Mit Rahina)",
+   "durum": "cift_tanik",
+   "lat": 29.8495,
+   "lon": 31.2551,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Mit Rahina (Memfis)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 736963",
+     "url_veya_atif": "https://pleiades.stoa.org/places/736963",
+     "lat": 29.8495,
+     "lon": 31.2551,
+     "not": ""
+    },
+    {
+     "kaynak": "UNESCO WHC 86",
+     "url_veya_atif": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no=%2286%22",
+     "lat": 29.8555,
+     "lon": 31.2610555556,
+     "not": "Site of Memphis"
+    }
+   ],
+   "not": "UNESCO ve Pleiades <1 km."
+  },
+  {
+   "ad": "Pelusion",
+   "durum": "tek_tanik",
+   "lat": 31.0426,
+   "lon": 32.5471,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tell el-Farama (Pelusium)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 727192",
+     "url_veya_atif": "https://pleiades.stoa.org/places/727192",
+     "lat": 31.0426,
+     "lon": 32.5471,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2277773",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2277773",
+     "lat": 31.04259,
+     "lon": 32.53998,
+     "not": " (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    }
+   ],
+   "not": "Tek aile. Polonya-Misir kazisi 'Port Said'in ~30 km GD'si' tarifi uyumlu ama koordinat kaynagi belirsiz."
+  },
+  {
+   "ad": "Hekatompylos",
+   "durum": "cift_tanik",
+   "lat": 35.9617,
+   "lon": 54.0375,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Şehr-i Kumis (Damgan ~30 km batısı)",
+   "ulke_modern": "İran",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer 2110299",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2110299",
+     "lat": 35.961667,
+     "lon": 54.0375,
+     "not": "Shar-e Qumis (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    },
+    {
+     "kaynak": "JRAS 'Problems of Qumis' (ozet)",
+     "url_veya_atif": "https://resolve.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/problems-of-qumis/016B55680987888574EB4FA8DC84902B",
+     "lat": null,
+     "lon": null,
+     "not": "Alan Damgan'in ~30 km batisinda"
+    }
+   ],
+   "not": "Pleiades 942260 koordinati (36.1667,54.35) DAMGAN kentidir, ~30 km sapma: kullanilmadi. TSV ipucu da Damgan. Hekatompylos=Kumis tanimi tartismali -> yaklasik."
+  },
+  {
+   "ad": "Paneion (Banyas)",
+   "durum": "tek_tanik",
+   "lat": 33.2475,
+   "lon": 35.6935,
+   "tur": "kasaba",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Banyas",
+   "ulke_modern": "Suriye (Golan, Israil kontrolunde)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 678324",
+     "url_veya_atif": "https://pleiades.stoa.org/places/678324",
+     "lat": 33.2475,
+     "lon": 35.6935,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2043149",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2043149",
+     "lat": 33.24606,
+     "lon": 35.69283,
+     "not": " (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    }
+   ],
+   "not": "Girdi 5 ile ayni yer; tek aile."
+  },
+  {
+   "ad": "Kadeş",
+   "durum": "tek_tanik",
+   "lat": 34.557,
+   "lon": 36.5194,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tell Nebi Mend (Kadeş)",
+   "ulke_modern": "Suriye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 668291",
+     "url_veya_atif": "https://pleiades.stoa.org/places/668291",
+     "lat": 34.5571,
+     "lon": 36.5194,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2281693",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2281693",
+     "lat": 34.55648,
+     "lon": 36.51838,
+     "not": "Qadish (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    }
+   ],
+   "not": "Tek aile. Humus'un ~24-25 km GB'si tarifi uyumlu ama Wikipedia kokenli; UCL/Parr yayinlarina bakilmadi."
+  },
+  {
+   "ad": "Arpad",
+   "durum": "tek_tanik",
+   "lat": 36.4783,
+   "lon": 37.09,
+   "tur": "kale",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Tell Rifaat (Arpad)",
+   "ulke_modern": "Suriye",
+   "tanik": [
+    {
+     "kaynak": "Seton-Williams, Iraq 23 (1961) ozeti",
+     "url_veya_atif": "https://chloe.cnr.it/s/DHeLO/item/11886",
+     "lat": null,
+     "lon": null,
+     "not": "Aleppo'nun ~35 km kuzeyi, Azaz yolunun ~5 km dogusu"
+    },
+    {
+     "kaynak": "Marefa (Vikipedi turevi, bagimsiz degil)",
+     "url_veya_atif": "https://www.marefa.org/Arpad,_Syria",
+     "lat": 36.4667,
+     "lon": 37.1,
+     "not": ""
+    }
+   ],
+   "not": "TSV ipucu boylami (36.8172) ~20 km YANLIS; dogru ~37.1. iDAI 2321235 koordinatsiz. Akademik tarif tek kaynak -> tek_tanik, ±3 km."
+  },
+  {
+   "ad": "Musasir",
+   "durum": "tek_tanik",
+   "lat": 36.8394,
+   "lon": 44.3033,
+   "tur": "kale",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Mergasur/Mudjesir cevresi (Musasir tartışmalı)",
+   "ulke_modern": "Irak (Kürdistan)",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 126728263",
+     "url_veya_atif": "https://pleiades.stoa.org/places/126728263",
+     "lat": 36.8394,
+     "lon": 44.3033,
+     "not": "Pleiades: Musasir = Mergasur (temkinli)"
+    }
+   ],
+   "not": "Musasir'in yeri kesin degil (Mergasur/Mudjesir; Lynch: Rawandiz; Heidari: Rabat/Sardasht). yaklasik, tek tanik."
+  },
+  {
+   "ad": "Pteria",
+   "durum": "tek_tanik",
+   "lat": 39.749,
+   "lon": 35.0683,
+   "tur": "kale",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Kerkenes Dağ (Şahmuratlı, Sorgun/Yozgat)",
+   "ulke_modern": "Türkiye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 619244",
+     "url_veya_atif": "https://pleiades.stoa.org/places/619244",
+     "lat": 39.749,
+     "lon": 35.0683,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer 2043959",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2043959",
+     "lat": 39.8,
+     "lon": 35.1,
+     "not": " (Pleiades ile ayni veri ailesi; bagimsiz sayilmaz)"
+    }
+   ],
+   "not": "TSV ipucu boylami 35.253 ~15 km yanlis; Kerkenes Sorgun'un ~13 km GB'si ile Pleiades uyumlu. Pteria=Kerkenes TARTISMALI -> yaklasik."
+  },
+  {
+   "ad": "Dur-Untaş (Çoğa Zanbil)",
+   "durum": "cift_tanik",
+   "lat": 32.0086,
+   "lon": 48.5221,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Çoğa Zanbil",
+   "ulke_modern": "İran",
+   "tanik": [
+    {
+     "kaynak": "Pleiades 459393126",
+     "url_veya_atif": "https://pleiades.stoa.org/places/459393126",
+     "lat": 32.0084,
+     "lon": 48.5218,
+     "not": ""
+    },
+    {
+     "kaynak": "UNESCO WHC 113",
+     "url_veya_atif": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/records?where=id_no=%22113%22",
+     "lat": 32.00857,
+     "lon": 48.522118,
+     "not": "Tchogha Zanbil"
+    }
+   ],
+   "not": "UNESCO ve Pleiades <0.1 km."
+  }
+ ]
+}

@@ -1,0 +1,1058 @@
+{
+ "parti": 103,
+ "sonuclar": [
+  {
+   "ad": "Utica",
+   "durum": "tek_tanik",
+   "lat": 37.0558774503,
+   "lon": 10.0600077651,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Utique / Bou Chateur",
+   "ulke_modern": "Tunus",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/315248",
+     "lat": 37.05588,
+     "lon": 10.06001,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2097292",
+     "lat": 37.06667,
+     "lon": 10.06667,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/2464204/",
+     "lat": 37.06667,
+     "lon": 10.06667,
+     "not": ""
+    },
+    {
+     "kaynak": "Vikipedi (yalnız destek)",
+     "url_veya_atif": "https://en.wikipedia.org/wiki/Utica,_Tunisia",
+     "lat": 37.0569,
+     "lon": 10.0619,
+     "not": "tek başına dayanak değil"
+    }
+   ],
+   "not": "Gazetteerlar uyuşuyor ama bağımsız arkeoloji/OSM sit kaydı bulunamadı (OSM yalnız idari birim). gazetteer kümeleri (Pleiades/iDAI/GeoNames/TGN) kısmen birbirini besler; tek tanık sayıldı"
+  },
+  {
+   "ad": "Cannae",
+   "durum": "cift_tanik",
+   "lat": 41.29663,
+   "lon": 16.15153,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Canne della Battaglia",
+   "ulke_modern": "İtalya",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/442523",
+     "lat": 41.29668,
+     "lon": 16.15183,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2345343",
+     "lat": 41.29663,
+     "lon": 16.15153,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/8199647/",
+     "lat": 41.29663,
+     "lon": 16.15153,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7009090",
+     "lat": 41.3,
+     "lon": 16.15,
+     "not": ""
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 41.296607,
+     "lon": 16.151284,
+     "not": "Canne della Battaglia locality"
+    }
+   ],
+   "not": "Yerleşim/arkeolojik alan; savaş meydanı tam yeri tartışmalı ama kasaba-tepe konumu bellidir. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Zama",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Zama Regia (Jama, Siliana)? / başka aday",
+   "ulke_modern": "Tunus",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/315267",
+     "lat": 36.11165,
+     "lon": 9.28599,
+     "not": "Zama Regia şehri"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2771731",
+     "lat": 36.111949,
+     "lon": 9.285609,
+     "not": "Zama Regia"
+    },
+    {
+     "kaynak": "Vikipedi (yalnız destek)",
+     "url_veya_atif": "https://en.wikipedia.org/wiki/Battle_of_Zama",
+     "lat": 36.2989,
+     "lon": 9.4492,
+     "not": "tek başına dayanak değil"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/985266459",
+     "lat": 35.8605,
+     "lon": 9.2057,
+     "not": "Zama Minor adayı"
+    }
+   ],
+   "not": "Zama SAVAŞI meydanı tartışmalı (Zama Regia 36.112/9.286, Vikipedi savaş koord. 36.299/9.449, Zama Minor 35.86/9.21: aralık >30 km). Şehir Zama Regia gazetteerlarda 36.112,9.286 (Pleiades+iDAI+OSM site) olarak sağlam; savaşa bağlanması kaynak-tartışmalı. Karar: cozulemedi; istenirse Zama Regia şehri 36.112,9.286 yaklaşık kullanılabilir."
+  },
+  {
+   "ad": "Veii",
+   "durum": "cift_tanik",
+   "lat": 42.0213,
+   "lon": 12.3905,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Isola Farnese / Veio (Roma)",
+   "ulke_modern": "İtalya",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/423116",
+     "lat": 42.021338,
+     "lon": 12.390519,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2359950",
+     "lat": 42.023,
+     "lon": 12.390417,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/7910549/",
+     "lat": 42.02391,
+     "lon": 12.38983,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7009104",
+     "lat": 42.0333,
+     "lon": 12.4,
+     "not": ""
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 42.021314,
+     "lon": 12.390377,
+     "not": "Parco di Veio, Veio la città e le necropoli panosu"
+    }
+   ],
+   "not": "Pleiades ile OSM panosu birbirine çok yakın. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Cumae (Kyme)",
+   "durum": "cift_tanik",
+   "lat": 40.84795,
+   "lon": 14.05638,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Cuma (Pozzuoli/Bacoli)",
+   "ulke_modern": "İtalya",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/432808",
+     "lat": 40.84794965,
+     "lon": 14.0563813,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2116326",
+     "lat": 40.84953,
+     "lon": 14.05126,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/3177706/",
+     "lat": 40.84953,
+     "lon": 14.05126,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7006931",
+     "lat": 40.8333,
+     "lon": 14,
+     "not": ""
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 40.849131,
+     "lon": 14.054178,
+     "not": "Parco archeologico di Cuma"
+    }
+   ],
+   "not": "Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Himera",
+   "durum": "cift_tanik",
+   "lat": 37.9698,
+   "lon": 13.8223,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Himera, Buonfornello (Termini Imerese)",
+   "ulke_modern": "İtalya",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/462244",
+     "lat": 37.96984,
+     "lon": 13.82234,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2281517",
+     "lat": 37.96667,
+     "lon": 13.86667,
+     "not": "iDAI kaba"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/2524519/",
+     "lat": 37.97364,
+     "lon": 13.82398,
+     "not": ""
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 37.968184,
+     "lon": 13.821414,
+     "not": "Area archeologica di Himera"
+    }
+   ],
+   "not": "Sit Buonfornello'dadır (TSV ipucuyla ~0.2 km). iDAI kaba nokta 4 km. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Selinus",
+   "durum": "cift_tanik",
+   "lat": 37.5883,
+   "lon": 12.8249,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Selinunte (Castelvetrano)",
+   "ulke_modern": "İtalya",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/462489",
+     "lat": 37.58828,
+     "lon": 12.82489,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2345124",
+     "lat": 37.582967,
+     "lon": 12.824505,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/2523164/",
+     "lat": 37.58337,
+     "lon": 12.82522,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7003848",
+     "lat": 37.5833,
+     "lon": 12.8333,
+     "not": ""
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 37.58881,
+     "lon": 12.824458,
+     "not": "Parco Archeologico di Selinunte"
+    }
+   ],
+   "not": "iDAI'deki 'Selinus' 36.3/32.3 (Antalya Selinus) ayrı yer; kullanılmadı. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Thapsus",
+   "durum": "cift_tanik",
+   "lat": 35.6214,
+   "lon": 11.0427,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Ras Dimas / Bekalta (Monastir)",
+   "ulke_modern": "Tunus",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/324827",
+     "lat": 35.62137,
+     "lon": 11.04271,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2120285",
+     "lat": 35.61944,
+     "lon": 11.0399,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/6005912",
+     "lat": 35.6333,
+     "lon": 11.05,
+     "not": ""
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 35.619115,
+     "lon": 11.042405,
+     "not": "Thapsus amfitiyatrosu (OSM ruins)"
+    }
+   ],
+   "not": "Thapsus savaşı (MÖ 46) bu kentin çevresinde; meydan tam yeri yaklaşık. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Sarmizegetusa Regia",
+   "durum": "cift_tanik",
+   "lat": 45.6229,
+   "lon": 23.3104,
+   "tur": "kale",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Grădiștea de Munte (Orăștie Dağları)",
+   "ulke_modern": "Romanya",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2067440",
+     "lat": 45.62289,
+     "lon": 23.31041,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/8134007/",
+     "lat": 45.62289,
+     "lon": 23.31041,
+     "not": ""
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 45.619417,
+     "lon": 23.306635,
+     "not": "Sarmizegetusa Regia attraction"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/207425",
+     "lat": 45.669615,
+     "lon": 23.323961,
+     "not": "Pleiades/TGN 5.4 km kuzey sapma; kullanılmadı"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/8712293",
+     "lat": 45.669615,
+     "lon": 23.323961,
+     "not": "Pleiades türevi"
+    }
+   ],
+   "not": "Pleiades/TGN (45.6696) ~5 km kuzeye kayık; iDAI+GeoNames+OSM 45.619-45.623 kümeleniyor. Önceki tek tanık değeri (45.6696) yerine 45.6229,23.3104 önerilir."
+  },
+  {
+   "ad": "Teutoburg Ormanı (Kalkriese)",
+   "durum": "cift_tanik",
+   "lat": 52.4064,
+   "lon": 8.1286,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Kalkriese (Bramsche)",
+   "ulke_modern": "Almanya",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/98992",
+     "lat": 52.406376,
+     "lon": 8.128578,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2119523",
+     "lat": 52.406236,
+     "lon": 8.130006,
+     "not": "Museum und Park Kalkriese"
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 52.407872,
+     "lon": 8.1260941,
+     "not": "OSM battlefield Varusschlacht"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/2893774/",
+     "lat": 52.40926,
+     "lon": 8.09262,
+     "not": "Kalkriese köyü"
+    }
+   ],
+   "not": "Varus savaşı yeri olarak Kalkriese yaygın kabul görür (arkeolojik buluntular) ama kesin meydan tartışması sürer: yaklasik. Nokta Kalkriese'dir. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Toxandria",
+   "durum": "cozulemedi",
+   "lat": null,
+   "lon": null,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Kempen bölgesi (Kuzey Brabant/Anvers Kempen)",
+   "ulke_modern": "Hollanda/Belçika",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/109385",
+     "lat": 51.0660053694,
+     "lon": 5.41063314302,
+     "not": "Toxiandria; bölge için tek nokta"
+    }
+   ],
+   "not": "Toxandria bir BÖLGE adıdır, nokta değil; Pleiades 51.066/5.411, TSV ipucu 51.5/5.0 (~50 km fark). Bağımsız ikinci tanık yok. cozulemedi."
+  },
+  {
+   "ad": "Tuna (Margus)",
+   "durum": "tek_tanik",
+   "lat": 44.69123,
+   "lon": 21.061748,
+   "tur": "kasaba",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Margum - Morava/Tuna ağzı, Orašje/Dubravica (Požarevac)",
+   "ulke_modern": "Sırbistan",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/207267",
+     "lat": 44.69123,
+     "lon": 21.061748,
+     "not": "Margum"
+    }
+   ],
+   "not": "Margus/Margum Morava-Tuna birleşimi; TSV ipucuna 3.3 km. Pleiades tek tanık; bağımsız ikinci kaynak bulunamadı."
+  },
+  {
+   "ad": "Memphis (Men-nefer / İneb-hedj)",
+   "durum": "cift_tanik",
+   "lat": 29.8495,
+   "lon": 31.2551,
+   "tur": "sehir",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Mit Rahina",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/736963",
+     "lat": 29.849491,
+     "lon": 31.255061,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2042877",
+     "lat": 29.85,
+     "lon": 31.25,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/352127/",
+     "lat": 29.85,
+     "lon": 31.25,
+     "not": ""
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 29.854458,
+     "lon": 31.261518,
+     "not": "Memphis Mit Rahina protected area"
+    }
+   ],
+   "not": "UNESCO Memphis ve nekropolü bölgesi. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Herakleopolis Magna (Henen-nesut)",
+   "durum": "tek_tanik",
+   "lat": 29.0855,
+   "lon": 30.9346,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Ihnasya el-Medine (Beni Suef)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/736920",
+     "lat": 29.0855048,
+     "lon": 30.934575,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2118538",
+     "lat": 29.08333,
+     "lon": 30.93333,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/355953/",
+     "lat": 29.08333,
+     "lon": 30.93333,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7001448",
+     "lat": 29.0895,
+     "lon": 30.9432,
+     "not": ""
+    }
+   ],
+   "not": "Dört gazetteer 1 km içinde. gazetteer kümeleri (Pleiades/iDAI/GeoNames/TGN) kısmen birbirini besler; tek tanık sayıldı. Önceki 'cozulemedi' Pleiades'te 'Herakleopolis' yazımıyla bulunmasındandı."
+  },
+  {
+   "ad": "Itj-tawy",
+   "durum": "tek_tanik",
+   "lat": 29.5675,
+   "lon": 31.2232,
+   "tur": "sehir",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Lisht (el-Lisht) civarı",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/797229144",
+     "lat": 29.5675104,
+     "lon": 31.2232262,
+     "not": "Lisht, related"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/203499429",
+     "lat": 29.5748,
+     "lon": 31.2253,
+     "not": "I. Amenemhat piramidi"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2751360",
+     "lat": 29.6,
+     "lon": 31.2,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/360847/",
+     "lat": 29.56667,
+     "lon": 31.23333,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7001451",
+     "lat": 29.566667,
+     "lon": 31.233333,
+     "not": ""
+    },
+    {
+     "kaynak": "Vikipedi (yalnız destek)",
+     "url_veya_atif": "https://en.wikipedia.org/wiki/Itjtawy",
+     "lat": 29.5703,
+     "lon": 31.2311,
+     "not": "tek başına dayanak değil"
+    }
+   ],
+   "not": "Itj-tawy kenti kazılmamış/konumu kesin değil (Pleiades 760483006 unlocated); Lisht piramit alanı civarı (±3 km). gazetteer kümeleri (Pleiades/iDAI/GeoNames/TGN) kısmen birbirini besler; tek tanık sayıldı"
+  },
+  {
+   "ad": "Avaris / Pi-Ramesse",
+   "durum": "cift_tanik",
+   "lat": 30.7863,
+   "lon": 31.8229,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tell el-Dab'a (Avaris) / Qantir (Pi-Ramesse), ~2.5 km fark",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/727080",
+     "lat": 30.7863139,
+     "lon": 31.8228927,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2042816",
+     "lat": 30.786944,
+     "lon": 31.822778,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7033027",
+     "lat": 30.783,
+     "lon": 31.833,
+     "not": ""
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 30.803283,
+     "lon": 31.838417,
+     "not": "Qantir kasabası (Pi-Ramesse yeri)"
+    },
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/905314398",
+     "lat": 30.80076,
+     "lon": 31.83477,
+     "not": "Pi-Ramesses"
+    }
+   ],
+   "not": "İki çağ yeri birbirine ~2.5 km; tek nokta Tell el-Dab'a. Bağımsız teyit: OSM Qantir. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Şaruhen (Sharuhen)",
+   "durum": "tek_tanik",
+   "lat": 31.467665,
+   "lon": 34.404297,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Tell el-Ajjul (önerilen)",
+   "ulke_modern": "Filistin/Gazze",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/73662437",
+     "lat": 31.467665,
+     "lon": 34.404297,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2751466",
+     "lat": 31.3,
+     "lon": 34.5,
+     "not": "iDAI Scharuhen kaba"
+    }
+   ],
+   "not": "Kimlik tartışmalı (Tell el-Ajjul vs Tell el-Farah Güney 31.28/34.48, ~20 km). Önde gelen öneri Ajjul. Bağımsız tanık yok."
+  },
+  {
+   "ad": "Megiddo (Tel Megiddo)",
+   "durum": "cift_tanik",
+   "lat": 32.5854,
+   "lon": 35.1846,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tel Megiddo",
+   "ulke_modern": "İsrail",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/26356565",
+     "lat": 32.58378,
+     "lon": 35.18373,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2117800",
+     "lat": 32.585499,
+     "lon": 35.184558,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/293357/",
+     "lat": 32.58527,
+     "lon": 35.18437,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7001408",
+     "lat": 32.5833,
+     "lon": 35.1833,
+     "not": ""
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 32.58543,
+     "lon": 35.184186,
+     "not": "Tel Megiddo milli parkı"
+    }
+   ],
+   "not": "UNESCO Biblical Tels. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Kadeş (Qadesh)",
+   "durum": "cift_tanik",
+   "lat": 34.5571,
+   "lon": 36.5194,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tell Nebi Mend",
+   "ulke_modern": "Suriye",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/668291",
+     "lat": 34.5570749,
+     "lon": 36.5193779,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2281693",
+     "lat": 34.55648,
+     "lon": 36.51838,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/168753/",
+     "lat": 34.55648,
+     "lon": 36.51838,
+     "not": ""
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 34.557466,
+     "lon": 36.519567,
+     "not": "Kadeş locality"
+    }
+   ],
+   "not": "TSV ipucu 34.5703 yerine 34.557 (1.5 km). Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Akhetaton (Amarna)",
+   "durum": "cift_tanik",
+   "lat": 27.6441,
+   "lon": 30.8982,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tell el-Amarna",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/149576487",
+     "lat": 27.6440996,
+     "lon": 30.898182,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/347572/",
+     "lat": 27.65971,
+     "lon": 30.90646,
+     "not": "Tall Bani Umran köyü"
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7001195",
+     "lat": 27.659921,
+     "lon": 30.906648,
+     "not": ""
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 27.659703,
+     "lon": 30.903909,
+     "not": "Tell el-Amarna köyü"
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2296218",
+     "lat": 27.7,
+     "lon": 30.9,
+     "not": "kaba"
+    }
+   ],
+   "not": "Pleiades antik şehir merkezi, GeoNames/OSM çağdaş köy: 1.8 km. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Bubastis (Per-Bast)",
+   "durum": "cift_tanik",
+   "lat": 30.5725,
+   "lon": 31.5121,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tell Basta (Zagazig)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2408810",
+     "lat": 30.6,
+     "lon": 31.5,
+     "not": "kaba"
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/358710/",
+     "lat": 30.56694,
+     "lon": 31.51639,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7001287",
+     "lat": 30.566,
+     "lon": 31.516,
+     "not": ""
+    },
+    {
+     "kaynak": "OpenStreetMap (Nominatim) - ayrı veri kümesi",
+     "url_veya_atif": "https://nominatim.openstreetmap.org/",
+     "lat": 30.572242,
+     "lon": 31.512065,
+     "not": "Tell-Basta archaeological_site"
+    }
+   ],
+   "not": "Pleiades CSV'sinde Bubastis girdisi bulunamadı. GeoNames+TGN+OSM site uyuşuyor; TSV ipucuna 0.2 km. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+  },
+  {
+   "ad": "Sais (Sa el-Hagar)",
+   "durum": "tek_tanik",
+   "lat": 30.9612,
+   "lon": 30.768,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Sa el-Hagar (Gharbiya)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/727217",
+     "lat": 30.96124,
+     "lon": 30.76802,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2121930",
+     "lat": 30.96124,
+     "lon": 30.76802,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/349983/",
+     "lat": 30.96124,
+     "lon": 30.76802,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7538752",
+     "lat": 30.961243,
+     "lon": 30.768016,
+     "not": ""
+    },
+    {
+     "kaynak": "Vikipedi (yalnız destek)",
+     "url_veya_atif": "https://en.wikipedia.org/wiki/Sais,_Egypt",
+     "lat": 30.9647,
+     "lon": 30.7683,
+     "not": "tek başına dayanak değil"
+    }
+   ],
+   "not": "TSV ipucundaki enlem/boylam YER DEĞİŞTİRMİŞ (30.7744,30.9671 -> doğrusu 30.9612,30.7680; ~20 km sapma): önceki turda bu yüzden eşleşmedi. gazetteer kümeleri (Pleiades/iDAI/GeoNames/TGN) kısmen birbirini besler; tek tanık sayıldı"
+  },
+  {
+   "ad": "Momemphis",
+   "durum": "tek_tanik",
+   "lat": 30.7951,
+   "lon": 30.6005,
+   "tur": "harabe",
+   "konum_kesinligi": "yaklasik",
+   "esanlam_modern": "Kom el-Hisn (Beheira)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/727165",
+     "lat": 30.795055,
+     "lon": 30.600505,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2042862",
+     "lat": 30.7955,
+     "lon": 30.6004,
+     "not": ""
+    },
+    {
+     "kaynak": "Vikipedi (yalnız destek)",
+     "url_veya_atif": "https://en.wikipedia.org/wiki/Kom_el-Hisn",
+     "lat": 30.7955,
+     "lon": 30.6004,
+     "not": "tek başına dayanak değil"
+    }
+   ],
+   "not": "TSV ipucu enlem/boylam yer değiştirmiş (30.6005,30.7951 -> 30.7951,30.6005). Momemphis=Kom el-Hisn eşleşmesi standart ama kesin değil: yaklasik. gazetteer kümeleri (Pleiades/iDAI/GeoNames/TGN) kısmen birbirini besler; tek tanık sayıldı"
+  },
+  {
+   "ad": "Naukratis",
+   "durum": "tek_tanik",
+   "lat": 30.9005,
+   "lon": 30.5919,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Kom Gi'eif / el-Nibeyra (Beheira)",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/727169",
+     "lat": 30.900508,
+     "lon": 30.5919275,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2042795",
+     "lat": 30.900508,
+     "lon": 30.5919275,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/351274/",
+     "lat": 30.9,
+     "lon": 30.58333,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7001241",
+     "lat": 30.9,
+     "lon": 30.5833,
+     "not": ""
+    },
+    {
+     "kaynak": "Vikipedi (yalnız destek)",
+     "url_veya_atif": "https://en.wikipedia.org/wiki/Naucratis",
+     "lat": 30.9011,
+     "lon": 30.5925,
+     "not": "tek başına dayanak değil"
+    }
+   ],
+   "not": "TSV ipucu enlem/boylam yer değiştirmiş (30.5919,30.9005 -> 30.9005,30.5919). gazetteer kümeleri (Pleiades/iDAI/GeoNames/TGN) kısmen birbirini besler; tek tanık sayıldı"
+  },
+  {
+   "ad": "Pelusium",
+   "durum": "tek_tanik",
+   "lat": 31.0426,
+   "lon": 32.5471,
+   "tur": "harabe",
+   "konum_kesinligi": "kesin",
+   "esanlam_modern": "Tell el-Farama",
+   "ulke_modern": "Mısır",
+   "tanik": [
+    {
+     "kaynak": "Pleiades",
+     "url_veya_atif": "https://pleiades.stoa.org/places/727192",
+     "lat": 31.0426271,
+     "lon": 32.5471045,
+     "not": ""
+    },
+    {
+     "kaynak": "iDAI.gazetteer",
+     "url_veya_atif": "https://gazetteer.dainst.org/place/2277773",
+     "lat": 31.04259,
+     "lon": 32.53998,
+     "not": ""
+    },
+    {
+     "kaynak": "GeoNames",
+     "url_veya_atif": "https://sws.geonames.org/350867/",
+     "lat": 31.04259,
+     "lon": 32.53998,
+     "not": ""
+    },
+    {
+     "kaynak": "Getty TGN",
+     "url_veya_atif": "http://vocab.getty.edu/tgn/7539229",
+     "lat": 31.042591,
+     "lon": 32.539981,
+     "not": ""
+    },
+    {
+     "kaynak": "Vikipedi (yalnız destek)",
+     "url_veya_atif": "https://en.wikipedia.org/wiki/Pelusium",
+     "lat": 31.0417,
+     "lon": 32.545,
+     "not": "tek başına dayanak değil"
+    }
+   ],
+   "not": "Gazetteerlar 0.7 km içinde. gazetteer kümeleri (Pleiades/iDAI/GeoNames/TGN) kısmen birbirini besler; tek tanık sayıldı"
+  }
+ ]
+}

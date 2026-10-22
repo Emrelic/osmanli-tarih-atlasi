@@ -18,6 +18,24 @@
   "dosya": "yerlesimler_once1281_yt_afrika.js"
  },
  {
+  "ad": "Giza",
+  "kronoloji_adi": "Giza",
+  "lat": 29.970055997,
+  "lon": 31.1266822757,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_afrika_levant.js"
+ },
+ {
+  "ad": "Tanis (Cane) (Şān al Ḩajar al Qiblīyah)",
+  "kronoloji_adi": "Tanis (Cane)",
+  "lat": 30.9754528374,
+  "lon": 31.8836195624,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_afrika_levant.js"
+ },
+ {
   "ad": "Mısır",
   "kronoloji_adi": "Mısır",
   "lat": 30.0,
@@ -130,15 +148,6 @@
   "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
  },
  {
-  "ad": "Nīnawā (Mosul)",
-  "kronoloji_adi": "Nīnawā",
-  "lat": 36.3607615238,
-  "lon": 43.1599368897,
-  "devlet_bolgeleri": [],
-  "durum": "etiket_yok",
-  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
- },
- {
   "ad": "Adiabene",
   "kronoloji_adi": "Adiabene",
   "lat": 36.1913213311,
@@ -169,6 +178,76 @@
   "lon": 35.8163535,
   "devlet_bolgeleri": [
    "anadolu"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Apameia (Kibotos) (Dinar)",
+  "kronoloji_adi": "Apameia (Kibotos)",
+  "lat": 38.07007556,
+  "lon": 30.1716213761,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Zela (Zile)",
+  "kronoloji_adi": "Zela",
+  "lat": 40.3038830899,
+  "lon": 35.8901884263,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Issos (Kinet Hoyuk)",
+  "kronoloji_adi": "Issos",
+  "lat": 36.8537,
+  "lon": 36.157,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Gaugamela (Tell Gomel)",
+  "kronoloji_adi": "Gaugamela",
+  "lat": 36.5933,
+  "lon": 43.481,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Karkar (Qarqar) (Tell Qarqur)",
+  "kronoloji_adi": "Karkar (Qarqar)",
+  "lat": 35.7431,
+  "lon": 36.3211,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Meyyâfârikîn (Silvan)",
+  "kronoloji_adi": "Meyyâfârikîn (Silvan)",
+  "lat": 38.1427855,
+  "lon": 41.003257,
+  "devlet_bolgeleri": [
+   "anadolu",
+   "iran",
+   "misir-sudan"
+  ],
+  "durum": "uyumlu",
+  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
+ },
+ {
+  "ad": "Malazgirt (Manzikert)",
+  "kronoloji_adi": "Malazgirt (Manzikert)",
+  "lat": 39.1461,
+  "lon": 42.5409,
+  "devlet_bolgeleri": [
+   "balkanlar",
+   "iran"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
@@ -209,19 +288,6 @@
    "balkanlar",
    "italya",
    "suriye-filistin"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
- },
- {
-  "ad": "Meyyâfârikīn",
-  "kronoloji_adi": "Meyyâfârikīn",
-  "lat": 38.1428,
-  "lon": 41.0033,
-  "devlet_bolgeleri": [
-   "anadolu",
-   "iran",
-   "misir-sudan"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_anadolu_kafkas.js"
@@ -702,6 +768,267 @@
   "dosya": "yerlesimler_once1281_yt_avrupa.js"
  },
  {
+  "ad": "Mikene (Mycenae) (Mikínai)",
+  "kronoloji_adi": "Mikene (Mycenae)",
+  "lat": 37.730456,
+  "lon": 22.756172,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Pylos (Ano Englianos) (Chóra)",
+  "kronoloji_adi": "Pylos (Ano Englianos)",
+  "lat": 37.0271376905,
+  "lon": 21.694962419,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Sparta",
+  "kronoloji_adi": "Sparta",
+  "lat": 37.0817824552,
+  "lon": 22.4246722824,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Tegea (Aléa)",
+  "kronoloji_adi": "Tegea",
+  "lat": 37.455301,
+  "lon": 22.420672,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Megalopolis",
+  "kronoloji_adi": "Megalopolis",
+  "lat": 37.414271211,
+  "lon": 22.1263961621,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Marathon",
+  "kronoloji_adi": "Marathon",
+  "lat": 38.1465515,
+  "lon": 23.970146,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Salamis (boğaz) (Salamína)",
+  "kronoloji_adi": "Salamis (boğaz)",
+  "lat": 37.9487647,
+  "lon": 23.53033145,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Thasos",
+  "kronoloji_adi": "Thasos",
+  "lat": 40.78201,
+  "lon": 24.717535,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Olynthos",
+  "kronoloji_adi": "Olynthos",
+  "lat": 40.295241948,
+  "lon": 23.3542614956,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Pella",
+  "kronoloji_adi": "Pella",
+  "lat": 40.7543596457,
+  "lon": 22.5182247655,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Aigai (Vergina)",
+  "kronoloji_adi": "Aigai (Vergina)",
+  "lat": 40.480092,
+  "lon": 22.321872,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Pydna (Kítros)",
+  "kronoloji_adi": "Pydna",
+  "lat": 40.3975687841,
+  "lon": 22.6149909099,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Delphi",
+  "kronoloji_adi": "Delphi",
+  "lat": 38.482289,
+  "lon": 22.501169,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Numantia (Soria)",
+  "kronoloji_adi": "Numantia",
+  "lat": 41.809388242,
+  "lon": -2.44433338524,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Saguntum (Sagunto)",
+  "kronoloji_adi": "Saguntum",
+  "lat": 39.678125,
+  "lon": -0.2772475,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Ilipa (Alcalá del Río)",
+  "kronoloji_adi": "Ilipa",
+  "lat": 37.518215,
+  "lon": -5.978254,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Sentinum (Sassoferrato)",
+  "kronoloji_adi": "Sentinum",
+  "lat": 43.427013,
+  "lon": 12.855963,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Volsinii (Orvieto)",
+  "kronoloji_adi": "Volsinii",
+  "lat": 42.716449,
+  "lon": 12.111566,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Alalia (Aléria)",
+  "kronoloji_adi": "Alalia",
+  "lat": 42.1009061165,
+  "lon": 9.51017992831,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Aquileia",
+  "kronoloji_adi": "Aquileia",
+  "lat": 45.769631,
+  "lon": 13.370946,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Camulodunum (Colchester)",
+  "kronoloji_adi": "Camulodunum",
+  "lat": 51.8900740264,
+  "lon": 0.901087762674,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Catalaunum (Châlons) (Châlons-en-Champagne)",
+  "kronoloji_adi": "Catalaunum (Châlons)",
+  "lat": 48.9551605,
+  "lon": 4.3606545,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Khaironeia (Chaironeia)",
+  "kronoloji_adi": "Khaironeia",
+  "lat": 38.494,
+  "lon": 22.8412,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Krannon",
+  "kronoloji_adi": "Krannon",
+  "lat": 39.4991,
+  "lon": 22.3041,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Sellasia (Palaiogoulas)",
+  "kronoloji_adi": "Sellasia",
+  "lat": 37.1693,
+  "lon": 22.4406,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Arjona (Arcûne)",
+  "kronoloji_adi": "Arjona (Arcûne)",
+  "lat": 37.93645,
+  "lon": -4.054925,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Santarém (Şenterîn)",
+  "kronoloji_adi": "Santarém (Şenterîn)",
+  "lat": 39.234008303,
+  "lon": -8.67646951485,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Écija (İsticce)",
+  "kronoloji_adi": "Écija (İsticce)",
+  "lat": 37.540932,
+  "lon": -5.079949,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
+  "ad": "Ostia",
+  "kronoloji_adi": "Ostia",
+  "lat": 41.7535757522,
+  "lon": 12.2893574183,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_avrupa.js"
+ },
+ {
   "ad": "Sicilya",
   "kronoloji_adi": "Sicilya",
   "lat": 37.65,
@@ -879,19 +1206,6 @@
   "devlet_bolgeleri": [
    "bati-avrupa",
    "orta-avrupa"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_avrupa.js"
- },
- {
-  "ad": "Kartaca",
-  "kronoloji_adi": "Kartaca",
-  "lat": 36.8531,
-  "lon": 10.3231,
-  "devlet_bolgeleri": [
-   "balkanlar",
-   "bati-avrupa",
-   "kuzey-afrika"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_avrupa.js"
@@ -1120,18 +1434,6 @@
   "lon": -0.7333,
   "devlet_bolgeleri": [
    "bati-avrupa"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_avrupa.js"
- },
- {
-  "ad": "Châlons",
-  "kronoloji_adi": "Châlons",
-  "lat": 48.95393,
-  "lon": 4.36724,
-  "devlet_bolgeleri": [
-   "bati-avrupa",
-   "italya"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_avrupa.js"
@@ -1891,6 +2193,24 @@
   "dosya": "yerlesimler_once1281_yt_ortadogu.js"
  },
  {
+  "ad": "Hekatompylos (Şehr-i Kumis)",
+  "kronoloji_adi": "Hekatompylos",
+  "lat": 35.9617,
+  "lon": 54.0375,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
+  "ad": "Dur-Untaş (Çoğa Zanbil)",
+  "kronoloji_adi": "Dur-Untaş (Çoğa Zanbil)",
+  "lat": 32.0086,
+  "lon": 48.5221,
+  "devlet_bolgeleri": [],
+  "durum": "etiket_yok",
+  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
+ },
+ {
   "ad": "Filistin",
   "kronoloji_adi": "Filistin",
   "lat": 31.93,
@@ -2022,19 +2342,6 @@
    "balkanlar",
    "mezopotamya",
    "misir-sudan"
-  ],
-  "durum": "uyumlu",
-  "dosya": "yerlesimler_once1281_yt_ortadogu.js"
- },
- {
-  "ad": "Petra",
-  "kronoloji_adi": "Petra",
-  "lat": 30.329,
-  "lon": 35.443,
-  "devlet_bolgeleri": [
-   "balkanlar",
-   "italya",
-   "suriye-filistin"
   ],
   "durum": "uyumlu",
   "dosya": "yerlesimler_once1281_yt_ortadogu.js"

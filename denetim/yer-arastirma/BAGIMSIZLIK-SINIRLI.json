@@ -1,5 +1,187 @@
 [
  {
+  "ad": "Tiryns",
+  "lat": 37.5994,
+  "lon": 22.7999,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Knossos",
+  "lat": 35.298,
+  "lon": 25.163,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Messene (Ithome)",
+  "lat": 37.1755,
+  "lon": 21.9202,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Ithome tepesi site'in hemen yaninda. Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Leuktra",
+  "lat": 38.2544,
+  "lon": 23.1821,
+  "dosya": "parti_102_sonuc.json",
+  "not": "MO 371 savas alani tam sahasi kesin degil; koy/yerlesim yaklasik 1-3 km. TGN Pleiades-OSM ile ayni olabilir."
+ },
+ {
+  "ad": "Mantineia",
+  "lat": 37.6173,
+  "lon": 22.3925,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Plataia",
+  "lat": 38.221,
+  "lon": 23.2735,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Sehir yeri kesin; MO 479 savas alaninin tam sahasi Asopos'un guneyinde tartismali ama ~5 km icinde."
+ },
+ {
+  "ad": "Amphipolis",
+  "lat": 40.825,
+  "lon": 23.842,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Memphis",
+  "lat": 29.8495,
+  "lon": 31.2551,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Sikyon",
+  "lat": 37.9838,
+  "lon": 22.7122,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Nikopolis (Lykos ovası)",
+  "lat": 40.1486,
+  "lon": 38.1435,
+  "dosya": "parti_102_sonuc.json",
+  "not": "TSV ipucu Koyulhisar (40.3,37.9) ~30 km uzakta; iki kaynak Purk/Susehri'yi gosterir. Lykos savasi alani ayrica tartismali; bu yalniz kent. Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Emporion",
+  "lat": 42.1334,
+  "lon": 3.1145,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Kartaca (Carthago)",
+  "lat": 36.8531,
+  "lon": 10.3231,
+  "dosya": "parti_102_sonuc.json",
+  "not": "Pleiades ile iDAI/TGN koordinatlari birebir ayni degil (farkli kayit); yine de kismen birbirini besleyebilir."
+ },
+ {
+  "ad": "Cannae",
+  "lat": 41.29663,
+  "lon": 16.15153,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Yerleşim/arkeolojik alan; savaş meydanı tam yeri tartışmalı ama kasaba-tepe konumu bellidir. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Veii",
+  "lat": 42.0213,
+  "lon": 12.3905,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Pleiades ile OSM panosu birbirine çok yakın. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Cumae (Kyme)",
+  "lat": 40.84795,
+  "lon": 14.05638,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Himera",
+  "lat": 37.9698,
+  "lon": 13.8223,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Sit Buonfornello'dadır (TSV ipucuyla ~0.2 km). iDAI kaba nokta 4 km. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Selinus",
+  "lat": 37.5883,
+  "lon": 12.8249,
+  "dosya": "parti_103_sonuc.json",
+  "not": "iDAI'deki 'Selinus' 36.3/32.3 (Antalya Selinus) ayrı yer; kullanılmadı. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Thapsus",
+  "lat": 35.6214,
+  "lon": 11.0427,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Thapsus savaşı (MÖ 46) bu kentin çevresinde; meydan tam yeri yaklaşık. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Sarmizegetusa Regia",
+  "lat": 45.6229,
+  "lon": 23.3104,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Pleiades/TGN (45.6696) ~5 km kuzeye kayık; iDAI+GeoNames+OSM 45.619-45.623 kümeleniyor. Önceki tek tanık değeri (45.6696) yerine 45.6229,23.3104 önerilir."
+ },
+ {
+  "ad": "Teutoburg Ormanı (Kalkriese)",
+  "lat": 52.4064,
+  "lon": 8.1286,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Varus savaşı yeri olarak Kalkriese yaygın kabul görür (arkeolojik buluntular) ama kesin meydan tartışması sürer: yaklasik. Nokta Kalkriese'dir. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Memphis (Men-nefer / İneb-hedj)",
+  "lat": 29.8495,
+  "lon": 31.2551,
+  "dosya": "parti_103_sonuc.json",
+  "not": "UNESCO Memphis ve nekropolü bölgesi. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Avaris / Pi-Ramesse",
+  "lat": 30.7863,
+  "lon": 31.8229,
+  "dosya": "parti_103_sonuc.json",
+  "not": "İki çağ yeri birbirine ~2.5 km; tek nokta Tell el-Dab'a. Bağımsız teyit: OSM Qantir. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Megiddo (Tel Megiddo)",
+  "lat": 32.5854,
+  "lon": 35.1846,
+  "dosya": "parti_103_sonuc.json",
+  "not": "UNESCO Biblical Tels. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Kadeş (Qadesh)",
+  "lat": 34.5571,
+  "lon": 36.5194,
+  "dosya": "parti_103_sonuc.json",
+  "not": "TSV ipucu 34.5703 yerine 34.557 (1.5 km). Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Akhetaton (Amarna)",
+  "lat": 27.6441,
+  "lon": 30.8982,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Pleiades antik şehir merkezi, GeoNames/OSM çağdaş köy: 1.8 km. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
+  "ad": "Bubastis (Per-Bast)",
+  "lat": 30.5725,
+  "lon": 31.5121,
+  "dosya": "parti_103_sonuc.json",
+  "not": "Pleiades CSV'sinde Bubastis girdisi bulunamadı. GeoNames+TGN+OSM site uyuşuyor; TSV ipucuna 0.2 km. Gazetteer + OSM (ayrı veri kümesi) uyuşuyor."
+ },
+ {
   "ad": "Agaune",
   "lat": 46.213,
   "lon": 7.005,

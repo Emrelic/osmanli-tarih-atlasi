@@ -1,0 +1,532 @@
+{
+ "sinif": "antik",
+ "adlar": [
+  {
+   "ad": "Tiryns",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: miken"
+   ],
+   "modern_ad": "Tiryns (Argolis)",
+   "tsv_ipucu_genel_bilgi": [
+    37.6,
+    22.8
+   ],
+   "tek_tanik_koord": {
+    "lat": 37.5992830636,
+    "lon": 22.7999855106,
+    "kaynak": "Pleiades 570740"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Knossos",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: minos"
+   ],
+   "modern_ad": "Knossos (Girit)",
+   "tsv_ipucu_genel_bilgi": [
+    35.3,
+    25.16
+   ],
+   "tek_tanik_koord": {
+    "lat": 35.2980325787,
+    "lon": 25.1628568364,
+    "kaynak": "Pleiades 238779098"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Messene (Ithome)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: sparta"
+   ],
+   "modern_ad": "Mavromati",
+   "tsv_ipucu_genel_bilgi": [
+    37.18,
+    21.92
+   ],
+   "tek_tanik_koord": {
+    "lat": 37.1753043883,
+    "lon": 21.9200475448,
+    "kaynak": "Pleiades 570479"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Leuktra",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: sparta"
+   ],
+   "modern_ad": "Lefktra (Boiotia)",
+   "tsv_ipucu_genel_bilgi": [
+    38.2,
+    23.2
+   ],
+   "tek_tanik_koord": {
+    "lat": 38.2544053,
+    "lon": 23.1821091,
+    "kaynak": "Pleiades 540913"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 6.2 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Mantineia",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: boiotia-birligi"
+   ],
+   "modern_ad": "Mantineia (Arkadia)",
+   "tsv_ipucu_genel_bilgi": [
+    37.62,
+    22.38
+   ],
+   "tek_tanik_koord": {
+    "lat": 37.6173785,
+    "lon": 22.3925775,
+    "kaynak": "Pleiades 570459"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 1.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Plataia",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: atina-demokrasisi"
+   ],
+   "modern_ad": "Plataies",
+   "tsv_ipucu_genel_bilgi": [
+    38.22,
+    23.27
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Amphipolis",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: makedonya-krallik"
+   ],
+   "modern_ad": "Amfipoli",
+   "tsv_ipucu_genel_bilgi": [
+    40.82,
+    23.84
+   ],
+   "tek_tanik_koord": {
+    "lat": 40.8258114808,
+    "lon": 23.8415794323,
+    "kaynak": "Pleiades 501347"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.7 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Khaironeia",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: makedonya-krallik"
+   ],
+   "modern_ad": "Chaironeia",
+   "tsv_ipucu_genel_bilgi": [
+    38.49,
+    22.85
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Krannon",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: atina-demokrasisi"
+   ],
+   "modern_ad": "Krannon (Tesalya)",
+   "tsv_ipucu_genel_bilgi": [
+    39.6,
+    22.4
+   ],
+   "tek_tanik_koord": {
+    "lat": 39.4991145,
+    "lon": 22.304133,
+    "kaynak": "Pleiades 540886"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 13.9 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Granikos",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: iskender-imparatorlugu"
+   ],
+   "modern_ad": "Biga Çayı (Çanakkale)",
+   "tsv_ipucu_genel_bilgi": [
+    40.2,
+    27.3
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Issos",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: iskender-imparatorlugu"
+   ],
+   "modern_ad": "Kinet Höyük / İskenderun Körfezi",
+   "tsv_ipucu_genel_bilgi": [
+    36.8,
+    36.2
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.8536681114,
+    "lon": 36.1570387516,
+    "kaynak": "Pleiades 658490"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 7.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Memphis",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: iskender-imparatorlugu"
+   ],
+   "modern_ad": "Mit Rahine",
+   "tsv_ipucu_genel_bilgi": [
+    29.85,
+    31.25
+   ],
+   "tek_tanik_koord": {
+    "lat": 29.849491,
+    "lon": 31.255061,
+    "kaynak": "Pleiades 736963"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Gaugamela",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: iskender-imparatorlugu"
+   ],
+   "modern_ad": "Tel Gomel (Kuzey Irak)",
+   "tsv_ipucu_genel_bilgi": [
+    36.4,
+    43.3
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Hydaspes (Jhelum) / Taksila",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: iskender-imparatorlugu"
+   ],
+   "modern_ad": "Jhelum / Taxila (Pakistan)",
+   "tsv_ipucu_genel_bilgi": [
+    32.93,
+    73.73
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Triparadeisos",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: antigonos"
+   ],
+   "modern_ad": "Suriye (kesin yer bilinmiyor)",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": {
+    "lat": 34.443566,
+    "lon": 36.594978,
+    "kaynak": "Pleiades 668393"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Gabiene",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: antigonos"
+   ],
+   "modern_ad": "İran (kesin yer bilinmiyor)",
+   "tsv_ipucu_genel_bilgi": [
+    null,
+    null
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Ipsos",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: antigonos"
+   ],
+   "modern_ad": "Afyon-Sipsin yakını (tartışmalı)",
+   "tsv_ipucu_genel_bilgi": [
+    38.6,
+    30.5
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Korupedion",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: lizimakhos"
+   ],
+   "modern_ad": "Lidya (Salihli yakını, tartışmalı)",
+   "tsv_ipucu_genel_bilgi": [
+    38.5,
+    28.0
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Kynoskephalai",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: antigonid-makedonya"
+   ],
+   "modern_ad": "Tesalya (Farsala-Larissa arası)",
+   "tsv_ipucu_genel_bilgi": [
+    39.4,
+    22.5
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Sellasia",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: antigonid-makedonya"
+   ],
+   "modern_ad": "Lakonia (Sellasia)",
+   "tsv_ipucu_genel_bilgi": [
+    37.2,
+    22.4
+   ],
+   "tek_tanik_koord": {
+    "lat": 37.169269,
+    "lon": 22.440604,
+    "kaynak": "Pleiades 570662"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 5.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Sikyon",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: akhaia-birligi"
+   ],
+   "modern_ad": "Sikyon (Korint körfezi)",
+   "tsv_ipucu_genel_bilgi": [
+    37.98,
+    22.72
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Leukopetra",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: akhaia-birligi"
+   ],
+   "modern_ad": "Isthmos yakını",
+   "tsv_ipucu_genel_bilgi": [
+    37.9,
+    22.9
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Nikopolis (Lykos ovası)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: pontus"
+   ],
+   "modern_ad": "Koyulhisar/Sivas",
+   "tsv_ipucu_genel_bilgi": [
+    40.3,
+    37.9
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Emporion",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: roma-cumhuriyeti"
+   ],
+   "modern_ad": "Empúries (Katalonya)",
+   "tsv_ipucu_genel_bilgi": [
+    42.13,
+    3.12
+   ],
+   "tek_tanik_koord": {
+    "lat": 42.13342,
+    "lon": 3.1145495,
+    "kaynak": "Pleiades 246382"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.6 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Kartaca (Carthago)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: kartaca"
+   ],
+   "modern_ad": "Tunus yakını (Kartaca)",
+   "tsv_ipucu_genel_bilgi": [
+    36.85,
+    10.33
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.853056,
+    "lon": 10.323056,
+    "kaynak": "Pleiades 314921"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.7 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  }
+ ]
+}

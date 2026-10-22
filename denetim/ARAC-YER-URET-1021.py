@@ -62,8 +62,11 @@ for f in sorted(glob.glob(os.path.join(KL, "parti_*_sonuc.json")), key=lambda p:
         if (r.get("durum") != "cift_tanik" and not bolge_mi) or r.get("lat") is None:
             rapor["yazilmadi"][r.get("durum", "?")] += 1
             continue
-        if re.search(r"BAĞIMSIZLIK SINIRLI|aynı kaynak ailesi|bağımsız olmayabilir|aynı alttan", (r.get("not") or "") + " " + json.dumps(r.get("tanik", []), ensure_ascii=False), re.I):
+        if re.search(r"BAĞIMSIZLIK SINIRLI|aynı kaynak ailesi|bağımsız olmayabilir|aynı alttan|birbirini besl|gerçek bağımsızlık sınırlı|OpenStreetMap|\bOSM\b|Nominatim", (r.get("not") or "") + " " + json.dumps(r.get("tanik", []), ensure_ascii=False), re.I):
             rapor.setdefault("bagimsizlik_sinirli", []).append({"ad": r["ad"], "lat": r.get("lat"), "lon": r.get("lon"), "dosya": os.path.basename(f), "not": (r.get("not") or "")[:300]})
+            continue
+        if re.search(r"[,/]", re.sub(r"\([^)]*\)", "", r["ad"])) and not bolge_mi:
+            rapor.setdefault("bilesik_ad_yazilmadi", []).append(r["ad"])
             continue
         if r["ad"] in HARIC:
             rapor.setdefault("haric", []).append({"ad": r["ad"], "neden": HARIC[r["ad"]]})

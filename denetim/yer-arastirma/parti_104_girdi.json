@@ -1,0 +1,546 @@
+{
+ "sinif": "antik",
+ "adlar": [
+  {
+   "ad": "Heroonpolis (Pithom çevresi)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: ptolemai, roma-misir"
+   ],
+   "modern_ad": "Tell el-Maskhuta (Vadi Tumilat)",
+   "tsv_ipucu_genel_bilgi": [
+    30.55,
+    32.09
+   ],
+   "tek_tanik_koord": {
+    "lat": 30.5534153618,
+    "lon": 32.0995839765,
+    "kaynak": "Pleiades 727124"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 1.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Meroe",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: kush-krallik"
+   ],
+   "modern_ad": "Begrawiya piramitleri (Sudan)",
+   "tsv_ipucu_genel_bilgi": [
+    16.9373,
+    33.7503
+   ],
+   "tek_tanik_koord": {
+    "lat": 16.9368579733,
+    "lon": 33.7119202261,
+    "kaynak": "Pleiades 805630"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 4.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Pselkis (Dakka)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: kush-krallik, roma-misir"
+   ],
+   "modern_ad": "Dakka (Aşağı Nubya)",
+   "tsv_ipucu_genel_bilgi": [
+    23.1957,
+    32.7494
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Hiera Sykaminos (Maharraqa)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: roma-misir (Roma-Kush sınırı MÖ 21/20 - MS ~298)"
+   ],
+   "modern_ad": "Maharraqa (Aşağı Nubya)",
+   "tsv_ipucu_genel_bilgi": [
+    23.0613,
+    32.7032
+   ],
+   "tek_tanik_koord": {
+    "lat": 23.0613075,
+    "lon": 32.7032325,
+    "kaynak": "Pleiades 795815"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Seleukeia Pieria",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: ptolemai, seleukos"
+   ],
+   "modern_ad": "Çevlik / Samandağ yakını (Hatay)",
+   "tsv_ipucu_genel_bilgi": [
+    36.1217,
+    35.9425
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.1212645,
+    "lon": 35.9285965,
+    "kaynak": "Pleiades 658483"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 1.2 km; Pleiades kümesi 2 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Paneion (Paneas)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: ptolemai, seleukos"
+   ],
+   "modern_ad": "Banyas (Golan eteği)",
+   "tsv_ipucu_genel_bilgi": [
+    33.2475,
+    35.6935
+   ],
+   "tek_tanik_koord": {
+    "lat": 33.2475255,
+    "lon": 35.6934605,
+    "kaynak": "Pleiades 678324"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Aktion (Actium)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: ptolemai (son savaş)"
+   ],
+   "modern_ad": "Aktio / Preveza yakını (Yunanistan)",
+   "tsv_ipucu_genel_bilgi": [
+    39.0277,
+    20.7357
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Eleusis (İskenderiye yakını)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: ptolemai"
+   ],
+   "modern_ad": "İskenderiye doğusu (Nikopolis yakını)",
+   "tsv_ipucu_genel_bilgi": null,
+   "tek_tanik_koord": null,
+   "onceki_durum": "belirsiz",
+   "onceki_not": "TSV koordinatı yok; ad birden çok uzak Pleiades kaydına çözülüyor"
+  },
+  {
+   "ad": "Salamis (Kıbrıs)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: ptolemai"
+   ],
+   "modern_ad": "Famagusta yakını (Atlas'ta Magosa var)",
+   "tsv_ipucu_genel_bilgi": null,
+   "tek_tanik_koord": null,
+   "onceki_durum": "belirsiz",
+   "onceki_not": "TSV koordinatı yok; ad birden çok uzak Pleiades kaydına çözülüyor"
+  },
+  {
+   "ad": "Kaneş (Neşa)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: eski-asur/hitit-eski"
+   ],
+   "modern_ad": "Kültepe (Kayseri)",
+   "tsv_ipucu_genel_bilgi": [
+    38.8514,
+    35.6309
+   ],
+   "tek_tanik_koord": {
+    "lat": 38.8510830725,
+    "lon": 35.6353283545,
+    "kaynak": "Pleiades 628923"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.4 km; Pleiades kümesi 3 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Kalhu (Nimrud)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: orta-asur/yeni-asur"
+   ],
+   "modern_ad": "Nimrud (Musul)",
+   "tsv_ipucu_genel_bilgi": [
+    36.0986,
+    43.3281
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.0999751709,
+    "lon": 43.3315352658,
+    "kaynak": "Pleiades 894019"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Karkemiş",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: hitit-imp/yeni-hitit"
+   ],
+   "modern_ad": "Cerablus (Gaziantep/Halep sınırı)",
+   "tsv_ipucu_genel_bilgi": [
+    36.8283,
+    38.0147
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Karkar (Qarqar)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: yeni-asur"
+   ],
+   "modern_ad": "Tell Qarqur (Hama)",
+   "tsv_ipucu_genel_bilgi": [
+    35.8167,
+    36.3667
+   ],
+   "tek_tanik_koord": {
+    "lat": 35.7420523701,
+    "lon": 36.330799958,
+    "kaynak": "Pleiades 995604669"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 8.9 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Megiddo",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: yahuda"
+   ],
+   "modern_ad": "Tel Megiddo",
+   "tsv_ipucu_genel_bilgi": [
+    32.5851,
+    35.1807
+   ],
+   "tek_tanik_koord": {
+    "lat": 32.5837762667,
+    "lon": 35.1837314847,
+    "kaynak": "Pleiades 26356565"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.3 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Aşkelon",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: filistin-pentapolis"
+   ],
+   "modern_ad": "Aşkelon (İsrail)",
+   "tsv_ipucu_genel_bilgi": [
+    31.6583,
+    34.5469
+   ],
+   "tek_tanik_koord": {
+    "lat": 31.6647972122,
+    "lon": 34.5505214667,
+    "kaynak": "Pleiades 687839"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.8 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Opis",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: yeni-babil"
+   ],
+   "modern_ad": "Dicle kıyısı, Bağdat güneyi (Tell Mohammed?)",
+   "tsv_ipucu_genel_bilgi": [
+    33.1,
+    44.3
+   ],
+   "tek_tanik_koord": {
+    "lat": 33.095178225,
+    "lon": 44.52098595,
+    "kaynak": "Pleiades 894178"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 20.6 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Memfis (Menfe/Mit Rahina)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: yeni-asur/ahamenis-misir"
+   ],
+   "modern_ad": "Mit Rahina (Mısır)",
+   "tsv_ipucu_genel_bilgi": [
+    29.8447,
+    31.2511
+   ],
+   "tek_tanik_koord": {
+    "lat": 29.849491,
+    "lon": 31.255061,
+    "kaynak": "Pleiades 736963"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.7 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Pelusion",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: ahamenis-misir"
+   ],
+   "modern_ad": "Tell el-Farama",
+   "tsv_ipucu_genel_bilgi": [
+    31.0434,
+    32.5469
+   ],
+   "tek_tanik_koord": {
+    "lat": 31.0426270897,
+    "lon": 32.5471045497,
+    "kaynak": "Pleiades 727192"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Hekatompylos",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: part"
+   ],
+   "modern_ad": "Şehr-i Kumis (Damgan)",
+   "tsv_ipucu_genel_bilgi": [
+    36.18,
+    54.37
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.166666,
+    "lon": 54.349998,
+    "kaynak": "Pleiades 942260"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 2.3 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Paneion (Banyas)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: selevkos"
+   ],
+   "modern_ad": "Banyas (Golan)",
+   "tsv_ipucu_genel_bilgi": [
+    33.2481,
+    35.6942
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Kadeş",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: hitit-imp"
+   ],
+   "modern_ad": "Tell Nebi Mend (Humus)",
+   "tsv_ipucu_genel_bilgi": [
+    34.5694,
+    36.5136
+   ],
+   "tek_tanik_koord": {
+    "lat": 34.5570749357,
+    "lon": 36.5193778642,
+    "kaynak": "Pleiades 668291"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 1.5 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Arpad",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: urartu"
+   ],
+   "modern_ad": "Tell Rifaat (Halep)",
+   "tsv_ipucu_genel_bilgi": [
+    36.4806,
+    36.8172
+   ],
+   "tek_tanik_koord": null,
+   "onceki_durum": "cozulemedi",
+   "onceki_not": "Pleiades'te ad eşleşmesi + TSV ipucu ≤25 km yok"
+  },
+  {
+   "ad": "Musasir",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: urartu"
+   ],
+   "modern_ad": "Mudjesir (Irak-İran sınırı)",
+   "tsv_ipucu_genel_bilgi": [
+    36.9,
+    44.4
+   ],
+   "tek_tanik_koord": {
+    "lat": 36.839444,
+    "lon": 44.303333,
+    "kaynak": "Pleiades 126728263"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 10.9 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Pteria",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: lidya"
+   ],
+   "modern_ad": "Kerkenes Dağ? (Yozgat)",
+   "tsv_ipucu_genel_bilgi": [
+    39.749,
+    35.253
+   ],
+   "tek_tanik_koord": {
+    "lat": 39.748976978,
+    "lon": 35.0683124992,
+    "kaynak": "Pleiades 619244"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 15.8 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  },
+  {
+   "ad": "Dur-Untaş (Çoğa Zanbil)",
+   "madde_sayisi": 0,
+   "yil_araligi": [
+    null,
+    null
+   ],
+   "ornek_maddeler": [
+    "KRON-ANTIK listesi; ilgili devlet: elam-orta"
+   ],
+   "modern_ad": "Çoğa Zanbil (Huzistan)",
+   "tsv_ipucu_genel_bilgi": [
+    32.0094,
+    48.5222
+   ],
+   "tek_tanik_koord": {
+    "lat": 32.0083920425,
+    "lon": 48.5217737187,
+    "kaynak": "Pleiades 459393126"
+   },
+   "onceki_durum": "tek_tanik",
+   "onceki_not": "KRON-ANTIK TSV ipucuna 0.1 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). GeoNames adlı yerleşim yok (harabe)."
+  }
+ ]
+}

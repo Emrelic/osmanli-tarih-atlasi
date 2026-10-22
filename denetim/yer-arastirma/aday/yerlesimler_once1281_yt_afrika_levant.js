@@ -5,6 +5,12 @@
 // Mükerrer tarama: normalleştirilmiş ad (30 km) + 3 km. BAĞLAMA YAPILMADI (girdi_listesi/index.html'e dokunulmadı).
 window.YERLESIMLER_ONCE1281_YT_AFRIKA_LEVANT = [
 
+{ ad:"Giza", tur:"sehir", lat:29.970055997, lon:31.1266822757, g:0, k:0, s:[], d:[], bos:"veri-yok",
+  not:"YER-TANIMA: kronolojide Giza adıyla geçer; eski adlar: -; modern: Giza (EG). KRON-ANTIK TSV ipucuna 0.0 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). ",
+  kaynak:"ÇİFT TANIK: Pleiades pleiades.stoa.org/places/442962448 (Giza, sanctuary, cemetery, pyramid, tomb, settlement, architecturalcomplex, precise) (29.970055997, 31.1266822757) · GeoNames geonames.org/360995 (Giza, EG) (30.00944, 31.20861) · denetim/yer-arastirma/parti_101_sonuc.json" },
+{ ad:"Tanis (Cane) (Şān al Ḩajar al Qiblīyah)", tur:"harabe", lat:30.9754528374, lon:31.8836195624, g:0, k:0, s:[], d:[], bos:"veri-yok",
+  not:"YER-TANIMA: kronolojide Tanis (Cane) adıyla geçer; eski adlar: -; modern: Şān al Ḩajar al Qiblīyah (EG). KRON-ANTIK TSV ipucuna 0.4 km; Pleiades kümesi 1 kayıt; TSV koordinatı genel bilgi (tanık değil). ",
+  kaynak:"ÇİFT TANIK: Pleiades pleiades.stoa.org/places/727236 (Tanis, settlement, archaeological-site, findspot, precise) (30.9754528374, 31.8836195624) · GeoNames geonames.org/349653 (Şān al Ḩajar al Qiblīyah, EG) (30.97478, 31.87231) · denetim/yer-arastirma/parti_101_sonuc.json" },
 { ad:"Mısır", tur:"bolge", lat:30.0, lon:31.23, g:0, k:0, s:[], d:[], bos:"veri-yok",
   konum_kesinlik:"bolge",
   not:"YER-TANIMA: kronolojide Mısır adıyla geçer; eski adlar: -; modern: - (Mısır). ",
