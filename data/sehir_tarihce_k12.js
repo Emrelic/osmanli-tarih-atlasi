@@ -1642,6 +1642,165 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "İlk anılış NİCELİĞİ: Cato'nun şehrin kuruluşuna dair gelenek anlatısı (Origines, kayıp eser; yalnız Plinius aracılığıyla Treccani EI'de aktarılıyor); Plinius metni bu oturumda doğrudan açılamadı (thelatinlibrary adresi boş), bu yüzden kaynak Treccani'nin aktarımıdır. Tarih Cato'nun ölüm yılıdır (MÖ 149, güvenli uç); Origines'in yazım yılı belirsiz ('dopo il 168' Treccani). KURULUŞ tarihi bulunamadı (Treccani: preromano buluntular 'non forniscono dati precisi'; Justinus/Strabon/Ptolemaios tarihsiz). Arkeolojik katman bulunamadı. Treccani 'Gallia Cisalpina': Bergomum'un Orumbovii topraklarında koloni olarak düzenlendiği söylenir (tarihsiz). Çift teyit yok. Atlas 1281'de bergamo-komunu ile başlıyor; zincir aynı sahiple bitiyor."
  },
  {
+  "id": "bergen",
+  "ad": "Bergen",
+  "atlas_ad": "Bergen",
+  "lat": 60.393,
+  "lon": 5.324,
+  "kat1900": 2,
+  "adlar": [
+   "Bjørgvin",
+   "Bergen"
+  ],
+  "ilk": {
+   "t": "1070-01-01",
+   "gun": "ca. 1070",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Store norske leksikon, 'Bergen – historie', https://snl.no/Bergen_-_historie (çekildi 22 Eki 2026); Snorri Sturluson, Heimskringla, Saga of Olaf Kyrre (Laing çevirisi), https://sacred-texts.com/neu/heim/11olfkyr.htm",
+   "tanik": "Bergen fikk status som by på Olav Kyrres tid, ifølge senere kilder i år 1070",
+   "ic_not": "Saga (Heimskringla, Laing çevirisi): 'King Olaf founded a merchant town at Bergen'; sagada yıl yok, Olaf Kyrre 1068-1093 (Laing). 1070 SNL'de 'senere kilder' (sonraki kaynaklar) ile veriliyor, SNL zaman çizelgesinde 'cirka 1070' — bu yüzden kesinlik belirsiz. Arkeolojik (Bryggen) tarih bu oturumda açılmadı: bulunamadı."
+  },
+  "kur": {
+   "t": "1070-01-01",
+   "gun": "ca. 1070",
+   "kesinlik": "belirsiz",
+   "kaynak": "Store norske leksikon, 'Bergen – historie', https://snl.no/Bergen_-_historie (çekildi 22 Eki 2026); Snorri Sturluson, Heimskringla, Saga of Olaf Kyrre (Laing çevirisi), https://sacred-texts.com/neu/heim/11olfkyr.htm",
+   "tanik": "King Olaf founded a merchant town at Bergen"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1070-01-01",
+    "t": "1281-01-01",
+    "d": "norvec-kralligi",
+    "kesinlik": "belirsiz",
+    "kaynak": "Snorri Sturluson, Heimskringla, Saga of Olaf Kyrre (Laing çevirisi), https://sacred-texts.com/neu/heim/11olfkyr.htm (Olaf Kyrre 'king of Norway A.D. 1068-1093')",
+    "ic_not": "Kuruluştan atlas başlangıcına aynı sahip (atlas da 1281'de norvec-kralligi): dikişte el değiştirme yok. Bergen krallık merkeziydi (SNL: 'flyttingen av hovedstadsfunksjonene til Oslo i 1299')."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1070-01-01",
+    "gun": "ca. 1070",
+    "k": "kurulus",
+    "b": "Kral Olaf Kyrre Bergen'de ticaret kenti (kaupstaðr) kurar; Hristiyan kilisesi ve piskoposluk temelleri atılır.",
+    "kaynak": "Snorri Sturluson, Heimskringla, Saga of Olaf Kyrre (Laing çevirisi), https://sacred-texts.com/neu/heim/11olfkyr.htm",
+    "tanik": "King Olaf founded a merchant town at Bergen"
+   },
+   {
+    "t": "1163-01-01",
+    "gun": "1163",
+    "k": "diger",
+    "b": "Piskoposluk merkezi Selja'dan Bergen'e taşınır.",
+    "kaynak": "Store norske leksikon, 'Bergen – historie', https://snl.no/Bergen_-_historie (çekildi 22 Eki 2026)",
+    "tanik": "1163 Bispesetet flyttes fra Selja til Bergen"
+   },
+   {
+    "t": "1248-01-01",
+    "gun": "1248",
+    "k": "diger",
+    "b": "Vågen'in doğu yakasında büyük yangın; on bir kilise yok olur.",
+    "kaynak": "Store norske leksikon, 'Bergen – historie', https://snl.no/Bergen_-_historie (çekildi 22 Eki 2026)",
+    "tanik": "1248 Storbrann på østsiden av Vågen; elleve kirker blir ødelagt"
+   },
+   {
+    "t": "1261-01-01",
+    "gun": "1261",
+    "k": "diger",
+    "b": "Håkonshallen, Magnus Lagabøte'nin düğünüyle kullanıma girer.",
+    "kaynak": "Store norske leksikon, 'Bergen – historie', https://snl.no/Bergen_-_historie (çekildi 22 Eki 2026)",
+    "tanik": "1261 Håkonshallen tas i bruk ved Magnus Lagabøtes bryllup"
+   },
+   {
+    "t": "1276-01-01",
+    "gun": "1276",
+    "k": "diger",
+    "b": "Magnus Lagabøte'nin şehir yasası (bylov) kabul edilir.",
+    "kaynak": "Store norske leksikon, 'Bergen – historie', https://snl.no/Bergen_-_historie (çekildi 22 Eki 2026)",
+    "tanik": "1276 Magnus Lagabøtes bylov blir antatt"
+   }
+  ],
+  "ic_not": "Tek ana kaynak SNL + Heimskringla (saga); çift teyit YOK (tarih için). Çift teyit yalnız olgu için: saga ve SNL ikisi de Olaf Kyrre'yi kurucu verir. Norsk biografisk leksikon bu oturumda taranmadı. Kuruluş ile sahiplik 1070-1281 arası aynı sahip olduğundan kopukluk yok. Sahip künyesi norvec-kralligi f=0872 ömrüne uyar."
+ },
+ {
+  "id": "berlin",
+  "ad": "Berlin",
+  "atlas_ad": "Berlin",
+  "lat": 52.52,
+  "lon": 13.405,
+  "kat1900": 1,
+  "adlar": [
+   "Cölln",
+   "Berlin",
+   "Berlin-Cölln"
+  ],
+  "ilk": {
+   "t": "1237-01-01",
+   "gun": "1237",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Berlin.de (Land Berlin resmî portalı), 'Die mittelalterliche Handelsstadt', https://www.berlin.de/geschichte/8476760-3689745-the-medieval-trading-center.html",
+   "tanik": "Cölln wird in diesem Jahr erstmals urkundlich erwähnt, Berlin folgt 1244",
+   "ic_not": "1237 KURULUŞ değil, Cölln'ün (Fischerinsel) İLK ANILIŞI; berlin.de bunu 'resmî kuruluş yılı' sayar. Berlin adı belgede 1244'te. Cölln atlas noktasına (Alexanderplatz çevresi) yakın (~1 km, ölçülmedi — yalnız Mitte ilçesi) ve ikiz kent olarak aynı yerleşim sayıldı. Gün (28 Ekim 1237 iddiası) yalnız popüler bir sitede çıktı: kullanılmadı, yıl hassasiyeti. Arkeolojik 1183 aşağıda 'ark'ta."
+  },
+  "kur": null,
+  "ark": {
+   "t": "1183-01-01",
+   "gun": "1183",
+   "kesinlik": "yil",
+   "kaynak": "Berlin.de (Land Berlin resmî portalı), 'Die mittelalterliche Handelsstadt', https://www.berlin.de/geschichte/8476760-3689745-the-medieval-trading-center.html",
+   "tanik": "Eichenbalken gefunden, der vermutlich bereits aus dem Jahr 1183 stammt"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1237-01-01",
+    "t": "1281-01-01",
+    "d": "almanya",
+    "kesinlik": "yil",
+    "kaynak": "Allgemeine Deutsche Biographie, 'Johann (Markgraf von Brandenburg)', https://www.deutsche-biographie.de/102574472.html (Markgrafen Johann I. ve Otto III., Askanier)",
+    "ic_not": "Fiilî sahip: Brandenburg Markgrafları (Askanier) — Kutsal Roma (almanya künyesi, f=0962) vasalı. ADB: 'Fast alle Städte in diesem Raum, einschließlich Berlin, verdanken ihnen Gründung oder Ausstattung.' Atlas da 1281'de 'almanya' yazar; dikişte değişiklik yok. UYARI: Teltow/Barnim platosunun mülkiyeti 1230-50'lerde Meissen, Magdeburg ve Pomeranya ile çekişmeliydi (ADB: Biese zaferi 1240, barış 1245; Pomeranya dükü 1256'da Teltow/Barnim'i devretti) — bu çelişki ADB'nin kendi metninde; 1237'de Berlin-Cölln'ün Askanier elinde olduğu ADB'nin 'Gründung oder Ausstattung' cümlesiyle dolaylı, doğrudan 1237 tanığı BULUNAMADI. Önerilen künye: brandenburg-markgrafligi (yok) — bu yüzden almanya beyanlı yaklaşıklıktır."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1183-01-01",
+    "gun": "1183",
+    "k": "diger",
+    "b": "Petriplatz kazısında dendrokronolojik 1183 kiriş: yerleşim ilk anılıştan önce.",
+    "kaynak": "Berlin.de (Land Berlin resmî portalı), 'Die mittelalterliche Handelsstadt', https://www.berlin.de/geschichte/8476760-3689745-the-medieval-trading-center.html",
+    "tanik": "Eichenbalken gefunden, der vermutlich bereits aus dem Jahr 1183 stammt"
+   },
+   {
+    "t": "1237-01-01",
+    "gun": "1237",
+    "k": "diger",
+    "b": "Cölln ilk kez belgede anılır.",
+    "kaynak": "Berlin.de (Land Berlin resmî portalı), 'Die mittelalterliche Handelsstadt', https://www.berlin.de/geschichte/8476760-3689745-the-medieval-trading-center.html",
+    "tanik": "Cölln wird in diesem Jahr erstmals urkundlich erwähnt"
+   },
+   {
+    "t": "1244-01-01",
+    "gun": "1244",
+    "k": "diger",
+    "b": "Berlin adı ilk kez belgede anılır.",
+    "kaynak": "Berlin.de (Land Berlin resmî portalı), 'Die mittelalterliche Handelsstadt', https://www.berlin.de/geschichte/8476760-3689745-the-medieval-trading-center.html",
+    "tanik": "Berlin folgt 1244"
+   },
+   {
+    "t": "1280-01-01",
+    "gun": "1280",
+    "k": "diger",
+    "b": "Berlin yeni şehir mührü: ilk kez iki ayı.",
+    "kaynak": "Berlin.de (Land Berlin resmî portalı), 'Die mittelalterliche Handelsstadt', https://www.berlin.de/geschichte/8476760-3689745-the-medieval-trading-center.html",
+    "tanik": "Berlin erhält ein neues Stadtsiegel, auf dem erstmals zwei Bären abgebildet sind"
+   }
+  ],
+  "ic_not": "berlin.de ile entwicklungsstadt.de (popüler, ikinci tanık) aynı 1237/1244 yıllarını verir; BLHA (Schich, Ersterwähnungen) PDF'si 503 verdi, açılamadı: akademik çift teyit YOK. 1171 dendro tarihi (BLHA'dan arama özeti) kaynak sayfası açılamadığı için YAZILMADI."
+ },
+ {
   "id": "bolonya",
   "ad": "Bolonya",
   "atlas_ad": "Bolonya",
@@ -3810,6 +3969,57 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ÜRETİM: Kayıt Roma castrum kuruluşundan (106) başlıyor; castrum 'bugünkü kalenin yerinde' (turism.apulum.ro) ⇒ atlas noktası (46.0678, 23.58) ile <1 km: antik Apulum bu noktaya yazıldı. Sivil Apulum (canabae/Colonia Aurelia Apulensis, Partoş) ve Dakya dönemi AYRI/yakın kayıt gerektirebilir; bu oturumda mesafeleri kaynakta ölçülmedi. PTOLEMAIOS 'Apoulon': Wikipedia modern tanımlama olarak Craiva/Piatra Craivii (~20 km kuzey) der (ikincil, doğrulanmadı) ⇒ Dakya döneminin Apulon'u bu noktaya yazılmadı; önerilen ayrı kayıt: 'Piatra Craivii (Apulon?)'. Ptolemaios'un kendi metni bu oturumda açılamadı (penelope Thayer sayfası boş). MKL: 'Ter-én Kr. e. 2-1. évezredi, kora vaskori erődítményt tártak föl' — yeri ayrıntısız olduğu için ark yazılmadı. DAKYA SAHİPLİĞİ: künye dakya (-0081..0106) bu nokta için kaynaklı tanık bulunamadığı için yazılmadı (ilk.t = 106). ARALIK: 275→896 __BILINMIYOR__ (bkz. sahip[1]); gepid/avar/birinci-bulgar künyeleri bölge düzeyinde TDV tanıklığı olduğu için KULLANILMADI. ATLAS 1281: atlas macaristan 1281-01-01 ile uyumlu; öneri yok. ŞEHİR İLK ANILIŞI (Roma sonrası): MKL 'Gyulafehérvár' adlarını sayar (Bălgrad, Alba Iulia, Weissenburg) ve ilk Orta Çağ tarihi olarak '1002-ig a Gyulák / 1009 piskoposluk' verir; 1009 piskoposluğu MKL'ye göre kesin (Wikipedia/Explore Carpathia ikincil). BULGAR İZİ: MKL 'az első dunai bolgár kagánok idején ismét benépesült' tarihsiz; Bălgrad adının kaynağı (Bulgar/Slav 'beyaz kale') ayrıca doğrulanmadı. Wikipedia/Explore Carpathia tek dayanak olmadığı için hiçbir tarih yalnızca onlardan alınmadı. Kaynak notu: MKL (Magyar Katolikus Lexikon, akademik Macar ansiklopedisi) açıldı; Kristó 'Korai magyar történeti lexikon' açılamadı."
+ },
+ {
+  "id": "helsinki",
+  "ad": "Helsinki",
+  "atlas_ad": "Helsinki",
+  "lat": 60.17,
+  "lon": 24.938,
+  "kat1900": 1,
+  "adlar": [
+   "Helsinge (Forsby, Gammelstaden)",
+   "Helsingfors",
+   "Helsinki"
+  ],
+  "ilk": {
+   "t": "1640-01-01",
+   "gun": "1640",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Store norske leksikon, 'Helsingfors', https://snl.no/Helsinki; Den Store Danske / lex.dk, 'Helsinkis historie' (John Howard Lind, Kopenhag Üni.), https://lex.dk/Helsinkis_historie",
+   "tanik": "hele byanlegget ble derfor flyttet i 1640 noen kilometer mot sørvest",
+   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Helsinki'yi 1550-06-12'de (kur) başlatıyor, oysa 1550'de Gustav Vasa'nın kurduğu şehir Vanda ırmağı ağzında Forsby/Gammelstaden'deydi (SNL: 'byen lå opprinnelig et annet sted'); atlas noktası (60.170, 24.938 = Senatstorget çevresi) şehrin 1640'ta taşındığı yerdir (SNL: 'noen kilometer mot sørvest til området mellom det nåværende Senatstorget og Norra hamnen'; lex.dk: 1640 'flyttedes fra åmundingen (nuv. Gammelstaden) til sit nuværende centrum'). Eski şehre mesafe bu oturumda ölçülmedi, kaynak 'birkaç km' der; VERI-YAPISI '>3 km eski yer burada yazılmaz' kuralı uygulandı: modern nokta 1640'tan başlar, eski şehir ayrı kayıt olarak önerilir (Vanhakaupunki / Gamla Helsingfors). 1640 çift teyit: SNL (R. Pihl) + lex.dk (J. H. Lind). 1640 öncesi bu noktada (Vironniemi/Estnäs) yerleşim tanığı BULUNAMADI."
+  },
+  "kur": {
+   "t": "1640-01-01",
+   "gun": "1640",
+   "kesinlik": "yil",
+   "kaynak": "Store norske leksikon, 'Helsingfors', https://snl.no/Helsinki; Den Store Danske / lex.dk, 'Helsinkis historie' (John Howard Lind, Kopenhag Üni.), https://lex.dk/Helsinkis_historie",
+   "tanik": "hele byanlegget ble derfor flyttet i 1640 noen kilometer mot sørvest"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1550-01-01",
+    "gun": "1550",
+    "k": "kurulus",
+    "b": "Gustav Vasa Helsingfors'u Vanda ağzında (eski şehir, Forsby) Hansa ticaretine rakip olarak kurar; atlas bu tarihi modern noktaya bağlamış.",
+    "kaynak": "Den Store Danske / lex.dk, 'Helsinkis historie' (John Howard Lind, Kopenhag Üni.), https://lex.dk/Helsinkis_historie",
+    "tanik": "Helsinki blev grundlagt af Gustav 1. Vasa i 1550"
+   },
+   {
+    "t": "1640-01-01",
+    "gun": "1640",
+    "k": "diger",
+    "b": "Şehir açık deniz erişimi için eski yerden bugünkü merkeze taşınır.",
+    "kaynak": "Store norske leksikon, 'Helsingfors', https://snl.no/Helsinki",
+    "tanik": "ble derfor flyttet i 1640 noen kilometer mot sørvest"
+   }
+  ],
+  "ic_not": "1281 öncesi zincir YOK: şehir yok. sahip=[] kasıtlı (denetim 'atlas başlangıcı düzeltilmeli' uyarısı verir — bu uyarı doğrudur)."
  },
  {
   "id": "hemedan",
@@ -6005,6 +6215,106 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ATLAS: Köhne Ürgenç ilk sahip gazneli 1017-05-30 ✔ (hicrî 408 ∩ 1017 ilk günü; TDV). Bu kayıt atlasın \"Me'mûnîler BOYALAR'da yok\" borcunu karşılar: memuni-harezm künyesi var (0995-02-05 – 1017-05-30), boyası YOK. AÇIK: Afrigoğulları (Kâs merkezli yerli hânedan, 305-995) Gürgenç'in kendi sahibi değil — TDV Harezm'e göre Kâs merkezli hârizmşah; Gürgenç Arap/Sâmânî valiliği. TDV iç çelişkisi (bu dilimle ilgisiz, beyan): Cuci md. Gürgenç'in yakılışını 1222 verir, Gürgenç/Harezm md. 1221 (Safer 618/Nisan 1221) — atlas 1221 ✔."
+ },
+ {
+  "id": "kopenhag",
+  "ad": "Kopenhag",
+  "atlas_ad": "Kopenhag",
+  "lat": 55.6782,
+  "lon": 12.5656,
+  "kat1900": 1,
+  "adlar": [
+   "Havn",
+   "Køpmannæhafn",
+   "København"
+  ],
+  "ilk": {
+   "t": "1186-01-01",
+   "gun": "1186",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Den Store Danske / lex.dk, 'København – historie', https://lex.dk/K%C3%B8benhavn_-_historie",
+   "tanik": "Den ældste skriftlige kilde, der omtaler København, er et brev fra pave Urban 3.",
+   "ic_not": "Papa III. Urban'ın 1186 mektubu: Piskopos Absalon'un, Kral I. Valdemar'dan 'Hafn' kalesi ve şehrini aldığı teyit edilir. İLK ANILIŞ — kuruluş değil. Saxo'ya göre Absalon 1167'de Strandholmen'de kale yaptırmaya başladı; lex.dk Saxo'nun 'tvetydig' olduğunu, 1167'den önce kale olup olmadığının bilinmediğini yazar. Gün yok (yalnız yıl)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "1020-01-01",
+   "gun": "1020-1050",
+   "kesinlik": "belirsiz",
+   "kaynak": "Den Store Danske / lex.dk, 'København – historie', https://lex.dk/K%C3%B8benhavn_-_historie",
+   "tanik": "kan tidsfæste gravene til mellem 1020-1050"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1186-01-01",
+    "t": "1281-01-01",
+    "d": "danimarka",
+    "kesinlik": "yil",
+    "kaynak": "Den Store Danske / lex.dk, 'København – historie', https://lex.dk/K%C3%B8benhavn_-_historie (Absalon'a verilen 'borgen Hafn' Kral I. Valdemar'dan)",
+    "ic_not": "Kral I. Valdemar şehri Piskopos Absalon'a vermiştir; Absalon ölümünde Roskilde Piskoposluğu'na kalır (lex.dk, 1186 mektubu). Şehir fiilen Roskilde piskoposunun mülkü ama Danimarka Krallığı içinde (1254 ve 1294 şehir yasaları piskoposundur). Atlas da 1281'de 'danimarka' yazar: dikişte değişiklik yok. Piskoposluk yönetimi ayrı künye olarak açılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1020-01-01",
+    "gun": "1020-1050",
+    "k": "diger",
+    "b": "Rådhuspladsen kazısında bulunan kilise mezarlığı mezarları 1020-1050 arasına tarihlenir (ilk kilise: St. Clemens, 1000'ler).",
+    "kaynak": "Den Store Danske / lex.dk, 'København – historie', https://lex.dk/K%C3%B8benhavn_-_historie",
+    "tanik": "kan tidsfæste gravene til mellem 1020-1050"
+   },
+   {
+    "t": "1167-01-01",
+    "gun": "1167",
+    "k": "diger",
+    "b": "Absalon Strandholmen'de kale (Absalons Borg) inşasına başlar.",
+    "kaynak": "Den Store Danske / lex.dk, 'København – historie', https://lex.dk/K%C3%B8benhavn_-_historie",
+    "tanik": "Absalon startede byggeriet af en borg på Strandholmen"
+   },
+   {
+    "t": "1186-01-01",
+    "gun": "1186",
+    "k": "diger",
+    "b": "Papa III. Urban mektubuyla Hafn kalesi ve şehrinin Absalon'a ait olduğunu teyit eder: şehrin en eski yazılı anılışı.",
+    "kaynak": "Den Store Danske / lex.dk, 'København – historie', https://lex.dk/K%C3%B8benhavn_-_historie",
+    "tanik": "Den ældste skriftlige kilde, der omtaler København, er et brev fra pave Urban 3."
+   },
+   {
+    "t": "1209-01-01",
+    "gun": "1209",
+    "k": "diger",
+    "b": "Vor Frue Kirke kutsanır; kent kilisenin çevresinde büyür.",
+    "kaynak": "Den Store Danske / lex.dk, 'København – historie', https://lex.dk/K%C3%B8benhavn_-_historie",
+    "tanik": "Vor Frue Kirke blev indviet i 1209"
+   },
+   {
+    "t": "1238-01-01",
+    "gun": "1238",
+    "k": "diger",
+    "b": "Gråbrødrekloster (Fransiskan manastırı) kurulur.",
+    "kaynak": "Den Store Danske / lex.dk, 'København – historie', https://lex.dk/K%C3%B8benhavn_-_historie",
+    "tanik": "det store Gråbrødrekloster oprettedes i 1238"
+   },
+   {
+    "t": "1254-01-01",
+    "gun": "1254",
+    "k": "antlasma",
+    "b": "Piskopos Jakob Erlandsen'in şehir yasası (stadsret): piskopos ile burgerler arası sözleşme.",
+    "kaynak": "Den Store Danske / lex.dk, 'København – historie', https://lex.dk/K%C3%B8benhavn_-_historie",
+    "tanik": "I biskop Jakob Erlandsens stadsret fra 1254"
+   },
+   {
+    "t": "1259-01-01",
+    "gun": "1259",
+    "k": "fetih",
+    "b": "Kral I. Christoffer Kopenhag'ı işgal eder; aynı yıl piskoposun vasalı Rügen Prensi II. Jarimar şehre saldırır.",
+    "kaynak": "Den Store Danske / lex.dk, 'København – historie', https://lex.dk/K%C3%B8benhavn_-_historie",
+    "tanik": "I 1259 besatte Christoffer 1. København"
+   }
+  ],
+  "ic_not": "Tek akademik/ansiklopedik kaynak: lex.dk (Den Store Danske). Dansk biografisk leksikon ve Saxo'nun kendi metni bu oturumda açılmadı: 1043 'Havn' iddiasına (Saxo) tanık BULUNAMADI. Kopenhag'ın 1186 öncesi sahibi için yazılı tanık yok; zincir ilk anılıştan başlar. Ark 1020-1050, ilk yazılı tanıktan 140 yıl önce bir yerleşime işaret eder ama yazılı tanık varlığından 'ark' esas alınmadı (kural)."
  },
  {
   "id": "krakov",
@@ -8781,6 +9091,120 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Çift teyit yok. Naniwa'nın 710 geçişi Osaka'ya özgü değil (Nara başkenti geçişi); Nara dönemi Naniwa-kyō (Shōmu, 726-734) aynı yerde yeniden kuruldu (Nipponica: «726年（神亀3）10月 造営に着手され734年（天平6）ころ完成»), ayrıca olay yazılmadı."
  },
  {
+  "id": "oslo",
+  "ad": "Oslo",
+  "atlas_ad": "Oslo",
+  "lat": 59.913,
+  "lon": 10.752,
+  "kat1900": 1,
+  "adlar": [
+   "Ósló / Opslo",
+   "Oslo",
+   "Christiania (1624-1925)"
+  ],
+  "ilk": {
+   "t": "1048-01-01",
+   "gun": "ca. 1048",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Store norske leksikon, 'Oslo – historie' (Tor Fr. Rasmussen, Knut Are Tvedt), https://snl.no/Oslo_-_historie; Snorri Sturluson, Heimskringla, Saga of Harald Hardrade (Laing çevirisi), https://sacred-texts.com/neu/heim/10harald.htm, böl. 60",
+   "tanik": "King Harald had built a merchant town in the East at Oslo",
+   "ic_not": "Saga Harald Hardråde'nin Oslo'da ticaret kenti kurduğunu söyler ama yıl vermez. 1048 yılı P. A. Munch'un (19. yy) tarihlemesidir (SNL: 'Peter Andreas Munch tidfestet denne begivenheten til 1048'); SNL zaman çizelgesi 'cirka 1050'. Kuruluş tanığı saga, yıl 19. yy tarihlemesi: bu yüzden belirsiz. Arkeoloji (aşağıdaki ark) daha eski, ca. 1000'den kentsel iskân gösterir. Yazılı tanık varlığından ilk=kuruluş (1048) seçildi, arkeolojik 1000 'ark'ta ve bu iki tarih arasındaki ~48 yıl çelişkisi beyan edilir (arkeoloji ilk kuruluştan önce kentsel doku bulduğu için saga tarihi sınırlayıcı değildir). Yer: Gamlebyen (Bjørvika), atlas noktasına yakın (~1-2 km, ölçülmedi)."
+  },
+  "kur": {
+   "t": "1048-01-01",
+   "gun": "ca. 1048",
+   "kesinlik": "belirsiz",
+   "kaynak": "Store norske leksikon, 'Oslo – historie' (Tor Fr. Rasmussen, Knut Are Tvedt), https://snl.no/Oslo_-_historie; Snorri Sturluson, Heimskringla, Saga of Harald Hardrade (Laing çevirisi), https://sacred-texts.com/neu/heim/10harald.htm, böl. 60",
+   "tanik": "King Harald had built a merchant town in the East at Oslo"
+  },
+  "ark": {
+   "t": "1000-01-01",
+   "gun": "ca. 1000",
+   "kesinlik": "yil",
+   "kaynak": "Store norske leksikon, 'Oslo – historie' (Tor Fr. Rasmussen, Knut Are Tvedt), https://snl.no/Oslo_-_historie",
+   "tanik": "bymessig bebyggelse fra ca. år 1000"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1048-01-01",
+    "t": "1281-01-01",
+    "d": "norvec-kralligi",
+    "kesinlik": "belirsiz",
+    "kaynak": "Snorri Sturluson, Heimskringla, Saga of Harald Hardrade (Laing çevirisi), https://sacred-texts.com/neu/heim/10harald.htm, böl. 60 (Harald Hardråde Norveç kralı, şehirde oturur)",
+    "ic_not": "Kuruluştan atlas başlangıcına aynı sahip (atlas da 1281 norvec-kralligi): dikişte değişiklik yok. 1299'da Oslo rikshovedstad olur (SNL), 1281 sonrası."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1000-01-01",
+    "gun": "ca. 1000",
+    "k": "diger",
+    "b": "Kentsel yerleşimin ilk izleri; ilk St. Clemens kilisesi.",
+    "kaynak": "Store norske leksikon, 'Oslo – historie' (Tor Fr. Rasmussen, Knut Are Tvedt), https://snl.no/Oslo_-_historie",
+    "tanik": "cirka 1000 De første spor av bymessig bebyggelse"
+   },
+   {
+    "t": "1048-01-01",
+    "gun": "ca. 1048",
+    "k": "kurulus",
+    "b": "Harald Hardråde, Oslo'da ticaret kenti kurar (saga; yıl Munch tarihlemesi).",
+    "kaynak": "Snorri Sturluson, Heimskringla, Saga of Harald Hardrade (Laing çevirisi), https://sacred-texts.com/neu/heim/10harald.htm, böl. 60",
+    "tanik": "King Harald had built a merchant town in the East at Oslo"
+   },
+   {
+    "t": "1070-01-01",
+    "gun": "ca. 1070",
+    "k": "diger",
+    "b": "Oslo piskoposluk merkezi olur.",
+    "kaynak": "Store norske leksikon, 'Oslo – historie' (Tor Fr. Rasmussen, Knut Are Tvedt), https://snl.no/Oslo_-_historie",
+    "tanik": "cirka 1070 Oslo bispesete opprettes"
+   },
+   {
+    "t": "1147-01-01",
+    "gun": "1147",
+    "k": "diger",
+    "b": "Hovedøya manastırı kurulur.",
+    "kaynak": "Store norske leksikon, 'Oslo – historie' (Tor Fr. Rasmussen, Knut Are Tvedt), https://snl.no/Oslo_-_historie",
+    "tanik": "1147 Hovedøya kloster anlegges"
+   },
+   {
+    "t": "1161-01-01",
+    "gun": "1161",
+    "k": "diger",
+    "b": "Kral Inge Krokrygg Ekeberg altında buzda Håkon Herdebreid'e karşı savaşta ölür.",
+    "kaynak": "Store norske leksikon, 'Oslo – historie' (Tor Fr. Rasmussen, Knut Are Tvedt), https://snl.no/Oslo_-_historie",
+    "tanik": "1161 Inge Krokrygg faller i kamp mot Håkon Herdebreid på isen under Ekeberg"
+   },
+   {
+    "t": "1223-01-01",
+    "gun": "1223",
+    "k": "diger",
+    "b": "Şehir yangını; kraliyet çiftliği yanar.",
+    "kaynak": "Store norske leksikon, 'Oslo – historie' (Tor Fr. Rasmussen, Knut Are Tvedt), https://snl.no/Oslo_-_historie",
+    "tanik": "1223 Bybrann; kongsgården nedbrent"
+   },
+   {
+    "t": "1240-01-01",
+    "gun": "1240",
+    "k": "diger",
+    "b": "Håkon Håkonsson ile Dük Skule arasında çatışma.",
+    "kaynak": "Store norske leksikon, 'Oslo – historie' (Tor Fr. Rasmussen, Knut Are Tvedt), https://snl.no/Oslo_-_historie",
+    "tanik": "1240 Kamp mellom Håkon Håkonsson og hertug Skule"
+   },
+   {
+    "t": "1254-01-01",
+    "gun": "1254",
+    "k": "diger",
+    "b": "Yeni şehir yangını.",
+    "kaynak": "Store norske leksikon, 'Oslo – historie' (Tor Fr. Rasmussen, Knut Are Tvedt), https://snl.no/Oslo_-_historie",
+    "tanik": "1254 Ny bybrann; kongsgården brenner på ny"
+   }
+  ],
+  "ic_not": "Çift teyit (olgu): saga (Laing çevirisi) + SNL; yıl için saga tarih vermez. Norsk biografisk leksikon ve Nedkvitne & Norseng (2000) bu oturumda açılmadı. Hallvard / Opslo ad biçimleri sagadan değil SNL'den; Old Norse metin heimskringla.no 508 verdi, açılamadı."
+ },
+ {
   "id": "pamplona",
   "ad": "Pamplona",
   "atlas_ad": "Pamplona",
@@ -9635,6 +10059,161 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "KAYNAK: Iranica (tam tarayıcı başlığıyla curl'le okundu) + TDV Revan/Gürcistan/Celâleddin/İlhanlılar; Wikipedia \"Yerevan\" yalnız ikinci tanık. Revan'ın 607-1225 zinciri zayıf: Erevan'a özgü sahiplik tanığı yok, iki uzun BOŞLUK/abi-merkez dönemi beyanlıdır. TDV: \"Şehrin Ortaçağ'lara kadarki tarihi hakkında bilgi yoktur ... süreklilik gösteren yerleşimin XII-XIII. yüzyıllarda gerçekleşmiş olması mümkündür.\" ATLAS ÖNERİSİ: atlas 1281'de ilhanli ile açıyor; 1281 öncesinde yerleşimin Erevan olarak sürekliliği (Akopyan) tartışmalı. kat1900=2 (Erivan guberniyası merkezi, 1900 listesi)."
+ },
+ {
+  "id": "reykjavik",
+  "ad": "Reykjavík",
+  "atlas_ad": "Reykjavík",
+  "lat": 64.1466,
+  "lon": -21.9426,
+  "kat1900": 2,
+  "adlar": [
+   "Reykjavík"
+  ],
+  "ilk": {
+   "t": "0874-01-01",
+   "gun": "874",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Ari Þorgilsson, Íslendingabók (Wikisource metni), https://is.wikisource.org/wiki/%C3%8Dslendingab%C3%B3k; Norsk biografisk leksikon / Store norske leksikon, 'Ingolv Arnesson', https://snl.no/Ingolv_Arnesson",
+   "tanik": "Hann byggði suðr í Reykjarvík.",
+   "ic_not": "Íslendingabók: Ingólfr Arnarson Reykjavík'e yerleşti ('Hann byggði suðr í Reykjarvík'). Yıl çelişkisi: Ari/Íslendingabók'a göre 870, Landnámabók'a göre 874 (NBL/SNL: 'Landnámabók tidfester landnåmet til 874'; 'Dateringen i Íslendingabók (870) er likevel best begrunnet'). Aralıkta güvenli uç alındı = 874 (kural). Landnámabók ve Íslendingabók'ın kendisi geleneksel/yazılı gelenektir; arkeoloji 871±2 (Aðalstræti, tephra) arama özetinden biliniyor ama kaynak sayfası açılamadı (timarit.is 403, borgarsogusafn 404): ark BOŞ bırakıldı. NBL: 'Utgravninger ... hustufter ... under et askelag ... 898' (eski kazı, 898 öncesi iskân) bu oturumda okundu."
+  },
+  "kur": {
+   "t": "0874-01-01",
+   "gun": "874",
+   "kesinlik": "yil",
+   "kaynak": "Ari Þorgilsson, Íslendingabók (Wikisource metni), https://is.wikisource.org/wiki/%C3%8Dslendingab%C3%B3k; Norsk biografisk leksikon / Store norske leksikon, 'Ingolv Arnesson', https://snl.no/Ingolv_Arnesson",
+   "tanik": "Hann byggði suðr í Reykjarvík."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0874-01-01",
+    "t": "0930-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Ari Þorgilsson, Íslendingabók (Wikisource metni), https://is.wikisource.org/wiki/%C3%8Dslendingab%C3%B3k (böl. 2-3: Úlfljótr yasaları, Althing'den önce yerel Kjalarnes Thing'i)",
+    "ic_not": "Landnám dönemi: Norveç'ten gelen yerleşimciler, merkezî devlet yok; Althing'den (930) önce yalnız Kjalarnes thing'i (Þorsteinn Ingólfsson, Íslendingabók böl. 3). Norveç Krallığı'na bağlılık tanığı YOK; künye açılabilecek bir yapı bulunamadı. Beyanlı boşluk, boşluk-doldurma merdiveni basamak ③-④ yapılmadı (Norveç tabiiyetini gösteren kaynak yok)."
+   },
+   {
+    "f": "0930-01-01",
+    "t": "1262-01-01",
+    "d": "izlanda-serbest-devleti",
+    "kesinlik": "yil",
+    "kaynak": "Store norske leksikon, 'Islands historie', https://snl.no/Islands_historie ('fristatstiden (930–1262)'); Ari Þorgilsson, Íslendingabók (Wikisource metni), https://is.wikisource.org/wiki/%C3%8Dslendingab%C3%B3k (Althing)",
+    "ic_not": "Künye izlanda-serbest-devleti f=0930, t=1262 ile birebir. 930: Íslendingabók Hrafn'ın lögsögumaður olmasını Eadmund'un ölümünden (870) '60 yıl' sonra verir; SNL 930 verir."
+   },
+   {
+    "f": "1262-01-01",
+    "t": "1281-01-01",
+    "d": "norvec-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "Store norske leksikon, 'Gamli sáttmáli' (Helge Salvesen, UiT), https://snl.no/Gamli_s%C3%A1ttm%C3%A1li",
+    "ic_not": "Gamli sáttmáli 1262: Norveç Kralı Håkon Håkonsson'a bağlılık, vergi. SNL Islands historie: bağlanma '1261-1264' arasında. Güneybatı için 1262 künye ömrüyle alındı. Alternatif künye: izlanda-norvec-danimarka (f=1262, t=1918); atlas 1281'de norvec-kralligi yazdığından aynı kimlik korundu."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0874-01-01",
+    "gun": "874",
+    "k": "kurulus",
+    "b": "Ingólfr Arnarson Reykjavík'te yerleşir (874 Landnámabók; Íslendingabók 870).",
+    "kaynak": "Ari Þorgilsson, Íslendingabók (Wikisource metni), https://is.wikisource.org/wiki/%C3%8Dslendingab%C3%B3k",
+    "tanik": "Hann byggði suðr í Reykjarvík."
+   },
+   {
+    "t": "0930-01-01",
+    "gun": "930",
+    "k": "kurulus",
+    "b": "Althing kurulur; İzlanda Serbest Devleti başlar (yıl SNL'den; saga yıl vermez, Kjalarnes thing'inin yerini alır).",
+    "kaynak": "Store norske leksikon, 'Islands historie', https://snl.no/Islands_historie; Ari Þorgilsson, Íslendingabók (Wikisource metni), https://is.wikisource.org/wiki/%C3%8Dslendingab%C3%B3k",
+    "tanik": "Alþingi var sett at ráði Úlfljóts ok allra landsmanna"
+   },
+   {
+    "t": "1262-01-01",
+    "gun": "1262",
+    "k": "antlasma",
+    "b": "Gamli sáttmáli: İzlandalılar Norveç Kralı Håkon Håkonsson'a bağlanır; Serbest Devlet biter.",
+    "kaynak": "Store norske leksikon, 'Gamli sáttmáli' (Helge Salvesen, UiT), https://snl.no/Gamli_s%C3%A1ttm%C3%A1li",
+    "tanik": "Gamli sáttmáli er en avtale fra 1262 mellom islendingene og den norske konge"
+   }
+  ],
+  "ic_not": "Atlas Reykjavík'i 1281'de norvec-kralligi ile başlatır; 1262-1281 arası dikişsiz. Reykjavík 874'te tek çiftlik (Ingólfr'ün çiftliği); 'şehir' olarak 18. yy'da büyüdü. 1262 günü: SNL sadece yıl verir. İzlanda Yıllıkları ve Gamli sáttmáli'nin metni bu oturumda açılmadı."
+ },
+ {
+  "id": "riga",
+  "ad": "Riga",
+  "atlas_ad": "Riga",
+  "lat": 56.949,
+  "lon": 24.105,
+  "kat1900": 2,
+  "adlar": [
+   "Rīdzene (Liv yerleşimi)",
+   "Riga"
+  ],
+  "ilk": {
+   "t": "1201-01-01",
+   "gun": "1201",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Zirne & Lūsēna 2025, 'Archaeological Heritage in the Historic Centre of Riga', Internet Archaeology 70, https://doi.org/10.11141/ia.70.4; Henry of Livonia, Chronicle (Brundage çevirisi, Univ. of Wisconsin Press 1961), archive.org chronicle-of-henry-of-livonia-1961, tam metin",
+   "tanik": "Bishop Alberts founded Riga in 1201 as the episcopal seat",
+   "ic_not": "Riga, Piskopos Albert tarafından kuruldu (Henry of Livonia). Yıl: Zirne & Lūsēna 2025 → 1201; Brundage çevirisi (1961, giriş) 'founded in 1200, ... on the site of an earlier Livonian [settlement]' diyor — 1200 ile 1201 çelişkisi iki kaynağıyla BEYAN: 1201 (Internet Archaeology 70, 2025) ve 1200 (Brundage 1961 girişi). Letonya'da kabul edilen 1201'i Henry'nin kronolojisine A. Hansen 1857'de oturtmuş; 1198 ve 1202 alternatifleri tartışılıyor (arama özeti, kaynak sayfası vestnesis.lv açılamadı). Seçilen: 1201. Öncesinde Liv yerleşimi (Zirne & Lūsēna: 11.-12. yy'da Rīdzene ağzında iki yerleşim+mezarlık) → ark."
+  },
+  "kur": {
+   "t": "1201-01-01",
+   "gun": "1201",
+   "kesinlik": "yil",
+   "kaynak": "Zirne & Lūsēna 2025, 'Archaeological Heritage in the Historic Centre of Riga', Internet Archaeology 70, https://doi.org/10.11141/ia.70.4",
+   "tanik": "Bishop Alberts founded Riga in 1201 as the episcopal seat"
+  },
+  "ark": {
+   "t": "1001-01-01",
+   "gun": "11-12. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "Zirne & Lūsēna 2025, 'Archaeological Heritage in the Historic Centre of Riga', Internet Archaeology 70, https://doi.org/10.11141/ia.70.4",
+   "tanik": "by the 11th–12th centuries two settlements with burial grounds were already located"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1201-01-01",
+    "t": "1281-01-01",
+    "d": "riga-baspiskoposlugu",
+    "kesinlik": "yil",
+    "kaynak": "Zirne & Lūsēna 2025, 'Archaeological Heritage in the Historic Centre of Riga', Internet Archaeology 70, https://doi.org/10.11141/ia.70.4 (episcopal seat); Henry of Livonia, Chronicle (Brundage çevirisi, Univ. of Wisconsin Press 1961), archive.org chronicle-of-henry-of-livonia-1961, tam metin",
+    "ic_not": "HAYALET UYARISI beklenir: künye riga-baspiskoposlugu f=1255 (başpiskoposluğa yükseltme), oysa 1201-1255 arası aynı yapı Riga/Livonya Piskoposluğu (Albert). Sınıflandırma: aynı polity sürüyor → künye f 1201'e GENİŞLETİLMELİ (öneri; Emre onayı). Gerçekte şehir Piskopos Albert, Kılıç Kardeşleri Tarikatı (1202'de kuruldu, livonya-tarikati künyesi f=1202) ve şehir yönetimi arasında paylaşılmıştır; paylaşım kaynakla bu oturumda ayrıştırılmadı (atlas da 1281'de riga-baspiskoposlugu yazar). Başpiskoposluk 1255'in kaynağı bu oturumda açılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1001-01-01",
+    "gun": "11-12. yüzyıl",
+    "k": "diger",
+    "b": "Rīdzene ağzındaki yarımadada iki yerleşim ve mezarlık (arkeoloji).",
+    "kaynak": "Zirne & Lūsēna 2025, 'Archaeological Heritage in the Historic Centre of Riga', Internet Archaeology 70, https://doi.org/10.11141/ia.70.4",
+    "tanik": "by the 11th–12th centuries two settlements with burial grounds were already located"
+   },
+   {
+    "t": "1201-01-01",
+    "gun": "1201",
+    "k": "kurulus",
+    "b": "Piskopos Albert Riga'yı piskoposluk merkezi ve dini-askeri faaliyetlerin merkezi olarak kurar (Brundage 1961: 1200).",
+    "kaynak": "Zirne & Lūsēna 2025, 'Archaeological Heritage in the Historic Centre of Riga', Internet Archaeology 70, https://doi.org/10.11141/ia.70.4; Henry of Livonia, Chronicle (Brundage çevirisi, Univ. of Wisconsin Press 1961), archive.org chronicle-of-henry-of-livonia-1961, tam metin",
+    "tanik": "Bishop Alberts founded Riga in 1201 as the episcopal seat"
+   },
+   {
+    "t": "1202-01-01",
+    "gun": "1202",
+    "k": "kurulus",
+    "b": "Albert, Kılıç Kardeşleri (Livonya Tarikatı) daimi ordusunu kurar (OCR bozuk metin).",
+    "kaynak": "Henry of Livonia, Chronicle (Brundage çevirisi, Univ. of Wisconsin Press 1961), archive.org chronicle-of-henry-of-livonia-1961, tam metin (giriş)",
+    "tanik": "in the Order of Sword Bearers"
+   }
+  ],
+  "ic_not": "Çift teyit (olgu: Albert kurdu, 1201/1200): Zirne & Lūsēna 2025 + Brundage 1961. Henry'nin kendi Latince/İngilizce metninde kuruluş cümlesi OCR'dan çıkarılamadı (yalnız çevirmenin girişi okundu). VLE (vle.lt) 403, vestnesis.lv ve Riga City Museum açılamadı. Kuruluş öncesi sahip: Liv kabile yerleşimi, künye yok → zincir kuruluşta başlar."
  },
  {
   "id": "samahi",
@@ -10867,6 +11446,52 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ZİNCİR YOK: şehir atlasın başlangıcından SONRA kuruldu; bu bölgede 1777 öncesi yerleşim kaynağı bulunamadı (Wikipedia/pasport yok). ATLAS DÜZELTME ÖNERİSİ: atlas 1777-01-01 diyor; kaynaklara göre kale 1777-11-02 (Gregoryen) kuruldu → atlas kur/başlangıcı 1777-11-02 olmalı (10 ay erken). Not: ayrı atlas noktası \"Stavropol–Kuma bozkırı\" (44.85 K, 42.6 D) ile 25 km fark. kat1900=2 (Stavropol guberniyası merkezi)."
  },
  {
+  "id": "stokholm",
+  "ad": "Stokholm",
+  "atlas_ad": "Stokholm",
+  "lat": 59.3268,
+  "lon": 18.0689,
+  "kat1900": 1,
+  "adlar": [
+   "Stokholm",
+   "Stockholm",
+   "Holmia"
+  ],
+  "ilk": {
+   "t": "1252-07-01",
+   "gun": "Temmuz 1252",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "Stockholmskällan / Stockholms stadsmuseum, 'Blick på Stockholm då & nu', https://stockholmskallan.stockholm.se/postfiles/SMF/SD/SSMB_0019691_01.pdf",
+   "tanik": "Skyddsbrev för Fogdö kloster daterat i Stockholm juli 1252 av kung Valdemar och Birger jarl",
+   "ic_not": "İLK ANILIŞ: Stokholm adı ilk kez Temmuz 1252'de Fogdö manastırı koruma mektubunda (SDHK 664/665 arama özeti; riksarkivet sayfası içerik vermedi). Kaynak metin: 'Stockholm till 1252 grundar sig på det brev där stadens namn finns i skrift för första gången' — 'kuruluş' 1252 geleneksel, belgeye değil anılışa dayanır; kuruluşu Birger Jarl'a atfı gelenektir (kur BOŞ). Yazılı tanıktan önce: Stadsmuseum yayını 'När Stockholm nämndes som dateringsort 1252 borde något ha funnits på platsen' der. Dendro ~1000 iddiası yalnız arama özetinde: kaynak sayfası açılmadı, YAZILMADI. Metin pdftotext çıktısı; ä/ö karakterleri çıkarımda bozuk, alıntı aslına göre düzeltildi."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1252-07-01",
+    "t": "1281-01-01",
+    "d": "isvec-birlik-oncesi",
+    "kesinlik": "ay",
+    "kaynak": "Stockholmskällan / Stockholms stadsmuseum, 'Blick på Stockholm då & nu', https://stockholmskallan.stockholm.se/postfiles/SMF/SD/SSMB_0019691_01.pdf (belge Kral Valdemar ve Birger jarl adına)",
+    "ic_not": "İsveç Krallığı (Kalmar öncesi); Birger Jarl kralın babası/naibi. Atlas da 1281'de isvec-birlik-oncesi yazar: dikişte değişiklik yok. 1252 öncesi sahip için tanık yok."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1252-07-01",
+    "gun": "Temmuz 1252",
+    "k": "diger",
+    "b": "Kral Valdemar ve Birger jarl, Stokholm'de Fogdö manastırı koruma mektubunu düzenler: şehrin ilk yazılı anılışı.",
+    "kaynak": "Stockholmskällan / Stockholms stadsmuseum, 'Blick på Stockholm då & nu', https://stockholmskallan.stockholm.se/postfiles/SMF/SD/SSMB_0019691_01.pdf",
+    "tanik": "Skyddsbrev för Fogdö kloster daterat i Stockholm juli 1252 av kung Valdemar och Birger jarl"
+   }
+  ],
+  "ic_not": "Tek kaynak: Stockholms stadsmuseum/Stockholmskällan yayını. Svenskt biografiskt lexikon, SDHK metni ve arkeoloji raporları açılamadı/okunmadı: çift teyit YOK."
+ },
+ {
   "id": "sultaniye",
   "ad": "Sultâniye",
   "atlas_ad": "Sultâniye",
@@ -11020,6 +11645,68 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas Şuşa'yı 1752-01-01'de \"zend\" ile açıyor; TDV'ye göre 1752'de şehir Karabağ Hanlığı'ndadır (Zend ilişkisi 1750'lerin sonundadır, vasal/müttefik niteliğinde, tarihsiz). 1752 için Zend hâkimiyeti tanığı bulunamadı; yer tutucu olay yazılmadı.",
   "ic_not": "KAYNAK: TDV Karabağ (curl), Wikipedia \"Shusha\" (2. tanık). Hakemli Azeri/Ermeni/Rus akademik kaynak bu oturumda bulunamadı → çift teyit yok. ATLAS ÖNERİSİ: atlas 1752 ile başlıyor, TDV 1748-1750; ve ilk dönemi \"zend\" yazılmış, TDV'ye göre karabag-hanligi. kat1900=3 TAHMİNİ (1900 listesinde Şuşa yok; Elisavetpol guberniyası ilçe merkezi)."
+ },
+ {
+  "id": "tallinn",
+  "ad": "Tallinn (Reval)",
+  "atlas_ad": "Tallinn (Reval)",
+  "lat": 59.437,
+  "lon": 24.754,
+  "kat1900": 2,
+  "adlar": [
+   "Lyndanise",
+   "Kolyvan",
+   "Reval",
+   "Tallinn"
+  ],
+  "ilk": {
+   "t": "1219-01-01",
+   "gun": "1219",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Henry of Livonia, Chronicle (Brundage çevirisi, Univ. of Wisconsin Press 1961), archive.org chronicle-of-henry-of-livonia-1961, tam metin (XXIII, 2); Den Store Danske / lex.dk, 'Tallinn' (Jürgen Beyer), https://lex.dk/Tallinn",
+   "tanik": "encamped at Lyndanise, which had once been a fort of the people of Reval",
+   "ic_not": "Henry of Livonia: Danimarka kralı 1219'da Reval vilayetine gelir, Lyndanise'de ('eskiden Reval halkının kalesi') kamp kurar, eski kaleyi yıkıp yenisini yapmaya başlar. lex.dk (J. Beyer): Lyndanise adı Tallinn'in en eski ad geçmişi, 'ingen variant er alment accepteret'; Rus yıllıklarında 1223'ten itibaren Kolyvan. 'Önceden kale' ifadesi 1219 öncesi varlığı kanıtlar ama tarihsiz. Gün: 15 Haziran 1219 Dannebrog gelenek tarihidir (lex.dk 'traditionen har fastholdt') — tarih olarak ALINMADI. al-Idrisi 1154 'Qlwry' eşitlemesi bu oturumda kaynakla açılmadı (yeri kesin olmayan ad eşitlemesi, kural gereği zaten başlangıç sayılmazdı). SNL: 'allerede på 900-tallet et viktig handelssted' — dayanak gösterilmemiş, arkeolojik tarih olarak YAZILMADI."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1219-01-01",
+    "gun": "1219",
+    "k": "fetih",
+    "b": "Danimarka Kralı II. Valdemar Lyndanise'de çıkarma yapar, eski Estonya kalesinin yerine kale kurar (atlas başlangıcı).",
+    "kaynak": "Henry of Livonia, Chronicle (Brundage çevirisi, Univ. of Wisconsin Press 1961), archive.org chronicle-of-henry-of-livonia-1961, tam metin (XXIII, 2); Den Store Danske / lex.dk, 'Tallinn' (Jürgen Beyer), https://lex.dk/Tallinn",
+    "tanik": "They destroyed the old fort and began to build another new one"
+   },
+   {
+    "t": "1227-01-01",
+    "gun": "1227",
+    "k": "fetih",
+    "b": "Kılıç Kardeşleri (Livonya Tarikatı) kaleyi ele geçirir.",
+    "kaynak": "Den Store Danske / lex.dk, 'Tallinn' (Jürgen Beyer), https://lex.dk/Tallinn",
+    "tanik": "erobrede i 1227 borgen"
+   },
+   {
+    "t": "1238-01-01",
+    "gun": "1238",
+    "k": "antlasma",
+    "b": "Stensby anlaşması: Danimarka yerleşimi, kaleyi ve piskoposluğu geri alır.",
+    "kaynak": "Den Store Danske / lex.dk, 'Tallinn' (Jürgen Beyer), https://lex.dk/Tallinn",
+    "tanik": "Først i 1238 kunne danskerne atter overtage bosættelsen"
+   },
+   {
+    "t": "1248-01-01",
+    "gun": "1248",
+    "k": "diger",
+    "b": "Erik Plovpenning şehre Lübeck hukuku verir.",
+    "kaynak": "Den Store Danske / lex.dk, 'Tallinn' (Jürgen Beyer), https://lex.dk/Tallinn",
+    "tanik": "I 1248 tildelte Erik Plovpenning byen Tallinn lybsk ret"
+   }
+  ],
+  "ic_not": "Atlas Tallinn'i 1219-01-01'den (danimarka) başlatıyor; 1219 öncesi için kaynaklı sahip BULUNAMADI (Estonya Rävala vilayeti, künye yok): zincir boş, denetim 'atlas başlangıcı' uyarısı verir. Atlasın 1219-01-01 günü yıl hassasiyetinde; gerçek çıkarma gelenekte 15 Haziran 1219 (tarihsiz kaynak yok). Atlasın 1227-1238 Livonya Tarikatı ve 1238 Danimarka dönemleri lex.dk ile uyumlu. Tallinn Şehir Arşivi, Estonya akademik kaynakları (Eesti ajalugu) bu oturumda açılmadı."
  },
  {
   "id": "taskent",
