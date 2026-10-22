@@ -2,6 +2,48 @@
 // Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_K12 = [
  {
+  "id": "abomey",
+  "ad": "Abomey",
+  "atlas_ad": "Abomey",
+  "lat": 7.186,
+  "lon": 1.991,
+  "kat1900": 1,
+  "adlar": [
+   "Agbomè (agbodomè, “hendeğin içi”, Fon)",
+   "Abomey"
+  ],
+  "ilk": {
+   "t": "1650-01-01",
+   "gun": "17. yüzyıl ortası",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ahonon, L., Joffroy, T., Djimassè, G., Ago, N., Glèlè, B. A., Gonçalves, A., Une introduction à Abomey, CRATerre/UNESCO Patrimoine mondial, 2009, s.4-7 (archive.org Introduction_Abomey)",
+   "tanik": "cité fondée par le roi Hwegbadja vers le milieu du",
+   "ic_not": "Kaynak “XVII. yüzyıl ortası” der (Hwegbaja dönemi); kesin yıl yok → yüzyıl hassasiyeti, 1650 orta nokta. Aynı kaynakta Akaba (Hwegbaja’nın oğlu) 1685-1708 hüküm sürdü (“Akaba (1685-1708) fils de Hwegbadja”), Hwegbaja’nın selefleri Dogbagli ~1620’de öldü (Hwawé’de). Ad: Hwegbaja’nın yaptırdığı hendek (“fossé se dit agbodo, d'où provient le nom agbodomè qui signifie à l'intérieur du fossé”). Allada ~1575 kuruldu (aynı kaynak). Herskovits 1938 (Dahomey) tam metni açılamadı (archive.org 401/500)."
+  },
+  "kur": {
+   "t": "1650-01-01",
+   "gun": "17. yüzyıl ortası",
+   "kesinlik": "yuzyil",
+   "kaynak": "Ahonon vd. 2009, Une introduction à Abomey",
+   "tanik": "cité fondée par le roi Hwegbadja vers le milieu du"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1650-01-01",
+    "gun": "17. yüzyıl ortası",
+    "k": "kurulus",
+    "b": "Kral Hwegbaja, Abomey’yi (Danxomé krallığının merkezi) hendekle çevrili başkent olarak kurar.",
+    "kaynak": "Ahonon vd. 2009",
+    "tanik": "cité fondée par le roi Hwegbadja vers le milieu du"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Abomey kur 1625 (dahomey künyesi 1625); bu kaynakta Abomey 17. yy ortasında (≈1650) Hwegbaja’ca kuruldu, 1620 dolaylarında henüz Hwawé’de Dogbagli/Dako-Donou dönemi. Atlas başlangıcı ≥1650 olmalı ya da dahomey künyesinin 1625 başlangıcı ayrıca doğrulanmalı."
+ },
+ {
   "id": "agra",
   "ad": "Agra",
   "atlas_ad": "Agra",
@@ -1939,6 +1981,57 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "AÇIK BORÇLAR: (1) Ahamenî evresi (TDV: 329'a kadar satraplık merkezi) tarihsiz başlangıç yüzünden zincire girmedi — Behistun ve Herodotos bölge adı verir, şehir tarihi vermez. (2) -0322 ile 1198 arası uzun dilimlerde (Kuşan-Eftalit-Sâsânî-Göktürk) sınırlar künye sınırlarıdır; kaynaklı olanlar: İskender MÖ 329, Arap 662-63, Esed 725, Ya‘kūb 870, Sâmânî 900 (Barthold gün), Gazneli Mayıs 999, Selçuklu 1043, Gurlu 1152/1198. (3) KÜNYE: atlas künyesi yok olanlar: tohar-yuezhi. (4) ÇELİŞKİ: EI1 1040/1206 (Selçuklu/Harezmşah) vs TDV 1043/1205; TDV esas; EI1 1227 Cengiz tahribi hatalı (TDV 1221). 3 KM: atlas noktası = modern Belh; eski şehir aynı alan (Bala Hisar) — mesafe ölçülmedi (OSM/Wikidata bu oturumda alınmadı)."
  },
  {
+  "id": "benin-sehri",
+  "ad": "Benin Şehri (Edo)",
+  "atlas_ad": "Benin Şehri (Edo)",
+  "lat": 6.335,
+  "lon": 5.604,
+  "kat1900": 1,
+  "adlar": [
+   "Edo (Ewuare, 15. yy)",
+   "Benin"
+  ],
+  "ilk": {
+   "t": "1250-01-01",
+   "gun": "13. yüzyıl ortası (c. 1250)",
+   "nicelik": "arkeolojik",
+   "kesinlik": "onyil",
+   "kaynak": "Darling, P. J., Archaeology and History in Southern Nigeria: the ancient linear earthworks of Benin and Ishan, BAR International Series 215, 1984 (archive.org the-ancient-linear-earthworks-of-benin-and-ishan; Connah 1975 s.182, 248 atfıyla; Connah’ın The Archaeology of Benin kitabı açılamadı, 401)",
+   "tanik": "belong to the mid-Cl3th, though small settlements may have existed",
+   "ic_not": "Darling: Benin City’nin batı kesimindeki kazıların en erken tarihleri 13. yy ortasına aittir (OCR “Cl3th” = C13th); Ikpoba deresine yakın küçük yerleşimler 1-2 yüzyıl daha eski olabilir. KURAL NOTU: yazılı tanık YOK değil ama atlas başlangıcından (1281) SONRA — ilk yazılı Benin kaydı Portekiz teması 1485-86 (Darling: “the Edaiken of Ughoton to be ambassador to Portugal in 1486”, Ryder 1969 atfıyla). Kuralı harfiyen uygulasaydım ilk=1486 olur ve zincir boş kalırdı (atlas başlangıcı “düzeltilmeli” çıkardı) — arkeolojik kanıtla çelişir; bu yüzden nicelik=arkeolojik seçildi. KARAR EMRE’NİN. Gelenek: Eweka I ~1180 (Egharevba) bu oturumda birincil metinden okunmadı; GHA IV: Oranyan ~1300 (“probably around 1300”) krallığın kesin kuruluşu."
+  },
+  "kur": null,
+  "ark": {
+   "t": "1250-01-01",
+   "gun": "13. yüzyıl ortası (c. 1250)",
+   "kesinlik": "onyil",
+   "kaynak": "Darling 1984 (BAR 215), Connah 1975 s.182, 248 atfıyla",
+   "tanik": "belong to the mid-Cl3th, though small settlements may have existed"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "t": "1281-01-01",
+    "f": "1250-01-01",
+    "d": "benin-kralligi",
+    "kesinlik": "yuzyil",
+    "kaynak": "UNESCO, General History of Africa IV: Africa from the Twelfth to the Sixteenth Century, 1984 (archive.org general-history-of-africa-vol-4, djvu metni), “From the Volta to Cameroon”, s.351 — “Although some form of state may have existed among the Edo before the thirteenth century”",
+    "ic_not": "Edo devleti 13. yy öncesi “bir tür devlet” olarak anılır; kesin krallığın Oranyan’la ~1300 kurulduğu geleneği 1281’den SONRA. Künye benin-kralligi 1180’de başlar (Eweka I geleneği). Dönem atlas sahibiyle aynı → dikiş olayı gerekmez. Kronolojik doğruluk düşük: 1250-1281 arası Benin City’nin siyasî sahibi için çağdaş tanık bulunamadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1250-01-01",
+    "gun": "13. yüzyıl ortası (c. 1250)",
+    "k": "diger",
+    "b": "Benin City’nin batı kesiminde kazılmış en erken iskân tabakası (Connah kazıları, radyokarbon).",
+    "kaynak": "Darling 1984 (BAR 215), Connah 1975 atfıyla",
+    "tanik": "belong to the mid-Cl3th, though small settlements may have existed"
+   }
+  ],
+  "ic_not": "Ad: GHA IV — Ewuare (15. yy) başkenti yeniden kurup adını Edo koydu (“Ewuare rebuilt his capital to a new plan and gave it the name of Edo”); “Benin” adı Portekizlilerin Ijo’dan (beni, “su sakinleri”) aldığı bir ad olabilir. ATLAS: Benin City 1281-01-01 başlangıcı arkeolojiyle (13. yy ortası) uyumlu, yazılı kayıtla (1485-86) değil. Darling: Ohovbe’deki dış hendek-set (iya) sistemlerinden biri 1300 ± 50’de yapıldı (Benin Krallığı çevresi); GHA IV: Benin “probably became a kingdom early on, perhaps in the twelfth century”."
+ },
+ {
   "id": "berde-karabag",
   "ad": "Berde (Karabağ)",
   "atlas_ad": "Berde (Karabağ)",
@@ -2549,6 +2642,47 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK (kural): ilk.t atlas başlangıcıyla (1733-01-01) aynı. Bu noktada 1733 öncesi sahiplik (Jat Sogar şefliği, Mughal) kaynaklı değil; 'old fort' varlığının tarihi bulunamadı. ATLAS DÜZELTME ÖNERİSİ: yok. Not: IG 1722'yi 'Badan Singh Dig Racası, Bharatpur'un ayrı devlet olarak tanınması' sayar (State article) — şehirden ayrı olgu."
+ },
+ {
+  "id": "birni-ngazargamu",
+  "ad": "Birni N'gazargamu",
+  "atlas_ad": "Birni N'gazargamu",
+  "lat": 12.35,
+  "lon": 10.683,
+  "kat1900": 1,
+  "adlar": [
+   "Birni N’gazargamu (Gazargamu)"
+  ],
+  "ilk": {
+   "t": "1497-01-01",
+   "gun": "1465-1497 (May Ali Gaci b. Dûneme dönemi)",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bornu (Bornu, TDVİA)",
+   "tanik": "kuzeyde Birni N’gazargamu şehrini kurdu ve burayı devletin merkezi yaptı",
+   "ic_not": "TDV: May Ali (Gaci) b. Dûneme (1465-1497) Birni N’gazargamu’yu kurdu — saltanat aralığı verildi, kuruluş yılı yok; aralık veren kaynakta güvenli uç (1497) alındı. Atlas kur 1465 (saltanat başı = en erken olası uç). Haour 2008 (J. African Archaeology) Garumele’nin Njimi terk edildikten sonra, Gazargamu’dan önce başkent olduğu iddiasını tartışır (“served as a capital after Njimi was abandoned, and before Birnin Gazargamo was built”). Kanım Divanı’nın (Dierk Lange) tam metni bu oturumda okunamadı."
+  },
+  "kur": {
+   "t": "1497-01-01",
+   "gun": "1465-1497 (May Ali Gaci b. Dûneme dönemi)",
+   "kesinlik": "belirsiz",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bornu",
+   "tanik": "kuzeyde Birni N’gazargamu şehrini kurdu ve burayı devletin merkezi yaptı"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1497-01-01",
+    "gun": "1465-1497 (May Ali Gaci b. Dûneme dönemi)",
+    "k": "kurulus",
+    "b": "May Ali (Gaci) b. Dûneme, Bornu’nun yeni merkezi olarak Birni N’gazargamu’yu kurar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/bornu",
+    "tanik": "kuzeyde Birni N’gazargamu şehrini kurdu ve burayı devletin merkezi yaptı"
+   }
+  ],
+  "ic_not": "ATLAS: kur 1465 saltanat başıdır; TDV kuruluşu 1465-1497 arasına koyar → atlas 1465 “en erken olası” uçtur, kaynakla çelişmez ama kesinleşmemiştir."
  },
  {
   "id": "bolonya",
@@ -3500,6 +3634,70 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Cao Bằng 'kale' kd:1527-06-15→1677-01-01 (Mạc) — Vikipedi: Mạc Cao Bằng'daki yerleşimi, kentin ~12 km KUZEYİNDEKİ CAO BÌNH'dir ('ruins of a temple ... palace of the Mạc Kings ... Cao Bình ... about 12 kilometres north of Cao Bằng'); atlas noktası (22.666, 106.258) Cao Bằng kent merkezidir (Mạc sarayı DEĞİL) → Mạc dönemi için ayrı 'Cao Bình' noktası önerilir (Vikipedi tek dayanak; Toàn thư zh sayfalarında '高平' 15. yy sayfalarında bulunmadı). Kuruluş: Cao Bằng kentinin kuruluş tarihi BULUNAMADI. Çift teyit YOK."
+ },
+ {
+  "id": "cenne",
+  "ad": "Cenne (Djenné)",
+  "atlas_ad": "Cenne (Djenné)",
+  "lat": 13.906,
+  "lon": -4.555,
+  "kat1900": 1,
+  "adlar": [
+   "Djanna (“küçük Dia”; Nono)",
+   "Cinî (Arapça kaynaklar)",
+   "Geni (Malfante, 1447)",
+   "Genná (De Barros, 1522-32)",
+   "Jenne / Djenné / Cenne"
+  ],
+  "ilk": {
+   "t": "1447-01-01",
+   "gun": "1447",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Hunwick, J. O., Timbuktu and the Songhay Empire: Al-Sa‘dī’s Ta’rīkh al-sūdān down to 1613 and other contemporary documents, Leiden: Brill, 2003 (archive.org kopyası, djvu metni), “Leo Africanus’s Description” bölümü dn.31 (Malfante’nin 1447 Tuat mektubu: Latince metin+Fr. çeviri La Roncière 1925, İng. Crone 1937; Malfante’nin kendi metni bu oturumda açılmadı, Hunwick aktarımı esas)",
+   "tanik": "Malfante (1447) knew of Jenne as Geni",
+   "ic_not": "İLK ANILIŞ alt sınırdır. KURULUŞ BULUNAMADI/ÇELİŞKİLİ: TDV: “Şehrin kuruluş tarihi kesin olarak belli değildir.” (Sa‘dî’ye göre IX. yy’da Nono’lar Zoboro’da yerleşti, bir kısmı bugünkü Cenne’yi kurdu). Sa‘dî: “Jenne was founded as a pagan town in the middle of the second century” (Hunwick dn.9: hicrî 150 = 767-8) ve Müslümanlık VI. (XII.) yy sonunda; Levtzion 1973:159 Sa‘dî’nin iki tarihini “much too early” bulur, Delafosse ~1250, Triaud 13. yy sonu der (McIntosh & McIntosh 1980, BAR S89: “Several historians have found it difficult to accept the eighth century date”). ARKEOLOJİ: Cenne kasabasının (bugünkü şehir) en erken iskân evresi AMS ile 13. yy sonu-14. yy (McIntosh, Cain & Cissé 2025); atası Jenné-jeno ise MÖ ~250’den 13. yy’a (Hunwick dn.9 → McIntosh 1980), modern Cenne’nin “approximately three kilometres southeast of the present-day city of Jenne” (sınırda, ~3 km; ayrı kayıt olarak Jenné-jeno 13.889N -4.540E önerilir). Yazılı tanık (1447) arkeolojik başlangıçtan yeni olsa da kural gereği ilk=yazılı; ark ayrı yazıldı."
+  },
+  "kur": null,
+  "ark": {
+   "t": "1300-01-01",
+   "gun": "13. yüzyıl sonu–14. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "McIntosh, S. K., Cain, C. & Cissé, M., “‘This blessed city’: excavations at the second-millennium AD trade town of Jenné (Inland Niger Delta, Mali)”, Azania 60 (2025), doi:10.1080/0067270X.2025.2479376 (özet, OpenAlex)",
+   "tanik": "places the earliest occupation phase in the late thirteenth to fourteenth centuries AD",
+   "ic_not": "Kazı: 8 m’den fazla iskân dolgusu; en erken evre Jenné-jeno’nun son iskânıyla çağdaş. Aralık 13. yy sonu-14. yy; 1300 orta nokta alındı (kesinlik yüzyıl)."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1447-01-01",
+    "t": "1473-01-01",
+    "d": "cenne-sehir-devleti",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "Hunwick, J. O., Timbuktu and the Songhay Empire: Al-Sa‘dī’s Ta’rīkh al-sūdān down to 1613 and other contemporary documents, Leiden: Brill, 2003 (archive.org kopyası, djvu metni), ch.5 “Jenne and its history” — “no ruler had ever defeated the people of Jenne since the town was founded”; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cenne — “Şehir Mali kralları tarafından birçok defa kuşatıldıysa da alınamadı.”",
+    "ic_not": "KÜNYE YOK: önerilen id “cenne-sehir-devleti” (Cenne Koyu hâkimiyeti; Sunni Ali’ye dek hiçbir hükümdarca yenilmemiş bağımsız ticaret şehri-devleti). Ömür: en geç 1447 (ilk anılış) – 1473 (Sunni Ali fethi); daha erken sahip tanığı bulunamadı. TDV: Mali kralları kuşattı ama alamadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1447-01-01",
+    "gun": "1447",
+    "k": "diger",
+    "b": "Cenova’lı tüccar Antonio Malfante’nin Tuat’tan yazdığı mektupta Jenne “Geni” adıyla anılır (şehrin ilk tarihli yazılı tanığı).",
+    "kaynak": "Hunwick, J. O., Timbuktu and the Songhay Empire: Al-Sa‘dī’s Ta’rīkh al-sūdān down to 1613 and other contemporary documents, Leiden: Brill, 2003 (archive.org kopyası, djvu metni), dn.31",
+    "tanik": "Malfante (1447) knew of Jenne as Geni"
+   },
+   {
+    "t": "1473-01-01",
+    "gun": "1473",
+    "k": "fetih",
+    "b": "Songay hükümdarı Sunni Ali (Ali Ber), yedi yılı aşan kuşatmanın ardından Cenne’ye girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/cenne",
+    "tanik": "yedi yıldan fazla sürdüğü rivayet edilen bir kuşatma sonunda şehre girmiştir (1473)"
+   }
+  ],
+  "ic_not": "Atlas Cenne’yi 1473’te (Songay) başlatır: TDV ve Hunwick ile uyumlu. Atlasta Jenné-jeno/Cenne ayrımı yok; Jenné-jeno 3 km GD’de ayrı bir MÖ ~250-13. yy yerleşimi. TDV Cenne maddesi (“İslâmiyet’i VI. (XII.) yüzyılda kabul etmiştir”) ile McIntosh arkeolojisi (13. yy sonu öncesi Cenne kasabası yok)çelişir; TDV’nin kuruluş kısmı “belli değildir” dediği için çelişki dönem sınırını etkilemez, beyan edilir. Sa‘dî’nin 767-8 kuruluşu ve 1200 dolayında Müslümanlaşma kayıtları kural gereği kur’a ALINMADI (arkeoloji ve 3 tarihçi reddediyor)."
  },
  {
   "id": "chambery",
@@ -6101,6 +6299,91 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Fuzhou (atlas_ad 'Fuzhou', kat 2). ① Yer eşitlemesi: Dongye/Ye = Fuzhou rehberdeki 'yeri kesin olmayan ad eşitlemesi' kuralı gereği başlangıç sayılmadı; ilk = 196 (Houguan). Chunxi Sanshan zhi 1 (1182) Ye'nin başkent olduğu Ouye tepesi için 'Fuzhou' der — yerel gazete, Song çağı; Hanshu 28 Kuaiji komutanlığı ilçeleri arasında '冶' (Ye) ilçesi var, ama Sanshan zhi bunu Linhai/Zhang'an bölgesine bağlar, Fuzhou'ya değil. ② Min-Chengcun tartışması (Chongan, Wuyishan) ve Fuzhou Yeshan/Xindian kazıları: akademik makale bu oturumda bulunamadı (OpenAlex/Crossref boş) — 'bulunamadı'. ③ 896-1276 arası: Fuzhou-spesifik tanıklar: 725 ad, 892 Wang Chao, 944-947 Min çöküşü, 978 Song, 1276 Yuan; hepsi birincil Çince kaynaklardan (zh.wikisource). ④ Dönem uçları çoğu merkezî tahta çıkış günü (Çin takviminden Sinica sinocal ile Jülyen'e çevrilmiş); Fuzhou'ya özgü teslim günü bulunamadığı yerler her dönemde ic_not'ta beyan. ⑤ Künye aşımı uyarıları: sun-wu (f 222), dogu-jin (t 420-01-01 < 420-07-10), dogu-han (t 220-01-01 < 220-11-25), min-krallik (f 909 → 892 GENİŞLET), wuyue (t 978-01-01 < 978-06-11). ⑥ ATLAS: atlas Fuzhou'yu 1281-01-01'de (yuan-hanedani) başlatıyor; şehir 196'dan beri kaynaklı. Atlas başlangıcı dikişte uyuşuyor (zincir 1281-01-01'de yuan'da bitiyor)."
  },
  {
+  "id": "gao",
+  "ad": "Gao",
+  "atlas_ad": "Gao",
+  "lat": 16.272,
+  "lon": -0.04,
+  "kat1900": 1,
+  "adlar": [
+   "Kokoy Karya (“kral şehri”; TDV: adın kökeni olduğu sanılır)",
+   "Kawkaw / Kevkev / Gawgaw",
+   "Gao"
+  ],
+  "ilk": {
+   "t": "0883-07-11",
+   "gun": "270 (883)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gao (Gao, TDVİA: Ebû Yezîd en-Nükkârî’nin Kevkev’de doğumu); Levtzion & Pouwels (eds.), The History of Islam in Africa, 2000, Reichmuth bölümü, dn.4 (aynı olay, “around 885”)",
+   "tanik": "270 (883) yılı dolaylarında doğduğu bilinmektedir",
+   "ic_not": "İLK ANILIŞ alt sınırdır, kuruluş değil. TDV: Ebû Yezîd en-Nükkârî babası Zenâte tüccarı Kevkev’de otururken 270 (883) dolaylarında doğdu. Hicrî 270 = 883-07-11 – 884-06-28 (tablo takvimi, Jülyen) ∩ 883 → kesişimin ilk günü 883-07-11; kesinlik yıl (“dolaylarında”). Levtzion-Pouwels 2000 (Reichmuth, dn.4: Ibn Khaldun 1968) aynı doğumu “around 885” verir → 2 yıl fark, TDV esas. Daha erken tarihsiz anılış: Ya‘kūbî (ö. 292/905) — TDV Gao bibliyografyası Târîḫ I, 193-194’ü gösterir; Hunwick: Kawkaw devleti “described by al-Ya*qübi in the ninth century” (Corpus s.21 atfıyla; Corpus bu oturumda açılamadı, yıl okunamadı). TDV kuruluş için “Muhtemelen VII. yüzyılın son yıllarında” (VII. yy sonu) der: Sorko-Fârân balıkçıları tarafından Kukia’dan çıkarılarak kurulmuş — “muhtemelen” ifadesi ve birincil tanık gösterilmediği için kur yazılmadı (çıkarım kuruluş tanığı değildir)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0910-01-01",
+   "gun": "10. yüzyıl başı",
+   "kesinlik": "onyil",
+   "kaynak": "Takezawa, S. & Cissé, M., “Discovery of the earliest royal palace in Gao and its implications for the history of West Africa”, Cahiers d’études africaines 52 (2012), doi:10.4000/etudesafricaines.17167 (özet, OpenAlex)",
+   "tanik": "constructed at the beginning of the tenth century",
+   "ic_not": "Gao şehri (Gao-Ancien) kazısı: taş saray/kale 10. yy başında yapıldı, aynı yy sonuna doğru terk edildi. Komşu Gao Saney (Hunwick: ~5 mil/8 km uzak, ayrı yerleşim) 8.-10. yy arası Kuzey Afrikalı tüccar/zanaatkârlarca iskân edilmiş (“eighth to the tenth centuries”) — modern Gao’ya >3 km olduğundan buraya yazılmadı."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0883-07-11",
+    "t": "0890-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gao — “Şehir 890 yılına doğru Songaylar’ın eline geçti.”",
+    "ic_not": "Şehir VAR (883’te Kevkev’de ikamet eden tüccar) ama TDV “890 yılına doğru Songaylar’ın eline geçti” derken önceki sahibi belirtmiyor → önceki sahip bulunamadı."
+   },
+   {
+    "f": "0890-01-01",
+    "t": "1324-01-01",
+    "d": "kevkev",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gao (“IX. yüzyılda ortaya çıkan Kevkev Krallığı”); Hunwick, J. O., Timbuktu and the Songhay Empire: Al-Sa‘dī’s Ta’rīkh al-sūdān down to 1613 and other contemporary documents, Leiden: Brill, 2003 (archive.org kopyası, djvu metni), Translator’s Introduction — “By the tenth century the Songhay settlement at Gao had developed into a small kingdom”",
+    "ic_not": "KÜNYE GENİŞLET önerisi: kevkev künyesi 1000-01-01’de başlıyor; TDV Kevkev Krallığı’nı IX. yy’da, Songay Zâ hânedanını bölgenin sahibi sayar (Zâ’nın 15. hükümdarı Kosoy 400/1009-10’da merkezi Kukia’dan Gao’ya taşır). Hunwick: Muhallebî (985 öncesi) Gao hükümdarının Müslüman olduğunu, el-Bekrî (1068) yalnız Müslümanın hükmedebildiğini yazar. 13. yy Zâ hânedanı belirsiz (Hunwick); Sane’de kısa ömürlü Sanhâce hânedanı Zâ ile kaynaşmış olabilir — dönem AÇILMADI. Hayalet uyarısı (1000 öncesi 110 yıl) beklenir."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0883-07-11",
+    "gun": "270 (883)",
+    "k": "diger",
+    "b": "Ebû Yezîd en-Nükkârî Kevkev’de doğar (Zenâte tüccarı babasının ikametgâhı) — şehrin varlığının ilk tarihli tanığı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gao",
+    "tanik": "270 (883) yılı dolaylarında doğduğu bilinmektedir"
+   },
+   {
+    "t": "0890-01-01",
+    "gun": "890",
+    "k": "fetih",
+    "b": "Gao Songaylar’ın eline geçer (TDV; önceki sahip belirtilmez).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gao",
+    "tanik": "Şehir 890 yılına doğru Songaylar’ın eline geçti."
+   },
+   {
+    "t": "1009-08-25",
+    "gun": "400/1009-10",
+    "k": "diger",
+    "b": "Zâ hânedanı hükümdarı Kosoy İslâm’ı kabul ettikten sonra idare merkezini Kukia’dan Gao’ya taşır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gao (hicrî 400 = 1009-08-25 – 1010-08-14, ∩ 1009 ilk günü; tablo takvimi, Jülyen)",
+    "tanik": "idare merkezini Kukia’dan Gao’ya taşıması (400/1009-10)"
+   },
+   {
+    "t": "1324-01-01",
+    "gun": "1324",
+    "k": "fetih",
+    "b": "Songay hükümdarı Asibay, Mali Sultanı Gongon Mûsâ’ya biat eder, iki oğlunu rehin verir (Mali hâkimiyeti).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gao; Hunwick, J. O., Timbuktu and the Songhay Empire: Al-Sa‘dī’s Ta’rīkh al-sūdān down to 1613 and other contemporary documents, Leiden: Brill, 2003 (archive.org kopyası, djvu metni), Ch.3 (“After he went on pilgrimage, the Songhay folk submitted to his authority.”)",
+    "tanik": "1324 yılında Songay Sultanı Asibay mağlûp olduğu Mali Sultanı Gongon Mûsâ’ya biat etti"
+   }
+  ],
+  "ic_not": "Atlasın Gao için “1324 Mali” başlangıcı TDV ile uyumlu (yıl hassasiyeti). Uyarı: Hunwick/Sa‘dî’ye göre Songay’ın boyun eğmesi Mansa Mûsâ’nın hac (724/1324) yolculuğundan SONRA, dönüşte (Gao dışında cami yaptırdı) gerçekleşti → fiilî olay 1324 sonu-1325 olabilir; TDV yılı 1324 verdiği için TDV esas alındı. TDV ile Hunwick arasında Ebû Yezîd doğumu dışında çelişki yok."
+ },
+ {
   "id": "gazne",
   "ad": "Gazne",
   "atlas_ad": "Gazne",
@@ -8347,6 +8630,57 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas 1281-1569 'polonya-erken' diyor; TDV Polonya'ya katılışı 1430 verir (öncesi Litvanya, XIV. yy). Podolya 1362 Mavi Sular sonrası Litvanya'ya geçer, öncesi Altın Orda (ikincil, Vikipedi-türü kaynak — kullanılmadı, tek dayanak olamaz). Kaynak sırası: TDV, ESBE okundu; İSAM/TTK/DergiPark ve Ukrayna akademik kaynakları (Encyclopedia of Ukraine siteyi açmadı) bu oturumda yetersiz."
  },
  {
+  "id": "kano",
+  "ad": "Kano",
+  "atlas_ad": "Kano",
+  "lat": 12.0,
+  "lon": 8.517,
+  "kat1900": 1,
+  "adlar": [
+   "Dala (tepe ve çevresindeki şefliği)",
+   "Kano"
+  ],
+  "ilk": {
+   "t": "1134-01-01",
+   "gun": "12. yüzyıl (Gijimasu 1095-1134, Palmer kronolojisi)",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "UNESCO, General History of Africa IV: Africa from the Twelfth to the Sixteenth Century, 1984 (archive.org general-history-of-africa-vol-4, djvu metni), Adamu M., “The Hausa and their neighbours in the central Sudan”, s.270-271 (Kano Kroniği: Palmer, Sudanese Memoirs III, 1928 üzerinden)",
+   "tanik": "Gijimasu (1095-1134), who first established the present city of Kano",
+   "ic_not": "KURULUŞ bir geleneğe dayanır; mutlak tarih GÜVENİLİR DEĞİL. GHA IV: Palmer’ın kronolojisi “Palmer’s chronology is plainly arbitrary and very approximate”; Kano Kroniği ~1890 dolaylarında derlendi (dn.20). Gijimasu (1095-1134) bugünkü Kano kentini Dala tepesi eteğinde kurdu — aralık veren kaynakta güvenli uç alındı: 1134. Barkindo (Studies in the History of Kano, M. G. Smith’in Kronik değerlendirmesi): ilk on hükümdar dönemi “legendary”, Bagauda 389 H./999 M. (from 389 A.H. or 999 A.D.). TDV Hevsâ: Kroniğin ilk hükümdarı Bagoda “XI. yüzyılın başlarında o güne kadar sihirbazlar tarafından yönetilen animist toplulukları birleştirdiği sanılmaktadır” (≈XI. yy başı). Barkindo (gates of Kano): surlara Gijimasu değil Tsaraki (12. yy sonu) başlamış olabilir. Hicrî 389 = 998-12-23 – 999-12-12 (tablo takvimi, Jülyen), ∩ 999 ilk günü 999-01-01; ancak bu Bagauda’nın (Sheme’de oturan ilk Kano kralı) sahneye girişidir, Dala eteğindeki kentin kuruluşu değil → ilk olarak alınmadı. Arkeolojik tarihli Kano kent katmanı bulunamadı (Barkindo: “in the absence of an archaeological excavation”)."
+  },
+  "kur": {
+   "t": "1134-01-01",
+   "gun": "12. yüzyıl (Gijimasu 1095-1134, Palmer kronolojisi)",
+   "kesinlik": "yuzyil",
+   "kaynak": "UNESCO, General History of Africa IV: Africa from the Twelfth to the Sixteenth Century, 1984 (archive.org general-history-of-africa-vol-4, djvu metni), s.270-271",
+   "tanik": "Gijimasu (1095-1134), who first established the present city of Kano"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1134-01-01",
+    "t": "1281-01-01",
+    "d": "hausa-sehir-devletleri",
+    "kesinlik": "yuzyil",
+    "kaynak": "UNESCO, General History of Africa IV: Africa from the Twelfth to the Sixteenth Century, 1984 (archive.org general-history-of-africa-vol-4, djvu metni) — “By 1200, the Kano rulers had subdued nearly all the independent chiefdoms”; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kano (“XII. yüzyılda etrafı surlarla çevrilen Kano”) ve hevsa",
+    "ic_not": "Kano, Hevsâ şehir devletlerinin (TDV: “biri Kano olmak üzere muhtelif şehir devletleri”) en bilineni. Hausa şehir devletleri künyesi 1000’de başlar; Kano krallığı bu çerçevede. GHA IV: Dala’da Bagauda öncesi 6 kuşak şef vardı (“there were six generations of rulers before the coming of Bagauda”); Santolo bağımsız kaldı (~1350’ye dek). Atlas sahibiyle aynı → dikiş olayı gerekmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1134-01-01",
+    "gun": "12. yüzyıl (Gijimasu 1095-1134)",
+    "k": "kurulus",
+    "b": "Gijimasu Dala tepesinin eteğinde yerleşimini kurar ve sur yapımına başlar (Kano Kroniği geleneği; tarih Palmer kronolojisidir).",
+    "kaynak": "UNESCO, General History of Africa IV: Africa from the Twelfth to the Sixteenth Century, 1984 (archive.org general-history-of-africa-vol-4, djvu metni), s.270-271",
+    "tanik": "Gijimasu (1095-1134), who first established the present city of Kano"
+   }
+  ],
+  "ic_not": "ATLAS: Kano “1281 Hausa şehir devletleri” başlangıcı ile çelişen bir tanık yok. Ancak şehrin kuruluş tarihi gelenekseldir (±100 yıl)."
+ },
+ {
   "id": "karakurum",
   "ad": "Karakurum",
   "atlas_ad": "Karakurum",
@@ -8941,6 +9275,48 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "SONUÇ: İlk anılış 1230 (MKL: 'okl. említi'; sk.wikipedia'nın atıf zinciri: Eğri/Jágerská kapitula'nın Ľubina belgesi, Villa Cassa, Šimon ve Peter'in arazi satışı, 9 hrivna). ÇELİŞKİ (beyan): Treccani, Enciclopedia Italiana (1933) 'Košice' maddesi 'ilk KESİN haber 1249' der; 1230 belgesini anmaz. MKL (belge yılı olarak 1230 veriyor, 'ilk KESİN haber' sınırlaması koymuyor) esas alındı; Treccani 1249 daha geç ve 1230'u dışlamaz. Sahiplik (Macaristan) iki tarihte de aynıdır, zincir etkilenmez; eğer 1230 çürütülürse ilk.t 1249'a iner. İlk anılış kuruluş DEĞİL: Treccani 'Verso la fine del sec. XIII divenne città' (XIII. yy sonu şehir hakkı, Alman kolonizasyonu), MKL geleneği: Géza I (1074-77) döneminde yerleştirilen Saksonlar Eski Kassa'nın yanında yerleşti (gelenek, tarihsiz; kur yazılmadı). Atlas dikişi: macaristan 1281'de sürüyor, düzeltme gerekmiyor. KAYNAK SINIRLARI: Encyclopaedia Beliana 'Košice' maddesi bulunamadı (404/madde yok); DergiPark/TDV'de Kassa şehri maddesi yok (TDV 'kaşa/košice/kaşau/kassa' aramaları: yalnız Kassâb vb.); Magdoško, 'Suburbs of Medieval Košice' (Mesto a dejiny 2023, doi 10.33542/cah2023-2-01) açık erişimli ama Zenodo PDF'i 403 verdi, açılamadı; Lexikon stredovekých miest na Slovensku (HÚ SAV 2010) ve Halaga'nın eserleri yalnız sk.wikipedia dipnotlarından biliniyor, doğrudan açılmadı => 1230 için ikinci bağımsız AKADEMİK kaynak yok (çift teyit değil). Kassa vs Košice adı: Slovak/Macar ad değişimi bu kayıtta adlar'da; atlas adı 'Kassa (Košice)'. 1290 (Jágerský biskup Andrej II Košice'yi Abaúj başdiyakozluğundan muaf etti; civitas terimi) 1281 sonrasıdır, bu kayda yazılmadı."
+ },
+ {
+  "id": "katsina",
+  "ad": "Katsina",
+  "atlas_ad": "Katsina",
+  "lat": 12.986,
+  "lon": 7.617,
+  "kat1900": 2,
+  "adlar": [
+   "Durbi-ta-Kusheyi (öncül şeflik; ayrı yer)",
+   "Katsina"
+  ],
+  "ilk": {
+   "t": "1495-01-01",
+   "gun": "1445-1495 (Palmer: Korau dönemi)",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "UNESCO, General History of Africa IV: Africa from the Twelfth to the Sixteenth Century, 1984 (archive.org general-history-of-africa-vol-4, djvu metni), Adamu M., Hausa bölümü, s.273-274 (dn.25-29)",
+   "tanik": "he established there a new walled city (birni) called Katsina",
+   "ic_not": "Kent, Sarki Muhammad Korau’nun (Palmer: 1445-95) Durbi-ta-Kusheyi’den çıkıp kurduğu surlu şehirdir. 13.-14. yy’da bölge bağımsız Hausa şefliklerinden ibaretti (“the territory which later came to be known as Katsina consisted of independent chiefdoms”). Güvenli uç = Korau’nun Palmer’a göre bitiş yılı (1495). KRONOLOJİ UYARISI: GHA IV dn.29 — H. F. C. (Abdullahi) Smith 1961, tutulma kaydına dayanarak “Palmer’s dates are over 100 years too early” der; yani kuruluş 16. yy’a inebilir. Usman’ın araştırması şehrin Wangarawa göçmenlerince kurulduğu iddiasını çürütmüştür (dn.26). Kesin gün/yıl yok → belirsiz."
+  },
+  "kur": {
+   "t": "1495-01-01",
+   "gun": "1445-1495 (Palmer: Korau dönemi)",
+   "kesinlik": "belirsiz",
+   "kaynak": "UNESCO, General History of Africa IV: Africa from the Twelfth to the Sixteenth Century, 1984 (archive.org general-history-of-africa-vol-4, djvu metni), s.273",
+   "tanik": "he established there a new walled city (birni) called Katsina"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1495-01-01",
+    "gun": "1445-1495 (Palmer: Korau dönemi)",
+    "k": "kurulus",
+    "b": "Muhammad Korau Durbi’den çıkarak bir ticaret yolları kavşağında surlu Katsina birni’sini kurar (tarih Palmer kronolojisi; >100 yıl erken olabilir).",
+    "kaynak": "UNESCO, General History of Africa IV: Africa from the Twelfth to the Sixteenth Century, 1984 (archive.org general-history-of-africa-vol-4, djvu metni), s.273",
+    "tanik": "he established there a new walled city (birni) called Katsina"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas “Katsina 1281-01-01 Hausa şehir devletleri” der; kent 1281’de YOKTU (GHA IV: 13.-14. yy’da bağımsız şeflikler; Korau birni’si ≥15. yy). Atlas başlangıcı ≥1445 (Palmer) / muhtemelen 16. yy’a ertelenmeli ya da 1281-15. yy arası nokta Durbi-ta-Kusheyi olarak yeniden adlandırılmalı. Katsina Kroniği’nin kendisi (Palmer 1927/1928 III, s.78-82) bu oturumda açılmadı."
  },
  {
   "id": "kaunas",
@@ -9954,6 +10330,108 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Atlas k=1 (1320-1569 başkent) ve 1281'de 'polonya-erken' ile başlıyor; zincir aynı sahiple bitiyor. Atlas 'Krakov' adı Lehçe Kraków'dur. kat1900: LISTE.tsv'de Kraków satırı yok; 2 yazıldı (doğrulanmadı). Atlas düzeltme önerisi: 1138-1281 arasında Kraków Silezya Piastlarının (Henryk Brodaty/Pobożny 1232-41) elinde de kalmıştır (EI 'contese'); bu oturumda gün tanığı açılmadı, atlasa dokunulmadı."
+ },
+ {
+  "id": "kukawa",
+  "ad": "Kukava (Kukawa)",
+  "atlas_ad": "Kukava (Kukawa)",
+  "lat": 12.923,
+  "lon": 13.561,
+  "kat1900": 2,
+  "adlar": [
+   "Kuka (Kanuri/Hausa “baobab”)",
+   "Kukawa"
+  ],
+  "ilk": {
+   "t": "1814-01-01",
+   "gun": "1814",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Meek, C. K., The Northern Tribes of Nigeria, Oxford UP 1925, c.1 (archive.org northerntribesof0000ckme)",
+   "tanik": "In 1814 El-Kanemi founded Kukawa as the new capital of Bornu",
+   "ic_not": "Muhammed el-Kanemi’nin yeni Bornu başkenti olarak kuruşu; yıl yalnız Meek’te okundu. Duignan-Gann-Turner (Colonialism in Africa III, 1971, archive.org colonialisminafr0003pete): “Al Kanemi founded the town of Kukawa” (yıl vermez). İkinci bağımsız akademik kaynakta aynı YIL bulunamadı → çift teyit YOK. TDV Bornu maddesi Kukava’yı yalnız kervan yolu üzerinde anar, kuruluş tarihi vermez."
+  },
+  "kur": {
+   "t": "1814-01-01",
+   "gun": "1814",
+   "kesinlik": "yil",
+   "kaynak": "Meek 1925",
+   "tanik": "In 1814 El-Kanemi founded Kukawa as the new capital of Bornu"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1814-01-01",
+    "gun": "1814",
+    "k": "kurulus",
+    "b": "Muhammed el-Kanemi Kukawa’yı Bornu’nun yeni başkenti olarak kurar.",
+    "kaynak": "Meek 1925, The Northern Tribes of Nigeria",
+    "tanik": "In 1814 El-Kanemi founded Kukawa as the new capital of Bornu"
+   }
+  ],
+  "ic_not": "ATLAS: kur 1814 Meek ile uyumlu; 1281 öncesi zincir YOK (şehir 1814’te kuruldu)."
+ },
+ {
+  "id": "kumasi",
+  "ad": "Kumasi",
+  "atlas_ad": "Kumasi",
+  "lat": 6.689,
+  "lon": -1.624,
+  "kat1900": 1,
+  "adlar": [
+   "Kwaman",
+   "Kumasi"
+  ],
+  "ilk": {
+   "t": "1680-01-01",
+   "gun": "1680 (kaynaklara göre 1660-1697)",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "Owusu-Ansah, D., Historical Dictionary of Ghana, 3. bs., Scarecrow 2005, kronoloji (archive.org historicaldictio0000owus, tam metin araması özeti); Collins, R. O., Historical Dictionary of Pre-Colonial Africa, 2001, “Kumasi” maddesi (archive.org historicaldictio0000coll)",
+   "tanik": "Kumasi emerged as capital of Asante during the early reign of Asantehene",
+   "ic_not": "Kaynaklar çelişir: Owusu-Ansah kronolojisi 1680 (“Kumasi emerged as capital of Asante during the early reign of Asantehene”); Collins: “In about 1660 Osei Tutu founded Kumasi” (≈1660); Buah, A History of Ghana 1998: Osei Tutu c.1695-1717 döneminde; Columbia Lippincott Gazetteer 1952: 1697 (gazetteer — dayanak sayılmadı). Daaku 1976: Aduana ve Asenee klanları “Kwaman area, where Kumasi was later to be founded”. Orta nokta 1680 alındı, belirsizlik 1660-1697. İki bağımsız akademik kaynak aynı yılı VERMİYOR → çift teyit YOK."
+  },
+  "kur": {
+   "t": "1680-01-01",
+   "gun": "1680 (kaynaklara göre 1660-1697)",
+   "kesinlik": "belirsiz",
+   "kaynak": "Owusu-Ansah 2005 (HDG kronoloji); Collins 2001",
+   "tanik": "Kumasi emerged as capital of Asante during the early reign of Asantehene"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1680-01-01",
+    "t": "1701-01-01",
+    "d": "denkyira",
+    "kunye_yok": true,
+    "kesinlik": "belirsiz",
+    "kaynak": "Daaku, K. Y., Osei Tutu of Asante, 1976 (archive.org osei-tutu-of-asante) — “overlord of most of the Akan states, including” (1660’lardan itibaren Kumasi ve Sekyere bölgeleri Denkyira’nın tâbi alanında)",
+    "ic_not": "KÜNYE YOK: önerilen id “denkyira” (Denkyira Krallığı, başkent Abankeseso; Akan egemen gücü ~1660’lar – 1701). Ömür: Daaku’ya göre 1660’larda Akan devletlerinin egemeni – 1701 Feyiase; başlangıç yılı bu oturumda okunamadı (McCaskie 2007 özetinde yalnız 1701 Feyiase). Kumasi bu dönemde Denkyira’ya haraç ödeyen Oyoko şefliğiydi."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1680-01-01",
+    "gun": "1680 (kaynaklara göre 1660-1697)",
+    "k": "kurulus",
+    "b": "Osei Tutu döneminde Kwaman “Kumasi” adıyla Asante başkenti olarak kurulur/büyür.",
+    "kaynak": "Owusu-Ansah 2005 (HDG kronoloji); Collins 2001",
+    "tanik": "Kumasi emerged as capital of Asante during the early reign of Asantehene"
+   },
+   {
+    "t": "1701-01-01",
+    "gun": "1701",
+    "k": "fetih",
+    "b": "Feyiase Savaşı: Asante, Denkyira’yı yener ve Kumasi Denkyira hâkimiyetinden çıkarak Asante başkenti olur.",
+    "kaynak": "Buah, F. K., A History of Ghana, 1998 (archive.org historyofghana0000buah); McCaskie, T. C., J. Afr. Hist. 48/1 (2007) “Denkyira in the making of Asante c.1660-1720” özeti",
+    "tanik": "the Asante inflicted a decisive blow, in 1701, on Denkyira at Feyiase"
+   }
+  ],
+  "ic_not": "ATLAS: Kumasi 1701 (Asante) başlangıcı Feyiase ile uyumlu; ancak Kumasi 1680 dolaylarından beri vardı (Denkyira’ya tâbi). Atlas başlangıcı 1680’e çekilirse 1680-1701 arası “denkyira” künyesi gerekir (künye açılmadı). McCaskie 2007 özetinden alıntı: “Osei Tutu's epochal military victory over Denkyirahene Ntim Gyakari at Feyiase (1701)”."
  },
  {
   "id": "kutaisi",
@@ -13054,6 +13532,57 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Kuruluş bulunamadı. 476-560 arası boşluk; 842 Breton muhasarası/surların yıkımı sahiplik değişimi yazılmadı (süre yok). Atlas bretanya 1281 → dikiş uyumlu. Çift teyit YOK (Ptolemaios + EB1911 özdeşleme)."
  },
  {
+  "id": "niani",
+  "ad": "Niani",
+  "atlas_ad": "Niani",
+  "lat": 11.383,
+  "lon": -8.667,
+  "kat1900": 1,
+  "adlar": [
+   "Niani (Sankarani kıyısı, Gine)"
+  ],
+  "ilk": {
+   "t": "0600-01-01",
+   "gun": "6. yüzyıl",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "McIntosh, S. K. & McIntosh, R. J., Prehistoric Investigations in the Region of Jenne, Mali, BAR International Series S89, 1980, s.16-17 (Filipowiak’ın 1965-68 Niani kazısı üzerine; archive.org kopyası)",
+   "tanik": "a series of radiocarbon dates which cluster convincingly from the sixth to tenth centuries a.d.",
+   "ic_not": "Yazılı tanık YOK: Niani adı Arapça kaynaklarda geçmez, Mali başkenti olduğu da KANITSIZ (Fauvelle 2012, Palethnologie, doi:10.4000/palethnologie.6320: “concludes that there are no arguments in favour of this hypothesis”; McIntosh 1980: “there is a lack of substantive evidence for the identification of Niani with medieval Mali”; Hunwick 2003: “It is doubtful that such an army could have reached the ‘capital’ of Niani-sur-Sankarani” — İbn Battûta’nın başkenti Bamako ile Ségou arası Nijer kıyısında aranmalı). Arkeoloji: Filipowiak radyokarbon dizisi 6.-10. yy kümelenir; sorgum MS 700-900 (BAR Tablo 1.1; GHA III: “At Niani sorghum is attested in the eighth-ninth centuries”). Kümelenmenin en eski ucu 6. yy → güvenli uç 600. Filipowiak 1979 monografisi ve Fauvelle’in tam metni açılamadı (OpenEdition Anubis bot filtresi — atlatılmadı)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0600-01-01",
+   "gun": "6. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "McIntosh & McIntosh 1980 (BAR S89), s.16-17; Filipowiak 1979 atfıyla",
+   "tanik": "a series of radiocarbon dates which cluster convincingly from the sixth to tenth centuries a.d."
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0600-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "McIntosh & McIntosh 1980 (BAR S89) — “a series of radiocarbon dates which cluster convincingly from the sixth to tenth centuries a.d.”",
+    "ic_not": "Yerleşim VAR (Filipowiak’ın monografi başlığı “Średniowieczna stolica królestwa Mali – Niani w VI–XVII wieku”, 1981 — kütüphane kataloğu özetinden — 6.-17. yy iskân iddia eder; BAR 1980 yalnız radyokarbon kümesini aktarır) ama siyasî sahibi için kaynak bulunamadı: Mali künyesi 1235’te başlar; Gane (→1076) ve Susu (1076-1235) dönemlerinde Niani çevresinin kime bağlı olduğu okunan kaynaklarda yok → __BOSLUK__. Boşluk doldurma merdiveni ③-⑤ tamamlanamadı (Levtzion-Hopkins Corpus, Cambridge History of Africa açılamadı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0600-01-01",
+    "gun": "6. yüzyıl",
+    "k": "diger",
+    "b": "Niani sitesinde radyokarbonla tarihli en erken iskân kümelenmesi (6.-10. yy).",
+    "kaynak": "McIntosh & McIntosh 1980 (BAR S89), s.16-17",
+    "tanik": "a series of radiocarbon dates which cluster convincingly from the sixth to tenth centuries a.d."
+   }
+  ],
+  "dikis_beyan": "Atlasın “Niani 1281-01-01 Mali” başlangıç iddiasına kaynak bulunamadı: Niani’nin Mali başkenti/Mali elinde olduğu arkeolojik olarak doğrulanmadı (Fauvelle 2012; McIntosh 1980). 1281’de Niani’nin sahibi bilinmiyor.",
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: Niani “Mali başkenti” olarak kat 1 yazılmış; başkent kimliği çürütüldü/kanıtsız. Mali başkenti Bamako-Ségou arası Nijer kıyısı olabilir (Hunwick 1973; Fauvelle 2024 yeni hipotez özeti). Niani yerleşimi var ama sahipliği Mali’ye bağlayan tanık yok."
+ },
+ {
   "id": "nikolayev",
   "ad": "Nikolayev (Mikolayiv)",
   "atlas_ad": "Nikolayev (Mikolayiv)",
@@ -13882,6 +14411,59 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Çift teyit (olgu): saga (Laing çevirisi) + SNL; yıl için saga tarih vermez. Norsk biografisk leksikon ve Nedkvitne & Norseng (2000) bu oturumda açılmadı. Hallvard / Opslo ad biçimleri sagadan değil SNL'den; Old Norse metin heimskringla.no 508 verdi, açılamadı."
+ },
+ {
+  "id": "oyo-ile",
+  "ad": "Oyo-İle (Eski Oyo)",
+  "atlas_ad": "Oyo-İle (Eski Oyo)",
+  "lat": 8.983,
+  "lon": 4.383,
+  "kat1900": 1,
+  "adlar": [
+   "Oyo-Ile",
+   "Katunga (Hausa adı)",
+   "Eski Oyo (Old Oyo)"
+  ],
+  "ilk": {
+   "t": "0765-01-01",
+   "gun": "765 ± 90 (radyokarbon)",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "Agbaje-Williams, B., “Oyo-Ile” bölümü, The African Archaeology Network: Reports and a Review, Dar es Salaam Univ. Press 2004, ch.2 (archive.org isbn_9789976604085 tam metin araması özeti; kitabın tam metni açılamadı, 401)",
+   "tanik": "occupation of the site of Old Oyo by radiocarbon dating is 765 + 90 AD",
+   "ic_not": "Yazılı tanık bulunamadı → arkeolojik. Agbaje-Williams: sitenin iskânı için bugüne kadarki en erken radyokarbon tarihi MS 765 ± 90 (1σ; güvenli uç 855). TEK TARİH — süreklilik kanıtlanmadı; bu yüzden sahip dönemi __BILINMIYOR__ (varlık kesintisiz sayılmadı). GHA IV: Nupe 16. yy başında Yorubaları Eski Oyo’dan sürdü (“the Nupe drove the Yoruba from Old Oyo early in the sixteenth century”) — şehir 16. yy öncesi vardı. Ad: “Old Oyo or Oyo Ile or Katunga (Hausa)” (Historical Archaeology in Nigeria, 1998)."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0765-01-01",
+   "gun": "765 ± 90 (radyokarbon)",
+   "kesinlik": "yuzyil",
+   "kaynak": "Agbaje-Williams (2004), African Archaeology Network, ch.2",
+   "tanik": "occupation of the site of Old Oyo by radiocarbon dating is 765 + 90 AD"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0765-01-01",
+    "t": "1400-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Agbaje-Williams 2004 (tek radyokarbon tarihi); atlas kur 1400’ü destekleyen birincil/akademik tanık bulunamadı",
+    "ic_not": "Eski Oyo’nun 765-1400 arası varlığı ve sahibi bilinmiyor: tek radyokarbon tarihi var; Oyo devletinin kuruluş tarihi kaynakta yok (Ife geleneği; GHA IV yalnız “Nupe 16. yy başında sürdü” der). Ne aranıp bulunamadığı: Law 1977 The Oyo Empire (archive.org 401) açılamadı; Soper’ın kazı raporlarına ulaşılmadı (denenmedi); Johnson 1921 geleneksel anlatımdır, tarih vermez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0765-01-01",
+    "gun": "765 ± 90 (radyokarbon)",
+    "k": "diger",
+    "b": "Eski Oyo sitesinde radyokarbonla tarihlenmiş en erken iskân.",
+    "kaynak": "Agbaje-Williams (2004)",
+    "tanik": "occupation of the site of Old Oyo by radiocarbon dating is 765 + 90 AD"
+   }
+  ],
+  "dikis_beyan": "Atlasın “Oyo-İle kur 1400-01-01, Oyo İmparatorluğu” başlangıç iddiasına kaynak bulunamadı: GHA IV Oyo’nun kuruluşunu tarihlemez; 1400 yalnız atlas kaydıdır.",
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: Oyo-İle kur 1400 kaynaksız (atlas referans değildir). Site MS ~765’ten iskân gösterir; 1400 öncesi sahip bilinmiyor."
  },
  {
   "id": "pamplona",
@@ -15399,6 +15981,95 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ (BEYANLI): atlas Saygon'a 1281-01-01'den itibaren 'angkor-kmer' (→1431) ve 'kamboc-kralligi' (→1698) sahipliği yazıyor; Vikipedi 'initially part of Cambodian polities' (1698'e dek) diyor ama 1281 öncesine (ve zaten 1281-1698'e) dair akademik tanık BULUNAMADI. 1281 öncesi: Champa/Funan/Khmer sahiplik kanıtı yazılmadı (Coedès'te Prei Nokor yalnız 'Banteay Prei Nokor' adıyla Thbong Khmum'da, bu Saygon DEĞİL). 1698 Gia Định kuruluşu için Đại Nam thực lục / Toàn thư devamı (Phạm vi dışı) açılamadı. Günlük tanık yok."
  },
  {
+  "id": "segu",
+  "ad": "Segu (Ségou)",
+  "atlas_ad": "Segu (Ségou)",
+  "lat": 13.432,
+  "lon": -6.216,
+  "kat1900": 1,
+  "adlar": [
+   "Segu (Bamana krallığı başkenti: Segu Koro/Segu Sikoro)",
+   "Ségou"
+  ],
+  "ilk": {
+   "t": "1712-01-01",
+   "gun": "1712",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Imperato, P. J., Historical Dictionary of Mali, 4. bs., Scarecrow 2008, kronoloji (archive.org historicaldictio0000impe_m4n6, tam metin araması özeti)",
+   "tanik": "1712-55 Reign of Biton Coulibaly, founder of the Bambara kingdom of Ségou",
+   "ic_not": "Bu, BAMBARA SEGU KRALLIĞI’nın kuruluşudur (Biton Coulibaly); Segu adlı yerleşimin kendisi daha eski olabilir. Robinson 1985: “as distinguished from Segu Bugu, Segu Kura and Segu Kora” — Segu Bugu/Kura/Kora/Sikoro nehir boyunca farklı yerlerdir; atlas noktası (13.432, -6.216) bugünkü Ségou kentidir, Bamana başkenti Segu Koro/Sikoro ile aynı koordinat olmayabilir (bu oturumda ölçülemedi). 1281 öncesi yazılı/arkeolojik Segu kaydı bulunamadı (Togu Missiri 11.-14. yy yerleşimi “Ségou yakınında” — Gestrich vd. 2021, ayrı site)."
+  },
+  "kur": {
+   "t": "1712-01-01",
+   "gun": "1712",
+   "kesinlik": "yil",
+   "kaynak": "Imperato 2008 (HD Mali); Sogo bo (den Otter & Kéïta 2002) “le fondateur du royaume bamanan de Ségou (1712)”",
+   "tanik": "1712-55 Reign of Biton Coulibaly, founder of the Bambara kingdom of Ségou"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1712-01-01",
+    "t": "1861-03-09",
+    "d": "bambara",
+    "kesinlik": {
+     "f": "yil",
+     "t": "gun"
+    },
+    "kaynak": "Imperato 2008 — “1712-55 Reign of Biton Coulibaly, founder of the Bambara kingdom of Ségou”; UNESCO GHA VI, 1989 (archive.org general-history-of-africa-vol-6) — “On 9 March 1861, the Muslim army entered Segu.”",
+    "ic_not": "Bambara Segu krallığı 1712-1861. t: Umar’ın ordusunun Segu’ya girişi (GHA VI 9 Mart 1861); Stewart (African States and Rulers) 10 Mart verir, bambara künyesi t=1861-03-10 — GHA VI (UNESCO) esas, 1 gün fark beyan."
+   },
+   {
+    "f": "1861-03-09",
+    "t": "1890-04-06",
+    "d": "tekrur",
+    "kesinlik": "gun",
+    "kaynak": "GHA VI — “On 9 March 1861, the Muslim army entered Segu.”; Imperato 2008 — “When the French took Ségou on 6 April 1890”",
+    "ic_not": "Toucouleur (Umarî) Segu-Sikoro; Fransız Archinard Segu’yu 6 Nisan 1890’da aldı. Künye tekrur 1852-1893."
+   },
+   {
+    "f": "1890-04-06",
+    "t": "1898-01-01",
+    "d": "fransa-cumhuriyet",
+    "kesinlik": {
+     "f": "gun",
+     "t": "yil"
+    },
+    "kaynak": "Imperato 2008 (HD Mali): “When the French took Ségou on 6 April 1890”; aynı kayıt Mari Diarra’nın fama olarak atandığını belirtir (alıntı kısaltıldı)",
+    "ic_not": "Fransız himayesi: Imperato’ya göre Fransızlar Mari Diarra’yı kral/fama olarak atadı (vasal/protektora). Atlas Fransa sahipliğini 1898’de başlatır; 1890-1898 tam ilhak değil himaye sayılabilir — Emre kararı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1712-01-01",
+    "gun": "1712",
+    "k": "kurulus",
+    "b": "Biton (Mamari) Coulibaly Bambara Segu krallığını kurar.",
+    "kaynak": "Imperato 2008 (HD Mali)",
+    "tanik": "1712-55 Reign of Biton Coulibaly, founder of the Bambara kingdom of Ségou"
+   },
+   {
+    "t": "1861-03-09",
+    "gun": "9 Mart 1861",
+    "k": "fetih",
+    "b": "El-Hâc Ömer’in Müslüman ordusu Segu’ya girer; Bambara Segu krallığı çöker.",
+    "kaynak": "UNESCO GHA VI (1989) — Stewart 1999 10 Mart verir",
+    "tanik": "On 9 March 1861, the Muslim army entered Segu."
+   },
+   {
+    "t": "1890-04-06",
+    "gun": "6 Nisan 1890",
+    "k": "fetih",
+    "b": "Archinard komutasındaki Fransızlar Umarî başkenti Segu’yu direnişsiz alır.",
+    "kaynak": "Imperato 2008 (HD Mali)",
+    "tanik": "When the French took Ségou on 6 April 1890"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Segu için 1898’de başlıyor (Fransa); 1712-1898 arası Bambara/Tukulor sahipliği atlasta yok. Zincir buradan alınabilir. Stewart 1999 “1861, March 10 Segu taken over by the Tukolor Empire” → March 10 Segu taken over by the Tukolor Empire."
+ },
+ {
   "id": "seki-nuha",
   "ad": "Şeki (Nuha)",
   "atlas_ad": "Şeki (Nuha)",
@@ -16521,6 +17192,52 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK: güvenli uç ilk.t=1300 atlasın başlangıcından (1281-01-01) SONRA; kural gereği 1281 öncesi sahip yazılmaz. ATLAS DÜZELTME ÖNERİSİ: atlas Söğüt'ü 1281'de Osmanlı olarak açıyor ('miras', künyesiz); TDV yerleşmenin ortaya çıkışını 'XIII. yüzyılın ikinci yarısı' (1250-1300) aralığına koyar, 1281 bu aralığa düşer ama gün/yıl teyidi yok. Ertuğrul'un Söğüt'ü Alâeddin'den aldığı (Selçuklu) rivayeti TDV'de tarihsizdir → olay yazılmadı."
+ },
+ {
+  "id": "sokoto",
+  "ad": "Sokoto",
+  "atlas_ad": "Sokoto",
+  "lat": 13.062,
+  "lon": 5.234,
+  "kat1900": 1,
+  "adlar": [
+   "Sakkwato / Sakvato / Sakata (Hevsâca)",
+   "Birnin Şeyhu da Bello",
+   "Sokoto"
+  ],
+  "ilk": {
+   "t": "1804-01-01",
+   "gun": "1804",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sokoto (Sokoto, TDVİA)",
+   "tanik": "1804’te oğlu Muhammed Bello’ya kasabanın civarında askerî bir karargâh kurmasını emretmesiyle önem kazandı",
+   "ic_not": "İLK ANILIŞ alt sınırdır, kuruluş değil. TDV: cihad öncesinde “küçük bir kasaba olan Sokoto”; 1804 tarihli ilk olay, Osman b. Fûdî’nin Bello’ya şehir civarında askerî karargâh kurma emridir. Kasabanın önceki tarihi (yılı) TDV’de yok; Hevsâca Sakkwato adı Arapça sûk’tan türetilir (TDV, “ileri sürülmektedir”). Başka literatürde farklı bir kuruluş yılı önerilmiş olabilir; bu oturumda başka akademik metin okunmadığı için YAZILMADI."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1804-01-01",
+    "t": "1812-01-01",
+    "d": "sokoto",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sokoto — “1812’de Sokoto Sultanlığı (/Halifeliği) veya Nijerya Fûlânî Devleti olarak tanınan bir yönetim kurdu”",
+    "ic_not": "Sokoto künyesi 1804’te başlar (cihad); TDV Sokoto Sultanlığı’nın ilanını 1812 verir. 1804-1812 arasında kasaba hareketin askerî merkezidir. Atlas sahibiyle aynı (sokoto) → dikiş olayı gerekmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1804-01-01",
+    "gun": "1804",
+    "k": "kurulus",
+    "b": "Osman b. Fûdî, oğlu Muhammed Bello’ya Sokoto kasabası civarında askerî karargâh kurmasını emreder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sokoto",
+    "tanik": "1804’te oğlu Muhammed Bello’ya kasabanın civarında askerî bir karargâh kurmasını emretmesiyle önem kazandı"
+   }
+  ],
+  "ic_not": "ATLAS: Sokoto kur 1812 (halifeliğin ilanı); kasaba/karargâh 1804’ten beri var → atlas başlangıcı 1804’e çekilebilir (künye sokoto 1804)."
  },
  {
   "id": "srinagar",
@@ -17834,6 +18551,61 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas Tiflis'i 1281-01-01'de \"gurcistan\" olarak açıyor. TDV İlhanlı döneminde yönetimin Gürcüler'e bırakıldığını söyler ama tarih vermez; 1281 civarında günü olan bir devir tanığı (Georgian Chronicle / Brosset / Rapp) bu oturumda bulunamadı. Zincir ilhanli ile 1281'de biter; yer tutucu olay yazılmadı.",
   "ic_not": "KAYNAKLAR: TDV Tiflis (curl ile okundu) birincil; Wikipedia \"Tbilisi\", \"Tbilisi Emirate\", \"Siege of Tbilisi (1122)\" yalnız ikinci tanık; Treccani Enciclopedia Italiana \"Tiflis\" (1937) (\"Dal 570 al 580 fu in potere dei Persiani; nel 626 venne presa dai Bizantini\") TDV 628 ile 626/627 farkı: TDV esas. ATLAS ÖNERİSİ: 1121/1122 farkı (TDV 1121, atlas künye tiflis-emirligi t=1122, Wikipedia Şubat 1122): atlas künyesi TDV'ye göre 1121'e çekilebilir ya da çelişki beyan edilmeli. 852-1046 aralığı için \"tiflis-emirligi\" mi \"abbasi\" mi kararı Emre'nindir."
+ },
+ {
+  "id": "timbuktu",
+  "ad": "Timbuktu",
+  "atlas_ad": "Timbuktu",
+  "lat": 16.775,
+  "lon": -3.009,
+  "kat1900": 1,
+  "adlar": [
+   "Tinbuktu",
+   "Tinbûktû (İbn Battûta, 1353)",
+   "Tenbuch (Katalan Atlası, 1376)",
+   "Tombouctou",
+   "Timbuktu"
+  ],
+  "ilk": {
+   "t": "1100-01-01",
+   "gun": "11. yüzyıl sonu (c. 1100)",
+   "nicelik": "kurulus",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tinbuktu (Tinbüktü, Ahmet Kavas, TDVİA c.41, 2012, s.190-192); Hunwick, J. O., Timbuktu and the Songhay Empire: Al-Sa‘dī’s Ta’rīkh al-sūdān down to 1613 and other contemporary documents, Leiden: Brill, 2003 (archive.org kopyası, djvu metni), Ch.7 ve dipnot 2",
+   "tanik": "Şehrin tarihi XI. yüzyılın sonlarına kadar iner.",
+   "ic_not": "Kuruluş tanığı: Sa‘dî (Tarîḫu’s-Sûdân, ~1655) “founded by the Maghsharan Tuareg towards the end of the fifth century of the hijra” der; Hunwick dipnot 2: “500 A.H. corresponded to 1106-7 A.D.” (hicrî 500 = 1106-09-02, tablo takvimi, Jülyen — bu oturumda hesaplandı, Hunwick ile uyumlu). TDV: “XI. yüzyılın sonlarına kadar iner” (≈1090-1100). İki kaynak uyumlu; TDV esas, aralığın üst ucu hicrî 5. yy sonu olduğundan tek yıl yerine on yıl hassasiyetiyle 1100 alındı (kuruluşun en geç ucu 1106-07). Sa‘dî geç (17. yy) bir kaynaktır ve Tuareg’in yaz otlağı Amadia’da ‘Tinbuktu’ adlı köle kadının eşya bekçiliği yaptığı yeri anlatır; yerleşim ilk başta yarı-göçebe bir depo/konaklama yeriydi (Hunwick: “little more than a semi-permanent nomadic settlement in the twelfth century”). Arkeolojik tarihli Timbuktu katmanı bu oturumda bulunamadı (OpenAlex taraması: Insoll vb. özetlerinde yok) → ark yazılmadı."
+  },
+  "kur": {
+   "t": "1100-01-01",
+   "gun": "11. yüzyıl sonu (c. 1100)",
+   "kesinlik": "onyil",
+   "kaynak": "Hunwick, J. O., Timbuktu and the Songhay Empire: Al-Sa‘dī’s Ta’rīkh al-sūdān down to 1613 and other contemporary documents, Leiden: Brill, 2003 (archive.org kopyası, djvu metni), Ch.7 “The History of Timbuktu”, s.20-21 + dipnot 2 (500 A.H. = 1106-7)",
+   "tanik": "founded by the Maghsharan Tuareg towards the end of the fifth century of the hijra"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1100-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "onyil",
+    "kaynak": "Hunwick, J. O., Timbuktu and the Songhay Empire: Al-Sa‘dī’s Ta’rīkh al-sūdān down to 1613 and other contemporary documents, Leiden: Brill, 2003 (archive.org kopyası, djvu metni), Translator’s Introduction (“Songhay: an interpretive essay”) — “little more than a semi-permanent nomadic settlement in the twelfth century”",
+    "ic_not": "Şehir VAR (Tuareg Maghsharan’ın kurduğu konaklama/depo yeri) ama SİYASÎ SAHİBİ kaynakta bulunamadı. Sa‘dî Timbuktu’nun ilk hükümdarlarının Malililer olduğunu söyler; Hunwick dipnot 12: Mansa Mûsâ Mekke dönüşünde (724/1324) Timbuktu’yu ele geçirdi, “most probably in 1325”. Sa‘dî ch.3: “he took possession of it. He was the first ruler to do so”. 1100-1325 arası için Gane/Susu/Songay vb. bir sahip tanığı yok → __BOSLUK__ (uydurma sahip yazılmadı). Boşluk doldurma merdiveni ③-⑤ (komşu devletlerin kaynakları / abi merkez) bu oturumda Levtzion-Hopkins Corpus ve Cambridge History of Africa (archive.org ödünç, 401) açılamadığı için tamamlanamadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1100-01-01",
+    "gun": "11. yüzyıl sonu (c. 1100)",
+    "k": "kurulus",
+    "b": "Maghsharan Tuareg, yaz otlağı olarak kullandıkları Amadia köyü yanında Tinbuktu’yu kurar (Sa‘dî geleneği).",
+    "kaynak": "Hunwick, J. O., Timbuktu and the Songhay Empire: Al-Sa‘dī’s Ta’rīkh al-sūdān down to 1613 and other contemporary documents, Leiden: Brill, 2003 (archive.org kopyası, djvu metni), Ch.7; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tinbuktu",
+    "tanik": "founded by the Maghsharan Tuareg towards the end of the fifth century of the hijra"
+   }
+  ],
+  "dikis_beyan": "Atlasın “Timbuktu 1281-01-01 Mali” başlangıç iddiasına kaynak bulunamadı: Sa‘dî (Hunwick ch.3) Mansa Mûsâ’nın Timbuktu’yu ilk ele geçiren hükümdar olduğunu (dönüş yolunda, ~1324/25) söyler; Hunwick: 12. yy ve muhtemelen 13. yy’da şehir yarı-göçebe bir yerleşimdi. Atlas başlangıcı ~1325’e ertelenmeli ya da 1281-1325 arası Mali sahipliği için ayrı tanık aranmalı.",
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: Timbuktu Mali sahipliği 1281 değil ~1324/25 (Sa‘dî/Hunwick). Ad: Sa‘dî’ye göre kölenin adı “Tinbuktu”; TDV: İbn Battûta 754/1353’te adı Tinbûktû yazar, Katalan Atlası 1376 “Tenbuch”. Sa‘dî’nin hicrî 737/1336-7 (Mali hâkimiyeti başı) ile Mansa Mûsâ 1325 tarihleri çelişir; Hunwick dipnot 12 “Sa‘dî iki olayı karıştırmış” der."
  },
  {
   "id": "toledo",
@@ -20913,6 +21685,48 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Zaragoza kuruluşu TDV'ye göre MÖ 24 (Roma kolonisi, Salduba üstünde). Çok dilli ek kaynak: Strabon (Loeb, LacusCurtius) 'Caesar Augusta' adını verir; Princeton Encyclopedia of Classical Sites 'Caesaraugusta' maddesi Perseus 503 verdi (açılamadı). Dönem sınırı notları: Vizigot 466 (Isidorus) ↔ Treccani ≈470; Hûdî başlangıcı hicrî 431 kesişimi 1039-09-23 (TDV 'Hûdîler hânedanı 431/1039'). Zincir atlas ilk gününde (1110-01-01 Murâbıt) biter. Çift teyit YOK."
+ },
+ {
+  "id": "zaria",
+  "ad": "Zaria (Zazzau)",
+  "atlas_ad": "Zaria (Zazzau)",
+  "lat": 11.086,
+  "lon": 7.72,
+  "kat1900": 2,
+  "adlar": [
+   "Zegzeg / Zazzau",
+   "Zaria"
+  ],
+  "ilk": {
+   "t": "1500-01-01",
+   "gun": "15. yüzyıl sonu",
+   "nicelik": "kurulus",
+   "kesinlik": "yuzyil",
+   "kaynak": "UNESCO, General History of Africa IV: Africa from the Twelfth to the Sixteenth Century, 1984 (archive.org general-history-of-africa-vol-4, djvu metni), Adamu M., Hausa bölümü, s.274 (A. Smith 1970b’ye dayanır; M. Last farklı yorumlar)",
+   "tanik": "probably at the end of the fifteenth century",
+   "ic_not": "A. Smith’e göre Zazzau şeflikleri Turunku ve Kufena’da yoğunlaşmıştı; Turunku hükümdarı Bakwa 15. yy sonunda Kufena’yı da ele geçirip yeni başkenti bugünkü Zaria kentinin doğu ucunda kurdu (“probably at the end of the fifteenth century”). Kuruluş yılı verilmiyor → 15. yy sonu (kesinlik yüzyıl; güvenli uç 1500). Last: ~1200’de Kamuku “Kangoma” federasyonu, Hausa egemenliği ancak 1641 (“It was only in 1641 that the Hausa people began to rule Zegzeg or Zazzau”) — GHA IV bu teoriyi “rather bold” bulup varsayım düzeyinde bırakır. GHA IV: “even more clouded than that of Katsina”."
+  },
+  "kur": {
+   "t": "1500-01-01",
+   "gun": "15. yüzyıl sonu",
+   "kesinlik": "yuzyil",
+   "kaynak": "UNESCO, General History of Africa IV: Africa from the Twelfth to the Sixteenth Century, 1984 (archive.org general-history-of-africa-vol-4, djvu metni), s.274",
+   "tanik": "probably at the end of the fifteenth century"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1500-01-01",
+    "gun": "15. yüzyıl sonu",
+    "k": "kurulus",
+    "b": "Zazzau krallarının yeni başkenti bugünkü Zaria kentinin bulunduğu yerde kurulur (Kufena birni’sinin doğu ucu).",
+    "kaynak": "UNESCO, General History of Africa IV: Africa from the Twelfth to the Sixteenth Century, 1984 (archive.org general-history-of-africa-vol-4, djvu metni), s.274",
+    "tanik": "probably at the end of the fifteenth century"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas “Zaria 1281-01-01 Hausa şehir devletleri” der; 1281’de bugünkü Zaria yoktu (Turunku/Kufena şeflikleri; kent ~15. yy sonu). Atlas başlangıcı ~1500’e ertelenmeli ya da 1281-1500 arası Turunku/Kufena ayrı kayıt olmalı."
  },
  {
   "id": "zencan",
