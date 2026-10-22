@@ -9,7 +9,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 KOK = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 DL = r"C:\atlas\.claude\worktrees\cool-visvesvaraya-5a3306\denetim\ONCE1281-DEVLET-LISTESI.json"
 DL2 = r"C:\atlas\.claude\worktrees\cool-visvesvaraya-5a3306\denetim\once1281\devir\MO-ARKEO_MO12000-MS499.json"
-BIRLESTIR = {"tanuhiler": "tenuh", "bati-qin": "bati-qin-qifu",
+BIRLESTIR = {"tanuhiler": "tenuh", "bati-qin": "bati-qin-qifu", "on-yan": "onceki-yan",
              # polity DEĞİL (doğrulama ajanı: kültür/etnik grup/faz etiketi; kaynakta 'krallık' olarak yok) → künye YAZILMAZ (tür kultur olarak ayrı karar)
              "proto-elam-susa": None, "naqada-ombos-krallik": None, "hierakonpolis-krallik": None, "liguria-kabileler": None, "umbri-kabile": None, "messapi-birligi": None,
              # kesintili aralık (doğrulama ajanı: polity arada yok oldu/yeniden kuruldu) → tek f→t künyesi yanıltır, YAZILMAZ
