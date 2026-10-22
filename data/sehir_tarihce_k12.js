@@ -994,6 +994,115 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Atlas başlangıcı (1537-08-15) ile tutuyor. Kaynak yalnız Vikipedi; RAH DBE (dbe.rah.es) sayfaları boş döndü. 1281 öncesi: yok."
  },
  {
+  "id": "ava",
+  "ad": "Ava (İnwa)",
+  "atlas_ad": "Ava (İnwa)",
+  "lat": 21.855,
+  "lon": 95.981,
+  "kat1900": null,
+  "adlar": [
+   "Ratanapura",
+   "Ava",
+   "Inwa"
+  ],
+  "ilk": {
+   "t": "1364-01-01",
+   "gun": "1364",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "J.G. Scott & J.P. Hardiman, Gazetteer of Upper Burma and the Shan States (Rangoon 1900-01; archive.org: in.ernet.dli.2015.281437), Sagaing maddesi (Burmese chronicle atfıyla); G.E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London: Longmans 1925; archive.org: historyofburmafr00harv) s.80 ve kronoloji tablosu",
+   "tanik": "grandson founded Ava and was the first king at that capital",
+   "ic_not": "İKİ AKADEMİK KAYNAK AYNI YIL: Scott & Hardiman (1900) 'torunu Ava'yı kurdu … (Thadomin-paya, A.D. 1364)'; Harvey 1925 'Founded Ava 1364' ve 'bataklıkları kurutup şehri inşa etti' (Thadominbya 1364-68). Aynı yıl ama ikisi de Burma kroniğine dayanır — bağımsız çift teyit sayılmadı. GÜN: Vikipedi (Hmannan'a atıf, yalnız tutarlılık) 26 Şubat 1365 (726 ME Tabaung) der — yıl 1365'e kayar; bu oturumda Hmannan'ın kendisi açılmadı → gün/ yıl farkı atlas için beyanlı tutuldu: atlasın 1364-01-01'i YIL hassasiyetli kalır, Hmannan günü doğrulanırsa kur 1365-02-26 olabilir."
+  },
+  "kur": {
+   "t": "1364-01-01",
+   "gun": "1364",
+   "kesinlik": "yil",
+   "kaynak": "G.E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London: Longmans 1925; archive.org: historyofburmafr00harv) (tablo: 'Founded Ava 1364')",
+   "tanik": "Founded Ava 1364"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1364-01-01",
+    "gun": "1364",
+    "k": "kurulus",
+    "b": "Thadominbya (Sagaing hanedanı) bataklıkları kurutarak Ava'yı kurar ve ilk kral olur.",
+    "kaynak": "G.E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London: Longmans 1925; archive.org: historyofburmafr00harv) s.80; J.G. Scott & J.P. Hardiman, Gazetteer of Upper Burma and the Shan States (Rangoon 1900-01; archive.org: in.ernet.dli.2015.281437), Sagaing maddesi",
+    "tanik": "drained the swamps round Ava, and built the town"
+   }
+  ],
+  "ic_not": "SONUÇ: Ava 1364'te kurulmuş yeni başkenttir; atlas 1364-01-01'den başlıyor → ZİNCİR BOŞ (ilk.t = atlas başlangıcı). 1364 öncesi şehir yok; aynı yerde önceki yerleşim: Cœdès, Ngayaman Kan'ın 1084'te 'Ava'nın sonradan kurulacağı yerde' tahkimat yaptığını söyler (yer anıtı, şehir değil — yazılmadı). Gazetteer'de klasik ad 'Ratanapura'. kat1900: Ava 1900 şehir listesinde yok (null)."
+ },
+ {
+  "id": "ayutthaya",
+  "ad": "Ayutthaya",
+  "atlas_ad": "Ayutthaya",
+  "lat": 14.353,
+  "lon": 100.578,
+  "kat1900": 2,
+  "adlar": [
+   "Ayodhya Si Ramathepnakhon",
+   "Xian (Çin kaynaklarında, olası)",
+   "Ayutthaya"
+  ],
+  "ilk": {
+   "t": "1351-03-04",
+   "gun": "4 Mart 1351",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "Chris Baker & Pasuk Phongpaichit, A History of Ayutthaya: Siam in the Early Modern World (Cambridge UP 2017), böl.2 'Ayutthaya Rising', s.43-84, doi:10.1017/9781108120197.003 (archive.org: ayutthaya-rising), s.43 (Luang Prasoet kroniği 1681, çev. Baker & Pasuk)",
+   "tanik": "The date of establishing the city in the chronicle is equivalent to March 4, 1351.",
+   "ic_not": "KRONİK 'RESMÎ KURULUŞ' tarihi: Luang Prasoet kroniği (1681 derlemesi) Küçük Era 712'de (cuma, 5. ayın 6. azalan günü) 'Si Ayutthaya büyük şehri kuruldu' der; Baker & Pasuk bunu 4 Mart 1351'e çevirir (Jülyen, çevrilmedi). AYNI KAYNAK: 'Ayutthaya bu resmî kuruluştan önce de vardı — hırslı bir liman şehri olarak' ve 'kazılarda 1270'lere kadar tarihlenen çanak çömlek parçaları çıktı' (ark alanı). Yani 1351 şehrin kuruluşu değil resmî kuruluş tarihidir; atlasın 1351-03-04 kur değeriyle uyumlu."
+  },
+  "kur": {
+   "t": "1351-03-04",
+   "gun": "4 Mart 1351",
+   "kesinlik": "gun",
+   "kaynak": "Chris Baker & Pasuk Phongpaichit, A History of Ayutthaya: Siam in the Early Modern World (Cambridge UP 2017), böl.2 'Ayutthaya Rising', s.43-84, doi:10.1017/9781108120197.003 (archive.org: ayutthaya-rising), s.43",
+   "tanik": "the great city of Si Ayutthaya was established"
+  },
+  "ark": {
+   "t": "1270-01-01",
+   "gun": "1270'ler",
+   "kesinlik": "onyil",
+   "kaynak": "Chris Baker & Pasuk Phongpaichit, A History of Ayutthaya: Siam in the Early Modern World (Cambridge UP 2017), böl.2 'Ayutthaya Rising', s.43-84, doi:10.1017/9781108120197.003 (archive.org: ayutthaya-rising), böl.2 (kazı verilerine atıf)",
+   "tanik": "Digs have yielded pottery shards dateable back to the 1270s.",
+   "ic_not": "Kazı çanak çömleği 1270'ler: arkeolojik. Yazılı kuruluş tanığı (1351) bulunduğu için ilk.nicelik arkeolojik değil. Baker & Pasuk, adın 1344 dolayında 'Ayodhya Si Ramathepnakhon' diye bir yazıtta anıldığını ve 1320'lerde Sukhothai'li rahiplerin ziyaretini aktarır (geç kaynaklı Zamnan mulasasana) — tarihleri 'yaklaşık' olduğundan ilk.t olarak alınmadı."
+  },
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1292-01-01",
+    "gun": "1292",
+    "k": "diger",
+    "b": "Çin kaynaklarında 'Xian'ın 1292'de Çin'e heyet gönderdiği geçer; Baker & Pasuk Xian'ın 'büyük olasılıkla baştan beri Ayutthaya' olduğunu söyler (kesin değil — erken dönemde başka yer olabilir).",
+    "kaynak": "Chris Baker & Pasuk Phongpaichit, A History of Ayutthaya: Siam in the Early Modern World (Cambridge UP 2017), böl.2 'Ayutthaya Rising', s.43-84, doi:10.1017/9781108120197.003 (archive.org: ayutthaya-rising), s.45-46",
+    "tanik": "Xian sent a mission to China in 1292, and China sent a return mission"
+   },
+   {
+    "t": "1344-01-01",
+    "gun": "1344 civarı",
+    "k": "diger",
+    "b": "Sukhothai'li rahip Si Sattha Sri Lanka dönüşünde 'Ayodhya Si Ramathepnakhon'u ziyaret eder (Lithai dönemi yazıtının çevirisi; tarih 'yaklaşık').",
+    "kaynak": "Chris Baker & Pasuk Phongpaichit, A History of Ayutthaya: Siam in the Early Modern World (Cambridge UP 2017), böl.2 'Ayutthaya Rising', s.43-84, doi:10.1017/9781108120197.003 (archive.org: ayutthaya-rising), s.46-47 (Griswold & Prasert 1973'e atıf)",
+    "tanik": "Ayodhya Si Ramathepnakhon, the place of the pond of Virunasa of Patala"
+   },
+   {
+    "t": "1351-03-04",
+    "gun": "4 Mart 1351",
+    "k": "kurulus",
+    "b": "Luang Prasoet kroniğine göre Si Ayutthaya büyük şehri 'kurulur' (resmî kuruluş).",
+    "kaynak": "Chris Baker & Pasuk Phongpaichit, A History of Ayutthaya: Siam in the Early Modern World (Cambridge UP 2017), böl.2 'Ayutthaya Rising', s.43-84, doi:10.1017/9781108120197.003 (archive.org: ayutthaya-rising), s.43",
+    "tanik": "the great city of Si Ayutthaya was established"
+   }
+  ],
+  "ic_not": "SONUÇ: ilk.t = atlas başlangıcı (1351-03-04) → ZİNCİR BOŞ (kural gereği). ATLAS NOTU: Baker & Pasuk (2017) şehrin 1351 öncesi de 'liman şehri' olarak var olduğunu (1270'lerden çanak çömlek; 1320'ler-1344 anılışları) söyler; atlas 'ayutthaya' künyesi 1351'de başlar — önceki dönem için künye genişletme ya da 'kurulus öncesi' ayrı bir sahip (Lavo/Lopburi'ye bağlı liman?) kaynakta YOKTUR, yazılmadı. İkinci bağımsız kronik kaynak (Royal Chronicles, Cushman/Wyatt) bu oturumda açılamadı (restricted) — çift teyit YOK."
+ },
+ {
   "id": "bahawalpur",
   "ad": "Bahâvelpûr",
   "atlas_ad": "Bahâvelpûr",
@@ -1122,6 +1231,155 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "TDV/EIr uyumsuzluğu: TDV Balasagun 658'de Çinlilerin 'Şu Kalesi'ni (Suiye) aldığını ve VII. yy'da Tung Yabgu hâkimiyetini yazar (yer eşitlemesi); EIr yer belirsiz diyerek ilk anışı 943 verir. Burada yeri-kesin-olmayan eşitleme ilkesi uygulandı; atlas düzeltme önerisi YOK, ama 'Suyab (Ak-Beşim) 658 Tang' ayrı kayıt olabilir. Atlas ilk sahibi karahanli 1000-01-01: dikiş aynı. Karahıtay 1130 ve 1210 yıkım (TDV) atlas kapsamında."
+ },
+ {
+  "id": "banda-ace",
+  "ad": "Banda Açe",
+  "atlas_ad": "Banda Açe",
+  "lat": 5.548,
+  "lon": 95.324,
+  "kat1900": 2,
+  "adlar": [
+   "Bandar Aceh Darussalam",
+   "Kutaraja (Koetaradja, Kuta Raja)",
+   "Banda Aceh"
+  ],
+  "ilk": {
+   "t": "1515-01-01",
+   "gun": "1515",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Tomé Pires, Suma Oriental (1512-1515 arasında Malaka ve Hindistan'da yazıldı; A. Cortesão neşri, Hakluyt Society 1944; archive.org: McGillLibrary-136388-15666, Portekizce metin f.163v)",
+   "tanik": "he o Regno dachei",
+   "ic_not": "İLK ANILIŞ (kuruluş DEĞİL; alt sınır; ARALIK uç): Pires, Sumatra krallıklarını sayarken 'Gamispola'dan başlayarak … Açe krallığı (Regno dachei)' ile açar. Eser 1512-1515'te yazıldığından GÜVENLİ UÇ 1515 alındı (kural: aralığın son ucu). Bu 'Açe krallığı'dır — bugünkü Banda Aceh noktasının şehir olarak anıldığı ayrı kayıt bu oturumda bulunamadı. TARİH ÇELİŞKİSİ (beyan): (a) TDV 'AÇE': Açe İslâm Sultanlığı Ali Mugāyet Şah önderliğinde 1521'de kuruldu; merkez Benderaçe (Banda Aceh). (b) Ricklefs: 'Sebelum kira-kira tahun 1500, Aceh belumlah begitu menonjol'; ilk sultan Ali Mughayat Syah (m. 1514-30), mezar taşı 936 H/1530. (c) Endonezya yerel tarih yazımı (Hasjmy 1983; Iskandar 1996; Adabiya 26/1, 2024; Adabiya 24/2, 2022): Sultan Johan Syah 1205'te Bandar Aceh Darussalam'ı kurdu / Lamuri'yi fethetti — GELENEK/yerel anlatı (17. yy kroniklerine dayanır; bu oturumda ilk kaynak açılmadı); TDV ve Ricklefs ile çelişir, kur olarak ALINMADI. (d) Atlas 1496'yı kur alıyor — kaynağı bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1205-01-01",
+    "gun": "1205",
+    "k": "diger",
+    "b": "GELENEK (yerel Endonezya tarih yazımı; tarih olarak alınmadı): Sultan Johan Syah'ın Bandar Aceh Darussalam'ı kurduğu söylenir.",
+    "kaynak": "A. Zulhelmi, A. Fajri vd., 'The Struggle of the Aceh Society in the Historical Framework of Malay and Nusantara', Jurnal Adabiya 26/1 (2024) s.79-86, doi:10.22373/adabiya.v26i1.20689 (Hasjmy 1983'e atıf)",
+    "tanik": "he founded the City of Darussalam in 1205"
+   },
+   {
+    "t": "1515-01-01",
+    "gun": "1515",
+    "k": "diger",
+    "b": "Pires Sumatra krallıkları listesini 'Açe krallığı (Regno dachei)' ile açar (eser 1512-1515).",
+    "kaynak": "Tomé Pires, Suma Oriental (1512-1515)",
+    "tanik": "he o Regno dachei"
+   },
+   {
+    "t": "1521-01-01",
+    "gun": "1521",
+    "k": "kurulus",
+    "b": "TDV: Portekizlilere karşı verilen mücadele sonunda Açe bölgesinde Açe İslâm Sultanlığı kurulur (Ali Mugāyet Şah).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'AÇE' maddesi, https://islamansiklopedisi.org.tr/ace",
+    "tanik": "1521 yılında Açe bölgesinde Açe İslâm Sultanlığı kuruldu"
+   },
+   {
+    "t": "1524-01-01",
+    "gun": "1524",
+    "k": "fetih",
+    "b": "Ali Mughayat Syah Pedir ve Pasai'yi alır.",
+    "kaynak": "M.C. Ricklefs, Sejarah Indonesia Modern 1200-2004 (Jakarta: Serambi 2005; 'A History of Modern Indonesia since c.1200' Endonezce çevirisi), s.27-28 (Samudra) ve s.80-81 (Aceh)",
+    "tanik": "pada tahun 1524, dia merebut Pedir dan Pasai"
+   }
+  ],
+  "ic_not": "SONUÇ: Banda Aceh için kaynaklı kuruluş tarihi YOK; 1205 yerel gelenektir (TDV/Ricklefs ile çelişir), akademik zemin 16. yy başı: Pires 1512-15 (Açe krallığı), TDV 1521 (sultanlık), Ricklefs (Ali Mughayat Syah 1514-30, 'sebelum 1500 Aceh belum menonjol'). Atlas Banda Aceh'i 1496-01-01'de 'ace-sultanligi' ile başlatıyor; ilk.t (1515) atlas başlangıcından SONRA → ZİNCİR BOŞ, uyarı BEKLENİR. ATLAS DÜZELTME ÖNERİSİ: 'ace-sultanligi' künyesi (f=1496) ve noktanın başlangıcı kaynaksız görünüyor — TDV 1521, Ricklefs ~1514; karar Emre'nin. Lamuri/Lamreh (Çin 'Lan-wu-li', Zhu Fan Zhi 1225; Lamreh mezar taşı 608 H/1211, Ricklefs s.27) Banda Aceh'in ~15+ km doğusunda ayrı bir yerdir → kural gereği buraya yazılmadı; ayrı kayıt ('Lamuri/Lamreh') önerilir. kat1900: Koetaradja listede kategori 2."
+ },
+ {
+  "id": "bangkok",
+  "ad": "Bangkok (Tonburi)",
+  "atlas_ad": "Bangkok (Tonburi)",
+  "lat": 13.754,
+  "lon": 100.501,
+  "kat1900": 1,
+  "adlar": [
+   "Bangkok",
+   "Thonburi (T'anaburi)"
+  ],
+  "ilk": {
+   "t": "1687-01-01",
+   "gun": "1687",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "W.A.R. Wood, A History of Siam (London: Fisher Unwin 1924/26; archive.org: historyofsiam035038mbp), Narai dönemi anlatısı (Lake'in tutuklanması, ölümü 1687)",
+   "tanik": "Count de Forbin, the French Commandant of the fort of Bangkok",
+   "ic_not": "İLK ANILIŞ (kuruluş DEĞİL; ALT SINIR): bu oturumda açılan en erken kesin tanık, Wood'un anlatısındaki 'Bangkok kalesi'nin (Fransız komutan Forbin) 1687'deki varlığıdır (Kaptan Lake bu olay yüzünden tutuklanır, 1687'de ölür). Wood ayrıca yaklaşık 1530'larda Kral Prajai'nin 'Bangkok'ta Menam nehrinin seyrini düzeltmek için' kanal kazdırdığını anlatır (nehir bölgesi — şehir değil) ve Baker & Pasuk (2017) Ayutthaya'dan önce 'Bangkok' kurulduğunu söyleyen geç bir efsane (Van Vliet) aktarır (GELENEK, tarih yok). Yani 1687 bir ALT SINIRDIR; Bangkok/Thonburi daha eskidir (garnizon kasabası) ama kaynaklı daha eski gün BULUNAMADI. (Yerel kronik — Luang Prasoet/Royal Chronicles — bu oturumda açılamadı.)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1687-01-01",
+    "t": "1767-04-01",
+    "d": "ayutthaya",
+    "kesinlik": "yil",
+    "kaynak": "W.A.R. Wood, A History of Siam (London: Fisher Unwin 1924/26; archive.org: historyofsiam035038mbp) (Narai dönemi 'Bangkok kalesi'; Aralık 1765'te Ekathat adına T'anaburi savunması)",
+    "tanik": "By December 1765 the Burmese were attacking T'anaburi (Bangkok).",
+    "ic_not": "Ayutthaya Krallığı (künye ayutthaya f=1351). 1767-04-01: Ayutthaya'nın Birmanya'ya düşüşü (Wood: Chantabun 'Ayutthaya'nın düşüşünden iki ay sonra', Haziran 1767 → düşüş Nisan 1767). Dönem sonu AY hassasiyetli; atlasın ayutthaya künye bitişi 1767-04-07'dir (6 gün fark)."
+   },
+   {
+    "f": "1767-04-01",
+    "t": "1767-10-01",
+    "d": "konbaung",
+    "kesinlik": "ay",
+    "kaynak": "W.A.R. Wood, A History of Siam (London: Fisher Unwin 1924/26; archive.org: historyofsiam035038mbp) s.252",
+    "tanik": "a renegade Siamese who had been set up by the Burmese as Governor",
+    "ic_not": "Düşüşten sonra Thonburi'yi Birmanya'nın atadığı vali Nai Thong In yönetir (Wood). BEYAN: Thonburi'nin Birmanyalılara geçiş günü kaynakta yok; Ayutthaya'nın düşüş ayından başlatıldı ('en geç' mantığı değil, olası erken uç) ve ucu 'Ekim 1767' (Wood: 'Ekim'e kadar ordu beşbine çıkmıştı, Birmanyalılara saldırdı') — Taksin'in Thonburi'yi alışı Ekim-Kasım 1767 aralığında; kesin gün BULUNAMADI. konbaung künyesi (1752-) Birmanya devleti."
+   },
+   {
+    "f": "1767-10-01",
+    "t": "1767-12-28",
+    "d": "tonburi",
+    "kesinlik": "ay",
+    "kaynak": "W.A.R. Wood, A History of Siam (London: Fisher Unwin 1924/26; archive.org: historyofsiam035038mbp) s.252-253",
+    "tanik": "he sailed up the Menam River and speedily took T'anaburi (Bangkok)",
+    "ic_not": "Taksin Thonburi'yi alır ve Nai Thong In'i idam eder; sonra 'Bangkok'ta (Thonburi) kral olarak taç giyer' (Wood; taç giyme günü bu kaynakta yok). tonburi künyesi 1767-12-28'de başlar (hayalet uyarısı beklenir): aynı yönetim, taç giymeden önceki Taksin dönemi — KÜNYE GENİŞLETME önerisi (f ≈ Taksin'in Thonburi'yi alışı, Ekim-Kasım 1767). Dönem başı ay hassasiyetli 'Ekim 1767' (kesin ay bile belirsiz)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1687-01-01",
+    "gun": "1687",
+    "k": "diger",
+    "b": "İlk kesin anılış: Bangkok kalesi Fransız komutan Forbin'in elindedir (Narai dönemi).",
+    "kaynak": "W.A.R. Wood, A History of Siam (London: Fisher Unwin 1924/26; archive.org: historyofsiam035038mbp)",
+    "tanik": "Count de Forbin, the French Commandant of the fort of Bangkok"
+   },
+   {
+    "t": "1765-12-01",
+    "gun": "Aralık 1765",
+    "k": "kusatma",
+    "b": "Birmanya orduları T'anaburi'ye (Bangkok) saldırır; İngiliz kaptan Pauni şehri savunur.",
+    "kaynak": "W.A.R. Wood, A History of Siam (London: Fisher Unwin 1924/26; archive.org: historyofsiam035038mbp) s.250",
+    "tanik": "By December 1765 the Burmese were attacking T'anaburi (Bangkok)."
+   },
+   {
+    "t": "1767-04-01",
+    "gun": "Nisan 1767",
+    "k": "fetih",
+    "b": "Ayutthaya Birmanya'ya düşer (Wood: Chantabun'un alınışı 'düşüşten iki ay sonra', Haziran 1767); Thonburi Birmanya'nın atadığı valiye geçer — künye geçişi ayutthaya → konbaung.",
+    "kaynak": "W.A.R. Wood, A History of Siam (London: Fisher Unwin 1924/26; archive.org: historyofsiam035038mbp) s.252",
+    "tanik": "two months after the fall of Ayut'ia"
+   },
+   {
+    "t": "1767-10-01",
+    "gun": "Ekim 1767",
+    "k": "fetih",
+    "b": "Taksin Thonburi'yi alır, Birmanya'nın atadığı vali Nai Thong In'i idam eder; künye geçişi konbaung → tonburi.",
+    "kaynak": "W.A.R. Wood, A History of Siam (London: Fisher Unwin 1924/26; archive.org: historyofsiam035038mbp) s.252",
+    "tanik": "he sailed up the Menam River and speedily took T'anaburi (Bangkok)"
+   }
+  ],
+  "ic_not": "SONUÇ: Bangkok/Thonburi'nin 1281 öncesi ya da 1687 öncesi kaynaklı zinciri BULUNAMADI (Ayutthaya kroniklerinin Thonburi'si bu oturumda açılamadı). Zincir yalnız 1687 → 1767-12-28 (atlas başlangıcı). ATLAS NOTLARI: (1) atlas 'tonburi' künyesini 1767-12-28'de başlatır ve nokta kur=1767-12-28 alır; Taksin Thonburi'yi daha önce (Ekim-Kasım 1767) aldı ve Wood Bangkok'u (Thonburi) 1687'de kale olarak anar — kur 'Thonburi şehir kuruluşu' değil Taksin başkentliğidir. (2) 1767-04'ten Taksin'e kadar Birmanya vali yönetimi atlasta yok. (3) Wood'un 'T'anaburi=Bangkok' notu: bugünkü Bangkok'un resmî kuruluşu 1782 (Rama I; ayrı kayıt, nehrin öte yakası). Çift teyit: Wood tek akademik kaynak; Wikipedia (yalnız tutarlılık) Thonburi'yi Ayutthaya dönemi garnizon kasabası olarak niteler."
  },
  {
   "id": "barselona",
@@ -4328,6 +4586,55 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Çince birincil metinler zh.wikisource'tan curl/w2.py ile okundu (Hanshu, Hou Han Shu, Sanguozhi, Jin Shu, Song Shu, Nan Qi Shu, Liang Shu, Chen Shu, Sui Shu, Jiu Tang Shu, Xin Wudai Shi, Zizhi Tongjian, Song Shi, Yuan Shi). Çince akademik makale (CNKI/OpenAlex) ARANMADI/açılamadı: Mawangdui (Han Changsha Krallığı mezarları), Zoumalou Wu bambu levhaları (Changsha şehir merkezi) gibi arkeolojik kaynaklar bu oturumda okunmadı ⇒ ark boş. ÇİFT TEYİT: 1276 Yuan fethi (Yuan Shi 9 + Song Shi 450), 951 Nan Tang girişi (ZZTJ 290 + Xin Wudai Shi 66, yıl düzeyi), 894 Liu Jianfeng (Xin Wudai Shi 66 + ZZTJ 259 yıl başlığı), 927 Ma Yin Chu Kralı (Xin Wudai Shi 66 + ZZTJ 276). Künye aşımları (UYARI, hayalet): bati-han (t=8, Han 9'a kadar), xin, sun-wu (f 222, 215'ten), chu-ma (f 927, 894'ten), tang; hepsi 'aynı polity ⇒ künyeyi GENİŞLET' sınıfında. Künye YOK: xiao-xian-liang (617-621), hunan-wuping-rejimi (952-963). __BOSLUK__: 23-10-06 → 25-08-05 (Gengshi dönemi), 557-11-16 → 561-02-24 (Wang Lin/Kuzey Zhou). ATLAS DÜZELTME ÖNERİSİ: atlas Changsha'yı 1281'de Yuan ile başlatıyor; şehir MÖ 202'den beri kaynaklı — başlangıç MÖ 202'ye çekilebilir (MÖ tarih motorda henüz yok, C4). Atlasta Yuan t=1368-01-23 / Ming f=1368-01-23: Ming'in Changsha'yı aldığı gün bu oturumda ölçülmedi (1281 sonrası kapsam dışı). 3. yy sonu - 4. yy kısa isyanları (okunmadı), 6. yy ortası Hou Jing/Wang Lin ayrıntısı gün düzeyinde bulunamadı; zincir bu uçlarda merkezî olay günleriyle (en geç tanık) kuruldu."
  },
  {
+  "id": "chiang-mai",
+  "ad": "Chiang Mai",
+  "atlas_ad": "Chiang Mai",
+  "lat": 18.788,
+  "lon": 98.985,
+  "kat1900": 2,
+  "adlar": [
+   "Chiang Mai (Chiangmai, 'yeni şehir')"
+  ],
+  "ilk": {
+   "t": "1296-04-12",
+   "gun": "12 Nisan 1296",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "Sarassawadee Ongsakul, 'The Plan of Chiang Mai City: Concepts and Local Knowledge', Journal of the Siam Society 108/2 (2020), s.47-64 (s.54-55) (so06.tci-thaijo.org/index.php/pub_jss/article/download/246581/167631) (Chiang Man yazıtı'na atıfla; Historical Document Publishing Committee 1965 s.210)",
+   "tanik": "resolved this date as Thursday, 12 April 1296 CE at 4.00 a.m.",
+   "ic_not": "Chiang Man yazıtı şehir hendeklerinin inşasına başlama zamanını 'yıl 658 (Maymun yılı), 8. ayın 8. günü, artan ay' olarak verir; 'Şehir Burcu Doğrulama Komitesi' bunu Perşembe 12 Nisan 1296 Jülyen (= 19 Nisan Gregoryen) saat 04:00 diye çözer. Sarassawadee: 'gerçek kuruluş tarihi konusunda hâlâ tartışma var'. Cœdès yılı 1296 olarak verir ve alanın 1292'den beri seçildiğini söyler; Vikipedi (yalnız tutarlılık) 1294 ya da 1296 der. TAKVİM: 1582 öncesi Jülyen — 12 Nisan 1296 Jülyen alındı, çevrilmedi (atlasın 1296-04-12'si aynı). ÇİFT TEYİT (yıl): Cœdès 1968 ve Sarassawadee 2020 (1296)."
+  },
+  "kur": {
+   "t": "1296-04-12",
+   "gun": "12 Nisan 1296",
+   "kesinlik": "gun",
+   "kaynak": "Sarassawadee Ongsakul, 'The Plan of Chiang Mai City: Concepts and Local Knowledge', Journal of the Siam Society 108/2 (2020), s.47-64 (s.54-55) (so06.tci-thaijo.org/index.php/pub_jss/article/download/246581/167631)",
+   "tanik": "the year 658, a year of the monkey, the eighth day of the waxing moon"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1292-01-01",
+    "gun": "1292",
+    "k": "diger",
+    "b": "Mangrai ve iki müttefiki şehrin yerini daha 1292'de seçer (Wat Chiang Man ile işaretlenir) — Haripunjaya (Lamphun) 1291-92'de alınmıştır.",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.209",
+    "tanik": "Mangrai and his two allies chose the site as early as 1292"
+   },
+   {
+    "t": "1296-04-12",
+    "gun": "12 Nisan 1296",
+    "k": "kurulus",
+    "b": "Mangrai Mae Ping üzerinde Chiang Mai'yi kurar (hendek inşasına başlama anı: Chiang Man yazıtı).",
+    "kaynak": "Sarassawadee Ongsakul, 'The Plan of Chiang Mai City: Concepts and Local Knowledge', Journal of the Siam Society 108/2 (2020), s.47-64 (s.54-55) (so06.tci-thaijo.org/index.php/pub_jss/article/download/246581/167631); G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.209",
+    "tanik": "In 1296, Mangrai founded on the Mae Ping, about twenty"
+   }
+  ],
+  "ic_not": "SONUÇ: Chiang Mai 12 Nisan 1296'da kurulmuş yeni şehirdir (Jülyen); atlas kur=1296-04-12 ile birebir uyumlu, ilk.t = atlas başlangıcı → ZİNCİR BOŞ. 1296 öncesi aynı yerde Lawa yerleşimi 'Wiang Nopburi' (yalnız Vikipedi'de geçer; akademik kaynak bu oturumda açılmadı) — yazılmadı; Haripunjaya (Lamphun, künye hariphunchai 1000-1292) komşu şehirdir (~20 km, ayrı kayıt)."
+ },
+ {
   "id": "chittorgarh",
   "ad": "Çitor (Chittorgarh)",
   "atlas_ad": "Çitor (Chittorgarh)",
@@ -4586,6 +4893,172 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK (kural): ilk.t 1719-04-08 atlas başlangıcıyla (1719-04-08, portekiz-brezilyasi) aynı → sahip yazılmaz; atlas kur'u KAYNAKLI (IBGE + UFU akademik makalesi, ikisi 8 Nisan 1719 der; çift teyit sayılır ama UFU IBGE 2007'ye atıf yapar, bağımsızlığı sınırlı). Denetim 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR. ATLAS DÜZELTME ÖNERİSİ: gün doğru; ancak (a) YER FARKI: 8 Nisan 1719 tutanağı Forquilha'da (Coxipó kıyısı) düzenlendi; bugünkü kent merkezi (atlas koordinatı) Miguel Sutil'in 1722'de Prainha deresi kıyısında kurduğu 'Lavra do Sutil' mevkiidir — IBGE: 'A mudança de Cuiabá para o sítio atual se deve ao sorocabano Miguel Sutil de Oliveira'; UFU makalesi (Bezerra de Sá'ya atıfla) Sutil'in yeni madenlere 1722'de geldiğini yazar. Forquilha–merkez mesafesi kaynakta verilmedi, ÖLÇÜLMEDİ (>3 km ise kural gereği modern nokta kendi kuruluşundan başlamalı: 1722 günü bulunamadı; öneri Forquilha'yı ayrı kayıt + merkez için 1722 araştırması). (b) vila: Vila Real do Senhor Bom Jesus de Cuiabá 'instalado em 01-01-1727' (IBGE; 'erigida' yılı IBGE'de 1726, UFU 1 Ocak 1727 yazar — Cuiabá şehir 17-09-1818 carta de lei). Öncül: IBGE yerli ad kökeni 'lugar em que os bororós costumavam pescar' (Albisetti) ve Pascoal'ın 'aldeamentos de índios coxiponés' haberi aldığı (IBGE); UFU'ya göre Manoel de Campos Bicudo 1673/1682'de Coxipó–Cuiabá birleşiminde São Gonçalo povoado'sunu kurmuş, Pascoal 1718'de terk edilmiş halde bulmuş (IBGE 2007 atfıyla). Bu yazılı öncüllerin gün/sahip kaydı yok → zincir yazılmadı. Arkeolojik kayıt (Cuiabá bölgesi) aranmadı/bulunamadı. Ata'nın birincil neşri (Anais da Biblioteca Nacional / Documentos Históricos) bu oturumda açılamadı: bulunamadı. kat1900 2 (eyalet merkezi Mato Grosso, 1835'ten)."
+ },
+ {
+  "id": "dali",
+  "ad": "Dali",
+  "atlas_ad": "Dali",
+  "lat": 25.606,
+  "lon": 100.267,
+  "kat1900": 3,
+  "adlar": [
+   "Yang-ts'iu-mi (Yangjumie, Xiemie)",
+   "Ta-li (Dali)",
+   "Tali-fu"
+  ],
+  "ilk": {
+   "t": "0743-01-01",
+   "gun": "743",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), Livre I, chap. XIV-XV, s.40",
+   "tanik": "le roi fonda, au nord de T'ai-ho-tch'eng, la ville de Yang-ts'iu-mi",
+   "ic_not": "Sainson (Yang Shen): 't'ien-pao 2. yıl, kouei-wei yılı (743) kral T'ai-ho şehrinin kuzeyinde Yang-ts'iu-mi şehrini kurdu — bu bugünkü Ta-li-fu şehridir'. Aynı kaynak sonradan (Guangde 2 / kia-tch'en yılı = MS 764; OCR parantezi '766') şehrin Fong tarafından 'Ta-li-tch'eng' adını aldığını söyler. ÇELİŞKİ (beyan): Vikipedi (yalnız tutarlılık) eski kentin Nanzhao başkenti olarak '779'dan' itibaren anıldığını söyler (Xiemie) ve bugünkü surlu Dali eski kentinin 14. yy. sonunda Hongwu döneminde düzenlendiğini yazar; Sainson'un kurulus tarihi başka bir gerçek tarihle (başkent taşıma 779) karışmış olabilir. T'ai-ho (Taihe) kasabası Sainson'a göre Dali'nin 15 li (~8 km) güneyindedir — ayrı yer (>3 km), bu kayıtta yazılmadı. KAYNAK SINIRI: tek ve geç (Ming) kaynak; modern akademik (Backus 1981; Yang Bin 2008) bu oturumda açılamadı."
+  },
+  "kur": {
+   "t": "0743-01-01",
+   "gun": "743",
+   "kesinlik": "yil",
+   "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.40",
+   "tanik": "le roi fonda, au nord de T'ai-ho-tch'eng, la ville de Yang-ts'iu-mi"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0743-01-01",
+    "t": "0902-01-01",
+    "d": "nanzhao",
+    "kesinlik": "yil",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.39-40",
+    "tanik": "le roi fonda, au nord de T'ai-ho-tch'eng, la ville de Yang-ts'iu-mi",
+    "ic_not": "Nanzhao kralı Yang-ts'iu-mi'yi kurar (Nanzhao künyesi 0729-0902). Dönem sonu 902: Sainson Nanzhao'nun Zheng Maisi'ce sona erdirildiğini 902/903 verir; künye bitişi ile uyumlu."
+   },
+   {
+    "f": "0902-01-01",
+    "t": "0928-01-01",
+    "d": "da-changhe",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), Sainson s.79-83: Nanzhao'nun 13 kuşaklık Mong hanedanı sona erer; Zheng 'tahtı gasp etti' (Sainson 902/903 verir: 'renxu' yılı 902'de Shunhuazhen ölür, gasp 'guihai (903)')",
+    "tanik": "Puis il usurpa le trône.",
+    "ic_not": "KÜNYE BEKLİYOR: önerilen id 'da-changhe' (Zheng Maisi'nin Büyük Changhe devleti (Ta-tch'ang-ho), MS 0902-0928; kaynak: Sainson çevirisi). Nanzhao ile Dali arasındaki üç kısa devlet de Yunnan'ın tamamını yönetir; Dali (Yangjumie) bu devletlerin merkez bölgesindedir; Sainson devlet adlarını ve hükümdar değişimlerini verir."
+   },
+   {
+    "f": "0928-01-01",
+    "t": "0929-01-01",
+    "d": "da-tianxing",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), Sainson s.82-83 (928, wou-tseu)",
+    "tanik": "fut mis sur le trône par Yang Kan-tcheng",
+    "ic_not": "KÜNYE BEKLİYOR: önerilen id 'da-tianxing' (Zhao Shanzheng'in Büyük Tianxing devleti (Ta-t'ien-hing), MS 0928-0929; kaynak: Sainson çevirisi). Nanzhao ile Dali arasındaki üç kısa devlet de Yunnan'ın tamamını yönetir; Dali (Yangjumie) bu devletlerin merkez bölgesindedir; Sainson devlet adlarını ve hükümdar değişimlerini verir."
+   },
+   {
+    "f": "0929-01-01",
+    "t": "0937-01-01",
+    "d": "da-yining",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), Sainson s.84-85 (929, ki-tch'eou)",
+    "tanik": "Chan-tcheng avait à peine régné dix mois",
+    "ic_not": "KÜNYE BEKLİYOR: önerilen id 'da-yining' (Yang Ganzhen'in Büyük Yining devleti (Ta-yi-ning), MS 0929-0937; kaynak: Sainson çevirisi). Nanzhao ile Dali arasındaki üç kısa devlet de Yunnan'ın tamamını yönetir; Dali (Yangjumie) bu devletlerin merkez bölgesindedir; Sainson devlet adlarını ve hükümdar değişimlerini verir."
+   },
+   {
+    "f": "0937-01-01",
+    "t": "1253-01-01",
+    "d": "dali-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.88-89",
+    "tanik": "donna à son royaume le nom de Ta-li",
+    "ic_not": "Duan Siping 937'de devletine Ta-li adını verir ve başkent Ta-li'de kalır ('Comme par le passé, la capitale fut à Ta-li' — Sainson). Dönem sonu 1253-01-01 = Moğol alınışı (aşağıda)."
+   },
+   {
+    "f": "1253-01-01",
+    "t": "1260-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "gun",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.190",
+    "tanik": "after their seizure of Ta-li on January 7, 1253",
+    "ic_not": "Cœdès: Moğollar Ta-li'yi '7 Ocak 1253'te' aldı. DİKKAT: bu gün künye sınırı (1253-01-01) ile 6 gün farklıdır ve Dali'nin Moğol alınışı için başka kaynaklarda 1253 sonu/1254 başı geçer (bu oturumda doğrulanmadı) — Cœdès'in günü Çince takvimden dönüşte kayma içerebilir; BEYANLI. Dönem başı künye sınırı (1253-01-01), olay günü ±30 gün içinde."
+   },
+   {
+    "f": "1260-01-01",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.188",
+    "tanik": "time of his accession as Great Khan in 1260",
+    "ic_not": "Künye geçişi Moğol İmparatorluğu → Yuan (Kubilay 1260). Atlas Dali'yi 1281-01-01'de yuan-hanedani ile başlatır: aynı sahip, dikiş olay gerektirmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0743-01-01",
+    "gun": "743",
+    "k": "kurulus",
+    "b": "Nanzhao kralı T'ai-ho şehrinin kuzeyinde Yang-ts'iu-mi'yi (bugünkü Ta-li-fu) kurar.",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.40",
+    "tanik": "le roi fonda, au nord de T'ai-ho-tch'eng, la ville de Yang-ts'iu-mi"
+   },
+   {
+    "t": "0764-01-01",
+    "gun": "764 (Guangde 2, kia-tch'en)",
+    "k": "diger",
+    "b": "Yang-ts'iu-mi şehri Nanzhao kralı tarafından 'Ta-li şehri' adını alır (ad değişimi).",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.47",
+    "tanik": "reçut de Fong le nom de Ta-li-tch'eng"
+   },
+   {
+    "t": "0902-01-01",
+    "gun": "902",
+    "k": "diger",
+    "b": "künye geçişi: Nanzhao → Büyük Changhe (Zheng Maisi tahtı gasp eder).",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.79-80",
+    "tanik": "Puis il usurpa le trône."
+   },
+   {
+    "t": "0928-01-01",
+    "gun": "928",
+    "k": "diger",
+    "b": "künye geçişi: Büyük Changhe → Büyük Tianxing (Yang Ganzhen Zhao Shanzheng'i tahta çıkarır).",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.82-83",
+    "tanik": "fut mis sur le trône par Yang Kan-tcheng"
+   },
+   {
+    "t": "0929-01-01",
+    "gun": "929",
+    "k": "diger",
+    "b": "künye geçişi: Büyük Tianxing → Büyük Yining (Yang Ganzhen Zhao Shanzheng'i on ay sonra devirir).",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.84-85",
+    "tanik": "Chan-tcheng avait à peine régné dix mois"
+   },
+   {
+    "t": "0937-01-01",
+    "gun": "937",
+    "k": "diger",
+    "b": "künye geçişi: Büyük Yining → Dali Krallığı (Duan Siping tahta çıkar, devlete Ta-li adı verilir).",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.88-89",
+    "tanik": "donna à son royaume le nom de Ta-li"
+   },
+   {
+    "t": "1253-01-07",
+    "gun": "7 Ocak 1253",
+    "k": "fetih",
+    "b": "Moğollar Ta-li'yi ele geçirir; künye geçişi Dali Krallığı → Moğol İmparatorluğu (Cœdès'in verdiği gün; doğrulanmadı).",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.190",
+    "tanik": "after their seizure of Ta-li on January 7, 1253"
+   },
+   {
+    "t": "1260-01-01",
+    "gun": "1260",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → Yuan (Kubilay Büyük Han olarak tahta çıkar).",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.188",
+    "tanik": "time of his accession as Great Khan in 1260"
+   }
+  ],
+  "ic_not": "SONUÇ: Dali (Yang-ts'iu-mi/Ta-li) için 743 kuruluş (geç kaynak), Nanzhao → üç kısa devlet (902-937) → Dali Krallığı (937-1253) → Moğol (1253) → Yuan zinciri, atlasın yuan-hanedani başlangıcıyla dikişli. KANIT SINIRLARI: (a) Nanzhao/Dali dönem sınırları Sainson'dan (Ming derlemesi); Cœdès yalnız Moğol alınışını verir. (b) Antik 'Yang-ts'iu-mi' ile bugünkü Dali eski kenti (Ming'in 1382 surları) aynı konumda mı — Sainson 'bugünkü Ta-li-fou' der; Vikipedi (yalnız tutarlılık) Xiemie'nin Ming'de yeniden düzenlendiğini söyler. (c) Moğol günü Cœdès'e dayanır, doğrulanmadı. (d) 902-937 üç devlet için künye önerileri Kunming kaydındadır (da-changhe, da-tianxing, da-yining). Han dönemi Yizhou/Yunnan (Yunnan county) Dali'ye bağlanamadı (kaynak açılmadı)."
  },
  {
   "id": "delhi",
@@ -9772,6 +10245,76 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Atlas 'ceneviz' 1281 (enklav) ile dikiş aynı polity (bkz. dikis_beyan). ATLAS DÜZELTME ÖNERİSİ: atlasın Kefe zinciri 1281 öncesini kapsamıyor; 1281 'Ceneviz' tarihi TDV'ye göre egemenlik Altın Orda'dadır, Cenevizliler yalnız izinli yerleşimcidir (hâkimiyet sonradan) — atlasın 1281 'ceneviz' iddiası künyenin f=1266'sına dayanır, hâkimiyet günü TDV'de yok. TDV iç tutarsızlıkları: Kalka 1239 (gerçek 1223). Antik Theodosia ile Kefe aynı yer (Perseus notu). Rusça akademik kaynak (Rus Biyografi, Yanin vb.) bu yer için açılamadı; Strabon 7.4.4: liman 'in earlier times was a boundary between the countries of the Bosporians and the Taurians'."
  },
  {
+  "id": "kengtung",
+  "ad": "Kengtung (Chiang Tung)",
+  "atlas_ad": "Kengtung",
+  "lat": 21.29,
+  "lon": 99.605,
+  "kat1900": null,
+  "adlar": [
+   "Mong Nam San (Mdng Nam San)",
+   "Kengtung (Kengtang)"
+  ],
+  "ilk": {
+   "t": "1243-01-01",
+   "gun": "1243",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "J.G. Scott & J.P. Hardiman, Gazetteer of Upper Burma and the Shan States, Kengtung maddesi, 'Kengtung State annals' (Stirling çevirisi), s.402-403 (archive.org: gazetteerupperb04hardgoog)",
+   "tanik": "finally conquered the Wa in 605",
+   "ic_not": "YEREL YILLIK GELENEĞİ (Kengtung State annals, Stirling çevirisi, Scott & Hardiman 1900): 'Wa'lar ülkeyi 591 B.E.'ye (1229) kadar elinde tuttu; Mang Rai 592'de (1230) geldi, 605'te (1243) Wa'ları kesin yendi' ve aynı yıl Nang Kun'u devlete gönderdi. Şehrin (Mong Nam San) kuruluşu ayrıca gün/yıl vermeden, fetihten sonra 'şehir kuruldu' diye anlatılır — 1243 devletin kuruluş yılı olarak alındı. KRONOLOJİ UYARISI: aynı kaynağın Mang Rai'si, Cœdès'e göre 1239 doğumlu ve 1261'de babasının yerine geçen Ngoen Yang beyi Mangrai'dır (Cœdès s.195); 1243'te çocuk olduğundan yerel yıllığın 1243 tarihi tutarlı DEĞİL ya da başka bir Mang Rai kastedilmiş olabilir — bu yüzden 1243 'yerel gelenek, doğrulanamadı' olarak işaretlendi. Vikipedi (yalnız tutarlılık) de devleti 1243'e tarihler (aynı yıllığa dayanır). İkinci bağımsız akademik kaynak BULUNAMADI (Sao Saimong Mangrai çevirisi 'Padaeng Chronicle' bu oturumda açılamadı)."
+  },
+  "kur": {
+   "t": "1243-01-01",
+   "gun": "1243",
+   "kesinlik": "yil",
+   "kaynak": "J.G. Scott & J.P. Hardiman, Gazetteer of Upper Burma and the Shan States, Kengtung maddesi, 'Kengtung State annals' (Stirling çevirisi), s.402-403 (archive.org: gazetteerupperb04hardgoog)",
+   "tanik": "finally conquered the Wa in 605"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1243-01-01",
+    "t": "1281-01-01",
+    "d": "kengtung-hkun",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "J.G. Scott & J.P. Hardiman, Gazetteer of Upper Burma and the Shan States, Kengtung maddesi, 'Kengtung State annals' (Stirling çevirisi), s.402-403 (archive.org: gazetteerupperb04hardgoog)",
+    "tanik": "Sao Nam Nam succeeded and ruled for 53 years",
+    "ic_not": "KÜNYE BEKLİYOR: önerilen id 'kengtung-hkun' (Kengtung/Chiang Tung Hkün Devleti, 1243-1895; devletler.js'te yalnız 1281'de başlayan genel 'san-devletleri' var). Yerel yıllık: Mang Rai 592 B.E.'de gelir, 605 (1243)'te Wa'ları yener; Nang Kun'u 605'te (1243) devlete gönderir; yıllık sonra Mang Rai'nin oğlu ve pongyi'nin 626 B.E.'ye (1264) kadar, ardından Sao Nam Nam'ın '53 yıl' devleti yönettiğini sayar. Yani 1243-1281 boyunca kesintisiz yerel hanedan; Lan Na (lan-na künyesi 1262'de başlar) ile bağı Gazetteer'de efsane/gelenektir, sahiplik Lan Na'ya yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1229-01-01",
+    "gun": "591 B.E. (1229)",
+    "k": "diger",
+    "b": "Yıllığa göre Wa'ların ülke üzerindeki hâkimiyeti 591 B.E.'ye (1229) kadar sürer.",
+    "kaynak": "J.G. Scott & J.P. Hardiman, Gazetteer of Upper Burma and the Shan States, Kengtung maddesi, 'Kengtung State annals' (Stirling çevirisi), s.402-403 (archive.org: gazetteerupperb04hardgoog)",
+    "tanik": "possessed the country till the year 591 B.E."
+   },
+   {
+    "t": "1230-01-01",
+    "gun": "592 B.E. (1230)",
+    "k": "diger",
+    "b": "Mang Rai ülkeye ilk kez gelir.",
+    "kaynak": "J.G. Scott & J.P. Hardiman, Gazetteer of Upper Burma and the Shan States, Kengtung maddesi, 'Kengtung State annals' (Stirling çevirisi), s.402-403 (archive.org: gazetteerupperb04hardgoog)",
+    "tanik": "Mang Rai first came to it in 592 B.E."
+   },
+   {
+    "t": "1243-01-01",
+    "gun": "605 B.E. (1243)",
+    "k": "kurulus",
+    "b": "Mang Rai Wa'ları kesin yener; Kengtung devleti kurulur (yerel yıllık geleneği).",
+    "kaynak": "J.G. Scott & J.P. Hardiman, Gazetteer of Upper Burma and the Shan States, Kengtung maddesi, 'Kengtung State annals' (Stirling çevirisi), s.402-403 (archive.org: gazetteerupperb04hardgoog)",
+    "tanik": "finally conquered the Wa in 605"
+   }
+  ],
+  "dikis_beyan": "Atlas Kengtung'u 1281-01-01'de 'san-devletleri' ile başlatıyor; 1281-01-01 günü için kaynakta bir olay YOK (yerel yıllık hanedanın kesintisiz sürdüğünü gösterir; 1281 Kengtung için bir dönüm noktası değildir). Yer tutucu olay yazılmadı. Zincirin son sahibi 'kengtung-hkun' (künyesiz); atlasın 'san-devletleri' künyesi bu yerel devleti de kapsıyorsa künye f 1243'e çekilmeli.",
+  "ic_not": "SONUÇ: tek kaynak (Gazetteer, yerel yıllık çevirisi) 1243 verir ve kendi içinde kronoloji sorunu taşır (yukarıda). BULUNAMADI: şehrin kuruluş günü, Chiang Tung Chronicle (Sao Saimong Mangrai çevirisi) ve akademik ikinci tanık. ATLAS: 1281 başlangıcı yıllıkla çelişmez ama sahibi (san-devletleri) künye olarak 1243-1281'i kapsamaz — 'kengtung-hkun' künyesi önerisi ya da san-devletleri künyesinin genişletilmesi Emre'nin kararı. kat1900: Kengtung 1900 şehir listesinde yok (null)."
+ },
+ {
   "id": "kilwa-kisiwani",
   "ad": "Kilwa Kisiwani (Kilve)",
   "atlas_ad": "Kilwa Kisiwani (Kilve)",
@@ -10434,6 +10977,172 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS: Kumasi 1701 (Asante) başlangıcı Feyiase ile uyumlu; ancak Kumasi 1680 dolaylarından beri vardı (Denkyira’ya tâbi). Atlas başlangıcı 1680’e çekilirse 1680-1701 arası “denkyira” künyesi gerekir (künye açılmadı). McCaskie 2007 özetinden alıntı: “Osei Tutu's epochal military victory over Denkyirahene Ntim Gyakari at Feyiase (1701)”."
  },
  {
+  "id": "kunming",
+  "ad": "Kunming (Yunnan-fu)",
+  "atlas_ad": "Kunming",
+  "lat": 25.038,
+  "lon": 102.718,
+  "kat1900": 2,
+  "adlar": [
+   "Shanchan (Chan-chan)",
+   "Yunnan-fu",
+   "K'un-ming"
+  ],
+  "ilk": {
+   "t": "0765-01-01",
+   "gun": "765",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), Livre I, chap. XV, s.47",
+   "tanik": "Fong-kia-yi bâtit la ville murée de Yun-nan",
+   "ic_not": "Sainson (Yang Shen): 'Yong-tai 1. yıl, yi-sseu yılında Fong-kia-yi Yun-nan [bugünkü Yun-nan-fu] sur şehrini inşa etti'. Yong-tai 1 = yi-sseu (乙巳) = MS 765; OCR basımda parantez içi '(766)' görünür — ERA YILI + SEXAGENARY yıl 765'i verir (OCR hanesi hatalı olabilir). Cœdès Kunming'i açıkça Nanzhao'nun 'doğu başkenti Cha-tung (Tuodong)' ile eşitler ve 832'de Nanzhao'nun Pyu esirlerini oraya yerleştirdiğini söyler (s.105; ikinci, bağımsız akademik tanık: Kunming 832'de Nanzhao şehri). Vikipedi (yalnız tutarlılık) 'Tuodong 765'te kuruldu' der. Sainson'un 'Tche-tong' (拓东) yerini Kunyang kuzeyinde 'Ping-ting-hiang' gösterir — Tuodong'un tam yeri tartışmalı; Yun-nan-fu surlu şehri Sainson'da ayrıca anılır. GÜVENLİK: kaynak geç (Ming derlemesi). Han Yizhou (MÖ 109) ve Dian krallığı gibi daha eski Kunming gölü çevresi iskânları Kunming'in kendisine bağlanamadı (kaynak açılmadı)."
+  },
+  "kur": {
+   "t": "0765-01-01",
+   "gun": "765",
+   "kesinlik": "yil",
+   "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.47",
+   "tanik": "Fong-kia-yi bâtit la ville murée de Yun-nan"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0765-01-01",
+    "t": "0902-01-01",
+    "d": "nanzhao",
+    "kesinlik": "yil",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.105; C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft) s.47",
+    "tanik": "the eastern capital of Nanchao, Cha-tung, which corresponds to the modern Yunnan-fu (K'un-ming)",
+    "ic_not": "Nanzhao (künye nanzhao 0729-0902): Cœdès Kunming'i 832'de Nanzhao'nun doğu başkenti sayar. Dönem sonu 902: Sainson Nanzhao'nun Mong hanedanının Zheng Maisi'ce sona erdirildiğini 902/903 (renxu/guihai) verir; künye bitişi 0902-01-01 ile uyumlu."
+   },
+   {
+    "f": "0902-01-01",
+    "t": "0928-01-01",
+    "d": "da-changhe",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), Sainson s.79-83: Nanzhao'nun 13 kuşaklık Mong hanedanı sona erer; Zheng 'tahtı gasp etti' (Sainson 902/903 verir: 'renxu' yılı 902'de Shunhuazhen ölür, gasp 'guihai (903)')",
+    "tanik": "Puis il usurpa le trône.",
+    "ic_not": "KÜNYE BEKLİYOR: önerilen id 'da-changhe' (Zheng Maisi'nin Büyük Changhe devleti (Ta-tch'ang-ho), MS 0902-0928; kaynak: Sainson çevirisi). Nanzhao ile Dali arasındaki üç kısa devlet de Yunnan'ın tamamını yönetir; Kunming'e (Yunnan-fu/Shanchan) ÖZGÜ tanık yoktur: Yang Ganzhen Dongchuan (Kunming'in kuzeydoğusu) askerî valisiydi (Sainson), yani bölge bu devletlerin çekirdeğindeydi — BEYANLI YAKLAŞIKLIK (Yunnan genelinden bölge sahibi)."
+   },
+   {
+    "f": "0928-01-01",
+    "t": "0929-01-01",
+    "d": "da-tianxing",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), Sainson s.82-83 (928, wou-tseu)",
+    "tanik": "fut mis sur le trône par Yang Kan-tcheng",
+    "ic_not": "KÜNYE BEKLİYOR: önerilen id 'da-tianxing' (Zhao Shanzheng'in Büyük Tianxing devleti (Ta-t'ien-hing), MS 0928-0929; kaynak: Sainson çevirisi). Nanzhao ile Dali arasındaki üç kısa devlet de Yunnan'ın tamamını yönetir; Kunming'e (Yunnan-fu/Shanchan) ÖZGÜ tanık yoktur: Yang Ganzhen Dongchuan (Kunming'in kuzeydoğusu) askerî valisiydi (Sainson), yani bölge bu devletlerin çekirdeğindeydi — BEYANLI YAKLAŞIKLIK (Yunnan genelinden bölge sahibi)."
+   },
+   {
+    "f": "0929-01-01",
+    "t": "0937-01-01",
+    "d": "da-yining",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), Sainson s.84-85 (929, ki-tch'eou)",
+    "tanik": "Chan-tcheng avait à peine régné dix mois",
+    "ic_not": "KÜNYE BEKLİYOR: önerilen id 'da-yining' (Yang Ganzhen'in Büyük Yining devleti (Ta-yi-ning), MS 0929-0937; kaynak: Sainson çevirisi). Nanzhao ile Dali arasındaki üç kısa devlet de Yunnan'ın tamamını yönetir; Kunming'e (Yunnan-fu/Shanchan) ÖZGÜ tanık yoktur: Yang Ganzhen Dongchuan (Kunming'in kuzeydoğusu) askerî valisiydi (Sainson), yani bölge bu devletlerin çekirdeğindeydi — BEYANLI YAKLAŞIKLIK (Yunnan genelinden bölge sahibi)."
+   },
+   {
+    "f": "0937-01-01",
+    "t": "1253-01-01",
+    "d": "dali-kralligi",
+    "kesinlik": "yil",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), Livre I, chap. XIX, s.88-89",
+    "tanik": "donna à son royaume le nom de Ta-li",
+    "ic_not": "Duan Siping 937'de Ta-li devletini kurar; Kunming (Shanchan, Dali krallığının doğu merkezi olarak bilinir, Vikipedi 'Tuodong Dali krallığının parçası oldu' der — yalnız tutarlılık). BEYAN: Kunming'e özgü Dali-egemenliği tanığı Sainson'da bu okumada ayrıca aranmadı; Dali devleti Yunnan'ın tamamını kapsayan devlettir (bölge sahibi)."
+   },
+   {
+    "f": "1253-01-01",
+    "t": "1260-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.193",
+    "tanik": "The Mongols annexed Yunnan in 1253-57",
+    "ic_not": "Moğollar Ta-li'yi 1253'te alır, Yunnan 1253-57'de 'ilhak/sükûnet' (Cœdès). BEYAN: Kunming'in alınış günü kaynakta yok; Dali ile aynı başlangıç (1253-01-01, künye sınırı) alındı — Kunming için 1253-57 aralığının erken ucu; Dali'nin ilk Moğol işgali 1253 olduğu için sahiplik 1253'ten itibaren Moğol'dur (kesin gün BULUNAMADI)."
+   },
+   {
+    "f": "1260-01-01",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.188",
+    "tanik": "time of his accession as Great Khan in 1260",
+    "ic_not": "Künye geçişi: Moğol İmparatorluğu → Yuan (Kubilay'ın Büyük Han olarak tahta çıkışı 1260 — Cœdès gün vermez; Yuan künyesi f=1260-01-01). Atlas Kunming'i 1281-01-01'de yuan-hanedani ile başlatıyor: aynı sahip, dikiş olay gerektirmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0765-01-01",
+    "gun": "765",
+    "k": "kurulus",
+    "b": "Fong-kia-yi (Nanzhao) Yun-nan surlu şehrini (bugünkü Yunnan-fu / Kunming) inşa eder.",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.47",
+    "tanik": "Fong-kia-yi bâtit la ville murée de Yun-nan"
+   },
+   {
+    "t": "0832-01-01",
+    "gun": "832",
+    "k": "diger",
+    "b": "Nanzhao 3000 Pyu'yu Halin'den alıp doğu başkenti Cha-tung'a (Kunming) yerleştirir — Kunming'in 832'de Nanzhao şehri olduğunun ikinci tanığı.",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.105",
+    "tanik": "the eastern capital of Nanchao, Cha-tung, which corresponds to the modern Yunnan-fu (K'un-ming)"
+   },
+   {
+    "t": "0902-01-01",
+    "gun": "902",
+    "k": "diger",
+    "b": "künye geçişi: Nanzhao → Büyük Changhe (Zheng Maisi tahtı gasp eder).",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.79-80",
+    "tanik": "Puis il usurpa le trône."
+   },
+   {
+    "t": "0928-01-01",
+    "gun": "928",
+    "k": "diger",
+    "b": "künye geçişi: Büyük Changhe → Büyük Tianxing (Yang Ganzhen Zhao Shanzheng'i tahta çıkarır).",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.82-83",
+    "tanik": "fut mis sur le trône par Yang Kan-tcheng"
+   },
+   {
+    "t": "0929-01-01",
+    "gun": "929",
+    "k": "diger",
+    "b": "künye geçişi: Büyük Tianxing → Büyük Yining (Yang Ganzhen Zhao Shanzheng'i on ay sonra devirir).",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.84-85",
+    "tanik": "Chan-tcheng avait à peine régné dix mois"
+   },
+   {
+    "t": "0937-01-01",
+    "gun": "937",
+    "k": "diger",
+    "b": "künye geçişi: Büyük Yining → Dali Krallığı (Duan Siping tahta çıkar, devletin adı Ta-li olur).",
+    "kaynak": "C. Sainson, Nan-tchao ye-che: Histoire particulière du Nan-tchao (Yang Shen'in ~16. yy. Ming derlemesinin çevirisi; Paris: Imprimerie nationale / E. Leroux 1904; archive.org: nantchaoyechehis00yanguoft), s.88-89",
+    "tanik": "donna à son royaume le nom de Ta-li"
+   },
+   {
+    "t": "1253-01-01",
+    "gun": "1253-1257",
+    "k": "fetih",
+    "b": "Moğollar Yunnan'ı ilhak eder (Ta-li'nin alınışı 1253, 'sükûnet' 1257); künye geçişi Dali → Moğol İmparatorluğu.",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.193",
+    "tanik": "The Mongols annexed Yunnan in 1253-57"
+   },
+   {
+    "t": "1260-01-01",
+    "gun": "1260",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → Yuan (Kubilay Büyük Han olarak tahta çıkar).",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.188",
+    "tanik": "time of his accession as Great Khan in 1260"
+   }
+  ],
+  "ic_not": "SONUÇ: Kunming için en erken kaynaklı kuruluş 765 (geç kaynak Sainson/Yang Shen; ikinci tanık Cœdès 832). Zincir 765→1281, atlasın yuan-hanedani başlangıcıyla dikişli. KANIT SINIRLARI: (a) Sainson Ming-dönemi derlemesidir (Tang/Nanzhao kayıtlarını aktarır); Backus (1981) vb. modern monografiler bu oturumda açılamadı. (b) Kunming'e özgü sahiplik tanığı yalnız Nanzhao 832'dedir; 902-937 üç devlet ve Dali dönemi için BÖLGE SAHİBİ yaklaşıklığı beyan edilmiştir (Yunnan genelinde). (c) Moğol işgal günü Kunming için bulunamadı. (d) 'da-changhe', 'da-tianxing', 'da-yining' için künye önerileri yukarıda. KÜNYE ÖNERİLERİ: da-changhe 902-928, da-tianxing 928-929, da-yining 929-937 (Sainson). Dian krallığı (-0278…-0108) ve Han Yizhou komutanlığı: Kunming gölü çevresi ama bu noktaya bağlayan kaynak açılmadı."
+ },
+ {
   "id": "kutaisi",
   "ad": "Kutaisi",
   "atlas_ad": "Kutaisi",
@@ -11024,6 +11733,51 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Fenike geleneği (Treccani 'Alis Ubbo') ilk anılış sayılmadı. TDV 'Roma, Alanlar ve Vizigotlar' ifadesindeki Alan dönemi ve Svev sırası kaynak tarihi vermediği için dönem açılmadı. Çift teyit: Roma işgali MÖ 138 (Princeton) ↔ Strabon (Brutus Callaicus kampanyası); Lizbon 1147-10-24 (TDV, atlas künyesi) — Treccani yalnız 'Alfonso Henrique conquistò definitivamente' der. Zincir atlas ilk gününde (1147-10-24) biter. Atlas notu: atlas Lizbon 'Murâbıt 1147-03-23→10-24 künyesiz YAZILMADI' demişti; bu dosyada o aralık 'lizbon-ozerk-meclis' (TDV) olarak yazıldı."
  },
  {
+  "id": "luang-prabang",
+  "ad": "Luang Prabang",
+  "atlas_ad": "Luang Prabang",
+  "lat": 19.885,
+  "lon": 102.135,
+  "kat1900": 2,
+  "adlar": [
+   "Müang Chawa (Mdang Chawa)",
+   "Chiangdong-Chiangthong (Chiang Dong Chiang Thong)",
+   "Luang Phrabang"
+  ],
+  "ilk": {
+   "t": "1292-01-01",
+   "gun": "1292",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia), Ram Khamhaeng steli (1292) alıntısı s.205",
+   "tanik": "up to Mdang Chawa [Luang Phrabang], which marks the border",
+   "ic_not": "İLK ANILIŞ (kuruluş DEĞİL): Ram Khamhaeng steli (1292'de yazılmış, Cœdès) Sukhothai'nin kuzey sınırını 'Mdang Chawa (Luang Phrabang)'a kadar' tanımlar → Chawa o sırada var. Cœdès'in köşeli parantezi (Luang Phrabang = Mdang Chawa eşitlemesi) yazara aittir; yer eşitlemesi 'kabul edilir', başka yazılı kanıt açılmadı. Efsanevi geçmiş: 'Yerel gelenek efsanevi Khun Lo'dan 14. yüzyıla kadarki dönem hakkında hiçbir şey bilmez' (Finot, Cœdès aktarır) → yazılı ilk tanık 1292. Yazıtın gerçekliği tartışmalıdır (bu oturumda doğrulanmadı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1292-01-01",
+    "gun": "1292",
+    "k": "diger",
+    "b": "Ram Khamhaeng steli: Mdang Chawa (Luang Phrabang) Sukhothai'nin kuzey sınırı olarak anılır.",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.196, 205 (stel 1292)",
+    "tanik": "stele of Rama Khamhaeng, composed in 1292"
+   },
+   {
+    "t": "1353-01-01",
+    "gun": "1353",
+    "k": "kurulus",
+    "b": "Fa Ngum'un taç giymesi Lan Chang krallığının kuruluşudur; 'Chiangdong-Chiangthong (Luang Phrabang)'da kral ilan edilir (Nithan Khun Borom'a göre).",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.225",
+    "tanik": "took place in 1353; this date has most probably been transmitted correctly"
+   }
+  ],
+  "ic_not": "SONUÇ: Luang Prabang için 1281 öncesi yazılı tanık BULUNAMADI; en erken yazılı anılış 1292 (Ram Khamhaeng steli, Cœdès). Atlas noktayı 1281-01-01'den '__BOSLUK__' ile 1353'e kadar çiziyor; ilk.t (1292) atlas başlangıcından SONRA → ZİNCİR BOŞ, uyarı BEKLENİR. Cœdès: Luang Prabang'a kadar Khmer etkisi taşıyan ARKEOLOJİK kalıntılar vardır (tarih yok) ve 'Khun Borom'un inişi ve Tayların Nam U yoluyla Luang Prabang mevkiine kitlesel gelişi 13. yüzyıl ortası dolayında' (Cœdès'in çıkarımı) — yazılı tanık değil, tarih olarak alınmadı. ATLAS ÖNERİSİ: 1281-1292 __BOSLUK__ dilimi tanıksızdır; 1292-1353 Mdang Chawa için sahip bulunamadı (Fa Ngum 1353 Lan Chang)."
+ },
+ {
   "id": "lucknow",
   "ad": "Leknev (Lucknow)",
   "atlas_ad": "Leknev (Lucknow)",
@@ -11346,6 +12100,55 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Çok eski kronoloji (Sangam) için tarihli kaynak yok; Sastri tek ana kaynak (OCR). Sahiplik dilimleri iki __BOSLUK__ taşıyor (Kalabhra; 910-994 çekişmeli). Atlas Madurai'yi 1281'de 'pandya' ile başlatır — kaynakla uyumlu (Pandya İkinci İmparatorluğu 1190'dan)."
+ },
+ {
+  "id": "mandalay",
+  "ad": "Mandalay",
+  "atlas_ad": "Mandalay",
+  "lat": 21.975,
+  "lon": 96.084,
+  "kat1900": 3,
+  "adlar": [
+   "Mandalay"
+  ],
+  "ilk": {
+   "t": "1857-02-13",
+   "gun": "13 Şubat 1857",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "J.G. Scott & J.P. Hardiman, Gazetteer of Upper Burma and the Shan States, Part I Vol. I (Rangoon 1900; archive.org: in.ernet.dli.2015.281438), Mandalay maddesi ('foundation of the city' anlatısı)",
+   "tanik": "Tabodwi 1218 B. E. (13th February 1857) as the auspicious day to commence the building",
+   "ic_not": "Scott & Hardiman (1900): Kral Mindon'un konseyi şehir ve sarayın inşasına başlamak için 'Cuma, Tabodwe 1218 B.E.'nin 5. artan günü (13 Şubat 1857)'ni uğurlu gün seçti. Gregoryen takvim (1582 sonrası), çeviri gerekmedi. Saray halkı Haziran 1857'de Amarapura'dan taşındı (aynı kaynak). Vikipedi (yalnız tutarlılık) de 13 Şubat 1857 der."
+  },
+  "kur": {
+   "t": "1857-02-13",
+   "gun": "13 Şubat 1857",
+   "kesinlik": "gun",
+   "kaynak": "J.G. Scott & J.P. Hardiman, Gazetteer of Upper Burma and the Shan States, Part I Vol. I (Rangoon 1900; archive.org: in.ernet.dli.2015.281438), Mandalay maddesi",
+   "tanik": "Tabodwi 1218 B. E. (13th February 1857) as the auspicious day to commence the building"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1857-02-13",
+    "gun": "13 Şubat 1857",
+    "k": "kurulus",
+    "b": "Mindon Min'in yeni başkentin (Mandalay) inşasına başlama günü.",
+    "kaynak": "J.G. Scott & J.P. Hardiman, Gazetteer of Upper Burma and the Shan States, Part I Vol. I (Rangoon 1900; archive.org: in.ernet.dli.2015.281438), Mandalay maddesi",
+    "tanik": "Tabodwi 1218 B. E. (13th February 1857) as the auspicious day to commence the building"
+   },
+   {
+    "t": "1857-06-01",
+    "gun": "Haziran 1857",
+    "k": "diger",
+    "b": "Kral, başkraliçe ve bütün saray büyük bir alayla Amarapura'dan Mandalay'a taşınır.",
+    "kaynak": "J.G. Scott & J.P. Hardiman, Gazetteer of Upper Burma and the Shan States, Part I Vol. I (Rangoon 1900; archive.org: in.ernet.dli.2015.281438), Mandalay maddesi",
+    "tanik": "moved in great procession from Amarapura to Mandalay"
+   }
+  ],
+  "ic_not": "SONUÇ: Mandalay 1857-02-13'te kurulan planlı başkenttir. Atlas kur=1857-01-01 → düzeltme önerisi 1857-02-13 (gün kaynaklı). Atlas 1857-01-01'de başladığından ilk.t atlas başlangıcından SONRA: ZİNCİR BOŞ, 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR (43 gün). 1857 öncesi aynı yerde şehir yok (Mandalay Tepesi kutsal alan; yerleşim değil)."
  },
  {
   "id": "mantova",
@@ -12700,6 +13503,55 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ÇELİŞKİ (Moskova'nın yağma tarihi): TDV Batu Han maddesi 1238 Şubat'ı verir (esas alındı, 'ay'); ESBE yalnız '1238 г.' der; İngilizce Vikipedi 'Siege of Moscow (1238)' 15-20 Ocak 1238 (tek dayanak olamaz, kullanılmadı). Dikiş: dikis_beyan. KİLİTLİ BORÇ: Moskova'nın 1157'de vladimir-suzdal künyesine geçmesi künye f=1157-01-01'e dayanır; Yuri ölüm yılı 1157 (ESBE), gün yok. Yanin/Kuçkin/Sedov monografileri ve PSRL açılamadı."
+ },
+ {
+  "id": "mrauk-u",
+  "ad": "Mrauk U (Arakan)",
+  "atlas_ad": "Mrauk U (Arakan)",
+  "lat": 20.588,
+  "lon": 93.191,
+  "kat1900": null,
+  "adlar": [
+   "Mrohaung (Mrauk U)"
+  ],
+  "ilk": {
+   "t": "1433-01-01",
+   "gun": "1433",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "G.E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London: Longmans 1925; archive.org: historyofburmafr00harv), 'Arakan 1433-1612' bölümü s.139-140",
+   "tanik": "In 1433 he founded Mrohaung and in the next year he died.",
+   "ic_not": "Harvey: Narameikhla (Min Saw Mon, 1404-34) 1404'te Burmalılarca sürülür, Gaur'da sürgünde kalır ve 1430'da tahtına döner; Launggyet'in 'uğursuz' olduğuna kanaat getirip 1433'te Mrohaung'u kurar ve ertesi yıl ölür. Vikipedi (yalnız tutarlılık) 1430 der (dönüş yılıyla karışmış olabilir) — Harvey'nin 1433'ü alındı, çelişki beyan edildi. Tek akademik kaynak: çift teyit YOK."
+  },
+  "kur": {
+   "t": "1433-01-01",
+   "gun": "1433",
+   "kesinlik": "yil",
+   "kaynak": "G.E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London: Longmans 1925; archive.org: historyofburmafr00harv) s.139-140",
+   "tanik": "In 1433 he founded Mrohaung and in the next year he died."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1430-01-01",
+    "gun": "1430",
+    "k": "diger",
+    "b": "Narameikhla (Min Saw Mon) Gaur'dan sağlanan kuvvetle Arakan tahtına döner (eski başkent Launggyet).",
+    "kaynak": "G.E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London: Longmans 1925; archive.org: historyofburmafr00harv) s.139",
+    "tanik": "he was ultimately reinstated in 1430"
+   },
+   {
+    "t": "1433-01-01",
+    "gun": "1433",
+    "k": "kurulus",
+    "b": "Narameikhla Launggyet yerine Mrohaung'u (Mrauk U) kurar; sonraki dört yüzyıl başkent kalır.",
+    "kaynak": "G.E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London: Longmans 1925; archive.org: historyofburmafr00harv) s.139-140",
+    "tanik": "In 1433 he founded Mrohaung and in the next year he died."
+   }
+  ],
+  "ic_not": "SONUÇ: Mrauk U 1433'te kurulan bir şehirdir (Harvey 1925). Atlas noktayı 1281-01-01'den arakan sahibiyle çiziyor; 1433 > 1281 → ZİNCİR BOŞ, denetimin 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR. ATLAS DÜZELTME ÖNERİSİ: 1281-1433 arası dilim kaldırılmalı (nokta 1433'ten başlamalı; 'arakan' künyesi 1281'den sürer ama başkent Launggyet'tir — Launggyet ayrı bir yerleşim (bu noktadan > 3 km), ayrı kayıt olarak önerilir). 1281 öncesi: Harvey Arakan'ın Pagan'a nominal haraç ödediğini söyler (yer değil bölge bilgisi). Kaynak sınırı: tek akademik kaynak."
  },
  {
   "id": "mukden",
@@ -14466,6 +15318,66 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: Oyo-İle kur 1400 kaynaksız (atlas referans değildir). Site MS ~765’ten iskân gösterir; 1400 öncesi sahip bilinmiyor."
  },
  {
+  "id": "pagan",
+  "ad": "Pagan",
+  "atlas_ad": "Pagan",
+  "lat": 21.171,
+  "lon": 94.86,
+  "kat1900": null,
+  "adlar": [
+   "Arimaddanapura (Arimaddana)",
+   "Pagan"
+  ],
+  "ilk": {
+   "t": "0849-01-01",
+   "gun": "849",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Pe Maung Tin & G.H. Luce, The Glass Palace Chronicle of the Kings of Burma (Oxford UP 1923), Part III (archive.org: glass-palace-chronicle-of-the-kings-of-burma), [Pyinbya, fl. 846-878] bölümü; Cœdès 1968 s.105-106; Harvey 1925 (Hmannan I.223'e atıf)",
+   "tanik": "the city of Pagan was built; the year of the building was 211",
+   "ic_not": "KRONİK TARİHİ: Burma Era 211 = MS 849 (BE + 638). Üç kaynak (Glass Palace Chronicle, Cœdès, Harvey) aynı yıl ama üçü de Hmannan geleneğine dayanır — BAĞIMSIZ çift teyit sayılmadı. Cœdès açıkça belirtir: 'yazıtta değil, en azından kroniklerde' tarihe girer (yazıt tanığı bu oturumda açılmadı). Önceki yerleşim: Cœdès kronikleri aktarır — Pagan 'on dokuz köyün birleşmesi' ve 'ikinci yüzyıla uzanan' efsanevi şef listesi (GELENEK, tarih olarak alınmadı)."
+  },
+  "kur": {
+   "t": "0849-01-01",
+   "gun": "849",
+   "kesinlik": "yil",
+   "kaynak": "Pe Maung Tin & G.H. Luce, The Glass Palace Chronicle of the Kings of Burma (Oxford UP 1923), Part III (archive.org: glass-palace-chronicle-of-the-kings-of-burma); Harvey 1925 (Hmannan I.223)",
+   "tanik": "it was not of sufficient importance to be founded as a town till 849"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0849-01-01",
+    "t": "1000-01-01",
+    "d": "pagan",
+    "kesinlik": "yil",
+    "kaynak": "Pe Maung Tin & G.H. Luce, The Glass Palace Chronicle of the Kings of Burma (Oxford UP 1923), Part III (archive.org: glass-palace-chronicle-of-the-kings-of-burma) (Pyinbya 846-878 … Sale Ngahkwe 906-915 … Nyaung-u Sawrahan 931-)",
+    "tanik": "In the year 293 Nyaung-u Sawrahan became king.",
+    "ic_not": "Pagan Krallığı künyesi (pagan, f=0849) şehrin kuruluşuyla aynı yıl başlar. 849-1000 arası kroniğin kral listesi (Pyinbya, Tannek, Sale Ngahkwe, Theinhko, Nyaung-u Sawrahan …) sürekli bir Pagan hükümdarlığı gösterir; liste Hmannan geleneğidir (Cœdès: 'kimi doğrulanamaz'). Dönem sonu 1000-01-01 atlasın 'ufuk sınır işareti'dir (Pagan atlasta 1000-01-01'de pagan olarak başlar) — sahip değişimi değildir."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0849-01-01",
+    "gun": "849",
+    "k": "kurulus",
+    "b": "Kral Pyinbya döneminde Pagan şehri inşa edilir (kronik: Burma Era 211, hükümdarlığının 3. yılı).",
+    "kaynak": "Pe Maung Tin & G.H. Luce, The Glass Palace Chronicle of the Kings of Burma (Oxford UP 1923), Part III (archive.org: glass-palace-chronicle-of-the-kings-of-burma)",
+    "tanik": "the city of Pagan was built; the year of the building was 211"
+   },
+   {
+    "t": "0849-01-01",
+    "gun": "849",
+    "k": "diger",
+    "b": "Cœdès: Pagan 849'da 'kronik kayıtlarında' kesin olarak tarihe girer (yazıt tanığı değil).",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.106",
+    "tanik": "Pagan entered definitively into history, if not in epigraphy at least in the annals"
+   }
+  ],
+  "ic_not": "SONUÇ: Pagan'ın yazılı kuruluş tanığı kronik geleneğidir (849); yazıt/arkeoloji tarihi bu oturumda araştırılmadı/açılmadı (Hudson, UNESCO adaylık dosyası, Luce 'Old Burma-Early Pagán' bakılmadı). Atlas 1000-01-01'de pagan olarak başlıyor; bu zincir 849→1000 arasını tek sahiple (pagan) doldurur. ATLAS DÜZELTME ÖNERİSİ: Pagan'ın başlangıcı 849-01-01 olabilir (kronik tabanlı; beyanla) — karar Emre'nin. kat1900: Pagan 1900 şehir listesinde yok (null)."
+ },
+ {
   "id": "pamplona",
   "ad": "Pamplona",
   "atlas_ad": "Pamplona",
@@ -14833,6 +15745,85 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas Parma'yı 1281-01-01'de '__BOSLUK__' ile başlatıyor (BEYAN AVRUPA-SINIR-0077: 1395 öncesi sahip künyesiz komün/senyörlük). Bu zincir 1106-1281 arası 'parma-komunu' (künyesiz) olarak aynı beyanı DESTEKLER: boşluk künye açılınca kapanır. 1281 tarihli olay YOK (dikiş beyanlı).",
   "ic_not": "Çift teyit: kuruluş 183 (Treccani + Livius). TDV 'Parma' maddesi yok (arama 579 içerik / 4 başlık: Parma ile ilgili madde yok). EI 'Parma' (1935) ayrıca açılmadı; Treccani online yeterli. Zincirde Bizans/Longobard/Frank geçişleri İtalya genel çerçevesidir (beyanlı)."
+ },
+ {
+  "id": "pegu",
+  "ad": "Pegu (Bago)",
+  "atlas_ad": "Pegu (Bago)",
+  "lat": 17.335,
+  "lon": 96.479,
+  "kat1900": 3,
+  "adlar": [
+   "Hamsavati (Hongsawatî)",
+   "Pegu",
+   "Bago"
+  ],
+  "ilk": {
+   "t": "0825-01-01",
+   "gun": "825",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.106-107 ('Foundation of Pegu (Hamsavati) in 825')",
+   "tanik": "a chronicle gives 825 as the date for the foundation of Pegu (Hamsavati) by Samala",
+   "ic_not": "Cœdès: Mon kroniği Pegu'nun Thaton'lu ikiz kardeşler Samala ve Vimala tarafından 825'te kurulduğunu söyler ve bu tarihi 'başka metinlerin verdiği daha erken/geç tarihlere tercih edilir' bulur. Harvey 1925 ise Pegu'nun 'altıncı yüzyıldan sonra bir sürede Thaton'dan türediğini' söyler (tek kesin yıl vermez) ve Kun Atha efsanesinde 'Thamala, Pegu kralı [MS 825-37]' der — yani 825 Harvey'de de aynı geleneğe dayanır. Kaynaklar arası tarih çelişkisi yok ama ikisi de Mon kroniğine dayanır: çift teyit sayılmadı."
+  },
+  "kur": {
+   "t": "0825-01-01",
+   "gun": "825",
+   "kesinlik": "yil",
+   "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.106-107",
+   "tanik": "a chronicle gives 825 as the date for the foundation of Pegu (Hamsavati) by Samala"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0825-01-01",
+    "t": "1077-01-01",
+    "d": "pegu-mon",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.106-107; G.E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London: Longmans 1925; archive.org: historyofburmafr00harv) (Shwemawdaw Thamaing'den: Tissa 1043-57)",
+    "tanik": "Tissa [A.D. 1043-57] was a heretic king [of Pegu]",
+    "ic_not": "KÜNYE BEKLİYOR: önerilen id 'pegu-mon' (Pegu Mon Krallığı / Hamsavati, MS 825-1077, kaynak: Cœdès s.106-107 + Harvey). devletler.js'te Aşağı Burma Mon krallığı künyesi YOK (dvaravati künyesi 551-1100 Dvaravati Mon kültürüdür; kaynakta Pegu-Dvaravati bağı yok, bağlanmadı). Dönem bitişi 1077 'en geç tanıktan' alındı: Hmannan'a göre Sawlu (1077-84) Pegu kasabasını Pagan fiefi olarak Yamankan'a verir; önceki sahibin son tanığı Tissa (1043-57) ile 1077 arası 20 yıl (< 1 kuşak). 1057 Thaton'un Anawrahta'ca alınışı (Harvey) Pegu'yu açıkça anmaz; Harvey'de Anawrahta döneminde 'Pegu efendisi' ayrı bir lord olarak geçer."
+   },
+   {
+    "f": "1077-01-01",
+    "t": "1281-01-01",
+    "d": "pagan",
+    "kesinlik": "yil",
+    "kaynak": "G.E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London: Longmans 1925; archive.org: historyofburmafr00harv) (Hmannan I.278); G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.155-156, 210",
+    "tanik": "He gave the town of Pegu to Yamankan.",
+    "ic_not": "Pagan hâkimiyeti: Sawlu (1077-84) Pegu'yu fief verir; Ngayaman Kan Pegu valisi olarak isyan eder, Kyanzittha 1084'te 'krallığını Pegu Mon'larından yeniden almak zorunda kalır' (Cœdès s.155-156); Khin U ile evlilik Pagan'ın Mon ülkesi üzerindeki egemenliğini 'belki meşrulaştırır' (Cœdès). ÇELİŞKİ/UYARI: Cœdès s.210: Pegu'da vali Tarabya 'Pagan düşmeden bile önce bağımsız olmuştu' (1287 öncesi, tarihi yok) — atlas Pegu'yu 1281-1287 pagan gösteriyor; bu oturumda Tarabya'nın bağımsızlık günü bulunamadı, dönem atlas dikişi için 1281'e kadar sürdürüldü ve BEYAN edilir."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0825-01-01",
+    "gun": "825",
+    "k": "kurulus",
+    "b": "Mon kroniğine göre Pegu (Hamsavati) Thaton'lu ikizler Samala ve Vimala tarafından kurulur.",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.106-107",
+    "tanik": "a chronicle gives 825 as the date for the foundation of Pegu (Hamsavati) by Samala"
+   },
+   {
+    "t": "1077-01-01",
+    "gun": "1077-1084 (Sawlu dönemi)",
+    "k": "diger",
+    "b": "Künye geçişi (Mon Pegu → Pagan fiefi): Sawlu Pegu kasabasını Yamankan'a verir — Pagan hâkimiyetinin EN GEÇ tanığı (Sawlu 1077'de tahta çıkar, 1084'e kadar).",
+    "kaynak": "G.E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London: Longmans 1925; archive.org: historyofburmafr00harv) (Hmannan I.278) + G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.155",
+    "tanik": "He gave the town of Pegu to Yamankan."
+   },
+   {
+    "t": "1084-01-01",
+    "gun": "1084",
+    "k": "fetih",
+    "b": "Kyanzittha tahta çıkınca krallığını Pegu Mon'larından geri almak zorunda kalır; isyancı Ngayaman Kan'ı yener.",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.155-156",
+    "tanik": "He first had to reconquer his kingdom from the Mons of Pegu."
+   }
+  ],
+  "ic_not": "SONUÇ: kuruluş geleneği 825 (Mon kroniği, Cœdès); Pagan hâkimiyeti en geç 1077'den 1281'e. BULUNAMADI: Pegu'nun 1057 sonrası tam statüsü (vasal mı bağımsız mı) ve Tarabya'nın bağımsızlık günü (yalnız 'Pagan düşmeden önce' — Cœdès s.210). ATLAS UYARISI: atlas 1281-1287 pagan der; Cœdès Pegu'yu bu sırada Tarabya'nın elinde gösterir (bağımsız vali) — Hanthawaddy künyesi 1287'de başlar. Karar Emre'nin. 'pegu-mon' künye önerisi: f=0825-01-01 t=1077-01-01 (ömür: kroniğe göre)."
  },
  {
   "id": "pekin",
@@ -15795,6 +16786,59 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "KAYNAK: TDV Şirvanşahlar/Şirvan (curl), Iranica Šervān, Wikipedia (ikinci tanık). Britannica \"Samaxi\" 403. ATLAS ÖNERİSİ: atlas 1000-01-01'de sirvansah ile açıyor; kaynaklara göre şehir ilk anılışından (809) 1000'e kadar zaten vardır → atlas başlangıcı 809'a çekilebilir. Atlas künye sirvansah f=799-02-12 = hicrî 183 ilk günü (TDV: Yezîd b. Mezyed 183/799 ataması) — hicrî tablo karşılığı doğrulandı. kat1900=3 TAHMİNİ (1900 listesinde Şamahı yok; Bakü guberniyası ilçe merkezi)."
+ },
+ {
+  "id": "samudra-pasai",
+  "ad": "Samudra Pasai",
+  "atlas_ad": "Samudra Pasai",
+  "lat": 5.18,
+  "lon": 97.07,
+  "kat1900": null,
+  "adlar": [
+   "Sumutala (Çin kayıtları)",
+   "Samudra",
+   "Samudra-Pasai (Pasai-Samudra)"
+  ],
+  "ilk": {
+   "t": "1286-01-01",
+   "gun": "1286",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "H. Yule & H. Cordier, The Book of Ser Marco Polo (3. bs., London: John Murray 1903), cilt 2, Kitap III, bölüm 'Samara' notu 1 (archive.org: bookofsermarcopo21903polo)",
+   "tanik": "to Kublai in 1286, we find Sumutala",
+   "ic_not": "İLK ANILIŞ (kuruluş DEĞİL; alt sınır): Yule & Cordier, Çin kaydında 1286'da Kubilay'a haraç/hediye gönderen Hint devletleri arasında 'Sumutala' bulunduğunu (hükümdar adı Çince 'Tuan Pati'ye benzer) ve bunun Marco Polo'nun anlattığı Sumatra (Samudra) olduğunu söyler. İkinci yazılı tanıklar: Marco Polo 1292 'Samara' (Ricklefs: Samudra ile eşitlenmesi sorunlu, Polo orayı Müslüman değil diye anar); ilk Müslüman hükümdar Sultan Malik as-Salih'in mezar taşı 696 H/1297 (Ricklefs, Cœdès 'öldü 1297', TDV 'ö. 1297'). TDV (Açe): bölgedeki ilk müstakil devletin 13. yüzyılda Müslümanlarca kurulduğunu söyler (yüzyıl hassasiyeti; Pasai-Samudra Sultanlığı, ilk bilinen hükümdar el-Melikü's-Sâlih). Efsanevi kuruluş (Merah Silu, Hikayat Raja-Raja Pasai) GELENEK — tarihi yok, alınmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1286-01-01",
+    "gun": "1286",
+    "k": "diger",
+    "b": "Çin kaydında Sumutala (Samudra) hükümdarı Kubilay'a haraç/hediye gönderen devletler arasındadır.",
+    "kaynak": "H. Yule & H. Cordier, The Book of Ser Marco Polo (3. bs., London: John Murray 1903), cilt 2, Kitap III, bölüm 'Samara' notu 1 (archive.org: bookofsermarcopo21903polo)",
+    "tanik": "to Kublai in 1286, we find Sumutala"
+   },
+   {
+    "t": "1297-01-01",
+    "gun": "1297",
+    "k": "diger",
+    "b": "Samudra'nın ilk Müslüman hükümdarı Sultan Malik as-Salih'in ölümü; mezar taşı (696 H) bulunmuştur.",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.202; M.C. Ricklefs, Sejarah Indonesia Modern 1200-2004 (Jakarta: Serambi 2005; 'A History of Modern Indonesia since c.1200' Endonezce çevirisi), s.27-28 (Samudra) ve s.80-81 (Aceh)",
+    "tanik": "the discovery of the tombstone of the Sultan Malik al-Saleh, who died in 1297"
+   },
+   {
+    "t": "1297-01-01",
+    "gun": "1297",
+    "k": "diger",
+    "b": "TDV: bilinen ilk hükümdar el-Melikü's-Sâlih (ö. 1297); Pasai-Samudra Sultanlığı 13. yy.'da kurulmuştur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'AÇE' maddesi, https://islamansiklopedisi.org.tr/ace",
+    "tanik": "bilinen ilk hükümdarı el-Melikü’s-Sâlih’tir (ö. 1297)"
+   }
+  ],
+  "ic_not": "SONUÇ: 1281 öncesi yazılı tanık BULUNAMADI. En erken: Çin kaydı 1286 (Yule-Cordier), sonra Polo 1292 (eşitleme sorunlu) ve mezar taşı 1297. Atlas Samudra Pasai'yi 1281-01-01'den 'samudra-pasai' sahibiyle çiziyor; ilk.t (1286) atlas başlangıcından SONRA → ZİNCİR BOŞ, 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR (5 yıl). TUTARLILIK: atlasın 1521 portekiz → 1524 ace dikişi TDV'de (Pasai 1521'de Portekizliler'ce alınır) ve Ricklefs'te (Ali Mughayat Şah 1524'te Pedir ve Pasai'yi alır; 'pada tahun 1524, dia merebut Pedir dan Pasai') kaynaklı görünüyor. kat1900: 1900 şehir listesinde yok (null). Lamreh (Lamuri) mezar taşı 608 H/1211 (Ricklefs s.27) başka yerdir (Banda Aceh bölgesi) — buraya yazılmadı."
  },
  {
   "id": "santa-fe-arjantin",
@@ -17505,6 +18549,64 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas kur 1538-11-30 için kaynak BULUNAMADI (aranan: Bolivya akademik, ABNB, OAM 156/13-159/13, Ley 2017, Cieza, Calancha 1639'dan Mendoza 2018 alıntısı; '30 de noviembre de 1538' yalnız yabancı turizm sitesinde — kullanılmadı). Önerilen: kur 1538-09-29 (Bolivya Ley 2017 + Mendoza 2018) ve ispanyol-peru künyesinin 1538'e genişletilmesi. Zincir: atlas başlangıcı ilk.t'den SONRA olduğundan zincir 1538-09-29→1538-11-30 tek dönemdir. ÖNCEKİ YERLEŞİM: ad Cieza'da 'asentada en Chuquisaca … a quien llaman Chuquisaca' (cap. CVII), Calancha 1639 (Mendoza 2018'den alıntı): 'llamada de sus naturales Chuqiusaca'; Yampara (Charka/Charcas) bölgesi — Cruz, Estudios Atacameños 56 (2014): 'valles chuquisaqueños … antiguo territorio de los yampara'. İnka dönemi: Calancha'ya göre Sucre çevresinde 12 kutsal tepe (Cruz 2014 aktarır). Atlas noktası ≤3 km'de TARİHLİ öncül yerleşim kaynağı bulunamadı; Yampara/İnka sahiplik tarihleri (inka-imparatorlugu künyesi 1438-1572 var) açılamayan Platt-Bouysse-Cassagne-Harris 2006'ya bağlı, YAZILMADI. Ad: 'Sucre' 1839 (OAM 159/13 gerekçesi: '12 Temmuz 1839 Kanunu'), atlas sonrası. Kaynaklar açıldı: Mendoza 2018 (usfx.bo PDF), OAM 159/13, Cieza (archive.org lacrnicadelper00ciez). Açılamayan: OAM 156/13 (PDF okunamadı), Vázquez de Espinosa, Guamán Poma, Ramírez del Águila (yalnız OAM'dan alıntı)."
  },
  {
+  "id": "sukhothai",
+  "ad": "Sukhothai",
+  "atlas_ad": "Sukhothai",
+  "lat": 17.02,
+  "lon": 99.703,
+  "kat1900": null,
+  "adlar": [
+   "Sukhothai (Sukhodaya)"
+  ],
+  "ilk": {
+   "t": "1292-01-01",
+   "gun": "1292",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia), Ram Khamhaeng steli (1292) tartışması s.196-197",
+   "tanik": "sovereign of Mdang Si Satchanalai and Mdang Sukhothai",
+   "ic_not": "İLK ANILIŞ (kuruluş DEĞİL): Cœdès'e göre Ram Khamhaeng steli 1292'de dikilen taht (Manangsilapatra) için yazılmıştır ve 'Mdang Sukhothai'yi açıkça anar. Stel 1283 yılını (Siyam yazısının icadı) geriye dönük anar — metin 1292'de yazıldığından güvenli uç 1292 alındı. Yazıtın gerçekliği sonraki literatürde tartışılmıştır (bu oturumda doğrulanmadı; Cœdès yazıtı sahih kabul eder). İkinci yazılı tanıklar: Guangzhou gazetesi 1297-1307'de 'Su-gu-di' = Sukhothai (Baker & Pasuk 2017, böl.2) ve Yuan Shi'de 15 Haziran 1299 (Cœdès notu). 1281 öncesi yazılı tanık BULUNAMADI. KURULUŞ DEĞİL: yer, Cœdès'e göre Khmer hâkimiyetindeydi (Jayavarman VII'den beri 'en azından'); Tay beyliğinin kuruluşu geleneksel olarak 1238, Cœdès'in hesabıyla c.1220 — bu 'şehrin kuruluşu' değil 'Tay krallığının kuruluşu'dur; künye (sukhothai f=1238) ile ilişkisi Emre'nin kararı."
+  },
+  "kur": null,
+  "ark": {
+   "t": "1150-01-01",
+   "gun": "12. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.195 (Claeys, BEFEO 31, 'L'archéologie du Siam' atfıyla)",
+   "tanik": "the Khmers were dominant over this region at least from the time of Jayavarman VII",
+   "ic_not": "Sukhothai'de ve Sawankhalok'ta görülen Khmer kalıntıları (arkeolojik) Khmer egemenliğini gösterir; Jayavarman VII (1181-1218, kaynakta yıl verilmedi) 'en azından' — YÜZYIL hassasiyeti; t=1150 yalnız 12. yüzyıl işaret değeridir (kaynakta yıl yok), tarih uydurulmadı. Yazılı tanık bulunduğundan ilk.nicelik arkeolojik DEĞİL."
+  },
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1283-01-01",
+    "gun": "1283",
+    "k": "diger",
+    "b": "1292 steline göre Kral Ram Khamhaeng 1283'te Tay yazısını icat eder (geriye dönük anlatım — Sukhothai'nin bu tarihte Tay krallığı merkezi olduğunun dolaylı tanığı).",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.196",
+    "tanik": "King Rama Khamhaeng applied all his energy and all his heart"
+   },
+   {
+    "t": "1292-01-01",
+    "gun": "1292",
+    "k": "diger",
+    "b": "Ram Khamhaeng steli: taht Sukhothai'de dikilir; kral 'Mdang Si Satchanalai ve Mdang Sukhothai'nin hükümdarı' diye anılır (ilk yazılı anılış).",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.196",
+    "tanik": "1292, the date of the construction at Sukhothai of a stone throne"
+   },
+   {
+    "t": "1299-06-15",
+    "gun": "15 Haziran 1299",
+    "k": "diger",
+    "b": "Yuan Shi'de Sukhothai şehir adının anıldığı tarih (Cœdès'in Pelliot/Luce atıflı notu).",
+    "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia), s.353 notu (Pelliot 'Deux itinéraires' s.240-43; Luce 'Early Syam' s.140)",
+    "tanik": "mentioned under the date of June 15, 1299"
+   }
+  ],
+  "ic_not": "SONUÇ: Sukhothai şehri için 1281 öncesi YAZILI tanık bulunamadı; en erken yazılı anılış 1292 (Ram Khamhaeng steli, Cœdès). Atlas Sukhothai'yi 1281-01-01'den 'sukhothai' sahibiyle çiziyor ve ilk.t (1292) atlas başlangıcından SONRA → ZİNCİR BOŞ, uyarı BEKLENİR. Khmer dönemi (arkeolojik, ≥12. yy) 'angkor-kmer' künyesi (802-1431) ile uyumlu olabilir ama kaynakta sahiplik TARİHİ yok — dönem yazılmadı (beyansız yaklaşıklık olurdu). Cœdès: c.1220'de (Indraditya taç giyme tahmini; Majumdar 1275 öncesi önerir, 'sağlam temelden yoksun') Khmer valisi kovulur. ATLAS ÖNERİSİ: 1281-1292 arası dilim yazılı tanıksızdır; kat1900 null."
+ },
+ {
   "id": "sultaniye",
   "ad": "Sultâniye",
   "atlas_ad": "Sultâniye",
@@ -19013,6 +20115,58 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Kuruluş bulunamadı. Polybios 3.60 / Livius 21.38-39 (Hannibal, Taurini başkenti) açılamadı. Treccani Torino'da 1136 Lothar III'ün Amedeo III'ü kovması, 1159 piskopos, 1235 barış, 1237 imp. kaptan, 1248 Federico II'nin Savoy'a feodal vermesi; 1285 Savoy-Acaia. Atlas sardinya=savoya ile 1281 dikişi. Çift teyit YOK."
+ },
+ {
+  "id": "toungoo",
+  "ad": "Toungoo",
+  "atlas_ad": "Toungoo",
+  "lat": 18.943,
+  "lon": 96.435,
+  "kat1900": 3,
+  "adlar": [
+   "Toungoo",
+   "Taungu (Taungoo)"
+  ],
+  "ilk": {
+   "t": "1280-01-01",
+   "gun": "1280",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "G.E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London: Longmans 1925; archive.org: historyofburmafr00harv), 'Toungoo 1280-1531' bölümü (s.123); Cœdès 1968 s.209",
+   "tanik": "two brothers built a stockade round their village on the hill-spur",
+   "ic_not": "Harvey: 1280'de iki kardeş köylerinin çevresine palisat yapar, 've böylece Toungoo'yu kurar'; Cœdès: 'Toungoo prensliği 1280'de kuruldu'. İKİ AKADEMİK KAYNAK AYNI YIL (çift teyit — bağımsızlıkları Burma kroniğine dayandığından sınırlı). Vikipedi (yalnız tutarlılık) 1279 der (kaynağı bu oturumda doğrulanamadı); fark 1 yıl, TDV/akademik esas olarak Harvey+Cœdès'in 1280'i alındı."
+  },
+  "kur": {
+   "t": "1280-01-01",
+   "gun": "1280",
+   "kesinlik": "yil",
+   "kaynak": "G. Cœdès, The Indianized States of Southeast Asia (ed. W.F. Vella, çev. S.B. Cowing; East-West Center Press 1968; archive.org: theindianizedstatesofsoutheastasia) s.209",
+   "tanik": "Toungoo, founded in 1280"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1280-01-01",
+    "t": "1281-01-01",
+    "d": "pagan",
+    "kesinlik": "yil",
+    "kaynak": "G.E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London: Longmans 1925; archive.org: historyofburmafr00harv) s.123",
+    "tanik": "The Pagan kingdom was then on its deathbed",
+    "ic_not": "Harvey: kuruluş sırasında Pagan krallığı 'ölüm döşeğinde'ydi ve Toungoo 'diğer kasabaların sahip olduğu o ufak sadakat geleneğinden bile yoksun' büyüdü — yani Pagan'a bağlılık NOMİNAL/ZAYIFTI. Sahiplik Pagan ülkesi içinde olmanın beyanlı yaklaşıklığıdır (atlasın 1281 pagan dikişiyle aynı sahip); dönem 1 yıl."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1280-01-01",
+    "gun": "1280",
+    "k": "kurulus",
+    "b": "İki kardeş köylerinin çevresine palisat yaparak Toungoo'yu kurar (Karen akınlarına karşı).",
+    "kaynak": "G.E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London: Longmans 1925; archive.org: historyofburmafr00harv) s.123",
+    "tanik": "and thus founded Toungoo"
+   }
+  ],
+  "ic_not": "SONUÇ: 1280 (Harvey 1925 + Cœdès 1968). 1281 öncesi başka sahip bulunamadı (şehir yoktu). ATLAS: pagan 1281-1313 ile uyumlu; atlasın 1281 başlangıcı kuruluştan 1 yıl sonradır — kur=1280 olarak işlenebilir."
  },
  {
   "id": "trivandrum",
