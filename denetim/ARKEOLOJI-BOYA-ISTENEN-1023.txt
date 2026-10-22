@@ -1,0 +1,19 @@
+ANTİK KÜNYELER — boya_gerekli:true (BOYALAR'a MO-MOTOR ekler; VERI-MO-ARKEO yazmaz). id · bölge · f → t
+zheng-devleti · dogu-asya
+wu-devleti · dogu-asya
+bati-chu-xiang-yu · dogu-asya
+yong-krallik · dogu-asya
+xi-wei-krallik · dogu-asya
+yin-krallik · dogu-asya
+hengshan-krallik · dogu-asya
+linjiang-krallik · dogu-asya
+yan-krallik-chuhan · dogu-asya
+gengshi · dogu-asya
+chimei-jianshi · dogu-asya
+chengjia-gongsun-shu · dogu-asya
+gongsun-liaodong · dogu-asya
+hou-zhao · dogu-asya
+ran-wei · dogu-asya
+onceki-qin · dogu-asya
+kuzey-liang · dogu-asya
+hu-xia · dogu-asya

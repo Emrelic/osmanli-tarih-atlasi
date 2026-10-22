@@ -8,7 +8,8 @@ import json, os, re, sys
 sys.stdout.reconfigure(encoding="utf-8")
 KOK = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 DL = r"C:\atlas\.claude\worktrees\cool-visvesvaraya-5a3306\denetim\ONCE1281-DEVLET-LISTESI.json"
-BIRLESTIR = {"tanuhiler": "tenuh"}          # aynı Tanûh konfederasyonu (doğrulama ajanı: TDV 'Tanûh' III-VII. yy) — tek künye
+DL2 = r"C:\atlas\.claude\worktrees\cool-visvesvaraya-5a3306\denetim\once1281\devir\MO-ARKEO_MO12000-MS499.json"
+BIRLESTIR = {"tanuhiler": "tenuh", "bati-qin": "bati-qin-qifu"}          # aynı Tanûh konfederasyonu (doğrulama ajanı: TDV 'Tanûh' III-VII. yy) — tek künye
 OK = ("dogrulandi", "duzeltildi")
 
 
@@ -17,8 +18,12 @@ def q(s):
 
 
 def main():
-    d6 = json.load(open(os.path.join(KOK, "denetim", "arastirma", "6-devlet-dogrula.json"), encoding="utf-8"))["sonuclar"]
+    import glob
+    d6 = []
+    for yol_ in sorted(glob.glob(os.path.join(KOK, "denetim", "arastirma", "6-*.json")) + glob.glob(os.path.join(KOK, "denetim", "arastirma", "8-*.json"))):
+        d6 += json.load(open(yol_, encoding="utf-8"))["sonuclar"]
     dl = {k["id"]: k for k in json.load(open(DL, encoding="utf-8"))["kayitlar"]}
+    dl.update({k["id"]: k for k in json.load(open(DL2, encoding="utf-8"))["kayit"]})
     yol = os.path.join(KOK, "data", "devletler.js")
     s = open(yol, encoding="utf-8", newline="").read()
     var = set(re.findall(r'\bid:"([^"]+)"', s))
@@ -34,8 +39,16 @@ def main():
         if not r or not f or not t or not re.match(r"^-?\d{4}-\d\d-\d\d$", f) or not re.match(r"^-?\d{4}-\d\d-\d\d$", t):
             print("ATLANDI (iso/kayıt eksik):", x["id"], f, t)
             continue
+        if isinstance(x.get("kesinlik"), str) and x["kesinlik"] in ("yil", "onyil", "yuzyil", "belirsiz"):
+            f, t = re.sub(r"-\d\d-\d\d$", "-01-01", f), re.sub(r"-\d\d-\d\d$", "-01-01", t)        # gün hassasiyeti yok: ay/gün ADAYLARI (ganzhi aritmetiği vb.) künyeye girmez
+        def _gn(z):
+            m = re.match(r"^(-?)(\d{4})-(\d\d)-(\d\d)$", z)
+            return (-1 if m.group(1) else 1) * (int(m.group(2)) * 400 + int(m.group(3)) * 31 + int(m.group(4)))
+        if _gn(f) >= _gn(t):
+            print("ATLANDI (f>=t, sıfır uzunluk riski):", x["id"], f, t)
+            continue
         kay = " · ".join(x["kaynak"]) if isinstance(x["kaynak"], list) else x["kaynak"]
-        ozet = (r.get("ozet") or "") + " [Künye ucu doğrulaması: %s]" % (x.get("ic_not") or "")[:500]
+        ozet =(r.get("ozet") or "") + " [Künye ucu doğrulaması: %s]" % (x.get("ic_not") or "")[:500]
         kes = x.get("kesinlik")
         satir = ("{ id:%s, ad:%s, tur:%s, bolge:%s, f:%s, t:%s, baskent:%s, ozet:%s, kaynak:%s,\n  kronoloji:[\n"
                  "    { t:%s, tur:\"kurulus\", b:%s, kaynak:%s },\n    { t:%s, tur:\"son\", b:%s, kaynak:%s }\n  ] },") % (
@@ -57,6 +70,14 @@ def main():
     with open(yol, "w", encoding="utf-8", newline="") as fh:
         fh.write(s[:i] + blok + s[i:])
     print("künye eklendi:", len(ek), [i for i, _ in ek])
+    by = os.path.join(KOK, "denetim", "ARKEOLOJI-BOYA-ISTENEN-1023.txt")      # boya_gerekli:true — boyayı MO-MOTOR yazar (bu betik yazmaz)
+    eski = open(by, encoding="utf-8").read() if os.path.exists(by) else "ANTİK KÜNYELER — boya_gerekli:true (BOYALAR'a MO-MOTOR ekler; VERI-MO-ARKEO yazmaz). id · bölge · f → t\n"
+    with open(by, "w", encoding="utf-8", newline="\n") as fh:
+        fh.write(eski)
+        for i_, _ in ek:
+            if i_ + " " not in eski:
+                r_ = dl[i_]
+                fh.write("%s · %s\n" % (i_, r_.get("bolge")))
 
 
 main()
