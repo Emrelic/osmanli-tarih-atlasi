@@ -4697,10 +4697,10 @@ def mukerrer_maddeler(O):
             # çift mükerrer sayılmaz — farklı şehirdeki aynı-gün aynı-devir maddeleri (İskender,
             # Persepolis, 1118 Irak Selçuklu, 1204-04-13 Bizans→İznik/Latin, 1097 Haçlı) sahici
             # mükerrer değil. yer_id boş/aynıysa eski ölçüt aynen geçerli.
+            _yer_farkli = False
             if MUKERRER_YER_AYIRT:
                 _yi, _yj = S[i].get("yer_id"), S[j].get("yer_id")
-                if _yi and _yj and _yi != _yj:
-                    continue
+                _yer_farkli = bool(_yi and _yj and _yi != _yj)
             istisna = _bilinen_ayri((S[i]["b"], S[j]["b"]))
             a, b = _kelimeler(S[i]["b"]), _kelimeler(S[j]["b"])
             oran = 0.0
@@ -4729,6 +4729,8 @@ def mukerrer_maddeler(O):
             if istisna:                     # çift ötüyordu, istisna BASTIRDI
                 _BILINEN_AYRI_KULLANILAN.add(istisna)
                 continue
+            if _yer_farkli:                 # ölçüt çifti yakaladı ama yerler farklı: mükerrer DEĞİL
+                continue                    # (istisna sayımı yukarıda eskisi gibi işlendi)
             bulunan.append((S[i]["t"][:4], oran, S[i], S[j], olcut))
     return bulunan
 
