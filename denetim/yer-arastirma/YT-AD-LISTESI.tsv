@@ -84,7 +84,7 @@ Endülüs	Endülüs	bolge	37.89	-4.78	1281-01-01	yerlesimler_once1281_yt_avrupa.
 Trakya	Trakya	bolge	41.6	26.8	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Makedonya	Makedonya	bolge	41.5	21.7	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Toskana	Toskana	bolge	43.5	11.1	1281-01-01	yerlesimler_once1281_yt_avrupa.js
-Sarmizegetusa	Sarmizegetusa	harabe	45.62289	23.31041	0106-01-01	yerlesimler_once1281_yt_avrupa.js
+Sarmizegetusa	Sarmizegetusa	harabe	45.62289	23.31041	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Melun	Melun	sehir	48.5457	2.65356	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Gnezno	Gnezno (Gniezno)	sehir	52.534	17.55	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Boulogne	Boulogne	liman	50.722	1.609	1281-01-01	yerlesimler_once1281_yt_avrupa.js
@@ -95,7 +95,7 @@ Forfar	Forfar	kasaba	56.647	-2.887	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Bensington	Bensington (Benson)	kasaba	51.627	-1.113	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Repton	Repton	kasaba	52.836	-1.551	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Saint-Maurice d'Agaune	Saint-Maurice d'Agaune	kasaba	46.214	7.005	1281-01-01	yerlesimler_once1281_yt_avrupa.js
-Tamworth	Tamworth	kasaba	52.625	-1.69	0918-01-01	yerlesimler_once1281_yt_avrupa.js
+Tamworth	Tamworth	kasaba	52.625	-1.69	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Tolbiacum	Tolbiacum (Zülpich)	sehir	50.693	6.651	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Gainsborough	Gainsborough	kasaba	53.39	-0.77	1281-01-01	yerlesimler_once1281_yt_avrupa.js
 Bautzen	Bautzen	sehir	51.182	14.43	1281-01-01	yerlesimler_once1281_yt_avrupa.js
@@ -141,8 +141,8 @@ Vietnam	Vietnam	bolge	16.658	106.301	1281-01-01	yerlesimler_once1281_yt_dogu_gd_
 Hindistan	Hindistan	bolge	20.6	79.5	1281-01-01	yerlesimler_once1281_yt_hint.js
 Beşbalık	Beşbalık	harabe	44.069	89.19	1281-01-01	yerlesimler_once1281_yt_hint.js
 Mahoba	Mahoba	sehir	25.291	79.874	1281-01-01	yerlesimler_once1281_yt_hint.js
-Badami	Badami	sehir	15.916	75.68	0757-01-01	yerlesimler_once1281_yt_hint.js
-Gaochang	Gaochang	harabe	42.855	89.5286	0640-01-01	yerlesimler_once1281_yt_hint.js
+Badami	Badami	sehir	15.916	75.68	1281-01-01	yerlesimler_once1281_yt_hint.js
+Gaochang	Gaochang	harabe	42.855	89.5286	1281-01-01	yerlesimler_once1281_yt_hint.js
 Tokmok	Tokmok	kasaba	42.85	75.3	1281-01-01	yerlesimler_once1281_yt_hint.js
 Tibet	Tibet	bolge	33.3614	90.3119	1281-01-01	yerlesimler_once1281_yt_hint.js
 Bactria	Bactria	bolge	37.4104997452	67.1536516955	1281-01-01	yerlesimler_once1281_yt_iran_orta_asya.js
@@ -169,9 +169,9 @@ Fars	Fars	bolge	29.62	52.53	1281-01-01	yerlesimler_once1281_yt_ortadogu.js
 Cibâl	Cibâl	bolge	34.8	48.5	1281-01-01	yerlesimler_once1281_yt_ortadogu.js
 Hûzistan	Hûzistan	bolge	32.27	48.5	1281-01-01	yerlesimler_once1281_yt_ortadogu.js
 Necran	Necran	sehir	17.485	44.153	1281-01-01	yerlesimler_once1281_yt_ortadogu.js
-Zafâr	Zafâr	harabe	14.211704	44.400794	0525-01-01	yerlesimler_once1281_yt_ortadogu.js
+Zafâr	Zafâr	harabe	14.211704	44.400794	1281-01-01	yerlesimler_once1281_yt_ortadogu.js
 Hulvân	Hulvân (Hulwan)	sehir	34.465114	45.85589	1281-01-01	yerlesimler_once1281_yt_ortadogu.js
-Hîre	Hîre	sehir	32.0	44.41	0602-01-01	yerlesimler_once1281_yt_ortadogu.js
+Hîre	Hîre	sehir	32.0	44.41	1281-01-01	yerlesimler_once1281_yt_ortadogu.js
 Fihl	Fihl (Pella)	harabe	32.45	35.614	1281-01-01	yerlesimler_once1281_yt_ortadogu.js
 Celûlâ	Celûlâ (Jalula)	kasaba	34.2667	45.1667	1281-01-01	yerlesimler_once1281_yt_ortadogu.js
 Ebher	Ebher (Abhar)	sehir	36.1468	49.218	1281-01-01	yerlesimler_once1281_yt_ortadogu.js

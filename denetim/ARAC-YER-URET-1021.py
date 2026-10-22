@@ -114,7 +114,7 @@ MEVCUT_AD = {y["ad"] for y in Y}
 YAZILAN_AD = set()
 SAHIP = {}
 _sy = os.path.join(KL, "SAHIP-YAZILAN-1021.json")
-if os.path.exists(_sy):
+if os.path.exists(_sy) and "--sahip" in sys.argv:      # s: zincirleri VARSAYILAN KAPALI: her sınır Değişmez 2s'de yeni 'yabancı kırılma' (6 yerleşim: +10 kırılma, +2 AÇIK → tavan 188 aşıldı); ±30 gün maddeler yazılınca --sahip ile açılır
     SAHIP = json.load(open(_sy, encoding="utf-8")).get("yazilan", {})
 gruplar = collections.defaultdict(list)
 for r in aday:
