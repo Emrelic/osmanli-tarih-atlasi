@@ -2767,6 +2767,107 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Kuruluş bulunamadı. EB1911 'Edinburgh': Edwin 617/629 ve 'Edwinesburch' (Symeon of Durham) — eski; Anderson şüpheli buluyor. Atlas zinciri iskocya 1281'de aynı sahip → dikiş uyumlu. Çift teyit YOK. 1128: Melrose Kroniği (13. yy derleme) — çağdaş değil ama bu oturumda açılan en eski tarihli tanık."
  },
  {
+  "id": "edo",
+  "ad": "Edo (Tokyo)",
+  "atlas_ad": "Edo (Tokyo)",
+  "lat": 35.69,
+  "lon": 139.692,
+  "kat1900": 1,
+  "adlar": [
+   "Edo (江戸)",
+   "Tōkyō"
+  ],
+  "ilk": {
+   "t": "1180-09-17",
+   "gun": "Jishō 4/8/26 (≈17 Eylül 1180)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "日本大百科全書 (ニッポニカ) «江戸» (吉原健一郎), Kotobank https://kotobank.jp/word/江戸 ; ブリタニカ国際大百科事典 小項目事典 «江戸» (aynı sayfa)",
+   "tanik": "『吾妻鏡』の1180年（治承4）8月26日の条に、江戸太郎重長の名がみえ",
+   "ic_not": "İLK ANILIŞ (alt sınır), kuruluş değil: Edo-gō / Edo Shigenaga'nın üssü. Takvim: Azuma Kagami Jishō 4/8/26 ay-güneş; Batı karşılığı kaynakta yok. Çeviri benim hesabım (ortalama yeni ay, Jülyen; 11. ay = 1180-11-19 ⇒ 8. ay 1180-08-23 ⇒ 26. gün ≈ 1180-09-17), NAOJ tablosuyla doğrulanmadı, ±2 gün ⇒ kesinlik 'ay'. İki ansiklopedi (Nipponica, Britannica) aynı birincil kayda (Azuma Kagami) dayanır: bağımsız çift teyit sayılmaz. Atlas 'kur' 1457 (Ōta Dōkan kalesi); şehir/yerleşim daha eskidir. Atlas koordinatı (35.690,139.692) Edo kalesi yerinden ölçüme muhtaç görünüyor (ölçülmedi)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1180-09-17",
+    "t": "1185-01-01",
+    "d": "heian-japonya",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «鎌倉幕府» (ニッポニカ; 日本国語大辞典) ; «江戸»",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: 1180-83 arası doğu Japonya fiilen Yoritomo'nun elindeydi (Nipponica: «東国独立国家は解消し»); bakufu başlangıcı için kaynak 1180/1183/1185 verir. Künye kamakura 1185'te başladığı için 1180-85 arası saray (heian-japonya) yazıldı; Yoritomo bölgesi için ayrı künye gerekebilir (künye önerisi yazılmadı)."
+   },
+   {
+    "f": "1185-01-01",
+    "t": "1333-07-04",
+    "d": "kamakura",
+    "kesinlik": "gun",
+    "kaynak": "Kotobank «鎌倉幕府»; «新田義貞» (ニッポニカ) https://kotobank.jp/word/新田義貞",
+    "ic_not": "t: Genkō 3/5/22 (Nitta Yoshisada Kamakura'yı alır). Jülyen: 1333 ay başlangıçları hesaplı (5. ay = 1333-06-13 ⇒ 22. gün = 1333-07-04), atlasın günüyle aynı; NAOJ tablosuyla doğrulanmadı."
+   },
+   {
+    "f": "1333-07-04",
+    "t": "1336-12-10",
+    "d": "kenmu",
+    "kesinlik": "gun",
+    "kaynak": "Kotobank «建武式目» https://kotobank.jp/word/建武式目",
+    "ic_not": "t: Kenmu 3/11/7 Kenmu Shikimoku. Hesabım: kış gündönümü ⇒ 11. ay 1336-12-04 ⇒ 7. gün = 1336-12-10 (±2); ATLAS 1336-11-07 yazıyor, ay-gün rakamları çevrilmeden yazılmış görünüyor → atlas düzeltme önerisi (ölçüm: Kyoto/Osaka/Kamakura/Edo hepsinde 1336-11-07). Künye kenmu t 1336-11-07 olduğundan hayalet uyarısı beklenir."
+   },
+   {
+    "f": "1336-12-10",
+    "t": "1457-01-01",
+    "d": "muromachi",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «建武式目»; «江戸»",
+    "ic_not": "t: Ōta Dōkan'ın Edo kalesini tamamladığı Chōroku 1 (1457) — atlas başlangıcıyla dikiş."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1180-09-17",
+    "gun": "Jishō 4/8/26 (≈17 Eylül 1180)",
+    "k": "diger",
+    "b": "Azuma Kagami'de Edo adının ilk anılışı (Edo Tarō Shigenaga).",
+    "kaynak": "Kotobank «江戸» (ニッポニカ), https://kotobank.jp/word/江戸",
+    "tanik": "『吾妻鏡』の1180年（治承4）8月26日の条に、江戸太郎重長の名がみえ"
+   },
+   {
+    "t": "1185-01-01",
+    "gun": "1185 (Bunji 1)",
+    "k": "diger",
+    "b": "künye geçişi: Heian sarayı → Kamakura bakufu.",
+    "kaynak": "Kotobank «鎌倉幕府» (日本国語大辞典)",
+    "tanik": "文治元年（一一八五）説（守護・地頭の設置）が有力"
+   },
+   {
+    "t": "1333-07-04",
+    "gun": "22 Mayıs Genkō 3 (≈4 Temmuz 1333)",
+    "k": "fetih",
+    "b": "Nitta Yoshisada Kamakura'yı düşürür; bakufu biter, Kenmu Restorasyonu.",
+    "kaynak": "Kotobank «新田義貞» (ニッポニカ), https://kotobank.jp/word/新田義貞",
+    "tanik": "5月22日鎌倉を落とし、得宗北条"
+   },
+   {
+    "t": "1336-12-10",
+    "gun": "Kenmu 3/11/7 (≈10 Aralık 1336)",
+    "k": "diger",
+    "b": "künye geçişi: Kenmu → Muromachi (Kenmu Shikimoku, Ashikaga bakufunun başlangıcı).",
+    "kaynak": "Kotobank «建武式目» (世界大百科事典; ニッポニカ), https://kotobank.jp/word/建武式目",
+    "tanik": "1336年（延元1・建武3）11月7日立法された室町幕府の法令"
+   },
+   {
+    "t": "1457-01-01",
+    "gun": "1457 (Chōroku 1)",
+    "k": "kurulus",
+    "b": "Ōta Dōkan Edo kalesini tamamlar; kale şehri doğar.",
+    "kaynak": "Kotobank «江戸» (ニッポニカ), https://kotobank.jp/word/江戸",
+    "tanik": "1457年（長禄1）に完成した城は景勝の地でもあり"
+   }
+  ],
+  "ic_not": "Çift teyit yok. Bakufu çökmesi (Genkō 3/5/22) için kaynak Nitta Yoshisada maddesi, 5/22 günü hesaplı Jülyen. 1180 öncesi tarihli tanık bulunamadı (Edo-gō arkeolojisi bu oturumda aranmadı)."
+ },
+ {
   "id": "erdebil",
   "ad": "Erdebil",
   "atlas_ad": "Erdebil",
@@ -4669,6 +4770,208 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "KAYNAK: Iranica ISFAHAN iv (pre-Islamic, J. Hansman), ii (hist. geography, X. de Planhol), vi (medieval, H. Kamaly), GABAE (R. Schmitt); TDV İsfahan; TDV Kâkûyîler/Büveyhîler/Ziyârîler. Isfahan zincirinin 913-935 ve 1231-1235 boşlukları beyanlıdır. ATLAS ÖNERİSİ: atlasın 1235-01-01 başlangıcı TDV'nin '1235-1236' aralığının ilk ucu; güvenli uç 1236 (kaynak aralık veriyor)."
  },
  {
+  "id": "kaesong",
+  "ad": "Kaesong",
+  "atlas_ad": "Kaesong",
+  "lat": 37.972,
+  "lon": 126.554,
+  "kat1900": 3,
+  "adlar": [
+   "Buso-gap (扶蘇岬, Goguryeo)",
+   "Songak-gun (松岳/松嶽郡, Silla)",
+   "Gaeju (開州)",
+   "Gaegyeong (開京)",
+   "Hwangdo (皇都)",
+   "Gaeseong (開城)",
+   "Kaesong"
+  ],
+  "ilk": {
+   "t": "0695-01-01",
+   "gun": "695 (Hyoso 3, kış)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Samguk Sagi (三國史記) kwon 8, Hyoso 3. yıl; yıl çapası kwon 31 yıl tablosu (乙未); zh.wikisource.org/wiki/三國史記/卷08, /卷31 ; ayrıca kwon 35",
+   "tanik": "冬，築松岳、牛岑二城",
+   "ic_not": "İLK ANILIŞ (alt sınır), kuruluş DEĞİL: Samguk Sagi kwon 35 «松岳郡，本高句麗扶蘇岬，孝昭王三年築城» — yer Goguryeo döneminde 'Buso-gap' adıyla zaten vardı (tarihsiz). Yıl: kwon 8 'Hyoso 3. yıl'; kwon 31 tablosu 'Hyoso 1 = 癸巳 (693)', 'ikinci 甲午', 'üçüncü 乙未' = 695. Kış ⇒ 695 sonu/696 başı ihtimali: yıl hassasiyeti. Goguryeo/Buso-gap tarihli tanık bulunamadı. Atlas başlangıcı 1000-01-01 (ufuk işareti), 918'den sürer."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0695-01-01",
+    "t": "0896-01-01",
+    "d": "silla",
+    "kesinlik": "yil",
+    "boyasiz": true,
+    "kaynak": "Samguk Sagi kwon 8, kwon 35 (zh.wikisource.org/wiki/三國史記/卷35) ; Goryeosa kwon 1 (高麗史/卷一)",
+    "ic_not": "Silla Songak-gun (Gyeongdeok dönemi adı korundu). Silla künyesi -0056/0935."
+   },
+   {
+    "f": "0896-01-01",
+    "t": "0918-07-25",
+    "d": "taebong",
+    "kesinlik": "yil",
+    "boyasiz": true,
+    "kaynak": "Goryeosa kwon 1 (zh.wikisource.org/wiki/高麗史/卷一) ; Samguk Sagi kwon 50 Gungye biyografisi (三國史記/卷50)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Wang Ryung 896'da Songak'ı Gungye'ye teslim eder (Gungye o sırada Silla'ya isyan eden komutan; 'Hu-Goguryeo' 901'de ilan edildi, künye taebong f=901 ⇒ hayalet uyarısı: künye GENİŞLET önerisi 896). 897-898 Gungye Songak'ı başkent seçer, 905'te Cheorwon'a döner, Songak Taebong'da kalır (918'e kadar)."
+   },
+   {
+    "f": "0918-07-25",
+    "t": "1000-01-01",
+    "d": "goryeo",
+    "kesinlik": "gun",
+    "kaynak": "Goryeosa kwon 1, Taejo 1. yıl 6. ay 丙辰 (zh.wikisource.org/wiki/高麗史/卷一)",
+    "ic_not": "f: Jülyen = ganzhi gün sütunuyla HESAPLANDI (918-07-25 = 丙辰; 6. ay 918-07-11 başlar, doğrulamalı), NAOJ/Academia Sinica tablosuyla doğrulanmadı. t: atlas 'goryeo' ufuk işareti (1000-01-01); aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0695-01-01",
+    "gun": "695 (Hyoso 3)",
+    "k": "kurulus",
+    "b": "Silla, Songak (ve Usam) kalelerini inşa eder.",
+    "kaynak": "Samguk Sagi kwon 8, zh.wikisource.org/wiki/三國史記/卷08 ; kwon 35",
+    "tanik": "冬，築松岳、牛岑二城"
+   },
+   {
+    "t": "0896-01-01",
+    "gun": "896 (乾寧三年丙辰)",
+    "k": "diger",
+    "b": "künye geçişi: Silla → Gungye (Songak-gun'un komutanı Wang Ryung bölgeyi Gungye'ye teslim eder).",
+    "kaynak": "Goryeosa kwon 1, zh.wikisource.org/wiki/高麗史/卷一",
+    "tanik": "乾寧三年丙辰，以郡歸于裔，裔大喜"
+   },
+   {
+    "t": "0898-01-01",
+    "gun": "898 (光化元年戊午)",
+    "k": "idari",
+    "b": "Gungye başkenti Songak'a taşır.",
+    "kaynak": "Goryeosa kwon 1, zh.wikisource.org/wiki/高麗史/卷一",
+    "tanik": "光化元年戊午，裔移都松嶽"
+   },
+   {
+    "t": "0905-01-01",
+    "gun": "905 (天祐二年乙丑)",
+    "k": "idari",
+    "b": "Gungye başkenti Cheorwon'a geri götürür.",
+    "kaynak": "Goryeosa kwon 1, zh.wikisource.org/wiki/高麗史/卷一",
+    "tanik": "天祐二年乙丑，裔還都鐵圓"
+   },
+   {
+    "t": "0918-07-25",
+    "gun": "918 (Taejo 1/6, 丙辰)",
+    "k": "diger",
+    "b": "künye geçişi: Taebong → Goryeo (Wang Geon tahta çıkar).",
+    "kaynak": "Goryeosa kwon 1, zh.wikisource.org/wiki/高麗史/卷一",
+    "tanik": "夏六月丙辰，卽位于布政殿，國號高麗，改元天授"
+   },
+   {
+    "t": "0919-01-01",
+    "gun": "919 (己卯, Taejo 2)",
+    "k": "idari",
+    "b": "Goryeo başkenti Songak'ın güneyine kurar: saray, devlet daireleri, pazar, mahalleler; 'Gaeju'.",
+    "kaynak": "Goryeosa kwon 1, zh.wikisource.org/wiki/高麗史/卷一 ; kwon 56",
+    "tanik": "二年春正月，定都于松嶽之陽，創宮闕，置三省、六尙書"
+   },
+   {
+    "t": "0960-04-13",
+    "gun": "960 (Gwangjong 11, 甲寅)",
+    "k": "idari",
+    "b": "Gaegyeong 'Hwangdo' (皇都) adını alır.",
+    "kaynak": "Goryeosa kwon 2, zh.wikisource.org/wiki/高麗史/卷二 ; kwon 56",
+    "tanik": "改開京爲皇都；西京爲西都"
+   }
+  ],
+  "ic_not": "Kuruluş tarihi bulunamadı; Goguryeo 'Buso-gap/Dongbihol' kaydı tarihsiz. Çift teyit: 918 Goryeo kuruluşu Samguk Sagi/Goryeosa çevresinden (Goryeosa) tek ana kaynak; 695 Samguk Sagi kwon 8 + kwon 35 (aynı eser) – bağımsız çift teyit yok. Takvim: ganzhi gün sütunları Jülyen'e kendi hesabımla çevrildi (919, 960 yılları ay/yıl). Atlas düzeltme önerisi: Kaesong atlas f 1281 + 'goryeo' ufuk 1000 çelişkisi yok; bu dosya 695-1000'i doldurur."
+ },
+ {
+  "id": "kamakura",
+  "ad": "Kamakura",
+  "atlas_ad": "Kamakura",
+  "lat": 35.319,
+  "lon": 139.55,
+  "kat1900": 3,
+  "adlar": [
+   "Kamakura-gun / Kamakura-gō (鎌倉郷)",
+   "Kamakura"
+  ],
+  "ilk": {
+   "t": "0735-12-31",
+   "gun": "735 (Tenpyō 7, 閏11月10日)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "日本歴史地名大系 (平凡社) «鎌倉市» 〔原始・古代〕, Kotobank https://kotobank.jp/word/鎌倉市 ; kaynak belge: 相模国封戸租交易帳 (正倉院文書)",
+   "tanik": "確実な文献上における鎌倉の初見",
+   "ic_not": "İLK ANILIŞ (alt sınır), kuruluş değil: 日本歴史地名大系 «鎌倉郡鎌倉郷参拾戸...» (Shōsōin belgesi, 閏11月10日) 'kesin yazılı ilk görünüş' olarak veriyor; Kojiki 'Kamakura-no-wake' ve Man'yōshū (Kamakura-yama) tarihsiz anıştır. Tenpyō 7'nin ARALIK ayı (閏11月): Jülyen 735-12 sonu ya da 736-01 olabilir ⇒ t 735 sonu, YIL hassasiyeti. Kamakura-gun yönetim merkezi (郡衙) tahminidir, modern Kamakura merkezine ≤3 km olduğu kaynakta 'batı kesim' diye söylenir (ölçülmedi)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0735-12-31",
+    "t": "0794-11-19",
+    "d": "nara-japonya",
+    "kesinlik": "ay",
+    "boyasiz": true,
+    "kaynak": "Kotobank «鎌倉市» ; «平安京» (遷都の日)",
+    "ic_not": "Sagami Eyaleti Nara devleti; t hesaplı (bkz. Kyoto); künye nara-japonya 0793-12-31'de biter ⇒ hayalet uyarısı (künye GENİŞLET önerisi t 0794-11-19)."
+   },
+   {
+    "f": "0794-11-19",
+    "t": "1185-01-01",
+    "d": "heian-japonya",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «平安京»; «鎌倉幕府»; «鎌倉市»",
+    "ic_not": "1180'de Yoritomo Kamakura'ya girer (Britannica) ama bakufu başlangıcı 1185 görüşü esas alındı; künye sınırı."
+   },
+   {
+    "f": "1185-01-01",
+    "t": "1281-01-01",
+    "d": "kamakura",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «鎌倉幕府», «鎌倉市» (ブリタニカ: «治承4 (1180) 年に源頼朝が鎌倉に入ってから»)",
+    "ic_not": "Atlas Kamakura zinciri 1281'de kamakura ile başlar; aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0735-12-31",
+    "gun": "735 (Tenpyō 7)",
+    "k": "idari",
+    "b": "Sagami eyaleti belgesinde 'Kamakura-gun Kamakura-gō' 30 hane olarak kayıtlı (ilk yazılı görünüş).",
+    "kaynak": "Kotobank «鎌倉市» (日本歴史地名大系), https://kotobank.jp/word/鎌倉市",
+    "tanik": "鎌倉郡鎌倉郷参拾戸、田壱佰参拾五町壱佰玖歩"
+   },
+   {
+    "t": "0794-11-19",
+    "gun": "Enryaku 13/10/22 (≈19 Kasım 794)",
+    "k": "diger",
+    "b": "künye geçişi: Nara → Heian (Kanmu başkenti Heian-kyō'ya taşır).",
+    "kaynak": "Kotobank «平安京» (日本国語大辞典), https://kotobank.jp/word/平安京",
+    "tanik": "長岡京から遷都し、一一月八日の詔によって平安京と命名"
+   },
+   {
+    "t": "1180-01-01",
+    "gun": "1180 (Jishō 4)",
+    "k": "diger",
+    "b": "Minamoto no Yoritomo Kamakura'ya girer; şehir bakufunun merkezi olur.",
+    "kaynak": "Kotobank «鎌倉市» (ブリタニカ国際大百科事典), https://kotobank.jp/word/鎌倉市",
+    "tanik": "治承4 (1180) 年に源頼朝が鎌倉に入ってから"
+   },
+   {
+    "t": "1185-01-01",
+    "gun": "1185 (Bunji 1)",
+    "k": "diger",
+    "b": "künye geçişi: Heian sarayı → Kamakura bakufu (1185 görüşü).",
+    "kaynak": "Kotobank «鎌倉幕府» (日本国語大辞典), https://kotobank.jp/word/鎌倉幕府",
+    "tanik": "文治元年（一一八五）説（守護・地頭の設置）が有力"
+   }
+  ],
+  "ic_not": "Çift teyit yok. Atlas düzeltme önerisi: atlas Kamakura 1281-1333'te 'kamakura'; bu dosya 1185-1281'e sahip dönemini ekler (Yoritomo'nun Kamakura'ya girişi 1180 ayrıca olay). Wikisource'ta Japon altı ulusal tarih (Rikkokushi) metni yok; Azuma Kagami birincil metni açılamadı."
+ },
+ {
   "id": "kamanice",
   "ad": "Kamaniçe",
   "atlas_ad": "Kamaniçe",
@@ -5532,6 +5835,49 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Klis atlasta k=2 (sancak, 1537-1648 Osmanlı). Atlas 1281'de 'macaristan' ile başlıyor; zincir aynı sahiple bitiyor. TDV maddesinde (kasaba) Osmanlı öncesi kayıt yok. kat1900: LISTE.tsv'de Klis yok; atlas k=2 esas alınarak 2 yazıldı (doğrulanmadı). LZMK tek (Hırvat ulusal) ansiklopedidir; ikinci bağımsız teyit bulunamadı."
  },
  {
+  "id": "kochi",
+  "ad": "Kōchi",
+  "atlas_ad": "Kōchi",
+  "lat": 33.56,
+  "lon": 133.531,
+  "kat1900": 2,
+  "adlar": [
+   "Ōtakasa-yama (大高坂山)",
+   "Kawanaka-yama (河中山)",
+   "Kōchi (高智→高知)"
+  ],
+  "ilk": {
+   "t": "1601-01-01",
+   "gun": "1601 (Keichō 6)",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "日本歴史地名大系 (平凡社) «高知城», Kotobank https://kotobank.jp/word/高知城 ; «高知市» https://kotobank.jp/word/高知市",
+   "tanik": "同年八月、築城総奉行に百々越前守安行を任命、その子出雲を補佐として九月に着工した",
+   "ic_not": "Kaynak: Yamauchi Kazutoyo 1601'de Tosa'ya girdi, aynı yıl Ōtakasa-yama'da kale inşasına 9. ayda başladı (ay-güneş; Batı karşılığı yok ⇒ yıl hassasiyeti). Aynı sahada daha eski: «南北朝時代、南朝方として活躍した大高坂松王丸の居城のあった地といわれ» (tarihsiz) ve Chōsokabe Motochika 1588 (Tenshō 16) Okō'dan taşınıp vazgeçti (Nihon-no-shiro ansiklopedisi, aynı sayfa) — şehir/kale yeri 1601 öncesi tarihsiz, kuruluş 1601 alındı. Kōchi (ad) 1603 sonrası (河中→高智→高知). Atlas başlangıcıyla (1601-01-01) AYNI gün: zincir yok."
+  },
+  "kur": {
+   "t": "1601-01-01",
+   "gun": "1601 (Keichō 6)",
+   "kesinlik": "yil",
+   "kaynak": "Kotobank «高知城» (日本歴史地名大系)",
+   "tanik": "慶長六年（一六〇一）入国した山内一豊は、長宗我部氏の浦戸城の放棄を決め"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1601-01-01",
+    "gun": "1601 (Keichō 6)",
+    "k": "kurulus",
+    "b": "Yamauchi Kazutoyo Ōtakasa-yama'da kale inşasına başlar; Kōchi şehri kurulur.",
+    "kaynak": "Kotobank «高知城» (日本歴史地名大系), https://kotobank.jp/word/高知城",
+    "tanik": "同年八月、築城総奉行に百々越前守安行を任命"
+   }
+  ],
+  "ic_not": "Çift teyit: Kotobank «高知市» (aynı Heibonsha) 'Yamauchi Kazutoyo kale yapar' ile uyumlu, bağımsız değil. 1601 öncesi tanık bulunamadı. Atlas başlangıcı = ilk (1601-01-01), zincir gerekmiyor (uyarı beklenir, düzeltme gerekmez)."
+ },
+ {
   "id": "kohne-urgenc",
   "ad": "Köhne Ürgenç (Gürgenç)",
   "atlas_ad": "Köhne Ürgenç (Gürgenç)",
@@ -5822,6 +6168,74 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "KAYNAK: Treccani EI 1933 \"Kutais\", TDV Gürcüler/Gürcistan, Krukowski Merkezi (Varşova Üniv. - Gürcü ortak kazısı, Bagrati tepesi, 2021-23 sezonları: Geç Tunç/Erken Demir Çağı ahşap-sıva yapılar 13.-10. yy MÖ, altta Proto-Kolhis II ~1700-1400 MÖ). ARK ZİNCİRİ: arkeolojik katman (MÖ ~1700) ile yazılı ilk anılış (IX. yy) arası Kolhis/Pers/Roma/Lazika/Bizans/Abhazya sahipliği Kutaisi'ye özgü kaynaklı olarak BULUNAMADI: zincir IX. yy'dan başlatıldı. ATLAS ÖNERİSİ: atlas 1281'den başlıyor; 1008 öncesi kaynaklı zincir yok. kat1900=2 (Kutaisi guberniyası merkezi; 1900 listesi)."
+ },
+ {
+  "id": "kyoto",
+  "ad": "Kyoto",
+  "atlas_ad": "Kyoto",
+  "lat": 35.011,
+  "lon": 135.768,
+  "kat1900": 2,
+  "adlar": [
+   "Heian-kyō (平安京)",
+   "Miyako / Kyō",
+   "Kyoto"
+  ],
+  "ilk": {
+   "t": "0794-11-19",
+   "gun": "Enryaku 13/10/22 (≈19 Kasım 794)",
+   "nicelik": "kurulus",
+   "kesinlik": "ay",
+   "kaynak": "精選版 日本国語大辞典 (小学館) «平安京» + 日本歴史地名大系 (平凡社) «平安京», Kotobank https://kotobank.jp/word/平安京 (curl ile okundu)",
+   "tanik": "桓武天皇の延暦一三年（七九四）一〇月二二日、長岡京から遷都し、一一月八日の詔によって平安京と命名",
+   "ic_not": "Takvim: kaynak yalnız ay-güneş (Enryaku 13/10/22) verir; Batı karşılığı kaynakta YOK. Çeviri benim hesabımdır (ortalama yeni ay + Jülyen; kış gündönümü 11. aya düşer ⇒ 10. ay 794-10-29 başlar ⇒ 22. gün ≈ 794-11-19), NAOJ tablosuyla DOĞRULANMADI, ±2 gün; bu yüzden kesinlik 'ay'. Aynı sayfada Kasım'ın 8'i (≈ 4 Aralık) 'Heian-kyō' adının verildiği gün. Eski ad/yer: Kadono (Yamashiro); Nagaoka-kyō'dan taşındı (aynı sayfa). Heian-kyō öncesi tarihli yazılı tanık bu oturumda aranmadı/bulunamadı."
+  },
+  "kur": {
+   "t": "0794-11-19",
+   "gun": "Enryaku 13/10/22 (≈19 Kasım 794)",
+   "kesinlik": "ay",
+   "kaynak": "精選版 日本国語大辞典 (小学館) «平安京», Kotobank https://kotobank.jp/word/平安京",
+   "tanik": "桓武天皇の延暦一三年（七九四）一〇月二二日、長岡京から遷都"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0794-11-19",
+    "t": "1185-01-01",
+    "d": "heian-japonya",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «平安京» (日本国語大辞典; 日本歴史地名大系) ; «鎌倉幕府» (日本国語大辞典), https://kotobank.jp/word/鎌倉幕府",
+    "ic_not": "f: yukarıdaki hesaplı tarih; künye heian-japonya 0794-01-01'de başlar (f künyeden 322 gün sonra, hayalet değil). t: künye sınırı 1185-01-01 (yıl hassasiyeti); Kamakura bakufunun başlangıcı için kaynak 1180/1183/1185/1192 tartışmasını verir, 1185 (Bunji 1) 'güçlü' görüşüdür."
+   },
+   {
+    "f": "1185-01-01",
+    "t": "1281-01-01",
+    "d": "kamakura",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «鎌倉幕府» (精選版 日本国語大辞典; 日本大百科全書), https://kotobank.jp/word/鎌倉幕府",
+    "ic_not": "Kyoto bu dönemde imparatorluk başkenti olarak kalır, bakufunun Rokuhara temsilciliği vardır; atlas Kyoto'yu 1281'den 'kamakura' ile boyadığı için zincir aynı künyeyle atlasa dikilir (atlas tercihi, tanıksız yorum yazılmadı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0794-11-19",
+    "gun": "Enryaku 13/10/22 (≈19 Kasım 794)",
+    "k": "kurulus",
+    "b": "Kanmu Tennō başkenti Nagaoka-kyō'dan Yamashiro'ya taşır; şehir Heian-kyō adını alır.",
+    "kaynak": "Kotobank «平安京» (日本国語大辞典; 日本歴史地名大系), https://kotobank.jp/word/平安京",
+    "tanik": "長岡京から遷都し、一一月八日の詔によって平安京と命名"
+   },
+   {
+    "t": "1185-01-01",
+    "gun": "1185 (Bunji 1)",
+    "k": "diger",
+    "b": "künye geçişi: Heian sarayı → Kamakura bakufu (Genpei savaşının sonu; bakufu başlangıcı için 1185 görüşü).",
+    "kaynak": "Kotobank «鎌倉幕府» (精選版 日本国語大辞典), https://kotobank.jp/word/鎌倉幕府",
+    "tanik": "文治元年（一一八五）説（守護・地頭の設置）が有力"
+   }
+  ],
+  "ic_not": "Dikiş: zincirin son sahibi (kamakura) atlasın 1281 ilk sahibiyle aynı. Atlas notu: Kyoto'nun 794 öncesi tanığı bulunamadı; atlas 1281-1333'te 'kamakura' verir (Rokuhara dönemi), 794-1281 arası bu dosyadadır. Çift teyit: yok (Shogakukan ve Heibonsha maddeleri ayrı yayınevi ama aynı birincil kayda dayanır: sayfada «日本紀略 延暦一三年一一月八日» atfı geçer). Bu oturumda açılamayan: NDL/Kokushi Taikei metni (Nihon Kiryaku, Nihon Kōki) – Wikisource'ta yok, NDL OCR yok."
  },
  {
   "id": "lahican",
@@ -7397,6 +7811,134 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ÇELİŞKİ (Moskova'nın yağma tarihi): TDV Batu Han maddesi 1238 Şubat'ı verir (esas alındı, 'ay'); ESBE yalnız '1238 г.' der; İngilizce Vikipedi 'Siege of Moscow (1238)' 15-20 Ocak 1238 (tek dayanak olamaz, kullanılmadı). Dikiş: dikis_beyan. KİLİTLİ BORÇ: Moskova'nın 1157'de vladimir-suzdal künyesine geçmesi künye f=1157-01-01'e dayanır; Yuri ölüm yılı 1157 (ESBE), gün yok. Yanin/Kuçkin/Sedov monografileri ve PSRL açılamadı."
  },
  {
+  "id": "mukden",
+  "ad": "Mukden (Şenyang)",
+  "atlas_ad": "Mukden (Şenyang)",
+  "lat": 41.805,
+  "lon": 123.431,
+  "kat1900": 2,
+  "adlar": [
+   "Shenzhou (瀋州, Balhae/Liao/Jin)",
+   "Shenyang Lu (瀋陽路, Yuan)",
+   "Mukden",
+   "Shenyang"
+  ],
+  "ilk": {
+   "t": "0921-01-01",
+   "gun": "921 (神冊六年)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Liao Shi (遼史) kwon 2, Taizu, Shence 6. yıl; yıl çapası: Shence 1 = 916 (kwon 2: 二月丙戌朔 ⇒ 916-03-07 Jülyen ganzhi hesabıyla); zh.wikisource.org/wiki/遼史/卷2",
+   "tanik": "詔徙檀、順民於東平、瀋州",
+   "ic_not": "İLK ANILIŞ (alt sınır). Liao Shi kwon 38: «渤海建瀋州»=Balhae kurmuş (tarihsiz), yani 921'den eski. Han Shu Dili Zhi (kwon 28 alt) Liaodong komutanlığında 'Houcheng (候城)' kaydı var (zh.wikisource.org/wiki/漢書/卷028下: «遼東郡...襄平，新昌，無慮，望平，房，候城»); Houcheng = Shenyang özdeşliği için bu oturumda yalnız basın haberi (1993 Gonghouli sur kalıntısı, chinanews 2013) bulundu — akademik rapor bulunamadı ve Qing Shengjing Tongzhi Houcheng'i Shenyang'a bağlamıyor ⇒ Houcheng YAZILMADI. Shenzhou = Shenyang bağı: Yuan Shi kwon 59 «瀋陽路» ve Liao Shi kwon 38. Kış (Kasım-Ocak) kaydı: 921 sonu/922 başı olabilir: yıl hassasiyeti."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0921-01-01",
+    "t": "0926-03-19",
+    "d": "balhae",
+    "kesinlik": "yil",
+    "boyasiz": true,
+    "kaynak": "Liao Shi kwon 38 «瀋州...本挹婁國地。渤海建瀋州»; kwon 2 (926: 定理等府來朝)",
+    "ic_not": "ÇELİŞKİ BEYAN: Liao Shi kwon 2 (921) Taizu'nun halkı 'Dongping ve Shenzhou'ya' sürdüğünü yazar (Liao'nun elinde gibi), kwon 38 Shenzhou'yu Balhae Dingli-fu'ya bağlar ve Dingli-fu 926'da teslim olur: Balhae esas alındı (926 geçişi doğrudan kaynaklı). Balhae künyesi 0698-0926-01-01 (t'den 77 gün fazla ⇒ hayalet uyarısı; künye GENİŞLET önerisi 926-03-19)."
+   },
+   {
+    "f": "0926-03-19",
+    "t": "1116-01-01",
+    "d": "liao-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Liao Shi kwon 38 «太宗置興遼軍»; kwon 2",
+    "ic_not": "f: Dingli-fu 'tribute' günü 庚寅 (ganzhi → Jülyen 926-03-19, hesaplı). t: Jin'in Dongjing'i alışı Shouguo 2 (1116) — 5. ay; ay/yıl Jülyen çevirisi belirsiz ⇒ yıl hassasiyeti."
+   },
+   {
+    "f": "1116-01-01",
+    "t": "1215-01-01",
+    "d": "jin-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Jin Shi kwon 2 (zh.wikisource.org/wiki/金史/卷2) ; kwon 3 ; Yuan Shi kwon 59 «瀋陽路»",
+    "ic_not": "Shenzhou'nun Jin'e geçişinin doğrudan günü yok: kwon 2 'Dongjing eyaletleri teslim' (收國二年 = 1116) bölgesel kayıt; Shenzhou Liao'da Dongjing yoluna bağlıydı (kwon 38). Jin Shenzhou'nun elinde olduğu kwon 3 (天會元年 = 1123, 己巳 ⇒ 1123-12-09) ile kanıtlı. Yuan Shi 59 'Jin → 昭德軍' (editör Liao'ya ait der)."
+   },
+   {
+    "f": "1215-01-01",
+    "t": "1233-10-05",
+    "d": "dongxia",
+    "kesinlik": "yil",
+    "kaynak": "Yuan Shi kwon 1 (zh.wikisource.org/wiki/元史/卷001): «金宣撫蒲鮮萬奴據遼東...國號大真» ; kwon 2 (擒萬奴)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Shenzhou-özel tanık YOK; Wannu'nun 'Liaodong'u tuttuğu' kaydından Şenyang çıkarımı. Monğol-Wannu-Jin arasında el değiştirme olmuş olabilir (Yuan Shi kwon 1: 1216 teslim, sonra tekrar isyan ⇒ 'Doğu Xia'). Künye dongxia 1215-1233-01-01 (t 277 gün aşar ⇒ hayalet uyarısı). Alternatif: __BOSLUK__."
+   },
+   {
+    "f": "1233-10-05",
+    "t": "1260-05-05",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "gun",
+    "kaynak": "Yuan Shi kwon 2 (癸巳 5. yıl 九月 擒萬奴) ; kwon 59 «瀋陽路»: 洪福源 ... 徙降民散居遼陽瀋州",
+    "ic_not": "f: Yuan Shi kwon 2 'Taizong 5/9 Wannu yakalandı' (癸巳 = 1233; 'Taizong 5 正月庚申' ganzhi'sinden 1. ay 1233-02-11 ⇒ 9. ay ≈ 1233-10-05, gün yok ⇒ ay hassasiyeti). t: Kublai'nin tahta çıkışı Zhongtong 1/3/辛卯 = 1260-05-05 (ganzhi hesaplı). Künye mogol-imparatorlugu 1206-1260-01-01 (t 124 gün fazla ⇒ uyarı)."
+   },
+   {
+    "f": "1260-05-05",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": "gun",
+    "kaynak": "Yuan Shi kwon 4 «中統元年春三月...辛卯，帝即皇帝位»; kwon 59 «瀋陽路»",
+    "ic_not": "Atlas Mukden zinciri 1281'de yuan-hanedani ile başlar; aynı sahip. Yuan Shi: Zhongtong 2 (1261) 'Koryo halk komutanlığı' Shenzhou'da; 1296 (Yuanzhen 2) iki makam birleşip 'Shenyang'."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0921-01-01",
+    "gun": "921 (神冊六年)",
+    "k": "diger",
+    "b": "Liao Taizu, Tan ve Shun halkını Dongping ve Shenzhou'ya sürer (Shenzhou'nun ilk tarihli anılışı).",
+    "kaynak": "Liao Shi kwon 2, zh.wikisource.org/wiki/遼史/卷2",
+    "tanik": "詔徙檀、順民於東平、瀋州"
+   },
+   {
+    "t": "0926-03-19",
+    "gun": "926 (天顯元年二月庚寅)",
+    "k": "fetih",
+    "b": "Balhae yıkılır; Dingli-fu (Shenzhou'nun bağlı olduğu vilayet) Liao'ya biat eder.",
+    "kaynak": "Liao Shi kwon 2, zh.wikisource.org/wiki/遼史/卷2",
+    "tanik": "安邊、鄚頡、南海、定理等府及諸道節度、刺史來朝"
+   },
+   {
+    "t": "1116-01-01",
+    "gun": "1116 (收國二年)",
+    "k": "fetih",
+    "b": "Jin, Liao Dongjing eyaletlerini alır (Gao Yongchang isyanı bastırılır).",
+    "kaynak": "Jin Shi kwon 2, zh.wikisource.org/wiki/金史/卷2",
+    "tanik": "東京州縣及南路系遼女直皆降"
+   },
+   {
+    "t": "1215-01-01",
+    "gun": "1215 (太祖十年乙亥)",
+    "k": "isyan",
+    "b": "Jin valisi Puxian Wannu Liaodong'da 'Dazhen' devletini ilan eder.",
+    "kaynak": "Yuan Shi kwon 1, zh.wikisource.org/wiki/元史/卷001",
+    "tanik": "金宣撫蒲鮮萬奴據遼東，僭稱天王，國號大真，改元天泰"
+   },
+   {
+    "t": "1233-10-05",
+    "gun": "1233 (太宗五年癸巳九月)",
+    "k": "fetih",
+    "b": "Moğollar Puxian Wannu'yu yakalar; Liaodong Moğol egemenliğine geçer.",
+    "kaynak": "Yuan Shi kwon 2, zh.wikisource.org/wiki/元史/卷002",
+    "tanik": "九月，擒萬奴"
+   },
+   {
+    "t": "1260-05-05",
+    "gun": "5 Mayıs 1260 (中統元年三月辛卯)",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu (bölünmemiş) → Yuan (Kubilay tahta çıkar).",
+    "kaynak": "Yuan Shi kwon 4, zh.wikisource.org/wiki/元史/卷004",
+    "tanik": "辛卯，帝即皇帝位"
+   }
+  ],
+  "ic_not": "Çift teyit yok. Han dönemi Houcheng bağı akademik raporla doğrulanamadı (bkz. ilk.ic_not). Takvim: ganzhi gün sütunu → Jülyen dönüşümü kendi hesabım (gz tablosu) ve ortalama yeni ay; NAOJ/Academia Sinica tablosuyla doğrulanmadı. Atlas: Mukden 1281 yuan ile başlar; bu dosya Shenzhou 921'e kadar iner; atlas kd 1636 (Qing başkenti). Atlas düzeltme: yok."
+ },
+ {
   "id": "nantes",
   "ad": "Nantes",
   "atlas_ad": "Nantes",
@@ -8141,6 +8683,102 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Dikiş kesintisiz: son dönem 'novgorod' atlasın ilk sahibi 'novgorod' (1281). Boyalı künye: novgorod (boyali). 862-882 'rurik-novgorod' künyesiz (kunye_yok). Novgorod'un Moğol vergisi: TDV Berke Han maddesi '1259’da Novgorod Rostov, Suzdal ve Yaroslav…' ifadesi tam metni açılamadı (nüfus sayımı/haraç; olay yazılmadı). Yanin 'Я послал тебе бересту' dendro 953 iddiası doğrulanamadı: Tarabardina yalnız '10th-15th' der; en erken dendro 920-930'lar ikincil (Vikipedi) — yazılmadı."
+ },
+ {
+  "id": "osaka",
+  "ad": "Osaka",
+  "atlas_ad": "Osaka",
+  "lat": 34.694,
+  "lon": 135.502,
+  "kat1900": 2,
+  "adlar": [
+   "Naniwa (難波)",
+   "Naniwa-kyō / Naniwa-no-miya",
+   "Ōsaka"
+  ],
+  "ilk": {
+   "t": "0645-01-01",
+   "gun": "645 (Taika 1/12)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "日本大百科全書 (ニッポニカ) «難波京» (小学館) + 改訂新版 世界大百科事典 (平凡社) «難波京» (中尾芳治), Kotobank https://kotobank.jp/word/難波京",
+   "tanik": "645年（大化1）12月の難波遷都に伴って難波長柄豊碕宮が造営されて以来",
+   "ic_not": "Bu KURULUŞ değil: Britannica (Kotobank) aynı sayfada Naniwa'yı Ōjin'in Ōsumi sarayı ve Nintoku'nun Takatsu sarayı (Nihon Shoki'de, tarihsiz/efsanevi) ile daha eskiye bağlar; tarihli en eski tanık olarak 645 (Taika 1) alındı. Taika 1'in 12. ayı Jülyen'de 645 sonu/646 başına düşebilir (hesaplanmadı): yıl hassasiyeti, 645. Arkeolojik katman (Hōenzaka depoları, 5. yy) bu oturumda kaynaklı açılmadı → 'ark' boş. Modern Osaka noktası (34.694,135.502) Naniwa sarayına (Chūō-ku Hōenzaka) ~2-3 km: ≤3 km kabul edildi, ölçülmedi."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0645-01-01",
+    "t": "0710-01-01",
+    "d": "yamato",
+    "kesinlik": "yil",
+    "boyasiz": true,
+    "kaynak": "Kotobank «難波京» (ニッポニカ; 世界大百科事典) ; «平城京» https://kotobank.jp/word/平城京",
+    "ic_not": "Kōtoku sarayı (Naniwa-Nagara-Toyosaki) ve Tenmu'nun çifte başkent fermanı (683) Yamato/Asuka sarayı dönemine ait; künye yamato (0250-0710) boyasız."
+   },
+   {
+    "f": "0710-01-01",
+    "t": "0794-11-19",
+    "d": "nara-japonya",
+    "kesinlik": "ay",
+    "boyasiz": true,
+    "kaynak": "Kotobank «平城京» (デジタル大辞泉; 日本大百科全書) ; «難波京» ; «平安京»",
+    "ic_not": "t hesaplı (bkz. Kyoto); nara-japonya künyesi 0793-12-31'de biter (t 322 gün fazla → hayalet uyarısı beklenir; künye GENİŞLET önerisi: t 0794-11-19). Ara dönem: Naniwa-kyō 8. yy sonunda terk edildi (aynı sayfa «8世紀末に廃絶»), yıl verilmedi — kesinti yazılmadı."
+   },
+   {
+    "f": "0794-11-19",
+    "t": "1185-01-01",
+    "d": "heian-japonya",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «平安京»; «鎌倉幕府»",
+    "ic_not": "Naniwa-kyō'nun 8. yy sonunda lağvı sonrası Naniwa Heian devleti toprağıdır (kaynak ayrıca şehir adı vermez)."
+   },
+   {
+    "f": "1185-01-01",
+    "t": "1281-01-01",
+    "d": "kamakura",
+    "kesinlik": "yil",
+    "kaynak": "Kotobank «鎌倉幕府» (日本国語大辞典), https://kotobank.jp/word/鎌倉幕府",
+    "ic_not": "Atlasın Osaka zinciri 1281'de kamakura ile başlar; aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0645-01-01",
+    "gun": "645 (Taika 1/12)",
+    "k": "idari",
+    "b": "Kōtoku, başkenti Naniwa'ya taşır; Naniwa-Nagara-Toyosaki sarayı yapılır.",
+    "kaynak": "Kotobank «難波京» (日本大百科全書), https://kotobank.jp/word/難波京",
+    "tanik": "645年（大化1）12月の難波遷都に伴って難波長柄豊碕宮が造営されて"
+   },
+   {
+    "t": "0710-01-01",
+    "gun": "710 (Wadō 3)",
+    "k": "diger",
+    "b": "künye geçişi: Yamato/Fujiwara-kyō → Nara dönemi (Heijō-kyō'ya taşınma).",
+    "kaynak": "Kotobank «平城京» (デジタル大辞泉), https://kotobank.jp/word/平城京",
+    "tanik": "元明天皇の和銅3年（710）藤原京から遷都"
+   },
+   {
+    "t": "0794-11-19",
+    "gun": "Enryaku 13/10/22 (≈19 Kasım 794)",
+    "k": "diger",
+    "b": "künye geçişi: Nara → Heian (Kanmu başkenti Heian-kyō'ya taşır).",
+    "kaynak": "Kotobank «平安京» (日本国語大辞典), https://kotobank.jp/word/平安京",
+    "tanik": "長岡京から遷都し、一一月八日の詔によって平安京と命名"
+   },
+   {
+    "t": "1185-01-01",
+    "gun": "1185 (Bunji 1)",
+    "k": "diger",
+    "b": "künye geçişi: Heian sarayı → Kamakura bakufu.",
+    "kaynak": "Kotobank «鎌倉幕府» (日本国語大辞典), https://kotobank.jp/word/鎌倉幕府",
+    "tanik": "文治元年（一一八五）説（守護・地頭の設置）が有力"
+   }
+  ],
+  "ic_not": "Çift teyit yok. Naniwa'nın 710 geçişi Osaka'ya özgü değil (Nara başkenti geçişi); Nara dönemi Naniwa-kyō (Shōmu, 726-734) aynı yerde yeniden kuruldu (Nipponica: «726年（神亀3）10月 造営に着手され734年（天平6）ころ完成»), ayrıca olay yazılmadı."
  },
  {
   "id": "pamplona",
@@ -9700,6 +10338,61 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "DOĞRULAMA: Semerkant = Efrâsiyâb höyüğü (şehristan) — TDV ve Barthold (Geographical Survey) ikisi de eski şehir ≈ bugünkü Efrâsiyâb. ATLAS DÜZELTME ÖNERİSİ: (1) f 1000-01-01 → 999-10-23 (Barthold: 23 Ekim 999 Pazartesi, Jülyen takvim tutarlı; TDV Karahanlılar \"Ekim 1999\" çift teyit). (2) Atlasın Karahanlı öncesi dilimi bu dosyada MÖ 535'e kadar uzatıldı. KAYNAK SINIRI: pre-İslâmî dönem sınırları (Yüe-çi/Kang-chü/Hsiungnu/Kuşan/Akhun/Eftalit) TDV'nin yüzyıl-ölçekli anlatısından alınmıştır; Çin ve Soğd birincil kaynakları (Chavannes) bu oturumda açılamadı, künye sınırı kullanılan her yer sahip.ic_not'ta beyanlı. Iranica 403 (Cloudflare) verdi."
  },
  {
+  "id": "seul",
+  "ad": "Seul (Hanyang)",
+  "atlas_ad": "Seul (Hanyang)",
+  "lat": 37.566,
+  "lon": 126.978,
+  "kat1900": 1,
+  "adlar": [
+   "Namgyeong (南京)",
+   "Hanyang (漢陽)",
+   "Hanseong (漢城)",
+   "Seul"
+  ],
+  "ilk": {
+   "t": "1068-01-01",
+   "gun": "1068 (Munjong 22)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Goryeosa (高麗史) kwon 8, Munjong 22. yıl (戊申), zh.wikisource.org/wiki/高麗史/卷八 ; coğrafya: 高麗史 kwon 56 «南京留守官楊州», zh.wikisource.org/wiki/高麗史/卷五十六",
+   "tanik": "是歲，創新宮于南京",
+   "ic_not": "İLK ANILIŞ, kuruluş değil. Goryeosa kwon 56: «文宗二十一年，陞爲南京留守官» (Munjong 21 = 1067, kwon 8'deki ganzhi tablosundan 丁未) — Yangju'nun Namgyeong'e yükseltilmesi 1067'dir ama şehrin Seul sahasına oturduğu tanık yazısı Sukjong 1 kaydında (Yangju'da 木覓壤 'Mongmyeok' bölgesi) geçer; Sukjong 1'in mutlak yılı bu oturumda doğrulanmadı. 1068 sarayın tam yeri doğrulanmadı: Seul modern noktasına bağlanması akademik yorumdur (kaynak okunmadı) → yaklaşıklık. ANTİK YER AYRI KAYIT: Baekje'nin Wiryeseong/Hanseong sahası (Pungnap/Mongchon, nehir doğusu ~12 km) modern noktadan >3 km — Samguk Sagi kwon 35 (Hansanju→Hanyang-gun: Gyeongdeok 14) 'Hanyang-gun' ise Yangju geneli; bu kayıtlar burada yazılmadı, ayrı kayıt önerilir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1068-01-01",
+    "t": "1281-01-01",
+    "d": "goryeo",
+    "kesinlik": "yil",
+    "kaynak": "高麗史 kwon 56 «南京留守官楊州» zh.wikisource.org/wiki/高麗史/卷五十六 ; kwon 8",
+    "ic_not": "Goryeo künyesi 918-1392; Moğol işgali ve Kanghwa dönemi (1232-70) bu dosyada ayrı yazılmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1068-01-01",
+    "gun": "1068 (Munjong 22)",
+    "k": "idari",
+    "b": "Namgyeong'de yeni saray yapılır.",
+    "kaynak": "高麗史 kwon 8 (世家八), zh.wikisource.org/wiki/高麗史/卷八",
+    "tanik": "是歲，創新宮于南京"
+   },
+   {
+    "t": "1067-01-01",
+    "gun": "1067 (Munjong 21)",
+    "k": "idari",
+    "b": "Yangju 'Namgyeong liushou' (güney başkent) rütbesine yükseltilir.",
+    "kaynak": "高麗史 kwon 56 (地理志) «南京留守官楊州», zh.wikisource.org/wiki/高麗史/卷五十六",
+    "tanik": "文宗二十一年，陞爲南京留守官，徙旁郡民，實之"
+   }
+  ],
+  "ic_not": "Çift teyit yok. Atlas Seul 1281-1392 'goryeo' zinciriyle başlar; Seul sahasında 1068 öncesi tanık bulunamadı (TDV/İSAM yok; Encyclopedia of Korean Culture (encykorea.aks.ac.kr) ana sayfası açıldı ama madde sayfası aranmadı)."
+ },
+ {
   "id": "siena",
   "ad": "Siena",
   "atlas_ad": "Siena",
@@ -10229,6 +10922,43 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Zincir YAZILMADI (sahip: []): şehir atlasın başlangıcından (1305-01-01) SONRA kurulmuş görünüyor — denetim 'atlas başlangıcı düzeltilmeli' uyarısı verir. ATLAS DÜZELTME ÖNERİSİ: atlas kur/ilk dönem 1305-01-01 yerine en erken 1306-07-13 (Iranica: inşaat 706/1306-07'de başladı); atlas kd: 1305-1335 de aynı yönde gözden geçirilmeli. Sahip İlhanlı Devleti'dir (künye ilhanli 1256-1353; TDV Olcaytu: hükümdar Sultâniye'de ölür). Iranica'nın ayrı bir SOLṬĀNIYA maddesi bulunamadı (arama ve slug denemeleri 404); CITIES i ve COURTS AND COURTIERS iv içindeki geçişler kullanıldı."
+ },
+ {
+  "id": "suri-naha",
+  "ad": "Şuri (Naha)",
+  "atlas_ad": "Şuri (Naha)",
+  "lat": 26.217,
+  "lon": 127.719,
+  "kat1900": 2,
+  "adlar": [
+   "Shuri (首里, Shurī)",
+   "Shuri-jō",
+   "Naha"
+  ],
+  "ilk": {
+   "t": "1393-05-27",
+   "gun": "27 Mayıs 1393 (Hongwu 26/4/辛卯)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "gun",
+   "kaynak": "日本歴史地名大系 (平凡社) «首里», Kotobank https://kotobank.jp/word/首里 (Ming Shilu atfı: 明実録 洪武二六年四月辛卯条)",
+   "tanik": "洪武二六年（一三九三）四月辛卯条に「寿礼結致」（シュリウッチ）とみえ",
+   "ic_not": "ZAYIF TANIK: sayfa bu yazımı Shuri ile ilişkilendirir ama 'ともされる' (öyle de sayılır) diyor ve 'Shuri'nin açıldığı zaman belli değil'. Ming Shilu metnine ulaşılmadı (ctext Ming Shilu açılmadı). Gün: ganzhi 辛卯 + Hongwu 26 4. ay ⇒ Jülyen 1393-05-27 (kendi hesabım; 4. ay 1393-05-12 başlar). 'Shuri' yazımının ilk kullanımı (首里之印) 1469-87 arası. Shuri-jō 'ca. 14. yy' (Kyodo/Nipponica) arkeolojik, kesin yıl yok. Atlas 1281'de 'ryukyu' ile başlıyor ⇒ ilk.t 1393 atlas başlangıcından SONRA: zincir yazılmadı, atlas başlangıcı (1281-01-01) düzeltilmeli (Şuri o tarihte tanıksız)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1393-05-27",
+    "gun": "27 Mayıs 1393 (Hongwu 26/4/辛卯)",
+    "k": "diger",
+    "b": "Ming Shilu'da Çuzan (Chūzan) kralı Satto döneminde 'Shuri' adının olası ilk anılışı.",
+    "kaynak": "Kotobank «首里» (日本歴史地名大系), https://kotobank.jp/word/首里",
+    "tanik": "洪武二六年（一三九三）四月辛卯条に「寿礼結致」（シュリウッチ）とみえ"
+   }
+  ],
+  "ic_not": "Çift teyit yok. Atlas düzeltme önerisi: atlas 'ryukyu' 1281-01-01'den Şuri'yi veriyor; bu oturumda Shuri'ye 1393'ten önce tanık bulunamadı (Chūzan Seikan/Chūzan Seifu açılmadı: Wikisource'ta yok). Zincir boş bırakıldı. Not: sayfa Naha'yı 'Ukishima'da balıkçı köyü' sayar; modern Şuri (Shuri kalesi) noktası kullanıldı."
  },
  {
   "id": "susa",
