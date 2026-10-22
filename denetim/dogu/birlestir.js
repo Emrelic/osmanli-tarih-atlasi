@@ -264,10 +264,11 @@ sayac.boyasiz_dilim_bosluga = boyasizDilim;
   let u = 0;
   for (const y of yerler) {
     const s = y.s || []; if (!s.length) continue;
-    const p0 = s[0]; if (p0.d === '__BOSLUK__' || p0.f === '0500-01-01') continue;
+    const p0 = s[0]; if (p0.f === '0500-01-01') continue;
+    const sahip = p0.d !== '__BOSLUK__' ? p0.d : ((String(p0.kaynak || '').match(/sahip ([a-z0-9-]+)/) || [])[1] || null);   // boyasız sahip kaynak metninde
     const g0 = GUNM.gun(p0.f), kisa = y.ad.split(' (')[0];
     if (sinir.some(m => m.yer_id && String(m.yer || m.yer_id).split(' · ').some(x => x === y.ad || x.startsWith(kisa)) && Math.abs(GUNM.gun(m.t) - g0) <= 30)) continue;
-    sinir.push({ t: p0.f, devlet: p0.d, taraflar: [p0.d], b: kisa + ': ' + p0.d + ' egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)',
+    sinir.push({ t: p0.f, devlet: sahip || undefined, taraflar: sahip ? [sahip] : [], b: kisa + ': ' + (sahip ? sahip + ' egemenliğinde ' : '') + 'ilk kaynaklı kayıt (kuruluş/ilk tanık)',
       tur: 'toprak-kazanc', onem: 2, dunya: 1, kapsam: 'dis', yer: y.ad, yer_id: y.ad, etiket: ['toprak-degisimi', 'konu-askeri', 'dogu-500-1281', 'zincir-basi'],
       d: 'Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).', kaynak: p0.kaynak, sinir_id: [] });
     u++;

@@ -11583,6 +11583,121 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "sinir_id": []
  },
  {
+  "t": "0617-02-10",
+  "devlet": "sui-xia-dou-jiande",
+  "taraflar": [
+   "sui-xia-dou-jiande"
+  ],
+  "b": "Leshou: sui-xia-dou-jiande egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Leshou (Xianxian)",
+  "yer_id": "Leshou (Xianxian)",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip sui-xia-dou-jiande (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"sui-xia-dou-jiande\" geri yazılır) · Jiu Tang shu juan 54: «十三年正月，築壇場於河間樂壽界中，自稱長樂王 … 始都樂壽，號曰金城宮，自是郡縣多下之» (Leshou Dou Jiande'nin başkenti) — https://zh.wikisource.org/wiki/舊唐書/卷54",
+  "sinir_id": []
+ },
+ {
+  "t": "0600-01-01",
+  "devlet": "dvaravati",
+  "taraflar": [
+   "dvaravati"
+  ],
+  "b": "Nakhon Pathom: dvaravati egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Nakhon Pathom (Phra Pathom)",
+  "yer_id": "Nakhon Pathom (Phra Pathom)",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip dvaravati (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"dvaravati\" geri yazılır) · Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «Its earliest known capital was at Nakorn Pat’om, thirty miles west of modern Bangkok. Here a Mon inscription of c. 600 has been discovered; it is the earliest so far known to archaeologists.» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-4: «The inscriptions of Phra Pathom and of Lopburi, in archaic Mon language, prove that the population was basically Mon.» · «the lower basin of the Menam, from Lopburi in the north to Ratburi in the west and to Prachin in the east, contains archaeological and epigraphical remains of Buddhist origin ... vestiges of the same state: the kingdom of Dvaravati.»",
+  "sinir_id": []
+ },
+ {
+  "t": "0001-01-01",
+  "devlet": "halin",
+  "taraflar": [
+   "halin"
+  ],
+  "b": "Halin: halin egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Halin (Hanlin)",
+  "yer_id": "Halin (Hanlin)",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip halin (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"halin\" geri yazılır) · Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 6: «carbon tests of the three Pyu city sites of Beikthanomyo, Halin and Srikshetra show them to have been in existence as early as the first century A.D.» · «One of the routes passed through the Pyu capital—presumably this was Halin» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-3: «In 832, it abducted three thousand Pyus from the population of the capital Ha-lin» | BEYAN: Coedès «During the entire first half of the ninth century, Nanchao was master of Upper Burma» — Halin'in 757-832 arasındaki statüsü Nanzhao üst egemenliği altında bir Pyu başkenti olabilir (Hall 'may have subdued')",
+  "sinir_id": []
+ },
+ {
+  "t": "1096-01-01",
+  "devlet": "phayao",
+  "taraflar": [
+   "phayao"
+  ],
+  "b": "Phayao: phayao egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Phayao",
+  "yer_id": "Phayao",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip phayao (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"phayao\" geri yazılır) · Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 7: «the small independent T’ai state of P’ayao came into existence as early as 1096» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm XII-5: «Ngam Miiang, chief of Phayao, and Mangrai, chief of Chiangrai, who in 1287» | BEYANLI YAKLAŞIKLIK: Hall devletin 1096'dan önce var olduğunu söyler, başkent şehir adını vermez; Phayao şehri devletin merkezi sayıldı. 1281 epok sınırı; Phayao'nun sonrası (1287 pakt, 1338/1411 öncesi bağımsızlık) kuyruğa bırakıldı. ‖ D. G. E. Hall, A History of South-East Asia, 4th ed., London 1981 (archive.org a-history-of-south-east-asia-4th-ed), ch. 7: “the small independent T’ai state of P’ayao came into existence as early as 1096” ; “In 1287 Mangrai, Rama Khamheng and Ngam Muong, the Chief of P’ayao, met together and concluded a firm pact of friendship.” | BEYANLI YAKLAŞIKLIK: bitiş yılı 1338 (Lan Na'ya katılış) Hall'da yok; atlas phayao künyesi t=1338 (Wyatt'a dayandığı söylenen ham kayıt) — Wyatt, Thailand: A Short History archive.org'da kilitli, açılamadı",
+  "sinir_id": []
+ },
+ {
+  "t": "0950-01-01",
+  "devlet": "chamba",
+  "taraflar": [
+   "chamba"
+  ],
+  "b": "Chamba: chamba egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Chamba",
+  "yer_id": "Chamba",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip chamba (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"chamba\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «Central and Western India (The Hill States of Chamba)»: \"According to Dr. Vogel, Sajjana- varman founded the city of Chanpaka (Chamba) and transferred his capital there.\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: hcip-5-struggle-for-empire-ed.-r.-c.-majumdar_202512, tam metin okundu), «Kashmir (Ananta and Kalasa)»: \"Asata of Champa (Chamba)\" | f=0950: Sahilla-varman 10. yüzyıl ortasında öldü; oğlu ve torunu yazıtlarını Chanpaka'dan verdi (ONYIL, Chanpaka'nın kuruluş yılı kaynakta yok). t=1281-01-01 EPOK SINIRI: 1087'den sonra hanedan sürekliliği bu oturumda kaynaklanmadı — BEYANLI YAKLAŞIKLIK (künye chamba 0550-1948). ‖ The Imperial Gazetteer of India, X, «Chamba State» md. (Oxford 1908; archive.org rbanms.742.imperialgazettee0000henr_i1c4; açıldı, okundu): «The State maintained its independence, acknowledging at times a nominal submission to Kashmir, until the Mughal conquest of India. Under the Mughals it became tributary to the empire, but its internal administration was not interfered with, and it escaped almost unscathed from Sikh aggression. The State first came under British influence in 1846.» | BEYANLI YAKLAŞIKLIK: Mughal (1641), Sih ve İngiliz (1846/48) üstünlükleri iç egemenliği kaldırmadı (IGI); Chamba rajaları yazıldı.",
+  "sinir_id": []
+ },
+ {
   "t": "1017-01-01",
   "devlet": "cola",
   "taraflar": [
@@ -11629,6 +11744,52 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "sinir_id": []
  },
  {
+  "t": "0850-01-01",
+  "devlet": "silahara",
+  "taraflar": [
+   "silahara"
+  ],
+  "b": "Thane: silahara egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Thane",
+  "yer_id": "Thane",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip silahara (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"silahara\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Appendix: The Silaharas»: \"founded about the middle of the ninth century A.D.\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Yadavas of Devagiri»: \"who ruled the Thana, Alibag, and Ratnagiri Districts, and the southern part of the Surat District\" | f=850 \"9. yy ortası\" (YÜZYIL); 997 Satyasraya seferi ve vasallık dönemleri (Chalukya) sahibi değiştirmedi: R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Later Chalukyas and Kalachuris of Kalyana»: \"Satyasraya burnt the city of Amsunagara in the kingdom of the Silaharas\" | Thana'nın bu kolun merkezi olduğu Majumdar'da açık yazılı değil (girdi başkenti Thane); bölge \"Thana District\" tanıklıdır: BEYANLI YAKLAŞIKLIK.",
+  "sinir_id": []
+ },
+ {
+  "t": "0801-01-01",
+  "devlet": "chapa-vardhamana",
+  "taraflar": [
+   "chapa-vardhamana"
+  ],
+  "b": "Wadhwan: chapa-vardhamana egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Wadhwan (Vardhamana)",
+  "yer_id": "Wadhwan (Vardhamana)",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip chapa-vardhamana (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"chapa-vardhamana\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Minor Dynasties of Gujarat and Kathiawar: The Chapas»: \"who ruled in the first quarter of the ninth cen\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Minor Dynasties of Gujarat and Kathiawar: The Chapas»: \"was ruling in A.D. 914 as a vassal of the Pratlhara Mahipala I\" | f=801: \"9. yy ilk çeyreği\" (YÜZYIL); Vardhamana'nın (Wadhwan) 783'te anıldığı da Majumdar IV'te: \"Jayavaraha ... ruling in A.D. 783 in the territories of the Sauryas to the west of Vardha\" (783-801 arası sahip yazılmadı).",
+  "sinir_id": []
+ },
+ {
   "t": "1220-01-01",
   "devlet": "seylan-sinhala",
   "taraflar": [
@@ -11672,6 +11833,213 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   ],
   "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
   "kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: hcip-5-struggle-for-empire-ed.-r.-c.-majumdar_202512, tam metin okundu), «The Chaulukyas of Gujarat»: \"He fixed his headquarters at Dholka, the chief city in Khetaka, modern Kaira\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: hcip-5-struggle-for-empire-ed.-r.-c.-majumdar_202512, tam metin okundu), «The Chaulukyas of Gujarat»: \"Bhima II’s inscriptions, the dates of which extend from A.D. 1178 to 1239\" | f=1178 ALT SINIR İŞARETİDİR: Bhima II 1178'de tahta çıktı ve Lavanaprasada onun adına yönetimi üstlenip merkezini Dholka'ya kurdu (tam yıl kaynakta yok). BEYANLI YAKLAŞIKLIK: Dholka Vaghela vezirlerinin fiilî merkeziydi, hukuken Çaulukya Bhima II'nin.",
+  "sinir_id": []
+ },
+ {
+  "t": "1215-01-01",
+  "devlet": "chutiya",
+  "taraflar": [
+   "chutiya"
+  ],
+  "b": "Sadiya: chutiya egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Sadiya",
+  "yer_id": "Sadiya",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip chutiya (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"chutiya\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. VI: The Delhi Sultanate, Bharatiya Vidya Bhavan, Bombay 1960 (archive.org: delhisultanate00bhar, tam metin okundu), «D. Minor States: I. Assam — General Political Condition»: \"They were ruling with their capital at Sadiya at the beginning of the thirteenth century A.D. when the Ahoms entered the province\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. VI: The Delhi Sultanate, Bharatiya Vidya Bhavan, Bombay 1960 (archive.org: delhisultanate00bhar, tam metin okundu), «D. Minor States: I. Assam — The Ahom Kingdom»: \"Then followed a prolonged war with the Chutiyas which lasted for more than ten years (1513 to 1523).\" | f=1215 ALT SINIR İŞARETİDİR (13. yy başı 'Ahomlar vilayete girerken'; Ahomların Maulung'dan çıkışı 1215); t=1523 Ahom-Chutiya savaşının sonu ve Chutiya ülkesinin ilhakı (Majumdar VI). Majumdar'a göre Ahomlar 16. yy başında 'kesin boyun eğdirdi'; Chutiya künyesi t=1501 ile çelişir.",
+  "sinir_id": []
+ },
+ {
+  "t": "0701-01-01",
+  "devlet": "wagadu-gane-erken",
+  "taraflar": [
+   "wagadu-gane-erken"
+  ],
+  "b": "Kumbî Sâlih: wagadu-gane-erken egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Kumbî Sâlih (Gāne)",
+  "yer_id": "Kumbî Sâlih (Gāne)",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip wagadu-gane-erken (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"wagadu-gane-erken\" geri yazılır) · TDV İslâm Ansiklopedisi «GĀNE» (https://islamansiklopedisi.org.tr/gane) — bu oturumda okundu: «Başşehri, devlete de adını veren ve harabeleri bugün Moritanya’nın güneydoğusunda bulunan Gāne idi» · «Bir rivayete göre Gāne’de idare VIII. yüzyılda beyazlardan Soninke soyuna mensup Sudanlı bir aileye geçmiş ve 469 (1076-77) yılına kadar devam etmiştir» | f=0701-01-01: «VIII. yüzyıl» yüzyıl hassasiyeti (yüzyılın ilk günü)",
+  "sinir_id": []
+ },
+ {
+  "t": "0292-01-01",
+  "devlet": "tikal-mutul",
+  "taraflar": [
+   "tikal-mutul"
+  ],
+  "b": "Tikal: tikal-mutul egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Tikal",
+  "yer_id": "Tikal",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip tikal-mutul (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tikal-mutul\" geri yazılır) · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Tikal»: \"the first contemporary date, on Stela 29, does not appear until 292\" … \"this was an appropriate setting for the city's final sculpture\" | bitiş = künye tikal-mutul t'si (en son stel, atlas künyesi dayanak değil; 869-08-13 künye günü yıl hassasiyetine indirildi)",
+  "sinir_id": []
+ },
+ {
+  "t": "0426-09-05",
+  "devlet": "copan",
+  "taraflar": [
+   "copan"
+  ],
+  "b": "Copán: copan egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Copán",
+  "yer_id": "Copán",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip copan (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"copan\" geri yazılır) · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Copan»: \"On 5 September 426 the founder\" | ic_not_takvim: M&G'nin verdiği gün olduğu gibi yazıldı (Uzun Sayım → Jülyen, GMT korelasyonu 584285 ile uyumlu: 9.4.11.8.16 = 11 Şubat 526, 8.19.10.11.0 = 8 Eylül 426 elle hesapla sınandı; 584283 ile 2 gün önce); Gregoryen'e çevrilmedi. Bitiş = künye copan t'si (devletler.js 0820-01-01; girdi 0822-02-01 — ikisinin dar olanı alındı).",
+  "sinir_id": []
+ },
+ {
+  "t": "0431-03-10",
+  "devlet": "palenque-baak",
+  "taraflar": [
+   "palenque-baak"
+  ],
+  "b": "Palenque: palenque-baak egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Palenque",
+  "yer_id": "Palenque",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip palenque-baak (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"palenque-baak\" geri yazılır) · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Palenque»: \"His reign began in 431\" … \"431-435\" | gün OCR '10 Mach 431' (Mart); Jülyen/korelasyon sınanamadı | bitiş = künye palenque-baak t'si 0799-01-01 (Janaab Pakal III 799; M&G 'acceded in 799'; girdi 0814 — dar olan alındı).",
+  "sinir_id": []
+ },
+ {
+  "t": "0426-09-08",
+  "devlet": "quirigua",
+  "taraflar": [
+   "quirigua"
+  ],
+  "b": "Quiriguá: quirigua egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Quiriguá",
+  "yer_id": "Quiriguá",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip quirigua (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"quirigua\" geri yazılır) · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Quirigua»: \"8 September 426\" … \"The Quirigua kingdom was thus from its very inception\" … \"June 810\" | BEYANLI YAKLAŞIKLIK: 426-738 arası Copán hegemonyası altında müşteri krallık (kendi kralı vardı; M&G); harita sahibi quirigua bırakıldı, Copán'a ait sayılmadı.",
+  "sinir_id": []
+ },
+ {
+  "t": "0750-01-01",
+  "devlet": "sican",
+  "taraflar": [
+   "sican"
+  ],
+  "b": "Batán Grande: sican egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Batán Grande (Sicán)",
+  "yer_id": "Batán Grande (Sicán)",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip sican (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"sican\" geri yazılır) · Encyclopedia.com, 'Sican', https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sican (curl ile okundu; yazar sayfada dogrulanmadi) | «The term Sican has been adopted to refer to the archaeological culture that emerged in the Batan Grande region following the demise of the Moche culture around 700-750 ce.» · «The culture's preeminence came to an end around 1050 ce. Temples at the capital of Sican were burned» ‖ Trafficking Culture Encyclopedia (Univ. of Glasgow), «Batán Grande», https://traffickingculture.org/encyclopedia/case-studies/batan-grande/ (açıldı 22.10.2026): «Batán Grande was largely abandoned between 1050 and 1100 AD, the result of thirty years of severe drought» (metin kaynak göstermiyor; Shimada açılmadı); Atwood, R., «The Rape of Batán Grande», Archaeology 60(4), 2007 (AIA arşiv özeti): «a civilization known as Sicán that lasted from A.D. 800 to 1375 in northern Peru» | devam: Sicán çizgisi sürüyor (aynı sahip)",
+  "sinir_id": []
+ },
+ {
+  "t": "0950-01-01",
+  "devlet": "tilantongo-mixtek",
+  "taraflar": [
+   "tilantongo-mixtek"
+  ],
+  "b": "Tilantongo: tilantongo-mixtek egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "Tilantongo",
+  "yer_id": "Tilantongo",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip tilantongo-mixtek (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tilantongo-mixtek\" geri yazılır) · Pohl, J., 'Mixtec Group Codices', FAMSI, https://www.famsi.org/research/pohl/jpcodices/pohlmixtec1.html (curl ile okundu) | «The Mixtecs rose to power in southern México during Mesoamerica's PostClassic period between A.D. 950-1521.» · «genealogy for the first dynasty of Tilantongo» (tarihsiz)",
+  "sinir_id": []
+ },
+ {
+  "t": "0800-01-01",
+  "devlet": "el-tajin",
+  "taraflar": [
+   "el-tajin"
+  ],
+  "b": "El Tajín: el-tajin egemenliğinde ilk kaynaklı kayıt (kuruluş/ilk tanık)",
+  "tur": "toprak-kazanc",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "yer": "El Tajín",
+  "yer_id": "El Tajín",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "dogu-500-1281",
+   "zincir-basi"
+  ],
+  "d": "Yeni yerleşimin kaynaklı sahiplik zincirinin başlangıç günü (kur; ilk dilimin kaynağından türetildi).",
+  "kaynak": "BOŞLUK BEYANI: sahip el-tajin (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"el-tajin\" geri yazılır) · UNESCO WHC 631 'El Tajin, Pre-Hispanic City', https://whc.unesco.org/en/list/631/ (curl ile okundu) | «there was only one phase of occupation lasting from 800 to 1200 A.D.»; t=1100 ms1 künyesi (Diehl, FAMSI; UNESCO 1200 ile çelişki ic_not'ta)",
   "sinir_id": []
  }
 ];
