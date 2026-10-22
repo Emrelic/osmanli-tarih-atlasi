@@ -4181,6 +4181,57 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Atlas Cenne’yi 1473’te (Songay) başlatır: TDV ve Hunwick ile uyumlu. Atlasta Jenné-jeno/Cenne ayrımı yok; Jenné-jeno 3 km GD’de ayrı bir MÖ ~250-13. yy yerleşimi. TDV Cenne maddesi (“İslâmiyet’i VI. (XII.) yüzyılda kabul etmiştir”) ile McIntosh arkeolojisi (13. yy sonu öncesi Cenne kasabası yok)çelişir; TDV’nin kuruluş kısmı “belli değildir” dediği için çelişki dönem sınırını etkilemez, beyan edilir. Sa‘dî’nin 767-8 kuruluşu ve 1200 dolayında Müslümanlaşma kayıtları kural gereği kur’a ALINMADI (arkeoloji ve 3 tarihçi reddediyor)."
  },
  {
+  "id": "cerkask",
+  "ad": "Çerkask (Razdory)",
+  "atlas_ad": "Çerkask (Razdory)",
+  "lat": 47.24,
+  "lon": 40.05,
+  "kat1900": null,
+  "adlar": [
+   "Cherkassk (Черкасск)",
+   "Starocherkasskaya",
+   "Çerkask"
+  ],
+  "ilk": {
+   "t": "1570-01-01",
+   "gun": "1570",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Козачество",
+   "tanik": "перешла к Черкасску, основанному, по некоторым известиям, выходцами из Малороссии в 1570 г.",
+   "ic_not": "ESBE 'bazı haberlere göre' kuruluş 1570 (yaklaşıklık, tek kaynak). Nokta 47.24/40.05 = Starocherkasskaya = Çerkassk; 'Razdory' (Verhniye Razdory) ESBE/VE'ye göre Çerkassk'tan ÖNCEKİ ayrı bir kazak merkezidir — Voyennaya Entsiklopediya 1911: 'Сборн. мѣстомъ первыхъ сначала б. Раздоры … а впослѣдствіи — Черкасскъ'. Atlas etiketi (Razdory) yanıltıcı."
+  },
+  "kur": {
+   "t": "1570-01-01",
+   "gun": "1570",
+   "kesinlik": "yil",
+   "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Козачество",
+   "tanik": "Черкасску, основанному, по некоторым известиям, выходцами из Малороссии в 1570 г."
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1570-01-01",
+    "gun": "1570",
+    "k": "kurulus",
+    "b": "Çerkassk, bazı haberlere göre Küçük Rusya'dan gelenlerce kurulur; aynı yıl Korkunç İvan Don Kazaklarına ferman gönderir (ordu kıdemi 1570).",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Козачество; Voennaya entsiklopediya (Sytin) 'Донское казачье войско' https://ru.wikisource.org/wiki/ВЭ/ДО/Донское_казачье_войско",
+    "tanik": "Старш-во войска считается съ 1570 г."
+   },
+   {
+    "t": "1647-01-01",
+    "gun": "1647",
+    "k": "diger",
+    "b": "Çerkassk, Azak'tan Türk, Kırım, Nogay ve Çerkeslerin kuşatmasına dayanır (ESBE: bundan önce Türkler Çerkassk'ı yakmıştı, yılı verilmez).",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Козачество",
+    "tanik": "в 1647 г. должны были выдержать новую осаду в Черкасске"
+   }
+  ],
+  "ic_not": "ZİNCİR BOŞ: kuruluş 1570 > atlas başlangıcı. Atlas 1281-1502 altinorda, 1502-1570 __BOSLUK__ için: Çerkassk 1570 öncesi YOK (bozkır); nokta 1570'ten başlamalı. 1281 öncesi bu noktada yerleşim tanığı arandı: bulunamadı."
+ },
+ {
   "id": "chambery",
   "dikis_beyan": "Atlas Chambéry'yi 1281'de 'sardinya' diye başlatıyor; zincirin kaynaklı son sahibi savoya (Savoy Kontluğu, künye 1032-1720). 'sardinya' (Sardinya Krallığı) 1720'de doğar → atlas başlangıç etiketi savoya olmalı; 1281'de kaynaklı bir el değiştirme aranıp bulunamadı, yer tutucu olay yazılmadı.",
   "ad": "Chambéry",
@@ -15835,6 +15886,48 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Dikiş kesintisiz: son dönem 'novgorod' atlasın ilk sahibi 'novgorod' (1281). Boyalı künye: novgorod (boyali). 862-882 'rurik-novgorod' künyesiz (kunye_yok). Novgorod'un Moğol vergisi: TDV Berke Han maddesi '1259’da Novgorod Rostov, Suzdal ve Yaroslav…' ifadesi tam metni açılamadı (nüfus sayımı/haraç; olay yazılmadı). Yanin 'Я послал тебе бересту' dendro 953 iddiası doğrulanamadı: Tarabardina yalnız '10th-15th' der; en erken dendro 920-930'lar ikincil (Vikipedi) — yazılmadı."
  },
  {
+  "id": "novocerkask",
+  "ad": "Novoçerkask",
+  "atlas_ad": "Novoçerkask",
+  "lat": 47.4114,
+  "lon": 40.1042,
+  "kat1900": 2,
+  "adlar": [
+   "Novocherkassk (Новочеркасск)",
+   "Novoçerkask"
+  ],
+  "ilk": {
+   "t": "1805-01-01",
+   "gun": "1805",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Новочеркасск",
+   "tanik": "Н. основан в 1805 г. на урочище Бирючий Кут",
+   "ic_not": "Gün kaynakta yok (genel anlatılar 18 Mayıs 1805 der — doğrulanmadı). 'До того времени административным центром донского войска служил г. Черкасск (ныне Старочеркасская станица)' — ayrı yer."
+  },
+  "kur": {
+   "t": "1805-01-01",
+   "gun": "1805",
+   "kesinlik": "yil",
+   "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Новочеркасск",
+   "tanik": "Н. основан в 1805 г. на урочище Бирючий Кут"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1805-01-01",
+    "gun": "1805",
+    "k": "kurulus",
+    "b": "Novoçerkask Biryuçiy Kut mevkiinde kurulur; Don Ordusu'nun idari merkezi Çerkassk'tan buraya taşınır.",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Новочеркасск",
+    "tanik": "Н. основан в 1805 г. на урочище Бирючий Кут"
+   }
+  ],
+  "ic_not": "ZİNCİR BOŞ: kuruluş 1805 = atlas başlangıcı (kur 1805-01-01 rusya); atlas ile uyumlu. 1805 öncesi bu noktada yerleşim tanığı arandı, bulunamadı."
+ },
+ {
   "id": "osaka",
   "ad": "Osaka",
   "atlas_ad": "Osaka",
@@ -17233,6 +17326,115 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ZİNCİR YOK (kural): ilk.t 1545-12-04 atlas başlangıcından (1545-04-01) sonradır; denetim 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR. ATLAS DÜZELTME ÖNERİSİ: atlas kur 1545-04-01 belgesiz gelenektir (Villalpando 1978); yerleşimin başlangıcı için kaynaklı gün 1545-12-04 (Arzáns/Toledo), dağın İspanyol işlemesi 'abril 1545 başı' (ay). Cieza, Crónica del Perú I, cap. CIX (Calpe 1922: 333-334) ise Villarroel'in bulgusunu 'el año de 1547' yazar (Cieza 1549-50'de oradaydı): 1545 ile çelişki, Arzáns'ın 1545'i çoklu arşiv tanığıyla desteklendiği için esas alındı; çelişki beyan. Cieza aynı bölümde 'se pobló la falda deste cerro y se hicieron casas grandes y muchas' der (yıl 1547 bağlamında). ÖNCEKİ DURUM: dağ Qaraqara (Aymara) topraklarında, İnka döneminde işleniyordu ve İspanyollardan gizlendi — Cruz, Estudios Atacameños 56 (2014): 19-44 ('mismo cerro de Potosí … ocultadas a los españoles'); Cieza: Porco ve öteki madenler 'desde el tiempo de los ingas'; Arzáns: çobanların kulübeleri 'cerca de la Cantería' ve 'antiguas caserías de Cantumarca' (1736 anlatısı, tarihsiz, ≤3 km yerleşim olarak doğrulanmadı). Kalıcı yerleşim 1545 öncesi yok sayılmadı ama KAYNAKTA TARİHLİ YERLEŞİM BULUNAMADI. Sahiplik zinciri: Qaraqara/Charka (künye yok) → inka-imparatorlugu (1438-1572 künyesi var; Charka-Qaraqara'nın İnka'ya katılış tarihi için Platt-Bouysse-Cassagne-Harris 2006 kitabı AÇILAMADI) → ispanyol-peru; gün bulunmadığından yazılmadı. Villa Imperial unvanı: Omiste'ye göre Real Cédula 28 Ocak 1547, Arzáns notu 5: Potosí 1561'e dek 'asiento' — unvan günü doğrulanmadı. Açılan kaynaklar: Arzáns I (archive.org historiadelavill01arzn), Cieza (lacrnicadelper00ciez), Villalpando 1978, Cruz 2014. Açılamayan: Capoche Relación (archive.org tam metin indirilemedi), Platt-Quisbert 2008."
  },
  {
+  "id": "pskov",
+  "ad": "Pskov",
+  "atlas_ad": "Pskov",
+  "lat": 57.813,
+  "lon": 28.335,
+  "kat1900": 2,
+  "adlar": [
+   "Pleskov (Плесковъ)",
+   "Pskov"
+  ],
+  "ilk": {
+   "t": "0903-01-01",
+   "gun": "903",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Povest' vremennyh let (Nestor), D. S. Lihaçev neşri 1997 (eski Rusça metin), https://ru.wikisource.org/wiki/Повесть_временных_лет_(Нестор)/1997_(ДО) — 'В лѣто 6411' (6411-5508=903)",
+   "tanik": "приведоша ему жену от Плескова, именемь Ольгу",
+   "ic_not": "İlk anılış alt sınırdır, kuruluş DEĞİL. PVL (12. yy derlemesi) 6411 yılı girdisi: Igor büyüyünce ona 'Pleskov'dan' Olga getirilir. Bizans yılı 6411 = MS 903 (6411-5508; Eylül/Mart yılbaşı belirsizliği yüzünden yıl hassasiyeti). ESBE 'Псков': 'один из древнейших городов, существовал еще во время призвания князей' (tarihsiz). Arkeolojik tabaka (Sedov vb.) bu oturumda açılamadı → ark yazılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0903-01-01",
+    "t": "1136-01-01",
+    "d": "kiev-rusu",
+    "kesinlik": "yil",
+    "kaynak": "Povest' vremennyh let (Nestor), D. S. Lihaçev neşri 1997 (eski Rusça metin), https://ru.wikisource.org/wiki/Повесть_временных_лет_(Нестор)/1997_(ДО) (6411: Olga Pleskov'dan, Kiev knezi Igor'a); aynı metin 6544 (1036): Yaroslav Pskov'da kardeşi Sudislav'ı hapseder",
+    "ic_not": "kiev-rusu künyesi boyasız (DEVLETLER-1300-oncesi.json boyali:false) — boya istegi gerekir. Kiev Rus'unun Pskov üzerindeki otoritesi için PVL'de 'Pskov Kiev'in' diyen doğrudan cümle yok; tanık dolaylı (Igor'un eşi Pskovlu; 1036'da Kiev knezi Yaroslav Pskov'da tutuklu tutar). Süre uzun, ara tanık sayısı az: beyanlı yaklaşıklık."
+   },
+   {
+    "f": "1136-01-01",
+    "t": "1241-01-01",
+    "d": "novgorod",
+    "kesinlik": "yil",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Гавриил_или_Всеволод-Гавриил_Мстиславич ('В 1136 г. новгородцы, псковичи и ладожане … на вече приговорили его к изгнанию'); ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Псковское_княжество ('Первоначально сам Псков был простым новгородским пригородом')",
+    "ic_not": "f: Novgorod cumhuriyeti künyesi 1136; ESBE 1136'da Novgorod, Pskovlular ve Ladogalıların birlikte vechte kararı verdiğini yazar (en geç tanık). ESBE Pskov'un 'başlangıçta Novgorod'un prigorod'u' olduğunu söyler, dönüş günü vermez. Pskov'un fiilî özerkleşmesi 1266 (Dovmont) ve 1348 (Bolotovo) — atlas 1348'e kadar Novgorod diyor, burada çakışmaz."
+   },
+   {
+    "f": "1241-01-01",
+    "t": "1242-04-05",
+    "d": "livonya-tarikati",
+    "kesinlik": "yil",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Александр_Ярославич_Невский ('в следующем (1241) самый Псков был занят немцами'; 'В следующем году (1242) … Александр освободил Псков')",
+    "ic_not": "ÇELİŞKİ/YAKLAŞIKLIK: ESBE işgali 1241'e koyar (Nevsky'nin 1240 Neva zaferinden 'sonraki yıl'); Novgorod I. Chronicle 1240 sonu der (bu oturumda açılamadı). ESBE esas alındı. t: Pskov'un kurtuluş günü kaynakta yok; ESBE kurtuluşu Buz Savaşı'ndan (5 Nisan 1242) ÖNCE koyar → t en geç tanıktan = 1242-04-05 (beyan). Süre ~1 yıl; kısa ele geçirme kuralı: bitiş tanığı olduğu için dönem açıldı."
+   },
+   {
+    "f": "1242-04-05",
+    "t": "1281-01-01",
+    "d": "novgorod",
+    "kesinlik": "gun",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Ледовое_побоище ('5 апреля 1242 г. дал рыцарям сражение на льду Чудского озера'); ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Псковское_княжество",
+    "ic_not": "1266'da Litvanyalı knez Dovmont Pskov'a Novgorod'un rızası olmadan oturtulur (ESBE Псковское_княжество); ESBE ek olarak 'и после него во Псков присылаются наместники из Новгорода' der → Novgorod nominal sahip sayıldı. Atlas dikişi 1281-01-01 aynı sahip (novgorod)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0903-01-01",
+    "gun": "903",
+    "k": "diger",
+    "b": "Pskov'un (Pleskov) bilinen ilk yazılı anılışı: Igor'un eşi Olga 'Pleskov'dan' getirilir.",
+    "kaynak": "Povest' vremennyh let (Nestor), D. S. Lihaçev neşri 1997 (eski Rusça metin), https://ru.wikisource.org/wiki/Повесть_временных_лет_(Нестор)/1997_(ДО)",
+    "tanik": "приведоша ему жену от Плескова, именемь Ольгу"
+   },
+   {
+    "t": "1136-01-01",
+    "gun": "1136",
+    "k": "diger",
+    "b": "Künye geçişi Kiev Rus'u → Novgorod: Novgorod vechi (Pskovlular ve Ladogalılarla) Knez Vsevolod Mstislaviç'i sürer; Novgorod cumhuriyeti dönemi.",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Гавриил_или_Всеволод-Гавриил_Мстиславич",
+    "tanik": "новгородцы, псковичи и ладожане … на вече приговорили его к изгнанию"
+   },
+   {
+    "t": "1036-01-01",
+    "gun": "1036",
+    "k": "diger",
+    "b": "Kiev knezi Yaroslav kardeşi Sudislav'ı iftira üzerine Pskov'da hapseder (Pskov'un Kiev knezine bağlı olduğuna dolaylı tanık).",
+    "kaynak": "Povest' vremennyh let (Nestor), D. S. Lihaçev neşri 1997 (eski Rusça metin), https://ru.wikisource.org/wiki/Повесть_временных_лет_(Нестор)/1997_(ДО) (6544)",
+    "tanik": "всади Ярославъ Судислава въ порубь, брата своего, Плесковѣ"
+   },
+   {
+    "t": "1241-01-01",
+    "gun": "1241",
+    "k": "fetih",
+    "b": "Livonya Tarikatı (Kılıç Kardeşleri/Töton) Pskov'u işgal eder (ESBE 1241; Novgorod I. Chronicle'a göre 1240 sonu olabilir).",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Александр_Ярославич_Невский",
+    "tanik": "в следующем (1241) самый Псков был занят немцами"
+   },
+   {
+    "t": "1242-04-05",
+    "gun": "5 Nisan 1242",
+    "k": "fetih",
+    "b": "Aleksandr Nevski Pskov'u Livonyalılardan kurtarır; hemen ardından Buz Savaşı (5 Nisan 1242) olur. Gün: ESBE kurtuluşu savaştan önce koyar, kesin günü yok.",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Александр_Ярославич_Невский; ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Ледовое_побоище",
+    "tanik": "5 апреля 1242 г. дал рыцарям сражение на льду Чудского озера"
+   },
+   {
+    "t": "1266-01-01",
+    "gun": "1266",
+    "k": "diger",
+    "b": "Litvanyalı knez Dovmont Pskov'da knez olur (1266-1299); Pskovlular onu Novgorod'un rızası olmadan oturtur.",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Псковское_княжество",
+    "tanik": "псковичи посадили его у себя без согласия Новгорода"
+   }
+  ],
+  "ic_not": "ilk_anilis 903 (PVL). Çift teyit YOK (tek birincil metin + ESBE tarihsiz 'призвание князей' dönemi). Arkeolojik ilk iskân (Pskov Kremlin/Krom) kaynağı açılamadı → bulunamadı. ATLAS ÖNERİSİ: atlas Pskov 1281'de novgorod ile uyumlu; 1348 'pskov' künyesi ESBE Bolotovo (1348) ile uyumlu. Kiev-rus künyesi boyasız."
+ },
+ {
   "id": "rennes",
   "ad": "Rennes",
   "atlas_ad": "Rennes",
@@ -17686,6 +17888,83 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Çift teyit (olgu: Albert kurdu, 1201/1200): Zirne & Lūsēna 2025 + Brundage 1961. Henry'nin kendi Latince/İngilizce metninde kuruluş cümlesi OCR'dan çıkarılamadı (yalnız çevirmenin girişi okundu). VLE (vle.lt) 403, vestnesis.lv ve Riga City Museum açılamadı. Kuruluş öncesi sahip: Liv kabile yerleşimi, künye yok → zincir kuruluşta başlar."
+ },
+ {
+  "id": "ryazan",
+  "ad": "Ryazan",
+  "atlas_ad": "Ryazan",
+  "lat": 54.625,
+  "lon": 39.736,
+  "kat1900": 2,
+  "adlar": [
+   "Pereyaslavl Ryazanski (Переславль Рязанский)",
+   "Ryazan"
+  ],
+  "ilk": {
+   "t": "1095-01-01",
+   "gun": "1095",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Рязань",
+   "tanik": "он упоминается в летописи под именем Переславля Рязанского в 1095 г.",
+   "ic_not": "Atlas noktası (54.625, 39.736) bugünkü Ryazan = ESKİ Pereyaslavl Ryazanski; ESBE: 'Старая Рязань' (Eski Ryazan, 1096'dan yıllıkta anılır, knezliğin başkenti) ayrı bir yerdir (mesafe ölçülmedi, >3 km varsayımı) → Bayraklı/Tuşpa kuralına göre ayrı kayıt önerilir. ESBE aynı yerde 'Основание последнего относится к 1095 г. и приписывается Ярославу Святославичу' der ama bu ilk anılıştan türetilmiş görünür → kur yazılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1095-01-01",
+    "t": "1127-01-01",
+    "d": "cernigov-knezligi",
+    "kesinlik": "yil",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Рязанское_княжество ('составилось из земель, прежде принадлежавших Чернигову')",
+    "ic_not": "Çernigov Knezliği künyesi boyasız (boyali:false). Kurucu Yaroslav Svyatoslaviç Çernigovlu Svyatoslaviçler'den."
+   },
+   {
+    "f": "1127-01-01",
+    "t": "1281-01-01",
+    "d": "ryazan",
+    "kesinlik": "yil",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Рязанское_княжество ('выделилось в самостоятельное владение … в 1127 г.')",
+    "ic_not": "ESBE 1127 verir (Muromo-Ryazan knezliği); künye 'ryazan' f=1129 → dönem künyeden 2 yıl önce başlıyor (hayalet uyarısı; künye f kontrol/öneri: 1127). Atlas dikişi 1281-01-01 ryazan ile aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1095-01-01",
+    "gun": "1095",
+    "k": "diger",
+    "b": "Pereyaslavl Ryazanski'nin ilk yıllık anılışı (kuruluşu Yaroslav Svyatoslaviç'e atfedilir).",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Рязань",
+    "tanik": "Основание последнего относится к 1095 г. и приписывается Ярославу Святославичу"
+   },
+   {
+    "t": "1127-01-01",
+    "gun": "1127",
+    "k": "diger",
+    "b": "Künye geçişi: Çernigov Knezliği → Muromo-Ryazan (Ryazan) Knezliği; Yaroslav Svyatoslaviç Murom ve Ryazan'ı kendine ayırır.",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Рязанское_княжество",
+    "tanik": "Ярослав Святославич … утвердил за собою Муром и Рязань"
+   },
+   {
+    "t": "1198-01-01",
+    "gun": "1198",
+    "k": "diger",
+    "b": "Piskopos Arseni Pereyaslavl Ryazanski'yi tahkim eder.",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Рязань",
+    "tanik": "епископ Арсений, укрепивший его в 1198 г."
+   },
+   {
+    "t": "1237-01-01",
+    "gun": "1237",
+    "k": "fetih",
+    "b": "Batu'nun orduları Ryazan Knezliği'ne girer; knez Yuri Igoreviç savunmada ölür, 'şehir' Tatarlarca alınır (ESBE hangi şehir olduğunu ayırmaz — Eski Ryazan olması muhtemel; Pereyaslavl XIII. yy'da yıllıklarda yok).",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Рязанское_княжество; ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Рязань ('В течение XIII в. (кроме 1294 г.) Переяславль Рязанский в летописях не упоминается')",
+    "tanik": "В 1237 г. в пределы Р. княжества вступил со своими полчищами Батый"
+   }
+  ],
+  "ic_not": "1281 öncesi zincir: Çernigov (1095-1127) → Ryazan (1127-1281). Eski Ryazan (Старая Рязань) ayrı kayıt önerisi. Çift teyit YOK (yalnız ESBE; TDV/Rus akademik makale bu oturumda açılamadı). 1237 sonrası Altın Orda tâbiliği atlasın 'ryazan' künyesini değiştirmez (atlas kararı)."
  },
  {
   "id": "samahi",
@@ -21321,6 +21600,90 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ÖNERİLEN AYRI ANTİK KAYITLAR (atlasta yok, bu oturumda zincir çıkarılmadı; TDV Turfan'dan ham tanıklar): (1) Jiaohe/Yar Hoto = Cheshi-qian başkenti (Hanshu 96B '車師前國，王治交河城'); (2) Gaochang/Koço = MÖ 1. yy Çin kalesi Kao-ch'ang-pi, sonra Gaochang krallığı (TDV: 639'da Çin egemenliği, 640 Tang, 692 Tang yerleşir, 704 Türgişler, 745 Uygur Kağanlığı, 767 Ötüken Uygurları, 850 Hsi-chou Uygur Devleti, 982 yazlık Koço başkent, 1209 İdikut Barçuk Cengiz'e bağlanır). Künyeler hazır: gaochang (501–640), koco-uygur (911–1209). Atlas Turfan 1281'den cagatay ile başlıyor; Çağatay/Ögedey bağı için TDV Turfan sonu ('Moğol İmparatorluğu'na bağlanarak 1550'lere kadar'). ÇİFT TEYİT YOK."
  },
  {
+  "id": "tver",
+  "ad": "Tver",
+  "atlas_ad": "Tver",
+  "lat": 56.859,
+  "lon": 35.912,
+  "kat1900": 2,
+  "adlar": [
+   "Tverd' (Твердь)",
+   "Tfer'",
+   "Tver"
+  ],
+  "ilk": {
+   "t": "1181-01-01",
+   "gun": "1181",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Тверь",
+   "tanik": "основал в 1181 г. на устье реки Тверцы «Твердь»",
+   "ic_not": "ESBE kuruluşu Vladimir-Suzdal Büyük Knezi Vsevolod Yuryeviç'e atfeder (1181); aynı madde yıllıkta ilk anılışı 1208 verir. 1181 yazılı tanık olarak başka kaynakla çift teyit edilemedi (yalnız ESBE) — kuruluş nicelik kuralı gereği 'kurulus' işaretlendi, çift teyit gelirse sağlamlaşır; gelmezse 1208 'ilk_anilis'e düşürülmeli."
+  },
+  "kur": {
+   "t": "1181-01-01",
+   "gun": "1181",
+   "kesinlik": "yil",
+   "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Тверь",
+   "tanik": "Всеволод Юрьевич … основал в 1181 г. на устье реки Тверцы «Твердь»"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1181-01-01",
+    "t": "1245-01-01",
+    "d": "vladimir-suzdal",
+    "kesinlik": "yil",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Тверское_княжество ('В XII и в начале XIII в. Тверь входила в состав Суздальско-Переяславского княжества')",
+    "ic_not": "vladimir-suzdal künyesi boyasız (boyali:false). t: ESBE ayrılmayı 'letopis göstergesi yok, 1241 ile 1245 arası' diye verir; 1245'te Tver knezi Yaroslav Litvalıları yener (en geç tanık) → t = 1245 (beyan). Tver künyesi f=1246 → dönem künyeden 1 yıl önce başlıyor (uyarı)."
+   },
+   {
+    "f": "1245-01-01",
+    "t": "1281-01-01",
+    "d": "tver",
+    "kesinlik": "yil",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Тверское_княжество ('обособление совершилось между 1241 и 1245 гг.'; 'Первый Т. князь с успехом два раза отбил литовцев (1245 и 1248)')",
+    "ic_not": "f en geç tanıktan: 1245 (beyan). Atlas dikişi 1281-01-01 tver ile aynı sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1181-01-01",
+    "gun": "1181",
+    "k": "kurulus",
+    "b": "Vladimir-Suzdal Büyük Knezi Vsevolod Yuryeviç Tversta ağzında 'Tverd'i kurar (ESBE).",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Тверь",
+    "tanik": "основал в 1181 г. на устье реки Тверцы «Твердь»"
+   },
+   {
+    "t": "1208-01-01",
+    "gun": "1208",
+    "k": "diger",
+    "b": "Tver, Novgorodluların Vsevolod ile savaşı sırasında Üst Volga'nın merkezi olarak ilk kez yıllıkta anılır (Suzdal Knezliği içinde).",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Тверь",
+    "tanik": "В 1208 г. … о Т. упоминается как о средоточии Верхнего Поволжья"
+   },
+   {
+    "t": "1238-01-01",
+    "gun": "1238",
+    "k": "fetih",
+    "b": "Moğollar (Batu) Tver'i alır; Yaroslav'ın oğlu öldürülür.",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Тверь",
+    "tanik": "Тферь взяша, в ней же сына Ярославля убиша"
+   },
+   {
+    "t": "1245-01-01",
+    "gun": "1245",
+    "k": "diger",
+    "b": "Künye geçişi: Vladimir-Suzdal → Tver Knezliği; Tver 1241-1245 arasında ayrı udel olur, ilk Tver knezi Yaroslav Yaroslaviç.",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Тверское_княжество",
+    "tanik": "обособление совершилось между 1241 и 1245 гг."
+   }
+  ],
+  "ic_not": "Çift teyit YOK. Rusça akademik (Kuçkin, PSRL) kaynak bu oturumda açılamadı. ATLAS ÖNERİSİ: atlasın tver künyesi 1246 başlıyor; ESBE ayrılmayı 1241-1245 arasına koyar — künye f'in kaynaklanması gerekir."
+ },
+ {
   "id": "udaipur",
   "ad": "Udeypûr (Udaipur)",
   "atlas_ad": "Udeypûr (Udaipur)",
@@ -21970,6 +22333,44 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ZİNCİR YOK (kural): ilk.t 1752-03-19 atlas başlangıcıyla (1752-03-19, portekiz-brezilyasi) aynı → sahip yazılmaz; denetim 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR. Atlas kur KAYNAKLI ve uyumlu (IBGE: 'Elevado à categoria de vila ... em 19-03-1752, em virtude da Província Régia de 05-08-1746. Instalada 19-03-1752'). ATLAS DÜZELTME ÖNERİSİ: yok. Not: IBGE 'distrito criado ... por provisão de 1743' der (idari kayıt, kuruluş değil). Öncül: IBGE — Rolim de Moura 'contrariando o desejo dos componentes de sua comitiva, não quis aproveitar o núcleo já formado de São Francisco' (São Francisco Xavier arraial'ı, Guaporé üzerinde, 1730'lar) ve Pouso Alegre mevkiinde yeni yer seçti; ANPUH 2005: São Francisco Xavier, Santana, Pilar (1734) arraial'ları sonradan vila-capital termosuna bağlandı. Bu arraiallerin konumu/mesafesi ölçülmedi. Yerli Chiquitano/Guaporé yerleşimi ve İspanyol Mojos (Concepción) misyonları ile bu noktanın ilişkisi kaynakta bulunamadı — yazılmadı. Kaptanlık başkenti: Vila Bela 1820'ye (ya da kaynağa göre 28-08-1835 lei provincial n.19) dek; IBGE: belediye merkezi adı 'Mato Grosso' (1818/1820/1835). IPHAN: Palácio dos Governadores tombamento 1988 (portalamazonia aracılığıyla, birincil IPHAN sayfası açılamadı)."
+ },
+ {
+  "id": "vilnius",
+  "ad": "Vilnius",
+  "atlas_ad": "Vilnius",
+  "lat": 54.687,
+  "lon": 25.28,
+  "kat1900": 2,
+  "adlar": [
+   "Vilnia",
+   "Wilna",
+   "Vilna (Вильна)",
+   "Vilnius"
+  ],
+  "ilk": {
+   "t": "1323-01-01",
+   "gun": "1323",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Вильна_(история); Katalynas K., Vaitkevičius G., 'Vilniaus plėtra iki XV amžiaus', Kultūros paminklai 8 (2001) 68-76, https://www.lituanistika.lt/content/7901",
+   "tanik": "делается исторически известным около 1323 г. как столица великого князя литовского",
+   "ic_not": "ÇİFT TEYİT (yıl): ESBE 'около 1323 г.' ve Lituanistika özeti 'istoriškai žinomu Vilniaus įkūrimu 1323 m.'. Gün (25 Ocak 1323, Gediminas mektupları) yalnız arama özetinde göründü, curl ile açılamadı → yıl hassasiyeti. İlk anılış alt sınırdır, kuruluş DEĞİL. ESBE: Rus yıllıkçılarına göre XII. yy'da vardı, Leh kaynakları X-IX. yy der — bu iddialar doğrulanamadı, kullanılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1323-01-01",
+    "gun": "1323",
+    "k": "diger",
+    "b": "Vilnius Gediminas'ın başkenti olarak tarihte ilk kez bilinir hâle gelir (Gediminas mektupları).",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Вильна_(история)",
+    "tanik": "делается исторически известным около 1323 г. как столица великого князя литовского"
+   }
+  ],
+  "ic_not": "ZİNCİR BOŞ: ilk yazılı tanık (1323) atlas başlangıcından (1281-01-01, litvanya-buyuk-dukalik) SONRA → denetim uyarısı beklenir; atlas başlangıcı düzeltilmeli ya da 1281 öncesi tanık bulunmalı. Arkeoloji (Lituanistika, Katalynas-Vaitkevičius 2001): 'Anksčiausiai Vilniuje apgyvendintas Pilies (Gedimino) kalnas: čia nenutrūkstamai buvo gyventa nuo pirmųjų amžių iki XVII a.' (kesin yıl yok → ark yazılmadı); 'XIII a. … šiaurinės papėdės gyvenvietė' (XIII. yy küçük yerleşim). Mindaugas'ın 1251 vaftizi/Vilnius piskoposluğu (Papalık mektupları) arama özetinde göründü, birincil/akademik metin açılamadı → BULUNAMADI. Litvanya Büyük Dükalığı künyesi f=1236; Vilnius'un 1251-1281 arası LDK içinde olduğuna kaynaklı tanık yok."
  },
  {
   "id": "xian",
@@ -23283,6 +23684,86 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Yarkant isim kökeni 11. yy'dan (Mahmud Kâşgarî, sikkeler) anılır (Iranica). Atlas Yarkent 1281 cagatay ile başlıyor — dikiş AYNI sahip. ÇİFT TEYİT YOK. Zayıf noktalar: 220–1000 boşluğu, Karahanlı alt dönemleri. Atlas düzeltme: yok."
  },
  {
+  "id": "yas",
+  "ad": "Yaş",
+  "atlas_ad": "Yaş",
+  "lat": 47.157,
+  "lon": 27.601,
+  "kat1900": 2,
+  "adlar": [
+   "Iași",
+   "Jassy",
+   "Yaş"
+  ],
+  "ilk": {
+   "t": "1408-01-01",
+   "gun": "1408",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Spot Media, 'Mica istorie – 8 octombrie' (POPÜLER, ikincil; Arheologia Moldovei makalesi journals.ub.uni-heidelberg.de zaman aşımı nedeniyle açılamadı) https://spotmedia.ro/stiri/timp-liber/mica-istorie-8-octombrie-cea-mai-veche-atestare-scrisa-a-curtii-domnesti-din-iasi",
+   "tanik": "Cea mai veche atestare scrisă a Curții domnești din Iași … este datată 8 octombrie 1408",
+   "ic_not": "Kaynak zayıf (popüler) → AKADEMİK TEYİT BEKLİYOR. Aynı belge için arama özetlerinde 6 Ekim 1408 / 8 Ekim 1408 çelişkisi → gün yazılmadı. Bir kısım tarihçi 1387 (Novgorod I. Chronicle 'Yassky torg') der; bu doğrulanamadı. TDV 'YAŞ' maddesi (islamansiklopedisi.org.tr, 'Romanya'da tarihî bir şehir') var ama slug bulunamadı, içerik okunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1408-01-01",
+    "gun": "1408",
+    "k": "diger",
+    "b": "Boğdan voyvodası Alexandru cel Bun Lviv tüccarlarına ticari ayrıcalık verir; Yaş'ın voyvoda sarayının en eski yazılı anılışı.",
+    "kaynak": "Spot Media 'Mica istorie' (ikincil)",
+    "tanik": "Alexandru cel Bun acordă privilegii comerciale negustorilor lioveni"
+   }
+  ],
+  "ic_not": "ZİNCİR BOŞ: ilk yazılı tanık (1408) atlas başlangıcından (1281, altinorda) sonra. 1281-1359 'altinorda' ve 1359-1456 'bogdan' için Yaş'ın o devirde var olduğuna dair tanık bulunamadı (arama özeti: yerleşim ortaya çıkışı XIV. yy ortası; 13. yy yüzey buluntusu zayıf) → ATLAS ÖNERİSİ: Yaş'ın başlangıcı 1408 (ya da akademik teyitle XIV. yy ortası) ve altinorda dönemi gözden geçirilmeli. Kıpçak/Moğol dönemi için kaynaklı sahip bulunamadı."
+ },
+ {
+  "id": "yekaterinoslav",
+  "ad": "Yekaterinoslav (Dnipro)",
+  "atlas_ad": "Yekaterinoslav (Dnipro)",
+  "lat": 48.4647,
+  "lon": 35.0462,
+  "kat1900": 2,
+  "adlar": [
+   "Yekaterinoslav",
+   "Dnipropetrovsk",
+   "Dnipro"
+  ],
+  "ilk": {
+   "t": "1783-01-01",
+   "gun": "1783",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Екатеринослав",
+   "tanik": "но уже в 1783 г., вследствие нездорового местоположения, Е. был перенесен на настоящее свое место",
+   "ic_not": "1778'de Potemkin ilk Yekaterinoslav'ı Kilçen-Samara ağzında kurdu (ayrı yer, ~25 km) — 1783'te bugünkü yere taşındı. ESBE: 'Еще в XVII столетии здесь находилась построенная в 1635 г. польская крепость Кайдаки, а после ее разрушения — три казацких зимовища' — ESBE 'здесь' der ama Kodak'ın mesafesi bu oturumda ölçülmedi (atlas notu: ayrı yer, >3 km) ve sürekli iskân tanığı yok: ilk olarak alınmadı. 1783 öncesi zincir yazılmadı."
+  },
+  "kur": {
+   "t": "1783-01-01",
+   "gun": "1783",
+   "kesinlik": "yil",
+   "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Екатеринослав",
+   "tanik": "Е. был перенесен на настоящее свое место"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1783-01-01",
+    "gun": "1783",
+    "k": "kurulus",
+    "b": "Yekaterinoslav bugünkü yerine taşınır ve guberniya şehri ilan edilir.",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Екатеринослав",
+    "tanik": "Е. был перенесен на настоящее свое место и наименован губернским городом"
+   }
+  ],
+  "ic_not": "ZİNCİR BOŞ: kuruluş 1783 = atlas başlangıcı (1783-01-01 rusya). Atlas ile tam uyumlu (dikiş uyarısı beklenir). 1635 Kodak kalesi / Kazak kışlakları 1783 öncesi için ayrı yerleşim önerisi (koordinat ölçülmedi)."
+ },
+ {
   "id": "yeni-saray-tsarev",
   "ad": "Yeni Saray (Tsarev)",
   "atlas_ad": "Yeni Saray (Tsarev)",
@@ -23716,6 +24197,49 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Atlas noktası (-6.1659, 39.1917) Stone Town'dır. Periplus (Schoff 1912) 'Menouthias' ve 'Rhapta'yı anar ama Zanzibar ile eşleşmesi kesin değildir — kullanılmadı."
+ },
+ {
+  "id": "zaporojye-seci",
+  "ad": "Zaporojye Seçi",
+  "atlas_ad": "Zaporojye Seçi",
+  "lat": 47.75,
+  "lon": 34.8,
+  "kat1900": null,
+  "adlar": [
+   "Zaporizka Sich",
+   "Zaporozhian Sich",
+   "Zaporojye Seçi"
+  ],
+  "ilk": {
+   "t": "1556-01-01",
+   "gun": "1556",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Запорожская_Сечь",
+   "tanik": "построил укрепление за порогами на о-ве Хортице",
+   "ic_not": "ESBE: 1556'da Prens D. Vişnevetski Hortitsa adasında şelalelerin ötesinde bir tahkimat kurdu, 1558'de terk etti. ESBE 'Если Сечь и существовала в это время, то лишь в качестве передового сторожевого поста' der → bağımsız Seç topluluğunun kuruluşu bu tarihe KESİN bağlanmaz. Atlas noktası (47.75, 34.8) ile Hortitsa adasının mesafesi ÖLÇÜLMEDİ; farklı bir Seç noktası olabilir (>3 km ise bu tarih buraya doğrudan yazılamaz, yalnız kayıt amaçlı)."
+  },
+  "kur": {
+   "t": "1556-01-01",
+   "gun": "1556",
+   "kesinlik": "yil",
+   "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Запорожская_Сечь",
+   "tanik": "построил укрепление за порогами на о-ве Хортице"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1556-01-01",
+    "gun": "1556",
+    "k": "kurulus",
+    "b": "Prens Dmitri Vişnevetski Hortitsa adasında tahkimat kurar ve Kırım hanının saldırısını püskürtür; 1558'de terk eder.",
+    "kaynak": "ESBE (Brokgauz-Efron, 1890-1907), ru.wikisource.org/wiki/ЭСБЕ/Запорожская_Сечь",
+    "tanik": "В 1556 г. кн. Дм. Ив. Вишневецкий … построил укрепление за порогами на о-ве Хортице"
+   }
+  ],
+  "ic_not": "ZİNCİR BOŞ: kuruluş 1556 > atlas başlangıcı 1281. ATLAS DÜZELTME ÖNERİLERİ: (1) atlas 'zaporojye' 1552'den başlıyor, ESBE 1556 (Hortitsa); 1552 kaynağı bu oturumda doğrulanamadı. (2) atlas 1281-1502 'altinorda' ve 1502-1552 Kırım v: gevşek himaye — Seç'in kendisi 1556 öncesi YOK; nokta 1556'dan başlamalı ya da bu dönemler 'bozkır' kaydı olarak ayrı tutulmalı. (3) Nokta hangi Seç? Her Seç yeri ayrı koordinat/kayıt gerektirir; bu oturumda belirlenemedi."
  },
  {
   "id": "zaragoza",
