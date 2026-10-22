@@ -3,7 +3,7 @@
 // index.html'e <script> satırı EKLENMEDİ ⇒ site yüklemez. Her madde kaynak_turu:"arkeoloji" + aralık/orta-nokta beyanı taşır.
 window.OLAYLAR_ARKEOLOJI_PILOT = [
  {
-  "t": "-12154-01-01",
+  "t": "-12154-01-01", "yer_id":"Ain Mallaha (Eynan)",
   "k": "kurulus",
   "etiket": [
    "arkeoloji"
@@ -24,7 +24,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 12240–12070 (kaynağın verdiği uçlar); orta nokta MÖ 12155 = astronomik -1215. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Yalnız %68,2 aralığı okundu (%95,4 verilmemiş); birincil rapor okunmadı, aktarım ikincil. UFUK ihlali: MÖ 12155, ufuk olan MÖ 12000'den 155 yıl önce."
  },
  {
-  "t": "-9528-01-01",
+  "t": "-9528-01-01", "yer_id":"Göbekli Tepe",
   "k": "kurulus",
   "etiket": [
    "arkeoloji"
@@ -45,7 +45,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 9745–9314 (kaynağın verdiği uçlar); orta nokta MÖ 9529 = astronomik -9528. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Sıva, doğrudan yapı malzemesidir (dolgu değil); dolgu örneği UGAMS-10798 (9127–8763 cal BC) yalnız terminus ante quem. Bu kayıt KURULUŞ değil, ilk tarihli kanıttır."
  },
  {
-  "t": "-7999-01-01",
+  "t": "-7999-01-01", "yer_id":"Göbekli Tepe",
   "k": "kayip",
   "etiket": [
    "arkeoloji"
@@ -60,7 +60,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "ic_not_d": "TEK DEĞER: kaynak «yaklaşık MÖ 8000» der, aralık yok → orta nokta kuralı UYGULANMAZ; uç beyanı yok."
  },
  {
-  "t": "-9299-01-01",
+  "t": "-9299-01-01", "yer_id":"Eriha (Tell es-Sultan)",
   "k": "kurulus",
   "etiket": [
    "arkeoloji"
@@ -81,7 +81,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "ic_not_d": "DÖNEM TOPLAMI aralığı (MÖ 9300–8700) = tabakanın süresini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en erken uç (ALT SINIR) yazıldı. Kule inşasının başlangıcı sayfada YOK («açık soru»); kule kaydı yazılmadı. PPND bir veri tabanıdır, birincil kazı yayını (Kenyon, Bar-Yosef, Nigro) okunmadı."
  },
  {
-  "t": "-7099-01-01",
+  "t": "-7099-01-01", "yer_id":"Çatalhöyük",
   "k": "kurulus",
   "etiket": [
    "arkeoloji"
@@ -96,7 +96,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "ic_not_d": "TEK DEĞER MÖ 7100 (kaynak aralık vermiyor). Bu değer ikincil bir aktarımdan; Bayliss vd. tam metni (ücretli) okunmadı."
  },
  {
-  "t": "-5999-01-01",
+  "t": "-5999-01-01", "yer_id":"Çatalhöyük",
   "k": "kayip",
   "etiket": [
    "arkeoloji"

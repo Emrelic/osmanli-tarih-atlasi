@@ -2,7 +2,7 @@
 // Girdi: denetim/arastirma/avrupa.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_AVRUPA = [
  {
-  "t": "-2491-01-01",
+  "t": "-2491-01-01", "yer_id":"Skara Brae",
   "k": "kayip",
   "b": "Skara Brae: sona erer",
   "gun": "MÖ 2545–2440 arası (orta nokta MÖ 2492)",
@@ -65,7 +65,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2990–2755 (kaynağın verdiği uçlar); orta nokta MÖ 2872 = astronomik -2871. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «initial construction of the Stonehenge ditch is estimated to have been completed in 2990–2755 cal BC». 2990–2755 yüzdesi metinde açık yazılmamış (olasılık 'probably 2955–2830 (68%)' ile birlikte verildiğinden 95 sayıldı, Marshall vd. 2012 şekil 6). Makalenin Tablo 3'ünde aşamalar: 1: 3000–2620, 2: 2620–2480, 3: 2480–2280, 4: 2280–2020, 5: 2020–1520 cal BC (yuvarlak, makale özeti). 'Bit' yok: anıt tarih öncesi boyunca kullanımdadır."
  },
  {
-  "t": "-2901-01-01",
+  "t": "-2901-01-01", "yer_id":"Skara Brae",
   "k": "kurulus",
   "b": "Skara Brae: başlar",
   "gun": "MÖ 2920–2885 arası (orta nokta MÖ 2902)",

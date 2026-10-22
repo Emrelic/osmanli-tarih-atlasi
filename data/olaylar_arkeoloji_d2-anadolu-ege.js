@@ -71,7 +71,7 @@ window.OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 8200–7800 (kaynağın verdiği uçlar); orta nokta MÖ 8000 = astronomik -7999. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. Kaynaktan okunan: «occupation appears to have continued through the ninth millennium cal BC, ending between 8200 and 7800 cal BC». Başlangıç değeri Alan D içindir; Alan A'da 'earlier phases from around 9000 cal BC' ve dizinin başı belirsiz, yani 9800–9400 yerleşimin ilk kanıtlı evresidir. Reading / Antiquity özetleri 9600 cal BC der (arama özeti, tam metin okunmadı)."
  },
  {
-  "t": "-8099-01-01",
+  "t": "-8099-01-01", "yer_id":"Boncuklu Höyük",
   "k": "kayip",
   "b": "Boncuklu Höyük (Konya havzası, Çumra): iskân sona erer (geç evre)",
   "gun": "MÖ 8100 (ALT SINIR; donem-toplami MÖ 8100–7800)",
@@ -92,7 +92,7 @@ window.OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE = [
   "ic_not_d": "donem-toplami aralığı (MÖ 8100–7800) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «suggest occupation after 7600 cal BC, although we have not yet located reliable in situ». Bu iki blok 'tabaka/dönem' türüdür (iki evrenin toplamı 8300–7800), tek olay kalibre aralığı değildir. Wikipedia 8300–7800 BCE, BIAA programı 9300–7600 cal BC der — ikincil/çelişik; Baird 2018 esas alındı. Çatalhöyük Doğu ve Aşıklı bu dalgada tekrarlanmadı. Aşıklı sonrası Orta Anadolu / Canhasan III'ün model tarihi (Fairbairn vd. 2020 Antiquity 94(374):342, doi:10.15184/aqy.2020.13) tam metinde, açılamadı; Baird 2018 yalnız Canhasan III için ~7400–7100 cal BC'yi başka çalışmadan (ref 27) alıntılar."
  },
  {
-  "t": "-8299-01-01",
+  "t": "-8299-01-01", "yer_id":"Boncuklu Höyük",
   "k": "gelisme",
   "b": "Boncuklu Höyük (Konya havzası, Çumra): Neolitik iskân başlar (erken evre)",
   "gun": "MÖ 8300 (ALT SINIR; donem-toplami MÖ 8300–8100)",

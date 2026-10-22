@@ -23,7 +23,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 400–350 (kaynağın verdiği uçlar); orta nokta MÖ 375 = astronomik -0374. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: ~95 (2 sigma, dendrokalibre). Kaynaktan okunan: «Tilcajete was attacked by Monte Albán and its plaza was burned». Ayni makalede San Jose Mogote Yapi 28 (yanmis tapinak) 820-500 MO (b-177624); Yapi 37 840-400 MO; Ozellik 18/19 (Anit 3 terminus ante quem) 790-500/820-760 MO; Ev 19 (en eski yanmis ev) 2020-1620 MO; Ozellik 21 palisad uc tarihle 1680-1410/1720-1060/1700-1390 MO; Quiotepec kalesi 50 MO-MS 250; La Coyotera kafatasi rafi 190 MO-MS 255. Faz tarihleri (Erken MA I 2450-2250 BP vb.) HAM BP olarak verilmis - YAZILMADI. 'Alan Tilcajete'nin tahmini bu makalede 25 ha -> 52.8 ha'."
  },
  {
-  "t": "-0659-01-01",
+  "t": "-0659-01-01", "yer_id":"San José Mogote",
   "k": "kurulus",
   "b": "San Jose Mogote: yanmis tapinak (Yapi 28): Yapı 28 tapınağı yanar",
   "gun": "MÖ 820–500 arası (orta nokta MÖ 660)",
@@ -44,7 +44,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 820–500 (kaynağın verdiği uçlar); orta nokta MÖ 660 = astronomik -0659. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: ~95 (2 sigma). Kaynaktan okunan: «reduced to vitrified cinders». Olay tarihi araligi genis (320 yil) - tek tarihlenmis kömür. Monte Alban kurulusunu bu makaleden dogrudan tarihleyen kalibre aralik YOK (Erken MA I faz tarihleri ham BP: 2450-2250 BP)."
  },
  {
-  "t": "-0999-01-01",
+  "t": "-0999-01-01", "yer_id":"Ceibal",
   "k": "kurulus",
   "b": "Ceibal (Seibal, Pasion, Guatemala): Real 1 evresi: ilk yerleşik topluluk",
   "gun": "MÖ 1000 (ALT SINIR; donem-toplami MÖ 1000–850)",
@@ -95,7 +95,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   "ic_not_d": "TEK DEĞER MÖ 2800 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «which dominated the central Andes during the Late Archaic and Formative periods (2800–550 BC)». Kotosh sitesi (Mito/Wairajirca/Kotosh fazlari) icin kalibre aralik BULUNAMADI: Izumi/Matsumoto raporlari acilmadi; Wikipedia 'Wairajirca MO 1750-1150' yalnizca arama ozeti (kullanma). Mesia-Montenegro 2025 'Time, Ritual, and Bayesian Reasoning' (Research Square onbaski 10.21203/rs.3.rs-6896121/v1) acilamadi (zaman asimi), hakemsiz onbasi. 2800-550 donem toplamidir, tek-olay degil."
  },
  {
-  "t": "-2834-01-01",
+  "t": "-2834-01-01", "yer_id":"Gobero",
   "k": "kayip",
   "b": "Gobero (Tenere cemberi, Nijer): en genç Tenerean mezarı",
   "gun": "MÖ 2910–2760 arası (orta nokta MÖ 2835)",
@@ -179,7 +179,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   "ic_not_d": "donem-toplami aralığı (MÖ 3750–3450) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «5,700 to 5,400 cal y B.P.». Tablo 1 satir sirasi ve faz adlari tam okunmadi (metin alintilari: Faz II-1 5,700-5,400 ve Faz II-2 sonrasi). Ham bas-son atamasi: bas_mo 3750 = 5700 cal BP, son_mo 3450 = 5400 cal BP; bit blogu 'oda kullanimi' 3550-3150 (5500-5100) ile ÇAKISIR (iki ayri faz). SHCal20 kullanildi (guney yarimküre). Sechin Alto/Casma, Paracas, Ancon, Real Alto: BULUNAMADI."
  },
  {
-  "t": "-7699-01-01",
+  "t": "-7699-01-01", "yer_id":"Gobero",
   "k": "gelisme",
   "b": "Gobero (Tenere cemberi, Nijer): Erken Holosen (Kiffian) iskânı başlar",
   "gun": "MÖ 7700 (ALT SINIR; donem-toplami MÖ 7700–6200)",

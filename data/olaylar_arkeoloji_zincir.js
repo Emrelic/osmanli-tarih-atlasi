@@ -23,7 +23,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0112-01-01",
+  "t": "-0112-01-01", "yer_id":"Dura-Europos",
   "k": "diger",
   "b": "Dura-Europos: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu",
   "gun": "MÖ 113",
@@ -56,7 +56,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0147-01-01",
+  "t": "-0147-01-01", "yer_id":"Hemedan",
   "k": "diger",
   "b": "Ekbatana: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu",
   "gun": "MÖ 148",
@@ -89,7 +89,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0311-01-01",
+  "t": "-0311-01-01", "yer_id":"Hemedan",
   "k": "diger",
   "b": "Ekbatana, Seleukeia: Seleukos Nikator hâkimiyeti başlar (Medya ve Dicle)",
   "gun": "MÖ 312",
@@ -111,7 +111,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0327-01-01",
+  "t": "-0327-01-01", "yer_id":"Hemedan",
   "k": "diger",
   "b": "Ekbatana: sahipsiz aralık → Buyuk Iskender Imparatorlugu",
   "gun": "MÖ 328",
@@ -145,7 +145,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0395-01-01",
+  "t": "-0395-01-01", "yer_id":"Veii",
   "k": "diger",
   "b": "Veii: Etrüsk Şehir Devletleri (Oniki Şehir Birliği) → Roma Cumhuriyeti",
   "gun": "MÖ 396",
@@ -167,7 +167,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0677-01-01",
+  "t": "-0677-01-01", "yer_id":"Hemedan",
   "k": "diger",
   "b": "Ekbatana: sahipsiz aralık → Medya (Med) Krallığı",
   "gun": "MÖ 678",
@@ -212,7 +212,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer_id": "Şam"
  },
  {
-  "t": "-0910-01-01",
+  "t": "-0910-01-01", "yer_id":"Aşşur",
   "k": "diger",
   "b": "Aşşur: sahipsiz aralık → Yeni Asur Imparatorlugu",
   "gun": "MÖ 911",
@@ -280,7 +280,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
-  "t": "-1474-01-01",
+  "t": "-1474-01-01", "yer_id":"Uruk (Warka)",
   "k": "diger",
   "b": "Uruk: Birinci Deniz Ulkesi Hanedani → sahipsiz aralık",
   "gun": "MÖ 1475",
@@ -302,7 +302,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-1731-01-01",
+  "t": "-1731-01-01", "yer_id":"Uruk (Warka)",
   "k": "diger",
   "b": "Uruk: sahipsiz aralık → Birinci Deniz Ulkesi Hanedani",
   "gun": "MÖ 1732",
@@ -336,7 +336,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
-  "t": "-1801-01-01",
+  "t": "-1801-01-01", "yer_id":"Uruk (Warka)",
   "k": "diger",
   "b": "Uruk: sahipsiz aralık → Larsa Krallığı",
   "gun": "MÖ 1802",
@@ -347,7 +347,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "onyil"
  },
  {
-  "t": "-1807-01-01",
+  "t": "-1807-01-01", "yer_id":"Aşşur",
   "k": "diger",
   "b": "Aşşur: Eski Asur Devleti (Assur sehir devleti) → Ust Mezopotamya Krallığı (Samsi-Adad I)",
   "gun": "MÖ 1808",
@@ -404,7 +404,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
-  "t": "-2111-01-01",
+  "t": "-2111-01-01", "yer_id":"Uruk (Warka)",
   "k": "diger",
   "b": "Uruk: Gutium (Gutiler) Hakimiyeti → sahipsiz aralık",
   "gun": "MÖ 2112",
@@ -415,7 +415,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "onyil"
  },
  {
-  "t": "-2143-01-01",
+  "t": "-2143-01-01", "yer_id":"Girsu (Tell Telloh)",
   "k": "diger",
   "b": "Girsu (Lagaş devletinin merkezi): sahipsiz aralık → Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)",
   "gun": "MÖ 2144",
@@ -450,7 +450,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
-  "t": "-2349-01-01",
+  "t": "-2349-01-01", "yer_id":"Girsu (Tell Telloh)",
   "k": "diger",
   "b": "Girsu (Lagaş devletinin merkezi): Lagas I. Hanedan (sehir devleti) → sahipsiz aralık",
   "gun": "MÖ 2350",
@@ -461,7 +461,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "onyil"
  },
  {
-  "t": "0106-01-01",
+  "t": "0106-01-01", "yer_id":"Petra",
   "k": "diger",
   "b": "Petra: Nabatiye Krallığı → Roma İmparatorluğu (Prinkipat-Dominat, birleşik)",
   "gun": "MS 106",
@@ -483,7 +483,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0085-01-01",
+  "t": "-0085-01-01", "yer_id":"Atina",
   "k": "diger",
   "b": "Atina: Roma Cumhuriyeti dönemi başlar",
   "gun": "MÖ 86",
@@ -494,7 +494,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0145-01-01",
+  "t": "-0145-01-01", "yer_id":"Korint",
   "k": "diger",
   "b": "Korint: Korint dönemi sona erer",
   "gun": "MÖ 146",
@@ -505,7 +505,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0167-01-01",
+  "t": "-0167-01-01", "yer_id":"Petra",
   "k": "diger",
   "b": "Petra: Nabatiye Krallığı dönemi başlar",
   "gun": "MÖ 168",
@@ -516,7 +516,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0279-01-01",
+  "t": "-0279-01-01", "yer_id":"Pasargad",
   "k": "diger",
   "b": "Pasargad: sahipsiz aralık dönemi sona erer",
   "gun": "MÖ 280",
@@ -538,7 +538,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0302-01-01",
+  "t": "-0302-01-01", "yer_id":"Dura-Europos",
   "k": "diger",
   "b": "Dura-Europos: Selevkos Imparatorlugu dönemi başlar",
   "gun": "MÖ 303",
@@ -549,7 +549,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0322-06-10",
+  "t": "-0322-06-10", "yer_id":"İskenderiye",
   "k": "diger",
   "b": "İskenderiye: Ptolemai (Lagid) Krallığı dönemi başlar",
   "gun": "MÖ 323",
@@ -560,7 +560,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0337-01-01",
+  "t": "-0337-01-01", "yer_id":"Capua",
   "k": "diger",
   "b": "Capua: Roma Cumhuriyeti dönemi başlar",
   "gun": "MÖ 338",
@@ -582,7 +582,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0517-01-01",
+  "t": "-0517-01-01", "yer_id":"Persepolis",
   "k": "diger",
   "b": "Persepolis: Ahamenis (Pers) Imparatorlugu dönemi başlar",
   "gun": "MÖ 518",
@@ -616,7 +616,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
-  "t": "-0545-01-01",
+  "t": "-0545-01-01", "yer_id":"Pasargad",
   "k": "diger",
   "b": "Pasargad: Ahamenis (Pers) Imparatorlugu dönemi başlar",
   "gun": "MÖ 546",
@@ -627,7 +627,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0574-01-01",
+  "t": "-0574-01-01", "yer_id":"Veii",
   "k": "diger",
   "b": "Veii: Etrüsk Şehir Devletleri (Oniki Şehir Birliği) dönemi başlar",
   "gun": "MÖ 575",
@@ -649,7 +649,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0589-01-01",
+  "t": "-0589-01-01", "yer_id":"Eski Van (Tuşpa)",
   "k": "diger",
   "b": "Tuşpa (Van Kalesi): Urartu Krallığı dönemi sona erer",
   "gun": "MÖ 590",
@@ -727,7 +727,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0799-01-01",
+  "t": "-0799-01-01", "yer_id":"Korint",
   "k": "diger",
   "b": "Korint: Korint dönemi başlar",
   "gun": "MÖ 800",
@@ -738,7 +738,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0813-01-01",
+  "t": "-0813-01-01", "yer_id":"Karthago",
   "k": "diger",
   "b": "Karthago: Kartaca (Pön) Devleti dönemi başlar",
   "gun": "MÖ 814",
@@ -749,7 +749,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-0859-01-01",
+  "t": "-0859-01-01", "yer_id":"Eski Van (Tuşpa)",
   "k": "diger",
   "b": "Tuşpa (Van Kalesi): Urartu Krallığı dönemi başlar",
   "gun": "MÖ 860",
@@ -783,7 +783,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer_id": "Şam"
  },
  {
-  "t": "-1149-01-01",
+  "t": "-1149-01-01", "yer_id":"Nippur (Nuffar)",
   "k": "diger",
   "b": "Nippur: sahipsiz aralık dönemi sona erer",
   "gun": "MÖ 1150",
@@ -794,7 +794,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-1189-01-01",
+  "t": "-1189-01-01", "yer_id":"Ugarit",
   "k": "diger",
   "b": "Ugarit (Ras Şamra): Ugarit Krallığı dönemi sona erer",
   "gun": "MÖ 1190",
@@ -827,7 +827,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-1349-01-01",
+  "t": "-1349-01-01", "yer_id":"Ugarit",
   "k": "diger",
   "b": "Ugarit (Ras Şamra): Ugarit Krallığı dönemi başlar",
   "gun": "MÖ 1350",
@@ -838,7 +838,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-1739-01-01",
+  "t": "-1739-01-01", "yer_id":"Uruk (Warka)",
   "k": "diger",
   "b": "Uruk: Eski Babil (Amorit) Krallığı dönemi sona erer",
   "gun": "MÖ 1740",
@@ -849,7 +849,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-1775-01-01",
+  "t": "-1775-01-01", "yer_id":"Aşşur",
   "k": "diger",
   "b": "Aşşur: Ust Mezopotamya Krallığı (Samsi-Adad I) dönemi sona erer",
   "gun": "MÖ 1776",
@@ -871,7 +871,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-2018-01-01",
+  "t": "-2018-01-01", "yer_id":"Nippur (Nuffar)",
   "k": "diger",
   "b": "Nippur: Ur III (Ucuncu Ur Hanedani) dönemi sona erer",
   "gun": "MÖ 2019",
@@ -882,7 +882,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-2021-01-01",
+  "t": "-2021-01-01", "yer_id":"Girsu (Tell Telloh)",
   "k": "diger",
   "b": "Girsu (Lagaş devletinin merkezi), Umma: Ur III (Ucuncu Ur Hanedani) dönemi sona erer",
   "gun": "MÖ 2022",
@@ -928,7 +928,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
-  "t": "-2309-01-01",
+  "t": "-2309-01-01", "yer_id":"Ebla",
   "k": "diger",
   "b": "Ebla: Ebla Birinci Krallığı dönemi sona erer",
   "gun": "MÖ 2310",
@@ -951,7 +951,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
-  "t": "-2399-01-01",
+  "t": "-2399-01-01", "yer_id":"Ebla",
   "k": "diger",
   "b": "Ebla: Ebla Birinci Krallığı dönemi başlar",
   "gun": "MÖ 2400",
@@ -962,7 +962,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-2449-01-01",
+  "t": "-2449-01-01", "yer_id":"Kerma",
   "k": "diger",
   "b": "Kerma, Kerma (Kerma / Doukki Gel): sahipsiz aralık dönemi başlar",
   "gun": "MÖ 2450",
@@ -973,7 +973,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil"
  },
  {
-  "t": "-2474-01-01",
+  "t": "-2474-01-01", "yer_id":"Girsu (Tell Telloh)",
   "k": "diger",
   "b": "Girsu (Lagaş devletinin merkezi): Lagas I. Hanedan (sehir devleti) dönemi başlar",
   "gun": "MÖ 2475",

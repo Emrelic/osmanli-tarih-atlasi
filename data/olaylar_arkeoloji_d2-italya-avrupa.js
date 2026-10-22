@@ -2,7 +2,7 @@
 // Girdi: denetim/arastirma/d2-italya-avrupa.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA = [
  {
-  "t": "-1549-01-01",
+  "t": "-1549-01-01", "yer_id":"El Argar",
   "k": "kayip",
   "b": "El Argar (Argar kültürü, Antas): kültür sona erer (yaklaşık)",
   "gun": "MÖ 1550 civarı",
@@ -38,7 +38,7 @@ window.OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2380–1955 (kaynağın verdiği uçlar); orta nokta MÖ 2167 = astronomik -2166. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «ended in 2380-1955 cal BC (95% probability), possibly around 2305-2115 cal BC (68% probability)». Mezar etkinliği yerleşimden 55-235 yıl önce başlar (nekropol modeli 3390-3105 %95 [Model 1 Fig.3] ve 3330-3100 [Fig.7]; özet: 3219-3124 %68). Gömü etkinliği sonu 2430-2180 (%95). Bu tarihler Bayes olay tahminidir, 'kuruluş yılı' değil. Makale terkin 'ca. 2200 cal BC öncesi' olduğunu söyler."
  },
  {
-  "t": "-2199-01-01",
+  "t": "-2199-01-01", "yer_id":"El Argar",
   "k": "kurulus",
   "b": "El Argar (Argar kültürü, Antas): kültür başlar (yaklaşık)",
   "gun": "MÖ 2200 civarı",
@@ -137,7 +137,7 @@ window.OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4753–4545 (kaynağın verdiği uçlar); orta nokta MÖ 4649 = astronomik -4648. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «the expansion of Early Trypillia into Moldovan and Ukrainian forest-steppe took place during 47-45th centuries BCE». UYARI: Kiosak vd. 'Model 5 aralıkları tarih seçiminin yapaylığıdır, dikkatle ele alınmalı' der. A1-2: 4753-4545, A3: 4592-4381, B1: 4389-4218 (2σ, aynı makale). Tüm kültür 'ca. 4800-3000 BCE' (Fuchs 2024, donem-toplamı). Bir başka özet 5050-2950 BCE anıyor (arama özeti; yazar belirsiz, AÇILMADI). Müller vd. 2025 (Sidestone, doi 10.59641/kao351dm): özet 'mega-yerleşimler 4100-3600 BCE' (arama özeti), tam metin AÇILAMADI. Rusça/Ukraynaca birincil yayınlar okunamadı."
  },
  {
-  "t": "-5186-01-01",
+  "t": "-5186-01-01", "yer_id":"Szederkény-Kukorica-dűlő",
   "k": "kayip",
   "b": "Szederkény-Kukorica-dűlő (Vinča/LBK sınır yerleşimi): Neolitik yerleşim sona erer",
   "gun": "MÖ 5210–5165 arası (orta nokta MÖ 5187)",
@@ -158,7 +158,7 @@ window.OLAYLAR_ARKEOLOJI_D2_ITALYA_AVRUPA = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 5210–5165 (kaynağın verdiği uçlar); orta nokta MÖ 5187 = astronomik -5186. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «The settlement ended in 5210-5165 cal BC (95% probability». Bu SİTENİN tarihi. Formatif LBK Transdanubia için ayrı kayıt: lbk-formatif-transdanubia. Makale okuması ilk 100.000 karakterle sınırlı (sonrası okunmadı). Almanca/Çek/Polonya LBK'nın kendi Bayes yayınları bulunamadı."
  },
  {
-  "t": "-5331-01-01",
+  "t": "-5331-01-01", "yer_id":"Szederkény-Kukorica-dűlő",
   "k": "kurulus",
   "b": "Szederkény-Kukorica-dűlő (Vinča/LBK sınır yerleşimi): Neolitik yerleşim başlar",
   "gun": "MÖ 5360–5305 arası (orta nokta MÖ 5332)",

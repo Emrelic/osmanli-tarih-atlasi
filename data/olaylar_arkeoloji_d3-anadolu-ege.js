@@ -23,7 +23,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   "ic_not_d": "donem-toplami aralığı (MÖ 900–801) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «This influential state was formed in the ninth century bc». ÇELİŞKİ / BELİRSİZLİK: TDV İslâm Ansiklopedisi 'Urartular' maddesi İÇİN madde sayfası açılamadı (islamansiklopedisi.org.tr/urartular arama sonuç sayfası döndü; Madde Başlıkları 0); yalnız başka maddelerde geçen kısa ifadeler: AĞRI maddesi 'm.ö. 900-600', ASYA maddesi 'Urartular (856-610)' — bunlar iki farklı sınır verir (kuruluş 900 mü 856 mı? son 600 mü 610 mu?) ve bu oturumda ilk elden madde sayfası okunmadı. Sarduri I tarihi için bakılan ikincil/popüler listelerde (Wikipedia 834-828; Met 840-830; worldhistory 835-825; Routledge 'Sarduri I (844-828)') AYRI aralıklar var; bunlar tek dayanak olamaz, YAZILMADI. Arame: Aşur eponim kronolojisi ~858-859 (Salmanasar III'ün tahta çıkış yılı) — hakemli kaynaktan okunamadı. Kuruluş ve düşüş tarihleri için kutuphane_gerekli."
  },
  {
-  "t": "-1190-01-01",
+  "t": "-1190-01-01", "yer_id":"Ugarit",
   "k": "kayip",
   "b": "Ugarit krallığı (Gibala/Tell Tweini) — Deniz Kavimleri yıkımı: Ugarit/Tell Tweini yıkılır (Deniz Kavimleri çağı)",
   "gun": "MÖ 1192–1190 arası (orta nokta MÖ 1191)",
@@ -44,7 +44,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1192–1190 (kaynağın verdiği uçlar); orta nokta MÖ 1191 = astronomik -1190. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz (yazar yorum aralığı; 1σ 1215-1190 veya 1180-1160'tan 1192-1190 en iyi uyum olarak seçildi). Kaynaktan okunan: «an absolute age range of 1192-1190 BC for terminal destructions». UYARI: 1192-1190 aralığı yazarların ASTRONOMİK çapa + 14C birleşiminden çıkardığı yorumdur; salt 14C 1σ aralığı 1215-1190 (%34) ve 1180-1160 (%26)'dır. Manning 2023 (Nature, Yöntem) Ugarit yıkımının geleneksel olarak ~1193-1186 aralığında savunulduğunu ve revize Ramses tarihleriyle ~11 yıl eskiye çekildiğini, bunun 'terminus post quem' olduğunu yazar. Ugarit son kralı Ammurapi ilk yıl 1215; Hatti Şuppiluliuma II ilk yıl 1210; Karkamış Talmi-Teşub 1220 (Kaniewski tablosu). Kıbrıs LC IIC-IIIA 1220-1190; Ana kara Yunanistan LH IIIB-IIIC Erken 1210-1175 (Kaniewski tablosu; o kaynağın aktarması, ilk elden doğrulanmadı)."
  },
  {
-  "t": "-1199-01-01",
+  "t": "-1199-01-01", "yer_id":"Hattuşa",
   "k": "kayip",
   "b": "Hattuşa'nın boşaltılması — 3. dalga okuma notu: Hattuşa terk edilir; Hitit İmparatorluğu çöker (yaklaşık 1200)",
   "gun": "MÖ 1200",

@@ -30,7 +30,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
-  "t": "-0549-01-01",
+  "t": "-0549-01-01", "yer_id":"Hemedan",
   "k": "fetih",
   "b": "Ekbatana (Hamedan): Kyros'un Med başkentini alması: başlar",
   "gun": "MÖ 550",

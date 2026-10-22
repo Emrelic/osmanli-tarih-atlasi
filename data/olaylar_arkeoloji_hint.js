@@ -32,7 +32,7 @@ window.OLAYLAR_ARKEOLOJI_HINT = [
   "ic_not_d": "TEK DEĞER MÖ 1900 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Late Harappan periods (1900–1600 BC) (Mughal 1970; Possehl 2002; Wright 2010; contra Shaffer 1992; Kenoyer 1998)». Bitiş çelişkili: Parikh & Petrie 1900–1600 BC; Sarkar 2016 (geleneksel) 'Geç/PGW 3.9–3.3 ka BP' yaklaşık 1950–1350 MÖ; Possehl'e atfedilen eski kronolojide 3–2.5 ka BP. Parikh&Petrie metni dönemleme için Shaffer 1992/Kenoyer 1998'e 'contra' notu veriyor (Geç Harappa'yı ayrı dönem saymayan görüş). 1600 'dönem sonu' olup oluş-zamanı değildir."
  },
  {
-  "t": "-2549-01-01",
+  "t": "-2549-01-01", "yer_id":"Rakhigarhi",
   "k": "ilk_anilis",
   "b": "Rakhigarhi: başlar",
   "gun": "MÖ 2800–2300 arası (orta nokta MÖ 2550)",

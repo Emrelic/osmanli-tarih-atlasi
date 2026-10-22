@@ -2,7 +2,7 @@
 // Girdi: denetim/arastirma/misir-nil-sahra.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
  {
-  "t": "-0299-01-01",
+  "t": "-0299-01-01", "yer_id":"Meroe",
   "k": "gelisme",
   "b": "Kush krallığı — Meroe dönemi: başlar",
   "gun": "MÖ 300 civarı",
@@ -308,7 +308,7 @@ window.OLAYLAR_ARKEOLOJI_MISIR_NIL_SAHRA = [
   "ic_not_d": "donem-toplami aralığı (MÖ 3950–2350) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Late Pastoral (LP) LP1 5000–4000 5900–4300 Specialized nomadic herders». Tablo notu: 'The calibrated dates express the maximum chronological range and overlaps are statistically possible' — aralıklar maksimum kalibre aralığıdır, evre sınırı değil. Faz tablosu (cal BP): LA1 10170–9400; LA2 9500–8600; LA3 9000–8000; EP1 8300–7600; EP2 7800–7300; MP1 7100–6200; MP2 6400–5600; LP1 5900–4300. Rotunno & Crema 2025 (Nat Commun, PMC12494898) pottery-bearing layers 'dated to 10,200 cal BP' der; Eramo vd. 2020 başlığı '10,200–4650 cal BP' (başlıkta; makale açılmadı). Uan Afuda için ayrı kayıt AÇILMADI (aşağıya bak). Yeşil Sahra aDNA makalesi (Nature 2025) bu oturumda açılmadı."
  },
  {
-  "t": "-4699-01-01",
+  "t": "-4699-01-01", "yer_id":"Esh-Shaheinab",
   "k": "ilk_anilis",
   "b": "Eş-Şeheynab (Shaheinab) Neolitiği: başlar",
   "gun": "MÖ 4700 (ALT SINIR; yerlesim-suresi MÖ 4700–4200)",

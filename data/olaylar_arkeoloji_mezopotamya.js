@@ -14,7 +14,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «turned the city into a ruin heap». Yıl hassasiyeti: kroniğin 14. yıl notu '612-611 BCE', Simanu'dan Abu'ya (≈ Haziran–Ağustos, doğrulanmadı) kuşatma; saldırı günü metinde 'Nth day' (kopuk). Aynı sayfada Ulûlu 20 = 14 Eylül 612 notu (Cyaxares'in dönüşü) var; bu düşüş tarihi değil. Sonrası: Asur direnişi Harran'da sürer (kaynaklanmadı). kur yok: Ninova'nın başkent olma tarihi (Sennacherib 704) Pleiades özetinde anıldı ama kaynak açılmadı."
  },
  {
-  "t": "-0613-01-01",
+  "t": "-0613-01-01", "yer_id":"Aşşur",
   "k": "kayip",
   "b": "Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur şehri Medler/Babilliler tarafından alınır",
   "gun": "MÖ 614",
@@ -64,7 +64,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Middle Chronology (I) (MC) Hammurapi of Babylon 1792-1750, end of Babylon I 1595». KRONOLOJİ OKULLARI (ARCANE III s.6, Venüs/Ammisaduqa levhaları): Yüksek (HC) Hammurabi 1848-1806, Babil I sonu 1651 · ORTA (MC, bu kayıtta esas) 1792-1750, sonu 1595 · MC II 1784-1742, sonu 1587 · Alçak/Kısa (LC) 1728-1686, sonu 1531 · Ultra-kısa 'Yeni Kronoloji' (NC) 1696-1654, sonu 1499. Yazarlar HC'yi 'artık olası değil' ve NC'yi tarihsel gerekçelerle geçersiz sayar; dendrokronoloji HC/NC'yi dışlar; MC–Alçak aralığını önerirler. Bu 'Hammurabi 1792' değeri hükümdarın çıkışıdır, Babil'in kuruluşu değil; Babil şehri MÖ 3. bin sonundan beri belgeli (tablo dışında, açılmadı). Eşnunna kaydının atlas bitiş değeri -1599 (Eşnunna'nın düşüşü) bu tablodan bağımsızdır."
  },
  {
-  "t": "-1971-01-01",
+  "t": "-1971-01-01", "yer_id":"Aşşur",
   "k": "fetih",
   "b": "Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur: Eski Asur eponim listesi başlar (belge başlangıcı, kuruluş değil)",
   "gun": "MÖ 1972",
@@ -126,7 +126,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "yer_id": "Kiş (Tell Uhaimir)"
  },
  {
-  "t": "-3199-01-01",
+  "t": "-3199-01-01", "yer_id":"Uruk (Warka)",
   "k": "kayip",
   "b": "Uruk IV–III (yazının ortaya çıkışı): Uruk III evresi sona erer",
   "gun": "MÖ 3200 (ALT SINIR; donem-toplami MÖ 3200–3000)",
@@ -147,7 +147,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "ic_not_d": "donem-toplami aralığı (MÖ 3200–3000) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Uruk IVa 3350-3200». kur = Uruk IVa evresi (3350-3200), bit = Uruk III evresi (3200-3000); ikisi de 'tabaka-dönem' aralığıdır, tablet yazımının tek olay tarihi DEĞİL. Alt sınır çelişkisi: Egberts vd. 2023 (Radiocarbon 65(4), Tablo 1) Geç Uruk 3400-3100, Jemdet Nasr 3100-2900 verir; sınırlar Englund'dan ~50-100 yıl farklı. Englund: tabletler dolgu tabakalarından geldiği için kesin bağlam yok (CDLI wiki, açılmadı; bu cümle web arama özetinden). Uruk'un çok daha eski varlığı: Egberts Tablo 1'de Erken Uruk 4200-3900."
  },
  {
-  "t": "-3349-01-01",
+  "t": "-3349-01-01", "yer_id":"Uruk (Warka)",
   "k": "kurulus",
   "b": "Uruk IV–III (yazının ortaya çıkışı): Uruk IVa evresi: yazının ortaya çıktığı tabakalar (Uruk IV–III) başlar",
   "gun": "MÖ 3350 (ALT SINIR; donem-toplami MÖ 3350–3200)",
@@ -168,7 +168,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "ic_not_d": "donem-toplami aralığı (MÖ 3350–3200) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «levels Uruk IV and III dating to ca. 3350-3000 BC». kur = Uruk IVa evresi (3350-3200), bit = Uruk III evresi (3200-3000); ikisi de 'tabaka-dönem' aralığıdır, tablet yazımının tek olay tarihi DEĞİL. Alt sınır çelişkisi: Egberts vd. 2023 (Radiocarbon 65(4), Tablo 1) Geç Uruk 3400-3100, Jemdet Nasr 3100-2900 verir; sınırlar Englund'dan ~50-100 yıl farklı. Englund: tabletler dolgu tabakalarından geldiği için kesin bağlam yok (CDLI wiki, açılmadı; bu cümle web arama özetinden). Uruk'un çok daha eski varlığı: Egberts Tablo 1'de Erken Uruk 4200-3900."
  },
  {
-  "t": "-3799-01-01",
+  "t": "-3799-01-01", "yer_id":"Tell al-Ubaid",
   "k": "kayip",
   "b": "Ubaid kültürü (güney Mezopotamya): Ubaid dönemi sona erer (Carter & Philip 2010; Egberts vd. 2023 bitişi MÖ 4200 diyor)",
   "gun": "MÖ 3800 civarı",
@@ -225,7 +225,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "ic_not_d": "donem-toplami aralığı (MÖ 5900–5400) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the rise of the Halaf culture, ca. 5900 - 5400 cal. BC». İki ayrı tür birleşik: başlangıç = Nieuwenhuyse'nin 'rise' aralığı (5900-5400 cal BC, kitap özetinden), bitiş = Campbell & Fletcher'ın en geç tarihli Halaf için üst sınırı (≤5500-5400); aynı kültürün başı ve sonu farklı yazarlardan. Pre-Halaf → Erken Halaf geçişi Sabi Abyad'da 6100-5900 cal BC (Nieuwenhuyse özetinden, makale açılmadı). Kuzey Ubaid'in en erken kesin tarihi 5100-5000 (calibrated) b.c. civarı: 'Halaf-Ubaid arası 400-500 yıl' boşluk (aynı s.78). Eski kitaplar (Akkermans 1993) ham 14C ile 5200-4500 verir; kullanılmadı. Yarım Tepe tarihlerinin 200-300 yıl geç çıktığı s.78'de belirtiliyor."
  },
  {
-  "t": "-6499-01-01",
+  "t": "-6499-01-01", "yer_id":"Tell al-Ubaid",
   "k": "kurulus",
   "b": "Ubaid kültürü (güney Mezopotamya): Ubaid kültürü: güney Mezopotamya'da ilk tarihli Ubaid evresi başlar",
   "gun": "MÖ 6500 civarı",

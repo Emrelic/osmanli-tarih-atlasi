@@ -158,7 +158,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "ic_not_d": "donem-toplami aralığı (MÖ 1300–400) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Mumun Period (1300–400 BCE) began». KALİBRE ALTERNATİF 1: Craig O. vd. 2025, PNAS 122(30):e2504414122 (doi:10.1073/pnas.2504414122, PMC12318219): pirinç Kore'de 'Early Mumun'da %90 HPDI 1677-1161 cal BCE ('although earlier dates have been proposed'). ALTERNATİF 2 (ham BP uyarılı): Kim & Bae 2010 geçiş ~2300 BC. Kim & Park 2020'nin 1300 değeri periyotlandırmadır; Hudson & Robbeets 2020 (önceki dalga) aynı 1300-400'ü verir - çift teyit sayılmaz (aynı gelenek, aynı alan). Korece kaynak (KCI/DBpia/earticle) tam metni bu oturumda alınamadı; bkz. kutuphane_gerekli."
  },
  {
-  "t": "-1499-01-01",
+  "t": "-1499-01-01", "yer_id":"Dholavira",
   "k": "kayip",
   "b": "Dholavira: Dholavira Aşama VII sona erer",
   "gun": "MÖ 1500 (ALT SINIR; donem-toplami MÖ 1500–1450)",
@@ -194,7 +194,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "ic_not_d": "TEK DEĞER MÖ 1500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Shang period (ca. 1500–1046 BC)». ÇELİŞKİ: başlangıç 1600 (proje, önceki dalga kayıtları) vs ~1500 (Sci Rep 2018, Fang 2022 Zhengzhou 1509). Tek seçmedim. Li X.Q. 2002 J. East Asian Archaeol. 4:1-4 (doi:10.1163/156852302322454585) ve Qiu S.H. 2002 Chinese Archaeology 2:6 (doi:10.1515/char.2002.2.1.6) açık değil -> kutuphane_gerekli. Bitiş: 1046 (Li 2002) ile 1041 (Liu K. vd. 2020, %68) arası ~5 yıl - çift teyit değil, farklı yöntemler; ikisi de Liu K. vd.'nin metninden okundu (Li 2002 ikinci elden)."
  },
  {
-  "t": "-1999-01-01",
+  "t": "-1999-01-01", "yer_id":"Lothal",
   "k": "kayip",
   "b": "Lothal: Lothal'in gerilemesi",
   "gun": "MÖ 2000 civarı",
@@ -209,7 +209,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "ic_not_d": "TEK DEĞER MÖ 2000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «by 2000 BCE, the prosperity of Lothal was waning». Kanungo vd. 2024 Tablo 1 (Possehl 1989'dan, 'kalibre tarihler orijinal yayınlardaki gibi, yeniden hesaplanmadı'): Lothal B TF-19 3759±135 BP = 2315-1865 BC; TF-23 3816±105 BP = 2320-1959 BC (ortalamalar 2275, 2210, 2307 BC). Lothal A TF-22 vd.: 3850-4032 BP = 2340-1980 .. 2655-2185 BC (TF-136 en eski, 2655-2185); TF-135 3507±125 = 1950-1570 BC (aykırı). Tablo düzeni metin çıkarımında bozuk, A/B etiket eşleşmesi kesin değil; bu nedenle kayıt tek bir kalibre uç yerine Rao beyanı + ortalama olarak verildi. Rao'nun sel kuramı sonradan terk edilmiş (Herman 1996). Orijinal ASI Memoir 78 (Rao 1979/1984) OKUNAMADI; kalibre kaynak Possehl 1989 de okunamadı (kutuphane_gerekli). Khadkikar vd. 2004 (Antiquity 78) yalnız paleocoğrafya."
  },
  {
-  "t": "-2449-01-01",
+  "t": "-2449-01-01", "yer_id":"Lothal",
   "k": "kurulus",
   "b": "Lothal: Lothal iskânı başlar",
   "gun": "MÖ 2450 civarı",
@@ -224,7 +224,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "ic_not_d": "TEK DEĞER MÖ 2450 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Average: 2452, 2427, 2395, 2374 and 2366 BC». Kanungo vd. 2024 Tablo 1 (Possehl 1989'dan, 'kalibre tarihler orijinal yayınlardaki gibi, yeniden hesaplanmadı'): Lothal B TF-19 3759±135 BP = 2315-1865 BC; TF-23 3816±105 BP = 2320-1959 BC (ortalamalar 2275, 2210, 2307 BC). Lothal A TF-22 vd.: 3850-4032 BP = 2340-1980 .. 2655-2185 BC (TF-136 en eski, 2655-2185); TF-135 3507±125 = 1950-1570 BC (aykırı). Tablo düzeni metin çıkarımında bozuk, A/B etiket eşleşmesi kesin değil; bu nedenle kayıt tek bir kalibre uç yerine Rao beyanı + ortalama olarak verildi. Rao'nun sel kuramı sonradan terk edilmiş (Herman 1996). Orijinal ASI Memoir 78 (Rao 1979/1984) OKUNAMADI; kalibre kaynak Possehl 1989 de okunamadı (kutuphane_gerekli). Khadkikar vd. 2004 (Antiquity 78) yalnız paleocoğrafya."
  },
  {
-  "t": "-2999-01-01",
+  "t": "-2999-01-01", "yer_id":"Dholavira",
   "k": "kurulus",
   "b": "Dholavira: Dholavira iskânı başlar",
   "gun": "MÖ 3000 civarı",

@@ -63,7 +63,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Nihayet 1014 yılında kazandığı zaferle Bulgar Devleti’ni yıkarak arazisini imparatorluğa ilhak etti.",
   ic_not:"taraf künyesi başka oturumdan bekleniyor (Birinci Bulgar Devleti). TDV 1014 der; ilhakın tamamlanışı yaygın olarak 1018'dir — bu kaynakta yok, yazılmadı. · taraf \"bulgar-birinci\" çıkarıldı: künyesi yok" },
 
-{ t:"1022-01-01",
+{ t:"1022-01-01", yer_id:"Dvin",
   tur:"fetih",
   b:"Şeddâdî Fazl, Dvin'i Ermenilerden alıp oğlu Ebü'l-Esvâr Şâvur'a verdi",
   gun:"1022 (TDV 413/1022 verir)",
@@ -719,7 +719,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Antakya Prinkepsi Bohemund’un kuvvetlerini pusuya düşürüp yendi ve kendisini esir alarak önce Sivas’a, daha sonra da Niksar’a götürüp hapsetti (Ramazan 493 / Temmuz 1100).",
   ic_not:"taraf antakya-prinkipsligi (devletler.js mevcut künye)." },
 
-{ t:"1100-01-01",
+{ t:"1100-01-01", yer_id:"Urfa",
   tur:"hukumdar",
   b:"Baudouin de Boulogne Kudüs'e gitti; Urfa kontluğu kuzeni Baudouin du Bourg'a geçti",
   gun:"1100 (TDV saltanat aralığı 1100-1118 verir)",
@@ -890,7 +890,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"504 (1110-11) yılında Silvan’a bağlı birçok köyü ele geçirdi ve bir süre sonra da bağımsızlığını ilân etti.",
   ic_not:"Togan Arslan'ın başa geçişi 'yaklaşık 497/1104' — ayrı madde açılmadı (yaklaşık)." },
 
-{ t:"1110-01-01",
+{ t:"1110-01-01", yer_id:"Urfa",
   tur:"toprak-kayip",
   b:"Musul Valisi Mevdûd'un seferleri Urfa kontluğunun Fırat doğusunu tahrip etti",
   gun:"1110'dan itibaren (TDV başlangıç yılı verir)",
@@ -984,7 +984,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Emîr Lü’lü’ün öldürülmesinden sonra halkın isteği üzerine Halep’e gelerek burayı da hâkimiyeti altına aldı (511/1118).",
   ic_not:"Halep Suriye'dedir; künye 'anadolu' bölgeli, harita kapsamı ayrı iş." },
 
-{ t:"1118-01-01",
+{ t:"1118-01-01", yer_id:"Dvin",
   tur:"toprak-kayip",
   b:"Togan Arslan Dvin'e saldırıp Menûçihr'i öldürdü ve şehri aldı; Ani'de II. Şâvur başa geçti",
   gun:"1118 (TDV 512/1118 verir)",
@@ -1000,7 +1000,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Togan Arslan 512’de (1118) tekrar Dvin’e saldırdı ve Menûçihr’i öldürerek şehri topraklarına kattı",
   ic_not:"Iranica: 'Manučehr was succeeded around 1118 by his son Abu’l-Aswār II' — ölüm biçimini vermez. Togan Arslan'ın beyliği (Bitlis-Erzen) için künye yok." },
 
-{ t:"1118-01-01",
+{ t:"1118-01-01", yer_id:"Urfa",
   tur:"hukumdar",
   b:"Baudouin du Bourg Kudüs tahtına geçti; Urfa kontluğu Josselin de Courtenay'a bırakıldı",
   gun:"1118 (TDV yıl verir)",
@@ -1218,7 +1218,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: danismendliler (DÂNİŞMENDLİLER)",
   alinti:"Anadolu’nun en güçlü devleti haline gelen Dânişmendliler 1129 yılında Ankara, Çankırı, Kastamonu ve Karadeniz sahillerini kontrol altına aldılar." },
 
-{ t:"1130-01-01",
+{ t:"1130-01-01", yer_id:"Dvin",
   tur:"hukumdar",
   b:"IV. Fazl, Dvin'i geri almaya çalışan Erzen Emîri Kurti'yle savaşta öldü",
   gun:"1130 (TDV 524/1130 verir)",
@@ -1373,7 +1373,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Zengî de Ergani, Hâlâr, Tulhum, Çermük gibi kale ve kasabaları ele geçirdi (538/1144)",
   ic_not:"zengi: taraf künyesi başka oturumdan bekleniyor." },
 
-{ t:"1150-01-01",
+{ t:"1150-01-01", yer_id:"Harput (Elazığ)",
   tur:"toprak-kazanc",
   b:"Artuklu Kara Arslan Gerger ve Harput'u aldı; Dânişmendli Aynüddevle Gerger-Kâhta-Palu'ya saldırdı",
   gun:"1150 (TDV yıl verir)",
@@ -2072,7 +2072,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"John’s forces were routed by Theodore when they attempted to take Adrianople later that year.",
   ic_not:"'that year' = önceki cümlede Theodoros'un Selânik'i alıp imparator ilan edildiği '(1225)'." },
 
-{ t:"1225-01-01",
+{ t:"1225-01-01", yer_id:"Dvin",
   tur:"fetih",
   b:"Celâleddin Hârizmşah Dvin'i zaptetti",
   gun:"1225 (TDV 622/1225 verir)",
@@ -2244,7 +2244,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"Keyhusrev’in hükümdarlığının ilk yıllarında Âmid Selçuklu topraklarına katıldı (1240).",
   ic_not:"🟡 Âmid'in kimden alındığı TDV cümlesinde YOK. eyyubi-hisnikeyfa taraflığı ÇIKARIMDIR: eyyubiler tablosu kolu 'Hısnıkeyfâ ve Âmid Kolu' diye adlandırır ve el-Kâmil 1232'de Âmid'i almıştı. Kapıda doğrulanmadıysa taraf düşürülsün." },
 
-{ t:"1240-01-01",
+{ t:"1240-01-01", yer_id:"Malatya",
   tur:"isyan",
   b:"Baba İshak önderliğinde Türkmen ayaklanması",
   gun:"1240 (TDV yıl verir)",
@@ -2566,7 +2566,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   kaynak:"TDV: mora (MORA)",
   alinti:"Melik ve Salik (Sâlih) önderliğinde 6000 kişiden oluşan paralı Selçuklu Türk askerini Mora’ya getirtti (1263 baharı)." },
 
-{ t:"1264-01-01",
+{ t:"1264-01-01", yer_id:"Mora (Tripoliçe)",
   tur:"savas",
   b:"Makryplagi Savaşı: Frank-Türk ordusu Bizanslıları yendi",
   gun:"1264 (TDV yıl verir)",

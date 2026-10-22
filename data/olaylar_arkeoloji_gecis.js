@@ -1,7 +1,7 @@
 // MÖ KÜNYE GEÇİŞLERİ — s: dönem sınırlarını destekleyen künye-geçişi maddeleri (Değişmez 2). denetim/arkeoloji_yerlesim_1020.py üretir.
 window.OLAYLAR_ARKEOLOJI_GECIS = [
  {
-  "t": "-2049-01-01",
+  "t": "-2049-01-01", "yer_id":"Liangzhu",
   "k": "diger",
   "b": "Liangzhu: sahip dönemi sona erer — Liangzhu Kültürü",
   "gun": "MÖ 2050 (dönem ucu)",
@@ -12,7 +12,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kesinlik": "yuzyil"
  },
  {
-  "t": "-2203-01-01",
+  "t": "-2203-01-01", "yer_id":"Lothagam North",
   "k": "diger",
   "b": "Lothagam North: sahip dönemi sona erer — Turkana Pastoral Neolitiği ('pillar sites' geleneği)",
   "gun": "MÖ 2204 (dönem ucu)",
@@ -23,7 +23,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kesinlik": "yuzyil"
  },
  {
-  "t": "-3249-01-01",
+  "t": "-3249-01-01", "yer_id":"Hemudu",
   "k": "diger",
   "b": "Hemudu: sahip dönemi sona erer — Hemudu Kültürü",
   "gun": "MÖ 3250 (dönem ucu)",
@@ -34,7 +34,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kesinlik": "yuzyil"
  },
  {
-  "t": "-3819-01-01",
+  "t": "-3819-01-01", "yer_id":"Anau",
   "k": "diger",
   "b": "Anau: sahip dönemi sona erer — Anau IA (Namazga öncesi/Meana evresi, Kopet Dağ)",
   "gun": "MÖ 3820 (dönem ucu)",
@@ -45,7 +45,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kesinlik": "yuzyil"
  },
  {
-  "t": "-4199-01-01",
+  "t": "-4199-01-01", "yer_id":"Esh-Shaheinab",
   "k": "diger",
   "b": "Esh-Shaheinab: sahip dönemi sona erer — Shaheinab Neolitiği (Orta Sudan)",
   "gun": "MÖ 4200 (dönem ucu)",
@@ -56,7 +56,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kesinlik": "yuzyil"
  },
  {
-  "t": "-4723-01-01",
+  "t": "-4723-01-01", "yer_id":"Mehrgarh",
   "k": "diger",
   "b": "Mehrgarh: sahip dönemi sona erer — Mehrgarh Neolitiği (Kaççi Ovası, Belucistan)",
   "gun": "MÖ 4724 (dönem ucu)",
@@ -67,7 +67,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kesinlik": "yuzyil"
  },
  {
-  "t": "-5249-01-01",
+  "t": "-5249-01-01", "yer_id":"Kuahuqiao",
   "k": "diger",
   "b": "Kuahuqiao: sahip dönemi sona erer — Kuahuqiao Kültürü",
   "gun": "MÖ 5250 (dönem ucu)",
@@ -78,7 +78,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kesinlik": "yuzyil"
  },
  {
-  "t": "-6899-01-01",
+  "t": "-6899-01-01", "yer_id":"Ba'ja",
   "k": "diger",
   "b": "Ba'ja: sahip dönemi sona erer — PPNB — Çanak Öncesi Neolitik B (Güney Levant)",
   "gun": "MÖ 6900 (dönem ucu)",
@@ -89,7 +89,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kesinlik": "yuzyil"
  },
  {
-  "t": "-9319-01-01",
+  "t": "-9319-01-01", "yer_id":"Hallan Çemi",
   "k": "diger",
   "b": "Hallan Çemi: sahip dönemi sona erer — Epipaleolitik–Çanak Öncesi Neolitik toplulukları (Kuzey Levant, Fırat, Güneydoğu Anadolu)",
   "gun": "MÖ 9320 (dönem ucu)",
@@ -100,7 +100,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kesinlik": "yuzyil"
  },
  {
-  "t": "-9549-01-01",
+  "t": "-9549-01-01", "yer_id":"Ain Mallaha (Eynan)",
   "k": "diger",
   "b": "Ain Mallaha (Eynan): sahip dönemi sona erer — Natufiyen Kültürü (Levant)",
   "gun": "MÖ 9550 (dönem ucu)",
@@ -111,7 +111,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kesinlik": "yuzyil"
  },
  {
-  "t": "0001-01-01",
+  "t": "0001-01-01", "yer_id":"Ban Chiang",
   "k": "diger",
   "b": "Ban Chiang: sahip dönemi sona erer — Ban Chiang Kültürü (Kuzeydoğu Tayland)",
   "gun": "MS 1 (dönem ucu)",
@@ -133,7 +133,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kesinlik": "yuzyil"
  },
  {
-  "t": "0550-01-01",
+  "t": "0550-01-01", "yer_id":"Teotihuacan",
   "k": "diger",
   "b": "Teotihuacan: sahip dönemi sona erer — Teotihuacan Şehir Devleti",
   "gun": "MS 550 (dönem ucu)",
@@ -144,7 +144,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "kesinlik": "yuzyil"
  },
  {
-  "t": "0700-01-01",
+  "t": "0700-01-01", "yer_id":"Monte Albán",
   "k": "diger",
   "b": "Monte Albán: sahip dönemi sona erer — Zapotek Devleti (Monte Alban)",
   "gun": "MS 700 (dönem ucu)",

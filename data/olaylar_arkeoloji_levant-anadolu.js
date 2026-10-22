@@ -137,7 +137,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "ic_not_d": "TEK DEĞER MÖ 7100 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «Phase 2B: The second concentration of dates starts around 7400 BC and lasts until 7100 BC.». KRONOLOJI CELISKISI/SINIF: Smith vd. 2022 (PLoS One 17(9):e0272947, doi 10.1371/journal.pone.0272947, IntCal20 kalibre) evre tablosu: 1A 13,300-12,800 calBP ... 2C 8,000-7,800 calBP (Gec Neolitik); alinti: 'Epipalaeolithic (ca. 13,300-11,400 calBP) and Neolithic (ca. 10,600-7,800 calBP) occupations'. calBP->MO (BP-1950): Epipaleolitik basi ~11350, Neolitik sonu ~5850 MO. PPND aralik 11220-10750 (Epipaleolitik tabakalarin 14C ozeti) ve 7100 (Faz 2B sonu) -> iki kaynak 2A/2B bitisinde farkli (PPND 14C toplam, Smith evre sinirlari). Ikisi de verilmistir; tek secim yok. PPND 2A basi ~7760 (muhtemelen 7600). Aralarinda Epipaleolitik sonrasi 'Intermediate' (11,400-10,600 calBP ~ 9450-8650 MO) bosluk/yerlesme sorunu vardir."
  },
  {
-  "t": "-7139-01-01",
+  "t": "-7139-01-01", "yer_id":"Çayönü Tepesi",
   "k": "kayip",
   "b": "Çayönü Tepesi: sona erer",
   "gun": "MÖ 7140 (ALT SINIR; donem-toplami MÖ 7140–6820)",
@@ -158,7 +158,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "ic_not_d": "donem-toplami aralığı (MÖ 7140–6820) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «transitional phase between the cell- and large-room buildings ( 7140-6820 BC )». Kur blogu 'kanalli yapi' evresinin toplami (8630-8245); daha eski YUVARLAK YAPI evresi (PPND: ham 14C 10430+-80 BP, GrN 19482 10230+-200 BP vb.) plato nedeniyle kalibre aralik verilmemis -> yerlesmenin gercek basi 8630'dan daha eski olabilir (tavan degil, alt sinir). Diger evreler: kaldirimli 8250-7880, hucreli 7510-7350, gecis 7140-6820 MO. Ikinci kaynak (genel): Çayönü 'ninth millennium to the end of the seventh millennium cal BC' (Food and social complexity at Çayönü Tepesi, J Anthropol Archaeol 2013, doi 10.1016/j.jaa.2013.01.002, PMC4066944) tutarli."
  },
  {
-  "t": "-7499-01-01",
+  "t": "-7499-01-01", "yer_id":"Ba'ja",
   "k": "kurulus",
   "b": "Ba‘ja: başlar",
   "gun": "MÖ 7500 (ALT SINIR; donem-toplami MÖ 7500–6900)",
@@ -179,7 +179,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "ic_not_d": "donem-toplami aralığı (MÖ 7500–6900) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Late Pre-Pottery Neolithic B (LPPNB, 7,500–6,900 BCE) settlement of Baʻja in southern Jordan». Aralik 7500-6900 MO 'donem toplami' - kaynakta kazi buluntularina (tipoloji) dayali; eski tabakalar 14C ile tarihlenmemis (PPND notu: 'older layers not yet radiocarbon dated'). Tek gomme 14C: 7071-6684 cal BCE (95.4%), olasi eski odun etkisi. kur-bit tek aralik."
  },
  {
-  "t": "-7599-01-01",
+  "t": "-7599-01-01", "yer_id":"Nevalı Çori",
   "k": "kayip",
   "b": "Nevalı Çori: sona erer",
   "gun": "MÖ 7600 civarı",
@@ -209,7 +209,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "ic_not_d": "TEK DEĞER MÖ 7950 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «Phase IVA/IVB = PPNB ancien/moyen (IVA: 8750-7950 BC; IVB 8650-7950 BC)». Evrelere gore: Faz I/II gec Natufiyen 10150-9250 / Hiyamiyen 9760-9280; IIIA Mureybetien 9350-8600, IIIB 9150-8500; IVA 8750-7950, IVB 8650-7950 MO. PPND Hiyamiyen basinin 10000 mi (Cauvin) yoksa ~9600 MO mu (Evin & Stordeur 2008) oldugunu belirsiz sayar. Aralik 14C laboratuvar farklari nedeniyle genis. Hasarli/sular altinda (Esad Golu)."
  },
  {
-  "t": "-8399-01-01",
+  "t": "-8399-01-01", "yer_id":"Aşıklı Höyük",
   "k": "kurulus",
   "b": "Aşıklı Höyük: başlar",
   "gun": "MÖ 8400 (ALT SINIR; yerlesim-suresi MÖ 8400–7350)",
@@ -251,7 +251,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "ic_not_d": "donem-toplami aralığı (MÖ 8400–8000) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «The oldest phase dates between 8400 BCE and 8000 BCE.». PPNC ve Gec PPNB 14C ile ayrilamiyor (PPND). 2012 AMS (sigir kemigi) 7607-7531 cal BCE (2σ) -> kesintisiz iskan lehine. ~6600 MO'daki genc tarih 'sapkin'. 'bit' = aseramik evre sonu (Erken Ceramik Neolitik surekliligi bu kaynakta verilmemis)."
  },
  {
-  "t": "-8499-01-01",
+  "t": "-8499-01-01", "yer_id":"Nevalı Çori",
   "k": "kurulus",
   "b": "Nevalı Çori: başlar",
   "gun": "MÖ 8500 (ALT SINIR; donem-toplami MÖ 8500–8340)",
@@ -272,7 +272,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "ic_not_d": "donem-toplami aralığı (MÖ 8500–8340) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «The earliest chronological Phase 1 centres between 8500 BC and 8340 BC.». IKI KAYNAK: Wang vd. 2023 (PNAS 120(4):e2210611120, doi 10.1073/pnas.2210611120) PPNB I ~8700-8300, II ~8300-7900, III ~7900-7500 MO verir (alinti: 'PPNB I (ca. 8700 to 8300 BC), PPNB II (ca. 8300 to 7900 BC) and PPNB III (ca. 7900 to 7500 BC)'). PPND ise 14C'den Faz1 8500-8340, Faz2 8300-8000, Faz3 7900-7600. Fark ~200 yil basta; PPND kalibre 14C esasli oldugu icin kayit PPND, Wang vd. alternatif. 14C-stratigrafi uyumu zayif (PPND notu)."
  },
  {
-  "t": "-8609-01-01",
+  "t": "-8609-01-01", "yer_id":"Jerf el-Ahmar",
   "k": "kayip",
   "b": "Cerf el-Ahmer (Jerf el Ahmar): sona erer",
   "gun": "MÖ 8610 civarı",
@@ -287,7 +287,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "ic_not_d": "TEK DEĞER MÖ 8610 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «their sum clearly points to a more recent time interval between 8800 BC and 8610 BC». Faz sirasi: 1: 9450-9240; 2: 9310-8910; 3: 8800-8610 MO; 'üç faz calisma hipotezidir' (PPND). Ana tarih araligi 9400-8600 MO. Uc tarih (Ly 2600, 2335, 10650) kalibrasyona alinmamis. Barajla sular altinda."
  },
  {
-  "t": "-8629-01-01",
+  "t": "-8629-01-01", "yer_id":"Çayönü Tepesi",
   "k": "kurulus",
   "b": "Çayönü Tepesi: başlar",
   "gun": "MÖ 8630 (ALT SINIR; donem-toplami MÖ 8630–8245)",
@@ -344,7 +344,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "ic_not_d": "donem-toplami aralığı (MÖ 8650–6750) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «PPNA 11,650–10,600 EPPNB 10,600–10,000 MPPNB 10,000–9,500 LPPNB 9,500–8,700 FPPNB (PPNC) 8,700–8,350». EPPNB 10,600-10,000 -> 8650-8050; MPPNB 10,000-9,500 -> 8050-7550; LPPNB 9,500-8,700 -> 7550-6750 MO. Kuzey (Anadolu/Firat) PPNB daha erken baslar: Nevali Cori 8500, Çayönü, Ain Ghazal 8400. Kfar HaHoresh PPND tarihleri bu cerceveden farkli."
  },
  {
-  "t": "-9449-01-01",
+  "t": "-9449-01-01", "yer_id":"Jerf el-Ahmar",
   "k": "kurulus",
   "b": "Cerf el-Ahmer (Jerf el Ahmar): başlar",
   "gun": "MÖ 9450 (ALT SINIR; donem-toplami MÖ 9450–9240)",
