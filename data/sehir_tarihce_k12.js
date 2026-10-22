@@ -3896,6 +3896,49 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Atlas 1680-01-01: kuruluş 20–28 Ocak → atlas 20–28 gün erken (düzeltme: 1680-01-28). Yıl düzeyinde çift teyit (UNESCO + Vikipedi); gün düzeyinde tek. 1281 öncesi: yok."
  },
  {
+  "id": "cordoba-arjantin",
+  "ad": "Córdoba (Arjantin)",
+  "atlas_ad": "Córdoba (Arjantin)",
+  "lat": -31.4201,
+  "lon": -64.1888,
+  "kat1900": 1,
+  "adlar": [
+   "Córdoba de la Nueva Andalucía",
+   "Quizquizacate (Sanavirón yer adı)",
+   "Córdoba"
+  ],
+  "ilk": {
+   "t": "1573-07-06",
+   "gun": "6 Temmuz 1573",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "R. P. Yanzi Ferreira, 'Universidad y Ciudad de Córdoba: más de cuatro siglos irradiando cultura', Estudios iushistóricos en homenaje al Dr. Tulio Ortiz, p. 435 (UBA Derecho), https://www.derecho.uba.ar/publicaciones/libros/pdf/estudios-iushistoricos-homenaje-ortiz/universidad.pdf (PDF metni çıkarıldı)",
+   "tanik": "6 de julio de 1573, Jerónimo Luis de Cabrera Zúñiga y Toledo fundó",
+   "ic_not": "Akademik (UNC Prorektörü, Academia Nacional de Derecho Córdoba üyesi) tek kaynak: 'Quizquizacate' (Suquía kıyısı, Sanavirón dilinde 'nehirlerin buluşması'). Haber siteleri (Perfil, La Voz de San Justo) 24 Haziran 1573 ön kuruluş denemesi ve 28 Ağustos 1573 ilk plan notları ekler — gazetecilik, kullanılmadı. SciELO/Dialnet'te bağımsız ikinci makale bulunamadı → ÇİFT TEYİT YOK. Atlas başlangıcı (1573-07-06) ile aynı."
+  },
+  "kur": {
+   "t": "1573-07-06",
+   "gun": "6 Temmuz 1573",
+   "kesinlik": "gun",
+   "kaynak": "R. P. Yanzi Ferreira, Estudios iushistóricos en homenaje al Dr. Tulio Ortiz, p. 435 (UBA Derecho)",
+   "tanik": "6 de julio de 1573, Jerónimo Luis de Cabrera Zúñiga y Toledo fundó"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1573-07-06",
+    "gun": "6 Temmuz 1573",
+    "k": "kurulus",
+    "b": "Jerónimo Luis de Cabrera, Suquía kıyısında 'Córdoba de la Nueva Andalucía' şehrini kurar.",
+    "kaynak": "R. P. Yanzi Ferreira, Estudios iushistóricos en homenaje al Dr. Tulio Ortiz, p. 435 (UBA Derecho)",
+    "tanik": "6 de julio de 1573, Jerónimo Luis de Cabrera Zúñiga y Toledo fundó"
+   }
+  ],
+  "ic_not": "1281 öncesi: yazılı tanık yok (Comechingón/Sanavirón yerel halkları, künye yok). ATLAS ÖNERİSİ yok."
+ },
+ {
   "id": "corrientes",
   "ad": "Corrientes",
   "atlas_ad": "Corrientes",
@@ -4593,6 +4636,177 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "KAYNAK: TDV Erdebil, Iranica ARDABĪL i (curl, tam Chrome UA ile açıldı), TDV Sâcoğulları/Müsâfirîler/Revvâdîler, Le Strange 1905 (Erdebil 'Azerbaycan'ın başkenti' tespiti). KURULUŞ: bulunamadı (Pîrûz geleneği ayrı). Hazar akını 112/730-31 (Iranica) ve Hürremî/Bâbek dönemi (816-838) sahipliği değiştirmeyen olay olarak yazılmadı. Atlas düzeltme: yok (1281 İlhanlı uyumlu). Atlasta Erdebil'in Osmanlı d: dönemi (1725-1730) mevcut; bu dosya ona karışmaz."
+ },
+ {
+  "id": "eski-kandehar",
+  "ad": "Eski Kandehar (Şehr-i Köhne)",
+  "atlas_ad": "Eski Kandehar (Şehr-i Köhne)",
+  "lat": 31.601,
+  "lon": 65.6597,
+  "kat1900": 2,
+  "adlar": [
+   "Kapišakaniš (tartışmalı eşleme)",
+   "Alexandria in Arachosia",
+   "Abbâdiye",
+   "Kandehar (Şehr-i Köhne / Old Kandahar)"
+  ],
+  "ilk": {
+   "t": "-0328-01-01",
+   "gun": "MÖ 329",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Livius.org, J. Lendering, 'Alexandria in Arachosia (Kandahar)', https://www.livius.org/articles/place/alexandria-in-arachosia-kandahar/ (curl ile okundu)",
+   "tanik": "founded in the last weeks of the winter of 329 by Alexander the Great",
+   "ic_not": "Livius: Büyük İskender'in kurduğu (Livius ayrıca 'refounded') Alexandria, Eski Kandehar'dır; Livius şehrin eski Ahameniş kasabası Kapisakaniš ile 'appears to be identical' olduğunu söyler. Iranica 'QANDAHAR' (ark. bölüm) ise bunu 'debated thesis of P. Bernard' diye verir → yeri kesin olmayan eşitleme, başlangıç sayılmadı. Yazılı tanık varken arkeolojik tarih ilk yapılmadı ama ark alanında. 'Winter of 329' = MÖ 329 (kış sonu) → astronomik -0328, yıl hassasiyeti. Atlas noktası Kandehar'dan ~5 km GB'da (TDV)."
+  },
+  "kur": {
+   "t": "-0328-01-01",
+   "gun": "MÖ 329",
+   "kesinlik": "yil",
+   "kaynak": "Livius.org, 'Alexandria in Arachosia (Kandahar)'",
+   "tanik": "founded in the last weeks of the winter of 329 by Alexander the Great"
+  },
+  "ark": {
+   "t": "-0699-01-01",
+   "gun": "MÖ 700",
+   "kesinlik": "belirsiz",
+   "kaynak": "Encyclopaedia Iranica, 'QANDAHAR' (yazar/başlık ayrıntısı sayfadan çıkarılmadı), https://www.iranicaonline.org/?p=10228 — Helms 1997, pp. 90-92 atfıyla",
+   "tanik": "evidence was found that a settlement had existed there since ca. 700 BCE"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0328-01-01",
+    "t": "-0322-01-01",
+    "d": "iskender-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "Livius.org, 'Alexandria in Arachosia (Kandahar)'; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kandehar",
+    "ic_not": "t: Livius 'After his death in 323' (yıl; İskender'in gün düzeyindeki ölümü -0322-06-10, burada yıl hassasiyeti)."
+   },
+   {
+    "f": "-0322-01-01",
+    "t": "-0302-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Livius.org, 'Alexandria in Arachosia (Kandahar)'",
+    "ic_not": "Livius 'controled by several of his Successors' (Diadokhlar, adsız). Seleukos'un önceki fiilî kontrolü ima edilir ('Seleucus ... gave it') ama Livius adlandırmaz. Iranica 'Arachosia' maddesi bu devri (Seleukos→Çandragupta devri) Daffinà'ya dayanarak REDDEDER (arama özetinden; sayfa tam okunmadı) — Iranica'nın Aşoka/Hindistan maddeleri ise 305/304 BC verir; çelişki beyan, dönem sahibi BOŞLUK."
+   },
+   {
+    "f": "-0302-01-01",
+    "t": "-0257-01-01",
+    "d": "maurya",
+    "kesinlik": "yil",
+    "kaynak": "Livius.org, 'Alexandria in Arachosia (Kandahar)'; Encyclopaedia Iranica 'QANDAHAR' (Aşoka'nın Yunanca-Aramice fermanı, 1958)",
+    "ic_not": "f: Livius '303' (Seleukos devri; bkz. yukarıdaki çelişki). t: 'en geç tanık' = MÖ 258 Aşoka fermanları (Livius); Iranica fermanı 'locally made summary' diye, Aşoka'nın yönetimini 'at least in name' (yerel valilerin tanımasıyla) olarak değerlendirir. Maurya künyesi MÖ 184'e kadardır, ama sonrasına tanık yok."
+   },
+   {
+    "f": "-0257-01-01",
+    "t": "0861-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Livius.org (Saka, Part, Kuşan, geç Sasani devirleri 'remained important', sahiplik yok); Iranica 'QANDAHAR' (Kuşan dönemi surları, Sasani Ardeşir-II.Hüsrev sikkeleri); TDV Kandehar",
+    "ic_not": "Bu 1100 yıllık dilimde sahip bu oturumda KAYNAKLA bağlanamadı: Livius 'captured by the Sacae', 'important during the Parthian, Kushan and Late Sasanian age' (tarihsiz); Iranica sikke dökümü Part/Hint-Part/Kuşan/Sasani sikkelerini sayar (sikke bulunuşu = hâkimiyet tanığı DEĞİL). TDV: Emevî (Abbâd b. Ziyâd) 60/680 [?] fethi — şehir 'elden çıkacak' der, kısa ele geçirme, dönem AÇILMADI. İleride Kidarit/Eftalit/Kuşano-Sasani/Zunbîl hanedanı için ayrı araştırma gerekir (künyeler DEVLETLER listesinde var: kusan, kusan-sasani, sasani, eftalit, kidarit)."
+   },
+   {
+    "f": "0861-01-01",
+    "t": "0963-01-01",
+    "d": "saffari",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kandehar",
+    "ic_not": "TDV 'IX. yüzyılda Saffârîler’in' der (gün yok). f = Saffârî künyesinin başı (861), IX. yy ile uyumlu, BEYANLI YAKLAŞIKLIK. t: Gazneli X. yy tanığının künye başına (963) konuldu."
+   },
+   {
+    "f": "0963-01-01",
+    "t": "1186-01-01",
+    "d": "gazneli",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kandehar",
+    "ic_not": "TDV 'X. yüzyılda Gazneliler’in hâkimiyetine giren' der; f = künye başı, t = künye sonu (1186) — TDV Kandehar Gurlu/Hârizmşah/Selçuklu hâkimiyeti hakkında HİÇBİR şey söylemez; bitişi künye ömrüne dayanır (beyanlı)."
+   },
+   {
+    "f": "1186-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kandehar",
+    "ic_not": "TDV 'XIII. yüzyılda Moğol saldırısına uğrayan' der; saldırı = sahiplik DEĞİL. Gurlu/Hârizmşah/Moğol dönemleri Kandehar için kaynakta yok → boşluk. Dikiş: TDV '680’de (1281) ... Şemseddin Kert’in eline geçti'."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0328-01-01",
+    "gun": "MÖ 329",
+    "k": "kurulus",
+    "b": "Büyük İskender Arakosya'da Alexandria'yı kurar (eski Ahameniş kentinin üzerinde).",
+    "kaynak": "Livius.org, J. Lendering, 'Alexandria in Arachosia (Kandahar)'",
+    "tanik": "founded in the last weeks of the winter of 329 by Alexander the Great"
+   },
+   {
+    "t": "-0322-01-01",
+    "gun": "MÖ 323",
+    "k": "taht",
+    "b": "İskender'in ölümü; kent Diadokhlar arasında el değiştirir.",
+    "kaynak": "Livius.org, 'Alexandria in Arachosia (Kandahar)'",
+    "tanik": "After his death in 323, Kandahar was controled by several of his Successors"
+   },
+   {
+    "t": "-0302-01-01",
+    "gun": "MÖ 303",
+    "k": "antlasma",
+    "b": "Seleukos I Nikator kenti Çandragupta Maurya'ya bırakır (500 fil karşılığı) — Iranica 'Arachosia' maddesi bu devri reddeder; çelişki sahip[1].ic_not'ta.",
+    "kaynak": "Livius.org, 'Alexandria in Arachosia (Kandahar)'",
+    "tanik": "until in 303, Seleucus I Nicator gave it to Chandragupta Maurya"
+   },
+   {
+    "t": "-0257-01-01",
+    "gun": "MÖ 258",
+    "k": "diger",
+    "b": "Aşoka'nın iki kaya fermanı (biri Yunanca, biri Yunanca-Aramice) kentte dikilir — son Maurya tanığı.",
+    "kaynak": "Livius.org, 'Alexandria in Arachosia (Kandahar)'",
+    "tanik": "The city still belonged to the Mauryan Empire in 258 BCE"
+   },
+   {
+    "t": "0680-01-01",
+    "gun": "60 H / 680",
+    "k": "fetih",
+    "b": "Emevî komutanı Abbâd b. Ziyâd çetin savaşla Kandehar'ı ele geçirir (TDV soru işaretli: '[?]'); şehir sonra elden çıkar — dönem açılmadı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kandehar (Özcan); hicrî 60 ∩ 680 = 680-01-01 (tablo takvimi, Jülyen)",
+    "tanik": "burayı Abbâd b. Ziyâd kumandasında çetin bir savaş vererek ele geçirmişlerdir (60/680 [?])"
+   },
+   {
+    "t": "0861-01-01",
+    "gun": "9. yüzyıl",
+    "k": "diger",
+    "b": "Saffârîler Kandehar'a hâkim (TDV yalnız yüzyıl verir; dönem başı Saffârî künye başına konuldu).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kandehar",
+    "tanik": "IX. yüzyılda Saffârîler’in, X. yüzyılda Gazneliler’in hâkimiyetine giren"
+   },
+   {
+    "t": "0963-01-01",
+    "gun": "10. yüzyıl",
+    "k": "diger",
+    "b": "Gazneliler Kandehar'a hâkim (TDV yalnız yüzyıl verir; dönem başı Gazneli künye başına konuldu).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kandehar",
+    "tanik": "IX. yüzyılda Saffârîler’in, X. yüzyılda Gazneliler’in hâkimiyetine giren"
+   },
+   {
+    "t": "1186-01-01",
+    "gun": "1186",
+    "k": "kayip",
+    "b": "Gazneli künyesinin sonu (1186); dönem buraya kadar kısaltıldı — Kandehar için doğrudan tanık YOK.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazne ('Gazneliler zamanında yaşadı (963-1186)'); künye ömrü",
+    "tanik": "Gazneliler zamanında yaşadı (963-1186)"
+   },
+   {
+    "t": "1281-01-01",
+    "gun": "680 H / 1281",
+    "k": "fetih",
+    "b": "Kandehar, İlhanlı vasalı Herat hâkimi Şemseddin Kert'in eline geçer. (Hicrî 680, 1281'de ~Nisan'da başlar; atlasın 1281-01-01 çapası yıl hassasiyetidir.)",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kandehar",
+    "tanik": "680’de (1281) İlhanlılar’ın vasalı Herat hâkimi Şemseddin Kert’in eline geçti"
+   }
+  ],
+  "ic_not": "Eski Kandehar = TDV 'Köhne Şehir' (~5 km GB). Tek 'ana' sahip zinciri (Ahameniş MÖ 522/521 Kapisakaniš savaşları, Livius) yalnız tartışmalı eşlemeye dayandığı için yazılmadı. Ahameniş dönemine arkeoloji (Iranica: kale en az MÖ 6. yy, 'early Achaemenid construction'; 'important fortified town in Achaemenid times', Vogelsang) ve TDV ('Persler’in bir satraplık merkezi') işaret eder; ilk.t öne çekilmek istenirse bunlar kullanılabilir. Pleiades 59669 Anubis bot koruması nedeniyle AÇILAMADI. Bosworth EI2 'Ḳandahār' açılmadı. ATLAS ÖNERİSİ: (1) atlas 1281 başlangıcı doğru (TDV). (2) Atlas bit:1738-03-24 TDV ile uyumlu."
  },
  {
   "id": "eski-van-tuspa",
@@ -5517,6 +5731,189 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Fuzhou (atlas_ad 'Fuzhou', kat 2). ① Yer eşitlemesi: Dongye/Ye = Fuzhou rehberdeki 'yeri kesin olmayan ad eşitlemesi' kuralı gereği başlangıç sayılmadı; ilk = 196 (Houguan). Chunxi Sanshan zhi 1 (1182) Ye'nin başkent olduğu Ouye tepesi için 'Fuzhou' der — yerel gazete, Song çağı; Hanshu 28 Kuaiji komutanlığı ilçeleri arasında '冶' (Ye) ilçesi var, ama Sanshan zhi bunu Linhai/Zhang'an bölgesine bağlar, Fuzhou'ya değil. ② Min-Chengcun tartışması (Chongan, Wuyishan) ve Fuzhou Yeshan/Xindian kazıları: akademik makale bu oturumda bulunamadı (OpenAlex/Crossref boş) — 'bulunamadı'. ③ 896-1276 arası: Fuzhou-spesifik tanıklar: 725 ad, 892 Wang Chao, 944-947 Min çöküşü, 978 Song, 1276 Yuan; hepsi birincil Çince kaynaklardan (zh.wikisource). ④ Dönem uçları çoğu merkezî tahta çıkış günü (Çin takviminden Sinica sinocal ile Jülyen'e çevrilmiş); Fuzhou'ya özgü teslim günü bulunamadığı yerler her dönemde ic_not'ta beyan. ⑤ Künye aşımı uyarıları: sun-wu (f 222), dogu-jin (t 420-01-01 < 420-07-10), dogu-han (t 220-01-01 < 220-11-25), min-krallik (f 909 → 892 GENİŞLET), wuyue (t 978-01-01 < 978-06-11). ⑥ ATLAS: atlas Fuzhou'yu 1281-01-01'de (yuan-hanedani) başlatıyor; şehir 196'dan beri kaynaklı. Atlas başlangıcı dikişte uyuşuyor (zincir 1281-01-01'de yuan'da bitiyor)."
+ },
+ {
+  "id": "gazne",
+  "ad": "Gazne",
+  "atlas_ad": "Gazne",
+  "lat": 33.551,
+  "lon": 68.423,
+  "kat1900": 2,
+  "adlar": [
+   "Ho-si-na (Çin: Hsüan Tsang)",
+   "Genzek",
+   "Gaznîn",
+   "Gazne (Ghazna, Ghazni)"
+  ],
+  "ilk": {
+   "t": "0629-01-01",
+   "gun": "629",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Encyclopaedia Iranica, X. de Planhol, 'ḠAZNĪ i. HISTORICAL GEOGRAPHY', X/4 (2000), pp. 384-388, https://www.iranicaonline.org/articles/%e1%b8%a1azni-i-historical-geography/ (curl ile okundu)",
+   "tanik": "clearly identifiable with the Ho-si-na where the Chinese pilgrim Hsüan Tsang stopped in 629",
+   "ic_not": "Iranica: Ptolemaios VI.18.4 'Gázaca/Gāzaca' ile eşleme yalnız 'perhaps' → başlangıç sayılmadı; Hsüan Tsang'ın Ho-si-na'sı ise 'at any rate clearly identifiable' (Beal II, 283). Kuruluş: TDV (Nukçu, 'GAZNE') yalnız 'arkeolojik kazılardan anlaşıldığına göre milâttan önce kurulmuştur' der (yıl yok) → kur YAZILMADI, ark da tarihsiz olduğundan yazılmadı. Tepe Sardar'daki Kuşan (Kanişka) kitabesi Archnet'in ikinci el notundan biliniyor, birincil metin açılmadı → kullanılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0629-01-01",
+    "t": "0901-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazne (Nukçu); Iranica Ḡaznī i",
+    "ic_not": "Şehir var (Hsüan Tsang 629; TDV: VIII. yy başında Huei-ch'ao şehrin 'Sha-Tarkan adlı bir Türk tarafından yönetildiğini' söyler; IX. yy'da Saffârî nüfuzu 'Gazne kapılarına kadar yayıldı') ama tek bir künyeli sahip kaynakta yok: TDV 'Gazne mahallî siyasî teşekküllerce idare edildi' der. Türk Şâhî/Hindu Şâhî eşleştirmesi bu oturumda kaynakla açılmadı → yazılmadı. Bitiş 901: Sâmânî tanığının (TDV 'X. yüzyılda') en geç ucu değil, yüzyıl başı — beyanlı yaklaşıklık."
+   },
+   {
+    "f": "0901-01-01",
+    "t": "0963-01-12",
+    "d": "samani",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazne (Nukçu)",
+    "ic_not": "f: TDV 'Şehrin X. yüzyılda Sâmânîler’in hâkimiyetinde bulunduğu anlaşılmaktadır' (gün yok) → yüzyıl başı 901, beyanlı. t: aynı madde, Alp Tegin 13 Zilhicce 351 (12 Ocak 963)."
+   },
+   {
+    "f": "0963-01-12",
+    "t": "1173-01-01",
+    "d": "gazneli",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazne; https://islamansiklopedisi.org.tr/gurlular",
+    "ic_not": "f: TDV günü verir (12 Ocak 963). Çelişki: Iranica Alptigin'in kuşatma/ele geçirmesini '966 (in fact 961)' verir → TDV esas, EIr farkı burada beyan. t: TDV Gurlular '1173’te Gazne’yi aldıktan sonra'. Kesintiler dönem AÇILMADI (süre/gün yok): Sencer 1117 ve 1135 'istilâ' (TDV); Gur Alâeddin Hüseyin 545/1150-51 yıkımı (TDV; EIr 1151) — EIr 'the return of the last Ghaznavids brought a degree of renewal' der, yani Gazneliler döndü; 'bir ara Oğuzlar’ın eline geçti' (TDV, tarihsiz) ve Gur Gıyâseddin'in 'Gazne bölgesindeki Oğuz Türkleri'ne' saldırtması (TDV Gurlular) 1173 öncesi Oğuz tutuşunu gösterir, gün yok. Gazneli künyesi 1186'da biter, dönem ondan önce kesildi (Gur fethi)."
+   },
+   {
+    "f": "1173-01-01",
+    "t": "1215-01-01",
+    "d": "gurlu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurlular (Gazne'yi 1173); https://islamansiklopedisi.org.tr/harizmsahlar (1215)",
+    "ic_not": "Gün yok (yıl): TDV Gurlular '1173’te Gazne’yi aldıktan sonra buranın idaresini ... kardeşi Muizzüddin Muhammed’e bıraktı'; TDV Gazne: Muizzüddin Gazne'yi başşehir yaptı."
+   },
+   {
+    "f": "1215-01-01",
+    "t": "1221-11-26",
+    "d": "harizmsah",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizmsahlar; https://islamansiklopedisi.org.tr/gazne",
+    "ic_not": "f: TDV Hârizmşahlar '(1215) Aynı yıl Gazne’yi aldı' (gün yok). t: 'en geç' sınır — Celâleddin Mart 1221'de Gazne'ye gelir; Moğol baskısıyla 9 Şevval 618 / 26 Kasım 1221'de Hindistan'a geçer (TDV Hârizmşahlar). Gazne'nin yıkıldığı gün TDV'de yok ('1221’de'); gerçek el değiştirme 1221 içinde bu sınırdan önce olabilir."
+   },
+   {
+    "f": "1221-11-26",
+    "t": "1227-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazne (Moğol istilâsı 1221; 'Kısa süren Moğol fırtınası')",
+    "ic_not": "t = Çağatay künyesinin başlangıcı (1227-01-01): TDV sırayı verir ('Kısa süren Moğol fırtınasından sonra ... Ardından Çağataylılar yöreye hâkim oldular') ama yıl vermez → künye f'ine konuldu, BEYANLI YAKLAŞIKLIK."
+   },
+   {
+    "f": "1227-01-01",
+    "t": "1281-01-01",
+    "d": "cagatay",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazne",
+    "ic_not": "Atlasın 1281 başlangıcı (cagatay) ile dikiş AYNI sahip. 1281'e özel tanık yok; TDV Çağatay hâkimiyetini tarihsiz verir (Kutluğ Hoca'nın akınları XIV. yy başı)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0629-01-01",
+    "gun": "629",
+    "k": "diger",
+    "b": "İlk anış: Çinli hacı Hsüan Tsang Ho-si-na'ya (Gazne) uğrar.",
+    "kaynak": "Encyclopaedia Iranica, Ḡaznī i. Historical Geography (X/4, 2000)",
+    "tanik": "clearly identifiable with the Ho-si-na where the Chinese pilgrim Hsüan Tsang stopped in 629"
+   },
+   {
+    "t": "0901-01-01",
+    "gun": "10. yüzyıl",
+    "k": "diger",
+    "b": "Gazne Sâmânî hâkimiyetinde (TDV yalnız yüzyıl verir; dönem başı yüzyıl başına konuldu).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazne",
+    "tanik": "Şehrin X. yüzyılda Sâmânîler’in hâkimiyetinde bulunduğu anlaşılmaktadır"
+   },
+   {
+    "t": "0963-01-12",
+    "gun": "12 Ocak 963",
+    "k": "fetih",
+    "b": "Sâmânî komutanı Alp Tegin Gazne'yi ele geçirir (Gazneli devletinin kurucusu).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazne (hicrî 13 Zilhicce 351 = 12 Ocak 963, TDV'nin verdiği karşılık; takvim türü belirtilmemiş, Jülyen kabul)",
+    "tanik": "Alp Tegin 13 Zilhicce 351’de (12 Ocak 963) Gazne’yi ele geçirdi"
+   },
+   {
+    "t": "0965-10-26",
+    "gun": "26 Ekim 965",
+    "k": "fetih",
+    "b": "Alp Tegin'in oğlu Ebû İshak İbrâhim, Levik hânedanından Ebû Ali'yi yenip Gazne'ye girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazne",
+    "tanik": "Gazne’ye girdi (27 Şevval 354 / 26 Ekim 965)"
+   },
+   {
+    "t": "1117-01-01",
+    "gun": "510 H / 1117",
+    "k": "isgal",
+    "b": "Selçuklu Sultanı Sencer Gazne'yi istilâ eder (ilk).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazne",
+    "tanik": "Sencer 510 (1117) ve 529 (1135) yıllarında Gazne’yi iki defa istilâ etti"
+   },
+   {
+    "t": "1135-01-01",
+    "gun": "529 H / 1135",
+    "k": "isgal",
+    "b": "Sencer Gazne'yi ikinci kez istilâ eder.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazne",
+    "tanik": "Sencer 510 (1117) ve 529 (1135) yıllarında Gazne’yi iki defa istilâ etti"
+   },
+   {
+    "t": "1151-01-01",
+    "gun": "545 H / 1151",
+    "k": "yikim",
+    "b": "Gurlu Alâeddin Hüseyin Gazne'yi yakıp yıkar ('Cihansûz'). ÇİFT TEYİT: TDV (545/1150-51) ∩ Iranica (1151).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazne; Iranica, Ḡaznī i Historical Geography (X/4)",
+    "tanik": "Gazne’ye hücum ederek şehri baştan başa yakıp yıktı (545/1150-51)"
+   },
+   {
+    "t": "1173-01-01",
+    "gun": "1173",
+    "k": "fetih",
+    "b": "Gurlu Gıyâseddin Gazne'yi alır, kardeşi Muizzüddin Muhammed'e bırakır; Gazne Gurlu başşehri olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gurlular",
+    "tanik": "1173’te Gazne’yi aldıktan sonra buranın idaresini sultan unvanını verdiği kardeşi"
+   },
+   {
+    "t": "1215-01-01",
+    "gun": "1215",
+    "k": "fetih",
+    "b": "Hârizmşah Alâeddin Muhammed Gazne'yi alıp oğlu Celâleddin'e verir.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizmsahlar",
+    "tanik": "Aynı yıl Gazne’yi aldı ve oğlu Celâleddin’e verdi"
+   },
+   {
+    "t": "1221-11-26",
+    "gun": "26 Kasım 1221",
+    "k": "fetih",
+    "b": "Moğol baskısı: Celâleddin Hindistan'a çekilir; Gazne Moğol eline geçer ve büyük yıkım görür (yıkım yılı 1221).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harizmsahlar; Iranica, Ḡaznī i Historical Geography",
+    "tanik": "9 Şevval 618’de (26 Kasım 1221) Hindistan’a sığınmak zorunda kaldı"
+   },
+   {
+    "t": "1221-11-26",
+    "gun": "1221",
+    "k": "yikim",
+    "b": "Moğollar Gazne'yi yıkar.",
+    "kaynak": "Encyclopaedia Iranica, Ḡaznī i Historical Geography (X/4)",
+    "tanik": "the Mongols dealt the final blow and destroyed it again in 1221"
+   },
+   {
+    "t": "1227-01-01",
+    "gun": "1227",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → Çağatay (TDV sırayı verir, yıl vermez; tarih Çağatay künyesinin başı).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/gazne",
+    "tanik": "Ardından Çağataylılar yöreye hâkim oldular"
+   }
+  ],
+  "ic_not": "Kaynaklar: TDV 'Gazne' (Nukçu), TDV 'Gurlular', TDV 'Hârizmşahlar', Iranica Ḡaznī i (de Planhol) — hepsi curl ile okundu. AÇILAMAYAN: Iranica 'GHAZNAVIDS' makalesi 90K'lık sayfa olarak geldi ama kent bilgisi çıkarılmadı; Bosworth 'The Ghaznavids' (archive.org) bu oturumda açılmadı; Farsça kaynak (Beyhakî, Tabakât-ı Nâsırî) açılmadı. ATLAS ÖNERİLERİ: (1) Atlas 1281-1370 'cagatay' başlangıcı kaynaksız; TDV Çağatay'ı sıralı ama tarihsiz verir. (2) TDV Gazne metni 'Moğollar Ögedey Han kumandasında Gazne önlerine geldiler' der (1221); komutan adı bağımsız kaynakla doğrulanmadı. (3) TDV 'Gazne Yıkıldı 1150-51' ile Gazneli dönemi devam eder (EIr 'return of last Ghaznavids')."
  },
  {
   "id": "granada",
@@ -7257,6 +7654,83 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas 1281-1569 'polonya-erken' diyor; TDV Polonya'ya katılışı 1430 verir (öncesi Litvanya, XIV. yy). Podolya 1362 Mavi Sular sonrası Litvanya'ya geçer, öncesi Altın Orda (ikincil, Vikipedi-türü kaynak — kullanılmadı, tek dayanak olamaz). Kaynak sırası: TDV, ESBE okundu; İSAM/TTK/DergiPark ve Ukrayna akademik kaynakları (Encyclopedia of Ukraine siteyi açmadı) bu oturumda yetersiz."
+ },
+ {
+  "id": "karakurum",
+  "ad": "Karakurum",
+  "atlas_ad": "Karakurum",
+  "lat": 47.198,
+  "lon": 102.833,
+  "kat1900": 1,
+  "adlar": [
+   "Karakorum (Harhorin / Kharkhorin)",
+   "Ordubalık (Moğol başşehri resmî adı, TDV)",
+   "Hanbalık (TDV 'Balık' maddesi)",
+   "Karakurum"
+  ],
+  "ilk": {
+   "t": "1220-01-01",
+   "gun": "1220",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, O. G. Özgüdenli, 'KARAKORUM', https://islamansiklopedisi.org.tr/karakorum (curl ile okundu)",
+   "tanik": "Cengiz Han tarafından 1220’de Orhon nehrinin sağ kıyısında ilk şehrin güneyinde kurulmuştur",
+   "ic_not": "ÇELİŞKİ/NÜANS: Alman Arkeoloji Enstitüsü (DAI) proje sayfası, 1346 tarihli Erdene Zuu çift dilli kitabesinin 1220'yi kuruluş tarihi ilan ettiğini, ama bilimin bu tarihi Cengiz Han'ın Orhon vadisinde kamp kurmasına, KALICI şehrin kuruluşunu ise Ögedey'e atfettiğini yazar (https://dainst.org/forschung/projekte/noslug/4623). TDV 1220'yi 'kurulmuştur' diye verir, inşa tamamlanması 1234, surlar ve saray 1235 (TDV); Yuan Shi 1235'te 'Helin (Karakorum) şehri kuruldu, Wan'an sarayı yapıldı' der. Esas TDV (1220). ESKİ KENT UYARISI: TDV, adı aynı olan Uygur Karakurum'u (Bögü Kağan 759-779, Ordubalık, Orhon sol kıyısı) ayrı şehir olarak anlatır ('ilk şehrin güneyinde') — ayrı kayıt olarak önerilir (mesafe ölçülmedi)."
+  },
+  "kur": {
+   "t": "1220-01-01",
+   "gun": "1220",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karakorum",
+   "tanik": "Cengiz Han tarafından 1220’de Orhon nehrinin sağ kıyısında ilk şehrin güneyinde kurulmuştur"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1220-01-01",
+    "t": "1260-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karakorum; Yuan Shi juan 2 https://zh.wikisource.org/wiki/元史/卷002",
+    "ic_not": "TDV: Karakorum 'Moğol İmparatorluğu’nun başşehri' (Ögedey, Mengü). t: Kubilay (1260-1294) başkenti Şangdu/Hanbalık'a taşır (TDV); Mogol (bölünmemiş) künyesi 1260'ta biter. Arık Böke'nin (kısa) Karakorum'a hâkim olması ve geri alınması TDV'de tarihsiz → dönem açılmadı."
+   },
+   {
+    "f": "1260-01-01",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karakorum",
+    "ic_not": "TDV: Kubilay döneminde Karakorum 'Moğol valilerinin idare merkezi'; 1277'de bir ara Kaydu'nun egemenliğine girdi (tarihsiz süre, dönem açılmadı). Atlasın 1281 başlangıcı (yuan-hanedani) ile AYNI sahip."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1220-01-01",
+    "gun": "1220",
+    "k": "kurulus",
+    "b": "Cengiz Han Orhon'un sağ kıyısında Karakorum'u kurar (DAI: kamp; kalıcı şehir 1235).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karakorum; DAI https://dainst.org/forschung/projekte/noslug/4623",
+    "tanik": "proclaims 1220 as the foundation date of Karakorum"
+   },
+   {
+    "t": "1235-01-01",
+    "gun": "1235",
+    "k": "kurulus",
+    "b": "Ögedey Karakorum'u surlarla çevirir ve sarayını yaptırır (inşa 1234'te tamamlanmıştı). ÇİFT TEYİT: TDV + Yuan Shi (1235).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karakorum; Yuan Shi juan 2 (Taizong 7. yıl, 乙未) https://zh.wikisource.org/wiki/元史/卷002",
+    "tanik": "七年乙未春，城和林，作萬安宮"
+   },
+   {
+    "t": "1260-01-01",
+    "gun": "1260",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → Yuan; Kubilay başkenti Şangdu/Hanbalık'a nakleder, Karakorum valilik merkezi olur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karakorum",
+    "tanik": "Kubilay Han (1260-1294) Moğol İmparatorluğu’nun başkentini Şangdu/Hanbalık"
+   }
+  ],
+  "ic_not": "ATLAS ÖNERİSİ: atlas bit:1380 — TDV: 1368'den sonra Biligtü Kağan Karakorum'u yeniden başşehir yaptı, 1388'de Ming ordusu yağmaladı (Ksuda), XVI. yy'da Mengü Dayan Han bir kez daha başkent yaptı → 1380 'terk' iddiasıyla çelişir; bu dosya 1281 sonrasına karışmaz. Bonn/Moğol kazıları (Bemmann-Pohl 2000-2004; Kiselev 1948-49) TDV'de anılır, birincil kazı raporu açılmadı."
  },
  {
   "id": "karsi",
@@ -9870,6 +10344,58 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas 1281'de harita anahtarı 'mantua' (künye mantua 1328-01-01'de başlar) yazıyor; gerçek sahip bonacolsi (künye 1273-1328, harita anahtarı 'bonacolsi'). Atlasın 1281 'mantua' iddiası künyeyle uyumsuz (hayalet): önerilen düzeltme atlas dönemini 'bonacolsi' yapmak. 1281 tarihli ayrı olay YOK.",
   "ic_not": "Atlas Mantova 1281'de 'mantua' ile başlıyor (bkz. dikis_beyan). EI ile Treccani çelişkisi: Longobard fethi Treccani 'dal 601', EI 'presa, perduta e ripresa' (tarihsiz) — Treccani yılı alındı. Çift teyit YOK (Treccani online + EI aynı kurum)."
+ },
+ {
+  "id": "mendoza",
+  "ad": "Mendoza",
+  "atlas_ad": "Mendoza",
+  "lat": -32.8908,
+  "lon": -68.8272,
+  "kat1900": 1,
+  "adlar": [
+   "Ciudad de Mendoza del Nuevo Valle de La Rioja",
+   "Ciudad de la Resurrección (Jufré, 1562)",
+   "Güentota / Huentata (Huarpe vadi adı)",
+   "Mendoza"
+  ],
+  "ilk": {
+   "t": "1561-03-02",
+   "gun": "2 Mart 1561",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "Vikipedi (es) 'Ciudad de Mendoza', https://es.wikipedia.org/wiki/Ciudad_de_Mendoza (bilgi kutusu, curl ile okundu) — TEK DAYANAK: akademik teyit bulunamadı",
+   "tanik": "2 de marzo de 1561, (465 años, 7 meses y 18 días), (por Pedro del Castillo )",
+   "ic_not": "TEK DAYANAK (Vikipedi). Haber siteleri (Los Andes, Sitio Andino, Diario de Cuyo) ve EcuRed aynı tarihleri verir (gazetecilik/derleme, kullanılmadı). Akademik arama: UNCuyo Revista de Historia Americana y Argentina 51/2 (2016) S. Cirvini'nin C. Raffa 'Plazas fundacionales' kitap incelemesi iki kurucu plazayı (Pedro del Castillo / Independencia) anlatır ama kuruluş tarihini içermez; UNCuyo CHA n.27 ve FADU-UBA 'Cabildo_Mendoza' PDF'leri metin olarak OKUNAMADI (şifreli/korumalı). YER: 1561 kuruluşu Media Luna (Guaymallén) civarında (haber kaynakları); Jufré 28 Mart 1562'de ~100 m batıya 'Ciudad de la Resurrección' olarak taşır (plaza Pedro del Castillo); bugünkü merkez 1861 depreminden sonra GD'ya kaydı. Atlas noktası bugünkü merkez; 1561/1562 yerleri bunun ≤3 km içinde mi ÖLÇÜLMEDİ."
+  },
+  "kur": {
+   "t": "1561-03-02",
+   "gun": "2 Mart 1561",
+   "kesinlik": "gun",
+   "kaynak": "Vikipedi (es) 'Ciudad de Mendoza', bilgi kutusu — TEK DAYANAK",
+   "tanik": "2 de marzo de 1561, (465 años, 7 meses y 18 días), (por Pedro del Castillo )"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1561-03-02",
+    "gun": "2 Mart 1561",
+    "k": "kurulus",
+    "b": "Pedro del Castillo Mendoza'yı kurar (Ciudad de Mendoza del Nuevo Valle de La Rioja).",
+    "kaynak": "Vikipedi (es) 'Ciudad de Mendoza', bilgi kutusu — TEK DAYANAK",
+    "tanik": "2 de marzo de 1561, (465 años, 7 meses y 18 días), (por Pedro del Castillo )"
+   },
+   {
+    "t": "1562-03-28",
+    "gun": "28 Mart 1562",
+    "k": "idari",
+    "b": "Juan Jufré şehri taşır ve yeniden kurar ('Ciudad de la Resurrección').",
+    "kaynak": "Vikipedi (es) 'Ciudad de Mendoza', bilgi kutusu — TEK DAYANAK",
+    "tanik": "28 de marzo de 1562, 464 años, 6 meses y 23 días. (por Juan Jufré )"
+   }
+  ],
+  "ic_not": "1281 öncesi: yazılı tanık yok (Huarpe halkı, künye yok). Tarihlerin Vikipedi dışı akademik teyidi yapılamadı. ATLAS ÖNERİSİ yok; 1562 taşınması atlas kuruluşunu etkilemez (yer ≤ birkaç km varsayımı ölçülmedi)."
  },
  {
   "id": "meraga",
@@ -12860,6 +13386,66 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Çift teyit: kuruluş 183 (Treccani + Livius). TDV 'Parma' maddesi yok (arama 579 içerik / 4 başlık: Parma ile ilgili madde yok). EI 'Parma' (1935) ayrıca açılmadı; Treccani online yeterli. Zincirde Bizans/Longobard/Frank geçişleri İtalya genel çerçevesidir (beyanlı)."
  },
  {
+  "id": "pekin",
+  "ad": "Pekin (Hanbalık)",
+  "atlas_ad": "Pekin (Hanbalık)",
+  "lat": 39.904,
+  "lon": 116.407,
+  "kat1900": 1,
+  "adlar": [
+   "Dadu (Ta-tu, 大都)",
+   "Hanbalık (Hanbalıg)",
+   "Pekin (Beiping/Beijing)"
+  ],
+  "ilk": {
+   "t": "1267-01-01",
+   "gun": "Zhiyuan 4 / 1267",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Yuan Shi (元史) juan 58 Dili zhi, 'Dadu lu': https://zh.wikisource.org/wiki/元史/卷058 (curl ile okundu, neşredilmiş birincil kaynak)",
+   "tanik": "四年，始於中都之東北置今城而遷都焉",
+   "ic_not": "Yuan Shi juan 58: 'Shizu Zhiyuan 1 (1264) ... Zhongdu adı verildi; 4. yılda (Zhiyuan 4 = 1267) Zhongdu'nun KUZEYDOĞUSUNDA bugünkü şehir kuruldu, başkent oraya taşındı'. Aynı eserde juan 6, Zhiyuan 4 yılında 'Dadu kenti inşa edilir' (城大都) ve juan 7, Zhiyuan 9 (1272) yılında 'Zhongdu'nun adı Dadu yapıldı' (改中都為大都). Üç yer aynı kaynak (Yuan Shi) → ÇİFT TEYİT DEĞİL (bağımsız ikinci kaynak bulunamadı). ESKİ KENT UYARISI (Emre kuralı, antik yer >3 km): Ji kenti (Zhou), Yan, Liao Nanjing/Yanjing ve Jin Zhongdu daha batıda/güneybatıda (Guang'anmen çevresi) idi; Yuan Shi bu ayrımı kendisi yazar ('Zhongdu'nun kuzeydoğusu'). Atlas noktası = Dadu. Eski kentler AYRI kayıt olarak önerilir: Ji (Shiji 4: Zhou Wu Wang 'Yao'nun soyundan gelenleri Ji'de beyleştirdi', https://zh.wikisource.org/wiki/史記/卷004: 「帝堯之後於薊」; tarih/konum doğrulaması yapılmadı), Yan başkenti (Liulihe ~ BP'de 40+ km GB — haber kaynaklarından, ölçülmedi). Mesafeler bu oturumda ölçülmedi, ÖLÇÜLEMEDİ."
+  },
+  "kur": {
+   "t": "1267-01-01",
+   "gun": "Zhiyuan 4 / 1267",
+   "kesinlik": "yil",
+   "kaynak": "Yuan Shi juan 58 Dili zhi, https://zh.wikisource.org/wiki/元史/卷058",
+   "tanik": "四年，始於中都之東北置今城而遷都焉"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1267-01-01",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Yuan Shi juan 58 Dili zhi, https://zh.wikisource.org/wiki/元史/卷058; juan 6/7",
+    "ic_not": "Yuan künyesi 1260'ta başlar; Dadu Yuan'ın kurduğu kenttir. Atlasın 1281 başlangıcı (yuan-hanedani) ile AYNI sahip → dikişte olay gerekmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1267-01-01",
+    "gun": "Zhiyuan 4 / 1267",
+    "k": "kurulus",
+    "b": "Kubilay Dadu şehrini Zhongdu'nun kuzeydoğusunda inşa ettirir ve başkenti taşır.",
+    "kaynak": "Yuan Shi juan 6 (Shizu 3), https://zh.wikisource.org/wiki/元史/卷006; juan 58",
+    "tanik": "城大都"
+   },
+   {
+    "t": "1272-01-01",
+    "gun": "Zhiyuan 9 / 1272",
+    "k": "idari",
+    "b": "Zhongdu'nun adı Dadu (Hanbalık) yapılır.",
+    "kaynak": "Yuan Shi juan 7 (Shizu 4), https://zh.wikisource.org/wiki/元史/卷007 (二月 Zhiyuan 9; Zhiyuan 8 sonu yeni ülke adı Yuan'dan sonra)",
+    "tanik": "改中都為大都"
+   }
+  ],
+  "ic_not": "TDV'de 'Pekin' maddesi YOK (islamansiklopedisi.org.tr/pekin boş arama listesi verir); TDV 'BALIK' maddesi Karakorum ve Pekin'in 'Hanbalık' adıyla tanındığını söyler (kuruluş tarihi yok). Britannica/Iranica açılmadı. Atlas başlangıcı 1281 (global başlangıç) — şehir 1267'de kurulur, atlas başlangıcı değişmez, ama atlas Pekin noktasının 1281 öncesi 14 yıl daha olduğu not edilir."
+ },
+ {
   "id": "pisa",
   "ad": "Pisa",
   "atlas_ad": "Pisa",
@@ -13668,6 +14254,57 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Atlas Santa Fe (Arjantin) 1573-11-15 iddiası bugünkü NOKTA için yanlış (Cayastá 1573). Düzeltme: nokta 1660'tan; 1573–1660 Cayastá kaydı. Kaynak yalnız Vikipedi. 1281 öncesi: yok."
+ },
+ {
+  "id": "santiago-sili",
+  "ad": "Santiago (Şili)",
+  "atlas_ad": "Santiago (Şili)",
+  "lat": -33.4489,
+  "lon": -70.6693,
+  "kat1900": 2,
+  "adlar": [
+   "Santiago de la Nueva Extremadura",
+   "Santiago del Nuevo Extremo",
+   "Santiago"
+  ],
+  "ilk": {
+   "t": "1541-02-12",
+   "gun": "12 Şubat 1541",
+   "nicelik": "kurulus",
+   "kesinlik": "gun",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), 'El preludio urbano de la Colonia en Chile, 1541-1552', https://www.memoriachilena.gob.cl/602/w3-article-634.html (curl ile okundu)",
+   "tanik": "El 12 de febrero de 1541 Pedro de Valdivia escogió asentarse en el valle",
+   "ic_not": "Memoria Chilena fundación tarihini 12 Şubat 1541 olarak verir ('escogió asentarse' = yerleşmeyi seçti; sayfa 'La fundación de Santiago' başlığı altında). Ulusal akademik portal; ayrıca ikinci bağımsız akademik kaynak (Dialnet/SciELO) bu oturumda açılmadı → ÇİFT TEYİT YOK. Atlas başlangıcı (1541-02-12) ile aynı. Yer: Mapocho nehrinin iki kolu arasında, Huelén (Santa Lucía) tepesi dibinde. 1281 öncesi: yazılı tanık ve devlet zinciri YOK (Picunche/Mapuche yerel topluluklar; Memoria Chilena ve La Tercera haberi bölgede İnka-öncesi/İnka dönemi yerleşimden söz eder, açılmadı)."
+  },
+  "kur": {
+   "t": "1541-02-12",
+   "gun": "12 Şubat 1541",
+   "kesinlik": "gun",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), https://www.memoriachilena.gob.cl/602/w3-article-634.html",
+   "tanik": "El 12 de febrero de 1541 Pedro de Valdivia escogió asentarse en el valle"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1541-02-12",
+    "gun": "12 Şubat 1541",
+    "k": "kurulus",
+    "b": "Pedro de Valdivia Mapocho vadisinde Santiago'yu kurar.",
+    "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), https://www.memoriachilena.gob.cl/602/w3-article-634.html",
+    "tanik": "El 12 de febrero de 1541 Pedro de Valdivia escogió asentarse en el valle"
+   },
+   {
+    "t": "1541-09-11",
+    "gun": "11 Eylül 1541",
+    "k": "yikim",
+    "b": "Kaptan Michimalonco şehri basıp yıkar (1541 yılı sonrası yeniden kurulur — atlas sahipliği sürer).",
+    "kaynak": "Memoria Chilena, https://www.memoriachilena.gob.cl/602/w3-article-634.html",
+    "tanik": "El cacique Michimalonco atacó la ciudad de Santiago el 11 de septiembre de 1541"
+   }
+  ],
+  "ic_not": "Atlas Santiago 1541-02-12 'ispanyol-peru' (ilk dönem) doğru bir başlangıçtır. Santiago kuruluşuna kadar 1281'den önce hiçbir devlet zinciri yok (Güney Amerika yerel halkları, künye yok). ATLAS ÖNERİSİ yok."
  },
  {
   "id": "saray-selitrennoye",
@@ -16549,6 +17186,53 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ZİNCİR YOK (kural): ilk.t atlas başlangıcıyla (1559-01-01) aynı. ARK notu: Ahar köyü (24.587, 73.722; Vikipedi koordinatı) Udaipur noktasına ~0,9 km; Ahar–Banas kültürü tip yerleşimi — nicelik 'arkeolojik' YALNIZ yazılı tanık yokken esastır, burada yazılı (kuruluş 1559) var; ark ayrı alanda tutuldu, zayıf. Tod (Annals I, Personal Narrative) Ahar'ı 'ancient Ahar … destroyed by volcanic eruption' rivayetiyle anar (efsane, tarihsiz). Bapa/Nagda (IG: 'Nagda, a few miles north of Udaipur city') ayrı merkez. ATLAS DÜZELTME ÖNERİSİ: yok (atlas kur 1559 IG ile uyumlu; 'in or about' beyanı eklenebilir)."
  },
  {
+  "id": "urga-ulan-batur",
+  "ad": "Urga (Ulan Batur)",
+  "atlas_ad": "Urga (Ulan Batur)",
+  "lat": 47.886,
+  "lon": 106.906,
+  "kat1900": 2,
+  "adlar": [
+   "Örgöö (gezgin saray-yurt)",
+   "Ikh Khüree (Büyük Kamp) / Da Khüree",
+   "Urga",
+   "Niislel Khüree (1911)",
+   "Ulaanbaatar (1924)"
+  ],
+  "ilk": {
+   "t": "1778-01-01",
+   "gun": "1778",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Vikipedi (en) 'History of Ulaanbaatar', https://en.wikipedia.org/wiki/History_of_Ulaanbaatar (curl ile okundu) — TEK DAYANAK: akademik teyit bulunamadı; Treasury of Lives (institution/Ikh-Khuree) 403 verdi",
+   "tanik": "when it settled in 1778 at its current location",
+   "ic_not": "KURULUŞ YERİ SORUNU: şehrin 1639'da ilk kurulan hâli GEZGİN bir manastır-yurt (Örgöö) idi ve ilk yeri Shireet Tsagaan Nuur'daydı: Vikipedi 'around 230 kilometres (143 miles) south-west from the present site of Ulaanbaatar'. Bu yüzden atlas noktasındaki yerleşik şehrin başlangıcı 1778 (Vikipedi), 1639 değil. 1639: UH Press monografisi (U. Tsultemin, A Monastery on the Move, 2020, https://uhpress.hawaii.edu/title/a-monastery-on-the-move-art-and-politics-in-later-buddhist-mongolia/, curl ile okundu): Zanabazar 1639'da Jebtsundampa ilan edilir, anısına dikilen ger gezgin manastır Ikh Khüree'ye dönüşür. Aynı kitabın özeti yerleşik sabitlenme için 1855 yazar (arama özeti), Vikipedi 1778 — kaynaklar çelişir (Treasury of Lives 1778'i teyit ediyor görünüyor ama 403 nedeniyle açılamadı). İlk için güvenli uç 1778 değil, 1855 de olabilir: BEYAN. Nicelik 'kurulus' ('yerleşik şehir olarak kuruluş') Vikipedi tek dayanağı nedeniyle düşük güvenli."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1639-01-01",
+    "gun": "1639",
+    "k": "kurulus",
+    "b": "Zanabazar (Ondor Gegeen) Halha Moğollarının Jebtsundampa'sı ilan edilir; anısına dikilen yurt, gezgin manastır Ikh Khüree'nin (Urga) temeli olur — BU NOKTADA DEĞİL.",
+    "kaynak": "U. Tsultemin, A Monastery on the Move (Univ. of Hawaii Press, 2020), yayıncı tanıtımı https://uhpress.hawaii.edu/title/a-monastery-on-the-move-art-and-politics-in-later-buddhist-mongolia/",
+    "tanik": "Zanabazar (1635–1723), a young descendent of Chinggis Khaan, was proclaimed the new Jebtsundampa ruler"
+   },
+   {
+    "t": "1778-01-01",
+    "gun": "1778",
+    "k": "kurulus",
+    "b": "Gezgin şehir bugünkü yerine (Tuul vadisi, Selbe çevresi) yerleşir.",
+    "kaynak": "Vikipedi (en), https://en.wikipedia.org/wiki/History_of_Ulaanbaatar (TEK DAYANAK)",
+    "tanik": "when it settled in 1778 at its current location"
+   }
+  ],
+  "ic_not": "Atlas Urga 1639-01-01 'kuzey-yuan' ile başlıyor; kuruluş yeri atlas noktasında değil → ATLAS DÜZELTME ÖNERİSİ: başlangıcı 1778'e çek (ya da 1639-1778 arasını 'gezgin, atlas noktasında yok' diye beyan et) — zincir 1639-1778 arası bu noktada çizilmemeli; bu dosya sahip zincirini yazmaz (ilk.t atlas başlangıcından sonra). Atlas dönemleri: kuzey-yuan 1639-1691 (Halha, Tüsiyetü Han); 1691 Dolonnor andı sonrası Qing. 1281 öncesi: yok. AÇILAMAYAN: Treasury of Lives (403), gogo.mn (Moğol) yalnız arama özeti. TDV'de 'Ulan Batur' ve 'Urga' maddesi yok (arama başka maddelerde geçen 'Urga' kelimesini listeledi)."
+ },
+ {
   "id": "urmiye",
   "ad": "Urmiye",
   "atlas_ad": "Urmiye",
@@ -19156,5 +19840,226 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "KAYNAK: TDV Zencan (en ayrıntılı tek kaynak) + TDV hanedan maddeleri (Sâcoğulları, Müsâfirîler, Ziyârîler, Selçuklular, Harizmşahlar). Iranica'da Zencan maddesi yok. Kuruluş ve tüm erken zincir TDV tek-kaynaklı; Sasani öncesi bulunamadı. BEYANLI: 928-930 (Alevî/Esfâr) __BOSLUK__; 1194-1211 __BOSLUK__; 1211-1217 Alamut iktâsı (alamut-nizari künyesi ile). 'Tahiri' dönemi (III. yy ilk yarısı) tarihsiz — dönem açılmadı (tahiri-horasan künyesi var ama boyasız, tarih eksik)."
+ },
+ {
+  "id": "zerenc",
+  "ad": "Zerenc (Sîstan)",
+  "atlas_ad": "Zerenc (Sîstan)",
+  "lat": 30.9583,
+  "lon": 61.8611,
+  "kat1900": 2,
+  "adlar": [
+   "Zranka (Eski Farsça, ülke adı)",
+   "Zarang (Zaranj)",
+   "Zerenc (Zereng)",
+   "Drangiana (bölge)"
+  ],
+  "ilk": {
+   "t": "0500-01-01",
+   "gun": "5. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, O. Aydınlı, 'ZERENC', https://islamansiklopedisi.org.tr/zerenc (curl ile okundu; EI2 XI, 458 atfı)",
+   "tanik": "burada Sâsânîler’in Bizans’a karşı desteklediği Nestûrî hıristiyanlarının bir piskoposluk merkezinin bulunduğu",
+   "ic_not": "TDV: 'V ve VI. yüzyıllarda' Nestûrî piskoposluk merkezi; 'Zerenc, Sâsânîler devrinde Sîstan bölgesinin merkeziydi' ve II. Şâpûr (309-379) ile I. Kavad (488-531) sikkeleri Zerenc ve çevresinde bulunmuştur (sikke = çevrede bulunuş, kent tanığı sayılmadı). Güvenli uç: 5. yüzyılın sonu (500). ÖNEMLİ YER UYARISI: Iranica 'DRANGIANA' (Schmitt): Zranka ülke adı Bīsotūn'da (Darius) geçer, ama ortaçağ başkenti Zarang 'now the ruins of Nād ʿAlī'; Ahameniş Zranka başkenti ayrı yerde (Dahan-e Gholaman, Vikipedi/arama özeti, Iranica Gnoli maddesi açılmadı). Atlas noktası çağdaş Zaranj kasabasına denk geliyor görünüyor (ölçülmedi); ortaçağ Zarang (Nād ʿAlī harabeleri) atlas noktasından >3 km ise kural gereği bu kayıt AYRI yer olmalı — burada ölçülemedi."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": {
+   "t": "1383-01-01",
+   "gun": "1383",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc: Timur 785 (1383) şehri uzun kuşatmanın ardından ele geçirip tahrip ettirdi; sonra yeniden ihya girişimleri — atlas bit:1383 ile uyumlu, ama 'bit' kaydı 1281 sonrasıdır, bu dosya DOKUNMAZ."
+  },
+  "sahip": [
+   {
+    "f": "0500-01-01",
+    "t": "0644-01-01",
+    "d": "sasani",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc",
+    "ic_not": "TDV: 'Zerenc, Sâsânîler devrinde Sîstan bölgesinin merkeziydi ve mahallî hükümdarlar burada oturuyordu' (mahallî hükümdarlar = Sasani'ye bağlı). t: 23/644 barış antlaşması (hicrî 23 ∩ 644 = 644-01-01, tablo takvimi, Jülyen)."
+   },
+   {
+    "f": "0644-01-01",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc",
+    "ic_not": "644 antlaşması vergi karşılığı barıştı; Zerenc halkı bozunca 30/650 Rebî‘ b. Ziyâd kuşatması (hicrî 30 ∩ 650 = 650-09-04), 33/653 isyan (Abdullah b. Âmir vali, Abdurrahman b. Semüre), Hz. Ali'nin Haseke b. Attâb'ı. Dönem boyunca kısa isyanlar var; dönem AÇILMADI. t = künye sonu (Emevî'ye geçiş)."
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0750-08-05",
+    "d": "emevi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc",
+    "ic_not": "TDV: Muâviye dönemi Abdurrahman b. Semüre (46/666'ya kadar Zerenc'ten yönetir); 46/666 sonrası Kâbil şahı Rutbîl'in Zerenc'i ele geçirmesi 'Müslümanlar bu isyanı bastırdı'; 'Zerenc şehri ve Sîstan bölgesindeki karışıklıklar Abdülmelik b. Mervân döneminden (685-705) Abbâsîler’in ilk yıllarına kadar' sürdü → fiilî kontrol belirsiz, sahip Emevî valileri kabul edildi. Künye geçişi tarihi künye ömrüne dayanır."
+   },
+   {
+    "f": "0750-08-05",
+    "t": "0796-03-16",
+    "d": "abbasi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc",
+    "ic_not": "TDV: Mansûr 151/768'de Sîstan valisi atar (Ma‘n b. Zâide, Rutbîl'le savaşır, Zerencli Hâricî tarafından öldürülür). t: 180/796 Hâricî Hamza b. Abdullah Zerenc'i ele geçirir (hicrî 180 ∩ 796 = 796-03-16)."
+   },
+   {
+    "f": "0796-03-16",
+    "t": "0861-03-17",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc",
+    "ic_not": "Hâricî Hamza (796-828) Abbâsî idarecilerini uzaklaştırır; ölümünden (213/828) sonra bölge 'yıllarca Hâricîler için sığınak'; Tâhirîler (821-873) döneminde de Hâricî ayaklanmaları; İbrâhim el-Kavsî bölge valisi (tarihsiz). Zerenc'in bu dilimde tek sahibi kaynakla bağlanamadı (Hâricîler/Tâhirî/Abbâsî karışık) → BOŞLUK."
+   },
+   {
+    "f": "0861-03-17",
+    "t": "0911-01-01",
+    "d": "saffari",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc",
+    "ic_not": "f: 247/861 hicrî ∩ 861 = 861-03-17 (tablo takvimi, Jülyen). t: 298/911 ∩ 911 = 911-01-01 (hicrî 298 910-09-09..911-08-28). 913 civarı Saffârî adına Hâricî Muhammed b. Hürmüz ayaklanması 'kısa süre sonra' bastırıldı (dönem açılmadı)."
+   },
+   {
+    "f": "0911-01-01",
+    "t": "1003-01-01",
+    "d": "samani",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc",
+    "ic_not": "t: 393/1003 hicrî ∩ 1003 = 1003-01-01 (393 H = 1002-11-10..1003-10-29). Ahmed b. İsmâil ölümünden sonra Abbâsî Fars valilerinin kısa yönetimi (TDV, tarihsiz) dönem açılmadı."
+   },
+   {
+    "f": "1003-01-01",
+    "t": "1040-09-11",
+    "d": "gazneli",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc",
+    "ic_not": "t: 432/1040 hicrî ∩ 1040 = 1040-09-11 (tablo takvimi, Jülyen)."
+   },
+   {
+    "f": "1040-09-11",
+    "t": "1157-01-01",
+    "d": "buyuk-selcuklu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc",
+    "ic_not": "TDV: Mûsâ Yabgu ve çocukları yönetir; Alparslan 455 (1063) bunların yönetimine son verir (hicrî 455 ∩ 1063 = 1063-01-04); sonra 'Selçuklular’a bağlı Nasrî (Nîmrûz) melikleri' (Nasr b. Halef, Sencer'in seferlerine katılır) — Selçuklu bağımlı yerel hânedan; künye atanmamış, sahip Büyük Selçuklu kabul edildi. t = Büyük Selçuklu künye sonu (Sencer ölümü 1157); TDV bu tarihi vermez (beyanlı yaklaşıklık)."
+   },
+   {
+    "f": "1157-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc",
+    "ic_not": "TDV: 'VI. (XII.) yüzyılın ikinci yarısında Zerenc önce Gurlular, ardından Hârizmşahlar’ın hâkimiyetine girdi' (tarihsiz, sıra var); Moğol akınları 625/1228, 630/1233, 632/1235 yıkım; 'Hülâgû’dan izin alıp' Saffârî Melik Nasîrü’l-Hak şehri onarır; 'Bir süre İlhanlılar’ın hâkimiyetinde kalan Zerenc' (tarihsiz). Hiçbir geçişin yılı kaynakta yok → dönemler AÇILMADI, boşluk."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0500-01-01",
+    "gun": "5. yüzyıl",
+    "k": "diger",
+    "b": "İlk anış: Zerenc'te Nestûrî piskoposluk merkezi (Sasani dönemi).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc (EI2 XI, 458 atfı)",
+    "tanik": "burada Sâsânîler’in Bizans’a karşı desteklediği Nestûrî hıristiyanlarının bir piskoposluk merkezinin bulunduğu"
+   },
+   {
+    "t": "0644-01-01",
+    "gun": "23 H / 644",
+    "k": "antlasma",
+    "b": "Âsım b. Amr ve Abdullah b. Umeyr Zerenc'i kuşatır; vergi karşılığı barış antlaşması.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc; hicrî 23 ∩ 644 = 644-01-01 (tablo takvimi, Jülyen)",
+    "tanik": "Zerenc’i kuşatınca Zerenc halkının isteği üzerine belli miktardaki vergi karşılığında barış antlaşması yapıldı"
+   },
+   {
+    "t": "0650-09-04",
+    "gun": "30 H / 650",
+    "k": "kusatma",
+    "b": "Rebî‘ b. Ziyâd el-Hârisî Zerenc'i kuşatır, Pervîz ile anlaşır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc; hicrî 30 ∩ 650 = 650-09-04",
+    "tanik": "Rebî‘ b. Ziyâd el-Hârisî Zerenc’i kuşattı"
+   },
+   {
+    "t": "0661-07-29",
+    "gun": "29 Temmuz 661",
+    "k": "diger",
+    "b": "künye geçişi: Hulefâ-yi Râşidîn → Emevî (TDV: 'Muâviye döneminde tekrar Sîstan valiliğine getirilen Abdurrahman b. Semüre').",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc; künye ömrü",
+    "tanik": "Muâviye döneminde tekrar Sîstan valiliğine getirilen Abdurrahman b. Semüre"
+   },
+   {
+    "t": "0750-08-05",
+    "gun": "5 Ağustos 750",
+    "k": "diger",
+    "b": "künye geçişi: Emevî → Abbâsî (TDV: karışıklıklar 'Abbâsîler’in ilk yıllarına kadar').",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc; künye ömrü",
+    "tanik": "Abdülmelik b. Mervân döneminden (685-705) Abbâsîler’in ilk yıllarına kadar devam etti"
+   },
+   {
+    "t": "0796-03-16",
+    "gun": "180 H / 796",
+    "k": "isyan",
+    "b": "Hâricî Hamza b. Abdullah Zerenc'i alıp Abbâsî idarecilerini uzaklaştırır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc; hicrî 180 ∩ 796 = 796-03-16",
+    "tanik": "Hâricî Hamza b. Abdullah Zerenc’i ele geçirdi; bölgedeki Abbâsî idarecilerini uzaklaştırdı"
+   },
+   {
+    "t": "0861-03-17",
+    "gun": "247 H / 861",
+    "k": "fetih",
+    "b": "Zerenc, Ya‘kūb b. Leys es-Saffâr'ın eline geçer; Saffârîler Devleti'nin temeli burada atılır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc; hicrî 247 ∩ 861 = 861-03-17",
+    "tanik": "247 (861) yılında Zerenc, Ya‘kūb b. Leys es-Saffâr’ın eline geçti"
+   },
+   {
+    "t": "0911-01-01",
+    "gun": "298 H / 911",
+    "k": "fetih",
+    "b": "Zerenc Sâmânîler'in hâkimiyeti altına girer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc; hicrî 298 ∩ 911 = 911-01-01",
+    "tanik": "Zerenc 298’de (911) Sâmânîler’in hâkimiyeti altına girdi"
+   },
+   {
+    "t": "1003-01-01",
+    "gun": "393 H / 1003",
+    "k": "fetih",
+    "b": "Sâmânîler'in yıkılışıyla Zerenc Gaznelilerin eline geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc; hicrî 393 ∩ 1003 = 1003-01-01",
+    "tanik": "Sâmânîler’in yıkılışıyla Zerenc 393’te (1003) Gazneliler’in"
+   },
+   {
+    "t": "1040-09-11",
+    "gun": "432 H / 1040",
+    "k": "fetih",
+    "b": "Zerenc Selçukluların eline geçer.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc; hicrî 432 ∩ 1040 = 1040-09-11",
+    "tanik": "432’de (1040) Selçuklular’ın eline geçti"
+   },
+   {
+    "t": "1063-01-04",
+    "gun": "455 H / 1063",
+    "k": "diger",
+    "b": "Alparslan Mûsâ Yabgu ve çocuklarının yönetimine son verir; sonra Nasrî melikleri (Selçuklu vasalı) — sahip değişmez.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc; hicrî 455 ∩ 1063 = 1063-01-04",
+    "tanik": "Alparslan 455 (1063) yılında bunların yönetimine son verdi"
+   },
+   {
+    "t": "1157-01-01",
+    "gun": "1157",
+    "k": "diger",
+    "b": "Büyük Selçuklu künyesi biter (Sencer ölümü); sonrası Gurlu/Hârizmşah sırası tarihsiz → boşluk.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc (Nasr b. Halef 'Selçuklular’ın yıkılmasının ardından ...'); künye ömrü",
+    "tanik": "Selçuklular’ın yıkılmasının ardından bölgedeki hâkimiyet mücadelelerinde büyük rol oynamıştır"
+   },
+   {
+    "t": "1228-01-01",
+    "gun": "625 H / 1228",
+    "k": "yikim",
+    "b": "Moğollar Zerenc'e gelip halkı kılıçtan geçirir (1228, 1233, 1235 üç sefer).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zerenc; hicrî 625 ∩ 1228 = 1228-01-01 yaklaşık (hesaplanmadı, yıl düzeyi)",
+    "tanik": "625 (1228), 630 (1233) ve 632’de (1235) bölgeye gelen Moğollar neredeyse bütün halkı kılıçtan geçirip"
+   }
+  ],
+  "dikis_beyan": "Atlas 1281-01-01'de 'ilhanli' diyor; TDV Zerenc 'Bir süre İlhanlılar’ın hâkimiyetinde kalan Zerenc' der, Hülâgû devrini (1256-65) anar ama YIL VERMEZ. 1281'e özel el değiştirme tanığı aranıp bulunamadı. Zincir 1157-1281 arası boşlukla bağlandı.",
+  "ic_not": "Kaynaklar: TDV 'Zerenc' (Aydınlı), Iranica 'DRANGIANA' (Schmitt, VII/5, 1995). Iranica 'ZARANG/ZARANJ' maddeleri adres tahminiyle AÇILAMADI (404). Tahiri/Hâricî dönemi ve Gur-Hârizmşah sırası için Târîḫ-i Sîstân (Farsça) bu oturumda açılmadı. Hicrî→mîlâdî dönüşümler tabular İslam takvimi (ilk günler ±1 gün) ile hesaplandı. ATLAS ÖNERİLERİ: (1) 1281 ilhanli dikişi kaynaksız. (2) Atlas noktası ile ortaçağ Zerenc'in (Nād ʿAlī) konumu doğrulanmalı."
  }
 ];
