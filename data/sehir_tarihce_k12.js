@@ -184,6 +184,92 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "En zayıf kayıt: Gumo–Aksu eşitlemesi ve Aksu adının ilk geçişi doğrulanamadı. Öneri: Pelliot 1923 ve EI2 'Akṣū' (Barthold) açılırsa ilk anılış 'Aksu' adına çekilsin; modern Aksu'nun hemen yanında 'Kuça/Uçturfan' noktaları ayrı."
  },
  {
+  "id": "aksum",
+  "ad": "Aksum",
+  "atlas_ad": "Aksum",
+  "lat": 14.128,
+  "lon": 38.723,
+  "kat1900": 3,
+  "adlar": [
+   "Auxumites (Periplus)",
+   "Axum",
+   "Aksum"
+  ],
+  "ilk": {
+   "t": "0095-01-01",
+   "gun": "MS 95 (en geç)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Periplus of the Erythraean Sea §4 (Schoff 1912 çevirisi, archive.org cu31924030139236 djvu); tarih: Schoff, 'Date and Authorship' bölümü",
+   "tanik": "the city of the people called Auxumites there is a five days' journey",
+   "ic_not": "İLK ANILIŞ (kuruluş DEĞİL; alt sınır). Schoff: 'there is no mention of Axum in any work earlier than the Periplus'. Periplus tarihi yorumcular arasında değişir; Schoff'un ürettiği terminus ante quem: 'two dates, 90 and 95 A. D., later than which this Periplus can not have been written' → güvenli uç MS 95. künye 'aksum' f=0100 → ilk tarihi 5 yıl önce, hayalet uyarısı beklenir (künye f=0095 öneri). TDV 'Etiyopya' Aksum Krallığı'nı 'V. yüzyılda ... kuran hıristiyanlar' diye yazar — Periplus ile ÇELİŞİR (yazılı tanık 1. yy); Periplus esas alındı, çelişki beyan."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0095-01-01",
+    "t": "1000-01-01",
+    "d": "aksum",
+    "kesinlik": "yuzyil",
+    "kaynak": "Schoff 1912 giriş (Periplus §4-5: Aksum şehri ve Zoscales ülkesi); D. W. Phillipson, Foundations of an African Civilisation, 2012, bölüm 16-17 (Cambridge Core özetleri)",
+    "ic_not": "Aksum Krallığı ve 'ardıl krallık' (Doğu Tigray). Phillipson bölüm 17 özeti: 'Following the decline of Aksum's successor kingdom in eastern Tigray ... a period of fluidity is indicated' ve 'plausible to place it in or around the eleventh century' → dönem sonu 1000 yaklaşıktır (BEYANLI). Aksum başkentinde 6. yy ortasından itibaren nüfus çöküşü kaynaklı (Phillipson bölüm 16), 7. yy sonrası kral dizisi bu oturumda açılamadı (Munro-Hay PDF indirilemedi, Met essay 429)."
+   },
+   {
+    "f": "1000-01-01",
+    "t": "1137-01-01",
+    "d": "__BILINMIYOR__",
+    "kesinlik": "yuzyil",
+    "kaynak": "Phillipson 2012 bölüm 17 özeti (Cambridge Core): 'a period of fluidity is indicated'",
+    "ic_not": "Phillipson: ardıl krallığın çöküşü ya da hükümdarlarının otorite kaybı sonrası 'akışkanlık' dönemi; 'not possible to estimate with any confidence when or for how long'. Bu dilimde Aksum'un sahibi VE şehir olarak durumu kaynakta yok; hiçbir künye uydurulmadı. Aranan: TDV etiyopya/habes, Phillipson 16-17, Met essay (403/429), Munro-Hay PDF (indirilemedi)."
+   },
+   {
+    "f": "1137-01-01",
+    "t": "1270-01-01",
+    "d": "zagve",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/etiyopya (DAVUT DURSUN – LEVENT ÖZTÜRK)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: TDV Zague'yi Etiyopya Krallığı'nın hükümdarı sayar; Aksum şehrinin Lasta-merkezli Zague'ye bağlılığı bu oturumda açılan kaynakta açıkça yazılı değil (Phillipson: merkez Lasta/Adefa, Roha=Lalibela). Aksum'un taç giyme merkezi rolü açılamadı."
+   },
+   {
+    "f": "1270-01-01",
+    "t": "1281-01-01",
+    "d": "habesistan",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/etiyopya",
+    "ic_not": "TDV: Zague'den sonra Şüve'de Süleyman sülâlesi. Şehrin bu hanedana bağlılığı beyanlı yaklaşıklık (atlas dikişiyle uyumlu)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0095-01-01",
+    "gun": "MS 95 (en geç)",
+    "k": "diger",
+    "b": "Periplus Aksum şehrini ('Auxumites') ve Zoscales'in ülkesini anan ilk yazılı eser (terminus ante quem).",
+    "kaynak": "Schoff 1912, Periplus giriş",
+    "tanik": "there is no mention of Axum in any work earlier than the Periplus"
+   },
+   {
+    "t": "1137-01-01",
+    "gun": "1137",
+    "k": "diger",
+    "b": "künye geçişi: ardıl-Aksum 'akışkanlık' dönemi → Zague hânedanı (TDV: 1137'den 1270'e kadar Zague).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/etiyopya",
+    "tanik": "Etiyopya Krallığı’nı 1137’den 1270’e kadar Zague"
+   },
+   {
+    "t": "1270-01-01",
+    "gun": "1270",
+    "k": "diger",
+    "b": "künye geçişi: Zague → Şüve'de Süleyman sülâlesi (Habeşistan).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/etiyopya",
+    "tanik": "bu tarihten XVI. yüzyıla kadar da Şüve’de hüküm süren Süleyman sülâlesi"
+   }
+  ],
+  "ic_not": "Atlas 1281 'habesistan' ile uyumlu dikiş (zincir 1281-01-01'de biter). Aksum adlarının antik Auxumites ile modern Aksum aynı nokta kabul edildi (Schoff notları; kazı konumu >3 km sorunu açılmadı)."
+ },
+ {
   "id": "almalik",
   "ad": "Almalık (Almalığ)",
   "atlas_ad": "Almalık (Almalığ)",
@@ -642,6 +728,77 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ATLAS NOKTASI BÖLGE TEMSİLCİSİDİR (47.498, 19.040; Buda/Pest Tuna kıyısı). SAF AQUINCUM (Óbuda lejyon kampı ve kent) ~7 km kuzeyde (Óbuda ~47.56-47.57, 19.04; kendi hesabım) => >3 km kuralı gereği saf Aquincum bu kayda yazılmaz, AYRI KAYIT ÖNERİLİR: 'Aquincum (Óbuda)' (47.5625, 19.04 yakını), ilk yazılı tanık Ptolemaios Geogr. 2.15 (tp-online.ku.de arama özeti: Ακούϊγκον; sayfa 403, AÇILAMADI), lejyon kampı 89 (BHM Aquincum Müzesi), municipium ~124, colonia 194. Bu kayıt, ≤3 km içindeki yerleşimlerden (Víziváros Roma kalesi ~MS 49, ~1 km; Gellért-hegyi Eravisci oppidumu MÖ 1. yy, ~1,4 km; Contra-Aquincum/Pest) başlatıldı; hesaplar benim, kaynak değil. Dolayısıyla ilk.nicelik 'arkeolojik' (bu noktaya ait yazılı tanık bulunamadı); Treccani EI: 'Keltler Ó-Buda yerinde Akink adlı kenti kurdu' (tarihsiz) — kur yazılmadı. Buda KALESİ 1241-42 sonrasıdır (IV. Béla; TDV+Treccani çift teyit) ve bu nokta o kaleden >1000 yıl önce başlar; Ofen/Pest adları: Treccani EI (fırın/Ofen, Slavca Pest, Macarlar öncesi). KAYNAKLAR: BHM Aquincum Müzesi 'A short history of Aquincum' (kurumsal arkeoloji sitesi, hakemli değil); Munteán 2021 Hungarian Cultural Studies 14 (hakemli e-dergi; ikincil); Treccani EAA 1973 + EI 1930 (Aquincum madde slug'ı EI'de açılmadı); TDV Macaristan/Budin/Bizans/Avarlar. AÇILAMAYAN: Pleiades yer sayfası (arama alakasız), tp-online 403, Livius Singidunum/Belgrade zaman aşımı, Brill/Pauly, Budapest Régiségei tam metin, Acta Arch. Hung. 2021 PDF boş döndü. Unvan boşluk: 455-567 ve 796-900 __BOSLUK__. 1000 dikişi: atlas macaristan 1000-01-01 ile zincir sonu macar-prensligi; künye geçişi olayı yazıldı."
+ },
+ {
+  "id": "aseb",
+  "ad": "Aseb",
+  "atlas_ad": "Aseb",
+  "lat": 13.009,
+  "lon": 42.735,
+  "kat1900": 3,
+  "adlar": [
+   "Assab (Asab)",
+   "Aseb"
+  ],
+  "ilk": {
+   "t": "1869-11-01",
+   "gun": "Kasım 1869",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "Dictionary of African Christian Biography, 'Sapeto, Giuseppe', https://dacb.org/stories/ethiopia/sapeto-giuseppe/ ; çift teyit (yıl): Treccani Dizionario di Storia 'Eritrea'",
+   "tanik": "he purchased the port of Assab in November 1869 from two local Danakil chieftains",
+   "ic_not": "ÇİFT TEYİT (yıl): Treccani: 'L’Italia giunse nell’area nel 1869, con l’acquisto della Baia di Assab da parte della compagnia marittima Rubattino'. Satın alınan yer bir körfez/liman; yerleşim önceliği bilinmiyor → ilk_anilis. Gün (15 Kasım 1869) yalnız çevrimiçi ikincil metinlerde (zantana, Vikipedi) → yazılmadı. TDV Etiyopya: 'İtalya Asab, Masavva‘ ve Asmara’yı ele geçirdi'; TDV Masavva: 'Assab’ı sömürgeleştiren İtalyanlar 1882'."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1882-01-01",
+    "gun": "1882",
+    "k": "isgal",
+    "b": "Rubattino'nun satın aldığı Assab'ı İtalya Devleti devralır (sömürgeleştirme).",
+    "kaynak": "Treccani Dizionario di Storia 'Eritrea'; TDV masavva",
+    "tanik": "nel 1882 la cedette allo Stato italiano"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Aseb'i 1281-1882 'adal'a bağlıyor; 1869 öncesi için yerleşim/sahip tanığı BULUNAMADI. Atlasın 'adal' iddiası kaynaksız ve künye (f=1415) 1281'i kapsamıyor. Zincir boş."
+ },
+ {
+  "id": "asmara",
+  "ad": "Asmara",
+  "atlas_ad": "Asmara",
+  "lat": 15.339,
+  "lon": 38.932,
+  "kat1900": 2,
+  "adlar": [
+   "Asmara (Asmera, Arbaete Asmera)"
+  ],
+  "ilk": {
+   "t": "1876-01-01",
+   "gun": "1876",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Treccani, Dizionario di Storia (2010), 'Asmara', https://www.treccani.it/enciclopedia/asmara_(Dizionario-di-Storia)/ (İtalyanca)",
+   "tanik": "quando divenne residenza di ras Alula Engida dal 1876",
+   "ic_not": "ALT SINIR: Treccani 'notevole sviluppo durante il regno di Giovanni IV' ve 1876'dan itibaren ras Alula'nın ikametgâhı. Şehrin KURULUŞU/ilk anılışı daha eski olabilir: Vikipedi 'Asmera' (ikincil, tek dayanak olamaz): 'earliest documented mention is a Latin itinerary from the reign of Dawit I (1382-1411)'; kupi/BlackPast: 12. yy / 1. binyıl efsanesi (dört köy) — akademik kaynak AÇILAMADI, YAZILMADI. TDV Asmara/Eritre maddesi YOK (tdv slug arama sayfası); TDV Masavva: 'Başşehir Asmara’ya ...' yalnız modern."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1889-01-01",
+    "gun": "1889",
+    "k": "isgal",
+    "b": "İtalya Asmara'yı işgal eder (1897'de koloni başkenti, Massaua'dan taşınır). Atlas 1889 İtalya dönemi bununla uyumlu.",
+    "kaynak": "Treccani, Dizionario di Storia, 'Asmara'",
+    "tanik": "Fu occupata dagli italiani nel 1889"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas 1281-1889 arasını habesistan'a bağlıyor; Asmara için 1281-1876 tanığı BULUNAMADI. Beyansız yaklaşıklık riski: ilk akademik tanık 1876; 1889 işgal günü (3 Ağustos 1889 iddiası) doğrulanamadı. Zincir boş."
  },
  {
   "id": "astrahan",
@@ -2536,6 +2693,32 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "NİCELİK KARARI: yazılı tanık (Livius 37.57'ye atıfla MÖ 189 Latin kolonisi) varken ark yazılı tanığa öncelik veremez → ilk = kuruluş MÖ 189 (Roma Bononia'sı). Aynı yerde daha eski yerleşim ARKEOLOJİK: tunç çağı sonu (MÖ 2. binyıl sonu), Villanova kulübeleri (MÖ VII. yy'a kadar), Etrüsk Felsina (EI: 'inizio verso la fine del sec. VI' MÖ), Felsina'nın MÖ IV. yy ortasında Galya Boii tarafından yıkılması. Atlas başlangıcını MÖ 2. binyıl sonuna çekme kararı Emre'nindir; o durumda Etrüsk (etrusk-sehir-devletleri) ve Boii (künyesiz) dönemleri kaynaklı eklenebilir (Treccani 'Bologna'); bu oturumda yazılmadı. Çift teyit: 189 Bononia kolonisi iki ayrı Treccani EI maddesinde (Bologna, Gallia Cisalpina). Atlas: Bolonya 1281'de papalik ile başlıyor; EI 1274'ü verir, 1274-1281 beyanlı. Dikişte olay gerekmedi çünkü zincir papalik ile bitiyor. 395 bölünmesi, Ostrogot-Bizans geçişinin şehre özgü günü ve Bizans-Longobard sınır savaşları (Bologna'nın Longobard eline kalıcı geçmemesi) EI'nin dediği kadarıyla yazıldı."
+ },
+ {
+  "id": "bonga-kaffa",
+  "ad": "Bonga (Kaffa)",
+  "atlas_ad": "Bonga (Kaffa)",
+  "lat": 7.283,
+  "lon": 36.233,
+  "kat1900": 3,
+  "adlar": [
+   "Bonga (Kaffa krallığı başkenti)"
+  ],
+  "ilk": {
+   "t": "1390-01-01",
+   "gun": "1390",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "Seshat Global History Databank, 'Kingdom of Kaffa' (et_kaffa_k), https://seshat-db.com/core/polity/650 (derleme; atıf: A. Orent 1970, 'Refocusing on the History of Kafa Prior to 1897', African Historical Studies 3)",
+   "tanik": "formed the Kingdom of Kaffa in 1390 CE",
+   "ic_not": "Bu KRALLIĞIN kuruluşudur, Bonga şehrinin değil: Seshat 'The capital of the Kingdom of Kaffa was at Bonga' der, Bonga'nın başkent oluş yılı belirtilmiyor. Seshat ikincil derlemedir; birincil Orent (1970) AÇILAMADI. Önceki Mato hanedanı (Seshat) kaynaksız. TDV'de Kafa/Kefa maddesi YOK (kefa, kaffa slug → arama sayfası)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Bonga'yı 1281'den 'kaffa'ya bağlıyor; en erken kaynaklı tanık 1390 (krallık kuruluşu). 'kaffa' künyesi bu dosyada kontrol edilemedi (oku_devletler listesinde f<1300 filtresi dışı). Zincir boş (ilk.t atlas başlangıcından sonra)."
  },
  {
   "id": "brasso-brasov",
@@ -5916,6 +6099,32 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Kaynaklar: TDV 'Gazne' (Nukçu), TDV 'Gurlular', TDV 'Hârizmşahlar', Iranica Ḡaznī i (de Planhol) — hepsi curl ile okundu. AÇILAMAYAN: Iranica 'GHAZNAVIDS' makalesi 90K'lık sayfa olarak geldi ama kent bilgisi çıkarılmadı; Bosworth 'The Ghaznavids' (archive.org) bu oturumda açılmadı; Farsça kaynak (Beyhakî, Tabakât-ı Nâsırî) açılmadı. ATLAS ÖNERİLERİ: (1) Atlas 1281-1370 'cagatay' başlangıcı kaynaksız; TDV Çağatay'ı sıralı ama tarihsiz verir. (2) TDV Gazne metni 'Moğollar Ögedey Han kumandasında Gazne önlerine geldiler' der (1221); komutan adı bağımsız kaynakla doğrulanmadı. (3) TDV 'Gazne Yıkıldı 1150-51' ile Gazneli dönemi devam eder (EIr 'return of last Ghaznavids')."
  },
  {
+  "id": "gondar",
+  "ad": "Gondar",
+  "atlas_ad": "Gondar",
+  "lat": 12.603,
+  "lon": 37.466,
+  "kat1900": 2,
+  "adlar": [
+   "Gondar (Gonder)"
+  ],
+  "ilk": {
+   "t": "1636-01-01",
+   "gun": "1636",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/etiyopya (DAVUT DURSUN, 1995) – tarih bölümü",
+   "tanik": "Fasilidas Tana gölünün kuzeyindeki Gondar’ı başşehir yaptı (1636)",
+   "ic_not": "TDV 'başşehir yaptı' der: bu kuruluş mu, daha eski küçük yerleşimin başkent ilanı mı belirsiz → ilk_anilis (alt sınır) olarak işaretlendi. Gondar'a özgü TDV maddesi YOK (slug gondar → arama sayfası). Akademik ikinci kaynak (Pankhurst, Encyclopaedia Aethiopica, Juel-Jensen) bu turda açılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Gondar'ı 1281'den habesistan'a bağlıyor; şehrin ilk tanığı 1636. 1281-1636 aralığında şehir yok (kaynak bulunamadı ≠ yok; ama 1636 'başşehir yaptı' ifadesi daha eskisini göstermiyor). Zincir boş (ilk.t atlas başlangıcından sonra)."
+ },
+ {
   "id": "granada",
   "ad": "Granada",
   "atlas_ad": "Granada",
@@ -6249,6 +6458,33 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "ÜRETİM: Kayıt Roma castrum kuruluşundan (106) başlıyor; castrum 'bugünkü kalenin yerinde' (turism.apulum.ro) ⇒ atlas noktası (46.0678, 23.58) ile <1 km: antik Apulum bu noktaya yazıldı. Sivil Apulum (canabae/Colonia Aurelia Apulensis, Partoş) ve Dakya dönemi AYRI/yakın kayıt gerektirebilir; bu oturumda mesafeleri kaynakta ölçülmedi. PTOLEMAIOS 'Apoulon': Wikipedia modern tanımlama olarak Craiva/Piatra Craivii (~20 km kuzey) der (ikincil, doğrulanmadı) ⇒ Dakya döneminin Apulon'u bu noktaya yazılmadı; önerilen ayrı kayıt: 'Piatra Craivii (Apulon?)'. Ptolemaios'un kendi metni bu oturumda açılamadı (penelope Thayer sayfası boş). MKL: 'Ter-én Kr. e. 2-1. évezredi, kora vaskori erődítményt tártak föl' — yeri ayrıntısız olduğu için ark yazılmadı. DAKYA SAHİPLİĞİ: künye dakya (-0081..0106) bu nokta için kaynaklı tanık bulunamadığı için yazılmadı (ilk.t = 106). ARALIK: 275→896 __BILINMIYOR__ (bkz. sahip[1]); gepid/avar/birinci-bulgar künyeleri bölge düzeyinde TDV tanıklığı olduğu için KULLANILMADI. ATLAS 1281: atlas macaristan 1281-01-01 ile uyumlu; öneri yok. ŞEHİR İLK ANILIŞI (Roma sonrası): MKL 'Gyulafehérvár' adlarını sayar (Bălgrad, Alba Iulia, Weissenburg) ve ilk Orta Çağ tarihi olarak '1002-ig a Gyulák / 1009 piskoposluk' verir; 1009 piskoposluğu MKL'ye göre kesin (Wikipedia/Explore Carpathia ikincil). BULGAR İZİ: MKL 'az első dunai bolgár kagánok idején ismét benépesült' tarihsiz; Bălgrad adının kaynağı (Bulgar/Slav 'beyaz kale') ayrıca doğrulanmadı. Wikipedia/Explore Carpathia tek dayanak olmadığı için hiçbir tarih yalnızca onlardan alınmadı. Kaynak notu: MKL (Magyar Katolikus Lexikon, akademik Macar ansiklopedisi) açıldı; Kristó 'Korai magyar történeti lexikon' açılamadı."
+ },
+ {
+  "id": "harar",
+  "ad": "Harar",
+  "atlas_ad": "Harar",
+  "lat": 9.312,
+  "lon": 42.118,
+  "kat1900": 2,
+  "adlar": [
+   "Harar (Harer, Gey)",
+   "Harar Jugol"
+  ],
+  "ilk": {
+   "t": "1520-01-01",
+   "gun": "926 H / 1520",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harar (AHMET KAVAS, 1997)",
+   "tanik": "tarafından 926’da (1520) Harar’a taşınması",
+   "ic_not": "TDV: Zeyla‘ Emirliği başşehri Valasma sultanı Ebû Bekir b. Muhammed tarafından 926'da (1520) Harar'a taşındı (hicrî 926 = 1519-12-23 → 1520-12-11 ∩ 1520 = 1520-01-01). ARKEOLOJİ (kaynakla uyumlu): Insoll, 'First Footsteps in the Archaeology of Harar, Ethiopia', Journal of Islamic Archaeology 2017 (doi 10.1558/jia.35273, özet okundu): 'Conflicting traditions place the beginnings of Harar between the late 7th and 16th centuries AD. Two radiocarbon dates ... appear to indicate that Harar was a late, possibly 16th century foundation'; en yakın eski saha Harlaa (35 km KB, 12-13. yy) ayrı yerdir. Efsane/gelenek tarihleri (1256: 405 şeyh; 10. yy cami tarihlemeleri) PAA girişi (panafprehistory.org) — çelişkili, kullanılmadı. Bölge: TDV 'XIII. yüzyıla ait Arapça kitâbeler' ve Evfât Emirliği (1285-1415) bölge ölçeğindedir, şehre indirgenmez."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Harar'ı 1281'den itibaren 'adal' sahibine bağlıyor; 'adal' künyesi (Adal Sultanlığı/Harar Emirliği) f=1415. Şehrin ilk yazılı anılışı 1520, arkeolojik köken muhtemelen 16. yy. 1281-1520 aralığı için şehir YOKTUR (kaynak: Insoll 2017, TDV); yerel bölge sahipleri (Evfât 1285-1415, Zeyla‘ Emirliği) şehrin kendisi değil bölgenin sahibidir. Zincir bu dosyada boş (ilk.t atlas başlangıcından sonra)."
  },
  {
   "id": "helsinki",
@@ -8705,6 +8941,60 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Atlas 'ceneviz' 1281 (enklav) ile dikiş aynı polity (bkz. dikis_beyan). ATLAS DÜZELTME ÖNERİSİ: atlasın Kefe zinciri 1281 öncesini kapsamıyor; 1281 'Ceneviz' tarihi TDV'ye göre egemenlik Altın Orda'dadır, Cenevizliler yalnız izinli yerleşimcidir (hâkimiyet sonradan) — atlasın 1281 'ceneviz' iddiası künyenin f=1266'sına dayanır, hâkimiyet günü TDV'de yok. TDV iç tutarsızlıkları: Kalka 1239 (gerçek 1223). Antik Theodosia ile Kefe aynı yer (Perseus notu). Rusça akademik kaynak (Rus Biyografi, Yanin vb.) bu yer için açılamadı; Strabon 7.4.4: liman 'in earlier times was a boundary between the countries of the Bosporians and the Taurians'."
  },
  {
+  "id": "kilwa-kisiwani",
+  "ad": "Kilwa Kisiwani (Kilve)",
+  "atlas_ad": "Kilwa Kisiwani (Kilve)",
+  "lat": -8.9795,
+  "lon": 39.4862,
+  "kat1900": 3,
+  "adlar": [
+   "Kilve (Kilwa Kisiwani)",
+   "Kulwa",
+   "Quiloa"
+  ],
+  "ilk": {
+   "t": "0975-01-01",
+   "gun": "975",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kilve (AHMET KAVAS – MUSTAFA L. BİLGE, 2002, c. 26, s. 24-25)",
+   "tanik": "975’te İran’dan gelen Şîrazlılar Kilve adasına yerleştiler",
+   "ic_not": "GELENEK TARİHİ: 975 Kilwa Chronicle (Kitâb es-Selve) ve Barros anlatısına dayanır. TDV İÇ ÇELİŞKİ: TDV 'Zengibar' maddesi aynı Hasan b. Ali eş-Şîrâzî'nin gelişini 957 diye verir ('957 yılında Hasan b. Ali eş-Şîrâzî’nin İran’dan ... gelmesiyle', tdv/zengibar) — Kilve maddesi (Kilve'ye özgü) esas alındı. Akademik şüphe: History in Africa 1979 'Kilwa Dynastic Historiography: A Critical Study' (doi 10.2307/3171745, özet OpenAlex'ten okundu): 'Chittick's excavations did not show Kilwa important enough to have been the site of a kingdom prior to the thirteenth century'; ayrıca 2026 RCAAP makalesi (doi 10.57759/aham2023.46384) Chronicle'ın 16. yy + 19. yy (1877) katmanlı olduğunu, 10. yy olaylarının doğrudan tanık sayılamayacağını savunur. ARKEOLOJİK İLK İSKÂN (Chittick 1974, 'Kilwa: an Islamic trading city', archive.org kilwaislamictrad0000chit) 401 Yetkisiz — AÇILAMADI; bu yüzden arkeolojik tarih YAZILMADI. 975 <1000: künye 'svahili-sehirleri' f=1000 → hayalet uyarısı beklenir."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0975-01-01",
+    "t": "1281-01-01",
+    "d": "svahili-sehirleri",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kilve; sevahili şehir devletleri bağlamı: 'Sahildeki yaklaşık otuz beş şehir devletinin en güçlüsü olan Kilve sultanlığına'",
+    "ic_not": "Yaklaşıklık beyanı: atlasın kıyı bloğu 'svahili-sehirleri' (1000-1698) kullanıldı. Yerel yapı 'kilva-sultanligi' (Kilve Sultanlığı, f=1000 t=1505, BOYASIZ künye) devletler listesinde VAR; atlas 1281 sahibi svahili-sehirleri olduğu için dikişte o kullanıldı — Kilve Sultanlığı boyalı yapılırsa bu dönem ona çevrilmeli. TDV: Şîrâzî hânedanı (Ali b. Hüseyin), Süfâle'yi alan Dâvûd b. Süleyman (1130-1170), XI-XV. yy refah dönemi. Ayrı el değiştirme/kuşatma 1281 öncesinde kaynakta YOK (Portekiz 1505 sonrası)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0975-01-01",
+    "gun": "975",
+    "k": "kurulus",
+    "b": "Şîrâzlı Hüseyin b. Ali'nin oğlu Ali, adayı yerli sahibinden satın alıp Kilve'ye yerleşir (gelenek).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kilve",
+    "tanik": "975’te İran’dan gelen Şîrazlılar Kilve adasına yerleştiler"
+   },
+   {
+    "t": "1170-01-01",
+    "gun": "1130-1170 (Dâvûd b. Süleyman dönemi)",
+    "k": "fetih",
+    "b": "Dâvûd b. Süleyman Süfâle'yi (altın ticareti) ele geçirir; Kilve bolluğa kavuşur. Gün yok; hükümdarlık aralığının SON ucu (güvenli uç).",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kilve",
+    "tanik": "Süfâle’nin ele geçirilmesinden sonra Kilve bolluk ve refaha kavuştu"
+   }
+  ],
+  "ic_not": "Kilwa'nın kuruluşu için TDV dışındaki erişilebilen kaynaklar: yalnız tarihsel eleştiri makaleleri (OpenAlex özetleri). Chittick 1974 tam metni (archive.org) yetkisiz. UNESCO WHC 144 sayfası Cloudflare 403. Periplus (Schoff) Kilwa'yı anmaz (Rhapta/Menouthias eşleşmesi kesin değil, kullanılmadı). Atlas konumu Kilwa Kisiwani adasıdır."
+ },
+ {
   "id": "klis",
   "ad": "Klis",
   "atlas_ad": "Klis",
@@ -10398,6 +10688,32 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "1281 öncesi: yazılı tanık yok (Huarpe halkı, künye yok). Tarihlerin Vikipedi dışı akademik teyidi yapılamadı. ATLAS ÖNERİSİ yok; 1562 taşınması atlas kuruluşunu etkilemez (yer ≤ birkaç km varsayımı ölçülmedi)."
  },
  {
+  "id": "mengo-buganda",
+  "ad": "Mengo (Buganda)",
+  "atlas_ad": "Mengo (Buganda)",
+  "lat": 0.348,
+  "lon": 32.583,
+  "kat1900": 2,
+  "adlar": [
+   "Mengo (Lubiri, Kibuga)"
+  ],
+  "ilk": {
+   "t": "1885-01-01",
+   "gun": "1885",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "AKADEMİK KAYNAK BULUNAMADI — yalnız ikincil: Wikipedia, 'Mengo, Uganda' (tek dayanak olamaz; geçici işaretleyici)",
+   "tanik": "first constructed in 1885 by Mwanga II of Buganda",
+   "ic_not": "UYARI: yalnız Vikipedi. Buganda Krallığı resmî sitesi (buganda.or.ug/?p=1398) 404, Vikipedi başka kaynak göstermiyor. Aranan: Kasozi, Roscoe, Speke 1862 (Mutesa'nın sarayı başka tepe), OpenAlex aramaları sonuçsuz. Buganda DEVLETİ için TDV Uganda: 'İlk kralının XIII. yüzyıl başlarında tahta çıkan Kato Kimera olduğu bilinmektedir' (Mengo'ya özgü değil; başkent taşınan tepeler)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Mengo'yu 1300-01-01'den buganda'ya bağlıyor. Buganda krallığı 13. yy başı (TDV Uganda) ama krallık başkenti kral başına taşınırdı; Mengo tepesi sabit başkent 1885 (ikincil). 1300-1885 aralığında Mengo noktası için tanık BULUNAMADI. Zincir boş."
+ },
+ {
   "id": "meraga",
   "ad": "Merâga",
   "atlas_ad": "Merâga",
@@ -11172,6 +11488,102 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas Modena'yı 1281-01-01'de 'ferrara' (Este) ile başlatıyor (kaynaksız, ONCE1281 dönemi yok). EI 'Modena': 'L'età comunale che a Modena va dal 1135 al 1288 (prima signoria estense)' — Este egemenliği 1288'de başlar; 1281-1288 arası komün. Atlas 1281 iddiasını destekleyen tanık bulunamadı; atlasa dokunulmadı, düzeltme önerisi: 1281-1288 komün (künyesiz) ya da kaynak göster. 1281 tarihli olay YOK.",
   "ic_not": "Çift teyit: Roma kolonisi 183 (EI + Livius). TDV 'Modena' arama sayfası (7 madde içeriği) yalnız arama sonucu; madde yok. Zincirde Longobard dönemi Bologna/Reggio savaş bölgesi olarak beyanlı yaklaşıklıktır."
+ },
+ {
+  "id": "mogadisu",
+  "ad": "Mogadişu",
+  "atlas_ad": "Mogadişu",
+  "lat": 2.037,
+  "lon": 45.342,
+  "kat1900": 2,
+  "adlar": [
+   "Makdişu (Makdeşû)",
+   "Maqdisha",
+   "Muqdisho",
+   "Mogadiscio"
+  ],
+  "ilk": {
+   "t": "1228-01-01",
+   "gun": "625 H / 1228",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/makdisu (AHMET KAVAS, 2003): Yâkūt, Muʿcemü’l-büldân V, 201; eser tarihi: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/yakut-el-hamevi ('İlk müsveddesini 621’de (1224) Halep’te tamamlayan müellif esere son şeklini 625’te (1228) vermiş')",
+   "tanik": "Yâkūt el-Hamevî ayrıca Makdişu halkının Berberî asıllı olduğunu",
+   "ic_not": "İLK ANILIŞ ALT SINIRDIR, kuruluş DEĞİL. TDV: 'Makdişu’nun kuruluş tarihi kesin olarak bilinmemektedir'; rivayetler: Abdülmelik dönemi (685-705), Barros'a göre 887 (yedi kardeş) — gelenek, kullanılmadı; 'X. yüzyılda ... Araplar’la ... Şîraz ve Nîşâbur’dan göç edenler tarafından kurulduğu genellikle kabul edilmektedir' (TDV) = kuruluş için tarihsiz görüş. Yâkūt'ta Mogadişu geçişi hangi taslakta (621/1224 mi 625/1228 mi) bilinmiyor → aralığın SON ucu: hicrî 625 (1227-12-12 → 1228-11-29) ∩ 1228 = 1228-01-01. Daha erken anılış (Yâkūt öncesi) ARANDI ve bulunamadı: Uppsala 1996 Jama, 'The Origins and Development of Mogadishu AD 1000 to 1850' (açık erişim PDF, indirilemedi); Arcadia kaydı yalnız özet. Yerinde kitabe: Mescid-i Cum‘a ve iki cami 636 (1238), 667 (1268), Şâban 667 (Nisan 1269) — daha geç."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1228-01-01",
+    "t": "1281-01-01",
+    "d": "makdisu-kabile-birligi",
+    "kunye_yok": true,
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/makdisu",
+    "ic_not": "KÜNYE YOK: önerilen id 'makdisu-kabile-birligi' = TDV'nin anlattığı yerel idare: 'Mukrî, Cid‘atî, Akabî, İsmâilî ve Afîfî gibi büyük kabileler ... otuz dokuz küçük zümreden oluşan bir birlik tesis ettiler ve şehrin idaresi için ortak bir yönetim kurdular', Mukrî/Kahtânî ulemâ sülâlesi kadılığı. Ömür: TDV 'IV. (X.) yüzyılda yerleşen' — dönem başı ilk anılışa (1228) sabitlendi. Atlasın 'makdisu-sultanligi' (f=1269) künyesi: TDV 'VII. (XIII.) yüzyılda Ebû Bekir b. Fahreddin küçük bir sultanlık kurmayı başardı' (gün/yıl YOK; Nisan 1269 kitabesi sultanı anmıyor) → 1269 dayanağı bulunamadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1238-08-14",
+    "gun": "636 H / 1238",
+    "k": "diger",
+    "b": "Mogadişu'da Mescid-i Cum‘a ve iki büyük camiin tarihli kitabeleri (636/1238, 667/1268, Şâban 667/Nisan 1269): refah düzeyinin tanığı.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/makdisu",
+    "tanik": "636 (1238), 667 (1268) ve Şâban 667 (Nisan 1269) tarihli kitâbelerinden"
+   }
+  ],
+  "dikis_beyan": "Atlasın 1281'de 'makdisu-sultanligi' iddiası: TDV sultanlığı 'VII. (XIII.) yüzyıl' diye tarihsiz verir; 1269/1281 sınırı için yıl/gün tanığı bulunamadı (aranan: TDV makdisu/somali, Yâkūt, Uppsala 1996). Yer tutucu olay yazılmadı.",
+  "ic_not": "Hicrî 636 ∩ 1238 = 1238-08-14 (hicrî 636: 1238-08-14 → 1239-08-02, tablo takvimi, Jülyen; kesişimin ilk günü). Ibn Said (c. 1250) ve İbn Battûta (1331) 1281 sonrası/çevresi — zincire girmedi."
+ },
+ {
+  "id": "mombasa",
+  "ad": "Mombasa",
+  "atlas_ad": "Mombasa",
+  "lat": -4.0402,
+  "lon": 39.6794,
+  "kat1900": 2,
+  "adlar": [
+   "Menbese (İdrîsî)",
+   "Mvita",
+   "Membessâ (İbn Battûta)",
+   "Mombasa"
+  ],
+  "ilk": {
+   "t": "1154-01-01",
+   "gun": "Şevval 548 (Ocak 1154)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "ay",
+   "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mombasa (AHMET KAVAS, 2020); eserin tamamlanışı: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/idrisi-serif (Nüzhetü’l-müştâḳ, 'Şevval 548’de (Ocak 1154) tamamlanan')",
+   "tanik": "Mombasa’nın (Menbese) küçük bir yerleşim yerinden ibaret olduğunu ve şehirde zenciler kralının yaşadığını söyler",
+   "ic_not": "İLK ANILIŞ (kuruluş değil). TDV Mombasa: İdrîsî XII. yy coğrafyacısı; eser TDV İdrîsî maddesine göre Şevval 548'de (Ocak 1154) tamamlandı (hicrî 548 = 1153-03-29 → 1154-03-17, tablo takvimi, Jülyen) → gün hassasiyeti yok, ay. TDV İdrîsî'nin Mombasa verilerinin bir kısmına şüpheyle yaklaşıldığını yazar. Efsanevî erken kuruluş (TDV: Abdülmelik b. Mervân 75/694'te Suriyeli Araplar Mombasa'yı kurdu; Şîrâzî Hasan b. Ali X. yy) KAYNAKTA rivayettir, yazılı tanık verilmedi — kullanılmadı. ARKEOLOJİ: TDV 'XII-XIII. yüzyıllar arası İslâmî döneme ait bazı seramik kalıntıları' (tarihsiz uç) — ark yazılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1154-01-01",
+    "t": "1281-01-01",
+    "d": "svahili-sehirleri",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mombasa",
+    "ic_not": "TDV: 'Bölgeden bahseden XII. yüzyıl Arap tarihçileri burada bir zenci sultanlığının hüküm sürdüğünü ifade etmişlerdir'; Yâkūt (ö. 626/1229) 'Mombasa’nın önemli bir liman şehri' olduğunu belirtir. Yerel sultanlık künyesi yok → kıyı bloğu svahili-sehirleri (BEYANLI YAKLAŞIKLIK). El değiştirme 1281 öncesi YOK."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1154-01-01",
+    "gun": "Şevval 548 (Ocak 1154)",
+    "k": "diger",
+    "b": "İdrîsî, Nüzhetü’l-müştâḳ'ta Mombasa'yı (Menbese) küçük yerleşim ve zenci kralın şehri olarak anar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/mombasa; TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/idrisi-serif",
+    "tanik": "Mombasa’nın (Menbese) küçük bir yerleşim yerinden ibaret olduğunu"
+   }
+  ],
+  "ic_not": "Atlas Mombasa adası/şehri. İdrîsî'nin 'Menbese'sinin aynı yer olduğu TDV tarafından varsayılıyor (İdrîsî adanın sahilden 2 günlük uzaklıkta olduğunu söylemesi şüpheli bulunur)."
  },
  {
   "id": "montevideo",
@@ -19295,6 +19707,57 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Çok kaynaklı ama çoğu yıl hassasiyetinde. ÇELİŞKİLER: (1) LZMK Zadar 998-1000 Venedik fethini ve ardından Hırvat tanımayı yazar, EI 1000 omaggio + 1024 Bizans'a dönüş; dönem sınırları EI'ye göre. (2) 1115-1180 arası Venedik/Macar dönemi EI 'fluttuare', LZMK 1115 fetih + 1180 Macar tanıma: dönem Venedik. Atlas Zadar'ı 1281'de 'venedik' (enklav, 1281-1358) ile başlatır; zincir aynı sahiple biter. TDV 'Zadar'/'Zara': 'zara' slug'ı 1788 içerik/23 başlık arama sayfası (başka Zara'lar); şehir maddesi yok. Zadar kuruluşu (kolonya MÖ 35-33) kuruluş tarihi vermediği için kur null."
+ },
+ {
+  "id": "zanzibar-stone-town",
+  "ad": "Zanzibar (Zengibar)",
+  "atlas_ad": "Zanzibar (Zengibar)",
+  "lat": -6.1659,
+  "lon": 39.1917,
+  "kat1900": 2,
+  "adlar": [
+   "Unguja (ada adı)",
+   "Zengibar",
+   "Zanzibar (Stone Town / Mji Mkongwe)"
+  ],
+  "ilk": {
+   "t": "0999-01-01",
+   "gun": "10. yüzyıl sonu",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "T. Power & M. Horton (arkeoloji profesörleri), 'Under the Old Fort of Zanzibar: exploring the origins of Stone Town', The Past (2022 saha sezonu), https://the-past.com/news/under-the-old-fort-of-zanzibar-exploring-the-origins-of-stone-town/",
+   "tanik": "origins of Stone Town itself – to the late 10th century",
+   "ic_not": "İthal seramikle (Hint handis, Pers sgraffiato, Çin) tarihleme: 'late 10th century' → aralığın güvenli ucu 999 alındı. YAZILI TANIK YOK: TDV 'Zengibar' maddesi 'Zengibar şehrinde VIII ve IX. yüzyıllara ait ... iki cami kalıntısı üzerine X. yüzyılda inşa edilen ... cami' der ama SAHA belirtmez (Unguja Ukuu 25 km güneyde ayrı yerleşim, 797 dinarı oradan; Kizimkazi 1107 kitabesi (1 Zilhicce 500 / 24 Temmuz 1107) güneyde ayrı saha) — >3 km kuralı: bunlar bu kayda YAZILMADI, ayrı kayıt önerilir. Yâkūt'un 'Lencûye' (Unguja) adası adın anılışı ada içindir, şehir değil. 999 <1000: svahili-sehirleri künyesi f=1000 → hayalet uyarısı beklenir."
+  },
+  "kur": null,
+  "ark": {
+   "t": "0999-01-01",
+   "gun": "10. yüzyıl sonu",
+   "kesinlik": "yuzyil",
+   "kaynak": "Power & Horton, The Past, Old Fort kazısı (ithal seramikle tarihleme)"
+  },
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0999-01-01",
+    "t": "1281-01-01",
+    "d": "svahili-sehirleri",
+    "kesinlik": "yuzyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/zengibar; Power & Horton (The Past): kazı bu dönemi kapsıyor (11-13. yy sgraffiato)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: TDV 'Hemen her ada müstakil bir hânedana dönüştü' (13. yy sonrası) ve Kizimkazi'de ayrı sultanlık (1107 kitabesi) der; Stone Town'ın kendi yöneticisi kaynakta bulunamadı. Kıyı bloğu 'svahili-sehirleri' kullanıldı; el değiştirme/kuşatma 1281 öncesi YOK. Kaynak sınırı: Power & Horton popüler-akademik dergi (The Past), hakemli kazı raporu açılamadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0999-01-01",
+    "gun": "10. yüzyıl sonu",
+    "k": "kurulus",
+    "b": "Old Fort altında ithal seramikle tarihlenen ilk iskân (Stone Town'ın kökeni).",
+    "kaynak": "Power & Horton, The Past, Old Fort of Zanzibar",
+    "tanik": "origins of Stone Town itself – to the late 10th century"
+   }
+  ],
+  "ic_not": "Atlas noktası (-6.1659, 39.1917) Stone Town'dır. Periplus (Schoff 1912) 'Menouthias' ve 'Rhapta'yı anar ama Zanzibar ile eşleşmesi kesin değildir — kullanılmadı."
  },
  {
   "id": "zaragoza",
