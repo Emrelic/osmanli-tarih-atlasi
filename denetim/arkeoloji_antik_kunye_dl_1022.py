@@ -24,7 +24,7 @@ def main():
     d = json.load(open(DL, encoding="utf-8"))
     yol = os.path.join(KOK, "data", "devletler.js")
     s = open(yol, encoding="utf-8", newline="").read()
-    var = set(re.findall(r'\bid:"([^"]+)"', s))
+    var = set(re.findall(r'\bid:\s*"([^"]+)"', s))        # başka oturumlar `id: "x"` (boşluklu) yazar
     ek, atla = [], []
     for k in d["kayitlar"]:
         if not (k.get("devredilebilir") is True and k.get("devir_tarafi") in ("VERI-MO-ARKEO", "MO-ARKEO-A")):

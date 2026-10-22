@@ -30,7 +30,7 @@ def main():
     dl.update({k["id"]: k for k in json.load(open(DL2, encoding="utf-8"))["kayit"]})
     yol = os.path.join(KOK, "data", "devletler.js")
     s = open(yol, encoding="utf-8", newline="").read()
-    var = set(re.findall(r'\bid:"([^"]+)"', s))
+    var = set(re.findall(r'\bid:\s*"([^"]+)"', s))        # başka oturumlar `id: "x"` (boşluklu) yazar
     ek = []
     for x in d6:
         if x["id"] in BIRLESTIR or x.get("f_onay") not in OK or x.get("t_onay") not in OK:
