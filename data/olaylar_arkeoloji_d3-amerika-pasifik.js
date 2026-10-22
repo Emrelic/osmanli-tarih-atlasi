@@ -87,7 +87,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   "k": "kayip",
   "b": "San Jose Mogote: koy yerlesimi ve Rosario sonrasi toren merkezinin terki: Rosario evresi sonu: nüfusun çoğu Monte Albán'a gider",
   "gun": "MÖ 500 civarı",
-  "yer": "San Jose Mogote",
+  "yer": "San Jose Mogote / Monte Albán",
   "d": "San Jose Mogote Vadi'de (Oaxaca, Etla kolu) Tierras Largas fazinda (1500-1150 b.c.) en az 7 ha'lik koy; Rosario fazinda 18-23 koyluk bir grubun sefligi merkezi. Rosario sonunda nufusun ~%95'i Monte Alban'in kurulusuna katilmak uzere gitti; Mound 1'deki 40 ha'lik merkez Monte Alban II basina (MO 100) kadar terk.",
   "kaynak": "Marcus & Flannery 2005, FAMSI (ayni rapor): 'At the end of the Rosario phase, an estimated 95% of the population of San Jose Mogote left to participate in the founding of Monte Alban'; Erken Monte Alban I = 500-300 B.C. (rapordaki buyuk harf B.C. = dendrokalibre notasyonu); 40 ha'lik toren/torensel merkez Monte Alban I boyunca terk; Feature 77 komur AMS Beta-179880 2440+-40 BP, 2-sigma kalibre 770-400 B.C. · https://www.ancientamericas.org/sites/default/files/03006Marcus01.pdf",
   "kesinlik": "yuzyil",
@@ -363,25 +363,10 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
  },
  {
   "t": "-1299-01-01",
-  "k": "kayip",
-  "b": "Purrón evresi (Tehuacán Vadisi): sona erer",
-  "gun": "MÖ 1300 civarı",
-  "yer": "Purrón phase (Tehuacán Vadisi)",
-  "d": "Tehuacán Vadisi'nde Formatif dönemin ilk evresi (Ajalpan'dan önce); kaynak onu 'karma bahçecilik-toplayıcılık-avcılık, yarı yerleşik' diye niteler.",
-  "kaynak": "Somerville A.D. vd. 2026, 'Multi-isotope analysis of mammal bones provides environmental context for the adoption of agriculture in the Tehuacan Valley of Mexico', Science Advances 12(10):eadw9222, doi:10.1126/sciadv.adw9222, Tablo 1 + Supplementary Text · https://pmc.ncbi.nlm.nih.gov/articles/PMC12959416/",
-  "kesinlik": "yuzyil",
-  "etiket": [
-   "arkeoloji"
-  ],
-  "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 1300 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Our model estimates that the Purron phase dates to 4550-3250 cal BP». ÇELİŞKİ (iki kronoloji, ikisi de beyan): revize Bayesian model = 4550-3250 cal BP; geleneksel Johnson & MacNeish dizisi = 4800-3850 cal BP. Supplementary Text'e göre 'Tablo 1' önceki çalışmalardan sentezlenmiş ve yeni Bayesian modelle bilgilendirilmiş yaklaşık değerler; ham OxCal sınır dağılımları (Data S1.xlsx) bu oturumda okunmadı (zip HTML döndü). Geleneksel dizinin aslı (Johnson & MacNeish, ref. 38) bu oturumda açılmadı, değerler Somerville vd. aktarımıdır. Tek yayın; çift teyit YOK. 'bit' = evre sonu."
- },
- {
-  "t": "-1299-01-01",
   "k": "gelisme",
   "b": "Ajalpan evresi (Tehuacán Vadisi): Tehuacán: Ajalpan evresi",
   "gun": "MÖ 1300 (ALT SINIR; donem-toplami MÖ 1300–850)",
-  "yer": "Ajalpan phase (Tehuacán Vadisi)",
+  "yer": "Ajalpan phase (Tehuacán Vadisi) / Purrón phase (Tehuacán Vadisi)",
   "d": "Tehuacán Vadisi'nde Formatif dönem evresi (Purrón'u izler, Santa María'dan önce); kaynakta 'Ajalpan' yerleşiminden tek 14C örneği (Zone H, I-929) modelde tutulmuştur.",
   "kaynak": "Somerville A.D. vd. 2026, 'Multi-isotope analysis of mammal bones provides environmental context for the adoption of agriculture in the Tehuacan Valley of Mexico', Science Advances 12(10):eadw9222, doi:10.1126/sciadv.adw9222, Tablo 1 + Supplementary Text · https://pmc.ncbi.nlm.nih.gov/articles/PMC12959416/",
   "kesinlik": "yuzyil",

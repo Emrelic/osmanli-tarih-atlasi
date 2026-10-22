@@ -97,7 +97,7 @@ def olaylar_mo():
             continue                       # bu betiğin KENDİ çıktısı
         s = open(f, encoding="utf-8").read()
         m = re.search(r"=\s*(\[.*\])\s*;?\s*$", s, re.S)
-        ev += [(o["t"], " ".join(str(o.get(a) or "") for a in ("b", "yer", "d")).lower()) for o in json.loads(m.group(1))]
+        ev += [(o["t"], " ".join(str(o.get(a) or "") for a in ("b", "yer")).lower()) for o in json.loads(m.group(1))]
     return ev
 
 
@@ -399,14 +399,15 @@ def main():
     havuz = [(o, f) for f, (_, L) in dosyalar.items() for o in L]
 
     def metin(o):
-        return " ".join(str(o.get(a) or "") for a in ("b", "yer", "d")).lower()
+        return " ".join(str(o.get(a) or "") for a in ("b", "yer")).lower()
 
     for (t, ad, kid, tip, tamad) in sorted(set(gecis)):
         sozc = {w for w in re.sub(r"[^\wçğıöşü]", " ", (ad + " " + tamad).lower()).split() if len(w) >= 4} or {tamad.lower()}
         yakin = [(o, f) for (o, f) in havuz if abs(gun_no(t) - gun_no(o["t"])) <= 31]
         if any(re.search(r"(?<!\w)" + re.escape(w) + r"(?!\w)", metin(o)) for (o, f) in yakin for w in sozc):
             continue                                       # ±30 günde YERİ anan madde zaten var
-        if yakin:                                          # madde var ama yeri anmıyor → o maddenin `yer`ine nokta adı eklenir (yeni mükerrer madde AÇILMAZ)
+        yakin = [(o, f) for (o, f) in yakin if gun_no(o["t"]) == gun_no(t)]    # yalnız AYNI gün: ilgisiz komşu maddenin yer alanı şişirilmez
+        if yakin:                                          # aynı gün madde var ama yeri anmıyor → o maddenin `yer`ine nokta adı eklenir (yeni mükerrer madde AÇILMAZ)
             o, f = min(yakin, key=lambda of: abs(gun_no(t) - gun_no(of[0]["t"])))
             o["yer"] = ((o.get("yer") or "") + " / " + tamad).strip(" /")
             kirli.add(f)

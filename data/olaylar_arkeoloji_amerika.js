@@ -38,21 +38,6 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
   "ic_not_d": "TEK DEĞER MÖ 500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Chavín deja de funcionar como templo hacia 500 a.C. (calib.)». ÇELİŞKİ/UYARI: kronoloji kendi içinde tartışmalıdır (yazarlar 'cronología todavía debatida e insegura' der). Janabarroide seramik: 'alrededor de 800-500 a.C. (calib.)'. Genel Chavín iskânı için eski tarihler 1500–400 a.n.e. aralığını verir ama bunlar yalnız Ofrendas Galerisi'ne bağlanabilir (zayıf). Burger (1981) Urabarriu 850–460 a.n.e.; Rick vd. bu beş tarihin bu aralığın dışında kaldığını gösterir. Kazılarda Geç Prekeramik (~2850–2600 a.n.e. örnekleri, La Banda) altta bulunur; Chavín tapınak yapısının başlangıcı için kesin kalibre ucu okunamadı. 1200 MÖ ucu 'quizás' ile verilmiş bir tahmindir (güven: belirsiz/orta)."
  },
  {
-  "t": "-0499-01-01",
-  "k": "kurulus",
-  "b": "Monte Albán: başlar",
-  "gun": "MÖ 500 civarı",
-  "yer": "Monte Albán",
-  "d": "Oaxaca Vadisi'nin ortasında 400 m tepe üstünde savunma duvarlı Zapotek başkenti; Erken MA I (500–300 MÖ) evresinde kuruldu, Geç MA I'de (300–100 MÖ) devlet kurumları ve fetih görülür.",
-  "kaynak": "Ancient Oaxaca (Cambridge Univ. Press), bölüm 'The origins of Monte Albán' (özet sayfası; yazar listesini sayfadan doğrulayamadım, Blanton vd. olduğu bilinen kayıt dışı); ayrıca Spencer C.S., 'Modeling (and Measuring) Expansionism and Resistance: State formation in ancient Oaxaca' (Social Studies almanac; Marcus & Flannery 1996:139–140 atfı). · https://resolve.cambridge.org/core/books/abs/ancient-oaxaca/origins-of-monte-alban/5C8DD7EB39E5225904CAE86B9CFBF3D0",
-  "kesinlik": "yuzyil",
-  "etiket": [
-   "arkeoloji"
-  ],
-  "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Monte Albán, a site whose history commenced around 500 B.C.». SERAMİK KRONOLOJİSİ: 500 MÖ tarihi seramik evreleme ve eski Caso kronolojisine dayanır, kalibre 14C değil. Flannery & Marcus 2003 (PNAS 100(20):11801–11805, doi:10.1073/pnas.1934526100, PMC208841, okundu) kuruluşu 'some time before 2450 B.P.' (geleneksel 14C yılı, kalibresiz) koyar ve Erken MA I'i '2450–2250 B.P.' olarak verir; bu değerler brife göre YAZILMADI. Aynı makalenin kalibre 2σ tarihleri: Tilcajete erken plazası yakılması 400–350 B.C. (β147541); Yapı 7 ve 16 yakılması 100 B.C.–A.D. 140 ve 165 B.C.–A.D. 155; Cuicatlán fethi 190 B.C.–A.D. 255. Bit yok."
- },
- {
   "t": "-0799-01-01",
   "k": "gelisme",
   "b": "La Venta (Olmek): başlar",

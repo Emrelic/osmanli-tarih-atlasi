@@ -34,7 +34,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "k": "fetih",
   "b": "Ekbatana (Hamedan): Kyros'un Med başkentini alması: başlar",
   "gun": "MÖ 550",
-  "yer": "Ecbatana / Hagmatāna",
+  "yer": "Ecbatana / Hagmatāna / Kotosh Dini Gelenegi (Kotosh, Peru)",
   "d": "Nabonidus'un 6. yilinda (MO 550/549) Kyros, Med kralinin 'kral sehri' Ekbatana'ya yurur; Med devletinin Kyros'a gecisi ve Ahamenis imparatorlugunun kurulus tarihi olarak 550 gelenegi bu kayda dayanir.",
   "kaynak": "Grayson AK, Assyrian and Babylonian Chronicles (ABC 7, Nabonidus Chronicle), col. ii.3; Livius.org'daki gozden gecirilmis ceviri · https://livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/",
   "kesinlik": "yil",

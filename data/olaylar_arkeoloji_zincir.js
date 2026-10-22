@@ -91,7 +91,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
  {
   "t": "-0311-01-01",
   "k": "diger",
-  "b": "Ekbatana: sahipsiz aralık → Selevkos Imparatorlugu",
+  "b": "Ekbatana, Seleukeia: Seleukos Nikator hâkimiyeti başlar (Medya ve Dicle)",
   "gun": "MÖ 312",
   "yer": "Ekbatana / Seleukeia (Dicle üzerinde)",
   "d": "Ekbatana noktalarında sahiplik sahipsiz aralık'dan Selevkos Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Ekbatana Seleukos I Nikator'a (305-281) geçer | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «The city later fell to Seleucus I Nicator (305-281 B.C.E.)»",
@@ -163,17 +163,6 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer": "Memphis (Men-nefer / Mit Rahina)",
   "d": "Memphis (Men-nefer / Mit Rahina) noktalarında sahiplik Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi)'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Pelusium savasi 525; Kambises ayin sonunda Misir kralı ilan edildi; 1. Pers hakimiyeti ~402'de bitti; \"Egypt was governed from Memphis by a satrap\" [Bresciani, Iranica Egypt i; Dandamayev, Iranica Cambyses]",
   "kaynak": "Pelusium savasi 525; Kambises ayin sonunda Misir kralı ilan edildi; 1. Pers hakimiyeti ~402'de bitti; \"Egypt was governed from Memphis by a satrap\" [Bresciani, Iranica Egypt i; Dandamayev, Iranica Cambyses]",
-  "kaynak_turu": "yazili",
-  "kesinlik": "yil"
- },
- {
-  "t": "-0508-01-01",
-  "k": "diger",
-  "b": "Roma: Roma Krallığı → Roma Cumhuriyeti",
-  "gun": "MÖ 509",
-  "yer": "Roma",
-  "d": "Roma noktalarında sahiplik Roma Krallığı'dan Roma Cumhuriyeti'ya geçer. Kaynak geçiş bilgisi: Senatonun Octavianus'a 'Augustus' unvanını vermesi 16 Ocak MÖ 27: Haverfield, JRS 5 (1915) 249 (LacusCurtius); Dio 53.16.6-8; konsül yılı 27 = Caesar VII, Agrippa III (Dio 53 başlığı). Dio 53.2-12: 13 Ocak yerleşimi ayrıca anlatır.",
-  "kaynak": "Senatonun Octavianus'a 'Augustus' unvanını vermesi 16 Ocak MÖ 27: Haverfield, JRS 5 (1915) 249 (LacusCurtius); Dio 53.16.6-8; konsül yılı 27 = Caesar VII, Agrippa III (Dio 53 başlığı). Dio 53.2-12: 13 Ocak yerleşimi ayrıca anlatır.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil"
  },
@@ -507,20 +496,9 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
  {
   "t": "-0145-01-01",
   "k": "diger",
-  "b": "Karthago: sahipsiz aralık dönemi sona erer",
-  "gun": "MÖ 146",
-  "yer": "Karthago",
-  "d": "Karthago noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
-  "kaynak_turu": "yazili",
-  "kesinlik": "yil"
- },
- {
-  "t": "-0145-01-01",
-  "k": "diger",
   "b": "Korint: Korint dönemi sona erer",
   "gun": "MÖ 146",
-  "yer": "Korint",
+  "yer": "Korint / Karthago",
   "d": "Korint noktalarının s: dizisinde bu uç, sahip künyenin (Korint) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye korint — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",
@@ -784,20 +762,9 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
  {
   "t": "-0929-01-01",
   "k": "diger",
-  "b": "Samiriye (Samaria / Sebaste): Israil Krallığı (Samiriye) dönemi başlar",
-  "gun": "MÖ 930",
-  "yer": "Samiriye (Samaria / Sebaste)",
-  "d": "Samiriye (Samaria / Sebaste) noktalarının s: dizisinde bu uç, sahip künyenin (Israil Krallığı (Samiriye)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye israil-krallik — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
-  "kaynak_turu": "yazili",
-  "kesinlik": "yil"
- },
- {
-  "t": "-0929-01-01",
-  "k": "diger",
   "b": "Kudüs: Yahuda Krallığı dönemi başlar",
   "gun": "MÖ 930",
-  "yer": "Kudüs",
+  "yer": "Kudüs / Samiriye (Samaria / Sebaste)",
   "d": "Kudüs noktalarının s: dizisinde bu uç, sahip künyenin (Yahuda Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
   "kaynak": "künye yahuda — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
   "kaynak_turu": "yazili",

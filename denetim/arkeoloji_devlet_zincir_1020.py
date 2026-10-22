@@ -75,6 +75,7 @@ OWNER_MAP = [
     (r"Ebla krallığı", "ebla-1"), (r"Mari \(Ville II\)", "mari-erken"),
     (r"Güney isyanı|Pers \(Ahameniş atası\)|Ur III eyaleti", None),
 ]
+KARA_DUZELT = {"Karthago": (36.8537, 10.3225)}
 ELAM_ZINCIR = ["elam-simaski", "elam-sukkalmah", "elam-orta", "elam-yeni"]
 
 
@@ -218,6 +219,10 @@ def main():
         # çakışma: sonraki başlangıcı öncekini keser; boşluk doldur
         temiz = []
         for g in seg:
+            if temiz and g["f"] == temiz[-1]["f"] and g["d"] == temiz[-1]["d"]:     # aynı sahip, aynı başlangıç (iki kaynak satırı aynı dönemi verir): ilki kalır
+                if gn(g["t"]) > gn(temiz[-1]["t"]):
+                    temiz[-1]["t"] = g["t"]
+                continue
             if temiz and gn(g["f"]) < gn(temiz[-1]["t"]):
                 temiz[-1]["t"] = g["f"] if gn(g["f"]) > gn(temiz[-1]["f"]) else temiz[-1]["t"]
                 if gn(temiz[-1]["f"]) >= gn(temiz[-1]["t"]):
@@ -257,6 +262,9 @@ def main():
                 "(künye ömrüne kırpılmış). Kronoloji: %s. %s Koordinat tanıkları: %s. Dönemler araştırma kaydı `sehir_kontrol` (denetim/arastirma/%s); dolaylı çıkarım dönemler YAZILMADI. %s"
                 % ("Orta Kronoloji (MC) / kronik yılı (mutlak)", "Boşluklar: " + (s.get("bosluk_notu") or "")[:500],
                    " ↔ ".join("%s (%.4f,%.4f)" % (x["kaynak"], x["lat"], x["lon"]) for x in tn), s["_dosya"], (s.get("konum_not") or "")[:300]))
+        if ad in KARA_DUZELT:                       # denetle 'konum': tanık koordinatı kara maskesinin 0,04 km dışında → maskede sınanmış nokta (denetle önerisi)
+            s = dict(s, lat=KARA_DUZELT[ad][0], lon=KARA_DUZELT[ad][1])
+            notm += " Koordinat denetle kara-maskesi düzeltmesi: %.4f,%.4f (tanık noktası maske dışındaydı)." % KARA_DUZELT[ad]
         rec = dict(ad=ad, tur="sehir", lat=s["lat"], lon=s["lon"], g=1, k=0, kur=kur_t, bit=bit_t,
                    kesinlik={"f": "onyil", "t": "onyil"}, d=[],
                    s=[dict(f=g["f"], t=g["t"], d=g["d"], kesinlik={"f": "onyil", "t": "onyil"}, kaynak=g["kaynak"][:600]) for g in son],
@@ -270,6 +278,10 @@ def main():
         mk = [(a2, fn) for (a2, la, lo, fn) in MEV if km((s["lat"], s["lon"]), (la, lo)) < 3.0]
         if mk:
             red.append((s["sehir"], "3 km içinde mevcut nokta: %s" % (mk[0],)))
+            continue
+        ayni = [y["ad"] for y in yeni if km((s["lat"], s["lon"]), (y["lat"], y["lon"])) < 3.0 or y["ad"] == rec["ad"]]
+        if ayni:                                    # iki araştırma dosyası aynı şehri vermiş (Hattuşa, Karthago…): ilki kalır, ikinci YAZILMAZ (ad benzersiz olmalı)
+            red.append((s["sehir"], "aynı çalışmada zaten üretildi: %s (ilk gelen kalır; %s)" % (ayni[0], s["_dosya"])))
             continue
         yeni.append(rec)
 

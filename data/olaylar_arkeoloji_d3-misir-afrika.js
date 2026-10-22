@@ -41,56 +41,11 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "ic_not_d": "TEK DEĞER MÖ 1080 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Egyptian Occupation, 1480-1080 B.C.». Sayfa kendi iclerinde tutarsiz: Final Kerma 1480-1450 ile Misir isgalinin 1480 baslangici cakisir; I. Thutmosis 1496-1483 isgal basindan once biter. Bronk Ramsey 2010 (95% hpd): III. Thutmosis tahta cikisi 1498-1474 (Shaw/Hornung okullari 1479/1479). Yeni Krallik SONU/Ucuncu Ara Donem basi icin okunmus kaynak yok: Bronk Ramsey 2010 yalnizca XX. Hanedan'in kral cikislarini verir (Ramses XI cikisi 95%: 1116-1090) - dinastinin bitisi DEGIL."
  },
  {
-  "t": "-1449-01-01",
-  "k": "kayip",
-  "b": "Son Kerma (Kerma Recent/Final): Son Kerma sona erer",
-  "gun": "MÖ 1450 civarı",
-  "yer": "Kerma Recent/Final",
-  "d": "Son Kerma (Kerma Recent/Final) seramik kronolojisinde donem 1480-1450 MO (kerma.ch).",
-  "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/ · https://kerma.ch/en/history/",
-  "kesinlik": "yuzyil",
-  "etiket": [
-   "arkeoloji"
-  ],
-  "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 1450 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Final Kerma ... circa 1480-1450 B.C.». KRONOLOJI CELISKISI: kerma.ch Early Kerma 2450-2050; Honegger (Neuchatel, arama ozeti, sayfa ACILAMADI) Early 2550-2050 / Middle 2050-1750 / Classic 1750-1500; ucuncu bir yayin Classic 1750-1580 + Final 1580-1500 verir (arama ozeti, kullanilmadi). Hakemli/kalibre tablo (Bonnet 1999; Honegger 2005 Genava 53; Bonnet-Valbelle) icin tam metin okunamadi -> kutuphane_gerekli. Degerler kalibre 14C sınırı DEGIL, seramik donem adlandirma tarihleridir."
- },
- {
-  "t": "-1479-01-01",
-  "k": "kayip",
-  "b": "Klasik Kerma (Kerma Classique): Klasik Kerma sona erer",
-  "gun": "MÖ 1480 civarı",
-  "yer": "Kerma Classique",
-  "d": "Klasik Kerma (Kerma Classique) seramik kronolojisinde donem 1750-1480 MO (kerma.ch).",
-  "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/ · https://kerma.ch/en/history/",
-  "kesinlik": "yuzyil",
-  "etiket": [
-   "arkeoloji"
-  ],
-  "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 1480 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Classic Kerma (circa 1750-1480 B.C.)». KRONOLOJI CELISKISI: kerma.ch Early Kerma 2450-2050; Honegger (Neuchatel, arama ozeti, sayfa ACILAMADI) Early 2550-2050 / Middle 2050-1750 / Classic 1750-1500; ucuncu bir yayin Classic 1750-1580 + Final 1580-1500 verir (arama ozeti, kullanilmadi). Hakemli/kalibre tablo (Bonnet 1999; Honegger 2005 Genava 53; Bonnet-Valbelle) icin tam metin okunamadi -> kutuphane_gerekli. Degerler kalibre 14C sınırı DEGIL, seramik donem adlandirma tarihleridir."
- },
- {
-  "t": "-1479-01-01",
-  "k": "gelisme",
-  "b": "Son Kerma (Kerma Recent/Final): Son Kerma başlar",
-  "gun": "MÖ 1480 civarı",
-  "yer": "Kerma Recent/Final",
-  "d": "Son Kerma (Kerma Recent/Final) seramik kronolojisinde donem 1480-1450 MO (kerma.ch).",
-  "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/ · https://kerma.ch/en/history/",
-  "kesinlik": "yuzyil",
-  "etiket": [
-   "arkeoloji"
-  ],
-  "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 1480 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Final Kerma ... circa 1480-1450 B.C.». KRONOLOJI CELISKISI: kerma.ch Early Kerma 2450-2050; Honegger (Neuchatel, arama ozeti, sayfa ACILAMADI) Early 2550-2050 / Middle 2050-1750 / Classic 1750-1500; ucuncu bir yayin Classic 1750-1580 + Final 1580-1500 verir (arama ozeti, kullanilmadi). Hakemli/kalibre tablo (Bonnet 1999; Honegger 2005 Genava 53; Bonnet-Valbelle) icin tam metin okunamadi -> kutuphane_gerekli. Degerler kalibre 14C sınırı DEGIL, seramik donem adlandirma tarihleridir."
- },
- {
   "t": "-1479-01-01",
   "k": "fetih",
   "b": "Nubya'nin Yeni Krallik Misir'i tarafindan fethi / Misir isgali (Kerma sonrasi): Nubya'da Mısır işgali başlar",
   "gun": "MÖ 1480 civarı",
-  "yer": "Egyptian Occupation of Kush",
+  "yer": "Egyptian Occupation of Kush / Kerma Classique / Kerma Recent / Final",
   "d": "Kerma krallıgi Yeni Krallik firavunlarinca fethedildi; kerma.ch fethi I. Thutmosis'e (1496-1483) atfeder, Misir etkisinin III. Kataraktin guneyinde ancak III. Thutmosis'te (1479-1424) hissedildigini belirtir.",
   "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/ · https://kerma.ch/en/history/",
   "kesinlik": "yuzyil",
@@ -132,25 +87,10 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
  },
  {
   "t": "-1749-01-01",
-  "k": "kayip",
-  "b": "Orta Kerma (Kerma Moyen): Orta Kerma sona erer",
-  "gun": "MÖ 1750 civarı",
-  "yer": "Kerma Moyen",
-  "d": "Orta Kerma (Kerma Moyen) seramik kronolojisinde donem 2050-1750 MO (kerma.ch).",
-  "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/ · https://kerma.ch/en/history/",
-  "kesinlik": "yuzyil",
-  "etiket": [
-   "arkeoloji"
-  ],
-  "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 1750 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Middle Kerma (circa 2050-1750 B.C.)». KRONOLOJI CELISKISI: kerma.ch Early Kerma 2450-2050; Honegger (Neuchatel, arama ozeti, sayfa ACILAMADI) Early 2550-2050 / Middle 2050-1750 / Classic 1750-1500; ucuncu bir yayin Classic 1750-1580 + Final 1580-1500 verir (arama ozeti, kullanilmadi). Hakemli/kalibre tablo (Bonnet 1999; Honegger 2005 Genava 53; Bonnet-Valbelle) icin tam metin okunamadi -> kutuphane_gerekli. Degerler kalibre 14C sınırı DEGIL, seramik donem adlandirma tarihleridir."
- },
- {
-  "t": "-1749-01-01",
   "k": "gelisme",
   "b": "Klasik Kerma (Kerma Classique): Klasik Kerma başlar",
   "gun": "MÖ 1750 civarı",
-  "yer": "Kerma Classique",
+  "yer": "Kerma Classique / Kerma Moyen",
   "d": "Klasik Kerma (Kerma Classique) seramik kronolojisinde donem 1750-1480 MO (kerma.ch).",
   "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/ · https://kerma.ch/en/history/",
   "kesinlik": "yuzyil",
@@ -159,21 +99,6 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   ],
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1750 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Classic Kerma (circa 1750-1480 B.C.)». KRONOLOJI CELISKISI: kerma.ch Early Kerma 2450-2050; Honegger (Neuchatel, arama ozeti, sayfa ACILAMADI) Early 2550-2050 / Middle 2050-1750 / Classic 1750-1500; ucuncu bir yayin Classic 1750-1580 + Final 1580-1500 verir (arama ozeti, kullanilmadi). Hakemli/kalibre tablo (Bonnet 1999; Honegger 2005 Genava 53; Bonnet-Valbelle) icin tam metin okunamadi -> kutuphane_gerekli. Degerler kalibre 14C sınırı DEGIL, seramik donem adlandirma tarihleridir."
- },
- {
-  "t": "-2049-01-01",
-  "k": "gelisme",
-  "b": "Orta Kerma (Kerma Moyen): Orta Kerma başlar",
-  "gun": "MÖ 2050 civarı",
-  "yer": "Kerma Moyen / Liangzhu Kültürü",
-  "d": "Orta Kerma (Kerma Moyen) seramik kronolojisinde donem 2050-1750 MO (kerma.ch).",
-  "kaynak": "Kerma arkeoloji misyonu (Mission archeologique suisse au Soudan / Univ. Geneve) resmi tarih sayfasi: 'Kingdom of Kerma' kronoloji, kerma.ch/en/history/ · https://kerma.ch/en/history/",
-  "kesinlik": "yuzyil",
-  "etiket": [
-   "arkeoloji"
-  ],
-  "kaynak_turu": "arkeoloji",
-  "ic_not_d": "TEK DEĞER MÖ 2050 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Middle Kerma (circa 2050-1750 B.C.)». KRONOLOJI CELISKISI: kerma.ch Early Kerma 2450-2050; Honegger (Neuchatel, arama ozeti, sayfa ACILAMADI) Early 2550-2050 / Middle 2050-1750 / Classic 1750-1500; ucuncu bir yayin Classic 1750-1580 + Final 1580-1500 verir (arama ozeti, kullanilmadi). Hakemli/kalibre tablo (Bonnet 1999; Honegger 2005 Genava 53; Bonnet-Valbelle) icin tam metin okunamadi -> kutuphane_gerekli. Degerler kalibre 14C sınırı DEGIL, seramik donem adlandirma tarihleridir."
  },
  {
   "t": "-3463-01-01",

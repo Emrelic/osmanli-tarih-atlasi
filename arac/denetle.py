@@ -2362,7 +2362,8 @@ def kapsam_disi(Y, acik):
         # geçer — yoksa `(d+"-01-01")[:10]` "330-05-11-" verir ve FETRET dalının
         # `int(g[:4])`ü ValueError ile ÇÖKER. Dolgulu ve dört haneli girdi aynı kalır.
         g = pad(d)
-        g = g if len(g) == 10 else (g + "-01-01")[:10]
+        _m = re.match(r"^(-?\d{4})(?:-(\d\d))?(?:-(\d\d))?$", g)       # MÖ (negatif) yıl: [:10] kesmesi "-0549-01-0" üretirdi
+        g = "%s-%s-%s" % (_m.group(1), _m.group(2) or "01", _m.group(3) or "01") if _m else g
         kure = _osmanli_kure(Y, g)
         if not kure:
             # FETRET yedegi: en yakin govdeli gune kaydir

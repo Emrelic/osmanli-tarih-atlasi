@@ -23,18 +23,6 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1176–845 (kaynağın verdiği uçlar); orta nokta MÖ 1010 = astronomik -1009. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 90 (HPDI). Kaynaktan okunan: «estimated arrival date of rice farming in northern Kyushu (Area I) is between 1176 and 845 BC (90% HPDI)». Aralık Alan I (kuzey Kyushu) bölgesel VARIŞ tahminidir, Uki-Kunden'e özgü değil; oluş-zamanı belirsizliğidir (%90 HPDI), dönem toplamı değil. Diğer alanlar (90% HPDI, MÖ): Chugoku-Shikoku-Kansai 1061-779 (III) ve 946-703 (IV); güney-orta Kyushu 735-430; Chubu 754-560; Kanto 471-124; kuzey Tohoku 709-203. Geleneksel Yayoi başlangıcıyla ilişki bu makalede kurulmadı; Hashiguchi 2003 (AMS ~1000 MÖ; arama özeti) okunmadı."
  },
  {
-  "t": "-1045-01-01",
-  "k": "fetih",
-  "b": "Zhou'nun Shang seferi/fethi (Zhou kuruluşu; Zhou başkenti Fenghao): başlar",
-  "gun": "MÖ 1046",
-  "yer": "周 / 豐鎬",
-  "d": "Kral Wu'nun Shang seferi (ilk sefer 1046) ve Zhòu'un yenilgisi (1044 MÖ, Zhang 2023); Zhou hanedanı kuruluşu.",
-  "kaynak": "Zhang P. 2023, 'The Chronology of Western Zhou', Early China 46:131-242, doi:10.1017/eac.2022.5 · https://www.cambridge.org/core/product/0D661C3365537C0D15AD896F72F9DF70/core-reader",
-  "kesinlik": "yil",
-  "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «led an initial campaign against the Shang in 1046 b.c.e.». OKUL ÇELİŞKİSİ (hiçbiri ortalanmadı): (a) Zhang 2023: ilk sefer 1046, fetih 1044 ('defeated Zhòu in 1044 b.c.e.'); (b) 1046 = fetih tarihi olarak Pankenier ve Xia-Shang-Zhou Kronoloji Projesi (Zhang 2023: 'Pankenier first proposed this, and the Chronology Project reached the same conclusion'); (c) 1045 = Shaughnessy (Bamboo Annals düzeltmeleri); (d) 1027 = Proje adayı, hemen atıldı; (e) 1122 geleneksel tarih (Britannica; yalnız arama özeti, sayfa açılmadı, kullanılmadı). Bu kayıttaki 1046-1044 aralığı Zhang'ın sefer ve fetih yıllarıdır, belirsizlik aralığı DEĞİL. Atlas XSZ tek-değer kullanacaksa 'fetih 1046' ve ic_not'ta Zhang 1044 / Shaughnessy 1045 beyanı gerekir. Shiji'de kesin yıllık kayıt 841 MÖ (Gonghe) sonrası; Bamboo Annals Batı Zhou toplamı 257 yıl."
- },
- {
   "t": "-1080-01-01",
   "k": "kayip",
   "b": "Yinxu (Anyang, Geç Shang başkenti): Di Yi/Di Xin evresi: Shang hanedanının sonu (Yinxu son evre)",

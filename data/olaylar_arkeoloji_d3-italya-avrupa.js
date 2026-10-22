@@ -6,7 +6,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA = [
   "k": "gelisme",
   "b": "Roma: Krallık -> Cumhuriyet (ilk konsüller) - YAZILI GELENEK: Roma: Krallık sona erer, Cumhuriyet (gelenek)",
   "gun": "MÖ 508",
-  "yer": "Expulsio regum / primi consules",
+  "yer": "Expulsio regum / primi consules / Roma",
   "d": "Polybios ve Dionysios, Krallığın sona ermesini ve ilk konsülleri aynı yıla koyar; üç bağımsız iç hesap (Polybios/Xerxes, Dionysios/Galya sonrası 120 yıl, Dionysios/244 yıl krallık) MÖ 508'e çıkar.",
   "kaynak": "Polybios 3.22.1-2 (Loeb 1922): ilk Roma-Kartaca antlaşması 'ilk konsüller' L. Iunius Brutus ve M. Horatius'un konsüllüğünde, 'Xerxes'in Yunanistan'a geçişinden 28 yıl önce'. MÖ sayısı = 480+28 HESAPTIR (480 değeri bu kaynakta yok). Dionysios 1.74.4: Galya istilasından (98. Olimpiyat 1. yıl) 120 yıl önce ilk konsüller Brutus ve Collatinus; krallık toplam 244 yıl (1.75.3) => 752-244=508 HESAP · https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3*.html",
   "kesinlik": "yil",
