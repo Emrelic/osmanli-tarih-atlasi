@@ -113,3 +113,59 @@ girer: dolgu.py her değiştiğinde TÜM önbellek düşer — koşu sürerken d
    (ONCE1281 kampanyası). B o zamana kadar yalnız ≥1000 kesitlerde anlamlı.
 3. Ağzı 2r'den geniş derin girinti (c'nin ikinci yarısı) istenir mi? Ayrı bir hesap, ayrı maliyet.
 4. Deniz eşiği 100.000 km² (Hazar/Karadeniz tutuldu, küçük göller dışarıda) uygun mu?
+
+## 6 · KOŞU 29 çıktısı üstünde sınav (22 Ekim 2026) — bellek, boyut, bağımsız komut
+
+Girdi: `C:\atlas-kosu29\data\donemler.js` + `devletler_harita.js` (YALNIZ okundu; 7.481 aralık,
+3.007 kesit tarihi, MÖ kesit 99). Ayar: 10 gün (r=201,6 km), deniz+koridor açık. Alet:
+scratchpad `kesit2.py` (A'yı yardımcı süreçte okur) ve `py arac/dolgu.py` (bağımsız).
+
+### 6.1 Kesit sınavı (ana süreç RSS zirvesi ≤ 0,96 GB; tavan 6 GB)
+| Kesit | Gövde | Süre | Parça | Dolgu km² | Gövde km² | Tek kesit js | RSS zirve |
+|---|---|---|---|---|---|---|---|
+| MÖ 3000 (-2999-01-01) | 5 | 6 sn | 20 | 313.114 | 1.081.829 | 19 KB | 0,08 GB |
+| MS 500 (0500-01-01) | 3 | 3 sn | 15 | 167.392 | 429.217 | 19 KB | 0,08 GB |
+| 1000-01-01 | 32 | 96 sn | 141 | 2.148.320 | 7.718.368 | 134 KB | 0,11 GB |
+| 1281-01-01 | 262 | 1.134 sn (soğuk) | 878 | 12.293.563 | 45.306.727 | 827 KB | 0,99 GB |
+| 1500-01-01 | 276 | 739 sn (kısmen ılık) | 998 | 9.671.951 | 47.315.359 | 890 KB | 0,96 GB |
+
+MÖ 3000 ve MS 500'de A'nın yalnız 5 ve 3 gövdesi var; dolgu bunların çevresine halka çiziyor,
+kesintisiz kaplama vermez (bkz. §3 yorumu). Gövdeyle örtüşme 8–7.600 km² (dolgunun %0,05–0,07'si,
+sadeleştirme taşması).
+
+### 6.2 🔴 BELLEK PATLAMASI — bulundu ve giderildi
+**Teşhis (yığın izi, ölçüldü):** 1281'de RSS testere dişi gibi 6→8 GB'a çıkıyordu; yığın izi
+her seferinde `dolgu.py _paylas → shapely buffer`: çekişmeli alanın (`alan`) 200 km tamponu.
+Sebep çekişme adımının "yerelleşmemesi" DEĞİL (adım zaten devlet başına yereldi); tek bir
+`buffer` çağrısı, ham kıyı ayrıntılı ve kıtalar boyu uzanan çekişmeli alanda GB'larca bellek yiyordu.
+**Çare:** süzgeç olarak tampon yerine alanın sınır kutusu (+r) kullanıldı (süperset; örnek nokta
+sayısı `PAYLASIM_NOKTA_TAVAN`la zaten sınırlı). Sonuç: 1281 tam kesit ana süreç **0,99 GB**,
+kesit 6 GB tavanının çok altında. (İki ara deneme — kaba hat+quad_segs=2 tamponu; ham A'yı `del` ile
+bırakma — yetmedi: ilki aynı yerde 6 GB'ı aştı, ikincisi RSS'i güvenilir düşürmedi.)
+**Bağımsız komut:** `py arac/dolgu.py` A'yı bellekte tutar (kosu29'da ~4,3 GB) — 4 kesitlik koşuda
+RSS zirvesi **5,19 GB** (tavan altında, payı dar). Tam koşuda A'yı tutmak yerine canlı gövdeleri
+ayrı süreçte WKB'ye çevirmek (kesit2 deseni) payı genişletir; şimdilik gerekmedi.
+
+### 6.3 🔴 Dosya boyutu — kayıt birleştirme hatası bulundu ve düzeltildi
+Eski `dolgu.py`: ardışık kesitlerin TÜM imzası aynıysa süre uzatıyor, bir parça bile
+değiştiyse kesidin ~880 kaydının HEPSİNİ yeniden yazıyordu ⇒ 3.007 kesit × ~880 kayıt ≈
+**yüzlerce MB** (100 MiB eşiğinin çok üstü). Düzeltme: `_birlestir` kayıt bazlı (anahtar =
+devlet+cins+halka dizisi); yalnız değişen parça yeni kayıt açar.
+**Sınav (bağımsız komut, 1281'den 4 ardışık kesit):** dosya **841 KB** — tek kesit 827 KB idi;
+3 ek kesit +14 KB (878 → 878/873/872 parça). Kesit başına artış ≈ 5 KB.
+**Tahmin (TAHMİN, ölçüm değil):** 827 KB ilk kesit + 3.006 × (5–15 KB) ≈ **15–50 MB**
+(1500–1900 arası daha çok devlet değiştiğinden artış büyüyebilir). 100 MiB eşiğinin altında,
+ama gerçek sayı tam koşuda ölçülmeli; > 50 MB ise tembel yükleme + dönem bölme gerekir.
+
+### 6.4 Süre (değişmedi, ölçüldü)
+Aynı 4 kesit: 1.094 sn (soğuk) · 155 · 122 · 370 sn (her biri bir komşu değişimi; kapanış
+önbellekten 4–11 sn, süre çekişmede 77–301 sn). Ortalama ~215 sn/kesit × 3.007 ≈ **~180 saat
+(~7,5 gün)**; yalnız yönlü tahmin (3 örnek). Hızlandırma adayı: çekişme adımı (paylaşım Voronoi'si)
+— bu turda dokunulmadı.
+
+### 6.5 Karar önerisi
+- **B hazır DEĞİL:** `data/dolgu.js` yok; üretim ≈ 1 hafta tek süreç. Boyut ve bellek artık engel değil.
+- Önerilen sıra: (1) çekişme adımını hızlandır (paylaşım nokta tavanı 400→100, ya da yalnız
+  `paylasim` cinsini kesit yerine dönem değişiminde hesapla) ve dar kesitle süre/görünüm farkını ölç;
+  (2) HAVVA'da `MOTOR_DOLGU_TARIH_BAS`/`KESIT` ile dilim dilim (örn. 100 kesit) üretim, çıktıları birleştir
+  ya da `py arac/dolgu.py` tam koşu, önbellek `_motor_onbellek/`; (3) boyut gerçekleşince yükleyici satırı.

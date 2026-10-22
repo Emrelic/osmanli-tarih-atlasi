@@ -43,7 +43,7 @@ import time
 
 import shapely
 from shapely import STRtree
-from shapely.geometry import (MultiPoint, MultiPolygon, Polygon, mapping,
+from shapely.geometry import (MultiPoint, MultiPolygon, Polygon, box, mapping,
                               shape)
 from shapely.ops import unary_union, voronoi_diagram
 
@@ -396,7 +396,18 @@ def _paylas(alan, adaylar):
         return [(adaylar[0][0], alan)]
     lat = alan.centroid.y
     adim = _derece(PAYLASIM_ADIM_KM, lat)
-    cevre = alan.buffer(_derece(YARICAP_KM, lat))
+    # 🔴 BELLEK: `alan` ham kıyı ayrıntısıyla (on binlerce köşe) 200 km tamponlanınca
+    #    shapely tek çağrıda >8 GB yedi (21 Ekim, 1281 kesiti, yığın izi `_paylas`
+    #    → buffer). `cevre` yalnız "gövde sınırının hangi kesimi alana yakın"
+    #    süzgecidir; kaba hat + az segmentle SÜPERSET kalır, sonucu bozmaz.
+    #    İkinci ölçüm: kaba hat + quad_segs=2 ile bile `buffer` 6 GB'ı aştı
+    #    (çekişmeli alan kıtalar boyu uzanabiliyor). Tampon HİÇ alınmaz:
+    #    süzgeç = alanın sınır kutusu + r. Kutu tampondan GENİŞTİR (süperset),
+    #    örnek nokta sayısı zaten PAYLASIM_NOKTA_TAVAN ile sınırlı.
+    _x0, _y0, _x1, _y1 = alan.bounds
+    _rx = _derece(YARICAP_KM, lat) * 1.05
+    _ry = YARICAP_KM / 111.32 * 1.05
+    cevre = box(_x0 - _rx, _y0 - _ry, _x1 + _rx, _y1 + _ry)
     pts, sahip = [], []
     for kim, g in adaylar:
         try:
@@ -996,6 +1007,25 @@ class Havuz(object):
         return j
 
 
+def _birlestir(kayitlar, acik, yeni, a, bitis, cins_sayac):
+    """KAYIT BAZLI dönem birleştirme. Anahtar = (devlet, cins, halka dizisi).
+
+    🔴 Eski hâl "kesidin TÜM imzası aynıysa uzat, değilse BÜTÜN kesidi yeniden
+       yaz"dı: dünyanın herhangi bir yerinde bir gövde değişince o kesidin 880
+       kaydı topluca tekrarlanıyordu (3.007 kesit × ~880 ≈ yüzlerce MB, 100 MiB
+       eşiğinin çok üstü). Şimdi yalnız DEĞİŞEN parçanın kaydı açılır; aynı
+       parça önceki kesitten (`t == a`) sürüyorsa kaydın `t`si uzatılır."""
+    for r in yeni:
+        key = (r["k"], r["c"], tuple(r["p"]))
+        onc = acik.get(key)
+        if onc is not None and onc["t"] == a:
+            onc["t"] = bitis
+        else:
+            kayitlar.append(r)
+            acik[key] = r
+            cins_sayac[r["c"]] = cins_sayac.get(r["c"], 0) + 1
+
+
 def js_yaz(yol, kayitlar, havuz, izi=None, ek_yorum=""):
     """data/dolgu.js — ad alanı `window.DOLGU_*` (D225: dosya verilirken
     değişken adı da verilir)."""
@@ -1042,7 +1072,7 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0):
         tarihler = tarihler[:kesit_sinir]
     havuz, kayitlar = Havuz(), []
     cins_sayac = {c: 0 for c in CINSLER}
-    onceki_imza, onceki_ilk = None, 0
+    acik = {}
     for n, a in enumerate(tarihler, 1):
         # Önbellek anahtarı = aralık indeksi (bkz. `_TALEP_ONB` başlığı).
         govdeler = [(kim, g, _ai) for _ai, (f, t, kim, g)
@@ -1052,15 +1082,7 @@ def kosudan(araliklar, kara, cikti, ilerleme=None, kesit_sinir=0):
         yeni = [{"f": a, "t": bitis, "k": pc["kim"], "c": pc["cins"],
                  "p": [havuz.ekle(x) for x in _parcalar(pc["g"])]}
                 for pc in parcalar]
-        imza = tuple(sorted((r["k"], r["c"], tuple(r["p"])) for r in yeni))
-        if imza and imza == onceki_imza:
-            for r in kayitlar[onceki_ilk:]:
-                r["t"] = bitis
-        else:
-            onceki_imza, onceki_ilk = imza, len(kayitlar)
-            kayitlar.extend(yeni)
-            for pc in parcalar:
-                cins_sayac[pc["cins"]] = cins_sayac.get(pc["cins"], 0) + 1
+        _birlestir(kayitlar, acik, yeni, a, bitis, cins_sayac)
         if ilerleme is not None:
             ilerleme(n, len(tarihler), a, len(parcalar))
     boy = js_yaz(cikti, kayitlar, havuz,
@@ -1158,9 +1180,13 @@ def _kara_yukle():
 def _kesitler():
     """Yazılmış A çıktısından kesit listesi: her tarihte hangi devletin
     hangi gövdesi canlı. A DOSYALARI YALNIZ OKUNUR."""
-    d = _js_oku(os.path.join(KOK, "data", "donemler.js"),
+    # A dosyalarının dizini: varsayılan bu ağacın data/'sı; başka bir koşunun
+    # çıktısı (örn. C:\atlas-kosu29\data) MOTOR_DOLGU_VERI_DIZIN ile okunur.
+    # YALNIZ OKUNUR — bu dizine hiçbir şey yazılmaz.
+    vd = os.environ.get("MOTOR_DOLGU_VERI_DIZIN") or os.path.join(KOK, "data")
+    d = _js_oku(os.path.join(vd, "donemler.js"),
                 ["DONEMLER", "PARCALAR", "PARCA_HALKA"])
-    y = _js_oku(os.path.join(KOK, "data", "devletler_harita.js"),
+    y = _js_oku(os.path.join(vd, "devletler_harita.js"),
                 ["DEVLET_HARITA", "DEVLET_PARCALAR", "DEVLET_PARCA_HALKA"])
     # (tarih) → [(kim, kaynak, idx_dizi)]
     araliklar = []
@@ -1196,6 +1222,11 @@ def _ana():
     print("    %d aralık · %d kesit tarihi (%.1f sn)"
           % (len(araliklar), len(tarihler), time.time() - t1), flush=True)
 
+    # Tek kesit / dar dilim üretimi (tam koşu DEĞİL): MOTOR_DOLGU_TARIH_BAS=<gün>
+    # o günden başlayan kesitleri alır, MOTOR_DOLGU_KESIT=<n> n tanesiyle keser.
+    _bas = os.environ.get("MOTOR_DOLGU_TARIH_BAS", "")
+    if _bas:
+        tarihler = [t for t in tarihler if t >= _bas]
     if sinir:
         tarihler = tarihler[:sinir]
 
@@ -1206,7 +1237,7 @@ def _ana():
     engelli = []          # (tarih, kim, km2) — "gerçek enklav, incelenecek"
     # Dönem birleştirme: ardışık kesitte dolgu BİREBİR aynıysa yeni kayıt
     # açılmaz, öncekinin `t`si uzatılır — `donemler.js`in kendi deseni.
-    onceki_imza, onceki_ilk = None, 0
+    acik = {}
     for n, a in enumerate(tarihler, 1):
         t2 = time.time()
         # 🔴 ÖNBELLEK ANAHTARI = ARALIK İNDEKSİ. Aynı devletin aynı dönemi
@@ -1254,15 +1285,7 @@ def _ana():
         for pc in parcalar:
             yeni.append({"f": a, "t": bitis, "k": pc["kim"], "c": pc["cins"],
                          "p": [havuz.ekle(x) for x in _parcalar(pc["g"])]})
-        imza = tuple(sorted((r["k"], r["c"], tuple(r["p"])) for r in yeni))
-        if imza and imza == onceki_imza:
-            for r in kayitlar[onceki_ilk:]:
-                r["t"] = bitis                      # dönemi uzat, kayıt açma
-        else:
-            onceki_imza, onceki_ilk = imza, len(kayitlar)
-            kayitlar.extend(yeni)
-            for pc in parcalar:
-                cins_sayac[pc["cins"]] = cins_sayac.get(pc["cins"], 0) + 1
+        _birlestir(kayitlar, acik, yeni, a, bitis, cins_sayac)
         print("    %3d/%d  %s  gövde %3d -> dolgu %3d parça · engellenen %d "
               "· %.1f sn (kapanış %.0f · çekişme %.0f · cins %.0f)"
               % (n, len(tarihler), a, len(govdeler), len(parcalar),
