@@ -312,6 +312,77 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Atlas 1281 'habesistan' ile uyumlu dikiş (zincir 1281-01-01'de biter). Aksum adlarının antik Auxumites ile modern Aksum aynı nokta kabul edildi (Schoff notları; kazı konumu >3 km sorunu açılmadı)."
  },
  {
+  "id": "allahabad",
+  "ad": "Ilâhâbâd (Allahabad)",
+  "atlas_ad": "Ilâhâbâd (Allahabad)",
+  "lat": 25.436,
+  "lon": 81.847,
+  "kat1900": 2,
+  "adlar": [
+   "Prayâga (Po-lo-ye-kia)",
+   "Ilâhâbâd (Allahabad)"
+  ],
+  "ilk": {
+   "t": "0644-01-01",
+   "gun": "644",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Harşa dönemi bölümü (s. 323-324); S. Beal, Si-yu-ki: Buddhist Records of the Western World (Hiuen Tsiang), Londra 1884, archive.org siyukibuddhistre01hsua / siyukibuddhistre02samu (Kitap V, 'Po-lo-ye-kia')",
+   "tanik": "invited his Chinese guest to accompany him to Prayaga (Allahabad)",
+   "ic_not": "İLK ANILIŞ (kuruluş DEĞİL, alt sınır): Hiuen Tsiang Prayâga'yı (Po-lo-ye-kia) tarif eder ('the capital, which lies between two branches of the river, is about 20 li round' — Beal) ve Harşa'nın 644'te iki nehrin birleştiği kumluktaki altıncı beş-yıllık şenliğine katılır (Smith: 'The present occasion (644 a. d.) was the sixth of the series'; Smith ayrıca bu şenliklerin ~30 yıldır yapıldığını Harşa'dan aktarır). Daha eski anılışlar (Purânalar, Mahâbhârata tîrtha listeleri, Aşoka sütunu) ya tarihsiz ya da başka yerden (Kausâmbî) gelmedir; kullanılmadı. Atlas noktası (25.436, 81.847) ile Prayâga'nın çekirdeği olan Sangam/Kale arasındaki mesafe ÖLÇÜLMEDİ (3 km sınırı kontrolü bekliyor). Kuruluş tarihi bulunamadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0644-01-01",
+    "t": "0648-01-01",
+    "d": "harsha",
+    "kesinlik": "yil",
+    "boyasiz": true,
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Harşa bölümü; Smith, Valabhî bölümü ('In 643-4, when Harsha held the solemn assemblies at Kanauj and Prayaga')",
+    "ic_not": "Harşa (Śîlâditya) Prayâga'daki şenliğe tüm vasal krallarla ve mutlak hükümdar olarak başkanlık eder; ölümü Smith'e göre 648 (künye 'harsha' 606-647 → 1 yıl hayalet uyarısı; KÜNYE GENİŞLET önerisi). Şehrin doğrudan idaresi mi Harşa'nın vasalı mı olduğu kaynakta açık değil (beyanlı yaklaşıklık)."
+   },
+   {
+    "f": "0648-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı (Prayâga/Ilâhâbâd için 648-1281 arası sürekli sahip kaydı açılmadı); tek tanık: Smith — Trilocanapâla'nın 1027'de 'Allahabad yakınında bir köy bağışı' yapması",
+    "ic_not": "~630 yıllık BEYANLI BOŞLUK. Tanıklar: (1) Smith: Pratihâra kalıntısı Trilocanapâla 1027'de 'made the grant of a village near Allahabad' (şehrin sahibini kesin vermez); (2) Gâhadavâla (1090-1193) Kannauj–Benâres arasında olmakla birlikte Allahabad'ı adıyla anan kaynak bulunamadı; (3) CHI3: Aralık 1242'de Bengal valisi Tuğrıl 'Allahabad'ın üstündeki Gange kıyısı Kara'ya' yürüdü — Kara–Mânikpûr Delhi ikta'sıdır (Allahabad ona komşu, ama adıyla geçmez). Boşluk doldurma merdiveni: TDV (Ilâhâbâd/Prayâga maddesi bu oturumda bulunamadı: islamansiklopedisi.org.tr/ilahabad ve /cavnpur yumuşak 404 verdi), Smith, CHI3, Beal tarandı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0644-01-01",
+    "gun": "644",
+    "k": "diger",
+    "b": "Harşa, Hiuen Tsiang'ın da katıldığı altıncı beş-yıllık şenliği Prayâga'da (iki nehrin birleştiği kumluk) yapar; tüm vasal krallar hazırdır.",
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni) s. 323-324",
+    "tanik": "The present occasion (644 a. d.) was the sixth of the series"
+   },
+   {
+    "t": "0648-01-01",
+    "gun": "648",
+    "k": "diger",
+    "b": "künye geçişi: Harşa'nın ölümü (648); imparatorluk dağılır, Prayâga'nın sahibi bundan sonra kaynakta belirsiz.",
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Geç Gupta bölümü",
+    "tanik": "death of the paramount sovereign, Harsha, in 648 a.d."
+   },
+   {
+    "t": "1027-01-01",
+    "gun": "1027",
+    "k": "diger",
+    "b": "Pratihâra soyundan Trilocanapâla Allahabad yakınında bir köyü bağışlar (sahiplik göstergesi; dönem açılmadı).",
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Kannauj bölümü",
+    "tanik": "made the grant of a village near Allahabad in 1027 a. d"
+   }
+  ],
+  "dikis_beyan": "Atlasın 1281-01-01 'Delhi Sultanlığı' başlangıç iddiası için Ilâhâbâd'a özgü kaynak bulunamadı (Delhi'nin Doab–Kara bölgesindeki ikta'ı CHI3'te 1240'larda belgelidir: 'Kara … on the Ganges above Allahabad', Aralık 1242). 1281 günü için olay yazılmadı (yer tutucu olay uydurulmaz).",
+  "ic_not": "Zincir yalnız ilk anılıştan itibaren kurulabildi (644). 'Ilâhâbâd' adı (Akbar dönemi) 1281 sonrası olduğundan bu kayıtta tarihlendirilmedi. Atlas düzeltme önerisi: yok; atlas noktası 1281'den itibaren Delhi'ye bağlı, ama 644-1281 arası tanık bulunamadı."
+ },
+ {
   "id": "almalik",
   "ad": "Almalık (Almalığ)",
   "atlas_ad": "Almalık (Almalığ)",
@@ -2237,6 +2308,158 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "AÇIK BORÇLAR: (1) Ahamenî evresi (TDV: 329'a kadar satraplık merkezi) tarihsiz başlangıç yüzünden zincire girmedi — Behistun ve Herodotos bölge adı verir, şehir tarihi vermez. (2) -0322 ile 1198 arası uzun dilimlerde (Kuşan-Eftalit-Sâsânî-Göktürk) sınırlar künye sınırlarıdır; kaynaklı olanlar: İskender MÖ 329, Arap 662-63, Esed 725, Ya‘kūb 870, Sâmânî 900 (Barthold gün), Gazneli Mayıs 999, Selçuklu 1043, Gurlu 1152/1198. (3) KÜNYE: atlas künyesi yok olanlar: tohar-yuezhi. (4) ÇELİŞKİ: EI1 1040/1206 (Selçuklu/Harezmşah) vs TDV 1043/1205; TDV esas; EI1 1227 Cengiz tahribi hatalı (TDV 1221). 3 KM: atlas noktası = modern Belh; eski şehir aynı alan (Bala Hisar) — mesafe ölçülmedi (OSM/Wikidata bu oturumda alınmadı)."
+ },
+ {
+  "id": "benares",
+  "ad": "Benâres (Vârânasî)",
+  "atlas_ad": "Benâres (Vârânasî)",
+  "lat": 25.317,
+  "lon": 83.006,
+  "kat1900": 2,
+  "adlar": [
+   "Kâşî (Kasi)",
+   "Vârânasî",
+   "Benâres"
+  ],
+  "ilk": {
+   "t": "-0700-01-01",
+   "gun": "MÖ 8. yüzyıl",
+   "nicelik": "arkeolojik",
+   "kesinlik": "yuzyil",
+   "kaynak": "Travis L. Smith, giriş bölümü, Banaras Revisited: Scholarly Pilgrimages to the City of Light (ed. I. Keul), Berlin 2014, s. 30 (archive.org keul_2014_book); dayandığı: Singh 1985 s. 245, Bakker 1996 s. 33",
+   "tanik": "since at least the eighth century BCE",
+   "ic_not": "Arkeolojik: 'şehir en azından MÖ 8. yüzyıldan beri sürekli iskân edilmiştir' (Smith/Keul 2014, özet cümle; kazı raporu — Rajghat, A. K. Narain & T. N. Roy, BHU — doğrudan açılamadı: IAR 1963-64 Rajghat'ta VI evre ve doğal zemine 13 m derinlik anlatır ama tarih vermez; IAR 1957-62 ciltlerinin OCR'ı bozuk, radyokarbon tarihi okunamadı). Aralık ucu: 8. yüzyılın SON ucu = MÖ 701 → astronomik -0700 (güvenli uç). YAZILI tanıklar var ama TARİHSİZ: Pali Câtaka/Mahâparinibbâna (Buda döneminde Kâşî); TARİHLİ ilk yazılı tanık bulunamadı (Hiuen Tsiang MS ~640 çok geç) — bu yüzden nicelik 'arkeolojik'. Rajghat'ın atlas noktasına uzaklığı ölçülmedi (≈3 km sınırında olabilir); kazı yeri uzaksa antik yer ayrı kayıt olarak önerilir. TDV: 'milâttan önce 1200 yıllarında Suhotra’nın oğlu Kaşyâ tarafından kurulduğu söylenen' — gelenek, kullanılmadı."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0700-01-01",
+    "t": "-0449-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yuzyil",
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni); The Cambridge History of India, c. I: Ancient India (ed. E. J. Rapson), Cambridge 1922 (archive.org cambridgehistory01raps, djvu metni)",
+    "ic_not": "Bu dilimde Kâşî (Benâres) küçük bir krallıktır; sıra Kâşî (bağımsız) → Kosala'ya ilhak → Magadha hâkimiyeti. Smith: Kâşî 'tarihsel dönemin başında' Kosala'ya katılmıştı; CHI1: Buda'nın yaşadığı sırada 'Kosala dağlıları Benâres'i çoktan fethetmişti'. Her iki geçişin de YILI/yüzyılı kaynakta yok (CHI1 ve Smith tarihsiz anlatır), bu yüzden dilim açılmadı; Kâşî, Kosala için künye bulunmadığından sahibi tek dönem olarak yazılamadı → __BOSLUK__ (beyanlı). Önerilen künyeler: 'kasi-krallik', 'kosala' (ömürleri kaynakta verilmedi)."
+   },
+   {
+    "f": "-0449-01-01",
+    "t": "-0320-01-01",
+    "d": "magadha",
+    "kesinlik": "yuzyil",
+    "boyasiz": true,
+    "kaynak": "The Cambridge History of India, c. I: Ancient India (ed. E. J. Rapson), Cambridge 1922 (archive.org cambridgehistory01raps, djvu metni), 'Origin of the Magadha power' (Kâşî/Kosala/Videha üzerindeki üstünlük)",
+    "ic_not": "CHI1: Kâşî, Kosala ve Videha üzerindeki üstünlük 'muhtemelen' Bimbisâra'nın oğlu Ajâtaşatru'nun işidir, 'beşinci yüzyılın ilk yarısında'. f 'en geç tanıktan' = ilk yarının SON ucu (MÖ 450 → astronomik -0449); önceki dilim __BOSLUK__ (kuşak üstü). Künye 'magadha' (-0542..-0320) boyasız."
+   },
+   {
+    "f": "-0320-01-01",
+    "t": "-0183-01-01",
+    "d": "maurya",
+    "kesinlik": "yil",
+    "boyasiz": true,
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Candragupta'nın tahta çıkışı bölümü; The Cambridge History of India, c. I: Ancient India (ed. E. J. Rapson), Cambridge 1922 (archive.org cambridgehistory01raps, djvu metni), Pushyamitra/Brihadratha bölümü",
+    "ic_not": "Smith: Candragupta'nın Magadha tahtına çıkışı 'neredeyse kesin' MÖ 321 (astronomik -0320); toprakları 'en azından Kosala ve Benâres krallıklarını kapsıyordu' (kesinlik 'probably' = beyanlı yaklaşıklık). Bitiş: CHI1'e göre Purâna kronolojisiyle Pushyamitra darbesi 'c. MÖ 184' (-0183); künye 'maurya' -0184'te biter (30 günden uzun fark: hayalet uyarısı beklenir)."
+   },
+   {
+    "f": "-0183-01-01",
+    "t": "1033-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı (Benâres için 1033 öncesi kesin sahip kaydı bu oturumda açılmadı)",
+    "ic_not": "~1200 yıllık dilim BEYANLI BOŞLUK. Ipuçları (hiçbiri Benâres'in sahibini KESİN söylemez, dönem açılmadı): Smith — Yue-çi (Kuşan) egemenliği MS 90-100 dolayında 'muhtemelen Benâres'e kadar' uzandı; 'Adsız Kral' sikkeleri Kâbil'den Benâres ve Gâzîpûr'a kadar yaygın; Gupta sütunu Bhitari (Benâres'in doğusu) ama Benâres adı geçmez; Harşa (606-648) ve Gürcara-Pratihâra (783-1027) Kannauj merkezli — Benâres'in o devirdeki sahibine kanıt bulunamadı. Boşluk doldurma merdiveni: TDV (Benâres maddesi yalnız 1193 sonrasını verir), Smith, CHI1/CHI3 tarandı; komşu/abi merkez (Kannauj) zinciri ayrıca araştırılabilir."
+   },
+   {
+    "f": "1033-01-01",
+    "t": "1090-01-01",
+    "d": "gurjara-pratihara",
+    "kesinlik": "yil",
+    "kaynak": "The Cambridge History of India, c. III: Turks and Afghans (ed. W. Haig), Cambridge 1928 (archive.org cambridgehistory03wols, djvu metni), 'Native States of Northern India' bölümü (s. 509-510); V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Kannauj bölümü",
+    "ic_not": "Künye 'gurjara-pratihara' 1027'de biter; CHI3: Râcyapâla'nın kalıntı toprakları oğlu Trilocanapâla'ya geçti, o 'sonradan çoğunlukla Benâres'te oturdu' ve Benâres 1033'te Ahmed Niyâltigin'ce yağmalandı (Elliot II: İbnü'l-Esîr, 424 H = 1033). f = o tanığın yılı (en geç tanıktan; önceki dilim BOŞLUK); t = Gâhadavâla'nın 'yaklaşık 1090'da' Benâres'i alması (CHI3: 'Shortly before 1090'). KÜNYE GENİŞLET önerisi: Pratihâra soyunun Kannauj-Bari kalıntısı 1090'a dek (hayalet uyarısı beklenir)."
+   },
+   {
+    "f": "1090-01-01",
+    "t": "1193-01-01",
+    "d": "gahadavala",
+    "kesinlik": "yil",
+    "kaynak": "The Cambridge History of India, c. III: Turks and Afghans (ed. W. Haig), Cambridge 1928 (archive.org cambridgehistory03wols, djvu metni) s. 509-510; V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Gaharwar bölümü",
+    "ic_not": "CHI3: 'Shortly before 1090' Gâhadavâla soyundan Candradeva Benâres ve Ayodhya'yı aldı; Smith: Candradeva'nın otoritesi 'kesinlikle Benâres ve Ayodhya üzerinde'. f 'en geç' (CHI3 'shortly before 1090' → 1090-01-01). t: TDV ve Smith 1193 (çift teyit; aşağıda). Künye 'gahadavala' 1089-1197."
+   },
+   {
+    "f": "1193-01-01",
+    "t": "1206-03-15",
+    "d": "gurlu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Benâres' (A. S. Bazmee Ansari, 1992), https://islamansiklopedisi.org.tr/benares; V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Muhammedan fetih bölümü; The Cambridge History of India, c. III: Turks and Afghans (ed. W. Haig), Cambridge 1928 (archive.org cambridgehistory03wols, djvu metni)",
+    "ic_not": "ÇİFT TEYİT 1193: TDV 'Benâres 1193’te Gūrî Hükümdarı Muizzüddin Muhammed b. Sâm tarafından ele geçirildi'; Smith: 'In 1193 A.D. (589 a.h.), both Delhi and Kanauj fell … Benares … in the same year became the prize'. ÇELİŞKİ (beyan): Elliot II (Hasan Nizâmî Tâc el-Me'âsir) Benâres alınışını 590 H = 1194'e (Kol seferinden sonra) koyar; TDV esas alındı. CHI3: Müslümanlar bölgede otoriteyi hemen kuramadı, Mahoba Çandelleri Kannauj'da yerel hükümdar oldu — Benâres'in fiilî yönetimi 1193-1206 arası Aybek'in (Gurlu adına) elindedir (beyanlı yaklaşıklık). Gün: 1193-01-01 yıl hassasiyeti."
+   },
+   {
+    "f": "1206-03-15",
+    "t": "1281-01-01",
+    "d": "delhi-sultanligi",
+    "kesinlik": "gun",
+    "kaynak": "The Cambridge History of India, c. III: Turks and Afghans (ed. W. Haig), Cambridge 1928 (archive.org cambridgehistory03wols, djvu metni) s. 49 (Muhammed b. Sâm'ın ölümü, 15 Mart 1206); Elliot & Dowson, The History of India as Told by Its Own Historians, c. II (Minhâc-ı Sirâc, Tabakât-ı Nâsırî; Hasan Nizâmî), archive.org ffec_the-history-of-india... djvu metni (Tabakât XXI, Iltutmuş)",
+    "ic_not": "Künye geçişi Gurlu → Delhi Sultanlığı: CHI3: Muizzüddin 1206 Mart'ında Indus kıyısında öldürüldü; Kutbüddin Aybek 'efendisinin ölümünde Sultan unvanını aldı'. Minhâc (Tabakât-ı Nâsırî, Iltutmuş): 'Dadáün, Oudh, Benares, and the Siwálik hills came into his possession' (Iltutmuş'un 614 H/1217 sonrası genişlemesi) — Benâres'in Delhi'ye fiilî bağlılığı 1206-1217 arası kesin değil (beyanlı yaklaşıklık). Atlas 1281-01-01 ile aynı sahip (Delhi)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0449-01-01",
+    "gun": "MÖ 5. yüzyılın ilk yarısı (en geç MÖ 450)",
+    "k": "fetih",
+    "b": "Magadha, Ajâtaşatru döneminde Kâşî (Benâres), Kosala ve Videha üzerinde üstünlük kurar (CHI1: 'muhtemelen').",
+    "kaynak": "The Cambridge History of India, c. I: Ancient India (ed. E. J. Rapson), Cambridge 1922 (archive.org cambridgehistory01raps, djvu metni), Magadha'nın yükselişi bölümü",
+    "tanik": "in the first half of the fifth century"
+   },
+   {
+    "t": "-0320-01-01",
+    "gun": "MÖ 321",
+    "k": "taht",
+    "b": "Candragupta Magadha tahtına çıkar; Maurya egemenliği Kosala ve Benâres'i kapsar (Smith: 'muhtemelen').",
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Candragupta bölümü",
+    "tanik": "with practical certainty in 321 b. c."
+   },
+   {
+    "t": "-0183-01-01",
+    "gun": "yaklaşık MÖ 184",
+    "k": "taht",
+    "b": "Pushyamitra, Maurya'nın son kralı Brihadratha'yı öldürür (Purâna kronolojisi); Maurya egemenliği sona erer.",
+    "kaynak": "The Cambridge History of India, c. I: Ancient India (ed. E. J. Rapson), Cambridge 1922 (archive.org cambridgehistory01raps, djvu metni) s. 517-518",
+    "tanik": "slew his master and reigned in his stead"
+   },
+   {
+    "t": "1033-01-01",
+    "gun": "424 H / 1033",
+    "k": "isgal",
+    "b": "Gaznelilerin Pencap valisi Ahmed Niyâltigin Benâres'e saldırıp yağmalar; Pratihâra kalıntısı Trilocanapâla Benâres'te oturmaktadır.",
+    "kaynak": "The Cambridge History of India, c. III: Turks and Afghans (ed. W. Haig), Cambridge 1928 (archive.org cambridgehistory03wols, djvu metni) s. 509; Elliot & Dowson, The History of India as Told by Its Own Historians, c. II (Minhâc-ı Sirâc, Tabakât-ı Nâsırî; Hasan Nizâmî), archive.org ffec_the-history-of-india... djvu metni ('Ahmad Nialtigin at Benares', tarih OCR'dan 424 H/1033 okundu)",
+    "tanik": "which was attacked and plundered by Ahmad Niyaltigin"
+   },
+   {
+    "t": "1090-01-01",
+    "gun": "1090 öncesi (en geç)",
+    "k": "fetih",
+    "b": "Gâhadavâla (Gaharwar) soyundan Candradeva Benâres ve Ayodhya'yı alır; Pratihâra otoritesinin son izlerini siler.",
+    "kaynak": "The Cambridge History of India, c. III: Turks and Afghans (ed. W. Haig), Cambridge 1928 (archive.org cambridgehistory03wols, djvu metni) s. 509-510; V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Gaharwar bölümü",
+    "tanik": "Shortly before 1090 Chandradeva, of the Gaharwar clan, acquired possession of Benares"
+   },
+   {
+    "t": "1193-01-01",
+    "gun": "1193 (589 H)",
+    "k": "fetih",
+    "b": "Gurlu Muizzüddin Muhammed b. Sâm Benâres'i ele geçirir; Gâhadavâla soyu (Kannauj) yıkılır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Benâres' (A. S. Bazmee Ansari, 1992), https://islamansiklopedisi.org.tr/benares; V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Muhammedan fetih bölümü",
+    "tanik": "Benâres 1193’te Gūrî Hükümdarı Muizzüddin Muhammed b. Sâm tarafından ele geçirildi."
+   },
+   {
+    "t": "1206-03-15",
+    "gun": "15 Mart 1206",
+    "k": "diger",
+    "b": "künye geçişi: Gurlu → Delhi Sultanlığı (Muizzüddin Muhammed b. Sâm'ın Indus kıyısında öldürülmesi; Kutbüddin Aybek Sultan unvanını alır).",
+    "kaynak": "The Cambridge History of India, c. III: Turks and Afghans (ed. W. Haig), Cambridge 1928 (archive.org cambridgehistory03wols, djvu metni) s. 49",
+    "tanik": "he was assassinated, on March 15, on the bank of the Indus"
+   }
+  ],
+  "ic_not": "Zincir MÖ 8. yy'dan atlasın 1281 başlangıcına kesintisiz; iki büyük BEYANLI BOŞLUK var (Kâşî/Kosala dilimi ve MÖ 183-MS 1033). 1193 fethi TDV + Smith ile çift teyitli (Elliot II 1194 verir). Atlas 1281'de Delhi ile başlar: kaynakla uyumlu (Delhi 1206'dan beri). Atlas düzeltme önerisi yok."
  },
  {
   "id": "benin-sehri",
@@ -4895,6 +5118,94 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ZİNCİR YOK (kural): ilk.t 1719-04-08 atlas başlangıcıyla (1719-04-08, portekiz-brezilyasi) aynı → sahip yazılmaz; atlas kur'u KAYNAKLI (IBGE + UFU akademik makalesi, ikisi 8 Nisan 1719 der; çift teyit sayılır ama UFU IBGE 2007'ye atıf yapar, bağımsızlığı sınırlı). Denetim 'atlas başlangıcı düzeltilmeli' uyarısı BEKLENİR. ATLAS DÜZELTME ÖNERİSİ: gün doğru; ancak (a) YER FARKI: 8 Nisan 1719 tutanağı Forquilha'da (Coxipó kıyısı) düzenlendi; bugünkü kent merkezi (atlas koordinatı) Miguel Sutil'in 1722'de Prainha deresi kıyısında kurduğu 'Lavra do Sutil' mevkiidir — IBGE: 'A mudança de Cuiabá para o sítio atual se deve ao sorocabano Miguel Sutil de Oliveira'; UFU makalesi (Bezerra de Sá'ya atıfla) Sutil'in yeni madenlere 1722'de geldiğini yazar. Forquilha–merkez mesafesi kaynakta verilmedi, ÖLÇÜLMEDİ (>3 km ise kural gereği modern nokta kendi kuruluşundan başlamalı: 1722 günü bulunamadı; öneri Forquilha'yı ayrı kayıt + merkez için 1722 araştırması). (b) vila: Vila Real do Senhor Bom Jesus de Cuiabá 'instalado em 01-01-1727' (IBGE; 'erigida' yılı IBGE'de 1726, UFU 1 Ocak 1727 yazar — Cuiabá şehir 17-09-1818 carta de lei). Öncül: IBGE yerli ad kökeni 'lugar em que os bororós costumavam pescar' (Albisetti) ve Pascoal'ın 'aldeamentos de índios coxiponés' haberi aldığı (IBGE); UFU'ya göre Manoel de Campos Bicudo 1673/1682'de Coxipó–Cuiabá birleşiminde São Gonçalo povoado'sunu kurmuş, Pascoal 1718'de terk edilmiş halde bulmuş (IBGE 2007 atfıyla). Bu yazılı öncüllerin gün/sahip kaydı yok → zincir yazılmadı. Arkeolojik kayıt (Cuiabá bölgesi) aranmadı/bulunamadı. Ata'nın birincil neşri (Anais da Biblioteca Nacional / Documentos Históricos) bu oturumda açılamadı: bulunamadı. kat1900 2 (eyalet merkezi Mato Grosso, 1835'ten)."
  },
  {
+  "id": "cuttack",
+  "ad": "Kattak (Cuttack)",
+  "atlas_ad": "Kattak (Cuttack)",
+  "lat": 20.465,
+  "lon": 85.879,
+  "kat1900": 3,
+  "adlar": [
+   "Kataka",
+   "Abhinava Varanasi Kataka",
+   "Cuttack"
+  ],
+  "ilk": {
+   "t": "1231-01-01",
+   "gun": "1231 (Nagari bakır levha; kuruluş Anangabhima III saltanatında 1211-1238, en geç 1231)",
+   "nicelik": "kurulus",
+   "kesinlik": "belirsiz",
+   "kaynak": "ASI/IGNCA belgeleme formu OR/CTC-37 'Barabati Fort, Cuttack' (K. C. Panigrahi 1986 ve ASI kayıtlarına dayanır), https://ignca.gov.in/asi_reports/orcuttuck053.pdf (curl+pdftotext)",
+   "tanik": "laid the foundation of the Abhinava Varanasi Kataka",
+   "ic_not": "Levha 1231 tarihli (belge: 'Nagari copper plate inscription, issued in 1231 A.D.'); Anangabhima III'ün şehri/kaleyi kurduğu levhada geçer, kuruluş günü levhadan önce, saltanat (1211-1238) içinde: GÜVENLİ UÇ 1231 alındı, kesinlik belirsiz. Levhanın kendi metni bu oturumda okunmadı (belgeleme formu ve Sahu 1964 ikincil aktarımı). ÇİFT TEYİT (kuruluş en geç 13. yy ilk yarısı): Sahu, Utkal University History of Orissa (1964), 'Historical Geography' dn.: 'The Gaiiga capital was later on transferred to Abhinava Varanasi kataka (Cuttack) during the time of Anafigabhimadeva III, (1212 — 38 A. D.)' (archive.org utkaluniversityh0000nksa). GELENEK, kullanılmadı: Madala Panji Makar (Markata/Nripa) Kesari 953-961 (O'Malley 1933 Bihar and Orissa DG Cuttack: 'cannot, however, be regarded as authoritative'); ASI formu: 'contemporary records do not support the theory'. Eski 'Kataka' kayıtlı bakır levhalar (Sailodbhava/Somavamsi) Cuttack değil 'ordugâh' anlamındadır: R. D. Banerji, History of Orissa I (1930), s. 210-211. Banerji: 'Kataka may therefore be a capital of recent origin'. 1231 öncesi yazılı tanık bulunamadı; arkeolojik tarihleme bulunamadı (Banerji: Cuttack çevresinde eski kalıntı yok)."
+  },
+  "kur": {
+   "t": "1231-01-01",
+   "gun": "1231 (en geç; Anangabhima III saltanatı 1211-1238)",
+   "kesinlik": "belirsiz",
+   "kaynak": "ASI/IGNCA belgeleme formu OR/CTC-37 'Barabati Fort, Cuttack', https://ignca.gov.in/asi_reports/orcuttuck053.pdf",
+   "tanik": "laid the foundation of the Abhinava Varanasi Kataka"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1231-01-01",
+    "t": "1281-01-01",
+    "d": "orissa",
+    "kesinlik": "yil",
+    "kaynak": "ASI/IGNCA OR/CTC-37 (Anangabhimadeva III, Ganga kralı, 1211-1238); Sahu 1964, Utkal University History of Orissa (Ganga başkenti Abhinava Varanasi Kataka'ya taşındı)",
+    "ic_not": "Doğu Ganga hâkimiyeti; künye 'orissa' (1000-1568) atlasın 1281 sahibiyle aynı, el değiştirme yok. 1231-1281 arası Müslüman Bengal akınları (Tabakât-ı Nâsırî) Cuttack'ı ele geçirmedi; ayrıntı taranmadı."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1231-01-01",
+    "gun": "1231 (en geç; saltanat 1211-1238)",
+    "k": "kurulus",
+    "b": "Ganga kralı Anangabhima III, Mahanadi kıyısında Barabati'de Abhinava Varanasi Kataka'yı (Cuttack) kurar; Ganga başkenti buraya taşınır.",
+    "kaynak": "ASI/IGNCA belgeleme formu OR/CTC-37, https://ignca.gov.in/asi_reports/orcuttuck053.pdf; Sahu 1964 Utkal University History of Orissa",
+    "tanik": "laid the foundation of the Abhinava Varanasi Kataka"
+   }
+  ],
+  "ic_not": "Kuruluş yalnız 'en geç 1231' (Anangabhima III levhası); 953-989 arası Makar/Nripa Kesari kuruluşu gelenektir, tarihsel tanık yok. Atlas Kattak 1281 'orissa' ile başlıyor: 1231-1281 dolduruldu, atlas düzeltme gerekmez (kur: 1231 yazılabilir). Kaynak notu: levha metni doğrudan okunamadı; OHRJ (magazines.odisha.gov.in ohrj-018.pdf) bağlantısı açılamadı."
+ },
+ {
+  "id": "dakka",
+  "ad": "Dakka (Dhaka)",
+  "atlas_ad": "Dakka (Dhaka)",
+  "lat": 23.811,
+  "lon": 90.413,
+  "kat1900": 1,
+  "adlar": [
+   "Dhaka / Dakka",
+   "Cihângîrnagar (Jahangirnagar, 1610'dan)"
+  ],
+  "ilk": {
+   "t": "1456-01-01",
+   "gun": "1456",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Banglapedia 'Dhaka' (https://en.banglapedia.org/index.php/Dhaka), 'Dhaka (to 1800 AD)'; ikinci tanık: Vikipedi 'Binat Bibi Mosque' (1454, Farsça taş kitabe)",
+   "tanik": "the earliest one is dated from 1456 AD",
+   "ic_not": "Yerinde tarihli yapı (kitabe) tanığı: Banglapedia 'pre-Mughal relics are two mosques at Dhaka proper and one at Mirpur; the earliest one is dated from 1456 AD'. Vikipedi aynı camiyi (Binat Bibi, Narinda) 1454 verir (Nasîrüddin Mahmud Şah dönemi) — iki kaynak 2 yıl farklı; GÜVENLİ (son) uç 1456 alındı. Banglapedia 'Its existence in the pre-Muslim period cannot be ascertained with certainty'; TDV 'Dakka': 'tarihî kayıtları İslâm öncesine kadar uzanır' ama TARİH VERMEZ. Adın Rajatarangini'deki 'Dhakka' ya da Samudragupta yazıtındaki 'Davaka' ile eşitlenmesi Banglapedia'da 'ya da' diye sayılan hipotezdir — yeri kesin olmayan ad eşitlemesi, başlangıç sayılmadı. Vikipedi 'History of Dhaka': 2017-18 Eski Dhaka Merkez Cezaevi kazısında MÖ 500-200 çanak çömlek (arkeolojik) — yayın künyesi bu oturumda BULUNAMADI (OpenAlex kota doldu, Crossref'te eşleşme yok), ark yazılmadı. 1456 öncesi sahiplik zinciri için kaynak BULUNAMADI."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1456-01-01",
+    "gun": "1456",
+    "k": "diger",
+    "b": "Dhaka'daki en eski tarihli (Bengal Sultanlığı dönemi) cami; Dhaka'nın ilk tarihli tanığı (ilk anılış).",
+    "kaynak": "Banglapedia 'Dhaka' (https://en.banglapedia.org/index.php/Dhaka); Vikipedi 'Binat Bibi Mosque' (1454)",
+    "tanik": "the earliest one is dated from 1456 AD"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Dakka noktası 1281-01-01'de 'delhi-sultanligi' ile başlıyor ve kd: 1608'de. Bu oturumda 1456 öncesi Dhaka'ya dair tarihli tanık BULUNAMADI; 1281-1456 arası Dhaka sahipliği kaynaksız. Doğu Bengal 1281'de Delhi'ye bağlı olmayabilir: Banglapedia 'Dhaka' şehri 'pre-Mughal... place of some importance' diyor, Vikipedi Sena sonrası bölgeyi Bikrampur Deva hânedanı ve Delhi'nin Türk valileri olarak anar — kaynak TDV/akademik doğrulanmadı. Öneri: 1281'de başlatmak yerine tanıklı olan tarihte (1456) ya da kaynaklı Sonargaon zincirine bağlayarak (abi merkez: Sonargaon; Banglapedia 'Sonargaon') başlatmak. Atlas denetle uyarısı: 'atlas noktası 1281'de başlıyor, şehir 1456'da'."
+ },
+ {
   "id": "dali",
   "ad": "Dali",
   "atlas_ad": "Dali",
@@ -6141,6 +6452,47 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "KAYNAK: TDV Van (curl), Iranica Urartu/Cyrus, TDV İskender/Şirvanşahlar/İlhanlılar. ZİNCİR ZAYIFLIĞI: -0065..226 arası ve 700..800 arası BOŞLUK (beyanlı); Ermeni krallıkları (Orontid, Artaksiad, Arşakuni) ve Roma/Part/Bizans ayrımı için akademik kaynak bu oturumda bulunamadı. ATLAS ÖNERİSİ: atlas Eski Van (Tuşpa)'yı 1232'de selçuklu ile başlatıyor; TDV bunu doğrular (1232). Atlasta ayrı \"Van\" noktası da var (38.502, 43.393 — 1915 sonrası yeni Van, kurulu 1918-04-02): Eski Van ile aralarında ~4,7 km, kendi hesabım. kat1900=2 (Van vilayeti)."
  },
  {
+  "id": "faizabad",
+  "ad": "Feyzâbâd (Ayodhya)",
+  "atlas_ad": "Feyzâbâd (Ayodhya)",
+  "lat": 26.775,
+  "lon": 82.145,
+  "kat1900": 2,
+  "adlar": [
+   "Feyzâbâd (Fyzabad / Faizabad)"
+  ],
+  "ilk": {
+   "t": "1730-01-01",
+   "gun": "yaklaşık 1730",
+   "nicelik": "kurulus",
+   "kesinlik": "onyil",
+   "kaynak": "Encyclopaedia Britannica, 11. bs. (1911), 'Fyzabad' (wikisource.org); The Imperial Gazetteer of India, c. XII (Oxford 1908), 'Fyzabad City' s. 117-118 (archive.org in.ernet.dli.2015.39054, djvu metni)",
+   "tanik": "When Saadat Khan was appointed governor of Oudh he built a hunting lodge 4 miles west of Ajodhya",
+   "ic_not": "KURULUŞ: IGI 1908: Avad valisi Saadet Han 'Ajodhya'nın 4 mil batısında bir av köşkü yaptı; bahçeler, dükkânlar çevresinde büyüdü, 'Feyzâbâd' adı halefi Safdar Cang zamanında verildi; Şucaüddevle (1764 sonrası) şehri genişletip tahkim etti, 1775'te Asafüddevle Lucknow'a taşıdı. Yıl IGI'da yok; EB 1911 'Fyzabad was founded about 1730 by Sa'adat Ali Khan' (aynı yazar hatası: Saadet Han); Wikipedia ikinci tanık olarak 1730 verir. Yaklaşık yıl → 'onyil' hassasiyeti. ÖNEMLİ: şehir 1281'de YOKTU. Antik Ayodhya noktası (IGI: 4 mil ≈ 6.4 km doğuda; Gogra kıyısında) atlas noktasından > 3 km → BURADA yazılmaz; ayrı kayıt önerisi aşağıda (ic_not)."
+  },
+  "kur": {
+   "t": "1730-01-01",
+   "gun": "yaklaşık 1730",
+   "kesinlik": "onyil",
+   "kaynak": "Encyclopaedia Britannica, 11. bs. (1911), 'Fyzabad'; IGI c. XII 'Fyzabad City'",
+   "tanik": "Fyzabad was founded about 1730 by Saʽadat Ali Khan"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1730-01-01",
+    "gun": "yaklaşık 1730",
+    "k": "kurulus",
+    "b": "Avad valisi Saadet Han Ajodhya'nın 4 mil batısında av köşkü yaptırır; çevresinde Feyzâbâd büyür.",
+    "kaynak": "The Imperial Gazetteer of India, c. XII (1908), 'Fyzabad City' s. 117; EB 1911 'Fyzabad' (yıl)",
+    "tanik": "he built a hunting lodge 4 miles west of Ajodhya"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ (önemli): atlas 'Feyzâbâd (Ayodhya)' noktasını 1281'den Delhi/Cavnpur/Babür zinciriyle başlatıyor, ama kaynağa göre şehir ~1730'da kuruldu (atlas kd:1722 ile uyumlu). 1281-1730 arası sahip zinciri bu noktaya ait DEĞİL. Öneri: (a) noktanın başlangıcını 1730'a çek (kayıt nokta kendi kuruluşundan başlar) ve 1281-1730 dilimini Ayodhya (antik) noktasına ver; ya da (b) noktayı Ayodhya koordinatına (≈6 km doğu) taşı. AYRI KAYIT ÖNERİSİ: 'Ayodhya (Saketa/Sâketa)': tanıklar bu oturumda bulundu — CHI1: Yuga Purâna'da Yavanalar 'Saketa'yı alır (tarihsiz); Smith: Gupta başkenti Ajodhya (II. Candragupta'dan itibaren, 5. yy ikinci yarısı Skandagupta); Hiuen Tsiang MS 7. yy; Smith: Gâhadavâla Candradeva 'yaklaşık 1090'da kesinlikle Benâres ve Ayodhya' üzerinde otorite; EB 1911: Ajodhya Kosala başkenti. Ayodhya için ilk TARİHLİ anılış ve kuruluş araştırılmadı."
+ },
+ {
   "id": "ferrara",
   "ad": "Ferrara",
   "atlas_ad": "Ferrara",
@@ -6855,6 +7207,92 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Atlasın Gao için “1324 Mali” başlangıcı TDV ile uyumlu (yıl hassasiyeti). Uyarı: Hunwick/Sa‘dî’ye göre Songay’ın boyun eğmesi Mansa Mûsâ’nın hac (724/1324) yolculuğundan SONRA, dönüşte (Gao dışında cami yaptırdı) gerçekleşti → fiilî olay 1324 sonu-1325 olabilir; TDV yılı 1324 verdiği için TDV esas alındı. TDV ile Hunwick arasında Ebû Yezîd doğumu dışında çelişki yok."
+ },
+ {
+  "id": "gaur-lakhnauti",
+  "ad": "Gaur (Lakhnautî)",
+  "atlas_ad": "Gaur (Lakhnautî)",
+  "lat": 24.868,
+  "lon": 88.133,
+  "kat1900": 1,
+  "adlar": [
+   "Gauda / Gavr (Gur)",
+   "Lakshmanavati",
+   "Lakhnauti (Leknevtî)",
+   "Cennetâbâd (Humâyûn, 1538)"
+  ],
+  "ilk": {
+   "t": "1119-01-01",
+   "gun": "1108-1119 (Ballâl Sen saltanatı, TDV)",
+   "nicelik": "kurulus",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Leknevtî' (Azmi Özcan), https://islamansiklopedisi.org.tr/leknevti",
+   "tanik": "Senâ hânedanına mensup Ballâl Sen (1108-1119) tarafından kurulan şehre Gavr",
+   "ic_not": "TDV kuruluşu Ballâl Sen'e bağlar ve saltanatını 1108-1119 verir; aralığın GÜVENLİ (son) ucu 1119 alındı. Çelişkiler BEYAN: (1) Banglapedia 'Sena Dynasty' Vallalasena'nın saltanatını c. 1160-78 verir (TDV'den ~50 yıl geç) — TDV esas alındı; (2) Banglapedia 'Lakhnauti': Lakshmanavati adı 'most probably' Lakshmanasena'dan ve Pala Rampala'nın Ramavati'sine öykünmeyle; (3) Raverty/Minhaj notu (Tabakat-i-Nasiri, Raverty çev. 1881, s. 559 not 2): 'According to Abu-l-Fazl, the fort of Gaur was founded by Balal Sen' — kurucu kimliği için ikinci tanık (tarihsiz, çift teyit YALNIZ kurucu adı için). Kuruluşa çağdaş tarihli yazılı tanık bu oturumda BULUNAMADI: TDV'nin tarihi gelenekten türemiş olabilir. Memoirs of Gaur and Pandua (Abid Ali Khan 1931) Ballalbari/Ramabhita toponimlerini Hindu iskânına kanıt sayar (tarihsiz)."
+  },
+  "kur": {
+   "t": "1119-01-01",
+   "gun": "1108-1119 (Ballâl Sen saltanatı, TDV)",
+   "kesinlik": "onyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Leknevtî', https://islamansiklopedisi.org.tr/leknevti",
+   "tanik": "Senâ hânedanına mensup Ballâl Sen (1108-1119) tarafından kurulan şehre Gavr"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1119-01-01",
+    "t": "1202-01-01",
+    "d": "sena",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Halacîler' (Enver Konukçu), https://islamansiklopedisi.org.tr/halaciler; 'Leknevtî'",
+    "ic_not": "TDV: Bahtiyâr 'Hindu Sena hânedanının tarihî başşehri Leknevtî'yi ele geçirdi' (1202). Sena künyesi 1095-1202. TDV 'Leknevtî' ayrıca Bahtiyâr'ın Bengal fethini 594/1198 gösterir ('tarihte ilk defa anılmaya başlandı'), şehri merkez seçişini 598/1202; Halaci maddesi başşehrin alınışını 1202 verir: 1202 alındı. Diğer kaynaklar FARKLI yıllar verir: Banglapedia 'Lakhnauti' ve 'Sena Dynasty' 1204-1205; Raverty (Tabakat-i-Nasiri s. 558 not 7, Gaur MS'e dayanır) Nudiah'ın 590 H (1194) alındığını söyler. TDV esas. 598 H ∩ 1202 → kesişimin ilk günü 1202-01-01 (tablo takvimi, Jülyen)."
+   },
+   {
+    "f": "1202-01-01",
+    "t": "1227-01-01",
+    "d": "leknevti-halacileri",
+    "kunye_yok": true,
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Halacîler' (Enver Konukçu), https://islamansiklopedisi.org.tr/halaciler",
+    "ic_not": "Künyesi YOK: önerilen id 'leknevti-halacileri' = Leknevtî (Gûr-Cennetâbâd) Halacîleri, 1202-1227 (TDV 'Halacîler' madde 1. bölüm: 'Leknevtî Halacîleri (1202-1227)'). Bengal-Bihâr'a hükmeden, Delhi'ye isimde bağlı Halacî emirlikleri; Memoirs of Gaur and Pandua (Abid Ali Khan, Calcutta 1931) valileri 1205-08 İzzeddin Muhammed-i Şîrân, 1208-11 Ali-i Merdan, 1211-26 Gıyâseddin İvaz olarak sıralar (TDV'den küçük farklar; TDV esas)."
+   },
+   {
+    "f": "1227-01-01",
+    "t": "1281-01-01",
+    "d": "delhi-sultanligi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Leknevtî', https://islamansiklopedisi.org.tr/leknevti; 'Halacîler'",
+    "ic_not": "TDV: Şemsî şehzade Muhammed ve Melik İzzeddin Leknevtî'yi alır (1227), 'Bengal Şemsî topraklarına katılarak Delhi'ye bağlandı'; Delhi valileri 'melik-i Şark veya Leknevtî sultanı' unvanıyla nisbî serbestlik taşır. 1281-01-01 atlasın başlangıcı (aynı sahip delhi-sultanligi, dikiş yok). Not: Raverty Tabakat-i-Nasiri'de Tuğril Han 1279-82 isyanı ve Balban müdahalesi anlatılır — Delhi fiilî hâkimiyetinin 1281 öncesi kesintilerini bu kayıt yazmadı (süre/gün TDV'de yok)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1119-01-01",
+    "gun": "1108-1119 (Ballâl Sen saltanatı)",
+    "k": "kurulus",
+    "b": "Sena hükümdarı Ballâl Sen Gavr (Leknevtî) şehrini kurar (TDV; tarih gelenekten, aralığın son ucu).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Leknevtî', https://islamansiklopedisi.org.tr/leknevti",
+    "tanik": "Senâ hânedanına mensup Ballâl Sen (1108-1119) tarafından kurulan şehre Gavr"
+   },
+   {
+    "t": "1202-01-01",
+    "gun": "1202 (598 H)",
+    "k": "fetih",
+    "b": "Muhammed Bahtiyâr Halacî, Sena'nın başşehri Leknevtî'yi ele geçirir ve kendi merkezi yapar (Halacîler Leknevtî kolu başlar).",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Halacîler' (Enver Konukçu), https://islamansiklopedisi.org.tr/halaciler",
+    "tanik": "Hindu Sena hânedanının tarihî başşehri Leknevtî’yi ele geçirdi"
+   },
+   {
+    "t": "1227-01-01",
+    "gun": "1227",
+    "k": "fetih",
+    "b": "Delhi Sultanı İltutmış'ın Şemsî kuvvetleri Leknevtî'yi alır; Halacîler sona erer, Bengal Delhi'ye bağlanır.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Halacîler', https://islamansiklopedisi.org.tr/halaciler",
+    "tanik": "Leknevtî Halacîleri’ne son verdiler (1227)"
+   }
+  ],
+  "ic_not": "Gaur noktası = Gaur harabeleri (24.868, 88.133). Kuruluş TDV'ye (Ballâl Sen, 1108-1119) göre; aynı yer Banglapedia'ya göre 'ancient and medieval Bengal'in başkenti' (Lakhnauti maddesi) — daha eski Gauda adı ve Pala 'Ramavati' iddiaları tarihlenmedi. Adlar: Banglapedia: Lakshmanavati Müslüman yönetimde Lakhnauti oldu; TDV: Gavr/Gur ve Cennetâbâd da denir (Humâyûn 1538). Çelişki tablosu (ilk Müslüman fethi): TDV 594/1198 (bölge) ve 598/1202 (Gavr merkezi); Banglapedia 1204-05; Raverty 590 H (1194). Atlas: 1281 delhi-sultanligi dikişi TDV ile uyumlu (Delhi 1227'den beri). Atlas bit:1575/kd: 1340 bu dosyanın dışındadır."
  },
  {
   "id": "gazne",
@@ -8484,6 +8922,43 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "ATLAS DÜZELTME / UYARI: atlas Huế'yi 1281-01-01'de 'campa' ile başlatıyor; bölgenin Champa'ya ait olduğu (Ô-Lý châu) 1285 Toàn thư'sinde kanıtlı, ancak Huế ŞEHRİ/noktası için 1281-1306 tanığı yok (bölge düzeyi). Devir: Toàn thư 1306 evlilik, 1307 yeniden adlandırma (atlas Thuận Hóa'yı 1306'da devrediyor olabilir; atlasın kendi 1306 dönemi için bkz. Vikipedi 'ceded by Champa to Đại Việt in 1306'). Phú Xuân'ın kuruluşu/Nguyễn dönemi atlas kd'sinde zaten var (1558). Tek ikincil kaynak Vikipedi (en 'Huế'): 'ceded by Champa to Đại Việt in 1306'."
  },
  {
+  "id": "imphal",
+  "ad": "İmphâl (Manipûr)",
+  "atlas_ad": "İmphâl (Manipûr)",
+  "lat": 24.817,
+  "lon": 93.937,
+  "kat1900": 2,
+  "adlar": [
+   "Kangla",
+   "Kangleipak (Manipur)",
+   "İmphâl"
+  ],
+  "ilk": {
+   "t": "1522-01-01",
+   "gun": "Sakabda 1444 / 1522",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Cheitharon Kumpapa (Meetei saray kroniği), S. N. Arambam Parratt İngilizce çevirisi, The Court Chronicle of the Kings of Manipur (Londra: Royal Asiatic Society Books / Routledge 2005), Sakabda 1444 girdisi ve not 1 (archive.org cheitharol-kumbaba)",
+   "tanik": "Meetingu Lam Kyampa inaugurated Kangla.",
+   "ic_not": "Parratt dn.: 'This is the first time Kangla is mentioned.' Aynı dipnot: 1522'de başkentin 'very likely well established' olduğunu söyler (varsayım). İmphâl adı kronik girdilerinde (çevirinin kroniğinde) geçmiyor; nokta, İmphâl'in çekirdeği Kangla (<3 km) üzerinden alındı. İLK ANILIŞ kuruluş değildir: yer 1522 öncesi de var olabilir. Parratt: 'After the time of Kyampa the material becomes more straightforward' (Kyampa 1467); 33 CE (Pakhangba) ve 12. yy krallar listesi mit/gelenek, yer tanığı değil. 1247 girdisinde ('Puranthapa', Sakabda 1169) esir listesinde 'Kangla Mee Maru' adı geçer: kişi/unvan adı olarak okundu, yer tanığı sayılmadı (çevirmen dipnotu yok). Arkeolojik tarih bulunamadı (arama sonuçları yalnız popüler/ikincil; ASI Kangla raporu açılamadı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1522-01-01",
+    "gun": "Sakabda 1444 / 1522",
+    "k": "diger",
+    "b": "Manipur kralı Lam Kyampa Kangla'yı (saray alanı ve başkent çekirdeği) törenle açar; kronikte Kangla'nın ilk anılışı.",
+    "kaynak": "Cheitharon Kumpapa, Parratt çevirisi (2005), Sakabda 1444 girdisi ve not 1",
+    "tanik": "Meetingu Lam Kyampa inaugurated Kangla."
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas İmphâl'i 1281-01-01 'manipur'la başlatıyor; kronikte Kangla'nın ilk anılışı 1522 (Sakabda 1444). 1281-1522 arası şehir tanığı bulunamadı; zincir BOŞ (ilk.t atlas başlangıcından sonra). Atlas başlangıcı ya 1522'ye çekilmeli ya da (Emre kararıyla) Meetei krallığının bölge sahipliği bu noktada 'beyanlı yaklaşıklık' olarak kalmalı; 'yerleşim yok' denemez (varsayım, kanıt değil). Kronik güvenilirliği: Parratt, Kyampa (1467) sonrasını 'daha sağlam' sayar; öncesi mit karışık. kat1900: İmphâl 1900 listesinde (LISTE.tsv) yok; prens devleti başkenti olarak 2 yazıldı."
+ },
+ {
   "id": "isfahan",
   "ad": "Isfahan",
   "atlas_ad": "Isfahan",
@@ -8812,6 +9287,47 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Atlas düzeltme önerisi: Cammû için 1281-1586 'kesmir' iddiası doğrulanmadı (Keşmir Sultanlığı künyesi 1338'den; Cammû hep Hindu raca elinde). TDV 'Genellikle tarihte Keşmir’e hâkim olan güçler Cammû’ya da hâkim olmuşlardır' der (genel). 1187 öncesi için tarihli kaynak bulunamadı."
  },
  {
+  "id": "jaunpur",
+  "ad": "Cavnpur (Jaunpur)",
+  "atlas_ad": "Cavnpur (Jaunpur)",
+  "lat": 25.75,
+  "lon": 82.684,
+  "kat1900": 2,
+  "adlar": [
+   "Cavnpur (Jaunpur / Jaunanpur)"
+  ],
+  "ilk": {
+   "t": "1359-01-01",
+   "gun": "1359",
+   "nicelik": "kurulus",
+   "kesinlik": "yil",
+   "kaynak": "The Cambridge History of India, c. III: Turks and Afghans (ed. W. Haig), Cambridge 1928 (archive.org cambridgehistory03wols, djvu metni), 'The Later Tughluqs' bölümü (s. 177-178); Elliot & Dowson, History of India as Told by Its Own Historians, c. III (Şems-i Sirâc 'Afîf, Târîh-i Fîrûzşâhî), archive.org xfgf_the-history-of-india... djvu metni (Şems-i Sirâc 'Afîf, s. 307-308)",
+   "tanik": "Firuz halted for six months at Zafarabad on the Gumti",
+   "ic_not": "CHI3: Fîrûz Şah Tuğluk 1359'da Bengal'e sefere çıktı (Sikender Şah'a karşı), dönüşte Gümtî kıyısında Zafarâbâd yakınında altı ay durup yeni şehri kurdu (1360 yağmur mevsiminde yine Cavnpur'da). 'Afîf (Elliot III): 'Before this time there was no town of any extent' — kuruluş Fîrûz'a, ad Muhammed b. Tuğluk'un unvanı Cauna'ya (Cauna-pûr). ÇELİŞKİ (beyan): CHI3 'Fîrûz'un şehri alandaki ilk kasaba değildi' der ve Hindular adı Camadagni rişiden türetir — yani öncül Hindu yerleşimi var ama TARİHSİZ; 'Afîf ise büyük kasaba yok der. Öncülün adı/yeri/tarihi bulunamadı (kaynak taraması: CHI3, Elliot III, Smith). Kuruluş gününü kaynak vermez; yıl 1359 (sefer yılı) alındı, 1360 olasılığı kalır. Zafarâbâd (Manaich; CHI3: 25°42'K 82°44'D, ≈7 km) ayrı yerdir, burada yazılmaz."
+  },
+  "kur": {
+   "t": "1359-01-01",
+   "gun": "1359",
+   "kesinlik": "yil",
+   "kaynak": "The Cambridge History of India, c. III: Turks and Afghans (ed. W. Haig), Cambridge 1928 (archive.org cambridgehistory03wols, djvu metni) s. 177-178; Elliot & Dowson, History of India as Told by Its Own Historians, c. III (Şems-i Sirâc 'Afîf, Târîh-i Fîrûzşâhî), archive.org xfgf_the-history-of-india... djvu metni",
+   "tanik": "in 1359 Firuz, regardless of his treaty with the father, invaded"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1359-01-01",
+    "gun": "1359",
+    "k": "kurulus",
+    "b": "Fîrûz Şah Tuğluk, Bengal seferi sırasında Zafarâbâd yakınında altı ay kalıp Gümtî kıyısında Cavnpur'u kurar ('Afîf: orada büyük bir kasaba yoktu).",
+    "kaynak": "Elliot & Dowson, History of India as Told by Its Own Historians, c. III (Şems-i Sirâc 'Afîf, Târîh-i Fîrûzşâhî), archive.org xfgf_the-history-of-india... djvu metni (Şems-i Sirâc 'Afîf, s. 307-308)",
+    "tanik": "Before this time there was no town of any extent"
+   }
+  ],
+  "ic_not": "Atlas kur 1359-01-01 ile çakışır: ilk.t == atlas başlangıcı → sahiplik zinciri BOŞ (atlas Delhi'yi 1359'da başlatır, kaynakla uyumlu). Atlas düzeltme önerisi: yok; yalnız 'kur' gün hassasiyeti yıldır. Öncül Hindu yerleşimi (CHI3) bulunursa nokta daha erken tarihe çekilebilir."
+ },
+ {
   "id": "jodhpur",
   "ad": "Codhpûr (Jodhpur)",
   "atlas_ad": "Codhpûr (Jodhpur)",
@@ -8967,6 +9483,61 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Kuruluş tarihi bulunamadı; Goguryeo 'Buso-gap/Dongbihol' kaydı tarihsiz. Çift teyit: 918 Goryeo kuruluşu Samguk Sagi/Goryeosa çevresinden (Goryeosa) tek ana kaynak; 695 Samguk Sagi kwon 8 + kwon 35 (aynı eser) – bağımsız çift teyit yok. Takvim: ganzhi gün sütunları Jülyen'e kendi hesabımla çevrildi (919, 960 yılları ay/yıl). Atlas düzeltme önerisi: Kaesong atlas f 1281 + 'goryeo' ufuk 1000 çelişkisi yok; bu dosya 695-1000'i doldurur."
+ },
+ {
+  "id": "kalkuta",
+  "ad": "Kalküta",
+  "atlas_ad": "Kalküta",
+  "lat": 22.572,
+  "lon": 88.364,
+  "kat1900": 2,
+  "adlar": [
+   "Kalikata / Kilikatta (köy ve mahal adı)",
+   "Calcutta",
+   "Alinagar (1756-1757, Sirâcüddevle)",
+   "Kalküta"
+  ],
+  "ilk": {
+   "t": "1596-01-01",
+   "gun": "1596 (Ayn-ı Ekberî yazım aralığı 1589-1596)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Abu'l-Fazl, Ain-i-Akbari, Vol. II (H. S. Jarrett çevirisi, Calcutta 1891), dizin maddesi 'Calcutta (par. Kilikatta), s. Satgaon, S. Bengal, 141'; archive.org/details/TheAinIAkbari-VolIi (djvu.txt, curl); yazım tarihi: Vikipedi 'Ain-i-Akbari' ('between 1589 and 1596') — yalnız tarih için ikinci tanık",
+   "tanik": "Calcutta (par. Kilikatta), s. Satgaon, S. Bengal, 141",
+   "ic_not": "Satgaon sarkarı mahalleri arasında 'Calcutta' (Kilikatta) mahalı Ayn-ı Ekberî'de sayılır; Jarrett dizininde sayfa 141. Eser 1589-1596 arasında yazıldığı için aralığın GÜVENLİ (son) ucu 1596 alındı. Daha eski anılış İDDİASI: Bipradas Pipilai'nin Manasa Vijay'ı (1495) Kalikata'yı anar (Vikipedi 'Kolkata' ve 'History of Kolkata'); eser/tarih bu oturumda birincil ya da akademik kaynaktan DOĞRULANMADI, kullanılmadı. Kuruluş değil ilk anılış (alt sınır): Kalikata köyü 1690'dan önce vardır (TDV: 'Kalikâtâ köyünün yanına bir acente açması'). Banglapedia 'Calcutta': deltanın kıyı kısmı 7. yy dolayında oluşmuştur; Dhapa/Fort William/Behala buluntuları (14.-16. yy plaklar vb.) tarihlemesi kesin değil, ark yazılmadı. 1281 öncesine ait tanık BULUNAMADI."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1596-01-01",
+    "t": "1690-08-24",
+    "d": "babur-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "Abu'l-Fazl, Ain-i-Akbari II (Jarrett), Satgaon sarkarı, Bengal sûbesi, s. 141 (Akbar'ın gelir cetveli); Banglapedia 'Calcutta' (https://en.banglapedia.org/index.php/Calcutta): 1690'da Mughal hükümetinden alınan hak",
+    "ic_not": "Ayn-ı Ekberî Bengal sûbesini Bâbürlü (Akbar) idarî bölümü olarak verir; Bengal Sultanlığı 1576'da biter (Rajmahal), bu yüzden 1596'da sahip Bâbürlü. 1690-08-24 atlasın kur/ilk sahiplik günüdür (ingiltere). Egemenlik notu: Banglapedia 'the villages... from the Mughal government in 1690'; Şirket 10 Kasım 1698'de üç köyün zamindarı olur (Mughal yetkisiyle) — yani Bâbürlü egemenliği 1757'ye dek sürer (atlas düzeltme önerisi aşağıda)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1596-01-01",
+    "gun": "1596",
+    "k": "diger",
+    "b": "Kalikata (Calcutta) mahali Ayn-ı Ekberî'de Satgaon sarkarı içinde anılır (ilk anılış).",
+    "kaynak": "Abu'l-Fazl, Ain-i-Akbari II (Jarrett çevirisi), dizin, s. 141; archive.org/details/TheAinIAkbari-VolIi",
+    "tanik": "Calcutta (par. Kilikatta), s. Satgaon, S. Bengal, 141"
+   },
+   {
+    "t": "1690-08-24",
+    "gun": "24 Ağustos 1690",
+    "k": "kurulus",
+    "b": "Job Charnock İngiliz Doğu Hindistan Şirketi adına Kalikata köyünün yanında acente (ticaret merkezi) kurar; atlas bu günü İngiltere sahipliğinin başlangıcı sayar.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Kalküta' (S. A. A. Rızvî), https://islamansiklopedisi.org.tr/kalkuta (yıl 1690); gün: Vikipedi 'Job Charnock' (ikinci tanık, gün yalnız burada)",
+    "tanik": "Kalikâtâ köyünün yanına bir acente açmasıyla teşekkül etmiştir"
+   }
+  ],
+  "ic_not": "ilk anılış 1596 (Ayn-ı Ekberî); atlas kur 1690-08-24 (Charnock'un acentesi, şehrin çekirdeği) kabul edilir, TDV de çekirdeği 1690'a bağlar. Gün (24 Ağustos) TDV'de YOK, yalnız Vikipedi (ikinci tanık): ayın günü tek dayanaklı. ATLAS DÜZELTME ÖNERİSİ: atlas 1690-08-24'ten itibaren 'ingiltere' yazıyor; Banglapedia ve Vikipedi 'Kolkata'ya göre üç köy Bengal Nevvâbı'nın Bâbürlü egemenliği altındaydı, Şirket yalnız ticaret hakkı (1690) ve zamindarlık (1698) aldı; İngiliz egemenliği 1757 sonrası. Atlas bu dilimi 'babur-imparatorlugu/bengal' ya da şirket zamindarlığı beyanıyla yeniden değerlendirmeli."
  },
  {
   "id": "kamakura",
@@ -9748,6 +10319,61 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "SONUÇ: İlk anılış 1230 (MKL: 'okl. említi'; sk.wikipedia'nın atıf zinciri: Eğri/Jágerská kapitula'nın Ľubina belgesi, Villa Cassa, Šimon ve Peter'in arazi satışı, 9 hrivna). ÇELİŞKİ (beyan): Treccani, Enciclopedia Italiana (1933) 'Košice' maddesi 'ilk KESİN haber 1249' der; 1230 belgesini anmaz. MKL (belge yılı olarak 1230 veriyor, 'ilk KESİN haber' sınırlaması koymuyor) esas alındı; Treccani 1249 daha geç ve 1230'u dışlamaz. Sahiplik (Macaristan) iki tarihte de aynıdır, zincir etkilenmez; eğer 1230 çürütülürse ilk.t 1249'a iner. İlk anılış kuruluş DEĞİL: Treccani 'Verso la fine del sec. XIII divenne città' (XIII. yy sonu şehir hakkı, Alman kolonizasyonu), MKL geleneği: Géza I (1074-77) döneminde yerleştirilen Saksonlar Eski Kassa'nın yanında yerleşti (gelenek, tarihsiz; kur yazılmadı). Atlas dikişi: macaristan 1281'de sürüyor, düzeltme gerekmiyor. KAYNAK SINIRLARI: Encyclopaedia Beliana 'Košice' maddesi bulunamadı (404/madde yok); DergiPark/TDV'de Kassa şehri maddesi yok (TDV 'kaşa/košice/kaşau/kassa' aramaları: yalnız Kassâb vb.); Magdoško, 'Suburbs of Medieval Košice' (Mesto a dejiny 2023, doi 10.33542/cah2023-2-01) açık erişimli ama Zenodo PDF'i 403 verdi, açılamadı; Lexikon stredovekých miest na Slovensku (HÚ SAV 2010) ve Halaga'nın eserleri yalnız sk.wikipedia dipnotlarından biliniyor, doğrudan açılmadı => 1230 için ikinci bağımsız AKADEMİK kaynak yok (çift teyit değil). Kassa vs Košice adı: Slovak/Macar ad değişimi bu kayıtta adlar'da; atlas adı 'Kassa (Košice)'. 1290 (Jágerský biskup Andrej II Košice'yi Abaúj başdiyakozluğundan muaf etti; civitas terimi) 1281 sonrasıdır, bu kayda yazılmadı."
+ },
+ {
+  "id": "kathmandu",
+  "ad": "Katmandu",
+  "atlas_ad": "Katmandu",
+  "lat": 27.717,
+  "lon": 85.324,
+  "kat1900": 1,
+  "adlar": [
+   "Yambu / Yen (Newarca)",
+   "Kantipur (Kāntipura, Sanskritçe 'güzellik şehri')",
+   "Kāṣṭhamaṇḍap (Kasthamandapa)",
+   "Katmandu"
+  ],
+  "ilk": {
+   "t": "1020-01-01",
+   "gun": "Bhojadeva dönemi, c. 1009-1020 (yıl kayıp; güvenli uç 1020)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Luciano Petech, Mediaeval History of Nepal (c. 750-1482), Roma 1958, s. 36 (colophon: Cambridge Univ. Library Add. 2191.1, Astasahasrika-Prajnaparamita); archive.org dli.csl.4620",
+   "tanik": "The year and month are completely lost. Written at Kathmandu.",
+   "ic_not": "Petech, Bhojadeva'nın (c. 1009-1020; Rudradeva ölünce 'ruled alone for some years at Kathmandu') saltanatına ait bir elyazması kolofonunu aktarır: 'srī-Bambukramāyām' (= Yambu-krama, Katmandu'nun Newarca adı; Petech başka bir kolofonda 'Written in Kathmandu, of which Yambu is the Newari name' der). Yıl ve ay kayıptır: yalnız hükümdardan tarihleme yapılabilir; aralığın SON ucu 1020 güvenli uç alındı. Kuruluş değil ilk anılış (alt sınır). KURULUŞ GELENEĞİ (kullanılmadı): Kral Gunakamadeva, Kali-yuga 3824 (723/4) — Lévi (Le Népal II, 1905, s.184) 'passe pour le fondateur de Katmandou' der ama kral ile tarihin birbirini dışladığını yazar; Petech: 'in the later chronicles he is credited with the foundation of Kathmandu, although the traditional date ... is earlier than this king by more than 200 years'. Vikipedi'deki '185 (Maligaon heykeli) / 2000 yıllık Dhando Chaitya tuğlası' iddiaları gazete (ekantipur) kaynaklıdır, akademik teyit yok — kullanılmadı. Lévi: önceki dönem yazıtları yalnız köy topluluklarından (grāma) söz eder, kentlerden değil."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1020-01-01",
+    "t": "1281-01-01",
+    "d": "nepal",
+    "kesinlik": "yil",
+    "kaynak": "Petech, Mediaeval History of Nepal (Roma 1958), ilgili kolofon bölümleri (archive.org dli.csl.4620); TDV 'Nepal' (Meral Avcı), https://islamansiklopedisi.org.tr/nepal",
+    "ic_not": "Künye 'nepal' (Malla Krallıkları → Gorkha, f=1000) bu dönemi örtecek şekilde alındı; atlas Katmandu'yu 1281'de aynı 'nepal' ile başlatır, dikişte sahip aynı. Petech: Laksmikamadeva 'c. 1020-1041' bütün ülkenin tek hükümdarı (Katmandu dahil); 1192'de Katmandu'nun kolofonları Laksmikamadeva adına yazılır ('Yambukramāyām'), 1143 ve 1283 kolofonları 'Kāṣṭhamaṇḍapa' adını verir. İç parçalanma (Patan/Katmandu çift krallık, Karnata/Tirhut müdahalesi (Petech: Nanyadeva Tirhut krallığını kurar), Thakuri/Malla hâne geçişleri) tek künye altında TOPLANDI — dönem içi hâne geçişleri Katmandu'ya özgü gün tanığı bulunamadığı için ayrı dönem açılmadı (beyanlı yaklaşıklık). TDV: 'IX. yüzyılın sonlarında ... Thakuri hânedanına, XII. yüzyıldan itibaren Malla hânedanına geçti' (Petech Malla çağını 1200 Arimalla ile başlatır; TDV ile Petech arasında 'Malla başlangıcı' farkı ic_not). Atlas künyesi 'nepal' f=1000: 1020 sonrası ömre uygun."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1020-01-01",
+    "gun": "c. 1009-1020 (Bhojadeva)",
+    "k": "diger",
+    "b": "Katmandu'nun (Yambu-krama) ilk anılışı: Bhojadeva dönemine ait bir kolofon.",
+    "kaynak": "L. Petech, Mediaeval History of Nepal (Roma 1958), s. 36-37 (archive.org dli.csl.4620)",
+    "tanik": "Bhojadeva ruled alone for some years at Kathmandu"
+   },
+   {
+    "t": "1143-09-24",
+    "gun": "24 Eylül 1143 (NS 263)",
+    "k": "diger",
+    "b": "Kolofon 'Kastamandape' (Kāṣṭhamaṇḍapa) adıyla Katmandu'da yazılır; Narendradeva dönemi.",
+    "kaynak": "L. Petech, Mediaeval History of Nepal (Roma 1958), Manadeva/Narendradeva kolofonları bölümü (archive.org dli.csl.4620)",
+    "tanik": "Written at Kathmandu. The date is verified for the last hours of Friday, September 24th, 1143."
+   }
+  ],
+  "ic_not": "Kuruluş: bulunamadı (gelenek 723/4 Gunakamadeva — Lévi/Petech'e göre kral ile tarih uyuşmuyor, kullanılmadı). Arkeolojik akademik tarih bu oturumda bulunamadı. 1020 öncesi Katmandu için yazılı tanık yok; vadinin sahipleri (Licchavi → Thakuri) Katmandu'ya özgü tanıkla bağlanamadığı için zincir 1020'de başlar. Gunakamadeva 942-1008 Petech'in kronolojisi (tarihsiz kral). Atlas düzeltme önerisi yok. Çift teyit yok. TDV 'katmandu' slug'ı yumuşak-404; TDV 'Nepal' maddesi (Meral Avcı) açıldı: Katmandu'nun 1351 Şemseddin İlyas Şah seferiyle alındığı anılır (atlas sonrası)."
  },
  {
   "id": "katsina",
@@ -11527,6 +12153,115 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "Leh'in yazılı/arkeolojik çağdaş ilk tanığı bulunamadı (Francke 1907 + kronikler tek kaynak; Cunningham 1854 'Ladak' indirildi, bu turda taranmadı). Atlas düzeltme önerisi: yok; 'ladak' künyesi erken dönemi de kapsayacak şekilde genişletilmeli."
+ },
+ {
+  "id": "lhasa",
+  "ad": "Lhasa",
+  "atlas_ad": "Lhasa",
+  "lat": 29.652,
+  "lon": 91.172,
+  "kat1900": 2,
+  "adlar": [
+   "Rasa (Ra-sa, Tibetçe)",
+   "Luoxie / Luosha (邏些 / 邏娑, Tang kaynakları)",
+   "Lhasa"
+  ],
+  "ilk": {
+   "t": "0670-01-01",
+   "gun": "咸亨元年 = 670",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Ouyang Xiu - Song Qi vd., Xin Tangshu (Yeni Tang Tarihi) 216 shang (Tubo zhuan), metin: zh.wikisource.org/wiki/新唐書/卷216上; tarihleme: Xianheng yıl-adı 咸亨 = 670-674 (Li Chongzhi, Zhongguo lidai nianhao kao, s. 99; zh.wikipedia '咸亨' ikinci tanık)",
+   "tanik": "詔右威衛大將軍薛仁貴為邏娑道行軍大總管",
+   "ic_not": "Çince metin (curl ile okundu): 咸亨元年 (670)薛仁貴 (Xue Rengui) 'Luosha yolu ordu başkomutanı' atanır, Tibet seferine çıkar (Dafeichuan yenilgisi); aynı maddede 'btsan-po 跋布川 ya da 邏娑川'da oturur' (其贊普居跋布川，或邏娑川) denir. Luosha = Lhasa tanımlaması standart akademik okumadır (Tibetçe Ra-sa; Stein s. 60-62:'temple of Rasa (Lhasa)'); bu oturumda ayrı bir tanımlama kaynağı ALINMADI. Yıl: Tang dönem adı 咸亨元年 Çin ayıyla 3. ayda başlar (670), kesinlik yıl, YYYY-01-01 kuralı. DAHA ESKİ ANILIŞ: Jiu Tangshu 196 shang'da 'başkent Luoxie şehri' (其國都城號為邏些城) tarihsiz etnografik bölümde geçer ve 貞觀十五年 (641) Songtsen Gampo'nun Wencheng için 'bir şehir/saray yaptırması' (遂築城邑，立棟宇以居處焉) adsız anılır — ikisi de DÜŞÜNÜLEN ancak tarih+ad birlikte vermediği için başlangıç alınmadı. Kuruluş: TDV 'Tibet' (Kuan-Chun, c.41, s.123-125) 'VII. yüzyıl ... başşehir Lhasa kuruldu' der (yüzyıl); gelenek: Songtsen Gampo (öl. 649/650, Stein) Jokhang'ı inşa eder ve monarşiyi Lhasa'da kurar. Arkeolojik tarih bu oturumda bulunamadı."
+  },
+  "kur": {
+   "t": "0601-01-01",
+   "gun": "7. yüzyıl",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tibet' (Kuan-Chun), c.41 (2012), s.123-125, https://islamansiklopedisi.org.tr/tibet",
+   "tanik": "başşehir Lhasa kuruldu"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "0670-01-01",
+    "t": "0842-01-01",
+    "d": "tibet-imparatorlugu",
+    "boyasiz": true,
+    "kesinlik": "yil",
+    "kaynak": "Xin Tangshu 216 shang (zh.wikisource.org/wiki/新唐書/卷216上); R. A. Stein, Tibetan Civilization (Stanford 1972), s. 51 (archive.org tibetan-civilization)",
+    "ic_not": "Xin Tangshu: Tibet hükümdarı (btsan-po) Luosha vadisinde otururdu (670). Künye 'tibet-imparatorlugu' (629-842, boyasız; 'tubo-tibet-imparatorlugu' AYNI devlet). f = ilk tanık (670), kuruluş değil: Songtsen Gampo 629'dan beri imparatorluk künyesindedir ama Lhasa'nın o yıllardaki varlığı tarihli+adlı tanıkla bulunamadı. t = künye sonu 842 (Stein: 'Lang Darma (died 842)'; aynı eser başka yerde 'in 846, according to Sato' der — 842/846 kaynak ayrışması künye notunda zaten beyanlı, 842 korundu)."
+   },
+   {
+    "f": "0842-01-01",
+    "t": "1249-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "yil",
+    "kaynak": "Stein, Tibetan Civilization (Stanford 1972), s. 51, 60-62, 76-77 (archive.org tibetan-civilization); TDV 'Tibet' (c.41, s.123-125)",
+    "ic_not": "Lang Darma sonrası krallık parçalanır (Stein: 'Tibetan glory and the royal power were at an end'; oğulları Yumten Ü'yü, Osung 'sol kanadı' ayrı yönetir). 982-83'te Lhasa'da cami bulunması (Hudûdü'l-âlem, TDV) şehrin VAR olduğunu gösterir (şehir var, tek sahip yok). Bu aralıkta Lhasa'ya sahip bir yapı kaynakla bulunamadı: Stein 1206'ya ait Tibet geleneğinde 'Yarlung kraliyet soyundan naip Jorga ve Tshelpa başkanı Künga Dorje' Cengiz Han'a teslim olur der (Tibet kaynakları; yer-sahip bağı Lhasa için yok). Boşluk doldurma merdiveni: TDV ✓(tarihsiz), Stein ✓, Petech 'Central Tibet and the Mongols' (archive.org) OCR bozuk okunamadı, Tucci Painted Scrolls taranmadı bu aralık için. ABİ MERKEZ önerisi yok — beyanlı boşluk."
+   },
+   {
+    "f": "1249-01-01",
+    "t": "1260-01-01",
+    "d": "mogol-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "Stein, Tibetan Civilization (Stanford 1972), s. 77 (archive.org tibetan-civilization)",
+    "ic_not": "BEYANLI YAKLAŞIKLIK: Stein 1244 Sakya Pandita'nın Godan'la görüşmesine 'Dorta komutasında Kuzey Ü'ye ulaşan akın'ın eşlik ettiğini, Godan'ın 1249'da Ü ve Tsang'ın hâkimiyetini Sakyalara verdiğini yazar; tek tek Lhasa'ya dair gün yok. f = 1249 (Godan emri, yıl) alındı; Cengiz Han'a 1206 teslimi Tibet geleneğidir (Stein: 'according to Tibetan sources') ve alınmadı. Moğol İmparatorluğu künyesi (1206-1260) ömrüne uyar. Sakya künyesi (1264) bu dilimde kullanılmadı: atlas 1281'de Lhasa'yı Yuan'a verir, Sakya yönetimi Yuan himayesindedir."
+   },
+   {
+    "f": "1260-01-01",
+    "t": "1281-01-01",
+    "d": "yuan-hanedani",
+    "kesinlik": "yil",
+    "kaynak": "Stein, Tibetan Civilization (Stanford 1972), s. 77-78 (archive.org tibetan-civilization)",
+    "ic_not": "Stein: Kubilay'ın Sakya Phakpa'ya 'Tibet'in on üç eyaleti' üzerinde yönetim verdiği tarih '1253 ya da 1260' (Kubilay'ın imparator ilanı); sayımlar 1268 ve 1287. f = 1260 (Yuan künyesi f=1260-01-01 ile uyumlu; 1253 alternatifi beyan). t = atlas Lhasa başlangıcı (yuan-hanedani 1281-01-01) — aynı sahip, dikişte olay gerekmez."
+   }
+  ],
+  "olay": [
+   {
+    "t": "0670-01-01",
+    "gun": "咸亨元年 = 670",
+    "k": "diger",
+    "b": "Xin Tangshu Lhasa'yı (Luosha) ilk kez adıyla anar: Tang, Tibet'e karşı 'Luosha yolu' ordusunu atar; btsan-po 'Luosha vadisi'nde oturur.",
+    "kaynak": "Xin Tangshu 216 shang, zh.wikisource.org/wiki/新唐書/卷216上",
+    "tanik": "詔右威衛大將軍薛仁貴為邏娑道行軍大總管"
+   },
+   {
+    "t": "0842-01-01",
+    "gun": "842",
+    "k": "diger",
+    "b": "künye geçişi: Tibet İmparatorluğu → parçalanma (Lang Darma'nın ölümü, 842; 846 alternatifi).",
+    "kaynak": "R. A. Stein, Tibetan Civilization (Stanford 1972), s. 51 (archive.org tibetan-civilization)",
+    "tanik": "from the Heavenly Thrones to Lang Darma (died 842)"
+   },
+   {
+    "t": "0983-01-01",
+    "gun": "372 H / 982-983 (Hudûdü'l-âlem yazımı)",
+    "k": "diger",
+    "b": "Hudûdü'l-âlem Lhasa'da bir caminin bulunduğunu bildirir (TDV aktarımı); şehir 10. yy sonunda yaşıyor.",
+    "kaynak": "TDV İslâm Ansiklopedisi, 'Tibet' (Kuan-Chun), c.41, s.123-125, https://islamansiklopedisi.org.tr/tibet",
+    "tanik": "başşehir Lhasa’da bir mescidin bulunduğu öğrenilmektedir"
+   },
+   {
+    "t": "1249-01-01",
+    "gun": "1249",
+    "k": "diger",
+    "b": "künye geçişi: parçalı Tibet → Moğol (Godan) hâkimiyeti; Godan Ü ve Tsang yönetimini Sakya'ya devreder (beyanlı yaklaşıklık).",
+    "kaynak": "R. A. Stein, Tibetan Civilization (Stanford 1972), s. 77 (archive.org tibetan-civilization)",
+    "tanik": "Godan in 1249 gave him an order conferring the rulership of U and Tsang"
+   },
+   {
+    "t": "1260-01-01",
+    "gun": "1260",
+    "k": "diger",
+    "b": "künye geçişi: Moğol İmparatorluğu → Yuan; Kubilay imparator ilan edilir, Phakpa'ya Tibet yönetimi verilir (1253 alternatifi).",
+    "kaynak": "R. A. Stein, Tibetan Civilization (Stanford 1972), s. 77 (archive.org tibetan-civilization)",
+    "tanik": "this was in 1253, or in 1260 when he was proclaimed Emperor"
+   }
+  ],
+  "ic_not": "Lhasa (Rasa) ilk adlı+tarihli tanığı Xin Tangshu 670. Kuruluş: TDV 'VII. yüzyıl' (yüzyıl düzeyi; kur alanı alt-sınır bilgisi, zincir başlangıcı değildir); gelenek Songtsen Gampo (Stein). Zincir 670'ten başlar; 629-670 arası Lhasa için tarihli+adlı tanık bulunamadı (bulunamadı). Kaynak durumu: TDV 'lhasa' slug'ı yumuşak-404 verdi; 'tibet' ve 'nepal' maddeleri açıldı. Petech (Central Tibet and the Mongols, archive.org) OCR'ı Devanagari karakterlerle bozuk olduğundan okunamadı. Atlas düzeltme önerisi: yok (atlas 1281 yuan-hanedani ile uyumlu); zincirin 670-1281 aralığı atlas başlangıcının öncesini doldurur. Künye önerisi: 'tibet-imparatorlugu' boyasız (renk istenecek)."
  },
  {
   "id": "lizbon",
@@ -13784,6 +14519,51 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Kuruluş: bulunamadı. Mülâhaza: 'Rashtpur, Hanspur, Bagpur, Sanabpur, Mulasthan' eski adları IGI-Punjab II'de sayılır, tarihsiz. Mulasthana'yı anan Jain Harivamsa (783) ve Harisena Brhatkathakosa (931) kaydı Cunningham 1979 baskısının ek notunda anılır ama asıl metin görülmedi (ikincil, kullanılmadı). Kuşan/Eftalit/Hindu Rai dönemi (712 öncesi) tarihli tanık bulunamadığından zincire alınmadı. Atlas dikişi: atlas Gazneli'yi 1006-01-01'de başlatır = TDV 396/1006."
  },
  {
+  "id": "mursidabad",
+  "ad": "Murşidâbâd",
+  "atlas_ad": "Murşidâbâd",
+  "lat": 24.18,
+  "lon": 88.27,
+  "kat1900": 2,
+  "adlar": [
+   "Makhsusabad / Maksûdâbâd (Moxudabath, Morasudabad)",
+   "Murşidâbâd"
+  ],
+  "ilk": {
+   "t": "1621-01-01",
+   "gun": "1621",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Banglapedia 'Murshidabad', https://en.banglapedia.org/index.php/Murshidabad",
+   "tanik": "As early as 1621 English agents reported that huge quantities of silk",
+   "ic_not": "Banglapedia: şehrin menşei belirsiz; Riyaz-us-Salatin'e göre tüccar Mahsus Han yeri düzeltti ve ona 'Makhsudabad' denildi; 'Morasudabad' Bhavisya Purana'da (muhtemelen 16. yy sonu), 'Moxudabath' Valentyn haritasında (1658-64); 'As early as 1621 English agents reported that huge quantities of silk could be obtained there' — 1621 en eski tarihli tanık (Banglapedia cümlesi 'there' ile Makhsusabad'ı kasteder, bağlam tek paragraf). TDV 'Mürşidâbâd': 'yeni eyalet merkezi Maksûdâbâd'ın isminin Mürşidâbâd'a çevrilmesi' (Mürşid Kulı Han 1705 nevvâb, TDV yıl vermez; Banglapedia: diwani 1702'de, nizamat 1717'de taşındı). Kuruluş değil ilk anılış (alt sınır); kuruluş tarihi BULUNAMADI."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "1621-01-01",
+    "t": "1704-01-01",
+    "d": "babur-imparatorlugu",
+    "kesinlik": "yil",
+    "kaynak": "Banglapedia 'Murshidabad' (Makhsusabad 'eventually became a Mughal administrative station'; 1660'larda pargana merkezi), https://en.banglapedia.org/index.php/Murshidabad",
+    "ic_not": "Bengal sûbesi 1576'dan beri Bâbürlü (Akbar); 1621 Cihangir dönemi. Aynı sahip atlasın ilk sahibidir (babur-imparatorlugu 1704-01-01), dikiş yok. TDV: 'Bâbürlüler'in hizmetine girdikten sonra Evrengzîb'in sarayında yükselerek 1705’te Bengal... nevvâbı oldu'."
+   }
+  ],
+  "olay": [
+   {
+    "t": "1621-01-01",
+    "gun": "1621",
+    "k": "diger",
+    "b": "Makhsusabad'dan (bugünkü Murşidâbâd) ipek temin edilebileceği İngiliz acentelerince bildirilir (ilk tarihli tanık).",
+    "kaynak": "Banglapedia 'Murshidabad', https://en.banglapedia.org/index.php/Murshidabad",
+    "tanik": "As early as 1621 English agents reported that huge quantities of silk"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas kur:1704-01-01 'kuruluş' diyor ama yer 1704'ten çok önce vardır (Makhsusabad, 1621'de tanıklı); 1704-05 olayı isim değişikliği/eyalet merkezi taşınmasıdır (Banglapedia 'Murshid Quli Khan' 1702 diwani, 1717 nizamat). kur: kaldırılmalı ya da 'ad değişimi' beyanıyla yeniden yazılmalı; atlas zinciri 1621'den kaynaklı bağlanabilir. 1621 öncesi tanık BULUNAMADI (Bhavisya Purana 'Morasudabad' tarihsiz)."
+ },
+ {
   "id": "nanking",
   "ad": "Nanking (Nanjing)",
   "atlas_ad": "Nanking (Nanjing)",
@@ -15535,6 +16315,43 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Pamplona: kuruluş MÖ 75 (Treccani) ↔ Princeton kazıları İmparatorluk öncesi veri vermiyor — çelişki beyan; en güçlü yazılı tanık Strabon'un 'Pompelo or Pompeiopolis' kaydı (tarihsiz). 711-850 BEYANLI BOŞLUK; 466-711 Vizigot sahipliği zayıf (Vaskon bağımsızlığı). ATLAS ÖNERİSİ: 'navarra' künyesi f=824 kaynaksız bulundu; kaynakta yalnız 'IX. yy ilk yarısı'. Çift teyit: Isidorus 466 ↔ Treccani 'Spagna' ≈470 (aynı olay, yıl farkı). Zincir atlas ilk gününde (1281-01-01 Navarra) biter."
  },
  {
+  "id": "pandua-hazret",
+  "ad": "Pandua (Hazret Pandua)",
+  "atlas_ad": "Pandua (Hazret Pandua)",
+  "lat": 25.135,
+  "lon": 88.15,
+  "kat1900": 1,
+  "adlar": [
+   "Pandua / Panduya",
+   "Hazret Pandua",
+   "Fîrûzâbâd (Firuzabad, 1353'ten)"
+  ],
+  "ilk": {
+   "t": "1342-01-01",
+   "gun": "1342",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "Banglapedia 'Pandua' (Md Akhtaruzzaman), https://en.banglapedia.org/index.php/Pandua; Abid Ali Khan & H. E. Stapleton, Memoirs of Gaur and Pandua (Calcutta 1931), archive.org in.ernet.dli.2015.42243",
+   "tanik": "capital of Bengal during the time of Shamsuddin iliyas shah (1342-1358 AD)",
+   "ic_not": "Bu 'ilk anılış' DEĞİL, bulunabilen EN ESKİ tarihli tanıktır: Banglapedia 'Pandua was already a place of note before it acquired the distinction of a capital city in 1342' ve Hindu heykel/mimari kalıntıları 'antiquity'ye işaret eder; Memoirs: Hacı İlyas 'made Pandua — the ancient Hindu city 20 miles north-east of Lakhnauti — the capital' (1338'den sonraki 14 yıl içinde). 1342 öncesi Pandua için TARİHLİ tanık BULUNAMADI. TDV 'Bengal' maddesi 'Pandua'da 1338'de Sultan İskender Şah tarafından yaptırılan Adina Camii' der: Banglapedia 'Adina Mosque' ise taş kitabeye göre 1373'te İlyas Şah'ın oğlu Sikandar Şah yaptırdı der; Sikandar Şah 1338'de hükümdar olamaz (babası 1342'de kurar). TDV bu yıl ve cümlede ÇELİŞKİLİ ve 1338 PANDUA'NIN ilk anılışı olarak kullanılmadı (TDV-dış kaynak çelişkisi beyan edilir; esas olması gereken kitabe 1373)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1342-01-01",
+    "gun": "1342",
+    "k": "diger",
+    "b": "Şemseddin İlyas Şah Pandua'yı Bengal'in başkenti yapar (1353'te Fîrûzâbâd adını verir).",
+    "kaynak": "Banglapedia 'Pandua', https://en.banglapedia.org/index.php/Pandua",
+    "tanik": "capital of Bengal during the time of Shamsuddin iliyas shah (1342-1358 AD)"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Pandua 1281-01-01'de delhi-sultanligi ile başlıyor; kd: 1340. Bu oturumda 1342 öncesi tarihli Pandua tanığı BULUNAMADI (şehir daha eskidir: Memoirs 'ancient Hindu city'; Cunningham ASI Report XV, Banglapedia'nın bibliyografyası, bu oturumda incelenmedi). 1281-1342 aralığında yerleşimin varlığı ve sahibi kaynaksız; abi merkez önerisi: Gaur-Lakhnauti (Memoirs: Pandua Lakhnauti'nin 20 mil kuzeydoğusu; zincir TDV'li) — Gaur zinciri Delhi'ye bağlı, bu yüzden 1281 delhi-sultanligi başlangıcı, abi merkez kuralı ile 'BEYANLI YAKLAŞIKLIK' olarak korunabilir."
+ },
+ {
   "id": "parma",
   "ad": "Parma",
   "atlas_ad": "Parma",
@@ -15745,6 +16562,161 @@ window.SEHIR_TARIHCE_K12 = [
   ],
   "dikis_beyan": "Atlas Parma'yı 1281-01-01'de '__BOSLUK__' ile başlatıyor (BEYAN AVRUPA-SINIR-0077: 1395 öncesi sahip künyesiz komün/senyörlük). Bu zincir 1106-1281 arası 'parma-komunu' (künyesiz) olarak aynı beyanı DESTEKLER: boşluk künye açılınca kapanır. 1281 tarihli olay YOK (dikiş beyanlı).",
   "ic_not": "Çift teyit: kuruluş 183 (Treccani + Livius). TDV 'Parma' maddesi yok (arama 579 içerik / 4 başlık: Parma ile ilgili madde yok). EI 'Parma' (1935) ayrıca açılmadı; Treccani online yeterli. Zincirde Bizans/Longobard/Frank geçişleri İtalya genel çerçevesidir (beyanlı)."
+ },
+ {
+  "id": "patna",
+  "ad": "Patna (Azîmâbâd)",
+  "atlas_ad": "Patna (Azîmâbâd)",
+  "lat": 25.594,
+  "lon": 85.138,
+  "kat1900": 1,
+  "adlar": [
+   "Pâtaligrâma/Pâtaliputra (Pataliputra)",
+   "Kusumapura / Pushpapura",
+   "Palibothra (Megasthenes)",
+   "Azîmâbâd",
+   "Patna"
+  ],
+  "ilk": {
+   "t": "-0299-01-01",
+   "gun": "MÖ 300",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "onyil",
+   "kaynak": "The Cambridge History of India, c. I: Ancient India (ed. E. J. Rapson), Cambridge 1922 (archive.org cambridgehistory01raps, djvu metni), Ch. XV 'India in Greek and Latin literature' (Megasthenes fr. 25/26), s. 411",
+   "tanik": "Built at the confluence of the Ganges and the Son, it formed an oblong",
+   "ic_not": "İLK ANILIŞ (kuruluş DEĞİL): Megasthenes'in Pataliputra tarifi (CHI1: 'Megasthenes (300 B.C.)'; Candragupta'nın MÖ 321 tahta çıkışı sonrası elçilik). KURULUŞ GELENEĞİ (kullanılmadı, tarihsiz/çelişkili): CHI1 — Brahman/Jain geleneği Kusumapura'yı Udayin'e, Budist gelenek Pataliputra'yı Kâlâşoka'ya bağlar; Ajâtaşatru Patali köyünde Vrici'lere karşı kale kurmuştu (Pali gelenek); Beal (Hiuen Tsiang): 'Kusumapura' eski başkent, Pataliputra-pura bir Patali ağacı oğlunun cin yapımı konutundan. Smith: Udayin (~MÖ 450) hakkında 'The tradition that he built Pataliputra is all that is known about him'. Wikipedia/TDV: MÖ 5. yy (TDV 'tarihi milâttan önce V. yüzyıla kadar gitmektedir') — tarihsiz geleneğe dayanır, kuruluş sayılmadı. Arkeolojik: Kumrahar/Bulandibagh kazıları (Waddell 1903, Spooner 1912-13) CHI1 kaynakçasında; bu oturumda açılmadı. 3 KM SORUNU: Pataliputra'nın kazılmış çekirdeği (Kumrahar/Bulandibagh) atlas noktasından 3 km'den uzak olabilir; şehir (Megasthenes: 14 km uzun) bütün Patna'yı kapsadığı için kayıt Patna'ya bağlandı — mesafe ÖLÇÜLMEDİ, kural gereği doğrulama bekliyor."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [
+   {
+    "f": "-0299-01-01",
+    "t": "-0183-01-01",
+    "d": "maurya",
+    "kesinlik": "onyil",
+    "boyasiz": true,
+    "kaynak": "The Cambridge History of India, c. I: Ancient India (ed. E. J. Rapson), Cambridge 1922 (archive.org cambridgehistory01raps, djvu metni), 'India in Greek and Latin literature' (Megasthenes) s. 411; V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Candragupta bölümü",
+    "ic_not": "Megasthenes Candragupta'nın Pataliputra başkentinde elçidir (CHI1: 'Megasthenes (300 B.C.)'); Pataliputra Maurya imparatorluk başkentidir (CHI1, Smith).Künye 'maurya' -0320..-0184 (boyasız)."
+   },
+   {
+    "f": "-0183-01-01",
+    "t": "-0071-01-01",
+    "d": "sunga",
+    "kesinlik": "onyil",
+    "boyasiz": true,
+    "kaynak": "The Cambridge History of India, c. I: Ancient India (ed. E. J. Rapson), Cambridge 1922 (archive.org cambridgehistory01raps, djvu metni), Şunga bölümü s. 517-518 ('That the first Sunga king reigned at Pataliputra is assumed in literature'); V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Şunga bölümü ('The capital continued to be, as of old, Pataliputra')",
+    "ic_not": "Pushyamitra darbesi 'c. MÖ 184'; CHI1: Purâna listesi 'on Şunga kralı 112 yıl' → MÖ ~72 (astronomik -0071); CHI1 bu Purâna kronolojisinin Kanva/Andhra kısmını 'tarihi çarpıtılmış' sayar ve Şunga/Kanva'nın EŞZAMANLI olduğunu söyler — bu yüzden Kanva ayrı dönem AÇILMADI; bitiş Purâna aritmetiğidir (beyanlı yaklaşıklık). Künye 'sunga' -0184..-0072."
+   },
+   {
+    "f": "-0071-01-01",
+    "t": "0320-02-26",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "bulunamadı (Pataliputra için MÖ 71 - MS 320 sahip zinciri açılmadı); The Cambridge History of India, c. I: Ancient India (ed. E. J. Rapson), Cambridge 1922 (archive.org cambridgehistory01raps, djvu metni) s. 544 vd. (Yavana akını, Kharavela)",
+    "ic_not": "~390 yıllık BEYANLI BOŞLUK. CHI1: Kharavela (Hathigumpha) Pataliputra'daki krala karşı kesin zafer kazandı ama kralın kim olduğu 'bilinmiyor'; Yuga Purâna'ya göre Yavanalar Pushpapura'ya (Pataliputra) kadar geldi ama kalmadı (tarihsiz); Smith: Kuşanların Benâres'e dek 'muhtemel' egemenliği (MS 90-100), Pataliputra adıyla anılmaz. Doldurma merdiveni: CHI1, Smith tarandı."
+   },
+   {
+    "f": "0320-02-26",
+    "t": "0480-01-01",
+    "d": "gupta",
+    "kesinlik": "gun",
+    "boyasiz": true,
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Gupta imparatorluğu bölümü (I. Candragupta, Pataliputra yakınında yerel Raca); Smith, Purâna tarihlendirme bölümü ('the imperial Gupta dynasty having ended about 480 A. D.')",
+    "ic_not": "Gupta çağı 26 Şubat 320'de başlar (Smith: I. Candragupta'nın taç giyme günü); Candragupta 'Pataliputra'da veya yakınında' yerel Raca iken imparatorluk iddiasını Pataliputra'ya bağlar. Bitiş Smith'e göre 'yaklaşık 480' (künye 320-540 → kısa; künye KISALT/aynı polity sürüyor: Geç Gupta soyu için bkz. sonraki dilim). Smith: V. yy'da fiilî başkent Ayodhya'ya kaydı ama Pataliputra 'muhteşem ve kalabalık şehir olarak sürdü'. Hiuen Tsiang/Fa-Hien ayrı tanık."
+   },
+   {
+    "f": "0480-01-01",
+    "t": "0801-01-01",
+    "d": "__BOSLUK__",
+    "kesinlik": "belirsiz",
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Geç Gupta + Harşa + Pala bölümleri; S. Beal, Si-yu-ki: Buddhist Records of the Western World (Hiuen Tsiang), Londra 1884, archive.org siyukibuddhistre01hsua / siyukibuddhistre02samu (Kitap VIII, Pataliputra)",
+    "ic_not": "~320 yıllık BEYANLI BOŞLUK (çok sahipli): Smith — Geç Gupta soyu Magadha'da (MS ~535-720; Adityasena Harşa'nın 648 ölümünden sonra bağımsızlık ilan etti, son Raca II. Jivitagupta VIII. yy başı), Purnavarman Magadha'da yerel Raca (~600), Şaşanka Pataliputra'daki Buda ayak izini kırdı (~600), Harşa (606-648) üstün hükümdar. Hiuen Tsiang (MS ~637): Pataliputra için 'now there only remain the old foundation walls' ve Ganj kıyısında yaklaşık 1000 haneli küçük kasaba — şehir küçülmüş ama var. Dönem tek sahibe verilemedi."
+   },
+   {
+    "f": "0801-01-01",
+    "t": "1193-01-01",
+    "d": "pala",
+    "kesinlik": "onyil",
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Pala krallığı bölümü ('Magadha passed under the sway of the Pala kings of Bengal'; Dharmapala hibe belgesi 'issued at the royal camp or court at Pataliputra'); The Cambridge History of India, c. III: Turks and Afghans (ed. W. Haig), Cambridge 1928 (archive.org cambridgehistory03wols, djvu metni) s. 511 (Pala soyunun Bihar'da sürmesi)",
+    "ic_not": "Smith: Magadha 'VIII. yy sonu ya da IX. yy başında' Pala krallarına geçti; f = bu aralığın SON ucu (801; güvenli uç). Dharmapala'nın (800 sonrası) hibe belgesi Pataliputra'daki 'jayaskandhavara'dan verildi. Künye 'pala' 750-1120; CHI3: Palalar Bengal'i yitirse de Bihar'ı sürdürdü, son bilinen raca Indradyumnapala 'Bihar'ın Müslüman istilası sırasında' hâlâ hükümdardı → künye 1120'de bitiyor, dilim 1193'e uzatıldı (KÜNYE GENİŞLET önerisi, hayalet uyarısı beklenir). Patna'nın adı geçmez; 'Bihar' bütün bölgedir (beyanlı)."
+   },
+   {
+    "f": "1193-01-01",
+    "t": "1206-03-15",
+    "d": "gurlu",
+    "kesinlik": "yil",
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Bengal/Bihar fethi bölümü ('stormed Bihar in (a.h. 589) 1193 a.d.'); The Cambridge History of India, c. III: Turks and Afghans (ed. W. Haig), Cambridge 1928 (archive.org cambridgehistory03wols, djvu metni) s. 42-43 (Ihtiyâreddin'in Bihar seferi, yazı 1193)",
+    "ic_not": "Muhammed b. Bahtiyâr (Ihtiyâreddin) Bihar'ı 1193'te (589 H) basar (Smith); CHI3: Aybek 'geçmiş ve gelecek fetihleri' ikta olarak Ihtiyâreddin'e verdi. Patna'nın adı geçmez — Bihar genel; beyanlı yaklaşıklık (fiilî yönetim Gurlu adına Aybek/Ihtiyâreddin'de)."
+   },
+   {
+    "f": "1206-03-15",
+    "t": "1281-01-01",
+    "d": "delhi-sultanligi",
+    "kesinlik": "gun",
+    "kaynak": "The Cambridge History of India, c. III: Turks and Afghans (ed. W. Haig), Cambridge 1928 (archive.org cambridgehistory03wols, djvu metni) s. 49 (Muhammed b. Sâm'ın ölümü); Iltutmuş'un 1225 Bihar seferi (Ch. III, Delhi sultanları bölümü)",
+    "ic_not": "Künye geçişi Gurlu → Delhi (bkz. Benâres kaydı). BEYAN: Bihar'ın Delhi'ye bağlılığı dalgalıdır — Bengal'de Ivaz Ghiyâseddin sultanlık ilan etti; Iltutmuş 1225'te Bihar'dan geçip 'kendi valisini Bihar'a yerleştirdi' (CHI3); Ivaz dönüşte Bihar valisini kovdu, 1227'de Mahmud geri aldı; 1240'larda Bihar'da Hindular yeniden yönetimi ele aldı, Gurait Han (Sencer) istilası sonrası Bihar 'geçici olarak elden çıktı' (CHI3). Atlas 1281 Delhi (aynı sahip)."
+   }
+  ],
+  "olay": [
+   {
+    "t": "-0183-01-01",
+    "gun": "yaklaşık MÖ 184",
+    "k": "taht",
+    "b": "Pushyamitra, son Maurya kralı Brihadratha'yı öldürür ve Pataliputra'da hüküm sürer (Şunga hanedanı).",
+    "kaynak": "The Cambridge History of India, c. I: Ancient India (ed. E. J. Rapson), Cambridge 1922 (archive.org cambridgehistory01raps, djvu metni) s. 517-518",
+    "tanik": "slew his master and reigned in his stead"
+   },
+   {
+    "t": "-0071-01-01",
+    "gun": "yaklaşık MÖ 72 (Purâna hesabı)",
+    "k": "taht",
+    "b": "Şunga soyunun sonu (Devabhûti'nin vezir Vasudeva eliyle öldürülmesi); Purâna: 112 yıllık Şunga hanedanı biter.",
+    "kaynak": "The Cambridge History of India, c. I: Ancient India (ed. E. J. Rapson), Cambridge 1922 (archive.org cambridgehistory01raps, djvu metni) s. 317-318, 530 (Şunga/Kanva)",
+    "tanik": "reigning for 112 years, were succeeded by four Kanvas"
+   },
+   {
+    "t": "0320-02-26",
+    "gun": "26 Şubat 320",
+    "k": "taht",
+    "b": "I. Candragupta taç giyer; Gupta çağı başlar (Pataliputra yakınında yerel Raca iken imparatorluk iddiası).",
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Gupta imparatorluğu bölümü",
+    "tanik": "ran from February 26, 320 a. d."
+   },
+   {
+    "t": "0480-01-01",
+    "gun": "yaklaşık 480",
+    "k": "diger",
+    "b": "künye geçişi: imparatorluk Gupta hanedanının sonu (yaklaşık 480); Magadha'da Geç Gupta soyu ve yerel Racalar.",
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Purâna tarihlendirme bölümü",
+    "tanik": "the imperial Gupta dynasty having ended about 480 A. D."
+   },
+   {
+    "t": "0801-01-01",
+    "gun": "8. yüzyıl sonu / 9. yüzyıl başı",
+    "k": "fetih",
+    "b": "Magadha (Pataliputra dahil) Bengal Pala krallarının eline geçer.",
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Geç Gupta bölümü",
+    "tanik": "Magadha passed under the sway of the Pala kings of Bengal"
+   },
+   {
+    "t": "1193-01-01",
+    "gun": "1193 (589 H)",
+    "k": "fetih",
+    "b": "Kutbüddin'in generali Muhammed b. Bahtiyâr Bihar'ı basar; Pala soyu yıkılır.",
+    "kaynak": "V. A. Smith, The Early History of India, 2. bs., Oxford 1908 (archive.org earlyhistoryofin00smit_1, djvu metni), Bengal/Bihar fethi bölümü",
+    "tanik": "stormed Bihar in (a.h. 589) 1193 a.d."
+   },
+   {
+    "t": "1206-03-15",
+    "gun": "15 Mart 1206",
+    "k": "diger",
+    "b": "künye geçişi: Gurlu → Delhi Sultanlığı (Muizzüddin Muhammed b. Sâm öldürülür; Aybek Sultan unvanını alır).",
+    "kaynak": "The Cambridge History of India, c. III: Turks and Afghans (ed. W. Haig), Cambridge 1928 (archive.org cambridgehistory03wols, djvu metni) s. 49",
+    "tanik": "he was assassinated, on March 15, on the bank of the Indus"
+   }
+  ],
+  "ic_not": "Zincir MÖ 300'den 1281'e kesintisiz; iki BEYANLI BOŞLUK (MÖ 71-MS 320, MS 480-801). Ortaçağda şehir küçülmüştür (Hiuen Tsiang ~637: eski temel duvarları + küçük kasaba); TDV: Gupta sonrası 'gerilemeye başladı', Şîr Şah 1541'de yeniden kurdu (atlas Patna 1541'de başlar, 1281-1497 Delhi). Atlas düzeltme önerisi: yok. Künye notları: maurya, sunga, gupta boyasız; pala/gurlu/delhi boyalı."
  },
  {
   "id": "pegu",
@@ -17816,6 +18788,43 @@ window.SEHIR_TARIHCE_K12 = [
   "ic_not": "Çift teyit yok. Atlas Seul 1281-1392 'goryeo' zinciriyle başlar; Seul sahasında 1068 öncesi tanık bulunamadı (TDV/İSAM yok; Encyclopedia of Korean Culture (encykorea.aks.ac.kr) ana sayfası açıldı ama madde sayfası aranmadı)."
  },
  {
+  "id": "shigatse",
+  "ad": "Şigatse",
+  "atlas_ad": "Şigatse",
+  "lat": 29.268,
+  "lon": 88.881,
+  "kat1900": 1,
+  "adlar": [
+   "Samdruptse (bSam grub rtse / bSam 'grub rtse)",
+   "Zhikatse / Şigatse (gZhis ka rtse)",
+   "Shigatse"
+  ],
+  "ilk": {
+   "t": "1408-01-01",
+   "gun": "1359-1408 aralığı (güvenli uç 1408)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "belirsiz",
+   "kaynak": "Giuseppe Tucci, Tibetan Painted Scrolls, Roma 1949, cilt I (archive.org dli.pahar.2914), Tsangpa/Rinpung bölümü ('Hor dPal abyor bzan po')",
+   "tanik": "appointed rdson dpon of bSam agrub rtse in Nan smad (today Shigatse)",
+   "ic_not": "Tucci'nin anlatısına göre Hor Paljor Sangpo (Hor dPal 'byor bzang po), spyan-sha Sönam Drakpa (1359-1408) döneminde Samdruptse (= bugünkü Şigatse) dzongpön'ü atanmıştır; atanma yılı verilmez, aralığın SON ucu (1408) güvenli uç alındı. Bu oturumda 1281 öncesine ait Şigatse anılışı BULUNAMADI: Stein 1972 ve Snellgrove-Richardson 1968 yalnız Şigatse'yi Tsang'ın büyük kenti diye anar (Samdruptse'yi Rinpung beyleri 15. yy'da alır); Vikipedi/zh-Vikipedi '11. yy'da Sakya döneminde kasabalaşma' der ama kaynak göstermez — kullanılmadı. Samdruptse'nin kuruluş tarihi (dzong) kaynakta yok (Vikipedi Shigatse Dzong 1439/1611-1621 farklı iddialar verir; akademik teyit alınmadı)."
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1436-01-01",
+    "gun": "1436",
+    "k": "fetih",
+    "b": "Rinpung beyi Dondrup Dorje Samdruptse'yi (Şigatse) Phyongs-rgyas hanedanından alır; Rinpung başkenti Samdruptse'ye taşınır.",
+    "kaynak": "Giuseppe Tucci, Tibetan Painted Scrolls, Roma 1949, cilt I (archive.org dli.pahar.2914)",
+    "tanik": "in that same year conquered by Don grub tdo rje"
+   }
+  ],
+  "ic_not": "Atlas Şigatse'yi 1281-01-01'de Yuan ile başlatıyor; ilk tanık 1408 (en geç) olduğundan 1281 öncesi sahiplik zinciri YAZILMADI (sahip=[]). Atlas başlangıcı kaynaksız: Şigatse'nin 1281'de var olduğuna dair tanık bulunamadı. ATLAS DÜZELTME ÖNERİSİ: 1281-1359 dilimi için yerleşim tanığı aranmalı (Samdruptse'ye 14. yy öncesi dair tarihli kaynak bu oturumda yok); yoksa Şigatse noktası ilk tanık tarihine (≤1408) çekilebilir ya da komşu peteklere emilir. Çift teyit yok. TDV 'sigatse' slug'ı yumuşak-404; TDV 'Tibet' maddesi Şigatse'yi (Shigatse) yalnız önemli şehir ve 2 cami olarak anar."
+ },
+ {
   "id": "siena",
   "ad": "Siena",
   "atlas_ad": "Siena",
@@ -18199,6 +19208,48 @@ window.SEHIR_TARIHCE_K12 = [
    }
   ],
   "ic_not": "KAYNAK: TDV Simnân + Iranica DĀMḠĀN (C. Adle; Semnān için ayrı madde yok) + TDV Selçuklular. 1040-1221 arası Simnân'a özgü sahiplik tanığı bulunamadı. Simnân atlasta 1221 Moğol ile başlar; kayıt Moğol alışına dikişlidir (BOSLUK → mogol-imparatorlugu, olay 618/1221). Atlas öneri: 1221-01-01 yıl düzeyinde TDV 618 (1221) ile uyumlu."
+ },
+ {
+  "id": "sivasagar-rangpur",
+  "ad": "Sibsâgar (Rangpûr)",
+  "atlas_ad": "Sibsâgar (Rangpûr)",
+  "lat": 26.9843,
+  "lon": 94.6378,
+  "kat1900": 3,
+  "adlar": [
+   "Rangpur (Ahom başkenti)",
+   "Sibsâgar (Sivasagar)"
+  ],
+  "ilk": {
+   "t": "1714-08-31",
+   "gun": "1696-1714 (Rudra Singh saltanatı); en geç Ağustos 1714",
+   "nicelik": "kurulus",
+   "kesinlik": "ay",
+   "kaynak": "S. K. Bhuyan, Tungkhungia Buranji or A History of Assam (1933), Giriş (archive.org in.ernet.dli.2015.484); E. Gait, A History of Assam (2. bs., 1926), s. 175-176, 186 (archive.org dli.ernet.15698)",
+   "tanik": "His son Rudra Singha founded the city of Rangpur",
+   "ic_not": "Bhuyan: Rangpur'u Rudra Singha (Ahom adı Sukhrungpha) kurdu. Gait: 'Rudra Singh, 1696 to 1714'; 'died in August 1714'; 'numerous brick buildings were erected at Rangpur, close to Sibsagar'. Saltanat içinde kuruluş günü kaynaklarda yok: GÜVENLİ UÇ = Rudra Singh'in ölümü (Ağustos 1714). Vikipedi 'Rangpur, Assam' (yalnız ikinci tanık, doğrulanmadı) aynı sayfada iki yıl veriyor: 1698'de şehir planı, 1707'de kuruluş. Kronik alıntısı: Bhuyan'ın Giriş bölümü, kronik (Buranji) metni değil. 1281 öncesi: Gait'e göre Ahomlar 1228'de gelir (Sukaphaa; Gait 'From 1228' kaynak listesinde); Rangpur sahasında 1228-1696 arası yerleşim kaynağı BULUNAMADI. Gait/Bhuyan'da 'Rangpur' Bengal'deki aynı adlı yerle karıştırılmamalı (S. L. Baruah: Kamrup'ta 'Rangpur district')."
+  },
+  "kur": {
+   "t": "1714-08-31",
+   "gun": "1696-1714 (Rudra Singh saltanatı); en geç Ağustos 1714",
+   "kesinlik": "ay",
+   "kaynak": "S. K. Bhuyan, Tungkhungia Buranji (1933), Giriş; E. Gait, A History of Assam (2. bs.), s. 175-176, 186",
+   "tanik": "His son Rudra Singha founded the city of Rangpur"
+  },
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1714-08-31",
+    "gun": "1696-1714 (en geç Ağustos 1714)",
+    "k": "kurulus",
+    "b": "Ahom kralı Rudra Singh (saltanat 1696-1714) tuğladan şehir ve saray yaptırarak Rangpur'u kurar (Charaideo ve Garhgaon'dan sonra yeni başkent).",
+    "kaynak": "S. K. Bhuyan, Tungkhungia Buranji (1933), Giriş; E. Gait, A History of Assam (2. bs.), s. 176",
+    "tanik": "Rudra Singh was anxious to build a palace and city of brick"
+   }
+  ],
+  "ic_not": "ATLAS DÜZELTME ÖNERİSİ: atlas Sibsâgar'ı 1281-01-01 'ahom'la başlatıyor ama Rangpur en geç 1714'te (saltanat 1696-1714) kurulmuş; 1228'de gelen Ahomların bu noktada 1281'de şehri olduğuna dair tanık bulunamadı. Zincir BOŞ bırakıldı (ilk.t atlas başlangıcından sonra; denetim uyarı verir). Atlas başlangıcı kur 1696-1714'e çekilmeli (kesin gün gerekirse Ahom Buranjileri/Hem Chandra Goswami neşri taranmalı); 1281-1696 arası bölge komşu peteklere kalır. Vikipedi: Sivasagar tankı 1733 (Ambika Devi), şehir adı oradan; doğrulanmadı."
  },
  {
   "id": "sogut",
