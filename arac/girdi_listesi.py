@@ -732,4 +732,6 @@ GIRDI_DOSYALARI = [
     "yerlesimler_mo_avrupa.js",
     "yerlesimler_mo_amerika.js",
     "yerlesimler_mo_afrika.js",
+    # VERI-MS1-1281 (21 Ekim 2026) - 1281 oncesi kaynakli yeni yerlesimler
+    "yerlesimler_ms1_1281_yeni.js",
 ]
