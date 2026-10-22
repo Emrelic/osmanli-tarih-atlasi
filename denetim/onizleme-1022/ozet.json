@@ -1,0 +1,74 @@
+[
+ {
+  "gun": "-2999-06-15",
+  "devlet": 7,
+  "toplam_km2": 1342808,
+  "devlet_km2": {
+   "erken-harappa": 369962,
+   "hissar-kultur": 235485,
+   "dadiwan-laoguantai": 228438,
+   "liangzhu": 219135,
+   "yahya-donemleri": 194712,
+   "los-millares-kultur": 95027,
+   "malta-gantija-tarxien": 49
+  }
+ },
+ {
+  "gun": "0001-01-01",
+  "devlet": 3,
+  "toplam_km2": 717716,
+  "devlet_km2": {
+   "part": 412635,
+   "teotihuacan": 183893,
+   "zapotek-monte-alban": 121188
+  }
+ },
+ {
+  "gun": "0300-06-15",
+  "devlet": 2,
+  "toplam_km2": 305081,
+  "devlet_km2": {
+   "teotihuacan": 183893,
+   "zapotek-monte-alban": 121188
+  }
+ },
+ {
+  "gun": "0500-06-15",
+  "devlet": 3,
+  "toplam_km2": 426341,
+  "devlet_km2": {
+   "teotihuacan": 183893,
+   "bizans": 121260,
+   "zapotek-monte-alban": 121188
+  }
+ },
+ {
+  "gun": "0800-06-15",
+  "devlet": 3,
+  "toplam_km2": 791365,
+  "devlet_km2": {
+   "nube": 357353,
+   "abbasi": 312752,
+   "bizans": 121260
+  }
+ },
+ {
+  "gun": "1000-06-15",
+  "devlet": 32,
+  "toplam_km2": 7666643,
+  "devlet_km2": {
+   "karahanli": 855867,
+   "bizans": 751557,
+   "fatimi": 640122,
+   "almanya": 639730,
+   "song": 561113,
+   "macaristan": 392587,
+   "kalacuri-tripuri": 377678,
+   "nube": 357651,
+   "angkor-kmer": 309930,
+   "leon-kralligi": 261698,
+   "nri": 243897,
+   "pagan": 242555
+  }
+ }
+]
